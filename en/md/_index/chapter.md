@@ -1,0 +1,25 @@
+# Chapter Index
+
+Total: 21
+
+- [Ancestries](../chapter/ancestries.md)
+- [Background](../chapter/background.md)
+- [Careers](../chapter/careers.md)
+- [Classes](../chapter/classes.md)
+- [Combat](../chapter/combat.md)
+- [Complications](../chapter/complications.md)
+- [Culture](../chapter/cultures.md)
+- [Downtime Projects](../chapter/downtime-projects.md)
+- [For the Director](../chapter/for-the-director.md)
+- [Gods and Religion](../chapter/gods-and-religion.md)
+- [Introduction](../chapter/introduction.md)
+- [Kits](../chapter/kits.md)
+- [Making a Hero](../chapter/making-a-hero.md)
+- [Negotiation](../chapter/negotiation.md)
+- [Perks](../chapter/perks.md)
+- [Rewards](../chapter/rewards.md)
+- [Skills](../chapter/skills.md)
+- [Tests](../chapter/tests.md)
+- [The Basics](../chapter/the-basics.md)
+- [Titles](../chapter/titles.md)
+- [Treasures](../chapter/treasures.md)
