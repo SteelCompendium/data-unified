@@ -3,15 +3,15 @@ average_potency: Might − 1
 name: Fury
 scc: mcdm.heroes.v1/class/fury
 skills:
-    - 'You gain the Nature skill (see Skills in Chapter 9: Tests). Then choose any two skills from the exploration or intrigue skill groups. (*Quick Build:* Alertness, Jump, Nature.)'
+    - 'You gain the Nature skill (see Skills in Chapter 9: [Tests](scc:mcdm.heroes.v1/chapter/tests)). Then choose any two skills from the exploration or intrigue skill groups. (*Quick Build:* Alertness, Jump, Nature.)'
 strong_potency: Might
 type: class
 weak_potency: Might − 2
 ---
 
-You do not temper the heat of battle within you. You unleash it! Your experience in the wild taught you the secrets of predators, and now, like the raptor, the panther, the wolf, you channel unfettered anger into martial prowess. Primordial Chaos is your ally. Let others use finesse to clean up the wreckage left in your wake.
+You do not temper the heat of battle within you. You unleash it! Your experience in the wild taught you the secrets of predators, and now, like the raptor, the [panther](scc:mcdm.heroes.v1/kit/panther), the wolf, you channel unfettered anger into martial prowess. Primordial Chaos is your ally. Let others use finesse to clean up the wreckage left in your wake.
 
-**As a fury, you devastate foes with overwhelming might, hurl yourself and enemies around the battlefield, and grow stronger as your ferocity increases. Nature has no concept of fairness—and neither do you.**
+**As a [fury](scc:mcdm.heroes.v1/class/fury), you devastate foes with overwhelming might, hurl yourself and enemies around the battlefield, and grow stronger as your ferocity increases. Nature has no concept of fairness—and neither do you.**
 
 > "DEATH!"
 >
@@ -37,13 +37,13 @@ You do not temper the heat of battle within you. You unleash it! Your experience
 
 **Recoveries:** 10
 
-**Skills:** You gain the Nature skill (see Skills in Chapter 9: Tests). Then choose any two skills from the exploration or intrigue skill groups. (*Quick Build:* Alertness, Jump, Nature.)
+**Skills:** You gain the Nature skill (see Skills in Chapter 9: [Tests](scc:mcdm.heroes.v1/chapter/tests)). Then choose any two skills from the exploration or intrigue skill groups. (*Quick Build:* Alertness, Jump, Nature.)
 
 ###### Fury Advancement Table
 
 | Level | Features                                                                                                                        | Abilities                 | Aspect Abilities |
 |-------|---------------------------------------------------------------------------------------------------------------------------------|---------------------------|------------------|
-| 1st   | Primordial Aspect, Ferocity, Growing Ferocity, Aspect Features, Aspect Triggered Action, Mighty Leaps, Fury Abilities           | Signature, 3, 5           | -                |
+| 1st   | Primordial Aspect, Ferocity, Growing Ferocity, Aspect Features, Aspect Triggered Action, Mighty Leaps, [Fury](scc:mcdm.heroes.v1/class/fury) Abilities           | Signature, 3, 5           | -                |
 | 2nd   | Perk, Aspect Feature, Aspect Ability                                                                                            | Signature, 3, 5           | 5                |
 | 3rd   | Aspect Feature, 7-Ferocity Ability                                                                                              | Signature, 3, 5, 7        | 5                |
 | 4th   | Characteristic Increase, Damaging Ferocity, Growing Ferocity Improvement, Perk, Primordial Attunement, Primordial Strike, Skill | Signature, 3, 5, 7        | 5                |

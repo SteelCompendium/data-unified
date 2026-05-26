@@ -6,7 +6,7 @@ scc: mcdm.heroes.v1/complication/infernal-contract-but-like-bad
 type: complication
 ---
 
-You made a deal with a devil. Not a very good deal, because it wasn't a very good devil. It's too late for regrets, though, because your soul is forfeit unless you find a loophole or can convince the devil to void the deal.
+You made a deal with a [devil](scc:mcdm.heroes.v1/ancestry/devil). Not a very good deal, because it wasn't a very good [devil](scc:mcdm.heroes.v1/ancestry/devil). It's too late for regrets, though, because your soul is forfeit unless you find a loophole or can convince the [devil](scc:mcdm.heroes.v1/ancestry/devil) to void the deal.
 
 **Benefit:** Choose one of the following benefits:
 

@@ -4,7 +4,7 @@ scc: mcdm.heroes.v1/feature.trait/human-traits
 type: trait
 ---
 
-Human heroes have access to the following traits.
+[Human](scc:mcdm.heroes.v1/ancestry/human) heroes have access to the following traits.
 
 #### Signature Trait: Detect the Supernatural
 
@@ -32,4 +32,4 @@ Your instinctive resilience protects you from injuries beyond the routine. Whene
 
 ##### Staying Power (2 Points)
 
-Your human physiology allows you to fight, run, and stay awake longer than others. You increase your number of Recoveries by 2.
+Your [human](scc:mcdm.heroes.v1/ancestry/human) physiology allows you to fight, run, and stay awake longer than others. You increase your number of Recoveries by 2.

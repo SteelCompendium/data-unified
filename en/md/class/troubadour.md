@@ -3,15 +3,15 @@ average_potency: Presence − 1
 name: Troubadour
 scc: mcdm.heroes.v1/class/troubadour
 skills:
-    - 'You gain the Read Person skill (see Skills in Chapter 9: Tests). Then choose two skills from the interpersonal skill group and one skill from the intrigue or lore skill groups. (*Quick Build:* Brag, Flirt, Read Person, Rumors.)'
+    - 'You gain the Read Person skill (see Skills in Chapter 9: [Tests](scc:mcdm.heroes.v1/chapter/tests)). Then choose two skills from the interpersonal skill group and one skill from the intrigue or lore skill groups. (*Quick Build:* Brag, Flirt, Read Person, Rumors.)'
 strong_potency: Presence
 type: class
 weak_potency: Presence − 2
 ---
 
-The whole world's a stage, and everyone on it, an actor. No one knows this better than the troubadour. You find energy in the drama of everyday life and know how to draw spectacle forth from even the most mundane of situations. You accent highs and deepen lows in service to whoever might witness your performance.
+The whole world's a stage, and everyone on it, an actor. No one knows this better than the [troubadour](scc:mcdm.heroes.v1/class/troubadour). You find energy in the drama of everyday life and know how to draw spectacle forth from even the most mundane of situations. You accent highs and deepen lows in service to whoever might witness your performance.
 
-**As a troubadour, you chase drama. The insurmountable dangers of the world might cause many a hero to cower. But you take to that world stage not intending to die, but to find out if you are truly alive.**
+**As a [troubadour](scc:mcdm.heroes.v1/class/troubadour), you chase drama. The insurmountable dangers of the world might cause many a hero to cower. But you take to that world stage not intending to die, but to find out if you are truly alive.**
 
 "History is a tale. Each of us is just a story we tell ourselves. Change the story, and you change the world." **Jackson Bootblack**
 
@@ -37,13 +37,13 @@ There is no visible text in the image provided. The image appears to show a deco
 
 **Recoveries:** 8
 
-**Skills:** You gain the Read Person skill (see Skills in Chapter 9: Tests). Then choose two skills from the interpersonal skill group and one skill from the intrigue or lore skill groups. (*Quick Build:* Brag, Flirt, Read Person, Rumors.)
+**Skills:** You gain the Read Person skill (see Skills in Chapter 9: [Tests](scc:mcdm.heroes.v1/chapter/tests)). Then choose two skills from the interpersonal skill group and one skill from the intrigue or lore skill groups. (*Quick Build:* Brag, Flirt, Read Person, Rumors.)
 
 ###### Troubadour Advancement Table
 
 | Level | Features                                                                                                                        | Abilities                 | Class Act Abilities |
 |-------|---------------------------------------------------------------------------------------------------------------------------------|---------------------------|---------------------|
-| 1st   | Troubadour Class Act, Drama, Kit, Scene Partner, Routines, Class Act Features, Class Act Triggered Action, Troubadour Abilities | Signature, 3, 5           | -                   |
+| 1st   | [Troubadour](scc:mcdm.heroes.v1/class/troubadour) Class Act, Drama, Kit, Scene Partner, Routines, Class Act Features, Class Act Triggered Action, [Troubadour](scc:mcdm.heroes.v1/class/troubadour) Abilities | Signature, 3, 5           | -                   |
 | 2nd   | Appeal to the Muses, Invocation, Perk, Class Act Ability                                                                        | Signature, 3, 5           | 5                   |
 | 3rd   | Class Act Feature, 7-Drama Ability                                                                                              | Signature, 3, 5, 7        | 5                   |
 | 4th   | Characteristic Increase, Melodrama, Perk, Skill, Zeitgeist                                                                      | Signature, 3, 5, 7        | 5                   |

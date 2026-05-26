@@ -6,7 +6,7 @@ scc: mcdm.heroes.v1/feature.trait.censor.level-7/7th-level-domain-feature
 type: trait
 ---
 
-You gain a domain feature from your domain, as shown on the 7th-Level Censor Domain Features table.
+You gain a domain feature from your domain, as shown on the 7th-Level [Censor](scc:mcdm.heroes.v1/class/censor) Domain Features table.
 
 ###### 7th-Level Censor Domain Features Table
 

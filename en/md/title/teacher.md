@@ -6,7 +6,7 @@ scc: mcdm.heroes.v1/title/teacher
 type: title
 ---
 
-*Someday, I'll understand how peeling these carrots for dinner relates to my elementalist training.*
+*Someday, I'll understand how peeling these carrots for dinner relates to my [elementalist](scc:mcdm.heroes.v1/class/elementalist) training.*
 
 **Prerequisite:** You train or command at least three lower-level members of your class.
 

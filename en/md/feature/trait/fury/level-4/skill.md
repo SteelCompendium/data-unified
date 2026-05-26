@@ -6,4 +6,4 @@ scc: mcdm.heroes.v1/feature.trait.fury.level-4/skill
 type: trait
 ---
 
-You gain one skill of your choice. See Skills in Chapter 9: Tests.
+You gain one skill of your choice. See Skills in Chapter 9: [Tests](scc:mcdm.heroes.v1/chapter/tests).

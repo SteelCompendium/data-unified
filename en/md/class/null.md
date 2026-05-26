@@ -3,7 +3,7 @@ average_potency: Intuition − 1
 name: "Null"
 scc: mcdm.heroes.v1/class/null
 skills:
-    - 'You gain the Psionics skill (see Skills in Chapter 9: Tests). Then choose any two skills from the interpersonal or lore skill groups. (*Quick Build:* Psionics, Read Person, Timescape.)'
+    - 'You gain the Psionics skill (see Skills in Chapter 9: [Tests](scc:mcdm.heroes.v1/chapter/tests)). Then choose any two skills from the interpersonal or lore skill groups. (*Quick Build:* Psionics, Read Person, Timescape.)'
 strong_potency: Intuition
 type: class
 weak_potency: Intuition − 2
@@ -11,7 +11,7 @@ weak_potency: Intuition − 2
 
 The mind is not separate from the body. Perfection of one requires perfection of the other. You strive for perfect discipline, perfect order, mastery over mind and body, becoming an unarmed psionic warrior who dampens and absorbs magic and psionics. You require no weapons, no tools. You suffice.
 
-**As a null, you resist the supernatural forces of the universe with composure and confidence. As you strive for perfect order, you are an enemy of the ultimate expression of chaos: the supernatural. Those who break the laws of nature using sorcery or psionics should fear you.**
+**As a [null](scc:mcdm.heroes.v1/class/null), you resist the supernatural forces of the universe with composure and confidence. As you strive for perfect order, you are an enemy of the ultimate expression of chaos: the supernatural. Those who break the laws of nature using sorcery or psionics should fear you.**
 
 > "Any weapon can be turned against the hand that wields it."
 >
@@ -37,16 +37,16 @@ The mind is not separate from the body. Perfection of one requires perfection of
 
 **Recoveries:** 8
 
-**Skills:** You gain the Psionics skill (see Skills in Chapter 9: Tests). Then choose any two skills from the interpersonal or lore skill groups. (*Quick Build:* Psionics, Read Person, Timescape.)
+**Skills:** You gain the Psionics skill (see Skills in Chapter 9: [Tests](scc:mcdm.heroes.v1/chapter/tests)). Then choose any two skills from the interpersonal or lore skill groups. (*Quick Build:* Psionics, Read Person, Timescape.)
 
 ###### Null Advancement Table
 
 | Level | Features                                                                                                                                            | Abilities                     | Tradition Abilities |
 |-------|-----------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------|---------------------|
-| 1st   | Null Tradition, Discipline, Null Field, Inertial Shield, Discipline Mastery, Null Speed, Psionic Augmentation, Psionic Martial Arts, Null Abilities | Two signature, 3, 5           | -                   |
+| 1st   | [Null](scc:mcdm.heroes.v1/class/null) Tradition, Discipline, [Null](scc:mcdm.heroes.v1/class/null) Field, Inertial Shield, Discipline Mastery, [Null](scc:mcdm.heroes.v1/class/null) Speed, Psionic Augmentation, Psionic Martial Arts, [Null](scc:mcdm.heroes.v1/class/null) Abilities | Two signature, 3, 5           | -                   |
 | 2nd   | Perk, Tradition Feature, Tradition Ability                                                                                                          | Two signature, 3, 5           | 5                   |
 | 3rd   | Psionic Leap, Reorder, 7-Discipline Ability                                                                                                         | Two signature, 3, 5, 7        | 5                   |
-| 4th   | Characteristic Increase, Discipline Mastery Improvement, Enhanced Null Field, Perk, Regenerative Field, Skill                                       | Two signature, 3, 5, 7        | 5                   |
+| 4th   | Characteristic Increase, Discipline Mastery Improvement, Enhanced [Null](scc:mcdm.heroes.v1/class/null) Field, Perk, Regenerative Field, Skill                                       | Two signature, 3, 5, 7        | 5                   |
 | 5th   | Tradition Feature, 9-Discipline Ability                                                                                                             | Two signature, 3, 5, 7, 9     | 5                   |
 | 6th   | Elemental Absorption, Elemental Buffer, Perk, Tradition Ability                                                                                     | Two signature, 3, 5, 7, 9     | 5, 9                |
 | 7th   | Characteristic Increase, Discipline Mastery Improvement, Psi Boost, Improved Body, Skill                                                            | Two signature, 3, 5, 7, 9     | 5, 9                |

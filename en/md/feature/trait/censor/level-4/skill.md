@@ -6,4 +6,4 @@ scc: mcdm.heroes.v1/feature.trait.censor.level-4/skill
 type: trait
 ---
 
-You gain one skill of your choice. See [Skills](#page-268-0) in Chapter 9: Tests.
+You gain one skill of your choice. See Skills in Chapter 9: [Tests](scc:mcdm.heroes.v1/chapter/tests).

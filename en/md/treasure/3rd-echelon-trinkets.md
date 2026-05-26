@@ -87,7 +87,7 @@ Additionally, you have the following ability.
 
 **Project Goal:** 450
 
-**Effect:** You must be a null to wear this ring. While you do so, the area of your Null Field ability increases by 1.
+**Effect:** You must be a [null](scc:mcdm.heroes.v1/class/null) to wear this ring. While you do so, the area of your [Null](scc:mcdm.heroes.v1/class/null) Field ability increases by 1.
 
 Additionally, you have the following ability.
 

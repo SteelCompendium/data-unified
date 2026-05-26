@@ -9,7 +9,7 @@ stamina_bonus: +9 per echelon
 type: kit
 ---
 
-The Warrior Priest kit imbues the power of the gods into your weapon, making it a smiting instrument. You wade into the fray without fear, thanks to the power of the divine... and the heavy armor you wear.
+The [Warrior Priest](scc:mcdm.heroes.v1/kit/warrior-priest) kit imbues the power of the gods into your weapon, making it a smiting instrument. You wade into the fray without fear, thanks to the power of the divine... and the heavy armor you wear.
 
 ##### Equipment
 

@@ -4,61 +4,61 @@ scc: mcdm.heroes.v1/chapter/ancestries
 type: chapter
 ---
 
-Fantastic peoples inhabit the worlds of *Draw Steel*. Among them are devils, dwarves, elves, time raiders—and of course humans, whose culture and history dominates many worlds.
+Fantastic peoples inhabit the worlds of *Draw Steel*. Among them are [devils](scc:mcdm.heroes.v1/ancestry/devil), [dwarves](scc:mcdm.heroes.v1/ancestry/dwarf), elves, [time raiders](scc:mcdm.heroes.v1/ancestry/time-raider)—and of course [humans](scc:mcdm.heroes.v1/ancestry/human), whose culture and history dominates many worlds.
 
 Your hero is one of these folks! The fantastic ancestry you choose bestows benefits that come from your anatomy and physiology. This choice doesn't grant you cultural benefits, such as crafting or lore skills, though. While many game settings have cultures made of mostly one ancestry, other cultures and worlds have a cosmopolitan mix of peoples.
 
-In *Draw Steel*, ancestry describes how you were born. Culture (part of [Chapter 4: Background](#page-67-0)) describes how you grew up. If you want to be a wode elf who was raised in a forest among other wode elves, you can do that! If you want to play a wode elf who was raised in an underground city of dwarves, humans, and orcs, you can do that too!
+In *Draw Steel*, ancestry describes how you were born. Culture (part of Chapter 4: [Background](scc:mcdm.heroes.v1/chapter/background)) describes how you grew up. If you want to be a [wode elf](scc:mcdm.heroes.v1/ancestry/wode-elf) who was raised in a forest among other [wode elves](scc:mcdm.heroes.v1/ancestry/wode-elf), you can do that! If you want to play a [wode elf](scc:mcdm.heroes.v1/ancestry/wode-elf) who was raised in an underground city of [dwarves](scc:mcdm.heroes.v1/ancestry/dwarf), [humans](scc:mcdm.heroes.v1/ancestry/human), and [orcs](scc:mcdm.heroes.v1/ancestry/orc), you can do that too!
 
 This chapter details twelve ancestries for the game:
 
-**Devil:** Devils originated in the Seven Cities of Hell and have a supernatural charisma that helps them persuade others. They are similar in stature to humans, and their skin tones include deep blues, purples, and reds. They sport horns, eyes of all shades (including gold and red), and tails, and some have feathered or leathery wings.
+**[Devil](scc:mcdm.heroes.v1/ancestry/devil):** [Devils](scc:mcdm.heroes.v1/ancestry/devil) originated in the Seven Cities of Hell and have a supernatural charisma that helps them persuade others. They are similar in stature to [humans](scc:mcdm.heroes.v1/ancestry/human), and their skin tones include deep blues, purples, and reds. They sport horns, eyes of all shades (including gold and red), and tails, and some have feathered or leathery wings.
 
-**Dragon Knight:** Dragon knights are muscled draconic humanoids who stand between 6 and 7 feet tall. The scales covering their reptilian heads, bodies, and tails can be almost any color. All dragon knights have wings, but on only a few are those wings big enough to let them fly.
+**[Dragon Knight](scc:mcdm.heroes.v1/ancestry/dragon-knight):** [Dragon knights](scc:mcdm.heroes.v1/ancestry/dragon-knight) are muscled draconic humanoids who stand between 6 and 7 feet tall. The scales covering their reptilian heads, bodies, and tails can be almost any color. All [dragon knights](scc:mcdm.heroes.v1/ancestry/dragon-knight) have wings, but on only a few are those wings big enough to let them fly.
 
-**Dwarf:** Humanoids with stony skin, dwarves have short and stout bodies. Many carve supernatural runes into their flesh, and some have beards made of crystals.
+**[Dwarf](scc:mcdm.heroes.v1/ancestry/dwarf):** Humanoids with stony skin, [dwarves](scc:mcdm.heroes.v1/ancestry/dwarf) have short and stout bodies. Many carve supernatural runes into their flesh, and some have beards made of crystals.
 
-**Wode Elf:** Lithe humanoids with finely furred skin in all shades of blue, wode elves have angular features and large, pointed ears akin to a bat's. They possess a supernatural glamor that allows them to blend in with their surroundings when they wish to hide.
+**[Wode Elf](scc:mcdm.heroes.v1/ancestry/wode-elf):** Lithe humanoids with finely furred skin in all shades of blue, [wode elves](scc:mcdm.heroes.v1/ancestry/wode-elf) have angular features and large, pointed ears akin to a bat's. They possess a supernatural glamor that allows them to blend in with their surroundings when they wish to hide.
 
-**High Elf:** Stately and graceful, high elves have tall, willowy bodies, pointed ears, and smoother skin than most other humanoids. Rare metal inlays such as gold, platinum, palladium, and iridium act as organic components within their skin. The truest form of any high elf is hidden from most—sometimes even from themself—thanks to a supernatural glamor that makes them more attractive to others, whatever that might mean to an individual. This glamor transcends physical appearance, also slightly altering a high elf's tone and smell.
+**[High Elf](scc:mcdm.heroes.v1/ancestry/high-elf):** Stately and graceful, [high elves](scc:mcdm.heroes.v1/ancestry/high-elf) have tall, willowy bodies, pointed ears, and smoother skin than most other humanoids. Rare metal inlays such as gold, platinum, palladium, and iridium act as organic components within their skin. The truest form of any [high elf](scc:mcdm.heroes.v1/ancestry/high-elf) is hidden from most—sometimes even from themself—thanks to a supernatural glamor that makes them more attractive to others, whatever that might mean to an individual. This glamor transcends physical appearance, also slightly altering a [high elf's](scc:mcdm.heroes.v1/ancestry/high-elf) tone and smell.
 
-**Hakaan:** Descended from stone giants, the mighty hakaan stand over 9 feet tall and have well-muscled bodies made of organic stone. They are the largest ancestry in this book!
+**[Hakaan](scc:mcdm.heroes.v1/ancestry/hakaan):** Descended from stone giants, the mighty [hakaan](scc:mcdm.heroes.v1/ancestry/hakaan) stand over 9 feet tall and have well-muscled bodies made of organic stone. They are the largest ancestry in this book!
 
-**Human:** Humans are the most numerous people in Orden and many other fantasy worlds! In *Draw Steel*, humans have all the diversity that our species displays in real life—and they can sense the presence of supernatural energy!
+**[Human](scc:mcdm.heroes.v1/ancestry/human):** [Humans](scc:mcdm.heroes.v1/ancestry/human) are the most numerous people in Orden and many other fantasy worlds! In *Draw Steel*, [humans](scc:mcdm.heroes.v1/ancestry/human) have all the diversity that our species displays in real life—and they can sense the presence of supernatural energy!
 
-**Memonek:** Originating on Axiom, the Plane of Uttermost Law, memonek are a machine people made of metal, marble, glass, and other inorganic materials. Their bodies are lightweight, making them easier to move and letting them fall at slower speeds.
+**[Memonek](scc:mcdm.heroes.v1/ancestry/memonek):** Originating on Axiom, the Plane of Uttermost Law, [memonek](scc:mcdm.heroes.v1/ancestry/memonek) are a machine people made of metal, marble, glass, and other inorganic materials. Their bodies are lightweight, making them easier to move and letting them fall at slower speeds.
 
-**Orc:** Orcs have skin in green tones and stand slightly taller and wider than humans. A supernatural energy they call "the blood fire" flows through their veins, igniting colorful lines in an orc's skin during life-or-death battles.
+**[Orc](scc:mcdm.heroes.v1/ancestry/orc):** [Orcs](scc:mcdm.heroes.v1/ancestry/orc) have skin in green tones and stand slightly taller and wider than [humans](scc:mcdm.heroes.v1/ancestry/human). A supernatural energy they call "the blood fire" flows through their veins, igniting colorful lines in an [orc's](scc:mcdm.heroes.v1/ancestry/orc) skin during life-or-death battles.
 
-**Polder:** The smallest of the ancestries in this book, polders stand no taller than 3-1/2 feet. They look like smaller humans, and they have the ability to blend in with the shadows.
+**[Polder](scc:mcdm.heroes.v1/ancestry/polder):** The smallest of the ancestries in this book, [polders](scc:mcdm.heroes.v1/ancestry/polder) stand no taller than 3-1/2 feet. They look like smaller [humans](scc:mcdm.heroes.v1/ancestry/human), and they have the ability to blend in with the shadows.
 
-**Revenant:** No hero starts their life as a revenant. Rather, these undead creatures return to the world of the living because they have dire business that must be finished. A character of any ancestry can become a revenant.
+**[Revenant](scc:mcdm.heroes.v1/ancestry/revenant):** No hero starts their life as a [revenant](scc:mcdm.heroes.v1/ancestry/revenant). Rather, these undead creatures return to the world of the living because they have dire business that must be finished. A character of any ancestry can become a [revenant](scc:mcdm.heroes.v1/ancestry/revenant).
 
-**Time Raider:** Travelers of the timescape, the time raiders (or kuran'zoi as they call themselves) have four arms and a single ocular sensor instead of a pair of eyes. Many have innate psionic abilities that make them capable warriors.
+**[Time Raider](scc:mcdm.heroes.v1/ancestry/time-raider):** Travelers of the timescape, the [time raiders](scc:mcdm.heroes.v1/ancestry/time-raider) (or kuran'zoi as they call themselves) have four arms and a single ocular sensor instead of a pair of eyes. Many have innate psionic abilities that make them capable warriors.
 
 > **Other Sections**
 >
 > The rules for using ancestries refer to lots of other parts of the game. You can find information on specific topics as follows:
 >
-> Edges and banes, Recoveries, respites: [Chapter 1: The Basics](#page-17-3)
+> Edges and banes, Recoveries, respites: Chapter 1: [The Basics](scc:mcdm.heroes.v1/chapter/the-basics)
 >
-> Languages: [Chapter 4: Background](#page-67-0)
+> Languages: Chapter 4: [Background](scc:mcdm.heroes.v1/chapter/background)
 >
-> Abilities, conditions, potencies, saving throws, surges: [Chapter 5: Classes](#page-83-2)
+> Abilities, conditions, potencies, saving throws, surges: Chapter 5: [Classes](scc:mcdm.heroes.v1/chapter/classes)
 >
-> Skills, tests: Chapter 9: Tests
+> Skills, tests: Chapter 9: [Tests](scc:mcdm.heroes.v1/chapter/tests)
 >
-> Crafting projects: [Chapter 12: Downtime Projects](#page-307-2)
+> Crafting projects: Chapter 12: [Downtime Projects](scc:mcdm.heroes.v1/chapter/downtime-projects)
 >
-> Main actions and maneuvers, creature size, damage and Stamina, dying and death, flanking, movement and forced movement, winded: [Chapter 10: Combat](#page-288-0)
+> Main actions and maneuvers, creature size, damage and Stamina, dying and death, flanking, movement and forced movement, winded: Chapter 10: [Combat](scc:mcdm.heroes.v1/chapter/combat)
 
 ### On the Origin of Species
 
-Orden (talked about in Chapter 1: The Basics) is a fantasy world. It works on principles similar to those many people throughout history believed governed the real world. "I dunno, a god did it probably."
+Orden (talked about in Chapter 1: [The Basics](scc:mcdm.heroes.v1/chapter/the-basics)) is a fantasy world. It works on principles similar to those many people throughout history believed governed the real world. "I dunno, a god did it probably."
 
-Humans, elves, orcs, dwarves, dragons, all have creator gods—the Elder Gods, four of whom made the world for some reason. Maybe they were bored.
+[Humans](scc:mcdm.heroes.v1/ancestry/human), elves, [orcs](scc:mcdm.heroes.v1/ancestry/orc), [dwarves](scc:mcdm.heroes.v1/ancestry/dwarf), dragons, all have creator gods—the Elder Gods, four of whom made the world for some reason. Maybe they were bored.
 
-The fashion among those gods for creating new, intelligent, species petered out after the orcs. Once humans came along and invented war, it stopped being fun.
+The fashion among those gods for creating new, intelligent, species petered out after the [orcs](scc:mcdm.heroes.v1/ancestry/orc). Once [humans](scc:mcdm.heroes.v1/ancestry/human) came along and invented war, it stopped being fun.
 
 It may be all species were created by gods. That's certainly what a lot of people throughout our own history assumed. Orden has no Darwin and probably won't ever. There's still inheritance. People expect children to look like their parents, but there aren't evolutionary pressures except on a very local scale.
 
@@ -66,13 +66,13 @@ And in a world where powerful, world-altering magics are available, mortals some
 
 However, mortals are not gods and lack their ineffable wisdom. They are, in fact, very effable. Many have sought the power to create. It is available to any sorcerer of near-godlike power with the right rituals, though these days that power is very obscure. Creating new intelligent species was easier for mortal wizards back in the youth of the world when magic was friskier.
 
-In every instance in recorded history, attempts by mortals to make obedient servitor species backfired. The steel dwarves worked marvels with valiar, the truemetal, and the miracle mineral iridoss, known as prismacore, that grants objects a semblance of life. Eventually their science and magics produced the omnivok—machines that were self-aware. Perhaps uniquely, when the dwarves realized they had created beings equal to themselves they stopped their work and gave their creations full rights and independence, preferring to work with them rather than attempt, and inevitably fail, to be their masters.
+In every instance in recorded history, attempts by mortals to make obedient servitor species backfired. The steel [dwarves](scc:mcdm.heroes.v1/ancestry/dwarf) worked marvels with valiar, the truemetal, and the miracle mineral iridoss, known as prismacore, that grants objects a semblance of life. Eventually their science and magics produced the omnivok—machines that were self-aware. Perhaps uniquely, when the [dwarves](scc:mcdm.heroes.v1/ancestry/dwarf) realized they had created beings equal to themselves they stopped their work and gave their creations full rights and independence, preferring to work with them rather than attempt, and inevitably fail, to be their masters.
 
-Normally, it doesn't work out that nicely. Even with the best of intentions, things go awry. The Dragon Phalanx were created by Good King Omund's wizard Vitae to be the perfect knights, dispensing justice throughout the lands. But the same sorceries that grant self-awareness also grant independence. Agency. And though they enjoyed 30 years of peace and justice, eventually the dragon knights were betrayed by one of their own, seduced by the power offered by Ajax.
+Normally, it doesn't work out that nicely. Even with the best of intentions, things go awry. The Dragon Phalanx were created by Good King Omund's wizard Vitae to be the perfect knights, dispensing justice throughout the lands. But the same sorceries that grant self-awareness also grant independence. Agency. And though they enjoyed 30 years of peace and justice, eventually the [dragon knights](scc:mcdm.heroes.v1/ancestry/dragon-knight) were betrayed by one of their own, seduced by the power offered by Ajax.
 
 The law of unintended consequences applies to the just and the unjust alike.
 
-Usually when some powerful being tries to create an intelligent species, it's for less-than-virtuous reasons. The synliroi are responsible for several intelligent species in the timescape, each an attempt to create a perfectly obedient servitor species. The most notorious example are the kuran'zoi—the time raiders who rebelled almost immediately and who carry a burning hate for the voiceless talkers to this day.
+Usually when some powerful being tries to create an intelligent species, it's for less-than-virtuous reasons. The synliroi are responsible for several intelligent species in the timescape, each an attempt to create a perfectly obedient servitor species. The most notorious example are the kuran'zoi—the [time raiders](scc:mcdm.heroes.v1/ancestry/time-raider) who rebelled almost immediately and who carry a burning hate for the voiceless talkers to this day.
 
 A perhaps less egregious use of this power is called *quickening*, used when a powerful mage lives in and amongst some clever species just on the cusp of self-awareness. These instances, which are much more numerous than creating a new species from whole cloth, are more like the concept of *uplifting* found in science fiction. The mage or witch or shaman didn't create anything. They just gave these cute, clever, frog-things a little boost. A little nudge. And suddenly there are angulotls walking around having conversations with each other,
 
@@ -88,7 +88,7 @@ At the end of the day, if you throw out all of this and replace it with somethin
 
 Obviously you're free to invent whatever name you want for your character! And your director might have their own setting that uses different cultures than those in Orden. But if you want to pick an Orden-appropriate name for your hero, keep reading.
 
-Equally obviously; names are cultural, not biological. Your character probably has a name appropriate to whatever culture they were born into, or grew up in. A human raised by hakaan would probably have a hakaan name.
+Equally obviously; names are cultural, not biological. Your character probably has a name appropriate to whatever culture they were born into, or grew up in. A [human](scc:mcdm.heroes.v1/ancestry/human) raised by [hakaan](scc:mcdm.heroes.v1/ancestry/hakaan) would probably have a [hakaan](scc:mcdm.heroes.v1/ancestry/hakaan) name.
 
 #### Last Names and Bynames
 
@@ -110,7 +110,7 @@ Most cultures in Vasloria make a distinction between masculine and feminine name
 
 Among those cultures which do make a distinction between masculine and feminine names, there are always names that *could* refer to a person of any gender. Here in the real world, you can't tell a person's gender just from the name "Shane." This is mostly because which names are considered masculine or feminine changes over time, and when this happens, there's a period—maybe a few generations—where the name could refer to a person of any gender.
 
-Of course, there's no law (neither metaphorically nor literally) that requires your character to go by their birth name. They might not even know their birth name depending on what happened after they were born. It's not unusual, especially among talents, for a hero to adopt a moniker or sobriquet instead of a name. And in some cultures, there's a tradition of changing your name—or at least how you prefer to be known—as you go through different stages of life. High elves sometimes adopt a wholly new name when they reach a certain age, or more commonly, they choose a different component of their name. When A Mist Curls Around Dying Embers was a young woman, she was known as Mist. Now that she's the master of the Tower of Translation, she's known as Embers.
+Of course, there's no law (neither metaphorically nor literally) that requires your character to go by their birth name. They might not even know their birth name depending on what happened after they were born. It's not unusual, especially among [talents](scc:mcdm.heroes.v1/class/talent), for a hero to adopt a moniker or sobriquet instead of a name. And in some cultures, there's a tradition of changing your name—or at least how you prefer to be known—as you go through different stages of life. [High elves](scc:mcdm.heroes.v1/ancestry/high-elf) sometimes adopt a wholly new name when they reach a certain age, or more commonly, they choose a different component of their name. When A Mist Curls Around Dying Embers was a young woman, she was known as Mist. Now that she's the master of the Tower of Translation, she's known as Embers.
 
 #### Authentic or Comedic?
 
@@ -148,7 +148,7 @@ The choice of name is an important one, because it says a lot about you and how 
 
 ##### Wode Elf Names
 
-Elves in general have a casual attitude toward gender, it having no direct bearing on procreation for them. (Normal elf upon learning how humans mate: "You mean... like animals?") They tend to view the various sex-linked traits associated among other ancestries with masculinity or femininity as a kind of fashion to be taken up or discarded as the mood suits. Over one life, any elf might wear masculine features, or feminine features, or both, many times. For wode elves, this often means adopting a new name, or a different version of the same name. Llyandros might become Llyandra for instance.
+Elves in general have a casual attitude toward gender, it having no direct bearing on procreation for them. (Normal elf upon learning how [humans](scc:mcdm.heroes.v1/ancestry/human) mate: "You mean... like animals?") They tend to view the various sex-linked traits associated among other ancestries with masculinity or femininity as a kind of fashion to be taken up or discarded as the mood suits. Over one life, any elf might wear masculine features, or feminine features, or both, many times. For [wode elves](scc:mcdm.heroes.v1/ancestry/wode-elf), this often means adopting a new name, or a different version of the same name. Llyandros might become Llyandra for instance.
 
 **Feminine:** Elvyr, Eviarwyc, Illwyv, Iorwyth, Lliarwyn, Meithennyn, Nimuë, Rhegyth, Viarwyn, Ysallwyth
 
@@ -158,7 +158,7 @@ Elves in general have a casual attitude toward gender, it having no direct beari
 
 ##### High Elf Names
 
-High elf names are poetic. They are an attempt to capture a fleeting, often contradictory, impulse, or emotion. They sometimes contain references to the natural world. They are never meant to be taken literally and they are not an attempt to make a character feel heroic.
+[High elf](scc:mcdm.heroes.v1/ancestry/high-elf) names are poetic. They are an attempt to capture a fleeting, often contradictory, impulse, or emotion. They sometimes contain references to the natural world. They are never meant to be taken literally and they are not an attempt to make a character feel heroic.
 
 **Examples:** The Anticipation of a Sigh Upon His Lips, A Crown of Starlight on Winter Snow, The Earth Cries the Skies Divide, Echoes of Autumn Heat, Edges of a Leaf Torn by the Wind, Every Flake of Snow a Memory, A Heart That Will Not Yield the Stars, The Last Star Fading With Morning, A Rain of Glass Over a Sea of Dreams, The Sun Reflected in a Lover's Tear
 
@@ -172,7 +172,7 @@ High elf names are poetic. They are an attempt to capture a fleeting, often cont
 
 ##### Western Vasloria Human Names
 
-Human names vary widely by culture. The following examples are from Western Vasloria.
+[Human](scc:mcdm.heroes.v1/ancestry/human) names vary widely by culture. The following examples are from Western Vasloria.
 
 **Feminine:** Brenwyn, Demelza, Elzbeth, Gwynhyvyr, Maerwyn, Margaret, Meliora, Rowenna, Tamara, Wenna
 
@@ -198,7 +198,7 @@ Human names vary widely by culture. The following examples are from Western Vasl
 
 ##### Polder Names
 
-For reasons not well understood, polders in Vasloria use surnames. First names seem chosen to imply a degree of sophistication (or, at least, what polders consider sophisticated) while last names are typically common, compound words. No one knows why they do this.
+For reasons not well understood, [polders](scc:mcdm.heroes.v1/ancestry/polder) in Vasloria use surnames. First names seem chosen to imply a degree of sophistication (or, at least, what [polders](scc:mcdm.heroes.v1/ancestry/polder) consider sophisticated) while last names are typically common, compound words. No one knows why they do this.
 
 **Feminine:** Agatha, Amaryllis, Beverly, Esmerelda, Marceline, Modesty, Penelope, Rosemarie, Ursula, Weatherly
 
@@ -210,11 +210,11 @@ For reasons not well understood, polders in Vasloria use surnames. First names s
 
 ##### Revenant Names
 
-Revenants most often keep whatever names they had in life. They may have any number of reasons to adopt a new name in which case that name would reflect their reasons for doing so. Perhaps they adopt a moniker like many talents do, or they choose a new name from their original culture, or something completely different!
+[Revenants](scc:mcdm.heroes.v1/ancestry/revenant) most often keep whatever names they had in life. They may have any number of reasons to adopt a new name in which case that name would reflect their reasons for doing so. Perhaps they adopt a moniker like many [talents](scc:mcdm.heroes.v1/class/talent) do, or they choose a new name from their original culture, or something completely different!
 
 ##### Time Raider Names
 
-Kuran'zoi names typically end with an epithet, given when the young time raider comes of age, that reflects their uniquely rebellious nature.
+Kuran'zoi names typically end with an epithet, given when the young [time raider](scc:mcdm.heroes.v1/ancestry/time-raider) comes of age, that reflects their uniquely rebellious nature.
 
 **Feminine:** Ak'karatar, Ip'pritt, Ner'radmok, Orov'vika, Phe'kala, Quix'x, Thes'srika, Thos'sivik, Um'manri, Vir'rikin
 
@@ -226,30 +226,30 @@ Kuran'zoi names typically end with an epithet, given when the young time raider 
 
 ### Measurements
 
-How tall is a polder? How long does a dwarf live? The Ancestry Measurements table provides the average adult height and weight ranges and life expectancy for each of the ancestries in this chapter. These measurements are only averages, and many folks in the world exist outside of them, so your hero can too!
+How tall is a [polder](scc:mcdm.heroes.v1/ancestry/polder)? How long does a [dwarf](scc:mcdm.heroes.v1/ancestry/dwarf) live? The Ancestry Measurements table provides the average adult height and weight ranges and life expectancy for each of the ancestries in this chapter. These measurements are only averages, and many folks in the world exist outside of them, so your hero can too!
 
-Revenants aren't on the table, since their height and weight is based on their previous ancestry. Likewise, they live until destroyed or moving on after completing their unfinished business.
+[Revenants](scc:mcdm.heroes.v1/ancestry/revenant) aren't on the table, since their height and weight is based on their previous ancestry. Likewise, they live until destroyed or moving on after completing their unfinished business.
 
-Humans have the potential to live a little longer on Orden than they do in the real world thanks to the presence of magic.
+[Humans](scc:mcdm.heroes.v1/ancestry/human) have the potential to live a little longer on Orden than they do in the real world thanks to the presence of magic.
 
 ###### Ancestry Measurements Table
 
 | Ancestry      | Height in Feet/<br>Inches | Weight in<br>Pounds | Life Expectancy in<br>Years |
 |---------------|---------------------------|---------------------|-----------------------------|
-| Devil         | 5'0''-6'0''               | 120-250             | 70-120                      |
-| Dragon Knight | 6'0''-7'0''               | 200-350             | 50-90                       |
-| Dwarf         | 4'0''-4'6''               | 500-1,000           | 700-1,500                   |
-| Wode Elf      | 5'6''-6'6''               | 100-150             | 1,200-3,000                 |
-| High Elf      | 5'6''-6'6''               | 100-150             | 1,200-3,000                 |
-| Hakaan        | 9'0''-10'0''              | 1,000-2,000         | 300-500                     |
-| Human         | 5'0''-6'0''               | 100-300             | 70-120                      |
-| Memonek       | 5'0''-6'0''               | 50-100              | 70-120                      |
-| Orc           | 5'6''-6'6''               | 150-300             | 50-90                       |
-| Polder        | 3'3''-3'6''               | 20-50               | 50-90                       |
-| Time Raider   | 5'0''-6'0''               | 120-250             | 50-90                       |
+| [Devil](scc:mcdm.heroes.v1/ancestry/devil)         | 5'0''-6'0''               | 120-250             | 70-120                      |
+| [Dragon Knight](scc:mcdm.heroes.v1/ancestry/dragon-knight) | 6'0''-7'0''               | 200-350             | 50-90                       |
+| [Dwarf](scc:mcdm.heroes.v1/ancestry/dwarf)         | 4'0''-4'6''               | 500-1,000           | 700-1,500                   |
+| [Wode Elf](scc:mcdm.heroes.v1/ancestry/wode-elf)      | 5'6''-6'6''               | 100-150             | 1,200-3,000                 |
+| [High Elf](scc:mcdm.heroes.v1/ancestry/high-elf)      | 5'6''-6'6''               | 100-150             | 1,200-3,000                 |
+| [Hakaan](scc:mcdm.heroes.v1/ancestry/hakaan)        | 9'0''-10'0''              | 1,000-2,000         | 300-500                     |
+| [Human](scc:mcdm.heroes.v1/ancestry/human)         | 5'0''-6'0''               | 100-300             | 70-120                      |
+| [Memonek](scc:mcdm.heroes.v1/ancestry/memonek)       | 5'0''-6'0''               | 50-100              | 70-120                      |
+| [Orc](scc:mcdm.heroes.v1/ancestry/orc)           | 5'6''-6'6''               | 150-300             | 50-90                       |
+| [Polder](scc:mcdm.heroes.v1/ancestry/polder)        | 3'3''-3'6''               | 20-50               | 50-90                       |
+| [Time Raider](scc:mcdm.heroes.v1/ancestry/time-raider)   | 5'0''-6'0''               | 120-250             | 50-90                       |
 
 ### Starting Size and Speed
 
 Unless otherwise noted, a character of any of these ancestries is size 1M and has speed 5 and stability 0.
 
-Where an ancestry provides you with an ability, see [Abilities](#page-83-0) in [Chapter 5: Classes](#page-83-2) for details of the ability format.
+Where an ancestry provides you with an ability, see Abilities in Chapter 5: [Classes](scc:mcdm.heroes.v1/chapter/classes) for details of the ability format.

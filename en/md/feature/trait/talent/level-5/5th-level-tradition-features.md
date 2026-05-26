@@ -6,7 +6,7 @@ scc: mcdm.heroes.v1/feature.trait.talent.level-5/5th-level-tradition-features
 type: trait
 ---
 
-Your talent tradition grants you two features, as shown on the 5th-Level Tradition Features table.
+Your [talent](scc:mcdm.heroes.v1/class/talent) tradition grants you two features, as shown on the 5th-Level Tradition Features table.
 
 ###### 5th-Level Tradition Features Table
 

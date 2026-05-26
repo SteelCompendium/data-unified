@@ -9,7 +9,7 @@ stamina_bonus: +3 per echelon
 type: kit
 ---
 
-If you want to be mobile and deal a lot of damage with melee strikes, then you should reach for the Swashbuckler kit. This is a great kit for heroes who want to be master duelists.
+If you want to be mobile and deal a lot of damage with melee strikes, then you should reach for the [Swashbuckler](scc:mcdm.heroes.v1/kit/swashbuckler) kit. This is a great kit for heroes who want to be master duelists.
 
 ##### Equipment
 

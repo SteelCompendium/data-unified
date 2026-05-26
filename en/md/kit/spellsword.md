@@ -9,7 +9,7 @@ stamina_bonus: +6 per echelon
 type: kit
 ---
 
-The Spellsword kit combines melee strikes and a little bit of magic, letting you create a warrior who doesn't have to choose between the incantation and the blade.
+The [Spellsword](scc:mcdm.heroes.v1/kit/spellsword) kit combines melee strikes and a little bit of magic, letting you create a warrior who doesn't have to choose between the incantation and the blade.
 
 ##### Equipment
 

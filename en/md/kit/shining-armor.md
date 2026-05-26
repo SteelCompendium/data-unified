@@ -8,7 +8,7 @@ stamina_bonus: +12 per echelon
 type: kit
 ---
 
-The Shining Armor kit provides the most protection a kit can afford, providing you with the sword, shield, and armor necessary to play the prototypical knight.
+The [Shining Armor](scc:mcdm.heroes.v1/kit/shining-armor) kit provides the most protection a kit can afford, providing you with the sword, shield, and armor necessary to play the prototypical knight.
 
 ##### Equipment
 

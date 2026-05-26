@@ -4,7 +4,7 @@ scc: mcdm.heroes.v1/feature.trait/wode-elf-traits
 type: trait
 ---
 
-Wode elf heroes have access to the following traits.
+[Wode elf](scc:mcdm.heroes.v1/ancestry/wode-elf) heroes have access to the following traits.
 
 #### Signature Trait: Wode Elf Glamor
 

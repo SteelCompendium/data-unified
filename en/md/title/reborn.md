@@ -18,4 +18,4 @@ Additionally, choose one of the following benefits:
 - *Kill Me Once, Shame On You:* Choose a creature keyword belonging to one of the creatures who defeated you. Any creature with that keyword takes a bane on ability rolls against you.
 - *Memories of the Beyond:* You have two skills of your choice.
 
-**Special:** If a hakaan gains this title as a result of using their Doomsight trait, they lose that trait.
+**Special:** If a [hakaan](scc:mcdm.heroes.v1/ancestry/hakaan) gains this title as a result of using their Doomsight trait, they lose that trait.

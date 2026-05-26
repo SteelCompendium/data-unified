@@ -11,7 +11,7 @@ stamina_bonus: +6 per echelon
 type: kit
 ---
 
-The Ranger kit outfits you with medium armor and weapons for every challenge, letting you easily switch between melee and ranged combat. This kit provides a good balance of bonuses to defense and offense to create a hero who is a jack-of-all-trades.
+The [Ranger](scc:mcdm.heroes.v1/kit/ranger) kit outfits you with medium armor and weapons for every challenge, letting you easily switch between melee and ranged combat. This kit provides a good balance of bonuses to defense and offense to create a hero who is a jack-of-all-trades.
 
 ##### Equipment
 

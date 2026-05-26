@@ -4,7 +4,7 @@ scc: mcdm.heroes.v1/feature.trait/time-raider-traits
 type: trait
 ---
 
-Time raider heroes have access to the following traits.
+[Time raider](scc:mcdm.heroes.v1/ancestry/time-raider) heroes have access to the following traits.
 
 #### Signature Trait: Psychic Scar
 

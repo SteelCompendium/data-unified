@@ -6,7 +6,7 @@ scc: mcdm.heroes.v1/complication/thrill-seeker
 type: complication
 ---
 
-You live for danger. Whether in battle or mundane peril, you can transcend your usual limits—and once you've tasted that excitement, you want more.
+You live for danger. Whether in battle or [mundane](scc:mcdm.heroes.v1/complication/mundane) peril, you can transcend your usual limits—and once you've tasted that excitement, you want more.
 
 **Benefit:** Each time your party reaches 2, 4, and 6 Victories, you earn the party a hero token.
 

@@ -4,7 +4,7 @@ scc: mcdm.heroes.v1/feature.trait/revenant-traits
 type: trait
 ---
 
-Revenant heroes have access to the following traits.
+[Revenant](scc:mcdm.heroes.v1/ancestry/revenant) heroes have access to the following traits.
 
 #### Signature Trait: Former Life
 

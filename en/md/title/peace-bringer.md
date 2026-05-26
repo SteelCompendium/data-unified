@@ -6,7 +6,7 @@ scc: mcdm.heroes.v1/title/peace-bringer
 type: title
 ---
 
-*There goes Diana, peace bringer. She has won many a victory with her sword, but her greatest deed was convincing two nations to stop fighting.*
+*There goes Diana, [peace bringer](scc:mcdm.heroes.v1/title/peace-bringer). She has won many a victory with her sword, but her greatest deed was convincing two nations to stop fighting.*
 
 **Prerequisite:** You conduct a successful negotiation on which the fate of a nation or a world stands.
 

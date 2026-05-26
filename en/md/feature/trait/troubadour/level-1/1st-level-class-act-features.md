@@ -6,7 +6,7 @@ scc: mcdm.heroes.v1/feature.trait.troubadour.level-1/1st-level-class-act-feature
 type: trait
 ---
 
-Your troubadour class act grants you two features, as shown on the 1st-Level Class Act Features table.
+Your [troubadour](scc:mcdm.heroes.v1/class/troubadour) class act grants you two features, as shown on the 1st-Level Class Act Features table.
 
 ###### 1st-Level Class Act Features Table
 

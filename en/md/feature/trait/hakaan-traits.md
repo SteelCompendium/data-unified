@@ -4,7 +4,7 @@ scc: mcdm.heroes.v1/feature.trait/hakaan-traits
 type: trait
 ---
 
-Hakaan heroes have access to the following traits.
+[Hakaan](scc:mcdm.heroes.v1/ancestry/hakaan) heroes have access to the following traits.
 
 #### Signature Trait: Big!
 

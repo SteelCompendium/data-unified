@@ -3,7 +3,7 @@ action_type: Main action
 class: conduit
 cost: 3 Piety
 distance: Ranged 10
-flavor: Your divine fury is a hammer that crashes down upon the unrighteous.
+flavor: Your divine [fury](scc:mcdm.heroes.v1/class/fury) is a hammer that crashes down upon the unrighteous.
 keywords:
     - Magic
     - Ranged
@@ -20,7 +20,7 @@ type: ability
 ---
 
 
-*Your divine fury is a hammer that crashes down upon the unrighteous.*
+*Your divine [fury](scc:mcdm.heroes.v1/class/fury) is a hammer that crashes down upon the unrighteous.*
 
 | **Magic, Ranged, Strike**  |               **Main action** |
 |----------------------------|------------------------------:|

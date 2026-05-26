@@ -16,7 +16,7 @@ Not all complication benefits and drawbacks carry equal weight, but each benefit
 
 ### Modifying the Story
 
-In consultation with the Director, you can modify the narrative of a complication to better fit your vision of your character's backstory—or change it entirely. For instance, if you choose Infernal Contract as a complication, you might have your hero strike a deal with an archfey or an undead general instead of a devil!
+In consultation with the Director, you can modify the narrative of a complication to better fit your vision of your character's backstory—or change it entirely. For instance, if you choose [Infernal Contract](scc:mcdm.heroes.v1/complication/infernal-contract) as a complication, you might have your hero strike a deal with an archfey or an undead general instead of a [devil](scc:mcdm.heroes.v1/ancestry/devil)!
 
 Many of the details of each complication are purposefully left vague, so that you can connect the complication to the rest of your backstory. If your complication took place during an attack, accident, or other event, you decide the specific details of those events and any other creatures involved.
 
@@ -30,158 +30,158 @@ Complications are presented in alphabetical order.
 
 | d100 | Complication                       | d100 | Complication               |
 |------|------------------------------------|------|----------------------------|
-| 1    | Advanced Studies                   | 51   | Loner                      |
-| 2    | Amnesia                            | 52   | Lost in Time               |
-| 3    | Animal Form                        | 53   | Lost Your Head             |
-| 4    | Antihero                           | 54   | Lucky                      |
-| 5    | Artifact Bonded                    | 55   | Master Chef                |
-| 6    | Bereaved                           | 56   | Meddling Butler            |
-| 7    | Betrothed                          | 57   | Medium                     |
-| 8    | Chaos Touched                      | 58   | Medusa Blood               |
-| 9    | Chosen One                         | 59   | Misunderstood              |
-| 10   | Consuming Interest                 | 60   | Mundane                    |
-| 11   | Corrupted Mentor                   | 61   | Outlaw                     |
-| 12   | Coward                             | 62   | Pirate                     |
-| 13   | Crash Landed                       | 63   | Preacher                   |
-| 14   | Cult Victim                        | 64   | Primordial Sickness        |
-| 15   | Curse of Caution                   | 65   | Prisoner of the Synlirii   |
-| 16   | Curse of Immortality               | 66   | Promising Apprentice       |
-| 17   | Curse of Misfortune                | 67   | Psychic Eruption           |
-| 18   | Curse of Poverty                   | 68   | Raised by Beasts           |
-| 19   | Curse of Punishment                | 69   | Refugee                    |
-| 20   | Curse of Stone                     | 70   | Rival                      |
-| 21   | Cursed Weapon                      | 71   | Rogue Talent               |
-| 22   | Disgraced                          | 72   | Runaway                    |
-| 23   | Dragon Dreams                      | 73   | Searching for a Cure       |
-| 24   | Elemental Inside                   | 74   | Secret Identity            |
-| 25   | Evanesceria                        | 75   | Secret Twin                |
-| 26   | Exile                              | 76   | Self-Taught                |
-| 27   | Fallen Immortal                    | 77   | Sewer Folk                 |
-| 28   | Famous Relative                    | 78   | Shadow Born                |
-| 29   | Feytouched                         | 79   | Shared Spirit              |
-| 30   | Fiery Ideal                        | 80   | Shattered Legacy           |
-| 31   | Fire and Chaos                     | 81   | Shipwrecked                |
-| 32   | Following in the Footsteps         | 82   | Sibling's Shield           |
-| 33   | Forbidden Romance                  | 83   | Silent Sentinel            |
-| 34   | Frostheart                         | 84   | Slight Case of Lycanthropy |
-| 35   | Getting Too Old for This           | 85   | Stolen Face                |
-| 36   | Gnoll-Mauled                       | 86   | Strange Inheritance        |
-| 37   | Greening                           | 87   | Stripped of Rank           |
-| 38   | Grifter                            | 88   | Thrill Seeker              |
-| 39   | Grounded                           | 89   | Vampire Scion              |
-| 40   | Guilty Conscience                  | 90   | Voice in Your Head         |
-| 41   | Hawk Rider                         | 91   | Vow of Duty                |
-| 42   | Host Body                          | 92   | Vow of Honesty             |
-| 43   | Hunted                             | 93   | Waking Dreams              |
-| 44   | Hunter                             | 94   | War Dog Collar             |
-| 45   | Indebted                           | 95   | War of Assassins           |
-| 46   | Infernal Contract                  | 96   | Ward                       |
-| 47   | Infernal Contract... But, Like, Bad | 97   | Waterborn                  |
-| 48   | Ivory Tower                        | 98   | Wodewalker                 |
-| 49   | Lifebonded                         | 99   | Wrathful Spirit            |
-| 50   | Lightning Soul                     | 100  | Wrongly Imprisoned         |
+| 1    | [Advanced Studies](scc:mcdm.heroes.v1/complication/advanced-studies)                   | 51   | [Loner](scc:mcdm.heroes.v1/complication/loner)                      |
+| 2    | [Amnesia](scc:mcdm.heroes.v1/complication/amnesia)                            | 52   | [Lost in Time](scc:mcdm.heroes.v1/complication/lost-in-time)               |
+| 3    | [Animal Form](scc:mcdm.heroes.v1/complication/animal-form)                        | 53   | [Lost Your Head](scc:mcdm.heroes.v1/complication/lost-your-head)             |
+| 4    | [Antihero](scc:mcdm.heroes.v1/complication/antihero)                           | 54   | [Lucky](scc:mcdm.heroes.v1/complication/lucky)                      |
+| 5    | [Artifact Bonded](scc:mcdm.heroes.v1/complication/artifact-bonded)                    | 55   | [Master Chef](scc:mcdm.heroes.v1/complication/master-chef)                |
+| 6    | [Bereaved](scc:mcdm.heroes.v1/complication/bereaved)                           | 56   | [Meddling Butler](scc:mcdm.heroes.v1/complication/meddling-butler)            |
+| 7    | [Betrothed](scc:mcdm.heroes.v1/complication/betrothed)                          | 57   | [Medium](scc:mcdm.heroes.v1/complication/medium)                     |
+| 8    | [Chaos Touched](scc:mcdm.heroes.v1/complication/chaos-touched)                      | 58   | [Medusa Blood](scc:mcdm.heroes.v1/complication/medusa-blood)               |
+| 9    | [Chosen One](scc:mcdm.heroes.v1/complication/chosen-one)                         | 59   | [Misunderstood](scc:mcdm.heroes.v1/complication/misunderstood)              |
+| 10   | [Consuming Interest](scc:mcdm.heroes.v1/complication/consuming-interest)                 | 60   | [Mundane](scc:mcdm.heroes.v1/complication/mundane)                    |
+| 11   | [Corrupted Mentor](scc:mcdm.heroes.v1/complication/corrupted-mentor)                   | 61   | [Outlaw](scc:mcdm.heroes.v1/complication/outlaw)                     |
+| 12   | [Coward](scc:mcdm.heroes.v1/complication/coward)                             | 62   | [Pirate](scc:mcdm.heroes.v1/complication/pirate)                     |
+| 13   | [Crash Landed](scc:mcdm.heroes.v1/complication/crash-landed)                       | 63   | [Preacher](scc:mcdm.heroes.v1/complication/preacher)                   |
+| 14   | [Cult Victim](scc:mcdm.heroes.v1/complication/cult-victim)                        | 64   | [Primordial Sickness](scc:mcdm.heroes.v1/complication/primordial-sickness)        |
+| 15   | [Curse of Caution](scc:mcdm.heroes.v1/complication/curse-of-caution)                   | 65   | [Prisoner of the Synlirii](scc:mcdm.heroes.v1/complication/prisoner-of-the-synlirii)   |
+| 16   | [Curse of Immortality](scc:mcdm.heroes.v1/complication/curse-of-immortality)               | 66   | [Promising Apprentice](scc:mcdm.heroes.v1/complication/promising-apprentice)       |
+| 17   | [Curse of Misfortune](scc:mcdm.heroes.v1/complication/curse-of-misfortune)                | 67   | [Psychic Eruption](scc:mcdm.heroes.v1/complication/psychic-eruption)           |
+| 18   | [Curse of Poverty](scc:mcdm.heroes.v1/complication/curse-of-poverty)                   | 68   | [Raised by Beasts](scc:mcdm.heroes.v1/complication/raised-by-beasts)           |
+| 19   | [Curse of Punishment](scc:mcdm.heroes.v1/complication/curse-of-punishment)                | 69   | [Refugee](scc:mcdm.heroes.v1/complication/refugee)                    |
+| 20   | [Curse of Stone](scc:mcdm.heroes.v1/complication/curse-of-stone)                     | 70   | [Rival](scc:mcdm.heroes.v1/complication/rival)                      |
+| 21   | [Cursed Weapon](scc:mcdm.heroes.v1/complication/cursed-weapon)                      | 71   | Rogue [Talent](scc:mcdm.heroes.v1/class/talent)               |
+| 22   | [Disgraced](scc:mcdm.heroes.v1/complication/disgraced)                          | 72   | [Runaway](scc:mcdm.heroes.v1/complication/runaway)                    |
+| 23   | [Dragon Dreams](scc:mcdm.heroes.v1/complication/dragon-dreams)                      | 73   | [Searching for a Cure](scc:mcdm.heroes.v1/complication/searching-for-a-cure)       |
+| 24   | [Elemental Inside](scc:mcdm.heroes.v1/complication/elemental-inside)                   | 74   | [Secret Identity](scc:mcdm.heroes.v1/complication/secret-identity)            |
+| 25   | [Evanesceria](scc:mcdm.heroes.v1/complication/evanesceria)                        | 75   | [Secret Twin](scc:mcdm.heroes.v1/complication/secret-twin)                |
+| 26   | [Exile](scc:mcdm.heroes.v1/complication/exile)                              | 76   | Self-Taught                |
+| 27   | [Fallen Immortal](scc:mcdm.heroes.v1/complication/fallen-immortal)                    | 77   | [Sewer Folk](scc:mcdm.heroes.v1/complication/sewer-folk)                 |
+| 28   | [Famous Relative](scc:mcdm.heroes.v1/complication/famous-relative)                    | 78   | [Shadow](scc:mcdm.heroes.v1/class/shadow) Born                |
+| 29   | [Feytouched](scc:mcdm.heroes.v1/complication/feytouched)                         | 79   | [Shared Spirit](scc:mcdm.heroes.v1/complication/shared-spirit)              |
+| 30   | [Fiery Ideal](scc:mcdm.heroes.v1/complication/fiery-ideal)                        | 80   | [Shattered Legacy](scc:mcdm.heroes.v1/complication/shattered-legacy)           |
+| 31   | [Fire and Chaos](scc:mcdm.heroes.v1/complication/fire-and-chaos)                     | 81   | [Shipwrecked](scc:mcdm.heroes.v1/complication/shipwrecked)                |
+| 32   | [Following in the Footsteps](scc:mcdm.heroes.v1/complication/following-in-the-footsteps)         | 82   | Sibling's Shield           |
+| 33   | [Forbidden Romance](scc:mcdm.heroes.v1/complication/forbidden-romance)                  | 83   | [Silent Sentinel](scc:mcdm.heroes.v1/complication/silent-sentinel)            |
+| 34   | [Frostheart](scc:mcdm.heroes.v1/complication/frostheart)                         | 84   | [Slight Case of Lycanthropy](scc:mcdm.heroes.v1/complication/slight-case-of-lycanthropy) |
+| 35   | [Getting Too Old for This](scc:mcdm.heroes.v1/complication/getting-too-old-for-this)           | 85   | [Stolen Face](scc:mcdm.heroes.v1/complication/stolen-face)                |
+| 36   | Gnoll-Mauled                       | 86   | [Strange Inheritance](scc:mcdm.heroes.v1/complication/strange-inheritance)        |
+| 37   | [Greening](scc:mcdm.heroes.v1/complication/greening)                           | 87   | [Stripped of Rank](scc:mcdm.heroes.v1/complication/stripped-of-rank)           |
+| 38   | [Grifter](scc:mcdm.heroes.v1/complication/grifter)                            | 88   | [Thrill Seeker](scc:mcdm.heroes.v1/complication/thrill-seeker)              |
+| 39   | [Grounded](scc:mcdm.heroes.v1/complication/grounded)                           | 89   | [Vampire Scion](scc:mcdm.heroes.v1/complication/vampire-scion)              |
+| 40   | [Guilty Conscience](scc:mcdm.heroes.v1/complication/guilty-conscience)                  | 90   | [Voice in Your Head](scc:mcdm.heroes.v1/complication/voice-in-your-head)         |
+| 41   | [Hawk Rider](scc:mcdm.heroes.v1/complication/hawk-rider)                         | 91   | [Vow of Duty](scc:mcdm.heroes.v1/complication/vow-of-duty)                |
+| 42   | [Host Body](scc:mcdm.heroes.v1/complication/host-body)                          | 92   | [Vow of Honesty](scc:mcdm.heroes.v1/complication/vow-of-honesty)             |
+| 43   | [Hunted](scc:mcdm.heroes.v1/complication/hunted)                             | 93   | [Waking Dreams](scc:mcdm.heroes.v1/complication/waking-dreams)              |
+| 44   | [Hunter](scc:mcdm.heroes.v1/complication/hunter)                             | 94   | [War Dog Collar](scc:mcdm.heroes.v1/complication/war-dog-collar)             |
+| 45   | [Indebted](scc:mcdm.heroes.v1/complication/indebted)                           | 95   | [War of Assassins](scc:mcdm.heroes.v1/complication/war-of-assassins)           |
+| 46   | [Infernal Contract](scc:mcdm.heroes.v1/complication/infernal-contract)                  | 96   | [Ward](scc:mcdm.heroes.v1/complication/ward)                       |
+| 47   | [Infernal Contract](scc:mcdm.heroes.v1/complication/infernal-contract)... But, Like, Bad | 97   | [Waterborn](scc:mcdm.heroes.v1/complication/waterborn)                  |
+| 48   | [Ivory Tower](scc:mcdm.heroes.v1/complication/ivory-tower)                        | 98   | [Wodewalker](scc:mcdm.heroes.v1/complication/wodewalker)                 |
+| 49   | [Lifebonded](scc:mcdm.heroes.v1/complication/lifebonded)                         | 99   | [Wrathful Spirit](scc:mcdm.heroes.v1/complication/wrathful-spirit)            |
+| 50   | [Lightning Soul](scc:mcdm.heroes.v1/complication/lightning-soul)                     | 100  | [Wrongly Imprisoned](scc:mcdm.heroes.v1/complication/wrongly-imprisoned)         |
 
 ###### Complications Table
 
 | d100 | Complication                       |
 |------|------------------------------------|
-| 1    | Advanced Studies                   |
-| 2    | Amnesia                            |
-| 3    | Animal Form                        |
-| 4    | Antihero                           |
-| 5    | Artifact Bonded                    |
-| 6    | Bereaved                           |
-| 7    | Betrothed                          |
-| 8    | Chaos Touched                      |
-| 9    | Chosen One                         |
-| 10   | Consuming Interest                 |
-| 11   | Corrupted Mentor                   |
-| 12   | Coward                             |
-| 13   | Crash Landed                       |
-| 14   | Cult Victim                        |
-| 15   | Curse of Caution                   |
-| 16   | Curse of Immortality               |
-| 17   | Curse of Misfortune                |
-| 18   | Curse of Poverty                   |
-| 19   | Curse of Punishment                |
-| 20   | Curse of Stone                     |
-| 21   | Cursed Weapon                      |
-| 22   | Disgraced                          |
-| 23   | Dragon Dreams                      |
-| 24   | Elemental Inside                   |
-| 25   | Evanesceria                        |
-| 26   | Exile                              |
-| 27   | Fallen Immortal                    |
-| 28   | Famous Relative                    |
-| 29   | Feytouched                         |
-| 30   | Fiery Ideal                        |
-| 31   | Fire and Chaos                     |
-| 32   | Following in the Footsteps         |
-| 33   | Forbidden Romance                  |
-| 34   | Frostheart                         |
-| 35   | Getting Too Old for This           |
+| 1    | [Advanced Studies](scc:mcdm.heroes.v1/complication/advanced-studies)                   |
+| 2    | [Amnesia](scc:mcdm.heroes.v1/complication/amnesia)                            |
+| 3    | [Animal Form](scc:mcdm.heroes.v1/complication/animal-form)                        |
+| 4    | [Antihero](scc:mcdm.heroes.v1/complication/antihero)                           |
+| 5    | [Artifact Bonded](scc:mcdm.heroes.v1/complication/artifact-bonded)                    |
+| 6    | [Bereaved](scc:mcdm.heroes.v1/complication/bereaved)                           |
+| 7    | [Betrothed](scc:mcdm.heroes.v1/complication/betrothed)                          |
+| 8    | [Chaos Touched](scc:mcdm.heroes.v1/complication/chaos-touched)                      |
+| 9    | [Chosen One](scc:mcdm.heroes.v1/complication/chosen-one)                         |
+| 10   | [Consuming Interest](scc:mcdm.heroes.v1/complication/consuming-interest)                 |
+| 11   | [Corrupted Mentor](scc:mcdm.heroes.v1/complication/corrupted-mentor)                   |
+| 12   | [Coward](scc:mcdm.heroes.v1/complication/coward)                             |
+| 13   | [Crash Landed](scc:mcdm.heroes.v1/complication/crash-landed)                       |
+| 14   | [Cult Victim](scc:mcdm.heroes.v1/complication/cult-victim)                        |
+| 15   | [Curse of Caution](scc:mcdm.heroes.v1/complication/curse-of-caution)                   |
+| 16   | [Curse of Immortality](scc:mcdm.heroes.v1/complication/curse-of-immortality)               |
+| 17   | [Curse of Misfortune](scc:mcdm.heroes.v1/complication/curse-of-misfortune)                |
+| 18   | [Curse of Poverty](scc:mcdm.heroes.v1/complication/curse-of-poverty)                   |
+| 19   | [Curse of Punishment](scc:mcdm.heroes.v1/complication/curse-of-punishment)                |
+| 20   | [Curse of Stone](scc:mcdm.heroes.v1/complication/curse-of-stone)                     |
+| 21   | [Cursed Weapon](scc:mcdm.heroes.v1/complication/cursed-weapon)                      |
+| 22   | [Disgraced](scc:mcdm.heroes.v1/complication/disgraced)                          |
+| 23   | [Dragon Dreams](scc:mcdm.heroes.v1/complication/dragon-dreams)                      |
+| 24   | [Elemental Inside](scc:mcdm.heroes.v1/complication/elemental-inside)                   |
+| 25   | [Evanesceria](scc:mcdm.heroes.v1/complication/evanesceria)                        |
+| 26   | [Exile](scc:mcdm.heroes.v1/complication/exile)                              |
+| 27   | [Fallen Immortal](scc:mcdm.heroes.v1/complication/fallen-immortal)                    |
+| 28   | [Famous Relative](scc:mcdm.heroes.v1/complication/famous-relative)                    |
+| 29   | [Feytouched](scc:mcdm.heroes.v1/complication/feytouched)                         |
+| 30   | [Fiery Ideal](scc:mcdm.heroes.v1/complication/fiery-ideal)                        |
+| 31   | [Fire and Chaos](scc:mcdm.heroes.v1/complication/fire-and-chaos)                     |
+| 32   | [Following in the Footsteps](scc:mcdm.heroes.v1/complication/following-in-the-footsteps)         |
+| 33   | [Forbidden Romance](scc:mcdm.heroes.v1/complication/forbidden-romance)                  |
+| 34   | [Frostheart](scc:mcdm.heroes.v1/complication/frostheart)                         |
+| 35   | [Getting Too Old for This](scc:mcdm.heroes.v1/complication/getting-too-old-for-this)           |
 | 36   | Gnoll-Mauled                       |
-| 37   | Greening                           |
-| 38   | Grifter                            |
-| 39   | Grounded                           |
-| 40   | Guilty Conscience                  |
-| 41   | Hawk Rider                         |
-| 42   | Host Body                          |
-| 43   | Hunted                             |
-| 44   | Hunter                             |
-| 45   | Indebted                           |
-| 46   | Infernal Contract                  |
-| 47   | Infernal Contract... But, Like, Bad |
-| 48   | Ivory Tower                        |
-| 49   | Lifebonded                         |
-| 50   | Lightning Soul                     |
-| 51   | Loner                              |
-| 52   | Lost in Time                       |
-| 53   | Lost Your Head                     |
-| 54   | Lucky                              |
-| 55   | Master Chef                        |
-| 56   | Meddling Butler                    |
-| 57   | Medium                             |
-| 58   | Medusa Blood                       |
-| 59   | Misunderstood                      |
-| 60   | Mundane                            |
-| 61   | Outlaw                             |
-| 62   | Pirate                             |
-| 63   | Preacher                           |
-| 64   | Primordial Sickness                |
-| 65   | Prisoner of the Synlirii           |
-| 66   | Promising Apprentice               |
-| 67   | Psychic Eruption                   |
-| 68   | Raised by Beasts                   |
-| 69   | Refugee                            |
-| 70   | Rival                              |
-| 71   | Rogue Talent                       |
-| 72   | Runaway                            |
-| 73   | Searching for a Cure               |
-| 74   | Secret Identity                    |
-| 75   | Secret Twin                        |
+| 37   | [Greening](scc:mcdm.heroes.v1/complication/greening)                           |
+| 38   | [Grifter](scc:mcdm.heroes.v1/complication/grifter)                            |
+| 39   | [Grounded](scc:mcdm.heroes.v1/complication/grounded)                           |
+| 40   | [Guilty Conscience](scc:mcdm.heroes.v1/complication/guilty-conscience)                  |
+| 41   | [Hawk Rider](scc:mcdm.heroes.v1/complication/hawk-rider)                         |
+| 42   | [Host Body](scc:mcdm.heroes.v1/complication/host-body)                          |
+| 43   | [Hunted](scc:mcdm.heroes.v1/complication/hunted)                             |
+| 44   | [Hunter](scc:mcdm.heroes.v1/complication/hunter)                             |
+| 45   | [Indebted](scc:mcdm.heroes.v1/complication/indebted)                           |
+| 46   | [Infernal Contract](scc:mcdm.heroes.v1/complication/infernal-contract)                  |
+| 47   | [Infernal Contract](scc:mcdm.heroes.v1/complication/infernal-contract)... But, Like, Bad |
+| 48   | [Ivory Tower](scc:mcdm.heroes.v1/complication/ivory-tower)                        |
+| 49   | [Lifebonded](scc:mcdm.heroes.v1/complication/lifebonded)                         |
+| 50   | [Lightning Soul](scc:mcdm.heroes.v1/complication/lightning-soul)                     |
+| 51   | [Loner](scc:mcdm.heroes.v1/complication/loner)                              |
+| 52   | [Lost in Time](scc:mcdm.heroes.v1/complication/lost-in-time)                       |
+| 53   | [Lost Your Head](scc:mcdm.heroes.v1/complication/lost-your-head)                     |
+| 54   | [Lucky](scc:mcdm.heroes.v1/complication/lucky)                              |
+| 55   | [Master Chef](scc:mcdm.heroes.v1/complication/master-chef)                        |
+| 56   | [Meddling Butler](scc:mcdm.heroes.v1/complication/meddling-butler)                    |
+| 57   | [Medium](scc:mcdm.heroes.v1/complication/medium)                             |
+| 58   | [Medusa Blood](scc:mcdm.heroes.v1/complication/medusa-blood)                       |
+| 59   | [Misunderstood](scc:mcdm.heroes.v1/complication/misunderstood)                      |
+| 60   | [Mundane](scc:mcdm.heroes.v1/complication/mundane)                            |
+| 61   | [Outlaw](scc:mcdm.heroes.v1/complication/outlaw)                             |
+| 62   | [Pirate](scc:mcdm.heroes.v1/complication/pirate)                             |
+| 63   | [Preacher](scc:mcdm.heroes.v1/complication/preacher)                           |
+| 64   | [Primordial Sickness](scc:mcdm.heroes.v1/complication/primordial-sickness)                |
+| 65   | [Prisoner of the Synlirii](scc:mcdm.heroes.v1/complication/prisoner-of-the-synlirii)           |
+| 66   | [Promising Apprentice](scc:mcdm.heroes.v1/complication/promising-apprentice)               |
+| 67   | [Psychic Eruption](scc:mcdm.heroes.v1/complication/psychic-eruption)                   |
+| 68   | [Raised by Beasts](scc:mcdm.heroes.v1/complication/raised-by-beasts)                   |
+| 69   | [Refugee](scc:mcdm.heroes.v1/complication/refugee)                            |
+| 70   | [Rival](scc:mcdm.heroes.v1/complication/rival)                              |
+| 71   | Rogue [Talent](scc:mcdm.heroes.v1/class/talent)                       |
+| 72   | [Runaway](scc:mcdm.heroes.v1/complication/runaway)                            |
+| 73   | [Searching for a Cure](scc:mcdm.heroes.v1/complication/searching-for-a-cure)               |
+| 74   | [Secret Identity](scc:mcdm.heroes.v1/complication/secret-identity)                    |
+| 75   | [Secret Twin](scc:mcdm.heroes.v1/complication/secret-twin)                        |
 | 76   | Self-Taught                        |
-| 77   | Sewer Folk                         |
-| 78   | Shadow Born                        |
-| 79   | Shared Spirit                      |
-| 80   | Shattered Legacy                   |
-| 81   | Shipwrecked                        |
+| 77   | [Sewer Folk](scc:mcdm.heroes.v1/complication/sewer-folk)                         |
+| 78   | [Shadow](scc:mcdm.heroes.v1/class/shadow) Born                        |
+| 79   | [Shared Spirit](scc:mcdm.heroes.v1/complication/shared-spirit)                      |
+| 80   | [Shattered Legacy](scc:mcdm.heroes.v1/complication/shattered-legacy)                   |
+| 81   | [Shipwrecked](scc:mcdm.heroes.v1/complication/shipwrecked)                        |
 | 82   | Sibling's Shield                   |
-| 83   | Silent Sentinel                    |
-| 84   | Slight Case of Lycanthropy         |
-| 85   | Stolen Face                        |
-| 86   | Strange Inheritance                |
-| 87   | Stripped of Rank                   |
-| 88   | Thrill Seeker                      |
-| 89   | Vampire Scion                      |
-| 90   | Voice in Your Head                 |
-| 91   | Vow of Duty                        |
-| 92   | Vow of Honesty                     |
-| 93   | Waking Dreams                      |
-| 94   | War Dog Collar                     |
-| 95   | War of Assassins                   |
-| 96   | Ward                               |
-| 97   | Waterborn                          |
-| 98   | Wodewalker                         |
-| 99   | Wrathful Spirit                    |
-| 100  | Wrongly Imprisoned                 |
+| 83   | [Silent Sentinel](scc:mcdm.heroes.v1/complication/silent-sentinel)                    |
+| 84   | [Slight Case of Lycanthropy](scc:mcdm.heroes.v1/complication/slight-case-of-lycanthropy)         |
+| 85   | [Stolen Face](scc:mcdm.heroes.v1/complication/stolen-face)                        |
+| 86   | [Strange Inheritance](scc:mcdm.heroes.v1/complication/strange-inheritance)                |
+| 87   | [Stripped of Rank](scc:mcdm.heroes.v1/complication/stripped-of-rank)                   |
+| 88   | [Thrill Seeker](scc:mcdm.heroes.v1/complication/thrill-seeker)                      |
+| 89   | [Vampire Scion](scc:mcdm.heroes.v1/complication/vampire-scion)                      |
+| 90   | [Voice in Your Head](scc:mcdm.heroes.v1/complication/voice-in-your-head)                 |
+| 91   | [Vow of Duty](scc:mcdm.heroes.v1/complication/vow-of-duty)                        |
+| 92   | [Vow of Honesty](scc:mcdm.heroes.v1/complication/vow-of-honesty)                     |
+| 93   | [Waking Dreams](scc:mcdm.heroes.v1/complication/waking-dreams)                      |
+| 94   | [War Dog Collar](scc:mcdm.heroes.v1/complication/war-dog-collar)                     |
+| 95   | [War of Assassins](scc:mcdm.heroes.v1/complication/war-of-assassins)                   |
+| 96   | [Ward](scc:mcdm.heroes.v1/complication/ward)                               |
+| 97   | [Waterborn](scc:mcdm.heroes.v1/complication/waterborn)                          |
+| 98   | [Wodewalker](scc:mcdm.heroes.v1/complication/wodewalker)                         |
+| 99   | [Wrathful Spirit](scc:mcdm.heroes.v1/complication/wrathful-spirit)                    |
+| 100  | [Wrongly Imprisoned](scc:mcdm.heroes.v1/complication/wrongly-imprisoned)                 |

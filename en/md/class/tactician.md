@@ -3,7 +3,7 @@ average_potency: Reason − 1
 name: Tactician
 scc: mcdm.heroes.v1/class/tactician
 skills:
-    - 'You gain the Lead skill (see Skills in Chapter 9: Tests). Then choose any two skills from Alertness, Architecture, Blacksmithing, Brag, Culture, Empathize, Fletching, Mechanics, Monsters, Search, Strategy, or the skills of the exploration skill group. (*Quick Build:* Lead, Monsters, Strategy.)'
+    - 'You gain the Lead skill (see Skills in Chapter 9: [Tests](scc:mcdm.heroes.v1/chapter/tests)). Then choose any two skills from Alertness, Architecture, Blacksmithing, Brag, Culture, Empathize, Fletching, Mechanics, Monsters, Search, Strategy, or the skills of the exploration skill group. (*Quick Build:* Lead, Monsters, Strategy.)'
 strong_potency: Reason
 type: class
 weak_potency: Reason − 2
@@ -11,7 +11,7 @@ weak_potency: Reason − 2
 
 Strategist. Defender. Leader. With weapon in hand, you lead allies into the maw of battle, barking out commands that inspire your fellow heroes to move faster and strike more precisely. All the while, you stand between your compatriots and death, taunting the followers of evil to best you if they can.
 
-**As a tactician, you have abilities that heal your allies and grant them increased damage, movement, and attacks, even as you leave your enemies struggling to respond.**
+**As a [tactician](scc:mcdm.heroes.v1/class/tactician), you have abilities that heal your allies and grant them increased damage, movement, and attacks, even as you leave your enemies struggling to respond.**
 
 > "Your line is broken, Varrox! Your wizard is dead. Hahah! You should have negotiated!"
 >
@@ -37,13 +37,13 @@ Strategist. Defender. Leader. With weapon in hand, you lead allies into the maw 
 
 **Recoveries:** 10
 
-**Skills:** You gain the Lead skill (see Skills in Chapter 9: Tests). Then choose any two skills from Alertness, Architecture, Blacksmithing, Brag, Culture, Empathize, Fletching, Mechanics, Monsters, Search, Strategy, or the skills of the exploration skill group. (*Quick Build:* Lead, Monsters, Strategy.)
+**Skills:** You gain the Lead skill (see Skills in Chapter 9: [Tests](scc:mcdm.heroes.v1/chapter/tests)). Then choose any two skills from Alertness, Architecture, Blacksmithing, Brag, Culture, Empathize, Fletching, Mechanics, Monsters, Search, Strategy, or the skills of the exploration skill group. (*Quick Build:* Lead, Monsters, Strategy.)
 
 ###### Tactician Advancement Table
 
 | Level | Features                                                                                                                    | Abilities      | Doctrine Abilities |
 |-------|-----------------------------------------------------------------------------------------------------------------------------|----------------|--------------------|
-| 1st   | Tactical Doctrine, Focus, Doctrine Feature, Doctrine Triggered Action, Field Arsenal, Mark, Strike Now, Tactician Abilities | 3, 5           | -                  |
+| 1st   | Tactical Doctrine, Focus, Doctrine Feature, Doctrine Triggered Action, Field Arsenal, Mark, Strike Now, [Tactician](scc:mcdm.heroes.v1/class/tactician) Abilities | 3, 5           | -                  |
 | 2nd   | Perk, Doctrine Feature, Doctrine Ability                                                                                    | 3, 5           | 5                  |
 | 3rd   | Out of Position, 7-Focus Ability                                                                                            | 3, 5, 7        | 5                  |
 | 4th   | Characteristic Increase, Focus on Their Weakness, Improved Field Arsenal, Perk, Skill                                       | 3, 5, 7        | 5                  |

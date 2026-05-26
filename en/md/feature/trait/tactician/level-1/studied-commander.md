@@ -6,7 +6,7 @@ scc: mcdm.heroes.v1/feature.trait.tactician.level-1/studied-commander
 type: trait
 ---
 
-Your encyclopedic knowledge of the history of battle lets you apply that knowledge to current challenges. While you are present, each hero with you treats the Discover Lore project related to a war or battle as one category cheaper. This makes projects seeking common lore free, but such projects still require a respite activity to complete. (See Chapter 12: Downtime Projects for more information.)
+Your encyclopedic knowledge of the history of battle lets you apply that knowledge to current challenges. While you are present, each hero with you treats the Discover Lore project related to a war or battle as one category cheaper. This makes projects seeking common lore free, but such projects still require a respite activity to complete. (See Chapter 12: [Downtime Projects](scc:mcdm.heroes.v1/chapter/downtime-projects) for more information.)
 
 Additionally, if you have 24 hours or more before a combat encounter or negotiation, and you have one or more clues or rumors regarding the encounter or negotiation, you can make a Reason test as a respite activity. The following test outcomes apply to a combat encounter:
 

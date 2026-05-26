@@ -4,7 +4,7 @@ scc: mcdm.heroes.v1/feature.trait/memonek-traits
 type: trait
 ---
 
-Memonek heroes have access to the following traits.
+[Memonek](scc:mcdm.heroes.v1/ancestry/memonek) heroes have access to the following traits.
 
 #### Signature Trait: Fall Lightly
 
