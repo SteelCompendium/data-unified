@@ -35,7 +35,7 @@ You wear light armor and wield a shield and a light weapon.
 
 ###### Raider's Awe
 
-*You execute a brutal strike that leaves your foe reeling. (Previously known as "Shock and Awe")*
+*You execute a brutal strike that leaves your foe reeling. (Previously known as "[Shock and Awe](scc:mcdm.heroes.v1/feature.trait.tactician.level-7/shock-and-awe)")*
 
 | **Melee, Ranged, Strike, Weapon** |     **Main action** |
 |-----------------------------------|--------------------:|

@@ -12,6 +12,6 @@ Your [talent](scc:mcdm.heroes.v1/class/talent) tradition grants you two features
 
 | Tradition   | Features                          |
 |-------------|-----------------------------------|
-| Chronopathy | Doubling the Hours, Stasis Shield |
-| Telekinesis | Levitation Field, Low Gravity     |
-| Telepathy   | Mindlink, Universal Connection    |
+| Chronopathy | [Doubling the Hours](scc:mcdm.heroes.v1/feature.trait.talent.level-8/doubling-the-hours), [Stasis Shield](scc:mcdm.heroes.v1/feature.ability.talent.level-8/stasis-shield) |
+| Telekinesis | [Levitation Field](scc:mcdm.heroes.v1/feature.ability.talent.level-8/levitation-field), [Low Gravity](scc:mcdm.heroes.v1/feature.trait.talent.level-8/low-gravity)     |
+| Telepathy   | [Mindlink](scc:mcdm.heroes.v1/feature.trait.talent.level-8/mindlink), [Universal Connection](scc:mcdm.heroes.v1/feature.trait.talent.level-8/universal-connection)    |

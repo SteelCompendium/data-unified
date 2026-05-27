@@ -6,7 +6,7 @@ scc: mcdm.heroes.v1/feature.trait.fury.raden/growing-ferocity
 type: trait
 ---
 
-As your ferocity grows, you gain benefits as noted on the [Raden](scc:mcdm.heroes.v1/kit/raden) Growing Ferocity table. Benefits are cumulative except where an improved benefit replaces a lesser benefit.
+As your ferocity grows, you gain benefits as noted on the [Raden](scc:mcdm.heroes.v1/kit/raden) [Growing Ferocity](scc:mcdm.heroes.v1/feature.trait.fury.boren/growing-ferocity) table. Benefits are cumulative except where an improved benefit replaces a lesser benefit.
 
 ###### Raden Growing Ferocity Table
 

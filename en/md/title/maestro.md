@@ -15,7 +15,7 @@ type: title
 - *Angelic Chorus:* You can use the lessons of musical improvisation in combat. Choose one class act triggered action from the [troubadour](scc:mcdm.heroes.v1/class/troubadour) class. You gain that ability regardless of whether your class and subclass allow you to take it. If this ability allows you to gain or spend drama, you can gain or spend the Heroic Resource of your class in place of drama.
 - *[Devil's](scc:mcdm.heroes.v1/ancestry/devil) Opera:* You have the following ability, which can be paid for using the Heroic Resource of your class.
 
-##### The [Devil's](scc:mcdm.heroes.v1/ancestry/devil) Chord (9 Heroic Resource)
+##### The Devil's Chord (9 Heroic Resource)
 
 >
 > *Helloooo Orden!*

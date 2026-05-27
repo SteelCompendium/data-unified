@@ -12,15 +12,15 @@ Choose one of your domains. You gain a domain feature for that domain, as shown 
 
 | Domain     | Feature                      |
 |------------|------------------------------|
-| Creation   | Divine Quartermaster         |
-| Death      | Word of Death Deferred       |
-| Fate       | Word of Fate Denied          |
+| Creation   | [Divine Quartermaster](scc:mcdm.heroes.v1/feature.trait.censor.level-7/divine-quartermaster)         |
+| Death      | [Word of Death Deferred](scc:mcdm.heroes.v1/feature.trait.censor.level-7/word-of-death-deferred)       |
+| Fate       | [Word of Fate Denied](scc:mcdm.heroes.v1/feature.trait.censor.level-7/word-of-fate-denied)          |
 | Knowledge  | Gods' Library                |
-| Life       | Font of Grace                |
-| Love       | Covenant of the Heart        |
+| Life       | [Font of Grace](scc:mcdm.heroes.v1/feature.trait.censor.level-7/font-of-grace)                |
+| Love       | [Covenant of the Heart](scc:mcdm.heroes.v1/feature.trait.censor.level-7/covenant-of-the-heart)        |
 | Nature     | Nature's Bounty              |
-| Protection | Blessing of Iron             |
-| Storm      | Thunderstruck                |
-| Sun        | Light of the Burning Sun     |
-| Trickery   | Trinity of Trickery          |
-| War        | Your Triumphs Are Remembered |
+| Protection | [Blessing of Iron](scc:mcdm.heroes.v1/feature.trait.censor.level-7/blessing-of-iron)             |
+| Storm      | [Thunderstruck](scc:mcdm.heroes.v1/feature.trait.conduit.level-7/thunderstruck)                |
+| Sun        | [Light of the Burning Sun](scc:mcdm.heroes.v1/feature.trait.censor.level-7/light-of-the-burning-sun)     |
+| Trickery   | [Trinity of Trickery](scc:mcdm.heroes.v1/feature.ability.censor.level-7/trinity-of-trickery)          |
+| War        | [Your Triumphs Are Remembered](scc:mcdm.heroes.v1/feature.trait.censor.level-7/your-triumphs-are-remembered) |

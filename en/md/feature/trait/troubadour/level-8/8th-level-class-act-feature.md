@@ -12,6 +12,6 @@ Your [troubadour](scc:mcdm.heroes.v1/class/troubadour) class act grants you a fe
 
 | Class Act | Feature         |
 |-----------|-----------------|
-| Auteur    | Deleted Scene   |
+| Auteur    | [Deleted Scene](scc:mcdm.heroes.v1/feature.trait.troubadour.level-8/deleted-scene)   |
 | Duelist   | Masterwork      |
-| Virtuoso  | Crowd Favorites |
+| Virtuoso  | [Crowd Favorites](scc:mcdm.heroes.v1/feature.trait.troubadour.level-8/crowd-favorites) |

@@ -12,9 +12,9 @@ Your [shadow](scc:mcdm.heroes.v1/class/shadow) college grants you a triggered ac
 
 | College         | Triggered Action      |
 |-----------------|-----------------------|
-| Black Ash       | In All This Confusion |
-| Caustic Alchemy | Defensive Roll        |
-| Harlequin Mask  | Clever Trick          |
+| Black Ash       | [In All This Confusion](scc:mcdm.heroes.v1/feature.ability.shadow.level-1/in-all-this-confusion) |
+| Caustic Alchemy | [Defensive Roll](scc:mcdm.heroes.v1/feature.ability.shadow.level-1/defensive-roll)        |
+| Harlequin Mask  | [Clever Trick](scc:mcdm.heroes.v1/feature.ability.shadow.level-1/clever-trick)          |
 
 ###### Clever Trick (1 Insight)
 

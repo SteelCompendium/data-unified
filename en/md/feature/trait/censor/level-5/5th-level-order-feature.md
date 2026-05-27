@@ -12,6 +12,6 @@ Your [censor](scc:mcdm.heroes.v1/class/censor) order grants you a feature, as sh
 
 | Order                    | Feature       |
 |--------------------------|---------------|
-| Exorcist                 | Evil Revealed |
-| Oracle                   | Prophecy      |
-| Paragon                  | Stand Fast!   |
+| Exorcist                 | [Evil Revealed](scc:mcdm.heroes.v1/feature.trait.censor.level-5/evil-revealed) |
+| Oracle                   | [Prophecy](scc:mcdm.heroes.v1/feature.trait.censor.level-5/prophecy)      |
+| Paragon                  | [Stand Fast](scc:mcdm.heroes.v1/feature.trait.censor.level-5/stand-fast)!   |

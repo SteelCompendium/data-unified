@@ -12,6 +12,6 @@ Your [censor](scc:mcdm.heroes.v1/class/censor) order grants you a feature, as sh
 
 | Order                    | Feature             |
 |--------------------------|---------------------|
-| Exorcist                 | Demonologist        |
-| Oracle                   | Their Past Revealed |
+| Exorcist                 | [Demonologist](scc:mcdm.heroes.v1/feature.trait.censor.level-8/demonologist)        |
+| Oracle                   | [Their Past Revealed](scc:mcdm.heroes.v1/feature.trait.censor.level-8/their-past-revealed) |
 | Paragon                  | Vow                 |

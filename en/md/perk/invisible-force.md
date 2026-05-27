@@ -6,7 +6,7 @@ type: perk
 
 You have the following ability.
 
-##### [Invisible Force](scc:mcdm.heroes.v1/perk/invisible-force)
+##### Invisible Force
 
 >
 > *You manipulate a tiny object with your mind.*

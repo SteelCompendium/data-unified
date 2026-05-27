@@ -12,6 +12,6 @@ Your [shadow](scc:mcdm.heroes.v1/class/shadow) college grants you a feature, as 
 
 | College         | Feature     |
 |-----------------|-------------|
-| Black Ash       | Cinder Step |
-| Caustic Alchemy | Time Bomb   |
-| Harlequin Mask  | Parkour     |
+| Black Ash       | [Cinder Step](scc:mcdm.heroes.v1/feature.trait.shadow.level-8/cinder-step) |
+| Caustic Alchemy | [Time Bomb](scc:mcdm.heroes.v1/feature.ability.shadow.level-8/time-bomb)   |
+| Harlequin Mask  | [Parkour](scc:mcdm.heroes.v1/feature.trait.shadow.level-8/parkour)     |

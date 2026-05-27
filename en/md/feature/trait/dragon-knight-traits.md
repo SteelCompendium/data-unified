@@ -12,7 +12,7 @@ Your hardened scales grant you damage immunity equal to your level to one of the
 
 #### Purchased Dragon Knight Traits
 
-You have 3 ancestry points to spend on the following traits. (*Quick Build:* Dragon Breath, Prismatic Scales.)
+You have 3 ancestry points to spend on the following traits. (*Quick Build:* [Dragon Breath](scc:mcdm.heroes.v1/feature.ability.common/dragon-breath), Prismatic Scales.)
 
 ##### Draconian Guard (1 Point)
 

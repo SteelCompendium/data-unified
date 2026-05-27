@@ -12,15 +12,15 @@ You gain a domain feature from your domain, as shown on the 1st-Level [Censor](s
 
 | Domain                           | Feature                       | Skill Group   |
 |----------------------------------|-------------------------------|---------------|
-| Creation                         | Hands of the Maker            | Crafting      |
-| Death                            | Grave Speech                  | Lore          |
-| Fate                             | Oracular Visions              | Lore          |
-| Knowledge                        | Blessing of Comprehension     | Lore          |
-| Life                             | Revitalizing Ritual           | Exploration   |
-| Love                             | Blessing of Compassion        | Interpersonal |
-| Nature                           | Faithful Friend               | Exploration   |
-| Protection                       | Protective Circle             | Exploration   |
-| Storm                            | Blessing of Fortunate Weather | Exploration   |
-| Sun                              | Inner Light                   | Lore          |
-| Trickery                         | Inspired Deception            | Intrigue      |
-| War                              | Sanctified Weapon             | Exploration   |
+| Creation                         | [Hands of the Maker](scc:mcdm.heroes.v1/feature.ability.censor.level-1/hands-of-the-maker)            | Crafting      |
+| Death                            | [Grave Speech](scc:mcdm.heroes.v1/feature.ability.censor.level-1/grave-speech)                  | Lore          |
+| Fate                             | [Oracular Visions](scc:mcdm.heroes.v1/feature.trait.censor.level-1/oracular-visions)              | Lore          |
+| Knowledge                        | [Blessing of Comprehension](scc:mcdm.heroes.v1/feature.trait.censor.level-1/blessing-of-comprehension)     | Lore          |
+| Life                             | [Revitalizing Ritual](scc:mcdm.heroes.v1/feature.trait.censor.level-1/revitalizing-ritual)           | Exploration   |
+| Love                             | [Blessing of Compassion](scc:mcdm.heroes.v1/feature.trait.censor.level-1/blessing-of-compassion)        | Interpersonal |
+| Nature                           | [Faithful Friend](scc:mcdm.heroes.v1/feature.ability.censor.level-1/faithful-friend)               | Exploration   |
+| Protection                       | [Protective Circle](scc:mcdm.heroes.v1/feature.trait.censor.level-1/protective-circle)             | Exploration   |
+| Storm                            | [Blessing of Fortunate Weather](scc:mcdm.heroes.v1/feature.trait.censor.level-1/blessing-of-fortunate-weather) | Exploration   |
+| Sun                              | [Inner Light](scc:mcdm.heroes.v1/feature.trait.censor.level-1/inner-light)                   | Lore          |
+| Trickery                         | [Inspired Deception](scc:mcdm.heroes.v1/feature.trait.censor.level-1/inspired-deception)            | Intrigue      |
+| War                              | [Sanctified Weapon](scc:mcdm.heroes.v1/feature.trait.censor.level-1/sanctified-weapon)             | Exploration   |

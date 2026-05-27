@@ -11,7 +11,7 @@ weak_potency: Presence − 2
 
 Demons and deathless fear you. Criminals run from the sight of your shadow. Agents of chaos, blasphemers, and heretics tremble at the sound of your voice. You carry the power of the gods, armed with wrath and sent out into the world first to seek, then censor those whose actions—or even existence—are anathema to your church.
 
-As a [censor](scc:mcdm.heroes.v1/class/censor), you're at your best against the strongest foes. Your judgment terrifies heretics, stops enemies in their tracks, and even hurls them across the battlefield.
+As a [censor](scc:mcdm.heroes.v1/class/censor), you're at your best against the strongest foes. Your [judgment](scc:mcdm.heroes.v1/feature.ability.censor.level-1/judgment) terrifies heretics, stops enemies in their tracks, and even hurls them across the battlefield.
 
 > "We FIGHT!
 >
@@ -47,13 +47,13 @@ As a [censor](scc:mcdm.heroes.v1/class/censor), you're at your best against the 
 
 | Level | Features                                                                                                   | Abilities                 | Order<br>Abilities |
 |-------|------------------------------------------------------------------------------------------------------------|---------------------------|--------------------|
-| 1st   | [Censor](scc:mcdm.heroes.v1/class/censor) Order, Deity and Domains, Wrath, Judgment, Kit, My Life for Yours, Domain Feature, [Censor](scc:mcdm.heroes.v1/class/censor) Abilities | Signature, 3, 5           | -                  |
+| 1st   | [Censor](scc:mcdm.heroes.v1/class/censor) Order, [Deity and Domains](scc:mcdm.heroes.v1/feature.trait.censor.level-1/deity-and-domains), Wrath, [Judgment](scc:mcdm.heroes.v1/feature.ability.censor.level-1/judgment), Kit, [My Life for Yours](scc:mcdm.heroes.v1/feature.ability.censor.level-1/my-life-for-yours), Domain Feature, [Censor](scc:mcdm.heroes.v1/class/censor) Abilities | Signature, 3, 5           | -                  |
 | 2nd   | Perk, Order Features, Order Ability                                                                        | Signature, 3, 5           | 5                  |
-| 3rd   | Look On My Work and Despair, 7-Wrath Ability                                                               | Signature, 3, 5, 7        | 5                  |
-| 4th   | Characteristic Increase, Perk, Skill, Wrath Beyond Wrath, Domain Feature                                   | Signature, 3, 5, 7        | 5                  |
+| 3rd   | [Look On My Work and Despair](scc:mcdm.heroes.v1/feature.trait.censor.level-3/look-on-my-work-and-despair), 7-Wrath Ability                                                               | Signature, 3, 5, 7        | 5                  |
+| 4th   | [Characteristic Increase](scc:mcdm.heroes.v1/feature.trait.censor.level-10/characteristic-increase), Perk, Skill, [Wrath Beyond Wrath](scc:mcdm.heroes.v1/feature.trait.censor.level-4/wrath-beyond-wrath), Domain Feature                                   | Signature, 3, 5, 7        | 5                  |
 | 5th   | Order Feature, 9-Wrath Ability                                                                             | Signature, 3, 5, 7, 9     | 5                  |
-| 6th   | Implement of Wrath, Perk, Order Ability                                                                    | Signature, 3, 5, 7, 9     | 5, 9               |
-| 7th   | Characteristic Increase, Domain Feature, Focused Wrath, Skill                                              | Signature, 3, 5, 7, 9     | 5, 9               |
+| 6th   | [Implement of Wrath](scc:mcdm.heroes.v1/feature.trait.censor.level-6/implement-of-wrath), Perk, Order Ability                                                                    | Signature, 3, 5, 7, 9     | 5, 9               |
+| 7th   | [Characteristic Increase](scc:mcdm.heroes.v1/feature.trait.censor.level-10/characteristic-increase), Domain Feature, [Focused Wrath](scc:mcdm.heroes.v1/feature.trait.censor.level-7/focused-wrath), Skill                                              | Signature, 3, 5, 7, 9     | 5, 9               |
 | 8th   | Perk, Order Feature, 11-Wrath Ability                                                                      | Signature, 3, 5, 7, 9, 11 | 5, 9               |
-| 9th   | Improved Implement of Wrath, Order Ability                                                                 | Signature, 3, 5, 7, 9, 11 | 5, 9, 11           |
-| 10th  | Characteristic Increase, Perk, Skill, Templar, Virtue, Wrath of the Gods                                   | Signature, 3, 5, 7, 9, 11 | 5, 9, 11           |
+| 9th   | [Improved Implement of Wrath](scc:mcdm.heroes.v1/feature.trait.censor.level-9/improved-implement-of-wrath), Order Ability                                                                 | Signature, 3, 5, 7, 9, 11 | 5, 9, 11           |
+| 10th  | [Characteristic Increase](scc:mcdm.heroes.v1/feature.trait.censor.level-10/characteristic-increase), Perk, Skill, [Templar](scc:mcdm.heroes.v1/feature.trait.censor.level-10/templar), [Virtue](scc:mcdm.heroes.v1/feature.trait.censor.level-10/virtue), [Wrath of the Gods](scc:mcdm.heroes.v1/feature.trait.censor.level-10/wrath-of-the-gods)                                   | Signature, 3, 5, 7, 9, 11 | 5, 9, 11           |

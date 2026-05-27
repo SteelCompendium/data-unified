@@ -12,6 +12,6 @@ Your [talent](scc:mcdm.heroes.v1/class/talent) tradition grants you two features
 
 | Tradition   | Features                         |
 |-------------|----------------------------------|
-| Chronopathy | Accelerate, Again                |
-| Telekinesis | Minor Telekinesis, Repel         |
-| Telepathy   | Feedback Loop, Remote Assistance |
+| Chronopathy | [Accelerate](scc:mcdm.heroes.v1/feature.ability.talent.level-1/accelerate), Again                |
+| Telekinesis | [Minor Telekinesis](scc:mcdm.heroes.v1/feature.ability.talent.level-1/minor-telekinesis), [Repel](scc:mcdm.heroes.v1/feature.ability.talent.level-1/repel)         |
+| Telepathy   | [Feedback Loop](scc:mcdm.heroes.v1/feature.ability.talent.level-1/feedback-loop), [Remote Assistance](scc:mcdm.heroes.v1/feature.ability.talent.level-1/remote-assistance) |

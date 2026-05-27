@@ -32,7 +32,7 @@ If a kit provides no armor, you can wear whatever clothing you like! Robes, a fa
 
 ##### Light Armor
 
-If a kit features light armor, you might wear padded cloth, leather armor, or a chain shirt.
+If a [kit features](scc:mcdm.heroes.v1/feature.trait.fury/kit-features) light armor, you might wear padded cloth, leather armor, or a chain shirt.
 
 ##### Medium Armor
 

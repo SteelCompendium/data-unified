@@ -12,9 +12,9 @@ Your [troubadour](scc:mcdm.heroes.v1/class/troubadour) class act grants you a tr
 
 | Class Act | Triggered Action       |
 |-----------|------------------------|
-| Auteur    | Turnabout Is Fair Play |
-| Duelist   | Riposte                |
-| Virtuoso  | Harmonize              |
+| Auteur    | [Turnabout Is Fair Play](scc:mcdm.heroes.v1/feature.ability.troubadour.level-1/turnabout-is-fair-play) |
+| Duelist   | [Riposte](scc:mcdm.heroes.v1/feature.ability.troubadour.level-1/riposte)                |
+| Virtuoso  | [Harmonize](scc:mcdm.heroes.v1/feature.ability.troubadour.level-1/harmonize)              |
 
 ###### Harmonize (3 Drama)
 

@@ -6,13 +6,13 @@ scc: mcdm.heroes.v1/feature.trait.elementalist.level-1/1st-level-specialization-
 type: trait
 ---
 
-Your elemental specialization grants you a feature, as shown on the 1st-Level Elemental Specialization Features table.
+Your [elemental specialization](scc:mcdm.heroes.v1/feature.trait.elementalist.level-1/elemental-specialization) grants you a feature, as shown on the 1st-Level [Elemental Specialization](scc:mcdm.heroes.v1/feature.trait.elementalist.level-1/elemental-specialization) Features table.
 
 ###### 1st-Level Elemental Specialization Features Table
 
 | Specialization | Feature                    |
 |----------------|----------------------------|
-| Earth          | Motivate Earth             |
-| Fire           | Return to Formlessness     |
-| Green          | It Is the Soul Which Hears |
-| Void           | A Beyonding of Vision      |
+| Earth          | [Motivate Earth](scc:mcdm.heroes.v1/feature.ability.elementalist.level-1/motivate-earth)             |
+| Fire           | [Return to Formlessness](scc:mcdm.heroes.v1/feature.ability.elementalist.level-1/return-to-formlessness)     |
+| Green          | [It Is the Soul Which Hears](scc:mcdm.heroes.v1/feature.trait.elementalist.level-1/it-is-the-soul-which-hears) |
+| Void           | [A Beyonding of Vision](scc:mcdm.heroes.v1/feature.trait.elementalist.level-1/a-beyonding-of-vision)      |

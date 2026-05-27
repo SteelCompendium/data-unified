@@ -6,12 +6,12 @@ scc: mcdm.heroes.v1/feature.trait.fury.level-2/2nd-level-aspect-feature
 type: trait
 ---
 
-Your primordial aspect grants you a feature, as shown on the 2nd-Level Aspect Features table.
+Your [primordial aspect](scc:mcdm.heroes.v1/feature.trait.fury.level-1/primordial-aspect) grants you a feature, as shown on the 2nd-Level Aspect Features table.
 
 ###### 2nd-Level Aspect Features Table
 
 | Aspect     | Feature           |
 |------------|-------------------|
-| Berserker  | Unstoppable Force |
-| Reaver     | Inescapable Wrath |
-| Stormwight | Tooth and Claw    |
+| Berserker  | [Unstoppable Force](scc:mcdm.heroes.v1/feature.trait.fury.level-2/unstoppable-force) |
+| Reaver     | [Inescapable Wrath](scc:mcdm.heroes.v1/feature.trait.fury.level-2/inescapable-wrath) |
+| Stormwight | [Tooth and Claw](scc:mcdm.heroes.v1/feature.trait.fury.level-2/tooth-and-claw)    |

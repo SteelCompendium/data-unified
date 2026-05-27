@@ -6,7 +6,7 @@ scc: mcdm.heroes.v1/feature.trait.troubadour.level-8/crowd-favorites
 type: trait
 ---
 
-You have the following performance abilities, which are usable with your Routines feature.
+You have the following performance abilities, which are usable with your [Routines](scc:mcdm.heroes.v1/feature.trait.troubadour.level-1/routines) feature.
 
 ###### Moonlight Sonata
 

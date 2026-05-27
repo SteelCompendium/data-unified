@@ -12,6 +12,6 @@ Your [null](scc:mcdm.heroes.v1/class/null) tradition grants you a feature, as sh
 
 | Tradition     | Feature           |
 |---------------|-------------------|
-| Chronokinetic | Shared Momentum   |
-| Cryokinetic   | Synaptic Triage   |
-| Metakinetic   | Inertial Dampener |
+| Chronokinetic | [Shared Momentum](scc:mcdm.heroes.v1/feature.trait.null.level-8/shared-momentum)   |
+| Cryokinetic   | [Synaptic Triage](scc:mcdm.heroes.v1/feature.trait.null.level-8/synaptic-triage)   |
+| Metakinetic   | [Inertial Dampener](scc:mcdm.heroes.v1/feature.trait.null.level-8/inertial-dampener) |

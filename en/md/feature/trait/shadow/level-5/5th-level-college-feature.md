@@ -12,6 +12,6 @@ Your [shadow](scc:mcdm.heroes.v1/class/shadow) college grants you a feature, as 
 
 | College         | Feature           |
 |-----------------|-------------------|
-| Black Ash       | Trail of Cinders  |
-| Caustic Alchemy | Volatile Reagents |
-| Harlequin Mask  | Harlequin Gambit  |
+| Black Ash       | [Trail of Cinders](scc:mcdm.heroes.v1/feature.trait.shadow.level-5/trail-of-cinders)  |
+| Caustic Alchemy | [Volatile Reagents](scc:mcdm.heroes.v1/feature.trait.shadow.level-5/volatile-reagents) |
+| Harlequin Mask  | [Harlequin Gambit](scc:mcdm.heroes.v1/feature.trait.shadow.level-5/harlequin-gambit)  |

@@ -6,7 +6,7 @@ scc: mcdm.heroes.v1/feature.trait.censor.level-9/improved-implement-of-wrath
 type: trait
 ---
 
-The weapon you target with your Implement of Wrath feature gains the following additional benefits:
+The weapon you target with your [Implement of Wrath](scc:mcdm.heroes.v1/feature.trait.censor.level-6/implement-of-wrath) feature gains the following additional benefits:
 
 - The weapon's wielder and each ally adjacent to them gain a +2 bonus to saving throws.
 - At the end of each of the weapon wielder's turns, each ally adjacent to the wielder makes a saving throw against each effect on them that is ended by a saving throw.

@@ -12,22 +12,22 @@ Choose one of your domains. You gain a domain feature for that domain, as shown 
 
 | Domain     | Feature                     |
 |------------|-----------------------------|
-| Creation   | Improved Hands of the Maker |
+| Creation   | Improved [Hands of the Maker](scc:mcdm.heroes.v1/feature.ability.censor.level-1/hands-of-the-maker) |
 | Death      | Seance                      |
-| Fate       | Oracular Warning            |
+| Fate       | [Oracular Warning](scc:mcdm.heroes.v1/feature.trait.censor.level-4/oracular-warning)            |
 | Knowledge  | Saint's Epiphany            |
-| Life       | Blessing of Life            |
+| Life       | [Blessing of Life](scc:mcdm.heroes.v1/feature.trait.censor.level-4/blessing-of-life)            |
 | Love       | Invocation of the Heart     |
-| Nature     | Wode Road                   |
-| Protection | Impervious Touch            |
+| Nature     | [Wode Road](scc:mcdm.heroes.v1/feature.trait.censor.level-4/wode-road)                   |
+| Protection | [Impervious Touch](scc:mcdm.heroes.v1/feature.trait.censor.level-4/impervious-touch)            |
 | Storm      | Windwalk                    |
-| Sun        | Light of Revelation         |
-| Trickery   | Blessing of Secrets         |
-| War        | Improved Sanctified Weapon  |
+| Sun        | [Light of Revelation](scc:mcdm.heroes.v1/feature.trait.censor.level-4/light-of-revelation)         |
+| Trickery   | [Blessing of Secrets](scc:mcdm.heroes.v1/feature.ability.censor.level-4/blessing-of-secrets)         |
+| War        | [Improved Sanctified Weapon](scc:mcdm.heroes.v1/feature.trait.censor.level-4/improved-sanctified-weapon)  |
 
 ###### Blessing of Life
 
-Your divine presence causes those you deem worthy to recover quickly from a fight. Whenever an ally within distance of your Healing Grace ability regains Stamina, they regain additional Stamina equal to your Intuition score.
+Your divine presence causes those you deem worthy to recover quickly from a fight. Whenever an ally within distance of your [Healing Grace](scc:mcdm.heroes.v1/feature.ability.conduit.level-1/healing-grace) ability regains Stamina, they regain additional Stamina equal to your Intuition score.
 
 ###### Blessing of Secrets
 
@@ -41,11 +41,11 @@ Additionally, you can place this spell on a building or vehicle (or a similar st
 
 ###### Improved Hands of the Maker
 
-When you use your Hands of the Maker ability, you can create a mundane object that is size 2 or smaller.
+When you use your [Hands of the Maker](scc:mcdm.heroes.v1/feature.ability.censor.level-1/hands-of-the-maker) ability, you can create a mundane object that is size 2 or smaller.
 
 ###### Improved Sanctified Weapon
 
-The weapon improved by your Sanctified Weapon feature grants a +3 bonus to rolled damage instead of +1.
+The weapon improved by your [Sanctified Weapon](scc:mcdm.heroes.v1/feature.trait.censor.level-1/sanctified-weapon) feature grants a +3 bonus to rolled damage instead of +1.
 
 ###### Invocation of the Heart
 

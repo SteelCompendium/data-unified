@@ -6,7 +6,7 @@ type: perk
 
 You have the following ability.
 
-##### [Arcane Trick](scc:mcdm.heroes.v1/perk/arcane-trick)
+##### Arcane Trick
 
 >
 > *You cast an entertaining spell that creates a minor but impressive magical effect.*

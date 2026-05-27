@@ -6,4 +6,4 @@ scc: mcdm.heroes.v1/feature.trait.shadow.level-7/careful-observation-improvement
 type: trait
 ---
 
-You can target two creatures simultaneously with your Careful Observation ability, observing both simultaneously. Making a strike against one target doesn't end your observation of the other target.
+You can target two creatures simultaneously with your [Careful Observation](scc:mcdm.heroes.v1/feature.ability.shadow.level-3/careful-observation) ability, observing both simultaneously. Making a strike against one target doesn't end your observation of the other target.

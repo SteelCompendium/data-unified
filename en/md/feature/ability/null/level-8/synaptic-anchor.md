@@ -4,7 +4,7 @@ class: "null"
 cost: 11 Discipline
 distance: Self; see below
 effect: The target takes half the damage, and if the triggering creature has I < AVERAGE, they are dazed (save ends). While the triggering creature is dazed this way, they take psychic damage equal to your Intuition score whenever they use a main action.
-flavor: You disrupt an enemy's strike and create a feedback loop in their mind, preventing them from focusing on future attacks.
+flavor: You disrupt an enemy's strike and create a [feedback loop](scc:mcdm.heroes.v1/feature.ability.talent.level-1/feedback-loop) in their mind, preventing them from focusing on future attacks.
 keywords:
     - Psionic
 level: "8"
@@ -17,7 +17,7 @@ type: ability
 ---
 
 
-*You disrupt an enemy's strike and create a feedback loop in their mind, preventing them from focusing on future attacks.*
+*You disrupt an enemy's strike and create a [feedback loop](scc:mcdm.heroes.v1/feature.ability.talent.level-1/feedback-loop) in their mind, preventing them from focusing on future attacks.*
 
 | **Psionic**            |           **Free triggered** |
 |------------------------|-----------------------------:|

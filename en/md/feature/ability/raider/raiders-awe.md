@@ -3,7 +3,7 @@ action_type: Main action
 class: raider
 distance: Melee 1 or ranged 10
 effect: The target takes a bane on their next power roll made before the end of their next turn.
-flavor: You execute a brutal strike that leaves your foe reeling. (Previously known as "Shock and Awe")
+flavor: You execute a brutal strike that leaves your foe reeling. (Previously known as "[Shock and Awe](scc:mcdm.heroes.v1/feature.trait.tactician.level-7/shock-and-awe)")
 keywords:
     - Melee
     - Ranged
@@ -16,7 +16,7 @@ target: One creature
 type: ability
 ---
 
-*You execute a brutal strike that leaves your foe reeling. (Previously known as "Shock and Awe")*
+*You execute a brutal strike that leaves your foe reeling. (Previously known as "[Shock and Awe](scc:mcdm.heroes.v1/feature.trait.tactician.level-7/shock-and-awe)")*
 
 | **Melee, Ranged, Strike, Weapon** |     **Main action** |
 |-----------------------------------|--------------------:|

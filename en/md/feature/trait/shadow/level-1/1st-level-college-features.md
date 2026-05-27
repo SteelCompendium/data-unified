@@ -12,6 +12,6 @@ Your [shadow](scc:mcdm.heroes.v1/class/shadow) college grants you one or two fea
 
 | College         | Feature                    |
 |-----------------|----------------------------|
-| Black Ash       | Black Ash Teleport         |
-| Caustic Alchemy | Coat the Blade, Smoke Bomb |
+| Black Ash       | [Black Ash Teleport](scc:mcdm.heroes.v1/feature.ability.shadow.level-1/black-ash-teleport)         |
+| Caustic Alchemy | [Coat the Blade](scc:mcdm.heroes.v1/feature.ability.shadow.level-1/coat-the-blade), [Smoke Bomb](scc:mcdm.heroes.v1/feature.trait.shadow.level-1/smoke-bomb) |
 | Harlequin Mask  | I'm No Threat              |
