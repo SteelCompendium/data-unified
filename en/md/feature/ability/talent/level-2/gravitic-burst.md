@@ -32,4 +32,4 @@ type: ability
 - **12-16:** 6 damage; vertical push 4
 - **17+:** 9 damage; vertical push 6
 
-**Strained:** The size of the burst increases by 1, and you are weakened until the end of your turn.
+**Strained:** The size of the burst increases by 1, and you are [weakened](scc:mcdm.heroes.v1/condition/weakened) until the end of your turn.

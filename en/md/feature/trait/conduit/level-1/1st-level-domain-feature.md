@@ -6,7 +6,7 @@ scc: mcdm.heroes.v1/feature.trait.conduit.level-1/1st-level-domain-feature
 type: trait
 ---
 
-Choose one of your domains. You gain a domain feature for that domain, as shown on the 1st-Level [Conduit](scc:mcdm.heroes.v1/class/conduit) Domain Features table. Additionally, you gain a skill from the chosen domain, selected from the skill group indicated on the table. (*Quick Build:* [Revitalizing Ritual](scc:mcdm.heroes.v1/feature.trait.censor.level-1/revitalizing-ritual) and the Heal skill from the Life domain.)
+Choose one of your domains. You gain a domain feature for that domain, as shown on the 1st-Level [Conduit](scc:mcdm.heroes.v1/class/conduit) Domain Features table. Additionally, you gain a skill from the chosen domain, selected from the skill group indicated on the table. (*Quick Build:* [Revitalizing Ritual](scc:mcdm.heroes.v1/feature.trait.censor.level-1/revitalizing-ritual) and the [Heal](scc:mcdm.heroes.v1/skill/heal) skill from the Life domain.)
 
 ###### 1st-Level Conduit Domain Features Table
 

@@ -13,9 +13,9 @@ name: Blood on the Stage
 power_roll_characteristic: Agility
 scc: mcdm.heroes.v1/feature.ability.troubadour.level-6/blood-on-the-stage
 target: One creature or object
-tier1: 12 + A damage; M < WEAK, bleeding (save ends)
-tier2: 18 + A damage; M < AVERAGE, bleeding (save ends)
-tier3: 24 + A damage; bleeding (EoT), or if M < STRONG, bleeding (save ends)
+tier1: 12 + A damage; M < WEAK, [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
+tier2: 18 + A damage; M < AVERAGE, [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
+tier3: 24 + A damage; [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (EoT), or if M < STRONG, [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
 type: ability
 ---
 
@@ -28,6 +28,6 @@ type: ability
 
 **Power Roll + Agility:**
 
-- **≤11:** 12 + A damage; M < WEAK, bleeding (save ends)
-- **12-16:** 18 + A damage; M < AVERAGE, bleeding (save ends)
-- **17+:** 24 + A damage; bleeding (EoT), or if M < STRONG, bleeding (save ends)
+- **≤11:** 12 + A damage; M < WEAK, [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
+- **12-16:** 18 + A damage; M < AVERAGE, [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
+- **17+:** 24 + A damage; [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (EoT), or if M < STRONG, [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)

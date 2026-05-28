@@ -25,7 +25,7 @@ You have 3 ancestry points to spend on the following traits. (*Quick Build:* Gro
 
 ##### Great Fortitude (2 Points)
 
-Your hearty constitution prevents you from losing strength. You can't be made weakened.
+Your hearty constitution prevents you from losing strength. You can't be made [weakened](scc:mcdm.heroes.v1/condition/weakened).
 
 ##### Grounded (1 Point)
 

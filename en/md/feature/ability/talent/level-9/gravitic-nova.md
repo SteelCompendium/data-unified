@@ -35,4 +35,4 @@ type: ability
 
 **Effect:** On a critical hit, the size of the area increases by 3, and this ability deals an extra 10 damage.
 
-**Strained:** You are weakened (save ends). If you scored a critical hit with this ability, you die.
+**Strained:** You are [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends). If you scored a critical hit with this ability, you die.

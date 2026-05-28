@@ -38,4 +38,4 @@ You wear heavy armor and wield a shield and a medium weapon.
 - **12-16:** 8 + M or A damage
 - **17+:** 11 + M or A damage
 
-**Effect:** The target is taunted until the end of their next turn.
+**Effect:** The target is [taunted](scc:mcdm.heroes.v1/condition/taunted) until the end of their next turn.

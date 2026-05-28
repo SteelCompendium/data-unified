@@ -48,7 +48,7 @@ Total: 524
 - [Bend Fate](../feature/ability/conduit/level-9/bend-fate.md)
 - [Bifurcated Incineration](../feature/ability/elementalist/level-1/bifurcated-incineration.md)
 - [Black Ash Eruption](../feature/ability/shadow/level-6/black-ash-eruption.md)
-- [Black Ash Teleport](../feature/ability/shadow/level-1/black-ash-teleport.md)
+- [Black Ash [Teleport](scc:mcdm.heroes.v1/movement/teleport)](../feature/ability/shadow/level-1/black-ash-teleport-scc-mcdm-heroes-v1-movement-teleport.md)
 - [Blackout](../feature/ability/shadow/level-5/blackout.md)
 - [Blade of the Heavens](../feature/ability/conduit/level-6/blade-of-the-heavens.md)
 - [Blessed Light](../feature/ability/conduit/level-1/blessed-light.md)

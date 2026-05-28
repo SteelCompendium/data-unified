@@ -35,4 +35,4 @@ type: ability
 - **12-16:** 3 burst
 - **17+:** 4 burst
 
-**Strained:** You can choose to reduce the size of the burst by 2 (to a minimum of 1 burst) to give the forced movement distance a +2 bonus. You take half the total damage all targets take from forced movement.
+**Strained:** You can choose to reduce the size of the burst by 2 (to a minimum of 1 burst) to give the [forced movement](scc:mcdm.heroes.v1/movement/forced-movement) distance a +2 bonus. You take half the total damage all targets take from [forced movement](scc:mcdm.heroes.v1/movement/forced-movement).

@@ -10,7 +10,7 @@ You are hunting someone or something—perhaps a wanted criminal, a person who w
 
 **Benefit:** Choose one skill from the following:
 
-- Interrogate (from the interpersonal skill group)
+- [Interrogate](scc:mcdm.heroes.v1/skill/interrogate) (from the interpersonal skill group)
 - Alertness, Eavesdrop, Search, or Track (from the intrigue skill group)
 - Criminal Underworld, Rumors, or Society (from the lore skill group)
 

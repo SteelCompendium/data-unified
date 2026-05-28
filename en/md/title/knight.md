@@ -27,10 +27,10 @@ type: title
 >
 > **Power Roll + Might or Agility:**
 >
-> - **≤11:** 7 damage; taunted (save ends)
-> - **12-16:** 11 damage; taunted (save ends)
-> - **17+:** 16 damage; taunted (save ends)
+> - **≤11:** 7 damage; [taunted](scc:mcdm.heroes.v1/condition/taunted) (save ends)
+> - **12-16:** 11 damage; [taunted](scc:mcdm.heroes.v1/condition/taunted) (save ends)
+> - **17+:** 16 damage; [taunted](scc:mcdm.heroes.v1/condition/taunted) (save ends)
 >
-> **Effect:** You can end the taunted condition on the target as a free maneuver.
+> **Effect:** You can end the [taunted](scc:mcdm.heroes.v1/condition/taunted) condition on the target as a free maneuver.
 >
 > **Special:** If you take this title, you might occasionally be called upon to perform duties for the person who knighted you.

@@ -4,7 +4,7 @@ scc: mcdm.heroes.v1/feature.trait.common.maneuvers/escape-grab
 type: trait
 ---
 
-A creature who is grabbed by another creature, an object, or an effect (see Grab below) can attempt to escape by using the following ability.
+A creature who is [grabbed](scc:mcdm.heroes.v1/condition/grabbed) by another creature, an object, or an effect (see Grab below) can attempt to escape by using the following ability.
 
 ##### Escape Grab
 
@@ -16,9 +16,9 @@ A creature who is grabbed by another creature, an object, or an effect (see Grab
 > **Power Roll + Might or Agility:**
 >
 > - **≤11:** No effect.
-> - **12-16:** You can escape the grab, but if you do, a creature who has you grabbed can make a melee free strike against you before you are no longer grabbed.
-> - **17+:** You are no longer grabbed.
+> - **12-16:** You can escape the grab, but if you do, a creature who has you [grabbed](scc:mcdm.heroes.v1/condition/grabbed) can make a melee free strike against you before you are no longer [grabbed](scc:mcdm.heroes.v1/condition/grabbed).
+> - **17+:** You are no longer [grabbed](scc:mcdm.heroes.v1/condition/grabbed).
 >
-> **Effect:** You take a bane on this maneuver if your size is smaller than the size of the creature, object, or effect that has you grabbed.
+> **Effect:** You take a bane on this maneuver if your size is smaller than the size of the creature, object, or effect that has you [grabbed](scc:mcdm.heroes.v1/condition/grabbed).
 
-See Conditions in Chapter 5: [Classes](scc:mcdm.heroes.v1/chapter/classes) for information on the grabbed condition.
+See Conditions in Chapter 5: [Classes](scc:mcdm.heroes.v1/chapter/classes) for information on the [grabbed](scc:mcdm.heroes.v1/condition/grabbed) condition.

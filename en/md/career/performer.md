@@ -4,7 +4,7 @@ perk: One interpersonal perk (*Quick Build:* [Harmonizer](scc:mcdm.heroes.v1/per
 renown: "+2"
 scc: mcdm.heroes.v1/career/performer
 skills:
-    - The Music or Perform skill (from the interpersonal skill group), plus two more skills from the interpersonal group (*Quick Build:* Flirt, Music, Perform.)
+    - The [Music](scc:mcdm.heroes.v1/skill/music) or [Perform](scc:mcdm.heroes.v1/skill/perform) skill (from the interpersonal skill group), plus two more skills from the interpersonal group (*Quick Build:* [Flirt](scc:mcdm.heroes.v1/skill/flirt), [Music](scc:mcdm.heroes.v1/skill/music), [Perform](scc:mcdm.heroes.v1/skill/perform).)
 type: career
 ---
 
@@ -17,7 +17,7 @@ You can sing, act, or dance well enough that people actually pay you to do it. I
 
 You gain the following career benefits:
 
-**Skills:** The Music or Perform skill (from the interpersonal skill group), plus two more skills from the interpersonal group (*Quick Build:* Flirt, Music, Perform.)
+**Skills:** The [Music](scc:mcdm.heroes.v1/skill/music) or [Perform](scc:mcdm.heroes.v1/skill/perform) skill (from the interpersonal skill group), plus two more skills from the interpersonal group (*Quick Build:* [Flirt](scc:mcdm.heroes.v1/skill/flirt), [Music](scc:mcdm.heroes.v1/skill/music), [Perform](scc:mcdm.heroes.v1/skill/perform).)
 
 **Renown:** +2
 

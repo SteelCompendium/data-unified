@@ -22,4 +22,4 @@ With this stormwight kit, you channel your [primordial ferocity](scc:mcdm.heroes
 - **12-16:** 7 + A damage; push 1
 - **17+:** 9 + A damage; push 2
 
-**Effect:** You can shift up to the same number of squares that you pushed the target.
+**Effect:** You can [shift](scc:mcdm.heroes.v1/movement/shifting) up to the same number of squares that you pushed the target.

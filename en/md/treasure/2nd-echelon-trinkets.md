@@ -72,7 +72,7 @@ This section presents 2nd-echelon trinket treasures in alphabetical order.
 
 **Project Goal:** 300
 
-**Effect:** As a maneuver, you touch the key to an adjacent willing, grabbed, or restrained creature and twist the key 90 degrees clockwise. That creature must answer the next three questions they are asked truthfully and fully. If twisted 90 degrees counterclockwise instead, the creature forgets the last 30 minutes they experienced. A creature affected by the key can't be affected again by any Key of Inquiry for 1 year. If the key is ever destroyed, all the memories it has erased are restored. Memories erased by the key can't be restored in any other way.
+**Effect:** As a maneuver, you touch the key to an adjacent willing, [grabbed](scc:mcdm.heroes.v1/condition/grabbed), or [restrained](scc:mcdm.heroes.v1/condition/restrained) creature and twist the key 90 degrees clockwise. That creature must answer the next three questions they are asked truthfully and fully. If twisted 90 degrees counterclockwise instead, the creature forgets the last 30 minutes they experienced. A creature affected by the key can't be affected again by any Key of Inquiry for 1 year. If the key is ever destroyed, all the memories it has erased are restored. Memories erased by the key can't be restored in any other way.
 
 ##### Mediator's Charm
 
@@ -104,7 +104,7 @@ This section presents 2nd-echelon trinket treasures in alphabetical order.
 
 **Project Goal:** 300
 
-**Effect:** While you wear this necklace, you can breathe underwater, you can automatically swim at full speed while moving, and you ignore difficult terrain created by water or in marsh and similar terrain.
+**Effect:** While you wear this necklace, you can breathe underwater, you can automatically swim at full speed while moving, and you ignore [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain) created by water or in marsh and similar terrain.
 
 ##### Scannerstone
 
@@ -138,7 +138,7 @@ This section presents 2nd-echelon trinket treasures in alphabetical order.
 
 **Effect:** As a maneuver, you toss the coin in the air and let it fall to the ground in front of you. Roll a d3 to determine the coin's effect, depending on which face shows when it lands:
 
-- **1-Red:** The area within 2 squares of you is difficult terrain for enemies until the end of your next turn.
+- **1-Red:** The area within 2 squares of you is [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain) for enemies until the end of your next turn.
 - **2-Green:** You and each ally who starts their turn within 2 squares of you gains a +1 bonus to speed until the end of your next turn.
 - **3-Spinning Coin:** Both the red and green effects occur while the coin continuously spins.
 

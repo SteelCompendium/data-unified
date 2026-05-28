@@ -43,6 +43,6 @@ You wear light armor and wield one or two light weapons.
 
 **Power Roll + Might or Agility:**
 
-- **≤11:** 3 + M or A damage; you can shift 1 square
-- **12-16:** 6 + M or A damage; you can shift up to 2 squares
-- **17+:** 8 + M or A damage; you can shift up to 3 squares
+- **≤11:** 3 + M or A damage; you can [shift](scc:mcdm.heroes.v1/movement/shifting) 1 square
+- **12-16:** 6 + M or A damage; you can [shift](scc:mcdm.heroes.v1/movement/shifting) up to 2 squares
+- **17+:** 8 + M or A damage; you can [shift](scc:mcdm.heroes.v1/movement/shifting) up to 3 squares

@@ -27,8 +27,8 @@ type: title
 > **Power Roll + Presence:**
 >
 > - **≤11:** You take 4 sonic damage unless you have the Performance skill.
-> - **12-16:** 6 sonic damage; M < AVERAGE, weakened (save ends)
-> - **17+:** 10 sonic damage; M < STRONG, weakened and bleeding (save ends)
+> - **12-16:** 6 sonic damage; M < AVERAGE, [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
+> - **17+:** 10 sonic damage; M < STRONG, [weakened](scc:mcdm.heroes.v1/condition/weakened) and [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
 >
 > **Effect:** The soul of any creature killed by this ability is dragged to Hell.
 

@@ -29,7 +29,7 @@ The magic in your blood makes it difficult for others to move you. You have a +1
 
 ##### Nonstop (2 Points)
 
-Your bloodfire supplies you with a constant rush of adrenaline. You can't be made slowed.
+Your bloodfire supplies you with a constant rush of adrenaline. You can't be made [slowed](scc:mcdm.heroes.v1/condition/slowed).
 
 ##### Passionate Artisan (1 Point)
 

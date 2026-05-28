@@ -15,7 +15,7 @@ Each [orc](scc:mcdm.heroes.v1/ancestry/orc) has within them a fire that causes t
 
 ### On Orcs
 
-The [orc](scc:mcdm.heroes.v1/ancestry/orc) pulled her greataxe from the split skull of the newly dead ogre. Prone heroes scrambled to their feet. Dazar healed the wounded.
+The [orc](scc:mcdm.heroes.v1/ancestry/orc) pulled her greataxe from the split skull of the newly dead ogre. [Prone](scc:mcdm.heroes.v1/condition/prone) heroes scrambled to their feet. Dazar healed the wounded.
 
 The [orc](scc:mcdm.heroes.v1/ancestry/orc) hopped down from the corpse of the defeated. "Elg was a ruin ogre," she said. "Infected with a troll disease. An inconvenience for troll-kin but to an ogre..." She indicated the mutated ogre. "You weren't to know."
 
