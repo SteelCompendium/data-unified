@@ -253,3 +253,11 @@ How tall is a [polder](scc:mcdm.heroes.v1/ancestry/polder)? How long does a [dwa
 Unless otherwise noted, a character of any of these ancestries is size 1M and has speed 5 and stability 0.
 
 Where an ancestry provides you with an ability, see Abilities in Chapter 5: [Classes](scc:mcdm.heroes.v1/chapter/classes) for details of the ability format.
+
+### Ancestry Traits
+
+Each ancestry has one or more signature traits, which your hero gets for free if they take that ancestry. This is a defining feature that other heroes of your ancestry also possess.
+
+Ancestries also have purchased traits, but you don't get every purchased trait your ancestry has to offer. Instead, your ancestry provides a budget of ancestry points you can use to select traits. Each trait has a point cost that you pay to grant its benefit to your hero.
+
+For example, the [devil](scc:mcdm.heroes.v1/ancestry/devil) ancestry has the signature trait Silver Tongue and 3 ancestry points to spend on seven different traits. A player creating a [devil](scc:mcdm.heroes.v1/ancestry/devil) hero could select Barbed Tail, Glowing Eyes, and Hellsight, each of which costs 1 ancestry point, or they could select one of those traits plus Impressive Horns or Wings, each of which costs 2 ancestry points. But they couldn't select both Impressive Horns and Wings, since their combined cost of 4 exceeds the ancestry points budget for the [devil](scc:mcdm.heroes.v1/ancestry/devil).
