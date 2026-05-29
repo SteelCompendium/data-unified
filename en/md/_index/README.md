@@ -7,10 +7,14 @@
 - [Class](class.md) (9 items)
 - [Complication](complication.md) (100 items)
 - [Condition](condition.md) (9 items)
+- [Culture](culture.md) (13 items)
 - [Kit](kit.md) (25 items)
+- [Movement](movement.md) (13 items)
+- [Negotiation](negotiation.md) (12 items)
 - [Perk](perk.md) (47 items)
+- [Skill](skill.md) (57 items)
 - [Title](title.md) (61 items)
 - [Trait](trait.md) (615 items)
 - [Treasure](treasure.md) (19 items)
 
-Total items: 1460
+Total items: 1555
