@@ -22,6 +22,6 @@ Though you can't gain focus outside of combat, you can use your heroic abilities
 
 When you use an ability outside of combat that lets you spend unlimited focus on its effect, you can use it as if you had spent an amount of focus equal to your Victories. (Such abilities aren't part of the core rules for the [tactician](scc:mcdm.heroes.v1/class/tactician), but they might appear in future products.)
 
-> **[Tactician](scc:mcdm.heroes.v1/class/tactician) Abilities Explained**
+> **[Tactician Abilities](scc:mcdm.heroes.v1/feature.trait.tactician.level-1/tactician-abilities) Explained**
 >
 > Many of the [tactician's](scc:mcdm.heroes.v1/class/tactician) abilities grant allies extra movement, damage, and actions. But what's happening in the fiction to allow this? The [tactician](scc:mcdm.heroes.v1/class/tactician) is an incredible strategist and inspiring leader who is quick to give commands and inspiration that causes their allies to act. The [tactician](scc:mcdm.heroes.v1/class/tactician) can quickly read the battlefield, analyze enemies, and then bark orders and encouragement that pushes their allies to greatness. Many of the names of the [tactician's](scc:mcdm.heroes.v1/class/tactician) abilities are the actual commands they give their friends!

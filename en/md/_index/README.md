@@ -8,13 +8,15 @@
 - [Complication](complication.md) (100 items)
 - [Condition](condition.md) (9 items)
 - [Culture](culture.md) (13 items)
+- [God](god.md) (9 items)
 - [Kit](kit.md) (25 items)
 - [Movement](movement.md) (13 items)
 - [Negotiation](negotiation.md) (12 items)
 - [Perk](perk.md) (47 items)
+- [Project](project.md) (16 items)
 - [Skill](skill.md) (57 items)
 - [Title](title.md) (61 items)
-- [Trait](trait.md) (615 items)
+- [Trait](trait.md) (762 items)
 - [Treasure](treasure.md) (19 items)
 
-Total items: 1555
+Total items: 1727

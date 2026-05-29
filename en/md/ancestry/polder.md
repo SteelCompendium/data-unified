@@ -123,34 +123,6 @@ The [dragon knight](scc:mcdm.heroes.v1/ancestry/dragon-knight) stared at them fo
 
 You have the following ability.
 
-#### Signature Trait: Small!
-
-Your diminutive stature lets you easily get out of—or into—trouble. Your size is 1S.
-
 #### Purchased Polder Traits
 
 You have 4 ancestry points to spend on the following traits. (*Quick Build:* Corruption Immunity, Fearless, Graceful Retreat.)
-
-##### Corruption Immunity (1 Point)
-
-Your innate [shadow](scc:mcdm.heroes.v1/class/shadow) magic grants you resilience against the unnatural. You have corruption immunity equal to your level + 2.
-
-##### Fearless (2 Points)
-
-Courage is all you know. You can't be made [frightened](scc:mcdm.heroes.v1/condition/frightened).
-
-##### Graceful Retreat (1 Point)
-
-Your small size makes it easier for you to slip away from the fray. You gain a +1 bonus to the distance you can shift when you take the Disengage move action.
-
-##### Nimblestep (2 Points)
-
-A light step serves you well when speed is of the essence. You ignore the effects of [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain) and can move at full speed while sneaking.
-
-##### Polder Geist (1 Point)
-
-Evading others' notice gives you freedom to move. At the start of each of your turns during combat, if no enemy has line of effect to you or if you are hidden from or have concealment from any enemy with line of effect to you, you gain a +3 bonus to speed until the end of your turn.
-
-##### Reactive Tumble (1 Point)
-
-Staying light on your feet lets you quickly get back into position. Whenever you are [force moved](scc:mcdm.heroes.v1/movement/forced-movement), you can use a free triggered action to [shift](scc:mcdm.heroes.v1/movement/shifting) 1 square after the [forced movement](scc:mcdm.heroes.v1/movement/forced-movement) is resolved.

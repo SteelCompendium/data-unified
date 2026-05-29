@@ -1,0 +1,37 @@
+---
+class: conduit
+level: "6"
+name: 6th-Level Domain Ability
+scc: mcdm.heroes.v1/feature.trait.conduit.level-6/6th-level-domain-ability
+type: trait
+---
+
+Choose one of your domains. You gain a heroic ability from that domain, as shown on the 6th-Level [Conduit](scc:mcdm.heroes.v1/class/conduit) Domain Abilities table.
+
+###### 6th-Level Conduit Domain Abilities Table
+
+| Domain     | Ability                    |
+|------------|----------------------------|
+| Creation   | Gods' Machine              |
+| Death      | [Aura of Souls](scc:mcdm.heroes.v1/feature.ability.conduit.level-6/aura-of-souls)              |
+| Fate       | [Your Story Ends Here](scc:mcdm.heroes.v1/feature.ability.conduit.level-6/your-story-ends-here)       |
+| Knowledge  | [Invocation of Undoing](scc:mcdm.heroes.v1/feature.ability.conduit.level-6/invocation-of-undoing)      |
+| Life       | [Revitalizing Grace](scc:mcdm.heroes.v1/feature.ability.conduit.level-6/revitalizing-grace)         |
+| Love       | [Lauded by God](scc:mcdm.heroes.v1/feature.ability.conduit.level-6/lauded-by-god)              |
+| Nature     | [Spirit Stampede](scc:mcdm.heroes.v1/feature.ability.conduit.level-6/spirit-stampede)            |
+| Protection | [Cuirass of the Gods](scc:mcdm.heroes.v1/feature.ability.conduit.level-6/cuirass-of-the-gods)        |
+| Storm      | [Lightning Lord](scc:mcdm.heroes.v1/feature.ability.conduit.level-6/lightning-lord)             |
+| Sun        | [Blessing of the Midday Sun](scc:mcdm.heroes.v1/feature.ability.conduit.level-6/blessing-of-the-midday-sun) |
+| Trickery   | [Invocation of Mystery](scc:mcdm.heroes.v1/feature.ability.conduit.level-6/invocation-of-mystery)      |
+| War        | [Blade of the Heavens](scc:mcdm.heroes.v1/feature.ability.conduit.level-6/blade-of-the-heavens)       |
+
+###### Aura of Souls (9 Piety)
+
+> 
+> *A whirlwind of souls of the dead flies around you at your command.*
+> 
+> | **Area, Magic**  |                     **Maneuver** |
+> |------------------|---------------------------------:|
+> | **📏 4 aura**    | **🎯 Each creature in the area** |
+> 
+> **Effect:** Until the end of the encounter or until you are dying, at the end of each of your turns, you can slide each creature in the area up to a number of squares equal to your Intuition score. This [forced movement](scc:mcdm.heroes.v1/movement/forced-movement) ignores stability for your allies.
