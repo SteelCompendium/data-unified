@@ -6,10 +6,11 @@
 - [Chapter](chapter.md) (21 items)
 - [Class](class.md) (9 items)
 - [Complication](complication.md) (100 items)
+- [Condition](condition.md) (9 items)
 - [Kit](kit.md) (25 items)
 - [Perk](perk.md) (47 items)
 - [Title](title.md) (61 items)
 - [Trait](trait.md) (615 items)
 - [Treasure](treasure.md) (19 items)
 
-Total items: 1451
+Total items: 1460
