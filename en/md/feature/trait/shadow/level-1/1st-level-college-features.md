@@ -6,7 +6,7 @@ scc: mcdm.heroes.v1/feature.trait.shadow.level-1/1st-level-college-features
 type: trait
 ---
 
-Your [shadow](scc:mcdm.heroes.v1/class/shadow) college grants you one or two features, as shown on the 1st-Level College Features table.
+Your [shadow college](scc:mcdm.heroes.v1/feature.trait.shadow.level-1/shadow-college) grants you one or two features, as shown on the 1st-Level College Features table.
 
 ###### 1st-Level College Features Table
 

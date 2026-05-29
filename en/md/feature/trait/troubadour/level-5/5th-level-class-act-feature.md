@@ -6,4 +6,4 @@ scc: mcdm.heroes.v1/feature.trait.troubadour.level-5/5th-level-class-act-feature
 type: trait
 ---
 
-Your [troubadour](scc:mcdm.heroes.v1/class/troubadour) class act grants your choice of one of two features.
+Your [troubadour class act](scc:mcdm.heroes.v1/feature.trait.troubadour.level-1/troubadour-class-act) grants your choice of one of two features.

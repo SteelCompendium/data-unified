@@ -14,4 +14,4 @@ You graduated from a [shadow college](scc:mcdm.heroes.v1/feature.trait.shadow.le
 - College of Caustic Alchemy: The College of Caustic Alchemy teaches its students recipes for the acids, bombs, and poisons used in their grim work. Graduates of the college are exceptional assassins. You have the [Alchemy](scc:mcdm.heroes.v1/skill/alchemy) skill.
 - College of the Harlequin Mask: Graduates of the College of the Harlequin Mask learn illusion magic, which they use to infiltrate enemy strongholds and create orchestrated chaos in combat. You have the [Lie](scc:mcdm.heroes.v1/skill/lie) skill.
 
-Your [shadow](scc:mcdm.heroes.v1/class/shadow) college is your subclass, and your choice of college determines many of the features you'll gain as you gain new levels.
+Your [shadow college](scc:mcdm.heroes.v1/feature.trait.shadow.level-1/shadow-college) is your subclass, and your choice of college determines many of the features you'll gain as you gain new levels.

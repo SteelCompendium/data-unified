@@ -6,7 +6,7 @@ scc: mcdm.heroes.v1/feature.trait.shadow.level-9/9th-level-college-ability
 type: trait
 ---
 
-Your [shadow](scc:mcdm.heroes.v1/class/shadow) college grants your choice of one of two heroic abilities.
+Your [shadow college](scc:mcdm.heroes.v1/feature.trait.shadow.level-1/shadow-college) grants your choice of one of two heroic abilities.
 
 ##### 9th-Level Black Ash Abilities
 

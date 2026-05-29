@@ -6,7 +6,7 @@ scc: mcdm.heroes.v1/feature.trait.troubadour.level-8/8th-level-class-act-feature
 type: trait
 ---
 
-Your [troubadour](scc:mcdm.heroes.v1/class/troubadour) class act grants you a feature, as shown on the 8th-Level Class Act Features table.
+Your [troubadour class act](scc:mcdm.heroes.v1/feature.trait.troubadour.level-1/troubadour-class-act) grants you a feature, as shown on the 8th-Level Class Act Features table.
 
 ###### 8th-Level Class Act Features Table
 

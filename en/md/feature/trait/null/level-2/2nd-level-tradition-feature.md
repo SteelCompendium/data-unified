@@ -6,7 +6,7 @@ scc: mcdm.heroes.v1/feature.trait.null.level-2/2nd-level-tradition-feature
 type: trait
 ---
 
-Your [null](scc:mcdm.heroes.v1/class/null) tradition grants you a feature, as shown on the 2nd-Level Tradition Features table.
+Your [null tradition](scc:mcdm.heroes.v1/feature.trait.null.level-1/null-tradition) grants you a feature, as shown on the 2nd-Level Tradition Features table.
 
 ###### 2nd-Level Tradition Features Table
 

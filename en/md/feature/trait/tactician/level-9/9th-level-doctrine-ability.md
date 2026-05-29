@@ -23,7 +23,7 @@ Choose one of the following abilities.
 ###### Squad! Hit and Run! (11 Focus)
 
 >
-> *I had to pry this secret from the [shadow](scc:mcdm.heroes.v1/class/shadow) colleges.*
+> *I had to pry this secret from the [shadow college](scc:mcdm.heroes.v1/feature.trait.shadow.level-1/shadow-college)s.*
 >
 > | **Ranged**       |            **Main action** |
 > |------------------|---------------------------:|

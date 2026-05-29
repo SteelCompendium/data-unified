@@ -133,7 +133,7 @@ You can use an absorbed ability as if you knew it, making power rolls for the ab
 
 **Project Goal:** 150
 
-**[Devil's](scc:mcdm.heroes.v1/ancestry/devil) Bargain:** You can [fly](scc:mcdm.heroes.v1/movement/fly). Additionally, if an effect would make you [prone](scc:mcdm.heroes.v1/condition/prone) while [flying](scc:mcdm.heroes.v1/movement/fly), you can choose to not make you [prone](scc:mcdm.heroes.v1/condition/prone) by losing Stamina equal to the distance you would have fallen from make you [prone](scc:mcdm.heroes.v1/condition/prone).
+**Devil's Bargain:** You can [fly](scc:mcdm.heroes.v1/movement/fly). Additionally, if an effect would make you [prone](scc:mcdm.heroes.v1/condition/prone) while [flying](scc:mcdm.heroes.v1/movement/fly), you can choose to not make you [prone](scc:mcdm.heroes.v1/condition/prone) by losing Stamina equal to the distance you would have fallen from make you [prone](scc:mcdm.heroes.v1/condition/prone).
 
 **Dragon Soul II:** While you are winded, your head transforms into a dragon's head and you have the following ability.
 
@@ -141,7 +141,7 @@ You can use an absorbed ability as if you knew it, making power rolls for the ab
 
 | Enhancement            | Item Prerequisite                                                                                    | Project Source Language |
 |------------------------|------------------------------------------------------------------------------------------------------|-------------------------|
-| [Devil's](scc:mcdm.heroes.v1/ancestry/devil) Bargain        | The wing of an archdevil                                                                             | Anjali                  |
+| Devil's Bargain        | The wing of an archdevil                                                                             | Anjali                  |
 | Dragon Soul II         | An offering of gems, coins, and art stolen from a dragon's hoard, sacrificed in ritual fire          | Vastariax               |
 | Invulnerable           | Repurposed metal plates from a servok war engine                                                     | Rallarian               |
 | Leyline Walker         | A cutting from an ethereal tree that manifests in the mundane world only once a year                 | Yllyric                 |

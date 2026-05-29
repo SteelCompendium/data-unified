@@ -6,7 +6,7 @@ scc: mcdm.heroes.v1/feature.trait.censor.level-5/5th-level-order-feature
 type: trait
 ---
 
-Your [censor](scc:mcdm.heroes.v1/class/censor) order grants you a feature, as shown on the 5th-Level Order Features table.
+Your [censor order](scc:mcdm.heroes.v1/feature.trait.censor.level-1/censor-order) grants you a feature, as shown on the 5th-Level Order Features table.
 
 ###### 5th-Level Order Features Table
 

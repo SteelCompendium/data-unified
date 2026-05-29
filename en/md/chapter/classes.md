@@ -324,7 +324,7 @@ Reading the ability this way prevents a lot of back and forth. You don't need to
 
 ##### Adjusting Potencies
 
-Potencies are made for quick resolution at the table, but a number of triggered actions and other abilities—for example, the [censor's](scc:mcdm.heroes.v1/class/censor) Judgment ability and the [null's](scc:mcdm.heroes.v1/class/null) [Null](scc:mcdm.heroes.v1/class/null) Field ability—allow you to manipulate the value of potencies. If you build a hero who can adjust potencies, pay attention during combat! You might be able to help out a friend who needs a little boost to make their ability take full effect, or hinder an enemy about to lock down one of your allies.
+Potencies are made for quick resolution at the table, but a number of triggered actions and other abilities—for example, the [censor's](scc:mcdm.heroes.v1/class/censor) Judgment ability and the [null's](scc:mcdm.heroes.v1/class/null) [Null Field](scc:mcdm.heroes.v1/feature.trait.null.level-1/null-field) ability—allow you to manipulate the value of potencies. If you build a hero who can adjust potencies, pay attention during combat! You might be able to help out a friend who needs a little boost to make their ability take full effect, or hinder an enemy about to lock down one of your allies.
 
 ##### Spending Resources on Potencies
 
@@ -373,7 +373,7 @@ Some abilities have a "Spend X [Heroic Resource]" entry in the body of the abili
 
 The unique effects of different abilities are combined—effectively stacking on top of each other—if their durations and targets overlap. However, the effects of the same ability used multiple times don't stack. Instead, the most impactful effect—such as the highest bonus—from each use of the ability applies. The most recently used ability applies for determining duration.
 
-For example, the [null's](scc:mcdm.heroes.v1/class/null) [Null](scc:mcdm.heroes.v1/class/null) Field ability reduces the potencies of enemies within the field by 1. If two allied [nulls](scc:mcdm.heroes.v1/class/null) each have their [Null](scc:mcdm.heroes.v1/class/null) Field ability active and an enemy cultist is targeted by both abilities, that cultist's potencies are reduced by 1, not by 2.
+For example, the [null's](scc:mcdm.heroes.v1/class/null) [Null Field](scc:mcdm.heroes.v1/feature.trait.null.level-1/null-field) ability reduces the potencies of enemies within the field by 1. If two allied [nulls](scc:mcdm.heroes.v1/class/null) each have their [Null Field](scc:mcdm.heroes.v1/feature.trait.null.level-1/null-field) ability active and an enemy cultist is targeted by both abilities, that cultist's potencies are reduced by 1, not by 2.
 
 Different effects that impose the same condition (see Conditions below) don't stack to impose the condition twice. For instance, if a hero is targeted by numerous creatures whose abilities cause a target to become [weakened](scc:mcdm.heroes.v1/condition/weakened) (imposing a bane on the target's power rolls), the target isn't [weakened](scc:mcdm.heroes.v1/condition/weakened) twice to impose a double bane on those rolls. A character who is [grabbed](scc:mcdm.heroes.v1/condition/grabbed) by an enemy can't be [grabbed](scc:mcdm.heroes.v1/condition/grabbed) again by another enemy. The same holds true for game effects that aren't conditions. For example, if a hero is targeted by multiple abilities or effects that can halve their recovery value, the hero's recovery value is halved only once.
 

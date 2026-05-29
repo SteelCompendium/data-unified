@@ -6,7 +6,7 @@ scc: mcdm.heroes.v1/feature.trait.censor.level-2/2nd-level-order-features
 type: trait
 ---
 
-Your [censor](scc:mcdm.heroes.v1/class/censor) order grants you two features, as shown on the 2nd-Level Order Features table.
+Your [censor order](scc:mcdm.heroes.v1/feature.trait.censor.level-1/censor-order) grants you two features, as shown on the 2nd-Level Order Features table.
 
 ###### 2nd-Level Order Features Table
 

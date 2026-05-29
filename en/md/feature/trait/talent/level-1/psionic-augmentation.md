@@ -6,4 +6,4 @@ scc: mcdm.heroes.v1/feature.trait.talent.level-1/psionic-augmentation
 type: trait
 ---
 
-Through meditation, you create pathways in your mind that enhance your statistics. Choose one of the following augmentations. You can change your augmentation and ward (see [Talent](scc:mcdm.heroes.v1/class/talent) Ward below) by undergoing a psionic meditation as a respite activity. (*Quick Build:*  [Force Augmentation](scc:mcdm.heroes.v1/feature.trait.null.level-1/force-augmentation).)
+Through meditation, you create pathways in your mind that enhance your statistics. Choose one of the following augmentations. You can change your augmentation and ward (see [Talent Ward](scc:mcdm.heroes.v1/feature.trait.talent.level-1/talent-ward) below) by undergoing a psionic meditation as a respite activity. (*Quick Build:*  [Force Augmentation](scc:mcdm.heroes.v1/feature.trait.null.level-1/force-augmentation).)

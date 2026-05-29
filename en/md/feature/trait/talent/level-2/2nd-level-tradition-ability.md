@@ -6,7 +6,7 @@ scc: mcdm.heroes.v1/feature.trait.talent.level-2/2nd-level-tradition-ability
 type: trait
 ---
 
-Your [talent](scc:mcdm.heroes.v1/class/talent) tradition grants your choice of one of two heroic abilities.
+Your [talent tradition](scc:mcdm.heroes.v1/feature.trait.talent.level-1/talent-tradition) grants your choice of one of two heroic abilities.
 
 ##### 2nd-Level Chronopathy Ability
 

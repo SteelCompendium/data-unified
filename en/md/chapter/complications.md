@@ -57,7 +57,7 @@ Complications are presented in alphabetical order.
 | 25   | [Evanesceria](scc:mcdm.heroes.v1/complication/evanesceria)                        | 75   | [Secret Twin](scc:mcdm.heroes.v1/complication/secret-twin)                |
 | 26   | [Exile](scc:mcdm.heroes.v1/complication/exile)                              | 76   | Self-Taught                |
 | 27   | [Fallen Immortal](scc:mcdm.heroes.v1/complication/fallen-immortal)                    | 77   | [Sewer Folk](scc:mcdm.heroes.v1/complication/sewer-folk)                 |
-| 28   | [Famous Relative](scc:mcdm.heroes.v1/complication/famous-relative)                    | 78   | [Shadow](scc:mcdm.heroes.v1/class/shadow) Born                |
+| 28   | [Famous Relative](scc:mcdm.heroes.v1/complication/famous-relative)                    | 78   | [Shadow Born](scc:mcdm.heroes.v1/complication/shadow-born)                |
 | 29   | [Feytouched](scc:mcdm.heroes.v1/complication/feytouched)                         | 79   | [Shared Spirit](scc:mcdm.heroes.v1/complication/shared-spirit)              |
 | 30   | [Fiery Ideal](scc:mcdm.heroes.v1/complication/fiery-ideal)                        | 80   | [Shattered Legacy](scc:mcdm.heroes.v1/complication/shattered-legacy)           |
 | 31   | [Fire and Chaos](scc:mcdm.heroes.v1/complication/fire-and-chaos)                     | 81   | [Shipwrecked](scc:mcdm.heroes.v1/complication/shipwrecked)                |
@@ -162,7 +162,7 @@ Complications are presented in alphabetical order.
 | 75   | [Secret Twin](scc:mcdm.heroes.v1/complication/secret-twin)                        |
 | 76   | Self-Taught                        |
 | 77   | [Sewer Folk](scc:mcdm.heroes.v1/complication/sewer-folk)                         |
-| 78   | [Shadow](scc:mcdm.heroes.v1/class/shadow) Born                        |
+| 78   | [Shadow Born](scc:mcdm.heroes.v1/complication/shadow-born)                        |
 | 79   | [Shared Spirit](scc:mcdm.heroes.v1/complication/shared-spirit)                      |
 | 80   | [Shattered Legacy](scc:mcdm.heroes.v1/complication/shattered-legacy)                   |
 | 81   | [Shipwrecked](scc:mcdm.heroes.v1/complication/shipwrecked)                        |

@@ -6,7 +6,7 @@ scc: mcdm.heroes.v1/feature.trait.talent.level-1/talent-abilities
 type: trait
 ---
 
-You manifest a variety of psionic powers that let you impact the environment, bolster your allies, and empower yourself. You can choose abilities across different [talent](scc:mcdm.heroes.v1/class/talent) traditions or focus on abilities tied to your chosen tradition to dedicate yourself to its power.
+You manifest a variety of psionic powers that let you impact the environment, bolster your allies, and empower yourself. You can choose abilities across different [talent tradition](scc:mcdm.heroes.v1/feature.trait.talent.level-1/talent-tradition)s or focus on abilities tied to your chosen tradition to dedicate yourself to its power.
 
 ##### Signature Abilities
 

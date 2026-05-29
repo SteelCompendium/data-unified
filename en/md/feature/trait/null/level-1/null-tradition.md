@@ -6,10 +6,10 @@ scc: mcdm.heroes.v1/feature.trait.null.level-1/null-tradition
 type: trait
 ---
 
-Through extensive physical and psionic training, you have learned to unlock the full potential of your body. As you shape the growth of your power, you choose a [null](scc:mcdm.heroes.v1/class/null) tradition from the following options, each of which grants you a skill. (*Quick Build:* Chronokinetic and the [Monsters](scc:mcdm.heroes.v1/skill/monsters) skill.)
+Through extensive physical and psionic training, you have learned to unlock the full potential of your body. As you shape the growth of your power, you choose a [null tradition](scc:mcdm.heroes.v1/feature.trait.null.level-1/null-tradition) from the following options, each of which grants you a skill. (*Quick Build:* Chronokinetic and the [Monsters](scc:mcdm.heroes.v1/skill/monsters) skill.)
 
 - **Chronokinetic:** Your training unmoors you from temporal reality, allowing you to use the flow of time as another dimension that all things move through. You gain one skill from the lore group.
 - **Cryokinetic:** You can tap into absolute cold, the most essential energy of myriad manifolds, and manifest its effects in your body. You gain one skill from the crafting group.
 - **Metakinetic:** You learn to see through the illusions of the universe to more fully understand your body and its psionic potential. You gain one skill from the exploration group.
 
-Your [null](scc:mcdm.heroes.v1/class/null) tradition is your subclass, and your choice of tradition determines many of the features you'll gain as you gain new levels.
+Your [null tradition](scc:mcdm.heroes.v1/feature.trait.null.level-1/null-tradition) is your subclass, and your choice of tradition determines many of the features you'll gain as you gain new levels.

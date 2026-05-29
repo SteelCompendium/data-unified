@@ -11,7 +11,7 @@ Choose one heroic ability from the following options, each of which costs 11 dis
 ##### Arcane Purge (11 Discipline)
 
 >
-> *You focus your [null](scc:mcdm.heroes.v1/class/null) field into a pressure point strike that prevents your foe from channeling sorcery.*
+> *You focus your [null field](scc:mcdm.heroes.v1/feature.trait.null.level-1/null-field) into a pressure point strike that prevents your foe from channeling sorcery.*
 >
 > | **Melee, Psionic, Strike, Weapon** |     **Main action** |
 > |------------------------------------|--------------------:|
