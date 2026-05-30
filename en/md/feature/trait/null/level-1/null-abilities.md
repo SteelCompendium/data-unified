@@ -23,20 +23,3 @@ Choose one heroic ability from the following options, each of which costs 3 disc
 ###### 5-Discipline Ability
 
 Choose one heroic ability from the following options, each of which costs 5 discipline to use. (*Quick Build:* [A Squad Unto Myself](scc:mcdm.heroes.v1/feature.ability.null.level-1/a-squad-unto-myself).)
-
-###### Dance of Blows
-
->
-> *You strike everywhere at once, tricking an enemy into moving out of position.*
->
-> | **Area, Psionic, Weapon** |               **Main action** |
-> |---------------------------|------------------------------:|
-> | **📏 1 burst**            | **🎯 Each enemy in the area** |
->
-> **Power Roll + Agility:**
->
-> - **≤11:** 3 damage
-> - **12-16:** 4 damage
-> - **17+:** 5 damage
->
-> **Effect:** You can slide one adjacent enemy up to a number of squares equal to your Intuition score.

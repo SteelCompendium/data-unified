@@ -19,20 +19,3 @@ Choose one of the following abilities.
 ##### 9th-Level Stormwight Abilities
 
 Choose one of the following abilities.
-
-###### Death Comes for You All! (11 Ferocity)
-
->
-> *You use your weapon to create a destructive shockwave.*
->
-> | **Area, Magic, Melee, Weapon** |               **Main action** |
-> |--------------------------------|------------------------------:|
-> | **📏 3 burst**                 | **🎯 Each enemy in the area** |
->
-> **Power Roll + Might:**
->
-> - **≤11:** 7 damage; push 3
-> - **12-16:** 10 damage; push 5
-> - **17+:** 15 damage; push 7
->
-> **Effect:** If this [forced movement](scc:mcdm.heroes.v1/movement/forced-movement) causes a target to be hurled through an object, that target takes an extra 10 damage.

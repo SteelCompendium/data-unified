@@ -23,18 +23,3 @@ Choose one heroic ability from the following options, each of which costs 3 wrat
 ###### 5-Wrath Ability
 
 Choose one heroic ability from the following options, each of which costs 5 wrath to use. (*Quick Build:* [Purifying Fire](scc:mcdm.heroes.v1/feature.ability.censor.level-1/purifying-fire).)
-
-###### Back Blasphemer!
-
-> 
-> *You channel power through your weapon to repel foes.*
-> 
-> | **Area, Magic, Melee, Weapon** |               **Main action** |
-> |--------------------------------|------------------------------:|
-> | **📏 2 cube within 1**         | **🎯 Each enemy in the area** |
-> 
-> **Power Roll + Presence:**
-> 
-> - **≤11:** 2 holy damage; push 1
-> - **12-16:** 4 holy damage; push 2
-> - **17+:** 6 holy damage; push 3

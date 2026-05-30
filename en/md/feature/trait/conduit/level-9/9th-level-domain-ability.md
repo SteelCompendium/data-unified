@@ -24,14 +24,3 @@ Choose one of your domains. You gain a heroic ability from that domain, as shown
 | Sun        | [Solar Flare](scc:mcdm.heroes.v1/feature.ability.conduit.level-9/solar-flare)              |
 | Trickery   | [Night Falls](scc:mcdm.heroes.v1/feature.ability.conduit.level-9/night-falls)              |
 | War        | [Righteous Phalanx](scc:mcdm.heroes.v1/feature.ability.conduit.level-9/righteous-phalanx)        |
-
-###### Alacrity of the Heart (11 Piety)
-
-> 
-> *You speak inspiring words to a friend and spur them to incredible feats.*
-> 
-> | **Magic, Ranged**  |    **Maneuver** |
-> |--------------------|----------------:|
-> | **📏 Ranged 10** | **🎯 One ally** |
-> 
-> **Effect:** The target has an additional main action they can use on their next turn, and gains 3 of their Heroic Resource.

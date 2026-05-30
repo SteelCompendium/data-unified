@@ -74,14 +74,3 @@ While you have 5 or more Victories, you can [fly](scc:mcdm.heroes.v1/movement/fl
 ###### Wode Road
 
 As a main action, you touch a living tree and make it part of a divine transportation network. You can maintain a number of trees in your network equal to your Intuition score. Whenever you touch any tree in your network, you can use a main action to [teleport](scc:mcdm.heroes.v1/movement/teleport) yourself and any willing creatures within 10 squares of you to a tree in your network on the same world. If a tree in your network dies, it is no longer part of the network. You can remove a tree from your network no matter your distance from it, including across different worlds (no action required).
-
-###### Blessing of Secrets
-
-> 
-> *You project an illusory aura that makes you and allies harder to notice.*
-> 
-> | **Area, Magic** |                         **Maneuver**  |
-> |-----------------|--------------------------------------:|
-> | **📏 3 aura**   | **🎯 Self and each ally in the area** |
-> 
-> **Effect:** Each creature in the area has a double edge on tests made to [hide](scc:mcdm.heroes.v1/skill/hide) or [sneak](scc:mcdm.heroes.v1/skill/sneak). The aura lasts until you end it (no action required) or until a target harms or deals damage to a creature or object.

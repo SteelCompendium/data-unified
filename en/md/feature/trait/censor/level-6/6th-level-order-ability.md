@@ -19,18 +19,3 @@ Choose one of the following abilities.
 ##### 6th-Level Paragon Abilities
 
 Choose one of the following abilities.
-
-###### Begone! (9 Wrath)
-
-> 
-> *You terrify your enemies into retreating, creating chaos in their ranks.*
-> 
-> | **Area, Magic** |               **Main action** |
-> |-----------------|------------------------------:|
-> | **📏 3 burst**  | **🎯 Each enemy in the area** |
-> 
-> **Power Roll + Presence:**
-> 
-> - **≤11:** 4 psychic damage; slide 3
-> - **12-16:** 6 psychic damage; slide 5
-> - **17+:** 8 psychic damage; slide 7

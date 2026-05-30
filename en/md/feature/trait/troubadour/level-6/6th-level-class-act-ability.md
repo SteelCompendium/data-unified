@@ -19,18 +19,3 @@ Choose one of the following abilities.
 ##### 6th-Level Virtuoso Abilities
 
 Choose one of the following abilities.
-
-###### Here's How Your Story Ends (9 Drama)
-
->
-> *You give away the ending of this battle, and it's not great for them.*
->
-> | **Area, Magic** |               **Main action** |
-> |-----------------|------------------------------:|
-> | **📏 5 burst**  | **🎯 Each enemy in the area** |
->
-> **Power Roll + Presence:**
->
-> - **≤11:** 2 psychic damage; P < WEAK, [frightened](scc:mcdm.heroes.v1/condition/frightened) (save ends)
-> - **12-16:** 5 psychic damage; P < AVERAGE, [frightened](scc:mcdm.heroes.v1/condition/frightened) (save ends)
-> - **17+:** 7 psychic damage; P < STRONG, [frightened](scc:mcdm.heroes.v1/condition/frightened) (save ends)

@@ -16,18 +16,3 @@ Your [elemental specialization](scc:mcdm.heroes.v1/feature.trait.elementalist.le
 | Fire            | [Explosive Assistance](scc:mcdm.heroes.v1/feature.ability.elementalist.level-1/explosive-assistance)      |
 | Green           | [Breath of Dawn Remembered](scc:mcdm.heroes.v1/feature.ability.elementalist.level-1/breath-of-dawn-remembered) |
 | Void            | [Subtle Relocation](scc:mcdm.heroes.v1/feature.ability.elementalist.level-1/subtle-relocation)         |
-
-###### Breath of Dawn Remembered
-
-> 
-> *The power you channel grants the ability to get back in the fight.*
-> 
-> | **Green, Magic, Ranged**          |           **Triggered** |
-> |-----------------------------------|------------------------:|
-> | **📏 Ranged 10**                  | **🎯 Self or one ally** |
-> 
-> **Trigger:** The target starts their turn or takes damage.
-> 
-> **Effect:** The target can spend a Recovery.
-> 
-> **Spend 1+ Essence:** The target can spend an additional Recovery for each essence spent.

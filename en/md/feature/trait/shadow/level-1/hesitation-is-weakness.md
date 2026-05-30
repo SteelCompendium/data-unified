@@ -7,16 +7,3 @@ type: trait
 ---
 
 You have the following ability.
-
-##### Hesitation Is Weakness (1 Insight)
-
-> 
-> *Keep up the attack. Never give them a moment's grace.*
-> 
-> | **-**       | **Free triggered** |
-> |-------------|-------------------:|
-> | **📏 Self** |        **🎯 Self** |
-> 
-> **Trigger:** Another hero ends their turn. That hero can't have used this ability to start their turn.
-> 
-> **Effect:** You take your turn after the triggering hero.

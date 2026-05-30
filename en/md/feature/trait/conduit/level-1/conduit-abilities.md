@@ -23,20 +23,3 @@ Choose one heroic ability from the following options, each of which costs 3 piet
 ###### 5-Piety Ability
 
 Choose one heroic ability from the following options, each of which costs 5 piety to use. (*Quick Build:* [Curse of Terror](scc:mcdm.heroes.v1/feature.ability.conduit.level-1/curse-of-terror).)
-
-###### Blessed Light
-
-> 
-> *Burning radiance falls upon your foe, transferring some of their energy to a nearby ally.*
-> 
-> | **Magic, Ranged, Strike** |               **Main action** |
-> |---------------------------|------------------------------:|
-> | **📏 Ranged 10**          | **🎯 One creature or object** |
-> 
-> **Power Roll + Intuition:**
-> 
-> - **≤11:** 3 + I holy damage
-> - **12-16:** 5 + I holy damage
-> - **17+:** 8 + I holy damage
-> 
-> **Effect:** One ally within distance gains a number of surges equal to the tier outcome of your power roll.

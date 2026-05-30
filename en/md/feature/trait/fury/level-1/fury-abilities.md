@@ -23,18 +23,3 @@ Choose one heroic ability from the following options, each of which costs 3 fero
 ###### 5-Ferocity Ability
 
 Choose one heroic ability from the following options, each of which costs 5 ferocity to use. (*Quick Build:* [Blood for Blood](scc:mcdm.heroes.v1/feature.ability.fury.level-1/blood-for-blood)!)
-
-###### Brutal Slam
-
-> 
-> *The heavy impact of your weapon attacks drives your foes ever back.*
-> 
-> | **Melee, Strike, Weapon** |                **Main action** |
-> |---------------------------|-------------------------------:|
-> | **📏 Melee 1**            |  **🎯 One creature or object** |
-> 
-> **Power Roll + Might:**
-> 
-> - **≤11:** 3 + M damage; push 1
-> - **12-16:** 6 + M damage; push 2
-> - **17+:** 9 + M damage; push 4

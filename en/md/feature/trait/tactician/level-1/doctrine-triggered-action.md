@@ -15,18 +15,3 @@ Your [tactical doctrine](scc:mcdm.heroes.v1/feature.trait.tactician.level-1/tact
 | Insurgent  | [Advanced Tactics](scc:mcdm.heroes.v1/feature.ability.tactician.level-1/advanced-tactics) |
 | Mastermind | [Overwatch](scc:mcdm.heroes.v1/feature.ability.tactician.level-1/overwatch)        |
 | Vanguard   | [Parry](scc:mcdm.heroes.v1/feature.ability.tactician.level-1/parry)            |
-
-###### Advanced Tactics
-
->
-> *Your leadership aids an ally.*
->
-> | **Ranged**       |   **Triggered** |
-> |------------------|----------------:|
-> | **📏 Ranged 10** | **🎯 One ally** |
->
-> **Trigger:** The target deals damage to another creature.
->
-> **Effect:** The target gains 2 surges, which they can use on the triggering damage.
->
-> **Spend 1 Focus:** If the damage has any potency effect associated with it, the potency is increased by 1.

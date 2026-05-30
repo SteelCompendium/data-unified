@@ -15,18 +15,3 @@ Your heroic abilities cover a range of combat tactics, all of which require focu
 ###### 3-Focus Ability
 
 Choose one heroic ability from the following options, each of which costs 3 focus to use. (*Quick Build:* [Inspiring Strike](scc:mcdm.heroes.v1/feature.ability.tactician.level-1/inspiring-strike).)
-
-###### Battle Cry (3 Focus)
-
->
-> *You shout a phrase that galvanizes your team.*
->
-> | **Ranged**       |        **Maneuver** |
-> |------------------|--------------------:|
-> | **📏 Ranged 10** | **🎯 Three allies** |
->
-> **Power Roll + Reason:**
->
-> - **≤11:** Each target gains 1 surge.
-> - **12-16:** Each target gains 2 surges.
-> - **17+:** Each target gains 3 surges.

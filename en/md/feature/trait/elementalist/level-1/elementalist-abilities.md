@@ -23,20 +23,3 @@ Choose one heroic ability from the following options, each of which costs 3 esse
 ###### 5-Essence Ability
 
 Choose one heroic ability from the following options, each of which costs 5 essence to use. (*Quick Build:* [Conflagration](scc:mcdm.heroes.v1/feature.ability.elementalist.level-1/conflagration).)
-
-###### Afflict a Bountiful Decay
-
-> 
-> *Your curse causes your foe's flesh to rot off as spores that aid your allies.*
-> 
-> | **Green, Magic, Ranged, Rot, Strike**  |     **Main action** |
-> |----------------------------------------|--------------------:|
-> | **📏 Ranged 10**                       | **🎯 One creature** |
-> 
-> **Power Roll + Reason:**
-> 
-> - **≤11:** 2 + R corruption damage
-> - **12-16:** 4 + R corruption damage
-> - **17+:** 6 + R corruption damage
-> 
-> **Effect:** Choose yourself or one ally within distance. That character can end one effect on them that is ended by a saving throw or that ends at the end of their turn.

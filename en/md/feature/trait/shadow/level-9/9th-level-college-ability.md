@@ -19,20 +19,3 @@ Choose one of the following abilities.
 ##### 9th-Level Harlequin Mask Abilities
 
 Choose one of the following abilities.
-
-###### Cacophony of Cinders (11 Insight)
-
->
-> *You tumble through the battle, stabbing foes and [teleporting](scc:mcdm.heroes.v1/movement/teleport) allies.*
->
-> | **Magic, Melee, Weapon** | **Main action** |
-> |--------------------------|----------------:|
-> | **📏 Self; see below**   |     **🎯 Self** |
->
-> **Effect:** You [shift](scc:mcdm.heroes.v1/movement/shifting) up to twice your speed, making one power roll that targets each creature you come adjacent to during the [shift](scc:mcdm.heroes.v1/movement/shifting).
->
-> **Power Roll + Agility:**
->
-> - **≤11:** An enemy takes 6 damage; an ally can [teleport](scc:mcdm.heroes.v1/movement/teleport) up to 3 squares.
-> - **12-16:** An enemy takes 10 damage; an ally can [teleport](scc:mcdm.heroes.v1/movement/teleport) up to 5 squares.
-> - **17+:** An enemy takes 14 damage; an ally can [teleport](scc:mcdm.heroes.v1/movement/teleport) up to 7 squares.
