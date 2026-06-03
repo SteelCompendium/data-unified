@@ -1,5 +1,6 @@
 ---
 name: Careers
+order: 6
 scc: mcdm.heroes.v1/chapter/careers
 type: chapter
 ---

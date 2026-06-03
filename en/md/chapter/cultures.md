@@ -1,5 +1,6 @@
 ---
 name: Culture
+order: 5
 scc: mcdm.heroes.v1/chapter/cultures
 type: chapter
 ---

@@ -10,7 +10,7 @@ You gain the companionship of a wild animal who travels with you. Your companion
 
 Choose a companion from the following options. (*Quick Build:* Wolf.)
 
-#### Customizing Your Companion
+##### Customizing Your Companion
 
 Want a companion not listed here? You can often use one of these stat blocks to represent a similar beast. For instance, you could use the [condor](scc:mcdm.beastheart.v1/feature-group.companion/condor) companion for an escaped Hawklord hawk, the [wolf](scc:mcdm.beastheart.v1/feature-group.companion/wolf) for a dog or jackal, or even the [boar](scc:mcdm.beastheart.v1/feature-group.companion/boar) for a particularly ornery stag or elk.
 

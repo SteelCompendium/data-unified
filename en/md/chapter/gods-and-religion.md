@@ -1,5 +1,6 @@
 ---
 name: Gods and Religion
+order: 19
 scc: mcdm.heroes.v1/chapter/gods-and-religion
 type: chapter
 ---

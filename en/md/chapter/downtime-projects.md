@@ -1,5 +1,6 @@
 ---
 name: Downtime Projects
+order: 15
 scc: mcdm.heroes.v1/chapter/downtime-projects
 type: chapter
 ---

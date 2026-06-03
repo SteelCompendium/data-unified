@@ -1,6 +1,6 @@
 # Chapter Index
 
-Total: 22
+Total: 25
 
 - [Ancestries](../chapter/ancestries.md)
 - [Background](../chapter/background.md)
@@ -17,10 +17,13 @@ Total: 22
 - [Making a Hero](../chapter/making-a-hero.md)
 - [Negotiation](../chapter/negotiation.md)
 - [Perks](../chapter/perks.md)
+- [Perks](../chapter/perks.md)
+- [Rewards](../chapter/rewards.md)
 - [Rewards](../chapter/rewards.md)
 - [Skills](../chapter/skills.md)
 - [Tests](../chapter/tests.md)
 - [The Basics](../chapter/the-basics.md)
 - [The Beastheart & The Faeries](../chapter/the-beastheart-and-the-faeries.md)
+- [The Beastheart Class](../chapter/the-beastheart-class.md)
 - [Titles](../chapter/titles.md)
 - [Treasures](../chapter/treasures.md)

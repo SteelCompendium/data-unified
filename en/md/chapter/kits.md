@@ -1,5 +1,6 @@
 ---
 name: Kits
+order: 8
 scc: mcdm.heroes.v1/chapter/kits
 type: chapter
 ---

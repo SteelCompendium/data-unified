@@ -1,5 +1,6 @@
 ---
 name: Titles
+order: 18
 scc: mcdm.heroes.v1/chapter/titles
 type: chapter
 ---

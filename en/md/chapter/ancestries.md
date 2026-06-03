@@ -1,5 +1,6 @@
 ---
 name: Ancestries
+order: 3
 scc: mcdm.heroes.v1/chapter/ancestries
 type: chapter
 ---

@@ -18,7 +18,7 @@ Your bond with your companion has awakened ancient, predatory instincts in you t
 
 Your wild nature is your subclass, and your choice of wild nature determines many of the features you'll gain as you gain new levels.
 
-#### Draw Steel Master Classes
+##### Draw Steel Master Classes
 
 The Beastheart is an example of a master class in *Draw Steel*. Master classes are intended for players who are familiar with the game and have played a few sessions. They aren't recommended for first time players—you need to know the rules before we start breaking them on you!
 

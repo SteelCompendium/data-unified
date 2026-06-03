@@ -1,5 +1,6 @@
 ---
 name: For the Director
+order: 20
 scc: mcdm.heroes.v1/chapter/for-the-director
 type: chapter
 ---

@@ -1,5 +1,6 @@
 ---
 name: Skills
+order: 12
 scc: mcdm.heroes.v1/chapter/skills
 type: chapter
 ---

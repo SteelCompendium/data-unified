@@ -1,5 +1,6 @@
 ---
 name: Background
+order: 4
 scc: mcdm.heroes.v1/chapter/background
 type: chapter
 ---

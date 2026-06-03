@@ -1,5 +1,6 @@
 ---
 name: Treasures
+order: 17
 scc: mcdm.heroes.v1/chapter/treasures
 type: chapter
 ---
