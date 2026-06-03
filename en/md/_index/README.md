@@ -17,7 +17,7 @@
 - [Project](project.md) (16 items)
 - [Skill](skill.md) (57 items)
 - [Title](title.md) (61 items)
-- [Trait](trait.md) (867 items)
+- [Trait](trait.md) (876 items)
 - [Treasure](treasure.md) (33 items)
 
-Total items: 1946
+Total items: 1955
