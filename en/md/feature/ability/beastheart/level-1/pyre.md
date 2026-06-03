@@ -20,7 +20,7 @@ type: ability
 
 | **Magic**   | **Triggered Action** |
 |-------------|---------------------:|
-| **📏 Self** | **🎯 Self**          |
+| **📏 Self** |          **🎯 Self** |
 
 **Trigger:** You take damage.
 

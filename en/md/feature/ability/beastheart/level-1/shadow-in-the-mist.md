@@ -20,7 +20,7 @@ type: ability
 
 | **Magic**   | **Triggered Action** |
 |-------------|---------------------:|
-| **📏 Self** | **🎯 Self**          |
+| **📏 Self** |          **🎯 Self** |
 
 **Trigger:** An enemy within 10 squares deals damage to a creature other than you.
 

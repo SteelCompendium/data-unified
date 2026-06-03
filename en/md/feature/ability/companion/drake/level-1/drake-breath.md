@@ -20,9 +20,9 @@ type: ability
 
 *The drake exhales a blast of flesh-melting energy.*
 
-| **Area, Companion, Magic**       |                  **Maneuver** |
-|----------------------------------|------------------------------:|
-| **📏 1 or 2 cube within 1**      | **🎯 Each creature in the area** |
+| **Area, Companion, Magic**  |                     **Maneuver** |
+|-----------------------------|---------------------------------:|
+| **📏 1 or 2 cube within 1** | **🎯 Each creature in the area** |
 
 **Effect:** The target takes damage of the drake's attuned damage type (see [Elementally Attuned](scc:mcdm.beastheart.v1/feature.trait.companion.drake.level-1/elementally-attuned)) equal to the drake's Might score.
 

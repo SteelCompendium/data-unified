@@ -20,8 +20,8 @@ type: ability
 
 *I can't draw a bead on them with that infernal bird flapping in my face!*
 
-| **Companion, Melee, Weapon** |               **Maneuver** |
-|------------------------------|---------------------------:|
+| **Companion, Melee, Weapon** |                  **Maneuver** |
+|------------------------------|------------------------------:|
 | **📏 Melee 1**               | **🎯 One creature or object** |
 
 **Effect:** The target takes damage equal to 3 + the condor's Might score. Additionally, enemies are [weakened](scc:mcdm.heroes.v1/condition/weakened) while adjacent to the condor until the end of your next turn.
