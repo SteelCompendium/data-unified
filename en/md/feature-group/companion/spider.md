@@ -6,12 +6,8 @@ scc: mcdm.beastheart.v1/feature-group.companion/spider
 type: feature-group
 ---
 
-*Animal, Companion*
-
-| Size | Speed | Stability | Free Strike |
-|------|-------|-----------|-------------|
-| 1M   | 5     | 1         | 1 + M       |
-
-**Immunity:** — **Movement:** Climb **Skills:** [Sneak](scc:mcdm.heroes.v1/skill/sneak)
-
-**Might** +2 **Agility** +2 **Reason** −1 **Intuition** +2 **Presence** +1
+| Animal, Companion |  | Level 1 |  |  |
+|:--:|:--:|:--:|:--:|:--:|
+| **1M**<br>Size | **5**<br>Speed | **= yours**<br>Stamina | **1**<br>Stability | **1 + M**<br>Free Strike |
+| **—**<br>Immunity | **Climb**<br>Movement | **[Sneak](scc:mcdm.heroes.v1/skill/sneak)**<br>Skills |  |  |
+| **+2**<br>Might | **+2**<br>Agility | **−1**<br>Reason | **+2**<br>Intuition | **+1**<br>Presence |

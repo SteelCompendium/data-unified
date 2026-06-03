@@ -6,12 +6,8 @@ scc: mcdm.beastheart.v1/feature-group.companion/gummy-ball
 type: feature-group
 ---
 
-*Companion, Ooze*
-
-| Size | Speed | Stability | Free Strike |
-|------|-------|-----------|-------------|
-| 1L   | 5     | 2         | 1 + M       |
-
-**Immunity:** Acid 3 **Movement:** — **Skills:** [Sneak](scc:mcdm.heroes.v1/skill/sneak)
-
-**Might** +2 **Agility** +2 **Reason** −1 **Intuition** +2 **Presence** +1
+| Companion, Ooze |  | Level 1 |  |  |
+|:--:|:--:|:--:|:--:|:--:|
+| **1L**<br>Size | **5**<br>Speed | **= yours**<br>Stamina | **2**<br>Stability | **1 + M**<br>Free Strike |
+| **Acid 3**<br>Immunity | **—**<br>Movement | **[Sneak](scc:mcdm.heroes.v1/skill/sneak)**<br>Skills |  |  |
+| **+2**<br>Might | **+2**<br>Agility | **−1**<br>Reason | **+2**<br>Intuition | **+1**<br>Presence |

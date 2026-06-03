@@ -6,12 +6,8 @@ scc: mcdm.beastheart.v1/feature-group.companion/lightbender
 type: feature-group
 ---
 
-*Beast, Companion*
-
-| Size | Speed | Stability | Free Strike |
-|------|-------|-----------|-------------|
-| 1L   | 7     | 2         | 1 + M       |
-
-**Immunity:** — **Movement:** — **Skills:** [Hide](scc:mcdm.heroes.v1/skill/hide)
-
-**Might** +2 **Agility** +1 **Reason** −1 **Intuition** +2 **Presence** +2
+| Beast, Companion |  | Level 1 |  |  |
+|:--:|:--:|:--:|:--:|:--:|
+| **1L**<br>Size | **7**<br>Speed | **= yours**<br>Stamina | **2**<br>Stability | **1 + M**<br>Free Strike |
+| **—**<br>Immunity | **—**<br>Movement | **[Hide](scc:mcdm.heroes.v1/skill/hide)**<br>Skills |  |  |
+| **+2**<br>Might | **+1**<br>Agility | **−1**<br>Reason | **+2**<br>Intuition | **+2**<br>Presence |
