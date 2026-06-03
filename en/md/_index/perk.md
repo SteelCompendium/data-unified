@@ -1,9 +1,10 @@
 # Perk Index
 
-Total: 47
+Total: 55
 
 - [Arcane Trick](../perk/arcane-trick.md)
 - [Area of Expertise](../perk/area-of-expertise.md)
+- [Born Tracker](../perk/born-tracker.md)
 - [Brawny](../perk/brawny.md)
 - [But I Know Who Does](../perk/but-i-know-who-does.md)
 - [Camouflage Hunter](../perk/camouflage-hunter.md)
@@ -34,10 +35,12 @@ Total: 47
 - [Monster Whisperer](../perk/monster-whisperer.md)
 - [Open Book](../perk/open-book.md)
 - [Pardon My Friend](../perk/pardon-my-friend.md)
+- [People Sense](../perk/people-sense.md)
 - [Polymath](../perk/polymath.md)
 - [Power Player](../perk/power-player.md)
 - [Psychic Whisper](../perk/psychic-whisper.md)
 - [Put Your Back Into It!](../perk/put-your-back-into-it.md)
+- [Ride Along](../perk/ride-along.md)
 - [Ritualist](../perk/ritualist.md)
 - [Slipped Lead](../perk/slipped-lead.md)
 - [So Tell Me...](../perk/so-tell-me.md)
@@ -46,6 +49,11 @@ Total: 47
 - [Team Leader](../perk/team-leader.md)
 - [Teamwork](../perk/teamwork.md)
 - [Thingspeaker](../perk/thingspeaker.md)
+- [Trained Thief](../perk/trained-thief.md)
 - [Traveling Artisan](../perk/traveling-artisan.md)
 - [Traveling Sage](../perk/traveling-sage.md)
+- [Voice of the Wild](../perk/voice-of-the-wild.md)
+- [Wild Rumpus](../perk/wild-rumpus.md)
+- [Wilds Explorer](../perk/wilds-explorer.md)
 - [Wood Wise](../perk/wood-wise.md)
+- [You Can Pet Them, They're Friendly](../perk/you-can-pet-them-theyre-friendly.md)

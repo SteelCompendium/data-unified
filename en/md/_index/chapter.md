@@ -1,6 +1,6 @@
 # Chapter Index
 
-Total: 21
+Total: 22
 
 - [Ancestries](../chapter/ancestries.md)
 - [Background](../chapter/background.md)
@@ -21,5 +21,6 @@ Total: 21
 - [Skills](../chapter/skills.md)
 - [Tests](../chapter/tests.md)
 - [The Basics](../chapter/the-basics.md)
+- [The Beastheart & The Faeries](../chapter/the-beastheart-and-the-faeries.md)
 - [Titles](../chapter/titles.md)
 - [Treasures](../chapter/treasures.md)

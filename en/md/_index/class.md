@@ -1,6 +1,6 @@
 # Class Index
 
-Total: 9
+Total: 10
 
 - [Censor](../class/censor.md)
 - [Conduit](../class/conduit.md)
@@ -10,4 +10,5 @@ Total: 9
 - [Shadow](../class/shadow.md)
 - [Tactician](../class/tactician.md)
 - [Talent](../class/talent.md)
+- [The Beastheart Class](../class/beastheart.md)
 - [Troubadour](../class/troubadour.md)

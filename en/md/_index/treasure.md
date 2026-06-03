@@ -1,6 +1,6 @@
 # Treasure Index
 
-Total: 19
+Total: 33
 
 - [1st-Echelon Consumables](../treasure/1st-echelon-consumables.md)
 - [1st-Echelon Trinkets](../treasure/1st-echelon-trinkets.md)
@@ -10,14 +10,28 @@ Total: 19
 - [3rd-Echelon Trinkets](../treasure/3rd-echelon-trinkets.md)
 - [4th-Echelon Consumables](../treasure/4th-echelon-consumables.md)
 - [4th-Echelon Trinkets](../treasure/4th-echelon-trinkets.md)
+- [Bandana of Invisibility](../treasure/bandana-of-invisibility.md)
+- [Battle Wings](../treasure/battle-wings.md)
 - [Carry Three Safely](../treasure/carry-three-safely.md)
+- [Cavalry Armor](../treasure/cavalry-armor.md)
+- [Glancing Bow](../treasure/glancing-bow.md)
+- [Horned Champion](../treasure/horned-champion.md)
 - [Leveled Armor Treasures](../treasure/leveled-armor-treasures.md)
 - [Leveled Benefits](../treasure/leveled-benefits.md)
 - [Leveled Implement Treasures](../treasure/leveled-implement-treasures.md)
 - [Leveled Weapon Treasures](../treasure/leveled-weapon-treasures.md)
+- [Longclaw](../treasure/longclaw.md)
 - [Magic and Psionic Treasures](../treasure/magic-and-psionic-treasures.md)
 - [Other Leveled Treasures](../treasure/other-leveled-treasures.md)
+- [Pack Harness](../treasure/pack-harness.md)
+- [Precious Collar](../treasure/precious-collar.md)
+- [Rampant Shield](../treasure/rampant-shield.md)
+- [Ruby Ring of Recall](../treasure/ruby-ring-of-recall.md)
+- [Scorpion Tails](../treasure/scorpion-tails.md)
+- [Speaking Scarab](../treasure/speaking-scarab.md)
 - [Stamina Bonuses and Damage Bonuses](../treasure/stamina-bonuses-and-damage-bonuses.md)
+- [Thorn Dragonscale](../treasure/thorn-dragonscale.md)
 - [Wearing Treasures](../treasure/wearing-treasures.md)
+- [Werewolf Tooth Pendant](../treasure/werewolf-tooth-pendant.md)
 - [What Does This Treasure Do?](../treasure/what-does-this-treasure-do.md)
 - [Wielding Treasures](../treasure/wielding-treasures.md)
