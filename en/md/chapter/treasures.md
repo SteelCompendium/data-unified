@@ -29,6 +29,46 @@ other times, generous and well-off individuals such as monarchs and powerful mag
 
 Heroes can also craft their own treasures, forging the tools they need to get the job done using the rules in Chapter 12: [Downtime Projects](scc:mcdm.heroes.v1/chapter/downtime-projects). Items that can be crafted have their item prerequisite, project source, project roll characteristic, and project goal (the number of project points needed to complete the project) noted in their descriptions.
 
+#### What Does This Treasure Do?
+
+When a hero finds a treasure, they learn its properties if they examine it for 5 uninterrupted minutes, unless the item's description says otherwise.
+
+> **Treasure Item Prerequisite**
+>
+> Each treasure has an item prerequisite necessary for crafting it. The exact nature of many of the materials used as an item's prerequisite is left nebulous so that the Director can more easily work those materials into a campaign. What's a mindspider, and how rare is their silk? That's for the Director to decide, whether they want to drop prerequisite items into their planned adventures or craft an entire side quest around finding them.
+
+#### Wearing Treasures
+
+Many treasures, such as cloaks, jewelry, hats, and boots, must be worn. Unless the Director deems otherwise, these items supernaturally resize themselves to fit the creature using them.
+
+Wearable treasures have keywords that indicate which part of the body they are meant to adorn—Arms, Feet, Hands, Head, Neck, or Waist. The Ring keyword marks treasures typically worn on the finger. You can wear any number of treasures that have the same body keyword as long as the Director deems it reasonable. For example, it might be fine for a four-armed [time raider](scc:mcdm.heroes.v1/ancestry/time-raider) to wear two pairs of bracers, but the Director might decide that the same hero can't benefit from wearing two magic cloaks at once. If the Director decides you're wearing too many treasures with the same body keyword, none of those treasures function.
+
+Though body keywords indicate where a treasure is meant to be worn, treasures can still function if worn on other parts of the body. For example, a hero without ears or who just wants to have a different look might wear an earring as a piercing anywhere else they desire.
+
+If a wearable treasure comes as a set, such as a pair of bracers, boots, or earrings, all items in the set must be worn to gain the treasure's benefits.
+
+#### Wielding Treasures
+
+Some treasures are wielded in the form of weapons or implements. A weapon might have the Light Weapon, Medium Weapon, or Heavy Weapon keywords, or might have a keyword denoting a specific category of weapon (Bow, Polearm, and so forth). An implement might have the Implement keyword or a keyword denoting the type of implement (Orb, Wand, and so forth). Armor is also considered a wielded treasure, with the Light Armor, Medium Armor, or Heavy Armor keywords, or the Shield keyword.
+
+A hero can wield as many weapons, implements, suits of armor, or shields as they can feasibly hold or wear. However, an ability can benefit only from one weapon or implement at a time.
+
+##### Treasures and Kits
+
+To gain the benefits of a weapon or armor treasure, the treasure must have keywords that match the equipment of your kit. For instance, a hero using the [Warrior Priest](scc:mcdm.heroes.v1/kit/warrior-priest) kit can benefit from wearing a heavy armor treasure and wielding light weapon treasures, since those are part of that kit.
+
+If your hero doesn't use a kit, they can't gain benefits from using armor or weapon treasures unless they have a feature that says otherwise, such as the [conduit's](scc:mcdm.heroes.v1/class/conduit) Prayer of Soldier's Skill.
+
+A weapon's damage bonus only adds to melee abilities if your kit has a melee damage bonus. A weapon's damage bonus only adds to ranged abilities if your kit has a ranged damage bonus.
+
+#### Magic and Psionic Treasures
+
+The Magic and Psionic keywords for treasures refer to how those treasures are created, not how they are used. Just as magic potions and swords aren't limited only to characters who wield magic themselves, the Magic and Psionic keywords don't restrict the use of treasures to only certain types of characters, so that an implement with the Magic keyword can be used to enhance abilities with the Psionic keyword, and vice versa. Treasures that have the Magic or Psionic keyword and are used to enhance an ability don't add those keywords to the ability.
+
+#### Stamina Bonuses and Damage Bonuses
+
+If two treasures give a creature a bonus to their Stamina or a bonus to the rolled damage of their abilities, only the higher bonus applies unless the treasure's description notes otherwise. Stamina bonuses and damage bonuses from consumables ignore this rule, and can be stacked with other Stamina bonuses and damage bonuses granted by treasures.
+
 ### Consumables
 
 Consumables are treasures that can be used a limited number of times before they expire, losing whatever makes them supernatural. You can drink a potion once, and when you do so, that's it. It's consumed. Other consumables might have a specific number of charges that can be spent. Once those charges are gone, the treasure is useless.
@@ -65,70 +105,20 @@ Like consumables, trinket treasures are organized by echelon. You can carry any 
 
 Like trinkets, leveled treasures can be used at will without a reduction in potency. However, leveled treasures tap into their wielder's will in a way that trinkets don't, becoming more powerful and increasing their capabilities as you gain new levels.
 
-### Artifacts
+#### Leveled Benefits
 
-Artifacts are powerful treasures, with entire campaigns to be built around finding, using, hiding, protecting, or destroying one. Make no mistake—these items unbalance the game. If the heroes or villains have access to such a treasure, their power is far beyond what the encounter—building guidelines in *Draw Steel: Monsters* expect. That's part of the fun!
+Each leveled treasure has benefits that you gain at 1st, 5th, and 9th levels. You can't use a treasure's benefit until you achieve the appropriate benefits level. [Leveled benefits](scc:mcdm.heroes.v1/chapter/treasures) are cumulative.
 
-Typically, one creature never holds onto an artifact for too long. Most of these treasures have a sentience of their own and an eagerness to move on. Since many powerful entities might want to get their hands on an artifact, characters might see armies, dragons, and even gods come to collect one from a wielder who refuses to let go.
+#### Carry Three Safely
 
-##### Blade of a Thousand Years
+Your connection with leveled treasures doesn't just make them useful. It also makes them dangerous. Each leveled treasure is a quasi-sentient, purpose-driven entity. A magic sword wishes to be used in combat. A psionic implement yearns to unleash its powerful magic. As such, a creature can safely carry a maximum of three leveled treasures at a time. If you carry more leveled treasures, those items become jealous of one another and fight for your attention, attempting to subconsciously influence you into using them—and leaving your other items behind.
 
-*This fabled sword features a hilt made of glittering starlight, out of which its gleaming metal blade extends.*
+It's fine to own or possess more than three leveled treasures, as long as the extras are stored away or in the possession of other creatures. But if you carry more than three leveled treasures, you must make a Presence test during each respite:
 
-**Keywords:** Magic; Light Weapon, Medium Weapon, or Heavy Weapon
+- **≤11:** One of your leveled treasures (chosen by the Director) grabs hold of your psyche. It forces you to sleepwalk or otherwise enter an active fugue state and discard the rest of your leveled treasures in locations you can't remember. If you want those items back, you'd better get looking before someone else finds them.
+- **12-16:** Your items work together to prevent you from moving until you pick three items and leave the rest behind.
+- **17+:** Nothing happens.
 
-Whether drawn from a stone, gifted by a lake spirit, forged by a god, or used to kill one, there is a sword that exists outside of time and space. It is always where it needs to be precisely when it needs to be there then is gone in a flash when the need for it has waned. The sword is depicted in art, song, and story across many living cultures—and even more frequently among cultures long buried, often after proving the deciding factor in a battle. It's been wielded by numerous heroes of legend, and even more who have slipped into the forgotten shadows of history.
-
-Though its size and make are often debated, the sword is consistently described as having a crossguard made from pure starlight. When wielded, a brilliant metal blade springs forth from that hilt, suiting the holder's taste in weapons. Those who touch the blade are filled with the vigor and power of the heroes who have held it before.
-
-**Suited for Victory:** This sword takes on the size, shape, and make that the wielder wills into it. It can be a light, medium, or heavy weapon, and you can change its weapon type and appearance as a free maneuver. Any weapon ability that deals rolled damage using the Blade of a Thousand Years gains a +5 damage bonus, and that ability always deals holy damage. Any creature with weakness to holy damage who takes damage from this weapon is also [frightened](scc:mcdm.heroes.v1/condition/frightened) and [weakened](scc:mcdm.heroes.v1/condition/weakened) until the end of their next turn.
-
-**Rally the Righteous:** This blade fills all around it with hope and courage. Each ally within 1 mile of the weapon gains an edge on weapon abilities and magic abilities, and has damage immunity 5. Additionally, each such creature's Stamina maximum increases by 15 and they gain a +15 bonus to Stamina when this ability first affects them.
-
-**Turn the Tide:** Each enemy minion within 1 mile of the sword is [dazed](scc:mcdm.heroes.v1/condition/dazed). Any enemy leader or solo creature in that area takes a bane on ability rolls.
-
-**Victory's Assurance:** This weapon always appears on the eve before what will later come to be known as a historic battle. It disappears after 24 hours or when the battle is won, whichever comes first. By taking the blade, the wielder unwittingly enters into a pact with the weapon. If they don't secure victory against monumental odds or some great foe by the time the sword disappears, they are pulled into the sword, preventing any chance of resurrection, and forever dooming them to lend their strength to the heroes of other ages.
-
-**Soul of the Martyr:** If the wielder dies while holding this blade, their soul is drawn into the starlight hilt, where it remains for the rest of time to prevent any chance of resurrection. The sword disappears, but the lingering feeling of hope that spreads from it remains. For the next hour, the effects of Rally the Righteous increase to provide a double edge on weapon abilities and magic abilities, damage immunity 10, an increase to Stamina maximum of 30, and a bonus to Stamina of +30.
-
-##### Encepter
-
-*A bejeweled scepter with a spiraling porcelain handle balances an orb of light above its crown.*
-
-**Keywords:** Magic
-
-This scepter waits high in the sky, resting within an endlessly raging cyclone. It waits for the one who will unify all people under its light. It awaits its champion.
-
-The Encepter is said to have first manifested in a young world doomed to apocalypse—unless every last inhabitant of that world could stand together. The scepter is said to impose either dominion or obliteration over any threat its light is drawn around. Today, it is most commonly known as a bad omen, and should the Encepter reveal itself, folk know that the world teeters on the brink of destruction. Whether any of the stories are true, few can say, for the only living eyes that have witnessed the Encepter belong to dragons deep in slumber.
-
-**Shining Presence:** The one who wields the Encepter is always cast in a brilliant glow. Any power roll made by the wielder that uses Presence automatically achieves a tier 3 outcome, though the wielder can still roll in an attempt to score a critical success or critical hit.
-
-**Champion's Lasso:** As a free maneuver, the wielder of the scepter can trigger a glowing line of light that traces their path as they move, or can dismiss the glowing line. If the wielder crosses over this line, each creature and object of the wielder's choice enclosed inside the line and within 2 squares above and below it are considered lassoed by the Encepter. Creatures remain lassoed until the lasso is released or until a new line is drawn.
-
-**Dominion:** Each creature lassoed by the Encepter is [restrained](scc:mcdm.heroes.v1/condition/restrained) and can't [teleport](scc:mcdm.heroes.v1/movement/teleport). A creature caught in midair while lassoed stays in place rather than falling.
-
-**Obliteration:** As a main action, the wielder raises the Encepter to the sky. Each target lassoed by the Encepter erupts in a prismatic burst of light, taking 10 psychic damage for each square horizontally encircled by the lasso. The lasso is then immediately released.
-
-**At World's End:** If the Encepter was not taken from its cyclonic resting place with the purpose of vanquishing a terrible peril, then a terrible peril emerges to threaten the world within 3 days of the scepter being taken.
-
-##### Mortal Coil
-
-*This floating helix of golden metal spins ever faster as it activates, crackling with crimson sparks.*
-
-**Keywords:** Psionic
-
-Change is the engine of existence. Permanence begets stagnation. When the past refuses to relinquish control, a path must be cleared for the future. Energized by the flickering of minds and souls passing through the void, the Mortal Coil taps into the entropic potential inherent in every living creature to cast a shadow capable of felling even gods. For the true gift of life is death, and gifts are meant to be given.
-
-Only one destined for death can contain the power of the Mortal Coil. A mortal creature who carries this artifact serves as its host, gaining an additional main action on each of their turns, aging at ten times the usual rate, and becoming unable to ever regain Stamina. A host with no natural maximum lifespan permanently reduces their Stamina maximum by 10 each year.
-
-When the Mortal Coil is left unattended or is in the possession of a creature who is not mortal, it activates and can't be deactivated until a mortal creature becomes its host once more. While active, the artifact extends a penumbra of influence for 10 miles in every direction. Every creature in the penumbra is subject to the following effects.
-
-**One Foot in the Grave:** Any creature in the penumbra has damage weakness 2 and can't regain Stamina.
-
-**Get Busy Dyin':** Each creature in the penumbra ages at 10 times the usual rate, and diseases and poisons affecting creatures in the penumbra run their course at 10 times their usual rate. A creature with no natural maximum lifespan permanently reduces their Stamina maximum by 10 each year. Each creature can undertake one additional respite activity during each respite.
-
-**If You Meet God on the Road, Kill Them:** Every non-mortal entity in the penumbra is granted the gift of mortality. Previously immortal or invulnerable entities—from planar creatures to the gods themselves can be killed while in the penumbra, though not necessarily easily. Any creature or entity who dies in the Mortal Coil's penumbra experiences perfect death. They are permanently, irrevocably dead, and no magic, psionics, or technology can restore them to life.
-
-**Perpetual Motion:** If there are ever no creatures or entities within the Mortal Coil's penumbra, the radius of the penumbra doubles.
-
-**Beneath Contempt:** Deities and their servants always overlook the Mortal Coil and its host—either unable to notice it, or not considering it a threat. If the artifact is somehow destroyed or unmade through godly power, it consumes a year of life from every humanoid in the manifold where it was destroyed, then reforms in a hidden place.
+> **You Don't Need Three**
+>
+> Because you can carry up to three leveled treasures safely, it's easy to assume that your hero should always seek out and carry three such treasures. The truth is that many heroes find carrying just one or two leveled treasures a perfect thematic and mechanical fit, and have no real need for more. That's totally fine! You'll still be super powerful with just one leveled treasure, especially if you obtain or craft trinkets and consumables that might serve you better.

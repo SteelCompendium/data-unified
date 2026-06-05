@@ -1,6 +1,6 @@
 # Chapter Index
 
-Total: 25
+Total: 29
 
 - [Ancestries](../chapter/ancestries.md)
 - [Background](../chapter/background.md)
@@ -10,14 +10,18 @@ Total: 25
 - [Complications](../chapter/complications.md)
 - [Culture](../chapter/cultures.md)
 - [Downtime Projects](../chapter/downtime-projects.md)
+- [Dynamic Terrain](../chapter/dynamic-terrain.md)
 - [For the Director](../chapter/for-the-director.md)
 - [Gods and Religion](../chapter/gods-and-religion.md)
 - [Introduction](../chapter/introduction.md)
 - [Kits](../chapter/kits.md)
 - [Making a Hero](../chapter/making-a-hero.md)
+- [Monster Basics](../chapter/monster-basics.md)
+- [Monsters](../chapter/monsters.md)
 - [Negotiation](../chapter/negotiation.md)
 - [Perks](../chapter/perks.md)
 - [Perks](../chapter/perks.md)
+- [Retainers](../chapter/retainers.md)
 - [Rewards](../chapter/rewards.md)
 - [Rewards](../chapter/rewards.md)
 - [Skills](../chapter/skills.md)
