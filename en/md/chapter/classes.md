@@ -33,7 +33,7 @@ Each class also has a number of subclasses presented in this book. Your subclass
 
 ### Abilities
 
-Abilities are special actions, maneuvers, and more that allow you to affect creatures, objects, and the environment. They represent the main activities your character can undertake when the game is in combat or some other time-sensitive scenario. All characters have access to a few basic abilities, including free strikes and maneuvers such as Grab and Knockback (see Maneuvers in Chapter 10: [Combat](scc:mcdm.heroes.v1/chapter/combat)). But your class, ancestry (see Chapter 3: [Ancestries](scc:mcdm.heroes.v1/chapter/ancestries)), kit (Chapter 6: [Kits](scc:mcdm.heroes.v1/chapter/kits)), titles and treasures (Chapter 13: [Rewards](scc:mcdm.heroes.v1/chapter/rewards)), and other heroic options give you access to more powerful abilities that make your hero stand out.
+Abilities are special actions, maneuvers, and more that allow you to affect creatures, objects, and the environment. They represent the main activities your character can undertake when the game is in combat or some other time-sensitive scenario. All characters have access to a few basic abilities, including [free strikes](scc:mcdm.heroes.v1/feature.trait.common.main-actions/free-strike) and maneuvers such as [Grab](scc:mcdm.heroes.v1/feature.trait.common.maneuvers/grab) and Knockback (see Maneuvers in Chapter 10: [Combat](scc:mcdm.heroes.v1/chapter/combat)). But your class, ancestry (see Chapter 3: [Ancestries](scc:mcdm.heroes.v1/chapter/ancestries)), kit (Chapter 6: [Kits](scc:mcdm.heroes.v1/chapter/kits)), titles and treasures (Chapter 13: [Rewards](scc:mcdm.heroes.v1/chapter/rewards)), and other heroic options give you access to more powerful abilities that make your hero stand out.
 
 Abilities are presented in a special format that first describes the ability, then summarizes its mechanical details, and finally breaks out the ability's power roll (if it has one) and effects.
 
@@ -83,7 +83,7 @@ Abilities with the Area keyword create an area of effect. Many area abilities de
 
 ##### Charge
 
-Abilities with the Charge keyword can be used with the Charge main action instead of a melee free strike. (The Charge main action is described in Main Actions in Chapter 10: [Combat](scc:mcdm.heroes.v1/chapter/combat).)
+Abilities with the Charge keyword can be used with the [Charge](scc:mcdm.heroes.v1/feature.trait.common.main-actions/charge) main action instead of a melee [free strike](scc:mcdm.heroes.v1/feature.trait.common.main-actions/free-strike). (The [Charge](scc:mcdm.heroes.v1/feature.trait.common.main-actions/charge) main action is described in Main Actions in Chapter 10: [Combat](scc:mcdm.heroes.v1/chapter/combat).)
 
 ##### Magic
 
@@ -183,7 +183,7 @@ You can stack squares on top of each other to make the wall higher. Unless other
 >
 > Talking about a straight line area of effect on an encounter map doesn't mean the line can only be a straight vertical or horizontal line of contiguous squares. It means each square in the line's length must move in the same direction without bending back in an opposite direction. To make a line area quickly, pick your line's origin square, then pick each subsquent square in the line one at a time in a single direction without bending back in an opposite direction.
 >
-> Likewise, abilities and effects that require a creature to move in a straight line, such as the Charge main action or [forced movement](scc:mcdm.heroes.v1/movement/forced-movement) that is a push or a pull, don't have to take the form of a straight series of squares on the grid. Simply move the creature one square at a time in a single direction without ever bending back in a direction opposite to where they've already moved.
+> Likewise, abilities and effects that require a creature to move in a straight line, such as the [Charge](scc:mcdm.heroes.v1/feature.trait.common.main-actions/charge) main action or [forced movement](scc:mcdm.heroes.v1/movement/forced-movement) that is a push or a pull, don't have to take the form of a straight series of squares on the grid. Simply move the creature one square at a time in a single direction without ever bending back in a direction opposite to where they've already moved.
 
 #### Target
 
@@ -249,7 +249,7 @@ For a [fury](scc:mcdm.heroes.v1/class/fury) with a Might of 2, the ability's dam
 
 The damage for these abilities increases at each echelon of play, since your characteristics improve each time you reach a new echelon.
 
-Some abilities, including your free strikes, allow you to pick which characteristic score you add to their damage. Such abilities use a format similar to "7 + M or A damage," indicating that you can add your Might or your Agility to determine the damage.
+Some abilities, including your [free strikes](scc:mcdm.heroes.v1/feature.trait.common.main-actions/free-strike), allow you to pick which characteristic score you add to their damage. Such abilities use a format similar to "7 + M or A damage," indicating that you can add your Might or your Agility to determine the damage.
 
 (Chapter 10: [Combat](scc:mcdm.heroes.v1/chapter/combat) has more information on damage.)
 
@@ -339,7 +339,7 @@ This rule also applies to Director-controlled creatures who spend Malice on abil
 
 Whenever you make an ability roll as a main action and the roll is a natural 19 or natural 20-a total of 19 or 20 before adding your characteristic score or other modifiers—you score a critical hit. A critical hit allows you to immediately take an additional main action after resolving the power roll, whether or not it's your turn and even if you are [dazed](scc:mcdm.heroes.v1/condition/dazed) (see Conditions below).
 
-You can't score a critical hit with an ability roll made as a maneuver or any other action type, but you can score a critical hit with a main action you use off your turn. For example, an opportunity attack made as a triggered action or a signature ability used as a free triggered action with the assistance of the [tactician's](scc:mcdm.heroes.v1/class/tactician) Strike Now ability can be critical hits.
+You can't score a critical hit with an ability roll made as a maneuver or any other action type, but you can score a critical hit with a main action you use off your turn. For example, an opportunity attack made as a triggered action or a signature ability used as a free triggered action with the assistance of the [tactician's](scc:mcdm.heroes.v1/class/tactician) [Strike Now](scc:mcdm.heroes.v1/feature.ability.tactician.level-1/strike-now) ability can be critical hits.
 
 #### Roll Against Multiple Creatures
 
@@ -364,7 +364,7 @@ Many abilities that require power rolls also have effect entries describing addi
 
 ##### Actions Within Actions
 
-If an ability's effect allows you to take a main action, a maneuver, a move action, or a triggered action, the cost of doing so is subsumed in the ability's type entry on the first line below the flavor text. You never need to spend additional time to use an ability. For example, the [shadow's](scc:mcdm.heroes.v1/class/shadow) [Black Ash Teleport](scc:mcdm.heroes.v1/feature.ability.shadow.level-1/black-ash-teleport) ability is a maneuver that allows you to [teleport](scc:mcdm.heroes.v1/movement/teleport) and then use the Hide maneuver as its overall effect. Using the Hide maneuver is part of the maneuver to use the ability, so that you don't need to have another maneuver available to do so.
+If an ability's effect allows you to take a main action, a maneuver, a move action, or a triggered action, the cost of doing so is subsumed in the ability's type entry on the first line below the flavor text. You never need to spend additional time to use an ability. For example, the [shadow's](scc:mcdm.heroes.v1/class/shadow) [Black Ash Teleport](scc:mcdm.heroes.v1/feature.ability.shadow.level-1/black-ash-teleport) ability is a maneuver that allows you to [teleport](scc:mcdm.heroes.v1/movement/teleport) and then use the [Hide](scc:mcdm.heroes.v1/feature.trait.common.maneuvers/hide) maneuver as its overall effect. Using the [Hide](scc:mcdm.heroes.v1/feature.trait.common.maneuvers/hide) maneuver is part of the maneuver to use the ability, so that you don't need to have another maneuver available to do so.
 
 #### Spend Heroic Resource
 

@@ -1,7 +1,7 @@
 ---
 class: fury
 name: Aspect Benefits and Animal Form
-scc: mcdm.heroes.v1/feature.trait.fury/aspect-benefits-and-animal-form
+scc: mcdm.heroes.v1/feature.trait.fury.stormwight-kits/aspect-benefits-and-animal-form
 type: trait
 ---
 

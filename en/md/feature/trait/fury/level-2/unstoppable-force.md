@@ -6,4 +6,4 @@ scc: mcdm.heroes.v1/feature.trait.fury.level-2/unstoppable-force
 type: trait
 ---
 
-Whenever you use the Charge main action, you can use a strike signature ability or a strike heroic ability instead of a free strike. Additionally, you can jump as part of your charge.
+Whenever you use the [Charge](scc:mcdm.heroes.v1/feature.trait.common.main-actions/charge) main action, you can use a strike signature ability or a strike heroic ability instead of a [free strike](scc:mcdm.heroes.v1/feature.trait.common.main-actions/free-strike). Additionally, you can jump as part of your charge.

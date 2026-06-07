@@ -7,7 +7,7 @@ flavor: You assume the form of the animal who channels your ferocity.
 keywords:
     - Magic
 name: Aspect of the Wild
-scc: mcdm.heroes.v1/feature.ability.fury/aspect-of-the-wild
+scc: mcdm.heroes.v1/feature.ability.fury.stormwight-kits/aspect-of-the-wild
 spend: '1 Ferocity: As a free maneuver, you can shapeshift a second time, either into another [animal form](scc:mcdm.heroes.v1/complication/animal-form), into your hybrid form, or back into your true form.'
 target: Self
 type: ability

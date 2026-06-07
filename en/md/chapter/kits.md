@@ -33,7 +33,7 @@ If a kit provides no armor, you can wear whatever clothing you like! Robes, a fa
 
 ##### Light Armor
 
-If a [kit features](scc:mcdm.heroes.v1/feature.trait.fury/kit-features) light armor, you might wear padded cloth, leather armor, or a chain shirt.
+If a kit features light armor, you might wear padded cloth, leather armor, or a chain shirt.
 
 ##### Medium Armor
 
@@ -93,7 +93,7 @@ If you find a piece of equipment you really want to use that isn't part of your 
 
 ### Kit Bonuses and Traits
 
-A kit can grant a bonus to your Stamina, speed, and stability, as well as the damage and distance of your weapon abilities, including your free strikes. (Abilities in Chapter 5: [Classes](scc:mcdm.heroes.v1/chapter/classes) has information on abilities, ability keywords, and more.)
+A kit can grant a bonus to your Stamina, speed, and stability, as well as the damage and distance of your weapon abilities, including your [free strikes](scc:mcdm.heroes.v1/feature.trait.common.main-actions/free-strike). (Abilities in Chapter 5: [Classes](scc:mcdm.heroes.v1/chapter/classes) has information on abilities, ability keywords, and more.)
 
 #### Stamina Bonus
 
@@ -125,7 +125,7 @@ A distance bonus doesn't increase the size of any ability's area of effect.
 
 #### Disengage Bonus
 
-A kit that has a disengage bonus increases the number of squares you can [shift](scc:mcdm.heroes.v1/movement/shifting) when you take the Disengage move action (see Chapter 10: [Combat](scc:mcdm.heroes.v1/chapter/combat)).
+A kit that has a disengage bonus increases the number of squares you can [shift](scc:mcdm.heroes.v1/movement/shifting) when you take the [Disengage](scc:mcdm.heroes.v1/feature.trait.common.move-actions/disengage) move action (see Chapter 10: [Combat](scc:mcdm.heroes.v1/chapter/combat)).
 
 ### Kit Signature Ability
 
@@ -139,9 +139,9 @@ This section details each kit, whose bonuses and benefits are summarized in the 
 
 > **Improvised Weapons**
 >
-> Improvised weapons include rocks, bottles, plates, furniture, and anything else you pick up that can be bashed, hurled, or stabbed into an enemy. As well, any weapons that aren't part of your kit count as improvised weapons for you. If you're not using a kit with unarmed strikes, then your feet and fists are improvised weapons. If you're not using any kit and pick up a sword to use as part of a melee free strike, the sword counts as an improvised weapon.
+> Improvised weapons include rocks, bottles, plates, furniture, and anything else you pick up that can be bashed, hurled, or stabbed into an enemy. As well, any weapons that aren't part of your kit count as improvised weapons for you. If you're not using a kit with unarmed strikes, then your feet and fists are improvised weapons. If you're not using any kit and pick up a sword to use as part of a melee [free strike](scc:mcdm.heroes.v1/feature.trait.common.main-actions/free-strike), the sword counts as an improvised weapon.
 >
-> Improvised weapons can be used with weapon abilities you gain from your class. For instance, many melee-focused heroes choose a kit that maximizes their melee capabilities, then make ranged free strikes with improvised weapons. However, you can't use improvised weapons with weapon abilities gained from your kit, and you add no special bonuses from your kit to a weapon ability used with an improvised weapon.
+> Improvised weapons can be used with weapon abilities you gain from your class. For instance, many melee-focused heroes choose a kit that maximizes their melee capabilities, then make ranged [free strikes](scc:mcdm.heroes.v1/feature.trait.common.main-actions/free-strike) with improvised weapons. However, you can't use improvised weapons with weapon abilities gained from your kit, and you add no special bonuses from your kit to a weapon ability used with an improvised weapon.
 
 ### Optional Rule: Losing Equipment
 
@@ -169,7 +169,7 @@ The rules of the game expect that heroes always have access to their equipment. 
 | [Pugilist](scc:mcdm.heroes.v1/kit/pugilist)         | None           | Unarmed strikes    | +6                  | +2    | +1        | +1/+1/+1     | -             | -              | -               | -         |
 | [Raider](scc:mcdm.heroes.v1/kit/raider)           | Light, shield  | Light              | +6                  | +1    | -         | +1/+1/+1     | +1/+1/+1      | -              | +5              | +1        |
 | [Ranger](scc:mcdm.heroes.v1/kit/ranger)           | Medium         | Bow, medium        | +6                  | +1    | -         | +1/+1/+1     | +1/+1/+1      | -              | +5              | +1        |
-| Rapid-Fire       | Light          | Bow                | +3                  | +1    | -         | -            | +2/+2/+2      | -              | +7              | +1        |
+| [Rapid-Fire](scc:mcdm.heroes.v1/kit/rapid-fire)       | Light          | Bow                | +3                  | +1    | -         | -            | +2/+2/+2      | -              | +7              | +1        |
 | [Retiarius](scc:mcdm.heroes.v1/kit/retiarius)        | Light          | Ensnaring, polearm | +3                  | +1    | -         | +2/+2/+2     | -             | +1             | -               | +1        |
 | [Shining Armor](scc:mcdm.heroes.v1/kit/shining-armor)    | Heavy, shield  | Medium             | +12                 | -     | +1        | +2/+2/+2     | -             | -              | -               | -         |
 | [Sniper](scc:mcdm.heroes.v1/kit/sniper)           | None           | Bow                | -                   | +1    | -         | -            | +0/+0/+4      | -              | +10             | +1        |

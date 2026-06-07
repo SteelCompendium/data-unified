@@ -1,7 +1,7 @@
 ---
 class: fury
 name: Aspect of the Wild
-scc: mcdm.heroes.v1/feature.trait.fury/aspect-of-the-wild
+scc: mcdm.heroes.v1/feature.trait.fury.stormwight-kits/aspect-of-the-wild
 type: trait
 ---
 

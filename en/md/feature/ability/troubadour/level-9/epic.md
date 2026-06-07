@@ -3,7 +3,7 @@ action_type: Maneuver
 class: troubadour
 cost: 11 Drama
 distance: Melee 1 or ranged 10
-effect: Choose one ally within distance. While the target is affected by this ability, each time they use an ability, that ally can make a free strike against them after the ability is resolved.
+effect: Choose one ally within distance. While the target is affected by this ability, each time they use an ability, that ally can make a [free strike](scc:mcdm.heroes.v1/feature.trait.common.main-actions/free-strike) against them after the ability is resolved.
 flavor: Your story tells a tale of the villain's waning power and how the heroes rose to the occasion to stop them.
 keywords:
     - Magic
@@ -33,4 +33,4 @@ type: ability
 - **12-16:** The target has a double bane on ability rolls (save ends).
 - **17+:** The target has a double bane on power rolls (save ends).
 
-**Effect:** Choose one ally within distance. While the target is affected by this ability, each time they use an ability, that ally can make a free strike against them after the ability is resolved.
+**Effect:** Choose one ally within distance. While the target is affected by this ability, each time they use an ability, that ally can make a [free strike](scc:mcdm.heroes.v1/feature.trait.common.main-actions/free-strike) against them after the ability is resolved.

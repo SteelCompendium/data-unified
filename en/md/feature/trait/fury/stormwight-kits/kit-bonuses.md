@@ -1,7 +1,7 @@
 ---
 class: fury
 name: Kit Bonuses
-scc: mcdm.heroes.v1/feature.trait.fury/kit-bonuses
+scc: mcdm.heroes.v1/feature.trait.fury.stormwight-kits/kit-bonuses
 type: trait
 ---
 

@@ -14,7 +14,7 @@ name: Synaptic Override
 power_roll_characteristic: Reason
 scc: mcdm.heroes.v1/feature.ability.talent.level-2/synaptic-override
 target: One enemy
-tier1: The target makes a free strike against one enemy of your choice.
+tier1: The target makes a [free strike](scc:mcdm.heroes.v1/feature.trait.common.main-actions/free-strike) against one enemy of your choice.
 tier2: The target shifts up to their speed and uses their signature ability against any enemies of your choice.
 tier3: The target moves up to their speed and uses their signature ability against any enemies of your choice.
 type: ability
@@ -29,7 +29,7 @@ type: ability
 
 **Power Roll + Reason:**
 
-- **≤11:** The target makes a free strike against one enemy of your choice.
+- **≤11:** The target makes a [free strike](scc:mcdm.heroes.v1/feature.trait.common.main-actions/free-strike) against one enemy of your choice.
 - **12-16:** The target shifts up to their speed and uses their signature ability against any enemies of your choice.
 - **17+:** The target moves up to their speed and uses their signature ability against any enemies of your choice.
 

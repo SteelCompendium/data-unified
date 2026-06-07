@@ -10,7 +10,7 @@ Within the heat of battle, your determination and anger grow, fueling a Heroic R
 
 > **Where's My Maneuver?**
 >
-> Since most other classes get a bespoke maneuver, you might find yourself asking, "Where's the special maneuver for the [fury](scc:mcdm.heroes.v1/class/fury)?" The answer is that the class doesn't need its own maneuver, because most of the time, the fantasy of the [fury](scc:mcdm.heroes.v1/class/fury) has them using the Grab or Knockback maneuvers in combat. They're really good at those maneuvers too, so it doesn't make sense to give you another option that you'll rarely or never use.
+> Since most other classes get a bespoke maneuver, you might find yourself asking, "Where's the special maneuver for the [fury](scc:mcdm.heroes.v1/class/fury)?" The answer is that the class doesn't need its own maneuver, because most of the time, the fantasy of the [fury](scc:mcdm.heroes.v1/class/fury) has them using the [Grab](scc:mcdm.heroes.v1/feature.trait.common.maneuvers/grab) or [Knockback](scc:mcdm.heroes.v1/feature.trait.common.maneuvers/knockback) maneuvers in combat. They're really good at those maneuvers too, so it doesn't make sense to give you another option that you'll rarely or never use.
 
 ##### Ferocity in Combat
 

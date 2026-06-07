@@ -12,9 +12,9 @@ Vaslorians in remote villages still use the ancient test of strength to determin
 
 A priest following Adûn expresses their faith through labor. They build things. Many priests are also masons or carpenters. Joining the church for them did not mean abandoning their former trade. It intensified it.
 
-A knight following Adûn spends their time aiding others through hard work, inspiring people to honest speech and hard labor, as opposed to Adûn's brother Cavall who seeks to right wrongs.
+A knight following Adûn spends their time aiding others through hard work, inspiring people to honest speech and hard labor, as opposed to Adûn's brother [Cavall](scc:mcdm.heroes.v1/god/cavall) who seeks to right wrongs.
 
-Adûn and Cavall are brothers and the line between them is not a sharply defined one. Truth and justice are close companions.
+Adûn and [Cavall](scc:mcdm.heroes.v1/god/cavall) are brothers and the line between them is not a sharply defined one. Truth and justice are close companions.
 
 ##### Gaed the Confessor
 

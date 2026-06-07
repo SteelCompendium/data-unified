@@ -14,4 +14,4 @@ Your [shadow college](scc:mcdm.heroes.v1/feature.trait.shadow.level-1/shadow-col
 |-----------------|----------------------------|
 | Black Ash       | [Black Ash Teleport](scc:mcdm.heroes.v1/feature.ability.shadow.level-1/black-ash-teleport)         |
 | Caustic Alchemy | [Coat the Blade](scc:mcdm.heroes.v1/feature.ability.shadow.level-1/coat-the-blade), [Smoke Bomb](scc:mcdm.heroes.v1/feature.trait.shadow.level-1/smoke-bomb) |
-| Harlequin Mask  | I'm No Threat              |
+| Harlequin Mask  | [I'm No Threat](scc:mcdm.heroes.v1/feature.ability.shadow.level-1/im-no-threat)              |

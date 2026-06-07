@@ -1,7 +1,7 @@
 ---
 class: fury
 name: Growing Ferocity
-scc: mcdm.heroes.v1/feature.trait.fury/growing-ferocity
+scc: mcdm.heroes.v1/feature.trait.fury.stormwight-kits/growing-ferocity
 type: trait
 ---
 

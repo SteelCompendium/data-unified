@@ -30,7 +30,7 @@ Total: 597
 - [Arrest](../feature/ability/censor/level-1/arrest.md)
 - [Arrestor Cycle](../feature/ability/null/level-9/arrestor-cycle.md)
 - [Artful Flourish](../feature/ability/troubadour/level-1/artful-flourish.md)
-- [Aspect of the Wild](../feature/ability/fury/aspect-of-the-wild.md)
+- [Aspect of the Wild](../feature/ability/fury/stormwight-kits/aspect-of-the-wild.md)
 - [Assassinate](../feature/ability/shadow/level-8/assassinate.md)
 - [Aura of Souls](../feature/ability/conduit/level-6/aura-of-souls.md)
 - [Avalanche Impact](../feature/ability/fury/level-6/avalanche-impact.md)

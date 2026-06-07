@@ -1,7 +1,7 @@
 ---
 class: fury
 name: Equipment
-scc: mcdm.heroes.v1/feature.trait.fury/equipment
+scc: mcdm.heroes.v1/feature.trait.fury.stormwight-kits/equipment
 type: trait
 ---
 

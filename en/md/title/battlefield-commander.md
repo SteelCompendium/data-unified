@@ -23,7 +23,7 @@ type: title
 > |----------------|--------------------------------------:|
 > | **📏 3 burst** | **🎯 Self and each ally in the area** |
 >
-> **Effect:** Each target can use the Charge main action.
+> **Effect:** Each target can use the [Charge](scc:mcdm.heroes.v1/feature.trait.common.main-actions/charge) main action.
 
 - *Renowned Warrior:* You earn 1 Renown.
 - *Student of War:* Choose a 1st-level doctrine feature from the [tactician](scc:mcdm.heroes.v1/class/tactician) class. You gain that feature even if you don't have the [Tactical Doctrine](scc:mcdm.heroes.v1/feature.trait.tactician.level-1/tactical-doctrine) feature.

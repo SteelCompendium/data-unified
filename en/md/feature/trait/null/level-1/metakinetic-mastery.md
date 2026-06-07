@@ -6,7 +6,7 @@ scc: mcdm.heroes.v1/feature.trait.null.level-1/metakinetic-mastery
 type: trait
 ---
 
-Whenever you use your [Inertial Shield](scc:mcdm.heroes.v1/feature.ability.null.level-1/inertial-shield) ability, you can then use the Knockback maneuver as a free triggered action.
+Whenever you use your [Inertial Shield](scc:mcdm.heroes.v1/feature.ability.null.level-1/inertial-shield) ability, you can then use the [Knockback](scc:mcdm.heroes.v1/feature.trait.common.maneuvers/knockback) maneuver as a free triggered action.
 
 Additionally, as your discipline grows, your psionic potential is amplified, granting benefits from the [Metakinetic Mastery](scc:mcdm.heroes.v1/feature.trait.null.level-1/metakinetic-mastery) table. Benefits are cumulative except where an improved benefit replaces a lesser benefit.
 
@@ -14,9 +14,9 @@ Additionally, as your discipline grows, your psionic potential is amplified, gra
 
 | Discipline      | Benefit                                                                                                                                                                                     |
 |-----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 2               | Whenever you use the Knockback maneuver, the [forced movement](scc:mcdm.heroes.v1/movement/forced-movement) distance gains a bonus equal to your Intuition score.                                                                          |
+| 2               | Whenever you use the [Knockback](scc:mcdm.heroes.v1/feature.trait.common.maneuvers/knockback) maneuver, the [forced movement](scc:mcdm.heroes.v1/movement/forced-movement) distance gains a bonus equal to your Intuition score.                                                                          |
 | 4               | The first time in a combat round that you take damage or are [force moved](scc:mcdm.heroes.v1/movement/forced-movement), you gain 1 surge, even if you resist the effect.                                                                  |
-| 6               | You gain an edge on the Grab and Knockback maneuvers.                                                                                                                                       |
+| 6               | You gain an edge on the [Grab](scc:mcdm.heroes.v1/feature.trait.common.maneuvers/grab) and [Knockback](scc:mcdm.heroes.v1/feature.trait.common.maneuvers/knockback) maneuvers.                                                                                                                                       |
 | 8 (4th level)   | The first time in a combat round that you take damage or are [force moved](scc:mcdm.heroes.v1/movement/forced-movement), you gain 2 surges, even if you resist the effect.                                                                 |
-| 10 (7th level)  | You have a double edge on the Grab and Knockback maneuvers.                                                                                                                                 |
+| 10 (7th level)  | You have a double edge on the [Grab](scc:mcdm.heroes.v1/feature.trait.common.maneuvers/grab) and [Knockback](scc:mcdm.heroes.v1/feature.trait.common.maneuvers/knockback) maneuvers.                                                                                                                                 |
 | 12 (10th level) | Whenever you force move a target, the [forced movement](scc:mcdm.heroes.v1/movement/forced-movement) distance gains a bonus equal to your Intuition score. Additionally, whenever you use a heroic ability, you gain 10 temporary Stamina. |
