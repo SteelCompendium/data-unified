@@ -6,4 +6,4 @@ scc: mcdm.heroes.v1/feature.talent.level-2/ease-their-fall
 type: feature
 ---
 
-Whenever you land after a fall, or if any falling creature lands within 2 squares of you, you can use a free triggered action to reduce the falling damage by an amount equal to 2 + your Reason score.
+Whenever you land after a fall, or if any falling creature lands within 2 squares of you, you can use a free triggered action to reduce the falling damage by an amount equal to 2 + your [Reason](scc:mcdm.heroes.v1/rule.character/reason) score.

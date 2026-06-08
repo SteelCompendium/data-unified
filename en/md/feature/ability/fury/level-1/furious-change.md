@@ -2,7 +2,7 @@
 action_type: Triggered
 class: fury
 distance: Self
-effect: You gain [temporary Stamina](scc:mcdm.heroes.v1/rule.health/temporary-stamina) equal to your Might score and can enter your [animal form](scc:mcdm.heroes.v1/complication/animal-form) or hybrid form.
+effect: You gain [temporary Stamina](scc:mcdm.heroes.v1/rule.health/temporary-stamina) equal to your [Might](scc:mcdm.heroes.v1/rule.character/might) score and can enter your [animal form](scc:mcdm.heroes.v1/complication/animal-form) or hybrid form.
 flavor: In your anger, you revert to a more bestial form.
 keywords:
     - '-'
@@ -25,6 +25,6 @@ type: ability
 
 **Trigger:** You lose [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) and are not [dying](scc:mcdm.heroes.v1/rule.health/dying).
 
-**Effect:** You gain [temporary Stamina](scc:mcdm.heroes.v1/rule.health/temporary-stamina) equal to your Might score and can enter your [animal form](scc:mcdm.heroes.v1/complication/animal-form) or hybrid form.
+**Effect:** You gain [temporary Stamina](scc:mcdm.heroes.v1/rule.health/temporary-stamina) equal to your [Might](scc:mcdm.heroes.v1/rule.character/might) score and can enter your [animal form](scc:mcdm.heroes.v1/complication/animal-form) or hybrid form.
 
 **Spend 1 Ferocity:** If you are not [dying](scc:mcdm.heroes.v1/rule.health/dying), you can spend a [Recovery](scc:mcdm.heroes.v1/rule.health/recoveries).

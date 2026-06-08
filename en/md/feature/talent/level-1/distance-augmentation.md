@@ -6,4 +6,4 @@ scc: mcdm.heroes.v1/feature.talent.level-1/distance-augmentation
 type: feature
 ---
 
-Your ranged psionic abilities gain a +2 bonus to distance.
+Your ranged psionic abilities gain a +2 bonus to [distance](scc:mcdm.heroes.v1/rule.combat/distance).

@@ -39,7 +39,7 @@ Strategy is: "What are we trying to do?" Break a siege, free a prisoner, rescue 
 
 Tactics is about: "How are we going to do that?" We're going to... surround them! Sneak around them! Pick them off one by one! Kill their leader first. Kill their priest first! "No resurrections!"
 
-In a tactical game, *positioning matters*. So our game is played on a grid. Effects and distances are measured in squares. This means all players are focused on the same problem, and there is no ambiguity regarding where the heroes and villains are in relation to each other. The hobgoblin troopers are setting themselves up in a line to stop our [tactician](scc:mcdm.heroes.v1/class/tactician) and [fury](scc:mcdm.heroes.v1/class/fury) from getting into melee with the hobgoblin war mage. We're all aware of what's happening, and we can talk about what we're going to do to stop it.
+In a tactical game, *positioning matters*. So our game is played on a grid. Effects and [distances](scc:mcdm.heroes.v1/rule.combat/distance) are measured in squares. This means all players are focused on the same problem, and there is no ambiguity regarding where the heroes and villains are in relation to each other. The hobgoblin troopers are setting themselves up in a line to stop our [tactician](scc:mcdm.heroes.v1/class/tactician) and [fury](scc:mcdm.heroes.v1/class/fury) from getting into melee with the hobgoblin war mage. We're all aware of what's happening, and we can talk about what we're going to do to stop it.
 
 That means *teamwork matters*. That's why the order of combat works the way it does—to encourage the players to plan! "Okay, you use [Concussive Slam](scc:mcdm.heroes.v1/feature.ability.time-raider/concussive-slam) on that trooper, it'll push him back, and on my turn, I can use Squad! Forward! to get us all into melee with the death captain." We think focusing on teamwork also makes the game more heroic!
 
@@ -47,7 +47,7 @@ In a tactical game, you have many choices each combat round. You are never reduc
 
 As you play with the same group of characters, you learn what they can all do. You discover synergies, "combos." Some of them intended by the designers, some not! You start to learn these unique characters, and to rely on them to do their cool things. It's a great feeling when another player comes up with a cool plan that relies on your unique abilities.
 
-You learn which characters are the "squishies" who need to be protected or healed. You learn which characters can push themselves right to the edge and keep fighting. "Don't worry about healing Barlaca. She's our [fury](scc:mcdm.heroes.v1/class/fury). She's happier with 3 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina)." Our game is not *about* tactics. It's not a wargame. But it is tactical.
+You learn which characters are the "squishies" who need to be protected or healed. You learn which characters can push themselves right to the [edge](scc:mcdm.heroes.v1/rule.dice/edge) and keep fighting. "Don't worry about healing Barlaca. She's our [fury](scc:mcdm.heroes.v1/class/fury). She's happier with 3 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina)." Our game is not *about* tactics. It's not a wargame. But it is tactical.
 
 ### Heroic
 
@@ -94,12 +94,12 @@ For us, fantasy includes magic, like wizards casting spells, and psionics, the n
 We know that many folks are coming to this game having only experienced d20 fantasy RPGs. This section details a few key distinctions between this game and typical d20 fantasy that you'll notice right away. These aren't the only distinctions, but they're the most obvious.
 
 - **Character options are different.** We strongly recommend you start exploring *Draw Steel* by looking through the character creation section before you decide what you want to play. You can't just assume the [conduit](scc:mcdm.heroes.v1/class/conduit) is "basically a cleric." In some ways, it is! But in other ways, it's quite different. You might have some cool character archetype you love to play in d20 fantasy, and you're [dying](scc:mcdm.heroes.v1/rule.health/dying) to see how that might work in *Draw Steel*. But you'll have a lot more fun if you start by browsing the [Ancestries](scc:mcdm.heroes.v1/chapter/ancestries) and [Classes](scc:mcdm.heroes.v1/chapter/classes) sections and getting inspired. Once you know a bit more about how the game works, you'll have a better handle on how to build your favorite character the *Draw Steel* way.
-- **Smaller bonuses and penalties.** *Draw Steel* is built around the roll of two ten-sided dice to produce three possible outcomes—tier 1, tier 2, or tier 3. On the surface, this might not seem that different from rolling a twenty-sided die and having two outcomes—success or failure. But we've run the math. A lot. A bonus of +1 or penalty of −2 is significant in *Draw Steel*, much more so than in a typical d20 fantasy game. That means you should feel pretty good attempting most power rolls—the rolls you make to determine success both in and out of combat—if you have a decent characteristic bonus to add to those rolls. And if you have a specific skill that applies to a power roll made as a test outside of combat, you'll do even better.
+- **Smaller bonuses and penalties.** *Draw Steel* is built around the roll of two ten-sided dice to produce three possible outcomes—tier 1, tier 2, or tier 3. On the surface, this might not seem that different from rolling a twenty-sided die and having two outcomes—success or failure. But we've run the math. A lot. A bonus of +1 or penalty of −2 is significant in *Draw Steel*, much more so than in a typical d20 fantasy game. That means you should feel pretty good attempting most power rolls—the rolls you make to determine success both in and out of combat—if you have a decent [characteristic](scc:mcdm.heroes.v1/rule.character/characteristic) bonus to add to those rolls. And if you have a specific skill that applies to a power roll made as a test outside of combat, you'll do even better.
 - **Abilities automatically deal damage.** When you use an ability—one of the unique combat features that defines your character—you can still have a bad turn! A tier 1 outcome with minimal damage and effects is the worst outcome you can obtain with an ability. It's not awesome. But you're still always making progress. The question is: Who's making progress faster? You or the monsters? Since there's no, "I miss, who's next?" in this game, fights typically last 3 or fewer rounds. A fight that lasts 5 rounds is a *long* fight. Because everyone's always doing damage!
 - **You don't need to rest all the time.** Most d20 fantasy games are games of attrition. Your spell slots and other features dwindle as the adventuring day goes on. In *Draw Steel*, you need to rest to regain your [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) and [Recoveries](scc:mcdm.heroes.v1/rule.health/recoveries)—the stats that determine how robust you are in combat. But all characters earn the capability to use their magic and other awesome abilities as they adventure, encouraging you to press on heroically.
-- **Our game has a lot of skills.** Your character can make use of a long list of skills, but we don't expect you to memorize that list. We get into why the [Tests](scc:mcdm.heroes.v1/chapter/tests) chapter features so many skills, but the short version is that we think having a lot of skills allows you to create more distinct and specialized heroes, which supports the sort of gameplay we want to see in *Draw Steel*. And skills in the game aren't tied to characteristics. If you're trying to lose someone in a crowd, you can use Presence—the characteristic that represents your character's force of personality—to try to hide! Why not?
+- **Our game has a lot of skills.** Your character can make use of a long list of skills, but we don't expect you to memorize that list. We get into why the [Tests](scc:mcdm.heroes.v1/chapter/tests) chapter features so many skills, but the short version is that we think having a lot of skills allows you to create more distinct and specialized heroes, which supports the sort of gameplay we want to see in *Draw Steel*. And skills in the game aren't tied to [characteristics](scc:mcdm.heroes.v1/rule.character/characteristic). If you're trying to lose someone in a crowd, you can use [Presence](scc:mcdm.heroes.v1/rule.character/presence)—the [characteristic](scc:mcdm.heroes.v1/rule.character/characteristic) that represents your character's force of personality—to try to hide! Why not?
 - **We won't be able to point out every difference.** Beyond what's noted here, don't assume that these rules work like any d20 fantasy game you've played. We don't have the space to point out every exception. So if you're in doubt about how something works, put d20 fantasy out of your mind and read our rules without those assumptions, and you'll find that things make better sense. If you're still confused, stop by the *MCDM Discord* and ask. We've got tons of awesome community members ready to help!
-- **We don't expect you to do everything to the letter.** This is actually one thing *Draw Steel* does have in common with d20 fantasy. This is a big book of rules! Don't stress if you need to look something up or make a ruling about an edge case on the fly. If everyone's having fun, you're doing it right.
+- **We don't expect you to do everything to the letter.** This is actually one thing *Draw Steel* does have in common with d20 fantasy. This is a big book of rules! Don't stress if you need to look something up or make a ruling about an [edge](scc:mcdm.heroes.v1/rule.dice/edge) case on the fly. If everyone's having fun, you're doing it right.
 
 ## Glossary Index
 
@@ -115,15 +115,15 @@ Whenever you see a rule or game term in the glossary index underlined in cross-r
 
 **[Advance](scc:mcdm.heroes.v1/feature.common.move-actions/advance) Move Action:** A move action that allows a creature to move a number of squares up to their speed. This movement can be broken up by a creature's maneuver and main action.
 
-**[Agility](scc:mcdm.heroes.v1/rule.character/agility):** A characteristic that represents a creature's coordination and nimbleness.
+**[Agility](scc:mcdm.heroes.v1/rule.character/agility):** A [characteristic](scc:mcdm.heroes.v1/rule.character/characteristic) that represents a creature's coordination and nimbleness.
 
-**[Aid Attack](scc:mcdm.heroes.v1/feature.common.maneuvers/aid-attack) Maneuver:** A maneuver that allows a creature to choose an enemy adjacent to them. The next ability roll an ally makes against that enemy before the start of the aiding creature's next turn gains an edge.
+**[Aid Attack](scc:mcdm.heroes.v1/feature.common.maneuvers/aid-attack) Maneuver:** A maneuver that allows a creature to choose an enemy adjacent to them. The next ability roll an ally makes against that enemy before the start of the aiding creature's next turn gains an [edge](scc:mcdm.heroes.v1/rule.dice/edge).
 
 **[Ally](scc:mcdm.heroes.v1/rule.combat/ally):** A creature who is willingly friendly to another creature.
 
 **[Ancestry](scc:mcdm.heroes.v1/chapter/ancestries):** A humanoid creature's species. Every hero has an ancestry.
 
-**[Area of Effect](scc:mcdm.heroes.v1/rule.combat/area-of-effect):** The squares affected by an ability that creates an aura, burst, cube, line, or wall. (An ability that creates an area of effect affects targets simply by those targets being in its area, as opposed to a strike.)
+**[Area of Effect](scc:mcdm.heroes.v1/rule.combat/area-of-effect):** The squares affected by an ability that creates an aura, burst, cube, line, or wall. (An ability that creates an area of effect affects targets simply by those targets being in its area, as opposed to a [strike](scc:mcdm.heroes.v1/rule.combat/strike).)
 
 **[Argument](scc:mcdm.heroes.v1/chapter/negotiation):** A plea the heroes make during a negotiation to convince one or more NPCs to work with them.
 
@@ -137,7 +137,7 @@ Whenever you see a rule or game term in the glossary index underlined in cross-r
 
 **[Bane](scc:mcdm.heroes.v1/rule.dice/bane):** A situational disadvantage that gives a creature a −2 penalty to a power roll.
 
-**[Bleeding](scc:mcdm.heroes.v1/condition/bleeding):** A condition that causes a creature to take 1d6 + level damage whenever they use a main action or triggered action, or make a power roll using Might or Agility.
+**[Bleeding](scc:mcdm.heroes.v1/condition/bleeding):** A condition that causes a creature to take 1d6 + level damage whenever they use a main action or triggered action, or make a power roll using [Might](scc:mcdm.heroes.v1/rule.character/might) or [Agility](scc:mcdm.heroes.v1/rule.character/agility).
 
 **[Bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties):** A positive number that increases a creature's statistics or the roll of a die.
 
@@ -155,7 +155,7 @@ Whenever you see a rule or game term in the glossary index underlined in cross-r
 
 **[Censor](scc:mcdm.heroes.v1/class/censor):** A class for a hero who is a trained warrior devoted to a saint or god.
 
-**[Characteristics](scc:mcdm.heroes.v1/rule.character/characteristic):** Statistics used to represent a creature's mental and physical prowess, broken out as Might, Agility, Reason, Intuition, and Presence. Each characteristic has a score that ranges from −5 to +5.
+**[Characteristics](scc:mcdm.heroes.v1/rule.character/characteristic):** Statistics used to represent a creature's mental and physical prowess, broken out as [Might](scc:mcdm.heroes.v1/rule.character/might), [Agility](scc:mcdm.heroes.v1/rule.character/agility), [Reason](scc:mcdm.heroes.v1/rule.character/reason), [Intuition](scc:mcdm.heroes.v1/rule.character/intuition), and [Presence](scc:mcdm.heroes.v1/rule.character/presence). Each characteristic has a score that ranges from −5 to +5.
 
 **[Charge](scc:mcdm.heroes.v1/feature.common.main-actions/charge) Main Action:** A main action that allows a creature to move up to their speed in a straight line, then make a melee [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) or use an ability with the Charge keyword against a target when they end their move.
 
@@ -173,7 +173,7 @@ Whenever you see a rule or game term in the glossary index underlined in cross-r
 
 **[Complication](scc:mcdm.heroes.v1/chapter/complications):** A dramatic narrative twist that deepens a hero's backstory and gives them a rules benefit and drawback. Complications are an optional rule.
 
-**[Concealment](scc:mcdm.heroes.v1/rule.combat/concealment):** A state where a target has their form entirely covered in a concealing effect that doesn't block line of effect, such as darkness or fog. While a target has concealment, strikes used against them take a bane.
+**[Concealment](scc:mcdm.heroes.v1/rule.combat/concealment):** A state where a target has their form entirely covered in a concealing effect that doesn't block line of effect, such as darkness or fog. While a target has concealment, strikes used against them take a [bane](scc:mcdm.heroes.v1/rule.dice/bane).
 
 **[Condition](scc:mcdm.heroes.v1/rule.combat/condition):** A negative effect that applies to a creature and uses a universal shorthand name. [Bleeding](scc:mcdm.heroes.v1/condition/bleeding), [dazed](scc:mcdm.heroes.v1/condition/dazed), [frightened](scc:mcdm.heroes.v1/condition/frightened), [grabbed](scc:mcdm.heroes.v1/condition/grabbed), [prone](scc:mcdm.heroes.v1/condition/prone),  [restrained](scc:mcdm.heroes.v1/condition/restrained), [slowed](scc:mcdm.heroes.v1/condition/slowed), [taunted](scc:mcdm.heroes.v1/condition/taunted), and [weakened](scc:mcdm.heroes.v1/condition/weakened) are conditions in *Draw Steel*.
 
@@ -183,7 +183,7 @@ Whenever you see a rule or game term in the glossary index underlined in cross-r
 
 **[Consumable](scc:mcdm.heroes.v1/rule.treasure/consumable):** A treasure that can be used a limited number of times before it is expended.
 
-**[Cover](scc:mcdm.heroes.v1/rule.combat/cover):** A state where a target has at least half their form, but not all their form, blocked by a solid obstruction. While a target has cover, damage-dealing abilities used against them take a bane.
+**[Cover](scc:mcdm.heroes.v1/rule.combat/cover):** A state where a target has at least half their form, but not all their form, blocked by a solid obstruction. While a target has cover, damage-dealing abilities used against them take a [bane](scc:mcdm.heroes.v1/rule.dice/bane).
 
 **[Crafting Project](scc:mcdm.heroes.v1/rule.downtime/crafting-project):** A downtime project undertaken to create a treasure, a vehicle, or some other object.
 
@@ -217,13 +217,13 @@ Whenever you see a rule or game term in the glossary index underlined in cross-r
 
 **[Dazed](scc:mcdm.heroes.v1/condition/dazed):** A condition that limits a creature to doing only one thing on their turn: use a main action, use a maneuver, or use a move action. A [dazed](scc:mcdm.heroes.v1/condition/dazed) creature also can't use triggered actions, free triggered actions, or free maneuvers.
 
-**[Defend](scc:mcdm.heroes.v1/feature.common.main-actions/defend) Main Action:** A main action that allows a creature to impose a double bane on all ability rolls made against them until the start of their next turn. Additionally, the creature has a double edge on tests when called for to resist environmental effects or a creature's traits or abilities.
+**[Defend](scc:mcdm.heroes.v1/feature.common.main-actions/defend) Main Action:** A main action that allows a creature to impose a double [bane](scc:mcdm.heroes.v1/rule.dice/bane) on all ability rolls made against them until the start of their next turn. Additionally, the creature has a double [edge](scc:mcdm.heroes.v1/rule.dice/edge) on tests when called for to resist environmental effects or a creature's traits or abilities.
 
 **[Devil](scc:mcdm.heroes.v1/ancestry/devil):** An ancestry from the Seven Cities of Hell.
 
 **[Difficult Terrain](scc:mcdm.heroes.v1/movement/difficult-terrain):** An area of obstacles that are difficult to move through. It costs 1 additional square of movement to enter a square of [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain). A creature can't shift into or out of [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain), and can't jump out of [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain).
 
-**[Dig Maneuver](scc:mcdm.heroes.v1/movement/burrow):** A maneuver that allows a creature with "[burrow](scc:mcdm.heroes.v1/movement/burrow)" in their speed entry or the temporary ability to [burrow](scc:mcdm.heroes.v1/movement/burrow) to move a number of squares equal to their size vertically through dirt.
+**[Dig Maneuver](scc:mcdm.heroes.v1/movement/burrow):** A maneuver that allows a creature with "[burrow](scc:mcdm.heroes.v1/movement/burrow)" in their speed entry or the temporary ability to [burrow](scc:mcdm.heroes.v1/movement/burrow) to move a number of squares equal to their [size](scc:mcdm.heroes.v1/rule.character/size) vertically through dirt.
 
 **[Director](scc:mcdm.heroes.v1/chapter/for-the-director):** The player who prepares, presents, and adjudicates the game for all the other players, who each create and run a hero.
 
@@ -233,9 +233,9 @@ Whenever you see a rule or game term in the glossary index underlined in cross-r
 
 **[Distance](scc:mcdm.heroes.v1/rule.combat/distance):** The number of squares away that a creature using an ability can affect targets with that ability. The "Distance" entry in an area ability also includes the type of area of effect created by that ability.
 
-**[Double Bane](scc:mcdm.heroes.v1/rule.dice/bane):** When a creature has two or more banes and no edges applied to a power roll, they have a double bane on the roll. A double bane applies no penalty to a power roll, but instead automatically decreases the tier outcome of the roll by one tier.
+**[Double Bane](scc:mcdm.heroes.v1/rule.dice/bane):** When a creature has two or more [banes](scc:mcdm.heroes.v1/rule.dice/bane) and no [edges](scc:mcdm.heroes.v1/rule.dice/edge) applied to a power roll, they have a double [bane](scc:mcdm.heroes.v1/rule.dice/bane) on the roll. A double [bane](scc:mcdm.heroes.v1/rule.dice/bane) applies no penalty to a power roll, but instead automatically decreases the tier outcome of the roll by one tier.
 
-**[Double Edge](scc:mcdm.heroes.v1/rule.dice/edge):** When a creature has two or more edges and no banes applied to a power roll, they have a double edge on the roll. A double edge adds no bonus to a power roll, but instead automatically increases the tier outcome of the roll by one tier.
+**[Double Edge](scc:mcdm.heroes.v1/rule.dice/edge):** When a creature has two or more [edges](scc:mcdm.heroes.v1/rule.dice/edge) and no [banes](scc:mcdm.heroes.v1/rule.dice/bane) applied to a power roll, they have a double [edge](scc:mcdm.heroes.v1/rule.dice/edge) on the roll. A double [edge](scc:mcdm.heroes.v1/rule.dice/edge) adds no bonus to a power roll, but instead automatically increases the tier outcome of the roll by one tier.
 
 **[Downtime Project](scc:mcdm.heroes.v1/chapter/downtime-projects):** A task a hero undertakes during one or more respites.
 
@@ -265,11 +265,11 @@ Whenever you see a rule or game term in the glossary index underlined in cross-r
 
 **[Experience (XP)](scc:mcdm.heroes.v1/rule.resource/experience):** A hero's Victories convert to Experience when they finish a respite. Experience permanently increases a hero's capabilities by allowing them to increase in level.
 
-**[Falling](scc:mcdm.heroes.v1/rule.health/falling):** When a creature falls 2 or more squares, they take 2 damage for each square they fall (to a maximum of 50 damage) and land [prone](scc:mcdm.heroes.v1/condition/prone). A falling creature can reduce the effective height of their fall by a number of squares equal to their Agility score (minimum 0).
+**[Falling](scc:mcdm.heroes.v1/rule.health/falling):** When a creature falls 2 or more squares, they take 2 damage for each square they fall (to a maximum of 50 damage) and land [prone](scc:mcdm.heroes.v1/condition/prone). A falling creature can reduce the effective height of their fall by a number of squares equal to their [Agility](scc:mcdm.heroes.v1/rule.character/agility) score (minimum 0).
 
 **[Ferocity](scc:mcdm.heroes.v1/feature.fury.level-1/ferocity):** The [fury's](scc:mcdm.heroes.v1/class/fury) [Heroic Resource](scc:mcdm.heroes.v1/rule.resource/heroic-resource).
 
-**[Flanking](scc:mcdm.heroes.v1/rule.combat/flanking):** When two or more allied creatures are adjacent to and on opposite sides of an enemy, those creatures are flanking that enemy. A creature flanking an enemy gains an edge on melee strikes against that enemy.
+**[Flanking](scc:mcdm.heroes.v1/rule.combat/flanking):** When two or more allied creatures are adjacent to and on opposite sides of an enemy, those creatures are flanking that enemy. A creature flanking an enemy gains an [edge](scc:mcdm.heroes.v1/rule.dice/edge) on melee [strikes](scc:mcdm.heroes.v1/rule.combat/strike) against that enemy.
 
 **[Fly](scc:mcdm.heroes.v1/movement/fly):** A movement mode available to creatures with "[fly](scc:mcdm.heroes.v1/movement/fly)" in their speed entry, or who gain the capability to temporarily [fly](scc:mcdm.heroes.v1/movement/fly). Such creatures can move through the air horizontally or diagonally at full speed and remain in midair. If a flying creature is made [prone](scc:mcdm.heroes.v1/condition/prone) or has their speed reduced to 0, they fall.
 
@@ -285,7 +285,7 @@ Whenever you see a rule or game term in the glossary index underlined in cross-r
 
 **[Free Triggered Action](scc:mcdm.heroes.v1/rule.combat/triggered-action):** An action a creature can use on any turn, including their own, but only when a specific trigger occurs. There is no limit to the number of free triggered actions a creature can take during combat.
 
-**[Frightened](scc:mcdm.heroes.v1/condition/frightened):** A condition that causes a creature to take a bane on ability rolls against the source of their fear. The creature can't willingly move closer to the source of their fear, and that source gains an edge on ability rolls made against the creature.
+**[Frightened](scc:mcdm.heroes.v1/condition/frightened):** A condition that causes a creature to take a [bane](scc:mcdm.heroes.v1/rule.dice/bane) on ability rolls against the source of their fear. The creature can't willingly move closer to the source of their fear, and that source gains an [edge](scc:mcdm.heroes.v1/rule.dice/edge) on ability rolls made against the creature.
 
 **[Fury](scc:mcdm.heroes.v1/class/fury):** A class for a hero warrior who courses with the ferocity of the Primordial Chaos.
 
@@ -293,7 +293,7 @@ Whenever you see a rule or game term in the glossary index underlined in cross-r
 
 **[Grab](scc:mcdm.heroes.v1/feature.common.maneuvers/grab) Maneuver:** A maneuver that allows a creature to make an ability roll to make another creature [grabbed](scc:mcdm.heroes.v1/condition/grabbed) by them.
 
-**[Grabbed](scc:mcdm.heroes.v1/condition/grabbed):** A condition that reduces a creature's speed to 0 and causes them to take a bane on abilities that don't target the creature, object, or effect that has them [grabbed](scc:mcdm.heroes.v1/condition/grabbed).
+**[Grabbed](scc:mcdm.heroes.v1/condition/grabbed):** A condition that reduces a creature's speed to 0 and causes them to take a [bane](scc:mcdm.heroes.v1/rule.dice/bane) on abilities that don't target the creature, object, or effect that has them [grabbed](scc:mcdm.heroes.v1/condition/grabbed).
 
 **[Ground](scc:mcdm.heroes.v1/rule.general/ground):** Any surface a creature could typically stand, sit, or lie upon.
 
@@ -317,13 +317,13 @@ Whenever you see a rule or game term in the glossary index underlined in cross-r
 
 **[High Elves](scc:mcdm.heroes.v1/ancestry/high-elf):** A fey ancestry in tune with innate magic that affects how others interact with them.
 
-**[High Ground](scc:mcdm.heroes.v1/movement/high-ground):** A creature has the advantage of [high ground](scc:mcdm.heroes.v1/movement/high-ground) when they use an ability against a target while standing on the ground and occupying a space that is fully above the target's space. This advantage grants the creature an edge on the ability roll.
+**[High Ground](scc:mcdm.heroes.v1/movement/high-ground):** A creature has the advantage of [high ground](scc:mcdm.heroes.v1/movement/high-ground) when they use an ability against a target while standing on the ground and occupying a space that is fully above the target's space. This advantage grants the creature an [edge](scc:mcdm.heroes.v1/rule.dice/edge) on the ability roll.
 
 **[Hover](scc:mcdm.heroes.v1/movement/hover):** A creature who has "[hover](scc:mcdm.heroes.v1/movement/hover)" in their speed entry (commonly alongside "[fly](scc:mcdm.heroes.v1/movement/fly)" or "[teleport](scc:mcdm.heroes.v1/movement/teleport)"), or who gains the ability to temporarily [hover](scc:mcdm.heroes.v1/movement/hover), can remain motionless in midair. They don't fall even if they are knocked [prone](scc:mcdm.heroes.v1/condition/prone) or their speed is reduced to 0.
 
 **[Human](scc:mcdm.heroes.v1/ancestry/human):** An ancestry much like [humans](scc:mcdm.heroes.v1/ancestry/human) in the real world, except that they can sense magic.
 
-**[Humanoid](scc:mcdm.heroes.v1/chapter/ancestries):** Creatures who are of similar size to, have similar limb arrangements as, and have sapience on par with [humans](scc:mcdm.heroes.v1/ancestry/human).
+**[Humanoid](scc:mcdm.heroes.v1/chapter/ancestries):** Creatures who are of similar [size](scc:mcdm.heroes.v1/rule.character/size) to, have similar limb arrangements as, and have sapience on par with [humans](scc:mcdm.heroes.v1/ancestry/human).
 
 **[Implement](scc:mcdm.heroes.v1/rule.treasure/implement):** A piece of jewelry, a staff, an orb, a wand, or some other object used by a creature to channel supernatural power.
 
@@ -331,11 +331,11 @@ Whenever you see a rule or game term in the glossary index underlined in cross-r
 
 **[Interest](scc:mcdm.heroes.v1/rule.negotiation/interest):** A negotiation statistic that determines how interested an NPC is in helping out the heroes.
 
-**[Intuition](scc:mcdm.heroes.v1/rule.character/intuition):** A characteristic that represents a creature's instincts and experience.
+**[Intuition](scc:mcdm.heroes.v1/rule.character/intuition):** A [characteristic](scc:mcdm.heroes.v1/rule.character/characteristic) that represents a creature's instincts and experience.
 
 **[Item Prerequisite](scc:mcdm.heroes.v1/rule.downtime/item-prerequisite):** Raw materials, a foundational object, or some other item that must be obtained before a downtime project can be started.
 
-**[Jump](scc:mcdm.heroes.v1/movement/jump):** A creature can automatically long jump a number of squares up to their Might or Agility score (their choice). The height of their jump is automatically 1 square as part of that movement. A creature who wants to jump farther or higher must make a Might or Agility test.
+**[Jump](scc:mcdm.heroes.v1/movement/jump):** A creature can automatically long jump a number of squares up to their [Might](scc:mcdm.heroes.v1/rule.character/might) or [Agility](scc:mcdm.heroes.v1/rule.character/agility) score (their choice). The height of their jump is automatically 1 square as part of that movement. A creature who wants to jump farther or higher must make a [Might](scc:mcdm.heroes.v1/rule.character/might) or [Agility](scc:mcdm.heroes.v1/rule.character/agility) test.
 
 **[Kit](scc:mcdm.heroes.v1/chapter/kits):** A fighting style that comes with equipment to match. Kits are available to most heroes who wield weapons and wear armor.
 
@@ -363,7 +363,7 @@ Whenever you see a rule or game term in the glossary index underlined in cross-r
 
 **[Memonek](scc:mcdm.heroes.v1/ancestry/memonek):** An ancestry of machine people.
 
-**[Might](scc:mcdm.heroes.v1/rule.character/might):** A characteristic that represents a creature's strength and brawn.
+**[Might](scc:mcdm.heroes.v1/rule.character/might):** A [characteristic](scc:mcdm.heroes.v1/rule.character/characteristic) that represents a creature's strength and brawn.
 
 **[Montage Test](scc:mcdm.heroes.v1/rule.test/montage-test):** Heroes making a series of different tests that represent them working together over time to accomplish a common goal.
 
@@ -413,11 +413,11 @@ Whenever you see a rule or game term in the glossary index underlined in cross-r
 
 **[Polder](scc:mcdm.heroes.v1/ancestry/polder):** An ancestry of short folk who can slip into shadows to hide.
 
-**[Potency](scc:mcdm.heroes.v1/rule.character/potency):** A value that determines if a target has a characteristic low enough to be affected by an effect.
+**[Potency](scc:mcdm.heroes.v1/rule.character/potency):** A value that determines if a target has a [characteristic](scc:mcdm.heroes.v1/rule.character/characteristic) low enough to be affected by an effect.
 
-**[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll):** A roll of 2d10 plus a characteristic score that has three different possible tier outcomes—tier 1, tier 2, or tier 3. A power roll can be an ability roll or a test.
+**[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll):** A roll of 2d10 plus a [characteristic](scc:mcdm.heroes.v1/rule.character/characteristic) score that has three different possible tier outcomes—tier 1, tier 2, or tier 3. A power roll can be an ability roll or a test.
 
-**[Presence](scc:mcdm.heroes.v1/rule.character/presence):** A characteristic that represents a creature's force of personality.
+**[Presence](scc:mcdm.heroes.v1/rule.character/presence):** A [characteristic](scc:mcdm.heroes.v1/rule.character/characteristic) that represents a creature's force of personality.
 
 **[Project Event](scc:mcdm.heroes.v1/rule.downtime/project-event):** An event that can occur when a hero undertakes a project roll for a downtime project.
 
@@ -429,7 +429,7 @@ Whenever you see a rule or game term in the glossary index underlined in cross-r
 
 **[Project Source](scc:mcdm.heroes.v1/rule.downtime/project-source):** Lore that must be obtained before a downtime project can be started.
 
-**[Prone](scc:mcdm.heroes.v1/condition/prone):** A condition that causes a creature to become flat on the ground. Strikes made by a [prone](scc:mcdm.heroes.v1/condition/prone) creature take a bane, and melee abilities used against a [prone](scc:mcdm.heroes.v1/condition/prone) creature gain an edge.
+**[Prone](scc:mcdm.heroes.v1/condition/prone):** A condition that causes a creature to become flat on the ground. [Strikes](scc:mcdm.heroes.v1/rule.combat/strike) made by a [prone](scc:mcdm.heroes.v1/condition/prone) creature take a [bane](scc:mcdm.heroes.v1/rule.dice/bane), and melee abilities used against a [prone](scc:mcdm.heroes.v1/condition/prone) creature gain an [edge](scc:mcdm.heroes.v1/rule.dice/edge).
 
 **[Pull](scc:mcdm.heroes.v1/movement/forced-movement):** A form of [forced movement](scc:mcdm.heroes.v1/movement/forced-movement) that pulls a target toward a creature or effect, moving them in a horizontal straight line.
 
@@ -441,7 +441,7 @@ Whenever you see a rule or game term in the glossary index underlined in cross-r
 
 **[Reactive Test](scc:mcdm.heroes.v1/rule.test/reactive-test):** When the Director asks for a test without context to see if a hero can react to an event or effect they are unaware of.
 
-**[Reason](scc:mcdm.heroes.v1/rule.character/reason):** A characteristic that represents a creature's logical mind and education.
+**[Reason](scc:mcdm.heroes.v1/rule.character/reason):** A [characteristic](scc:mcdm.heroes.v1/rule.character/characteristic) that represents a creature's logical mind and education.
 
 **[Recoveries](scc:mcdm.heroes.v1/rule.health/recoveries):** A limited healing resource that all heroes have, allowing them to regain [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) lost to damage.
 
@@ -493,13 +493,13 @@ Whenever you see a rule or game term in the glossary index underlined in cross-r
 
 **[Slowed](scc:mcdm.heroes.v1/condition/slowed):** A condition that reduces a creature's speed to 2.
 
-**[Space](scc:mcdm.heroes.v1/rule.character/size):** The number of squares taken up by a creature or object in length, width, and height, and the area of the same size that a creature or object occupies on an encounter map.
+**[Space](scc:mcdm.heroes.v1/rule.character/size):** The number of squares taken up by a creature or object in length, width, and height, and the area of the same [size](scc:mcdm.heroes.v1/rule.character/size) that a creature or object occupies on an encounter map.
 
 **[Speed](scc:mcdm.heroes.v1/rule.character/speed):** A measure of how many squares a creature can move when taking the [Advance](scc:mcdm.heroes.v1/feature.common.move-actions/advance) move action during combat.
 
-**[Square](scc:mcdm.heroes.v1/rule.combat/distance):** The smallest unit of measurement on an encounter map. Distance, space, and speed are all reckoned in squares.
+**[Square](scc:mcdm.heroes.v1/rule.combat/distance):** The smallest unit of measurement on an encounter map. [Distance](scc:mcdm.heroes.v1/rule.combat/distance), space, and speed are all reckoned in squares.
 
-**[Stability](scc:mcdm.heroes.v1/rule.character/stability):** A measure of a creature's immovability. When a creature is [force moved](scc:mcdm.heroes.v1/movement/forced-movement), the distance they can be [force moved](scc:mcdm.heroes.v1/movement/forced-movement) is reduced by a number of squares equal to their stability.
+**[Stability](scc:mcdm.heroes.v1/rule.character/stability):** A measure of a creature's immovability. When a creature is [force moved](scc:mcdm.heroes.v1/movement/forced-movement), the [distance](scc:mcdm.heroes.v1/rule.combat/distance) they can be [force moved](scc:mcdm.heroes.v1/movement/forced-movement) is reduced by a number of squares equal to their stability.
 
 **[Stamina](scc:mcdm.heroes.v1/rule.health/stamina):** A measure of a creature's health and vitality. When a hero's Stamina is reduced to 0 or lower, they are [dying](scc:mcdm.heroes.v1/rule.health/dying). When a nonhero creature's Stamina is reduced to 0, they die or are knocked unconscious, as determined by the creature who reduced them to 0 Stamina.
 
@@ -517,7 +517,7 @@ Whenever you see a rule or game term in the glossary index underlined in cross-r
 
 **[Surge](scc:mcdm.heroes.v1/rule.resource/surge):** A universal benefit any hero can gain and spend to deal extra damage with an ability or to increase an ability's potency.
 
-**[Surprised](scc:mcdm.heroes.v1/rule.combat/surprised):** A creature who is surprised can't take triggered actions or free triggered actions, and ability rolls against them gain an edge.
+**[Surprised](scc:mcdm.heroes.v1/rule.combat/surprised):** A creature who is surprised can't take triggered actions or free triggered actions, and ability rolls against them gain an [edge](scc:mcdm.heroes.v1/rule.dice/edge).
 
 **[Swim](scc:mcdm.heroes.v1/movement/climb-or-swim):** A movement mode that allows a creature to swim without using additional squares of movement. A creature without "swim" in their speed entry or the temporary ability to swim must use 2 squares of movement to swim 1 square.
 
@@ -525,7 +525,7 @@ Whenever you see a rule or game term in the glossary index underlined in cross-r
 
 **[Talent](scc:mcdm.heroes.v1/class/talent):** A class for a hero who is a master of psionics.
 
-**[Taunted](scc:mcdm.heroes.v1/condition/taunted):** A condition that causes a creature to have a double bane on ability rolls that don't target the creature or effect that [taunted](scc:mcdm.heroes.v1/condition/taunted) them.
+**[Taunted](scc:mcdm.heroes.v1/condition/taunted):** A condition that causes a creature to have a double [bane](scc:mcdm.heroes.v1/rule.dice/bane) on ability rolls that don't target the creature or effect that [taunted](scc:mcdm.heroes.v1/condition/taunted) them.
 
 **[Target](scc:mcdm.heroes.v1/rule.combat/target):** A creature or object affected by an ability or other effect. The target of an enemy's ability typically takes damage, has a condition or harmful effect imposed on them, or both. The target of an ally's ability typically gains some beneficial effect.
 
@@ -563,7 +563,7 @@ Whenever you see a rule or game term in the glossary index underlined in cross-r
 
 **[Underwater combat](scc:mcdm.heroes.v1/rule.combat/underwater-combat):** Special rules that apply when creatures fight beneath the sea, in rivers or pools, in underwater lairs, and similar areas.
 
-**[Untyped Damage](scc:mcdm.heroes.v1/rule.damage/damage-type):** Damage dealt by an ability or other effect that has no damage type associated with it.
+**[Untyped Damage](scc:mcdm.heroes.v1/rule.damage/damage-type):** Damage dealt by an ability or other effect that has no [damage type](scc:mcdm.heroes.v1/rule.damage/damage-type) associated with it.
 
 **[Vasloria](scc:mcdm.heroes.v1/rule.world/vasloria):** A forested, feudal-medieval continent in Orden.
 
@@ -575,7 +575,7 @@ Whenever you see a rule or game term in the glossary index underlined in cross-r
 
 **[Wall](scc:mcdm.heroes.v1/rule.combat/wall):** When an ability or other effect creates a wall, that area is expressed as "X wall." The number X is how many squares are used to make the wall. Each square must share at least one side (not just a corner) with another square of the wall. A wall effect has a duration specified by the effect, or it lasts indefinitely or until destroyed.
 
-**[Weakened](scc:mcdm.heroes.v1/condition/weakened):** A condition that causes a creature to take a bane on power rolls.
+**[Weakened](scc:mcdm.heroes.v1/condition/weakened):** A condition that causes a creature to take a [bane](scc:mcdm.heroes.v1/rule.dice/bane) on power rolls.
 
 **[Wealth](scc:mcdm.heroes.v1/rule.resource/wealth):** A measure of a hero's material worth.
 

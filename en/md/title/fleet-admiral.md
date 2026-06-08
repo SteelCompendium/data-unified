@@ -20,4 +20,4 @@ type: title
   - *Fog:* Visibility is reduced to 6 squares.
   - *High Winds:* The speed of wind-powered vessels is doubled.
   - *Light Winds:* No effects due to weather.
-  - *Storm:* The crew of an unsheltered wind-powered vessel must make a medium group Reason test. On a failure, the vessel needs repairs and moves at half speed until those repairs are made.
+  - *Storm:* The crew of an unsheltered wind-powered vessel must make a medium group [Reason](scc:mcdm.heroes.v1/rule.character/reason) test. On a failure, the vessel needs repairs and moves at half speed until those repairs are made.

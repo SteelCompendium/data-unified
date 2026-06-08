@@ -9,12 +9,8 @@ keywords:
     - Ranged
 level: "6"
 name: One Vial Makes You Faster
-power_roll_characteristic: Agility
 scc: mcdm.heroes.v1/feature.ability.shadow.level-6/one-vial-makes-you-faster
 target: Three creatures
-tier1: The creature's speed is increased by 2 until the end of the encounter.
-tier2: The creature can [fly](scc:mcdm.heroes.v1/movement/fly) until the end of the encounter.
-tier3: The creature turns invisible until the end of their next turn.
 type: ability
 ---
 
@@ -29,7 +25,7 @@ type: ability
 
 A creature who drinks the potion receives benefits based on your power roll.
 
-**Power Roll + Agility:**
+**Power Roll + [Agility](scc:mcdm.heroes.v1/rule.character/agility):**
 
 - **≤11:** The creature's speed is increased by 2 until the end of the encounter.
 - **12-16:** The creature can [fly](scc:mcdm.heroes.v1/movement/fly) until the end of the encounter.

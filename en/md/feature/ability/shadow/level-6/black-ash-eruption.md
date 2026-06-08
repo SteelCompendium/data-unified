@@ -8,27 +8,23 @@ flavor: Your attack produces a cloud of black ash that launches an enemy into th
 keywords:
     - Magic
     - Melee
-    - Strike
+    - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
     - Weapon
 level: "6"
 name: Black Ash Eruption
-power_roll_characteristic: Agility
 scc: mcdm.heroes.v1/feature.ability.shadow.level-6/black-ash-eruption
 target: One creature
-tier1: 3 + A damage; vertical push 5
-tier2: 6 + A damage; vertical push 10
-tier3: 9 + A damage; vertical push 15
 type: ability
 ---
 
 
 *Your attack produces a cloud of black ash that launches an enemy into the air.*
 
-| **Magic, Melee, Strike, Weapon** |     **Main action** |
+| **Magic, Melee, [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** |     **Main action** |
 |----------------------------------|--------------------:|
 | **📏 Melee 1**                   | **🎯 One creature** |
 
-**Power Roll + Agility:**
+**Power Roll + [Agility](scc:mcdm.heroes.v1/rule.character/agility):**
 
 - **≤11:** 3 + A damage; vertical push 5
 - **12-16:** 6 + A damage; vertical push 10

@@ -12,12 +12,8 @@ keywords:
     - Weapon
 level: "3"
 name: Infernal Gavotte
-power_roll_characteristic: Presence
 scc: mcdm.heroes.v1/feature.ability.troubadour.level-3/infernal-gavotte
 target: Each enemy in the area
-tier1: 5 fire damage; A < WEAK, [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
-tier2: 7 fire damage; A < AVERAGE, [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
-tier3: 10 fire damage; A < STRONG, [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
 type: ability
 ---
 
@@ -28,7 +24,7 @@ type: ability
 |--------------------------------|------------------------------:|
 | **📏 3 burst**                 | **🎯 Each enemy in the area** |
 
-**Power Roll + Presence:**
+**Power Roll + [Presence](scc:mcdm.heroes.v1/rule.character/presence):**
 
 - **≤11:** 5 fire damage; A < WEAK, [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
 - **12-16:** 7 fire damage; A < AVERAGE, [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)

@@ -27,7 +27,7 @@ Most treasures are found as part of adventures. Many people concoct dastardly sc
 
 other times, generous and well-off individuals such as monarchs and powerful mages can reward treasures as thanks for heroic deeds.
 
-Heroes can also craft their own treasures, forging the tools they need to get the job done using the rules in Chapter 12: [Downtime Projects](scc:mcdm.heroes.v1/chapter/downtime-projects). Items that can be crafted have their item prerequisite, project source, project roll characteristic, and project goal (the number of project points needed to complete the project) noted in their descriptions.
+Heroes can also craft their own treasures, forging the tools they need to get the job done using the rules in Chapter 12: [Downtime Projects](scc:mcdm.heroes.v1/chapter/downtime-projects). Items that can be crafted have their item prerequisite, project source, project roll [characteristic](scc:mcdm.heroes.v1/rule.character/characteristic), and project goal (the number of project points needed to complete the project) noted in their descriptions.
 
 #### What Does This Treasure Do?
 

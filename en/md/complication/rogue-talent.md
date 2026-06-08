@@ -15,11 +15,11 @@ You are the only survivor of a cataclysmic psionic event—an experiment gone wr
 >
 > *You reach out with your mind to move a creature or object.*
 >
-> | **Psionic, Ranged, Strike**   |                  **Maneuver** |
+> | **Psionic, Ranged, [Strike](scc:mcdm.heroes.v1/rule.combat/strike)**   |                  **Maneuver** |
 > |-------------------------------|------------------------------:|
 > | **📏 Ranged 10**              | **🎯 One creature or object** |
 >
-> **Power Roll + Might, Intuition, or Presence:**
+> **Power Roll + [Might](scc:mcdm.heroes.v1/rule.character/might), [Intuition](scc:mcdm.heroes.v1/rule.character/intuition), or [Presence](scc:mcdm.heroes.v1/rule.character/presence):**
 >
 > - **≤11:** Push or pull 1
 > - **12-16:** Push or pull 2

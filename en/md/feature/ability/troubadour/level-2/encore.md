@@ -3,11 +3,11 @@ action_type: Main action
 class: troubadour
 cost: 5 Drama
 distance: Special
-effect: You use an ability that you have observed being used this combat round. The ability must have the Strike keyword, cost 5 or fewer of a [Heroic Resource](scc:mcdm.heroes.v1/rule.resource/heroic-resource), and cost no Malice. When you make the strike, you use your Presence score for any power rolls, and any damage you deal is sonic damage.
+effect: You use an ability that you have observed being used this combat round. The ability must have the [Strike](scc:mcdm.heroes.v1/rule.combat/strike) keyword, cost 5 or fewer of a [Heroic Resource](scc:mcdm.heroes.v1/rule.resource/heroic-resource), and cost no Malice. When you make the [strike](scc:mcdm.heroes.v1/rule.combat/strike), you use your [Presence](scc:mcdm.heroes.v1/rule.character/presence) score for any power rolls, and any damage you deal is sonic damage.
 flavor: Again! Again!
 keywords:
     - Magic
-    - Strike
+    - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
 level: "2"
 name: Encore
 scc: mcdm.heroes.v1/feature.ability.troubadour.level-2/encore
@@ -18,8 +18,8 @@ type: ability
 
 *Again! Again!*
 
-| **Magic, Strike** | **Main action** |
+| **Magic, [Strike](scc:mcdm.heroes.v1/rule.combat/strike)** | **Main action** |
 |-------------------|----------------:|
 | **📏 Special**    |  **🎯 Special** |
 
-**Effect:** You use an ability that you have observed being used this combat round. The ability must have the Strike keyword, cost 5 or fewer of a [Heroic Resource](scc:mcdm.heroes.v1/rule.resource/heroic-resource), and cost no Malice. When you make the strike, you use your Presence score for any power rolls, and any damage you deal is sonic damage.
+**Effect:** You use an ability that you have observed being used this combat round. The ability must have the [Strike](scc:mcdm.heroes.v1/rule.combat/strike) keyword, cost 5 or fewer of a [Heroic Resource](scc:mcdm.heroes.v1/rule.resource/heroic-resource), and cost no Malice. When you make the [strike](scc:mcdm.heroes.v1/rule.combat/strike), you use your [Presence](scc:mcdm.heroes.v1/rule.character/presence) score for any power rolls, and any damage you deal is sonic damage.

@@ -18,7 +18,7 @@ type: treasure
 
 **Project Source:** Texts or lore in Mindspeech
 
-**Project Roll Characteristic:** Agility or Presence
+**Project Roll [Characteristic](scc:mcdm.heroes.v1/rule.character/characteristic):** [Agility](scc:mcdm.heroes.v1/rule.character/agility) or [Presence](scc:mcdm.heroes.v1/rule.character/presence)
 
 **Project Goal:** 600
 

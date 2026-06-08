@@ -7,7 +7,7 @@ type: ancestry
 
 In spite of their friendly, outgoing nature, the rare presence of a [hakaan](scc:mcdm.heroes.v1/ancestry/hakaan) in [human](scc:mcdm.heroes.v1/ancestry/human) society is considered a harbinger. An omen of dark times.
 
-Descended from a tribe of giants in upper Vanigar, the original Haka'an tribe made a bargain with Holkatya the Vanigar trickster god. They traded some of their gigantic size and strength for the ability to see the future.
+Descended from a tribe of giants in upper Vanigar, the original Haka'an tribe made a bargain with Holkatya the Vanigar trickster god. They traded some of their gigantic [size](scc:mcdm.heroes.v1/rule.character/size) and strength for the ability to see the future.
 
 But Holkatya betrayed them, and the only future a [hakaan](scc:mcdm.heroes.v1/ancestry/hakaan) is allowed to see is the moment and nature of their own death. These visions are never of some mundane tragedy. No [hakaan](scc:mcdm.heroes.v1/ancestry/hakaan) ever received a vision of [dying](scc:mcdm.heroes.v1/rule.health/dying) from choking on a grape. This Doomsight is always momentous. Always dramatic.
 
@@ -25,7 +25,7 @@ The gate, or door, or whatever it was started to close. With Dazar on the other 
 
 Dust settled on the ground behind the giant, and John realized the thunderclap was the sound of the giant running to them. Air that couldn't get out of the way fast enough, tortured by the pressure of his speed.
 
-The rectangular, toothed egress demon was twelve feet tall at least, the giant almost matching its immense size.
+The rectangular, toothed egress demon was twelve feet tall at least, the giant almost matching its immense [size](scc:mcdm.heroes.v1/rule.character/size).
 
 In the instant before the maw of teeth and eyeballs shut, the giant grabbed each side of the mouth, and pulled. Muscles the size of hounds bulged. Tendons like ship cables stood taught, quivering with strain. "Not today!" the giant shouted. "Not TODAY!!"
 

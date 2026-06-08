@@ -10,12 +10,8 @@ keywords:
     - Ranged
 level: "9"
 name: Solar Flare
-power_roll_characteristic: Intuition
 scc: mcdm.heroes.v1/feature.ability.conduit.level-9/solar-flare
 target: Each enemy in the area
-tier1: 9 fire damage
-tier2: 14 fire damage
-tier3: 19 fire damage
 type: ability
 ---
 
@@ -26,7 +22,7 @@ type: ability
 |-------------------------|------------------------------:|
 | **📏 5 cube within 10** | **🎯 Each enemy in the area** |
 
-**Power Roll + Intuition:**
+**Power Roll + [Intuition](scc:mcdm.heroes.v1/rule.character/intuition):**
 
 - **≤11:** 9 fire damage
 - **12-16:** 14 fire damage

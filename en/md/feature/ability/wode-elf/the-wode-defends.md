@@ -6,7 +6,7 @@ flavor: Thorny vines erupt from every surface and attempt to bind your foe.
 keywords:
     - Magic
     - Ranged
-    - Strike
+    - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
 name: The Wode Defends
 scc: mcdm.heroes.v1/feature.ability.wode-elf/the-wode-defends
 subtype: signature
@@ -16,11 +16,11 @@ type: ability
 
 *Thorny vines erupt from every surface and attempt to bind your foe.*
 
-| **Magic, Ranged, Strike** |               **Main action** |
+| **Magic, Ranged, [Strike](scc:mcdm.heroes.v1/rule.combat/strike)** |               **Main action** |
 |---------------------------|------------------------------:|
 | **📏 Ranged 10**          |           **🎯 One creature** |
 
-**Power Roll + Might or Agility:**
+**Power Roll + [Might](scc:mcdm.heroes.v1/rule.character/might) or [Agility](scc:mcdm.heroes.v1/rule.character/agility):**
 
 - **≤11:** 2 + M or A damage; A < WEAK, [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
 - **12-16:** 3 + M or A damage; A < AVERAGE, [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)

@@ -18,7 +18,7 @@ type: treasure
 
 **Project Source:** Texts or lore in Proto-Ctholl
 
-**Project Roll Characteristic:** Agility or Reason
+**Project Roll [Characteristic](scc:mcdm.heroes.v1/rule.character/characteristic):** [Agility](scc:mcdm.heroes.v1/rule.character/agility) or [Reason](scc:mcdm.heroes.v1/rule.character/reason)
 
 **Project Goal:** 45
 

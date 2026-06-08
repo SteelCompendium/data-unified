@@ -9,26 +9,22 @@ keywords:
     - Magic
     - Melee
     - Ranged
-    - Strike
+    - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
 level: "1"
 name: Harsh Critic
-power_roll_characteristic: Presence
 scc: mcdm.heroes.v1/feature.ability.troubadour.level-1/harsh-critic
 target: One creature or object
-tier1: 7 + P sonic damage
-tier2: 10 + P sonic damage
-tier3: 13 + P sonic damage
 type: ability
 ---
 
 
 *Just one bad review will ruin their day.*
 
-| **Magic, Melee, Ranged, Strike** |               **Main action** |
+| **Magic, Melee, Ranged, [Strike](scc:mcdm.heroes.v1/rule.combat/strike)** |               **Main action** |
 |----------------------------------|------------------------------:|
 | **📏 Melee 1 or ranged 10**      | **🎯 One creature or object** |
 
-**Power Roll + Presence:**
+**Power Roll + [Presence](scc:mcdm.heroes.v1/rule.character/presence):**
 
 - **≤11:** 7 + P sonic damage
 - **12-16:** 10 + P sonic damage

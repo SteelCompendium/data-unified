@@ -16,7 +16,7 @@ type: treasure
 
 **Project Source:** Texts or lore in Hyrallic
 
-**Project Roll Characteristic:** Agility or Presence
+**Project Roll [Characteristic](scc:mcdm.heroes.v1/rule.character/characteristic):** [Agility](scc:mcdm.heroes.v1/rule.character/agility) or [Presence](scc:mcdm.heroes.v1/rule.character/presence)
 
 **Project Goal:** 450
 

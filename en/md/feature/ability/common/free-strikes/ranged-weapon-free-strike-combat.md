@@ -16,7 +16,7 @@ type: ability
 |---------------------------| -----------------------------:|
 | **📏 Ranged 5**           | **🎯 One creature or object** |
 
-**Power Roll + Might or Agility:**
+**Power Roll + [Might](scc:mcdm.heroes.v1/rule.character/might) or [Agility](scc:mcdm.heroes.v1/rule.character/agility):**
 
 - **≤11:** 2 + M or A damage
 - **12-16:** 4 + M or A damage

@@ -3,7 +3,7 @@ action_type: Main action
 class: tactician
 cost: 11 Focus
 distance: 3 burst
-effect: Each target can make a ranged [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) that gains an edge against any enemy marked by you within distance of their ranged [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike). A target ignores banes and double banes when making this strike.
+effect: Each target can make a ranged [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) that gains an [edge](scc:mcdm.heroes.v1/rule.dice/edge) against any enemy marked by you within [distance](scc:mcdm.heroes.v1/rule.combat/distance) of their ranged [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike). A target ignores [banes](scc:mcdm.heroes.v1/rule.dice/bane) and double [banes](scc:mcdm.heroes.v1/rule.dice/bane) when making this [strike](scc:mcdm.heroes.v1/rule.combat/strike).
 flavor: What makes a good soldier? The ability to fire four shots a minute in any weather.
 keywords:
     - Area
@@ -21,4 +21,4 @@ type: ability
 |----------------|--------------------------------------:|
 | **📏 3 burst** | **🎯 Self and each ally in the area** |
 
-**Effect:** Each target can make a ranged [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) that gains an edge against any enemy marked by you within distance of their ranged [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike). A target ignores banes and double banes when making this strike.
+**Effect:** Each target can make a ranged [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) that gains an [edge](scc:mcdm.heroes.v1/rule.dice/edge) against any enemy marked by you within [distance](scc:mcdm.heroes.v1/rule.combat/distance) of their ranged [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike). A target ignores [banes](scc:mcdm.heroes.v1/rule.dice/bane) and double [banes](scc:mcdm.heroes.v1/rule.dice/bane) when making this [strike](scc:mcdm.heroes.v1/rule.combat/strike).

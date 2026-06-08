@@ -8,27 +8,23 @@ flavor: You create an opening for an ally.
 keywords:
     - Melee
     - Ranged
-    - Strike
+    - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
     - Weapon
 level: "8"
 name: I'll Open and You'll Close
-power_roll_characteristic: Might
 scc: mcdm.heroes.v1/feature.ability.tactician.level-8/ill-open-and-youll-close
 target: One creature
-tier1: 6 + M damage
-tier2: 10 + M damage
-tier3: 14 + M damage
 type: ability
 ---
 
 
 *You create an opening for an ally.*
 
-| **Melee, Ranged, Strike, Weapon** |     **Main action** |
+| **Melee, Ranged, [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** |     **Main action** |
 |-----------------------------------|--------------------:|
 | **📏 Melee 1 or ranged 5**        | **🎯 One creature** |
 
-**Power Roll + Might:**
+**Power Roll + [Might](scc:mcdm.heroes.v1/rule.character/might):**
 
 - **≤11:** 6 + M damage
 - **12-16:** 10 + M damage

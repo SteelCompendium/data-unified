@@ -7,27 +7,23 @@ flavor: You overload their senses, turning all their subconscious thoughts into 
 keywords:
     - Psionic
     - Ranged
-    - Strike
+    - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
     - Telepathy
 level: "2"
 name: Overwhelm
-power_roll_characteristic: Reason
 scc: mcdm.heroes.v1/feature.ability.talent.level-2/overwhelm
 target: One creature
-tier1: 6 + R psychic damage; I < WEAK, [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
-tier2: 10 + R psychic damage; I < AVERAGE, [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
-tier3: 14 + R psychic damage; I < STRONG, [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)
 type: ability
 ---
 
 
 *You overload their senses, turning all their subconscious thoughts into conscious ones.*
 
-| **Psionic, Ranged, Strike, Telepathy** |     **Main action** |
+| **Psionic, Ranged, [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Telepathy** |     **Main action** |
 |----------------------------------------|--------------------:|
 | **📏 Ranged 10**                       | **🎯 One creature** |
 
-**Power Roll + Reason:**
+**Power Roll + [Reason](scc:mcdm.heroes.v1/rule.character/reason):**
 
 - **≤11:** 6 + R psychic damage; I < WEAK, [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
 - **12-16:** 10 + R psychic damage; I < AVERAGE, [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)

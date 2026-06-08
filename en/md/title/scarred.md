@@ -1,5 +1,5 @@
 ---
-effect: You gain a visible scar in a location of your choice. Additionally, your [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) maximum increases by 20, and the creature who [scarred](scc:mcdm.heroes.v1/title/scarred) you takes a bane on abilities against you.
+effect: You gain a visible scar in a location of your choice. Additionally, your [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) maximum increases by 20, and the creature who [scarred](scc:mcdm.heroes.v1/title/scarred) you takes a [bane](scc:mcdm.heroes.v1/rule.dice/bane) on abilities against you.
 name: Scarred
 prerequisite: An enemy leader or solo creature reduces you to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina).
 scc: mcdm.heroes.v1/title/scarred
@@ -10,6 +10,6 @@ type: title
 
 **Prerequisite:** An enemy leader or solo creature reduces you to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina).
 
-**Effect:** You gain a visible scar in a location of your choice. Additionally, your [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) maximum increases by 20, and the creature who [scarred](scc:mcdm.heroes.v1/title/scarred) you takes a bane on abilities against you.
+**Effect:** You gain a visible scar in a location of your choice. Additionally, your [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) maximum increases by 20, and the creature who [scarred](scc:mcdm.heroes.v1/title/scarred) you takes a [bane](scc:mcdm.heroes.v1/rule.dice/bane) on abilities against you.
 
 **Special:** You can gain this title multiple times. The second and each subsequent time that you gain it, your Stamima maximum doesn't increase..

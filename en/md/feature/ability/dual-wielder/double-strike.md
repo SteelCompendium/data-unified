@@ -5,7 +5,7 @@ effect: If you use this ability on your turn, you can use it against one target,
 flavor: Why strike once when you could do it twice?
 keywords:
     - Melee
-    - Strike
+    - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
     - Weapon
 kit: dual-wielder
 name: Double Strike
@@ -17,11 +17,11 @@ type: ability
 
 *Why strike once when you could do it twice?*
 
-| **Melee, Strike, Weapon** |                 **Main action** |
+| **Melee, [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** |                 **Main action** |
 |---------------------------|--------------------------------:|
 | **📏 Melee 1**            | **🎯 Two creatures or objects** |
 
-**Power Roll + Might or Agility:**
+**Power Roll + [Might](scc:mcdm.heroes.v1/rule.character/might) or [Agility](scc:mcdm.heroes.v1/rule.character/agility):**
 
 - **≤11:** 4 damage
 - **12-16:** 6 damage

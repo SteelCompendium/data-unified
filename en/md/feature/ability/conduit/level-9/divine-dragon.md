@@ -3,19 +3,15 @@ action_type: Main action
 class: conduit
 cost: 11 Piety
 distance: Ranged 10
-effect: You conjure a size 4 dragon that appears in an unoccupied space within distance. The dragon has speed 6 and can [fly](scc:mcdm.heroes.v1/movement/fly), stability 4, 100 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), immunity all to fire damage, and uses your characteristics. The dragon disappears at the end of the encounter, if their [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) drops to 0, or if you are [dying](scc:mcdm.heroes.v1/rule.health/dying).
+effect: You conjure a [size](scc:mcdm.heroes.v1/rule.character/size) 4 dragon that appears in an unoccupied space within [distance](scc:mcdm.heroes.v1/rule.combat/distance). The dragon has speed 6 and can [fly](scc:mcdm.heroes.v1/movement/fly), stability 4, 100 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), immunity all to fire damage, and uses your [characteristics](scc:mcdm.heroes.v1/rule.character/characteristic). The dragon disappears at the end of the encounter, if their [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) drops to 0, or if you are [dying](scc:mcdm.heroes.v1/rule.health/dying).
 flavor: From nothing but divine will, you create a powerful ally.
 keywords:
     - Magic
     - Ranged
 level: "9"
 name: Divine Dragon
-power_roll_characteristic: Intuition
 scc: mcdm.heroes.v1/feature.ability.conduit.level-9/divine-dragon
 target: Special
-tier1: 5 fire damage
-tier2: 9 fire damage
-tier3: 12 fire damage
 type: ability
 ---
 
@@ -26,19 +22,19 @@ type: ability
 |--------------------|----------------:|
 | **📏 Ranged 10**   |  **🎯 Special** |
 
-**Effect:** You conjure a size 4 dragon that appears in an unoccupied space within distance. The dragon has speed 6 and can [fly](scc:mcdm.heroes.v1/movement/fly), stability 4, 100 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), immunity all to fire damage, and uses your characteristics. The dragon disappears at the end of the encounter, if their [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) drops to 0, or if you are [dying](scc:mcdm.heroes.v1/rule.health/dying).
+**Effect:** You conjure a [size](scc:mcdm.heroes.v1/rule.character/size) 4 dragon that appears in an unoccupied space within [distance](scc:mcdm.heroes.v1/rule.combat/distance). The dragon has speed 6 and can [fly](scc:mcdm.heroes.v1/movement/fly), stability 4, 100 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), immunity all to fire damage, and uses your [characteristics](scc:mcdm.heroes.v1/rule.character/characteristic). The dragon disappears at the end of the encounter, if their [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) drops to 0, or if you are [dying](scc:mcdm.heroes.v1/rule.health/dying).
 
 On subsequent turns, you can use a main action to command the dragon to breathe magic fire in a 3 cube within 1 square of them. Make the following power roll targeting each enemy in the area.
 
-**Power Roll + Intuition:**
+**Power Roll + [Intuition](scc:mcdm.heroes.v1/rule.character/intuition):**
 
 - **≤11:** 5 fire damage
 - **12-16:** 9 fire damage
 - **17+:** 12 fire damage
 
-Additionally, you can use a maneuver to move the dragon up to their speed, or to make a melee weapon strike with their claw against an adjacent creature or object. The dragon can also make this strike as a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike).
+Additionally, you can use a maneuver to move the dragon up to their speed, or to make a melee weapon [strike](scc:mcdm.heroes.v1/rule.combat/strike) with their claw against an adjacent creature or object. The dragon can also make this [strike](scc:mcdm.heroes.v1/rule.combat/strike) as a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike).
 
-**Power Roll + Intuition:**
+**Power Roll + [Intuition](scc:mcdm.heroes.v1/rule.character/intuition):**
 
 - **≤11:** 3 + I damage
 - **12-16:** 5 + I damage

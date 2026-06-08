@@ -9,27 +9,23 @@ keywords:
     - Magic
     - Melee
     - Ranged
-    - Strike
+    - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
     - Weapon
 level: "3"
 name: Star Solo
-power_roll_characteristic: Presence
 scc: mcdm.heroes.v1/feature.ability.troubadour.level-3/star-solo
 target: One creature or object
-tier1: 5 + P damage
-tier2: 8 + P damage; push 3
-tier3: 11 + P damage; push 5
 type: ability
 ---
 
 
 *Your performance travels and doesn't stop moving until your audience is completely rocked.*
 
-| **Magic, Melee, Ranged, Strike, Weapon** |               **Main action** |
+| **Magic, Melee, Ranged, [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** |               **Main action** |
 |------------------------------------------|------------------------------:|
 | **📏 Melee 1 or ranged 10**              | **🎯 One creature or object** |
 
-**Power Roll + Presence:**
+**Power Roll + [Presence](scc:mcdm.heroes.v1/rule.character/presence):**
 
 - **≤11:** 5 + P damage
 - **12-16:** 8 + P damage; push 3

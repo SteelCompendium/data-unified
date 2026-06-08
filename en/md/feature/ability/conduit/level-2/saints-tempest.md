@@ -10,12 +10,8 @@ keywords:
     - Ranged
 level: "2"
 name: Saint's Tempest
-power_roll_characteristic: Intuition
 scc: mcdm.heroes.v1/feature.ability.conduit.level-2/saints-tempest
 target: Each enemy in the area
-tier1: 2 lightning damage; vertical slide 1
-tier2: 5 lightning damage; vertical slide 2
-tier3: 7 lightning damage; vertical slide 3
 type: ability
 ---
 
@@ -26,7 +22,7 @@ type: ability
 |--------------------------|------------------------------:|
 | **📏 3 cube within 10**  | **🎯 Each enemy in the area** |
 
-**Power Roll + Intuition:**
+**Power Roll + [Intuition](scc:mcdm.heroes.v1/rule.character/intuition):**
 
 - **≤11:** 2 lightning damage; vertical slide 1
 - **12-16:** 5 lightning damage; vertical slide 2

@@ -1,6 +1,6 @@
 ---
 echelon: "3"
-effect: 'As a maneuver, you make a ranged [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) using the Timesplitter, which shatters upon impact. The strike deals an extra 1d6 psychic damage and adds the following effects to the tier outcomes of the power roll:'
+effect: 'As a maneuver, you make a ranged [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) using the Timesplitter, which shatters upon impact. The [strike](scc:mcdm.heroes.v1/rule.combat/strike) deals an extra 1d6 psychic damage and adds the following effects to the tier outcomes of the power roll:'
 keywords:
     - Psionic
 name: Timesplitter
@@ -17,11 +17,11 @@ type: treasure
 
 **Project Source:** Texts or lore in Voll
 
-**Project Roll Characteristic:** Reason or Intuition
+**Project Roll [Characteristic](scc:mcdm.heroes.v1/rule.character/characteristic):** [Reason](scc:mcdm.heroes.v1/rule.character/reason) or [Intuition](scc:mcdm.heroes.v1/rule.character/intuition)
 
 **Project Goal:** 180
 
-**Effect:** As a maneuver, you make a ranged [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) using the Timesplitter, which shatters upon impact. The strike deals an extra 1d6 psychic damage and adds the following effects to the tier outcomes of the power roll:
+**Effect:** As a maneuver, you make a ranged [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) using the Timesplitter, which shatters upon impact. The [strike](scc:mcdm.heroes.v1/rule.combat/strike) deals an extra 1d6 psychic damage and adds the following effects to the tier outcomes of the power roll:
 
 - **≤11:** The target and each creature within 3 squares of them a [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends).
 - **12-16:** The target and each creature within 5 squares of them is [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends).

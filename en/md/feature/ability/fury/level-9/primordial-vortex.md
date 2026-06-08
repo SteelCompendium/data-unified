@@ -12,12 +12,8 @@ keywords:
     - Weapon
 level: "9"
 name: Primordial Vortex
-power_roll_characteristic: Might
 scc: mcdm.heroes.v1/feature.ability.fury.level-9/primordial-vortex
 target: Each enemy in the area
-tier1: 3 damage; vertical pull 3
-tier2: 5 damage; vertical pull 5
-tier3: 8 damage; vertical pull 7
 type: ability
 ---
 
@@ -28,7 +24,7 @@ type: ability
 |--------------------------------|------------------------------:|
 | **📏 3 burst**                 | **🎯 Each enemy in the area** |
 
-**Power Roll + Might:**
+**Power Roll + [Might](scc:mcdm.heroes.v1/rule.character/might):**
 
 - **≤11:** 3 damage; vertical pull 3
 - **12-16:** 5 damage; vertical pull 5

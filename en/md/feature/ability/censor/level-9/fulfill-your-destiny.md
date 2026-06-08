@@ -3,7 +3,7 @@ action_type: Triggered
 class: censor
 cost: 11 Wrath
 distance: Ranged 10
-effect: The target takes their turn after the triggering hero, and immediately removes all conditions and negative effects on themself. During their turn, the target has a double edge on power rolls.
+effect: The target takes their turn after the triggering hero, and immediately removes all conditions and negative effects on themself. During their turn, the target has a double [edge](scc:mcdm.heroes.v1/rule.dice/edge) on power rolls.
 flavor: You have looked at various futures, and only this one works.
 keywords:
     - Magic
@@ -26,4 +26,4 @@ type: ability
 
 **Trigger:** You or another hero ends their turn.
 
-**Effect:** The target takes their turn after the triggering hero, and immediately removes all conditions and negative effects on themself. During their turn, the target has a double edge on power rolls.
+**Effect:** The target takes their turn after the triggering hero, and immediately removes all conditions and negative effects on themself. During their turn, the target has a double [edge](scc:mcdm.heroes.v1/rule.dice/edge) on power rolls.

@@ -12,12 +12,8 @@ keywords:
     - Telekinesis
 level: "5"
 name: Hypersonic
-power_roll_characteristic: Reason
 scc: mcdm.heroes.v1/feature.ability.talent.level-5/hypersonic
 target: Each enemy in the area
-tier1: 12 sonic damage
-tier2: 18 sonic damage
-tier3: 24 sonic damage
 type: ability
 ---
 
@@ -30,7 +26,7 @@ type: ability
 
 **Effect:** You [teleport](scc:mcdm.heroes.v1/movement/teleport) to a square on the opposite side of the area before making the power roll.
 
-**Power Roll + Reason:**
+**Power Roll + [Reason](scc:mcdm.heroes.v1/rule.character/reason):**
 
 - **≤11:** 12 sonic damage
 - **12-16:** 18 sonic damage

@@ -4,7 +4,7 @@ scc: mcdm.heroes.v1/rule.general/unattended-object
 type: rule
 ---
 
-Mundane objects in the game have [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) based on the material they're made of. When an object's [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) is reduced to 0, the object is destroyed. Objects have poison immunity all and psychic immunity all, though the Director can remove one or both of these immunities in the case of living objects, such as plants. A size 1 object or 1 square of a larger object made of common materials has [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) as follows:
+Mundane objects in the game have [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) based on the material they're made of. When an object's [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) is reduced to 0, the object is destroyed. Objects have poison immunity all and psychic immunity all, though the Director can remove one or both of these immunities in the case of living objects, such as plants. A [size](scc:mcdm.heroes.v1/rule.character/size) 1 object or 1 square of a larger object made of common materials has [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) as follows:
 
 - Glass: 1 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina)
 - Wood: 3 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina)

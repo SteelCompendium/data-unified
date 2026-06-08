@@ -7,17 +7,13 @@ effect: You move up to your speed toward the triggering ally, ending this moveme
 flavor: You prioritize saving an ally over your own safety.
 keywords:
     - Ranged
-    - Strike
+    - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
     - Weapon
 level: "2"
 name: No Dying on My Watch
-power_roll_characteristic: Might
 scc: mcdm.heroes.v1/feature.ability.tactician.level-2/no-dying-on-my-watch
 subtype: triggered
 target: One enemy
-tier1: R < WEAK, the target is [frightened](scc:mcdm.heroes.v1/condition/frightened) of the triggering ally (save ends)
-tier2: R < AVERAGE, the target is [frightened](scc:mcdm.heroes.v1/condition/frightened) of the triggering ally (save ends)
-tier3: R < STRONG, the target is [frightened](scc:mcdm.heroes.v1/condition/frightened) of the triggering ally (save ends)
 trigger: The target deals damage to an ally.
 type: ability
 ---
@@ -25,7 +21,7 @@ type: ability
 
 *You prioritize saving an ally over your own safety.*
 
-| **Ranged, Strike, Weapon** |    **Triggered** |
+| **Ranged, [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** |    **Triggered** |
 |----------------------------|-----------------:|
 | **📏 Ranged 5**            | **🎯 One enemy** |
 
@@ -33,7 +29,7 @@ type: ability
 
 **Effect:** You move up to your speed toward the triggering ally, ending this movement adjacent to them or in the nearest square if you can't reach an adjacent square. The triggering ally can spend a [Recovery](scc:mcdm.heroes.v1/rule.health/recoveries) and gains 5 [temporary Stamina](scc:mcdm.heroes.v1/rule.health/temporary-stamina) for each enemy you came adjacent to during the move. You then make a power roll against the target.
 
-**Power Roll + Might:**
+**Power Roll + [Might](scc:mcdm.heroes.v1/rule.character/might):**
 
 - **≤11:** R < WEAK, the target is [frightened](scc:mcdm.heroes.v1/condition/frightened) of the triggering ally (save ends)
 - **12-16:** R < AVERAGE, the target is [frightened](scc:mcdm.heroes.v1/condition/frightened) of the triggering ally (save ends)

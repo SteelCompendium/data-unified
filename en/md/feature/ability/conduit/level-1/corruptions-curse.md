@@ -7,27 +7,23 @@ flavor: Cursed by you, your enemy takes more damage from your allies.
 keywords:
     - Magic
     - Ranged
-    - Strike
+    - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
 level: "1"
 name: Corruption's Curse
-power_roll_characteristic: Intuition
 scc: mcdm.heroes.v1/feature.ability.conduit.level-1/corruptions-curse
 target: One creature or object
-tier1: 3 + I corruption damage; M < WEAK, damage weakness 5 (save ends)
-tier2: 6 + I corruption damage; M < AVERAGE, damage weakness 5 (save ends)
-tier3: 9 + I corruption damage; M < STRONG, damage weakness 5 (save ends)
 type: ability
 ---
 
 
 *Cursed by you, your enemy takes more damage from your allies.*
 
-| **Magic, Ranged, Strike**  |               **Main action** |
+| **Magic, Ranged, [Strike](scc:mcdm.heroes.v1/rule.combat/strike)**  |               **Main action** |
 |----------------------------|------------------------------:|
 | **📏 Ranged 10**           | **🎯 One creature or object** |
 
-**Power Roll + Intuition:**
+**Power Roll + [Intuition](scc:mcdm.heroes.v1/rule.character/intuition):**
 
-- **≤11:** 3 + I corruption damage; M < WEAK, damage weakness 5 (save ends)
-- **12-16:** 6 + I corruption damage; M < AVERAGE, damage weakness 5 (save ends)
-- **17+:** 9 + I corruption damage; M < STRONG, damage weakness 5 (save ends)
+- **≤11:** 3 + I corruption damage; M < WEAK, [damage weakness](scc:mcdm.heroes.v1/rule.damage/damage-weakness) 5 (save ends)
+- **12-16:** 6 + I corruption damage; M < AVERAGE, [damage weakness](scc:mcdm.heroes.v1/rule.damage/damage-weakness) 5 (save ends)
+- **17+:** 9 + I corruption damage; M < STRONG, [damage weakness](scc:mcdm.heroes.v1/rule.damage/damage-weakness) 5 (save ends)

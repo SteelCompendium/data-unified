@@ -13,5 +13,5 @@ type: title
 **Effect:** Choose one of the following benefits:
 
 - *Iron Hand in Velvet Glove:* The first time during a negotiation that you make a test using the [Intimidate](scc:mcdm.heroes.v1/skill/intimidate) skill and don't make an argument that appeals to an NPC's motivation, you don't lower the NPC's patience or interest no matter the outcome of the roll.
-- *Truce!:* You have a double edge on tests made to stop combat and start a negotiation.
-- *Warriors' Understanding:* You gain an edge on Presence tests made to interact with creatures you have fought against in combat encounters.
+- *Truce!:* You have a double [edge](scc:mcdm.heroes.v1/rule.dice/edge) on tests made to stop combat and start a negotiation.
+- *Warriors' Understanding:* You gain an [edge](scc:mcdm.heroes.v1/rule.dice/edge) on [Presence](scc:mcdm.heroes.v1/rule.character/presence) tests made to interact with creatures you have fought against in combat encounters.

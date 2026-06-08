@@ -16,12 +16,12 @@ type: treasure
 
 **Project Source:** Texts or lore in Higaran
 
-**Project Roll Characteristic:** Might, Reason, or Intuition
+**Project Roll [Characteristic](scc:mcdm.heroes.v1/rule.character/characteristic):** [Might](scc:mcdm.heroes.v1/rule.character/might), [Reason](scc:mcdm.heroes.v1/rule.character/reason), or [Intuition](scc:mcdm.heroes.v1/rule.character/intuition)
 
 **Project Goal:** 450
 
 **1st Level:** Any weapon ability that deals rolled damage using this weapon deals an extra 1 psychic damage. Additionally, if you reduce a creature to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) using this weapon, you can immediately use a maneuver to make a melee [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike).
 
-**5th Level:** The weapon's extra psychic damage increases to 2. Additionally, if you reduce a creature to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) using the weapon, you can use a maneuver to make a melee [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) and can move up to 2 squares before or after the strike.
+**5th Level:** The weapon's extra psychic damage increases to 2. Additionally, if you reduce a creature to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) using the weapon, you can use a maneuver to make a melee [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) and can move up to 2 squares before or after the [strike](scc:mcdm.heroes.v1/rule.combat/strike).
 
 **9th Level:** The weapon's extra psychic damage increases to 3. Additionally, if you reduce a creature to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) using the weapon, you can use a maneuver to move up to your speed and make either a signature ability strike or a melee [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike).

@@ -10,12 +10,8 @@ keywords:
     - Ranged
 level: "2"
 name: Stink Bomb
-power_roll_characteristic: Agility
 scc: mcdm.heroes.v1/feature.ability.shadow.level-2/stink-bomb
 target: Each creature in the area
-tier1: 2 poison damage
-tier2: 5 poison damage
-tier3: 7 poison damage
 type: ability
 ---
 
@@ -26,7 +22,7 @@ type: ability
 |-------------------------|---------------------------------:|
 | **📏 3 cube within 10** | **🎯 Each creature in the area** |
 
-**Power Roll + Agility:**
+**Power Roll + [Agility](scc:mcdm.heroes.v1/rule.character/agility):**
 
 - **≤11:** 2 poison damage
 - **12-16:** 5 poison damage

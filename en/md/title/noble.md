@@ -12,7 +12,7 @@ type: title
 
 **Effect:** Choose one of the following benefits:
 
-- *I Know How to Talk to These People:* You gain an edge on Presence tests made to interact with royals, nobles, and their feudal followers, provided they are aware of your [noble](scc:mcdm.heroes.v1/title/noble) rank.
+- *I Know How to Talk to These People:* You gain an [edge](scc:mcdm.heroes.v1/rule.dice/edge) on [Presence](scc:mcdm.heroes.v1/rule.character/presence) tests made to interact with royals, nobles, and their feudal followers, provided they are aware of your [noble](scc:mcdm.heroes.v1/title/noble) rank.
 - *Noble Splendor:* You earn 1 Renown and 1 Wealth.
 - *Retinue:* The number of followers you can recruit increases by two.
 

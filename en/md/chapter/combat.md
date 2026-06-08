@@ -23,9 +23,9 @@ Your hero starts with a speed granted by their ancestry—usually 5. This repres
 
 All squares adjacent to your character cost 1 movement to move into. No, there's no Pythagorean theorem on the grid. It's a game, don't overthink it.
 
-Your hero can move freely through an ally's space. You can move through an enemy's space, but that space is [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain) (see below). You can't stop moving in any other creature's space, including to make a strike or use a main action or maneuver while in that space and then continuing your move, unless that creature's size is two or more sizes greater or smaller than your own.
+Your hero can move freely through an ally's space. You can move through an enemy's space, but that space is [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain) (see below). You can't stop moving in any other creature's space, including to make a [strike](scc:mcdm.heroes.v1/rule.combat/strike) or use a main action or maneuver while in that space and then continuing your move, unless that creature's [size](scc:mcdm.heroes.v1/rule.character/size) is two or more [sizes](scc:mcdm.heroes.v1/rule.character/size) greater or smaller than your own.
 
-At the Director's discretion, you can be forced into the same space as another creature whose size is within 1 of yours, such as by falling down a narrow shaft with such a creature already at the bottom. When you are squeezed into the same space as another creature whose size is within 1 of yours, your ability rolls and tests take a bane.
+At the Director's discretion, you can be forced into the same space as another creature whose [size](scc:mcdm.heroes.v1/rule.character/size) is within 1 of yours, such as by falling down a narrow shaft with such a creature already at the bottom. When you are squeezed into the same space as another creature whose [size](scc:mcdm.heroes.v1/rule.character/size) is within 1 of yours, your ability rolls and tests take a [bane](scc:mcdm.heroes.v1/rule.dice/bane).
 
 #### Can't Exceed Speed
 

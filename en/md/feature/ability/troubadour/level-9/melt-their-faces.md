@@ -9,26 +9,22 @@ keywords:
     - Magic
     - Melee
     - Ranged
-    - Strike
+    - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
 level: "9"
 name: Melt Their Faces
-power_roll_characteristic: Presence
 scc: mcdm.heroes.v1/feature.ability.troubadour.level-9/melt-their-faces
 target: One creature or object
-tier1: 12 + P sonic damage; push 5
-tier2: 16 + P sonic damage; push 10
-tier3: 22 + P sonic damage; push 15
 type: ability
 ---
 
 
 *The power of music rips through the reality around the target and blows them away.*
 
-| **Magic, Melee, Ranged, Strike** |               **Main action** |
+| **Magic, Melee, Ranged, [Strike](scc:mcdm.heroes.v1/rule.combat/strike)** |               **Main action** |
 |----------------------------------|------------------------------:|
 | **📏 Melee 1 or ranged 10**      | **🎯 One creature or object** |
 
-**Power Roll + Presence:**
+**Power Roll + [Presence](scc:mcdm.heroes.v1/rule.character/presence):**
 
 - **≤11:** 12 + P sonic damage; push 5
 - **12-16:** 16 + P sonic damage; push 10

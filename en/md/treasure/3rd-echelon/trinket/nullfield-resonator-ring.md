@@ -18,7 +18,7 @@ type: treasure
 
 **Project Source:** Texts or lore in Mindspeech
 
-**Project Roll Characteristic:** Reason or Intuition
+**Project Roll [Characteristic](scc:mcdm.heroes.v1/rule.character/characteristic):** [Reason](scc:mcdm.heroes.v1/rule.character/reason) or [Intuition](scc:mcdm.heroes.v1/rule.character/intuition)
 
 **Project Goal:** 450
 
@@ -35,10 +35,10 @@ Additionally, you have the following ability.
 > |----------------------------------------|------------------------------:|
 > | **📏 Melee 1**                         | **🎯 One creature or object** |
 >
-> **Power Roll + Might or Agility:**
+> **Power Roll + [Might](scc:mcdm.heroes.v1/rule.character/might) or [Agility](scc:mcdm.heroes.v1/rule.character/agility):**
 >
 > - **≤11:** 3 psychic damage
 > - **12-16:** 5 psychic damage; I < AVERAGE, [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
 > - **17+:** 8 psychic damage; I < STRONG, [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
 >
-> **Effect:** While [slowed](scc:mcdm.heroes.v1/condition/slowed) in this way, the target takes a bane on magic or psionic abilities.
+> **Effect:** While [slowed](scc:mcdm.heroes.v1/condition/slowed) in this way, the target takes a [bane](scc:mcdm.heroes.v1/rule.dice/bane) on magic or psionic abilities.

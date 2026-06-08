@@ -3,7 +3,7 @@ action_type: Main action
 class: shadow
 cost: 5 Insight
 distance: Self; see below
-effect: You use a strike signature ability twice.
+effect: You use a [strike](scc:mcdm.heroes.v1/rule.combat/strike) signature ability twice.
 flavor: They have no idea what the college taught you.
 keywords:
     - Magic
@@ -23,4 +23,4 @@ type: ability
 |------------------------|----------------:|
 | **📏 Self; see below** |     **🎯 Self** |
 
-**Effect:** You use a strike signature ability twice.
+**Effect:** You use a [strike](scc:mcdm.heroes.v1/rule.combat/strike) signature ability twice.

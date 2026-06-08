@@ -79,7 +79,7 @@ Polearms are two-handed melee weapons with long hafts that increase the wielder'
 
 ##### Unarmed Strikes
 
-Any kit that uses unarmed strikes allows you to use your body as a weapon. Punches, kicks, eye gouges, and the like are your forte.
+Any kit that uses unarmed [strikes](scc:mcdm.heroes.v1/rule.combat/strike) allows you to use your body as a weapon. Punches, kicks, eye gouges, and the like are your forte.
 
 ##### Whip
 
@@ -93,7 +93,7 @@ If you find a piece of equipment you really want to use that isn't part of your 
 
 ### Kit Bonuses and Traits
 
-A kit can grant a bonus to your [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), speed, and stability, as well as the damage and distance of your weapon abilities, including your [free strikes](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike). (Abilities in Chapter 5: [Classes](scc:mcdm.heroes.v1/chapter/classes) has information on abilities, ability keywords, and more.)
+A kit can grant a bonus to your [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), speed, and stability, as well as the damage and [distance](scc:mcdm.heroes.v1/rule.combat/distance) of your weapon abilities, including your [free strikes](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike). (Abilities in Chapter 5: [Classes](scc:mcdm.heroes.v1/chapter/classes) has information on abilities, ability keywords, and more.)
 
 #### Stamina Bonus
 
@@ -119,9 +119,9 @@ For example, the [Shining Armor](scc:mcdm.heroes.v1/kit/shining-armor) kit has a
 
 #### Distance Bonus
 
-A kit's melee distance bonus increases the distance of abilities with the Melee and Weapon keywords. A kit's ranged distance bonus increases the distance of abilities with the Ranged and Weapon keywords.
+A kit's melee [distance](scc:mcdm.heroes.v1/rule.combat/distance) bonus increases the [distance](scc:mcdm.heroes.v1/rule.combat/distance) of abilities with the Melee and Weapon keywords. A kit's ranged [distance](scc:mcdm.heroes.v1/rule.combat/distance) bonus increases the [distance](scc:mcdm.heroes.v1/rule.combat/distance) of abilities with the Ranged and Weapon keywords.
 
-A distance bonus doesn't increase the size of any ability's area of effect.
+A [distance](scc:mcdm.heroes.v1/rule.combat/distance) bonus doesn't increase the size of any ability's area of effect.
 
 #### Disengage Bonus
 
@@ -129,7 +129,7 @@ A kit that has a disengage bonus increases the number of squares you can [shift]
 
 ### Kit Signature Ability
 
-Each kit grants a signature ability, **whose distance and damage already includes the kit's bonuses**. For instance, the [Guisarmier](scc:mcdm.heroes.v1/kit/guisarmier) kit's Forward Thrust, Backward Smash ability has a distance of melee 2 and deals 4, 7, or 9 damage depending on the tier outcome, with that distance and damage including the bonuses from the kit.
+Each kit grants a signature ability, **whose [distance](scc:mcdm.heroes.v1/rule.combat/distance) and damage already includes the kit's bonuses**. For instance, the [Guisarmier](scc:mcdm.heroes.v1/kit/guisarmier) kit's Forward Thrust, Backward Smash ability has a [distance](scc:mcdm.heroes.v1/rule.combat/distance) of melee 2 and deals 4, 7, or 9 damage depending on the tier outcome, with that [distance](scc:mcdm.heroes.v1/rule.combat/distance) and damage including the bonuses from the kit.
 
 For details on the ability format, see Abilities in Chapter 5: [Classes](scc:mcdm.heroes.v1/chapter/classes).
 
@@ -139,7 +139,7 @@ This section details each kit, whose bonuses and benefits are summarized in the 
 
 > **Improvised Weapons**
 >
-> Improvised weapons include rocks, bottles, plates, furniture, and anything else you pick up that can be bashed, hurled, or stabbed into an enemy. As well, any weapons that aren't part of your kit count as improvised weapons for you. If you're not using a kit with unarmed strikes, then your feet and fists are improvised weapons. If you're not using any kit and pick up a sword to use as part of a melee [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike), the sword counts as an improvised weapon.
+> Improvised weapons include rocks, bottles, plates, furniture, and anything else you pick up that can be bashed, hurled, or stabbed into an enemy. As well, any weapons that aren't part of your kit count as improvised weapons for you. If you're not using a kit with unarmed [strikes](scc:mcdm.heroes.v1/rule.combat/strike), then your feet and fists are improvised weapons. If you're not using any kit and pick up a sword to use as part of a melee [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike), the sword counts as an improvised weapon.
 >
 > Improvised weapons can be used with weapon abilities you gain from your class. For instance, many melee-focused heroes choose a kit that maximizes their melee capabilities, then make ranged [free strikes](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) with improvised weapons. However, you can't use improvised weapons with weapon abilities gained from your kit, and you add no special bonuses from your kit to a weapon ability used with an improvised weapon.
 
@@ -149,24 +149,24 @@ The rules of the game expect that heroes always have access to their equipment. 
 
 - If your kit has armor and you aren't wearing it or wielding it (in the case of a shield), you lose your kit's [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) bonus and stability bonus. If you lose your shield but keep the rest of your armor, your [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) decreases by 3 per echelon. As long as you are carrying your shield, you don't lose its [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) bonus, even if you aren't actively wielding it.
 - If your kit has a medium or heavy weapon you aren't wielding, you lose the kit's melee damage bonus.
-- If your kit has a light weapon you aren't wielding, you lose the kit's melee damage bonus, ranged damage bonus, and distance bonus for a weapon you throw. If your kit also has a bow, you don't lose those benefits for the bow.
-- If your kit has a polearm or whip you aren't wielding, you lose the kit's melee damage bonus and melee distance bonus.
+- If your kit has a light weapon you aren't wielding, you lose the kit's melee damage bonus, ranged damage bonus, and [distance](scc:mcdm.heroes.v1/rule.combat/distance) bonus for a weapon you throw. If your kit also has a bow, you don't lose those benefits for the bow.
+- If your kit has a polearm or whip you aren't wielding, you lose the kit's melee damage bonus and melee [distance](scc:mcdm.heroes.v1/rule.combat/distance) bonus.
 - If your kit has an ensnaring weapon you aren't wielding, you lose the kit's signature ability.
-- If your kit has a bow weapon you aren't wielding, you lose the kit's ranged damage bonus and distance bonus.
+- If your kit has a bow weapon you aren't wielding, you lose the kit's ranged damage bonus and [distance](scc:mcdm.heroes.v1/rule.combat/distance) bonus.
 
 ###### Kits Table
 
-| Kit              | Armor          | Weapon             | [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) per Echelon | Speed | Stability | Melee Damage | Ranged Damage | Melee Distance | Ranged Distance | Disengage |
+| Kit              | Armor          | Weapon             | [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) per Echelon | Speed | Stability | Melee Damage | Ranged Damage | Melee [Distance](scc:mcdm.heroes.v1/rule.combat/distance) | Ranged [Distance](scc:mcdm.heroes.v1/rule.combat/distance) | Disengage |
 |------------------|----------------|--------------------|---------------------|-------|-----------|--------------|---------------|----------------|-----------------|-----------|
 | [Arcane Archer](scc:mcdm.heroes.v1/kit/arcane-archer)    | None           | Bow                | -                   | +1    | -         | -            | +2/+2/+2      | -              | +10             | +1        |
 | [Battlemind](scc:mcdm.heroes.v1/kit/battlemind)       | Light          | Medium             | +3                  | +2    | +1        | +2/+2/+2     | -             | -              | -               | -         |
 | [Cloak and Dagger](scc:mcdm.heroes.v1/kit/cloak-and-dagger) | Light          | Light              | +3                  | +2    | -         | +1/+1/+1     | +1/+1/+1      | -              | +5              | +1        |
 | [Dual Wielder](scc:mcdm.heroes.v1/kit/dual-wielder)     | Medium         | Light, medium      | +6                  | +2    | -         | +2/+2/+2     | -             | -              | -               | +1        |
 | [Guisarmier](scc:mcdm.heroes.v1/kit/guisarmier)       | Medium         | Polearm            | +6                  | -     | +1        | +2/+2/+2     | -             | +1             | -               | -         |
-| [Martial Artist](scc:mcdm.heroes.v1/kit/martial-artist)   | None           | Unarmed strikes    | +3                  | +3    | -         | +2/+2/+2     | -             | -              | -               | +1        |
+| [Martial Artist](scc:mcdm.heroes.v1/kit/martial-artist)   | None           | Unarmed [strikes](scc:mcdm.heroes.v1/rule.combat/strike)    | +3                  | +3    | -         | +2/+2/+2     | -             | -              | -               | +1        |
 | [Mountain](scc:mcdm.heroes.v1/kit/mountain)         | Heavy          | Heavy              | +9                  | -     | +2        | +0/+0/+4     | -             | -              | -               | -         |
 | [Panther](scc:mcdm.heroes.v1/kit/panther)          | None           | Heavy              | +6                  | +1    | +1        | +0/+0/+4     | -             | -              | -               | -         |
-| [Pugilist](scc:mcdm.heroes.v1/kit/pugilist)         | None           | Unarmed strikes    | +6                  | +2    | +1        | +1/+1/+1     | -             | -              | -               | -         |
+| [Pugilist](scc:mcdm.heroes.v1/kit/pugilist)         | None           | Unarmed [strikes](scc:mcdm.heroes.v1/rule.combat/strike)    | +6                  | +2    | +1        | +1/+1/+1     | -             | -              | -               | -         |
 | [Raider](scc:mcdm.heroes.v1/kit/raider)           | Light, shield  | Light              | +6                  | +1    | -         | +1/+1/+1     | +1/+1/+1      | -              | +5              | +1        |
 | [Ranger](scc:mcdm.heroes.v1/kit/ranger)           | Medium         | Bow, medium        | +6                  | +1    | -         | +1/+1/+1     | +1/+1/+1      | -              | +5              | +1        |
 | [Rapid-Fire](scc:mcdm.heroes.v1/kit/rapid-fire)       | Light          | Bow                | +3                  | +1    | -         | -            | +2/+2/+2      | -              | +7              | +1        |

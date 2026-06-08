@@ -30,11 +30,11 @@ You wear medium armor and wield a shield and a medium weapon.
 
 *In your hands, a shield isn't just for protection.*
 
-| **Melee, Strike, Weapon** |     **Main action** |
+| **Melee, [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** |     **Main action** |
 |---------------------------|--------------------:|
 | **📏 Melee 1**            | **🎯 One creature** |
 
-**Power Roll + Might or Agility:**
+**Power Roll + [Might](scc:mcdm.heroes.v1/rule.character/might) or [Agility](scc:mcdm.heroes.v1/rule.character/agility):**
 
 - **≤11:** 4 + M or A damage; push 1
 - **12-16:** 7 + M or A damage; push 2

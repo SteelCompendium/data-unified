@@ -9,13 +9,9 @@ keywords:
     - Weapon
 kit: corven
 name: Wing Buffet
-power_roll_characteristic: Agility
 scc: mcdm.heroes.v1/feature.ability.corven/wing-buffet
 subtype: signature
 target: Each enemy in the area
-tier1: 3 damage
-tier2: 6 damage
-tier3: 8 damage
 type: ability
 ---
 
@@ -25,7 +21,7 @@ type: ability
 |-------------------------|------------------------------:|
 | **📏 1 burst**          | **🎯 Each enemy in the area** |
 
-**Power Roll + Agility:**
+**Power Roll + [Agility](scc:mcdm.heroes.v1/rule.character/agility):**
 
 - **≤11:** 3 damage
 - **12-16:** 6 damage

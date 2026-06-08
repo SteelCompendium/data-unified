@@ -16,7 +16,7 @@ With this stormwight kit, you channel your [primordial ferocity](scc:mcdm.heroes
 |-------------------------|------------------------------:|
 | **📏 1 burst**          | **🎯 Each enemy in the area** |
 
-**Power Roll + Agility:**
+**Power Roll + [Agility](scc:mcdm.heroes.v1/rule.character/agility):**
 
 - **≤11:** 3 damage
 - **12-16:** 6 damage

@@ -9,26 +9,22 @@ keywords:
     - Green
     - Magic
     - Ranged
-    - Strike
+    - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
 level: "1"
 name: Invigorating Growth
-power_roll_characteristic: Reason
 scc: mcdm.heroes.v1/feature.ability.elementalist.level-1/invigorating-growth
 target: One creature
-tier1: 4 + R poison damage
-tier2: 7 + R poison damage
-tier3: 11 + R poison damage
 type: ability
 ---
 
 
 *Mushrooms erupt from a foe, sapping their vitality to spread strengthening spores.*
 
-| **Green, Magic, Ranged, Strike** |      **Main action** |
+| **Green, Magic, Ranged, [Strike](scc:mcdm.heroes.v1/rule.combat/strike)** |      **Main action** |
 |----------------------------------|---------------------:|
 | **📏 Ranged 10**                 |  **🎯 One creature** |
 
-**Power Roll + Reason:**
+**Power Roll + [Reason](scc:mcdm.heroes.v1/rule.character/reason):**
 
 - **≤11:** 4 + R poison damage
 - **12-16:** 7 + R poison damage

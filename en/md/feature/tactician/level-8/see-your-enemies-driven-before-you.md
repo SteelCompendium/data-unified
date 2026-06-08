@@ -8,4 +8,4 @@ type: feature
 
 You have trained your squad to maximize impact and break enemy lines when they attack.
 
-**Mark Benefit:** When you or any ally makes a melee strike against a creature marked by you, you can spend 2 focus to have the character making the strike push the target up to a number of squares equal to your Reason score. That character can then [shift](scc:mcdm.heroes.v1/movement/shifting) up to a number of squares equal to your Reason score, ending this [shift](scc:mcdm.heroes.v1/movement/shifting) adjacent to the target.
+**Mark Benefit:** When you or any ally makes a melee [strike](scc:mcdm.heroes.v1/rule.combat/strike) against a creature marked by you, you can spend 2 focus to have the character making the [strike](scc:mcdm.heroes.v1/rule.combat/strike) push the target up to a number of squares equal to your [Reason](scc:mcdm.heroes.v1/rule.character/reason) score. That character can then [shift](scc:mcdm.heroes.v1/movement/shifting) up to a number of squares equal to your [Reason](scc:mcdm.heroes.v1/rule.character/reason) score, ending this [shift](scc:mcdm.heroes.v1/movement/shifting) adjacent to the target.

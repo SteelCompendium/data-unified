@@ -7,27 +7,23 @@ flavor: A bargain.
 keywords:
     - Melee
     - Ranged
-    - Strike
+    - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
     - Weapon
 level: "1"
 name: Two Throats at Once
-power_roll_characteristic: Agility
 scc: mcdm.heroes.v1/feature.ability.shadow.level-1/two-throats-at-once
 target: Two creatures or objects
-tier1: 4 damage
-tier2: 6 damage
-tier3: 10 damage
 type: ability
 ---
 
 
 *A bargain.*
 
-| **Melee, Ranged, Strike, Weapon** |                 **Main action** |
+| **Melee, Ranged, [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** |                 **Main action** |
 |-----------------------------------|--------------------------------:|
 | **📏 Melee 1 or ranged 5**        | **🎯 Two creatures or objects** |
 
-**Power Roll + Agility:**
+**Power Roll + [Agility](scc:mcdm.heroes.v1/rule.character/agility):**
 
 - **≤11:** 4 damage
 - **12-16:** 6 damage

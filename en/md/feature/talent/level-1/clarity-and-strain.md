@@ -14,7 +14,7 @@ At the start of a combat encounter or some other stressful situation tracked in 
 
 Additionally, the first time each combat round that a creature is [force moved](scc:mcdm.heroes.v1/movement/forced-movement), you gain 1 clarity.
 
-You can spend clarity you don't have, pushing that [Heroic Resource](scc:mcdm.heroes.v1/rule.resource/heroic-resource) into negative numbers to a maximum negative value equal to 1 + your Reason score. At the end of each of your turns, you take 1 damage for each negative point of clarity.
+You can spend clarity you don't have, pushing that [Heroic Resource](scc:mcdm.heroes.v1/rule.resource/heroic-resource) into negative numbers to a maximum negative value equal to 1 + your [Reason](scc:mcdm.heroes.v1/rule.character/reason) score. At the end of each of your turns, you take 1 damage for each negative point of clarity.
 
 Whenever you have clarity below 0, you are strained. Some psionic abilities have additional effects if you are already strained or become strained when you use them. Strained effects can still impact you even after you are no longer strained.
 

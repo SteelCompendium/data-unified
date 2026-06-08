@@ -11,12 +11,8 @@ keywords:
     - Weapon
 level: "5"
 name: Action Hero
-power_roll_characteristic: Agility
 scc: mcdm.heroes.v1/feature.ability.troubadour.level-5/action-hero
 target: Each enemy in the area
-tier1: 10 damage
-tier2: 14 damage
-tier3: 20 damage
 type: ability
 ---
 
@@ -27,7 +23,7 @@ type: ability
 |-------------------------|------------------------------:|
 | **📏 3 burst**          | **🎯 Each enemy in the area** |
 
-**Power Roll + Agility:**
+**Power Roll + [Agility](scc:mcdm.heroes.v1/rule.character/agility):**
 
 - **≤11:** 10 damage
 - **12-16:** 14 damage

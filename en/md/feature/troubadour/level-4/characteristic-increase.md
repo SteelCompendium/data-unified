@@ -6,4 +6,4 @@ scc: mcdm.heroes.v1/feature.troubadour.level-4/characteristic-increase
 type: feature
 ---
 
-Your Agility and Presence scores each increase to 3.
+Your [Agility](scc:mcdm.heroes.v1/rule.character/agility) and [Presence](scc:mcdm.heroes.v1/rule.character/presence) scores each increase to 3.

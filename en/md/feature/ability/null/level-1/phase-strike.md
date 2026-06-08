@@ -8,27 +8,23 @@ flavor: For a moment, your foe slips out of phase with this manifold.
 keywords:
     - Melee
     - Psionic
-    - Strike
+    - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
     - Weapon
 level: "1"
 name: Phase Strike
-power_roll_characteristic: Agility
 scc: mcdm.heroes.v1/feature.ability.null.level-1/phase-strike
 target: One creature
-tier1: 3 + A psychic damage; I < WEAK, the target goes out of phase (save ends)
-tier2: 4 + A psychic damage; I < AVERAGE, the target goes out of phase (save ends)
-tier3: 6 + A psychic damage; I < STRONG, the target goes out of phase (save ends)
 type: ability
 ---
 
 
 *For a moment, your foe slips out of phase with this manifold.*
 
-| **Melee, Psionic, Strike, Weapon** |                           **Main action** |
+| **Melee, Psionic, [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** |                           **Main action** |
 |------------------------------------|------------------------------------------:|
 | **📏 Melee 1**                     |                       **🎯 One creature** |
 
-**Power Roll + Agility:**
+**Power Roll + [Agility](scc:mcdm.heroes.v1/rule.character/agility):**
 
 - **≤11:** 3 + A psychic damage; I < WEAK, the target goes out of phase (save ends)
 - **12-16:** 4 + A psychic damage; I < AVERAGE, the target goes out of phase (save ends)

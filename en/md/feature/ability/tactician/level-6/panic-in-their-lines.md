@@ -8,27 +8,23 @@ flavor: You confuse your foes, causing them to turn on each other.
 keywords:
     - Melee
     - Ranged
-    - Strike
+    - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
     - Weapon
 level: "6"
 name: Panic in Their Lines
-power_roll_characteristic: Might
 scc: mcdm.heroes.v1/feature.ability.tactician.level-6/panic-in-their-lines
 target: Two creatures
-tier1: 6 + M damage; slide 1
-tier2: 9 + M damage; slide 3
-tier3: 13 + M damage; slide 5
 type: ability
 ---
 
 
 *You confuse your foes, causing them to turn on each other.*
 
-| **Melee, Ranged, Strike, Weapon** |      **Main action** |
+| **Melee, Ranged, [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** |      **Main action** |
 |-----------------------------------|---------------------:|
 | **📏 Melee 1 or ranged 5**        | **🎯 Two creatures** |
 
-**Power Roll + Might:**
+**Power Roll + [Might](scc:mcdm.heroes.v1/rule.character/might):**
 
 - **≤11:** 6 + M damage; slide 1
 - **12-16:** 9 + M damage; slide 3

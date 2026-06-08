@@ -6,4 +6,4 @@ scc: mcdm.heroes.v1/feature.censor.level-4/saints-epiphany
 type: feature
 ---
 
-At the start of a respite, you can inspire yourself or another creature taking the same respite with divine knowledge. If the target makes a project roll during this respite, they can add 1d10 plus your Presence score to the roll.
+At the start of a respite, you can inspire yourself or another creature taking the same respite with divine knowledge. If the target makes a project roll during this respite, they can add 1d10 plus your [Presence](scc:mcdm.heroes.v1/rule.character/presence) score to the roll.

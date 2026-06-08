@@ -1,6 +1,6 @@
 ---
 echelon: "2"
-effect: When you drink this potion as a maneuver, you sprout 3-foot sharpened horns from your forehead. Whenever you use the [Charge](scc:mcdm.heroes.v1/feature.common.main-actions/charge) main action, the target of your strike is gored upon your horns and [grabbed](scc:mcdm.heroes.v1/condition/grabbed). While [grabbed](scc:mcdm.heroes.v1/condition/grabbed) this way, the creature is [bleeding](scc:mcdm.heroes.v1/condition/bleeding). You can also grab another creature with your limbs. The horns harmlessly fall off your head at the end of the encounter.
+effect: When you drink this potion as a maneuver, you sprout 3-foot sharpened horns from your forehead. Whenever you use the [Charge](scc:mcdm.heroes.v1/feature.common.main-actions/charge) main action, the target of your [strike](scc:mcdm.heroes.v1/rule.combat/strike) is gored upon your horns and [grabbed](scc:mcdm.heroes.v1/condition/grabbed). While [grabbed](scc:mcdm.heroes.v1/condition/grabbed) this way, the creature is [bleeding](scc:mcdm.heroes.v1/condition/bleeding). You can also grab another creature with your limbs. The horns harmlessly fall off your head at the end of the encounter.
 keywords:
     - Magic
     - Potion
@@ -18,8 +18,8 @@ type: treasure
 
 **Project Source:** Texts or lore in Caelian
 
-**Project Roll Characteristic:** Reason or Intuition
+**Project Roll [Characteristic](scc:mcdm.heroes.v1/rule.character/characteristic):** [Reason](scc:mcdm.heroes.v1/rule.character/reason) or [Intuition](scc:mcdm.heroes.v1/rule.character/intuition)
 
 **Project Goal:** 90
 
-**Effect:** When you drink this potion as a maneuver, you sprout 3-foot sharpened horns from your forehead. Whenever you use the [Charge](scc:mcdm.heroes.v1/feature.common.main-actions/charge) main action, the target of your strike is gored upon your horns and [grabbed](scc:mcdm.heroes.v1/condition/grabbed). While [grabbed](scc:mcdm.heroes.v1/condition/grabbed) this way, the creature is [bleeding](scc:mcdm.heroes.v1/condition/bleeding). You can also grab another creature with your limbs. The horns harmlessly fall off your head at the end of the encounter.
+**Effect:** When you drink this potion as a maneuver, you sprout 3-foot sharpened horns from your forehead. Whenever you use the [Charge](scc:mcdm.heroes.v1/feature.common.main-actions/charge) main action, the target of your [strike](scc:mcdm.heroes.v1/rule.combat/strike) is gored upon your horns and [grabbed](scc:mcdm.heroes.v1/condition/grabbed). While [grabbed](scc:mcdm.heroes.v1/condition/grabbed) this way, the creature is [bleeding](scc:mcdm.heroes.v1/condition/bleeding). You can also grab another creature with your limbs. The horns harmlessly fall off your head at the end of the encounter.

@@ -3,7 +3,6 @@ disengage_bonus: "+1"
 equipment_text: You wear light armor and wield a bow.
 name: Rapid-Fire
 ranged_damage_bonus: +2/+2/+2
-ranged_distance_bonus: "+7"
 scc: mcdm.heroes.v1/kit/rapid-fire
 speed_bonus: "+1"
 type: kit
@@ -23,7 +22,7 @@ You wear light armor and wield a bow.
 
 **Ranged Damage Bonus:** +2/+2/+2
 
-**Ranged Distance Bonus:** +7
+**Ranged [Distance](scc:mcdm.heroes.v1/rule.combat/distance) Bonus:** +7
 
 **Disengage Bonus:** +1
 
@@ -33,11 +32,11 @@ You wear light armor and wield a bow.
 
 *When you fire two arrows back-to-back, both hit their mark.*
 
-| **Ranged, Strike, Weapon** |                 **Main action** |
+| **Ranged, [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** |                 **Main action** |
 |----------------------------|--------------------------------:|
 | **📏 Ranged 12**           | **🎯 Two creatures or objects** |
 
-**Power Roll + Might or Agility:**
+**Power Roll + [Might](scc:mcdm.heroes.v1/rule.character/might) or [Agility](scc:mcdm.heroes.v1/rule.character/agility):**
 
 - **≤11:** 4 damage
 - **12-16:** 6 damage

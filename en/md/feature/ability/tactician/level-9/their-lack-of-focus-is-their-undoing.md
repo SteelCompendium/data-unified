@@ -11,12 +11,8 @@ keywords:
     - Weapon
 level: "9"
 name: Their Lack of Focus Is Their Undoing
-power_roll_characteristic: Might
 scc: mcdm.heroes.v1/feature.ability.tactician.level-9/their-lack-of-focus-is-their-undoing
 target: Three enemies
-tier1: R < WEAK, [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)
-tier2: R < AVERAGE, [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)
-tier3: R < STRONG, [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)
 type: ability
 ---
 
@@ -29,7 +25,7 @@ type: ability
 
 **Effect:** Each target uses a signature ability against one or more targets of your choosing, with each ability automatically obtaining a tier 3 outcome on the power roll. After resolving the targets' abilities, you make a power roll against each original target.
 
-**Power Roll + Might:**
+**Power Roll + [Might](scc:mcdm.heroes.v1/rule.character/might):**
 
 - **≤11:** R < WEAK, [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)
 - **12-16:** R < AVERAGE, [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)

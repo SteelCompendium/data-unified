@@ -4,13 +4,12 @@ equipment_text: You wear light armor and wield a shield and a light weapon.
 melee_damage_bonus: +1/+1/+1
 name: Raider
 ranged_damage_bonus: +1/+1/+1
-ranged_distance_bonus: "+5"
 scc: mcdm.heroes.v1/kit/raider
 speed_bonus: "+1"
 type: kit
 ---
 
-The [Raider](scc:mcdm.heroes.v1/kit/raider) kit keeps you protected while granting you full mobility, providing a boost to speed and distance that lets you run around the battlefield like a Viking warrior.
+The [Raider](scc:mcdm.heroes.v1/kit/raider) kit keeps you protected while granting you full mobility, providing a boost to speed and [distance](scc:mcdm.heroes.v1/rule.combat/distance) that lets you run around the battlefield like a Viking warrior.
 
 ##### Equipment
 
@@ -26,7 +25,7 @@ You wear light armor and wield a shield and a light weapon.
 
 **Ranged Damage Bonus:** +1/+1/+1
 
-**Ranged Distance Bonus:** +5
+**Ranged [Distance](scc:mcdm.heroes.v1/rule.combat/distance) Bonus:** +5
 
 **Disengage Bonus:** +1
 
@@ -36,14 +35,14 @@ You wear light armor and wield a shield and a light weapon.
 
 *You execute a brutal strike that leaves your foe reeling. (Previously known as "[Shock and Awe](scc:mcdm.heroes.v1/feature.tactician.level-7/shock-and-awe)")*
 
-| **Melee, Ranged, Strike, Weapon** |     **Main action** |
+| **Melee, Ranged, [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** |     **Main action** |
 |-----------------------------------|--------------------:|
 | **📏 Melee 1 or ranged 10**       | **🎯 One creature** |
 
-**Power Roll + Might or Agility:**
+**Power Roll + [Might](scc:mcdm.heroes.v1/rule.character/might) or [Agility](scc:mcdm.heroes.v1/rule.character/agility):**
 
 - **≤11:** 3 + M or A damage
 - **12-16:** 6 + M or A damage
 - **17+:** 8 + M or A damage
 
-**Effect:** The target takes a bane on their next power roll made before the end of their next turn.
+**Effect:** The target takes a [bane](scc:mcdm.heroes.v1/rule.dice/bane) on their next power roll made before the end of their next turn.

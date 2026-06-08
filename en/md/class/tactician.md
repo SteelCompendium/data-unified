@@ -1,12 +1,12 @@
 ---
-average_potency: Reason − 1
+average_potency: '[Reason](scc:mcdm.heroes.v1/rule.character/reason) − 1'
 name: Tactician
 scc: mcdm.heroes.v1/class/tactician
 skills:
     - 'You gain the [Lead](scc:mcdm.heroes.v1/skill/lead) skill (see Skills in Chapter 9: [Tests](scc:mcdm.heroes.v1/chapter/tests)). Then choose any two skills from Alertness, Architecture, Blacksmithing, Brag, Culture, Empathize, Fletching, Mechanics, Monsters, Search, Strategy, or the skills of the exploration skill group. (*Quick Build:* Lead, Monsters, Strategy.)'
-strong_potency: Reason
+strong_potency: '[Reason](scc:mcdm.heroes.v1/rule.character/reason)'
 type: class
-weak_potency: Reason − 2
+weak_potency: '[Reason](scc:mcdm.heroes.v1/rule.character/reason) − 2'
 ---
 
 Strategist. Defender. Leader. With weapon in hand, you lead allies into the maw of battle, barking out commands that inspire your fellow heroes to move faster and strike more precisely. All the while, you stand between your compatriots and death, taunting the followers of evil to best you if they can.
@@ -19,17 +19,17 @@ Strategist. Defender. Leader. With weapon in hand, you lead allies into the maw 
 
 ### Basics
 
-**Starting Characteristics:** You start with a Might of 2 and a Reason of 2, and you can choose one of the following arrays for your other characteristic scores:
+**Starting [Characteristics](scc:mcdm.heroes.v1/rule.character/characteristic):** You start with a [Might](scc:mcdm.heroes.v1/rule.character/might) of 2 and a [Reason](scc:mcdm.heroes.v1/rule.character/reason) of 2, and you can choose one of the following arrays for your other [characteristic](scc:mcdm.heroes.v1/rule.character/characteristic) scores:
 
 - 2, −1, −1
 - 1, 1, −1
 - 1, 0, 0
 
-**Weak Potency:** Reason − 2
+**Weak Potency:** [Reason](scc:mcdm.heroes.v1/rule.character/reason) − 2
 
-**Average Potency:** Reason − 1
+**Average Potency:** [Reason](scc:mcdm.heroes.v1/rule.character/reason) − 1
 
-**Strong Potency:** Reason
+**Strong Potency:** [Reason](scc:mcdm.heroes.v1/rule.character/reason)
 
 **Starting [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) at 1st Level:** 21
 

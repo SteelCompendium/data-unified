@@ -8,29 +8,25 @@ flavor: Nothing will stop you from reaching your foe.
 keywords:
     - Charge
     - Melee
-    - Strike
+    - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
     - Weapon
 level: "9"
 name: No Escape
-power_roll_characteristic: Might
 scc: mcdm.heroes.v1/feature.ability.tactician.level-9/no-escape
 target: One creature
-tier1: 11 + M damage
-tier2: 16 + M damage
-tier3: 21 + M damage
 type: ability
 ---
 
 
 *Nothing will stop you from reaching your foe.*
 
-| **Charge, Melee, Strike, Weapon** |     **Main action** |
+| **Charge, Melee, [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** |     **Main action** |
 | --------------------------------- | ------------------: |
 | **📏 Melee 1**                    | **🎯 One creature** |
 
 **Effect:** You mark the target.
 
-**Power Roll + Might:**
+**Power Roll + [Might](scc:mcdm.heroes.v1/rule.character/might):**
 
 - **≤11:** 11 + M damage
 - **12-16:** 16 + M damage

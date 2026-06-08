@@ -163,7 +163,7 @@ Most heroes are hero-heroes, but some heroes are anti-heroes, and some are anti-
 
 Nikros is strength. He is dominance. His is the right of the strong to rule over the weak. He is the Tyrant.
 
-Nikros believes that strength is the only virtue, and those who are born strong were born to rule. Because of this, followers of Nikros are often mistaken for followers of [Adûn](scc:mcdm.heroes.v1/god/adun)—a mask they are happy to wear. Both teach that strength is good. But for [Adûn](scc:mcdm.heroes.v1/god/adun) strength is a tool for helping others. For Nikros, strength is power to enact your will heedless of the consequences. Might is right.
+Nikros believes that strength is the only virtue, and those who are born strong were born to rule. Because of this, followers of Nikros are often mistaken for followers of [Adûn](scc:mcdm.heroes.v1/god/adun)—a mask they are happy to wear. Both teach that strength is good. But for [Adûn](scc:mcdm.heroes.v1/god/adun) strength is a tool for helping others. For Nikros, strength is power to enact your will heedless of the consequences. [Might](scc:mcdm.heroes.v1/rule.character/might) is right.
 
 Many is the baron or duke who attained power through sheer strength and ruthlessness, seeing their people as mere resources to be spent. Many of these rulers only come to Nikros after achieving power, their ears poisoned by a priest of the Tyrant.
 
@@ -223,7 +223,7 @@ Eseld teaches that spite is a virtue. Only fools follow rules, and sorcery is a 
 
 ### Space Gods of the Timescape
 
-The nature and origin of the gods of the timescape is not well understood. Unlike the gods of Orden, the Space Gods are corporeal beings, usually of immense—even planetary—size. Some are humanoid, others, like [Nebular](scc:mcdm.heroes.v1/god/nebular) the Star Mother and XXAXX, decidedly not so.
+The nature and origin of the gods of the timescape is not well understood. Unlike the gods of Orden, the Space Gods are corporeal beings, usually of immense—even planetary—[size](scc:mcdm.heroes.v1/rule.character/size). Some are humanoid, others, like [Nebular](scc:mcdm.heroes.v1/god/nebular) the Star Mother and XXAXX, decidedly not so.
 
 They have godlike power—greater it seems than the Innumerable Younger Gods. But there is no evidence that they can create whole realities like the Elder Gods. They are not, as far as sages can make out, the authors of the worlds or people of the timescape. They may represent the last survivors of previous realities, High Science experiments run amok, or ascended beings from ancient civilizations who outlasted the fall of their people.
 

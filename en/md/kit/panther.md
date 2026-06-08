@@ -30,14 +30,14 @@ You wear no armor and wield a heavy weapon.
 
 *The faster you move, the harder you hit.*
 
-| **Melee, Strike, Weapon** |               **Main action** |
+| **Melee, [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** |               **Main action** |
 |---------------------------|------------------------------:|
 | **📏 Melee 1**            | **🎯 One creature or object** |
 
-**Power Roll + Might or Agility:**
+**Power Roll + [Might](scc:mcdm.heroes.v1/rule.character/might) or [Agility](scc:mcdm.heroes.v1/rule.character/agility):**
 
 - **≤11:** 3 + M or A damage
 - **12-16:** 6 + M or A damage
 - **17+:** 13 + M or A damage
 
-**Effect:** You can move up to 3 squares straight toward the target before this strike, which deals extra damage equal to the number of squares you move this way.
+**Effect:** You can move up to 3 squares straight toward the target before this [strike](scc:mcdm.heroes.v1/rule.combat/strike), which deals extra damage equal to the number of squares you move this way.

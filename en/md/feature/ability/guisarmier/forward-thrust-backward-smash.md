@@ -4,7 +4,7 @@ distance: Melee 2
 flavor: In your hands, the haft is as good as the head.
 keywords:
     - Melee
-    - Strike
+    - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
     - Weapon
 kit: guisarmier
 name: Forward Thrust, Backward Smash
@@ -16,11 +16,11 @@ type: ability
 
 *In your hands, the haft is as good as the head.*
 
-| **Melee, Strike, Weapon** |                 **Main action** |
+| **Melee, [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** |                 **Main action** |
 |---------------------------|--------------------------------:|
 | **📏 Melee 2**            | **🎯 Two creatures or objects** |
 
-**Power Roll + Might or Agility:**
+**Power Roll + [Might](scc:mcdm.heroes.v1/rule.character/might) or [Agility](scc:mcdm.heroes.v1/rule.character/agility):**
 
 - **≤11:** 4 damage
 - **12-16:** 7 damage

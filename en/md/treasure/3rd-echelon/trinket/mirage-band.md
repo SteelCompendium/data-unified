@@ -18,7 +18,7 @@ type: treasure
 
 **Project Source:** Texts or lore in Higaran
 
-**Project Roll Characteristic:** Reason or Intuition
+**Project Roll [Characteristic](scc:mcdm.heroes.v1/rule.character/characteristic):** [Reason](scc:mcdm.heroes.v1/rule.character/reason) or [Intuition](scc:mcdm.heroes.v1/rule.character/intuition)
 
 **Project Goal:** 450
 
@@ -35,4 +35,4 @@ Additionally, you have the following ability.
 > |---------------------|-------------------------:|
 > | **📏 Ranged 10**    | **🎯 Self and any ally** |
 >
-> **Effect:** Each target is covered by an illusion causing them to appear exactly as any creature (humanoid, animal, undead, and so forth) an observer most expects to see. The illusion ends for all targets if any creature under its effect harms or physically interacts with any creature not affected by the illusion, if you use this ability again, or if you choose to end the effect (no action required). The illusion also ends for any affected ally who moves more than the distance of this ability away from you.
+> **Effect:** Each target is covered by an illusion causing them to appear exactly as any creature (humanoid, animal, undead, and so forth) an observer most expects to see. The illusion ends for all targets if any creature under its effect harms or physically interacts with any creature not affected by the illusion, if you use this ability again, or if you choose to end the effect (no action required). The illusion also ends for any affected ally who moves more than the [distance](scc:mcdm.heroes.v1/rule.combat/distance) of this ability away from you.

@@ -1,6 +1,6 @@
 ---
 benefit: 'You have a leveled weapon of your choice (see Treasures in Chapter 13: [Rewards](scc:mcdm.heroes.v1/chapter/rewards)).'
-drawback: You have damage weakness 2.
+drawback: You have [damage weakness](scc:mcdm.heroes.v1/rule.damage/damage-weakness) 2.
 name: Cursed Weapon
 scc: mcdm.heroes.v1/complication/cursed-weapon
 type: complication
@@ -10,4 +10,4 @@ When you were young, you found or were given a magic weapon. Since then, you've 
 
 **Benefit:** You have a leveled weapon of your choice (see Treasures in Chapter 13: [Rewards](scc:mcdm.heroes.v1/chapter/rewards)).
 
-**Drawback:** You have damage weakness 2.
+**Drawback:** You have [damage weakness](scc:mcdm.heroes.v1/rule.damage/damage-weakness) 2.

@@ -16,7 +16,7 @@ type: treasure
 
 **Project Source:** Texts or lore in Caelian
 
-**Project Roll Characteristic:** Might, Reason, or Intuition
+**Project Roll [Characteristic](scc:mcdm.heroes.v1/rule.character/characteristic):** [Might](scc:mcdm.heroes.v1/rule.character/might), [Reason](scc:mcdm.heroes.v1/rule.character/reason), or [Intuition](scc:mcdm.heroes.v1/rule.character/intuition)
 
 **Project Goal:** 450
 
@@ -24,4 +24,4 @@ type: treasure
 
 **5th Level:** The weapon's extra psychic damage increases to 2, or to 4 if the target is [winded](scc:mcdm.heroes.v1/rule.health/winded). Additionally, whenever you cause an enemy to become [winded](scc:mcdm.heroes.v1/rule.health/winded) with an ability using the weapon, you gain 2 [surges](scc:mcdm.heroes.v1/rule.resource/surge) that you can immediately spend.
 
-**9th Level:** The weapon's extra psychic damage increases to 3, or to 6 if the target is [winded](scc:mcdm.heroes.v1/rule.health/winded). Additionally, you gain an edge on any ability using the weapon against a [winded](scc:mcdm.heroes.v1/rule.health/winded) target.
+**9th Level:** The weapon's extra psychic damage increases to 3, or to 6 if the target is [winded](scc:mcdm.heroes.v1/rule.health/winded). Additionally, you gain an [edge](scc:mcdm.heroes.v1/rule.dice/edge) on any ability using the weapon against a [winded](scc:mcdm.heroes.v1/rule.health/winded) target.

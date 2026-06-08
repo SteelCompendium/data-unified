@@ -3,7 +3,7 @@ action_type: Maneuver
 class: censor
 cost: 9 Wrath
 distance: 3 aura
-effect: Until the end of the encounter or until you are [dying](scc:mcdm.heroes.v1/rule.health/dying), whenever any target takes a triggered action or a free triggered action, that action is negated and the target takes holy damage equal to your Presence score.
+effect: Until the end of the encounter or until you are [dying](scc:mcdm.heroes.v1/rule.health/dying), whenever any target takes a triggered action or a free triggered action, that action is negated and the target takes holy damage equal to your [Presence](scc:mcdm.heroes.v1/rule.character/presence) score.
 flavor: You anticipate your foes' moves and deny them.
 keywords:
     - Area
@@ -22,4 +22,4 @@ type: ability
 |-----------------|------------------------------:|
 | **📏 3 aura**   | **🎯 Each enemy in the area** |
 
-**Effect:** Until the end of the encounter or until you are [dying](scc:mcdm.heroes.v1/rule.health/dying), whenever any target takes a triggered action or a free triggered action, that action is negated and the target takes holy damage equal to your Presence score.
+**Effect:** Until the end of the encounter or until you are [dying](scc:mcdm.heroes.v1/rule.health/dying), whenever any target takes a triggered action or a free triggered action, that action is negated and the target takes holy damage equal to your [Presence](scc:mcdm.heroes.v1/rule.character/presence) score.

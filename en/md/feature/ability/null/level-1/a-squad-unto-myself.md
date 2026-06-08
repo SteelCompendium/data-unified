@@ -11,12 +11,8 @@ keywords:
     - Weapon
 level: "1"
 name: A Squad Unto Myself
-power_roll_characteristic: Agility
 scc: mcdm.heroes.v1/feature.ability.null.level-1/a-squad-unto-myself
 target: Each enemy in the area
-tier1: 6 damage
-tier2: 9 damage
-tier3: 13 damage
 type: ability
 ---
 
@@ -27,7 +23,7 @@ type: ability
 |---------------------------|------------------------------:|
 | **📏 2 burst**            | **🎯 Each enemy in the area** |
 
-**Power Roll + Agility:**
+**Power Roll + [Agility](scc:mcdm.heroes.v1/rule.character/agility):**
 
 - **≤11:** 6 damage
 - **12-16:** 9 damage

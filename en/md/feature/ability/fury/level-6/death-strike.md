@@ -7,24 +7,24 @@ effect: You target a creature adjacent to you with the same strike, using the sa
 flavor: Once you taste your foe's blood, you become more efficient and turn every killing blow into an opportunity.
 keywords:
     - Melee
-    - Strike
+    - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
     - Weapon
 level: "6"
 name: Death Strike
 scc: mcdm.heroes.v1/feature.ability.fury.level-6/death-strike
 subtype: triggered
 target: Self
-trigger: You reduce a creature to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) with a strike.
+trigger: You reduce a creature to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) with a [strike](scc:mcdm.heroes.v1/rule.combat/strike).
 type: ability
 ---
 
 
 *Once you taste your foe's blood, you become more efficient and turn every killing blow into an opportunity.*
 
-| **Melee, Strike, Weapon** | **Free triggered** |
+| **Melee, [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** | **Free triggered** |
 |---------------------------|-------------------:|
 | **📏 Melee 1**            |        **🎯 Self** |
 
-**Trigger:** You reduce a creature to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) with a strike.
+**Trigger:** You reduce a creature to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) with a [strike](scc:mcdm.heroes.v1/rule.combat/strike).
 
 **Effect:** You target a creature adjacent to you with the same strike, using the same power roll as the triggering strike.

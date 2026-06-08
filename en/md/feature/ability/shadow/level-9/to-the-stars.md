@@ -8,26 +8,22 @@ flavor: You attach your most potent explosive to your foe. Under less pressing c
 keywords:
     - Melee
     - Ranged
-    - Strike
+    - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
 level: "9"
 name: To the Stars
-power_roll_characteristic: Agility
 scc: mcdm.heroes.v1/feature.ability.shadow.level-9/to-the-stars
 target: One creature or object
-tier1: 4 + A fire damage; vertical push 8
-tier2: 7 + A fire damage; vertical push 10
-tier3: 11 + A fire damage; vertical push 15
 type: ability
 ---
 
 
 *You attach your most potent explosive to your foe. Under less pressing circumstances, you're sure you could launch them into orbit.*
 
-| **Melee, Ranged, Strike**   |               **Main action** |
+| **Melee, Ranged, [Strike](scc:mcdm.heroes.v1/rule.combat/strike)**   |               **Main action** |
 |-----------------------------|------------------------------:|
 | **📏 Melee 1 or ranged 10** | **🎯 One creature or object** |
 
-**Power Roll + Agility:**
+**Power Roll + [Agility](scc:mcdm.heroes.v1/rule.character/agility):**
 
 - **≤11:** 4 + A fire damage; vertical push 8
 - **12-16:** 7 + A fire damage; vertical push 10

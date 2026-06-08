@@ -12,12 +12,8 @@ keywords:
     - Weapon
 level: "9"
 name: Death Comes for You All!
-power_roll_characteristic: Might
 scc: mcdm.heroes.v1/feature.ability.fury.level-9/death-comes-for-you-all
 target: Each enemy in the area
-tier1: 7 damage; push 3
-tier2: 10 damage; push 5
-tier3: 15 damage; push 7
 type: ability
 ---
 
@@ -28,7 +24,7 @@ type: ability
 |--------------------------------|------------------------------:|
 | **📏 3 burst**                 | **🎯 Each enemy in the area** |
 
-**Power Roll + Might:**
+**Power Roll + [Might](scc:mcdm.heroes.v1/rule.character/might):**
 
 - **≤11:** 7 damage; push 3
 - **12-16:** 10 damage; push 5

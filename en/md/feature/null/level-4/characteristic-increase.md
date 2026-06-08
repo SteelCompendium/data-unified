@@ -6,4 +6,4 @@ scc: mcdm.heroes.v1/feature.null.level-4/characteristic-increase
 type: feature
 ---
 
-Your Agility and Intuition scores each increase to 3.
+Your [Agility](scc:mcdm.heroes.v1/rule.character/agility) and [Intuition](scc:mcdm.heroes.v1/rule.character/intuition) scores each increase to 3.

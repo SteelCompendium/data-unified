@@ -1,6 +1,6 @@
 ---
 echelon: "2"
-effect: 'As a maneuver, you snap this wand in half, letting you vertically pull one object or creature of size 3 or less a number of squares based on that target''s size:'
+effect: 'As a maneuver, you snap this wand in half, letting you vertically pull one object or creature of [size](scc:mcdm.heroes.v1/rule.character/size) 3 or less a number of squares based on that target''s [size](scc:mcdm.heroes.v1/rule.character/size):'
 keywords:
     - Psionic
 name: Telemagnet
@@ -17,14 +17,14 @@ type: treasure
 
 **Project Source:** Texts or lore in Zaliac
 
-**Project Roll Characteristic:** Reason or Intuition
+**Project Roll [Characteristic](scc:mcdm.heroes.v1/rule.character/characteristic):** [Reason](scc:mcdm.heroes.v1/rule.character/reason) or [Intuition](scc:mcdm.heroes.v1/rule.character/intuition)
 
 **Project Goal:** 90
 
-**Effect:** As a maneuver, you snap this wand in half, letting you vertically pull one object or creature of size 3 or less a number of squares based on that target's size:
+**Effect:** As a maneuver, you snap this wand in half, letting you vertically pull one object or creature of [size](scc:mcdm.heroes.v1/rule.character/size) 3 or less a number of squares based on that target's [size](scc:mcdm.heroes.v1/rule.character/size):
 
-- **Size 1L or smaller:** vertical pull 6
-- **Size 2:** vertical pull 3
-- **Size 3:** vertical pull 1
+- **[Size](scc:mcdm.heroes.v1/rule.character/size) 1L or smaller:** vertical pull 6
+- **[Size](scc:mcdm.heroes.v1/rule.character/size) 2:** vertical pull 3
+- **[Size](scc:mcdm.heroes.v1/rule.character/size) 3:** vertical pull 1
 
-If you pull a size 1T object adjacent to you, you can catch it. This treasure can affect any target within line of effect.
+If you pull a [size](scc:mcdm.heroes.v1/rule.character/size) 1T object adjacent to you, you can catch it. This treasure can affect any target within line of effect.

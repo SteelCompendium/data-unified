@@ -8,12 +8,8 @@ keywords:
     - Magic
 level: "1"
 name: Power Chord
-power_roll_characteristic: Presence
 scc: mcdm.heroes.v1/feature.ability.troubadour.level-1/power-chord
 target: Each enemy in the area
-tier1: Push 1
-tier2: Push 2
-tier3: Push 3
 type: ability
 ---
 
@@ -24,7 +20,7 @@ type: ability
 |-----------------|------------------------------:|
 | **📏 2 burst**  | **🎯 Each enemy in the area** |
 
-**Power Roll + Presence:**
+**Power Roll + [Presence](scc:mcdm.heroes.v1/rule.character/presence):**
 
 - **≤11:** Push 1
 - **12-16:** Push 2

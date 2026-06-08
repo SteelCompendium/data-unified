@@ -6,4 +6,4 @@ scc: mcdm.heroes.v1/feature.troubadour.level-10/greatest-of-all-time
 type: feature
 ---
 
-Whenever you obtain a success on a test, each NPC within your line of effect has their Impression score decreased by 4 during a negotiation (to a minimum of 1), and each ally within 3 squares of you gains an edge on their next test. These effects last until you start your next respite.
+Whenever you obtain a success on a test, each NPC within your line of effect has their Impression score decreased by 4 during a negotiation (to a minimum of 1), and each ally within 3 squares of you gains an [edge](scc:mcdm.heroes.v1/rule.dice/edge) on their next test. These effects last until you start your next respite.

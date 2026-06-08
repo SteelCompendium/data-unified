@@ -14,7 +14,7 @@ At the start of a combat encounter or some other stressful situation tracked in 
 
 Additionally, the first time each combat round that you deal damage incorporating 1 or more [surges](scc:mcdm.heroes.v1/rule.resource/surge), you gain 1 insight.
 
-Whenever you use a heroic ability that makes use of a power roll, that ability costs 1 fewer insight if you have an edge or double edge on it. If the ability has multiple targets, the cost is reduced even if the ability gains an edge or has a double edge against only one target.
+Whenever you use a heroic ability that makes use of a power roll, that ability costs 1 fewer insight if you have an [edge](scc:mcdm.heroes.v1/rule.dice/edge) or double [edge](scc:mcdm.heroes.v1/rule.dice/edge) on it. If the ability has multiple targets, the cost is reduced even if the ability gains an [edge](scc:mcdm.heroes.v1/rule.dice/edge) or has a double [edge](scc:mcdm.heroes.v1/rule.dice/edge) against only one target.
 
 You lose any remaining insight at the end of the encounter.
 

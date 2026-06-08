@@ -12,19 +12,19 @@ type: title
 
 **Effect:** Choose one of the following benefits:
 
-- *Dirty Fighting:* While you are standing, your melee strikes gain a +3 damage bonus against [prone creature](scc:mcdm.heroes.v1/condition/prone)s. Additionally, being prone doesn't impose a bane on your strikes.
-- *Foes as Weapons:* Whenever you have a creature of your size or smaller [grabbed](scc:mcdm.heroes.v1/condition/grabbed), you can use them as a weapon when you make a melee weapon free strike. Both the target and the [grabbed](scc:mcdm.heroes.v1/condition/grabbed) enemy take the strike's damage.
+- *Dirty Fighting:* While you are standing, your melee [strikes](scc:mcdm.heroes.v1/rule.combat/strike) gain a +3 damage bonus against [prone creature](scc:mcdm.heroes.v1/condition/prone)s. Additionally, being prone doesn't impose a [bane](scc:mcdm.heroes.v1/rule.dice/bane) on your [strikes](scc:mcdm.heroes.v1/rule.combat/strike).
+- *Foes as Weapons:* Whenever you have a creature of your [size](scc:mcdm.heroes.v1/rule.character/size) or smaller [grabbed](scc:mcdm.heroes.v1/condition/grabbed), you can use them as a weapon when you make a melee weapon free strike. Both the target and the [grabbed](scc:mcdm.heroes.v1/condition/grabbed) enemy take the [strike](scc:mcdm.heroes.v1/rule.combat/strike)'s damage.
 - *Instant Celebrity:* You earn 1 Renown.
 - *Showstopper:* You have the following ability, which can be paid for using the [Heroic Resource](scc:mcdm.heroes.v1/rule.resource/heroic-resource) of your class.
 
 ##### Showstopper (5 Heroic Resource)
 
 >
-> | **Melee, Strike, Weapon** |     **Main action** |
+> | **Melee, [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** |     **Main action** |
 > |---------------------------|--------------------:|
 > | **📏 Melee 1**            | **🎯 One creature** |
 >
-> **Power Roll + Might or Agility:**
+> **Power Roll + [Might](scc:mcdm.heroes.v1/rule.character/might) or [Agility](scc:mcdm.heroes.v1/rule.character/agility):**
 >
 > - **≤11:** 6 damage; I < WEAK, [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
 > - **12-16:** 10 damage; I < AVERAGE, [frightened](scc:mcdm.heroes.v1/condition/frightened) (save ends)

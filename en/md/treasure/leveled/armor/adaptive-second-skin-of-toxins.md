@@ -16,11 +16,11 @@ type: treasure
 
 **Project Source:** Texts or lore in Yllyric
 
-**Project Roll Characteristic:** Agility or Intuition
+**Project Roll [Characteristic](scc:mcdm.heroes.v1/rule.character/characteristic):** [Agility](scc:mcdm.heroes.v1/rule.character/agility) or [Intuition](scc:mcdm.heroes.v1/rule.character/intuition)
 
 **Project Goal:** 450
 
-**1st Level:** While you wear this armor, you gain a +6 bonus to [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), and you have immunity to acid and poison damage equal to your highest characteristic score.
+**1st Level:** While you wear this armor, you gain a +6 bonus to [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), and you have immunity to acid and poison damage equal to your highest [characteristic](scc:mcdm.heroes.v1/rule.character/characteristic) score.
 
 **5th Level:** The armor's bonus to [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) increases to +12. Additionally, whenever an adjacent creature deals damage to you, they take 3 acid or poison damage (your choice).
 

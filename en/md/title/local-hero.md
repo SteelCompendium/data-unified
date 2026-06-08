@@ -12,7 +12,7 @@ type: title
 
 **Effect:** Choose one of the following benefits:
 
-- *Easy Marks:* You gain an edge on tests made using skills from the interpersonal and intrigue skill groups when influencing members of a community that you have saved.
+- *Easy Marks:* You gain an [edge](scc:mcdm.heroes.v1/rule.dice/edge) on tests made using skills from the interpersonal and intrigue skill groups when influencing members of a community that you have saved.
 - *Local Fame:* You earn 1 Renown.
 - *A New Dawn:* Each time you finish a respite while in a community you have saved, the party gains a [hero token](scc:mcdm.heroes.v1/rule.resource/hero-token). This [hero token](scc:mcdm.heroes.v1/rule.resource/hero-token) disappears at the end of your next respite if it hasn't been used.
 

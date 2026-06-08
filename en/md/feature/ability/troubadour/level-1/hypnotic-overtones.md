@@ -9,13 +9,9 @@ keywords:
     - Magic
 level: "1"
 name: Hypnotic Overtones
-power_roll_characteristic: Presence
 scc: mcdm.heroes.v1/feature.ability.troubadour.level-1/hypnotic-overtones
 spend: '2+ Drama: The size of the burst increases by 1 for every 2 drama spent.'
 target: Each enemy in the area
-tier1: Slide 1; I < WEAK, [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)
-tier2: Slide 1; I < AVERAGE, [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)
-tier3: Slide 2; I < STRONG, [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)
 type: ability
 ---
 
@@ -26,7 +22,7 @@ type: ability
 |-----------------|------------------------------:|
 | **📏 2 burst**  | **🎯 Each enemy in the area** |
 
-**Power Roll + Presence:**
+**Power Roll + [Presence](scc:mcdm.heroes.v1/rule.character/presence):**
 
 - **≤11:** Slide 1; I < WEAK, [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)
 - **12-16:** Slide 1; I < AVERAGE, [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)

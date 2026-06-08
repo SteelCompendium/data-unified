@@ -1,6 +1,6 @@
 ---
 echelon: "3"
-effect: While you wear them in combat, these bracers magically double the size of your hands and any melee weapons you wield, automatically compensating for the extra weight. You gain a +2 damage bonus for any weapon ability that deals rolled damage, and a +1 bonus to the distance you push any target with any weapon ability. This damage bonus adds to the damage bonus granted by other treasures.
+effect: While you wear them in combat, these bracers magically double the size of your hands and any melee weapons you wield, automatically compensating for the extra weight. You gain a +2 damage bonus for any weapon ability that deals rolled damage, and a +1 bonus to the [distance](scc:mcdm.heroes.v1/rule.combat/distance) you push any target with any weapon ability. This damage bonus adds to the damage bonus granted by other treasures.
 keywords:
     - Arms
     - Magic
@@ -18,8 +18,8 @@ type: treasure
 
 **Project Source:** Texts or lore in Yllyric
 
-**Project Roll Characteristic:** Reason or Intuition
+**Project Roll [Characteristic](scc:mcdm.heroes.v1/rule.character/characteristic):** [Reason](scc:mcdm.heroes.v1/rule.character/reason) or [Intuition](scc:mcdm.heroes.v1/rule.character/intuition)
 
 **Project Goal:** 450
 
-**Effect:** While you wear them in combat, these bracers magically double the size of your hands and any melee weapons you wield, automatically compensating for the extra weight. You gain a +2 damage bonus for any weapon ability that deals rolled damage, and a +1 bonus to the distance you push any target with any weapon ability. This damage bonus adds to the damage bonus granted by other treasures.
+**Effect:** While you wear them in combat, these bracers magically double the size of your hands and any melee weapons you wield, automatically compensating for the extra weight. You gain a +2 damage bonus for any weapon ability that deals rolled damage, and a +1 bonus to the [distance](scc:mcdm.heroes.v1/rule.combat/distance) you push any target with any weapon ability. This damage bonus adds to the damage bonus granted by other treasures.

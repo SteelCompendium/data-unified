@@ -12,7 +12,7 @@ name: So Gullible
 scc: mcdm.heroes.v1/feature.ability.shadow.level-2/so-gullible
 subtype: triggered
 target: Self
-trigger: Another creature targets you with a strike.
+trigger: Another creature targets you with a [strike](scc:mcdm.heroes.v1/rule.combat/strike).
 type: ability
 ---
 
@@ -23,6 +23,6 @@ type: ability
 |----------------------|-------------------:|
 | **📏 Self**          |        **🎯 Self** |
 
-**Trigger:** Another creature targets you with a strike.
+**Trigger:** Another creature targets you with a [strike](scc:mcdm.heroes.v1/rule.combat/strike).
 
 **Effect:** You use your [Clever Trick](scc:mcdm.heroes.v1/feature.ability.shadow.level-1/clever-trick) ability with no insight cost against the triggering creature and strike. You can [teleport](scc:mcdm.heroes.v1/movement/teleport) to an unoccupied space within 3 squares of that creature and can make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) against them. You can then spend a [Recovery](scc:mcdm.heroes.v1/rule.health/recoveries).

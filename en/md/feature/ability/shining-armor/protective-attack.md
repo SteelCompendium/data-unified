@@ -5,7 +5,7 @@ effect: The target is [taunted](scc:mcdm.heroes.v1/condition/taunted) until the 
 flavor: The strength of your assault makes it impossible for your foe to ignore you.
 keywords:
     - Melee
-    - Strike
+    - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
     - Weapon
 kit: shining-armor
 name: Protective Attack
@@ -17,11 +17,11 @@ type: ability
 
 *The strength of your assault makes it impossible for your foe to ignore you.*
 
-| **Melee, Strike, Weapon** |     **Main action** |
+| **Melee, [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** |     **Main action** |
 |---------------------------|--------------------:|
 | **📏 Melee 1**            | **🎯 One creature** |
 
-**Power Roll + Might or Agility:**
+**Power Roll + [Might](scc:mcdm.heroes.v1/rule.character/might) or [Agility](scc:mcdm.heroes.v1/rule.character/agility):**
 
 - **≤11:** 5 + M or A damage
 - **12-16:** 8 + M or A damage

@@ -21,11 +21,11 @@ type: title
 >
 > *Have at thee!*
 >
-> | **Melee, Strike, Weapon** |     **Main action** |
+> | **Melee, [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** |     **Main action** |
 > |---------------------------|--------------------:|
 > | **📏 Melee 1**            | **🎯 One creature** |
 >
-> **Power Roll + Might or Agility:**
+> **Power Roll + [Might](scc:mcdm.heroes.v1/rule.character/might) or [Agility](scc:mcdm.heroes.v1/rule.character/agility):**
 >
 > - **≤11:** 7 damage; [taunted](scc:mcdm.heroes.v1/condition/taunted) (save ends)
 > - **12-16:** 11 damage; [taunted](scc:mcdm.heroes.v1/condition/taunted) (save ends)

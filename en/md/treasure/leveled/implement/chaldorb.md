@@ -16,11 +16,11 @@ type: treasure
 
 **Project Source:** Texts or lore in Zaliac
 
-**Project Roll Characteristic:** Might, Reason, or Intuition
+**Project Roll [Characteristic](scc:mcdm.heroes.v1/rule.character/characteristic):** [Might](scc:mcdm.heroes.v1/rule.character/might), [Reason](scc:mcdm.heroes.v1/rule.character/reason), or [Intuition](scc:mcdm.heroes.v1/rule.character/intuition)
 
 **Project Goal:** 450
 
-**1st Level:** While you wield this implement, your magic or psionic abilities that deal rolled damage gain a +1 damage bonus. Additionally, if you make a magic strike, the strike must deal cold damage instead of its usual damage.
+**1st Level:** While you wield this implement, your magic or psionic abilities that deal rolled damage gain a +1 damage bonus. Additionally, if you make a magic [strike](scc:mcdm.heroes.v1/rule.combat/strike), the [strike](scc:mcdm.heroes.v1/rule.combat/strike) must deal cold damage instead of its usual damage.
 
 **5th Level:** The implement's damage bonus increases to +2. Additionally, whenever you use a magic or psionic ability, a whirlwind of sleet and ice whips around you, dealing 3 cold damage to each adjacent enemy.
 

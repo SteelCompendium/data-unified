@@ -17,7 +17,7 @@ type: ability
 |----------------------------|------------------------------:|
 | **📏 5 x 1 line within 1** | **🎯 Each enemy in the area** |
 
-**Power Roll + Your Highest Characteristic Score:**
+**Power Roll + Your Highest [Characteristic](scc:mcdm.heroes.v1/rule.character/characteristic) Score:**
 
 - **≤11:** 5 fire damage
 - **12-16:** 8 fire damage
@@ -25,7 +25,7 @@ type: ability
 
 **Invulnerable:** When an ability roll made against you obtains a tier 1 outcome, you can ignore its damage and effects.
 
-**Leyline Walker:** Once per turn as a move action, you can spend any amount of your movement to instead [teleport](scc:mcdm.heroes.v1/movement/teleport) that distance.
+**Leyline Walker:** Once per turn as a move action, you can spend any amount of your movement to instead [teleport](scc:mcdm.heroes.v1/movement/teleport) that [distance](scc:mcdm.heroes.v1/rule.combat/distance).
 
 **Life:** Whenever you would die, you can spend a [Recovery](scc:mcdm.heroes.v1/rule.health/recoveries) to regain [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) instead. If you have no [Recoveries](scc:mcdm.heroes.v1/rule.health/recoveries) to spend, you die.
 

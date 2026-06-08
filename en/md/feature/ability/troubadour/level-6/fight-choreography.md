@@ -7,7 +7,7 @@ effect: You and the target each make a melee [free strike](scc:mcdm.heroes.v1/fe
 flavor: You and your partner make a flashy show of derring-do, then get back to your corners.
 keywords:
     - Melee
-    - Strike
+    - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
     - Weapon
 level: "6"
 name: Fight Choreography
@@ -19,7 +19,7 @@ type: ability
 
 *You and your partner make a flashy show of derring-do, then get back to your corners.*
 
-| **Melee, Strike, Weapon** |     **Main action** |
+| **Melee, [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** |     **Main action** |
 |---------------------------|--------------------:|
 | **📏 Melee 1**            | **🎯 One creature** |
 

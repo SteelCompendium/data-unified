@@ -1,6 +1,6 @@
 ---
 echelon: "1"
-effect: 'As a maneuver, you make a ranged [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) using a black ash dart. The strike deals an extra 1 damage and adds the following effects to the tier outcomes of the power roll:'
+effect: 'As a maneuver, you make a ranged [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) using a black ash dart. The [strike](scc:mcdm.heroes.v1/rule.combat/strike) deals an extra 1 damage and adds the following effects to the tier outcomes of the power roll:'
 keywords:
     - Magic
 name: Black Ash Dart
@@ -17,11 +17,11 @@ type: treasure
 
 **Project Source:** Texts or lore in Szetch
 
-**Project Roll Characteristic:** Agility or Intuition
+**Project Roll [Characteristic](scc:mcdm.heroes.v1/rule.character/characteristic):** [Agility](scc:mcdm.heroes.v1/rule.character/agility) or [Intuition](scc:mcdm.heroes.v1/rule.character/intuition)
 
 **Project Goal:** 45 (yields 1d3 darts, or three darts if crafted by a shadow)
 
-**Effect:** As a maneuver, you make a ranged [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) using a black ash dart. The strike deals an extra 1 damage and adds the following effects to the tier outcomes of the power roll:
+**Effect:** As a maneuver, you make a ranged [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) using a black ash dart. The [strike](scc:mcdm.heroes.v1/rule.combat/strike) deals an extra 1 damage and adds the following effects to the tier outcomes of the power roll:
 
 - **≤11:** You can [teleport](scc:mcdm.heroes.v1/movement/teleport) the target up to 2 squares.
 - **12-16:** You can [teleport](scc:mcdm.heroes.v1/movement/teleport) the target up to 4 squares.

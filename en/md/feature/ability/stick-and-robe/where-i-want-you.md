@@ -4,7 +4,7 @@ distance: Melee 2
 flavor: When your stick speaks, your enemy moves.
 keywords:
     - Melee
-    - Strike
+    - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
     - Weapon
 kit: stick-and-robe
 name: Where I Want You
@@ -16,11 +16,11 @@ type: ability
 
 *When your stick speaks, your enemy moves.*
 
-| **Melee, Strike, Weapon** |     **Main action** |
+| **Melee, [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** |     **Main action** |
 |---------------------------|--------------------:|
 | **📏 Melee 2**            | **🎯 One creature** |
 
-**Power Roll + Might or Agility:**
+**Power Roll + [Might](scc:mcdm.heroes.v1/rule.character/might) or [Agility](scc:mcdm.heroes.v1/rule.character/agility):**
 
 - **≤11:** 4 + M or A damage
 - **12-16:** 7 + M or A damage; slide 1

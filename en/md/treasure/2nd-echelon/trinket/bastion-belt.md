@@ -18,7 +18,7 @@ type: treasure
 
 **Project Source:** Texts or lore in High Kuric
 
-**Project Roll Characteristic:** Might or Intuition
+**Project Roll [Characteristic](scc:mcdm.heroes.v1/rule.character/characteristic):** [Might](scc:mcdm.heroes.v1/rule.character/might) or [Intuition](scc:mcdm.heroes.v1/rule.character/intuition)
 
 **Project Goal:** 300
 

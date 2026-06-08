@@ -1,12 +1,12 @@
 ---
-average_potency: Reason − 1
+average_potency: '[Reason](scc:mcdm.heroes.v1/rule.character/reason) − 1'
 name: Elementalist
 scc: mcdm.heroes.v1/class/elementalist
 skills:
     - 'You gain the Magic skill (see Skills in Chapter 9: [Tests](scc:mcdm.heroes.v1/chapter/tests)). Then choose any three skills from the crafting or lore skill groups. (*Quick Build:* Alchemy, Blacksmithing, History, Magic.)'
-strong_potency: Reason
+strong_potency: '[Reason](scc:mcdm.heroes.v1/rule.character/reason)'
 type: class
-weak_potency: Reason − 2
+weak_potency: '[Reason](scc:mcdm.heroes.v1/rule.character/reason) − 2'
 ---
 
 Air for movement. Earth for permanence. Fire for destruction. Water for change. Green for growth. Rot for death. Void for the mystery that which cannot be known. Years of study and practice and poring over tomes brought you the revelations that allow you to manipulate these building blocks of reality. Now you use your mastery of the seven elements to destroy, create, and warp the world with magic.
@@ -19,18 +19,18 @@ Air for movement. Earth for permanence. Fire for destruction. Water for change. 
 
 ### Basics
 
-**Starting Characteristics:** You start with a Reason of 2, and you can choose one of the following arrays for your other characteristic scores:
+**Starting [Characteristics](scc:mcdm.heroes.v1/rule.character/characteristic):** You start with a [Reason](scc:mcdm.heroes.v1/rule.character/reason) of 2, and you can choose one of the following arrays for your other [characteristic](scc:mcdm.heroes.v1/rule.character/characteristic) scores:
 
 - 2, 2, −1, −1
 - 2, 1, 1, −1
 - 2, 1, 0, 0
 - 1, 1, 1, 0
 
-**Weak Potency:** Reason − 2
+**Weak Potency:** [Reason](scc:mcdm.heroes.v1/rule.character/reason) − 2
 
-**Average Potency:** Reason − 1
+**Average Potency:** [Reason](scc:mcdm.heroes.v1/rule.character/reason) − 1
 
-**Strong Potency:** Reason
+**Strong Potency:** [Reason](scc:mcdm.heroes.v1/rule.character/reason)
 
 **Starting [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) at 1st Level:** 18
 

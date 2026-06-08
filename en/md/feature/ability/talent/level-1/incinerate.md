@@ -12,13 +12,9 @@ keywords:
     - Ranged
 level: "1"
 name: Incinerate
-power_roll_characteristic: Reason
 scc: mcdm.heroes.v1/feature.ability.talent.level-1/incinerate
 subtype: signature
 target: Each enemy in the area
-tier1: 2 fire damage
-tier2: 4 fire damage
-tier3: 6 fire damage
 type: ability
 ---
 
@@ -29,7 +25,7 @@ type: ability
 |----------------------------------------------|------------------------------:|
 | **📏 3 cube within 10**                      | **🎯 Each enemy in the area** |
 
-**Power Roll + Reason:**
+**Power Roll + [Reason](scc:mcdm.heroes.v1/rule.character/reason):**
 
 - **≤11:** 2 fire damage
 - **12-16:** 4 fire damage

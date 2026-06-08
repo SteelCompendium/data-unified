@@ -4,6 +4,6 @@ scc: mcdm.heroes.v1/rule.dice/bane
 type: rule
 ---
 
-A **bane** represents a situational disadvantage a hero or an enemy has when making a power roll. For example, if you make a strike while [prone](scc:mcdm.heroes.v1/condition/prone), the power roll for the strike takes a bane. A rainstorm might give you a bane on a power roll made to climb an outdoor wall because the weather makes the stone surface extra slick.
+A **bane** represents a situational disadvantage a hero or an enemy has when making a power roll. For example, if you make a [strike](scc:mcdm.heroes.v1/rule.combat/strike) while [prone](scc:mcdm.heroes.v1/condition/prone), the power roll for the [strike](scc:mcdm.heroes.v1/rule.combat/strike) takes a bane. A rainstorm might give you a bane on a power roll made to climb an outdoor wall because the weather makes the stone surface extra slick.
 
 When you make a power roll with a bane, you take a −2 penalty to the roll. If you make a power roll with two or more banes, you have a **double bane**. With a double bane, you don't subtract anything from the power roll, but the outcome of the roll automatically decreases one tier (to a minimum of tier 1).

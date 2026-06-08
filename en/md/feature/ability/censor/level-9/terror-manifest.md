@@ -8,26 +8,22 @@ flavor: '"I know what you fear."'
 keywords:
     - Magic
     - Ranged
-    - Strike
+    - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
 level: "9"
 name: Terror Manifest
-power_roll_characteristic: Presence
 scc: mcdm.heroes.v1/feature.ability.censor.level-9/terror-manifest
 target: One creature
-tier1: 7 + P psychic damage; P < WEAK, [frightened](scc:mcdm.heroes.v1/condition/frightened) (save ends)
-tier2: 10 + P psychic damage; P < AVERAGE, [frightened](scc:mcdm.heroes.v1/condition/frightened) (save ends)
-tier3: 13 + P psychic damage; P < STRONG, [frightened](scc:mcdm.heroes.v1/condition/frightened) (save ends)
 type: ability
 ---
 
 
 *"I know what you fear."*
 
-| **Magic, Ranged, Strike**  |     **Main action** |
+| **Magic, Ranged, [Strike](scc:mcdm.heroes.v1/rule.combat/strike)**  |     **Main action** |
 |----------------------------|--------------------:|
 | **📏 Ranged 10**           | **🎯 One creature** |
 
-**Power Roll + Presence:**
+**Power Roll + [Presence](scc:mcdm.heroes.v1/rule.character/presence):**
 
 - **≤11:** 7 + P psychic damage; P < WEAK, [frightened](scc:mcdm.heroes.v1/condition/frightened) (save ends)
 - **12-16:** 10 + P psychic damage; P < AVERAGE, [frightened](scc:mcdm.heroes.v1/condition/frightened) (save ends)

@@ -10,12 +10,8 @@ keywords:
     - Weapon
 level: "1"
 name: One Hundred Throats
-power_roll_characteristic: Agility
 scc: mcdm.heroes.v1/feature.ability.shadow.level-1/one-hundred-throats
 target: Self
-tier1: 3 damage
-tier2: 6 damage
-tier3: 9 damage
 type: ability
 ---
 
@@ -28,7 +24,7 @@ type: ability
 
 **Effect:** You [shift](scc:mcdm.heroes.v1/movement/shifting) up to your speed and make one power roll that targets up to three enemies who came adjacent to you during the move.
 
-**Power Roll + Agility:**
+**Power Roll + [Agility](scc:mcdm.heroes.v1/rule.character/agility):**
 
 - **≤11:** 3 damage
 - **12-16:** 6 damage

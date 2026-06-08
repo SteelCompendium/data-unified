@@ -5,4 +5,4 @@ scc: mcdm.heroes.v1/feature.trait.revenant/undead-influence
 type: trait
 ---
 
-Your supernatural gifts allow you to influence other undead. You gain an edge on Reason, Intuition, and Presence tests made to interact with undead creatures.
+Your supernatural gifts allow you to influence other undead. You gain an [edge](scc:mcdm.heroes.v1/rule.dice/edge) on [Reason](scc:mcdm.heroes.v1/rule.character/reason), [Intuition](scc:mcdm.heroes.v1/rule.character/intuition), and [Presence](scc:mcdm.heroes.v1/rule.character/presence) tests made to interact with undead creatures.

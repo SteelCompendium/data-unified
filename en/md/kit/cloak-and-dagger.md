@@ -4,7 +4,6 @@ equipment_text: You wear light armor and wield one or two light weapons.
 melee_damage_bonus: +1/+1/+1
 name: Cloak and Dagger
 ranged_damage_bonus: +1/+1/+1
-ranged_distance_bonus: "+5"
 scc: mcdm.heroes.v1/kit/cloak-and-dagger
 speed_bonus: "+2"
 type: kit
@@ -26,7 +25,7 @@ You wear light armor and wield one or two light weapons.
 
 **Ranged Damage Bonus:** +1/+1/+1
 
-**Ranged Distance Bonus:** +5
+**Ranged [Distance](scc:mcdm.heroes.v1/rule.combat/distance) Bonus:** +5
 
 **Disengage Bonus:** +1
 
@@ -36,11 +35,11 @@ You wear light armor and wield one or two light weapons.
 
 *A stab, and a few quick, careful steps back.*
 
-| **Melee, Ranged, Strike, Weapon** |     **Main action** |
+| **Melee, Ranged, [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** |     **Main action** |
 |-----------------------------------|--------------------:|
 | **📏 Melee 1 or ranged 10**       | **🎯 One creature** |
 
-**Power Roll + Might or Agility:**
+**Power Roll + [Might](scc:mcdm.heroes.v1/rule.character/might) or [Agility](scc:mcdm.heroes.v1/rule.character/agility):**
 
 - **≤11:** 3 + M or A damage; you can [shift](scc:mcdm.heroes.v1/movement/shifting) 1 square
 - **12-16:** 6 + M or A damage; you can [shift](scc:mcdm.heroes.v1/movement/shifting) up to 2 squares

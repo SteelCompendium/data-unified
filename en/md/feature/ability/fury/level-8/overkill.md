@@ -8,27 +8,23 @@ flavor: You strike so no damage is wasted.
 keywords:
     - Magic
     - Melee
-    - Strike
+    - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
     - Weapon
 level: "8"
 name: Overkill
-power_roll_characteristic: Might
 scc: mcdm.heroes.v1/feature.ability.fury.level-8/overkill
 target: One creature
-tier1: 6 + M damage
-tier2: 10 + M damage
-tier3: 14 + M damage
 type: ability
 ---
 
 
 *You strike so no damage is wasted.*
 
-| **Magic, Melee, Strike, Weapon** |     **Main action** |
+| **Magic, Melee, [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** |     **Main action** |
 |----------------------------------|--------------------:|
 | **📏 Melee 1**                   | **🎯 One creature** |
 
-**Power Roll + Might:**
+**Power Roll + [Might](scc:mcdm.heroes.v1/rule.character/might):**
 
 - **≤11:** 6 + M damage
 - **12-16:** 10 + M damage

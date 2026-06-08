@@ -5,7 +5,7 @@ effect: If you obtain a tier 2 or tier 3 outcome and can't swap places with the 
 flavor: You feint to move your enemies into perfect position.
 keywords:
     - Melee
-    - Strike
+    - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
     - Weapon
 kit: martial-artist
 name: Battle Grace
@@ -17,11 +17,11 @@ type: ability
 
 *You feint to move your enemies into perfect position.*
 
-| **Melee, Strike, Weapon** |     **Main action** |
+| **Melee, [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** |     **Main action** |
 |---------------------------|--------------------:|
 | **📏 Melee 1**            | **🎯 One creature** |
 
-**Power Roll + Might or Agility:**
+**Power Roll + [Might](scc:mcdm.heroes.v1/rule.character/might) or [Agility](scc:mcdm.heroes.v1/rule.character/agility):**
 
 - **≤11:** 5 + M or A damage
 - **12-16:** 8 + M or A damage; you can swap places with the target

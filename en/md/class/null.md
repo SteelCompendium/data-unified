@@ -1,12 +1,12 @@
 ---
-average_potency: Intuition − 1
+average_potency: '[Intuition](scc:mcdm.heroes.v1/rule.character/intuition) − 1'
 name: "Null"
 scc: mcdm.heroes.v1/class/null
 skills:
     - 'You gain the [Psionics](scc:mcdm.heroes.v1/skill/psionics) skill (see Skills in Chapter 9: [Tests](scc:mcdm.heroes.v1/chapter/tests)). Then choose any two skills from the interpersonal or lore skill groups. (*Quick Build:* Psionics, [Read Person](scc:mcdm.heroes.v1/skill/read-person), Timescape.)'
-strong_potency: Intuition
+strong_potency: '[Intuition](scc:mcdm.heroes.v1/rule.character/intuition)'
 type: class
-weak_potency: Intuition − 2
+weak_potency: '[Intuition](scc:mcdm.heroes.v1/rule.character/intuition) − 2'
 ---
 
 The mind is not separate from the body. Perfection of one requires perfection of the other. You strive for perfect discipline, perfect order, mastery over mind and body, becoming an unarmed psionic warrior who dampens and absorbs magic and psionics. You require no weapons, no tools. You suffice.
@@ -19,17 +19,17 @@ The mind is not separate from the body. Perfection of one requires perfection of
 
 ### Basics
 
-**Starting Characteristics:** You start with an Agility of 2 and an Intuition of 2, and you can choose one of the following arrays for your other characteristic scores:
+**Starting [Characteristics](scc:mcdm.heroes.v1/rule.character/characteristic):** You start with an [Agility](scc:mcdm.heroes.v1/rule.character/agility) of 2 and an [Intuition](scc:mcdm.heroes.v1/rule.character/intuition) of 2, and you can choose one of the following arrays for your other [characteristic](scc:mcdm.heroes.v1/rule.character/characteristic) scores:
 
 - 2, −1, −1
 - 1, 1, −1
 - 1, 0, 0
 
-**Weak Potency:** Intuition − 2
+**Weak Potency:** [Intuition](scc:mcdm.heroes.v1/rule.character/intuition) − 2
 
-**Average Potency:** Intuition − 1
+**Average Potency:** [Intuition](scc:mcdm.heroes.v1/rule.character/intuition) − 1
 
-**Strong Potency:** Intuition
+**Strong Potency:** [Intuition](scc:mcdm.heroes.v1/rule.character/intuition)
 
 **Starting [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) at 1st Level:** 21
 

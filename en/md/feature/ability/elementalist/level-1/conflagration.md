@@ -11,12 +11,8 @@ keywords:
     - Ranged
 level: "1"
 name: Conflagration
-power_roll_characteristic: Reason
 scc: mcdm.heroes.v1/feature.ability.elementalist.level-1/conflagration
 target: Each enemy in the area
-tier1: 4 fire damage
-tier2: 6 fire damage
-tier3: 10 fire damage
 type: ability
 ---
 
@@ -27,7 +23,7 @@ type: ability
 |-------------------------------|------------------------------:|
 | **📏 3 cube within 10**       | **🎯 Each enemy in the area** |
 
-**Power Roll + Reason:**
+**Power Roll + [Reason](scc:mcdm.heroes.v1/rule.character/reason):**
 
 - **≤11:** 4 fire damage
 - **12-16:** 6 fire damage

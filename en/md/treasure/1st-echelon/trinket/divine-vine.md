@@ -1,6 +1,6 @@
 ---
 echelon: "1"
-effect: As a maneuver, you call upon the Divine Vine in Yllyric, causing it to extend up to 5 squares from you and attach its jaws to a creature or object, allowing you to use the [Grab](scc:mcdm.heroes.v1/feature.common.maneuvers/grab) maneuver at a distance. If the target is [grabbed](scc:mcdm.heroes.v1/condition/grabbed), you can choose to keep the divine vine extended, pull the target adjacent to you, or pull yourself adjacent to the target. The divine vine stays attached to the target until it takes damage from a strike, the target escapes your grab, or you call upon the vine to release the target (no action required).
+effect: As a maneuver, you call upon the Divine Vine in Yllyric, causing it to extend up to 5 squares from you and attach its jaws to a creature or object, allowing you to use the [Grab](scc:mcdm.heroes.v1/feature.common.maneuvers/grab) maneuver at a distance. If the target is [grabbed](scc:mcdm.heroes.v1/condition/grabbed), you can choose to keep the divine vine extended, pull the target adjacent to you, or pull yourself adjacent to the target. The divine vine stays attached to the target until it takes damage from a [strike](scc:mcdm.heroes.v1/rule.combat/strike), the target escapes your grab, or you call upon the vine to release the target (no action required).
 keywords:
     - Magic
 name: Divine Vine
@@ -17,8 +17,8 @@ type: treasure
 
 **Project Source:** Songs in Yllyric
 
-**Project Roll Characteristic:** Reason or Presence
+**Project Roll [Characteristic](scc:mcdm.heroes.v1/rule.character/characteristic):** [Reason](scc:mcdm.heroes.v1/rule.character/reason) or [Presence](scc:mcdm.heroes.v1/rule.character/presence)
 
 **Project Goal:** 150
 
-**Effect:** As a maneuver, you call upon the Divine Vine in Yllyric, causing it to extend up to 5 squares from you and attach its jaws to a creature or object, allowing you to use the [Grab](scc:mcdm.heroes.v1/feature.common.maneuvers/grab) maneuver at a distance. If the target is [grabbed](scc:mcdm.heroes.v1/condition/grabbed), you can choose to keep the divine vine extended, pull the target adjacent to you, or pull yourself adjacent to the target. The divine vine stays attached to the target until it takes damage from a strike, the target escapes your grab, or you call upon the vine to release the target (no action required).
+**Effect:** As a maneuver, you call upon the Divine Vine in Yllyric, causing it to extend up to 5 squares from you and attach its jaws to a creature or object, allowing you to use the [Grab](scc:mcdm.heroes.v1/feature.common.maneuvers/grab) maneuver at a distance. If the target is [grabbed](scc:mcdm.heroes.v1/condition/grabbed), you can choose to keep the divine vine extended, pull the target adjacent to you, or pull yourself adjacent to the target. The divine vine stays attached to the target until it takes damage from a [strike](scc:mcdm.heroes.v1/rule.combat/strike), the target escapes your grab, or you call upon the vine to release the target (no action required).

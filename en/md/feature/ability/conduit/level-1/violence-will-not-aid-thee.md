@@ -8,26 +8,22 @@ flavor: After some holy lightning, your enemy will think twice about their next 
 keywords:
     - Magic
     - Ranged
-    - Strike
+    - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
 level: "1"
 name: Violence Will Not Aid Thee
-power_roll_characteristic: Intuition
 scc: mcdm.heroes.v1/feature.ability.conduit.level-1/violence-will-not-aid-thee
 target: One creature
-tier1: 3 + I lightning damage
-tier2: 6 + I lightning damage
-tier3: 9 + I lightning damage
 type: ability
 ---
 
 
 *After some holy lightning, your enemy will think twice about their next attack.*
 
-| **Magic, Ranged, Strike**  |     **Main action** |
+| **Magic, Ranged, [Strike](scc:mcdm.heroes.v1/rule.combat/strike)**  |     **Main action** |
 |----------------------------|--------------------:|
 | **📏 Ranged 10**           | **🎯 One creature** |
 
-**Power Roll + Intuition:**
+**Power Roll + [Intuition](scc:mcdm.heroes.v1/rule.character/intuition):**
 
 - **≤11:** 3 + I lightning damage
 - **12-16:** 6 + I lightning damage

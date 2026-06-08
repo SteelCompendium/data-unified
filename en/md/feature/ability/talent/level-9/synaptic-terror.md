@@ -11,12 +11,8 @@ keywords:
     - Telepathy
 level: "9"
 name: Synaptic Terror
-power_roll_characteristic: Reason
 scc: mcdm.heroes.v1/feature.ability.talent.level-9/synaptic-terror
 target: Each ally and enemy in the area
-tier1: R < WEAK, [frightened](scc:mcdm.heroes.v1/condition/frightened) (save ends)
-tier2: R < AVERAGE, [frightened](scc:mcdm.heroes.v1/condition/frightened) (save ends)
-tier3: R < STRONG, [frightened](scc:mcdm.heroes.v1/condition/frightened) (save ends)
 type: ability
 ---
 
@@ -29,7 +25,7 @@ type: ability
 
 **Effect:** You and each target ally can't obtain lower than a tier 2 outcome on power rolls until the start of your next turn. Each target enemy is affected by the ability's power roll.
 
-**Power Roll + Reason:**
+**Power Roll + [Reason](scc:mcdm.heroes.v1/rule.character/reason):**
 
 - **≤11:** R < WEAK, [frightened](scc:mcdm.heroes.v1/condition/frightened) (save ends)
 - **12-16:** R < AVERAGE, [frightened](scc:mcdm.heroes.v1/condition/frightened) (save ends)

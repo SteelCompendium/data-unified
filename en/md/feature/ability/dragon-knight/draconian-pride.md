@@ -19,7 +19,7 @@ type: ability
 |-----------------|------------------------------:|
 | **📏 1 burst**  | **🎯 Each enemy in the area** |
 
-**Power Roll + Might or Presence:**
+**Power Roll + [Might](scc:mcdm.heroes.v1/rule.character/might) or [Presence](scc:mcdm.heroes.v1/rule.character/presence):**
 
 - **≤11:** 2 damage
 - **12-16:** 5 damage; push 1

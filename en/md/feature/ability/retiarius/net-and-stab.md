@@ -4,7 +4,7 @@ distance: Melee 2
 flavor: The well-thrown net that follows your main attack leaves your foes right where you want them.
 keywords:
     - Melee
-    - Strike
+    - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
     - Weapon
 kit: retiarius
 name: Net and Stab
@@ -16,11 +16,11 @@ type: ability
 
 *The well-thrown net that follows your main attack leaves your foes right where you want them.*
 
-| **Melee, Strike, Weapon** |     **Main action** |
+| **Melee, [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** |     **Main action** |
 |---------------------------|--------------------:|
 | **📏 Melee 2**            | **🎯 One creature** |
 
-**Power Roll + Might or Agility:**
+**Power Roll + [Might](scc:mcdm.heroes.v1/rule.character/might) or [Agility](scc:mcdm.heroes.v1/rule.character/agility):**
 
 - **≤11:** 4 + M or A damage; A < WEAK, [slowed](scc:mcdm.heroes.v1/condition/slowed) (EoT)
 - **12-16:** 6 + M or A damage; A < AVERAGE, [slowed](scc:mcdm.heroes.v1/condition/slowed) (EoT)

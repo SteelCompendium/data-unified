@@ -7,26 +7,22 @@ flavor: You conjure memories of their sins to harry your foes.
 keywords:
     - Magic
     - Ranged
-    - Strike
+    - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
 level: "1"
 name: Repent!
-power_roll_characteristic: Presence
 scc: mcdm.heroes.v1/feature.ability.censor.level-1/repent
 target: One creature
-tier1: 5 + P holy damage; I < WEAK, [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)
-tier2: 8 + P holy damage; I < AVERAGE, [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)
-tier3: 11 + P holy damage; I < STRONG, [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)
 type: ability
 ---
 
 
 *You conjure memories of their sins to harry your foes.*
 
-| **Magic, Ranged, Strike**  |    **Main action**  |
+| **Magic, Ranged, [Strike](scc:mcdm.heroes.v1/rule.combat/strike)**  |    **Main action**  |
 |----------------------------|--------------------:|
 | **📏 Ranged 10**           | **🎯 One creature** |
 
-**Power Roll + Presence:**
+**Power Roll + [Presence](scc:mcdm.heroes.v1/rule.character/presence):**
 
 - **≤11:** 5 + P holy damage; I < WEAK, [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)
 - **12-16:** 8 + P holy damage; I < AVERAGE, [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)

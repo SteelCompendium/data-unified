@@ -8,7 +8,7 @@ type: project
 
 **Project Source:** Texts or lore in Voll
 
-**Project Roll Characteristic:** Reason
+**Project Roll [Characteristic](scc:mcdm.heroes.v1/rule.character/characteristic):** [Reason](scc:mcdm.heroes.v1/rule.character/reason)
 
 **Project Goal:** 1,500
 

@@ -10,7 +10,7 @@ Kul, Father of Flames, Lord of the Forge, the Cleansing Fire who put fire and ma
 
 He saw his sibling gods creating their own children and placing them within the world, and so followed suit, creating the [orcs](scc:mcdm.heroes.v1/ancestry/orc), the last of the original five speaking peoples.
 
-Kul's fire is the fire that destroys, but it is also the fire that creates, the fire of the forge, the fire that makes meat safe to eat, the fire that cauterizes wounds. Kul teaches that action is the defining characteristic of being. Kul's heroes are not philosophers or poets, but warriors and hunters.
+Kul's fire is the fire that destroys, but it is also the fire that creates, the fire of the forge, the fire that makes meat safe to eat, the fire that cauterizes wounds. Kul teaches that action is the defining [characteristic](scc:mcdm.heroes.v1/rule.character/characteristic) of being. Kul's heroes are not philosophers or poets, but warriors and hunters.
 
 Uniquely among the Elder Creator Gods, Kul does not desire worship finds it distasteful. [Orcs](scc:mcdm.heroes.v1/ancestry/orc) still call out to Kul in desperate times as "Kul Who Once Spoke." But in those moments, they do not call out for aid—only that Kul witness them, and that they might prove worthy of his attention.
 
@@ -90,7 +90,7 @@ At the moment of his death, when the god-caller rang the bell of souls officiall
 
 She snatched her tribe's oriflamme from her father's dead hands... and ran. For many leagues she ran and the tales of the creatures—manticores, griffins, chimeras—who barred her passage passed into legend. [Orc](scc:mcdm.heroes.v1/ancestry/orc) children still delight at the tricks and wordplay Khravila employed to thwart the beasts, avoid fighting, and continue her epic run.
 
-Less than five hours after her father died, Khravila arrived at the Astragalus Court, forty leagues from home and while many elements of her legend are certainly mythical, the time and distance are well attested. Khravila held forth the oriflamme and announced that, should the elves continue their assault on the [humans](scc:mcdm.heroes.v1/ancestry/human), there would be war between them and her tribe. "Chose quickly," she said. "My people are right behind me, and eager for battle." They could not have known she was bluffing.
+Less than five hours after her father died, Khravila arrived at the Astragalus Court, forty leagues from home and while many elements of her legend are certainly mythical, the time and [distance](scc:mcdm.heroes.v1/rule.combat/distance) are well attested. Khravila held forth the oriflamme and announced that, should the elves continue their assault on the [humans](scc:mcdm.heroes.v1/ancestry/human), there would be war between them and her tribe. "Chose quickly," she said. "My people are right behind me, and eager for battle." They could not have known she was bluffing.
 
 The elves called off their attacks and Khravila brokered peace between them and the [humans](scc:mcdm.heroes.v1/ancestry/human). When her brother arrived with their kin folk some hours later—itself an impressive feat—Khravila handed him the oriflamme, and collapsed, dead. It was Khravila the chieftain who ran. It was Khravila the Unstoppable who died, a legendary [orc](scc:mcdm.heroes.v1/ancestry/orc) hero.
 
@@ -112,7 +112,7 @@ The [hakaan](scc:mcdm.heroes.v1/ancestry/hakaan) know they are descended from st
 
 Mahsiti the Weaver was a fresco painter and mathematician of the [hakaan](scc:mcdm.heroes.v1/ancestry/hakaan) who discovered, or invented, a way of drawing very precise geometric shapes following patterns that repeat at any scale. Believing it could be a new way to devise spells, she took to weaving tapestries using lines of thread to better understand the numerical relationships within the patterns.
 
-It took time to master weaving, but she took to it quickly and produced a series of essays, each a tapestry, proving correct her suspicions. The Tapestries of Mahsiti are a series of thirteen legendary artifacts of varying sizes, one as small as a napkin, one over two hundred feet long. Each has a powerful spell written into it, available for use by anyone who can read the patterns.
+It took time to master weaving, but she took to it quickly and produced a series of essays, each a tapestry, proving correct her suspicions. The Tapestries of Mahsiti are a series of thirteen legendary artifacts of varying [sizes](scc:mcdm.heroes.v1/rule.character/size), one as small as a napkin, one over two hundred feet long. Each has a powerful spell written into it, available for use by anyone who can read the patterns.
 
 One of Mahsiti's weavings, titled *The Shepherd and the Sheep*, was used by her whole clan when war came to them. The [hakaan](scc:mcdm.heroes.v1/ancestry/hakaan) had no doubt they could defend their home but were equally certain there would be enormous loss of life. Mahsiti suggested they use the tapestry, but the people of her clan did not understand. Use it how? It was simply a picture of a tree in a field with many sheep gathered around it.
 

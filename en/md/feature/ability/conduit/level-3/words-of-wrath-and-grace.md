@@ -10,12 +10,8 @@ keywords:
     - Magic
 level: "3"
 name: Words of Wrath and Grace
-power_roll_characteristic: Intuition
 scc: mcdm.heroes.v1/feature.ability.conduit.level-3/words-of-wrath-and-grace
 target: Each enemy in the area
-tier1: 2 holy damage
-tier2: 5 holy damage
-tier3: 7 holy damage
 type: ability
 ---
 
@@ -26,7 +22,7 @@ type: ability
 |------------------|------------------------------:|
 | **📏 5 burst**   | **🎯 Each enemy in the area** |
 
-**Power Roll + Intuition:**
+**Power Roll + [Intuition](scc:mcdm.heroes.v1/rule.character/intuition):**
 
 - **≤11:** 2 holy damage
 - **12-16:** 5 holy damage

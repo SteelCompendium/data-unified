@@ -23,4 +23,4 @@ type: ability
 
 **Effect:** Each target is marked by you, and you gain two [surges](scc:mcdm.heroes.v1/rule.resource/surge).
 
-**Mark Benefit:** Until the end of the encounter, whenever you or any ally makes a strike against a creature marked by you, you can spend 2 focus to add one additional target to the strike.
+**Mark Benefit:** Until the end of the encounter, whenever you or any ally makes a [strike](scc:mcdm.heroes.v1/rule.combat/strike) against a creature marked by you, you can spend 2 focus to add one additional target to the [strike](scc:mcdm.heroes.v1/rule.combat/strike).

@@ -1,6 +1,6 @@
 ---
 echelon: "1"
-effect: Whenever you use the [Charge](scc:mcdm.heroes.v1/feature.common.main-actions/charge) main action while wearing this helmet, you gain a +5 bonus to speed until the end of your current turn. After charging, you can use the [Knockback](scc:mcdm.heroes.v1/feature.common.maneuvers/knockback) maneuver as a free maneuver, regardless of the target creature's size.
+effect: Whenever you use the [Charge](scc:mcdm.heroes.v1/feature.common.main-actions/charge) main action while wearing this helmet, you gain a +5 bonus to speed until the end of your current turn. After charging, you can use the [Knockback](scc:mcdm.heroes.v1/feature.common.maneuvers/knockback) maneuver as a free maneuver, regardless of the target creature's [size](scc:mcdm.heroes.v1/rule.character/size).
 keywords:
     - Head
     - Magic
@@ -18,8 +18,8 @@ type: treasure
 
 **Project Source:** Texts or lore in Anjali and Caelian
 
-**Project Roll Characteristic:** Might or Reason
+**Project Roll [Characteristic](scc:mcdm.heroes.v1/rule.character/characteristic):** [Might](scc:mcdm.heroes.v1/rule.character/might) or [Reason](scc:mcdm.heroes.v1/rule.character/reason)
 
 **Project Goal:** 150
 
-**Effect:** Whenever you use the [Charge](scc:mcdm.heroes.v1/feature.common.main-actions/charge) main action while wearing this helmet, you gain a +5 bonus to speed until the end of your current turn. After charging, you can use the [Knockback](scc:mcdm.heroes.v1/feature.common.maneuvers/knockback) maneuver as a free maneuver, regardless of the target creature's size.
+**Effect:** Whenever you use the [Charge](scc:mcdm.heroes.v1/feature.common.main-actions/charge) main action while wearing this helmet, you gain a +5 bonus to speed until the end of your current turn. After charging, you can use the [Knockback](scc:mcdm.heroes.v1/feature.common.maneuvers/knockback) maneuver as a free maneuver, regardless of the target creature's [size](scc:mcdm.heroes.v1/rule.character/size).

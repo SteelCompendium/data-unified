@@ -6,7 +6,7 @@ type: rule
 
 Each test has the following steps:
 
-The Director decides that a hero's activities call for a test and asks the hero's player to make a power roll using an appropriate characteristic (see Characteristics and Tests below). The Director then selects a difficulty for the power roll, either secretly or publicly (see Test Difficulty below).
+The Director decides that a hero's activities call for a test and asks the hero's player to make a power roll using an appropriate [characteristic](scc:mcdm.heroes.v1/rule.character/characteristic) (see [Characteristics](scc:mcdm.heroes.v1/rule.character/characteristic) and Tests below). The Director then selects a difficulty for the power roll, either secretly or publicly (see Test Difficulty below).
 
 The player makes the power roll. If the character has a skill that applies to the test (see Skills later in this chapter), they can ask the Director if the skill applies and justify the use of the skill. If the Director agrees the skill applies, the hero gains a +2 bonus to the roll.
 
@@ -14,35 +14,35 @@ The player reports the total of the roll, and the Director interprets its succes
 
 #### Characteristics and Tests
 
-When you describe a task you want your hero to undertake and the Director determines that a test is necessary, they then determine which characteristic the test uses based on the nature of the task. For instance, if you're scaling a wall, the Director could ask for a Might test to determine how far and how quickly you're able to climb. If you're attempting to plead your innocence in court for a murder you didn't commit, the Director might ask for a Presence test if you're attempting to win over the jury with your personality, or a Reason test if you're laying out a logical argument to support your innocence.
+When you describe a task you want your hero to undertake and the Director determines that a test is necessary, they then determine which [characteristic](scc:mcdm.heroes.v1/rule.character/characteristic) the test uses based on the nature of the task. For instance, if you're scaling a wall, the Director could ask for a [Might](scc:mcdm.heroes.v1/rule.character/might) test to determine how far and how quickly you're able to climb. If you're attempting to plead your innocence in court for a murder you didn't commit, the Director might ask for a [Presence](scc:mcdm.heroes.v1/rule.character/presence) test if you're attempting to win over the jury with your personality, or a [Reason](scc:mcdm.heroes.v1/rule.character/reason) test if you're laying out a logical argument to support your innocence.
 
 Though the Director can decide to call for tests in any circumstances, a number of tasks that heroes routinely undertake are commonly set up as tests.
 
 ##### Might Tests
 
-You make a Might test whenever a risky task calls for the use of physical strength. Might tests are most often used for breaking down doors and other structures, hurling heavy objects, pulling your body up a sheer wall, swimming against a mighty current, and other feats of physical power.
+You make a [Might](scc:mcdm.heroes.v1/rule.character/might) test whenever a risky task calls for the use of physical strength. [Might](scc:mcdm.heroes.v1/rule.character/might) tests are most often used for breaking down doors and other structures, hurling heavy objects, pulling your body up a sheer wall, swimming against a mighty current, and other feats of physical power.
 
 ##### Agility Tests
 
-You make an Agility test whenever a risky task calls for the use of your physical coordination and nimbleness. Agility tests are most often used for tumbling, sneaking quietly, picking locks, and engaging in sleight of hand.
+You make an [Agility](scc:mcdm.heroes.v1/rule.character/agility) test whenever a risky task calls for the use of your physical coordination and nimbleness. [Agility](scc:mcdm.heroes.v1/rule.character/agility) tests are most often used for tumbling, sneaking quietly, picking locks, and engaging in sleight of hand.
 
 ##### Reason Tests
 
-You make a Reason test whenever you attempt a risky task that requires the use of your mental acumen and education, formal or otherwise. Reason tests are most often used to recall lore, deduce information based on clues, complete a puzzle, forge counterfeit items or documents, break a code, convince others of a logical argument, or make an estimation.
+You make a [Reason](scc:mcdm.heroes.v1/rule.character/reason) test whenever you attempt a risky task that requires the use of your mental acumen and education, formal or otherwise. [Reason](scc:mcdm.heroes.v1/rule.character/reason) tests are most often used to recall lore, deduce information based on clues, complete a puzzle, forge counterfeit items or documents, break a code, convince others of a logical argument, or make an estimation.
 
 ##### Intuition Tests
 
-You make an Intuition test whenever you attempt a risky task that requires the use of your powers of observation and instinct. Intuition tests are most often used to notice hidden creatures or details, discern another person's motivations or honesty, calm and reassure others, and train animals.
+You make an [Intuition](scc:mcdm.heroes.v1/rule.character/intuition) test whenever you attempt a risky task that requires the use of your powers of observation and instinct. [Intuition](scc:mcdm.heroes.v1/rule.character/intuition) tests are most often used to notice hidden creatures or details, discern another person's motivations or honesty, calm and reassure others, and train animals.
 
 ##### Presence Tests
 
-You make a Presence test whenever you attempt a risky task that requires the use of your force of personality. Presence tests are most often used to gain trust, project confidence, and influence and lead other creatures.
+You make a [Presence](scc:mcdm.heroes.v1/rule.character/presence) test whenever you attempt a risky task that requires the use of your force of personality. [Presence](scc:mcdm.heroes.v1/rule.character/presence) tests are most often used to gain trust, project confidence, and influence and lead other creatures.
 
 > **Influencing Player Characters With Tests**
 >
-> The things player characters do can't be influenced by any creature making a test, whether a monster, an NPC, or another player character. Many players feel that their agency is taken away if they're compelled to jump into a pile of gold filled with hidden scorpions because an NPC convinced them to do so with a Presence test. For most players, it's not fun to be in control of a hero and lose some of that control.
+> The things player characters do can't be influenced by any creature making a test, whether a monster, an NPC, or another player character. Many players feel that their agency is taken away if they're compelled to jump into a pile of gold filled with hidden scorpions because an NPC convinced them to do so with a [Presence](scc:mcdm.heroes.v1/rule.character/presence) test. For most players, it's not fun to be in control of a hero and lose some of that control.
 >
-> Instead, Directors should do their level best to have an NPC suggest that a character dive headlong into the gold like a billionaire duck, then let the player decide what their character does. Similarly, a Director might decide that one player character can't make an Intuition test to discern another PC's motivations or honesty.
+> Instead, Directors should do their level best to have an NPC suggest that a character dive headlong into the gold like a billionaire duck, then let the player decide what their character does. Similarly, a Director might decide that one player character can't make an [Intuition](scc:mcdm.heroes.v1/rule.character/intuition) test to discern another PC's motivations or honesty.
 >
 > That said, if everyone in your gaming group decides to lift one or more of these restrictions after talking about it, go for it! There's no wrong way to play as long as everyone is having fun. The MCDM Safety Toolkit (available for download at *https://mcdm.gg/SafetyToolkit*) discusses how to talk about potentially problematic topics such as limiting character agency at your table.
 
@@ -99,7 +99,7 @@ Depending on a test's difficulty and the power roll made to accomplish the task 
 
 If you fail a hard test and incur a consequence, you don't do what you set out to do—in addition to which, you suffer an impactful setback. The Director determines the exact nature of the consequence, which is typically related to the specific task.
 
-For instance, if a hero suffers a consequence while trying to climb a wall, they might make it halfway up the wall and then fall, taking damage and landing [prone](scc:mcdm.heroes.v1/condition/prone). A hero trying to sneak by cultists might be spotted by those foes, who immediately attack. If a consequence strikes when a hero attempts to bribe a prison guard, the guard might decide to arrest the hero or lead them into a trap. If a hero suffers a consequence on a Reason test made to recall lore about the king's favorite meal, they might confuse it for a dish to which the monarch is deathly allergic.
+For instance, if a hero suffers a consequence while trying to climb a wall, they might make it halfway up the wall and then fall, taking damage and landing [prone](scc:mcdm.heroes.v1/condition/prone). A hero trying to sneak by cultists might be spotted by those foes, who immediately attack. If a consequence strikes when a hero attempts to bribe a prison guard, the guard might decide to arrest the hero or lead them into a trap. If a hero suffers a consequence on a [Reason](scc:mcdm.heroes.v1/rule.character/reason) test made to recall lore about the king's favorite meal, they might confuse it for a dish to which the monarch is deathly allergic.
 
 Not all consequences need to be immediate or apparent. For example, a hero might fail with a consequence on a test made to cheat at a high-stakes game of cards with a noble. The failure means the cheating is noticed, but the Director decides that the noble doesn't say anything. This consequence isn't made apparent until later in the evening, when the noble has guards surround the hero, intent on taking the cheater down to the dungeon for stacking the deck.
 
@@ -118,9 +118,9 @@ In lieu of other consequences, the Director also has the option to gain 2 additi
 
 If you fail a test without incurring a consequence, you simply don't do what you set out to do. A hero attempting to climb a wall finds no purchase. A hero trying to recall lore can't remember the desired facts. If a hero attempts to bribe a guard, they don't take the bait.
 
-On a failed test, the Director can decide that there might still be a small penalty for failure, depending on the circumstances of the test. This penalty shouldn't be as harsh as rolling a failure with a consequence, though. For instance, a hero who gets this outcome on an Agility test made to sneak by a group of cultists might draw the attention of one cultist with their failure. Now that cultist is coming to investigate, but they haven't raised the alarm... yet.
+On a failed test, the Director can decide that there might still be a small penalty for failure, depending on the circumstances of the test. This penalty shouldn't be as harsh as rolling a failure with a consequence, though. For instance, a hero who gets this outcome on an [Agility](scc:mcdm.heroes.v1/rule.character/agility) test made to sneak by a group of cultists might draw the attention of one cultist with their failure. Now that cultist is coming to investigate, but they haven't raised the alarm... yet.
 
-When a hero rolls a failure without a consequence, the Director can offer to let them succeed with a consequence instead. For instance, when a hero rolls a 10 on a medium Might test to break down a locked door, that's a failure and the door stays closed. But the Director could suggest to the player that instead of not breaking down the door, they can break down the door and lose 1d6 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) from being injured in the effort.
+When a hero rolls a failure without a consequence, the Director can offer to let them succeed with a consequence instead. For instance, when a hero rolls a 10 on a medium [Might](scc:mcdm.heroes.v1/rule.character/might) test to break down a locked door, that's a failure and the door stays closed. But the Director could suggest to the player that instead of not breaking down the door, they can break down the door and lose 1d6 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) from being injured in the effort.
 
 ##### Success With a Consequence
 
@@ -128,7 +128,7 @@ If you succeed on a test and incur a consequence, you do what you set out to do,
 
 Just like failure with a consequence, the consequences accompanying success don't need to be immediately apparent. In lieu of other consequences, the Director has the option to gain 2 additional Malice at the start of the next combat encounter.
 
-When a hero rolls a success with a consequence, the Director might give them a chance to fail instead. For instance, when a hero rolls a 10 on an easy Agility test to pick the lock on a chest, that's a success with a consequence. The Director could suggest that the character has opened the lock but broken their lockpicks in the process (knowing the picks can't be replaced until the hero returns to town), but can also give them the option of failing to pick the lock but keeping their lockpicks intact.
+When a hero rolls a success with a consequence, the Director might give them a chance to fail instead. For instance, when a hero rolls a 10 on an easy [Agility](scc:mcdm.heroes.v1/rule.character/agility) test to pick the lock on a chest, that's a success with a consequence. The Director could suggest that the character has opened the lock but broken their lockpicks in the process (knowing the picks can't be replaced until the hero returns to town), but can also give them the option of failing to pick the lock but keeping their lockpicks intact.
 
 ##### Success
 
@@ -159,7 +159,7 @@ In lieu of other rewards, the Director can also decide that a hero who succeeds 
 
 #### How Long Does It Take?
 
-The amount of time required for a task involving a test is determined by the Director. A task such as recalling lore with a Reason test might take no time at all. Ducking behind a barrel to hide with an Agility test might require a maneuver or a main action, while tracking a band of voiceless talkers through the World Below could take hours or even days.
+The amount of time required for a task involving a test is determined by the Director. A task such as recalling lore with a [Reason](scc:mcdm.heroes.v1/rule.character/reason) test might take no time at all. Ducking behind a barrel to hide with an [Agility](scc:mcdm.heroes.v1/rule.character/agility) test might require a maneuver or a main action, while tracking a band of voiceless talkers through the World Below could take hours or even days.
 
 ##### Tests During Combat
 
@@ -167,6 +167,6 @@ Many (but not all) tests that a hero might make during combat are made as maneuv
 
 #### Can I Try Again?
 
-In many cases when you fail a test, you can't attempt the test again unless the circumstances of the test change. For instance, if you attempt an Agility test to pick a lock and fail, you can't attempt to pick the lock again unless you get better lockpicks, oil the lock, have someone demonstrate how to pick a similar lock, and so on.
+In many cases when you fail a test, you can't attempt the test again unless the circumstances of the test change. For instance, if you attempt an [Agility](scc:mcdm.heroes.v1/rule.character/agility) test to pick a lock and fail, you can't attempt to pick the lock again unless you get better lockpicks, oil the lock, have someone demonstrate how to pick a similar lock, and so on.
 
 The Director decides when the circumstances have changed enough to allow a new attempt at a test.

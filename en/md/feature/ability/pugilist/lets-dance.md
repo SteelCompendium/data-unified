@@ -5,7 +5,7 @@ effect: You can [shift](scc:mcdm.heroes.v1/movement/shifting) into any square th
 flavor: Keeping your enemies stumbling around the battlefield is second nature to you.
 keywords:
     - Melee
-    - Strike
+    - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
     - Weapon
 kit: pugilist
 name: Let's Dance
@@ -17,11 +17,11 @@ type: ability
 
 *Keeping your enemies stumbling around the battlefield is second nature to you.*
 
-| **Melee, Strike, Weapon** |     **Main action** |
+| **Melee, [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** |     **Main action** |
 |---------------------------|--------------------:|
 | **📏 Melee 1**            | **🎯 One creature** |
 
-**Power Roll + Might or Agility:**
+**Power Roll + [Might](scc:mcdm.heroes.v1/rule.character/might) or [Agility](scc:mcdm.heroes.v1/rule.character/agility):**
 
 - **≤11:** 3 + M or A damage
 - **12-16:** 6 + M or A damage; slide 1

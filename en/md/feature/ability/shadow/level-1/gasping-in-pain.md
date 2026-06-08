@@ -6,28 +6,24 @@ effect: One ally within 5 squares of the target gains 1 [surge](scc:mcdm.heroes.
 flavor: Your precise strikes let your allies take advantage of a target's agony.
 keywords:
     - Melee
-    - Strike
+    - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
     - Weapon
 level: "1"
 name: Gasping in Pain
-power_roll_characteristic: Agility
 scc: mcdm.heroes.v1/feature.ability.shadow.level-1/gasping-in-pain
 subtype: signature
 target: One creature
-tier1: 3 + A damage
-tier2: 5 + A damage
-tier3: 8 + A damage; I < STRONG[, prone](scc:mcdm.heroes.v1/condition/prone)
 type: ability
 ---
 
 
 *Your precise strikes let your allies take advantage of a target's agony.*
 
-| **Melee, Strike, Weapon** |     **Main action** |
+| **Melee, [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** |     **Main action** |
 |---------------------------|--------------------:|
 | **📏 Melee 1**            | **🎯 One creature** |
 
-**Power Roll + Agility:**
+**Power Roll + [Agility](scc:mcdm.heroes.v1/rule.character/agility):**
 
 - **≤11:** 3 + A damage
 - **12-16:** 5 + A damage

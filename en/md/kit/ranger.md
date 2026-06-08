@@ -4,7 +4,6 @@ equipment_text: You wear medium armor and wield a bow and a medium weapon.
 melee_damage_bonus: +1/+1/+1
 name: Ranger
 ranged_damage_bonus: +1/+1/+1
-ranged_distance_bonus: "+5"
 scc: mcdm.heroes.v1/kit/ranger
 speed_bonus: "+1"
 type: kit
@@ -26,7 +25,7 @@ You wear medium armor and wield a bow and a medium weapon.
 
 **Ranged Damage Bonus:** +1/+1/+1
 
-**Ranged Distance Bonus:** +5
+**Ranged [Distance](scc:mcdm.heroes.v1/rule.combat/distance) Bonus:** +5
 
 **Disengage Bonus:** +1
 
@@ -36,11 +35,11 @@ You wear medium armor and wield a bow and a medium weapon.
 
 *A well-placed shot leaves your enemy struggling to move.*
 
-| **Ranged, Strike, Weapon** |     **Main action** |
+| **Ranged, [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** |     **Main action** |
 |----------------------------|--------------------:|
 | **📏 Ranged 10**           | **🎯 One creature** |
 
-**Power Roll + Might or Agility:**
+**Power Roll + [Might](scc:mcdm.heroes.v1/rule.character/might) or [Agility](scc:mcdm.heroes.v1/rule.character/agility):**
 
 - **≤11:** 3 + M or A damage; A < WEAK, [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
 - **12-16:** 5 + M or A damage; A < AVERAGE, [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)

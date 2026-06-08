@@ -8,7 +8,7 @@ type: project
 
 **Project Source:** None
 
-**Project Roll Characteristic:** Presence
+**Project Roll [Characteristic](scc:mcdm.heroes.v1/rule.character/characteristic):** [Presence](scc:mcdm.heroes.v1/rule.character/presence)
 
 **Project Goal:** 60
 

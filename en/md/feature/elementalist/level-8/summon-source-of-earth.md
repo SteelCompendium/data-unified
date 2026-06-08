@@ -15,9 +15,9 @@ You have the following ability.
 >
 >|      Elemental      |           -            |      Level 8      |         BRUTE         |         EV -         |
 >|:-------------------:|:----------------------:|:-----------------:|:---------------------:|:--------------------:|
->|    **2**<br>Size    |     **6**<br>Speed     | **45**<br>[Stamina](scc:mcdm.heroes.v1/rule.health/stamina) |  **5**<br>Stability   | **5**<br>[Free Strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) |
+>|    **2**<br>[Size](scc:mcdm.heroes.v1/rule.character/size)    |     **6**<br>Speed     | **45**<br>[Stamina](scc:mcdm.heroes.v1/rule.health/stamina) |  **5**<br>Stability   | **5**<br>[Free Strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) |
 >| **-**<br>Immunities | **[Burrow](scc:mcdm.heroes.v1/movement/burrow)**<br>Movement |                   | **-**<br>With Captain | **-**<br>Weaknesses  |
->|   **+3**<br>Might   |   **+1**<br>Agility    | **-5**<br>Reason  |  **-5**<br>Intuition  |  **-3**<br>Presence  |
+>|   **+3**<br>[Might](scc:mcdm.heroes.v1/rule.character/might)   |   **+1**<br>[Agility](scc:mcdm.heroes.v1/rule.character/agility)    | **-5**<br>[Reason](scc:mcdm.heroes.v1/rule.character/reason)  |  **-5**<br>[Intuition](scc:mcdm.heroes.v1/rule.character/intuition)  |  **-3**<br>[Presence](scc:mcdm.heroes.v1/rule.character/presence)  |
 >
 >> **Earthwalk**
 >>
@@ -25,7 +25,7 @@ You have the following ability.
 >
 >> **Tunneler**
 >>
->> When the source burrows, they create a size 2 tunnel.
+>> When the source burrows, they create a [size](scc:mcdm.heroes.v1/rule.character/size) 2 tunnel.
 >
 >> **Earth Harness**
 >>
@@ -33,7 +33,7 @@ You have the following ability.
 >
 >> **Boulder Bash**
 >>
->> | **Melee, Ranged, Strike, Weapon** |                 **Signature** |
+>> | **Melee, Ranged, [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** |                 **Signature** |
 >> |-----------------------------------|------------------------------:|
 >> | **📏 Melee 2 or ranged 10**       | **🎯 One creature or object** |
 >>

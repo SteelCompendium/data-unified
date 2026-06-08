@@ -16,7 +16,7 @@ Only one destined for death can contain the power of the Mortal Coil. A mortal c
 
 When the Mortal Coil is left unattended or is in the possession of a creature who is not mortal, it activates and can't be deactivated until a mortal creature becomes its host once more. While active, the artifact extends a penumbra of influence for 10 miles in every direction. Every creature in the penumbra is subject to the following effects.
 
-**One Foot in the Grave:** Any creature in the penumbra has damage weakness 2 and can't regain [Stamina](scc:mcdm.heroes.v1/rule.health/stamina).
+**One Foot in the Grave:** Any creature in the penumbra has [damage weakness](scc:mcdm.heroes.v1/rule.damage/damage-weakness) 2 and can't regain [Stamina](scc:mcdm.heroes.v1/rule.health/stamina).
 
 **Get Busy Dyin':** Each creature in the penumbra ages at 10 times the usual rate, and diseases and poisons affecting creatures in the penumbra run their course at 10 times their usual rate. A creature with no natural maximum lifespan permanently reduces their [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) maximum by 10 each year. Each creature can undertake one additional respite activity during each respite.
 

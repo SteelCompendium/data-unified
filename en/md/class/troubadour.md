@@ -1,12 +1,12 @@
 ---
-average_potency: Presence − 1
+average_potency: '[Presence](scc:mcdm.heroes.v1/rule.character/presence) − 1'
 name: Troubadour
 scc: mcdm.heroes.v1/class/troubadour
 skills:
     - 'You gain the [Read Person](scc:mcdm.heroes.v1/skill/read-person) skill (see Skills in Chapter 9: [Tests](scc:mcdm.heroes.v1/chapter/tests)). Then choose two skills from the interpersonal skill group and one skill from the intrigue or lore skill groups. (*Quick Build:* Brag, Flirt, [Read Person](scc:mcdm.heroes.v1/skill/read-person), Rumors.)'
-strong_potency: Presence
+strong_potency: '[Presence](scc:mcdm.heroes.v1/rule.character/presence)'
 type: class
-weak_potency: Presence − 2
+weak_potency: '[Presence](scc:mcdm.heroes.v1/rule.character/presence) − 2'
 ---
 
 The whole world's a stage, and everyone on it, an actor. No one knows this better than the [troubadour](scc:mcdm.heroes.v1/class/troubadour). You find energy in the drama of everyday life and know how to draw spectacle forth from even the most mundane of situations. You accent highs and deepen lows in service to whoever might witness your performance.
@@ -15,21 +15,21 @@ The whole world's a stage, and everyone on it, an actor. No one knows this bette
 
 "History is a tale. Each of us is just a story we tell ourselves. Change the story, and you change the world." **Jackson Bootblack**
 
-There is no visible text in the image provided. The image appears to show a decorative or scalloped edge pattern, but contains no recognizable letters, words, or symbols.
+There is no visible text in the image provided. The image appears to show a decorative or scalloped [edge](scc:mcdm.heroes.v1/rule.dice/edge) pattern, but contains no recognizable letters, words, or symbols.
 
 ### Basics
 
-**Starting Characteristics:** You start with an Agility of 2 and a Presence of 2, and you can choose one of the following arrays for your other characteristic scores:
+**Starting [Characteristics](scc:mcdm.heroes.v1/rule.character/characteristic):** You start with an [Agility](scc:mcdm.heroes.v1/rule.character/agility) of 2 and a [Presence](scc:mcdm.heroes.v1/rule.character/presence) of 2, and you can choose one of the following arrays for your other [characteristic](scc:mcdm.heroes.v1/rule.character/characteristic) scores:
 
 - 2, −1, −1
 - 1, 1, −1
 - 1, 0, 0
 
-**Weak Potency:** Presence − 2
+**Weak Potency:** [Presence](scc:mcdm.heroes.v1/rule.character/presence) − 2
 
-**Average Potency:** Presence − 1
+**Average Potency:** [Presence](scc:mcdm.heroes.v1/rule.character/presence) − 1
 
-**Strong Potency:** Presence
+**Strong Potency:** [Presence](scc:mcdm.heroes.v1/rule.character/presence)
 
 **Starting [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) at 1st Level:** 18
 

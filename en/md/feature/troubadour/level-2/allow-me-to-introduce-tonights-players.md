@@ -6,4 +6,4 @@ scc: mcdm.heroes.v1/feature.troubadour.level-2/allow-me-to-introduce-tonights-pl
 type: feature
 ---
 
-Whenever you take the first turn in a combat encounter, you can use a main action to introduce yourself and your allies to your opponents. Each ally can [shift](scc:mcdm.heroes.v1/movement/shifting) up to their speed, and ability rolls made against them have a double bane until the end of the combat round. Additionally, any surprised enemy is no longer surprised.
+Whenever you take the first turn in a combat encounter, you can use a main action to introduce yourself and your allies to your opponents. Each ally can [shift](scc:mcdm.heroes.v1/movement/shifting) up to their speed, and ability rolls made against them have a double [bane](scc:mcdm.heroes.v1/rule.dice/bane) until the end of the combat round. Additionally, any surprised enemy is no longer surprised.

@@ -16,7 +16,7 @@ type: treasure
 
 **Project Source:** Texts or lore in Khelt
 
-**Project Roll Characteristic:** Reason, Intuition, or Presence
+**Project Roll [Characteristic](scc:mcdm.heroes.v1/rule.character/characteristic):** [Reason](scc:mcdm.heroes.v1/rule.character/reason), [Intuition](scc:mcdm.heroes.v1/rule.character/intuition), or [Presence](scc:mcdm.heroes.v1/rule.character/presence)
 
 **Project Goal:** 450
 

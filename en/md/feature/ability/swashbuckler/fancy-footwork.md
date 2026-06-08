@@ -5,7 +5,7 @@ effect: You can [shift](scc:mcdm.heroes.v1/movement/shifting) into any square th
 flavor: All combat is a dance—and you'll be the one leading.
 keywords:
     - Melee
-    - Strike
+    - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
     - Weapon
 kit: swashbuckler
 name: Fancy Footwork
@@ -17,11 +17,11 @@ type: ability
 
 *All combat is a dance—and you'll be the one leading.*
 
-| **Melee, Strike, Weapon** |     **Main action** |
+| **Melee, [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** |     **Main action** |
 |---------------------------|--------------------:|
 | **📏 Melee 1**            | **🎯 One creature** |
 
-**Power Roll + Might or Agility:**
+**Power Roll + [Might](scc:mcdm.heroes.v1/rule.character/might) or [Agility](scc:mcdm.heroes.v1/rule.character/agility):**
 
 - **≤11:** 5 + M or A damage
 - **12-16:** 7 + M or A damage; push 1

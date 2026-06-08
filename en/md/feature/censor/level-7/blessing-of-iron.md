@@ -6,4 +6,4 @@ scc: mcdm.heroes.v1/feature.censor.level-7/blessing-of-iron
 type: feature
 ---
 
-The gods send divine favor to you and your allies. While you are not [dying](scc:mcdm.heroes.v1/rule.health/dying), enemies take a bane on strikes against you or any ally within 3 squares of you.
+The gods send divine favor to you and your allies. While you are not [dying](scc:mcdm.heroes.v1/rule.health/dying), enemies take a [bane](scc:mcdm.heroes.v1/rule.dice/bane) on [strikes](scc:mcdm.heroes.v1/rule.combat/strike) against you or any ally within 3 squares of you.

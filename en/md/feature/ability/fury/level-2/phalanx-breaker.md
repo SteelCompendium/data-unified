@@ -10,12 +10,8 @@ keywords:
     - Weapon
 level: "2"
 name: Phalanx-Breaker
-power_roll_characteristic: Might
 scc: mcdm.heroes.v1/feature.ability.fury.level-2/phalanx-breaker
 target: Self
-tier1: 2 damage; A < WEAK, [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)
-tier2: 4 damage; A < AVERAGE, [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)
-tier3: 6 damage; A < STRONG, [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)
 type: ability
 ---
 
@@ -28,7 +24,7 @@ type: ability
 
 **Effect:** You [shift](scc:mcdm.heroes.v1/movement/shifting) up to your speed and make one power roll that targets up to three enemies you move adjacent to during this [shift](scc:mcdm.heroes.v1/movement/shifting).
 
-**Power Roll + Might:**
+**Power Roll + [Might](scc:mcdm.heroes.v1/rule.character/might):**
 
 - **≤11:** 2 damage; A < WEAK, [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)
 - **12-16:** 4 damage; A < AVERAGE, [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)

@@ -15,11 +15,11 @@ You nearly lost your life at sea, but then you heard the voice. Someone—or som
 >
 > *You summon a wave of water to batter your foe.*
 >
-> | **Magic, Ranged, Strike** |               **Main action** |
+> | **Magic, Ranged, [Strike](scc:mcdm.heroes.v1/rule.combat/strike)** |               **Main action** |
 > |---------------------------| -----------------------------:|
 > | **📏 Ranged 10**          | **🎯 One creature or object** |
 >
-> **Power Roll + Your Highest Characteristic Score:**
+> **Power Roll + Your Highest [Characteristic](scc:mcdm.heroes.v1/rule.character/characteristic) Score:**
 >
 > - **≤11:** 2 damage; push or pull 1
 > - **12-16:** 5 damage; push or pull 2

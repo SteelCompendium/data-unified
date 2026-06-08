@@ -13,5 +13,5 @@ type: title
 **Effect:** Choose one of the following benefits:
 
 - *Honor Among Thieves:* When negotiating with criminals, your Renown score is considered to be 2 higher than usual.
-- *Minion Mower:* When you make a melee strike that targets a minion and at least one more minion is within distance of the strike, the strike gains a +3 damage bonus.
-- *No, You're Under Arrest!:* You gain an edge on the [Escape Grab](scc:mcdm.heroes.v1/feature.common.maneuvers/escape-grab) maneuver. Additionally, when you succeed on a test to escape bonds or manacles, as part of the same maneuver, you can transfer the bonds or manacles to an adjacent creature of the same size without them immediately noticing.
+- *Minion Mower:* When you make a melee [strike](scc:mcdm.heroes.v1/rule.combat/strike) that targets a minion and at least one more minion is within [distance](scc:mcdm.heroes.v1/rule.combat/distance) of the [strike](scc:mcdm.heroes.v1/rule.combat/strike), the [strike](scc:mcdm.heroes.v1/rule.combat/strike) gains a +3 damage bonus.
+- *No, You're Under Arrest!:* You gain an [edge](scc:mcdm.heroes.v1/rule.dice/edge) on the [Escape Grab](scc:mcdm.heroes.v1/feature.common.maneuvers/escape-grab) maneuver. Additionally, when you succeed on a test to escape bonds or manacles, as part of the same maneuver, you can transfer the bonds or manacles to an adjacent creature of the same [size](scc:mcdm.heroes.v1/rule.character/size) without them immediately noticing.

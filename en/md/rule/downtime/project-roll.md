@@ -4,7 +4,7 @@ scc: mcdm.heroes.v1/rule.downtime/project-roll
 type: rule
 ---
 
-As a respite activity (see Respite in Chapter 1: [The Basics](scc:mcdm.heroes.v1/chapter/the-basics)), you make a project roll for one of your own projects. Alternatively, you can make a project roll to contribute to another hero's project. A project roll is a test with a special outcome that isn't divided into tiers. The characteristic used in the test is determined by the project.
+As a respite activity (see Respite in Chapter 1: [The Basics](scc:mcdm.heroes.v1/chapter/the-basics)), you make a project roll for one of your own projects. Alternatively, you can make a project roll to contribute to another hero's project. A project roll is a test with a special outcome that isn't divided into tiers. The [characteristic](scc:mcdm.heroes.v1/rule.character/characteristic) used in the test is determined by the project.
 
 When you make a project roll, the total—no matter how low—becomes project points that are accrued by the project. Even if you have a penalty on a project roll, the minimum total for the roll is 1. If you obtain a critical success—a natural 19 or 20—on a project roll, this is called a **breakthrough**, and you can make another project roll for the same project as part of the same respite activity.
 
@@ -14,7 +14,7 @@ As you work on a downtime project, the Director can add events that help form th
 
 #### Project Roll Edges and Banes
 
-Since project rolls don't use success tiers, they don't follow the usual rules for double edges and double banes. If you gain an edge on a project roll, you add 2 to the roll, as usual. But if you have a double edge, you add 4 to the roll. Likewise, you subtract 2 from a project roll that takes a bane, and you subtract 4 from a roll that has a double bane.
+Since project rolls don't use success tiers, they don't follow the usual rules for double [edges](scc:mcdm.heroes.v1/rule.dice/edge) and double [banes](scc:mcdm.heroes.v1/rule.dice/bane). If you gain an [edge](scc:mcdm.heroes.v1/rule.dice/edge) on a project roll, you add 2 to the roll, as usual. But if you have a double [edge](scc:mcdm.heroes.v1/rule.dice/edge), you add 4 to the roll. Likewise, you subtract 2 from a project roll that takes a [bane](scc:mcdm.heroes.v1/rule.dice/bane), and you subtract 4 from a roll that has a double [bane](scc:mcdm.heroes.v1/rule.dice/bane).
 
 #### Skills and Project Rolls
 
@@ -22,4 +22,4 @@ You can apply skills from either the crafting or lore skill groups to project ro
 
 #### Language and Project Rolls
 
-If you know the language of a project source, you can make a project roll without any issues. If you don't know the language of the source but you know a related language, the project roll takes a bane. If you don't know the source's language or a related language, the project roll has a double bane.
+If you know the language of a project source, you can make a project roll without any issues. If you don't know the language of the source but you know a related language, the project roll takes a [bane](scc:mcdm.heroes.v1/rule.dice/bane). If you don't know the source's language or a related language, the project roll has a double [bane](scc:mcdm.heroes.v1/rule.dice/bane).

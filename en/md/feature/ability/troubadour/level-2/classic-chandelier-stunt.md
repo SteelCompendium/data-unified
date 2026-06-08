@@ -3,11 +3,11 @@ action_type: Main action
 class: troubadour
 cost: 5 Drama
 distance: Melee 1
-effect: Each target can [shift](scc:mcdm.heroes.v1/movement/shifting) up to 5 squares, including vertically, but must end this movement adjacent to the other target and on solid ground. Each target can then make a melee [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) that deals extra damage equal to twice their highest characteristic score.
+effect: Each target can [shift](scc:mcdm.heroes.v1/movement/shifting) up to 5 squares, including vertically, but must end this movement adjacent to the other target and on solid ground. Each target can then make a melee [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) that deals extra damage equal to twice their highest [characteristic](scc:mcdm.heroes.v1/rule.character/characteristic) score.
 flavor: Audiences love this bit.
 keywords:
     - Melee
-    - Strike
+    - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
     - Weapon
 level: "2"
 name: Classic Chandelier Stunt
@@ -19,8 +19,8 @@ type: ability
 
 *Audiences love this bit.*
 
-| **Melee, Strike, Weapon** |                  **Main action** |
+| **Melee, [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** |                  **Main action** |
 |---------------------------|---------------------------------:|
 | **📏 Melee 1**            | **🎯 Self and one willing ally** |
 
-**Effect:** Each target can [shift](scc:mcdm.heroes.v1/movement/shifting) up to 5 squares, including vertically, but must end this movement adjacent to the other target and on solid ground. Each target can then make a melee [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) that deals extra damage equal to twice their highest characteristic score.
+**Effect:** Each target can [shift](scc:mcdm.heroes.v1/movement/shifting) up to 5 squares, including vertically, but must end this movement adjacent to the other target and on solid ground. Each target can then make a melee [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) that deals extra damage equal to twice their highest [characteristic](scc:mcdm.heroes.v1/rule.character/characteristic) score.

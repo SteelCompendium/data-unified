@@ -1,12 +1,12 @@
 ---
-average_potency: Presence − 1
+average_potency: '[Presence](scc:mcdm.heroes.v1/rule.character/presence) − 1'
 name: Censor
 scc: mcdm.heroes.v1/class/censor
 skills:
     - 'Choose any two skills from the interpersonal or lore skill groups (see Skills in Chapter 9: [Tests](scc:mcdm.heroes.v1/chapter/tests)). (*Quick Build:* [Intimidate](scc:mcdm.heroes.v1/skill/intimidate), [Religion](scc:mcdm.heroes.v1/skill/religion).)'
-strong_potency: Presence
+strong_potency: '[Presence](scc:mcdm.heroes.v1/rule.character/presence)'
 type: class
-weak_potency: Presence − 2
+weak_potency: '[Presence](scc:mcdm.heroes.v1/rule.character/presence) − 2'
 ---
 
 Demons and deathless fear you. Criminals run from the sight of your shadow. Agents of chaos, blasphemers, and heretics tremble at the sound of your voice. You carry the power of the gods, armed with wrath and sent out into the world first to seek, then censor those whose actions—or even existence—are anathema to your church.
@@ -23,17 +23,17 @@ As a [censor](scc:mcdm.heroes.v1/class/censor), you're at your best against the 
 
 ### Basics
 
-**Starting Characteristics:** You start with a Might of 2 and a Presence of 2, and you can choose one of the following arrays for your other characteristic scores:
+**Starting [Characteristics](scc:mcdm.heroes.v1/rule.character/characteristic):** You start with a [Might](scc:mcdm.heroes.v1/rule.character/might) of 2 and a [Presence](scc:mcdm.heroes.v1/rule.character/presence) of 2, and you can choose one of the following arrays for your other [characteristic](scc:mcdm.heroes.v1/rule.character/characteristic) scores:
 
 - 2, −1, −1
 - 1, 1, −1
 - 1, 0, 0
 
-**Weak Potency:** Presence − 2
+**Weak Potency:** [Presence](scc:mcdm.heroes.v1/rule.character/presence) − 2
 
-**Average Potency:** Presence − 1
+**Average Potency:** [Presence](scc:mcdm.heroes.v1/rule.character/presence) − 1
 
-**Strong Potency:** Presence
+**Strong Potency:** [Presence](scc:mcdm.heroes.v1/rule.character/presence)
 
 **Starting [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) at 1st Level:** 21
 

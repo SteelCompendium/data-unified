@@ -20,7 +20,7 @@ A weapon imbued with an enhancement grants you special benefits while it is wiel
 
 ###### Unarmed Strike Treasures
 
-A hero who has a kit that uses unarmed strikes, such as the [Martial Artist](scc:mcdm.heroes.v1/kit/martial-artist) and [Pugilist](scc:mcdm.heroes.v1/kit/pugilist) kit, can create leveled weapon treasures that enhance their unarmed strikes by imbuing hand wraps, rings, shoes, or any other item worn on the body with supernatural power. At the Director's discretion, heroes who don't use kits, such as [elementalists](scc:mcdm.heroes.v1/class/elementalist) and [nulls](scc:mcdm.heroes.v1/class/null), can also benefit from such treasures.
+A hero who has a kit that uses unarmed [strikes](scc:mcdm.heroes.v1/rule.combat/strike), such as the [Martial Artist](scc:mcdm.heroes.v1/kit/martial-artist) and [Pugilist](scc:mcdm.heroes.v1/kit/pugilist) kit, can create leveled weapon treasures that enhance their unarmed [strikes](scc:mcdm.heroes.v1/rule.combat/strike) by imbuing hand wraps, rings, shoes, or any other item worn on the body with supernatural power. At the Director's discretion, heroes who don't use kits, such as [elementalists](scc:mcdm.heroes.v1/class/elementalist) and [nulls](scc:mcdm.heroes.v1/class/null), can also benefit from such treasures.
 
 ###### 1st-Level Weapon Enhancement
 
@@ -28,7 +28,7 @@ A hero who has a kit that uses unarmed strikes, such as the [Martial Artist](scc
 
 **Project Source:** Texts or lore in a language determined by the enhancement
 
-**Project Roll Characteristic:** Might, Reason, or Intuition
+**Project Roll [Characteristic](scc:mcdm.heroes.v1/rule.character/characteristic):** [Might](scc:mcdm.heroes.v1/rule.character/might), [Reason](scc:mcdm.heroes.v1/rule.character/reason), or [Intuition](scc:mcdm.heroes.v1/rule.character/intuition)
 
 **Project Goal:** 150
 
@@ -38,7 +38,7 @@ A hero who has a kit that uses unarmed strikes, such as the [Martial Artist](scc
 
 **Disrupting I:** Whenever you damage an undead using this weapon and leave that undead with 15 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) or less, they drop to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina).
 
-**Hurling:** Whenever you use a melee ability using this weapon, you can throw the weapon by treating the ability's distance as ranged 3 instead. When the ability is resolved, the weapon returns to your hand. Any ability used when you throw this weapon can't impose the [grabbed](scc:mcdm.heroes.v1/condition/grabbed) or [restrained](scc:mcdm.heroes.v1/condition/restrained) conditions.
+**Hurling:** Whenever you use a melee ability using this weapon, you can throw the weapon by treating the ability's [distance](scc:mcdm.heroes.v1/rule.combat/distance) as ranged 3 instead. When the ability is resolved, the weapon returns to your hand. Any ability used when you throw this weapon can't impose the [grabbed](scc:mcdm.heroes.v1/condition/grabbed) or [restrained](scc:mcdm.heroes.v1/condition/restrained) conditions.
 
 **Merciful:** Whenever you reduce a non-undead creature to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) using this weapon, the creature falls unconscious and wakes up 1d6 hours later. A creature with the Heal skill can wake the unconscious creature early with 1 uninterrupted minute of medical treatment. Whenever the creature wakes, they regain 1 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina).
 
@@ -70,7 +70,7 @@ A hero who has a kit that uses unarmed strikes, such as the [Martial Artist](scc
 
 **Project Source:** Texts or lore in a language determined by the enhancement
 
-**Project Roll Characteristic:** Might, Reason, or Intuition
+**Project Roll [Characteristic](scc:mcdm.heroes.v1/rule.character/characteristic):** [Might](scc:mcdm.heroes.v1/rule.character/might), [Reason](scc:mcdm.heroes.v1/rule.character/reason), or [Intuition](scc:mcdm.heroes.v1/rule.character/intuition)
 
 **Project Goal:** 150
 
@@ -81,7 +81,7 @@ A hero who has a kit that uses unarmed strikes, such as the [Martial Artist](scc
 >
 > *Their momentum, your impact.*
 >
-> | **Melee, Strike, Weapon** | **Free triggered** |
+> | **Melee, [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** | **Free triggered** |
 > |---------------------------|-------------------:|
 > | **📏 Melee 1**            |   **🎯 One enemy** |
 >
@@ -98,7 +98,7 @@ A hero who has a kit that uses unarmed strikes, such as the [Martial Artist](scc
 > **Metamorphic:** You can change this weapon's shape and form as a maneuver, granting one of the following benefits of your choice:
 >
 > - **Concealed:** The weapon shrinks to the size of a piece of jewelry and can be worn as an earring, necklace, or similar accessory. While in this form, the weapon can't be used for weapon abilities.
-> - **Large:** Abilities using this weapon gain a +1 melee distance bonus or a +3 ranged distance bonus.
+> - **Large:** Abilities using this weapon gain a +1 melee [distance](scc:mcdm.heroes.v1/rule.combat/distance) bonus or a +3 ranged [distance](scc:mcdm.heroes.v1/rule.combat/distance) bonus.
 > - **Vicious:** Whenever you damage a creature using this weapon, you deal an extra 1 damage on a tier 1 outcome, an extra 2 damage on a tier 2 outcome, and an extra 3 damage on a tier 3 outcome.
 >
 > **Silencing:** Whenever you damage a creature with an ability using this weapon and obtain a tier 3 outcome, that creature also can't use magic abilities until the end of their next turn.
@@ -129,7 +129,7 @@ A hero who has a kit that uses unarmed strikes, such as the [Martial Artist](scc
 
 **Project Source:** Texts or lore in a language determined by the enhancement
 
-**Project Roll Characteristic:** Might, Reason, or Intuition
+**Project Roll [Characteristic](scc:mcdm.heroes.v1/rule.character/characteristic):** [Might](scc:mcdm.heroes.v1/rule.character/might), [Reason](scc:mcdm.heroes.v1/rule.character/reason), or [Intuition](scc:mcdm.heroes.v1/rule.character/intuition)
 
 **Project Goal:** 150
 
@@ -152,7 +152,7 @@ A hero who has a kit that uses unarmed strikes, such as the [Martial Artist](scc
 > |-----------------|------------------------------:|
 > | **📏 3 burst**  | **🎯 Each enemy in the area** |
 >
-> **Power Roll + Your Highest Characteristic Score:**
+> **Power Roll + Your Highest [Characteristic](scc:mcdm.heroes.v1/rule.character/characteristic) Score:**
 >
 > - **≤11:** 7 fire damage
 > - **12-16:** 11 fire damage
@@ -164,7 +164,7 @@ A hero who has a kit that uses unarmed strikes, such as the [Martial Artist](scc
 >
 > **Vengeance III:** Whenever you use a damage-dealing ability using this weapon against a creature who has dealt damage to you since the end of your last turn, the ability deals an extra 6 damage. This replaces the benefit of Vengeance II.
 >
-> **Windcutting:** Whenever you use a melee signature ability that usually targets one creature, you can take a bane on the ability to target each enemy in a cube 3 within distance. If your signature ability would usually cause its target to become [grabbed](scc:mcdm.heroes.v1/condition/grabbed) or [restrained](scc:mcdm.heroes.v1/condition/restrained), each target in the area is instead [slowed](scc:mcdm.heroes.v1/condition/slowed) until the end of their next turn.
+> **Windcutting:** Whenever you use a melee signature ability that usually targets one creature, you can take a [bane](scc:mcdm.heroes.v1/rule.dice/bane) on the ability to target each enemy in a cube 3 within [distance](scc:mcdm.heroes.v1/rule.combat/distance). If your signature ability would usually cause its target to become [grabbed](scc:mcdm.heroes.v1/condition/grabbed) or [restrained](scc:mcdm.heroes.v1/condition/restrained), each target in the area is instead [slowed](scc:mcdm.heroes.v1/condition/slowed) until the end of their next turn.
 
 ###### 9th-Level Weapon Enhancements
 

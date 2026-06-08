@@ -9,26 +9,22 @@ keywords:
     - Fire
     - Magic
     - Ranged
-    - Strike
+    - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
 level: "9"
 name: Unquenchable Fire
-power_roll_characteristic: Reason
 scc: mcdm.heroes.v1/feature.ability.elementalist.level-9/unquenchable-fire
 target: One enemy or object
-tier1: 13 + R fire damage; I < WEAK, [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)
-tier2: 18 + R fire damage; I < AVERAGE, [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)
-tier3: 25 + R fire damage; I < STRONG, [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)
 type: ability
 ---
 
 
 *You let fly a fiery missile braided with pure primal energy.*
 
-| **Fire, Magic, Ranged, Strike** |            **Main action** |
+| **Fire, Magic, Ranged, [Strike](scc:mcdm.heroes.v1/rule.combat/strike)** |            **Main action** |
 |---------------------------------|---------------------------:|
 | **📏 Ranged 10**                | **🎯 One enemy or object** |
 
-**Power Roll + Reason:**
+**Power Roll + [Reason](scc:mcdm.heroes.v1/rule.character/reason):**
 
 - **≤11:** 13 + R fire damage; I < WEAK, [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)
 - **12-16:** 18 + R fire damage; I < AVERAGE, [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)

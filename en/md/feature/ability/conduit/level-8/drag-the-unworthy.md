@@ -8,26 +8,22 @@ flavor: You conjure an angel who moves a foe and heals your allies.
 keywords:
     - Magic
     - Ranged
-    - Strike
+    - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
 level: "8"
 name: Drag the Unworthy
-power_roll_characteristic: Intuition
 scc: mcdm.heroes.v1/feature.ability.conduit.level-8/drag-the-unworthy
 target: One creature or object
-tier1: 9 + I holy damage; slide 3
-tier2: 13 + I holy damage; slide 4
-tier3: 18 + I holy damage; slide 6
 type: ability
 ---
 
 
 *You conjure an angel who moves a foe and heals your allies.*
 
-| **Magic, Ranged, Strike**  |               **Main action** |
+| **Magic, Ranged, [Strike](scc:mcdm.heroes.v1/rule.combat/strike)**  |               **Main action** |
 |----------------------------|------------------------------:|
 | **📏 Ranged 10**           | **🎯 One creature or object** |
 
-**Power Roll + Intuition:**
+**Power Roll + [Intuition](scc:mcdm.heroes.v1/rule.character/intuition):**
 
 - **≤11:** 9 + I holy damage; slide 3
 - **12-16:** 13 + I holy damage; slide 4

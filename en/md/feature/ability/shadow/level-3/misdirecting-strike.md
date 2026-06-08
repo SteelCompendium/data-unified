@@ -8,27 +8,23 @@ flavor: '"Why are you looking at ME?!"'
 keywords:
     - Melee
     - Ranged
-    - Strike
+    - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
     - Weapon
 level: "3"
 name: Misdirecting Strike
-power_roll_characteristic: Agility
 scc: mcdm.heroes.v1/feature.ability.shadow.level-3/misdirecting-strike
 target: One creature
-tier1: 9 + A damage
-tier2: 13 + A damage
-tier3: 18 + A damage
 type: ability
 ---
 
 
 *"Why are you looking at ME?!"*
 
-| **Melee, Ranged, Strike, Weapon** |     **Main action** |
+| **Melee, Ranged, [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** |     **Main action** |
 |-----------------------------------|--------------------:|
 | **📏 Melee 1 or ranged 5**        | **🎯 One creature** |
 
-**Power Roll + Agility:**
+**Power Roll + [Agility](scc:mcdm.heroes.v1/rule.character/agility):**
 
 - **≤11:** 9 + A damage
 - **12-16:** 13 + A damage

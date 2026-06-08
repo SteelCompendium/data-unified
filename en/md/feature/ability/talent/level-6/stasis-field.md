@@ -12,12 +12,8 @@ keywords:
     - Ranged
 level: "6"
 name: Stasis Field
-power_roll_characteristic: Presence
 scc: mcdm.heroes.v1/feature.ability.talent.level-6/stasis-field
 target: Each creature and object in the area
-tier1: P < WEAK, the target is [slowed](scc:mcdm.heroes.v1/condition/slowed) until the effect ends
-tier2: P < AVERAGE, the target's speed is 0 until the effect ends
-tier3: P < STRONG, the target is [restrained](scc:mcdm.heroes.v1/condition/restrained) until the effect ends
 type: ability
 ---
 
@@ -32,7 +28,7 @@ type: ability
 
 Make a power roll that targets each enemy in the area.
 
-**Power Roll + Presence:**
+**Power Roll + [Presence](scc:mcdm.heroes.v1/rule.character/presence):**
 
 - **≤11:** P < WEAK, the target is [slowed](scc:mcdm.heroes.v1/condition/slowed) until the effect ends
 - **12-16:** P < AVERAGE, the target's speed is 0 until the effect ends

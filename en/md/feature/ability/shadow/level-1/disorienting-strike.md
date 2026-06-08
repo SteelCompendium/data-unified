@@ -7,27 +7,23 @@ effect: You can [shift](scc:mcdm.heroes.v1/movement/shifting) into any square th
 flavor: Your attack leaves them reeling, allowing you to follow up.
 keywords:
     - Melee
-    - Strike
+    - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
     - Weapon
 level: "1"
 name: Disorienting Strike
-power_roll_characteristic: Agility
 scc: mcdm.heroes.v1/feature.ability.shadow.level-1/disorienting-strike
 target: One creature
-tier1: 4 + A damage; slide 2
-tier2: 6 + A damage; slide 3
-tier3: 10 + A damage; slide 5
 type: ability
 ---
 
 
 *Your attack leaves them reeling, allowing you to follow up.*
 
-| **Melee, Strike, Weapon** |     **Main action** |
+| **Melee, [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** |     **Main action** |
 |---------------------------|--------------------:|
 | **📏 Melee 1**            | **🎯 One creature** |
 
-**Power Roll + Agility:**
+**Power Roll + [Agility](scc:mcdm.heroes.v1/rule.character/agility):**
 
 - **≤11:** 4 + A damage; slide 2
 - **12-16:** 6 + A damage; slide 3

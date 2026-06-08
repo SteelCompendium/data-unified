@@ -12,12 +12,8 @@ keywords:
     - Weapon
 level: "6"
 name: Puppet Strings
-power_roll_characteristic: Agility
 scc: mcdm.heroes.v1/feature.ability.shadow.level-6/puppet-strings
 target: Two enemies
-tier1: 2 damage; if the target has R < WEAK, before the damage is resolved, they make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike).
-tier2: 5 damage; if the target has R < AVERAGE, before the damage is resolved, they use a main action ability of your choice.
-tier3: 7 damage; if the target has R < STRONG, before the damage is resolved, they can [shift](scc:mcdm.heroes.v1/movement/shifting) up to their speed and use a main action ability of your choice.
 type: ability
 ---
 
@@ -28,7 +24,7 @@ type: ability
 |--------------------------------------|-------------------:|
 | **📏 Melee 1**                       | **🎯 Two enemies** |
 
-**Power Roll + Agility:**
+**Power Roll + [Agility](scc:mcdm.heroes.v1/rule.character/agility):**
 
 - **≤11:** 2 damage; if the target has R < WEAK, before the damage is resolved, they make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike).
 - **12-16:** 5 damage; if the target has R < AVERAGE, before the damage is resolved, they use a main action ability of your choice.

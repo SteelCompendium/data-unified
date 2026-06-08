@@ -11,12 +11,8 @@ keywords:
     - Void
 level: "1"
 name: Behold the Mystery
-power_roll_characteristic: Reason
 scc: mcdm.heroes.v1/feature.ability.elementalist.level-1/behold-the-mystery
 target: Each enemy in the area
-tier1: 2 psychic damage
-tier2: 4 psychic damage
-tier3: 6 psychic damage
 type: ability
 ---
 
@@ -27,7 +23,7 @@ type: ability
 |-------------------------------|------------------------------:|
 | **📏 3 cube within 10**       | **🎯 Each enemy in the area** |
 
-**Power Roll + Reason:**
+**Power Roll + [Reason](scc:mcdm.heroes.v1/rule.character/reason):**
 
 - **≤11:** 2 psychic damage
 - **12-16:** 4 psychic damage

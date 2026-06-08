@@ -12,4 +12,4 @@ You can't maintain any abilities that would make you earn a negative amount of e
 
 If you maintain the same ability on several targets and the effect includes a power roll, you make that roll once and apply the same effect to all targets. A creature can't be affected by multiple instances of a persistent ability.
 
-If you take damage equal to or greater than 5 times your Reason score in one turn, you stop maintaining any persistent abilities. For instance, if you have a Reason score of 2 and are maintaining [Instantaneous Excavation](scc:mcdm.heroes.v1/feature.ability.elementalist.level-1/instantaneous-excavation), taking 10 or more damage in one turn causes you to stop maintaining the ability.
+If you take damage equal to or greater than 5 times your [Reason](scc:mcdm.heroes.v1/rule.character/reason) score in one turn, you stop maintaining any persistent abilities. For instance, if you have a [Reason](scc:mcdm.heroes.v1/rule.character/reason) score of 2 and are maintaining [Instantaneous Excavation](scc:mcdm.heroes.v1/feature.ability.elementalist.level-1/instantaneous-excavation), taking 10 or more damage in one turn causes you to stop maintaining the ability.

@@ -7,28 +7,24 @@ flavor: '"It''s better, just you and me. Isn''t it?"'
 keywords:
     - Melee
     - Ranged
-    - Strike
+    - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
     - Weapon
 level: "1"
 name: I Work Better Alone
-power_roll_characteristic: Agility
 scc: mcdm.heroes.v1/feature.ability.shadow.level-1/i-work-better-alone
 subtype: signature
 target: One creature
-tier1: 3 + A damage
-tier2: 6 + A damage
-tier3: 9 + A damage
 type: ability
 ---
 
 
 *"It's better, just you and me. Isn't it?"*
 
-| **Melee, Ranged, Strike, Weapon** |     **Main action** |
+| **Melee, Ranged, [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** |     **Main action** |
 |-----------------------------------|--------------------:|
 | **📏 Melee 1 or ranged 5**        | **🎯 One creature** |
 
-**Power Roll + Agility:**
+**Power Roll + [Agility](scc:mcdm.heroes.v1/rule.character/agility):**
 
 - **≤11:** 3 + A damage
 - **12-16:** 6 + A damage

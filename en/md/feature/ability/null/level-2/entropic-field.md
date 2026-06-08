@@ -10,12 +10,8 @@ keywords:
     - Weapon
 level: "2"
 name: Entropic Field
-power_roll_characteristic: Agility
 scc: mcdm.heroes.v1/feature.ability.null.level-2/entropic-field
 target: Each enemy in the area
-tier1: 6 cold damage; A < WEAK, [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
-tier2: 9 cold damage; A < AVERAGE, [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
-tier3: 13 cold damage; A < STRONG, [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
 type: ability
 ---
 
@@ -26,7 +22,7 @@ type: ability
 |---------------------------|------------------------------:|
 | **📏 3 cube within 1**    | **🎯 Each enemy in the area** |
 
-**Power Roll + Agility:**
+**Power Roll + [Agility](scc:mcdm.heroes.v1/rule.character/agility):**
 
 - **≤11:** 6 cold damage; A < WEAK, [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
 - **12-16:** 9 cold damage; A < AVERAGE, [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)

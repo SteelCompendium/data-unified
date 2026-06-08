@@ -8,27 +8,23 @@ flavor: You channel holy energy to smite a foe and heal an ally.
 keywords:
     - Magic
     - Melee
-    - Strike
+    - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
     - Weapon
 level: "1"
 name: The Gods Punish and Defend
-power_roll_characteristic: Might
 scc: mcdm.heroes.v1/feature.ability.censor.level-1/the-gods-punish-and-defend
 target: One creature or object
-tier1: 5 + M holy damage
-tier2: 8 + M holy damage
-tier3: 11 + M holy damage
 type: ability
 ---
 
 
 *You channel holy energy to smite a foe and heal an ally.*
 
-| **Magic, Melee, Strike, Weapon** |               **Main action** |
+| **Magic, Melee, [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** |               **Main action** |
 |----------------------------------|------------------------------:|
 | **📏 Melee 1**                   | **🎯 One creature or object** |
 
-**Power Roll + Might:**
+**Power Roll + [Might](scc:mcdm.heroes.v1/rule.character/might):**
 
 - **≤11:** 5 + M holy damage
 - **12-16:** 8 + M holy damage

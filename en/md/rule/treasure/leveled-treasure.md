@@ -14,7 +14,7 @@ Each leveled treasure has benefits that you gain at 1st, 5th, and 9th levels. Yo
 
 Your connection with leveled treasures doesn't just make them useful. It also makes them dangerous. Each leveled treasure is a quasi-sentient, purpose-driven entity. A magic sword wishes to be used in combat. A psionic implement yearns to unleash its powerful magic. As such, a creature can safely carry a maximum of three leveled treasures at a time. If you carry more leveled treasures, those items become jealous of one another and fight for your attention, attempting to subconsciously influence you into using them—and leaving your other items behind.
 
-It's fine to own or possess more than three leveled treasures, as long as the extras are stored away or in the possession of other creatures. But if you carry more than three leveled treasures, you must make a Presence test during each respite:
+It's fine to own or possess more than three leveled treasures, as long as the extras are stored away or in the possession of other creatures. But if you carry more than three leveled treasures, you must make a [Presence](scc:mcdm.heroes.v1/rule.character/presence) test during each respite:
 
 - **≤11:** One of your leveled treasures (chosen by the Director) grabs hold of your psyche. It forces you to sleepwalk or otherwise enter an active fugue state and discard the rest of your leveled treasures in locations you can't remember. If you want those items back, you'd better get looking before someone else finds them.
 - **12-16:** Your items work together to prevent you from moving until you pick three items and leave the rest behind.

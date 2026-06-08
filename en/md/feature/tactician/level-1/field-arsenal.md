@@ -17,7 +17,7 @@ For example, if you take the [Shining Armor](scc:mcdm.heroes.v1/kit/shining-armo
 - Melee Damage Bonus: +2/+2/+2
 - Ranged Damage Bonus: +0/+0/+4
 - Speed Bonus: +1
-- Ranged Distance Bonus: +10
+- Ranged [Distance](scc:mcdm.heroes.v1/rule.combat/distance) Bonus: +10
 - Disengage Bonus: +1
 - You can use the [Patient Shot](scc:mcdm.heroes.v1/feature.ability.sniper/patient-shot) and [Protective Attack](scc:mcdm.heroes.v1/feature.ability.shining-armor/protective-attack) signature abilities.
 

@@ -11,13 +11,9 @@ keywords:
     - Ranged
 level: "1"
 name: Unquiet Ground
-power_roll_characteristic: Reason
 scc: mcdm.heroes.v1/feature.ability.elementalist.level-1/unquiet-ground
 subtype: signature
 target: Each enemy in the area
-tier1: 2 damage
-tier2: 5 damage
-tier3: 7 damage
 type: ability
 ---
 
@@ -28,7 +24,7 @@ type: ability
 |--------------------------------|------------------------------:|
 | **📏 2 cube within 10**        | **🎯 Each enemy in the area** |
 
-**Power Roll + Reason:**
+**Power Roll + [Reason](scc:mcdm.heroes.v1/rule.character/reason):**
 
 - **≤11:** 2 damage
 - **12-16:** 5 damage

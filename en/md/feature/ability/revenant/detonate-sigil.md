@@ -7,7 +7,7 @@ flavor: A magic sigil you placed on a creature explodes with energy.
 keywords:
     - Magic
     - Ranged
-    - Strike
+    - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
 name: Detonate Sigil
 scc: mcdm.heroes.v1/feature.ability.revenant/detonate-sigil
 subtype: signature
@@ -17,11 +17,11 @@ type: ability
 
 *A magic sigil you placed on a creature explodes with energy.*
 
-| **Magic, Ranged, Strike** |                        **Main action** |
+| **Magic, Ranged, [Strike](scc:mcdm.heroes.v1/rule.combat/strike)** |                        **Main action** |
 |---------------------------|---------------------------------------:|
 | **📏 Ranged 10**          | **🎯 One creature bearing your sigil** |
 
-**Power Roll + Reason, Intuition, or Presence:**
+**Power Roll + [Reason](scc:mcdm.heroes.v1/rule.character/reason), [Intuition](scc:mcdm.heroes.v1/rule.character/intuition), or [Presence](scc:mcdm.heroes.v1/rule.character/presence):**
 
 - **≤11:** 3 + R, I, or P damage; slide 1
 - **12-16:** 5 + R, I, or P damage; slide 2

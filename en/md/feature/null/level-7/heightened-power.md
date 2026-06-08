@@ -6,4 +6,4 @@ scc: mcdm.heroes.v1/feature.null.level-7/heightened-power
 type: feature
 ---
 
-If the ability deals rolled damage, it deals extra damage equal to your Intuition score.
+If the ability deals rolled damage, it deals extra damage equal to your [Intuition](scc:mcdm.heroes.v1/rule.character/intuition) score.

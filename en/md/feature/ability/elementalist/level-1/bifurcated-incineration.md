@@ -7,27 +7,23 @@ keywords:
     - Fire
     - Magic
     - Ranged
-    - Strike
+    - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
 level: "1"
 name: Bifurcated Incineration
-power_roll_characteristic: Reason
 scc: mcdm.heroes.v1/feature.ability.elementalist.level-1/bifurcated-incineration
 subtype: signature
 target: Two creatures or objects
-tier1: 2 fire damage
-tier2: 4 fire damage
-tier3: 6 fire damage
 type: ability
 ---
 
 
 *Two jets of flame lance out at your command.*
 
-| **Fire, Magic, Ranged, Strike** |                 **Main action** |
+| **Fire, Magic, Ranged, [Strike](scc:mcdm.heroes.v1/rule.combat/strike)** |                 **Main action** |
 |---------------------------------|--------------------------------:|
 | **📏 Ranged 10**                | **🎯 Two creatures or objects** |
 
-**Power Roll + Reason:**
+**Power Roll + [Reason](scc:mcdm.heroes.v1/rule.character/reason):**
 
 - **≤11:** 2 fire damage
 - **12-16:** 4 fire damage

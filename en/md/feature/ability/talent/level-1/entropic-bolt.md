@@ -8,27 +8,23 @@ keywords:
     - Chronopathy
     - Psionic
     - Ranged
-    - Strike
+    - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
 level: "1"
 name: Entropic Bolt
-power_roll_characteristic: Presence
 scc: mcdm.heroes.v1/feature.ability.talent.level-1/entropic-bolt
 subtype: signature
 target: One creature or object
-tier1: 2 + P corruption damage; P < WEAK, [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
-tier2: 3 + P corruption damage; P < AVERAGE, [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
-tier3: 5 + P corruption damage; P < STRONG, [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
 type: ability
 ---
 
 
 *You advance an enemy's age for a moment.*
 
-| **Chronopathy, Psionic, Ranged, Strike** |               **Main action** |
+| **Chronopathy, Psionic, Ranged, [Strike](scc:mcdm.heroes.v1/rule.combat/strike)** |               **Main action** |
 |------------------------------------------|------------------------------:|
 | **📏 Ranged 10**                         | **🎯 One creature or object** |
 
-**Power Roll + Presence:**
+**Power Roll + [Presence](scc:mcdm.heroes.v1/rule.character/presence):**
 
 - **≤11:** 2 + P corruption damage; P < WEAK, [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
 - **12-16:** 3 + P corruption damage; P < AVERAGE, [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)

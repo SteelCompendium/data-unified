@@ -6,7 +6,7 @@ type: rule
 
 Your hero's survivability is represented by your Stamina. Think of Stamina as a combination of a creature's physical vitality and their overall energy for dodging and resisting incoming blows, spells, and other violence. It's not that every instance of damage deals a [bleeding](scc:mcdm.heroes.v1/condition/bleeding) wound to you, but that each one chips away at your ability to fight effectively. One attack might make you sweat as you leap back to avoid an arrow, while another might graze your elbow with a dagger nick, leaving a dull, distracting pain. Eventually, this draining of energy leaves you open for bigger blows that can truly harm your body—or possibly kill you.
 
-After any damage you take is reduced by damage immunity or other effects, your Stamina is reduced by an amount equal to the remaining damage. Some effects can also reduce your Stamina maximum, limiting the amount of Stamina you can regain.
+After any damage you take is reduced by [damage immunity](scc:mcdm.heroes.v1/rule.damage/damage-immunity) or other effects, your Stamina is reduced by an amount equal to the remaining damage. Some effects can also reduce your Stamina maximum, limiting the amount of Stamina you can regain.
 
 #### Director-Controlled Creatures
 
@@ -26,4 +26,4 @@ Heroes remain unconscious for 1 hour if no one does anything to wake them. After
 
 ##### Unconscious
 
-While you are unconscious, you can't take main actions, maneuvers, triggered actions, free triggered actions, or free maneuvers; your speed is 0; you are unaware of your surroundings; and you [are prone](scc:mcdm.heroes.v1/condition/prone). Ability rolls against you have a double edge. If you wake up from being unconscious, you can stand up from prone as a free maneuver.
+While you are unconscious, you can't take main actions, maneuvers, triggered actions, free triggered actions, or free maneuvers; your speed is 0; you are unaware of your surroundings; and you [are prone](scc:mcdm.heroes.v1/condition/prone). Ability rolls against you have a double [edge](scc:mcdm.heroes.v1/rule.dice/edge). If you wake up from being unconscious, you can stand up from prone as a free maneuver.

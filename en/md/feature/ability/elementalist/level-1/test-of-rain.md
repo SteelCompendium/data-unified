@@ -12,12 +12,8 @@ keywords:
     - Ranged
 level: "1"
 name: Test of Rain
-power_roll_characteristic: Reason
 scc: mcdm.heroes.v1/feature.ability.elementalist.level-1/test-of-rain
 target: Each enemy in the area
-tier1: 4 acid damage
-tier2: 6 acid damage
-tier3: 10 acid damage
 type: ability
 ---
 
@@ -28,7 +24,7 @@ type: ability
 |--------------------------------|------------------------------:|
 | **📏 3 cube within 10**        | **🎯 Each enemy in the area** |
 
-**Power Roll + Reason:**
+**Power Roll + [Reason](scc:mcdm.heroes.v1/rule.character/reason):**
 
 - **≤11:** 4 acid damage
 - **12-16:** 6 acid damage

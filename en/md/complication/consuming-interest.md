@@ -18,7 +18,7 @@ Ever since you were a kid, you've been obsessed with a certain topic. During you
 
 **Project Source:** A significant source of information on the topic of your obsession, such as a major library or a world-renowned sage 
 
-**Project Roll Characteristic:** Reason
+**Project Roll [Characteristic](scc:mcdm.heroes.v1/rule.character/characteristic):** [Reason](scc:mcdm.heroes.v1/rule.character/reason)
 
 **Project Goal:** 120, 150, 180
 

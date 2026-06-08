@@ -8,7 +8,7 @@ Each ability has one or more keywords that explain how the ability functions. Ke
 
 ##### Area
 
-Abilities with the Area keyword create an area of effect. Many area abilities deal damage to targets in their area, but such abilities are treated differently than strikes made against specific targets. (See the It's Not All Strikes! sidebar, as well as Strike and Area Abilities below for more information.)
+Abilities with the Area keyword create an area of effect. Many area abilities deal damage to targets in their area, but such abilities are treated differently than [strikes](scc:mcdm.heroes.v1/rule.combat/strike) made against specific targets. (See the It's Not All Strikes! sidebar, as well as Strike and Area Abilities below for more information.)
 
 ##### Charge
 

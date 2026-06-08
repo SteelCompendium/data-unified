@@ -2,7 +2,6 @@
 disengage_bonus: "+1"
 equipment_text: You wear light armor and wield several ensnaring weapons and a polearm.
 melee_damage_bonus: +2/+2/+2
-melee_distance_bonus: "+1"
 name: Retiarius
 scc: mcdm.heroes.v1/kit/retiarius
 speed_bonus: "+1"
@@ -23,7 +22,7 @@ You wear light armor and wield several ensnaring weapons and a polearm.
 
 **Melee Damage Bonus:** +2/+2/+2
 
-**Melee Distance Bonus:** +1
+**Melee [Distance](scc:mcdm.heroes.v1/rule.combat/distance) Bonus:** +1
 
 **Disengage Bonus:** +1
 
@@ -33,11 +32,11 @@ You wear light armor and wield several ensnaring weapons and a polearm.
 
 *The well-thrown net that follows your main attack leaves your foes right where you want them.*
 
-| **Melee, Strike, Weapon** |     **Main action** |
+| **Melee, [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** |     **Main action** |
 |---------------------------|--------------------:|
 | **📏 Melee 2**            | **🎯 One creature** |
 
-**Power Roll + Might or Agility:**
+**Power Roll + [Might](scc:mcdm.heroes.v1/rule.character/might) or [Agility](scc:mcdm.heroes.v1/rule.character/agility):**
 
 - **≤11:** 4 + M or A damage; A < WEAK, [slowed](scc:mcdm.heroes.v1/condition/slowed) (EoT)
 - **12-16:** 6 + M or A damage; A < AVERAGE, [slowed](scc:mcdm.heroes.v1/condition/slowed) (EoT)

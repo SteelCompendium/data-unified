@@ -2,7 +2,6 @@
 disengage_bonus: "+1"
 equipment_text: You wear light armor and wield a polearm.
 melee_damage_bonus: +1/+1/+1
-melee_distance_bonus: "+1"
 name: Stick and Robe
 scc: mcdm.heroes.v1/kit/stick-and-robe
 speed_bonus: "+2"
@@ -23,7 +22,7 @@ You wear light armor and wield a polearm.
 
 **Melee Damage Bonus:** +1/+1/+1
 
-**Melee Distance Bonus:** +1
+**Melee [Distance](scc:mcdm.heroes.v1/rule.combat/distance) Bonus:** +1
 
 **Disengage Bonus:** +1
 
@@ -33,11 +32,11 @@ You wear light armor and wield a polearm.
 
 *When your stick speaks, your enemy moves.*
 
-| **Melee, Strike, Weapon** |     **Main action** |
+| **Melee, [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** |     **Main action** |
 |---------------------------|--------------------:|
 | **📏 Melee 2**            | **🎯 One creature** |
 
-**Power Roll + Might or Agility:**
+**Power Roll + [Might](scc:mcdm.heroes.v1/rule.character/might) or [Agility](scc:mcdm.heroes.v1/rule.character/agility):**
 
 - **≤11:** 4 + M or A damage
 - **12-16:** 7 + M or A damage; slide 1

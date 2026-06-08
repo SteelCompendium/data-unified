@@ -3,7 +3,7 @@ action_type: Free triggered
 class: censor
 cost: 9 Wrath
 distance: Ranged 10
-effect: The target is unaffected by the strike and you become the target instead, even if you aren't a valid target for it. You take half the damage from the strike, and the target gains 3 [surges](scc:mcdm.heroes.v1/rule.resource/surge).
+effect: The target is unaffected by the [strike](scc:mcdm.heroes.v1/rule.combat/strike) and you become the target instead, even if you aren't a valid target for it. You take half the damage from the [strike](scc:mcdm.heroes.v1/rule.combat/strike), and the target gains 3 [surges](scc:mcdm.heroes.v1/rule.resource/surge).
 flavor: You take your ally's place.
 keywords:
     - Magic
@@ -13,7 +13,7 @@ name: Intercede
 scc: mcdm.heroes.v1/feature.ability.censor.level-6/intercede
 subtype: triggered
 target: One ally
-trigger: A creature makes a strike against the target.
+trigger: A creature makes a [strike](scc:mcdm.heroes.v1/rule.combat/strike) against the target.
 type: ability
 ---
 
@@ -24,6 +24,6 @@ type: ability
 |-------------------|-------------------:|
 | **📏 Ranged 10**  |    **🎯 One ally** |
 
-**Trigger:** A creature makes a strike against the target.
+**Trigger:** A creature makes a [strike](scc:mcdm.heroes.v1/rule.combat/strike) against the target.
 
-**Effect:** The target is unaffected by the strike and you become the target instead, even if you aren't a valid target for it. You take half the damage from the strike, and the target gains 3 [surges](scc:mcdm.heroes.v1/rule.resource/surge).
+**Effect:** The target is unaffected by the [strike](scc:mcdm.heroes.v1/rule.combat/strike) and you become the target instead, even if you aren't a valid target for it. You take half the damage from the [strike](scc:mcdm.heroes.v1/rule.combat/strike), and the target gains 3 [surges](scc:mcdm.heroes.v1/rule.resource/surge).

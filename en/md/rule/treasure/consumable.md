@@ -24,6 +24,6 @@ Your character can carry any number of consumables at a time.
 >
 > Item creation rules, crafting and research projects: Chapter 12: [Downtime Projects](scc:mcdm.heroes.v1/chapter/downtime-projects)
 >
-> Main actions and maneuvers, creature size, damage and [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), [dying](scc:mcdm.heroes.v1/rule.health/dying) and death, movement and [forced movement](scc:mcdm.heroes.v1/movement/forced-movement), [winded](scc:mcdm.heroes.v1/rule.health/winded): Chapter 10: [Combat](scc:mcdm.heroes.v1/chapter/combat)
+> Main actions and maneuvers, creature [size](scc:mcdm.heroes.v1/rule.character/size), damage and [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), [dying](scc:mcdm.heroes.v1/rule.health/dying) and death, movement and [forced movement](scc:mcdm.heroes.v1/movement/forced-movement), [winded](scc:mcdm.heroes.v1/rule.health/winded): Chapter 10: [Combat](scc:mcdm.heroes.v1/chapter/combat)
 >
 > Negotiation rules, motivations, pitfalls, interest, and patience: Chapter 11: [Negotiation](scc:mcdm.heroes.v1/chapter/negotiation).

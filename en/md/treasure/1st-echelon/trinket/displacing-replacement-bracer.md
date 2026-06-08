@@ -1,6 +1,6 @@
 ---
 echelon: "1"
-effect: As a maneuver, you transfer an object of size 1S or 1T held in one hand with another object of the same size that is within 10 squares. The objects change locations instantaneously and without creating any auditory or visual disturbance. If another creature is wearing or holding the object you transfer to your hand and they have I < 4, they fail to notice the transfer.
+effect: As a maneuver, you transfer an object of [size](scc:mcdm.heroes.v1/rule.character/size) 1S or 1T held in one hand with another object of the same [size](scc:mcdm.heroes.v1/rule.character/size) that is within 10 squares. The objects change locations instantaneously and without creating any auditory or visual disturbance. If another creature is wearing or holding the object you transfer to your hand and they have I < 4, they fail to notice the transfer.
 keywords:
     - Arms
     - Psionic
@@ -18,8 +18,8 @@ type: treasure
 
 **Project Source:** Texts or lore in Zaliac
 
-**Project Roll Characteristic:** Reason
+**Project Roll [Characteristic](scc:mcdm.heroes.v1/rule.character/characteristic):** [Reason](scc:mcdm.heroes.v1/rule.character/reason)
 
 **Project Goal:** 150
 
-**Effect:** As a maneuver, you transfer an object of size 1S or 1T held in one hand with another object of the same size that is within 10 squares. The objects change locations instantaneously and without creating any auditory or visual disturbance. If another creature is wearing or holding the object you transfer to your hand and they have I < 4, they fail to notice the transfer.
+**Effect:** As a maneuver, you transfer an object of [size](scc:mcdm.heroes.v1/rule.character/size) 1S or 1T held in one hand with another object of the same [size](scc:mcdm.heroes.v1/rule.character/size) that is within 10 squares. The objects change locations instantaneously and without creating any auditory or visual disturbance. If another creature is wearing or holding the object you transfer to your hand and they have I < 4, they fail to notice the transfer.

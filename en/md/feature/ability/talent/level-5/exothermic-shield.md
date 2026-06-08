@@ -3,7 +3,7 @@ action_type: Maneuver
 class: talent
 cost: 9 Clarity
 distance: Ranged 10
-effect: Until the start of your next turn, the target has cold immunity 10 and fire immunity 10, and their strikes deal extra fire damage equal to twice your Reason score. Additionally, whenever an enemy uses a melee ability against the target while they are under this effect, the enemy takes 5 fire damage.
+effect: Until the start of your next turn, the target has cold immunity 10 and fire immunity 10, and their [strikes](scc:mcdm.heroes.v1/rule.combat/strike) deal extra fire damage equal to twice your [Reason](scc:mcdm.heroes.v1/rule.character/reason) score. Additionally, whenever an enemy uses a melee ability against the target while they are under this effect, the enemy takes 5 fire damage.
 flavor: You encase the target in psionic flame and allow them to flicker without fear of burning out.
 keywords:
     - Pyrokinesis
@@ -23,6 +23,6 @@ type: ability
 |----------------------------------|------------------------:|
 | **📏 Ranged 10**                 | **🎯 Self or one ally** |
 
-**Effect:** Until the start of your next turn, the target has cold immunity 10 and fire immunity 10, and their strikes deal extra fire damage equal to twice your Reason score. Additionally, whenever an enemy uses a melee ability against the target while they are under this effect, the enemy takes 5 fire damage.
+**Effect:** Until the start of your next turn, the target has cold immunity 10 and fire immunity 10, and their [strikes](scc:mcdm.heroes.v1/rule.combat/strike) deal extra fire damage equal to twice your [Reason](scc:mcdm.heroes.v1/rule.character/reason) score. Additionally, whenever an enemy uses a melee ability against the target while they are under this effect, the enemy takes 5 fire damage.
 
 **Strained:** The target gains 2 [surges](scc:mcdm.heroes.v1/rule.resource/surge). You are [weakened](scc:mcdm.heroes.v1/condition/weakened) and [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends).

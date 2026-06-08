@@ -14,7 +14,7 @@ The Creature Sizes table shows example sizes for creatures up to size 5, but lar
 
 ###### Creature Sizes Table
 
-| Size  | Example Creature |
+| [Size](scc:mcdm.heroes.v1/rule.character/size)  | Example Creature |
 |-------|------------------|
 | 1T    | Pixie            |
 | 1S    | [Polder](scc:mcdm.heroes.v1/ancestry/polder)           |

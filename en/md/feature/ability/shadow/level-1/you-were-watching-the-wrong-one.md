@@ -6,28 +6,24 @@ effect: As long as you have one or more allies within 5 squares of the target, y
 flavor: They can't watch both of you at once.
 keywords:
     - Melee
-    - Strike
+    - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
     - Weapon
 level: "1"
 name: You Were Watching the Wrong One
-power_roll_characteristic: Agility
 scc: mcdm.heroes.v1/feature.ability.shadow.level-1/you-were-watching-the-wrong-one
 subtype: signature
 target: One creature
-tier1: 3 + A damage
-tier2: 5 + A damage
-tier3: 8 + A damage
 type: ability
 ---
 
 
 *They can't watch both of you at once.*
 
-| **Melee, Strike, Weapon** |     **Main action** |
+| **Melee, [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** |     **Main action** |
 |---------------------------|--------------------:|
 | **📏 Melee 1**            | **🎯 One creature** |
 
-**Power Roll + Agility:**
+**Power Roll + [Agility](scc:mcdm.heroes.v1/rule.character/agility):**
 
 - **≤11:** 3 + A damage
 - **12-16:** 5 + A damage

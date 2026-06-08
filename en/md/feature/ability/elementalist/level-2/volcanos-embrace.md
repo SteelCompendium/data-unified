@@ -9,26 +9,22 @@ keywords:
     - Fire
     - Magic
     - Ranged
-    - Strike
+    - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
 level: "2"
 name: Volcano's Embrace
-power_roll_characteristic: Reason
 scc: mcdm.heroes.v1/feature.ability.elementalist.level-2/volcanos-embrace
 target: One creature
-tier1: 5 + R fire damage; A < WEAK, [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)
-tier2: 9 + R fire damage; A < AVERAGE, [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)
-tier3: 12 + R fire damage; A < STRONG, [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)
 type: ability
 ---
 
 
 *Wrap them up in fire and melting stone.*
 
-| **Earth, Fire, Magic, Ranged, Strike** |     **Main action** |
+| **Earth, Fire, Magic, Ranged, [Strike](scc:mcdm.heroes.v1/rule.combat/strike)** |     **Main action** |
 |----------------------------------------|--------------------:|
 | **📏 Ranged 10**                       | **🎯 One creature** |
 
-**Power Roll + Reason:**
+**Power Roll + [Reason](scc:mcdm.heroes.v1/rule.character/reason):**
 
 - **≤11:** 5 + R fire damage; A < WEAK, [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)
 - **12-16:** 9 + R fire damage; A < AVERAGE, [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)

@@ -51,7 +51,7 @@ He poked the tip of his boot at the chalk symbol surrounding him on the floor. N
 
 He walked out of the circle. Nothing happened. No one, it seemed, cared.
 
-A few moments later, the door to a small home, little more than a wooden shack, on the outskirts of a small village opened. A well-dressed [devil](scc:mcdm.heroes.v1/ancestry/devil) peeked out and then slowly emerged, stepping onto the dirt road that led through the center of the village. A keep stood atop a hill in the distance.
+A few moments later, the door to a small home, little more than a wooden shack, on the outskirts of a small village opened. A well-dressed [devil](scc:mcdm.heroes.v1/ancestry/devil) peeked out and then slowly emerged, stepping onto the dirt road that led through the center of the village. A keep stood atop a hill in the [distance](scc:mcdm.heroes.v1/rule.combat/distance).
 
 "Ah," the [devil](scc:mcdm.heroes.v1/ancestry/devil) said.
 

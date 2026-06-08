@@ -11,12 +11,8 @@ keywords:
     - Weapon
 level: "6"
 name: Phase Step
-power_roll_characteristic: Agility
 scc: mcdm.heroes.v1/feature.ability.null.level-6/phase-step
 target: Self
-tier1: 6 damage; M < WEAK, [dazed](scc:mcdm.heroes.v1/condition/dazed)
-tier2: 8 damage; M < AVERAGE, [dazed](scc:mcdm.heroes.v1/condition/dazed)
-tier3: 12 damage; M < STRONG, [dazed](scc:mcdm.heroes.v1/condition/dazed)
 type: ability
 ---
 
@@ -29,7 +25,7 @@ type: ability
 
 **Effect:** You can [shift](scc:mcdm.heroes.v1/movement/shifting) up to your speed, and squares occupied by enemies or objects are not [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain) for this [shift](scc:mcdm.heroes.v1/movement/shifting). You make one power roll that targets each enemy you moved through during this [shift](scc:mcdm.heroes.v1/movement/shifting).
 
-**Power Roll + Agility:**
+**Power Roll + [Agility](scc:mcdm.heroes.v1/rule.character/agility):**
 
 - **≤11:** 6 damage; M < WEAK, [dazed](scc:mcdm.heroes.v1/condition/dazed)
 - **12-16:** 8 damage; M < AVERAGE, [dazed](scc:mcdm.heroes.v1/condition/dazed)

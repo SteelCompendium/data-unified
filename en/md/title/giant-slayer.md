@@ -12,22 +12,22 @@ type: title
 
 **Effect:** Choose one of the following benefits:
 
-- *Smallfolk Dodge:* Any creature of size 2 or larger takes a bane on strikes against you.
+- *Smallfolk Dodge:* Any creature of [size](scc:mcdm.heroes.v1/rule.character/size) 2 or larger takes a [bane](scc:mcdm.heroes.v1/rule.dice/bane) on [strikes](scc:mcdm.heroes.v1/rule.combat/strike) against you.
 - *The Harder They Fall:* You have the following ability, which can be paid for using the [Heroic Resource](scc:mcdm.heroes.v1/rule.resource/heroic-resource) of your class.
 
 ##### The Harder They Fall (7 Heroic Resource)
 
 >
-> | **Melee, Strike, Weapon** |     **Main action** |
+> | **Melee, [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** |     **Main action** |
 > |---------------------------|--------------------:|
 > | **📏 Melee 1**            | **🎯 One creature** |
 >
-> **Power Roll + Might or Agility:**
+> **Power Roll + [Might](scc:mcdm.heroes.v1/rule.character/might) or [Agility](scc:mcdm.heroes.v1/rule.character/agility):**
 >
 > - **≤11:** 7 damage; M < WEAK[, prone](scc:mcdm.heroes.v1/condition/prone) and can't stand (save ends)
 > - **12-16:** 11 damage; M < AVERAGE[, prone](scc:mcdm.heroes.v1/condition/prone) and can't stand (save ends)
 > - **17+:** 16 damage; M < STRONG[, prone](scc:mcdm.heroes.v1/condition/prone) and can't stand (save ends)
 >
-> **Special:** If the target is size 2 or larger, you gain an edge on this ability.
+> **Special:** If the target is [size](scc:mcdm.heroes.v1/rule.character/size) 2 or larger, you gain an [edge](scc:mcdm.heroes.v1/rule.dice/edge) on this ability.
 
-- *Up the Beanstalk:* You have the [Climb](scc:mcdm.heroes.v1/skill/climb) skill. If you already have this skill, you instead gain an edge on tests made using the [Climb](scc:mcdm.heroes.v1/skill/climb) skill. While you're climbing a creature, the creature has a double bane on strikes against you and you have a double edge on tests made to stay on the creature.
+- *Up the Beanstalk:* You have the [Climb](scc:mcdm.heroes.v1/skill/climb) skill. If you already have this skill, you instead gain an [edge](scc:mcdm.heroes.v1/rule.dice/edge) on tests made using the [Climb](scc:mcdm.heroes.v1/skill/climb) skill. While you're climbing a creature, the creature has a double [bane](scc:mcdm.heroes.v1/rule.dice/bane) on [strikes](scc:mcdm.heroes.v1/rule.combat/strike) against you and you have a double [edge](scc:mcdm.heroes.v1/rule.dice/edge) on tests made to stay on the creature.
