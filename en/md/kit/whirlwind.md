@@ -4,7 +4,6 @@ equipment_text: You wear no armor and wield a whip.
 melee_damage_bonus: +1/+1/+1
 name: Whirlwind
 scc: mcdm.heroes.v1/kit/whirlwind
-speed_bonus: "+3"
 type: kit
 ---
 
@@ -16,7 +15,7 @@ You wear no armor and wield a whip.
 
 ##### Kit Bonuses
 
-**Speed Bonus:** +3
+**[Speed](scc:mcdm.heroes.v1/rule.character/speed) Bonus:** +3
 
 **Melee Damage Bonus:** +1/+1/+1
 
@@ -34,7 +33,7 @@ You wear no armor and wield a whip.
 |---------------------------|--------------------:|
 | **📏 Melee 3**            | **🎯 One creature** |
 
-**Power Roll + [Might](scc:mcdm.heroes.v1/rule.character/might) or [Agility](scc:mcdm.heroes.v1/rule.character/agility):**
+**[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc:mcdm.heroes.v1/rule.character/might) or [Agility](scc:mcdm.heroes.v1/rule.character/agility):**
 
 - **≤11:** 4 + M or A damage; vertical pull 1
 - **12-16:** 7 + M or A damage; vertical pull 2

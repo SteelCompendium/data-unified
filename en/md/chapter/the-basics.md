@@ -23,7 +23,7 @@ At some point, a player will have their hero attempt a task that has a risk of f
 
 **Grace (playing Val, a [conduit](scc:mcdm.heroes.v1/class/conduit)):** *Before anyone steps on them, I want to examine the symbols and figure out what they mean.*
 
-**Director:** *Okay, well for that, I need you to make an easy [Reason](scc:mcdm.heroes.v1/rule.character/reason) test.*
+**Director:** *Okay, well for that, I need you to make an easy [Reason](scc:mcdm.heroes.v1/rule.character/reason) [test](scc:mcdm.heroes.v1/rule.test/test).*
 
 **Grace:** *I got a 12! What do I know?*
 
@@ -75,7 +75,7 @@ If you're not sure what to do when two rules come into conflict with each other,
 
 ### Always Round Down
 
-Sometimes the rules tell you to divide a number in half. Whenever you divide an odd number in half and it results in a decimal, round the result down to the nearest whole number. For instance, if a [tactician](scc:mcdm.heroes.v1/class/tactician) takes 7 damage and uses the Parry ability in response—a triggered action that halves the damage—then the damage is reduced to 3.
+Sometimes the rules tell you to divide a number in half. Whenever you divide an odd number in half and it results in a decimal, round the result down to the nearest whole number. For instance, if a [tactician](scc:mcdm.heroes.v1/class/tactician) takes 7 damage and uses the Parry ability in response—a [triggered action](scc:mcdm.heroes.v1/rule.combat/triggered-action) that halves the damage—then the damage is reduced to 3.
 
 ### Building a Heroic Narrative
 
@@ -83,11 +83,11 @@ The game takes place in a series of scenes with the heroes as the main character
 
 This game is built so that each adventure you play and each battle you fight gets more exciting as it goes on. In fantastic tales, the heroes and their foes both grow in power over the course of an adventure. But it isn't time alone that grows a hero's capabilities. Rather, it's the adrenaline that comes from battle, the danger of the hero's profession, and the pressure to save the world—or at least some small part of it that pushes a character to do the impossible. Each small act of heroism gives a hero the confidence and bravery to perform legendary feats against all odds.
 
-The things a hero can achieve at the end of the story are far more daring and impactful than what they do at the start, and the final showdown against a villain's forces is more deadly and desperate than the first. The rules of the game help build a heroic narrative in this same fashion, making use of the four most important mechanics for building heroic narratives: Victories, Experience, [Heroic Resources](scc:mcdm.heroes.v1/rule.resource/heroic-resource), and [Recoveries](scc:mcdm.heroes.v1/rule.health/recoveries).
+The things a hero can achieve at the end of the story are far more daring and impactful than what they do at the start, and the final showdown against a villain's forces is more deadly and desperate than the first. The rules of the game help build a heroic narrative in this same fashion, making use of the four most important mechanics for building heroic narratives: [Victories](scc:mcdm.heroes.v1/rule.resource/victories), [Experience](scc:mcdm.heroes.v1/rule.resource/experience), [Heroic Resources](scc:mcdm.heroes.v1/rule.resource/heroic-resource), and [Recoveries](scc:mcdm.heroes.v1/rule.health/recoveries).
 
 #### Recoveries
 
-[Recoveries](scc:mcdm.heroes.v1/rule.health/recoveries) represent the number of times your hero can take a breather and keep fighting. Spending [Recoveries](scc:mcdm.heroes.v1/rule.health/recoveries) lets you regain [Stamina](scc:mcdm.heroes.v1/rule.health/stamina)—the measure of any creature's physical vitality and capacity to shrug off or avoid damage (see [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) in [Combat](scc:mcdm.heroes.v1/chapter/combat)). Running out of [Recoveries](scc:mcdm.heroes.v1/rule.health/recoveries) means your hero has reached their uttermost limit.
+[Recoveries](scc:mcdm.heroes.v1/rule.health/recoveries) represent the number of times your hero can take a breather and keep fighting. Spending [Recoveries](scc:mcdm.heroes.v1/rule.health/recoveries) lets you regain [Stamina](scc:mcdm.heroes.v1/rule.health/stamina)—the measure of any creature's physical vitality and capacity to shrug off or avoid [damage](scc:mcdm.heroes.v1/rule.damage/damage) (see [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) in [Combat](scc:mcdm.heroes.v1/chapter/combat)). Running out of [Recoveries](scc:mcdm.heroes.v1/rule.health/recoveries) means your hero has reached their uttermost limit.
 
 When you spend a [Recovery](scc:mcdm.heroes.v1/rule.health/recoveries), you regain [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) equal to your **[recovery value](scc:mcdm.heroes.v1/rule.health/recoveries)**, which is one-third your [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) maximum. You can spend your [Recoveries](scc:mcdm.heroes.v1/rule.health/recoveries) with a special maneuver (see below), or you might do so with a little supernatural help from a [conduit](scc:mcdm.heroes.v1/class/conduit), a boost of adrenaline from an allied [tactician](scc:mcdm.heroes.v1/class/tactician), or inspiration from your party's [troubadour](scc:mcdm.heroes.v1/class/troubadour).
 
@@ -99,4 +99,4 @@ Outside of combat and other dangerous situations, you can spend [Recoveries](scc
 
 ##### Regaining Recoveries
 
-You regain all lost [Recoveries](scc:mcdm.heroes.v1/rule.health/recoveries) when you finish a respite (see below).
+You regain all lost [Recoveries](scc:mcdm.heroes.v1/rule.health/recoveries) when you finish a [respite](scc:mcdm.heroes.v1/rule.resource/respite) (see below).

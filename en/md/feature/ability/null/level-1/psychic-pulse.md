@@ -2,7 +2,7 @@
 action_type: Maneuver
 class: "null"
 cost: 3 Discipline
-distance: 2 burst
+distance: 2 [burst](scc:mcdm.heroes.v1/rule.combat/burst)
 effect: Each target takes psychic damage equal to twice your [Intuition](scc:mcdm.heroes.v1/rule.character/intuition) score. Until the start of your next turn, the size of your [Null Field](scc:mcdm.heroes.v1/feature.null.level-1/null-field) ability increases by 1. At the end of your current turn, each enemy in the area of your [Null Field](scc:mcdm.heroes.v1/feature.null.level-1/null-field) ability takes psychic damage equal to your [Intuition](scc:mcdm.heroes.v1/rule.character/intuition) score.
 flavor: A burst of psionic energy interferes with your enemy's synapses.
 keywords:
@@ -20,6 +20,6 @@ type: ability
 
 | **Area, Psionic** |                  **Maneuver** |
 |-------------------|------------------------------:|
-| **📏 2 burst**    | **🎯 Each enemy in the area** |
+| **📏 2 [burst](scc:mcdm.heroes.v1/rule.combat/burst)**    | **🎯 Each enemy in the area** |
 
 **Effect:** Each target takes psychic damage equal to twice your [Intuition](scc:mcdm.heroes.v1/rule.character/intuition) score. Until the start of your next turn, the size of your [Null Field](scc:mcdm.heroes.v1/feature.null.level-1/null-field) ability increases by 1. At the end of your current turn, each enemy in the area of your [Null Field](scc:mcdm.heroes.v1/feature.null.level-1/null-field) ability takes psychic damage equal to your [Intuition](scc:mcdm.heroes.v1/rule.character/intuition) score.

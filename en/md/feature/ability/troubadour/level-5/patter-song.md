@@ -21,7 +21,7 @@ type: ability
 |-------------------|---------------:|
 | **📏 Ranged 10**  | **🎯 Special** |
 
-**Power Roll + [Presence](scc:mcdm.heroes.v1/rule.character/presence):**
+**[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Presence](scc:mcdm.heroes.v1/rule.character/presence):**
 
 - **≤11:** One ally within [distance](scc:mcdm.heroes.v1/rule.combat/distance) can take their turn immediately after yours.
 - **12-16:** Two allies within [distance](scc:mcdm.heroes.v1/rule.combat/distance) can take their turns immediately after yours in any order.

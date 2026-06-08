@@ -26,10 +26,10 @@ type: ability
 
 **Effect:** The target is marked by you.
 
-**Power Roll + [Might](scc:mcdm.heroes.v1/rule.character/might):**
+**[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc:mcdm.heroes.v1/rule.character/might):**
 
 - **≤11:** 8 + M damage
 - **12-16:** 13 + M damage
 - **17+:** 17 + M damage
 
-**Effect:** Until the end of the encounter or until you are [dying](scc:mcdm.heroes.v1/rule.health/dying), you can use a signature or heroic ability instead of a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) against any target marked by you.
+**Effect:** Until the end of the encounter or until you are [dying](scc:mcdm.heroes.v1/rule.health/dying), you can use a signature or [heroic ability](scc:mcdm.heroes.v1/rule.general/heroic-ability) instead of a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) against any target marked by you.

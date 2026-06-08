@@ -3,7 +3,7 @@ action_type: Main action
 class: talent
 cost: 5 Clarity
 distance: Ranged 10
-effect: You control the target's movement. The target can't be moved in a way that would harm them (such as over a cliff), leave them [dying](scc:mcdm.heroes.v1/rule.health/dying), or result in them suffering a condition or other negative effect. However, you can move them to provoke opportunity attacks.
+effect: You control the target's movement. The target can't be moved in a way that would harm them (such as over a cliff), leave them [dying](scc:mcdm.heroes.v1/rule.health/dying), or result in them suffering a condition or other negative effect. However, you can move them to provoke [opportunity attacks](scc:mcdm.heroes.v1/rule.combat/opportunity-attack).
 flavor: You control an enemy's nervous system. How pleasant for them.
 keywords:
     - Psionic
@@ -23,12 +23,12 @@ type: ability
 |--------------------------------|-----------------:|
 | **📏 Ranged 10**               | **🎯 One enemy** |
 
-**Power Roll + [Reason](scc:mcdm.heroes.v1/rule.character/reason):**
+**[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Reason](scc:mcdm.heroes.v1/rule.character/reason):**
 
 - **≤11:** The target makes a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) against one enemy of your choice.
-- **12-16:** The target shifts up to their speed and uses their signature ability against any enemies of your choice.
-- **17+:** The target moves up to their speed and uses their signature ability against any enemies of your choice.
+- **12-16:** The target shifts up to their [speed](scc:mcdm.heroes.v1/rule.character/speed) and uses their [signature ability](scc:mcdm.heroes.v1/rule.combat/signature-ability) against any enemies of your choice.
+- **17+:** The target moves up to their [speed](scc:mcdm.heroes.v1/rule.character/speed) and uses their [signature ability](scc:mcdm.heroes.v1/rule.combat/signature-ability) against any enemies of your choice.
 
-**Effect:** You control the target's movement. The target can't be moved in a way that would harm them (such as over a cliff), leave them [dying](scc:mcdm.heroes.v1/rule.health/dying), or result in them suffering a condition or other negative effect. However, you can move them to provoke opportunity attacks.
+**Effect:** You control the target's movement. The target can't be moved in a way that would harm them (such as over a cliff), leave them [dying](scc:mcdm.heroes.v1/rule.health/dying), or result in them suffering a condition or other negative effect. However, you can move them to provoke [opportunity attacks](scc:mcdm.heroes.v1/rule.combat/opportunity-attack).
 
 **Strained:** You take 1d6 damage and are [weakened](scc:mcdm.heroes.v1/condition/weakened) until the end of your turn.

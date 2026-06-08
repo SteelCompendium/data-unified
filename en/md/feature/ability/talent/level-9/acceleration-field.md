@@ -3,7 +3,7 @@ action_type: Main action
 class: talent
 cost: 11 Clarity
 distance: Ranged 5
-effect: Each target can use any main action available to them as a free triggered action, but they lose their main action on their next turn.
+effect: Each target can use any main action available to them as a free [triggered action](scc:mcdm.heroes.v1/rule.combat/triggered-action), but they lose their main action on their next turn.
 flavor: You forcibly stuff more moments into a critical point in time, knowing full well you might need to steal some of your own.
 keywords:
     - Chronopathy
@@ -23,11 +23,11 @@ type: ability
 |----------------------------------|--------------------:|
 | **📏 Ranged 5**                  | **🎯 Three allies** |
 
-**Effect:** Each target can use any main action available to them as a free triggered action, but they lose their main action on their next turn.
+**Effect:** Each target can use any main action available to them as a free [triggered action](scc:mcdm.heroes.v1/rule.combat/triggered-action), but they lose their main action on their next turn.
 
-**Strained:** Make a power roll that targets you and each enemy within [distance](scc:mcdm.heroes.v1/rule.combat/distance).
+**Strained:** Make a [power roll](scc:mcdm.heroes.v1/rule.dice/power-roll) that targets you and each enemy within [distance](scc:mcdm.heroes.v1/rule.combat/distance).
 
-**Power Roll + [Presence](scc:mcdm.heroes.v1/rule.character/presence):**
+**[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Presence](scc:mcdm.heroes.v1/rule.character/presence):**
 
 - **≤11:** 4 corruption damage; [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
 - **12-16:** 6 corruption damage; [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)

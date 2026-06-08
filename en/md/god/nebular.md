@@ -10,7 +10,7 @@ The Queen of Suns. A living nebula. Desperate ships in need sometimes find thems
 
 She is a stellar nursery leaving a trail of infant stars in her wake. Hers is the Engine of Law transforming darkness into light, chaos into order. She is the most popular god among the [memonek](scc:mcdm.heroes.v1/ancestry/memonek) and the senior god among the Lords of Law insofar as their hierarchy can be discerned by mortal minds.
 
-She is the goddess of creation and for some of her followers, life itself, as her children's energies feed all life on all worlds. Her priests teach that life is the opposite of entropy, and the natural byproduct of her solar incubator.
+She is the goddess of creation and for some of her [followers](scc:mcdm.heroes.v1/rule.general/follower), life itself, as her children's energies feed all life on all worlds. Her priests teach that life is the opposite of entropy, and the natural byproduct of her solar incubator.
 
 ##### The Calling of Lady Magnetar
 
@@ -42,7 +42,7 @@ Then, crackling across every signal unit, a voice. "COME FORTH LADY MAGNETAR, CH
 
 It was Kalisdrossa, still wearing the helmet that marked her captain of Sword Squadron, holding in her hand the blue-topaz Fusion Rod—a powerful artifact that would serve as her weapon, and the symbol of her office as Herald of Nebular.
 
-Lady Magnetar flew across the void of space at lightning speed, evaporating protean fighters as she went. Until finally she faced Grotenhulk the Evolver, his maw poised to envelop the UNISOL capital ship.
+Lady Magnetar flew across the void of space at lightning [speed](scc:mcdm.heroes.v1/rule.character/speed), evaporating protean fighters as she went. Until finally she faced Grotenhulk the Evolver, his maw poised to envelop the UNISOL capital ship.
 
 She punched a hole right through the hullskin of the changeship and battled her way, deck by deck, toward the heart of the beast. Though a thousand protean soldiers stood in her way, none could touch her or slow her relentless progress.
 

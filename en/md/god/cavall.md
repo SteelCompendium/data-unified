@@ -6,7 +6,7 @@ type: god
 
 **Domains:** Life, Love, Protection, War
 
-Cavall believes that mortals cannot live where injustice thrives. To followers of Cavall, the unjust society is the Wasted Land, where people live false lives. The concepts of civil law and just punishment are his.
+Cavall believes that mortals cannot live where injustice thrives. To [followers](scc:mcdm.heroes.v1/rule.general/follower) of Cavall, the unjust society is the Wasted Land, where people live false lives. The concepts of civil law and just punishment are his.
 
 A watchhouse chaplain is almost certainly a priest of Cavall. A rector serving a small town may be welcome on the town council, but would consider passing judgment on a fellow citizen a breach of duty. The maxim of the church of Saint Gwiddon the Vigilant translates as: "To watch, report, but not to judge." The law, Cavall says, belongs to mortals.
 
@@ -32,7 +32,7 @@ When Llewellyn slew Ghruk the Trollhag, she cried out, "Follow Melianus!" as she
 
 That night, Llewellyn waited in the stables and, at midnight, Melianus appeared. He mounted his great black warhorse Coalfire and rode. To where, Llewellyn could not guess. But the knight followed the duke as he rode east toward the marsh, he remembered the rumors.
 
-At the edge of the marsh, Coalfire's eyes began to glow with a baleful flame and his mane burst into crimson fire. Llewellyn's breath caught in his throat. "A nightmare!" he realized. The rumors were true! The sorcerer had given Melianus a [devil](scc:mcdm.heroes.v1/ancestry/devil) steed.
+At the edge of the marsh, Coalfire's eyes began to glow with a baleful flame and his mane [burst](scc:mcdm.heroes.v1/rule.combat/burst) into crimson fire. Llewellyn's breath caught in his throat. "A nightmare!" he realized. The rumors were true! The sorcerer had given Melianus a [devil](scc:mcdm.heroes.v1/ancestry/devil) steed.
 
 On flaming nightmare hooves was Melianus able to cross the impassable swamp. Llewellyn balked, no one could cross the cursed bog. But Silverheart champed at her bit, pulled on the reins. She would not yield. Placing his trust in his steed, Llewellyn let the reins lie slack, and Silverheart took the lead.
 
@@ -44,7 +44,7 @@ Cyrvis had rewarded his loyal servant for years of cruelty, and the figure astri
 
 Coalfire struck with flaming hooves at Silverheart but the destrier struck back, blow for bite and bite for blow. Then the hellsteed, roared and a rotting green flame burned Silverheart's flesh and stole her breath until, choking, she fell to the ground, dead.
 
-Llewellyn's heart burst. He threw his body over the corpse of his loyal steed, and Melianus's lance pierced his armor, his back, and his heart. Knight and horse, dead. Melianus crowed as the lightning flashed again. But, in that moment, the miracle.
+Llewellyn's heart [burst](scc:mcdm.heroes.v1/rule.combat/burst). He threw his body over the corpse of his loyal steed, and Melianus's lance pierced his armor, his back, and his heart. Knight and horse, dead. Melianus crowed as the lightning flashed again. But, in that moment, the miracle.
 
 Cavall stood between the Dark Saint and loyal knight. Cavall pulled the lance from Llewellyn's back. "Rise my son, and rise thy steed. Thy work shalt never be done."
 
@@ -84,7 +84,7 @@ Well-versed in the faith of Ord and the [dwarves](scc:mcdm.heroes.v1/ancestry/dw
 
 For ten days and nine nights, Zür spoke his weaving and lighting sprang from his fingertips as he grappled with the demon of the spring. And horrors came as he did so.
 
-Creatures unseen in Orden, assemblages of organs, teeth, and claws. Animals with too many legs or too few heads. The dead came, trees that walked whose branches dripped blood came. The tale of all
+Creatures unseen in [Orden](scc:mcdm.heroes.v1/rule.world/orden), assemblages of organs, teeth, and claws. Animals with too many legs or too few heads. The dead came, trees that walked whose branches dripped blood came. The tale of all
 
 detailed in the Lay of Lady Gwenllian. And while the endurance of the [dwarves](scc:mcdm.heroes.v1/ancestry/dwarf) is well documented, Lady Gwenllian did not falter, did not rest.
 

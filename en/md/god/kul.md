@@ -38,7 +38,7 @@ How long it took the bloodrunners of the Lightning to cross the desert is not we
 
 Opposed at every turn by the local noble houses and then eventually the desert clans who sought the bounty placed on Khorvath's head, the ten thousand grew in battle prowess as they demolished any enemy foolish enough to get in their way. Given the many tens of thousands of warriors the bloodrunners dispatched over the course of four (or six) months, it may well be that Khorvath's sobriquet was literal.
 
-Success was a double edged sword. The more victories they earned in battle, the easier they were to follow. "Our enemies walk the red road," Voyrik once said, looking at the vast swath of blood they left in their wake.
+Success was a double edged sword. The more [victories](scc:mcdm.heroes.v1/rule.resource/victories) they earned in battle, the easier they were to follow. "Our enemies walk the red road," Voyrik once said, looking at the vast swath of blood they left in their wake.
 
 "We have nothing to fear," Khorvath said. "These people fight for pride, or a bounty. We're fighting for our lives. All it takes is one good punch in the nose and they retreat." And indeed this proved true for many weeks.
 
@@ -76,7 +76,7 @@ His army watched as Kul's light descended on their wounded leader, and they knew
 
 Grole teaches the extraordinary deeds common people can accomplish if they cast fear from their minds. It was Grole who said, "Even should an [orc](scc:mcdm.heroes.v1/ancestry/orc) be pierced by many arrows, they should still be able to perform one last act of revenge."
 
-Grole is the orcish hero of those facing impossible decisions. He is favored by most orcish leaders. Grole teaches that, even alone, even against impossible odds, extraordinary victories are possible. [Censors](scc:mcdm.heroes.v1/class/censor) of Grole often dip their left hand in ink before battle to symbolize Grole's missing hand.
+Grole is the orcish hero of those facing impossible decisions. He is favored by most orcish leaders. Grole teaches that, even alone, even against impossible odds, extraordinary [victories](scc:mcdm.heroes.v1/rule.resource/victories) are possible. [Censors](scc:mcdm.heroes.v1/class/censor) of Grole often dip their left hand in ink before battle to symbolize Grole's missing hand.
 
 ##### Khravila Who Ran Forty Leagues
 
@@ -94,11 +94,11 @@ Less than five hours after her father died, Khravila arrived at the Astragalus C
 
 The elves called off their attacks and Khravila brokered peace between them and the [humans](scc:mcdm.heroes.v1/ancestry/human). When her brother arrived with their kin folk some hours later—itself an impressive feat—Khravila handed him the oriflamme, and collapsed, dead. It was Khravila the chieftain who ran. It was Khravila the Unstoppable who died, a legendary [orc](scc:mcdm.heroes.v1/ancestry/orc) hero.
 
-Khravila teaches the virtue of persistence, endurance, and—above all—wits. Not only the wits necessary to foil the tests that barred her way, but to conceive her legendary plan in the first place, and the dedication to pull it off. "Perhaps another [orc](scc:mcdm.heroes.v1/ancestry/orc) could have run," her brother said. "But only Khravila could have bluffed."
+Khravila teaches the virtue of persistence, endurance, and—above all—wits. Not only the wits necessary to foil the [tests](scc:mcdm.heroes.v1/rule.test/test) that barred her way, but to conceive her legendary plan in the first place, and the dedication to pull it off. "Perhaps another [orc](scc:mcdm.heroes.v1/ancestry/orc) could have run," her brother said. "But only Khravila could have bluffed."
 
 #### Heroes of the Hakaan
 
-Most [hakaan](scc:mcdm.heroes.v1/ancestry/hakaan) in Orden are animists. They know and respect the four Elder Gods who created the world and believe these gods watch the world and see what happens within it. But the [Hakaan](scc:mcdm.heroes.v1/ancestry/hakaan) do not create churches or formal belief systems around this attitude.
+Most [hakaan](scc:mcdm.heroes.v1/ancestry/hakaan) in [Orden](scc:mcdm.heroes.v1/rule.world/orden) are animists. They know and respect the four Elder Gods who created the world and believe these gods watch the world and see what happens within it. But the [Hakaan](scc:mcdm.heroes.v1/ancestry/hakaan) do not create churches or formal belief systems around this attitude.
 
 Instead they believe the world is filled with innumerable nature spirits. Each river, tree, stone, has their own spirit, which the [hakaan](scc:mcdm.heroes.v1/ancestry/hakaan) revere. They have no organized religion in the way the other ancestries in this chapter do, though a [hakaan](scc:mcdm.heroes.v1/ancestry/hakaan) brought up in a city, or among another people, would naturally venerate in whatever gods and saints are worshiped by the folk who raised them.
 
@@ -126,7 +126,7 @@ Mahsiti teaches that art and science, creativity and knowledge, are the same thi
 
 **Domains:** Nature, Protection, Sun
 
-Prexaspes Stargazer, the Astronomer, the Sun-sage mapped the skies and was one of the first people in all Orden to correctly calculate the repeating pattern of Orden's three moons. Because of his growing mastery of the cycles of nature, he predicted a coming famine and prepared his clan. When the famine came but the people had storehouses of food ready, he became a hero of his tribe.
+Prexaspes Stargazer, the Astronomer, the Sun-sage mapped the skies and was one of the first people in all [Orden](scc:mcdm.heroes.v1/rule.world/orden) to correctly calculate the repeating pattern of [Orden](scc:mcdm.heroes.v1/rule.world/orden)'s three moons. Because of his growing mastery of the cycles of nature, he predicted a coming famine and prepared his clan. When the famine came but the people had storehouses of food ready, he became a hero of his tribe.
 
 After receiving the doomsight, Prexaspes turned his attention to the sun itself. He studied ancient tomes written by scholars of many people, believing eclipses were predictable events. His research yielded a pattern, but his insight led him further. What if, he wondered, an eclipse was more than a celestial event? What if it was an opening, a portal? Prexaspes studied the stars and prepared a ritual.
 
@@ -138,7 +138,7 @@ With his people watching, shielding their eyes from the brilliant light, Prexasp
 
 Though he died in the act, Prexaspes saved his people becoming a hero of all [hakaan](scc:mcdm.heroes.v1/ancestry/hakaan), taking his place among the stars as a new constellation.
 
-Prexaspes teaches that nature is a moral good and is worth defending, and that the sun is the source of power for all life on Orden.
+Prexaspes teaches that nature is a moral good and is worth defending, and that the sun is the source of power for all life on [Orden](scc:mcdm.heroes.v1/rule.world/orden).
 
 ##### Atossa the Shepherd
 
@@ -148,7 +148,7 @@ The great dam built by their ancestors that created Lake Tospah was going to fai
 
 When the rains came and would not stop, and the water in Lake Tospah rose putting more pressure on the dam, Atossa opened the gates to the sheep pen and let the tribe's herd of sheep out.
 
-The people ran after them, effectively evacuating the village. But the rains stopped, and the damn did not burst. The people returned to their homes, put the sheep back in the pen, and blamed the shepherd for worrying too much and leading them on wild goose chases.
+The people ran after them, effectively evacuating the village. But the rains stopped, and the damn did not [burst](scc:mcdm.heroes.v1/rule.combat/burst). The people returned to their homes, put the sheep back in the pen, and blamed the shepherd for worrying too much and leading them on wild goose chases.
 
 The next year, the rains came again. And this time the lake was already near capacity. When the shepherd tried to warn the people, they reminded her that it had rained the year before and there was no danger—and so would not listen.
 
@@ -162,7 +162,7 @@ When the crack widened and water began to pour through at incredible pressure, t
 
 She let the flowing water carry her toward the widening crack until her body slammed against the stone, blocking the water. The [hakaan](scc:mcdm.heroes.v1/ancestry/hakaan) are famed for being able to hold their breath, but though her people ran as quickly as they could, there was no way Atossa could block the water long enough.
 
-When the dam eventually burst and washed away the village, the people were not there. Atossa had bought them the time to run to safety. They walked among the ruins and found her crushed body among the rubble. They knew they would see her again.
+When the dam eventually [burst](scc:mcdm.heroes.v1/rule.combat/burst) and washed away the village, the people were not there. Atossa had bought them the time to run to safety. They walked among the ruins and found her crushed body among the rubble. They knew they would see her again.
 
 That night, there was a new constellation in the sky.
 

@@ -23,7 +23,7 @@ type: ability
 |----------------------------|------------------------------:|
 | **📏 Melee 1**             |           **🎯 One creature** |
 
-**Power Roll + [Might](scc:mcdm.heroes.v1/rule.character/might):**
+**[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc:mcdm.heroes.v1/rule.character/might):**
 
 - **≤11:** 2 + M holy damage
 - **12-16:** 3 + M holy damage

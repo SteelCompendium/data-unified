@@ -9,7 +9,7 @@ keywords:
 level: "1"
 name: Unearthly Reflexes
 scc: mcdm.heroes.v1/feature.ability.fury.level-1/unearthly-reflexes
-spend: '1 Ferocity: If the damage has any potency effects associated with it, the potency is reduced by 1 for you.'
+spend: '1 Ferocity: If the damage has any [potency](scc:mcdm.heroes.v1/rule.character/potency) effects associated with it, the [potency](scc:mcdm.heroes.v1/rule.character/potency) is reduced by 1 for you.'
 subtype: triggered
 target: Self
 trigger: You take damage.
@@ -27,4 +27,4 @@ type: ability
 
 **Effect:** You take half the damage from the triggering effect and can [shift](scc:mcdm.heroes.v1/movement/shifting) up to a number of squares equal to your [Agility](scc:mcdm.heroes.v1/rule.character/agility) score.
 
-**Spend 1 Ferocity:** If the damage has any potency effects associated with it, the potency is reduced by 1 for you.
+**Spend 1 Ferocity:** If the damage has any [potency](scc:mcdm.heroes.v1/rule.character/potency) effects associated with it, the [potency](scc:mcdm.heroes.v1/rule.character/potency) is reduced by 1 for you.

@@ -3,7 +3,7 @@ action_type: Maneuver
 class: "null"
 cost: 11 Discipline
 distance: Melee 1
-effect: While [restrained](scc:mcdm.heroes.v1/condition/restrained) this way, the target takes cold damage equal to your [Intuition](scc:mcdm.heroes.v1/rule.character/intuition) score at the start of each of your turns. Additionally, whenever the target damages another creature while [restrained](scc:mcdm.heroes.v1/condition/restrained) this way, any potency associated with the damage is reduced by 2.
+effect: While [restrained](scc:mcdm.heroes.v1/condition/restrained) this way, the target takes cold damage equal to your [Intuition](scc:mcdm.heroes.v1/rule.character/intuition) score at the start of each of your turns. Additionally, whenever the target damages another creature while [restrained](scc:mcdm.heroes.v1/condition/restrained) this way, any [potency](scc:mcdm.heroes.v1/rule.character/potency) associated with the damage is reduced by 2.
 flavor: You drain all the heat from the target.
 keywords:
     - Melee
@@ -23,10 +23,10 @@ type: ability
 |----------------------------|--------------------:|
 | **📏 Melee 1**             | **🎯 One creature** |
 
-**Power Roll + [Intuition](scc:mcdm.heroes.v1/rule.character/intuition):**
+**[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Intuition](scc:mcdm.heroes.v1/rule.character/intuition):**
 
 - **≤11:** 8 + I cold damage; M < WEAK, [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)
 - **12-16:** 11 + I cold damage; M < AVERAGE, [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)
 - **17+:** 15 + I cold damage; M < STRONG, [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)
 
-**Effect:** While [restrained](scc:mcdm.heroes.v1/condition/restrained) this way, the target takes cold damage equal to your [Intuition](scc:mcdm.heroes.v1/rule.character/intuition) score at the start of each of your turns. Additionally, whenever the target damages another creature while [restrained](scc:mcdm.heroes.v1/condition/restrained) this way, any potency associated with the damage is reduced by 2.
+**Effect:** While [restrained](scc:mcdm.heroes.v1/condition/restrained) this way, the target takes cold damage equal to your [Intuition](scc:mcdm.heroes.v1/rule.character/intuition) score at the start of each of your turns. Additionally, whenever the target damages another creature while [restrained](scc:mcdm.heroes.v1/condition/restrained) this way, any [potency](scc:mcdm.heroes.v1/rule.character/potency) associated with the damage is reduced by 2.

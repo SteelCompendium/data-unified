@@ -6,7 +6,7 @@ scc: mcdm.heroes.v1/feature.tactician.level-2/2nd-level-doctrine-ability
 type: feature
 ---
 
-Your [tactical doctrine](scc:mcdm.heroes.v1/feature.tactician.level-1/tactical-doctrine) grants your choice of one of two heroic abilities.
+Your [tactical doctrine](scc:mcdm.heroes.v1/feature.tactician.level-1/tactical-doctrine) grants your choice of one of two [heroic abilities](scc:mcdm.heroes.v1/rule.general/heroic-ability).
 
 ##### 2nd-Level Insurgent Ability
 

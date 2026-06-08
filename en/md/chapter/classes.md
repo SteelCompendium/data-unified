@@ -11,13 +11,13 @@ Your class provides you with many of your features, most of your abilities—you
 
 **[Censor](scc:mcdm.heroes.v1/class/censor):** A [censor](scc:mcdm.heroes.v1/class/censor) is a trained warrior devoted to a saint or god. They hunt down the forces of evil using melee weapons and magic granted to them by their divine patron, specializing in confronting the wicked and locking down single enemies during combat.
 
-**[Conduit](scc:mcdm.heroes.v1/class/conduit):** A [conduit](scc:mcdm.heroes.v1/class/conduit) is the devoted priest of a saint or god. They wield divine magic that smites enemies with holy energy and supports their allies, and are renowned for their healing abilities.
+**[Conduit](scc:mcdm.heroes.v1/class/conduit):** A [conduit](scc:mcdm.heroes.v1/class/conduit) is the devoted priest of a saint or god. They wield divine magic that smites enemies with holy energy and supports their allies, and are [renown](scc:mcdm.heroes.v1/rule.resource/renown)ed for their healing abilities.
 
 **[Elementalist](scc:mcdm.heroes.v1/class/elementalist):** An [elementalist](scc:mcdm.heroes.v1/class/elementalist) studies the elemental forces of the timescape and controls earth, fire, the void, and more with magic. Many of their abilities cover wide areas of the battlefield, and they have a versatile array of tricks that allow them to both control combat and manipulate the environment around them when the fight is done.
 
 **[Fury](scc:mcdm.heroes.v1/class/fury):** Coursing with the ferocity of the Primordial Chaos in their veins, a [fury](scc:mcdm.heroes.v1/class/fury) is a mobile warrior who gets up close and personal with enemies to dish out lots of damage. Leaping around the battlefield felling foes and breaking down walls is where the [fury](scc:mcdm.heroes.v1/class/fury) lives.
 
-**[Null](scc:mcdm.heroes.v1/class/null):** Disciplined and calm, the [null](scc:mcdm.heroes.v1/class/null) is an unarmed warrior who manifests an aura that quells the supernatural and hinders the offensive prowess of their enemies. They use psionics to make their body stronger than any steel and faster than any steed.
+**[Null](scc:mcdm.heroes.v1/class/null):** Disciplined and calm, the [null](scc:mcdm.heroes.v1/class/null) is an unarmed warrior who manifests an [aura](scc:mcdm.heroes.v1/rule.combat/aura) that quells the supernatural and hinders the offensive prowess of their enemies. They use psionics to make their body stronger than any steel and faster than any steed.
 
 **[Shadow](scc:mcdm.heroes.v1/class/shadow):** Stalking from the darkness, the [shadow](scc:mcdm.heroes.v1/class/shadow) is an expert assassin and thief who fights equally well in melee and at range as they get the drop on their foes. They utilize magic to help them stay mobile on the battlefield and sneak up on their prey.
 
@@ -31,11 +31,11 @@ Your class provides you with many of your features, most of your abilities—you
 
 Abilities are special actions, maneuvers, and more that allow you to affect creatures, objects, and the environment. They represent the main activities your character can undertake when the game is in combat or some other time-sensitive scenario. All characters have access to a few basic abilities, including [free strikes](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) and maneuvers such as [Grab](scc:mcdm.heroes.v1/feature.common.maneuvers/grab) and [Knockback](scc:mcdm.heroes.v1/feature.common.maneuvers/knockback) (see Maneuvers in Chapter 10: [Combat](scc:mcdm.heroes.v1/chapter/combat)). But your class, ancestry (see Chapter 3: [Ancestries](scc:mcdm.heroes.v1/chapter/ancestries)), kit (Chapter 6: [Kits](scc:mcdm.heroes.v1/chapter/kits)), titles and treasures (Chapter 13: [Rewards](scc:mcdm.heroes.v1/chapter/rewards)), and other heroic options give you access to more powerful abilities that make your hero stand out.
 
-Abilities are presented in a special format that first describes the ability, then summarizes its mechanical details, and finally breaks out the ability's power roll (if it has one) and effects.
+Abilities are presented in a special format that first describes the ability, then summarizes its mechanical details, and finally breaks out the ability's [power roll](scc:mcdm.heroes.v1/rule.dice/power-roll) (if it has one) and effects.
 
 > **Abilities in Combat**
 >
-> All the abilities appearing in this book are used as a main action, a maneuver, a triggered action, or some other part of your turn. As such, these abilities are all explicitly usable in combat or some other time-sensitive scenario where the game unfolds as combat rounds. If a creature has an ability that takes 1 minute or longer to use, that ability can't be used in combat.
+> All the abilities appearing in this book are used as a main action, a maneuver, a [triggered action](scc:mcdm.heroes.v1/rule.combat/triggered-action), or some other part of your turn. As such, these abilities are all explicitly usable in combat or some other time-sensitive scenario where the game unfolds as combat rounds. If a creature has an ability that takes 1 minute or longer to use, that ability can't be used in combat.
 
 #### Name and Story Text
 
@@ -61,11 +61,11 @@ The nine [Heroic Resources](scc:mcdm.heroes.v1/rule.resource/heroic-resource) in
 
 #### Type
 
-Each ability notes the type of activity required to use it, on the right side of the first line beneath the flavor text. Most abilities require you to use a main action, a maneuver, a move action, a triggered action, a free maneuver, or a free triggered action (with all those terms explained in Taking a Turn in Chapter 10: [Combat](scc:mcdm.heroes.v1/chapter/combat)). For instance, if you use an ability that has "Main Action" as its type entry, you must use your main action to activate the ability.
+Each ability notes the type of activity required to use it, on the right side of the first line beneath the flavor text. Most abilities require you to use a main action, a maneuver, a move action, a [triggered action](scc:mcdm.heroes.v1/rule.combat/triggered-action), a [free maneuver](scc:mcdm.heroes.v1/rule.combat/free-maneuver), or a free [triggered action](scc:mcdm.heroes.v1/rule.combat/triggered-action) (with all those terms explained in Taking a Turn in Chapter 10: [Combat](scc:mcdm.heroes.v1/chapter/combat)). For instance, if you use an ability that has "Main Action" as its type entry, you must use your main action to activate the ability.
 
 ##### Trigger
 
-If an ability requires a triggered action or a free triggered action to use, a "Trigger" entry is part of the ability. For example, the trigger for the [tactician's](scc:mcdm.heroes.v1/class/tactician) Parry ability is: "A creature deals damage to the target." A [tactician](scc:mcdm.heroes.v1/class/tactician) can use their Parry ability only when that specific triggering event occurs.
+If an ability requires a [triggered action](scc:mcdm.heroes.v1/rule.combat/triggered-action) or a free [triggered action](scc:mcdm.heroes.v1/rule.combat/triggered-action) to use, a "Trigger" entry is part of the ability. For example, the trigger for the [tactician's](scc:mcdm.heroes.v1/class/tactician) Parry ability is: "A creature deals damage to the target." A [tactician](scc:mcdm.heroes.v1/class/tactician) can use their Parry ability only when that specific triggering event occurs.
 
 #### "During the Move"
 
@@ -73,17 +73,17 @@ Certain ability effects allow you to move and affect other creatures or objects 
 
 #### Roll Against Multiple Creatures
 
-When an ability has multiple targets (whether a [strike](scc:mcdm.heroes.v1/rule.combat/strike) with more than one target or an area affect), you make one power roll and apply the total to all targets. If you have [edges](scc:mcdm.heroes.v1/rule.dice/edge) or [banes](scc:mcdm.heroes.v1/rule.dice/bane) (see Chapter 1: [The Basics](scc:mcdm.heroes.v1/chapter/the-basics)) against some but not all of your targets, you might apply a different tier outcome to individual targets.
+When an ability has multiple targets (whether a [strike](scc:mcdm.heroes.v1/rule.combat/strike) with more than one target or an area affect), you make one [power roll](scc:mcdm.heroes.v1/rule.dice/power-roll) and apply the total to all targets. If you have [edges](scc:mcdm.heroes.v1/rule.dice/edge) or [banes](scc:mcdm.heroes.v1/rule.dice/bane) (see Chapter 1: [The Basics](scc:mcdm.heroes.v1/chapter/the-basics)) against some but not all of your targets, you might apply a different [tier outcome](scc:mcdm.heroes.v1/rule.dice/tier-outcome) to individual targets.
 
-For example, if you target three creatures with a [strike](scc:mcdm.heroes.v1/rule.combat/strike) ability and the power roll totals 11, each of the targets should be affected by the tier 1 outcome of the ability. However, if you gain an [edge](scc:mcdm.heroes.v1/rule.dice/edge) on [strikes](scc:mcdm.heroes.v1/rule.combat/strike) against one of the targets to add 2 to the power roll, your total against that target is 13, and they are affected by the tier 2 outcome of the ability.
+For example, if you target three creatures with a [strike](scc:mcdm.heroes.v1/rule.combat/strike) ability and the [power roll](scc:mcdm.heroes.v1/rule.dice/power-roll) totals 11, each of the targets should be affected by the tier 1 outcome of the ability. However, if you gain an [edge](scc:mcdm.heroes.v1/rule.dice/edge) on [strikes](scc:mcdm.heroes.v1/rule.combat/strike) against one of the targets to add 2 to the [power roll](scc:mcdm.heroes.v1/rule.dice/power-roll), your total against that target is 13, and they are affected by the tier 2 outcome of the ability.
 
 #### Effect
 
-Many abilities that require power rolls also have effect entries describing additional effects or rules for how the ability is used. If an ability doesn't require a power roll, it has an effect entry that describes how it works.
+Many abilities that require [power rolls](scc:mcdm.heroes.v1/rule.dice/power-roll) also have effect entries describing additional effects or rules for how the ability is used. If an ability doesn't require a [power roll](scc:mcdm.heroes.v1/rule.dice/power-roll), it has an effect entry that describes how it works.
 
 ##### Actions Within Actions
 
-If an ability's effect allows you to take a main action, a maneuver, a move action, or a triggered action, the cost of doing so is subsumed in the ability's type entry on the first line below the flavor text. You never need to spend additional time to use an ability. For example, the [shadow's](scc:mcdm.heroes.v1/class/shadow) [Black Ash Teleport](scc:mcdm.heroes.v1/feature.ability.shadow.level-1/black-ash-teleport) ability is a maneuver that allows you to [teleport](scc:mcdm.heroes.v1/movement/teleport) and then use the [Hide](scc:mcdm.heroes.v1/feature.common.maneuvers/hide) maneuver as its overall effect. Using the [Hide](scc:mcdm.heroes.v1/feature.common.maneuvers/hide) maneuver is part of the maneuver to use the ability, so that you don't need to have another maneuver available to do so.
+If an ability's effect allows you to take a main action, a maneuver, a move action, or a [triggered action](scc:mcdm.heroes.v1/rule.combat/triggered-action), the cost of doing so is subsumed in the ability's type entry on the first line below the flavor text. You never need to spend additional time to use an ability. For example, the [shadow's](scc:mcdm.heroes.v1/class/shadow) [Black Ash Teleport](scc:mcdm.heroes.v1/feature.ability.shadow.level-1/black-ash-teleport) ability is a maneuver that allows you to [teleport](scc:mcdm.heroes.v1/movement/teleport) and then use the [Hide](scc:mcdm.heroes.v1/feature.common.maneuvers/hide) maneuver as its overall effect. Using the [Hide](scc:mcdm.heroes.v1/feature.common.maneuvers/hide) maneuver is part of the maneuver to use the ability, so that you don't need to have another maneuver available to do so.
 
 #### Spend Heroic Resource
 
@@ -93,9 +93,9 @@ Some abilities have a "Spend X [Heroic Resource]" entry in the body of the abili
 
 The unique effects of different abilities are combined—effectively stacking on top of each other—if their durations and targets overlap. However, the effects of the same ability used multiple times don't stack. Instead, the most impactful effect—such as the highest bonus—from each use of the ability applies. The most recently used ability applies for determining duration.
 
-For example, the [null's](scc:mcdm.heroes.v1/class/null) [Null Field](scc:mcdm.heroes.v1/feature.null.level-1/null-field) ability reduces the potencies of enemies within the field by 1. If two allied [nulls](scc:mcdm.heroes.v1/class/null) each have their [Null Field](scc:mcdm.heroes.v1/feature.null.level-1/null-field) ability active and an enemy cultist is targeted by both abilities, that cultist's potencies are reduced by 1, not by 2.
+For example, the [null's](scc:mcdm.heroes.v1/class/null) [Null Field](scc:mcdm.heroes.v1/feature.null.level-1/null-field) ability reduces the [potencies](scc:mcdm.heroes.v1/rule.character/potency) of enemies within the field by 1. If two allied [nulls](scc:mcdm.heroes.v1/class/null) each have their [Null Field](scc:mcdm.heroes.v1/feature.null.level-1/null-field) ability active and an enemy cultist is targeted by both abilities, that cultist's [potencies](scc:mcdm.heroes.v1/rule.character/potency) are reduced by 1, not by 2.
 
-Different effects that impose the same condition (see Conditions below) don't stack to impose the condition twice. For instance, if a hero is targeted by numerous creatures whose abilities cause a target to become [weakened](scc:mcdm.heroes.v1/condition/weakened) (imposing a [bane](scc:mcdm.heroes.v1/rule.dice/bane) on the target's power rolls), the target isn't [weakened](scc:mcdm.heroes.v1/condition/weakened) twice to impose a double [bane](scc:mcdm.heroes.v1/rule.dice/bane) on those rolls. A character who is [grabbed](scc:mcdm.heroes.v1/condition/grabbed) by an enemy can't be [grabbed](scc:mcdm.heroes.v1/condition/grabbed) again by another enemy. The same holds true for game effects that aren't conditions. For example, if a hero is targeted by multiple abilities or effects that can halve their [recovery value](scc:mcdm.heroes.v1/rule.health/recoveries), the hero's [recovery value](scc:mcdm.heroes.v1/rule.health/recoveries) is halved only once.
+Different effects that impose the same condition (see Conditions below) don't stack to impose the condition twice. For instance, if a hero is targeted by numerous creatures whose abilities cause a target to become [weakened](scc:mcdm.heroes.v1/condition/weakened) (imposing a [bane](scc:mcdm.heroes.v1/rule.dice/bane) on the target's [power rolls](scc:mcdm.heroes.v1/rule.dice/power-roll)), the target isn't [weakened](scc:mcdm.heroes.v1/condition/weakened) twice to impose a double [bane](scc:mcdm.heroes.v1/rule.dice/bane) on those rolls. A character who is [grabbed](scc:mcdm.heroes.v1/condition/grabbed) by an enemy can't be [grabbed](scc:mcdm.heroes.v1/condition/grabbed) again by another enemy. The same holds true for game effects that aren't conditions. For example, if a hero is targeted by multiple abilities or effects that can halve their [recovery value](scc:mcdm.heroes.v1/rule.health/recoveries), the hero's [recovery value](scc:mcdm.heroes.v1/rule.health/recoveries) is halved only once.
 
 #### Ending Effects
 
@@ -107,7 +107,7 @@ Some effects last until the end of the encounter. If such an effect is used outs
 
 ##### Creature Ends an Ability Effect
 
-A creature who imposes an effect on another creature using an ability can end that effect as a free maneuver unless the ability says otherwise.
+A creature who imposes an effect on another creature using an ability can end that effect as a [free maneuver](scc:mcdm.heroes.v1/rule.combat/free-maneuver) unless the ability says otherwise.
 
 #### Straight Line
 
@@ -115,9 +115,9 @@ Whenever a creature moves or is subjected to [forced movement](scc:mcdm.heroes.v
 
 #### Abilities in Class Tables
 
-Each class in this chapter includes a table that shows the progression as a hero gains new levels in that class. Each of those tables has an Abilities column and another column that shows abilities granted by the hero's subclass, tracking all the heroic abilities a hero of that class has at each level. Each ability is represented by a numeral noting the ability's [Heroic Resource](scc:mcdm.heroes.v1/rule.resource/heroic-resource) cost.
+Each class in this chapter includes a table that shows the progression as a hero gains new levels in that class. Each of those tables has an Abilities column and another column that shows abilities granted by the hero's [subclass](scc:mcdm.heroes.v1/rule.general/subclass), tracking all the [heroic abilities](scc:mcdm.heroes.v1/rule.general/heroic-ability) a hero of that class has at each level. Each ability is represented by a numeral noting the ability's [Heroic Resource](scc:mcdm.heroes.v1/rule.resource/heroic-resource) cost.
 
-For example a 6th-level [censor](scc:mcdm.heroes.v1/class/censor) has "Signature, 3, 5, 7, 9" in their Abilities column, and "5, 9" in their Order Abilities column (representing the [censor's](scc:mcdm.heroes.v1/class/censor) subclass). This means a [censor](scc:mcdm.heroes.v1/class/censor) of that level has a signature ability and four heroic abilities costing 3, 5, 7, and 9 wrath respectively, plus an additional two subclass heroic abilities costing 5 and 9 wrath.
+For example a 6th-level [censor](scc:mcdm.heroes.v1/class/censor) has "Signature, 3, 5, 7, 9" in their Abilities column, and "5, 9" in their Order Abilities column (representing the [censor's](scc:mcdm.heroes.v1/class/censor) [subclass](scc:mcdm.heroes.v1/rule.general/subclass)). This means a [censor](scc:mcdm.heroes.v1/class/censor) of that level has a [signature ability](scc:mcdm.heroes.v1/rule.combat/signature-ability) and four [heroic abilities](scc:mcdm.heroes.v1/rule.general/heroic-ability) costing 3, 5, 7, and 9 wrath respectively, plus an additional two [subclass](scc:mcdm.heroes.v1/rule.general/subclass) [heroic abilities](scc:mcdm.heroes.v1/rule.general/heroic-ability) costing 5 and 9 wrath.
 
 > **Quick Build Gold Icons**
 >

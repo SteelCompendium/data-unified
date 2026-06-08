@@ -14,11 +14,11 @@ type: treasure
 
 **Keywords:** Arms, Psionic
 
-**Item Prerequisite:** Petrified wood from a tree that has not been observed since falling
+**[Item Prerequisite](scc:mcdm.heroes.v1/rule.downtime/item-prerequisite):** Petrified wood from a tree that has not been observed since falling
 
-**Project Source:** Texts or lore in Zaliac
+**[Project Source](scc:mcdm.heroes.v1/rule.downtime/project-source):** Texts or lore in Zaliac
 
-**Project Roll [Characteristic](scc:mcdm.heroes.v1/rule.character/characteristic):** [Reason](scc:mcdm.heroes.v1/rule.character/reason)
+**[Project Roll](scc:mcdm.heroes.v1/rule.downtime/project-roll) [Characteristic](scc:mcdm.heroes.v1/rule.character/characteristic):** [Reason](scc:mcdm.heroes.v1/rule.character/reason)
 
 **Project Goal:** 150
 

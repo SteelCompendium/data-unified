@@ -1,7 +1,7 @@
 ---
 action_type: Main action
 class: elementalist
-distance: 2 cube within 10
+distance: 2 [cube](scc:mcdm.heroes.v1/rule.combat/cube) within 10
 effect: The ground beneath the area is [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain) for enemies.
 flavor: A sudden storm of detritus assaults your foes and leaves them struggling to move.
 keywords:
@@ -22,9 +22,9 @@ type: ability
 
 | **Area, Earth, Magic, Ranged** |               **Main action** |
 |--------------------------------|------------------------------:|
-| **📏 2 cube within 10**        | **🎯 Each enemy in the area** |
+| **📏 2 [cube](scc:mcdm.heroes.v1/rule.combat/cube) within 10**        | **🎯 Each enemy in the area** |
 
-**Power Roll + [Reason](scc:mcdm.heroes.v1/rule.character/reason):**
+**[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Reason](scc:mcdm.heroes.v1/rule.character/reason):**
 
 - **≤11:** 2 damage
 - **12-16:** 5 damage

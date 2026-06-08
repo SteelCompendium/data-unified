@@ -3,7 +3,7 @@ action_type: Maneuver
 class: "null"
 cost: 9 Discipline
 distance: Self
-effect: You gain 20 [temporary Stamina](scc:mcdm.heroes.v1/rule.health/temporary-stamina). Additionally, until the end of the encounter, your stability gains a bonus equal to your [Intuition](scc:mcdm.heroes.v1/rule.character/intuition) score.
+effect: You gain 20 [temporary Stamina](scc:mcdm.heroes.v1/rule.health/temporary-stamina). Additionally, until the end of the encounter, your [stability](scc:mcdm.heroes.v1/rule.character/stability) gains a bonus equal to your [Intuition](scc:mcdm.heroes.v1/rule.character/intuition) score.
 flavor: You focus until your body becomes as hard as iron.
 keywords:
     - Psionic
@@ -21,4 +21,4 @@ type: ability
 |-------------|-------------:|
 | **📏 Self** |  **🎯 Self** |
 
-**Effect:** You gain 20 [temporary Stamina](scc:mcdm.heroes.v1/rule.health/temporary-stamina). Additionally, until the end of the encounter, your stability gains a bonus equal to your [Intuition](scc:mcdm.heroes.v1/rule.character/intuition) score.
+**Effect:** You gain 20 [temporary Stamina](scc:mcdm.heroes.v1/rule.health/temporary-stamina). Additionally, until the end of the encounter, your [stability](scc:mcdm.heroes.v1/rule.character/stability) gains a bonus equal to your [Intuition](scc:mcdm.heroes.v1/rule.character/intuition) score.

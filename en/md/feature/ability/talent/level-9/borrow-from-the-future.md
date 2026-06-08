@@ -2,7 +2,7 @@
 action_type: Maneuver
 class: talent
 cost: 11 Clarity
-distance: 2 burst
+distance: 2 [burst](scc:mcdm.heroes.v1/rule.combat/burst)
 effect: The targets share 6 of their [Heroic Resource](scc:mcdm.heroes.v1/rule.resource/heroic-resource) among themselves, as you determine. A target can't gain more than 3 of their [Heroic Resource](scc:mcdm.heroes.v1/rule.resource/heroic-resource) this way. After using this ability, you can't gain any clarity until the end of the next combat round.
 flavor: You lean on future heroism to assist you in the now.
 keywords:
@@ -21,6 +21,6 @@ type: ability
 
 | **Area, Chronopathy, Psionic** |                 **Maneuver** |
 |--------------------------------|-----------------------------:|
-| **📏 2 burst**                 | **🎯 Each ally in the area** |
+| **📏 2 [burst](scc:mcdm.heroes.v1/rule.combat/burst)**                 | **🎯 Each ally in the area** |
 
 **Effect:** The targets share 6 of their [Heroic Resource](scc:mcdm.heroes.v1/rule.resource/heroic-resource) among themselves, as you determine. A target can't gain more than 3 of their [Heroic Resource](scc:mcdm.heroes.v1/rule.resource/heroic-resource) this way. After using this ability, you can't gain any clarity until the end of the next combat round.

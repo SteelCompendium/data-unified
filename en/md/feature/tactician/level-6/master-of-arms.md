@@ -6,4 +6,4 @@ scc: mcdm.heroes.v1/feature.tactician.level-6/master-of-arms
 type: feature
 ---
 
-Your expertise with weapons has grown to true mastery. Whenever you use a signature ability from one of your equipped kits or make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) using a weapon from one of your equipped kits, you can negate a [bane](scc:mcdm.heroes.v1/rule.dice/bane) on the power roll or reduce a double [bane](scc:mcdm.heroes.v1/rule.dice/bane) to a [bane](scc:mcdm.heroes.v1/rule.dice/bane).
+Your expertise with weapons has grown to true mastery. Whenever you use a [signature ability](scc:mcdm.heroes.v1/rule.combat/signature-ability) from one of your equipped kits or make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) using a weapon from one of your equipped kits, you can negate a [bane](scc:mcdm.heroes.v1/rule.dice/bane) on the [power roll](scc:mcdm.heroes.v1/rule.dice/power-roll) or reduce a double [bane](scc:mcdm.heroes.v1/rule.dice/bane) to a [bane](scc:mcdm.heroes.v1/rule.dice/bane).

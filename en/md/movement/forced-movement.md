@@ -12,7 +12,7 @@ Some actions and maneuvers allow a creature to push, pull, or slide a target cre
 
 When you [force move](scc:mcdm.heroes.v1/movement/forced-movement) a target, you can always move that target fewer squares than the number indicated. For example, when the [conduit](scc:mcdm.heroes.v1/class/conduit) obtains a tier 3 "push 3" outcome with their Call the Thunder Down ability, they can push targets any [distance](scc:mcdm.heroes.v1/rule.combat/distance) up to 3 squares, including choosing to not move certain targets at all.
 
-[Forced movement](scc:mcdm.heroes.v1/movement/forced-movement) ignores [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain) and never provokes opportunity attacks. When you force move a target into [damaging terrain](scc:mcdm.heroes.v1/movement/damaging-terrain) or into terrain that produces an effect, they are affected as if they had moved into it willingly.
+[Forced movement](scc:mcdm.heroes.v1/movement/forced-movement) ignores [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain) and never provokes [opportunity attacks](scc:mcdm.heroes.v1/rule.combat/opportunity-attack). When you force move a target into [damaging terrain](scc:mcdm.heroes.v1/movement/damaging-terrain) or into terrain that produces an effect, they are affected as if they had moved into it willingly.
 
 > **Multitarget Abilities and [Forced Movement](scc:mcdm.heroes.v1/movement/forced-movement)**
 >

@@ -14,11 +14,11 @@ type: treasure
 
 **Keywords:** Arms, Psionic
 
-**Item Prerequisite:** Steel alloy, one fine-cut topaz
+**[Item Prerequisite](scc:mcdm.heroes.v1/rule.downtime/item-prerequisite):** Steel alloy, one fine-cut topaz
 
-**Project Source:** Texts or lore in Mindspeech
+**[Project Source](scc:mcdm.heroes.v1/rule.downtime/project-source):** Texts or lore in Mindspeech
 
-**Project Roll [Characteristic](scc:mcdm.heroes.v1/rule.character/characteristic):** [Agility](scc:mcdm.heroes.v1/rule.character/agility) or [Presence](scc:mcdm.heroes.v1/rule.character/presence)
+**[Project Roll](scc:mcdm.heroes.v1/rule.downtime/project-roll) [Characteristic](scc:mcdm.heroes.v1/rule.character/characteristic):** [Agility](scc:mcdm.heroes.v1/rule.character/agility) or [Presence](scc:mcdm.heroes.v1/rule.character/presence)
 
 **Project Goal:** 600
 

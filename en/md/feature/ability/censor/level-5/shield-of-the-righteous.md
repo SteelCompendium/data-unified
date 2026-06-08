@@ -22,7 +22,7 @@ type: ability
 |---------------------------|-------------------------:|
 | **📏 Melee 1**            |      **🎯 One creature** |
 
-**Power Roll + [Might](scc:mcdm.heroes.v1/rule.character/might):**
+**[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc:mcdm.heroes.v1/rule.character/might):**
 
 - **≤11:** 10 + M damage; you and each ally adjacent to you gain 10 [temporary Stamina](scc:mcdm.heroes.v1/rule.health/temporary-stamina)
 - **12-16:** 14 + M damage; you and each ally adjacent to you gain 15 [temporary Stamina](scc:mcdm.heroes.v1/rule.health/temporary-stamina)

@@ -6,4 +6,4 @@ scc: mcdm.heroes.v1/feature.censor.level-2/stalwart-icon
 type: feature
 ---
 
-You exhibit a small spark of your deity's power, causing creatures to trust or fear you, depending on what you need. You gain an [edge](scc:mcdm.heroes.v1/rule.dice/edge) on tests made to intimidate or persuade others.
+You exhibit a small spark of your deity's power, causing creatures to trust or fear you, depending on what you need. You gain an [edge](scc:mcdm.heroes.v1/rule.dice/edge) on [tests](scc:mcdm.heroes.v1/rule.test/test) made to intimidate or persuade others.

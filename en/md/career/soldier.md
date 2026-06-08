@@ -2,7 +2,6 @@
 language: Two languages
 name: Soldier
 perk: One exploration perk (*Quick Build:* Teamwork.)
-renown: "+1"
 scc: mcdm.heroes.v1/career/soldier
 skills:
     - One skill from the exploration skill group and one skill from the intrigue group (*Quick Build:* [Alertness](scc:mcdm.heroes.v1/skill/alertness), [Endurance](scc:mcdm.heroes.v1/skill/endurance).)
@@ -22,7 +21,7 @@ You gain the following career benefits:
 
 **Languages:** Two languages
 
-**Renown:** +1
+**[Renown](scc:mcdm.heroes.v1/rule.resource/renown):** +1
 
 **Perk:** One exploration perk (*Quick Build:* Teamwork.)
 

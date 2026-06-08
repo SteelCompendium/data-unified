@@ -10,7 +10,7 @@ You channel the substance of creation in the form of a [Heroic Resource](scc:mcd
 
 ##### Essence in Combat
 
-At the start of a combat encounter or some other stressful situation tracked in combat rounds (as determined by the Director), you gain essence equal to your Victories. At the start of each of your turns during combat, you gain 2 essence.
+At the start of a combat encounter or some other stressful situation tracked in combat rounds (as determined by the Director), you gain essence equal to your [Victories](scc:mcdm.heroes.v1/rule.resource/victories). At the start of each of your turns during combat, you gain 2 essence.
 
 Additionally, the first time each combat round that you or a creature within 10 squares takes damage that isn't untyped or holy damage, you gain 1 essence.
 
@@ -18,8 +18,8 @@ You lose any remaining essence at the end of the encounter.
 
 ##### Essence Outside of Combat
 
-Though you can't gain essence outside of combat, you can use your heroic abilities and effects that cost essence without spending it. Whenever you use an ability or effect outside of combat that costs essence, you can't use that same ability or effect outside of combat again until you earn 1 or more Victories or finish a respite.
+Though you can't gain essence outside of combat, you can use your [heroic abilities](scc:mcdm.heroes.v1/rule.general/heroic-ability) and effects that cost essence without spending it. Whenever you use an ability or effect outside of combat that costs essence, you can't use that same ability or effect outside of combat again until you earn 1 or more [Victories](scc:mcdm.heroes.v1/rule.resource/victories) or finish a [respite](scc:mcdm.heroes.v1/rule.resource/respite).
 
-When you use a persistent ability outside of combat (see [Persistent Magic](scc:mcdm.heroes.v1/feature.elementalist.level-1/persistent-magic) below), you can maintain it for a number of rounds equal to your Victories.
+When you use a persistent ability outside of combat (see [Persistent Magic](scc:mcdm.heroes.v1/feature.elementalist.level-1/persistent-magic) below), you can maintain it for a number of rounds equal to your [Victories](scc:mcdm.heroes.v1/rule.resource/victories).
 
-When you use an ability outside of combat that lets you spend unlimited essence on its effect, you can use it as if you had spent an amount of essence equal to your Victories.
+When you use an ability outside of combat that lets you spend unlimited essence on its effect, you can use it as if you had spent an amount of essence equal to your [Victories](scc:mcdm.heroes.v1/rule.resource/victories).

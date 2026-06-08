@@ -2,7 +2,6 @@
 language: One language
 name: Criminal
 perk: One intrigue perk (*Quick Build:* [Criminal Contacts](scc:mcdm.heroes.v1/perk/criminal-contacts).)
-project_points: "120"
 scc: mcdm.heroes.v1/career/criminal
 skills:
     - The [Criminal Underworld](scc:mcdm.heroes.v1/skill/criminal-underworld) skill (from the lore skill group), plus two skills from the intrigue group (*Quick Build:* [Criminal Underworld](scc:mcdm.heroes.v1/skill/criminal-underworld), Pick Lock, Pick Pocket.)
@@ -22,7 +21,7 @@ You gain the following career benefits:
 
 **Languages:** One language
 
-**Project Points:** 120
+**[Project Points](scc:mcdm.heroes.v1/rule.downtime/project-points):** 120
 
 **Perk:** One intrigue perk (*Quick Build:* [Criminal Contacts](scc:mcdm.heroes.v1/perk/criminal-contacts).)
 

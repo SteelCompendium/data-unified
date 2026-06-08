@@ -12,11 +12,11 @@ type: treasure
 
 **Keywords:** Heavy Armor, Psionic
 
-**Item Prerequisite:** A large vessel of astral ice, a pint of supercooled mercury
+**[Item Prerequisite](scc:mcdm.heroes.v1/rule.downtime/item-prerequisite):** A large vessel of astral ice, a pint of supercooled mercury
 
-**Project Source:** Texts or lore in Voll
+**[Project Source](scc:mcdm.heroes.v1/rule.downtime/project-source):** Texts or lore in Voll
 
-**Project Roll [Characteristic](scc:mcdm.heroes.v1/rule.character/characteristic):** [Might](scc:mcdm.heroes.v1/rule.character/might), [Reason](scc:mcdm.heroes.v1/rule.character/reason), or [Intuition](scc:mcdm.heroes.v1/rule.character/intuition)
+**[Project Roll](scc:mcdm.heroes.v1/rule.downtime/project-roll) [Characteristic](scc:mcdm.heroes.v1/rule.character/characteristic):** [Might](scc:mcdm.heroes.v1/rule.character/might), [Reason](scc:mcdm.heroes.v1/rule.character/reason), or [Intuition](scc:mcdm.heroes.v1/rule.character/intuition)
 
 **Project Goal:** 450
 

@@ -2,7 +2,7 @@
 action_type: Main action
 class: elementalist
 cost: 3 Essence
-distance: 3 cube within 10
+distance: 3 [cube](scc:mcdm.heroes.v1/rule.combat/cube) within 10
 flavor: You open a rift into the void to harry your foes.
 keywords:
     - Area
@@ -21,9 +21,9 @@ type: ability
 
 | **Area, Magic, Ranged, Void** |               **Main action** |
 |-------------------------------|------------------------------:|
-| **📏 3 cube within 10**       | **🎯 Each enemy in the area** |
+| **📏 3 [cube](scc:mcdm.heroes.v1/rule.combat/cube) within 10**       | **🎯 Each enemy in the area** |
 
-**Power Roll + [Reason](scc:mcdm.heroes.v1/rule.character/reason):**
+**[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Reason](scc:mcdm.heroes.v1/rule.character/reason):**
 
 - **≤11:** 2 psychic damage
 - **12-16:** 4 psychic damage

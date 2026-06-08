@@ -2,7 +2,7 @@
 action_type: Maneuver
 class: elementalist
 cost: 5 Essence
-distance: 3 cube within 10
+distance: 3 [cube](scc:mcdm.heroes.v1/rule.combat/cube) within 10
 effect: 'Until the start of your next turn, the area gains the following effects:'
 flavor: Revitalizing plants and jagged stones grow, helping allies and hindering foes.
 keywords:
@@ -23,12 +23,12 @@ type: ability
 
 | **Area, Earth, Green, Magic, Ranged** |   **Maneuver** |
 |---------------------------------------|---------------:|
-| **📏 3 cube within 10**               | **🎯 Special** |
+| **📏 3 [cube](scc:mcdm.heroes.v1/rule.combat/cube) within 10**               | **🎯 Special** |
 
 **Effect:** Until the start of your next turn, the area gains the following effects:
 
-- Once as a free maneuver at the start of your turn, you allow yourself and each ally in the area to spend any number of [Recoveries](scc:mcdm.heroes.v1/rule.health/recoveries).
+- Once as a [free maneuver](scc:mcdm.heroes.v1/rule.combat/free-maneuver) at the start of your turn, you allow yourself and each ally in the area to spend any number of [Recoveries](scc:mcdm.heroes.v1/rule.health/recoveries).
 - The area is [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain) for enemies.
 - Each enemy who enters the area for the first time in a combat round or starts their turn there takes damage equal to your [Reason](scc:mcdm.heroes.v1/rule.character/reason) score.
 
-**Persistent 1:** The area remains until the start of your next turn. As a maneuver, you can move the area up to 5 squares. This ability ends if the area is ever not within your line of effect.
+**Persistent 1:** The area remains until the start of your next turn. As a maneuver, you can move the area up to 5 squares. This ability ends if the area is ever not within your [line of effect](scc:mcdm.heroes.v1/rule.combat/line-of-effect).

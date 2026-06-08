@@ -14,11 +14,11 @@ type: treasure
 
 **Keywords:** Head, Psionic
 
-**Item Prerequisite:** A spool of mindspider silk, an ingot of white gold
+**[Item Prerequisite](scc:mcdm.heroes.v1/rule.downtime/item-prerequisite):** A spool of mindspider silk, an ingot of white gold
 
-**Project Source:** Texts or lore in Higaran
+**[Project Source](scc:mcdm.heroes.v1/rule.downtime/project-source):** Texts or lore in Higaran
 
-**Project Roll [Characteristic](scc:mcdm.heroes.v1/rule.character/characteristic):** [Reason](scc:mcdm.heroes.v1/rule.character/reason) or [Intuition](scc:mcdm.heroes.v1/rule.character/intuition)
+**[Project Roll](scc:mcdm.heroes.v1/rule.downtime/project-roll) [Characteristic](scc:mcdm.heroes.v1/rule.character/characteristic):** [Reason](scc:mcdm.heroes.v1/rule.character/reason) or [Intuition](scc:mcdm.heroes.v1/rule.character/intuition)
 
 **Project Goal:** 450
 

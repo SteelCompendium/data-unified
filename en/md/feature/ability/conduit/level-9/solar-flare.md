@@ -2,7 +2,7 @@
 action_type: Main action
 class: conduit
 cost: 11 Piety
-distance: 5 cube within 10
+distance: 5 [cube](scc:mcdm.heroes.v1/rule.combat/cube) within 10
 flavor: You call down a sphere of fire that burns your foes to ash.
 keywords:
     - Area
@@ -20,9 +20,9 @@ type: ability
 
 | **Area, Magic, Ranged** |               **Main action** |
 |-------------------------|------------------------------:|
-| **📏 5 cube within 10** | **🎯 Each enemy in the area** |
+| **📏 5 [cube](scc:mcdm.heroes.v1/rule.combat/cube) within 10** | **🎯 Each enemy in the area** |
 
-**Power Roll + [Intuition](scc:mcdm.heroes.v1/rule.character/intuition):**
+**[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Intuition](scc:mcdm.heroes.v1/rule.character/intuition):**
 
 - **≤11:** 9 fire damage
 - **12-16:** 14 fire damage

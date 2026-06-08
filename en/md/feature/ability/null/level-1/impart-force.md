@@ -24,7 +24,7 @@ type: ability
 |------------------------------------|------------------------------:|
 | **📏 Melee 1**                     | **🎯 One creature or object** |
 
-**Power Roll + [Intuition](scc:mcdm.heroes.v1/rule.character/intuition):**
+**[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Intuition](scc:mcdm.heroes.v1/rule.character/intuition):**
 
 - **≤11:** Push 3
 - **12-16:** Push 5

@@ -12,10 +12,10 @@ type: title
 
 **Effect:** Choose one of the following benefits:
 
-- *Easy Marks:* You gain an [edge](scc:mcdm.heroes.v1/rule.dice/edge) on tests made using skills from the interpersonal and intrigue skill groups when influencing members of a community that you have saved.
-- *Local Fame:* You earn 1 Renown.
-- *A New Dawn:* Each time you finish a respite while in a community you have saved, the party gains a [hero token](scc:mcdm.heroes.v1/rule.resource/hero-token). This [hero token](scc:mcdm.heroes.v1/rule.resource/hero-token) disappears at the end of your next respite if it hasn't been used.
+- *Easy Marks:* You gain an [edge](scc:mcdm.heroes.v1/rule.dice/edge) on [tests](scc:mcdm.heroes.v1/rule.test/test) made using skills from the interpersonal and intrigue skill groups when influencing members of a community that you have saved.
+- *Local Fame:* You earn 1 [Renown](scc:mcdm.heroes.v1/rule.resource/renown).
+- *A New Dawn:* Each time you finish a [respite](scc:mcdm.heroes.v1/rule.resource/respite) while in a community you have saved, the party gains a [hero token](scc:mcdm.heroes.v1/rule.resource/hero-token). This [hero token](scc:mcdm.heroes.v1/rule.resource/hero-token) disappears at the end of your next [respite](scc:mcdm.heroes.v1/rule.resource/respite) if it hasn't been used.
 
-> **Renown and Wealth**
+> **[Renown](scc:mcdm.heroes.v1/rule.resource/renown) and [Wealth](scc:mcdm.heroes.v1/rule.resource/wealth)**
 >
-> Many titles bestow Renown, followers, and wealth upon heroes. Those topics are covered later in this chapter.
+> Many titles bestow [Renown](scc:mcdm.heroes.v1/rule.resource/renown), [followers](scc:mcdm.heroes.v1/rule.general/follower), and wealth upon heroes. Those topics are covered later in this chapter.

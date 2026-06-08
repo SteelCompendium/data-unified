@@ -8,7 +8,7 @@ type: feature
 
 You have more ways of getting the most drama out of a situation. Choose two of the following events to add to the events that grant you drama during battle:
 
-- Whenever a creature rolls a natural 2 on a power roll, you gain 2 drama.
+- Whenever a creature rolls a natural 2 on a [power roll](scc:mcdm.heroes.v1/rule.dice/power-roll), you gain 2 drama.
 - The first time the Director deals damage to a hero using a Villain action or an ability that costs Malice, you gain 2 drama.
 - The first time a hero unwillingly falls 5 or more squares, you gain 2 drama.
 - The first time a hero deals damage with 3 [surges](scc:mcdm.heroes.v1/rule.resource/surge), you gain 2 drama.

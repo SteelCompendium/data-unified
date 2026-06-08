@@ -25,7 +25,7 @@ type: ability
 |-------------------------------------------|------------------------------:|
 | **📏 Melee 1 or ranged 5**                |           **🎯 One creature** |
 
-**Power Roll + [Might](scc:mcdm.heroes.v1/rule.character/might):**
+**[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc:mcdm.heroes.v1/rule.character/might):**
 
 - **≤11:** 5 + M holy damage; M < WEAK, the target has fire weakness 3 (save ends)
 - **12-16:** 9 + M holy damage; M < AVERAGE, the target has fire weakness 5 (save ends)

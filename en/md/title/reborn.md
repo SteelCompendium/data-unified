@@ -14,8 +14,8 @@ type: title
 
 Additionally, choose one of the following benefits:
 
-- *Holy Weapon:* You have a leveled treasure of the Director's choice.
-- *Kill Me Once, Shame On You:* Choose a creature keyword belonging to one of the creatures who defeated you. Any creature with that keyword takes a [bane](scc:mcdm.heroes.v1/rule.dice/bane) on ability rolls against you.
+- *Holy Weapon:* You have a [leveled treasure](scc:mcdm.heroes.v1/rule.treasure/leveled-treasure) of the Director's choice.
+- *Kill Me Once, Shame On You:* Choose a creature keyword belonging to one of the creatures who defeated you. Any creature with that keyword takes a [bane](scc:mcdm.heroes.v1/rule.dice/bane) on [ability rolls](scc:mcdm.heroes.v1/rule.dice/ability-roll) against you.
 - *Memories of the Beyond:* You have two skills of your choice.
 
 **Special:** If a [hakaan](scc:mcdm.heroes.v1/ancestry/hakaan) gains this title as a result of using their Doomsight trait, they lose that trait.

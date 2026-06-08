@@ -6,7 +6,7 @@ scc: mcdm.heroes.v1/feature.troubadour.level-6/6th-level-class-act-ability
 type: feature
 ---
 
-Your [troubadour class act](scc:mcdm.heroes.v1/feature.troubadour.level-1/troubadour-class-act) grants your choice of one of two heroic abilities.
+Your [troubadour class act](scc:mcdm.heroes.v1/feature.troubadour.level-1/troubadour-class-act) grants your choice of one of two [heroic abilities](scc:mcdm.heroes.v1/rule.general/heroic-ability).
 
 ##### 6th-Level Auteur Abilities
 

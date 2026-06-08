@@ -1,5 +1,5 @@
 ---
-benefit: When interacting with pirates or [pirate](scc:mcdm.heroes.v1/complication/pirate) hunters, you treat your Renown as 2 higher than usual. Additionally, you hold a piece of a [pirate](scc:mcdm.heroes.v1/complication/pirate) map, with a handful of other pirates in different locations holding the other pieces. With all the pieces, you'd know the location of a fabulous [pirate](scc:mcdm.heroes.v1/complication/pirate) treasure.
+benefit: When interacting with pirates or [pirate](scc:mcdm.heroes.v1/complication/pirate) hunters, you treat your [Renown](scc:mcdm.heroes.v1/rule.resource/renown) as 2 higher than usual. Additionally, you hold a piece of a [pirate](scc:mcdm.heroes.v1/complication/pirate) map, with a handful of other pirates in different locations holding the other pieces. With all the pieces, you'd know the location of a fabulous [pirate](scc:mcdm.heroes.v1/complication/pirate) treasure.
 drawback: The pirates holding the other pieces of the map would very much like to get their hands on your piece, and have no qualms about killing you to get it. Furthermore, the [pirate](scc:mcdm.heroes.v1/complication/pirate) treasure is said to be cursed or haunted.
 name: Pirate
 scc: mcdm.heroes.v1/complication/pirate
@@ -8,6 +8,6 @@ type: complication
 
 You have a piratical past (and maybe a piratical present and future as well). Though you're not well-known ashore, other pirates have a way of recognizing their own.
 
-**Benefit:** When interacting with pirates or [pirate](scc:mcdm.heroes.v1/complication/pirate) hunters, you treat your Renown as 2 higher than usual. Additionally, you hold a piece of a [pirate](scc:mcdm.heroes.v1/complication/pirate) map, with a handful of other pirates in different locations holding the other pieces. With all the pieces, you'd know the location of a fabulous [pirate](scc:mcdm.heroes.v1/complication/pirate) treasure.
+**Benefit:** When interacting with pirates or [pirate](scc:mcdm.heroes.v1/complication/pirate) hunters, you treat your [Renown](scc:mcdm.heroes.v1/rule.resource/renown) as 2 higher than usual. Additionally, you hold a piece of a [pirate](scc:mcdm.heroes.v1/complication/pirate) map, with a handful of other pirates in different locations holding the other pieces. With all the pieces, you'd know the location of a fabulous [pirate](scc:mcdm.heroes.v1/complication/pirate) treasure.
 
 **Drawback:** The pirates holding the other pieces of the map would very much like to get their hands on your piece, and have no qualms about killing you to get it. Furthermore, the [pirate](scc:mcdm.heroes.v1/complication/pirate) treasure is said to be cursed or haunted.

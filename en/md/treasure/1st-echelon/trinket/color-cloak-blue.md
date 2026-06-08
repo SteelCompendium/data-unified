@@ -14,14 +14,14 @@ type: treasure
 
 **Keywords:** Magic, Neck
 
-**Item Prerequisite:** A pint of blue ichor, soul chalk
+**[Item Prerequisite](scc:mcdm.heroes.v1/rule.downtime/item-prerequisite):** A pint of blue ichor, soul chalk
 
-**Project Source:** Licensing agreements in Anjali
+**[Project Source](scc:mcdm.heroes.v1/rule.downtime/project-source):** Licensing agreements in Anjali
 
-**Project Roll [Characteristic](scc:mcdm.heroes.v1/rule.character/characteristic):** [Reason](scc:mcdm.heroes.v1/rule.character/reason) or [Intuition](scc:mcdm.heroes.v1/rule.character/intuition)
+**[Project Roll](scc:mcdm.heroes.v1/rule.downtime/project-roll) [Characteristic](scc:mcdm.heroes.v1/rule.character/characteristic):** [Reason](scc:mcdm.heroes.v1/rule.character/reason) or [Intuition](scc:mcdm.heroes.v1/rule.character/intuition)
 
 **Project Goal:** 150
 
 **Effect:** While worn, a blue Color Cloak grants you cold immunity equal to your level.
 
-Additionally, when you are targeted by any effect that deals cold damage, you can use a triggered action to [shift](scc:mcdm.heroes.v1/movement/shifting) a number of squares equal to your level. If you do so, the cold immunity granted by the cloak becomes cold weakness with the same value until the end of the next round. You can't use this triggered action again until this weakness ends.
+Additionally, when you are targeted by any effect that deals cold damage, you can use a [triggered action](scc:mcdm.heroes.v1/rule.combat/triggered-action) to [shift](scc:mcdm.heroes.v1/movement/shifting) a number of squares equal to your level. If you do so, the cold immunity granted by the cloak becomes cold weakness with the same value until the end of the next round. You can't use this [triggered action](scc:mcdm.heroes.v1/rule.combat/triggered-action) again until this weakness ends.

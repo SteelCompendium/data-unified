@@ -7,7 +7,7 @@ type: ancestry
 
 An anger that cannot be hidden. A [fury](scc:mcdm.heroes.v1/class/fury) that drives them in battle. [Orcs](scc:mcdm.heroes.v1/ancestry/orc) are famed throughout the world as consummate warriors—a reputation that the peace—loving [orcs](scc:mcdm.heroes.v1/ancestry/orc) find distasteful.
 
-The fifth of the speaking peoples, [orcs](scc:mcdm.heroes.v1/ancestry/orc) arrived on Orden after [humans](scc:mcdm.heroes.v1/ancestry/human) and elves. They made their homes in the borderlands between those two cultures, preferring the natural forests and avoiding the elf-haunted wodes. For generations, this put them directly in the path of [humans](scc:mcdm.heroes.v1/ancestry/human) who cut down the trees and built roads and farms.
+The fifth of the speaking peoples, [orcs](scc:mcdm.heroes.v1/ancestry/orc) arrived on [Orden](scc:mcdm.heroes.v1/rule.world/orden) after [humans](scc:mcdm.heroes.v1/ancestry/human) and elves. They made their homes in the borderlands between those two cultures, preferring the natural forests and avoiding the elf-haunted wodes. For generations, this put them directly in the path of [humans](scc:mcdm.heroes.v1/ancestry/human) who cut down the trees and built roads and farms.
 
 Each [orc](scc:mcdm.heroes.v1/ancestry/orc) has within them a fire that causes their veins to glow once blood is drawn. This anger propels them right to the edge of death. The dichotomy between their desire to be left alone and their zeal in battle is summarized in a [dwarf](scc:mcdm.heroes.v1/ancestry/dwarf) proverb:
 
@@ -119,9 +119,9 @@ Khorva shook her head. "[Orcs](scc:mcdm.heroes.v1/ancestry/orc) have no great lo
 
 "It's about living with yourself. Sleeping at night."
 
-"Battles do not bring restful sleep," Khorva said. "The opposite, I find." "Battles bring glory! Battles make heroes!" Dazar insisted, and John felt like he learned something about the [dwarf](scc:mcdm.heroes.v1/ancestry/dwarf) in that moment. He could hear that Dazar believed this to be true, and knew it was a lie. It was a test.
+"Battles do not bring restful sleep," Khorva said. "The opposite, I find." "Battles bring glory! Battles make heroes!" Dazar insisted, and John felt like he learned something about the [dwarf](scc:mcdm.heroes.v1/ancestry/dwarf) in that moment. He could hear that Dazar believed this to be true, and knew it was a lie. It was a [test](scc:mcdm.heroes.v1/rule.test/test).
 
-"War makes only one thing. Corpses." Khorva looked down at the high theochron, who nodded. Test passed.
+"War makes only one thing. Corpses." Khorva looked down at the high theochron, who nodded. [Test](scc:mcdm.heroes.v1/rule.test/test) passed.
 
 "And veterans," Sir John said. "Who covet peace." Khorva nodded. Respect. "Aye," she said. She looked at each hero then at John again.
 

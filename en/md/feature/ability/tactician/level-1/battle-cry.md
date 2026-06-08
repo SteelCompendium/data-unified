@@ -20,7 +20,7 @@ type: ability
 |------------------|--------------------:|
 | **📏 Ranged 10** | **🎯 Three allies** |
 
-**Power Roll + [Reason](scc:mcdm.heroes.v1/rule.character/reason):**
+**[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Reason](scc:mcdm.heroes.v1/rule.character/reason):**
 
 - **≤11:** Each target gains 1 [surge](scc:mcdm.heroes.v1/rule.resource/surge).
 - **12-16:** Each target gains 2 [surges](scc:mcdm.heroes.v1/rule.resource/surge).

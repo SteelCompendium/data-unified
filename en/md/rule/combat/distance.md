@@ -14,7 +14,7 @@ Melee abilities have a [distance](scc:mcdm.heroes.v1/rule.combat/distance) of "M
 
 Ranged abilities have a [distance](scc:mcdm.heroes.v1/rule.combat/distance) of "Ranged X" and can be used to target creatures or objects too far away for you to make contact with. The number X is the maximum [distance](scc:mcdm.heroes.v1/rule.combat/distance) in squares at which a creature or object can be targeted by the ability. For instance, a [distance](scc:mcdm.heroes.v1/rule.combat/distance) of "Ranged 5" can be used to target creatures or objects within 5 squares of you.
 
-If you make a ranged [strike](scc:mcdm.heroes.v1/rule.combat/strike) while any enemy is adjacent to you (within 1 square), you have a [bane](scc:mcdm.heroes.v1/rule.dice/bane) on the [strike](scc:mcdm.heroes.v1/rule.combat/strike)'s power roll. (See [Edges](scc:mcdm.heroes.v1/rule.dice/edge) and [Banes](scc:mcdm.heroes.v1/rule.dice/bane) in Chapter 1: [The Basics](scc:mcdm.heroes.v1/chapter/the-basics).)
+If you make a ranged [strike](scc:mcdm.heroes.v1/rule.combat/strike) while any enemy is adjacent to you (within 1 square), you have a [bane](scc:mcdm.heroes.v1/rule.dice/bane) on the [strike](scc:mcdm.heroes.v1/rule.combat/strike)'s [power roll](scc:mcdm.heroes.v1/rule.dice/power-roll). (See [Edges](scc:mcdm.heroes.v1/rule.dice/edge) and [Banes](scc:mcdm.heroes.v1/rule.dice/bane) in Chapter 1: [The Basics](scc:mcdm.heroes.v1/chapter/the-basics).)
 
 ##### Melee or Ranged
 

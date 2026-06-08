@@ -23,6 +23,6 @@ type: title
 >
 > | **Area, Magic** |                         **Maneuver** |
 > |-----------------|-------------------------------------:|
-> | **📏 3 burst**  | **🎯 Each undead enemy in the area** |
+> | **📏 3 [burst](scc:mcdm.heroes.v1/rule.combat/burst)**  | **🎯 Each undead enemy in the area** |
 >
 > **Effect:** Each target takes holy damage equal to your [Reason](scc:mcdm.heroes.v1/rule.character/reason), [Intuition](scc:mcdm.heroes.v1/rule.character/intuition), or [Presence](scc:mcdm.heroes.v1/rule.character/presence) score (your choice). Additionally, each target who has P < STRONG is [frightened](scc:mcdm.heroes.v1/condition/frightened) (save ends).

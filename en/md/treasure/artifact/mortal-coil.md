@@ -18,7 +18,7 @@ When the Mortal Coil is left unattended or is in the possession of a creature wh
 
 **One Foot in the Grave:** Any creature in the penumbra has [damage weakness](scc:mcdm.heroes.v1/rule.damage/damage-weakness) 2 and can't regain [Stamina](scc:mcdm.heroes.v1/rule.health/stamina).
 
-**Get Busy Dyin':** Each creature in the penumbra ages at 10 times the usual rate, and diseases and poisons affecting creatures in the penumbra run their course at 10 times their usual rate. A creature with no natural maximum lifespan permanently reduces their [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) maximum by 10 each year. Each creature can undertake one additional respite activity during each respite.
+**Get Busy Dyin':** Each creature in the penumbra ages at 10 times the usual rate, and diseases and poisons affecting creatures in the penumbra run their course at 10 times their usual rate. A creature with no natural maximum lifespan permanently reduces their [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) maximum by 10 each year. Each creature can undertake one additional [respite](scc:mcdm.heroes.v1/rule.resource/respite) activity during each [respite](scc:mcdm.heroes.v1/rule.resource/respite).
 
 **If You Meet God on the Road, Kill Them:** Every non-mortal entity in the penumbra is granted the gift of mortality. Previously immortal or invulnerable entities—from planar creatures to the gods themselves can be killed while in the penumbra, though not necessarily easily. Any creature or entity who dies in the Mortal Coil's penumbra experiences perfect death. They are permanently, irrevocably dead, and no magic, psionics, or technology can restore them to life.
 

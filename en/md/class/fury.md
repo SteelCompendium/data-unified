@@ -1,12 +1,9 @@
 ---
-average_potency: '[Might](scc:mcdm.heroes.v1/rule.character/might) − 1'
 name: Fury
 scc: mcdm.heroes.v1/class/fury
 skills:
     - 'You gain the [Nature](scc:mcdm.heroes.v1/skill/nature) skill (see Skills in Chapter 9: [Tests](scc:mcdm.heroes.v1/chapter/tests)). Then choose any two skills from the exploration or intrigue skill groups. (*Quick Build:* Alertness, Jump, Nature.)'
-strong_potency: '[Might](scc:mcdm.heroes.v1/rule.character/might)'
 type: class
-weak_potency: '[Might](scc:mcdm.heroes.v1/rule.character/might) − 2'
 ---
 
 You do not temper the heat of battle within you. You unleash it! Your experience in the wild taught you the secrets of predators, and now, like the raptor, the [panther](scc:mcdm.heroes.v1/kit/panther), the wolf, you channel [unfettered](scc:mcdm.heroes.v1/feature.fury.level-5/unfettered) anger into martial prowess. Primordial Chaos is your ally. Let others use finesse to clean up the wreckage left in your wake.
@@ -25,11 +22,11 @@ You do not temper the heat of battle within you. You unleash it! Your experience
 - 1, 1, −1
 - 1, 0, 0
 
-**Weak Potency:** [Might](scc:mcdm.heroes.v1/rule.character/might) − 2
+**Weak [Potency](scc:mcdm.heroes.v1/rule.character/potency):** [Might](scc:mcdm.heroes.v1/rule.character/might) − 2
 
-**Average Potency:** [Might](scc:mcdm.heroes.v1/rule.character/might) − 1
+**Average [Potency](scc:mcdm.heroes.v1/rule.character/potency):** [Might](scc:mcdm.heroes.v1/rule.character/might) − 1
 
-**Strong Potency:** [Might](scc:mcdm.heroes.v1/rule.character/might)
+**Strong [Potency](scc:mcdm.heroes.v1/rule.character/potency):** [Might](scc:mcdm.heroes.v1/rule.character/might)
 
 **Starting [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) at 1st Level:** 21
 

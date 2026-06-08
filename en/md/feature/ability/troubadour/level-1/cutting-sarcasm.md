@@ -23,7 +23,7 @@ type: ability
 |-----------------------------------|--------------------:|
 | **📏 Ranged 10**                  | **🎯 One creature** |
 
-**Power Roll + [Presence](scc:mcdm.heroes.v1/rule.character/presence):**
+**[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Presence](scc:mcdm.heroes.v1/rule.character/presence):**
 
 - **≤11:** 2 + P psychic damage; P < WEAK, [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
 - **12-16:** 5 + P psychic damage; P < AVERAGE, [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)

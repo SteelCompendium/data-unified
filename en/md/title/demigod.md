@@ -18,6 +18,6 @@ type: title
 
 Additionally, choose one of the following benefits:
 
-- *Acolytes:* The number of followers you can recruit increases by two
+- *Acolytes:* The number of [followers](scc:mcdm.heroes.v1/rule.general/follower) you can recruit increases by two
 - *Divine Weapons:* Whenever you use a damage-dealing weapon ability, that ability can deal corruption or holy damage instead of its usual [damage type](scc:mcdm.heroes.v1/rule.damage/damage-type).
-- *Missionaries:* You earn 2 Renown.
+- *Missionaries:* You earn 2 [Renown](scc:mcdm.heroes.v1/rule.resource/renown).

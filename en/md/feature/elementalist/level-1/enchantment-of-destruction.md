@@ -6,4 +6,4 @@ scc: mcdm.heroes.v1/feature.elementalist.level-1/enchantment-of-destruction
 type: feature
 ---
 
-You gain a +1 bonus to rolled damage with magic abilities.
+You gain a +1 bonus to [rolled damage](scc:mcdm.heroes.v1/rule.damage/rolled-damage) with magic abilities.

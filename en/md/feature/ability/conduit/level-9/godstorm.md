@@ -2,8 +2,8 @@
 action_type: Main action
 class: conduit
 cost: 11 Piety
-distance: 5 cube within 5
-effect: A raging storm fills the area until the end of the encounter or until you are [dying](scc:mcdm.heroes.v1/rule.health/dying). At the start of each of your turns, you can move the storm up to 5 squares (no action required). On subsequent turns while the storm is active, you can use a maneuver to make its power roll.
+distance: 5 [cube](scc:mcdm.heroes.v1/rule.combat/cube) within 5
+effect: A raging storm fills the area until the end of the encounter or until you are [dying](scc:mcdm.heroes.v1/rule.health/dying). At the start of each of your turns, you can move the storm up to 5 squares (no action required). On subsequent turns while the storm is active, you can use a maneuver to make its [power roll](scc:mcdm.heroes.v1/rule.dice/power-roll).
 flavor: You summon a divine storm that remains under your control.
 keywords:
     - Area
@@ -21,12 +21,12 @@ type: ability
 
 | **Area, Magic, Ranged** |               **Main action** |
 |-------------------------|------------------------------:|
-| **📏 5 cube within 5**  | **🎯 Each enemy in the area** |
+| **📏 5 [cube](scc:mcdm.heroes.v1/rule.combat/cube) within 5**  | **🎯 Each enemy in the area** |
 
-**Power Roll + [Intuition](scc:mcdm.heroes.v1/rule.character/intuition):**
+**[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Intuition](scc:mcdm.heroes.v1/rule.character/intuition):**
 
 - **≤11:** 2 lightning damage, 2 sonic damage
 - **12-16:** 3 lightning damage, 3 sonic damage
 - **17+:** 5 lightning damage, 5 sonic damage
 
-**Effect:** A raging storm fills the area until the end of the encounter or until you are [dying](scc:mcdm.heroes.v1/rule.health/dying). At the start of each of your turns, you can move the storm up to 5 squares (no action required). On subsequent turns while the storm is active, you can use a maneuver to make its power roll.
+**Effect:** A raging storm fills the area until the end of the encounter or until you are [dying](scc:mcdm.heroes.v1/rule.health/dying). At the start of each of your turns, you can move the storm up to 5 squares (no action required). On subsequent turns while the storm is active, you can use a maneuver to make its [power roll](scc:mcdm.heroes.v1/rule.dice/power-roll).

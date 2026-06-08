@@ -1,6 +1,6 @@
 ---
 echelon: "2"
-effect: While you wear this necklace, you can breathe underwater, you can automatically swim at full speed while moving, and you ignore [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain) created by water or in marsh and similar terrain.
+effect: While you wear this necklace, you can breathe underwater, you can automatically swim at full [speed](scc:mcdm.heroes.v1/rule.character/speed) while moving, and you ignore [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain) created by water or in marsh and similar terrain.
 keywords:
     - Magic
     - Neck
@@ -14,12 +14,12 @@ type: treasure
 
 **Keywords:** Magic, Neck
 
-**Item Prerequisite:** A gallon of swamp water, the limbs of four different newts
+**[Item Prerequisite](scc:mcdm.heroes.v1/rule.downtime/item-prerequisite):** A gallon of swamp water, the limbs of four different newts
 
-**Project Source:** Texts or lore in Yllyric
+**[Project Source](scc:mcdm.heroes.v1/rule.downtime/project-source):** Texts or lore in Yllyric
 
-**Project Roll [Characteristic](scc:mcdm.heroes.v1/rule.character/characteristic):** [Reason](scc:mcdm.heroes.v1/rule.character/reason) or [Intuition](scc:mcdm.heroes.v1/rule.character/intuition)
+**[Project Roll](scc:mcdm.heroes.v1/rule.downtime/project-roll) [Characteristic](scc:mcdm.heroes.v1/rule.character/characteristic):** [Reason](scc:mcdm.heroes.v1/rule.character/reason) or [Intuition](scc:mcdm.heroes.v1/rule.character/intuition)
 
 **Project Goal:** 300
 
-**Effect:** While you wear this necklace, you can breathe underwater, you can automatically swim at full speed while moving, and you ignore [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain) created by water or in marsh and similar terrain.
+**Effect:** While you wear this necklace, you can breathe underwater, you can automatically swim at full [speed](scc:mcdm.heroes.v1/rule.character/speed) while moving, and you ignore [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain) created by water or in marsh and similar terrain.

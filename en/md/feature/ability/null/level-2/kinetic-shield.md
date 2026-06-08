@@ -21,7 +21,7 @@ type: ability
 |-------------|-------------:|
 | **📏 Self** |  **🎯 Self** |
 
-**Power Roll + [Intuition](scc:mcdm.heroes.v1/rule.character/intuition):**
+**[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Intuition](scc:mcdm.heroes.v1/rule.character/intuition):**
 
 - **≤11:** You gain 10 [temporary Stamina](scc:mcdm.heroes.v1/rule.health/temporary-stamina).
 - **12-16:** You gain 15 [temporary Stamina](scc:mcdm.heroes.v1/rule.health/temporary-stamina).

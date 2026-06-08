@@ -6,16 +6,16 @@ scc: mcdm.heroes.v1/feature.troubadour.level-1/signature-ability
 type: feature
 ---
 
-Choose one signature ability from the following options. Signature abilities can be used at will. (*Quick Build:* [Witty Banter](scc:mcdm.heroes.v1/feature.ability.troubadour.level-1/witty-banter).)
+Choose one [signature ability](scc:mcdm.heroes.v1/rule.combat/signature-ability) from the following options. [Signature abilities](scc:mcdm.heroes.v1/rule.combat/signature-ability) can be used at will. (*Quick Build:* [Witty Banter](scc:mcdm.heroes.v1/feature.ability.troubadour.level-1/witty-banter).)
 
 ##### Heroic Abilities
 
-You master a range of heroic abilities, all of which cost drama to empower them.
+You master a range of [heroic abilities](scc:mcdm.heroes.v1/rule.general/heroic-ability), all of which cost drama to empower them.
 
 ###### 3-Drama Ability
 
-Choose one heroic ability from the following options, each of which costs 3 drama to use. (*Quick Build:* [Harsh Critic](scc:mcdm.heroes.v1/feature.ability.troubadour.level-1/harsh-critic).)
+Choose one [heroic ability](scc:mcdm.heroes.v1/rule.general/heroic-ability) from the following options, each of which costs 3 drama to use. (*Quick Build:* [Harsh Critic](scc:mcdm.heroes.v1/feature.ability.troubadour.level-1/harsh-critic).)
 
 ###### 5-Drama Ability
 
-Choose one heroic ability from the following options, each of which costs 5 drama to use. (*Quick Build:* [Dramatic Reversal](scc:mcdm.heroes.v1/feature.ability.troubadour.level-1/dramatic-reversal).)
+Choose one [heroic ability](scc:mcdm.heroes.v1/rule.general/heroic-ability) from the following options, each of which costs 5 drama to use. (*Quick Build:* [Dramatic Reversal](scc:mcdm.heroes.v1/feature.ability.troubadour.level-1/dramatic-reversal).)

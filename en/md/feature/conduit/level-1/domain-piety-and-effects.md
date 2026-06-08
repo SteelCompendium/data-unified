@@ -22,8 +22,8 @@ Additionally, whenever you activate a domain effect by praying for piety, you ca
 
 ###### Fate Domain Piety and Effect
 
-- **Piety:** You gain 2 piety the first time in an encounter that an ally within 10 squares obtains a tier 3 outcome on a power roll, or an enemy within 10 squares obtains a tier 1 outcome on a power roll.
-- **Prayer Effect:** You call on the forces of fate to create a reliable future. Choose a creature within 10 squares. That creature automatically obtains a tier 1 or tier 3 outcome (your choice) on their next power roll made before the end of the encounter.
+- **Piety:** You gain 2 piety the first time in an encounter that an ally within 10 squares obtains a tier 3 outcome on a [power roll](scc:mcdm.heroes.v1/rule.dice/power-roll), or an enemy within 10 squares obtains a tier 1 outcome on a [power roll](scc:mcdm.heroes.v1/rule.dice/power-roll).
+- **Prayer Effect:** You call on the forces of fate to create a reliable future. Choose a creature within 10 squares. That creature automatically obtains a tier 1 or tier 3 outcome (your choice) on their next [power roll](scc:mcdm.heroes.v1/rule.dice/power-roll) made before the end of the encounter.
 
 ###### Knowledge Domain Piety and Effect
 
@@ -33,7 +33,7 @@ Additionally, whenever you activate a domain effect by praying for piety, you ca
 ###### Life Domain Piety and Effect
 
 - **Piety:** You gain 2 piety the first time in an encounter that a creature within 10 squares regains [Stamina](scc:mcdm.heroes.v1/rule.health/stamina).
-- **Prayer Effect:** Choose yourself or one ally within 10 squares. That character can spend a [Recovery](scc:mcdm.heroes.v1/rule.health/recoveries), can end one effect on them that is ended by a saving throw or that ends at the end of their turn, or can stand up if they [are prone](scc:mcdm.heroes.v1/condition/prone). Alternatively, you or one ally within 10 squares gains [temporary Stamina](scc:mcdm.heroes.v1/rule.health/temporary-stamina) equal to two times your [Intuition](scc:mcdm.heroes.v1/rule.character/intuition) score.
+- **Prayer Effect:** Choose yourself or one ally within 10 squares. That character can spend a [Recovery](scc:mcdm.heroes.v1/rule.health/recoveries), can end one effect on them that is ended by a [saving throw](scc:mcdm.heroes.v1/rule.general/saving-throw) or that ends at the end of their turn, or can stand up if they [are prone](scc:mcdm.heroes.v1/condition/prone). Alternatively, you or one ally within 10 squares gains [temporary Stamina](scc:mcdm.heroes.v1/rule.health/temporary-stamina) equal to two times your [Intuition](scc:mcdm.heroes.v1/rule.character/intuition) score.
 
 ###### Love Domain Piety and Effect
 
@@ -47,13 +47,13 @@ Additionally, whenever you activate a domain effect by praying for piety, you ca
 
 ###### Protection Domain Piety and Effect
 
-- **Piety:** You gain 2 piety the first time in an encounter that you or any ally within 10 squares gains [temporary Stamina](scc:mcdm.heroes.v1/rule.health/temporary-stamina), or uses a [triggered action](scc:mcdm.heroes.v1/feature.conduit.level-1/triggered-action) to reduce incoming damage or to impose a [bane](scc:mcdm.heroes.v1/rule.dice/bane) or double [bane](scc:mcdm.heroes.v1/rule.dice/bane) on an enemy's power roll.
+- **Piety:** You gain 2 piety the first time in an encounter that you or any ally within 10 squares gains [temporary Stamina](scc:mcdm.heroes.v1/rule.health/temporary-stamina), or uses a [triggered action](scc:mcdm.heroes.v1/feature.conduit.level-1/triggered-action) to reduce incoming damage or to impose a [bane](scc:mcdm.heroes.v1/rule.dice/bane) or double [bane](scc:mcdm.heroes.v1/rule.dice/bane) on an enemy's [power roll](scc:mcdm.heroes.v1/rule.dice/power-roll).
 - **Prayer Effect:** One ally within 10 squares gains [temporary Stamina](scc:mcdm.heroes.v1/rule.health/temporary-stamina) equal to four times your [Intuition](scc:mcdm.heroes.v1/rule.character/intuition) score.
 
 ###### Storm Domain Piety and Effect
 
 - **Piety:** You gain 2 piety the first time in an encounter that an enemy within 10 squares is [force moved](scc:mcdm.heroes.v1/movement/forced-movement).
-- **Prayer Effect:** Each enemy in a 3 cube within 10 squares takes lightning damage equal to twice your [Intuition](scc:mcdm.heroes.v1/rule.character/intuition) score.
+- **Prayer Effect:** Each enemy in a 3 [cube](scc:mcdm.heroes.v1/rule.combat/cube) within 10 squares takes lightning damage equal to twice your [Intuition](scc:mcdm.heroes.v1/rule.character/intuition) score.
 
 ###### Sun Domain Piety and Effect
 

@@ -2,7 +2,7 @@
 action_type: Main action
 class: troubadour
 cost: 3 Drama
-distance: 2 burst
+distance: 2 [burst](scc:mcdm.heroes.v1/rule.combat/burst)
 flavor: You produce an entrancing note that twists the senses in a spectacular fashion.
 keywords:
     - Area
@@ -10,7 +10,7 @@ keywords:
 level: "1"
 name: Hypnotic Overtones
 scc: mcdm.heroes.v1/feature.ability.troubadour.level-1/hypnotic-overtones
-spend: '2+ Drama: The size of the burst increases by 1 for every 2 drama spent.'
+spend: '2+ Drama: The size of the [burst](scc:mcdm.heroes.v1/rule.combat/burst) increases by 1 for every 2 drama spent.'
 target: Each enemy in the area
 type: ability
 ---
@@ -20,12 +20,12 @@ type: ability
 
 | **Area, Magic** |               **Main action** |
 |-----------------|------------------------------:|
-| **📏 2 burst**  | **🎯 Each enemy in the area** |
+| **📏 2 [burst](scc:mcdm.heroes.v1/rule.combat/burst)**  | **🎯 Each enemy in the area** |
 
-**Power Roll + [Presence](scc:mcdm.heroes.v1/rule.character/presence):**
+**[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Presence](scc:mcdm.heroes.v1/rule.character/presence):**
 
 - **≤11:** Slide 1; I < WEAK, [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)
 - **12-16:** Slide 1; I < AVERAGE, [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)
 - **17+:** Slide 2; I < STRONG, [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)
 
-**Spend 2+ Drama:** The size of the burst increases by 1 for every 2 drama spent.
+**Spend 2+ Drama:** The size of the [burst](scc:mcdm.heroes.v1/rule.combat/burst) increases by 1 for every 2 drama spent.

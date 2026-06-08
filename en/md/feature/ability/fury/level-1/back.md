@@ -2,7 +2,7 @@
 action_type: Main action
 class: fury
 cost: 3 Ferocity
-distance: 1 burst
+distance: 1 [burst](scc:mcdm.heroes.v1/rule.combat/burst)
 flavor: You hew about you with your mighty weapon, hurling enemies backward.
 keywords:
     - Area
@@ -20,9 +20,9 @@ type: ability
 
 | **Area, Melee, Weapon** |               **Main action** |
 |-------------------------|------------------------------:|
-| **📏 1 burst**          | **🎯 Each enemy in the area** |
+| **📏 1 [burst](scc:mcdm.heroes.v1/rule.combat/burst)**          | **🎯 Each enemy in the area** |
 
-**Power Roll + [Might](scc:mcdm.heroes.v1/rule.character/might):**
+**[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc:mcdm.heroes.v1/rule.character/might):**
 
 - **≤11:** 5 damage
 - **12-16:** 8 damage; push 1

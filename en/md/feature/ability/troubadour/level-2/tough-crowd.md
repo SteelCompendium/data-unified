@@ -2,8 +2,8 @@
 action_type: Main action
 class: troubadour
 cost: 5 Drama
-distance: 3 cube within 10
-effect: The area is haunted by a swirling horde of phantoms until the end of the encounter. Allies can enter any square of the area without spending movement. At the end of each of your turns, you can make one power roll that targets each enemy in the area.
+distance: 3 [cube](scc:mcdm.heroes.v1/rule.combat/cube) within 10
+effect: The area is haunted by a swirling horde of phantoms until the end of the encounter. Allies can enter any square of the area without spending movement. At the end of each of your turns, you can make one [power roll](scc:mcdm.heroes.v1/rule.dice/power-roll) that targets each enemy in the area.
 flavor: Your fans don't seem to like the opening act...
 keywords:
     - Area
@@ -21,11 +21,11 @@ type: ability
 
 | **Area, Magic, Ranged** | **Main action** |
 |-------------------------|----------------:|
-| **📏 3 cube within 10** |  **🎯 Special** |
+| **📏 3 [cube](scc:mcdm.heroes.v1/rule.combat/cube) within 10** |  **🎯 Special** |
 
-**Effect:** The area is haunted by a swirling horde of phantoms until the end of the encounter. Allies can enter any square of the area without spending movement. At the end of each of your turns, you can make one power roll that targets each enemy in the area.
+**Effect:** The area is haunted by a swirling horde of phantoms until the end of the encounter. Allies can enter any square of the area without spending movement. At the end of each of your turns, you can make one [power roll](scc:mcdm.heroes.v1/rule.dice/power-roll) that targets each enemy in the area.
 
-**Power Roll + [Presence](scc:mcdm.heroes.v1/rule.character/presence):**
+**[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Presence](scc:mcdm.heroes.v1/rule.character/presence):**
 
 - **≤11:** 5 corruption damage; M < WEAK, pull 1 toward the center of the area
 - **12-16:** 9 corruption damage; M < AVERAGE, pull 2 toward the center of the area

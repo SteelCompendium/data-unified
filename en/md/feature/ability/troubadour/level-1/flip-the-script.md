@@ -2,7 +2,7 @@
 action_type: Main action
 class: troubadour
 cost: 5 Drama
-distance: 3 burst
+distance: 3 [burst](scc:mcdm.heroes.v1/rule.combat/burst)
 effect: Each target can [teleport](scc:mcdm.heroes.v1/movement/teleport) up to 5 squares. Any [teleport](scc:mcdm.heroes.v1/movement/teleport)ed target who was [slowed](scc:mcdm.heroes.v1/condition/slowed) is no longer [slowed](scc:mcdm.heroes.v1/condition/slowed).
 flavor: You try a different take on events, justifying the new locations everyone ended up in.
 keywords:
@@ -20,6 +20,6 @@ type: ability
 
 | **Area, Magic** |                       **Main action** |
 |-----------------|--------------------------------------:|
-| **📏 3 burst**  | **🎯 Self and each ally in the area** |
+| **📏 3 [burst](scc:mcdm.heroes.v1/rule.combat/burst)**  | **🎯 Self and each ally in the area** |
 
 **Effect:** Each target can [teleport](scc:mcdm.heroes.v1/movement/teleport) up to 5 squares. Any [teleport](scc:mcdm.heroes.v1/movement/teleport)ed target who was [slowed](scc:mcdm.heroes.v1/condition/slowed) is no longer [slowed](scc:mcdm.heroes.v1/condition/slowed).

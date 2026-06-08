@@ -1,7 +1,7 @@
 ---
 action_type: Main action
 class: talent
-distance: 1 burst
+distance: 1 [burst](scc:mcdm.heroes.v1/rule.combat/burst)
 flavor: The force of your mind hurls enemies backward.
 keywords:
     - Area
@@ -20,12 +20,12 @@ type: ability
 
 | **Area, Psionic, Telepathy** |               **Main action** |
 |------------------------------|------------------------------:|
-| **📏 1 burst**               | **🎯 Each enemy in the area** |
+| **📏 1 [burst](scc:mcdm.heroes.v1/rule.combat/burst)**               | **🎯 Each enemy in the area** |
 
-**Power Roll + [Reason](scc:mcdm.heroes.v1/rule.character/reason):**
+**[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Reason](scc:mcdm.heroes.v1/rule.character/reason):**
 
 - **≤11:** 2 psychic damage
 - **12-16:** 5 psychic damage; push 1
 - **17+:** 7 psychic damage; push 2
 
-**Strained:** The size of the burst increases by 2, and you are [bleeding](scc:mcdm.heroes.v1/condition/bleeding) until the start of your next turn.
+**Strained:** The size of the [burst](scc:mcdm.heroes.v1/rule.combat/burst) increases by 2, and you are [bleeding](scc:mcdm.heroes.v1/condition/bleeding) until the start of your next turn.

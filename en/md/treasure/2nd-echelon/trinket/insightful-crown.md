@@ -1,6 +1,6 @@
 ---
 echelon: "2"
-effect: While wearing the crown, you gain an [edge](scc:mcdm.heroes.v1/rule.dice/edge) on [Intuition](scc:mcdm.heroes.v1/rule.character/intuition) tests made to read the emotions and discern the honesty of other creatures. If you succeed on an [Intuition](scc:mcdm.heroes.v1/rule.character/intuition) test to read the emotions of another creature within 5 squares, you can ask the Director one question about something the creature knows, which the Director must answer honestly. At the Director's discretion, you might not be able to tap into the creature's deepest secrets this way.
+effect: While wearing the crown, you gain an [edge](scc:mcdm.heroes.v1/rule.dice/edge) on [Intuition](scc:mcdm.heroes.v1/rule.character/intuition) [tests](scc:mcdm.heroes.v1/rule.test/test) made to read the emotions and discern the honesty of other creatures. If you succeed on an [Intuition](scc:mcdm.heroes.v1/rule.character/intuition) [test](scc:mcdm.heroes.v1/rule.test/test) to read the emotions of another creature within 5 squares, you can ask the Director one question about something the creature knows, which the Director must answer honestly. At the Director's discretion, you might not be able to tap into the creature's deepest secrets this way.
 keywords:
     - Head
     - Psionic
@@ -14,12 +14,12 @@ type: treasure
 
 **Keywords:** Head, Psionic
 
-**Item Prerequisite:** One measure of pure crystal, a jarred memory of true joy
+**[Item Prerequisite](scc:mcdm.heroes.v1/rule.downtime/item-prerequisite):** One measure of pure crystal, a jarred memory of true joy
 
-**Project Source:** Texts or lore in Variac
+**[Project Source](scc:mcdm.heroes.v1/rule.downtime/project-source):** Texts or lore in Variac
 
-**Project Roll [Characteristic](scc:mcdm.heroes.v1/rule.character/characteristic):** [Reason](scc:mcdm.heroes.v1/rule.character/reason) or [Intuition](scc:mcdm.heroes.v1/rule.character/intuition)
+**[Project Roll](scc:mcdm.heroes.v1/rule.downtime/project-roll) [Characteristic](scc:mcdm.heroes.v1/rule.character/characteristic):** [Reason](scc:mcdm.heroes.v1/rule.character/reason) or [Intuition](scc:mcdm.heroes.v1/rule.character/intuition)
 
 **Project Goal:** 300
 
-**Effect:** While wearing the crown, you gain an [edge](scc:mcdm.heroes.v1/rule.dice/edge) on [Intuition](scc:mcdm.heroes.v1/rule.character/intuition) tests made to read the emotions and discern the honesty of other creatures. If you succeed on an [Intuition](scc:mcdm.heroes.v1/rule.character/intuition) test to read the emotions of another creature within 5 squares, you can ask the Director one question about something the creature knows, which the Director must answer honestly. At the Director's discretion, you might not be able to tap into the creature's deepest secrets this way.
+**Effect:** While wearing the crown, you gain an [edge](scc:mcdm.heroes.v1/rule.dice/edge) on [Intuition](scc:mcdm.heroes.v1/rule.character/intuition) [tests](scc:mcdm.heroes.v1/rule.test/test) made to read the emotions and discern the honesty of other creatures. If you succeed on an [Intuition](scc:mcdm.heroes.v1/rule.character/intuition) [test](scc:mcdm.heroes.v1/rule.test/test) to read the emotions of another creature within 5 squares, you can ask the Director one question about something the creature knows, which the Director must answer honestly. At the Director's discretion, you might not be able to tap into the creature's deepest secrets this way.

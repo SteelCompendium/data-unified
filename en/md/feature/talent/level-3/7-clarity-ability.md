@@ -6,4 +6,4 @@ scc: mcdm.heroes.v1/feature.talent.level-3/7-clarity-ability
 type: feature
 ---
 
-Choose one heroic ability from the following options, each of which costs 7 clarity to use.
+Choose one [heroic ability](scc:mcdm.heroes.v1/rule.general/heroic-ability) from the following options, each of which costs 7 clarity to use.

@@ -19,7 +19,7 @@ Your mother and father never saw eye to eye. You know this because your father i
 > |---------------------------|--------------------:|
 > | **📏 Ranged 10**          | **🎯 One creature** |
 >
-> **Power Roll + [Might](scc:mcdm.heroes.v1/rule.character/might) or [Presence](scc:mcdm.heroes.v1/rule.character/presence):**
+> **[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc:mcdm.heroes.v1/rule.character/might) or [Presence](scc:mcdm.heroes.v1/rule.character/presence):**
 >
 > - **≤11:** 2 damage; M < WEAK, [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
 > - **12-16:** 4 damage; M < AVERAGE, [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)

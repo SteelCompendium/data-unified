@@ -2,7 +2,7 @@
 action_type: Main action
 class: talent
 cost: 9 Clarity
-distance: 4 cube within 10
+distance: 4 [cube](scc:mcdm.heroes.v1/rule.combat/cube) within 10
 effect: The area is frozen in time until the start of your next turn. Each object in the area is [restrained](scc:mcdm.heroes.v1/condition/restrained) and can't fall until the effect ends. Until the effect ends, creatures in the area who are reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) or would die stay alive, and objects in the area that are reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) remain undestroyed.
 flavor: Keep everything as it was. Ignore everything that will be.
 keywords:
@@ -22,16 +22,16 @@ type: ability
 
 | **Area, Chronopathy, Psionic, Ranged** |                             **Main action** |
 |----------------------------------------|--------------------------------------------:|
-| **📏 4 cube within 10**                | **🎯 Each creature and object in the area** |
+| **📏 4 [cube](scc:mcdm.heroes.v1/rule.combat/cube) within 10**                | **🎯 Each creature and object in the area** |
 
 **Effect:** The area is frozen in time until the start of your next turn. Each object in the area is [restrained](scc:mcdm.heroes.v1/condition/restrained) and can't fall until the effect ends. Until the effect ends, creatures in the area who are reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) or would die stay alive, and objects in the area that are reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) remain undestroyed.
 
-Make a power roll that targets each enemy in the area.
+Make a [power roll](scc:mcdm.heroes.v1/rule.dice/power-roll) that targets each enemy in the area.
 
-**Power Roll + [Presence](scc:mcdm.heroes.v1/rule.character/presence):**
+**[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Presence](scc:mcdm.heroes.v1/rule.character/presence):**
 
 - **≤11:** P < WEAK, the target is [slowed](scc:mcdm.heroes.v1/condition/slowed) until the effect ends
-- **12-16:** P < AVERAGE, the target's speed is 0 until the effect ends
+- **12-16:** P < AVERAGE, the target's [speed](scc:mcdm.heroes.v1/rule.character/speed) is 0 until the effect ends
 - **17+:** P < STRONG, the target is [restrained](scc:mcdm.heroes.v1/condition/restrained) until the effect ends
 
 **Strained:** Any creature or object [force moved](scc:mcdm.heroes.v1/movement/forced-movement) in the area takes 2 corruption damage for each square of the area they enter. Creatures and objects [restrained](scc:mcdm.heroes.v1/condition/restrained) in the area can be [force moved](scc:mcdm.heroes.v1/movement/forced-movement). You are [restrained](scc:mcdm.heroes.v1/condition/restrained) until the effect ends.

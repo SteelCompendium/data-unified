@@ -12,15 +12,15 @@ type: treasure
 
 **Keywords:** Magic, Ring
 
-**Item Prerequisite:** A pair of obituaries that each mention the subject of the other
+**[Item Prerequisite](scc:mcdm.heroes.v1/rule.downtime/item-prerequisite):** A pair of obituaries that each mention the subject of the other
 
-**Project Source:** Texts or lore in Caelian
+**[Project Source](scc:mcdm.heroes.v1/rule.downtime/project-source):** Texts or lore in Caelian
 
-**Project Roll [Characteristic](scc:mcdm.heroes.v1/rule.character/characteristic):** [Might](scc:mcdm.heroes.v1/rule.character/might), [Reason](scc:mcdm.heroes.v1/rule.character/reason), or [Intuition](scc:mcdm.heroes.v1/rule.character/intuition)
+**[Project Roll](scc:mcdm.heroes.v1/rule.downtime/project-roll) [Characteristic](scc:mcdm.heroes.v1/rule.character/characteristic):** [Might](scc:mcdm.heroes.v1/rule.character/might), [Reason](scc:mcdm.heroes.v1/rule.character/reason), or [Intuition](scc:mcdm.heroes.v1/rule.character/intuition)
 
 **Project Goal:** 450
 
-**1st Level:** While you wear this ring, you gain a +6 bonus to [Stamina](scc:mcdm.heroes.v1/rule.health/stamina). Additionally, during a respite, you can touch the ring to any number of other Bloodbound Bands worn by willing creatures to form a bond among all of you. Creatures related by blood can't form bonds in this way. Bonded creatures can each use the highest [recovery value](scc:mcdm.heroes.v1/rule.health/recoveries) of any bonded creature in place of their own, and can spend each other's [Recoveries](scc:mcdm.heroes.v1/rule.health/recoveries) as if they were their own. Whenever any other bonded creature takes damage, each bonded creature takes 1 damage that can't be reduced in any way. Your bond ends if you remove the ring, use it to bond with one or more other creatures, or die, but other rings continue to be bonded to each other.
+**1st Level:** While you wear this ring, you gain a +6 bonus to [Stamina](scc:mcdm.heroes.v1/rule.health/stamina). Additionally, during a [respite](scc:mcdm.heroes.v1/rule.resource/respite), you can touch the ring to any number of other Bloodbound Bands worn by willing creatures to form a bond among all of you. Creatures related by blood can't form bonds in this way. Bonded creatures can each use the highest [recovery value](scc:mcdm.heroes.v1/rule.health/recoveries) of any bonded creature in place of their own, and can spend each other's [Recoveries](scc:mcdm.heroes.v1/rule.health/recoveries) as if they were their own. Whenever any other bonded creature takes damage, each bonded creature takes 1 damage that can't be reduced in any way. Your bond ends if you remove the ring, use it to bond with one or more other creatures, or die, but other rings continue to be bonded to each other.
 
 **5th Level:** The ring's bonus to [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) increases to +12. Additionally, you have [damage immunity](scc:mcdm.heroes.v1/rule.damage/damage-immunity) 2.
 

@@ -2,7 +2,7 @@
 action_type: Main action
 class: elementalist
 cost: 11 Essence
-distance: 5 cube within 10
+distance: 5 [cube](scc:mcdm.heroes.v1/rule.combat/cube) within 10
 flavor: Everyone and everything gets blown away in an eruption of rocks and debris.
 keywords:
     - Area
@@ -21,9 +21,9 @@ type: ability
 
 | **Area, Earth, Magic, Ranged** |                          **Main action** |
 |--------------------------------|-----------------------------------------:|
-| **📏 5 cube within 10**        | **🎯 Each enemy and object in the area** |
+| **📏 5 [cube](scc:mcdm.heroes.v1/rule.combat/cube) within 10**        | **🎯 Each enemy and object in the area** |
 
-**Power Roll + [Reason](scc:mcdm.heroes.v1/rule.character/reason):**
+**[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Reason](scc:mcdm.heroes.v1/rule.character/reason):**
 
 - **≤11:** 6 damage
 - **12-16:** 9 damage

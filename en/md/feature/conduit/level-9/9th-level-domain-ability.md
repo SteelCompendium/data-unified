@@ -6,7 +6,7 @@ scc: mcdm.heroes.v1/feature.conduit.level-9/9th-level-domain-ability
 type: feature
 ---
 
-Choose one of your domains. You gain a heroic ability from that domain, as shown on the 9th-Level [Conduit](scc:mcdm.heroes.v1/class/conduit) Domain Abilities table.
+Choose one of your domains. You gain a [heroic ability](scc:mcdm.heroes.v1/rule.general/heroic-ability) from that domain, as shown on the 9th-Level [Conduit](scc:mcdm.heroes.v1/class/conduit) Domain Abilities table.
 
 ###### 9th-Level Conduit Domain Abilities Table
 

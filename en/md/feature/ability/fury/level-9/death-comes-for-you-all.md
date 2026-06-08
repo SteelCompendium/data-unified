@@ -2,7 +2,7 @@
 action_type: Main action
 class: fury
 cost: 11 Ferocity
-distance: 3 burst
+distance: 3 [burst](scc:mcdm.heroes.v1/rule.combat/burst)
 effect: If this [forced movement](scc:mcdm.heroes.v1/movement/forced-movement) causes a target to be hurled through an object, that target takes an extra 10 damage.
 flavor: You use your weapon to create a destructive shockwave.
 keywords:
@@ -22,9 +22,9 @@ type: ability
 
 | **Area, Magic, Melee, Weapon** |               **Main action** |
 |--------------------------------|------------------------------:|
-| **📏 3 burst**                 | **🎯 Each enemy in the area** |
+| **📏 3 [burst](scc:mcdm.heroes.v1/rule.combat/burst)**                 | **🎯 Each enemy in the area** |
 
-**Power Roll + [Might](scc:mcdm.heroes.v1/rule.character/might):**
+**[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc:mcdm.heroes.v1/rule.character/might):**
 
 - **≤11:** 7 damage; push 3
 - **12-16:** 10 damage; push 5

@@ -23,7 +23,7 @@ type: ability
 |---------------------------------------|----------------:|
 | **📏 Melee 1**                        | **🎯 One creature** |
 
-**Power Roll + [Presence](scc:mcdm.heroes.v1/rule.character/presence):**
+**[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Presence](scc:mcdm.heroes.v1/rule.character/presence):**
 
 - **≤11:** 3 + P damage
 - **12-16:** 6 + P damage

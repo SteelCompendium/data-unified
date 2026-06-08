@@ -1,6 +1,6 @@
 # Rule Index
 
-Total: 108
+Total: 109
 
 - [Ability Keywords](../rule/general/ability.md)
 - [Ability Roll](../rule/dice/ability-roll.md)
@@ -102,6 +102,7 @@ Total: 108
 - [Taking a Turn](../rule/combat/turn.md)
 - [Target](../rule/combat/target.md)
 - [Temporary Stamina](../rule/health/temporary-stamina.md)
+- [Test Difficulty](../rule/test/test-difficulty.md)
 - [Triggered Actions and Free Triggered Actions](../rule/combat/triggered-action.md)
 - [Trinkets](../rule/treasure/trinket.md)
 - [Underwater Combat](../rule/combat/underwater-combat.md)

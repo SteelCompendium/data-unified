@@ -23,10 +23,10 @@ type: ability
 |-----------------------------|--------------------:|
 | **📏 Melee 1 or ranged 10** | **🎯 One creature** |
 
-**Power Roll + [Presence](scc:mcdm.heroes.v1/rule.character/presence):**
+**[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Presence](scc:mcdm.heroes.v1/rule.character/presence):**
 
-- **≤11:** The target takes a [bane](scc:mcdm.heroes.v1/rule.dice/bane) on ability rolls (save ends).
-- **12-16:** The target has a double [bane](scc:mcdm.heroes.v1/rule.dice/bane) on ability rolls (save ends).
-- **17+:** The target has a double [bane](scc:mcdm.heroes.v1/rule.dice/bane) on power rolls (save ends).
+- **≤11:** The target takes a [bane](scc:mcdm.heroes.v1/rule.dice/bane) on [ability rolls](scc:mcdm.heroes.v1/rule.dice/ability-roll) (save ends).
+- **12-16:** The target has a double [bane](scc:mcdm.heroes.v1/rule.dice/bane) on [ability rolls](scc:mcdm.heroes.v1/rule.dice/ability-roll) (save ends).
+- **17+:** The target has a double [bane](scc:mcdm.heroes.v1/rule.dice/bane) on [power rolls](scc:mcdm.heroes.v1/rule.dice/power-roll) (save ends).
 
 **Effect:** Choose one ally within [distance](scc:mcdm.heroes.v1/rule.combat/distance). While the target is affected by this ability, each time they use an ability, that ally can make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) against them after the ability is resolved.

@@ -4,7 +4,6 @@ equipment_text: You wear light armor and wield a bow.
 name: Rapid-Fire
 ranged_damage_bonus: +2/+2/+2
 scc: mcdm.heroes.v1/kit/rapid-fire
-speed_bonus: "+1"
 type: kit
 ---
 
@@ -16,9 +15,9 @@ You wear light armor and wield a bow.
 
 ##### Kit Bonuses
 
-**[Stamina](scc:mcdm.heroes.v1/rule.health/stamina) Bonus:** +3 per echelon
+**[Stamina](scc:mcdm.heroes.v1/rule.health/stamina) Bonus:** +3 per [echelon](scc:mcdm.heroes.v1/rule.general/echelon)
 
-**Speed Bonus:** +1
+**[Speed](scc:mcdm.heroes.v1/rule.character/speed) Bonus:** +1
 
 **Ranged Damage Bonus:** +2/+2/+2
 
@@ -36,7 +35,7 @@ You wear light armor and wield a bow.
 |----------------------------|--------------------------------:|
 | **📏 Ranged 12**           | **🎯 Two creatures or objects** |
 
-**Power Roll + [Might](scc:mcdm.heroes.v1/rule.character/might) or [Agility](scc:mcdm.heroes.v1/rule.character/agility):**
+**[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc:mcdm.heroes.v1/rule.character/might) or [Agility](scc:mcdm.heroes.v1/rule.character/agility):**
 
 - **≤11:** 4 damage
 - **12-16:** 6 damage

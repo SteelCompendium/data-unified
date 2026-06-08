@@ -6,9 +6,9 @@ type: god
 
 **Domains:** Creation, Knowledge, Life, Nature, Protection
 
-Val, the Noble Lord, First Among Equals, is the patron of the elves. He created the celestials—the true elves, second of the five speaking peoples—who then created the younger elves: the high, wode, and shadow elves. His name is the root of the Caelian word "valiant," and the [dwarves](scc:mcdm.heroes.v1/ancestry/dwarf) named the most precious ore in Orden—Valiar, the truemetal—after him.
+Val, the Noble Lord, First Among Equals, is the patron of the elves. He created the celestials—the true elves, second of the five speaking peoples—who then created the younger elves: the high, wode, and shadow elves. His name is the root of the Caelian word "valiant," and the [dwarves](scc:mcdm.heroes.v1/ancestry/dwarf) named the most precious ore in [Orden](scc:mcdm.heroes.v1/rule.world/orden)—Valiar, the truemetal—after him.
 
-Val holds that the greatest purpose a thinking being can commit themselves to is the creation of art and the appreciation of beauty. He keeps the magical, elf-haunted forests called wodes close to his heart because they represent his vision for Orden. What the world could have been. His growing disgust with the concept of war led him to leave Orden and take up residence in his private manifold, *Arcadia* where all elves hope to someday join their patron.
+Val holds that the greatest purpose a thinking being can commit themselves to is the creation of art and the appreciation of beauty. He keeps the magical, elf-haunted forests called wodes close to his heart because they represent his vision for [Orden](scc:mcdm.heroes.v1/rule.world/orden). What the world could have been. His growing disgust with the concept of war led him to leave [Orden](scc:mcdm.heroes.v1/rule.world/orden) and take up residence in his private manifold, *Arcadia* where all elves hope to someday join their patron.
 
 #### Heroes of the Elves
 
@@ -44,13 +44,13 @@ He canonized the idea that knowledge, truth, was a kind of beauty. The Library o
 
 Ripples of Honey on a Shore of Gold, also known as Warkiller, the Diplomat, was both scholar, sage, and soldier. She served as emissary between the [humans](scc:mcdm.heroes.v1/ancestry/human) and the dragons when the former sought war against the latter. For many years she brokered peace, but she could not stem the tides of war forever.
 
-In the end, her efforts failed, and the elder dragons live no more in this world. Like Val, the Diplomat hated war so much, after her failure she sought to pen a new codex. A work so powerful it would bind the world. The Codex Pax Universalis would banish the concept of war from Orden. Alas, in the end she realized there was only one way to finish her great work, and she was not willing to take that final step.
+In the end, her efforts failed, and the elder dragons live no more in this world. Like Val, the Diplomat hated war so much, after her failure she sought to pen a new codex. A work so powerful it would bind the world. The Codex Pax Universalis would banish the concept of war from [Orden](scc:mcdm.heroes.v1/rule.world/orden). Alas, in the end she realized there was only one way to finish her great work, and she was not willing to take that final step.
 
 ##### Yllin Dyrvis
 
 **Domains:** Knowledge, Nature
 
-Yllin Dyrvis, also known as the Beast Heart, the Wodespeaker, the Warden, witnessed the Composer's first song, and took it upon themselves to communicate with and care for the speaking creatures A Sea of Suns created. The dryads, elgenwights, the giant birds and intelligent fish who populated the ancient wode that once covered all Orden, all came under the Beast Heart's care. Dyrvis learned their speech and taught them who they were.
+Yllin Dyrvis, also known as the Beast Heart, the Wodespeaker, the Warden, witnessed the Composer's first song, and took it upon themselves to communicate with and care for the speaking creatures A Sea of Suns created. The dryads, elgenwights, the giant birds and intelligent fish who populated the ancient wode that once covered all [Orden](scc:mcdm.heroes.v1/rule.world/orden), all came under the Beast Heart's care. Dyrvis learned their speech and taught them who they were.
 
 To this day, many ages of the world later, the [wode elves](scc:mcdm.heroes.v1/ancestry/wode-elf) consider themselves the stewards of the speaking creatures, and those creatures rely upon the [wode elves](scc:mcdm.heroes.v1/ancestry/wode-elf) for protection.
 
@@ -60,12 +60,12 @@ To this day, many ages of the world later, the [wode elves](scc:mcdm.heroes.v1/a
 
 Thyll Hylacae, the Forestal, Apothachron, also known as the Sacrifice. Thyll spoke to the plants, learned their truths—discovered many magics hidden within. The power to heal, harm, change. It was Hylacae who first sensed, then learned, the language of trees. She studied, cared for them, and protected them when the folk of farm and field came to cut them down.
 
-Though she was mighty in warlore, she could not be everywhere. In the end, she sacrificed herself for the trees, the ritual she performed uplifted a small population of trees, creating the derwic—the thinking speaking tree-peoples few of whom remain in Orden.
+Though she was mighty in warlore, she could not be everywhere. In the end, she sacrificed herself for the trees, the ritual she performed uplifted a small population of trees, creating the derwic—the thinking speaking tree-peoples few of whom remain in [Orden](scc:mcdm.heroes.v1/rule.world/orden).
 
 ##### Illwyv li Orchiax
 
 **Domains:** Nature, Protection
 
-Illwyv li Orchiax, the Moonknight, Marshall of the Gloaming, Manslayer. When [humans](scc:mcdm.heroes.v1/ancestry/human) first arrived in Orden—it is said—they were welcomed by the other speaking peoples. But they were unlike the other creations in the world. While the [dwarves](scc:mcdm.heroes.v1/ancestry/dwarf) cut rock for the ore within, [humans](scc:mcdm.heroes.v1/ancestry/human) cut down trees simply because they were in the way. Other ancestries had their own territories and homelands, but [humans](scc:mcdm.heroes.v1/ancestry/human) sought constant expansion into even the most inhospitable territories.
+Illwyv li Orchiax, the Moonknight, Marshall of the Gloaming, Manslayer. When [humans](scc:mcdm.heroes.v1/ancestry/human) first arrived in [Orden](scc:mcdm.heroes.v1/rule.world/orden)—it is said—they were welcomed by the other speaking peoples. But they were unlike the other creations in the world. While the [dwarves](scc:mcdm.heroes.v1/ancestry/dwarf) cut rock for the ore within, [humans](scc:mcdm.heroes.v1/ancestry/human) cut down trees simply because they were in the way. Other ancestries had their own territories and homelands, but [humans](scc:mcdm.heroes.v1/ancestry/human) sought constant expansion into even the most inhospitable territories.
 
 Illwyv it was who first realized the folly of treating with these creatures. A great hunter of the Quercus Court, she gathered her band of elite Helriath Harriers and made war on the [humans](scc:mcdm.heroes.v1/ancestry/human) who would kill the wode.

@@ -1,12 +1,9 @@
 ---
-average_potency: '[Reason](scc:mcdm.heroes.v1/rule.character/reason) − 1'
 name: Talent
 scc: mcdm.heroes.v1/class/talent
 skills:
     - 'You gain the Psionics and [Read Person](scc:mcdm.heroes.v1/skill/read-person) skills (see Skills in Chapter 9: [Tests](scc:mcdm.heroes.v1/chapter/tests)). Then choose any two skills from the interpersonal or lore skill groups. (*Quick Build:* Empathize, Psionics, [Read Person](scc:mcdm.heroes.v1/skill/read-person), Timescape.)'
-strong_potency: '[Reason](scc:mcdm.heroes.v1/rule.character/reason)'
 type: class
-weak_potency: '[Reason](scc:mcdm.heroes.v1/rule.character/reason) − 2'
 ---
 
 Arare few people are born with the potential to harness psionic power, but only those who experience an awakening, a significant event that activates a [talent's](scc:mcdm.heroes.v1/class/talent) abilities, can tap into the mind's full potential. You are one of those people—a master of psionics and a source of incredible power created through sheer force of will. You can move and change matter, time, gravity, the laws of physics, or another creature's mind.
@@ -25,11 +22,11 @@ Arare few people are born with the potential to harness psionic power, but only 
 - 1, 1, −1
 - 1, 0, 0
 
-**Weak Potency:** [Reason](scc:mcdm.heroes.v1/rule.character/reason) − 2
+**Weak [Potency](scc:mcdm.heroes.v1/rule.character/potency):** [Reason](scc:mcdm.heroes.v1/rule.character/reason) − 2
 
-**Average Potency:** [Reason](scc:mcdm.heroes.v1/rule.character/reason) − 1
+**Average [Potency](scc:mcdm.heroes.v1/rule.character/potency):** [Reason](scc:mcdm.heroes.v1/rule.character/reason) − 1
 
-**Strong Potency:** [Reason](scc:mcdm.heroes.v1/rule.character/reason)
+**Strong [Potency](scc:mcdm.heroes.v1/rule.character/potency):** [Reason](scc:mcdm.heroes.v1/rule.character/reason)
 
 **Starting [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) at 1st Level:** 18
 

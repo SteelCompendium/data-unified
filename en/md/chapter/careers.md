@@ -23,11 +23,11 @@ Each career grants you two or three skills, detailed in the Skills section of Ch
 
 #### Languages
 
-Some careers allow you to learn extra languages, chosen from those available in Languages in Orden above.
+Some careers allow you to learn extra languages, chosen from those available in Languages in [Orden](scc:mcdm.heroes.v1/rule.world/orden) above.
 
 #### Renown
 
-Some careers increase your starting Renown score (from a base score of 0). See Renown in Chapter 13: [Rewards](scc:mcdm.heroes.v1/chapter/rewards) for more information.
+Some careers increase your starting [Renown](scc:mcdm.heroes.v1/rule.resource/renown) score (from a base score of 0). See [Renown](scc:mcdm.heroes.v1/rule.resource/renown) in Chapter 13: [Rewards](scc:mcdm.heroes.v1/chapter/rewards) for more information.
 
 #### Perk
 

@@ -3,7 +3,7 @@ action_type: Main action
 class: fury
 cost: 9 Ferocity
 distance: Melee 1
-effect: You [shift](scc:mcdm.heroes.v1/movement/shifting) up to your speed.
+effect: You [shift](scc:mcdm.heroes.v1/movement/shifting) up to your [speed](scc:mcdm.heroes.v1/rule.character/speed).
 flavor: You break through the enemy lines to make an example.
 keywords:
     - Melee
@@ -23,9 +23,9 @@ type: ability
 |---------------------------|--------------------:|
 | **📏 Melee 1**            | **🎯 One creature** |
 
-**Effect:** You [shift](scc:mcdm.heroes.v1/movement/shifting) up to your speed.
+**Effect:** You [shift](scc:mcdm.heroes.v1/movement/shifting) up to your [speed](scc:mcdm.heroes.v1/rule.character/speed).
 
-**Power Roll + [Might](scc:mcdm.heroes.v1/rule.character/might):**
+**[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc:mcdm.heroes.v1/rule.character/might):**
 
 - **≤11:** 4 + M damage; P < WEAK, [frightened](scc:mcdm.heroes.v1/condition/frightened) (save ends)
 - **12-16:** 6 + M damage; P < AVERAGE, [frightened](scc:mcdm.heroes.v1/condition/frightened) (save ends)

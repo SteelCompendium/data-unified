@@ -24,7 +24,7 @@ type: ability
 |------------------------------------|--------------------:|
 | **📏 Melee 1**                     | **🎯 One creature** |
 
-**Power Roll + [Agility](scc:mcdm.heroes.v1/rule.character/agility):**
+**[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Agility](scc:mcdm.heroes.v1/rule.character/agility):**
 
 - **≤11:** 7 + A psychic damage; I < WEAK, [dazed](scc:mcdm.heroes.v1/condition/dazed)
 - **12-16:** 10 + A psychic damage; I < AVERAGE, [dazed](scc:mcdm.heroes.v1/condition/dazed)

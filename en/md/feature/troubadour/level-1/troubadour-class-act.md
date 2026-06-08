@@ -12,4 +12,4 @@ Panache, melody, and depiction. Some [troubadours](scc:mcdm.heroes.v1/class/trou
 - **Duelist:** Drama infuses your every movement done in tandem with another. You perform dances of death, putting trust in your opponent to return your passion in kind. You have the [Gymnastics](scc:mcdm.heroes.v1/skill/gymnastics) skill.
 - **Virtuoso:** You find drama in music and song, weaving magic between vibrations and filling the audience with your pathos. You have the [Music](scc:mcdm.heroes.v1/skill/music) skill and can play an instrument.
 
-Your [troubadour class act](scc:mcdm.heroes.v1/feature.troubadour.level-1/troubadour-class-act) is your subclass, and your choice of class act determines many of the features you'll gain as you gain new levels.
+Your [troubadour class act](scc:mcdm.heroes.v1/feature.troubadour.level-1/troubadour-class-act) is your [subclass](scc:mcdm.heroes.v1/rule.general/subclass), and your choice of class act determines many of the features you'll gain as you gain new levels.

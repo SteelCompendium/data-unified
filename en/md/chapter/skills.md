@@ -5,43 +5,43 @@ scc: mcdm.heroes.v1/chapter/skills
 type: chapter
 ---
 
-Skills represent the different specializations a hero has outside of attacking, defending, and using their ancestry features, class features, and equipment. Whenever you make a test, having a particular skill associated with the test increases your chance of success.
+Skills represent the different specializations a hero has outside of attacking, defending, and using their ancestry features, class features, and equipment. Whenever you make a [test](scc:mcdm.heroes.v1/rule.test/test), having a particular skill associated with the [test](scc:mcdm.heroes.v1/rule.test/test) increases your chance of success.
 
 #### Applying Skills
 
-If you have a skill that applies to a test you make, you gain a +2 bonus to the test. For instance, if your hero has the [Hide](scc:mcdm.heroes.v1/skill/hide) skill, you have a +2 bonus to any test you make that involves hiding yourself. This might include an [Agility](scc:mcdm.heroes.v1/rule.character/agility) test to hide behind a barrel, or a [Presence](scc:mcdm.heroes.v1/rule.character/presence) test to disappear into a crowd.
+If you have a skill that applies to a [test](scc:mcdm.heroes.v1/rule.test/test) you make, you gain a +2 bonus to the [test](scc:mcdm.heroes.v1/rule.test/test). For instance, if your hero has the [Hide](scc:mcdm.heroes.v1/skill/hide) skill, you have a +2 bonus to any [test](scc:mcdm.heroes.v1/rule.test/test) you make that involves hiding yourself. This might include an [Agility](scc:mcdm.heroes.v1/rule.character/agility) [test](scc:mcdm.heroes.v1/rule.test/test) to hide behind a barrel, or a [Presence](scc:mcdm.heroes.v1/rule.character/presence) [test](scc:mcdm.heroes.v1/rule.test/test) to disappear into a crowd.
 
-The +2 bonus gained for a skill isn't an [edge](scc:mcdm.heroes.v1/rule.dice/edge). A player can make a test that has both the +2 bonus for a skill and the +2 bonus for an [edge](scc:mcdm.heroes.v1/rule.dice/edge).
+The +2 bonus gained for a skill isn't an [edge](scc:mcdm.heroes.v1/rule.dice/edge). A player can make a [test](scc:mcdm.heroes.v1/rule.test/test) that has both the +2 bonus for a skill and the +2 bonus for an [edge](scc:mcdm.heroes.v1/rule.dice/edge).
 
-You can't apply more than one skill to a test.
+You can't apply more than one skill to a [test](scc:mcdm.heroes.v1/rule.test/test).
 
 ##### Justify the Skill
 
-It's not the Director's job to know every task potentially covered by the skills in the game, or to know the specific skills your hero has. Instead, the Director asks you to make a test using a [characteristic](scc:mcdm.heroes.v1/rule.character/characteristic) and you tell the Director if you think you have a skill that applies. If it's not obvious why the skill applies, tell the Director how your hero is approaching the task and justify why that approach uses the skill. The Director then decides if you get the +2 bonus the skill represents. If the Director disagrees with you, that's the final word.
+It's not the Director's job to know every task potentially covered by the skills in the game, or to know the specific skills your hero has. Instead, the Director asks you to make a [test](scc:mcdm.heroes.v1/rule.test/test) using a [characteristic](scc:mcdm.heroes.v1/rule.character/characteristic) and you tell the Director if you think you have a skill that applies. If it's not obvious why the skill applies, tell the Director how your hero is approaching the task and justify why that approach uses the skill. The Director then decides if you get the +2 bonus the skill represents. If the Director disagrees with you, that's the final word.
 
-Approaching problems creatively while remaining reasonable can help you get the most out of your skills. For example, if you're making a [Presence](scc:mcdm.heroes.v1/rule.character/presence) test to impress a noble at a party, using the [Brag](scc:mcdm.heroes.v1/skill/brag) skill is an obvious choice. But what if you don't have that skill? Maybe you could instead try to impress the noble with a brief but exciting lecture about the nature of the elements, making a [Presence](scc:mcdm.heroes.v1/rule.character/presence) test using the [Magic](scc:mcdm.heroes.v1/skill/magic) skill that you do have!
+Approaching problems creatively while remaining reasonable can help you get the most out of your skills. For example, if you're making a [Presence](scc:mcdm.heroes.v1/rule.character/presence) [test](scc:mcdm.heroes.v1/rule.test/test) to impress a noble at a party, using the [Brag](scc:mcdm.heroes.v1/skill/brag) skill is an obvious choice. But what if you don't have that skill? Maybe you could instead try to impress the noble with a brief but exciting lecture about the nature of the elements, making a [Presence](scc:mcdm.heroes.v1/rule.character/presence) [test](scc:mcdm.heroes.v1/rule.test/test) using the [Magic](scc:mcdm.heroes.v1/skill/magic) skill that you do have!
 
-Sometimes you won't have a skill that applies to a test. That's okay! If your [characteristic](scc:mcdm.heroes.v1/rule.character/characteristic) score is decent, you likely have a good chance of success without a skill.
+Sometimes you won't have a skill that applies to a [test](scc:mcdm.heroes.v1/rule.test/test). That's okay! If your [characteristic](scc:mcdm.heroes.v1/rule.character/characteristic) score is decent, you likely have a good chance of success without a skill.
 
 ##### Mixing Characteristics and Skills
 
-Although certain skills are often paired with one [characteristic](scc:mcdm.heroes.v1/rule.character/characteristic) more than others, a skill can apply to a test made using any [characteristic](scc:mcdm.heroes.v1/rule.character/characteristic) that makes sense. The Director has the final say on which [characteristic](scc:mcdm.heroes.v1/rule.character/characteristic) is used to complete a task, and can call for a different [characteristic](scc:mcdm.heroes.v1/rule.character/characteristic) based on the circumstances.
+Although certain skills are often paired with one [characteristic](scc:mcdm.heroes.v1/rule.character/characteristic) more than others, a skill can apply to a [test](scc:mcdm.heroes.v1/rule.test/test) made using any [characteristic](scc:mcdm.heroes.v1/rule.character/characteristic) that makes sense. The Director has the final say on which [characteristic](scc:mcdm.heroes.v1/rule.character/characteristic) is used to complete a task, and can call for a different [characteristic](scc:mcdm.heroes.v1/rule.character/characteristic) based on the circumstances.
 
-For example, intimidating someone with a purely verbal threat is a [Presence](scc:mcdm.heroes.v1/rule.character/presence) test. But if a player describes their character tearing a log in half with their bare hands to intimidate a foe, the Director is likely to call for a [Might](scc:mcdm.heroes.v1/rule.character/might) test instead. The [Intimidate](scc:mcdm.heroes.v1/skill/intimidate) skill can apply to both tests. In the same way, scaling the side of a building is covered by a [Might](scc:mcdm.heroes.v1/rule.character/might) test, but if a hero does a series of leaps from one balcony to another to reach a roof, the Director could call for an [Agility](scc:mcdm.heroes.v1/rule.character/agility) test instead. The [Climb](scc:mcdm.heroes.v1/skill/climb) skill applies to both of these tests.
+For example, intimidating someone with a purely verbal threat is a [Presence](scc:mcdm.heroes.v1/rule.character/presence) [test](scc:mcdm.heroes.v1/rule.test/test). But if a player describes their character tearing a log in half with their bare hands to intimidate a foe, the Director is likely to call for a [Might](scc:mcdm.heroes.v1/rule.character/might) [test](scc:mcdm.heroes.v1/rule.test/test) instead. The [Intimidate](scc:mcdm.heroes.v1/skill/intimidate) skill can apply to both [tests](scc:mcdm.heroes.v1/rule.test/test). In the same way, scaling the side of a building is covered by a [Might](scc:mcdm.heroes.v1/rule.character/might) [test](scc:mcdm.heroes.v1/rule.test/test), but if a hero does a series of leaps from one balcony to another to reach a roof, the Director could call for an [Agility](scc:mcdm.heroes.v1/rule.character/agility) [test](scc:mcdm.heroes.v1/rule.test/test) instead. The [Climb](scc:mcdm.heroes.v1/skill/climb) skill applies to both of these [tests](scc:mcdm.heroes.v1/rule.test/test).
 
 #### Many Specific Skills
 
 *Draw Steel* includes a big list of skills, and each is fairly specific. For example, instead of one Athletics skill that covers climbing, jumping, swimming, and lifting heavy objects, your character might use separate [Climb](scc:mcdm.heroes.v1/skill/climb), [Jump](scc:mcdm.heroes.v1/skill/jump), [Lift](scc:mcdm.heroes.v1/skill/lift), and [Swim](scc:mcdm.heroes.v1/skill/swim) skills. Instead of a Thievery skill that covers picking locks, picking pockets, and disabling traps, the game has three skills: [Pick Lock](scc:mcdm.heroes.v1/skill/pick-lock), [Pick Pocket](scc:mcdm.heroes.v1/skill/pick-pocket), and [Sabotage](scc:mcdm.heroes.v1/skill/sabotage).
 
-Having a wide range of specific skills means you'll frequently make tests that don't use one of your character's skills, simply applying a [characteristic](scc:mcdm.heroes.v1/rule.character/characteristic). By not having a few broader skills, it means that having a character who covers the spread of every skill is actually impossible. Luckily, the math of the game doesn't require you to have a skill to have a decent chance of success on a test. That means heroes can attempt tasks without the help of a skill just because someone needs to do it, and that's pretty darn heroic!
+Having a wide range of specific skills means you'll frequently make [tests](scc:mcdm.heroes.v1/rule.test/test) that don't use one of your character's skills, simply applying a [characteristic](scc:mcdm.heroes.v1/rule.character/characteristic). By not having a few broader skills, it means that having a character who covers the spread of every skill is actually impossible. Luckily, the math of the game doesn't require you to have a skill to have a decent chance of success on a [test](scc:mcdm.heroes.v1/rule.test/test). That means heroes can attempt tasks without the help of a skill just because someone needs to do it, and that's pretty darn heroic!
 
 Since you don't need to worry about your character covering a wide spread of skills, you're free to choose the skills you think fit your hero best and are the most fun to work with. Maybe you're thinking about an [elementalist](scc:mcdm.heroes.v1/class/elementalist) who has a gymnastic background in jumping and tumbling, and who also studied religion and blacksmithing. Having that kind of specific backstory is a big part of cinematic storytelling.
 
-The rules for skills allow for them to be flexibly applied to any test that is appropriate for the skill. This encourages clever thinking. A player can ask the Director, "I want to impress the duke with a story about how I ascended the sheer Cliffs of Azgahnan. Can I use my [Climb](scc:mcdm.heroes.v1/skill/climb) skill for a +2 bonus to my [Presence](scc:mcdm.heroes.v1/rule.character/presence) test?" Getting creative like that is a lot of fun. It paints a visual picture, and it's good tactical thinking! However, if the skills in a game are too broad in the kinds of activities they represent, players inevitably end up applying the same skill over and over again to as many tests as possible. This isn't fun for anyone, and doesn't make a very compelling story.
+The rules for skills allow for them to be flexibly applied to any [test](scc:mcdm.heroes.v1/rule.test/test) that is appropriate for the skill. This encourages clever thinking. A player can ask the Director, "I want to impress the duke with a story about how I ascended the sheer Cliffs of Azgahnan. Can I use my [Climb](scc:mcdm.heroes.v1/skill/climb) skill for a +2 bonus to my [Presence](scc:mcdm.heroes.v1/rule.character/presence) [test](scc:mcdm.heroes.v1/rule.test/test)?" Getting creative like that is a lot of fun. It paints a visual picture, and it's good tactical thinking! However, if the skills in a game are too broad in the kinds of activities they represent, players inevitably end up applying the same skill over and over again to as many [tests](scc:mcdm.heroes.v1/rule.test/test) as possible. This isn't fun for anyone, and doesn't make a very compelling story.
 
-> **[Edges](scc:mcdm.heroes.v1/rule.dice/edge) on Tests With Specific Skills**
+> **[Edges](scc:mcdm.heroes.v1/rule.dice/edge) on [Tests](scc:mcdm.heroes.v1/rule.test/test) With Specific Skills**
 >
-> Certain features and abilities grant a creature an [edge](scc:mcdm.heroes.v1/rule.dice/edge) on tests made with a specific skill. A creature making a test where the specific skill would apply gains an [edge](scc:mcdm.heroes.v1/rule.dice/edge) on the test even if they don't have the skill. For example, the [conduit's](scc:mcdm.heroes.v1/class/conduit) Blessing of Fortunate Weather can create foggy weather that grants creatures who make tests using the [Hide](scc:mcdm.heroes.v1/skill/hide) skill an [edge](scc:mcdm.heroes.v1/rule.dice/edge) on those tests. Any creature who attempts to hide in the fog gains an [edge](scc:mcdm.heroes.v1/rule.dice/edge) on the test as long as the [Hide](scc:mcdm.heroes.v1/skill/hide) skill would apply to that test, regardless of whether they have that skill or not.
+> Certain features and abilities grant a creature an [edge](scc:mcdm.heroes.v1/rule.dice/edge) on [tests](scc:mcdm.heroes.v1/rule.test/test) made with a specific skill. A creature making a [test](scc:mcdm.heroes.v1/rule.test/test) where the specific skill would apply gains an [edge](scc:mcdm.heroes.v1/rule.dice/edge) on the [test](scc:mcdm.heroes.v1/rule.test/test) even if they don't have the skill. For example, the [conduit's](scc:mcdm.heroes.v1/class/conduit) Blessing of Fortunate Weather can create foggy weather that grants creatures who make [tests](scc:mcdm.heroes.v1/rule.test/test) using the [Hide](scc:mcdm.heroes.v1/skill/hide) skill an [edge](scc:mcdm.heroes.v1/rule.dice/edge) on those [tests](scc:mcdm.heroes.v1/rule.test/test). Any creature who attempts to hide in the fog gains an [edge](scc:mcdm.heroes.v1/rule.dice/edge) on the [test](scc:mcdm.heroes.v1/rule.test/test) as long as the [Hide](scc:mcdm.heroes.v1/skill/hide) skill would apply to that [test](scc:mcdm.heroes.v1/rule.test/test), regardless of whether they have that skill or not.
 
 > **Are All Skills Equal?**
 >
@@ -55,9 +55,9 @@ Skills are broken down into five skill groups: crafting, exploration, interperso
 
 Skills from the crafting skill group are used in the creation and appraisal of goods and for jury-rigging contraptions. They are especially useful during rests and downtime.
 
-Rewards for tests made with crafting skills typically include having leftover rare material used in the creation process, knowing a buyer willing to pay extra for goods or items you're appraising, or making a jury-rigged device so amazing that it lasts for more uses than it should.
+Rewards for [tests](scc:mcdm.heroes.v1/rule.test/test) made with crafting skills typically include having leftover rare material used in the creation process, knowing a buyer willing to pay extra for goods or items you're appraising, or making a jury-rigged device so amazing that it lasts for more uses than it should.
 
-Consequences for tests made with crafting skills typically include wasting rare materials used in the creation process, greatly overestimating or underestimating an item's value, and poorly jury-rigging a contraption so that it harms people (or at least the wrong people).
+Consequences for [tests](scc:mcdm.heroes.v1/rule.test/test) made with crafting skills typically include wasting rare materials used in the creation process, greatly overestimating or underestimating an item's value, and poorly jury-rigging a contraption so that it harms people (or at least the wrong people).
 
 ###### Crafting Skills Table
 
@@ -78,9 +78,9 @@ Consequences for tests made with crafting skills typically include wasting rare 
 
 Skills from the exploration skill group are used to physically explore the environment around the characters, and to overcome physical obstacles.
 
-Rewards for tests made with exploration skills typically include helping another creature engaging in the same task succeed without needing to also make a test, automatically succeeding on a follow-up test while engaged in the same task, reaching a destination faster than anticipated, and learning about or avoiding an upcoming hazard.
+Rewards for [tests](scc:mcdm.heroes.v1/rule.test/test) made with exploration skills typically include helping another creature engaging in the same task succeed without needing to also make a [test](scc:mcdm.heroes.v1/rule.test/test), automatically succeeding on a follow-up [test](scc:mcdm.heroes.v1/rule.test/test) while engaged in the same task, reaching a destination faster than anticipated, and learning about or avoiding an upcoming hazard.
 
-Consequences for tests made with exploration skills include harming yourself, your gear, or your allies; becoming lost; or stumbling headlong into a hazard or a place you were trying to avoid.
+Consequences for [tests](scc:mcdm.heroes.v1/rule.test/test) made with exploration skills include harming yourself, your gear, or your allies; becoming lost; or stumbling headlong into a hazard or a place you were trying to avoid.
 
 ###### Exploration Skills Table
 
@@ -101,9 +101,9 @@ Consequences for tests made with exploration skills include harming yourself, yo
 
 Skills from the interpersonal skill group are used to socially interact with other creatures, and are particularly useful during negotiations (see Chapter 11: [Negotiation](scc:mcdm.heroes.v1/chapter/negotiation)). Aside from the [Handle Animals](scc:mcdm.heroes.v1/skill/handle-animals) skill, you can generally only use interpersonal skills when you attempt to influence creatures who have emotions and who can understand you.
 
-Rewards for tests made with interpersonal skills typically include gaining an extra favor, item, or piece of information from the people or creatures you interact with.
+Rewards for [tests](scc:mcdm.heroes.v1/rule.test/test) made with interpersonal skills typically include gaining an extra favor, item, or piece of information from the people or creatures you interact with.
 
-Consequences for tests made with interpersonal skills include making the creature you're interacting with angry, sad, embarrassed, offended, or otherwise upset or uncomfortable. This might cause them to ignore you, storm off, spread rumors about you, attack you, betray you, blackmail you, or otherwise attempt to harm you.
+Consequences for [tests](scc:mcdm.heroes.v1/rule.test/test) made with interpersonal skills include making the creature you're interacting with angry, sad, embarrassed, offended, or otherwise upset or uncomfortable. This might cause them to ignore you, storm off, spread rumors about you, attack you, betray you, blackmail you, or otherwise attempt to harm you.
 
 ###### Interpersonal Skills Table
 
@@ -127,9 +127,9 @@ Consequences for tests made with interpersonal skills include making the creatur
 
 Skills from the intrigue skill group are used in tasks centered around investigation, thievery, and spycraft.
 
-Rewards for tests made with skills from this group typically include helping another creature engaging in the same task succeed without needing to also make a test, automatically succeeding on a follow-up test while engaged in the same task, discovering helpful information in addition to what you set out to learn, and performing an extra bit of clandestine activity in addition to what you set out to do.
+Rewards for [tests](scc:mcdm.heroes.v1/rule.test/test) made with skills from this group typically include helping another creature engaging in the same task succeed without needing to also make a [test](scc:mcdm.heroes.v1/rule.test/test), automatically succeeding on a follow-up [test](scc:mcdm.heroes.v1/rule.test/test) while engaged in the same task, discovering helpful information in addition to what you set out to learn, and performing an extra bit of clandestine activity in addition to what you set out to do.
 
-Consequences for tests made with intrigue skills include getting caught in the act or failing to notice a detail that places you in danger, such as triggering a trap or walking into an ambush.
+Consequences for [tests](scc:mcdm.heroes.v1/rule.test/test) made with intrigue skills include getting caught in the act or failing to notice a detail that places you in danger, such as triggering a trap or walking into an ambush.
 
 ###### Intrigue Skills Table
 
@@ -152,9 +152,9 @@ Consequences for tests made with intrigue skills include getting caught in the a
 
 Skills from the lore skill group are used to research and recall specific information. They are especially useful during rests and downtime.
 
-Rewards for tests made with lore skills typically include learning an extra piece of useful information.
+Rewards for [tests](scc:mcdm.heroes.v1/rule.test/test) made with lore skills typically include learning an extra piece of useful information.
 
-Consequences for tests made with lore skills typically include learning an incorrect piece of information that seems useful, but which actually works against your interests or wastes time. (It's fun to roleplay these kinds of moments, so lean in!) Alternatively, the Director can make medium and hard tests with lore group skills for each hero in secret, then let the players know the narrative outcome without revealing the outcome of the power roll (see the Optional Rule: Secret Reactive Tests sidebar earlier in this chapter).
+Consequences for [tests](scc:mcdm.heroes.v1/rule.test/test) made with lore skills typically include learning an incorrect piece of information that seems useful, but which actually works against your interests or wastes time. (It's fun to roleplay these kinds of moments, so lean in!) Alternatively, the Director can make medium and hard [tests](scc:mcdm.heroes.v1/rule.test/test) with lore group skills for each hero in secret, then let the players know the narrative outcome without revealing the outcome of the [power roll](scc:mcdm.heroes.v1/rule.dice/power-roll) (see the Optional Rule: Secret [Reactive Tests](scc:mcdm.heroes.v1/rule.test/reactive-test) sidebar earlier in this chapter).
 
 ###### Lore Skills Table
 

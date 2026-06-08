@@ -23,10 +23,10 @@ type: ability
 |-------------------------------------------|--------------------:|
 | **📏 Melee 2**                            | **🎯 One creature** |
 
-**Power Roll + [Reason](scc:mcdm.heroes.v1/rule.character/reason):**
+**[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Reason](scc:mcdm.heroes.v1/rule.character/reason):**
 
-- **≤11:** 10 psychic damage; the target takes a [bane](scc:mcdm.heroes.v1/rule.dice/bane) on ability rolls made to harm you or your allies (save ends)
-- **12-16:** 14 psychic damage; the target has a double [bane](scc:mcdm.heroes.v1/rule.dice/bane) on ability rolls made to harm you or your allies (save ends)
+- **≤11:** 10 psychic damage; the target takes a [bane](scc:mcdm.heroes.v1/rule.dice/bane) on [ability rolls](scc:mcdm.heroes.v1/rule.dice/ability-roll) made to harm you or your allies (save ends)
+- **12-16:** 14 psychic damage; the target has a double [bane](scc:mcdm.heroes.v1/rule.dice/bane) on [ability rolls](scc:mcdm.heroes.v1/rule.dice/ability-roll) made to harm you or your allies (save ends)
 - **17+:** 20 psychic damage; the target considers you and your allies to be their allies when using abilities and features (save ends)
 
 **Strained:** While the target is under this effect, you no longer consider your enemies to be your enemies when using your abilities and features.

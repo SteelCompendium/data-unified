@@ -19,6 +19,6 @@ Your mentor taught you everything and you trusted them completely until they wen
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
-> **Effect:** Until the end of your turn, whenever you use a damage-dealing heroic ability against a single target, you can weaken that target's life force. The ability deals extra corruption damage equal to your highest [characteristic](scc:mcdm.heroes.v1/rule.character/characteristic) score.
+> **Effect:** Until the end of your turn, whenever you use a damage-dealing [heroic ability](scc:mcdm.heroes.v1/rule.general/heroic-ability) against a single target, you can weaken that target's life force. The ability deals extra corruption damage equal to your highest [characteristic](scc:mcdm.heroes.v1/rule.character/characteristic) score.
 
 **Drawback:** You have holy weakness 1. Each time you use Corrupt Spirit, your holy weakness increases by 1, to a maximum equal to your [recovery value](scc:mcdm.heroes.v1/rule.health/recoveries). Whenever you take holy damage, this weakness resets to 1.

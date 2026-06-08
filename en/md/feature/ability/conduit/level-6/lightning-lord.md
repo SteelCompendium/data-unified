@@ -4,7 +4,7 @@ class: conduit
 cost: 9 Piety
 distance: Three 10 x 1 lines within 1
 effect: The targets are [force moved](scc:mcdm.heroes.v1/movement/forced-movement) one at a time, starting with the target nearest to you, and can be pushed into other targets in the same line.
-flavor: Lightning bursts forth from your body in several directions.
+flavor: Lightning [bursts](scc:mcdm.heroes.v1/rule.combat/burst) forth from your body in several directions.
 keywords:
     - Area
     - Magic
@@ -16,13 +16,13 @@ type: ability
 ---
 
 
-*Lightning bursts forth from your body in several directions.*
+*Lightning [bursts](scc:mcdm.heroes.v1/rule.combat/burst) forth from your body in several directions.*
 
 | **Area, Magic**                    |               **Main action** |
 |------------------------------------|------------------------------:|
 | **📏 Three 10 x 1 lines within 1** | **🎯 Each enemy in the area** |
 
-**Power Roll + [Intuition](scc:mcdm.heroes.v1/rule.character/intuition):**
+**[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Intuition](scc:mcdm.heroes.v1/rule.character/intuition):**
 
 - **≤11:** 6 lightning damage; push 1
 - **12-16:** 9 lightning damage; push 2

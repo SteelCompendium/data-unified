@@ -81,7 +81,7 @@ Llyander turned and marched off. "Come!" they called. The children ran to catch 
 
 The elf stopped suddenly and spun toward them, serious but kindly. They pointed to each of the children in turn.
 
-"I will instruct you on the proper etiquette, but remember this: Lord Tear will test us. Some tests for you and some for me. The [high elves](scc:mcdm.heroes.v1/ancestry/high-elf) and the [wode elves](scc:mcdm.heroes.v1/ancestry/wode-elf) are but distant cousins. You will hear much that is polite, much that is flattering, but it is all another kind of glamor. It hides deep tensions, recently exacerbated by the treaty with Ajax."
+"I will instruct you on the proper etiquette, but remember this: Lord Tear will [test](scc:mcdm.heroes.v1/rule.test/test) us. Some [tests](scc:mcdm.heroes.v1/rule.test/test) for you and some for me. The [high elves](scc:mcdm.heroes.v1/ancestry/high-elf) and the [wode elves](scc:mcdm.heroes.v1/ancestry/wode-elf) are but distant cousins. You will hear much that is polite, much that is flattering, but it is all another kind of glamor. It hides deep tensions, recently exacerbated by the treaty with Ajax."
 
 The children nodded. The elf, satisfied, marched off and they followed.
 

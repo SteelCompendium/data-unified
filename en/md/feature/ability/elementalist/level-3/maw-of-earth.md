@@ -2,7 +2,7 @@
 action_type: Main action
 class: elementalist
 cost: 7 Essence
-distance: 3 cube within 10
+distance: 3 [cube](scc:mcdm.heroes.v1/rule.combat/cube) within 10
 effect: The ground in or directly beneath the area drops 3 squares.
 flavor: You open up the ground, spewing out shrapnel of stone and debris.
 keywords:
@@ -22,9 +22,9 @@ type: ability
 
 | **Area, Earth, Magic, Ranged** |                **Main action** |
 |--------------------------------|-------------------------------:|
-| **📏 3 cube within 10**        |  **🎯 Each enemy in the area** |
+| **📏 3 [cube](scc:mcdm.heroes.v1/rule.combat/cube) within 10**        |  **🎯 Each enemy in the area** |
 
-**Power Roll + [Reason](scc:mcdm.heroes.v1/rule.character/reason):**
+**[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Reason](scc:mcdm.heroes.v1/rule.character/reason):**
 
 - **≤11:** 5 damage
 - **12-16:** 9 damage

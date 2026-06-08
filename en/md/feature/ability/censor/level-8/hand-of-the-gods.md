@@ -23,7 +23,7 @@ type: ability
 |----------------------------|------------------------------:|
 | **📏 Ranged 10**           |           **🎯 One creature** |
 
-**Power Roll + [Might](scc:mcdm.heroes.v1/rule.character/might):**
+**[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc:mcdm.heroes.v1/rule.character/might):**
 
 - **≤11:** 10 + M damage
 - **12-16:** 15 + M damage

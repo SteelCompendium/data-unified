@@ -2,8 +2,8 @@
 action_type: Main action
 class: talent
 cost: 11 Clarity
-distance: 3 burst
-effect: On a critical hit, the size of the area increases by 3, and this ability deals an extra 10 damage.
+distance: 3 [burst](scc:mcdm.heroes.v1/rule.combat/burst)
+effect: On a [critical hit](scc:mcdm.heroes.v1/rule.combat/critical-hit), the size of the area increases by 3, and this ability deals an extra 10 damage.
 flavor: Unbridled psionic energy erupts from your body and flashes outward, hurling your foes back.
 keywords:
     - Area
@@ -21,14 +21,14 @@ type: ability
 
 | **Area, Psionic, Telekinesis** |                          **Main action** |
 |--------------------------------|-----------------------------------------:|
-| **📏 3 burst**                 | **🎯 Each enemy and object in the area** |
+| **📏 3 [burst](scc:mcdm.heroes.v1/rule.combat/burst)**                 | **🎯 Each enemy and object in the area** |
 
-**Power Roll + [Reason](scc:mcdm.heroes.v1/rule.character/reason):**
+**[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Reason](scc:mcdm.heroes.v1/rule.character/reason):**
 
 - **≤11:** 6 damage; push 7
 - **12-16:** 9 damage; push 10
 - **17+:** 13 damage; push 15
 
-**Effect:** On a critical hit, the size of the area increases by 3, and this ability deals an extra 10 damage.
+**Effect:** On a [critical hit](scc:mcdm.heroes.v1/rule.combat/critical-hit), the size of the area increases by 3, and this ability deals an extra 10 damage.
 
-**Strained:** You are [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends). If you scored a critical hit with this ability, you die.
+**Strained:** You are [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends). If you scored a [critical hit](scc:mcdm.heroes.v1/rule.combat/critical-hit) with this ability, you die.

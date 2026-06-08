@@ -24,7 +24,7 @@ type: ability
 |----------------------------------------------|------------------------------:|
 | **📏 Ranged 10**                             | **🎯 One creature or object** |
 
-**Power Roll + [Presence](scc:mcdm.heroes.v1/rule.character/presence):**
+**[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Presence](scc:mcdm.heroes.v1/rule.character/presence):**
 
 - **≤11:** 3 + P corruption damage; P < WEAK, [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
 - **12-16:** 5 + P corruption damage; the target is flung through time, and if P < AVERAGE, they are [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
@@ -32,4 +32,4 @@ type: ability
 
 **Effect:** A target who is flung through time is removed from the encounter map until the end of their next turn, reappearing in their original space or the nearest unoccupied space.
 
-**Strained:** You take 2d6 damage and permanently grow visibly older (the equivalent of 10 years for a [human](scc:mcdm.heroes.v1/ancestry/human)). If you obtain a tier 3 outcome on the power roll, you gain 2 clarity.
+**Strained:** You take 2d6 damage and permanently grow visibly older (the equivalent of 10 years for a [human](scc:mcdm.heroes.v1/ancestry/human)). If you obtain a tier 3 outcome on the [power roll](scc:mcdm.heroes.v1/rule.dice/power-roll), you gain 2 clarity.

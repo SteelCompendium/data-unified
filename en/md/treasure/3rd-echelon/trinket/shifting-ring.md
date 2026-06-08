@@ -14,11 +14,11 @@ type: treasure
 
 **Keywords:** Psionic, Ring
 
-**Item Prerequisite:** One-third of a pound of diamond dust, one nugget of pure silver
+**[Item Prerequisite](scc:mcdm.heroes.v1/rule.downtime/item-prerequisite):** One-third of a pound of diamond dust, one nugget of pure silver
 
-**Project Source:** Texts or lore in Khelt
+**[Project Source](scc:mcdm.heroes.v1/rule.downtime/project-source):** Texts or lore in Khelt
 
-**Project Roll [Characteristic](scc:mcdm.heroes.v1/rule.character/characteristic):** [Agility](scc:mcdm.heroes.v1/rule.character/agility) or [Intuition](scc:mcdm.heroes.v1/rule.character/intuition)
+**[Project Roll](scc:mcdm.heroes.v1/rule.downtime/project-roll) [Characteristic](scc:mcdm.heroes.v1/rule.character/characteristic):** [Agility](scc:mcdm.heroes.v1/rule.character/agility) or [Intuition](scc:mcdm.heroes.v1/rule.character/intuition)
 
 **Project Goal:** 450
 

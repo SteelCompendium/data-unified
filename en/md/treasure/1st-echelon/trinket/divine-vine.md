@@ -13,11 +13,11 @@ type: treasure
 
 **Keywords:** Magic
 
-**Item Prerequisite:** Three withered mundane vines, a tree's blessing
+**[Item Prerequisite](scc:mcdm.heroes.v1/rule.downtime/item-prerequisite):** Three withered mundane vines, a tree's blessing
 
-**Project Source:** Songs in Yllyric
+**[Project Source](scc:mcdm.heroes.v1/rule.downtime/project-source):** Songs in Yllyric
 
-**Project Roll [Characteristic](scc:mcdm.heroes.v1/rule.character/characteristic):** [Reason](scc:mcdm.heroes.v1/rule.character/reason) or [Presence](scc:mcdm.heroes.v1/rule.character/presence)
+**[Project Roll](scc:mcdm.heroes.v1/rule.downtime/project-roll) [Characteristic](scc:mcdm.heroes.v1/rule.character/characteristic):** [Reason](scc:mcdm.heroes.v1/rule.character/reason) or [Presence](scc:mcdm.heroes.v1/rule.character/presence)
 
 **Project Goal:** 150
 

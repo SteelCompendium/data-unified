@@ -26,7 +26,7 @@ type: ability
 
 **Effect:** You mark the target.
 
-**Power Roll + [Might](scc:mcdm.heroes.v1/rule.character/might):**
+**[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc:mcdm.heroes.v1/rule.character/might):**
 
 - **≤11:** 11 + M damage
 - **12-16:** 16 + M damage

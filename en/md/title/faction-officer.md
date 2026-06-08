@@ -12,5 +12,5 @@ type: title
 
 **Effect:** You are given a position of great authority in your faction. Additionally, you gain the following benefits:
 
-- *Requisition:* When you gain this title, you gain a 1st- or 2nd-echelon magic trinket of your choice from your faction (see Treasures earlier in this chapter). Whenever you gain a level, you can swap the trinket out for another one.
-- *You're the Boss:* Lower-ranking members of your faction follow your routine orders. In nonroutine matters, you gain an [edge](scc:mcdm.heroes.v1/rule.dice/edge) on tests made to influence those characters' behavior.
+- *Requisition:* When you gain this title, you gain a 1st- or 2nd-[echelon](scc:mcdm.heroes.v1/rule.general/echelon) magic [trinket](scc:mcdm.heroes.v1/rule.treasure/trinket) of your choice from your faction (see Treasures earlier in this chapter). Whenever you gain a level, you can swap the [trinket](scc:mcdm.heroes.v1/rule.treasure/trinket) out for another one.
+- *You're the Boss:* Lower-ranking members of your faction follow your routine orders. In nonroutine matters, you gain an [edge](scc:mcdm.heroes.v1/rule.dice/edge) on [tests](scc:mcdm.heroes.v1/rule.test/test) made to influence those characters' behavior.

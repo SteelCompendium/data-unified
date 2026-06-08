@@ -12,4 +12,4 @@ You are a product of customs older than warfare, older than civilization, older 
 - **Reaver:** You channel your ferocity into instinct and cunning, challenging the order of civilization. You have the [Hide](scc:mcdm.heroes.v1/skill/hide) skill.
 - **Stormwight:** You channel your ferocity into primordial storms and can take on the form of an animal or an animal hybrid form. You have the [Track](scc:mcdm.heroes.v1/skill/track) skill.
 
-Your [primordial aspect](scc:mcdm.heroes.v1/feature.fury.level-1/primordial-aspect) is your subclass, and your choice of aspect determines many of the features you'll gain as you gain new levels.
+Your [primordial aspect](scc:mcdm.heroes.v1/feature.fury.level-1/primordial-aspect) is your [subclass](scc:mcdm.heroes.v1/rule.general/subclass), and your choice of aspect determines many of the features you'll gain as you gain new levels.

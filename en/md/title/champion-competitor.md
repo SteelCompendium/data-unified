@@ -12,6 +12,6 @@ type: title
 
 **Effect:** A [characteristic](scc:mcdm.heroes.v1/rule.character/characteristic) used during the competition increases by 1 (to a maximum of 6). Additionally, choose one of the following benefits:
 
-- *Best of the Best:* Choose a skill you used during the competition. You gain a +4 bonus to tests made using that skill instead of a +2 bonus
-- *Glory and Riches:* You earn 2 Renown and 1 Wealth.
-- *I'll Just Take the Prize:* You gain a trinket or leveled treasure of the Director's choice.
+- *Best of the Best:* Choose a skill you used during the competition. You gain a +4 bonus to [tests](scc:mcdm.heroes.v1/rule.test/test) made using that skill instead of a +2 bonus
+- *Glory and Riches:* You earn 2 [Renown](scc:mcdm.heroes.v1/rule.resource/renown) and 1 [Wealth](scc:mcdm.heroes.v1/rule.resource/wealth).
+- *I'll Just Take the Prize:* You gain a [trinket](scc:mcdm.heroes.v1/rule.treasure/trinket) or [leveled treasure](scc:mcdm.heroes.v1/rule.treasure/leveled-treasure) of the Director's choice.

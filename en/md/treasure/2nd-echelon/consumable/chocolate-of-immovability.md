@@ -1,6 +1,6 @@
 ---
 echelon: "2"
-effect: When you consume this delicious piece of candy as a maneuver, you gain 15 [temporary Stamina](scc:mcdm.heroes.v1/rule.health/temporary-stamina) and a +10 bonus to stability. Additionally, if you don't use your movement during your turn, any strikes you make on that turn deal an extra 5 damage, and any [strikes](scc:mcdm.heroes.v1/rule.combat/strike) against you take a [bane](scc:mcdm.heroes.v1/rule.dice/bane) until the start of your next turn. This effect and the bonus to stability lasts until the end of the encounter, after which you are sleepy. If not reduced beforehand, the [temporary Stamina](scc:mcdm.heroes.v1/rule.health/temporary-stamina) lasts until the end of your next respite.
+effect: When you consume this delicious piece of candy as a maneuver, you gain 15 [temporary Stamina](scc:mcdm.heroes.v1/rule.health/temporary-stamina) and a +10 bonus to [stability](scc:mcdm.heroes.v1/rule.character/stability). Additionally, if you don't use your movement during your turn, any strikes you make on that turn deal an extra 5 damage, and any [strikes](scc:mcdm.heroes.v1/rule.combat/strike) against you take a [bane](scc:mcdm.heroes.v1/rule.dice/bane) until the start of your next turn. This effect and the bonus to [stability](scc:mcdm.heroes.v1/rule.character/stability) lasts until the end of the encounter, after which you are sleepy. If not reduced beforehand, the [temporary Stamina](scc:mcdm.heroes.v1/rule.health/temporary-stamina) lasts until the end of your next [respite](scc:mcdm.heroes.v1/rule.resource/respite).
 keywords:
     - Magic
 name: Chocolate of Immovability
@@ -13,12 +13,12 @@ type: treasure
 
 **Keywords:** Magic
 
-**Item Prerequisite:** A chocolate made by a gnome confectioner
+**[Item Prerequisite](scc:mcdm.heroes.v1/rule.downtime/item-prerequisite):** A chocolate made by a gnome confectioner
 
-**Project Source:** Texts or lore in Caelian
+**[Project Source](scc:mcdm.heroes.v1/rule.downtime/project-source):** Texts or lore in Caelian
 
-**Project Roll [Characteristic](scc:mcdm.heroes.v1/rule.character/characteristic):** [Reason](scc:mcdm.heroes.v1/rule.character/reason) or [Intuition](scc:mcdm.heroes.v1/rule.character/intuition)
+**[Project Roll](scc:mcdm.heroes.v1/rule.downtime/project-roll) [Characteristic](scc:mcdm.heroes.v1/rule.character/characteristic):** [Reason](scc:mcdm.heroes.v1/rule.character/reason) or [Intuition](scc:mcdm.heroes.v1/rule.character/intuition)
 
 **Project Goal:** 90
 
-**Effect:** When you consume this delicious piece of candy as a maneuver, you gain 15 [temporary Stamina](scc:mcdm.heroes.v1/rule.health/temporary-stamina) and a +10 bonus to stability. Additionally, if you don't use your movement during your turn, any strikes you make on that turn deal an extra 5 damage, and any [strikes](scc:mcdm.heroes.v1/rule.combat/strike) against you take a [bane](scc:mcdm.heroes.v1/rule.dice/bane) until the start of your next turn. This effect and the bonus to stability lasts until the end of the encounter, after which you are sleepy. If not reduced beforehand, the [temporary Stamina](scc:mcdm.heroes.v1/rule.health/temporary-stamina) lasts until the end of your next respite.
+**Effect:** When you consume this delicious piece of candy as a maneuver, you gain 15 [temporary Stamina](scc:mcdm.heroes.v1/rule.health/temporary-stamina) and a +10 bonus to [stability](scc:mcdm.heroes.v1/rule.character/stability). Additionally, if you don't use your movement during your turn, any strikes you make on that turn deal an extra 5 damage, and any [strikes](scc:mcdm.heroes.v1/rule.combat/strike) against you take a [bane](scc:mcdm.heroes.v1/rule.dice/bane) until the start of your next turn. This effect and the bonus to [stability](scc:mcdm.heroes.v1/rule.character/stability) lasts until the end of the encounter, after which you are sleepy. If not reduced beforehand, the [temporary Stamina](scc:mcdm.heroes.v1/rule.health/temporary-stamina) lasts until the end of your next [respite](scc:mcdm.heroes.v1/rule.resource/respite).

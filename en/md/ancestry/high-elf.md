@@ -53,7 +53,7 @@ Lord Tear glided down the steps until he was standing, as tall as Llyander, befo
 
 "And smart," Meliora said.
 
-"I'm surprised how kind he is," Jeremy said. "He seems a good king." Llyander chuckled. Wenna noticed. She didn't say anything at first, but eventually she couldn't resist. "What?"
+"I'm [surprised](scc:mcdm.heroes.v1/rule.combat/surprised) how kind he is," Jeremy said. "He seems a good king." Llyander chuckled. Wenna noticed. She didn't say anything at first, but eventually she couldn't resist. "What?"
 
 Llyander raised an eyebrow, then walked in front of the children so that as the [wode elf](scc:mcdm.heroes.v1/ancestry/wode-elf) spoke, their back was to the king.
 

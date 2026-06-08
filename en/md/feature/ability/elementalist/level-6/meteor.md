@@ -25,7 +25,7 @@ type: ability
 |--------------------------------------|------------------------------:|
 | **📏 Ranged 10**                     | **🎯 One creature or object** |
 
-**Power Roll + [Reason](scc:mcdm.heroes.v1/rule.character/reason):**
+**[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Reason](scc:mcdm.heroes.v1/rule.character/reason):**
 
 - **≤11:** You [teleport](scc:mcdm.heroes.v1/movement/teleport) the target up to 4 squares.
 - **12-16:** You [teleport](scc:mcdm.heroes.v1/movement/teleport) the target up to 6 squares.

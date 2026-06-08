@@ -2,7 +2,7 @@
 action_type: Main action
 class: elementalist
 cost: 11 Essence
-distance: 5 burst
+distance: 5 [burst](scc:mcdm.heroes.v1/rule.combat/burst)
 effect: You create a fissure in the ground adjacent to you that is a 10 x 2 line and 6 squares deep. Each creature in the area who [is prone](scc:mcdm.heroes.v1/condition/prone) and [size](scc:mcdm.heroes.v1/rule.character/size) 2 or smaller falls in. Other creatures can enter the fissure or can [shift](scc:mcdm.heroes.v1/movement/shifting) to the nearest unoccupied space of their choice outside it.
 flavor: You stomp your foot and quake the whole world over.
 keywords:
@@ -21,9 +21,9 @@ type: ability
 
 | **Area, Earth, Magic** |               **Main action** |
 |------------------------|------------------------------:|
-| **📏 5 burst**         | **🎯 Each enemy in the area** |
+| **📏 5 [burst](scc:mcdm.heroes.v1/rule.combat/burst)**         | **🎯 Each enemy in the area** |
 
-**Power Roll + [Reason](scc:mcdm.heroes.v1/rule.character/reason):**
+**[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Reason](scc:mcdm.heroes.v1/rule.character/reason):**
 
 - **≤11:** M < WEAK[, prone](scc:mcdm.heroes.v1/condition/prone)
 - **12-16:** M < AVERAGE[, prone](scc:mcdm.heroes.v1/condition/prone)

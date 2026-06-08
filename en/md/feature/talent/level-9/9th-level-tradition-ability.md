@@ -6,7 +6,7 @@ scc: mcdm.heroes.v1/feature.talent.level-9/9th-level-tradition-ability
 type: feature
 ---
 
-Your [talent tradition](scc:mcdm.heroes.v1/feature.talent.level-1/talent-tradition) grants your choice of one of two heroic abilities.
+Your [talent tradition](scc:mcdm.heroes.v1/feature.talent.level-1/talent-tradition) grants your choice of one of two [heroic abilities](scc:mcdm.heroes.v1/rule.general/heroic-ability).
 
 ##### 9th-Level Chronopathy Abilities
 

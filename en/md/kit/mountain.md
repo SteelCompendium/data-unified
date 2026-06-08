@@ -3,7 +3,6 @@ equipment_text: You wear heavy armor and wield a heavy weapon.
 melee_damage_bonus: +0/+0/+4
 name: Mountain
 scc: mcdm.heroes.v1/kit/mountain
-stability_bonus: "+2"
 type: kit
 ---
 
@@ -15,9 +14,9 @@ You wear heavy armor and wield a heavy weapon.
 
 ##### Kit Bonuses
 
-**[Stamina](scc:mcdm.heroes.v1/rule.health/stamina) Bonus:** +9 per echelon
+**[Stamina](scc:mcdm.heroes.v1/rule.health/stamina) Bonus:** +9 per [echelon](scc:mcdm.heroes.v1/rule.general/echelon)
 
-**Stability Bonus:** +2
+**[Stability](scc:mcdm.heroes.v1/rule.character/stability) Bonus:** +2
 
 **Melee Damage Bonus:** +0/+0/+4
 
@@ -31,7 +30,7 @@ You wear heavy armor and wield a heavy weapon.
 |---------------------------|--------------------:|
 | **📏 Melee 1**            | **🎯 One creature** |
 
-**Power Roll + [Might](scc:mcdm.heroes.v1/rule.character/might) or [Agility](scc:mcdm.heroes.v1/rule.character/agility):**
+**[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc:mcdm.heroes.v1/rule.character/might) or [Agility](scc:mcdm.heroes.v1/rule.character/agility):**
 
 - **≤11:** 3 + M or A damage
 - **12-16:** 5 + M or A damage

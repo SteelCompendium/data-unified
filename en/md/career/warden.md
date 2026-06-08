@@ -2,7 +2,6 @@
 language: One language
 name: Warden
 perk: One exploration perk (*Quick Build:* [Camouflage Hunter](scc:mcdm.heroes.v1/perk/camouflage-hunter).)
-project_points: "120"
 scc: mcdm.heroes.v1/career/warden
 skills:
     - Nature (from the lore skill group), plus one skill from the exploration group and one skill from the intrigue group (*Quick Build:*  [Nature](scc:mcdm.heroes.v1/skill/nature), Navigate, Track.)
@@ -22,7 +21,7 @@ You gain the following career benefits:
 
 **Languages:** One language
 
-**Project Points:** 120
+**[Project Points](scc:mcdm.heroes.v1/rule.downtime/project-points):** 120
 
 **Perk:** One exploration perk (*Quick Build:* [Camouflage Hunter](scc:mcdm.heroes.v1/perk/camouflage-hunter).)
 

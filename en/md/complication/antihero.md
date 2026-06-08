@@ -1,6 +1,6 @@
 ---
 benefit: You have 3 [antihero](scc:mcdm.heroes.v1/complication/antihero) tokens. Whenever you use an ability or other effect that costs your [Heroic Resource](scc:mcdm.heroes.v1/rule.resource/heroic-resource), you can spend 1 [antihero](scc:mcdm.heroes.v1/complication/antihero) token in place of 1 [Heroic Resource](scc:mcdm.heroes.v1/rule.resource/heroic-resource). Whenever you have fewer than 3 [antihero](scc:mcdm.heroes.v1/complication/antihero) tokens and you would earn a [hero token](scc:mcdm.heroes.v1/rule.resource/hero-token) for your party through your deeds, you instead regain 1 [antihero](scc:mcdm.heroes.v1/complication/antihero) token.
-drawback: While you have fewer than 3 [antihero](scc:mcdm.heroes.v1/complication/antihero) tokens, you exude a villainous aspect. You and each ally within 5 squares of you take a [bane](scc:mcdm.heroes.v1/rule.dice/bane) on any test made to interact with other creatures.
+drawback: While you have fewer than 3 [antihero](scc:mcdm.heroes.v1/complication/antihero) tokens, you exude a villainous aspect. You and each ally within 5 squares of you take a [bane](scc:mcdm.heroes.v1/rule.dice/bane) on any [test](scc:mcdm.heroes.v1/rule.test/test) made to interact with other creatures.
 name: Antihero
 scc: mcdm.heroes.v1/complication/antihero
 type: complication
@@ -10,4 +10,4 @@ You used to be a villain. You're (mostly) reformed now, but in desperate moments
 
 **Benefit:** You have 3 [antihero](scc:mcdm.heroes.v1/complication/antihero) tokens. Whenever you use an ability or other effect that costs your [Heroic Resource](scc:mcdm.heroes.v1/rule.resource/heroic-resource), you can spend 1 [antihero](scc:mcdm.heroes.v1/complication/antihero) token in place of 1 [Heroic Resource](scc:mcdm.heroes.v1/rule.resource/heroic-resource). Whenever you have fewer than 3 [antihero](scc:mcdm.heroes.v1/complication/antihero) tokens and you would earn a [hero token](scc:mcdm.heroes.v1/rule.resource/hero-token) for your party through your deeds, you instead regain 1 [antihero](scc:mcdm.heroes.v1/complication/antihero) token.
 
-**Drawback:** While you have fewer than 3 [antihero](scc:mcdm.heroes.v1/complication/antihero) tokens, you exude a villainous aspect. You and each ally within 5 squares of you take a [bane](scc:mcdm.heroes.v1/rule.dice/bane) on any test made to interact with other creatures.
+**Drawback:** While you have fewer than 3 [antihero](scc:mcdm.heroes.v1/complication/antihero) tokens, you exude a villainous aspect. You and each ally within 5 squares of you take a [bane](scc:mcdm.heroes.v1/rule.dice/bane) on any [test](scc:mcdm.heroes.v1/rule.test/test) made to interact with other creatures.

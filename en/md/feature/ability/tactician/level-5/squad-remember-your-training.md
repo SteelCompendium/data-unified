@@ -3,7 +3,7 @@ action_type: Main action
 class: tactician
 cost: 9 Focus
 distance: Ranged 10
-effect: Each target gains 1 [surge](scc:mcdm.heroes.v1/rule.resource/surge) and can use a signature ability that has a double [edge](scc:mcdm.heroes.v1/rule.dice/edge).
+effect: Each target gains 1 [surge](scc:mcdm.heroes.v1/rule.resource/surge) and can use a [signature ability](scc:mcdm.heroes.v1/rule.combat/signature-ability) that has a double [edge](scc:mcdm.heroes.v1/rule.dice/edge).
 flavor: You remind your allies how to best use their gear.
 keywords:
     - Ranged
@@ -21,4 +21,4 @@ type: ability
 |------------------------------|----------------------------------------:|
 | **📏 Ranged 10**  | **🎯 Self and two allies** |
 
-**Effect:** Each target gains 1 [surge](scc:mcdm.heroes.v1/rule.resource/surge) and can use a signature ability that has a double [edge](scc:mcdm.heroes.v1/rule.dice/edge).
+**Effect:** Each target gains 1 [surge](scc:mcdm.heroes.v1/rule.resource/surge) and can use a [signature ability](scc:mcdm.heroes.v1/rule.combat/signature-ability) that has a double [edge](scc:mcdm.heroes.v1/rule.dice/edge).

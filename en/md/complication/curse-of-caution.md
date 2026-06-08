@@ -1,6 +1,6 @@
 ---
 benefit: Until you've taken your turn in a combat round, any strike made against you takes a [bane](scc:mcdm.heroes.v1/rule.dice/bane).
-drawback: You have a −1 penalty to speed.
+drawback: You have a −1 penalty to [speed](scc:mcdm.heroes.v1/rule.character/speed).
 name: Curse of Caution
 scc: mcdm.heroes.v1/complication/curse-of-caution
 type: complication
@@ -10,4 +10,4 @@ When you were young, you did something reckless and unthinking that endangered a
 
 **Benefit:** Until you've taken your turn in a combat round, any strike made against you takes a [bane](scc:mcdm.heroes.v1/rule.dice/bane).
 
-**Drawback:** You have a −1 penalty to speed.
+**Drawback:** You have a −1 penalty to [speed](scc:mcdm.heroes.v1/rule.character/speed).

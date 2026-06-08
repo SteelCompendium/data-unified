@@ -2,8 +2,8 @@
 action_type: Maneuver
 ancestry: time-raider
 distance: Melee 1
-effect: The target gains a bonus to speed equal to your [Reason](scc:mcdm.heroes.v1/rule.character/reason), [Intuition](scc:mcdm.heroes.v1/rule.character/intuition), or [Presence](scc:mcdm.heroes.v1/rule.character/presence) score (your choice) until the start of your next turn.
-flavor: You fill yourself or an ally with a burst of speed.
+effect: The target gains a bonus to [speed](scc:mcdm.heroes.v1/rule.character/speed) equal to your [Reason](scc:mcdm.heroes.v1/rule.character/reason), [Intuition](scc:mcdm.heroes.v1/rule.character/intuition), or [Presence](scc:mcdm.heroes.v1/rule.character/presence) score (your choice) until the start of your next turn.
+flavor: You fill yourself or an ally with a burst of [speed](scc:mcdm.heroes.v1/rule.character/speed).
 keywords:
     - Psionic
     - Melee
@@ -14,10 +14,10 @@ target: Self or one ally
 type: ability
 ---
 
-*You fill yourself or an ally with a burst of speed.*
+*You fill yourself or an ally with a burst of [speed](scc:mcdm.heroes.v1/rule.character/speed).*
 
 | **Psionic, Melee** | Maneuver               |
 |-------------------|------------------------|
 | **📏 Melee 1**    | **🎯 Self or one ally** |
 
-**Effect:** The target gains a bonus to speed equal to your [Reason](scc:mcdm.heroes.v1/rule.character/reason), [Intuition](scc:mcdm.heroes.v1/rule.character/intuition), or [Presence](scc:mcdm.heroes.v1/rule.character/presence) score (your choice) until the start of your next turn.
+**Effect:** The target gains a bonus to [speed](scc:mcdm.heroes.v1/rule.character/speed) equal to your [Reason](scc:mcdm.heroes.v1/rule.character/reason), [Intuition](scc:mcdm.heroes.v1/rule.character/intuition), or [Presence](scc:mcdm.heroes.v1/rule.character/presence) score (your choice) until the start of your next turn.

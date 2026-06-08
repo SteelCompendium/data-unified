@@ -1,6 +1,6 @@
 ---
 benefit: You have the following ability.
-drawback: 'Rather than attracting followers at 3, 6, 9, and 12 Renown, you can attract followers only when your Renown reaches 4, 8, 12, and 16. See Renown in Chapter 13: [Rewards](scc:mcdm.heroes.v1/chapter/rewards).'
+drawback: 'Rather than attracting [followers](scc:mcdm.heroes.v1/rule.general/follower) at 3, 6, 9, and 12 [Renown](scc:mcdm.heroes.v1/rule.resource/renown), you can attract [followers](scc:mcdm.heroes.v1/rule.general/follower) only when your [Renown](scc:mcdm.heroes.v1/rule.resource/renown) reaches 4, 8, 12, and 16. See [Renown](scc:mcdm.heroes.v1/rule.resource/renown) in Chapter 13: [Rewards](scc:mcdm.heroes.v1/chapter/rewards).'
 name: Stripped of Rank
 scc: mcdm.heroes.v1/complication/stripped-of-rank
 type: complication
@@ -19,8 +19,8 @@ You were trained as an officer, but you no longer serve. Whether you fled from a
 > |------------------|----------------:|
 > | **📏 Ranged 10** | **🎯 One ally** |
 >
-> **Effect:** The target can use a triggered action to take a main action, a maneuver, or a move action.
+> **Effect:** The target can use a [triggered action](scc:mcdm.heroes.v1/rule.combat/triggered-action) to take a main action, a maneuver, or a move action.
 >
-> **Special:** If you have the [Strike Now](scc:mcdm.heroes.v1/feature.ability.tactician.level-1/strike-now) [tactician](scc:mcdm.heroes.v1/class/tactician) ability, the target can use a free triggered action instead of a triggered action to gain the benefit of this ability.
+> **Special:** If you have the [Strike Now](scc:mcdm.heroes.v1/feature.ability.tactician.level-1/strike-now) [tactician](scc:mcdm.heroes.v1/class/tactician) ability, the target can use a free [triggered action](scc:mcdm.heroes.v1/rule.combat/triggered-action) instead of a [triggered action](scc:mcdm.heroes.v1/rule.combat/triggered-action) to gain the benefit of this ability.
 
-**Drawback:** Rather than attracting followers at 3, 6, 9, and 12 Renown, you can attract followers only when your Renown reaches 4, 8, 12, and 16. See Renown in Chapter 13: [Rewards](scc:mcdm.heroes.v1/chapter/rewards).
+**Drawback:** Rather than attracting [followers](scc:mcdm.heroes.v1/rule.general/follower) at 3, 6, 9, and 12 [Renown](scc:mcdm.heroes.v1/rule.resource/renown), you can attract [followers](scc:mcdm.heroes.v1/rule.general/follower) only when your [Renown](scc:mcdm.heroes.v1/rule.resource/renown) reaches 4, 8, 12, and 16. See [Renown](scc:mcdm.heroes.v1/rule.resource/renown) in Chapter 13: [Rewards](scc:mcdm.heroes.v1/chapter/rewards).

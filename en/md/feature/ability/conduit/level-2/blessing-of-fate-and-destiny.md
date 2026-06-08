@@ -24,5 +24,5 @@ type: ability
 
 **Effect:** You can target yourself instead of one creature with this ability. Choose one of the following effects, which lasts until the end of the encounter or until you are [dying](scc:mcdm.heroes.v1/rule.health/dying):
 
-- Whenever a target makes a power roll, they can roll three dice and choose which two rolls to use.
-- Whenever a target makes a power roll, they must roll three dice and use the lowest two rolls.
+- Whenever a target makes a [power roll](scc:mcdm.heroes.v1/rule.dice/power-roll), they can roll three dice and choose which two rolls to use.
+- Whenever a target makes a [power roll](scc:mcdm.heroes.v1/rule.dice/power-roll), they must roll three dice and use the lowest two rolls.

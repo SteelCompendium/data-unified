@@ -6,7 +6,7 @@ scc: mcdm.heroes.v1/feature.censor.level-2/2nd-level-order-ability
 type: feature
 ---
 
-Your [censor order](scc:mcdm.heroes.v1/feature.censor.level-1/censor-order) grants your choice of one of two heroic abilities.
+Your [censor order](scc:mcdm.heroes.v1/feature.censor.level-1/censor-order) grants your choice of one of two [heroic abilities](scc:mcdm.heroes.v1/rule.general/heroic-ability).
 
 ##### 2nd-Level Exorcist Ability
 

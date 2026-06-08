@@ -25,9 +25,9 @@ This chapter details twelve ancestries for the game:
 
 **[Hakaan](scc:mcdm.heroes.v1/ancestry/hakaan):** Descended from stone giants, the mighty [hakaan](scc:mcdm.heroes.v1/ancestry/hakaan) stand over 9 feet tall and have well-muscled bodies made of organic stone. They are the largest ancestry in this book!
 
-**[Human](scc:mcdm.heroes.v1/ancestry/human):** [Humans](scc:mcdm.heroes.v1/ancestry/human) are the most numerous people in Orden and many other fantasy worlds! In *Draw Steel*, [humans](scc:mcdm.heroes.v1/ancestry/human) have all the diversity that our species displays in real life—and they can sense the presence of supernatural energy!
+**[Human](scc:mcdm.heroes.v1/ancestry/human):** [Humans](scc:mcdm.heroes.v1/ancestry/human) are the most numerous people in [Orden](scc:mcdm.heroes.v1/rule.world/orden) and many other fantasy worlds! In *Draw Steel*, [humans](scc:mcdm.heroes.v1/ancestry/human) have all the diversity that our species displays in real life—and they can sense the presence of supernatural energy!
 
-**[Memonek](scc:mcdm.heroes.v1/ancestry/memonek):** Originating on Axiom, the Plane of Uttermost Law, [memonek](scc:mcdm.heroes.v1/ancestry/memonek) are a machine people made of metal, marble, glass, and other inorganic materials. Their bodies are lightweight, making them easier to move and letting them fall at slower speeds.
+**[Memonek](scc:mcdm.heroes.v1/ancestry/memonek):** Originating on Axiom, the Plane of Uttermost Law, [memonek](scc:mcdm.heroes.v1/ancestry/memonek) are a machine people made of metal, marble, glass, and other inorganic materials. Their bodies are lightweight, making them easier to move and letting them fall at slower [speeds](scc:mcdm.heroes.v1/rule.character/speed).
 
 **[Orc](scc:mcdm.heroes.v1/ancestry/orc):** [Orcs](scc:mcdm.heroes.v1/ancestry/orc) have skin in green tones and stand slightly taller and wider than [humans](scc:mcdm.heroes.v1/ancestry/human). A supernatural energy they call "the blood fire" flows through their veins, igniting colorful lines in an [orc's](scc:mcdm.heroes.v1/ancestry/orc) skin during life-or-death battles.
 
@@ -41,27 +41,27 @@ This chapter details twelve ancestries for the game:
 >
 > The rules for using ancestries refer to lots of other parts of the game. You can find information on specific topics as follows:
 >
-> [Edges](scc:mcdm.heroes.v1/rule.dice/edge) and [banes](scc:mcdm.heroes.v1/rule.dice/bane), [Recoveries](scc:mcdm.heroes.v1/rule.health/recoveries), respites: Chapter 1: [The Basics](scc:mcdm.heroes.v1/chapter/the-basics)
+> [Edges](scc:mcdm.heroes.v1/rule.dice/edge) and [banes](scc:mcdm.heroes.v1/rule.dice/bane), [Recoveries](scc:mcdm.heroes.v1/rule.health/recoveries), [respites](scc:mcdm.heroes.v1/rule.resource/respite): Chapter 1: [The Basics](scc:mcdm.heroes.v1/chapter/the-basics)
 >
 > Languages: Chapter 4: [Background](scc:mcdm.heroes.v1/chapter/background)
 >
-> Abilities, conditions, potencies, saving throws, [surges](scc:mcdm.heroes.v1/rule.resource/surge): Chapter 5: [Classes](scc:mcdm.heroes.v1/chapter/classes)
+> Abilities, conditions, [potencies](scc:mcdm.heroes.v1/rule.character/potency), [saving throws](scc:mcdm.heroes.v1/rule.general/saving-throw), [surges](scc:mcdm.heroes.v1/rule.resource/surge): Chapter 5: [Classes](scc:mcdm.heroes.v1/chapter/classes)
 >
-> Skills, tests: Chapter 9: [Tests](scc:mcdm.heroes.v1/chapter/tests)
+> Skills, [tests](scc:mcdm.heroes.v1/rule.test/test): Chapter 9: [Tests](scc:mcdm.heroes.v1/chapter/tests)
 >
-> Crafting projects: Chapter 12: [Downtime Projects](scc:mcdm.heroes.v1/chapter/downtime-projects)
+> [Crafting projects](scc:mcdm.heroes.v1/rule.downtime/crafting-project): Chapter 12: [Downtime Projects](scc:mcdm.heroes.v1/chapter/downtime-projects)
 >
 > Main actions and maneuvers, creature [size](scc:mcdm.heroes.v1/rule.character/size), damage and [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), [dying](scc:mcdm.heroes.v1/rule.health/dying) and death, [flanking](scc:mcdm.heroes.v1/rule.combat/flanking), movement and [forced movement](scc:mcdm.heroes.v1/movement/forced-movement), [winded](scc:mcdm.heroes.v1/rule.health/winded): Chapter 10: [Combat](scc:mcdm.heroes.v1/chapter/combat)
 
 ### On the Origin of Species
 
-Orden (talked about in Chapter 1: [The Basics](scc:mcdm.heroes.v1/chapter/the-basics)) is a fantasy world. It works on principles similar to those many people throughout history believed governed the real world. "I dunno, a god did it probably."
+[Orden](scc:mcdm.heroes.v1/rule.world/orden) (talked about in Chapter 1: [The Basics](scc:mcdm.heroes.v1/chapter/the-basics)) is a fantasy world. It works on principles similar to those many people throughout history believed governed the real world. "I dunno, a god did it probably."
 
 [Humans](scc:mcdm.heroes.v1/ancestry/human), elves, [orcs](scc:mcdm.heroes.v1/ancestry/orc), [dwarves](scc:mcdm.heroes.v1/ancestry/dwarf), dragons, all have creator gods—the Elder Gods, four of whom made the world for some reason. Maybe they were bored.
 
 The fashion among those gods for creating new, intelligent, species petered out after the [orcs](scc:mcdm.heroes.v1/ancestry/orc). Once [humans](scc:mcdm.heroes.v1/ancestry/human) came along and invented war, it stopped being fun.
 
-It may be all species were created by gods. That's certainly what a lot of people throughout our own history assumed. Orden has no Darwin and probably won't ever. There's still inheritance. People expect children to look like their parents, but there aren't evolutionary pressures except on a very local scale.
+It may be all species were created by gods. That's certainly what a lot of people throughout our own history assumed. [Orden](scc:mcdm.heroes.v1/rule.world/orden) has no Darwin and probably won't ever. There's still inheritance. People expect children to look like their parents, but there aren't evolutionary pressures except on a very local scale.
 
 And in a world where powerful, world-altering magics are available, mortals sometimes try to recreate the gods' efforts. Some succeed, and new intelligent, speaking peoples are born.
 
@@ -81,19 +81,19 @@ wondering when someone will invent a fabric that doesn't get moldy in the swamp.
 
 This also carries serious ethical repercussions! "You didn't create angulotls! You screwed up some perfectly good frogs! Look at them, you gave them anxiety!"
 
-This is only how it works on Orden. You may have completely different explanations for why there are several different intelligent species walking around in your world. Or no explanation! Or competing and irreconcilable theories on the matter! Use whatever inspires you.
+This is only how it works on [Orden](scc:mcdm.heroes.v1/rule.world/orden). You may have completely different explanations for why there are several different intelligent species walking around in your world. Or no explanation! Or competing and irreconcilable theories on the matter! Use whatever inspires you.
 
 At the end of the day, if you throw out all of this and replace it with something you made up, it will be better. Because it's *yours*!
 
 ### Names by Ancestry
 
-Obviously you're free to invent whatever name you want for your character! And your director might have their own setting that uses different cultures than those in Orden. But if you want to pick an Orden-appropriate name for your hero, keep reading.
+Obviously you're free to invent whatever name you want for your character! And your director might have their own setting that uses different cultures than those in [Orden](scc:mcdm.heroes.v1/rule.world/orden). But if you want to pick an [Orden](scc:mcdm.heroes.v1/rule.world/orden)-appropriate name for your hero, keep reading.
 
 Equally obviously; names are cultural, not biological. Your character probably has a name appropriate to whatever culture they were born into, or grew up in. A [human](scc:mcdm.heroes.v1/ancestry/human) raised by [hakaan](scc:mcdm.heroes.v1/ancestry/hakaan) would probably have a [hakaan](scc:mcdm.heroes.v1/ancestry/hakaan) name.
 
 #### Last Names and Bynames
 
-Most people living in Orden—and this is especially true of Vasloria live in villages. They do not have and do not use last names or family names. Everyone in the village knows who you mean when you refer to "William." Even if there's more than one William in the village, you can usually tell who someone's referring to from context. Sometimes folks prepend "our" to someone's name meaning: the one related to or otherwise concerned with me and my family. "Our William" for instance.
+Most people living in [Orden](scc:mcdm.heroes.v1/rule.world/orden)—and this is especially true of [Vasloria](scc:mcdm.heroes.v1/rule.world/vasloria) live in villages. They do not have and do not use last names or family names. Everyone in the village knows who you mean when you refer to "William." Even if there's more than one William in the village, you can usually tell who someone's referring to from context. Sometimes folks prepend "our" to someone's name meaning: the one related to or otherwise concerned with me and my family. "Our William" for instance.
 
 If that's not enough, folks use another identifier known as a byname. If there were two boys in the village named Much, one of them might be called Much the Miller's Son, to distinguish them from the other lad.
 
@@ -101,13 +101,13 @@ If you leave your village regularly, say to trade with others in a distant marke
 
 A byname might refer to your profession. Clyde the Cartwright is a perfectly normal byname. But no one you met would assume "Cartwright" was your 'family name.' People who live permanently in a very large city like Capital use family names, because almost no first name is sufficiently unique to identify you, and "Marissa the Cartwright's Daughter" quickly evolves into Marissa Cartwright.
 
-Most nobles in Orden also use the name of the area they rule as part of their name. When someone refers to Lord Edmund Bedegar everyone listening silently, without thinking about it, adds "of" between the name and the place. Edmund is both Edmund, and the Lord of Bedegar, and Edmund, Lord of Bedegar, and therefore sometimes Lord Edmund Bedegar. Even though "Bedegar" looks like a "last name" to us, and is being used in that manner sometimes, it's not exactly his last name. It's still just another kind of byname.
+Most nobles in [Orden](scc:mcdm.heroes.v1/rule.world/orden) also use the name of the area they rule as part of their name. When someone refers to Lord Edmund Bedegar everyone listening silently, without thinking about it, adds "of" between the name and the place. Edmund is both Edmund, and the Lord of Bedegar, and Edmund, Lord of Bedegar, and therefore sometimes Lord Edmund Bedegar. Even though "Bedegar" looks like a "last name" to us, and is being used in that manner sometimes, it's not exactly his last name. It's still just another kind of byname.
 
 Unlike remote villages, well settled areas where many towns and villages are all networked by roads often do use surnames to help differentiate one William from the other twenty within a densely populated area.
 
 #### Names and Gender
 
-Most cultures in Vasloria make a distinction between masculine and feminine names, though not all do. And for some cultures that make such a distinction, almost no one outside the culture can tell the difference.
+Most cultures in [Vasloria](scc:mcdm.heroes.v1/rule.world/vasloria) make a distinction between masculine and feminine names, though not all do. And for some cultures that make such a distinction, almost no one outside the culture can tell the difference.
 
 Among those cultures which do make a distinction between masculine and feminine names, there are always names that *could* refer to a person of any gender. Here in the real world, you can't tell a person's gender just from the name "Shane." This is mostly because which names are considered masculine or feminine changes over time, and when this happens, there's a period—maybe a few generations—where the name could refer to a person of any gender.
 
@@ -173,7 +173,7 @@ Elves in general have a casual attitude toward gender, it having no direct beari
 
 ##### Western Vasloria Human Names
 
-[Human](scc:mcdm.heroes.v1/ancestry/human) names vary widely by culture. The following examples are from Western Vasloria.
+[Human](scc:mcdm.heroes.v1/ancestry/human) names vary widely by culture. The following examples are from Western [Vasloria](scc:mcdm.heroes.v1/rule.world/vasloria).
 
 **Feminine:** Brenwyn, Demelza, Elzbeth, Gwynhyvyr, Maerwyn, Margaret, Meliora, Rowenna, Tamara, Wenna
 
@@ -199,7 +199,7 @@ Elves in general have a casual attitude toward gender, it having no direct beari
 
 ##### Polder Names
 
-For reasons not well understood, [polders](scc:mcdm.heroes.v1/ancestry/polder) in Vasloria use surnames. First names seem chosen to imply a degree of sophistication (or, at least, what [polders](scc:mcdm.heroes.v1/ancestry/polder) consider sophisticated) while last names are typically common, compound words. No one knows why they do this.
+For reasons not well understood, [polders](scc:mcdm.heroes.v1/ancestry/polder) in [Vasloria](scc:mcdm.heroes.v1/rule.world/vasloria) use surnames. First names seem chosen to imply a degree of sophistication (or, at least, what [polders](scc:mcdm.heroes.v1/ancestry/polder) consider sophisticated) while last names are typically common, compound words. No one knows why they do this.
 
 **Feminine:** Agatha, Amaryllis, Beverly, Esmerelda, Marceline, Modesty, Penelope, Rosemarie, Ursula, Weatherly
 
@@ -231,7 +231,7 @@ How tall is a [polder](scc:mcdm.heroes.v1/ancestry/polder)? How long does a [dwa
 
 [Revenants](scc:mcdm.heroes.v1/ancestry/revenant) aren't on the table, since their height and weight is based on their previous ancestry. Likewise, they live until destroyed or moving on after completing their unfinished business.
 
-[Humans](scc:mcdm.heroes.v1/ancestry/human) have the potential to live a little longer on Orden than they do in the real world thanks to the presence of magic.
+[Humans](scc:mcdm.heroes.v1/ancestry/human) have the potential to live a little longer on [Orden](scc:mcdm.heroes.v1/rule.world/orden) than they do in the real world thanks to the presence of magic.
 
 ###### Ancestry Measurements Table
 

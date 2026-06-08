@@ -2,7 +2,7 @@
 action_type: Triggered
 class: talent
 distance: Ranged 10
-effect: You can use this ability after seeing the result of the triggering roll. The target must reroll the power roll and use the new roll.
+effect: You can use this ability after seeing the result of the triggering roll. The target must reroll the [power roll](scc:mcdm.heroes.v1/rule.dice/power-roll) and use the new roll.
 flavor: You step back a split second to see if things play out a little differently.
 keywords:
     - Psionic
@@ -12,7 +12,7 @@ name: Again
 scc: mcdm.heroes.v1/feature.ability.talent.level-1/again
 subtype: triggered
 target: Self or one creature
-trigger: The target makes an ability roll.
+trigger: The target makes an [ability roll](scc:mcdm.heroes.v1/rule.dice/ability-roll).
 type: ability
 ---
 
@@ -23,6 +23,6 @@ type: ability
 |---------------------|----------------------------:|
 | **📏 Ranged 10**    | **🎯 Self or one creature** |
 
-**Trigger:** The target makes an ability roll.
+**Trigger:** The target makes an [ability roll](scc:mcdm.heroes.v1/rule.dice/ability-roll).
 
-**Effect:** You can use this ability after seeing the result of the triggering roll. The target must reroll the power roll and use the new roll.
+**Effect:** You can use this ability after seeing the result of the triggering roll. The target must reroll the [power roll](scc:mcdm.heroes.v1/rule.dice/power-roll) and use the new roll.

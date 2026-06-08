@@ -14,7 +14,7 @@ Choose one of the following abilities.
 
 ##### 2nd-Level Cryokinetic Ability
 
-Choose one of the following heroic abilities.
+Choose one of the following [heroic abilities](scc:mcdm.heroes.v1/rule.general/heroic-ability).
 
 ##### 2nd-Level Metakinetic Ability
 

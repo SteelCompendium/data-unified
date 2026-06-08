@@ -22,7 +22,7 @@ type: ability
 |---------------------------|--------------------------------------------:|
 | **📏 Melee 1**            | **🎯 One creature of your [size](scc:mcdm.heroes.v1/rule.character/size) or smaller** |
 
-**Power Roll + [Might](scc:mcdm.heroes.v1/rule.character/might):**
+**[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc:mcdm.heroes.v1/rule.character/might):**
 
 - **≤11:** 2 + M damage; M < WEAK, [grabbed](scc:mcdm.heroes.v1/condition/grabbed)
 - **12-16:** 5 + M damage; M < AVERAGE, [grabbed](scc:mcdm.heroes.v1/condition/grabbed)

@@ -6,7 +6,7 @@ scc: mcdm.heroes.v1/feature.shadow.level-6/6th-level-college-ability
 type: feature
 ---
 
-Your [shadow college](scc:mcdm.heroes.v1/feature.shadow.level-1/shadow-college) grants your choice of one of two heroic abilities.
+Your [shadow college](scc:mcdm.heroes.v1/feature.shadow.level-1/shadow-college) grants your choice of one of two [heroic abilities](scc:mcdm.heroes.v1/rule.general/heroic-ability).
 
 ##### 6th-Level Black Ash Abilities
 

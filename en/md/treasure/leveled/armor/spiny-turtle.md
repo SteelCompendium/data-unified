@@ -12,11 +12,11 @@ type: treasure
 
 **Keywords:** Heavy Armor, Magic
 
-**Item Prerequisite:** Ten steel gears from an ancient construct
+**[Item Prerequisite](scc:mcdm.heroes.v1/rule.downtime/item-prerequisite):** Ten steel gears from an ancient construct
 
-**Project Source:** Texts or lore in Variac
+**[Project Source](scc:mcdm.heroes.v1/rule.downtime/project-source):** Texts or lore in Variac
 
-**Project Roll [Characteristic](scc:mcdm.heroes.v1/rule.character/characteristic):** [Might](scc:mcdm.heroes.v1/rule.character/might), [Reason](scc:mcdm.heroes.v1/rule.character/reason), or [Intuition](scc:mcdm.heroes.v1/rule.character/intuition)
+**[Project Roll](scc:mcdm.heroes.v1/rule.downtime/project-roll) [Characteristic](scc:mcdm.heroes.v1/rule.character/characteristic):** [Might](scc:mcdm.heroes.v1/rule.character/might), [Reason](scc:mcdm.heroes.v1/rule.character/reason), or [Intuition](scc:mcdm.heroes.v1/rule.character/intuition)
 
 **Project Goal:** 450
 

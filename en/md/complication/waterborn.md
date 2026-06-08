@@ -1,5 +1,5 @@
 ---
-benefit: You can automatically swim at full speed while moving, and you can breathe underwater. Additionally, you have the following ability.
+benefit: You can automatically swim at full [speed](scc:mcdm.heroes.v1/rule.character/speed) while moving, and you can breathe underwater. Additionally, you have the following ability.
 drawback: You have lightning weakness 5. Additionally, the ocean or a creature it sends to seek you can assign you a quest. If you don't do the ocean's bidding, it might temporarily deny you this complication's benefits—including being able to breathe underwater—at an inconvenient time.
 name: Waterborn
 scc: mcdm.heroes.v1/complication/waterborn
@@ -8,7 +8,7 @@ type: complication
 
 You nearly lost your life at sea, but then you heard the voice. Someone—or something—in the water called out to you, telling you to swim. The ocean was suddenly no longer your doom but your parent, granting you a fragment of its power. But for what purpose, you can't be sure.
 
-**Benefit:** You can automatically swim at full speed while moving, and you can breathe underwater. Additionally, you have the following ability.
+**Benefit:** You can automatically swim at full [speed](scc:mcdm.heroes.v1/rule.character/speed) while moving, and you can breathe underwater. Additionally, you have the following ability.
 
 ##### Rogue Wave
 
@@ -19,7 +19,7 @@ You nearly lost your life at sea, but then you heard the voice. Someone—or som
 > |---------------------------| -----------------------------:|
 > | **📏 Ranged 10**          | **🎯 One creature or object** |
 >
-> **Power Roll + Your Highest [Characteristic](scc:mcdm.heroes.v1/rule.character/characteristic) Score:**
+> **[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + Your Highest [Characteristic](scc:mcdm.heroes.v1/rule.character/characteristic) Score:**
 >
 > - **≤11:** 2 damage; push or pull 1
 > - **12-16:** 5 damage; push or pull 2

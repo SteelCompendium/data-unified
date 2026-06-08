@@ -12,40 +12,40 @@ Armor imbued with an enhancement grants you special benefits while it is worn. A
 
 ###### 1st-Level Armor Enhancement
 
-**Item Prerequisite:** Varies
+**[Item Prerequisite](scc:mcdm.heroes.v1/rule.downtime/item-prerequisite):** Varies
 
-**Project Source:** Texts or lore in a language determined by the enhancement
+**[Project Source](scc:mcdm.heroes.v1/rule.downtime/project-source):** Texts or lore in a language determined by the enhancement
 
-**Project Roll [Characteristic](scc:mcdm.heroes.v1/rule.character/characteristic):** [Might](scc:mcdm.heroes.v1/rule.character/might), [Reason](scc:mcdm.heroes.v1/rule.character/reason), or [Intuition](scc:mcdm.heroes.v1/rule.character/intuition)
+**[Project Roll](scc:mcdm.heroes.v1/rule.downtime/project-roll) [Characteristic](scc:mcdm.heroes.v1/rule.character/characteristic):** [Might](scc:mcdm.heroes.v1/rule.character/might), [Reason](scc:mcdm.heroes.v1/rule.character/reason), or [Intuition](scc:mcdm.heroes.v1/rule.character/intuition)
 
 **Project Goal:** 150
 
-**Awe:** When you start this project, choose either Charming or Threatening. If you choose Charming, you gain an [edge](scc:mcdm.heroes.v1/rule.dice/edge) on [Presence](scc:mcdm.heroes.v1/rule.character/presence) tests made to win other creatures over or make a good impression. If you choose Threatening, you gain an [edge](scc:mcdm.heroes.v1/rule.dice/edge) on [Presence](scc:mcdm.heroes.v1/rule.character/presence) tests made to intimidate, coerce, or bully.
+**Awe:** When you start this project, choose either Charming or Threatening. If you choose Charming, you gain an [edge](scc:mcdm.heroes.v1/rule.dice/edge) on [Presence](scc:mcdm.heroes.v1/rule.character/presence) [tests](scc:mcdm.heroes.v1/rule.test/test) made to win other creatures over or make a good impression. If you choose Threatening, you gain an [edge](scc:mcdm.heroes.v1/rule.dice/edge) on [Presence](scc:mcdm.heroes.v1/rule.character/presence) [tests](scc:mcdm.heroes.v1/rule.test/test) made to intimidate, coerce, or bully.
 
 **[Damage Immunity](scc:mcdm.heroes.v1/rule.damage/damage-immunity) I:** When you start this project, select three [damage types](scc:mcdm.heroes.v1/rule.damage/damage-type). You have immunity 5 to those [damage types](scc:mcdm.heroes.v1/rule.damage/damage-type).
 
 **Disguise:** You can use a maneuver to cause this armor to take the form of any type of clothing that you have been in the presence of—a noble's dress, a guard's uniform, a cultist's robes, and so forth. The armor loses none of its protective qualities while transformed into other clothing.
 
-**Iridescent:** When you are the sole target of an ability, you can use a free triggered action to reveal that the ability was targeting an afterimage of you in the same space as you. The power roll for the ability is treated as an 11. You can't use this enhancement again until you earn 1 or more Victories.
+**Iridescent:** When you are the sole target of an ability, you can use a free [triggered action](scc:mcdm.heroes.v1/rule.combat/triggered-action) to reveal that the ability was targeting an afterimage of you in the same space as you. The [power roll](scc:mcdm.heroes.v1/rule.dice/power-roll) for the ability is treated as an 11. You can't use this enhancement again until you earn 1 or more [Victories](scc:mcdm.heroes.v1/rule.resource/victories).
 
-**Magic Resistance I:** Your [characteristic](scc:mcdm.heroes.v1/rule.character/characteristic) scores are treated as 1 higher (to a maximum of 2) for the purpose of resisting the potencies of magic abilities.
+**Magic Resistance I:** Your [characteristic](scc:mcdm.heroes.v1/rule.character/characteristic) scores are treated as 1 higher (to a maximum of 2) for the purpose of resisting the [potencies](scc:mcdm.heroes.v1/rule.character/potency) of magic abilities.
 
 **Nettlebloom:** Whenever you are [grabbed](scc:mcdm.heroes.v1/condition/grabbed) by an adjacent creature, your armor sprouts toxic nettles. While that creature has you [grabbed](scc:mcdm.heroes.v1/condition/grabbed), they are [weakened](scc:mcdm.heroes.v1/condition/weakened).
 
 **Phasing I:** Once per turn, you can move through 1 square of solid matter. If you end your turn inside solid matter, you are forced out into the space from which you entered it and you take 5 damage that can't be reduced in any way.
 
-**Psionic Resistance I:** Your [characteristic](scc:mcdm.heroes.v1/rule.character/characteristic) scores are treated as 1 higher (to a maximum of 2) for the purpose of resisting the potencies of psionic abilities.
+**Psionic Resistance I:** Your [characteristic](scc:mcdm.heroes.v1/rule.character/characteristic) scores are treated as 1 higher (to a maximum of 2) for the purpose of resisting the [potencies](scc:mcdm.heroes.v1/rule.character/potency) of psionic abilities.
 
-**Swift:** You gain a +1 bonus to speed.
+**Swift:** You gain a +1 bonus to [speed](scc:mcdm.heroes.v1/rule.character/speed).
 
 **Tempest I:** As a maneuver, you infuse this armor with the essence of a storm. The first time an adjacent creature deals damage to you before the end of your next turn, they take lightning damage equal to your highest [characteristic](scc:mcdm.heroes.v1/rule.character/characteristic) score and you can push them 1 square.
 
 ###### 1st-Level Armor Enhancements Table
 
-| Enhancement          | Item Prerequisite                                                                                | Project Source Language |
+| Enhancement          | [Item Prerequisite](scc:mcdm.heroes.v1/rule.downtime/item-prerequisite)                                                                                | [Project Source](scc:mcdm.heroes.v1/rule.downtime/project-source) Language |
 |----------------------|--------------------------------------------------------------------------------------------------|-------------------------|
 | Awe                  | A lock of hair from a fey, taken in amicable bargain for Charming or in violence for Threatening | Khelt                   |
-| [Damage Immunity](scc:mcdm.heroes.v1/rule.damage/damage-immunity) I    | Elemental sand left behind when an elemental enters Orden from Quintessence                      | Zaliac                  |
+| [Damage Immunity](scc:mcdm.heroes.v1/rule.damage/damage-immunity) I    | Elemental sand left behind when an elemental enters [Orden](scc:mcdm.heroes.v1/rule.world/orden) from Quintessence                      | Zaliac                  |
 | Disguise             | The blood of a lycanthrope                                                                       | Khelt                   |
 | Iridescent           | Fur from a lightbender                                                                           | Hyrallic                |
 | Magic Resistance I   | A scale from a dragon                                                                            | The First Language      |
@@ -57,23 +57,23 @@ Armor imbued with an enhancement grants you special benefits while it is worn. A
 
 ###### 5th-Level Armor Enhancement
 
-**Item Prerequisite:** Armor with a 1st-level enhancement; varies
+**[Item Prerequisite](scc:mcdm.heroes.v1/rule.downtime/item-prerequisite):** Armor with a 1st-level enhancement; varies
 
-**Project Source:** Texts or lore in a language determined by the enhancement
+**[Project Source](scc:mcdm.heroes.v1/rule.downtime/project-source):** Texts or lore in a language determined by the enhancement
 
-**Project Roll [Characteristic](scc:mcdm.heroes.v1/rule.character/characteristic):** [Might](scc:mcdm.heroes.v1/rule.character/might), [Reason](scc:mcdm.heroes.v1/rule.character/reason), or [Intuition](scc:mcdm.heroes.v1/rule.character/intuition)
+**[Project Roll](scc:mcdm.heroes.v1/rule.downtime/project-roll) [Characteristic](scc:mcdm.heroes.v1/rule.character/characteristic):** [Might](scc:mcdm.heroes.v1/rule.character/might), [Reason](scc:mcdm.heroes.v1/rule.character/reason), or [Intuition](scc:mcdm.heroes.v1/rule.character/intuition)
 
 **Project Goal:** 150
 
-**Absorption:** Whenever you are targeted by a magic or psionic ability that targets only one creature, you can use a free triggered action to cause this armor to absorb the ability after the ability's effects resolve. While the armor has an ability absorbed, you can't absorb another.
+**Absorption:** Whenever you are targeted by a magic or psionic ability that targets only one creature, you can use a free [triggered action](scc:mcdm.heroes.v1/rule.combat/triggered-action) to cause this armor to absorb the ability after the ability's effects resolve. While the armor has an ability absorbed, you can't absorb another.
 
-You can use an absorbed ability as if you knew it, making power rolls for the ability using your choice of [Reason](scc:mcdm.heroes.v1/rule.character/reason), [Intuition](scc:mcdm.heroes.v1/rule.character/intuition), or [Presence](scc:mcdm.heroes.v1/rule.character/presence). You don't need to spend any [Heroic Resource](scc:mcdm.heroes.v1/rule.resource/heroic-resource) to activate the ability. Once you use the ability, the armor loses it, and you can absorb another.
+You can use an absorbed ability as if you knew it, making [power rolls](scc:mcdm.heroes.v1/rule.dice/power-roll) for the ability using your choice of [Reason](scc:mcdm.heroes.v1/rule.character/reason), [Intuition](scc:mcdm.heroes.v1/rule.character/intuition), or [Presence](scc:mcdm.heroes.v1/rule.character/presence). You don't need to spend any [Heroic Resource](scc:mcdm.heroes.v1/rule.resource/heroic-resource) to activate the ability. Once you use the ability, the armor loses it, and you can absorb another.
 
 **[Damage Immunity](scc:mcdm.heroes.v1/rule.damage/damage-immunity) II:** The [damage immunity](scc:mcdm.heroes.v1/rule.damage/damage-immunity) conveyed by the armor increases to 10.
 
-**Dragon Soul:** When another creature causes you to be [winded](scc:mcdm.heroes.v1/rule.health/winded) or [dying](scc:mcdm.heroes.v1/rule.health/dying), you can use a free triggered action to cause the soul of a dragon to emerge from this armor and hurtle toward the creature. Make the following power roll against the creature.
+**Dragon Soul:** When another creature causes you to be [winded](scc:mcdm.heroes.v1/rule.health/winded) or [dying](scc:mcdm.heroes.v1/rule.health/dying), you can use a free [triggered action](scc:mcdm.heroes.v1/rule.combat/triggered-action) to cause the soul of a dragon to emerge from this armor and hurtle toward the creature. Make the following [power roll](scc:mcdm.heroes.v1/rule.dice/power-roll) against the creature.
 
-**Power Roll + Your Highest [Characteristic](scc:mcdm.heroes.v1/rule.character/characteristic) Score:**
+**[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + Your Highest [Characteristic](scc:mcdm.heroes.v1/rule.character/characteristic) Score:**
 
 - **≤11:** 8 damage; push 3
 - **12-16:** 12 damage; push 4
@@ -81,23 +81,23 @@ You can use an absorbed ability as if you knew it, making power rolls for the ab
 
 **Levitating:** On your turn, you can treat up to 5 consecutive squares of movement as [flying](scc:mcdm.heroes.v1/movement/fly) movement. If you are still in midair at the end of your turn, you [fall prone](scc:mcdm.heroes.v1/condition/prone).
 
-**Magic Resistance II:** Your [characteristic](scc:mcdm.heroes.v1/rule.character/characteristic) scores are treated as 2 higher (to a maximum of 3) for the purpose of resisting the potencies of magic abilities. This benefit replaces Magic Resistance I.
+**Magic Resistance II:** Your [characteristic](scc:mcdm.heroes.v1/rule.character/characteristic) scores are treated as 2 higher (to a maximum of 3) for the purpose of resisting the [potencies](scc:mcdm.heroes.v1/rule.character/potency) of magic abilities. This benefit replaces Magic Resistance I.
 
 **Phasing II:** When you use the armor's Phasing I enhancement, you can move through 3 squares of solid matter per turn.
 
-**Psionic Resistance II:** Your [characteristic](scc:mcdm.heroes.v1/rule.character/characteristic) scores are treated as 2 higher (to a maximum of 3) for the purpose of resisting the potencies of psionic abilities. This benefit replaces Psionic Resistance I.
+**Psionic Resistance II:** Your [characteristic](scc:mcdm.heroes.v1/rule.character/characteristic) scores are treated as 2 higher (to a maximum of 3) for the purpose of resisting the [potencies](scc:mcdm.heroes.v1/rule.character/potency) of psionic abilities. This benefit replaces Psionic Resistance I.
 
 **Reactive:** Whenever you take damage, you have [damage immunity](scc:mcdm.heroes.v1/rule.damage/damage-immunity) 2 until the end of your next turn after the triggering damage is resolved.
 
-**Second Wind:** Whenever you become [winded](scc:mcdm.heroes.v1/rule.health/winded), you can use a free triggered action to spend a [Recovery](scc:mcdm.heroes.v1/rule.health/recoveries).
+**Second Wind:** Whenever you become [winded](scc:mcdm.heroes.v1/rule.health/winded), you can use a free [triggered action](scc:mcdm.heroes.v1/rule.combat/triggered-action) to spend a [Recovery](scc:mcdm.heroes.v1/rule.health/recoveries).
 
-**Shattering:** Whenever an enemy scores a critical hit against you, they take 10 sonic damage.
+**Shattering:** Whenever an enemy scores a [critical hit](scc:mcdm.heroes.v1/rule.combat/critical-hit) against you, they take 10 sonic damage.
 
 **Tempest II:** When you use the armor's Tempest I enhancement, the affected creature takes 8 lightning damage and you push them up to 3 squares.
 
 ###### 5th-Level Armor Enhancements Table
 
-| Enhancement           | Item Prerequisite                                                                 | Project Source Language |
+| Enhancement           | [Item Prerequisite](scc:mcdm.heroes.v1/rule.downtime/item-prerequisite)                                                                 | [Project Source](scc:mcdm.heroes.v1/rule.downtime/project-source) Language |
 |-----------------------|-----------------------------------------------------------------------------------|-------------------------|
 | Absorption            | A mirror blessed by a priest of a god of magic                                    | The First Language      |
 | [Damage Immunity](scc:mcdm.heroes.v1/rule.damage/damage-immunity) II    | The essence of an elemental who is still alive                                    | Zaliac                  |
@@ -113,11 +113,11 @@ You can use an absorbed ability as if you knew it, making power rolls for the ab
 
 ###### 9th-Level Armor Enhancement
 
-**Item Prerequisite:** Armor with a 5th-level enhancement; varies
+**[Item Prerequisite](scc:mcdm.heroes.v1/rule.downtime/item-prerequisite):** Armor with a 5th-level enhancement; varies
 
-**Project Source:** Texts or lore in a language determined by the enhancement
+**[Project Source](scc:mcdm.heroes.v1/rule.downtime/project-source):** Texts or lore in a language determined by the enhancement
 
-**Project Roll [Characteristic](scc:mcdm.heroes.v1/rule.character/characteristic):** [Might](scc:mcdm.heroes.v1/rule.character/might), [Reason](scc:mcdm.heroes.v1/rule.character/reason), or [Intuition](scc:mcdm.heroes.v1/rule.character/intuition)
+**[Project Roll](scc:mcdm.heroes.v1/rule.downtime/project-roll) [Characteristic](scc:mcdm.heroes.v1/rule.character/characteristic):** [Might](scc:mcdm.heroes.v1/rule.character/might), [Reason](scc:mcdm.heroes.v1/rule.character/reason), or [Intuition](scc:mcdm.heroes.v1/rule.character/intuition)
 
 **Project Goal:** 150
 
@@ -127,7 +127,7 @@ You can use an absorbed ability as if you knew it, making power rolls for the ab
 
 ###### 9th-Level Armor Enhancements Table
 
-| Enhancement            | Item Prerequisite                                                                                    | Project Source Language |
+| Enhancement            | [Item Prerequisite](scc:mcdm.heroes.v1/rule.downtime/item-prerequisite)                                                                                    | [Project Source](scc:mcdm.heroes.v1/rule.downtime/project-source) Language |
 |------------------------|------------------------------------------------------------------------------------------------------|-------------------------|
 | Devil's Bargain        | The wing of an archdevil                                                                             | Anjali                  |
 | Dragon Soul II         | An offering of gems, coins, and art stolen from a dragon's hoard, sacrificed in ritual fire          | Vastariax               |

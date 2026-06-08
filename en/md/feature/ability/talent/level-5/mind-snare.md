@@ -24,7 +24,7 @@ type: ability
 |----------------------------------------|--------------------:|
 | **📏 Ranged 10**                       | **🎯 One creature** |
 
-**Power Roll + [Reason](scc:mcdm.heroes.v1/rule.character/reason):**
+**[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Reason](scc:mcdm.heroes.v1/rule.character/reason):**
 
 - **≤11:** 10 + R psychic damage; R < WEAK, [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
 - **12-16:** 14 + R psychic damage; R < AVERAGE, [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
@@ -32,4 +32,4 @@ type: ability
 
 **Effect:** While [slowed](scc:mcdm.heroes.v1/condition/slowed) this way, the target takes 3 psychic damage for each square they willingly leave.
 
-**Strained:** While [slowed](scc:mcdm.heroes.v1/condition/slowed) this way, the target instead takes 5 psychic damage for each square they willingly leave. You have a double [bane](scc:mcdm.heroes.v1/rule.dice/bane) on ability rolls made against the target while they are [slowed](scc:mcdm.heroes.v1/condition/slowed) this way.
+**Strained:** While [slowed](scc:mcdm.heroes.v1/condition/slowed) this way, the target instead takes 5 psychic damage for each square they willingly leave. You have a double [bane](scc:mcdm.heroes.v1/rule.dice/bane) on [ability rolls](scc:mcdm.heroes.v1/rule.dice/ability-roll) made against the target while they are [slowed](scc:mcdm.heroes.v1/condition/slowed) this way.

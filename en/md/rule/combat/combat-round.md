@@ -8,11 +8,11 @@ Combat takes place over a series of combat rounds. During a combat round, each c
 
 #### When Does Combat Start?
 
-Combat starts as soon as one creature intends to harm another, or when some environmental effect is in a position to deal damage to or impose other negative effects on one or more creatures. This means that even before the action happens, a hero can't use a heroic ability without spending their [Heroic Resource](scc:mcdm.heroes.v1/rule.resource/heroic-resource) on it, because combat has already begun!
+Combat starts as soon as one creature intends to harm another, or when some environmental effect is in a position to deal damage to or impose other negative effects on one or more creatures. This means that even before the action happens, a hero can't use a [heroic ability](scc:mcdm.heroes.v1/rule.general/heroic-ability) without spending their [Heroic Resource](scc:mcdm.heroes.v1/rule.resource/heroic-resource) on it, because combat has already begun!
 
 #### Determine Who Goes First
 
-Sometimes figuring out who gets to take the first turn in combat is automatic. If all the creatures on one side are surprised, then a creature on the other side gets to act first. But if both sides have creatures who aren't surprised, the Director or a player they choose rolls a d10. On a 6 or higher, the players determine who goes first—the heroes' side or the other side. Otherwise, the Director decides which side goes first.
+Sometimes figuring out who gets to take the first turn in combat is automatic. If all the creatures on one side are [surprised](scc:mcdm.heroes.v1/rule.combat/surprised), then a creature on the other side gets to act first. But if both sides have creatures who aren't [surprised](scc:mcdm.heroes.v1/rule.combat/surprised), the Director or a player they choose rolls a d10. On a 6 or higher, the players determine who goes first—the heroes' side or the other side. Otherwise, the Director decides which side goes first.
 
 #### Creatures Take Turns
 
@@ -34,7 +34,7 @@ If the players do end up arguing in circles about what to do next, the Director 
 
 > **Alternative Turn Order**
 >
-> If planning everyone's turn order isn't fun for your group, you can leave it to the dice instead. At the start of combat, have each hero, enemy, and group of enemies make an [Agility](scc:mcdm.heroes.v1/rule.character/agility) test, then record the totals. When it's time for someone on the heroes' side to act, the hero with the highest total goes first. On the next hero turn, the hero with the second-highest total takes their turn, and so on. The Director-controlled creatures act the same way. Creatures on the same side should reroll tied [Agility](scc:mcdm.heroes.v1/rule.character/agility) tests to determine who among the tied creatures acts before the others.
+> If planning everyone's turn order isn't fun for your group, you can leave it to the dice instead. At the start of combat, have each hero, enemy, and group of enemies make an [Agility](scc:mcdm.heroes.v1/rule.character/agility) [test](scc:mcdm.heroes.v1/rule.test/test), then record the totals. When it's time for someone on the heroes' side to act, the hero with the highest total goes first. On the next hero turn, the hero with the second-highest total takes their turn, and so on. The Director-controlled creatures act the same way. Creatures on the same side should reroll tied [Agility](scc:mcdm.heroes.v1/rule.character/agility) [tests](scc:mcdm.heroes.v1/rule.test/test) to determine who among the tied creatures acts before the others.
 >
 > At the Director's discretion, a hero can swap their turn in the order with another willing hero at the start of a new combat round. This allows certain abilities that interact with the core turn order system, such as the [shadow's](scc:mcdm.heroes.v1/class/shadow) [Hesitation Is Weakness](scc:mcdm.heroes.v1/feature.ability.shadow.level-1/hesitation-is-weakness) ability, to better work with this alternative system.
 

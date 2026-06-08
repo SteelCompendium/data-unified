@@ -3,7 +3,7 @@ action_type: Maneuver
 class: talent
 cost: 9 Clarity
 distance: Ranged 10
-effect: You target a number of creatures with this ability determined by the outcome of your power roll. You and your allies are invisible to each target until the start of your next turn.
+effect: You target a number of creatures with this ability determined by the outcome of your [power roll](scc:mcdm.heroes.v1/rule.dice/power-roll). You and your allies are invisible to each target until the start of your next turn.
 flavor: You manipulate your enemies' minds and make them wonder if you were ever really there in the first place.
 keywords:
     - Psionic
@@ -24,9 +24,9 @@ type: ability
 |----------------------------------------|---------------:|
 | **📏 Ranged 10**                       | **🎯 Special** |
 
-**Effect:** You target a number of creatures with this ability determined by the outcome of your power roll. You and your allies are invisible to each target until the start of your next turn.
+**Effect:** You target a number of creatures with this ability determined by the outcome of your [power roll](scc:mcdm.heroes.v1/rule.dice/power-roll). You and your allies are invisible to each target until the start of your next turn.
 
-**Power Roll + [Reason](scc:mcdm.heroes.v1/rule.character/reason):**
+**[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Reason](scc:mcdm.heroes.v1/rule.character/reason):**
 
 - **≤11:** Two creatures
 - **12-16:** Three creatures

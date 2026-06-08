@@ -5,7 +5,7 @@ signature_trait_name: Shadowmeld
 type: ancestry
 ---
 
-After [humans](scc:mcdm.heroes.v1/ancestry/human), [polders](scc:mcdm.heroes.v1/ancestry/polder) are the most numerous and diverse ancestry in Orden. They are not [humans](scc:mcdm.heroes.v1/ancestry/human), but they live in and among [humans](scc:mcdm.heroes.v1/ancestry/human) and share their gods and culture. Almost every [human](scc:mcdm.heroes.v1/ancestry/human) culture in Orden has a [polder](scc:mcdm.heroes.v1/ancestry/polder) saint or a [human](scc:mcdm.heroes.v1/ancestry/human) saint venerated by [polder](scc:mcdm.heroes.v1/ancestry/polder).
+After [humans](scc:mcdm.heroes.v1/ancestry/human), [polders](scc:mcdm.heroes.v1/ancestry/polder) are the most numerous and diverse ancestry in [Orden](scc:mcdm.heroes.v1/rule.world/orden). They are not [humans](scc:mcdm.heroes.v1/ancestry/human), but they live in and among [humans](scc:mcdm.heroes.v1/ancestry/human) and share their gods and culture. Almost every [human](scc:mcdm.heroes.v1/ancestry/human) culture in [Orden](scc:mcdm.heroes.v1/rule.world/orden) has a [polder](scc:mcdm.heroes.v1/ancestry/polder) saint or a [human](scc:mcdm.heroes.v1/ancestry/human) saint venerated by [polder](scc:mcdm.heroes.v1/ancestry/polder).
 
 Short, averaging 31/2 feet tall, the [polders](scc:mcdm.heroes.v1/ancestry/polder)' origins are obscure. They are a young species who, like [humans](scc:mcdm.heroes.v1/ancestry/human), have no single patron god. Their ability to *shadowmeld* means they enjoy a reputation as excellent spies and thieves. Many [polders](scc:mcdm.heroes.v1/ancestry/polder) consider this a base slander and point out they're also famed as chefs, though [polders](scc:mcdm.heroes.v1/ancestry/polder) can be found in every profession, especially in cities.
 
@@ -65,7 +65,7 @@ He looked at his drink, at the expensive clear glass the innkeep had given him b
 
 John took a deep breath and came back to reality. "Well. If we could be picky, we wouldn't need a hero," he said.
 
-The [polder](scc:mcdm.heroes.v1/ancestry/polder) looked at the [high elf](scc:mcdm.heroes.v1/ancestry/high-elf) and nodded, impressed. Test passed. "Okay. Well, if you've already got a candidate, I could get things started. The other half is: We need a good story—short, punchy. Something that'll catch on, needs to be easy to relate to, but bigger than life. A tax. A toll! Bridge toll, classic. An ogre... no, three ogres. Yeah, three is better. Three ogres in Ajax's livery. A lone figure standing against them. See? Easy."
+The [polder](scc:mcdm.heroes.v1/ancestry/polder) looked at the [high elf](scc:mcdm.heroes.v1/ancestry/high-elf) and nodded, impressed. [Test](scc:mcdm.heroes.v1/rule.test/test) passed. "Okay. Well, if you've already got a candidate, I could get things started. The other half is: We need a good story—short, punchy. Something that'll catch on, needs to be easy to relate to, but bigger than life. A tax. A toll! Bridge toll, classic. An ogre... no, three ogres. Yeah, three is better. Three ogres in Ajax's livery. A lone figure standing against them. See? Easy."
 
 "Where are we going to find three ogres?" John asked.
 

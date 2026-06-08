@@ -1,7 +1,6 @@
 ---
 name: Performer
 perk: One interpersonal perk (*Quick Build:* [Harmonizer](scc:mcdm.heroes.v1/perk/harmonizer).)
-renown: "+2"
 scc: mcdm.heroes.v1/career/performer
 skills:
     - The [Music](scc:mcdm.heroes.v1/skill/music) or [Perform](scc:mcdm.heroes.v1/skill/perform) skill (from the interpersonal skill group), plus two more skills from the interpersonal group (*Quick Build:* [Flirt](scc:mcdm.heroes.v1/skill/flirt), [Music](scc:mcdm.heroes.v1/skill/music), [Perform](scc:mcdm.heroes.v1/skill/perform).)
@@ -19,7 +18,7 @@ You gain the following career benefits:
 
 **Skills:** The [Music](scc:mcdm.heroes.v1/skill/music) or [Perform](scc:mcdm.heroes.v1/skill/perform) skill (from the interpersonal skill group), plus two more skills from the interpersonal group (*Quick Build:* [Flirt](scc:mcdm.heroes.v1/skill/flirt), [Music](scc:mcdm.heroes.v1/skill/music), [Perform](scc:mcdm.heroes.v1/skill/perform).)
 
-**Renown:** +2
+**[Renown](scc:mcdm.heroes.v1/rule.resource/renown):** +2
 
 **Perk:** One interpersonal perk (*Quick Build:* [Harmonizer](scc:mcdm.heroes.v1/perk/harmonizer).)
 

@@ -11,9 +11,9 @@ Hell is dominated by the Seven Cities of Hell, each ruled by a different archdev
 
 Those [devils](scc:mcdm.heroes.v1/ancestry/devil) who join "the trade," as their civil service is called, spend their days in bureaucratic service hoping or scheming for promotion. [Devils](scc:mcdm.heroes.v1/ancestry/devil) looking for a quick path up the bureaucratic ladder sign up for the Exchange, whereby mortals in the mundane world who perform the right rituals can summon a [devil](scc:mcdm.heroes.v1/ancestry/devil), who bargains with the supplicant on behalf of their archdevil. Archdevils can grant temporary worldly power in exchange for a supplicant's soul, with the summoned [devil](scc:mcdm.heroes.v1/ancestry/devil) acting as the broker.
 
-On rare occasions, though, the summoning goes wrong and the supplicant dies before the deal can be struck, stranding the summoned [devil](scc:mcdm.heroes.v1/ancestry/devil) on Orden permanently. Some stranded [devils](scc:mcdm.heroes.v1/ancestry/devil) seek to return to Hell, but most prefer life in Orden, where the phrase "stabbed in the back by a colleague" is usually a metaphor.
+On rare occasions, though, the summoning goes wrong and the supplicant dies before the deal can be struck, stranding the summoned [devil](scc:mcdm.heroes.v1/ancestry/devil) on [Orden](scc:mcdm.heroes.v1/rule.world/orden) permanently. Some stranded [devils](scc:mcdm.heroes.v1/ancestry/devil) seek to return to Hell, but most prefer life in [Orden](scc:mcdm.heroes.v1/rule.world/orden), where the phrase "stabbed in the back by a colleague" is usually a metaphor.
 
-The majority of [devils](scc:mcdm.heroes.v1/ancestry/devil) in Orden are not from, nor have ever been to, the Seven Cities. They are descendants of [devils](scc:mcdm.heroes.v1/ancestry/devil) who were stranded in the mundane world decades, centuries, even millennia ago.
+The majority of [devils](scc:mcdm.heroes.v1/ancestry/devil) in [Orden](scc:mcdm.heroes.v1/rule.world/orden) are not from, nor have ever been to, the Seven Cities. They are descendants of [devils](scc:mcdm.heroes.v1/ancestry/devil) who were stranded in the mundane world decades, centuries, even millennia ago.
 
 ### On Devils
 

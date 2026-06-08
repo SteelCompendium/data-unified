@@ -13,11 +13,11 @@ type: treasure
 
 **Keywords:** Psionic
 
-**Item Prerequisite:** The finger bone of a creature with telepathy, three black opals
+**[Item Prerequisite](scc:mcdm.heroes.v1/rule.downtime/item-prerequisite):** The finger bone of a creature with telepathy, three black opals
 
-**Project Source:** Texts or lore in Ullorvic
+**[Project Source](scc:mcdm.heroes.v1/rule.downtime/project-source):** Texts or lore in Ullorvic
 
-**Project Roll [Characteristic](scc:mcdm.heroes.v1/rule.character/characteristic):** [Reason](scc:mcdm.heroes.v1/rule.character/reason) or [Intuition](scc:mcdm.heroes.v1/rule.character/intuition)
+**[Project Roll](scc:mcdm.heroes.v1/rule.downtime/project-roll) [Characteristic](scc:mcdm.heroes.v1/rule.character/characteristic):** [Reason](scc:mcdm.heroes.v1/rule.character/reason) or [Intuition](scc:mcdm.heroes.v1/rule.character/intuition)
 
 **Project Goal:** 300
 

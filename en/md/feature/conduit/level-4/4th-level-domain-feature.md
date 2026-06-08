@@ -45,31 +45,31 @@ When you use your [Hands of the Maker](scc:mcdm.heroes.v1/feature.ability.censor
 
 ###### Improved Sanctified Weapon
 
-The weapon improved by your [Sanctified Weapon](scc:mcdm.heroes.v1/feature.censor.level-1/sanctified-weapon) feature grants a +3 bonus to rolled damage instead of +1.
+The weapon improved by your [Sanctified Weapon](scc:mcdm.heroes.v1/feature.censor.level-1/sanctified-weapon) feature grants a +3 bonus to [rolled damage](scc:mcdm.heroes.v1/rule.damage/rolled-damage) instead of +1.
 
 ###### Invocation of the Heart
 
-As a main action, you forge a bond of love and friendship with a willing creature you touch. While this bond is active, you can telepathically speak with the creature over any [distance](scc:mcdm.heroes.v1/rule.combat/distance), including across different worlds. Additionally, while this bond is active, you can attempt to assist the creature with any test they make regardless of their proximity to you. You can maintain only one bond at a time, and you can end a bond at any time (no action required).
+As a main action, you forge a bond of love and friendship with a willing creature you touch. While this bond is active, you can telepathically speak with the creature over any [distance](scc:mcdm.heroes.v1/rule.combat/distance), including across different worlds. Additionally, while this bond is active, you can attempt to assist the creature with any [test](scc:mcdm.heroes.v1/rule.test/test) they make regardless of their proximity to you. You can maintain only one bond at a time, and you can end a bond at any time (no action required).
 
 ###### Light of Revelation
 
-As a maneuver, you make your body shine brightly, illuminating your space and each square within 5 squares. This light shines through any darkness. Hidden creatures in the area are automatically revealed, and creatures in the light, including you, can't hide. While this feature is active, you gain an [edge](scc:mcdm.heroes.v1/rule.dice/edge) on tests made to notice hidden objects and entrances and to detect supernatural illusions.
+As a maneuver, you make your body shine brightly, illuminating your space and each square within 5 squares. This light shines through any darkness. Hidden creatures in the area are automatically revealed, and creatures in the light, including you, can't hide. While this feature is active, you gain an [edge](scc:mcdm.heroes.v1/rule.dice/edge) on [tests](scc:mcdm.heroes.v1/rule.test/test) made to notice hidden objects and entrances and to detect supernatural illusions.
 
 ###### Oracular Warning
 
-Each time you finish a respite, you can share the vague dreams of the future granted to you by the gods with allies who finished the respite with you. These premonitions help you and your allies stay alive, granting each of you [temporary Stamina](scc:mcdm.heroes.v1/rule.health/temporary-stamina) equal to 10 + your level that lasts until you finish a respite.
+Each time you finish a [respite](scc:mcdm.heroes.v1/rule.resource/respite), you can share the vague dreams of the future granted to you by the gods with allies who finished the [respite](scc:mcdm.heroes.v1/rule.resource/respite) with you. These premonitions help you and your allies stay alive, granting each of you [temporary Stamina](scc:mcdm.heroes.v1/rule.health/temporary-stamina) equal to 10 + your level that lasts until you finish a [respite](scc:mcdm.heroes.v1/rule.resource/respite).
 
 ###### Seance
 
-You can commune with a network of spirits. As a respite activity, you speak the name of a creature who died and isn't undead. If the creature's spirit is free and willing to speak with you, they appear and you can have a conversation with them. During this time, the creature responds to you as they would have in life. If the creature isn't free or willing to appear, you can speak another name or choose another respite activity.
+You can commune with a network of spirits. As a [respite](scc:mcdm.heroes.v1/rule.resource/respite) activity, you speak the name of a creature who died and isn't undead. If the creature's spirit is free and willing to speak with you, they appear and you can have a conversation with them. During this time, the creature responds to you as they would have in life. If the creature isn't free or willing to appear, you can speak another name or choose another [respite](scc:mcdm.heroes.v1/rule.resource/respite) activity.
 
 ###### Saint's Epiphany
 
-At the start of a respite, you can inspire yourself or another creature taking the same respite with divine knowledge. If the target makes a project roll during this respite, they can add 1d10 plus your [Intuition](scc:mcdm.heroes.v1/rule.character/intuition) score to the roll.
+At the start of a [respite](scc:mcdm.heroes.v1/rule.resource/respite), you can inspire yourself or another creature taking the same [respite](scc:mcdm.heroes.v1/rule.resource/respite) with divine knowledge. If the target makes a [project roll](scc:mcdm.heroes.v1/rule.downtime/project-roll) during this [respite](scc:mcdm.heroes.v1/rule.resource/respite), they can add 1d10 plus your [Intuition](scc:mcdm.heroes.v1/rule.character/intuition) score to the roll.
 
 ###### Windwalk
 
-While you have 5 or more Victories, you can [fly](scc:mcdm.heroes.v1/movement/fly). If you can already [fly](scc:mcdm.heroes.v1/movement/fly), you have a +2 bonus to speed while [flying](scc:mcdm.heroes.v1/movement/fly) instead.
+While you have 5 or more [Victories](scc:mcdm.heroes.v1/rule.resource/victories), you can [fly](scc:mcdm.heroes.v1/movement/fly). If you can already [fly](scc:mcdm.heroes.v1/movement/fly), you have a +2 bonus to [speed](scc:mcdm.heroes.v1/rule.character/speed) while [flying](scc:mcdm.heroes.v1/movement/fly) instead.
 
 ###### Wode Road
 

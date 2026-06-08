@@ -2,7 +2,7 @@
 action_type: Main action
 class: elementalist
 cost: 5 Essence
-distance: 3 cube within 10
+distance: 3 [cube](scc:mcdm.heroes.v1/rule.combat/cube) within 10
 flavor: A storm of fire descends upon your enemies.
 keywords:
     - Area
@@ -21,9 +21,9 @@ type: ability
 
 | **Area, Fire, Magic, Ranged** |               **Main action** |
 |-------------------------------|------------------------------:|
-| **📏 3 cube within 10**       | **🎯 Each enemy in the area** |
+| **📏 3 [cube](scc:mcdm.heroes.v1/rule.combat/cube) within 10**       | **🎯 Each enemy in the area** |
 
-**Power Roll + [Reason](scc:mcdm.heroes.v1/rule.character/reason):**
+**[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Reason](scc:mcdm.heroes.v1/rule.character/reason):**
 
 - **≤11:** 4 fire damage
 - **12-16:** 6 fire damage

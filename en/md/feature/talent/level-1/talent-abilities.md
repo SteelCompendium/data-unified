@@ -10,16 +10,16 @@ You manifest a variety of psionic powers that let you impact the environment, bo
 
 ##### Signature Abilities
 
-Choose two signature abilities from the following options. Signature abilities can be used at will. (*Quick Build:* [Incinerate](scc:mcdm.heroes.v1/feature.ability.talent.level-1/incinerate), [Kinetic Grip](scc:mcdm.heroes.v1/feature.ability.talent.level-1/kinetic-grip).)
+Choose two [signature abilities](scc:mcdm.heroes.v1/rule.combat/signature-ability) from the following options. [Signature abilities](scc:mcdm.heroes.v1/rule.combat/signature-ability) can be used at will. (*Quick Build:* [Incinerate](scc:mcdm.heroes.v1/feature.ability.talent.level-1/incinerate), [Kinetic Grip](scc:mcdm.heroes.v1/feature.ability.talent.level-1/kinetic-grip).)
 
 ##### Heroic Abilities
 
-You know a range of heroic abilities, all of which cost clarity to fuel them.
+You know a range of [heroic abilities](scc:mcdm.heroes.v1/rule.general/heroic-ability), all of which cost clarity to fuel them.
 
 ###### 3-Clarity Ability
 
-Choose one heroic ability from the following options, each of which costs 3 clarity to use. (*Quick Build:* [Choke](scc:mcdm.heroes.v1/feature.ability.talent.level-1/choke).)
+Choose one [heroic ability](scc:mcdm.heroes.v1/rule.general/heroic-ability) from the following options, each of which costs 3 clarity to use. (*Quick Build:* [Choke](scc:mcdm.heroes.v1/feature.ability.talent.level-1/choke).)
 
 ###### 5-Clarity Ability
 
-Choose one heroic ability from the following options, each of which costs 5 clarity to use. (*Quick Build:* [Inertia Soak](scc:mcdm.heroes.v1/feature.ability.talent.level-1/inertia-soak).)
+Choose one [heroic ability](scc:mcdm.heroes.v1/rule.general/heroic-ability) from the following options, each of which costs 5 clarity to use. (*Quick Build:* [Inertia Soak](scc:mcdm.heroes.v1/feature.ability.talent.level-1/inertia-soak).)

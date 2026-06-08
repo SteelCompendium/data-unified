@@ -2,7 +2,7 @@
 action_type: Main action
 class: elementalist
 cost: 9 Essence
-distance: 4 cube within 10
+distance: 4 [cube](scc:mcdm.heroes.v1/rule.combat/cube) within 10
 effect: The area is [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain) until the start of your next turn. Each enemy who ends their turn in the area is [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends).
 flavor: Threads you've been weaving through your adventures create a vibrant, pearlescent web.
 keywords:
@@ -22,9 +22,9 @@ type: ability
 
 | **Area, Green, Magic, Ranged** |               **Main action** |
 |--------------------------------|------------------------------:|
-| **📏 4 cube within 10**        | **🎯 Each enemy in the area** |
+| **📏 4 [cube](scc:mcdm.heroes.v1/rule.combat/cube) within 10**        | **🎯 Each enemy in the area** |
 
-**Power Roll + [Reason](scc:mcdm.heroes.v1/rule.character/reason):**
+**[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Reason](scc:mcdm.heroes.v1/rule.character/reason):**
 
 - **≤11:** 2 corruption damage; A < WEAK, [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)
 - **12-16:** 3 corruption damage; A < AVERAGE, [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)

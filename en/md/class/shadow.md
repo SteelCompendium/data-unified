@@ -1,12 +1,9 @@
 ---
-average_potency: '[Agility](scc:mcdm.heroes.v1/rule.character/agility) − 1'
 name: Shadow
 scc: mcdm.heroes.v1/class/shadow
 skills:
     - 'You gain the Hide and Sneak skills (see Skills in Chapter 9: [Tests](scc:mcdm.heroes.v1/chapter/tests)). Then choose any five skills from Criminal Underworld or the skills of the exploration, interpersonal, or intrigue skill groups. (*Quick Build:*  Criminal Underworld, Hide, Lie, Pick Lock, Pick Pocket, Sabotage, Sneak.)'
-strong_potency: '[Agility](scc:mcdm.heroes.v1/rule.character/agility)'
 type: class
-weak_potency: '[Agility](scc:mcdm.heroes.v1/rule.character/agility) − 2'
 ---
 
 Subtlety is your art, the tip of the blade your brush. You studied at a secret college, specializing in alchemy, illusion, or [shadow](scc:mcdm.heroes.v1/class/shadow)-magics. Your training and knowledge place you among the elite ranks of assassins, spies, and commandos. But more potent than any weapon or sorcery is your insight into your enemies' weaknesses.
@@ -24,11 +21,11 @@ Subtlety is your art, the tip of the blade your brush. You studied at a secret c
 - 2, 1, 0, 0
 - 1, 1, 1, 0
 
-**Weak Potency:** [Agility](scc:mcdm.heroes.v1/rule.character/agility) − 2
+**Weak [Potency](scc:mcdm.heroes.v1/rule.character/potency):** [Agility](scc:mcdm.heroes.v1/rule.character/agility) − 2
 
-**Average Potency:** [Agility](scc:mcdm.heroes.v1/rule.character/agility) − 1
+**Average [Potency](scc:mcdm.heroes.v1/rule.character/potency):** [Agility](scc:mcdm.heroes.v1/rule.character/agility) − 1
 
-**Strong Potency:** [Agility](scc:mcdm.heroes.v1/rule.character/agility)
+**Strong [Potency](scc:mcdm.heroes.v1/rule.character/potency):** [Agility](scc:mcdm.heroes.v1/rule.character/agility)
 
 **Starting [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) at 1st Level:** 18
 

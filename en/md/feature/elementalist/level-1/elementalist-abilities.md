@@ -10,16 +10,16 @@ Your understanding of elemental magic grants you unique abilities, letting you d
 
 ##### Signature Abilities
 
-Choose two signature abilities from the following options. Signature abilities can be used at will. (*Quick Build:* [Bifurcated Incineration](scc:mcdm.heroes.v1/feature.ability.elementalist.level-1/bifurcated-incineration), [Viscous Fire](scc:mcdm.heroes.v1/feature.ability.elementalist.level-1/viscous-fire).)
+Choose two [signature abilities](scc:mcdm.heroes.v1/rule.combat/signature-ability) from the following options. [Signature abilities](scc:mcdm.heroes.v1/rule.combat/signature-ability) can be used at will. (*Quick Build:* [Bifurcated Incineration](scc:mcdm.heroes.v1/feature.ability.elementalist.level-1/bifurcated-incineration), [Viscous Fire](scc:mcdm.heroes.v1/feature.ability.elementalist.level-1/viscous-fire).)
 
 ##### Heroic Abilities
 
-You channel a variety of heroic abilities, all of them fueled by your essence.
+You channel a variety of [heroic abilities](scc:mcdm.heroes.v1/rule.general/heroic-ability), all of them fueled by your essence.
 
 ###### 3-Essence Ability
 
-Choose one heroic ability from the following options, each of which costs 3 essence to use. (*Quick Build:* The Flesh, a Crucible.)
+Choose one [heroic ability](scc:mcdm.heroes.v1/rule.general/heroic-ability) from the following options, each of which costs 3 essence to use. (*Quick Build:* The Flesh, a Crucible.)
 
 ###### 5-Essence Ability
 
-Choose one heroic ability from the following options, each of which costs 5 essence to use. (*Quick Build:* [Conflagration](scc:mcdm.heroes.v1/feature.ability.elementalist.level-1/conflagration).)
+Choose one [heroic ability](scc:mcdm.heroes.v1/rule.general/heroic-ability) from the following options, each of which costs 5 essence to use. (*Quick Build:* [Conflagration](scc:mcdm.heroes.v1/feature.ability.elementalist.level-1/conflagration).)

@@ -2,7 +2,7 @@
 action_type: Main action
 class: fury
 cost: 11 Ferocity
-distance: 5 cube within 10
+distance: 5 [cube](scc:mcdm.heroes.v1/rule.combat/cube) within 10
 effect: This ability deals your primordial [damage type](scc:mcdm.heroes.v1/rule.damage/damage-type) and ignores [damage immunity](scc:mcdm.heroes.v1/rule.damage/damage-immunity).
 flavor: You summon your [primordial storm](scc:mcdm.heroes.v1/feature.fury.stormwight-kits/primordial-storm).
 keywords:
@@ -21,9 +21,9 @@ type: ability
 
 | **Area, Magic, Ranged** |               **Main action** |
 |-------------------------|------------------------------:|
-| **📏 5 cube within 10** | **🎯 Each enemy in the area** |
+| **📏 5 [cube](scc:mcdm.heroes.v1/rule.combat/cube) within 10** | **🎯 Each enemy in the area** |
 
-**Power Roll + [Might](scc:mcdm.heroes.v1/rule.character/might):**
+**[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc:mcdm.heroes.v1/rule.character/might):**
 
 - **≤11:** 7 damage
 - **12-16:** 10 damage

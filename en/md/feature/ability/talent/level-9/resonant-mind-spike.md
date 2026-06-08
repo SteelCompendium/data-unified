@@ -24,7 +24,7 @@ type: ability
 | ------------------------------------|--------------------:|
 | **📏 Ranged 10**  | **🎯 One creature** |
 
-**Power Roll + [Reason](scc:mcdm.heroes.v1/rule.character/reason):**
+**[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Reason](scc:mcdm.heroes.v1/rule.character/reason):**
 
 - **≤11:** 15 + R psychic damage
 - **12-16:** 24 + R psychic damage
@@ -32,4 +32,4 @@ type: ability
 
 **Effect:** This ability ignores [cover](scc:mcdm.heroes.v1/rule.combat/cover) and [concealment](scc:mcdm.heroes.v1/rule.combat/concealment).
 
-**Strained:** The ability roll scores a critical hit on a natural 17 or higher. You take half the damage the target takes, and you can't reduce this damage in any way.
+**Strained:** The [ability roll](scc:mcdm.heroes.v1/rule.dice/ability-roll) scores a [critical hit](scc:mcdm.heroes.v1/rule.combat/critical-hit) on a natural 17 or higher. You take half the damage the target takes, and you can't reduce this damage in any way.

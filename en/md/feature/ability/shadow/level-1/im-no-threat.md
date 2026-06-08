@@ -9,7 +9,7 @@ keywords:
 level: "1"
 name: I'm No Threat
 scc: mcdm.heroes.v1/feature.ability.shadow.level-1/im-no-threat
-spend: '1 Insight: Choose a creature whose [size](scc:mcdm.heroes.v1/rule.character/size) is no more than 1 greater than yours and who is within 10 squares. This ability''s illusion makes you appear as that creature. This illusion covers your entire body, including clothing and armor, and alters your voice to sound like that of the creature. You gain an [edge](scc:mcdm.heroes.v1/rule.dice/edge) on tests made to convince the creature''s allies that you are the creature.'
+spend: '1 Insight: Choose a creature whose [size](scc:mcdm.heroes.v1/rule.character/size) is no more than 1 greater than yours and who is within 10 squares. This ability''s illusion makes you appear as that creature. This illusion covers your entire body, including clothing and armor, and alters your voice to sound like that of the creature. You gain an [edge](scc:mcdm.heroes.v1/rule.dice/edge) on [tests](scc:mcdm.heroes.v1/rule.test/test) made to convince the creature''s allies that you are the creature.'
 target: Self
 type: ability
 ---
@@ -25,4 +25,4 @@ type: ability
 
 The illusion ends when you harm another creature, when you physically interact with a creature, when you use this ability again, or when you end the illusion (no action required). If you end this illusion by harming another creature, you gain 1 [surge](scc:mcdm.heroes.v1/rule.resource/surge).
 
-**Spend 1 Insight:** Choose a creature whose [size](scc:mcdm.heroes.v1/rule.character/size) is no more than 1 greater than yours and who is within 10 squares. This ability's illusion makes you appear as that creature. This illusion covers your entire body, including clothing and armor, and alters your voice to sound like that of the creature. You gain an [edge](scc:mcdm.heroes.v1/rule.dice/edge) on tests made to convince the creature's allies that you are the creature.
+**Spend 1 Insight:** Choose a creature whose [size](scc:mcdm.heroes.v1/rule.character/size) is no more than 1 greater than yours and who is within 10 squares. This ability's illusion makes you appear as that creature. This illusion covers your entire body, including clothing and armor, and alters your voice to sound like that of the creature. You gain an [edge](scc:mcdm.heroes.v1/rule.dice/edge) on [tests](scc:mcdm.heroes.v1/rule.test/test) made to convince the creature's allies that you are the creature.

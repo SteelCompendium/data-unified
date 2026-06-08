@@ -1,15 +1,12 @@
 ---
-average_potency: '[Reason](scc:mcdm.heroes.v1/rule.character/reason) − 1'
 name: Tactician
 scc: mcdm.heroes.v1/class/tactician
 skills:
     - 'You gain the [Lead](scc:mcdm.heroes.v1/skill/lead) skill (see Skills in Chapter 9: [Tests](scc:mcdm.heroes.v1/chapter/tests)). Then choose any two skills from Alertness, Architecture, Blacksmithing, Brag, Culture, Empathize, Fletching, Mechanics, Monsters, Search, Strategy, or the skills of the exploration skill group. (*Quick Build:* Lead, Monsters, Strategy.)'
-strong_potency: '[Reason](scc:mcdm.heroes.v1/rule.character/reason)'
 type: class
-weak_potency: '[Reason](scc:mcdm.heroes.v1/rule.character/reason) − 2'
 ---
 
-Strategist. Defender. Leader. With weapon in hand, you lead allies into the maw of battle, barking out commands that inspire your fellow heroes to move faster and strike more precisely. All the while, you stand between your compatriots and death, taunting the followers of evil to best you if they can.
+Strategist. Defender. Leader. With weapon in hand, you lead allies into the maw of battle, barking out commands that inspire your fellow heroes to move faster and strike more precisely. All the while, you stand between your compatriots and death, taunting the [followers](scc:mcdm.heroes.v1/rule.general/follower) of evil to best you if they can.
 
 **As a [tactician](scc:mcdm.heroes.v1/class/tactician), you have abilities that heal your allies and grant them increased damage, movement, and attacks, even as you leave your enemies struggling to respond.**
 
@@ -25,11 +22,11 @@ Strategist. Defender. Leader. With weapon in hand, you lead allies into the maw 
 - 1, 1, −1
 - 1, 0, 0
 
-**Weak Potency:** [Reason](scc:mcdm.heroes.v1/rule.character/reason) − 2
+**Weak [Potency](scc:mcdm.heroes.v1/rule.character/potency):** [Reason](scc:mcdm.heroes.v1/rule.character/reason) − 2
 
-**Average Potency:** [Reason](scc:mcdm.heroes.v1/rule.character/reason) − 1
+**Average [Potency](scc:mcdm.heroes.v1/rule.character/potency):** [Reason](scc:mcdm.heroes.v1/rule.character/reason) − 1
 
-**Strong Potency:** [Reason](scc:mcdm.heroes.v1/rule.character/reason)
+**Strong [Potency](scc:mcdm.heroes.v1/rule.character/potency):** [Reason](scc:mcdm.heroes.v1/rule.character/reason)
 
 **Starting [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) at 1st Level:** 21
 

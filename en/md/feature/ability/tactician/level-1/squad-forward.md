@@ -3,7 +3,7 @@ action_type: Maneuver
 class: tactician
 cost: 3 Focus
 distance: Ranged 10
-effect: Each target can move up to their speed.
+effect: Each target can move up to their [speed](scc:mcdm.heroes.v1/rule.character/speed).
 flavor: On your command, you and your allies force back the enemy line.
 keywords:
     - Ranged
@@ -21,4 +21,4 @@ type: ability
 |------------------|---------------------------:|
 | **📏 Ranged 10** | **🎯 Self and two allies** |
 
-**Effect:** Each target can move up to their speed.
+**Effect:** Each target can move up to their [speed](scc:mcdm.heroes.v1/rule.character/speed).

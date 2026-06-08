@@ -8,9 +8,9 @@ Whenever a hero or other creature in the game attempts a task with an uncertain 
 
 #### Types of Power Rolls
 
-The game uses two types of power rolls. An **ability roll** is used when you use certain abilities to determine their impact. For instance, if a [fury](scc:mcdm.heroes.v1/class/fury) uses their [Brutal Slam](scc:mcdm.heroes.v1/feature.ability.fury.level-1/brutal-slam) ability to strike an enemy, their ability roll determines how much damage the enemy takes and how far back the enemy is pushed. See Abilities for more information.
+The game uses two types of power rolls. An **[ability roll](scc:mcdm.heroes.v1/rule.dice/ability-roll)** is used when you use certain abilities to determine their impact. For instance, if a [fury](scc:mcdm.heroes.v1/class/fury) uses their [Brutal Slam](scc:mcdm.heroes.v1/feature.ability.fury.level-1/brutal-slam) ability to strike an enemy, their [ability roll](scc:mcdm.heroes.v1/rule.dice/ability-roll) determines how much [damage](scc:mcdm.heroes.v1/rule.damage/damage) the enemy takes and how far back the enemy is pushed. See Abilities for more information.
 
-A **test** is a power roll you make outside of using your abilities to affect or interact with the world around you. A [tactician](scc:mcdm.heroes.v1/class/tactician) might not have an ability that lets them climb up the face of a cliff, so climbing is an activity they can attempt with a test. An [elementalist](scc:mcdm.heroes.v1/class/elementalist) doesn't have an ability that lets them automatically intimidate a cultist into backing down from a fight, but they can make a test if they want to try. See [Tests](scc:mcdm.heroes.v1/chapter/tests) for more information.
+A **[test](scc:mcdm.heroes.v1/rule.test/test)** is a power roll you make outside of using your abilities to affect or interact with the world around you. A [tactician](scc:mcdm.heroes.v1/class/tactician) might not have an ability that lets them climb up the face of a cliff, so climbing is an activity they can attempt with a [test](scc:mcdm.heroes.v1/rule.test/test). An [elementalist](scc:mcdm.heroes.v1/class/elementalist) doesn't have an ability that lets them automatically intimidate a cultist into backing down from a fight, but they can make a [test](scc:mcdm.heroes.v1/rule.test/test) if they want to try. See [Tests](scc:mcdm.heroes.v1/chapter/tests) for more information.
 
 > **Sapient Creatures**
 >
@@ -18,13 +18,13 @@ A **test** is a power roll you make outside of using your abilities to affect or
 
 #### Making a Power Roll
 
-When you make a power roll, you roll two ten-sided dice (usually noted as 2d10 in the rules) and add one of your [characteristics](scc:mcdm.heroes.v1/rule.character/characteristic). The [characteristic](scc:mcdm.heroes.v1/rule.character/characteristic) you add depends on the kind of roll you're making, as outlined in Abilities and Tests.
+When you make a power roll, you roll two ten-sided dice (usually noted as 2d10 in the rules) and add one of your [characteristics](scc:mcdm.heroes.v1/rule.character/characteristic). The [characteristic](scc:mcdm.heroes.v1/rule.character/characteristic) you add depends on the kind of roll you're making, as outlined in Abilities and [Tests](scc:mcdm.heroes.v1/rule.test/test).
 
 ##### Downgrade a Power Roll
 
 Whenever you make a power roll, you can downgrade it to select the outcome of a lower tier. For instance, if an ability has a tier 3 outcome that lets you impose the [restrained](scc:mcdm.heroes.v1/condition/restrained) condition on a creature, but the tier 2 outcome for that ability lets you impose the [slowed](scc:mcdm.heroes.v1/condition/slowed) condition, you can use the tier 2 outcome if you would rather have the creature [slowed](scc:mcdm.heroes.v1/condition/slowed) than [restrained](scc:mcdm.heroes.v1/condition/restrained).
 
-If you downgrade a critical hit, you still get the extra action benefit of the critical hit (see Critical Hit in [Classes](scc:mcdm.heroes.v1/chapter/classes)).
+If you downgrade a [critical hit](scc:mcdm.heroes.v1/rule.combat/critical-hit), you still get the extra action benefit of the [critical hit](scc:mcdm.heroes.v1/rule.combat/critical-hit) (see [Critical Hit](scc:mcdm.heroes.v1/rule.combat/critical-hit) in [Classes](scc:mcdm.heroes.v1/chapter/classes)).
 
 #### Edges and Banes
 
@@ -50,6 +50,6 @@ We also liked capping [edges](scc:mcdm.heroes.v1/rule.dice/edge) and [banes](scc
 
 #### Automatic Tier Outcomes
 
-Effects in the game sometimes allow a creature to obtain an automatic tier 1, 2, or 3 outcome on a power roll. Such effects supersede any [edges](scc:mcdm.heroes.v1/rule.dice/edge), [banes](scc:mcdm.heroes.v1/rule.dice/bane), bonuses, or penalties that might affect the roll. If you obtain an automatic tier outcome and the power roll would have an additional effect if you get a specific roll, such as scoring a critical hit in combat, you can still make the roll to determine if you obtain the additional effect in addition to the automatic outcome.
+Effects in the game sometimes allow a creature to obtain an automatic tier 1, 2, or 3 outcome on a power roll. Such effects supersede any [edges](scc:mcdm.heroes.v1/rule.dice/edge), [banes](scc:mcdm.heroes.v1/rule.dice/bane), bonuses, or penalties that might affect the roll. If you obtain an automatic [tier outcome](scc:mcdm.heroes.v1/rule.dice/tier-outcome) and the power roll would have an additional effect if you get a specific roll, such as scoring a [critical hit](scc:mcdm.heroes.v1/rule.combat/critical-hit) in combat, you can still make the roll to determine if you obtain the additional effect in addition to the automatic outcome.
 
 If you are under multiple effects that each grant you a different automatic outcome, those effects cancel each other out and all automatic outcomes are ignored. If multiple effects grant you the same automatic outcome, you obtain that outcome.

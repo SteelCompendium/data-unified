@@ -4,7 +4,7 @@ class: conduit
 cost: 11 Piety
 distance: Ranged 10
 effect: While [restrained](scc:mcdm.heroes.v1/condition/restrained) this way, the target takes 10 damage at the start of each of your turns.
-flavor: Vines burst forth from the ground and bind your foe, slowly closing around them.
+flavor: Vines [burst](scc:mcdm.heroes.v1/rule.combat/burst) forth from the ground and bind your foe, slowly closing around them.
 keywords:
     - Magic
     - Ranged
@@ -17,13 +17,13 @@ type: ability
 ---
 
 
-*Vines burst forth from the ground and bind your foe, slowly closing around them.*
+*Vines [burst](scc:mcdm.heroes.v1/rule.combat/burst) forth from the ground and bind your foe, slowly closing around them.*
 
 | **Magic, Ranged, [Strike](scc:mcdm.heroes.v1/rule.combat/strike)**  |     **Main action** |
 |----------------------------|--------------------:|
 | **📏 Ranged 10**           | **🎯 One creature** |
 
-**Power Roll + [Intuition](scc:mcdm.heroes.v1/rule.character/intuition):**
+**[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Intuition](scc:mcdm.heroes.v1/rule.character/intuition):**
 
 - **≤11:** 10 + I damage; A < WEAK, [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)
 - **12-16:** 15 + I damage; A < AVERAGE, [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)

@@ -2,8 +2,8 @@
 action_type: Maneuver
 class: troubadour
 cost: 11 Drama
-distance: 5 cube within 10
-effect: Each ally within [distance](scc:mcdm.heroes.v1/rule.combat/distance) can't obtain lower than a tier 2 outcome on the next test they make before the start of your next turn.
+distance: 5 [cube](scc:mcdm.heroes.v1/rule.combat/cube) within 10
+effect: Each ally within [distance](scc:mcdm.heroes.v1/rule.combat/distance) can't obtain lower than a tier 2 outcome on the next [test](scc:mcdm.heroes.v1/rule.test/test) they make before the start of your next turn.
 flavor: You shine a bright light on the players on the stage and compel them to finish the performance.
 keywords:
     - Area
@@ -21,12 +21,12 @@ type: ability
 
 | **Area, Magic, Ranged** | **Maneuver**                  |
 |-------------------------|-------------------------------|
-| **📏 5 cube within 10** | **🎯 Each enemy in the area** |
+| **📏 5 [cube](scc:mcdm.heroes.v1/rule.combat/cube) within 10** | **🎯 Each enemy in the area** |
 
-**Power Roll + [Presence](scc:mcdm.heroes.v1/rule.character/presence):**
+**[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Presence](scc:mcdm.heroes.v1/rule.character/presence):**
 
-- **≤11:** 6 damage; P < WEAK, the target can't willingly leave the area (EoT)
+- **≤11:** 6 damage; P < WEAK, the target can't willingly leave the area ([EoT](scc:mcdm.heroes.v1/rule.combat/end-of-turn))
 - **12-16:** 8 damage; P < AVERAGE, the target can't willingly leave the area (save ends)
-- **17+:** 12 damage; the target can't willingly leave the area (EoT); if P < STRONG, they can't willingly leave the area (save ends)
+- **17+:** 12 damage; the target can't willingly leave the area ([EoT](scc:mcdm.heroes.v1/rule.combat/end-of-turn)); if P < STRONG, they can't willingly leave the area (save ends)
 
-**Effect:** Each ally within [distance](scc:mcdm.heroes.v1/rule.combat/distance) can't obtain lower than a tier 2 outcome on the next test they make before the start of your next turn.
+**Effect:** Each ally within [distance](scc:mcdm.heroes.v1/rule.combat/distance) can't obtain lower than a tier 2 outcome on the next [test](scc:mcdm.heroes.v1/rule.test/test) they make before the start of your next turn.

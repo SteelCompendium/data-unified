@@ -6,7 +6,7 @@ scc: mcdm.heroes.v1/feature.conduit.level-6/6th-level-domain-ability
 type: feature
 ---
 
-Choose one of your domains. You gain a heroic ability from that domain, as shown on the 6th-Level [Conduit](scc:mcdm.heroes.v1/class/conduit) Domain Abilities table.
+Choose one of your domains. You gain a [heroic ability](scc:mcdm.heroes.v1/rule.general/heroic-ability) from that domain, as shown on the 6th-Level [Conduit](scc:mcdm.heroes.v1/class/conduit) Domain Abilities table.
 
 ###### 6th-Level Conduit Domain Abilities Table
 

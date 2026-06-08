@@ -3,8 +3,8 @@ action_type: Free triggered
 class: tactician
 cost: 9 Focus
 distance: Melee 1
-effect: The target takes half the damage. You then make a power roll against the triggering creature.
-flavor: You [parry](scc:mcdm.heroes.v1/feature.ability.tactician.level-1/parry) with almost supernatural speed.
+effect: The target takes half the damage. You then make a [power roll](scc:mcdm.heroes.v1/rule.dice/power-roll) against the triggering creature.
+flavor: You [parry](scc:mcdm.heroes.v1/feature.ability.tactician.level-1/parry) with almost supernatural [speed](scc:mcdm.heroes.v1/rule.character/speed).
 keywords:
     - Melee
     - Weapon
@@ -18,7 +18,7 @@ type: ability
 ---
 
 
-*You [parry](scc:mcdm.heroes.v1/feature.ability.tactician.level-1/parry) with almost supernatural speed.*
+*You [parry](scc:mcdm.heroes.v1/feature.ability.tactician.level-1/parry) with almost supernatural [speed](scc:mcdm.heroes.v1/rule.character/speed).*
 
 | **Melee, Weapon** | **Free triggered** |
 | ------------------------------------|-------------------:|
@@ -26,9 +26,9 @@ type: ability
 
 **Trigger:** A creature deals damage to the target.
 
-**Effect:** The target takes half the damage. You then make a power roll against the triggering creature.
+**Effect:** The target takes half the damage. You then make a [power roll](scc:mcdm.heroes.v1/rule.dice/power-roll) against the triggering creature.
 
-**Power Roll + [Might](scc:mcdm.heroes.v1/rule.character/might):**
+**[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc:mcdm.heroes.v1/rule.character/might):**
 
 - **≤11:** A < WEAK, [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)
 - **12-16:** A < AVERAGE, [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)

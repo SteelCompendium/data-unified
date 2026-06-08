@@ -1,7 +1,7 @@
 ---
 action_type: No action
 class: troubadour
-distance: 5 aura
+distance: 5 [aura](scc:mcdm.heroes.v1/rule.combat/aura)
 effect: While this performance is active, each target who starts their turn in the area gains 1 [surge](scc:mcdm.heroes.v1/rule.resource/surge).
 flavor: Teeth are bare! ♪ Eyes black! ♪ No escaping the beast!♪
 keywords:
@@ -20,6 +20,6 @@ type: ability
 
 | **Area, Magic, Performance** |                         **No action** |
 |------------------------------|--------------------------------------:|
-| **📏 5 aura**                | **🎯 Self and each ally in the area** |
+| **📏 5 [aura](scc:mcdm.heroes.v1/rule.combat/aura)**                | **🎯 Self and each ally in the area** |
 
 **Effect:** While this performance is active, each target who starts their turn in the area gains 1 [surge](scc:mcdm.heroes.v1/rule.resource/surge).

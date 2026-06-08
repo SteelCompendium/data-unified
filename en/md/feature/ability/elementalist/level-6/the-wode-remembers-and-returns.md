@@ -2,7 +2,7 @@
 action_type: Main action
 class: elementalist
 cost: 9 Essence
-distance: 4 burst
+distance: 4 [burst](scc:mcdm.heroes.v1/rule.combat/burst)
 effect: The area becomes dark and verdant, with trees and plant life appearing in unoccupied spaces within it until the start of your next turn. The area is [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain) for enemies, and any ally who ends their turn in the area has [cover](scc:mcdm.heroes.v1/rule.combat/cover).
 flavor: You create a terrarium that spans from canopy above to underbrush below.
 keywords:
@@ -23,7 +23,7 @@ type: ability
 
 | **Area, Earth, Green, Magic, Void** | **Main action** |
 |-------------------------------------|----------------:|
-| **📏 4 burst**                      |  **🎯 Special** |
+| **📏 4 [burst](scc:mcdm.heroes.v1/rule.combat/burst)**                      |  **🎯 Special** |
 
 **Effect:** The area becomes dark and verdant, with trees and plant life appearing in unoccupied spaces within it until the start of your next turn. The area is [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain) for enemies, and any ally who ends their turn in the area has [cover](scc:mcdm.heroes.v1/rule.combat/cover).
 

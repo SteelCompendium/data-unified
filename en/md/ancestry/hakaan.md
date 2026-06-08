@@ -23,7 +23,7 @@ The gate, or door, or whatever it was started to close. With Dazar on the other 
 
 "Embers!" John called out, but the [high elf](scc:mcdm.heroes.v1/ancestry/high-elf) was surrounded. At that moment, a detonation. An explosion of sound that knocked the demons back. And a giant stood before the lumbering egress.
 
-Dust settled on the ground behind the giant, and John realized the thunderclap was the sound of the giant running to them. Air that couldn't get out of the way fast enough, tortured by the pressure of his speed.
+Dust settled on the ground behind the giant, and John realized the thunderclap was the sound of the giant running to them. Air that couldn't get out of the way fast enough, tortured by the pressure of his [speed](scc:mcdm.heroes.v1/rule.character/speed).
 
 The rectangular, toothed egress demon was twelve feet tall at least, the giant almost matching its immense [size](scc:mcdm.heroes.v1/rule.character/size).
 

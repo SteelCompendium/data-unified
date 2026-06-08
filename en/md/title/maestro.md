@@ -12,19 +12,19 @@ type: title
 
 **Effect:** Choose one of the following benefits:
 
-- *Angelic Chorus:* You can use the lessons of musical improvisation in combat. Choose one class act triggered action from the [troubadour](scc:mcdm.heroes.v1/class/troubadour) class. You gain that ability regardless of whether your class and subclass allow you to take it. If this ability allows you to gain or spend drama, you can gain or spend the [Heroic Resource](scc:mcdm.heroes.v1/rule.resource/heroic-resource) of your class in place of drama.
+- *Angelic Chorus:* You can use the lessons of musical improvisation in combat. Choose one class act [triggered action](scc:mcdm.heroes.v1/rule.combat/triggered-action) from the [troubadour](scc:mcdm.heroes.v1/class/troubadour) class. You gain that ability regardless of whether your class and [subclass](scc:mcdm.heroes.v1/rule.general/subclass) allow you to take it. If this ability allows you to gain or spend drama, you can gain or spend the [Heroic Resource](scc:mcdm.heroes.v1/rule.resource/heroic-resource) of your class in place of drama.
 - *Devil's Opera:* You have the following ability, which can be paid for using the [Heroic Resource](scc:mcdm.heroes.v1/rule.resource/heroic-resource) of your class.
 
 ##### The Devil's Chord (9 Heroic Resource)
 
 >
-> *Helloooo Orden!*
+> *Helloooo [Orden](scc:mcdm.heroes.v1/rule.world/orden)!*
 >
 > | **Area, Magic** |                  **Main action** |
 > |-----------------|---------------------------------:|
-> | **📏 5 burst**  | **🎯 Each creature in the area** |
+> | **📏 5 [burst](scc:mcdm.heroes.v1/rule.combat/burst)**  | **🎯 Each creature in the area** |
 >
-> **Power Roll + [Presence](scc:mcdm.heroes.v1/rule.character/presence):**
+> **[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Presence](scc:mcdm.heroes.v1/rule.character/presence):**
 >
 > - **≤11:** You take 4 sonic damage unless you have the Performance skill.
 > - **12-16:** 6 sonic damage; M < AVERAGE, [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)

@@ -2,7 +2,7 @@
 action_type: Main action
 class: conduit
 cost: 9 Piety
-distance: 4 cube within 10
+distance: 4 [cube](scc:mcdm.heroes.v1/rule.combat/cube) within 10
 flavor: '"If you won''t kneel, the gods will make you."'
 keywords:
     - Area
@@ -20,9 +20,9 @@ type: ability
 
 | **Area, Magic, Ranged**  |               **Main action** |
 |--------------------------|------------------------------:|
-| **📏 4 cube within 10**  | **🎯 Each enemy in the area** |
+| **📏 4 [cube](scc:mcdm.heroes.v1/rule.combat/cube) within 10**  | **🎯 Each enemy in the area** |
 
-**Power Roll + [Intuition](scc:mcdm.heroes.v1/rule.character/intuition):**
+**[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Intuition](scc:mcdm.heroes.v1/rule.character/intuition):**
 
 - **≤11:** 4 corruption damage; I < WEAK, [prone and](scc:mcdm.heroes.v1/condition/prone) can't stand (save ends)
 - **12-16:** 7 corruption damage; I < AVERAGE, [prone and](scc:mcdm.heroes.v1/condition/prone) can't stand (save ends)

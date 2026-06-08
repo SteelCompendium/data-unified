@@ -6,7 +6,7 @@ scc: mcdm.heroes.v1/feature.null.level-1/cryokinetic-mastery
 type: feature
 ---
 
-Whenever you use your [Inertial Shield](scc:mcdm.heroes.v1/feature.ability.null.level-1/inertial-shield) ability, you can then use the [Grab](scc:mcdm.heroes.v1/feature.common.maneuvers/grab) maneuver as a free triggered action.
+Whenever you use your [Inertial Shield](scc:mcdm.heroes.v1/feature.ability.null.level-1/inertial-shield) ability, you can then use the [Grab](scc:mcdm.heroes.v1/feature.common.maneuvers/grab) maneuver as a free [triggered action](scc:mcdm.heroes.v1/rule.combat/triggered-action).
 
 Additionally, as your discipline grows, you strengthen the psionic power suffusing you, granting benefits from the [Cryokinetic Mastery](scc:mcdm.heroes.v1/feature.null.level-1/cryokinetic-mastery) table. Benefits are cumulative except where an improved benefit replaces a lesser benefit.
 
@@ -19,4 +19,4 @@ Additionally, as your discipline grows, you strengthen the psionic power suffusi
 | 6               | You gain an [edge](scc:mcdm.heroes.v1/rule.dice/edge) on the [Grab](scc:mcdm.heroes.v1/feature.common.maneuvers/grab) and [Knockback](scc:mcdm.heroes.v1/feature.common.maneuvers/knockback) maneuvers.                                                                                                                                             |
 | 8 (4th level)   | The first time on a turn that you grab a creature or an enemy moves 1 or more squares in the area of your [Null Field](scc:mcdm.heroes.v1/feature.null.level-1/null-field) ability, you gain 2 [surges](scc:mcdm.heroes.v1/rule.resource/surge).                                                  |
 | 10 (7th level)  | You have a double [edge](scc:mcdm.heroes.v1/rule.dice/edge) on the [Grab](scc:mcdm.heroes.v1/feature.common.maneuvers/grab) and [Knockback](scc:mcdm.heroes.v1/feature.common.maneuvers/knockback) maneuvers.                                                                                                                                       |
-| 12 (10th level) | Whenever you force move a target, the [forced movement](scc:mcdm.heroes.v1/movement/forced-movement) [distance](scc:mcdm.heroes.v1/rule.combat/distance) gains a bonus equal to your [Intuition](scc:mcdm.heroes.v1/rule.character/intuition) score. Additionally, whenever you use a heroic ability, you gain 10 [temporary Stamina](scc:mcdm.heroes.v1/rule.health/temporary-stamina).       |
+| 12 (10th level) | Whenever you force move a target, the [forced movement](scc:mcdm.heroes.v1/movement/forced-movement) [distance](scc:mcdm.heroes.v1/rule.combat/distance) gains a bonus equal to your [Intuition](scc:mcdm.heroes.v1/rule.character/intuition) score. Additionally, whenever you use a [heroic ability](scc:mcdm.heroes.v1/rule.general/heroic-ability), you gain 10 [temporary Stamina](scc:mcdm.heroes.v1/rule.health/temporary-stamina).       |

@@ -21,7 +21,7 @@ type: title
 >
 > | **Area, Magic** |                                **Maneuver** |
 > |-----------------|--------------------------------------------:|
-> | **📏 5 burst**  | **🎯 Each enemy in the area hidden to you** |
+> | **📏 5 [burst](scc:mcdm.heroes.v1/rule.combat/burst)**  | **🎯 Each enemy in the area hidden to you** |
 >
 > **Effect:** Each target who has P < AVERAGE is [taunted](scc:mcdm.heroes.v1/condition/taunted) by you until the end of their next turn, and you know the location of each creature [taunted](scc:mcdm.heroes.v1/condition/taunted) in this way.
 

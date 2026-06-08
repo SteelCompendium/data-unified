@@ -26,9 +26,9 @@ type: ability
 
 **Effect:** You create three [size](scc:mcdm.heroes.v1/rule.character/size) 1T orbs that orbit your body. Each orb gives you a cumulative [damage immunity](scc:mcdm.heroes.v1/rule.damage/damage-immunity) 1. Each time you take damage, you lose 1 orb.
 
-Once on each of your turns, you can use a free maneuver to fire an orb at a creature or object within 5 squares as a ranged [strike](scc:mcdm.heroes.v1/rule.combat/strike), losing the orb after the [strike](scc:mcdm.heroes.v1/rule.combat/strike).
+Once on each of your turns, you can use a [free maneuver](scc:mcdm.heroes.v1/rule.combat/free-maneuver) to fire an orb at a creature or object within 5 squares as a ranged [strike](scc:mcdm.heroes.v1/rule.combat/strike), losing the orb after the [strike](scc:mcdm.heroes.v1/rule.combat/strike).
 
-**Power Roll + [Reason](scc:mcdm.heroes.v1/rule.character/reason):**
+**[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Reason](scc:mcdm.heroes.v1/rule.character/reason):**
 
 - **≤11:** 2 damage
 - **12-16:** 3 damage

@@ -3,7 +3,7 @@ action_type: Maneuver
 class: shadow
 cost: 11 Insight
 distance: Ranged 10
-effect: Until the end of the encounter, you gain the target's damage immunities and speed (if they are better than yours), and can use any types of movement they can use. You can also use the target's signature ability, using their bonus for the power roll.
+effect: Until the end of the encounter, you gain the target's damage immunities and [speed](scc:mcdm.heroes.v1/rule.character/speed) (if they are better than yours), and can use any types of movement they can use. You can also use the target's [signature ability](scc:mcdm.heroes.v1/rule.combat/signature-ability), using their bonus for the [power roll](scc:mcdm.heroes.v1/rule.dice/power-roll).
 flavor: Your mask reflects your foe's face. Surely they won't need it much longer.
 keywords:
     - Magic
@@ -22,4 +22,4 @@ type: ability
 |-------------------|------------------------:|
 | **📏 Ranged 10**  |     **🎯 One creature** |
 
-**Effect:** Until the end of the encounter, you gain the target's damage immunities and speed (if they are better than yours), and can use any types of movement they can use. You can also use the target's signature ability, using their bonus for the power roll.
+**Effect:** Until the end of the encounter, you gain the target's damage immunities and [speed](scc:mcdm.heroes.v1/rule.character/speed) (if they are better than yours), and can use any types of movement they can use. You can also use the target's [signature ability](scc:mcdm.heroes.v1/rule.combat/signature-ability), using their bonus for the [power roll](scc:mcdm.heroes.v1/rule.dice/power-roll).
