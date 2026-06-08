@@ -1,6 +1,7 @@
 ---
 benefit: You have the following [heroic ability](scc:mcdm.heroes.v1/rule.general/heroic-ability).
 drawback: Whenever you become [bleeding](scc:mcdm.heroes.v1/condition/bleeding), [frightened](scc:mcdm.heroes.v1/condition/frightened), or [weakened](scc:mcdm.heroes.v1/condition/weakened), you must use Psychic Blast as a free [triggered action](scc:mcdm.heroes.v1/rule.combat/triggered-action).
+flavor: In times of stress, you get headaches. Psionic energy builds up in your mind until you feel as though your head might explode. And if you're not careful, it actually does explode, radiating psychic waves that harm friends and enemies alike.
 name: Psychic Eruption
 scc: mcdm.heroes.v1/complication/psychic-eruption
 type: complication

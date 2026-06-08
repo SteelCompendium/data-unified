@@ -1,9 +1,11 @@
 ---
 echelon: "1"
 effect: While the Mirror Token is on your person and you are targeted by a [ranged](scc:mcdm.heroes.v1/rule.combat/ranged) [strike](scc:mcdm.heroes.v1/rule.combat/strike), you can use a [triggered action](scc:mcdm.heroes.v1/rule.combat/triggered-action) to crush the token and ignore the [strike](scc:mcdm.heroes.v1/rule.combat/strike). Half the damage you would have taken and any effects of the triggering strike are imposed on the creature making the [strike](scc:mcdm.heroes.v1/rule.combat/strike).
+flavor: A gold-rimmed, mirror-faced coin trembles in the hand as if it were repelled by your touch.
 keywords:
     - Psionic
 name: Mirror Token
+project_goal: "45"
 scc: mcdm.heroes.v1/treasure.1st-echelon.consumable/mirror-token
 treasure_type: consumable
 type: treasure

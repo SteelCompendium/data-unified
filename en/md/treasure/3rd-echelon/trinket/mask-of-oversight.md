@@ -1,10 +1,12 @@
 ---
 echelon: "3"
 effect: While wearing this grotesque mask, you can use a maneuver to cause your eyes to erupt from their sockets and multiply until six eyes orbit your head. This grants you a 360-degree arc of vision and prevents you from being [surprised](scc:mcdm.heroes.v1/rule.combat/surprised). Additionally, you have a double [edge](scc:mcdm.heroes.v1/rule.dice/edge) on [tests](scc:mcdm.heroes.v1/rule.test/test) made to discover hidden creatures, items, or mechanisms, but you have a double [bane](scc:mcdm.heroes.v1/rule.dice/bane) on [Presence](scc:mcdm.heroes.v1/rule.character/presence) [tests](scc:mcdm.heroes.v1/rule.test/test) that don't use the [Intimidate](scc:mcdm.heroes.v1/skill/intimidate) skill. As a maneuver, you can return your eyes to your head and make the additional eyes disappear.
+flavor: This angular electrum mask is set with an excess of eye holes and a horrifying maw.
 keywords:
     - Head
     - Magic
 name: Mask of Oversight
+project_goal: "450"
 scc: mcdm.heroes.v1/treasure.3rd-echelon.trinket/mask-of-oversight
 treasure_type: trinket
 type: treasure

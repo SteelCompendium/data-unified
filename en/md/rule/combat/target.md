@@ -4,7 +4,7 @@ scc: mcdm.heroes.v1/rule.combat/target
 type: rule
 ---
 
-The "Target" entry of an ability, represented by this symbol 🎯, notes the number of creatures, objects, or both who can be targeted by that ability. You can always affect fewer targets than the number indicated by this entry.
+The "[Target](scc:mcdm.heroes.v1/rule.combat/target)" entry of an ability, represented by this symbol 🎯, notes the number of creatures, objects, or both who can be targeted by that ability. You can always affect fewer targets than the number indicated by this entry.
 
 ##### Creature
 

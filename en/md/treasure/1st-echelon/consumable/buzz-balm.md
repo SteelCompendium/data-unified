@@ -1,10 +1,12 @@
 ---
 echelon: "1"
 effect: As a maneuver, you rub the balm on your body and feel it tingle across your skin. You immediately end the [bleeding](scc:mcdm.heroes.v1/condition/bleeding) and [weakened](scc:mcdm.heroes.v1/condition/weakened) [conditions](scc:mcdm.heroes.v1/rule.combat/condition) on yourself, and you gain a +2 [bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to [speed](scc:mcdm.heroes.v1/rule.character/speed) until the start of your next [turn](scc:mcdm.heroes.v1/rule.combat/turn).
+flavor: This cooling orange salve crackles and pops when exposed to the air.
 keywords:
     - Magic
     - Oil
 name: Buzz Balm
+project_goal: "45"
 scc: mcdm.heroes.v1/treasure.1st-echelon.consumable/buzz-balm
 treasure_type: consumable
 type: treasure

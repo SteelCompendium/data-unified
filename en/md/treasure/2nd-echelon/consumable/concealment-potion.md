@@ -1,10 +1,12 @@
 ---
 echelon: "2"
 effect: When you drink this potion as a maneuver, light shifts around your body, letting you blend into the environment around you for 10 minutes. While this effect is active, you have a double [edge](scc:mcdm.heroes.v1/rule.dice/edge) on [tests](scc:mcdm.heroes.v1/rule.test/test) made to hide and sneak, and you can use the [Hide](scc:mcdm.heroes.v1/feature.common.maneuvers/hide) maneuver even while you are observed.
+flavor: This dark, viscous liquid tastes like burnt leaves.
 keywords:
     - Potion
     - Psionic
 name: Concealment Potion
+project_goal: "90"
 scc: mcdm.heroes.v1/treasure.2nd-echelon.consumable/concealment-potion
 treasure_type: consumable
 type: treasure

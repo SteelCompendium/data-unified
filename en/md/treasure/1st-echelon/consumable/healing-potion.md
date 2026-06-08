@@ -1,10 +1,12 @@
 ---
 echelon: "1"
 effect: When you drink this potion as a maneuver, you regain [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) equal to your [recovery value](scc:mcdm.heroes.v1/rule.health/recoveries) without spending a [Recovery](scc:mcdm.heroes.v1/rule.health/recoveries).
+flavor: Thick and red, this liquid tastes of sour beer.
 keywords:
     - Magic
     - Potion
 name: Healing Potion
+project_goal: "45"
 scc: mcdm.heroes.v1/treasure.1st-echelon.consumable/healing-potion
 treasure_type: consumable
 type: treasure

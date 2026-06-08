@@ -1,6 +1,7 @@
 ---
 benefit: 'You have a somewhat inoperative 2nd-[echelon](scc:mcdm.heroes.v1/rule.general/echelon) [trinket](scc:mcdm.heroes.v1/rule.treasure/trinket) of the Director''s choice (see Treasures in Chapter 13: [Rewards](scc:mcdm.heroes.v1/chapter/rewards)). This [trinket](scc:mcdm.heroes.v1/rule.treasure/trinket) functions only while the total of your level plus your [Victories](scc:mcdm.heroes.v1/rule.resource/victories) is 5 or higher. You don''t learn what the [trinket](scc:mcdm.heroes.v1/rule.treasure/trinket)''s powers are until the first time it becomes operative.'
 drawback: With no other inheritance, you accumulated debts. The first time your [Wealth](scc:mcdm.heroes.v1/rule.resource/wealth) exceeds 1, you lose 1 [Wealth](scc:mcdm.heroes.v1/rule.resource/wealth).
+flavor: Your siblings each inherited money or land, but you received a strange, seemingly useless trinket—along with the advice that maybe you weren't cut out for an ordinary, peaceful life.
 name: Strange Inheritance
 scc: mcdm.heroes.v1/complication/strange-inheritance
 type: complication

@@ -1,10 +1,12 @@
 ---
 echelon: "2"
 effect: While you wear the Mediator's Charm, the patience of any [NPC](scc:mcdm.heroes.v1/rule.general/npc) you negotiate with increases by 1 (to a maximum of 5). Additionally, at the start of a negotiation, you learn one of an [NPC](scc:mcdm.heroes.v1/rule.general/npc)'s motivations or pitfalls of the Director's choice.
+flavor: A fancy gold earring is set with a small ruby.
 keywords:
     - Head
     - Psionic
 name: Mediator's Charm
+project_goal: "300"
 scc: mcdm.heroes.v1/treasure.2nd-echelon.trinket/mediators-charm
 treasure_type: trinket
 type: treasure

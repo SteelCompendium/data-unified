@@ -1,5 +1,6 @@
 ---
 effect: 'Choose one of the following benefits:'
+flavor: Haul down your flag or we'll burn you to the waterline!
 name: Corsair
 prerequisite: You have the [Ship Captain](scc:mcdm.heroes.v1/title/ship-captain) title, and you sink or capture a ship of equal or greater [size](scc:mcdm.heroes.v1/rule.character/size) than your own.
 scc: mcdm.heroes.v1/title/corsair

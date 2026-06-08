@@ -1,4 +1,5 @@
 ---
+flavor: For long years, you studied magic under the mentorship of a more experienced mage.
 language: One language
 name: Mage's Apprentice
 perk: One [supernatural](scc:mcdm.heroes.v1/rule.general/supernatural) perk (*Quick Build:* [Arcane Trick](scc:mcdm.heroes.v1/perk/arcane-trick).)

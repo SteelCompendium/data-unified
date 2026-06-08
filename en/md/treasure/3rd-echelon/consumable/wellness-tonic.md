@@ -1,10 +1,12 @@
 ---
 echelon: "3"
 effect: When you drink this tonic as a maneuver, you feel a surge of physical and spiritual immunity. You can immediately end up to three [conditions](scc:mcdm.heroes.v1/rule.combat/condition) or effects affecting you. Additionally, until the start of your next [turn](scc:mcdm.heroes.v1/rule.combat/turn), you can ignore any effect that would last until the end of your next [turn](scc:mcdm.heroes.v1/rule.combat/turn) or be ended by a [saving throw](scc:mcdm.heroes.v1/rule.general/saving-throw).
+flavor: This thick purple liquid has a bitter scent that lingers.
 keywords:
     - Potion
     - Psionic
 name: Wellness Tonic
+project_goal: "180"
 scc: mcdm.heroes.v1/treasure.3rd-echelon.consumable/wellness-tonic
 treasure_type: consumable
 type: treasure

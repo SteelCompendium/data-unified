@@ -1,10 +1,12 @@
 ---
 echelon: "2"
 effect: While worn, this belt grants you a +3 [bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) and a +1 [bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to [Stability](scc:mcdm.heroes.v1/rule.character/stability). This [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) [bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) adds to the [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) [bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) granted by other treasures.
+flavor: This thick leather belt features a bone clasp and feels unusually heavy when handled.
 keywords:
     - Magic
     - Waist
 name: Bastion Belt
+project_goal: "300"
 scc: mcdm.heroes.v1/treasure.2nd-echelon.trinket/bastion-belt
 treasure_type: trinket
 type: treasure

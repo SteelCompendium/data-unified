@@ -1,8 +1,10 @@
 ---
+flavor: A perfectly clear sphere is embossed with fine ivory and crystal that is frigid to the touch.
 keywords:
     - '[Implement](scc:mcdm.heroes.v1/rule.treasure/implement)'
     - Magic
 name: Chaldorb
+project_goal: "450"
 scc: mcdm.heroes.v1/treasure.leveled.implement/chaldorb
 treasure_type: implement
 type: treasure

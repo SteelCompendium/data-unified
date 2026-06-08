@@ -1,5 +1,6 @@
 ---
 effect: 'Choose one of the following benefits:'
+flavor: If you can't beat 'em, join 'em.
 name: Diabolist
 prerequisite: You defeat a leader or solo creature with the [Devil](scc:mcdm.heroes.v1/ancestry/devil) keyword, such as an archdevil, or you make a deal with a [devil](scc:mcdm.heroes.v1/ancestry/devil).
 scc: mcdm.heroes.v1/title/diabolist

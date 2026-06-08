@@ -1,8 +1,10 @@
 ---
+flavor: This bronze bottle has been shaped into the form of a ghostly figure.
 keywords:
     - '[Implement](scc:mcdm.heroes.v1/rule.treasure/implement)'
     - Psionic
 name: Ether-Fueled Vessel
+project_goal: "450"
 scc: mcdm.heroes.v1/treasure.leveled.implement/ether-fueled-vessel
 treasure_type: implement
 type: treasure

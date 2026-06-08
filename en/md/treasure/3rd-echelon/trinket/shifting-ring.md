@@ -1,10 +1,12 @@
 ---
 echelon: "3"
 effect: Once per [turn](scc:mcdm.heroes.v1/rule.combat/turn), you can use a maneuver to [teleport](scc:mcdm.heroes.v1/movement/teleport) up to 3 squares. Additionally, when targeted by any other effect that causes you to [teleport](scc:mcdm.heroes.v1/movement/teleport), you can [teleport](scc:mcdm.heroes.v1/movement/teleport) up to 3 additional squares.
+flavor: This silvery metal ring seems to momentarily vanish when observed from certain angles.
 keywords:
     - Psionic
     - Ring
 name: Shifting Ring
+project_goal: "450"
 scc: mcdm.heroes.v1/treasure.3rd-echelon.trinket/shifting-ring
 treasure_type: trinket
 type: treasure
