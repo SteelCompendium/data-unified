@@ -6,7 +6,7 @@ scc: mcdm.heroes.v1/complication/preacher
 type: complication
 ---
 
-When you were young, you almost died in an accident or attack, but a vision of a god or saint showed you the way to save yourself and others you loved. That event drove you into the church and gave you a strong belief in a particular religion or cause—and you can't wait to tell other people all about it.
+When you were young, you almost died in an accident or attack, but a vision of a god or [saint](scc:mcdm.heroes.v1/rule.world/saint) showed you the way to save yourself and others you loved. That event drove you into the church and gave you a strong belief in a particular religion or cause—and you can't wait to tell other people all about it.
 
 **Benefit:** As a [respite](scc:mcdm.heroes.v1/rule.resource/respite) activity, you can attempt to convert members of a community to your cause. Make a [Presence](scc:mcdm.heroes.v1/rule.character/presence) [test](scc:mcdm.heroes.v1/rule.test/test) with a difficulty determined by the Director based on the community's receptiveness to your ideas. On a success, you convert one [NPC](scc:mcdm.heroes.v1/rule.general/npc) into a [follower](scc:mcdm.heroes.v1/rule.general/follower) (see [Renown](scc:mcdm.heroes.v1/rule.resource/renown) in Chapter 13: [Rewards](scc:mcdm.heroes.v1/chapter/rewards)), which you gain in addition to any [followers](scc:mcdm.heroes.v1/rule.general/follower) acquired through [Renown](scc:mcdm.heroes.v1/rule.resource/renown) or other means. The Director determines the type of [follower](scc:mcdm.heroes.v1/rule.general/follower). Once you have converted an [NPC](scc:mcdm.heroes.v1/rule.general/npc) into a [follower](scc:mcdm.heroes.v1/rule.general/follower) this way, you can't use this benefit again until you gain a level.
 

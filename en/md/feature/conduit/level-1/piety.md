@@ -10,9 +10,9 @@ Your deity grants you a [Heroic Resource](scc:mcdm.heroes.v1/rule.resource/heroi
 
 ##### Piety in Combat
 
-At the start of a combat encounter or some other stressful situation tracked in combat rounds (as determined by the Director), you gain piety equal to your [Victories](scc:mcdm.heroes.v1/rule.resource/victories). At the start of each of your turns during combat, you gain 1d3 piety.
+At the start of a combat encounter or some other stressful situation tracked in [combat rounds](scc:mcdm.heroes.v1/rule.combat/combat-round) (as determined by the Director), you gain piety equal to your [Victories](scc:mcdm.heroes.v1/rule.resource/victories). At the start of each of your [turns](scc:mcdm.heroes.v1/rule.combat/turn) during combat, you gain 1d3 piety.
 
-Additionally, you can gain more piety by praying to the gods—but beware! Doing so can easily draw their ire, as the gods hate to be annoyed. Before you roll to gain piety at the start of your turn, you can pray (no action required). If you do, your roll gains the following additional effects:
+Additionally, you can gain more piety by praying to the gods—but beware! Doing so can easily draw their ire, as the gods hate to be annoyed. Before you roll to gain piety at the start of your [turn](scc:mcdm.heroes.v1/rule.combat/turn), you can pray (no action required). If you do, your roll gains the following additional effects:
 
 - If the roll is a 1, you gain 1 additional piety but anger the gods! You take psychic damage equal to 1d6 + your level, which can't be reduced in any way.
 - If the roll is a 2, you gain 1 additional piety.

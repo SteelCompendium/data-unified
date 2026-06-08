@@ -2,11 +2,11 @@
 action_type: Main action
 class: censor
 cost: 11 Wrath
-distance: Melee 1
-effect: At the end of each of your turns, a target [weakened](scc:mcdm.heroes.v1/condition/weakened) this way deals holy damage equal to twice your [Presence](scc:mcdm.heroes.v1/rule.character/presence) score to each enemy within 2 squares of them. Additionally, a target [weakened](scc:mcdm.heroes.v1/condition/weakened) this way can't be targeted by their allies' abilities.
+distance: '[Melee](scc:mcdm.heroes.v1/rule.combat/melee) 1'
+effect: At the end of each of your [turns](scc:mcdm.heroes.v1/rule.combat/turn), a target [weakened](scc:mcdm.heroes.v1/condition/weakened) this way deals holy damage equal to twice your [Presence](scc:mcdm.heroes.v1/rule.character/presence) score to each enemy within 2 squares of them. Additionally, a target [weakened](scc:mcdm.heroes.v1/condition/weakened) this way can't be targeted by their allies' abilities.
 flavor: You curse your foe to become a bane to their allies.
 keywords:
-    - Melee
+    - '[Melee](scc:mcdm.heroes.v1/rule.combat/melee)'
     - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
     - Weapon
 level: "8"
@@ -19,9 +19,9 @@ type: ability
 
 *You curse your foe to become a bane to their allies.*
 
-| **Melee, [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** |     **Main action** |
+| **[Melee](scc:mcdm.heroes.v1/rule.combat/melee), [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** |     **Main action** |
 |---------------------------|--------------------:|
-| **📏 Melee 1**            | **🎯 One creature** |
+| **📏 [Melee](scc:mcdm.heroes.v1/rule.combat/melee) 1**            | **🎯 One creature** |
 
 **[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc:mcdm.heroes.v1/rule.character/might):**
 
@@ -29,4 +29,4 @@ type: ability
 - **12-16:** 13 + M damage; I < AVERAGE, [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
 - **17+:** 18 + M damage; I < STRONG, [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
 
-**Effect:** At the end of each of your turns, a target [weakened](scc:mcdm.heroes.v1/condition/weakened) this way deals holy damage equal to twice your [Presence](scc:mcdm.heroes.v1/rule.character/presence) score to each enemy within 2 squares of them. Additionally, a target [weakened](scc:mcdm.heroes.v1/condition/weakened) this way can't be targeted by their allies' abilities.
+**Effect:** At the end of each of your [turns](scc:mcdm.heroes.v1/rule.combat/turn), a target [weakened](scc:mcdm.heroes.v1/condition/weakened) this way deals holy damage equal to twice your [Presence](scc:mcdm.heroes.v1/rule.character/presence) score to each enemy within 2 squares of them. Additionally, a target [weakened](scc:mcdm.heroes.v1/condition/weakened) this way can't be targeted by their allies' abilities.

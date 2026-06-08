@@ -12,7 +12,7 @@ Val holds that the greatest purpose a thinking being can commit themselves to is
 
 #### Heroes of the Elves
 
-The legendary heroes of the elves are once-mortal heroes who now dwell in Arcadia and make up Val's court there. They answer prayers and dispense blessings and boons, even manifest in the world during times of great need. (Though, like all the speaking people's saints and heroes, what these legendary figures consider "great need" is very personal and has little to do with politics or great kingdoms.)
+The legendary heroes of the elves are once-mortal heroes who now dwell in Arcadia and make up Val's court there. They answer prayers and dispense blessings and boons, even manifest in the world during times of great need. (Though, like all the speaking people's [saints](scc:mcdm.heroes.v1/rule.world/saint) and heroes, what these legendary figures consider "great need" is very personal and has little to do with politics or great kingdoms.)
 
 The [high elf](scc:mcdm.heroes.v1/ancestry/high-elf) heroes detailed in this book are A Sea of Suns, the Taste of Morning, and Ripples of Honey on a Shore of Gold. The [wode elf](scc:mcdm.heroes.v1/ancestry/wode-elf) heroes are Yllin Dyrvis, Thyll Hylacae, and Illwyv li Orchiax.
 

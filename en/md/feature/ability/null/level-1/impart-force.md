@@ -2,11 +2,11 @@
 action_type: Maneuver
 class: "null"
 cost: 5 Discipline
-distance: Melee 1
+distance: '[Melee](scc:mcdm.heroes.v1/rule.combat/melee) 1'
 effect: An object you target must be your [size](scc:mcdm.heroes.v1/rule.character/size) or smaller. You gain an [edge](scc:mcdm.heroes.v1/rule.dice/edge) on this ability. Additionally, for each square you push the target, they take 1 psychic damage.
 flavor: A single touch from you, and your enemy flies backward.
 keywords:
-    - Melee
+    - '[Melee](scc:mcdm.heroes.v1/rule.combat/melee)'
     - Psionic
     - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
     - Weapon
@@ -20,9 +20,9 @@ type: ability
 
 *A single touch from you, and your enemy flies backward.*
 
-| **Melee, Psionic, [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** |                  **Maneuver** |
+| **[Melee](scc:mcdm.heroes.v1/rule.combat/melee), Psionic, [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** |                  **Maneuver** |
 |------------------------------------|------------------------------:|
-| **📏 Melee 1**                     | **🎯 One creature or object** |
+| **📏 [Melee](scc:mcdm.heroes.v1/rule.combat/melee) 1**                     | **🎯 One creature or object** |
 
 **[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Intuition](scc:mcdm.heroes.v1/rule.character/intuition):**
 

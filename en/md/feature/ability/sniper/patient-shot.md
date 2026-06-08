@@ -1,10 +1,10 @@
 ---
 action_type: Main action
-distance: Ranged 15
-effect: If you don't take a move action this turn, this [strike](scc:mcdm.heroes.v1/rule.combat/strike) deals extra damage equal to your [Might](scc:mcdm.heroes.v1/rule.character/might) or [Agility](scc:mcdm.heroes.v1/rule.character/agility) score (your choice).
+distance: '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 15'
+effect: If you don't take a move action this [turn](scc:mcdm.heroes.v1/rule.combat/turn), this [strike](scc:mcdm.heroes.v1/rule.combat/strike) deals extra damage equal to your [Might](scc:mcdm.heroes.v1/rule.character/might) or [Agility](scc:mcdm.heroes.v1/rule.character/agility) score (your choice).
 flavor: Breathe... aim... wait... then strike!
 keywords:
-    - Ranged
+    - '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)'
     - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
     - Weapon
 kit: sniper
@@ -17,9 +17,9 @@ type: ability
 
 *Breathe... aim... wait... then strike!*
 
-| **Ranged, [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** |     **Main action** |
+| **[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged), [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** |     **Main action** |
 |----------------------------|--------------------:|
-| **📏 Ranged 15**           | **🎯 One creature** |
+| **📏 [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 15**           | **🎯 One creature** |
 
 **[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc:mcdm.heroes.v1/rule.character/might) or [Agility](scc:mcdm.heroes.v1/rule.character/agility):**
 
@@ -27,4 +27,4 @@ type: ability
 - **12-16:** 6 + M or A damage
 - **17+:** 13 + M or A damage
 
-**Effect:** If you don't take a move action this turn, this [strike](scc:mcdm.heroes.v1/rule.combat/strike) deals extra damage equal to your [Might](scc:mcdm.heroes.v1/rule.character/might) or [Agility](scc:mcdm.heroes.v1/rule.character/agility) score (your choice).
+**Effect:** If you don't take a move action this [turn](scc:mcdm.heroes.v1/rule.combat/turn), this [strike](scc:mcdm.heroes.v1/rule.combat/strike) deals extra damage equal to your [Might](scc:mcdm.heroes.v1/rule.character/might) or [Agility](scc:mcdm.heroes.v1/rule.character/agility) score (your choice).

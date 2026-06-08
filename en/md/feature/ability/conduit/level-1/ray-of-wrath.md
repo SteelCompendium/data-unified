@@ -1,12 +1,12 @@
 ---
 action_type: Main action
 class: conduit
-distance: Ranged 10
+distance: '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 10'
 effect: You can have this ability deal holy damage.
 flavor: You unleash a blast of holy light upon your foe.
 keywords:
     - Magic
-    - Ranged
+    - '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)'
     - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
 level: "1"
 name: Ray of Wrath
@@ -18,9 +18,9 @@ type: ability
 
 *You unleash a blast of holy light upon your foe.*
 
-| **Magic, Ranged, [Strike](scc:mcdm.heroes.v1/rule.combat/strike)**  |               **Main action** |
+| **Magic, [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged), [Strike](scc:mcdm.heroes.v1/rule.combat/strike)**  |               **Main action** |
 |----------------------------|------------------------------:|
-| **📏 Ranged 10**           | **🎯 One creature or object** |
+| **📏 [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 10**           | **🎯 One creature or object** |
 
 **[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Intuition](scc:mcdm.heroes.v1/rule.character/intuition):**
 

@@ -6,7 +6,7 @@ scc: mcdm.heroes.v1/complication/refugee
 type: complication
 ---
 
-A hostile army—perhaps the forces of Ajax, the Iron Saint—conquered your homeland. Your family escaped, but you can't return home until your oppressors are defeated once and for all.
+A hostile army—perhaps the forces of Ajax, the Iron [Saint](scc:mcdm.heroes.v1/rule.world/saint)—conquered your homeland. Your family escaped, but you can't return home until your oppressors are defeated once and for all.
 
 **Benefit:** When your family fled your homeland, they left their most valuable asset behind. Work with the Director to determine whether this asset is a [trinket](scc:mcdm.heroes.v1/rule.treasure/trinket) or [leveled treasure](scc:mcdm.heroes.v1/rule.treasure/leveled-treasure), several points of [Wealth](scc:mcdm.heroes.v1/rule.resource/wealth), the [project source](scc:mcdm.heroes.v1/rule.downtime/project-source) to create a treasure, or the like. This asset is in the hands of the invaders but can be won back as the Director determines.
 

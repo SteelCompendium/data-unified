@@ -6,4 +6,4 @@ scc: mcdm.heroes.v1/feature.censor.level-4/wrath-beyond-wrath
 type: feature
 ---
 
-The first time each combat round that you deal damage to a creature judged by you, you gain 2 wrath instead of 1.
+The first time each [combat round](scc:mcdm.heroes.v1/rule.combat/combat-round) that you deal damage to a creature judged by you, you gain 2 wrath instead of 1.

@@ -1,6 +1,6 @@
 ---
 echelon: "3"
-effect: While you wear them in combat, these bracers magically double the size of your hands and any melee weapons you wield, automatically compensating for the extra weight. You gain a +2 damage bonus for any weapon ability that deals [rolled damage](scc:mcdm.heroes.v1/rule.damage/rolled-damage), and a +1 bonus to the [distance](scc:mcdm.heroes.v1/rule.combat/distance) you push any target with any weapon ability. This damage bonus adds to the damage bonus granted by other treasures.
+effect: While you wear them in combat, these bracers magically double the size of your hands and any [melee](scc:mcdm.heroes.v1/rule.combat/melee) weapons you wield, automatically compensating for the extra weight. You gain a +2 damage [bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) for any weapon ability that deals [rolled damage](scc:mcdm.heroes.v1/rule.damage/rolled-damage), and a +1 [bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to the [distance](scc:mcdm.heroes.v1/rule.combat/distance) you push any target with any weapon ability. This damage [bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) adds to the damage [bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) granted by other treasures.
 keywords:
     - Arms
     - Magic
@@ -22,4 +22,4 @@ type: treasure
 
 **Project Goal:** 450
 
-**Effect:** While you wear them in combat, these bracers magically double the size of your hands and any melee weapons you wield, automatically compensating for the extra weight. You gain a +2 damage bonus for any weapon ability that deals [rolled damage](scc:mcdm.heroes.v1/rule.damage/rolled-damage), and a +1 bonus to the [distance](scc:mcdm.heroes.v1/rule.combat/distance) you push any target with any weapon ability. This damage bonus adds to the damage bonus granted by other treasures.
+**Effect:** While you wear them in combat, these bracers magically double the size of your hands and any [melee](scc:mcdm.heroes.v1/rule.combat/melee) weapons you wield, automatically compensating for the extra weight. You gain a +2 damage [bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) for any weapon ability that deals [rolled damage](scc:mcdm.heroes.v1/rule.damage/rolled-damage), and a +1 [bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to the [distance](scc:mcdm.heroes.v1/rule.combat/distance) you push any target with any weapon ability. This damage [bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) adds to the damage [bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) granted by other treasures.

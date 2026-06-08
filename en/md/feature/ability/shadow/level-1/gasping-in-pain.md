@@ -1,11 +1,11 @@
 ---
 action_type: Main action
 class: shadow
-distance: Melee 1
+distance: '[Melee](scc:mcdm.heroes.v1/rule.combat/melee) 1'
 effect: One ally within 5 squares of the target gains 1 [surge](scc:mcdm.heroes.v1/rule.resource/surge).
 flavor: Your precise strikes let your allies take advantage of a target's agony.
 keywords:
-    - Melee
+    - '[Melee](scc:mcdm.heroes.v1/rule.combat/melee)'
     - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
     - Weapon
 level: "1"
@@ -19,9 +19,9 @@ type: ability
 
 *Your precise strikes let your allies take advantage of a target's agony.*
 
-| **Melee, [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** |     **Main action** |
+| **[Melee](scc:mcdm.heroes.v1/rule.combat/melee), [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** |     **Main action** |
 |---------------------------|--------------------:|
-| **📏 Melee 1**            | **🎯 One creature** |
+| **📏 [Melee](scc:mcdm.heroes.v1/rule.combat/melee) 1**            | **🎯 One creature** |
 
 **[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Agility](scc:mcdm.heroes.v1/rule.character/agility):**
 

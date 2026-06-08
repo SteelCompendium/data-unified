@@ -1,16 +1,16 @@
 ---
 action_type: Triggered
 class: fury
-distance: Melee 1
-effect: You can select a new target of the same [size](scc:mcdm.heroes.v1/rule.character/size) or smaller within [distance](scc:mcdm.heroes.v1/rule.combat/distance) to be force moved instead. You become the source of the [forced movement](scc:mcdm.heroes.v1/movement/forced-movement), determine the new target's destination, and can push the target instead of using the original [forced movement](scc:mcdm.heroes.v1/movement/forced-movement) type. Additionally, the [forced movement](scc:mcdm.heroes.v1/movement/forced-movement) [distance](scc:mcdm.heroes.v1/rule.combat/distance) gains a bonus equal to your [Might](scc:mcdm.heroes.v1/rule.character/might) score.
+distance: '[Melee](scc:mcdm.heroes.v1/rule.combat/melee) 1'
+effect: You can select a new target of the same [size](scc:mcdm.heroes.v1/rule.character/size) or smaller within [distance](scc:mcdm.heroes.v1/rule.combat/distance) to be force moved instead. You become the source of the [forced movement](scc:mcdm.heroes.v1/movement/forced-movement), determine the new target's destination, and can push the target instead of using the original [forced movement](scc:mcdm.heroes.v1/movement/forced-movement) type. Additionally, the [forced movement](scc:mcdm.heroes.v1/movement/forced-movement) [distance](scc:mcdm.heroes.v1/rule.combat/distance) gains a [bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) equal to your [Might](scc:mcdm.heroes.v1/rule.character/might) score.
 flavor: You redirect the energy of motion.
 keywords:
     - Magic
-    - Melee
+    - '[Melee](scc:mcdm.heroes.v1/rule.combat/melee)'
 level: "1"
 name: Lines of Force
 scc: mcdm.heroes.v1/feature.ability.fury.level-1/lines-of-force
-spend: '1 Ferocity: The [forced movement](scc:mcdm.heroes.v1/movement/forced-movement) [distance](scc:mcdm.heroes.v1/rule.combat/distance) gains a bonus equal to twice your [Might](scc:mcdm.heroes.v1/rule.character/might) score instead.'
+spend: '1 Ferocity: The [forced movement](scc:mcdm.heroes.v1/movement/forced-movement) [distance](scc:mcdm.heroes.v1/rule.combat/distance) gains a [bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) equal to twice your [Might](scc:mcdm.heroes.v1/rule.character/might) score instead.'
 subtype: triggered
 target: Self or one creature
 trigger: The target would be [force moved](scc:mcdm.heroes.v1/movement/forced-movement).
@@ -20,12 +20,12 @@ type: ability
 
 *You redirect the energy of motion.*
 
-| **Magic, Melee** |               **Triggered** |
+| **Magic, [Melee](scc:mcdm.heroes.v1/rule.combat/melee)** |               **Triggered** |
 |------------------|----------------------------:|
-| **📏 Melee 1**   | **🎯 Self or one creature** |
+| **📏 [Melee](scc:mcdm.heroes.v1/rule.combat/melee) 1**   | **🎯 Self or one creature** |
 
 **Trigger:** The target would be [force moved](scc:mcdm.heroes.v1/movement/forced-movement).
 
-**Effect:** You can select a new target of the same [size](scc:mcdm.heroes.v1/rule.character/size) or smaller within [distance](scc:mcdm.heroes.v1/rule.combat/distance) to be force moved instead. You become the source of the [forced movement](scc:mcdm.heroes.v1/movement/forced-movement), determine the new target's destination, and can push the target instead of using the original [forced movement](scc:mcdm.heroes.v1/movement/forced-movement) type. Additionally, the [forced movement](scc:mcdm.heroes.v1/movement/forced-movement) [distance](scc:mcdm.heroes.v1/rule.combat/distance) gains a bonus equal to your [Might](scc:mcdm.heroes.v1/rule.character/might) score.
+**Effect:** You can select a new target of the same [size](scc:mcdm.heroes.v1/rule.character/size) or smaller within [distance](scc:mcdm.heroes.v1/rule.combat/distance) to be force moved instead. You become the source of the [forced movement](scc:mcdm.heroes.v1/movement/forced-movement), determine the new target's destination, and can push the target instead of using the original [forced movement](scc:mcdm.heroes.v1/movement/forced-movement) type. Additionally, the [forced movement](scc:mcdm.heroes.v1/movement/forced-movement) [distance](scc:mcdm.heroes.v1/rule.combat/distance) gains a [bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) equal to your [Might](scc:mcdm.heroes.v1/rule.character/might) score.
 
-**Spend 1 Ferocity:** The [forced movement](scc:mcdm.heroes.v1/movement/forced-movement) [distance](scc:mcdm.heroes.v1/rule.combat/distance) gains a bonus equal to twice your [Might](scc:mcdm.heroes.v1/rule.character/might) score instead.
+**Spend 1 Ferocity:** The [forced movement](scc:mcdm.heroes.v1/movement/forced-movement) [distance](scc:mcdm.heroes.v1/rule.combat/distance) gains a [bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) equal to twice your [Might](scc:mcdm.heroes.v1/rule.character/might) score instead.

@@ -1,12 +1,12 @@
 ---
 action_type: Maneuver
 class: elementalist
-distance: Ranged 10
-effect: You open two [size](scc:mcdm.heroes.v1/rule.character/size) 1 portals in unoccupied spaces within [distance](scc:mcdm.heroes.v1/rule.combat/distance), which last until you move beyond [distance](scc:mcdm.heroes.v1/rule.combat/distance) from any portal, end the effect as a maneuver, or are [dying](scc:mcdm.heroes.v1/rule.health/dying). Each portal must be placed at a height of no more than 1 square above the ground. When you or any ally touch a portal, that creature can choose to be instantly [teleport](scc:mcdm.heroes.v1/movement/teleport)ed to an unoccupied space of their choice adjacent to the other portal. If an enemy is force moved into a portal, their [forced movement](scc:mcdm.heroes.v1/movement/forced-movement) ends and they emerge from the other portal in an unoccupied space chosen by the creature who force moved them.
+distance: '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 10'
+effect: You open two [size](scc:mcdm.heroes.v1/rule.character/size) 1 portals in unoccupied spaces within [distance](scc:mcdm.heroes.v1/rule.combat/distance), which last until you move beyond [distance](scc:mcdm.heroes.v1/rule.combat/distance) from any portal, end the effect as a maneuver, or are [dying](scc:mcdm.heroes.v1/rule.health/dying). Each portal must be placed at a height of no more than 1 square above the ground. When you or any ally touch a portal, that creature can choose to be instantly [teleport](scc:mcdm.heroes.v1/movement/teleport)ed to an unoccupied space of their choice [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the other portal. If an enemy is force moved into a portal, their [forced movement](scc:mcdm.heroes.v1/movement/forced-movement) ends and they emerge from the other portal in an unoccupied space chosen by the creature who force moved them.
 flavor: Knowledge of the mystery reveals that two spaces are the same space.
 keywords:
     - Magic
-    - Ranged
+    - '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)'
     - Void
 level: "2"
 name: There Is No Space Between
@@ -18,10 +18,10 @@ type: ability
 
 *Knowledge of the mystery reveals that two spaces are the same space.*
 
-| **Magic, Ranged, Void** |   **Maneuver** |
+| **Magic, [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged), Void** |   **Maneuver** |
 |-------------------------|---------------:|
-| **📏 Ranged 10**        | **🎯 Special** |
+| **📏 [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 10**        | **🎯 Special** |
 
-**Effect:** You open two [size](scc:mcdm.heroes.v1/rule.character/size) 1 portals in unoccupied spaces within [distance](scc:mcdm.heroes.v1/rule.combat/distance), which last until you move beyond [distance](scc:mcdm.heroes.v1/rule.combat/distance) from any portal, end the effect as a maneuver, or are [dying](scc:mcdm.heroes.v1/rule.health/dying). Each portal must be placed at a height of no more than 1 square above the ground. When you or any ally touch a portal, that creature can choose to be instantly [teleport](scc:mcdm.heroes.v1/movement/teleport)ed to an unoccupied space of their choice adjacent to the other portal. If an enemy is force moved into a portal, their [forced movement](scc:mcdm.heroes.v1/movement/forced-movement) ends and they emerge from the other portal in an unoccupied space chosen by the creature who force moved them.
+**Effect:** You open two [size](scc:mcdm.heroes.v1/rule.character/size) 1 portals in unoccupied spaces within [distance](scc:mcdm.heroes.v1/rule.combat/distance), which last until you move beyond [distance](scc:mcdm.heroes.v1/rule.combat/distance) from any portal, end the effect as a maneuver, or are [dying](scc:mcdm.heroes.v1/rule.health/dying). Each portal must be placed at a height of no more than 1 square above the ground. When you or any ally touch a portal, that creature can choose to be instantly [teleport](scc:mcdm.heroes.v1/movement/teleport)ed to an unoccupied space of their choice [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the other portal. If an enemy is force moved into a portal, their [forced movement](scc:mcdm.heroes.v1/movement/forced-movement) ends and they emerge from the other portal in an unoccupied space chosen by the creature who force moved them.
 
-At the start of each of your turns while the portals are active, you can open a new portal connected to the others. If three or more portals are present, you and your allies choose which portal to emerge from when entering a portal, and a creature who [force move](scc:mcdm.heroes.v1/movement/forced-movement)s an enemy into a portal chooses that enemy's destination portal.
+At the start of each of your [turns](scc:mcdm.heroes.v1/rule.combat/turn) while the portals are active, you can open a new portal connected to the others. If three or more portals are present, you and your allies choose which portal to emerge from when entering a portal, and a creature who [force move](scc:mcdm.heroes.v1/movement/forced-movement)s an enemy into a portal chooses that enemy's destination portal.

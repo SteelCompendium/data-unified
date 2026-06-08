@@ -2,12 +2,12 @@
 action_type: Main action
 class: tactician
 cost: 5 Focus
-distance: Melee 1 or ranged 5
+distance: '[Melee](scc:mcdm.heroes.v1/rule.combat/melee) 1 or [ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 5'
 effect: You mark the target.
 flavor: Your attack demoralizes your foe. Your allies begin to think you can win.
 keywords:
-    - Melee
-    - Ranged
+    - '[Melee](scc:mcdm.heroes.v1/rule.combat/melee)'
+    - '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)'
     - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
     - Weapon
 level: "1"
@@ -20,9 +20,9 @@ type: ability
 
 *Your attack demoralizes your foe. Your allies begin to think you can win.*
 
-| **Melee, Ranged, [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** |               **Main action** |
+| **[Melee](scc:mcdm.heroes.v1/rule.combat/melee), [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged), [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** |               **Main action** |
 |-----------------------------------|------------------------------:|
-| **📏 Melee 1 or ranged 5**        | **🎯 One creature or object** |
+| **📏 [Melee](scc:mcdm.heroes.v1/rule.combat/melee) 1 or [ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 5**        | **🎯 One creature or object** |
 
 **Effect:** You mark the target.
 
@@ -32,4 +32,4 @@ type: ability
 - **12-16:** 6 + M damage; R < AVERAGE, [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
 - **17+:** 10 + M damage; R < STRONG, [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
 
-**Effect:** Before the start of your next turn, the first time any ally deals damage to any target marked by you, that ally can spend a [Recovery](scc:mcdm.heroes.v1/rule.health/recoveries).
+**Effect:** Before the start of your next [turn](scc:mcdm.heroes.v1/rule.combat/turn), the first time any ally deals damage to any target marked by you, that ally can spend a [Recovery](scc:mcdm.heroes.v1/rule.health/recoveries).

@@ -3,7 +3,7 @@ action_type: Maneuver
 class: shadow
 cost: 7 Insight
 distance: Self
-effect: Until the end of the encounter, whenever an enemy moves or is [force moved](scc:mcdm.heroes.v1/movement/forced-movement) adjacent to you or damages you, you can take the [Disengage](scc:mcdm.heroes.v1/feature.common.move-actions/disengage) move action as a free [triggered action](scc:mcdm.heroes.v1/rule.combat/triggered-action).
+effect: Until the end of the encounter, whenever an enemy moves or is [force moved](scc:mcdm.heroes.v1/movement/forced-movement) [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to you or damages you, you can take the [Disengage](scc:mcdm.heroes.v1/feature.common.move-actions/disengage) move action as a free [triggered action](scc:mcdm.heroes.v1/rule.combat/triggered-action).
 flavor: You enter a flow state that makes you nearly impossible to pin down.
 keywords:
     - '-'
@@ -21,4 +21,4 @@ type: ability
 |-------------|-------------:|
 | **📏 Self** |  **🎯 Self** |
 
-**Effect:** Until the end of the encounter, whenever an enemy moves or is [force moved](scc:mcdm.heroes.v1/movement/forced-movement) adjacent to you or damages you, you can take the [Disengage](scc:mcdm.heroes.v1/feature.common.move-actions/disengage) move action as a free [triggered action](scc:mcdm.heroes.v1/rule.combat/triggered-action).
+**Effect:** Until the end of the encounter, whenever an enemy moves or is [force moved](scc:mcdm.heroes.v1/movement/forced-movement) [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to you or damages you, you can take the [Disengage](scc:mcdm.heroes.v1/feature.common.move-actions/disengage) move action as a free [triggered action](scc:mcdm.heroes.v1/rule.combat/triggered-action).

@@ -1,12 +1,12 @@
 ---
 action_type: Triggered
 class: conduit
-distance: Ranged 10
+distance: '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 10'
 effect: The [power roll](scc:mcdm.heroes.v1/rule.dice/power-roll) takes a [bane](scc:mcdm.heroes.v1/rule.dice/bane) against the target.
 flavor: Your holy word saps an attacking enemy's strength.
 keywords:
     - Magic
-    - Ranged
+    - '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)'
 level: "1"
 name: Word of Judgment
 scc: mcdm.heroes.v1/feature.ability.conduit.level-1/word-of-judgment
@@ -20,9 +20,9 @@ type: ability
 
 *Your holy word saps an attacking enemy's strength.*
 
-| **Magic, Ranged**  |     **Triggered** |
+| **Magic, [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)**  |     **Triggered** |
 |--------------------|------------------:|
-| **📏 Ranged 10**   |   **🎯 One ally** |
+| **📏 [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 10**   |   **🎯 One ally** |
 
 **Trigger:** The target would take damage from an ability that uses a [power roll](scc:mcdm.heroes.v1/rule.dice/power-roll).
 

@@ -6,4 +6,4 @@ scc: mcdm.heroes.v1/feature.conduit.level-7/font-of-grace
 type: feature
 ---
 
-Each time you use your [Healing Grace](scc:mcdm.heroes.v1/feature.ability.conduit.level-1/healing-grace) ability, you gain 1 piety that can be spent only on that ability during the same turn. If you don't use this piety, it is lost. Additionally, you can use your [Minor Miracle](scc:mcdm.heroes.v1/feature.conduit.level-3/minor-miracle) feature to return a creature to life even if you don't have their remains.
+Each time you use your [Healing Grace](scc:mcdm.heroes.v1/feature.ability.conduit.level-1/healing-grace) ability, you gain 1 piety that can be spent only on that ability during the same [turn](scc:mcdm.heroes.v1/rule.combat/turn). If you don't use this piety, it is lost. Additionally, you can use your [Minor Miracle](scc:mcdm.heroes.v1/feature.conduit.level-3/minor-miracle) feature to return a creature to life even if you don't have their remains.

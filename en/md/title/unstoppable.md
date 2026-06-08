@@ -12,6 +12,6 @@ type: title
 
 **Effect:** Choose one of the following benefits:
 
-- *From Hell's Heart:* While you are [winded](scc:mcdm.heroes.v1/rule.health/winded), your melee [strikes](scc:mcdm.heroes.v1/rule.combat/strike) gain a +3 damage bonus.
+- *From Hell's Heart:* While you are [winded](scc:mcdm.heroes.v1/rule.health/winded), your [melee](scc:mcdm.heroes.v1/rule.combat/melee) [strikes](scc:mcdm.heroes.v1/rule.combat/strike) gain a +3 damage [bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties).
 - *Furious Attack:* Choose one [signature ability](scc:mcdm.heroes.v1/rule.combat/signature-ability) from the [fury](scc:mcdm.heroes.v1/class/fury) class. You gain that ability regardless of whether your class and [subclass](scc:mcdm.heroes.v1/rule.general/subclass) allow you to take it. If this ability allows you to gain or spend ferocity, you can't do so unless you have the Ferocity class feature.
-- *Furious Charge:* When you use the [Charge](scc:mcdm.heroes.v1/feature.common.main-actions/charge) action, your [strike](scc:mcdm.heroes.v1/rule.combat/strike) made as part of that action gains a damage bonus equal to the number of squares you moved as part of the charge.
+- *Furious Charge:* When you use the [Charge](scc:mcdm.heroes.v1/feature.common.main-actions/charge) action, your [strike](scc:mcdm.heroes.v1/rule.combat/strike) made as part of that action gains a damage [bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) equal to the number of squares you moved as part of the charge.

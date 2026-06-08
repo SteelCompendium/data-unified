@@ -1,6 +1,5 @@
 ---
 equipment_text: You wear no armor and wield a heavy weapon.
-melee_damage_bonus: +0/+0/+4
 name: Panther
 scc: mcdm.heroes.v1/kit/panther
 type: kit
@@ -14,13 +13,13 @@ You wear no armor and wield a heavy weapon.
 
 ##### Kit Bonuses
 
-**[Stamina](scc:mcdm.heroes.v1/rule.health/stamina) Bonus:** +6 per [echelon](scc:mcdm.heroes.v1/rule.general/echelon)
+**[Stamina](scc:mcdm.heroes.v1/rule.health/stamina) [Bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties):** +6 per [echelon](scc:mcdm.heroes.v1/rule.general/echelon)
 
-**[Speed](scc:mcdm.heroes.v1/rule.character/speed) Bonus:** +1
+**[Speed](scc:mcdm.heroes.v1/rule.character/speed) [Bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties):** +1
 
-**[Stability](scc:mcdm.heroes.v1/rule.character/stability) Bonus:** +1
+**[Stability](scc:mcdm.heroes.v1/rule.character/stability) [Bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties):** +1
 
-**Melee Damage Bonus:** +0/+0/+4
+**[Melee](scc:mcdm.heroes.v1/rule.combat/melee) Damage [Bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties):** +0/+0/+4
 
 ##### Signature Ability
 
@@ -28,9 +27,9 @@ You wear no armor and wield a heavy weapon.
 
 *The faster you move, the harder you hit.*
 
-| **Melee, [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** |               **Main action** |
+| **[Melee](scc:mcdm.heroes.v1/rule.combat/melee), [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** |               **Main action** |
 |---------------------------|------------------------------:|
-| **📏 Melee 1**            | **🎯 One creature or object** |
+| **📏 [Melee](scc:mcdm.heroes.v1/rule.combat/melee) 1**            | **🎯 One creature or object** |
 
 **[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc:mcdm.heroes.v1/rule.character/might) or [Agility](scc:mcdm.heroes.v1/rule.character/agility):**
 

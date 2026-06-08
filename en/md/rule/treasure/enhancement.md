@@ -4,17 +4,17 @@ scc: mcdm.heroes.v1/rule.treasure/enhancement
 type: rule
 ---
 
-Armor imbued with an enhancement grants you special benefits while it is worn. Additionally, when your armor receives its 1st-level enhancement, it also grants a +6 bonus to [Stamina](scc:mcdm.heroes.v1/rule.health/stamina). A 5th-level enhancement increases the [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) bonus to +12, and a 9th-level enhancement increases it to +21.
+Armor imbued with an enhancement grants you special benefits while it is worn. Additionally, when your armor receives its 1st-level enhancement, it also grants a +6 [bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to [Stamina](scc:mcdm.heroes.v1/rule.health/stamina). A 5th-level enhancement increases the [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) [bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to +12, and a 9th-level enhancement increases it to +21.
 
 > **Clothing as Armor Treasures**
 >
-> A hero who has a kit that provides no armor, such as the [Martial Artist](scc:mcdm.heroes.v1/kit/martial-artist) or [Sniper](scc:mcdm.heroes.v1/kit/sniper) kit, can create and make use of leveled armor treasures that imbue mundane clothing with supernatural power. At the Director's discretion, heroes who don't use kits, such as [elementalists](scc:mcdm.heroes.v1/class/elementalist) and [nulls](scc:mcdm.heroes.v1/class/null), can also benefit from such treasures.
+> A hero who has a kit that provides no armor, such as the [Martial Artist](scc:mcdm.heroes.v1/kit/martial-artist) or [Sniper](scc:mcdm.heroes.v1/kit/sniper) kit, can create and make use of leveled armor treasures that imbue mundane clothing with [supernatural](scc:mcdm.heroes.v1/rule.general/supernatural) power. At the Director's discretion, heroes who don't use kits, such as [elementalists](scc:mcdm.heroes.v1/class/elementalist) and [nulls](scc:mcdm.heroes.v1/class/null), can also benefit from such treasures.
 
 ###### 1st-Level Armor Enhancement
 
 **[Item Prerequisite](scc:mcdm.heroes.v1/rule.downtime/item-prerequisite):** Varies
 
-**[Project Source](scc:mcdm.heroes.v1/rule.downtime/project-source):** Texts or lore in a language determined by the enhancement
+**[Project Source](scc:mcdm.heroes.v1/rule.downtime/project-source):** Texts or lore in a language determined by the [enhancement](scc:mcdm.heroes.v1/rule.treasure/enhancement)
 
 **[Project Roll](scc:mcdm.heroes.v1/rule.downtime/project-roll) [Characteristic](scc:mcdm.heroes.v1/rule.character/characteristic):** [Might](scc:mcdm.heroes.v1/rule.character/might), [Reason](scc:mcdm.heroes.v1/rule.character/reason), or [Intuition](scc:mcdm.heroes.v1/rule.character/intuition)
 
@@ -26,23 +26,23 @@ Armor imbued with an enhancement grants you special benefits while it is worn. A
 
 **Disguise:** You can use a maneuver to cause this armor to take the form of any type of clothing that you have been in the presence of—a noble's dress, a guard's uniform, a cultist's robes, and so forth. The armor loses none of its protective qualities while transformed into other clothing.
 
-**Iridescent:** When you are the sole target of an ability, you can use a free [triggered action](scc:mcdm.heroes.v1/rule.combat/triggered-action) to reveal that the ability was targeting an afterimage of you in the same space as you. The [power roll](scc:mcdm.heroes.v1/rule.dice/power-roll) for the ability is treated as an 11. You can't use this enhancement again until you earn 1 or more [Victories](scc:mcdm.heroes.v1/rule.resource/victories).
+**Iridescent:** When you are the sole target of an ability, you can use a free [triggered action](scc:mcdm.heroes.v1/rule.combat/triggered-action) to reveal that the ability was targeting an afterimage of you in the same space as you. The [power roll](scc:mcdm.heroes.v1/rule.dice/power-roll) for the ability is treated as an 11. You can't use this [enhancement](scc:mcdm.heroes.v1/rule.treasure/enhancement) again until you earn 1 or more [Victories](scc:mcdm.heroes.v1/rule.resource/victories).
 
 **Magic Resistance I:** Your [characteristic](scc:mcdm.heroes.v1/rule.character/characteristic) scores are treated as 1 higher (to a maximum of 2) for the purpose of resisting the [potencies](scc:mcdm.heroes.v1/rule.character/potency) of magic abilities.
 
-**Nettlebloom:** Whenever you are [grabbed](scc:mcdm.heroes.v1/condition/grabbed) by an adjacent creature, your armor sprouts toxic nettles. While that creature has you [grabbed](scc:mcdm.heroes.v1/condition/grabbed), they are [weakened](scc:mcdm.heroes.v1/condition/weakened).
+**Nettlebloom:** Whenever you are [grabbed](scc:mcdm.heroes.v1/condition/grabbed) by an [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) creature, your armor sprouts toxic nettles. While that creature has you [grabbed](scc:mcdm.heroes.v1/condition/grabbed), they are [weakened](scc:mcdm.heroes.v1/condition/weakened).
 
-**Phasing I:** Once per turn, you can move through 1 square of solid matter. If you end your turn inside solid matter, you are forced out into the space from which you entered it and you take 5 damage that can't be reduced in any way.
+**Phasing I:** Once per [turn](scc:mcdm.heroes.v1/rule.combat/turn), you can move through 1 square of solid matter. If you end your [turn](scc:mcdm.heroes.v1/rule.combat/turn) inside solid matter, you are forced out into the space from which you entered it and you take 5 damage that can't be reduced in any way.
 
 **Psionic Resistance I:** Your [characteristic](scc:mcdm.heroes.v1/rule.character/characteristic) scores are treated as 1 higher (to a maximum of 2) for the purpose of resisting the [potencies](scc:mcdm.heroes.v1/rule.character/potency) of psionic abilities.
 
-**Swift:** You gain a +1 bonus to [speed](scc:mcdm.heroes.v1/rule.character/speed).
+**Swift:** You gain a +1 [bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to [speed](scc:mcdm.heroes.v1/rule.character/speed).
 
-**Tempest I:** As a maneuver, you infuse this armor with the essence of a storm. The first time an adjacent creature deals damage to you before the end of your next turn, they take lightning damage equal to your highest [characteristic](scc:mcdm.heroes.v1/rule.character/characteristic) score and you can push them 1 square.
+**Tempest I:** As a maneuver, you infuse this armor with the essence of a storm. The first time an [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) creature deals damage to you before the end of your next [turn](scc:mcdm.heroes.v1/rule.combat/turn), they take lightning damage equal to your highest [characteristic](scc:mcdm.heroes.v1/rule.character/characteristic) score and you can push them 1 square.
 
 ###### 1st-Level Armor Enhancements Table
 
-| Enhancement          | [Item Prerequisite](scc:mcdm.heroes.v1/rule.downtime/item-prerequisite)                                                                                | [Project Source](scc:mcdm.heroes.v1/rule.downtime/project-source) Language |
+| [Enhancement](scc:mcdm.heroes.v1/rule.treasure/enhancement)          | [Item Prerequisite](scc:mcdm.heroes.v1/rule.downtime/item-prerequisite)                                                                                | [Project Source](scc:mcdm.heroes.v1/rule.downtime/project-source) Language |
 |----------------------|--------------------------------------------------------------------------------------------------|-------------------------|
 | Awe                  | A lock of hair from a fey, taken in amicable bargain for Charming or in violence for Threatening | Khelt                   |
 | [Damage Immunity](scc:mcdm.heroes.v1/rule.damage/damage-immunity) I    | Elemental sand left behind when an elemental enters [Orden](scc:mcdm.heroes.v1/rule.world/orden) from Quintessence                      | Zaliac                  |
@@ -57,9 +57,9 @@ Armor imbued with an enhancement grants you special benefits while it is worn. A
 
 ###### 5th-Level Armor Enhancement
 
-**[Item Prerequisite](scc:mcdm.heroes.v1/rule.downtime/item-prerequisite):** Armor with a 1st-level enhancement; varies
+**[Item Prerequisite](scc:mcdm.heroes.v1/rule.downtime/item-prerequisite):** Armor with a 1st-level [enhancement](scc:mcdm.heroes.v1/rule.treasure/enhancement); varies
 
-**[Project Source](scc:mcdm.heroes.v1/rule.downtime/project-source):** Texts or lore in a language determined by the enhancement
+**[Project Source](scc:mcdm.heroes.v1/rule.downtime/project-source):** Texts or lore in a language determined by the [enhancement](scc:mcdm.heroes.v1/rule.treasure/enhancement)
 
 **[Project Roll](scc:mcdm.heroes.v1/rule.downtime/project-roll) [Characteristic](scc:mcdm.heroes.v1/rule.character/characteristic):** [Might](scc:mcdm.heroes.v1/rule.character/might), [Reason](scc:mcdm.heroes.v1/rule.character/reason), or [Intuition](scc:mcdm.heroes.v1/rule.character/intuition)
 
@@ -79,25 +79,25 @@ You can use an absorbed ability as if you knew it, making [power rolls](scc:mcdm
 - **12-16:** 12 damage; push 4
 - **17+:** 15 damage; push 5
 
-**Levitating:** On your turn, you can treat up to 5 consecutive squares of movement as [flying](scc:mcdm.heroes.v1/movement/fly) movement. If you are still in midair at the end of your turn, you [fall prone](scc:mcdm.heroes.v1/condition/prone).
+**Levitating:** On your [turn](scc:mcdm.heroes.v1/rule.combat/turn), you can treat up to 5 consecutive squares of movement as [flying](scc:mcdm.heroes.v1/movement/fly) movement. If you are still in midair at the end of your [turn](scc:mcdm.heroes.v1/rule.combat/turn), you [fall prone](scc:mcdm.heroes.v1/condition/prone).
 
 **Magic Resistance II:** Your [characteristic](scc:mcdm.heroes.v1/rule.character/characteristic) scores are treated as 2 higher (to a maximum of 3) for the purpose of resisting the [potencies](scc:mcdm.heroes.v1/rule.character/potency) of magic abilities. This benefit replaces Magic Resistance I.
 
-**Phasing II:** When you use the armor's Phasing I enhancement, you can move through 3 squares of solid matter per turn.
+**Phasing II:** When you use the armor's Phasing I [enhancement](scc:mcdm.heroes.v1/rule.treasure/enhancement), you can move through 3 squares of solid matter per [turn](scc:mcdm.heroes.v1/rule.combat/turn).
 
 **Psionic Resistance II:** Your [characteristic](scc:mcdm.heroes.v1/rule.character/characteristic) scores are treated as 2 higher (to a maximum of 3) for the purpose of resisting the [potencies](scc:mcdm.heroes.v1/rule.character/potency) of psionic abilities. This benefit replaces Psionic Resistance I.
 
-**Reactive:** Whenever you take damage, you have [damage immunity](scc:mcdm.heroes.v1/rule.damage/damage-immunity) 2 until the end of your next turn after the triggering damage is resolved.
+**Reactive:** Whenever you take damage, you have [damage immunity](scc:mcdm.heroes.v1/rule.damage/damage-immunity) 2 until the end of your next [turn](scc:mcdm.heroes.v1/rule.combat/turn) after the triggering damage is resolved.
 
 **Second Wind:** Whenever you become [winded](scc:mcdm.heroes.v1/rule.health/winded), you can use a free [triggered action](scc:mcdm.heroes.v1/rule.combat/triggered-action) to spend a [Recovery](scc:mcdm.heroes.v1/rule.health/recoveries).
 
 **Shattering:** Whenever an enemy scores a [critical hit](scc:mcdm.heroes.v1/rule.combat/critical-hit) against you, they take 10 sonic damage.
 
-**Tempest II:** When you use the armor's Tempest I enhancement, the affected creature takes 8 lightning damage and you push them up to 3 squares.
+**Tempest II:** When you use the armor's Tempest I [enhancement](scc:mcdm.heroes.v1/rule.treasure/enhancement), the affected creature takes 8 lightning damage and you push them up to 3 squares.
 
 ###### 5th-Level Armor Enhancements Table
 
-| Enhancement           | [Item Prerequisite](scc:mcdm.heroes.v1/rule.downtime/item-prerequisite)                                                                 | [Project Source](scc:mcdm.heroes.v1/rule.downtime/project-source) Language |
+| [Enhancement](scc:mcdm.heroes.v1/rule.treasure/enhancement)           | [Item Prerequisite](scc:mcdm.heroes.v1/rule.downtime/item-prerequisite)                                                                 | [Project Source](scc:mcdm.heroes.v1/rule.downtime/project-source) Language |
 |-----------------------|-----------------------------------------------------------------------------------|-------------------------|
 | Absorption            | A mirror blessed by a priest of a god of magic                                    | The First Language      |
 | [Damage Immunity](scc:mcdm.heroes.v1/rule.damage/damage-immunity) II    | The essence of an elemental who is still alive                                    | Zaliac                  |
@@ -113,9 +113,9 @@ You can use an absorbed ability as if you knew it, making [power rolls](scc:mcdm
 
 ###### 9th-Level Armor Enhancement
 
-**[Item Prerequisite](scc:mcdm.heroes.v1/rule.downtime/item-prerequisite):** Armor with a 5th-level enhancement; varies
+**[Item Prerequisite](scc:mcdm.heroes.v1/rule.downtime/item-prerequisite):** Armor with a 5th-level [enhancement](scc:mcdm.heroes.v1/rule.treasure/enhancement); varies
 
-**[Project Source](scc:mcdm.heroes.v1/rule.downtime/project-source):** Texts or lore in a language determined by the enhancement
+**[Project Source](scc:mcdm.heroes.v1/rule.downtime/project-source):** Texts or lore in a language determined by the [enhancement](scc:mcdm.heroes.v1/rule.treasure/enhancement)
 
 **[Project Roll](scc:mcdm.heroes.v1/rule.downtime/project-roll) [Characteristic](scc:mcdm.heroes.v1/rule.character/characteristic):** [Might](scc:mcdm.heroes.v1/rule.character/might), [Reason](scc:mcdm.heroes.v1/rule.character/reason), or [Intuition](scc:mcdm.heroes.v1/rule.character/intuition)
 
@@ -127,13 +127,13 @@ You can use an absorbed ability as if you knew it, making [power rolls](scc:mcdm
 
 ###### 9th-Level Armor Enhancements Table
 
-| Enhancement            | [Item Prerequisite](scc:mcdm.heroes.v1/rule.downtime/item-prerequisite)                                                                                    | [Project Source](scc:mcdm.heroes.v1/rule.downtime/project-source) Language |
+| [Enhancement](scc:mcdm.heroes.v1/rule.treasure/enhancement)            | [Item Prerequisite](scc:mcdm.heroes.v1/rule.downtime/item-prerequisite)                                                                                    | [Project Source](scc:mcdm.heroes.v1/rule.downtime/project-source) Language |
 |------------------------|------------------------------------------------------------------------------------------------------|-------------------------|
 | Devil's Bargain        | The wing of an archdevil                                                                             | Anjali                  |
 | Dragon Soul II         | An offering of gems, coins, and art stolen from a dragon's hoard, sacrificed in ritual fire          | Vastariax               |
 | Invulnerable           | Repurposed metal plates from a servok war engine                                                     | Rallarian               |
 | Leyline Walker         | A cutting from an ethereal tree that manifests in the mundane world only once a year                 | Yllyric                 |
-| Life                   | The tear of a saint                                                                                  | High Kuric              |
+| Life                   | The tear of a [saint](scc:mcdm.heroes.v1/rule.world/saint)                                                                                  | High Kuric              |
 | Magic Resistance III   | A scale from an ancient dragon                                                                       | The First Language      |
 | Phasing III            | Perfectly clear glass from a house that disappeared into the Ethereal Plane                          | Szetch                  |
 | Psionic Resistance III | The skull of a voiceless talker at least a century old                                               | Voll                    |

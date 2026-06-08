@@ -1,6 +1,6 @@
 ---
 echelon: "2"
-effect: As a maneuver, you throw this vial up to 10 squares, destroying the vial and creating a 2-[cube](scc:mcdm.heroes.v1/rule.combat/cube) ethereal vortex centered on the spot where it lands. The vortex dissipates at the end of the encounter or when you dismiss it (no action required). Any creature who enters the vortex for the first time in a combat round or starts their turn there takes 10 psychic damage. At the start of each of your turns, you can move the vortex up to 5 squares (no action required).
+effect: As a maneuver, you throw this vial up to 10 squares, destroying the vial and creating a 2-[cube](scc:mcdm.heroes.v1/rule.combat/cube) ethereal vortex centered on the spot where it lands. The vortex dissipates at the end of the encounter or when you dismiss it (no action required). Any creature who enters the vortex for the first time in a [combat round](scc:mcdm.heroes.v1/rule.combat/combat-round) or starts their turn there takes 10 psychic damage. At the start of each of your [turns](scc:mcdm.heroes.v1/rule.combat/turn), you can move the vortex up to 5 squares (no action required).
 keywords:
     - Psionic
 name: Vial of Ethereal Attack
@@ -21,4 +21,4 @@ type: treasure
 
 **Project Goal:** 90
 
-**Effect:** As a maneuver, you throw this vial up to 10 squares, destroying the vial and creating a 2-[cube](scc:mcdm.heroes.v1/rule.combat/cube) ethereal vortex centered on the spot where it lands. The vortex dissipates at the end of the encounter or when you dismiss it (no action required). Any creature who enters the vortex for the first time in a combat round or starts their turn there takes 10 psychic damage. At the start of each of your turns, you can move the vortex up to 5 squares (no action required).
+**Effect:** As a maneuver, you throw this vial up to 10 squares, destroying the vial and creating a 2-[cube](scc:mcdm.heroes.v1/rule.combat/cube) ethereal vortex centered on the spot where it lands. The vortex dissipates at the end of the encounter or when you dismiss it (no action required). Any creature who enters the vortex for the first time in a [combat round](scc:mcdm.heroes.v1/rule.combat/combat-round) or starts their turn there takes 10 psychic damage. At the start of each of your [turns](scc:mcdm.heroes.v1/rule.combat/turn), you can move the vortex up to 5 squares (no action required).

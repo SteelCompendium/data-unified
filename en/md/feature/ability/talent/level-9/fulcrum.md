@@ -31,4 +31,4 @@ type: ability
 - **12-16:** 3 [burst](scc:mcdm.heroes.v1/rule.combat/burst)
 - **17+:** 4 [burst](scc:mcdm.heroes.v1/rule.combat/burst)
 
-**Strained:** You can choose to reduce the size of the [burst](scc:mcdm.heroes.v1/rule.combat/burst) by 2 (to a minimum of 1 [burst](scc:mcdm.heroes.v1/rule.combat/burst)) to give the [forced movement](scc:mcdm.heroes.v1/movement/forced-movement) [distance](scc:mcdm.heroes.v1/rule.combat/distance) a +2 bonus. You take half the total damage all targets take from [forced movement](scc:mcdm.heroes.v1/movement/forced-movement).
+**Strained:** You can choose to reduce the size of the [burst](scc:mcdm.heroes.v1/rule.combat/burst) by 2 (to a minimum of 1 [burst](scc:mcdm.heroes.v1/rule.combat/burst)) to give the [forced movement](scc:mcdm.heroes.v1/movement/forced-movement) [distance](scc:mcdm.heroes.v1/rule.combat/distance) a +2 [bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties). You take half the total damage all targets take from [forced movement](scc:mcdm.heroes.v1/movement/forced-movement).

@@ -3,7 +3,7 @@ action_type: Maneuver
 class: troubadour
 cost: 9 Drama
 distance: 4 [burst](scc:mcdm.heroes.v1/rule.combat/burst)
-effect: Each target gains 1 [surge](scc:mcdm.heroes.v1/rule.resource/surge), then gains 1 [surge](scc:mcdm.heroes.v1/rule.resource/surge) at the start of each combat round until the end of the encounter.
+effect: Each target gains 1 [surge](scc:mcdm.heroes.v1/rule.resource/surge), then gains 1 [surge](scc:mcdm.heroes.v1/rule.resource/surge) at the start of each [combat round](scc:mcdm.heroes.v1/rule.combat/combat-round) until the end of the encounter.
 flavor: You start a drumroll that roars like thunder with every impact the heroes make.
 keywords:
     - Area
@@ -22,4 +22,4 @@ type: ability
 |-----------------|--------------------------------------:|
 | **📏 4 [burst](scc:mcdm.heroes.v1/rule.combat/burst)**  | **🎯 Self and each ally in the area** |
 
-**Effect:** Each target gains 1 [surge](scc:mcdm.heroes.v1/rule.resource/surge), then gains 1 [surge](scc:mcdm.heroes.v1/rule.resource/surge) at the start of each combat round until the end of the encounter.
+**Effect:** Each target gains 1 [surge](scc:mcdm.heroes.v1/rule.resource/surge), then gains 1 [surge](scc:mcdm.heroes.v1/rule.resource/surge) at the start of each [combat round](scc:mcdm.heroes.v1/rule.combat/combat-round) until the end of the encounter.

@@ -10,9 +10,9 @@ By observing your enemy, you learn how to use their weaknesses against them, bui
 
 ##### Insight in Combat
 
-At the start of a combat encounter or some other stressful situation tracked in combat rounds (as determined by the Director), you gain insight equal to your [Victories](scc:mcdm.heroes.v1/rule.resource/victories). At the start of each of your turns during combat, you gain 1d3 insight.
+At the start of a combat encounter or some other stressful situation tracked in [combat rounds](scc:mcdm.heroes.v1/rule.combat/combat-round) (as determined by the Director), you gain insight equal to your [Victories](scc:mcdm.heroes.v1/rule.resource/victories). At the start of each of your [turns](scc:mcdm.heroes.v1/rule.combat/turn) during combat, you gain 1d3 insight.
 
-Additionally, the first time each combat round that you deal damage incorporating 1 or more [surges](scc:mcdm.heroes.v1/rule.resource/surge), you gain 1 insight.
+Additionally, the first time each [combat round](scc:mcdm.heroes.v1/rule.combat/combat-round) that you deal damage incorporating 1 or more [surges](scc:mcdm.heroes.v1/rule.resource/surge), you gain 1 insight.
 
 Whenever you use a [heroic ability](scc:mcdm.heroes.v1/rule.general/heroic-ability) that makes use of a [power roll](scc:mcdm.heroes.v1/rule.dice/power-roll), that ability costs 1 fewer insight if you have an [edge](scc:mcdm.heroes.v1/rule.dice/edge) or double [edge](scc:mcdm.heroes.v1/rule.dice/edge) on it. If the ability has multiple targets, the cost is reduced even if the ability gains an [edge](scc:mcdm.heroes.v1/rule.dice/edge) or has a double [edge](scc:mcdm.heroes.v1/rule.dice/edge) against only one target.
 

@@ -5,7 +5,7 @@ effect: You can [shift](scc:mcdm.heroes.v1/movement/shifting) up to 2 squares be
 flavor: Foes who try to close in around you do so at their peril.
 keywords:
     - Area
-    - Melee
+    - '[Melee](scc:mcdm.heroes.v1/rule.combat/melee)'
     - Weapon
 kit: corven
 name: Wing Buffet
@@ -17,7 +17,7 @@ type: ability
 
 *Foes who try to close in around you do so at their peril.*
 
-| **Area, Melee, Weapon** |               **Main action** |
+| **Area, [Melee](scc:mcdm.heroes.v1/rule.combat/melee), Weapon** |               **Main action** |
 |-------------------------|------------------------------:|
 | **📏 1 [burst](scc:mcdm.heroes.v1/rule.combat/burst)**          | **🎯 Each enemy in the area** |
 

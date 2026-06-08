@@ -23,7 +23,7 @@ type: title
 > |-----------------|--------------------------------------------:|
 > | **📏 5 [burst](scc:mcdm.heroes.v1/rule.combat/burst)**  | **🎯 Each enemy in the area hidden to you** |
 >
-> **Effect:** Each target who has P < AVERAGE is [taunted](scc:mcdm.heroes.v1/condition/taunted) by you until the end of their next turn, and you know the location of each creature [taunted](scc:mcdm.heroes.v1/condition/taunted) in this way.
+> **Effect:** Each target who has P < AVERAGE is [taunted](scc:mcdm.heroes.v1/condition/taunted) by you until the end of their next [turn](scc:mcdm.heroes.v1/rule.combat/turn), and you know the location of each creature [taunted](scc:mcdm.heroes.v1/condition/taunted) in this way.
 
-- *Deadly and Big:* Your [strikes](scc:mcdm.heroes.v1/rule.combat/strike) gain a +3 damage bonus against creatures whose [size](scc:mcdm.heroes.v1/rule.character/size) is smaller than yours.
+- *Deadly and Big:* Your [strikes](scc:mcdm.heroes.v1/rule.combat/strike) gain a +3 damage [bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) against creatures whose [size](scc:mcdm.heroes.v1/rule.character/size) is smaller than yours.
 - *Everybody Move!:* When you use the [Knockback](scc:mcdm.heroes.v1/feature.common.maneuvers/knockback) maneuver, you can target one additional creature of your [size](scc:mcdm.heroes.v1/rule.character/size) or two additional smaller creatures.

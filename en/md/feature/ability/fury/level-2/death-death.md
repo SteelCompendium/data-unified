@@ -2,10 +2,10 @@
 action_type: Main action
 class: fury
 cost: 5 Ferocity
-distance: Melee 1
+distance: '[Melee](scc:mcdm.heroes.v1/rule.combat/melee) 1'
 flavor: Your unbridled rage strikes terror in their hearts.
 keywords:
-    - Melee
+    - '[Melee](scc:mcdm.heroes.v1/rule.combat/melee)'
     - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
     - Weapon
 level: "2"
@@ -18,9 +18,9 @@ type: ability
 
 *Your unbridled rage strikes terror in their hearts.*
 
-| **Melee, [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** |     **Main action** |
+| **[Melee](scc:mcdm.heroes.v1/rule.combat/melee), [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** |     **Main action** |
 |---------------------------|--------------------:|
-| **📏 Melee 1**            | **🎯 One creature** |
+| **📏 [Melee](scc:mcdm.heroes.v1/rule.combat/melee) 1**            | **🎯 One creature** |
 
 **[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc:mcdm.heroes.v1/rule.character/might):**
 

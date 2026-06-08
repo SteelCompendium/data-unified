@@ -14,4 +14,4 @@ type: title
 
 - *Bounce Back Fast:* Whenever you rest for 8 hours or more, you can gain the benefit of a [respite](scc:mcdm.heroes.v1/rule.resource/respite). Once you use this benefit, you can't use it again until you have taken a regular [respite](scc:mcdm.heroes.v1/rule.resource/respite).
 - *Reserves of Strength:* Your [recovery value](scc:mcdm.heroes.v1/rule.health/recoveries) is half your [Stamina](scc:mcdm.heroes.v1/rule.health/stamina)
-- *Undying:* You can't be affected by the [bleeding](scc:mcdm.heroes.v1/condition/bleeding) condition.
+- *Undying:* You can't be affected by the [bleeding](scc:mcdm.heroes.v1/condition/bleeding) [condition](scc:mcdm.heroes.v1/rule.combat/condition).

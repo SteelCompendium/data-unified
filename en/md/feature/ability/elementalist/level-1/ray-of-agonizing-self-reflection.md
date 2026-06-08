@@ -1,11 +1,11 @@
 ---
 action_type: Main action
 class: elementalist
-distance: Ranged 10
+distance: '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 10'
 flavor: You inflict pain and doubt in equal measure.
 keywords:
     - Magic
-    - Ranged
+    - '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)'
     - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
     - Void
 level: "1"
@@ -19,9 +19,9 @@ type: ability
 
 *You inflict pain and doubt in equal measure.*
 
-| **Magic, Ranged, [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Void** |               **Main action** | 
+| **Magic, [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged), [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Void** |               **Main action** | 
 |---------------------------------|------------------------------:|
-| **📏 Ranged 10**                | **🎯 One creature or object** |
+| **📏 [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 10**                | **🎯 One creature or object** |
 
 **[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Reason](scc:mcdm.heroes.v1/rule.character/reason):**
 

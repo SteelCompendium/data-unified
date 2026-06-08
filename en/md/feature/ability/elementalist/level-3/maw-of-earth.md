@@ -9,7 +9,7 @@ keywords:
     - Area
     - Earth
     - Magic
-    - Ranged
+    - '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)'
 level: "3"
 name: Maw of Earth
 scc: mcdm.heroes.v1/feature.ability.elementalist.level-3/maw-of-earth
@@ -20,7 +20,7 @@ type: ability
 
 *You open up the ground, spewing out shrapnel of stone and debris.*
 
-| **Area, Earth, Magic, Ranged** |                **Main action** |
+| **Area, Earth, Magic, [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)** |                **Main action** |
 |--------------------------------|-------------------------------:|
 | **📏 3 [cube](scc:mcdm.heroes.v1/rule.combat/cube) within 10**        |  **🎯 Each enemy in the area** |
 

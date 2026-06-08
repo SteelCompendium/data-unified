@@ -2,12 +2,12 @@
 action_type: Main action
 class: talent
 cost: 11 Clarity
-distance: Ranged 10
+distance: '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 10'
 effect: This ability ignores [cover](scc:mcdm.heroes.v1/rule.combat/cover) and [concealment](scc:mcdm.heroes.v1/rule.combat/concealment).
 flavor: You fire a telepathic bolt empowered by every consciousness within reach directly into your foe's mind.
 keywords:
     - Psionic
-    - Ranged
+    - '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)'
     - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
     - Telepathy
 level: "9"
@@ -20,9 +20,9 @@ type: ability
 
 *You fire a telepathic bolt empowered by every consciousness within reach directly into your foe's mind.*
 
-| **Psionic, Ranged, [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Telepathy** |     **Main action** |
+| **Psionic, [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged), [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Telepathy** |     **Main action** |
 | ------------------------------------|--------------------:|
-| **📏 Ranged 10**  | **🎯 One creature** |
+| **📏 [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 10**  | **🎯 One creature** |
 
 **[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Reason](scc:mcdm.heroes.v1/rule.character/reason):**
 

@@ -28,7 +28,7 @@ Though you can't freely push, pull, or slide a target up and down unless that [f
 
 ##### Big Versus Little
 
-When a larger creature force moves a smaller target with a melee weapon ability, the [distance](scc:mcdm.heroes.v1/rule.combat/distance) of the [forced movement](scc:mcdm.heroes.v1/movement/forced-movement) is increased by 1. If a smaller creature force moves a larger target with a melee weapon ability, the [distance](scc:mcdm.heroes.v1/rule.combat/distance) doesn't change.
+When a larger creature force moves a smaller target with a [melee](scc:mcdm.heroes.v1/rule.combat/melee) weapon ability, the [distance](scc:mcdm.heroes.v1/rule.combat/distance) of the [forced movement](scc:mcdm.heroes.v1/movement/forced-movement) is increased by 1. If a smaller creature force moves a larger target with a [melee](scc:mcdm.heroes.v1/rule.combat/melee) weapon ability, the [distance](scc:mcdm.heroes.v1/rule.combat/distance) doesn't change.
 
 ##### Slamming into Creatures
 

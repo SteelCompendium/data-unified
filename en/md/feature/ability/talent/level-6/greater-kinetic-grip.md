@@ -2,11 +2,11 @@
 action_type: Main action
 class: talent
 cost: 9 Clarity
-distance: Ranged 10
+distance: '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 10'
 flavor: You raise the target into the air without breaking a sweat.
 keywords:
     - Psionic
-    - Ranged
+    - '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)'
     - Strike
     - Telekinesis
 level: "6"
@@ -19,9 +19,9 @@ type: ability
 
 *You raise the target into the air without breaking a sweat.*
 
-| **Psionic, Ranged**, **Strike, Telekinesis** |               **Main action** |
+| **Psionic, [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)**, **Strike, Telekinesis** |               **Main action** |
 |----------------------------------------------|------------------------------:|
-| **📏 Ranged 10**                             | **🎯 One creature or object** |
+| **📏 [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 10**                             | **🎯 One creature or object** |
 
 **[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Reason](scc:mcdm.heroes.v1/rule.character/reason):**
 

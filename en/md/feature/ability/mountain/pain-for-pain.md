@@ -1,10 +1,10 @@
 ---
 action_type: Main action
-distance: Melee 1
-effect: If the target dealt damage to you since the end of your last turn, this [strike](scc:mcdm.heroes.v1/rule.combat/strike) deals additional damage equal to your [Might](scc:mcdm.heroes.v1/rule.character/might) or [Agility](scc:mcdm.heroes.v1/rule.character/agility) score (your choice).
+distance: '[Melee](scc:mcdm.heroes.v1/rule.combat/melee) 1'
+effect: If the target dealt damage to you since the end of your last [turn](scc:mcdm.heroes.v1/rule.combat/turn), this [strike](scc:mcdm.heroes.v1/rule.combat/strike) deals additional damage equal to your [Might](scc:mcdm.heroes.v1/rule.character/might) or [Agility](scc:mcdm.heroes.v1/rule.character/agility) score (your choice).
 flavor: An enemy who tagged you will pay for that.
 keywords:
-    - Melee
+    - '[Melee](scc:mcdm.heroes.v1/rule.combat/melee)'
     - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
     - Weapon
 kit: mountain
@@ -17,9 +17,9 @@ type: ability
 
 *An enemy who tagged you will pay for that.*
 
-| **Melee, [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** |     **Main action** |
+| **[Melee](scc:mcdm.heroes.v1/rule.combat/melee), [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** |     **Main action** |
 |---------------------------|--------------------:|
-| **📏 Melee 1**            | **🎯 One creature** |
+| **📏 [Melee](scc:mcdm.heroes.v1/rule.combat/melee) 1**            | **🎯 One creature** |
 
 **[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc:mcdm.heroes.v1/rule.character/might) or [Agility](scc:mcdm.heroes.v1/rule.character/agility):**
 
@@ -27,4 +27,4 @@ type: ability
 - **12-16:** 5 + M or A damage
 - **17+:** 13 + M or A damage
 
-**Effect:** If the target dealt damage to you since the end of your last turn, this [strike](scc:mcdm.heroes.v1/rule.combat/strike) deals additional damage equal to your [Might](scc:mcdm.heroes.v1/rule.character/might) or [Agility](scc:mcdm.heroes.v1/rule.character/agility) score (your choice).
+**Effect:** If the target dealt damage to you since the end of your last [turn](scc:mcdm.heroes.v1/rule.combat/turn), this [strike](scc:mcdm.heroes.v1/rule.combat/strike) deals additional damage equal to your [Might](scc:mcdm.heroes.v1/rule.character/might) or [Agility](scc:mcdm.heroes.v1/rule.character/agility) score (your choice).

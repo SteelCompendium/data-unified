@@ -1,12 +1,12 @@
 ---
 action_type: Triggered
 class: conduit
-distance: Ranged 10
+distance: '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 10'
 effect: The [power roll](scc:mcdm.heroes.v1/rule.dice/power-roll) gains an [edge](scc:mcdm.heroes.v1/rule.dice/edge).
 flavor: You invigorate an attacking ally with divine energy.
 keywords:
     - Magic
-    - Ranged
+    - '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)'
 level: "1"
 name: Word of Guidance
 scc: mcdm.heroes.v1/feature.ability.conduit.level-1/word-of-guidance
@@ -20,9 +20,9 @@ type: ability
 
 *You invigorate an attacking ally with divine energy.*
 
-| **Magic, Ranged**      |        **Triggered** |
+| **Magic, [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)**      |        **Triggered** |
 |------------------------|---------------------:|
-| **📏 Ranged 10**       |      **🎯 One ally** |
+| **📏 [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 10**       |      **🎯 One ally** |
 
 **Trigger:** The target makes an [ability roll](scc:mcdm.heroes.v1/rule.dice/ability-roll) for a damage-dealing ability.
 

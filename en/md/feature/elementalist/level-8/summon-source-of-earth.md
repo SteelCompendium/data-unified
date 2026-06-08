@@ -33,9 +33,9 @@ You have the following ability.
 >
 >> **Boulder Bash**
 >>
->> | **Melee, Ranged, [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** |                 **Signature** |
+>> | **[Melee](scc:mcdm.heroes.v1/rule.combat/melee), [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged), [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** |                 **Signature** |
 >> |-----------------------------------|------------------------------:|
->> | **📏 Melee 2 or ranged 10**       | **🎯 One creature or object** |
+>> | **📏 [Melee](scc:mcdm.heroes.v1/rule.combat/melee) 2 or [ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 10**       | **🎯 One creature or object** |
 >>
 >> **[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + 3:**
 >>

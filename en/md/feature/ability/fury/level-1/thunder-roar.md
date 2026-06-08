@@ -7,7 +7,7 @@ effect: The targets are [force moved](scc:mcdm.heroes.v1/movement/forced-movemen
 flavor: You unleash a howl that hurls your enemies back.
 keywords:
     - Area
-    - Melee
+    - '[Melee](scc:mcdm.heroes.v1/rule.combat/melee)'
     - Weapon
 level: "1"
 name: Thunder Roar
@@ -19,7 +19,7 @@ type: ability
 
 *You unleash a howl that hurls your enemies back.*
 
-| **Area, Melee, Weapon**    |               **Main action** |
+| **Area, [Melee](scc:mcdm.heroes.v1/rule.combat/melee), Weapon**    |               **Main action** |
 |----------------------------|------------------------------:|
 | **📏 5 x 1 line within 1** | **🎯 Each enemy in the area** |
 

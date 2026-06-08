@@ -25,8 +25,8 @@ type: treasure
 
 Enterprising mages within various thieves' guilds have developed variations of the Portable Cloud. Each variation has a secondary [item prerequisite](scc:mcdm.heroes.v1/rule.downtime/item-prerequisite) and a project goal of 45.
 
-**Noxious Cloud:** Filled with a green or putrid yellow haze, this sphere spreads a choking, foul-smelling mist when broken. Each creature who enters the cloud for the first time in a combat round or starts their turn there takes 5 poison damage. Additionally, any creature is [weakened](scc:mcdm.heroes.v1/condition/weakened) while in the fog.
+**Noxious Cloud:** Filled with a green or putrid yellow haze, this sphere spreads a choking, foul-smelling mist when broken. Each creature who enters the cloud for the first time in a [combat round](scc:mcdm.heroes.v1/rule.combat/combat-round) or starts their turn there takes 5 poison damage. Additionally, any creature is [weakened](scc:mcdm.heroes.v1/condition/weakened) while in the fog.
 
-**[Item Prerequisite](scc:mcdm.heroes.v1/rule.downtime/item-prerequisite):** An ounce of undead flesh. **Thunderhead Cloud:** Small lightning bolts arc around the black cloud in this sphere, which creates a 3 [cube](scc:mcdm.heroes.v1/rule.combat/cube) of cloud and lightning when broken. Each creature who enters the cloud for the first time in a combat round or starts their turn there takes 5 lightning damage. Additionally, any creature is [slowed](scc:mcdm.heroes.v1/condition/slowed) while in the cloud.
+**[Item Prerequisite](scc:mcdm.heroes.v1/rule.downtime/item-prerequisite):** An ounce of undead flesh. **Thunderhead Cloud:** Small lightning bolts arc around the black cloud in this sphere, which creates a 3 [cube](scc:mcdm.heroes.v1/rule.combat/cube) of cloud and lightning when broken. Each creature who enters the cloud for the first time in a [combat round](scc:mcdm.heroes.v1/rule.combat/combat-round) or starts their turn there takes 5 lightning damage. Additionally, any creature is [slowed](scc:mcdm.heroes.v1/condition/slowed) while in the cloud.
 
 **[Item Prerequisite](scc:mcdm.heroes.v1/rule.downtime/item-prerequisite):** A spool of copper wire.

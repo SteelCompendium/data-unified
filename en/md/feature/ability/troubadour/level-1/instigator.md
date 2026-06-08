@@ -1,11 +1,11 @@
 ---
 action_type: Main action
 class: troubadour
-distance: Melee 1
-effect: The target is [taunted](scc:mcdm.heroes.v1/condition/taunted) by you or a willing ally adjacent to you until the end of the target's next turn.
+distance: '[Melee](scc:mcdm.heroes.v1/rule.combat/melee) 1'
+effect: The target is [taunted](scc:mcdm.heroes.v1/condition/taunted) by you or a willing ally [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to you until the end of the target's next [turn](scc:mcdm.heroes.v1/rule.combat/turn).
 flavor: I didn't do it! What?
 keywords:
-    - Melee
+    - '[Melee](scc:mcdm.heroes.v1/rule.combat/melee)'
     - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
     - Weapon
 level: "1"
@@ -19,9 +19,9 @@ type: ability
 
 *I didn't do it! What?*
 
-| **Melee, [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon**             | **Main action** |
+| **[Melee](scc:mcdm.heroes.v1/rule.combat/melee), [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon**             | **Main action** |
 |---------------------------------------|----------------:|
-| **📏 Melee 1**                        | **🎯 One creature** |
+| **📏 [Melee](scc:mcdm.heroes.v1/rule.combat/melee) 1**                        | **🎯 One creature** |
 
 **[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Presence](scc:mcdm.heroes.v1/rule.character/presence):**
 
@@ -29,4 +29,4 @@ type: ability
 - **12-16:** 6 + P damage
 - **17+:** 9 + P damage
 
-**Effect:** The target is [taunted](scc:mcdm.heroes.v1/condition/taunted) by you or a willing ally adjacent to you until the end of the target's next turn.
+**Effect:** The target is [taunted](scc:mcdm.heroes.v1/condition/taunted) by you or a willing ally [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to you until the end of the target's next [turn](scc:mcdm.heroes.v1/rule.combat/turn).

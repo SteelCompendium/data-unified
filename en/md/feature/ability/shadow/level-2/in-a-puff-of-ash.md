@@ -2,12 +2,12 @@
 action_type: Main action
 class: shadow
 cost: 5 Insight
-distance: Melee 1 or ranged 5
+distance: '[Melee](scc:mcdm.heroes.v1/rule.combat/melee) 1 or [ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 5'
 flavor: You enchant a [strike](scc:mcdm.heroes.v1/rule.combat/strike) with your [teleport](scc:mcdm.heroes.v1/movement/teleport)ation magic.
 keywords:
     - Magic
-    - Melee
-    - Ranged
+    - '[Melee](scc:mcdm.heroes.v1/rule.combat/melee)'
+    - '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)'
     - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
     - Weapon
 level: "2"
@@ -20,9 +20,9 @@ type: ability
 
 *You enchant a [strike](scc:mcdm.heroes.v1/rule.combat/strike) with your [teleport](scc:mcdm.heroes.v1/movement/teleport)ation magic.*
 
-| **Magic, Melee, Ranged, [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** |     **Main action** |
+| **Magic, [Melee](scc:mcdm.heroes.v1/rule.combat/melee), [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged), [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** |     **Main action** |
 |------------------------------------------|--------------------:|
-| **📏 Melee 1 or ranged 5**               | **🎯 One creature** |
+| **📏 [Melee](scc:mcdm.heroes.v1/rule.combat/melee) 1 or [ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 5**               | **🎯 One creature** |
 
 **[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Agility](scc:mcdm.heroes.v1/rule.character/agility):**
 

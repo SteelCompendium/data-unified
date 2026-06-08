@@ -18,13 +18,13 @@ If you are on the ground, you have [line of effect](scc:mcdm.heroes.v1/rule.comb
 
 If you are completely beneath the ground while [burrowing](scc:mcdm.heroes.v1/movement/burrow), you don't have [line of effect](scc:mcdm.heroes.v1/rule.combat/line-of-effect) to any creature on the surface unless a rule states otherwise.
 
-If you are completely beneath the ground while [burrowing](scc:mcdm.heroes.v1/movement/burrow) and are adjacent to another creature who is [burrowing](scc:mcdm.heroes.v1/movement/burrow), you have [line of effect](scc:mcdm.heroes.v1/rule.combat/line-of-effect) to that creature, though you both have [cover](scc:mcdm.heroes.v1/rule.combat/cover) from each other.
+If you are completely beneath the ground while [burrowing](scc:mcdm.heroes.v1/movement/burrow) and are [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to another creature who is [burrowing](scc:mcdm.heroes.v1/movement/burrow), you have [line of effect](scc:mcdm.heroes.v1/rule.combat/line-of-effect) to that creature, though you both have [cover](scc:mcdm.heroes.v1/rule.combat/cover) from each other.
 
 You can't gain the benefit of [high ground](scc:mcdm.heroes.v1/movement/high-ground) (see below) against creatures who are completely beneath the ground while [burrowing](scc:mcdm.heroes.v1/movement/burrow).
 
 ###### Non-Burrowing Creatures
 
-If you are on the ground and adjacent to a creature who is beneath the ground while [burrowing](scc:mcdm.heroes.v1/movement/burrow), you can use a maneuver to pull that creature up 1 square out of the ground, provided the creature is willing.
+If you are on the ground and [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to a creature who is beneath the ground while [burrowing](scc:mcdm.heroes.v1/movement/burrow), you can use a maneuver to pull that creature up 1 square out of the ground, provided the creature is willing.
 
 If a creature who can't [burrow](scc:mcdm.heroes.v1/movement/burrow) wants to dig into the ground, they can use the following ability provided their [speed](scc:mcdm.heroes.v1/rule.character/speed) is 2 or more.
 

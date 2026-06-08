@@ -2,12 +2,12 @@
 action_type: Main action
 class: conduit
 cost: 11 Piety
-distance: Ranged 10
-effect: While [restrained](scc:mcdm.heroes.v1/condition/restrained) this way, the target takes 10 damage at the start of each of your turns.
+distance: '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 10'
+effect: While [restrained](scc:mcdm.heroes.v1/condition/restrained) this way, the target takes 10 damage at the start of each of your [turns](scc:mcdm.heroes.v1/rule.combat/turn).
 flavor: Vines [burst](scc:mcdm.heroes.v1/rule.combat/burst) forth from the ground and bind your foe, slowly closing around them.
 keywords:
     - Magic
-    - Ranged
+    - '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)'
     - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
 level: "9"
 name: Thorn Cage
@@ -19,9 +19,9 @@ type: ability
 
 *Vines [burst](scc:mcdm.heroes.v1/rule.combat/burst) forth from the ground and bind your foe, slowly closing around them.*
 
-| **Magic, Ranged, [Strike](scc:mcdm.heroes.v1/rule.combat/strike)**  |     **Main action** |
+| **Magic, [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged), [Strike](scc:mcdm.heroes.v1/rule.combat/strike)**  |     **Main action** |
 |----------------------------|--------------------:|
-| **📏 Ranged 10**           | **🎯 One creature** |
+| **📏 [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 10**           | **🎯 One creature** |
 
 **[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Intuition](scc:mcdm.heroes.v1/rule.character/intuition):**
 
@@ -29,4 +29,4 @@ type: ability
 - **12-16:** 15 + I damage; A < AVERAGE, [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)
 - **17+:** 21 + I damage; A < STRONG, [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)
 
-**Effect:** While [restrained](scc:mcdm.heroes.v1/condition/restrained) this way, the target takes 10 damage at the start of each of your turns.
+**Effect:** While [restrained](scc:mcdm.heroes.v1/condition/restrained) this way, the target takes 10 damage at the start of each of your [turns](scc:mcdm.heroes.v1/rule.combat/turn).

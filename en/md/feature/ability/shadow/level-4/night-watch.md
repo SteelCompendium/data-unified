@@ -1,11 +1,11 @@
 ---
 action_type: Triggered
 class: shadow
-distance: Ranged 5
+distance: '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 5'
 effect: The target takes half the damage. You remain hidden.
 flavor: A steely dagger from out of the blue knocks another weapon off course.
 keywords:
-    - Ranged
+    - '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)'
     - Weapon
 level: "4"
 name: Night Watch
@@ -19,9 +19,9 @@ type: ability
 
 *A steely dagger from out of the blue knocks another weapon off course.*
 
-| **Ranged, Weapon** |   **Triggered** |
+| **[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged), Weapon** |   **Triggered** |
 |--------------------|----------------:|
-| **📏 Ranged 5**    | **🎯 One ally** |
+| **📏 [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 5**    | **🎯 One ally** |
 
 **Trigger:** The target takes damage from another creature's ability while you are hidden.
 

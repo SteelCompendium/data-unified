@@ -21,9 +21,9 @@ type: title
 >
 > *Coming through with hot soup!<br/>I better watch out for that banana peel!*
 >
-> | **Ranged**       |       **Triggered** |
+> | **[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)**       |       **Triggered** |
 > |------------------|--------------------:|
-> | **📏 Ranged 10** | **🎯 One creature** |
+> | **📏 [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 10** | **🎯 One creature** |
 >
 > **Trigger:** An ally makes a [test](scc:mcdm.heroes.v1/rule.test/test) to lie to, pick the pocket of, hide from, or sneak by the target and doesn't like the outcome.
 >

@@ -1,10 +1,10 @@
 ---
 action_type: Main action
 class: fury
-distance: Melee 1
+distance: '[Melee](scc:mcdm.heroes.v1/rule.combat/melee) 1'
 flavor: You skewer your enemy like a boar upon a spit.
 keywords:
-    - Melee
+    - '[Melee](scc:mcdm.heroes.v1/rule.combat/melee)'
     - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
     - Weapon
 level: "1"
@@ -18,9 +18,9 @@ type: ability
 
 *You skewer your enemy like a boar upon a spit.*
 
-| **Melee, [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** |                             **Main action** |
+| **[Melee](scc:mcdm.heroes.v1/rule.combat/melee), [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** |                             **Main action** |
 |---------------------------|--------------------------------------------:|
-| **📏 Melee 1**            | **🎯 One creature of your [size](scc:mcdm.heroes.v1/rule.character/size) or smaller** |
+| **📏 [Melee](scc:mcdm.heroes.v1/rule.combat/melee) 1**            | **🎯 One creature of your [size](scc:mcdm.heroes.v1/rule.character/size) or smaller** |
 
 **[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc:mcdm.heroes.v1/rule.character/might):**
 

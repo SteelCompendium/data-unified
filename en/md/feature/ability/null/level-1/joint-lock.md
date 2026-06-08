@@ -1,10 +1,10 @@
 ---
 action_type: Main action
 class: "null"
-distance: Melee 1
+distance: '[Melee](scc:mcdm.heroes.v1/rule.combat/melee) 1'
 flavor: You contort your enemy's body into a stance they struggle to escape from.
 keywords:
-    - Melee
+    - '[Melee](scc:mcdm.heroes.v1/rule.combat/melee)'
     - Psionic
     - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
     - Weapon
@@ -19,9 +19,9 @@ type: ability
 
 *You contort your enemy's body into a stance they struggle to escape from.*
 
-| **Melee, Psionic, [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** |               **Main action** |
+| **[Melee](scc:mcdm.heroes.v1/rule.combat/melee), Psionic, [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** |               **Main action** |
 |------------------------------------|------------------------------:|
-| **📏 Melee 1**                     | **🎯 One creature or object** |
+| **📏 [Melee](scc:mcdm.heroes.v1/rule.combat/melee) 1**                     | **🎯 One creature or object** |
 
 **[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Agility](scc:mcdm.heroes.v1/rule.character/agility):**
 

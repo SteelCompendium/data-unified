@@ -6,4 +6,4 @@ scc: mcdm.heroes.v1/feature.elementalist.level-7/surging-essence
 type: feature
 ---
 
-When you gain essence at the start of each of your turns during combat, you gain 3 essence instead of 2.
+When you gain essence at the start of each of your [turns](scc:mcdm.heroes.v1/rule.combat/turn) during combat, you gain 3 essence instead of 2.

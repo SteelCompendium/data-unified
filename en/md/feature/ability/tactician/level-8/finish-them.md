@@ -2,11 +2,11 @@
 action_type: Free triggered
 class: tactician
 cost: 11 Focus
-distance: Ranged 10
+distance: '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 10'
 effect: The target is killed. Additionally, the creature who caused the target to be [winded](scc:mcdm.heroes.v1/rule.health/winded) can spend a [Recovery](scc:mcdm.heroes.v1/rule.health/recoveries).
 flavor: You point out an opening to your ally so they can land a killing blow.
 keywords:
-    - Ranged
+    - '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)'
 level: "8"
 name: Finish Them!
 scc: mcdm.heroes.v1/feature.ability.tactician.level-8/finish-them
@@ -19,9 +19,9 @@ type: ability
 
 *You point out an opening to your ally so they can land a killing blow.*
 
-| **Ranged**       |  **Free triggered** |
+| **[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)**       |  **Free triggered** |
 |------------------|--------------------:|
-| **📏 Ranged 10** | **🎯 One creature** |
+| **📏 [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 10** | **🎯 One creature** |
 
 **Trigger:** The target is not a leader or solo creature, and becomes [winded](scc:mcdm.heroes.v1/rule.health/winded).
 

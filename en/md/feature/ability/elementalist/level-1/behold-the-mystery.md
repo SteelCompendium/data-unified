@@ -7,7 +7,7 @@ flavor: You open a rift into the void to harry your foes.
 keywords:
     - Area
     - Magic
-    - Ranged
+    - '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)'
     - Void
 level: "1"
 name: Behold the Mystery
@@ -19,7 +19,7 @@ type: ability
 
 *You open a rift into the void to harry your foes.*
 
-| **Area, Magic, Ranged, Void** |               **Main action** |
+| **Area, Magic, [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged), Void** |               **Main action** |
 |-------------------------------|------------------------------:|
 | **📏 3 [cube](scc:mcdm.heroes.v1/rule.combat/cube) within 10**       | **🎯 Each enemy in the area** |
 
@@ -29,4 +29,4 @@ type: ability
 - **12-16:** 4 psychic damage
 - **17+:** 6 psychic damage
 
-**Persistent 1:** At the start of your turn, you can use a maneuver to use this ability again without spending essence.
+**Persistent 1:** At the start of your [turn](scc:mcdm.heroes.v1/rule.combat/turn), you can use a maneuver to use this ability again without spending essence.

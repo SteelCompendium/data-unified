@@ -2,13 +2,13 @@
 action_type: Main action
 class: talent
 cost: 7 Clarity
-distance: Ranged 10
+distance: '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 10'
 effect: The target takes a [bane](scc:mcdm.heroes.v1/rule.dice/bane) on [Presence](scc:mcdm.heroes.v1/rule.character/presence) [tests](scc:mcdm.heroes.v1/rule.test/test) until the end of the encounter.
 flavor: You blast their soul out of their body, leaving it to helplessly float back to a weakened husk.
 keywords:
     - Animapathy
     - Psionic
-    - Ranged
+    - '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)'
     - Strike
 level: "3"
 name: Soul Burn
@@ -20,9 +20,9 @@ type: ability
 
 *You blast their soul out of their body, leaving it to helplessly float back to a weakened husk.*
 
-| **Animapathy, Psionic, Ranged**, **Strike** |     **Main action** |
+| **Animapathy, Psionic, [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)**, **Strike** |     **Main action** |
 |---------------------------------------------|--------------------:|
-| **📏 Ranged 10**                            | **🎯 One creature** |
+| **📏 [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 10**                            | **🎯 One creature** |
 
 **[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Presence](scc:mcdm.heroes.v1/rule.character/presence):**
 

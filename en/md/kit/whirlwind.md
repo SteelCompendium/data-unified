@@ -1,7 +1,5 @@
 ---
-disengage_bonus: "+1"
 equipment_text: You wear no armor and wield a whip.
-melee_damage_bonus: +1/+1/+1
 name: Whirlwind
 scc: mcdm.heroes.v1/kit/whirlwind
 type: kit
@@ -15,13 +13,13 @@ You wear no armor and wield a whip.
 
 ##### Kit Bonuses
 
-**[Speed](scc:mcdm.heroes.v1/rule.character/speed) Bonus:** +3
+**[Speed](scc:mcdm.heroes.v1/rule.character/speed) [Bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties):** +3
 
-**Melee Damage Bonus:** +1/+1/+1
+**[Melee](scc:mcdm.heroes.v1/rule.combat/melee) Damage [Bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties):** +1/+1/+1
 
-**Melee [Distance](scc:mcdm.heroes.v1/rule.combat/distance) Bonus:** +1
+**[Melee](scc:mcdm.heroes.v1/rule.combat/melee) [Distance](scc:mcdm.heroes.v1/rule.combat/distance) [Bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties):** +1
 
-**Disengage Bonus:** +1
+**Disengage [Bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties):** +1
 
 ##### Signature Ability
 
@@ -29,9 +27,9 @@ You wear no armor and wield a whip.
 
 *When you draw your whip back after an attack, your enemy is drawn ever closer.*
 
-| **Melee, [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** |     **Main action** |
+| **[Melee](scc:mcdm.heroes.v1/rule.combat/melee), [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** |     **Main action** |
 |---------------------------|--------------------:|
-| **📏 Melee 3**            | **🎯 One creature** |
+| **📏 [Melee](scc:mcdm.heroes.v1/rule.combat/melee) 3**            | **🎯 One creature** |
 
 **[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc:mcdm.heroes.v1/rule.character/might) or [Agility](scc:mcdm.heroes.v1/rule.character/agility):**
 

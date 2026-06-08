@@ -1,11 +1,11 @@
 ---
 action_type: Main action
 ancestry: wode-elf
-distance: Ranged 10
+distance: '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 10'
 flavor: Thorny vines erupt from every surface and attempt to bind your foe.
 keywords:
     - Magic
-    - Ranged
+    - '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)'
     - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
 name: The Wode Defends
 scc: mcdm.heroes.v1/feature.ability.wode-elf/the-wode-defends
@@ -16,9 +16,9 @@ type: ability
 
 *Thorny vines erupt from every surface and attempt to bind your foe.*
 
-| **Magic, Ranged, [Strike](scc:mcdm.heroes.v1/rule.combat/strike)** |               **Main action** |
+| **Magic, [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged), [Strike](scc:mcdm.heroes.v1/rule.combat/strike)** |               **Main action** |
 |---------------------------|------------------------------:|
-| **📏 Ranged 10**          |           **🎯 One creature** |
+| **📏 [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 10**          |           **🎯 One creature** |
 
 **[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc:mcdm.heroes.v1/rule.character/might) or [Agility](scc:mcdm.heroes.v1/rule.character/agility):**
 

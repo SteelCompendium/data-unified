@@ -2,11 +2,11 @@
 action_type: Main action
 class: tactician
 cost: 3 Focus
-distance: Melee 1 or ranged 5
+distance: '[Melee](scc:mcdm.heroes.v1/rule.combat/melee) 1 or [ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 5'
 flavor: Your precise strike leaves your foe struggling to respond.
 keywords:
-    - Melee
-    - Ranged
+    - '[Melee](scc:mcdm.heroes.v1/rule.combat/melee)'
+    - '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)'
     - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
     - Weapon
 level: "1"
@@ -19,9 +19,9 @@ type: ability
 
 *Your precise strike leaves your foe struggling to respond.*
 
-| **Melee, Ranged, [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** |               **Main action** |
+| **[Melee](scc:mcdm.heroes.v1/rule.combat/melee), [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged), [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** |               **Main action** |
 |-----------------------------------|------------------------------:|
-| **📏 Melee 1 or ranged 5**        | **🎯 One creature or object** |
+| **📏 [Melee](scc:mcdm.heroes.v1/rule.combat/melee) 1 or [ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 5**        | **🎯 One creature or object** |
 
 **[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc:mcdm.heroes.v1/rule.character/might):**
 

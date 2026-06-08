@@ -3,10 +3,10 @@ action_type: Main action
 class: fury
 cost: 3 Ferocity
 distance: Self; see below
-effect: You move up to your [speed](scc:mcdm.heroes.v1/rule.character/speed) in a straight line, and enemy squares are not [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain) for this movement. You can end this movement in a creature's space and move them to an adjacent unoccupied space. You make one [power roll](scc:mcdm.heroes.v1/rule.dice/power-roll) that targets each enemy whose space you move through.
+effect: You move up to your [speed](scc:mcdm.heroes.v1/rule.character/speed) in a straight line, and enemy squares are not [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain) for this movement. You can end this movement in a creature's space and move them to an [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) unoccupied space. You make one [power roll](scc:mcdm.heroes.v1/rule.dice/power-roll) that targets each enemy whose space you move through.
 flavor: Teach them the folly of lining up for you.
 keywords:
-    - Melee
+    - '[Melee](scc:mcdm.heroes.v1/rule.combat/melee)'
     - Weapon
 level: "1"
 name: Tide of Death
@@ -18,11 +18,11 @@ type: ability
 
 *Teach them the folly of lining up for you.*
 
-| **Melee, Weapon**      | **Main action** |
+| **[Melee](scc:mcdm.heroes.v1/rule.combat/melee), Weapon**      | **Main action** |
 |------------------------|----------------:|
 | **📏 Self; see below** |     **🎯 Self** |
 
-**Effect:** You move up to your [speed](scc:mcdm.heroes.v1/rule.character/speed) in a straight line, and enemy squares are not [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain) for this movement. You can end this movement in a creature's space and move them to an adjacent unoccupied space. You make one [power roll](scc:mcdm.heroes.v1/rule.dice/power-roll) that targets each enemy whose space you move through.
+**Effect:** You move up to your [speed](scc:mcdm.heroes.v1/rule.character/speed) in a straight line, and enemy squares are not [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain) for this movement. You can end this movement in a creature's space and move them to an [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) unoccupied space. You make one [power roll](scc:mcdm.heroes.v1/rule.dice/power-roll) that targets each enemy whose space you move through.
 
 **[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc:mcdm.heroes.v1/rule.character/might):**
 

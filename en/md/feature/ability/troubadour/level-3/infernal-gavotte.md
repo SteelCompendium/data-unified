@@ -8,7 +8,7 @@ flavor: A spicy performance lights a fire under your allies' feet.
 keywords:
     - Area
     - Magic
-    - Melee
+    - '[Melee](scc:mcdm.heroes.v1/rule.combat/melee)'
     - Weapon
 level: "3"
 name: Infernal Gavotte
@@ -20,7 +20,7 @@ type: ability
 
 *A spicy performance lights a fire under your allies' feet.*
 
-| **Area, Magic, Melee, Weapon** |               **Main action** |
+| **Area, Magic, [Melee](scc:mcdm.heroes.v1/rule.combat/melee), Weapon** |               **Main action** |
 |--------------------------------|------------------------------:|
 | **📏 3 [burst](scc:mcdm.heroes.v1/rule.combat/burst)**                 | **🎯 Each enemy in the area** |
 

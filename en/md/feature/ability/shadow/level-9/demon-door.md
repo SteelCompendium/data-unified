@@ -2,12 +2,12 @@
 action_type: Main action
 class: shadow
 cost: 11 Insight
-distance: Melee 3
+distance: '[Melee](scc:mcdm.heroes.v1/rule.combat/melee) 3'
 effect: On a [critical hit](scc:mcdm.heroes.v1/rule.combat/critical-hit), the target is [grabbed](scc:mcdm.heroes.v1/condition/grabbed) by the demon and pulled through the portal before it closes, never to be seen again.
 flavor: You create a temporary portal to allow a massive demonic hand to reach through.
 keywords:
     - Magic
-    - Melee
+    - '[Melee](scc:mcdm.heroes.v1/rule.combat/melee)'
     - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
     - Weapon
 level: "9"
@@ -20,9 +20,9 @@ type: ability
 
 *You create a temporary portal to allow a massive demonic hand to reach through.*
 
-| **Magic, Melee, [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** |     **Main action** |
+| **Magic, [Melee](scc:mcdm.heroes.v1/rule.combat/melee), [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** |     **Main action** |
 |----------------------------------|--------------------:|
-| **📏 Melee 3**                   | **🎯 One creature** |
+| **📏 [Melee](scc:mcdm.heroes.v1/rule.combat/melee) 3**                   | **🎯 One creature** |
 
 **[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Agility](scc:mcdm.heroes.v1/rule.character/agility):**
 

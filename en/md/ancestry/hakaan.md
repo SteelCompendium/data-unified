@@ -93,10 +93,10 @@ The giant nodded solemnly. "You are lorewise. My trust in you was well-placed. I
 
 "Many do!" Ardashir said. "I do not. I left the hills of my people long ago to pursue a different path. A path of order and discipline. It is my birthright perhaps."
 
-"He's a [null](scc:mcdm.heroes.v1/class/null)," Embers explained. "They eschew all weapons and implements of war. It is part of their creed, as I understand it."
+"He's a [null](scc:mcdm.heroes.v1/class/null)," Embers explained. "They eschew all weapons and [implements](scc:mcdm.heroes.v1/rule.treasure/implement) of war. It is part of their creed, as I understand it."
 
 "Strength alone might serve," Dazar nodded, "when the strength is such as yours."
 
-Ardashir grinned. "Strength alone is not enough." He assumed a fighting pose, hands clenched, arms in a guarding position before him. "Discipline, training, focus. These are my implements."
+Ardashir grinned. "Strength alone is not enough." He assumed a fighting pose, hands clenched, arms in a guarding position before him. "Discipline, training, focus. These are my [implements](scc:mcdm.heroes.v1/rule.treasure/implement)."
 
 "Well you can't ever be disarmed," John said. "That could be useful." Ardashir's smile was brilliant. "I suffice," he said.

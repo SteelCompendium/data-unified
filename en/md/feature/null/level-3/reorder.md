@@ -6,4 +6,4 @@ scc: mcdm.heroes.v1/feature.null.level-3/reorder
 type: feature
 ---
 
-At the start of each of your turns, you can use a free [triggered action](scc:mcdm.heroes.v1/rule.combat/triggered-action) to end one effect on you that is ended by a [saving throw](scc:mcdm.heroes.v1/rule.general/saving-throw) or that ends at the end of your turn. Alternatively, you can grant this benefit to one creature in the area of your [Null Field](scc:mcdm.heroes.v1/feature.null.level-1/null-field) ability.
+At the start of each of your [turns](scc:mcdm.heroes.v1/rule.combat/turn), you can use a free [triggered action](scc:mcdm.heroes.v1/rule.combat/triggered-action) to end one effect on you that is ended by a [saving throw](scc:mcdm.heroes.v1/rule.general/saving-throw) or that ends at the end of your [turn](scc:mcdm.heroes.v1/rule.combat/turn). Alternatively, you can grant this benefit to one creature in the area of your [Null Field](scc:mcdm.heroes.v1/feature.null.level-1/null-field) ability.

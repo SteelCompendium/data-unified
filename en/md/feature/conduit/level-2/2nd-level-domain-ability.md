@@ -20,7 +20,7 @@ Choose one of your domains. You gain a [heroic ability](scc:mcdm.heroes.v1/rule.
 | Love       | [Our Hearts Your Strength](scc:mcdm.heroes.v1/feature.ability.conduit.level-2/our-hearts-your-strength)     |
 | Nature     | [Nature Judges Thee](scc:mcdm.heroes.v1/feature.ability.conduit.level-2/nature-judges-thee)           |
 | Protection | [Sacred Bond](scc:mcdm.heroes.v1/feature.ability.conduit.level-2/sacred-bond)                  |
-| Storm      | Saint's Tempest              |
+| Storm      | [Saint](scc:mcdm.heroes.v1/rule.world/saint)'s Tempest              |
 | Sun        | [Morning Light](scc:mcdm.heroes.v1/feature.ability.conduit.level-2/morning-light)                |
 | Trickery   | [Divine Comedy](scc:mcdm.heroes.v1/feature.ability.conduit.level-2/divine-comedy)                |
 | War        | [Blessing of Insight](scc:mcdm.heroes.v1/feature.ability.conduit.level-2/blessing-of-insight)          |

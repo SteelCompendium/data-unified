@@ -2,11 +2,11 @@
 action_type: Main action
 class: "null"
 cost: 11 Discipline
-distance: Melee 1
-effect: While suppressed, a target takes psychic damage equal to twice your [Intuition](scc:mcdm.heroes.v1/rule.character/intuition) score at the start of their turns, whenever they use a supernatural ability, or whenever they use an ability that costs Malice.
+distance: '[Melee](scc:mcdm.heroes.v1/rule.combat/melee) 1'
+effect: While suppressed, a target takes psychic damage equal to twice your [Intuition](scc:mcdm.heroes.v1/rule.character/intuition) score at the start of their [turns](scc:mcdm.heroes.v1/rule.combat/turn), whenever they use a [supernatural](scc:mcdm.heroes.v1/rule.general/supernatural) ability, or whenever they use an ability that costs Malice.
 flavor: You focus your [null field](scc:mcdm.heroes.v1/feature.null.level-1/null-field) into a pressure point strike that prevents your foe from channeling sorcery.
 keywords:
-    - Melee
+    - '[Melee](scc:mcdm.heroes.v1/rule.combat/melee)'
     - Psionic
     - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
     - Weapon
@@ -20,9 +20,9 @@ type: ability
 
 *You focus your [null field](scc:mcdm.heroes.v1/feature.null.level-1/null-field) into a pressure point strike that prevents your foe from channeling sorcery.*
 
-| **Melee, Psionic, [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** |     **Main action** |
+| **[Melee](scc:mcdm.heroes.v1/rule.combat/melee), Psionic, [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** |     **Main action** |
 |------------------------------------|--------------------:|
-| **📏 Melee 1**                     | **🎯 One creature** |
+| **📏 [Melee](scc:mcdm.heroes.v1/rule.combat/melee) 1**                     | **🎯 One creature** |
 
 **[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Agility](scc:mcdm.heroes.v1/rule.character/agility):**
 
@@ -30,4 +30,4 @@ type: ability
 - **12-16:** 19 + A damage; M < AVERAGE, the target is suppressed (save ends)
 - **17+:** 24 + A damage; M < STRONG, the target is suppressed (save ends)
 
-**Effect:** While suppressed, a target takes psychic damage equal to twice your [Intuition](scc:mcdm.heroes.v1/rule.character/intuition) score at the start of their turns, whenever they use a supernatural ability, or whenever they use an ability that costs Malice.
+**Effect:** While suppressed, a target takes psychic damage equal to twice your [Intuition](scc:mcdm.heroes.v1/rule.character/intuition) score at the start of their [turns](scc:mcdm.heroes.v1/rule.combat/turn), whenever they use a [supernatural](scc:mcdm.heroes.v1/rule.general/supernatural) ability, or whenever they use an ability that costs Malice.

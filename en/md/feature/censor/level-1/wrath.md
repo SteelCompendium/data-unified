@@ -10,9 +10,9 @@ The power you serve grants you a [Heroic Resource](scc:mcdm.heroes.v1/rule.resou
 
 ##### Wrath in Combat
 
-At the start of a combat encounter or some other stressful situation tracked in combat rounds (as determined by the Director), you gain wrath equal to your [Victories](scc:mcdm.heroes.v1/rule.resource/victories). At the start of each of your turns during combat, you gain 2 wrath.
+At the start of a combat encounter or some other stressful situation tracked in [combat rounds](scc:mcdm.heroes.v1/rule.combat/combat-round) (as determined by the Director), you gain wrath equal to your [Victories](scc:mcdm.heroes.v1/rule.resource/victories). At the start of each of your [turns](scc:mcdm.heroes.v1/rule.combat/turn) during combat, you gain 2 wrath.
 
-Additionally, the first time each combat round that a creature judged by you (see [Judgment](scc:mcdm.heroes.v1/feature.ability.censor.level-1/judgment) below) deals damage to you, you gain 1 wrath. The first time each combat round that you deal damage to a creature judged by you, you gain 1 wrath.
+Additionally, the first time each [combat round](scc:mcdm.heroes.v1/rule.combat/combat-round) that a creature judged by you (see [Judgment](scc:mcdm.heroes.v1/feature.ability.censor.level-1/judgment) below) deals damage to you, you gain 1 wrath. The first time each [combat round](scc:mcdm.heroes.v1/rule.combat/combat-round) that you deal damage to a creature judged by you, you gain 1 wrath.
 
 You lose any remaining wrath at the end of the encounter.
 

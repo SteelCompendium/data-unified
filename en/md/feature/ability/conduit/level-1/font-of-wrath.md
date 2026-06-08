@@ -2,12 +2,12 @@
 action_type: Main action
 class: conduit
 cost: 3 Piety
-distance: Ranged 10
-effect: You summon a spirit of [size](scc:mcdm.heroes.v1/rule.character/size) 2 who can't be harmed, and who appears in an unoccupied space within [distance](scc:mcdm.heroes.v1/rule.combat/distance). The spirit lasts until the end of your next turn. You and your allies can move through the spirit's space, but enemies can't. Any enemy who moves within 2 squares of the spirit for the first time in a combat round or starts their turn there takes holy damage equal to your [Intuition](scc:mcdm.heroes.v1/rule.character/intuition) score.
+distance: '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 10'
+effect: You summon a spirit of [size](scc:mcdm.heroes.v1/rule.character/size) 2 who can't be harmed, and who appears in an unoccupied space within [distance](scc:mcdm.heroes.v1/rule.combat/distance). The spirit lasts until the end of your next [turn](scc:mcdm.heroes.v1/rule.combat/turn). You and your allies can move through the spirit's space, but enemies can't. Any enemy who moves within 2 squares of the spirit for the first time in a [combat round](scc:mcdm.heroes.v1/rule.combat/combat-round) or starts their turn there takes holy damage equal to your [Intuition](scc:mcdm.heroes.v1/rule.character/intuition) score.
 flavor: A brilliant column of holy light appears on the battlefield, striking out at nearby enemies.
 keywords:
     - Magic
-    - Ranged
+    - '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)'
 level: "1"
 name: Font of Wrath
 scc: mcdm.heroes.v1/feature.ability.conduit.level-1/font-of-wrath
@@ -18,8 +18,8 @@ type: ability
 
 *A brilliant column of holy light appears on the battlefield, striking out at nearby enemies.*
 
-| **Magic, Ranged**  | **Main action** |
+| **Magic, [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)**  | **Main action** |
 |--------------------|----------------:|
-| **📏 Ranged 10**   |  **🎯 Special** |
+| **📏 [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 10**   |  **🎯 Special** |
 
-**Effect:** You summon a spirit of [size](scc:mcdm.heroes.v1/rule.character/size) 2 who can't be harmed, and who appears in an unoccupied space within [distance](scc:mcdm.heroes.v1/rule.combat/distance). The spirit lasts until the end of your next turn. You and your allies can move through the spirit's space, but enemies can't. Any enemy who moves within 2 squares of the spirit for the first time in a combat round or starts their turn there takes holy damage equal to your [Intuition](scc:mcdm.heroes.v1/rule.character/intuition) score.
+**Effect:** You summon a spirit of [size](scc:mcdm.heroes.v1/rule.character/size) 2 who can't be harmed, and who appears in an unoccupied space within [distance](scc:mcdm.heroes.v1/rule.combat/distance). The spirit lasts until the end of your next [turn](scc:mcdm.heroes.v1/rule.combat/turn). You and your allies can move through the spirit's space, but enemies can't. Any enemy who moves within 2 squares of the spirit for the first time in a [combat round](scc:mcdm.heroes.v1/rule.combat/combat-round) or starts their turn there takes holy damage equal to your [Intuition](scc:mcdm.heroes.v1/rule.character/intuition) score.

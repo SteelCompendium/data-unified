@@ -126,7 +126,7 @@ You want to be upfront about what kind of buy-in you need from the players. So i
 
 Visiting lots of different locations and cultures has to sound cool. You won't start in a town and eventually become the heroes of the barony, but will instead become legendary heroes across multiple realms. You'll constantly be leaving the people you've met behind, but you'll eventually have a base you return to after completing each quest. You'll have allies and enemies all across the world!
 
-The buy-in tells the players that their heroes are going to travel to far-flung locations, and that it might take them a while to find a home. If a player is looking for a different experience, such as a game that takes place entirely in the city of Capital, they now know that your game isn't for them!
+The buy-in tells the players that their heroes are going to travel to far-flung locations, and that it might take them a while to find a home. If a player is looking for a different experience, such as a game that takes place entirely in the city of [Capital](scc:mcdm.heroes.v1/rule.world/capital), they now know that your game isn't for them!
 
 #### Player Option Restrictions
 
@@ -154,9 +154,9 @@ If your players participate in other games of *Draw Steel*, it's a good idea to 
 
 ### House Rules
 
-You can always change the rules of the game to fit your campaign and taste! Maybe it better suits the pace of the campaign to have a [respite](scc:mcdm.heroes.v1/rule.resource/respite) last 8 hours, or perhaps a [respite](scc:mcdm.heroes.v1/rule.resource/respite) should take a week. You might prefer if [critical hits](scc:mcdm.heroes.v1/rule.combat/critical-hit) are super rare and happen only on a [natural 20](scc:mcdm.heroes.v1/rule.dice/natural-19-20). You could allow heroes to spend [hero tokens](scc:mcdm.heroes.v1/rule.resource/hero-token) to reduce the amount of Malice you have (see *Draw Steel: Monsters*). You might decide that all heroes have a free +1 bonus to any [characteristic](scc:mcdm.heroes.v1/rule.character/characteristic) of their choice at 1st level.
+You can always change the rules of the game to fit your campaign and taste! Maybe it better suits the pace of the campaign to have a [respite](scc:mcdm.heroes.v1/rule.resource/respite) last 8 hours, or perhaps a [respite](scc:mcdm.heroes.v1/rule.resource/respite) should take a week. You might prefer if [critical hits](scc:mcdm.heroes.v1/rule.combat/critical-hit) are super rare and happen only on a [natural 20](scc:mcdm.heroes.v1/rule.dice/natural-19-20). You could allow heroes to spend [hero tokens](scc:mcdm.heroes.v1/rule.resource/hero-token) to reduce the amount of Malice you have (see *Draw Steel: Monsters*). You might decide that all heroes have a free +1 [bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to any [characteristic](scc:mcdm.heroes.v1/rule.character/characteristic) of their choice at 1st level.
 
-The rules you create or modify to suit your group are called house rules. You can have as many house rules as you like, but you should discuss these rule changes with the players before implementing them. If you decide that [critical hits](scc:mcdm.heroes.v1/rule.combat/critical-hit) only occur on a [natural 20](scc:mcdm.heroes.v1/rule.dice/natural-19-20), the worst time for a player to find that out is right after they roll a [natural 19](scc:mcdm.heroes.v1/rule.dice/natural-19-20) in combat.
+The rules you create or modify to suit your group are called house rules. You can have as many house rules as you like, but you should discuss these rule changes with the players before [implement](scc:mcdm.heroes.v1/rule.treasure/implement)ing them. If you decide that [critical hits](scc:mcdm.heroes.v1/rule.combat/critical-hit) only occur on a [natural 20](scc:mcdm.heroes.v1/rule.dice/natural-19-20), the worst time for a player to find that out is right after they roll a [natural 19](scc:mcdm.heroes.v1/rule.dice/natural-19-20) in combat.
 
 Talk to the players about the house rules you want to use in your campaign, and discuss any ideas they bring to you for house rules during your first session.
 
@@ -170,7 +170,7 @@ If your campaign takes place in a published campaign setting, read the material 
 
 As you read, make notes on anything interesting in the setting that you might want to incorporate in your campaign, as well as anything you want to change.
 
-Your top priority should be the campaign's starting location. In which district of Capital do the players start their first adventure? Which world of the timescape will be the first the heroes visit? What settlement in [Vasloria](scc:mcdm.heroes.v1/rule.world/vasloria) holds their first adventure? Answer that question and get familiar with that place first. You'll have plenty of time to read further as you plan out your games.
+Your top priority should be the campaign's starting location. In which district of [Capital](scc:mcdm.heroes.v1/rule.world/capital) do the players start their first adventure? Which world of the timescape will be the first the heroes visit? What settlement in [Vasloria](scc:mcdm.heroes.v1/rule.world/vasloria) holds their first adventure? Answer that question and get familiar with that place first. You'll have plenty of time to read further as you plan out your games.
 
 #### Building Your Own Setting
 
@@ -178,7 +178,7 @@ If you plan on building your own campaign setting, the work of worldbuilding can
 
 ##### Start Small
 
-If you're planning on making your own campaign setting, start small. Instead of detailing every settlement on every continent on every planet in a universe, build a starting town or an initial district in a city, then work up the surrounding area in which the first adventure takes place. Use the following steps as a guide:
+If you're planning on making your own campaign setting, start small. Instead of detailing every settlement on every continent on every planet in a universe, build a starting town or an initial district in a city, then work up the surrounding area in which the first adventure takes place. Use the following steps as a [guide](scc:mcdm.heroes.v1/rule.downtime/guide):
 
 **Locations:** Make a list of any important locations in the campaign starting point, such as an inn or house where the heroes are staying, merchants they might want to visit, and the headquarters of organizations that might be important to them.
 
@@ -233,8 +233,8 @@ Your outline should include the plans of the villains in your campaign. Review [
 
 - **1st [Echelon](scc:mcdm.heroes.v1/rule.general/echelon):** The heroes protect the village of Gravesford in the Barony of Bedegar from the forces of Lord Saxton, an usurper and tyrant loyal to Ajax. Eventually, they must bring the fight to Lord Saxton's keep in Bedegar City.
 - **2nd [Echelon](scc:mcdm.heroes.v1/rule.general/echelon):** After toppling Saxton's keep, the heroes find a letter from Ajax detailing plans to amass powerful treasures from throughout [Vasloria](scc:mcdm.heroes.v1/rule.world/vasloria). The heroes can race to these locations to claim the treasures before Ajax's forces do.
-- **3rd [Echelon](scc:mcdm.heroes.v1/rule.general/echelon):** With some or all of the treasures secure, it's only a matter of time before Ajax's army seeks out the heroes. The characters can build a coalition of allies to face Ajax, but those allies first require help getting out from under the rule of the Iron Saint.
-- **4th [Echelon](scc:mcdm.heroes.v1/rule.general/echelon):** Ajax brings the fight to the heroes. If the Iron Saint loses, he retreats to his sanctum, where the heroes can follow if they dare.
+- **3rd [Echelon](scc:mcdm.heroes.v1/rule.general/echelon):** With some or all of the treasures secure, it's only a matter of time before Ajax's army seeks out the heroes. The characters can build a coalition of allies to face Ajax, but those allies first require help getting out from under the rule of the Iron [Saint](scc:mcdm.heroes.v1/rule.world/saint).
+- **4th [Echelon](scc:mcdm.heroes.v1/rule.general/echelon):** Ajax brings the fight to the heroes. If the Iron [Saint](scc:mcdm.heroes.v1/rule.world/saint) loses, he retreats to his sanctum, where the heroes can follow if they dare.
 
 #### Complications and Campaigns
 
@@ -265,7 +265,7 @@ Every good adventure includes villains, a task to accomplish, [NPCs](scc:mcdm.he
 
 > **Player Ambition Writes Adventures**
 >
-> Players have ambition driven by their characters' complications, personal stories, and desires for titles, supernatural treasures, and other rewards. Indulge these desires! If a hero wants to go on a quest to gain a Blade of Quintessence, let them know where they can find one (after they put in the proper research or questing time, of course). You can then plan an adventure, even just a short one, around the weapon's retrieval!
+> Players have ambition driven by their characters' complications, personal stories, and desires for titles, [supernatural](scc:mcdm.heroes.v1/rule.general/supernatural) treasures, and other rewards. Indulge these desires! If a hero wants to go on a quest to gain a Blade of Quintessence, let them know where they can find one (after they put in the proper research or questing time, of course). You can then plan an adventure, even just a short one, around the weapon's retrieval!
 
 #### Villain
 
@@ -314,7 +314,7 @@ An adventure's goal doesn't always result in a total failure for the villain. So
 
 An adventure's goal isn't always clear to the players at the start, but the heroes should always have a good idea of how to keep pursuing the story. Gameplay and fun can grind to a halt if the players don't have any idea what their characters should do to further their goals.
 
-Every adventure should have an inciting incident that either sees the heroes discovering the adventure's goal, or that puts them on the path to discovering it. If the characters start an adventure by finding the freshly murdered body of a noble in the streets of Capital, they're likely to look for clues that could lead them to catching a murderer—a solid, straightforward adventure goal. Or it could be that the murder leads them to uncovering a grand conspiracy in which one of Capital's Great Houses is planning a coordinated and violent takeover of the city. The heroes must stop those plots—an adventure goal that might take them several scenes to fully uncover. But each of those scenes should lead directly to the next without leaving the players wondering, "What should we do?"
+Every adventure should have an inciting incident that either sees the heroes discovering the adventure's goal, or that puts them on the path to discovering it. If the characters start an adventure by finding the freshly murdered body of a noble in the streets of [Capital](scc:mcdm.heroes.v1/rule.world/capital), they're likely to look for clues that could lead them to catching a murderer—a solid, straightforward adventure goal. Or it could be that the murder leads them to uncovering a grand conspiracy in which one of [Capital](scc:mcdm.heroes.v1/rule.world/capital)'s Great Houses is planning a coordinated and violent takeover of the city. The heroes must stop those plots—an adventure goal that might take them several scenes to fully uncover. But each of those scenes should lead directly to the next without leaving the players wondering, "What should we do?"
 
 > **Complications and Adventures**
 >
@@ -366,7 +366,7 @@ Make a list of the different locations the heroes might visit during the adventu
 
 A general location is a settlement or a defined wilderness region that the heroes visit during the adventure.
 
-If the adventure takes place in a giant, sprawling metropolis like Capital, then different city districts and large landmarks such as catacombs and parks count as general locations. If the adventure takes place in and around a regional area larger than a city but no bigger than a planet, then full settlements and biomes such as deserts and forests count as general locations. If the adventure takes place across the timescape (or in a similar milieu of many worlds), then a general location could be an entire world and any specific settlements or biomes the heroes visit in that world.
+If the adventure takes place in a giant, sprawling metropolis like [Capital](scc:mcdm.heroes.v1/rule.world/capital), then different city districts and large landmarks such as catacombs and parks count as general locations. If the adventure takes place in and around a regional area larger than a city but no bigger than a planet, then full settlements and biomes such as deserts and forests count as general locations. If the adventure takes place across the timescape (or in a similar milieu of many worlds), then a general location could be an entire world and any specific settlements or biomes the heroes visit in that world.
 
 You don't have to define everything about these general locations, because you'll develop more in-depth information about the specific sites the heroes might visit in any location later. You can use the following questions about each general location as a starting point for what you'll want to cover (and you might already have done some of this when creating a starting area during your campaign preparation):
 
@@ -436,7 +436,7 @@ When running exploration, your job is to set the scene, listen to the players de
 When preparing an exploration scene, you'll want to come up with answers to the following questions:
 
 - What information or objects do the heroes need to recover in this scene that will help them advance the story?
-- What bonus pieces of information and other rewards can they earn during this scene if they explore fully and successfully?
+- What [bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) pieces of information and other rewards can they earn during this scene if they explore fully and successfully?
 
 Information or objects the heroes need to obtain from an exploration scene to advance the story should have some way of being found without a [test](scc:mcdm.heroes.v1/rule.test/test). Simply by entering a monarch's private chambers, the heroes learn that the king is dead and has been slain by a knife, because his body and the murder weapon are plainly visible. They should also automatically notice that the knife bears the crest of a noble house, providing an obvious path to continue the adventure. Other details in the room might help [speed](scc:mcdm.heroes.v1/rule.character/speed) along their investigation of who killed the king, but they can find the bare minimum of what they need to continue for free.
 
@@ -486,9 +486,9 @@ By contrast, sometimes a player will propose what they think is a plausible or c
 
 A hero always succeeds on an **easy [test](scc:mcdm.heroes.v1/rule.test/test)**. It's just a question of whether they might incur a consequence or earn a reward alongside success. For this reason, you should use easy [tests](scc:mcdm.heroes.v1/rule.test/test) sparingly in your adventures.
 
-A hero who has a modifier of +1 or more on a [test](scc:mcdm.heroes.v1/rule.test/test) will likely succeed on a **moderate [test](scc:mcdm.heroes.v1/rule.test/test)**. Success with a consequence is common for heroes if their bonus to the [test](scc:mcdm.heroes.v1/rule.test/test) is lower than +4, so they're succeeding at a cost. Odds are that most of the [tests](scc:mcdm.heroes.v1/rule.test/test) you'll call for in your games will be moderate [tests](scc:mcdm.heroes.v1/rule.test/test). They give most heroes a decent chance of success without it being a sure thing, and the story gets interesting whenever consequences are involved.
+A hero who has a modifier of +1 or more on a [test](scc:mcdm.heroes.v1/rule.test/test) will likely succeed on a **moderate [test](scc:mcdm.heroes.v1/rule.test/test)**. Success with a consequence is common for heroes if their [bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to the [test](scc:mcdm.heroes.v1/rule.test/test) is lower than +4, so they're succeeding at a cost. Odds are that most of the [tests](scc:mcdm.heroes.v1/rule.test/test) you'll call for in your games will be moderate [tests](scc:mcdm.heroes.v1/rule.test/test). They give most heroes a decent chance of success without it being a sure thing, and the story gets interesting whenever consequences are involved.
 
-**Hard [tests](scc:mcdm.heroes.v1/rule.test/test)** do exactly what it says on the tin. Success on a hard [test](scc:mcdm.heroes.v1/rule.test/test) requires a roll of 17 or higher, which means a hero has better than a 50 percent chance of success only if they have a +6 or higher bonus on the [test](scc:mcdm.heroes.v1/rule.test/test). At 1st level, that means a character using their highest [characteristic](scc:mcdm.heroes.v1/rule.character/characteristic), using a skill, and having an [edge](scc:mcdm.heroes.v1/rule.dice/edge) on the [test](scc:mcdm.heroes.v1/rule.test/test). Failure on a hard [test](scc:mcdm.heroes.v1/rule.test/test) often means consequences beyond failing, making hard [tests](scc:mcdm.heroes.v1/rule.test/test) really risky! You likely find that hard [tests](scc:mcdm.heroes.v1/rule.test/test) aren't as common as moderate [tests](scc:mcdm.heroes.v1/rule.test/test) in your game, but they're used more than easy [tests](scc:mcdm.heroes.v1/rule.test/test).
+**Hard [tests](scc:mcdm.heroes.v1/rule.test/test)** do exactly what it says on the tin. Success on a hard [test](scc:mcdm.heroes.v1/rule.test/test) requires a roll of 17 or higher, which means a hero has better than a 50 percent chance of success only if they have a +6 or higher [bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) on the [test](scc:mcdm.heroes.v1/rule.test/test). At 1st level, that means a character using their highest [characteristic](scc:mcdm.heroes.v1/rule.character/characteristic), using a skill, and having an [edge](scc:mcdm.heroes.v1/rule.dice/edge) on the [test](scc:mcdm.heroes.v1/rule.test/test). Failure on a hard [test](scc:mcdm.heroes.v1/rule.test/test) often means consequences beyond failing, making hard [tests](scc:mcdm.heroes.v1/rule.test/test) really risky! You likely find that hard [tests](scc:mcdm.heroes.v1/rule.test/test) aren't as common as moderate [tests](scc:mcdm.heroes.v1/rule.test/test) in your game, but they're used more than easy [tests](scc:mcdm.heroes.v1/rule.test/test).
 
 ##### Setting Difficulty During Play
 
@@ -498,7 +498,7 @@ On the other hand, not sharing the difficulty of every [test](scc:mcdm.heroes.v1
 
 ##### Test Outcomes
 
-After a hero makes a [test](scc:mcdm.heroes.v1/rule.test/test), it's up to you to narrate and decide the outcome, keeping some basic guidelines in mind.
+After a hero makes a [test](scc:mcdm.heroes.v1/rule.test/test), it's up to you to narrate and decide the outcome, keeping some basic [guide](scc:mcdm.heroes.v1/rule.downtime/guide)lines in mind.
 
 If a [test](scc:mcdm.heroes.v1/rule.test/test) is a **failure with a consequence**, the hero doesn't just fail—they make things worse. This might mean drawing the attention of nearby foes, setting off a hazard or trap, taking damage or causing an ally to take damage, taking a [bane](scc:mcdm.heroes.v1/rule.dice/bane) on a future [test](scc:mcdm.heroes.v1/rule.test/test), losing a mundane item, making a friendly [NPC](scc:mcdm.heroes.v1/rule.general/npc) angry, or even earning you a little future Malice. The consequence is up to you!
 
@@ -514,7 +514,7 @@ Sample consequences and rewards for [tests](scc:mcdm.heroes.v1/rule.test/test) a
 
 #### Creating and Running Hazards
 
-Hazards include traps, natural dangers such as quicksand and avalanches, and supernatural dangers such as magic-irradiated ruins or floating clouds of unstable psionic energy. Hazards can appear in combat and exploration scenes as dangers the heroes need to contend with as they solve other problems. An elaborate hazard can be a scene all on its own as well, whether tackled in a [montage test](scc:mcdm.heroes.v1/rule.test/montage-test) or run round by round as if it were a combat scenario.
+Hazards include traps, natural dangers such as quicksand and avalanches, and [supernatural](scc:mcdm.heroes.v1/rule.general/supernatural) dangers such as magic-irradiated ruins or floating clouds of unstable psionic energy. Hazards can appear in combat and exploration scenes as dangers the heroes need to contend with as they solve other problems. An elaborate hazard can be a scene all on its own as well, whether tackled in a [montage test](scc:mcdm.heroes.v1/rule.test/montage-test) or run round by round as if it were a combat scenario.
 
 A good hazard presents a real threat to the heroes and stands in the way of something they want. Crossing a pool of lava isn't much of an issue if the heroes can simply walk around it. But if the pool is too big to walk around, or if the treasure the party seeks is at the bottom of it, it becomes something they can't easily ignore.
 
@@ -576,7 +576,7 @@ The One-Time Hazard Deadliness and Perpetual Hazard Deadliness tables show the d
 
 ##### Hazard Effects
 
-Some hazards deal effects in addition to or instead of damage. A hazard that is part of a combat encounter can impose just about any effect, including conditions, and can have a real impact on the story. However, if the heroes are facing a hazard outside of combat, you want any effects it imposes to be something more impactful and lasting. The following effects each reflect the interesting and lasting consequences a noncombat hazard should have:
+Some hazards deal effects in addition to or instead of damage. A hazard that is part of a combat encounter can impose just about any effect, including [conditions](scc:mcdm.heroes.v1/rule.combat/condition), and can have a real impact on the story. However, if the heroes are facing a hazard outside of combat, you want any effects it imposes to be something more impactful and lasting. The following effects each reflect the interesting and lasting consequences a noncombat hazard should have:
 
 - A character loses a [Recovery](scc:mcdm.heroes.v1/rule.health/recoveries).
 - A curse leaves a character with a demonic-sounding voice that imposes a [bane](scc:mcdm.heroes.v1/rule.dice/bane) on [Presence](scc:mcdm.heroes.v1/rule.character/presence) [tests](scc:mcdm.heroes.v1/rule.test/test).
@@ -597,12 +597,12 @@ Refer to the details you wrote down for your [NPCs](scc:mcdm.heroes.v1/rule.gene
 
 When you're preparing for a negotiation (see Chapter 11: [Negotiation](scc:mcdm.heroes.v1/chapter/negotiation)), you'll want to pick an [NPC](scc:mcdm.heroes.v1/rule.general/npc) and give them their negotiation stats—a starting interest and patience, motivations and pitfalls, and an Impression score. The Starting Attitudes table in the Negotiation chapter should give you an idea of where to start with some of these stats, but you should feel free to adjust the numbers as you see fit.
 
-When assigning negotiation stats, keep the following guidelines in mind:
+When assigning negotiation stats, keep the following [guide](scc:mcdm.heroes.v1/rule.downtime/guide)lines in mind:
 
 - The higher an [NPC](scc:mcdm.heroes.v1/rule.general/npc)'s starting interest, the more likely the heroes are to end the negotiation with everything they want—and then some—from the [NPC](scc:mcdm.heroes.v1/rule.general/npc).
 - The higher an [NPC](scc:mcdm.heroes.v1/rule.general/npc)'s starting patience, the longer the negotiation and the more chances the heroes have to make arguments. If you want a long, rich negotiation, give your [NPC](scc:mcdm.heroes.v1/rule.general/npc) a higher patience score.
 - The more motivations an [NPC](scc:mcdm.heroes.v1/rule.general/npc) has, the more likely the heroes are to make easier [tests](scc:mcdm.heroes.v1/rule.test/test) while engaging the [NPC](scc:mcdm.heroes.v1/rule.general/npc).
-- The more pitfalls an [NPC](scc:mcdm.heroes.v1/rule.general/npc) has, the more likely the heroes are to stumble into a topic that turns negotiation sour. However, too many pitfalls can feel like a "Gotcha!" setup to players, especially if they don't have time to do a little research or reconnaissance on the [NPC](scc:mcdm.heroes.v1/rule.general/npc) before going into the negotiation.
+- The more pitfalls an [NPC](scc:mcdm.heroes.v1/rule.general/npc) has, the more likely the heroes are to stumble into a topic that [turns](scc:mcdm.heroes.v1/rule.combat/turn) negotiation sour. However, too many pitfalls can feel like a "Gotcha!" setup to players, especially if they don't have time to do a little research or reconnaissance on the [NPC](scc:mcdm.heroes.v1/rule.general/npc) before going into the negotiation.
 
 #### Plan the Outcomes
 
@@ -1027,7 +1027,7 @@ Fire blazes in several buildings whose occupants need to be rescued. Elsewhere, 
 The following challenges can be part of the [montage test](scc:mcdm.heroes.v1/rule.test/montage-test):
 
 - **Bucket Brigades:** Characters can organize the would-be firefighters into disciplined bucket brigades, or can fight the fire directly in some other way. *Suggested* C*haracteristics:* [Presence](scc:mcdm.heroes.v1/rule.character/presence), [Reason](scc:mcdm.heroes.v1/rule.character/reason). *Suggested Skills:* Architecture, Intimidate, Lead.
-- **Clearing a Firebreak:** Preventing the fire from spreading might involve clearing the ground of flammable materials, either by moving it or burning it away under controlled conditions. *Suggested [Characteristics](scc:mcdm.heroes.v1/rule.character/characteristic):* [Might](scc:mcdm.heroes.v1/rule.character/might), [Reason](scc:mcdm.heroes.v1/rule.character/reason). *Suggested Skills and Abilities:* Endurance, Lift; abilities that deal fire damage. *Special:* A creature loses a [Recovery](scc:mcdm.heroes.v1/rule.health/recoveries) if they incur a consequence on the [test](scc:mcdm.heroes.v1/rule.test/test) for this challenge.
+- **Clearing a Firebreak:** Preventing the fire from spreading might involve clearing the ground of flammable materials, either by moving it or burning it away under controlled [conditions](scc:mcdm.heroes.v1/rule.combat/condition). *Suggested [Characteristics](scc:mcdm.heroes.v1/rule.character/characteristic):* [Might](scc:mcdm.heroes.v1/rule.character/might), [Reason](scc:mcdm.heroes.v1/rule.character/reason). *Suggested Skills and Abilities:* Endurance, Lift; abilities that deal fire damage. *Special:* A creature loses a [Recovery](scc:mcdm.heroes.v1/rule.health/recoveries) if they incur a consequence on the [test](scc:mcdm.heroes.v1/rule.test/test) for this challenge.
 - **Evacuating Buildings:** Characters must save people trapped in burning buildings. *Suggested [Characteristics](scc:mcdm.heroes.v1/rule.character/characteristic):* [Might](scc:mcdm.heroes.v1/rule.character/might), [Presence](scc:mcdm.heroes.v1/rule.character/presence). *Suggested Skills:* Climb, Endurance, Persuade. *Special:* A creature who doesn't have fire immunity loses a [Recovery](scc:mcdm.heroes.v1/rule.health/recoveries) if they incur a consequence on the [test](scc:mcdm.heroes.v1/rule.test/test) for this challenge. The heroes can attempt this challenge twice during the [montage test](scc:mcdm.heroes.v1/rule.test/montage-test).
 - **Find More Firefighters:** By finding groups that aren't fighting the fire, such as fleeing civilians, characters can convince them to help. *Suggested [Characteristic](scc:mcdm.heroes.v1/rule.character/characteristic):* [Presence](scc:mcdm.heroes.v1/rule.character/presence). *Suggested Skills:* Intimidate, Lead, Persuade.
 - **Free the Horses:** Characters can loose the stabled horses threatened by the fire and lead them to safety. *Suggested [Characteristics](scc:mcdm.heroes.v1/rule.character/characteristic):* [Might](scc:mcdm.heroes.v1/rule.character/might), [Presence](scc:mcdm.heroes.v1/rule.character/presence). *Suggested Skills:* Handle Animals, Lift, Ride.
@@ -1085,7 +1085,7 @@ The following challenges can be part of the heroes' infiltration:
 
 ###### Optional Twist
 
-At any time during the infiltration section of the [montage test](scc:mcdm.heroes.v1/rule.test/montage-test), immediately after one hero's turn, the characters run into another group breaking into the palace at the same time, and possibly after the same prize. The characters can choose to fight or negotiate with the other party, or simply let them pass—in which case they might meet them again when they reach their final goal.
+At any time during the infiltration section of the [montage test](scc:mcdm.heroes.v1/rule.test/montage-test), immediately after one hero's [turn](scc:mcdm.heroes.v1/rule.combat/turn), the characters run into another group breaking into the palace at the same time, and possibly after the same prize. The characters can choose to fight or negotiate with the other party, or simply let them pass—in which case they might meet them again when they reach their final goal.
 
 ###### Montage Test Outcomes
 
@@ -1112,7 +1112,7 @@ The following challenges can be part of the [montage test](scc:mcdm.heroes.v1/ru
 - **Fortification:** Characters can help build or repair walls and other defensive structures. *Suggested [Characteristics](scc:mcdm.heroes.v1/rule.character/characteristic):* [Might](scc:mcdm.heroes.v1/rule.character/might), [Reason](scc:mcdm.heroes.v1/rule.character/reason). *Suggested Skills:* Architecture, Endurance, Lift.
 - **Inspiration:** Improving morale with rousing speeches or performances can help prepare the locals for the fight to come. *Suggested [Characteristics](scc:mcdm.heroes.v1/rule.character/characteristic):* [Intuition](scc:mcdm.heroes.v1/rule.character/intuition), [Presence](scc:mcdm.heroes.v1/rule.character/presence). *Suggested Skills:* Brag, Lead, Perform.
 - **Propaganda:** Characters can attempt to sow confusion or rebellion in the ranks of the approaching army. *Suggested [Characteristics](scc:mcdm.heroes.v1/rule.character/characteristic):* [Agility](scc:mcdm.heroes.v1/rule.character/agility), [Presence](scc:mcdm.heroes.v1/rule.character/presence). *Suggested Skills:* Disguise, Forgery, Lie.
-- **Stockpiling:** Characters can hunt, forage, or supernaturally conjure food or water to augment the settlement's supplies. *Suggested [Characteristics](scc:mcdm.heroes.v1/rule.character/characteristic):* [Agility](scc:mcdm.heroes.v1/rule.character/agility), [Reason](scc:mcdm.heroes.v1/rule.character/reason). *Suggested Skills:* Nature, Sneak, Track.
+- **Stockpiling:** Characters can hunt, forage, or [supernatural](scc:mcdm.heroes.v1/rule.general/supernatural)ly conjure food or water to augment the settlement's supplies. *Suggested [Characteristics](scc:mcdm.heroes.v1/rule.character/characteristic):* [Agility](scc:mcdm.heroes.v1/rule.character/agility), [Reason](scc:mcdm.heroes.v1/rule.character/reason). *Suggested Skills:* Nature, Sneak, Track.
 - **Training:** Heroes can help to train the settlement's defenders. *Suggested [Characteristics](scc:mcdm.heroes.v1/rule.character/characteristic):* [Might](scc:mcdm.heroes.v1/rule.character/might), [Presence](scc:mcdm.heroes.v1/rule.character/presence). *Suggested Skills:* Endurance, Intimidate, Lead.
 - **Trapmaking:** Digging concealed pits, placing hindrances, and setting up ambushes will make it harder for the invaders to approach the settlement. *Suggested [Characteristics](scc:mcdm.heroes.v1/rule.character/characteristic):* [Might](scc:mcdm.heroes.v1/rule.character/might), [Reason](scc:mcdm.heroes.v1/rule.character/reason). *Suggested Skills:* Conceal Object, Endurance, Mechanics.
 
@@ -1226,11 +1226,11 @@ There's no right number of [respites](scc:mcdm.heroes.v1/rule.resource/respite) 
 
 ##### Victories and Respites
 
-Ultimately, the players, not the Director, decide when the heroes take a [respite](scc:mcdm.heroes.v1/rule.resource/respite). So even though you adjudicate whether the conditions are safe enough for a [respite](scc:mcdm.heroes.v1/rule.resource/respite), this part of the pacing is effectively out of your hands. Typically, most heroes want to rest after every 4 to 6 [Victories](scc:mcdm.heroes.v1/rule.resource/victories) they earn, depending on how many [Victories](scc:mcdm.heroes.v1/rule.resource/victories) were earned in combat encounters.
+Ultimately, the players, not the Director, decide when the heroes take a [respite](scc:mcdm.heroes.v1/rule.resource/respite). So even though you adjudicate whether the [conditions](scc:mcdm.heroes.v1/rule.combat/condition) are safe enough for a [respite](scc:mcdm.heroes.v1/rule.resource/respite), this part of the pacing is effectively out of your hands. Typically, most heroes want to rest after every 4 to 6 [Victories](scc:mcdm.heroes.v1/rule.resource/victories) they earn, depending on how many [Victories](scc:mcdm.heroes.v1/rule.resource/victories) were earned in combat encounters.
 
 #### Optional Rule: Average Roll
 
-When the heroes take a long series of [respites](scc:mcdm.heroes.v1/rule.resource/respite), it might not be fun for the players to do a ton of die rolling covering many projects. Instead of rolling, you can calculate the progress for each [respite](scc:mcdm.heroes.v1/rule.resource/respite) as if a hero had rolled a natural 11 on their progress roll, then adding appropriate bonuses. Although rolling lots of dice and hoping for breakthroughs can be a lot of fun, taking the average of the 2d10 roll allows players to get through a lot of downtime with minimal math.
+When the heroes take a long series of [respites](scc:mcdm.heroes.v1/rule.resource/respite), it might not be fun for the players to do a ton of die rolling covering many projects. Instead of rolling, you can calculate the progress for each [respite](scc:mcdm.heroes.v1/rule.resource/respite) as if a hero had rolled a natural 11 on their progress roll, then adding appropriate [bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties)es. Although rolling lots of dice and hoping for breakthroughs can be a lot of fun, taking the average of the 2d10 roll allows players to get through a lot of downtime with minimal math.
 
 #### Optional Rule: Easier Crafting
 
@@ -1244,7 +1244,7 @@ You should have as much fun giving out treasure, [Renown](scc:mcdm.heroes.v1/rul
 
 #### Granting Treasures
 
-Whenever you're planning on awarding treasures to the heroes, focus on items that are useful. Finding a magic bow isn't likely to excite a group that doesn't have a hero who loves ranged weapon combat. The players might even tell you (or you can ask) which treasures their heroes most desire.
+Whenever you're planning on awarding treasures to the heroes, focus on items that are useful. Finding a magic bow isn't likely to excite a group that doesn't have a hero who loves [ranged](scc:mcdm.heroes.v1/rule.combat/ranged) weapon combat. The players might even tell you (or you can ask) which treasures their heroes most desire.
 
 Once you have treasures in mind, you can use the following progression as a baseline for the heroes to earn those treasures:
 
@@ -1269,13 +1269,13 @@ The players can choose their hero's treasures, and can replace any [leveled trea
 
 #### Making New Treasures
 
-You can easily create new types of [leveled treasures](scc:mcdm.heroes.v1/rule.treasure/leveled-treasure) for heroes to find using the enhancements from the Imbue Treasure project in Chapter 12: [Downtime Projects](scc:mcdm.heroes.v1/chapter/downtime-projects).
+You can easily create new types of [leveled treasures](scc:mcdm.heroes.v1/rule.treasure/leveled-treasure) for heroes to find using the [enhancements](scc:mcdm.heroes.v1/rule.treasure/enhancement) from the Imbue Treasure project in Chapter 12: [Downtime Projects](scc:mcdm.heroes.v1/chapter/downtime-projects).
 
 You can also take any of the treasures in this book and easily reskin them. Do you wish Gecko Gloves were actually boots? Just change the description and the Hands keywords and you're good to go. Do you want the Icemaker Maul to be a dagger that creates pools of acid instead of an ice field? Change the Heavy Weapon keyword and swap the [damage types](scc:mcdm.heroes.v1/rule.damage/damage-type), and you're ready to rock! Simply changing keywords, damage, and descriptions for treasures isn't going to break the game.
 
 #### Awarding Titles
 
-You don't need to grant heroes every title they qualify for. In fact, you probably shouldn't, lest they become too powerful too fast. As a general guideline, a hero should gain a new title about every other level, which you can accomplish using either of the following options:
+You don't need to grant heroes every title they qualify for. In fact, you probably shouldn't, lest they become too powerful too fast. As a general [guide](scc:mcdm.heroes.v1/rule.downtime/guide)line, a hero should gain a new title about every other level, which you can accomplish using either of the following options:
 
 - You can grant a hero a title during a significant moment in a campaign, such as after defeating a villain. The heroes are each awarded a title they earned that is chosen by you.
 - You can allow a hero to choose a title they've earned from the titles available at their [echelon](scc:mcdm.heroes.v1/rule.general/echelon) each time they achieve an even-numbered level.
@@ -1284,7 +1284,7 @@ You should check in with your players occasionally to see if they have any speci
 
 #### Awarding Renown
 
-The heroes earn [Renown](scc:mcdm.heroes.v1/rule.resource/renown) whenever they do something of significance, such as saving a town or... well, saving the world! As a general guideline, heroes should earn 1 [Renown](scc:mcdm.heroes.v1/rule.resource/renown) per level.
+The heroes earn [Renown](scc:mcdm.heroes.v1/rule.resource/renown) whenever they do something of significance, such as saving a town or... well, saving the world! As a general [guide](scc:mcdm.heroes.v1/rule.downtime/guide)line, heroes should earn 1 [Renown](scc:mcdm.heroes.v1/rule.resource/renown) per level.
 
 If you want the characters to be less famous than in a standard heroic tale, you can adjust this to give out [Renown](scc:mcdm.heroes.v1/rule.resource/renown) every other level. Alternatively, you can award [Renown](scc:mcdm.heroes.v1/rule.resource/renown) after each adventure if you want the heroes to become power players in the world more quickly.
 
@@ -1307,7 +1307,7 @@ You can award [hero tokens](scc:mcdm.heroes.v1/rule.resource/hero-token) to the 
 
 #### Awarding Victories
 
-Use the following guidelines for awarding [Victories](scc:mcdm.heroes.v1/rule.resource/victories) to the heroes, increasing these values as desired for notably difficult challenges.
+Use the following [guide](scc:mcdm.heroes.v1/rule.downtime/guide)lines for awarding [Victories](scc:mcdm.heroes.v1/rule.resource/victories) to the heroes, increasing these values as desired for notably difficult challenges.
 
 ##### Combat Encounters
 

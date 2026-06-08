@@ -12,7 +12,7 @@ Abilities with the Area keyword create an [area of effect](scc:mcdm.heroes.v1/ru
 
 ##### Charge
 
-Abilities with the Charge keyword can be used with the [Charge](scc:mcdm.heroes.v1/feature.common.main-actions/charge) main action instead of a melee [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike). (The [Charge](scc:mcdm.heroes.v1/feature.common.main-actions/charge) main action is described in Main Actions in Chapter 10: [Combat](scc:mcdm.heroes.v1/chapter/combat).)
+Abilities with the Charge keyword can be used with the [Charge](scc:mcdm.heroes.v1/feature.common.main-actions/charge) main action instead of a [melee](scc:mcdm.heroes.v1/rule.combat/melee) [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike). (The [Charge](scc:mcdm.heroes.v1/feature.common.main-actions/charge) main action is described in Main Actions in Chapter 10: [Combat](scc:mcdm.heroes.v1/chapter/combat).)
 
 ##### Magic
 

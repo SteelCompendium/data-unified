@@ -2,13 +2,13 @@
 action_type: Maneuver
 class: talent
 cost: 5 Clarity
-distance: Ranged 10
+distance: '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 10'
 effect: A target can't use [triggered actions](scc:mcdm.heroes.v1/rule.combat/triggered-action) while their [speed](scc:mcdm.heroes.v1/rule.character/speed) is reduced this way.
 flavor: Perhaps they wonder why everyone else is moving so quickly?
 keywords:
     - Chronopathy
     - Psionic
-    - Ranged
+    - '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)'
 level: "2"
 name: Slow
 scc: mcdm.heroes.v1/feature.ability.talent.level-2/slow
@@ -19,9 +19,9 @@ type: ability
 
 *Perhaps they wonder why everyone else is moving so quickly?*
 
-| **Chronopathy, Psionic, Ranged** |                      **Maneuver** |
+| **Chronopathy, Psionic, [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)** |                      **Maneuver** |
 |----------------------------------|----------------------------------:|
-| **📏 Ranged 10**                 | **🎯 Three creatures or objects** |
+| **📏 [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 10**                 | **🎯 Three creatures or objects** |
 
 **[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Presence](scc:mcdm.heroes.v1/rule.character/presence):**
 
@@ -31,4 +31,4 @@ type: ability
 
 **Effect:** A target can't use [triggered actions](scc:mcdm.heroes.v1/rule.combat/triggered-action) while their [speed](scc:mcdm.heroes.v1/rule.character/speed) is reduced this way.
 
-**Strained:** The [potency](scc:mcdm.heroes.v1/rule.character/potency) of this ability increases by 1 and you take 1d6 damage. At the start of each combat round while any target is affected by this ability, you take 1d6 damage. You can end the effect on all affected targets at any time (no action required).
+**Strained:** The [potency](scc:mcdm.heroes.v1/rule.character/potency) of this ability increases by 1 and you take 1d6 damage. At the start of each [combat round](scc:mcdm.heroes.v1/rule.combat/combat-round) while any target is affected by this ability, you take 1d6 damage. You can end the effect on all affected targets at any time (no action required).

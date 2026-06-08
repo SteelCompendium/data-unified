@@ -15,9 +15,9 @@ You nearly lost your life at sea, but then you heard the voice. Someone—or som
 >
 > *You summon a wave of water to batter your foe.*
 >
-> | **Magic, Ranged, [Strike](scc:mcdm.heroes.v1/rule.combat/strike)** |               **Main action** |
+> | **Magic, [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged), [Strike](scc:mcdm.heroes.v1/rule.combat/strike)** |               **Main action** |
 > |---------------------------| -----------------------------:|
-> | **📏 Ranged 10**          | **🎯 One creature or object** |
+> | **📏 [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 10**          | **🎯 One creature or object** |
 >
 > **[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + Your Highest [Characteristic](scc:mcdm.heroes.v1/rule.character/characteristic) Score:**
 >

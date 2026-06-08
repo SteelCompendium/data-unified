@@ -2,12 +2,12 @@
 action_type: Main action
 class: conduit
 cost: 11 Piety
-distance: Ranged 10
-effect: Each ally the target comes adjacent to during the [forced movement](scc:mcdm.heroes.v1/movement/forced-movement) can spend a [Recovery](scc:mcdm.heroes.v1/rule.health/recoveries).
+distance: '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 10'
+effect: Each ally the target comes [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to during the [forced movement](scc:mcdm.heroes.v1/movement/forced-movement) can spend a [Recovery](scc:mcdm.heroes.v1/rule.health/recoveries).
 flavor: You conjure an angel who moves a foe and heals your allies.
 keywords:
     - Magic
-    - Ranged
+    - '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)'
     - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
 level: "8"
 name: Drag the Unworthy
@@ -19,9 +19,9 @@ type: ability
 
 *You conjure an angel who moves a foe and heals your allies.*
 
-| **Magic, Ranged, [Strike](scc:mcdm.heroes.v1/rule.combat/strike)**  |               **Main action** |
+| **Magic, [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged), [Strike](scc:mcdm.heroes.v1/rule.combat/strike)**  |               **Main action** |
 |----------------------------|------------------------------:|
-| **📏 Ranged 10**           | **🎯 One creature or object** |
+| **📏 [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 10**           | **🎯 One creature or object** |
 
 **[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Intuition](scc:mcdm.heroes.v1/rule.character/intuition):**
 
@@ -29,4 +29,4 @@ type: ability
 - **12-16:** 13 + I holy damage; slide 4
 - **17+:** 18 + I holy damage; slide 6
 
-**Effect:** Each ally the target comes adjacent to during the [forced movement](scc:mcdm.heroes.v1/movement/forced-movement) can spend a [Recovery](scc:mcdm.heroes.v1/rule.health/recoveries).
+**Effect:** Each ally the target comes [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to during the [forced movement](scc:mcdm.heroes.v1/movement/forced-movement) can spend a [Recovery](scc:mcdm.heroes.v1/rule.health/recoveries).

@@ -1,13 +1,13 @@
 ---
 action_type: Main action
 class: talent
-distance: Ranged 10
+distance: '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 10'
 effect: The target takes an extra 1 corruption damage for each additional time they are targeted by this ability during the encounter.
 flavor: You advance an enemy's age for a moment.
 keywords:
     - Chronopathy
     - Psionic
-    - Ranged
+    - '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)'
     - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
 level: "1"
 name: Entropic Bolt
@@ -20,9 +20,9 @@ type: ability
 
 *You advance an enemy's age for a moment.*
 
-| **Chronopathy, Psionic, Ranged, [Strike](scc:mcdm.heroes.v1/rule.combat/strike)** |               **Main action** |
+| **Chronopathy, Psionic, [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged), [Strike](scc:mcdm.heroes.v1/rule.combat/strike)** |               **Main action** |
 |------------------------------------------|------------------------------:|
-| **📏 Ranged 10**                         | **🎯 One creature or object** |
+| **📏 [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 10**                         | **🎯 One creature or object** |
 
 **[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Presence](scc:mcdm.heroes.v1/rule.character/presence):**
 

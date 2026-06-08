@@ -3,12 +3,12 @@ action_type: Main action
 class: conduit
 cost: 11 Piety
 distance: 5 [cube](scc:mcdm.heroes.v1/rule.combat/cube) within 5
-effect: A raging storm fills the area until the end of the encounter or until you are [dying](scc:mcdm.heroes.v1/rule.health/dying). At the start of each of your turns, you can move the storm up to 5 squares (no action required). On subsequent turns while the storm is active, you can use a maneuver to make its [power roll](scc:mcdm.heroes.v1/rule.dice/power-roll).
+effect: A raging storm fills the area until the end of the encounter or until you are [dying](scc:mcdm.heroes.v1/rule.health/dying). At the start of each of your [turns](scc:mcdm.heroes.v1/rule.combat/turn), you can move the storm up to 5 squares (no action required). On subsequent [turns](scc:mcdm.heroes.v1/rule.combat/turn) while the storm is active, you can use a maneuver to make its [power roll](scc:mcdm.heroes.v1/rule.dice/power-roll).
 flavor: You summon a divine storm that remains under your control.
 keywords:
     - Area
     - Magic
-    - Ranged
+    - '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)'
 level: "9"
 name: Godstorm
 scc: mcdm.heroes.v1/feature.ability.conduit.level-9/godstorm
@@ -19,7 +19,7 @@ type: ability
 
 *You summon a divine storm that remains under your control.*
 
-| **Area, Magic, Ranged** |               **Main action** |
+| **Area, Magic, [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)** |               **Main action** |
 |-------------------------|------------------------------:|
 | **📏 5 [cube](scc:mcdm.heroes.v1/rule.combat/cube) within 5**  | **🎯 Each enemy in the area** |
 
@@ -29,4 +29,4 @@ type: ability
 - **12-16:** 3 lightning damage, 3 sonic damage
 - **17+:** 5 lightning damage, 5 sonic damage
 
-**Effect:** A raging storm fills the area until the end of the encounter or until you are [dying](scc:mcdm.heroes.v1/rule.health/dying). At the start of each of your turns, you can move the storm up to 5 squares (no action required). On subsequent turns while the storm is active, you can use a maneuver to make its [power roll](scc:mcdm.heroes.v1/rule.dice/power-roll).
+**Effect:** A raging storm fills the area until the end of the encounter or until you are [dying](scc:mcdm.heroes.v1/rule.health/dying). At the start of each of your [turns](scc:mcdm.heroes.v1/rule.combat/turn), you can move the storm up to 5 squares (no action required). On subsequent [turns](scc:mcdm.heroes.v1/rule.combat/turn) while the storm is active, you can use a maneuver to make its [power roll](scc:mcdm.heroes.v1/rule.dice/power-roll).

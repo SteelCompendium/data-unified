@@ -6,4 +6,4 @@ scc: mcdm.heroes.v1/feature.fury.level-5/unfettered
 type: feature
 ---
 
-At the start of your turn, you can end any [restrained](scc:mcdm.heroes.v1/condition/restrained) condition on you. Additionally, you have a double [edge](scc:mcdm.heroes.v1/rule.dice/edge) on [tests](scc:mcdm.heroes.v1/rule.test/test) made to escape being confined or imprisoned.
+At the start of your [turn](scc:mcdm.heroes.v1/rule.combat/turn), you can end any [restrained](scc:mcdm.heroes.v1/condition/restrained) [condition](scc:mcdm.heroes.v1/rule.combat/condition) on you. Additionally, you have a double [edge](scc:mcdm.heroes.v1/rule.dice/edge) on [tests](scc:mcdm.heroes.v1/rule.test/test) made to escape being confined or imprisoned.

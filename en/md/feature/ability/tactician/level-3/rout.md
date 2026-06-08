@@ -4,7 +4,7 @@ class: tactician
 cost: 7 Focus
 distance: Self
 effect: Until the end of the encounter or until you are [dying](scc:mcdm.heroes.v1/rule.health/dying), whenever you or any ally deals damage to a target marked by you who has R < AVERAGE, the target is [frightened](scc:mcdm.heroes.v1/condition/frightened) of the creature who dealt the damage (save ends).
-flavor: The tide begins to turn.
+flavor: The tide begins to [turn](scc:mcdm.heroes.v1/rule.combat/turn).
 keywords:
     - '-'
 level: "3"
@@ -15,7 +15,7 @@ type: ability
 ---
 
 
-*The tide begins to turn.*
+*The tide begins to [turn](scc:mcdm.heroes.v1/rule.combat/turn).*
 
 | **-**       | **Maneuver** |
 |-------------|-------------:|

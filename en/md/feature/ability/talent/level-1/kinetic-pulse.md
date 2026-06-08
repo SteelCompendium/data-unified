@@ -28,4 +28,4 @@ type: ability
 - **12-16:** 5 psychic damage; push 1
 - **17+:** 7 psychic damage; push 2
 
-**Strained:** The size of the [burst](scc:mcdm.heroes.v1/rule.combat/burst) increases by 2, and you are [bleeding](scc:mcdm.heroes.v1/condition/bleeding) until the start of your next turn.
+**Strained:** The size of the [burst](scc:mcdm.heroes.v1/rule.combat/burst) increases by 2, and you are [bleeding](scc:mcdm.heroes.v1/condition/bleeding) until the start of your next [turn](scc:mcdm.heroes.v1/rule.combat/turn).

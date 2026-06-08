@@ -1,6 +1,6 @@
 ---
 echelon: "1"
-effect: As a maneuver, you rub the balm on your body and feel it tingle across your skin. You immediately end the [bleeding](scc:mcdm.heroes.v1/condition/bleeding) and [weakened](scc:mcdm.heroes.v1/condition/weakened) conditions on yourself, and you gain a +2 bonus to [speed](scc:mcdm.heroes.v1/rule.character/speed) until the start of your next turn.
+effect: As a maneuver, you rub the balm on your body and feel it tingle across your skin. You immediately end the [bleeding](scc:mcdm.heroes.v1/condition/bleeding) and [weakened](scc:mcdm.heroes.v1/condition/weakened) [conditions](scc:mcdm.heroes.v1/rule.combat/condition) on yourself, and you gain a +2 [bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to [speed](scc:mcdm.heroes.v1/rule.character/speed) until the start of your next [turn](scc:mcdm.heroes.v1/rule.combat/turn).
 keywords:
     - Magic
     - Oil
@@ -22,4 +22,4 @@ type: treasure
 
 **Project Goal:** 45
 
-**Effect:** As a maneuver, you rub the balm on your body and feel it tingle across your skin. You immediately end the [bleeding](scc:mcdm.heroes.v1/condition/bleeding) and [weakened](scc:mcdm.heroes.v1/condition/weakened) conditions on yourself, and you gain a +2 bonus to [speed](scc:mcdm.heroes.v1/rule.character/speed) until the start of your next turn.
+**Effect:** As a maneuver, you rub the balm on your body and feel it tingle across your skin. You immediately end the [bleeding](scc:mcdm.heroes.v1/condition/bleeding) and [weakened](scc:mcdm.heroes.v1/condition/weakened) [conditions](scc:mcdm.heroes.v1/rule.combat/condition) on yourself, and you gain a +2 [bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to [speed](scc:mcdm.heroes.v1/rule.character/speed) until the start of your next [turn](scc:mcdm.heroes.v1/rule.combat/turn).

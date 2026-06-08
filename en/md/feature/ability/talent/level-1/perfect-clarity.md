@@ -2,12 +2,12 @@
 action_type: Maneuver
 class: talent
 cost: 5 Clarity
-distance: Ranged 10
-effect: Until the start of your next turn, the target gains a +3 bonus to [speed](scc:mcdm.heroes.v1/rule.character/speed), and they have a double [edge](scc:mcdm.heroes.v1/rule.dice/edge) on the next [power roll](scc:mcdm.heroes.v1/rule.dice/power-roll) they make. If the target obtains a tier 3 outcome on that roll, you gain 1 clarity.
+distance: '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 10'
+effect: Until the start of your next [turn](scc:mcdm.heroes.v1/rule.combat/turn), the target gains a +3 [bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to [speed](scc:mcdm.heroes.v1/rule.character/speed), and they have a double [edge](scc:mcdm.heroes.v1/rule.dice/edge) on the next [power roll](scc:mcdm.heroes.v1/rule.dice/power-roll) they make. If the target obtains a tier 3 outcome on that roll, you gain 1 clarity.
 flavor: You clear the mind of nothing but the goal.
 keywords:
     - Psionic
-    - Ranged
+    - '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)'
     - Telepathy
 level: "1"
 name: Perfect Clarity
@@ -19,10 +19,10 @@ type: ability
 
 *You clear the mind of nothing but the goal.*
 
-| **Psionic, Ranged, Telepathy** |            **Maneuver** |
+| **Psionic, [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged), Telepathy** |            **Maneuver** |
 |--------------------------------|------------------------:|
-| **📏 Ranged 10**               | **🎯 Self or one ally** |
+| **📏 [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 10**               | **🎯 Self or one ally** |
 
-**Effect:** Until the start of your next turn, the target gains a +3 bonus to [speed](scc:mcdm.heroes.v1/rule.character/speed), and they have a double [edge](scc:mcdm.heroes.v1/rule.dice/edge) on the next [power roll](scc:mcdm.heroes.v1/rule.dice/power-roll) they make. If the target obtains a tier 3 outcome on that roll, you gain 1 clarity.
+**Effect:** Until the start of your next [turn](scc:mcdm.heroes.v1/rule.combat/turn), the target gains a +3 [bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to [speed](scc:mcdm.heroes.v1/rule.character/speed), and they have a double [edge](scc:mcdm.heroes.v1/rule.dice/edge) on the next [power roll](scc:mcdm.heroes.v1/rule.dice/power-roll) they make. If the target obtains a tier 3 outcome on that roll, you gain 1 clarity.
 
 **Strained:** You take 1d6 damage, and you can't use [triggered actions](scc:mcdm.heroes.v1/rule.combat/triggered-action) (save ends).

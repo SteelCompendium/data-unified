@@ -1,6 +1,6 @@
 ---
 echelon: "1"
-effect: Catapult Dust was developed as a cost-effective magic siege weapon. As a main action, you pour the dust out in an adjacent unoccupied space to fill an area as large as a 2 [cube](scc:mcdm.heroes.v1/rule.combat/cube). At the start of your next turn, the ground at the bottom of the area erupts violently upwards and in a direction of your choice. Any [unattended objects](scc:mcdm.heroes.v1/rule.general/unattended-object) in the area, or creatures who have entered the area since the dust was poured, are launched in an arc that is 6 + 1d6 squares long and 3 + 1d6 squares high.
+effect: Catapult Dust was developed as a cost-effective magic siege weapon. As a main action, you pour the dust out in an [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) unoccupied space to fill an area as large as a 2 [cube](scc:mcdm.heroes.v1/rule.combat/cube). At the start of your next [turn](scc:mcdm.heroes.v1/rule.combat/turn), the ground at the bottom of the area erupts violently upwards and in a direction of your choice. Any [unattended objects](scc:mcdm.heroes.v1/rule.general/unattended-object) in the area, or creatures who have entered the area since the dust was poured, are launched in an arc that is 6 + 1d6 squares long and 3 + 1d6 squares high.
 keywords:
     - Magic
 name: Catapult Dust
@@ -21,4 +21,4 @@ type: treasure
 
 **Project Goal:** 45
 
-**Effect:** Catapult Dust was developed as a cost-effective magic siege weapon. As a main action, you pour the dust out in an adjacent unoccupied space to fill an area as large as a 2 [cube](scc:mcdm.heroes.v1/rule.combat/cube). At the start of your next turn, the ground at the bottom of the area erupts violently upwards and in a direction of your choice. Any [unattended objects](scc:mcdm.heroes.v1/rule.general/unattended-object) in the area, or creatures who have entered the area since the dust was poured, are launched in an arc that is 6 + 1d6 squares long and 3 + 1d6 squares high.
+**Effect:** Catapult Dust was developed as a cost-effective magic siege weapon. As a main action, you pour the dust out in an [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) unoccupied space to fill an area as large as a 2 [cube](scc:mcdm.heroes.v1/rule.combat/cube). At the start of your next [turn](scc:mcdm.heroes.v1/rule.combat/turn), the ground at the bottom of the area erupts violently upwards and in a direction of your choice. Any [unattended objects](scc:mcdm.heroes.v1/rule.general/unattended-object) in the area, or creatures who have entered the area since the dust was poured, are launched in an arc that is 6 + 1d6 squares long and 3 + 1d6 squares high.

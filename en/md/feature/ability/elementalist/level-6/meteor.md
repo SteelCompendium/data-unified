@@ -2,14 +2,14 @@
 action_type: Main action
 class: elementalist
 cost: 9 Essence
-distance: Ranged 10
+distance: '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 10'
 effect: If the target is [teleport](scc:mcdm.heroes.v1/movement/teleport)ed to a space where they would fall, they immediately do so, treating the fall as if their [Agility](scc:mcdm.heroes.v1/rule.character/agility) score were 0. The target takes fire damage from the fall, and each enemy within 3 squares of where they land takes the same amount of fire damage. The ground within 3 squares of where the target lands is [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain).
 flavor: You [teleport](scc:mcdm.heroes.v1/movement/teleport) the target into the air and let the ground and the elemental force of fire do the rest.
 keywords:
     - Earth
     - Fire
     - Magic
-    - Ranged
+    - '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)'
     - Void
 level: "6"
 name: Meteor
@@ -21,9 +21,9 @@ type: ability
 
 *You [teleport](scc:mcdm.heroes.v1/movement/teleport) the target into the air and let the ground and the elemental force of fire do the rest.*
 
-| **Earth, Fire, Magic, Ranged, Void** |               **Main action** |
+| **Earth, Fire, Magic, [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged), Void** |               **Main action** |
 |--------------------------------------|------------------------------:|
-| **📏 Ranged 10**                     | **🎯 One creature or object** |
+| **📏 [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 10**                     | **🎯 One creature or object** |
 
 **[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Reason](scc:mcdm.heroes.v1/rule.character/reason):**
 

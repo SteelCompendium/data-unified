@@ -2,13 +2,13 @@
 action_type: Maneuver
 class: talent
 cost: 11 Clarity
-distance: Ranged 10
-effect: The target has [damage immunity](scc:mcdm.heroes.v1/rule.damage/damage-immunity) 5 and can't be made [slowed](scc:mcdm.heroes.v1/condition/slowed) or [weakened](scc:mcdm.heroes.v1/condition/weakened) until the start of your next turn. Whenever the target force moves a creature or object while under this effect, the [forced movement](scc:mcdm.heroes.v1/movement/forced-movement) [distance](scc:mcdm.heroes.v1/rule.combat/distance) gains a +5 bonus.
+distance: '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 10'
+effect: The target has [damage immunity](scc:mcdm.heroes.v1/rule.damage/damage-immunity) 5 and can't be made [slowed](scc:mcdm.heroes.v1/condition/slowed) or [weakened](scc:mcdm.heroes.v1/condition/weakened) until the start of your next [turn](scc:mcdm.heroes.v1/rule.combat/turn). Whenever the target force moves a creature or object while under this effect, the [forced movement](scc:mcdm.heroes.v1/movement/forced-movement) [distance](scc:mcdm.heroes.v1/rule.combat/distance) gains a +5 [bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties).
 flavor: The target's skin becomes covered in tough metal.
 keywords:
     - Metamorphosis
     - Psionic
-    - Ranged
+    - '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)'
 level: "8"
 name: Steel
 scc: mcdm.heroes.v1/feature.ability.talent.level-8/steel
@@ -19,10 +19,10 @@ type: ability
 
 *The target's skin becomes covered in tough metal.*
 
-| **Metamorphosis, Psionic, Ranged** |            **Maneuver** |
+| **Metamorphosis, Psionic, [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)** |            **Maneuver** |
 |------------------------------------|------------------------:|
-| **📏 Ranged 10**                   | **🎯 Self or one ally** |
+| **📏 [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 10**                   | **🎯 Self or one ally** |
 
-**Effect:** The target has [damage immunity](scc:mcdm.heroes.v1/rule.damage/damage-immunity) 5 and can't be made [slowed](scc:mcdm.heroes.v1/condition/slowed) or [weakened](scc:mcdm.heroes.v1/condition/weakened) until the start of your next turn. Whenever the target force moves a creature or object while under this effect, the [forced movement](scc:mcdm.heroes.v1/movement/forced-movement) [distance](scc:mcdm.heroes.v1/rule.combat/distance) gains a +5 bonus.
+**Effect:** The target has [damage immunity](scc:mcdm.heroes.v1/rule.damage/damage-immunity) 5 and can't be made [slowed](scc:mcdm.heroes.v1/condition/slowed) or [weakened](scc:mcdm.heroes.v1/condition/weakened) until the start of your next [turn](scc:mcdm.heroes.v1/rule.combat/turn). Whenever the target force moves a creature or object while under this effect, the [forced movement](scc:mcdm.heroes.v1/movement/forced-movement) [distance](scc:mcdm.heroes.v1/rule.combat/distance) gains a +5 [bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties).
 
 **Strained:** You can't use maneuvers (save ends).

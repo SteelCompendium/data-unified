@@ -2,12 +2,12 @@
 action_type: Main action
 class: censor
 cost: 3 Wrath
-distance: Melee 1
+distance: '[Melee](scc:mcdm.heroes.v1/rule.combat/melee) 1'
 effect: You can spend a [Recovery](scc:mcdm.heroes.v1/rule.health/recoveries) to allow yourself or one ally within 10 squares to regain [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) equal to your [recovery value](scc:mcdm.heroes.v1/rule.health/recoveries).
 flavor: You channel holy energy to smite a foe and heal an ally.
 keywords:
     - Magic
-    - Melee
+    - '[Melee](scc:mcdm.heroes.v1/rule.combat/melee)'
     - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
     - Weapon
 level: "1"
@@ -20,9 +20,9 @@ type: ability
 
 *You channel holy energy to smite a foe and heal an ally.*
 
-| **Magic, Melee, [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** |               **Main action** |
+| **Magic, [Melee](scc:mcdm.heroes.v1/rule.combat/melee), [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** |               **Main action** |
 |----------------------------------|------------------------------:|
-| **📏 Melee 1**                   | **🎯 One creature or object** |
+| **📏 [Melee](scc:mcdm.heroes.v1/rule.combat/melee) 1**                   | **🎯 One creature or object** |
 
 **[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc:mcdm.heroes.v1/rule.character/might):**
 

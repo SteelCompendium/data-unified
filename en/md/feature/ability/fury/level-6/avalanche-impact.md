@@ -3,7 +3,7 @@ action_type: Maneuver
 class: fury
 cost: 9 Ferocity
 distance: Self
-effect: You jump up to your maximum jump [distance](scc:mcdm.heroes.v1/rule.combat/distance) and make one [power roll](scc:mcdm.heroes.v1/rule.dice/power-roll) that targets each creature adjacent to the space where you land.
+effect: You jump up to your maximum jump [distance](scc:mcdm.heroes.v1/rule.combat/distance) and make one [power roll](scc:mcdm.heroes.v1/rule.dice/power-roll) that targets each creature [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the space where you land.
 flavor: You leap and crash down, causing a shockwave that devastates foes.
 keywords:
     - Magic
@@ -21,7 +21,7 @@ type: ability
 |-------------|-------------:|
 | **📏 Self** |  **🎯 Self** |
 
-**Effect:** You jump up to your maximum jump [distance](scc:mcdm.heroes.v1/rule.combat/distance) and make one [power roll](scc:mcdm.heroes.v1/rule.dice/power-roll) that targets each creature adjacent to the space where you land.
+**Effect:** You jump up to your maximum jump [distance](scc:mcdm.heroes.v1/rule.combat/distance) and make one [power roll](scc:mcdm.heroes.v1/rule.dice/power-roll) that targets each creature [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the space where you land.
 
 **[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc:mcdm.heroes.v1/rule.character/might):**
 

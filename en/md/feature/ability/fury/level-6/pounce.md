@@ -2,12 +2,12 @@
 action_type: Main action
 class: fury
 cost: 9 Ferocity
-distance: Melee 1
-effect: You can [shift](scc:mcdm.heroes.v1/movement/shifting) up to 4 squares, bringing the target with you. While [grabbed](scc:mcdm.heroes.v1/condition/grabbed) this way, the target takes damage equal to twice your [Might](scc:mcdm.heroes.v1/rule.character/might) score at the start of each of your turns.
+distance: '[Melee](scc:mcdm.heroes.v1/rule.combat/melee) 1'
+effect: You can [shift](scc:mcdm.heroes.v1/movement/shifting) up to 4 squares, bringing the target with you. While [grabbed](scc:mcdm.heroes.v1/condition/grabbed) this way, the target takes damage equal to twice your [Might](scc:mcdm.heroes.v1/rule.character/might) score at the start of each of your [turns](scc:mcdm.heroes.v1/rule.combat/turn).
 flavor: You strike at the target like the ultimate predator you are.
 keywords:
     - Magic
-    - Melee
+    - '[Melee](scc:mcdm.heroes.v1/rule.combat/melee)'
     - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
     - Weapon
 level: "6"
@@ -20,9 +20,9 @@ type: ability
 
 *You strike at the target like the ultimate predator you are.*
 
-| **Magic, Melee, [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** |     **Main action** |
+| **Magic, [Melee](scc:mcdm.heroes.v1/rule.combat/melee), [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** |     **Main action** |
 |----------------------------------|--------------------:|
-| **📏 Melee 1**                   | **🎯 One creature** |
+| **📏 [Melee](scc:mcdm.heroes.v1/rule.combat/melee) 1**                   | **🎯 One creature** |
 
 **[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc:mcdm.heroes.v1/rule.character/might):**
 
@@ -30,4 +30,4 @@ type: ability
 - **12-16:** 13 damage; M < AVERAGE, [grabbed](scc:mcdm.heroes.v1/condition/grabbed)
 - **17+:** 17 damage; M < STRONG, [grabbed](scc:mcdm.heroes.v1/condition/grabbed)
 
-**Effect:** You can [shift](scc:mcdm.heroes.v1/movement/shifting) up to 4 squares, bringing the target with you. While [grabbed](scc:mcdm.heroes.v1/condition/grabbed) this way, the target takes damage equal to twice your [Might](scc:mcdm.heroes.v1/rule.character/might) score at the start of each of your turns.
+**Effect:** You can [shift](scc:mcdm.heroes.v1/movement/shifting) up to 4 squares, bringing the target with you. While [grabbed](scc:mcdm.heroes.v1/condition/grabbed) this way, the target takes damage equal to twice your [Might](scc:mcdm.heroes.v1/rule.character/might) score at the start of each of your [turns](scc:mcdm.heroes.v1/rule.combat/turn).

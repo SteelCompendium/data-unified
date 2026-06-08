@@ -22,4 +22,4 @@ Ever since you were a kid, you've been obsessed with a certain topic. During you
 
 **Project Goal:** 120, 150, 180
 
-Each time you complete this project, your knowledge of your chosen field expands, and the bonus to [tests](scc:mcdm.heroes.v1/rule.test/test) provided by your chosen skill increases by 1.
+Each time you complete this project, your knowledge of your chosen field expands, and the [bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to [tests](scc:mcdm.heroes.v1/rule.test/test) provided by your chosen skill increases by 1.

@@ -6,27 +6,27 @@ type: project
 
 You can create [leveled treasures](scc:mcdm.heroes.v1/rule.treasure/leveled-treasure) by imbuing items with magic or psionic power. You must have a mundane version of the item you plan to imbue, such as a sword or shield, when you start this project.
 
-You can imbue any item three times. The first time you imbue it, you pick a 1st-level enhancement. The second time you imbue it, you pick a 5th-level enhancement. The third time you imbue it, you pick a 9th-level enhancement. A hero using armor or a weapon can't benefit from an enhancement unless they are using a kit that includes the armor or weapon type, and their level matches the enhancement's level.
+You can imbue any item three times. The first time you imbue it, you pick a 1st-level [enhancement](scc:mcdm.heroes.v1/rule.treasure/enhancement). The second time you imbue it, you pick a 5th-level [enhancement](scc:mcdm.heroes.v1/rule.treasure/enhancement). The third time you imbue it, you pick a 9th-level [enhancement](scc:mcdm.heroes.v1/rule.treasure/enhancement). A hero using armor or a weapon can't benefit from an [enhancement](scc:mcdm.heroes.v1/rule.treasure/enhancement) unless they are using a kit that includes the armor or weapon type, and their level matches the [enhancement](scc:mcdm.heroes.v1/rule.treasure/enhancement)'s level.
 
-If an enhancement has a Roman numeral greater than I after it, such as the Phasing III enhancement, that enhancement can't be applied unless the item has all previous versions of the enhancement. This means you can't imbue armor with the Phasing III enhancement unless it has the Phasing I and Phasing II enhancements first. The effects of numbered enhancements are cumulative unless otherwise noted.
+If an [enhancement](scc:mcdm.heroes.v1/rule.treasure/enhancement) has a Roman numeral greater than I after it, such as the Phasing III [enhancement](scc:mcdm.heroes.v1/rule.treasure/enhancement), that [enhancement](scc:mcdm.heroes.v1/rule.treasure/enhancement) can't be applied unless the item has all previous versions of the [enhancement](scc:mcdm.heroes.v1/rule.treasure/enhancement). This means you can't imbue armor with the Phasing III [enhancement](scc:mcdm.heroes.v1/rule.treasure/enhancement) unless it has the Phasing I and Phasing II [enhancements](scc:mcdm.heroes.v1/rule.treasure/enhancement) first. The effects of numbered [enhancements](scc:mcdm.heroes.v1/rule.treasure/enhancement) are cumulative unless otherwise noted.
 
-Enhancements are broken out by item type (armor, implement, or weapon) and level. Each item type and level features a table showing the name, [item prerequisite](scc:mcdm.heroes.v1/rule.downtime/item-prerequisite), and [project source](scc:mcdm.heroes.v1/rule.downtime/project-source) language of each enhancement. Imbued items take the Magic or Psionic keyword (your choice) and are part of any kit categories appropriate to the type of item (light armor, medium weapon, and so forth).
+[Enhancements](scc:mcdm.heroes.v1/rule.treasure/enhancement) are broken out by item type (armor, [implement](scc:mcdm.heroes.v1/rule.treasure/implement), or weapon) and level. Each item type and level features a table showing the name, [item prerequisite](scc:mcdm.heroes.v1/rule.downtime/item-prerequisite), and [project source](scc:mcdm.heroes.v1/rule.downtime/project-source) language of each [enhancement](scc:mcdm.heroes.v1/rule.treasure/enhancement). Imbued items take the Magic or Psionic keyword (your choice) and are part of any kit categories appropriate to the type of item (light armor, medium weapon, and so forth).
 
-Imbuing treasure with supernatural power as a downtime project typically means you undertake that project to make use of the treasure yourself. As such, all the features of imbuing refer to "you" as the user of the item. However, imbued items can be created for other creatures, or created by other creatures and found as treasure.
+Imbuing treasure with [supernatural](scc:mcdm.heroes.v1/rule.general/supernatural) power as a downtime project typically means you undertake that project to make use of the treasure yourself. As such, all the features of imbuing refer to "you" as the user of the item. However, imbued items can be created for other creatures, or created by other creatures and found as treasure.
 
 ##### Imbue Weapon
 
-A weapon imbued with an enhancement grants you special benefits while it is wielded. Additionally, when a weapon receives its 1st-level enhancement, it grants your weapon abilities that deal [rolled damage](scc:mcdm.heroes.v1/rule.damage/rolled-damage) a +1 damage bonus. A 5th-level enhancement increases the damage bonus to +2, and a 9th-level enhancement increases it to +3.
+A weapon imbued with an [enhancement](scc:mcdm.heroes.v1/rule.treasure/enhancement) grants you special benefits while it is wielded. Additionally, when a weapon receives its 1st-level [enhancement](scc:mcdm.heroes.v1/rule.treasure/enhancement), it grants your weapon abilities that deal [rolled damage](scc:mcdm.heroes.v1/rule.damage/rolled-damage) a +1 damage [bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties). A 5th-level [enhancement](scc:mcdm.heroes.v1/rule.treasure/enhancement) increases the damage [bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to +2, and a 9th-level [enhancement](scc:mcdm.heroes.v1/rule.treasure/enhancement) increases it to +3.
 
 ###### Unarmed Strike Treasures
 
-A hero who has a kit that uses unarmed [strikes](scc:mcdm.heroes.v1/rule.combat/strike), such as the [Martial Artist](scc:mcdm.heroes.v1/kit/martial-artist) and [Pugilist](scc:mcdm.heroes.v1/kit/pugilist) kit, can create leveled weapon treasures that enhance their unarmed [strikes](scc:mcdm.heroes.v1/rule.combat/strike) by imbuing hand wraps, rings, shoes, or any other item worn on the body with supernatural power. At the Director's discretion, heroes who don't use kits, such as [elementalists](scc:mcdm.heroes.v1/class/elementalist) and [nulls](scc:mcdm.heroes.v1/class/null), can also benefit from such treasures.
+A hero who has a kit that uses unarmed [strikes](scc:mcdm.heroes.v1/rule.combat/strike), such as the [Martial Artist](scc:mcdm.heroes.v1/kit/martial-artist) and [Pugilist](scc:mcdm.heroes.v1/kit/pugilist) kit, can create leveled weapon treasures that enhance their unarmed [strikes](scc:mcdm.heroes.v1/rule.combat/strike) by imbuing hand wraps, rings, shoes, or any other item worn on the body with [supernatural](scc:mcdm.heroes.v1/rule.general/supernatural) power. At the Director's discretion, heroes who don't use kits, such as [elementalists](scc:mcdm.heroes.v1/class/elementalist) and [nulls](scc:mcdm.heroes.v1/class/null), can also benefit from such treasures.
 
 ###### 1st-Level Weapon Enhancement
 
 **[Item Prerequisite](scc:mcdm.heroes.v1/rule.downtime/item-prerequisite):** Varies
 
-**[Project Source](scc:mcdm.heroes.v1/rule.downtime/project-source):** Texts or lore in a language determined by the enhancement
+**[Project Source](scc:mcdm.heroes.v1/rule.downtime/project-source):** Texts or lore in a language determined by the [enhancement](scc:mcdm.heroes.v1/rule.treasure/enhancement)
 
 **[Project Roll](scc:mcdm.heroes.v1/rule.downtime/project-roll) [Characteristic](scc:mcdm.heroes.v1/rule.character/characteristic):** [Might](scc:mcdm.heroes.v1/rule.character/might), [Reason](scc:mcdm.heroes.v1/rule.character/reason), or [Intuition](scc:mcdm.heroes.v1/rule.character/intuition)
 
@@ -38,7 +38,7 @@ A hero who has a kit that uses unarmed [strikes](scc:mcdm.heroes.v1/rule.combat/
 
 **Disrupting I:** Whenever you damage an undead using this weapon and leave that undead with 15 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) or less, they drop to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina).
 
-**Hurling:** Whenever you use a melee ability using this weapon, you can throw the weapon by treating the ability's [distance](scc:mcdm.heroes.v1/rule.combat/distance) as ranged 3 instead. When the ability is resolved, the weapon returns to your hand. Any ability used when you throw this weapon can't impose the [grabbed](scc:mcdm.heroes.v1/condition/grabbed) or [restrained](scc:mcdm.heroes.v1/condition/restrained) conditions.
+**Hurling:** Whenever you use a [melee](scc:mcdm.heroes.v1/rule.combat/melee) ability using this weapon, you can throw the weapon by treating the ability's [distance](scc:mcdm.heroes.v1/rule.combat/distance) as [ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 3 instead. When the ability is resolved, the weapon returns to your hand. Any ability used when you throw this weapon can't impose the [grabbed](scc:mcdm.heroes.v1/condition/grabbed) or [restrained](scc:mcdm.heroes.v1/condition/restrained) [conditions](scc:mcdm.heroes.v1/rule.combat/condition).
 
 **Merciful:** Whenever you reduce a non-undead creature to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) using this weapon, the creature falls unconscious and wakes up 1d6 hours later. A creature with the Heal skill can wake the unconscious creature early with 1 uninterrupted minute of medical treatment. Whenever the creature wakes, they regain 1 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina).
 
@@ -46,17 +46,17 @@ A hero who has a kit that uses unarmed [strikes](scc:mcdm.heroes.v1/rule.combat/
 
 **Thundering I:** Whenever you deal [rolled damage](scc:mcdm.heroes.v1/rule.damage/rolled-damage) to a creature using this weapon, you can push that creature 1 square after the other effects of the ability resolve.
 
-**Vengeance I:** Whenever you use a damage-dealing ability using this weapon against a creature who has dealt damage to you since the end of your last turn, the ability deals an extra 2 damage.
+**Vengeance I:** Whenever you use a damage-dealing ability using this weapon against a creature who has dealt damage to you since the end of your last [turn](scc:mcdm.heroes.v1/rule.combat/turn), the ability deals an extra 2 damage.
 
-**Wingbane:** Whenever you damage a [flying](scc:mcdm.heroes.v1/movement/fly) creature using this weapon, that creature is also [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends). While [bleeding](scc:mcdm.heroes.v1/condition/bleeding) in this way, the creature takes 1 damage per square they [fly](scc:mcdm.heroes.v1/movement/fly). If the creature starts and ends their turn on the same solid surface, the [bleeding](scc:mcdm.heroes.v1/condition/bleeding) condition ends.
+**Wingbane:** Whenever you damage a [flying](scc:mcdm.heroes.v1/movement/fly) creature using this weapon, that creature is also [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends). While [bleeding](scc:mcdm.heroes.v1/condition/bleeding) in this way, the creature takes 1 damage per square they [fly](scc:mcdm.heroes.v1/movement/fly). If the creature starts and ends their turn on the same solid surface, the [bleeding](scc:mcdm.heroes.v1/condition/bleeding) [condition](scc:mcdm.heroes.v1/rule.combat/condition) ends.
 
 ###### 1st-Level Weapon Enhancements Table
 
-| Enhancement   | [Item Prerequisite](scc:mcdm.heroes.v1/rule.downtime/item-prerequisite)                                                    | [Project Source](scc:mcdm.heroes.v1/rule.downtime/project-source) Language |
+| [Enhancement](scc:mcdm.heroes.v1/rule.treasure/enhancement)   | [Item Prerequisite](scc:mcdm.heroes.v1/rule.downtime/item-prerequisite)                                                    | [Project Source](scc:mcdm.heroes.v1/rule.downtime/project-source) Language |
 |---------------|----------------------------------------------------------------------|-------------------------|
 | Blood Bargain | The blood of a [devil](scc:mcdm.heroes.v1/ancestry/devil)                                                 | Anjali                  |
 | Chilling I    | A piece of ice from Quintessence that never melts                    | Yllyric                 |
-| Disrupting I  | A vial of blood from a living saint                                  | Anjali                  |
+| Disrupting I  | A vial of blood from a living [saint](scc:mcdm.heroes.v1/rule.world/saint)                                  | Anjali                  |
 | Hurling       | A magnet made from rare metals                                       | Variac                  |
 | Merciful      | A sprig of dockwart, a rare plant with natural anesthetic properties | Yllyric                 |
 | Terrifying I  | The preserved, intact amygdala of a mindkiller                       | Variac                  |
@@ -66,9 +66,9 @@ A hero who has a kit that uses unarmed [strikes](scc:mcdm.heroes.v1/rule.combat/
 
 ###### 5th-Level Weapon Enhancement
 
-**[Item Prerequisite](scc:mcdm.heroes.v1/rule.downtime/item-prerequisite):** A weapon with a 1st-level enhancement; varies
+**[Item Prerequisite](scc:mcdm.heroes.v1/rule.downtime/item-prerequisite):** A weapon with a 1st-level [enhancement](scc:mcdm.heroes.v1/rule.treasure/enhancement); varies
 
-**[Project Source](scc:mcdm.heroes.v1/rule.downtime/project-source):** Texts or lore in a language determined by the enhancement
+**[Project Source](scc:mcdm.heroes.v1/rule.downtime/project-source):** Texts or lore in a language determined by the [enhancement](scc:mcdm.heroes.v1/rule.treasure/enhancement)
 
 **[Project Roll](scc:mcdm.heroes.v1/rule.downtime/project-roll) [Characteristic](scc:mcdm.heroes.v1/rule.character/characteristic):** [Might](scc:mcdm.heroes.v1/rule.character/might), [Reason](scc:mcdm.heroes.v1/rule.character/reason), or [Intuition](scc:mcdm.heroes.v1/rule.character/intuition)
 
@@ -81,11 +81,11 @@ A hero who has a kit that uses unarmed [strikes](scc:mcdm.heroes.v1/rule.combat/
 >
 > *Their momentum, your impact.*
 >
-> | **Melee, [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** | **Free triggered** |
+> | **[Melee](scc:mcdm.heroes.v1/rule.combat/melee), [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** | **Free triggered** |
 > |---------------------------|-------------------:|
-> | **📏 Melee 1**            |   **🎯 One enemy** |
+> | **📏 [Melee](scc:mcdm.heroes.v1/rule.combat/melee) 1**            |   **🎯 One enemy** |
 >
-> **Trigger:** The target willingly moves adjacent to you.
+> **Trigger:** The target willingly moves [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to you.
 >
 > **Effect:** The target takes 5 damage.
 >
@@ -98,16 +98,16 @@ A hero who has a kit that uses unarmed [strikes](scc:mcdm.heroes.v1/rule.combat/
 > **Metamorphic:** You can change this weapon's shape and form as a maneuver, granting one of the following benefits of your choice:
 >
 > - **Concealed:** The weapon shrinks to the size of a piece of jewelry and can be worn as an earring, necklace, or similar accessory. While in this form, the weapon can't be used for weapon abilities.
-> - **Large:** Abilities using this weapon gain a +1 melee [distance](scc:mcdm.heroes.v1/rule.combat/distance) bonus or a +3 ranged [distance](scc:mcdm.heroes.v1/rule.combat/distance) bonus.
+> - **Large:** Abilities using this weapon gain a +1 [melee](scc:mcdm.heroes.v1/rule.combat/melee) [distance](scc:mcdm.heroes.v1/rule.combat/distance) [bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) or a +3 [ranged](scc:mcdm.heroes.v1/rule.combat/ranged) [distance](scc:mcdm.heroes.v1/rule.combat/distance) [bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties).
 > - **Vicious:** Whenever you damage a creature using this weapon, you deal an extra 1 damage on a tier 1 outcome, an extra 2 damage on a tier 2 outcome, and an extra 3 damage on a tier 3 outcome.
 >
-> **Silencing:** Whenever you damage a creature with an ability using this weapon and obtain a tier 3 outcome, that creature also can't use magic abilities until the end of their next turn.
+> **Silencing:** Whenever you damage a creature with an ability using this weapon and obtain a tier 3 outcome, that creature also can't use magic abilities until the end of their next [turn](scc:mcdm.heroes.v1/rule.combat/turn).
 >
 > **Terrifying II:** Whenever you damage a creature with an ability using this weapon and obtain a tier 3 outcome, that creature takes 4 psychic damage and is [frightened](scc:mcdm.heroes.v1/condition/frightened) (save ends). This replaces the benefit of Terrifying I.
 >
 > **Thundering II:** Whenever you deal [rolled damage](scc:mcdm.heroes.v1/rule.damage/rolled-damage) to a creature using this weapon, you can push that creature up to 3 squares after the other effects of the ability resolve. If you obtained a tier 3 outcome, the creature is also [knocked prone](scc:mcdm.heroes.v1/condition/prone) after being pushed. This replaces the benefit of Thundering I.
 >
-> **Vengeance II:** Whenever you use a damage-dealing ability using this weapon against a creature who has dealt damage to you since the end of your last turn, the ability deals an extra 4 damage. This replaces the benefit of Vengeance I.
+> **Vengeance II:** Whenever you use a damage-dealing ability using this weapon against a creature who has dealt damage to you since the end of your last [turn](scc:mcdm.heroes.v1/rule.combat/turn), the ability deals an extra 4 damage. This replaces the benefit of Vengeance I.
 
 ###### 5th-Level Weapon Enhancements
 
@@ -125,9 +125,9 @@ A hero who has a kit that uses unarmed [strikes](scc:mcdm.heroes.v1/rule.combat/
 
 ###### 9th-Level Weapon Enhancement
 
-**[Item Prerequisite](scc:mcdm.heroes.v1/rule.downtime/item-prerequisite):** A weapon with a 5th-level enhancement; varies
+**[Item Prerequisite](scc:mcdm.heroes.v1/rule.downtime/item-prerequisite):** A weapon with a 5th-level [enhancement](scc:mcdm.heroes.v1/rule.treasure/enhancement); varies
 
-**[Project Source](scc:mcdm.heroes.v1/rule.downtime/project-source):** Texts or lore in a language determined by the enhancement
+**[Project Source](scc:mcdm.heroes.v1/rule.downtime/project-source):** Texts or lore in a language determined by the [enhancement](scc:mcdm.heroes.v1/rule.treasure/enhancement)
 
 **[Project Roll](scc:mcdm.heroes.v1/rule.downtime/project-roll) [Characteristic](scc:mcdm.heroes.v1/rule.character/characteristic):** [Might](scc:mcdm.heroes.v1/rule.character/might), [Reason](scc:mcdm.heroes.v1/rule.character/reason), or [Intuition](scc:mcdm.heroes.v1/rule.character/intuition)
 
@@ -141,7 +141,7 @@ A hero who has a kit that uses unarmed [strikes](scc:mcdm.heroes.v1/rule.combat/
 
 **Imprisoning:** Whenever you damage a creature with an ability using this weapon and obtain a tier 3 outcome, that creature is also [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends). While [restrained](scc:mcdm.heroes.v1/condition/restrained) in this way, the creature can't use magic or psionic abilities.
 
-**Nova:** Whenever you damage a creature using this weapon, each enemy adjacent to you takes damage based on the [tier outcome](scc:mcdm.heroes.v1/rule.dice/tier-outcome) of the [power roll](scc:mcdm.heroes.v1/rule.dice/power-roll)-2 damage for tier 1, 6 for tier 2, or 10 for tier 3. Additionally, while you are [winded](scc:mcdm.heroes.v1/rule.health/winded), you have the following ability.
+**Nova:** Whenever you damage a creature using this weapon, each enemy [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to you takes damage based on the [tier outcome](scc:mcdm.heroes.v1/rule.dice/tier-outcome) of the [power roll](scc:mcdm.heroes.v1/rule.dice/power-roll)-2 damage for tier 1, 6 for tier 2, or 10 for tier 3. Additionally, while you are [winded](scc:mcdm.heroes.v1/rule.health/winded), you have the following ability.
 
 ###### Nova
 
@@ -162,13 +162,13 @@ A hero who has a kit that uses unarmed [strikes](scc:mcdm.heroes.v1/rule.combat/
 >
 > **Thundering III:** Whenever you deal [rolled damage](scc:mcdm.heroes.v1/rule.damage/rolled-damage) to a creature using this weapon, you can vertical push that creature up to 5 squares and knock them [prone](scc:mcdm.heroes.v1/condition/prone) after the other effects of the ability resolve. If the creature takes or deals damage as a result of this movement, they also take 5 thunder damage. This replaces the benefit of Thundering II.
 >
-> **Vengeance III:** Whenever you use a damage-dealing ability using this weapon against a creature who has dealt damage to you since the end of your last turn, the ability deals an extra 6 damage. This replaces the benefit of Vengeance II.
+> **Vengeance III:** Whenever you use a damage-dealing ability using this weapon against a creature who has dealt damage to you since the end of your last [turn](scc:mcdm.heroes.v1/rule.combat/turn), the ability deals an extra 6 damage. This replaces the benefit of Vengeance II.
 >
-> **Windcutting:** Whenever you use a melee [signature ability](scc:mcdm.heroes.v1/rule.combat/signature-ability) that usually targets one creature, you can take a [bane](scc:mcdm.heroes.v1/rule.dice/bane) on the ability to target each enemy in a [cube](scc:mcdm.heroes.v1/rule.combat/cube) 3 within [distance](scc:mcdm.heroes.v1/rule.combat/distance). If your [signature ability](scc:mcdm.heroes.v1/rule.combat/signature-ability) would usually cause its target to become [grabbed](scc:mcdm.heroes.v1/condition/grabbed) or [restrained](scc:mcdm.heroes.v1/condition/restrained), each target in the area is instead [slowed](scc:mcdm.heroes.v1/condition/slowed) until the end of their next turn.
+> **Windcutting:** Whenever you use a [melee](scc:mcdm.heroes.v1/rule.combat/melee) [signature ability](scc:mcdm.heroes.v1/rule.combat/signature-ability) that usually targets one creature, you can take a [bane](scc:mcdm.heroes.v1/rule.dice/bane) on the ability to target each enemy in a [cube](scc:mcdm.heroes.v1/rule.combat/cube) 3 within [distance](scc:mcdm.heroes.v1/rule.combat/distance). If your [signature ability](scc:mcdm.heroes.v1/rule.combat/signature-ability) would usually cause its target to become [grabbed](scc:mcdm.heroes.v1/condition/grabbed) or [restrained](scc:mcdm.heroes.v1/condition/restrained), each target in the area is instead [slowed](scc:mcdm.heroes.v1/condition/slowed) until the end of their next [turn](scc:mcdm.heroes.v1/rule.combat/turn).
 
 ###### 9th-Level Weapon Enhancements
 
-| Enhancement    | [Item Prerequisite](scc:mcdm.heroes.v1/rule.downtime/item-prerequisite)                                                                                                                     | [Project Source](scc:mcdm.heroes.v1/rule.downtime/project-source) Language |
+| [Enhancement](scc:mcdm.heroes.v1/rule.treasure/enhancement)    | [Item Prerequisite](scc:mcdm.heroes.v1/rule.downtime/item-prerequisite)                                                                                                                     | [Project Source](scc:mcdm.heroes.v1/rule.downtime/project-source) Language |
 |----------------|---------------------------------------------------------------------------------------------------------------------------------------|-------------------------|
 | Chilling III   | The weapon must be dipped in the Glacial Forge in the coldest depths of Hell                                                          | Yllyric                 |
 | Disrupting III | Wrappings from a mummy buried at least a century ago                                                                                  | Anjali                  |

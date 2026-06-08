@@ -2,14 +2,14 @@
 action_type: Main action
 class: talent
 distance: 3 [cube](scc:mcdm.heroes.v1/rule.combat/cube) within 10
-effect: A column of fire remains in the area until the start of your next turn. Each enemy who enters the area for the first time in a combat round or starts their turn there takes 2 fire damage.
+effect: A column of fire remains in the area until the start of your next [turn](scc:mcdm.heroes.v1/rule.combat/turn). Each enemy who enters the area for the first time in a [combat round](scc:mcdm.heroes.v1/rule.combat/combat-round) or starts their turn there takes 2 fire damage.
 flavor: The air erupts into a column of smokeless flame.
 keywords:
     - Area
     - Fire
     - Psionic
     - Pyrokinesis
-    - Ranged
+    - '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)'
 level: "1"
 name: Incinerate
 scc: mcdm.heroes.v1/feature.ability.talent.level-1/incinerate
@@ -21,7 +21,7 @@ type: ability
 
 *The air erupts into a column of smokeless flame.*
 
-| **Area, Fire, Psionic, Pyrokinesis, Ranged** |               **Main action** |
+| **Area, Fire, Psionic, Pyrokinesis, [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)** |               **Main action** |
 |----------------------------------------------|------------------------------:|
 | **📏 3 [cube](scc:mcdm.heroes.v1/rule.combat/cube) within 10**                      | **🎯 Each enemy in the area** |
 
@@ -31,6 +31,6 @@ type: ability
 - **12-16:** 4 fire damage
 - **17+:** 6 fire damage
 
-**Effect:** A column of fire remains in the area until the start of your next turn. Each enemy who enters the area for the first time in a combat round or starts their turn there takes 2 fire damage.
+**Effect:** A column of fire remains in the area until the start of your next [turn](scc:mcdm.heroes.v1/rule.combat/turn). Each enemy who enters the area for the first time in a [combat round](scc:mcdm.heroes.v1/rule.combat/combat-round) or starts their turn there takes 2 fire damage.
 
-**Strained:** The size of the [cube](scc:mcdm.heroes.v1/rule.combat/cube) increases by 2, but the fire disappears at the end of your turn.
+**Strained:** The size of the [cube](scc:mcdm.heroes.v1/rule.combat/cube) increases by 2, but the fire disappears at the end of your [turn](scc:mcdm.heroes.v1/rule.combat/turn).

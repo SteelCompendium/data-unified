@@ -9,7 +9,7 @@ keywords:
     - Area
     - Fire
     - Magic
-    - Ranged
+    - '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)'
 level: "8"
 name: Muse of Fire
 scc: mcdm.heroes.v1/feature.ability.elementalist.level-8/muse-of-fire
@@ -20,7 +20,7 @@ type: ability
 
 *The fire burns hot enough to sear the face of any god watching.*
 
-| **Area, Fire, Magic, Ranged** |               **Main action** |
+| **Area, Fire, Magic, [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)** |               **Main action** |
 |-------------------------------|------------------------------:|
 | **📏 5 [cube](scc:mcdm.heroes.v1/rule.combat/cube) within 10**       | **🎯 Each enemy in the area** |
 

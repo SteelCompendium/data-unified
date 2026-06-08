@@ -2,11 +2,11 @@
 action_type: Main action
 class: talent
 cost: 5 Clarity
-distance: Ranged 10
+distance: '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 10'
 flavor: You overload their senses, turning all their subconscious thoughts into conscious ones.
 keywords:
     - Psionic
-    - Ranged
+    - '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)'
     - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
     - Telepathy
 level: "2"
@@ -19,9 +19,9 @@ type: ability
 
 *You overload their senses, turning all their subconscious thoughts into conscious ones.*
 
-| **Psionic, Ranged, [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Telepathy** |     **Main action** |
+| **Psionic, [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged), [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Telepathy** |     **Main action** |
 |----------------------------------------|--------------------:|
-| **📏 Ranged 10**                       | **🎯 One creature** |
+| **📏 [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 10**                       | **🎯 One creature** |
 
 **[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Reason](scc:mcdm.heroes.v1/rule.character/reason):**
 
@@ -29,4 +29,4 @@ type: ability
 - **12-16:** 10 + R psychic damage; I < AVERAGE, [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
 - **17+:** 14 + R psychic damage; I < STRONG, [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)
 
-**Strained:** You start crying, and you can't use [triggered actions](scc:mcdm.heroes.v1/rule.combat/triggered-action) or make [free strikes](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) until the end of the target's next turn.
+**Strained:** You start crying, and you can't use [triggered actions](scc:mcdm.heroes.v1/rule.combat/triggered-action) or make [free strikes](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) until the end of the target's next [turn](scc:mcdm.heroes.v1/rule.combat/turn).

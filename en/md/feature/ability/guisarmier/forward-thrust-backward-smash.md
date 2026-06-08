@@ -1,9 +1,9 @@
 ---
 action_type: Main action
-distance: Melee 2
+distance: '[Melee](scc:mcdm.heroes.v1/rule.combat/melee) 2'
 flavor: In your hands, the haft is as good as the head.
 keywords:
-    - Melee
+    - '[Melee](scc:mcdm.heroes.v1/rule.combat/melee)'
     - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
     - Weapon
 kit: guisarmier
@@ -16,9 +16,9 @@ type: ability
 
 *In your hands, the haft is as good as the head.*
 
-| **Melee, [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** |                 **Main action** |
+| **[Melee](scc:mcdm.heroes.v1/rule.combat/melee), [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** |                 **Main action** |
 |---------------------------|--------------------------------:|
-| **📏 Melee 2**            | **🎯 Two creatures or objects** |
+| **📏 [Melee](scc:mcdm.heroes.v1/rule.combat/melee) 2**            | **🎯 Two creatures or objects** |
 
 **[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc:mcdm.heroes.v1/rule.character/might) or [Agility](scc:mcdm.heroes.v1/rule.character/agility):**
 

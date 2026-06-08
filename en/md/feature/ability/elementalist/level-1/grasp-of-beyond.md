@@ -1,12 +1,12 @@
 ---
 action_type: Main action
 class: elementalist
-distance: Melee 1
+distance: '[Melee](scc:mcdm.heroes.v1/rule.combat/melee) 1'
 effect: You can [teleport](scc:mcdm.heroes.v1/movement/teleport) up to a number of squares equal to your [Reason](scc:mcdm.heroes.v1/rule.character/reason) score.
 flavor: You absorb the life energy of another creature and use it to [teleport](scc:mcdm.heroes.v1/movement/teleport).
 keywords:
     - Magic
-    - Melee
+    - '[Melee](scc:mcdm.heroes.v1/rule.combat/melee)'
     - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
     - Void
 level: "1"
@@ -20,9 +20,9 @@ type: ability
 
 *You absorb the life energy of another creature and use it to [teleport](scc:mcdm.heroes.v1/movement/teleport).*
 
-| **Magic, Melee, [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Void** |     **Main action** |
+| **Magic, [Melee](scc:mcdm.heroes.v1/rule.combat/melee), [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Void** |     **Main action** |
 |--------------------------------|--------------------:|
-| **📏 Melee 1**                 | **🎯 One creature** |
+| **📏 [Melee](scc:mcdm.heroes.v1/rule.combat/melee) 1**                 | **🎯 One creature** |
 
 **[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Reason](scc:mcdm.heroes.v1/rule.character/reason):**
 

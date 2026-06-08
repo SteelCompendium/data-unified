@@ -1,6 +1,6 @@
 ---
 echelon: "4"
-effect: As a maneuver, you spend 1 [Heroic Resource](scc:mcdm.heroes.v1/rule.resource/heroic-resource) to destroy this page and create a 4-[cube](scc:mcdm.heroes.v1/rule.combat/cube) area within 20 squares. The area is filled with the energy of a tiny sun that lasts until the end of the encounter. Any creature who enters the area for the first time in a combat round or starts their turn there takes 20 fire damage and is [dazed](scc:mcdm.heroes.v1/condition/dazed) until the end of their turn.
+effect: As a maneuver, you spend 1 [Heroic Resource](scc:mcdm.heroes.v1/rule.resource/heroic-resource) to destroy this page and create a 4-[cube](scc:mcdm.heroes.v1/rule.combat/cube) area within 20 squares. The area is filled with the energy of a tiny sun that lasts until the end of the encounter. Any creature who enters the area for the first time in a [combat round](scc:mcdm.heroes.v1/rule.combat/combat-round) or starts their turn there takes 20 fire damage and is [dazed](scc:mcdm.heroes.v1/condition/dazed) until the end of their [turn](scc:mcdm.heroes.v1/rule.combat/turn).
 keywords:
     - Magic
 name: 'Page From the Infinite Library: Solaris'
@@ -23,4 +23,4 @@ Infinite Library detailing incomplete instructions for building a sun
 
 **Project Goal:** 360
 
-**Effect:** As a maneuver, you spend 1 [Heroic Resource](scc:mcdm.heroes.v1/rule.resource/heroic-resource) to destroy this page and create a 4-[cube](scc:mcdm.heroes.v1/rule.combat/cube) area within 20 squares. The area is filled with the energy of a tiny sun that lasts until the end of the encounter. Any creature who enters the area for the first time in a combat round or starts their turn there takes 20 fire damage and is [dazed](scc:mcdm.heroes.v1/condition/dazed) until the end of their turn.
+**Effect:** As a maneuver, you spend 1 [Heroic Resource](scc:mcdm.heroes.v1/rule.resource/heroic-resource) to destroy this page and create a 4-[cube](scc:mcdm.heroes.v1/rule.combat/cube) area within 20 squares. The area is filled with the energy of a tiny sun that lasts until the end of the encounter. Any creature who enters the area for the first time in a [combat round](scc:mcdm.heroes.v1/rule.combat/combat-round) or starts their turn there takes 20 fire damage and is [dazed](scc:mcdm.heroes.v1/condition/dazed) until the end of their [turn](scc:mcdm.heroes.v1/rule.combat/turn).

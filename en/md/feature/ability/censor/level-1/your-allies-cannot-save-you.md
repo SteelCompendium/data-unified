@@ -1,11 +1,11 @@
 ---
 action_type: Main action
 class: censor
-distance: Melee 1
-effect: Each enemy adjacent to the target is pushed away from the target up to a number of squares equal to your [Presence](scc:mcdm.heroes.v1/rule.character/presence) score.
-flavor: Your magic [strike](scc:mcdm.heroes.v1/rule.combat/strike) turns your foe's guilt into a burst of holy power.
+distance: '[Melee](scc:mcdm.heroes.v1/rule.combat/melee) 1'
+effect: Each enemy [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the target is pushed away from the target up to a number of squares equal to your [Presence](scc:mcdm.heroes.v1/rule.character/presence) score.
+flavor: Your magic [strike](scc:mcdm.heroes.v1/rule.combat/strike) [turns](scc:mcdm.heroes.v1/rule.combat/turn) your foe's guilt into a burst of holy power.
 keywords:
-    - Melee
+    - '[Melee](scc:mcdm.heroes.v1/rule.combat/melee)'
     - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
     - Weapon
 level: "1"
@@ -17,11 +17,11 @@ type: ability
 ---
 
 
-*Your magic [strike](scc:mcdm.heroes.v1/rule.combat/strike) turns your foe's guilt into a burst of holy power.*
+*Your magic [strike](scc:mcdm.heroes.v1/rule.combat/strike) [turns](scc:mcdm.heroes.v1/rule.combat/turn) your foe's guilt into a burst of holy power.*
 
-| **Melee, [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon**  |               **Main action** |
+| **[Melee](scc:mcdm.heroes.v1/rule.combat/melee), [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon**  |               **Main action** |
 |----------------------------|------------------------------:|
-| **📏 Melee 1**             | **🎯 One creature or object** |
+| **📏 [Melee](scc:mcdm.heroes.v1/rule.combat/melee) 1**             | **🎯 One creature or object** |
 
 **[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc:mcdm.heroes.v1/rule.character/might):**
 
@@ -29,4 +29,4 @@ type: ability
 - **12-16:** 5 + M holy damage
 - **17+:** 8 + M holy damage
 
-**Effect:** Each enemy adjacent to the target is pushed away from the target up to a number of squares equal to your [Presence](scc:mcdm.heroes.v1/rule.character/presence) score.
+**Effect:** Each enemy [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the target is pushed away from the target up to a number of squares equal to your [Presence](scc:mcdm.heroes.v1/rule.character/presence) score.

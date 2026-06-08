@@ -21,7 +21,7 @@ During combat, creatures can employ multiple mechanics that allow them to move a
 
 Your hero starts with a [speed](scc:mcdm.heroes.v1/rule.character/speed) granted by their ancestry—usually 5. This represents the maximum number of squares you can move when you take the [Advance](scc:mcdm.heroes.v1/feature.common.move-actions/advance) move action or when another effect allows you to move. Your [speed](scc:mcdm.heroes.v1/rule.character/speed) can be increased by your kit and other game options.
 
-All squares adjacent to your character cost 1 movement to move into. No, there's no Pythagorean theorem on the grid. It's a game, don't overthink it.
+All squares [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to your character cost 1 movement to move into. No, there's no Pythagorean theorem on the grid. It's a game, don't overthink it.
 
 Your hero can move freely through an ally's space. You can move through an enemy's space, but that space is [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain) (see below). You can't stop moving in any other creature's space, including to make a [strike](scc:mcdm.heroes.v1/rule.combat/strike) or use a main action or maneuver while in that space and then continuing your move, unless that creature's [size](scc:mcdm.heroes.v1/rule.character/size) is two or more [sizes](scc:mcdm.heroes.v1/rule.character/size) greater or smaller than your own.
 
@@ -29,7 +29,7 @@ At the Director's discretion, you can be forced into the same space as another c
 
 #### Can't Exceed Speed
 
-A single move or other effect can never allow a creature to move more squares than their [speed](scc:mcdm.heroes.v1/rule.character/speed), unless the effect states otherwise. For example, a creature with [speed](scc:mcdm.heroes.v1/rule.character/speed) 5 might have that [speed](scc:mcdm.heroes.v1/rule.character/speed) reduced to 2 by the [slowed](scc:mcdm.heroes.v1/condition/slowed) condition (see Conditions in Chapter 5: [Classes](scc:mcdm.heroes.v1/chapter/classes)). If an ally then targets them with an effect that allows them to move up to 3 squares, the creature can move only 2 squares because that's their current [speed](scc:mcdm.heroes.v1/rule.character/speed).
+A single move or other effect can never allow a creature to move more squares than their [speed](scc:mcdm.heroes.v1/rule.character/speed), unless the effect states otherwise. For example, a creature with [speed](scc:mcdm.heroes.v1/rule.character/speed) 5 might have that [speed](scc:mcdm.heroes.v1/rule.character/speed) reduced to 2 by the [slowed](scc:mcdm.heroes.v1/condition/slowed) [condition](scc:mcdm.heroes.v1/rule.combat/condition) (see [Conditions](scc:mcdm.heroes.v1/rule.combat/condition) in Chapter 5: [Classes](scc:mcdm.heroes.v1/chapter/classes)). If an ally then targets them with an effect that allows them to move up to 3 squares, the creature can move only 2 squares because that's their current [speed](scc:mcdm.heroes.v1/rule.character/speed).
 
 #### Can't Cut Corners
 
@@ -41,7 +41,7 @@ Creatures in the game can use eight types of movement: walk, [burrow](scc:mcdm.h
 
 ### End of Combat
 
-At the end of combat, the Director determines if the heroes earn any [Victories](scc:mcdm.heroes.v1/rule.resource/victories). Any effect or condition on you that you suffered during combat (except for being [winded](scc:mcdm.heroes.v1/rule.health/winded), unconscious, or [dying](scc:mcdm.heroes.v1/rule.health/dying)) ends if you want it to.
+At the end of combat, the Director determines if the heroes earn any [Victories](scc:mcdm.heroes.v1/rule.resource/victories). Any effect or [condition](scc:mcdm.heroes.v1/rule.combat/condition) on you that you suffered during combat (except for being [winded](scc:mcdm.heroes.v1/rule.health/winded), unconscious, or [dying](scc:mcdm.heroes.v1/rule.health/dying)) ends if you want it to.
 
 #### How Combat Ends
 
@@ -63,6 +63,6 @@ Event endings can cover big scenarios such as the characters destroying a dam to
 
 > **Fleeing Foes**
 >
-> If you've played a fantasy RPG before, odds are you've had an encounter where you didn't chase down every last fleeing foe—and then one such foe [grabbed](scc:mcdm.heroes.v1/condition/grabbed) another bunch of evil buddies and came back to ambush you. It takes only one experience like this to create players who promise, "No survivors. No mercy!" whenever foes break ranks. Chasing down every last foe can be fun once in a while, but it can easily turn a tactical encounter into a slog.
+> If you've played a fantasy RPG before, odds are you've had an encounter where you didn't chase down every last fleeing foe—and then one such foe [grabbed](scc:mcdm.heroes.v1/condition/grabbed) another bunch of evil buddies and came back to ambush you. It takes only one experience like this to create players who promise, "No survivors. No mercy!" whenever foes break ranks. Chasing down every last foe can be fun once in a while, but it can easily [turn](scc:mcdm.heroes.v1/rule.combat/turn) a tactical encounter into a slog.
 >
 > Luckily, this is a heroic game. Although the Director can surprise the players with dramatic reveals and twisty-turny stories, "Gotcha!" moments that make players suspicious of every fleeing bandit shouldn't be part of those stories. If a bandit is fleeing an encounter, they're running away to rethink their life. If they're going for help, the players should get some sense of that—for example, the bandit screaming at the top of their lungs for help as they run toward their leader's tent. That way, the players can process what's happening, and will understand that stopping that fleeing bandit is part of the challenge of the encounter.

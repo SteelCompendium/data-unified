@@ -18,7 +18,7 @@ A wheel that harnesses the power of the river is a beautiful thing. [Humans](scc
 
 Some of Salorna's priests are [conduits](scc:mcdm.heroes.v1/class/conduit); some are mages of the green. Both seek to preserve the balance and respect for nature. Because much of [Vasloria](scc:mcdm.heroes.v1/rule.world/vasloria) is covered in elven forest, Salorna's druids are also often diplomats to the elves.
 
-Salorna has few [censors](scc:mcdm.heroes.v1/class/censor), but not none! Favoring light armor and ranged weapons, her [censors](scc:mcdm.heroes.v1/class/censor) are often mistaken for rangers. They seek to punish those who hunt for sport, or those who would defile the natural order.
+Salorna has few [censors](scc:mcdm.heroes.v1/class/censor), but not none! Favoring light armor and [ranged](scc:mcdm.heroes.v1/rule.combat/ranged) weapons, her [censors](scc:mcdm.heroes.v1/class/censor) are often mistaken for rangers. They seek to punish those who hunt for sport, or those who would defile the natural order.
 
 ##### Draighen the Warden
 
@@ -44,7 +44,7 @@ Draighen teaches solutions can always be found if people are willing to talk. Th
 
 **Domains:** Nature, Storm
 
-Eriarwen the Wroth apprenticed to her mother as a witch just as her mother had apprenticed under her mother. Her family were witches in service to Halcyon the Moonmaiden, saint of Viras, the Lady of Spring. They had tended to the souls and health of the people of five villages for two centuries. Eriarwen was not yet of age, and so not yet a full mistress of the craft when the blight came.
+Eriarwen the Wroth apprenticed to her mother as a witch just as her mother had apprenticed under her mother. Her family were witches in service to Halcyon the Moonmaiden, [saint](scc:mcdm.heroes.v1/rule.world/saint) of Viras, the Lady of Spring. They had tended to the souls and health of the people of five villages for two centuries. Eriarwen was not yet of age, and so not yet a full mistress of the craft when the blight came.
 
 At first it was a newborn foal born with seven eyes and a writhing grasping tentacle where it tongue should have been. It took three farmers to kill the infant beast and though they dismissed it as an accident of birth, the three were harrowed.
 
@@ -60,7 +60,7 @@ Then Eriarwen saw the beast rip her grandmother apart with a single bite.
 
 Her mother raced to her mother's corpse. And Eriarwen called out.
 
-Eriarwen did not scream or cry, nor call out for aid or even mercy. She did not call to Viras, nor any of her saints. She called out to Salorna the Summer Storm and demanded the Woodland Mistress act.
+Eriarwen did not scream or cry, nor call out for aid or even mercy. She did not call to Viras, nor any of her [saints](scc:mcdm.heroes.v1/rule.world/saint). She called out to Salorna the Summer Storm and demanded the Woodland Mistress act.
 
 Eriarwen felt a growing heat and joy in her heart, and, feeling like she could [fly](scc:mcdm.heroes.v1/movement/fly), she suddenly saw the world through a million eyes all at once, and where she had stood, a humanoid figure composed entirely of bees filled the space. Eriarwen the Swarm exploded in a cloud of bees and each bee was Eriarwen. She sped across the countryside from one village to the next, stinging every animal affected by the Red Blight, and the villagers watched as the woodland creatures, their own pets and livestock, returned to normal. Good as new! None knew then that it was Eriarwen who saved them, but all knew it must be a member of her family. Who else?
 
@@ -68,15 +68,15 @@ But Eriarwen was just getting started. Returning to her grandmother's corpse, th
 
 "CASWYN!" she thundered. "I SUMMON THEE! COME! YOU CANNOT RESIST! I COMPEL THEE!"
 
-Caswyn, furious at the death of his blight, furious at the girl who dared oppose him, could not resist. He revealed himself and in that moment, it was Caswyn the Pestilent, saint of Cyrvis who appeared.
+Caswyn, furious at the death of his blight, furious at the girl who dared oppose him, could not resist. He revealed himself and in that moment, it was Caswyn the Pestilent, [saint](scc:mcdm.heroes.v1/rule.world/saint) of Cyrvis who appeared.
 
 Saint Caswyn and Saint Eriarwen battled and grappled with each other, each growing to great size infused with the power of their gods. But their figures were unrecognizable. Caswyn was a rotting giant, a mutated dragon, a griffon oozing blood.
 
 Eriarwen was a wolf made of fire, a crow made of lightning, a bear made of stone.
 
-Caswyn the Chimera hurled Eriarwen the Lion to the ground and it was Caswyn the Cobra who struck. But it was Eriarwen the Elk who spit Caswyn upon her antlers, banishing the saint from the mundane world.
+Caswyn the Chimera hurled Eriarwen the Lion to the ground and it was Caswyn the Cobra who struck. But it was Eriarwen the Elk who spit Caswyn upon her antlers, banishing the [saint](scc:mcdm.heroes.v1/rule.world/saint) from the mundane world.
 
-Eriarwen returned to herself, and though she was now an immortal saint, she sensed that Salorna had given her yet more power. She saw her mother weeping over her grandmother's body. The old woman's horse, restored by Eriarwen's sting, nuzzled at her mistress's curled gray hair.
+Eriarwen returned to herself, and though she was now an immortal [saint](scc:mcdm.heroes.v1/rule.world/saint), she sensed that Salorna had given her yet more power. She saw her mother weeping over her grandmother's body. The old woman's horse, restored by Eriarwen's sting, nuzzled at her mistress's curled gray hair.
 
 Eriarwen smiled, and knew the task before her. She conjured lightning from her fingertip, and her grandmother was renewed. Mothers and daughters reunited.
 

@@ -2,13 +2,13 @@
 action_type: Main action
 class: elementalist
 cost: 11 Essence
-distance: Ranged 10
+distance: '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 10'
 effect: This damage ignores immunity.
 flavor: You let fly a fiery missile braided with pure primal energy.
 keywords:
     - Fire
     - Magic
-    - Ranged
+    - '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)'
     - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
 level: "9"
 name: Unquenchable Fire
@@ -20,9 +20,9 @@ type: ability
 
 *You let fly a fiery missile braided with pure primal energy.*
 
-| **Fire, Magic, Ranged, [Strike](scc:mcdm.heroes.v1/rule.combat/strike)** |            **Main action** |
+| **Fire, Magic, [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged), [Strike](scc:mcdm.heroes.v1/rule.combat/strike)** |            **Main action** |
 |---------------------------------|---------------------------:|
-| **📏 Ranged 10**                | **🎯 One enemy or object** |
+| **📏 [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 10**                | **🎯 One enemy or object** |
 
 **[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Reason](scc:mcdm.heroes.v1/rule.character/reason):**
 

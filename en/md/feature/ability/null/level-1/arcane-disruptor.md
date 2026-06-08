@@ -2,11 +2,11 @@
 action_type: Main action
 class: "null"
 cost: 5 Discipline
-distance: Melee 1
-effect: While [weakened](scc:mcdm.heroes.v1/condition/weakened) this way, the target takes damage equal to your [Intuition](scc:mcdm.heroes.v1/rule.character/intuition) score whenever they use a supernatural ability that costs Malice.
+distance: '[Melee](scc:mcdm.heroes.v1/rule.combat/melee) 1'
+effect: While [weakened](scc:mcdm.heroes.v1/condition/weakened) this way, the target takes damage equal to your [Intuition](scc:mcdm.heroes.v1/rule.character/intuition) score whenever they use a [supernatural](scc:mcdm.heroes.v1/rule.general/supernatural) ability that costs Malice.
 flavor: Your blow reorders a foe's body, causing pain if they attempt to channel sorcery.
 keywords:
-    - Melee
+    - '[Melee](scc:mcdm.heroes.v1/rule.combat/melee)'
     - Psionic
     - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
     - Weapon
@@ -20,9 +20,9 @@ type: ability
 
 *Your blow reorders a foe's body, causing pain if they attempt to channel sorcery.*
 
-| **Melee, Psionic, [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** |     **Main action** |
+| **[Melee](scc:mcdm.heroes.v1/rule.combat/melee), Psionic, [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** |     **Main action** |
 |------------------------------------|--------------------:|
-| **📏 Melee 1**                     | **🎯 One creature** |
+| **📏 [Melee](scc:mcdm.heroes.v1/rule.combat/melee) 1**                     | **🎯 One creature** |
 
 **[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Agility](scc:mcdm.heroes.v1/rule.character/agility):**
 
@@ -30,4 +30,4 @@ type: ability
 - **12-16:** 12 + **A** psychic damage; M < AVERAGE, [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
 - **17+:** 16 + **A** psychic damage; M < STRONG, [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
 
-**Effect:** While [weakened](scc:mcdm.heroes.v1/condition/weakened) this way, the target takes damage equal to your [Intuition](scc:mcdm.heroes.v1/rule.character/intuition) score whenever they use a supernatural ability that costs Malice.
+**Effect:** While [weakened](scc:mcdm.heroes.v1/condition/weakened) this way, the target takes damage equal to your [Intuition](scc:mcdm.heroes.v1/rule.character/intuition) score whenever they use a [supernatural](scc:mcdm.heroes.v1/rule.general/supernatural) ability that costs Malice.

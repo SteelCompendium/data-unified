@@ -13,23 +13,23 @@ In *Draw Steel*, ancestry describes how you were born. Culture (part of Chapter 
 
 This chapter details twelve ancestries for the game:
 
-**[Devil](scc:mcdm.heroes.v1/ancestry/devil):** [Devils](scc:mcdm.heroes.v1/ancestry/devil) originated in the Seven Cities of Hell and have a supernatural charisma that helps them persuade others. They are similar in stature to [humans](scc:mcdm.heroes.v1/ancestry/human), and their skin tones include deep blues, purples, and reds. They sport horns, eyes of all shades (including gold and red), and tails, and some have feathered or leathery wings.
+**[Devil](scc:mcdm.heroes.v1/ancestry/devil):** [Devils](scc:mcdm.heroes.v1/ancestry/devil) originated in the Seven Cities of Hell and have a [supernatural](scc:mcdm.heroes.v1/rule.general/supernatural) charisma that helps them persuade others. They are similar in stature to [humans](scc:mcdm.heroes.v1/ancestry/human), and their skin tones include deep blues, purples, and reds. They sport horns, eyes of all shades (including gold and red), and tails, and some have feathered or leathery wings.
 
 **[Dragon Knight](scc:mcdm.heroes.v1/ancestry/dragon-knight):** [Dragon knights](scc:mcdm.heroes.v1/ancestry/dragon-knight) are muscled draconic humanoids who stand between 6 and 7 feet tall. The scales covering their reptilian heads, bodies, and tails can be almost any color. All [dragon knights](scc:mcdm.heroes.v1/ancestry/dragon-knight) have wings, but on only a few are those wings big enough to let them [fly](scc:mcdm.heroes.v1/movement/fly).
 
-**[Dwarf](scc:mcdm.heroes.v1/ancestry/dwarf):** Humanoids with stony skin, [dwarves](scc:mcdm.heroes.v1/ancestry/dwarf) have short and stout bodies. Many carve supernatural runes into their flesh, and some have beards made of crystals.
+**[Dwarf](scc:mcdm.heroes.v1/ancestry/dwarf):** Humanoids with stony skin, [dwarves](scc:mcdm.heroes.v1/ancestry/dwarf) have short and stout bodies. Many carve [supernatural](scc:mcdm.heroes.v1/rule.general/supernatural) runes into their flesh, and some have beards made of crystals.
 
-**[Wode Elf](scc:mcdm.heroes.v1/ancestry/wode-elf):** Lithe humanoids with finely furred skin in all shades of blue, [wode elves](scc:mcdm.heroes.v1/ancestry/wode-elf) have angular features and large, pointed ears akin to a bat's. They possess a supernatural glamor that allows them to blend in with their surroundings when they wish to hide.
+**[Wode Elf](scc:mcdm.heroes.v1/ancestry/wode-elf):** Lithe humanoids with finely furred skin in all shades of blue, [wode elves](scc:mcdm.heroes.v1/ancestry/wode-elf) have angular features and large, pointed ears akin to a bat's. They possess a [supernatural](scc:mcdm.heroes.v1/rule.general/supernatural) glamor that allows them to blend in with their surroundings when they wish to hide.
 
-**[High Elf](scc:mcdm.heroes.v1/ancestry/high-elf):** Stately and graceful, [high elves](scc:mcdm.heroes.v1/ancestry/high-elf) have tall, willowy bodies, pointed ears, and smoother skin than most other humanoids. Rare metal inlays such as gold, platinum, palladium, and iridium act as organic components within their skin. The truest form of any [high elf](scc:mcdm.heroes.v1/ancestry/high-elf) is hidden from most—sometimes even from themself—thanks to a supernatural glamor that makes them more attractive to others, whatever that might mean to an individual. This glamor transcends physical appearance, also slightly altering a [high elf's](scc:mcdm.heroes.v1/ancestry/high-elf) tone and smell.
+**[High Elf](scc:mcdm.heroes.v1/ancestry/high-elf):** Stately and graceful, [high elves](scc:mcdm.heroes.v1/ancestry/high-elf) have tall, willowy bodies, pointed ears, and smoother skin than most other humanoids. Rare metal inlays such as gold, platinum, palladium, and iridium act as organic components within their skin. The truest form of any [high elf](scc:mcdm.heroes.v1/ancestry/high-elf) is hidden from most—sometimes even from themself—thanks to a [supernatural](scc:mcdm.heroes.v1/rule.general/supernatural) glamor that makes them more attractive to others, whatever that might mean to an individual. This glamor transcends physical appearance, also slightly altering a [high elf's](scc:mcdm.heroes.v1/ancestry/high-elf) tone and smell.
 
 **[Hakaan](scc:mcdm.heroes.v1/ancestry/hakaan):** Descended from stone giants, the mighty [hakaan](scc:mcdm.heroes.v1/ancestry/hakaan) stand over 9 feet tall and have well-muscled bodies made of organic stone. They are the largest ancestry in this book!
 
-**[Human](scc:mcdm.heroes.v1/ancestry/human):** [Humans](scc:mcdm.heroes.v1/ancestry/human) are the most numerous people in [Orden](scc:mcdm.heroes.v1/rule.world/orden) and many other fantasy worlds! In *Draw Steel*, [humans](scc:mcdm.heroes.v1/ancestry/human) have all the diversity that our species displays in real life—and they can sense the presence of supernatural energy!
+**[Human](scc:mcdm.heroes.v1/ancestry/human):** [Humans](scc:mcdm.heroes.v1/ancestry/human) are the most numerous people in [Orden](scc:mcdm.heroes.v1/rule.world/orden) and many other fantasy worlds! In *Draw Steel*, [humans](scc:mcdm.heroes.v1/ancestry/human) have all the diversity that our species displays in real life—and they can sense the presence of [supernatural](scc:mcdm.heroes.v1/rule.general/supernatural) energy!
 
 **[Memonek](scc:mcdm.heroes.v1/ancestry/memonek):** Originating on Axiom, the Plane of Uttermost Law, [memonek](scc:mcdm.heroes.v1/ancestry/memonek) are a machine people made of metal, marble, glass, and other inorganic materials. Their bodies are lightweight, making them easier to move and letting them fall at slower [speeds](scc:mcdm.heroes.v1/rule.character/speed).
 
-**[Orc](scc:mcdm.heroes.v1/ancestry/orc):** [Orcs](scc:mcdm.heroes.v1/ancestry/orc) have skin in green tones and stand slightly taller and wider than [humans](scc:mcdm.heroes.v1/ancestry/human). A supernatural energy they call "the blood fire" flows through their veins, igniting colorful lines in an [orc's](scc:mcdm.heroes.v1/ancestry/orc) skin during life-or-death battles.
+**[Orc](scc:mcdm.heroes.v1/ancestry/orc):** [Orcs](scc:mcdm.heroes.v1/ancestry/orc) have skin in green tones and stand slightly taller and wider than [humans](scc:mcdm.heroes.v1/ancestry/human). A [supernatural](scc:mcdm.heroes.v1/rule.general/supernatural) energy they call "the blood fire" flows through their veins, igniting colorful lines in an [orc's](scc:mcdm.heroes.v1/ancestry/orc) skin during life-or-death battles.
 
 **[Polder](scc:mcdm.heroes.v1/ancestry/polder):** The smallest of the ancestries in this book, [polders](scc:mcdm.heroes.v1/ancestry/polder) stand no taller than 3-1/2 feet. They look like smaller [humans](scc:mcdm.heroes.v1/ancestry/human), and they have the ability to blend in with the shadows.
 
@@ -45,7 +45,7 @@ This chapter details twelve ancestries for the game:
 >
 > Languages: Chapter 4: [Background](scc:mcdm.heroes.v1/chapter/background)
 >
-> Abilities, conditions, [potencies](scc:mcdm.heroes.v1/rule.character/potency), [saving throws](scc:mcdm.heroes.v1/rule.general/saving-throw), [surges](scc:mcdm.heroes.v1/rule.resource/surge): Chapter 5: [Classes](scc:mcdm.heroes.v1/chapter/classes)
+> Abilities, [conditions](scc:mcdm.heroes.v1/rule.combat/condition), [potencies](scc:mcdm.heroes.v1/rule.character/potency), [saving throws](scc:mcdm.heroes.v1/rule.general/saving-throw), [surges](scc:mcdm.heroes.v1/rule.resource/surge): Chapter 5: [Classes](scc:mcdm.heroes.v1/chapter/classes)
 >
 > Skills, [tests](scc:mcdm.heroes.v1/rule.test/test): Chapter 9: [Tests](scc:mcdm.heroes.v1/chapter/tests)
 >
@@ -99,7 +99,7 @@ If that's not enough, folks use another identifier known as a byname. If there w
 
 If you leave your village regularly, say to trade with others in a distant market, then your byname might be the place you're from. Alan from the village in the dale, might become known as Alan from the Dale, or even Alan-a-Dale. But everyone back home just calls you Alan.
 
-A byname might refer to your profession. Clyde the Cartwright is a perfectly normal byname. But no one you met would assume "Cartwright" was your 'family name.' People who live permanently in a very large city like Capital use family names, because almost no first name is sufficiently unique to identify you, and "Marissa the Cartwright's Daughter" quickly evolves into Marissa Cartwright.
+A byname might refer to your profession. Clyde the Cartwright is a perfectly normal byname. But no one you met would assume "Cartwright" was your 'family name.' People who live permanently in a very large city like [Capital](scc:mcdm.heroes.v1/rule.world/capital) use family names, because almost no first name is sufficiently unique to identify you, and "Marissa the Cartwright's Daughter" quickly evolves into Marissa Cartwright.
 
 Most nobles in [Orden](scc:mcdm.heroes.v1/rule.world/orden) also use the name of the area they rule as part of their name. When someone refers to Lord Edmund Bedegar everyone listening silently, without thinking about it, adds "of" between the name and the place. Edmund is both Edmund, and the Lord of Bedegar, and Edmund, Lord of Bedegar, and therefore sometimes Lord Edmund Bedegar. Even though "Bedegar" looks like a "last name" to us, and is being used in that manner sometimes, it's not exactly his last name. It's still just another kind of byname.
 

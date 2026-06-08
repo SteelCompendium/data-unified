@@ -2,11 +2,11 @@
 action_type: Main action
 class: talent
 cost: 5 Clarity
-distance: Ranged 10
+distance: '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 10'
 flavor: You raise the target slightly into the air, then smother them against the ground.
 keywords:
     - Psionic
-    - Ranged
+    - '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)'
     - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
     - Telekinesis
 level: "2"
@@ -19,9 +19,9 @@ type: ability
 
 *You raise the target slightly into the air, then smother them against the ground.*
 
-| **Psionic, Ranged, [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Telekinesis** |               **Main action** |
+| **Psionic, [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged), [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Telekinesis** |               **Main action** |
 |------------------------------------------|------------------------------:|
-| **📏 Ranged 10**                         | **🎯 One creature or object** |
+| **📏 [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 10**                         | **🎯 One creature or object** |
 
 **[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Reason](scc:mcdm.heroes.v1/rule.character/reason):**
 

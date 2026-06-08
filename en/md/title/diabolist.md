@@ -12,7 +12,7 @@ type: title
 
 **Effect:** Choose one of the following benefits:
 
-- *Devil Lore:* You know the Anjali language, and your understanding of this language helps you create irresistible supernatural effects. The [potencies](scc:mcdm.heroes.v1/rule.character/potency) of your magic or psionic abilities that target [Reason](scc:mcdm.heroes.v1/rule.character/reason), [Intuition](scc:mcdm.heroes.v1/rule.character/intuition), or [Presence](scc:mcdm.heroes.v1/rule.character/presence) increase by 1.
+- *Devil Lore:* You know the Anjali language, and your understanding of this language helps you create irresistible [supernatural](scc:mcdm.heroes.v1/rule.general/supernatural) effects. The [potencies](scc:mcdm.heroes.v1/rule.character/potency) of your magic or psionic abilities that target [Reason](scc:mcdm.heroes.v1/rule.character/reason), [Intuition](scc:mcdm.heroes.v1/rule.character/intuition), or [Presence](scc:mcdm.heroes.v1/rule.character/presence) increase by 1.
 - *Infernal Legacy:* You gain 3 ancestry points to spend on purchased [devil](scc:mcdm.heroes.v1/ancestry/devil) [ancestry traits](scc:mcdm.heroes.v1/chapter/ancestries) (see Chapter 3: [Ancestries](scc:mcdm.heroes.v1/chapter/ancestries)).
 - *Sly [Devil](scc:mcdm.heroes.v1/ancestry/devil):* You gain the Silver Tongue signature trait from the [devil](scc:mcdm.heroes.v1/ancestry/devil) ancestry.
 - *Untouched by Corruption:* Whenever you use a damage-dealing ability, that ability can deal holy damage instead of its usual [damage type](scc:mcdm.heroes.v1/rule.damage/damage-type).

@@ -2,13 +2,13 @@
 action_type: Main action
 class: elementalist
 cost: 5 Essence
-distance: Ranged 10
+distance: '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 10'
 flavor: Wrap them up in fire and melting stone.
 keywords:
     - Earth
     - Fire
     - Magic
-    - Ranged
+    - '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)'
     - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
 level: "2"
 name: Volcano's Embrace
@@ -20,9 +20,9 @@ type: ability
 
 *Wrap them up in fire and melting stone.*
 
-| **Earth, Fire, Magic, Ranged, [Strike](scc:mcdm.heroes.v1/rule.combat/strike)** |     **Main action** |
+| **Earth, Fire, Magic, [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged), [Strike](scc:mcdm.heroes.v1/rule.combat/strike)** |     **Main action** |
 |----------------------------------------|--------------------:|
-| **📏 Ranged 10**                       | **🎯 One creature** |
+| **📏 [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 10**                       | **🎯 One creature** |
 
 **[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Reason](scc:mcdm.heroes.v1/rule.character/reason):**
 

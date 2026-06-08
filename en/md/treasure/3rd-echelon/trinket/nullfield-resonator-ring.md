@@ -31,9 +31,9 @@ Additionally, you have the following ability.
 >
 > *Your punch delivers a devastating burst of psionic energy.*
 >
-> | **Melee, Psionic**, **Strike, Weapon** |               **Main action** |
+> | **[Melee](scc:mcdm.heroes.v1/rule.combat/melee), Psionic**, **Strike, Weapon** |               **Main action** |
 > |----------------------------------------|------------------------------:|
-> | **📏 Melee 1**                         | **🎯 One creature or object** |
+> | **📏 [Melee](scc:mcdm.heroes.v1/rule.combat/melee) 1**                         | **🎯 One creature or object** |
 >
 > **[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc:mcdm.heroes.v1/rule.character/might) or [Agility](scc:mcdm.heroes.v1/rule.character/agility):**
 >

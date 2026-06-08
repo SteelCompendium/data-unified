@@ -2,11 +2,11 @@
 action_type: Maneuver
 class: tactician
 cost: 5 Focus
-distance: Ranged 10
-effect: Each target who hasn't acted yet this combat round can take their turn in any order immediately after yours.
+distance: '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 10'
+effect: Each target who hasn't acted yet this [combat round](scc:mcdm.heroes.v1/rule.combat/combat-round) can take their [turn](scc:mcdm.heroes.v1/rule.combat/turn) in any order immediately after yours.
 flavor: All those coordination drills you made them do finally pay off.
 keywords:
-    - Ranged
+    - '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)'
 level: "1"
 name: This Is What We Planned For
 scc: mcdm.heroes.v1/feature.ability.tactician.level-1/this-is-what-we-planned-for
@@ -17,8 +17,8 @@ type: ability
 
 *All those coordination drills you made them do finally pay off.*
 
-| **Ranged**       |      **Maneuver** |
+| **[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)**       |      **Maneuver** |
 |------------------|------------------:|
-| **📏 Ranged 10** | **🎯 Two allies** |
+| **📏 [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 10** | **🎯 Two allies** |
 
-**Effect:** Each target who hasn't acted yet this combat round can take their turn in any order immediately after yours.
+**Effect:** Each target who hasn't acted yet this [combat round](scc:mcdm.heroes.v1/rule.combat/combat-round) can take their [turn](scc:mcdm.heroes.v1/rule.combat/turn) in any order immediately after yours.

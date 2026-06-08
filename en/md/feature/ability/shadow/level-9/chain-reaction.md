@@ -2,11 +2,11 @@
 action_type: Main action
 class: shadow
 cost: 11 Insight
-distance: Ranged 10
+distance: '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 10'
 effect: Each enemy within 3 squares of the target who is not currently targeted by this ability also becomes targeted by this ability. This effect continues until there are no more available targets. The ability deals acid, fire, or poison damage (your choice).
 flavor: One explosion, an offense. Three explosions, an assault. Nine explosions, a celebration.
 keywords:
-    - Ranged
+    - '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)'
 level: "9"
 name: Chain Reaction
 scc: mcdm.heroes.v1/feature.ability.shadow.level-9/chain-reaction
@@ -17,9 +17,9 @@ type: ability
 
 *One explosion, an offense. Three explosions, an assault. Nine explosions, a celebration.*
 
-| **Ranged**       |               **Main action** |
+| **[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)**       |               **Main action** |
 |------------------|------------------------------:|
-| **📏 Ranged 10** | **🎯 One creature or object** |
+| **📏 [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 10** | **🎯 One creature or object** |
 
 **Effect:** Each enemy within 3 squares of the target who is not currently targeted by this ability also becomes targeted by this ability. This effect continues until there are no more available targets. The ability deals acid, fire, or poison damage (your choice).
 

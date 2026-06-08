@@ -33,7 +33,7 @@ Additionally, whenever you activate a domain effect by praying for piety, you ca
 ###### Life Domain Piety and Effect
 
 - **Piety:** You gain 2 piety the first time in an encounter that a creature within 10 squares regains [Stamina](scc:mcdm.heroes.v1/rule.health/stamina).
-- **Prayer Effect:** Choose yourself or one ally within 10 squares. That character can spend a [Recovery](scc:mcdm.heroes.v1/rule.health/recoveries), can end one effect on them that is ended by a [saving throw](scc:mcdm.heroes.v1/rule.general/saving-throw) or that ends at the end of their turn, or can stand up if they [are prone](scc:mcdm.heroes.v1/condition/prone). Alternatively, you or one ally within 10 squares gains [temporary Stamina](scc:mcdm.heroes.v1/rule.health/temporary-stamina) equal to two times your [Intuition](scc:mcdm.heroes.v1/rule.character/intuition) score.
+- **Prayer Effect:** Choose yourself or one ally within 10 squares. That character can spend a [Recovery](scc:mcdm.heroes.v1/rule.health/recoveries), can end one effect on them that is ended by a [saving throw](scc:mcdm.heroes.v1/rule.general/saving-throw) or that ends at the end of their [turn](scc:mcdm.heroes.v1/rule.combat/turn), or can stand up if they [are prone](scc:mcdm.heroes.v1/condition/prone). Alternatively, you or one ally within 10 squares gains [temporary Stamina](scc:mcdm.heroes.v1/rule.health/temporary-stamina) equal to two times your [Intuition](scc:mcdm.heroes.v1/rule.character/intuition) score.
 
 ###### Love Domain Piety and Effect
 
@@ -67,5 +67,5 @@ Additionally, whenever you activate a domain effect by praying for piety, you ca
 
 ###### War Domain Piety and Effect
 
-- **Piety:** You gain 2 piety the first time in an encounter that you or a creature within 10 squares takes damage greater than 10 + your level in a single turn.
+- **Piety:** You gain 2 piety the first time in an encounter that you or a creature within 10 squares takes damage greater than 10 + your level in a single [turn](scc:mcdm.heroes.v1/rule.combat/turn).
 - **Prayer Effect:** Choose up to three allies within 10 squares of you, or choose yourself instead of one ally. Each target gains 2 [surges](scc:mcdm.heroes.v1/rule.resource/surge).

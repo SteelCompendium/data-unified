@@ -1,9 +1,9 @@
 ---
 action_type: Main action
-distance: Ranged 12
+distance: '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 12'
 flavor: When you fire two arrows back-to-back, both hit their mark.
 keywords:
-    - Ranged
+    - '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)'
     - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
     - Weapon
 kit: rapid-fire
@@ -16,9 +16,9 @@ type: ability
 
 *When you fire two arrows back-to-back, both hit their mark.*
 
-| **Ranged, [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** |                 **Main action** |
+| **[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged), [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** |                 **Main action** |
 |----------------------------|--------------------------------:|
-| **📏 Ranged 12**           | **🎯 Two creatures or objects** |
+| **📏 [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 12**           | **🎯 Two creatures or objects** |
 
 **[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc:mcdm.heroes.v1/rule.character/might) or [Agility](scc:mcdm.heroes.v1/rule.character/agility):**
 

@@ -2,11 +2,11 @@
 action_type: Main action
 class: tactician
 cost: 9 Focus
-distance: Melee 1
-effect: You and each ally adjacent to the target gain 10 [temporary Stamina](scc:mcdm.heroes.v1/rule.health/temporary-stamina).
+distance: '[Melee](scc:mcdm.heroes.v1/rule.combat/melee) 1'
+effect: You and each ally [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the target gain 10 [temporary Stamina](scc:mcdm.heroes.v1/rule.health/temporary-stamina).
 flavor: You distract a foe while your allies secure their defensive gear.
 keywords:
-    - Melee
+    - '[Melee](scc:mcdm.heroes.v1/rule.combat/melee)'
     - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
     - Weapon
 level: "5"
@@ -19,9 +19,9 @@ type: ability
 
 *You distract a foe while your allies secure their defensive gear.*
 
-| **Melee, [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** | **Main action**     |
+| **[Melee](scc:mcdm.heroes.v1/rule.combat/melee), [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** | **Main action**     |
 |---------------------------|---------------------|
-| **📏 Melee 1**            | **🎯 One creature** |
+| **📏 [Melee](scc:mcdm.heroes.v1/rule.combat/melee) 1**            | **🎯 One creature** |
 
 **[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc:mcdm.heroes.v1/rule.character/might):**
 
@@ -29,4 +29,4 @@ type: ability
 - **12-16:** 13 + M damage
 - **17+:** 18 + M damage
 
-**Effect:** You and each ally adjacent to the target gain 10 [temporary Stamina](scc:mcdm.heroes.v1/rule.health/temporary-stamina).
+**Effect:** You and each ally [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the target gain 10 [temporary Stamina](scc:mcdm.heroes.v1/rule.health/temporary-stamina).

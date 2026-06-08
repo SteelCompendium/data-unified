@@ -40,15 +40,15 @@ Llewellyn and Silverheart plunged into the bog and though it was night and the m
 
 Looking to the upper window of the tower, Llewellyn saw someone performing a dark ritual. A flash of lightning illuminated the figure. It was Melianus! Melianus was the sorcerer! Llewellyn called out, and the duke descended the tower and mounted his hellsteed. On his shield now—the screaming-skull symbol of Cyrvis, the Lich, god of malice.
 
-Cyrvis had rewarded his loyal servant for years of cruelty, and the figure astride the nightmare was Saint Melianus the Bright. The Dark Saint charged Llewellyn, his lance gleaming with balefire. Llewellyn and Silverheart returned the charge and the two clashed together, Melianus's blow strong enough to unseat a giant. But Llewellyn was not thrown. His strength was the strength of ten, for his heart was pure.
+Cyrvis had rewarded his loyal servant for years of cruelty, and the figure astride the nightmare was Saint Melianus the Bright. The Dark [Saint](scc:mcdm.heroes.v1/rule.world/saint) charged Llewellyn, his lance gleaming with balefire. Llewellyn and Silverheart returned the charge and the two clashed together, Melianus's blow strong enough to unseat a giant. But Llewellyn was not thrown. His strength was the strength of ten, for his heart was pure.
 
 Coalfire struck with flaming hooves at Silverheart but the destrier struck back, blow for bite and bite for blow. Then the hellsteed, roared and a rotting green flame burned Silverheart's flesh and stole her breath until, choking, she fell to the ground, dead.
 
 Llewellyn's heart [burst](scc:mcdm.heroes.v1/rule.combat/burst). He threw his body over the corpse of his loyal steed, and Melianus's lance pierced his armor, his back, and his heart. Knight and horse, dead. Melianus crowed as the lightning flashed again. But, in that moment, the miracle.
 
-Cavall stood between the Dark Saint and loyal knight. Cavall pulled the lance from Llewellyn's back. "Rise my son, and rise thy steed. Thy work shalt never be done."
+Cavall stood between the Dark [Saint](scc:mcdm.heroes.v1/rule.world/saint) and loyal knight. Cavall pulled the lance from Llewellyn's back. "Rise my son, and rise thy steed. Thy work shalt never be done."
 
-Saint Llewellyn the Valiant and Silverheart his Eversteed rose, immortal, and the battle against evil renewed itself, the two armored saints clashing on barded steeds.
+Saint Llewellyn the Valiant and Silverheart his Eversteed rose, immortal, and the battle against evil renewed itself, the two armored [saints](scc:mcdm.heroes.v1/rule.world/saint) clashing on barded steeds.
 
 Weeks later, neither having returned, the people of Gant laboriously forded the swamp and found the tower of the sorcerer. The ground
 
@@ -56,7 +56,7 @@ around the tower turned black from the baleful energies unleashed. Though no bod
 
 Llewellyn and Silverheart had rid the people of their cursed, hateful duke.
 
-Saint Llewellyn is Cavall's greatest saint. He teaches that the greatest loyalty is to the well-being of the people, and that it is the responsibility of the strong to protect the weak. That the only proper use of power is in pursuit of justice.
+Saint Llewellyn is Cavall's greatest [saint](scc:mcdm.heroes.v1/rule.world/saint). He teaches that the greatest loyalty is to the well-being of the people, and that it is the responsibility of the strong to protect the weak. That the only proper use of power is in pursuit of justice.
 
 ##### Gwenllian the Fell-Handed
 
@@ -96,4 +96,4 @@ Twelve days after they rode out, Zür returned with Lady Gwenllian's body on her
 
 "I bring you her body," Zür said to the baron. "And one thing more will I do for you. I shall build you a church here. A cathedral worthy of the life of Saint Gwenllian."
 
-Gwenllian is the saint of those who stand watch, of all those who must carry a burden ceaselessly. Gwenllian teaches that vigilance is its own reward.
+Gwenllian is the [saint](scc:mcdm.heroes.v1/rule.world/saint) of those who stand watch, of all those who must carry a burden ceaselessly. Gwenllian teaches that vigilance is its own reward.

@@ -5,7 +5,7 @@ signature_trait_name: Detect the Supernatural
 type: ancestry
 ---
 
-[Humans](scc:mcdm.heroes.v1/ancestry/human) belong to the world in a way the other speaking peoples do not. You can sense the presence of the supernatural—that... oily smell in the air, as I've heard it described. And the presence of deathless causes the hairs on the back of your neck to stand up. Or why do you think graveyards affect you so? Whatever magic is, its grip on you is light. Whatever drives the deathless, your nature rebels against it.
+[Humans](scc:mcdm.heroes.v1/ancestry/human) belong to the world in a way the other speaking peoples do not. You can sense the presence of the [supernatural](scc:mcdm.heroes.v1/rule.general/supernatural)—that... oily smell in the air, as I've heard it described. And the presence of deathless causes the hairs on the back of your neck to stand up. Or why do you think graveyards affect you so? Whatever magic is, its grip on you is light. Whatever drives the deathless, your nature rebels against it.
 
 "No one knows why this should be. We elves have no such senses. Nor do the elementals or the kanin... the [dwarves](scc:mcdm.heroes.v1/ancestry/dwarf) and the [orcs](scc:mcdm.heroes.v1/ancestry/orc) as you say. What is it that sets [humans](scc:mcdm.heroes.v1/ancestry/human) apart? I am an historian, not a physician. I cannot say. Perhaps some of you will one day find out and teach us all the reason."
 
@@ -41,6 +41,6 @@ Those great [humans](scc:mcdm.heroes.v1/ancestry/human), your ancestors, did not
 
 The people who stand against Ajax and tyrants like him will be just like you—normal people. Priests and scholars and merchants and farmers. Maybe even teachers.
 
-Stopping Ajax will require you to become something else. You must become heroes. [Conduits](scc:mcdm.heroes.v1/class/conduit) of saints, warmasters of great armies. [Censors](scc:mcdm.heroes.v1/class/censor) and [shadows](scc:mcdm.heroes.v1/class/shadow). That may seem unlikely now, but the future has a way of surprising us.
+Stopping Ajax will require you to become something else. You must become heroes. [Conduits](scc:mcdm.heroes.v1/class/conduit) of [saints](scc:mcdm.heroes.v1/rule.world/saint), warmasters of great armies. [Censors](scc:mcdm.heroes.v1/class/censor) and [shadows](scc:mcdm.heroes.v1/class/shadow). That may seem unlikely now, but the future has a way of surprising us.
 
 Some of your names, I will see written in future textbooks. But some of your names, I will see written in the stars.

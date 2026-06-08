@@ -10,9 +10,9 @@ The ring of steel panics others but brings order to your mind, granting you a [H
 
 ##### Focus in Combat
 
-At the start of a combat encounter or some other stressful situation tracked in combat rounds (as determined by the Director), you gain focus equal to your [Victories](scc:mcdm.heroes.v1/rule.resource/victories). At the start of each of your turns during combat, you gain 2 focus.
+At the start of a combat encounter or some other stressful situation tracked in [combat rounds](scc:mcdm.heroes.v1/rule.combat/combat-round) (as determined by the Director), you gain focus equal to your [Victories](scc:mcdm.heroes.v1/rule.resource/victories). At the start of each of your [turns](scc:mcdm.heroes.v1/rule.combat/turn) during combat, you gain 2 focus.
 
-Additionally, the first time each combat round that you or any ally damages a creature marked by you (see Mark below), you gain 1 focus. The first time in a combat round that any ally within 10 squares of you uses a [heroic ability](scc:mcdm.heroes.v1/rule.general/heroic-ability), you gain 1 focus.
+Additionally, the first time each [combat round](scc:mcdm.heroes.v1/rule.combat/combat-round) that you or any ally damages a creature marked by you (see Mark below), you gain 1 focus. The first time in a [combat round](scc:mcdm.heroes.v1/rule.combat/combat-round) that any ally within 10 squares of you uses a [heroic ability](scc:mcdm.heroes.v1/rule.general/heroic-ability), you gain 1 focus.
 
 You lose any remaining focus at the end of the encounter.
 

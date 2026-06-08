@@ -1,11 +1,11 @@
 ---
 action_type: Main action
 class: shadow
-distance: Melee 1
+distance: '[Melee](scc:mcdm.heroes.v1/rule.combat/melee) 1'
 effect: As long as you have one or more allies within 5 squares of the target, you gain 1 [surge](scc:mcdm.heroes.v1/rule.resource/surge). If you are [flanking](scc:mcdm.heroes.v1/rule.combat/flanking) the target when you use this ability, choose one ally who is [flanking](scc:mcdm.heroes.v1/rule.combat/flanking) with you. That ally also gains 1 [surge](scc:mcdm.heroes.v1/rule.resource/surge).
 flavor: They can't watch both of you at once.
 keywords:
-    - Melee
+    - '[Melee](scc:mcdm.heroes.v1/rule.combat/melee)'
     - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
     - Weapon
 level: "1"
@@ -19,9 +19,9 @@ type: ability
 
 *They can't watch both of you at once.*
 
-| **Melee, [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** |     **Main action** |
+| **[Melee](scc:mcdm.heroes.v1/rule.combat/melee), [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** |     **Main action** |
 |---------------------------|--------------------:|
-| **📏 Melee 1**            | **🎯 One creature** |
+| **📏 [Melee](scc:mcdm.heroes.v1/rule.combat/melee) 1**            | **🎯 One creature** |
 
 **[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Agility](scc:mcdm.heroes.v1/rule.character/agility):**
 

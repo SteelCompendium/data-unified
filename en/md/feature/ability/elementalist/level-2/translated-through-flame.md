@@ -2,13 +2,13 @@
 action_type: Main action
 class: elementalist
 cost: 5 Essence
-distance: Ranged 10
-effect: The target is [teleport](scc:mcdm.heroes.v1/movement/teleport)ed to another space within [distance](scc:mcdm.heroes.v1/rule.combat/distance). Make a [power roll](scc:mcdm.heroes.v1/rule.dice/power-roll) that affects each enemy adjacent to the target's new space.
+distance: '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 10'
+effect: The target is [teleport](scc:mcdm.heroes.v1/movement/teleport)ed to another space within [distance](scc:mcdm.heroes.v1/rule.combat/distance). Make a [power roll](scc:mcdm.heroes.v1/rule.dice/power-roll) that affects each enemy [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the target's new space.
 flavor: Your ally disappears, then reappears in a burst of fire.
 keywords:
     - Fire
     - Magic
-    - Ranged
+    - '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)'
     - Void
 level: "2"
 name: Translated Through Flame
@@ -20,11 +20,11 @@ type: ability
 
 *Your ally disappears, then reappears in a burst of fire.*
 
-| **Fire, Magic, Ranged, Void** |         **Main action** |
+| **Fire, Magic, [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged), Void** |         **Main action** |
 |-------------------------------|------------------------:|
-| **📏 Ranged 10**              | **🎯 Self or one ally** |
+| **📏 [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 10**              | **🎯 Self or one ally** |
 
-**Effect:** The target is [teleport](scc:mcdm.heroes.v1/movement/teleport)ed to another space within [distance](scc:mcdm.heroes.v1/rule.combat/distance). Make a [power roll](scc:mcdm.heroes.v1/rule.dice/power-roll) that affects each enemy adjacent to the target's new space.
+**Effect:** The target is [teleport](scc:mcdm.heroes.v1/movement/teleport)ed to another space within [distance](scc:mcdm.heroes.v1/rule.combat/distance). Make a [power roll](scc:mcdm.heroes.v1/rule.dice/power-roll) that affects each enemy [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the target's new space.
 
 **[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Reason](scc:mcdm.heroes.v1/rule.character/reason):**
 

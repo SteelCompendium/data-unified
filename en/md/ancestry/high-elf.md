@@ -37,7 +37,7 @@ The king tapped the scroll against his lap, seeming to have reached a decision.
 
 Llyander nodded deferentially, silently congratulating the king on his insight.
 
-"Alas, your escort's efforts are for naught." Then the king's face became softer. He held up the heavy scroll. "But this is not nothing," he said. "We made a treaty with Ajax to deliver unto him any artifacts our search teams discover from the ruins of this city. He benefits from this bargain more than we. But this, methinks, will stay with us. It was written by my grandmother's grandmother in the youth of the world, and there are some things which must be denied the Iron Saint, even should they violate the treaty."
+"Alas, your escort's efforts are for naught." Then the king's face became softer. He held up the heavy scroll. "But this is not nothing," he said. "We made a treaty with Ajax to deliver unto him any artifacts our search teams discover from the ruins of this city. He benefits from this bargain more than we. But this, methinks, will stay with us. It was written by my grandmother's grandmother in the youth of the world, and there are some things which must be denied the Iron [Saint](scc:mcdm.heroes.v1/rule.world/saint), even should they violate the treaty."
 
 Llyander turned to the children and smiled brilliantly, eyebrows waggling in a show of glee. Wenna and Credan couldn't help but smile. "Well, you see children?" Llyander said. "We only have *more* to do, not everything to do."
 

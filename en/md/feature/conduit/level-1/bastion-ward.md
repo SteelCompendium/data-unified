@@ -6,4 +6,4 @@ scc: mcdm.heroes.v1/feature.conduit.level-1/bastion-ward
 type: feature
 ---
 
-Your god grants you a holy countenance that protects you at all times. You gain a +1 bonus to [saving throws](scc:mcdm.heroes.v1/rule.general/saving-throw).
+Your god grants you a holy countenance that protects you at all times. You gain a +1 [bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to [saving throws](scc:mcdm.heroes.v1/rule.general/saving-throw).

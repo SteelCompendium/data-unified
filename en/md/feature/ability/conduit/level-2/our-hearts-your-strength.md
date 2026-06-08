@@ -2,12 +2,12 @@
 action_type: Maneuver
 class: conduit
 cost: 5 Piety
-distance: Ranged 10
-effect: Until the end of the encounter or until the target is [dying](scc:mcdm.heroes.v1/rule.health/dying), at the start of each of the target's turns, they gain a bonus to [speed](scc:mcdm.heroes.v1/rule.character/speed) and a bonus to [rolled damage](scc:mcdm.heroes.v1/rule.damage/rolled-damage) equal to the number of allies within 10 squares of them. This bonus lasts until the start of their next turn.
+distance: '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 10'
+effect: Until the end of the encounter or until the target is [dying](scc:mcdm.heroes.v1/rule.health/dying), at the start of each of the target's [turns](scc:mcdm.heroes.v1/rule.combat/turn), they gain a [bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to [speed](scc:mcdm.heroes.v1/rule.character/speed) and a [bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to [rolled damage](scc:mcdm.heroes.v1/rule.damage/rolled-damage) equal to the number of allies within 10 squares of them. This [bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) lasts until the start of their next [turn](scc:mcdm.heroes.v1/rule.combat/turn).
 flavor: An ally gains strength from their friends.
 keywords:
     - Magic
-    - Ranged
+    - '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)'
 level: "2"
 name: Our Hearts Your Strength
 scc: mcdm.heroes.v1/feature.ability.conduit.level-2/our-hearts-your-strength
@@ -18,8 +18,8 @@ type: ability
 
 *An ally gains strength from their friends.*
 
-| **Magic, Ranged**  |             **Maneuver** |
+| **Magic, [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)**  |             **Maneuver** |
 |--------------------|-------------------------:|
-| **📏 Ranged 10**   | **🎯 Self and one ally** |
+| **📏 [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 10**   | **🎯 Self and one ally** |
 
-**Effect:** Until the end of the encounter or until the target is [dying](scc:mcdm.heroes.v1/rule.health/dying), at the start of each of the target's turns, they gain a bonus to [speed](scc:mcdm.heroes.v1/rule.character/speed) and a bonus to [rolled damage](scc:mcdm.heroes.v1/rule.damage/rolled-damage) equal to the number of allies within 10 squares of them. This bonus lasts until the start of their next turn.
+**Effect:** Until the end of the encounter or until the target is [dying](scc:mcdm.heroes.v1/rule.health/dying), at the start of each of the target's [turns](scc:mcdm.heroes.v1/rule.combat/turn), they gain a [bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to [speed](scc:mcdm.heroes.v1/rule.character/speed) and a [bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to [rolled damage](scc:mcdm.heroes.v1/rule.damage/rolled-damage) equal to the number of allies within 10 squares of them. This [bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) lasts until the start of their next [turn](scc:mcdm.heroes.v1/rule.combat/turn).

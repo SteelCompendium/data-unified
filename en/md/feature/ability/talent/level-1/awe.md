@@ -2,12 +2,12 @@
 action_type: Main action
 class: talent
 cost: 3 Clarity
-distance: Ranged 10
-effect: If you target an ally, they gain [temporary Stamina](scc:mcdm.heroes.v1/rule.health/temporary-stamina) equal to three times your [Presence](scc:mcdm.heroes.v1/rule.character/presence) score, and they can end one effect on them that is ended by a [saving throw](scc:mcdm.heroes.v1/rule.general/saving-throw) or that ends at the end of their turn. If you target an enemy, you make a [power roll](scc:mcdm.heroes.v1/rule.dice/power-roll).
+distance: '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 10'
+effect: If you target an ally, they gain [temporary Stamina](scc:mcdm.heroes.v1/rule.health/temporary-stamina) equal to three times your [Presence](scc:mcdm.heroes.v1/rule.character/presence) score, and they can end one effect on them that is ended by a [saving throw](scc:mcdm.heroes.v1/rule.general/saving-throw) or that ends at the end of their [turn](scc:mcdm.heroes.v1/rule.combat/turn). If you target an enemy, you make a [power roll](scc:mcdm.heroes.v1/rule.dice/power-roll).
 flavor: You project psionic energy out to a creature and take on a new visage in their mind.
 keywords:
     - Psionic
-    - Ranged
+    - '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)'
     - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
     - Telepathy
 level: "1"
@@ -20,11 +20,11 @@ type: ability
 
 *You project psionic energy out to a creature and take on a new visage in their mind.*
 
-| **Psionic, Ranged, [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Telepathy** |     **Main action** |
+| **Psionic, [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged), [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Telepathy** |     **Main action** |
 |----------------------------------------|--------------------:|
-| **📏 Ranged 10**                       | **🎯 One creature** |
+| **📏 [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 10**                       | **🎯 One creature** |
 
-**Effect:** If you target an ally, they gain [temporary Stamina](scc:mcdm.heroes.v1/rule.health/temporary-stamina) equal to three times your [Presence](scc:mcdm.heroes.v1/rule.character/presence) score, and they can end one effect on them that is ended by a [saving throw](scc:mcdm.heroes.v1/rule.general/saving-throw) or that ends at the end of their turn. If you target an enemy, you make a [power roll](scc:mcdm.heroes.v1/rule.dice/power-roll).
+**Effect:** If you target an ally, they gain [temporary Stamina](scc:mcdm.heroes.v1/rule.health/temporary-stamina) equal to three times your [Presence](scc:mcdm.heroes.v1/rule.character/presence) score, and they can end one effect on them that is ended by a [saving throw](scc:mcdm.heroes.v1/rule.general/saving-throw) or that ends at the end of their [turn](scc:mcdm.heroes.v1/rule.combat/turn). If you target an enemy, you make a [power roll](scc:mcdm.heroes.v1/rule.dice/power-roll).
 
 **[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Presence](scc:mcdm.heroes.v1/rule.character/presence):**
 

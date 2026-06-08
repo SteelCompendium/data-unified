@@ -1,6 +1,6 @@
 ---
 echelon: "2"
-effect: As a maneuver, you inhale the Breath of Dawn and are overcome with tranquility. You immediately end the [frightened](scc:mcdm.heroes.v1/condition/frightened), [slowed](scc:mcdm.heroes.v1/condition/slowed), and [taunted](scc:mcdm.heroes.v1/condition/taunted) conditions on yourself, and you gain a +8 bonus to [Stability](scc:mcdm.heroes.v1/rule.character/stability) until the end of the encounter.
+effect: As a maneuver, you inhale the Breath of Dawn and are overcome with tranquility. You immediately end the [frightened](scc:mcdm.heroes.v1/condition/frightened), [slowed](scc:mcdm.heroes.v1/condition/slowed), and [taunted](scc:mcdm.heroes.v1/condition/taunted) [conditions](scc:mcdm.heroes.v1/rule.combat/condition) on yourself, and you gain a +8 [bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to [Stability](scc:mcdm.heroes.v1/rule.character/stability) until the end of the encounter.
 keywords:
     - Psionic
 name: Breath of Dawn
@@ -21,4 +21,4 @@ type: treasure
 
 **Project Goal:** 90
 
-**Effect:** As a maneuver, you inhale the Breath of Dawn and are overcome with tranquility. You immediately end the [frightened](scc:mcdm.heroes.v1/condition/frightened), [slowed](scc:mcdm.heroes.v1/condition/slowed), and [taunted](scc:mcdm.heroes.v1/condition/taunted) conditions on yourself, and you gain a +8 bonus to [Stability](scc:mcdm.heroes.v1/rule.character/stability) until the end of the encounter.
+**Effect:** As a maneuver, you inhale the Breath of Dawn and are overcome with tranquility. You immediately end the [frightened](scc:mcdm.heroes.v1/condition/frightened), [slowed](scc:mcdm.heroes.v1/condition/slowed), and [taunted](scc:mcdm.heroes.v1/condition/taunted) [conditions](scc:mcdm.heroes.v1/rule.combat/condition) on yourself, and you gain a +8 [bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to [Stability](scc:mcdm.heroes.v1/rule.character/stability) until the end of the encounter.

@@ -6,4 +6,4 @@ scc: mcdm.heroes.v1/feature.tactician.level-7/heightened-focus
 type: feature
 ---
 
-When you gain focus at the start of each of your turns during combat, you gain 3 focus instead of 2.
+When you gain focus at the start of each of your [turns](scc:mcdm.heroes.v1/rule.combat/turn) during combat, you gain 3 focus instead of 2.

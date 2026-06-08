@@ -7,7 +7,7 @@ effect: Unless you score a [critical hit](scc:mcdm.heroes.v1/rule.combat/critica
 flavor: You wield your weapon at blistering [speed](scc:mcdm.heroes.v1/rule.character/speed), leaving everyone around you fighting for their lives.
 keywords:
     - Area
-    - Melee
+    - '[Melee](scc:mcdm.heroes.v1/rule.combat/melee)'
     - Weapon
 level: "5"
 name: Action Hero
@@ -19,7 +19,7 @@ type: ability
 
 *You wield your weapon at blistering [speed](scc:mcdm.heroes.v1/rule.character/speed), leaving everyone around you fighting for their lives.*
 
-| **Area, Melee, Weapon** |               **Main action** |
+| **Area, [Melee](scc:mcdm.heroes.v1/rule.combat/melee), Weapon** |               **Main action** |
 |-------------------------|------------------------------:|
 | **📏 3 [burst](scc:mcdm.heroes.v1/rule.combat/burst)**          | **🎯 Each enemy in the area** |
 

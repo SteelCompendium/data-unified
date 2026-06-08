@@ -2,10 +2,10 @@
 action_type: Maneuver
 class: tactician
 cost: 3 Focus
-distance: Ranged 10
+distance: '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 10'
 flavor: You shout a phrase that galvanizes your team.
 keywords:
-    - Ranged
+    - '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)'
 level: "1"
 name: Battle Cry
 scc: mcdm.heroes.v1/feature.ability.tactician.level-1/battle-cry
@@ -16,9 +16,9 @@ type: ability
 
 *You shout a phrase that galvanizes your team.*
 
-| **Ranged**       |        **Maneuver** |
+| **[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)**       |        **Maneuver** |
 |------------------|--------------------:|
-| **📏 Ranged 10** | **🎯 Three allies** |
+| **📏 [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 10** | **🎯 Three allies** |
 
 **[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Reason](scc:mcdm.heroes.v1/rule.character/reason):**
 

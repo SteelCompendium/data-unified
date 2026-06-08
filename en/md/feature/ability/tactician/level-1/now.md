@@ -2,11 +2,11 @@
 action_type: Maneuver
 class: tactician
 cost: 5 Focus
-distance: Ranged 10
+distance: '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 10'
 effect: Each target can make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike).
 flavor: Your allies wait for your command—then unleash death!
 keywords:
-    - Ranged
+    - '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)'
 level: "1"
 name: Now!
 scc: mcdm.heroes.v1/feature.ability.tactician.level-1/now
@@ -17,8 +17,8 @@ type: ability
 
 *Your allies wait for your command—then unleash death!*
 
-| **Ranged**       |        **Maneuver** |
+| **[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)**       |        **Maneuver** |
 |------------------|--------------------:|
-| **📏 Ranged 10** | **🎯 Three allies** |
+| **📏 [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 10** | **🎯 Three allies** |
 
 **Effect:** Each target can make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike).

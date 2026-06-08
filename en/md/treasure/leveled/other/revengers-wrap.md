@@ -20,8 +20,8 @@ type: treasure
 
 **Project Goal:** 450
 
-**1st Level:** While you wear this cloak, any creature who damages you is marked for revenge until the end of your next turn or until another creature damages you. Any strike you make against a creature marked for revenge deals extra damage equal to your highest [characteristic](scc:mcdm.heroes.v1/rule.character/characteristic) score, and whenever you damage a creature marked for revenge, they are also [bleeding](scc:mcdm.heroes.v1/condition/bleeding) until the end of their next turn.
+**1st Level:** While you wear this cloak, any creature who damages you is marked for revenge until the end of your next [turn](scc:mcdm.heroes.v1/rule.combat/turn) or until another creature damages you. Any strike you make against a creature marked for revenge deals extra damage equal to your highest [characteristic](scc:mcdm.heroes.v1/rule.character/characteristic) score, and whenever you damage a creature marked for revenge, they are also [bleeding](scc:mcdm.heroes.v1/condition/bleeding) until the end of their next [turn](scc:mcdm.heroes.v1/rule.combat/turn).
 
-**5th Level:** Each creature who damages you is marked for revenge until the end of your next turn. Whenever you damage a creature marked for revenge, they are also [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends).
+**5th Level:** Each creature who damages you is marked for revenge until the end of your next [turn](scc:mcdm.heroes.v1/rule.combat/turn). Whenever you damage a creature marked for revenge, they are also [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends).
 
 **9th Level:** When you have three or more creatures marked for revenge and you target one of them with an ability that targets only one creature, you target all the creatures marked for revenge, regardless of their [distance](scc:mcdm.heroes.v1/rule.combat/distance) from you and even if you don't have [line of effect](scc:mcdm.heroes.v1/rule.combat/line-of-effect) to them.

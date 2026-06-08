@@ -18,12 +18,12 @@ You can attempt to climb a creature whose [size](scc:mcdm.heroes.v1/rule.charact
 - **12-16:** You fail to climb the creature.
 - **17+:** You climb the creature.
 
-While you climb or ride a creature, you gain an [edge](scc:mcdm.heroes.v1/rule.dice/edge) on melee abilities used against them. The creature can use a maneuver to attempt to knock you off, forcing you to make the following [test](scc:mcdm.heroes.v1/rule.test/test):
+While you climb or ride a creature, you gain an [edge](scc:mcdm.heroes.v1/rule.dice/edge) on [melee](scc:mcdm.heroes.v1/rule.combat/melee) abilities used against them. The creature can use a maneuver to attempt to knock you off, forcing you to make the following [test](scc:mcdm.heroes.v1/rule.test/test):
 
 **[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc:mcdm.heroes.v1/rule.character/might) or [Agility](scc:mcdm.heroes.v1/rule.character/agility):**
 
-- **≤11:** You fall off the creature into an unoccupied adjacent space of your choice, taking falling damage and landing [prone](scc:mcdm.heroes.v1/condition/prone) as usual (see Falling below).
-- **12-16:** You slide down the creature into an unoccupied adjacent space of your choice and don't l[and prone](scc:mcdm.heroes.v1/condition/prone).
+- **≤11:** You fall off the creature into an unoccupied [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) space of your choice, taking falling damage and landing [prone](scc:mcdm.heroes.v1/condition/prone) as usual (see Falling below).
+- **12-16:** You slide down the creature into an unoccupied [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) space of your choice and don't l[and prone](scc:mcdm.heroes.v1/condition/prone).
 - **17+:** You continue to hold on to the creature.
 
-If you are [knocked prone](scc:mcdm.heroes.v1/condition/prone) while climbing or riding a creature, you fall and l[and prone](scc:mcdm.heroes.v1/condition/prone) in an adjacent space of your choice, taking damage as usual from the fall.
+If you are [knocked prone](scc:mcdm.heroes.v1/condition/prone) while climbing or riding a creature, you fall and l[and prone](scc:mcdm.heroes.v1/condition/prone) in an [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) space of your choice, taking damage as usual from the fall.

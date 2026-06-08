@@ -6,7 +6,7 @@ distance: 5 x 1 line within 5
 flavor: You fire a projectile so fast that it passes through a line of foes, hamstringing them.
 keywords:
     - Area
-    - Ranged
+    - '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)'
     - Weapon
 level: "8"
 name: They Always Line Up
@@ -18,7 +18,7 @@ type: ability
 
 *You fire a projectile so fast that it passes through a line of foes, hamstringing them.*
 
-| **Area, Ranged, Weapon**   |               **Main action** |
+| **Area, [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged), Weapon**   |               **Main action** |
 |----------------------------|------------------------------:|
 | **📏 5 x 1 line within 5** | **🎯 Each enemy in the area** |
 

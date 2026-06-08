@@ -1,11 +1,11 @@
 ---
 action_type: Main action
-distance: Melee 1 or ranged 10
-effect: The target takes a [bane](scc:mcdm.heroes.v1/rule.dice/bane) on their next [power roll](scc:mcdm.heroes.v1/rule.dice/power-roll) made before the end of their next turn.
+distance: '[Melee](scc:mcdm.heroes.v1/rule.combat/melee) 1 or [ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 10'
+effect: The target takes a [bane](scc:mcdm.heroes.v1/rule.dice/bane) on their next [power roll](scc:mcdm.heroes.v1/rule.dice/power-roll) made before the end of their next [turn](scc:mcdm.heroes.v1/rule.combat/turn).
 flavor: You execute a brutal strike that leaves your foe reeling. (Previously known as "[Shock and Awe](scc:mcdm.heroes.v1/feature.tactician.level-7/shock-and-awe)")
 keywords:
-    - Melee
-    - Ranged
+    - '[Melee](scc:mcdm.heroes.v1/rule.combat/melee)'
+    - '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)'
     - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
     - Weapon
 kit: raider
@@ -18,9 +18,9 @@ type: ability
 
 *You execute a brutal strike that leaves your foe reeling. (Previously known as "[Shock and Awe](scc:mcdm.heroes.v1/feature.tactician.level-7/shock-and-awe)")*
 
-| **Melee, Ranged, [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** |     **Main action** |
+| **[Melee](scc:mcdm.heroes.v1/rule.combat/melee), [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged), [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** |     **Main action** |
 |-----------------------------------|--------------------:|
-| **📏 Melee 1 or ranged 10**       | **🎯 One creature** |
+| **📏 [Melee](scc:mcdm.heroes.v1/rule.combat/melee) 1 or [ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 10**       | **🎯 One creature** |
 
 **[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc:mcdm.heroes.v1/rule.character/might) or [Agility](scc:mcdm.heroes.v1/rule.character/agility):**
 
@@ -28,4 +28,4 @@ type: ability
 - **12-16:** 6 + M or A damage
 - **17+:** 8 + M or A damage
 
-**Effect:** The target takes a [bane](scc:mcdm.heroes.v1/rule.dice/bane) on their next [power roll](scc:mcdm.heroes.v1/rule.dice/power-roll) made before the end of their next turn.
+**Effect:** The target takes a [bane](scc:mcdm.heroes.v1/rule.dice/bane) on their next [power roll](scc:mcdm.heroes.v1/rule.dice/power-roll) made before the end of their next [turn](scc:mcdm.heroes.v1/rule.combat/turn).

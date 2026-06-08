@@ -1,11 +1,11 @@
 ---
 action_type: Triggered
 class: troubadour
-distance: Ranged 10
+distance: '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 10'
 effect: An [edge](scc:mcdm.heroes.v1/rule.dice/edge) on the triggering roll becomes a [bane](scc:mcdm.heroes.v1/rule.dice/bane), or a double [edge](scc:mcdm.heroes.v1/rule.dice/edge) becomes an [edge](scc:mcdm.heroes.v1/rule.dice/edge). A [bane](scc:mcdm.heroes.v1/rule.dice/bane) becomes an [edge](scc:mcdm.heroes.v1/rule.dice/edge), or a double [bane](scc:mcdm.heroes.v1/rule.dice/bane) becomes a [bane](scc:mcdm.heroes.v1/rule.dice/bane).
 flavor: All's fair in love and whatever.
 keywords:
-    - Ranged
+    - '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)'
 level: "1"
 name: Turnabout Is Fair Play
 scc: mcdm.heroes.v1/feature.ability.troubadour.level-1/turnabout-is-fair-play
@@ -19,9 +19,9 @@ type: ability
 
 *All's fair in love and whatever.*
 
-| **Ranged**       |       **Triggered** |
+| **[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)**       |       **Triggered** |
 |------------------|--------------------:|
-| **📏 Ranged 10** | **🎯 One creature** |
+| **📏 [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 10** | **🎯 One creature** |
 
 **Trigger:** The target makes an [ability roll](scc:mcdm.heroes.v1/rule.dice/ability-roll) that has an [edge](scc:mcdm.heroes.v1/rule.dice/edge), a double [edge](scc:mcdm.heroes.v1/rule.dice/edge), a [bane](scc:mcdm.heroes.v1/rule.dice/bane), or a double [bane](scc:mcdm.heroes.v1/rule.dice/bane).
 

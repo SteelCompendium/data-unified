@@ -2,11 +2,11 @@
 action_type: Free triggered
 class: fury
 cost: 9 Ferocity
-distance: Melee 1
+distance: '[Melee](scc:mcdm.heroes.v1/rule.combat/melee) 1'
 effect: You can spend a [Recovery](scc:mcdm.heroes.v1/rule.health/recoveries).
 flavor: You quickly strike back at a foe.
 keywords:
-    - Melee
+    - '[Melee](scc:mcdm.heroes.v1/rule.combat/melee)'
     - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
     - Weapon
 level: "5"
@@ -21,9 +21,9 @@ type: ability
 
 *You quickly strike back at a foe.*
 
-| **Melee, [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** |             **Free triggered** |
+| **[Melee](scc:mcdm.heroes.v1/rule.combat/melee), [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** |             **Free triggered** |
 |---------------------------|-------------------------------:|
-| **📏 Melee 1**            | **🎯 The triggering creature** |
+| **📏 [Melee](scc:mcdm.heroes.v1/rule.combat/melee) 1**            | **🎯 The triggering creature** |
 
 **Trigger:** A creature causes you to be [winded](scc:mcdm.heroes.v1/rule.health/winded) or [dying](scc:mcdm.heroes.v1/rule.health/dying), or damages you while you are [winded](scc:mcdm.heroes.v1/rule.health/winded) or [dying](scc:mcdm.heroes.v1/rule.health/dying).
 

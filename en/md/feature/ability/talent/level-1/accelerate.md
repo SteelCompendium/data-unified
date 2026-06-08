@@ -1,12 +1,12 @@
 ---
 action_type: Maneuver
 class: talent
-distance: Ranged 10
+distance: '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 10'
 effect: The target shifts up to a number of squares equal to your [Reason](scc:mcdm.heroes.v1/rule.character/reason) score.
 flavor: To your ally, it seems as though the world has slowed down.
 keywords:
     - Psionic
-    - Ranged
+    - '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)'
 level: "1"
 name: Accelerate
 scc: mcdm.heroes.v1/feature.ability.talent.level-1/accelerate
@@ -18,9 +18,9 @@ type: ability
 
 *To your ally, it seems as though the world has slowed down.*
 
-| **Psionic, Ranged** |                **Maneuver** |
+| **Psionic, [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)** |                **Maneuver** |
 |---------------------|----------------------------:|
-| **📏 Ranged 10**    | **🎯 Self or one creature** |
+| **📏 [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 10**    | **🎯 Self or one creature** |
 
 **Effect:** The target shifts up to a number of squares equal to your [Reason](scc:mcdm.heroes.v1/rule.character/reason) score.
 

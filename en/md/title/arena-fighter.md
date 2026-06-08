@@ -12,17 +12,17 @@ type: title
 
 **Effect:** Choose one of the following benefits:
 
-- *Dirty Fighting:* While you are standing, your melee [strikes](scc:mcdm.heroes.v1/rule.combat/strike) gain a +3 damage bonus against [prone creature](scc:mcdm.heroes.v1/condition/prone)s. Additionally, being prone doesn't impose a [bane](scc:mcdm.heroes.v1/rule.dice/bane) on your [strikes](scc:mcdm.heroes.v1/rule.combat/strike).
-- *Foes as Weapons:* Whenever you have a creature of your [size](scc:mcdm.heroes.v1/rule.character/size) or smaller [grabbed](scc:mcdm.heroes.v1/condition/grabbed), you can use them as a weapon when you make a melee weapon free strike. Both the target and the [grabbed](scc:mcdm.heroes.v1/condition/grabbed) enemy take the [strike](scc:mcdm.heroes.v1/rule.combat/strike)'s damage.
+- *Dirty Fighting:* While you are standing, your [melee](scc:mcdm.heroes.v1/rule.combat/melee) [strikes](scc:mcdm.heroes.v1/rule.combat/strike) gain a +3 damage [bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) against [prone creature](scc:mcdm.heroes.v1/condition/prone)s. Additionally, being prone doesn't impose a [bane](scc:mcdm.heroes.v1/rule.dice/bane) on your [strikes](scc:mcdm.heroes.v1/rule.combat/strike).
+- *Foes as Weapons:* Whenever you have a creature of your [size](scc:mcdm.heroes.v1/rule.character/size) or smaller [grabbed](scc:mcdm.heroes.v1/condition/grabbed), you can use them as a weapon when you make a [melee](scc:mcdm.heroes.v1/rule.combat/melee) weapon free strike. Both the target and the [grabbed](scc:mcdm.heroes.v1/condition/grabbed) enemy take the [strike](scc:mcdm.heroes.v1/rule.combat/strike)'s damage.
 - *Instant Celebrity:* You earn 1 [Renown](scc:mcdm.heroes.v1/rule.resource/renown).
 - *Showstopper:* You have the following ability, which can be paid for using the [Heroic Resource](scc:mcdm.heroes.v1/rule.resource/heroic-resource) of your class.
 
 ##### Showstopper (5 Heroic Resource)
 
 >
-> | **Melee, [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** |     **Main action** |
+> | **[Melee](scc:mcdm.heroes.v1/rule.combat/melee), [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** |     **Main action** |
 > |---------------------------|--------------------:|
-> | **📏 Melee 1**            | **🎯 One creature** |
+> | **📏 [Melee](scc:mcdm.heroes.v1/rule.combat/melee) 1**            | **🎯 One creature** |
 >
 > **[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc:mcdm.heroes.v1/rule.character/might) or [Agility](scc:mcdm.heroes.v1/rule.character/agility):**
 >

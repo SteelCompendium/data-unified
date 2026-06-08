@@ -3,7 +3,7 @@ action_type: Maneuver
 class: shadow
 cost: 9 Insight
 distance: 5 [burst](scc:mcdm.heroes.v1/rule.combat/burst)
-effect: Until the start of your next turn, any [ability roll](scc:mcdm.heroes.v1/rule.dice/ability-roll) made against a target gains an [edge](scc:mcdm.heroes.v1/rule.dice/edge).
+effect: Until the start of your next [turn](scc:mcdm.heroes.v1/rule.combat/turn), any [ability roll](scc:mcdm.heroes.v1/rule.dice/ability-roll) made against a target gains an [edge](scc:mcdm.heroes.v1/rule.dice/edge).
 flavor: You distract your foes, allowing your allies to take advantage of that distraction.
 keywords:
     - Area
@@ -22,4 +22,4 @@ type: ability
 |-----------------|------------------------------:|
 | **📏 5 [burst](scc:mcdm.heroes.v1/rule.combat/burst)**  | **🎯 Each enemy in the area** |
 
-**Effect:** Until the start of your next turn, any [ability roll](scc:mcdm.heroes.v1/rule.dice/ability-roll) made against a target gains an [edge](scc:mcdm.heroes.v1/rule.dice/edge).
+**Effect:** Until the start of your next [turn](scc:mcdm.heroes.v1/rule.combat/turn), any [ability roll](scc:mcdm.heroes.v1/rule.dice/ability-roll) made against a target gains an [edge](scc:mcdm.heroes.v1/rule.dice/edge).

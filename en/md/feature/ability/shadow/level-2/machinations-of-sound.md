@@ -8,7 +8,7 @@ flavor: Illusory sounds make your foes reposition themselves as they cower or in
 keywords:
     - Area
     - Magic
-    - Ranged
+    - '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)'
 level: "2"
 name: Machinations of Sound
 scc: mcdm.heroes.v1/feature.ability.shadow.level-2/machinations-of-sound
@@ -19,7 +19,7 @@ type: ability
 
 *Illusory sounds make your foes reposition themselves as they cower or investigate the disturbance.*
 
-| **Area, Magic, Ranged** |                     **Maneuver** |
+| **Area, Magic, [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)** |                     **Maneuver** |
 |-------------------------|---------------------------------:|
 | **📏 3 [cube](scc:mcdm.heroes.v1/rule.combat/cube) within 10** | **🎯 Each creature in the area** |
 

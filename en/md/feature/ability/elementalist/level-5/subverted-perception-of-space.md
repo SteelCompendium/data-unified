@@ -2,11 +2,11 @@
 action_type: Main action
 class: elementalist
 cost: 9 Essence
-distance: Ranged 10
+distance: '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 10'
 flavor: You rip an enemy's world in twain.
 keywords:
     - Magic
-    - Ranged
+    - '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)'
     - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
     - Void
 level: "5"
@@ -19,12 +19,12 @@ type: ability
 
 *You rip an enemy's world in twain.*
 
-| **Magic, Ranged, [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Void** |               **Main action** |
+| **Magic, [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged), [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Void** |               **Main action** |
 |---------------------------------|------------------------------:|
-| **📏 Ranged 10**                | **🎯 One creature or object** |
+| **📏 [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 10**                | **🎯 One creature or object** |
 
 **[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Reason](scc:mcdm.heroes.v1/rule.character/reason):**
 
 - **≤11:** 9 + R corruption damage
-- **12-16:** 10 + R corruption damage; the target has [line of effect](scc:mcdm.heroes.v1/rule.combat/line-of-effect) only to creatures and objects within 4 squares of them until the start of your next turn
-- **17+:** 15 + R corruption damage; the target has [line of effect](scc:mcdm.heroes.v1/rule.combat/line-of-effect) only to adjacent creatures and objects until the start of your next turn
+- **12-16:** 10 + R corruption damage; the target has [line of effect](scc:mcdm.heroes.v1/rule.combat/line-of-effect) only to creatures and objects within 4 squares of them until the start of your next [turn](scc:mcdm.heroes.v1/rule.combat/turn)
+- **17+:** 15 + R corruption damage; the target has [line of effect](scc:mcdm.heroes.v1/rule.combat/line-of-effect) only to [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) creatures and objects until the start of your next [turn](scc:mcdm.heroes.v1/rule.combat/turn)

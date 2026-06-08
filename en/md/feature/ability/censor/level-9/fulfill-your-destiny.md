@@ -2,28 +2,28 @@
 action_type: Triggered
 class: censor
 cost: 11 Wrath
-distance: Ranged 10
-effect: The target takes their turn after the triggering hero, and immediately removes all conditions and negative effects on themself. During their turn, the target has a double [edge](scc:mcdm.heroes.v1/rule.dice/edge) on [power rolls](scc:mcdm.heroes.v1/rule.dice/power-roll).
+distance: '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 10'
+effect: The target takes their [turn](scc:mcdm.heroes.v1/rule.combat/turn) after the triggering hero, and immediately removes all [conditions](scc:mcdm.heroes.v1/rule.combat/condition) and negative effects on themself. During their [turn](scc:mcdm.heroes.v1/rule.combat/turn), the target has a double [edge](scc:mcdm.heroes.v1/rule.dice/edge) on [power rolls](scc:mcdm.heroes.v1/rule.dice/power-roll).
 flavor: You have looked at various futures, and only this one works.
 keywords:
     - Magic
-    - Ranged
+    - '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)'
 level: "9"
 name: Fulfill Your Destiny
 scc: mcdm.heroes.v1/feature.ability.censor.level-9/fulfill-your-destiny
 subtype: triggered
 target: One ally
-trigger: You or another hero ends their turn.
+trigger: You or another hero ends their [turn](scc:mcdm.heroes.v1/rule.combat/turn).
 type: ability
 ---
 
 
 *You have looked at various futures, and only this one works.*
 
-| **Magic, Ranged**  |   **Triggered** |
+| **Magic, [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)**  |   **Triggered** |
 |--------------------|----------------:|
-| **📏 Ranged 10**   | **🎯 One ally** |
+| **📏 [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 10**   | **🎯 One ally** |
 
-**Trigger:** You or another hero ends their turn.
+**Trigger:** You or another hero ends their [turn](scc:mcdm.heroes.v1/rule.combat/turn).
 
-**Effect:** The target takes their turn after the triggering hero, and immediately removes all conditions and negative effects on themself. During their turn, the target has a double [edge](scc:mcdm.heroes.v1/rule.dice/edge) on [power rolls](scc:mcdm.heroes.v1/rule.dice/power-roll).
+**Effect:** The target takes their [turn](scc:mcdm.heroes.v1/rule.combat/turn) after the triggering hero, and immediately removes all [conditions](scc:mcdm.heroes.v1/rule.combat/condition) and negative effects on themself. During their [turn](scc:mcdm.heroes.v1/rule.combat/turn), the target has a double [edge](scc:mcdm.heroes.v1/rule.dice/edge) on [power rolls](scc:mcdm.heroes.v1/rule.dice/power-roll).

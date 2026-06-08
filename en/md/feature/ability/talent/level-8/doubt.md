@@ -2,13 +2,13 @@
 action_type: Main action
 class: talent
 cost: 11 Clarity
-distance: Ranged 10
+distance: '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 10'
 effect: 'This ability gains an [edge](scc:mcdm.heroes.v1/rule.dice/edge) against a target with a soul (see *Draw Steel: Monsters*). After you make the [power roll](scc:mcdm.heroes.v1/rule.dice/power-roll), you or one ally within [distance](scc:mcdm.heroes.v1/rule.combat/distance) have a double [edge](scc:mcdm.heroes.v1/rule.dice/edge) on the next [power roll](scc:mcdm.heroes.v1/rule.dice/power-roll) you make before the end of the encounter.'
 flavor: You tug at the strings of the foe's anima and unravel them, allowing someone else to take advantage of their drive.
 keywords:
     - Animapathy
     - Psionic
-    - Ranged
+    - '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)'
     - Strike
 level: "8"
 name: Doubt
@@ -20,9 +20,9 @@ type: ability
 
 *You tug at the strings of the foe's anima and unravel them, allowing someone else to take advantage of their drive.*
 
-| **Animapathy, Psionic, Ranged**, **Strike** |               **Main action** |
+| **Animapathy, Psionic, [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)**, **Strike** |               **Main action** |
 |---------------------------------------------|------------------------------:|
-| **📏 Ranged 10**                            | **🎯 One creature or object** |
+| **📏 [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 10**                            | **🎯 One creature or object** |
 
 **[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Presence](scc:mcdm.heroes.v1/rule.character/presence):**
 

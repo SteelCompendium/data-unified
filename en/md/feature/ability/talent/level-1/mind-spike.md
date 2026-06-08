@@ -1,11 +1,11 @@
 ---
 action_type: Main action
 class: talent
-distance: Ranged 10
+distance: '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 10'
 flavor: A telepathic bolt instantly zaps a creature's brain.
 keywords:
     - Psionic
-    - Ranged
+    - '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)'
     - Strike
     - Telepathy
 level: "1"
@@ -18,9 +18,9 @@ type: ability
 
 *A telepathic bolt instantly zaps a creature's brain.*
 
-| **Psionic, Ranged**, **Strike, Telepathy** |     **Main action** |
+| **Psionic, [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)**, **Strike, Telepathy** |     **Main action** |
 |--------------------------------------------|--------------------:|
-| **📏 Ranged 10**                           | **🎯 One creature** |
+| **📏 [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 10**                           | **🎯 One creature** |
 
 **[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Reason](scc:mcdm.heroes.v1/rule.character/reason):**
 

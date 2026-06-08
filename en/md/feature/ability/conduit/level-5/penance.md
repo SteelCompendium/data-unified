@@ -7,7 +7,7 @@ flavor: '"If you won''t kneel, the gods will make you."'
 keywords:
     - Area
     - Magic
-    - Ranged
+    - '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)'
 level: "5"
 name: Penance
 scc: mcdm.heroes.v1/feature.ability.conduit.level-5/penance
@@ -18,7 +18,7 @@ type: ability
 
 *"If you won't kneel, the gods will make you."*
 
-| **Area, Magic, Ranged**  |               **Main action** |
+| **Area, Magic, [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)**  |               **Main action** |
 |--------------------------|------------------------------:|
 | **📏 4 [cube](scc:mcdm.heroes.v1/rule.combat/cube) within 10**  | **🎯 Each enemy in the area** |
 

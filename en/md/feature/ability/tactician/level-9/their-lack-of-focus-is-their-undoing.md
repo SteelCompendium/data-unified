@@ -2,12 +2,12 @@
 action_type: Main action
 class: tactician
 cost: 11 Focus
-distance: Ranged 10
+distance: '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 10'
 effect: Each target uses a [signature ability](scc:mcdm.heroes.v1/rule.combat/signature-ability) against one or more targets of your choosing, with each ability automatically obtaining a tier 3 outcome on the [power roll](scc:mcdm.heroes.v1/rule.dice/power-roll). After resolving the targets' abilities, you make a [power roll](scc:mcdm.heroes.v1/rule.dice/power-roll) against each original target.
 flavor: You trick your enemies into attacking each other and leave them confused by the aftermath.
 keywords:
     - Magic
-    - Ranged
+    - '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)'
     - Weapon
 level: "9"
 name: Their Lack of Focus Is Their Undoing
@@ -19,9 +19,9 @@ type: ability
 
 *You trick your enemies into attacking each other and leave them confused by the aftermath.*
 
-| **Magic, Ranged, Weapon** |      **Main action** |
+| **Magic, [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged), Weapon** |      **Main action** |
 |---------------------------|---------------------:|
-| **📏 Ranged 10**          | **🎯 Three enemies** |
+| **📏 [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 10**          | **🎯 Three enemies** |
 
 **Effect:** Each target uses a [signature ability](scc:mcdm.heroes.v1/rule.combat/signature-ability) against one or more targets of your choosing, with each ability automatically obtaining a tier 3 outcome on the [power roll](scc:mcdm.heroes.v1/rule.dice/power-roll). After resolving the targets' abilities, you make a [power roll](scc:mcdm.heroes.v1/rule.dice/power-roll) against each original target.
 

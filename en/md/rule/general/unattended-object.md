@@ -11,4 +11,4 @@ Mundane objects in the game have [Stamina](scc:mcdm.heroes.v1/rule.health/stamin
 - Stone: 6 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina)
 - Metal: 9 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina)
 
-The Director can decide that a well-made or poorly made object has more or less [Stamina](scc:mcdm.heroes.v1/rule.health/stamina). Destroying a supernatural object often (but not always) requires a specific quest, such as throwing a magic ring back into the volcano where it was forged.
+The Director can decide that a well-made or poorly made object has more or less [Stamina](scc:mcdm.heroes.v1/rule.health/stamina). Destroying a [supernatural](scc:mcdm.heroes.v1/rule.general/supernatural) object often (but not always) requires a specific quest, such as throwing a magic ring back into the volcano where it was forged.

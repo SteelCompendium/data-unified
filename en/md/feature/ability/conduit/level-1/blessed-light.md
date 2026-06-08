@@ -1,12 +1,12 @@
 ---
 action_type: Main action
 class: conduit
-distance: Ranged 10
+distance: '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 10'
 effect: One ally within [distance](scc:mcdm.heroes.v1/rule.combat/distance) gains a number of [surges](scc:mcdm.heroes.v1/rule.resource/surge) equal to the [tier outcome](scc:mcdm.heroes.v1/rule.dice/tier-outcome) of your [power roll](scc:mcdm.heroes.v1/rule.dice/power-roll).
 flavor: Burning radiance falls upon your foe, transferring some of their energy to a nearby ally.
 keywords:
     - Magic
-    - Ranged
+    - '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)'
     - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
 level: "1"
 name: Blessed Light
@@ -19,9 +19,9 @@ type: ability
 
 *Burning radiance falls upon your foe, transferring some of their energy to a nearby ally.*
 
-| **Magic, Ranged, [Strike](scc:mcdm.heroes.v1/rule.combat/strike)** |               **Main action** |
+| **Magic, [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged), [Strike](scc:mcdm.heroes.v1/rule.combat/strike)** |               **Main action** |
 |---------------------------|------------------------------:|
-| **📏 Ranged 10**          | **🎯 One creature or object** |
+| **📏 [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 10**          | **🎯 One creature or object** |
 
 **[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Intuition](scc:mcdm.heroes.v1/rule.character/intuition):**
 

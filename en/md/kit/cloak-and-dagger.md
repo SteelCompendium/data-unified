@@ -1,9 +1,6 @@
 ---
-disengage_bonus: "+1"
 equipment_text: You wear light armor and wield one or two light weapons.
-melee_damage_bonus: +1/+1/+1
 name: Cloak and Dagger
-ranged_damage_bonus: +1/+1/+1
 scc: mcdm.heroes.v1/kit/cloak-and-dagger
 type: kit
 ---
@@ -16,17 +13,17 @@ You wear light armor and wield one or two light weapons.
 
 ##### Kit Bonuses
 
-**[Stamina](scc:mcdm.heroes.v1/rule.health/stamina) Bonus:** +3 per [echelon](scc:mcdm.heroes.v1/rule.general/echelon)
+**[Stamina](scc:mcdm.heroes.v1/rule.health/stamina) [Bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties):** +3 per [echelon](scc:mcdm.heroes.v1/rule.general/echelon)
 
-**[Speed](scc:mcdm.heroes.v1/rule.character/speed) Bonus:** +2
+**[Speed](scc:mcdm.heroes.v1/rule.character/speed) [Bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties):** +2
 
-**Melee Damage Bonus:** +1/+1/+1
+**[Melee](scc:mcdm.heroes.v1/rule.combat/melee) Damage [Bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties):** +1/+1/+1
 
-**Ranged Damage Bonus:** +1/+1/+1
+**[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged) Damage [Bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties):** +1/+1/+1
 
-**Ranged [Distance](scc:mcdm.heroes.v1/rule.combat/distance) Bonus:** +5
+**[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged) [Distance](scc:mcdm.heroes.v1/rule.combat/distance) [Bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties):** +5
 
-**Disengage Bonus:** +1
+**Disengage [Bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties):** +1
 
 ##### Signature Ability
 
@@ -34,9 +31,9 @@ You wear light armor and wield one or two light weapons.
 
 *A stab, and a few quick, careful steps back.*
 
-| **Melee, Ranged, [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** |     **Main action** |
+| **[Melee](scc:mcdm.heroes.v1/rule.combat/melee), [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged), [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** |     **Main action** |
 |-----------------------------------|--------------------:|
-| **📏 Melee 1 or ranged 10**       | **🎯 One creature** |
+| **📏 [Melee](scc:mcdm.heroes.v1/rule.combat/melee) 1 or [ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 10**       | **🎯 One creature** |
 
 **[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc:mcdm.heroes.v1/rule.character/might) or [Agility](scc:mcdm.heroes.v1/rule.character/agility):**
 

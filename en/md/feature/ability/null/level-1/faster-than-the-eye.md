@@ -1,11 +1,11 @@
 ---
 action_type: Main action
 class: "null"
-distance: Melee 1
-effect: You can deal damage equal to your [Agility](scc:mcdm.heroes.v1/rule.character/agility) score to one creature or object adjacent to you.
+distance: '[Melee](scc:mcdm.heroes.v1/rule.combat/melee) 1'
+effect: You can deal damage equal to your [Agility](scc:mcdm.heroes.v1/rule.character/agility) score to one creature or object [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to you.
 flavor: You strike so quickly that your hands become a blur.
 keywords:
-    - Melee
+    - '[Melee](scc:mcdm.heroes.v1/rule.combat/melee)'
     - Psionic
     - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
     - Weapon
@@ -20,9 +20,9 @@ type: ability
 
 *You strike so quickly that your hands become a blur.*
 
-| **Melee, Psionic, [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** |                 **Main action** |
+| **[Melee](scc:mcdm.heroes.v1/rule.combat/melee), Psionic, [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** |                 **Main action** |
 |------------------------------------|--------------------------------:|
-| **📏 Melee 1**                     | **🎯 Two creatures or objects** |
+| **📏 [Melee](scc:mcdm.heroes.v1/rule.combat/melee) 1**                     | **🎯 Two creatures or objects** |
 
 **[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Agility](scc:mcdm.heroes.v1/rule.character/agility):**
 
@@ -30,4 +30,4 @@ type: ability
 - **12-16:** 5 damage
 - **17+:** 7 damage
 
-**Effect:** You can deal damage equal to your [Agility](scc:mcdm.heroes.v1/rule.character/agility) score to one creature or object adjacent to you.
+**Effect:** You can deal damage equal to your [Agility](scc:mcdm.heroes.v1/rule.character/agility) score to one creature or object [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to you.

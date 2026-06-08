@@ -3,7 +3,7 @@ action_type: Main action
 class: troubadour
 cost: 5 Drama
 distance: Special
-effect: You use an ability that you have observed being used this combat round. The ability must have the [Strike](scc:mcdm.heroes.v1/rule.combat/strike) keyword, cost 5 or fewer of a [Heroic Resource](scc:mcdm.heroes.v1/rule.resource/heroic-resource), and cost no Malice. When you make the [strike](scc:mcdm.heroes.v1/rule.combat/strike), you use your [Presence](scc:mcdm.heroes.v1/rule.character/presence) score for any [power rolls](scc:mcdm.heroes.v1/rule.dice/power-roll), and any damage you deal is sonic damage.
+effect: You use an ability that you have observed being used this [combat round](scc:mcdm.heroes.v1/rule.combat/combat-round). The ability must have the [Strike](scc:mcdm.heroes.v1/rule.combat/strike) keyword, cost 5 or fewer of a [Heroic Resource](scc:mcdm.heroes.v1/rule.resource/heroic-resource), and cost no Malice. When you make the [strike](scc:mcdm.heroes.v1/rule.combat/strike), you use your [Presence](scc:mcdm.heroes.v1/rule.character/presence) score for any [power rolls](scc:mcdm.heroes.v1/rule.dice/power-roll), and any damage you deal is sonic damage.
 flavor: Again! Again!
 keywords:
     - Magic
@@ -22,4 +22,4 @@ type: ability
 |-------------------|----------------:|
 | **📏 Special**    |  **🎯 Special** |
 
-**Effect:** You use an ability that you have observed being used this combat round. The ability must have the [Strike](scc:mcdm.heroes.v1/rule.combat/strike) keyword, cost 5 or fewer of a [Heroic Resource](scc:mcdm.heroes.v1/rule.resource/heroic-resource), and cost no Malice. When you make the [strike](scc:mcdm.heroes.v1/rule.combat/strike), you use your [Presence](scc:mcdm.heroes.v1/rule.character/presence) score for any [power rolls](scc:mcdm.heroes.v1/rule.dice/power-roll), and any damage you deal is sonic damage.
+**Effect:** You use an ability that you have observed being used this [combat round](scc:mcdm.heroes.v1/rule.combat/combat-round). The ability must have the [Strike](scc:mcdm.heroes.v1/rule.combat/strike) keyword, cost 5 or fewer of a [Heroic Resource](scc:mcdm.heroes.v1/rule.resource/heroic-resource), and cost no Malice. When you make the [strike](scc:mcdm.heroes.v1/rule.combat/strike), you use your [Presence](scc:mcdm.heroes.v1/rule.character/presence) score for any [power rolls](scc:mcdm.heroes.v1/rule.dice/power-roll), and any damage you deal is sonic damage.

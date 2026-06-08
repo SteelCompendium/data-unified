@@ -10,9 +10,9 @@ As your mastery of your body and tradition grows, it imbues you with a [Heroic R
 
 ##### Discipline in Combat
 
-At the start of a combat encounter or some other stressful situation tracked in combat rounds (as determined by the Director), you gain discipline equal to your [Victories](scc:mcdm.heroes.v1/rule.resource/victories). At the start of each of your turns during combat, you gain 2 discipline.
+At the start of a combat encounter or some other stressful situation tracked in [combat rounds](scc:mcdm.heroes.v1/rule.combat/combat-round) (as determined by the Director), you gain discipline equal to your [Victories](scc:mcdm.heroes.v1/rule.resource/victories). At the start of each of your [turns](scc:mcdm.heroes.v1/rule.combat/turn) during combat, you gain 2 discipline.
 
-Additionally, the first time each combat round that an enemy in the area of your [Null Field](scc:mcdm.heroes.v1/feature.null.level-1/null-field) ability (see below) uses a main action, you gain 1 discipline. The first time each combat round that the Director uses an ability that costs Malice (see *Draw Steel: Monsters*), you gain 1 discipline.
+Additionally, the first time each [combat round](scc:mcdm.heroes.v1/rule.combat/combat-round) that an enemy in the area of your [Null Field](scc:mcdm.heroes.v1/feature.null.level-1/null-field) ability (see below) uses a main action, you gain 1 discipline. The first time each [combat round](scc:mcdm.heroes.v1/rule.combat/combat-round) that the Director uses an ability that costs Malice (see *Draw Steel: Monsters*), you gain 1 discipline.
 
 You lose any remaining discipline at the end of the encounter.
 

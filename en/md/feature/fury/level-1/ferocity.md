@@ -14,9 +14,9 @@ Within the heat of battle, your determination and anger grow, fueling a [Heroic 
 
 ##### Ferocity in Combat
 
-At the start of a combat encounter or some other stressful situation tracked in combat rounds (as determined by the Director), you gain ferocity equal to your [Victories](scc:mcdm.heroes.v1/rule.resource/victories). At the start of each of your turns during combat, you gain 1d3 ferocity.
+At the start of a combat encounter or some other stressful situation tracked in [combat rounds](scc:mcdm.heroes.v1/rule.combat/combat-round) (as determined by the Director), you gain ferocity equal to your [Victories](scc:mcdm.heroes.v1/rule.resource/victories). At the start of each of your [turns](scc:mcdm.heroes.v1/rule.combat/turn) during combat, you gain 1d3 ferocity.
 
-Additionally, the first time each combat round that you take damage, you gain 1 ferocity. The first time you become [winded](scc:mcdm.heroes.v1/rule.health/winded) or are [dying](scc:mcdm.heroes.v1/rule.health/dying) in an encounter, you gain 1d3 ferocity.
+Additionally, the first time each [combat round](scc:mcdm.heroes.v1/rule.combat/combat-round) that you take damage, you gain 1 ferocity. The first time you become [winded](scc:mcdm.heroes.v1/rule.health/winded) or are [dying](scc:mcdm.heroes.v1/rule.health/dying) in an encounter, you gain 1d3 ferocity.
 
 You lose any remaining ferocity at the end of the encounter.
 

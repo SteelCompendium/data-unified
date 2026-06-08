@@ -2,11 +2,11 @@
 action_type: Main action
 class: fury
 cost: 3 Ferocity
-distance: Melee 1
-effect: While [bleeding](scc:mcdm.heroes.v1/condition/bleeding) this way, the target takes damage equal to your [Might](scc:mcdm.heroes.v1/rule.character/might) score at the end of each of your turns.
+distance: '[Melee](scc:mcdm.heroes.v1/rule.combat/melee) 1'
+effect: While [bleeding](scc:mcdm.heroes.v1/condition/bleeding) this way, the target takes damage equal to your [Might](scc:mcdm.heroes.v1/rule.character/might) score at the end of each of your [turns](scc:mcdm.heroes.v1/rule.combat/turn).
 flavor: Hard for them to fight when they're busy holding in their giblets.
 keywords:
-    - Melee
+    - '[Melee](scc:mcdm.heroes.v1/rule.combat/melee)'
     - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
     - Weapon
 level: "1"
@@ -19,9 +19,9 @@ type: ability
 
 *Hard for them to fight when they're busy holding in their giblets.*
 
-| **Melee, [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** |               **Main action** |
+| **[Melee](scc:mcdm.heroes.v1/rule.combat/melee), [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** |               **Main action** |
 |---------------------------|------------------------------:|
-| **📏 Melee 1**            | **🎯 One creature or object** |
+| **📏 [Melee](scc:mcdm.heroes.v1/rule.combat/melee) 1**            | **🎯 One creature or object** |
 
 **[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc:mcdm.heroes.v1/rule.character/might):**
 
@@ -29,4 +29,4 @@ type: ability
 - **12-16:** 5 + M damage; M < AVERAGE, [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
 - **17+:** 8 + M damage; M < STRONG, [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
 
-**Effect:** While [bleeding](scc:mcdm.heroes.v1/condition/bleeding) this way, the target takes damage equal to your [Might](scc:mcdm.heroes.v1/rule.character/might) score at the end of each of your turns.
+**Effect:** While [bleeding](scc:mcdm.heroes.v1/condition/bleeding) this way, the target takes damage equal to your [Might](scc:mcdm.heroes.v1/rule.character/might) score at the end of each of your [turns](scc:mcdm.heroes.v1/rule.combat/turn).

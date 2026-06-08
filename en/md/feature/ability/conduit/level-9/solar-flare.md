@@ -7,7 +7,7 @@ flavor: You call down a sphere of fire that burns your foes to ash.
 keywords:
     - Area
     - Magic
-    - Ranged
+    - '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)'
 level: "9"
 name: Solar Flare
 scc: mcdm.heroes.v1/feature.ability.conduit.level-9/solar-flare
@@ -18,7 +18,7 @@ type: ability
 
 *You call down a sphere of fire that burns your foes to ash.*
 
-| **Area, Magic, Ranged** |               **Main action** |
+| **Area, Magic, [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)** |               **Main action** |
 |-------------------------|------------------------------:|
 | **📏 5 [cube](scc:mcdm.heroes.v1/rule.combat/cube) within 10** | **🎯 Each enemy in the area** |
 

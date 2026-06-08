@@ -8,7 +8,7 @@ flavor: You summon your [primordial storm](scc:mcdm.heroes.v1/feature.fury.storm
 keywords:
     - Area
     - Magic
-    - Ranged
+    - '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)'
 level: "9"
 name: Deluge
 scc: mcdm.heroes.v1/feature.ability.fury.level-9/deluge
@@ -19,7 +19,7 @@ type: ability
 
 *You summon your [primordial storm](scc:mcdm.heroes.v1/feature.fury.stormwight-kits/primordial-storm).*
 
-| **Area, Magic, Ranged** |               **Main action** |
+| **Area, Magic, [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)** |               **Main action** |
 |-------------------------|------------------------------:|
 | **📏 5 [cube](scc:mcdm.heroes.v1/rule.combat/cube) within 10** | **🎯 Each enemy in the area** |
 

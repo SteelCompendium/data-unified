@@ -2,11 +2,11 @@
 action_type: Main action
 class: conduit
 cost: 9 Piety
-distance: Ranged 5
+distance: '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 5'
 flavor: A greatsword streams down from the sky, threatening to pin your foe.
 keywords:
     - Magic
-    - Ranged
+    - '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)'
     - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
 level: "6"
 name: Blade of the Heavens
@@ -18,9 +18,9 @@ type: ability
 
 *A greatsword streams down from the sky, threatening to pin your foe.*
 
-| **Magic, Ranged, [Strike](scc:mcdm.heroes.v1/rule.combat/strike)**  |     **Main action** |
+| **Magic, [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged), [Strike](scc:mcdm.heroes.v1/rule.combat/strike)**  |     **Main action** |
 |----------------------------|--------------------:|
-| **📏 Ranged 5**            | **🎯 One creature** |
+| **📏 [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 5**            | **🎯 One creature** |
 
 **[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Intuition](scc:mcdm.heroes.v1/rule.character/intuition):**
 

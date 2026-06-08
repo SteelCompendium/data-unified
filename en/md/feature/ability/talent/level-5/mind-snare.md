@@ -2,12 +2,12 @@
 action_type: Main action
 class: talent
 cost: 9 Clarity
-distance: Ranged 10
+distance: '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 10'
 effect: While [slowed](scc:mcdm.heroes.v1/condition/slowed) this way, the target takes 3 psychic damage for each square they willingly leave.
 flavor: You latch onto your prey's brain and don't let go, like a song they can't get out of their head.
 keywords:
     - Psionic
-    - Ranged
+    - '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)'
     - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
     - Telepathy
 level: "5"
@@ -20,9 +20,9 @@ type: ability
 
 *You latch onto your prey's brain and don't let go, like a song they can't get out of their head.*
 
-| **Psionic, Ranged, [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Telepathy** |     **Main action** |
+| **Psionic, [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged), [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Telepathy** |     **Main action** |
 |----------------------------------------|--------------------:|
-| **📏 Ranged 10**                       | **🎯 One creature** |
+| **📏 [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 10**                       | **🎯 One creature** |
 
 **[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Reason](scc:mcdm.heroes.v1/rule.character/reason):**
 

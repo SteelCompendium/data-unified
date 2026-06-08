@@ -2,11 +2,11 @@
 action_type: Main action
 class: censor
 cost: 9 Wrath
-distance: Melee 1
+distance: '[Melee](scc:mcdm.heroes.v1/rule.combat/melee) 1'
 effect: Each ally can [shift](scc:mcdm.heroes.v1/movement/shifting) up to 2 squares and gains 2 [surges](scc:mcdm.heroes.v1/rule.resource/surge) before making the [strike](scc:mcdm.heroes.v1/rule.combat/strike).
 flavor: You focus your allies' wrath on a chosen foe.
 keywords:
-    - Melee
+    - '[Melee](scc:mcdm.heroes.v1/rule.combat/melee)'
     - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
     - Weapon
 level: "6"
@@ -19,9 +19,9 @@ type: ability
 
 *You focus your allies' wrath on a chosen foe.*
 
-| **Melee, [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** |   **Main action** |
+| **[Melee](scc:mcdm.heroes.v1/rule.combat/melee), [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** |   **Main action** |
 |---------------------------|------------------:|
-| **📏 Melee 1**            | **🎯 One creature** |
+| **📏 [Melee](scc:mcdm.heroes.v1/rule.combat/melee) 1**            | **🎯 One creature** |
 
 **[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc:mcdm.heroes.v1/rule.character/might):**
 

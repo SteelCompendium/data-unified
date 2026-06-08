@@ -4,4 +4,4 @@ scc: mcdm.heroes.v1/skill/fletching
 type: skill
 ---
 
-Make ranged weapons and ammunition.
+Make [ranged](scc:mcdm.heroes.v1/rule.combat/ranged) weapons and ammunition.

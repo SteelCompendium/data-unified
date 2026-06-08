@@ -10,9 +10,9 @@ You channel the substance of creation in the form of a [Heroic Resource](scc:mcd
 
 ##### Essence in Combat
 
-At the start of a combat encounter or some other stressful situation tracked in combat rounds (as determined by the Director), you gain essence equal to your [Victories](scc:mcdm.heroes.v1/rule.resource/victories). At the start of each of your turns during combat, you gain 2 essence.
+At the start of a combat encounter or some other stressful situation tracked in [combat rounds](scc:mcdm.heroes.v1/rule.combat/combat-round) (as determined by the Director), you gain essence equal to your [Victories](scc:mcdm.heroes.v1/rule.resource/victories). At the start of each of your [turns](scc:mcdm.heroes.v1/rule.combat/turn) during combat, you gain 2 essence.
 
-Additionally, the first time each combat round that you or a creature within 10 squares takes damage that isn't untyped or holy damage, you gain 1 essence.
+Additionally, the first time each [combat round](scc:mcdm.heroes.v1/rule.combat/combat-round) that you or a creature within 10 squares takes damage that isn't untyped or holy damage, you gain 1 essence.
 
 You lose any remaining essence at the end of the encounter.
 

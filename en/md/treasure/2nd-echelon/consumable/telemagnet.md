@@ -27,4 +27,4 @@ type: treasure
 - **[Size](scc:mcdm.heroes.v1/rule.character/size) 2:** vertical pull 3
 - **[Size](scc:mcdm.heroes.v1/rule.character/size) 3:** vertical pull 1
 
-If you pull a [size](scc:mcdm.heroes.v1/rule.character/size) 1T object adjacent to you, you can catch it. This treasure can affect any target within [line of effect](scc:mcdm.heroes.v1/rule.combat/line-of-effect).
+If you pull a [size](scc:mcdm.heroes.v1/rule.character/size) 1T object [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to you, you can catch it. This treasure can affect any target within [line of effect](scc:mcdm.heroes.v1/rule.combat/line-of-effect).

@@ -1,11 +1,11 @@
 ---
 action_type: Main action
 class: tactician
-distance: Ranged 10
+distance: '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 10'
 effect: The target can use a [signature ability](scc:mcdm.heroes.v1/rule.combat/signature-ability) as a free [triggered action](scc:mcdm.heroes.v1/rule.combat/triggered-action).
 flavor: Your foe left an opening. You point this out to an ally!
 keywords:
-    - Ranged
+    - '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)'
 level: "1"
 name: '"Strike Now!"'
 scc: mcdm.heroes.v1/feature.ability.tactician.level-1/strike-now
@@ -17,9 +17,9 @@ type: ability
 
 *Your foe left an opening. You point this out to an ally!*
 
-| **Ranged** | **Main action** |
+| **[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)** | **Main action** |
 | ---------------------------------------|----------------:|
-| **📏 Ranged 10**  | **🎯 One ally** |
+| **📏 [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 10**  | **🎯 One ally** |
 
 **Effect:** The target can use a [signature ability](scc:mcdm.heroes.v1/rule.combat/signature-ability) as a free [triggered action](scc:mcdm.heroes.v1/rule.combat/triggered-action).
 

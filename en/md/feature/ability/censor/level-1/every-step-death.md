@@ -1,12 +1,12 @@
 ---
 action_type: Main action
 class: censor
-distance: Ranged 10
-effect: Each time the target willingly moves before the end of your next turn, they take 1 psychic damage for each square they move.
+distance: '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 10'
+effect: Each time the target willingly moves before the end of your next [turn](scc:mcdm.heroes.v1/rule.combat/turn), they take 1 psychic damage for each square they move.
 flavor: You show your foe a glimpse of their fate after death.
 keywords:
     - Magic
-    - Ranged
+    - '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)'
     - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
 level: "1"
 name: Every Step... Death!
@@ -19,9 +19,9 @@ type: ability
 
 *You show your foe a glimpse of their fate after death.*
 
-| **Magic, Ranged, [Strike](scc:mcdm.heroes.v1/rule.combat/strike)** |               **Main action** |
+| **Magic, [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged), [Strike](scc:mcdm.heroes.v1/rule.combat/strike)** |               **Main action** |
 |---------------------------|------------------------------:|
-| **📏 Ranged 10**          |           **🎯 One creature** |
+| **📏 [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 10**          |           **🎯 One creature** |
 
 **[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Presence](scc:mcdm.heroes.v1/rule.character/presence):**
 
@@ -29,4 +29,4 @@ type: ability
 - **12-16:** 7 + P psychic damage
 - **17+:** 10 + P psychic damage
 
-**Effect:** Each time the target willingly moves before the end of your next turn, they take 1 psychic damage for each square they move.
+**Effect:** Each time the target willingly moves before the end of your next [turn](scc:mcdm.heroes.v1/rule.combat/turn), they take 1 psychic damage for each square they move.

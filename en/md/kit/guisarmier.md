@@ -1,6 +1,5 @@
 ---
 equipment_text: You wear medium armor and wield a polearm.
-melee_damage_bonus: +2/+2/+2
 name: Guisarmier
 scc: mcdm.heroes.v1/kit/guisarmier
 type: kit
@@ -14,13 +13,13 @@ You wear medium armor and wield a polearm.
 
 ##### Kit Bonuses
 
-**[Stamina](scc:mcdm.heroes.v1/rule.health/stamina) Bonus:** +6 per [echelon](scc:mcdm.heroes.v1/rule.general/echelon)
+**[Stamina](scc:mcdm.heroes.v1/rule.health/stamina) [Bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties):** +6 per [echelon](scc:mcdm.heroes.v1/rule.general/echelon)
 
-**[Stability](scc:mcdm.heroes.v1/rule.character/stability) Bonus:** +1
+**[Stability](scc:mcdm.heroes.v1/rule.character/stability) [Bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties):** +1
 
-**Melee Damage Bonus:** +2/+2/+2
+**[Melee](scc:mcdm.heroes.v1/rule.combat/melee) Damage [Bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties):** +2/+2/+2
 
-**Melee [Distance](scc:mcdm.heroes.v1/rule.combat/distance) Bonus:** +1
+**[Melee](scc:mcdm.heroes.v1/rule.combat/melee) [Distance](scc:mcdm.heroes.v1/rule.combat/distance) [Bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties):** +1
 
 ##### Signature Ability
 
@@ -28,9 +27,9 @@ You wear medium armor and wield a polearm.
 
 *In your hands, the haft is as good as the head.*
 
-| **Melee, [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** |                 **Main action** |
+| **[Melee](scc:mcdm.heroes.v1/rule.combat/melee), [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** |                 **Main action** |
 |---------------------------|--------------------------------:|
-| **📏 Melee 2**            | **🎯 Two creatures or objects** |
+| **📏 [Melee](scc:mcdm.heroes.v1/rule.combat/melee) 2**            | **🎯 Two creatures or objects** |
 
 **[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc:mcdm.heroes.v1/rule.character/might) or [Agility](scc:mcdm.heroes.v1/rule.character/agility):**
 

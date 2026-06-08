@@ -7,8 +7,8 @@ effect: You use a [strike](scc:mcdm.heroes.v1/rule.combat/strike) [signature abi
 flavor: They have no idea what the college taught you.
 keywords:
     - Magic
-    - Melee
-    - Ranged
+    - '[Melee](scc:mcdm.heroes.v1/rule.combat/melee)'
+    - '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)'
 level: "1"
 name: Shadowstrike
 scc: mcdm.heroes.v1/feature.ability.shadow.level-1/shadowstrike
@@ -19,7 +19,7 @@ type: ability
 
 *They have no idea what the college taught you.*
 
-| **Magic, Melee, Ranged** | **Main action** |
+| **Magic, [Melee](scc:mcdm.heroes.v1/rule.combat/melee), [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)** | **Main action** |
 |------------------------|----------------:|
 | **📏 Self; see below** |     **🎯 Self** |
 

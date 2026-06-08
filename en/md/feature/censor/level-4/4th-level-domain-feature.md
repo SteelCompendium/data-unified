@@ -15,7 +15,7 @@ You gain a domain feature from your domain, as shown on the 4th-Level [Censor](s
 | Creation                         | [Improved Hands of the Maker](scc:mcdm.heroes.v1/feature.censor.level-4/improved-hands-of-the-maker) |
 | Death                            | [Seance](scc:mcdm.heroes.v1/feature.censor.level-4/seance)                      |
 | Fate                             | [Oracular Warning](scc:mcdm.heroes.v1/feature.censor.level-4/oracular-warning)            |
-| Knowledge                        | Saint's Epiphany            |
+| Knowledge                        | [Saint](scc:mcdm.heroes.v1/rule.world/saint)'s Epiphany            |
 | Life                             | [Blessing of Life](scc:mcdm.heroes.v1/feature.censor.level-4/blessing-of-life)            |
 | Love                             | [Invocation of the Heart](scc:mcdm.heroes.v1/feature.censor.level-4/invocation-of-the-heart)     |
 | Nature                           | [Wode Road](scc:mcdm.heroes.v1/feature.censor.level-4/wode-road)                   |

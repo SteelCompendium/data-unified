@@ -3,12 +3,12 @@ action_type: Main action
 class: troubadour
 cost: 5 Drama
 distance: 3 [cube](scc:mcdm.heroes.v1/rule.combat/cube) within 10
-effect: The area is haunted by a swirling horde of phantoms until the end of the encounter. Allies can enter any square of the area without spending movement. At the end of each of your turns, you can make one [power roll](scc:mcdm.heroes.v1/rule.dice/power-roll) that targets each enemy in the area.
+effect: The area is haunted by a swirling horde of phantoms until the end of the encounter. Allies can enter any square of the area without spending movement. At the end of each of your [turns](scc:mcdm.heroes.v1/rule.combat/turn), you can make one [power roll](scc:mcdm.heroes.v1/rule.dice/power-roll) that targets each enemy in the area.
 flavor: Your fans don't seem to like the opening act...
 keywords:
     - Area
     - Magic
-    - Ranged
+    - '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)'
 level: "2"
 name: Tough Crowd
 scc: mcdm.heroes.v1/feature.ability.troubadour.level-2/tough-crowd
@@ -19,11 +19,11 @@ type: ability
 
 *Your fans don't seem to like the opening act...*
 
-| **Area, Magic, Ranged** | **Main action** |
+| **Area, Magic, [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)** | **Main action** |
 |-------------------------|----------------:|
 | **📏 3 [cube](scc:mcdm.heroes.v1/rule.combat/cube) within 10** |  **🎯 Special** |
 
-**Effect:** The area is haunted by a swirling horde of phantoms until the end of the encounter. Allies can enter any square of the area without spending movement. At the end of each of your turns, you can make one [power roll](scc:mcdm.heroes.v1/rule.dice/power-roll) that targets each enemy in the area.
+**Effect:** The area is haunted by a swirling horde of phantoms until the end of the encounter. Allies can enter any square of the area without spending movement. At the end of each of your [turns](scc:mcdm.heroes.v1/rule.combat/turn), you can make one [power roll](scc:mcdm.heroes.v1/rule.dice/power-roll) that targets each enemy in the area.
 
 **[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Presence](scc:mcdm.heroes.v1/rule.character/presence):**
 

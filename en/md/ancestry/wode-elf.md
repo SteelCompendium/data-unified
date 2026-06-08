@@ -77,9 +77,9 @@ Llyander turned and marched off. "Come!" they called. The children ran to catch 
 
 "Where are we going?" Wenna asked.
 
-"I enjoy the favor of Lord Tear," Llyander said. "We are old friends. With me as your guide, he will treat you well—likely bestow favor upon you! You should be in anticipation of great treasure." They smiled.
+"I enjoy the favor of Lord Tear," Llyander said. "We are old friends. With me as your [guide](scc:mcdm.heroes.v1/rule.downtime/guide), he will treat you well—likely bestow favor upon you! You should be in anticipation of great treasure." They smiled.
 
-The elf stopped suddenly and spun toward them, serious but kindly. They pointed to each of the children in turn.
+The elf stopped suddenly and spun toward them, serious but kindly. They pointed to each of the children in [turn](scc:mcdm.heroes.v1/rule.combat/turn).
 
 "I will instruct you on the proper etiquette, but remember this: Lord Tear will [test](scc:mcdm.heroes.v1/rule.test/test) us. Some [tests](scc:mcdm.heroes.v1/rule.test/test) for you and some for me. The [high elves](scc:mcdm.heroes.v1/ancestry/high-elf) and the [wode elves](scc:mcdm.heroes.v1/ancestry/wode-elf) are but distant cousins. You will hear much that is polite, much that is flattering, but it is all another kind of glamor. It hides deep tensions, recently exacerbated by the treaty with Ajax."
 

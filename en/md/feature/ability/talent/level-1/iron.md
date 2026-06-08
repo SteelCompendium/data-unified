@@ -2,13 +2,13 @@
 action_type: Maneuver
 class: talent
 cost: 5 Clarity
-distance: Ranged 10
+distance: '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 10'
 effect: The target's [stability](scc:mcdm.heroes.v1/rule.character/stability) increases by an amount equal to your [Reason](scc:mcdm.heroes.v1/rule.character/reason) score, and they gain 10 [temporary Stamina](scc:mcdm.heroes.v1/rule.health/temporary-stamina) and 2 [surges](scc:mcdm.heroes.v1/rule.resource/surge). This [stability](scc:mcdm.heroes.v1/rule.character/stability) increase lasts until the target no longer has [temporary Stamina](scc:mcdm.heroes.v1/rule.health/temporary-stamina) from this ability.
 flavor: The target's skin turns to hard, dark metal, impenetrable and dense.
 keywords:
     - Metamorphosis
     - Psionic
-    - Ranged
+    - '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)'
 level: "1"
 name: Iron
 scc: mcdm.heroes.v1/feature.ability.talent.level-1/iron
@@ -19,9 +19,9 @@ type: ability
 
 *The target's skin turns to hard, dark metal, impenetrable and dense.*
 
-| **Metamorphosis, Psionic, Ranged** |            **Maneuver** |
+| **Metamorphosis, Psionic, [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)** |            **Maneuver** |
 |------------------------------------|------------------------:|
-| **📏 Ranged 10**                   | **🎯 Self or one ally** |
+| **📏 [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 10**                   | **🎯 Self or one ally** |
 
 **Effect:** The target's [stability](scc:mcdm.heroes.v1/rule.character/stability) increases by an amount equal to your [Reason](scc:mcdm.heroes.v1/rule.character/reason) score, and they gain 10 [temporary Stamina](scc:mcdm.heroes.v1/rule.health/temporary-stamina) and 2 [surges](scc:mcdm.heroes.v1/rule.resource/surge). This [stability](scc:mcdm.heroes.v1/rule.character/stability) increase lasts until the target no longer has [temporary Stamina](scc:mcdm.heroes.v1/rule.health/temporary-stamina) from this ability.
 

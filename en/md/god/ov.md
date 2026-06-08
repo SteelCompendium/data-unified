@@ -12,7 +12,7 @@ Lost ships sometimes find their navigation systems lighting up, a clear path hom
 
 OV is the god of navigators and those who seek safe passage through treacherous scenarios. Because he cares little for the politics of the timescape, he is respected by the [time raiders](scc:mcdm.heroes.v1/ancestry/time-raider), though none would call him or any other being their "god."
 
-When a [time raider](scc:mcdm.heroes.v1/ancestry/time-raider) swears, "OV guide me," the meaning is not, "Show me the right thing to do." But: "Show me a way out of this mess."
+When a [time raider](scc:mcdm.heroes.v1/ancestry/time-raider) swears, "OV [guide](scc:mcdm.heroes.v1/rule.downtime/guide) me," the meaning is not, "Show me the right thing to do." But: "Show me a way out of this mess."
 
 ##### The Calling of Cho'kassa the Time Rider
 

@@ -1,13 +1,13 @@
 ---
 action_type: No action
 class: troubadour
-distance: Ranged 10
-effect: At the end of each combat round while this performance is active, you can make a [power roll](scc:mcdm.heroes.v1/rule.dice/power-roll) against the target that ignores [cover](scc:mcdm.heroes.v1/rule.combat/cover). You can't target the same creature twice with this effect.
+distance: '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 10'
+effect: At the end of each [combat round](scc:mcdm.heroes.v1/rule.combat/combat-round) while this performance is active, you can make a [power roll](scc:mcdm.heroes.v1/rule.dice/power-roll) against the target that ignores [cover](scc:mcdm.heroes.v1/rule.combat/cover). You can't target the same creature twice with this effect.
 flavor: All for thunder motherrr! ♪ Run and hide for coverrr!♪
 keywords:
     - Magic
     - Performance
-    - Ranged
+    - '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)'
     - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
 level: "1"
 name: '"Thunder Mother"'
@@ -19,11 +19,11 @@ type: ability
 
 *All for thunder motherrr! ♪ Run and hide for coverrr!♪*
 
-| **Magic, Performance, Ranged, [Strike](scc:mcdm.heroes.v1/rule.combat/strike)** |       **No action** |
+| **Magic, Performance, [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged), [Strike](scc:mcdm.heroes.v1/rule.combat/strike)** |       **No action** |
 |----------------------------------------|--------------------:|
-| **📏 Ranged 10**                       | **🎯 One creature** |
+| **📏 [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 10**                       | **🎯 One creature** |
 
-**Effect:** At the end of each combat round while this performance is active, you can make a [power roll](scc:mcdm.heroes.v1/rule.dice/power-roll) against the target that ignores [cover](scc:mcdm.heroes.v1/rule.combat/cover). You can't target the same creature twice with this effect.
+**Effect:** At the end of each [combat round](scc:mcdm.heroes.v1/rule.combat/combat-round) while this performance is active, you can make a [power roll](scc:mcdm.heroes.v1/rule.dice/power-roll) against the target that ignores [cover](scc:mcdm.heroes.v1/rule.combat/cover). You can't target the same creature twice with this effect.
 
 **[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Presence](scc:mcdm.heroes.v1/rule.character/presence):**
 

@@ -3,7 +3,7 @@ action_type: Maneuver
 class: conduit
 cost: 9 Piety
 distance: 4 [aura](scc:mcdm.heroes.v1/rule.combat/aura)
-effect: Until the end of the encounter or until you are [dying](scc:mcdm.heroes.v1/rule.health/dying), each enemy in the area takes a [bane](scc:mcdm.heroes.v1/rule.dice/bane) on [power rolls](scc:mcdm.heroes.v1/rule.dice/power-roll), and you and each ally in the area gain 1 [surge](scc:mcdm.heroes.v1/rule.resource/surge) at the end of each of your turns.
+effect: Until the end of the encounter or until you are [dying](scc:mcdm.heroes.v1/rule.health/dying), each enemy in the area takes a [bane](scc:mcdm.heroes.v1/rule.dice/bane) on [power rolls](scc:mcdm.heroes.v1/rule.dice/power-roll), and you and each ally in the area gain 1 [surge](scc:mcdm.heroes.v1/rule.resource/surge) at the end of each of your [turns](scc:mcdm.heroes.v1/rule.combat/turn).
 flavor: Your body emits a heat that bakes your enemies and inspires your allies.
 keywords:
     - Area
@@ -22,4 +22,4 @@ type: ability
 |------------------|------------------------------------------:|
 | **📏 4 [aura](scc:mcdm.heroes.v1/rule.combat/aura)**    | **🎯 Self and each creature in the area** |
 
-**Effect:** Until the end of the encounter or until you are [dying](scc:mcdm.heroes.v1/rule.health/dying), each enemy in the area takes a [bane](scc:mcdm.heroes.v1/rule.dice/bane) on [power rolls](scc:mcdm.heroes.v1/rule.dice/power-roll), and you and each ally in the area gain 1 [surge](scc:mcdm.heroes.v1/rule.resource/surge) at the end of each of your turns.
+**Effect:** Until the end of the encounter or until you are [dying](scc:mcdm.heroes.v1/rule.health/dying), each enemy in the area takes a [bane](scc:mcdm.heroes.v1/rule.dice/bane) on [power rolls](scc:mcdm.heroes.v1/rule.dice/power-roll), and you and each ally in the area gain 1 [surge](scc:mcdm.heroes.v1/rule.resource/surge) at the end of each of your [turns](scc:mcdm.heroes.v1/rule.combat/turn).

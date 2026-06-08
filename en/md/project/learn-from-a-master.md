@@ -43,7 +43,7 @@ You gain one [signature ability](scc:mcdm.heroes.v1/rule.combat/signature-abilit
 
 ##### Hone Ability
 
-You sharpen the effectiveness of one of your abilities of your choice. Choose between adding a +1/+1/+1 damage bonus to the ability, or improving the [distance](scc:mcdm.heroes.v1/rule.combat/distance) of a ranged ability by 2. An ability can be honed only once this way.
+You sharpen the effectiveness of one of your abilities of your choice. Choose between adding a +1/+1/+1 damage [bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to the ability, or improving the [distance](scc:mcdm.heroes.v1/rule.combat/distance) of a [ranged](scc:mcdm.heroes.v1/rule.combat/ranged) ability by 2. An ability can be honed only once this way.
 
 ##### Improve Control
 

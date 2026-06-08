@@ -2,13 +2,13 @@
 action_type: Main action
 class: censor
 cost: 5 Wrath
-distance: Melee 1 or ranged 5
+distance: '[Melee](scc:mcdm.heroes.v1/rule.combat/melee) 1 or [ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 5'
 effect: While the target has fire weakness from this ability, you can choose to have your abilities deal fire damage to the target instead of holy damage.
 flavor: The gods judge, fire cleanses.
 keywords:
     - Magic
-    - Melee
-    - Ranged
+    - '[Melee](scc:mcdm.heroes.v1/rule.combat/melee)'
+    - '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)'
     - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
     - Weapon
 level: "1"
@@ -21,9 +21,9 @@ type: ability
 
 *The gods judge, fire cleanses.*
 
-| **Magic, Melee, Ranged, [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon**  |               **Main action** |
+| **Magic, [Melee](scc:mcdm.heroes.v1/rule.combat/melee), [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged), [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon**  |               **Main action** |
 |-------------------------------------------|------------------------------:|
-| **📏 Melee 1 or ranged 5**                |           **🎯 One creature** |
+| **📏 [Melee](scc:mcdm.heroes.v1/rule.combat/melee) 1 or [ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 5**                |           **🎯 One creature** |
 
 **[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc:mcdm.heroes.v1/rule.character/might):**
 

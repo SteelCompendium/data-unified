@@ -1,7 +1,5 @@
 ---
-disengage_bonus: "+1"
 equipment_text: You wear medium armor and wield a shield and a medium weapon.
-melee_damage_bonus: +2/+2/+2
 name: Sword and Board
 scc: mcdm.heroes.v1/kit/sword-and-board
 type: kit
@@ -15,13 +13,13 @@ You wear medium armor and wield a shield and a medium weapon.
 
 ##### Kit Bonuses
 
-**[Stamina](scc:mcdm.heroes.v1/rule.health/stamina) Bonus:** +9 per [echelon](scc:mcdm.heroes.v1/rule.general/echelon)
+**[Stamina](scc:mcdm.heroes.v1/rule.health/stamina) [Bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties):** +9 per [echelon](scc:mcdm.heroes.v1/rule.general/echelon)
 
-**[Stability](scc:mcdm.heroes.v1/rule.character/stability) Bonus:** +1
+**[Stability](scc:mcdm.heroes.v1/rule.character/stability) [Bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties):** +1
 
-**Melee Damage Bonus:** +2/+2/+2
+**[Melee](scc:mcdm.heroes.v1/rule.combat/melee) Damage [Bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties):** +2/+2/+2
 
-**Disengage Bonus:** +1
+**Disengage [Bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties):** +1
 
 ##### Signature Ability
 
@@ -29,9 +27,9 @@ You wear medium armor and wield a shield and a medium weapon.
 
 *In your hands, a shield isn't just for protection.*
 
-| **Melee, [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** |     **Main action** |
+| **[Melee](scc:mcdm.heroes.v1/rule.combat/melee), [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** |     **Main action** |
 |---------------------------|--------------------:|
-| **📏 Melee 1**            | **🎯 One creature** |
+| **📏 [Melee](scc:mcdm.heroes.v1/rule.combat/melee) 1**            | **🎯 One creature** |
 
 **[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc:mcdm.heroes.v1/rule.character/might) or [Agility](scc:mcdm.heroes.v1/rule.character/agility):**
 

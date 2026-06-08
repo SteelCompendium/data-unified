@@ -21,9 +21,9 @@ type: title
 >
 > *Have at thee!*
 >
-> | **Melee, [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** |     **Main action** |
+> | **[Melee](scc:mcdm.heroes.v1/rule.combat/melee), [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** |     **Main action** |
 > |---------------------------|--------------------:|
-> | **📏 Melee 1**            | **🎯 One creature** |
+> | **📏 [Melee](scc:mcdm.heroes.v1/rule.combat/melee) 1**            | **🎯 One creature** |
 >
 > **[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc:mcdm.heroes.v1/rule.character/might) or [Agility](scc:mcdm.heroes.v1/rule.character/agility):**
 >
@@ -31,6 +31,6 @@ type: title
 > - **12-16:** 11 damage; [taunted](scc:mcdm.heroes.v1/condition/taunted) (save ends)
 > - **17+:** 16 damage; [taunted](scc:mcdm.heroes.v1/condition/taunted) (save ends)
 >
-> **Effect:** You can end the [taunted](scc:mcdm.heroes.v1/condition/taunted) condition on the target as a [free maneuver](scc:mcdm.heroes.v1/rule.combat/free-maneuver).
+> **Effect:** You can end the [taunted](scc:mcdm.heroes.v1/condition/taunted) [condition](scc:mcdm.heroes.v1/rule.combat/condition) on the target as a [free maneuver](scc:mcdm.heroes.v1/rule.combat/free-maneuver).
 >
 > **Special:** If you take this title, you might occasionally be called upon to perform duties for the person who knighted you.

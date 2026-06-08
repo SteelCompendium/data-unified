@@ -25,11 +25,11 @@ If a hero attempts to sneak by an enemy guard unnoticed, should the hero make an
 
 Except in certain scenarios (explored at [NPCs](scc:mcdm.heroes.v1/rule.general/npc) Roll for Deceptive Tasks and [Opposed Power Rolls](scc:mcdm.heroes.v1/rule.dice/opposed-power-roll) below), heroes make [tests](scc:mcdm.heroes.v1/rule.test/test) and [NPCs](scc:mcdm.heroes.v1/rule.general/npc) do not. Heroes are the stars of the story, and the consequences and rewards of [tests](scc:mcdm.heroes.v1/rule.test/test) have longer-lasting implications for them. There are exceptions to this rule, of course. If a hero travels with an [NPC](scc:mcdm.heroes.v1/rule.general/npc) [retainer](scc:mcdm.heroes.v1/rule.general/retainer) or companion, that [NPC](scc:mcdm.heroes.v1/rule.general/npc) will almost certainly make [tests](scc:mcdm.heroes.v1/rule.test/test) from time to time. But for the most part, [NPCs](scc:mcdm.heroes.v1/rule.general/npc) and other creatures never need to make [tests](scc:mcdm.heroes.v1/rule.test/test) when what they do opposes what the heroes do.
 
-To quickly assess the difficulty of a task opposed by one or more creatures and the [test](scc:mcdm.heroes.v1/rule.test/test) made to attempt it, the Director can use the following guidelines (though these are not hard and fast rules):
+To quickly assess the difficulty of a task opposed by one or more creatures and the [test](scc:mcdm.heroes.v1/rule.test/test) made to attempt it, the Director can use the following [guide](scc:mcdm.heroes.v1/rule.downtime/guide)lines (though these are not hard and fast rules):
 
-- **Easy [Test](scc:mcdm.heroes.v1/rule.test/test):** A [test](scc:mcdm.heroes.v1/rule.test/test) is easy if only one creature opposes the hero, and that opposed creature would have a lower bonus to their [test](scc:mcdm.heroes.v1/rule.test/test) roll for the task than the hero does. If a hero with an [Agility](scc:mcdm.heroes.v1/rule.character/agility) score of 2 attempts to sneak by a guard with an [Intuition](scc:mcdm.heroes.v1/rule.character/intuition) score of 0, the [test](scc:mcdm.heroes.v1/rule.test/test) is easy.
-- **Moderate [Test](scc:mcdm.heroes.v1/rule.test/test):** A [test](scc:mcdm.heroes.v1/rule.test/test) is moderate if multiple creatures oppose the hero and those creatures would have lower bonuses to their [test](scc:mcdm.heroes.v1/rule.test/test) rolls than the hero, or if only one creature opposes the hero and has the same [test](scc:mcdm.heroes.v1/rule.test/test) bonus as the hero.
-- **Hard [Test](scc:mcdm.heroes.v1/rule.test/test):** A [test](scc:mcdm.heroes.v1/rule.test/test) is hard if an opposed creature would have a higher bonus to their [test](scc:mcdm.heroes.v1/rule.test/test) roll than the hero, or if multiple creatures with the same [test](scc:mcdm.heroes.v1/rule.test/test) bonus as the hero oppose the hero.
+- **Easy [Test](scc:mcdm.heroes.v1/rule.test/test):** A [test](scc:mcdm.heroes.v1/rule.test/test) is easy if only one creature opposes the hero, and that opposed creature would have a lower [bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to their [test](scc:mcdm.heroes.v1/rule.test/test) roll for the task than the hero does. If a hero with an [Agility](scc:mcdm.heroes.v1/rule.character/agility) score of 2 attempts to sneak by a guard with an [Intuition](scc:mcdm.heroes.v1/rule.character/intuition) score of 0, the [test](scc:mcdm.heroes.v1/rule.test/test) is easy.
+- **Moderate [Test](scc:mcdm.heroes.v1/rule.test/test):** A [test](scc:mcdm.heroes.v1/rule.test/test) is moderate if multiple creatures oppose the hero and those creatures would have lower [bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties)es to their [test](scc:mcdm.heroes.v1/rule.test/test) rolls than the hero, or if only one creature opposes the hero and has the same [test](scc:mcdm.heroes.v1/rule.test/test) [bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) as the hero.
+- **Hard [Test](scc:mcdm.heroes.v1/rule.test/test):** A [test](scc:mcdm.heroes.v1/rule.test/test) is hard if an opposed creature would have a higher [bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to their [test](scc:mcdm.heroes.v1/rule.test/test) roll than the hero, or if multiple creatures with the same [test](scc:mcdm.heroes.v1/rule.test/test) [bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) as the hero oppose the hero.
 
 The failure consequences of opposed tasks are some of the easiest to create on the fly. Fail to hide from someone, and they notice you. Fail to lie to someone, and they catch your duplicity. Fail to arm wrestle someone for a free ale, and you're picking up the tab. The consequence is that the opposition bests the hero.
 
@@ -61,7 +61,7 @@ The Director knows that the walls around the Star Chamber, the headquarters of t
 
 **Director:** *For sure. Okay, roll it up.*
 
-Alyssa rolls 2d10 and gets a 13. She then adds her [Might](scc:mcdm.heroes.v1/rule.character/might) score of 2 and her +2 bonus for having an applicable skill to the roll, for a total of 17.
+Alyssa rolls 2d10 and gets a 13. She then adds her [Might](scc:mcdm.heroes.v1/rule.character/might) score of 2 and her +2 [bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) for having an applicable skill to the roll, for a total of 17.
 
 **Alyssa:** *A 17! That's tier 3, baby!*
 
@@ -99,7 +99,7 @@ The Director checks the [Test Difficulty](scc:mcdm.heroes.v1/rule.test/test-diff
 
 **Director:** *Yes, it does. Roll it up. That's a medium difficulty [test](scc:mcdm.heroes.v1/rule.test/test).*
 
-Lifting the diminutive [polder](scc:mcdm.heroes.v1/ancestry/polder), Alyssa rolls 2d10-but gets a 2! With her [Might](scc:mcdm.heroes.v1/rule.character/might) score and Lift skill bonus of +2, the total is 6.
+Lifting the diminutive [polder](scc:mcdm.heroes.v1/ancestry/polder), Alyssa rolls 2d10-but gets a 2! With her [Might](scc:mcdm.heroes.v1/rule.character/might) score and Lift skill [bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) of +2, the total is 6.
 
 **Alyssa:** *A 6! Oof. That's tier 1.*
 
@@ -115,19 +115,19 @@ The Director then decides to make the failure potentially more interesting, by a
 
 **James:** *Thanks for not leaving me behind!*
 
-**Director:** *As Jorn yanks Korvo off the ground and pulls him up to the top of the wall, a guard turns a bullseye lantern your way, calling out, "Who goes there?"*
+**Director:** *As Jorn yanks Korvo off the ground and pulls him up to the top of the wall, a guard [turns](scc:mcdm.heroes.v1/rule.combat/turn) a bullseye lantern your way, calling out, "Who goes there?"*
 
 ### Assist a Test
 
 You can attempt to assist another creature with a [test](scc:mcdm.heroes.v1/rule.test/test) they make, provided you have a skill that applies to the [test](scc:mcdm.heroes.v1/rule.test/test), the other creature isn't using that same skill on the [test](scc:mcdm.heroes.v1/rule.test/test), and you can describe how your character helps to the Director's satisfaction. In other words, your attempt to help has to make sense, and you have to bring some useful expertise to the table. Helping another creature sneak by shouting encouragement at them isn't going to make them stealthier.
 
-When you attempt to assist another creature, make a [test](scc:mcdm.heroes.v1/rule.test/test) using the skill you choose, and using a [characteristic](scc:mcdm.heroes.v1/rule.character/characteristic) chosen by the Director based on the activity you use to help. The outcome of that [test](scc:mcdm.heroes.v1/rule.test/test) determines the bonus applied to the [test](scc:mcdm.heroes.v1/rule.test/test) you're assisting:
+When you attempt to assist another creature, make a [test](scc:mcdm.heroes.v1/rule.test/test) using the skill you choose, and using a [characteristic](scc:mcdm.heroes.v1/rule.character/characteristic) chosen by the Director based on the activity you use to help. The outcome of that [test](scc:mcdm.heroes.v1/rule.test/test) determines the [bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) applied to the [test](scc:mcdm.heroes.v1/rule.test/test) you're assisting:
 
 - **≤11:** You get in the way or make things worse. The creature takes a [bane](scc:mcdm.heroes.v1/rule.dice/bane) on their [test](scc:mcdm.heroes.v1/rule.test/test).
 - **12-16:** Your help grants the other creature an [edge](scc:mcdm.heroes.v1/rule.dice/edge) on their [test](scc:mcdm.heroes.v1/rule.test/test).
 - **17+:** Your help gives the other creature a double [edge](scc:mcdm.heroes.v1/rule.dice/edge) on their [test](scc:mcdm.heroes.v1/rule.test/test).
 
-For example, when an ally tries to pick a jailer's pocket, you might attempt to assist by using the [Flirt](scc:mcdm.heroes.v1/skill/flirt) skill to distract the jailer. The Director accepts this, and asks you to make a [Presence](scc:mcdm.heroes.v1/rule.character/presence) [test](scc:mcdm.heroes.v1/rule.test/test) using Flirt. The outcome of that [test](scc:mcdm.heroes.v1/rule.test/test) determines the bonus you provide to the other hero's [Agility](scc:mcdm.heroes.v1/rule.character/agility) [test](scc:mcdm.heroes.v1/rule.test/test) to pick the jailer's pocket—or whether you fumble the distraction and potentially draw attention to the attempt.
+For example, when an ally tries to pick a jailer's pocket, you might attempt to assist by using the [Flirt](scc:mcdm.heroes.v1/skill/flirt) skill to distract the jailer. The Director accepts this, and asks you to make a [Presence](scc:mcdm.heroes.v1/rule.character/presence) [test](scc:mcdm.heroes.v1/rule.test/test) using Flirt. The outcome of that [test](scc:mcdm.heroes.v1/rule.test/test) determines the [bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) you provide to the other hero's [Agility](scc:mcdm.heroes.v1/rule.character/agility) [test](scc:mcdm.heroes.v1/rule.test/test) to pick the jailer's pocket—or whether you fumble the distraction and potentially draw attention to the attempt.
 
 ### Hide and Sneak
 
@@ -141,7 +141,7 @@ When you use the [Hide](scc:mcdm.heroes.v1/feature.common.maneuvers/hide) maneuv
 
 While you are hidden from another creature, the creature can't target you with abilities that don't have the Area keyword. This benefit ends as soon as you are no longer hidden from that creature.
 
-Additionally, while you are hidden from another creature, you gain an [edge](scc:mcdm.heroes.v1/rule.dice/edge) on [ability rolls](scc:mcdm.heroes.v1/rule.dice/ability-roll) made against that creature. This benefit lasts until the end of the turn in which you are no longer hidden. This means you can be hidden from another creature at the start of your turn, move out of [cover](scc:mcdm.heroes.v1/rule.combat/cover) or [concealment](scc:mcdm.heroes.v1/rule.combat/concealment) toward them and use an ability against them, and still gain an [edge](scc:mcdm.heroes.v1/rule.dice/edge) on [ability rolls](scc:mcdm.heroes.v1/rule.dice/ability-roll) made against the creature as long as you use the ability before the end of that turn.
+Additionally, while you are hidden from another creature, you gain an [edge](scc:mcdm.heroes.v1/rule.dice/edge) on [ability rolls](scc:mcdm.heroes.v1/rule.dice/ability-roll) made against that creature. This benefit lasts until the end of the [turn](scc:mcdm.heroes.v1/rule.combat/turn) in which you are no longer hidden. This means you can be hidden from another creature at the start of your [turn](scc:mcdm.heroes.v1/rule.combat/turn), move out of [cover](scc:mcdm.heroes.v1/rule.combat/cover) or [concealment](scc:mcdm.heroes.v1/rule.combat/concealment) toward them and use an ability against them, and still gain an [edge](scc:mcdm.heroes.v1/rule.dice/edge) on [ability rolls](scc:mcdm.heroes.v1/rule.dice/ability-roll) made against the creature as long as you use the ability before the end of that [turn](scc:mcdm.heroes.v1/rule.combat/turn).
 
 Draw Steel
 

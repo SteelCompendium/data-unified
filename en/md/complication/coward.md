@@ -1,6 +1,6 @@
 ---
 benefit: While you are [frightened](scc:mcdm.heroes.v1/condition/frightened), you can move toward the source of your fear.
-drawback: Whenever you make a [saving throw](scc:mcdm.heroes.v1/rule.general/saving-throw) to end the [frightened](scc:mcdm.heroes.v1/condition/frightened) condition, you roll a d10 twice and take the lower roll.
+drawback: Whenever you make a [saving throw](scc:mcdm.heroes.v1/rule.general/saving-throw) to end the [frightened](scc:mcdm.heroes.v1/condition/frightened) [condition](scc:mcdm.heroes.v1/rule.combat/condition), you roll a d10 twice and take the lower roll.
 name: Coward
 scc: mcdm.heroes.v1/complication/coward
 type: complication
@@ -10,4 +10,4 @@ Some call you a [coward](scc:mcdm.heroes.v1/complication/coward), just because y
 
 **Benefit:** While you are [frightened](scc:mcdm.heroes.v1/condition/frightened), you can move toward the source of your fear.
 
-**Drawback:** Whenever you make a [saving throw](scc:mcdm.heroes.v1/rule.general/saving-throw) to end the [frightened](scc:mcdm.heroes.v1/condition/frightened) condition, you roll a d10 twice and take the lower roll.
+**Drawback:** Whenever you make a [saving throw](scc:mcdm.heroes.v1/rule.general/saving-throw) to end the [frightened](scc:mcdm.heroes.v1/condition/frightened) [condition](scc:mcdm.heroes.v1/rule.combat/condition), you roll a d10 twice and take the lower roll.

@@ -3,10 +3,10 @@ action_type: Maneuver
 class: troubadour
 cost: 3 Drama
 distance: Self; see below
-effect: You [shift](scc:mcdm.heroes.v1/movement/shifting) up to your [speed](scc:mcdm.heroes.v1/rule.character/speed). You make one [power roll](scc:mcdm.heroes.v1/rule.dice/power-roll) that targets each enemy you move adjacent to during this [shift](scc:mcdm.heroes.v1/movement/shifting).
+effect: You [shift](scc:mcdm.heroes.v1/movement/shifting) up to your [speed](scc:mcdm.heroes.v1/rule.character/speed). You make one [power roll](scc:mcdm.heroes.v1/rule.dice/power-roll) that targets each enemy you move [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to during this [shift](scc:mcdm.heroes.v1/movement/shifting).
 flavor: As you bob and weave through the crowd, you can't help but leave the audience wanting more.
 keywords:
-    - Melee
+    - '[Melee](scc:mcdm.heroes.v1/rule.combat/melee)'
     - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
     - Weapon
 level: "1"
@@ -19,11 +19,11 @@ type: ability
 
 *As you bob and weave through the crowd, you can't help but leave the audience wanting more.*
 
-| **Melee, [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** | **Maneuver** |
+| **[Melee](scc:mcdm.heroes.v1/rule.combat/melee), [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** | **Maneuver** |
 |---------------------------|-------------:|
 | **📏 Self; see below**    |  **🎯 Self** |
 
-**Effect:** You [shift](scc:mcdm.heroes.v1/movement/shifting) up to your [speed](scc:mcdm.heroes.v1/rule.character/speed). You make one [power roll](scc:mcdm.heroes.v1/rule.dice/power-roll) that targets each enemy you move adjacent to during this [shift](scc:mcdm.heroes.v1/movement/shifting).
+**Effect:** You [shift](scc:mcdm.heroes.v1/movement/shifting) up to your [speed](scc:mcdm.heroes.v1/rule.character/speed). You make one [power roll](scc:mcdm.heroes.v1/rule.dice/power-roll) that targets each enemy you move [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to during this [shift](scc:mcdm.heroes.v1/movement/shifting).
 
 **[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Agility](scc:mcdm.heroes.v1/rule.character/agility) or [Presence](scc:mcdm.heroes.v1/rule.character/presence):**
 

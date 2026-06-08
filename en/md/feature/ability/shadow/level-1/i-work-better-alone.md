@@ -1,12 +1,12 @@
 ---
 action_type: Main action
 class: shadow
-distance: Melee 1 or ranged 5
-effect: If the target has none of your allies adjacent to them, you gain 1 [surge](scc:mcdm.heroes.v1/rule.resource/surge) before making the [power roll](scc:mcdm.heroes.v1/rule.dice/power-roll).
+distance: '[Melee](scc:mcdm.heroes.v1/rule.combat/melee) 1 or [ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 5'
+effect: If the target has none of your allies [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to them, you gain 1 [surge](scc:mcdm.heroes.v1/rule.resource/surge) before making the [power roll](scc:mcdm.heroes.v1/rule.dice/power-roll).
 flavor: '"It''s better, just you and me. Isn''t it?"'
 keywords:
-    - Melee
-    - Ranged
+    - '[Melee](scc:mcdm.heroes.v1/rule.combat/melee)'
+    - '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)'
     - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
     - Weapon
 level: "1"
@@ -20,9 +20,9 @@ type: ability
 
 *"It's better, just you and me. Isn't it?"*
 
-| **Melee, Ranged, [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** |     **Main action** |
+| **[Melee](scc:mcdm.heroes.v1/rule.combat/melee), [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged), [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** |     **Main action** |
 |-----------------------------------|--------------------:|
-| **📏 Melee 1 or ranged 5**        | **🎯 One creature** |
+| **📏 [Melee](scc:mcdm.heroes.v1/rule.combat/melee) 1 or [ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 5**        | **🎯 One creature** |
 
 **[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Agility](scc:mcdm.heroes.v1/rule.character/agility):**
 
@@ -30,4 +30,4 @@ type: ability
 - **12-16:** 6 + A damage
 - **17+:** 9 + A damage
 
-**Effect:** If the target has none of your allies adjacent to them, you gain 1 [surge](scc:mcdm.heroes.v1/rule.resource/surge) before making the [power roll](scc:mcdm.heroes.v1/rule.dice/power-roll).
+**Effect:** If the target has none of your allies [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to them, you gain 1 [surge](scc:mcdm.heroes.v1/rule.resource/surge) before making the [power roll](scc:mcdm.heroes.v1/rule.dice/power-roll).

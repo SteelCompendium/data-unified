@@ -2,12 +2,12 @@
 action_type: Main action
 class: tactician
 cost: 11 Focus
-distance: Melee 1
+distance: '[Melee](scc:mcdm.heroes.v1/rule.combat/melee) 1'
 effect: You mark the target.
 flavor: Nothing will stop you from reaching your foe.
 keywords:
     - Charge
-    - Melee
+    - '[Melee](scc:mcdm.heroes.v1/rule.combat/melee)'
     - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
     - Weapon
 level: "9"
@@ -20,9 +20,9 @@ type: ability
 
 *Nothing will stop you from reaching your foe.*
 
-| **Charge, Melee, [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** |     **Main action** |
+| **Charge, [Melee](scc:mcdm.heroes.v1/rule.combat/melee), [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** |     **Main action** |
 | --------------------------------- | ------------------: |
-| **📏 Melee 1**                    | **🎯 One creature** |
+| **📏 [Melee](scc:mcdm.heroes.v1/rule.combat/melee) 1**                    | **🎯 One creature** |
 
 **Effect:** You mark the target.
 

@@ -2,12 +2,12 @@
 action_type: Main action
 class: tactician
 cost: 5 Focus
-distance: Melee 1 or ranged 5
+distance: '[Melee](scc:mcdm.heroes.v1/rule.combat/melee) 1 or [ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 5'
 effect: If the target is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) before one or both chosen allies has made their [strike](scc:mcdm.heroes.v1/rule.combat/strike), the ally or allies can pick a different target.
 flavor: '"Let''s not argue about who''s the hammer and who''s the anvil!"'
 keywords:
-    - Melee
-    - Ranged
+    - '[Melee](scc:mcdm.heroes.v1/rule.combat/melee)'
+    - '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)'
     - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
     - Weapon
 level: "1"
@@ -20,9 +20,9 @@ type: ability
 
 *"Let's not argue about who's the hammer and who's the anvil!"*
 
-| **Melee, Ranged, [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** |               **Main action** |
+| **[Melee](scc:mcdm.heroes.v1/rule.combat/melee), [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged), [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** |               **Main action** |
 |-----------------------------------|------------------------------:|
-| **📏 Melee 1 or ranged 5**        | **🎯 One creature or object** |
+| **📏 [Melee](scc:mcdm.heroes.v1/rule.combat/melee) 1 or [ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 5**        | **🎯 One creature or object** |
 
 **[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc:mcdm.heroes.v1/rule.character/might):**
 

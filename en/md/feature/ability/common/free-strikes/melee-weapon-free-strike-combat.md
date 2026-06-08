@@ -1,9 +1,9 @@
 ---
 action_type: Main action
-distance: Melee 1
+distance: '[Melee](scc:mcdm.heroes.v1/rule.combat/melee) 1'
 keywords:
     - Charge
-    - Melee
+    - '[Melee](scc:mcdm.heroes.v1/rule.combat/melee)'
     - Stike
     - Weapon
 name: Melee Weapon Free Strike
@@ -13,9 +13,9 @@ target: One creature or object
 type: ability
 ---
 
-| **Charge, Melee, Stike, Weapon** |               **Main action** |
+| **Charge, [Melee](scc:mcdm.heroes.v1/rule.combat/melee), Stike, Weapon** |               **Main action** |
 | -------------------------------- | -----------------------------:|
-| **📏 Melee 1**                   | **🎯 One creature or object** |
+| **📏 [Melee](scc:mcdm.heroes.v1/rule.combat/melee) 1**                   | **🎯 One creature or object** |
 
 **[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc:mcdm.heroes.v1/rule.character/might) or [Agility](scc:mcdm.heroes.v1/rule.character/agility):**
 

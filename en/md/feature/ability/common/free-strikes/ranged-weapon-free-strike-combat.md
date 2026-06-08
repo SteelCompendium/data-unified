@@ -1,8 +1,8 @@
 ---
 action_type: Main action
-distance: Ranged 5
+distance: '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 5'
 keywords:
-    - Ranged
+    - '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)'
     - Stike
     - Weapon
 name: Ranged Weapon Free Strike
@@ -12,9 +12,9 @@ target: One creature or object
 type: ability
 ---
 
-| **Ranged, Stike, Weapon** |               **Main action** |
+| **[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged), Stike, Weapon** |               **Main action** |
 |---------------------------| -----------------------------:|
-| **📏 Ranged 5**           | **🎯 One creature or object** |
+| **📏 [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 5**           | **🎯 One creature or object** |
 
 **[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc:mcdm.heroes.v1/rule.character/might) or [Agility](scc:mcdm.heroes.v1/rule.character/agility):**
 

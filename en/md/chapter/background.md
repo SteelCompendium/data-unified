@@ -56,4 +56,4 @@ You can build your culture one aspect at a time, or you can use the following ta
 
 ### Why Build a Culture?
 
-Building a character is about more than adding up your stats, picking skills and abilities, and recording that information on a character sheet. You're building a hero—a main character in a story, be it a one-shot or a heroic campaign. Think about the personality and the past of who you are creating. That's why the game lets you build a culture rather than simply saying, "Pick three skills and a bonus language." We want players to imagine their heroes as complex and intricate characters.
+Building a character is about more than adding up your stats, picking skills and abilities, and recording that information on a character sheet. You're building a hero—a main character in a story, be it a one-shot or a heroic campaign. Think about the personality and the past of who you are creating. That's why the game lets you build a culture rather than simply saying, "Pick three skills and a [bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) language." We want players to imagine their heroes as complex and intricate characters.

@@ -3,7 +3,7 @@ action_type: Main action
 class: talent
 cost: 11 Clarity
 distance: 3 [burst](scc:mcdm.heroes.v1/rule.combat/burst)
-effect: You and each target ally can't obtain lower than a tier 2 outcome on [power rolls](scc:mcdm.heroes.v1/rule.dice/power-roll) until the start of your next turn. Each target enemy is affected by the ability's [power roll](scc:mcdm.heroes.v1/rule.dice/power-roll).
+effect: You and each target ally can't obtain lower than a tier 2 outcome on [power rolls](scc:mcdm.heroes.v1/rule.dice/power-roll) until the start of your next [turn](scc:mcdm.heroes.v1/rule.combat/turn). Each target enemy is affected by the ability's [power roll](scc:mcdm.heroes.v1/rule.dice/power-roll).
 flavor: You project a terrifying image into the brains of your foes, and their fear psionically invigorates your allies.
 keywords:
     - Area
@@ -23,7 +23,7 @@ type: ability
 |------------------------------|---------------------------------------:|
 | **📏 3 [burst](scc:mcdm.heroes.v1/rule.combat/burst)**               | **🎯 Each ally and enemy in the area** |
 
-**Effect:** You and each target ally can't obtain lower than a tier 2 outcome on [power rolls](scc:mcdm.heroes.v1/rule.dice/power-roll) until the start of your next turn. Each target enemy is affected by the ability's [power roll](scc:mcdm.heroes.v1/rule.dice/power-roll).
+**Effect:** You and each target ally can't obtain lower than a tier 2 outcome on [power rolls](scc:mcdm.heroes.v1/rule.dice/power-roll) until the start of your next [turn](scc:mcdm.heroes.v1/rule.combat/turn). Each target enemy is affected by the ability's [power roll](scc:mcdm.heroes.v1/rule.dice/power-roll).
 
 **[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Reason](scc:mcdm.heroes.v1/rule.character/reason):**
 

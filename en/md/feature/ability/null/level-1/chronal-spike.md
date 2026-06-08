@@ -2,11 +2,11 @@
 action_type: Main action
 class: "null"
 cost: 3 Discipline
-distance: Melee 1
+distance: '[Melee](scc:mcdm.heroes.v1/rule.combat/melee) 1'
 effect: You can [shift](scc:mcdm.heroes.v1/movement/shifting) up to half your [speed](scc:mcdm.heroes.v1/rule.character/speed) before or after you make this [strike](scc:mcdm.heroes.v1/rule.combat/strike). Additionally, whenever an effect lets you make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) or use a [signature ability](scc:mcdm.heroes.v1/rule.combat/signature-ability), you can use this ability instead, paying its discipline cost as usual.
 flavor: You foresee the best moment to strike, then exploit it.
 keywords:
-    - Melee
+    - '[Melee](scc:mcdm.heroes.v1/rule.combat/melee)'
     - Psionic
     - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
     - Weapon
@@ -20,9 +20,9 @@ type: ability
 
 *You foresee the best moment to strike, then exploit it.*
 
-| **Melee, Psionic, [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** |               **Main action** |
+| **[Melee](scc:mcdm.heroes.v1/rule.combat/melee), Psionic, [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** |               **Main action** |
 |------------------------------------|------------------------------:|
-| **📏 Melee 1**                     | **🎯 One creature or object** |
+| **📏 [Melee](scc:mcdm.heroes.v1/rule.combat/melee) 1**                     | **🎯 One creature or object** |
 
 **[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Agility](scc:mcdm.heroes.v1/rule.character/agility):**
 

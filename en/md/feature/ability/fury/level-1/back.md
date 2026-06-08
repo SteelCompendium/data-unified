@@ -6,7 +6,7 @@ distance: 1 [burst](scc:mcdm.heroes.v1/rule.combat/burst)
 flavor: You hew about you with your mighty weapon, hurling enemies backward.
 keywords:
     - Area
-    - Melee
+    - '[Melee](scc:mcdm.heroes.v1/rule.combat/melee)'
     - Weapon
 level: "1"
 name: Back!
@@ -18,7 +18,7 @@ type: ability
 
 *You hew about you with your mighty weapon, hurling enemies backward.*
 
-| **Area, Melee, Weapon** |               **Main action** |
+| **Area, [Melee](scc:mcdm.heroes.v1/rule.combat/melee), Weapon** |               **Main action** |
 |-------------------------|------------------------------:|
 | **📏 1 [burst](scc:mcdm.heroes.v1/rule.combat/burst)**          | **🎯 Each enemy in the area** |
 
