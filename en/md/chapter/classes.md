@@ -27,13 +27,9 @@ Your class provides you with many of your features, most of your abilities—you
 
 **[Troubadour](scc:mcdm.heroes.v1/class/troubadour):** A [troubadour](scc:mcdm.heroes.v1/class/troubadour) inspires their allies with storytelling and swordplay that is as much an art as it is an act of war. Their quips, songs, poems, and epic tales produce actual magic that harms foes and bolsters allies. They can even use their magic to tweak the campaign's story in real time to better suit their needs.
 
-### Subclasses
-
-Each class also has a number of subclasses presented in this book. Your subclass determines many of your hero's abilities and features, and further defines how you interact with the world from 1st level on. You choose a subclass when you create your character.
-
 ### Abilities
 
-Abilities are special actions, maneuvers, and more that allow you to affect creatures, objects, and the environment. They represent the main activities your character can undertake when the game is in combat or some other time-sensitive scenario. All characters have access to a few basic abilities, including [free strikes](scc:mcdm.heroes.v1/feature.trait.common.main-actions/free-strike) and maneuvers such as [Grab](scc:mcdm.heroes.v1/feature.trait.common.maneuvers/grab) and Knockback (see Maneuvers in Chapter 10: [Combat](scc:mcdm.heroes.v1/chapter/combat)). But your class, ancestry (see Chapter 3: [Ancestries](scc:mcdm.heroes.v1/chapter/ancestries)), kit (Chapter 6: [Kits](scc:mcdm.heroes.v1/chapter/kits)), titles and treasures (Chapter 13: [Rewards](scc:mcdm.heroes.v1/chapter/rewards)), and other heroic options give you access to more powerful abilities that make your hero stand out.
+Abilities are special actions, maneuvers, and more that allow you to affect creatures, objects, and the environment. They represent the main activities your character can undertake when the game is in combat or some other time-sensitive scenario. All characters have access to a few basic abilities, including [free strikes](scc:mcdm.heroes.v1/feature.trait.common.main-actions/free-strike) and maneuvers such as [Grab](scc:mcdm.heroes.v1/feature.trait.common.maneuvers/grab) and [Knockback](scc:mcdm.heroes.v1/feature.trait.common.maneuvers/knockback) (see Maneuvers in Chapter 10: [Combat](scc:mcdm.heroes.v1/chapter/combat)). But your class, ancestry (see Chapter 3: [Ancestries](scc:mcdm.heroes.v1/chapter/ancestries)), kit (Chapter 6: [Kits](scc:mcdm.heroes.v1/chapter/kits)), titles and treasures (Chapter 13: [Rewards](scc:mcdm.heroes.v1/chapter/rewards)), and other heroic options give you access to more powerful abilities that make your hero stand out.
 
 Abilities are presented in a special format that first describes the ability, then summarizes its mechanical details, and finally breaks out the ability's power roll (if it has one) and effects.
 
@@ -53,67 +49,15 @@ Each class has a Heroic Resource that your hero earns during combat, with some o
 
 The nine Heroic Resources in the game are:
 
-- The [censor's](scc:mcdm.heroes.v1/class/censor) wrath
-- The [conduit's](scc:mcdm.heroes.v1/class/conduit) piety
-- The [elementalist's](scc:mcdm.heroes.v1/class/elementalist) essence
-- The [fury's](scc:mcdm.heroes.v1/class/fury) ferocity
-- The [null's](scc:mcdm.heroes.v1/class/null) discipline
-- The [shadow's](scc:mcdm.heroes.v1/class/shadow) insight
-- The [tactician's](scc:mcdm.heroes.v1/class/tactician) focus
-- The [talent's](scc:mcdm.heroes.v1/class/talent) clarity
-- The [troubadour's](scc:mcdm.heroes.v1/class/troubadour) drama
-
-##### Heroic Abilities
-
-If an ability has a Heroic Resource cost to activate—as in, you can't use the ability at all without spending some of your Heroic Resource—then it is a heroic ability. If an effect allows you to use a heroic ability when it isn't your turn, you must still pay its Heroic Resource cost to use it unless the effect says otherwise.
-
-Some abilities don't cost your Heroic Resource to use but allow you to spend your Heroic Resource to enhance or add effects to the ability, such as the [conduit's](scc:mcdm.heroes.v1/class/conduit) [Healing Grace](scc:mcdm.heroes.v1/feature.ability.conduit.level-1/healing-grace). These abilities are not heroic abilities unless the baseline ability can't be used without spending your Heroic Resource.
-
-##### Signature Abilities
-
-Some abilities granted by your class, kit, and other parts of the game are signature abilities. The rules specifically state when an ability is a signature ability. Signature abilities don't require your Heroic Resource to use, but sometimes let you spend your Heroic Resource to enhance or add to their effects.
-
-#### Ability Keywords
-
-Each ability has one or more keywords that explain how the ability functions. Keywords appear in the first line of the ability beneath the flavor text, on the left side, and can include any of the following entries. (An ability that has no keywords is noted as "-".)
-
-##### Area
-
-Abilities with the Area keyword create an area of effect. Many area abilities deal damage to targets in their area, but such abilities are treated differently than strikes made against specific targets. (See the It's Not All Strikes! sidebar, as well as Strike and Area Abilities below for more information.)
-
-##### Charge
-
-Abilities with the Charge keyword can be used with the [Charge](scc:mcdm.heroes.v1/feature.trait.common.main-actions/charge) main action instead of a melee [free strike](scc:mcdm.heroes.v1/feature.trait.common.main-actions/free-strike). (The [Charge](scc:mcdm.heroes.v1/feature.trait.common.main-actions/charge) main action is described in Main Actions in Chapter 10: [Combat](scc:mcdm.heroes.v1/chapter/combat).)
-
-##### Magic
-
-Abilities with the Magic keyword are used by characters who can cast spells, have innate magical features, or wield magic treasures. Such abilities do magical things such as create rays of fire, open swirling portals, or summon creatures.
-
-##### Melee
-
-Abilities with the Melee keyword can be used only over very short distances, typically within a character's reach, because they require a character to make contact with a creature or object with their body, a weapon, or an implement. (An implement is a special object used by characters channeling magic or psionic power, described in Imbue Treasure in Chapter 12: [Downtime Projects](scc:mcdm.heroes.v1/chapter/downtime-projects).)
-
-##### Psionic
-
-Abilities with the Psionic keyword are used by characters who can manifest psionic powers, have innate psionic features, or wield psionic items. These abilities might create blasts of psychic energy, move objects with telekinesis, or slow down time with chronopathy.
-
-##### Ranged
-
-Abilities with the Ranged keyword can be used to affect creatures who are too far away to make contact with.
-
-##### Strike
-
-Abilities with the Strike keyword (often referred to simply as "strikes") deal damage to or impose a harmful effect on specific creatures or objects.
-
-> **It's Not All Strikes!**
->
-> The Strike keyword and phrases such as "makes a strike" are reserved for abilities that have a creature targeting specific creatures or objects (not affecting creatures or objects in an area) and harming those targets in some way by making a power roll. The many abilities in the game that target areas of effect are not strikes. They instead use the Area keyword. That means if a feature distinctly interacts with a strike, that feature has no effect on abilities with the Area keyword.
-
-##### Weapon
-
-The Weapon keyword is used in abilities that must be used with a blade, a bow, or some other offensive weapon. Weapon abilities also include strikes creatures make with their own bodies, such as a character's unarmed strikes or a monster's punches, kicks, bites, tail slaps, and more.
-
-Your character's kit determines the types of weapons you wield and use with your weapon abilities (see Chapter 6: [Kits](scc:mcdm.heroes.v1/chapter/kits)).
+- The [censor's](scc:mcdm.heroes.v1/class/censor) [wrath](scc:mcdm.heroes.v1/feature.trait.censor.level-1/wrath)
+- The [conduit's](scc:mcdm.heroes.v1/class/conduit) [piety](scc:mcdm.heroes.v1/feature.trait.conduit.level-1/piety)
+- The [elementalist's](scc:mcdm.heroes.v1/class/elementalist) [essence](scc:mcdm.heroes.v1/feature.trait.elementalist.level-1/essence)
+- The [fury's](scc:mcdm.heroes.v1/class/fury) [ferocity](scc:mcdm.heroes.v1/feature.trait.fury.level-1/ferocity)
+- The [null's](scc:mcdm.heroes.v1/class/null) [discipline](scc:mcdm.heroes.v1/feature.trait.null.level-1/discipline)
+- The [shadow's](scc:mcdm.heroes.v1/class/shadow) [insight](scc:mcdm.heroes.v1/feature.trait.shadow.level-1/insight)
+- The [tactician's](scc:mcdm.heroes.v1/class/tactician) [focus](scc:mcdm.heroes.v1/feature.trait.tactician.level-1/focus)
+- The [talent's](scc:mcdm.heroes.v1/class/talent) [clarity](scc:mcdm.heroes.v1/feature.trait.talent.level-1/clarity-and-strain)
+- The [troubadour's](scc:mcdm.heroes.v1/class/troubadour) [drama](scc:mcdm.heroes.v1/feature.trait.troubadour.level-1/drama)
 
 #### Type
 
@@ -123,240 +67,15 @@ Each ability notes the type of activity required to use it, on the right side of
 
 If an ability requires a triggered action or a free triggered action to use, a "Trigger" entry is part of the ability. For example, the trigger for the [tactician's](scc:mcdm.heroes.v1/class/tactician) Parry ability is: "A creature deals damage to the target." A [tactician](scc:mcdm.heroes.v1/class/tactician) can use their Parry ability only when that specific triggering event occurs.
 
-#### Distance
-
-An ability's "Distance" entry, represented by this symbol 📏, indicates how close you need to be to a creature or object to affect that target with the ability.
-
-##### Melee
-
-Melee abilities have a distance of "Melee X" and require you to make contact with a creature with your body, a weapon, or an implement. The number X is the maximum distance in squares at which you can physically make contact with another creature or object targeted by the ability. For instance, a distance of "Melee 2" can be used to target creatures or objects within 2 squares of you, while "Melee 1" limits you to adjacent targets (those within 1 square).
-
-##### Ranged
-
-Ranged abilities have a distance of "Ranged X" and can be used to target creatures or objects too far away for you to make contact with. The number X is the maximum distance in squares at which a creature or object can be targeted by the ability. For instance, a distance of "Ranged 5" can be used to target creatures or objects within 5 squares of you.
-
-If you make a ranged strike while any enemy is adjacent to you (within 1 square), you have a bane on the strike's power roll. (See Edges and Banes in Chapter 1: [The Basics](scc:mcdm.heroes.v1/chapter/the-basics).)
-
-##### Melee or Ranged
-
-Some abilities have a melee distance and a ranged distance. When you use such an ability, you choose whether to use it as a melee or a ranged ability.
-
-An ability never has both the Melee and Ranged keywords at the same time. For example, if you have the [Cloak and Dagger](scc:mcdm.heroes.v1/kit/cloak-and-dagger) kit, which has a weapon damage bonus to melee abilities and a weapon damage bonus to ranged abilities, only one bonus at a time applies to an ability with both the Melee and Ranged keywords. (See Chapter 6: [Kits](scc:mcdm.heroes.v1/chapter/kits).)
-
-##### Self
-
-If an ability has a distance of "Self," that ability originates from you, and often affects only you. The ability's description specifies how it works.
-
-#### Area Abilities
-
-Area abilities cover a number of squares on the battlefield at once, creating an effect within that area that lets you target multiple creatures or objects. When an ability creates an area of effect, it sometimes notes a distance for the effect in the form "within X." The number X tells you how many squares away from you the area can be. If an area ability doesn't have this distance, it originates from you and you are at the center of the area.
-
-If an area ability originates a distance away from you, then one square of the area of effect must be within that distance, and must also be within your line of effect (see below). This square is referred to as the **origin square** of the area of effect. The area of effect can spread from the origin square however you choose, according to the rules for the shape and arrangement of that particular area.
-
-You can place an area of effect to include one or more squares where you don't have line of effect, as long as you have line of effect to the origin square. Unless otherwise noted, area abilities don't pass through solid barriers such as walls or ceilings, and they don't spread around corners.
-
-An area ability might use any of the following areas of effect.
-
-##### Aura
-
-When an ability creates an aura, that area is expressed as "X aura." The number X is the radius of the aura, which always originates from you and moves with you for the duration of the ability that created it. A creature or object must be within X squares of you to be targeted by an aura ability.
-
-##### Burst
-
-When an ability creates a burst area, that area is expressed as "X burst." The number X is the radius of the burst, which always originates from you and lasts only for as long as it takes to affect its targets. A creature or object must be within X squares of you to be targeted by a burst ability.
-
-##### Cube
-
-When an ability affects a cubic area, that area is expressed as "X cube." The number X is the length of each of the area's sides. A creature or object must be within the area to be targeted by a cube ability.
-
-##### Line
-
-When an ability affects a linear area, that area is expressed as "A x B line." The number A denotes the line's length in squares, while the number B equals the line's width and height in squares. When you create a line area of effect, the squares in that area must be in a straight line. A creature or object must be within the area to be targeted by a line ability.
-
-##### Wall
-
-When an ability creates a wall, that area is expressed as "X wall." The number X is how many squares are used to make the wall. When you place a wall, you can build it one square at a time, but each square must share at least one side (not just a corner) with another square of the wall. A creature or object must be within the area to be targeted by a wall ability.
-
-You can stack squares on top of each other to make the wall higher. Unless otherwise stated, a wall can't be placed in occupied squares, and a wall blocks line of effect.
-
-> **Straight Lines**
->
-> Talking about a straight line area of effect on an encounter map doesn't mean the line can only be a straight vertical or horizontal line of contiguous squares. It means each square in the line's length must move in the same direction without bending back in an opposite direction. To make a line area quickly, pick your line's origin square, then pick each subsquent square in the line one at a time in a single direction without bending back in an opposite direction.
->
-> Likewise, abilities and effects that require a creature to move in a straight line, such as the [Charge](scc:mcdm.heroes.v1/feature.trait.common.main-actions/charge) main action or [forced movement](scc:mcdm.heroes.v1/movement/forced-movement) that is a push or a pull, don't have to take the form of a straight series of squares on the grid. Simply move the creature one square at a time in a single direction without ever bending back in a direction opposite to where they've already moved.
-
-#### Target
-
-The "Target" entry of an ability, represented by this symbol 🎯, notes the number of creatures, objects, or both who can be targeted by that ability. You can always affect fewer targets than the number indicated by this entry.
-
-##### Creature
-
-If an ability targets one or more creatures, it can affect creatures within the ability's distance or area. You aren't an eligible creature target for your own abilities unless those abilities also have "self" as a target (see below), or unless the ability indicates otherwise.
-
-##### Object
-
-If an ability targets one or more objects, it can affect any object within the ability's distance or area. Unless otherwise noted, objects have poison immunity all and psychic immunity all. \(Damage in Chapter 10: [Combat](scc:mcdm.heroes.v1/chapter/combat) has information on damage immunity.)
-
-When an ability can target creatures and objects, the ability can damage objects. However, unless otherwise noted (as with the [talent's](scc:mcdm.heroes.v1/class/talent) [Minor Telekinesis](scc:mcdm.heroes.v1/feature.ability.talent.level-1/minor-telekinesis) ability) or if the Director allows it, objects are immune to an ability's other effects. If an ability forces an object to make a test, the object automatically gets a tier 1 result on the test.
-
-##### Enemy
-
-If an ability targets one or more enemies, it can affect only creatures who are hostile to the creature using the ability. Typically, you decide who counts as an enemy for the purpose of using your hero's abilities, though the Director has the final say.
-
-##### Ally
-
-If an ability targets one or more allies, it can affect only willing creatures who are friendly to the creature using the ability. Typically, you and any other player whose character you target with an ability decide who counts as an ally, though the Director has the final say.
-
-You aren't an eligible target for your own abilities that target allies unless those abilities also have "self" as a target, or unless the ability indicates otherwise.
-
-##### Self
-
-If an ability targets "self," it can affect only the creature using the ability. Your own abilities can affect you only if they target "self."
-
-##### Each [Target]
-
-If an area ability doesn't provide a number of targets but instead says it applies to each creature, object, enemy, or ally in the area, then all eligible targets for the ability are affected.
-
-> **Telling Friend From Foe**
->
-> There might be times when a foe disguises or obscures themself so that they're temporarily seen as an ally—or at least not seen as an enemy. Until the effect ends, such a creature can't be targeted by abilities that would usually target them by targeting enemies. Fear not, though. All classes have access to at least one ability that targets creatures, whether friend or foe.
-
-#### Ability Roll
-
-If an ability requires a power roll, it has a "Power Roll" entry that tells you which characteristic to add to the 2d10 roll you make when you use the ability. (Chapter 1: [The Basics](scc:mcdm.heroes.v1/chapter/the-basics) talks about power rolls.)
-
-Unlike power rolls made as tests (see Chapter 9), ability rolls always do something useful. You're rolling to determine the impact of the ability, including how much damage it deals and any other effects it imposes based on the tier outcome of the power roll. For instance, the [fury's](scc:mcdm.heroes.v1/class/fury) [Brutal Slam](scc:mcdm.heroes.v1/feature.ability.fury.level-1/brutal-slam) ability is a melee strike that targets one adjacent creature (within 1 square), and which has the following effects:
-
-- **Tier 1 (11 or lower):** The ability deals damage equal to 3 + your Might score, then pushes the target back 1 square.
-- **Tier 2 (12-16):** The ability deals damage equal to 6 + your Might score, then pushes the target back 2 squares.
-- **Tier 3 (17 or higher):** The ability deals damage equal to 9 + your Might score, then pushes the target back 4 squares.
-
-###### Characteristics and Damage
-
-Certain damage-dealing abilities note that damage as a number followed by a plus sign (+) and the letter M, A, R, I, or P. The indicated letter means you add your characteristic score—either Might, Agility, Reason, Intuition, or Presence—to the damage dealt by the ability. Certain abilities let you use your highest characteristic score for the power roll.
-
-Using the [fury's](scc:mcdm.heroes.v1/class/fury) [Brutal Slam](scc:mcdm.heroes.v1/feature.ability.fury.level-1/brutal-slam) ability as an example again, that ability uses a Might power roll and features the following damage expressions in the three tier outcomes of the power roll:
-
-- **≤11:** 3 + M damage
-- **12-16:** 6 + M damage
-- **17+:** 9 + M damage
-
-For a [fury](scc:mcdm.heroes.v1/class/fury) with a Might of 2, the ability's damage breakdown would be:
-
-- **≤11:** 5
-- **12-16:** 8
-- **17+:** 11
-
-The damage for these abilities increases at each echelon of play, since your characteristics improve each time you reach a new echelon.
-
-Some abilities, including your [free strikes](scc:mcdm.heroes.v1/feature.trait.common.main-actions/free-strike), allow you to pick which characteristic score you add to their damage. Such abilities use a format similar to "7 + M or A damage," indicating that you can add your Might or your Agility to determine the damage.
-
-(Chapter 10: [Combat](scc:mcdm.heroes.v1/chapter/combat) has more information on damage.)
-
-##### Abilities With Damage and Effects
-
-Strikes and area abilities can deal damage and have an additional effect on a target. The damage and the strength of the effect are determined by the ability roll.
-
-To keep things moving quickly and to make abilities easy to read during play, damage and effects are separated with a semicolon in a power roll tier entry, with effects abbreviated whenever possible. An effect determined by a power roll always applies to the target unless otherwise specified. For example, the [Brutal Slam](scc:mcdm.heroes.v1/feature.ability.fury.level-1/brutal-slam) ability mentioned above has the following power roll setup in the ability format:
-
-**Power Roll + Might:**
-
-- **≤11:** 3 + M damage; push 1
-- **12-16:** 6 + M damage; push 2
-- **17+:** 9 + M damage; push 4
-
-Unless otherwise indicated, any effects that are determined by a power roll's tier outcome occur after the power roll's damage has been dealt to all targets. If an ability roll deals damage to multiple targets but its effect targets the creature using the ability or the Director, such as [Muse of Fire](scc:mcdm.heroes.v1/feature.ability.elementalist.level-8/muse-of-fire), then the effect only occurs once, not once per target. If different tiered outcomes affect multiple targets, the creature using the ability picks which tier of rolled effect applies to them or the Director. If an ability creates multiple effects, those effects resolve in the order in which they are presented.
-
 #### "During the Move"
 
 Certain ability effects allow you to move and affect other creatures or objects during that move, such as the [shadow's](scc:mcdm.heroes.v1/class/shadow) [One Hundred Throats](scc:mcdm.heroes.v1/feature.ability.shadow.level-1/one-hundred-throats) ability. For such abilities, the move begins in the space you first leave when you start the move and ends in the last space you move into.
-
-#### Rolled Damage
-
-Certain effects talk about rolled damage, which refers to the variable damage determined by making an ability roll. If an ability or effect deals damage without requiring a power roll, that is not rolled damage, and effects that add to or are triggered by rolled damage don't apply.
-
-#### Potencies
-
-Many abilities and other effects impose conditions and unique statuses on targets. But creatures sometimes get a chance to resist such effects. After all, a monster with a high Might should be harder to knock [prone](scc:mcdm.heroes.v1/condition/prone) most of the time than a creature lacking in that characteristic.
-
-Ability effects that have a **potency** are applied to a target only if the effect's potency value is higher than the target's indicated characteristic score. The characteristic a target uses to resist a potency is based on the ability used, while the value of the potency for your hero's abilities is based on one of your characteristics and determined by your class.
-
-Your character has a **weak**, an **average**, and a **strong** potency value, as follows:
-
-- Your weak potency value is equal to your highest characteristic score − 2.
-- Your average potency value is equal to your highest characteristic score − 1.
-- Your strong potency value is equal to your highest characteristic score.
-
-In abilities and other effects, a potency always appears as the single-letter abbreviation for the target's characteristic: M for Might, A for Agility, R for Reason, I for Intuition, or P for Presence. That characteristic is followed by a "less than" sign (<) and your potency value—for example, M < WEAK or R < AVERAGE -with the value indicating the minimum score in that characteristic that the target needs to beat the effect.
-
-As an example, consider the [conduit's](scc:mcdm.heroes.v1/class/conduit) Judgment's Hammer ability, which has the following power roll:
-
-**Power Roll + Intuition:**
-
-- **≤11:** 3 + I holy damage; A < WEAK, [prone](scc:mcdm.heroes.v1/condition/prone)
-- **12-16:** 6 + I holy damage; A < AVERAGE, [prone](scc:mcdm.heroes.v1/condition/prone)
-- **17+:** 9 + I holy damage; A < STRONG, [prone](scc:mcdm.heroes.v1/condition/prone) and can't stand (save ends)
-
-At 1st level, a [conduit](scc:mcdm.heroes.v1/class/conduit) uses their Intuition score to determine their potency values, and that score is 2. That gives the [conduit](scc:mcdm.heroes.v1/class/conduit) the following potencies:
-
-- Weak: 0
-- Average: 1
-- Strong: 2
-
-When writing Judgment's Hammer on their character sheet, the [conduit's](scc:mcdm.heroes.v1/class/conduit) player updates the damage and converts the weak, average, and strong potencies into their numerical values, knowing that those values won't change until the character hits 2nd echelon and their Intuition score becomes 3. That produces the following:
-
-**Power Roll + Intuition:**
-
-- **≤11:** 5 holy damage; A < 0, [prone](scc:mcdm.heroes.v1/condition/prone)
-- **12-16:** 8 holy damage; A < 1, [prone](scc:mcdm.heroes.v1/condition/prone)
-- **17+:** 11 holy damage; A < 2, [prone](scc:mcdm.heroes.v1/condition/prone) and can't stand (save ends)
-
-During a game session, the [conduit](scc:mcdm.heroes.v1/class/conduit) uses Judgment's Hammer to target a bandit with an Agility score of 0. The ability thus has the following outcomes at each tier:
-
-- With a tier 1 outcome (11 or lower), the ability deals 5 holy damage to the bandit. But the bandit resists the additional effect because they have Agility 0 (and therefore don't have an Agility of less than 0).
-- With a tier 2 outcome (12-16), the ability deals 8 holy damage. But the bandit is also knocked [prone](scc:mcdm.heroes.v1/condition/prone), unable to resist the additional effect because they would need an Agility of 1 or higher to do so. If the bandit had Agility 1 or higher, they would have taken 8 holy damage but stayed standing.
-- With a tier 3 outcome (17 or higher), the bandit takes 11 holy damage and is knocked flat and left struggling to stand, unable to resist the strong potency of the additional effect with a mere Agility 0.
-
-##### Potency Presentation
-
-Potencies are presented in an abbreviated style in abilities so they don't take up too much space, and so you can read them by saying: "If the target's [characteristic] is less than [potency value], they [suffer effect]." If our 1st-level [conduit](scc:mcdm.heroes.v1/class/conduit) obtained a tier 2 outcome when using Judgment's Hammer, the player would say, "I deal 8 holy damage, and if the bandit's Agility is less than 1, they fall [prone](scc:mcdm.heroes.v1/condition/prone)."
-
-Reading the ability this way prevents a lot of back and forth. You don't need to ask, "What's the target's Agility score?", wait for a response, and then give the outcome. You can simply say, "If they don't have an Agility of 1 or higher, they [fall prone](scc:mcdm.heroes.v1/condition/prone)." Players can let the Director figure out whether the target [is prone](scc:mcdm.heroes.v1/condition/prone) and keep the game moving, with the Director doing the same in reverse when monsters and other foes use abilities with potencies against the heroes.
-
-##### Adjusting Potencies
-
-Potencies are made for quick resolution at the table, but a number of triggered actions and other abilities—for example, the [censor's](scc:mcdm.heroes.v1/class/censor) Judgment ability and the [null's](scc:mcdm.heroes.v1/class/null) [Null Field](scc:mcdm.heroes.v1/feature.trait.null.level-1/null-field) ability—allow you to manipulate the value of potencies. If you build a hero who can adjust potencies, pay attention during combat! You might be able to help out a friend who needs a little boost to make their ability take full effect, or hinder an enemy about to lock down one of your allies.
-
-##### Spending Resources on Potencies
-
-If an ability or feature allows you to spend your Heroic Resource on an effect that is entirely dependent on a potency and the target is unaffected because their characteristic is high enough to resist the potency, then you don't spend the Heroic Resource.
-
-For example, the [tactician's](scc:mcdm.heroes.v1/class/tactician) Overwatch ability allows the [tactician](scc:mcdm.heroes.v1/class/tactician) to spend 1 focus to impose the [slowed](scc:mcdm.heroes.v1/condition/slowed) condition on a target who has R < AVERAGE. Since spending focus this way has no other effect, if the [tactician](scc:mcdm.heroes.v1/class/tactician) targets a creature whose high Reason leaves them unaffected, the [tactician](scc:mcdm.heroes.v1/class/tactician) doesn't waste any focus. However, if spending this focus had another automatic effect such as dealing extra damage to the target, the 1 focus would be spent even though the potency was resisted.
-
-This rule also applies to Director-controlled creatures who spend Malice on abilities and features that affect a target using a potency and have no other automatic effects.
-
-#### Critical Hit
-
-Whenever you make an ability roll as a main action and the roll is a natural 19 or natural 20-a total of 19 or 20 before adding your characteristic score or other modifiers—you score a critical hit. A critical hit allows you to immediately take an additional main action after resolving the power roll, whether or not it's your turn and even if you are [dazed](scc:mcdm.heroes.v1/condition/dazed) (see Conditions below).
-
-You can't score a critical hit with an ability roll made as a maneuver or any other action type, but you can score a critical hit with a main action you use off your turn. For example, an opportunity attack made as a triggered action or a signature ability used as a free triggered action with the assistance of the [tactician's](scc:mcdm.heroes.v1/class/tactician) [Strike Now](scc:mcdm.heroes.v1/feature.ability.tactician.level-1/strike-now) ability can be critical hits.
 
 #### Roll Against Multiple Creatures
 
 When an ability has multiple targets (whether a strike with more than one target or an area affect), you make one power roll and apply the total to all targets. If you have edges or banes (see Chapter 1: [The Basics](scc:mcdm.heroes.v1/chapter/the-basics)) against some but not all of your targets, you might apply a different tier outcome to individual targets.
 
 For example, if you target three creatures with a strike ability and the power roll totals 11, each of the targets should be affected by the tier 1 outcome of the ability. However, if you gain an edge on strikes against one of the targets to add 2 to the power roll, your total against that target is 13, and they are affected by the tier 2 outcome of the ability.
-
-#### Surges
-
-A [troubadour's](scc:mcdm.heroes.v1/class/troubadour) battle song, a [fury's](scc:mcdm.heroes.v1/class/fury) building ferocity, and a [shadow's](scc:mcdm.heroes.v1/class/shadow) patient insight can all make a hero more effective in a fight. These advantages are represented by surges, with many abilities granting heroes surges during a battle.
-
-When you gain surges, you keep track of them on your character sheet. Surges can be used in combat to deal extra damage to your foes and increase the value of your potencies, as follows:
-
-- Whenever you deal rolled damage, you can spend up to 3 surges to deal extra damage to one creature or object targeted by the ability. Each surge you spend deals extra damage equal to your highest characteristic score.
-- Whenever you target one or more creatures with an ability that has a potency, you can spend 2 surges to increase the potency by 1 for one target. You can't increase a potency by more than 1 using surges, though you can spend additional surges to increase the potency for multiple targets.
-
-You lose surges as you spend them. At the end of combat, you lose any surges you have remaining.
 
 #### Effect
 
@@ -382,16 +101,6 @@ Different effects that impose the same condition (see Conditions below) don't st
 
 When a creature suffers a lasting effect, whatever ability, feature, hazard, or other mechanic imposed the effect specifies how long the effect lasts. Unless otherwise noted, all effects and conditions that are imposed on heroes during a combat encounter end when the encounter is over if the hero wants them to, except for being winded, unconscious, or dying. After combat, effects and conditions imposed on other creatures end when it's convenient for the heroes, allowing characters to easily bind or slip away from unconscious foes. However, the Director is free to decide that an unconscious dragon doesn't stay that way long enough to be tied up.
 
-##### End of Next Turn (EoT)
-
-Many effects last until the end of the target's next turn, abbreviated as "(EoT)" in the tier outcomes for an ability's power roll. A creature suffers from such an effect until the end of their next turn, or the end of their current turn if the effect was imposed on their current turn.
-
-##### Saving Throw (Save Ends)
-
-If an effect has "(save ends)" at the end of its description, a creature suffering the effect makes a saving throw at the end of each of their turns to remove the effect. A saving throw represents the sheer luck involved in shaking off an effect. Because a target typically had a chance to avoid a "save ends" effect using a characteristic score to resist a potency, it's now down to fate.
-
-To make a saving throw, a creature rolls a d10. On a 6 or higher, the effect ends. Otherwise, it continues.
-
 ##### End of Encounter
 
 Some effects last until the end of the encounter. If such an effect is used outside of combat, it lasts 5 minutes.
@@ -400,33 +109,9 @@ Some effects last until the end of the encounter. If such an effect is used outs
 
 A creature who imposes an effect on another creature using an ability can end that effect as a free maneuver unless the ability says otherwise.
 
-##### Adjacent
-
-Many abilities and other options refer to creatures, objects, or spaces that are adjacent to a specified creature. Something is adjacent to a creature if it is within 1 square of that creature.
-
-#### Line of Effect
-
-To target a creature or object with an ability or effect, including making a strike against them, you must have line of effect to that target. If any solid object, such as a wall or pillar, completely blocks the target from you, then you don't have line of effect.
-
-If you're not sure whether you have line of effect to a target, imagine drawing a straight line from any corner of the space you occupy on an encounter map to any corner of a space the target occupies. If one or more corners of your space connect to any corner of the target's space with no obstruction in between, you have line of effect to the target.
-
-At the Director's discretion, flimsy or fragile obstructions such as a glass window or linen curtains don't block line of effect, and might be automatically broken or torn by strikes or other abilities used through them.
-
-If you use an ability that creates an environmental effect, such as a portal, you must have line of effect to the space where you create the environmental effect. If you want to create an area of effect in a specific area, you must have line of effect to at least one of the squares in that area. See Area Abilities above.
-
 #### Straight Line
 
 Whenever a creature moves or is subjected to [forced movement](scc:mcdm.heroes.v1/movement/forced-movement)—a push, pull, or slide (see Chapter 10: [Combat](scc:mcdm.heroes.v1/chapter/combat))—that movement is typically in a straight line. Abilities that allow you to move or to force move another creature often talk about moving straight toward or away from a creature or an object. But even when movement must be in a straight line, it doesn't have to be a horizontal or vertical line on an encounter map. (See the Straight Lines sidebar earlier in this chapter.)
-
-#### Ground and Ceiling
-
-Some abilities and other effects refer to a hero or their targets being "on the ground." Unless otherwise indicated, "ground" means any surface a creature could typically stand, sit, or lie upon, whether a castle's stone floor, the dirt of a road, the deck of a ship, or a metal platform suspended high in the air.
-
-Likewise, if an effect refers to a "ceiling," that means any solid surface above a creature, whether a wooden tavern ceiling, the rocky roof of a cave, or an invisible wall of force.
-
-#### Conditions
-
-Some abilities and other effects apply specific negative effects called conditions to a creature. The following conditions show up regularly in the game and can be tracked on your character sheet when they affect your hero.
 
 #### Abilities in Class Tables
 

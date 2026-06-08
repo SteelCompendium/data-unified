@@ -71,12 +71,6 @@ If any [forced movement](scc:mcdm.heroes.v1/movement/forced-movement) remains af
 
 If you can't [fly](scc:mcdm.heroes.v1/movement/fly) and are force moved across an open space that would cause you to fall, such as being pushed over the edge of a cliff, you continue moving the total distance you were moved first. If you are still in a position to fall when the [forced movement](scc:mcdm.heroes.v1/movement/forced-movement) ends, you fall.
 
-##### Stability
-
-Each creature has a stability that allows them to resist [forced movement](scc:mcdm.heroes.v1/movement/forced-movement). When a creature is force moved, they can reduce that movement up to a number of squares equal to their stability. Heroes start with stability 0 and can increase their stability through ancestry, class, and kit options.
-
-A creature's stability can't be less than 0, even when reduced by a penalty.
-
 ##### "When a Creature Moves..."
 
 Certain abilities and effects trigger when a creature moves into a particular area. [Forced movement](scc:mcdm.heroes.v1/movement/forced-movement) triggers these options unless otherwise noted, including an effect stating that a creature must willingly move to trigger it.

@@ -18,10 +18,11 @@
 - [Negotiation](negotiation.md) (12 items)
 - [Perk](perk.md) (55 items)
 - [Project](project.md) (16 items)
+- [Rule](rule.md) (108 items)
 - [Skill](skill.md) (57 items)
 - [Statblock](statblock.md) (437 items)
 - [Title](title.md) (61 items)
 - [Trait](trait.md) (875 items)
 - [Treasure](treasure.md) (114 items)
 
-Total items: 2626
+Total items: 2734

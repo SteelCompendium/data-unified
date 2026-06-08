@@ -249,12 +249,6 @@ How tall is a [polder](scc:mcdm.heroes.v1/ancestry/polder)? How long does a [dwa
 | [Polder](scc:mcdm.heroes.v1/ancestry/polder)        | 3'3''-3'6''               | 20-50               | 50-90                       |
 | [Time Raider](scc:mcdm.heroes.v1/ancestry/time-raider)   | 5'0''-6'0''               | 120-250             | 50-90                       |
 
-### Starting Size and Speed
-
-Unless otherwise noted, a character of any of these ancestries is size 1M and has speed 5 and stability 0.
-
-Where an ancestry provides you with an ability, see Abilities in Chapter 5: [Classes](scc:mcdm.heroes.v1/chapter/classes) for details of the ability format.
-
 ### Ancestry Traits
 
 Each ancestry has one or more signature traits, which your hero gets for free if they take that ancestry. This is a defining feature that other heroes of your ancestry also possess.
