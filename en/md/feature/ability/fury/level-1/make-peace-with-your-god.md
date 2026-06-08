@@ -3,7 +3,7 @@ action_type: Free maneuver
 class: fury
 cost: 5 Ferocity
 distance: Self
-effect: You gain 1 surge, and the next ability roll you make this turn automatically obtains a tier 3 outcome.
+effect: You gain 1 [surge](scc:mcdm.heroes.v1/rule.resource/surge), and the next ability roll you make this turn automatically obtains a tier 3 outcome.
 flavor: Anger is your energy.
 keywords:
     - '-'
@@ -21,4 +21,4 @@ type: ability
 |-------------|------------------:|
 | **📏 Self** |       **🎯 Self** |
 
-**Effect:** You gain 1 surge, and the next ability roll you make this turn automatically obtains a tier 3 outcome.
+**Effect:** You gain 1 [surge](scc:mcdm.heroes.v1/rule.resource/surge), and the next ability roll you make this turn automatically obtains a tier 3 outcome.

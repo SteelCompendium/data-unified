@@ -1,6 +1,6 @@
 ---
 echelon: "1"
-effect: When you drink this potion as a maneuver, you regain Stamina equal to your recovery value without spending a Recovery.
+effect: When you drink this potion as a maneuver, you regain [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) equal to your [recovery value](scc:mcdm.heroes.v1/rule.health/recoveries) without spending a [Recovery](scc:mcdm.heroes.v1/rule.health/recoveries).
 keywords:
     - Magic
     - Potion
@@ -22,4 +22,4 @@ type: treasure
 
 **Project Goal:** 45
 
-**Effect:** When you drink this potion as a maneuver, you regain Stamina equal to your recovery value without spending a Recovery.
+**Effect:** When you drink this potion as a maneuver, you regain [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) equal to your [recovery value](scc:mcdm.heroes.v1/rule.health/recoveries) without spending a [Recovery](scc:mcdm.heroes.v1/rule.health/recoveries).

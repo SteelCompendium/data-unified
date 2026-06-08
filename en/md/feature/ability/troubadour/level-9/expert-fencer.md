@@ -3,7 +3,7 @@ action_type: Main action
 class: troubadour
 cost: 11 Drama
 distance: Melee 3
-effect: This ability can't obtain better than a tier 2 outcome unless the target is at maximum distance. If you obtain a tier 3 outcome with a natural 17 or higher, you gain 3 surges that you can use immediately.
+effect: This ability can't obtain better than a tier 2 outcome unless the target is at maximum distance. If you obtain a tier 3 outcome with a natural 17 or higher, you gain 3 [surges](scc:mcdm.heroes.v1/rule.resource/surge) that you can use immediately.
 flavor: If you can land the strike, the crowd goes wild.
 keywords:
     - Charge
@@ -34,4 +34,4 @@ type: ability
 - **12-16:** 21 + A damage
 - **17+:** 28 + A damage; M < STRONG, [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
 
-**Effect:** This ability can't obtain better than a tier 2 outcome unless the target is at maximum distance. If you obtain a tier 3 outcome with a natural 17 or higher, you gain 3 surges that you can use immediately.
+**Effect:** This ability can't obtain better than a tier 2 outcome unless the target is at maximum distance. If you obtain a tier 3 outcome with a natural 17 or higher, you gain 3 [surges](scc:mcdm.heroes.v1/rule.resource/surge) that you can use immediately.

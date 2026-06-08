@@ -4,7 +4,7 @@ scc: mcdm.heroes.v1/rule.treasure/enhancement
 type: rule
 ---
 
-Armor imbued with an enhancement grants you special benefits while it is worn. Additionally, when your armor receives its 1st-level enhancement, it also grants a +6 bonus to Stamina. A 5th-level enhancement increases the Stamina bonus to +12, and a 9th-level enhancement increases it to +21.
+Armor imbued with an enhancement grants you special benefits while it is worn. Additionally, when your armor receives its 1st-level enhancement, it also grants a +6 bonus to [Stamina](scc:mcdm.heroes.v1/rule.health/stamina). A 5th-level enhancement increases the [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) bonus to +12, and a 9th-level enhancement increases it to +21.
 
 > **Clothing as Armor Treasures**
 >
@@ -67,11 +67,11 @@ Armor imbued with an enhancement grants you special benefits while it is worn. A
 
 **Absorption:** Whenever you are targeted by a magic or psionic ability that targets only one creature, you can use a free triggered action to cause this armor to absorb the ability after the ability's effects resolve. While the armor has an ability absorbed, you can't absorb another.
 
-You can use an absorbed ability as if you knew it, making power rolls for the ability using your choice of Reason, Intuition, or Presence. You don't need to spend any Heroic Resource to activate the ability. Once you use the ability, the armor loses it, and you can absorb another.
+You can use an absorbed ability as if you knew it, making power rolls for the ability using your choice of Reason, Intuition, or Presence. You don't need to spend any [Heroic Resource](scc:mcdm.heroes.v1/rule.resource/heroic-resource) to activate the ability. Once you use the ability, the armor loses it, and you can absorb another.
 
 **Damage Immunity II:** The damage immunity conveyed by the armor increases to 10.
 
-**Dragon Soul:** When another creature causes you to be winded or dying, you can use a free triggered action to cause the soul of a dragon to emerge from this armor and hurtle toward the creature. Make the following power roll against the creature.
+**Dragon Soul:** When another creature causes you to be [winded](scc:mcdm.heroes.v1/rule.health/winded) or [dying](scc:mcdm.heroes.v1/rule.health/dying), you can use a free triggered action to cause the soul of a dragon to emerge from this armor and hurtle toward the creature. Make the following power roll against the creature.
 
 **Power Roll + Your Highest Characteristic Score:**
 
@@ -89,7 +89,7 @@ You can use an absorbed ability as if you knew it, making power rolls for the ab
 
 **Reactive:** Whenever you take damage, you have damage immunity 2 until the end of your next turn after the triggering damage is resolved.
 
-**Second Wind:** Whenever you become winded, you can use a free triggered action to spend a Recovery.
+**Second Wind:** Whenever you become [winded](scc:mcdm.heroes.v1/rule.health/winded), you can use a free triggered action to spend a [Recovery](scc:mcdm.heroes.v1/rule.health/recoveries).
 
 **Shattering:** Whenever an enemy scores a critical hit against you, they take 10 sonic damage.
 
@@ -121,9 +121,9 @@ You can use an absorbed ability as if you knew it, making power rolls for the ab
 
 **Project Goal:** 150
 
-**Devil's Bargain:** You can [fly](scc:mcdm.heroes.v1/movement/fly). Additionally, if an effect would make you [prone](scc:mcdm.heroes.v1/condition/prone) while [flying](scc:mcdm.heroes.v1/movement/fly), you can choose to not make you [prone](scc:mcdm.heroes.v1/condition/prone) by losing Stamina equal to the distance you would have fallen from make you [prone](scc:mcdm.heroes.v1/condition/prone).
+**Devil's Bargain:** You can [fly](scc:mcdm.heroes.v1/movement/fly). Additionally, if an effect would make you [prone](scc:mcdm.heroes.v1/condition/prone) while [flying](scc:mcdm.heroes.v1/movement/fly), you can choose to not make you [prone](scc:mcdm.heroes.v1/condition/prone) by losing [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) equal to the distance you would have fallen from make you [prone](scc:mcdm.heroes.v1/condition/prone).
 
-**Dragon Soul II:** While you are winded, your head transforms into a dragon's head and you have the following ability.
+**Dragon Soul II:** While you are [winded](scc:mcdm.heroes.v1/rule.health/winded), your head transforms into a dragon's head and you have the following ability.
 
 ###### 9th-Level Armor Enhancements Table
 

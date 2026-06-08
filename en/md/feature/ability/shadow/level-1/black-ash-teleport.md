@@ -2,7 +2,7 @@
 action_type: Maneuver
 class: shadow
 distance: Self
-effect: You [teleport](scc:mcdm.heroes.v1/movement/teleport) up to 5 squares. If you have concealment or cover at your destination, you can use the [Hide](scc:mcdm.heroes.v1/feature.trait.common.maneuvers/hide) maneuver even if you are observed. If you successfully hide using this maneuver, you gain 1 surge.
+effect: You [teleport](scc:mcdm.heroes.v1/movement/teleport) up to 5 squares. If you have [concealment](scc:mcdm.heroes.v1/rule.combat/concealment) or [cover](scc:mcdm.heroes.v1/rule.combat/cover) at your destination, you can use the [Hide](scc:mcdm.heroes.v1/feature.common.maneuvers/hide) maneuver even if you are observed. If you successfully hide using this maneuver, you gain 1 [surge](scc:mcdm.heroes.v1/rule.resource/surge).
 flavor: In a swirl of black ash, you step from one place to another.
 keywords:
     - Magic
@@ -21,6 +21,6 @@ type: ability
 |-------------|-------------:|
 | **📏 Self** |  **🎯 Self** |
 
-**Effect:** You [teleport](scc:mcdm.heroes.v1/movement/teleport) up to 5 squares. If you have concealment or cover at your destination, you can use the [Hide](scc:mcdm.heroes.v1/feature.trait.common.maneuvers/hide) maneuver even if you are observed. If you successfully hide using this maneuver, you gain 1 surge.
+**Effect:** You [teleport](scc:mcdm.heroes.v1/movement/teleport) up to 5 squares. If you have [concealment](scc:mcdm.heroes.v1/rule.combat/concealment) or [cover](scc:mcdm.heroes.v1/rule.combat/cover) at your destination, you can use the [Hide](scc:mcdm.heroes.v1/feature.common.maneuvers/hide) maneuver even if you are observed. If you successfully hide using this maneuver, you gain 1 [surge](scc:mcdm.heroes.v1/rule.resource/surge).
 
 **Spend 1+ Insight:** You [teleport](scc:mcdm.heroes.v1/movement/teleport) 1 additional square for each insight spent.

@@ -2,7 +2,7 @@
 action_type: Main action
 class: conduit
 distance: Melee 1
-effect: You or one ally within distance can spend a Recovery.
+effect: You or one ally within distance can spend a [Recovery](scc:mcdm.heroes.v1/rule.health/recoveries).
 flavor: You drain the energy from your target to revitalize yourself or an ally.
 keywords:
     - Magic
@@ -33,4 +33,4 @@ type: ability
 - **12-16:** 5 + I corruption damage
 - **17+:** 7 + I corruption damage
 
-**Effect:** You or one ally within distance can spend a Recovery.
+**Effect:** You or one ally within distance can spend a [Recovery](scc:mcdm.heroes.v1/rule.health/recoveries).

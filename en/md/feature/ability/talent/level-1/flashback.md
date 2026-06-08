@@ -3,7 +3,7 @@ action_type: Maneuver
 class: talent
 cost: 5 Clarity
 distance: Ranged 10
-effect: The target uses an ability with a base Heroic Resource cost of 7 or lower that they've previously used this round, without needing to spend the base cost. Augmentations to the ability can be paid for as usual.
+effect: The target uses an ability with a base [Heroic Resource](scc:mcdm.heroes.v1/rule.resource/heroic-resource) cost of 7 or lower that they've previously used this round, without needing to spend the base cost. Augmentations to the ability can be paid for as usual.
 flavor: The target is thrown several seconds back through time and gets to do it all again.
 keywords:
     - Chronopathy
@@ -23,6 +23,6 @@ type: ability
 |----------------------------------|------------------------:|
 | **📏 Ranged 10**                 | **🎯 Self or one ally** |
 
-**Effect:** The target uses an ability with a base Heroic Resource cost of 7 or lower that they've previously used this round, without needing to spend the base cost. Augmentations to the ability can be paid for as usual.
+**Effect:** The target uses an ability with a base [Heroic Resource](scc:mcdm.heroes.v1/rule.resource/heroic-resource) cost of 7 or lower that they've previously used this round, without needing to spend the base cost. Augmentations to the ability can be paid for as usual.
 
 **Strained:** You take 1d6 damage and are [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends).

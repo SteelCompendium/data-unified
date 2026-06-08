@@ -6,7 +6,6 @@ melee_distance_bonus: "+1"
 name: Retiarius
 scc: mcdm.heroes.v1/kit/retiarius
 speed_bonus: "+1"
-stamina_bonus: +3 per echelon
 type: kit
 ---
 
@@ -18,7 +17,7 @@ You wear light armor and wield several ensnaring weapons and a polearm.
 
 ##### Kit Bonuses
 
-**Stamina Bonus:** +3 per echelon
+**[Stamina](scc:mcdm.heroes.v1/rule.health/stamina) Bonus:** +3 per echelon
 
 **Speed Bonus:** +1
 

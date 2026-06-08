@@ -2,7 +2,7 @@
 action_type: Main action
 class: fury
 distance: Melee 1
-effect: You gain 2 surges, and the target can make an opportunity attack against you as a free triggered action.
+effect: You gain 2 [surges](scc:mcdm.heroes.v1/rule.resource/surge), and the target can make an opportunity attack against you as a free triggered action.
 flavor: Your reckless assault leaves you tactically vulnerable.
 keywords:
     - Melee
@@ -33,4 +33,4 @@ type: ability
 - **12-16:** 6 + M damage
 - **17+:** 9 + M damage
 
-**Effect:** You gain 2 surges, and the target can make an opportunity attack against you as a free triggered action.
+**Effect:** You gain 2 [surges](scc:mcdm.heroes.v1/rule.resource/surge), and the target can make an opportunity attack against you as a free triggered action.

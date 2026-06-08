@@ -8,4 +8,4 @@ Darkness, fog, invisibility magic, and any other effect that fully obscures a cr
 
 #### Invisible Creatures
 
-Invisible creatures always have concealment from other creatures. If an invisible creature isn't hidden, they can still be targeted by abilities. The test made to find a hidden creature who is invisible takes a bane.
+Invisible creatures always have [concealment](scc:mcdm.heroes.v1/rule.combat/concealment) from other creatures. If an invisible creature isn't hidden, they can still be targeted by abilities. The test made to find a hidden creature who is invisible takes a bane.

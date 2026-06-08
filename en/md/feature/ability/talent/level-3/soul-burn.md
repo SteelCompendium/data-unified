@@ -36,4 +36,4 @@ type: ability
 
 **Effect:** The target takes a bane on Presence tests until the end of the encounter.
 
-**Strained:** The potency of this ability increases by 1. You take 2d6 damage and gain 3 surges that you can use immediately.
+**Strained:** The potency of this ability increases by 1. You take 2d6 damage and gain 3 [surges](scc:mcdm.heroes.v1/rule.resource/surge) that you can use immediately.

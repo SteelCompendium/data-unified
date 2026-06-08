@@ -1,6 +1,6 @@
 ---
 echelon: "4"
-effect: When opened as a maneuver, this vial bursts into a storm of multicolored lights. You and each ally within 5 squares of you regain 1d6 Recoveries. However, any mortal using this treasure draws the interest of a powerful fey noble.
+effect: When opened as a maneuver, this vial bursts into a storm of multicolored lights. You and each ally within 5 squares of you regain 1d6 [Recoveries](scc:mcdm.heroes.v1/rule.health/recoveries). However, any mortal using this treasure draws the interest of a powerful fey noble.
 keywords:
     - Magic
 name: Restorative of the Bright Court
@@ -21,4 +21,4 @@ type: treasure
 
 **Project Goal:** 360
 
-**Effect:** When opened as a maneuver, this vial bursts into a storm of multicolored lights. You and each ally within 5 squares of you regain 1d6 Recoveries. However, any mortal using this treasure draws the interest of a powerful fey noble.
+**Effect:** When opened as a maneuver, this vial bursts into a storm of multicolored lights. You and each ally within 5 squares of you regain 1d6 [Recoveries](scc:mcdm.heroes.v1/rule.health/recoveries). However, any mortal using this treasure draws the interest of a powerful fey noble.

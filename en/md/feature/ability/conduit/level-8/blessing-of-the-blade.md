@@ -3,7 +3,7 @@ action_type: Maneuver
 class: conduit
 cost: 11 Piety
 distance: 5 aura
-effect: At the end of each of your turns until the end of the encounter or until you are dying, each target gains 3 surges.
+effect: At the end of each of your turns until the end of the encounter or until you are [dying](scc:mcdm.heroes.v1/rule.health/dying), each target gains 3 [surges](scc:mcdm.heroes.v1/rule.resource/surge).
 flavor: '"The power of the gods is within you, friends. Allow me to unleash it."'
 keywords:
     - Area
@@ -22,4 +22,4 @@ type: ability
 |-------------------|--------------------------------------:|
 | **📏 5 aura**     | **🎯 Self and each ally in the area** |
 
-**Effect:** At the end of each of your turns until the end of the encounter or until you are dying, each target gains 3 surges.
+**Effect:** At the end of each of your turns until the end of the encounter or until you are [dying](scc:mcdm.heroes.v1/rule.health/dying), each target gains 3 [surges](scc:mcdm.heroes.v1/rule.resource/surge).

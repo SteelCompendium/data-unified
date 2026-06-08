@@ -3,7 +3,7 @@ action_type: Free triggered
 class: tactician
 cost: 11 Focus
 distance: Ranged 10
-effect: The target is killed. Additionally, the creature who caused the target to be winded can spend a Recovery.
+effect: The target is killed. Additionally, the creature who caused the target to be [winded](scc:mcdm.heroes.v1/rule.health/winded) can spend a [Recovery](scc:mcdm.heroes.v1/rule.health/recoveries).
 flavor: You point out an opening to your ally so they can land a killing blow.
 keywords:
     - Ranged
@@ -12,7 +12,7 @@ name: Finish Them!
 scc: mcdm.heroes.v1/feature.ability.tactician.level-8/finish-them
 subtype: triggered
 target: One creature
-trigger: The target is not a leader or solo creature, and becomes winded.
+trigger: The target is not a leader or solo creature, and becomes [winded](scc:mcdm.heroes.v1/rule.health/winded).
 type: ability
 ---
 
@@ -23,6 +23,6 @@ type: ability
 |------------------|--------------------:|
 | **📏 Ranged 10** | **🎯 One creature** |
 
-**Trigger:** The target is not a leader or solo creature, and becomes winded.
+**Trigger:** The target is not a leader or solo creature, and becomes [winded](scc:mcdm.heroes.v1/rule.health/winded).
 
-**Effect:** The target is killed. Additionally, the creature who caused the target to be winded can spend a Recovery.
+**Effect:** The target is killed. Additionally, the creature who caused the target to be [winded](scc:mcdm.heroes.v1/rule.health/winded) can spend a [Recovery](scc:mcdm.heroes.v1/rule.health/recoveries).

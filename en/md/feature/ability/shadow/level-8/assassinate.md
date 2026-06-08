@@ -3,7 +3,7 @@ action_type: Main action
 class: shadow
 cost: 11 Insight
 distance: Melee 1
-effect: A target who is not a minion, leader, or solo creature and who is winded after taking this damage is reduced to 0 Stamina.
+effect: A target who is not a minion, leader, or solo creature and who is [winded](scc:mcdm.heroes.v1/rule.health/winded) after taking this damage is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina).
 flavor: A practiced attack will instantly kill an already weakened foe.
 keywords:
     - Melee
@@ -33,4 +33,4 @@ type: ability
 - **12-16:** 18 + A damage
 - **17+:** 24 + A damage
 
-**Effect:** A target who is not a minion, leader, or solo creature and who is winded after taking this damage is reduced to 0 Stamina.
+**Effect:** A target who is not a minion, leader, or solo creature and who is [winded](scc:mcdm.heroes.v1/rule.health/winded) after taking this damage is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina).

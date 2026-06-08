@@ -28,13 +28,13 @@ An implement imbued with an enhancement grants you special benefits while it is 
 
 **Rat Form:** As a maneuver, you transform into a rat. Your equipment transforms with you. As a rat, you have speed 5 and can automatically climb at full speed while moving, your size is 1T, and you can see in the dark. You can speak and keep your skills while in rat form, but your Might is −5 and you lose all your regular abilities, features, and benefits. You can revert to your natural form as a maneuver, and do so automatically if you take any damage.
 
-**Rejuvenating I:** Whenever you use an ability that costs 1 or more of your Heroic Resource, roll a d10. On a 9 or higher, you gain 1 Heroic Resource.
+**Rejuvenating I:** Whenever you use an ability that costs 1 or more of your [Heroic Resource](scc:mcdm.heroes.v1/rule.resource/heroic-resource), roll a d10. On a 9 or higher, you gain 1 [Heroic Resource](scc:mcdm.heroes.v1/rule.resource/heroic-resource).
 
 **Seeking:** Your ranged magic or psionic abilities gain a +2 distance bonus. Additionally, if you think the name of a specific creature, place, or object to the implement, the implement points toward that target, provided you are on the same world.
 
 **Thought Sending:** Your ranged magic and psionic abilities gain a +2 distance bonus. Additionally, you can telepathically communicate with any willing creature who knows a language and whose name you know, provided they are on the same world as you. You must initiate the conversation, but once you do, the creature can respond until you end the conversation.
 
-**Warding I:** You gain a +6 bonus to Stamina.
+**Warding I:** You gain a +6 bonus to [Stamina](scc:mcdm.heroes.v1/rule.health/stamina).
 
 ###### 1st-Level Implement Enhancements Table
 
@@ -60,7 +60,7 @@ An implement imbued with an enhancement grants you special benefits while it is 
 
 **Project Goal:** 150
 
-**Celerity:** Immediately after using a magic or psionic ability that requires a main action, you can [shift](scc:mcdm.heroes.v1/movement/shifting) up to 3 squares, or you can use the [Escape Grab](scc:mcdm.heroes.v1/feature.trait.common.maneuvers/escape-grab) maneuver as a free maneuver (see Maneuvers in Chapter 10: [Combat](scc:mcdm.heroes.v1/chapter/combat)).
+**Celerity:** Immediately after using a magic or psionic ability that requires a main action, you can [shift](scc:mcdm.heroes.v1/movement/shifting) up to 3 squares, or you can use the [Escape Grab](scc:mcdm.heroes.v1/feature.common.maneuvers/escape-grab) maneuver as a free maneuver (see Maneuvers in Chapter 10: [Combat](scc:mcdm.heroes.v1/chapter/combat)).
 
 **Celestine:** As a main action, you conjure up to three stars, which [hover](scc:mcdm.heroes.v1/movement/hover) in unoccupied squares of your choice within 5 squares of you. The stars remain in place, and disappear if you create more stars. When an enemy enters any star's space, the star detonates and is destroyed, and the enemy takes 10 fire damage. If you have line of effect to the enemy, you can also slide them 1 square. Otherwise, the enemy slides 1 square in a random direction.
 
@@ -74,9 +74,9 @@ An implement imbued with an enhancement grants you special benefits while it is 
 
 **Lingering I:** Whenever you damage a creature using a magic or psionic ability and obtain a tier 3 outcome, that creature takes 8 damage at the start of your next turn.
 
-**Rejuvenating II:** Whenever you use an ability that costs 1 or more of your Heroic Resource, roll a d10. On an 8 or higher, you gain 1 Heroic Resource and you can spend a Recovery. This replaces the benefit of Rejuvenating I.
+**Rejuvenating II:** Whenever you use an ability that costs 1 or more of your [Heroic Resource](scc:mcdm.heroes.v1/rule.resource/heroic-resource), roll a d10. On an 8 or higher, you gain 1 [Heroic Resource](scc:mcdm.heroes.v1/rule.resource/heroic-resource) and you can spend a [Recovery](scc:mcdm.heroes.v1/rule.health/recoveries). This replaces the benefit of Rejuvenating I.
 
-**Warding II:** The Stamina bonus for the Warding I enhancement becomes +12. Additionally, your characteristic scores are treated as 1 higher for the purpose of resisting potencies.
+**Warding II:** The [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) bonus for the Warding I enhancement becomes +12. Additionally, your characteristic scores are treated as 1 higher for the purpose of resisting potencies.
 
 ###### 5th-Level Implement Enhancements Table
 
@@ -102,7 +102,7 @@ An implement imbued with an enhancement grants you special benefits while it is 
 
 **Project Goal:** 150
 
-**Anathema:** Whenever you damage a creature using a magic or psionic ability and obtain a tier 3 outcome, that creature is also [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends). If the creature is within 10 squares when this [weakened](scc:mcdm.heroes.v1/condition/weakened) effect ends, you can use a free triggered action to make a [free strike](scc:mcdm.heroes.v1/feature.trait.common.main-actions/free-strike) against them.
+**Anathema:** Whenever you damage a creature using a magic or psionic ability and obtain a tier 3 outcome, that creature is also [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends). If the creature is within 10 squares when this [weakened](scc:mcdm.heroes.v1/condition/weakened) effect ends, you can use a free triggered action to make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) against them.
 
 **Displacing III:** When you use the implement's Displacing I enhancement, you can [teleport](scc:mcdm.heroes.v1/movement/teleport) the creature up to 5 squares. Additionally, the creature takes a bane on their next power roll made before the end of their next turn.
 
@@ -114,11 +114,11 @@ An implement imbued with an enhancement grants you special benefits while it is 
 
 **Piercing:** Your magic and psionic abilities ignore damage immunities.
 
-**Psionic Siphon:** Once per turn when you damage one or more creatures using a magic or psionic ability and obtain a tier 3 outcome, you gain Stamina equal to your highest characteristic score, and one creature you damage takes an extra 5 damage.
+**Psionic Siphon:** Once per turn when you damage one or more creatures using a magic or psionic ability and obtain a tier 3 outcome, you gain [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) equal to your highest characteristic score, and one creature you damage takes an extra 5 damage.
 
-**Rejuvenating III:** Whenever you use an ability that costs 1 or more of your Heroic Resource, roll a d10. On a 7 or higher, you gain 1 Heroic Resource, and you or a creature of your choice within 3 squares can spend a Recovery. This replaces the benefit of Rejuvenating II.
+**Rejuvenating III:** Whenever you use an ability that costs 1 or more of your [Heroic Resource](scc:mcdm.heroes.v1/rule.resource/heroic-resource), roll a d10. On a 7 or higher, you gain 1 [Heroic Resource](scc:mcdm.heroes.v1/rule.resource/heroic-resource), and you or a creature of your choice within 3 squares can spend a [Recovery](scc:mcdm.heroes.v1/rule.health/recoveries). This replaces the benefit of Rejuvenating II.
 
-**Warding III:** The Stamina bonus for the Warding I enhancement becomes +18. Additionally, you and each ally within 3 squares of you has their characteristic scores treated as 1 higher for the purpose of resisting potencies. This replaces the benefit of Warding II.
+**Warding III:** The [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) bonus for the Warding I enhancement becomes +18. Additionally, you and each ally within 3 squares of you has their characteristic scores treated as 1 higher for the purpose of resisting potencies. This replaces the benefit of Warding II.
 
 ###### 9th-Level Implement Enhancements Table
 

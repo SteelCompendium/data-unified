@@ -3,7 +3,7 @@ action_type: Main action
 class: conduit
 cost: 9 Piety
 distance: Ranged 10
-effect: If this damage kills the target, you and each ally within distance can spend a Recovery.
+effect: If this damage kills the target, you and each ally within distance can spend a [Recovery](scc:mcdm.heroes.v1/rule.health/recoveries).
 flavor: You bend the fate of a foe, willing them to die.
 keywords:
     - Magic
@@ -33,4 +33,4 @@ type: ability
 - **12-16:** 14 + I corruption damage; R < AVERAGE, [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
 - **17+:** 19 + I corruption damage; R < STRONG, [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
 
-**Effect:** If this damage kills the target, you and each ally within distance can spend a Recovery.
+**Effect:** If this damage kills the target, you and each ally within distance can spend a [Recovery](scc:mcdm.heroes.v1/rule.health/recoveries).

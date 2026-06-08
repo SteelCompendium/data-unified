@@ -3,7 +3,7 @@ action_type: Free triggered
 class: fury
 cost: 9 Ferocity
 distance: Melee 1
-effect: You can spend a Recovery.
+effect: You can spend a [Recovery](scc:mcdm.heroes.v1/rule.health/recoveries).
 flavor: You quickly strike back at a foe.
 keywords:
     - Melee
@@ -18,7 +18,7 @@ target: The triggering creature
 tier1: 6 + M damage
 tier2: 9 + M damage
 tier3: 13 + M damage
-trigger: A creature causes you to be winded or dying, or damages you while you are winded or dying.
+trigger: A creature causes you to be [winded](scc:mcdm.heroes.v1/rule.health/winded) or [dying](scc:mcdm.heroes.v1/rule.health/dying), or damages you while you are [winded](scc:mcdm.heroes.v1/rule.health/winded) or [dying](scc:mcdm.heroes.v1/rule.health/dying).
 type: ability
 ---
 
@@ -29,7 +29,7 @@ type: ability
 |---------------------------|-------------------------------:|
 | **📏 Melee 1**            | **🎯 The triggering creature** |
 
-**Trigger:** A creature causes you to be winded or dying, or damages you while you are winded or dying.
+**Trigger:** A creature causes you to be [winded](scc:mcdm.heroes.v1/rule.health/winded) or [dying](scc:mcdm.heroes.v1/rule.health/dying), or damages you while you are [winded](scc:mcdm.heroes.v1/rule.health/winded) or [dying](scc:mcdm.heroes.v1/rule.health/dying).
 
 **Power Roll + Might:**
 
@@ -37,4 +37,4 @@ type: ability
 - **12-16:** 9 + M damage
 - **17+:** 13 + M damage
 
-**Effect:** You can spend a Recovery.
+**Effect:** You can spend a [Recovery](scc:mcdm.heroes.v1/rule.health/recoveries).

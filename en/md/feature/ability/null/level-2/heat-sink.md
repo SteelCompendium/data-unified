@@ -3,7 +3,7 @@ action_type: Maneuver
 class: "null"
 cost: 5 Discipline
 distance: Self
-effect: Until the start of your next turn, the size of your [Null Field](scc:mcdm.heroes.v1/feature.trait.null.level-1/null-field) ability increases by 1, and you and any ally benefit from concealment while in the area. At the end of this turn, each enemy in the area takes cold damage equal to your Intuition score.
+effect: Until the start of your next turn, the size of your [Null Field](scc:mcdm.heroes.v1/feature.null.level-1/null-field) ability increases by 1, and you and any ally benefit from [concealment](scc:mcdm.heroes.v1/rule.combat/concealment) while in the area. At the end of this turn, each enemy in the area takes cold damage equal to your Intuition score.
 flavor: You absorb ambient heat, coating the ground in frost and precipitating snow from the air.
 keywords:
     - Psionic
@@ -21,4 +21,4 @@ type: ability
 |-------------|-------------:|
 | **📏 Self** |  **🎯 Self** |
 
-**Effect:** Until the start of your next turn, the size of your [Null Field](scc:mcdm.heroes.v1/feature.trait.null.level-1/null-field) ability increases by 1, and you and any ally benefit from concealment while in the area. At the end of this turn, each enemy in the area takes cold damage equal to your Intuition score.
+**Effect:** Until the start of your next turn, the size of your [Null Field](scc:mcdm.heroes.v1/feature.null.level-1/null-field) ability increases by 1, and you and any ally benefit from [concealment](scc:mcdm.heroes.v1/rule.combat/concealment) while in the area. At the end of this turn, each enemy in the area takes cold damage equal to your Intuition score.

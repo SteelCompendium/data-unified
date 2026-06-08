@@ -3,7 +3,7 @@ action_type: Main action
 class: "null"
 cost: 5 Discipline
 distance: 2 burst
-effect: You can take the [Disengage](scc:mcdm.heroes.v1/feature.trait.common.move-actions/disengage) move action as a free maneuver before or after you use this ability.
+effect: You can take the [Disengage](scc:mcdm.heroes.v1/feature.common.move-actions/disengage) move action as a free maneuver before or after you use this ability.
 flavor: You move so quickly, it seems as though an army assaulted your foes.
 keywords:
     - Area
@@ -33,4 +33,4 @@ type: ability
 - **12-16:** 9 damage
 - **17+:** 13 damage
 
-**Effect:** You can take the [Disengage](scc:mcdm.heroes.v1/feature.trait.common.move-actions/disengage) move action as a free maneuver before or after you use this ability.
+**Effect:** You can take the [Disengage](scc:mcdm.heroes.v1/feature.common.move-actions/disengage) move action as a free maneuver before or after you use this ability.

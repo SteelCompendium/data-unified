@@ -3,7 +3,7 @@ action_type: Main action
 class: talent
 cost: 3 Clarity
 distance: Ranged 10
-effect: If you target an ally, they gain temporary Stamina equal to three times your Presence score, and they can end one effect on them that is ended by a saving throw or that ends at the end of their turn. If you target an enemy, you make a power roll.
+effect: If you target an ally, they gain [temporary Stamina](scc:mcdm.heroes.v1/rule.health/temporary-stamina) equal to three times your Presence score, and they can end one effect on them that is ended by a saving throw or that ends at the end of their turn. If you target an enemy, you make a power roll.
 flavor: You project psionic energy out to a creature and take on a new visage in their mind.
 keywords:
     - Psionic
@@ -28,7 +28,7 @@ type: ability
 |----------------------------------------|--------------------:|
 | **📏 Ranged 10**                       | **🎯 One creature** |
 
-**Effect:** If you target an ally, they gain temporary Stamina equal to three times your Presence score, and they can end one effect on them that is ended by a saving throw or that ends at the end of their turn. If you target an enemy, you make a power roll.
+**Effect:** If you target an ally, they gain [temporary Stamina](scc:mcdm.heroes.v1/rule.health/temporary-stamina) equal to three times your Presence score, and they can end one effect on them that is ended by a saving throw or that ends at the end of their turn. If you target an enemy, you make a power roll.
 
 **Power Roll + Presence:**
 

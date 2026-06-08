@@ -3,7 +3,7 @@ action_type: Main action
 class: tactician
 cost: 5 Focus
 distance: Melee 1 or ranged 5
-effect: If the target is reduced to 0 Stamina before one or both chosen allies has made their strike, the ally or allies can pick a different target.
+effect: If the target is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) before one or both chosen allies has made their strike, the ally or allies can pick a different target.
 flavor: '"Let''s not argue about who''s the hammer and who''s the anvil!"'
 keywords:
     - Melee
@@ -34,4 +34,4 @@ type: ability
 - **12-16:** 9 + M damage; one ally within 10 squares of you can use a strike signature ability that gains an edge against the target as a free triggered action
 - **17+:** 12 + M damage; two allies within 10 squares of you can each use a strike signature ability that gains an edge against the target as a free triggered action
 
-**Effect:** If the target is reduced to 0 Stamina before one or both chosen allies has made their strike, the ally or allies can pick a different target.
+**Effect:** If the target is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) before one or both chosen allies has made their strike, the ally or allies can pick a different target.

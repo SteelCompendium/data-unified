@@ -5,7 +5,6 @@ melee_damage_bonus: +2/+2/+2
 name: Swashbuckler
 scc: mcdm.heroes.v1/kit/swashbuckler
 speed_bonus: "+3"
-stamina_bonus: +3 per echelon
 type: kit
 ---
 
@@ -17,7 +16,7 @@ You wear light armor and wield a medium weapon.
 
 ##### Kit Bonuses
 
-**Stamina Bonus:** +3 per echelon
+**[Stamina](scc:mcdm.heroes.v1/rule.health/stamina) Bonus:** +3 per echelon
 
 **Speed Bonus:** +3
 

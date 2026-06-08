@@ -22,7 +22,7 @@ Western Vasloria, including most of Aendrim and Corwell and parts of Graid, was 
 
 Under Omund's rule, order thrived. Roads were safe. People could even walk into the woods unafraid of meeting anything more threatening than a nymph or conversational manticore.
 
-Omund died 15 years ago and so died the rule of law. Now the forest claims the towns and roads once held safe. The woods are dangerous. Their only law... [tooth and claw](scc:mcdm.heroes.v1/feature.trait.fury.level-2/tooth-and-claw).
+Omund died 15 years ago and so died the rule of law. Now the forest claims the towns and roads once held safe. The woods are dangerous. Their only law... [tooth and claw](scc:mcdm.heroes.v1/feature.fury.level-2/tooth-and-claw).
 
 Omund was betrayed and his castle fell to Ajax the Invincible, now called the Iron Saint. His wizard Mortum unlocked the secret of the ancient sky elf flying cities, and raised the Chrysopolis, Ajax's city-fortress in the sky.
 

@@ -3,7 +3,7 @@ action_type: Triggered
 class: censor
 cost: 5 Wrath
 distance: Ranged 10
-effect: You can spend a Recovery to allow the target to regain Stamina equal to your recovery value. The target can then take their turn immediately before the triggering enemy.
+effect: You can spend a [Recovery](scc:mcdm.heroes.v1/rule.health/recoveries) to allow the target to regain [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) equal to your [recovery value](scc:mcdm.heroes.v1/rule.health/recoveries). The target can then take their turn immediately before the triggering enemy.
 flavor: Gifted by a prescient vision, you warn an ally of an impending attack.
 keywords:
     - Magic
@@ -26,4 +26,4 @@ type: ability
 
 **Trigger:** An enemy within 10 squares starts their turn.
 
-**Effect:** You can spend a Recovery to allow the target to regain Stamina equal to your recovery value. The target can then take their turn immediately before the triggering enemy.
+**Effect:** You can spend a [Recovery](scc:mcdm.heroes.v1/rule.health/recoveries) to allow the target to regain [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) equal to your [recovery value](scc:mcdm.heroes.v1/rule.health/recoveries). The target can then take their turn immediately before the triggering enemy.

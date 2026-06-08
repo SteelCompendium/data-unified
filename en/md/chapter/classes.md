@@ -7,7 +7,7 @@ type: chapter
 
 While all your character creation decisions bear narrative weight, none influences the way you play the game like your choice of class. Your class determines how your hero battles the threats of the timescape and overcomes other obstacles. Do you bend elemental forces to your will through the practiced casting of magic spells? Do you channel the ferocity of the Primordial Chaos as you tear across the battlefield, felling foes left and right? Or do you belt out heroic ballads that give your allies a second wind and inspire them to ever-greater achievements?
 
-Your class provides you with many of your features, most of your abilities—your most potent combat moves and noncombat options and a Heroic Resource that fuels many of those abilities. This book presents nine classes to choose from.
+Your class provides you with many of your features, most of your abilities—your most potent combat moves and noncombat options and a [Heroic Resource](scc:mcdm.heroes.v1/rule.resource/heroic-resource) that fuels many of those abilities. This book presents nine classes to choose from.
 
 **[Censor](scc:mcdm.heroes.v1/class/censor):** A [censor](scc:mcdm.heroes.v1/class/censor) is a trained warrior devoted to a saint or god. They hunt down the forces of evil using melee weapons and magic granted to them by their divine patron, specializing in confronting the wicked and locking down single enemies during combat.
 
@@ -23,13 +23,13 @@ Your class provides you with many of your features, most of your abilities—you
 
 **[Tactician](scc:mcdm.heroes.v1/class/tactician):** A brilliant strategist and weapons master, the [tactician](scc:mcdm.heroes.v1/class/tactician) excels at granting allies more movement and actions on the battlefield. They also support allies outside of combat, always inspiring their friends to greatness.
 
-**[Talent](scc:mcdm.heroes.v1/class/talent):** A [talent](scc:mcdm.heroes.v1/class/talent) is the master of psionics, manifesting powers that manipulate objects, minds, and time. These heroes can reach far into themselves to use abilities even when they don't have their Heroic Resource to spare—if they're willing to face the cost.
+**[Talent](scc:mcdm.heroes.v1/class/talent):** A [talent](scc:mcdm.heroes.v1/class/talent) is the master of psionics, manifesting powers that manipulate objects, minds, and time. These heroes can reach far into themselves to use abilities even when they don't have their [Heroic Resource](scc:mcdm.heroes.v1/rule.resource/heroic-resource) to spare—if they're willing to face the cost.
 
 **[Troubadour](scc:mcdm.heroes.v1/class/troubadour):** A [troubadour](scc:mcdm.heroes.v1/class/troubadour) inspires their allies with storytelling and swordplay that is as much an art as it is an act of war. Their quips, songs, poems, and epic tales produce actual magic that harms foes and bolsters allies. They can even use their magic to tweak the campaign's story in real time to better suit their needs.
 
 ### Abilities
 
-Abilities are special actions, maneuvers, and more that allow you to affect creatures, objects, and the environment. They represent the main activities your character can undertake when the game is in combat or some other time-sensitive scenario. All characters have access to a few basic abilities, including [free strikes](scc:mcdm.heroes.v1/feature.trait.common.main-actions/free-strike) and maneuvers such as [Grab](scc:mcdm.heroes.v1/feature.trait.common.maneuvers/grab) and [Knockback](scc:mcdm.heroes.v1/feature.trait.common.maneuvers/knockback) (see Maneuvers in Chapter 10: [Combat](scc:mcdm.heroes.v1/chapter/combat)). But your class, ancestry (see Chapter 3: [Ancestries](scc:mcdm.heroes.v1/chapter/ancestries)), kit (Chapter 6: [Kits](scc:mcdm.heroes.v1/chapter/kits)), titles and treasures (Chapter 13: [Rewards](scc:mcdm.heroes.v1/chapter/rewards)), and other heroic options give you access to more powerful abilities that make your hero stand out.
+Abilities are special actions, maneuvers, and more that allow you to affect creatures, objects, and the environment. They represent the main activities your character can undertake when the game is in combat or some other time-sensitive scenario. All characters have access to a few basic abilities, including [free strikes](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) and maneuvers such as [Grab](scc:mcdm.heroes.v1/feature.common.maneuvers/grab) and [Knockback](scc:mcdm.heroes.v1/feature.common.maneuvers/knockback) (see Maneuvers in Chapter 10: [Combat](scc:mcdm.heroes.v1/chapter/combat)). But your class, ancestry (see Chapter 3: [Ancestries](scc:mcdm.heroes.v1/chapter/ancestries)), kit (Chapter 6: [Kits](scc:mcdm.heroes.v1/chapter/kits)), titles and treasures (Chapter 13: [Rewards](scc:mcdm.heroes.v1/chapter/rewards)), and other heroic options give you access to more powerful abilities that make your hero stand out.
 
 Abilities are presented in a special format that first describes the ability, then summarizes its mechanical details, and finally breaks out the ability's power roll (if it has one) and effects.
 
@@ -45,19 +45,19 @@ The name and story text for abilities sometimes refers to specific ways in which
 
 #### Heroic Resource Cost
 
-Each class has a Heroic Resource that your hero earns during combat, with some of your class's abilities—typically your most potent abilities—having a Heroic Resource cost to use them. When you use one of these abilities, you spend some of the Heroic Resource bestowed by your class, then activate the ability.
+Each class has a [Heroic Resource](scc:mcdm.heroes.v1/rule.resource/heroic-resource) that your hero earns during combat, with some of your class's abilities—typically your most potent abilities—having a [Heroic Resource](scc:mcdm.heroes.v1/rule.resource/heroic-resource) cost to use them. When you use one of these abilities, you spend some of the [Heroic Resource](scc:mcdm.heroes.v1/rule.resource/heroic-resource) bestowed by your class, then activate the ability.
 
-The nine Heroic Resources in the game are:
+The nine [Heroic Resources](scc:mcdm.heroes.v1/rule.resource/heroic-resource) in the game are:
 
-- The [censor's](scc:mcdm.heroes.v1/class/censor) [wrath](scc:mcdm.heroes.v1/feature.trait.censor.level-1/wrath)
-- The [conduit's](scc:mcdm.heroes.v1/class/conduit) [piety](scc:mcdm.heroes.v1/feature.trait.conduit.level-1/piety)
-- The [elementalist's](scc:mcdm.heroes.v1/class/elementalist) [essence](scc:mcdm.heroes.v1/feature.trait.elementalist.level-1/essence)
-- The [fury's](scc:mcdm.heroes.v1/class/fury) [ferocity](scc:mcdm.heroes.v1/feature.trait.fury.level-1/ferocity)
-- The [null's](scc:mcdm.heroes.v1/class/null) [discipline](scc:mcdm.heroes.v1/feature.trait.null.level-1/discipline)
-- The [shadow's](scc:mcdm.heroes.v1/class/shadow) [insight](scc:mcdm.heroes.v1/feature.trait.shadow.level-1/insight)
-- The [tactician's](scc:mcdm.heroes.v1/class/tactician) [focus](scc:mcdm.heroes.v1/feature.trait.tactician.level-1/focus)
-- The [talent's](scc:mcdm.heroes.v1/class/talent) [clarity](scc:mcdm.heroes.v1/feature.trait.talent.level-1/clarity-and-strain)
-- The [troubadour's](scc:mcdm.heroes.v1/class/troubadour) [drama](scc:mcdm.heroes.v1/feature.trait.troubadour.level-1/drama)
+- The [censor's](scc:mcdm.heroes.v1/class/censor) [wrath](scc:mcdm.heroes.v1/feature.censor.level-1/wrath)
+- The [conduit's](scc:mcdm.heroes.v1/class/conduit) [piety](scc:mcdm.heroes.v1/feature.conduit.level-1/piety)
+- The [elementalist's](scc:mcdm.heroes.v1/class/elementalist) [essence](scc:mcdm.heroes.v1/feature.elementalist.level-1/essence)
+- The [fury's](scc:mcdm.heroes.v1/class/fury) [ferocity](scc:mcdm.heroes.v1/feature.fury.level-1/ferocity)
+- The [null's](scc:mcdm.heroes.v1/class/null) [discipline](scc:mcdm.heroes.v1/feature.null.level-1/discipline)
+- The [shadow's](scc:mcdm.heroes.v1/class/shadow) [insight](scc:mcdm.heroes.v1/feature.shadow.level-1/insight)
+- The [tactician's](scc:mcdm.heroes.v1/class/tactician) [focus](scc:mcdm.heroes.v1/feature.tactician.level-1/focus)
+- The [talent's](scc:mcdm.heroes.v1/class/talent) [clarity](scc:mcdm.heroes.v1/feature.talent.level-1/clarity-and-strain)
+- The [troubadour's](scc:mcdm.heroes.v1/class/troubadour) [drama](scc:mcdm.heroes.v1/feature.troubadour.level-1/drama)
 
 #### Type
 
@@ -83,23 +83,23 @@ Many abilities that require power rolls also have effect entries describing addi
 
 ##### Actions Within Actions
 
-If an ability's effect allows you to take a main action, a maneuver, a move action, or a triggered action, the cost of doing so is subsumed in the ability's type entry on the first line below the flavor text. You never need to spend additional time to use an ability. For example, the [shadow's](scc:mcdm.heroes.v1/class/shadow) [Black Ash Teleport](scc:mcdm.heroes.v1/feature.ability.shadow.level-1/black-ash-teleport) ability is a maneuver that allows you to [teleport](scc:mcdm.heroes.v1/movement/teleport) and then use the [Hide](scc:mcdm.heroes.v1/feature.trait.common.maneuvers/hide) maneuver as its overall effect. Using the [Hide](scc:mcdm.heroes.v1/feature.trait.common.maneuvers/hide) maneuver is part of the maneuver to use the ability, so that you don't need to have another maneuver available to do so.
+If an ability's effect allows you to take a main action, a maneuver, a move action, or a triggered action, the cost of doing so is subsumed in the ability's type entry on the first line below the flavor text. You never need to spend additional time to use an ability. For example, the [shadow's](scc:mcdm.heroes.v1/class/shadow) [Black Ash Teleport](scc:mcdm.heroes.v1/feature.ability.shadow.level-1/black-ash-teleport) ability is a maneuver that allows you to [teleport](scc:mcdm.heroes.v1/movement/teleport) and then use the [Hide](scc:mcdm.heroes.v1/feature.common.maneuvers/hide) maneuver as its overall effect. Using the [Hide](scc:mcdm.heroes.v1/feature.common.maneuvers/hide) maneuver is part of the maneuver to use the ability, so that you don't need to have another maneuver available to do so.
 
 #### Spend Heroic Resource
 
-Some abilities have a "Spend X [Heroic Resource]" entry in the body of the ability. These grant additional effects to an ability, where X is the amount of your Heroic Resource you must spend to activate those effects. If an entry reads "Spend X+ [Heroic Resource]," you can spend as much of your available Heroic Resource as you like in multiples of X to increase the effect's impact, as described in the entry's details.
+Some abilities have a "Spend X [Heroic Resource]" entry in the body of the ability. These grant additional effects to an ability, where X is the amount of your [Heroic Resource](scc:mcdm.heroes.v1/rule.resource/heroic-resource) you must spend to activate those effects. If an entry reads "Spend X+ [Heroic Resource]," you can spend as much of your available [Heroic Resource](scc:mcdm.heroes.v1/rule.resource/heroic-resource) as you like in multiples of X to increase the effect's impact, as described in the entry's details.
 
 #### Stacking Unique Effects
 
 The unique effects of different abilities are combined—effectively stacking on top of each other—if their durations and targets overlap. However, the effects of the same ability used multiple times don't stack. Instead, the most impactful effect—such as the highest bonus—from each use of the ability applies. The most recently used ability applies for determining duration.
 
-For example, the [null's](scc:mcdm.heroes.v1/class/null) [Null Field](scc:mcdm.heroes.v1/feature.trait.null.level-1/null-field) ability reduces the potencies of enemies within the field by 1. If two allied [nulls](scc:mcdm.heroes.v1/class/null) each have their [Null Field](scc:mcdm.heroes.v1/feature.trait.null.level-1/null-field) ability active and an enemy cultist is targeted by both abilities, that cultist's potencies are reduced by 1, not by 2.
+For example, the [null's](scc:mcdm.heroes.v1/class/null) [Null Field](scc:mcdm.heroes.v1/feature.null.level-1/null-field) ability reduces the potencies of enemies within the field by 1. If two allied [nulls](scc:mcdm.heroes.v1/class/null) each have their [Null Field](scc:mcdm.heroes.v1/feature.null.level-1/null-field) ability active and an enemy cultist is targeted by both abilities, that cultist's potencies are reduced by 1, not by 2.
 
-Different effects that impose the same condition (see Conditions below) don't stack to impose the condition twice. For instance, if a hero is targeted by numerous creatures whose abilities cause a target to become [weakened](scc:mcdm.heroes.v1/condition/weakened) (imposing a bane on the target's power rolls), the target isn't [weakened](scc:mcdm.heroes.v1/condition/weakened) twice to impose a double bane on those rolls. A character who is [grabbed](scc:mcdm.heroes.v1/condition/grabbed) by an enemy can't be [grabbed](scc:mcdm.heroes.v1/condition/grabbed) again by another enemy. The same holds true for game effects that aren't conditions. For example, if a hero is targeted by multiple abilities or effects that can halve their recovery value, the hero's recovery value is halved only once.
+Different effects that impose the same condition (see Conditions below) don't stack to impose the condition twice. For instance, if a hero is targeted by numerous creatures whose abilities cause a target to become [weakened](scc:mcdm.heroes.v1/condition/weakened) (imposing a bane on the target's power rolls), the target isn't [weakened](scc:mcdm.heroes.v1/condition/weakened) twice to impose a double bane on those rolls. A character who is [grabbed](scc:mcdm.heroes.v1/condition/grabbed) by an enemy can't be [grabbed](scc:mcdm.heroes.v1/condition/grabbed) again by another enemy. The same holds true for game effects that aren't conditions. For example, if a hero is targeted by multiple abilities or effects that can halve their [recovery value](scc:mcdm.heroes.v1/rule.health/recoveries), the hero's [recovery value](scc:mcdm.heroes.v1/rule.health/recoveries) is halved only once.
 
 #### Ending Effects
 
-When a creature suffers a lasting effect, whatever ability, feature, hazard, or other mechanic imposed the effect specifies how long the effect lasts. Unless otherwise noted, all effects and conditions that are imposed on heroes during a combat encounter end when the encounter is over if the hero wants them to, except for being winded, unconscious, or dying. After combat, effects and conditions imposed on other creatures end when it's convenient for the heroes, allowing characters to easily bind or slip away from unconscious foes. However, the Director is free to decide that an unconscious dragon doesn't stay that way long enough to be tied up.
+When a creature suffers a lasting effect, whatever ability, feature, hazard, or other mechanic imposed the effect specifies how long the effect lasts. Unless otherwise noted, all effects and conditions that are imposed on heroes during a combat encounter end when the encounter is over if the hero wants them to, except for being [winded](scc:mcdm.heroes.v1/rule.health/winded), unconscious, or [dying](scc:mcdm.heroes.v1/rule.health/dying). After combat, effects and conditions imposed on other creatures end when it's convenient for the heroes, allowing characters to easily bind or slip away from unconscious foes. However, the Director is free to decide that an unconscious dragon doesn't stay that way long enough to be tied up.
 
 ##### End of Encounter
 
@@ -115,7 +115,7 @@ Whenever a creature moves or is subjected to [forced movement](scc:mcdm.heroes.v
 
 #### Abilities in Class Tables
 
-Each class in this chapter includes a table that shows the progression as a hero gains new levels in that class. Each of those tables has an Abilities column and another column that shows abilities granted by the hero's subclass, tracking all the heroic abilities a hero of that class has at each level. Each ability is represented by a numeral noting the ability's Heroic Resource cost.
+Each class in this chapter includes a table that shows the progression as a hero gains new levels in that class. Each of those tables has an Abilities column and another column that shows abilities granted by the hero's subclass, tracking all the heroic abilities a hero of that class has at each level. Each ability is represented by a numeral noting the ability's [Heroic Resource](scc:mcdm.heroes.v1/rule.resource/heroic-resource) cost.
 
 For example a 6th-level [censor](scc:mcdm.heroes.v1/class/censor) has "Signature, 3, 5, 7, 9" in their Abilities column, and "5, 9" in their Order Abilities column (representing the [censor's](scc:mcdm.heroes.v1/class/censor) subclass). This means a [censor](scc:mcdm.heroes.v1/class/censor) of that level has a signature ability and four heroic abilities costing 3, 5, 7, and 9 wrath respectively, plus an additional two subclass heroic abilities costing 5 and 9 wrath.
 

@@ -1,9 +1,0 @@
----
-class: talent
-level: "5"
-name: 9-Clarity Ability
-scc: mcdm.heroes.v1/feature.trait.talent.level-5/9-clarity-ability
-type: trait
----
-
-Choose one heroic ability from the following options, each of which costs 9 clarity to use.

@@ -3,7 +3,7 @@ action_type: Main action
 class: troubadour
 cost: 11 Drama
 distance: Melee 1
-effect: Add your current Stamina to your target's current Stamina, then you have half that total Stamina and the target has the remainder. If either of you would gain more Stamina this way than their Stamina maximum, the difference in Stamina between what that creature would gain and their maximum is gained by the other creature. Neither of you can gain more Stamina than your maximum this way. You then make a power roll.
+effect: Add your current [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) to your target's current [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), then you have half that total [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) and the target has the remainder. If either of you would gain more [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) this way than their [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) maximum, the difference in [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) between what that creature would gain and their maximum is gained by the other creature. Neither of you can gain more [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) than your maximum this way. You then make a power roll.
 flavor: No, no. You don't die until the sequel.
 keywords:
     - Melee
@@ -27,7 +27,7 @@ type: ability
 |---------------------------|--------------------:|
 | **📏 Melee 1**            | **🎯 One creature** |
 
-**Effect:** Add your current Stamina to your target's current Stamina, then you have half that total Stamina and the target has the remainder. If either of you would gain more Stamina this way than their Stamina maximum, the difference in Stamina between what that creature would gain and their maximum is gained by the other creature. Neither of you can gain more Stamina than your maximum this way. You then make a power roll.
+**Effect:** Add your current [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) to your target's current [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), then you have half that total [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) and the target has the remainder. If either of you would gain more [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) this way than their [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) maximum, the difference in [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) between what that creature would gain and their maximum is gained by the other creature. Neither of you can gain more [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) than your maximum this way. You then make a power roll.
 
 **Power Roll + Presence:**
 

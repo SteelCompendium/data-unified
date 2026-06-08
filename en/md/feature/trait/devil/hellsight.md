@@ -5,4 +5,4 @@ scc: mcdm.heroes.v1/feature.trait.devil/hellsight
 type: trait
 ---
 
-Your eyes let you see through darkness, fog, and other obscuring effects. You don't take a bane on strikes made against creatures with concealment.
+Your eyes let you see through darkness, fog, and other obscuring effects. You don't take a bane on strikes made against creatures with [concealment](scc:mcdm.heroes.v1/rule.combat/concealment).

@@ -6,7 +6,6 @@ ranged_damage_bonus: +2/+2/+2
 ranged_distance_bonus: "+7"
 scc: mcdm.heroes.v1/kit/rapid-fire
 speed_bonus: "+1"
-stamina_bonus: +3 per echelon
 type: kit
 ---
 
@@ -18,7 +17,7 @@ You wear light armor and wield a bow.
 
 ##### Kit Bonuses
 
-**Stamina Bonus:** +3 per echelon
+**[Stamina](scc:mcdm.heroes.v1/rule.health/stamina) Bonus:** +3 per echelon
 
 **Speed Bonus:** +1
 

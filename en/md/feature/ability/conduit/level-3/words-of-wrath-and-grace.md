@@ -3,7 +3,7 @@ action_type: Main action
 class: conduit
 cost: 7 Piety
 distance: 5 burst
-effect: Each ally in the area can spend a Recovery.
+effect: Each ally in the area can spend a [Recovery](scc:mcdm.heroes.v1/rule.health/recoveries).
 flavor: Your saint grants your enemies a vision of pain and fills your allies with healing energy.
 keywords:
     - Area
@@ -32,4 +32,4 @@ type: ability
 - **12-16:** 5 holy damage
 - **17+:** 7 holy damage
 
-**Effect:** Each ally in the area can spend a Recovery.
+**Effect:** Each ally in the area can spend a [Recovery](scc:mcdm.heroes.v1/rule.health/recoveries).

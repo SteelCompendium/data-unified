@@ -1,0 +1,9 @@
+---
+class: fury
+level: "8"
+name: A Step Ahead
+scc: mcdm.heroes.v1/feature.fury.level-8/a-step-ahead
+type: feature
+---
+
+You move with legendary grace. Whenever you make an Agility test, you can roll three dice and choose which two to use. Additionally, whenever you use the [Disengage](scc:mcdm.heroes.v1/feature.common.move-actions/disengage) move action, the distance you can [shift](scc:mcdm.heroes.v1/movement/shifting) gains a bonus equal to your Agility score.

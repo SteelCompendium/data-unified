@@ -9,4 +9,4 @@ type: trait
 
 #### Purchased Orc Traits
 
-You have 3 ancestry points to spend on the following traits. (*Quick Build:* Glowing Recovery, Grounded.)
+You have 3 ancestry points to spend on the following traits. (*Quick Build:* Glowing [Recovery](scc:mcdm.heroes.v1/rule.health/recoveries), Grounded.)

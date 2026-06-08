@@ -2,8 +2,8 @@
 action_type: Maneuver
 class: shadow
 distance: Self
-effect: You envelop yourself in an illusion that makes you appear nonthreatening and harmless to your enemies. You might take on the appearance of a harmless animal of your size, such as a sheep or capybara, or you might appear as a less heroic and unarmed version of yourself. While this illusion lasts, your strikes gain an edge, and when you take the [Disengage](scc:mcdm.heroes.v1/feature.trait.common.move-actions/disengage) move action, you gain a +1 bonus to the distance you can [shift](scc:mcdm.heroes.v1/movement/shifting).
-flavor: Taking on an illusory countenance gives you an advantage on [subterfuge](scc:mcdm.heroes.v1/feature.trait.shadow.level-10/subterfuge).
+effect: You envelop yourself in an illusion that makes you appear nonthreatening and harmless to your enemies. You might take on the appearance of a harmless animal of your size, such as a sheep or capybara, or you might appear as a less heroic and unarmed version of yourself. While this illusion lasts, your strikes gain an edge, and when you take the [Disengage](scc:mcdm.heroes.v1/feature.common.move-actions/disengage) move action, you gain a +1 bonus to the distance you can [shift](scc:mcdm.heroes.v1/movement/shifting).
+flavor: Taking on an illusory countenance gives you an advantage on [subterfuge](scc:mcdm.heroes.v1/feature.shadow.level-10/subterfuge).
 keywords:
     - Magic
 level: "1"
@@ -15,14 +15,14 @@ type: ability
 ---
 
 
-*Taking on an illusory countenance gives you an advantage on [subterfuge](scc:mcdm.heroes.v1/feature.trait.shadow.level-10/subterfuge).*
+*Taking on an illusory countenance gives you an advantage on [subterfuge](scc:mcdm.heroes.v1/feature.shadow.level-10/subterfuge).*
 
 | **Magic**   | **Maneuver** |
 |-------------|-------------:|
 | **📏 Self** |    **🎯 Self** |
 
-**Effect:** You envelop yourself in an illusion that makes you appear nonthreatening and harmless to your enemies. You might take on the appearance of a harmless animal of your size, such as a sheep or capybara, or you might appear as a less heroic and unarmed version of yourself. While this illusion lasts, your strikes gain an edge, and when you take the [Disengage](scc:mcdm.heroes.v1/feature.trait.common.move-actions/disengage) move action, you gain a +1 bonus to the distance you can [shift](scc:mcdm.heroes.v1/movement/shifting).
+**Effect:** You envelop yourself in an illusion that makes you appear nonthreatening and harmless to your enemies. You might take on the appearance of a harmless animal of your size, such as a sheep or capybara, or you might appear as a less heroic and unarmed version of yourself. While this illusion lasts, your strikes gain an edge, and when you take the [Disengage](scc:mcdm.heroes.v1/feature.common.move-actions/disengage) move action, you gain a +1 bonus to the distance you can [shift](scc:mcdm.heroes.v1/movement/shifting).
 
-The illusion ends when you harm another creature, when you physically interact with a creature, when you use this ability again, or when you end the illusion (no action required). If you end this illusion by harming another creature, you gain 1 surge.
+The illusion ends when you harm another creature, when you physically interact with a creature, when you use this ability again, or when you end the illusion (no action required). If you end this illusion by harming another creature, you gain 1 [surge](scc:mcdm.heroes.v1/rule.resource/surge).
 
 **Spend 1 Insight:** Choose a creature whose size is no more than 1 greater than yours and who is within 10 squares. This ability's illusion makes you appear as that creature. This illusion covers your entire body, including clothing and armor, and alters your voice to sound like that of the creature. You gain an edge on tests made to convince the creature's allies that you are the creature.

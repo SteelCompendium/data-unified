@@ -3,7 +3,7 @@ action_type: Main action
 class: elementalist
 cost: 9 Essence
 distance: Ranged 10
-effect: When the target ends their next turn, or if they drop to 0 Stamina before then, each enemy adjacent to them takes fire damage equal to twice your Reason score. Each affected enemy then gains this same effect.
+effect: When the target ends their next turn, or if they drop to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) before then, each enemy adjacent to them takes fire damage equal to twice your Reason score. Each affected enemy then gains this same effect.
 flavor: Your flames dance from kindling to kindling to kindling.
 keywords:
     - Fire
@@ -34,4 +34,4 @@ type: ability
 - **12-16:** 13 + R fire damage
 - **17+:** 17 + R fire damage
 
-**Effect:** When the target ends their next turn, or if they drop to 0 Stamina before then, each enemy adjacent to them takes fire damage equal to twice your Reason score. Each affected enemy then gains this same effect.
+**Effect:** When the target ends their next turn, or if they drop to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) before then, each enemy adjacent to them takes fire damage equal to twice your Reason score. Each affected enemy then gains this same effect.

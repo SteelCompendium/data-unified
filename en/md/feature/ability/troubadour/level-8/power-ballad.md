@@ -3,7 +3,7 @@ action_type: Maneuver
 class: troubadour
 cost: 11 Drama
 distance: Ranged 10
-effect: Until the end of the encounter, whenever the target takes damage while winded, they can use a free triggered action to deal half the damage they took to the source of the damage.
+effect: Until the end of the encounter, whenever the target takes damage while [winded](scc:mcdm.heroes.v1/rule.health/winded), they can use a free triggered action to deal half the damage they took to the source of the damage.
 flavor: A song for the brokenhearted wraps itself around the target and blossoms into a ward of thorns.
 keywords:
     - Magic
@@ -22,4 +22,4 @@ type: ability
 |-------------------|------------------------:|
 | **📏 Ranged 10**  | **🎯 Self or one ally** |
 
-**Effect:** Until the end of the encounter, whenever the target takes damage while winded, they can use a free triggered action to deal half the damage they took to the source of the damage.
+**Effect:** Until the end of the encounter, whenever the target takes damage while [winded](scc:mcdm.heroes.v1/rule.health/winded), they can use a free triggered action to deal half the damage they took to the source of the damage.

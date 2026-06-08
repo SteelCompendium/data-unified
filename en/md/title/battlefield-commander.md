@@ -12,7 +12,7 @@ type: title
 
 **Effect:** Choose one of the following benefits:
 
-- *Charge!:* You have the following ability, which can be paid for using the Heroic Resource of your class.
+- *Charge!:* You have the following ability, which can be paid for using the [Heroic Resource](scc:mcdm.heroes.v1/rule.resource/heroic-resource) of your class.
 
 ##### Charge! (9 Heroic Resource)
 
@@ -23,7 +23,7 @@ type: title
 > |----------------|--------------------------------------:|
 > | **📏 3 burst** | **🎯 Self and each ally in the area** |
 >
-> **Effect:** Each target can use the [Charge](scc:mcdm.heroes.v1/feature.trait.common.main-actions/charge) main action.
+> **Effect:** Each target can use the [Charge](scc:mcdm.heroes.v1/feature.common.main-actions/charge) main action.
 
 - *Renowned Warrior:* You earn 1 Renown.
-- *Student of War:* Choose a 1st-level doctrine feature from the [tactician](scc:mcdm.heroes.v1/class/tactician) class. You gain that feature even if you don't have the [Tactical Doctrine](scc:mcdm.heroes.v1/feature.trait.tactician.level-1/tactical-doctrine) feature.
+- *Student of War:* Choose a 1st-level doctrine feature from the [tactician](scc:mcdm.heroes.v1/class/tactician) class. You gain that feature even if you don't have the [Tactical Doctrine](scc:mcdm.heroes.v1/feature.tactician.level-1/tactical-doctrine) feature.

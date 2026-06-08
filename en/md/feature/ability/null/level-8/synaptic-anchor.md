@@ -12,7 +12,7 @@ name: Synaptic Anchor
 scc: mcdm.heroes.v1/feature.ability.null.level-8/synaptic-anchor
 subtype: triggered
 target: Self or one creature
-trigger: The target takes damage from another creature's ability while in the area of your [Null Field](scc:mcdm.heroes.v1/feature.trait.null.level-1/null-field) ability.
+trigger: The target takes damage from another creature's ability while in the area of your [Null Field](scc:mcdm.heroes.v1/feature.null.level-1/null-field) ability.
 type: ability
 ---
 
@@ -23,6 +23,6 @@ type: ability
 |------------------------|-----------------------------:|
 | **📏 Self; see below** |  **🎯 Self or one creature** |
 
-**Trigger:** The target takes damage from another creature's ability while in the area of your [Null Field](scc:mcdm.heroes.v1/feature.trait.null.level-1/null-field) ability.
+**Trigger:** The target takes damage from another creature's ability while in the area of your [Null Field](scc:mcdm.heroes.v1/feature.null.level-1/null-field) ability.
 
 **Effect:** The target takes half the damage, and if the triggering creature has I < AVERAGE, they are [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends). While the triggering creature is [dazed](scc:mcdm.heroes.v1/condition/dazed) this way, they take psychic damage equal to your Intuition score whenever they use a main action.

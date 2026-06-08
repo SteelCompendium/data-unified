@@ -25,11 +25,11 @@ type: ability
 
 Whenever a creature judged by you uses a main action and is within your line of effect, you can use a free triggered action to deal holy damage equal to twice your Presence score to them.
 
-When a creature judged by you is reduced to 0 Stamina, you can use a free triggered action to use this ability against a new target.
+When a creature judged by you is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), you can use a free triggered action to use this ability against a new target.
 
 Additionally, you can spend 1 wrath to take one of the following free triggered actions:
 
-- When an adjacent creature judged by you starts to [shift](scc:mcdm.heroes.v1/movement/shifting), you make a melee [free strike](scc:mcdm.heroes.v1/feature.trait.common.main-actions/free-strike) against them and their speed becomes 0 until the end of the current turn, preventing them from [shifting](scc:mcdm.heroes.v1/movement/shifting).
+- When an adjacent creature judged by you starts to [shift](scc:mcdm.heroes.v1/movement/shifting), you make a melee [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) against them and their speed becomes 0 until the end of the current turn, preventing them from [shifting](scc:mcdm.heroes.v1/movement/shifting).
 - When a creature judged by you within 10 squares makes a power roll, you cause them to take a bane on the roll.
 - When a creature judged by you within 10 squares uses an ability with a potency that targets only one creature, the potency is reduced by 1 for that creature.
 - If you damage a creature judged by you with a melee ability, the creature is [taunted](scc:mcdm.heroes.v1/condition/taunted) by you until the end of their next turn.

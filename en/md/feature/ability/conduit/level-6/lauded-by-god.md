@@ -3,7 +3,7 @@ action_type: Maneuver
 class: conduit
 cost: 9 Piety
 distance: Ranged 10
-effect: Each target gains 3 of their Heroic Resource.
+effect: Each target gains 3 of their [Heroic Resource](scc:mcdm.heroes.v1/rule.resource/heroic-resource).
 flavor: You beseech the gods to give your allies what they need to win the day, and the gods answer.
 keywords:
     - Magic
@@ -22,4 +22,4 @@ type: ability
 |--------------------|------------------:|
 | **📏 Ranged 10**   | **🎯 Two allies** |
 
-**Effect:** Each target gains 3 of their Heroic Resource.
+**Effect:** Each target gains 3 of their [Heroic Resource](scc:mcdm.heroes.v1/rule.resource/heroic-resource).

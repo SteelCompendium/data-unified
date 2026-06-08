@@ -3,7 +3,7 @@ action_type: Main action
 class: conduit
 cost: 5 Piety
 distance: 3 aura
-effect: Until the end of the encounter or until you are dying, whenever a target starts their turn in the area, they can spend a Recovery.
+effect: Until the end of the encounter or until you are [dying](scc:mcdm.heroes.v1/rule.health/dying), whenever a target starts their turn in the area, they can spend a [Recovery](scc:mcdm.heroes.v1/rule.health/recoveries).
 flavor: A holy light is emitted from your body, healing your allies.
 keywords:
     - Area
@@ -22,4 +22,4 @@ type: ability
 |------------------|-----------------------------:|
 | **📏 3 aura**    | **🎯 Each ally in the area** |
 
-**Effect:** Until the end of the encounter or until you are dying, whenever a target starts their turn in the area, they can spend a Recovery.
+**Effect:** Until the end of the encounter or until you are [dying](scc:mcdm.heroes.v1/rule.health/dying), whenever a target starts their turn in the area, they can spend a [Recovery](scc:mcdm.heroes.v1/rule.health/recoveries).

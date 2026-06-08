@@ -3,7 +3,7 @@ action_type: Main action
 class: talent
 cost: 11 Clarity
 distance: Ranged 10
-effect: This ability ignores cover and concealment.
+effect: This ability ignores [cover](scc:mcdm.heroes.v1/rule.combat/cover) and [concealment](scc:mcdm.heroes.v1/rule.combat/concealment).
 flavor: You fire a telepathic bolt empowered by every consciousness within reach directly into your foe's mind.
 keywords:
     - Psionic
@@ -34,6 +34,6 @@ type: ability
 - **12-16:** 24 + R psychic damage
 - **17+:** 28 + R psychic damage
 
-**Effect:** This ability ignores cover and concealment.
+**Effect:** This ability ignores [cover](scc:mcdm.heroes.v1/rule.combat/cover) and [concealment](scc:mcdm.heroes.v1/rule.combat/concealment).
 
 **Strained:** The ability roll scores a critical hit on a natural 17 or higher. You take half the damage the target takes, and you can't reduce this damage in any way.

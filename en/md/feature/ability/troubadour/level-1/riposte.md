@@ -2,7 +2,7 @@
 action_type: Triggered
 class: troubadour
 distance: Melee 1
-effect: The target makes a [free strike](scc:mcdm.heroes.v1/feature.trait.common.main-actions/free-strike) against the creature who made the triggering strike.
+effect: The target makes a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) against the creature who made the triggering strike.
 flavor: '"I''d have brought treats had I known I''d be fighting a dog."'
 keywords:
     - Melee
@@ -24,4 +24,4 @@ type: ability
 
 **Trigger:** The target takes damage from a melee strike.
 
-**Effect:** The target makes a [free strike](scc:mcdm.heroes.v1/feature.trait.common.main-actions/free-strike) against the creature who made the triggering strike.
+**Effect:** The target makes a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) against the creature who made the triggering strike.

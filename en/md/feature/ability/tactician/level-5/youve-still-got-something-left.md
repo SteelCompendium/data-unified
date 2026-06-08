@@ -3,7 +3,7 @@ action_type: Main action
 class: tactician
 cost: 9 Focus
 distance: Ranged 10
-effect: The target uses a heroic ability with the Strike keyword as a free triggered action, and deals extra damage with that ability equal to your Reason score. The ability has its Heroic Resource cost reduced by 1 + your Reason score (minimum cost 0).
+effect: The target uses a heroic ability with the Strike keyword as a free triggered action, and deals extra damage with that ability equal to your Reason score. The ability has its [Heroic Resource](scc:mcdm.heroes.v1/rule.resource/heroic-resource) cost reduced by 1 + your Reason score (minimum cost 0).
 flavor: You push an ally to use a heroic ability sooner than they otherwise would.
 keywords:
     - Ranged
@@ -21,4 +21,4 @@ type: ability
 |------------------|----------------:|
 | **📏 Ranged 10** | **🎯 One ally** |
 
-**Effect:** The target uses a heroic ability with the Strike keyword as a free triggered action, and deals extra damage with that ability equal to your Reason score. The ability has its Heroic Resource cost reduced by 1 + your Reason score (minimum cost 0).
+**Effect:** The target uses a heroic ability with the Strike keyword as a free triggered action, and deals extra damage with that ability equal to your Reason score. The ability has its [Heroic Resource](scc:mcdm.heroes.v1/rule.resource/heroic-resource) cost reduced by 1 + your Reason score (minimum cost 0).

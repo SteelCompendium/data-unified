@@ -5,4 +5,4 @@ scc: mcdm.heroes.v1/feature.trait.dwarf/spark-off-your-skin
 type: trait
 ---
 
-Your stone skin affords you potent protection. You have a +6 bonus to Stamina, and that bonus increases by 6 at 4th, 7th, and 10th levels.
+Your stone skin affords you potent protection. You have a +6 bonus to [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), and that bonus increases by 6 at 4th, 7th, and 10th levels.

@@ -13,9 +13,9 @@ name: Faith Is Our Armor
 power_roll_characteristic: Intuition
 scc: mcdm.heroes.v1/feature.ability.conduit.level-1/faith-is-our-armor
 target: Four allies
-tier1: The target gains 5 temporary Stamina.
-tier2: The target gains 10 temporary Stamina.
-tier3: The target gains 15 temporary Stamina.
+tier1: The target gains 5 [temporary Stamina](scc:mcdm.heroes.v1/rule.health/temporary-stamina).
+tier2: The target gains 10 [temporary Stamina](scc:mcdm.heroes.v1/rule.health/temporary-stamina).
+tier3: The target gains 15 [temporary Stamina](scc:mcdm.heroes.v1/rule.health/temporary-stamina).
 type: ability
 ---
 
@@ -30,6 +30,6 @@ type: ability
 
 **Power Roll + Intuition:**
 
-- **≤11:** The target gains 5 temporary Stamina.
-- **12-16:** The target gains 10 temporary Stamina.
-- **17+:** The target gains 15 temporary Stamina.
+- **≤11:** The target gains 5 [temporary Stamina](scc:mcdm.heroes.v1/rule.health/temporary-stamina).
+- **12-16:** The target gains 10 [temporary Stamina](scc:mcdm.heroes.v1/rule.health/temporary-stamina).
+- **17+:** The target gains 15 [temporary Stamina](scc:mcdm.heroes.v1/rule.health/temporary-stamina).

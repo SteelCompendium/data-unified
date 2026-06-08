@@ -1,9 +1,0 @@
----
-class: shadow
-level: "10"
-name: Careful Observation Improvement
-scc: mcdm.heroes.v1/feature.trait.shadow.level-10/careful-observation-improvement
-type: trait
----
-
-You can target three creatures simultaneously with your [Careful Observation](scc:mcdm.heroes.v1/feature.ability.shadow.level-3/careful-observation) ability.

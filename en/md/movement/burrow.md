@@ -14,11 +14,11 @@ When a creature uses the Dig maneuver, they can move vertically up to a number o
 
 ###### Targeting Burrowing Creatures
 
-If you are on the ground, you have line of effect to a [burrowing](scc:mcdm.heroes.v1/movement/burrow) creature if that creature occupies 1 or more squares of terrain that can be burrowed through and that touch the ground, and if you have line of effect to any of those squares. The [burrowing](scc:mcdm.heroes.v1/movement/burrow) creature gains the benefit of cover from you.
+If you are on the ground, you have line of effect to a [burrowing](scc:mcdm.heroes.v1/movement/burrow) creature if that creature occupies 1 or more squares of terrain that can be burrowed through and that touch the ground, and if you have line of effect to any of those squares. The [burrowing](scc:mcdm.heroes.v1/movement/burrow) creature gains the benefit of [cover](scc:mcdm.heroes.v1/rule.combat/cover) from you.
 
 If you are completely beneath the ground while [burrowing](scc:mcdm.heroes.v1/movement/burrow), you don't have line of effect to any creature on the surface unless a rule states otherwise.
 
-If you are completely beneath the ground while [burrowing](scc:mcdm.heroes.v1/movement/burrow) and are adjacent to another creature who is [burrowing](scc:mcdm.heroes.v1/movement/burrow), you have line of effect to that creature, though you both have cover from each other.
+If you are completely beneath the ground while [burrowing](scc:mcdm.heroes.v1/movement/burrow) and are adjacent to another creature who is [burrowing](scc:mcdm.heroes.v1/movement/burrow), you have line of effect to that creature, though you both have [cover](scc:mcdm.heroes.v1/rule.combat/cover) from each other.
 
 You can't gain the benefit of [high ground](scc:mcdm.heroes.v1/movement/high-ground) (see below) against creatures who are completely beneath the ground while [burrowing](scc:mcdm.heroes.v1/movement/burrow).
 

@@ -15,7 +15,7 @@ type: title
 - *Dirty Fighting:* While you are standing, your melee strikes gain a +3 damage bonus against [prone creature](scc:mcdm.heroes.v1/condition/prone)s. Additionally, being prone doesn't impose a bane on your strikes.
 - *Foes as Weapons:* Whenever you have a creature of your size or smaller [grabbed](scc:mcdm.heroes.v1/condition/grabbed), you can use them as a weapon when you make a melee weapon free strike. Both the target and the [grabbed](scc:mcdm.heroes.v1/condition/grabbed) enemy take the strike's damage.
 - *Instant Celebrity:* You earn 1 Renown.
-- *Showstopper:* You have the following ability, which can be paid for using the Heroic Resource of your class.
+- *Showstopper:* You have the following ability, which can be paid for using the [Heroic Resource](scc:mcdm.heroes.v1/rule.resource/heroic-resource) of your class.
 
 ##### Showstopper (5 Heroic Resource)
 

@@ -7,7 +7,6 @@ ranged_damage_bonus: +1/+1/+1
 ranged_distance_bonus: "+5"
 scc: mcdm.heroes.v1/kit/raider
 speed_bonus: "+1"
-stamina_bonus: +6 per echelon
 type: kit
 ---
 
@@ -19,7 +18,7 @@ You wear light armor and wield a shield and a light weapon.
 
 ##### Kit Bonuses
 
-**Stamina Bonus:** +6 per echelon
+**[Stamina](scc:mcdm.heroes.v1/rule.health/stamina) Bonus:** +6 per echelon
 
 **Speed Bonus:** +1
 
@@ -35,7 +34,7 @@ You wear light armor and wield a shield and a light weapon.
 
 ###### Raider's Awe
 
-*You execute a brutal strike that leaves your foe reeling. (Previously known as "[Shock and Awe](scc:mcdm.heroes.v1/feature.trait.tactician.level-7/shock-and-awe)")*
+*You execute a brutal strike that leaves your foe reeling. (Previously known as "[Shock and Awe](scc:mcdm.heroes.v1/feature.tactician.level-7/shock-and-awe)")*
 
 | **Melee, Ranged, Strike, Weapon** |     **Main action** |
 |-----------------------------------|--------------------:|

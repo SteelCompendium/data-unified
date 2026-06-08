@@ -2,7 +2,7 @@
 action_type: Main action
 class: talent
 distance: Melee 2
-effect: You gain 1 surge.
+effect: You gain 1 [surge](scc:mcdm.heroes.v1/rule.resource/surge).
 flavor: You form a blade of mind energy and stab your target, invigorating yourself.
 keywords:
     - Animapathy
@@ -34,6 +34,6 @@ type: ability
 - **12-16:** 6 + P damage
 - **17+:** 9 + P damage
 
-**Effect:** You gain 1 surge.
+**Effect:** You gain 1 [surge](scc:mcdm.heroes.v1/rule.resource/surge).
 
 **Strained:** The target takes an extra 3 damage. You also take 3 damage that can't be reduced in any way.

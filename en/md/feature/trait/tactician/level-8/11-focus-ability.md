@@ -1,9 +1,0 @@
----
-class: tactician
-level: "8"
-name: 11-Focus Ability
-scc: mcdm.heroes.v1/feature.trait.tactician.level-8/11-focus-ability
-type: trait
----
-
-Choose one heroic ability from the following options, each of which costs 11 focus to use.

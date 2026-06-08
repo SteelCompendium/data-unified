@@ -15,9 +15,9 @@ name: Relentless Death
 power_roll_characteristic: Might
 scc: mcdm.heroes.v1/feature.ability.fury.level-8/relentless-death
 target: Self
-tier1: Any target whose Stamina is equal to or less than 8 dies.
-tier2: Any target whose Stamina is equal to or less than 11 dies.
-tier3: Any target whose Stamina is equal to or less than 17 dies.
+tier1: Any target whose [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) is equal to or less than 8 dies.
+tier2: Any target whose [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) is equal to or less than 11 dies.
+tier3: Any target whose [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) is equal to or less than 17 dies.
 type: ability
 ---
 
@@ -32,6 +32,6 @@ type: ability
 
 **Power Roll + Might:**
 
-- **≤11:** Any target whose Stamina is equal to or less than 8 dies.
-- **12-16:** Any target whose Stamina is equal to or less than 11 dies.
-- **17+:** Any target whose Stamina is equal to or less than 17 dies.
+- **≤11:** Any target whose [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) is equal to or less than 8 dies.
+- **12-16:** Any target whose [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) is equal to or less than 11 dies.
+- **17+:** Any target whose [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) is equal to or less than 17 dies.

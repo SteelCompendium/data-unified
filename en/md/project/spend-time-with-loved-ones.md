@@ -12,7 +12,7 @@ type: project
 
 **Project Goal:** 60
 
-You revitalize your spirit by spending time with people you love who you haven't seen in a long while. You must be able to communicate with those people to undertake this project or make project rolls for it. When you complete this project, your Stamina maximum increases by 12 + your level until the end of your next respite, and you can't start another Spend Time With Loved Ones project for a month.
+You revitalize your spirit by spending time with people you love who you haven't seen in a long while. You must be able to communicate with those people to undertake this project or make project rolls for it. When you complete this project, your [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) maximum increases by 12 + your level until the end of your next respite, and you can't start another Spend Time With Loved Ones project for a month.
 
 ###### Spend Time With Loved Ones Events Table
 

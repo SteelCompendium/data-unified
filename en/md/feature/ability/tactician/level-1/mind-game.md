@@ -36,4 +36,4 @@ type: ability
 - **12-16:** 6 + M damage; R < AVERAGE, [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
 - **17+:** 10 + M damage; R < STRONG, [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
 
-**Effect:** Before the start of your next turn, the first time any ally deals damage to any target marked by you, that ally can spend a Recovery.
+**Effect:** Before the start of your next turn, the first time any ally deals damage to any target marked by you, that ally can spend a [Recovery](scc:mcdm.heroes.v1/rule.health/recoveries).

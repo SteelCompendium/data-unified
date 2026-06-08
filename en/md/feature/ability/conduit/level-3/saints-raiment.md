@@ -3,7 +3,7 @@ action_type: Maneuver
 class: conduit
 cost: 7 Piety
 distance: Ranged 10
-effect: The target gains 20 temporary Stamina and 3 surges.
+effect: The target gains 20 [temporary Stamina](scc:mcdm.heroes.v1/rule.health/temporary-stamina) and 3 [surges](scc:mcdm.heroes.v1/rule.resource/surge).
 flavor: An ally becomes the wearer of an empowered golden cloak.
 keywords:
     - Magic
@@ -22,4 +22,4 @@ type: ability
 |---------------------------|----------------:|
 | **📏 Ranged 10**          | **🎯 One ally** |
 
-**Effect:** The target gains 20 temporary Stamina and 3 surges.
+**Effect:** The target gains 20 [temporary Stamina](scc:mcdm.heroes.v1/rule.health/temporary-stamina) and 3 [surges](scc:mcdm.heroes.v1/rule.resource/surge).

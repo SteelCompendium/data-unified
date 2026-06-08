@@ -2,7 +2,7 @@
 action_type: No action
 class: troubadour
 distance: 5 aura
-effect: At the end of each of your turns while this performance is active, you can choose up to a number of targets equal to your Presence score. Each chosen target can spend a Recovery.
+effect: At the end of each of your turns while this performance is active, you can choose up to a number of targets equal to your Presence score. Each chosen target can spend a [Recovery](scc:mcdm.heroes.v1/rule.health/recoveries).
 flavor: There once was a man from Capital...
 keywords:
     - Area
@@ -22,4 +22,4 @@ type: ability
 |------------------------------|--------------------------------------:|
 | **📏 5 aura**                | **🎯 Self and each ally in the area** |
 
-**Effect:** At the end of each of your turns while this performance is active, you can choose up to a number of targets equal to your Presence score. Each chosen target can spend a Recovery.
+**Effect:** At the end of each of your turns while this performance is active, you can choose up to a number of targets equal to your Presence score. Each chosen target can spend a [Recovery](scc:mcdm.heroes.v1/rule.health/recoveries).

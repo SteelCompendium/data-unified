@@ -1,0 +1,17 @@
+---
+class: beastheart
+level: "1"
+name: Companion
+scc: mcdm.beastheart.v1/feature.beastheart.level-1/companion
+type: feature
+---
+
+You gain the companionship of a wild animal who travels with you. Your companion isn't your pet. Rather, they've forged a mystical bond with you—one that allows you to share your companion's senses and primal instincts.
+
+Choose a companion from the following options. (*Quick Build:* Wolf.)
+
+##### Customizing Your Companion
+
+Want a companion not listed here? You can often use one of these stat blocks to represent a similar beast. For instance, you could use the [condor](scc:mcdm.beastheart.v1/feature-group.companion/condor) companion for an escaped Hawklord hawk, the [wolf](scc:mcdm.beastheart.v1/feature-group.companion/wolf) for a dog or jackal, or even the [boar](scc:mcdm.beastheart.v1/feature-group.companion/boar) for a particularly ornery stag or elk.
+
+With the Director's permission, you can also change the damage types of your companion's abilities to better match your vision. Perhaps instead of a [hellhound](scc:mcdm.beastheart.v1/feature-group.companion/hellhound) you travel with a white wolf that deals cold damage instead of fire damage; maybe your [elemental spark](scc:mcdm.beastheart.v1/feature-group.companion/elemental-spark) is an elemental ember that deals fire damage; or maybe your [panther](scc:mcdm.beastheart.v1/feature-group.companion/panther) is a shadow whose [Pounce](scc:mcdm.beastheart.v1/feature.ability.companion.panther.level-1/pounce) maneuver deals corruption or cold damage.

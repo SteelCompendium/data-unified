@@ -13,8 +13,8 @@ type: title
 **Effect:** Choose one of the following benefits:
 
 - *Heraldic Fame:* You earn 1 Renown.
-- *Knightly Aegis:* Your Stamina maximum increases by 6.
-- *Knightly Challenge:* You have the following ability, which can be paid for using the Heroic Resource of your class.
+- *Knightly Aegis:* Your [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) maximum increases by 6.
+- *Knightly Challenge:* You have the following ability, which can be paid for using the [Heroic Resource](scc:mcdm.heroes.v1/rule.resource/heroic-resource) of your class.
 
 ##### Knightly Challenge (5 Heroic Resource)
 

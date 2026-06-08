@@ -23,7 +23,7 @@ I was here, teaching this class during the fire of Chaos 373. The fire *leveled 
 
 *Six months* after the Great Fire, your ancestors had rebuilt... everything. I have seen many miracles in my life. Witnessing that feat might be chief among them.
 
-Liches are almost always [humans](scc:mcdm.heroes.v1/ancestry/human). Did you know that? I think I know why. Your lives are so short—almost as soon as you're born, you're thinking about dying, and you refuse to yield.
+Liches are almost always [humans](scc:mcdm.heroes.v1/ancestry/human). Did you know that? I think I know why. Your lives are so short—almost as soon as you're born, you're thinking about [dying](scc:mcdm.heroes.v1/rule.health/dying), and you refuse to yield.
 
 That refusal to yield to death... to *death*... is what drives you, I think. Drives you to leave the world better than you found it. Causes ruined people to rebuild great city.
 

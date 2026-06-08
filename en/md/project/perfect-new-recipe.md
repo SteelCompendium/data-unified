@@ -19,7 +19,7 @@ When you complete the project, you can make five servings of food from the recip
 A creature who eats a serving of food from a particular type of recipe gains one of the following benefits, which lasts until the creature takes another respite.
 
 - **Comforting:** When the creature fails a saving throw, they can choose to succeed instead. This benefit then ends.
-- **Hearty:** The creature increases their Recoveries by 1 at the end of the respite in which the food is consumed.
+- **Hearty:** The creature increases their [Recoveries](scc:mcdm.heroes.v1/rule.health/recoveries) by 1 at the end of the respite in which the food is consumed.
 - **Supernatural Power:** The creature temporarily increases one of their characteristic scores by 1 (to a maximum of 6).
 
 A creature can benefit from the food of only one recipe at a time, and can't benefit from more than one serving of a recipe at a time.

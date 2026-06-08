@@ -13,5 +13,5 @@ type: title
 **Effect:** Your choice of your Might or Agility increases by 1 (to a maximum of 6). Additionally, choose one of the following benefits:
 
 - *Bounce Back Fast:* Whenever you rest for 8 hours or more, you can gain the benefit of a respite. Once you use this benefit, you can't use it again until you have taken a regular respite.
-- *Reserves of Strength:* Your recovery value is half your Stamina
+- *Reserves of Strength:* Your [recovery value](scc:mcdm.heroes.v1/rule.health/recoveries) is half your [Stamina](scc:mcdm.heroes.v1/rule.health/stamina)
 - *Undying:* You can't be affected by the [bleeding](scc:mcdm.heroes.v1/condition/bleeding) condition.

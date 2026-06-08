@@ -1,6 +1,6 @@
 ---
 echelon: "2"
-effect: While worn, this belt grants you a +3 bonus to Stamina and a +1 bonus to Stability. This Stamina bonus adds to the Stamina bonus granted by other treasures.
+effect: While worn, this belt grants you a +3 bonus to [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) and a +1 bonus to Stability. This [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) bonus adds to the [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) bonus granted by other treasures.
 keywords:
     - Magic
     - Waist
@@ -22,4 +22,4 @@ type: treasure
 
 **Project Goal:** 300
 
-**Effect:** While worn, this belt grants you a +3 bonus to Stamina and a +1 bonus to Stability. This Stamina bonus adds to the Stamina bonus granted by other treasures.
+**Effect:** While worn, this belt grants you a +3 bonus to [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) and a +1 bonus to Stability. This [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) bonus adds to the [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) bonus granted by other treasures.

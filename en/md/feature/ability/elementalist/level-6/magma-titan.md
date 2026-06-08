@@ -33,4 +33,4 @@ type: ability
 - When the target force moves a creature or object, the [forced movement](scc:mcdm.heroes.v1/movement/forced-movement) distance gains a +2 bonus.
 - They can use their highest characteristic instead of Might for Might power rolls.
 
-**Persistent 2:** The effect lasts until the start of your next turn. Additionally, at the start of your turn, the target can spend 2 Recoveries.
+**Persistent 2:** The effect lasts until the start of your next turn. Additionally, at the start of your turn, the target can spend 2 [Recoveries](scc:mcdm.heroes.v1/rule.health/recoveries).

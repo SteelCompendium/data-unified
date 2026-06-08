@@ -4,6 +4,6 @@ scc: mcdm.heroes.v1/rule.combat/opportunity-attack
 type: rule
 ---
 
-Whenever a creature has an enemy adjacent to them and the enemy willingly moves to a space that isn't adjacent to the creature without [shifting](scc:mcdm.heroes.v1/movement/shifting), the creature can take advantage of that movement to quickly make a melee [free strike](scc:mcdm.heroes.v1/feature.trait.common.main-actions/free-strike) against the enemy as a free triggered action. This is called an opportunity attack.
+Whenever a creature has an enemy adjacent to them and the enemy willingly moves to a space that isn't adjacent to the creature without [shifting](scc:mcdm.heroes.v1/movement/shifting), the creature can take advantage of that movement to quickly make a melee [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) against the enemy as a free triggered action. This is called an opportunity attack.
 
 If a creature has a bane or double bane on the power roll against the enemy, they can't make an opportunity attack.

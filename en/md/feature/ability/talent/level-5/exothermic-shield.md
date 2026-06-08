@@ -25,4 +25,4 @@ type: ability
 
 **Effect:** Until the start of your next turn, the target has cold immunity 10 and fire immunity 10, and their strikes deal extra fire damage equal to twice your Reason score. Additionally, whenever an enemy uses a melee ability against the target while they are under this effect, the enemy takes 5 fire damage.
 
-**Strained:** The target gains 2 surges. You are [weakened](scc:mcdm.heroes.v1/condition/weakened) and [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends).
+**Strained:** The target gains 2 [surges](scc:mcdm.heroes.v1/rule.resource/surge). You are [weakened](scc:mcdm.heroes.v1/condition/weakened) and [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends).

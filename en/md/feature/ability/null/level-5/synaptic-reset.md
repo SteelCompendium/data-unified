@@ -3,7 +3,7 @@ action_type: Maneuver
 class: "null"
 cost: 9 Discipline
 distance: 3 burst
-effect: Each target can end any conditions or effects on themself, and gains 5 temporary Stamina for each condition or effect removed.
+effect: Each target can end any conditions or effects on themself, and gains 5 [temporary Stamina](scc:mcdm.heroes.v1/rule.health/temporary-stamina) for each condition or effect removed.
 flavor: You expand your nullifying power to mitigate harmful effects.
 keywords:
     - Area
@@ -22,4 +22,4 @@ type: ability
 |-------------------|--------------------------------------:|
 | **📏 3 burst**    | **🎯 Self and each ally in the area** |
 
-**Effect:** Each target can end any conditions or effects on themself, and gains 5 temporary Stamina for each condition or effect removed.
+**Effect:** Each target can end any conditions or effects on themself, and gains 5 [temporary Stamina](scc:mcdm.heroes.v1/rule.health/temporary-stamina) for each condition or effect removed.

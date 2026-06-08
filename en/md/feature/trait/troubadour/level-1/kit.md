@@ -1,9 +1,0 @@
----
-class: troubadour
-level: "1"
-name: Kit
-scc: mcdm.heroes.v1/feature.trait.troubadour.level-1/kit
-type: trait
----
-
-You can use and gain the benefits of a kit. See Chapter 6: [Kits](scc:mcdm.heroes.v1/chapter/kits) for more information. (*Quick Build:* [Swashbuckler](scc:mcdm.heroes.v1/kit/swashbuckler).)

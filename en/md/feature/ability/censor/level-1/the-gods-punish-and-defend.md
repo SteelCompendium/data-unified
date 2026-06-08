@@ -3,7 +3,7 @@ action_type: Main action
 class: censor
 cost: 3 Wrath
 distance: Melee 1
-effect: You can spend a Recovery to allow yourself or one ally within 10 squares to regain Stamina equal to your recovery value.
+effect: You can spend a [Recovery](scc:mcdm.heroes.v1/rule.health/recoveries) to allow yourself or one ally within 10 squares to regain [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) equal to your [recovery value](scc:mcdm.heroes.v1/rule.health/recoveries).
 flavor: You channel holy energy to smite a foe and heal an ally.
 keywords:
     - Magic
@@ -34,4 +34,4 @@ type: ability
 - **12-16:** 8 + M holy damage
 - **17+:** 11 + M holy damage
 
-**Effect:** You can spend a Recovery to allow yourself or one ally within 10 squares to regain Stamina equal to your recovery value.
+**Effect:** You can spend a [Recovery](scc:mcdm.heroes.v1/rule.health/recoveries) to allow yourself or one ally within 10 squares to regain [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) equal to your [recovery value](scc:mcdm.heroes.v1/rule.health/recoveries).

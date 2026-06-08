@@ -39,7 +39,7 @@ Count Revile shook his head. "Not like this. We are creatures of reason, we of A
 
 "At yourself ? Why? What did you...?"
 
-"John," the [memonek](scc:mcdm.heroes.v1/ancestry/memonek) said, and now it was his turn to whisper. "I was afraid. Afraid of... of being wounded, of failing you, failing my friends. Of dying. And out of that fear came... enormous anger. At myself. Anger that I was so weak so... useless. Anger so... strong, so powerful... I forgot who I was."
+"John," the [memonek](scc:mcdm.heroes.v1/ancestry/memonek) said, and now it was his turn to whisper. "I was afraid. Afraid of... of being wounded, of failing you, failing my friends. Of [dying](scc:mcdm.heroes.v1/rule.health/dying). And out of that fear came... enormous anger. At myself. Anger that I was so weak so... useless. Anger so... strong, so powerful... I forgot who I was."
 
 John chuckled. "That's just..." He smiled broadly. "That's just normal. We all feel that way."
 

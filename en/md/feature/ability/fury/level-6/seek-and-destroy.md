@@ -35,4 +35,4 @@ type: ability
 - **12-16:** 6 + M damage; P < AVERAGE, [frightened](scc:mcdm.heroes.v1/condition/frightened) (save ends)
 - **17+:** 10 + M damage; P < STRONG, [frightened](scc:mcdm.heroes.v1/condition/frightened) (save ends)
 
-**Effect:** If a target who is not a leader or solo creature is winded by this strike, they are reduced to 0 Stamina and you choose an enemy within 5 squares of you. If that enemy has P < AVERAGE, they are [frightened](scc:mcdm.heroes.v1/condition/frightened) of you (save ends).
+**Effect:** If a target who is not a leader or solo creature is [winded](scc:mcdm.heroes.v1/rule.health/winded) by this strike, they are reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) and you choose an enemy within 5 squares of you. If that enemy has P < AVERAGE, they are [frightened](scc:mcdm.heroes.v1/condition/frightened) of you (save ends).

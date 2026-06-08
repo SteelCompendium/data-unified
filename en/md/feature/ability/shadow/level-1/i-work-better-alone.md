@@ -2,7 +2,7 @@
 action_type: Main action
 class: shadow
 distance: Melee 1 or ranged 5
-effect: If the target has none of your allies adjacent to them, you gain 1 surge before making the power roll.
+effect: If the target has none of your allies adjacent to them, you gain 1 [surge](scc:mcdm.heroes.v1/rule.resource/surge) before making the power roll.
 flavor: '"It''s better, just you and me. Isn''t it?"'
 keywords:
     - Melee
@@ -34,4 +34,4 @@ type: ability
 - **12-16:** 6 + A damage
 - **17+:** 9 + A damage
 
-**Effect:** If the target has none of your allies adjacent to them, you gain 1 surge before making the power roll.
+**Effect:** If the target has none of your allies adjacent to them, you gain 1 [surge](scc:mcdm.heroes.v1/rule.resource/surge) before making the power roll.

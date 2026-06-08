@@ -77,4 +77,4 @@ Certain abilities and effects trigger when a creature moves into a particular ar
 
 ##### Death Effects and Forced Movement
 
-Some creatures have traits or abilities that trigger when they die or are reduced to 0 Stamina. If such a creature is reduced to 0 Stamina by damage from an ability or effect that also force moves them, the [forced movement](scc:mcdm.heroes.v1/movement/forced-movement) takes place before the triggered effect.
+Some creatures have traits or abilities that trigger when they die or are reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina). If such a creature is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) by damage from an ability or effect that also force moves them, the [forced movement](scc:mcdm.heroes.v1/movement/forced-movement) takes place before the triggered effect.

@@ -30,7 +30,7 @@ For a [fury](scc:mcdm.heroes.v1/class/fury) with a Might of 2, the ability's dam
 
 The damage for these abilities increases at each echelon of play, since your characteristics improve each time you reach a new echelon.
 
-Some abilities, including your [free strikes](scc:mcdm.heroes.v1/feature.trait.common.main-actions/free-strike), allow you to pick which characteristic score you add to their damage. Such abilities use a format similar to "7 + M or A damage," indicating that you can add your Might or your Agility to determine the damage.
+Some abilities, including your [free strikes](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike), allow you to pick which characteristic score you add to their damage. Such abilities use a format similar to "7 + M or A damage," indicating that you can add your Might or your Agility to determine the damage.
 
 (Chapter 10: [Combat](scc:mcdm.heroes.v1/chapter/combat) has more information on damage.)
 

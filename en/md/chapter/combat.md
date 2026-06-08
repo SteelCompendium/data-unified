@@ -17,9 +17,9 @@ When combat begins, the Director should position miniatures or tokens on a gridd
 
 ### Movement
 
-During combat, creatures can employ multiple mechanics that allow them to move around the battlefield. The most common of those mechanics is the [Advance](scc:mcdm.heroes.v1/feature.trait.common.move-actions/advance) or [Disengage](scc:mcdm.heroes.v1/feature.trait.common.move-actions/disengage) move action (detailed under Move Actions below), but abilities granted by your class, equipment, ancestry, title, or other options might allow you other ways to move.
+During combat, creatures can employ multiple mechanics that allow them to move around the battlefield. The most common of those mechanics is the [Advance](scc:mcdm.heroes.v1/feature.common.move-actions/advance) or [Disengage](scc:mcdm.heroes.v1/feature.common.move-actions/disengage) move action (detailed under Move Actions below), but abilities granted by your class, equipment, ancestry, title, or other options might allow you other ways to move.
 
-Your hero starts with a speed granted by their ancestry—usually 5. This represents the maximum number of squares you can move when you take the [Advance](scc:mcdm.heroes.v1/feature.trait.common.move-actions/advance) move action or when another effect allows you to move. Your speed can be increased by your kit and other game options.
+Your hero starts with a speed granted by their ancestry—usually 5. This represents the maximum number of squares you can move when you take the [Advance](scc:mcdm.heroes.v1/feature.common.move-actions/advance) move action or when another effect allows you to move. Your speed can be increased by your kit and other game options.
 
 All squares adjacent to your character cost 1 movement to move into. No, there's no Pythagorean theorem on the grid. It's a game, don't overthink it.
 
@@ -41,11 +41,11 @@ Creatures in the game can use eight types of movement: walk, [burrow](scc:mcdm.h
 
 ### End of Combat
 
-At the end of combat, the Director determines if the heroes earn any Victories. Any effect or condition on you that you suffered during combat (except for being winded, unconscious, or dying) ends if you want it to.
+At the end of combat, the Director determines if the heroes earn any Victories. Any effect or condition on you that you suffered during combat (except for being [winded](scc:mcdm.heroes.v1/rule.health/winded), unconscious, or [dying](scc:mcdm.heroes.v1/rule.health/dying)) ends if you want it to.
 
 #### How Combat Ends
 
-The Director determines when a combat encounter is over. While some battles—especially showdowns with important villains—can be about a fight to the bitter end, many other encounters can become a tedious slog if the heroes need to fight until every last enemy's Stamina is reduced to 0.
+The Director determines when a combat encounter is over. While some battles—especially showdowns with important villains—can be about a fight to the bitter end, many other encounters can become a tedious slog if the heroes need to fight until every last enemy's [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) is reduced to 0.
 
 To avoid a battle dragging, the Director can set objectives when they build the encounter. Once the heroes achieve those objectives, or if it becomes clear that they can win the fight with minimal effort, the Director can end the encounter. They might do so by calling "Cut!" like a film director, or they can use some other phrase or indicator.
 

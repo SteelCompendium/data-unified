@@ -3,7 +3,7 @@ action_type: Main action
 class: tactician
 cost: 5 Focus
 distance: Ranged 5
-effect: One ally adjacent to the target can spend a Recovery.
+effect: One ally adjacent to the target can spend a [Recovery](scc:mcdm.heroes.v1/rule.health/recoveries).
 flavor: Your enemy will think twice about attacking your friend.
 keywords:
     - Ranged
@@ -33,4 +33,4 @@ type: ability
 - **12-16:** 9 + R damage; [taunted](scc:mcdm.heroes.v1/condition/taunted) (EoT)
 - **17+:** 12 + R damage; [taunted](scc:mcdm.heroes.v1/condition/taunted) (EoT)
 
-**Effect:** One ally adjacent to the target can spend a Recovery.
+**Effect:** One ally adjacent to the target can spend a [Recovery](scc:mcdm.heroes.v1/rule.health/recoveries).

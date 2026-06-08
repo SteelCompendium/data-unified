@@ -10,19 +10,19 @@ After any damage you take is reduced by damage immunity or other effects, your S
 
 #### Director-Controlled Creatures
 
-In most circumstances, Director-controlled creatures die or are destroyed when their Stamina drops to 0.
+In most circumstances, Director-controlled creatures die or are destroyed when their [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) drops to 0.
 
 ##### No Recoveries
 
-Director-controlled creatures don't have Recoveries or a recovery value. Any such creatures who regain Stamina during a battle do so by way of a special item or an ability in their stat block. However, there are times when a hero might wish to use an ability that allows another creature to spend a Recovery or to regain Stamina equal to their recovery value on an injured NPC. In such cases, a Director-controlled creature regains Stamina equal to one-third of their Stamina maximum.
+Director-controlled creatures don't have [Recoveries](scc:mcdm.heroes.v1/rule.health/recoveries) or a [recovery value](scc:mcdm.heroes.v1/rule.health/recoveries). Any such creatures who regain [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) during a battle do so by way of a special item or an ability in their stat block. However, there are times when a hero might wish to use an ability that allows another creature to spend a [Recovery](scc:mcdm.heroes.v1/rule.health/recoveries) or to regain [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) equal to their [recovery value](scc:mcdm.heroes.v1/rule.health/recoveries) on an injured NPC. In such cases, a Director-controlled creature regains [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) equal to one-third of their [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) maximum.
 
 #### Knocking Creatures Out
 
 If you damage a creature with an ability that would kill them, you can choose to instead knock them unconscious. If a creature takes damage while unconscious in this way, they die.
 
-Director-controlled creatures remain unconscious for 1 hour if no one does anything to wake them. They then gain 1 Stamina and are no longer unconscious.
+Director-controlled creatures remain unconscious for 1 hour if no one does anything to wake them. They then gain 1 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) and are no longer unconscious.
 
-Heroes remain unconscious for 1 hour if no one does anything to wake them. After 1 hour, they can spend a Recovery and are no longer unconscious. If the hero has no Recoveries left, they can't wake up until they finish a respite.
+Heroes remain unconscious for 1 hour if no one does anything to wake them. After 1 hour, they can spend a [Recovery](scc:mcdm.heroes.v1/rule.health/recoveries) and are no longer unconscious. If the hero has no [Recoveries](scc:mcdm.heroes.v1/rule.health/recoveries) left, they can't wake up until they finish a respite.
 
 ##### Unconscious
 

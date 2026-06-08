@@ -2,7 +2,7 @@
 action_type: Triggered
 class: tactician
 distance: Ranged 10
-effect: The target gains 2 surges, which they can use on the triggering damage.
+effect: The target gains 2 [surges](scc:mcdm.heroes.v1/rule.resource/surge), which they can use on the triggering damage.
 flavor: Your leadership aids an ally.
 keywords:
     - Ranged
@@ -25,6 +25,6 @@ type: ability
 
 **Trigger:** The target deals damage to another creature.
 
-**Effect:** The target gains 2 surges, which they can use on the triggering damage.
+**Effect:** The target gains 2 [surges](scc:mcdm.heroes.v1/rule.resource/surge), which they can use on the triggering damage.
 
 **Spend 1 Focus:** If the damage has any potency effect associated with it, the potency is increased by 1.

@@ -3,7 +3,7 @@ action_type: Free triggered
 class: conduit
 cost: 11 Piety
 distance: Ranged 10
-effect: Before the target dies, you can look at their stat block and force them to use one ability that is a main action or a maneuver. If the ability costs a Heroic Resource or Malice, the creature can use it without any cost. For the purpose of using this ability, your allies and enemies are the target's allies and enemies, and you decide who the ability targets.
+effect: Before the target dies, you can look at their stat block and force them to use one ability that is a main action or a maneuver. If the ability costs a [Heroic Resource](scc:mcdm.heroes.v1/rule.resource/heroic-resource) or Malice, the creature can use it without any cost. For the purpose of using this ability, your allies and enemies are the target's allies and enemies, and you decide who the ability targets.
 flavor: Your death will fuel our victory.
 keywords:
     - Magic
@@ -26,4 +26,4 @@ type: ability
 
 **Trigger:** The target dies.
 
-**Effect:** Before the target dies, you can look at their stat block and force them to use one ability that is a main action or a maneuver. If the ability costs a Heroic Resource or Malice, the creature can use it without any cost. For the purpose of using this ability, your allies and enemies are the target's allies and enemies, and you decide who the ability targets.
+**Effect:** Before the target dies, you can look at their stat block and force them to use one ability that is a main action or a maneuver. If the ability costs a [Heroic Resource](scc:mcdm.heroes.v1/rule.resource/heroic-resource) or Malice, the creature can use it without any cost. For the purpose of using this ability, your allies and enemies are the target's allies and enemies, and you decide who the ability targets.

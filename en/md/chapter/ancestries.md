@@ -41,17 +41,17 @@ This chapter details twelve ancestries for the game:
 >
 > The rules for using ancestries refer to lots of other parts of the game. You can find information on specific topics as follows:
 >
-> Edges and banes, Recoveries, respites: Chapter 1: [The Basics](scc:mcdm.heroes.v1/chapter/the-basics)
+> Edges and banes, [Recoveries](scc:mcdm.heroes.v1/rule.health/recoveries), respites: Chapter 1: [The Basics](scc:mcdm.heroes.v1/chapter/the-basics)
 >
 > Languages: Chapter 4: [Background](scc:mcdm.heroes.v1/chapter/background)
 >
-> Abilities, conditions, potencies, saving throws, surges: Chapter 5: [Classes](scc:mcdm.heroes.v1/chapter/classes)
+> Abilities, conditions, potencies, saving throws, [surges](scc:mcdm.heroes.v1/rule.resource/surge): Chapter 5: [Classes](scc:mcdm.heroes.v1/chapter/classes)
 >
 > Skills, tests: Chapter 9: [Tests](scc:mcdm.heroes.v1/chapter/tests)
 >
 > Crafting projects: Chapter 12: [Downtime Projects](scc:mcdm.heroes.v1/chapter/downtime-projects)
 >
-> Main actions and maneuvers, creature size, damage and Stamina, dying and death, flanking, movement and [forced movement](scc:mcdm.heroes.v1/movement/forced-movement), winded: Chapter 10: [Combat](scc:mcdm.heroes.v1/chapter/combat)
+> Main actions and maneuvers, creature size, damage and [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), [dying](scc:mcdm.heroes.v1/rule.health/dying) and death, [flanking](scc:mcdm.heroes.v1/rule.combat/flanking), movement and [forced movement](scc:mcdm.heroes.v1/movement/forced-movement), [winded](scc:mcdm.heroes.v1/rule.health/winded): Chapter 10: [Combat](scc:mcdm.heroes.v1/chapter/combat)
 
 ### On the Origin of Species
 

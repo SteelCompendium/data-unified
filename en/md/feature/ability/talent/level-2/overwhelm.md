@@ -33,4 +33,4 @@ type: ability
 - **12-16:** 10 + R psychic damage; I < AVERAGE, [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
 - **17+:** 14 + R psychic damage; I < STRONG, [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)
 
-**Strained:** You start crying, and you can't use triggered actions or make [free strikes](scc:mcdm.heroes.v1/feature.trait.common.main-actions/free-strike) until the end of the target's next turn.
+**Strained:** You start crying, and you can't use triggered actions or make [free strikes](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) until the end of the target's next turn.

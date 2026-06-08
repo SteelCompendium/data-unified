@@ -20,8 +20,8 @@ type: treasure
 
 **Project Goal:** 450
 
-**1st Level:** Any weapon ability that deals rolled damage using this weapon deals an extra 1 fire damage. Additionally, whenever you make a strike using the net and obtain a tier 3 outcome, you can automatically grab the target. A target [grabbed](scc:mcdm.heroes.v1/condition/grabbed) in this way takes a bane when using the [Escape Grab](scc:mcdm.heroes.v1/feature.trait.common.maneuvers/escape-grab) maneuver.
+**1st Level:** Any weapon ability that deals rolled damage using this weapon deals an extra 1 fire damage. Additionally, whenever you make a strike using the net and obtain a tier 3 outcome, you can automatically grab the target. A target [grabbed](scc:mcdm.heroes.v1/condition/grabbed) in this way takes a bane when using the [Escape Grab](scc:mcdm.heroes.v1/feature.common.maneuvers/escape-grab) maneuver.
 
-**5th Level:** The weapon's extra fire damage increases to 2. Additionally, a target [grabbed](scc:mcdm.heroes.v1/condition/grabbed) by a strike using the net takes 8 fire damage each time they attempt to escape using the [Escape Grab](scc:mcdm.heroes.v1/feature.trait.common.maneuvers/escape-grab) maneuver.
+**5th Level:** The weapon's extra fire damage increases to 2. Additionally, a target [grabbed](scc:mcdm.heroes.v1/condition/grabbed) by a strike using the net takes 8 fire damage each time they attempt to escape using the [Escape Grab](scc:mcdm.heroes.v1/feature.common.maneuvers/escape-grab) maneuver.
 
-**9th Level:** The weapon's extra fire damage increases to 3, and the damage taken by a [grabbed](scc:mcdm.heroes.v1/condition/grabbed) creature attempting to escape increases to 15. Additionally, you can use a maneuver to make a [free strike](scc:mcdm.heroes.v1/feature.trait.common.main-actions/free-strike) with another weapon against a target [grabbed](scc:mcdm.heroes.v1/condition/grabbed) using the net.
+**9th Level:** The weapon's extra fire damage increases to 3, and the damage taken by a [grabbed](scc:mcdm.heroes.v1/condition/grabbed) creature attempting to escape increases to 15. Additionally, you can use a maneuver to make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) with another weapon against a target [grabbed](scc:mcdm.heroes.v1/condition/grabbed) using the net.
