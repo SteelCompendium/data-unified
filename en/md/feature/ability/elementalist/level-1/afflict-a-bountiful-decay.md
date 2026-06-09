@@ -12,9 +12,13 @@ keywords:
     - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
 level: "1"
 name: Afflict a Bountiful Decay
+power_roll_characteristic: '[Reason](scc:mcdm.heroes.v1/rule.character/reason)'
 scc: mcdm.heroes.v1/feature.ability.elementalist.level-1/afflict-a-bountiful-decay
 subtype: signature
 target: One creature
+tier1: 2 + R corruption damage
+tier2: 4 + R corruption damage
+tier3: 6 + R corruption damage
 type: ability
 ---
 

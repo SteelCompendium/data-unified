@@ -12,8 +12,12 @@ keywords:
     - Weapon
 level: "1"
 name: Hammer and Anvil
+power_roll_characteristic: '[Might](scc:mcdm.heroes.v1/rule.character/might)'
 scc: mcdm.heroes.v1/feature.ability.tactician.level-1/hammer-and-anvil
 target: One creature or object
+tier1: 5 + M damage; one ally within 10 squares of you can use a [strike](scc:mcdm.heroes.v1/rule.combat/strike) [signature ability](scc:mcdm.heroes.v1/rule.combat/signature-ability) against the target as a free [triggered action](scc:mcdm.heroes.v1/rule.combat/triggered-action)
+tier2: 9 + M damage; one ally within 10 squares of you can use a [strike](scc:mcdm.heroes.v1/rule.combat/strike) [signature ability](scc:mcdm.heroes.v1/rule.combat/signature-ability) that gains an [edge](scc:mcdm.heroes.v1/rule.dice/edge) against the target as a free [triggered action](scc:mcdm.heroes.v1/rule.combat/triggered-action)
+tier3: 12 + M damage; two allies within 10 squares of you can each use a [strike](scc:mcdm.heroes.v1/rule.combat/strike) [signature ability](scc:mcdm.heroes.v1/rule.combat/signature-ability) that gains an [edge](scc:mcdm.heroes.v1/rule.dice/edge) against the target as a free [triggered action](scc:mcdm.heroes.v1/rule.combat/triggered-action)
 type: ability
 ---
 

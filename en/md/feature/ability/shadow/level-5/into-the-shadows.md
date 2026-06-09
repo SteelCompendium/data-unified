@@ -12,8 +12,12 @@ keywords:
     - Weapon
 level: "5"
 name: Into the Shadows
+power_roll_characteristic: '[Agility](scc:mcdm.heroes.v1/rule.character/agility)'
 scc: mcdm.heroes.v1/feature.ability.shadow.level-5/into-the-shadows
 target: One creature or object
+tier1: 8 + A corruption damage
+tier2: 13 + A corruption damage
+tier3: 17 + A corruption damage
 type: ability
 ---
 

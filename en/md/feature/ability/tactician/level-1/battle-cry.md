@@ -8,8 +8,12 @@ keywords:
     - '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)'
 level: "1"
 name: Battle Cry
+power_roll_characteristic: '[Reason](scc:mcdm.heroes.v1/rule.character/reason)'
 scc: mcdm.heroes.v1/feature.ability.tactician.level-1/battle-cry
 target: Three allies
+tier1: Each target gains 1 [surge](scc:mcdm.heroes.v1/rule.resource/surge).
+tier2: Each target gains 2 [surges](scc:mcdm.heroes.v1/rule.resource/surge).
+tier3: Each target gains 3 [surges](scc:mcdm.heroes.v1/rule.resource/surge).
 type: ability
 ---
 

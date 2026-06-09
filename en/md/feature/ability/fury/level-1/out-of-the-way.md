@@ -11,8 +11,12 @@ keywords:
     - Weapon
 level: "1"
 name: Out of the Way!
+power_roll_characteristic: '[Might](scc:mcdm.heroes.v1/rule.character/might)'
 scc: mcdm.heroes.v1/feature.ability.fury.level-1/out-of-the-way
 target: One creature
+tier1: 3 + M damage; slide 2
+tier2: 5 + M damage; slide 3
+tier3: 8 + M damage; slide 5
 type: ability
 ---
 

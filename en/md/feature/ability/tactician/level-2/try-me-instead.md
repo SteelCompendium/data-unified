@@ -11,8 +11,12 @@ keywords:
     - Weapon
 level: "2"
 name: Try Me Instead
+power_roll_characteristic: '[Reason](scc:mcdm.heroes.v1/rule.character/reason)'
 scc: mcdm.heroes.v1/feature.ability.tactician.level-2/try-me-instead
 target: Self
+tier1: 2 + R damage; R < WEAK, [frightened](scc:mcdm.heroes.v1/condition/frightened) (save ends)
+tier2: 3 + R damage; R < AVERAGE, [frightened](scc:mcdm.heroes.v1/condition/frightened) (save ends)
+tier3: 4 + R damage; R < STRONG, [frightened](scc:mcdm.heroes.v1/condition/frightened) (save ends)
 type: ability
 ---
 

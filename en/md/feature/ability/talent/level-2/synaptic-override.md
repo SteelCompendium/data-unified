@@ -11,8 +11,12 @@ keywords:
     - Telepathy
 level: "2"
 name: Synaptic Override
+power_roll_characteristic: '[Reason](scc:mcdm.heroes.v1/rule.character/reason)'
 scc: mcdm.heroes.v1/feature.ability.talent.level-2/synaptic-override
 target: One enemy
+tier1: The target makes a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) against one enemy of your choice.
+tier2: The target shifts up to their [speed](scc:mcdm.heroes.v1/rule.character/speed) and uses their [signature ability](scc:mcdm.heroes.v1/rule.combat/signature-ability) against any enemies of your choice.
+tier3: The target moves up to their [speed](scc:mcdm.heroes.v1/rule.character/speed) and uses their [signature ability](scc:mcdm.heroes.v1/rule.combat/signature-ability) against any enemies of your choice.
 type: ability
 ---
 

@@ -12,8 +12,12 @@ keywords:
     - Void
 level: "3"
 name: Erase
+power_roll_characteristic: '[Reason](scc:mcdm.heroes.v1/rule.character/reason)'
 scc: mcdm.heroes.v1/feature.ability.elementalist.level-3/erase
 target: Special
+tier1: One creature
+tier2: Two creatures
+tier3: Three creatures
 type: ability
 ---
 

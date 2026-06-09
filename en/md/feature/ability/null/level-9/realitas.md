@@ -12,8 +12,12 @@ keywords:
     - Weapon
 level: "9"
 name: Realitas
+power_roll_characteristic: '[Agility](scc:mcdm.heroes.v1/rule.character/agility)'
 scc: mcdm.heroes.v1/feature.ability.null.level-9/realitas
 target: One creature
+tier1: 7 + A psychic damage; I < WEAK, [dazed](scc:mcdm.heroes.v1/condition/dazed)
+tier2: 10 + A psychic damage; I < AVERAGE, [dazed](scc:mcdm.heroes.v1/condition/dazed)
+tier3: 13 + A psychic damage; I < STRONG, [dazed](scc:mcdm.heroes.v1/condition/dazed)
 type: ability
 ---
 

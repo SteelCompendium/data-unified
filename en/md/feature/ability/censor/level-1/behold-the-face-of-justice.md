@@ -13,8 +13,12 @@ keywords:
     - Weapon
 level: "1"
 name: Behold the Face of Justice!
+power_roll_characteristic: '[Might](scc:mcdm.heroes.v1/rule.character/might)'
 scc: mcdm.heroes.v1/feature.ability.censor.level-1/behold-the-face-of-justice
 target: One creature
+tier1: 3 + M holy damage; if the target has P < WEAK, each enemy within 2 squares of them is [frightened](scc:mcdm.heroes.v1/condition/frightened) of you (save ends)
+tier2: 5 + M holy damage; if the target has P < AVERAGE, each enemy within 2 squares of them is [frightened](scc:mcdm.heroes.v1/condition/frightened) of you (save ends)
+tier3: 8 + M holy damage; if the target has P < STRONG, each enemy within 2 squares of them is [frightened](scc:mcdm.heroes.v1/condition/frightened) of you (save ends)
 type: ability
 ---
 

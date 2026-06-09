@@ -11,8 +11,12 @@ keywords:
     - Telepathy
 level: "6"
 name: Synaptic Conditioning
+power_roll_characteristic: '[Reason](scc:mcdm.heroes.v1/rule.character/reason)'
 scc: mcdm.heroes.v1/feature.ability.talent.level-6/synaptic-conditioning
 target: One creature
+tier1: 10 psychic damage; the target takes a [bane](scc:mcdm.heroes.v1/rule.dice/bane) on [ability rolls](scc:mcdm.heroes.v1/rule.dice/ability-roll) made to harm you or your allies (save ends)
+tier2: 14 psychic damage; the target has a double [bane](scc:mcdm.heroes.v1/rule.dice/bane) on [ability rolls](scc:mcdm.heroes.v1/rule.dice/ability-roll) made to harm you or your allies (save ends)
+tier3: 20 psychic damage; the target considers you and your allies to be their allies when using abilities and features (save ends)
 type: ability
 ---
 

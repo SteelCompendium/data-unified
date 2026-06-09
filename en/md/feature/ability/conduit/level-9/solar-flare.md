@@ -10,8 +10,12 @@ keywords:
     - '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)'
 level: "9"
 name: Solar Flare
+power_roll_characteristic: '[Intuition](scc:mcdm.heroes.v1/rule.character/intuition)'
 scc: mcdm.heroes.v1/feature.ability.conduit.level-9/solar-flare
 target: Each enemy in the area
+tier1: 9 fire damage
+tier2: 14 fire damage
+tier3: 19 fire damage
 type: ability
 ---
 

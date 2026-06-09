@@ -11,8 +11,12 @@ keywords:
     - Telekinesis
 level: "2"
 name: Levity and Gravity
+power_roll_characteristic: '[Reason](scc:mcdm.heroes.v1/rule.character/reason)'
 scc: mcdm.heroes.v1/feature.ability.talent.level-2/levity-and-gravity
 target: One creature or object
+tier1: 6 + R damage; M < WEAK[, prone](scc:mcdm.heroes.v1/condition/prone)
+tier2: 10 + R damage; M < AVERAGE[, prone](scc:mcdm.heroes.v1/condition/prone)
+tier3: 14 + R damage; M < STRONG, [prone and](scc:mcdm.heroes.v1/condition/prone) can't stand (save ends)
 type: ability
 ---
 

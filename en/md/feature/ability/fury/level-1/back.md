@@ -10,8 +10,12 @@ keywords:
     - Weapon
 level: "1"
 name: Back!
+power_roll_characteristic: '[Might](scc:mcdm.heroes.v1/rule.character/might)'
 scc: mcdm.heroes.v1/feature.ability.fury.level-1/back
 target: Each enemy in the area
+tier1: 5 damage
+tier2: 8 damage; push 1
+tier3: 11 damage; push 3
 type: ability
 ---
 

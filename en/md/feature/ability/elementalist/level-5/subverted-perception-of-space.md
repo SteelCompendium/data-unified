@@ -11,8 +11,12 @@ keywords:
     - Void
 level: "5"
 name: Subverted Perception of Space
+power_roll_characteristic: '[Reason](scc:mcdm.heroes.v1/rule.character/reason)'
 scc: mcdm.heroes.v1/feature.ability.elementalist.level-5/subverted-perception-of-space
 target: One creature or object
+tier1: 9 + R corruption damage
+tier2: 10 + R corruption damage; the target has [line of effect](scc:mcdm.heroes.v1/rule.combat/line-of-effect) only to creatures and objects within 4 squares of them until the start of your next [turn](scc:mcdm.heroes.v1/rule.combat/turn)
+tier3: 15 + R corruption damage; the target has [line of effect](scc:mcdm.heroes.v1/rule.combat/line-of-effect) only to [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) creatures and objects until the start of your next [turn](scc:mcdm.heroes.v1/rule.combat/turn)
 type: ability
 ---
 

@@ -8,9 +8,13 @@ keywords:
     - Weapon
 kit: rapid-fire
 name: Two Shot
+power_roll_characteristic: '[Might](scc:mcdm.heroes.v1/rule.character/might) or [Agility](scc:mcdm.heroes.v1/rule.character/agility)'
 scc: mcdm.heroes.v1/feature.ability.rapid-fire/two-shot
 subtype: signature
 target: Two creatures or objects
+tier1: 4 damage
+tier2: 6 damage
+tier3: 8 damage
 type: ability
 ---
 

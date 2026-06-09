@@ -11,8 +11,12 @@ keywords:
     - '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)'
 level: "9"
 name: Godstorm
+power_roll_characteristic: '[Intuition](scc:mcdm.heroes.v1/rule.character/intuition)'
 scc: mcdm.heroes.v1/feature.ability.conduit.level-9/godstorm
 target: Each enemy in the area
+tier1: 2 lightning damage, 2 sonic damage
+tier2: 3 lightning damage, 3 sonic damage
+tier3: 5 lightning damage, 5 sonic damage
 type: ability
 ---
 

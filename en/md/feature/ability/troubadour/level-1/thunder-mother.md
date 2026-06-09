@@ -11,8 +11,12 @@ keywords:
     - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
 level: "1"
 name: '"Thunder Mother"'
+power_roll_characteristic: '[Presence](scc:mcdm.heroes.v1/rule.character/presence)'
 scc: mcdm.heroes.v1/feature.ability.troubadour.level-1/thunder-mother
 target: One creature
+tier1: Lightning damage equal to your level
+tier2: Lightning damage equal to 5 + your level
+tier3: Lightning damage equal to 10 + your level
 type: ability
 ---
 

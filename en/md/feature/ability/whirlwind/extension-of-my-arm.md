@@ -8,9 +8,13 @@ keywords:
     - Weapon
 kit: whirlwind
 name: Extension of My Arm
+power_roll_characteristic: '[Might](scc:mcdm.heroes.v1/rule.character/might) or [Agility](scc:mcdm.heroes.v1/rule.character/agility)'
 scc: mcdm.heroes.v1/feature.ability.whirlwind/extension-of-my-arm
 subtype: signature
 target: One creature
+tier1: 4 + M or A damage; vertical pull 1
+tier2: 7 + M or A damage; vertical pull 2
+tier3: 10 + M or A damage; vertical pull 3
 type: ability
 ---
 

@@ -12,8 +12,12 @@ keywords:
     - Weapon
 level: "1"
 name: Chronal Spike
+power_roll_characteristic: '[Agility](scc:mcdm.heroes.v1/rule.character/agility)'
 scc: mcdm.heroes.v1/feature.ability.null.level-1/chronal-spike
 target: One creature or object
+tier1: 7 + A damage
+tier2: 10 + A damage
+tier3: 13 + A damage
 type: ability
 ---
 

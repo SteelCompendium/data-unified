@@ -8,9 +8,13 @@ keywords:
     - Weapon
 kit: stick-and-robe
 name: Where I Want You
+power_roll_characteristic: '[Might](scc:mcdm.heroes.v1/rule.character/might) or [Agility](scc:mcdm.heroes.v1/rule.character/agility)'
 scc: mcdm.heroes.v1/feature.ability.stick-and-robe/where-i-want-you
 subtype: signature
 target: One creature
+tier1: 4 + M or A damage
+tier2: 7 + M or A damage; slide 1
+tier3: 10 + M or A damage; slide 3
 type: ability
 ---
 

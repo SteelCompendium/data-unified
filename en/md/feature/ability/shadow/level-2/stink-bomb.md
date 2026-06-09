@@ -10,8 +10,12 @@ keywords:
     - '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)'
 level: "2"
 name: Stink Bomb
+power_roll_characteristic: '[Agility](scc:mcdm.heroes.v1/rule.character/agility)'
 scc: mcdm.heroes.v1/feature.ability.shadow.level-2/stink-bomb
 target: Each creature in the area
+tier1: 2 poison damage
+tier2: 5 poison damage
+tier3: 7 poison damage
 type: ability
 ---
 

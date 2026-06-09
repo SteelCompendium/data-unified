@@ -11,8 +11,12 @@ keywords:
     - Weapon
 level: "9"
 name: Banish
+power_roll_characteristic: '[Might](scc:mcdm.heroes.v1/rule.character/might)'
 scc: mcdm.heroes.v1/feature.ability.censor.level-9/banish
 target: One creature
+tier1: 5 + M damage; P < WEAK, the target is banished (save ends)
+tier2: 8 + M damage; P < AVERAGE, the target is banished (save ends)
+tier3: 11 + M damage; P < STRONG, the target is banished (save ends)
 type: ability
 ---
 

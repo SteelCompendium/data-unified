@@ -11,8 +11,12 @@ keywords:
     - Telepathy
 level: "9"
 name: Synaptic Terror
+power_roll_characteristic: '[Reason](scc:mcdm.heroes.v1/rule.character/reason)'
 scc: mcdm.heroes.v1/feature.ability.talent.level-9/synaptic-terror
 target: Each ally and enemy in the area
+tier1: R < WEAK, [frightened](scc:mcdm.heroes.v1/condition/frightened) (save ends)
+tier2: R < AVERAGE, [frightened](scc:mcdm.heroes.v1/condition/frightened) (save ends)
+tier3: R < STRONG, [frightened](scc:mcdm.heroes.v1/condition/frightened) (save ends)
 type: ability
 ---
 

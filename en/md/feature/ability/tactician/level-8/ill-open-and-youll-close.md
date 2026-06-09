@@ -12,8 +12,12 @@ keywords:
     - Weapon
 level: "8"
 name: I'll Open and You'll Close
+power_roll_characteristic: '[Might](scc:mcdm.heroes.v1/rule.character/might)'
 scc: mcdm.heroes.v1/feature.ability.tactician.level-8/ill-open-and-youll-close
 target: One creature
+tier1: 6 + M damage
+tier2: 10 + M damage
+tier3: 14 + M damage
 type: ability
 ---
 

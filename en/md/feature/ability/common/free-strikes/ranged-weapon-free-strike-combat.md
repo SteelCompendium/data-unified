@@ -6,9 +6,13 @@ keywords:
     - Stike
     - Weapon
 name: Ranged Weapon Free Strike
+power_roll_characteristic: '[Might](scc:mcdm.heroes.v1/rule.character/might) or [Agility](scc:mcdm.heroes.v1/rule.character/agility)'
 scc: mcdm.heroes.v1/feature.ability.common.free-strikes/ranged-weapon-free-strike-combat
 subtype: free-strike
 target: One creature or object
+tier1: 2 + M or A damage
+tier2: 4 + M or A damage
+tier3: 6 + M or A damage
 type: ability
 ---
 

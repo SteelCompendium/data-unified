@@ -11,9 +11,13 @@ keywords:
     - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
 level: "1"
 name: Spirit Sword
+power_roll_characteristic: '[Presence](scc:mcdm.heroes.v1/rule.character/presence)'
 scc: mcdm.heroes.v1/feature.ability.talent.level-1/spirit-sword
 subtype: signature
 target: One creature or object
+tier1: 3 + P damage
+tier2: 6 + P damage
+tier3: 9 + P damage
 type: ability
 ---
 

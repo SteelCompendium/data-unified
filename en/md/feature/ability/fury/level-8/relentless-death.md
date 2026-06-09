@@ -12,8 +12,12 @@ keywords:
     - Weapon
 level: "8"
 name: Relentless Death
+power_roll_characteristic: '[Might](scc:mcdm.heroes.v1/rule.character/might)'
 scc: mcdm.heroes.v1/feature.ability.fury.level-8/relentless-death
 target: Self
+tier1: Any target whose [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) is equal to or less than 8 dies.
+tier2: Any target whose [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) is equal to or less than 11 dies.
+tier3: Any target whose [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) is equal to or less than 17 dies.
 type: ability
 ---
 

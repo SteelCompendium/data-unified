@@ -10,9 +10,13 @@ keywords:
     - Weapon
 level: "1"
 name: Instigator
+power_roll_characteristic: '[Presence](scc:mcdm.heroes.v1/rule.character/presence)'
 scc: mcdm.heroes.v1/feature.ability.troubadour.level-1/instigator
 subtype: signature
 target: One creature
+tier1: 3 + P damage
+tier2: 6 + P damage
+tier3: 9 + P damage
 type: ability
 ---
 

@@ -7,9 +7,13 @@ keywords:
     - Area
     - Magic
 name: Draconian Pride
+power_roll_characteristic: '[Might](scc:mcdm.heroes.v1/rule.character/might) or [Presence](scc:mcdm.heroes.v1/rule.character/presence)'
 scc: mcdm.heroes.v1/feature.ability.dragon-knight/draconian-pride
 subtype: signature
 target: Each enemy in the area
+tier1: 2 damage
+tier2: 5 damage; push 1
+tier3: 7 damage; push 2
 type: ability
 ---
 

@@ -12,8 +12,12 @@ keywords:
     - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
 level: "5"
 name: Soulbound
+power_roll_characteristic: '[Presence](scc:mcdm.heroes.v1/rule.character/presence)'
 scc: mcdm.heroes.v1/feature.ability.talent.level-5/soulbound
 target: Two enemies
+tier1: 8 damage; A < WEAK, the target is stitched to the other target (save ends)
+tier2: 13 damage; A < AVERAGE, the target is stitched to the other target (save ends)
+tier3: 17 damage; A < STRONG, the target is stitched to the other target (save ends)
 type: ability
 ---
 

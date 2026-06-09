@@ -10,9 +10,13 @@ keywords:
     - Weapon
 level: "1"
 name: Back Blasphemer!
+power_roll_characteristic: '[Presence](scc:mcdm.heroes.v1/rule.character/presence)'
 scc: mcdm.heroes.v1/feature.ability.censor.level-1/back-blasphemer
 subtype: signature
 target: Each enemy in the area
+tier1: 2 holy damage; push 1
+tier2: 4 holy damage; push 2
+tier3: 6 holy damage; push 3
 type: ability
 ---
 

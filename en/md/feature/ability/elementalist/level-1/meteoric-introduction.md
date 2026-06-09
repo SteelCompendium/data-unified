@@ -10,9 +10,13 @@ keywords:
     - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
 level: "1"
 name: Meteoric Introduction
+power_roll_characteristic: '[Reason](scc:mcdm.heroes.v1/rule.character/reason)'
 scc: mcdm.heroes.v1/feature.ability.elementalist.level-1/meteoric-introduction
 subtype: signature
 target: One creature or object
+tier1: 3 + R damage; push 2
+tier2: 5 + R damage; push 3
+tier3: 8 + R damage; push 4
 type: ability
 ---
 

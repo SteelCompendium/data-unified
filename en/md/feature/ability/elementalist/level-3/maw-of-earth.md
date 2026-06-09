@@ -12,8 +12,12 @@ keywords:
     - '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)'
 level: "3"
 name: Maw of Earth
+power_roll_characteristic: '[Reason](scc:mcdm.heroes.v1/rule.character/reason)'
 scc: mcdm.heroes.v1/feature.ability.elementalist.level-3/maw-of-earth
 target: Each enemy in the area
+tier1: 5 damage
+tier2: 9 damage
+tier3: 12 damage
 type: ability
 ---
 

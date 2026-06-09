@@ -11,8 +11,12 @@ keywords:
     - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
 level: "1"
 name: The Flesh, a Crucible
+power_roll_characteristic: '[Reason](scc:mcdm.heroes.v1/rule.character/reason)'
 scc: mcdm.heroes.v1/feature.ability.elementalist.level-1/the-flesh-a-crucible
 target: One creature or object
+tier1: 5 + R fire damage
+tier2: 8 + R fire damage
+tier3: 11 + R fire damage
 type: ability
 ---
 

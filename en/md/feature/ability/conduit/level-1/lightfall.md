@@ -9,9 +9,13 @@ keywords:
     - Magic
 level: "1"
 name: Lightfall
+power_roll_characteristic: '[Intuition](scc:mcdm.heroes.v1/rule.character/intuition)'
 scc: mcdm.heroes.v1/feature.ability.conduit.level-1/lightfall
 subtype: signature
 target: Each enemy in the area
+tier1: 2 holy damage
+tier2: 3 holy damage
+tier3: 5 holy damage
 type: ability
 ---
 

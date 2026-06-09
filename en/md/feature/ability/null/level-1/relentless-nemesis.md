@@ -12,8 +12,12 @@ keywords:
     - Weapon
 level: "1"
 name: Relentless Nemesis
+power_roll_characteristic: '[Agility](scc:mcdm.heroes.v1/rule.character/agility)'
 scc: mcdm.heroes.v1/feature.ability.null.level-1/relentless-nemesis
 target: One creature or object
+tier1: 6 + A damage
+tier2: 8 + A damage
+tier3: 12 + A damage
 type: ability
 ---
 

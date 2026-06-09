@@ -10,9 +10,13 @@ keywords:
     - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
 level: "1"
 name: Blessed Light
+power_roll_characteristic: '[Intuition](scc:mcdm.heroes.v1/rule.character/intuition)'
 scc: mcdm.heroes.v1/feature.ability.conduit.level-1/blessed-light
 subtype: signature
 target: One creature or object
+tier1: 3 + I holy damage
+tier2: 5 + I holy damage
+tier3: 8 + I holy damage
 type: ability
 ---
 

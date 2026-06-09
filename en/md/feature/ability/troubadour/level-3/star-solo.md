@@ -13,8 +13,12 @@ keywords:
     - Weapon
 level: "3"
 name: Star Solo
+power_roll_characteristic: '[Presence](scc:mcdm.heroes.v1/rule.character/presence)'
 scc: mcdm.heroes.v1/feature.ability.troubadour.level-3/star-solo
 target: One creature or object
+tier1: 5 + P damage
+tier2: 8 + P damage; push 3
+tier3: 11 + P damage; push 5
 type: ability
 ---
 

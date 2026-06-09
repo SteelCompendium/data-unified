@@ -10,9 +10,13 @@ keywords:
     - Weapon
 level: "6"
 name: Instant Retaliation
+power_roll_characteristic: '[Might](scc:mcdm.heroes.v1/rule.character/might)'
 scc: mcdm.heroes.v1/feature.ability.tactician.level-6/instant-retaliation
 subtype: triggered
 target: One ally
+tier1: A < WEAK, [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)
+tier2: A < AVERAGE, [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)
+tier3: A < STRONG, [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)
 trigger: A creature deals damage to the target.
 type: ability
 ---

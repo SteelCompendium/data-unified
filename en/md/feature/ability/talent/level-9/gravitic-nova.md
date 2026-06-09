@@ -11,8 +11,12 @@ keywords:
     - Telekinesis
 level: "9"
 name: Gravitic Nova
+power_roll_characteristic: '[Reason](scc:mcdm.heroes.v1/rule.character/reason)'
 scc: mcdm.heroes.v1/feature.ability.talent.level-9/gravitic-nova
 target: Each enemy and object in the area
+tier1: 6 damage; push 7
+tier2: 9 damage; push 10
+tier3: 13 damage; push 15
 type: ability
 ---
 

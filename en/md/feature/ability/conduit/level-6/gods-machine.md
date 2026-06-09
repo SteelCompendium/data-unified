@@ -10,8 +10,12 @@ keywords:
     - '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)'
 level: "6"
 name: Gods' Machine
+power_roll_characteristic: '[Intuition](scc:mcdm.heroes.v1/rule.character/intuition)'
 scc: mcdm.heroes.v1/feature.ability.conduit.level-6/gods-machine
 target: Special
+tier1: 3 damage
+tier2: 5 damage
+tier3: 8 damage
 type: ability
 ---
 

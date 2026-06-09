@@ -11,8 +11,12 @@ keywords:
     - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
 level: "1"
 name: Violence Will Not Aid Thee
+power_roll_characteristic: '[Intuition](scc:mcdm.heroes.v1/rule.character/intuition)'
 scc: mcdm.heroes.v1/feature.ability.conduit.level-1/violence-will-not-aid-thee
 target: One creature
+tier1: 3 + I lightning damage
+tier2: 6 + I lightning damage
+tier3: 9 + I lightning damage
 type: ability
 ---
 

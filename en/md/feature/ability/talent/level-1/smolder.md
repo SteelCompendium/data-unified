@@ -12,8 +12,12 @@ keywords:
     - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
 level: "1"
 name: Smolder
+power_roll_characteristic: '[Reason](scc:mcdm.heroes.v1/rule.character/reason)'
 scc: mcdm.heroes.v1/feature.ability.talent.level-1/smolder
 target: One creature
+tier1: 3 + R damage; R < WEAK, the target has weakness 5 (save ends)
+tier2: 6 + R damage; R < AVERAGE, the target has weakness 5 (save ends)
+tier3: 9 + R damage; R < STRONG, the target has weakness equal to 5 + your [Reason](scc:mcdm.heroes.v1/rule.character/reason) score (save ends)
 type: ability
 ---
 

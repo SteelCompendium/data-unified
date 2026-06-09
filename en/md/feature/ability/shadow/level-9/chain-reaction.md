@@ -9,8 +9,12 @@ keywords:
     - '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)'
 level: "9"
 name: Chain Reaction
+power_roll_characteristic: '[Agility](scc:mcdm.heroes.v1/rule.character/agility)'
 scc: mcdm.heroes.v1/feature.ability.shadow.level-9/chain-reaction
 target: One creature or object
+tier1: 7 damage
+tier2: 10 damage
+tier3: 15 damage
 type: ability
 ---
 

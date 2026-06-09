@@ -11,8 +11,12 @@ keywords:
     - Weapon
 level: "5"
 name: Shadowfall
+power_roll_characteristic: '[Agility](scc:mcdm.heroes.v1/rule.character/agility)'
 scc: mcdm.heroes.v1/feature.ability.shadow.level-5/shadowfall
 target: Each enemy in the area
+tier1: 10 damage
+tier2: 14 damage
+tier3: 20 damage
 type: ability
 ---
 

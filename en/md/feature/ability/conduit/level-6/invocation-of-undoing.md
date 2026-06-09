@@ -9,8 +9,12 @@ keywords:
     - Magic
 level: "6"
 name: Invocation of Undoing
+power_roll_characteristic: '[Intuition](scc:mcdm.heroes.v1/rule.character/intuition)'
 scc: mcdm.heroes.v1/feature.ability.conduit.level-6/invocation-of-undoing
 target: Each enemy in the area
+tier1: 3 sonic damage; push 3
+tier2: 6 sonic damage; push 5
+tier3: 9 sonic damage; push 7
 type: ability
 ---
 

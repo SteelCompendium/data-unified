@@ -10,9 +10,13 @@ keywords:
     - Weapon
 level: "1"
 name: To the Death!
+power_roll_characteristic: '[Might](scc:mcdm.heroes.v1/rule.character/might)'
 scc: mcdm.heroes.v1/feature.ability.fury.level-1/to-the-death
 subtype: signature
 target: One creature or object
+tier1: 3 + M damage
+tier2: 6 + M damage
+tier3: 9 + M damage
 type: ability
 ---
 

@@ -11,8 +11,12 @@ keywords:
     - Weapon
 level: "2"
 name: En Garde!
+power_roll_characteristic: '[Agility](scc:mcdm.heroes.v1/rule.character/agility)'
 scc: mcdm.heroes.v1/feature.ability.troubadour.level-2/en-garde
 target: One creature
+tier1: 7 + **A** damage
+tier2: 11 + **A** damage
+tier3: 16 + **A** damage
 type: ability
 ---
 

@@ -11,9 +11,13 @@ keywords:
     - Void
 level: "1"
 name: Grasp of Beyond
+power_roll_characteristic: '[Reason](scc:mcdm.heroes.v1/rule.character/reason)'
 scc: mcdm.heroes.v1/feature.ability.elementalist.level-1/grasp-of-beyond
 subtype: signature
 target: One creature
+tier1: 3 + R corruption damage
+tier2: 6 + R corruption damage
+tier3: 9 + R corruption damage
 type: ability
 ---
 

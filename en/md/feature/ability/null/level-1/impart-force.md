@@ -12,8 +12,12 @@ keywords:
     - Weapon
 level: "1"
 name: Impart Force
+power_roll_characteristic: '[Intuition](scc:mcdm.heroes.v1/rule.character/intuition)'
 scc: mcdm.heroes.v1/feature.ability.null.level-1/impart-force
 target: One creature or object
+tier1: Push 3
+tier2: Push 5
+tier3: Push 7
 type: ability
 ---
 

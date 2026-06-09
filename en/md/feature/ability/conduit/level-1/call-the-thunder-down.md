@@ -11,8 +11,12 @@ keywords:
     - '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)'
 level: "1"
 name: Call the Thunder Down
+power_roll_characteristic: '[Intuition](scc:mcdm.heroes.v1/rule.character/intuition)'
 scc: mcdm.heroes.v1/feature.ability.conduit.level-1/call-the-thunder-down
 target: Each enemy in the area
+tier1: 2 sonic damage; push 1
+tier2: 3 sonic damage; push 2
+tier3: 5 sonic damage; push 3
 type: ability
 ---
 

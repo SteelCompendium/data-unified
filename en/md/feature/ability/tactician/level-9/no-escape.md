@@ -12,8 +12,12 @@ keywords:
     - Weapon
 level: "9"
 name: No Escape
+power_roll_characteristic: '[Might](scc:mcdm.heroes.v1/rule.character/might)'
 scc: mcdm.heroes.v1/feature.ability.tactician.level-9/no-escape
 target: One creature
+tier1: 11 + M damage
+tier2: 16 + M damage
+tier3: 21 + M damage
 type: ability
 ---
 

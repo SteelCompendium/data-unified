@@ -12,8 +12,12 @@ keywords:
     - Weapon
 level: "9"
 name: Demon Door
+power_roll_characteristic: '[Agility](scc:mcdm.heroes.v1/rule.character/agility)'
 scc: mcdm.heroes.v1/feature.ability.shadow.level-9/demon-door
 target: One creature
+tier1: 13 + A corruption damage; push 3
+tier2: 18 + A corruption damage; push 5
+tier3: 25 + A corruption damage; push 7
 type: ability
 ---
 

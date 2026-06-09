@@ -10,8 +10,12 @@ keywords:
     - Magic
 level: "2"
 name: Morning Light
+power_roll_characteristic: '[Intuition](scc:mcdm.heroes.v1/rule.character/intuition)'
 scc: mcdm.heroes.v1/feature.ability.conduit.level-2/morning-light
 target: Each enemy in the area
+tier1: 4 fire damage
+tier2: 6 fire damage
+tier3: 10 fire damage
 type: ability
 ---
 

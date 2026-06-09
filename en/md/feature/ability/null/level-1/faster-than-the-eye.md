@@ -11,9 +11,13 @@ keywords:
     - Weapon
 level: "1"
 name: Faster Than the Eye
+power_roll_characteristic: '[Agility](scc:mcdm.heroes.v1/rule.character/agility)'
 scc: mcdm.heroes.v1/feature.ability.null.level-1/faster-than-the-eye
 subtype: signature
 target: Two creatures or objects
+tier1: 4 damage
+tier2: 5 damage
+tier3: 7 damage
 type: ability
 ---
 

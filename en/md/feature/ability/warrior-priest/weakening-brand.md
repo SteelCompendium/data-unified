@@ -10,9 +10,13 @@ keywords:
     - Weapon
 kit: warrior-priest
 name: Weakening Brand
+power_roll_characteristic: '[Might](scc:mcdm.heroes.v1/rule.character/might), [Reason](scc:mcdm.heroes.v1/rule.character/reason), [Intuition](scc:mcdm.heroes.v1/rule.character/intuition), or [Presence](scc:mcdm.heroes.v1/rule.character/presence)'
 scc: mcdm.heroes.v1/feature.ability.warrior-priest/weakening-brand
 subtype: signature
 target: One creature or object
+tier1: 3 + M, R, I, or P holy damage
+tier2: 5 + M, R, I, or P holy damage
+tier3: 8 + M, R, I, or P holy damage
 type: ability
 ---
 

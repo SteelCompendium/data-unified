@@ -11,8 +11,12 @@ keywords:
     - Weapon
 level: "1"
 name: Censored
+power_roll_characteristic: '[Might](scc:mcdm.heroes.v1/rule.character/might)'
 scc: mcdm.heroes.v1/feature.ability.censor.level-1/censored
 target: One creature
+tier1: 2 + M holy damage
+tier2: 3 + M holy damage
+tier3: 5 + M holy damage
 type: ability
 ---
 

@@ -10,9 +10,13 @@ keywords:
     - Weapon
 level: "1"
 name: You Were Watching the Wrong One
+power_roll_characteristic: '[Agility](scc:mcdm.heroes.v1/rule.character/agility)'
 scc: mcdm.heroes.v1/feature.ability.shadow.level-1/you-were-watching-the-wrong-one
 subtype: signature
 target: One creature
+tier1: 3 + A damage
+tier2: 5 + A damage
+tier3: 8 + A damage
 type: ability
 ---
 

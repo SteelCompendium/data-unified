@@ -11,8 +11,12 @@ keywords:
     - Weapon
 level: "1"
 name: Two Throats at Once
+power_roll_characteristic: '[Agility](scc:mcdm.heroes.v1/rule.character/agility)'
 scc: mcdm.heroes.v1/feature.ability.shadow.level-1/two-throats-at-once
 target: Two creatures or objects
+tier1: 4 damage
+tier2: 6 damage
+tier3: 10 damage
 type: ability
 ---
 

@@ -11,9 +11,13 @@ keywords:
     - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
 level: "1"
 name: The Green Within, the Green Without
+power_roll_characteristic: '[Reason](scc:mcdm.heroes.v1/rule.character/reason)'
 scc: mcdm.heroes.v1/feature.ability.elementalist.level-1/the-green-within-the-green-without
 subtype: signature
 target: One creature
+tier1: 2 + R damage
+tier2: 5 + R damage
+tier3: 7 + R damage
 type: ability
 ---
 

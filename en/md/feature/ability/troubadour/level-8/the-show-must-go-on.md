@@ -11,8 +11,12 @@ keywords:
     - '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)'
 level: "8"
 name: The Show Must Go On
+power_roll_characteristic: '[Presence](scc:mcdm.heroes.v1/rule.character/presence)'
 scc: mcdm.heroes.v1/feature.ability.troubadour.level-8/the-show-must-go-on
 target: Each enemy in the area
+tier1: 6 damage; P < WEAK, the target can't willingly leave the area ([EoT](scc:mcdm.heroes.v1/rule.combat/end-of-turn))
+tier2: 8 damage; P < AVERAGE, the target can't willingly leave the area (save ends)
+tier3: 12 damage; the target can't willingly leave the area ([EoT](scc:mcdm.heroes.v1/rule.combat/end-of-turn)); if P < STRONG, they can't willingly leave the area (save ends)
 type: ability
 ---
 

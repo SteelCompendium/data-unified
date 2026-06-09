@@ -11,8 +11,12 @@ keywords:
     - '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)'
 level: "9"
 name: Acceleration Field
+power_roll_characteristic: '[Presence](scc:mcdm.heroes.v1/rule.character/presence)'
 scc: mcdm.heroes.v1/feature.ability.talent.level-9/acceleration-field
 target: Three allies
+tier1: 4 corruption damage; [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
+tier2: 6 corruption damage; [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
+tier3: 10 corruption damage; [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
 type: ability
 ---
 

@@ -11,8 +11,12 @@ keywords:
     - '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)'
 level: "1"
 name: Instantaneous Excavation
+power_roll_characteristic: '[Reason](scc:mcdm.heroes.v1/rule.character/reason)'
 scc: mcdm.heroes.v1/feature.ability.elementalist.level-1/instantaneous-excavation
 target: Special
+tier1: The target can [shift](scc:mcdm.heroes.v1/movement/shifting) 1 square from the edge of the hole to the nearest unoccupied space of their choice.
+tier2: The target falls into the hole.
+tier3: The target falls into the hole and can't reduce the height of the fall.
 type: ability
 ---
 

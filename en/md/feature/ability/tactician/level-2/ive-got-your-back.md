@@ -11,8 +11,12 @@ keywords:
     - Weapon
 level: "2"
 name: I've Got Your Back
+power_roll_characteristic: '[Reason](scc:mcdm.heroes.v1/rule.character/reason)'
 scc: mcdm.heroes.v1/feature.ability.tactician.level-2/ive-got-your-back
 target: One creature
+tier1: 5 + R damage; [taunted](scc:mcdm.heroes.v1/condition/taunted) ([EoT](scc:mcdm.heroes.v1/rule.combat/end-of-turn))
+tier2: 9 + R damage; [taunted](scc:mcdm.heroes.v1/condition/taunted) ([EoT](scc:mcdm.heroes.v1/rule.combat/end-of-turn))
+tier3: 12 + R damage; [taunted](scc:mcdm.heroes.v1/condition/taunted) ([EoT](scc:mcdm.heroes.v1/rule.combat/end-of-turn))
 type: ability
 ---
 

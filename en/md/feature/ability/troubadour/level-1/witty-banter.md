@@ -11,10 +11,14 @@ keywords:
     - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
 level: "1"
 name: Witty Banter
+power_roll_characteristic: '[Presence](scc:mcdm.heroes.v1/rule.character/presence)'
 scc: mcdm.heroes.v1/feature.ability.troubadour.level-1/witty-banter
 spend: '1 Drama: The chosen ally can spend a [Recovery](scc:mcdm.heroes.v1/rule.health/recoveries).'
 subtype: signature
 target: One creature
+tier1: 4 + P psychic damage
+tier2: 5 + P psychic damage
+tier3: 7 + P psychic damage
 type: ability
 ---
 

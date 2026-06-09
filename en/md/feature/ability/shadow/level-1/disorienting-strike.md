@@ -11,8 +11,12 @@ keywords:
     - Weapon
 level: "1"
 name: Disorienting Strike
+power_roll_characteristic: '[Agility](scc:mcdm.heroes.v1/rule.character/agility)'
 scc: mcdm.heroes.v1/feature.ability.shadow.level-1/disorienting-strike
 target: One creature
+tier1: 4 + A damage; slide 2
+tier2: 6 + A damage; slide 3
+tier3: 10 + A damage; slide 5
 type: ability
 ---
 

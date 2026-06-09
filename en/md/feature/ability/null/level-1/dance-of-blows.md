@@ -10,9 +10,13 @@ keywords:
     - Weapon
 level: "1"
 name: Dance of Blows
+power_roll_characteristic: '[Agility](scc:mcdm.heroes.v1/rule.character/agility)'
 scc: mcdm.heroes.v1/feature.ability.null.level-1/dance-of-blows
 subtype: signature
 target: Each enemy in the area
+tier1: 3 damage
+tier2: 4 damage
+tier3: 5 damage
 type: ability
 ---
 

@@ -12,8 +12,12 @@ keywords:
     - '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)'
 level: "6"
 name: Stasis Field
+power_roll_characteristic: '[Presence](scc:mcdm.heroes.v1/rule.character/presence)'
 scc: mcdm.heroes.v1/feature.ability.talent.level-6/stasis-field
 target: Each creature and object in the area
+tier1: P < WEAK, the target is [slowed](scc:mcdm.heroes.v1/condition/slowed) until the effect ends
+tier2: P < AVERAGE, the target's [speed](scc:mcdm.heroes.v1/rule.character/speed) is 0 until the effect ends
+tier3: P < STRONG, the target is [restrained](scc:mcdm.heroes.v1/condition/restrained) until the effect ends
 type: ability
 ---
 

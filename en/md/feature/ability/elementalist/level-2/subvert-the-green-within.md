@@ -13,8 +13,12 @@ keywords:
     - Void
 level: "2"
 name: Subvert the Green Within
+power_roll_characteristic: '[Reason](scc:mcdm.heroes.v1/rule.character/reason)'
 scc: mcdm.heroes.v1/feature.ability.elementalist.level-2/subvert-the-green-within
 target: One creature
+tier1: 5 + R poison damage
+tier2: 9 + R poison damage
+tier3: 12 + R poison damage
 type: ability
 ---
 

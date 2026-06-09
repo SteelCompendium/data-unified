@@ -12,8 +12,12 @@ keywords:
     - Weapon
 level: "8"
 name: Arcane Purge
+power_roll_characteristic: '[Agility](scc:mcdm.heroes.v1/rule.character/agility)'
 scc: mcdm.heroes.v1/feature.ability.null.level-8/arcane-purge
 target: One creature
+tier1: 13 + A damage; M < WEAK, the target is suppressed (save ends)
+tier2: 19 + A damage; M < AVERAGE, the target is suppressed (save ends)
+tier3: 24 + A damage; M < STRONG, the target is suppressed (save ends)
 type: ability
 ---
 

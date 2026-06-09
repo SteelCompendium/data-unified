@@ -12,8 +12,12 @@ keywords:
     - Weapon
 level: "1"
 name: Phase Strike
+power_roll_characteristic: '[Agility](scc:mcdm.heroes.v1/rule.character/agility)'
 scc: mcdm.heroes.v1/feature.ability.null.level-1/phase-strike
 target: One creature
+tier1: 3 + A psychic damage; I < WEAK, the target goes out of phase (save ends)
+tier2: 4 + A psychic damage; I < AVERAGE, the target goes out of phase (save ends)
+tier3: 6 + A psychic damage; I < STRONG, the target goes out of phase (save ends)
 type: ability
 ---
 

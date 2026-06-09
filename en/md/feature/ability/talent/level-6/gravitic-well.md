@@ -12,8 +12,12 @@ keywords:
     - Telekinesis
 level: "6"
 name: Gravitic Well
+power_roll_characteristic: '[Reason](scc:mcdm.heroes.v1/rule.character/reason)'
 scc: mcdm.heroes.v1/feature.ability.talent.level-6/gravitic-well
 target: Each creature and object in the area
+tier1: 6 damage; vertical pull 5 toward the center of the area
+tier2: 9 damage; vertical pull 7 toward the center of the area
+tier3: 13 damage; vertical pull 10 toward the center of the area
 type: ability
 ---
 

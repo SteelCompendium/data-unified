@@ -10,9 +10,13 @@ keywords:
     - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
 level: "1"
 name: Viscous Fire
+power_roll_characteristic: '[Reason](scc:mcdm.heroes.v1/rule.character/reason)'
 scc: mcdm.heroes.v1/feature.ability.elementalist.level-1/viscous-fire
 subtype: signature
 target: One creature or object
+tier1: 2 + R fire damage; push 2
+tier2: 5 + R fire damage; push 3
+tier3: 7 + R fire damage; push 4
 type: ability
 ---
 

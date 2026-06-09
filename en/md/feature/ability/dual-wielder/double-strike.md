@@ -9,9 +9,13 @@ keywords:
     - Weapon
 kit: dual-wielder
 name: Double Strike
+power_roll_characteristic: '[Might](scc:mcdm.heroes.v1/rule.character/might) or [Agility](scc:mcdm.heroes.v1/rule.character/agility)'
 scc: mcdm.heroes.v1/feature.ability.dual-wielder/double-strike
 subtype: signature
 target: Two creatures or objects
+tier1: 4 damage
+tier2: 6 damage
+tier3: 8 damage
 type: ability
 ---
 

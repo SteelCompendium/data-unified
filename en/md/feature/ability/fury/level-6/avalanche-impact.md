@@ -9,8 +9,12 @@ keywords:
     - Magic
 level: "6"
 name: Avalanche Impact
+power_roll_characteristic: '[Might](scc:mcdm.heroes.v1/rule.character/might)'
 scc: mcdm.heroes.v1/feature.ability.fury.level-6/avalanche-impact
 target: Self
+tier1: 4 damage; push 1
+tier2: 7 damage; push 2
+tier3: 11 damage; push 3
 type: ability
 ---
 

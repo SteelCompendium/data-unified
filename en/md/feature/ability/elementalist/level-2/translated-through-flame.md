@@ -12,8 +12,12 @@ keywords:
     - Void
 level: "2"
 name: Translated Through Flame
+power_roll_characteristic: '[Reason](scc:mcdm.heroes.v1/rule.character/reason)'
 scc: mcdm.heroes.v1/feature.ability.elementalist.level-2/translated-through-flame
 target: Self or one ally
+tier1: 3 fire damage
+tier2: 5 fire damage
+tier3: 8 fire damage
 type: ability
 ---
 

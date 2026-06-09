@@ -11,8 +11,12 @@ keywords:
     - '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)'
 level: "9"
 name: Deluge
+power_roll_characteristic: '[Might](scc:mcdm.heroes.v1/rule.character/might)'
 scc: mcdm.heroes.v1/feature.ability.fury.level-9/deluge
 target: Each enemy in the area
+tier1: 7 damage
+tier2: 10 damage
+tier3: 15 damage
 type: ability
 ---
 

@@ -11,8 +11,12 @@ keywords:
     - Weapon
 level: "5"
 name: Rebounding Storm
+power_roll_characteristic: '[Might](scc:mcdm.heroes.v1/rule.character/might)'
 scc: mcdm.heroes.v1/feature.ability.fury.level-5/rebounding-storm
 target: Two creatures or objects
+tier1: 9 damage; push 3
+tier2: 14 damage; push 5
+tier3: 19 damage; push 7
 type: ability
 ---
 

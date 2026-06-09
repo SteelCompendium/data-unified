@@ -11,8 +11,12 @@ keywords:
     - Weapon
 level: "6"
 name: Phase Step
+power_roll_characteristic: '[Agility](scc:mcdm.heroes.v1/rule.character/agility)'
 scc: mcdm.heroes.v1/feature.ability.null.level-6/phase-step
 target: Self
+tier1: 6 damage; M < WEAK, [dazed](scc:mcdm.heroes.v1/condition/dazed)
+tier2: 8 damage; M < AVERAGE, [dazed](scc:mcdm.heroes.v1/condition/dazed)
+tier3: 12 damage; M < STRONG, [dazed](scc:mcdm.heroes.v1/condition/dazed)
 type: ability
 ---
 

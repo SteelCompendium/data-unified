@@ -10,8 +10,12 @@ keywords:
     - Weapon
 level: "2"
 name: Wrecking Ball
+power_roll_characteristic: '[Might](scc:mcdm.heroes.v1/rule.character/might)'
 scc: mcdm.heroes.v1/feature.ability.fury.level-2/wrecking-ball
 target: Self
+tier1: Push 1
+tier2: Push 2
+tier3: Push 3
 type: ability
 ---
 

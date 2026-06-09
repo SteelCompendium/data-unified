@@ -10,9 +10,13 @@ keywords:
     - Weapon
 level: "1"
 name: Your Allies Cannot Save You!
+power_roll_characteristic: '[Might](scc:mcdm.heroes.v1/rule.character/might)'
 scc: mcdm.heroes.v1/feature.ability.censor.level-1/your-allies-cannot-save-you
 subtype: signature
 target: One creature or object
+tier1: 3 + M holy damage
+tier2: 5 + M holy damage
+tier3: 8 + M holy damage
 type: ability
 ---
 

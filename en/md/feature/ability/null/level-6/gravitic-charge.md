@@ -9,8 +9,12 @@ keywords:
     - Psionic
 level: "6"
 name: Gravitic Charge
+power_roll_characteristic: '[Intuition](scc:mcdm.heroes.v1/rule.character/intuition)'
 scc: mcdm.heroes.v1/feature.ability.null.level-6/gravitic-charge
 target: Self
+tier1: Vertical slide 5
+tier2: Vertical slide 7
+tier3: Vertical slide 9
 type: ability
 ---
 

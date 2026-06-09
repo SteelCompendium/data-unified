@@ -10,9 +10,13 @@ keywords:
     - Weapon
 level: "1"
 name: Gasping in Pain
+power_roll_characteristic: '[Agility](scc:mcdm.heroes.v1/rule.character/agility)'
 scc: mcdm.heroes.v1/feature.ability.shadow.level-1/gasping-in-pain
 subtype: signature
 target: One creature
+tier1: 3 + A damage
+tier2: 5 + A damage
+tier3: 8 + A damage; I < STRONG[, prone](scc:mcdm.heroes.v1/condition/prone)
 type: ability
 ---
 

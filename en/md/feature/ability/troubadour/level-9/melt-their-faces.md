@@ -12,8 +12,12 @@ keywords:
     - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
 level: "9"
 name: Melt Their Faces
+power_roll_characteristic: '[Presence](scc:mcdm.heroes.v1/rule.character/presence)'
 scc: mcdm.heroes.v1/feature.ability.troubadour.level-9/melt-their-faces
 target: One creature or object
+tier1: 12 + P sonic damage; push 5
+tier2: 16 + P sonic damage; push 10
+tier3: 22 + P sonic damage; push 15
 type: ability
 ---
 

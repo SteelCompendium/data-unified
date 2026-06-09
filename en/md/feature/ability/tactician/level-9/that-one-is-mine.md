@@ -12,8 +12,12 @@ keywords:
     - Weapon
 level: "9"
 name: That One Is Mine!
+power_roll_characteristic: '[Might](scc:mcdm.heroes.v1/rule.character/might)'
 scc: mcdm.heroes.v1/feature.ability.tactician.level-9/that-one-is-mine
 target: One creature
+tier1: 8 + M damage
+tier2: 13 + M damage
+tier3: 17 + M damage
 type: ability
 ---
 

@@ -11,8 +11,12 @@ keywords:
     - Weapon
 level: "9"
 name: Shower of Blood
+power_roll_characteristic: '[Might](scc:mcdm.heroes.v1/rule.character/might)'
 scc: mcdm.heroes.v1/feature.ability.fury.level-9/shower-of-blood
 target: One creature
+tier1: 12 + M damage
+tier2: 18 + M damage
+tier3: 24 + M damage
 type: ability
 ---
 

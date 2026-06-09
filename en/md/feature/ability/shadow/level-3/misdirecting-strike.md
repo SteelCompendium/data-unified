@@ -12,8 +12,12 @@ keywords:
     - Weapon
 level: "3"
 name: Misdirecting Strike
+power_roll_characteristic: '[Agility](scc:mcdm.heroes.v1/rule.character/agility)'
 scc: mcdm.heroes.v1/feature.ability.shadow.level-3/misdirecting-strike
 target: One creature
+tier1: 9 + A damage
+tier2: 13 + A damage
+tier3: 18 + A damage
 type: ability
 ---
 

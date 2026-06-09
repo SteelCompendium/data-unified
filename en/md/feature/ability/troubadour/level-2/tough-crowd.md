@@ -11,8 +11,12 @@ keywords:
     - '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)'
 level: "2"
 name: Tough Crowd
+power_roll_characteristic: '[Presence](scc:mcdm.heroes.v1/rule.character/presence)'
 scc: mcdm.heroes.v1/feature.ability.troubadour.level-2/tough-crowd
 target: Special
+tier1: 5 corruption damage; M < WEAK, pull 1 toward the center of the area
+tier2: 9 corruption damage; M < AVERAGE, pull 2 toward the center of the area
+tier3: 12 corruption damage; M < STRONG, pull 3 toward the center of the area
 type: ability
 ---
 

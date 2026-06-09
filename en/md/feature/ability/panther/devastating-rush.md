@@ -9,9 +9,13 @@ keywords:
     - Weapon
 kit: panther
 name: Devastating Rush
+power_roll_characteristic: '[Might](scc:mcdm.heroes.v1/rule.character/might) or [Agility](scc:mcdm.heroes.v1/rule.character/agility)'
 scc: mcdm.heroes.v1/feature.ability.panther/devastating-rush
 subtype: signature
 target: One creature or object
+tier1: 3 + M or A damage
+tier2: 6 + M or A damage
+tier3: 13 + M or A damage
 type: ability
 ---
 

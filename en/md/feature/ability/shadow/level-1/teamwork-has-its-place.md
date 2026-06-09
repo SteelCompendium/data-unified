@@ -11,9 +11,13 @@ keywords:
     - Weapon
 level: "1"
 name: Teamwork Has Its Place
+power_roll_characteristic: '[Agility](scc:mcdm.heroes.v1/rule.character/agility)'
 scc: mcdm.heroes.v1/feature.ability.shadow.level-1/teamwork-has-its-place
 subtype: signature
 target: One creature or object
+tier1: 3 + A damage
+tier2: 6 + A damage
+tier3: 9 + A damage
 type: ability
 ---
 

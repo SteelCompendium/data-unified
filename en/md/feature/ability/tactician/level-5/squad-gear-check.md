@@ -11,8 +11,12 @@ keywords:
     - Weapon
 level: "5"
 name: Squad! Gear Check!
+power_roll_characteristic: '[Might](scc:mcdm.heroes.v1/rule.character/might)'
 scc: mcdm.heroes.v1/feature.ability.tactician.level-5/squad-gear-check
 target: One creature
+tier1: 9 + M damage
+tier2: 13 + M damage
+tier3: 18 + M damage
 type: ability
 ---
 

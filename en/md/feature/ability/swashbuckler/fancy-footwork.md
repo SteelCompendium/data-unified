@@ -9,9 +9,13 @@ keywords:
     - Weapon
 kit: swashbuckler
 name: Fancy Footwork
+power_roll_characteristic: '[Might](scc:mcdm.heroes.v1/rule.character/might) or [Agility](scc:mcdm.heroes.v1/rule.character/agility)'
 scc: mcdm.heroes.v1/feature.ability.swashbuckler/fancy-footwork
 subtype: signature
 target: One creature
+tier1: 5 + M or A damage
+tier2: 7 + M or A damage; push 1
+tier3: 10 + M or A damage; push 2
 type: ability
 ---
 

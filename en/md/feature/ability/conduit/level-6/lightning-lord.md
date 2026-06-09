@@ -10,8 +10,12 @@ keywords:
     - Magic
 level: "6"
 name: Lightning Lord
+power_roll_characteristic: '[Intuition](scc:mcdm.heroes.v1/rule.character/intuition)'
 scc: mcdm.heroes.v1/feature.ability.conduit.level-6/lightning-lord
 target: Each enemy in the area
+tier1: 6 lightning damage; push 1
+tier2: 9 lightning damage; push 2
+tier3: 13 lightning damage; push 3
 type: ability
 ---
 

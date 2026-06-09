@@ -8,9 +8,13 @@ keywords:
     - Area
     - Magic
 name: Dragon Breath
+power_roll_characteristic: '[Might](scc:mcdm.heroes.v1/rule.character/might) or [Presence](scc:mcdm.heroes.v1/rule.character/presence)'
 scc: mcdm.heroes.v1/feature.ability.dragon-knight/dragon-breath
 subtype: signature
 target: Each enemy in the area
+tier1: 2 damage
+tier2: 4 damage
+tier3: 6 damage
 type: ability
 ---
 

@@ -11,9 +11,13 @@ keywords:
     - Strike
 level: "1"
 name: Optic Blast
+power_roll_characteristic: '[Reason](scc:mcdm.heroes.v1/rule.character/reason)'
 scc: mcdm.heroes.v1/feature.ability.talent.level-1/optic-blast
 subtype: signature
 target: One creature or object
+tier1: 2 + R damage; M < WEAK[, prone](scc:mcdm.heroes.v1/condition/prone)
+tier2: 4 + R damage; M < AVERAGE[, prone](scc:mcdm.heroes.v1/condition/prone)
+tier3: 6 + R damage; M < STRONG[, prone](scc:mcdm.heroes.v1/condition/prone)
 type: ability
 ---
 

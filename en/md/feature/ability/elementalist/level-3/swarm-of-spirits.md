@@ -11,8 +11,12 @@ keywords:
     - Magic
 level: "3"
 name: Swarm of Spirits
+power_roll_characteristic: '[Reason](scc:mcdm.heroes.v1/rule.character/reason)'
 scc: mcdm.heroes.v1/feature.ability.elementalist.level-3/swarm-of-spirits
 target: Each enemy in the area
+tier1: 3 damage
+tier2: 6 damage
+tier3: 9 damage
 type: ability
 ---
 

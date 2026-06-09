@@ -10,8 +10,12 @@ keywords:
     - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
 level: "1"
 name: Ray of Wrath
+power_roll_characteristic: '[Intuition](scc:mcdm.heroes.v1/rule.character/intuition)'
 scc: mcdm.heroes.v1/feature.ability.conduit.level-1/ray-of-wrath
 target: One creature or object
+tier1: 2 + I damage
+tier2: 4 + I damage
+tier3: 6 + I damage
 type: ability
 ---
 

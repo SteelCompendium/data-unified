@@ -12,8 +12,12 @@ keywords:
     - Telekinesis
 level: "5"
 name: Hypersonic
+power_roll_characteristic: '[Reason](scc:mcdm.heroes.v1/rule.character/reason)'
 scc: mcdm.heroes.v1/feature.ability.talent.level-5/hypersonic
 target: Each enemy in the area
+tier1: 12 sonic damage
+tier2: 18 sonic damage
+tier3: 24 sonic damage
 type: ability
 ---
 

@@ -10,8 +10,12 @@ keywords:
     - '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)'
 level: "6"
 name: Ice Pillars
+power_roll_characteristic: '[Intuition](scc:mcdm.heroes.v1/rule.character/intuition)'
 scc: mcdm.heroes.v1/feature.ability.null.level-6/ice-pillars
 target: Three creatures or objects
+tier1: Vertical slide 6
+tier2: Vertical slide 8
+tier3: Vertical slide 10
 type: ability
 ---
 

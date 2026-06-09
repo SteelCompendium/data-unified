@@ -10,8 +10,12 @@ keywords:
     - Weapon
 level: "1"
 name: Tide of Death
+power_roll_characteristic: '[Might](scc:mcdm.heroes.v1/rule.character/might)'
 scc: mcdm.heroes.v1/feature.ability.fury.level-1/tide-of-death
 target: Self
+tier1: 2 damage
+tier2: 3 damage
+tier3: 5 damage
 type: ability
 ---
 

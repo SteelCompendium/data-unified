@@ -11,8 +11,12 @@ keywords:
     - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
 level: "5"
 name: Beacon of Grace
+power_roll_characteristic: '[Intuition](scc:mcdm.heroes.v1/rule.character/intuition)'
 scc: mcdm.heroes.v1/feature.ability.conduit.level-5/beacon-of-grace
 target: One creature
+tier1: 8 + I holy damage
+tier2: 13 + I holy damage
+tier3: 17 + I holy damage
 type: ability
 ---
 

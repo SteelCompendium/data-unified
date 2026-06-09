@@ -10,9 +10,13 @@ keywords:
     - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
 level: "1"
 name: Bifurcated Incineration
+power_roll_characteristic: '[Reason](scc:mcdm.heroes.v1/rule.character/reason)'
 scc: mcdm.heroes.v1/feature.ability.elementalist.level-1/bifurcated-incineration
 subtype: signature
 target: Two creatures or objects
+tier1: 2 fire damage
+tier2: 4 fire damage
+tier3: 6 fire damage
 type: ability
 ---
 

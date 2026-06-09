@@ -12,8 +12,12 @@ keywords:
     - Weapon
 level: "2"
 name: In a Puff of Ash
+power_roll_characteristic: '[Agility](scc:mcdm.heroes.v1/rule.character/agility)'
 scc: mcdm.heroes.v1/feature.ability.shadow.level-2/in-a-puff-of-ash
 target: One creature
+tier1: 6 + A damage; you can [teleport](scc:mcdm.heroes.v1/movement/teleport) the target 1 square
+tier2: 10 + A damage; you can [teleport](scc:mcdm.heroes.v1/movement/teleport) the target up to 3 squares
+tier3: 14 + A damage; you can [teleport](scc:mcdm.heroes.v1/movement/teleport) the target up to 5 squares
 type: ability
 ---
 
