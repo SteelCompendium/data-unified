@@ -5,7 +5,7 @@ name: Soldier
 perk: One exploration perk (*Quick Build:* Teamwork.)
 scc: mcdm.heroes.v1/career/soldier
 skills:
-    - One skill from the [exploration skill group](scc:mcdm.heroes.v1/skill.exploration/exploration) and one skill from the [intrigue group](scc:mcdm.heroes.v1/skill.intrigue/intrigue) (*Quick Build:* [Alertness](scc:mcdm.heroes.v1/skill.intrigue/alertness), [Endurance](scc:mcdm.heroes.v1/skill.exploration/endurance).)
+    - One skill from the [exploration skill group](scc:mcdm.heroes.v1/skill.group/exploration) and one skill from the [intrigue group](scc:mcdm.heroes.v1/skill.group/intrigue) (*Quick Build:* [Alertness](scc:mcdm.heroes.v1/skill.intrigue/alertness), [Endurance](scc:mcdm.heroes.v1/skill.exploration/endurance).)
 type: career
 ---
 
@@ -18,7 +18,7 @@ In your formative years, you fought tirelessly in skirmishes and campaigns again
 
 You gain the following career benefits:
 
-**Skills:** One skill from the [exploration skill group](scc:mcdm.heroes.v1/skill.exploration/exploration) and one skill from the [intrigue group](scc:mcdm.heroes.v1/skill.intrigue/intrigue) (*Quick Build:* [Alertness](scc:mcdm.heroes.v1/skill.intrigue/alertness), [Endurance](scc:mcdm.heroes.v1/skill.exploration/endurance).)
+**Skills:** One skill from the [exploration skill group](scc:mcdm.heroes.v1/skill.group/exploration) and one skill from the [intrigue group](scc:mcdm.heroes.v1/skill.group/intrigue) (*Quick Build:* [Alertness](scc:mcdm.heroes.v1/skill.intrigue/alertness), [Endurance](scc:mcdm.heroes.v1/skill.exploration/endurance).)
 
 **Languages:** Two languages
 

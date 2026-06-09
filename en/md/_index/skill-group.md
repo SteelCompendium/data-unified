@@ -2,8 +2,8 @@
 
 Total: 5
 
-- [Crafting Skills](../skill/crafting/crafting.md)
-- [Exploration Skills](../skill/exploration/exploration.md)
-- [Interpersonal Skills](../skill/interpersonal/interpersonal.md)
-- [Intrigue Skills](../skill/intrigue/intrigue.md)
-- [Lore Skills](../skill/lore/lore.md)
+- [Crafting Skills](../skill/group/crafting.md)
+- [Exploration Skills](../skill/group/exploration.md)
+- [Interpersonal Skills](../skill/group/interpersonal.md)
+- [Intrigue Skills](../skill/group/intrigue.md)
+- [Lore Skills](../skill/group/lore.md)

@@ -7,4 +7,4 @@ type: culture
 
 An [urban](scc:mcdm.heroes.v1/culture/urban) culture is always centered in a city. Such a culture might arise within the walls of [Capital](scc:mcdm.heroes.v1/rule.world/capital), a massive metropolis with a cosmopolitan population; within a network of caverns that hold an underground city; or in any other place where a large population lives relatively close together. The people of [urban](scc:mcdm.heroes.v1/culture/urban) cultures often learn to effectively misdirect others in order to navigate the crowds and the political machinations that can come with city life.
 
-**Skill Options:** One skill from the [interpersonal](scc:mcdm.heroes.v1/skill.interpersonal/interpersonal) or [intrigue](scc:mcdm.heroes.v1/skill.intrigue/intrigue) skill groups. (*Quick Build:* [Alertness](scc:mcdm.heroes.v1/skill.intrigue/alertness).)
+**Skill Options:** One skill from the [interpersonal](scc:mcdm.heroes.v1/skill.group/interpersonal) or [intrigue](scc:mcdm.heroes.v1/skill.group/intrigue) skill groups. (*Quick Build:* [Alertness](scc:mcdm.heroes.v1/skill.intrigue/alertness).)

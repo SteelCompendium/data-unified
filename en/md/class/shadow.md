@@ -3,7 +3,7 @@ flavor: Subtlety is your art, the tip of the blade your brush. You studied at a 
 name: Shadow
 scc: mcdm.heroes.v1/class/shadow
 skills:
-    - 'You gain the Hide and Sneak skills (see Skills in Chapter 9: [Tests](scc:mcdm.heroes.v1/chapter/tests)). Then choose any five skills from Criminal Underworld or the skills of the [exploration](scc:mcdm.heroes.v1/skill.exploration/exploration), [interpersonal](scc:mcdm.heroes.v1/skill.interpersonal/interpersonal), or [intrigue](scc:mcdm.heroes.v1/skill.intrigue/intrigue) skill groups. (*Quick Build:*  Criminal Underworld, Hide, Lie, Pick Lock, Pick Pocket, Sabotage, Sneak.)'
+    - 'You gain the Hide and Sneak skills (see Skills in Chapter 9: [Tests](scc:mcdm.heroes.v1/chapter/tests)). Then choose any five skills from Criminal Underworld or the skills of the [exploration](scc:mcdm.heroes.v1/skill.group/exploration), [interpersonal](scc:mcdm.heroes.v1/skill.group/interpersonal), or [intrigue](scc:mcdm.heroes.v1/skill.group/intrigue) skill groups. (*Quick Build:*  Criminal Underworld, Hide, Lie, Pick Lock, Pick Pocket, Sabotage, Sneak.)'
 type: class
 ---
 
@@ -34,7 +34,7 @@ Subtlety is your art, the tip of the blade your brush. You studied at a secret c
 
 **[Recoveries](scc:mcdm.heroes.v1/rule.health/recoveries):** 8
 
-**Skills:** You gain the Hide and Sneak skills (see Skills in Chapter 9: [Tests](scc:mcdm.heroes.v1/chapter/tests)). Then choose any five skills from Criminal Underworld or the skills of the [exploration](scc:mcdm.heroes.v1/skill.exploration/exploration), [interpersonal](scc:mcdm.heroes.v1/skill.interpersonal/interpersonal), or [intrigue](scc:mcdm.heroes.v1/skill.intrigue/intrigue) skill groups. (*Quick Build:*  Criminal Underworld, Hide, Lie, Pick Lock, Pick Pocket, Sabotage, Sneak.)
+**Skills:** You gain the Hide and Sneak skills (see Skills in Chapter 9: [Tests](scc:mcdm.heroes.v1/chapter/tests)). Then choose any five skills from Criminal Underworld or the skills of the [exploration](scc:mcdm.heroes.v1/skill.group/exploration), [interpersonal](scc:mcdm.heroes.v1/skill.group/interpersonal), or [intrigue](scc:mcdm.heroes.v1/skill.group/intrigue) skill groups. (*Quick Build:*  Criminal Underworld, Hide, Lie, Pick Lock, Pick Pocket, Sabotage, Sneak.)
 
 ###### Shadow Advancement Table
 

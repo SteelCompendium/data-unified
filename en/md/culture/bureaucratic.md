@@ -11,4 +11,4 @@ have one person at the top, though others might be ruled by a council. A trade g
 
 Those who thrive in [bureaucratic](scc:mcdm.heroes.v1/culture/bureaucratic) cultures don't simply follow the rules. They know how to use those rules to their advantage, either bending, changing, or reinterpreting policy to advance their own interests. Schmoozing with those who make the laws is often key to this approach. Others in a [bureaucratic](scc:mcdm.heroes.v1/culture/bureaucratic) culture might specialize in operating outside the strict regulations that govern the culture without getting caught.
 
-**Skill Options:** One skill from the [interpersonal](scc:mcdm.heroes.v1/skill.interpersonal/interpersonal) or [intrigue](scc:mcdm.heroes.v1/skill.intrigue/intrigue) skill groups. (*Quick Build:* [Persuade](scc:mcdm.heroes.v1/skill.interpersonal/persuade).)
+**Skill Options:** One skill from the [interpersonal](scc:mcdm.heroes.v1/skill.group/interpersonal) or [intrigue](scc:mcdm.heroes.v1/skill.group/intrigue) skill groups. (*Quick Build:* [Persuade](scc:mcdm.heroes.v1/skill.interpersonal/persuade).)

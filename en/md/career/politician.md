@@ -5,7 +5,7 @@ name: Politician
 perk: One interpersonal perk (*Quick Build:* [Engrossing Monologue](scc:mcdm.heroes.v1/perk/engrossing-monologue).)
 scc: mcdm.heroes.v1/career/politician
 skills:
-    - Two skills from the [interpersonal skill group](scc:mcdm.heroes.v1/skill.interpersonal/interpersonal) (*Quick Build:* [Lead](scc:mcdm.heroes.v1/skill.interpersonal/lead), [Lie](scc:mcdm.heroes.v1/skill.interpersonal/lie).)
+    - Two skills from the [interpersonal skill group](scc:mcdm.heroes.v1/skill.group/interpersonal) (*Quick Build:* [Lead](scc:mcdm.heroes.v1/skill.interpersonal/lead), [Lie](scc:mcdm.heroes.v1/skill.interpersonal/lie).)
 type: career
 ---
 
@@ -18,7 +18,7 @@ You worked as a leader within a formal, bureaucratic organization or government.
 
 You gain the following career benefits:
 
-**Skills:** Two skills from the [interpersonal skill group](scc:mcdm.heroes.v1/skill.interpersonal/interpersonal) (*Quick Build:* [Lead](scc:mcdm.heroes.v1/skill.interpersonal/lead), [Lie](scc:mcdm.heroes.v1/skill.interpersonal/lie).)
+**Skills:** Two skills from the [interpersonal skill group](scc:mcdm.heroes.v1/skill.group/interpersonal) (*Quick Build:* [Lead](scc:mcdm.heroes.v1/skill.interpersonal/lead), [Lie](scc:mcdm.heroes.v1/skill.interpersonal/lie).)
 
 **Languages:** One language
 

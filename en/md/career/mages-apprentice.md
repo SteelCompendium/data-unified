@@ -5,7 +5,7 @@ name: Mage's Apprentice
 perk: One [supernatural](scc:mcdm.heroes.v1/rule.general/supernatural) perk (*Quick Build:* [Arcane Trick](scc:mcdm.heroes.v1/perk/arcane-trick).)
 scc: mcdm.heroes.v1/career/mages-apprentice
 skills:
-    - The [Magic](scc:mcdm.heroes.v1/skill.lore/magic) skill (from the [lore skill group](scc:mcdm.heroes.v1/skill.lore/lore)), plus two other skills from the [lore group](scc:mcdm.heroes.v1/skill.lore/lore) (*Quick Build:* [Magic](scc:mcdm.heroes.v1/skill.lore/magic), [Monsters](scc:mcdm.heroes.v1/skill.lore/monsters), [Timescape](scc:mcdm.heroes.v1/skill.lore/timescape).)
+    - The [Magic](scc:mcdm.heroes.v1/skill.lore/magic) skill (from the [lore skill group](scc:mcdm.heroes.v1/skill.group/lore)), plus two other skills from the [lore group](scc:mcdm.heroes.v1/skill.group/lore) (*Quick Build:* [Magic](scc:mcdm.heroes.v1/skill.lore/magic), [Monsters](scc:mcdm.heroes.v1/skill.lore/monsters), [Timescape](scc:mcdm.heroes.v1/skill.lore/timescape).)
 type: career
 ---
 
@@ -18,7 +18,7 @@ For long years, you studied magic under the mentorship of a more experienced mag
 
 You gain the following career benefits:
 
-**Skills:** The [Magic](scc:mcdm.heroes.v1/skill.lore/magic) skill (from the [lore skill group](scc:mcdm.heroes.v1/skill.lore/lore)), plus two other skills from the [lore group](scc:mcdm.heroes.v1/skill.lore/lore) (*Quick Build:* [Magic](scc:mcdm.heroes.v1/skill.lore/magic), [Monsters](scc:mcdm.heroes.v1/skill.lore/monsters), [Timescape](scc:mcdm.heroes.v1/skill.lore/timescape).)
+**Skills:** The [Magic](scc:mcdm.heroes.v1/skill.lore/magic) skill (from the [lore skill group](scc:mcdm.heroes.v1/skill.group/lore)), plus two other skills from the [lore group](scc:mcdm.heroes.v1/skill.group/lore) (*Quick Build:* [Magic](scc:mcdm.heroes.v1/skill.lore/magic), [Monsters](scc:mcdm.heroes.v1/skill.lore/monsters), [Timescape](scc:mcdm.heroes.v1/skill.lore/timescape).)
 
 **Languages:** One language
 

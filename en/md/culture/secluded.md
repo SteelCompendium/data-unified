@@ -9,4 +9,4 @@ A [secluded](scc:mcdm.heroes.v1/culture/secluded) culture is based in one relati
 
 When people live together in close quarters, they typically learn to get along. They often spend much time in study or introspection, as there is not much else to do in seclusion.
 
-**Skill Options:** One skill from the [interpersonal](scc:mcdm.heroes.v1/skill.interpersonal/interpersonal) or [lore](scc:mcdm.heroes.v1/skill.lore/lore) skill groups. (*Quick Build:* [Read Person](scc:mcdm.heroes.v1/skill.interpersonal/read-person).)
+**Skill Options:** One skill from the [interpersonal](scc:mcdm.heroes.v1/skill.group/interpersonal) or [lore](scc:mcdm.heroes.v1/skill.group/lore) skill groups. (*Quick Build:* [Read Person](scc:mcdm.heroes.v1/skill.interpersonal/read-person).)

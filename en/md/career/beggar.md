@@ -5,7 +5,7 @@ name: Beggar
 perk: One interpersonal perk (*Quick Build:* [Spot the Tell](scc:mcdm.heroes.v1/perk/spot-the-tell).)
 scc: mcdm.heroes.v1/career/beggar
 skills:
-    - The [Rumors](scc:mcdm.heroes.v1/skill.lore/rumors) skill (from the [lore skill group](scc:mcdm.heroes.v1/skill.lore/lore)), plus one skill from the [exploration group](scc:mcdm.heroes.v1/skill.exploration/exploration) and one skill from the [interpersonal group](scc:mcdm.heroes.v1/skill.interpersonal/interpersonal) (*Quick Build:* [Empathize](scc:mcdm.heroes.v1/skill.interpersonal/empathize), [Endurance](scc:mcdm.heroes.v1/skill.exploration/endurance), [Rumors](scc:mcdm.heroes.v1/skill.lore/rumors).)
+    - The [Rumors](scc:mcdm.heroes.v1/skill.lore/rumors) skill (from the [lore skill group](scc:mcdm.heroes.v1/skill.group/lore)), plus one skill from the [exploration group](scc:mcdm.heroes.v1/skill.group/exploration) and one skill from the [interpersonal group](scc:mcdm.heroes.v1/skill.group/interpersonal) (*Quick Build:* [Empathize](scc:mcdm.heroes.v1/skill.interpersonal/empathize), [Endurance](scc:mcdm.heroes.v1/skill.exploration/endurance), [Rumors](scc:mcdm.heroes.v1/skill.lore/rumors).)
 type: career
 ---
 
@@ -18,7 +18,7 @@ You lived by going to a tavern, crossroads, city street, or other busy area and 
 
 You gain the following career benefits:
 
-**Skills:** The [Rumors](scc:mcdm.heroes.v1/skill.lore/rumors) skill (from the [lore skill group](scc:mcdm.heroes.v1/skill.lore/lore)), plus one skill from the [exploration group](scc:mcdm.heroes.v1/skill.exploration/exploration) and one skill from the [interpersonal group](scc:mcdm.heroes.v1/skill.interpersonal/interpersonal) (*Quick Build:* [Empathize](scc:mcdm.heroes.v1/skill.interpersonal/empathize), [Endurance](scc:mcdm.heroes.v1/skill.exploration/endurance), [Rumors](scc:mcdm.heroes.v1/skill.lore/rumors).)
+**Skills:** The [Rumors](scc:mcdm.heroes.v1/skill.lore/rumors) skill (from the [lore skill group](scc:mcdm.heroes.v1/skill.group/lore)), plus one skill from the [exploration group](scc:mcdm.heroes.v1/skill.group/exploration) and one skill from the [interpersonal group](scc:mcdm.heroes.v1/skill.group/interpersonal) (*Quick Build:* [Empathize](scc:mcdm.heroes.v1/skill.interpersonal/empathize), [Endurance](scc:mcdm.heroes.v1/skill.exploration/endurance), [Rumors](scc:mcdm.heroes.v1/skill.lore/rumors).)
 
 **Languages:** Two languages
 

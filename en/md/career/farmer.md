@@ -5,7 +5,7 @@ name: Farmer
 perk: One exploration perk (*Quick Build:* [Monster Whisperer](scc:mcdm.heroes.v1/perk/monster-whisperer).)
 scc: mcdm.heroes.v1/career/farmer
 skills:
-    - The [Handle Animals](scc:mcdm.heroes.v1/skill.interpersonal/handle-animals) skill (from the [interpersonal skill group](scc:mcdm.heroes.v1/skill.interpersonal/interpersonal)), plus two skills from the [exploration group](scc:mcdm.heroes.v1/skill.exploration/exploration) (*Quick Build:* [Drive](scc:mcdm.heroes.v1/skill.exploration/drive), [Handle Animals](scc:mcdm.heroes.v1/skill.interpersonal/handle-animals), [Lift](scc:mcdm.heroes.v1/skill.exploration/lift).)
+    - The [Handle Animals](scc:mcdm.heroes.v1/skill.interpersonal/handle-animals) skill (from the [interpersonal skill group](scc:mcdm.heroes.v1/skill.group/interpersonal)), plus two skills from the [exploration group](scc:mcdm.heroes.v1/skill.group/exploration) (*Quick Build:* [Drive](scc:mcdm.heroes.v1/skill.exploration/drive), [Handle Animals](scc:mcdm.heroes.v1/skill.interpersonal/handle-animals), [Lift](scc:mcdm.heroes.v1/skill.exploration/lift).)
 type: career
 ---
 
@@ -18,7 +18,7 @@ You grew crops or cared for livestock. In defining your career, think about the 
 
 You gain the following career benefits:
 
-**Skills:** The [Handle Animals](scc:mcdm.heroes.v1/skill.interpersonal/handle-animals) skill (from the [interpersonal skill group](scc:mcdm.heroes.v1/skill.interpersonal/interpersonal)), plus two skills from the [exploration group](scc:mcdm.heroes.v1/skill.exploration/exploration) (*Quick Build:* [Drive](scc:mcdm.heroes.v1/skill.exploration/drive), [Handle Animals](scc:mcdm.heroes.v1/skill.interpersonal/handle-animals), [Lift](scc:mcdm.heroes.v1/skill.exploration/lift).)
+**Skills:** The [Handle Animals](scc:mcdm.heroes.v1/skill.interpersonal/handle-animals) skill (from the [interpersonal skill group](scc:mcdm.heroes.v1/skill.group/interpersonal)), plus two skills from the [exploration group](scc:mcdm.heroes.v1/skill.group/exploration) (*Quick Build:* [Drive](scc:mcdm.heroes.v1/skill.exploration/drive), [Handle Animals](scc:mcdm.heroes.v1/skill.interpersonal/handle-animals), [Lift](scc:mcdm.heroes.v1/skill.exploration/lift).)
 
 **Languages:** One language
 

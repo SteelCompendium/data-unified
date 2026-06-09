@@ -3,7 +3,7 @@ flavor: The power of the gods flows through you! As a vessel for divine power, y
 name: Conduit
 scc: mcdm.heroes.v1/class/conduit
 skills:
-    - 'Choose any two skills from the [interpersonal](scc:mcdm.heroes.v1/skill.interpersonal/interpersonal) or [lore](scc:mcdm.heroes.v1/skill.lore/lore) skill groups (see Skills in Chapter 9: [Tests](scc:mcdm.heroes.v1/chapter/tests)). (*Quick Build:* [Read Person](scc:mcdm.heroes.v1/skill.interpersonal/read-person), Religion.)'
+    - 'Choose any two skills from the [interpersonal](scc:mcdm.heroes.v1/skill.group/interpersonal) or [lore](scc:mcdm.heroes.v1/skill.group/lore) skill groups (see Skills in Chapter 9: [Tests](scc:mcdm.heroes.v1/chapter/tests)). (*Quick Build:* [Read Person](scc:mcdm.heroes.v1/skill.interpersonal/read-person), Religion.)'
 type: class
 ---
 
@@ -36,7 +36,7 @@ The power of the gods flows through you! As a vessel for [divine power](scc:mcdm
 
 **[Recoveries](scc:mcdm.heroes.v1/rule.health/recoveries):** 8
 
-**Skills:** Choose any two skills from the [interpersonal](scc:mcdm.heroes.v1/skill.interpersonal/interpersonal) or [lore](scc:mcdm.heroes.v1/skill.lore/lore) skill groups (see Skills in Chapter 9: [Tests](scc:mcdm.heroes.v1/chapter/tests)). (*Quick Build:* [Read Person](scc:mcdm.heroes.v1/skill.interpersonal/read-person), Religion.)
+**Skills:** Choose any two skills from the [interpersonal](scc:mcdm.heroes.v1/skill.group/interpersonal) or [lore](scc:mcdm.heroes.v1/skill.group/lore) skill groups (see Skills in Chapter 9: [Tests](scc:mcdm.heroes.v1/chapter/tests)). (*Quick Build:* [Read Person](scc:mcdm.heroes.v1/skill.interpersonal/read-person), Religion.)
 
 ###### Conduit Advancement Table
 

@@ -9,4 +9,4 @@ A [communal](scc:mcdm.heroes.v1/culture/communal) culture is a place where all m
 
 Many [communal](scc:mcdm.heroes.v1/culture/communal) cultures operate outside settled lands, sticking to the wilds, a specific district in a larger settlement, city sewers, forgotten ruins, or other isolated places. For even when such cultures are harmless, their members know that outsiders might try to impose rules upon them if they live in the same place. As such, many folks in [communal](scc:mcdm.heroes.v1/culture/communal) cultures focus on fending for themselves while avoiding the danger that other groups can represent.
 
-**Skill Options:** One skill from the [crafting](scc:mcdm.heroes.v1/skill.crafting/crafting) or [exploration](scc:mcdm.heroes.v1/skill.exploration/exploration) skill groups. (*Quick Build:* [Jump](scc:mcdm.heroes.v1/skill.exploration/jump).)
+**Skill Options:** One skill from the [crafting](scc:mcdm.heroes.v1/skill.group/crafting) or [exploration](scc:mcdm.heroes.v1/skill.group/exploration) skill groups. (*Quick Build:* [Jump](scc:mcdm.heroes.v1/skill.exploration/jump).)

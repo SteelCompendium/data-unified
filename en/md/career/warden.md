@@ -5,7 +5,7 @@ name: Warden
 perk: One exploration perk (*Quick Build:* [Camouflage Hunter](scc:mcdm.heroes.v1/perk/camouflage-hunter).)
 scc: mcdm.heroes.v1/career/warden
 skills:
-    - Nature (from the [lore skill group](scc:mcdm.heroes.v1/skill.lore/lore)), plus one skill from the [exploration group](scc:mcdm.heroes.v1/skill.exploration/exploration) and one skill from the [intrigue group](scc:mcdm.heroes.v1/skill.intrigue/intrigue) (*Quick Build:*  [Nature](scc:mcdm.heroes.v1/skill.lore/nature), Navigate, Track.)
+    - Nature (from the [lore skill group](scc:mcdm.heroes.v1/skill.group/lore)), plus one skill from the [exploration group](scc:mcdm.heroes.v1/skill.group/exploration) and one skill from the [intrigue group](scc:mcdm.heroes.v1/skill.group/intrigue) (*Quick Build:*  [Nature](scc:mcdm.heroes.v1/skill.lore/nature), Navigate, Track.)
 type: career
 ---
 
@@ -18,7 +18,7 @@ You protected a wild region from those who sought to harm it, such as poachers a
 
 You gain the following career benefits:
 
-**Skills:** Nature (from the [lore skill group](scc:mcdm.heroes.v1/skill.lore/lore)), plus one skill from the [exploration group](scc:mcdm.heroes.v1/skill.exploration/exploration) and one skill from the [intrigue group](scc:mcdm.heroes.v1/skill.intrigue/intrigue) (*Quick Build:*  [Nature](scc:mcdm.heroes.v1/skill.lore/nature), Navigate, Track.)
+**Skills:** Nature (from the [lore skill group](scc:mcdm.heroes.v1/skill.group/lore)), plus one skill from the [exploration group](scc:mcdm.heroes.v1/skill.group/exploration) and one skill from the [intrigue group](scc:mcdm.heroes.v1/skill.group/intrigue) (*Quick Build:*  [Nature](scc:mcdm.heroes.v1/skill.lore/nature), Navigate, Track.)
 
 **Languages:** One language
 

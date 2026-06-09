@@ -11,4 +11,4 @@ Living among a small population, most folks in a [rural](scc:mcdm.heroes.v1/cult
 
 gets the sniffles, folks want an acolyte ready to wear the fancy robes should the worst occur.
 
-**Skill Options:** One skill from the [crafting](scc:mcdm.heroes.v1/skill.crafting/crafting) or [lore](scc:mcdm.heroes.v1/skill.lore/lore) skill groups. (*Quick Build:* [Nature](scc:mcdm.heroes.v1/skill.lore/nature).)
+**Skill Options:** One skill from the [crafting](scc:mcdm.heroes.v1/skill.group/crafting) or [lore](scc:mcdm.heroes.v1/skill.group/lore) skill groups. (*Quick Build:* [Nature](scc:mcdm.heroes.v1/skill.lore/nature).)

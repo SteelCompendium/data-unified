@@ -3,7 +3,7 @@ flavor: Air for movement. Earth for permanence. Fire for destruction. Water for 
 name: Elementalist
 scc: mcdm.heroes.v1/class/elementalist
 skills:
-    - 'You gain the Magic skill (see Skills in Chapter 9: [Tests](scc:mcdm.heroes.v1/chapter/tests)). Then choose any three skills from the [crafting](scc:mcdm.heroes.v1/skill.crafting/crafting) or [lore](scc:mcdm.heroes.v1/skill.lore/lore) skill groups. (*Quick Build:* Alchemy, Blacksmithing, History, Magic.)'
+    - 'You gain the Magic skill (see Skills in Chapter 9: [Tests](scc:mcdm.heroes.v1/chapter/tests)). Then choose any three skills from the [crafting](scc:mcdm.heroes.v1/skill.group/crafting) or [lore](scc:mcdm.heroes.v1/skill.group/lore) skill groups. (*Quick Build:* Alchemy, Blacksmithing, History, Magic.)'
 type: class
 ---
 
@@ -36,7 +36,7 @@ Air for movement. Earth for permanence. Fire for destruction. Water for change. 
 
 **[Recoveries](scc:mcdm.heroes.v1/rule.health/recoveries):** 8
 
-**Skills:** You gain the Magic skill (see Skills in Chapter 9: [Tests](scc:mcdm.heroes.v1/chapter/tests)). Then choose any three skills from the [crafting](scc:mcdm.heroes.v1/skill.crafting/crafting) or [lore](scc:mcdm.heroes.v1/skill.lore/lore) skill groups. (*Quick Build:* Alchemy, Blacksmithing, History, Magic.)
+**Skills:** You gain the Magic skill (see Skills in Chapter 9: [Tests](scc:mcdm.heroes.v1/chapter/tests)). Then choose any three skills from the [crafting](scc:mcdm.heroes.v1/skill.group/crafting) or [lore](scc:mcdm.heroes.v1/skill.group/lore) skill groups. (*Quick Build:* Alchemy, Blacksmithing, History, Magic.)
 
 ###### Elementalist Advancement Table
 

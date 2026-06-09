@@ -5,7 +5,7 @@ name: Sailor
 perk: One exploration perk (*Quick Build:* Put Your Back Into It!)
 scc: mcdm.heroes.v1/career/sailor
 skills:
-    - Swim (from the [exploration skill group](scc:mcdm.heroes.v1/skill.exploration/exploration)), plus two more skills from the [exploration group](scc:mcdm.heroes.v1/skill.exploration/exploration) (*Quick Build:* [Climb](scc:mcdm.heroes.v1/skill.exploration/climb), [Gymnastics](scc:mcdm.heroes.v1/skill.exploration/gymnastics), [Swim](scc:mcdm.heroes.v1/skill.exploration/swim).)
+    - Swim (from the [exploration skill group](scc:mcdm.heroes.v1/skill.group/exploration)), plus two more skills from the [exploration group](scc:mcdm.heroes.v1/skill.group/exploration) (*Quick Build:* [Climb](scc:mcdm.heroes.v1/skill.exploration/climb), [Gymnastics](scc:mcdm.heroes.v1/skill.exploration/gymnastics), [Swim](scc:mcdm.heroes.v1/skill.exploration/swim).)
 type: career
 ---
 
@@ -18,7 +18,7 @@ You worked on a ship, whether a merchant cog, a mercenary or military craft, or 
 
 You gain the following career benefits:
 
-**Skills:** Swim (from the [exploration skill group](scc:mcdm.heroes.v1/skill.exploration/exploration)), plus two more skills from the [exploration group](scc:mcdm.heroes.v1/skill.exploration/exploration) (*Quick Build:* [Climb](scc:mcdm.heroes.v1/skill.exploration/climb), [Gymnastics](scc:mcdm.heroes.v1/skill.exploration/gymnastics), [Swim](scc:mcdm.heroes.v1/skill.exploration/swim).)
+**Skills:** Swim (from the [exploration skill group](scc:mcdm.heroes.v1/skill.group/exploration)), plus two more skills from the [exploration group](scc:mcdm.heroes.v1/skill.group/exploration) (*Quick Build:* [Climb](scc:mcdm.heroes.v1/skill.exploration/climb), [Gymnastics](scc:mcdm.heroes.v1/skill.exploration/gymnastics), [Swim](scc:mcdm.heroes.v1/skill.exploration/swim).)
 
 **Languages:** Two languages
 
