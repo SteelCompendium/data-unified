@@ -3,7 +3,7 @@ action_type: Maneuver
 class: "null"
 cost: 9 Discipline
 distance: Self
-effect: This movement ignores [stability](scc:mcdm.heroes.v1/rule.character/stability). If you slide into another creature, you resolve damage to both of you as if your [force move](scc:mcdm.heroes.v1/movement/forced-movement)ment had ended, but you keep moving through that creature's space.
+effect: This movement ignores [stability](scc:mcdm.heroes.v1/rule.character/stability). If you [slide](scc:mcdm.heroes.v1/movement/forced-movement) into another creature, you resolve damage to both of you as if your [force move](scc:mcdm.heroes.v1/movement/forced-movement)ment had ended, but you keep moving through that creature's space.
 flavor: You channel your discipline into momentum that defies gravity.
 keywords:
     - Psionic
@@ -12,9 +12,9 @@ name: Gravitic Charge
 power_roll_characteristic: '[Intuition](scc:mcdm.heroes.v1/rule.character/intuition)'
 scc: mcdm.heroes.v1/feature.ability.null.level-6/gravitic-charge
 target: Self
-tier1: Vertical slide 5
-tier2: Vertical slide 7
-tier3: Vertical slide 9
+tier1: Vertical [slide](scc:mcdm.heroes.v1/movement/forced-movement) 5
+tier2: Vertical [slide](scc:mcdm.heroes.v1/movement/forced-movement) 7
+tier3: Vertical [slide](scc:mcdm.heroes.v1/movement/forced-movement) 9
 type: ability
 ---
 
@@ -27,8 +27,8 @@ type: ability
 
 **[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Intuition](scc:mcdm.heroes.v1/rule.character/intuition):**
 
-- **≤11:** Vertical slide 5
-- **12-16:** Vertical slide 7
-- **17+:** Vertical slide 9
+- **≤11:** Vertical [slide](scc:mcdm.heroes.v1/movement/forced-movement) 5
+- **12-16:** Vertical [slide](scc:mcdm.heroes.v1/movement/forced-movement) 7
+- **17+:** Vertical [slide](scc:mcdm.heroes.v1/movement/forced-movement) 9
 
-**Effect:** This movement ignores [stability](scc:mcdm.heroes.v1/rule.character/stability). If you slide into another creature, you resolve damage to both of you as if your [force move](scc:mcdm.heroes.v1/movement/forced-movement)ment had ended, but you keep moving through that creature's space.
+**Effect:** This movement ignores [stability](scc:mcdm.heroes.v1/rule.character/stability). If you [slide](scc:mcdm.heroes.v1/movement/forced-movement) into another creature, you resolve damage to both of you as if your [force move](scc:mcdm.heroes.v1/movement/forced-movement)ment had ended, but you keep moving through that creature's space.

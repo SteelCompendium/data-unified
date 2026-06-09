@@ -14,9 +14,9 @@ name: Greater Kinetic Grip
 power_roll_characteristic: '[Reason](scc:mcdm.heroes.v1/rule.character/reason)'
 scc: mcdm.heroes.v1/feature.ability.talent.level-6/greater-kinetic-grip
 target: One creature or object
-tier1: Slide 4 + R; M < WEAK, the [forced movement](scc:mcdm.heroes.v1/movement/forced-movement) is vertical
-tier2: Slide 8 + R; M < AVERAGE, the [forced movement](scc:mcdm.heroes.v1/movement/forced-movement) is vertical
-tier3: Slide 12 + R; [prone](scc:mcdm.heroes.v1/condition/prone); M < STRONG, the [forced movement](scc:mcdm.heroes.v1/movement/forced-movement) is vertical
+tier1: '[Slide](scc:mcdm.heroes.v1/movement/forced-movement) 4 + R; M < WEAK, the [forced movement](scc:mcdm.heroes.v1/movement/forced-movement) is vertical'
+tier2: '[Slide](scc:mcdm.heroes.v1/movement/forced-movement) 8 + R; M < AVERAGE, the [forced movement](scc:mcdm.heroes.v1/movement/forced-movement) is vertical'
+tier3: '[Slide](scc:mcdm.heroes.v1/movement/forced-movement) 12 + R; [prone](scc:mcdm.heroes.v1/condition/prone); M < STRONG, the [forced movement](scc:mcdm.heroes.v1/movement/forced-movement) is vertical'
 type: ability
 ---
 
@@ -29,8 +29,8 @@ type: ability
 
 **[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Reason](scc:mcdm.heroes.v1/rule.character/reason):**
 
-- **≤11:** Slide 4 + R; M < WEAK, the [forced movement](scc:mcdm.heroes.v1/movement/forced-movement) is vertical
-- **12-16:** Slide 8 + R; M < AVERAGE, the [forced movement](scc:mcdm.heroes.v1/movement/forced-movement) is vertical
-- **17+:** Slide 12 + R; [prone](scc:mcdm.heroes.v1/condition/prone); M < STRONG, the [forced movement](scc:mcdm.heroes.v1/movement/forced-movement) is vertical
+- **≤11:** [Slide](scc:mcdm.heroes.v1/movement/forced-movement) 4 + R; M < WEAK, the [forced movement](scc:mcdm.heroes.v1/movement/forced-movement) is vertical
+- **12-16:** [Slide](scc:mcdm.heroes.v1/movement/forced-movement) 8 + R; M < AVERAGE, the [forced movement](scc:mcdm.heroes.v1/movement/forced-movement) is vertical
+- **17+:** [Slide](scc:mcdm.heroes.v1/movement/forced-movement) 12 + R; [prone](scc:mcdm.heroes.v1/condition/prone); M < STRONG, the [forced movement](scc:mcdm.heroes.v1/movement/forced-movement) is vertical
 
 **Strained:** The [forced movement](scc:mcdm.heroes.v1/movement/forced-movement) ignores [stability](scc:mcdm.heroes.v1/rule.character/stability). You take 2d6 damage and are [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends).

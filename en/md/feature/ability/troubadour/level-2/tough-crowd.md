@@ -14,9 +14,9 @@ name: Tough Crowd
 power_roll_characteristic: '[Presence](scc:mcdm.heroes.v1/rule.character/presence)'
 scc: mcdm.heroes.v1/feature.ability.troubadour.level-2/tough-crowd
 target: Special
-tier1: 5 corruption damage; M < WEAK, pull 1 toward the center of the area
-tier2: 9 corruption damage; M < AVERAGE, pull 2 toward the center of the area
-tier3: 12 corruption damage; M < STRONG, pull 3 toward the center of the area
+tier1: 5 corruption damage; M < WEAK, [pull](scc:mcdm.heroes.v1/movement/forced-movement) 1 toward the center of the area
+tier2: 9 corruption damage; M < AVERAGE, [pull](scc:mcdm.heroes.v1/movement/forced-movement) 2 toward the center of the area
+tier3: 12 corruption damage; M < STRONG, [pull](scc:mcdm.heroes.v1/movement/forced-movement) 3 toward the center of the area
 type: ability
 ---
 
@@ -31,6 +31,6 @@ type: ability
 
 **[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Presence](scc:mcdm.heroes.v1/rule.character/presence):**
 
-- **≤11:** 5 corruption damage; M < WEAK, pull 1 toward the center of the area
-- **12-16:** 9 corruption damage; M < AVERAGE, pull 2 toward the center of the area
-- **17+:** 12 corruption damage; M < STRONG, pull 3 toward the center of the area
+- **≤11:** 5 corruption damage; M < WEAK, [pull](scc:mcdm.heroes.v1/movement/forced-movement) 1 toward the center of the area
+- **12-16:** 9 corruption damage; M < AVERAGE, [pull](scc:mcdm.heroes.v1/movement/forced-movement) 2 toward the center of the area
+- **17+:** 12 corruption damage; M < STRONG, [pull](scc:mcdm.heroes.v1/movement/forced-movement) 3 toward the center of the area

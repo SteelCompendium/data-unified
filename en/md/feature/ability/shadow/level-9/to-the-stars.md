@@ -14,9 +14,9 @@ name: To the Stars
 power_roll_characteristic: '[Agility](scc:mcdm.heroes.v1/rule.character/agility)'
 scc: mcdm.heroes.v1/feature.ability.shadow.level-9/to-the-stars
 target: One creature or object
-tier1: 4 + A fire damage; vertical push 8
-tier2: 7 + A fire damage; vertical push 10
-tier3: 11 + A fire damage; vertical push 15
+tier1: 4 + A fire damage; vertical [push](scc:mcdm.heroes.v1/movement/forced-movement) 8
+tier2: 7 + A fire damage; vertical [push](scc:mcdm.heroes.v1/movement/forced-movement) 10
+tier3: 11 + A fire damage; vertical [push](scc:mcdm.heroes.v1/movement/forced-movement) 15
 type: ability
 ---
 
@@ -29,8 +29,8 @@ type: ability
 
 **[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Agility](scc:mcdm.heroes.v1/rule.character/agility):**
 
-- **≤11:** 4 + A fire damage; vertical push 8
-- **12-16:** 7 + A fire damage; vertical push 10
-- **17+:** 11 + A fire damage; vertical push 15
+- **≤11:** 4 + A fire damage; vertical [push](scc:mcdm.heroes.v1/movement/forced-movement) 8
+- **12-16:** 7 + A fire damage; vertical [push](scc:mcdm.heroes.v1/movement/forced-movement) 10
+- **17+:** 11 + A fire damage; vertical [push](scc:mcdm.heroes.v1/movement/forced-movement) 15
 
 **Effect:** The ground beneath a 3-[cube](scc:mcdm.heroes.v1/rule.combat/cube) area around the target's starting position is [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain).

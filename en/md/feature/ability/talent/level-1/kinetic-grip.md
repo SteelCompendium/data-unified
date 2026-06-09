@@ -13,9 +13,9 @@ power_roll_characteristic: '[Reason](scc:mcdm.heroes.v1/rule.character/reason)'
 scc: mcdm.heroes.v1/feature.ability.talent.level-1/kinetic-grip
 subtype: signature
 target: One creature or object
-tier1: Slide 2 + R
-tier2: Slide 4 + R
-tier3: Slide 6 + R; [prone](scc:mcdm.heroes.v1/condition/prone)
+tier1: '[Slide](scc:mcdm.heroes.v1/movement/forced-movement) 2 + R'
+tier2: '[Slide](scc:mcdm.heroes.v1/movement/forced-movement) 4 + R'
+tier3: '[Slide](scc:mcdm.heroes.v1/movement/forced-movement) 6 + R; [prone](scc:mcdm.heroes.v1/condition/prone)'
 type: ability
 ---
 
@@ -28,8 +28,8 @@ type: ability
 
 **[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Reason](scc:mcdm.heroes.v1/rule.character/reason):**
 
-- **≤11:** Slide 2 + R
-- **12-16:** Slide 4 + R
-- **17+:** Slide 6 + R; [prone](scc:mcdm.heroes.v1/condition/prone)
+- **≤11:** [Slide](scc:mcdm.heroes.v1/movement/forced-movement) 2 + R
+- **12-16:** [Slide](scc:mcdm.heroes.v1/movement/forced-movement) 4 + R
+- **17+:** [Slide](scc:mcdm.heroes.v1/movement/forced-movement) 6 + R; [prone](scc:mcdm.heroes.v1/condition/prone)
 
-**Strained:** You must vertical push the target instead of sliding them.
+**Strained:** You must vertical [push](scc:mcdm.heroes.v1/movement/forced-movement) the target instead of [sliding](scc:mcdm.heroes.v1/movement/forced-movement) them.

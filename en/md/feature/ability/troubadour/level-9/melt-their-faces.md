@@ -15,9 +15,9 @@ name: Melt Their Faces
 power_roll_characteristic: '[Presence](scc:mcdm.heroes.v1/rule.character/presence)'
 scc: mcdm.heroes.v1/feature.ability.troubadour.level-9/melt-their-faces
 target: One creature or object
-tier1: 12 + P sonic damage; push 5
-tier2: 16 + P sonic damage; push 10
-tier3: 22 + P sonic damage; push 15
+tier1: 12 + P sonic damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 5
+tier2: 16 + P sonic damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 10
+tier3: 22 + P sonic damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 15
 type: ability
 ---
 
@@ -30,8 +30,8 @@ type: ability
 
 **[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Presence](scc:mcdm.heroes.v1/rule.character/presence):**
 
-- **≤11:** 12 + P sonic damage; push 5
-- **12-16:** 16 + P sonic damage; push 10
-- **17+:** 22 + P sonic damage; push 15
+- **≤11:** 12 + P sonic damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 5
+- **12-16:** 16 + P sonic damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 10
+- **17+:** 22 + P sonic damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 15
 
 **Effect:** [Forced movement](scc:mcdm.heroes.v1/movement/forced-movement) from this ability ignores [stability](scc:mcdm.heroes.v1/rule.character/stability).

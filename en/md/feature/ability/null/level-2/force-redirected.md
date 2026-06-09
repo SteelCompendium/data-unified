@@ -14,9 +14,9 @@ name: Force Redirected
 power_roll_characteristic: '[Agility](scc:mcdm.heroes.v1/rule.character/agility)'
 scc: mcdm.heroes.v1/feature.ability.null.level-2/force-redirected
 target: One creature
-tier1: 8 + A damage; slide 1
-tier2: 12 + A damage; slide 3
-tier3: 16 + A damage; slide 5
+tier1: 8 + A damage; [slide](scc:mcdm.heroes.v1/movement/forced-movement) 1
+tier2: 12 + A damage; [slide](scc:mcdm.heroes.v1/movement/forced-movement) 3
+tier3: 16 + A damage; [slide](scc:mcdm.heroes.v1/movement/forced-movement) 5
 type: ability
 ---
 
@@ -29,6 +29,6 @@ type: ability
 
 **[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Agility](scc:mcdm.heroes.v1/rule.character/agility):**
 
-- **≤11:** 8 + A damage; slide 1
-- **12-16:** 12 + A damage; slide 3
-- **17+:** 16 + A damage; slide 5
+- **≤11:** 8 + A damage; [slide](scc:mcdm.heroes.v1/movement/forced-movement) 1
+- **12-16:** 12 + A damage; [slide](scc:mcdm.heroes.v1/movement/forced-movement) 3
+- **17+:** 16 + A damage; [slide](scc:mcdm.heroes.v1/movement/forced-movement) 5

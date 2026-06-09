@@ -36,4 +36,4 @@ type: ability
 - **12-16:** 16 + M damage
 - **17+:** 21 + M damage
 
-**Effect:** If you use this ability as part of the [Charge](scc:mcdm.heroes.v1/feature.common.main-actions/charge) main action, enemies' spaces don't count as [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain) for your movement. Additionally, if you move through any creature's space, you can slide that creature 1 square out of the path of your charge.
+**Effect:** If you use this ability as part of the [Charge](scc:mcdm.heroes.v1/feature.common.main-actions/charge) main action, enemies' spaces don't count as [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain) for your movement. Additionally, if you move through any creature's space, you can [slide](scc:mcdm.heroes.v1/movement/forced-movement) that creature 1 square out of the path of your charge.

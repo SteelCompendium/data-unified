@@ -24,7 +24,7 @@ You can't gain the benefit of [high ground](scc:mcdm.heroes.v1/movement/high-gro
 
 ###### Non-Burrowing Creatures
 
-If you are on the ground and [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to a creature who is beneath the ground while [burrowing](scc:mcdm.heroes.v1/movement/burrow), you can use a maneuver to pull that creature up 1 square out of the ground, provided the creature is willing.
+If you are on the ground and [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to a creature who is beneath the ground while [burrowing](scc:mcdm.heroes.v1/movement/burrow), you can use a maneuver to [pull](scc:mcdm.heroes.v1/movement/forced-movement) that creature up 1 square out of the ground, provided the creature is willing.
 
 If a creature who can't [burrow](scc:mcdm.heroes.v1/movement/burrow) wants to dig into the ground, they can use the following ability provided their [speed](scc:mcdm.heroes.v1/rule.character/speed) is 2 or more.
 

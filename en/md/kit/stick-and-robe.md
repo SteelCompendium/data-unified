@@ -37,5 +37,5 @@ You wear light armor and wield a polearm.
 **[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc:mcdm.heroes.v1/rule.character/might) or [Agility](scc:mcdm.heroes.v1/rule.character/agility):**
 
 - **≤11:** 4 + M or A damage
-- **12-16:** 7 + M or A damage; slide 1
-- **17+:** 10 + M or A damage; slide 3
+- **12-16:** 7 + M or A damage; [slide](scc:mcdm.heroes.v1/movement/forced-movement) 1
+- **17+:** 10 + M or A damage; [slide](scc:mcdm.heroes.v1/movement/forced-movement) 3

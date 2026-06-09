@@ -25,7 +25,7 @@ type: ability
 
 Once as a [free maneuver](scc:mcdm.heroes.v1/rule.combat/free-maneuver) on each of your [turns](scc:mcdm.heroes.v1/rule.combat/turn), you can spend 1 discipline and give your [Null Field](scc:mcdm.heroes.v1/feature.null.level-1/null-field) one of the following additional effects until the start of your next [turn](scc:mcdm.heroes.v1/rule.combat/turn):
 
-- Gravitic Disruption: The first time on a [turn](scc:mcdm.heroes.v1/rule.combat/turn) that a target takes damage, you can slide them up to 2 squares.
+- Gravitic Disruption: The first time on a [turn](scc:mcdm.heroes.v1/rule.combat/turn) that a target takes damage, you can [slide](scc:mcdm.heroes.v1/movement/forced-movement) them up to 2 squares.
 - Inertial Anchor: Any target who starts their [turn](scc:mcdm.heroes.v1/rule.combat/turn) in the area can't [shift](scc:mcdm.heroes.v1/movement/shifting).
 - Synaptic Break: Whenever you or any ally uses an ability against a target that has a [potency](scc:mcdm.heroes.v1/rule.character/potency) effect, the [potency](scc:mcdm.heroes.v1/rule.character/potency) is increased by 1.
 

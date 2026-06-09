@@ -13,9 +13,9 @@ name: Saint's Tempest
 power_roll_characteristic: '[Intuition](scc:mcdm.heroes.v1/rule.character/intuition)'
 scc: mcdm.heroes.v1/feature.ability.conduit.level-2/saints-tempest
 target: Each enemy in the area
-tier1: 2 lightning damage; vertical slide 1
-tier2: 5 lightning damage; vertical slide 2
-tier3: 7 lightning damage; vertical slide 3
+tier1: 2 lightning damage; vertical [slide](scc:mcdm.heroes.v1/movement/forced-movement) 1
+tier2: 5 lightning damage; vertical [slide](scc:mcdm.heroes.v1/movement/forced-movement) 2
+tier3: 7 lightning damage; vertical [slide](scc:mcdm.heroes.v1/movement/forced-movement) 3
 type: ability
 ---
 
@@ -28,6 +28,6 @@ type: ability
 
 **[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Intuition](scc:mcdm.heroes.v1/rule.character/intuition):**
 
-- **≤11:** 2 lightning damage; vertical slide 1
-- **12-16:** 5 lightning damage; vertical slide 2
-- **17+:** 7 lightning damage; vertical slide 3
+- **≤11:** 2 lightning damage; vertical [slide](scc:mcdm.heroes.v1/movement/forced-movement) 1
+- **12-16:** 5 lightning damage; vertical [slide](scc:mcdm.heroes.v1/movement/forced-movement) 2
+- **17+:** 7 lightning damage; vertical [slide](scc:mcdm.heroes.v1/movement/forced-movement) 3

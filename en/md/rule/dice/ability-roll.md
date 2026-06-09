@@ -8,9 +8,9 @@ If an ability requires a [power roll](scc:mcdm.heroes.v1/rule.dice/power-roll), 
 
 Unlike [power rolls](scc:mcdm.heroes.v1/rule.dice/power-roll) made as [tests](scc:mcdm.heroes.v1/rule.test/test) (see Chapter 9), ability rolls always do something useful. You're rolling to determine the impact of the ability, including how much damage it deals and any other effects it imposes based on the [tier outcome](scc:mcdm.heroes.v1/rule.dice/tier-outcome) of the [power roll](scc:mcdm.heroes.v1/rule.dice/power-roll). For instance, the [fury's](scc:mcdm.heroes.v1/class/fury) [Brutal Slam](scc:mcdm.heroes.v1/feature.ability.fury.level-1/brutal-slam) ability is a [melee](scc:mcdm.heroes.v1/rule.combat/melee) [strike](scc:mcdm.heroes.v1/rule.combat/strike) that targets one [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) creature (within 1 square), and which has the following effects:
 
-- **Tier 1 (11 or lower):** The ability deals damage equal to 3 + your [Might](scc:mcdm.heroes.v1/rule.character/might) score, then pushes the target back 1 square.
-- **Tier 2 (12-16):** The ability deals damage equal to 6 + your [Might](scc:mcdm.heroes.v1/rule.character/might) score, then pushes the target back 2 squares.
-- **Tier 3 (17 or higher):** The ability deals damage equal to 9 + your [Might](scc:mcdm.heroes.v1/rule.character/might) score, then pushes the target back 4 squares.
+- **Tier 1 (11 or lower):** The ability deals damage equal to 3 + your [Might](scc:mcdm.heroes.v1/rule.character/might) score, then [pushes](scc:mcdm.heroes.v1/movement/forced-movement) the target back 1 square.
+- **Tier 2 (12-16):** The ability deals damage equal to 6 + your [Might](scc:mcdm.heroes.v1/rule.character/might) score, then [pushes](scc:mcdm.heroes.v1/movement/forced-movement) the target back 2 squares.
+- **Tier 3 (17 or higher):** The ability deals damage equal to 9 + your [Might](scc:mcdm.heroes.v1/rule.character/might) score, then [pushes](scc:mcdm.heroes.v1/movement/forced-movement) the target back 4 squares.
 
 ###### Characteristics and Damage
 
@@ -42,8 +42,8 @@ To keep things moving quickly and to make abilities easy to read during play, da
 
 **[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc:mcdm.heroes.v1/rule.character/might):**
 
-- **≤11:** 3 + M damage; push 1
-- **12-16:** 6 + M damage; push 2
-- **17+:** 9 + M damage; push 4
+- **≤11:** 3 + M damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 1
+- **12-16:** 6 + M damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 2
+- **17+:** 9 + M damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 4
 
 Unless otherwise indicated, any effects that are determined by a [power roll](scc:mcdm.heroes.v1/rule.dice/power-roll)'s [tier outcome](scc:mcdm.heroes.v1/rule.dice/tier-outcome) occur after the [power roll](scc:mcdm.heroes.v1/rule.dice/power-roll)'s damage has been dealt to all targets. If an [ability roll](scc:mcdm.heroes.v1/rule.dice/ability-roll) deals damage to multiple targets but its effect targets the creature using the ability or the Director, such as [Muse of Fire](scc:mcdm.heroes.v1/feature.ability.elementalist.level-8/muse-of-fire), then the effect only occurs once, not once per target. If different tiered outcomes affect multiple targets, the creature using the ability picks which tier of rolled effect applies to them or the Director. If an ability creates multiple effects, those effects resolve in the order in which they are presented.

@@ -5,7 +5,7 @@ name: Agent
 perk: One intrigue perk (*Quick Build:* [Forgettable Face](scc:mcdm.heroes.v1/perk/forgettable-face).)
 scc: mcdm.heroes.v1/career/agent
 skills:
-    - The [Sneak](scc:mcdm.heroes.v1/skill/sneak) skill from the intrigue skill group, plus one skill from the interpersonal group and one other skill from the intrigue group (*Quick Build:* [Disguise](scc:mcdm.heroes.v1/skill/disguise), [Lie](scc:mcdm.heroes.v1/skill/lie), [Sneak](scc:mcdm.heroes.v1/skill/sneak).)
+    - The [Sneak](scc:mcdm.heroes.v1/skill.intrigue/sneak) skill from the [intrigue skill group](scc:mcdm.heroes.v1/skill.intrigue/intrigue), plus one skill from the [interpersonal group](scc:mcdm.heroes.v1/skill.interpersonal/interpersonal) and one other skill from the [intrigue group](scc:mcdm.heroes.v1/skill.intrigue/intrigue) (*Quick Build:* [Disguise](scc:mcdm.heroes.v1/skill.intrigue/disguise), [Lie](scc:mcdm.heroes.v1/skill.interpersonal/lie), [Sneak](scc:mcdm.heroes.v1/skill.intrigue/sneak).)
 type: career
 ---
 
@@ -18,7 +18,7 @@ You worked as a spy for a government or organization. In defining your career, t
 
 You gain the following career benefits:
 
-**Skills:** The [Sneak](scc:mcdm.heroes.v1/skill/sneak) skill from the intrigue skill group, plus one skill from the interpersonal group and one other skill from the intrigue group (*Quick Build:* [Disguise](scc:mcdm.heroes.v1/skill/disguise), [Lie](scc:mcdm.heroes.v1/skill/lie), [Sneak](scc:mcdm.heroes.v1/skill/sneak).)
+**Skills:** The [Sneak](scc:mcdm.heroes.v1/skill.intrigue/sneak) skill from the [intrigue skill group](scc:mcdm.heroes.v1/skill.intrigue/intrigue), plus one skill from the [interpersonal group](scc:mcdm.heroes.v1/skill.interpersonal/interpersonal) and one other skill from the [intrigue group](scc:mcdm.heroes.v1/skill.intrigue/intrigue) (*Quick Build:* [Disguise](scc:mcdm.heroes.v1/skill.intrigue/disguise), [Lie](scc:mcdm.heroes.v1/skill.interpersonal/lie), [Sneak](scc:mcdm.heroes.v1/skill.intrigue/sneak).)
 
 **Languages:** Two languages
 

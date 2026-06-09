@@ -5,7 +5,7 @@ name: Laborer
 perk: One exploration perk (*Quick Build:* Brawny.)
 scc: mcdm.heroes.v1/career/laborer
 skills:
-    - The [Endurance](scc:mcdm.heroes.v1/skill/endurance) skill (from the exploration skill group), plus two skills from either the crafting group or the exploration group (*Quick Build:* [Blacksmithing](scc:mcdm.heroes.v1/skill/blacksmithing), [Endurance](scc:mcdm.heroes.v1/skill/endurance), [Lift](scc:mcdm.heroes.v1/skill/lift).)
+    - The [Endurance](scc:mcdm.heroes.v1/skill.exploration/endurance) skill (from the [exploration skill group](scc:mcdm.heroes.v1/skill.exploration/exploration)), plus two skills from either the [crafting group](scc:mcdm.heroes.v1/skill.crafting/crafting) or the [exploration group](scc:mcdm.heroes.v1/skill.exploration/exploration) (*Quick Build:* [Blacksmithing](scc:mcdm.heroes.v1/skill.crafting/blacksmithing), [Endurance](scc:mcdm.heroes.v1/skill.exploration/endurance), [Lift](scc:mcdm.heroes.v1/skill.exploration/lift).)
 type: career
 ---
 
@@ -18,7 +18,7 @@ You worked as a [farmer](scc:mcdm.heroes.v1/career/farmer), builder, clothes was
 
 You gain the following career benefits:
 
-**Skills:** The [Endurance](scc:mcdm.heroes.v1/skill/endurance) skill (from the exploration skill group), plus two skills from either the crafting group or the exploration group (*Quick Build:* [Blacksmithing](scc:mcdm.heroes.v1/skill/blacksmithing), [Endurance](scc:mcdm.heroes.v1/skill/endurance), [Lift](scc:mcdm.heroes.v1/skill/lift).)
+**Skills:** The [Endurance](scc:mcdm.heroes.v1/skill.exploration/endurance) skill (from the [exploration skill group](scc:mcdm.heroes.v1/skill.exploration/exploration)), plus two skills from either the [crafting group](scc:mcdm.heroes.v1/skill.crafting/crafting) or the [exploration group](scc:mcdm.heroes.v1/skill.exploration/exploration) (*Quick Build:* [Blacksmithing](scc:mcdm.heroes.v1/skill.crafting/blacksmithing), [Endurance](scc:mcdm.heroes.v1/skill.exploration/endurance), [Lift](scc:mcdm.heroes.v1/skill.exploration/lift).)
 
 **Languages:** One language
 

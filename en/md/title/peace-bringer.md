@@ -14,6 +14,6 @@ type: title
 **Effect:** Your choice of your [Reason](scc:mcdm.heroes.v1/rule.character/reason) or [Presence](scc:mcdm.heroes.v1/rule.character/presence) increases by 1 (to a maximum of 6). Additionally, choose one of the following benefits:
 
 - *Calm Heads Prevail:* When you make a [test](scc:mcdm.heroes.v1/rule.test/test) to stop combat and start a negotiation, you always obtain a tier 3 outcome.
-- *Drop Your Sword:* When you succeed on a [test](scc:mcdm.heroes.v1/rule.test/test) using the [Intimidate](scc:mcdm.heroes.v1/skill/intimidate) skill, you can cause affected creatures to drop any items they are holding.
+- *Drop Your Sword:* When you succeed on a [test](scc:mcdm.heroes.v1/rule.test/test) using the [Intimidate](scc:mcdm.heroes.v1/skill.interpersonal/intimidate) skill, you can cause affected creatures to drop any items they are holding.
 - *Hear Me Out:* While you are present in a negotiation, an [NPC](scc:mcdm.heroes.v1/rule.general/npc)'s starting patience increases by 3 (to a maximum of 5).
-- *Many Paths to Peace:* When you make a [test](scc:mcdm.heroes.v1/rule.test/test) with a skill from the interpersonal skill group, you can use any [characteristic](scc:mcdm.heroes.v1/rule.character/characteristic) of your choice for the [test](scc:mcdm.heroes.v1/rule.test/test).
+- *Many Paths to Peace:* When you make a [test](scc:mcdm.heroes.v1/rule.test/test) with a skill from the [interpersonal skill group](scc:mcdm.heroes.v1/skill.interpersonal/interpersonal), you can use any [characteristic](scc:mcdm.heroes.v1/rule.character/characteristic) of your choice for the [test](scc:mcdm.heroes.v1/rule.test/test).

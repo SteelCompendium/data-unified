@@ -22,9 +22,9 @@ You nearly lost your life at sea, but then you heard the voice. Someone—or som
 >
 > **[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + Your Highest [Characteristic](scc:mcdm.heroes.v1/rule.character/characteristic) Score:**
 >
-> - **≤11:** 2 damage; push or pull 1
-> - **12-16:** 5 damage; push or pull 2
-> - **17+:** 7 damage; push or pull 3
+> - **≤11:** 2 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) or [pull](scc:mcdm.heroes.v1/movement/forced-movement) 1
+> - **12-16:** 5 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) or [pull](scc:mcdm.heroes.v1/movement/forced-movement) 2
+> - **17+:** 7 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) or [pull](scc:mcdm.heroes.v1/movement/forced-movement) 3
 >
 > **Effect:** You can forgo dealing damage with this ability.
 

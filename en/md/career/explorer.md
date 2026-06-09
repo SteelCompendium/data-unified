@@ -5,7 +5,7 @@ name: Explorer
 perk: One exploration perk (*Quick Build:* [Wood Wise](scc:mcdm.heroes.v1/perk/wood-wise).)
 scc: mcdm.heroes.v1/career/explorer
 skills:
-    - The [Navigate](scc:mcdm.heroes.v1/skill/navigate) skill (from the exploration skill group), plus two more skills from the exploration group (*Quick Build:* [Climb](scc:mcdm.heroes.v1/skill/climb), [Heal](scc:mcdm.heroes.v1/skill/heal), [Navigate](scc:mcdm.heroes.v1/skill/navigate).)
+    - The [Navigate](scc:mcdm.heroes.v1/skill.exploration/navigate) skill (from the [exploration skill group](scc:mcdm.heroes.v1/skill.exploration/exploration)), plus two more skills from the [exploration group](scc:mcdm.heroes.v1/skill.exploration/exploration) (*Quick Build:* [Climb](scc:mcdm.heroes.v1/skill.exploration/climb), [Heal](scc:mcdm.heroes.v1/skill.exploration/heal), [Navigate](scc:mcdm.heroes.v1/skill.exploration/navigate).)
 type: career
 ---
 
@@ -19,7 +19,7 @@ You ventured into uncharted areas and made your living as a cartographer, resear
 
 You gain the following career benefits:
 
-**Skills:** The [Navigate](scc:mcdm.heroes.v1/skill/navigate) skill (from the exploration skill group), plus two more skills from the exploration group (*Quick Build:* [Climb](scc:mcdm.heroes.v1/skill/climb), [Heal](scc:mcdm.heroes.v1/skill/heal), [Navigate](scc:mcdm.heroes.v1/skill/navigate).)
+**Skills:** The [Navigate](scc:mcdm.heroes.v1/skill.exploration/navigate) skill (from the [exploration skill group](scc:mcdm.heroes.v1/skill.exploration/exploration)), plus two more skills from the [exploration group](scc:mcdm.heroes.v1/skill.exploration/exploration) (*Quick Build:* [Climb](scc:mcdm.heroes.v1/skill.exploration/climb), [Heal](scc:mcdm.heroes.v1/skill.exploration/heal), [Navigate](scc:mcdm.heroes.v1/skill.exploration/navigate).)
 
 **Languages:** Two languages
 

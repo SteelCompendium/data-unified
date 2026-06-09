@@ -9,9 +9,9 @@ name: Knockback
 power_roll_characteristic: '[Might](scc:mcdm.heroes.v1/rule.character/might)'
 scc: mcdm.heroes.v1/feature.ability.common.maneuvers/knockback
 target: One creature
-tier1: Push 1
-tier2: Push 2
-tier3: Push 3
+tier1: '[Push](scc:mcdm.heroes.v1/movement/forced-movement) 1'
+tier2: '[Push](scc:mcdm.heroes.v1/movement/forced-movement) 2'
+tier3: '[Push](scc:mcdm.heroes.v1/movement/forced-movement) 3'
 type: ability
 ---
 
@@ -22,8 +22,8 @@ type: ability
 
 **[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc:mcdm.heroes.v1/rule.character/might):**
 
-- **≤11:** Push 1
-- **12-16:** Push 2
-- **17+:** Push 3
+- **≤11:** [Push](scc:mcdm.heroes.v1/movement/forced-movement) 1
+- **12-16:** [Push](scc:mcdm.heroes.v1/movement/forced-movement) 2
+- **17+:** [Push](scc:mcdm.heroes.v1/movement/forced-movement) 3
 
 **Effect:** You can usually target only creatures of your [size](scc:mcdm.heroes.v1/rule.character/size) or smaller. If your [Might](scc:mcdm.heroes.v1/rule.character/might) score is 2 or higher, you can target any creature with a [size](scc:mcdm.heroes.v1/rule.character/size) equal to or less than your [Might](scc:mcdm.heroes.v1/rule.character/might) score.

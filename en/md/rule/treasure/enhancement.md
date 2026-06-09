@@ -38,7 +38,7 @@ Armor imbued with an enhancement grants you special benefits while it is worn. A
 
 **Swift:** You gain a +1 [bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to [speed](scc:mcdm.heroes.v1/rule.character/speed).
 
-**Tempest I:** As a maneuver, you infuse this armor with the essence of a storm. The first time an [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) creature deals damage to you before the end of your next [turn](scc:mcdm.heroes.v1/rule.combat/turn), they take lightning damage equal to your highest [characteristic](scc:mcdm.heroes.v1/rule.character/characteristic) score and you can push them 1 square.
+**Tempest I:** As a maneuver, you infuse this armor with the essence of a storm. The first time an [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) creature deals damage to you before the end of your next [turn](scc:mcdm.heroes.v1/rule.combat/turn), they take lightning damage equal to your highest [characteristic](scc:mcdm.heroes.v1/rule.character/characteristic) score and you can [push](scc:mcdm.heroes.v1/movement/forced-movement) them 1 square.
 
 ###### 1st-Level Armor Enhancements Table
 
@@ -75,9 +75,9 @@ You can use an absorbed ability as if you knew it, making [power rolls](scc:mcdm
 
 **[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + Your Highest [Characteristic](scc:mcdm.heroes.v1/rule.character/characteristic) Score:**
 
-- **≤11:** 8 damage; push 3
-- **12-16:** 12 damage; push 4
-- **17+:** 15 damage; push 5
+- **≤11:** 8 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 3
+- **12-16:** 12 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 4
+- **17+:** 15 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 5
 
 **Levitating:** On your [turn](scc:mcdm.heroes.v1/rule.combat/turn), you can treat up to 5 consecutive squares of movement as [flying](scc:mcdm.heroes.v1/movement/fly) movement. If you are still in midair at the end of your [turn](scc:mcdm.heroes.v1/rule.combat/turn), you [fall prone](scc:mcdm.heroes.v1/condition/prone).
 
@@ -93,7 +93,7 @@ You can use an absorbed ability as if you knew it, making [power rolls](scc:mcdm
 
 **Shattering:** Whenever an enemy scores a [critical hit](scc:mcdm.heroes.v1/rule.combat/critical-hit) against you, they take 10 sonic damage.
 
-**Tempest II:** When you use the armor's Tempest I [enhancement](scc:mcdm.heroes.v1/rule.treasure/enhancement), the affected creature takes 8 lightning damage and you push them up to 3 squares.
+**Tempest II:** When you use the armor's Tempest I [enhancement](scc:mcdm.heroes.v1/rule.treasure/enhancement), the affected creature takes 8 lightning damage and you [push](scc:mcdm.heroes.v1/movement/forced-movement) them up to 3 squares.
 
 ###### 5th-Level Armor Enhancements Table
 

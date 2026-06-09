@@ -21,9 +21,10 @@
 - [Project](project.md) (16 items)
 - [Rule](rule.md) (109 items)
 - [Skill](skill.md) (57 items)
+- [Skill-group](skill-group.md) (5 items)
 - [Statblock](statblock.md) (437 items)
 - [Title](title.md) (61 items)
 - [Trait](trait.md) (94 items)
 - [Treasure](treasure.md) (114 items)
 
-Total items: 2730
+Total items: 2735

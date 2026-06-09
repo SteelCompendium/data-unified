@@ -34,6 +34,6 @@ You wear medium armor and wield a shield and a medium weapon.
 
 **[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc:mcdm.heroes.v1/rule.character/might) or [Agility](scc:mcdm.heroes.v1/rule.character/agility):**
 
-- **≤11:** 4 + M or A damage; push 1
-- **12-16:** 7 + M or A damage; push 2
-- **17+:** 9 + M or A damage; push 3; M < STRONG[, prone](scc:mcdm.heroes.v1/condition/prone)
+- **≤11:** 4 + M or A damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 1
+- **12-16:** 7 + M or A damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 2
+- **17+:** 9 + M or A damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 3; M < STRONG[, prone](scc:mcdm.heroes.v1/condition/prone)

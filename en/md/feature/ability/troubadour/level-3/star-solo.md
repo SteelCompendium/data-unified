@@ -17,8 +17,8 @@ power_roll_characteristic: '[Presence](scc:mcdm.heroes.v1/rule.character/presenc
 scc: mcdm.heroes.v1/feature.ability.troubadour.level-3/star-solo
 target: One creature or object
 tier1: 5 + P damage
-tier2: 8 + P damage; push 3
-tier3: 11 + P damage; push 5
+tier2: 8 + P damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 3
+tier3: 11 + P damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 5
 type: ability
 ---
 
@@ -32,7 +32,7 @@ type: ability
 **[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Presence](scc:mcdm.heroes.v1/rule.character/presence):**
 
 - **≤11:** 5 + P damage
-- **12-16:** 8 + P damage; push 3
-- **17+:** 11 + P damage; push 5
+- **12-16:** 8 + P damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 3
+- **17+:** 11 + P damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 5
 
 **Effect:** You can choose to have this ability deal sonic damage. Additionally, you can use this ability against the same target for the next 2 [combat rounds](scc:mcdm.heroes.v1/rule.combat/combat-round) without spending drama.

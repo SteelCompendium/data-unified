@@ -24,7 +24,7 @@ An implement imbued with an [enhancement](scc:mcdm.heroes.v1/rule.treasure/enhan
 
 **Elemental:** Whenever you use an ability with the Air, Earth, Fire, Green, Rot, Void, or Water keyword, you can attune this [implement](scc:mcdm.heroes.v1/rule.treasure/implement) to that element until the end of the encounter. While the [implement](scc:mcdm.heroes.v1/rule.treasure/implement) is attuned, you gain an [edge](scc:mcdm.heroes.v1/rule.dice/edge) on [power rolls](scc:mcdm.heroes.v1/rule.dice/power-roll) with that elemental keyword. The [implement](scc:mcdm.heroes.v1/rule.treasure/implement) can be attuned to only one element at a time.
 
-**Forceful I:** Whenever you use a magic or psionic ability to push or pull a creature, you can move that creature an additional 2 squares.
+**Forceful I:** Whenever you use a magic or psionic ability to [push](scc:mcdm.heroes.v1/movement/forced-movement) or [pull](scc:mcdm.heroes.v1/movement/forced-movement) a creature, you can move that creature an additional 2 squares.
 
 **Rat Form:** As a maneuver, you transform into a rat. Your equipment transforms with you. As a rat, you have [speed](scc:mcdm.heroes.v1/rule.character/speed) 5 and can automatically climb at full [speed](scc:mcdm.heroes.v1/rule.character/speed) while moving, your [size](scc:mcdm.heroes.v1/rule.character/size) is 1T, and you can see in the dark. You can speak and keep your skills while in rat form, but your [Might](scc:mcdm.heroes.v1/rule.character/might) is −5 and you lose all your regular abilities, features, and benefits. You can revert to your natural form as a maneuver, and do so automatically if you take any damage.
 
@@ -62,13 +62,13 @@ An implement imbued with an [enhancement](scc:mcdm.heroes.v1/rule.treasure/enhan
 
 **Celerity:** Immediately after using a magic or psionic ability that requires a main action, you can [shift](scc:mcdm.heroes.v1/movement/shifting) up to 3 squares, or you can use the [Escape Grab](scc:mcdm.heroes.v1/feature.common.maneuvers/escape-grab) maneuver as a [free maneuver](scc:mcdm.heroes.v1/rule.combat/free-maneuver) (see Maneuvers in Chapter 10: [Combat](scc:mcdm.heroes.v1/chapter/combat)).
 
-**Celestine:** As a main action, you conjure up to three stars, which [hover](scc:mcdm.heroes.v1/movement/hover) in unoccupied squares of your choice within 5 squares of you. The stars remain in place, and disappear if you create more stars. When an enemy enters any star's space, the star detonates and is destroyed, and the enemy takes 10 fire damage. If you have [line of effect](scc:mcdm.heroes.v1/rule.combat/line-of-effect) to the enemy, you can also slide them 1 square. Otherwise, the enemy slides 1 square in a random direction.
+**Celestine:** As a main action, you conjure up to three stars, which [hover](scc:mcdm.heroes.v1/movement/hover) in unoccupied squares of your choice within 5 squares of you. The stars remain in place, and disappear if you create more stars. When an enemy enters any star's space, the star detonates and is destroyed, and the enemy takes 10 fire damage. If you have [line of effect](scc:mcdm.heroes.v1/rule.combat/line-of-effect) to the enemy, you can also [slide](scc:mcdm.heroes.v1/movement/forced-movement) them 1 square. Otherwise, the enemy [slides](scc:mcdm.heroes.v1/movement/forced-movement) 1 square in a random direction.
 
 **Displacing II:** When you use the [implement](scc:mcdm.heroes.v1/rule.treasure/implement)'s Displacing I [enhancement](scc:mcdm.heroes.v1/rule.treasure/enhancement), you can [teleport](scc:mcdm.heroes.v1/movement/teleport) the creature up to 4 squares. Additionally, the creature takes a [bane](scc:mcdm.heroes.v1/rule.dice/bane) on their next [power roll](scc:mcdm.heroes.v1/rule.dice/power-roll) made before the end of their next [turn](scc:mcdm.heroes.v1/rule.combat/turn).
 
 **Erupting I:** Whenever you damage a creature using a magic or psionic ability that targets only a single creature and obtain a tier 3 outcome, each enemy within 2 squares of the creature takes 3 fire damage after the ability's effects resolve.
 
-**Forceful II:** Whenever you use a magic or psionic ability to push or pull a creature, you can move that creature an additional 3 squares. This replaces the benefit of Forceful I.
+**Forceful II:** Whenever you use a magic or psionic ability to [push](scc:mcdm.heroes.v1/movement/forced-movement) or [pull](scc:mcdm.heroes.v1/movement/forced-movement) a creature, you can move that creature an additional 3 squares. This replaces the benefit of Forceful I.
 
 **Hallucinatory:** As a maneuver, you create an area of sensory in[stability](scc:mcdm.heroes.v1/rule.character/stability) in a 2 [aura](scc:mcdm.heroes.v1/rule.combat/aura) centered on yourself. The area is [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain) for your enemies until the end of the encounter.
 
@@ -108,7 +108,7 @@ An implement imbued with an [enhancement](scc:mcdm.heroes.v1/rule.treasure/enhan
 
 **Erupting II:** The fire damage dealt by the [implement](scc:mcdm.heroes.v1/rule.treasure/implement)'s Erupting I [enhancement](scc:mcdm.heroes.v1/rule.treasure/enhancement) increases to 6.
 
-**Forceful III:** Whenever you use a magic or psionic ability to push or pull a creature, you can move that creature an additional 3 squares and that movement can be vertical. This replaces the benefit of Forceful II.
+**Forceful III:** Whenever you use a magic or psionic ability to [push](scc:mcdm.heroes.v1/movement/forced-movement) or [pull](scc:mcdm.heroes.v1/movement/forced-movement) a creature, you can move that creature an additional 3 squares and that movement can be vertical. This replaces the benefit of Forceful II.
 
 **Lingering II:** Whenever you damage a creature using a magic or psionic ability and obtain a tier 3 outcome, that creature takes 15 damage at the start of your next [turn](scc:mcdm.heroes.v1/rule.combat/turn). This replaces the benefit of Lingering I.
 

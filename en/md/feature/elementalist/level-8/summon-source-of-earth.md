@@ -39,6 +39,6 @@ You have the following ability.
 >>
 >> **[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + 3:**
 >>
->> - **≤11:** 5 damage; push 3
->> - **12-16:** 9 damage; push 4
->> - **17+:** 12 damage; push 5
+>> - **≤11:** 5 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 3
+>> - **12-16:** 9 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 4
+>> - **17+:** 12 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 5

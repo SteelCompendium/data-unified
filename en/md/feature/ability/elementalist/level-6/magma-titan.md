@@ -27,7 +27,7 @@ type: ability
 
 **Effect:** Until the start of your next [turn](scc:mcdm.heroes.v1/rule.combat/turn), the target has the following benefits:
 
-- Their [size](scc:mcdm.heroes.v1/rule.character/size) and [stability](scc:mcdm.heroes.v1/rule.character/stability) increase by 2, with any [size](scc:mcdm.heroes.v1/rule.character/size) 1 target becoming [size](scc:mcdm.heroes.v1/rule.character/size) 3. Each creature who is within the target's new space slides to the nearest unoccupied space, ignoring [stability](scc:mcdm.heroes.v1/rule.character/stability). If the target doesn't have space to grow, they grow as much as they can and become [restrained](scc:mcdm.heroes.v1/condition/restrained) until the effect ends.
+- Their [size](scc:mcdm.heroes.v1/rule.character/size) and [stability](scc:mcdm.heroes.v1/rule.character/stability) increase by 2, with any [size](scc:mcdm.heroes.v1/rule.character/size) 1 target becoming [size](scc:mcdm.heroes.v1/rule.character/size) 3. Each creature who is within the target's new space [slides](scc:mcdm.heroes.v1/movement/forced-movement) to the nearest unoccupied space, ignoring [stability](scc:mcdm.heroes.v1/rule.character/stability). If the target doesn't have space to grow, they grow as much as they can and become [restrained](scc:mcdm.heroes.v1/condition/restrained) until the effect ends.
 - They have fire immunity 10.
 - Their [strikes](scc:mcdm.heroes.v1/rule.combat/strike) deal extra fire damage equal to twice your [Reason](scc:mcdm.heroes.v1/rule.character/reason) score.
 - When the target force moves a creature or object, the [forced movement](scc:mcdm.heroes.v1/movement/forced-movement) [distance](scc:mcdm.heroes.v1/rule.combat/distance) gains a +2 [bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties).

@@ -35,7 +35,7 @@ You wear no armor and wield only your unarmed [strikes](scc:mcdm.heroes.v1/rule.
 **[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc:mcdm.heroes.v1/rule.character/might) or [Agility](scc:mcdm.heroes.v1/rule.character/agility):**
 
 - **≤11:** 3 + M or A damage
-- **12-16:** 6 + M or A damage; slide 1
-- **17+:** 8 + M or A damage; slide 2
+- **12-16:** 6 + M or A damage; [slide](scc:mcdm.heroes.v1/movement/forced-movement) 1
+- **17+:** 8 + M or A damage; [slide](scc:mcdm.heroes.v1/movement/forced-movement) 2
 
-**Effect:** You can [shift](scc:mcdm.heroes.v1/movement/shifting) into any square the target leaves after you slide them.
+**Effect:** You can [shift](scc:mcdm.heroes.v1/movement/shifting) into any square the target leaves after you [slide](scc:mcdm.heroes.v1/movement/forced-movement) them.

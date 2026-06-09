@@ -2,7 +2,7 @@
 action_type: Main action
 class: elementalist
 distance: '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 10'
-effect: You slide one creature within 10 squares of the target up to 2 squares.
+effect: You [slide](scc:mcdm.heroes.v1/movement/forced-movement) one creature within 10 squares of the target up to 2 squares.
 flavor: Whipping vines erupt from a foe's body to grasp at another close by.
 keywords:
     - Green
@@ -34,4 +34,4 @@ type: ability
 - **12-16:** 5 + R damage
 - **17+:** 7 + R damage
 
-**Effect:** You slide one creature within 10 squares of the target up to 2 squares.
+**Effect:** You [slide](scc:mcdm.heroes.v1/movement/forced-movement) one creature within 10 squares of the target up to 2 squares.

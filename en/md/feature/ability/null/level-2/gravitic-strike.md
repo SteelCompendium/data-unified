@@ -14,9 +14,9 @@ name: Gravitic Strike
 power_roll_characteristic: '[Agility](scc:mcdm.heroes.v1/rule.character/agility)'
 scc: mcdm.heroes.v1/feature.ability.null.level-2/gravitic-strike
 target: One creature
-tier1: 8 + A psychic damage; vertical pull 3
-tier2: 12 + A psychic damage; vertical pull 5
-tier3: 16 + A psychic damage; vertical pull 7
+tier1: 8 + A psychic damage; vertical [pull](scc:mcdm.heroes.v1/movement/forced-movement) 3
+tier2: 12 + A psychic damage; vertical [pull](scc:mcdm.heroes.v1/movement/forced-movement) 5
+tier3: 16 + A psychic damage; vertical [pull](scc:mcdm.heroes.v1/movement/forced-movement) 7
 type: ability
 ---
 
@@ -29,6 +29,6 @@ type: ability
 
 **[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Agility](scc:mcdm.heroes.v1/rule.character/agility):**
 
-- **≤11:** 8 + A psychic damage; vertical pull 3
-- **12-16:** 12 + A psychic damage; vertical pull 5
-- **17+:** 16 + A psychic damage; vertical pull 7
+- **≤11:** 8 + A psychic damage; vertical [pull](scc:mcdm.heroes.v1/movement/forced-movement) 3
+- **12-16:** 12 + A psychic damage; vertical [pull](scc:mcdm.heroes.v1/movement/forced-movement) 5
+- **17+:** 16 + A psychic damage; vertical [pull](scc:mcdm.heroes.v1/movement/forced-movement) 7

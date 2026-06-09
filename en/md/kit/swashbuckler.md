@@ -35,7 +35,7 @@ You wear light armor and wield a medium weapon.
 **[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc:mcdm.heroes.v1/rule.character/might) or [Agility](scc:mcdm.heroes.v1/rule.character/agility):**
 
 - **≤11:** 5 + M or A damage
-- **12-16:** 7 + M or A damage; push 1
-- **17+:** 10 + M or A damage; push 2
+- **12-16:** 7 + M or A damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 1
+- **17+:** 10 + M or A damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 2
 
-**Effect:** You can [shift](scc:mcdm.heroes.v1/movement/shifting) into any square the target leaves after you push them.
+**Effect:** You can [shift](scc:mcdm.heroes.v1/movement/shifting) into any square the target leaves after you [push](scc:mcdm.heroes.v1/movement/forced-movement) them.

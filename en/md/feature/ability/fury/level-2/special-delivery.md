@@ -3,7 +3,7 @@ action_type: Maneuver
 class: fury
 cost: 5 Ferocity
 distance: '[Melee](scc:mcdm.heroes.v1/rule.combat/melee) 1'
-effect: You vertically push the target up to 4 squares. This [forced movement](scc:mcdm.heroes.v1/movement/forced-movement) ignores the target's [stability](scc:mcdm.heroes.v1/rule.character/stability), and the target takes no damage from colliding with creatures or objects. At the end of this movement, the target can make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) that deals extra damage equal to your [Might](scc:mcdm.heroes.v1/rule.character/might) score.
+effect: You vertically [push](scc:mcdm.heroes.v1/movement/forced-movement) the target up to 4 squares. This [forced movement](scc:mcdm.heroes.v1/movement/forced-movement) ignores the target's [stability](scc:mcdm.heroes.v1/rule.character/stability), and the target takes no damage from colliding with creatures or objects. At the end of this movement, the target can make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) that deals extra damage equal to your [Might](scc:mcdm.heroes.v1/rule.character/might) score.
 flavor: You ready?
 keywords:
     - '[Melee](scc:mcdm.heroes.v1/rule.combat/melee)'
@@ -22,4 +22,4 @@ type: ability
 |-------------------|------------------------:|
 | **📏 [Melee](scc:mcdm.heroes.v1/rule.combat/melee) 1**    | **🎯 One willing ally** |
 
-**Effect:** You vertically push the target up to 4 squares. This [forced movement](scc:mcdm.heroes.v1/movement/forced-movement) ignores the target's [stability](scc:mcdm.heroes.v1/rule.character/stability), and the target takes no damage from colliding with creatures or objects. At the end of this movement, the target can make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) that deals extra damage equal to your [Might](scc:mcdm.heroes.v1/rule.character/might) score.
+**Effect:** You vertically [push](scc:mcdm.heroes.v1/movement/forced-movement) the target up to 4 squares. This [forced movement](scc:mcdm.heroes.v1/movement/forced-movement) ignores the target's [stability](scc:mcdm.heroes.v1/rule.character/stability), and the target takes no damage from colliding with creatures or objects. At the end of this movement, the target can make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) that deals extra damage equal to your [Might](scc:mcdm.heroes.v1/rule.character/might) score.

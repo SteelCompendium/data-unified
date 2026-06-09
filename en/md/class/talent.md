@@ -3,7 +3,7 @@ flavor: Arare few people are born with the potential to harness psionic power, b
 name: Talent
 scc: mcdm.heroes.v1/class/talent
 skills:
-    - 'You gain the Psionics and [Read Person](scc:mcdm.heroes.v1/skill/read-person) skills (see Skills in Chapter 9: [Tests](scc:mcdm.heroes.v1/chapter/tests)). Then choose any two skills from the interpersonal or lore skill groups. (*Quick Build:* Empathize, Psionics, [Read Person](scc:mcdm.heroes.v1/skill/read-person), Timescape.)'
+    - 'You gain the Psionics and [Read Person](scc:mcdm.heroes.v1/skill.interpersonal/read-person) skills (see Skills in Chapter 9: [Tests](scc:mcdm.heroes.v1/chapter/tests)). Then choose any two skills from the [interpersonal](scc:mcdm.heroes.v1/skill.interpersonal/interpersonal) or [lore](scc:mcdm.heroes.v1/skill.lore/lore) skill groups. (*Quick Build:* Empathize, Psionics, [Read Person](scc:mcdm.heroes.v1/skill.interpersonal/read-person), Timescape.)'
 type: class
 ---
 
@@ -35,7 +35,7 @@ Arare few people are born with the potential to harness psionic power, but only 
 
 **[Recoveries](scc:mcdm.heroes.v1/rule.health/recoveries):** 8
 
-**Skills:** You gain the Psionics and [Read Person](scc:mcdm.heroes.v1/skill/read-person) skills (see Skills in Chapter 9: [Tests](scc:mcdm.heroes.v1/chapter/tests)). Then choose any two skills from the interpersonal or lore skill groups. (*Quick Build:* Empathize, Psionics, [Read Person](scc:mcdm.heroes.v1/skill/read-person), Timescape.)
+**Skills:** You gain the Psionics and [Read Person](scc:mcdm.heroes.v1/skill.interpersonal/read-person) skills (see Skills in Chapter 9: [Tests](scc:mcdm.heroes.v1/chapter/tests)). Then choose any two skills from the [interpersonal](scc:mcdm.heroes.v1/skill.interpersonal/interpersonal) or [lore](scc:mcdm.heroes.v1/skill.lore/lore) skill groups. (*Quick Build:* Empathize, Psionics, [Read Person](scc:mcdm.heroes.v1/skill.interpersonal/read-person), Timescape.)
 
 ###### Talent Advancement Table
 

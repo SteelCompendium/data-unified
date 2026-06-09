@@ -11,9 +11,9 @@ You are hunting someone or something—perhaps a wanted criminal, a person who w
 
 **Benefit:** Choose one skill from the following:
 
-- [Interrogate](scc:mcdm.heroes.v1/skill/interrogate) (from the interpersonal skill group)
-- Alertness, Eavesdrop, Search, or Track (from the intrigue skill group)
-- Criminal Underworld, Rumors, or Society (from the lore skill group)
+- [Interrogate](scc:mcdm.heroes.v1/skill.interpersonal/interrogate) (from the [interpersonal skill group](scc:mcdm.heroes.v1/skill.interpersonal/interpersonal))
+- Alertness, Eavesdrop, Search, or Track (from the [intrigue skill group](scc:mcdm.heroes.v1/skill.intrigue/intrigue))
+- Criminal Underworld, Rumors, or Society (from the [lore skill group](scc:mcdm.heroes.v1/skill.lore/lore))
 
 You have that skill, and you gain an [edge](scc:mcdm.heroes.v1/rule.dice/edge) on [tests](scc:mcdm.heroes.v1/rule.test/test) made to find or learn clues about your quarry.
 

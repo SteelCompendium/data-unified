@@ -12,9 +12,9 @@ power_roll_characteristic: '[Might](scc:mcdm.heroes.v1/rule.character/might) or 
 scc: mcdm.heroes.v1/feature.ability.sword-and-board/shield-bash
 subtype: signature
 target: One creature
-tier1: 4 + M or A damage; push 1
-tier2: 7 + M or A damage; push 2
-tier3: 9 + M or A damage; push 3; M < STRONG[, prone](scc:mcdm.heroes.v1/condition/prone)
+tier1: 4 + M or A damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 1
+tier2: 7 + M or A damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 2
+tier3: 9 + M or A damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 3; M < STRONG[, prone](scc:mcdm.heroes.v1/condition/prone)
 type: ability
 ---
 
@@ -26,6 +26,6 @@ type: ability
 
 **[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc:mcdm.heroes.v1/rule.character/might) or [Agility](scc:mcdm.heroes.v1/rule.character/agility):**
 
-- **≤11:** 4 + M or A damage; push 1
-- **12-16:** 7 + M or A damage; push 2
-- **17+:** 9 + M or A damage; push 3; M < STRONG[, prone](scc:mcdm.heroes.v1/condition/prone)
+- **≤11:** 4 + M or A damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 1
+- **12-16:** 7 + M or A damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 2
+- **17+:** 9 + M or A damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 3; M < STRONG[, prone](scc:mcdm.heroes.v1/condition/prone)

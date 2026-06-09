@@ -12,8 +12,8 @@ scc: mcdm.heroes.v1/feature.ability.dragon-knight/draconian-pride
 subtype: signature
 target: Each enemy in the area
 tier1: 2 damage
-tier2: 5 damage; push 1
-tier3: 7 damage; push 2
+tier2: 5 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 1
+tier3: 7 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 2
 type: ability
 ---
 
@@ -26,5 +26,5 @@ type: ability
 **[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc:mcdm.heroes.v1/rule.character/might) or [Presence](scc:mcdm.heroes.v1/rule.character/presence):**
 
 - **≤11:** 2 damage
-- **12-16:** 5 damage; push 1
-- **17+:** 7 damage; push 2
+- **12-16:** 5 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 1
+- **17+:** 7 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 2

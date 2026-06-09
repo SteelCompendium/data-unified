@@ -12,9 +12,9 @@ power_roll_characteristic: '[Reason](scc:mcdm.heroes.v1/rule.character/reason), 
 scc: mcdm.heroes.v1/feature.ability.time-raider/psionic-bolt
 subtype: signature
 target: One creature or object
-tier1: 2 + R, I, or P psychic damage; slide 1
-tier2: 5 + R, I, or P psychic damage; slide 2
-tier3: 7 + R, I, or P psychic damage; slide 3
+tier1: 2 + R, I, or P psychic damage; [slide](scc:mcdm.heroes.v1/movement/forced-movement) 1
+tier2: 5 + R, I, or P psychic damage; [slide](scc:mcdm.heroes.v1/movement/forced-movement) 2
+tier3: 7 + R, I, or P psychic damage; [slide](scc:mcdm.heroes.v1/movement/forced-movement) 3
 type: ability
 ---
 
@@ -26,6 +26,6 @@ type: ability
 
 **[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Reason](scc:mcdm.heroes.v1/rule.character/reason), [Intuition](scc:mcdm.heroes.v1/rule.character/intuition), or [Presence](scc:mcdm.heroes.v1/rule.character/presence):**
 
-- **≤11:** 2 + R, I, or P psychic damage; slide 1
-- **12-16:** 5 + R, I, or P psychic damage; slide 2
-- **17+:** 7 + R, I, or P psychic damage; slide 3
+- **≤11:** 2 + R, I, or P psychic damage; [slide](scc:mcdm.heroes.v1/movement/forced-movement) 1
+- **12-16:** 5 + R, I, or P psychic damage; [slide](scc:mcdm.heroes.v1/movement/forced-movement) 2
+- **17+:** 7 + R, I, or P psychic damage; [slide](scc:mcdm.heroes.v1/movement/forced-movement) 3

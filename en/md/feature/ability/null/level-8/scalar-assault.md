@@ -12,9 +12,9 @@ name: Scalar Assault
 power_roll_characteristic: '[Agility](scc:mcdm.heroes.v1/rule.character/agility)'
 scc: mcdm.heroes.v1/feature.ability.null.level-8/scalar-assault
 target: Each enemy in the area
-tier1: 12 psychic damage; push 3
-tier2: 17 psychic damage; push 5
-tier3: 23 psychic damage; push 7
+tier1: 12 psychic damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 3
+tier2: 17 psychic damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 5
+tier3: 23 psychic damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 7
 type: ability
 ---
 
@@ -27,6 +27,6 @@ type: ability
 
 **[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Agility](scc:mcdm.heroes.v1/rule.character/agility):**
 
-- **≤11:** 12 psychic damage; push 3
-- **12-16:** 17 psychic damage; push 5
-- **17+:** 23 psychic damage; push 7
+- **≤11:** 12 psychic damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 3
+- **12-16:** 17 psychic damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 5
+- **17+:** 23 psychic damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 7

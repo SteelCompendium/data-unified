@@ -7,7 +7,7 @@ type: culture
 
 Your hero grew up among leaders who rule over others and play the games of politics to maintain power. Many families are [noble](scc:mcdm.heroes.v1/culture/noble)s by birthright, but some cultures have [noble](scc:mcdm.heroes.v1/culture/noble) titles earned through deeds or popularity. Whatever the case, heroes with this background understand why the whispered words in the right ear can sometimes be more powerful than any army.
 
-**Skill Options:** One skill from the interpersonal skill group. (*Quick Build:* [Lead](scc:mcdm.heroes.v1/skill/lead).)
+**Skill Options:** One skill from the [interpersonal skill group](scc:mcdm.heroes.v1/skill.interpersonal/interpersonal). (*Quick Build:* [Lead](scc:mcdm.heroes.v1/skill.interpersonal/lead).)
 
 > **But I Really Want Alertness**
 >

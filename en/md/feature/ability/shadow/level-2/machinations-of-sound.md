@@ -14,9 +14,9 @@ name: Machinations of Sound
 power_roll_characteristic: '[Agility](scc:mcdm.heroes.v1/rule.character/agility)'
 scc: mcdm.heroes.v1/feature.ability.shadow.level-2/machinations-of-sound
 target: Each creature in the area
-tier1: Slide 4
-tier2: Slide 5
-tier3: Slide 7
+tier1: '[Slide](scc:mcdm.heroes.v1/movement/forced-movement) 4'
+tier2: '[Slide](scc:mcdm.heroes.v1/movement/forced-movement) 5'
+tier3: '[Slide](scc:mcdm.heroes.v1/movement/forced-movement) 7'
 type: ability
 ---
 
@@ -29,8 +29,8 @@ type: ability
 
 **[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Agility](scc:mcdm.heroes.v1/rule.character/agility):**
 
-- **≤11:** Slide 4
-- **12-16:** Slide 5
-- **17+:** Slide 7
+- **≤11:** [Slide](scc:mcdm.heroes.v1/movement/forced-movement) 4
+- **12-16:** [Slide](scc:mcdm.heroes.v1/movement/forced-movement) 5
+- **17+:** [Slide](scc:mcdm.heroes.v1/movement/forced-movement) 7
 
 **Effect:** This [forced movement](scc:mcdm.heroes.v1/movement/forced-movement) ignores [stability](scc:mcdm.heroes.v1/rule.character/stability). Instead, the [forced movement](scc:mcdm.heroes.v1/movement/forced-movement) is reduced by a number equal to the target's [Intuition](scc:mcdm.heroes.v1/rule.character/intuition) score.

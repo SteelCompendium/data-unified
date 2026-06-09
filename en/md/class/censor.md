@@ -3,7 +3,7 @@ flavor: Demons and deathless fear you. Criminals run from the sight of your shad
 name: Censor
 scc: mcdm.heroes.v1/class/censor
 skills:
-    - 'Choose any two skills from the interpersonal or lore skill groups (see Skills in Chapter 9: [Tests](scc:mcdm.heroes.v1/chapter/tests)). (*Quick Build:* [Intimidate](scc:mcdm.heroes.v1/skill/intimidate), [Religion](scc:mcdm.heroes.v1/skill/religion).)'
+    - 'Choose any two skills from the [interpersonal](scc:mcdm.heroes.v1/skill.interpersonal/interpersonal) or [lore](scc:mcdm.heroes.v1/skill.lore/lore) skill groups (see Skills in Chapter 9: [Tests](scc:mcdm.heroes.v1/chapter/tests)). (*Quick Build:* [Intimidate](scc:mcdm.heroes.v1/skill.interpersonal/intimidate), [Religion](scc:mcdm.heroes.v1/skill.lore/religion).)'
 type: class
 ---
 
@@ -39,7 +39,7 @@ As a [censor](scc:mcdm.heroes.v1/class/censor), you're at your best against the 
 
 **[Recoveries](scc:mcdm.heroes.v1/rule.health/recoveries):** 12
 
-**Skills:** Choose any two skills from the interpersonal or lore skill groups (see Skills in Chapter 9: [Tests](scc:mcdm.heroes.v1/chapter/tests)). (*Quick Build:* [Intimidate](scc:mcdm.heroes.v1/skill/intimidate), [Religion](scc:mcdm.heroes.v1/skill/religion).)
+**Skills:** Choose any two skills from the [interpersonal](scc:mcdm.heroes.v1/skill.interpersonal/interpersonal) or [lore](scc:mcdm.heroes.v1/skill.lore/lore) skill groups (see Skills in Chapter 9: [Tests](scc:mcdm.heroes.v1/chapter/tests)). (*Quick Build:* [Intimidate](scc:mcdm.heroes.v1/skill.interpersonal/intimidate), [Religion](scc:mcdm.heroes.v1/skill.lore/religion).)
 
 ###### Censor Advancement Table
 

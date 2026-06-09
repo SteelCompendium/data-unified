@@ -43,7 +43,7 @@ Additionally, whenever you activate a domain effect by praying for piety, you ca
 ###### Nature Domain Piety and Effect
 
 - **Piety:** You gain 2 piety the first time in an encounter that you or a creature within 10 squares takes acid, cold, fire, lightning, poison, or sonic damage.
-- **Prayer Effect:** Vines whip up from the floor or ground within 10 squares, wrapping around a number of creatures equal to your [Intuition](scc:mcdm.heroes.v1/rule.character/intuition) score. You can slide each creature up to a number of squares equal to your [Intuition](scc:mcdm.heroes.v1/rule.character/intuition) score. The vines then fade away.
+- **Prayer Effect:** Vines whip up from the floor or ground within 10 squares, wrapping around a number of creatures equal to your [Intuition](scc:mcdm.heroes.v1/rule.character/intuition) score. You can [slide](scc:mcdm.heroes.v1/movement/forced-movement) each creature up to a number of squares equal to your [Intuition](scc:mcdm.heroes.v1/rule.character/intuition) score. The vines then fade away.
 
 ###### Protection Domain Piety and Effect
 
@@ -62,8 +62,8 @@ Additionally, whenever you activate a domain effect by praying for piety, you ca
 
 ###### Trickery Domain Piety and Effect
 
-- **Piety:** You gain 2 piety the first time in an encounter that you or a creature within 10 squares takes the [Aid Attack](scc:mcdm.heroes.v1/feature.common.maneuvers/aid-attack) or [Hide](scc:mcdm.heroes.v1/skill/hide) maneuver.
-- **Prayer Effect:** You slide one creature within 10 squares of you up to a number of squares equal to 5 + your [conduit](scc:mcdm.heroes.v1/class/conduit) level.
+- **Piety:** You gain 2 piety the first time in an encounter that you or a creature within 10 squares takes the [Aid Attack](scc:mcdm.heroes.v1/feature.common.maneuvers/aid-attack) or [Hide](scc:mcdm.heroes.v1/skill.intrigue/hide) maneuver.
+- **Prayer Effect:** You [slide](scc:mcdm.heroes.v1/movement/forced-movement) one creature within 10 squares of you up to a number of squares equal to 5 + your [conduit](scc:mcdm.heroes.v1/class/conduit) level.
 
 ###### War Domain Piety and Effect
 

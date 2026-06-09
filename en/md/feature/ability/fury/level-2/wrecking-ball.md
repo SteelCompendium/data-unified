@@ -13,9 +13,9 @@ name: Wrecking Ball
 power_roll_characteristic: '[Might](scc:mcdm.heroes.v1/rule.character/might)'
 scc: mcdm.heroes.v1/feature.ability.fury.level-2/wrecking-ball
 target: Self
-tier1: Push 1
-tier2: Push 2
-tier3: Push 3
+tier1: '[Push](scc:mcdm.heroes.v1/movement/forced-movement) 1'
+tier2: '[Push](scc:mcdm.heroes.v1/movement/forced-movement) 2'
+tier3: '[Push](scc:mcdm.heroes.v1/movement/forced-movement) 3'
 type: ability
 ---
 
@@ -32,6 +32,6 @@ Additionally, you make one [power roll](scc:mcdm.heroes.v1/rule.dice/power-roll)
 
 **[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc:mcdm.heroes.v1/rule.character/might):**
 
-- **≤11:** Push 1
-- **12-16:** Push 2
-- **17+:** Push 3
+- **≤11:** [Push](scc:mcdm.heroes.v1/movement/forced-movement) 1
+- **12-16:** [Push](scc:mcdm.heroes.v1/movement/forced-movement) 2
+- **17+:** [Push](scc:mcdm.heroes.v1/movement/forced-movement) 3

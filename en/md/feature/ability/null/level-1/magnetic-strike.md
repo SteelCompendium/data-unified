@@ -14,9 +14,9 @@ power_roll_characteristic: '[Agility](scc:mcdm.heroes.v1/rule.character/agility)
 scc: mcdm.heroes.v1/feature.ability.null.level-1/magnetic-strike
 subtype: signature
 target: One creature
-tier1: 5 + A psychic damage; vertical pull 1
-tier2: 8 + A psychic damage; vertical pull 2
-tier3: 11 + A psychic damage; vertical pull 3
+tier1: 5 + A psychic damage; vertical [pull](scc:mcdm.heroes.v1/movement/forced-movement) 1
+tier2: 8 + A psychic damage; vertical [pull](scc:mcdm.heroes.v1/movement/forced-movement) 2
+tier3: 11 + A psychic damage; vertical [pull](scc:mcdm.heroes.v1/movement/forced-movement) 3
 type: ability
 ---
 
@@ -29,6 +29,6 @@ type: ability
 
 **[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Agility](scc:mcdm.heroes.v1/rule.character/agility):**
 
-- **≤11:** 5 + A psychic damage; vertical pull 1
-- **12-16:** 8 + A psychic damage; vertical pull 2
-- **17+:** 11 + A psychic damage; vertical pull 3
+- **≤11:** 5 + A psychic damage; vertical [pull](scc:mcdm.heroes.v1/movement/forced-movement) 1
+- **12-16:** 8 + A psychic damage; vertical [pull](scc:mcdm.heroes.v1/movement/forced-movement) 2
+- **17+:** 11 + A psychic damage; vertical [pull](scc:mcdm.heroes.v1/movement/forced-movement) 3

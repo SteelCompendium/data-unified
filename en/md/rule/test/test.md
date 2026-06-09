@@ -20,7 +20,7 @@ Though the Director can decide to call for [tests](scc:mcdm.heroes.v1/rule.test/
 
 ##### Might Tests
 
-You make a [Might](scc:mcdm.heroes.v1/rule.character/might) [test](scc:mcdm.heroes.v1/rule.test/test) whenever a risky task calls for the use of physical strength. [Might](scc:mcdm.heroes.v1/rule.character/might) [tests](scc:mcdm.heroes.v1/rule.test/test) are most often used for breaking down doors and other structures, hurling heavy objects, pulling your body up a sheer wall, swimming against a mighty current, and other feats of physical power.
+You make a [Might](scc:mcdm.heroes.v1/rule.character/might) [test](scc:mcdm.heroes.v1/rule.test/test) whenever a risky task calls for the use of physical strength. [Might](scc:mcdm.heroes.v1/rule.character/might) [tests](scc:mcdm.heroes.v1/rule.test/test) are most often used for breaking down doors and other structures, hurling heavy objects, [pulling](scc:mcdm.heroes.v1/movement/forced-movement) your body up a sheer wall, swimming against a mighty current, and other feats of physical power.
 
 ##### Agility Tests
 

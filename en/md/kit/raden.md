@@ -20,7 +20,7 @@ With this stormwight kit, you channel your [primordial ferocity](scc:mcdm.heroes
 **[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Agility](scc:mcdm.heroes.v1/rule.character/agility):**
 
 - **≤11:** 4 + A damage
-- **12-16:** 7 + A damage; push 1
-- **17+:** 9 + A damage; push 2
+- **12-16:** 7 + A damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 1
+- **17+:** 9 + A damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 2
 
-**Effect:** You can [shift](scc:mcdm.heroes.v1/movement/shifting) up to the same number of squares that you pushed the target.
+**Effect:** You can [shift](scc:mcdm.heroes.v1/movement/shifting) up to the same number of squares that you [pushed](scc:mcdm.heroes.v1/movement/forced-movement) the target.

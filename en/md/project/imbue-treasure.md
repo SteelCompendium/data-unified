@@ -44,7 +44,7 @@ A hero who has a kit that uses unarmed [strikes](scc:mcdm.heroes.v1/rule.combat/
 
 **Terrifying I:** Whenever you damage a creature with an ability using this weapon and obtain a tier 3 outcome, that creature takes 2 psychic damage.
 
-**Thundering I:** Whenever you deal [rolled damage](scc:mcdm.heroes.v1/rule.damage/rolled-damage) to a creature using this weapon, you can push that creature 1 square after the other effects of the ability resolve.
+**Thundering I:** Whenever you deal [rolled damage](scc:mcdm.heroes.v1/rule.damage/rolled-damage) to a creature using this weapon, you can [push](scc:mcdm.heroes.v1/movement/forced-movement) that creature 1 square after the other effects of the ability resolve.
 
 **Vengeance I:** Whenever you use a damage-dealing ability using this weapon against a creature who has dealt damage to you since the end of your last [turn](scc:mcdm.heroes.v1/rule.combat/turn), the ability deals an extra 2 damage.
 
@@ -105,7 +105,7 @@ A hero who has a kit that uses unarmed [strikes](scc:mcdm.heroes.v1/rule.combat/
 >
 > **Terrifying II:** Whenever you damage a creature with an ability using this weapon and obtain a tier 3 outcome, that creature takes 4 psychic damage and is [frightened](scc:mcdm.heroes.v1/condition/frightened) (save ends). This replaces the benefit of Terrifying I.
 >
-> **Thundering II:** Whenever you deal [rolled damage](scc:mcdm.heroes.v1/rule.damage/rolled-damage) to a creature using this weapon, you can push that creature up to 3 squares after the other effects of the ability resolve. If you obtained a tier 3 outcome, the creature is also [knocked prone](scc:mcdm.heroes.v1/condition/prone) after being pushed. This replaces the benefit of Thundering I.
+> **Thundering II:** Whenever you deal [rolled damage](scc:mcdm.heroes.v1/rule.damage/rolled-damage) to a creature using this weapon, you can [push](scc:mcdm.heroes.v1/movement/forced-movement) that creature up to 3 squares after the other effects of the ability resolve. If you obtained a tier 3 outcome, the creature is also [knocked prone](scc:mcdm.heroes.v1/condition/prone) after being [pushed](scc:mcdm.heroes.v1/movement/forced-movement). This replaces the benefit of Thundering I.
 >
 > **Vengeance II:** Whenever you use a damage-dealing ability using this weapon against a creature who has dealt damage to you since the end of your last [turn](scc:mcdm.heroes.v1/rule.combat/turn), the ability deals an extra 4 damage. This replaces the benefit of Vengeance I.
 
@@ -160,7 +160,7 @@ A hero who has a kit that uses unarmed [strikes](scc:mcdm.heroes.v1/rule.combat/
 >
 > **Terrifying III:** Whenever you damage a creature with an ability using this weapon and obtain a tier 3 outcome, that creature takes 6 psychic damage and is [frightened](scc:mcdm.heroes.v1/condition/frightened) (save ends). This replaces the benefit of Terrifying II.
 >
-> **Thundering III:** Whenever you deal [rolled damage](scc:mcdm.heroes.v1/rule.damage/rolled-damage) to a creature using this weapon, you can vertical push that creature up to 5 squares and knock them [prone](scc:mcdm.heroes.v1/condition/prone) after the other effects of the ability resolve. If the creature takes or deals damage as a result of this movement, they also take 5 thunder damage. This replaces the benefit of Thundering II.
+> **Thundering III:** Whenever you deal [rolled damage](scc:mcdm.heroes.v1/rule.damage/rolled-damage) to a creature using this weapon, you can vertical [push](scc:mcdm.heroes.v1/movement/forced-movement) that creature up to 5 squares and knock them [prone](scc:mcdm.heroes.v1/condition/prone) after the other effects of the ability resolve. If the creature takes or deals damage as a result of this movement, they also take 5 thunder damage. This replaces the benefit of Thundering II.
 >
 > **Vengeance III:** Whenever you use a damage-dealing ability using this weapon against a creature who has dealt damage to you since the end of your last [turn](scc:mcdm.heroes.v1/rule.combat/turn), the ability deals an extra 6 damage. This replaces the benefit of Vengeance II.
 >

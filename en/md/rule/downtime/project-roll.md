@@ -18,7 +18,7 @@ Since [project rolls](scc:mcdm.heroes.v1/rule.downtime/project-roll) don't use s
 
 #### Skills and Project Rolls
 
-You can apply skills from either the crafting or lore skill groups to [project rolls](scc:mcdm.heroes.v1/rule.downtime/project-roll) that directly relate to a downtime project (see Skills in Chapter 9: [Tests](scc:mcdm.heroes.v1/chapter/tests)). For example, you could use the Tailoring skill for [project rolls](scc:mcdm.heroes.v1/rule.downtime/project-roll) related to making a magic cloak, and you could use the History skill while attempting to research the location of an ancient battle where a magic crown was lost. At the Director's discretion, you can also use skills from other skill groups, but a skill used for a [project roll](scc:mcdm.heroes.v1/rule.downtime/project-roll) must be directly related to the project.
+You can apply skills from either the [crafting](scc:mcdm.heroes.v1/skill.crafting/crafting) or [lore](scc:mcdm.heroes.v1/skill.lore/lore) skill groups to [project rolls](scc:mcdm.heroes.v1/rule.downtime/project-roll) that directly relate to a downtime project (see Skills in Chapter 9: [Tests](scc:mcdm.heroes.v1/chapter/tests)). For example, you could use the Tailoring skill for [project rolls](scc:mcdm.heroes.v1/rule.downtime/project-roll) related to making a magic cloak, and you could use the History skill while attempting to research the location of an ancient battle where a magic crown was lost. At the Director's discretion, you can also use skills from other skill groups, but a skill used for a [project roll](scc:mcdm.heroes.v1/rule.downtime/project-roll) must be directly related to the project.
 
 #### Language and Project Rolls
 

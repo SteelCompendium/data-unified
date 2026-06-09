@@ -14,8 +14,8 @@ power_roll_characteristic: '[Might](scc:mcdm.heroes.v1/rule.character/might)'
 scc: mcdm.heroes.v1/feature.ability.fury.level-1/back
 target: Each enemy in the area
 tier1: 5 damage
-tier2: 8 damage; push 1
-tier3: 11 damage; push 3
+tier2: 8 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 1
+tier3: 11 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 3
 type: ability
 ---
 
@@ -29,5 +29,5 @@ type: ability
 **[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc:mcdm.heroes.v1/rule.character/might):**
 
 - **≤11:** 5 damage
-- **12-16:** 8 damage; push 1
-- **17+:** 11 damage; push 3
+- **12-16:** 8 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 1
+- **17+:** 11 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 3
