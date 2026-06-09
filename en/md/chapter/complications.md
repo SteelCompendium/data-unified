@@ -1,6 +1,6 @@
 ---
 name: Complications
-order: 10
+order: 8
 scc: mcdm.heroes.v1/chapter/complications
 type: chapter
 ---

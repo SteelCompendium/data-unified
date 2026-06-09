@@ -8,7 +8,7 @@ Like [trinkets](scc:mcdm.heroes.v1/rule.treasure/trinket), leveled treasures can
 
 #### Leveled Benefits
 
-Each [leveled treasure](scc:mcdm.heroes.v1/rule.treasure/leveled-treasure) has benefits that you gain at 1st, 5th, and 9th levels. You can't use a treasure's benefit until you achieve the appropriate benefits level. [Leveled benefits](scc:mcdm.heroes.v1/chapter/treasures) are cumulative.
+Each [leveled treasure](scc:mcdm.heroes.v1/rule.treasure/leveled-treasure) has benefits that you gain at 1st, 5th, and 9th levels. You can't use a treasure's benefit until you achieve the appropriate benefits level. [Leveled benefits](scc:mcdm.heroes.v1/chapter/rewards) are cumulative.
 
 #### Carry Three Safely
 

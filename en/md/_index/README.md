@@ -3,7 +3,7 @@
 - [Ability](ability.md) (597 items)
 - [Ancestry](ancestry.md) (12 items)
 - [Career](career.md) (18 items)
-- [Chapter](chapter.md) (29 items)
+- [Chapter](chapter.md) (24 items)
 - [Class](class.md) (10 items)
 - [Complication](complication.md) (100 items)
 - [Condition](condition.md) (9 items)
@@ -26,4 +26,4 @@
 - [Trait](trait.md) (94 items)
 - [Treasure](treasure.md) (114 items)
 
-Total items: 2735
+Total items: 2730

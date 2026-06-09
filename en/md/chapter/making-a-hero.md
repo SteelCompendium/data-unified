@@ -72,7 +72,7 @@ Choose or create your hero's culture. Although ancestry gives your hero any numb
 
 #### 4. Career
 
-Choose your hero's career, which describes what you did for a living before you became a hero. A career provides you with skills, an inciting incident that precipitated your adventuring career, and a perk that lets you customize your hero. It might also grant you languages, [Renown](scc:mcdm.heroes.v1/rule.resource/renown), wealth, or the potential to undertake crafting and research. See [Careers](scc:mcdm.heroes.v1/chapter/careers) in Chapter 4: [Background](scc:mcdm.heroes.v1/chapter/background) for more information.
+Choose your hero's career, which describes what you did for a living before you became a hero. A career provides you with skills, an inciting incident that precipitated your adventuring career, and a perk that lets you customize your hero. It might also grant you languages, [Renown](scc:mcdm.heroes.v1/rule.resource/renown), wealth, or the potential to undertake crafting and research. See [Careers](scc:mcdm.heroes.v1/chapter/background) in Chapter 4: [Background](scc:mcdm.heroes.v1/chapter/background) for more information.
 
 > **I Speak Their Language**
 >

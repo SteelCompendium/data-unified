@@ -1,14 +1,12 @@
 # Chapter Index
 
-Total: 29
+Total: 24
 
 - [Ancestries](../chapter/ancestries.md)
 - [Background](../chapter/background.md)
-- [Careers](../chapter/careers.md)
 - [Classes](../chapter/classes.md)
 - [Combat](../chapter/combat.md)
 - [Complications](../chapter/complications.md)
-- [Culture](../chapter/cultures.md)
 - [Downtime Projects](../chapter/downtime-projects.md)
 - [Dynamic Terrain](../chapter/dynamic-terrain.md)
 - [For the Director](../chapter/for-the-director.md)
@@ -24,10 +22,7 @@ Total: 29
 - [Retainers](../chapter/retainers.md)
 - [Rewards](../chapter/rewards.md)
 - [Rewards](../chapter/rewards.md)
-- [Skills](../chapter/skills.md)
 - [Tests](../chapter/tests.md)
 - [The Basics](../chapter/the-basics.md)
 - [The Beastheart & The Faeries](../chapter/the-beastheart-and-the-faeries.md)
 - [The Beastheart Class](../chapter/the-beastheart-class.md)
-- [Titles](../chapter/titles.md)
-- [Treasures](../chapter/treasures.md)

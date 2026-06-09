@@ -1,6 +1,6 @@
 ---
 name: Negotiation
-order: 14
+order: 11
 scc: mcdm.heroes.v1/chapter/negotiation
 type: chapter
 ---

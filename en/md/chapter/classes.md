@@ -1,6 +1,6 @@
 ---
 name: Classes
-order: 7
+order: 5
 scc: mcdm.heroes.v1/chapter/classes
 type: chapter
 ---

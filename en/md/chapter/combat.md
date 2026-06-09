@@ -1,6 +1,6 @@
 ---
 name: Combat
-order: 13
+order: 10
 scc: mcdm.heroes.v1/chapter/combat
 type: chapter
 ---

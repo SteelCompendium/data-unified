@@ -127,7 +127,7 @@ Whenever you see a rule or game term in the glossary index underlined in cross-r
 
 **[Argument](scc:mcdm.heroes.v1/chapter/negotiation):** A plea the heroes make during a negotiation to convince one or more [NPCs](scc:mcdm.heroes.v1/rule.general/npc) to work with them.
 
-**[Artifact](scc:mcdm.heroes.v1/chapter/treasures):** A powerful treasure that can unbalance the game.
+**[Artifact](scc:mcdm.heroes.v1/chapter/rewards):** A powerful treasure that can unbalance the game.
 
 **[Artisan](scc:mcdm.heroes.v1/career/artisan):** A [follower](scc:mcdm.heroes.v1/rule.general/follower) who undertakes [crafting projects](scc:mcdm.heroes.v1/rule.downtime/crafting-project) for a hero.
 
@@ -149,7 +149,7 @@ Whenever you see a rule or game term in the glossary index underlined in cross-r
 
 **[Capital](scc:mcdm.heroes.v1/rule.world/capital):** The largest city in [Orden](scc:mcdm.heroes.v1/rule.world/orden), filled with art, culture, and intrigue.
 
-**[Career](scc:mcdm.heroes.v1/chapter/careers):** The job a hero had before becoming a hero.
+**[Career](scc:mcdm.heroes.v1/chapter/background):** The job a hero had before becoming a hero.
 
 **[Catch Breath](scc:mcdm.heroes.v1/feature.common.maneuvers/catch-breath) Maneuver:** A maneuver that allows a hero to spend a [Recovery](scc:mcdm.heroes.v1/rule.health/recoveries) and regain [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) equal to their [recovery value](scc:mcdm.heroes.v1/rule.health/recoveries).
 
@@ -195,7 +195,7 @@ Whenever you see a rule or game term in the glossary index underlined in cross-r
 
 **[Cube](scc:mcdm.heroes.v1/rule.combat/cube):** When an ability or other effect creates a [cube](scc:mcdm.heroes.v1/rule.combat/cube), that area is expressed as "X [cube](scc:mcdm.heroes.v1/rule.combat/cube)." The number X is the length of each of the area's sides. A [cube](scc:mcdm.heroes.v1/rule.combat/cube) effect might last only as long as it takes to affect its targets, or it might have a duration specified by the effect.
 
-**[Culture](scc:mcdm.heroes.v1/chapter/cultures):** The community in which a hero was raised.
+**[Culture](scc:mcdm.heroes.v1/chapter/background):** The community in which a hero was raised.
 
 **d3:** A three-sided die, often rolled using a d6.
 
@@ -487,7 +487,7 @@ Whenever you see a rule or game term in the glossary index underlined in cross-r
 
 **[Size](scc:mcdm.heroes.v1/rule.character/size):** An indication of a creature's space and their overall weight and height relative to other creatures.
 
-**[Skill](scc:mcdm.heroes.v1/chapter/skills):** Special knowledge or training that can be applied to a [test](scc:mcdm.heroes.v1/rule.test/test). When a skill applies to a [test](scc:mcdm.heroes.v1/rule.test/test), it grants a +2 [bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to the [power roll](scc:mcdm.heroes.v1/rule.dice/power-roll).
+**[Skill](scc:mcdm.heroes.v1/chapter/tests):** Special knowledge or training that can be applied to a [test](scc:mcdm.heroes.v1/rule.test/test). When a skill applies to a [test](scc:mcdm.heroes.v1/rule.test/test), it grants a +2 [bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to the [power roll](scc:mcdm.heroes.v1/rule.dice/power-roll).
 
 **[Slide](scc:mcdm.heroes.v1/movement/forced-movement):** A form of [forced movement](scc:mcdm.heroes.v1/movement/forced-movement) that slides a target in any direction, moving them along any horizontal line.
 
@@ -543,13 +543,13 @@ Whenever you see a rule or game term in the glossary index underlined in cross-r
 
 **[Tier 3](scc:mcdm.heroes.v1/rule.dice/tier-outcome):** The best [tier outcome](scc:mcdm.heroes.v1/rule.dice/tier-outcome) of a [power roll](scc:mcdm.heroes.v1/rule.dice/power-roll) (other than a [critical hit](scc:mcdm.heroes.v1/rule.combat/critical-hit)), achieved when the total of the roll is 17 or higher.
 
-**[Title](scc:mcdm.heroes.v1/chapter/titles):** A special reward that a hero can earn while adventuring, and which grants benefits or new abilities.
+**[Title](scc:mcdm.heroes.v1/chapter/rewards):** A special reward that a hero can earn while adventuring, and which grants benefits or new abilities.
 
 **[Time Raider](scc:mcdm.heroes.v1/ancestry/time-raider):** An ancestry of four-armed psionic folk with ocular sensors instead of eyes.
 
 **[Timescape](scc:mcdm.heroes.v1/rule.world/orden):** A multiverse of worlds, also known as manifolds, connected by the Sea of Stars.
 
-**[Treasure](scc:mcdm.heroes.v1/chapter/treasures):** A piece of [supernatural](scc:mcdm.heroes.v1/rule.general/supernatural) equipment, from weapons and armor to [implements](scc:mcdm.heroes.v1/rule.treasure/implement) and more.
+**[Treasure](scc:mcdm.heroes.v1/chapter/rewards):** A piece of [supernatural](scc:mcdm.heroes.v1/rule.general/supernatural) equipment, from weapons and armor to [implements](scc:mcdm.heroes.v1/rule.treasure/implement) and more.
 
 **[Triggered Action](scc:mcdm.heroes.v1/rule.combat/triggered-action):** An action a creature can use on any [turn](scc:mcdm.heroes.v1/rule.combat/turn), including their own, but only when a specific trigger occurs. Each creature can use one triggered action per round.
 
