@@ -52,6 +52,8 @@ Slowly everyone assembled could make out the sounds of a conversation, quiet wit
 
 Suddenly, the images became three dimensional, solid, and seven heroes stood among them. A [human](scc:mcdm.heroes.v1/ancestry/human) in working battle plate. A [dwarf](scc:mcdm.heroes.v1/ancestry/dwarf) with his battle-staff tipped with an hourglass. An [orc](scc:mcdm.heroes.v1/ancestry/orc) with a huge battleaxe casually resting on her shoulder. A [polder](scc:mcdm.heroes.v1/ancestry/polder) with twin rapiers in his hands. A tall willowy [high elf](scc:mcdm.heroes.v1/ancestry/high-elf) with night-black skin and golden hair. An unarmed [hakaan](scc:mcdm.heroes.v1/ancestry/hakaan) towering over everyone. And a [dragon knight](scc:mcdm.heroes.v1/ancestry/dragon-knight). Of all the motley band, it was the [dragon knight](scc:mcdm.heroes.v1/ancestry/dragon-knight) who caused the people of the town to gasp. Even at a distance, even with the war dogs between them, they recognized the device of Good King Omund on the knight's shield.
 
+
+
 The war dogs scrambled. For a moment, it seemed they might flee at this sudden intrusion, but the taxiarch bellowed "Hold fast!" and they held their ground, uncertainty over the unknown threat of a band of heroes battling in each of them against the certain fear of their commander.
 
 The [hakaan](scc:mcdm.heroes.v1/ancestry/hakaan) looked around and saw a clump of villagers watching the scene from a distance, gathered around what looked like some stables. He waved. "Hello!" he said, smiling.
