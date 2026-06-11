@@ -37,6 +37,6 @@ This near-pure form of autonomous essence just barely maintains their form. They
 
 > ⭐️ **Catalyst**
 >
-> Once per turn, the mote can transform into an adjacent allied signature minion, maintaining their current Stamina. The minion must be reassigned to a new squad if their new name differs from the other squad members.
+> Once per turn, the mote can transform into an adjacent allied [signature minion](scc:mcdm.summoner.v1/feature.summoner.level-1/minions), maintaining their current Stamina. The minion must be reassigned to a new squad if their new name differs from the other squad members.
 >
-> Alternatively, you can spend 1 essence to transform the mote into any signature minion in the elemental portfolio you don't have, as if you summoned the new minion into the mote's space.
+> Alternatively, you can spend 1 essence to transform the mote into any [signature minion](scc:mcdm.summoner.v1/feature.summoner.level-1/minions) in the elemental portfolio you don't have, as if you summoned the new minion into the mote's space.

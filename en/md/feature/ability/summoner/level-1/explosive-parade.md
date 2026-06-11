@@ -12,9 +12,9 @@ name: Explosive Parade
 power_roll_characteristic: Reason
 scc: mcdm.summoner.v1/feature.ability.summoner.level-1/explosive-parade
 target: Special
-tier1: You summon four signature minions.
-tier2: You summon five signature minions.
-tier3: You summon six signature minions.
+tier1: You summon four [signature minions](scc:mcdm.summoner.v1/feature.summoner.level-1/minions).
+tier2: You summon five [signature minions](scc:mcdm.summoner.v1/feature.summoner.level-1/minions).
+tier3: You summon six [signature minions](scc:mcdm.summoner.v1/feature.summoner.level-1/minions).
 type: ability
 ---
 
@@ -26,9 +26,9 @@ type: ability
 
 **Power Roll + Reason:**
 
-- **≤11:** You summon four signature minions.
-- **12-16:** You summon five signature minions.
-- **17+:** You summon six signature minions.
+- **≤11:** You summon four [signature minions](scc:mcdm.summoner.v1/feature.summoner.level-1/minions).
+- **12-16:** You summon five [signature minions](scc:mcdm.summoner.v1/feature.summoner.level-1/minions).
+- **17+:** You summon six [signature minions](scc:mcdm.summoner.v1/feature.summoner.level-1/minions).
 
 **Effect:** The [minions](scc:mcdm.summoner.v1/feature.summoner.level-1/minions) are summoned within distance regardless of your minion maximum and without organizing them into squads. Each newly summoned [minion](scc:mcdm.summoner.v1/feature.summoner.level-1/minions) immediately moves up to their [speed](scc:mcdm.heroes.v1/rule.character/speed) toward a creature or object.
 

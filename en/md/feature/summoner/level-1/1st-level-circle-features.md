@@ -12,7 +12,7 @@ Your circle grants you features as shown on the 1st-Level Summoner Circle Featur
 
 | Circle | Feature |
 |--------|---------|
-| Blight | Death Snap, Soulsense |
-| Graves | Dead Men Tell All Tales, Rise! |
-| Spring | Fairy Whispers, Pixie Dust |
-| Storms | Elemental Affinity, Heart of Nature |
+| Blight | [Death Snap](scc:mcdm.summoner.v1/feature.summoner.level-1/death-snap), [Soulsense](scc:mcdm.summoner.v1/feature.summoner.level-1/soulsense) |
+| Graves | [Dead Men Tell All Tales](scc:mcdm.summoner.v1/feature.summoner.level-1/dead-men-tell-all-tales), [Rise!](scc:mcdm.summoner.v1/feature.summoner.level-1/rise) |
+| Spring | [Fairy Whispers](scc:mcdm.summoner.v1/feature.summoner.level-1/fairy-whispers), [Pixie Dust](scc:mcdm.summoner.v1/feature.summoner.level-1/pixie-dust) |
+| Storms | [Elemental Affinity](scc:mcdm.summoner.v1/feature.summoner.level-1/elemental-affinity), [Heart of Nature](scc:mcdm.summoner.v1/feature.summoner.level-1/heart-of-nature) |

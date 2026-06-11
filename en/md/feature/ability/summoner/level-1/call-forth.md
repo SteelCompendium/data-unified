@@ -2,7 +2,7 @@
 action_type: Main action
 class: summoner
 distance: Summoner's Range
-effect: 'You summon one or more minions from your portfolio into unoccupied spaces within distance. Choose one of the following options:'
+effect: 'You summon one or more minions from your [portfolio](scc:mcdm.summoner.v1/feature.summoner.level-1/portfolio) into unoccupied spaces within distance. Choose one of the following options:'
 flavor: My power is yours, and yours, mine. I summon thee.
 keywords:
     - Magic
@@ -20,8 +20,8 @@ type: ability
 |-------------------------|----------------:|
 | **📏 Summoner's Range** |     **🎯 Self** |
 
-**Effect:** You summon one or more minions from your portfolio into unoccupied spaces within distance. Choose one of the following options:
+**Effect:** You summon one or more minions from your [portfolio](scc:mcdm.summoner.v1/feature.summoner.level-1/portfolio) into unoccupied spaces within distance. Choose one of the following options:
 
-**Signature Minions:** You summon one signature minion for each essence you spend on this ability.
+**Signature Minions:** You summon one [signature minion](scc:mcdm.summoner.v1/feature.summoner.level-1/minions) for each essence you spend on this ability.
 
 **All Other Minions:** You summon the set number of minions listed on the stat block for their essence cost.
