@@ -1,0 +1,7 @@
+---
+name: The Summoner Class
+order: 1
+scc: mcdm.summoner.v1/chapter/the-summoner-class
+type: chapter
+---
+

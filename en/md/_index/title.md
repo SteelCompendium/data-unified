@@ -1,6 +1,6 @@
 # Title Index
 
-Total: 61
+Total: 67
 
 - [Ancient Loremaster](../title/ancient-loremaster.md)
 - [Arena Fighter](../title/arena-fighter.md)
@@ -14,6 +14,7 @@ Total: 61
 - [Champion Competitor](../title/champion-competitor.md)
 - [City Rat](../title/city-rat.md)
 - [Corsair](../title/corsair.md)
+- [Delegator](../title/delegator.md)
 - [Demigod](../title/demigod.md)
 - [Demon Slayer](../title/demon-slayer.md)
 - [Diabolist](../title/diabolist.md)
@@ -31,6 +32,7 @@ Total: 61
 - [Giant Slayer](../title/giant-slayer.md)
 - [Godsworn](../title/godsworn.md)
 - [Heist Hero](../title/heist-hero.md)
+- [High Summoner of the Circle](../title/high-summoner-of-the-circle.md)
 - [Knight](../title/knight.md)
 - [Local Hero](../title/local-hero.md)
 - [Maestro](../title/maestro.md)
@@ -47,12 +49,16 @@ Total: 61
 - [Presumed Dead](../title/presumed-dead.md)
 - [Ratcatcher](../title/ratcatcher.md)
 - [Reborn](../title/reborn.md)
+- [Ringleader](../title/ringleader.md)
+- [Safeguarded](../title/safeguarded.md)
 - [Saved for a Worse Fate](../title/saved-for-a-worse-fate.md)
 - [Scarred](../title/scarred.md)
 - [Ship Captain](../title/ship-captain.md)
 - [Siege Breaker](../title/siege-breaker.md)
+- [Sigilwright](../title/sigilwright.md)
 - [Special Agent](../title/special-agent.md)
 - [Stronghold](../title/stronghold.md)
+- [Summoner Successor](../title/summoner-successor.md)
 - [Sworn Hunter](../title/sworn-hunter.md)
 - [Teacher](../title/teacher.md)
 - [Theoretical Warrior](../title/theoretical-warrior.md)

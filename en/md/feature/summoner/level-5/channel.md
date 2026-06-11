@@ -1,0 +1,13 @@
+---
+class: summoner
+level: "5"
+name: Channel
+scc: mcdm.summoner.v1/feature.summoner.level-5/channel
+type: feature
+---
+
+You can spend 1 uninterrupted minute to perform a ritual and use your body as a host for a willing spirit of a creature who died in the area. While hosting the spirit, you have access to their memories of the 24 hours leading up to their death and any skills they knew in life. You can also magically change your appearance to look like them while they were alive.
+
+You can attempt to stop channeling the spirit at any time. If the spirit is hostile to you or you've hosted them for at least 1 hour, you must make a medium [Presence](scc:mcdm.heroes.v1/rule.character/presence) [test](scc:mcdm.heroes.v1/rule.test/test). On success, the spirit leaves your body. On failure, you become fully possessed by a haunt; you have no access to your skills and you can't get above a tier 2 result on [power rolls](scc:mcdm.heroes.v1/rule.dice/power-roll) until you exorcise the haunt either by completing the [Find a Cure](scc:mcdm.heroes.v1/project/find-a-cure) downtime project in Draw Steel: Heroes or taking a [respite](scc:mcdm.heroes.v1/rule.resource/respite) with an exorcist.
+
+After you stop channeling their spirit, you can't use this feature to channel the same creature again.

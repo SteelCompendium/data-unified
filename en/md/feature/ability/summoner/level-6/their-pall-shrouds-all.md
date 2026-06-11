@@ -1,0 +1,28 @@
+---
+action_type: Maneuver
+class: summoner
+distance: 4 burst
+effect: You can use this ability as if in the space of one of your minions within your Summoner's Range.
+flavor: Your champion fills the area with a thick haze hiding friend from foe.
+keywords:
+    - Area
+    - Champion
+    - Magic
+level: "6"
+name: Their Pall Shrouds All
+scc: mcdm.summoner.v1/feature.ability.summoner.level-6/their-pall-shrouds-all
+target: Each enemy in the area
+type: ability
+---
+
+*Your champion fills the area with a thick haze hiding friend from foe.*
+
+| **Area, Champion, Magic** | **Maneuver** |
+|---------------------------|-------------:|
+| **📏 4 burst** | **🎯 Each enemy in the area** |
+
+**Effect:** You can use this ability as if in the space of one of your minions within your Summoner's Range.
+
+Each target is R < AVERAGE [weakened](scc:mcdm.heroes.v1/condition/weakened) ([save ends](scc:mcdm.heroes.v1/rule.general/saving-throw)).
+
+Until the end of the encounter, whenever a target gets a [tier](scc:mcdm.heroes.v1/rule.dice/tier-outcome) 1 result on a [strike](scc:mcdm.heroes.v1/rule.combat/strike), they deal half [damage](scc:mcdm.heroes.v1/rule.damage/damage). If a target was striking a creature [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to one of their allies, they target their ally instead.

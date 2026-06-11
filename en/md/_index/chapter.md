@@ -1,6 +1,6 @@
 # Chapter Index
 
-Total: 24
+Total: 29
 
 - [Ancestries](../chapter/ancestries.md)
 - [Background](../chapter/background.md)
@@ -17,12 +17,17 @@ Total: 24
 - [Monster Basics](../chapter/monster-basics.md)
 - [Monsters](../chapter/monsters.md)
 - [Negotiation](../chapter/negotiation.md)
+- [Other Summoners](../chapter/other-summoners.md)
 - [Perks](../chapter/perks.md)
 - [Perks](../chapter/perks.md)
 - [Retainers](../chapter/retainers.md)
 - [Rewards](../chapter/rewards.md)
 - [Rewards](../chapter/rewards.md)
+- [Rewards](../chapter/rewards.md)
+- [Summoner Advice](../chapter/summoner-advice.md)
 - [Tests](../chapter/tests.md)
 - [The Basics](../chapter/the-basics.md)
 - [The Beastheart & The Faeries](../chapter/the-beastheart-and-the-faeries.md)
 - [The Beastheart Class](../chapter/the-beastheart-class.md)
+- [The Summoner](../chapter/the-summoner.md)
+- [The Summoner Class](../chapter/the-summoner-class.md)

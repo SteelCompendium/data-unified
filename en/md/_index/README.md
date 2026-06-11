@@ -1,15 +1,15 @@
 # Content Index
 
-- [Ability](ability.md) (597 items)
+- [Ability](ability.md) (623 items)
 - [Ancestry](ancestry.md) (12 items)
 - [Career](career.md) (18 items)
-- [Chapter](chapter.md) (24 items)
-- [Class](class.md) (10 items)
+- [Chapter](chapter.md) (29 items)
+- [Class](class.md) (11 items)
 - [Complication](complication.md) (100 items)
 - [Condition](condition.md) (9 items)
 - [Culture](culture.md) (13 items)
 - [Dynamic-terrain](dynamic-terrain.md) (35 items)
-- [Feature](feature.md) (781 items)
+- [Feature](feature.md) (871 items)
 - [Feature-group](feature-group.md) (14 items)
 - [Featureblock](featureblock.md) (64 items)
 - [God](god.md) (9 items)
@@ -22,9 +22,9 @@
 - [Rule](rule.md) (109 items)
 - [Skill](skill.md) (57 items)
 - [Skill-group](skill-group.md) (5 items)
-- [Statblock](statblock.md) (437 items)
-- [Title](title.md) (61 items)
+- [Statblock](statblock.md) (517 items)
+- [Title](title.md) (67 items)
 - [Trait](trait.md) (94 items)
-- [Treasure](treasure.md) (114 items)
+- [Treasure](treasure.md) (127 items)
 
-Total items: 2735
+Total items: 2956

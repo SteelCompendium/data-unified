@@ -1,16 +1,20 @@
 ---
 name: Rewards
 order: 2
-scc: mcdm.beastheart.v1/chapter/rewards
+scc: mcdm.summoner.v1/chapter/rewards
 type: chapter
 ---
 
-The following sections provide new trinkets and leveled treasures for a beastheart and their companion.
+Unless otherwise stated, the following treasures and titles can be wielded by a [summoner](scc:mcdm.summoner.v1/class/summoner) or any hero who comes upon one.
 
-## Trinkets
+## New Trinkets
 
-This section presents new trinket treasures for a beastheart and their companion in order of echelon.
+The following new [trinkets](scc:mcdm.heroes.v1/rule.treasure/trinket) are available to add to your game.
 
-## Leveled Treasures
+## New Leveled Treasures
 
-This section presents new leveled treasures for a beastheart and their companion.
+The following new [leveled treasures](scc:mcdm.heroes.v1/rule.treasure/leveled-treasure) are available to add to your game.
+
+## New Titles
+
+The following titles are available to add to your game.
