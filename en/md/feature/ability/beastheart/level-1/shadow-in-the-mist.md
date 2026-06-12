@@ -2,7 +2,7 @@
 action_type: Triggered Action
 class: beastheart
 distance: Self
-effect: You become invisible until the end of your next turn or you deal damage. You can then use the [Hide](scc:mcdm.heroes.v1/skill/hide) maneuver even if you are observed and can move up to a number of squares equal to your Intuition score before or after using that maneuver.
+effect: You become invisible until the end of your next turn or you deal damage. You can then use the [Hide](scc:mcdm.heroes.v1/skill.intrigue/hide) maneuver even if you are observed and can move up to a number of squares equal to your Intuition score before or after using that maneuver.
 flavor: While everyone's eyes are drawn to your foe, you wreathe yourself in obscuring mist.
 keywords:
     - Magic
@@ -24,6 +24,6 @@ type: ability
 
 **Trigger:** An enemy within 10 squares deals damage to a creature other than you.
 
-**Effect:** You become invisible until the end of your next turn or you deal damage. You can then use the [Hide](scc:mcdm.heroes.v1/skill/hide) maneuver even if you are observed and can move up to a number of squares equal to your Intuition score before or after using that maneuver.
+**Effect:** You become invisible until the end of your next turn or you deal damage. You can then use the [Hide](scc:mcdm.heroes.v1/skill.intrigue/hide) maneuver even if you are observed and can move up to a number of squares equal to your Intuition score before or after using that maneuver.
 
 **Spend 1 Ferocity:** You can move up to a number of squares equal to twice your Intuition score and ignore [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain) during this movement.

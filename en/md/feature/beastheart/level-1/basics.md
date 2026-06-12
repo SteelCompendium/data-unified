@@ -24,7 +24,7 @@ type: feature
 
 **Recoveries:** 12
 
-**Skills:** You gain the [Animal Handling](scc:mcdm.heroes.v1/skill/handle-animals) skill. Then choose any two skills from the exploration or intrigue skill groups. (*Quick Build:* [Animal Handling](scc:mcdm.heroes.v1/skill/handle-animals), [Navigate](scc:mcdm.heroes.v1/skill/navigate), [Track](scc:mcdm.heroes.v1/skill/track).)
+**Skills:** You gain the [Animal Handling](scc:mcdm.heroes.v1/skill.interpersonal/handle-animals) skill. Then choose any two skills from the exploration or intrigue skill groups. (*Quick Build:* [Animal Handling](scc:mcdm.heroes.v1/skill.interpersonal/handle-animals), [Navigate](scc:mcdm.heroes.v1/skill.exploration/navigate), [Track](scc:mcdm.heroes.v1/skill.intrigue/track).)
 
 ###### Beastheart Advancement Table
 
