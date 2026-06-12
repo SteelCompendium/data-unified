@@ -86,4 +86,4 @@ type: statblock
 > |----------------|----------------:|
 > | **📏 Special** |  **🎯 Special** |
 >
-> **Effect:** The guide applies poison to their weapon. The next time the guide obtains a tier 2 or tier 3 outcome on a weapon strike, the strike deals an extra 10 poison damage, and if the target has M <v, they are weakened (save ends). If the guide is adjacent to their mentor when they use Poison Blade, they apply poison to the mentor's weapon in the same way.
+> **Effect:** The guide applies poison to their weapon. The next time the guide obtains a tier 2 or tier 3 outcome on a weapon strike, the strike deals an extra 10 poison damage, and if the target has M < AVERAGE, they are weakened (save ends). If the guide is adjacent to their mentor when they use Poison Blade, they apply poison to the mentor's weapon in the same way.

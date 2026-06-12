@@ -58,9 +58,9 @@ type: statblock
 >
 > **Power Roll + highest characteristic:**
 >
-> - **≤11:** 5 damage; M <w, prone
-> - **12-16:** 9 damage; M <v, prone
-> - **17+:** 12 damage; M <s, prone
+> - **≤11:** 5 damage; M < WEAK, prone
+> - **12-16:** 9 damage; M < AVERAGE, prone
+> - **17+:** 12 damage; M < STRONG, prone
 >
 > **Effect:** The hopper can jump up to their speed in a straight line before the strike without provoking opportunity attacks. If they jump 2 or more squares this way, they gain 1 surge.
 
