@@ -1,8 +1,11 @@
 ---
-keywords:
-    - '**Stamina:** 20 + your level'
 name: Primordial Crystal
+role: Artillery
 scc: mcdm.summoner.v1/fixture.elemental.statblock/primordial-crystal
+size: "2"
+stamina: 20 + your level
+statblock_kind: fixture
+terrain_type: Relic
 type: statblock
 ---
 

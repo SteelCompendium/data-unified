@@ -1,8 +1,11 @@
 ---
-keywords:
-    - '**Stamina:** 20 + your level'
 name: Glade Pond
+role: Ambusher
 scc: mcdm.summoner.v1/fixture.fey.statblock/glade-pond
+size: "2"
+stamina: 20 + your level
+statblock_kind: fixture
+terrain_type: Hazard
 type: statblock
 ---
 

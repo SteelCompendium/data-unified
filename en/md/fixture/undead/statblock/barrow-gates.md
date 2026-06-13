@@ -1,8 +1,11 @@
 ---
-keywords:
-    - '**Stamina:** 20 + your level'
 name: Barrow Gates
+role: Defender
 scc: mcdm.summoner.v1/fixture.undead.statblock/barrow-gates
+size: "2"
+stamina: 20 + your level
+statblock_kind: fixture
+terrain_type: Fortification
 type: statblock
 ---
 

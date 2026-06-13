@@ -1,8 +1,11 @@
 ---
-keywords:
-    - '**Stamina:** 20 + your level'
 name: The Boil
+role: Support
 scc: mcdm.summoner.v1/fixture.demon.statblock/the-boil
+size: "2"
+stamina: 20 + your level
+statblock_kind: fixture
+terrain_type: Hazard
 type: statblock
 ---
 
