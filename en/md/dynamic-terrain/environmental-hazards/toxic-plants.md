@@ -3,7 +3,7 @@ features:
     - body: Each square of plants must be individually destroyed.
       icon: "\U0001F300"
       name: Deactivate
-    - body: A creature starts their turn in the area of the toxic plants, or enters a square of toxic plants without shifting.
+    - body: A creature starts their turn in the area of the toxic plants, or enters a square of toxic plants without [shifting](scc:mcdm.heroes.v1/movement/shifting).
       icon: ❕
       name: Activate
       sections:
@@ -19,20 +19,20 @@ features:
       power_roll:
         formula: + 2
         tiers:
-            high: M < 2 dazed (save ends)
-            low: M < 0 dazed (save ends)
-            mid: M < 1 dazed (save ends)
+            high: M < 2 [dazed](scc:mcdm.heroes.v1/condition/dazed) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
+            low: M < 0 [dazed](scc:mcdm.heroes.v1/condition/dazed) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
+            mid: M < 1 [dazed](scc:mcdm.heroes.v1/condition/dazed) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
       sections:
         - label: Trigger
-          text: A creature starts their turn in the area of the toxic plants, or enters a square of toxic plants without shifting.
+          text: A creature starts their turn in the area of the toxic plants, or enters a square of toxic plants without [shifting](scc:mcdm.heroes.v1/movement/shifting).
         - label: Effect
-          text: While dazed this way, a target who starts their turn in the area of the toxic plants falls prone and can't stand.
+          text: While [dazed](scc:mcdm.heroes.v1/condition/dazed) this way, a target who starts their turn in the area of the toxic plants falls [prone](scc:mcdm.heroes.v1/condition/prone) and can't stand.
       target: The triggering creature
       usage: Free triggered action
     - body: |-
-        **Poisonous Spores (+2 EV)** Any creature dazed by this hazard takes 1d6 poison damage at the start of each of their turns.
+        **Poisonous Spores (+2 EV)** Any creature [dazed](scc:mcdm.heroes.v1/condition/dazed) by this hazard takes 1d6 poison damage at the start of each of their turns.
 
-        **Carnivorous Plants (+2 EV)** The plants are carnivorous and attempt to slowly digest any creature who falls among them. Any creature who starts their turn prone in the area takes 4 acid damage.
+        **Carnivorous Plants (+2 EV)** The plants are carnivorous and attempt to slowly digest any creature who falls among them. Any creature who starts their turn [prone](scc:mcdm.heroes.v1/condition/prone) in the area takes 4 acid damage.
       icon: ⭐️
       name: Upgrades
 flavor: Colorful mushrooms or lovely flowering plants release a cloud of spores or pollen when disturbed, causing creatures to fall into a magical slumber.
@@ -63,7 +63,7 @@ Colorful mushrooms or lovely flowering plants release a cloud of spores or polle
 
 > ❕ **Activate**
 >
-> A creature starts their turn in the area of the toxic plants, or enters a square of toxic plants without shifting.
+> A creature starts their turn in the area of the toxic plants, or enters a square of toxic plants without [shifting](scc:mcdm.heroes.v1/movement/shifting).
 >
 > **Effect:** The **Sleep Spores** ability.
 
@@ -73,18 +73,18 @@ Colorful mushrooms or lovely flowering plants release a cloud of spores or polle
 > |--------------------------|-------------------------------:|
 > | **📏 Melee 0**           | **🎯 The triggering creature** |
 >
-> **Trigger:** A creature starts their turn in the area of the toxic plants, or enters a square of toxic plants without shifting.
+> **Trigger:** A creature starts their turn in the area of the toxic plants, or enters a square of toxic plants without [shifting](scc:mcdm.heroes.v1/movement/shifting).
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** M < 0 dazed (save ends)
-> - **12-16:** M < 1 dazed (save ends)
-> - **17+:** M < 2 dazed (save ends)
+> - **≤11:** M < 0 [dazed](scc:mcdm.heroes.v1/condition/dazed) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
+> - **12-16:** M < 1 [dazed](scc:mcdm.heroes.v1/condition/dazed) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
+> - **17+:** M < 2 [dazed](scc:mcdm.heroes.v1/condition/dazed) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
 >
-> **Effect:** While dazed this way, a target who starts their turn in the area of the toxic plants falls prone and can't stand.
+> **Effect:** While [dazed](scc:mcdm.heroes.v1/condition/dazed) this way, a target who starts their turn in the area of the toxic plants falls [prone](scc:mcdm.heroes.v1/condition/prone) and can't stand.
 
 > ⭐️ **Upgrades**
 >
-> **Poisonous Spores (+2 EV)** Any creature dazed by this hazard takes 1d6 poison damage at the start of each of their turns.
+> **Poisonous Spores (+2 EV)** Any creature [dazed](scc:mcdm.heroes.v1/condition/dazed) by this hazard takes 1d6 poison damage at the start of each of their turns.
 >
-> **Carnivorous Plants (+2 EV)** The plants are carnivorous and attempt to slowly digest any creature who falls among them. Any creature who starts their turn prone in the area takes 4 acid damage.
+> **Carnivorous Plants (+2 EV)** The plants are carnivorous and attempt to slowly digest any creature who falls among them. Any creature who starts their turn [prone](scc:mcdm.heroes.v1/condition/prone) in the area takes 4 acid damage.

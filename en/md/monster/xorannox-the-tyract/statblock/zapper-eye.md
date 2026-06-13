@@ -28,7 +28,7 @@ type: statblock
 |     **-**<br>Immunity      | **Fly, hover**<br>Movement |         -         | **-**<br>With Captain |   **-**<br>Weakness  |
 |      **-1**<br>Might       |     **+1**<br>Agility      |  **+4**<br>Reason |  **+1**<br>Intuition  |  **-1**<br>Presence  |
 
-> 🔳 **Lightning Beam (Signature Ability)**
+> 🔳 **Lightning Beam ([Signature Ability](scc:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
 > | **Area, Psionic**           |               **Main action** |
 > |-----------------------------|------------------------------:|
@@ -40,7 +40,7 @@ type: statblock
 > - **12-16:** 10 lightning damage
 > - **17+:** 13 lightning damage
 >
-> **Effect:** Each target loses all their surges.
+> **Effect:** Each target loses all their [surges](scc:mcdm.heroes.v1/rule.resource/surge).
 
 > ⭐️ **Psionic Barrier**
 >

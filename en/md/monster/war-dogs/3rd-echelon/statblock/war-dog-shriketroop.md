@@ -29,7 +29,7 @@ with_captain: Gain an edge on strikes
 |      **-**<br>Immunity      | **-**<br>Movement |         -         | **Gain an edge on strikes**<br>With Captain |   **-**<br>Weakness   |
 |       **+1**<br>Might       | **+4**<br>Agility | **+3**<br>Reason  |             **+1**<br>Intuition             |  **+1**<br>Presence   |
 
-> 🏹 **Canis Shrikegun (Signature Ability)**
+> 🏹 **Canis Shrikegun ([Signature Ability](scc:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
 > | **Ranged, Strike, Weapon** |                          **Main action** |
 > |----------------------------|-----------------------------------------:|
@@ -39,10 +39,10 @@ with_captain: Gain an edge on strikes
 >
 > - **≤11:** 4 damage
 > - **12-16:** 7 damage
-> - **17+:** 8 damage; I < 3 the target is frightened of all shriketroops (EoT)
+> - **17+:** 8 damage; I < 3 the target is [frightened](scc:mcdm.heroes.v1/condition/frightened) of all shriketroops (EoT)
 >
 > **Effect:** The target must move their speed in a straight line away from the shriketroop.
 
 > ⭐️ **Loyalty Collar**
 >
-> When the shriketroop is reduced to 0 Stamina, their loyalty collar explodes, dealing 2d6 damage to each adjacent enemy and object.
+> When the shriketroop is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), their loyalty collar explodes, dealing 2d6 damage to each [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) enemy and object.

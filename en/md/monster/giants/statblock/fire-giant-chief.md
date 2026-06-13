@@ -36,8 +36,8 @@ type: statblock
 >
 > **Effect:** Each target makes either an **Agility test** or an **Intuition test**.
 >
-> - **≤11:** 18 fire damage; prone; weakened (save ends)
-> - **12-16:** 14 fire damage; prone
+> - **≤11:** 18 fire damage; [prone](scc:mcdm.heroes.v1/condition/prone); [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
+> - **12-16:** 14 fire damage; [prone](scc:mcdm.heroes.v1/condition/prone)
 > - **17+:** 9 fire damage
 
 > 🗡 **Burning Kick**
@@ -48,11 +48,11 @@ type: statblock
 >
 > **Power Roll + 5:**
 >
-> - **≤11:** 14 damage; push 5; A < 3 9 fire damage
-> - **12-16:** 19 damage; push 10; A < 4 9 fire damage
-> - **17+:** 23 damage; push 15; A < 5 9 fire damage
+> - **≤11:** 14 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 5; A < 3 9 fire damage
+> - **12-16:** 19 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 10; A < 4 9 fire damage
+> - **17+:** 23 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 15; A < 5 9 fire damage
 
-> 🔳 **Lava Pillar (3 Malice)**
+> 🔳 **Lava Pillar (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Area, Ranged**        |                             **Maneuver** |
 > |-------------------------|-----------------------------------------:|
@@ -60,11 +60,11 @@ type: statblock
 >
 > **Power Roll + 5:**
 >
-> - **≤11:** 5 fire damage; M < 3 vertical push 3
-> - **12-16:** 7 fire damage; M < 4 vertical push 4
-> - **17+:** 9 fire damage; M < 5 vertical push 5
+> - **≤11:** 5 fire damage; M < 3 vertical [push](scc:mcdm.heroes.v1/movement/forced-movement) 3
+> - **12-16:** 7 fire damage; M < 4 vertical [push](scc:mcdm.heroes.v1/movement/forced-movement) 4
+> - **17+:** 9 fire damage; M < 5 vertical [push](scc:mcdm.heroes.v1/movement/forced-movement) 5
 
-> ❗️ **Fuel the Fire (1 Malice)**
+> ❗️ **Fuel the Fire (1 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Ranged**       |       **Triggered action** |
 > |------------------|---------------------------:|
@@ -74,23 +74,23 @@ type: statblock
 >
 > **Effect:** The strike has a double edge and deals an extra 10 fire damage.
 
-> ☠️ **Forward! (Villain Action 1)**
+> ☠️ **Forward! ([Villain Action](scc:mcdm.monsters.v1/rule.monster/villain-action) 1)**
 >
 > | **Area**        |                                 **-** |
 > |-----------------|--------------------------------------:|
 > | **📏 10 burst** | **🎯 Self and each ally in the area** |
 >
-> **Effect:** Each target shifts up to their speed and can make a free strike. Any enemy who takes damage from a free strike this way and who has A < 4 is burning (save ends). A burning enemy takes 1d6 fire damage at the start of each of their turns.
+> **Effect:** Each target [shifts](scc:mcdm.heroes.v1/movement/shifting) up to their speed and can make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike). Any enemy who takes damage from a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) this way and who has A < 4 is burning (save ends). A burning enemy takes 1d6 fire damage at the start of each of their turns.
 
-> ☠️ **Burning Legion (Villain Action 2)**
+> ☠️ **Burning Legion ([Villain Action](scc:mcdm.monsters.v1/rule.monster/villain-action) 2)**
 >
 > | **Ranged**       |          **-** |
 > |------------------|---------------:|
 > | **📏 Ranged 15** | **🎯 Special** |
 >
-> **Effect:** The chief shifts up to 10 squares. Five fire giant fireballer then arrive in unoccupied spaces within distance.
+> **Effect:** The chief [shifts](scc:mcdm.heroes.v1/movement/shifting) up to 10 squares. Five fire giant fireballer then arrive in unoccupied spaces within distance.
 
-> ☠️ **All to Cinders (Villain Action 3)**
+> ☠️ **All to Cinders ([Villain Action](scc:mcdm.monsters.v1/rule.monster/villain-action) 3)**
 >
 > | **Area**        |                                            **-** |
 > |-----------------|-------------------------------------------------:|
@@ -104,4 +104,4 @@ type: statblock
 
 > ⭐️ **Scorching Skin**
 >
-> Whenever an adjacent enemy grabs the chief or uses a melee ability against them, that enemy takes 9 fire damage, and if they have M < 4 they are weakened (save ends)
+> Whenever an [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) enemy [grabs](scc:mcdm.heroes.v1/condition/grabbed) the chief or uses a melee ability against them, that enemy takes 9 fire damage, and if they have M < 4 they are [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)

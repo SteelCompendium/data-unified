@@ -40,11 +40,11 @@ with_captain: +3 bonus to speed
 > **Power Roll + 3:**
 >
 > - **≤11:** 3 corruption damage
-> - **12-16:** 5 corruption damage; slowed (EoT)
-> - **17+:** 6 corruption damage; slowed (EoT)
+> - **12-16:** 5 corruption damage; [slowed](scc:mcdm.heroes.v1/condition/slowed) (EoT)
+> - **17+:** 6 corruption damage; [slowed](scc:mcdm.heroes.v1/condition/slowed) (EoT)
 >
-> **Effect:** The scrivener can shift 1 square.
+> **Effect:** The scrivener can [shift](scc:mcdm.heroes.v1/movement/shifting) 1 square.
 
 > ⭐️ **True Name**
 >
-> If a creature within 10 squares speaks the scrivener's true name, the scrivener loses their fire immunity and any nondamaging effects of their signature ability until the end of the encounter.
+> If a creature within 10 squares speaks the scrivener's true name, the scrivener loses their fire immunity and any nondamaging effects of their [signature ability](scc:mcdm.heroes.v1/rule.combat/signature-ability) until the end of the encounter.

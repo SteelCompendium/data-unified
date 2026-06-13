@@ -38,18 +38,18 @@ type: statblock
 > **Power Roll + 4:**
 >
 > - **≤11:** 12 damage
-> - **12-16:** 17 damage; A < 3 bleeding (save ends)
-> - **17+:** 21 damage; A < 4 bleeding (save ends)
+> - **12-16:** 17 damage; A < 3 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
+> - **17+:** 21 damage; A < 4 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
 >
-> **Effect:** A target who is already bleeding takes an extra 1d6 cold damage.
+> **Effect:** A target who is already [bleeding](scc:mcdm.heroes.v1/condition/bleeding) takes an extra 1d6 cold damage.
 
-> 👤 **Blizzard Surge (5 Malice)**
+> 👤 **Blizzard Surge (5 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **-**       | **Main action** |
 > |-------------|----------------:|
 > | **📏 Self** |     **🎯 Self** |
 >
-> **Effect:** The wind sprinter shifts up to their speed and uses Cold Axe against each enemy who comes within 2 squares of them during the move. The wind sprinter makes one power roll against all targets.
+> **Effect:** The wind sprinter [shifts](scc:mcdm.heroes.v1/movement/shifting) up to their speed and uses Cold Axe against each enemy who comes within 2 squares of them during the move. The wind sprinter makes one power roll against all targets.
 
 > 🗡 **Ice Dance**
 >
@@ -57,7 +57,7 @@ type: statblock
 > |----------------|----------------------:|
 > | **📏 Melee 1** | **🎯 One giant ally** |
 >
-> **Effect:** The wind sprinter and the target each shift up to 6 squares while staying adjacent to each other. The target can then jump up to 5 squares and make a free strike.
+> **Effect:** The wind sprinter and the target each [shift](scc:mcdm.heroes.v1/movement/shifting) up to 6 squares while staying [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to each other. The target can then jump up to 5 squares and make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike).
 
 > ❗️ **Begone, Smallfolk!**
 >
@@ -71,8 +71,8 @@ type: statblock
 
 > ⭐️ **Crush Underfoot**
 >
-> The wind sprinter can move through enemies' spaces at their usual speed. The first time on a turn that a wind sprinter enters a creature's space, that creature can choose to fall prone or to take 8 damage.
+> The wind sprinter can move through enemies' spaces at their usual speed. The first time on a turn that a wind sprinter enters a creature's space, that creature can choose to fall [prone](scc:mcdm.heroes.v1/condition/prone) or to take 8 damage.
 
 > ⭐️ **Kingdom of Isolation**
 >
-> The wind sprinter is surrounded by a snowstorm. Any enemy who starts their turn within 2 squares of the wind sprinter can't shift.
+> The wind sprinter is surrounded by a snowstorm. Any enemy who starts their turn within 2 squares of the wind sprinter can't [shift](scc:mcdm.heroes.v1/movement/shifting).

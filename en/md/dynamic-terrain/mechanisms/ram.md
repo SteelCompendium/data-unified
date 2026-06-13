@@ -1,14 +1,14 @@
 ---
 features:
-    - body: As a maneuver, a creature adjacent to a ram can make an **Agility test**.
+    - body: As a maneuver, a creature [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to a ram can make an **Agility test**.
       icon: "\U0001F300"
       name: Deactivate
       power_roll:
         tiers:
             high: The ram is deactivated and doesn't trigger.
             low: The creature triggers the ram and is affected as if in its space.
-            mid: The ram is deactivated but the creature is slowed (EoT).
-    - body: A pressure plate, switch, or other linked trigger is activated.
+            mid: The ram is deactivated but the creature is [slowed](scc:mcdm.heroes.v1/condition/slowed) (EoT).
+    - body: A [pressure plate](scc:mcdm.monsters.v1/dynamic-terrain.mechanisms/pressure-plate), [switch](scc:mcdm.monsters.v1/dynamic-terrain.mechanisms/switch), or other linked trigger is activated.
       icon: ❕
       name: Activate
       sections:
@@ -24,11 +24,11 @@ features:
         formula: + 2
         tiers:
             high: 9 damage; push 5
-            low: 3 damage; slide 1, ignoring stability
+            low: 3 damage; slide 1, ignoring [stability](scc:mcdm.heroes.v1/rule.character/stability)
             mid: 6 damage; push 3
       sections:
         - label: Trigger
-          text: A pressure plate, switch, or other linked trigger is activated.
+          text: A [pressure plate](scc:mcdm.monsters.v1/dynamic-terrain.mechanisms/pressure-plate), [switch](scc:mcdm.monsters.v1/dynamic-terrain.mechanisms/switch), or other linked trigger is activated.
         - label: Special
           text: The area of this ability is the path the ram moves through from its starting position.
         - label: Effect
@@ -36,9 +36,9 @@ features:
       target: Each creature and object in the area
       usage: Free triggered action
     - body: |-
-        **Stone (+1 EV)** The ram is made of stone, has 6 Stamina per square, and deals an extra 1d3 damage.
+        **Stone (+1 EV)** The ram is made of stone, has 6 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) per square, and deals an extra 1d3 damage.
 
-        **Metal (+2 EV)** The ram is made of metal, has 9 Stamina per square, and deals an extra 1d6 damage.
+        **Metal (+2 EV)** The ram is made of metal, has 9 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) per square, and deals an extra 1d6 damage.
 
         **Repeating (+1 EV)** The ram automatically resets at the start of each round.
 
@@ -80,15 +80,15 @@ A heavy wooden ram drops down or swings into the fray, crushing all in its path.
 
 > 🌀 **Deactivate**
 >
-> As a maneuver, a creature adjacent to a ram can make an **Agility test**.
+> As a maneuver, a creature [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to a ram can make an **Agility test**.
 >
 > - **≤11:** The creature triggers the ram and is affected as if in its space.
-> - **12-16:** The ram is deactivated but the creature is slowed (EoT).
+> - **12-16:** The ram is deactivated but the creature is [slowed](scc:mcdm.heroes.v1/condition/slowed) (EoT).
 > - **17+:** The ram is deactivated and doesn't trigger.
 
 > ❕ **Activate**
 >
-> A pressure plate, switch, or other linked trigger is activated.
+> A [pressure plate](scc:mcdm.monsters.v1/dynamic-terrain.mechanisms/pressure-plate), [switch](scc:mcdm.monsters.v1/dynamic-terrain.mechanisms/switch), or other linked trigger is activated.
 >
 > **Effect:** The **Ram** ability.
 
@@ -98,13 +98,13 @@ A heavy wooden ram drops down or swings into the fray, crushing all in its path.
 > |------------------|--------------------------------------------:|
 > | **📏 Special**   | **🎯 Each creature and object in the area** |
 >
-> **Trigger:** A pressure plate, switch, or other linked trigger is activated.
+> **Trigger:** A [pressure plate](scc:mcdm.monsters.v1/dynamic-terrain.mechanisms/pressure-plate), [switch](scc:mcdm.monsters.v1/dynamic-terrain.mechanisms/switch), or other linked trigger is activated.
 >
 > **Special:** The area of this ability is the path the ram moves through from its starting position.
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 3 damage; slide 1, ignoring stability
+> - **≤11:** 3 damage; slide 1, ignoring [stability](scc:mcdm.heroes.v1/rule.character/stability)
 > - **12-16:** 6 damage; push 3
 > - **17+:** 9 damage; push 5
 >
@@ -112,9 +112,9 @@ A heavy wooden ram drops down or swings into the fray, crushing all in its path.
 
 > ⭐️ **Upgrades**
 >
-> **Stone (+1 EV)** The ram is made of stone, has 6 Stamina per square, and deals an extra 1d3 damage.
+> **Stone (+1 EV)** The ram is made of stone, has 6 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) per square, and deals an extra 1d3 damage.
 >
-> **Metal (+2 EV)** The ram is made of metal, has 9 Stamina per square, and deals an extra 1d6 damage.
+> **Metal (+2 EV)** The ram is made of metal, has 9 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) per square, and deals an extra 1d6 damage.
 >
 > **Repeating (+1 EV)** The ram automatically resets at the start of each round.
 >

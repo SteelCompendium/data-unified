@@ -36,35 +36,35 @@ weaknesses:
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** 11 corruption damage; A < 2 restrained (save ends)
-> - **12-16:** 16 corruption damage; A < 3 restrained (save ends)
-> - **17+:** 19 corruption damage; A < 4 restrained (save ends)
+> - **≤11:** 11 corruption damage; A < 2 [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)
+> - **12-16:** 16 corruption damage; A < 3 [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)
+> - **17+:** 19 corruption damage; A < 4 [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)
 >
-> **2 Malice:** Two ensnarers appear in unoccupied spaces adjacent to each target. On a tier 3 outcome, four ensnarers appear.
+> **2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice):** Two ensnarers appear in unoccupied spaces [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to each target. On a tier 3 outcome, four ensnarers appear.
 
-> ❇️ **Demonic Egress (2 Malice)**
+> ❇️ **Demonic Egress (2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Area**       |   **Maneuver** |
 > |----------------|---------------:|
 > | **📏 3 burst** | **🎯 Special** |
 >
-> **Effect:** Four level 1 demon minions (most commonly ensnarers, frenzieds, and pitlings) burst forth from the egress and appear in unoccupied spaces in the area.
+> **Effect:** Four level 1 demon [minions](scc:mcdm.monsters.v1/rule.organization/minion) (most commonly ensnarers, frenzieds, and pitlings) burst forth from the egress and appear in unoccupied spaces in the area.
 >
-> **2 Malice:** Four level 4 demon minions (most commonly orliq, grulqins, and wobalas) appear instead.
+> **2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice):** Four level 4 demon [minions](scc:mcdm.monsters.v1/rule.organization/minion) (most commonly orliq, grulqins, and wobalas) appear instead.
 
-> ❗️ **Abyssal Protectors (2 Malice)**
+> ❗️ **Abyssal Protectors (2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Area, Magic** | **Triggered action** |
 > |-----------------|---------------------:|
 > | **📏 5 burst**  |       **🎯 Special** |
 >
-> **Trigger:** The last ally minion on the encounter map dies, or the egress is reduced below 25 Stamina.
+> **Trigger:** The last ally [minion](scc:mcdm.monsters.v1/rule.organization/minion) on the encounter map dies, or the egress is reduced below 25 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina).
 >
 > **Effect:** Eight ensnarers appear anywhere in the area.
 
 > ⭐️ **End Effect**
 >
-> At the end of each of their turns, the egress can take 10 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way.
+> At the end of each of their turns, the egress can take 10 damage to end one effect on them that can be ended by a [saving throw](scc:mcdm.heroes.v1/rule.general/saving-throw). This damage can't be reduced in any way.
 
 > ☠️ **Frenzied Deluge (Villain Action 1)**
 >
@@ -76,7 +76,7 @@ weaknesses:
 >
 > - **≤11:** 7 corruption damage
 > - **12-16:** 12 corruption damage
-> - **17+:** 15 corruption damage; two frenzieds appear in unoccupied spaces adjacent to each target
+> - **17+:** 15 corruption damage; two frenzieds appear in unoccupied spaces [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to each target
 
 > ☠️ **Fold Space (Villain Action 2)**
 >
@@ -84,7 +84,7 @@ weaknesses:
 > |------------------|------------:|
 > | **📏 Ranged 20** | **🎯 Self** |
 >
-> **Effect:** The egress folds into their own portal and teleports to an unoccupied space within distance. Four level 4 demon minions (most commonly orliq, grulqins, and wobalas) appear in squares in the egress's former space.
+> **Effect:** The egress folds into their own portal and [teleports](scc:mcdm.heroes.v1/movement/teleport) to an unoccupied space within distance. Four level 4 demon [minions](scc:mcdm.monsters.v1/rule.organization/minion) (most commonly orliq, grulqins, and wobalas) appear in squares in the egress's former space.
 
 > ☠️ **Blood of the Abyss (Villain Action 3)**
 >
@@ -94,8 +94,8 @@ weaknesses:
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** 6 corruption damage; R < 2 weakened (save ends)
-> - **12-16:** 11 corruption damage; R < 3 weakened (save ends)
-> - **17+:** 14 corruption damage; R < 4 weakened (save ends)
+> - **≤11:** 6 corruption damage; R < 2 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
+> - **12-16:** 11 corruption damage; R < 3 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
+> - **17+:** 14 corruption damage; R < 4 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
 >
-> **Effect:** The egress recalls and instantly destroys any minion allies on the encounter map. A torrent of churned-up minion bodies, blood, and ichor erupts from the egress, dealing an extra 1 damage for each minion destroyed this way.
+> **Effect:** The egress recalls and instantly destroys any [minion](scc:mcdm.monsters.v1/rule.organization/minion) allies on the encounter map. A torrent of churned-up minion bodies, blood, and ichor erupts from the egress, dealing an extra 1 damage for each minion destroyed this way.

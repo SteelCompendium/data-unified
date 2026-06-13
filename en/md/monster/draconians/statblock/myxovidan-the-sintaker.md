@@ -39,11 +39,11 @@ type: statblock
 >
 > **Power Roll + 3:**
 >
-> - **≤11:** 10 damage; M < 1 weakened (save ends)
-> - **12-16:** 15 damage; M < 2 weakened (save ends)
-> - **17+:** 18 corruption damage; M < 3 weakened (save ends)
+> - **≤11:** 10 damage; M < 1 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
+> - **12-16:** 15 damage; M < 2 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
+> - **17+:** 18 corruption damage; M < 3 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
 >
-> **2 Malice:** Myxovidan regains Stamina equal to half the damage dealt.
+> **2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice):** Myxovidan regains [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) equal to half the damage dealt.
 
 > ❇️ **Expunging Exhalation**
 >
@@ -63,18 +63,18 @@ type: statblock
 > |-----------------|----------------:|
 > | **📏 Ranged 3** | **🎯 One ally** |
 >
-> **Effect:** Myxovidan and the target shift to swap places.
+> **Effect:** Myxovidan and the target [shift](scc:mcdm.heroes.v1/movement/shifting) to swap places.
 
-> ❗️ **Anyone Can Do That (2 Malice)**
+> ❗️ **Anyone Can Do That (2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **-**       | **Triggered action** |
 > |-------------|---------------------:|
 > | **📏 Self** |          **🎯 Self** |
 >
-> **Trigger:** An adjacent creature damages Myxovidan with a melee ability.
+> **Trigger:** An [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) creature damages Myxovidan with a melee ability.
 >
-> **Effect:** Myxovidan recreates the ability to use it against the triggering creature. If the ability has a power roll, Myxovidan uses his highest characteristic score for the roll. If Myxovidan gets a higher tier outcome than the triggering creature, the Director gains 2 Malice.
+> **Effect:** Myxovidan recreates the ability to use it against the triggering creature. If the ability has a power roll, Myxovidan uses his highest characteristic score for the roll. If Myxovidan gets a higher tier outcome than the triggering creature, the Director gains 2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice).
 
 > ⭐️ **Stench of Death**
 >
-> Whenever an enemy regains Stamina while within 5 squares of Myxovidan, they regain 3 less Stamina.
+> Whenever an enemy regains [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) while within 5 squares of Myxovidan, they regain 3 less [Stamina](scc:mcdm.heroes.v1/rule.health/stamina).

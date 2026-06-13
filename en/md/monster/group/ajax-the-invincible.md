@@ -61,16 +61,16 @@ Ajax speaks Caelian, Higaran, Khoursirian, Phaedran, Riojan, Vaniric, and Vaslor
 
 > **Ajax the Leader**
 >
-> Ajax is a master tactician. It would stand to reason that he can enter battle leading an army instead of facing the heroes solo.
+> Ajax is a master tactician. It would stand to reason that he can enter battle leading an army instead of facing the heroes [solo](scc:mcdm.monsters.v1/rule.organization/solo).
 >
-> Future adventures might feature different iterations and stat blocks for Ajax. For now, you can convert Ajax the Invincible into a level 11 leader with the following adjustments:
+> Future adventures might feature different iterations and stat blocks for Ajax. For now, you can convert Ajax the Invincible into a level 11 [leader](scc:mcdm.monsters.v1/rule.organization/leader) with the following adjustments:
 >
-> - Reduce his encounter value to EV 52.
-> - Reduce his Stamina to 280.
+> - Reduce his encounter value to [EV](scc:mcdm.monsters.v1/rule.monster/encounter-value) 52.
+> - Reduce his [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) to 280.
 > - Remove his **Ajax Turns** trait.
 > - Remove all his maneuvers.
 > - Add the following maneuver:
 >
-> **Strike Them Down** Two allies within 10 squares of Ajax each move up to their speed and can use a signature ability.
+> **Strike Them Down** Two allies within 10 squares of Ajax each move up to their speed and can use a [signature ability](scc:mcdm.heroes.v1/rule.combat/signature-ability).
 >
-> - Adjust the **I'm Not Done Yet** trait so that Ajax dies at −140 Stamina instead of −350.
+> - Adjust the **I'm Not Done Yet** trait so that Ajax dies at −140 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) instead of −350.

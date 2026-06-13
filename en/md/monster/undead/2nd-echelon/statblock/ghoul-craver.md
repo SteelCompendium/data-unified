@@ -31,7 +31,7 @@ with_captain: +2 damage bonus to strikes
 | **Corruption 4, poison 4**<br>Immunity | **Climb**<br>Movement |        -         | **+2 damage bonus to strikes**<br>With Captain |   **-**<br>Weakness   |
 |            **+3**<br>Might             |   **+2**<br>Agility   | **0**<br>Reason  |               **0**<br>Intuition               |   **0**<br>Presence   |
 
-> 🗡 **Taste (Signature Ability)**
+> 🗡 **Taste ([Signature Ability](scc:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
 > | **Charge, Melee, Strike, Weapon** |                          **Main action** |
 > |-----------------------------------|-----------------------------------------:|
@@ -43,11 +43,11 @@ with_captain: +2 damage bonus to strikes
 > - **12-16:** 4 damage
 > - **17+:** 6 damage
 >
-> **Effect:** This ability has a double edge against a bleeding target.
+> **Effect:** This ability has a double edge against a [bleeding](scc:mcdm.heroes.v1/condition/bleeding) target.
 
 > ⭐️ **Ever So Hungry**
 >
-> Any enemy adjacent to three or more ghoul cravers can't shift.
+> Any enemy [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to three or more ghoul cravers can't [shift](scc:mcdm.heroes.v1/movement/shifting).
 
 > ⭐️ **Hunger**
 >

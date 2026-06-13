@@ -29,7 +29,7 @@ type: statblock
 |         **-**<br>Immunity          | **-**<br>Movement |          -          | **-**<br>With Captain |   **-**<br>Weakness   |
 |          **+5**<br>Might           | **-2**<br>Agility |  **-4**<br>Reason   |  **-1**<br>Intuition  |   **-5**<br>Presence  |
 
-> 🗡 **Blade Rake (Signature Ability)**
+> 🗡 **Blade Rake ([Signature Ability](scc:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
 > | **Melee, Strike, Weapon** |                 **Main action** |
 > |---------------------------|--------------------------------:|
@@ -38,8 +38,8 @@ type: statblock
 > **Power Roll + 5:**
 >
 > - **≤11:** 15 damage
-> - **12-16:** 21 damage; pull 3
-> - **17+:** 25 damage; pull 6
+> - **12-16:** 21 damage; [pull](scc:mcdm.heroes.v1/movement/forced-movement) 3
+> - **17+:** 25 damage; [pull](scc:mcdm.heroes.v1/movement/forced-movement) 6
 
 > 🏹 **Prismacore Cannon**
 >
@@ -50,8 +50,8 @@ type: statblock
 > **Power Roll + 5:**
 >
 > - **≤11:** 22 damage
-> - **12-16:** 29 damage; I < 4 dazed (save ends)
-> - **17+:** 34 damage; I < 5 dazed (save ends)
+> - **12-16:** 29 damage; I < 4 [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)
+> - **17+:** 34 damage; I < 5 [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)
 >
 > **Effect:** This damage can't be reduced in any way. This ability can't be used again until the start of the next round.
 
@@ -61,7 +61,7 @@ type: statblock
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
-> **Effect:** The war engine moves up to their speed in a straight line, automatically destroying mundane size 1 objects or walls in their path. The first time the war engine moves through a creature's space during this movement, that creature can choose to either fall prone or take 10 damage.
+> **Effect:** The war engine moves up to their speed in a straight line, automatically destroying mundane size 1 objects or walls in their path. The first time the war engine moves through a creature's space during this movement, that creature can choose to either fall [prone](scc:mcdm.heroes.v1/condition/prone) or take 10 damage.
 
 > 🔳 **Burning Oil (3 Malice)**
 >
@@ -75,7 +75,7 @@ type: statblock
 > - **12-16:** 12 fire damage; the target is burning (EoT)
 > - **17+:** 8 fire damage
 >
-> A burning creature takes 1d6 fire damage at the start of each of their turns. A burning object takes 1d6 fire damage at the end of each round. Additionally, the area is burning until the end of the encounter. While the area is burning, it is difficult terrain and any enemy takes 3 fire damage for each square of the area they enter.
+> A burning creature takes 1d6 fire damage at the start of each of their turns. A burning object takes 1d6 fire damage at the end of each round. Additionally, the area is burning until the end of the encounter. While the area is burning, it is [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain) and any enemy takes 3 fire damage for each square of the area they enter.
 
 > ❗️ **Quick Blast (1 Malice)**
 >
@@ -87,15 +87,15 @@ type: statblock
 >
 > **Power Roll + 5:**
 >
-> - **≤11:** 8 damage; push 2
-> - **12-16:** 12 damage; push 5
-> - **17+:** 16 damage; push 8
+> - **≤11:** 8 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 2
+> - **12-16:** 12 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 5
+> - **17+:** 16 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 8
 >
 > **Effect:** This damage can't be reduced in any way.
 
 > ⭐️ **Servok Siege Machine**
 >
-> The war engine ignores difficult terrain, and their abilities deal an extra 15 damage to objects.
+> The war engine ignores [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain), and their abilities deal an extra 15 damage to objects.
 
 > ⭐️ **Crafted to Perfection**
 >
@@ -103,4 +103,4 @@ type: statblock
 
 > ⭐️ **Valiar Might**
 >
-> While the war engine isn't bleeding, weakened, or winded, any power roll made against them is automatically a tier 1 outcome. A critical hit still grants its additional main action.
+> While the war engine isn't [bleeding](scc:mcdm.heroes.v1/condition/bleeding), [weakened](scc:mcdm.heroes.v1/condition/weakened), or [winded](scc:mcdm.heroes.v1/rule.health/winded), any power roll made against them is automatically a tier 1 outcome. A critical hit still grants its additional main action.

@@ -42,9 +42,9 @@ type: statblock
 > - **12-16:** 10 lightning damage
 > - **17+:** 13 lightning damage
 >
-> **5 Malice:** The ability loses the Ranged and Strike keywords, takes the Area keyword, and is a 10 x 1 line within 15 that targets each enemy and object in the area.
+> **5 [Malice](scc:mcdm.monsters.v1/rule.monster/malice):** The ability loses the Ranged and Strike keywords, takes the Area keyword, and is a 10 x 1 line within 15 that targets each enemy and object in the area.
 
-> 🔳 **Gust of Wind (3 Malice)**
+> 🔳 **Gust of Wind (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Area, Magic**        |                             **Maneuver** |
 > |------------------------|-----------------------------------------:|
@@ -52,9 +52,9 @@ type: statblock
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** Slide 2; M < 0 slowed (save ends)
-> - **12-16:** Slide 4; M < 1 slowed (save ends)
-> - **17+:** Slide 6; M < 2 slowed (save ends)
+> - **≤11:** [Slide](scc:mcdm.heroes.v1/movement/forced-movement) 2; M < 0 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
+> - **12-16:** [Slide](scc:mcdm.heroes.v1/movement/forced-movement) 4; M < 1 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
+> - **17+:** [Slide](scc:mcdm.heroes.v1/movement/forced-movement) 6; M < 2 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
 >
 > **Effect:** The gust of wind disperses gas or vapor and extinguishes any flames, including supernatural effects.
 
@@ -62,7 +62,7 @@ type: statblock
 >
 > Any melee ability targeting the storm mage takes a bane.
 >
-> Additionally, whenever the mage takes damage from an adjacent enemy, the enemy takes 2 lightning damage, and if they have R < 1 they are pushed up to 2 squares.
+> Additionally, whenever the mage takes damage from an [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) enemy, the enemy takes 2 lightning damage, and if they have R < 1 they are [pushed](scc:mcdm.heroes.v1/movement/forced-movement) up to 2 squares.
 
 > ⭐️ **Supernatural Insight**
 >

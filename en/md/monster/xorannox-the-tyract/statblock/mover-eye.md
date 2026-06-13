@@ -28,7 +28,7 @@ type: statblock
 |     **-**<br>Immunity      | **Fly, hover**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |      **-1**<br>Might       |     **+1**<br>Agility      | **+4**<br>Reason  |  **+1**<br>Intuition  |  **-1**<br>Presence  |
 
-> 🏹 **Telekinetic Beam (Signature Ability)**
+> 🏹 **Telekinetic Beam ([Signature Ability](scc:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
 > | **Psionic, Ranged, Strike** |                 **Main action** |
 > |-----------------------------|--------------------------------:|
@@ -36,9 +36,9 @@ type: statblock
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** 11 damage; slide 4
-> - **12-16:** 17 damage; slide 5
-> - **17+:** 20 damage; slide 6
+> - **≤11:** 11 damage; [slide](scc:mcdm.heroes.v1/movement/forced-movement) 4
+> - **12-16:** 17 damage; [slide](scc:mcdm.heroes.v1/movement/forced-movement) 5
+> - **17+:** 20 damage; [slide](scc:mcdm.heroes.v1/movement/forced-movement) 6
 
 > ⭐️ **Psionic Barrier**
 >

@@ -43,7 +43,7 @@ weaknesses:
 >
 > **Effect:** A puddle of blight—digested soul juice—covers the ground in the target's square, which is affected as if by Seeping Blight (see the Level 7+ Demon Malice feature).
 
-> 🔳 **Blight Rain (3 Malice)**
+> 🔳 **Blight Rain (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Area, Magic**        |                  **Maneuver** |
 > |------------------------|------------------------------:|
@@ -53,11 +53,11 @@ weaknesses:
 >
 > **Effect:** The blight phage spins and sheds corruptive blight to fill the area, which is treated as if affected by Seeping Blight.
 >
-> **2 Malice:** The blight phage chooses three 2 cube areas within 10 squares of the phage. Each area is covered with blight and treated as if affected by Seeping Blight.
+> **2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice):** The blight phage chooses three 2 cube areas within 10 squares of the phage. Each area is covered with blight and treated as if affected by Seeping Blight.
 
 > ⭐️ **Lethe**
 >
-> While the blight phage is winded, they gain an edge on strikes, and any strike made against them gains an edge.
+> While the blight phage is [winded](scc:mcdm.heroes.v1/rule.health/winded), they gain an [edge](scc:mcdm.heroes.v1/rule.dice/edge) on strikes, and any strike made against them gains an edge.
 
 > ⭐️ **Soulsight**
 >

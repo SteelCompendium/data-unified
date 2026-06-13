@@ -28,7 +28,7 @@ type: statblock
 |     **-**<br>Immunity      | **Fly, hover**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |      **-1**<br>Might       |     **+1**<br>Agility      | **+4**<br>Reason  |  **+1**<br>Intuition  |  **-1**<br>Presence  |
 
-> 🔳 **Explosion (Signature Ability)**
+> 🔳 **Explosion ([Signature Ability](scc:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
 > | **Psionic, Ranged, Strike** |               **Main action** |
 > |-----------------------------|------------------------------:|
@@ -37,8 +37,8 @@ type: statblock
 > **Power Roll + 4:**
 >
 > - **≤11:** 6 fire damage
-> - **12-16:** 10 fire damage; M < 3 prone
-> - **17+:** 13 fire damage; M < 4 prone
+> - **12-16:** 10 fire damage; M < 3 [prone](scc:mcdm.heroes.v1/condition/prone)
+> - **17+:** 13 fire damage; M < 4 [prone](scc:mcdm.heroes.v1/condition/prone)
 
 > ⭐️ **Psionic Barrier**
 >

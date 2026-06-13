@@ -15,7 +15,7 @@ features:
         - label: Trigger
           text: The shard is destroyed.
         - label: Effect
-          text: The shard releases a shockwave channeled through each creature affected by Psionic Barrier. Each ally in the encounter is dazed until the end of their next turn.
+          text: The shard releases a shockwave channeled through each creature affected by Psionic Barrier. Each ally in the encounter is [dazed](scc:mcdm.heroes.v1/condition/dazed) until the end of their next turn.
       target: Special
       usage: Free triggered action
 flavor: A massive humming crystal makes the air around it feel thick.
@@ -56,4 +56,4 @@ A massive humming crystal makes the air around it feel thick.
 >
 > **Trigger:** The shard is destroyed.
 >
-> **Effect:** The shard releases a shockwave channeled through each creature affected by Psionic Barrier. Each ally in the encounter is dazed until the end of their next turn.
+> **Effect:** The shard releases a shockwave channeled through each creature affected by Psionic Barrier. Each ally in the encounter is [dazed](scc:mcdm.heroes.v1/condition/dazed) until the end of their next turn.

@@ -29,7 +29,7 @@ with_captain: +2 bonus to melee distance
 |  **-**<br>Immunity   | **Climb**<br>Movement |        -         | **+2 bonus to melee distance**<br>With Captain |  **-**<br>Weakness   |
 |   **-1**<br>Might    |   **+1**<br>Agility   | **0**<br>Reason  |               **0**<br>Intuition               |  **+2**<br>Presence  |
 
-> 🗡 **Buckler Bash (Signature Ability)**
+> 🗡 **Buckler Bash ([Signature Ability](scc:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
 > | **Charge, Melee, Strike, Weapon** |                          **Main action** |
 > |-----------------------------------|-----------------------------------------:|
@@ -38,8 +38,8 @@ with_captain: +2 bonus to melee distance
 > **Power Roll + 2:**
 >
 > - **≤11:** 1 damage
-> - **12-16:** 2 damage; taunted (EoT)
-> - **17+:** 3 damage; taunted (EoT)
+> - **12-16:** 2 damage; [taunted](scc:mcdm.heroes.v1/condition/taunted) (EoT)
+> - **17+:** 3 damage; [taunted](scc:mcdm.heroes.v1/condition/taunted) (EoT)
 
 > ❗️ **Ready Rodent**
 >
@@ -49,4 +49,4 @@ with_captain: +2 bonus to melee distance
 >
 > **Trigger:** An ally deals damage to the target.
 >
-> **Effect:** The scrapper makes a free strike against the target.
+> **Effect:** The scrapper makes a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) against the target.

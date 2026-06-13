@@ -43,7 +43,7 @@ with_captain: +5 bonus to ranged distance
 > - **12-16:** 2 corruption damage
 > - **17+:** 3 corruption damage
 >
-> **Effect:** One creature within 5 squares regains 1 Stamina.
+> **Effect:** One creature within 5 squares regains 1 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina).
 
 > ⭐️ **Supernatural Insight**
 >

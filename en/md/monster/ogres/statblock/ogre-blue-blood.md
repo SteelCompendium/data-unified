@@ -28,7 +28,7 @@ with_captain: Gain an edge on strikes
 | **-**<br>Immunity | **-**<br>Movement |         -         | **Gain an edge on strikes**<br>With Captain |   **-**<br>Weakness   |
 |  **+4**<br>Might  | **+1**<br>Agility | **-1**<br>Reason  |             **0**<br>Intuition              |  **+2**<br>Presence   |
 
-> 🗡 **Crush Underfoot (Signature Ability)**
+> 🗡 **Crush Underfoot ([Signature Ability](scc:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
 > | **Melee, Strike, Weapon** |                          **Main action** |
 > |---------------------------|-----------------------------------------:|
@@ -37,14 +37,14 @@ with_captain: Gain an edge on strikes
 > **Power Roll + 4:**
 >
 > - **≤11:** 4 damage
-> - **12-16:** 7 damage; M < 3 prone
-> - **17+:** 8 damage; prone
+> - **12-16:** 7 damage; M < 3 [prone](scc:mcdm.heroes.v1/condition/prone)
+> - **17+:** 8 damage; [prone](scc:mcdm.heroes.v1/condition/prone)
 >
-> **Effect:** A target who is already prone takes an extra 4 damage.
+> **Effect:** A target who is already [prone](scc:mcdm.heroes.v1/condition/prone) takes an extra 4 damage.
 
 > ⭐️ **In My Stead**
 >
-> Whenever the blue blood would make a free strike, an ally within 5 squares can make a free strike instead.
+> Whenever the blue blood would make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike), an ally within 5 squares can make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) instead.
 
 > ⭐️ **Royal Anger**
 >

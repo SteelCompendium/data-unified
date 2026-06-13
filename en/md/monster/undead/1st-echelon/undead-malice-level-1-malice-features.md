@@ -1,26 +1,26 @@
 ---
 features:
-    - body: At the end of this round, each hero not already adjacent to one or more undead is beset by two **rotting zombies** who burst up from the ground to appear in adjacent unoccupied spaces. Each zombie is winded. This feature can't be used two rounds in a row.
+    - body: At the end of this round, each hero not already [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to one or more undead is beset by two **rotting zombies** who burst up from the ground to appear in adjacent unoccupied spaces. Each zombie is [winded](scc:mcdm.heroes.v1/rule.health/winded). This feature can't be used two rounds in a row.
       cost: 2 Malice
       icon: "\U0001F300"
       name: Ravenous Horde
-    - body: Up to three unattended objects on the encounter map rise to float 1 square off the ground. Each object is then pulled 5 squares toward the nearest enemy within 3 squares of the object.
+    - body: Up to three unattended objects on the encounter map rise to float 1 square off the ground. Each object is then [pulled](scc:mcdm.heroes.v1/movement/forced-movement) 5 squares toward the nearest enemy within 3 squares of the object.
       cost: 3 Malice
       icon: "\U0001F300"
       name: Paranormal Fling
-    - body: Ravenous and rotting undead arms burst forth from 9 connected squares of a vertical or horizontal surface. Any creature who ends their turn adjacent to an affected square makes an **Agility test**.
+    - body: Ravenous and rotting undead arms burst forth from 9 connected squares of a vertical or horizontal surface. Any creature who ends their turn [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to an affected square makes an **Agility test**.
       cost: 5 Malice
       icon: "\U0001F533"
       name: The Grasping, the Hungry
       power_roll:
         tiers:
             high: 5 damage
-            low: 5 damage; restrained (save ends)
-            mid: 5 damage; restrained (EoT)
+            low: 5 damage; [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)
+            mid: 5 damage; [restrained](scc:mcdm.heroes.v1/condition/restrained) (EoT)
       sections:
         - label: Effect
-          text: While restrained this way, a creature takes 1d6 damage at the start of each of their turns.
-    - body: Up to four undead in the encounter move up to their speed and can make a free strike. The number of undead affected increases by 1 for each additional Malice spent on this feature. If an undead is reduced to 0 Stamina during this dread march, they don't die until the march is resolved.
+          text: While [restrained](scc:mcdm.heroes.v1/condition/restrained) this way, a creature takes 1d6 damage at the start of each of their turns.
+    - body: Up to four undead in the encounter move up to their speed and can make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike). The number of undead affected increases by 1 for each additional [Malice](scc:mcdm.monsters.v1/rule.monster/malice) spent on this feature. If an undead is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) during this dread march, they don't die until the march is resolved.
       cost: 7+ Malice
       icon: ⭐️
       name: Dread March
@@ -32,26 +32,26 @@ scc: mcdm.monsters.v1/monster.undead.1st-echelon/undead-malice-level-1-malice-fe
 type: featureblock
 ---
 
-At the start of any undead's turn, you can spend Malice to activate one of the following features.
+At the start of any undead's turn, you can spend [Malice](scc:mcdm.monsters.v1/rule.monster/malice) to activate one of the following features.
 
-> 🌀 **Ravenous Horde (2 Malice)**
+> 🌀 **Ravenous Horde (2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
 >
-> At the end of this round, each hero not already adjacent to one or more undead is beset by two **rotting zombies** who burst up from the ground to appear in adjacent unoccupied spaces. Each zombie is winded. This feature can't be used two rounds in a row.
+> At the end of this round, each hero not already [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to one or more undead is beset by two **rotting zombies** who burst up from the ground to appear in adjacent unoccupied spaces. Each zombie is [winded](scc:mcdm.heroes.v1/rule.health/winded). This feature can't be used two rounds in a row.
 
-> 🌀 **Paranormal Fling (3 Malice)**
+> 🌀 **Paranormal Fling (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
 >
-> Up to three unattended objects on the encounter map rise to float 1 square off the ground. Each object is then pulled 5 squares toward the nearest enemy within 3 squares of the object.
+> Up to three unattended objects on the encounter map rise to float 1 square off the ground. Each object is then [pulled](scc:mcdm.heroes.v1/movement/forced-movement) 5 squares toward the nearest enemy within 3 squares of the object.
 
-> 🔳 **The Grasping, the Hungry (5 Malice)**
+> 🔳 **The Grasping, the Hungry (5 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
 >
-> Ravenous and rotting undead arms burst forth from 9 connected squares of a vertical or horizontal surface. Any creature who ends their turn adjacent to an affected square makes an **Agility test**.
+> Ravenous and rotting undead arms burst forth from 9 connected squares of a vertical or horizontal surface. Any creature who ends their turn [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to an affected square makes an **Agility test**.
 >
-> - **≤11:** 5 damage; restrained (save ends)
-> - **12-16:** 5 damage; restrained (EoT)
+> - **≤11:** 5 damage; [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)
+> - **12-16:** 5 damage; [restrained](scc:mcdm.heroes.v1/condition/restrained) (EoT)
 > - **17+:** 5 damage
 >
-> **Effect:** While restrained this way, a creature takes 1d6 damage at the start of each of their turns.
+> **Effect:** While [restrained](scc:mcdm.heroes.v1/condition/restrained) this way, a creature takes 1d6 damage at the start of each of their turns.
 
-> ⭐️ **Dread March (7+ Malice)**
+> ⭐️ **Dread March (7+ [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
 >
-> Up to four undead in the encounter move up to their speed and can make a free strike. The number of undead affected increases by 1 for each additional Malice spent on this feature. If an undead is reduced to 0 Stamina during this dread march, they don't die until the march is resolved.
+> Up to four undead in the encounter move up to their speed and can make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike). The number of undead affected increases by 1 for each additional [Malice](scc:mcdm.monsters.v1/rule.monster/malice) spent on this feature. If an undead is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) during this dread march, they don't die until the march is resolved.

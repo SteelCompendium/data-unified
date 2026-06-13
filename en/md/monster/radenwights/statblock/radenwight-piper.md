@@ -28,7 +28,7 @@ type: statblock
 |  **-**<br>Immunity   | **Climb**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |    **0**<br>Might    |   **0**<br>Agility    |  **0**<br>Reason  |  **+2**<br>Intuition  |  **+1**<br>Presence  |
 
-> ⚔️ **Piercing Trill (Signature Ability)**
+> ⚔️ **Piercing Trill ([Signature Ability](scc:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
 > | **Magic, Melee, Ranged, Strike** |               **Main action** |
 > |----------------------------------|------------------------------:|
@@ -36,11 +36,11 @@ type: statblock
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 5 sonic damage; push 1
-> - **12-16:** 7 sonic damage; push 3
-> - **17+:** 9 sonic damage; push 4
+> - **≤11:** 5 sonic damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 1
+> - **12-16:** 7 sonic damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 3
+> - **17+:** 9 sonic damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 4
 >
-> **Effect:** The piper or one ally within distance regains Stamina equal to the damage dealt.
+> **Effect:** The piper or one ally within distance regains [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) equal to the damage dealt.
 
 > ❇️ **Vivace Vivace!**
 >
@@ -50,7 +50,7 @@ type: statblock
 >
 > **Effect:** Each target who has used their Ready Rodent ability this round regains the use of their triggered action.
 >
-> **2 Malice:** The area increases to a 6 burst.
+> **2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice):** The area increases to a 6 burst.
 
 > ❗️ **Ready Rodent**
 >
@@ -60,8 +60,8 @@ type: statblock
 >
 > **Trigger:** An ally deals damage to the target.
 >
-> **Effect:** The piper makes a free strike against the target.
+> **Effect:** The piper makes a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) against the target.
 
 > ⭐️ **Musical Suggestion**
 >
-> At the end of the piper's turn, they can slide one adjacent creature up to 2 squares, ignoring stability.
+> At the end of the piper's turn, they can [slide](scc:mcdm.heroes.v1/movement/forced-movement) one [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) creature up to 2 squares, ignoring stability.

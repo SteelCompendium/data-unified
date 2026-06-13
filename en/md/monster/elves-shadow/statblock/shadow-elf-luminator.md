@@ -43,7 +43,7 @@ type: statblock
 >
 > **Effect:** The next strike made against the target deals an extra 5 damage.
 
-> ❇️ **Mourning Till Dusk (3 Malice)**
+> ❇️ **Mourning Till Dusk (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Area, Magic** |              **Main action** |
 > |-----------------|-----------------------------:|
@@ -53,7 +53,7 @@ type: statblock
 >
 > - **≤11:** The target regains 6 Stamina.
 > - **12-16:** The target regains 9 Stamina.
-> - **17+:** The target regains 12 Stamina and the Director gains 3 Malice.
+> - **17+:** The target regains 12 Stamina and the Director gains 3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice).
 >
 > **Effect:** Each target gains an edge on their next strike.
 

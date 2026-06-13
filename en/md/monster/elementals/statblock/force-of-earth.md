@@ -36,10 +36,10 @@ type: statblock
 > **Power Roll + 2:**
 >
 > - **≤11:** 8 damage
-> - **12-16:** 12 damage; M < 1 restrained (save ends)
-> - **17+:** 15 damage; M < 2 restrained (save ends)
+> - **12-16:** 12 damage; M < 1 [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)
+> - **17+:** 15 damage; M < 2 [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)
 >
-> **Effect:** The target's space is difficult terrain.
+> **Effect:** The target's space is [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain).
 
 > 🏹 **Convocation of Quartz**
 >
@@ -49,9 +49,9 @@ type: statblock
 >
 > **Effect:** Until the start of the force's next turn, any melee strike made against the target takes a bane if it doesn't already have a bane or double bane.
 >
-> **3 Malice:** Until the end of the encounter, the target grows a carapace of stone. They have a +3 bonus to stability and gain 15 temporary Stamina.
+> **3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice):** Until the end of the encounter, the target grows a carapace of stone. They have a +3 bonus to stability and gain 15 temporary Stamina.
 
-> ❗️ **Break Armor (1 Malice)**
+> ❗️ **Break Armor (1 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **-**       | **Triggered action** |
 > |-------------|---------------------:|
@@ -63,7 +63,7 @@ type: statblock
 
 > ⭐️ **Fickle and Free**
 >
-> The force can't be restrained, slowed, or knocked prone, and they ignore difficult terrain.
+> The force can't be [restrained](scc:mcdm.heroes.v1/condition/restrained), [slowed](scc:mcdm.heroes.v1/condition/slowed), or knocked [prone](scc:mcdm.heroes.v1/condition/prone), and they ignore [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain).
 
 > ⭐️ **Primordial Strength**
 >

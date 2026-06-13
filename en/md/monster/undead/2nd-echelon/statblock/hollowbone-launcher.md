@@ -31,7 +31,7 @@ with_captain: +5 bonus to ranged distance
 | **Corruption 4, poison 4**<br>Immunity | **-**<br>Movement |        -         | **+5 bonus to ranged distance**<br>With Captain |   **-**<br>Weakness   |
 |            **-2**<br>Might             | **+3**<br>Agility | **0**<br>Reason  |               **0**<br>Intuition                |   **0**<br>Presence   |
 
-> 🏹 **Hollowbone Slug (Signature Ability)**
+> 🏹 **Hollowbone Slug ([Signature Ability](scc:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
 > | **Ranged, Strike, Weapon** |                          **Main action** |
 > |----------------------------|-----------------------------------------:|
@@ -41,10 +41,10 @@ with_captain: +5 bonus to ranged distance
 >
 > - **≤11:** 3 damage
 > - **12-16:** 5 damage
-> - **17+:** 7 damage; M < 3 bleeding (save ends)
+> - **17+:** 7 damage; M < 3 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
 >
-> **Effect:** Each creature adjacent to the target takes 2 damage.
+> **Effect:** Each creature [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the target takes 2 damage.
 
 > ⭐️ **Brittle Revenge**
 >
-> The hollowbone launcher explodes when they are reduced to 0 Stamina, dealing 2 damage to each adjacent creature.
+> The hollowbone launcher explodes when they are reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), dealing 2 damage to each [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) creature.

@@ -29,7 +29,7 @@ type: statblock
 |          **-**<br>Immunity           | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |           **+4**<br>Might            | **+1**<br>Agility |  **-2**<br>Reason  |  **+1**<br>Intuition  |  **-3**<br>Presence  |
 
-> 🗡 **Pneumatic Punch (Signature Ability)**
+> 🗡 **Pneumatic Punch ([Signature Ability](scc:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
 > | **Melee, Strike, Weapon** |                 **Main action** |
 > |---------------------------|--------------------------------:|
@@ -37,9 +37,9 @@ type: statblock
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** 13 damage; push 3
-> - **12-16:** 18 damage; push 5
-> - **17+:** 22 damage; push 8
+> - **≤11:** 13 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 3
+> - **12-16:** 18 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 5
+> - **17+:** 22 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 8
 
 > 🏹 **Targeting Beam (3 Malice)**
 >
@@ -49,11 +49,11 @@ type: statblock
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** 15 damage; A < 2 slowed (save ends)
-> - **12-16:** 21 damage; A < 3 slowed (save ends)
-> - **17+:** 26 damage; A < 4 slowed (save ends)
+> - **≤11:** 15 damage; A < 2 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
+> - **12-16:** 21 damage; A < 3 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
+> - **17+:** 26 damage; A < 4 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
 >
-> **Effect:** This damage can't be reduced in any way. While a target is slowed this way, any strike against them has a double edge.
+> **Effect:** This damage can't be reduced in any way. While a target is [slowed](scc:mcdm.heroes.v1/condition/slowed) this way, any strike against them has a double edge.
 
 > 🏹 **Chief's Command**
 >
@@ -61,21 +61,21 @@ type: statblock
 > |-----------------|----------------:|
 > | **📏 Ranged 5** | **🎯 One ally** |
 >
-> **Effect:** The target shifts up to their speed and can use a main action.
+> **Effect:** The target [shifts](scc:mcdm.heroes.v1/movement/shifting) up to their speed and can use a main action.
 
 > ❗️ **Quick Shield**
 >
-> | **Ranged**       |           **Triggered action** |
+> | **Ranged**       |           **[Triggered Action](scc:mcdm.heroes.v1/rule.combat/triggered-action)** |
 > |------------------|-------------------------------:|
 > | **📏 Ranged 10** | **🎯 The triggering creature** |
 >
-> **Trigger:** The chief or an ally within distance is subject to an effect that can be ended by a saving throw or that ends at the end of their turn.
+> **Trigger:** The chief or an ally within distance is subject to an effect that can be ended by a [saving throw](scc:mcdm.heroes.v1/rule.general/saving-throw) or that ends at the end of their turn.
 >
-> **Effect:** The target gains 15 temporary Stamina. Each time this triggered action is used, the amount of temporary Stamina received decreases by 3 (to a minimum of 0).
+> **Effect:** The target gains 15 temporary [Stamina](scc:mcdm.heroes.v1/rule.health/stamina). Each time this triggered action is used, the amount of temporary [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) received decreases by 3 (to a minimum of 0).
 
 > ⭐️ **Multivok Maintenance**
 >
-> At the start of the chief's turn, each servok within 2 squares of them regains 15 Stamina.
+> At the start of the chief's turn, each servok within 2 squares of them regains 15 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina).
 
 > ⭐️ **Crafted to Perfection**
 >
@@ -83,4 +83,4 @@ type: statblock
 
 > ⭐️ **Valiar Might**
 >
-> While the chief isn't bleeding, weakened, or winded, any power roll made against them is automatically a tier 1 outcome. A critical hit still grants its additional main action.
+> While the chief isn't [bleeding](scc:mcdm.heroes.v1/condition/bleeding), [weakened](scc:mcdm.heroes.v1/condition/weakened), or [winded](scc:mcdm.heroes.v1/rule.health/winded), any power roll made against them is automatically a tier 1 outcome. A critical hit still grants its additional main action.

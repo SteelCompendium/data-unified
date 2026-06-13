@@ -44,4 +44,4 @@ with_captain: +2 bonus to melee distance
 
 > ⭐️ **Death Circle**
 >
-> Whenever a non-minion ally within 5 squares of the mage mauler is reduced to 0 Stamina, the mage mauler can move up to their speed.
+> Whenever a non-[minion](scc:mcdm.monsters.v1/rule.organization/minion) ally within 5 squares of the mage mauler is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), the mage mauler can move up to their speed.

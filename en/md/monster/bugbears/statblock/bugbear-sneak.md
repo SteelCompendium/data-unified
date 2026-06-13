@@ -37,13 +37,13 @@ type: statblock
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 8 damage; A < 1 grabbed
-> - **12-16:** 13 damage; A < 2 grabbed
-> - **17+:** 16 damage; grabbed
+> - **≤11:** 8 damage; A < 1 [grabbed](scc:mcdm.heroes.v1/condition/grabbed)
+> - **12-16:** 13 damage; A < 2 [grabbed](scc:mcdm.heroes.v1/condition/grabbed)
+> - **17+:** 16 damage; [grabbed](scc:mcdm.heroes.v1/condition/grabbed)
 >
 > **Effect:** The target can't use triggered actions until the start of the next round. Additionally, if the sneak started their turn hidden from the target, this ability deals an extra 4 damage.
 
-> ❇️ **Shadow Cloak (3 Malice)**
+> ❇️ **Shadow Cloak (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Area**       |               **Main action** |
 > |----------------|------------------------------:|
@@ -55,7 +55,7 @@ type: statblock
 > - **12-16:** 3 damage; I < 1 the sneak has concealment from the target (save ends)
 > - **17+:** 4 damage; I < 2 the sneak has concealment from the target (save ends)
 >
-> **Effect:** The sneak shifts up to their speed and can attempt to hide.
+> **Effect:** The sneak [shifts](scc:mcdm.heroes.v1/movement/shifting) up to their speed and can attempt to hide.
 
 > 🏹 **Carving Dagger**
 >
@@ -65,11 +65,11 @@ type: statblock
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 7 damage; M < 0 bleeding (save ends)
-> - **12-16:** 11 damage; M < 1 bleeding (save ends)
-> - **17+:** 14 damage; M < 2 bleeding (save ends)
+> - **≤11:** 7 damage; M < 0 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
+> - **12-16:** 11 damage; M < 1 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
+> - **17+:** 14 damage; M < 2 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
 >
-> **Effect:** While bleeding this way, the target can't hide from the sneak or their allies.
+> **Effect:** While [bleeding](scc:mcdm.heroes.v1/condition/bleeding) this way, the target can't hide from the sneak or their allies.
 
 > 🗡 **Throw**
 >
@@ -77,9 +77,9 @@ type: statblock
 > |-------------------|------------------------------:|
 > | **📏 Melee 1**    | **🎯 One creature or object** |
 >
-> **Special:** The target must be grabbed by the sneak.
+> **Special:** The target must be [grabbed](scc:mcdm.heroes.v1/condition/grabbed) by the sneak.
 >
-> **Effect:** The target is vertical pushed up to 4 squares. An ally doesn't take damage from being force moved this way.
+> **Effect:** The target is vertical [pushed](scc:mcdm.heroes.v1/movement/forced-movement) up to 4 squares. An ally doesn't take damage from being [force moved](scc:mcdm.heroes.v1/movement/forced-movement) this way.
 
 > ❗️ **Catcher**
 >
@@ -87,11 +87,11 @@ type: statblock
 > |----------------|-----------------------------------------:|
 > | **📏 Melee 1** | **🎯 The triggering creature or object** |
 >
-> **Trigger:** A size 1 creature or object is force moved within distance, or a size 1 ally willingly moves within distance.
+> **Trigger:** A size 1 creature or object is [force moved](scc:mcdm.heroes.v1/movement/forced-movement) within distance, or a size 1 ally willingly moves within distance.
 >
-> **Effect:** The target is grabbed by the sneak.
+> **Effect:** The target is [grabbed](scc:mcdm.heroes.v1/condition/grabbed) by the sneak.
 
-> ❗️ **Clever Trick (1 Malice)**
+> ❗️ **Clever Trick (1 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **-**          | **Triggered action** |
 > |----------------|---------------------:|

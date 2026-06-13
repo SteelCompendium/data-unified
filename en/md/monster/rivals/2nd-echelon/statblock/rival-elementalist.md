@@ -27,7 +27,7 @@ type: statblock
 | **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **0**<br>Might   | **+2**<br>Agility |  **+3**<br>Reason  |  **+2**<br>Intuition  |  **0**<br>Presence   |
 
-> 🏹 **The Thriving Wilds (Signature Ability)**
+> 🏹 **The Thriving Wilds ([Signature Ability](scc:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
 > | **Green, Magic, Ranged, Strike** |                 **Main action** |
 > |----------------------------------|--------------------------------:|
@@ -35,11 +35,11 @@ type: statblock
 >
 > **Power Roll + 3:**
 >
-> - **≤11:** 9 damage; slide 1; M < 1 3 acid damage
-> - **12-16:** 14 damage; slide 2; M < 2 5 acid damage
-> - **17+:** 17 damage; slide 3; M < 3 7 acid damage
+> - **≤11:** 9 damage; [slide](scc:mcdm.heroes.v1/movement/forced-movement) 1; M < 1 3 acid damage
+> - **12-16:** 14 damage; [slide](scc:mcdm.heroes.v1/movement/forced-movement) 2; M < 2 5 acid damage
+> - **17+:** 17 damage; [slide](scc:mcdm.heroes.v1/movement/forced-movement) 3; M < 3 7 acid damage
 
-> 🔳 **The Depths Hunger (4 Malice)**
+> 🔳 **The Depths Hunger (4 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Area, Green, Magic, Ranged** |               **Main action** |
 > |--------------------------------|------------------------------:|
@@ -48,10 +48,10 @@ type: statblock
 > **Power Roll + 3:**
 >
 > - **≤11:** 5 damage
-> - **12-16:** 9 damage; restrained (EoT)
-> - **17+:** 11 damage; restrained (save ends)
+> - **12-16:** 9 damage; [restrained](scc:mcdm.heroes.v1/condition/restrained) (EoT)
+> - **17+:** 11 damage; [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)
 >
-> **Effect:** The area is difficult terrain for enemies until the end of the encounter. Any enemy in the area has acid weakness 3.
+> **Effect:** The area is [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain) for enemies until the end of the encounter. Any enemy in the area has acid [weakness](scc:mcdm.heroes.v1/rule.damage/damage-weakness) 3.
 
 > ❗️ **Fissures of Darkness**
 >
@@ -61,8 +61,8 @@ type: statblock
 >
 > **Trigger:** The elementalist takes damage.
 >
-> **Effect:** The elementalist can teleport up to 3 squares. Each creature adjacent to the space they leave takes 3 corruption damage.
+> **Effect:** The elementalist can [teleport](scc:mcdm.heroes.v1/movement/teleport) up to 3 squares. Each creature [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the space they leave takes 3 corruption damage.
 
 > ⭐️ **Rivalry**
 >
-> At the start of an encounter, the elementalist chooses one creature within their line of effect. Both the elementalist and the creature can add a d3 roll to power rolls they make against each other.
+> At the start of an encounter, the elementalist chooses one creature within their [line of effect](scc:mcdm.heroes.v1/rule.combat/line-of-effect). Both the elementalist and the creature can add a d3 roll to power rolls they make against each other.

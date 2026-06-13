@@ -32,7 +32,7 @@ weaknesses:
 | **Corruption 4, poison 4**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **Fire 5**<br>Weakness  |
 |            **+3**<br>Might             | **-1**<br>Agility | **+1**<br>Reason  |  **+3**<br>Intuition  |    **0**<br>Presence     |
 
-> 🗡 **Accursed Bindings (Signature Ability)**
+> 🗡 **Accursed Bindings ([Signature Ability](scc:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
 > | **Melee, Strike, Weapon** |               **Main action** |
 > |---------------------------|------------------------------:|
@@ -40,13 +40,13 @@ weaknesses:
 >
 > **Power Roll + 3:**
 >
-> - **≤11:** 6 corruption damage; pull 1
-> - **12-16:** 8 corruption damage; pull 2
-> - **17+:** 10 corruption damage; pull 2; M < 3 restrained (save ends)
+> - **≤11:** 6 corruption damage; [pull](scc:mcdm.heroes.v1/movement/forced-movement) 1
+> - **12-16:** 8 corruption damage; [pull](scc:mcdm.heroes.v1/movement/forced-movement) 2
+> - **17+:** 10 corruption damage; [pull](scc:mcdm.heroes.v1/movement/forced-movement) 2; M < 3 [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)
 >
-> **Effect:** The next ability the mummy uses against the target has any potency increased by 1 for the target.
+> **Effect:** The next ability the mummy uses against the target has any [potency](scc:mcdm.heroes.v1/rule.character/potency) increased by 1 for the target.
 
-> 🏹 **Eldritch Curse (3 Malice)**
+> 🏹 **Eldritch Curse (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Magic, Ranged** |     **Main action** |
 > |-------------------|--------------------:|
@@ -58,14 +58,14 @@ weaknesses:
 > - **12-16:** 5 corruption damage; I < 2 the target is cursed (save ends)
 > - **17+:** 7 corruption damage; I < 3 the target is cursed (save ends)
 >
-> **Effect:** A cursed target is bleeding and weakened, and allies gain an edge on strikes made against them.
+> **Effect:** A cursed target is [bleeding](scc:mcdm.heroes.v1/condition/bleeding) and [weakened](scc:mcdm.heroes.v1/condition/weakened), and allies gain an edge on strikes made against them.
 
-> ❗️ **Blast of Mummy Dust (1 Malice)**
+> ❗️ **Blast of Mummy Dust (1 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Area**       |           **Triggered action** |
 > |----------------|-------------------------------:|
 > | **📏 1 burst** | **🎯 The triggering creature** |
 >
-> **Trigger:** The mummy comes within distance of a restrained creature or starts their turn within distance of one.
+> **Trigger:** The mummy comes within distance of a [restrained](scc:mcdm.heroes.v1/condition/restrained) creature or starts their turn within distance of one.
 >
 > **Effect:** The target takes 8 poison damage.

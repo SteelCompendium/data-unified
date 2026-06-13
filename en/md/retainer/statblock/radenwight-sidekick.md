@@ -48,7 +48,7 @@ type: statblock
 >
 > **Trigger:** An ally deals damage to the target.
 >
-> **Effect:** The sidekick makes a free strike against the target.
+> **Effect:** The sidekick makes a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) against the target.
 
 ######## Level 4 Retainer Advancement Ability
 
@@ -58,7 +58,7 @@ type: statblock
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
-> **Effect:** If the sidekick's mentor moves adjacent to the sidekick at any point during the mentor's turn, the mentor gains a +1 bonus to speed and can automatically climb at full speed while moving until the end of their turn.
+> **Effect:** If the sidekick's mentor moves [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the sidekick at any point during the mentor's turn, the mentor gains a +1 bonus to speed and can automatically climb at full speed while moving until the end of their turn.
 
 ######## Level 7 Retainer Advancement Ability
 
@@ -70,9 +70,9 @@ type: statblock
 >
 > **Power Roll + highest characteristic:**
 >
-> - **≤11:** 6 poison damage; M < WEAK weakened (save ends)
-> - **12-16:** 9 poison damage; M < AVERAGE weakened (save ends)
-> - **17+:** 13 poison damage; M < STRONG weakened (save ends)
+> - **≤11:** 6 poison damage; M < WEAK [weakened](scc:mcdm.heroes.v1/condition/weakened) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
+> - **12-16:** 9 poison damage; M < AVERAGE [weakened](scc:mcdm.heroes.v1/condition/weakened) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
+> - **17+:** 13 poison damage; M < STRONG [weakened](scc:mcdm.heroes.v1/condition/weakened) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
 
 ######## Level 10 Retainer Advancement Ability
 
@@ -82,4 +82,4 @@ type: statblock
 > | --- | ---:|
 > | **📏 Ranged 10** | **🎯 Self and each ally** |
 >
-> **Effect:** Each target can spend a Recovery, and ends the dazed, frightened, and weakened conditions on themself.
+> **Effect:** Each target can spend a [Recovery](scc:mcdm.heroes.v1/rule.health/recoveries), and ends the [dazed](scc:mcdm.heroes.v1/condition/dazed), [frightened](scc:mcdm.heroes.v1/condition/frightened), and [weakened](scc:mcdm.heroes.v1/condition/weakened) conditions on themself.

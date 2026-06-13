@@ -28,7 +28,7 @@ type: statblock
 |      **-**<br>Immunity      | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |       **0**<br>Might        | **0**<br>Agility  | **+2**<br>Reason  |  **+3**<br>Intuition  |  **0**<br>Presence   |
 
-> 🏹 **Mark of Agony (Signature Ability)**
+> 🏹 **Mark of Agony ([Signature Ability](scc:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
 > | **Magic, Ranged, Strike** |               **Main action** |
 > |---------------------------|------------------------------:|
@@ -42,7 +42,7 @@ type: statblock
 >
 > **Effect:** Strikes made against a target marked this way gain an edge. Additionally, whenever the tormentite takes damage, each target marked by them takes 3 damage.
 
-> 🔳 **Vortex of Pain (3 Malice)**
+> 🔳 **Vortex of Pain (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Area, Magic, Ranged** |               **Main action** |
 > |-------------------------|------------------------------:|
@@ -52,9 +52,9 @@ type: statblock
 >
 > - **≤11:** 2 corruption damage
 > - **12-16:** 4 corruption damage
-> - **17+:** 5 corruption damage; one ally in the area can end one effect on them that can be ended by a saving throw, and can give that effect to one target
+> - **17+:** 5 corruption damage; one ally in the area can end one effect on them that can be ended by a [saving throw](scc:mcdm.heroes.v1/rule.general/saving-throw), and can give that effect to one target
 >
-> **Effect:** The tormentite regains 2 Stamina for each creature targeted by this ability.
+> **Effect:** The tormentite regains 2 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) for each creature targeted by this ability.
 
 > ⭐️ **Persistent Pain**
 >
@@ -62,4 +62,4 @@ type: statblock
 
 > ⭐️ **Loyalty Collar**
 >
-> When the tormentite is reduced to 0 Stamina, their loyalty collar explodes, dealing 2d6 damage to each adjacent enemy and object.
+> When the tormentite is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), their loyalty collar explodes, dealing 2d6 damage to each [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) enemy and object.

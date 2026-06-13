@@ -37,21 +37,21 @@ type: statblock
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 6 damage; push 1
-> - **12-16:** 9 damage; push 3
-> - **17+:** 12 damage; push 5
+> - **≤11:** 6 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 1
+> - **12-16:** 9 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 3
+> - **17+:** 12 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 5
 >
-> **Effect:** The chirurgeon can make a ranged free strike before using this ability.
+> **Effect:** The chirurgeon can make a ranged [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) before using this ability.
 >
-> **5 Malice:** The chirurgeon uses this ability again.
+> **5 [Malice](scc:mcdm.monsters.v1/rule.monster/malice):** The chirurgeon uses this ability again.
 
-> 🏹 **The Wode Protects Us (3 Malice)**
+> 🏹 **The Wode Protects Us (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Magic, Ranged** |                 **Maneuver** |
 > |-------------------|-----------------------------:|
 > | **📏 Ranged 5**   | **🎯 Self and three allies** |
 >
-> **Effect:** Each target can teleport up to 10 squares to a space that has cover or concealment.
+> **Effect:** Each target can [teleport](scc:mcdm.heroes.v1/movement/teleport) up to 10 squares to a space that has cover or concealment.
 
 > ⭐️ **Masking Glamor**
 >

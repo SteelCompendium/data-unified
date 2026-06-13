@@ -46,8 +46,8 @@ with_captain: Gain an edge on strikes
 
 > ⭐️ **Open Furnace**
 >
-> Whenever an enemy takes fire damage, they take 1 extra fire damage for each brandbearer adjacent to them.
+> Whenever an enemy takes fire damage, they take 1 extra fire damage for each brandbearer [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to them.
 
 > ⭐️ **Infernal Ichor**
 >
-> When the brandbearer is reduced to 0 Stamina, they spray burning blood. Each creature adjacent to the brandbearer takes 2 fire damage.
+> When the brandbearer is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), they spray burning blood. Each creature [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the brandbearer takes 2 fire damage.

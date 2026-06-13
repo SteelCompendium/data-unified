@@ -38,9 +38,9 @@ type: statblock
 >
 > - **≤11:** 5 damage
 > - **12-16:** 7 damage
-> - **17+:** 9 damage; prone
+> - **17+:** 9 damage; [prone](scc:mcdm.heroes.v1/condition/prone)
 >
-> **Effect:** If the skyterror is flying, they shift up to 4 squares.
+> **Effect:** If the skyterror is [flying](scc:mcdm.heroes.v1/movement/fly), they [shift](scc:mcdm.heroes.v1/movement/shifting) up to 4 squares.
 
 > 🏹 **Poison Blow Dart**
 >
@@ -50,16 +50,16 @@ type: statblock
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 3 damage; M < 0 weakened (save ends)
-> - **12-16:** 5 damage; M < 1 weakened (save ends)
-> - **17+:** 7 damage; M < 2 weakened (save ends)
+> - **≤11:** 3 damage; M < 0 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
+> - **12-16:** 5 damage; M < 1 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
+> - **17+:** 7 damage; M < 2 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
 >
-> **Effect:** Any creature who ends their turn adjacent to a target weakened this way is weakened until the end of their next turn.
+> **Effect:** Any creature who ends their turn [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to a target [weakened](scc:mcdm.heroes.v1/condition/weakened) this way is [weakened](scc:mcdm.heroes.v1/condition/weakened) until the end of their next turn.
 
 > ⭐️ **Glider**
 >
-> Whenever the skyterror moves 2 or more squares along the ground or falls 2 or more squares, they can fly until the end of their next turn.
+> Whenever the skyterror moves 2 or more squares along the ground or falls 2 or more squares, they can [fly](scc:mcdm.heroes.v1/movement/fly) until the end of their next turn.
 
 > ⭐️ **Reptilian Escape**
 >
-> While the skyterror has a tail, whenever they are grabbed, prone, slowed, or weakened, they can lose their tail to immediately end that condition, then shift up to 2 squares.
+> While the skyterror has a tail, whenever they are [grabbed](scc:mcdm.heroes.v1/condition/grabbed), [prone](scc:mcdm.heroes.v1/condition/prone), [slowed](scc:mcdm.heroes.v1/condition/slowed), or [weakened](scc:mcdm.heroes.v1/condition/weakened), they can lose their tail to immediately end that condition, then [shift](scc:mcdm.heroes.v1/movement/shifting) up to 2 squares.

@@ -1,6 +1,6 @@
 ---
 features:
-    - body: Ajax attempts to instill doubt into a creature within line of effect through logic and reason. The creature and Ajax make an opposed Reason test. If Ajax wins, he chooses to either deal 11 extra damage to one target on his next strike or to gain an additional triggered action during the current round. Ajax can't use this feature against the same creature during the same encounter.
+    - body: Ajax attempts to instill doubt into a creature within line of effect through logic and reason. The creature and Ajax make an opposed [Reason](scc:mcdm.heroes.v1/rule.character/reason) test. If Ajax wins, he chooses to either deal 11 extra damage to one target on his next strike or to gain an additional [triggered action](scc:mcdm.heroes.v1/rule.combat/triggered-action) during the current round. Ajax can't use this feature against the same creature during the same encounter.
       cost: 2 Malice
       icon: "\U0001F464"
       name: Reason
@@ -10,12 +10,12 @@ features:
       name: Nexus Jewel
       sections:
         - label: Incredibly High Above the Ground
-          text: The winds whip and bluster. Any creature who can't fly takes a −3 penalty to stability, and forced movement effects gain a +3 bonus to their distance against such creatures.
+          text: The winds whip and bluster. Any creature who can't [fly](scc:mcdm.heroes.v1/movement/fly) takes a −3 penalty to stability, and [forced movement](scc:mcdm.heroes.v1/movement/forced-movement) effects gain a +3 bonus to their distance against such creatures.
         - label: Swamp
-          text: The ground is difficult terrain for enemies. Any creature who starts and ends their turn in the same space is restrained (save ends).
+          text: The ground is [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain) for enemies. Any creature who starts and ends their turn in the same space is [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends).
         - label: Volcanic Canyon
           text: The air is stiflingly hot. Each enemy takes 5 fire damage for each square they enter.
-    - body: Ajax takes an additional main action on his turn. He can use this feature even if he is dazed.
+    - body: Ajax takes an additional main action on his turn. He can use this feature even if he is [dazed](scc:mcdm.heroes.v1/condition/dazed).
       cost: 5 Malice
       icon: ☠️
       name: Solo Action
@@ -31,13 +31,13 @@ features:
       power_roll:
         tiers:
             high: 16 damage
-            low: 26 damage; bleeding and slowed (save ends)
-            mid: 22 damage; bleeding (save ends)
+            low: 26 damage; [bleeding](scc:mcdm.heroes.v1/condition/bleeding) and [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
+            mid: 22 damage; [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
       sections:
         - label: Effect
           text: Each target makes a test using their highest characteristic.
       target: Each enemy and object in the area
-      trailing: Ajax then raises his Blade of the Gol King above his head as four giant blades emerge from the ground to fill the area. Each target is pushed into an unoccupied space adjacent to the area after the power roll is resolved. Each blade blocks line of effect and can be dismissed by Ajax at will (no action required).
+      trailing: Ajax then raises his Blade of the Gol King above his head as four giant blades emerge from the ground to fill the area. Each target is [pushed](scc:mcdm.heroes.v1/movement/forced-movement) into an unoccupied space adjacent to the area after the power roll is resolved. Each blade blocks line of effect and can be dismissed by Ajax at will (no action required).
       usage: Main Action
 flavor: At the start of Ajax's turn, you can spend Malice to activate one of the following features.
 kind: malice
@@ -48,23 +48,23 @@ type: featureblock
 
 At the start of Ajax's turn, you can spend Malice to activate one of the following features.
 
-> 👤 **Reason (2 Malice)**
+> 👤 **Reason (2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
 >
-> Ajax attempts to instill doubt into a creature within line of effect through logic and reason. The creature and Ajax make an opposed Reason test. If Ajax wins, he chooses to either deal 11 extra damage to one target on his next strike or to gain an additional triggered action during the current round. Ajax can't use this feature against the same creature during the same encounter.
+> Ajax attempts to instill doubt into a creature within line of effect through logic and reason. The creature and Ajax make an opposed [Reason](scc:mcdm.heroes.v1/rule.character/reason) test. If Ajax wins, he chooses to either deal 11 extra damage to one target on his next strike or to gain an additional [triggered action](scc:mcdm.heroes.v1/rule.combat/triggered-action) during the current round. Ajax can't use this feature against the same creature during the same encounter.
 
 > 🌀 **Nexus Jewel (5 Malice)**
 >
 > Until the end of the round, Ajax chooses one of the following environments he has previously visited and overlays that environment on top of the encounter map, temporarily merging multiple realities.
 >
-> **Incredibly High Above the Ground:** The winds whip and bluster. Any creature who can't fly takes a −3 penalty to stability, and forced movement effects gain a +3 bonus to their distance against such creatures.
+> **Incredibly High Above the Ground:** The winds whip and bluster. Any creature who can't [fly](scc:mcdm.heroes.v1/movement/fly) takes a −3 penalty to stability, and [forced movement](scc:mcdm.heroes.v1/movement/forced-movement) effects gain a +3 bonus to their distance against such creatures.
 >
-> **Swamp:** The ground is difficult terrain for enemies. Any creature who starts and ends their turn in the same space is restrained (save ends).
+> **Swamp:** The ground is [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain) for enemies. Any creature who starts and ends their turn in the same space is [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends).
 >
 > **Volcanic Canyon:** The air is stiflingly hot. Each enemy takes 5 fire damage for each square they enter.
 
-> ☠️ **Solo Action (5 Malice)**
+> ☠️ **Solo Action (5 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
 >
-> Ajax takes an additional main action on his turn. He can use this feature even if he is dazed.
+> Ajax takes an additional main action on his turn. He can use this feature even if he is [dazed](scc:mcdm.heroes.v1/condition/dazed).
 
 > 🔳 **Draw Steel (10 Malice)**
 >
@@ -74,8 +74,8 @@ At the start of Ajax's turn, you can spend Malice to activate one of the followi
 >
 > **Effect:** Each target makes a test using their highest characteristic.
 >
-> - **≤11:** 26 damage; bleeding and slowed (save ends)
-> - **12-16:** 22 damage; bleeding (save ends)
+> - **≤11:** 26 damage; [bleeding](scc:mcdm.heroes.v1/condition/bleeding) and [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
+> - **12-16:** 22 damage; [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
 > - **17+:** 16 damage
 >
-> Ajax then raises his Blade of the Gol King above his head as four giant blades emerge from the ground to fill the area. Each target is pushed into an unoccupied space adjacent to the area after the power roll is resolved. Each blade blocks line of effect and can be dismissed by Ajax at will (no action required).
+> Ajax then raises his Blade of the Gol King above his head as four giant blades emerge from the ground to fill the area. Each target is [pushed](scc:mcdm.heroes.v1/movement/forced-movement) into an unoccupied space adjacent to the area after the power roll is resolved. Each blade blocks line of effect and can be dismissed by Ajax at will (no action required).

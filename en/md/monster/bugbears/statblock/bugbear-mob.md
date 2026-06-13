@@ -40,10 +40,10 @@ with_captain: +2 damage bonus to strikes
 >
 > - **≤11:** 3 damage; pull 2
 > - **12-16:** 6 damage; pull 3
-> - **17+:** 7 damage; pull 4, grabbed
+> - **17+:** 7 damage; pull 4, [grabbed](scc:mcdm.heroes.v1/condition/grabbed)
 >
-> **Effect:** If the target is pulled into the mob, that forced movement deals damage only at the Director's determination.
+> **Effect:** If the target is pulled into the mob, that [forced movement](scc:mcdm.heroes.v1/movement/forced-movement) deals damage only at the Director's determination.
 
 > ⭐️ **Swarm**
 >
-> The mob can move through spaces as if they were a size 1L creature, and can occupy other creatures' spaces. At the start of each of the mob's turns, they can make a free strike against each creature whose space they share.
+> The mob can move through spaces as if they were a size 1L creature, and can occupy other creatures' spaces. At the start of each of the mob's turns, they can make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) against each creature whose space they share.

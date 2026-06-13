@@ -11,19 +11,19 @@ features:
       power_roll:
         formula: + 2
         tiers:
-            high: 9 corruption damage; A < 2 restrained (save ends)
-            low: 4 corruption damage; A < 0 slowed (save ends)
-            mid: 6 corruption damage; A < 1 slowed (save ends)
+            high: 9 corruption damage; A < 2 [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)
+            low: 4 corruption damage; A < 0 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
+            mid: 6 corruption damage; A < 1 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
       sections:
         - label: Special
-          text: This ability can't be used by a minion.
+          text: This ability can't be used by a [minion](scc:mcdm.monsters.v1/rule.organization/minion).
       target: Each enemy and object in the area
       usage: Maneuver
     - body: Each human acting this turn gains an edge on abilities until the end of their turn, or has a double edge on any ability that targets an enemy affected by a condition.
       cost: 5 Malice
       icon: ⭐️
       name: Exploit Opening
-    - body: Each non-minion human in the encounter regains Stamina equal to 5 times their level.
+    - body: Each non-[minion](scc:mcdm.monsters.v1/rule.organization/minion) human in the encounter regains [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) equal to 5 times their level.
       cost: 7 Malice
       icon: ⭐️
       name: Staying Power
@@ -34,9 +34,9 @@ scc: mcdm.monsters.v1/monster.humans/human-malice
 type: featureblock
 ---
 
-At the start of any human's turn, you can spend Malice to activate one of the following features.
+At the start of any human's turn, you can spend [Malice](scc:mcdm.monsters.v1/rule.monster/malice) to activate one of the following features.
 
-> 🔳 **Alchemical Device (3 Malice)**
+> 🔳 **Alchemical Device (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Area, Magic, Ranged** |                             **Maneuver** |
 > |-------------------------|-----------------------------------------:|
@@ -44,16 +44,16 @@ At the start of any human's turn, you can spend Malice to activate one of the fo
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 4 corruption damage; A < 0 slowed (save ends)
-> - **12-16:** 6 corruption damage; A < 1 slowed (save ends)
-> - **17+:** 9 corruption damage; A < 2 restrained (save ends)
+> - **≤11:** 4 corruption damage; A < 0 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
+> - **12-16:** 6 corruption damage; A < 1 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
+> - **17+:** 9 corruption damage; A < 2 [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)
 >
-> **Special:** This ability can't be used by a minion.
+> **Special:** This ability can't be used by a [minion](scc:mcdm.monsters.v1/rule.organization/minion).
 
-> ⭐️ **Exploit Opening (5 Malice)**
+> ⭐️ **Exploit Opening (5 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
 >
 > Each human acting this turn gains an edge on abilities until the end of their turn, or has a double edge on any ability that targets an enemy affected by a condition.
 
-> ⭐️ **Staying Power (7 Malice)**
+> ⭐️ **Staying Power (7 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
 >
-> Each non-minion human in the encounter regains Stamina equal to 5 times their level.
+> Each non-[minion](scc:mcdm.monsters.v1/rule.organization/minion) human in the encounter regains [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) equal to 5 times their level.

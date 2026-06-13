@@ -30,7 +30,7 @@ type: statblock
 | **Corruption 4, poison 4**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |            **+3**<br>Might             | **-1**<br>Agility |  **-2**<br>Reason  |  **+1**<br>Intuition  |  **+2**<br>Presence  |
 
-> 🗡 **Rotten Smash (Signature Ability)**
+> 🗡 **Rotten Smash ([Signature Ability](scc:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
 > | **Melee, Strike, Weapon** |                 **Main action** |
 > |---------------------------|--------------------------------:|
@@ -39,22 +39,22 @@ type: statblock
 > **Power Roll + 3:**
 >
 > - **≤11:** 9 damage
-> - **12-16:** 14 damage; A < 2 grabbed
-> - **17+:** 17 damage; A < 3 grabbed
+> - **12-16:** 14 damage; A < 2 [grabbed](scc:mcdm.heroes.v1/condition/grabbed)
+> - **17+:** 17 damage; A < 3 [grabbed](scc:mcdm.heroes.v1/condition/grabbed)
 
-> ❗️ **Knocking Heads (1 Malice)**
+> ❗️ **Knocking Heads (1 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **-**       |   **Triggered action** |
 > |-------------|-----------------------:|
 > | **📏 Self** | **🎯 Self; see below** |
 >
-> **Trigger:** The giant zombie grabs two creatures or objects, or starts their turn with two creatures or objects grabbed.
+> **Trigger:** The giant zombie [grabs](scc:mcdm.heroes.v1/condition/grabbed) two creatures or objects, or starts their turn with two creatures or objects [grabbed](scc:mcdm.heroes.v1/condition/grabbed).
 >
 > **Effect:** The creatures or objects are smashed together using Rotten Smash, which has a double edge.
 
 > ⭐️ **Endless Knight**
 >
-> The first time the giant zombie is reduced to 0 Stamina by damage that isn't fire damage or holy damage and their body isn't destroyed, they instead have 50 Stamina and fall prone.
+> The first time the giant zombie is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) by damage that isn't fire damage or holy damage and their body isn't destroyed, they instead have 50 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) and fall [prone](scc:mcdm.heroes.v1/condition/prone).
 
 > ⭐️ **Negative Nerves**
 >

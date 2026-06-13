@@ -27,7 +27,7 @@ type: statblock
 | **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **0**<br>Might   | **+2**<br>Agility |  **+4**<br>Reason  |  **+3**<br>Intuition  |  **0**<br>Presence   |
 
-> 🏹 **Verdant Rains (Signature Ability)**
+> 🏹 **Verdant Rains ([Signature Ability](scc:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
 > | **Green, Magic, Ranged, Strike** |                 **Main action** |
 > |----------------------------------|--------------------------------:|
@@ -35,13 +35,13 @@ type: statblock
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** 12 damage; slide 2; M < 2 4 acid damage
-> - **12-16:** 17 damage; slide 3; M < 3 6 acid damage
-> - **17+:** 21 damage; slide 4; M < 4 8 acid damage
+> - **≤11:** 12 damage; [slide](scc:mcdm.heroes.v1/movement/forced-movement) 2; M < 2 4 acid damage
+> - **12-16:** 17 damage; [slide](scc:mcdm.heroes.v1/movement/forced-movement) 3; M < 3 6 acid damage
+> - **17+:** 21 damage; [slide](scc:mcdm.heroes.v1/movement/forced-movement) 4; M < 4 8 acid damage
 >
-> **Effect:** One ally within distance ends one condition on themself.
+> **Effect:** One ally within distance ends one [condition](scc:mcdm.heroes.v1/rule.combat/condition) on themself.
 
-> 🔳 **The Chasm Engulfs (4 Malice)**
+> 🔳 **The Chasm Engulfs (4 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Area, Green, Magic, Ranged** |               **Main action** |
 > |--------------------------------|------------------------------:|
@@ -50,10 +50,10 @@ type: statblock
 > **Power Roll + 4:**
 >
 > - **≤11:** 6 damage
-> - **12-16:** 10 damage; restrained (EoT)
-> - **17+:** 14 damage; restrained (save ends)
+> - **12-16:** 10 damage; [restrained](scc:mcdm.heroes.v1/condition/restrained) (EoT)
+> - **17+:** 14 damage; [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)
 >
-> **Effect:** The area is difficult terrain for enemies until the end of the encounter. Any enemy in the area has acid weakness 5.
+> **Effect:** The area is [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain) for enemies until the end of the encounter. Any enemy in the area has acid [weakness](scc:mcdm.heroes.v1/rule.damage/damage-weakness) 5.
 
 > ❗️ **Maw of the Abyss**
 >
@@ -63,8 +63,8 @@ type: statblock
 >
 > **Trigger:** The elementalist takes damage.
 >
-> **Effect:** The elementalist can teleport up to 4 squares. Each creature adjacent to the space they leave or appear in takes 4 corruption damage.
+> **Effect:** The elementalist can [teleport](scc:mcdm.heroes.v1/movement/teleport) up to 4 squares. Each creature [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the space they leave or appear in takes 4 corruption damage.
 
 > ⭐️ **Rivalry**
 >
-> At the start of an encounter, the elementalist chooses one creature within their line of effect. Both the elementalist and the creature can add a d3 roll to power rolls they make against each other.
+> At the start of an encounter, the elementalist chooses one creature within their [line of effect](scc:mcdm.heroes.v1/rule.combat/line-of-effect). Both the elementalist and the creature can add a d3 roll to power rolls they make against each other.

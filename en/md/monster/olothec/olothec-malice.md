@@ -1,6 +1,6 @@
 ---
 features:
-    - body: The olothec takes an additional main action on their turn. They can use this feature even if they are dazed.
+    - body: The olothec takes an additional main action on their turn. They can use this feature even if they are [dazed](scc:mcdm.heroes.v1/condition/dazed).
       cost: 4 Malice
       icon: ☠️
       name: Solo Action
@@ -15,15 +15,15 @@ features:
       power_roll:
         formula: + 4
         tiers:
-            high: 20 psychic damage; A < 4 grabbed
-            low: 11 psychic damage; A < 2 grabbed
-            mid: 17 psychic damage; A < 3 grabbed
+            high: 20 psychic damage; A < 4 [grabbed](scc:mcdm.heroes.v1/condition/grabbed)
+            low: 11 psychic damage; A < 2 [grabbed](scc:mcdm.heroes.v1/condition/grabbed)
+            mid: 17 psychic damage; A < 3 [grabbed](scc:mcdm.heroes.v1/condition/grabbed)
       sections:
         - label: Effect
-          text: The olothec can pull a target grabbed this way adjacent to them. While grabbed this way, a target can't make saving throws to end any other effects, and the olothec has a double edge on strikes against them.
+          text: The olothec can [pull](scc:mcdm.heroes.v1/movement/forced-movement) a target [grabbed](scc:mcdm.heroes.v1/condition/grabbed) this way [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to them. While [grabbed](scc:mcdm.heroes.v1/condition/grabbed) this way, a target can't make [saving throws](scc:mcdm.heroes.v1/rule.general/saving-throw) to end any other effects, and the olothec has a double edge on strikes against them.
       target: One slimed, transformed, or devolved creature
       usage: Main action
-    - body: The olothec broadcasts their memory of the universe in its primordial state—a sweeping cacophony of transcendental irrationality and unceasing change. Until the end of the encounter, any creature who starts their turn within 3 squares of the olothec and has R < 3 is dazed and slowed until the end of their next turn).
+    - body: The olothec broadcasts their memory of the universe in its primordial state—a sweeping cacophony of transcendental irrationality and unceasing change. Until the end of the encounter, any creature who starts their turn within 3 squares of the olothec and has R < 3 is [dazed](scc:mcdm.heroes.v1/condition/dazed) and [slowed](scc:mcdm.heroes.v1/condition/slowed) until the end of their next turn).
       cost: 6 Malice
       icon: ❇️
       name: Memory of Chaos
@@ -36,11 +36,11 @@ type: featureblock
 
 At the start of an olothec's turn, you can spend Malice to activate one of the following features.
 
-> ☠️ **Solo Action (4 Malice)**
+> ☠️ **Solo Action (4 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
 >
-> The olothec takes an additional main action on their turn. They can use this feature even if they are dazed.
+> The olothec takes an additional main action on their turn. They can use this feature even if they are [dazed](scc:mcdm.heroes.v1/condition/dazed).
 
-> 🗡 **Writhing Envelopment (4 Malice)**
+> 🗡 **Writhing Envelopment (4 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Melee, Strike, Weapon** |                                      **Main action** |
 > |---------------------------|-----------------------------------------------------:|
@@ -48,12 +48,12 @@ At the start of an olothec's turn, you can spend Malice to activate one of the f
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** 11 psychic damage; A < 2 grabbed
-> - **12-16:** 17 psychic damage; A < 3 grabbed
-> - **17+:** 20 psychic damage; A < 4 grabbed
+> - **≤11:** 11 psychic damage; A < 2 [grabbed](scc:mcdm.heroes.v1/condition/grabbed)
+> - **12-16:** 17 psychic damage; A < 3 [grabbed](scc:mcdm.heroes.v1/condition/grabbed)
+> - **17+:** 20 psychic damage; A < 4 [grabbed](scc:mcdm.heroes.v1/condition/grabbed)
 >
-> **Effect:** The olothec can pull a target grabbed this way adjacent to them. While grabbed this way, a target can't make saving throws to end any other effects, and the olothec has a double edge on strikes against them.
+> **Effect:** The olothec can [pull](scc:mcdm.heroes.v1/movement/forced-movement) a target [grabbed](scc:mcdm.heroes.v1/condition/grabbed) this way [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to them. While [grabbed](scc:mcdm.heroes.v1/condition/grabbed) this way, a target can't make [saving throws](scc:mcdm.heroes.v1/rule.general/saving-throw) to end any other effects, and the olothec has a double edge on strikes against them.
 
-> ❇️ **Memory of Chaos (6 Malice)**
+> ❇️ **Memory of Chaos (6 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
 >
-> The olothec broadcasts their memory of the universe in its primordial state—a sweeping cacophony of transcendental irrationality and unceasing change. Until the end of the encounter, any creature who starts their turn within 3 squares of the olothec and has R < 3 is dazed and slowed until the end of their next turn).
+> The olothec broadcasts their memory of the universe in its primordial state—a sweeping cacophony of transcendental irrationality and unceasing change. Until the end of the encounter, any creature who starts their turn within 3 squares of the olothec and has R < 3 is [dazed](scc:mcdm.heroes.v1/condition/dazed) and [slowed](scc:mcdm.heroes.v1/condition/slowed) until the end of their next turn).

@@ -31,7 +31,7 @@ type: statblock
 |  **Psychic 6**<br>Immunity  | **Climb**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |       **0**<br>Might        |   **+3**<br>Agility   | **+2**<br>Reason  |  **+2**<br>Intuition  |  **+1**<br>Presence  |
 
-> 🏹 **Longarm Shrikegun (Signature Ability)**
+> 🏹 **Longarm Shrikegun ([Signature Ability](scc:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
 > | **Ranged, Strike, Weapon** |               **Main action** |
 > |----------------------------|------------------------------:|
@@ -41,11 +41,11 @@ type: statblock
 >
 > - **≤11:** 7 damage
 > - **12-16:** 9 damage
-> - **17+:** 11 damage; A < 3 bleeding (save ends)
+> - **17+:** 11 damage; A < 3 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
 >
 > **Effect:** This ability ignores cover and concealment. The arachnite chooses one of the following damage types when making the strike: acid, cold, fire, lightning, poison, psychic, or sonic.
 >
-> **2 Malice:** The arachnite can use this ability as if they were in the space of any ally within distance.
+> **2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice):** The arachnite can use this ability as if they were in the space of any ally within distance.
 
 > 🔳 **Web Vial**
 >
@@ -53,7 +53,7 @@ type: statblock
 > |-------------------------|---------------:|
 > | **📏 2 cube within 10** | **🎯 Special** |
 >
-> **Effect:** The area is difficult terrain until the end of the encounter.
+> **Effect:** The area is [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain) until the end of the encounter.
 
 > ⭐️ **Eight-Eyed Sight**
 >
@@ -61,4 +61,4 @@ type: statblock
 
 > ⭐️ **Loyalty Collar**
 >
-> When the arachnite is reduced to 0 Stamina, their loyalty collar explodes, dealing 2d6 damage to each adjacent enemy and object.
+> When the arachnite is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), their loyalty collar explodes, dealing 2d6 damage to each [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) enemy and object.

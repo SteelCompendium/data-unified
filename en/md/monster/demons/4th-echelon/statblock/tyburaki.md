@@ -43,7 +43,7 @@ with_captain: +4 damage bonus to strikes
 > - **12-16:** 7 damage
 > - **17+:** 9 damage
 >
-> **Effect:** The tyburaki can make a free strike against each enemy adjacent to the target.
+> **Effect:** The tyburaki can make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) against each enemy [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the target.
 
 > ⭐️ **Breacher**
 >

@@ -28,7 +28,7 @@ type: statblock
 |      **-**<br>Immunity      | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |       **+4**<br>Might       | **+2**<br>Agility |  **+1**<br>Reason  |  **+1**<br>Intuition  |  **+3**<br>Presence  |
 
-> 🗡 **Pile Bunker Gauntlet (Signature Ability)**
+> 🗡 **Pile Bunker Gauntlet ([Signature Ability](scc:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
 > | **Charge, Melee, Strike, Weapon** |                 **Main action** |
 > |-----------------------------------|--------------------------------:|
@@ -36,9 +36,9 @@ type: statblock
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** 12 damage; push 4; prone
-> - **12-16:** 17 damage; slide 4; prone or M < 3 dazed (save ends)
-> - **17+:** 21 damage; slide 4; prone; M < 4 dazed (save ends)
+> - **≤11:** 12 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 4; [prone](scc:mcdm.heroes.v1/condition/prone)
+> - **12-16:** 17 damage; [slide](scc:mcdm.heroes.v1/movement/forced-movement) 4; [prone](scc:mcdm.heroes.v1/condition/prone) or M < 3 [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)
+> - **17+:** 21 damage; [slide](scc:mcdm.heroes.v1/movement/forced-movement) 4; [prone](scc:mcdm.heroes.v1/condition/prone); M < 4 [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)
 
 > 👤 **Surging Power**
 >
@@ -46,12 +46,12 @@ type: statblock
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
-> **Effect:** Until the start of their next turn, the breaker has a double edge on abilities and is automatically affected by all potency effect.
+> **Effect:** Until the start of their next turn, the breaker has a double edge on abilities and is automatically affected by all [potency](scc:mcdm.heroes.v1/rule.character/potency) effect.
 
 > ⭐️ **Breaking Point**
 >
-> When the breaker would be reduced to 0 Stamina, they delay that effect as they end any conditions affecting them and immediately take a turn, regardless of whether they have already taken a turn this round. The breaker's abilities deal an extra 5 damage during this turn, at the end of which they are reduced to 0 Stamina.
+> When the breaker would be reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), they delay that effect as they end any conditions affecting them and immediately take a turn, regardless of whether they have already taken a turn this round. The breaker's abilities deal an extra 5 damage during this turn, at the end of which they are reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina).
 
 > ⭐️ **Loyalty Collar**
 >
-> When the breaker is reduced to 0 Stamina, their loyalty collar explodes, dealing 3d6 damage to each adjacent enemy and object.
+> When the breaker is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), their loyalty collar explodes, dealing 3d6 damage to each [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) enemy and object.

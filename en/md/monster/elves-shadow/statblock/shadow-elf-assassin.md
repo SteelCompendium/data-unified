@@ -43,9 +43,9 @@ type: statblock
 >
 > **Effect:** The next ability used against the target has a double edge.
 >
-> **5 Malice:** Each non-minion ally within 3 squares of the target can make a free strike against them.
+> **5 [Malice](scc:mcdm.monsters.v1/rule.monster/malice):** Each non-[minion](scc:mcdm.monsters.v1/rule.organization/minion) ally within 3 squares of the target can make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) against them.
 
-> 🔳 **Splitbow (2 Malice)**
+> 🔳 **Splitbow (2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Area, Ranged, Weapon**    |               **Main action** |
 > |-----------------------------|------------------------------:|
@@ -53,11 +53,11 @@ type: statblock
 >
 > **Power Roll + 3:**
 >
-> - **≤11:** 5 damage; I < 1 bleeding (save ends)
-> - **12-16:** 10 damage; I < 2 bleeding (save ends)
-> - **17+:** 12 damage; I < 3 bleeding (save ends)
+> - **≤11:** 5 damage; I < 1 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
+> - **12-16:** 10 damage; I < 2 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
+> - **17+:** 12 damage; I < 3 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
 >
-> **Effect:** Each target is pushed up to 4 squares.
+> **Effect:** Each target is [pushed](scc:mcdm.heroes.v1/movement/forced-movement) up to 4 squares.
 
 > ⭐️ **Of the Umbra**
 >

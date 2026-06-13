@@ -37,18 +37,18 @@ type: statblock
 >
 > - **≤11:** 4 damage
 > - **12-16:** 5 damage
-> - **17+:** 7 damage; prone; A < 2 bleeding (save ends)
+> - **17+:** 7 damage; [prone](scc:mcdm.heroes.v1/condition/prone); A < 2 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
 >
-> **2+ Malice:** This ability targets one additional target for each 2 Malice spent.
+> **2+ [Malice](scc:mcdm.monsters.v1/rule.monster/malice):** This ability targets one additional target for each 2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice) spent.
 
-> ❇️ **Marauder's Cackletongue (3 Malice)**
+> ❇️ **Marauder's Cackletongue (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Area**       |                          **Maneuver** |
 > |----------------|--------------------------------------:|
 > | **📏 2 burst** | **🎯 Self and each ally in the area** |
 >
-> **Effect:** Each target shifts up to their speed. If any target hasn't used their own Cackletongue maneuver on this turn, they can use it immediately at no cost.
+> **Effect:** Each target [shifts](scc:mcdm.heroes.v1/movement/shifting) up to their speed. If any target hasn't used their own Cackletongue maneuver on this turn, they can use it immediately at no cost.
 
 > ⭐️ **Death Frenzy**
 >
-> Whenever a non-minion ally within 7 squares of the marauder is reduced to 0 Stamina, the marauder moves up to their speed and can make a melee free strike.
+> Whenever a non-[minion](scc:mcdm.monsters.v1/rule.organization/minion) ally within 7 squares of the marauder is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), the marauder moves up to their speed and can make a melee [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike).

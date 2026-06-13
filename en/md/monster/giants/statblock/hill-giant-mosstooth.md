@@ -41,9 +41,9 @@ with_captain: +3 damage bonus to strikes
 >
 > - **≤11:** 4 damage
 > - **12-16:** 7 damage
-> - **17+:** 8 damage; grabbed
+> - **17+:** 8 damage; [grabbed](scc:mcdm.heroes.v1/condition/grabbed)
 >
-> **Effect:** The mosstooth can use a creature or object they have grabbed as a weapon for this ability, dealing an extra 5 damage to that creature or object and the target. They then end the grab and leave the creature or object prone in an unoccupied space adjacent to the target.
+> **Effect:** The mosstooth can use a creature or object they have [grabbed](scc:mcdm.heroes.v1/condition/grabbed) as a weapon for this ability, dealing an extra 5 damage to that creature or object and the target. They then end the grab and leave the creature or object [prone](scc:mcdm.heroes.v1/condition/prone) in an unoccupied space [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the target.
 
 > ⭐️ **Distracted**
 >

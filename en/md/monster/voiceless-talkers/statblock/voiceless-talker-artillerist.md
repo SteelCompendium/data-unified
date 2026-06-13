@@ -30,7 +30,7 @@ type: statblock
 | **Psychic 6**<br>Immunity | **Hover, teleport**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |      **0**<br>Might       |        **+3**<br>Agility        |  **+3**<br>Reason  |  **+2**<br>Intuition  |  **+1**<br>Presence  |
 
-> 🏹 **Psionic Rifle Burst (Signature Ability)**
+> 🏹 **Psionic Rifle Burst ([Signature Ability](scc:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
 > | **Psionic, Ranged, Strike, Weapon** |               **Main action** |
 > |-------------------------------------|------------------------------:|
@@ -55,8 +55,8 @@ type: statblock
 > **Power Roll + 3:**
 >
 > - **≤11:** 6 lightning damage
-> - **12-16:** 10 lightning damage; I < 2 slowed (save ends)
-> - **17+:** 13 lightning damage; I < 3 slowed (save ends)
+> - **12-16:** 10 lightning damage; I < 2 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
+> - **17+:** 13 lightning damage; I < 3 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
 
 > 🏹 **In Our Sights**
 >
@@ -68,17 +68,17 @@ type: statblock
 
 > ❗️ **Tactical Reposition (1 Malice)**
 >
-> | **-**       | **Triggered action** |
+> | **-**       | **[Triggered Action](scc:mcdm.heroes.v1/rule.combat/triggered-action)** |
 > |-------------|---------------------:|
 > | **📏 Self** |          **🎯 Self** |
 >
 > **Trigger:** The artillerist takes damage.
 >
-> **Effect:** The artillerist can teleport up to 5 squares and ignores any effects associated with the damage.
+> **Effect:** The artillerist can [teleport](scc:mcdm.heroes.v1/movement/teleport) up to 5 squares and ignores any effects associated with the damage.
 
 > ⭐️ **Psionic Conductor**
 >
-> Whenever a non-minion voiceless talker within 5 squares of the artillerist uses a psionic ability, they can do so as if they were in the artillerist's space.
+> Whenever a non-[minion](scc:mcdm.monsters.v1/rule.organization/minion) voiceless talker within 5 squares of the artillerist uses a psionic ability, they can do so as if they were in the artillerist's space.
 
 > ⭐️ **Locked On**
 >

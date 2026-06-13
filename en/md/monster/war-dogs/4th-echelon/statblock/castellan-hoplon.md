@@ -30,7 +30,7 @@ type: statblock
 |  **Damage 3**<br>Immunity   | **-**<br>Movement |          -          | **-**<br>With Captain |   **-**<br>Weakness   |
 |       **+5**<br>Might       | **+2**<br>Agility |  **+4**<br>Reason   |  **+3**<br>Intuition  |   **+4**<br>Presence  |
 
-> 🗡 **Inspiring Strike (Signature Ability)**
+> 🗡 **Inspiring Strike ([Signature Ability](scc:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
 > | **Melee, Strike, Weapon** |                 **Main action** |
 > |---------------------------|--------------------------------:|
@@ -39,20 +39,20 @@ type: statblock
 > **Power Roll + 5:**
 >
 > - **≤11:** 15 damage
-> - **12-16:** 20 damage; push 3
-> - **17+:** 24 damage; push 5
+> - **12-16:** 20 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 3
+> - **17+:** 24 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 5
 >
-> **Effect:** Two allies within 10 squares of Hoplon each shift up to their speed, then can take the Defend main action or make a free strike.
+> **Effect:** Two allies within 10 squares of Hoplon each [shift](scc:mcdm.heroes.v1/movement/shifting) up to their speed, then can take the Defend main action or make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike).
 
-> 🏹 **Summon the Onyx Tower (5 Malice)**
+> 🏹 **Summon the Onyx Tower (5 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Ranged**       |   **Maneuver** |
 > |------------------|---------------:|
 > | **📏 Ranged 15** | **🎯 Special** |
 >
-> **Effect:** A 10-square-tall tower made of black stone shimmers into being in an unoccupied space that is 5 squares on a side. The tower has three floors, an entrance in the middle of each side on the ground floor, and a crenelated rooftop. Any war dog inside or adjacent to the tower has damage immunity 2 and regains 5 Stamina at the start of each of their turns, and war dogs inside the tower can observe through and have line of effect through its walls. This ability can be used only once per encounter.
+> **Effect:** A 10-square-tall tower made of black stone shimmers into being in an unoccupied space that is 5 squares on a side. The tower has three floors, an entrance in the middle of each side on the ground floor, and a crenelated rooftop. Any war dog inside or [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the tower has damage immunity 2 and regains 5 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) at the start of each of their turns, and war dogs inside the tower can observe through and have line of effect through its walls. This ability can be used only once per encounter.
 
-> ❇️ **Shield Warden (2 Malice)**
+> ❇️ **Shield Warden (2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Area**       |                  **Maneuver** |
 > |----------------|------------------------------:|
@@ -74,7 +74,7 @@ type: statblock
 >
 > **Trigger:** An enemy within 10 squares targets an ally with an ability.
 >
-> **Effect:** Hoplon teleports to an unoccupied space adjacent to the enemy and becomes the new target of the ability. He can then make a free strike against the enemy, and if that enemy has R < 4 they are taunted until the end of their next turn.
+> **Effect:** Hoplon [teleports](scc:mcdm.heroes.v1/movement/teleport) to an unoccupied space [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the enemy and becomes the new target of the ability. He can then make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) against the enemy, and if that enemy has R < 4 they are taunted until the end of their next turn.
 
 > ⭐️ **Hold the Line**
 >
@@ -82,4 +82,4 @@ type: statblock
 
 > ⭐️ **Last Stand**
 >
-> The first time in an encounter that Hoplon is reduced to 0 Stamina, he instead has 1 Stamina and gains damage immunity 10 until the end of his next turn. When Hoplon is reduced to 0 Stamina again, each ally within 5 squares of him gains damage immunity 3 and deals an extra 5 damage on strikes, all until the end of the encounter.
+> The first time in an encounter that Hoplon is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), he instead has 1 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) and gains damage immunity 10 until the end of his next turn. When Hoplon is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) again, each ally within 5 squares of him gains damage immunity 3 and deals an extra 5 damage on strikes, all until the end of the encounter.

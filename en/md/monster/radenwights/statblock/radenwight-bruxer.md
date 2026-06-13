@@ -28,7 +28,7 @@ type: statblock
 |  **-**<br>Immunity   | **Climb**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |   **+2**<br>Might    |   **+1**<br>Agility   | **-1**<br>Reason  |  **0**<br>Intuition   |  **+1**<br>Presence  |
 
-> 🗡 **Lockjaw (Signature Ability)**
+> 🗡 **Lockjaw ([Signature Ability](scc:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
 > | **Melee, Strike, Weapon** |               **Main action** |
 > |---------------------------|------------------------------:|
@@ -38,11 +38,11 @@ type: statblock
 >
 > - **≤11:** 6 damage
 > - **12-16:** 9 damage
-> - **17+:** 12 damage; grabbed
+> - **17+:** 12 damage; [grabbed](scc:mcdm.heroes.v1/condition/grabbed)
 >
-> **Effect:** A target grabbed this way takes 2 damage at the start of each of the bruxer's turns.
+> **Effect:** A target [grabbed](scc:mcdm.heroes.v1/condition/grabbed) this way takes 2 damage at the start of each of the bruxer's turns.
 
-> ❇️ **Flurry of Bites (3 Malice)**
+> ❇️ **Flurry of Bites (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Area, Weapon** |               **Main action** |
 > |------------------|------------------------------:|
@@ -50,9 +50,9 @@ type: statblock
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 3 damage; A < 0 bleeding (save ends)
-> - **12-16:** 5 damage; A < 1 bleeding (save ends)
-> - **17+:** 8 damage; A < 2 bleeding (save ends)
+> - **≤11:** 3 damage; A < 0 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
+> - **12-16:** 5 damage; A < 1 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
+> - **17+:** 8 damage; A < 2 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
 
 > ❗️ **Ready Rodent**
 >
@@ -62,8 +62,8 @@ type: statblock
 >
 > **Trigger:** An ally deals damage to the target.
 >
-> **Effect:** The bruxer makes a free strike against the target.
+> **Effect:** The bruxer makes a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) against the target.
 
 > ⭐️ **Lockdown**
 >
-> Any enemy who shifts adjacent to the bruxer has that shift end. Additionally, any enemy adjacent to the bruxer can't shift.
+> Any enemy who [shifts](scc:mcdm.heroes.v1/movement/shifting) [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the bruxer has that shift end. Additionally, any enemy [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the bruxer can't [shift](scc:mcdm.heroes.v1/movement/shifting).

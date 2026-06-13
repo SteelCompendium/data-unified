@@ -43,4 +43,4 @@ with_captain: Gain an edge on strikes
 
 > ⭐️ **Crafty**
 >
-> The runner doesn't provoke opportunity attacks by moving.
+> The runner doesn't provoke [opportunity attacks](scc:mcdm.heroes.v1/rule.combat/opportunity-attack) by moving.

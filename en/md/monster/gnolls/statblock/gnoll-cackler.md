@@ -35,13 +35,13 @@ type: statblock
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 4 psychic damage; I < 0 the target makes a free strike against a creature of the cackler's choice
-> - **12-16:** 5 psychic damage; I < 1 the target makes a free strike against a creature of the cackler's choice
+> - **≤11:** 4 psychic damage; I < 0 the target makes a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) against a creature of the cackler's choice
+> - **12-16:** 5 psychic damage; I < 1 the target makes a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) against a creature of the cackler's choice
 > - **17+:** 7 psychic damage; I < 2 the target uses a signature ability against a creature of the cackler's choice
 >
-> **Effect:** An ally targeted by this ability ignores the damage and can make a free strike.
+> **Effect:** An ally targeted by this ability ignores the damage and can make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike).
 
-> ❇️ **Cackler's Cackletongue (4 Malice)**
+> ❇️ **Cackler's Cackletongue (4 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Area, Magic** |                     **Maneuver** |
 > |-----------------|---------------------------------:|
@@ -49,10 +49,10 @@ type: statblock
 >
 > **Effect:** Each enemy target makes an **Intuition test**. If any target hasn't used their own Cackletongue maneuver on this turn, they can use it immediately at no cost.
 >
-> - **≤11:** Frightened (save ends)
-> - **12-16:** Frightened (EoT)
+> - **≤11:** [Frightened](scc:mcdm.heroes.v1/condition/frightened) (save ends)
+> - **12-16:** [Frightened](scc:mcdm.heroes.v1/condition/frightened) (EoT)
 > - **17+:** No effect
 
 > ⭐️ **Death Frenzy**
 >
-> Whenever a non-minion ally within 5 squares of the cackler is reduced to 0 Stamina, the cackler moves up to their speed and can make a melee free strike.
+> Whenever a non-[minion](scc:mcdm.monsters.v1/rule.organization/minion) ally within 5 squares of the cackler is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), the cackler moves up to their speed and can make a melee [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike).

@@ -38,6 +38,6 @@ with_captain: +2 bonus to Stamina
 >
 > - **≤11:** 1 damage
 > - **12-16:** 2 damage
-> - **17+:** 3 damage; one ally adjacent to the target can make a free strike
+> - **17+:** 3 damage; one ally [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the target can make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike)
 >
 > **Effect:** The target can't use triggered actions until the start of the next round.

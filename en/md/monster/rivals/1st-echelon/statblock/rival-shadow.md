@@ -27,7 +27,7 @@ type: statblock
 | **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **0**<br>Might   | **+2**<br>Agility |  **0**<br>Reason  |  **0**<br>Intuition   |  **+1**<br>Presence  |
 
-> 🗡 **Swift Serration (Signature Ability)**
+> 🗡 **Swift Serration ([Signature Ability](scc:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
 > | **Melee, Strike, Weapon** |                 **Main action** |
 > |---------------------------|--------------------------------:|
@@ -37,9 +37,9 @@ type: statblock
 >
 > - **≤11:** 7 damage
 > - **12-16:** 11 damage
-> - **17+:** 14 damage; A < 2 bleeding (save ends)
+> - **17+:** 14 damage; A < 2 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
 >
-> **1 Malice:** The shadow can teleport up to 5 squares, then can attempt to hide.
+> **1 [Malice](scc:mcdm.monsters.v1/rule.monster/malice):** The shadow can [teleport](scc:mcdm.heroes.v1/movement/teleport) up to 5 squares, then can attempt to hide.
 
 > 👤 **Poison the Blade**
 >
@@ -47,12 +47,12 @@ type: statblock
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
-> **Effect:** The shadow coats their weapon with poison. They gain an edge on their next strike, and any potency for that strike increases by 1.
+> **Effect:** The shadow coats their weapon with poison. They gain an edge on their next [strike](scc:mcdm.heroes.v1/rule.combat/strike), and any [potency](scc:mcdm.heroes.v1/rule.character/potency) for that strike increases by 1.
 
 > ⭐️ **Exploit Opening**
 >
-> The shadow deals an extra 5 damage to any bleeding target.
+> The shadow deals an extra 5 damage to any [bleeding](scc:mcdm.heroes.v1/condition/bleeding) target.
 
 > ⭐️ **Rivalry**
 >
-> At the start of an encounter, the shadow chooses one creature within their line of effect. Both the shadow and the creature can add a d3 roll to power rolls they make against each other.
+> At the start of an encounter, the shadow chooses one creature within their [line of effect](scc:mcdm.heroes.v1/rule.combat/line-of-effect). Both the shadow and the creature can add a d3 roll to power rolls they make against each other.

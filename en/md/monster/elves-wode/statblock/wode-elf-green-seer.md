@@ -37,12 +37,12 @@ type: statblock
 > **Power Roll + 2:**
 >
 > - **≤11:** 5 damage
-> - **12-16:** 7 damage; I < 1 restrained (save ends)
-> - **17+:** 9 damage; I < 2 restrained (save ends)
+> - **12-16:** 7 damage; I < 1 [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)
+> - **17+:** 9 damage; I < 2 [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)
 >
-> **Effect:** While restrained this way, a target can't search for hidden creatures.
+> **Effect:** While [restrained](scc:mcdm.heroes.v1/condition/restrained) this way, a target can't search for hidden creatures.
 
-> 🏹 **The Natural Cycle (3 Malice)**
+> 🏹 **The Natural Cycle (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Magic, Ranged, Strike** |         **Maneuver** |
 > |---------------------------|---------------------:|
@@ -51,10 +51,10 @@ type: statblock
 > **Power Roll + 2:**
 >
 > - **≤11:** 2 damage
-> - **12-16:** 4 damage; P < 1 weakened (save ends)
-> - **17+:** 6 damage; P < 1 bleeding (save ends); the target has a double bane on strikes (save ends)
+> - **12-16:** 4 damage; P < 1 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
+> - **17+:** 6 damage; P < 1 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends); the target has a double bane on strikes (save ends)
 >
-> **Effect:** While bleeding or weakened this way, a target is covered in lichen.
+> **Effect:** While [bleeding](scc:mcdm.heroes.v1/condition/bleeding) or [weakened](scc:mcdm.heroes.v1/condition/weakened) this way, a target is covered in lichen.
 
 > ❗️ **Foreseen Punishment**
 >
@@ -64,7 +64,7 @@ type: statblock
 >
 > **Trigger:** A creature uses a triggered action targeting the green seer or an ally within distance.
 >
-> **Effect:** The green seer makes a free strike against the target after the target's triggered action is resolved.
+> **Effect:** The green seer makes a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) against the target after the target's triggered action is resolved.
 
 > ⭐️ **Masking Glamor**
 >

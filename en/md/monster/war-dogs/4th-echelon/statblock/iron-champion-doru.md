@@ -28,7 +28,7 @@ type: statblock
 |      **-**<br>Immunity      | **-**<br>Movement |          -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |       **+5**<br>Might       | **+4**<br>Agility |  **+1**<br>Reason   |  **+4**<br>Intuition  |  **+2**<br>Presence  |
 
-> 🗡 **Houndaxe (Signature Ability)**
+> 🗡 **Houndaxe ([Signature Ability](scc:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
 > | **Melee, Strike, Weapon** |                 **Main action** |
 > |---------------------------|--------------------------------:|
@@ -37,14 +37,14 @@ type: statblock
 > **Power Roll + 5:**
 >
 > - **≤11:** 15 damage
-> - **12-16:** 21 damage; Doru gains an edge on his next power roll; M < 4 slide 3
-> - **17+:** 25 damage; Doru has a double edge on his next power roll; M < 5 slide 5
+> - **12-16:** 21 damage; Doru gains an edge on his next power roll; M < 4 [slide](scc:mcdm.heroes.v1/movement/forced-movement) 3
+> - **17+:** 25 damage; Doru has a double edge on his next power roll; M < 5 [slide](scc:mcdm.heroes.v1/movement/forced-movement) 5
 >
 > **Effect:** The damage from this ability can't be reduced in any way.
 >
-> **3 Malice:** This ability targets one additional target.
+> **3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice):** This ability targets one additional target.
 
-> ❇️ **Bloody Whirlwind (2 Malice)**
+> ❇️ **Bloody Whirlwind (2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Area, Weapon** |                             **Main action** |
 > |------------------|--------------------------------------------:|
@@ -52,11 +52,11 @@ type: statblock
 >
 > **Power Roll + 5:**
 >
-> - **≤11:** 5 damage; A < 3 bleeding (save ends)
-> - **12-16:** 11 damage; A < 4 bleeding (save ends)
-> - **17+:** 15 damage; A < 5 bleeding (save ends)
+> - **≤11:** 5 damage; A < 3 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
+> - **12-16:** 11 damage; A < 4 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
+> - **17+:** 15 damage; A < 5 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
 >
-> **Effect:** This ability deals an extra 5 damage for each winded target in the area.
+> **Effect:** This ability deals an extra 5 damage for each [winded](scc:mcdm.heroes.v1/rule.health/winded) target in the area.
 
 > 🏹 **Hunting Leap**
 >
@@ -64,7 +64,7 @@ type: statblock
 > |-----------------|------------------------------:|
 > | **📏 Ranged 5** | **🎯 One creature or object** |
 >
-> **Effect:** Doru jumps to an unoccupied space adjacent to the target, then can make a free strike against them. If the target is bleeding or winded, the distance of the ability becomes Ranged 10 and the free strike deals an extra 5 damage.
+> **Effect:** Doru jumps to an unoccupied space [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the target, then can make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) against them. If the target is [bleeding](scc:mcdm.heroes.v1/condition/bleeding) or [winded](scc:mcdm.heroes.v1/rule.health/winded), the distance of the ability becomes Ranged 10 and the [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) deals an extra 5 damage.
 
 > ❗️ **Laugh It Off**
 >
@@ -78,12 +78,12 @@ type: statblock
 
 > ⭐️ **Iron Juggernaut**
 >
-> Doru can't be made slowed or restrained. Additionally, he can move while grabbed, and a creature grabbing him moves along with him unless they let go.
+> Doru can't be made [slowed](scc:mcdm.heroes.v1/condition/slowed) or [restrained](scc:mcdm.heroes.v1/condition/restrained). Additionally, he can move while [grabbed](scc:mcdm.heroes.v1/condition/grabbed), and a creature grabbing him moves along with him unless they let go.
 
 > ⭐️ **The Scarless**
 >
-> Doru regains 10 Stamina at the start of each of his turns unless he took acid or fire damage since the start of his previous turn. Whenever he regains Stamina this way, the Director can spend 2 Malice to end one effect on Doru that can be ended by a saving throw.
+> Doru regains 10 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) at the start of each of his turns unless he took acid or fire damage since the start of his previous turn. Whenever he regains [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) this way, the Director can spend 2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice) to end one effect on Doru that can be ended by a [saving throw](scc:mcdm.heroes.v1/rule.general/saving-throw).
 
 > ⭐️ **Champion's Loyalty Collar**
 >
-> When Doru is reduced to 0 Stamina, his loyalty collar explodes, dealing 20 damage to each enemy and object within 3 squares of him.
+> When Doru is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), his loyalty collar explodes, dealing 20 damage to each enemy and object within 3 squares of him.

@@ -30,7 +30,7 @@ type: statblock
 |   **Fire 2**<br>Immunity    | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |       **0**<br>Might        | **+2**<br>Agility |  **0**<br>Reason  |  **0**<br>Intuition   |  **0**<br>Presence   |
 
-> 🔳 **Flamebelcher (Signature Ability)**
+> 🔳 **Flamebelcher ([Signature Ability](scc:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
 > | **Area, Weapon**           |                             **Main action** |
 > |----------------------------|--------------------------------------------:|
@@ -44,7 +44,7 @@ type: statblock
 >
 > **Effect:** The area is covered in sticky fire until the start of the crucibite's next turn. Any creature who enters the area for the first time in a round or starts their turn there takes 2 fire damage.
 >
-> **3 Malice:** The area becomes a 10 x 1 line, and if any ally of the crucibite is in the area when it is created, the ability deals an extra 2 damage to each target.
+> **3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice):** The area becomes a 10 x 1 line, and if any ally of the crucibite is in the area when it is created, the ability deals an extra 2 damage to each target.
 
 > 🏹 **Posthumous Promotion**
 >
@@ -52,8 +52,8 @@ type: statblock
 > |-------------------|-------------------:|
 > | **📏 Ranged 10**  | **🎯 One war dog** |
 >
-> **Effect:** If the target has a loyalty collar, they are reduced to 0 Stamina.
+> **Effect:** If the target has a loyalty collar, they are reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina).
 
 > ⭐️ **Loyalty Collar**
 >
-> When the crucibite is reduced to 0 Stamina, their loyalty collar explodes, dealing 1d6 damage to each adjacent enemy and object.
+> When the crucibite is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), their loyalty collar explodes, dealing 1d6 damage to each [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) enemy and object.

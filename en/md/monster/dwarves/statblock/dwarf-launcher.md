@@ -35,13 +35,13 @@ type: statblock
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 3 damage; push 1
-> - **12-16:** 6 damage; push 3; M < 1 slowed (save ends)
-> - **17+:** 8 damage; push 3; M < 2 slowed (save ends)
+> - **≤11:** 3 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 1
+> - **12-16:** 6 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 3; M < 1 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
+> - **17+:** 8 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 3; M < 2 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
 >
-> **Effect:** A target restrained by a dwarf can be force moved by this ability. This forced movement doesn't end the restrained condition unless the Director determines otherwise.
+> **Effect:** A target [restrained](scc:mcdm.heroes.v1/condition/restrained) by a dwarf can be force moved by this ability. This forced movement doesn't end the [restrained](scc:mcdm.heroes.v1/condition/restrained) condition unless the Director determines otherwise.
 
-> 🔳 **Sleep Grenade (3 Malice)**
+> 🔳 **Sleep Grenade (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Ranged, Weapon**     |               **Main action** |
 > |------------------------|------------------------------:| 
@@ -49,11 +49,11 @@ type: statblock
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 3 poison damage; I < 0 dazed (save ends)
-> - **12-16:** 6 poison damage; I < 1 dazed (save ends)
-> - **17+:** 8 poison damage; I < 2 dazed (save ends)
+> - **≤11:** 3 poison damage; I < 0 [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)
+> - **12-16:** 6 poison damage; I < 1 [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)
+> - **17+:** 8 poison damage; I < 2 [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)
 >
-> **Effect:** A target dazed this way treats their characteristic scores as 1 lower for the purpose of resisting potencies.
+> **Effect:** A target [dazed](scc:mcdm.heroes.v1/condition/dazed) this way treats their characteristic scores as 1 lower for the purpose of resisting [potencies](scc:mcdm.heroes.v1/rule.character/potency).
 
 > ⭐️ **Indirect Fire**
 >

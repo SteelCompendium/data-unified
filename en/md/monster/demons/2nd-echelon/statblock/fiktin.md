@@ -39,21 +39,21 @@ weaknesses:
 >
 > - **≤11:** 3 corruption damage
 > - **12-16:** 6 corruption damage
-> - **17+:** 7 corruption damage; I < 3 dazed (save ends)
+> - **17+:** 7 corruption damage; I < 3 [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)
 >
 > **Effect:** The fiktin violently changes shape, dealing an extra 6 damage to any target they were hidden from with their Aggressive Mimicry ability.
 
-> 👤 **Aggressive Mimicry (1 Malice)**
+> 👤 **Aggressive Mimicry (1 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Magic**   | **Maneuver** |
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
-> **Effect:** The fiktin transforms into a mundane object of their size or smaller and is automatically hidden. They can revert to their true form as a free maneuver.
+> **Effect:** The fiktin transforms into a mundane object of their size or smaller and is automatically hidden. They can revert to their true form as a [free maneuver](scc:mcdm.heroes.v1/rule.combat/free-maneuver).
 
 > ⭐️ **Lethe**
 >
-> While the fiktin is winded, they gain an edge on strikes, and any strike made against them gains an edge.
+> While the fiktin is [winded](scc:mcdm.heroes.v1/rule.health/winded), they gain an [edge](scc:mcdm.heroes.v1/rule.dice/edge) on strikes, and any strike made against them gains an edge.
 
 > ⭐️ **Soulsight**
 >

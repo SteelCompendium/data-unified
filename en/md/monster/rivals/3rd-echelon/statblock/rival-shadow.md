@@ -27,7 +27,7 @@ type: statblock
 | **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **0**<br>Might   | **+4**<br>Agility |  **+2**<br>Reason  |  **0**<br>Intuition   |  **+3**<br>Presence  |
 
-> 🗡 **Assail and Serrate (Signature Ability)**
+> 🗡 **Assail and Serrate ([Signature Ability](scc:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
 > | **Melee, Strike, Weapon** |                 **Main action** |
 > |---------------------------|--------------------------------:|
@@ -35,11 +35,11 @@ type: statblock
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** 13 damage; A < 2 bleeding (save ends)
-> - **12-16:** 18 damage; A < 3 bleeding (save ends)
-> - **17+:** 22 damage; A < 4 bleeding and weakened (save ends)
+> - **≤11:** 13 damage; A < 2 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
+> - **12-16:** 18 damage; A < 3 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
+> - **17+:** 22 damage; A < 4 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) and [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
 >
-> **1 Malice:** The shadow can teleport up to 7 squares, then can attempt to hide.
+> **1 [Malice](scc:mcdm.monsters.v1/rule.monster/malice):** The shadow can [teleport](scc:mcdm.heroes.v1/movement/teleport) up to 7 squares, then can attempt to hide.
 
 > 👤 **Poison the Blade**
 >
@@ -47,12 +47,12 @@ type: statblock
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
-> **Effect:** The shadow coats their weapon with poison. They have a double edge on their next strike, and any potency for that strike increases by 2.
+> **Effect:** The shadow coats their weapon with poison. They have a double edge on their next [strike](scc:mcdm.heroes.v1/rule.combat/strike), and any [potency](scc:mcdm.heroes.v1/rule.character/potency) for that strike increases by 2.
 
 > ⭐️ **Exploit Weakness**
 >
-> The shadow deals an extra 9 damage to any target affected by a condition.
+> The shadow deals an extra 9 damage to any target affected by a [condition](scc:mcdm.heroes.v1/rule.combat/condition).
 
 > ⭐️ **Rivalry**
 >
-> At the start of an encounter, the shadow chooses one creature within their line of effect. Both the shadow and the creature can add a d3 roll to power rolls they make against each other.
+> At the start of an encounter, the shadow chooses one creature within their [line of effect](scc:mcdm.heroes.v1/rule.combat/line-of-effect). Both the shadow and the creature can add a d3 roll to power rolls they make against each other.

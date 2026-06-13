@@ -34,13 +34,13 @@ type: statblock
 >
 > **Power Roll + 3:**
 >
-> - **≤11:** 8 damage; slide 1
-> - **12-16:** 12 damage; slide 3
-> - **17+:** 15 damage; slide 5
+> - **≤11:** 8 damage; [slide](scc:mcdm.heroes.v1/movement/forced-movement) 1
+> - **12-16:** 12 damage; [slide](scc:mcdm.heroes.v1/movement/forced-movement) 3
+> - **17+:** 15 damage; [slide](scc:mcdm.heroes.v1/movement/forced-movement) 5
 >
-> **Effect:** A target restrained by a dwarf can be force moved by this ability. This forced movement doesn't end the restrained condition unless the Director determines otherwise.
+> **Effect:** A target [restrained](scc:mcdm.heroes.v1/condition/restrained) by a dwarf can be force moved by this ability. This forced movement doesn't end the [restrained](scc:mcdm.heroes.v1/condition/restrained) condition unless the Director determines otherwise.
 >
-> **3 Malice:** A target force moved adjacent to an ally of the marauder lord is restrained until the end of their next turn.
+> **3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice):** A target force moved [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to an ally of the marauder lord is [restrained](scc:mcdm.heroes.v1/condition/restrained) until the end of their next turn.
 
 > 🏹 **Magnetomancy**
 >
@@ -48,9 +48,9 @@ type: statblock
 > |---------------------|------------------------------:|
 > | **📏 Ranged 10**    | **🎯 One creature or object** |
 >
-> **Effect:** The target vertical slides up to 5 squares. A target restrained by a dwarf can be force moved by this ability. This forced movement doesn't end the restrained condition unless the Director determines otherwise.
+> **Effect:** The target vertical [slides](scc:mcdm.heroes.v1/movement/forced-movement) up to 5 squares. A target [restrained](scc:mcdm.heroes.v1/condition/restrained) by a dwarf can be force moved by this ability. This forced movement doesn't end the [restrained](scc:mcdm.heroes.v1/condition/restrained) condition unless the Director determines otherwise.
 >
-> **5 Malice:** This ability takes the Area keyword and loses the Ranged keyword, its distance becomes a 10 burst, and it targets each restrained creature in the area.
+> **5 [Malice](scc:mcdm.monsters.v1/rule.monster/malice):** This ability takes the Area keyword and loses the Ranged keyword, its distance becomes a 10 burst, and it targets each [restrained](scc:mcdm.heroes.v1/condition/restrained) creature in the area.
 
 > ❗️ **Your Weapon Is Useless**
 >

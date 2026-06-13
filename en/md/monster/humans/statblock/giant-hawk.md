@@ -38,11 +38,11 @@ type: statblock
 >
 > - **≤11:** 5 damage
 > - **12-16:** 7 damage
-> - **17+:** 9 damage; grabbed
+> - **17+:** 9 damage; [grabbed](scc:mcdm.heroes.v1/condition/grabbed)
 >
-> **2 Malice:** If this ability gains an edge or has a double edge, it deals an extra 2 damage.
+> **2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice):** If this ability gains an edge or has a double edge, it deals an extra 2 damage.
 
-> 👤 **Dive (1 Malice)**
+> 👤 **Dive (1 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **-**       | **Maneuver** |
 > |-------------|-------------:|
@@ -52,4 +52,4 @@ type: statblock
 
 > ⭐️ **Mounted Platform**
 >
-> Once per turn when the hawk moves, any creature riding the hawk can make a free strike during or after the movement.
+> Once per turn when the hawk moves, any creature riding the hawk can make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) during or after the movement.

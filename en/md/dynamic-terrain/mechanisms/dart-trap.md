@@ -1,14 +1,14 @@
 ---
 features:
-    - body: As a maneuver, a creature adjacent to a dart trap can make an **Agility test**.
+    - body: As a maneuver, a creature [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to a dart trap can make an **Agility test**.
       icon: "\U0001F300"
       name: Deactivate
       power_roll:
         tiers:
             high: The trap is deactivated and doesn’t trigger.
             low: The creature triggers the trap and is targeted by it.
-            mid: The trap is deactivated but the creature is slowed (EoT).
-    - body: A pressure plate, switch, or other linked trigger is activated.
+            mid: The trap is deactivated but the creature is [slowed](scc:mcdm.heroes.v1/condition/slowed) (EoT).
+    - body: A [pressure plate](scc:mcdm.monsters.v1/dynamic-terrain.mechanisms/pressure-plate), [switch](scc:mcdm.monsters.v1/dynamic-terrain.mechanisms/switch), or other linked trigger is activated.
       icon: ❕
       name: Activate
       sections:
@@ -29,11 +29,11 @@ features:
             mid: 4 damage
       sections:
         - label: Trigger
-          text: A pressure plate, switch, or other linked trigger is activated.
+          text: A [pressure plate](scc:mcdm.monsters.v1/dynamic-terrain.mechanisms/pressure-plate), [switch](scc:mcdm.monsters.v1/dynamic-terrain.mechanisms/switch), or other linked trigger is activated.
       target: One creature or object
       usage: Free triggered action
     - body: |-
-        **Poison Darts (+2 EV)** The darts are tipped with poison. Any creature who takes damage from a dart also takes 1d6 poison damage at the start of each of their turns (save ends).
+        **Poison Darts (+2 EV)** The darts are tipped with poison. Any creature who takes damage from a dart also takes 1d6 poison damage at the start of each of their turns ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends).
 
         **Large Darts (+1 EV)** Larger, heavier darts impart kinetic force to the trap's attack. A target of the **Dart** ability is pushed 1 square on a tier 1 outcome, 2 squares on a tier 2 outcome, or 3 squares on a tier 3 outcome.
 
@@ -70,15 +70,15 @@ A concealed dart thrower hurls missiles at short range.
 
 > 🌀 **Deactivate**
 >
-> As a maneuver, a creature adjacent to a dart trap can make an **Agility test**.
+> As a maneuver, a creature [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to a dart trap can make an **Agility test**.
 >
 > - **≤11:** The creature triggers the trap and is targeted by it.
-> - **12-16:** The trap is deactivated but the creature is slowed (EoT).
+> - **12-16:** The trap is deactivated but the creature is [slowed](scc:mcdm.heroes.v1/condition/slowed) (EoT).
 > - **17+:** The trap is deactivated and doesn’t trigger.
 
 > ❕ **Activate**
 >
-> A pressure plate, switch, or other linked trigger is activated.
+> A [pressure plate](scc:mcdm.monsters.v1/dynamic-terrain.mechanisms/pressure-plate), [switch](scc:mcdm.monsters.v1/dynamic-terrain.mechanisms/switch), or other linked trigger is activated.
 >
 > **Effect:** The **Dart** ability.
 
@@ -88,7 +88,7 @@ A concealed dart thrower hurls missiles at short range.
 > |----------------------------|------------------------------:|
 > | **📏 Ranged 5**            | **🎯 One creature or object** |
 >
-> **Trigger:** A pressure plate, switch, or other linked trigger is activated.
+> **Trigger:** A [pressure plate](scc:mcdm.monsters.v1/dynamic-terrain.mechanisms/pressure-plate), [switch](scc:mcdm.monsters.v1/dynamic-terrain.mechanisms/switch), or other linked trigger is activated.
 >
 > **Power Roll + 2:**
 >
@@ -98,7 +98,7 @@ A concealed dart thrower hurls missiles at short range.
 
 > ⭐️ **Upgrades**
 >
-> **Poison Darts (+2 EV)** The darts are tipped with poison. Any creature who takes damage from a dart also takes 1d6 poison damage at the start of each of their turns (save ends).
+> **Poison Darts (+2 EV)** The darts are tipped with poison. Any creature who takes damage from a dart also takes 1d6 poison damage at the start of each of their turns ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends).
 >
 > **Large Darts (+1 EV)** Larger, heavier darts impart kinetic force to the trap's attack. A target of the **Dart** ability is pushed 1 square on a tier 1 outcome, 2 squares on a tier 2 outcome, or 3 squares on a tier 3 outcome.
 >

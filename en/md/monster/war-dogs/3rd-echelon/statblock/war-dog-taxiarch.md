@@ -28,7 +28,7 @@ type: statblock
 |      **-**<br>Immunity      | **Teleport**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |       **+1**<br>Might       |    **+3**<br>Agility     |  **+5**<br>Reason  |  **+4**<br>Intuition  |  **+3**<br>Presence  |
 
-> 🏹 **Stunning Surge (Signature Ability)**
+> 🏹 **Stunning Surge ([Signature Ability](scc:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
 > | **Magic, Ranged, Strike** |                 **Main action** |
 > |---------------------------|--------------------------------:|
@@ -36,21 +36,21 @@ type: statblock
 >
 > **Power Roll + 5:**
 >
-> - **≤11:** 14 lightning damage; the lightning spreads 1 square; I < 3 dazed (save ends)
-> - **12-16:** 19 lightning damage; the lightning spreads 2 squares; I < 4 dazed (save ends)
-> - **17+:** 23 lightning damage; the lightning spreads 3 squares; I < 5 dazed (save ends)
+> - **≤11:** 14 lightning damage; the lightning spreads 1 square; I < 3 [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)
+> - **12-16:** 19 lightning damage; the lightning spreads 2 squares; I < 4 [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)
+> - **17+:** 23 lightning damage; the lightning spreads 3 squares; I < 5 [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)
 >
 > **Effect:** The spread is the distance the charge arcs from a target to nearby enemies. Each enemy within spread takes 5 lightning damage.
 >
-> **2 Malice:** The lighting spread increases by 2 squares. Additionally, any creature who takes lightning damage from this ability and who has M < 4 is slowed until the end of their next turn.
+> **2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice):** The lighting spread increases by 2 squares. Additionally, any creature who takes lightning damage from this ability and who has M < 4 is [slowed](scc:mcdm.heroes.v1/condition/slowed) until the end of their next turn.
 
-> 🔳 **Overcharge (2 Malice)**
+> 🔳 **Overcharge (2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Area, Magic, Ranged** |                    **Maneuver** |
 > |-------------------------|--------------------------------:|
 > | **📏 4 cube within 10** | **🎯 Each war dog in the area** |
 >
-> **Effect:** Each target shifts up to their speed and can make a free strike that deals an extra 5 lightning damage.
+> **Effect:** Each target [shifts](scc:mcdm.heroes.v1/movement/shifting) up to their speed and can make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) that deals an extra 5 lightning damage.
 
 > ❗️ **Thunderstruck**
 >
@@ -60,29 +60,29 @@ type: statblock
 >
 > **Trigger:** An enemy within distance deals damage to the taxiarch.
 >
-> **Effect:** After the ability is resolved, the target is teleported up to 5 squares and is thunderstruck (save ends). A thunderstruck creature has lightning weakness 5, and the taxiarch gains an edge on power rolls against them.
+> **Effect:** After the ability is resolved, the target is [teleported](scc:mcdm.heroes.v1/movement/teleport) up to 5 squares and is thunderstruck (save ends). A thunderstruck creature has lightning weakness 5, and the taxiarch gains an edge on power rolls against them.
 
-> ⭐️ **End Effect**
+> ⭐️ **[End Effect](scc:mcdm.monsters.v1/rule.monster/end-effect)**
 >
-> At the end of each of their turns, the taxiarch can take 15 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way.
+> At the end of each of their turns, the taxiarch can take 15 damage to end one effect on them that can be ended by a [saving throw](scc:mcdm.heroes.v1/rule.general/saving-throw). This damage can't be reduced in any way.
 
-> ☠️ **Magnetic Trickery (Villain Action 1)**
+> ☠️ **Magnetic Trickery ([Villain Action](scc:mcdm.monsters.v1/rule.monster/villain-action) 1)**
 >
 > | **Area, Magic** |                         **-** |
 > |-----------------|------------------------------:|
 > | **📏 10 burst** | **🎯 Each enemy in the area** |
 >
-> **Effect:** Slide 5, and if the the target has M < 4, they fall prone.
+> **Effect:** [Slide](scc:mcdm.heroes.v1/movement/forced-movement) 5, and if the the target has M < 4, they fall [prone](scc:mcdm.heroes.v1/condition/prone).
 
-> ☠️ **Conductor of Combat (Villain Action 2)**
+> ☠️ **Conductor of Combat ([Villain Action](scc:mcdm.monsters.v1/rule.monster/villain-action) 2)**
 >
 > | **Area, Magic** |                           **-** |
 > |-----------------|--------------------------------:|
 > | **📏 5 burst**  | **🎯 Each war dog in the area** |
 >
-> **Effect:** Each target shifts up to their speed, then can make a free strike or use a maneuver.
+> **Effect:** Each target [shifts](scc:mcdm.heroes.v1/movement/shifting) up to their speed, then can make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) or use a maneuver.
 
-> ☠️ **Unlimited Power! (Villain Action 3)**
+> ☠️ **Unlimited Power! ([Villain Action](scc:mcdm.monsters.v1/rule.monster/villain-action) 3)**
 >
 > | **Area, Magic** |                            **-** |
 > |-----------------|---------------------------------:|

@@ -42,11 +42,11 @@ type: statblock
 > - **12-16:** 5 damage
 > - **17+:** 7 damage
 >
-> **Effect:** Before or after making this strike, the hopper jumps up to 2 squares, or up to 4 squares if they jump over their mentor's space.
+> **Effect:** Before or after making this [strike](scc:mcdm.heroes.v1/rule.combat/strike), the hopper jumps up to 2 squares, or up to 4 squares if they jump over their mentor's space.
 
 > ⭐️ **Toxiferous**
 >
-> Whenever an adjacent enemy grabs the hopper or uses a melee ability against them, that enemy takes 3 poison damage.
+> Whenever an [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) enemy grabs the hopper or uses a melee ability against them, that enemy takes 3 poison damage.
 
 ######## Level 4 Retainer Advancement Ability
 
@@ -58,11 +58,11 @@ type: statblock
 >
 > **Power Roll + highest characteristic:**
 >
-> - **≤11:** 5 damage; M < WEAK, prone
-> - **12-16:** 9 damage; M < AVERAGE, prone
-> - **17+:** 12 damage; M < STRONG, prone
+> - **≤11:** 5 damage; M < WEAK, [prone](scc:mcdm.heroes.v1/condition/prone)
+> - **12-16:** 9 damage; M < AVERAGE, [prone](scc:mcdm.heroes.v1/condition/prone)
+> - **17+:** 12 damage; M < STRONG, [prone](scc:mcdm.heroes.v1/condition/prone)
 >
-> **Effect:** The hopper can jump up to their speed in a straight line before the strike without provoking opportunity attacks. If they jump 2 or more squares this way, they gain 1 surge.
+> **Effect:** The hopper can jump up to their speed in a straight line before the [strike](scc:mcdm.heroes.v1/rule.combat/strike) without provoking [opportunity attacks](scc:mcdm.heroes.v1/rule.combat/opportunity-attack). If they jump 2 or more squares this way, they gain 1 [surge](scc:mcdm.heroes.v1/rule.resource/surge).
 
 ######## Level 7 Retainer Advancement Ability
 
@@ -74,9 +74,9 @@ type: statblock
 >
 > **Power Roll + highest characteristic:**
 >
-> - **≤11:** 5 poison damage; M < WEAK, weakened (save ends)
-> - **12-16:** 9 poison damage; M < AVERAGE, slowed and weakened (save ends)
-> - **17+:** 12 poison damage; M < STRONG, dazed, slowed, and weakened (save ends)
+> - **≤11:** 5 poison damage; M < WEAK, [weakened](scc:mcdm.heroes.v1/condition/weakened) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
+> - **12-16:** 9 poison damage; M < AVERAGE, [slowed](scc:mcdm.heroes.v1/condition/slowed) and [weakened](scc:mcdm.heroes.v1/condition/weakened) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
+> - **17+:** 12 poison damage; M < STRONG, [dazed](scc:mcdm.heroes.v1/condition/dazed), [slowed](scc:mcdm.heroes.v1/condition/slowed), and [weakened](scc:mcdm.heroes.v1/condition/weakened) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
 
 ######## Level 10 Retainer Advancement Ability
 
@@ -88,4 +88,4 @@ type: statblock
 >
 > **Trigger:** A creature moves within distance.
 >
-> **Effect:** If the target has M < AVERAGE, their movement ends, they are knocked prone, and one ally within distance gains 2 surges.
+> **Effect:** If the target has M < AVERAGE, their movement ends, they are knocked [prone](scc:mcdm.heroes.v1/condition/prone), and one ally within distance gains 2 [surges](scc:mcdm.heroes.v1/rule.resource/surge).

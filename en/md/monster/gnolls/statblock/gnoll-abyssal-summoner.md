@@ -41,7 +41,7 @@ type: statblock
 >
 > **Effect:** A burning creature takes 1d6 fire damage at the start of each of their turns. A burning object takes 1d6 fire damage at the end of each round.
 
-> 🏹 **Call Abyssal Hyenas (3 Malice)**
+> 🏹 **Call Abyssal Hyenas (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Ranged**      |   **Maneuver** |
 > |-----------------|---------------:|
@@ -49,14 +49,14 @@ type: statblock
 >
 > **Effect:** Two abyssal hyenas claw up from the ground in unoccupied spaces within distance.
 
-> ❇️ **Summoner's Cackletongue (4 Malice)**
+> ❇️ **Summoner's Cackletongue (4 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Area**       |                 **Maneuver** |
 > |----------------|-----------------------------:|
 > | **📏 2 burst** | **🎯 Each ally in the area** |
 >
-> **Effect:** One abyssal hyena target turns into a gnoll marauder, keeping their current Stamina. If any target hasn't used their own Cackletongue maneuver on this turn, they can use it immediately at no cost.
+> **Effect:** One abyssal hyena target turns into a gnoll marauder, keeping their current [Stamina](scc:mcdm.heroes.v1/rule.health/stamina). If any target hasn't used their own Cackletongue maneuver on this turn, they can use it immediately at no cost.
 
 > ⭐️ **Death Frenzy**
 >
-> Whenever a non-minion ally within 5 squares of the abyssal summoner is reduced to 0 Stamina, the abyssal summoner moves up to their speed and can make a melee free strike.
+> Whenever a non-[minion](scc:mcdm.monsters.v1/rule.organization/minion) ally within 5 squares of the abyssal summoner is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), the abyssal summoner moves up to their speed and can make a melee [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike).

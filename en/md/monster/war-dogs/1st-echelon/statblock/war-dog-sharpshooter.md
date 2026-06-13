@@ -29,7 +29,7 @@ with_captain: +5 bonus to ranged distance
 |      **-**<br>Immunity      | **-**<br>Movement |        -         | **+5 bonus to ranged distance**<br>With Captain |   **-**<br>Weakness   |
 |       **0**<br>Might        | **+2**<br>Agility | **0**<br>Reason  |               **0**<br>Intuition                |   **0**<br>Presence   |
 
-> 🏹 **Bolt Launcher (Signature Ability)**
+> 🏹 **Bolt Launcher ([Signature Ability](scc:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
 > | **Ranged, Strike, Weapon** |                          **Main action** |
 > |----------------------------|-----------------------------------------:|
@@ -45,4 +45,4 @@ with_captain: +5 bonus to ranged distance
 
 > ⭐️ **Loyalty Collar**
 >
-> When the sharpshooter is reduced to 0 Stamina, their loyalty collar explodes, dealing 1d3 damage to each adjacent enemy and object.
+> When the sharpshooter is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), their loyalty collar explodes, dealing 1d3 damage to each [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) enemy and object.

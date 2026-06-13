@@ -39,11 +39,11 @@ with_captain: +3 bonus to speed
 > **Power Roll + 4:**
 >
 > - **≤11:** 2 fire damage
-> - **12-16:** 5 fire damage; push 1
-> - **17+:** 6 fire damage; push 2
+> - **12-16:** 5 fire damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 1
+> - **17+:** 6 fire damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 2
 >
 > **Effect:** The fireballer can jump up to 4 squares before using this ability.
 
 > ⭐️ **Searing Skin**
 >
-> Whenever an adjacent enemy grabs the fireballer or uses a melee ability against them, that enemy takes 5 fire damage.
+> Whenever an [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) enemy [grabs](scc:mcdm.heroes.v1/condition/grabbed) the fireballer or uses a melee ability against them, that enemy takes 5 fire damage.

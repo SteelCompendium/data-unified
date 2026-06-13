@@ -1,10 +1,10 @@
 ---
 features:
-    - body: The dragon expands their wings to create a shroud of shadow. Until the start of the dragon's next turn, any strike made against them takes a bane.
+    - body: The dragon expands their wings to create a shroud of shadow. Until the start of the dragon's next turn, any strike made against them takes a [bane](scc:mcdm.heroes.v1/rule.dice/bane).
       cost: 3 Malice
       icon: ⭐️
       name: Black Skies
-    - body: The dragon flies up to 10 squares and carries fated souls with them. Each creature in the area of the dragon's Stagnant Wyrmscale Aura trait makes a **Presence test**.
+    - body: The dragon [flies](scc:mcdm.heroes.v1/movement/fly) up to 10 squares and carries fated souls with them. Each creature in the area of the dragon's Stagnant Wyrmscale Aura [trait](scc:mcdm.monsters.v1/rule.monster/monster-trait) makes a **Presence test**.
       cost: 5 Malice
       icon: ❇️
       name: Rise and Fall
@@ -13,7 +13,7 @@ features:
             high: Vertical pull 4
             low: Vertical pull 10
             mid: Vertical pull 6
-    - body: The dragon takes an additional main action on their turn. They can use this feature even if they are dazed.
+    - body: The dragon takes an additional main action on their turn. They can use this feature even if they are [dazed](scc:mcdm.heroes.v1/condition/dazed).
       cost: 5 Malice
       icon: ☠️
       name: Solo Action
@@ -28,24 +28,24 @@ scc: mcdm.monsters.v1/monster.dragons/omen-dragon-malice
 type: featureblock
 ---
 
-At the start of an omen dragon's turn, you can spend Malice to activate one of the following features.
+At the start of an omen dragon's turn, you can spend [Malice](scc:mcdm.monsters.v1/rule.monster/malice) to activate one of the following features.
 
-> ⭐️ **Black Skies (3 Malice)**
+> ⭐️ **Black Skies (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
 >
-> The dragon expands their wings to create a shroud of shadow. Until the start of the dragon's next turn, any strike made against them takes a bane.
+> The dragon expands their wings to create a shroud of shadow. Until the start of the dragon's next turn, any strike made against them takes a [bane](scc:mcdm.heroes.v1/rule.dice/bane).
 
-> ❇️ **Rise and Fall (5 Malice)**
+> ❇️ **Rise and Fall (5 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
 >
-> The dragon flies up to 10 squares and carries fated souls with them. Each creature in the area of the dragon's Stagnant Wyrmscale Aura trait makes a **Presence test**.
+> The dragon [flies](scc:mcdm.heroes.v1/movement/fly) up to 10 squares and carries fated souls with them. Each creature in the area of the dragon's Stagnant Wyrmscale Aura [trait](scc:mcdm.monsters.v1/rule.monster/monster-trait) makes a **Presence test**.
 >
 > - **≤11:** Vertical pull 10
 > - **12-16:** Vertical pull 6
 > - **17+:** Vertical pull 4
 
-> ☠️ **Solo Action (5 Malice)**
+> ☠️ **Solo Action (5 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
 >
-> The dragon takes an additional main action on their turn. They can use this feature even if they are dazed.
+> The dragon takes an additional main action on their turn. They can use this feature even if they are [dazed](scc:mcdm.heroes.v1/condition/dazed).
 
-> 🌀 **Burn It Right Down (10 Malice)**
+> 🌀 **Burn It Right Down (10 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
 >
 > Each edge of the encounter map burns with intangible purple flames until the end of the encounter. The flames expand by 1 square at the end of every turn. Any enemy takes 5 corruption damage for each square of flames they enter.

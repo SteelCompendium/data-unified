@@ -31,7 +31,7 @@ with_captain: +2 bonus to speed
 | **-**<br>Immunity | **-**<br>Movement |         -         | **+2 bonus to speed**<br>With Captain |  **Acid 5, fire **<br>Weakness  |
 |  **+4**<br>Might  | **+2**<br>Agility |  **0**<br>Reason  |          **+1**<br>Intuition          |       **+1**<br>Presence        |
 
-> 🗡 **Dine and Dash (Signature Ability)**
+> 🗡 **Dine and Dash ([Signature Ability](scc:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
 > | **Melee, Strike, Weapon** |                          **Main action** |
 > |---------------------------|-----------------------------------------:|
@@ -39,12 +39,12 @@ with_captain: +2 bonus to speed
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** 4 damage; the ravager can shift 1 square
-> - **12-16:** 6 damage; the ravager shifts up to 2 squares
-> - **17+:** 8 damage; the ravager shifts up to 3 squares
+> - **≤11:** 4 damage; the ravager can [shift](scc:mcdm.heroes.v1/movement/shifting) 1 square
+> - **12-16:** 6 damage; the ravager [shifts](scc:mcdm.heroes.v1/movement/shifting) up to 2 squares
+> - **17+:** 8 damage; the ravager [shifts](scc:mcdm.heroes.v1/movement/shifting) up to 3 squares
 >
-> **Effect:** The ravager's squad's Stamina pool regains Stamina equal to half the damage dealt.
+> **Effect:** The ravager's [squad](scc:mcdm.monsters.v1/rule.monster/squad)'s [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) pool regains [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) equal to half the damage dealt.
 
 > ⭐️ **Group Appetite**
 >
-> The ravager dies only if their squad's Stamina pool is reduced to 0 Stamina by acid or fire damage, if they end their turn with 0 Stamina in their squad's Stamina pool, or if they take acid or fire damage while their squad's Stamina pool is at 0 Stamina.
+> The ravager dies only if their [squad](scc:mcdm.monsters.v1/rule.monster/squad)'s [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) pool is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) by acid or fire damage, if they end their turn with 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) in their [squad](scc:mcdm.monsters.v1/rule.monster/squad)'s [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) pool, or if they take acid or fire damage while their [squad](scc:mcdm.monsters.v1/rule.monster/squad)'s [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) pool is at 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina).

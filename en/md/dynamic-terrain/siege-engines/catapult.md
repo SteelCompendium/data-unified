@@ -1,13 +1,13 @@
 ---
 features:
-    - body: As a maneuver, a creature adjacent to a catapult can make an **Agility test**.
+    - body: As a maneuver, a creature [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to a catapult can make an **Agility test**.
       icon: "\U0001F300"
       name: Deactivate
       power_roll:
         tiers:
             high: The catapult is deactivated and can't be used.
             low: The creature accidentally activates the **Arcing Shot** ability.
-            mid: The catapult is deactivated but the creature is slowed (EoT).
+            mid: The catapult is deactivated but the creature is [slowed](scc:mcdm.heroes.v1/condition/slowed) (EoT).
     - distance: 3 cube within 20
       icon: "\U0001F533"
       keywords:
@@ -86,10 +86,10 @@ This massive counterweighted engine hurls a heavy projectile for a devastating a
 
 > 🌀 **Deactivate**
 >
-> As a maneuver, a creature adjacent to a catapult can make an **Agility test**.
+> As a maneuver, a creature [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to a catapult can make an **Agility test**.
 >
 > - **≤11:** The creature accidentally activates the **Arcing Shot** ability.
-> - **12-16:** The catapult is deactivated but the creature is slowed (EoT).
+> - **12-16:** The catapult is deactivated but the creature is [slowed](scc:mcdm.heroes.v1/condition/slowed) (EoT).
 > - **17+:** The catapult is deactivated and can't be used.
 
 > 🔳 **Arcing Shot**

@@ -29,7 +29,7 @@ type: statblock
 |      **-**<br>Immunity      | **Teleport**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |       **+1**<br>Might       |    **+4**<br>Agility     | **+4**<br>Reason  |  **+2**<br>Intuition  |  **0**<br>Presence   |
 
-> ⚔️ **Flesh-Eater Knife (Signature Ability)**
+> ⚔️ **Flesh-Eater Knife ([Signature Ability](scc:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
 > | **Magic, Melee, Ranged, Strike, Weapon** |               **Main action** |
 > |------------------------------------------|------------------------------:|
@@ -39,9 +39,9 @@ type: statblock
 >
 > - **≤11:** 8 damage
 > - **12-16:** 11 damage
-> - **17+:** 12 damage; M < 4 bleeding and weakened (save ends)
+> - **17+:** 12 damage; M < 4 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) and [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
 >
-> **Effect:** The blackcap can teleport up to their speed before using this ability, creating an ash clone (see below) in their original square.
+> **Effect:** The blackcap can [teleport](scc:mcdm.heroes.v1/movement/teleport) up to their speed before using this ability, creating an ash clone (see below) in their original square.
 
 > 🏹 **Ashes to Ashes**
 >
@@ -49,12 +49,12 @@ type: statblock
 > |------------------|------------------------------:|
 > | **📏 Ranged 20** | **🎯 Up to three ash clones** |
 >
-> **Effect:** Each target makes a free strike.
+> **Effect:** Each target makes a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike).
 
 > ⭐️ **Ash Clones**
 >
-> An ash clone created by the blackcap has the blackcap's statistics but has 1 Stamina. Ash clones don't take turns in combat, but they can act when the blackcap allows them to and can move when the blackcap willingly moves.
+> An ash clone created by the blackcap has the blackcap's statistics but has 1 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina). Ash clones don't take turns in combat, but they can act when the blackcap allows them to and can move when the blackcap willingly moves.
 
 > ⭐️ **Duplicating Loyalty Collar**
 >
-> When the blackcap or any of their ash clones is reduced to 0 Stamina, that creature's loyalty collar explodes, dealing 3d6 poison damage to each adjacent enemy and object. If any adjacent enemy has A < 3 they are also weakened (save ends)
+> When the blackcap or any of their ash clones is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), that creature's loyalty collar explodes, dealing 3d6 poison damage to each [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) enemy and object. If any [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) enemy has A < 3 they are also [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)

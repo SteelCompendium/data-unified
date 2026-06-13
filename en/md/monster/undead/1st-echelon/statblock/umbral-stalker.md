@@ -30,7 +30,7 @@ type: statblock
 | **Corruption 1, poison 1**<br>Immunity | **Climb**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |             **0**<br>Might             |   **+2**<br>Agility   |  **0**<br>Reason  |  **0**<br>Intuition   |  **+1**<br>Presence  |
 
-> 🗡 **Chilling Grasp (Signature Ability)**
+> 🗡 **Chilling Grasp ([Signature Ability](scc:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
 > | **Magic, Melee, Strike** |               **Main action** |
 > |--------------------------|------------------------------:|
@@ -39,10 +39,10 @@ type: statblock
 > **Power Roll + 2:**
 >
 > - **≤11:** 4 cold damage
-> - **12-16:** 6 cold damage; the stalker can shift 1 square
-> - **17+:** 7 cold damage; the stalker shifts up to 2 squares
+> - **12-16:** 6 cold damage; the stalker can [shift](scc:mcdm.heroes.v1/movement/shifting) 1 square
+> - **17+:** 7 cold damage; the stalker [shifts](scc:mcdm.heroes.v1/movement/shifting) up to 2 squares
 
-> 🔳 **Freezing Dark (3 Malice)**
+> 🔳 **Freezing Dark (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Area, Magic**        |               **Main action** |
 > |------------------------|------------------------------:|
@@ -54,16 +54,16 @@ type: statblock
 > - **12-16:** 3 cold damage
 > - **17+:** 4 cold damage
 >
-> **Effect:** Until the end of the stalker's next turn, the area provides concealment, and blocks line of effect for enemies.
+> **Effect:** Until the end of the stalker's next turn, the area provides concealment, and blocks [line of effect](scc:mcdm.heroes.v1/rule.combat/line-of-effect) for enemies.
 
-> 👤 **Shadow Jump (1 Malice)**
+> 👤 **Shadow Jump (1 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **-**       | **Free maneuver** |
 > |-------------|------------------:|
 > | **📏 Self** |       **🎯 Self** |
 >
-> The umbral stalker teleports to an unoccupied space in an area of concealment within 10 squares.
+> The umbral stalker [teleports](scc:mcdm.heroes.v1/movement/teleport) to an unoccupied space in an area of concealment within 10 squares.
 
 > ⭐️ **Corruptive Phasing**
 >
-> The umbral stalker can move through creatures and objects at their usual speed, but can't end their turn inside a creature or object. The first time in a round that the umbral stalker moves through a creature, that creature takes 2 corruption damage. The umbral stalker doesn't take damage from being force moved into objects.
+> The umbral stalker can move through creatures and objects at their usual speed, but can't end their turn inside a creature or object. The first time in a round that the umbral stalker moves through a creature, that creature takes 2 corruption damage. The umbral stalker doesn't take damage from being [force moved](scc:mcdm.heroes.v1/movement/forced-movement) into objects.

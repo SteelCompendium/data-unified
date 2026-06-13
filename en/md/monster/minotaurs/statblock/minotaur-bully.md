@@ -29,7 +29,7 @@ with_captain: +3 damage bonus to strikes
 |      **-**<br>Immunity       | **-**<br>Movement |         -         | **+3 damage bonus to strikes**<br>With Captain |   **-**<br>Weakness    |
 |       **+4**<br>Might        | **+2**<br>Agility |  **0**<br>Reason  |              **+3**<br>Intuition               |   **-1**<br>Presence   |
 
-> ⚔️ **Javelin and Bellow (Signature Ability)**
+> ⚔️ **Javelin and Bellow ([Signature Ability](scc:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
 > | **Charge, Melee, Ranged, Strike, Weapon** |                          **Main action** |
 > |-------------------------------------------|-----------------------------------------:|
@@ -39,7 +39,7 @@ with_captain: +3 damage bonus to strikes
 >
 > - **≤11:** 4 damage
 > - **12-16:** 7 damage
-> - **17+:** 9 damage; I < 4 taunted (EoT) or frightened of all minotaurs (save ends)
+> - **17+:** 9 damage; I < 4 [taunted](scc:mcdm.heroes.v1/condition/taunted) (EoT) or [frightened](scc:mcdm.heroes.v1/condition/frightened) of all minotaurs (save ends)
 
 > ⭐️ **Minotaur Sense**
 >

@@ -38,9 +38,9 @@ with_captain: +2 bonus to speed
 > **Power Roll + 2:**
 >
 > - **≤11:** 1 damage
-> - **12-16:** 2 damage; slide 2
-> - **17+:** 3 damage; slide 2
+> - **12-16:** 2 damage; [slide](scc:mcdm.heroes.v1/movement/forced-movement) 2
+> - **17+:** 3 damage; [slide](scc:mcdm.heroes.v1/movement/forced-movement) 2
 
 > ⭐️ **Reptilian Escape**
 >
-> While the grunt has a tail, whenever they are grabbed, prone, slowed, or weakened, they can lose their tail to immediately end that condition, then shift up to 2 squares.
+> While the grunt has a tail, whenever they are [grabbed](scc:mcdm.heroes.v1/condition/grabbed), [prone](scc:mcdm.heroes.v1/condition/prone), [slowed](scc:mcdm.heroes.v1/condition/slowed), or [weakened](scc:mcdm.heroes.v1/condition/weakened), they can lose their tail to immediately end that condition, then [shift](scc:mcdm.heroes.v1/movement/shifting) up to 2 squares.

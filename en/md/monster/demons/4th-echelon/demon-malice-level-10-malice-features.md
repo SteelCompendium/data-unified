@@ -1,6 +1,6 @@
 ---
 features:
-    - body: The demon activates a Malice feature available to demons of level 9 or lower.
+    - body: The demon activates a [Malice](scc:mcdm.monsters.v1/rule.monster/malice) feature available to demons of level 9 or lower.
       cost: 3-7 Malice
       icon: ⭐️
       name: Prior Malice Features
@@ -15,7 +15,7 @@ features:
             mid: The target is soul flensed
       sections:
         - label: Effect
-          text: The demon removes all conditions and effects on themself that can be ended by a saving throw, and transfers all those effects to each creature soul flensed this way.
+          text: The demon removes all [conditions](scc:mcdm.heroes.v1/rule.combat/condition) and effects on themself that can be ended by a [saving throw](scc:mcdm.heroes.v1/rule.general/saving-throw), and transfers all those effects to each creature soul flensed this way.
 flavor: At the start of any level 10 or higher demon's turn, you can spend Malice to activate one of the following features.
 kind: malice
 level: 10
@@ -24,13 +24,13 @@ scc: mcdm.monsters.v1/monster.demons.4th-echelon/demon-malice-level-10-malice-fe
 type: featureblock
 ---
 
-At the start of any level 10 or higher demon's turn, you can spend Malice to activate one of the following features.
+At the start of any level 10 or higher demon's turn, you can spend [Malice](scc:mcdm.monsters.v1/rule.monster/malice) to activate one of the following features.
 
-> ⭐️ **Prior Malice Features (3-7 Malice)**
+> ⭐️ **Prior Malice Features (3-7 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
 >
-> The demon activates a Malice feature available to demons of level 9 or lower.
+> The demon activates a [Malice](scc:mcdm.monsters.v1/rule.monster/malice) feature available to demons of level 9 or lower.
 
-> ❇️ **Soul Flense (7 Malice)**
+> ❇️ **Soul Flense (7 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
 >
 > One demon acting this turn unleashes their pent-up agony and pain on every non-demon in a 5 burst. Each target makes a **Presence test**.
 >
@@ -38,4 +38,4 @@ At the start of any level 10 or higher demon's turn, you can spend Malice to act
 > - **12-16:** The target is soul flensed
 > - **17+:** No effect.
 >
-> **Effect:** The demon removes all conditions and effects on themself that can be ended by a saving throw, and transfers all those effects to each creature soul flensed this way.
+> **Effect:** The demon removes all [conditions](scc:mcdm.heroes.v1/rule.combat/condition) and effects on themself that can be ended by a [saving throw](scc:mcdm.heroes.v1/rule.general/saving-throw), and transfers all those effects to each creature soul flensed this way.

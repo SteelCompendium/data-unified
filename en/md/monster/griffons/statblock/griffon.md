@@ -36,11 +36,11 @@ type: statblock
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 7 damage; the griffon can shift 1 square
-> - **12-16:** 10 damage; the griffon shifts up to 2 squares
-> - **17+:** 13 damage; the griffon shifts up to 3 squares
+> - **≤11:** 7 damage; the griffon can [shift](scc:mcdm.heroes.v1/movement/shifting) 1 square
+> - **12-16:** 10 damage; the griffon [shifts](scc:mcdm.heroes.v1/movement/shifting) up to 2 squares
+> - **17+:** 13 damage; the griffon [shifts](scc:mcdm.heroes.v1/movement/shifting) up to 3 squares
 >
-> **Effect:** If this ability is used as part of the Charge main action, the griffon can grab one of the targets.
+> **Effect:** If this ability is used as part of the Charge main action, the griffon can [grab](scc:mcdm.heroes.v1/condition/grabbed) one of the targets.
 
 > 🔳 **Crack the Earth**
 >
@@ -48,17 +48,17 @@ type: statblock
 > |------------------------|------------------------------:|
 > | **📏 3 cube within 8** | **🎯 Each enemy in the area** |
 >
-> **Special:** The griffon must be flying and must have a creature or object grabbed.
+> **Special:** The griffon must be flying and must have a creature or object [grabbed](scc:mcdm.heroes.v1/condition/grabbed).
 >
-> **Effect:** The griffon flies up to half their speed toward the ground, then sends the creature or object they've grabbed hurtling down. The creature or object hits the ground to turn the area into an impact crater, and takes falling damage that can't be reduced in any way.
+> **Effect:** The griffon flies up to half their speed toward the ground, then sends the creature or object they've [grabbed](scc:mcdm.heroes.v1/condition/grabbed) hurtling down. The creature or object hits the ground to turn the area into an impact crater, and takes falling damage that can't be reduced in any way.
 >
 > **Power Roll + 2:**
 >
 > - **≤11:** 4 damage
-> - **12-16:** 6 damage; A < 1 push 3
-> - **17+:** 9 damage; A < 2 push 4; prone
+> - **12-16:** 6 damage; A < 1 [push](scc:mcdm.heroes.v1/movement/forced-movement) 3
+> - **17+:** 9 damage; A < 2 [push](scc:mcdm.heroes.v1/movement/forced-movement) 4; [prone](scc:mcdm.heroes.v1/condition/prone)
 
-> 🔳 **Wing Buffet (3 Malice)**
+> 🔳 **Wing Buffet (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Area**                   |                               **Maneuver** |
 > |----------------------------|-------------------------------------------:|
@@ -68,11 +68,11 @@ type: statblock
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** Push 3; A < 0 the forced movement is vertical
-> - **12-16:** Push 4; A < 1 the forced movement is vertical
-> - **17+:** Push 5; A < 2 the forced movement is vertical
+> - **≤11:** [Push](scc:mcdm.heroes.v1/movement/forced-movement) 3; A < 0 the [forced movement](scc:mcdm.heroes.v1/movement/forced-movement) is vertical
+> - **12-16:** [Push](scc:mcdm.heroes.v1/movement/forced-movement) 4; A < 1 the [forced movement](scc:mcdm.heroes.v1/movement/forced-movement) is vertical
+> - **17+:** [Push](scc:mcdm.heroes.v1/movement/forced-movement) 5; A < 2 the [forced movement](scc:mcdm.heroes.v1/movement/forced-movement) is vertical
 
-> ❗️ **Zephyr Feint (1 Malice)**
+> ❗️ **Zephyr Feint (1 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **-**       | **Triggered action** |
 > |-------------|---------------------:|
@@ -80,12 +80,12 @@ type: statblock
 >
 > **Trigger:** The griffon takes damage.
 >
-> **Effect:** The griffon halves the damage, ignores any nondamaging effects associated with it, and shifts up to 2 squares.
+> **Effect:** The griffon halves the damage, ignores any nondamaging effects associated with it, and [shifts](scc:mcdm.heroes.v1/movement/shifting) up to 2 squares.
 
 > ⭐️ **Beast of Prey**
 >
-> While grabbed by the griffon, a creature has a double bane on the Escape Grab maneuver.
+> While [grabbed](scc:mcdm.heroes.v1/condition/grabbed) by the griffon, a creature has a double bane on the Escape Grab maneuver.
 
 > ⭐️ **Steady**
 >
-> Any power roll that could knock the griffon or their rider prone takes a bane.
+> Any power roll that could knock the griffon or their rider [prone](scc:mcdm.heroes.v1/condition/prone) takes a bane.

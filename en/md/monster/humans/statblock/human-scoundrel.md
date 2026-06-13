@@ -42,15 +42,15 @@ type: statblock
 > - **12-16:** 9 damage
 > - **17+:** 12 damage
 >
-> **2 Malice:** If this ability gains an edge or has a double edge, it deals an extra 2 damage.
+> **2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice):** If this ability gains an edge or has a double edge, it deals an extra 2 damage.
 
-> 🌀 **Dagger Storm (5 Malice)**
+> 🌀 **Dagger Storm (5 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **-**    | **Main action** |
 > |----------|----------------:|
 > | **📏 -** |        **🎯 -** |
 >
-> The scoundrel uses Rapier and Dagger against up to three targets. They shift up to 2 squares before or after each strike.
+> The scoundrel uses Rapier and Dagger against up to three targets. They [shift](scc:mcdm.heroes.v1/movement/shifting) up to 2 squares before or after each strike.
 
 > ⭐️ **Supernatural Insight**
 >

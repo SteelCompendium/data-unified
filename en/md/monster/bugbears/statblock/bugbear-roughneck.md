@@ -38,10 +38,10 @@ type: statblock
 > **Power Roll + 2:**
 >
 > - **≤11:** 7 damage
-> - **12-16:** 11 damage; one target is grabbed; one target is pushed up to 2 squares
-> - **17+:** 14 damage; one target is grabbed; one target is vertical pushed up to 3 squares
+> - **12-16:** 11 damage; one target is [grabbed](scc:mcdm.heroes.v1/condition/grabbed); one target is [pushed](scc:mcdm.heroes.v1/movement/forced-movement) up to 2 squares
+> - **17+:** 14 damage; one target is [grabbed](scc:mcdm.heroes.v1/condition/grabbed); one target is vertical [pushed](scc:mcdm.heroes.v1/movement/forced-movement) up to 3 squares
 >
-> **5 Malice:** The ability takes the Area keyword and loses the Strike keyword, its distance becomes a 1 burst, and it targets each enemy in the area.
+> **5 [Malice](scc:mcdm.monsters.v1/rule.monster/malice):** The ability takes the Area keyword and loses the Strike keyword, its distance becomes a 1 burst, and it targets each enemy in the area.
 
 > 🗡 **Leaping Fury**
 >
@@ -51,21 +51,21 @@ type: statblock
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 8 damage; M < 1 prone
-> - **12-16:** 13 damage; M < 2 prone
-> - **17+:** 16 damage; M < 3 prone
+> - **≤11:** 8 damage; M < 1 [prone](scc:mcdm.heroes.v1/condition/prone)
+> - **12-16:** 13 damage; M < 2 [prone](scc:mcdm.heroes.v1/condition/prone)
+> - **17+:** 16 damage; M < 3 [prone](scc:mcdm.heroes.v1/condition/prone)
 >
 > **Effect:** The roughneck can jump up to 5 squares to an unoccupied space within distance of the target before making this strike.
 
-> 🗡 **Drag Through Hell (3 Malice)**
+> 🗡 **Drag Through Hell (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Melee**      |                  **Maneuver** |
 > |----------------|------------------------------:|
 > | **📏 Melee 1** | **🎯 One creature or object** |
 >
-> **Special:** The target must be grabbed by the roughneck.
+> **Special:** The target must be [grabbed](scc:mcdm.heroes.v1/condition/grabbed) by the roughneck.
 >
-> **Effect:** The roughneck moves up to their speed across the ground, dragging the target with them. The target takes 2 damage for each square they were dragged through. When this movement ends, the target is no longer grabbed and falls prone. Each square the target was dragged through is difficult terrain for enemies.
+> **Effect:** The roughneck moves up to their speed across the ground, dragging the target with them. The target takes 2 damage for each square they were dragged through. When this movement ends, the target is no longer [grabbed](scc:mcdm.heroes.v1/condition/grabbed) and falls [prone](scc:mcdm.heroes.v1/condition/prone). Each square the target was dragged through is difficult terrain for enemies.
 
 > 🗡 **Throw**
 >
@@ -73,9 +73,9 @@ type: statblock
 > | --- | ---:|
 > | **📏 Melee 1** | **🎯 One creature or object** |
 >
-> **Special:** The target must be grabbed by the roughneck.
+> **Special:** The target must be [grabbed](scc:mcdm.heroes.v1/condition/grabbed) by the roughneck.
 >
-> **Effect:** The target is vertical pushed up to 5 squares. An ally doesn't take damage from being force moved this way.
+> **Effect:** The target is vertical [pushed](scc:mcdm.heroes.v1/movement/forced-movement) up to 5 squares. An ally doesn't take damage from being [force moved](scc:mcdm.heroes.v1/movement/forced-movement) this way.
 
 > ❗️ **Catcher**
 >
@@ -83,9 +83,9 @@ type: statblock
 > |----------------|-----------------------------------------:|
 > | **📏 Melee 1** | **🎯 The triggering creature or object** |
 >
-> **Trigger:** A size 1 creature or object is force moved within distance, or a size 1 ally willingly moves within distance.
+> **Trigger:** A size 1 creature or object is [force moved](scc:mcdm.heroes.v1/movement/forced-movement) within distance, or a size 1 ally willingly moves within distance.
 >
-> **Effect:** The target is grabbed by the roughneck.
+> **Effect:** The target is [grabbed](scc:mcdm.heroes.v1/condition/grabbed) by the roughneck.
 
 > ❗️ **Flying Sawblade**
 >

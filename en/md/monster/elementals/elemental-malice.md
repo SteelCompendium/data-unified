@@ -1,10 +1,10 @@
 ---
 features:
-    - body: Two elementals on the encounter map teleport to swap places, and each has damage immunity 2 until the end of the round.
+    - body: Two elementals on the encounter map [teleport](scc:mcdm.heroes.v1/movement/teleport) to swap places, and each has damage immunity 2 until the end of the round.
       cost: 3 Malice
       icon: ⭐️
       name: Elemental Swap
-    - body: An elemental acting this turn cleaves themself into two separate elementals. Each elemental has the same statistics as the original, except that each has half the original's current Stamina and is one size smaller. Both elementals can then shift up to their speed.
+    - body: An elemental acting this turn cleaves themself into two separate elementals. Each elemental has the same statistics as the original, except that each has half the original's current Stamina and is one size smaller. Both elementals can then [shift](scc:mcdm.heroes.v1/movement/shifting) up to their speed.
       cost: 5 Malice
       icon: "\U0001F464"
       name: Split
@@ -27,17 +27,17 @@ scc: mcdm.monsters.v1/monster.elementals/elemental-malice
 type: featureblock
 ---
 
-At the start of any elemental's turn, you can spend Malice to activate one of the following features.
+At the start of any elemental's turn, you can spend [Malice](scc:mcdm.monsters.v1/rule.monster/malice) to activate one of the following features.
 
-> ⭐️ **Elemental Swap (3 Malice)**
+> ⭐️ **Elemental Swap (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
 >
-> Two elementals on the encounter map teleport to swap places, and each has damage immunity 2 until the end of the round.
+> Two elementals on the encounter map [teleport](scc:mcdm.heroes.v1/movement/teleport) to swap places, and each has damage immunity 2 until the end of the round.
 
-> 👤 **Split (5 Malice)**
+> 👤 **Split (5 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
 >
-> An elemental acting this turn cleaves themself into two separate elementals. Each elemental has the same statistics as the original, except that each has half the original's current Stamina and is one size smaller. Both elementals can then shift up to their speed.
+> An elemental acting this turn cleaves themself into two separate elementals. Each elemental has the same statistics as the original, except that each has half the original's current Stamina and is one size smaller. Both elementals can then [shift](scc:mcdm.heroes.v1/movement/shifting) up to their speed.
 
-> 🏹 **Convocation of Chaos (7 Malice)**
+> 🏹 **Convocation of Chaos (7 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Magic, Ranged** |                 **Maneuver** |
 > |-------------------|-----------------------------:|

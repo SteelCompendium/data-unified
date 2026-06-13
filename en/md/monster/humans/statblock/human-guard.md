@@ -43,7 +43,7 @@ with_captain: +2 bonus to speed
 > - **12-16:** 4 damage
 > - **17+:** 5 damage
 >
-> **Effect:** If the guard is flanked, they can make a free strike against a different target adjacent to them.
+> **Effect:** If the guard is flanked, they can make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) against a different target [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to them.
 
 > ⭐️ **Supernatural Insight**
 >

@@ -5,13 +5,13 @@ scc: mcdm.monsters.v1/monster.group/elementals
 type: monster
 ---
 
-When the gods formed the mundane world, they took sparks of creation from the roiling plane of Quintessence and gave sentience to some of the multiverse's most basic elements—air, earth, fire, and water. Many elementals contain just one of these components, but can come to embody multiple reagents as they age.
+When the gods formed the mundane world, they took sparks of creation from the roiling plane of Quintessence and gave sentience to some of the multiverse's most basic elements—air, earth, fire, and water. Many [elementals](scc:mcdm.monsters.v1/rule.keyword/elemental) contain just one of these components, but can come to embody multiple reagents as they age.
 
 #### Duality of Form
 
-Elementals are mercurial creatures of creation, destruction, and transformation. Though the deities first created the mundane world, elementals cultivated and shaped it. When a tree, stone, or other aspect of the world doesn't suit an elemental, they break it down with elemental fury then build it anew.
+[Elementals](scc:mcdm.monsters.v1/rule.keyword/elemental) are mercurial creatures of creation, destruction, and transformation. Though the deities first created the mundane world, elementals cultivated and shaped it. When a tree, stone, or other aspect of the world doesn't suit an elemental, they break it down with elemental fury then build it anew.
 
-Elementals change like the winds and the tides, and from age to age, they remake themselves to reflect what the world has become. They are protectors armored by stone, lizards ablaze with fire, and sometimes dragons clad in steel.
+[Elementals](scc:mcdm.monsters.v1/rule.keyword/elemental) change like the winds and the tides, and from age to age, they remake themselves to reflect what the world has become. They are protectors armored by stone, lizards ablaze with fire, and sometimes [dragons](scc:mcdm.monsters.v1/monster.group/dragons) clad in steel.
 
 #### Rebirth and Reformation
 

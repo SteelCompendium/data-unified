@@ -1,6 +1,6 @@
 ---
 features:
-    - body: The hobgoblin activates a Malice Feature available to goblins.
+    - body: The hobgoblin activates a [Malice](scc:mcdm.monsters.v1/rule.monster/malice) Feature available to goblins.
       cost: 3-7 Malice
       icon: ⭐️
       name: Goblin Malice Features
@@ -8,7 +8,7 @@ features:
       cost: 3 Malice
       icon: ⭐️
       name: Operation Goblin Mode
-    - body: Each hobgoblin in the encounter shifts up to their speed and can take the Defend main action.
+    - body: Each hobgoblin in the encounter [shifts](scc:mcdm.heroes.v1/movement/shifting) up to their speed and can take the Defend main action.
       cost: 5 Malice
       icon: ⭐️
       name: Operation Tactical Swarm
@@ -23,20 +23,20 @@ scc: mcdm.monsters.v1/monster.hobgoblins/hobgoblin-malice
 type: featureblock
 ---
 
-At the start of any hobgoblin's turn, you can spend Malice to activate one of the following features.
+At the start of any hobgoblin's turn, you can spend [Malice](scc:mcdm.monsters.v1/rule.monster/malice) to activate one of the following features.
 
-> ⭐️ **Goblin Malice Features (3-7 Malice)**
+> ⭐️ **Goblin Malice Features (3-7 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
 >
-> The hobgoblin activates a Malice Feature available to goblins.
+> The hobgoblin activates a [Malice](scc:mcdm.monsters.v1/rule.monster/malice) Feature available to goblins.
 
-> ⭐️ **Operation Goblin Mode (3 Malice)**
+> ⭐️ **Operation Goblin Mode (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
 >
 > Each goblin in the encounter gains a +3 bonus to speed until the end of the round.
 
-> ⭐️ **Operation Tactical Swarm (5 Malice)**
+> ⭐️ **Operation Tactical Swarm (5 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
 >
-> Each hobgoblin in the encounter shifts up to their speed and can take the Defend main action.
+> Each hobgoblin in the encounter [shifts](scc:mcdm.heroes.v1/movement/shifting) up to their speed and can take the Defend main action.
 
-> 🌀 **Operation Earth Sear (7 Malice)**
+> 🌀 **Operation Earth Sear (7 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
 >
 > Until the end of the round, the ground throughout the encounter map becomes blazing hot. Any enemy takes 1 fire damage for each square of the ground they enter. Any enemy who ends their turn on the ground has fire weakness 2 until the start of their next turn.

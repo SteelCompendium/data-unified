@@ -46,7 +46,7 @@ type: statblock
 >
 > **Special:** The target must be the animal's size or smaller.
 >
-> **Effect:** The target vertical slides up to 3 squares. If the target is an ally, they can make a free strike at the end of the forced movement, then fall without taking damage.
+> **Effect:** The target vertical [slides](scc:mcdm.heroes.v1/movement/forced-movement) up to 3 squares. If the target is an ally, they can make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) at the end of the forced movement, then fall without taking damage.
 
 > ❗️ **Juke**
 >
@@ -56,7 +56,7 @@ type: statblock
 >
 > **Trigger:** The animal is targeted by an area ability.
 >
-> **Effect:** The animal shifts up to 2 squares before the ability resolves.
+> **Effect:** The animal [shifts](scc:mcdm.heroes.v1/movement/shifting) up to 2 squares before the ability resolves.
 
 > ⭐️ **Nature's Spirit**
 >

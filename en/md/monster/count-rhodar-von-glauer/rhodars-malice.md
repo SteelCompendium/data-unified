@@ -1,10 +1,10 @@
 ---
 features:
-    - body: During this turn, Rhodar can move through creatures and objects at his usual speed, but can't end his turn inside a creature or object. Additionally, he doesn't take damage from being force moved.
+    - body: During this turn, Rhodar can move through creatures and objects at his usual speed, but can't end his turn inside a creature or object. Additionally, he doesn't take damage from being [force moved](scc:mcdm.heroes.v1/movement/forced-movement).
       cost: 3 Malice
       icon: "\U0001F464"
       name: Slip
-    - body: Rhodar takes an additional main action on his turn. He can use this feature even if he is dazed.
+    - body: Rhodar takes an additional main action on his turn. He can use this feature even if he is [dazed](scc:mcdm.heroes.v1/condition/dazed).
       cost: 5 Malice
       icon: ☠️
       name: Solo Action
@@ -12,7 +12,7 @@ features:
       cost: 5 Malice
       icon: "\U0001F533"
       name: Suffocating Dark
-    - body: Rhodar chooses two creatures or objects within 20 squares of him. The targets immediately teleport to swap places. Any enemy teleported by this feature who has I < 5 is dazed until the end of their next turn.
+    - body: Rhodar chooses two creatures or objects within 20 squares of him. The targets immediately [teleport](scc:mcdm.heroes.v1/movement/teleport) to swap places. Any enemy teleported by this feature who has I < 5 is [dazed](scc:mcdm.heroes.v1/condition/dazed) until the end of their next turn.
       cost: 7 Malice
       icon: "\U0001F3F9"
       name: The Mirror Lies
@@ -23,15 +23,15 @@ scc: mcdm.monsters.v1/monster.count-rhodar-von-glauer/rhodars-malice
 type: featureblock
 ---
 
-At the start of Rhodar's turn, you can spend Malice to activate one of the following features.
+At the start of Rhodar's turn, you can spend [Malice](scc:mcdm.monsters.v1/rule.monster/malice) to activate one of the following features.
 
 > 👤 **Slip (3 Malice)**
 >
-> During this turn, Rhodar can move through creatures and objects at his usual speed, but can't end his turn inside a creature or object. Additionally, he doesn't take damage from being force moved.
+> During this turn, Rhodar can move through creatures and objects at his usual speed, but can't end his turn inside a creature or object. Additionally, he doesn't take damage from being [force moved](scc:mcdm.heroes.v1/movement/forced-movement).
 
 > ☠️ **Solo Action (5 Malice)**
 >
-> Rhodar takes an additional main action on his turn. He can use this feature even if he is dazed.
+> Rhodar takes an additional main action on his turn. He can use this feature even if he is [dazed](scc:mcdm.heroes.v1/condition/dazed).
 
 > 🔳 **Suffocating Dark (5 Malice)**
 >
@@ -39,4 +39,4 @@ At the start of Rhodar's turn, you can spend Malice to activate one of the follo
 
 > 🏹 **The Mirror Lies (7 Malice)**
 >
-> Rhodar chooses two creatures or objects within 20 squares of him. The targets immediately teleport to swap places. Any enemy teleported by this feature who has I < 5 is dazed until the end of their next turn.
+> Rhodar chooses two creatures or objects within 20 squares of him. The targets immediately [teleport](scc:mcdm.heroes.v1/movement/teleport) to swap places. Any enemy teleported by this feature who has I < 5 is [dazed](scc:mcdm.heroes.v1/condition/dazed) until the end of their next turn.

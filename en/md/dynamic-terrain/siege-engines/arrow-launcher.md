@@ -1,13 +1,13 @@
 ---
 features:
-    - body: As a maneuver, a creature adjacent to an arrow launcher can make an **Agility test**.
+    - body: As a maneuver, a creature [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to an arrow launcher can make an **Agility test**.
       icon: "\U0001F300"
       name: Deactivate
       power_roll:
         tiers:
             high: The arrow launcher is deactivated and can't be used.
             low: The creature accidentally activates the **Arrow Storm** ability.
-            mid: The arrow launcher is deactivated but the creature is slowed (EoT).
+            mid: The arrow launcher is deactivated but the creature is [slowed](scc:mcdm.heroes.v1/condition/slowed) (EoT).
     - distance: 5 cube within 20
       icon: "\U0001F533"
       keywords:
@@ -72,9 +72,9 @@ features:
       power_roll:
         formula: + 2
         tiers:
-            high: 11 damage; R < 2 frightened (save ends)
-            low: 5 damage; R < 0 dazed (save ends)
-            mid: 8 damage; R < 1 dazed (save ends)
+            high: 11 damage; R < 2 [frightened](scc:mcdm.heroes.v1/condition/frightened) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
+            low: 5 damage; R < 0 [dazed](scc:mcdm.heroes.v1/condition/dazed) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
+            mid: 8 damage; R < 1 [dazed](scc:mcdm.heroes.v1/condition/dazed) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
       sections:
         - label: Effect
           text: This ability can't be used again until the arrow launcher is reloaded.
@@ -104,10 +104,10 @@ A small wooden cart uses alchemical rockets to launch up to a hundred arrows at 
 
 > 🌀 **Deactivate**
 >
-> As a maneuver, a creature adjacent to an arrow launcher can make an **Agility test**.
+> As a maneuver, a creature [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to an arrow launcher can make an **Agility test**.
 >
 > - **≤11:** The creature accidentally activates the **Arrow Storm** ability.
-> - **12-16:** The arrow launcher is deactivated but the creature is slowed (EoT).
+> - **12-16:** The arrow launcher is deactivated but the creature is [slowed](scc:mcdm.heroes.v1/condition/slowed) (EoT).
 > - **17+:** The arrow launcher is deactivated and can't be used.
 
 > 🔳 **Arrow Storm**
@@ -162,8 +162,8 @@ A small wooden cart uses alchemical rockets to launch up to a hundred arrows at 
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 5 damage; R < 0 dazed (save ends)
-> - **12-16:** 8 damage; R < 1 dazed (save ends)
-> - **17+:** 11 damage; R < 2 frightened (save ends)
+> - **≤11:** 5 damage; R < 0 [dazed](scc:mcdm.heroes.v1/condition/dazed) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
+> - **12-16:** 8 damage; R < 1 [dazed](scc:mcdm.heroes.v1/condition/dazed) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
+> - **17+:** 11 damage; R < 2 [frightened](scc:mcdm.heroes.v1/condition/frightened) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
 >
 > **Effect:** This ability can't be used again until the arrow launcher is reloaded.

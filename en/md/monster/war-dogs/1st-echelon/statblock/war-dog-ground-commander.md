@@ -27,7 +27,7 @@ type: statblock
 |      **-**<br>Immunity      | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |       **+3**<br>Might       | **+2**<br>Agility |  **+3**<br>Reason  |  **+2**<br>Intuition  |  **+2**<br>Presence  |
 
-> ⚔️ **Conditioning Spear (Signature Ability)**
+> ⚔️ **Conditioning Spear ([Signature Ability](scc:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
 > | **Melee, Psionic, Ranged, Strike** |                 **Main action** |
 > |------------------------------------|--------------------------------:|
@@ -35,13 +35,13 @@ type: statblock
 >
 > **Power Roll + 3:**
 >
-> - **≤11:** 8 damage; pull 1
-> - **12-16:** 12 damage; pull 2
-> - **17+:** 15 damage; pull 3
+> - **≤11:** 8 damage; [pull](scc:mcdm.heroes.v1/movement/forced-movement) 1
+> - **12-16:** 12 damage; [pull](scc:mcdm.heroes.v1/movement/forced-movement) 2
+> - **17+:** 15 damage; [pull](scc:mcdm.heroes.v1/movement/forced-movement) 3
 >
-> **Effect:** One ally within 10 squares of the ground commander can make a free strike.
+> **Effect:** One ally within 10 squares of the ground commander can make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike).
 >
-> **1 Malice:** A target who has I < 2 and who is adjacent to the ground commander after this ability is resolved is grabbed (save ends). This grab can't be escaped using the Escape Grab maneuver. The ground commander can grab up to two creatures at a time.
+> **1 [Malice](scc:mcdm.monsters.v1/rule.monster/malice):** A target who has I < 2 and who is [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the ground commander after this ability is resolved is [grabbed](scc:mcdm.heroes.v1/condition/grabbed) (save ends). This grab can't be escaped using the Escape Grab maneuver. The ground commander can grab up to two creatures at a time.
 
 > ❇️ **Highest Posthumous Promotion**
 >
@@ -49,7 +49,7 @@ type: statblock
 > |-----------------|--------------------------------:|
 > | **📏 10 burst** | **🎯 Each war dog in the area** |
 >
-> **Effect:** Any target who has a loyalty collar is reduced to 0 Stamina.
+> **Effect:** Any target who has a loyalty collar is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina).
 
 > ❗️ **Final Orders**
 >
@@ -57,38 +57,38 @@ type: statblock
 > |-------------------|---------------------:|
 > | **📏 Ranged 10**  |      **🎯 One ally** |
 >
-> **Trigger:** The target takes damage, is force moved, or is reduced to 0 Stamina.
+> **Trigger:** The target takes damage, is [forced moved](scc:mcdm.heroes.v1/movement/forced-movement), or is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina).
 >
-> **Effect:** Even if reduced to 0 Stamina, the target moves up to their speed and can make a free strike after the triggering effect is resolved. The target then immediately dies.
+> **Effect:** Even if reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), the target moves up to their speed and can make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) after the triggering effect is resolved. The target then immediately dies.
 
-> ⭐️ **End Effect**
+> ⭐️ **[End Effect](scc:mcdm.monsters.v1/rule.monster/end-effect)**
 >
-> At the end of each of their turns, the ground commander can take 5 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way.
+> At the end of each of their turns, the ground commander can take 5 damage to end one effect on them that can be ended by a [saving throw](scc:mcdm.heroes.v1/rule.general/saving-throw). This damage can't be reduced in any way.
 
 > ⭐️ **Loyalty Collar**
 >
-> When the ground commander is reduced to 0 Stamina, their loyalty collar explodes, dealing 2d6 damage to each adjacent enemy and object.
+> When the ground commander is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), their loyalty collar explodes, dealing 2d6 damage to each [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) enemy and object.
 
-> ☠️ **Combined Arms (Villain Action 1)**
+> ☠️ **Combined Arms ([Villain Action](scc:mcdm.monsters.v1/rule.monster/villain-action) 1)**
 >
 > | **Area**        |                        **-** |
 > |-----------------|-----------------------------:|
 > | **📏 10 burst** | **🎯 Each ally in the area** |
 >
-> **Effect:** Each target can make a ranged free strike, then immediately use the Charge main action.
+> **Effect:** Each target can make a ranged [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike), then immediately use the Charge main action.
 
-> ☠️ **Make an Example of Them (Villain Action 2)**
+> ☠️ **Make an Example of Them ([Villain Action](scc:mcdm.monsters.v1/rule.monster/villain-action) 2)**
 >
 > | **Magic, Ranged** |            **-** |
 > |-------------------|-----------------:|
 > | **📏 Ranged 10**  | **🎯 One enemy** |
 >
-> **Effect:** Each ally within 5 squares of the target moves up to their speed and can make a free strike against the target. If the target has I < 2, they are frightened of the ground commander (save ends).
+> **Effect:** Each ally within 5 squares of the target moves up to their speed and can make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) against the target. If the target has I < 2, they are [frightened](scc:mcdm.heroes.v1/condition/frightened) of the ground commander (save ends).
 
-> ☠️ **Claim Them for the Body Banks (Villain Action 3)**
+> ☠️ **Claim Them for the Body Banks ([Villain Action](scc:mcdm.monsters.v1/rule.monster/villain-action) 3)**
 >
 > | **Area, Magic** |                            **-** |
 > |-----------------|---------------------------------:|
 > | **📏 10 burst** | **🎯 Each creature in the area** |
 >
-> **Effect:** Each target ally shifts up to 2 squares and can use the Grab maneuver. Until the end of the encounter, each target enemy takes a bane on the Escape Grab maneuver.
+> **Effect:** Each target ally [shifts](scc:mcdm.heroes.v1/movement/shifting) up to 2 squares and can use the Grab maneuver. Until the end of the encounter, each target enemy takes a bane on the Escape Grab maneuver.

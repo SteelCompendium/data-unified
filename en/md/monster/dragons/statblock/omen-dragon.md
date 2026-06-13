@@ -29,19 +29,19 @@ type: statblock
 | **Corruption 6**<br>Immunity | **Fly**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |   
 |       **+3**<br>Might        |  **+4**<br>Agility  |  **+2**<br>Reason  |  **+3**<br>Intuition  |  **+5**<br>Presence  |
 
-> ☠️ **Solo Monster**
+> ☠️ **[Solo](scc:mcdm.monsters.v1/rule.organization/solo) Monster**
 >
-> **End Effect:** At the end of each of their turns, the dragon can take 15 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way.
+> **[End Effect](scc:mcdm.monsters.v1/rule.monster/end-effect):** At the end of each of their turns, the dragon can take 15 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way.
 >
 > **Solo Turns:** The dragon can take two turns each round. They can't take turns consecutively.
 
 > ⭐️ **Deathcount**
 >
-> Several of the dragon's abilities impose a Deathcount on a target. At the end of every turn, a creature with a Deathcount who is within the area of the dragon's Stagnant Wyrmscale Aura has that Deathcount reduced by 1. When a creature's Deathcount hits 0, they die. If multiple Deathcounts are imposed on a creature, they don't stack. Only the lowest Deathcount takes effect. All Deathcounts are lost when the dragon is reduced to 0 Stamina.
+> Several of the dragon's abilities impose a Deathcount on a target. At the end of every turn, a creature with a Deathcount who is within the area of the dragon's Stagnant Wyrmscale Aura has that Deathcount reduced by 1. When a creature's Deathcount hits 0, they die. If multiple Deathcounts are imposed on a creature, they don't stack. Only the lowest Deathcount takes effect. All Deathcounts are lost when the dragon is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina).
 
 > ❇️ **Stagnant Wyrmscale Aura**
 >
-> The dragon's scales create a 4 aura of supernatural stagnancy around them. The area is difficult terrain for enemies, and no creature except the omen dragon can regain Stamina while in the area. Any creature dragonsealed by the omen dragon who starts their turn in the dragon's aura and doesn't have a Deathcount gains a Deathcount of 12.
+> The dragon's scales create a 4 aura of supernatural stagnancy around them. The area is [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain) for enemies, and no creature except the omen dragon can regain [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) while in the area. Any creature dragonsealed by the omen dragon who starts their turn in the dragon's aura and doesn't have a Deathcount gains a Deathcount of 12.
 
 > 🔳 **Corroding Breath (Signature Ability)**
 >
@@ -55,7 +55,7 @@ type: statblock
 > - **12-16:** 14 corruption damage; the target is dragonsealed (save ends)
 > - **17+:** 9 corruption damage
 >
-> Only creatures with souls can be dragonsealed by the omen dragon. A dragonsealed creature appears ghastly and pale, their Presence score is treated as 1 lower for the purpose of resisting potencies, and they can't treat other creatures as allies.
+> Only creatures with souls can be dragonsealed by the omen dragon. A dragonsealed creature appears ghastly and pale, their Presence score is treated as 1 lower for the purpose of resisting [potencies](scc:mcdm.heroes.v1/rule.character/potency), and they can't treat other creatures as allies.
 
 > 🗡 **Barbed Tail Swing**
 >
@@ -65,35 +65,35 @@ type: statblock
 >
 > **Power Roll + 5:**
 >
-> - **≤11:** 14 damage; M < 3 bleeding (save ends)
-> - **12-16:** 19 damage; M < 4 bleeding (save ends)
-> - **17+:** 23 damage; M < 5 bleeding (save ends)
+> - **≤11:** 14 damage; M < 3 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
+> - **12-16:** 19 damage; M < 4 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
+> - **17+:** 23 damage; M < 5 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
 >
-> **3 Malice:** The potency increases by 2, and each target is also pulled up to 5 squares.
+> **3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice):** The [potency](scc:mcdm.heroes.v1/rule.character/potency) increases by 2, and each target is also pulled up to 5 squares.
 
 > ⭐️ **Death or Victory**
 >
-> Once per turn, the dragon chooses one creature with a Deathcount within line of effect. That creature can choose to take 1d6 damage and lose a recovery to increase their Deathcount by 5.
+> Once per turn, the dragon chooses one creature with a Deathcount within [line of effect](scc:mcdm.heroes.v1/rule.combat/line-of-effect). That creature can choose to take 1d6 damage and lose a [recovery](scc:mcdm.heroes.v1/rule.health/recoveries) to increase their Deathcount by 5.
 
-> ❇️ **Detonation (5 Malice)**
+> ❇️ **Detonation (5 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Area**        |                  **Maneuver** |
 > |-----------------|------------------------------:|
 > | **📏 10 burst** | **🎯 Each enemy in the area** |
 >
-> **Effect:** Each target must be dragonsealed. Each target takes 9 corruption damage, and the omen dragon regains Stamina equal to half the total damage dealt. The target then loses their dragonseal.
+> **Effect:** Each target must be dragonsealed. Each target takes 9 corruption damage, and the omen dragon regains [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) equal to half the total damage dealt. The target then loses their dragonseal.
 
-> ❗️ **Don't Turn Away (1 Malice)**
+> ❗️ **Don't Turn Away (1 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **-**       | **Free triggered action** |
 > |-------------|--------------------------:|
 > | **📏 Self** |               **🎯 Self** |
 >
-> **Trigger:** A creature leaves the area of the dragon's Stagnant Wyrmscale Aura trait.
+> **Trigger:** A creature leaves the area of the dragon's Stagnant Wyrmscale Aura [trait](scc:mcdm.monsters.v1/rule.monster/monster-trait).
 >
-> **Effect:** The dragon shifts up to their speed, and the Deathcount of each dragonsealed creature who comes adjacent to the dragon during this shift is reduced by 1.
+> **Effect:** The dragon [shifts](scc:mcdm.heroes.v1/movement/shifting) up to their speed, and the Deathcount of each dragonsealed creature who comes [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the dragon during this shift is reduced by 1.
 
-> ❗️ **Repent! (2 Malice)**
+> ❗️ **Repent! (2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Ranged**      |      **Free triggered action** |
 > |-----------------|-------------------------------:|
@@ -101,9 +101,9 @@ type: statblock
 >
 > **Trigger:** A dragonsealed creature within distance deals damage to the dragon.
 >
-> **Effect:** The target must choose between making a free strike against themself or gaining a Deathcount of 5.
+> **Effect:** The target must choose between making a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) against themself or gaining a Deathcount of 5.
 
-> ☠️ **What You Deserve (Villain Action 1)**
+> ☠️ **What You Deserve ([Villain Action](scc:mcdm.monsters.v1/rule.monster/villain-action) 1)**
 >
 > | **Area, Magic** |                         **-** | 
 > |-----------------|------------------------------:|
@@ -117,7 +117,7 @@ type: statblock
 >
 > **Effect:** Each target receives a premonition of their imminent death.
 
-> ☠️ **Souls of the Broken (Villain Action 2)**
+> ☠️ **Souls of the Broken ([Villain Action](scc:mcdm.monsters.v1/rule.monster/villain-action) 2)**
 >
 > | **Magic, Ranged, Strike** |                 **-** |
 > |---------------------------|----------------------:|
@@ -127,11 +127,11 @@ type: statblock
 >
 > **Power Roll + 5:**
 >
-> - **≤11:** P < 5 frightened (save ends)
+> - **≤11:** P < 5 [frightened](scc:mcdm.heroes.v1/condition/frightened) (save ends)
 > - **12-16:** P < 5 the target moves up to their speed toward the dragon
-> - **17+:** P < 5 the target makes a free strike against the nearest ally
+> - **17+:** P < 5 the target makes a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) against the nearest ally
 
-> ☠️ **So Long and Goodnight (Villain Action 3)**
+> ☠️ **So Long and Goodnight ([Villain Action](scc:mcdm.monsters.v1/rule.monster/villain-action) 3)**
 >
 > | **Area, Magic** |                            **-** |
 > |-----------------|---------------------------------:|

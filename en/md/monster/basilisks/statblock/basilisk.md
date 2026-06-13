@@ -53,13 +53,13 @@ type: statblock
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** M < 0 restrained (save ends)
-> - **12-16:** M < 1 restrained (save ends)
-> - **17+:** Slowed (save ends); or if M < 2 restrained (save ends)
+> - **≤11:** M < 0 [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)
+> - **12-16:** M < 1 [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)
+> - **17+:** [Slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends); or if M < 2 [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)
 >
-> **Effect:** If a target is already slowed, the potency increases by 1 for that target. A target restrained this way magically begins to turn to stone, and a target who ends two consecutive turns restrained this way is petrified. A target restrained this way or a creature adjacent to them can use a main action to cut encroaching stone from the target’s body, dealing 8 damage to the target that can’t be reduced in any way and ending this effect.
+> **Effect:** If a target is already [slowed](scc:mcdm.heroes.v1/condition/slowed), the potency increases by 1 for that target. A target [restrained](scc:mcdm.heroes.v1/condition/restrained) this way magically begins to turn to stone, and a target who ends two consecutive turns [restrained](scc:mcdm.heroes.v1/condition/restrained) this way is petrified. A target [restrained](scc:mcdm.heroes.v1/condition/restrained) this way or a creature adjacent to them can use a main action to cut encroaching stone from the target’s body, dealing 8 damage to the target that can’t be reduced in any way and ending this effect.
 
-> 🔳 **Poison Fumes (5 Malice)**
+> 🔳 **Poison Fumes (5 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Area, Magic**        |               **Main action** |
 > |------------------------|------------------------------:|
@@ -67,9 +67,9 @@ type: statblock
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 4 poison damage; M < 0 weakened (save ends)
-> - **12-16:** 6 poison damage; M < 1 weakened and slowed (save ends)
-> - **17+:** 9 poison damage; M < 2 weakened and slowed (save ends)
+> - **≤11:** 4 poison damage; M < 0 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
+> - **12-16:** 6 poison damage; M < 1 [weakened](scc:mcdm.heroes.v1/condition/weakened) and [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
+> - **17+:** 9 poison damage; M < 2 [weakened](scc:mcdm.heroes.v1/condition/weakened) and [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
 
 > ❗️ **Lash Out**
 >
@@ -79,7 +79,7 @@ type: statblock
 >
 > **Trigger:** The basilisk takes damage from a melee ability.
 >
-> **Effect:** Each target takes 5 damage. Any target who has A < 2 is also bleeding (save ends).
+> **Effect:** Each target takes 5 damage. Any target who has A < 2 is also [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends).
 
 > ⭐️ **Calcifying Presence**
 >

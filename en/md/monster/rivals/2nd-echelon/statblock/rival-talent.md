@@ -27,7 +27,7 @@ type: statblock
 | **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **0**<br>Might   | **0**<br>Agility  |  **+3**<br>Reason  |  **0**<br>Intuition   |  **+1**<br>Presence  |
 
-> 🏹 **Overwhelming Rend (Signature Ability)**
+> 🏹 **Overwhelming Rend ([Signature Ability](scc:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
 > | **Psionic, Ranged, Strike, Telekinesis** |                 **Main action** |
 > |------------------------------------------|--------------------------------:|
@@ -35,11 +35,11 @@ type: statblock
 >
 > **Power Roll + 3:**
 >
-> - **≤11:** 9 psychic damage; push 2; M < 1 prone
-> - **12-16:** 14 psychic damage; push 3; M < 2 prone
-> - **17+:** 17 psychic damage; push 4; M < 3 prone
+> - **≤11:** 9 psychic damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 2; M < 1 [prone](scc:mcdm.heroes.v1/condition/prone)
+> - **12-16:** 14 psychic damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 3; M < 2 [prone](scc:mcdm.heroes.v1/condition/prone)
+> - **17+:** 17 psychic damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 4; M < 3 [prone](scc:mcdm.heroes.v1/condition/prone)
 
-> 🏹 **Disarrange Thoughts (2 Malice)**
+> 🏹 **Disarrange Thoughts (2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Psionic, Ranged, Telepathy** |                  **Maneuver** |
 > |--------------------------------|------------------------------:|
@@ -47,11 +47,11 @@ type: statblock
 >
 > **Power Roll + 3:**
 >
-> - **≤11:** 6 psychic damage; R < 1 dazed (save ends)
-> - **12-16:** 6 psychic damage; R < 2 dazed (save ends)
-> - **17+:** 6 psychic damage; R < 3 dazed and slowed (save ends)
+> - **≤11:** 6 psychic damage; R < 1 [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)
+> - **12-16:** 6 psychic damage; R < 2 [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)
+> - **17+:** 6 psychic damage; R < 3 [dazed](scc:mcdm.heroes.v1/condition/dazed) and [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
 
-> ❗️ **Precognitive Shift (1 Malice)**
+> ❗️ **Precognitive Shift (1 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Psionic** | **Triggered action** |
 > |-------------|---------------------:|
@@ -59,8 +59,8 @@ type: statblock
 >
 > **Trigger:** A creature deals damage to the talent.
 >
-> **Effect:** The talent halves the damage and shifts up to 2 squares.
+> **Effect:** The talent halves the damage and [shifts](scc:mcdm.heroes.v1/movement/shifting) up to 2 squares.
 
 > ⭐️ **Rivalry**
 >
-> At the start of an encounter, the talent chooses one creature within their line of effect. Both the talent and the creature can add a d3 roll to power rolls they make against each other.
+> At the start of an encounter, the talent chooses one creature within their [line of effect](scc:mcdm.heroes.v1/rule.combat/line-of-effect). Both the talent and the creature can add a d3 roll to power rolls they make against each other.

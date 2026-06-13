@@ -44,7 +44,7 @@ type: statblock
 >
 > **Effect:** For each elemental mote adjacent to the wyrd, the size of the cube increases by 1.
 
-> 🏹 **Summon Elemental (2 Malice)**
+> 🏹 **Summon Elemental (2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Ranged**      |   **Maneuver** |
 > |-----------------|---------------:|

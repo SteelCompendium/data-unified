@@ -41,7 +41,7 @@ type: statblock
 >
 > - **≤11:** 6 damage
 > - **12-16:** 11 damage
-> - **17+:** 14 damage; push 2
+> - **17+:** 14 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 2
 
 > 🗡 **I'm Not a Steed, You're Equipment (Encounter)**
 >
@@ -49,7 +49,7 @@ type: statblock
 > |----------------|-----------------------------:|
 > | **📏 Melee 1** | **🎯 The Nameless's mentor** |
 >
-> **Effect:** The Nameless's mentor enters the Nameless's space and rides on their back. The Nameless or the mentor can move the mentor to an adjacent space as a free maneuver. While in the Nameless's space, the mentor moves with them and can't use their move action, and ability rolls against the mentor take a bane.
+> **Effect:** The Nameless's mentor enters the Nameless's space and rides on their back. The Nameless or the mentor can move the mentor to an [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) space as a free maneuver. While in the Nameless's space, the mentor moves with them and can't use their move action, and ability rolls against the mentor take a bane.
 
 > ⭐️ **Wing Block**
 >
@@ -65,9 +65,9 @@ type: statblock
 >
 > **Power Roll + highest characteristic:**
 >
-> - **≤11:** 5 corruption damage; I < WEAK weakened (save ends)
-> - **12-16:** 9 corruption damage; I < AVERAGE weakened (save ends)
-> - **17+:** 12 corruption damage; I < STRONG weakened (save ends)
+> - **≤11:** 5 corruption damage; I < WEAK [weakened](scc:mcdm.heroes.v1/condition/weakened) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
+> - **12-16:** 9 corruption damage; I < AVERAGE [weakened](scc:mcdm.heroes.v1/condition/weakened) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
+> - **17+:** 12 corruption damage; I < STRONG [weakened](scc:mcdm.heroes.v1/condition/weakened) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
 >
 > **Effect:** If the Nameless's mentor is in the area, ability rolls against the mentor have a double bane until the start of their next turn.
 
@@ -81,10 +81,10 @@ type: statblock
 >
 > **Power Roll + highest characteristic:**
 >
-> **Special:** The Nameless must be winded to use this ability.
+> **Special:** The Nameless must be [winded](scc:mcdm.heroes.v1/rule.health/winded) to use this ability.
 >
 > - **≤11:** 11 corruption damage
 > - **12-16:** 16 corruption damage
 > - **17+:** 21 corruption damage
 >
-> **Effect:** Any living minions reduced to 0 Stamina by this ability regain all their Stamina and become corporeal undead under the Nameless's control until the end of the Nameless's next turn, after which they are destroyed.
+> **Effect:** Any living [minions](scc:mcdm.monsters.v1/rule.organization/minion) reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) by this ability regain all their [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) and become corporeal [undead](scc:mcdm.monsters.v1/rule.keyword/undead) under the Nameless's control until the end of the Nameless's next turn, after which they are destroyed.

@@ -28,7 +28,7 @@ type: statblock
 |      **-**<br>Immunity      | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |       **+2**<br>Might       | **+1**<br>Agility | **+1**<br>Reason  |  **+4**<br>Intuition  |  **+4**<br>Presence  |
 
-> 🔳 **Houndcannon (Signature Ability)**
+> 🔳 **Houndcannon ([Signature Ability](scc:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
 > | **Area, Weapon**           |               **Main action** |
 > |----------------------------|------------------------------:|
@@ -37,18 +37,18 @@ type: statblock
 > **Power Roll + 4:**
 >
 > - **≤11:** 3 damage
-> - **12-16:** 6 damage; P < 3 bleeding (save ends)
-> - **17+:** 8 damage; P < 4 the target loses 1 Recovery and is bleeding (save ends)
+> - **12-16:** 6 damage; P < 3 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
+> - **17+:** 8 damage; P < 4 the target loses 1 Recovery and is [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
 >
 > **Effect:** Any ally within 2 squares of the iron priest gains an edge on their next strike. If any target lost a Recovery, any affected ally has a double edge instead.
 
-> ❇️ **Iron Banner (2+ Malice)**
+> ❇️ **Iron Banner (2+ [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Area, Magic** |                    **Maneuver** |
 > |-----------------|--------------------------------:|
 > | **📏 4 aura**   | **🎯 Each war dog in the area** |
 >
-> **Effect:** For every 2 Malice spent, each target gains one of the following effects until the start of the iron priest's next turn.
+> **Effect:** For every 2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice) spent, each target gains one of the following effects until the start of the iron priest's next turn.
 >
 > - The target has damage immunity 2.
 > - The target's strikes deal an extra 3 holy damage.
@@ -56,4 +56,4 @@ type: statblock
 
 > ⭐️ **Chosen of the Iron Saint**
 >
-> The Director gains 1 Malice whenever an ally within 3 squares of the iron priest obtains a tier 3 outcome on a power roll.
+> The Director gains 1 [Malice](scc:mcdm.monsters.v1/rule.monster/malice) whenever an ally within 3 squares of the iron priest obtains a tier 3 outcome on a power roll.

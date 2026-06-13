@@ -27,7 +27,7 @@ type: statblock
 | **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+4**<br>Might  | **+1**<br>Agility |  **+3**<br>Reason  |  **0**<br>Intuition   |  **+2**<br>Presence  |
 
-> 🏹 **Command From the Back (Signature Ability)**
+> 🏹 **Command From the Back ([Signature Ability](scc:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
 > | **Ranged, Strike, Weapon** |                 **Main action** |
 > |----------------------------|--------------------------------:|
@@ -36,12 +36,12 @@ type: statblock
 > **Power Roll + 4:**
 >
 > - **≤11:** 13 damage
-> - **12-16:** 18 damage; A < 3 prone
-> - **17+:** 22 damage; A < 4 prone
+> - **12-16:** 18 damage; A < 3 [prone](scc:mcdm.heroes.v1/condition/prone)
+> - **17+:** 22 damage; A < 4 [prone](scc:mcdm.heroes.v1/condition/prone)
 >
-> **4 Malice:** Two allies within distance move up to their speed and can use a signature ability.
+> **4 [Malice](scc:mcdm.monsters.v1/rule.monster/malice):** Two allies within distance move up to their speed and can use a [signature ability](scc:mcdm.heroes.v1/rule.combat/signature-ability).
 
-> 🏹 **Safeguard (3 Malice)**
+> 🏹 **Safeguard (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Ranged, Strike, Weapon** |               **Main action** |
 > |----------------------------|------------------------------:|
@@ -49,11 +49,11 @@ type: statblock
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** 15 damage; M < 2 weakened (save ends)
-> - **12-16:** 21 damage; M < 3 weakened (save ends)
-> - **17+:** 26 damage; M < 4 weakened (save ends)
+> - **≤11:** 15 damage; M < 2 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
+> - **12-16:** 21 damage; M < 3 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
+> - **17+:** 26 damage; M < 4 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
 >
-> **Effect:** Two allies adjacent to the target each regain 7 Stamina.
+> **Effect:** Two allies [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the target each regain 7 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina).
 
 > ❗️ **Quickshot**
 >
@@ -63,8 +63,8 @@ type: statblock
 >
 > **Trigger:** An enemy within distance willingly moves.
 >
-> **Effect:** At any point during the movement, the tactician uses a signature ability against the target.
+> **Effect:** At any point during the movement, the tactician uses a [signature ability](scc:mcdm.heroes.v1/rule.combat/signature-ability) against the target.
 
 > ⭐️ **Rivalry**
 >
-> At the start of an encounter, the tactician chooses one creature within their line of effect. Both the tactician and the creature can add a d3 roll to power rolls they make against each other.
+> At the start of an encounter, the tactician chooses one creature within their [line of effect](scc:mcdm.heroes.v1/rule.combat/line-of-effect). Both the tactician and the creature can add a d3 roll to power rolls they make against each other.

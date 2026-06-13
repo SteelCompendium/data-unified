@@ -41,11 +41,11 @@ with_captain: +2 damage bonus to strikes
 > **Power Roll + 3:**
 >
 > - **≤11:** 2 corruption damage
-> - **12-16:** 4 corruption damage; push 1
-> - **17+:** 6 corruption damage; push 2
+> - **12-16:** 4 corruption damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 1
+> - **17+:** 6 corruption damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 2
 >
 > **Effect:** The lancer deals an extra 2 damage if they have high ground against the target.
 
 > ⭐️ **Infernal Ichor**
 >
-> When the lancer is reduced to 0 Stamina, they spray burning blood. Each creature adjacent to the lancer takes 2 fire damage.
+> When the lancer is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), they spray burning blood. Each creature [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the lancer takes 2 fire damage.

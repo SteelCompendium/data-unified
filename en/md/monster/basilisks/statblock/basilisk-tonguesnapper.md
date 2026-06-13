@@ -42,9 +42,9 @@ type: statblock
 > - **12-16:** 10 acid damage; pull 2
 > - **17+:** 14 acid damage; pull 3
 >
-> **Effect:** This ability can pull targets restrained by Petrifying Eye Beams, and ignores stability if it does so.
+> **Effect:** This ability can pull targets [restrained](scc:mcdm.heroes.v1/condition/restrained) by Petrifying Eye Beams, and ignores stability if it does so.
 >
-> **3 Malice:** The tonguesnapper targets two additional creatures or objects.
+> **3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice):** The tonguesnapper targets two additional creatures or objects.
 
 > 🔳 **Petrifying Eye Beams**
 >
@@ -56,11 +56,11 @@ type: statblock
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** A < 0 restrained (save ends)
-> - **12-16:** A < 1 restrained (save ends)
-> - **17+:** Slowed (save ends); or if A < 2 restrained (save ends)
+> - **≤11:** A < 0 [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)
+> - **12-16:** A < 1 [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)
+> - **17+:** [Slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends); or if A < 2 [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)
 >
-> **Effect:** If a target is already slowed, the potency increases by 1 for that target. A target restrained this way magically begins to turn to stone, and a target who ends two consecutive turns restrained this way is petrified. A target restrained this way or a creature adjacent to them can use a main action to cut encroaching stone from the target’s body, dealing 8 damage to the target that can’t be reduced in any way and ending this effect.
+> **Effect:** If a target is already [slowed](scc:mcdm.heroes.v1/condition/slowed), the potency increases by 1 for that target. A target [restrained](scc:mcdm.heroes.v1/condition/restrained) this way magically begins to turn to stone, and a target who ends two consecutive turns [restrained](scc:mcdm.heroes.v1/condition/restrained) this way is petrified. A target [restrained](scc:mcdm.heroes.v1/condition/restrained) this way or a creature adjacent to them can use a main action to cut encroaching stone from the target’s body, dealing 8 damage to the target that can’t be reduced in any way and ending this effect.
 
 > ⚔️ **Wink (2 Malice)**
 >
@@ -70,11 +70,11 @@ type: statblock
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 8 corruption damage; R < 0 dazed (save ends)
-> - **12-16:** 10 corruption damage; R < 1 dazed (save ends)
-> - **17+:** 14 corruption damage; R < 2 dazed and slowed (save ends)
+> - **≤11:** 8 corruption damage; R < 0 [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)
+> - **12-16:** 10 corruption damage; R < 1 [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)
+> - **17+:** 14 corruption damage; R < 2 [dazed](scc:mcdm.heroes.v1/condition/dazed) and [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
 >
-> **Effect:** A creature dazed this way can’t benefit from edges or double edges and can’t gain or use surges.
+> **Effect:** A creature [dazed](scc:mcdm.heroes.v1/condition/dazed) this way can’t benefit from [edges](scc:mcdm.heroes.v1/rule.dice/edge) or double [edges](scc:mcdm.heroes.v1/rule.dice/edge) and can’t gain or use [surges](scc:mcdm.heroes.v1/rule.resource/surge).
 
 > ❗️ **Neurotoxin Splash**
 >
@@ -84,8 +84,8 @@ type: statblock
 >
 > **Trigger:** The tonguesnapper takes damage from a melee ability.
 >
-> **Effect:** Each target takes 4 acid damage. Any target who has M < 2 is also slowed (save ends).
+> **Effect:** Each target takes 4 acid damage. Any target who has M < 2 is also [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends).
 
 > ⭐️ **Petrifying Fumes**
 >
-> Any creature who starts their turn adjacent to the tonguesnapper and has M < 1 is slowed (save ends).
+> Any creature who starts their turn adjacent to the tonguesnapper and has M < 1 is [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends).

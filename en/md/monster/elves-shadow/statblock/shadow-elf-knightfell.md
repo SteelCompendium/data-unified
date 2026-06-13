@@ -38,8 +38,8 @@ type: statblock
 > **Power Roll + 3:**
 >
 > - **≤11:** 8 corruption damage
-> - **12-16:** 12 corruption damage; R < 2 taunted (EoT)
-> - **17+:** 15 corruption damage; R < 3 taunted (EoT)
+> - **12-16:** 12 corruption damage; R < 2 [taunted](scc:mcdm.heroes.v1/condition/taunted) (EoT)
+> - **17+:** 15 corruption damage; R < 3 [taunted](scc:mcdm.heroes.v1/condition/taunted) (EoT)
 
 > ❗️ **Trick of the Eye**
 >

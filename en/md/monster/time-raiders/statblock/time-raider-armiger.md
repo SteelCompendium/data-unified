@@ -29,7 +29,7 @@ type: statblock
 | **Psychic 3**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |      **0**<br>Might       | **+2**<br>Agility | **+2**<br>Reason  |  **+2**<br>Intuition  |  **0**<br>Presence   |
 
-> 🗡 **Serrated Saber (Signature Ability)**
+> 🗡 **Serrated Saber ([Signature Ability](scc:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
 > | **Melee, Psionic, Strike, Weapon** |               **Main action** |
 > |------------------------------------|------------------------------:|
@@ -39,9 +39,9 @@ type: statblock
 >
 > - **≤11:** 7 damage
 > - **12-16:** 10 damage
-> - **17+:** 13 damage; R < 2 weakened (save ends)
+> - **17+:** 13 damage; R < 2 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
 >
-> **2 Malice:** A creature weakened this way is also bleeding.
+> **2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice):** A creature [weakened](scc:mcdm.heroes.v1/condition/weakened) this way is also [bleeding](scc:mcdm.heroes.v1/condition/bleeding).
 
 > ❗️ **Shared Sickness**
 >
@@ -49,7 +49,7 @@ type: statblock
 > |---------------------|-------------------------------:|
 > | **📏 Ranged 20**    | **🎯 The triggering creature** |
 >
-> **Trigger:** A creature deals damage to any ally of the armiger who the armiger has line of effect to.
+> **Trigger:** A creature deals damage to any ally of the armiger who the armiger has [line of effect](scc:mcdm.heroes.v1/rule.combat/line-of-effect) to.
 >
 > **Power Roll + 2:**
 >
@@ -63,4 +63,4 @@ type: statblock
 
 > ⭐️ **Kuran'zoi Heraldry**
 >
-> Any time raider who starts their turn with line of effect to the armiger can end one condition affecting the.
+> Any time raider who starts their turn with [line of effect](scc:mcdm.heroes.v1/rule.combat/line-of-effect) to the armiger can end one condition affecting the.

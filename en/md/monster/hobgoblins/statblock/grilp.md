@@ -42,13 +42,13 @@ with_captain: +2 bonus to speed
 >
 > - **≤11:** 3 damage
 > - **12-16:** 5 damage
-> - **17+:** 7 damage; the grilp shifts up to 2 squares
+> - **17+:** 7 damage; the grilp [shifts](scc:mcdm.heroes.v1/movement/shifting) up to 2 squares
 >
 > **Effect:** The grilp moves up to their speed and can attempt to hide.
 
 > ⭐️ **Bat Out Of Hell**
 >
-> Any enemy who makes a saving throw takes a −1 penalty to the saving throw for each grilp adjacent to them.
+> Any enemy who makes a saving throw takes a −1 penalty to the saving throw for each grilp [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to them.
 
 > ⭐️ **Shifting Camouflage**
 >

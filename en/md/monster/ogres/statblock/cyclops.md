@@ -28,7 +28,7 @@ with_captain: +4 bonus to speed
 | **-**<br>Immunity | **-**<br>Movement |         -         | **+4 bonus to speed**<br>With Captain |   **-**<br>Weakness    |
 |  **+5**<br>Might  | **-1**<br>Agility | **-1**<br>Reason  |          **+3**<br>Intuition          |   **-1**<br>Presence   |
 
-> ❇️ **Wild Slam (Signature Ability)**
+> ❇️ **Wild Slam ([Signature Ability](scc:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
 > | **Area, Weapon** |                          **Main action** |
 > |------------------|-----------------------------------------:|
@@ -37,8 +37,8 @@ with_captain: +4 bonus to speed
 > **Power Roll + 5:**
 >
 > - **≤11:** 3 damage; A < 3 3 damage
-> - **12-16:** 6 damage; push 3; A < 4 4 damage
-> - **17+:** 7 damage; prone; A < 5 5 damage and restrained (save ends)
+> - **12-16:** 6 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 3; A < 4 4 damage
+> - **17+:** 7 damage; [prone](scc:mcdm.heroes.v1/condition/prone); A < 5 5 damage and [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)
 >
 > **Effect:** The cyclops automatically treats their initial power roll as a 17. They can still roll to determine if they score a critical hit.
 

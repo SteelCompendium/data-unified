@@ -29,7 +29,7 @@ with_captain: +5 bonus to ranged distance
 |      **-**<br>Immunity      | **-**<br>Movement |         -         | **+5 bonus to ranged distance**<br>With Captain |   **-**<br>Weakness   |
 |       **-1**<br>Might       | **+2**<br>Agility | **+4**<br>Reason  |               **+3**<br>Intuition               |  **+1**<br>Presence   |
 
-> 🏹 **Fuse-Iron Bomb (Signature Ability)**
+> 🏹 **Fuse-Iron Bomb ([Signature Ability](scc:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
 > | **Ranged, Weapon** |                          **Main action** |
 > |--------------------|-----------------------------------------:|
@@ -38,11 +38,11 @@ with_captain: +5 bonus to ranged distance
 > **Power Roll + 4:**
 >
 > - **≤11:** 4 fire damage
-> - **12-16:** 7 fire damage; push 1
-> - **17+:** 8 fire damage; push 3
+> - **12-16:** 7 fire damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 1
+> - **17+:** 8 fire damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 3
 >
 > **Effect:** The space the target occupies fills with dark smoke and blocks line of effect until the start of the saboteur's next turn.
 
 > ⭐️ **Loyalty Collar**
 >
-> When the saboteur is reduced to 0 Stamina, their loyalty collar explodes, dealing 2d6 damage to each adjacent enemy and object.
+> When the saboteur is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), their loyalty collar explodes, dealing 2d6 damage to each [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) enemy and object.

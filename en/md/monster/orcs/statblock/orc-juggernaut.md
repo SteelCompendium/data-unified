@@ -27,7 +27,7 @@ type: statblock
 | **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+2**<br>Might  | **+2**<br>Agility | **-1**<br>Reason  |  **-1**<br>Intuition  |  **+2**<br>Presence  |
 
-> 🗡 **Haymaker Greataxe (Signature Ability)**
+> 🗡 **Haymaker Greataxe ([Signature Ability](scc:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
 > | **Melee, Strike, Weapon** |               **Main action** |
 > |---------------------------|------------------------------:|
@@ -36,12 +36,12 @@ type: statblock
 > **Power Roll + 2:**
 >
 > - **≤11:** 7 damage
-> - **12-16:** 11 damage; prone
-> - **17+:** 14 damage; prone; M < 2 bleeding (save ends)
+> - **12-16:** 11 damage; [prone](scc:mcdm.heroes.v1/condition/prone)
+> - **17+:** 14 damage; [prone](scc:mcdm.heroes.v1/condition/prone); M < 2 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
 >
-> **Effect:** A target who is already prone takes an extra 6 damage.
+> **Effect:** A target who is already [prone](scc:mcdm.heroes.v1/condition/prone) takes an extra 6 damage.
 
-> ❗️ **Hrraaaaaagh! (1 Malice)**
+> ❗️ **Hrraaaaaagh! (1 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **-**       | **Free triggered action** |
 > |-------------|--------------------------:|
@@ -49,12 +49,12 @@ type: statblock
 >
 > **Trigger:** The juggernaut takes damage.
 >
-> **Effect:** The juggernaut moves up to their speed and can make a free strike.
+> **Effect:** The juggernaut moves up to their speed and can make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike).
 
 > ⭐️ **Blood in the Water**
 >
-> Whenever the juggernaut willingly moves, they can move 3 additional squares if they end their movement closer to a prone creature.
+> Whenever the juggernaut willingly moves, they can move 3 additional squares if they end their movement closer to a [prone](scc:mcdm.heroes.v1/condition/prone) creature.
 
 > ⭐️ **Relentless**
 >
-> If the juggernaut is reduced to 0 Stamina, they can make a free strike before dying. If the target of the free strike is reduced to 0 Stamina, the juggernaut is reduced to 1 Stamina instead.
+> If the juggernaut is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), they can make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) before dying. If the target of the free strike is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), the juggernaut is reduced to 1 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) instead.

@@ -30,7 +30,7 @@ type: statblock
 | **Acid 5**<br>Immunity | **Fly**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |    **+3**<br>Might     |  **+2**<br>Agility  |  **-1**<br>Reason  |  **+1**<br>Intuition  |  **0**<br>Presence   |
 
-> 🗡 **Sedating Stinger (Signature Ability)**
+> 🗡 **Sedating Stinger ([Signature Ability](scc:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
 > | **Magic, Strike, Weapon** |                 **Main action** |
 > |---------------------------|--------------------------------:|
@@ -39,10 +39,10 @@ type: statblock
 > **Power Roll + 3:**
 >
 > - **≤11:** 9 damage
-> - **12-16:** 14 damage; M < 2 slowed (save ends)
-> - **17+:** 17 damage; M < 3 slowed (save ends)
+> - **12-16:** 14 damage; M < 2 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
+> - **17+:** 17 damage; M < 3 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
 >
-> **Effect:** If a target slowed this way is already slowed, they are instead restrained (save ends).
+> **Effect:** If a target [slowed](scc:mcdm.heroes.v1/condition/slowed) this way is already [slowed](scc:mcdm.heroes.v1/condition/slowed), they are instead [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends).
 
 > 🔳 **Tail Sweep**
 >
@@ -66,9 +66,9 @@ type: statblock
 >
 > **Power Roll + 3:**
 >
-> - **≤11:** 9 damage; A < 1 grabbed
-> - **12-16:** 14 damage; A < 2 grabbed
-> - **17+:** 17 damage; A < 3 grabbed and the target takes a bane on the Escape Grab maneuver
+> - **≤11:** 9 damage; A < 1 [grabbed](scc:mcdm.heroes.v1/condition/grabbed)
+> - **12-16:** 14 damage; A < 2 [grabbed](scc:mcdm.heroes.v1/condition/grabbed)
+> - **17+:** 17 damage; A < 3 [grabbed](scc:mcdm.heroes.v1/condition/grabbed) and the target takes a bane on the Escape Grab maneuver
 
 > ❗️ **Deterring Sting (1 Malice)**
 >
@@ -78,11 +78,11 @@ type: statblock
 >
 > **Trigger:** A creature within distance deals damage to the predator with a melee ability.
 >
-> **Effect:** The predator uses Sedating Stinger against the target, then shifts up to 3 squares.
+> **Effect:** The predator uses Sedating Stinger against the target, then [shifts](scc:mcdm.heroes.v1/movement/shifting) up to 3 squares.
 
 > ⭐️ **Stubborn Rage**
 >
-> While winded or within 10 squares of another wyvern, the predator can't be made dazed or frightened.
+> While [winded](scc:mcdm.heroes.v1/rule.health/winded) or within 10 squares of another wyvern, the predator can't be made [dazed](scc:mcdm.heroes.v1/condition/dazed) or [frightened](scc:mcdm.heroes.v1/condition/frightened).
 
 > ⭐️ **Tenacious Hunter**
 >

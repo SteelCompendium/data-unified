@@ -28,7 +28,7 @@ with_captain: +2 bonus to forced movement distance
 | **-**<br>Immunity | **-**<br>Movement |        -         | **+2 bonus to forced movement distance**<br>With Captain |   **-**<br>Weakness   |
 |  **0**<br>Might   | **+1**<br>Agility | **0**<br>Reason  |                    **0**<br>Intuition                    |   **+2**<br>Presence  |
 
-> 🏹 **Explosive Mote (Signature Ability)**
+> 🏹 **Explosive Mote ([Signature Ability](scc:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
 > | **Magic, Ranged, Strike** |                          **Main action** |
 > |---------------------------|-----------------------------------------:|
@@ -36,10 +36,10 @@ with_captain: +2 bonus to forced movement distance
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 2 damage; push 1, or the bloodspark can shift 1 square away from the target
-> - **12-16:** 4 damage; push 2, or the bloodspark shifts up to 2 squares away from the target
-> - **17+:** 5 damage; push 4, or the bloodspark shifts up to 4 squares away from the target
+> - **≤11:** 2 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 1, or the bloodspark can [shift](scc:mcdm.heroes.v1/movement/shifting) 1 square away from the target
+> - **12-16:** 4 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 2, or the bloodspark [shifts](scc:mcdm.heroes.v1/movement/shifting) up to 2 squares away from the target
+> - **17+:** 5 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 4, or the bloodspark [shifts](scc:mcdm.heroes.v1/movement/shifting) up to 4 squares away from the target
 
 > ⭐️ **Bloodfire Bur**
 >
-> If the bloodspark is reduced to 0 Stamina, they can make a free strike before dying.
+> If the bloodspark is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), they can make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) before dying.

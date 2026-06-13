@@ -40,8 +40,8 @@ with_captain: +5 bonus to ranged distance
 > - **12-16:** 4 damage
 > - **17+:** 5 damage
 >
-> **Effect:** While adjacent to any ally, the sagittarion gains an edge on this ability.
+> **Effect:** While [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to any ally, the sagittarion gains an edge on this ability.
 
 > ⭐️ **Shield? Shield!**
 >
-> While adjacent to an ally who also has this trait, the sagittarion has stability 1, has cover, and grants cover to allies.
+> While [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to an ally who also has this trait, the sagittarion has stability 1, has cover, and grants cover to allies.

@@ -42,7 +42,7 @@ with_captain: +2 damage bonus to strikes
 > - **12-16:** 5 damage
 > - **17+:** 7 damage
 >
-> **Effect:** The grulqin gains an edge on this ability if they previously moved 3 or more squares in a straight line on their turn.
+> **Effect:** The grulqin gains an [edge](scc:mcdm.heroes.v1/rule.dice/edge) on this ability if they previously moved 3 or more squares in a straight line on their turn.
 
 > ⭐️ **Soulsight**
 >

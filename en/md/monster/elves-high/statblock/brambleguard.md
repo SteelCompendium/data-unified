@@ -44,8 +44,8 @@ type: statblock
 > **Power Roll + 2:**
 >
 > - **≤11:** 4 damage
-> - **12-16:** 7 damage; push 3
-> - **17+:** 10 damage; push 3; A < 2 bleeding (save ends)
+> - **12-16:** 7 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 3
+> - **17+:** 10 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 3; A < 2 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
 
 > ⭐️ **Thicket and Thorns**
 >

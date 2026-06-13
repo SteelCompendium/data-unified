@@ -29,7 +29,7 @@ type: statblock
 | **Corruption 4, poison 4**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |            **+3**<br>Might             | **+1**<br>Agility |  **0**<br>Reason  |  **+2**<br>Intuition  |  **-1**<br>Presence  |
 
-> 🗡 **Multiarm Strike (Signature Ability)**
+> 🗡 **Multiarm Strike ([Signature Ability](scc:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
 > | **Melee, Strike, Weapon** |               **Main action** |
 > |---------------------------|------------------------------:|
@@ -41,9 +41,9 @@ type: statblock
 > - **12-16:** 7 damage
 > - **17+:** 9 damage
 >
-> **Effect:** The target can't shift until the end of their next turn.
+> **Effect:** The target can't [shift](scc:mcdm.heroes.v1/movement/shifting) until the end of their next turn.
 >
-> **1 Malice:** This ability targets one additional target.
+> **1 [Malice](scc:mcdm.monsters.v1/rule.monster/malice):** This ability targets one additional target.
 
 > ❇️ **Horrid Wail**
 >
@@ -54,14 +54,14 @@ type: statblock
 > **Power Roll + 3:**
 >
 > - **≤11:** 2 psychic damage
-> - **12-16:** 3 psychic damage; I < 2 frightened (save ends)
-> - **17+:** 4 psychic damage; I < 3 frightened (save ends)
+> - **12-16:** 3 psychic damage; I < 2 [frightened](scc:mcdm.heroes.v1/condition/frightened) (save ends)
+> - **17+:** 4 psychic damage; I < 3 [frightened](scc:mcdm.heroes.v1/condition/frightened) (save ends)
 >
-> **Effect:** A target who is still frightened this way at the end of the encounter can't take a respite activity during their next respite.
+> **Effect:** A target who is still [frightened](scc:mcdm.heroes.v1/condition/frightened) this way at the end of the encounter can't take a respite activity during their next respite.
 
 > ⭐️ **Arise**
 >
-> The first time the mournling is reduced to 0 Stamina by damage that isn't fire damage or holy damage and their body isn't destroyed, they instead have 10 Stamina and fall prone.
+> The first time the mournling is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) by damage that isn't fire damage or holy damage and their body isn't destroyed, they instead have 10 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) and fall [prone](scc:mcdm.heroes.v1/condition/prone).
 
 > ⭐️ **Immutable Form**
 >

@@ -41,7 +41,7 @@ type: statblock
 > - **12-16:** 17 fire damage; slide 4
 > - **17+:** 22 fire damage; slide 6
 
-> 🏹 **Living Blaze (3 Malice)**
+> 🏹 **Living Blaze (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Magic, Ranged, Strike** |                 **Main action** |
 > |---------------------------|--------------------------------:|
@@ -61,7 +61,7 @@ type: statblock
 > |-------------------|--------------------------------:|
 > | **📏 Ranged 5**   | **🎯 Two creatures or objects** |
 >
-> **Effect:** The lightbearer can target themself with this ability. Each target takes 1d6 fire damage and teleports in a plume of smoke to swap places with the other target.
+> **Effect:** The lightbearer can target themself with this ability. Each target takes 1d6 fire damage and [teleports](scc:mcdm.heroes.v1/movement/teleport) in a plume of smoke to swap places with the other target.
 
 > ❗️ **Emergency Beacon**
 >
@@ -75,8 +75,8 @@ type: statblock
 
 > ⭐️ **Healing Heat**
 >
-> Any fire giant targeted by the lightbearer's damage-dealing abilities ignores the damage and instead regains Stamina equal to the damage that would have been dealt. If the lightbearer moves a fire giant using an ability, they can choose to ignore stability.
+> Any fire giant targeted by the lightbearer's damage-dealing abilities ignores the damage and instead regains [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) equal to the damage that would have been dealt. If the lightbearer moves a fire giant using an ability, they can choose to ignore [stability](scc:mcdm.heroes.v1/rule.character/stability).
 
 > ⭐️ **Searing Skin**
 >
-> Whenever an adjacent enemy grabs the lightbearer or uses a melee ability against them, that enemy takes 5 fire damage.
+> Whenever an [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) enemy [grabs](scc:mcdm.heroes.v1/condition/grabbed) the lightbearer or uses a melee ability against them, that enemy takes 5 fire damage.

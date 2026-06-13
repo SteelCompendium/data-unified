@@ -1,14 +1,14 @@
 ---
 features:
-    - body: One devil acting this turn uses a signature ability against an adjacent creature. On a tier 3 outcome, the target of the ability has a double bane on strikes (save ends).
+    - body: One devil acting this turn uses a [signature ability](scc:mcdm.heroes.v1/rule.combat/signature-ability) against an [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) creature. On a tier 3 outcome, the target of the ability has a double [bane](scc:mcdm.heroes.v1/rule.dice/bane) on strikes (save ends).
       cost: 3 Malice
       icon: "\U0001F464"
       name: Bureaucratic Tape
-    - body: One or two devils can teleport to a space adjacent to one or more creatures who aren't hidden and make a free strike. For each 2 additional Malice spent on this feature, one additional devil can teleport.
+    - body: One or two devils can [teleport](scc:mcdm.heroes.v1/movement/teleport) to a space [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to one or more creatures who aren't hidden and make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike). For each 2 additional [Malice](scc:mcdm.monsters.v1/rule.monster/malice) spent on this feature, one additional devil can [teleport](scc:mcdm.heroes.v1/movement/teleport).
       cost: 5+ Malice
       icon: ⭐️
       name: Underhanded Tactics
-    - body: Each enemy in the encounter is subject to a bad deal proposed by the devils. An enemy must choose between having damage weakness 5 or taking a bane on power rolls. The bad deal lasts until the end of the encounter.
+    - body: Each enemy in the encounter is subject to a bad deal proposed by the [devils](scc:mcdm.monsters.v1/monster.group/devils). An enemy must choose between having damage weakness 5 or taking a [bane](scc:mcdm.heroes.v1/rule.dice/bane) on power rolls. The bad deal lasts until the end of the encounter.
       cost: 7 Malice
       icon: "\U0001F300"
       name: Read the Small Print
@@ -19,16 +19,16 @@ scc: mcdm.monsters.v1/monster.devils/devil-malice
 type: featureblock
 ---
 
-At the start of any devil's turn, you can spend Malice to activate one of the following features.
+At the start of any devil's turn, you can spend [Malice](scc:mcdm.monsters.v1/rule.monster/malice) to activate one of the following features.
 
-> 👤 **Bureaucratic Tape (3 Malice)**
+> 👤 **Bureaucratic Tape (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
 >
-> One devil acting this turn uses a signature ability against an adjacent creature. On a tier 3 outcome, the target of the ability has a double bane on strikes (save ends).
+> One devil acting this turn uses a [signature ability](scc:mcdm.heroes.v1/rule.combat/signature-ability) against an [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) creature. On a tier 3 outcome, the target of the ability has a double [bane](scc:mcdm.heroes.v1/rule.dice/bane) on strikes (save ends).
 
-> ⭐️ **Underhanded Tactics (5+ Malice)**
+> ⭐️ **Underhanded Tactics (5+ [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
 >
-> One or two devils can teleport to a space adjacent to one or more creatures who aren't hidden and make a free strike. For each 2 additional Malice spent on this feature, one additional devil can teleport.
+> One or two devils can [teleport](scc:mcdm.heroes.v1/movement/teleport) to a space [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to one or more creatures who aren't hidden and make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike). For each 2 additional [Malice](scc:mcdm.monsters.v1/rule.monster/malice) spent on this feature, one additional devil can [teleport](scc:mcdm.heroes.v1/movement/teleport).
 
-> 🌀 **Read the Small Print (7 Malice)**
+> 🌀 **Read the Small Print (7 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
 >
-> Each enemy in the encounter is subject to a bad deal proposed by the devils. An enemy must choose between having damage weakness 5 or taking a bane on power rolls. The bad deal lasts until the end of the encounter.
+> Each enemy in the encounter is subject to a bad deal proposed by the [devils](scc:mcdm.monsters.v1/monster.group/devils). An enemy must choose between having damage weakness 5 or taking a [bane](scc:mcdm.heroes.v1/rule.dice/bane) on power rolls. The bad deal lasts until the end of the encounter.

@@ -1,14 +1,14 @@
 ---
 features:
-    - body: As a maneuver, a creature adjacent to a switch can make an **Agility test**.
+    - body: As a maneuver, a creature [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to a switch can make an **Agility test**.
       icon: "\U0001F300"
       name: Deactivate
       power_roll:
         tiers:
             high: The switch is deactivated and doesn't trigger.
             low: The creature triggers the switch.
-            mid: The switch is deactivated but the creature is slowed (EoT).
-    - body: A creature adjacent to the switch uses a maneuver to trigger it.
+            mid: The switch is deactivated but the creature is [slowed](scc:mcdm.heroes.v1/condition/slowed) (EoT).
+    - body: A creature [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the switch uses a maneuver to trigger it.
       icon: ❕
       name: Activate
       sections:
@@ -44,15 +44,15 @@ Set into any surface, this mechanism acts as a trigger for another linked mechan
 
 > 🌀 **Deactivate**
 >
-> As a maneuver, a creature adjacent to a switch can make an **Agility test**.
+> As a maneuver, a creature [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to a switch can make an **Agility test**.
 >
 > - **≤11:** The creature triggers the switch.
-> - **12-16:** The switch is deactivated but the creature is slowed (EoT).
+> - **12-16:** The switch is deactivated but the creature is [slowed](scc:mcdm.heroes.v1/condition/slowed) (EoT).
 > - **17+:** The switch is deactivated and doesn't trigger.
 
 > ❕ **Activate**
 >
-> A creature adjacent to the switch uses a maneuver to trigger it.
+> A creature [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the switch uses a maneuver to trigger it.
 >
 > **Effect:** The linked mechanism is activated. A switch automatically resets and can be triggered repeatedly.
 

@@ -38,11 +38,11 @@ type: statblock
 >
 > - **≤11:** 6 damage
 > - **12-16:** 9 damage
-> - **17+:** 12 damage; M < 2 restrained (save ends)
+> - **17+:** 12 damage; M < 2 [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)
 >
-> **Effect:** A target already restrained or restrained by this ability is pulled up to 3 squares. A target restrained by a dwarf can be force moved by this ability. This forced movement doesn't end the restrained condition unless the Director determines otherwise.
+> **Effect:** A target already [restrained](scc:mcdm.heroes.v1/condition/restrained) or [restrained](scc:mcdm.heroes.v1/condition/restrained) by this ability is [pulled](scc:mcdm.heroes.v1/movement/forced-movement) up to 3 squares. A target [restrained](scc:mcdm.heroes.v1/condition/restrained) by a dwarf can be force moved by this ability. This forced movement doesn't end the [restrained](scc:mcdm.heroes.v1/condition/restrained) condition unless the Director determines otherwise.
 
-> ❇️ **Stunning Blast (3 Malice)**
+> ❇️ **Stunning Blast (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Area, Weapon** |                  **Maneuver** |
 > |------------------|------------------------------:|
@@ -50,9 +50,9 @@ type: statblock
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 3 lightning damage; A < 0 slowed (save ends)
-> - **12-16:** 6 lightning damage; A < 1 slowed (save ends)
-> - **17+:** 7 lightning damage; A < 2 slowed (save ends)
+> - **≤11:** 3 lightning damage; A < 0 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
+> - **12-16:** 6 lightning damage; A < 1 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
+> - **17+:** 7 lightning damage; A < 2 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
 
 > ⭐️ **Cupola**
 >
@@ -60,4 +60,4 @@ type: statblock
 
 > ⭐️ **Mobile Prison Harness**
 >
-> Any restrained or slowed creature who comes adjacent to the war walker is automatically restrained (save ends) and takes a bane on power rolls. A creature restrained this way moves with the war walker.
+> Any [restrained](scc:mcdm.heroes.v1/condition/restrained) or [slowed](scc:mcdm.heroes.v1/condition/slowed) creature who comes [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the war walker is automatically [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends) and takes a bane on power rolls. A creature [restrained](scc:mcdm.heroes.v1/condition/restrained) this way moves with the war walker.

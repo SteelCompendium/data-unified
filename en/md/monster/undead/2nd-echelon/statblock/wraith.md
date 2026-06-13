@@ -30,7 +30,7 @@ type: statblock
 | **Corruption 4, poison 4**<br>Immunity | **Fly, hover**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |            **-2**<br>Might             |     **+2**<br>Agility      | **+1**<br>Reason  |  **+1**<br>Intuition  |  **+3**<br>Presence  |
 
-> 🗡 **Chilling Gravetouch (Signature Ability)**
+> 🗡 **Chilling Gravetouch ([Signature Ability](scc:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
 > | **Magic, Melee, Strike, Weapon** |               **Main action** |
 > |----------------------------------|------------------------------:|
@@ -38,9 +38,9 @@ type: statblock
 >
 > **Power Roll + 3:**
 >
-> - **≤11:** 5 cold damage; P < 1 slowed (save ends)
-> - **12-16:** 7 cold damage; P < 2 slowed (save ends)
-> - **17+:** 9 cold damage; P < 3 slowed (save ends)
+> - **≤11:** 5 cold damage; P < 1 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
+> - **12-16:** 7 cold damage; P < 2 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
+> - **17+:** 9 cold damage; P < 3 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
 >
 > **Effect:** Any living creature who dies from this damage rises at the start of the next round as a ghoul craver under the Director's control.
 
@@ -52,16 +52,16 @@ type: statblock
 >
 > **Effect:** The wraith turns invisible, moves up to their speed, and is visible again.
 
-> ❗️ **Stolen Vitality (1 Malice)**
+> ❗️ **Stolen Vitality (1 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Magic, Ranged** |      **Free triggered action** |
 > |-------------------|-------------------------------:|
 > | **📏 Ranged 5**   | **🎯 The triggering creature** |
 >
-> **Trigger:** An enemy within distance regains Stamina.
+> **Trigger:** An enemy within distance regains [Stamina](scc:mcdm.heroes.v1/rule.health/stamina).
 >
-> **Effect:** The target regains only half the Stamina, and the wraith regains the remaining Stamina.
+> **Effect:** The target regains only half the [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), and the wraith regains the remaining [Stamina](scc:mcdm.heroes.v1/rule.health/stamina).
 
 > ⭐️ **Agonizing Phasing**
 >
-> The wraith can move through creatures and objects at their usual speed, but can't end their turn inside a creature or object. The first time in a round that the wraith moves through a creature, that creature takes 5 corruption damage and takes a bane on their next strike. The wraith doesn't take damage from being force moved into objects.
+> The wraith can move through creatures and objects at their usual speed, but can't end their turn inside a creature or object. The first time in a round that the wraith moves through a creature, that creature takes 5 corruption damage and takes a bane on their next strike. The wraith doesn't take damage from being [force moved](scc:mcdm.heroes.v1/movement/forced-movement) into objects.

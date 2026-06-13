@@ -28,7 +28,7 @@ type: statblock
 |     **-**<br>Immunity      | **Fly, hover**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |      **-1**<br>Might       |     **+1**<br>Agility      | **+4**<br>Reason  |  **+1**<br>Intuition  |  **-1**<br>Presence  |
 
-> 🏹 **Necro Beam (Signature Ability)**
+> 🏹 **Necro Beam ([Signature Ability](scc:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
 > | **Psionic, Ranged, Strike** |               **Main action** |
 > |-----------------------------|------------------------------:|
@@ -37,10 +37,10 @@ type: statblock
 > **Power Roll + 4:**
 >
 > - **≤11:** 11 corruption damage
-> - **12-16:** 17 corruption damage; M < 3 bleeding (save ends)
-> - **17+:** 20 corruption damage; M < 4 bleeding (save ends)
+> - **12-16:** 17 corruption damage; M < 3 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
+> - **17+:** 20 corruption damage; M < 4 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
 >
-> **Effect:** If this damage or the Stamina loss from bleeding this way reduces a target creature's Stamina to 0, that creature dies.
+> **Effect:** If this damage or the [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) loss from [bleeding](scc:mcdm.heroes.v1/condition/bleeding) this way reduces a target creature's [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) to 0, that creature dies.
 
 > ⭐️ **Psionic Barrier**
 >

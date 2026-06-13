@@ -29,7 +29,7 @@ type: statblock
 |         **-**<br>Immunity          | **-**<br>Movement |          -          | **-**<br>With Captain |   **-**<br>Weakness   |
 |          **+4**<br>Might           | **-2**<br>Agility |  **-4**<br>Reason   |  **-1**<br>Intuition  |   **-5**<br>Presence  |
 
-> 🔳 **Wrecking Ball (Signature Ability)**
+> 🔳 **Wrecking Ball ([Signature Ability](scc:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
 > | **Area, Ranged, Weapon** |                          **Main action** |
 > |--------------------------|-----------------------------------------:|
@@ -37,8 +37,8 @@ type: statblock
 >
 > **Effect:** Each target must make either an Agility test or an **Intuition test**.
 >
-> - **≤11:** 15 damage; push 5, prone
-> - **12-16:** 12 damage; push 3
+> - **≤11:** 15 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 5, [prone](scc:mcdm.heroes.v1/condition/prone)
+> - **12-16:** 12 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 3
 > - **17+:** 8 damage
 
 > 🗡 **Construction Arm**
@@ -50,8 +50,8 @@ type: statblock
 > **Power Roll + 4:**
 >
 > - **≤11:** 16 damage
-> - **12-16:** 23 damage; grabbed
-> - **17+:** 28 damage; grabbed; M < 4 vertical push 5
+> - **12-16:** 23 damage; [grabbed](scc:mcdm.heroes.v1/condition/grabbed)
+> - **17+:** 28 damage; [grabbed](scc:mcdm.heroes.v1/condition/grabbed); M < 4 vertical [push](scc:mcdm.heroes.v1/movement/forced-movement) 5
 
 > 🔳 **Lay the Foundation (3 Malice)**
 >
@@ -59,10 +59,10 @@ type: statblock
 > |----------------------------|----------------:|
 > | **📏 6 x 3 line within 1** |  **🎯 Special** |
 >
-> **Effect:** The area is covered in wet concrete and is difficult terrain. An enemy who starts their turn in the concrete makes a **Might test**.
+> **Effect:** The area is covered in wet concrete and is [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain). An enemy who starts their turn in the concrete makes a **Might test**.
 >
-> - **≤11:** Restrained (EoT)
-> - **12-16:** Slowed (EoT)
+> - **≤11:** [Restrained](scc:mcdm.heroes.v1/condition/restrained) (EoT)
+> - **12-16:** [Slowed](scc:mcdm.heroes.v1/condition/slowed) (EoT)
 > - **17+:** No effect
 
 > 🔳 **Build Wall**
@@ -83,15 +83,15 @@ type: statblock
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** A < 2 restrained (save ends)
-> - **12-16:** A < 3 restrained (save ends)
-> - **17+:** A < 4 restrained (save ends)
+> - **≤11:** A < 2 [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)
+> - **12-16:** A < 3 [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)
+> - **17+:** A < 4 [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)
 >
-> **Effect:** While a creature is restrained this way, or if the target is an object, the target and their space are encased in wet concrete. A creature no longer restrained leaves squares of wet concrete behind.
+> **Effect:** While a creature is [restrained](scc:mcdm.heroes.v1/condition/restrained) this way, or if the target is an object, the target and their space are encased in wet concrete. A creature no longer [restrained](scc:mcdm.heroes.v1/condition/restrained) leaves squares of wet concrete behind.
 
 > ⭐️ **Servok Siege Machine**
 >
-> The builder ignores difficult terrain, and their abilities deal an extra 15 damage to objects.
+> The builder ignores [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain), and their abilities deal an extra 15 damage to objects.
 
 > ⭐️ **Crafted to Perfection**
 >
@@ -99,4 +99,4 @@ type: statblock
 
 > ⭐️ **Valiar Might**
 >
-> While the builder isn't bleeding, weakened, or winded, any power roll made against them is automatically a tier 1 outcome. A critical hit still grants its additional main action.
+> While the builder isn't [bleeding](scc:mcdm.heroes.v1/condition/bleeding), [weakened](scc:mcdm.heroes.v1/condition/weakened), or [winded](scc:mcdm.heroes.v1/rule.health/winded), any power roll made against them is automatically a tier 1 outcome. A critical hit still grants its additional main action.

@@ -40,24 +40,24 @@ weaknesses:
 >
 > - **≤11:** 7 poison damage; push 2
 > - **12-16:** 10 poison damage; push 2
-> - **17+:** 11 poison damage; push 4; A < 4 grabbed
+> - **17+:** 11 poison damage; push 4; A < 4 [grabbed](scc:mcdm.heroes.v1/condition/grabbed)
 >
-> **Effect:** The praetorian can shift into each square the target leaves.
+> **Effect:** The praetorian can [shift](scc:mcdm.heroes.v1/movement/shifting) into each square the target leaves.
 
-> ❗️ **Stinging Departure (2 Malice)**
+> ❗️ **Stinging Departure (2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **-**       |           **Triggered action** |
 > |-------------|-------------------------------:|
 > | **📏 Self** | **🎯 The triggering creature** |
 >
-> **Trigger:** A creature ends the praetorian's grab.
+> **Trigger:** A creature ends the praetorian's [grab](scc:mcdm.heroes.v1/condition/grabbed).
 >
-> **Effect:** The praetorian makes a free strike against the target, breaks off part of their stinger in the target, and shifts up to half their speed. The target is bleeding until they remove the stinger fragment as a free maneuver, taking 6 damage in the process.
+> **Effect:** The praetorian makes a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) against the target, breaks off part of their stinger in the target, and [shifts](scc:mcdm.heroes.v1/movement/shifting) up to half their speed. The target is [bleeding](scc:mcdm.heroes.v1/condition/bleeding) until they remove the stinger fragment as a [free maneuver](scc:mcdm.heroes.v1/rule.combat/free-maneuver), taking 6 damage in the process.
 
 > ⭐️ **Lethe**
 >
-> While the praetorian is winded, they gain an edge on strikes, and any strike made against them gains an edge.
+> While the praetorian is [winded](scc:mcdm.heroes.v1/rule.health/winded), they gain an [edge](scc:mcdm.heroes.v1/rule.dice/edge) on strikes, and any strike made against them gains an edge.
 
 > ⭐️ **Praetorian Buzzing**
 >
-> Any creature who starts their turn with two or more praetorians adjacent to them takes 6 sonic damage.
+> Any creature who starts their turn with two or more praetorians [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to them takes 6 sonic damage.

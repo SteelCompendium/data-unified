@@ -38,6 +38,6 @@ with_captain: +2 bonus to Stamina
 >
 > - **≤11:** 2 damage
 > - **12-16:** 4 damage
-> - **17+:** 5 damage; grabbed or prone
+> - **17+:** 5 damage; [grabbed](scc:mcdm.heroes.v1/condition/grabbed) or [prone](scc:mcdm.heroes.v1/condition/prone)
 >
-> **Effect:** If the target is restrained, they take an extra 2 damage.
+> **Effect:** If the target is [restrained](scc:mcdm.heroes.v1/condition/restrained), they take an extra 2 damage.

@@ -31,7 +31,7 @@ with_captain: Gain an edge on strikes
 | **Psychic 10**<br>Immunity  | **-**<br>Movement |         -         | **Gain an edge on strikes**<br>With Captain |   **-**<br>Weakness    |
 |       **+2**<br>Might       | **+2**<br>Agility | **+4**<br>Reason  |             **+3**<br>Intuition             |   **+5**<br>Presence   |
 
-> 🏹 **Call to Self-Sabotage (Signature Ability)**
+> 🏹 **Call to Self-Sabotage ([Signature Ability](scc:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
 > | **Psionic, Ranged, Strike** |                **Main action** |
 > |-----------------------------|-------------------------------:|
@@ -39,12 +39,12 @@ with_captain: Gain an edge on strikes
 >
 > **Power Roll + 5:**
 >
-> - **≤11:** The target makes a free strike (tier 1 result) against themself
-> - **12-16:** The target makes a free strike (tier 2 result) against themself
-> - **17+:** The target makes a free strike (tier 3 result) against themself
+> - **≤11:** The target makes a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) (tier 1 result) against themself
+> - **12-16:** The target makes a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) (tier 2 result) against themself
+> - **17+:** The target makes a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) (tier 3 result) against themself
 >
-> **Effect:** The target takes an extra 5 damage for each surge they have.
+> **Effect:** The target takes an extra 5 damage for each [surge](scc:mcdm.heroes.v1/rule.resource/surge) they have.
 
 > ⭐️ **Loyalty Collar**
 >
-> When the socialite is reduced to 0 Stamina, their loyalty collar explodes, dealing 3d6 damage to each adjacent enemy and object.
+> When the socialite is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), their loyalty collar explodes, dealing 3d6 damage to each [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) enemy and object.

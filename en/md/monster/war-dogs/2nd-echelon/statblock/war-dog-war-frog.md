@@ -32,7 +32,7 @@ with_captain: +2 bonus to speed
 |  **Poison 4**<br>Immunity   | **Climb, swim**<br>Movement |        -         | **+2 bonus to speed**<br>With Captain |   **-**<br>Weakness   |
 |       **-1**<br>Might       |      **+3**<br>Agility      | **0**<br>Reason  |          **+2**<br>Intuition          |   **0**<br>Presence   |
 
-> ⚔️ **Poisoned Dagger (Signature Ability)**
+> ⚔️ **Poisoned Dagger ([Signature Ability](scc:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
 > | **Melee, Ranged, Strike, Weapon** |                **Main action** |
 > |-----------------------------------|-------------------------------:|
@@ -48,4 +48,4 @@ with_captain: +2 bonus to speed
 
 > ⭐️ **Loyalty Collar**
 >
-> When the war frog is reduced to 0 Stamina, their loyalty collar explodes, dealing 1d6 damage to each adjacent enemy and object.
+> When the war frog is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), their loyalty collar explodes, dealing 1d6 damage to each [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) enemy and object.

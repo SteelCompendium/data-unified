@@ -36,9 +36,9 @@ type: statblock
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 4 cold damage; M < 0 push 3
-> - **12-16:** 6 cold damage; M < 1 push 5 or prone
-> - **17+:** 9 cold damage; M < 2 slide 5 or prone
+> - **≤11:** 4 cold damage; M < 0 [push](scc:mcdm.heroes.v1/movement/forced-movement) 3
+> - **12-16:** 6 cold damage; M < 1 [push](scc:mcdm.heroes.v1/movement/forced-movement) 5 or [prone](scc:mcdm.heroes.v1/condition/prone)
+> - **17+:** 9 cold damage; M < 2 [slide](scc:mcdm.heroes.v1/movement/forced-movement) 5 or [prone](scc:mcdm.heroes.v1/condition/prone)
 
 > 🏹 **Aetherweb**
 >
@@ -48,11 +48,11 @@ type: statblock
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 5 damage; R < 0 slowed (save ends)
-> - **12-16:** 8 damage; R < 1 slowed (save ends)
-> - **17+:** 11 damage; R < 2 restrained (save ends)
+> - **≤11:** 5 damage; R < 0 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
+> - **12-16:** 8 damage; R < 1 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
+> - **17+:** 11 damage; R < 2 [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)
 >
-> **Effect:** Each enemy within 3 squares of a target suffers the same potency effect as the target unless they are already adjacent to them, or if they immediately shift into an unoccupied space adjacent to the target (no action required).
+> **Effect:** Each enemy within 3 squares of a target suffers the same [potency](scc:mcdm.heroes.v1/rule.character/potency) effect as the target unless they are already [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to them, or if they immediately [shift](scc:mcdm.heroes.v1/movement/shifting) into an unoccupied space [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the target (no action required).
 
 > ⭐️ **Otherworldly Grace**
 >

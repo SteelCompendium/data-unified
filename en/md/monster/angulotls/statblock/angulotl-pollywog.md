@@ -39,9 +39,9 @@ with_captain: +2 bonus to speed
 > **Power Roll + 2:**
 >
 > - **≤11:** 1 poison damage
-> - **12-16:** 2 poison damage; the pollywog can shift 1 square
-> - **17+:** 3 poison damage; the pollywog shifts up to 3 squares
+> - **12-16:** 2 poison damage; the pollywog can [shift](scc:mcdm.heroes.v1/movement/shifting) 1 square
+> - **17+:** 3 poison damage; the pollywog [shifts](scc:mcdm.heroes.v1/movement/shifting) up to 3 squares
 
 > ⭐️ **Quick Snack**
 >
-> Any angulotl who can target the pollywog with a melee free strike can eat them as a maneuver. The angulotl regains 4 Stamina and is wet until the end of their next turn.
+> Any angulotl who can target the pollywog with a melee [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) can eat them as a maneuver. The angulotl regains 4 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) and is wet until the end of their next turn.

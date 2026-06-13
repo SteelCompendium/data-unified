@@ -18,14 +18,14 @@ features:
       power_roll:
         formula: + 2
         tiers:
-            high: M < 2 restrained (save ends)
-            low: M < 0 slowed (save ends)
-            mid: M < 1 restrained (save ends)
+            high: M < 2 [restrained](scc:mcdm.heroes.v1/condition/restrained) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
+            low: M < 0 [slowed](scc:mcdm.heroes.v1/condition/slowed) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
+            mid: M < 1 [restrained](scc:mcdm.heroes.v1/condition/restrained) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
       sections:
         - label: Trigger
           text: A creature or object enters the quicksand or starts their turn there.
         - label: Effect
-          text: This ability takes a bane if a triggering creature shifted into the quicksand. A character who starts their turn restrained this way is suffocating.
+          text: This ability takes a bane if a triggering creature [shifted](scc:mcdm.heroes.v1/movement/shifting) into the quicksand. A character who starts their turn [restrained](scc:mcdm.heroes.v1/condition/restrained) this way is [suffocating](scc:mcdm.heroes.v1/rule.health/suffocating).
       target: The triggering creature or object
       usage: Free triggered action
     - body: The quicksand is hidden until triggered or detected.
@@ -73,11 +73,11 @@ When this patch of sand is stepped on, it is revealed to be a slurry saturated b
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** M < 0 slowed (save ends)
-> - **12-16:** M < 1 restrained (save ends)
-> - **17+:** M < 2 restrained (save ends)
+> - **≤11:** M < 0 [slowed](scc:mcdm.heroes.v1/condition/slowed) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
+> - **12-16:** M < 1 [restrained](scc:mcdm.heroes.v1/condition/restrained) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
+> - **17+:** M < 2 [restrained](scc:mcdm.heroes.v1/condition/restrained) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
 >
-> **Effect:** This ability takes a bane if a triggering creature shifted into the quicksand. A character who starts their turn restrained this way is suffocating.
+> **Effect:** This ability takes a bane if a triggering creature [shifted](scc:mcdm.heroes.v1/movement/shifting) into the quicksand. A character who starts their turn [restrained](scc:mcdm.heroes.v1/condition/restrained) this way is [suffocating](scc:mcdm.heroes.v1/rule.health/suffocating).
 
 > ⭐️ **Hidden**
 >

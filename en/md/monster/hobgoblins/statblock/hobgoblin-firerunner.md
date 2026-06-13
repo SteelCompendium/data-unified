@@ -41,7 +41,7 @@ type: statblock
 >
 > - **≤11:** 9 fire damage
 > - **12-16:** 13 fire damage
-> - **17+:** 16 fire damage; A < 3 dazed (EoT)
+> - **17+:** 16 fire damage; A < 3 [dazed](scc:mcdm.heroes.v1/condition/dazed) (EoT)
 
 > 👤 **Blazing Trail**
 >
@@ -57,8 +57,8 @@ type: statblock
 
 > ⭐️ **Kindlestep**
 >
-> The firerunner ignores difficult terrain.
+> The firerunner ignores [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain).
 
 > ⭐️ **Infernal Ichor**
 >
-> When the firerunner is reduced to 0 Stamina, they spray burning blood. Each creature adjacent to the firerunner takes 3 fire damage.
+> When the firerunner is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), they spray burning blood. Each creature [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the firerunner takes 3 fire damage.

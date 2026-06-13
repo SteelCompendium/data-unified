@@ -9,12 +9,12 @@ keywords:
     - —
 level: 3
 movement: Fly, hover
-name: Pixie Bellringer
+name: Pixie Bellringer (Converted)
 organization: Minion
 presence: 2
 reason: 0
 role: Support
-scc: mcdm.summoner.v1/monster.statblock/pixie-bellringer
+scc: mcdm.summoner.v1/monster.statblock/pixie-bellringer-converted
 size: 1T
 speed: 5
 stability: 0

@@ -1,6 +1,6 @@
 ---
 features:
-    - body: Xorannox lets out a noxious belch. Each enemy within 2 squares of him who has M < 3 is weakened (save ends).
+    - body: Xorannox lets out a noxious belch. Each enemy within 2 squares of him who has M < 3 is [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends).
       cost: 3 Malice
       icon: ❇️
       name: Gas Belch
@@ -8,11 +8,11 @@ features:
       cost: 5 Malice
       icon: ⭐️
       name: Slime Trail
-    - body: Xorannox takes an additional main action on his turn. He can use this feature even if he is dazed.
+    - body: Xorannox takes an additional main action on his turn. He can use this feature even if he is [dazed](scc:mcdm.heroes.v1/condition/dazed).
       cost: 5 Malice
       icon: ☠️
       name: Solo Action
-    - body: Xorannox fills the encounter map with a powerful telekinetic field. The Director chooses a cardinal direction (north, south, east, or west). Whenever a creature in the encounter willingly moves or is force moved, they are pulled 2 squares in the chosen direction, ignoring stability. Each time this feature is used, its previous effect ends.
+    - body: Xorannox fills the encounter map with a powerful telekinetic field. The Director chooses a cardinal direction (north, south, east, or west). Whenever a creature in the encounter willingly moves or is [force moved](scc:mcdm.heroes.v1/movement/forced-movement), they are [pulled](scc:mcdm.heroes.v1/movement/forced-movement) 2 squares in the chosen direction, ignoring stability. Each time this feature is used, its previous effect ends.
       cost: 7 Malice
       icon: "\U0001F300"
       name: Mind Over Matter
@@ -23,12 +23,12 @@ scc: mcdm.monsters.v1/monster.xorannox-the-tyract/xorannoxs-malice
 type: featureblock
 ---
 
-At the start of Xorannox's turn, you can spend Malice to activate one
+At the start of Xorannox's turn, you can spend [Malice](scc:mcdm.monsters.v1/rule.monster/malice) to activate one
 of the following features.
 
 > ❇️ **Gas Belch (3 Malice)**
 >
-> Xorannox lets out a noxious belch. Each enemy within 2 squares of him who has M < 3 is weakened (save ends).
+> Xorannox lets out a noxious belch. Each enemy within 2 squares of him who has M < 3 is [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends).
 
 > ⭐️ **Slime Trail (5 Malice)**
 >
@@ -36,8 +36,8 @@ of the following features.
 
 > ☠️ **Solo Action (5 Malice)**
 >
-> Xorannox takes an additional main action on his turn. He can use this feature even if he is dazed.
+> Xorannox takes an additional main action on his turn. He can use this feature even if he is [dazed](scc:mcdm.heroes.v1/condition/dazed).
 
 > 🌀 **Mind Over Matter (7 Malice)**
 >
-> Xorannox fills the encounter map with a powerful telekinetic field. The Director chooses a cardinal direction (north, south, east, or west). Whenever a creature in the encounter willingly moves or is force moved, they are pulled 2 squares in the chosen direction, ignoring stability. Each time this feature is used, its previous effect ends.
+> Xorannox fills the encounter map with a powerful telekinetic field. The Director chooses a cardinal direction (north, south, east, or west). Whenever a creature in the encounter willingly moves or is [force moved](scc:mcdm.heroes.v1/movement/forced-movement), they are [pulled](scc:mcdm.heroes.v1/movement/forced-movement) 2 squares in the chosen direction, ignoring stability. Each time this feature is used, its previous effect ends.

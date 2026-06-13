@@ -31,7 +31,7 @@ type: statblock
 | **Corruption 7, poison 7**<br>Immunity | **Climb**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |            **+4**<br>Might             |   **+2**<br>Agility   | **+1**<br>Reason  |  **+1**<br>Intuition  |  **+1**<br>Presence  |
 
-> 🗡 **Exsanguinating Bite (Signature Ability)**
+> 🗡 **Exsanguinating Bite ([Signature Ability](scc:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
 > | **Melee, Strike, Weapon** |               **Main action** |
 > |---------------------------|------------------------------:|
@@ -39,13 +39,13 @@ type: statblock
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** 7 damage; M < 2 bleeding (save ends)
-> - **12-16:** 10 corruption damage; M < 3 5 corruption damage and bleeding (save ends)
-> - **17+:** 11 corruption damage; M < 4 7 corruption damage and bleeding (save ends)
+> - **≤11:** 7 damage; M < 2 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
+> - **12-16:** 10 corruption damage; M < 3 5 corruption damage and [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
+> - **17+:** 11 corruption damage; M < 4 7 corruption damage and [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
 >
-> **Effect:** The vampire regains Stamina equal to any corruption damage dealt.
+> **Effect:** The vampire regains [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) equal to any corruption damage dealt.
 
-> 🗡 **Vicious Pursuit (3 Malice)**
+> 🗡 **Vicious Pursuit (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Melee, Strike, Weapon** |               **Main action** |
 > |---------------------------|------------------------------:|
@@ -53,22 +53,22 @@ type: statblock
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** 7 damage; A < 2 slowed (save ends)
-> - **12-16:** 10 damage; A < 3 slowed (save ends)
-> - **17+:** 11 damage; A < 4 slowed (save ends)
+> - **≤11:** 7 damage; A < 2 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
+> - **12-16:** 10 damage; A < 3 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
+> - **17+:** 11 damage; A < 4 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
 >
-> **Effect:** If the target is bleeding, the vampire shifts up to their speed before using this ability.
+> **Effect:** If the target is [bleeding](scc:mcdm.heroes.v1/condition/bleeding), the vampire [shifts](scc:mcdm.heroes.v1/movement/shifting) up to their speed before using this ability.
 
-> ❗️ **Reactive Charm (2 Malice)**
+> ❗️ **Reactive Charm (2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
 >
-> | **Magic, Ranged** | **Triggered action** |
+> | **Magic, Ranged** | **[Triggered action](scc:mcdm.heroes.v1/rule.combat/triggered-action)** |
 > |-------------------|---------------------:|
 > | **📏 Ranged 5**   |     **🎯 One enemy** |
 >
-> **Trigger:** A creature makes a strike against the vampire.
+> **Trigger:** A creature makes a [strike](scc:mcdm.heroes.v1/rule.combat/strike) against the vampire.
 >
-> **Effect:** The target becomes the new target of the strike.
+> **Effect:** The target becomes the new target of the [strike](scc:mcdm.heroes.v1/rule.combat/strike).
 
 > ⭐️ **Unslakable Bloodthirst**
 >
-> The vampire has speed 10 while any creature within 10 squares of them is bleeding. The vampire must make a strike against a bleeding creature on their turn if they are able to.
+> The vampire has speed 10 while any creature within 10 squares of them is [bleeding](scc:mcdm.heroes.v1/condition/bleeding). The vampire must make a [strike](scc:mcdm.heroes.v1/rule.combat/strike) against a [bleeding](scc:mcdm.heroes.v1/condition/bleeding) creature on their turn if they are able to.

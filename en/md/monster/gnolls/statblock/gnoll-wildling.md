@@ -38,8 +38,8 @@ with_captain: Gain an edge on strikes
 >
 > - **≤11:** 2 damage
 > - **12-16:** 3 damage
-> - **17+:** 5 damage; the wildling can make a free strike against a creature adjacent to the target
+> - **17+:** 5 damage; the wildling can make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) against a creature [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the target
 
 > ⭐️ **Death Circle**
 >
-> Whenever a non-minion ally within 7 squares of the wildling is reduced to 0 Stamina, the wildling can move up to their speed.
+> Whenever a non-[minion](scc:mcdm.monsters.v1/rule.organization/minion) ally within 7 squares of the wildling is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), the wildling can move up to their speed.

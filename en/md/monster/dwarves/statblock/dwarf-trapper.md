@@ -35,13 +35,13 @@ type: statblock
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 5 damage; push 2
-> - **12-16:** 7 damage; push 4
-> - **17+:** 9 damage; push 6
+> - **≤11:** 5 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 2
+> - **12-16:** 7 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 4
+> - **17+:** 9 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 6
 >
-> **Effect:** A target restrained by a dwarf can be force moved by this ability. This forced movement doesn't end the restrained condition unless the Director determines otherwise.
+> **Effect:** A target [restrained](scc:mcdm.heroes.v1/condition/restrained) by a dwarf can be force moved by this ability. This forced movement doesn't end the [restrained](scc:mcdm.heroes.v1/condition/restrained) condition unless the Director determines otherwise.
 
-> 🔳 **Steam-Powered Snare (3 Malice)**
+> 🔳 **Steam-Powered Snare (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Area, Ranged, Weapon** |                  **Maneuver** |
 > |--------------------------|------------------------------:|
@@ -49,8 +49,8 @@ type: statblock
 >
 > **Effect:** Each target makes a **Might test**.
 >
-> - **≤11:** 7 damage; restrained (EoT)
-> - **12-16:** 5 damage; slowed (EoT)
+> - **≤11:** 7 damage; [restrained](scc:mcdm.heroes.v1/condition/restrained) (EoT)
+> - **12-16:** 5 damage; [slowed](scc:mcdm.heroes.v1/condition/slowed) (EoT)
 > - **17+:** No effect.
 >
 > The snare remains until the end of the encounter. Any enemy who moves into the area for the first time in a round or starts their turn there must make the test.

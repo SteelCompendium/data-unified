@@ -40,17 +40,17 @@ type: statblock
 > - **12-16:** 7 damage
 > - **17+:** 9 damage
 >
-> **Effect:** The target is taunted until the end of their next turn, and the greenskeeper shifts up to 3 squares.
+> **Effect:** The target is [taunted](scc:mcdm.heroes.v1/condition/taunted) until the end of their next turn, and the greenskeeper [shifts](scc:mcdm.heroes.v1/movement/shifting) up to 3 squares.
 >
-> **2 Malice:** The distance increases to Melee 5.
+> **2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice):** The distance increases to Melee 5.
 
-> 🔳 **Overgrowth (3 Malice)**
+> 🔳 **Overgrowth (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Area, Ranged**        |   **Maneuver** |
 > |-------------------------|---------------:|
 > | **📏 3 cube within 10** | **🎯 Special** |
 >
-> **Effect:** The area is overgrown with heavy brush and brambles until the end of the encounter, providing cover and concealment for the greenskeeper and their allies. The area is difficult terrain for enemies and any enemy who starts their turn in the area takes 3 damage.
+> **Effect:** The area is overgrown with heavy brush and brambles until the end of the encounter, providing cover and concealment for the greenskeeper and their allies. The area is [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain) for enemies and any enemy who starts their turn in the area takes 3 damage.
 
 > ⭐️ **Masking Glamor**
 >

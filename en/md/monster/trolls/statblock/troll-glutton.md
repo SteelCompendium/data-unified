@@ -30,7 +30,7 @@ weaknesses:
 | **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |  **Acid 5, fire **<br>Weakness  |
 |  **+3**<br>Might  | **+1**<br>Agility |  **-1**<br>Reason  |  **0**<br>Intuition   |       **+1**<br>Presence        |
 
-> 🗡 **Voracious Mastication (Signature Ability)**
+> 🗡 **Voracious Mastication ([Signature Ability](scc:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
 > | **Melee, Strike, Weapon** |                 **Main action** |
 > |---------------------------|--------------------------------:|
@@ -39,18 +39,18 @@ weaknesses:
 > **Power Roll + 3:**
 >
 > - **≤11:** 10 damage
-> - **12-16:** 15 damage; M < 2 slowed (save ends)
-> - **17+:** 18 damage; M < 3 slowed (save ends)
+> - **12-16:** 15 damage; M < 2 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
+> - **17+:** 18 damage; M < 3 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
 >
-> **1 Malice:** The glutton regains Stamina equal to the damage dealt.
+> **1 [Malice](scc:mcdm.monsters.v1/rule.monster/malice):** The glutton regains [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) equal to the damage dealt.
 
-> 👤 **Crash Through (3 Malice)**
+> 👤 **Crash Through (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **-**       | **Main action** |
 > |-------------|----------------:|
 > | **📏 Self** |     **🎯 Self** |
 >
-> **Effect:** The glutton shifts up to their speed in a straight line, ignoring difficult terrain. The first time during this movement that the glutton moves through the space of a creature or object their size or smaller, that creature or object takes 10 damage, or a creature can choose to fall prone instead. If the glutton moves into a creature or object larger than them and doesn't knock the creature prone or destroy the object, the glutton's movement ends and they are dazed until the end of their next turn.
+> **Effect:** The glutton [shifts](scc:mcdm.heroes.v1/movement/shifting) up to their speed in a straight line, ignoring [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain). The first time during this movement that the glutton moves through the space of a creature or object their size or smaller, that creature or object takes 10 damage, or a creature can choose to fall [prone](scc:mcdm.heroes.v1/condition/prone) instead. If the glutton moves into a creature or object larger than them and doesn't knock the creature [prone](scc:mcdm.heroes.v1/condition/prone) or destroy the object, the glutton's movement ends and they are [dazed](scc:mcdm.heroes.v1/condition/dazed) until the end of their next turn.
 
 > 👤 **Food Frenzy**
 >
@@ -60,20 +60,20 @@ weaknesses:
 >
 > **Effect:** Until the start of their next turn, the glutton has a double edge on strikes, and strikes made against them gain an edge.
 
-> ❗️ **Spiteful Retort (1 Malice)**
+> ❗️ **Spiteful Retort (1 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Melee**      |      **Free triggered action** |
 > |----------------|-------------------------------:|
 > | **📏 Melee 1** | **🎯 The triggering creature** |
 >
-> **Trigger:** The glutton is reduced to 0 Stamina but doesn't die.
+> **Trigger:** The glutton is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) but doesn't die.
 >
-> **Effect:** The glutton uses Voracious Mastication against an adjacent creature.
+> **Effect:** The glutton uses Voracious Mastication against an [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) creature.
 
 > ⭐️ **Insatiable Appetite**
 >
-> Once per turn, the glutton can use the Charge main actionas a free maneuver if they target a winded creature.
+> Once per turn, the glutton can use the Charge main action as a free maneuver if they target a [winded](scc:mcdm.heroes.v1/rule.health/winded) creature.
 
 > ⭐️ **Relentless Hunger**
 >
-> The glutton dies only if they are reduced to 0 Stamina by acid or fire damage, if they end their turn with 0 Stamina, or if they take acid or fire damage while at 0 Stamina.
+> The glutton dies only if they are reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) by acid or fire damage, if they end their turn with 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), or if they take acid or fire damage while at 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina).

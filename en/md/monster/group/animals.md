@@ -9,7 +9,7 @@ The natural denizens of every world, animals ferocious, atrocious, and precociou
 
 ### Animal Traits
 
-This section presents a number of default animal stat blocks with basic features. You can customize those stat blocks by adding traits from the following categories to more closely model the animal's most identifiable features. You can spend up to 4 points on traits to add to a stat block without increasing the encounter value. Each point you spend after 4 increases the stat block's EV by 2. Unless otherwise specified, you can select a trait only once.
+This section presents a number of default animal stat blocks with basic features. You can customize those stat blocks by adding traits from the following categories to more closely model the animal's most identifiable features. You can spend up to 4 points on traits to add to a stat block without increasing the encounter value. Each point you spend after 4 increases the stat block's [EV](scc:mcdm.monsters.v1/rule.monster/encounter-value) by 2. Unless otherwise specified, you can select a trait only once.
 
 > **Lots of Options!**
 >
@@ -21,7 +21,7 @@ Mobility traits cover a wide range of the options that keep animals moving.
 
 ###### Burrowing (2 Points)
 
-The animal can burrow.
+The animal can [burrow](scc:mcdm.heroes.v1/movement/burrow).
 
 **+1 Point:** The animal can burrow through stone, creating a tunnel of their size in each square of stone they move through.
 
@@ -35,9 +35,9 @@ The animal can automatically climb at full speed while moving.
 
 ###### Flight (2 Points)
 
-The animal can fly, and their stability decreases by 2 (to a minimum of 0).
+The animal can [fly](scc:mcdm.heroes.v1/movement/fly), and their stability decreases by 2 (to a minimum of 0).
 
-**+1 Point:** The animal can also hover.
+**+1 Point:** The animal can also [hover](scc:mcdm.heroes.v1/movement/hover).
 
 **Typically Used By:** Bees, birds.
 
@@ -49,13 +49,13 @@ On their turn, the animal can high jump or long jump up to half their speed. Thi
 
 ###### Slinking (1 Point)
 
-The animal can use a move action to shift up to 3 squares, even while prone.
+The animal can use a move action to [shift](scc:mcdm.heroes.v1/movement/shifting) up to 3 squares, even while [prone](scc:mcdm.heroes.v1/condition/prone).
 
 **Typically Used By:** Snakes, vermin.
 
 ###### Swiftness (1 Point)
 
-The animal has a +2 bonus to speed, and they ignore difficult terrain. (This trait can be selected twice.)
+The animal has a +2 bonus to speed, and they ignore [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain). (This trait can be selected twice.)
 
 **Typically Used By:** Tigers, wolves.
 
@@ -71,25 +71,25 @@ Defensive traits help animals stay out of danger—or to set ambushes for unwary
 
 ###### Camouflage (1 Point)
 
-The animal can attempt to hide even while observed. While no enemy has line of effect to the animal, they can automatically hide at the end of their turn.
+The animal can attempt to hide even while observed. While no enemy has [line of effect](scc:mcdm.heroes.v1/rule.combat/line-of-effect) to the animal, they can automatically hide at the end of their turn.
 
 **Typically Used By:** Chameleons, foxes, tigers.
 
 ###### Fearsome (2 Points)
 
-As a maneuver, the animal makes an imposing display. Each enemy within 2 squares of the animal who has I < 1 must shift 3 squares in a straight line away from the animal.
+As a maneuver, the animal makes an imposing display. Each enemy within 2 squares of the animal who has I < 1 must [shift](scc:mcdm.heroes.v1/movement/shifting) 3 squares in a straight line away from the animal.
 
 **Typically Used By:** Aardvarks, lions, peacocks.
 
 ###### Pack (1 Point)
 
-While adjacent to an ally, the animal can't be flanked or be made frightened.
+While adjacent to an ally, the animal can't be [flanked](scc:mcdm.heroes.v1/rule.combat/flanking) or be made [frightened](scc:mcdm.heroes.v1/condition/frightened).
 
 **Typically Used By:** Hyenas, sheep, wolves.
 
 ###### Plated (1 Point)
 
-The animal has a +2 bonus to stability, and melee strikes against them take a bane.
+The animal has a +2 bonus to stability, and melee strikes against them take a [bane](scc:mcdm.heroes.v1/rule.dice/bane).
 
 **Typically Used By:** Beetles, crabs, turtles.
 
@@ -107,25 +107,25 @@ At the start of the animal's turn, each enemy adjacent to the animal who has M <
 
 ###### Thick Hide (1 Point)
 
-The animal starts any combat encounter with 10 temporary Stamina. (This trait can be selected twice.)
+The animal starts any combat encounter with 10 [temporary Stamina](scc:mcdm.heroes.v1/rule.health/temporary-stamina). (This trait can be selected twice.)
 
 **Typically Used By:** Bears, elephants, rhinoceroses.
 
 ###### Unrelenting (2 Points)
 
-Once per combat, when the animal is reduced to 0 Stamina, they can choose to either remain alive with 1 Stamina or immediately move up to their speed and make a free strike before dying.
+Once per combat, when the animal is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), they can choose to either remain alive with 1 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) or immediately move up to their speed and make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) before dying.
 
 **Typically Used By:** Bears, boars.
 
 ###### Wiggly (1 Point)
 
-The animal ignores opportunity attacks and gains an edge on the Escape Grab maneuver.
+The animal ignores [opportunity attacks](scc:mcdm.heroes.v1/rule.combat/opportunity-attack) and gains an [edge](scc:mcdm.heroes.v1/rule.dice/edge) on the [Escape Grab](scc:mcdm.heroes.v1/feature.common.maneuvers/escape-grab) maneuver.
 
 **Typically Used By:** Eels, lizards, rats.
 
 ###### Withdraw (2 Points)
 
-Whenever the animal takes damage, they can use a triggered action to halve that damage and all other damage they take until the start of their next turn.
+Whenever the animal takes damage, they can use a [triggered action](scc:mcdm.heroes.v1/rule.combat/triggered-action) to halve that damage and all other damage they take until the start of their next turn.
 
 **Typically Used By:** Armadillos, turtles.
 
@@ -135,21 +135,21 @@ When animals hunt or face off against threats, they bring a wide range of offens
 
 ###### Charger (1 Point)
 
-The animal's signature ability has the Charge keyword, and they gain an edge on that ability if it is used as part of the Charge main action.
+The animal's [signature ability](scc:mcdm.heroes.v1/rule.combat/signature-ability) has the Charge keyword, and they gain an [edge](scc:mcdm.heroes.v1/rule.dice/edge) on that ability if it is used as part of the [Charge](scc:mcdm.heroes.v1/feature.common.main-actions/charge) main action.
 
 **Typically Used By:** Boars, rhinoceroses, swordfish.
 
 ###### Frenzy (1 Point)
 
-The animal gains an edge on strikes against creatures who are bleeding or winded.
+The animal gains an [edge](scc:mcdm.heroes.v1/rule.dice/edge) on strikes against creatures who are [bleeding](scc:mcdm.heroes.v1/condition/bleeding) or [winded](scc:mcdm.heroes.v1/rule.health/winded).
 
 **Typically Used By:** Blood bats, piranhas, sharks.
 
 ###### Grappler (1 Point)
 
-If the target of the animal's signature ability has A < 1, they are grabbed by the animal.
+If the target of the animal's [signature ability](scc:mcdm.heroes.v1/rule.combat/signature-ability) has A < 1, they are [grabbed](scc:mcdm.heroes.v1/condition/grabbed) by the animal.
 
-**+1 Point:** An enemy grabbed by the animal takes a bane on the Escape Grab maneuver.
+**+1 Point:** An enemy [grabbed](scc:mcdm.heroes.v1/condition/grabbed) by the animal takes a [bane](scc:mcdm.heroes.v1/rule.dice/bane) on the [Escape Grab](scc:mcdm.heroes.v1/feature.common.maneuvers/escape-grab) maneuver.
 
 **Typically Used By:** Apes, octopuses, snakes.
 
@@ -161,19 +161,19 @@ The animal ignores concealment.
 
 ###### Multilimb (2 Points)
 
-The animal can target one additional creature or object whenever they make a free strike, use the Grab maneuver, or use the Knockback maneuver. (This trait can be selected twice.)
+The animal can target one additional creature or object whenever they make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike), use the [Grab](scc:mcdm.heroes.v1/feature.common.maneuvers/grab) maneuver, or use the [Knockback](scc:mcdm.heroes.v1/feature.common.maneuvers/knockback) maneuver. (This trait can be selected twice.)
 
 **Typically Used By:** Monkeys, octopuses, quadrakangas.
 
 ###### Pouncer (1 Point)
 
-As a maneuver, the animal jumps up to 3 squares. If they land on an enemy their size or smaller, that enemy is knocked prone and the animal can make a free strike against them.
+As a maneuver, the animal jumps up to 3 squares. If they land on an enemy their size or smaller, that enemy is knocked [prone](scc:mcdm.heroes.v1/condition/prone) and the animal can make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) against them.
 
 **Typically Used By:** Foxes, wild cats.
 
 ###### Power (1 Point)
 
-Whenever the animal force moves a target, they have a +2 bonus to the forced movement distance.
+Whenever the animal [force moves](scc:mcdm.heroes.v1/movement/forced-movement) a target, they have a +2 bonus to the forced movement distance.
 
 **Typically Used By:** Bears, bulls, lions.
 
@@ -195,7 +195,7 @@ The animal's signature ability gains a +2 bonus to distance. (This trait can be 
 
 ###### Venom (1 Point)
 
-The animal's signature ability deals an extra 2 poison damage, and if the target has M < 1, they are weakened (save ends).
+The animal's [signature ability](scc:mcdm.heroes.v1/rule.combat/signature-ability) deals an extra 2 poison damage, and if the target has M < 1, they are [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends).
 
 **Typically Used By:** Platypuses, snakes, wasps.
 
@@ -211,11 +211,11 @@ The animal gains the following ability.
 >
 > **Power Roll + highest characteristic:**
 >
-> - **≤11:** A < 0 restrained (save ends)
-> - **12-16:** A < 1 restrained (save ends)
-> - **17+:** A < 2 restrained (save ends)
+> - **≤11:** A < 0 [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)
+> - **12-16:** A < 1 [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)
+> - **17+:** A < 2 [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)
 >
-> **Effect:** The area is difficult terrain for enemies until the end of the encounter.
+> **Effect:** The area is [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain) for enemies until the end of the encounter.
 
 **Typically Used By:** Pelagic snails, spiders.
 
@@ -231,7 +231,7 @@ Whenever the animal takes damage, each creature adjacent to the animal who has M
 
 ###### Elemental (2 Points)
 
-The animal has an affinity for one of the following damage types: acid, cold, corruption, fire, lightning, poison. The animal has damage immunity 3 to the chosen damage type, and their strikes deal the chosen damage type instead of their original damage type.
+The animal has an affinity for one of the following damage types: acid, cold, corruption, fire, lightning, poison. The animal has [damage immunity](scc:mcdm.heroes.v1/rule.damage/damage-immunity) 3 to the chosen damage type, and their strikes deal the chosen damage type instead of their original damage type.
 
 **Typically Used By:** Fire salamanders, ice bats.
 
@@ -243,7 +243,7 @@ The animal can move through spaces as if they were size 1T. Whenever the animal 
 
 ###### Hypnosis (2 Points)
 
-As a maneuver, the animal targets one enemy within 5 squares with their gaze, movements, or vocalizations. If the enemy has R < 1, they are dazed (save ends).
+As a maneuver, the animal targets one enemy within 5 squares with their gaze, movements, or vocalizations. If the enemy has R < 1, they are [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends).
 
 **Typically Used By:** Angler fish, snakes, tigers.
 
@@ -255,15 +255,15 @@ The animal's size increases by 1 (to a minimum of size 2), and they gain a +2 bo
 
 ###### Pass Through (2 Points)
 
-The animal can move through solid matter, and strikes made against them take a bane. If the animal ends their turn inside solid matter, they are shunted out into the space from which they entered it.
+The animal can move through solid matter, and strikes made against them take a [bane](scc:mcdm.heroes.v1/rule.dice/bane). If the animal ends their turn inside solid matter, they are shunted out into the space from which they entered it.
 
 **Typically Used By:** Barn owls, tiger wraiths.
 
 ###### Translation (2 Points)
 
-The animal can teleport.
+The animal can [teleport](scc:mcdm.heroes.v1/movement/teleport).
 
-**+1 Point:** The animal can also hover.
+**+1 Point:** The animal can also [hover](scc:mcdm.heroes.v1/movement/hover).
 
 **Typically Used By:** Quantum spiders, thrazzes.
 

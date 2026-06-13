@@ -30,7 +30,7 @@ with_captain: +1 damage bonus to strikes
 | **Psychic 3**<br>Immunity | **-**<br>Movement |        -         | **+1 damage bonus to strikes**<br>With Captain |   **-**<br>Weakness   |
 |      **+2**<br>Might      | **+2**<br>Agility | **+2**<br>Reason |              **+1**<br>Intuition               |  **-1**<br>Presence   |
 
-> 🗡 **Brutal Flail (Signature Ability)**
+> 🗡 **Brutal Flail ([Signature Ability](scc:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
 > | **Melee, Psionic, Strike, Weapon** |                          **Main action** |
 > |------------------------------------|-----------------------------------------:|
@@ -40,7 +40,7 @@ with_captain: +1 damage bonus to strikes
 >
 > - **≤11:** 2 damage
 > - **12-16:** 4 damage
-> - **17+:** 5 damage; one ally can make a free strike against the target
+> - **17+:** 5 damage; one ally can make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) against the target
 
 > ⭐️ **Foresight**
 >

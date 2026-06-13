@@ -29,7 +29,7 @@ type: statblock
 | **Psychic 3**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |      **+2**<br>Might      | **0**<br>Agility  | **+2**<br>Reason  |  **+2**<br>Intuition  |  **+1**<br>Presence  |
 
-> 🗡 **Repelling Psihander (Signature Ability)**
+> 🗡 **Repelling Psihander ([Signature Ability](scc:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
 > | **Melee, Psionic, Strike, Weapon** |                             **Main action** |
 > |------------------------------------|--------------------------------------------:|
@@ -38,12 +38,12 @@ type: statblock
 > **Power Roll + 2:**
 >
 > - **≤11:** 6 damage
-> - **12-16:** 8 damage; M < 1 dazed (save ends)
-> - **17+:** 11 damage; M < 2 dazed (save ends)
+> - **12-16:** 8 damage; M < 1 [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)
+> - **17+:** 11 damage; M < 2 [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)
 >
-> **Effect:** A target who ends their next turn adjacent to the other target falls prone.
+> **Effect:** A target who ends their next turn [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the other target falls [prone](scc:mcdm.heroes.v1/condition/prone).
 
-> ❇️ **Mindpunk (2 Malice)**
+> ❇️ **Mindpunk (2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Area, Psionic** |               **Main action** |
 > |-------------------|------------------------------:|
@@ -51,9 +51,9 @@ type: statblock
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 4 psychic damage; R < 0 prone
-> - **12-16:** 6 psychic damage; push 1; R < 1 prone and can't stand (save ends)
-> - **17+:** 9 psychic damage; push 2; R < 2 prone and can't stand (save ends)
+> - **≤11:** 4 psychic damage; R < 0 [prone](scc:mcdm.heroes.v1/condition/prone)
+> - **12-16:** 6 psychic damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 1; R < 1 [prone](scc:mcdm.heroes.v1/condition/prone) and can't stand (save ends)
+> - **17+:** 9 psychic damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 2; R < 2 [prone](scc:mcdm.heroes.v1/condition/prone) and can't stand (save ends)
 
 > ⭐️ **Foresight**
 >

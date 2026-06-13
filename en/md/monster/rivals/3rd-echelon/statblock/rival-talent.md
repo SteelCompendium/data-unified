@@ -27,7 +27,7 @@ type: statblock
 | **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **0**<br>Might   | **0**<br>Agility  |  **+4**<br>Reason  |  **0**<br>Intuition   |  **+1**<br>Presence  |
 
-> 🏹 **Control Synapses (Signature Ability)**
+> 🏹 **Control Synapses ([Signature Ability](scc:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
 > | **Psionic, Ranged, Strike, Telekinesis** |                 **Main action** |
 > |------------------------------------------|--------------------------------:|
@@ -39,9 +39,9 @@ type: statblock
 > - **12-16:** 17 psychic damage
 > - **17+:** 21 psychic damage
 >
-> **3 Malice:** Each target shifts up to their speed and can make a free strike against one enemy of the talent's choice. The target can't be moved in a way that would harm them.
+> **3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice):** Each target [shifts](scc:mcdm.heroes.v1/movement/shifting) up to their speed and can make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) against one enemy of the talent's choice. The target can't be moved in a way that would harm them.
 
-> 🏹 **Disorientate (2 Malice)**
+> 🏹 **Disorientate (2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Psionic, Ranged, Telepathy** |                  **Maneuver** |
 > |--------------------------------|------------------------------:|
@@ -49,11 +49,11 @@ type: statblock
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** 8 psychic damage; R < 2 dazed (save ends)
-> - **12-16:** 8 psychic damage; R < 3 dazed and slowed (save ends)
-> - **17+:** 8 psychic damage; R < 4 dazed and slowed (save ends)
+> - **≤11:** 8 psychic damage; R < 2 [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)
+> - **12-16:** 8 psychic damage; R < 3 [dazed](scc:mcdm.heroes.v1/condition/dazed) and [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
+> - **17+:** 8 psychic damage; R < 4 [dazed](scc:mcdm.heroes.v1/condition/dazed) and [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
 
-> ❗️ **Mind Requital (2 Malice)**
+> ❗️ **Mind Requital (2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Psionic** | **Triggered action** |
 > |-------------|---------------------:|
@@ -61,8 +61,8 @@ type: statblock
 >
 > **Trigger:** A creature deals damage to the talent.
 >
-> **Effect:** The talent halves the damage and shifts up to 2 squares. The triggering creature takes psychic damage equal to half the damage dealt.
+> **Effect:** The talent halves the damage and [shifts](scc:mcdm.heroes.v1/movement/shifting) up to 2 squares. The triggering creature takes psychic damage equal to half the damage dealt.
 
 > ⭐️ **Rivalry**
 >
-> At the start of an encounter, the talent chooses one creature within their line of effect. Both the talent and the creature can add a d3 roll to power rolls they make against each other.
+> At the start of an encounter, the talent chooses one creature within their [line of effect](scc:mcdm.heroes.v1/rule.combat/line-of-effect). Both the talent and the creature can add a d3 roll to power rolls they make against each other.

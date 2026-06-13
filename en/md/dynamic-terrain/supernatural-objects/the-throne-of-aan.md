@@ -15,11 +15,11 @@ features:
       icon: ⭐️
       name: Light of the Northern Sun
     - body: |-
-        Only a creature attuned to the throne can sit on it. A creature adjacent to the throne can use a main action to attune to it by succeeding on a **Presence test**.
+        Only a creature attuned to the throne can sit on it. A creature [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the throne can use a main action to attune to it by succeeding on a **Presence test**.
 
         A creature seated on the throne becomes the hierophant of A'An and gains the following benefits:
 
-        - The hierophant and each of their allies within 10 squares of the throne have fire immunity 10. - The hierophant and each of their allies within 10 squares of the throne can choose to have their abilities deal fire damage instead of their usual damage. - The hierophant has a +5 bonus to stability, and any strike made against them takes a bane unless the attacker is also attuned to the throne. - The hierophant can use the **Primordial Flare** and **Solar Accretion** abilities.
+        - The hierophant and each of their allies within 10 squares of the throne have fire immunity 10. - The hierophant and each of their allies within 10 squares of the throne can choose to have their abilities deal fire damage instead of their usual damage. - The hierophant has a +5 bonus to [stability](scc:mcdm.heroes.v1/rule.character/stability), and any strike made against them takes a bane unless the attacker is also attuned to the throne. - The hierophant can use the **Primordial Flare** and **Solar Accretion** abilities.
       icon: ⭐️
       name: Sitting on the Throne
       power_roll:
@@ -53,9 +53,9 @@ features:
       name: Solar Accretion
       sections:
         - label: Trigger
-          text: A target within distance is made winded or is reduced to 0 Stamina by fire damage.
+          text: A target within distance is made [winded](scc:mcdm.heroes.v1/rule.health/winded) or is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) by fire damage.
         - label: Effect
-          text: If the hierophant is a hero, they gain 3 of their Heroic Resource. If the hierophant is a Director-controlled creature, the Director gains 3 Malice.
+          text: If the hierophant is a hero, they gain 3 of their Heroic Resource. If the hierophant is a Director-controlled creature, the Director gains 3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice).
       target: One creature
       usage: Free triggered action
     - distance: 10 burst
@@ -111,7 +111,7 @@ The throne of A'An, sun god of the Antical Protectorate in what is now Vanigar, 
 
 > ⭐️ **Sitting on the Throne**
 >
-> Only a creature attuned to the throne can sit on it. A creature adjacent to the throne can use a main action to attune to it by succeeding on a **Presence test**.
+> Only a creature attuned to the throne can sit on it. A creature [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the throne can use a main action to attune to it by succeeding on a **Presence test**.
 >
 > - **≤11:** The creature takes 11 fire damage.
 > - **12-16:** The creature fails to attune to the throne.
@@ -121,7 +121,7 @@ The throne of A'An, sun god of the Antical Protectorate in what is now Vanigar, 
 >
 > - The hierophant and each of their allies within 10 squares of the throne have fire immunity 10.
 > - The hierophant and each of their allies within 10 squares of the throne can choose to have their abilities deal fire damage instead of their usual damage.
-> - The hierophant has a +5 bonus to stability, and any strike made against them takes a bane unless the attacker is also attuned to the throne.
+> - The hierophant has a +5 bonus to [stability](scc:mcdm.heroes.v1/rule.character/stability), and any strike made against them takes a bane unless the attacker is also attuned to the throne.
 > - The hierophant can use the **Primordial Flare** and **Solar Accretion** abilities.
 
 > 🏹 **Primordial Flare**
@@ -144,9 +144,9 @@ The throne of A'An, sun god of the Antical Protectorate in what is now Vanigar, 
 > |-------------------|--------------------------:|
 > | **📏 Ranged 10**  |       **🎯 One creature** |
 >
-> **Trigger:** A target within distance is made winded or is reduced to 0 Stamina by fire damage.
+> **Trigger:** A target within distance is made [winded](scc:mcdm.heroes.v1/rule.health/winded) or is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) by fire damage.
 >
-> **Effect:** If the hierophant is a hero, they gain 3 of their Heroic Resource. If the hierophant is a Director-controlled creature, the Director gains 3 Malice.
+> **Effect:** If the hierophant is a hero, they gain 3 of their Heroic Resource. If the hierophant is a Director-controlled creature, the Director gains 3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice).
 
 > ❗️ **Nova**
 >
