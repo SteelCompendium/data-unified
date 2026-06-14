@@ -1,0 +1,34 @@
+---
+features:
+    - body: You gain a [surge](scc:mcdm.heroes.v1/rule.resource/surge) the first time in a [round](scc:mcdm.heroes.v1/rule.combat/combat-round) one of your undead [minions](scc:mcdm.summoner.v1/feature.summoner.level-1/minions) unwillingly dies while you have [line of effect](scc:mcdm.heroes.v1/rule.combat/line-of-effect) to the gates. You can choose to give the [surge](scc:mcdm.heroes.v1/rule.resource/surge) to an ally who also has [line of effect](scc:mcdm.heroes.v1/rule.combat/line-of-effect) to the gates.
+      icon: ⭐️
+      level: 5
+      name: Memento Mori
+    - body: The gates are now size 3.
+      icon: ⭐️
+      level: 9
+      name: Size Increase
+    - body: You can use [Rise!](scc:mcdm.summoner.v1/feature.summoner.level-1/rise) as a [free triggered action](scc:mcdm.heroes.v1/rule.combat/triggered-action) each time an enemy dies within 3 squares of the gates while you have [line of effect](scc:mcdm.heroes.v1/rule.combat/line-of-effect) to the gates.
+      icon: ⭐️
+      level: 9
+      name: Open the Gates
+name: Barrow Gates Advancement Features
+scc: mcdm.summoner.v1/monster.fixture.undead.advancement-features/barrow-gates
+type: featureblock
+---
+
+> **Level 5 Fixture Advancement Feature**
+>
+> ⭐️ **Memento Mori**
+>
+> You gain a [surge](scc:mcdm.heroes.v1/rule.resource/surge) the first time in a [round](scc:mcdm.heroes.v1/rule.combat/combat-round) one of your undead [minions](scc:mcdm.summoner.v1/feature.summoner.level-1/minions) unwillingly dies while you have [line of effect](scc:mcdm.heroes.v1/rule.combat/line-of-effect) to the gates. You can choose to give the [surge](scc:mcdm.heroes.v1/rule.resource/surge) to an ally who also has [line of effect](scc:mcdm.heroes.v1/rule.combat/line-of-effect) to the gates.
+
+> **Level 9 Fixture Advancement Feature**
+>
+> ⭐️ **Size Increase**
+>
+> The gates are now size 3.
+>
+> ⭐️ **Open the Gates**
+>
+> You can use [Rise!](scc:mcdm.summoner.v1/feature.summoner.level-1/rise) as a [free triggered action](scc:mcdm.heroes.v1/rule.combat/triggered-action) each time an enemy dies within 3 squares of the gates while you have [line of effect](scc:mcdm.heroes.v1/rule.combat/line-of-effect) to the gates.
