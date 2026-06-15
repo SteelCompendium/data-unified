@@ -8,9 +8,9 @@ features:
       cost: 5 Malice
       icon: ⭐️
       name: Boiling Fury
-    - body: Every wyvern's anger fills the encounter map with a thick miasma of hatred. Each enemy in the encounter makes an **Intuition test**.
-      cost: 7 Malice
+    - cost: 7 Malice
       icon: "\U0001F300"
+      intro: Every wyvern's anger fills the encounter map with a thick miasma of hatred. Each enemy in the encounter makes an **Intuition test**.
       name: Overflowing Rage
       power_roll:
         tiers:

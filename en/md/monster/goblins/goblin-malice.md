@@ -8,9 +8,9 @@ features:
       cost: 5 Malice
       icon: ❇️
       name: Tiny Stabs
-    - body: The encounter map is covered in a green mist that lasts until the end of the round, and which can't be dispersed by wind. All areas of the map are [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain) for non-goblins, and each non-goblin on the map makes a **Might test**.
-      cost: 7 Malice
+    - cost: 7 Malice
       icon: "\U0001F300"
+      intro: The encounter map is covered in a green mist that lasts until the end of the round, and which can't be dispersed by wind. All areas of the map are [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain) for non-goblins, and each non-goblin on the map makes a **Might test**.
       name: Swamp Stink
       power_roll:
         tiers:

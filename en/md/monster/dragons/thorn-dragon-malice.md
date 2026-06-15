@@ -12,9 +12,9 @@ features:
       cost: 5 Malice
       icon: ☠️
       name: Solo Action
-    - body: The dragon summons poisonous, biting thorns around their foes. Each enemy on the encounter map makes an **Agility test**.
-      cost: 7 Malice
+    - cost: 7 Malice
       icon: "\U0001F300"
+      intro: The dragon summons poisonous, biting thorns around their foes. Each enemy on the encounter map makes an **Agility test**.
       name: Afflictive Overgrowth
       power_roll:
         tiers:

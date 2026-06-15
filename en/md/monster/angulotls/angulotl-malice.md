@@ -4,9 +4,9 @@ features:
       cost: 3 Malice
       icon: ⭐️
       name: Leapfrog
-    - body: Each angulotl in the encounter puffs out their throat and starts loudly droning. Any non-angulotl adjacent to an angulotl makes an **[Intuition](scc:mcdm.heroes.v1/rule.character/intuition) test.**
-      cost: 5 Malice
+    - cost: 5 Malice
       icon: ❇️
+      intro: Each angulotl in the encounter puffs out their throat and starts loudly droning. Any non-angulotl adjacent to an angulotl makes an **[Intuition](scc:mcdm.heroes.v1/rule.character/intuition) test.**
       name: Resonating Croak
       power_roll:
         tiers:

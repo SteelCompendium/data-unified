@@ -12,9 +12,9 @@ features:
       cost: 5 Malice
       icon: ☠️
       name: Solo Action
-    - body: The ashen hoarder launches bone lances into the air, raining them down on enemies and impaling those unlucky enough to be on the receiving end. Each enemy within 20 squares of the ashen hoarder makes an **[Agility](scc:mcdm.heroes.v1/rule.character/agility) test**.
-      cost: 7 Malice
+    - cost: 7 Malice
       icon: "\U0001F533"
+      intro: The ashen hoarder launches bone lances into the air, raining them down on enemies and impaling those unlucky enough to be on the receiving end. Each enemy within 20 squares of the ashen hoarder makes an **[Agility](scc:mcdm.heroes.v1/rule.character/agility) test**.
       name: Bone Storm
       power_roll:
         tiers:

@@ -8,9 +8,9 @@ features:
       cost: 3 Malice
       icon: ⭐️
       name: We Just Do It Better
-    - body: 'One rival pulls out a magic consumable and hurls it, targeting a 5 x 1 line within 1 square of them or a 3 cube within 10 squares of them. Each enemy in the area makes an Agility test. The rival chooses a damage type and a condition for the outcome of the test from one of the following pairs: sonic damage and [dazed](scc:mcdm.heroes.v1/condition/dazed), poison damage and [weakened](scc:mcdm.heroes.v1/condition/weakened), or fire damage and [frightened](scc:mcdm.heroes.v1/condition/frightened).'
-      cost: 5 Malice
+    - cost: 5 Malice
       icon: "\U0001F533"
+      intro: 'One rival pulls out a magic consumable and hurls it, targeting a 5 x 1 line within 1 square of them or a 3 cube within 10 squares of them. Each enemy in the area makes an Agility test. The rival chooses a damage type and a condition for the outcome of the test from one of the following pairs: sonic damage and [dazed](scc:mcdm.heroes.v1/condition/dazed), poison damage and [weakened](scc:mcdm.heroes.v1/condition/weakened), or fire damage and [frightened](scc:mcdm.heroes.v1/condition/frightened).'
       name: Check Out Our Loot
       power_roll:
         tiers:

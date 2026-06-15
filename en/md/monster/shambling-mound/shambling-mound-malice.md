@@ -4,9 +4,9 @@ features:
       cost: 3 Malice
       icon: "\U0001F464"
       name: Poisoned Vines
-    - body: The shambling mound lashes out at each enemy within 10 squares of them, driving them back or into the air. Each target makes an **Agility test**.
-      cost: 5 Malice
+    - cost: 5 Malice
       icon: ❇️
+      intro: The shambling mound lashes out at each enemy within 10 squares of them, driving them back or into the air. Each target makes an **Agility test**.
       name: Frenzy Lash
       power_roll:
         tiers:

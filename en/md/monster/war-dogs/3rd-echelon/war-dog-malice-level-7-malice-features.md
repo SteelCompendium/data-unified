@@ -4,9 +4,9 @@ features:
       cost: 3-7 Malice
       icon: ⭐️
       name: Prior Malice Features
-    - body: A bank of choking chemicals sweeps across the area of the encounter map. Each enemy in the encounter makes a Might test.
-      cost: 7 Malice
+    - cost: 7 Malice
       icon: "\U0001F300"
+      intro: A bank of choking chemicals sweeps across the area of the encounter map. Each enemy in the encounter makes a Might test.
       name: Alchemical Cloud
       power_roll:
         tiers:

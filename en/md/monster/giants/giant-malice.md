@@ -22,9 +22,9 @@ features:
       cost: 5 Malice
       icon: ❇️
       name: Bellow
-    - body: A giant creates a fissure along the ground, either in a 15 x 2 line within 1 or a 10 x 3 line within 2, and that opens up to a depth of 6 squares. Each giant in the area can [shift](scc:mcdm.heroes.v1/movement/shifting) into the nearest unoccupied space outside the fissure. Each non-giant in the area makes an **Agility test**.
-      cost: 7 Malice
+    - cost: 7 Malice
       icon: "\U0001F533"
+      intro: A giant creates a fissure along the ground, either in a 15 x 2 line within 1 or a 10 x 3 line within 2, and that opens up to a depth of 6 squares. Each giant in the area can [shift](scc:mcdm.heroes.v1/movement/shifting) into the nearest unoccupied space outside the fissure. Each non-giant in the area makes an **Agility test**.
       name: Titanic Tear
       power_roll:
         tiers:

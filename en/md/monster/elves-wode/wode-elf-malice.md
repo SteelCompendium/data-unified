@@ -8,9 +8,9 @@ features:
       cost: 5 Malice
       icon: ⭐️
       name: Punishing Regrowth
-    - body: Vines rapidly grow across the entire encounter map. Each enemy in the encounter makes an **Agility test**.
-      cost: 7 Malice
+    - cost: 7 Malice
       icon: "\U0001F300"
+      intro: Vines rapidly grow across the entire encounter map. Each enemy in the encounter makes an **Agility test**.
       name: Vines Everywhere
       power_roll:
         tiers:

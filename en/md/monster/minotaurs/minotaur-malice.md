@@ -8,9 +8,9 @@ features:
       cost: 5 Malice
       icon: "\U0001F464"
       name: Cut the... Nonsense!
-    - body: All minotaurs in the encounter fill the area around them with psychic impressions of feeling lost and isolated. Each enemy within 5 squares of a minotaur is [teleported](scc:mcdm.heroes.v1/movement/teleport) up to 5 squares and makes an **Intuition test**.
-      cost: 7 Malice
+    - cost: 7 Malice
       icon: ❇️
+      intro: All minotaurs in the encounter fill the area around them with psychic impressions of feeling lost and isolated. Each enemy within 5 squares of a minotaur is [teleported](scc:mcdm.heroes.v1/movement/teleport) up to 5 squares and makes an **Intuition test**.
       name: Bullseye
       power_roll:
         tiers:

@@ -4,9 +4,9 @@ features:
       cost: 3 Malice
       icon: ⭐️
       name: Dread and Terror
-    - body: The dragon manifests four 2 cubes of nightmarish apparitions anywhere on the encounter map. Each creature in the area when it appears makes an **Intuition test**.
-      cost: 5 Malice
+    - cost: 5 Malice
       icon: "\U0001F533"
+      intro: The dragon manifests four 2 cubes of nightmarish apparitions anywhere on the encounter map. Each creature in the area when it appears makes an **Intuition test**.
       name: Doleful Visions
       power_roll:
         tiers:

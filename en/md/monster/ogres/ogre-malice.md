@@ -1,8 +1,8 @@
 ---
 features:
-    - body: One ogre acting this turn jumps and lands on their rear, causing a 3 burst shockwave. Each size 1 creature in the area makes a **Might test** or **Agility test**.
-      cost: 3 Malice
+    - cost: 3 Malice
       icon: ❇️
+      intro: One ogre acting this turn jumps and lands on their rear, causing a 3 burst shockwave. Each size 1 creature in the area makes a **Might test** or **Agility test**.
       name: Shockwave
       power_roll:
         tiers:

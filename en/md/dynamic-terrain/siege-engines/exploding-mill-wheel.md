@@ -1,16 +1,14 @@
 ---
 features:
-    - body: |-
-        As a maneuver, a creature [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to an exploding mill wheel that isn't rolling can make an **Agility test**.
-
-        Once the wheel is rolling, it can't be deactivated. However, it can be exploded early by destroying it or blocking its movement with a suitably large creature or object.
-      icon: "\U0001F300"
+    - icon: "\U0001F300"
+      intro: As a maneuver, a creature [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to an exploding mill wheel that isn't rolling can make an **Agility test**.
       name: Deactivate
       power_roll:
         tiers:
             high: The exploding mill wheel is deactivated and can't be used.
             low: The creature accidentally activates the **Roll the Wheel** ability.
             mid: The exploding mill wheel is deactivated but the creature is [slowed](scc:mcdm.heroes.v1/condition/slowed) (EoT).
+      trailing: Once the wheel is rolling, it can't be deactivated. However, it can be exploded early by destroying it or blocking its movement with a suitably large creature or object.
     - distance: Special
       icon: "\U0001F300"
       keywords:
@@ -28,19 +26,18 @@ features:
       target: Each creature and object in the area
       trailing: If the wheel enters the space of any creature or object of size 3 or larger, or if it is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), its movement stops and it explodes. Each creature and object in a 5 burst centered on the wheel is targeted by the following power roll. A burning creature takes 1d6 fire damage at the start of each of their turns. A burning object takes 1d6 fire damage at the end of each round.
       usage: Main action (Adjacent creature)
-    - body: |-
+    - icon: ⭐️
+      intro: |-
         **Piloted (+4 EV)** The wheel has been fitted with a control mechanism and a pilot's seat for a creature of size 1M or smaller. As a move action, the pilot can turn the wheel in any direction while it is moving. As a main action, the pilot can leap out of the pilot's seat, landing in an [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) space while the wheel continues moving in a straight line.
 
         Without proper training, determining how to pilot the wheel requires a **Reason test**.
-
-        On a natural 19 or 20, a creature can both pilot the wheel and can disarm its explosives as a maneuver.
-      icon: ⭐️
       name: Upgrade
       power_roll:
         tiers:
             high: The creature can pilot the wheel.
             low: The wheel immediately explodes as if striking a size 3 or larger creature or object.
             mid: The creature fails to pilot the wheel.
+      trailing: On a natural 19 or 20, a creature can both pilot the wheel and can disarm its explosives as a maneuver.
 flavor: A massive wooden wheel is loaded with explosives and rolled toward enemy forces or fortifications, ready to explode.
 level: 3
 name: Exploding Mill Wheel

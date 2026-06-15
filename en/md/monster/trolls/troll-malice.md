@@ -1,8 +1,8 @@
 ---
 features:
-    - body: One troll acting this turn spews out a half-digested meal in a 5 x 1 line within 1 square of them. Each troll in the area regains 3 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina). Each enemy in the area makes a **Might test**.
-      cost: 3 Malice
+    - cost: 3 Malice
       icon: "\U0001F533"
+      intro: One troll acting this turn spews out a half-digested meal in a 5 x 1 line within 1 square of them. Each troll in the area regains 3 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina). Each enemy in the area makes a **Might test**.
       name: Foul Spew
       power_roll:
         tiers:

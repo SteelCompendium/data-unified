@@ -8,9 +8,9 @@ features:
       cost: 5 Malice
       icon: ☠️
       name: Solo Action
-    - body: The lich summons a swirling cloud of angry spirits to surround them until the start of the next round. Any creature who deals damage to the lich with a melee strike while the spirit shell is active makes a **Presence test**.
-      cost: 5 Malice
+    - cost: 5 Malice
       icon: "\U0001F464"
+      intro: The lich summons a swirling cloud of angry spirits to surround them until the start of the next round. Any creature who deals damage to the lich with a melee strike while the spirit shell is active makes a **Presence test**.
       name: Spirit Shell
       power_roll:
         tiers:

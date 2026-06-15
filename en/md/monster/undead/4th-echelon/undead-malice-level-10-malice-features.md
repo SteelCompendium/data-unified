@@ -4,9 +4,9 @@ features:
       cost: 2-7+ Malice
       icon: ⭐️
       name: Prior Malice Features
-    - body: The [undead](scc:mcdm.monsters.v1/rule.keyword/undead) attempts to rend the vitality of their foes. Each enemy within 5 squares of the [undead](scc:mcdm.monsters.v1/rule.keyword/undead) makes a **Might test**.
-      cost: 7 Malice
+    - cost: 7 Malice
       icon: ❇️
+      intro: The [undead](scc:mcdm.monsters.v1/rule.keyword/undead) attempts to rend the vitality of their foes. Each enemy within 5 squares of the [undead](scc:mcdm.monsters.v1/rule.keyword/undead) makes a **Might test**.
       name: Death Tax
       power_roll:
         tiers:

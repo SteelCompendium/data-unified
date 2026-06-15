@@ -18,9 +18,9 @@ features:
       cost: 5 Malice
       icon: ⭐️
       name: Recall Module
-    - body: All time raiders in the encounter collectively create a psionic field over the encounter map, which lasts until the first time raider with the highest [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) maximum drops to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) or chooses to end the field (no action required). While the field is up, each non-time raider on the map makes a **Reason test** against this psionic effect at the start of each round.
-      cost: 10 Malice
+    - cost: 10 Malice
       icon: "\U0001F300"
+      intro: All time raiders in the encounter collectively create a psionic field over the encounter map, which lasts until the first time raider with the highest [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) maximum drops to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) or chooses to end the field (no action required). While the field is up, each non-time raider on the map makes a **Reason test** against this psionic effect at the start of each round.
       name: Psi-Cage
       power_roll:
         tiers:

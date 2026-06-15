@@ -4,9 +4,9 @@ features:
       cost: 3 Malice
       icon: "\U0001F464"
       name: Burning Maw
-    - body: The arixx's underground tunnels swell with pressure, causing a sudden influx of hot gas to burst from a 3-square-by-3-square area anywhere on the surface. Each enemy in the area makes an **[Agility](scc:mcdm.heroes.v1/rule.character/agility) test**.
-      cost: 5 Malice
+    - cost: 5 Malice
       icon: "\U0001F533"
+      intro: The arixx's underground tunnels swell with pressure, causing a sudden influx of hot gas to burst from a 3-square-by-3-square area anywhere on the surface. Each enemy in the area makes an **[Agility](scc:mcdm.heroes.v1/rule.character/agility) test**.
       name: Geyser
       power_roll:
         tiers:

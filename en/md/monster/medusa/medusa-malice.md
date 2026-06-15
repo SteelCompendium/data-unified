@@ -38,9 +38,9 @@ features:
           text: At a time of the medusa's choosing, a charmed creature moves up to their speed and makes a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) against an enemy of the medusa's choice as a free triggered action. The creature is then no longer charmed.
       target: Three creatures
       usage: Main action
-    - body: The medusa causes three stone statues within 10 squares of them to each shatter in a 2-cube explosion. Each enemy in one of those areas makes a **Might test**. An enemy [restrained](scc:mcdm.heroes.v1/condition/restrained) or [slowed](scc:mcdm.heroes.v1/condition/slowed) by the medusa's Petrify ability has a double bane on the test.
-      cost: 7 Malice
+    - cost: 7 Malice
       icon: "\U0001F533"
+      intro: The medusa causes three stone statues within 10 squares of them to each shatter in a 2-cube explosion. Each enemy in one of those areas makes a **Might test**. An enemy [restrained](scc:mcdm.heroes.v1/condition/restrained) or [slowed](scc:mcdm.heroes.v1/condition/slowed) by the medusa's Petrify ability has a double bane on the test.
       name: Shatter Victims
       power_roll:
         tiers:

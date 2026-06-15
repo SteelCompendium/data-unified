@@ -4,9 +4,9 @@ features:
       cost: 3-7 Malice
       icon: ⭐️
       name: Prior Malice Features
-    - body: One demon acting this turn unleashes their pent-up agony and pain on every non-demon in a 5 burst. Each target makes a **Presence test**.
-      cost: 7 Malice
+    - cost: 7 Malice
       icon: ❇️
+      intro: One demon acting this turn unleashes their pent-up agony and pain on every non-demon in a 5 burst. Each target makes a **Presence test**.
       name: Soul Flense
       power_roll:
         tiers:

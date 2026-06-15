@@ -8,9 +8,9 @@ features:
       cost: 3 Malice
       icon: "\U0001F300"
       name: Paranormal Fling
-    - body: Ravenous and rotting undead arms burst forth from 9 connected squares of a vertical or horizontal surface. Any creature who ends their turn [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to an affected square makes an **Agility test**.
-      cost: 5 Malice
+    - cost: 5 Malice
       icon: "\U0001F533"
+      intro: Ravenous and rotting undead arms burst forth from 9 connected squares of a vertical or horizontal surface. Any creature who ends their turn [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to an affected square makes an **Agility test**.
       name: The Grasping, the Hungry
       power_roll:
         tiers:

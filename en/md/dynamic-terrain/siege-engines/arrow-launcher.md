@@ -1,7 +1,7 @@
 ---
 features:
-    - body: As a maneuver, a creature [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to an arrow launcher can make an **Agility test**.
-      icon: "\U0001F300"
+    - icon: "\U0001F300"
+      intro: As a maneuver, a creature [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to an arrow launcher can make an **Agility test**.
       name: Deactivate
       power_roll:
         tiers:

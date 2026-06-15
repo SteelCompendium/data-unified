@@ -12,9 +12,9 @@ features:
       cost: 5 Malice
       icon: "\U0001F533"
       name: Stone Pillars
-    - body: The air across the encounter map is thick with dust until the end of the encounter. Each enemy in the dust is suffocating. Additionally, at the end of each round, each enemy in the dust makes a **Might test**.
-      cost: 10 Malice
+    - cost: 10 Malice
       icon: "\U0001F300"
+      intro: The air across the encounter map is thick with dust until the end of the encounter. Each enemy in the dust is suffocating. Additionally, at the end of each round, each enemy in the dust makes a **Might test**.
       name: Choking Dust
       power_roll:
         tiers:

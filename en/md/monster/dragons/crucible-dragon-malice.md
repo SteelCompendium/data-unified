@@ -4,9 +4,9 @@ features:
       cost: 3 Malice
       icon: "\U0001F533"
       name: Swordfall
-    - body: The dragon shakes loose a cloud of shattered weapons in a 6 x 4 line within 1 square of them. Each creature and object in the area makes an **Agility test**.
-      cost: 5 Malice
+    - cost: 5 Malice
       icon: "\U0001F533"
+      intro: The dragon shakes loose a cloud of shattered weapons in a 6 x 4 line within 1 square of them. Each creature and object in the area makes an **Agility test**.
       name: Shower of Blades
       power_roll:
         tiers:

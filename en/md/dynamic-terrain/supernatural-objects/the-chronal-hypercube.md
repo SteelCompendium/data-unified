@@ -1,7 +1,7 @@
 ---
 features:
-    - body: A creature who has the [Psionics](scc:mcdm.heroes.v1/skill.lore/psionics) skill can deactivate and take control of the chronal hypercube by making a **Reason test** while within 10 squares of the hypercube.
-      icon: "\U0001F300"
+    - icon: "\U0001F300"
+      intro: A creature who has the [Psionics](scc:mcdm.heroes.v1/skill.lore/psionics) skill can deactivate and take control of the chronal hypercube by making a **Reason test** while within 10 squares of the hypercube.
       name: Deactivate
       power_roll:
         tiers:

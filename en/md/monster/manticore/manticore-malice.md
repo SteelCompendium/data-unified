@@ -8,9 +8,9 @@ features:
       cost: 5 Malice
       icon: ☠️
       name: Solo Action
-    - body: The manticore lets out an unnerving cry. Each enemy within the manticore's line of effect makes an **Intuition test**.
-      cost: 5 Malice
+    - cost: 5 Malice
       icon: "\U0001F300"
+      intro: The manticore lets out an unnerving cry. Each enemy within the manticore's line of effect makes an **Intuition test**.
       name: Desperate Howl
       power_roll:
         tiers:

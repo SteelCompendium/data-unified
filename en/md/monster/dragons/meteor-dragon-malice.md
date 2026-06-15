@@ -8,9 +8,9 @@ features:
       cost: 5 Malice
       icon: ☠️
       name: Solo Action
-    - body: The dragon drops stars into five 2 cubes anywhere on the encounter map. The area is [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain), and each creature and object in the area when it appears makes an **Agility test**.
-      cost: 5 Malice
+    - cost: 5 Malice
       icon: "\U0001F533"
+      intro: The dragon drops stars into five 2 cubes anywhere on the encounter map. The area is [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain), and each creature and object in the area when it appears makes an **Agility test**.
       name: Starfall
       power_roll:
         tiers:

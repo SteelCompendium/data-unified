@@ -4,9 +4,9 @@ features:
       cost: 3 Malice
       icon: ⭐️
       name: Black Skies
-    - body: The dragon [flies](scc:mcdm.heroes.v1/movement/fly) up to 10 squares and carries fated souls with them. Each creature in the area of the dragon's Stagnant Wyrmscale Aura [trait](scc:mcdm.monsters.v1/rule.monster/monster-trait) makes a **Presence test**.
-      cost: 5 Malice
+    - cost: 5 Malice
       icon: ❇️
+      intro: The dragon [flies](scc:mcdm.heroes.v1/movement/fly) up to 10 squares and carries fated souls with them. Each creature in the area of the dragon's Stagnant Wyrmscale Aura [trait](scc:mcdm.monsters.v1/rule.monster/monster-trait) makes a **Presence test**.
       name: Rise and Fall
       power_roll:
         tiers:

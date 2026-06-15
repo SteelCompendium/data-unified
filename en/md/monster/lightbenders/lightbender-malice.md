@@ -8,9 +8,9 @@ features:
       cost: 5 Malice
       icon: ⭐️
       name: Duplicate
-    - body: Each lightbender in the encounter shines radiantly, distorting the senses of any enemy within 5 squares of them. Each affected enemy makes a **Reason test**.
-      cost: 7 Malice
+    - cost: 7 Malice
       icon: ❇️
+      intro: Each lightbender in the encounter shines radiantly, distorting the senses of any enemy within 5 squares of them. Each affected enemy makes a **Reason test**.
       name: Everything the Light Touches
       power_roll:
         tiers:
