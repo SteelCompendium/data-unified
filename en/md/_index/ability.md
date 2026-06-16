@@ -1,6 +1,6 @@
 # Ability Index
 
-Total: 623
+Total: 621
 
 - ["Ballad of the Beast"](../feature/ability/troubadour/level-1/ballad-of-the-beast.md)
 - ["Fire Up the Night"](../feature/ability/troubadour/level-3/fire-up-the-night.md)
@@ -166,7 +166,7 @@ Total: 623
 - [Entropic Field](../feature/ability/null/level-2/entropic-field.md)
 - [Epic](../feature/ability/troubadour/level-9/epic.md)
 - [Erase](../feature/ability/elementalist/level-3/erase.md)
-- [Escape Grab](../feature/ability/common/maneuvers/escape-grab.md)
+- [Escape Grab](../feature/ability/common/escape-grab.md)
 - [Essence Funnel](../feature/ability/summoner/level-3/essence-funnel.md)
 - [Essence Transfer](../feature/ability/summoner/level-1/essence-transfer.md)
 - [Every Step... Death!](../feature/ability/censor/level-1/every-step-death.md)
@@ -221,7 +221,7 @@ Total: 623
 - [Gods' Machine](../feature/ability/conduit/level-6/gods-machine.md)
 - [Godstorm](../feature/ability/conduit/level-9/godstorm.md)
 - [Gore](../feature/ability/companion/beastheart/boar/level-1/gore.md)
-- [Grab](../feature/ability/common/maneuvers/grab.md)
+- [Grab](../feature/ability/common/grab.md)
 - [Grasp of Beyond](../feature/ability/elementalist/level-1/grasp-of-beyond.md)
 - [Grave Speech](../feature/ability/conduit/level-1/grave-speech.md)
 - [Grave Speech](../feature/ability/censor/level-1/grave-speech.md)
@@ -308,7 +308,7 @@ Total: 623
 - [Kinetic Pulse](../feature/ability/talent/level-1/kinetic-pulse.md)
 - [Kinetic Shield](../feature/ability/null/level-2/kinetic-shield.md)
 - [Kinetic Strike](../feature/ability/null/level-1/kinetic-strike.md)
-- [Knockback](../feature/ability/common/maneuvers/knockback.md)
+- [Knockback](../feature/ability/common/knockback.md)
 - [Lauded by God](../feature/ability/conduit/level-6/lauded-by-god.md)
 - [Lead By Example](../feature/ability/summoner/level-3/lead-by-example.md)
 - [Lead the Pack](../feature/ability/beastheart/level-6/lead-the-pack.md)
@@ -335,7 +335,6 @@ Total: 623
 - [Materialize](../feature/ability/talent/level-1/materialize.md)
 - [Maw of Earth](../feature/ability/elementalist/level-3/maw-of-earth.md)
 - [Melee Weapon Free Strike](../feature/ability/common/melee-weapon-free-strike.md)
-- [Melee Weapon Free Strike](../feature/ability/common/free-strikes/melee-weapon-free-strike-combat.md)
 - [Melt Their Faces](../feature/ability/troubadour/level-9/melt-their-faces.md)
 - [Meteor](../feature/ability/elementalist/level-6/meteor.md)
 - [Meteoric Introduction](../feature/ability/elementalist/level-1/meteoric-introduction.md)
@@ -423,7 +422,6 @@ Total: 623
 - [Raider's Awe](../feature/ability/raider/raiders-awe.md)
 - [Rain of Fire](../feature/ability/beastheart/level-1/rain-of-fire.md)
 - [Rallying Cry](../feature/ability/summoner/level-1/rallying-cry.md)
-- [Ranged Weapon Free Strike](../feature/ability/common/free-strikes/ranged-weapon-free-strike-combat.md)
 - [Ranged Weapon Free Strike](../feature/ability/common/ranged-weapon-free-strike.md)
 - [Ray of Agonizing Self-Reflection](../feature/ability/elementalist/level-1/ray-of-agonizing-self-reflection.md)
 - [Ray of Wrath](../feature/ability/conduit/level-1/ray-of-wrath.md)

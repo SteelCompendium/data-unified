@@ -7,7 +7,7 @@ keywords:
     - Weapon
 name: Knockback
 power_roll_characteristic: '[Might](scc:mcdm.heroes.v1/rule.character/might)'
-scc: mcdm.heroes.v1/feature.ability.common.maneuvers/knockback
+scc: mcdm.heroes.v1/feature.ability.common/knockback
 target: One creature
 tier1: '[Push](scc:mcdm.heroes.v1/movement/forced-movement) 1'
 tier2: '[Push](scc:mcdm.heroes.v1/movement/forced-movement) 2'

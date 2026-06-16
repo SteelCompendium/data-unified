@@ -1,6 +1,6 @@
 # Content Index
 
-- [Ability](ability.md) (623 items)
+- [Ability](ability.md) (621 items)
 - [Ancestry](ancestry.md) (12 items)
 - [Career](career.md) (18 items)
 - [Chapter](chapter.md) (29 items)
@@ -27,4 +27,4 @@
 - [Trait](trait.md) (94 items)
 - [Treasure](treasure.md) (127 items)
 
-Total items: 3015
+Total items: 3013

@@ -7,7 +7,7 @@ keywords:
     - Weapon
 name: Grab
 power_roll_characteristic: '[Might](scc:mcdm.heroes.v1/rule.character/might)'
-scc: mcdm.heroes.v1/feature.ability.common.maneuvers/grab
+scc: mcdm.heroes.v1/feature.ability.common/grab
 target: One creature
 tier1: No effect.
 tier2: You can grab the target, but if you do, the target can make a [melee](scc:mcdm.heroes.v1/rule.combat/melee) [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) against you before they are [grabbed](scc:mcdm.heroes.v1/condition/grabbed).
