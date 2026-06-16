@@ -18,6 +18,7 @@ scc: mcdm.summoner.v1/monster.rivals.3rd-echelon.summoner.minion/ceaseless-mourn
 size: "2"
 speed: 5
 stability: 4
+stamina: 8 | 8 | 8
 type: statblock
 weaknesses:
     - —

@@ -17,6 +17,7 @@ scc: mcdm.summoner.v1/retainer.summoner.statblock/gorrre
 size: "2"
 speed: 5
 stability: 2
+stamina: 27 | 27
 type: statblock
 weaknesses:
     - Holy 1

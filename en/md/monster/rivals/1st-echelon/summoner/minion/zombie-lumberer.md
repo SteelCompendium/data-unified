@@ -18,6 +18,7 @@ scc: mcdm.summoner.v1/monster.rivals.1st-echelon.summoner.minion/zombie-lumberer
 size: "2"
 speed: 5
 stability: 2
+stamina: 8 | 8
 type: statblock
 weaknesses:
     - —

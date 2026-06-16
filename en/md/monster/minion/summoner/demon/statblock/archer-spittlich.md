@@ -17,6 +17,7 @@ scc: mcdm.summoner.v1/monster.minion.summoner.demon.statblock/archer-spittlich
 size: 1S
 speed: 5
 stability: 2
+stamina: 5 | 5
 type: statblock
 weaknesses:
     - Holy 1

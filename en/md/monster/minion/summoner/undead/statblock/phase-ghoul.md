@@ -18,6 +18,7 @@ scc: mcdm.summoner.v1/monster.minion.summoner.undead.statblock/phase-ghoul
 size: 1M
 speed: 5
 stability: 0
+stamina: 5 | 5 | 5
 type: statblock
 weaknesses:
     - —

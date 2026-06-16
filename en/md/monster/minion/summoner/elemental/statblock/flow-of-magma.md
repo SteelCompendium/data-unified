@@ -17,6 +17,7 @@ scc: mcdm.summoner.v1/monster.minion.summoner.elemental.statblock/flow-of-magma
 size: 1L
 speed: 5
 stability: 2
+stamina: 6 | 6
 type: statblock
 weaknesses:
     - —

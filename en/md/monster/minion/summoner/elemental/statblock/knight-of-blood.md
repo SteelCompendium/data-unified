@@ -16,6 +16,7 @@ role: Controller
 scc: mcdm.summoner.v1/monster.minion.summoner.elemental.statblock/knight-of-blood
 size: 1L
 speed: 6
+stamina: 16 | 16
 type: statblock
 weaknesses:
     - —

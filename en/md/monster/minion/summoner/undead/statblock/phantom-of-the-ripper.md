@@ -18,6 +18,7 @@ scc: mcdm.summoner.v1/monster.minion.summoner.undead.statblock/phantom-of-the-ri
 size: 1M
 speed: 6
 stability: 1
+stamina: 17 | 17
 type: statblock
 weaknesses:
     - —

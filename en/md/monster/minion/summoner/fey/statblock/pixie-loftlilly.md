@@ -17,6 +17,7 @@ scc: mcdm.summoner.v1/monster.minion.summoner.fey.statblock/pixie-loftlilly
 size: 1T
 speed: 5
 stability: 0
+stamina: 5 | 5
 type: statblock
 weaknesses:
     - —

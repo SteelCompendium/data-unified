@@ -18,6 +18,7 @@ scc: mcdm.summoner.v1/monster.minion.summoner.undead.statblock/stalker-shade
 size: 1M
 speed: 5
 stability: 1
+stamina: 6 | 6
 type: statblock
 weaknesses:
     - —

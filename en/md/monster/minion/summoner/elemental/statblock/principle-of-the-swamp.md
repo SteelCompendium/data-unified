@@ -17,6 +17,7 @@ role: Brute
 scc: mcdm.summoner.v1/monster.minion.summoner.elemental.statblock/principle-of-the-swamp
 size: "2"
 speed: 4
+stamina: 5 | 5 | 5
 type: statblock
 weaknesses:
     - —

@@ -18,6 +18,7 @@ scc: mcdm.summoner.v1/monster.minion.summoner.undead.statblock/false-vampire
 size: 1L
 speed: 6
 stability: 2
+stamina: 17 | 17
 type: statblock
 weaknesses:
     - —

@@ -17,6 +17,7 @@ scc: mcdm.summoner.v1/monster.minion.summoner.demon.statblock/fanged-musilex
 size: 1L
 speed: 6
 stability: 1
+stamina: 6 | 6
 type: statblock
 weaknesses:
     - Holy 1

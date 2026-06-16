@@ -18,6 +18,7 @@ scc: mcdm.summoner.v1/monster.rivals.2nd-echelon.summoner.minion/grave-knight
 size: 1M
 speed: 6
 stability: 1
+stamina: 9 | 9
 type: statblock
 weaknesses:
     - —

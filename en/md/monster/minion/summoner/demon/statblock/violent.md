@@ -17,6 +17,7 @@ scc: mcdm.summoner.v1/monster.minion.summoner.demon.statblock/violent
 size: 1M
 speed: 7
 stability: 1
+stamina: 5 | 5 | 5
 type: statblock
 weaknesses:
     - Holy 1

@@ -18,6 +18,7 @@ scc: mcdm.summoner.v1/monster.minion.summoner.elemental.statblock/crux-of-ash
 size: 1M
 speed: 5
 stability: 0
+stamina: 6 | 6
 type: statblock
 weaknesses:
     - —

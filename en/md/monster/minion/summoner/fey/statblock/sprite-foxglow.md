@@ -17,6 +17,7 @@ scc: mcdm.summoner.v1/monster.minion.summoner.fey.statblock/sprite-foxglow
 size: 1T
 speed: 8
 stability: 0
+stamina: 5 | 5 | 5
 type: statblock
 weaknesses:
     - —

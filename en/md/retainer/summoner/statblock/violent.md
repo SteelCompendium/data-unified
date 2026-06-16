@@ -17,6 +17,7 @@ scc: mcdm.summoner.v1/retainer.summoner.statblock/violent
 size: 1M
 speed: 7
 stability: 1
+stamina: 7 | 7 | 7
 type: statblock
 weaknesses:
     - Holy 1

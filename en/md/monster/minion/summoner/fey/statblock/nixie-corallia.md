@@ -17,6 +17,7 @@ scc: mcdm.summoner.v1/monster.minion.summoner.fey.statblock/nixie-corallia
 size: 1T
 speed: 6
 stability: 0
+stamina: 17 | 17
 type: statblock
 weaknesses:
     - —

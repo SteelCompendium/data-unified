@@ -17,6 +17,7 @@ role: Defender
 scc: mcdm.summoner.v1/monster.minion.summoner.undead.statblock/zombie-lumberer
 size: "2"
 speed: 5
+stamina: 8 | 8
 type: statblock
 weaknesses:
     - —

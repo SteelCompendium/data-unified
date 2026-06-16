@@ -17,6 +17,7 @@ scc: mcdm.summoner.v1/monster.minion.summoner.fey.statblock/sprite-orchiguard
 size: 1S
 speed: 6
 stability: 2
+stamina: 8 | 8
 type: statblock
 weaknesses:
     - —

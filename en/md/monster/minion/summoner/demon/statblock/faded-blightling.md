@@ -17,6 +17,7 @@ scc: mcdm.summoner.v1/monster.minion.summoner.demon.statblock/faded-blightling
 size: 1L
 speed: 5
 stability: 0
+stamina: 17 | 17
 type: statblock
 weaknesses:
     - Holy 1

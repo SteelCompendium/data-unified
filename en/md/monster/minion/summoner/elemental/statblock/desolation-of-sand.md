@@ -17,6 +17,7 @@ scc: mcdm.summoner.v1/monster.minion.summoner.elemental.statblock/desolation-of-
 size: 1M
 speed: 5
 stability: 1
+stamina: 5 | 5
 type: statblock
 weaknesses:
     - —

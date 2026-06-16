@@ -18,6 +18,7 @@ scc: mcdm.summoner.v1/monster.minion.summoner.elemental.statblock/light-of-the-s
 size: "2"
 speed: 6
 stability: 0
+stamina: 17 | 17
 type: statblock
 weaknesses:
     - —

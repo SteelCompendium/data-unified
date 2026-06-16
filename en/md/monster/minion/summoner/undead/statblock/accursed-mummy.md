@@ -18,6 +18,7 @@ scc: mcdm.summoner.v1/monster.minion.summoner.undead.statblock/accursed-mummy
 size: 1M
 speed: 5
 stability: 2
+stamina: 4 | 4 | 4
 type: statblock
 weaknesses:
     - Fire 1

@@ -17,6 +17,7 @@ scc: mcdm.summoner.v1/monster.minion.summoner.demon.statblock/hulking-chimor
 size: "2"
 speed: 5
 stability: 3
+stamina: 7 | 7 | 7
 type: statblock
 weaknesses:
     - Holy 1

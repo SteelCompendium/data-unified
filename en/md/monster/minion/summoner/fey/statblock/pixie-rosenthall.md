@@ -17,6 +17,7 @@ scc: mcdm.summoner.v1/monster.minion.summoner.fey.statblock/pixie-rosenthall
 size: "2"
 speed: 6
 stability: 1
+stamina: 5 | 5 | 5
 type: statblock
 weaknesses:
     - —

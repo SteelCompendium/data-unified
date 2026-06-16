@@ -16,6 +16,7 @@ role: Harrier
 scc: mcdm.summoner.v1/monster.minion.summoner.elemental.statblock/iron-reaver
 size: 1L
 speed: 6
+stamina: 10 | 10 | 10
 type: statblock
 weaknesses:
     - —

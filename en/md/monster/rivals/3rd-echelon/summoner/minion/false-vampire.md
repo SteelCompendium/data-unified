@@ -18,6 +18,7 @@ scc: mcdm.summoner.v1/monster.rivals.3rd-echelon.summoner.minion/false-vampire
 size: 1L
 speed: 6
 stability: 2
+stamina: 22 | 22
 type: statblock
 weaknesses:
     - —

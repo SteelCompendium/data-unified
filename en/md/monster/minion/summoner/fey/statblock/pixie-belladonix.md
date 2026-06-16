@@ -17,6 +17,7 @@ scc: mcdm.summoner.v1/monster.minion.summoner.fey.statblock/pixie-belladonix
 size: 1T
 speed: 6
 stability: 0
+stamina: 16 | 16
 type: statblock
 weaknesses:
     - —

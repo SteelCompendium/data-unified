@@ -17,6 +17,7 @@ scc: mcdm.summoner.v1/monster.minion.summoner.demon.statblock/gushing-spewler
 size: 1M
 speed: 5
 stability: 0
+stamina: 4 | 4 | 4
 type: statblock
 weaknesses:
     - Holy 1

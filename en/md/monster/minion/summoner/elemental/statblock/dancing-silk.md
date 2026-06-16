@@ -17,6 +17,7 @@ scc: mcdm.summoner.v1/monster.minion.summoner.elemental.statblock/dancing-silk
 size: 1T
 speed: 5
 stability: 0
+stamina: 4 | 4 | 4
 type: statblock
 weaknesses:
     - —

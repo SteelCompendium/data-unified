@@ -41,6 +41,9 @@ features:
       keywords:
         - '-'
       name: Spot
+      sections:
+        - label: Effect
+          text: The next use of **Release Bolt** gains an edge and has a +10 bonus to ranged distance. This action can be used only once per round.
       target: '-'
       usage: Main action (Adjacent creature)
     - distance: '-'
@@ -87,9 +90,9 @@ features:
       power_roll:
         formula: + 2
         tiers:
-            high: 3 Pull 5
+            high: Pull 5
             low: Pull 1
-            mid: Pull
+            mid: Pull 3
       sections:
         - label: Special
           text: The target must be [slowed](scc:mcdm.heroes.v1/condition/slowed) by the field ballista.
@@ -154,8 +157,8 @@ A massive crossbow fires thick metal bolts with devastating effect.
 > | **-**    | **Main action (Adjacent creature)** |
 > |----------|------------------------------------:|
 > | **📏 -** |                            **🎯 -** |
-
-**Effect:** The next use of **Release Bolt** gains an edge and has a +10 bonus to ranged distance. This action can be used only once per round.
+> 
+> **Effect:** The next use of **Release Bolt** gains an edge and has a +10 bonus to ranged distance. This action can be used only once per round.
 
 > ⭐️ **Move**
 >
@@ -196,7 +199,7 @@ A massive crossbow fires thick metal bolts with devastating effect.
 > **Power Roll + 2:**
 >
 > - **≤11:** Pull 1
-> - **12-16:** Pull
-> - **17+:** 3 Pull 5
+> - **12-16:** Pull 3
+> - **17+:** Pull 5
 >
 > **Effect:** This [forced movement](scc:mcdm.heroes.v1/movement/forced-movement) triggers [opportunity attacks](scc:mcdm.heroes.v1/rule.combat/opportunity-attack).

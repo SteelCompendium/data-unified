@@ -17,6 +17,7 @@ scc: mcdm.summoner.v1/monster.minion.summoner.demon.statblock/vicisittante
 size: "2"
 speed: 10
 stability: 0
+stamina: 17 | 17
 type: statblock
 weaknesses:
     - Holy 1

@@ -17,6 +17,7 @@ scc: mcdm.summoner.v1/monster.minion.summoner.fey.statblock/nixie-hemloche
 size: 1T
 speed: 6
 stability: 0
+stamina: 4 | 4 | 4
 type: statblock
 weaknesses:
     - —

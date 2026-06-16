@@ -16,6 +16,7 @@ role: Brute
 scc: mcdm.summoner.v1/monster.minion.summoner.fey.statblock/sprite-olyender
 size: 1T
 speed: 6
+stamina: 17 | 17
 type: statblock
 weaknesses:
     - —

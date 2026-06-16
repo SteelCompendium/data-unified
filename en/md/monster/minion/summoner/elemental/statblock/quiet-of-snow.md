@@ -18,6 +18,7 @@ scc: mcdm.summoner.v1/monster.minion.summoner.elemental.statblock/quiet-of-snow
 size: 1S
 speed: 5
 stability: 1
+stamina: 4 | 4 | 4
 type: statblock
 weaknesses:
     - —

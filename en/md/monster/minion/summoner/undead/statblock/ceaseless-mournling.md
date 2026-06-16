@@ -17,6 +17,7 @@ role: Controller
 scc: mcdm.summoner.v1/monster.minion.summoner.undead.statblock/ceaseless-mournling
 size: "2"
 speed: 4
+stamina: 4 | 4 | 4
 type: statblock
 weaknesses:
     - —
