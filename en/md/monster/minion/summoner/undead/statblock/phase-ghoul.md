@@ -12,6 +12,7 @@ movement: Teleport
 name: Phase Ghoul
 organization: Minion
 presence: 1
+reason: -2
 role: Harrier
 scc: mcdm.summoner.v1/monster.minion.summoner.undead.statblock/phase-ghoul
 size: 1M
@@ -28,7 +29,7 @@ Phase ghouls are bilocated undead caught between two different manifolds, rapidl
 |:-----------:|:------:|:--------------:|:-:|:---------------------------:|
 | **1M**<br>Size | **5**<br>Speed | **5 \| 5 \| 5**<br>Stamina | **0**<br>Stability | **3**<br>Free Strike |
 | **Corruption R, Poison R**<br>Immunity | **Teleport**<br>Movement | - | **—**<br>Weakness | **—**<br>Free Strike Damage Type |
-| **+2**<br>Might | **+3**<br>Agility | **−2**<br>Reason | **0**<br>Intuition | **+1**<br>Presence |
+| **+2**<br>Might | **+3**<br>Agility | **-2**<br>Reason | **0**<br>Intuition | **+1**<br>Presence |
 
 > ⭐️ **Leaping Strike**
 >

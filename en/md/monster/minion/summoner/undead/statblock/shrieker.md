@@ -1,4 +1,5 @@
 ---
+agility: -2
 free_strike: 2
 immunities:
     - Corruption R
@@ -6,6 +7,7 @@ immunities:
 intuition: 0
 keywords:
     - Shrieker
+might: -2
 movement: —
 name: Shrieker
 organization: Minion
@@ -28,7 +30,7 @@ The shrieker expresses their unending pain in a way that can be heard and felt f
 |:--------:|:------:|:---------------------------:|:-:|:-----------------------------:|
 | **1M**<br>Size | **4**<br>Speed | **1**<br>Stamina | **0**<br>Stability | **2**<br>Free Strike |
 | **Corruption R, Poison R**<br>Immunity | **—**<br>Movement | - | **—**<br>Weakness | **Sonic**<br>Free Strike Damage Type |
-| **−2**<br>Might | **−2**<br>Agility | **0**<br>Reason | **0**<br>Intuition | **+2**<br>Presence |
+| **-2**<br>Might | **-2**<br>Agility | **0**<br>Reason | **0**<br>Intuition | **+2**<br>Presence |
 
 > ⭐️ **Howling Strike**
 >

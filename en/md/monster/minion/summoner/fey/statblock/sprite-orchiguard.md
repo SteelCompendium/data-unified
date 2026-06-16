@@ -3,12 +3,15 @@ agility: 0
 free_strike: 4
 immunities:
     - —
+intuition: -1
 keywords:
     - Sprite Orchiguard
 might: 2
 movement: Fly
 name: Sprite Orchiguard
 organization: Minion
+presence: -1
+reason: -1
 role: Defender
 scc: mcdm.summoner.v1/monster.minion.summoner.fey.statblock/sprite-orchiguard
 size: 1S
@@ -25,7 +28,7 @@ The orchiguard is a sprite surrounded by a wheel of shields. They are usually cr
 |:-----------------:|:---:|:---------------:|:-:|:-------------------------:|
 | **1S**<br>Size | **6**<br>Speed | **8 \| 8**<br>Stamina | **2**<br>Stability | **4**<br>Free Strike |
 | **—**<br>Immunity | **Fly**<br>Movement | - | **—**<br>Weakness | **—**<br>Free Strike Damage Type |
-| **+2**<br>Might | **0**<br>Agility | **−1**<br>Reason | **−1**<br>Intuition | **−1**<br>Presence |
+| **+2**<br>Might | **0**<br>Agility | **-1**<br>Reason | **-1**<br>Intuition | **-1**<br>Presence |
 
 > ⭐️ **Fairy Guard**
 >

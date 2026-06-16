@@ -6,6 +6,7 @@ immunities:
 intuition: 0
 keywords:
     - Pixie Bellringer
+might: -3
 movement: Fly, hover
 name: Pixie Bellringer
 organization: Minion
@@ -28,7 +29,7 @@ The bellringers are glowing pixies that jingle as they fly. Historically, these 
 |:----------------:|:---:|:------------------------:|:-:|:-----------------------------:|
 | **1T**<br>Size | **5**<br>Speed | **2**<br>Stamina | **0**<br>Stability | **1**<br>Free Strike |
 | **—**<br>Immunity | **Fly, hover**<br>Movement | - | **—**<br>Weakness | **—**<br>Free Strike Damage Type |
-| **−3**<br>Might | **+1**<br>Agility | **0**<br>Reason | **0**<br>Intuition | **+2**<br>Presence |
+| **-3**<br>Might | **+1**<br>Agility | **0**<br>Reason | **0**<br>Intuition | **+2**<br>Presence |
 
 > ⭐️ **Ringing Strike**
 >
@@ -36,7 +37,7 @@ The bellringers are glowing pixies that jingle as they fly. Historically, these 
 
 > ⭐️ **Fairy Chime**
 >
-> Each ally within 1 square of a bellringer has a +1 to [saving throws](scc:mcdm.heroes.v1/rule.general/saving-throw). Each enemy within 1 square of a bellringer has a −1 to [saving throws](scc:mcdm.heroes.v1/rule.general/saving-throw).
+> Each ally within 1 square of a bellringer has a +1 to [saving throws](scc:mcdm.heroes.v1/rule.general/saving-throw). Each enemy within 1 square of a bellringer has a -1 to [saving throws](scc:mcdm.heroes.v1/rule.general/saving-throw).
 
 > ⭐️ **Minuscule**
 >

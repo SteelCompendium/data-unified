@@ -1,10 +1,12 @@
 ---
+agility: -1
 free_strike: 1
 immunities:
     - —
 intuition: 2
 keywords:
     - Nixie Soakreed
+might: -2
 movement: Swim
 name: Nixie Soakreed
 organization: Minion
@@ -27,7 +29,7 @@ These nixies are especially tiny. Their hair grows longer than their bodies and 
 |:--------------:|:---:|:---------------------------:|:-:|:-----------------------------:|
 | **1T**<br>Size | **5**<br>Speed | **1**<br>Stamina | **0**<br>Stability | **1**<br>Free Strike |
 | **—**<br>Immunity | **Swim**<br>Movement | - | **—**<br>Weakness | **—**<br>Free Strike Damage Type |
-| **−2**<br>Might | **−1**<br>Agility | **0**<br>Reason | **+2**<br>Intuition | **+1**<br>Presence |
+| **-2**<br>Might | **-1**<br>Agility | **0**<br>Reason | **+2**<br>Intuition | **+1**<br>Presence |
 
 > ⭐️ **Water Weird**
 >

@@ -10,6 +10,7 @@ might: 3
 movement: —
 name: Vicisittante
 organization: Minion
+presence: -1
 reason: 0
 role: Harrier
 scc: mcdm.summoner.v1/monster.minion.summoner.demon.statblock/vicisittante
@@ -27,7 +28,7 @@ It's difficult to identify the base nature of a vicisittante apart from an ever-
 |:------------:|:--------------:|:--------------:|:-:|:-------------------------:|
 | **2**<br>Size | **10**<br>Speed | **17 \| 17**<br>Stamina | **0**<br>Stability | **7**<br>Free Strike |
 | **—**<br>Immunity | **—**<br>Movement | - | **Holy 1**<br>Weakness | **Psychic**<br>Free Strike Damage Type |
-| **+3**<br>Might | **+4**<br>Agility | **0**<br>Reason | **0**<br>Intuition | **−1**<br>Presence |
+| **+3**<br>Might | **+4**<br>Agility | **0**<br>Reason | **0**<br>Intuition | **-1**<br>Presence |
 
 > 🏹 **Cerebral Flay 2d10 + R (Signature Ability)**
 >

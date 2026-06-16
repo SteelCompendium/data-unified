@@ -8,14 +8,14 @@ type: feature
 
 **Starting Characteristics:** You start with a [Reason](scc:mcdm.heroes.v1/rule.character/reason) of 2, and you can choose one of the following arrays for your other [characteristics](scc:mcdm.heroes.v1/rule.character/characteristic) scores:
 
-- 2, 2, −1, −1
-- 2, 1, 1, −1
+- 2, 2, -1, -1
+- 2, 1, 1, -1
 - 2, 1, 0, 0
 - 1, 1, 1, 0
 
-**Weak [Potency](scc:mcdm.heroes.v1/rule.character/potency):** [Reason](scc:mcdm.heroes.v1/rule.character/reason) − 2
+**Weak [Potency](scc:mcdm.heroes.v1/rule.character/potency):** [Reason](scc:mcdm.heroes.v1/rule.character/reason) - 2
 
-**Average [Potency](scc:mcdm.heroes.v1/rule.character/potency):** [Reason](scc:mcdm.heroes.v1/rule.character/reason) − 1
+**Average [Potency](scc:mcdm.heroes.v1/rule.character/potency):** [Reason](scc:mcdm.heroes.v1/rule.character/reason) - 1
 
 **Strong [Potency](scc:mcdm.heroes.v1/rule.character/potency):** [Reason](scc:mcdm.heroes.v1/rule.character/reason)
 

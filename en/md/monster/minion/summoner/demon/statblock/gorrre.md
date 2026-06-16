@@ -3,6 +3,7 @@ agility: 3
 free_strike: 8
 immunities:
     - —
+intuition: -1
 keywords:
     - Gorrre
 might: 4
@@ -27,7 +28,7 @@ The gorrre demons evoke features of rhino and orangutan while clad in heavy armo
 |:------:|:--------------:|:------------:|:-:|:-------------------------:|
 | **2**<br>Size | **5**<br>Speed | **17 \| 17**<br>Stamina | **2**<br>Stability | **8**<br>Free Strike |
 | **—**<br>Immunity | **—**<br>Movement | - | **Holy 1**<br>Weakness | **—**<br>Free Strike Damage Type |
-| **+4**<br>Might | **+3**<br>Agility | **0**<br>Reason | **−1**<br>Intuition | **0**<br>Presence |
+| **+4**<br>Might | **+3**<br>Agility | **0**<br>Reason | **-1**<br>Intuition | **0**<br>Presence |
 
 > ⭐️ **Gorrring Strike**
 >

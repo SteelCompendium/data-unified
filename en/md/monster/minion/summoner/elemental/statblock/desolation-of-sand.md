@@ -10,6 +10,7 @@ might: 1
 movement: Burrow
 name: Desolation of Sand
 organization: Minion
+presence: -2
 reason: 0
 role: Hexer
 scc: mcdm.summoner.v1/monster.minion.summoner.elemental.statblock/desolation-of-sand
@@ -27,7 +28,7 @@ The desolations have vaguely humanoid sand forms with no legs. Their glass hose 
 |:------------------:|:----------------------:|:------------:|:-:|:-------------------------:|
 | **1M**<br>Size | **5**<br>Speed | **5 \| 5**<br>Stamina | **1**<br>Stability | **4**<br>Free Strike |
 | **Sonic R**<br>Immunity | **Burrow**<br>Movement | - | **—**<br>Weakness | **—**<br>Free Strike Damage Type |
-| **+1**<br>Might | **+2**<br>Agility | **0**<br>Reason | **0**<br>Intuition | **−2**<br>Presence |
+| **+1**<br>Might | **+2**<br>Agility | **0**<br>Reason | **0**<br>Intuition | **-2**<br>Presence |
 
 > ⭐️ **Burying Strike**
 >

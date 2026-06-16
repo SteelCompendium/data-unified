@@ -3,12 +3,14 @@ agility: 3
 free_strike: 4
 immunities:
     - —
+intuition: -1
 keywords:
     - Violent
 might: 2
 movement: Climb
 name: Violent
 organization: Minion
+presence: -1
 reason: 0
 role: Ambusher
 scc: mcdm.summoner.v1/monster.minion.summoner.demon.statblock/violent
@@ -26,7 +28,7 @@ The violents are lanky, oily bipeds with bright red flesh that contort and snap 
 |:-------:|:--------------:|:---------------:|:-:|:---------------------------:|
 | **1M**<br>Size | **7**<br>Speed | **5 \| 5 \| 5**<br>Stamina | **1**<br>Stability | **4**<br>Free Strike |
 | **—**<br>Immunity | **Climb**<br>Movement | - | **Holy 1**<br>Weakness | **Corruption**<br>Free Strike Damage Type |
-| **+2**<br>Might | **+3**<br>Agility | **0**<br>Reason | **−1**<br>Intuition | **−1**<br>Presence |
+| **+2**<br>Might | **+3**<br>Agility | **0**<br>Reason | **-1**<br>Intuition | **-1**<br>Presence |
 
 > ⭐️ **Transforming Strike**
 >

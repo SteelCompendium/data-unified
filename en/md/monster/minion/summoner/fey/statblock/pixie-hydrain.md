@@ -6,6 +6,7 @@ immunities:
 intuition: 0
 keywords:
     - Pixie Hydrain
+might: -3
 movement: Fly, hover
 name: Pixie Hydrain
 organization: Minion
@@ -27,7 +28,7 @@ This pixie flies on a delicate array of vibrant flower petals for wings. The col
 |:-------------:|:---:|:----------------:|:-:|:-------------------------:|
 | **1T**<br>Size | **5**<br>Speed | **5 \| 5**<br>Stamina | **0**<br>Stability | **5**<br>Free Strike |
 | **Acid R**<br>Immunity | **Fly, hover**<br>Movement | - | **—**<br>Weakness | **Acid**<br>Free Strike Damage Type |
-| **−3**<br>Might | **0**<br>Agility | **+1**<br>Reason | **0**<br>Intuition | **+2**<br>Presence |
+| **-3**<br>Might | **0**<br>Agility | **+1**<br>Reason | **0**<br>Intuition | **+2**<br>Presence |
 
 > 🏹 **Burning/Healing Rain 2d10 + R (Signature Ability)**
 >

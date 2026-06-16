@@ -6,9 +6,11 @@ immunities:
 intuition: 0
 keywords:
     - Dancing Silk
+might: -1
 movement: Fly
 name: Dancing Silk
 organization: Minion
+presence: -1
 reason: 3
 role: Controller
 scc: mcdm.summoner.v1/monster.minion.summoner.elemental.statblock/dancing-silk
@@ -26,7 +28,7 @@ The silks are akin to baby spiders ballooning through the air on strands of webb
 |:------------:|:-----------------------------:|:-----------------:|:-:|:---------------------------:|
 | **1T**<br>Size | **5**<br>Speed | **4 \| 4 \| 4**<br>Stamina | **0**<br>Stability | **3**<br>Free Strike |
 | **Poison R**<br>Immunity | **Fly**<br>Movement | - | **—**<br>Weakness | **—**<br>Free Strike Damage Type |
-| **−1**<br>Might | **+2**<br>Agility | **+3**<br>Reason | **0**<br>Intuition | **−1**<br>Presence |
+| **-1**<br>Might | **+2**<br>Agility | **+3**<br>Reason | **0**<br>Intuition | **-1**<br>Presence |
 
 > ⭐️ **Entangling Strike**
 >

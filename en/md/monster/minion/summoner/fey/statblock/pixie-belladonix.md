@@ -6,6 +6,7 @@ immunities:
 intuition: 0
 keywords:
     - Pixie Belladonix
+might: -2
 movement: Fly, hover
 name: Pixie Belladonix
 organization: Minion
@@ -27,7 +28,7 @@ The belladonix are found among the elite guard of fey monarchs and carry themsel
 |:----------------:|:---:|:----------------:|:-:|:-------------------------:|
 | **1T**<br>Size | **6**<br>Speed | **16 \| 16**<br>Stamina | **0**<br>Stability | **8**<br>Free Strike |
 | **Poison R**<br>Immunity | **Fly, hover**<br>Movement | - | **—**<br>Weakness | **Poison**<br>Free Strike Damage Type |
-| **−2**<br>Might | **+2**<br>Agility | **+4**<br>Reason | **0**<br>Intuition | **+4**<br>Presence |
+| **-2**<br>Might | **+2**<br>Agility | **+4**<br>Reason | **0**<br>Intuition | **+4**<br>Presence |
 
 > 🏹 **A Thorn, Woe to the Pricked 2d10 + R (Signature Ability)**
 >

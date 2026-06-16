@@ -1,4 +1,5 @@
 ---
+agility: -2
 free_strike: 1
 immunities:
     - Corruption R
@@ -27,7 +28,7 @@ These massive, animated ogre corpses still maintain their incredible grip streng
 |:---------------:|:------:|:---------------:|:-:|:-------------------------:|
 | **2**<br>Size | **5**<br>Speed | **8 \| 8**<br>Stamina | **R**<br>Stability | **1**<br>Free Strike |
 | **Corruption R, Poison R**<br>Immunity | **—**<br>Movement | - | **—**<br>Weakness | **—**<br>Free Strike Damage Type |
-| **+2**<br>Might | **−2**<br>Agility | **0**<br>Reason | **0**<br>Intuition | **+1**<br>Presence |
+| **+2**<br>Might | **-2**<br>Agility | **0**<br>Reason | **0**<br>Intuition | **+1**<br>Presence |
 
 > ⭐️ **Zombie Clutch**
 >

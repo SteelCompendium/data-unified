@@ -6,6 +6,7 @@ immunities:
 intuition: 4
 keywords:
     - Nixie Corallia
+might: -2
 movement: Swim
 name: Nixie Corallia
 organization: Minion
@@ -27,7 +28,7 @@ Corallias are saltwater nixies with coarse, coral-like skin and curly hair with 
 |:--------------:|:---:|:--------------:|:-:|:-------------------------:|
 | **1T**<br>Size | **6**<br>Speed | **17 \| 17**<br>Stamina | **0**<br>Stability | **7**<br>Free Strike |
 | **Lightning R**<br>Immunity | **Swim**<br>Movement | - | **—**<br>Weakness | **Lightning**<br>Free Strike Damage Type |
-| **−2**<br>Might | **+3**<br>Agility | **+3**<br>Reason | **+4**<br>Intuition | **+1**<br>Presence |
+| **-2**<br>Might | **+3**<br>Agility | **+3**<br>Reason | **+4**<br>Intuition | **+1**<br>Presence |
 
 > ⭐️ **Water Weird**
 >

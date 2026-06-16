@@ -3,6 +3,7 @@ agility: 2
 free_strike: 5
 immunities:
     - —
+intuition: -1
 keywords:
     - Archer Spittlich
 might: 0
@@ -10,6 +11,7 @@ movement: —
 name: Archer Spittlich
 organization: Minion
 presence: 0
+reason: -1
 role: Artillery
 scc: mcdm.summoner.v1/monster.minion.summoner.demon.statblock/archer-spittlich
 size: 1S
@@ -26,7 +28,7 @@ These minor demons resemble larger pitlings. They can spit a nerve-numbing phleg
 |:----------------:|:--------------:|:----------------:|:-:|:-------------------------:|
 | **1S**<br>Size | **5**<br>Speed | **5 \| 5**<br>Stamina | **2**<br>Stability | **5**<br>Free Strike |
 | **—**<br>Immunity | **—**<br>Movement | - | **Holy 1**<br>Weakness | **Poison**<br>Free Strike Damage Type |
-| **0**<br>Might | **+2**<br>Agility | **−1**<br>Reason | **−1**<br>Intuition | **0**<br>Presence |
+| **0**<br>Might | **+2**<br>Agility | **-1**<br>Reason | **-1**<br>Intuition | **0**<br>Presence |
 
 > ⭐️ **Splash Strike**
 >

@@ -10,6 +10,7 @@ might: 3
 movement: Burrow
 name: Iron Reaver
 organization: Minion
+presence: -1
 reason: 0
 role: Harrier
 scc: mcdm.summoner.v1/monster.minion.summoner.elemental.statblock/iron-reaver
@@ -26,7 +27,7 @@ Iron reavers are long, gnashing lines of centipede-like bladed legs. Their bodie
 |:-----------:|:-----------------------------:|:--------------:|:-:|:---------------------------:|
 | **1L**<br>Size | **6**<br>Speed | **10 \| 10 \| 10**<br>Stamina | **R**<br>Stability | **6**<br>Free Strike |
 | **Poison R**<br>Immunity | **Burrow**<br>Movement | - | **—**<br>Weakness | **—**<br>Free Strike Damage Type |
-| **+3**<br>Might | **+4**<br>Agility | **0**<br>Reason | **0**<br>Intuition | **−1**<br>Presence |
+| **+3**<br>Might | **+4**<br>Agility | **0**<br>Reason | **0**<br>Intuition | **-1**<br>Presence |
 
 > ⭐️ **Decentralized Segments**
 >

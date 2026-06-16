@@ -3,6 +3,7 @@ agility: 1
 free_strike: 4
 immunities:
     - —
+intuition: -1
 keywords:
     - Twisted Bengrul
 might: 2
@@ -10,6 +11,7 @@ movement: —
 name: Twisted Bengrul
 organization: Minion
 presence: 0
+reason: -1
 role: Hexer
 scc: mcdm.summoner.v1/monster.minion.summoner.demon.statblock/twisted-bengrul
 size: 1L
@@ -26,7 +28,7 @@ The bengrul is an undulating heap of glass and flesh. They shatter pieces of the
 |:---------------:|:--------------:|:------------:|:-:|:-------------------------:|
 | **1L**<br>Size | **5**<br>Speed | **5 \| 5**<br>Stamina | **1**<br>Stability | **4**<br>Free Strike |
 | **—**<br>Immunity | **—**<br>Movement | - | **Holy 1**<br>Weakness | **Psychic**<br>Free Strike Damage Type |
-| **+2**<br>Might | **+1**<br>Agility | **−1**<br>Reason | **−1**<br>Intuition | **0**<br>Presence |
+| **+2**<br>Might | **+1**<br>Agility | **-1**<br>Reason | **-1**<br>Intuition | **0**<br>Presence |
 
 > 🏹 **Mind Twist 2d10 + R (Signature Ability)**
 >

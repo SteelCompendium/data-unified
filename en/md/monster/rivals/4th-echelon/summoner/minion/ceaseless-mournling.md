@@ -12,6 +12,7 @@ movement: Burrow
 name: Ceaseless Mournling
 organization: Minion
 presence: 1
+reason: -2
 role: Controller
 scc: mcdm.summoner.v1/monster.rivals.4th-echelon.summoner.minion/ceaseless-mournling
 size: "2"
@@ -26,7 +27,7 @@ weaknesses:
 |:-:|:------:|:-----------------:|:-:|:--------------------------:|
 | **2**<br>Size | **5**<br>Speed | **10 \| 10 \| 10**<br>Stamina | **5**<br>Stability | **3**<br>Free Strike |
 | **Corruption 5, poison 5**<br>Immunity | **Burrow**<br>Movement | - | **—**<br>Weakness | **Sonic**<br>Free Strike Damage Type |
-| **+5**<br>Might | **+5**<br>Agility | **−2**<br>Reason | **+4**<br>Intuition | **+1**<br>Presence |
+| **+5**<br>Might | **+5**<br>Agility | **-2**<br>Reason | **+4**<br>Intuition | **+1**<br>Presence |
 
 > ⭐️ **Always Crying**
 >

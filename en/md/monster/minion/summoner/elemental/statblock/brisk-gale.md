@@ -6,6 +6,7 @@ immunities:
 intuition: 0
 keywords:
     - Brisk Gale
+might: -2
 movement: Fly
 name: Brisk Gale
 organization: Minion
@@ -28,7 +29,7 @@ The gales are twisting ribbons of cloud and debris endlessly dancing in place. T
 |:----------:|:---------------:|:------------------------:|:-:|:-----------------------------:|
 | **1S**<br>Size | **5**<br>Speed | **2**<br>Stamina | **0**<br>Stability | **1**<br>Free Strike |
 | **Sonic R**<br>Immunity | **Fly**<br>Movement | - | **—**<br>Weakness | **Sonic**<br>Free Strike Damage Type |
-| **−2**<br>Might | **+2**<br>Agility | **0**<br>Reason | **0**<br>Intuition | **+1**<br>Presence |
+| **-2**<br>Might | **+2**<br>Agility | **0**<br>Reason | **0**<br>Intuition | **+1**<br>Presence |
 
 > ⭐️ **Cutting the Air**
 >

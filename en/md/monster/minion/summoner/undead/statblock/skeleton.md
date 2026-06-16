@@ -4,12 +4,15 @@ free_strike: 1
 immunities:
     - Corruption R
     - Poison R
+intuition: -1
 keywords:
     - Skeleton
 might: 2
 movement: —
 name: Skeleton
 organization: Minion
+presence: -1
+reason: -1
 role: Harrier
 scc: mcdm.summoner.v1/monster.minion.summoner.undead.statblock/skeleton
 size: 1M
@@ -27,7 +30,7 @@ These autonomous bone networks fall just short of replicating the structure they
 |:--------:|:------:|:-------------------------:|:-:|:-----------------------------:|
 | **1M**<br>Size | **6**<br>Speed | **2**<br>Stamina | **0**<br>Stability | **1**<br>Free Strike |
 | **Corruption R, Poison R**<br>Immunity | **—**<br>Movement | - | **—**<br>Weakness | **—**<br>Free Strike Damage Type |
-| **+2**<br>Might | **0**<br>Agility | **−1**<br>Reason | **−1**<br>Intuition | **−1**<br>Presence |
+| **+2**<br>Might | **0**<br>Agility | **-1**<br>Reason | **-1**<br>Intuition | **-1**<br>Presence |
 
 > ⭐️ **Bonetrops**
 >

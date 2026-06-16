@@ -1,4 +1,5 @@
 ---
+agility: -2
 free_strike: 5
 immunities:
     - Fire R
@@ -6,6 +7,7 @@ immunities:
 intuition: 0
 keywords:
     - Crux of Ash
+might: -2
 movement: Fly
 name: Crux of Ash
 organization: Minion
@@ -27,7 +29,7 @@ The crux is a curtain of billowing hot ash with an avian head. They cover their 
 |:-----------:|:---------------------:|:---------------:|:-:|:-------------------------:|
 | **1M**<br>Size | **5**<br>Speed | **6 \| 6**<br>Stamina | **0**<br>Stability | **5**<br>Free Strike |
 | **Fire R, Sonic R**<br>Immunity | **Fly**<br>Movement | - | **—**<br>Weakness | **—**<br>Free Strike Damage Type |
-| **−2**<br>Might | **−2**<br>Agility | **0**<br>Reason | **0**<br>Intuition | **+1**<br>Presence |
+| **-2**<br>Might | **-2**<br>Agility | **0**<br>Reason | **0**<br>Intuition | **+1**<br>Presence |
 
 > ⭐️ **Soot Strike**
 >

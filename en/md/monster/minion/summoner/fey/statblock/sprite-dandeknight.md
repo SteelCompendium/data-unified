@@ -3,12 +3,15 @@ agility: 0
 free_strike: 1
 immunities:
     - —
+intuition: -1
 keywords:
     - Sprite Dandeknight
 might: 2
 movement: Fly
 name: Sprite Dandeknight
 organization: Minion
+presence: -1
+reason: -1
 role: Harrier
 scc: mcdm.summoner.v1/monster.minion.summoner.fey.statblock/sprite-dandeknight
 size: 1T
@@ -26,7 +29,7 @@ Dandeknights are sprite warriors whose dragonfly wingbeats emit a tonal drone. T
 |:-----------------:|:---:|:------------------------:|:-:|:-----------------------------:|
 | **1T**<br>Size | **6**<br>Speed | **2**<br>Stamina | **0**<br>Stability | **1**<br>Free Strike |
 | **—**<br>Immunity | **Fly**<br>Movement | - | **—**<br>Weakness | **—**<br>Free Strike Damage Type |
-| **+2**<br>Might | **0**<br>Agility | **−1**<br>Reason | **−1**<br>Intuition | **−1**<br>Presence |
+| **+2**<br>Might | **0**<br>Agility | **-1**<br>Reason | **-1**<br>Intuition | **-1**<br>Presence |
 
 > ⭐️ **Magic Strike**
 >

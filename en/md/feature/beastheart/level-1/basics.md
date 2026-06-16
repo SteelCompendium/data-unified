@@ -8,13 +8,13 @@ type: feature
 
 **Starting Characteristics:** You start with a Might of 2 and an Intuition of 2, and can choose one of the following arrays for your other characteristic scores:
 
-- 2, −1, −1
-- 1, 1, −1
+- 2, -1, -1
+- 1, 1, -1
 - 1, 0, 0
 
-**Weak Potency:** Might − 2
+**Weak Potency:** Might - 2
 
-**Average Potency:** Might − 1
+**Average Potency:** Might - 1
 
 **Strong Potency:** Might
 

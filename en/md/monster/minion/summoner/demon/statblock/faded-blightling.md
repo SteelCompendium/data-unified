@@ -11,6 +11,7 @@ movement: Fly
 name: Faded Blightling
 organization: Minion
 presence: 3
+reason: -1
 role: Support
 scc: mcdm.summoner.v1/monster.minion.summoner.demon.statblock/faded-blightling
 size: 1L
@@ -27,7 +28,7 @@ This cherubin creature is bloated and warped by demonic energy. The lights from 
 |:----------------:|:--------------:|:--------------:|:-:|:-------------------------:|
 | **1L**<br>Size | **5**<br>Speed | **17 \| 17**<br>Stamina | **0**<br>Stability | **7**<br>Free Strike |
 | **—**<br>Immunity | **Fly**<br>Movement | - | **Holy 1**<br>Weakness | **Corruption**<br>Free Strike Damage Type |
-| **0**<br>Might | **0**<br>Agility | **−1**<br>Reason | **+4**<br>Intuition | **+3**<br>Presence |
+| **0**<br>Might | **0**<br>Agility | **-1**<br>Reason | **+4**<br>Intuition | **+3**<br>Presence |
 
 > 🏹 **Blighted Strike 2d10 + R (Signature Ability)**
 >

@@ -1,4 +1,5 @@
 ---
+agility: -2
 free_strike: 4
 immunities:
     - Corruption R
@@ -10,6 +11,7 @@ might: 3
 movement: Swim
 name: Principle of the Swamp
 organization: Minion
+presence: -2
 reason: 0
 role: Brute
 scc: mcdm.summoner.v1/monster.minion.summoner.elemental.statblock/principle-of-the-swamp
@@ -26,7 +28,7 @@ The manes of these equine sludge dwellers extend and hook into things like stron
 |:----------------------:|:-----------------------------:|:------------:|:-:|:---------------------------:|
 | **2**<br>Size | **4**<br>Speed | **5 \| 5 \| 5**<br>Stamina | **R**<br>Stability | **4**<br>Free Strike |
 | **Corruption R, Poison R**<br>Immunity | **Swim**<br>Movement | - | **—**<br>Weakness | **—**<br>Free Strike Damage Type |
-| **+3**<br>Might | **−2**<br>Agility | **0**<br>Reason | **+2**<br>Intuition | **−2**<br>Presence |
+| **+3**<br>Might | **-2**<br>Agility | **0**<br>Reason | **+2**<br>Intuition | **-2**<br>Presence |
 
 > ⭐️ **Encroaching Strike**
 >

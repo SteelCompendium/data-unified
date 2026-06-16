@@ -3,12 +3,15 @@ agility: 0
 free_strike: 2
 immunities:
     - —
+intuition: -1
 keywords:
     - Ensnarer
 might: 2
 movement: —
 name: Ensnarer
 organization: Minion
+presence: -1
+reason: -1
 role: Brute
 scc: mcdm.summoner.v1/monster.minion.summoner.demon.statblock/ensnarer
 size: 1M
@@ -26,7 +29,7 @@ This vaguely humanoid form is warped and distorted by a demon nestled inside the
 |:--------:|:--------------:|:----------------------:|:-:|:-----------------------------:|
 | **1M**<br>Size | **5**<br>Speed | **2**<br>Stamina | **0**<br>Stability | **2**<br>Free Strike |
 | **—**<br>Immunity | **—**<br>Movement | - | **Holy 1**<br>Weakness | **—**<br>Free Strike Damage Type |
-| **+2**<br>Might | **0**<br>Agility | **−1**<br>Reason | **−1**<br>Intuition | **−1**<br>Presence |
+| **+2**<br>Might | **0**<br>Agility | **-1**<br>Reason | **-1**<br>Intuition | **-1**<br>Presence |
 
 > ⭐️ **Extended Barbed Strike**
 >

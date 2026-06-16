@@ -7,6 +7,7 @@ intuition: 2
 keywords:
     - —
 level: 1
+might: -1
 movement: —
 name: Devil Detective
 organization: Retainer
@@ -27,7 +28,7 @@ weaknesses:
 |:-:|:---------------:|:---------------------------:|:-:|:-:|
 | **1M**<br>Size | **5**<br>Speed | **21**<br>Stamina | **0**<br>Stability | **2**<br>Free Strike |
 | **Fire 2**<br>Immunity | **—**<br>Movement | - | **—**<br>Weakness | **—**<br>Free Strike Damage Type |
-| **−1**<br>Might | **0**<br>Agility | **+2**<br>Reason | **+2**<br>Intuition | **0**<br>Presence |
+| **-1**<br>Might | **0**<br>Agility | **+2**<br>Reason | **+2**<br>Intuition | **0**<br>Presence |
 
 > ⭐️ **Demon Summoner**
 >

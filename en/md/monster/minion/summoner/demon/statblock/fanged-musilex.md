@@ -3,6 +3,7 @@ agility: 1
 free_strike: 5
 immunities:
     - —
+intuition: -1
 keywords:
     - Fanged Musilex
 might: 2
@@ -10,6 +11,7 @@ movement: —
 name: Fanged Musilex
 organization: Minion
 presence: 0
+reason: -1
 role: Brute
 scc: mcdm.summoner.v1/monster.minion.summoner.demon.statblock/fanged-musilex
 size: 1L
@@ -26,7 +28,7 @@ Ensnarers knot and twist their bodies together to form heaving, heavy musilexes.
 |:--------------:|:--------------:|:------------:|:-:|:-------------------------:|
 | **1L**<br>Size | **6**<br>Speed | **6 \| 6**<br>Stamina | **1**<br>Stability | **5**<br>Free Strike |
 | **—**<br>Immunity | **—**<br>Movement | - | **Holy 1**<br>Weakness | **—**<br>Free Strike Damage Type |
-| **+2**<br>Might | **+1**<br>Agility | **−1**<br>Reason | **−1**<br>Intuition | **0**<br>Presence |
+| **+2**<br>Might | **+1**<br>Agility | **-1**<br>Reason | **-1**<br>Intuition | **0**<br>Presence |
 
 > ⭐️ **Mawful Strike**
 >

@@ -11,6 +11,8 @@ might: 3
 movement: Burrow
 name: Ceaseless Mournling
 organization: Minion
+presence: -2
+reason: -1
 role: Controller
 scc: mcdm.summoner.v1/monster.minion.summoner.undead.statblock/ceaseless-mournling
 size: "2"
@@ -26,7 +28,7 @@ Mournlings are hulking amalgams of mismatched cadavers with tear-stained trenche
 |:-------------------:|:------:|:-----------------:|:-:|:---------------------------:|
 | **2**<br>Size | **4**<br>Speed | **4 \| 4 \| 4**<br>Stamina | **R**<br>Stability | **3**<br>Free Strike |
 | **Corruption R, Poison R**<br>Immunity | **Burrow**<br>Movement | - | **—**<br>Weakness | **Sonic**<br>Free Strike Damage Type |
-| **+3**<br>Might | **+2**<br>Agility | **−1**<br>Reason | **+1**<br>Intuition | **−2**<br>Presence |
+| **+3**<br>Might | **+2**<br>Agility | **-1**<br>Reason | **+1**<br>Intuition | **-2**<br>Presence |
 
 > ⭐️ **Always Crying**
 >

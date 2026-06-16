@@ -6,6 +6,7 @@ immunities:
 intuition: 0
 keywords:
     - Fire Plume
+might: -2
 movement: —
 name: Fire Plume
 organization: Minion
@@ -28,7 +29,7 @@ A fire plume burns so bright that their true shape is hard to discern from the f
 |:----------:|:----------------:|:--------------------------:|:-:|:-----------------------------:|
 | **1T**<br>Size | **5**<br>Speed | **1**<br>Stamina | **0**<br>Stability | **2**<br>Free Strike |
 | **Fire R**<br>Immunity | **—**<br>Movement | - | **—**<br>Weakness | **Fire**<br>Free Strike Damage Type |
-| **−2**<br>Might | **+1**<br>Agility | **0**<br>Reason | **0**<br>Intuition | **+2**<br>Presence |
+| **-2**<br>Might | **+1**<br>Agility | **0**<br>Reason | **0**<br>Intuition | **+2**<br>Presence |
 
 > ⭐️ **Spitfire Strike**
 >

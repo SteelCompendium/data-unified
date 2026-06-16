@@ -7,6 +7,7 @@ immunities:
 intuition: 0
 keywords:
     - Quiet of Snow
+might: -1
 movement: Fly, hover
 name: Quiet of Snow
 organization: Minion
@@ -28,7 +29,7 @@ This elemental is a pure-white vulpine with six legs that freely sprints through
 |:-------------:|:---------------------------:|:----------------:|:-:|:---------------------------:|
 | **1S**<br>Size | **5**<br>Speed | **4 \| 4 \| 4**<br>Stamina | **1**<br>Stability | **4**<br>Free Strike |
 | **Sonic R, Cold R**<br>Immunity | **Fly, hover**<br>Movement | - | **—**<br>Weakness | **Cold**<br>Free Strike Damage Type |
-| **−1**<br>Might | **+2**<br>Agility | **0**<br>Reason | **0**<br>Intuition | **+3**<br>Presence |
+| **-1**<br>Might | **+2**<br>Agility | **0**<br>Reason | **0**<br>Intuition | **+3**<br>Presence |
 
 > 🏹 **Freezing Howl 2d10 + R (Signature Ability)**
 >

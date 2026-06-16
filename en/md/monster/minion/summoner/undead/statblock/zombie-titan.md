@@ -1,4 +1,5 @@
 ---
+agility: -3
 free_strike: 7
 immunities:
     - Corruption R
@@ -28,7 +29,7 @@ Zombie titan is a catchall for undead giants, patchwork ogres and mournlings, or
 |:------------:|:------:|:---------------:|:-:|:------------------------:|
 | **4**<br>Size | **4**<br>Speed | **40**<br>Stamina | **R**<br>Stability | **7**<br>Free Strike |
 | **Corruption R, poison R**<br>Immunity | **—**<br>Movement | - | **—**<br>Weakness | **—**<br>Free Strike Damage Type |
-| **+4**<br>Might | **−3**<br>Agility | **0**<br>Reason | **+2**<br>Intuition | **+3**<br>Presence |
+| **+4**<br>Might | **-3**<br>Agility | **0**<br>Reason | **+2**<br>Intuition | **+3**<br>Presence |
 
 > ⭐️ **Big Stomp**
 >

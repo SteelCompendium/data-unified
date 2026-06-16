@@ -1,4 +1,5 @@
 ---
+agility: -1
 free_strike: 3
 immunities:
     - Corruption R
@@ -10,6 +11,7 @@ might: 2
 movement: —
 name: Accursed Mummy
 organization: Minion
+presence: -1
 reason: 1
 role: Hexer
 scc: mcdm.summoner.v1/monster.minion.summoner.undead.statblock/accursed-mummy
@@ -27,7 +29,7 @@ The preserved dead, bound for eternal rest, know only violence when robbed of th
 |:--------------:|:-------------:|:------------:|:-:|:---------------------------:|
 | **1M**<br>Size | **5**<br>Speed | **4 \| 4 \| 4**<br>Stamina | **2**<br>Stability | **3**<br>Free Strike |
 | **Corruption R, Poison R**<br>Immunity | **—**<br>Movement | - | **Fire 1**<br>Weakness | **Poison**<br>Free Strike Damage Type |
-| **+2**<br>Might | **−1**<br>Agility | **+1**<br>Reason | **+3**<br>Intuition | **−1**<br>Presence |
+| **+2**<br>Might | **-1**<br>Agility | **+1**<br>Reason | **+3**<br>Intuition | **-1**<br>Presence |
 
 > 🏹 **Fetid Bindings 2d10 + R (Signature Ability)**
 >

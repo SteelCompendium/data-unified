@@ -1,4 +1,5 @@
 ---
+agility: -2
 free_strike: 1
 immunities:
     - —
@@ -27,7 +28,7 @@ These massive clods of animated stone roll upon smaller piles of rocks that coul
 |:---------------:|:-----------------:|:-------------------------:|:-:|:-----------------------------:|
 | **2**<br>Size | **4**<br>Speed | **3**<br>Stamina | **R**<br>Stability | **1**<br>Free Strike |
 | **—**<br>Immunity | **Climb**<br>Movement | - | **—**<br>Weakness | **—**<br>Free Strike Damage Type |
-| **+2**<br>Might | **−2**<br>Agility | **0**<br>Reason | **0**<br>Intuition | **+1**<br>Presence |
+| **+2**<br>Might | **-2**<br>Agility | **0**<br>Reason | **0**<br>Intuition | **+1**<br>Presence |
 
 > ⭐️ **Obstruct**
 >

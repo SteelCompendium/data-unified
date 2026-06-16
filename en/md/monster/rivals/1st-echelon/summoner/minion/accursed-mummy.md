@@ -1,4 +1,5 @@
 ---
+agility: -1
 free_strike: 3
 immunities:
     - Corruption 2
@@ -10,6 +11,7 @@ might: 2
 movement: —
 name: Accursed Mummy
 organization: Minion
+presence: -1
 reason: 1
 role: Hexer
 scc: mcdm.summoner.v1/monster.rivals.1st-echelon.summoner.minion/accursed-mummy
@@ -25,7 +27,7 @@ weaknesses:
 |:-:|:-------------:|:------------:|:-:|:--------------------------:|
 | **1M**<br>Size | **5**<br>Speed | **4 \| 4 \| 4**<br>Stamina | **2**<br>Stability | **3**<br>Free Strike |
 | **Corruption 2, poison 2**<br>Immunity | **—**<br>Movement | - | **Fire 1**<br>Weakness | **Poison**<br>Free Strike Damage Type |
-| **+2**<br>Might | **−1**<br>Agility | **+1**<br>Reason | **+3**<br>Intuition | **−1**<br>Presence |
+| **+2**<br>Might | **-1**<br>Agility | **+1**<br>Reason | **+3**<br>Intuition | **-1**<br>Presence |
 
 > 🗡 **Fetid Bindings 2d10 + 3 (Signature Ability)**
 >

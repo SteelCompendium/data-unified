@@ -3,12 +3,15 @@ agility: 0
 free_strike: 2
 immunities:
     - —
+intuition: -1
 keywords:
     - Rasquine
+might: -1
 movement: Teleport
 name: Rasquine
 organization: Minion
 presence: 2
+reason: -1
 role: Ambusher
 scc: mcdm.summoner.v1/monster.minion.summoner.demon.statblock/rasquine
 size: 1S
@@ -26,7 +29,7 @@ The rasquine are skulking demons that shimmer in the light. They teleport into p
 |:--------:|:--------------:|:-------------------------:|:-:|:-----------------------------:|
 | **1S**<br>Size | **4**<br>Speed | **2**<br>Stamina | **0**<br>Stability | **2**<br>Free Strike |
 | **—**<br>Immunity | **Teleport**<br>Movement | - | **Holy 1**<br>Weakness | **—**<br>Free Strike Damage Type |
-| **−1**<br>Might | **0**<br>Agility | **−1**<br>Reason | **−1**<br>Intuition | **+2**<br>Presence |
+| **-1**<br>Might | **0**<br>Agility | **-1**<br>Reason | **-1**<br>Intuition | **+2**<br>Presence |
 
 > ⭐️ **Skulker**
 >

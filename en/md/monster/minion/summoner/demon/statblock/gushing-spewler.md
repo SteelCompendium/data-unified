@@ -6,10 +6,12 @@ immunities:
 intuition: 3
 keywords:
     - Gushing Spewler
+might: -2
 movement: —
 name: Gushing Spewler
 organization: Minion
 presence: 3
+reason: -1
 role: Controller
 scc: mcdm.summoner.v1/monster.minion.summoner.demon.statblock/gushing-spewler
 size: 1M
@@ -26,7 +28,7 @@ A spewler's mouth makes up most of its size. They unleash torrents of acid and b
 |:---------------:|:--------------:|:-----------------:|:-:|:---------------------------:|
 | **1M**<br>Size | **5**<br>Speed | **4 \| 4 \| 4**<br>Stamina | **0**<br>Stability | **3**<br>Free Strike |
 | **—**<br>Immunity | **—**<br>Movement | - | **Holy 1**<br>Weakness | **Acid**<br>Free Strike Damage Type |
-| **−2**<br>Might | **0**<br>Agility | **−1**<br>Reason | **+3**<br>Intuition | **+3**<br>Presence |
+| **-2**<br>Might | **0**<br>Agility | **-1**<br>Reason | **+3**<br>Intuition | **+3**<br>Presence |
 
 > ⭐️ **Gushing Strike**
 >

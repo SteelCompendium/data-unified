@@ -6,6 +6,7 @@ immunities:
 intuition: 3
 keywords:
     - Nixie Hemloche
+might: -2
 movement: Swim
 name: Nixie Hemloche
 organization: Minion
@@ -27,7 +28,7 @@ Hemloches are spotted nixies whose long, wavy hair endlessly bobs and flows into
 |:--------------:|:---:|:------------:|:-:|:---------------------------:|
 | **1T**<br>Size | **6**<br>Speed | **4 \| 4 \| 4**<br>Stamina | **0**<br>Stability | **3**<br>Free Strike |
 | **—**<br>Immunity | **Swim**<br>Movement | - | **—**<br>Weakness | **Lightning**<br>Free Strike Damage Type |
-| **−2**<br>Might | **0**<br>Agility | **+1**<br>Reason | **+3**<br>Intuition | **+2**<br>Presence |
+| **-2**<br>Might | **0**<br>Agility | **+1**<br>Reason | **+3**<br>Intuition | **+2**<br>Presence |
 
 > ⭐️ **Water Weird**
 >

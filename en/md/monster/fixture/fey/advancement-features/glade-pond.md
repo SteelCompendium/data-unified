@@ -8,7 +8,7 @@ features:
       icon: ⭐️
       level: 9
       name: Size Increase
-    - body: Each non-fey enemy that starts their [turn](scc:mcdm.heroes.v1/rule.combat/turn) within 3 squares of the pond has a −1 penalty to [saving throws](scc:mcdm.heroes.v1/rule.general/saving-throw) and resisting [potencies](scc:mcdm.heroes.v1/rule.character/potency) until the start of their next [turn](scc:mcdm.heroes.v1/rule.combat/turn).
+    - body: Each non-fey enemy that starts their [turn](scc:mcdm.heroes.v1/rule.combat/turn) within 3 squares of the pond has a -1 penalty to [saving throws](scc:mcdm.heroes.v1/rule.general/saving-throw) and resisting [potencies](scc:mcdm.heroes.v1/rule.character/potency) until the start of their next [turn](scc:mcdm.heroes.v1/rule.combat/turn).
       icon: ⭐️
       level: 9
       name: Folly Field
@@ -31,4 +31,4 @@ type: featureblock
 >
 > ⭐️ **Folly Field**
 >
-> Each non-fey enemy that starts their [turn](scc:mcdm.heroes.v1/rule.combat/turn) within 3 squares of the pond has a −1 penalty to [saving throws](scc:mcdm.heroes.v1/rule.general/saving-throw) and resisting [potencies](scc:mcdm.heroes.v1/rule.character/potency) until the start of their next [turn](scc:mcdm.heroes.v1/rule.combat/turn).
+> Each non-fey enemy that starts their [turn](scc:mcdm.heroes.v1/rule.combat/turn) within 3 squares of the pond has a -1 penalty to [saving throws](scc:mcdm.heroes.v1/rule.general/saving-throw) and resisting [potencies](scc:mcdm.heroes.v1/rule.character/potency) until the start of their next [turn](scc:mcdm.heroes.v1/rule.combat/turn).

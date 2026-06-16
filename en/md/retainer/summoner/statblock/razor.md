@@ -3,12 +3,15 @@ agility: 2
 free_strike: 1
 immunities:
     - —
+intuition: -1
 keywords:
     - —
 might: 0
 movement: —
 name: Razor
 organization: Minion
+presence: -1
+reason: -1
 role: Harrier
 scc: mcdm.summoner.v1/retainer.summoner.statblock/razor
 size: 1M
@@ -24,7 +27,7 @@ weaknesses:
 |:-:|:--------------:|:------------------------:|:-:|:-:|
 | **1M**<br>Size | **6**<br>Speed | **2**<br>Stamina | **0**<br>Stability | **1**<br>Free Strike |
 | **—**<br>Immunity | **—**<br>Movement | - | **Holy 1**<br>Weakness | **—**<br>Free Strike Damage Type |
-| **0**<br>Might | **+2**<br>Agility | **−1**<br>Reason | **−1**<br>Intuition | **−1**<br>Presence |
+| **0**<br>Might | **+2**<br>Agility | **-1**<br>Reason | **-1**<br>Intuition | **-1**<br>Presence |
 
 > ⭐️ **Teeth!**
 >

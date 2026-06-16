@@ -7,9 +7,11 @@ immunities:
 intuition: 0
 keywords:
     - —
+might: -2
 movement: Climb
 name: Skeleton
 organization: Minion
+presence: -2
 reason: 0
 role: Harrier
 scc: mcdm.summoner.v1/monster.rivals.1st-echelon.summoner.minion/skeleton
@@ -26,7 +28,7 @@ weaknesses:
 |:-:|:------:|:------------------------:|:-:|:----------------------------:|
 | **1M**<br>Size | **6**<br>Speed | **2**<br>Stamina | **0**<br>Stability | **1**<br>Free Strike |
 | **Corruption 2, poison 2**<br>Immunity | **Climb**<br>Movement | - | **—**<br>Weakness | **—**<br>Free Strike Damage Type |
-| **−2**<br>Might | **+2**<br>Agility | **0**<br>Reason | **0**<br>Intuition | **−2**<br>Presence |
+| **-2**<br>Might | **+2**<br>Agility | **0**<br>Reason | **0**<br>Intuition | **-2**<br>Presence |
 
 > ⭐️ **Bonetrops**
 >

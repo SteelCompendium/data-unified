@@ -5,12 +5,15 @@ immunities:
     - Damage 2
     - Corruption R
     - Poison R
+intuition: -1
 keywords:
     - Husk
 might: 2
 movement: —
 name: Husk
 organization: Minion
+presence: -1
+reason: -1
 role: Defender
 scc: mcdm.summoner.v1/monster.minion.summoner.undead.statblock/husk
 size: 1M
@@ -28,7 +31,7 @@ Husks have stiff corpses that snap and crackle with each sudden movement. Corros
 |:----:|:------:|:-------------------------:|:-:|:-----------------------------:|
 | **1M**<br>Size | **5**<br>Speed | **3**<br>Stamina | **1**<br>Stability | **1**<br>Free Strike |
 | **Damage 2, Corruption R, Poison R**<br>Immunity | **—**<br>Movement | - | **—**<br>Weakness | **Corruption**<br>Free Strike Damage Type |
-| **+2**<br>Might | **0**<br>Agility | **−1**<br>Reason | **−1**<br>Intuition | **−1**<br>Presence |
+| **+2**<br>Might | **0**<br>Agility | **-1**<br>Reason | **-1**<br>Intuition | **-1**<br>Presence |
 
 > ⭐️ **Rotting Strike**
 >

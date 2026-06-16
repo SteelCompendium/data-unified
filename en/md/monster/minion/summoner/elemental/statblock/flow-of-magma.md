@@ -1,4 +1,5 @@
 ---
+agility: -2
 free_strike: 4
 immunities:
     - Fire R
@@ -27,7 +28,7 @@ This elemental is a long, serpentine creature of heated rock. Flows of magma dro
 |:-------------:|:-----------------------:|:--------------:|:-:|:-------------------------:|
 | **1L**<br>Size | **5**<br>Speed | **6 \| 6**<br>Stamina | **2**<br>Stability | **4**<br>Free Strike |
 | **Fire R**<br>Immunity | **Climb**<br>Movement | - | **—**<br>Weakness | **Fire**<br>Free Strike Damage Type |
-| **+2**<br>Might | **−2**<br>Agility | **0**<br>Reason | **0**<br>Intuition | **+1**<br>Presence |
+| **+2**<br>Might | **-2**<br>Agility | **0**<br>Reason | **0**<br>Intuition | **+1**<br>Presence |
 
 > 🏹 **Molten Strike 2d10 + R (Signature Ability)**
 >

@@ -6,6 +6,7 @@ immunities:
 intuition: 0
 keywords:
     - Pixie Loftlilly
+might: -2
 movement: Fly, hover
 name: Pixie Loftlilly
 organization: Minion
@@ -27,7 +28,7 @@ Loftlillies lazily drift through the air in flower cups. They sip on toxic necta
 |:---------------:|:---:|:-----------------:|:-:|:-------------------------:|
 | **1T**<br>Size | **5**<br>Speed | **5 \| 5**<br>Stamina | **0**<br>Stability | **4**<br>Free Strike |
 | **Poison R**<br>Immunity | **Fly, hover**<br>Movement | - | **—**<br>Weakness | **Poison**<br>Free Strike Damage Type |
-| **−2**<br>Might | **+1**<br>Agility | **0**<br>Reason | **0**<br>Intuition | **+2**<br>Presence |
+| **-2**<br>Might | **+1**<br>Agility | **0**<br>Reason | **0**<br>Intuition | **+2**<br>Presence |
 
 > ⭐️ **Floating Toxins**
 >

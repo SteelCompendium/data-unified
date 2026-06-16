@@ -1,4 +1,5 @@
 ---
+agility: -1
 free_strike: 7
 immunities:
     - Corruption 5
@@ -27,7 +28,7 @@ weaknesses:
 |:-:|:------:|:---------------:|:-:|:-----------------------:|
 | **4**<br>Size | **4**<br>Speed | **50**<br>Stamina | **5**<br>Stability | **7**<br>Free Strike |
 | **Corruption 5, poison 5**<br>Immunity | **—**<br>Movement | - | **—**<br>Weakness | **—**<br>Free Strike Damage Type |
-| **+5**<br>Might | **−1**<br>Agility | **+2**<br>Reason | **+4**<br>Intuition | **+5**<br>Presence |
+| **+5**<br>Might | **-1**<br>Agility | **+2**<br>Reason | **+4**<br>Intuition | **+5**<br>Presence |
 
 > ⭐️ **Big Stomp**
 >

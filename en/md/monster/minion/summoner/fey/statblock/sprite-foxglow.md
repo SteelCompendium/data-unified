@@ -6,6 +6,7 @@ immunities:
 intuition: 1
 keywords:
     - Sprite Foxglow
+might: -1
 movement: Fly
 name: Sprite Foxglow
 organization: Minion
@@ -27,7 +28,7 @@ Foxglows are masked sprites that leave behind an evanescent trail of tiny glowin
 |:--------------:|:---:|:---------------:|:-:|:---------------------------:|
 | **1T**<br>Size | **8**<br>Speed | **5 \| 5 \| 5**<br>Stamina | **0**<br>Stability | **4**<br>Free Strike |
 | **Fire R**<br>Immunity | **Fly**<br>Movement | - | **—**<br>Weakness | **Fire**<br>Free Strike Damage Type |
-| **−1**<br>Might | **+3**<br>Agility | **0**<br>Reason | **+1**<br>Intuition | **+2**<br>Presence |
+| **-1**<br>Might | **+3**<br>Agility | **0**<br>Reason | **+1**<br>Intuition | **+2**<br>Presence |
 
 > ⭐️ **Flash Strike**
 >
