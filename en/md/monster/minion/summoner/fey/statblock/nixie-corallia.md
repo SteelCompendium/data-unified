@@ -1,11 +1,12 @@
 ---
 agility: 3
+cost: 7 essence for two minions
 free_strike: 7
 immunities:
     - Lightning R
 intuition: 4
 keywords:
-    - Nixie Corallia
+    - Fey
 might: -2
 movement: Swim
 name: Nixie Corallia
@@ -25,7 +26,7 @@ weaknesses:
 
 Corallias are saltwater nixies with coarse, coral-like skin and curly hair with hooked ends. Their salty tears are used to hallow places of worship and ward off demons.
 
-| Nixie Corallia | Fey | Minion Support | - | 7 essence for two minions |
+| Fey | - | - | Minion Support | 7 essence for two minions |
 |:--------------:|:---:|:--------------:|:-:|:-------------------------:|
 | **1T**<br>Size | **6**<br>Speed | **17 \| 17**<br>Stamina | **0**<br>Stability | **7**<br>Free Strike |
 | **Lightning R**<br>Immunity | **Swim**<br>Movement | - | **—**<br>Weakness | **Lightning**<br>Free Strike Damage Type |

@@ -5,7 +5,8 @@ immunities:
     - —
 intuition: -1
 keywords:
-    - —
+    - Abyssal
+    - Demon
 might: 2
 movement: Climb
 name: Violent
@@ -23,7 +24,7 @@ weaknesses:
     - Holy 1
 ---
 
-| — | Abyssal, Demon | Minion Ambusher | - | - |
+| Abyssal, Demon | - | - | Minion Ambusher | - |
 |:-:|:--------------:|:---------------:|:-:|:-:|
 | **1M**<br>Size | **7**<br>Speed | **7 \| 7 \| 7**<br>Stamina | **1**<br>Stability | **4**<br>Free Strike |
 | **—**<br>Immunity | **Climb**<br>Movement | - | **Holy 1**<br>Weakness | **Corruption**<br>Free Strike Damage Type |

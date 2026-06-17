@@ -1,14 +1,17 @@
 ---
 agility: 2
+cost: 9 essence for one champion
 free_strike: 9
 immunities:
     - Affinity 5
 intuition: 5
 keywords:
-    - —
+    - Dragon
+    - Elemental
 might: 2
 movement: Fly
 name: Dragon's Portent
+organization: Champion
 presence: 2
 reason: 5
 scc: mcdm.summoner.v1/monster.champion.summoner.elemental.statblock/dragons-portent
@@ -21,7 +24,7 @@ weaknesses:
     - —
 ---
 
-| — | Dragon, Elemental | Champion | - | 9 essence for one champion |
+| Dragon, Elemental | - | - | Champion | 9 essence for one champion |
 |:-:|:-----------------:|:--------:|:-:|:--------------------------:|
 | **2**<br>Size | **6**<br>Speed | **SPECIAL**<br>Stamina | **4**<br>Stability | **9**<br>Free Strike |
 | **Affinity 5**<br>Immunity | **Fly**<br>Movement | - | **—**<br>Weakness | **Affinity**<br>Free Strike Damage Type |

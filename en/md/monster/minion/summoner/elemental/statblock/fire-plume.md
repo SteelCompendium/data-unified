@@ -1,11 +1,12 @@
 ---
 agility: 1
+cost: 1 essence per minion summoned
 free_strike: 2
 immunities:
     - Fire R
 intuition: 0
 keywords:
-    - Fire Plume
+    - Elemental (Fire)
 might: -2
 movement: —
 name: Fire Plume
@@ -25,7 +26,7 @@ weaknesses:
 
 A fire plume burns so bright that their true shape is hard to discern from the flames. They sputter and spit motes of fire in high arcs.
 
-| Fire Plume | Elemental (Fire) | Signature Minion Artillery | - | 1 essence per minion summoned |
+| Elemental (Fire) | - | - | Signature Minion Artillery | 1 essence per minion summoned |
 |:----------:|:----------------:|:--------------------------:|:-:|:-----------------------------:|
 | **1T**<br>Size | **5**<br>Speed | **1**<br>Stamina | **0**<br>Stability | **2**<br>Free Strike |
 | **Fire R**<br>Immunity | **—**<br>Movement | - | **—**<br>Weakness | **Fire**<br>Free Strike Damage Type |

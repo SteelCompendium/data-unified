@@ -1,11 +1,12 @@
 ---
 agility: 3
+cost: 7 essence for two minions
 free_strike: 8
 immunities:
     - —
 intuition: 1
 keywords:
-    - Sprite Olyender
+    - Fey
 might: 4
 movement: Fly
 name: Sprite Olyender
@@ -24,7 +25,7 @@ weaknesses:
 
 These brawny sprites wear heavy beetle armor and have a halo hovering away from their backs where their wings used to be. The faster the halo spins, the more power the olyender generates, enabling them to stand toe to toe with giants.
 
-| Sprite Olyender | Fey | Minion Brute | - | 7 essence for two minions |
+| Fey | - | - | Minion Brute | 7 essence for two minions |
 |:---------------:|:---:|:------------:|:-:|:-------------------------:|
 | **1T**<br>Size | **6**<br>Speed | **17 \| 17**<br>Stamina | **R**<br>Stability | **8**<br>Free Strike |
 | **—**<br>Immunity | **Fly**<br>Movement | - | **—**<br>Weakness | **—**<br>Free Strike Damage Type |

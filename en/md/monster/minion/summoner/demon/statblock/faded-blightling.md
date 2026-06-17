@@ -1,11 +1,13 @@
 ---
 agility: 0
+cost: 7 essence for two minions
 free_strike: 7
 immunities:
     - —
 intuition: 4
 keywords:
-    - Faded Blightling
+    - Abyssal
+    - Demon
 might: 0
 movement: Fly
 name: Faded Blightling
@@ -25,7 +27,7 @@ weaknesses:
 
 This cherubin creature is bloated and warped by demonic energy. The lights from their myriad eyes have all but gone out, now resembling pustules across their body.
 
-| Faded Blightling | Abyssal, Demon | Minion Support | - | 7 essence for two minions |
+| Abyssal, Demon | - | - | Minion Support | 7 essence for two minions |
 |:----------------:|:--------------:|:--------------:|:-:|:-------------------------:|
 | **1L**<br>Size | **5**<br>Speed | **17 \| 17**<br>Stamina | **0**<br>Stability | **7**<br>Free Strike |
 | **—**<br>Immunity | **Fly**<br>Movement | - | **Holy 1**<br>Weakness | **Corruption**<br>Free Strike Damage Type |

@@ -1,11 +1,13 @@
 ---
 agility: 4
+cost: 7 essence for two minions
 free_strike: 7
 immunities:
     - —
 intuition: 0
 keywords:
-    - Vicisittante
+    - Abyssal
+    - Demon
 might: 3
 movement: —
 name: Vicisittante
@@ -25,7 +27,7 @@ weaknesses:
 
 It's difficult to identify the base nature of a vicisittante apart from an ever-changing mass of burning flesh. Any surface they touch immediately scars as the demon leaves parts of themselves behind.
 
-| Vicisittante | Abyssal, Demon | Minion Harrier | - | 7 essence for two minions |
+| Abyssal, Demon | - | - | Minion Harrier | 7 essence for two minions |
 |:------------:|:--------------:|:--------------:|:-:|:-------------------------:|
 | **2**<br>Size | **10**<br>Speed | **17 \| 17**<br>Stamina | **0**<br>Stability | **7**<br>Free Strike |
 | **—**<br>Immunity | **—**<br>Movement | - | **Holy 1**<br>Weakness | **Psychic**<br>Free Strike Damage Type |

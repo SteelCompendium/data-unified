@@ -1,11 +1,12 @@
 ---
 agility: -2
+cost: 1 essence per minion summoned
 free_strike: 1
 immunities:
     - —
 intuition: 0
 keywords:
-    - Walking Boulder
+    - Elemental (Earth)
 might: 2
 movement: Climb
 name: Walking Boulder
@@ -24,7 +25,7 @@ weaknesses:
 
 These massive clods of animated stone roll upon smaller piles of rocks that could be perceived as limbs. Walking boulders are useful for taking up space and forming barricades.
 
-| Walking Boulder | Elemental (Earth) | Signature Minion Defender | - | 1 essence per minion summoned |
+| Elemental (Earth) | - | - | Signature Minion Defender | 1 essence per minion summoned |
 |:---------------:|:-----------------:|:-------------------------:|:-:|:-----------------------------:|
 | **2**<br>Size | **4**<br>Speed | **3**<br>Stamina | **R**<br>Stability | **1**<br>Free Strike |
 | **—**<br>Immunity | **Climb**<br>Movement | - | **—**<br>Weakness | **—**<br>Free Strike Damage Type |

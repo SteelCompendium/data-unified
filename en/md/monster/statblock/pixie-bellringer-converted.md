@@ -6,7 +6,7 @@ immunities:
     - —
 intuition: 0
 keywords:
-    - —
+    - Fey
 level: 3
 might: -3
 movement: Fly, hover
@@ -25,7 +25,7 @@ weaknesses:
     - —
 ---
 
-| — | Fey | Level 3 Minion Support | - | EV 5 for Four minions |
+| Fey | - | Level 3 | Minion Support | EV 5 for Four minions |
 |:-:|:---:|:----------------------:|:-:|:---------------------:|
 | **1T**<br>Size | **5**<br>Speed | **7**<br>Stamina | **0**<br>Stability | **2**<br>Free Strike |
 | **—**<br>Immunity | **Fly, hover**<br>Movement | - | **—**<br>Weakness | - |

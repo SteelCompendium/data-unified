@@ -1,12 +1,13 @@
 ---
 agility: -3
+cost: 7 essence for one minion
 free_strike: 7
 immunities:
     - Corruption R
     - poison R
 intuition: 2
 keywords:
-    - Zombie Titan
+    - Undead
 might: 4
 movement: —
 name: Zombie Titan
@@ -25,7 +26,7 @@ weaknesses:
 
 Zombie titan is a catchall for undead giants, patchwork ogres and mournlings, or amalgamations of a graveyard's entire population. The titan lumbers and slumps across battlefields, wanting desperately to collapse and crash into the earth like a sea of flesh and bone.
 
-| Zombie Titan | Undead | Minion Defender | - | 7 essence for one minion |
+| Undead | - | - | Minion Defender | 7 essence for one minion |
 |:------------:|:------:|:---------------:|:-:|:------------------------:|
 | **4**<br>Size | **4**<br>Speed | **40**<br>Stamina | **R**<br>Stability | **7**<br>Free Strike |
 | **Corruption R, poison R**<br>Immunity | **—**<br>Movement | - | **—**<br>Weakness | **—**<br>Free Strike Damage Type |

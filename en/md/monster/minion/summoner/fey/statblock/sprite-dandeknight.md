@@ -1,11 +1,12 @@
 ---
 agility: 0
+cost: 1 essence per minion summoned
 free_strike: 1
 immunities:
     - —
 intuition: -1
 keywords:
-    - Sprite Dandeknight
+    - Fey
 might: 2
 movement: Fly
 name: Sprite Dandeknight
@@ -25,7 +26,7 @@ weaknesses:
 
 Dandeknights are sprite warriors whose dragonfly wingbeats emit a tonal drone. They're usually clad in tassels that shift color as they swing their weapons.
 
-| Sprite Dandeknight | Fey | Signature Minion Harrier | - | 1 essence per minion summoned |
+| Fey | - | - | Signature Minion Harrier | 1 essence per minion summoned |
 |:-----------------:|:---:|:------------------------:|:-:|:-----------------------------:|
 | **1T**<br>Size | **6**<br>Speed | **2**<br>Stamina | **0**<br>Stability | **1**<br>Free Strike |
 | **—**<br>Immunity | **Fly**<br>Movement | - | **—**<br>Weakness | **—**<br>Free Strike Damage Type |

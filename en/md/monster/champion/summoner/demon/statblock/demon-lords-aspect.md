@@ -1,14 +1,17 @@
 ---
 agility: 5
+cost: 9 essence for one champion
 free_strike: 9
 immunities:
     - Corruption 5
 intuition: 2
 keywords:
-    - —
+    - Abyssal
+    - Demon
 might: 2
 movement: Teleport
 name: Demon Lord's Aspect
+organization: Champion
 presence: 2
 reason: 5
 scc: mcdm.summoner.v1/monster.champion.summoner.demon.statblock/demon-lords-aspect
@@ -21,7 +24,7 @@ weaknesses:
     - —
 ---
 
-| — | Abyssal, Demon | Champion | - | 9 essence for one champion |
+| Abyssal, Demon | - | - | Champion | 9 essence for one champion |
 |:-:|:--------------:|:--------:|:-:|:--------------------------:|
 | **2**<br>Size | **5**<br>Speed | **SPECIAL**<br>Stamina | **2**<br>Stability | **9**<br>Free Strike |
 | **Corruption 5**<br>Immunity | **Teleport**<br>Movement | - | **—**<br>Weakness | **Corruption**<br>Free Strike Damage Type |

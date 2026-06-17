@@ -1,11 +1,12 @@
 ---
 agility: 0
+cost: 1 essence per minion summoned
 free_strike: 1
 immunities:
     - —
 intuition: 0
 keywords:
-    - Elemental Mote
+    - Elemental
 might: 0
 movement: Fly
 name: Elemental Mote
@@ -25,7 +26,7 @@ weaknesses:
 
 This near-pure form of autonomous essence just barely maintains their form. They can shift their nature to match their surroundings.
 
-| Elemental Mote | Elemental | Signature Minion Hexer | - | 1 essence per minion summoned |
+| Elemental | - | - | Signature Minion Hexer | 1 essence per minion summoned |
 |:--------------:|:---------:|:----------------------:|:-:|:-----------------------------:|
 | **1T**<br>Size | **5**<br>Speed | **1**<br>Stamina | **0**<br>Stability | **1**<br>Free Strike |
 | **—**<br>Immunity | **Fly**<br>Movement | - | **—**<br>Weakness | **—**<br>Free Strike Damage Type |

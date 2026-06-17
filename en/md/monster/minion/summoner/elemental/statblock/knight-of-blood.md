@@ -1,11 +1,15 @@
 ---
 agility: 2
+cost: 7 essence for two minions
 free_strike: 7
 immunities:
     - Corruption R
 intuition: 0
 keywords:
-    - Knight of Blood
+    - Elemental (Earth
+    - Fire
+    - Rot
+    - Water)
 might: 4
 movement: —
 name: Knight of Blood
@@ -24,7 +28,7 @@ weaknesses:
 
 These faceless suits of armor have visible rivers of deep red blood flowing throughout their being. Their blood has a powerful pull to it, causing any open wounds nearby to rip deeper and leak toward the knight.
 
-| Knight of Blood | Elemental (Earth, Fire, Rot, Water) | Minion Controller | - | 7 essence for two minions |
+| Elemental (Earth, Fire, Rot, Water) | - | - | Minion Controller | 7 essence for two minions |
 |:---------------:|:-----------------------------------:|:-----------------:|:-:|:-------------------------:|
 | **1L**<br>Size | **6**<br>Speed | **16 \| 16**<br>Stamina | **R**<br>Stability | **7**<br>Free Strike |
 | **Corruption R**<br>Immunity | **—**<br>Movement | - | **—**<br>Weakness | **Corruption**<br>Free Strike Damage Type |

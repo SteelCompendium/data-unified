@@ -1,12 +1,14 @@
 ---
 agility: -2
+cost: 3 essence for two minions
 free_strike: 5
 immunities:
     - Fire R
     - Sonic R
 intuition: 0
 keywords:
-    - Crux of Ash
+    - Elemental (Fire
+    - Air)
 might: -2
 movement: Fly
 name: Crux of Ash
@@ -26,7 +28,7 @@ weaknesses:
 
 The crux is a curtain of billowing hot ash with an avian head. They cover their victims in a burning cloak of charcoal and soot.
 
-| Crux of Ash | Elemental (Fire, Air) | Minion Ambusher | - | 3 essence for two minions |
+| Elemental (Fire, Air) | - | - | Minion Ambusher | 3 essence for two minions |
 |:-----------:|:---------------------:|:---------------:|:-:|:-------------------------:|
 | **1M**<br>Size | **5**<br>Speed | **6 \| 6**<br>Stamina | **0**<br>Stability | **5**<br>Free Strike |
 | **Fire R, Sonic R**<br>Immunity | **Fly**<br>Movement | - | **—**<br>Weakness | **—**<br>Free Strike Damage Type |

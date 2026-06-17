@@ -1,11 +1,13 @@
 ---
 agility: 0
+cost: 1 essence per minion summoned
 free_strike: 2
 immunities:
     - —
 intuition: -1
 keywords:
-    - Rasquine
+    - Abyssal
+    - Demon
 might: -1
 movement: Teleport
 name: Rasquine
@@ -25,7 +27,7 @@ weaknesses:
 
 The rasquine are skulking demons that shimmer in the light. They teleport into position before biting the necks of their prey.
 
-| Rasquine | Abyssal, Demon | Signature Minion Ambusher | - | 1 essence per minion summoned |
+| Abyssal, Demon | - | - | Signature Minion Ambusher | 1 essence per minion summoned |
 |:--------:|:--------------:|:-------------------------:|:-:|:-----------------------------:|
 | **1S**<br>Size | **4**<br>Speed | **2**<br>Stamina | **0**<br>Stability | **2**<br>Free Strike |
 | **—**<br>Immunity | **Teleport**<br>Movement | - | **Holy 1**<br>Weakness | **—**<br>Free Strike Damage Type |

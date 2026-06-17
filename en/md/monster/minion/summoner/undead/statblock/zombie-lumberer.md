@@ -1,12 +1,13 @@
 ---
 agility: -2
+cost: 3 essence for two minions
 free_strike: 1
 immunities:
     - Corruption R
     - Poison R
 intuition: 0
 keywords:
-    - Zombie Lumberer
+    - Undead
 might: 2
 movement: —
 name: Zombie Lumberer
@@ -25,7 +26,7 @@ weaknesses:
 
 These massive, animated ogre corpses still maintain their incredible grip strength. When a lumberer falls, they'll take anything within reach down with them.
 
-| Zombie Lumberer | Undead | Minion Defender | - | 3 essence for two minions |
+| Undead | - | - | Minion Defender | 3 essence for two minions |
 |:---------------:|:------:|:---------------:|:-:|:-------------------------:|
 | **2**<br>Size | **5**<br>Speed | **8 \| 8**<br>Stamina | **R**<br>Stability | **1**<br>Free Strike |
 | **Corruption R, Poison R**<br>Immunity | **—**<br>Movement | - | **—**<br>Weakness | **—**<br>Free Strike Damage Type |

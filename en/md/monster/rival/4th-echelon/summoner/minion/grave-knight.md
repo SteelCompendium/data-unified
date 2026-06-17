@@ -1,12 +1,13 @@
 ---
 agility: 4
+cost: 2 Malice for two minions
 free_strike: 5
 immunities:
     - Corruption 5
     - poison 5
 intuition: 3
 keywords:
-    - —
+    - Undead
 might: 5
 movement: —
 name: Grave Knight
@@ -24,7 +25,7 @@ weaknesses:
     - —
 ---
 
-| — | Undead | Minion Brute | - | 2 Malice for two minions |
+| Undead | - | - | Minion Brute | 2 Malice for two minions |
 |:-:|:------:|:------------:|:-:|:------------------------:|
 | **1M**<br>Size | **6**<br>Speed | **15 \| 15**<br>Stamina | **1**<br>Stability | **5**<br>Free Strike |
 | **Corruption 5, poison 5**<br>Immunity | **—**<br>Movement | - | **—**<br>Weakness | **—**<br>Free Strike Damage Type |

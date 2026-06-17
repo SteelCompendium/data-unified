@@ -5,7 +5,8 @@ immunities:
     - —
 intuition: -1
 keywords:
-    - —
+    - Abyssal
+    - Demon
 might: 4
 movement: —
 name: Gorrre
@@ -23,7 +24,7 @@ weaknesses:
     - Holy 1
 ---
 
-| — | Abyssal, Demon | Minion Brute | - | - |
+| Abyssal, Demon | - | - | Minion Brute | - |
 |:-:|:--------------:|:------------:|:-:|:-:|
 | **2**<br>Size | **5**<br>Speed | **27 \| 27**<br>Stamina | **2**<br>Stability | **8**<br>Free Strike |
 | **—**<br>Immunity | **—**<br>Movement | - | **Holy 1**<br>Weakness | **—**<br>Free Strike Damage Type |

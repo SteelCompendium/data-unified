@@ -1,12 +1,13 @@
 ---
 agility: -1
+cost: 6 Malice for one minion
 free_strike: 7
 immunities:
     - Corruption 5
     - poison 5
 intuition: 4
 keywords:
-    - —
+    - Undead
 might: 5
 movement: —
 name: Zombie Titan
@@ -24,7 +25,7 @@ weaknesses:
     - —
 ---
 
-| — | Undead | Minion Defender | - | 6 Malice for one minion |
+| Undead | - | - | Minion Defender | 6 Malice for one minion |
 |:-:|:------:|:---------------:|:-:|:-----------------------:|
 | **4**<br>Size | **4**<br>Speed | **50**<br>Stamina | **5**<br>Stability | **7**<br>Free Strike |
 | **Corruption 5, poison 5**<br>Immunity | **—**<br>Movement | - | **—**<br>Weakness | **—**<br>Free Strike Damage Type |

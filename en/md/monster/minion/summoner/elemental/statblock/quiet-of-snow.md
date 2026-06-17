@@ -1,12 +1,15 @@
 ---
 agility: 2
+cost: 5 essence for three minions
 free_strike: 4
 immunities:
     - Sonic R
     - Cold R
 intuition: 0
 keywords:
-    - Quiet of Snow
+    - Elemental (Air
+    - Rot
+    - Water)
 might: -1
 movement: Fly, hover
 name: Quiet of Snow
@@ -26,7 +29,7 @@ weaknesses:
 
 This elemental is a pure-white vulpine with six legs that freely sprints through the air. Their howls are telepathic, washing over the receivers with a strong chill and a wave of goosebumps.
 
-| Quiet of Snow | Elemental (Air, Rot, Water) | Minion Artillery | - | 5 essence for three minions |
+| Elemental (Air, Rot, Water) | - | - | Minion Artillery | 5 essence for three minions |
 |:-------------:|:---------------------------:|:----------------:|:-:|:---------------------------:|
 | **1S**<br>Size | **5**<br>Speed | **4 \| 4 \| 4**<br>Stamina | **1**<br>Stability | **4**<br>Free Strike |
 | **Sonic R, Cold R**<br>Immunity | **Fly, hover**<br>Movement | - | **—**<br>Weakness | **Cold**<br>Free Strike Damage Type |

@@ -6,7 +6,8 @@ immunities:
     - —
 intuition: 3
 keywords:
-    - —
+    - Humanoid
+    - Rival
 level: 8
 might: 0
 movement: —
@@ -25,7 +26,7 @@ weaknesses:
     - —
 ---
 
-| — | Humanoid, Rival | Level 8 Elite Controller | - | EV 40 |
+| Humanoid, Rival | - | Level 8 | Elite Controller | EV 40 |
 |:-:|:---------------:|:------------------------:|:-:|:-----:|
 | **1M**<br>Size | **5**<br>Speed | **180**<br>Stamina | **0**<br>Stability | **8**<br>Free Strike |
 | **—**<br>Immunity | **—**<br>Movement | - | **—**<br>Weakness | **—**<br>Free Strike Damage Type |

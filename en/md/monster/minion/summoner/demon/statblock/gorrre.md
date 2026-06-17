@@ -1,11 +1,13 @@
 ---
 agility: 3
+cost: 7 essence for two minions
 free_strike: 8
 immunities:
     - —
 intuition: -1
 keywords:
-    - Gorrre
+    - Abyssal
+    - Demon
 might: 4
 movement: —
 name: Gorrre
@@ -25,7 +27,7 @@ weaknesses:
 
 The gorrre demons evoke features of rhino and orangutan while clad in heavy armor. They've been utilized as jail guards by devils, as few prisoners can ever hope to outrun a monster with unlimited endurance.
 
-| Gorrre | Abyssal, Demon | Minion Brute | - | 7 essence for two minions |
+| Abyssal, Demon | - | - | Minion Brute | 7 essence for two minions |
 |:------:|:--------------:|:------------:|:-:|:-------------------------:|
 | **2**<br>Size | **5**<br>Speed | **17 \| 17**<br>Stamina | **2**<br>Stability | **8**<br>Free Strike |
 | **—**<br>Immunity | **—**<br>Movement | - | **Holy 1**<br>Weakness | **—**<br>Free Strike Damage Type |

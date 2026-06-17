@@ -1,11 +1,13 @@
 ---
 agility: 2
+cost: 5 essence for three minions
 free_strike: 3
 immunities:
     - —
 intuition: 0
 keywords:
-    - Pixie Rosenthall
+    - Fey
+    - Swarm
 might: 0
 movement: Fly, hover
 name: Pixie Rosenthall
@@ -25,7 +27,7 @@ weaknesses:
 
 The collective of blood-eyed pixie warriors that make up a rosenthall are also known as rosies. It's said that some rosenthall armies contain thousands of pixies and can span half the length of a wode.
 
-| Pixie Rosenthall | Fey, Swarm | Minion Harrier | - | 5 essence for three minions |
+| Fey, Swarm | - | - | Minion Harrier | 5 essence for three minions |
 |:----------------:|:----------:|:--------------:|:-:|:---------------------------:|
 | **2**<br>Size | **6**<br>Speed | **5 \| 5 \| 5**<br>Stamina | **1**<br>Stability | **3**<br>Free Strike |
 | **—**<br>Immunity | **Fly, hover**<br>Movement | - | **—**<br>Weakness | **—**<br>Free Strike Damage Type |

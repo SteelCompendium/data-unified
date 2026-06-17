@@ -1,12 +1,13 @@
 ---
 agility: 5
+cost: 4 Malice for three minions
 free_strike: 3
 immunities:
     - Corruption 5
     - poison 5
 intuition: 4
 keywords:
-    - —
+    - Undead
 might: 5
 movement: Burrow
 name: Ceaseless Mournling
@@ -24,7 +25,7 @@ weaknesses:
     - —
 ---
 
-| — | Undead | Minion Controller | - | 4 Malice for three minions |
+| Undead | - | - | Minion Controller | 4 Malice for three minions |
 |:-:|:------:|:-----------------:|:-:|:--------------------------:|
 | **2**<br>Size | **5**<br>Speed | **10 \| 10 \| 10**<br>Stamina | **5**<br>Stability | **3**<br>Free Strike |
 | **Corruption 5, poison 5**<br>Immunity | **Burrow**<br>Movement | - | **—**<br>Weakness | **Sonic**<br>Free Strike Damage Type |

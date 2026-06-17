@@ -1,12 +1,13 @@
 ---
 agility: 3
+cost: 1 Malice per minion summoned
 free_strike: 1
 immunities:
     - Corruption 3
     - poison 3
 intuition: 1
 keywords:
-    - —
+    - Undead
 might: -1
 movement: Climb
 name: Skeleton
@@ -24,7 +25,7 @@ weaknesses:
     - —
 ---
 
-| — | Undead | Signature Minion Harrier | - | 1 Malice per minion summoned |
+| Undead | - | - | Signature Minion Harrier | 1 Malice per minion summoned |
 |:-:|:------:|:------------------------:|:-:|:----------------------------:|
 | **1M**<br>Size | **6**<br>Speed | **3**<br>Stamina | **0**<br>Stability | **1**<br>Free Strike |
 | **Corruption 3, poison 3**<br>Immunity | **Climb**<br>Movement | - | **—**<br>Weakness | **—**<br>Free Strike Damage Type |

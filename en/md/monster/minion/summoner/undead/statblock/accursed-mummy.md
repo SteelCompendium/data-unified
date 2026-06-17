@@ -1,12 +1,14 @@
 ---
 agility: -1
+cost: 5 essence for three minions
 free_strike: 3
 immunities:
     - Corruption R
     - Poison R
 intuition: 3
 keywords:
-    - Accursed Mummy
+    - Mummy
+    - Undead
 might: 2
 movement: —
 name: Accursed Mummy
@@ -26,7 +28,7 @@ weaknesses:
 
 The preserved dead, bound for eternal rest, know only violence when robbed of their future. Accursed mummies use their wrappings to bind others to the same fate.
 
-| Accursed Mummy | Mummy, Undead | Minion Hexer | - | 5 essence for three minions |
+| Mummy, Undead | - | - | Minion Hexer | 5 essence for three minions |
 |:--------------:|:-------------:|:------------:|:-:|:---------------------------:|
 | **1M**<br>Size | **5**<br>Speed | **4 \| 4 \| 4**<br>Stamina | **2**<br>Stability | **3**<br>Free Strike |
 | **Corruption R, Poison R**<br>Immunity | **—**<br>Movement | - | **Fire 1**<br>Weakness | **Poison**<br>Free Strike Damage Type |

@@ -1,11 +1,13 @@
 ---
 agility: 1
+cost: 3 essence for two minions
 free_strike: 4
 immunities:
     - —
 intuition: -1
 keywords:
-    - Twisted Bengrul
+    - Abyssal
+    - Demon
 might: 2
 movement: —
 name: Twisted Bengrul
@@ -25,7 +27,7 @@ weaknesses:
 
 The bengrul is an undulating heap of glass and flesh. They shatter pieces of themselves to disrupt senses and inflict grisly wounds on their prey.
 
-| Twisted Bengrul | Abyssal, Demon | Minion Hexer | - | 3 essence for two minions |
+| Abyssal, Demon | - | - | Minion Hexer | 3 essence for two minions |
 |:---------------:|:--------------:|:------------:|:-:|:-------------------------:|
 | **1L**<br>Size | **5**<br>Speed | **5 \| 5**<br>Stamina | **1**<br>Stability | **4**<br>Free Strike |
 | **—**<br>Immunity | **—**<br>Movement | - | **Holy 1**<br>Weakness | **Psychic**<br>Free Strike Damage Type |

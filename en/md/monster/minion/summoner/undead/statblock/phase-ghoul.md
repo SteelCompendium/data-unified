@@ -1,12 +1,13 @@
 ---
 agility: 3
+cost: 5 essence for three minions
 free_strike: 3
 immunities:
     - Corruption R
     - Poison R
 intuition: 0
 keywords:
-    - Phase Ghoul
+    - Undead
 might: 2
 movement: Teleport
 name: Phase Ghoul
@@ -26,7 +27,7 @@ weaknesses:
 
 Phase ghouls are bilocated undead caught between two different manifolds, rapidly flickering between them. They almost appear transparent save for their long, bright blue tongues that appears to lag behind their movements by a full second.
 
-| Phase Ghoul | Undead | Minion Harrier | - | 5 essence for three minions |
+| Undead | - | - | Minion Harrier | 5 essence for three minions |
 |:-----------:|:------:|:--------------:|:-:|:---------------------------:|
 | **1M**<br>Size | **5**<br>Speed | **5 \| 5 \| 5**<br>Stamina | **0**<br>Stability | **3**<br>Free Strike |
 | **Corruption R, Poison R**<br>Immunity | **Teleport**<br>Movement | - | **—**<br>Weakness | **—**<br>Free Strike Damage Type |

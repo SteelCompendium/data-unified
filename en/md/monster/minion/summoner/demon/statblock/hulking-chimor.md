@@ -1,11 +1,13 @@
 ---
 agility: 0
+cost: 5 essence for three minions
 free_strike: 3
 immunities:
     - —
 intuition: 1
 keywords:
-    - Hulking Chimor
+    - Abyssal
+    - Demon
 might: 3
 movement: —
 name: Hulking Chimor
@@ -25,7 +27,7 @@ weaknesses:
 
 Chimors have no true shape; their bodies restructure and change endlessly. Pieces of the chimor demon snap off inside their prey, causing their bodies to also restructure from the inside out.
 
-| Hulking Chimor | Abyssal, Demon | Minion Defender | - | 5 essence for three minions |
+| Abyssal, Demon | - | - | Minion Defender | 5 essence for three minions |
 |:--------------:|:--------------:|:---------------:|:-:|:---------------------------:|
 | **2**<br>Size | **5**<br>Speed | **7 \| 7 \| 7**<br>Stamina | **3**<br>Stability | **3**<br>Free Strike |
 | **—**<br>Immunity | **—**<br>Movement | - | **Holy 1**<br>Weakness | **—**<br>Free Strike Damage Type |

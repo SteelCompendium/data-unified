@@ -1,11 +1,12 @@
 ---
 agility: 2
+cost: 7 essence for two minions
 free_strike: 8
 immunities:
     - Poison R
 intuition: 0
 keywords:
-    - Pixie Belladonix
+    - Fey
 might: -2
 movement: Fly, hover
 name: Pixie Belladonix
@@ -25,7 +26,7 @@ weaknesses:
 
 The belladonix are found among the elite guard of fey monarchs and carry themselves like royalty. Their moth-like wings ooze with vibrant colors and are barbed; the poison within threatening to completely shift the reality of their victims.
 
-| Pixie Belladonix | Fey | Minion Artillery | - | 7 essence for two minions |
+| Fey | - | - | Minion Artillery | 7 essence for two minions |
 |:----------------:|:---:|:----------------:|:-:|:-------------------------:|
 | **1T**<br>Size | **6**<br>Speed | **16 \| 16**<br>Stamina | **0**<br>Stability | **8**<br>Free Strike |
 | **Poison R**<br>Immunity | **Fly, hover**<br>Movement | - | **—**<br>Weakness | **Poison**<br>Free Strike Damage Type |

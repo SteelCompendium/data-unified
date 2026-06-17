@@ -5,7 +5,8 @@ immunities:
     - Fire 2
 intuition: 2
 keywords:
-    - —
+    - Devil
+    - Infernal
 level: 1
 might: -1
 movement: —
@@ -24,7 +25,7 @@ weaknesses:
     - —
 ---
 
-| — | Devil, Infernal | Level 1 Controller Retainer | - | - |
+| Devil, Infernal | - | Level 1 | Controller Retainer | - |
 |:-:|:---------------:|:---------------------------:|:-:|:-:|
 | **1M**<br>Size | **5**<br>Speed | **21**<br>Stamina | **0**<br>Stability | **2**<br>Free Strike |
 | **Fire 2**<br>Immunity | **—**<br>Movement | - | **—**<br>Weakness | **—**<br>Free Strike Damage Type |

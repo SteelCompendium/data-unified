@@ -1,11 +1,13 @@
 ---
 agility: 2
+cost: 3 essence for two minions
 free_strike: 4
 immunities:
     - Sonic R
 intuition: 0
 keywords:
-    - Desolation of Sand
+    - Elemental (Air
+    - Earth)
 might: 1
 movement: Burrow
 name: Desolation of Sand
@@ -25,7 +27,7 @@ weaknesses:
 
 The desolations have vaguely humanoid sand forms with no legs. Their glass hose “arms” shift and bristle before firing high pressure streams of sand at their foes.
 
-| Desolation of Sand | Elemental (Air, Earth) | Minion Hexer | - | 3 essence for two minions |
+| Elemental (Air, Earth) | - | - | Minion Hexer | 3 essence for two minions |
 |:------------------:|:----------------------:|:------------:|:-:|:-------------------------:|
 | **1M**<br>Size | **5**<br>Speed | **5 \| 5**<br>Stamina | **1**<br>Stability | **4**<br>Free Strike |
 | **Sonic R**<br>Immunity | **Burrow**<br>Movement | - | **—**<br>Weakness | **—**<br>Free Strike Damage Type |

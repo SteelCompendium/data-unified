@@ -1,11 +1,13 @@
 ---
 agility: 0
+cost: 5 essence for three minions
 free_strike: 3
 immunities:
     - —
 intuition: 3
 keywords:
-    - Gushing Spewler
+    - Abyssal
+    - Demon
 might: -2
 movement: —
 name: Gushing Spewler
@@ -25,7 +27,7 @@ weaknesses:
 
 A spewler's mouth makes up most of its size. They unleash torrents of acid and bile from their pitless stomachs before consuming their prey with bag-like maws.
 
-| Gushing Spewler | Abyssal, Demon | Minion Controller | - | 5 essence for three minions |
+| Abyssal, Demon | - | - | Minion Controller | 5 essence for three minions |
 |:---------------:|:--------------:|:-----------------:|:-:|:---------------------------:|
 | **1M**<br>Size | **5**<br>Speed | **4 \| 4 \| 4**<br>Stamina | **0**<br>Stability | **3**<br>Free Strike |
 | **—**<br>Immunity | **—**<br>Movement | - | **Holy 1**<br>Weakness | **Acid**<br>Free Strike Damage Type |

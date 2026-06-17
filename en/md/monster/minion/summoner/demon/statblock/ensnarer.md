@@ -1,11 +1,13 @@
 ---
 agility: 0
+cost: 1 essence per minion summoned
 free_strike: 2
 immunities:
     - —
 intuition: -1
 keywords:
-    - Ensnarer
+    - Abyssal
+    - Demon
 might: 2
 movement: —
 name: Ensnarer
@@ -25,7 +27,7 @@ weaknesses:
 
 This vaguely humanoid form is warped and distorted by a demon nestled inside them. They extend long tongues from multiple orifices to drag victims in close.
 
-| Ensnarer | Abyssal, Demon | Signature Minion Brute | - | 1 essence per minion summoned |
+| Abyssal, Demon | - | - | Signature Minion Brute | 1 essence per minion summoned |
 |:--------:|:--------------:|:----------------------:|:-:|:-----------------------------:|
 | **1M**<br>Size | **5**<br>Speed | **2**<br>Stamina | **0**<br>Stability | **2**<br>Free Strike |
 | **—**<br>Immunity | **—**<br>Movement | - | **Holy 1**<br>Weakness | **—**<br>Free Strike Damage Type |

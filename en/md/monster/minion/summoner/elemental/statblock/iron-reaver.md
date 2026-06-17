@@ -1,11 +1,14 @@
 ---
 agility: 4
+cost: 7 essence for three minions
 free_strike: 6
 immunities:
     - Poison R
 intuition: 0
 keywords:
-    - Iron Reaver
+    - Elemental (Earth
+    - Fire
+    - Void)
 might: 3
 movement: Burrow
 name: Iron Reaver
@@ -24,7 +27,7 @@ weaknesses:
 
 Iron reavers are long, gnashing lines of centipede-like bladed legs. Their bodies endlessly shed metal shavings and hard sheets of iron as they move.
 
-| Iron Reaver | Elemental (Earth, Fire, Void) | Minion Harrier | - | 7 essence for three minions |
+| Elemental (Earth, Fire, Void) | - | - | Minion Harrier | 7 essence for three minions |
 |:-----------:|:-----------------------------:|:--------------:|:-:|:---------------------------:|
 | **1L**<br>Size | **6**<br>Speed | **10 \| 10 \| 10**<br>Stamina | **R**<br>Stability | **6**<br>Free Strike |
 | **Poison R**<br>Immunity | **Burrow**<br>Movement | - | **—**<br>Weakness | **—**<br>Free Strike Damage Type |

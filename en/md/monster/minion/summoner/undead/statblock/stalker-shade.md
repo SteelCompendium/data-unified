@@ -1,12 +1,13 @@
 ---
 agility: 1
+cost: 3 essence for two minions
 free_strike: 5
 immunities:
     - Corruption R
     - Poison R
 intuition: 0
 keywords:
-    - Stalker Shade
+    - Undead
 might: -2
 movement: Fly, hover
 name: Stalker Shade
@@ -26,7 +27,7 @@ weaknesses:
 
 Shades are a form of umbral stalker that float free from any floor or surface. They can bend their appearance to completely vanish in the light.
 
-| Stalker Shade | Undead | Minion Ambusher | - | 3 essence for two minions |
+| Undead | - | - | Minion Ambusher | 3 essence for two minions |
 |:-------------:|:------:|:---------------:|:-:|:-------------------------:|
 | **1M**<br>Size | **5**<br>Speed | **6 \| 6**<br>Stamina | **1**<br>Stability | **5**<br>Free Strike |
 | **Corruption R, Poison R**<br>Immunity | **Fly, hover**<br>Movement | - | **—**<br>Weakness | **Corruption**<br>Free Strike Damage Type |

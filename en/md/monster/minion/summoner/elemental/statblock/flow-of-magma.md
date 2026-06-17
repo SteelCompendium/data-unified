@@ -1,11 +1,13 @@
 ---
 agility: -2
+cost: 3 essence for two minions
 free_strike: 4
 immunities:
     - Fire R
 intuition: 0
 keywords:
-    - Flow of Magma
+    - Elemental (Fire
+    - Earth)
 might: 2
 movement: Climb
 name: Flow of Magma
@@ -25,7 +27,7 @@ weaknesses:
 
 This elemental is a long, serpentine creature of heated rock. Flows of magma drool trails of lava from their fangs after biting their prey.
 
-| Flow of Magma | Elemental (Fire, Earth) | Minion Harrier | - | 3 essence for two minions |
+| Elemental (Fire, Earth) | - | - | Minion Harrier | 3 essence for two minions |
 |:-------------:|:-----------------------:|:--------------:|:-:|:-------------------------:|
 | **1L**<br>Size | **5**<br>Speed | **6 \| 6**<br>Stamina | **2**<br>Stability | **4**<br>Free Strike |
 | **Fire R**<br>Immunity | **Climb**<br>Movement | - | **—**<br>Weakness | **Fire**<br>Free Strike Damage Type |

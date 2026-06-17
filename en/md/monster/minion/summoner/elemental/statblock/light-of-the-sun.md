@@ -1,12 +1,16 @@
 ---
 agility: 2
+cost: 7 essence for two minions
 free_strike: 7
 immunities:
     - Corruption R
     - fire R
 intuition: 0
 keywords:
-    - Light of the Sun
+    - Elemental (Air
+    - Green
+    - Fire
+    - Void)
 might: 0
 movement: Fly
 name: Light of the Sun
@@ -26,7 +30,7 @@ weaknesses:
 
 These elementals are blazing white avian-shaped beings that are nearly impossible to perceive directly. Between a light of the sun's talons is a massive glowing sword that can split the heaviest of defenses asunder.
 
-| Light of the Sun | Elemental (Air, Green, Fire, Void) | Minion Support | - | 7 essence for two minions |
+| Elemental (Air, Green, Fire, Void) | - | - | Minion Support | 7 essence for two minions |
 |:----------------:|:----------------------------------:|:--------------:|:-:|:-------------------------:|
 | **2**<br>Size | **6**<br>Speed | **17 \| 17**<br>Stamina | **0**<br>Stability | **7**<br>Free Strike |
 | **Corruption R, fire R**<br>Immunity | **Fly**<br>Movement | - | **—**<br>Weakness | **Fire**<br>Free Strike Damage Type |

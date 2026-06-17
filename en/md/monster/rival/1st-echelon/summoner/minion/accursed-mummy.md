@@ -1,12 +1,14 @@
 ---
 agility: -1
+cost: 3 Malice for three minions
 free_strike: 3
 immunities:
     - Corruption 2
     - poison 2
 intuition: 3
 keywords:
-    - —
+    - Mummy
+    - Undead
 might: 2
 movement: —
 name: Accursed Mummy
@@ -24,7 +26,7 @@ weaknesses:
     - Fire 1
 ---
 
-| — | Mummy, Undead | Minion Hexer | - | 3 Malice for three minions |
+| Mummy, Undead | - | - | Minion Hexer | 3 Malice for three minions |
 |:-:|:-------------:|:------------:|:-:|:--------------------------:|
 | **1M**<br>Size | **5**<br>Speed | **4 \| 4 \| 4**<br>Stamina | **2**<br>Stability | **3**<br>Free Strike |
 | **Corruption 2, poison 2**<br>Immunity | **—**<br>Movement | - | **Fire 1**<br>Weakness | **Poison**<br>Free Strike Damage Type |

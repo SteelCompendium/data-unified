@@ -1,15 +1,17 @@
 ---
 agility: 2
+cost: 9 essence for one champion
 free_strike: 9
 immunities:
     - Corruption 5
     - poison 5
 intuition: 2
 keywords:
-    - —
+    - Undead
 might: 5
 movement: Fly
 name: Avatar of Death
+organization: Champion
 presence: 2
 reason: 5
 scc: mcdm.summoner.v1/monster.champion.summoner.undead.statblock/avatar-of-death
@@ -22,7 +24,7 @@ weaknesses:
     - —
 ---
 
-| — | Undead | Champion | - | 9 essence for one champion |
+| Undead | - | - | Champion | 9 essence for one champion |
 |:-:|:------:|:--------:|:-:|:--------------------------:|
 | **2**<br>Size | **6**<br>Speed | **SPECIAL**<br>Stamina | **3**<br>Stability | **9**<br>Free Strike |
 | **Corruption 5, poison 5**<br>Immunity | **Fly**<br>Movement | - | **—**<br>Weakness | **Holy**<br>Free Strike Damage Type |

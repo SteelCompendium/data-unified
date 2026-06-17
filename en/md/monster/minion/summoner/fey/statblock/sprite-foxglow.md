@@ -1,11 +1,12 @@
 ---
 agility: 3
+cost: 5 essence for three minions
 free_strike: 4
 immunities:
     - Fire R
 intuition: 1
 keywords:
-    - Sprite Foxglow
+    - Fey
 might: -1
 movement: Fly
 name: Sprite Foxglow
@@ -25,7 +26,7 @@ weaknesses:
 
 Foxglows are masked sprites that leave behind an evanescent trail of tiny glowing orbs as they fly. They beat their wings at a frequency that completely blocks out all nearby noise.
 
-| Sprite Foxglow | Fey | Minion Ambusher | - | 5 essence for three minions |
+| Fey | - | - | Minion Ambusher | 5 essence for three minions |
 |:--------------:|:---:|:---------------:|:-:|:---------------------------:|
 | **1T**<br>Size | **8**<br>Speed | **5 \| 5 \| 5**<br>Stamina | **0**<br>Stability | **4**<br>Free Strike |
 | **Fire R**<br>Immunity | **Fly**<br>Movement | - | **—**<br>Weakness | **Fire**<br>Free Strike Damage Type |

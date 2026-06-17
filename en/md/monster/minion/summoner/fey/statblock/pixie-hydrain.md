@@ -1,11 +1,12 @@
 ---
 agility: 0
+cost: 3 essence for two minions
 free_strike: 5
 immunities:
     - Acid R
 intuition: 0
 keywords:
-    - Pixie Hydrain
+    - Fey
 might: -3
 movement: Fly, hover
 name: Pixie Hydrain
@@ -25,7 +26,7 @@ weaknesses:
 
 This pixie flies on a delicate array of vibrant flower petals for wings. The color drains from their wings as they call forth acid rain showers.
 
-| Pixie Hydrain | Fey | Minion Artillery | - | 3 essence for two minions |
+| Fey | - | - | Minion Artillery | 3 essence for two minions |
 |:-------------:|:---:|:----------------:|:-:|:-------------------------:|
 | **1T**<br>Size | **5**<br>Speed | **5 \| 5**<br>Stamina | **0**<br>Stability | **5**<br>Free Strike |
 | **Acid R**<br>Immunity | **Fly, hover**<br>Movement | - | **—**<br>Weakness | **Acid**<br>Free Strike Damage Type |

@@ -1,11 +1,12 @@
 ---
 agility: 0
+cost: 5 essence for three minions
 free_strike: 3
 immunities:
     - —
 intuition: 3
 keywords:
-    - Nixie Hemloche
+    - Fey
 might: -2
 movement: Swim
 name: Nixie Hemloche
@@ -25,7 +26,7 @@ weaknesses:
 
 Hemloches are spotted nixies whose long, wavy hair endlessly bobs and flows into the water surrounding them. Any sailor caught in a whirlpool created by hemloches knows that their ship won't survive the encounter.
 
-| Nixie Hemloche | Fey | Minion Hexer | - | 5 essence for three minions |
+| Fey | - | - | Minion Hexer | 5 essence for three minions |
 |:--------------:|:---:|:------------:|:-:|:---------------------------:|
 | **1T**<br>Size | **6**<br>Speed | **4 \| 4 \| 4**<br>Stamina | **0**<br>Stability | **3**<br>Free Strike |
 | **—**<br>Immunity | **Swim**<br>Movement | - | **—**<br>Weakness | **Lightning**<br>Free Strike Damage Type |

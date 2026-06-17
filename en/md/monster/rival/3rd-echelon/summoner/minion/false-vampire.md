@@ -1,12 +1,13 @@
 ---
 agility: 2
+cost: 6 Malice for two minions
 free_strike: 8
 immunities:
     - Corruption 4
     - poison 4
 intuition: 1
 keywords:
-    - —
+    - Undead
 might: 4
 movement: Climb
 name: False Vampire
@@ -24,7 +25,7 @@ weaknesses:
     - —
 ---
 
-| — | Undead | Minion Brute | - | 6 Malice for two minions |
+| Undead | - | - | Minion Brute | 6 Malice for two minions |
 |:-:|:------:|:------------:|:-:|:------------------------:|
 | **1L**<br>Size | **6**<br>Speed | **22 \| 22**<br>Stamina | **2**<br>Stability | **8**<br>Free Strike |
 | **Corruption 4, poison 4**<br>Immunity | **Climb**<br>Movement | - | **—**<br>Weakness | **Acid**<br>Free Strike Damage Type |

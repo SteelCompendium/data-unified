@@ -1,11 +1,13 @@
 ---
 agility: 2
+cost: 1 essence per minion summoned
 free_strike: 1
 immunities:
     - —
 intuition: -1
 keywords:
-    - Razor
+    - Abyssal
+    - Demon
 might: 0
 movement: —
 name: Razor
@@ -25,7 +27,7 @@ weaknesses:
 
 Razors appear to be a diminutive variant of the ruinant demon. Their bodies are swift, tumbling mounds of scarred flesh and deadly claws.
 
-| Razor | Abyssal, Demon | Signature Minion Harrier | - | 1 essence per minion summoned |
+| Abyssal, Demon | - | - | Signature Minion Harrier | 1 essence per minion summoned |
 |:-----:|:--------------:|:------------------------:|:-:|:-----------------------------:|
 | **1M**<br>Size | **6**<br>Speed | **2**<br>Stamina | **0**<br>Stability | **1**<br>Free Strike |
 | **—**<br>Immunity | **—**<br>Movement | - | **Holy 1**<br>Weakness | **—**<br>Free Strike Damage Type |

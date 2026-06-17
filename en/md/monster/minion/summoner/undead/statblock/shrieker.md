@@ -1,12 +1,13 @@
 ---
 agility: -2
+cost: 1 essence per minion summoned
 free_strike: 2
 immunities:
     - Corruption R
     - Poison R
 intuition: 0
 keywords:
-    - Shrieker
+    - Undead
 might: -2
 movement: —
 name: Shrieker
@@ -26,7 +27,7 @@ weaknesses:
 
 The shrieker expresses their unending pain in a way that can be heard and felt for miles. A white-hot fire smolders within each of their sunken eye sockets.
 
-| Shrieker | Undead | Signature Minion Artillery | - | 1 essence per minion summoned |
+| Undead | - | - | Signature Minion Artillery | 1 essence per minion summoned |
 |:--------:|:------:|:---------------------------:|:-:|:-----------------------------:|
 | **1M**<br>Size | **4**<br>Speed | **1**<br>Stamina | **0**<br>Stability | **2**<br>Free Strike |
 | **Corruption R, Poison R**<br>Immunity | **—**<br>Movement | - | **—**<br>Weakness | **Sonic**<br>Free Strike Damage Type |

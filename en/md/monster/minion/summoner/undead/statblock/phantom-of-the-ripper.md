@@ -1,12 +1,13 @@
 ---
 agility: 4
+cost: 7 essence for two minions
 free_strike: 8
 immunities:
     - Corruption R
     - poison R
 intuition: 0
 keywords:
-    - Phantom of the Ripper
+    - Undead
 might: 0
 movement: Fly, hover
 name: Phantom of the Ripper
@@ -26,7 +27,7 @@ weaknesses:
 
 These phantoms puppet the remnants of their corporeal forms. Unlike other spirits, the ripper tears the reality around them and leaves behind distorted or uneven "bumps" in the air, which can affect stone, metal, and flesh.
 
-| Phantom of the Ripper | Undead | Minion Ambusher | - | 7 essence for two minions |
+| Undead | - | - | Minion Ambusher | 7 essence for two minions |
 |:---------------------:|:------:|:---------------:|:-:|:-------------------------:|
 | **1M**<br>Size | **6**<br>Speed | **17 \| 17**<br>Stamina | **1**<br>Stability | **8**<br>Free Strike |
 | **Corruption R, poison R**<br>Immunity | **Fly, hover**<br>Movement | - | **—**<br>Weakness | **—**<br>Free Strike Damage Type |

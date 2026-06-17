@@ -1,12 +1,13 @@
 ---
 agility: -2
+cost: 2 Malice for two minions
 free_strike: 4
 immunities:
     - Corruption 2
     - poison 2
 intuition: 0
 keywords:
-    - —
+    - Undead
 might: 2
 movement: —
 name: Zombie Lumberer
@@ -24,7 +25,7 @@ weaknesses:
     - —
 ---
 
-| — | Undead | Minion Defender | - | 2 Malice for two minions |
+| Undead | - | - | Minion Defender | 2 Malice for two minions |
 |:-:|:------:|:---------------:|:-:|:------------------------:|
 | **2**<br>Size | **5**<br>Speed | **8 \| 8**<br>Stamina | **2**<br>Stability | **4**<br>Free Strike |
 | **Corruption 2, poison 2**<br>Immunity | **—**<br>Movement | - | **—**<br>Weakness | **—**<br>Free Strike Damage Type |

@@ -6,7 +6,8 @@ immunities:
     - —
 intuition: 1
 keywords:
-    - —
+    - Humanoid
+    - Rival
 level: 2
 might: 0
 movement: —
@@ -25,7 +26,7 @@ weaknesses:
     - —
 ---
 
-| — | Humanoid, Rival | Level 2 Elite Controller | - | EV 16 |
+| Humanoid, Rival | - | Level 2 | Elite Controller | EV 16 |
 |:-:|:---------------:|:------------------------:|:-:|:-----:|
 | **1M**<br>Size | **5**<br>Speed | **60**<br>Stamina | **0**<br>Stability | **5**<br>Free Strike |
 | **—**<br>Immunity | **—**<br>Movement | - | **—**<br>Weakness | **—**<br>Free Strike Damage Type |

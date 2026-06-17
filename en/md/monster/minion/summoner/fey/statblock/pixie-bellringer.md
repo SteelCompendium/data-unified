@@ -1,11 +1,12 @@
 ---
 agility: 1
+cost: 1 essence per minion summoned
 free_strike: 1
 immunities:
     - —
 intuition: 0
 keywords:
-    - Pixie Bellringer
+    - Fey
 might: -3
 movement: Fly, hover
 name: Pixie Bellringer
@@ -25,7 +26,7 @@ weaknesses:
 
 The bellringers are glowing pixies that jingle as they fly. Historically, these pixies worked alongside bowman to ensure their arrows struck true.
 
-| Pixie Bellringer | Fey | Signature Minion Support | - | 1 essence per minion summoned |
+| Fey | - | - | Signature Minion Support | 1 essence per minion summoned |
 |:----------------:|:---:|:------------------------:|:-:|:-----------------------------:|
 | **1T**<br>Size | **5**<br>Speed | **2**<br>Stamina | **0**<br>Stability | **1**<br>Free Strike |
 | **—**<br>Immunity | **Fly, hover**<br>Movement | - | **—**<br>Weakness | **—**<br>Free Strike Damage Type |

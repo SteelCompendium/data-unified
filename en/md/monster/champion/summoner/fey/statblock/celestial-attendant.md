@@ -1,14 +1,16 @@
 ---
 agility: 2
+cost: 9 essence for one champion
 free_strike: 9
 immunities:
     - Damage 2
 intuition: 2
 keywords:
-    - —
+    - Fey
 might: 2
 movement: Fly, hover
 name: Celestial Attendant
+organization: Champion
 presence: 5
 reason: 5
 scc: mcdm.summoner.v1/monster.champion.summoner.fey.statblock/celestial-attendant
@@ -21,7 +23,7 @@ weaknesses:
     - —
 ---
 
-| — | Fey | Champion | - | 9 essence for one champion |
+| Fey | - | - | Champion | 9 essence for one champion |
 |:-:|:---:|:--------:|:-:|:--------------------------:|
 | **2**<br>Size | **7**<br>Speed | **SPECIAL**<br>Stamina | **0**<br>Stability | **9**<br>Free Strike |
 | **Damage 2**<br>Immunity | **Fly, hover**<br>Movement | - | **—**<br>Weakness | **Poison**<br>Free Strike Damage Type |

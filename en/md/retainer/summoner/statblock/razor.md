@@ -5,7 +5,8 @@ immunities:
     - —
 intuition: -1
 keywords:
-    - —
+    - Abyssal
+    - Demon
 might: 0
 movement: —
 name: Razor
@@ -23,7 +24,7 @@ weaknesses:
     - Holy 1
 ---
 
-| — | Abyssal, Demon | Signature Minion Harrier | - | - |
+| Abyssal, Demon | - | - | Signature Minion Harrier | - |
 |:-:|:--------------:|:------------------------:|:-:|:-:|
 | **1M**<br>Size | **6**<br>Speed | **2**<br>Stamina | **0**<br>Stability | **1**<br>Free Strike |
 | **—**<br>Immunity | **—**<br>Movement | - | **Holy 1**<br>Weakness | **—**<br>Free Strike Damage Type |

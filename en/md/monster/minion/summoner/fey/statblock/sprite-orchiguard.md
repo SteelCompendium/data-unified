@@ -1,11 +1,12 @@
 ---
 agility: 0
+cost: 3 essence for two minions
 free_strike: 4
 immunities:
     - —
 intuition: -1
 keywords:
-    - Sprite Orchiguard
+    - Fey
 might: 2
 movement: Fly
 name: Sprite Orchiguard
@@ -25,7 +26,7 @@ weaknesses:
 
 The orchiguard is a sprite surrounded by a wheel of shields. They are usually crushed by the pressures of their own impenetrable defenses before ever being felled by enemy hands.
 
-| Sprite Orchiguard | Fey | Minion Defender | - | 3 essence for two minions |
+| Fey | - | - | Minion Defender | 3 essence for two minions |
 |:-----------------:|:---:|:---------------:|:-:|:-------------------------:|
 | **1S**<br>Size | **6**<br>Speed | **8 \| 8**<br>Stamina | **2**<br>Stability | **4**<br>Free Strike |
 | **—**<br>Immunity | **Fly**<br>Movement | - | **—**<br>Weakness | **—**<br>Free Strike Damage Type |

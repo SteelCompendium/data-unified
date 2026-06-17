@@ -1,11 +1,13 @@
 ---
 agility: 1
+cost: 3 essence for two minions
 free_strike: 5
 immunities:
     - —
 intuition: -1
 keywords:
-    - Fanged Musilex
+    - Abyssal
+    - Demon
 might: 2
 movement: —
 name: Fanged Musilex
@@ -25,7 +27,7 @@ weaknesses:
 
 Ensnarers knot and twist their bodies together to form heaving, heavy musilexes. They're compelled to drag everything in toward their body.
 
-| Fanged Musilex | Abyssal, Demon | Minion Brute | - | 3 essence for two minions |
+| Abyssal, Demon | - | - | Minion Brute | 3 essence for two minions |
 |:--------------:|:--------------:|:------------:|:-:|:-------------------------:|
 | **1L**<br>Size | **6**<br>Speed | **6 \| 6**<br>Stamina | **1**<br>Stability | **5**<br>Free Strike |
 | **—**<br>Immunity | **—**<br>Movement | - | **Holy 1**<br>Weakness | **—**<br>Free Strike Damage Type |

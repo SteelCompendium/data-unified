@@ -1,12 +1,13 @@
 ---
 agility: 2
+cost: 5 essence for three minions
 free_strike: 3
 immunities:
     - Corruption R
     - Poison R
 intuition: 1
 keywords:
-    - Ceaseless Mournling
+    - Undead
 might: 3
 movement: Burrow
 name: Ceaseless Mournling
@@ -25,7 +26,7 @@ weaknesses:
 
 Mournlings are hulking amalgams of mismatched cadavers with tear-stained trenches where their cheeks used to be. Their crying shakes enemies to their bone and renders them struggling to move.
 
-| Ceaseless Mournling | Undead | Minion Controller | - | 5 essence for three minions |
+| Undead | - | - | Minion Controller | 5 essence for three minions |
 |:-------------------:|:------:|:-----------------:|:-:|:---------------------------:|
 | **2**<br>Size | **4**<br>Speed | **4 \| 4 \| 4**<br>Stamina | **R**<br>Stability | **3**<br>Free Strike |
 | **Corruption R, Poison R**<br>Immunity | **Burrow**<br>Movement | - | **—**<br>Weakness | **Sonic**<br>Free Strike Damage Type |

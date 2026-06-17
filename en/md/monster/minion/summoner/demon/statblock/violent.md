@@ -1,11 +1,13 @@
 ---
 agility: 3
+cost: 5 essence for three minions
 free_strike: 4
 immunities:
     - —
 intuition: -1
 keywords:
-    - Violent
+    - Abyssal
+    - Demon
 might: 2
 movement: Climb
 name: Violent
@@ -25,7 +27,7 @@ weaknesses:
 
 The violents are lanky, oily bipeds with bright red flesh that contort and snap their bodies into unassuming objects. Their mimicry is particularly precise, to the point where it's unclear whether their victims die from the surprise or the violent transformation process first.
 
-| Violent | Abyssal, Demon | Minion Ambusher | - | 5 essence for three minions |
+| Abyssal, Demon | - | - | Minion Ambusher | 5 essence for three minions |
 |:-------:|:--------------:|:---------------:|:-:|:---------------------------:|
 | **1M**<br>Size | **7**<br>Speed | **5 \| 5 \| 5**<br>Stamina | **1**<br>Stability | **4**<br>Free Strike |
 | **—**<br>Immunity | **Climb**<br>Movement | - | **Holy 1**<br>Weakness | **Corruption**<br>Free Strike Damage Type |

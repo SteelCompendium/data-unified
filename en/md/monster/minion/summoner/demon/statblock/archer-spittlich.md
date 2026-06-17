@@ -1,11 +1,13 @@
 ---
 agility: 2
+cost: 3 essence for two minions
 free_strike: 5
 immunities:
     - —
 intuition: -1
 keywords:
-    - Archer Spittlich
+    - Abyssal
+    - Demon
 might: 0
 movement: —
 name: Archer Spittlich
@@ -25,7 +27,7 @@ weaknesses:
 
 These minor demons resemble larger pitlings. They can spit a nerve-numbing phlegm at long distance that makes it easy to catch their next meal.
 
-| Archer Spittlich | Abyssal, Demon | Minion Artillery | - | 3 essence for two minions |
+| Abyssal, Demon | - | - | Minion Artillery | 3 essence for two minions |
 |:----------------:|:--------------:|:----------------:|:-:|:-------------------------:|
 | **1S**<br>Size | **5**<br>Speed | **5 \| 5**<br>Stamina | **2**<br>Stability | **5**<br>Free Strike |
 | **—**<br>Immunity | **—**<br>Movement | - | **Holy 1**<br>Weakness | **Poison**<br>Free Strike Damage Type |

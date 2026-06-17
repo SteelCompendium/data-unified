@@ -1,12 +1,13 @@
 ---
 agility: 1
+cost: 3 essence for two minions
 free_strike: 5
 immunities:
     - Corruption R
     - Poison R
 intuition: 0
 keywords:
-    - Grave Knight
+    - Undead
 might: 2
 movement: —
 name: Grave Knight
@@ -26,7 +27,7 @@ weaknesses:
 
 The grave knights are zombie warriors that continue to fight after death. Any blood spilled at a grave knight's hand runs pitch black.
 
-| Grave Knight | Undead | Minion Brute | - | 3 essence for two minions |
+| Undead | - | - | Minion Brute | 3 essence for two minions |
 |:------------:|:------:|:------------:|:-:|:-------------------------:|
 | **1M**<br>Size | **6**<br>Speed | **6 \| 6**<br>Stamina | **1**<br>Stability | **5**<br>Free Strike |
 | **Corruption R, Poison R**<br>Immunity | **—**<br>Movement | - | **—**<br>Weakness | **—**<br>Free Strike Damage Type |

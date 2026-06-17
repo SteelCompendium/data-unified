@@ -1,12 +1,15 @@
 ---
 agility: -2
+cost: 5 essence for three minions
 free_strike: 4
 immunities:
     - Corruption R
     - Poison R
 intuition: 2
 keywords:
-    - Principle of the Swamp
+    - Elemental (Green
+    - Water
+    - Rot)
 might: 3
 movement: Swim
 name: Principle of the Swamp
@@ -25,7 +28,7 @@ weaknesses:
 
 The manes of these equine sludge dwellers extend and hook into things like strong, fraying arms. This allows the principle of the swamp to either pull themselves onto dry land, or pull their prey into the dank depths.
 
-| Principle of the Swamp | Elemental (Green, Water, Rot) | Minion Brute | - | 5 essence for three minions |
+| Elemental (Green, Water, Rot) | - | - | Minion Brute | 5 essence for three minions |
 |:----------------------:|:-----------------------------:|:------------:|:-:|:---------------------------:|
 | **2**<br>Size | **4**<br>Speed | **5 \| 5 \| 5**<br>Stamina | **R**<br>Stability | **4**<br>Free Strike |
 | **Corruption R, Poison R**<br>Immunity | **Swim**<br>Movement | - | **—**<br>Weakness | **—**<br>Free Strike Damage Type |

@@ -1,5 +1,6 @@
 ---
 agility: 0
+cost: 1 essence per minion summoned
 free_strike: 1
 immunities:
     - Damage 2
@@ -7,7 +8,7 @@ immunities:
     - Poison R
 intuition: -1
 keywords:
-    - Husk
+    - Undead
 might: 2
 movement: —
 name: Husk
@@ -27,7 +28,7 @@ weaknesses:
 
 Husks have stiff corpses that snap and crackle with each sudden movement. Corrosive breath endlessly billows from their slackjawed faces.
 
-| Husk | Undead | Signature Minion Defender | - | 1 essence per minion summoned |
+| Undead | - | - | Signature Minion Defender | 1 essence per minion summoned |
 |:----:|:------:|:-------------------------:|:-:|:-----------------------------:|
 | **1M**<br>Size | **5**<br>Speed | **3**<br>Stamina | **1**<br>Stability | **1**<br>Free Strike |
 | **Damage 2, Corruption R, Poison R**<br>Immunity | **—**<br>Movement | - | **—**<br>Weakness | **Corruption**<br>Free Strike Damage Type |

@@ -1,11 +1,14 @@
 ---
 agility: 2
+cost: 5 essence for three minions
 free_strike: 3
 immunities:
     - Poison R
 intuition: 0
 keywords:
-    - Dancing Silk
+    - Elemental (Earth
+    - Air
+    - Green)
 might: -1
 movement: Fly
 name: Dancing Silk
@@ -25,7 +28,7 @@ weaknesses:
 
 The silks are akin to baby spiders ballooning through the air on strands of webbing. They spin silk from their legs as they fly, eventually turning huge swaths of the environment into tangled web mazes.
 
-| Dancing Silk | Elemental (Earth, Air, Green) | Minion Controller | - | 5 essence for three minions |
+| Elemental (Earth, Air, Green) | - | - | Minion Controller | 5 essence for three minions |
 |:------------:|:-----------------------------:|:-----------------:|:-:|:---------------------------:|
 | **1T**<br>Size | **5**<br>Speed | **4 \| 4 \| 4**<br>Stamina | **0**<br>Stability | **3**<br>Free Strike |
 | **Poison R**<br>Immunity | **Fly**<br>Movement | - | **—**<br>Weakness | **—**<br>Free Strike Damage Type |

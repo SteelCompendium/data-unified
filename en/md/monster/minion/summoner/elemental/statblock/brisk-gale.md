@@ -1,11 +1,12 @@
 ---
 agility: 2
+cost: 1 essence per minion summoned
 free_strike: 1
 immunities:
     - Sonic R
 intuition: 0
 keywords:
-    - Brisk Gale
+    - Elemental (Air)
 might: -2
 movement: Fly
 name: Brisk Gale
@@ -25,7 +26,7 @@ weaknesses:
 
 The gales are twisting ribbons of cloud and debris endlessly dancing in place. They disrupt the air and allow their allies to move freely.
 
-| Brisk Gale | Elemental (Air) | Signature Minion Harrier | - | 1 essence per minion summoned |
+| Elemental (Air) | - | - | Signature Minion Harrier | 1 essence per minion summoned |
 |:----------:|:---------------:|:------------------------:|:-:|:-----------------------------:|
 | **1S**<br>Size | **5**<br>Speed | **2**<br>Stamina | **0**<br>Stability | **1**<br>Free Strike |
 | **Sonic R**<br>Immunity | **Fly**<br>Movement | - | **—**<br>Weakness | **Sonic**<br>Free Strike Damage Type |

@@ -1,12 +1,13 @@
 ---
 agility: 0
+cost: 1 essence per minion summoned
 free_strike: 1
 immunities:
     - Corruption R
     - Poison R
 intuition: -1
 keywords:
-    - Skeleton
+    - Undead
 might: 2
 movement: —
 name: Skeleton
@@ -26,7 +27,7 @@ weaknesses:
 
 These autonomous bone networks fall just short of replicating the structure they had in life. Skeleton bones are especially brittle and can splinter into huge shards when met with enough force.
 
-| Skeleton | Undead | Signature Minion Harrier | - | 1 essence per minion summoned |
+| Undead | - | - | Signature Minion Harrier | 1 essence per minion summoned |
 |:--------:|:------:|:-------------------------:|:-:|:-----------------------------:|
 | **1M**<br>Size | **6**<br>Speed | **2**<br>Stamina | **0**<br>Stability | **1**<br>Free Strike |
 | **Corruption R, Poison R**<br>Immunity | **—**<br>Movement | - | **—**<br>Weakness | **—**<br>Free Strike Damage Type |
