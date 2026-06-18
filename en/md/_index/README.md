@@ -22,9 +22,9 @@
 - [Rule](rule.md) (150 items)
 - [Skill](skill.md) (57 items)
 - [Skill-group](skill-group.md) (5 items)
-- [Statblock](statblock.md) (513 items)
+- [Statblock](statblock.md) (512 items)
 - [Title](title.md) (67 items)
 - [Trait](trait.md) (94 items)
 - [Treasure](treasure.md) (127 items)
 
-Total items: 3013
+Total items: 3012
