@@ -1,6 +1,7 @@
 ---
 agility: 4
 cost: 7 essence for three minions
+flavor: Iron reavers are long, gnashing lines of centipede-like bladed legs. Their bodies endlessly shed metal shavings and hard sheets of iron as they move.
 free_strike: 6
 immunities:
     - Poison R

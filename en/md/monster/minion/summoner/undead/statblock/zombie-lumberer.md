@@ -1,6 +1,7 @@
 ---
 agility: -2
 cost: 3 essence for two minions
+flavor: These massive, animated ogre corpses still maintain their incredible grip strength. When a lumberer falls, they'll take anything within reach down with them.
 free_strike: 1
 immunities:
     - Corruption R

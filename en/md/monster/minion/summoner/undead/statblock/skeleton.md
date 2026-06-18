@@ -1,6 +1,7 @@
 ---
 agility: 0
 cost: 1 essence per minion summoned
+flavor: These autonomous bone networks fall just short of replicating the structure they had in life. Skeleton bones are especially brittle and can splinter into huge shards when met with enough force.
 free_strike: 1
 immunities:
     - Corruption R

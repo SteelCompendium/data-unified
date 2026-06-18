@@ -1,6 +1,7 @@
 ---
 agility: -1
 cost: 1 essence per minion summoned
+flavor: These nixies are especially tiny. Their hair grows longer than their bodies and curls into reeds. The water soakreeds swim in tends to turn thick and cling to surfaces.
 free_strike: 1
 immunities:
     - —

@@ -1,6 +1,7 @@
 ---
 agility: 2
 cost: 3 essence for two minions
+flavor: These minor demons resemble larger pitlings. They can spit a nerve-numbing phlegm at long distance that makes it easy to catch their next meal.
 free_strike: 5
 immunities:
     - —

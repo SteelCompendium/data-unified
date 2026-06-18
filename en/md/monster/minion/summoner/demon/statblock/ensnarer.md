@@ -1,6 +1,7 @@
 ---
 agility: 0
 cost: 1 essence per minion summoned
+flavor: This vaguely humanoid form is warped and distorted by a demon nestled inside them. They extend long tongues from multiple orifices to drag victims in close.
 free_strike: 2
 immunities:
     - —

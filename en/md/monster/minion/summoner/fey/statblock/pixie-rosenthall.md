@@ -1,6 +1,7 @@
 ---
 agility: 2
 cost: 5 essence for three minions
+flavor: The collective of blood-eyed pixie warriors that make up a rosenthall are also known as rosies. It's said that some rosenthall armies contain thousands of pixies and can span half the length of a wode.
 free_strike: 3
 immunities:
     - —

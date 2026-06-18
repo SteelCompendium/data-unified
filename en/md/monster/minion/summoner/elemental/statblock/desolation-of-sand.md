@@ -1,6 +1,7 @@
 ---
 agility: 2
 cost: 3 essence for two minions
+flavor: The desolations have vaguely humanoid sand forms with no legs. Their glass hose “arms” shift and bristle before firing high pressure streams of sand at their foes.
 free_strike: 4
 immunities:
     - Sonic R

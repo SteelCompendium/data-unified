@@ -1,6 +1,7 @@
 ---
 agility: 2
 cost: 5 essence for three minions
+flavor: The silks are akin to baby spiders ballooning through the air on strands of webbing. They spin silk from their legs as they fly, eventually turning huge swaths of the environment into tangled web mazes.
 free_strike: 3
 immunities:
     - Poison R

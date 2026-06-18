@@ -1,6 +1,7 @@
 ---
 agility: -2
 cost: 5 essence for three minions
+flavor: The manes of these equine sludge dwellers extend and hook into things like strong, fraying arms. This allows the principle of the swamp to either pull themselves onto dry land, or pull their prey into the dank depths.
 free_strike: 4
 immunities:
     - Corruption R

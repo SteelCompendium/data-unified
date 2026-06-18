@@ -1,6 +1,7 @@
 ---
 agility: -2
 cost: 1 essence per minion summoned
+flavor: The shrieker expresses their unending pain in a way that can be heard and felt for miles. A white-hot fire smolders within each of their sunken eye sockets.
 free_strike: 2
 immunities:
     - Corruption R

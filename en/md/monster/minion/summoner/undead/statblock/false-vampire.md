@@ -1,6 +1,7 @@
 ---
 agility: 1
 cost: 7 essence for two minions
+flavor: A false vampire is a bestial, bipedal ghoul that draws life from liquified remains. In death, their hands curl into thick hooks, their bodies turn a putrid red-green as if wearing a dress suit, and their mouth twists and extends into a large feeding needle that can pierce steel.
 free_strike: 8
 immunities:
     - Corruption R

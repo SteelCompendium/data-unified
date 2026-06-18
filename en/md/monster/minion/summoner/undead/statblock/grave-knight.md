@@ -1,6 +1,7 @@
 ---
 agility: 1
 cost: 3 essence for two minions
+flavor: The grave knights are zombie warriors that continue to fight after death. Any blood spilled at a grave knight's hand runs pitch black.
 free_strike: 5
 immunities:
     - Corruption R

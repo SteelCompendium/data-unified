@@ -1,6 +1,7 @@
 ---
 agility: 3
 cost: 5 essence for three minions
+flavor: Foxglows are masked sprites that leave behind an evanescent trail of tiny glowing orbs as they fly. They beat their wings at a frequency that completely blocks out all nearby noise.
 free_strike: 4
 immunities:
     - Fire R

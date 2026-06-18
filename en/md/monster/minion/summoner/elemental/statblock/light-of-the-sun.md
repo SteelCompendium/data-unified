@@ -1,6 +1,7 @@
 ---
 agility: 2
 cost: 7 essence for two minions
+flavor: These elementals are blazing white avian-shaped beings that are nearly impossible to perceive directly. Between a light of the sun's talons is a massive glowing sword that can split the heaviest of defenses asunder.
 free_strike: 7
 immunities:
     - Corruption R

@@ -1,6 +1,7 @@
 ---
 agility: 5
 cost: 9 essence for one champion
+flavor: 'Stamina: Your maximum Stamina'
 free_strike: 9
 immunities:
     - Corruption 5

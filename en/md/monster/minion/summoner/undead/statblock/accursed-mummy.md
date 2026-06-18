@@ -1,6 +1,7 @@
 ---
 agility: -1
 cost: 5 essence for three minions
+flavor: The preserved dead, bound for eternal rest, know only violence when robbed of their future. Accursed mummies use their wrappings to bind others to the same fate.
 free_strike: 3
 immunities:
     - Corruption R

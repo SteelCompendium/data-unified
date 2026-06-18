@@ -1,6 +1,7 @@
 ---
 agility: -2
 cost: 3 essence for two minions
+flavor: This elemental is a long, serpentine creature of heated rock. Flows of magma drool trails of lava from their fangs after biting their prey.
 free_strike: 4
 immunities:
     - Fire R

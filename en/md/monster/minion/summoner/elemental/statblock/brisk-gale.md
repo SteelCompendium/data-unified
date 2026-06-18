@@ -1,6 +1,7 @@
 ---
 agility: 2
 cost: 1 essence per minion summoned
+flavor: The gales are twisting ribbons of cloud and debris endlessly dancing in place. They disrupt the air and allow their allies to move freely.
 free_strike: 1
 immunities:
     - Sonic R

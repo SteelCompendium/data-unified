@@ -1,6 +1,7 @@
 ---
 agility: 0
 cost: 3 essence for two minions
+flavor: This pixie flies on a delicate array of vibrant flower petals for wings. The color drains from their wings as they call forth acid rain showers.
 free_strike: 5
 immunities:
     - Acid R

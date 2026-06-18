@@ -1,6 +1,7 @@
 ---
 agility: 0
 cost: 1 essence per minion summoned
+flavor: This near-pure form of autonomous essence just barely maintains their form. They can shift their nature to match their surroundings.
 free_strike: 1
 immunities:
     - —
