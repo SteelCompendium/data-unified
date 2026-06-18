@@ -15,9 +15,9 @@ Each god has many [saints](scc.v1:mcdm.heroes.v1/rule.world/saint), some obscure
 
 No one knows.
 
-As a result of this complex tapestry of belief and personalities, a farmer in Aendrim might call upon [Adûn](scc.v1:mcdm.heroes.v1/god/adun) for strength while tilling the earth. But if a cool breeze suddenly came along, easing the bite of the sun on their back, they would almost certainly not thank [Adûn](scc.v1:mcdm.heroes.v1/god/adun) or any of his [saints](scc.v1:mcdm.heroes.v1/rule.world/saint). They would probably thank Saint Elspeth the Blithe, sometimes called the Summer Breeze. If they had a neighbor or relative with a shrine to Saint Elspeth in their home, they might give that person a small gift or offering and ask them to place it on their shrine. More likely, they would silently promise to do this, and then forget or get distracted.
+As a result of this complex tapestry of belief and personalities, a farmer in Aendrim might call upon [Adûn](scc.v1:mcdm.heroes.v1/religion.god/adun) for strength while tilling the earth. But if a cool breeze suddenly came along, easing the bite of the sun on their back, they would almost certainly not thank [Adûn](scc.v1:mcdm.heroes.v1/religion.god/adun) or any of his [saints](scc.v1:mcdm.heroes.v1/rule.world/saint). They would probably thank Saint Elspeth the Blithe, sometimes called the Summer Breeze. If they had a neighbor or relative with a shrine to Saint Elspeth in their home, they might give that person a small gift or offering and ask them to place it on their shrine. More likely, they would silently promise to do this, and then forget or get distracted.
 
-If questioned about this-"Why did you call upon one god, but thank the [saint](scc.v1:mcdm.heroes.v1/rule.world/saint) of a completely different god?"-they would first be [surprised](scc.v1:mcdm.heroes.v1/rule.combat/surprised) by the question. It would not have occurred to them to examine this behavior. If pressed they would say, "Oh, I'm sure they worked it out between them." They would not imagine, "[Adûn](scc.v1:mcdm.heroes.v1/god/adun) told Viras, who told her [saint](scc.v1:mcdm.heroes.v1/rule.world/saint), Elspeth, to send a cooling breeze," but they would assume
+If questioned about this-"Why did you call upon one god, but thank the [saint](scc.v1:mcdm.heroes.v1/rule.world/saint) of a completely different god?"-they would first be [surprised](scc.v1:mcdm.heroes.v1/rule.combat/surprised) by the question. It would not have occurred to them to examine this behavior. If pressed they would say, "Oh, I'm sure they worked it out between them." They would not imagine, "[Adûn](scc.v1:mcdm.heroes.v1/religion.god/adun) told Viras, who told her [saint](scc.v1:mcdm.heroes.v1/rule.world/saint), Elspeth, to send a cooling breeze," but they would assume
 
 something like that happened and not worry overmuch about the details. They called out, they received aid—that's what's important.
 
@@ -87,15 +87,15 @@ The Deities and Domains table and the [Saints](scc.v1:mcdm.heroes.v1/rule.world/
 
 | Deity                   | Domains                                       |
 |-------------------------|-----------------------------------------------|
-| [Adûn](scc.v1:mcdm.heroes.v1/god/adun)                    | Creation, Life, Love, Protection              |
-| [Cavall](scc.v1:mcdm.heroes.v1/god/cavall)                  | Life, Love, Protection, War                   |
+| [Adûn](scc.v1:mcdm.heroes.v1/religion.god/adun)                    | Creation, Life, Love, Protection              |
+| [Cavall](scc.v1:mcdm.heroes.v1/religion.god/cavall)                  | Life, Love, Protection, War                   |
 | Cyrvis                  | Death, Fate, Knowledge, Trickery              |
 | Kul                     | Knowledge, Life, Sun, Trickery, War           |
-| [Nebular](scc.v1:mcdm.heroes.v1/god/nebular) the Star Mother | Creation, Life, Love, Sun                     |
+| [Nebular](scc.v1:mcdm.heroes.v1/religion.god/nebular) the Star Mother | Creation, Life, Love, Sun                     |
 | Nikros                  | Death, Fate, Storm, War                       |
 | Ord                     | Creation, Knowledge, Protection, Sun, War     |
 | OV the Wave Pilot       | Fate, Knowledge, Storm, Sun                   |
-| [Salorna](scc.v1:mcdm.heroes.v1/god/salorna)                 | Life, Nature, Storm, Sun                      |
+| [Salorna](scc.v1:mcdm.heroes.v1/religion.god/salorna)                 | Life, Nature, Storm, Sun                      |
 | Val                     | Creation, Knowledge, Life, Nature, Protection |
 
 ###### Saints and Domains Table
@@ -124,106 +124,30 @@ The Deities and Domains table and the [Saints](scc.v1:mcdm.heroes.v1/rule.world/
 | A Sea of Suns                       | Creation, Life                |
 | Stakros the Engineer                | Creation, Knowledge           |
 | The Taste of Morning                | Creation, Knowledge           |
-| [Thellasko](scc.v1:mcdm.heroes.v1/god/thellasko) the Great Designer        | Knowledge, War                |
+| [Thellasko](scc.v1:mcdm.heroes.v1/religion.saint/thellasko) the Great Designer        | Knowledge, War                |
 | Thyll Hylacae                       | Life, Nature                  |
 | Uryal the Subtle                    | Knowledge, Trickery           |
 | Valak-koth the Seeker               | Knowledge, Sun                |
 | Yllin Dyrvis                        | Knowledge, Nature             |
 | Zarok the Law-Giver                 | Protection, War               |
 
-### Devil Gods
-
-[Devil](scc.v1:mcdm.heroes.v1/ancestry/devil) heroes in [Orden](scc.v1:mcdm.heroes.v1/rule.world/orden) usually serve the gods and [saints](scc.v1:mcdm.heroes.v1/rule.world/saint) of the culture in which they were raised. Few [devils](scc.v1:mcdm.heroes.v1/ancestry/devil) in [Orden](scc.v1:mcdm.heroes.v1/rule.world/orden) are from the Seven Cities, most are descended from [devils](scc.v1:mcdm.heroes.v1/ancestry/devil) who were stranded on [Orden](scc.v1:mcdm.heroes.v1/rule.world/orden) hundreds or thousands of years ago. [Devils](scc.v1:mcdm.heroes.v1/ancestry/devil) who are from the Seven Cities have their own unique pantheon.
-
-The Seven Cities have [saints](scc.v1:mcdm.heroes.v1/rule.world/saint) just like [humans](scc.v1:mcdm.heroes.v1/ancestry/human) in [Orden](scc.v1:mcdm.heroes.v1/rule.world/orden) do but in place of gods, these [saints](scc.v1:mcdm.heroes.v1/rule.world/saint) serve the seven Archdukes of Hell, also known as Archdevils or the Lords of Hell. Unlike the gods of [Orden](scc.v1:mcdm.heroes.v1/rule.world/orden), the Lords of Hell are corporeal. Giant figures, 30 feet tall, who each sit upon the throne of their city, projecting their consciousness out into the world, dealing with politics, sorcery, and treachery, manifesting avatars when necessary. They are, effectively, the Gods of Hell.
-
-Like the other gods of the timescape, the Lords of Hell are too busy to attend to every petition and request and so employ [saints](scc.v1:mcdm.heroes.v1/rule.world/saint) just like other gods. Religion in Hell is superficially similar to religion among the peoples of [Orden](scc.v1:mcdm.heroes.v1/rule.world/orden). There are churches and rites and rituals, but [devils](scc.v1:mcdm.heroes.v1/ancestry/devil) tend to view attending church and performing the expected rituals at the appropriate times as akin to paying taxes. Annoying but necessary.
-
-#### Saints of Hell
-
-Like [Orden](scc.v1:mcdm.heroes.v1/rule.world/orden), there are dozens of [saints](scc.v1:mcdm.heroes.v1/rule.world/saint) in Hell, some obscure. These three are some of the most popular and the most likely [saints](scc.v1:mcdm.heroes.v1/rule.world/saint) for a [conduit](scc.v1:mcdm.heroes.v1/class/conduit) or [censor](scc.v1:mcdm.heroes.v1/class/censor) to follow.
-
 ### Human Gods of Vasloria
 
 Like all the Innumerable Younger Gods, the gods of [Vasloria](scc.v1:mcdm.heroes.v1/rule.world/vasloria) embody the attitudes of the people who live in that region. This includes the [humans](scc.v1:mcdm.heroes.v1/ancestry/human), [polder](scc.v1:mcdm.heroes.v1/ancestry/polder), and draconians of [Vasloria](scc.v1:mcdm.heroes.v1/rule.world/vasloria).
 
-[Vasloria](scc.v1:mcdm.heroes.v1/rule.world/vasloria) is a polytheistic, preindustrial, pre-Enlightenment, feudal culture. Its people have many superstitions and prejudices, some of which are reflected in the teachings of their gods. [Adûn](scc.v1:mcdm.heroes.v1/god/adun), for instance, teaches that hard physical labor is a moral good and people who work hard every day are honest. Most people in [Vasloria](scc.v1:mcdm.heroes.v1/rule.world/vasloria), especially Aendrim where [Adûn](scc.v1:mcdm.heroes.v1/god/adun)'s faith is most popular, believe this to one extent or another.
+[Vasloria](scc.v1:mcdm.heroes.v1/rule.world/vasloria) is a polytheistic, preindustrial, pre-Enlightenment, feudal culture. Its people have many superstitions and prejudices, some of which are reflected in the teachings of their gods. [Adûn](scc.v1:mcdm.heroes.v1/religion.god/adun), for instance, teaches that hard physical labor is a moral good and people who work hard every day are honest. Most people in [Vasloria](scc.v1:mcdm.heroes.v1/rule.world/vasloria), especially Aendrim where [Adûn](scc.v1:mcdm.heroes.v1/religion.god/adun)'s faith is most popular, believe this to one extent or another.
 
 Some of them take it more seriously than others though. People in the most distant villages tend to believe it more literally, while people in the cities are perfectly aware than one may work and work and be a villain. And this is true of most of the beliefs presented in this chapter. Some people take it very seriously; some not so much.
 
-Like all peoples of [Orden](scc.v1:mcdm.heroes.v1/rule.world/orden), the people of [Vasloria](scc.v1:mcdm.heroes.v1/rule.world/vasloria) are well aware there are other gods. They do not particularly think their gods are *better*, just, "These are the local ones who matter to us." A priest of [Cavall](scc.v1:mcdm.heroes.v1/god/cavall) who journeyed far from Corwell and found themselves in the distant desert land Khemhara could still act as a [conduit](scc.v1:mcdm.heroes.v1/class/conduit) of Saint Llewellyn the Valiant, but they would look around the Heliopolis and see the animal-headed gods of the Khemharans and the astonishing feats of masonry and astronomy the Khemharans achieved and think: "Well. Obviously the gods of [Vasloria](scc.v1:mcdm.heroes.v1/rule.world/vasloria) aren't that big a deal here, but these gods certainly are!" The peoples of each region of [Orden](scc.v1:mcdm.heroes.v1/rule.world/orden) prefer their own gods because they understand them best, not because they think they are "more powerful."
+Like all peoples of [Orden](scc.v1:mcdm.heroes.v1/rule.world/orden), the people of [Vasloria](scc.v1:mcdm.heroes.v1/rule.world/vasloria) are well aware there are other gods. They do not particularly think their gods are *better*, just, "These are the local ones who matter to us." A priest of [Cavall](scc.v1:mcdm.heroes.v1/religion.god/cavall) who journeyed far from Corwell and found themselves in the distant desert land Khemhara could still act as a [conduit](scc.v1:mcdm.heroes.v1/class/conduit) of Saint Llewellyn the Valiant, but they would look around the Heliopolis and see the animal-headed gods of the Khemharans and the astonishing feats of masonry and astronomy the Khemharans achieved and think: "Well. Obviously the gods of [Vasloria](scc.v1:mcdm.heroes.v1/rule.world/vasloria) aren't that big a deal here, but these gods certainly are!" The peoples of each region of [Orden](scc.v1:mcdm.heroes.v1/rule.world/orden) prefer their own gods because they understand them best, not because they think they are "more powerful."
 
 #### Evil Gods
 
 Most heroes are hero-heroes, but some heroes are anti-heroes, and some are anti-villains! This section presents one archetypal [saint](scc.v1:mcdm.heroes.v1/rule.world/saint) from each of [Vasloria](scc.v1:mcdm.heroes.v1/rule.world/vasloria)'s evil gods; the brothers Nikros and Cyrvis for those players who wish to play such heroes.
 
-##### Nikros the Tyrant
-
-**Domains:** Death, Fate, Storm, War
-
-Nikros is strength. He is dominance. His is the right of the strong to rule over the weak. He is the Tyrant.
-
-Nikros believes that strength is the only virtue, and those who are born strong were born to rule. Because of this, [followers](scc.v1:mcdm.heroes.v1/rule.general/follower) of Nikros are often mistaken for [followers](scc.v1:mcdm.heroes.v1/rule.general/follower) of [Adûn](scc.v1:mcdm.heroes.v1/god/adun)—a mask they are happy to wear. Both teach that strength is good. But for [Adûn](scc.v1:mcdm.heroes.v1/god/adun) strength is a tool for helping others. For Nikros, strength is power to enact your will heedless of the consequences. [Might](scc.v1:mcdm.heroes.v1/rule.character/might) is right.
-
-Many is the baron or duke who attained power through sheer strength and ruthlessness, seeing their people as mere resources to be spent. Many of these rulers only come to Nikros after achieving power, their ears poisoned by a priest of the Tyrant.
-
-Though he and Cyrvis are brothers, Nikros hates Cyrvis because Cyrvis is feeble and weak. Both teach that strength is the only virtue. But Cyrvis teaches that the weak can exploit treachery and sorcery to become strong. Nikros spits upon these feeble wastes and preaches to the strong to take what is theirs by right.
-
-Like Cyrvis, his priests worship in secret. Like Cyrvis, folk hate [followers](scc.v1:mcdm.heroes.v1/rule.general/follower) of Nikros, while sometimes secretly admiring them. Bullies always have their sycophants.
-
-Nikros's [censors](scc.v1:mcdm.heroes.v1/class/censor) take what they want, ignore the law heedless of consequence, and teach that all folk should live thus. To subjugate one's will to the law, or the community, or the family, is to be weak! Weakness is a disease and it must be eradicated!
-
-##### Pentalion the Paladin
-
-**Domains:** Death, War
-
-Pentalion the Paladin, the Usurper, served at the right hand of Uther the Callous, aiding him in his ascent to the throne. Uther mastered fell sorceries under the tutelage of a priest of Cyrvis. In public, Uther's illusions kept him hale seeming, but in reality his addiction to sorcery had withered him.
-
-Pentalion was Uther's greatest knight, general, and chief of his secret police. He ferreted out conspiracies and rebellious coalitions. His tactic: infiltrate the rebels with his own agents—give them a taste of success but at the cost of relying on his power. Then, in their moment of triumph, Pentalion's agents revealed themselves and the insurgents found themselves surrounded by enemies without and within.
-
-Eventually serving at the right hand of the conqueror was not enough. Pentalion loathed Uther for his physical weakness and growing dependence on sorcery. After Pentalion helped Uther depose a nearby duke, the paladin helped the dead duke's daughter plot revenge.
-
-He used all his usual tactics. His agents aided the duke's daughter and helped her build her insurgency, but in a critical moment when she confronted Uther with only Lord Pentalion as witness, the evil paladin killed first Uther, then the duke's daughter assuming leadership of both the kingdom and the rebellion.
-
-Savior to all, Pentalion was made a [saint](scc.v1:mcdm.heroes.v1/rule.world/saint) of Nikros for this act. He ruled well into old age, always finding new enemies within and without to be cruel to. And the more cruel he was to his invented enemies, the more the people loved him.
-
-Saint Pentalion teaches that one should bide their time and build their power before striking. That treachery in service to growing your own power is no vice.
-
-##### Cyrvis
-
-**Domains:** Death, Fate, Knowledge, Trickery
-
-Cyrvis is the enemy of fate. He is the god of those who believe they have been wronged by life, and seek revenge. Cyrvis is a god of magic, because through magic one can gain power to exert their will over others. He is brother to Nikros but because he is frail and Nikros values only strength, Nikros hates Cyrvis, and Cyrvis is happy to return the sentiment.
-
-A person bullied, a criminal arrested, a servant dismissed—all who harbor secret hate whisper Cyrvis' name, and that whisper is a prayer. A suitor rejected by a consort who loves another finds themself walking in Cyrvis' shadow. He is the god of assassins, conspirators, and the bitterly frail.
-
-It is dangerous to worship Cyrvis in public, but those who gain power through his worship often parade this fact gladly and teach Cyrvis' hatred as virtue. Many is the knight who rides with Cyrvis's screaming-skull talisman on their shield, teaching folk to take what they want, the law be damned. The law is a coward! The law is a system designed by cowards to keep us from seeking real power!
-
-His churches are often underground—in dungeons, cellars. His priests worship in secret, plotting against those with power, or those who are merely popular. To be liked and loved is reason enough for a [follower](scc.v1:mcdm.heroes.v1/rule.general/follower) of Cyrvis to hate you.
-
-##### Eseld of the Eye
-
-**Domains:** Knowledge, Trickery
-
-Eseld of the Eye, the Eye of Hate, sought mastery of the Tower of Summoning. But though she studied hard, there were always other mages more fortunate.
-
-Cursing those who succeeded where she failed, Eseld sought the *Tome of Boiling Hate*, written by Cyrvis himself during his life. Acquiring the tome required years of research and treachery. Eseld left a trail of poisoned librarians and tortured loremasters behind her before finally unearthing the tome from its resting place at the bottom of the inverted Tower of Blood.
-
-But though the tome was written in an ancient dialect Eseld knew, the words moved under her gaze and she could not extract meaning from them. Many oracles were consulted and tortured before she learned the prophesy.
-
-"Only one with singular vision will see the secrets in the Lich's writing."
-
-With a flash of certain insight, Eseld understood the riddle. She took a dagger and carved out her own eye. With only one good eye remaining, blood from her eyesocket pouring onto the page, she could read the lore within.
-
-In that moment was Eseld made a [saint](scc.v1:mcdm.heroes.v1/rule.world/saint) of Cyrvis.
-
-Filled with sorcerous power, Eseld no long sought mastery of the Tower of Enchantment, returning instead to the hidden Tower of Blood, restoring it to its former glory—there to start her own cult. Eventually Eseld was overthrown by the Darkling Shades, her own cadre of elite sorceresses who pass on her lore to this day.
-
-Eseld teaches that spite is a virtue. Only fools follow rules, and sorcery is a route to ultimate power.
-
 ### Space Gods of the Timescape
 
-The nature and origin of the gods of the timescape is not well understood. Unlike the gods of [Orden](scc.v1:mcdm.heroes.v1/rule.world/orden), the Space Gods are corporeal beings, usually of immense—even planetary—[size](scc.v1:mcdm.heroes.v1/rule.character/size). Some are humanoid, others, like [Nebular](scc.v1:mcdm.heroes.v1/god/nebular) the Star Mother and XXAXX, decidedly not so.
+The nature and origin of the gods of the timescape is not well understood. Unlike the gods of [Orden](scc.v1:mcdm.heroes.v1/rule.world/orden), the Space Gods are corporeal beings, usually of immense—even planetary—[size](scc.v1:mcdm.heroes.v1/rule.character/size). Some are humanoid, others, like [Nebular](scc.v1:mcdm.heroes.v1/religion.god/nebular) the Star Mother and XXAXX, decidedly not so.
 
 They have godlike power—greater it seems than the Innumerable Younger Gods. But there is no evidence that they can create whole realities like the Elder Gods. They are not, as far as sages can make out, the authors of the worlds or people of the timescape. They may represent the last survivors of previous realities, High Science experiments run amok, or ascended beings from ancient civilizations who outlasted the fall of their people.
 

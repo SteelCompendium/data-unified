@@ -1,13 +1,15 @@
 # God Index
 
-Total: 9
+Total: 11
 
-- [Adûn](../god/adun.md)
-- [Cavall](../god/cavall.md)
-- [Kul](../god/kul.md)
-- [Nebular the Star Mother](../god/nebular.md)
-- [OV the Wave Pilot](../god/ov.md)
-- [Ord](../god/ord.md)
-- [Salorna](../god/salorna.md)
-- [Thellasko the Great Designer](../god/thellasko.md)
-- [Val](../god/val.md)
+- [Adûn](../religion/god/adun.md)
+- [Cavall](../religion/god/cavall.md)
+- [Cyrvis](../religion/god/cyrvis.md)
+- [Kul](../religion/god/kul.md)
+- [Lords of Hell](../religion/god/lords-of-hell.md)
+- [Nebular the Star Mother](../religion/god/nebular.md)
+- [Nikros the Tyrant](../religion/god/nikros.md)
+- [OV the Wave Pilot](../religion/god/ov.md)
+- [Ord](../religion/god/ord.md)
+- [Salorna](../religion/god/salorna.md)
+- [Val](../religion/god/val.md)

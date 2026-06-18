@@ -46,7 +46,7 @@ Jago, Sarah, and Beth all smiled at the exchange.
 
 "Do we have to... can we talk about something else, please?" John said.
 
-"I just..." The [polder](scc.v1:mcdm.heroes.v1/ancestry/polder) wouldn't let it go. "You seriously never... you never been to an inn? [Cavall](scc.v1:mcdm.heroes.v1/god/cavall)'s teeth, I can't count how many inns and taverns I've been to run by [polders](scc.v1:mcdm.heroes.v1/ancestry/polder), got [polders](scc.v1:mcdm.heroes.v1/ancestry/polder) in the kitchen or waiting tables. One of the only two things we're good at, I think."
+"I just..." The [polder](scc.v1:mcdm.heroes.v1/ancestry/polder) wouldn't let it go. "You seriously never... you never been to an inn? [Cavall](scc.v1:mcdm.heroes.v1/religion.god/cavall)'s teeth, I can't count how many inns and taverns I've been to run by [polders](scc.v1:mcdm.heroes.v1/ancestry/polder), got [polders](scc.v1:mcdm.heroes.v1/ancestry/polder) in the kitchen or waiting tables. One of the only two things we're good at, I think."
 
 "Yeah?" John asked. "What's the other one?"
 

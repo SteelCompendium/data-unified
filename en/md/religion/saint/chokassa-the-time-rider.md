@@ -1,20 +1,12 @@
 ---
-name: OV the Wave Pilot
-scc: mcdm.heroes.v1/god/ov
-type: god
+domains:
+    - Storm
+    - Sun
+name: Cho'kassa the Time Rider
+patron: ov
+scc: mcdm.heroes.v1/religion.saint/chokassa-the-time-rider
+type: saint
 ---
-
-**Domains:** Fate, Knowledge, Storm, Sun
-
-OV the Wave Pilot, the Navigator, an enigmatic humanoid figure described as masculine, appears to live inside the pilot-wave. In those rare instances where a mortal is directly exposed to the energies that propel ships across the sea of stars, they occasionally report seeing a figure that matches the description of OV.
-
-Lost ships sometimes find their navigation systems lighting up, a clear path home suddenly visible where no such path was possible before. OV aids those who are lost regardless of their affiliation with law or chaos, and is one of the Lords of Balance. His herald works to stop conflicts by guiding ships around and past routes that might cause them to intercept hostile entities.
-
-OV is the god of navigators and those who seek safe passage through treacherous scenarios. Because he cares little for the politics of the timescape, he is respected by the [time raiders](scc.v1:mcdm.heroes.v1/ancestry/time-raider), though none would call him or any other being their "god."
-
-When a [time raider](scc.v1:mcdm.heroes.v1/ancestry/time-raider) swears, "OV [guide](scc.v1:mcdm.heroes.v1/rule.downtime/guide) me," the meaning is not, "Show me the right thing to do." But: "Show me a way out of this mess."
-
-##### The Calling of Cho'kassa the Time Rider
 
 **Domains:** Storm, Sun
 

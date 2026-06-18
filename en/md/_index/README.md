@@ -12,7 +12,7 @@
 - [Feature](feature.md) (871 items)
 - [Feature-group](feature-group.md) (14 items)
 - [Featureblock](featureblock.md) (86 items)
-- [God](god.md) (9 items)
+- [God](god.md) (11 items)
 - [Kit](kit.md) (25 items)
 - [Monster](monster.md) (51 items)
 - [Movement](movement.md) (13 items)
@@ -20,6 +20,7 @@
 - [Perk](perk.md) (55 items)
 - [Project](project.md) (16 items)
 - [Rule](rule.md) (150 items)
+- [Saint](saint.md) (28 items)
 - [Skill](skill.md) (57 items)
 - [Skill-group](skill-group.md) (5 items)
 - [Statblock](statblock.md) (512 items)
@@ -27,4 +28,4 @@
 - [Trait](trait.md) (94 items)
 - [Treasure](treasure.md) (127 items)
 
-Total items: 3012
+Total items: 3042
