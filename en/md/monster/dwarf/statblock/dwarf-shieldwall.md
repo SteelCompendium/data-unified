@@ -35,24 +35,24 @@ type: statblock
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 7 damage; [slide](scc:mcdm.heroes.v1/movement/forced-movement) 1
-> - **12-16:** 10 damage; [slide](scc:mcdm.heroes.v1/movement/forced-movement) 1
-> - **17+:** 13 damage; [slide](scc:mcdm.heroes.v1/movement/forced-movement) 1
+> - **≤11:** 7 damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1
+> - **12-16:** 10 damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1
+> - **17+:** 13 damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1
 >
-> **Effect:** The shieldwall can [shift](scc:mcdm.heroes.v1/movement/shifting) 1 square to remain [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the target. A target [restrained](scc:mcdm.heroes.v1/condition/restrained) by a dwarf can be force moved by this ability. This forced movement doesn't end the [restrained](scc:mcdm.heroes.v1/condition/restrained) condition unless the Director determines otherwise.
+> **Effect:** The shieldwall can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) 1 square to remain [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the target. A target [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) by a dwarf can be force moved by this ability. This forced movement doesn't end the [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) condition unless the Director determines otherwise.
 >
-> **3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice):** This ability targets one additional target.
+> **3 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice):** This ability targets one additional target.
 
-> ❗️ **Intercepting Shield (1 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
+> ❗️ **Intercepting Shield (1 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **-**       | **Triggered action** |
 > |-------------|---------------------:|
 > | **📏 Self** |          **🎯 Self** |
 >
-> **Trigger:** A creature makes a strike against an ally [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the shieldwall.
+> **Trigger:** A creature makes a strike against an ally [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the shieldwall.
 >
 > **Effect:** The shieldwall becomes the target of the triggering strike and halves the damage.
 
 > ⭐️ **Call to the Wall**
 >
-> Whenever a creature deals damage to or takes damage from the shieldwall, the shieldwall can make that creature [taunted](scc:mcdm.heroes.v1/condition/taunted) until the end of the creature's next turn.
+> Whenever a creature deals damage to or takes damage from the shieldwall, the shieldwall can make that creature [taunted](scc.v1:mcdm.heroes.v1/condition/taunted) until the end of the creature's next turn.

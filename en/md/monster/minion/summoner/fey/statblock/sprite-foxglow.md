@@ -35,12 +35,12 @@ Foxglows are masked sprites that leave behind an evanescent trail of tiny glowin
 
 > ⭐️ **Flash Strike**
 >
-> The foxglow's melee [strikes](scc:mcdm.heroes.v1/rule.combat/strike) inflict I < STRONG [dazed](scc:mcdm.heroes.v1/condition/dazed) (EoT) if they were hidden when they make the [strike](scc:mcdm.heroes.v1/rule.combat/strike).
+> The foxglow's melee [strikes](scc.v1:mcdm.heroes.v1/rule.combat/strike) inflict I < STRONG [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (EoT) if they were hidden when they make the [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike).
 
 > ⭐️ **Quiet Flight**
 >
-> The area within 2 squares of the foxglow is completely silent. Each enemy has a [bane](scc:mcdm.heroes.v1/rule.dice/bane) on [tests](scc:mcdm.heroes.v1/rule.test/test) made to search for the foxglow and allies hidden in the affected area.
+> The area within 2 squares of the foxglow is completely silent. Each enemy has a [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) on [tests](scc.v1:mcdm.heroes.v1/rule.test/test) made to search for the foxglow and allies hidden in the affected area.
 
 > ⭐️ **Minuscule**
 >
-> The foxglow has [cover](scc:mcdm.heroes.v1/rule.combat/cover) while occupying a larger creature's space.
+> The foxglow has [cover](scc.v1:mcdm.heroes.v1/rule.combat/cover) while occupying a larger creature's space.

@@ -5,7 +5,7 @@ scc: mcdm.heroes.v1/feature.trait.devil/devil-traits
 type: trait
 ---
 
-[Devil](scc:mcdm.heroes.v1/ancestry/devil) heroes have access to the following traits.
+[Devil](scc.v1:mcdm.heroes.v1/ancestry/devil) heroes have access to the following traits.
 
 #### Purchased Devil Traits
 

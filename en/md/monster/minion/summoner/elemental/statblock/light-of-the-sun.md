@@ -43,14 +43,14 @@ These elementals are blazing white avian-shaped beings that are nearly impossibl
 > |--------------------------|----------------:|
 > | **📏 Melee 1** | **🎯 One creature or object per minion** |
 >
-> 7 fire [damage](scc:mcdm.heroes.v1/rule.damage/damage); I < WEAK [dazed](scc:mcdm.heroes.v1/condition/dazed) (EoT)
+> 7 fire [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage); I < WEAK [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (EoT)
 >
-> 11 fire [damage](scc:mcdm.heroes.v1/rule.damage/damage); I < AVERAGE [dazed](scc:mcdm.heroes.v1/condition/dazed) (EoT)
+> 11 fire [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage); I < AVERAGE [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (EoT)
 >
-> 16 fire [damage](scc:mcdm.heroes.v1/rule.damage/damage); I < STRONG [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)
+> 16 fire [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage); I < STRONG [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
 >
-> **Effect:** A target [dazed](scc:mcdm.heroes.v1/condition/dazed) by this ability has their [stability](scc:mcdm.heroes.v1/rule.character/stability) reduced to 0 until the [condition](scc:mcdm.heroes.v1/rule.combat/condition) ends.
+> **Effect:** A target [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) by this ability has their [stability](scc.v1:mcdm.heroes.v1/rule.character/stability) reduced to 0 until the [condition](scc.v1:mcdm.heroes.v1/rule.combat/condition) ends.
 
 > ⭐️ **Radiant Field** 2 Essence
 >
-> When the light is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), the area within 1 square of the light becomes wreathed in sentient flames until the end of the encounter. An enemy that enters this area or starts their [turn](scc:mcdm.heroes.v1/rule.combat/turn) there takes 3 fire [damage](scc:mcdm.heroes.v1/rule.damage/damage) and is [slowed](scc:mcdm.heroes.v1/condition/slowed) (EoT). You or any ally that enters this area or starts their [turn](scc:mcdm.heroes.v1/rule.combat/turn) there gains 5 [temporary Stamina](scc:mcdm.heroes.v1/rule.health/temporary-stamina) and their [speed](scc:mcdm.heroes.v1/rule.character/speed) increases by 2 until the end of their [turn](scc:mcdm.heroes.v1/rule.combat/turn).
+> When the light is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), the area within 1 square of the light becomes wreathed in sentient flames until the end of the encounter. An enemy that enters this area or starts their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) there takes 3 fire [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage) and is [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (EoT). You or any ally that enters this area or starts their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) there gains 5 [temporary Stamina](scc.v1:mcdm.heroes.v1/rule.health/temporary-stamina) and their [speed](scc.v1:mcdm.heroes.v1/rule.character/speed) increases by 2 until the end of their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn).

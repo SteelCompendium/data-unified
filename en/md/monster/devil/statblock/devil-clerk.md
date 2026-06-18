@@ -42,8 +42,8 @@ with_captain: +2 damage bonus to strikes
 > - **12-16:** 6 damage; push 2
 > - **17+:** 7 damage; push 3
 >
-> **Effect:** Any target [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to two or more clerks is [taunted](scc:mcdm.heroes.v1/condition/taunted) until the end of their next turn.
+> **Effect:** Any target [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to two or more clerks is [taunted](scc.v1:mcdm.heroes.v1/condition/taunted) until the end of their next turn.
 
 > ⭐️ **True Name**
 >
-> If a creature within 10 squares speaks the clerk's true name, the clerk loses their fire immunity and any nondamaging effects of their [signature ability](scc:mcdm.heroes.v1/rule.combat/signature-ability) until the end of the encounter.
+> If a creature within 10 squares speaks the clerk's true name, the clerk loses their fire immunity and any nondamaging effects of their [signature ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability) until the end of the encounter.

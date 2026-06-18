@@ -1,9 +1,9 @@
 ---
 features:
-    - body: Each enemy that starts their [turn](scc:mcdm.heroes.v1/rule.combat/turn) within 3 squares of the boil is I < AVERAGE [taunted](scc:mcdm.heroes.v1/condition/taunted) (EoT) by the boil, or I < WEAK [taunted](scc:mcdm.heroes.v1/condition/taunted) (EoT) by the boil and can't move further from it.
+    - body: Each enemy that starts their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) within 3 squares of the boil is I < AVERAGE [taunted](scc.v1:mcdm.heroes.v1/condition/taunted) (EoT) by the boil, or I < WEAK [taunted](scc.v1:mcdm.heroes.v1/condition/taunted) (EoT) by the boil and can't move further from it.
       icon: ⭐️
       name: Hunger Thrush
-    - body: When the boil is destroyed, each enemy within 3 squares of the boil takes acid [damage](scc:mcdm.heroes.v1/rule.damage/damage) equal to your level and is A < STRONG [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends).
+    - body: When the boil is destroyed, each enemy within 3 squares of the boil takes acid [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage) equal to your level and is A < STRONG [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends).
       icon: ⭐️
       name: Oh, It Pops
 name: The Boil
@@ -25,8 +25,8 @@ type: featureblock
 
 > ⭐️ **Hunger Thrush**
 >
-> Each enemy that starts their [turn](scc:mcdm.heroes.v1/rule.combat/turn) within 3 squares of the boil is I < AVERAGE [taunted](scc:mcdm.heroes.v1/condition/taunted) (EoT) by the boil, or I < WEAK [taunted](scc:mcdm.heroes.v1/condition/taunted) (EoT) by the boil and can't move further from it.
+> Each enemy that starts their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) within 3 squares of the boil is I < AVERAGE [taunted](scc.v1:mcdm.heroes.v1/condition/taunted) (EoT) by the boil, or I < WEAK [taunted](scc.v1:mcdm.heroes.v1/condition/taunted) (EoT) by the boil and can't move further from it.
 
 > ⭐️ **Oh, It Pops**
 >
-> When the boil is destroyed, each enemy within 3 squares of the boil takes acid [damage](scc:mcdm.heroes.v1/rule.damage/damage) equal to your level and is A < STRONG [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends).
+> When the boil is destroyed, each enemy within 3 squares of the boil takes acid [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage) equal to your level and is A < STRONG [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends).

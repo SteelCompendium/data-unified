@@ -39,13 +39,13 @@ type: statblock
 >
 > - **≤11:** 7 damage
 > - **12-16:** 11 damage
-> - **17+:** 14 damage; A < 2 [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)
+> - **17+:** 14 damage; A < 2 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
 >
-> **Effect:** The gweiadur [shifts](scc:mcdm.heroes.v1/movement/shifting) up to 3 squares.
+> **Effect:** The gweiadur [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to 3 squares.
 >
-> **3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice):** If this ability [restrains](scc:mcdm.heroes.v1/condition/restrained) the target, one enemy [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the target is also [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends).
+> **3 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice):** If this ability [restrains](scc.v1:mcdm.heroes.v1/condition/restrained) the target, one enemy [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the target is also [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends).
 
-> 🔳 **You Activated My Trap! (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
+> 🔳 **You Activated My Trap! (3 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Area, Magic, Ranged** |                  **Maneuver** |
 > |-------------------------|------------------------------:|
@@ -54,8 +54,8 @@ type: statblock
 > **Power Roll + 2:**
 >
 > - **≤11:** 4 damage; R < 0 the target is marked (save ends)
-> - **12-16:** 6 damage; R < 1 [slowed](scc:mcdm.heroes.v1/condition/slowed) and the target is marked (save ends)
-> - **17+:** 9 damage; R < 2 [slowed](scc:mcdm.heroes.v1/condition/slowed) and the target is marked (save ends)
+> - **12-16:** 6 damage; R < 1 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) and the target is marked (save ends)
+> - **17+:** 9 damage; R < 2 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) and the target is marked (save ends)
 >
 > **Effect:** Allies gain an edge on abilities against a target marked by any wode elf.
 

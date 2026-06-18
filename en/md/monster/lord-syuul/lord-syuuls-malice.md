@@ -11,9 +11,9 @@ features:
       power_roll:
         tiers:
             high: No effect.
-            low: 13 psychic damage; the target uses a [signature ability](scc:mcdm.heroes.v1/rule.combat/signature-ability) against a creature of Lord Syuul's choice
-            mid: 10 psychic damage; the target makes a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) against a creature of Lord Syuul's choice
-    - body: Lord Syuul takes an additional main action on his turn. He can use this feature even if he is [dazed](scc:mcdm.heroes.v1/condition/dazed).
+            low: 13 psychic damage; the target uses a [signature ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability) against a creature of Lord Syuul's choice
+            mid: 10 psychic damage; the target makes a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against a creature of Lord Syuul's choice
+    - body: Lord Syuul takes an additional main action on his turn. He can use this feature even if he is [dazed](scc.v1:mcdm.heroes.v1/condition/dazed).
       cost: 5 Malice
       icon: ☠️
       name: Solo Action
@@ -39,7 +39,7 @@ scc: mcdm.monsters.v1/monster.lord-syuul/lord-syuuls-malice
 type: featureblock
 ---
 
-At the start of Lord Syuul's turn, you can spend [Malice](scc:mcdm.monsters.v1/rule.monster/malice) to activate one of the following features.
+At the start of Lord Syuul's turn, you can spend [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice) to activate one of the following features.
 
 > 👤 **Guise (3 Malice)**
 >
@@ -49,13 +49,13 @@ At the start of Lord Syuul's turn, you can spend [Malice](scc:mcdm.monsters.v1/r
 >
 > Lord Syuul psionically plunders the minds of each creature within 2 squares of him. Each such creature makes a **Reason test**.
 >
-> - **≤11:** 13 psychic damage; the target uses a [signature ability](scc:mcdm.heroes.v1/rule.combat/signature-ability) against a creature of Lord Syuul's choice
-> - **12-16:** 10 psychic damage; the target makes a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) against a creature of Lord Syuul's choice
+> - **≤11:** 13 psychic damage; the target uses a [signature ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability) against a creature of Lord Syuul's choice
+> - **12-16:** 10 psychic damage; the target makes a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against a creature of Lord Syuul's choice
 > - **17+:** No effect.
 
 > ☠️ **Solo Action (5 Malice)**
 >
-> Lord Syuul takes an additional main action on his turn. He can use this feature even if he is [dazed](scc:mcdm.heroes.v1/condition/dazed).
+> Lord Syuul takes an additional main action on his turn. He can use this feature even if he is [dazed](scc.v1:mcdm.heroes.v1/condition/dazed).
 
 > 🌀 **Overpower (7 Malice)**
 >

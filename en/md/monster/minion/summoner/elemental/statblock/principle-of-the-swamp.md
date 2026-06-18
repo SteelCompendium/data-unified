@@ -37,8 +37,8 @@ The manes of these equine sludge dwellers extend and hook into things like stron
 
 > ⭐️ **Encroaching Strike**
 >
-> The principle's melee [free strikes](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) have a distance of R and inflict M < STRONG [grabbed](scc:mcdm.heroes.v1/condition/grabbed). The principle can have an unlimited number of creatures or objects [grabbed](scc:mcdm.heroes.v1/condition/grabbed). A creature [grabbed](scc:mcdm.heroes.v1/condition/grabbed) by this [strike](scc:mcdm.heroes.v1/rule.combat/strike) still has their normal [speed](scc:mcdm.heroes.v1/rule.character/speed), but can't move farther away from the principle.
+> The principle's melee [free strikes](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) have a distance of R and inflict M < STRONG [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed). The principle can have an unlimited number of creatures or objects [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed). A creature [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) by this [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) still has their normal [speed](scc.v1:mcdm.heroes.v1/rule.character/speed), but can't move farther away from the principle.
 
 > ⭐️ **Sludgefoot** 1 Essence
 >
-> When the principle is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), the area within 1 square of the principle becomes [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain) for enemies until the end of the encounter. An enemy that ends their [turn](scc:mcdm.heroes.v1/rule.combat/turn) in the affected area is pulled 4 toward the center of the area.
+> When the principle is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), the area within 1 square of the principle becomes [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain) for enemies until the end of the encounter. An enemy that ends their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) in the affected area is pulled 4 toward the center of the area.

@@ -3,7 +3,7 @@ action_type: Maneuver
 class: troubadour
 cost: 5 Drama
 distance: Self
-effect: You [turn](scc:mcdm.heroes.v1/rule.combat/turn) invisible and create a magical illusion of your corpse falling in your space. While you are invisible, you gain a +3 [bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to [speed](scc:mcdm.heroes.v1/rule.character/speed) and you ignore [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain). The illusion and your invisibility last until the end of your next [turn](scc:mcdm.heroes.v1/rule.combat/turn), or until the illusion is interacted with, you take damage, or you use a main action or a maneuver.
+effect: You [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) invisible and create a magical illusion of your corpse falling in your space. While you are invisible, you gain a +3 [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to [speed](scc.v1:mcdm.heroes.v1/rule.character/speed) and you ignore [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain). The illusion and your invisibility last until the end of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), or until the illusion is interacted with, you take damage, or you use a main action or a maneuver.
 flavor: O happy dagger, this is thy sheath!
 keywords:
     - Magic
@@ -21,4 +21,4 @@ type: ability
 |-------------|-------------:|
 | **📏 Self** |  **🎯 Self** |
 
-**Effect:** You [turn](scc:mcdm.heroes.v1/rule.combat/turn) invisible and create a magical illusion of your corpse falling in your space. While you are invisible, you gain a +3 [bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to [speed](scc:mcdm.heroes.v1/rule.character/speed) and you ignore [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain). The illusion and your invisibility last until the end of your next [turn](scc:mcdm.heroes.v1/rule.combat/turn), or until the illusion is interacted with, you take damage, or you use a main action or a maneuver.
+**Effect:** You [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) invisible and create a magical illusion of your corpse falling in your space. While you are invisible, you gain a +3 [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to [speed](scc.v1:mcdm.heroes.v1/rule.character/speed) and you ignore [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain). The illusion and your invisibility last until the end of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), or until the illusion is interacted with, you take damage, or you use a main action or a maneuver.

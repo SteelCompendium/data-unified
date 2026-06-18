@@ -1,13 +1,13 @@
 ---
 features:
     - icon: "\U0001F300"
-      intro: As a maneuver, a creature [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to a field ballista can make an **Agility test**.
+      intro: As a maneuver, a creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to a field ballista can make an **Agility test**.
       name: Deactivate
       power_roll:
         tiers:
             high: The field ballista is deactivated and can't be used.
             low: The creature accidentally activates the **Release Bolt** ability.
-            mid: The field ballista is deactivated but the creature is [slowed](scc:mcdm.heroes.v1/condition/slowed) (EoT).
+            mid: The field ballista is deactivated but the creature is [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (EoT).
     - distance: Ranged 20
       icon: "\U0001F3F9"
       keywords:
@@ -72,9 +72,9 @@ features:
       power_roll:
         formula: + 2
         tiers:
-            high: 10 damage; M < 2 [slowed](scc:mcdm.heroes.v1/condition/slowed) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
+            high: 10 damage; M < 2 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
             low: 4 damage
-            mid: 7 damage; M < 1 [slowed](scc:mcdm.heroes.v1/condition/slowed) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
+            mid: 7 damage; M < 1 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
       sections:
         - label: Effect
           text: This ability can't be used again until the field ballista is reloaded.
@@ -95,9 +95,9 @@ features:
             mid: Pull 3
       sections:
         - label: Special
-          text: The target must be [slowed](scc:mcdm.heroes.v1/condition/slowed) by the field ballista.
+          text: The target must be [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) by the field ballista.
         - label: Effect
-          text: This [forced movement](scc:mcdm.heroes.v1/movement/forced-movement) triggers [opportunity attacks](scc:mcdm.heroes.v1/rule.combat/opportunity-attack).
+          text: This [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) triggers [opportunity attacks](scc.v1:mcdm.heroes.v1/rule.combat/opportunity-attack).
       target: One creature
       usage: Main action (Adjacent creature)
 flavor: A massive crossbow fires thick metal bolts with devastating effect.
@@ -124,10 +124,10 @@ A massive crossbow fires thick metal bolts with devastating effect.
 
 > 🌀 **Deactivate**
 >
-> As a maneuver, a creature [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to a field ballista can make an **Agility test**.
+> As a maneuver, a creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to a field ballista can make an **Agility test**.
 >
 > - **≤11:** The creature accidentally activates the **Release Bolt** ability.
-> - **12-16:** The field ballista is deactivated but the creature is [slowed](scc:mcdm.heroes.v1/condition/slowed) (EoT).
+> - **12-16:** The field ballista is deactivated but the creature is [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (EoT).
 > - **17+:** The field ballista is deactivated and can't be used.
 
 > 🏹 **Release Bolt**
@@ -183,8 +183,8 @@ A massive crossbow fires thick metal bolts with devastating effect.
 > **Power Roll + 2:**
 >
 > - **≤11:** 4 damage
-> - **12-16:** 7 damage; M < 1 [slowed](scc:mcdm.heroes.v1/condition/slowed) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
-> - **17+:** 10 damage; M < 2 [slowed](scc:mcdm.heroes.v1/condition/slowed) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
+> - **12-16:** 7 damage; M < 1 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
+> - **17+:** 10 damage; M < 2 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
 >
 > **Effect:** This ability can't be used again until the field ballista is reloaded.
 >
@@ -194,7 +194,7 @@ A massive crossbow fires thick metal bolts with devastating effect.
 > |----------------------------|------------------------------------:|
 > | **📏 Ranged 20**           |                 **🎯 One creature** |
 >
-> **Special:** The target must be [slowed](scc:mcdm.heroes.v1/condition/slowed) by the field ballista.
+> **Special:** The target must be [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) by the field ballista.
 >
 > **Power Roll + 2:**
 >
@@ -202,4 +202,4 @@ A massive crossbow fires thick metal bolts with devastating effect.
 > - **12-16:** Pull 3
 > - **17+:** Pull 5
 >
-> **Effect:** This [forced movement](scc:mcdm.heroes.v1/movement/forced-movement) triggers [opportunity attacks](scc:mcdm.heroes.v1/rule.combat/opportunity-attack).
+> **Effect:** This [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) triggers [opportunity attacks](scc.v1:mcdm.heroes.v1/rule.combat/opportunity-attack).

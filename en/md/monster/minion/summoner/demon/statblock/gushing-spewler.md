@@ -36,12 +36,12 @@ A spewler's mouth makes up most of its size. They unleash torrents of acid and b
 
 > ⭐️ **Gushing Strike**
 >
-> The spewler's ranged [free strikes](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) have a distance of 10 and [slides](scc:mcdm.heroes.v1/movement/forced-movement) the target R + 2 squares.
+> The spewler's ranged [free strikes](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) have a distance of 10 and [slides](scc.v1:mcdm.heroes.v1/movement/forced-movement) the target R + 2 squares.
 
 > ⭐️ **Spew Slide**
 >
-> Each time the spewler takes [damage](scc:mcdm.heroes.v1/rule.damage/damage), the spewler [shifts](scc:mcdm.heroes.v1/movement/shifting) 2 after all effects resolve. Each square they exit during this movement is covered in slime until the end of the encounter. An enemy has a [bane](scc:mcdm.heroes.v1/rule.dice/bane) on [strikes](scc:mcdm.heroes.v1/rule.combat/strike) while occupying a slimed square.
+> Each time the spewler takes [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage), the spewler [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) 2 after all effects resolve. Each square they exit during this movement is covered in slime until the end of the encounter. An enemy has a [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) on [strikes](scc.v1:mcdm.heroes.v1/rule.combat/strike) while occupying a slimed square.
 
 > ⭐️ **Soulsight**
 >
-> Each creature [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the spewler can't be hidden from them.
+> Each creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the spewler can't be hidden from them.

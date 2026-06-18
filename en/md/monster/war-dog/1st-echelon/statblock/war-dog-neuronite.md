@@ -31,7 +31,7 @@ type: statblock
 |  **Psychic 2**<br>Immunity  | **Fly**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |       **0**<br>Might        |  **+1**<br>Agility  |  **0**<br>Reason  |  **0**<br>Intuition   |  **+2**<br>Presence  |
 
-> ❇️ **Synlirii Grafts ([Signature Ability](scc:mcdm.heroes.v1/rule.combat/signature-ability))**
+> ❇️ **Synlirii Grafts ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
 > | **Area, Psionic** |               **Main action** |
 > |-------------------|------------------------------:|
@@ -39,9 +39,9 @@ type: statblock
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 1 psychic damage; vertical [slide](scc:mcdm.heroes.v1/movement/forced-movement) 1
-> - **12-16:** 2 psychic damage; vertical [slide](scc:mcdm.heroes.v1/movement/forced-movement) 2
-> - **17+:** 3 psychic damage; vertical [slide](scc:mcdm.heroes.v1/movement/forced-movement) 3
+> - **≤11:** 1 psychic damage; vertical [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1
+> - **12-16:** 2 psychic damage; vertical [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2
+> - **17+:** 3 psychic damage; vertical [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3
 
 > 🏹 **Posthumous Promotion**
 >
@@ -49,9 +49,9 @@ type: statblock
 > |-------------------|-------------------:|
 > | **📏 Ranged 10**  | **🎯 One war dog** |
 >
-> **Effect:** If the target has a loyalty collar, they are reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina).
+> **Effect:** If the target has a loyalty collar, they are reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).
 
-> ❇️ **The Voice (1 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
+> ❇️ **The Voice (1 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Area, Psionic** |                  **Maneuver** |
 > |-------------------|------------------------------:|
@@ -61,4 +61,4 @@ type: statblock
 
 > ⭐️ **Loyalty Collar**
 >
-> When the neuronite is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), their loyalty collar explodes, dealing 1d6 damage to each [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) enemy and object.
+> When the neuronite is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), their loyalty collar explodes, dealing 1d6 damage to each [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) enemy and object.

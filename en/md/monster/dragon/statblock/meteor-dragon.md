@@ -27,9 +27,9 @@ type: statblock
 | **-**<br>Immunity | **Fly**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |   
 |  **+5**<br>Might  |  **+5**<br>Agility  |  **+3**<br>Reason  |  **+3**<br>Intuition  |  **+5**<br>Presence  |
 
-> ☠️ **[Solo](scc:mcdm.monsters.v1/rule.organization/solo) Monster**
+> ☠️ **[Solo](scc.v1:mcdm.monsters.v1/rule.organization/solo) Monster**
 >
-> **[End Effect](scc:mcdm.monsters.v1/rule.monster/end-effect):** At the end of each of their turns, the dragon can take 20 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way.
+> **[End Effect](scc.v1:mcdm.monsters.v1/rule.monster/end-effect):** At the end of each of their turns, the dragon can take 20 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way.
 >
 > **Solo Turns:** The dragon can take two turns each round. They can't take turns consecutively.
 
@@ -49,7 +49,7 @@ type: statblock
 > - **12-16:** 16 sonic damage; the target is dragonsealed (save ends)
 > - **17+:** 10 sonic damage
 >
-> A dragonsealed target emits a golden aura, and takes 2 damage per square moved when falling or when [force moved](scc:mcdm.heroes.v1/movement/forced-movement) into an obstacle.
+> A dragonsealed target emits a golden aura, and takes 2 damage per square moved when falling or when [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement) into an obstacle.
 
 > ⚔️ **Cosmic Tail Ray**
 >
@@ -59,23 +59,23 @@ type: statblock
 >
 > **Power Roll + 5:**
 >
-> - **≤11:** 15 holy damage; A < 4 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
-> - **12-16:** 21 holy damage; A < 5 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
-> - **17+:** 25 holy damage; A < 6 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
+> - **≤11:** 15 holy damage; A < 4 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+> - **12-16:** 21 holy damage; A < 5 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+> - **17+:** 25 holy damage; A < 6 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
 >
-> **Effect:** If a target made [weakened](scc:mcdm.heroes.v1/condition/weakened) this way is already [weakened](scc:mcdm.heroes.v1/condition/weakened), they are instead [dazed](scc:mcdm.heroes.v1/condition/dazed) until the end of their next turn.
+> **Effect:** If a target made [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) this way is already [weakened](scc.v1:mcdm.heroes.v1/condition/weakened), they are instead [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) until the end of their next turn.
 
 > ⭐️ **Crescent Claws**
 >
-> Once per turn, the dragon chooses a target within 3 squares. The dragon can make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) against the target, and ignores [banes](scc:mcdm.heroes.v1/rule.dice/bane) when using abilities against the target until the start of their next turn.
+> Once per turn, the dragon chooses a target within 3 squares. The dragon can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against the target, and ignores [banes](scc.v1:mcdm.heroes.v1/rule.dice/bane) when using abilities against the target until the start of their next turn.
 
-> ❇️ **Investiture of Gravity (5 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
+> ❇️ **Investiture of Gravity (5 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Area, Magic** |                  **Maneuver** |
 > |-----------------|------------------------------:|
 > | **📏 15 burst** | **🎯 Each enemy in the area** |
 >
-> **Effect:** Each target must be dragonsealed. The dragon chooses a direction and vertical slides each target 10 squares in that direction, ignoring [stability](scc:mcdm.heroes.v1/rule.character/stability). A target who strikes an obstacle takes damage as if they had fallen the [forced movement](scc:mcdm.heroes.v1/movement/forced-movement) distance.
+> **Effect:** Each target must be dragonsealed. The dragon chooses a direction and vertical slides each target 10 squares in that direction, ignoring [stability](scc.v1:mcdm.heroes.v1/rule.character/stability). A target who strikes an obstacle takes damage as if they had fallen the [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) distance.
 
 > ❗️ **Field Collapse**
 >
@@ -87,7 +87,7 @@ type: statblock
 >
 > **Effect:** The dragon halves the damage. Each enemy and object in the area of the dragon's Voidshroud Wyrmscale Aura trait takes 5 sonic damage and is pulled up to 5 squares toward the dragon. The area of the wyrmscale aura then resets to 1.
 
-> ❗️ **A Hero Faces the Void (2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
+> ❗️ **A Hero Faces the Void (2 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Magic, Ranged** |      **Free triggered action** |
 > |-------------------|-------------------------------:|
@@ -97,31 +97,31 @@ type: statblock
 >
 > **Power Roll + 5:**
 >
-> - **≤11:** 10 psychic damage; P < 4 [frightened](scc:mcdm.heroes.v1/condition/frightened) (save ends)
-> - **12-16:** 16 psychic damage; P < 5 [frightened](scc:mcdm.heroes.v1/condition/frightened) (save ends)
-> - **17+:** 20 psychic damage; P < 6 [frightened](scc:mcdm.heroes.v1/condition/frightened) (save ends)
+> - **≤11:** 10 psychic damage; P < 4 [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
+> - **12-16:** 16 psychic damage; P < 5 [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
+> - **17+:** 20 psychic damage; P < 6 [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
 >
-> **Effect:** While [frightened](scc:mcdm.heroes.v1/condition/frightened) this way, the target can't use the triggering ability.
+> **Effect:** While [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) this way, the target can't use the triggering ability.
 
-> ☠️ **Impactful Arrival ([Villain Action](scc:mcdm.monsters.v1/rule.monster/villain-action) 1)**
+> ☠️ **Impactful Arrival ([Villain Action](scc.v1:mcdm.monsters.v1/rule.monster/villain-action) 1)**
 >
 > | **Area, Magic**     |                                       **-** |
 > |---------------------|--------------------------------------------:|
 > | **📏 1-mile burst** | **🎯 Each creature and object in the area** |
 >
-> **Effect:** Each target takes 30 fire damage, and if they have M < 5, they are knocked [prone](scc:mcdm.heroes.v1/condition/prone).
+> **Effect:** Each target takes 30 fire damage, and if they have M < 5, they are knocked [prone](scc.v1:mcdm.heroes.v1/condition/prone).
 >
 > **Special:** The dragon can use this ability before the encounter begins.
 
-> ☠️ **Burning Aurora ([Villain Action](scc:mcdm.monsters.v1/rule.monster/villain-action) 2)**
+> ☠️ **Burning Aurora ([Villain Action](scc.v1:mcdm.monsters.v1/rule.monster/villain-action) 2)**
 >
 > | **-**       |       **-** |
 > |-------------|------------:|
 > | **📏 Self** | **🎯 Self** |
 >
-> **Effect:** Until the end of the encounter, each enemy who is dragonsealed and [weakened](scc:mcdm.heroes.v1/condition/weakened) and who the dragon has [line of effect](scc:mcdm.heroes.v1/rule.combat/line-of-effect) to loses 1 of their Heroic Resource at the start of each of their turns (to a minimum of 0). The dragon then uses their Cosmic Tail Ray ability with a double [edge](scc:mcdm.heroes.v1/rule.dice/edge), targeting four creatures or objects.
+> **Effect:** Until the end of the encounter, each enemy who is dragonsealed and [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) and who the dragon has [line of effect](scc.v1:mcdm.heroes.v1/rule.combat/line-of-effect) to loses 1 of their Heroic Resource at the start of each of their turns (to a minimum of 0). The dragon then uses their Cosmic Tail Ray ability with a double [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge), targeting four creatures or objects.
 
-> ☠️ **Voidlight Breath ([Villain Action](scc:mcdm.monsters.v1/rule.monster/villain-action) 3)**
+> ☠️ **Voidlight Breath ([Villain Action](scc.v1:mcdm.monsters.v1/rule.monster/villain-action) 3)**
 >
 > | **Area, Magic**            |                                    **-** |
 > |----------------------------|-----------------------------------------:|
@@ -133,4 +133,4 @@ type: statblock
 > - **12-16:** 21 damage; I < 5 the target is annihilated
 > - **17+:** 15 damage; I < 4 the target is annihilated
 >
-> An annihilated target must make the test again, decreasing the [potency](scc:mcdm.heroes.v1/rule.character/potency) for themself by 2 each time they are annihilated. A creature reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) by this dies and their soul is destroyed.
+> An annihilated target must make the test again, decreasing the [potency](scc.v1:mcdm.heroes.v1/rule.character/potency) for themself by 2 each time they are annihilated. A creature reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) by this dies and their soul is destroyed.

@@ -28,7 +28,7 @@ type: statblock
 |      **-**<br>Immunity      | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |       **+1**<br>Might       | **+2**<br>Agility |  **0**<br>Reason  |  **0**<br>Intuition   |  **0**<br>Presence   |
 
-> 🗡 **Chainsaw Whip ([Signature Ability](scc:mcdm.heroes.v1/rule.combat/signature-ability))**
+> 🗡 **Chainsaw Whip ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
 > | **Melee, Strike, Weapon** |                **Main action** |
 > |---------------------------|-------------------------------:|
@@ -37,10 +37,10 @@ type: statblock
 > **Power Roll + 2:**
 >
 > - **≤11:** 3 damage
-> - **12-16:** 4 damage; [pull](scc:mcdm.heroes.v1/movement/forced-movement) 1
-> - **17+:** 5 damage; [pull](scc:mcdm.heroes.v1/movement/forced-movement) 2
+> - **12-16:** 4 damage; [pull](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1
+> - **17+:** 5 damage; [pull](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2
 >
-> **Effect:** The eviscerite can automatically [grab](scc:mcdm.heroes.v1/condition/grabbed) a target [pulled](scc:mcdm.heroes.v1/movement/forced-movement) [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to them this way.
+> **Effect:** The eviscerite can automatically [grab](scc.v1:mcdm.heroes.v1/condition/grabbed) a target [pulled](scc.v1:mcdm.heroes.v1/movement/forced-movement) [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to them this way.
 
 > 🏹 **Posthumous Promotion**
 >
@@ -48,8 +48,8 @@ type: statblock
 > |-------------------|-------------------:|
 > | **📏 Ranged 10**  | **🎯 One war dog** |
 >
-> **Effect:** If the target has a loyalty collar, they are reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina).
+> **Effect:** If the target has a loyalty collar, they are reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).
 
 > ⭐️ **Loyalty Collar**
 >
-> When the eviscerite is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), their loyalty collar explodes, dealing 1d6 damage to each [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) enemy and object.
+> When the eviscerite is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), their loyalty collar explodes, dealing 1d6 damage to each [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) enemy and object.

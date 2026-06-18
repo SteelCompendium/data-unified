@@ -56,7 +56,7 @@ type: statblock
 
 > ⭐️ **Infernal Ichor**
 >
-> When the flameslinger is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), they spray buring blood. Each creature [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the flameslinger takes 3 fire damage.
+> When the flameslinger is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), they spray buring blood. Each creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the flameslinger takes 3 fire damage.
 
 ######## Level 7 Retainer Advancement Ability
 
@@ -72,7 +72,7 @@ type: statblock
 > - **12-16:** 12 damage; pull 2
 > - **17+:** 16 damage, pull 4
 >
-> **Effect:** A target who is pulled [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the flameslinger and who has P < AVERAGE is knocked [prone](scc:mcdm.heroes.v1/condition/prone).
+> **Effect:** A target who is pulled [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the flameslinger and who has P < AVERAGE is knocked [prone](scc.v1:mcdm.heroes.v1/condition/prone).
 
 ######## Level 10 Retainer Advancement Ability
 
@@ -84,8 +84,8 @@ type: statblock
 >
 > **Power Roll + highest characteristic:**
 >
-> - **≤11:** 8 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 2
-> - **12-16:** 12 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 3
-> - **17+:** 16 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 5
+> - **≤11:** 8 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2
+> - **12-16:** 12 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3
+> - **17+:** 16 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5
 >
 > **Effect:** If the flameslinger's mentor is within 10 squares of the flameslinger, the mentor can be the source of the burst instead of the flameslinger.

@@ -28,7 +28,7 @@ type: statblock
 |     **-**<br>Immunity      | **Fly, hover**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |      **-1**<br>Might       |     **+1**<br>Agility      | **+4**<br>Reason  |  **+1**<br>Intuition  |  **-1**<br>Presence  |
 
-> 🏹 **Compulsion Beam ([Signature Ability](scc:mcdm.heroes.v1/rule.combat/signature-ability))**
+> 🏹 **Compulsion Beam ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
 > | **Psionic, Ranged, Strike** |     **Main action** |
 > |-----------------------------|--------------------:|
@@ -40,7 +40,7 @@ type: statblock
 > - **12-16:** I < 3 the target is charmed
 > - **17+:** I < 4 the target is charmed
 >
-> **Effect:** As a free [triggered action](scc:mcdm.heroes.v1/rule.combat/triggered-action), a charmed target immediately moves up to their speed and can make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) against an enemy of Xorannox's choice. The target is then no longer charmed.
+> **Effect:** As a free [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action), a charmed target immediately moves up to their speed and can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against an enemy of Xorannox's choice. The target is then no longer charmed.
 
 > ⭐️ **Psionic Barrier**
 >

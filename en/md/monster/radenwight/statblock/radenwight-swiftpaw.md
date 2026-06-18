@@ -29,7 +29,7 @@ with_captain: Gain an edge on strikes
 |  **-**<br>Immunity   | **Climb**<br>Movement |        -         | **Gain an edge on strikes**<br>With Captain |  **-**<br>Weakness   |
 |    **0**<br>Might    |   **+2**<br>Agility   | **+1**<br>Reason |             **0**<br>Intuition              |  **-1**<br>Presence  |
 
-> 🗡 **Rapier Flunge ([Signature Ability](scc:mcdm.heroes.v1/rule.combat/signature-ability))**
+> 🗡 **Rapier Flunge ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
 > | **Melee, Strike, Weapon** |                          **Main action** |
 > |---------------------------|-----------------------------------------:|
@@ -37,9 +37,9 @@ with_captain: Gain an edge on strikes
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 1 damage; [slide](scc:mcdm.heroes.v1/movement/forced-movement) 1, the swiftpaw can [shift](scc:mcdm.heroes.v1/movement/shifting) 1 square
-> - **12-16:** 2 damage; [slide](scc:mcdm.heroes.v1/movement/forced-movement) 2, the swiftpaw [shifts](scc:mcdm.heroes.v1/movement/shifting) up to 2 squares
-> - **17+:** 3 damage; [slide](scc:mcdm.heroes.v1/movement/forced-movement) 3, the swiftpaw [shifts](scc:mcdm.heroes.v1/movement/shifting) up to 3 squares
+> - **≤11:** 1 damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1, the swiftpaw can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) 1 square
+> - **12-16:** 2 damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2, the swiftpaw [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to 2 squares
+> - **17+:** 3 damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3, the swiftpaw [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to 3 squares
 
 > ❗️ **Ready Rodent**
 >
@@ -49,4 +49,4 @@ with_captain: Gain an edge on strikes
 >
 > **Trigger:** An ally deals damage to the target.
 >
-> **Effect:** The swiftpaw makes a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) against the target.
+> **Effect:** The swiftpaw makes a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against the target.

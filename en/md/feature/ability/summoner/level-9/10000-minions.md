@@ -2,7 +2,7 @@
 action_type: Main action
 class: summoner
 distance: Special
-effect: Until the end of the encounter or you are [dying](scc:mcdm.heroes.v1/rule.health/dying), each square on the ground is considered teeming with minions. An enemy that ends their [turn](scc:mcdm.heroes.v1/rule.combat/turn) in an affected square takes 5 [damage](scc:mcdm.heroes.v1/rule.damage/damage). This [damage](scc:mcdm.heroes.v1/rule.damage/damage) can't be reduced.
+effect: Until the end of the encounter or you are [dying](scc.v1:mcdm.heroes.v1/rule.health/dying), each square on the ground is considered teeming with minions. An enemy that ends their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) in an affected square takes 5 [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage). This [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage) can't be reduced.
 flavor: The battle is now a war. Your entire army storms the field.
 keywords:
     - Magic
@@ -19,6 +19,6 @@ type: ability
 |-----------|----------------:|
 | **📏 Special** | **🎯 Special** |
 
-**Effect:** Until the end of the encounter or you are [dying](scc:mcdm.heroes.v1/rule.health/dying), each square on the ground is considered teeming with minions. An enemy that ends their [turn](scc:mcdm.heroes.v1/rule.combat/turn) in an affected square takes 5 [damage](scc:mcdm.heroes.v1/rule.damage/damage). This [damage](scc:mcdm.heroes.v1/rule.damage/damage) can't be reduced.
+**Effect:** Until the end of the encounter or you are [dying](scc.v1:mcdm.heroes.v1/rule.health/dying), each square on the ground is considered teeming with minions. An enemy that ends their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) in an affected square takes 5 [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage). This [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage) can't be reduced.
 
-Additionally, you can use [Minion Bridge](scc:mcdm.summoner.v1/feature.ability.summoner.level-1/minion-bridge) treating each affected square as an eligible minion (up to a maximum of 10 additional squares).
+Additionally, you can use [Minion Bridge](scc.v1:mcdm.summoner.v1/feature.ability.summoner.level-1/minion-bridge) treating each affected square as an eligible minion (up to a maximum of 10 additional squares).

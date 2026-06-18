@@ -39,11 +39,11 @@ weaknesses:
 >
 > - **≤11:** 9 damage
 > - **12-16:** 12 damage
-> - **17+:** 14 damage; I < 5 the target is [slowed](scc:mcdm.heroes.v1/condition/slowed) and [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
+> - **17+:** 14 damage; I < 5 the target is [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) and [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
 >
-> **Special:** The effects of being [slowed](scc:mcdm.heroes.v1/condition/slowed) and [weakened](scc:mcdm.heroes.v1/condition/weakened) this way can't be ignored.
+> **Special:** The effects of being [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) and [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) this way can't be ignored.
 
-> 🔳 **Soul Flay (5 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
+> 🔳 **Soul Flay (5 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Area**                   |                  **Maneuver** |
 > |----------------------------|------------------------------:|                  
@@ -51,15 +51,15 @@ weaknesses:
 >
 > **Power Roll + 5:**
 >
-> - **≤11:** 4 psychic damage; P < 3 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
-> - **12-16:** 7 psychic damage; P < 4 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
-> - **17+:** 9 psychic damage; P < 5 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
+> - **≤11:** 4 psychic damage; P < 3 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
+> - **12-16:** 7 psychic damage; P < 4 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
+> - **17+:** 9 psychic damage; P < 5 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
 >
-> **Effect:** Any creature who is [bleeding](scc:mcdm.heroes.v1/condition/bleeding) from this ability loses 2d6 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) instead of 1d6.
+> **Effect:** Any creature who is [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) from this ability loses 2d6 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) instead of 1d6.
 
 > ⭐️ **Lethe**
 >
-> While the vicisitator is [winded](scc:mcdm.heroes.v1/rule.health/winded), they gain an [edge](scc:mcdm.heroes.v1/rule.dice/edge) on strikes, and any strike made against them gains an edge.
+> While the vicisitator is [winded](scc.v1:mcdm.heroes.v1/rule.health/winded), they gain an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on strikes, and any strike made against them gains an edge.
 
 > ⭐️ **Soulsight**
 >

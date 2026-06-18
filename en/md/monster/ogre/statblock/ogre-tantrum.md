@@ -28,21 +28,21 @@ with_captain: +5 bonus to ranged distance
 | **-**<br>Immunity | **-**<br>Movement |         -         | **+5 bonus to ranged distance**<br>With Captain |   **-**<br>Weakness   |
 |  **+4**<br>Might  | **+2**<br>Agility | **-1**<br>Reason  |               **0**<br>Intuition                |  **-1**<br>Presence   |
 
-> 🏹 **Throw Fit ([Signature Ability](scc:mcdm.heroes.v1/rule.combat/signature-ability))**
+> 🏹 **Throw Fit ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
 > | **Ranged, Strike, Weapon** |                          **Main action** |
 > |----------------------------|-----------------------------------------:|
 > | **📏 Ranged 8**            | **🎯 One creature or object per minion** |
 >
-> **Effect:** The tantrum unearths a rock or a hunk of terrain and tosses it. If a size 1L, 1M, or 1S creature or object [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the tantrum has A < 3 the tantrum can [grab](scc:mcdm.heroes.v1/condition/grabbed) them to use as the projectile for this ability.
+> **Effect:** The tantrum unearths a rock or a hunk of terrain and tosses it. If a size 1L, 1M, or 1S creature or object [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the tantrum has A < 3 the tantrum can [grab](scc.v1:mcdm.heroes.v1/condition/grabbed) them to use as the projectile for this ability.
 >
 > **Power Roll + 4:**
 >
 > - **≤11:** 4 damage
-> - **12-16:** 7 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 2
-> - **17+:** 8 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 4
+> - **12-16:** 7 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2
+> - **17+:** 8 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 4
 >
-> A creature or object used as a projectile is vertically [pushed](scc:mcdm.heroes.v1/movement/forced-movement) 8 (or 13 with a captain), ignoring stability.
+> A creature or object used as a projectile is vertically [pushed](scc.v1:mcdm.heroes.v1/movement/forced-movement) 8 (or 13 with a captain), ignoring stability.
 
 > ⭐️ **Excessive Anger**
 >

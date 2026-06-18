@@ -40,14 +40,14 @@ The collective of blood-eyed pixie warriors that make up a rosenthall are also k
 > |---------------------------|----------------:|
 > | **📏 Melee 2** | **🎯 One creature or object per minion** |
 >
-> 3 [damage](scc:mcdm.heroes.v1/rule.damage/damage); pull 2; A < WEAK [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (EoT)
+> 3 [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage); pull 2; A < WEAK [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (EoT)
 >
-> 6 [damage](scc:mcdm.heroes.v1/rule.damage/damage); pull 3; A < AVERAGE [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (EoT)
+> 6 [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage); pull 3; A < AVERAGE [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (EoT)
 >
-> 8 [damage](scc:mcdm.heroes.v1/rule.damage/damage); pull 4; A < STRONG [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (EoT)
+> 8 [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage); pull 4; A < STRONG [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (EoT)
 >
-> **Effect:** A target can't [shift](scc:mcdm.heroes.v1/movement/shifting) while [bleeding](scc:mcdm.heroes.v1/condition/bleeding) from this ability.
+> **Effect:** A target can't [shift](scc.v1:mcdm.heroes.v1/movement/shifting) while [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) from this ability.
 
 > ⭐️ **Swarm**
 >
-> The rosenthall can move through squares as if they were [size](scc:mcdm.heroes.v1/rule.character/size) 1T, and can occupy other creatures' spaces. At the start of the rosenthall's [turn](scc:mcdm.heroes.v1/rule.combat/turn), they deal 2 [damage](scc:mcdm.heroes.v1/rule.damage/damage) to each enemy whose space they share.
+> The rosenthall can move through squares as if they were [size](scc.v1:mcdm.heroes.v1/rule.character/size) 1T, and can occupy other creatures' spaces. At the start of the rosenthall's [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), they deal 2 [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage) to each enemy whose space they share.

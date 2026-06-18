@@ -38,7 +38,7 @@ type: statblock
 >
 > - **≤11:** 5 damage
 > - **12-16:** 9 damage
-> - **17+:** 12 damage; M < STRONG [prone](scc:mcdm.heroes.v1/condition/prone)
+> - **17+:** 12 damage; M < STRONG [prone](scc.v1:mcdm.heroes.v1/condition/prone)
 
 > ❗️ **Retaliatory Strike**
 >
@@ -48,7 +48,7 @@ type: statblock
 >
 > **Trigger:** A creature within distance deals damage to the gorer.
 >
-> **Effect:** The gorer uses the [Charge](scc:mcdm.heroes.v1/feature.common.main-actions/charge) main action and Gore against the target.
+> **Effect:** The gorer uses the [Charge](scc.v1:mcdm.heroes.v1/feature.common.main-actions/charge) main action and Gore against the target.
 
 > ⭐️ **Minotaur Sense**
 >
@@ -64,7 +64,7 @@ type: statblock
 >
 > **Trigger:** The gorer damages a creature within distance using Gore.
 >
-> **Effect:** The target is pushed up to 3 squares. If the target has [stability](scc:mcdm.heroes.v1/rule.character/stability) 0, they are also knocked [prone](scc:mcdm.heroes.v1/condition/prone).
+> **Effect:** The target is pushed up to 3 squares. If the target has [stability](scc.v1:mcdm.heroes.v1/rule.character/stability) 0, they are also knocked [prone](scc.v1:mcdm.heroes.v1/condition/prone).
 
 ######## Level 7 Retainer Advancement Ability
 
@@ -74,7 +74,7 @@ type: statblock
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
-> **Effect:** The gorer gains 3 [surges](scc:mcdm.heroes.v1/rule.resource/surge), and until the start of the gorer's next turn, [strikes](scc:mcdm.heroes.v1/rule.combat/strike) made against them and their mentor take a bane.
+> **Effect:** The gorer gains 3 [surges](scc.v1:mcdm.heroes.v1/rule.resource/surge), and until the start of the gorer's next turn, [strikes](scc.v1:mcdm.heroes.v1/rule.combat/strike) made against them and their mentor take a bane.
 
 ######## Level 10 Retainer Advancement Ability
 
@@ -86,6 +86,6 @@ type: statblock
 >
 > **Power Roll + highest characteristic:**
 >
-> - **≤11:** 11 damage; M < WEAK [bleeding](scc:mcdm.heroes.v1/condition/bleeding) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
-> - **12-16:** 16 damage; M < AVERAGE [bleeding](scc:mcdm.heroes.v1/condition/bleeding) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
-> - **17+:** 21 damage; M < STRONG [prone](scc:mcdm.heroes.v1/condition/prone) and can't stand ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends).
+> - **≤11:** 11 damage; M < WEAK [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
+> - **12-16:** 16 damage; M < AVERAGE [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
+> - **17+:** 21 damage; M < STRONG [prone](scc.v1:mcdm.heroes.v1/condition/prone) and can't stand ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends).

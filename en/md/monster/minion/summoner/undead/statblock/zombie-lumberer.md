@@ -35,8 +35,8 @@ These massive, animated ogre corpses still maintain their incredible grip streng
 
 > ⭐️ **Zombie Clutch**
 >
-> The lumberer's melee [free strikes](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) inflict A < AVERAGE [grabbed](scc:mcdm.heroes.v1/condition/grabbed). A creature or object that starts their turn [grabbed](scc:mcdm.heroes.v1/condition/grabbed) by the lumberer takes corruption damage equal to your [Reason](scc:mcdm.heroes.v1/rule.character/reason).
+> The lumberer's melee [free strikes](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) inflict A < AVERAGE [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed). A creature or object that starts their turn [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) by the lumberer takes corruption damage equal to your [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason).
 
 > ⭐️ **Death Grasp**
 >
-> When the lumberer is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), they can latch onto an adjacent enemy before being destroyed. The enemy is M < STRONG [restrained](scc:mcdm.heroes.v1/condition/restrained) ([EoT](scc:mcdm.heroes.v1/rule.combat/end-of-turn)).
+> When the lumberer is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), they can latch onto an adjacent enemy before being destroyed. The enemy is M < STRONG [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) ([EoT](scc.v1:mcdm.heroes.v1/rule.combat/end-of-turn)).

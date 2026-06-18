@@ -42,14 +42,14 @@ This elemental is a pure-white vulpine with six legs that freely sprints through
 > |---------------------------|----------------:|
 > | **📏 Ranged 5** | **🎯 One creature or object per minion** |
 >
-> 4 cold [damage](scc:mcdm.heroes.v1/rule.damage/damage); M < WEAK [slowed](scc:mcdm.heroes.v1/condition/slowed) (EoT)
+> 4 cold [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage); M < WEAK [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (EoT)
 >
-> 6 cold [damage](scc:mcdm.heroes.v1/rule.damage/damage); M < AVERAGE [slowed](scc:mcdm.heroes.v1/condition/slowed) (EoT)
+> 6 cold [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage); M < AVERAGE [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (EoT)
 >
-> 8 cold [damage](scc:mcdm.heroes.v1/rule.damage/damage); M < STRONG speed is 0 (EoT)
+> 8 cold [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage); M < STRONG speed is 0 (EoT)
 >
-> **Effect:** Frost slows the enemy down, allowing one ally [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to each target to [shift](scc:mcdm.heroes.v1/movement/shifting) 2 and either [hide](scc:mcdm.heroes.v1/feature.common.maneuvers/hide) or [defend](scc:mcdm.heroes.v1/feature.common.main-actions/defend).
+> **Effect:** Frost slows the enemy down, allowing one ally [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to each target to [shift](scc.v1:mcdm.heroes.v1/movement/shifting) 2 and either [hide](scc.v1:mcdm.heroes.v1/feature.common.maneuvers/hide) or [defend](scc.v1:mcdm.heroes.v1/feature.common.main-actions/defend).
 
 > ⭐️ **Cold Surge**
 >
-> When the quiet is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), they launch a refreshing blast of air into an area equal to their [size](scc:mcdm.heroes.v1/rule.character/size) + 1 within 5 before being destroyed. Each ally in the affected area gains a [surge](scc:mcdm.heroes.v1/rule.resource/surge).
+> When the quiet is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), they launch a refreshing blast of air into an area equal to their [size](scc.v1:mcdm.heroes.v1/rule.character/size) + 1 within 5 before being destroyed. Each ally in the affected area gains a [surge](scc.v1:mcdm.heroes.v1/rule.resource/surge).

@@ -1,6 +1,6 @@
 ---
 benefit: You know the Corrupt Spirit maneuver, taught to you by your mentor. (In retrospect, that probably should have aroused your suspicion.)
-drawback: You have holy weakness 1. Each time you use Corrupt Spirit, your holy weakness increases by 1, to a maximum equal to your [recovery value](scc:mcdm.heroes.v1/rule.health/recoveries). Whenever you take holy damage, this weakness resets to 1.
+drawback: You have holy weakness 1. Each time you use Corrupt Spirit, your holy weakness increases by 1, to a maximum equal to your [recovery value](scc.v1:mcdm.heroes.v1/rule.health/recoveries). Whenever you take holy damage, this weakness resets to 1.
 flavor: Your mentor taught you everything and you trusted them completely until they went rogue, betraying you or the organization you both belonged to. Their current whereabouts and activities are unknown, though disturbing rumors are heard from time to time. Even worse, as their former pupil, you're now under suspicion as well.
 name: Corrupted Mentor
 scc: mcdm.heroes.v1/complication/corrupted-mentor
@@ -20,6 +20,6 @@ Your mentor taught you everything and you trusted them completely until they wen
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
-> **Effect:** Until the end of your [turn](scc:mcdm.heroes.v1/rule.combat/turn), whenever you use a damage-dealing [heroic ability](scc:mcdm.heroes.v1/rule.general/heroic-ability) against a single target, you can weaken that target's life force. The ability deals extra corruption damage equal to your highest [characteristic](scc:mcdm.heroes.v1/rule.character/characteristic) score.
+> **Effect:** Until the end of your [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), whenever you use a damage-dealing [heroic ability](scc.v1:mcdm.heroes.v1/rule.general/heroic-ability) against a single target, you can weaken that target's life force. The ability deals extra corruption damage equal to your highest [characteristic](scc.v1:mcdm.heroes.v1/rule.character/characteristic) score.
 
-**Drawback:** You have holy weakness 1. Each time you use Corrupt Spirit, your holy weakness increases by 1, to a maximum equal to your [recovery value](scc:mcdm.heroes.v1/rule.health/recoveries). Whenever you take holy damage, this weakness resets to 1.
+**Drawback:** You have holy weakness 1. Each time you use Corrupt Spirit, your holy weakness increases by 1, to a maximum equal to your [recovery value](scc.v1:mcdm.heroes.v1/rule.health/recoveries). Whenever you take holy damage, this weakness resets to 1.

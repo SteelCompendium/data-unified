@@ -3,7 +3,7 @@ features:
     - body: The pillar's linked trigger must be deactivated.
       icon: "\U0001F300"
       name: Deactivate
-    - body: The pillar is destroyed, or a [pressure plate](scc:mcdm.monsters.v1/dynamic-terrain.mechanisms/pressure-plate), [switch](scc:mcdm.monsters.v1/dynamic-terrain.mechanisms/switch), or other linked trigger is activated.
+    - body: The pillar is destroyed, or a [pressure plate](scc.v1:mcdm.monsters.v1/dynamic-terrain.mechanisms/pressure-plate), [switch](scc.v1:mcdm.monsters.v1/dynamic-terrain.mechanisms/switch), or other linked trigger is activated.
       icon: ❕
       name: Activate
       sections:
@@ -17,18 +17,18 @@ features:
       power_roll:
         formula: + 2
         tiers:
-            high: 9 damage; M < 2 [restrained](scc:mcdm.heroes.v1/condition/restrained) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
+            high: 9 damage; M < 2 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
             low: 4 damage
-            mid: 6 damage; M < 1 [restrained](scc:mcdm.heroes.v1/condition/restrained) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
+            mid: 6 damage; M < 1 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
       sections:
         - label: Trigger
-          text: The pillar is destroyed, or a [pressure plate](scc:mcdm.monsters.v1/dynamic-terrain.mechanisms/pressure-plate), [switch](scc:mcdm.monsters.v1/dynamic-terrain.mechanisms/switch), or other linked trigger is activated.
+          text: The pillar is destroyed, or a [pressure plate](scc.v1:mcdm.monsters.v1/dynamic-terrain.mechanisms/pressure-plate), [switch](scc.v1:mcdm.monsters.v1/dynamic-terrain.mechanisms/switch), or other linked trigger is activated.
         - label: Effect
-          text: The area is [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain).
+          text: The area is [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain).
       target: Each creature and object in the area
       usage: Free triggered action
     - body: |-
-        **Metal Pillar (+1 EV)** The pillar is made of metal, has 9 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), and deals 1d6 extra damage.
+        **Metal Pillar (+1 EV)** The pillar is made of metal, has 9 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), and deals 1d6 extra damage.
 
         **Multiple Pillars (+3 EV per additional pillar)** Multiple pillars can be used to represent a larger toppling object such as a wall. If triggered by destruction, all individual pillars need to be destroyed before the object falls.
       icon: ⭐️
@@ -64,7 +64,7 @@ This stone pillar can be toppled onto unsuspecting foes with the right amount of
 
 > ❕ **Activate**
 >
-> The pillar is destroyed, or a [pressure plate](scc:mcdm.monsters.v1/dynamic-terrain.mechanisms/pressure-plate), [switch](scc:mcdm.monsters.v1/dynamic-terrain.mechanisms/switch), or other linked trigger is activated.
+> The pillar is destroyed, or a [pressure plate](scc.v1:mcdm.monsters.v1/dynamic-terrain.mechanisms/pressure-plate), [switch](scc.v1:mcdm.monsters.v1/dynamic-terrain.mechanisms/switch), or other linked trigger is activated.
 >
 > **Effect:** The **Toppling Pillar** ability.
 
@@ -74,18 +74,18 @@ This stone pillar can be toppled onto unsuspecting foes with the right amount of
 > |----------------------------|--------------------------------------------:|
 > | **📏 4 x 1 line within 1** | **🎯 Each creature and object in the area** |
 >
-> **Trigger:** The pillar is destroyed, or a [pressure plate](scc:mcdm.monsters.v1/dynamic-terrain.mechanisms/pressure-plate), [switch](scc:mcdm.monsters.v1/dynamic-terrain.mechanisms/switch), or other linked trigger is activated.
+> **Trigger:** The pillar is destroyed, or a [pressure plate](scc.v1:mcdm.monsters.v1/dynamic-terrain.mechanisms/pressure-plate), [switch](scc.v1:mcdm.monsters.v1/dynamic-terrain.mechanisms/switch), or other linked trigger is activated.
 >
 > **Power Roll + 2:**
 >
 > - **≤11:** 4 damage
-> - **12-16:** 6 damage; M < 1 [restrained](scc:mcdm.heroes.v1/condition/restrained) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
-> - **17+:** 9 damage; M < 2 [restrained](scc:mcdm.heroes.v1/condition/restrained) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
+> - **12-16:** 6 damage; M < 1 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
+> - **17+:** 9 damage; M < 2 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
 >
-> **Effect:** The area is [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain).
+> **Effect:** The area is [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain).
 
 > ⭐️ **Upgrades**
 >
-> **Metal Pillar (+1 EV)** The pillar is made of metal, has 9 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), and deals 1d6 extra damage.
+> **Metal Pillar (+1 EV)** The pillar is made of metal, has 9 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), and deals 1d6 extra damage.
 >
 > **Multiple Pillars (+3 EV per additional pillar)** Multiple pillars can be used to represent a larger toppling object such as a wall. If triggered by destruction, all individual pillars need to be destroyed before the object falls.

@@ -31,7 +31,7 @@ with_captain: +4 damage bonus to strikes
 | **Corruption 10, poison 10**<br>Immunity | **-**<br>Movement |         -         | **+4 damage bonus to strikes**<br>With Captain |   **-**<br>Weakness    |
 |             **+5**<br>Might              | **-3**<br>Agility | **-3**<br>Reason  |              **+1**<br>Intuition               |   **-2**<br>Presence   |
 
-> 🗡 **Rotten Kick ([Signature Ability](scc:mcdm.heroes.v1/rule.combat/signature-ability))**
+> 🗡 **Rotten Kick ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
 > | **Melee, Strike, Weapon** |                          **Main action** |
 > |---------------------------|-----------------------------------------:|
@@ -39,10 +39,10 @@ with_captain: +4 damage bonus to strikes
 >
 > **Power Roll + 5:**
 >
-> - **≤11:** 5 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 2
-> - **12-16:** 8 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 4
-> - **17+:** 10 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 6
+> - **≤11:** 5 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2
+> - **12-16:** 8 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 4
+> - **17+:** 10 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 6
 
 > ⭐️ **Meat Shield**
 >
-> Each ally [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the shambler has [damage immunity](scc:mcdm.heroes.v1/rule.damage/damage-immunity) 3.
+> Each ally [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the shambler has [damage immunity](scc.v1:mcdm.heroes.v1/rule.damage/damage-immunity) 3.

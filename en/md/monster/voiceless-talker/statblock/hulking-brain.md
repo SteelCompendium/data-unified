@@ -27,7 +27,7 @@ type: statblock
 |    **-**<br>Immunity     | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |     **+3**<br>Might      | **+1**<br>Agility |  **-2**<br>Reason  |  **-2**<br>Intuition  |  **0**<br>Presence   |
 
-> 🗡 **Four-Way Grasp ([Signature Ability](scc:mcdm.heroes.v1/rule.combat/signature-ability))**
+> 🗡 **Four-Way Grasp ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
 > | **Melee, Strike, Weapon** |                  **Main action** |
 > |---------------------------|---------------------------------:|
@@ -36,12 +36,12 @@ type: statblock
 > **Power Roll + 3:**
 >
 > - **≤11:** 7 damage
-> - **12-16:** 10 damage; A < 2 [grabbed](scc:mcdm.heroes.v1/condition/grabbed)
-> - **17+:** 11 damage; A < 3 [grabbed](scc:mcdm.heroes.v1/condition/grabbed)
+> - **12-16:** 10 damage; A < 2 [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)
+> - **17+:** 11 damage; A < 3 [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)
 >
-> **Special:** The hulking brain can have up to four size 1 creatures [grabbed](scc:mcdm.heroes.v1/condition/grabbed).
+> **Special:** The hulking brain can have up to four size 1 creatures [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed).
 >
-> **2 Malice:** The [potency](scc:mcdm.heroes.v1/rule.character/potency) increases by 1.
+> **2 Malice:** The [potency](scc.v1:mcdm.heroes.v1/rule.character/potency) increases by 1.
 
 > 🗡 **Cerebral Suplex**
 >
@@ -49,7 +49,7 @@ type: statblock
 > |-------------------|------------------:|
 > | **📏 Melee 1**    | **🎯 Each enemy** |
 >
-> **Effect:** A target must be [grabbed](scc:mcdm.heroes.v1/condition/grabbed) by the hulking brain, and is no longer [grabbed](scc:mcdm.heroes.v1/condition/grabbed) after the power roll is resolved.
+> **Effect:** A target must be [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) by the hulking brain, and is no longer [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) after the power roll is resolved.
 >
 > **Power Roll + 3:**
 >
@@ -63,7 +63,7 @@ type: statblock
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
-> **Effect:** The hulking brain [shifts](scc:mcdm.heroes.v1/movement/shifting) up to 4 squares, ignoring difficu terrain.
+> **Effect:** The hulking brain [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to 4 squares, ignoring difficu terrain.
 
 > ❗️ **Brawny Buffe (1 Malice)**
 >
@@ -73,14 +73,14 @@ type: statblock
 >
 > **Trigger:** An ally voiceless talker within 5 squares takes damage from an enemy ability.
 >
-> **Effect:** The hulking brain [shifts](scc:mcdm.heroes.v1/movement/shifting) [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the ally and becomes the new target of the ability.
+> **Effect:** The hulking brain [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the ally and becomes the new target of the ability.
 >
-> **2 Malice:** The enemy is knocked [prone](scc:mcdm.heroes.v1/condition/prone).
+> **2 Malice:** The enemy is knocked [prone](scc.v1:mcdm.heroes.v1/condition/prone).
 
 > ⭐️ **Biceps to Spare**
 >
-> The hulking brain can carry up to four size 1 creatures they have [grabbed](scc:mcdm.heroes.v1/condition/grabbed), and takes no penalty to their speed while doing so.
+> The hulking brain can carry up to four size 1 creatures they have [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed), and takes no penalty to their speed while doing so.
 
 > ⭐️ **Psionic Conductor**
 >
-> Whenever a non-[minion](scc:mcdm.monsters.v1/rule.organization/minion) voiceless talker within 5 squares of the hulking brain uses a psionic ability, they can do so as if they were in the hulking brain's space.
+> Whenever a non-[minion](scc.v1:mcdm.monsters.v1/rule.organization/minion) voiceless talker within 5 squares of the hulking brain uses a psionic ability, they can do so as if they were in the hulking brain's space.

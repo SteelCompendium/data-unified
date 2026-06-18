@@ -36,8 +36,8 @@ Phase ghouls are bilocated undead caught between two different manifolds, rapidl
 
 > ⭐️ **Leaping Strike**
 >
-> The ghoul [teleports](scc:mcdm.heroes.v1/movement/teleport) 5 squares before making a melee [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike). The target is M < AVERAGE knocked [prone](scc:mcdm.heroes.v1/condition/prone). If the target is in the air, the [potency](scc:mcdm.heroes.v1/rule.character/potency) increases by 1.
+> The ghoul [teleports](scc.v1:mcdm.heroes.v1/movement/teleport) 5 squares before making a melee [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike). The target is M < AVERAGE knocked [prone](scc.v1:mcdm.heroes.v1/condition/prone). If the target is in the air, the [potency](scc.v1:mcdm.heroes.v1/rule.character/potency) increases by 1.
 
 > ⭐️ **Nerveless**
 >
-> The ghoul takes no [damage](scc:mcdm.heroes.v1/rule.damage/damage) from [falling](scc:mcdm.heroes.v1/rule.health/falling) and always lands on their feet.
+> The ghoul takes no [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage) from [falling](scc.v1:mcdm.heroes.v1/rule.health/falling) and always lands on their feet.

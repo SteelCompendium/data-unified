@@ -32,12 +32,12 @@ weaknesses:
 
 > ⭐️ **Gorrring Strike**
 >
-> The gorrre must [charge](scc:mcdm.heroes.v1/feature.common.main-actions/charge) before making a [strike](scc:mcdm.heroes.v1/rule.combat/strike). The target is M < STRONG knocked [prone](scc:mcdm.heroes.v1/condition/prone) if the gorrre moved through an enemy or object other than the target during the charge.
+> The gorrre must [charge](scc.v1:mcdm.heroes.v1/feature.common.main-actions/charge) before making a [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike). The target is M < STRONG knocked [prone](scc.v1:mcdm.heroes.v1/condition/prone) if the gorrre moved through an enemy or object other than the target during the charge.
 
 > ⭐️ **Devastating Charge**
 >
-> The gorrre ignores [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain) while charging and destroys [unattended](scc:mcdm.heroes.v1/rule.general/unattended-object), [size](scc:mcdm.heroes.v1/rule.character/size) 1 objects in their path. Each enemy they move through during a charge takes 3 damage.
+> The gorrre ignores [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain) while charging and destroys [unattended](scc.v1:mcdm.heroes.v1/rule.general/unattended-object), [size](scc.v1:mcdm.heroes.v1/rule.character/size) 1 objects in their path. Each enemy they move through during a charge takes 3 damage.
 
 > ⭐️ **Soulsight**
 >
-> Each creature [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the gorrre can't be hidden from them.
+> Each creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the gorrre can't be hidden from them.

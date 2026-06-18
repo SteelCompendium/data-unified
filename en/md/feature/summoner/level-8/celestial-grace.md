@@ -6,6 +6,6 @@ scc: mcdm.summoner.v1/feature.summoner.level-8/celestial-grace
 type: feature
 ---
 
-Your number of [Recoveries](scc:mcdm.heroes.v1/rule.health/recoveries) further increases by 2.
+Your number of [Recoveries](scc.v1:mcdm.heroes.v1/rule.health/recoveries) further increases by 2.
 
-Additionally, the area affected by your [Pixie Dust](scc:mcdm.summoner.v1/feature.summoner.level-1/pixie-dust) feature and any of your fey minions' traits that affect [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) creatures and/or the area within 1 or more squares of them increase that distance by 1 square.
+Additionally, the area affected by your [Pixie Dust](scc.v1:mcdm.summoner.v1/feature.summoner.level-1/pixie-dust) feature and any of your fey minions' traits that affect [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) creatures and/or the area within 1 or more squares of them increase that distance by 1 square.

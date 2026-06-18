@@ -6,4 +6,4 @@ scc: mcdm.heroes.v1/feature.null.level-1/force-augmentation
 type: feature
 ---
 
-Your damage-dealing psionic abilities gain a +1 [bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to [rolled damage](scc:mcdm.heroes.v1/rule.damage/rolled-damage).
+Your damage-dealing psionic abilities gain a +1 [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to [rolled damage](scc.v1:mcdm.heroes.v1/rule.damage/rolled-damage).

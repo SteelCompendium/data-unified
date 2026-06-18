@@ -12,8 +12,8 @@ You have the following ability.
 >
 > *You send a one-way telepathic message to a friend.*
 >
-> | **Psionic, [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)** |    **Maneuver** |
+> | **Psionic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)** |    **Maneuver** |
 > |---------------------|----------------:|
-> | **📏 [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 10**    | **🎯 One ally** |
+> | **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**    | **🎯 One ally** |
 >
 > **Effect:** As long as the target understands one or more languages, you send a telepathic message to them that takes 10 seconds or less to speak. The target knows who the message is from and can decide to ignore it and subsequent messages.

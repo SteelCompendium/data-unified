@@ -6,4 +6,4 @@ scc: mcdm.heroes.v1/feature.elementalist.level-4/font-of-essence
 type: feature
 ---
 
-The first time each [combat round](scc:mcdm.heroes.v1/rule.combat/combat-round) that you or a creature within 10 squares takes damage that isn't untyped or holy damage, you gain 2 essence instead of 1.
+The first time each [combat round](scc.v1:mcdm.heroes.v1/rule.combat/combat-round) that you or a creature within 10 squares takes damage that isn't untyped or holy damage, you gain 2 essence instead of 1.

@@ -30,7 +30,7 @@ type: statblock
 | **Corruption 1, poison 1**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |            **+2**<br>Might             | **+1**<br>Agility | **-5**<br>Reason  |  **-2**<br>Intuition  |  **+1**<br>Presence  |
 
-> 🗡 **Clobber and Clutch ([Signature Ability](scc:mcdm.heroes.v1/rule.combat/signature-ability))**
+> 🗡 **Clobber and Clutch ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
 > | **Melee, Strike, Weapon** |               **Main action** |
 > |---------------------------|------------------------------:|
@@ -40,24 +40,24 @@ type: statblock
 >
 > - **≤11:** 4 damage
 > - **12-16:** 6 damage
-> - **17+:** 7 damage; [grabbed](scc:mcdm.heroes.v1/condition/grabbed)
+> - **17+:** 7 damage; [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)
 >
-> **Effect:** A target who starts their turn [grabbed](scc:mcdm.heroes.v1/condition/grabbed) by the zombie takes 2 corruption damage. A creature who takes 5 or more corruption damage this way becomes insatiably hungry for flesh, and must complete the Find a Cure downtime project in Draw Steel: Heroes to end this effect.
+> **Effect:** A target who starts their turn [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) by the zombie takes 2 corruption damage. A creature who takes 5 or more corruption damage this way becomes insatiably hungry for flesh, and must complete the Find a Cure downtime project in Draw Steel: Heroes to end this effect.
 
-> ❇️ **Zombie Dust (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
+> ❇️ **Zombie Dust (3 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Area**       |                  **Maneuver** |
 > |----------------|------------------------------:|
 > | **📏 2 burst** | **🎯 Each enemy in the area** |
 >
-> **Effect:** The zombie falls [prone](scc:mcdm.heroes.v1/condition/prone), expelling a wave of rot and dust.
+> **Effect:** The zombie falls [prone](scc.v1:mcdm.heroes.v1/condition/prone), expelling a wave of rot and dust.
 >
 > **Power Roll + 2:**
 >
 > - **≤11:** 2 corruption damage
-> - **12-16:** 3 corruption damage; M < 1 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
-> - **17+:** 4 corruption damage; M < 2 [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)
+> - **12-16:** 3 corruption damage; M < 1 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+> - **17+:** 4 corruption damage; M < 2 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
 
 > ⭐️ **Endless Knight**
 >
-> The first time the zombie is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) by damage that isn't fire damage or holy damage and their body isn't destroyed, they instead have 10 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) and fall [prone](scc:mcdm.heroes.v1/condition/prone).
+> The first time the zombie is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) by damage that isn't fire damage or holy damage and their body isn't destroyed, they instead have 10 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) and fall [prone](scc.v1:mcdm.heroes.v1/condition/prone).

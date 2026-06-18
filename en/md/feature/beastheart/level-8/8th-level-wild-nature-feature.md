@@ -11,7 +11,7 @@ Your wild nature grants you a feature, as shown on the 8th-Level Wild Nature Fea
 | ♦ 8th-Level Wild Nature Features ♦ |                                                                                                            |
 |------------------------------------|------------------------------------------------------------------------------------------------------------|
 | Wild Nature                        | Feature                                                                                                    |
-| Guardian                           | [Reflexes Perfected](scc:mcdm.beastheart.v1/feature.beastheart.level-8/reflexes-perfected)           |
-| Prowler                            | [Born to Run](scc:mcdm.beastheart.v1/feature.beastheart.level-8/born-to-run)                         |
-| Punisher                           | [Built for Violence](scc:mcdm.beastheart.v1/feature.beastheart.level-8/built-for-violence)           |
-| Spark                              | [Nature Will Not Harm Us](scc:mcdm.beastheart.v1/feature.beastheart.level-8/nature-will-not-harm-us) |
+| Guardian                           | [Reflexes Perfected](scc.v1:mcdm.beastheart.v1/feature.beastheart.level-8/reflexes-perfected)           |
+| Prowler                            | [Born to Run](scc.v1:mcdm.beastheart.v1/feature.beastheart.level-8/born-to-run)                         |
+| Punisher                           | [Built for Violence](scc.v1:mcdm.beastheart.v1/feature.beastheart.level-8/built-for-violence)           |
+| Spark                              | [Nature Will Not Harm Us](scc.v1:mcdm.beastheart.v1/feature.beastheart.level-8/nature-will-not-harm-us) |

@@ -32,7 +32,7 @@ with_captain: +3 bonus to speed
 | **Corruption 7, poison 7**<br>Immunity | **Climb**<br>Movement |         -         | **+3 bonus to speed**<br>With Captain |   **-**<br>Weakness   |
 |            **+4**<br>Might             |   **+1**<br>Agility   | **-3**<br>Reason  |          **+1**<br>Intuition          |  **-3**<br>Presence   |
 
-> 🗡 **Feeding Frenzy ([Signature Ability](scc:mcdm.heroes.v1/rule.combat/signature-ability))**
+> 🗡 **Feeding Frenzy ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
 > | **Melee, Strike, Weapon** |                          **Main action** |
 > |---------------------------|-----------------------------------------:|
@@ -42,10 +42,10 @@ with_captain: +3 bonus to speed
 >
 > - **≤11:** 3 damage
 > - **12-16:** 6 damage
-> - **17+:** 7 damage; M < 4 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (EoT)
+> - **17+:** 7 damage; M < 4 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (EoT)
 >
-> **Effect:** If a target made [bleeding](scc:mcdm.heroes.v1/condition/bleeding) this way is already [bleeding](scc:mcdm.heroes.v1/condition/bleeding), they are instead knocked [prone](scc:mcdm.heroes.v1/condition/prone) and can't stand until the end of their next turn.
+> **Effect:** If a target made [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) this way is already [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding), they are instead knocked [prone](scc.v1:mcdm.heroes.v1/condition/prone) and can't stand until the end of their next turn.
 
 > ⭐️ **Unslakable Bloodthirst**
 >
-> The blood-starved vampire has speed 10 while any creature within 10 squares of them is [bleeding](scc:mcdm.heroes.v1/condition/bleeding). The vampire must use Feeding Frenzy against a [bleeding](scc:mcdm.heroes.v1/condition/bleeding) creature on their turn if they are able to.
+> The blood-starved vampire has speed 10 while any creature within 10 squares of them is [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding). The vampire must use Feeding Frenzy against a [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) creature on their turn if they are able to.

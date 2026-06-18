@@ -44,4 +44,4 @@ with_captain: +3 damage bonus to strikes
 
 > ⭐️ **Kingdom of Isolation**
 >
-> The snowblaster is surrounded by a snowstorm. Any enemy who starts their turn within 2 squares of the snowblaster can't [shift](scc:mcdm.heroes.v1/movement/shifting).
+> The snowblaster is surrounded by a snowstorm. Any enemy who starts their turn within 2 squares of the snowblaster can't [shift](scc.v1:mcdm.heroes.v1/movement/shifting).

@@ -40,14 +40,14 @@ It's difficult to identify the base nature of a vicisittante apart from an ever-
 > |----------------------------|----------------:|
 > | **📏 Melee 1** | **🎯 One creature or object per minion** |
 >
-> 7 psychic [damage](scc:mcdm.heroes.v1/rule.damage/damage); P < WEAK [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
+> 7 psychic [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage); P < WEAK [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
 >
-> 11 psychic [damage](scc:mcdm.heroes.v1/rule.damage/damage); P < AVERAGE [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
+> 11 psychic [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage); P < AVERAGE [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
 >
-> 16 psychic [damage](scc:mcdm.heroes.v1/rule.damage/damage); P < STRONG [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
+> 16 psychic [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage); P < STRONG [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
 >
-> **Effect:** A target [weakened](scc:mcdm.heroes.v1/condition/weakened) by this ability is always considered [flanked](scc:mcdm.heroes.v1/rule.combat/flanking) by the vicisittante regardless of position until the [condition](scc:mcdm.heroes.v1/rule.combat/condition) ends.
+> **Effect:** A target [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) by this ability is always considered [flanked](scc.v1:mcdm.heroes.v1/rule.combat/flanking) by the vicisittante regardless of position until the [condition](scc.v1:mcdm.heroes.v1/rule.combat/condition) ends.
 
 > ⭐️ **Soulsight**
 >
-> Each creature [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the vicisittante can't be hidden from them.
+> Each creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the vicisittante can't be hidden from them.

@@ -43,7 +43,7 @@ with_captain: +5 bonus to ranged distance
 > - **12-16:** 3 lightning damage
 > - **17+:** 5 lightning damage
 >
-> **Effect:** If the apprentice mage doesn't use a maneuver or a move action this turn, the target is also [slowed](scc:mcdm.heroes.v1/condition/slowed) (EoT).
+> **Effect:** If the apprentice mage doesn't use a maneuver or a move action this turn, the target is also [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (EoT).
 
 > ⭐️ **Supernatural Insight**
 >

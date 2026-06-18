@@ -43,8 +43,8 @@ with_captain: +1 damage bonus to strikes
 > - **12-16:** 4 damage
 > - **17+:** 5 damage
 >
-> **Effect:** The cleaver jumps up to 4 squares before or after making this [strike](scc:mcdm.heroes.v1/rule.combat/strike).
+> **Effect:** The cleaver jumps up to 4 squares before or after making this [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike).
 
 > ⭐️ **Toxiferous**
 >
-> Whenever an adjacent enemy [grabs](scc:mcdm.heroes.v1/feature.common.maneuvers/grab) the cleaver or uses a melee ability against them, that enemy takes 1 poison damage.
+> Whenever an adjacent enemy [grabs](scc.v1:mcdm.heroes.v1/feature.common.maneuvers/grab) the cleaver or uses a melee ability against them, that enemy takes 1 poison damage.

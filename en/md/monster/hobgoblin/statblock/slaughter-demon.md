@@ -40,12 +40,12 @@ type: statblock
 > **Power Roll + 3:**
 >
 > - **≤11:** 9 damage
-> - **12-16:** 14 damage; A < 2 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
-> - **17+:** 17 damage; A < 3 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) and [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)
+> - **12-16:** 14 damage; A < 2 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
+> - **17+:** 17 damage; A < 3 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) and [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
 >
-> **Effect:** A creature [restrained](scc:mcdm.heroes.v1/condition/restrained) this way moves with the slaughter demon. The slaughter demon can have up to six creatures or objects [restrained](scc:mcdm.heroes.v1/condition/restrained) at once.
+> **Effect:** A creature [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) this way moves with the slaughter demon. The slaughter demon can have up to six creatures or objects [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) at once.
 
-> 🗡 **Tail Stinger (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
+> 🗡 **Tail Stinger (3 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Melee, Strike, Weapon** |               **Main action** |
 > |---------------------------|------------------------------:|
@@ -53,15 +53,15 @@ type: statblock
 >
 > **Power Roll + 3:**
 >
-> - **≤11:** 10 poison damage; M < 1 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
-> - **12-16:** 16 poison damage; M < 2 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
-> - **17+:** 20 poison damage; M < 3 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
+> - **≤11:** 10 poison damage; M < 1 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+> - **12-16:** 16 poison damage; M < 2 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+> - **17+:** 20 poison damage; M < 3 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
 >
-> **Effect:** A target [weakened](scc:mcdm.heroes.v1/condition/weakened) this way also has damage weakness 3.
+> **Effect:** A target [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) this way also has damage weakness 3.
 
 > ⭐️ **Drag Below**
 >
-> The slaughter demon can make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) as part of using the Dig maneuver. If the target of the [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) has M < 2, they are [grabbed](scc:mcdm.heroes.v1/condition/grabbed) and take a bane on the Escape Grab maneuver.
+> The slaughter demon can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) as part of using the Dig maneuver. If the target of the [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) has M < 2, they are [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) and take a bane on the Escape Grab maneuver.
 
 > ❗️ **Devour Soul**
 >
@@ -79,4 +79,4 @@ type: statblock
 
 > ⭐️ **Lethe**
 >
-> While the slaughter demon is [winded](scc:mcdm.heroes.v1/rule.health/winded), they gain an edge on strikes, and any strike made against them gains an edge.
+> While the slaughter demon is [winded](scc.v1:mcdm.heroes.v1/rule.health/winded), they gain an edge on strikes, and any strike made against them gains an edge.

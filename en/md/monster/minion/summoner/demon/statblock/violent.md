@@ -36,12 +36,12 @@ The violents are lanky, oily bipeds with bright red flesh that contort and snap 
 
 > ⭐️ **Transforming Strike**
 >
-> The violent's melee [free strikes](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) deal an additional 2 [damage](scc:mcdm.heroes.v1/rule.damage/damage) to each [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) enemy from whom they were hidden. The violent loses their disguise after striking.
+> The violent's melee [free strikes](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) deal an additional 2 [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage) to each [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) enemy from whom they were hidden. The violent loses their disguise after striking.
 
 > ⭐️ **Mimicry**
 >
-> The violent uses the [Hide](scc:mcdm.heroes.v1/feature.common.maneuvers/hide) maneuver at the start of their [turn](scc:mcdm.heroes.v1/rule.combat/turn) as a [free maneuver](scc:mcdm.heroes.v1/rule.combat/free-maneuver), disguising themselves as a a [size](scc:mcdm.heroes.v1/rule.character/size) 1M or smaller object.
+> The violent uses the [Hide](scc.v1:mcdm.heroes.v1/feature.common.maneuvers/hide) maneuver at the start of their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) as a [free maneuver](scc.v1:mcdm.heroes.v1/rule.combat/free-maneuver), disguising themselves as a a [size](scc.v1:mcdm.heroes.v1/rule.character/size) 1M or smaller object.
 
 > ⭐️ **Soulsight**
 >
-> Each creature [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the violent can't be hidden from them.
+> Each creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the violent can't be hidden from them.

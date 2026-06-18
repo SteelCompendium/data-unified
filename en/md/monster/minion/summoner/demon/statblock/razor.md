@@ -36,8 +36,8 @@ Razors appear to be a diminutive variant of the ruinant demon. Their bodies are 
 
 > ⭐️ **Teeth!**
 >
-> Once per turn, whenever an adjacent enemy [grabs](scc:mcdm.heroes.v1/feature.common.maneuvers/grab) the razor or uses a melee ability against them, that enemy takes 1 damage for each razor adjacent to them.
+> Once per turn, whenever an adjacent enemy [grabs](scc.v1:mcdm.heroes.v1/feature.common.maneuvers/grab) the razor or uses a melee ability against them, that enemy takes 1 damage for each razor adjacent to them.
 
 > ⭐️ **Soulsight**
 >
-> Each creature adjacent to the razor can't be [hidden](scc:mcdm.heroes.v1/feature.common.maneuvers/hide) from them.
+> Each creature adjacent to the razor can't be [hidden](scc.v1:mcdm.heroes.v1/feature.common.maneuvers/hide) from them.

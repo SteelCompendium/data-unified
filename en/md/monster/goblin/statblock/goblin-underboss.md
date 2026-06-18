@@ -40,7 +40,7 @@ type: statblock
 > - **12-16:** 4 damage
 > - **17+:** 5 damage
 >
-> **Effect:** One ally [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the target can make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) against them.
+> **Effect:** One ally [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the target can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against them.
 
 > ❇️ **Get Reckless!**
 >
@@ -50,8 +50,8 @@ type: statblock
 >
 > **Effect:** Until the start of the underboss's next turn, each target gains an edge on strikes, and any strike made against a target gains an edge.
 >
-> **2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice):** Strikes made against targets no longer gain an edge.
+> **2 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice):** Strikes made against targets no longer gain an edge.
 
 > ⭐️ **Crafty**
 >
-> The underboss doesn't provoke [opportunity attacks](scc:mcdm.heroes.v1/rule.combat/opportunity-attack) by moving.
+> The underboss doesn't provoke [opportunity attacks](scc.v1:mcdm.heroes.v1/rule.combat/opportunity-attack) by moving.

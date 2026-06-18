@@ -1,6 +1,6 @@
 ---
 echelon: "1"
-effect: As a maneuver, you sniff a magic snapdragon blossom, causing it to whither and making your movements more forceful and explosive. The next damage-dealing ability you use deals an extra 5 damage and gains a +2 [bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to the [distance](scc:mcdm.heroes.v1/rule.combat/distance) of any [forced movement](scc:mcdm.heroes.v1/movement/forced-movement) it imposes. If the ability does not impose [forced movement](scc:mcdm.heroes.v1/movement/forced-movement), you can [push](scc:mcdm.heroes.v1/movement/forced-movement) each creature targeted by the ability up to 2 squares.
+effect: As a maneuver, you sniff a magic snapdragon blossom, causing it to whither and making your movements more forceful and explosive. The next damage-dealing ability you use deals an extra 5 damage and gains a +2 [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to the [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance) of any [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) it imposes. If the ability does not impose [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement), you can [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) each creature targeted by the ability up to 2 squares.
 flavor: This delicate orange blossom has a sickly-sweet smell.
 keywords:
     - Magic
@@ -15,12 +15,12 @@ type: treasure
 
 **Keywords:** Magic
 
-**[Item Prerequisite](scc:mcdm.heroes.v1/rule.downtime/item-prerequisite):** Fifty snapdragon seeds
+**[Item Prerequisite](scc.v1:mcdm.heroes.v1/rule.downtime/item-prerequisite):** Fifty snapdragon seeds
 
-**[Project Source](scc:mcdm.heroes.v1/rule.downtime/project-source):** Texts or lore in Yllyric
+**[Project Source](scc.v1:mcdm.heroes.v1/rule.downtime/project-source):** Texts or lore in Yllyric
 
-**[Project Roll](scc:mcdm.heroes.v1/rule.downtime/project-roll) [Characteristic](scc:mcdm.heroes.v1/rule.character/characteristic):** [Reason](scc:mcdm.heroes.v1/rule.character/reason) or [Intuition](scc:mcdm.heroes.v1/rule.character/intuition)
+**[Project Roll](scc.v1:mcdm.heroes.v1/rule.downtime/project-roll) [Characteristic](scc.v1:mcdm.heroes.v1/rule.character/characteristic):** [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) or [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)
 
 **Project Goal:** 45 (yields 1d6 + 1 snapdragons)
 
-**Effect:** As a maneuver, you sniff a magic snapdragon blossom, causing it to whither and making your movements more forceful and explosive. The next damage-dealing ability you use deals an extra 5 damage and gains a +2 [bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to the [distance](scc:mcdm.heroes.v1/rule.combat/distance) of any [forced movement](scc:mcdm.heroes.v1/movement/forced-movement) it imposes. If the ability does not impose [forced movement](scc:mcdm.heroes.v1/movement/forced-movement), you can [push](scc:mcdm.heroes.v1/movement/forced-movement) each creature targeted by the ability up to 2 squares.
+**Effect:** As a maneuver, you sniff a magic snapdragon blossom, causing it to whither and making your movements more forceful and explosive. The next damage-dealing ability you use deals an extra 5 damage and gains a +2 [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to the [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance) of any [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) it imposes. If the ability does not impose [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement), you can [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) each creature targeted by the ability up to 2 squares.

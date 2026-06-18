@@ -39,14 +39,14 @@ This pixie flies on a delicate array of vibrant flower petals for wings. The col
 > |---------------------------|----------------:|
 > | **📏 Ranged 5** | **🎯 One creature or object per minion** |
 >
-> 5 acid damage; M < WEAK [weakened](scc:mcdm.heroes.v1/condition/weakened) ([EoT](scc:mcdm.heroes.v1/rule.combat/end-of-turn))
+> 5 acid damage; M < WEAK [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) ([EoT](scc.v1:mcdm.heroes.v1/rule.combat/end-of-turn))
 >
-> 7 acid damage; M < AVERAGE [weakened](scc:mcdm.heroes.v1/condition/weakened) ([EoT](scc:mcdm.heroes.v1/rule.combat/end-of-turn))
+> 7 acid damage; M < AVERAGE [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) ([EoT](scc.v1:mcdm.heroes.v1/rule.combat/end-of-turn))
 >
-> 9 acid damage; M < STRONG [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
+> 9 acid damage; M < STRONG [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
 >
-> **Effect:** After the hydrain's squad uses this ability, you or one ally within distance can spend a [Recovery](scc:mcdm.heroes.v1/rule.health/recoveries) or end a [condition](scc:mcdm.heroes.v1/rule.combat/condition).
+> **Effect:** After the hydrain's squad uses this ability, you or one ally within distance can spend a [Recovery](scc.v1:mcdm.heroes.v1/rule.health/recoveries) or end a [condition](scc.v1:mcdm.heroes.v1/rule.combat/condition).
 
 > ⭐️ **Minuscule**
 >
-> The hydrain has [cover](scc:mcdm.heroes.v1/rule.combat/cover) while occupying a larger creature's space.
+> The hydrain has [cover](scc.v1:mcdm.heroes.v1/rule.combat/cover) while occupying a larger creature's space.

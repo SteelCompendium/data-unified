@@ -7,4 +7,4 @@ scc: mcdm.beastheart.v1/feature.companion.beastheart.sporeling.level-3/slowing-s
 type: feature
 ---
 
-Whenever the sporeling makes a strike against a creature while rampaging, the sporeling can cause the target to be [slowed](scc:mcdm.heroes.v1/condition/slowed) until the end of the target's next turn.
+Whenever the sporeling makes a strike against a creature while rampaging, the sporeling can cause the target to be [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) until the end of the target's next turn.

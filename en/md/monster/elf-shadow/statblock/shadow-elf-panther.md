@@ -39,11 +39,11 @@ type: statblock
 >
 > - **≤11:** 9 damage
 > - **12-16:** 13 damage
-> - **17+:** 16 damage; I < 3 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
+> - **17+:** 16 damage; I < 3 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
 >
-> **Effect:** The panther can make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) against a creature or object [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the target.
+> **Effect:** The panther can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against a creature or object [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the target.
 
-> ❇️ **Bladestorm (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
+> ❇️ **Bladestorm (3 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Area, Weapon** |               **Main action** |
 > |------------------|------------------------------:|
@@ -52,10 +52,10 @@ type: statblock
 > **Power Roll + 3:**
 >
 > - **≤11:** 5 corruption damage
-> - **12-16:** 8 corruption damage; I < 2 [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)
-> - **17+:** 10 corruption damage; I < 3 [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)
+> - **12-16:** 8 corruption damage; I < 2 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
+> - **17+:** 10 corruption damage; I < 3 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
 >
-> **Effect:** The panther has a double edge on strikes against targets [dazed](scc:mcdm.heroes.v1/condition/dazed) this way.
+> **Effect:** The panther has a double edge on strikes against targets [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) this way.
 
 > ⭐️ **Of the Umbra**
 >

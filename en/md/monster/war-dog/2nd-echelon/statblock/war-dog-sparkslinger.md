@@ -31,7 +31,7 @@ with_captain: Lightning spread increases by 1 square
 | **Lightning 4**<br>Immunity | **-**<br>Movement |        -         | **Lightning spread increases by 1 square**<br>With Captain |   **-**<br>Weakness   |
 |       **0**<br>Might        | **0**<br>Agility  | **+3**<br>Reason |                     **0**<br>Intuition                     |  **+2**<br>Presence   |
 
-> 🏹 **Galvanic Arc ([Signature Ability](scc:mcdm.heroes.v1/rule.combat/signature-ability))**
+> 🏹 **Galvanic Arc ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
 > | **Magic, Ranged, Strike** |                          **Main action** |
 > |---------------------------|-----------------------------------------:|
@@ -47,4 +47,4 @@ with_captain: Lightning spread increases by 1 square
 
 > ⭐️ **Loyalty Collar**
 >
-> When the sparkslinger is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), their loyalty collar explodes, dealing 1d6 damage to each [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) enemy and object.
+> When the sparkslinger is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), their loyalty collar explodes, dealing 1d6 damage to each [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) enemy and object.

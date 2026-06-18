@@ -17,9 +17,9 @@ scc: mcdm.beastheart.v1/feature.ability.beastheart.level-2/burning-lash
 spend: '1 Ferocity: If you are within distance of the target, you can use a free maneuver to wield a second whip, dealing extra fire or lightning damage equal to your Intuition score.'
 subclass: spark
 target: One creature
-tier1: 6 + I fire or lightning damage; M < WEAK [prone](scc:mcdm.heroes.v1/condition/prone)
-tier2: 9 + I fire or lightning damage; M < AVERAGE [prone](scc:mcdm.heroes.v1/condition/prone)
-tier3: 14 + I fire or lightning damage; M < STRONG [prone](scc:mcdm.heroes.v1/condition/prone) and can't stand (EoT)
+tier1: 6 + I fire or lightning damage; M < WEAK [prone](scc.v1:mcdm.heroes.v1/condition/prone)
+tier2: 9 + I fire or lightning damage; M < AVERAGE [prone](scc.v1:mcdm.heroes.v1/condition/prone)
+tier3: 14 + I fire or lightning damage; M < STRONG [prone](scc.v1:mcdm.heroes.v1/condition/prone) and can't stand (EoT)
 type: ability
 ---
 
@@ -31,8 +31,8 @@ type: ability
 
 **Power Roll + Intuition:**
 
-- **≤11:** 6 + I fire or lightning damage; M < WEAK [prone](scc:mcdm.heroes.v1/condition/prone)
-- **12-16:** 9 + I fire or lightning damage; M < AVERAGE [prone](scc:mcdm.heroes.v1/condition/prone)
-- **17+:** 14 + I fire or lightning damage; M < STRONG [prone](scc:mcdm.heroes.v1/condition/prone) and can't stand (EoT)
+- **≤11:** 6 + I fire or lightning damage; M < WEAK [prone](scc.v1:mcdm.heroes.v1/condition/prone)
+- **12-16:** 9 + I fire or lightning damage; M < AVERAGE [prone](scc.v1:mcdm.heroes.v1/condition/prone)
+- **17+:** 14 + I fire or lightning damage; M < STRONG [prone](scc.v1:mcdm.heroes.v1/condition/prone) and can't stand (EoT)
 
 **Spend 1 Ferocity:** If you are within distance of the target, you can use a free maneuver to wield a second whip, dealing extra fire or lightning damage equal to your Intuition score.

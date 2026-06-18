@@ -49,7 +49,7 @@ type: statblock
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
-> **Effect:** If the mournblade has concealment, they can [teleport](scc:mcdm.heroes.v1/movement/teleport) up to 10 squares to a space with concealment created by darkness.
+> **Effect:** If the mournblade has concealment, they can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) up to 10 squares to a space with concealment created by darkness.
 
 > ⭐️ **Of the Umbra**
 >

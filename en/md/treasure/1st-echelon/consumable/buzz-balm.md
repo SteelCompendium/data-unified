@@ -1,6 +1,6 @@
 ---
 echelon: "1"
-effect: As a maneuver, you rub the balm on your body and feel it tingle across your skin. You immediately end the [bleeding](scc:mcdm.heroes.v1/condition/bleeding) and [weakened](scc:mcdm.heroes.v1/condition/weakened) [conditions](scc:mcdm.heroes.v1/rule.combat/condition) on yourself, and you gain a +2 [bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to [speed](scc:mcdm.heroes.v1/rule.character/speed) until the start of your next [turn](scc:mcdm.heroes.v1/rule.combat/turn).
+effect: As a maneuver, you rub the balm on your body and feel it tingle across your skin. You immediately end the [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) and [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) [conditions](scc.v1:mcdm.heroes.v1/rule.combat/condition) on yourself, and you gain a +2 [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to [speed](scc.v1:mcdm.heroes.v1/rule.character/speed) until the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn).
 flavor: This cooling orange salve crackles and pops when exposed to the air.
 keywords:
     - Magic
@@ -16,12 +16,12 @@ type: treasure
 
 **Keywords:** Magic, Oil
 
-**[Item Prerequisite](scc:mcdm.heroes.v1/rule.downtime/item-prerequisite):** An ounce of demon honey
+**[Item Prerequisite](scc.v1:mcdm.heroes.v1/rule.downtime/item-prerequisite):** An ounce of demon honey
 
-**[Project Source](scc:mcdm.heroes.v1/rule.downtime/project-source):** Texts or lore in Kalliak
+**[Project Source](scc.v1:mcdm.heroes.v1/rule.downtime/project-source):** Texts or lore in Kalliak
 
-**[Project Roll](scc:mcdm.heroes.v1/rule.downtime/project-roll) [Characteristic](scc:mcdm.heroes.v1/rule.character/characteristic):** [Reason](scc:mcdm.heroes.v1/rule.character/reason) or [Intuition](scc:mcdm.heroes.v1/rule.character/intuition)
+**[Project Roll](scc.v1:mcdm.heroes.v1/rule.downtime/project-roll) [Characteristic](scc.v1:mcdm.heroes.v1/rule.character/characteristic):** [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) or [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)
 
 **Project Goal:** 45
 
-**Effect:** As a maneuver, you rub the balm on your body and feel it tingle across your skin. You immediately end the [bleeding](scc:mcdm.heroes.v1/condition/bleeding) and [weakened](scc:mcdm.heroes.v1/condition/weakened) [conditions](scc:mcdm.heroes.v1/rule.combat/condition) on yourself, and you gain a +2 [bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to [speed](scc:mcdm.heroes.v1/rule.character/speed) until the start of your next [turn](scc:mcdm.heroes.v1/rule.combat/turn).
+**Effect:** As a maneuver, you rub the balm on your body and feel it tingle across your skin. You immediately end the [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) and [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) [conditions](scc.v1:mcdm.heroes.v1/rule.combat/condition) on yourself, and you gain a +2 [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to [speed](scc.v1:mcdm.heroes.v1/rule.character/speed) until the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn).

@@ -6,4 +6,4 @@ scc: mcdm.heroes.v1/feature.elementalist.level-4/veiling-bed
 type: feature
 ---
 
-The area provides [concealment](scc:mcdm.heroes.v1/rule.combat/concealment) for you and your allies.
+The area provides [concealment](scc.v1:mcdm.heroes.v1/rule.combat/concealment) for you and your allies.

@@ -1,6 +1,6 @@
 ---
 features:
-    - body: Whenever the ball makes a strike while rampaging, one target is pulled up to 3 squares into the ball's space. If the target ends this movement and completely fits within the ball's space, the target is [grabbed](scc:mcdm.heroes.v1/condition/grabbed) by the ball.
+    - body: Whenever the ball makes a strike while rampaging, one target is pulled up to 3 squares into the ball's space. If the target ends this movement and completely fits within the ball's space, the target is [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) by the ball.
       level: 3
       name: Suck It Up
     - body: While the ball is rampaging, your arms and legs become viscous and stretchy, and you gain a +2 bonus to speed and melee distance.

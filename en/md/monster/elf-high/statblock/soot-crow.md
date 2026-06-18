@@ -39,6 +39,6 @@ with_captain: Gain an edge on strikes
 >
 > - **≤11:** 1 damage
 > - **12-16:** 2 damage
-> - **17+:** 3 damage; [taunted](scc:mcdm.heroes.v1/condition/taunted) (EoT)
+> - **17+:** 3 damage; [taunted](scc.v1:mcdm.heroes.v1/condition/taunted) (EoT)
 >
 > **Effect:** Until the end of their turn, the soot crow ignores opportunity attacks from the target.

@@ -36,8 +36,8 @@ The rasquine are skulking demons that shimmer in the light. They teleport into p
 
 > ⭐️ **Skulker**
 >
-> Once per turn, the rasquine can [hide](scc:mcdm.heroes.v1/feature.common.maneuvers/hide) as a [free maneuver](scc:mcdm.heroes.v1/rule.combat/free-maneuver) after [teleporting](scc:mcdm.heroes.v1/movement/teleport).
+> Once per turn, the rasquine can [hide](scc.v1:mcdm.heroes.v1/feature.common.maneuvers/hide) as a [free maneuver](scc.v1:mcdm.heroes.v1/rule.combat/free-maneuver) after [teleporting](scc.v1:mcdm.heroes.v1/movement/teleport).
 
 > ⭐️ **Soulsight**
 >
-> Each creature adjacent to the rasquine can't be [hidden](scc:mcdm.heroes.v1/feature.common.maneuvers/hide) from them.
+> Each creature adjacent to the rasquine can't be [hidden](scc.v1:mcdm.heroes.v1/feature.common.maneuvers/hide) from them.

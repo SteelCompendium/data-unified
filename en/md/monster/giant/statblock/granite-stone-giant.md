@@ -37,12 +37,12 @@ type: statblock
 > **Power Roll + 4:**
 >
 > - **≤11:** 12 damage
-> - **12-16:** 17 damage; R < 3 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
-> - **17+:** 21 damage; R < 4 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
+> - **12-16:** 17 damage; R < 3 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+> - **17+:** 21 damage; R < 4 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
 >
-> **Effect:** If the target is already [weakened](scc:mcdm.heroes.v1/condition/weakened), they are also [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends).
+> **Effect:** If the target is already [weakened](scc.v1:mcdm.heroes.v1/condition/weakened), they are also [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends).
 
-> ❇️ **Crag Burst (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
+> ❇️ **Crag Burst (3 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Area**       |                          **Main action** |
 > |----------------|-----------------------------------------:|
@@ -50,11 +50,11 @@ type: statblock
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** 6 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 2
-> - **12-16:** 10 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 4
-> - **17+:** 14 damage; vertical [push](scc:mcdm.heroes.v1/movement/forced-movement) 4
+> - **≤11:** 6 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2
+> - **12-16:** 10 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 4
+> - **17+:** 14 damage; vertical [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 4
 >
-> **Effect:** The area is [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain). Whenever a creature enters square in the area, they take 3 damage.
+> **Effect:** The area is [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain). Whenever a creature enters square in the area, they take 3 damage.
 
 > 👤 **Castle Stone Shape**
 >
@@ -62,7 +62,7 @@ type: statblock
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
-> **Effect:** The granite stone giant moves up to their speed and creates a 14 wall of stone in squares [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the path of their movement.
+> **Effect:** The granite stone giant moves up to their speed and creates a 14 wall of stone in squares [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the path of their movement.
 
 > ❗️ **Pillar**
 >
@@ -70,9 +70,9 @@ type: statblock
 > |----------------|-----------------------------------------:|
 > | **📏 Melee 3** | **🎯 The triggering creature or object** |
 >
-> **Trigger:** A creature or object within distance moves or [shifts](scc:mcdm.heroes.v1/movement/shifting) away from the granite stone giant.
+> **Trigger:** A creature or object within distance moves or [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) away from the granite stone giant.
 >
-> **Effect:** A 1-square pillar of stone rises 5 squares out of the ground beneath the target, who moves with the ground to its new elevation, then is vertical [pushed](scc:mcdm.heroes.v1/movement/forced-movement) 5 squares.
+> **Effect:** A 1-square pillar of stone rises 5 squares out of the ground beneath the target, who moves with the ground to its new elevation, then is vertical [pushed](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5 squares.
 
 > ⭐️ **Stonebreaker Flesh**
 >
@@ -80,8 +80,8 @@ type: statblock
 
 > ⭐️ **Stone Steps**
 >
-> The granite stone giant ignores [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain).
+> The granite stone giant ignores [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain).
 
 > ⭐️ **Stone Swim**
 >
-> The granite stone giant can [burrow](scc:mcdm.heroes.v1/movement/burrow) through stone, but can't drag other creatures underground when they do so.
+> The granite stone giant can [burrow](scc.v1:mcdm.heroes.v1/movement/burrow) through stone, but can't drag other creatures underground when they do so.

@@ -41,7 +41,7 @@ type: statblock
 > - **12-16:** 10 damage
 > - **17+:** 13 damage
 >
-> **Effect:** Whenever the shade starts their turn with concealment from the target, they gain 1 [surge](scc:mcdm.heroes.v1/rule.resource/surge).
+> **Effect:** Whenever the shade starts their turn with concealment from the target, they gain 1 [surge](scc.v1:mcdm.heroes.v1/rule.resource/surge).
 
 > 🔳 **Duskfall (Encounter)**
 >
@@ -53,7 +53,7 @@ type: statblock
 
 > ⭐️ **Of the Umbra**
 >
-> The shade ignores concealment created by darkness. While the shade is in direct sunlight, they have [damage weakness](scc:mcdm.heroes.v1/rule.damage/damage-weakness) 3. While the shade has concealment, they have [damage immunity](scc:mcdm.heroes.v1/rule.damage/damage-immunity) 3.
+> The shade ignores concealment created by darkness. While the shade is in direct sunlight, they have [damage weakness](scc.v1:mcdm.heroes.v1/rule.damage/damage-weakness) 3. While the shade has concealment, they have [damage immunity](scc.v1:mcdm.heroes.v1/rule.damage/damage-immunity) 3.
 
 ######## Level 7 Retainer Advancement Ability
 
@@ -65,9 +65,9 @@ type: statblock
 >
 > **Power Roll + highest characteristic:**
 >
-> - **≤11:** 8 poison damage; [weakened](scc:mcdm.heroes.v1/condition/weakened) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
-> - **12-16:** 12 poison damage; [weakened](scc:mcdm.heroes.v1/condition/weakened) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
-> - **17+:** 16 poison damage; [weakened](scc:mcdm.heroes.v1/condition/weakened) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
+> - **≤11:** 8 poison damage; [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
+> - **12-16:** 12 poison damage; [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
+> - **17+:** 16 poison damage; [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
 >
 > **Effect:** The slow-poison needle is initially painless, with the damage and effect delayed until the start of the target's next turn. If the shade is hidden, using this ability doesn't cause them to be revealed.
 

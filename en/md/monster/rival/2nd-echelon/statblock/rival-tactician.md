@@ -27,7 +27,7 @@ type: statblock
 | **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+3**<br>Might  | **0**<br>Agility  |  **+2**<br>Reason  |  **0**<br>Intuition   |  **+1**<br>Presence  |
 
-> 🏹 **Mark Targets ([Signature Ability](scc:mcdm.heroes.v1/rule.combat/signature-ability))**
+> 🏹 **Mark Targets ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
 > | **Ranged, Strike, Weapon** |                 **Main action** |
 > |----------------------------|--------------------------------:|
@@ -39,9 +39,9 @@ type: statblock
 > - **12-16:** 15 damage
 > - **17+:** 18 damage
 >
-> **3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice):** Two allies within distance can use a [signature ability](scc:mcdm.heroes.v1/rule.combat/signature-ability) against the same target.
+> **3 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice):** Two allies within distance can use a [signature ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability) against the same target.
 
-> 🏹 **Preserve and Protect (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
+> 🏹 **Preserve and Protect (3 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Ranged, Strike, Weapon** |               **Main action** |
 > |----------------------------|------------------------------:|
@@ -49,11 +49,11 @@ type: statblock
 >
 > **Power Roll + 3:**
 >
-> - **≤11:** 11 damage; M < 1 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
-> - **12-16:** 16 damage; M < 2 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
-> - **17+:** 21 damage; M < 3 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
+> - **≤11:** 11 damage; M < 1 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+> - **12-16:** 16 damage; M < 2 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+> - **17+:** 21 damage; M < 3 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
 >
-> **Effect:** One ally [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the target regains 7 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina).
+> **Effect:** One ally [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the target regains 7 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).
 
 > ❗️ **Take the Opening**
 >
@@ -63,8 +63,8 @@ type: statblock
 >
 > **Trigger:** An enemy within distance willingly moves.
 >
-> **Effect:** At any point during the movement, the tactician and one ally within distance can each make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) against the target.
+> **Effect:** At any point during the movement, the tactician and one ally within distance can each make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against the target.
 
 > ⭐️ **Rivalry**
 >
-> At the start of an encounter, the tactician chooses one creature within their [line of effect](scc:mcdm.heroes.v1/rule.combat/line-of-effect). Both the tactician and the creature can add a d3 roll to power rolls they make against each other.
+> At the start of an encounter, the tactician chooses one creature within their [line of effect](scc.v1:mcdm.heroes.v1/rule.combat/line-of-effect). Both the tactician and the creature can add a d3 roll to power rolls they make against each other.

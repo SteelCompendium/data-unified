@@ -57,4 +57,4 @@ type: statblock
 
 > ⭐️ **Shield? Shield!**
 >
-> While [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to an ally who also has this trait, the adeptus has stability 1, has cover, and grants cover to allies.
+> While [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to an ally who also has this trait, the adeptus has stability 1, has cover, and grants cover to allies.

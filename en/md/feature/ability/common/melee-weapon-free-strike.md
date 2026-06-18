@@ -1,13 +1,13 @@
 ---
 action_type: Main action
-distance: '[Melee](scc:mcdm.heroes.v1/rule.combat/melee) 1'
+distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
 keywords:
     - Charge
-    - '[Melee](scc:mcdm.heroes.v1/rule.combat/melee)'
-    - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
+    - '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)'
+    - '[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)'
     - Weapon
 name: Melee Weapon Free Strike
-power_roll_characteristic: '[Might](scc:mcdm.heroes.v1/rule.character/might) or [Agility](scc:mcdm.heroes.v1/rule.character/agility)'
+power_roll_characteristic: '[Might](scc.v1:mcdm.heroes.v1/rule.character/might) or [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)'
 scc: mcdm.heroes.v1/feature.ability.common/melee-weapon-free-strike
 subtype: free-strike
 target: One creature or object
@@ -17,11 +17,11 @@ tier3: 7 + M or A damage
 type: ability
 ---
 
-| **Charge, [Melee](scc:mcdm.heroes.v1/rule.combat/melee), [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon**  |               **Main action** |
+| **Charge, [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), Weapon**  |               **Main action** |
 |------------------------------------|------------------------------:|
-| **📏 [Melee](scc:mcdm.heroes.v1/rule.combat/melee) 1**                     | **🎯 One creature or object** |
+| **📏 [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1**                     | **🎯 One creature or object** |
 
-**[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc:mcdm.heroes.v1/rule.character/might) or [Agility](scc:mcdm.heroes.v1/rule.character/agility):**
+**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc.v1:mcdm.heroes.v1/rule.character/might) or [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility):**
 
 - **≤11:** 2 + M or A damage
 - **12-16:** 5 + M or A damage

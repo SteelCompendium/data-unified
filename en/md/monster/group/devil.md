@@ -5,7 +5,7 @@ scc: mcdm.monsters.v1/monster.group/devil
 type: monster
 ---
 
-In the lower plane of Hell, [devils](scc:mcdm.monsters.v1/monster.group/devil) of the Seven Cities vie unceasingly for power and control—a conflict fought foremostly through cunning and schemes. Devils are distinguished from other [humanoids](scc:mcdm.monsters.v1/rule.keyword/humanoid) by skin in shades of azure and crimson, as well as their hellmarks: horns, tails, hooves, wings, and other [infernal](scc:mcdm.monsters.v1/rule.keyword/infernal) features.
+In the lower plane of Hell, [devils](scc.v1:mcdm.monsters.v1/monster.group/devil) of the Seven Cities vie unceasingly for power and control—a conflict fought foremostly through cunning and schemes. Devils are distinguished from other [humanoids](scc.v1:mcdm.monsters.v1/rule.keyword/humanoid) by skin in shades of azure and crimson, as well as their hellmarks: horns, tails, hooves, wings, and other [infernal](scc.v1:mcdm.monsters.v1/rule.keyword/infernal) features.
 
 ### Precarious Pyramids
 

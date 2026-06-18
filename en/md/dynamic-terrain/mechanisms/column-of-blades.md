@@ -3,7 +3,7 @@ features:
     - body: The column of blades must be completely destroyed.
       icon: "\U0001F300"
       name: Deactivate
-    - body: A creature or object moves [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the column of blades.
+    - body: A creature or object moves [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the column of blades.
       icon: ❕
       name: Activate
       sections:
@@ -19,18 +19,18 @@ features:
       power_roll:
         formula: + 2
         tiers:
-            high: 9 damage; M < 3 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
+            high: 9 damage; M < 3 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
             low: 4 damage
-            mid: 6 damage; M < 2 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
+            mid: 6 damage; M < 2 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
       sections:
         - label: Trigger
           text: A creature or object moves within distance of the column.
       target: The triggering creature or object
       usage: Free triggered action
     - body: |-
-        **Stone Column (+1 EV)** The column is made of stone and has 8 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina).
+        **Stone Column (+1 EV)** The column is made of stone and has 8 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).
 
-        **Metal Column (+1 EV)** The column is made of metal and has 11 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina).
+        **Metal Column (+1 EV)** The column is made of metal and has 11 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).
 
         **Concealed (+1 EV)** The blades are concealed inside the column, which remains motionless until triggered.
 
@@ -46,16 +46,16 @@ features:
       name: Whirling Flails
       power_roll:
         tiers:
-            high: 11 damage; M < 3 [dazed](scc:mcdm.heroes.v1/condition/dazed) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
+            high: 11 damage; M < 3 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
             low: 5 damage
-            mid: 8 damage; M < 2 [dazed](scc:mcdm.heroes.v1/condition/dazed) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
+            mid: 8 damage; M < 2 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
       sections:
         - label: Trigger
           text: A creature or object moves within distance of the column.
       target: The triggering creature or object
       usage: Free triggered action
     - icon: ⭐️
-      intro: Allies who [shift](scc:mcdm.heroes.v1/movement/shifting) don't trigger the column. A creature observing an ally [shift](scc:mcdm.heroes.v1/movement/shifting) this way can make an **Intuition test** to [shift](scc:mcdm.heroes.v1/movement/shifting) in imitation of their movements.
+      intro: Allies who [shift](scc.v1:mcdm.heroes.v1/movement/shifting) don't trigger the column. A creature observing an ally [shift](scc.v1:mcdm.heroes.v1/movement/shifting) this way can make an **Intuition test** to [shift](scc.v1:mcdm.heroes.v1/movement/shifting) in imitation of their movements.
       name: Allied Awareness
       power_roll:
         formula: + 2
@@ -91,7 +91,7 @@ A spinning wooden column is affixed with sharp blades to slash the unwary.
 
 > ❕ **Activate**
 >
-> A creature or object moves [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the column of blades.
+> A creature or object moves [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the column of blades.
 >
 > **Effect:** The **Spinning Blades** ability.
 
@@ -106,14 +106,14 @@ A spinning wooden column is affixed with sharp blades to slash the unwary.
 > **Power Roll + 2:**
 >
 > - **≤11:** 4 damage
-> - **12-16:** 6 damage; M < 2 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
-> - **17+:** 9 damage; M < 3 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
+> - **12-16:** 6 damage; M < 2 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
+> - **17+:** 9 damage; M < 3 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
 
 > ⭐️ **Upgrades**
 >
-> **Stone Column (+1 EV)** The column is made of stone and has 8 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina).
+> **Stone Column (+1 EV)** The column is made of stone and has 8 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).
 >
-> **Metal Column (+1 EV)** The column is made of metal and has 11 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina).
+> **Metal Column (+1 EV)** The column is made of metal and has 11 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).
 >
 > **Concealed (+1 EV)** The blades are concealed inside the column, which remains motionless until triggered.
 >
@@ -128,12 +128,12 @@ A spinning wooden column is affixed with sharp blades to slash the unwary.
 > **Trigger:** A creature or object moves within distance of the column.
 >
 > - **≤11:** 5 damage
-> - **12-16:** 8 damage; M < 2 [dazed](scc:mcdm.heroes.v1/condition/dazed) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
-> - **17+:** 11 damage; M < 3 [dazed](scc:mcdm.heroes.v1/condition/dazed) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
+> - **12-16:** 8 damage; M < 2 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
+> - **17+:** 11 damage; M < 3 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
 
 > ⭐️ **Allied Awareness**
 >
-> Allies who [shift](scc:mcdm.heroes.v1/movement/shifting) don't trigger the column. A creature observing an ally [shift](scc:mcdm.heroes.v1/movement/shifting) this way can make an **Intuition test** to [shift](scc:mcdm.heroes.v1/movement/shifting) in imitation of their movements.
+> Allies who [shift](scc.v1:mcdm.heroes.v1/movement/shifting) don't trigger the column. A creature observing an ally [shift](scc.v1:mcdm.heroes.v1/movement/shifting) this way can make an **Intuition test** to [shift](scc.v1:mcdm.heroes.v1/movement/shifting) in imitation of their movements.
 >
 > **Power Roll + 2:**
 >

@@ -1,8 +1,8 @@
 ---
 action_type: No action
 class: troubadour
-distance: 2 [aura](scc:mcdm.heroes.v1/rule.combat/aura)
-effect: At the end of each of your [turns](scc:mcdm.heroes.v1/rule.combat/turn) while this performance is active, you can choose up to a number of targets equal to your [Presence](scc:mcdm.heroes.v1/rule.character/presence) score and [teleport](scc:mcdm.heroes.v1/movement/teleport) those targets to unoccupied spaces in the area. A target can't be [teleport](scc:mcdm.heroes.v1/movement/teleport)ed in a way that would harm them (such as over a cliff), leave them [dying](scc:mcdm.heroes.v1/rule.health/dying), or result in them suffering a [condition](scc:mcdm.heroes.v1/rule.combat/condition) or other negative effect.
+distance: 2 [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura)
+effect: At the end of each of your [turns](scc.v1:mcdm.heroes.v1/rule.combat/turn) while this performance is active, you can choose up to a number of targets equal to your [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence) score and [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) those targets to unoccupied spaces in the area. A target can't be [teleport](scc.v1:mcdm.heroes.v1/movement/teleport)ed in a way that would harm them (such as over a cliff), leave them [dying](scc.v1:mcdm.heroes.v1/rule.health/dying), or result in them suffering a [condition](scc.v1:mcdm.heroes.v1/rule.combat/condition) or other negative effect.
 flavor: No, no, no, you lose the audience that way. Try it like this...
 keywords:
     - Area
@@ -20,6 +20,6 @@ type: ability
 
 | **Area, Magic, Performance** |                    **No action** |
 |------------------------------|---------------------------------:|
-| **📏 2 [aura](scc:mcdm.heroes.v1/rule.combat/aura)**                | **🎯 Each creature in the area** |
+| **📏 2 [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura)**                | **🎯 Each creature in the area** |
 
-**Effect:** At the end of each of your [turns](scc:mcdm.heroes.v1/rule.combat/turn) while this performance is active, you can choose up to a number of targets equal to your [Presence](scc:mcdm.heroes.v1/rule.character/presence) score and [teleport](scc:mcdm.heroes.v1/movement/teleport) those targets to unoccupied spaces in the area. A target can't be [teleport](scc:mcdm.heroes.v1/movement/teleport)ed in a way that would harm them (such as over a cliff), leave them [dying](scc:mcdm.heroes.v1/rule.health/dying), or result in them suffering a [condition](scc:mcdm.heroes.v1/rule.combat/condition) or other negative effect.
+**Effect:** At the end of each of your [turns](scc.v1:mcdm.heroes.v1/rule.combat/turn) while this performance is active, you can choose up to a number of targets equal to your [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence) score and [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) those targets to unoccupied spaces in the area. A target can't be [teleport](scc.v1:mcdm.heroes.v1/movement/teleport)ed in a way that would harm them (such as over a cliff), leave them [dying](scc.v1:mcdm.heroes.v1/rule.health/dying), or result in them suffering a [condition](scc.v1:mcdm.heroes.v1/rule.combat/condition) or other negative effect.

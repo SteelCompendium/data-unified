@@ -6,4 +6,4 @@ scc: mcdm.heroes.v1/feature.elementalist.level-1/green-acolyte-of-the-green
 type: feature
 ---
 
-You harness the residual magic from your green spells to bolster yourself and your allies. Whenever you deal damage to one or more creatures using an ability that has the Green and Magic keywords and that costs essence to use (see below), you or one creature within 10 squares of you gains [temporary Stamina](scc:mcdm.heroes.v1/rule.health/temporary-stamina) equal to your [Reason](scc:mcdm.heroes.v1/rule.character/reason) score.
+You harness the residual magic from your green spells to bolster yourself and your allies. Whenever you deal damage to one or more creatures using an ability that has the Green and Magic keywords and that costs essence to use (see below), you or one creature within 10 squares of you gains [temporary Stamina](scc.v1:mcdm.heroes.v1/rule.health/temporary-stamina) equal to your [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) score.

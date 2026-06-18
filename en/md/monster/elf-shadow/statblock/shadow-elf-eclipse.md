@@ -36,11 +36,11 @@ type: statblock
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** 11 damage; I < 2 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
-> - **12-16:** 16 damage; I < 3 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
-> - **17+:** 19 damage; I < 4 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
+> - **≤11:** 11 damage; I < 2 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
+> - **12-16:** 16 damage; I < 3 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
+> - **17+:** 19 damage; I < 4 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
 >
-> **2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice):** The [potency](scc:mcdm.heroes.v1/rule.character/potency) increases by 1.
+> **2 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice):** The [potency](scc.v1:mcdm.heroes.v1/rule.character/potency) increases by 1.
 
 > 🏹 **Grasping Shadow**
 >
@@ -50,9 +50,9 @@ type: statblock
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** [Pull](scc:mcdm.heroes.v1/movement/forced-movement) 5; I < 2 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
-> - **12-16:** [Pull](scc:mcdm.heroes.v1/movement/forced-movement) 7; I < 3 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
-> - **17+:** [Pull](scc:mcdm.heroes.v1/movement/forced-movement) 10; I < 4 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
+> - **≤11:** [Pull](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5; I < 2 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
+> - **12-16:** [Pull](scc.v1:mcdm.heroes.v1/movement/forced-movement) 7; I < 3 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
+> - **17+:** [Pull](scc.v1:mcdm.heroes.v1/movement/forced-movement) 10; I < 4 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
 
 > ❗️ **Put It Out!**
 >
@@ -78,7 +78,7 @@ type: statblock
 > |-----------------|---------------:|    
 > | **📏 Ranged 5** | **🎯 Special** |
 >
-> **Effect:** The eclipse calls forth one brush stalker into an unoccupied space within distance. Each ally within distance can then [shift](scc:mcdm.heroes.v1/movement/shifting) up to their speed and make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike).
+> **Effect:** The eclipse calls forth one brush stalker into an unoccupied space within distance. Each ally within distance can then [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed and make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike).
 
 > ☠️ **Cast Away All Hope (Villain Action 2)**
 >
@@ -86,7 +86,7 @@ type: statblock
 > |-----------------|------------------------------:|    
 > | **📏 3 burst**  | **🎯 Each enemy in the area** |
 >
-> **Effect:** Each target loses all their [surges](scc:mcdm.heroes.v1/rule.resource/surge). Additionally, until the end of the round, allies ignore edges and double edges on any targets' abilities, and ignore any nondamaging effects of any target's damage-dealing abilities.
+> **Effect:** Each target loses all their [surges](scc.v1:mcdm.heroes.v1/rule.resource/surge). Additionally, until the end of the round, allies ignore edges and double edges on any targets' abilities, and ignore any nondamaging effects of any target's damage-dealing abilities.
 
 > ☠️ **Umbral Hunger (Villain Action 3)**
 >

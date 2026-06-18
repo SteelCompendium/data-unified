@@ -60,7 +60,7 @@ type: statblock
 > - **12-16:** 9 damage
 > - **17+:** 12 damage
 >
-> **Effect:** The guide [shifts](scc:mcdm.heroes.v1/movement/shifting) up to their speed before and after the [strike](scc:mcdm.heroes.v1/rule.combat/strike).
+> **Effect:** The guide [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed before and after the [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike).
 
 ######## Level 7 Retainer Advancement Ability
 
@@ -74,7 +74,7 @@ type: statblock
 >
 > - **≤11:** 8 damage
 > - **12-16:** 12 damage; the guide and their mentor can each move up to their speed
-> - **17+:** 16 damage; the guide and their mentor can each move up to their speed, then attempt to [hide](scc:mcdm.heroes.v1/feature.common.maneuvers/hide)
+> - **17+:** 16 damage; the guide and their mentor can each move up to their speed, then attempt to [hide](scc.v1:mcdm.heroes.v1/feature.common.maneuvers/hide)
 >
 > **Effect:** If the guide is hidden from the target, this ability has a double edge.
 
@@ -86,4 +86,4 @@ type: statblock
 > |----------------|----------------:|
 > | **📏 Special** |  **🎯 Special** |
 >
-> **Effect:** The guide applies poison to their weapon. The next time the guide obtains a tier 2 or tier 3 outcome on a weapon [strike](scc:mcdm.heroes.v1/rule.combat/strike), the [strike](scc:mcdm.heroes.v1/rule.combat/strike) deals an extra 10 poison damage, and if the target has M < AVERAGE, they are [weakened](scc:mcdm.heroes.v1/condition/weakened) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends). If the guide is [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to their mentor when they use Poison Blade, they apply poison to the mentor's weapon in the same way.
+> **Effect:** The guide applies poison to their weapon. The next time the guide obtains a tier 2 or tier 3 outcome on a weapon [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), the [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) deals an extra 10 poison damage, and if the target has M < AVERAGE, they are [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends). If the guide is [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to their mentor when they use Poison Blade, they apply poison to the mentor's weapon in the same way.

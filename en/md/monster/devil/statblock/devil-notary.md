@@ -39,11 +39,11 @@ with_captain: +5 bonus to ranged distance
 > **Power Roll + 3:**
 >
 > - **≤11:** 3 fire damage
-> - **12-16:** 5 fire damage; R < 2 the target takes a [bane](scc:mcdm.heroes.v1/rule.dice/bane) on their next strike
-> - **17+:** 6 fire damage; R < 3 the target takes a [bane](scc:mcdm.heroes.v1/rule.dice/bane) on their next strike
+> - **12-16:** 5 fire damage; R < 2 the target takes a [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) on their next strike
+> - **17+:** 6 fire damage; R < 3 the target takes a [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) on their next strike
 >
-> **Effect:** One non-[minion](scc:mcdm.monsters.v1/rule.organization/minion) devil within 5 squares of the notary gains an [edge](scc:mcdm.heroes.v1/rule.dice/edge) on their next strike.
+> **Effect:** One non-[minion](scc.v1:mcdm.monsters.v1/rule.organization/minion) devil within 5 squares of the notary gains an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on their next strike.
 
 > ⭐️ **True Name**
 >
-> If a creature within 10 squares speaks the notary's true name, the notary loses their fire immunity and any nondamaging effects of their [signature ability](scc:mcdm.heroes.v1/rule.combat/signature-ability) until the end of the encounter.
+> If a creature within 10 squares speaks the notary's true name, the notary loses their fire immunity and any nondamaging effects of their [signature ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability) until the end of the encounter.

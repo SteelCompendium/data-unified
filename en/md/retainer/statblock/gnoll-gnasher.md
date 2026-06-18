@@ -37,11 +37,11 @@ type: statblock
 >
 > - **≤11:** 4 damage
 > - **12-16:** 7 damage
-> - **17+:** 10 damage; M < STRONG [bleeding](scc:mcdm.heroes.v1/condition/bleeding) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
+> - **17+:** 10 damage; M < STRONG [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
 
 > ⭐️ **Death Frenzy**
 >
-> Whenever a non-[minion](scc:mcdm.monsters.v1/rule.organization/minion) ally within 7 squares of the gnasher is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), the gnasher moves up to their speed and can make a melee [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike).
+> Whenever a non-[minion](scc.v1:mcdm.monsters.v1/rule.organization/minion) ally within 7 squares of the gnasher is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), the gnasher moves up to their speed and can make a melee [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike).
 
 ######## Level 4 Retainer Advancement Ability
 
@@ -51,9 +51,9 @@ type: statblock
 > |-------------|---------------------:|
 > | **📏 Self** |          **🎯 Self** |
 >
-> **Trigger:** An enemy within 5 squares is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina).
+> **Trigger:** An enemy within 5 squares is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).
 >
-> **Effect:** The gnasher moves up to their speed and can use their [signature ability](scc:mcdm.heroes.v1/rule.combat/signature-ability).
+> **Effect:** The gnasher moves up to their speed and can use their [signature ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability).
 
 ######## Level 7 Retainer Advancement Ability
 
@@ -77,6 +77,6 @@ type: statblock
 > |-------------|----------------:|
 > | **📏 Self** |     **🎯 Self** |
 >
-> **Trigger:** The gnasher reduces a creature to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina).
+> **Trigger:** The gnasher reduces a creature to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).
 >
-> **Effect:** The gnasher consumes part of the target's body. The gnasher can spend a [Recovery](scc:mcdm.heroes.v1/rule.health/recoveries), and each enemy within 5 squares of the gnasher who has I < AVERAGE is [frightened](scc:mcdm.heroes.v1/condition/frightened) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends).
+> **Effect:** The gnasher consumes part of the target's body. The gnasher can spend a [Recovery](scc.v1:mcdm.heroes.v1/rule.health/recoveries), and each enemy within 5 squares of the gnasher who has I < AVERAGE is [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends).

@@ -12,7 +12,7 @@ You become the embodiment of the element of your chosen specialization. Whenever
 
 | Specialization | Feature         |
 |----------------|-----------------|
-| Earth          | [Master of Earth](scc:mcdm.heroes.v1/feature.elementalist.level-10/master-of-earth) |
-| Fire           | [Master of Fire](scc:mcdm.heroes.v1/feature.elementalist.level-10/master-of-fire)  |
-| Green          | [Master of Green](scc:mcdm.heroes.v1/feature.elementalist.level-10/master-of-green) |
-| Void           | [Master of Void](scc:mcdm.heroes.v1/feature.elementalist.level-10/master-of-void)  |
+| Earth          | [Master of Earth](scc.v1:mcdm.heroes.v1/feature.elementalist.level-10/master-of-earth) |
+| Fire           | [Master of Fire](scc.v1:mcdm.heroes.v1/feature.elementalist.level-10/master-of-fire)  |
+| Green          | [Master of Green](scc.v1:mcdm.heroes.v1/feature.elementalist.level-10/master-of-green) |
+| Void           | [Master of Void](scc.v1:mcdm.heroes.v1/feature.elementalist.level-10/master-of-void)  |

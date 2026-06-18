@@ -36,21 +36,21 @@ type: statblock
 >
 > **Power Roll + 3:**
 >
-> - **≤11:** 8 damage; M < 1 [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)
-> - **12-16:** 12 damage; M < 2 [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)
-> - **17+:** 15 damage; M < 3 [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)
+> - **≤11:** 8 damage; M < 1 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
+> - **12-16:** 12 damage; M < 2 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
+> - **17+:** 15 damage; M < 3 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
 >
-> **Effect:** The warleader can [teleport](scc:mcdm.heroes.v1/movement/teleport) up to 3 squares between each strike.
+> **Effect:** The warleader can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) up to 3 squares between each strike.
 >
-> **2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice):** A target [restrained](scc:mcdm.heroes.v1/condition/restrained) by this ability takes an extra 3 damage.
+> **2 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice):** A target [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) by this ability takes an extra 3 damage.
 
-> ❇️ **Fairness Is a Human Concept (5 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
+> ❇️ **Fairness Is a Human Concept (5 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Area**        |                 **Maneuver** |
 > |-----------------|-----------------------------:|
 > | **📏 10 burst** | **🎯 Each ally in the area** |
 >
-> **Effect:** Each non-[minion](scc:mcdm.monsters.v1/rule.organization/minion) target can make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike), then each target [shifts](scc:mcdm.heroes.v1/movement/shifting) up to 3 squares. A target who has cover or concealment at the end of this shift can attempt to hide at the end of the warleader's turn.
+> **Effect:** Each non-[minion](scc.v1:mcdm.monsters.v1/rule.organization/minion) target can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike), then each target [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to 3 squares. A target who has cover or concealment at the end of this shift can attempt to hide at the end of the warleader's turn.
 
 > ❗️ **Wode Sickness**
 >
@@ -60,7 +60,7 @@ type: statblock
 >
 > **Trigger:** An ally ends their turn.
 >
-> **Effect:** The target must not have taken their turn this round. The target takes their turn immediately, and if they have P < 2 they are [bleeding](scc:mcdm.heroes.v1/condition/bleeding) and take a bane on strikes until the end of their turn.
+> **Effect:** The target must not have taken their turn this round. The target takes their turn immediately, and if they have P < 2 they are [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) and take a bane on strikes until the end of their turn.
 
 > ⭐️ **End Effect**
 >
@@ -88,7 +88,7 @@ type: statblock
 > |----------------|-----------------------------:|
 > | **📏 5 burst** | **🎯 Each ally in the area** |
 >
-> **Effect:** The warleader can use Wodeblade. Each target can then make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike).
+> **Effect:** The warleader can use Wodeblade. Each target can then make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike).
 
 > ☠️ **Is It Now or Is It Then? (Villain Action 3)**
 >

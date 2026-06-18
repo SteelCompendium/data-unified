@@ -38,23 +38,23 @@ weaknesses:
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 5 damage; the remasch can [teleport](scc:mcdm.heroes.v1/movement/teleport) up to 2 squares
-> - **12-16:** 6 damage; the remasch can [teleport](scc:mcdm.heroes.v1/movement/teleport) up to 3 squares
-> - **17+:** 8 damage; the remasch can [teleport](scc:mcdm.heroes.v1/movement/teleport) up to 5 squares
+> - **≤11:** 5 damage; the remasch can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) up to 2 squares
+> - **12-16:** 6 damage; the remasch can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) up to 3 squares
+> - **17+:** 8 damage; the remasch can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) up to 5 squares
 >
-> **5 [Malice](scc:mcdm.monsters.v1/rule.monster/malice):** The remasch takes an [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) creature with them when they [teleport](scc:mcdm.heroes.v1/movement/teleport). The creature appears in an unoccupied space [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the remasch's destination.
+> **5 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice):** The remasch takes an [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) creature with them when they [teleport](scc.v1:mcdm.heroes.v1/movement/teleport). The creature appears in an unoccupied space [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the remasch's destination.
 
-> 👤 **Grasping Shadow (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
+> 👤 **Grasping Shadow (3 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Magic**   | **Maneuver** |
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
-> **Effect:** The remasch can [teleport](scc:mcdm.heroes.v1/movement/teleport) up to 2 squares and uses Abyssal Strike.
+> **Effect:** The remasch can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) up to 2 squares and uses Abyssal Strike.
 
 > ⭐️ **Lethe**
 >
-> While the remasch is [winded](scc:mcdm.heroes.v1/rule.health/winded), they gain an [edge](scc:mcdm.heroes.v1/rule.dice/edge) on strikes, and any strike made against them gains an edge.
+> While the remasch is [winded](scc.v1:mcdm.heroes.v1/rule.health/winded), they gain an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on strikes, and any strike made against them gains an edge.
 
 > ⭐️ **Soulsight**
 >

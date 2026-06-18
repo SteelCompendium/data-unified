@@ -38,9 +38,9 @@ type: statblock
 >
 > - **≤11:** 7 damage
 > - **12-16:** 10 damage
-> - **17+:** 13 damage; R < 1 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends); I < 1 [frightened](scc:mcdm.heroes.v1/condition/frightened) (save ends); P < 1 [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)
+> - **17+:** 13 damage; R < 1 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends); I < 1 [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends); P < 1 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
 >
-> **5 [Malice](scc:mcdm.monsters.v1/rule.monster/malice):** The ability takes the Area keyword and loses the Strike keyword, its distance becomes a 3 cube within 10, and it targets each enemy in the area.
+> **5 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice):** The ability takes the Area keyword and loses the Strike keyword, its distance becomes a 3 cube within 10, and it targets each enemy in the area.
 
 > 🗡 **Kiss of Death**
 >

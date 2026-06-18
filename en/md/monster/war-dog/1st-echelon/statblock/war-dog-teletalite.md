@@ -29,7 +29,7 @@ type: statblock
 |      **-**<br>Immunity      | **Teleport**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |       **0**<br>Might        |    **+2**<br>Agility     |  **0**<br>Reason  |  **0**<br>Intuition   |  **0**<br>Presence   |
 
-> ⚔️ **Corrupted Ash Daggers ([Signature Ability](scc:mcdm.heroes.v1/rule.combat/signature-ability))**
+> ⚔️ **Corrupted Ash Daggers ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
 > | **Melee, Ranged, Strike, Weapon** |               **Main action** |
 > |-----------------------------------|------------------------------:|
@@ -37,13 +37,13 @@ type: statblock
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 4 damage; [slide](scc:mcdm.heroes.v1/movement/forced-movement) 1
-> - **12-16:** 6 damage; [slide](scc:mcdm.heroes.v1/movement/forced-movement) 2
-> - **17+:** 7 damage; [slide](scc:mcdm.heroes.v1/movement/forced-movement) 3
+> - **≤11:** 4 damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1
+> - **12-16:** 6 damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2
+> - **17+:** 7 damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3
 >
-> **Effect:** The teletalite gains an edge on this ability if any ally is [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the target.
+> **Effect:** The teletalite gains an edge on this ability if any ally is [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the target.
 >
-> **1 [Malice](scc:mcdm.monsters.v1/rule.monster/malice):** The teletalite [teleports](scc:mcdm.heroes.v1/movement/teleport) the target 3 squares before sliding them.
+> **1 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice):** The teletalite [teleports](scc.v1:mcdm.heroes.v1/movement/teleport) the target 3 squares before sliding them.
 
 > 🏹 **Posthumous Promotion**
 >
@@ -51,16 +51,16 @@ type: statblock
 > |-------------------|-------------------:|
 > | **📏 Ranged 10**  | **🎯 One war dog** |
 >
-> **Effect:** If the target has a loyalty collar, they are reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina).
+> **Effect:** If the target has a loyalty collar, they are reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).
 
-> 👤 **Corrupted Ash Teleport (1 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
+> 👤 **Corrupted Ash Teleport (1 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Magic**   | **Maneuver** |
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
-> **Effect:** The teletalite can [teleport](scc:mcdm.heroes.v1/movement/teleport) up to 5 squares and gains an edge on strikes until the end of their turn.
+> **Effect:** The teletalite can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) up to 5 squares and gains an edge on strikes until the end of their turn.
 
 > ⭐️ **Loyalty Collar**
 >
-> When the teletalite is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), their loyalty collar explodes, dealing 1d6 damage to each [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) enemy and object.
+> When the teletalite is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), their loyalty collar explodes, dealing 1d6 damage to each [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) enemy and object.

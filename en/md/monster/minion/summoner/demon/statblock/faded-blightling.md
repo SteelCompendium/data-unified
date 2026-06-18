@@ -40,18 +40,18 @@ This cherubin creature is bloated and warped by demonic energy. The lights from 
 > |---------------------------|----------------:|
 > | **📏 Ranged 5** | **🎯 One creature or object per minion** |
 >
-> 7 corruption [damage](scc:mcdm.heroes.v1/rule.damage/damage); P < WEAK [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (EoT)
+> 7 corruption [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage); P < WEAK [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (EoT)
 >
-> 11 corruption [damage](scc:mcdm.heroes.v1/rule.damage/damage); P < AVERAGE [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (EoT)
+> 11 corruption [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage); P < AVERAGE [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (EoT)
 >
-> 16 corruption [damage](scc:mcdm.heroes.v1/rule.damage/damage); P < STRONG [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (EoT)
+> 16 corruption [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage); P < STRONG [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (EoT)
 >
-> **Effect:** Instead of taking [damage](scc:mcdm.heroes.v1/rule.damage/damage), you or an ally targeted by this ability impose a double [bane](scc:mcdm.heroes.v1/rule.dice/bane) on the next [strike](scc:mcdm.heroes.v1/rule.combat/strike) that targets them.
+> **Effect:** Instead of taking [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage), you or an ally targeted by this ability impose a double [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) on the next [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) that targets them.
 
 > ⭐️ **Wilted Wings**
 >
-> The blightling must land on the ground at the end of their [turn](scc:mcdm.heroes.v1/rule.combat/turn) or fall [prone](scc:mcdm.heroes.v1/condition/prone).
+> The blightling must land on the ground at the end of their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) or fall [prone](scc.v1:mcdm.heroes.v1/condition/prone).
 
 > ⭐️ **Soulsight**
 >
-> Each creature [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the blightling can't be hidden from them.
+> Each creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the blightling can't be hidden from them.

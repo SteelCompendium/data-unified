@@ -6,4 +6,4 @@ scc: mcdm.heroes.v1/feature.talent.level-8/universal-connection
 type: feature
 ---
 
-The range of your [Telepathic Speech](scc:mcdm.heroes.v1/feature.talent.level-1/telepathic-speech) feature increases to anywhere on the same world.
+The range of your [Telepathic Speech](scc.v1:mcdm.heroes.v1/feature.talent.level-1/telepathic-speech) feature increases to anywhere on the same world.

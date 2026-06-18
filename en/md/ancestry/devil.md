@@ -6,15 +6,15 @@ signature_trait_name: Silver Tongue
 type: ancestry
 ---
 
-The native ancestry of the Seven Cities of Hell, [devils](scc:mcdm.heroes.v1/ancestry/devil) are humanoids with red or blue skin expressed in a wide variety of hues, from bright crimson to deep purple. Each [devil](scc:mcdm.heroes.v1/ancestry/devil) is born with some *hellmark*-horns, a tail, cloven hooves, a forked tongue, fanged incisors, or even wings.
+The native ancestry of the Seven Cities of Hell, [devils](scc.v1:mcdm.heroes.v1/ancestry/devil) are humanoids with red or blue skin expressed in a wide variety of hues, from bright crimson to deep purple. Each [devil](scc.v1:mcdm.heroes.v1/ancestry/devil) is born with some *hellmark*-horns, a tail, cloven hooves, a forked tongue, fanged incisors, or even wings.
 
 Hell is dominated by the Seven Cities of Hell, each ruled by a different archdevil who constantly plots and schemes against the others in the hope of ascending to the Throne of Hell.
 
-Those [devils](scc:mcdm.heroes.v1/ancestry/devil) who join "the trade," as their civil service is called, spend their days in bureaucratic service hoping or scheming for promotion. [Devils](scc:mcdm.heroes.v1/ancestry/devil) looking for a quick path up the bureaucratic ladder sign up for the Exchange, whereby mortals in the mundane world who perform the right rituals can summon a [devil](scc:mcdm.heroes.v1/ancestry/devil), who bargains with the supplicant on behalf of their archdevil. Archdevils can grant temporary worldly power in exchange for a supplicant's soul, with the summoned [devil](scc:mcdm.heroes.v1/ancestry/devil) acting as the broker.
+Those [devils](scc.v1:mcdm.heroes.v1/ancestry/devil) who join "the trade," as their civil service is called, spend their days in bureaucratic service hoping or scheming for promotion. [Devils](scc.v1:mcdm.heroes.v1/ancestry/devil) looking for a quick path up the bureaucratic ladder sign up for the Exchange, whereby mortals in the mundane world who perform the right rituals can summon a [devil](scc.v1:mcdm.heroes.v1/ancestry/devil), who bargains with the supplicant on behalf of their archdevil. Archdevils can grant temporary worldly power in exchange for a supplicant's soul, with the summoned [devil](scc.v1:mcdm.heroes.v1/ancestry/devil) acting as the broker.
 
-On rare occasions, though, the summoning goes wrong and the supplicant dies before the deal can be struck, stranding the summoned [devil](scc:mcdm.heroes.v1/ancestry/devil) on [Orden](scc:mcdm.heroes.v1/rule.world/orden) permanently. Some stranded [devils](scc:mcdm.heroes.v1/ancestry/devil) seek to return to Hell, but most prefer life in [Orden](scc:mcdm.heroes.v1/rule.world/orden), where the phrase "stabbed in the back by a colleague" is usually a metaphor.
+On rare occasions, though, the summoning goes wrong and the supplicant dies before the deal can be struck, stranding the summoned [devil](scc.v1:mcdm.heroes.v1/ancestry/devil) on [Orden](scc.v1:mcdm.heroes.v1/rule.world/orden) permanently. Some stranded [devils](scc.v1:mcdm.heroes.v1/ancestry/devil) seek to return to Hell, but most prefer life in [Orden](scc.v1:mcdm.heroes.v1/rule.world/orden), where the phrase "stabbed in the back by a colleague" is usually a metaphor.
 
-The majority of [devils](scc:mcdm.heroes.v1/ancestry/devil) in [Orden](scc:mcdm.heroes.v1/rule.world/orden) are not from, nor have ever been to, the Seven Cities. They are descendants of [devils](scc:mcdm.heroes.v1/ancestry/devil) who were stranded in the mundane world decades, centuries, even millennia ago.
+The majority of [devils](scc.v1:mcdm.heroes.v1/ancestry/devil) in [Orden](scc.v1:mcdm.heroes.v1/rule.world/orden) are not from, nor have ever been to, the Seven Cities. They are descendants of [devils](scc.v1:mcdm.heroes.v1/ancestry/devil) who were stranded in the mundane world decades, centuries, even millennia ago.
 
 ### On Devils
 
@@ -26,7 +26,7 @@ Stepping back to admire his handiwork, Adelard crossed his arms and nodded. He'd
 
 He was wittering, putting off the inevitable. He pulled himself together. It was either going to work, or it wasn't, and wittering wasn't going to help. He opened the book and turned the page—then began to speak the ritual.
 
-Moments later, the candles flared, there was a burst of flame, and acrid brimstone filled his nostrils. When the smoke cleared... there was a [devil](scc:mcdm.heroes.v1/ancestry/devil) standing in his basement—dark purple skin, horns, even a twitching tail.
+Moments later, the candles flared, there was a burst of flame, and acrid brimstone filled his nostrils. When the smoke cleared... there was a [devil](scc.v1:mcdm.heroes.v1/ancestry/devil) standing in his basement—dark purple skin, horns, even a twitching tail.
 
 "Aha! Yes, finally." The creature rubbed his hands together. "It's about time," he said, pulling on the bottom of his waistcoat to straighten it. "Now then! How does it go? Oh, yes." He cleared his throat. "On behalf of my lord, his grace Archduke Dispater, Lord of Dis, I am empowered to offer you..." But his speech fell on deaf ears.
 
@@ -36,25 +36,25 @@ Moments later, the candles flared, there was a burst of flame, and acrid brimsto
 
 He stopped cavorting and capering, and his eyes went wide. "Until they... until..." He clutched his chest.
 
-"Uh-oh," the [devil](scc:mcdm.heroes.v1/ancestry/devil) said, genuinely worried.
+"Uh-oh," the [devil](scc.v1:mcdm.heroes.v1/ancestry/devil) said, genuinely worried.
 
 "HNNG!" Adelard grunted. Then he collapsed to the ground, curled into a fetal position, obviously in immense pain.
 
-"Nono. Nurse!" the [devil](scc:mcdm.heroes.v1/ancestry/devil) called out. "Doctor?! Is anyone... you should lie down. Well, you are lying down. Do some... some deep-breathing exercises. Have a cup of tea! That always..."
+"Nono. Nurse!" the [devil](scc.v1:mcdm.heroes.v1/ancestry/devil) called out. "Doctor?! Is anyone... you should lie down. Well, you are lying down. Do some... some deep-breathing exercises. Have a cup of tea! That always..."
 
 Adelard gasped one last time and uncurled, muscles relaxed. Eyes open but unseeing.
 
-"... calms me down," the [devil](scc:mcdm.heroes.v1/ancestry/devil) said quietly.
+"... calms me down," the [devil](scc.v1:mcdm.heroes.v1/ancestry/devil) said quietly.
 
-Suddenly, the candles were extinguished as one, plunging the room into pitch blackness. The [devil's](scc:mcdm.heroes.v1/ancestry/devil) hellsight meant this was only a minor inconvenience for him. "Um," he said to the empty room. "Uh-oh."
+Suddenly, the candles were extinguished as one, plunging the room into pitch blackness. The [devil's](scc.v1:mcdm.heroes.v1/ancestry/devil) hellsight meant this was only a minor inconvenience for him. "Um," he said to the empty room. "Uh-oh."
 
 He poked the tip of his boot at the chalk symbol surrounding him on the floor. Nothing happened. He stepped on it. Nothing happened. He put his weight on that foot. No alarms went off.
 
 He walked out of the circle. Nothing happened. No one, it seemed, cared.
 
-A few moments later, the door to a small home, little more than a wooden shack, on the outskirts of a small village opened. A well-dressed [devil](scc:mcdm.heroes.v1/ancestry/devil) peeked out and then slowly emerged, stepping onto the dirt road that led through the center of the village. A keep stood atop a hill in the [distance](scc:mcdm.heroes.v1/rule.combat/distance).
+A few moments later, the door to a small home, little more than a wooden shack, on the outskirts of a small village opened. A well-dressed [devil](scc.v1:mcdm.heroes.v1/ancestry/devil) peeked out and then slowly emerged, stepping onto the dirt road that led through the center of the village. A keep stood atop a hill in the [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance).
 
-"Ah," the [devil](scc:mcdm.heroes.v1/ancestry/devil) said.
+"Ah," the [devil](scc.v1:mcdm.heroes.v1/ancestry/devil) said.
 
 A wide woman dressed in wool, carrying a pile of clean clothes, saw him and stopped in her tracks, her mouth open.
 
@@ -66,17 +66,17 @@ A wide woman dressed in wool, carrying a pile of clean clothes, saw him and stop
 
 A young man in a low, stone building saw this exchange, grabbed what looked like a long iron poker, and ran out to confront the new arrival.
 
-"Have at you, [devil](scc:mcdm.heroes.v1/ancestry/devil)!" he said, assuming something like a dueling pose. "I say! Steady on!" The [devil](scc:mcdm.heroes.v1/ancestry/devil) raised his hands.
+"Have at you, [devil](scc.v1:mcdm.heroes.v1/ancestry/devil)!" he said, assuming something like a dueling pose. "I say! Steady on!" The [devil](scc.v1:mcdm.heroes.v1/ancestry/devil) raised his hands.
 
 The two of them stood there, frozen in the middle of the street for a few moments.
 
-Then the [devil](scc:mcdm.heroes.v1/ancestry/devil) turned and ran away as quickly as he could.
+Then the [devil](scc.v1:mcdm.heroes.v1/ancestry/devil) turned and ran away as quickly as he could.
 
 • "And that's how I ended up here!" Riyalkin toasted his dinner companion. "Now, after years of obscurity, a legendary hero!"
 
 "Legendarily *vain*," his dinner guest teased with a smile.
 
-"Simply playing my part, darling. People expect a certain amount of vanity in a [troubadour](scc:mcdm.heroes.v1/class/troubadour), don't they?"
+"Simply playing my part, darling. People expect a certain amount of vanity in a [troubadour](scc.v1:mcdm.heroes.v1/class/troubadour), don't they?"
 
 She laughed. "Riyalkin the Red Pen is every bit as advertised."
 
@@ -84,7 +84,7 @@ She laughed. "Riyalkin the Red Pen is every bit as advertised."
 
 "Not all actors are vain." She took offense beautifully. "Just the good ones." She sipped her drink.
 
-"Well then, you must be very vain indeed," the [devil](scc:mcdm.heroes.v1/ancestry/devil) said. "Anyway, does that answer your question?"
+"Well then, you must be very vain indeed," the [devil](scc.v1:mcdm.heroes.v1/ancestry/devil) said. "Anyway, does that answer your question?"
 
 "Mostly. Do they speak Caelian in Hell?"
 
@@ -96,9 +96,9 @@ He waggled his eyebrows. "Style counts for something."
 
 "But wait, that was..." She did some quick mental math. "Fifteen years ago?"
 
-"Well, I was an accountant here in [Capital](scc:mcdm.heroes.v1/rule.world/capital) for several years in between." "An accountant!"
+"Well, I was an accountant here in [Capital](scc.v1:mcdm.heroes.v1/rule.world/capital) for several years in between." "An accountant!"
 
-Riyalkin shrugged. "It's what I did before. I'm moderately good at it." "And how does one go from being an alien accountant to a famous [troubadour](scc:mcdm.heroes.v1/class/troubadour)?"
+Riyalkin shrugged. "It's what I did before. I'm moderately good at it." "And how does one go from being an alien accountant to a famous [troubadour](scc.v1:mcdm.heroes.v1/class/troubadour)?"
 
 "Well..." Riyalkin seemed uncomfortable suddenly. "It's just that... the thing is, accountancy in the Seven Cities is just so much more interesting than it is here. Plotting and scheming, always on the lookout for an assassin, people constantly trying to claw their way up the ladder, usually over your dead body. And I guess I just... missed the excitement."
 
@@ -108,4 +108,4 @@ Riyalkin shrugged. "It's what I did before. I'm moderately good at it." "And how
 
 and the outrageous sums I spend looking good, I always feel *underdressed* in your presence? Do you employ sorcery? Or is it that any outfit is improved by your *unearthly* beauty?"
 
-She blushed in spite of herself and raised her own glass in a toast. "You silver-tongued [devil](scc:mcdm.heroes.v1/ancestry/devil)."
+She blushed in spite of herself and raised her own glass in a toast. "You silver-tongued [devil](scc.v1:mcdm.heroes.v1/ancestry/devil)."

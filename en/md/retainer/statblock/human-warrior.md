@@ -39,7 +39,7 @@ type: statblock
 > - **12-16:** 5 damage
 > - **17+:** 7 damage
 >
-> **Effect:** If the warrior is [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to their mentor, this ability gains an edge.
+> **Effect:** If the warrior is [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to their mentor, this ability gains an edge.
 
 > ⭐️ **Supernatural Insight**
 >
@@ -71,7 +71,7 @@ type: statblock
 > - **12-16:** 11 damage
 > - **17+:** 16 damage
 >
-> **Effect:** Until the start of the warrior's next turn, ability rolls against the warrior or any ally [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the warrior have a double bane.
+> **Effect:** Until the start of the warrior's next turn, ability rolls against the warrior or any ally [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the warrior have a double bane.
 
 ######## Level 10 Retainer Advancement Ability
 

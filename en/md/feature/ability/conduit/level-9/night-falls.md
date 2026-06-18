@@ -2,13 +2,13 @@
 action_type: Main action
 class: conduit
 cost: 11 Piety
-distance: 5 [cube](scc:mcdm.heroes.v1/rule.combat/cube) within 10
-effect: Until the end of the encounter or until you are [dying](scc:mcdm.heroes.v1/rule.health/dying), the area is filled with magic darkness that your enemies can't see through, but you and your allies can.
+distance: 5 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 10
+effect: Until the end of the encounter or until you are [dying](scc.v1:mcdm.heroes.v1/rule.health/dying), the area is filled with magic darkness that your enemies can't see through, but you and your allies can.
 flavor: You summon darkness that thwarts only your foes.
 keywords:
     - Area
     - Magic
-    - '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)'
+    - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'
 level: "9"
 name: Night Falls
 scc: mcdm.heroes.v1/feature.ability.conduit.level-9/night-falls
@@ -19,8 +19,8 @@ type: ability
 
 *You summon darkness that thwarts only your foes.*
 
-| **Area, Magic, [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)** |  **Main action** |
+| **Area, Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)** |  **Main action** |
 |-------------------------|-----------------:|
-| **📏 5 [cube](scc:mcdm.heroes.v1/rule.combat/cube) within 10** |   **🎯 Special** |
+| **📏 5 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 10** |   **🎯 Special** |
 
-**Effect:** Until the end of the encounter or until you are [dying](scc:mcdm.heroes.v1/rule.health/dying), the area is filled with magic darkness that your enemies can't see through, but you and your allies can.
+**Effect:** Until the end of the encounter or until you are [dying](scc.v1:mcdm.heroes.v1/rule.health/dying), the area is filled with magic darkness that your enemies can't see through, but you and your allies can.

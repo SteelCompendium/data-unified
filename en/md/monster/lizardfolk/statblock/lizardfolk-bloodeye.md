@@ -36,11 +36,11 @@ type: statblock
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 5 damage; A < 0 [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)
-> - **12-16:** 7 damage; A < 1 [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)
-> - **17+:** 9 damage; A < 2 [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)
+> - **≤11:** 5 damage; A < 0 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
+> - **12-16:** 7 damage; A < 1 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
+> - **17+:** 9 damage; A < 2 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
 
-> 🏹 **Bloodshot (2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
+> 🏹 **Bloodshot (2 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Ranged, Strike, Weapon** |     **Main action** |
 > |----------------------------|--------------------:|
@@ -54,4 +54,4 @@ type: statblock
 
 > ⭐️ **Reptilian Escape**
 >
-> While the bloodeye has a tail, whenever they are [grabbed](scc:mcdm.heroes.v1/condition/grabbed), [prone](scc:mcdm.heroes.v1/condition/prone), [slowed](scc:mcdm.heroes.v1/condition/slowed), or [weakened](scc:mcdm.heroes.v1/condition/weakened), they can lose their tail to immediately end that condition, then [shift](scc:mcdm.heroes.v1/movement/shifting) up to 2 squares.
+> While the bloodeye has a tail, whenever they are [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed), [prone](scc.v1:mcdm.heroes.v1/condition/prone), [slowed](scc.v1:mcdm.heroes.v1/condition/slowed), or [weakened](scc.v1:mcdm.heroes.v1/condition/weakened), they can lose their tail to immediately end that condition, then [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to 2 squares.

@@ -2,10 +2,10 @@
 flavor: You grew crops or cared for livestock.
 language: One language
 name: Farmer
-perk: One exploration perk (*Quick Build:* [Monster Whisperer](scc:mcdm.heroes.v1/perk/monster-whisperer).)
+perk: One exploration perk (*Quick Build:* [Monster Whisperer](scc.v1:mcdm.heroes.v1/perk/monster-whisperer).)
 scc: mcdm.heroes.v1/career/farmer
 skills:
-    - The [Handle Animals](scc:mcdm.heroes.v1/skill.interpersonal/handle-animals) skill (from the [interpersonal skill group](scc:mcdm.heroes.v1/skill.group/interpersonal)), plus two skills from the [exploration group](scc:mcdm.heroes.v1/skill.group/exploration) (*Quick Build:* [Drive](scc:mcdm.heroes.v1/skill.exploration/drive), [Handle Animals](scc:mcdm.heroes.v1/skill.interpersonal/handle-animals), [Lift](scc:mcdm.heroes.v1/skill.exploration/lift).)
+    - The [Handle Animals](scc.v1:mcdm.heroes.v1/skill.interpersonal/handle-animals) skill (from the [interpersonal skill group](scc.v1:mcdm.heroes.v1/skill.group/interpersonal)), plus two skills from the [exploration group](scc.v1:mcdm.heroes.v1/skill.group/exploration) (*Quick Build:* [Drive](scc.v1:mcdm.heroes.v1/skill.exploration/drive), [Handle Animals](scc.v1:mcdm.heroes.v1/skill.interpersonal/handle-animals), [Lift](scc.v1:mcdm.heroes.v1/skill.exploration/lift).)
 type: career
 ---
 
@@ -18,13 +18,13 @@ You grew crops or cared for livestock. In defining your career, think about the 
 
 You gain the following career benefits:
 
-**Skills:** The [Handle Animals](scc:mcdm.heroes.v1/skill.interpersonal/handle-animals) skill (from the [interpersonal skill group](scc:mcdm.heroes.v1/skill.group/interpersonal)), plus two skills from the [exploration group](scc:mcdm.heroes.v1/skill.group/exploration) (*Quick Build:* [Drive](scc:mcdm.heroes.v1/skill.exploration/drive), [Handle Animals](scc:mcdm.heroes.v1/skill.interpersonal/handle-animals), [Lift](scc:mcdm.heroes.v1/skill.exploration/lift).)
+**Skills:** The [Handle Animals](scc.v1:mcdm.heroes.v1/skill.interpersonal/handle-animals) skill (from the [interpersonal skill group](scc.v1:mcdm.heroes.v1/skill.group/interpersonal)), plus two skills from the [exploration group](scc.v1:mcdm.heroes.v1/skill.group/exploration) (*Quick Build:* [Drive](scc.v1:mcdm.heroes.v1/skill.exploration/drive), [Handle Animals](scc.v1:mcdm.heroes.v1/skill.interpersonal/handle-animals), [Lift](scc.v1:mcdm.heroes.v1/skill.exploration/lift).)
 
 **Languages:** One language
 
-**[Project Points](scc:mcdm.heroes.v1/rule.downtime/project-points):** 120
+**[Project Points](scc.v1:mcdm.heroes.v1/rule.downtime/project-points):** 120
 
-**Perk:** One exploration perk (*Quick Build:* [Monster Whisperer](scc:mcdm.heroes.v1/perk/monster-whisperer).)
+**Perk:** One exploration perk (*Quick Build:* [Monster Whisperer](scc.v1:mcdm.heroes.v1/perk/monster-whisperer).)
 
 | d6 | Inciting Incident                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 |----|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -33,4 +33,4 @@ You gain the following career benefits:
 | 3  | **Cursed:** While tilling your fields, you found something in the dirt. Perhaps it was a chipped and dented weapon, a piece of ancient jewelry, or something altogether unique. Excited by your find, you showed it to a loved one, but when they touched it, something happened. You now know it was a curse conveyed by the item, though you don't know why it affected them and not you. You left your old life in search of answers. |
 | 4  | **Hard Times:** Your farm had always been prosperous, until the last few years. Changes in the weather caused smaller yields until you could no longer pay your tithe to the local noble. Her soldiers took what items of value they found, including a precious family heirloom. You left the struggling farm behind to find a better life. |
 | 5  | **Razed:** Your animals were killed, your crops and home set ablaze. The culprits might have been wandering bandits, raiders from a nearby kingdom, or hired thugs sent by a rival farm. Whoever they were, they left you with nothing. You couldn't face the thought of starting again from scratch, so you took up a life of heroism to protect others from such villainy. |
-| 6  | **Stolen:** Your family bred horses—beautiful creatures that few could rival on the track and in the jousting lists. When a local noble arrived with an offer to buy your prized stallion, your father refused. The noble struck him down where he stood and stole the horse. Without that stallion, the [renown](scc:mcdm.heroes.v1/rule.resource/renown)ed bloodline would end. You intend to get them back—and get revenge. |
+| 6  | **Stolen:** Your family bred horses—beautiful creatures that few could rival on the track and in the jousting lists. When a local noble arrived with an offer to buy your prized stallion, your father refused. The noble struck him down where he stood and stole the horse. Without that stallion, the [renown](scc.v1:mcdm.heroes.v1/rule.resource/renown)ed bloodline would end. You intend to get them back—and get revenge. |

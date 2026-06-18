@@ -31,7 +31,7 @@ with_captain: +2 damage bonus to strikes
 | **Psychic 6**<br>Immunity | **Fly, hover**<br>Movement |        -         | **+2 damage bonus to strikes**<br>With Captain |   **-**<br>Weakness   |
 |      **-1**<br>Might      |     **+3**<br>Agility      | **+1**<br>Reason |              **+1**<br>Intuition               |   **0**<br>Presence   |
 
-> 🗡 **Eager Claws ([Signature Ability](scc:mcdm.heroes.v1/rule.combat/signature-ability))**
+> 🗡 **Eager Claws ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
 > | **Melee, Strike, Weapon** |                          **Main action** |
 > |---------------------------|-----------------------------------------:|
@@ -45,14 +45,14 @@ with_captain: +2 damage bonus to strikes
 
 > ❗️ **Feast**
 >
-> | **Psionic** | **[Triggered Action](scc:mcdm.heroes.v1/rule.combat/triggered-action)** |
+> | **Psionic** | **[Triggered Action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |
 > |-------------|---------------------:|
 > | **📏 Self** |          **🎯 Self** |
 >
-> **Trigger:** The whelp reduces a non-[minion](scc:mcdm.monsters.v1/rule.organization/minion) creature to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina).
+> **Trigger:** The whelp reduces a non-[minion](scc.v1:mcdm.monsters.v1/rule.organization/minion) creature to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).
 >
-> **Effect:** The whelp transforms into a mindkiller whose [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) equals their squad's [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) pool before transforming. The [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) pool then loses the whelp's [Stamina](scc:mcdm.heroes.v1/rule.health/stamina).
+> **Effect:** The whelp transforms into a mindkiller whose [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) equals their squad's [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) pool before transforming. The [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) pool then loses the whelp's [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).
 
 > ⭐️ **Psionic Conductor**
 >
-> Whenever a non-[minion](scc:mcdm.monsters.v1/rule.organization/minion) voiceless talker within 5 squares of the whelp uses a psionic ability, they can do so as if they were in the whelp's space.
+> Whenever a non-[minion](scc.v1:mcdm.monsters.v1/rule.organization/minion) voiceless talker within 5 squares of the whelp uses a psionic ability, they can do so as if they were in the whelp's space.

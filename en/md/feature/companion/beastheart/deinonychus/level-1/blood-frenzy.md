@@ -7,4 +7,4 @@ scc: mcdm.beastheart.v1/feature.companion.beastheart.deinonychus.level-1/blood-f
 type: feature
 ---
 
-Whenever the deinonychus deals damage to a [bleeding](scc:mcdm.heroes.v1/condition/bleeding) creature, they gain 1 surge.
+Whenever the deinonychus deals damage to a [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) creature, they gain 1 surge.

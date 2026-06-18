@@ -16,9 +16,9 @@ A bredbeddle stole your head! Usually, being beheaded by one of those magical gi
 >
 > *You don't have a head, but you can psionically borrow another.*
 >
-> | **Psionic, [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)** |                **Maneuver** |
+> | **Psionic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)** |                **Maneuver** |
 > |---------------------|----------------------------:|
-> | **📏 [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 10**    | **🎯 One willing creature** |
+> | **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**    | **🎯 One willing creature** |
 >
 > **Effect:** You can see, hear, and smell as if you were in the target's space. Additionally, you can borrow their mouth to speak when you wish to do so, speaking in your own voice. This effect ends when you use Share Head on a different target, when the target moves more than 10 squares away from you, or when the target is no longer willing to share their head with you.
 

@@ -44,4 +44,4 @@ with_captain: +2 bonus to speed
 
 > ⭐️ **Spark of Life**
 >
-> On their turn, the mote can leave the encounter in a flash of light to revive one [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) dead soot crow, brambleguard, or ceramic horse. The revived creature returns with 3 Stamina.
+> On their turn, the mote can leave the encounter in a flash of light to revive one [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) dead soot crow, brambleguard, or ceramic horse. The revived creature returns with 3 Stamina.

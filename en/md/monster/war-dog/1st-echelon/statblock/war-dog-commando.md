@@ -29,7 +29,7 @@ with_captain: +1 damage bonus to strikes
 |      **-**<br>Immunity      | **-**<br>Movement |        -         | **+1 damage bonus to strikes**<br>With Captain |   **-**<br>Weakness   |
 |       **0**<br>Might        | **+2**<br>Agility | **0**<br>Reason  |               **0**<br>Intuition               |   **0**<br>Presence   |
 
-> ⚔️ **Daggers ([Signature Ability](scc:mcdm.heroes.v1/rule.combat/signature-ability))**
+> ⚔️ **Daggers ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
 > | **Melee, Ranged, Strike, Weapon** |                          **Main action** |
 > |-----------------------------------|-----------------------------------------:|
@@ -45,4 +45,4 @@ with_captain: +1 damage bonus to strikes
 
 > ⭐️ **Loyalty Collar**
 >
-> When the commando is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), their loyalty collar explodes, dealing 1d3 damage to each [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) enemy and object.
+> When the commando is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), their loyalty collar explodes, dealing 1d3 damage to each [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) enemy and object.

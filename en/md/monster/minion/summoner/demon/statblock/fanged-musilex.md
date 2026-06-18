@@ -36,8 +36,8 @@ Ensnarers knot and twist their bodies together to form heaving, heavy musilexes.
 
 > ⭐️ **Mawful Strike**
 >
-> The musilex's melee [free strikes](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) have a distance of 2 + R and inflict [pull](scc:mcdm.heroes.v1/movement/forced-movement) 2. The [pull](scc:mcdm.heroes.v1/movement/forced-movement) distance increases by 2 for each additional musilex striking the same target. Choose the musilex that the target is being pulled to before applying [forced movement](scc:mcdm.heroes.v1/movement/forced-movement). If the target is pulled adjacent to the musilex, the musilex either deals an additional 2 damage or [grabs](scc:mcdm.heroes.v1/feature.common.maneuvers/grab) them.
+> The musilex's melee [free strikes](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) have a distance of 2 + R and inflict [pull](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2. The [pull](scc.v1:mcdm.heroes.v1/movement/forced-movement) distance increases by 2 for each additional musilex striking the same target. Choose the musilex that the target is being pulled to before applying [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement). If the target is pulled adjacent to the musilex, the musilex either deals an additional 2 damage or [grabs](scc.v1:mcdm.heroes.v1/feature.common.maneuvers/grab) them.
 
 > ⭐️ **Soulsight**
 >
-> Each creature adjacent to the musilex can't be [hidden](scc:mcdm.heroes.v1/feature.common.maneuvers/hide) from them.
+> Each creature adjacent to the musilex can't be [hidden](scc.v1:mcdm.heroes.v1/feature.common.maneuvers/hide) from them.

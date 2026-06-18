@@ -34,13 +34,13 @@ type: statblock
 >
 > **Power Roll + 3:**
 >
-> - **≤11:** 7 damage; M < 1 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
-> - **12-16:** 10 damage; M < 1 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
-> - **17+:** 13 damage; M < 1 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
+> - **≤11:** 7 damage; M < 1 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+> - **12-16:** 10 damage; M < 1 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+> - **17+:** 13 damage; M < 1 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
 >
-> **Effect:** Each ally [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to a target can make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) against that target.
+> **Effect:** Each ally [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to a target can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against that target.
 >
-> **3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice):** While [weakened](scc:mcdm.heroes.v1/condition/weakened) this way, a target is also [restrained](scc:mcdm.heroes.v1/condition/restrained).
+> **3 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice):** While [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) this way, a target is also [restrained](scc.v1:mcdm.heroes.v1/condition/restrained).
 
 > 🏹 **Concentrate All Fire on That Hero!**
 >
@@ -58,36 +58,36 @@ type: statblock
 >
 > **Trigger:** A creature uses an ability that targets the centurion or an ally of the centurion within distance.
 >
-> **Effect:** Each target [shifts](scc:mcdm.heroes.v1/movement/shifting) up to 2 squares before the damage is resolved. Each kobold with the Shield? Shield! trait gains damage immunity 2 against the triggering ability.
+> **Effect:** Each target [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to 2 squares before the damage is resolved. Each kobold with the Shield? Shield! trait gains damage immunity 2 against the triggering ability.
 
-> ⭐️ **[End Effect](scc:mcdm.monsters.v1/rule.monster/end-effect)**
+> ⭐️ **[End Effect](scc.v1:mcdm.monsters.v1/rule.monster/end-effect)**
 >
-> At the end of each of their turns, the centurion can take 5 damage to end one effect on them that can be ended by a [saving throw](scc:mcdm.heroes.v1/rule.general/saving-throw). This damage can't be reduced in any way.
+> At the end of each of their turns, the centurion can take 5 damage to end one effect on them that can be ended by a [saving throw](scc.v1:mcdm.heroes.v1/rule.general/saving-throw). This damage can't be reduced in any way.
 
-> ☠️ **Firetail Pilum ([Villain Action](scc:mcdm.monsters.v1/rule.monster/villain-action) 1)**
+> ☠️ **Firetail Pilum ([Villain Action](scc.v1:mcdm.monsters.v1/rule.monster/villain-action) 1)**
 >
 > | **-**          |          **-** |
 > |----------------|---------------:|
 > | **📏 Special** | **🎯 Special** |
 >
-> **Effect:** The centurion moves up to their speed, ignoring [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain), and uses Pilum against each creature whose space they move through. They make one power roll against all targets, and the ability deals an extra 5 damage. While [weakened](scc:mcdm.heroes.v1/condition/weakened) by that ability, each target takes 2 fire damage at the start of each of their turns.
+> **Effect:** The centurion moves up to their speed, ignoring [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain), and uses Pilum against each creature whose space they move through. They make one power roll against all targets, and the ability deals an extra 5 damage. While [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) by that ability, each target takes 2 fire damage at the start of each of their turns.
 
-> ☠️ **Boom Pilum! ([Villain Action](scc:mcdm.monsters.v1/rule.monster/villain-action) 2)**
+> ☠️ **Boom Pilum! ([Villain Action](scc.v1:mcdm.monsters.v1/rule.monster/villain-action) 2)**
 >
 > | **Area, Weapon, Ranged** |                         **-** |
 > |--------------------------|------------------------------:|
 > | **📏 5 cube within 10**  | **🎯 Each enemy in the area** |
 >
-> **Effect:** The centurion uses Pilum against each target and has a double edge. Each target is then [pushed](scc:mcdm.heroes.v1/movement/forced-movement) up to 3 squares.
+> **Effect:** The centurion uses Pilum against each target and has a double edge. Each target is then [pushed](scc.v1:mcdm.heroes.v1/movement/forced-movement) up to 3 squares.
 
-> ☠️ **Are You Not Entertained?! ([Villain Action](scc:mcdm.monsters.v1/rule.monster/villain-action) 3)**
+> ☠️ **Are You Not Entertained?! ([Villain Action](scc.v1:mcdm.monsters.v1/rule.monster/villain-action) 3)**
 >
 > | **Area**        |                         **-** |
 > |-----------------|------------------------------:|
 > | **📏 10 burst** | **🎯 Each enemy in the area** |
 >
-> **Effect:** A target who has P < 2 is [taunted](scc:mcdm.heroes.v1/condition/taunted) (save ends). Each ally within distance can make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike). Additionally, until the end of the encounter, the centurion has damage immunity 2.
+> **Effect:** A target who has P < 2 is [taunted](scc.v1:mcdm.heroes.v1/condition/taunted) (save ends). Each ally within distance can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike). Additionally, until the end of the encounter, the centurion has damage immunity 2.
 
 > ⭐️ **Shield? Shield!**
 >
-> While [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to an ally who also has this trait, the centurion has stability 3, has cover, and grants cover to allies.
+> While [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to an ally who also has this trait, the centurion has stability 3, has cover, and grants cover to allies.

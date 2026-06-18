@@ -6,4 +6,4 @@ scc: mcdm.heroes.v1/feature.censor.level-10/characteristic-increase
 type: feature
 ---
 
-Your [Might](scc:mcdm.heroes.v1/rule.character/might) and [Presence](scc:mcdm.heroes.v1/rule.character/presence) scores each increase to 5.
+Your [Might](scc.v1:mcdm.heroes.v1/rule.character/might) and [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence) scores each increase to 5.

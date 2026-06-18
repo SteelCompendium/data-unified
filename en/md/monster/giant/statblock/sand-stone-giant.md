@@ -37,9 +37,9 @@ with_captain: +6 bonus to Stamina
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** 3 damage; [slide](scc:mcdm.heroes.v1/movement/forced-movement) 2
-> - **12-16:** 6 damage; [slide](scc:mcdm.heroes.v1/movement/forced-movement) 3; A < 3 [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)
-> - **17+:** 8 damage; [slide](scc:mcdm.heroes.v1/movement/forced-movement) 4; A < 4 [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)
+> - **≤11:** 3 damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2
+> - **12-16:** 6 damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3; A < 3 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
+> - **17+:** 8 damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 4; A < 4 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
 
 > ⭐️ **Stonebreaker Flesh**
 >
@@ -47,8 +47,8 @@ with_captain: +6 bonus to Stamina
 
 > ⭐️ **Stone Steps**
 >
-> The sand stone giant ignores [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain).
+> The sand stone giant ignores [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain).
 
 > ⭐️ **Stone Swim**
 >
-> The sand stone giant can [burrow](scc:mcdm.heroes.v1/movement/burrow) through stone, but can't drag other creatures underground when they do so.
+> The sand stone giant can [burrow](scc.v1:mcdm.heroes.v1/movement/burrow) through stone, but can't drag other creatures underground when they do so.

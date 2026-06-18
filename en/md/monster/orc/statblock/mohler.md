@@ -29,7 +29,7 @@ with_captain: +2 bonus to speed
 | **-**<br>Immunity | **Burrow**<br>Movement |        -         | **+2 bonus to speed**<br>With Captain |   **-**<br>Weakness   |
 |  **+0**<br>Might  |   **+2**<br>Agility    | **-4**<br>Reason |          **+1**<br>Intuition          |  **-3**<br>Presence   |
 
-> 🗡 **Earth Bump ([Signature Ability](scc:mcdm.heroes.v1/rule.combat/signature-ability))**
+> 🗡 **Earth Bump ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
 > | **Melee, Strike, Weapon** |                          **Main action** |
 > |---------------------------|-----------------------------------------:|
@@ -41,12 +41,12 @@ with_captain: +2 bonus to speed
 > - **12-16:** 4 damage
 > - **17+:** 5 damage
 >
-> **Effect:** The distance increases to melee 2. If the mohler is 1 or more squares beneath the target before they use this ability, a target who has M < 1 is also knocked [prone](scc:mcdm.heroes.v1/condition/prone).
+> **Effect:** The distance increases to melee 2. If the mohler is 1 or more squares beneath the target before they use this ability, a target who has M < 1 is also knocked [prone](scc.v1:mcdm.heroes.v1/condition/prone).
 
 > ⭐️ **Seismic Sense**
 >
-> The mohler doesn't need [line of effect](scc:mcdm.heroes.v1/rule.combat/line-of-effect) to use abilities against creatures or objects touching the ground.
+> The mohler doesn't need [line of effect](scc.v1:mcdm.heroes.v1/rule.combat/line-of-effect) to use abilities against creatures or objects touching the ground.
 
 > ⭐️ **Ground Grinder**
 >
-> The mohler can use the Dig maneuver at the start of the encounter. Additionally, while the mohler [burrows](scc:mcdm.heroes.v1/movement/burrow) within 1 square below the ground, the ground above where they burrow is [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain).
+> The mohler can use the Dig maneuver at the start of the encounter. Additionally, while the mohler [burrows](scc.v1:mcdm.heroes.v1/movement/burrow) within 1 square below the ground, the ground above where they burrow is [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain).

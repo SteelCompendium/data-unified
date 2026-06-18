@@ -29,7 +29,7 @@ type: statblock
 | **Psychic 3**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |      **0**<br>Might       | **+2**<br>Agility | **+2**<br>Reason  |  **+2**<br>Intuition  |  **+1**<br>Presence  |
 
-> 🗡 **Golden Sickles ([Signature Ability](scc:mcdm.heroes.v1/rule.combat/signature-ability))**
+> 🗡 **Golden Sickles ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
 > | **Melee, Psionic, Strike, Weapon** |     **Main action** |
 > |------------------------------------|--------------------:|
@@ -39,9 +39,9 @@ type: statblock
 >
 > - **≤11:** 7 damage
 > - **12-16:** 11 damage
-> - **17+:** 14 damage; A < 2 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
+> - **17+:** 14 damage; A < 2 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
 >
-> **Effect:** The hijack is hidden from any creature who is [bleeding](scc:mcdm.heroes.v1/condition/bleeding) from this ability until that condition ends.
+> **Effect:** The hijack is hidden from any creature who is [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) from this ability until that condition ends.
 
 > 🏹 **Psi-Sickle**
 >
@@ -49,7 +49,7 @@ type: statblock
 > |-----------------------------|------------------------------:|
 > | **📏 Ranged 5**             | **🎯 One creature or object** |
 >
-> **Effect:** The hijack psychically latches their sickle onto the target and closes the distance between them. If the target is larger than the hijack, the hijack moves [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the target. Otherwise, the target is [pulled](scc:mcdm.heroes.v1/movement/forced-movement) up to 4 squares toward the hijack.
+> **Effect:** The hijack psychically latches their sickle onto the target and closes the distance between them. If the target is larger than the hijack, the hijack moves [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the target. Otherwise, the target is [pulled](scc.v1:mcdm.heroes.v1/movement/forced-movement) up to 4 squares toward the hijack.
 
 > ⭐️ **Foresight**
 >

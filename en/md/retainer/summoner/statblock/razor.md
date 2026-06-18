@@ -32,11 +32,11 @@ weaknesses:
 
 > ⭐️ **Teeth!**
 >
-> Once per turn, whenever an [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) enemy [grabs](scc:mcdm.heroes.v1/feature.common.maneuvers/grab) the razor or uses a melee ability against them, that enemy takes 1 damage for each razor [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to them.
+> Once per turn, whenever an [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) enemy [grabs](scc.v1:mcdm.heroes.v1/feature.common.maneuvers/grab) the razor or uses a melee ability against them, that enemy takes 1 damage for each razor [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to them.
 
 > ⭐️ **Soulsight**
 >
-> Each creature [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the razor can't be hidden from them.
+> Each creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the razor can't be hidden from them.
 
 ######## Level 4 Retainer Advancement Ability
 
@@ -46,15 +46,15 @@ weaknesses:
 > |-----------------|----------------:|
 > | **📏 4 cube within 5** | **🎯 Each enemy or object in the area** |
 >
-> **Special:** The detective can instantly kill one or more of their minions to give themself a double [edge](scc:mcdm.heroes.v1/rule.dice/edge) on the [power roll](scc:mcdm.heroes.v1/rule.dice/power-roll).
+> **Special:** The detective can instantly kill one or more of their minions to give themself a double [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on the [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll).
 >
-> 2 damage; A < WEAK [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
+> 2 damage; A < WEAK [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
 >
-> 4 damage; A < AVERAGE [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
+> 4 damage; A < AVERAGE [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
 >
-> 5 damage; A < STRONG [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
+> 5 damage; A < STRONG [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
 >
-> **Effect:** Any enemy that was hiding in the area is revealed. The area is now [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain) for enemies.
+> **Effect:** Any enemy that was hiding in the area is revealed. The area is now [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain) for enemies.
 
 ######## Level 4 Retainer Advancement Ability
 

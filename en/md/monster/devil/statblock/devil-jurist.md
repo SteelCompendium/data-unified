@@ -48,7 +48,7 @@ type: statblock
 >
 > **Effect:** A burning creature takes 1d6 fire damage at the start of each of their turns. A burning object takes 1d6 fire damage at the end of each round.
 >
-> **1+ [Malice](scc:mcdm.monsters.v1/rule.monster/malice):** The jurist can target one additional creature or object for each [Malice](scc:mcdm.monsters.v1/rule.monster/malice) spent.
+> **1+ [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice):** The jurist can target one additional creature or object for each [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice) spent.
 
 > ❇️ **Dismissal with Prejudice**
 >
@@ -62,7 +62,7 @@ type: statblock
 > - **12-16:** 10 damage; slide 3
 > - **17+:** 12 damage; slide 5
 >
-> **Effect:** If the target has M < 2, the [forced](scc:mcdm.heroes.v1/movement/forced-movement) distance movement gains a +3 bonus.
+> **Effect:** If the target has M < 2, the [forced](scc.v1:mcdm.heroes.v1/movement/forced-movement) distance movement gains a +3 bonus.
 
 > 🏹 **Ashes to Ashes**
 >
@@ -72,7 +72,7 @@ type: statblock
 >
 > **Effect:** If the target is burning (see Fire and Brimstone), they take 6 fire damage.
 
-> ❗️ **Devilish Charm (2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
+> ❗️ **Devilish Charm (2 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Magic, Ranged** |           **Triggered action** |
 > |-------------------|-------------------------------:|
@@ -84,8 +84,8 @@ type: statblock
 >
 > - **≤11:** The jurist chooses a new target for the strike.
 > - **12-16:** The jurist halves the triggering damage.
-> - **17+:** The target takes a [bane](scc:mcdm.heroes.v1/rule.dice/bane) on the strike.
+> - **17+:** The target takes a [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) on the strike.
 
 > ⭐️ **True Name**
 >
-> If a creature within 10 squares speaks the jurist's true name, the jurist loses their fire immunity, any nondamaging effects of their [signature ability](scc:mcdm.heroes.v1/rule.combat/signature-ability), and their Devilish Charm ability until the end of the encounter.
+> If a creature within 10 squares speaks the jurist's true name, the jurist loses their fire immunity, any nondamaging effects of their [signature ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability), and their Devilish Charm ability until the end of the encounter.

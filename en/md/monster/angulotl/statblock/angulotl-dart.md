@@ -43,8 +43,8 @@ with_captain: +4 bonus to ranged distance
 > - **12-16:** 4 poison damage
 > - **17+:** 5 poison damage
 >
-> **Effect:** The dart gains an [edge](scc:mcdm.heroes.v1/rule.dice/edge) on this ability against any target who has less than full [Stamina](scc:mcdm.heroes.v1/rule.health/stamina).
+> **Effect:** The dart gains an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on this ability against any target who has less than full [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).
 
 > ⭐️ **Toxiferous**
 >
-> Whenever an adjacent enemy [grabs](scc:mcdm.heroes.v1/feature.common.maneuvers/grab) the dart or uses a melee ability against them, that enemy takes 1 poison damage.
+> Whenever an adjacent enemy [grabs](scc.v1:mcdm.heroes.v1/feature.common.maneuvers/grab) the dart or uses a melee ability against them, that enemy takes 1 poison damage.

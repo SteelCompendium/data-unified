@@ -1,26 +1,26 @@
 ---
-equipment_text: You wear no armor and wield only your unarmed [strikes](scc:mcdm.heroes.v1/rule.combat/strike).
+equipment_text: You wear no armor and wield only your unarmed [strikes](scc.v1:mcdm.heroes.v1/rule.combat/strike).
 flavor: If you want to be fast in a fight, then Martial Artist is the kit for you. Unencumbered by weapons or armor, this fighting style rewards quick, focused unarmed strikes against opponents, and allows you to be the ultimate skirmisher.
 name: Martial Artist
 scc: mcdm.heroes.v1/kit/martial-artist
 type: kit
 ---
 
-If you want to be fast in a fight, then [Martial Artist](scc:mcdm.heroes.v1/kit/martial-artist) is the kit for you. Unencumbered by weapons or armor, this fighting style rewards quick, focused unarmed [strikes](scc:mcdm.heroes.v1/rule.combat/strike) against opponents, and allows you to be the ultimate skirmisher.
+If you want to be fast in a fight, then [Martial Artist](scc.v1:mcdm.heroes.v1/kit/martial-artist) is the kit for you. Unencumbered by weapons or armor, this fighting style rewards quick, focused unarmed [strikes](scc.v1:mcdm.heroes.v1/rule.combat/strike) against opponents, and allows you to be the ultimate skirmisher.
 
 ##### Equipment
 
-You wear no armor and wield only your unarmed [strikes](scc:mcdm.heroes.v1/rule.combat/strike).
+You wear no armor and wield only your unarmed [strikes](scc.v1:mcdm.heroes.v1/rule.combat/strike).
 
 ##### Kit Bonuses
 
-**[Stamina](scc:mcdm.heroes.v1/rule.health/stamina) [Bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties):** +3 per [echelon](scc:mcdm.heroes.v1/rule.general/echelon)
+**[Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) [Bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties):** +3 per [echelon](scc.v1:mcdm.heroes.v1/rule.general/echelon)
 
-**[Speed](scc:mcdm.heroes.v1/rule.character/speed) [Bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties):** +3
+**[Speed](scc.v1:mcdm.heroes.v1/rule.character/speed) [Bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties):** +3
 
-**[Melee](scc:mcdm.heroes.v1/rule.combat/melee) Damage [Bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties):** +2/+2/+2
+**[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) Damage [Bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties):** +2/+2/+2
 
-**Disengage [Bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties):** +1
+**Disengage [Bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties):** +1
 
 ##### Signature Ability
 
@@ -28,11 +28,11 @@ You wear no armor and wield only your unarmed [strikes](scc:mcdm.heroes.v1/rule.
 
 *You feint to move your enemies into perfect position.*
 
-| **[Melee](scc:mcdm.heroes.v1/rule.combat/melee), [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** |     **Main action** |
+| **[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), Weapon** |     **Main action** |
 |---------------------------|--------------------:|
-| **📏 [Melee](scc:mcdm.heroes.v1/rule.combat/melee) 1**            | **🎯 One creature** |
+| **📏 [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1**            | **🎯 One creature** |
 
-**[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc:mcdm.heroes.v1/rule.character/might) or [Agility](scc:mcdm.heroes.v1/rule.character/agility):**
+**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc.v1:mcdm.heroes.v1/rule.character/might) or [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility):**
 
 - **≤11:** 5 + M or A damage
 - **12-16:** 8 + M or A damage; you can swap places with the target

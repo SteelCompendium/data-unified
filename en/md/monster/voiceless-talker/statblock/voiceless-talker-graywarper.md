@@ -28,7 +28,7 @@ with_captain: +2 bonus to Stamina
 |    **-**<br>Immunity     | **-**<br>Movement |        -         | **+2 bonus to Stamina**<br>With Captain |   **-**<br>Weakness   |
 |     **-1**<br>Might      | **0**<br>Agility  | **+3**<br>Reason |           **+1**<br>Intuition           |  **+1**<br>Presence   |
 
-> 🏹 **Phase Chant ([Signature Ability](scc:mcdm.heroes.v1/rule.combat/signature-ability))**
+> 🏹 **Phase Chant ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
 > | **Psionic, Ranged, Strike** |                          **Main action** |
 > |-----------------------------|-----------------------------------------:|
@@ -37,9 +37,9 @@ with_captain: +2 bonus to Stamina
 > **Power Roll + 3:**
 >
 > - **≤11:** 3 psychic damage
-> - **12-16:** 5 psychic damage; [slide](scc:mcdm.heroes.v1/movement/forced-movement) 2
-> - **17+:** 7 psychic damage; [slide](scc:mcdm.heroes.v1/movement/forced-movement) 4
+> - **12-16:** 5 psychic damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2
+> - **17+:** 7 psychic damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 4
 
 > ⭐️ **Psionic Conductor**
 >
-> Whenever a non-[minion](scc:mcdm.monsters.v1/rule.organization/minion) voiceless talker within 5 squares of the graywarper uses a psionic ability, they can do so as if they were in the graywarper's space.
+> Whenever a non-[minion](scc.v1:mcdm.monsters.v1/rule.organization/minion) voiceless talker within 5 squares of the graywarper uses a psionic ability, they can do so as if they were in the graywarper's space.

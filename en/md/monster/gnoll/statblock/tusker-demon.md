@@ -36,9 +36,9 @@ type: statblock
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 7 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 1
-> - **12-16:** 11 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 2
-> - **17+:** 14 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 3, [prone](scc:mcdm.heroes.v1/condition/prone)
+> - **≤11:** 7 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1
+> - **12-16:** 11 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2
+> - **17+:** 14 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3, [prone](scc.v1:mcdm.heroes.v1/condition/prone)
 >
 > **Effect:** If this ability is used as part of the Charge main action, it deals an extra 4 damage.
 
@@ -54,8 +54,8 @@ type: statblock
 
 > ⭐️ **Trample**
 >
-> The tusker demon can move through enemies' spaces at their usual speed. When the tusker enters a creature's space for the first time on a turn, that creature takes 5 damage. The tusker demon can end their turn in a [prone](scc:mcdm.heroes.v1/condition/prone) size 1 creature's space, preventing the creature from standing up.
+> The tusker demon can move through enemies' spaces at their usual speed. When the tusker enters a creature's space for the first time on a turn, that creature takes 5 damage. The tusker demon can end their turn in a [prone](scc.v1:mcdm.heroes.v1/condition/prone) size 1 creature's space, preventing the creature from standing up.
 
 > ⭐️ **Lethe**
 >
-> While the tusker demon is [winded](scc:mcdm.heroes.v1/rule.health/winded), they gain an edge on strikes, and any strike made against them gains an edge.
+> While the tusker demon is [winded](scc.v1:mcdm.heroes.v1/rule.health/winded), they gain an edge on strikes, and any strike made against them gains an edge.

@@ -39,11 +39,11 @@ type: statblock
 > - **12-16:** 9 damage; pull 1
 > - **17+:** 12 damage; pull 2
 >
-> **Effect:** If the target is [pulled](scc:mcdm.heroes.v1/movement/forced-movement) into the animal swarm, that [forced movement](scc:mcdm.heroes.v1/movement/forced-movement) deals damage only at the Director's determination.
+> **Effect:** If the target is [pulled](scc.v1:mcdm.heroes.v1/movement/forced-movement) into the animal swarm, that [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) deals damage only at the Director's determination.
 
 > ⭐️ **Swarm**
 >
-> The animal swarm can move through spaces as if they were a size 1M creature, and can occupy other creatures' spaces. At the start of each of the animal swarm's turns, they can make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) against each creature whose space they share.
+> The animal swarm can move through spaces as if they were a size 1M creature, and can occupy other creatures' spaces. At the start of each of the animal swarm's turns, they can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against each creature whose space they share.
 
 > ❇️ **Impede**
 >
@@ -51,7 +51,7 @@ type: statblock
 > |---------------|---------------:|
 > | **📏 1 aura** | **🎯 Special** |
 >
-> **Effect:** The area is [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain) for enemies until the start of the animal swarm's next turn.
+> **Effect:** The area is [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain) for enemies until the start of the animal swarm's next turn.
 
 > ⭐️ **Nature's Spirit**
 >

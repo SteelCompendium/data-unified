@@ -29,7 +29,7 @@ type: statblock
 |      **-**<br>Immunity      | **Fly**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |       **0**<br>Might        |  **+4**<br>Agility  | **+1**<br>Reason  |  **+3**<br>Intuition  |  **+1**<br>Presence  |
 
-> 🗡 **Dive Bomb ([Signature Ability](scc:mcdm.heroes.v1/rule.combat/signature-ability))**
+> 🗡 **Dive Bomb ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
 > | **Melee, Strike, Weapon** |               **Main action** |
 > |---------------------------|------------------------------:|
@@ -38,12 +38,12 @@ type: statblock
 > **Power Roll + 4:**
 >
 > - **≤11:** 7 damage
-> - **12-16:** 10 damage; vertical [slide](scc:mcdm.heroes.v1/movement/forced-movement) 2
-> - **17+:** 12 damage; vertical [slide](scc:mcdm.heroes.v1/movement/forced-movement) 3
+> - **12-16:** 10 damage; vertical [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2
+> - **17+:** 12 damage; vertical [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3
 >
-> **1 [Malice](scc:mcdm.monsters.v1/rule.monster/malice):** An enemy [forced moved](scc:mcdm.heroes.v1/movement/forced-movement) by this ability is [grabbed](scc:mcdm.heroes.v1/condition/grabbed) instead.
+> **1 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice):** An enemy [forced moved](scc.v1:mcdm.heroes.v1/movement/forced-movement) by this ability is [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) instead.
 
-> 🔳 **Caustic Paste Bomb (2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
+> 🔳 **Caustic Paste Bomb (2 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Area, Magic, Ranged** |                               **Maneuver** |
 > |-------------------------|-------------------------------------------:|
@@ -51,11 +51,11 @@ type: statblock
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** 2 acid damage; M < 2 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
-> - **12-16:** 4 acid damage; M < 3 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
-> - **17+:** 6 acid damage; M < 4 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
+> - **≤11:** 2 acid damage; M < 2 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
+> - **12-16:** 4 acid damage; M < 3 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
+> - **17+:** 6 acid damage; M < 4 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
 >
-> **Effect:** The area is [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain).
+> **Effect:** The area is [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain).
 
 > ⭐️ **Jetwing Agility**
 >
@@ -63,4 +63,4 @@ type: statblock
 
 > ⭐️ **Loyalty Collar**
 >
-> When the aerocite is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), their loyalty collar explodes, dealing 3d6 damage to each [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) enemy and object.
+> When the aerocite is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), their loyalty collar explodes, dealing 3d6 damage to each [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) enemy and object.

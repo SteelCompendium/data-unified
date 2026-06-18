@@ -6,4 +6,4 @@ scc: mcdm.summoner.v1/feature.summoner.level-7/font-of-creation
 type: feature
 ---
 
-When you gain essence at the start of each of your [turns](scc:mcdm.heroes.v1/rule.combat/turn) during combat, you gain 3 essence instead of 2.
+When you gain essence at the start of each of your [turns](scc.v1:mcdm.heroes.v1/rule.combat/turn) during combat, you gain 3 essence instead of 2.

@@ -5,7 +5,7 @@ scc: mcdm.heroes.v1/feature.trait.human/human-traits
 type: trait
 ---
 
-[Human](scc:mcdm.heroes.v1/ancestry/human) heroes have access to the following traits.
+[Human](scc.v1:mcdm.heroes.v1/ancestry/human) heroes have access to the following traits.
 
 #### Purchased Human Traits
 

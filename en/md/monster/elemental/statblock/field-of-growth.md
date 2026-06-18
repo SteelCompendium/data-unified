@@ -38,10 +38,10 @@ type: statblock
 > **Power Roll + 2:**
 >
 > - **≤11:** 8 damage
-> - **12-16:** 13 damage; R < 1 [prone](scc:mcdm.heroes.v1/condition/prone) and can't stand (save ends)
-> - **17+:** 16 damage; R < 2 [prone](scc:mcdm.heroes.v1/condition/prone) and can't stand (save ends)
+> - **12-16:** 13 damage; R < 1 [prone](scc.v1:mcdm.heroes.v1/condition/prone) and can't stand (save ends)
+> - **17+:** 16 damage; R < 2 [prone](scc.v1:mcdm.heroes.v1/condition/prone) and can't stand (save ends)
 >
-> **Effect:** If a target made [prone](scc:mcdm.heroes.v1/condition/prone) this way is already [prone](scc:mcdm.heroes.v1/condition/prone), they are instead [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends). If the target was also unable to stand, that effect ends when they are no longer [restrained](scc:mcdm.heroes.v1/condition/restrained) this way.
+> **Effect:** If a target made [prone](scc.v1:mcdm.heroes.v1/condition/prone) this way is already [prone](scc.v1:mcdm.heroes.v1/condition/prone), they are instead [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends). If the target was also unable to stand, that effect ends when they are no longer [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) this way.
 
 > 🏹 **Convocation of Verdure**
 >
@@ -51,9 +51,9 @@ type: statblock
 >
 > **Effect:** The target gains 15 temporary Stamina that lasts until the start of the field's next turn.
 >
-> **3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice):** Until the end of the encounter, the ground within 1 square of the target is overgrown with underbrush and vines. Whenever any enemy makes a strike against the target while within line of effect of that area, the enemy is [pulled](scc:mcdm.heroes.v1/movement/forced-movement) 5 squares toward the area after the strike is resolved. Any enemy who enters the area for the first time in a round or starts their turn there is knocked [prone](scc:mcdm.heroes.v1/condition/prone).
+> **3 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice):** Until the end of the encounter, the ground within 1 square of the target is overgrown with underbrush and vines. Whenever any enemy makes a strike against the target while within line of effect of that area, the enemy is [pulled](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5 squares toward the area after the strike is resolved. Any enemy who enters the area for the first time in a round or starts their turn there is knocked [prone](scc.v1:mcdm.heroes.v1/condition/prone).
 
-> ❗️ **Rose Thorn Lash (1 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
+> ❗️ **Rose Thorn Lash (1 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Magic, Melee** |                     **Triggered action** |
 > |------------------|-----------------------------------------:|
@@ -61,11 +61,11 @@ type: statblock
 >
 > **Trigger:** A creature or object within distance deals damage to the field.
 >
-> **Effect:** The target takes 6 damage, and if they have A < 2, they are [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends).
+> **Effect:** The target takes 6 damage, and if they have A < 2, they are [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends).
 
 > ⭐️ **Fickle and Free**
 >
-> The field can't be [restrained](scc:mcdm.heroes.v1/condition/restrained), [slowed](scc:mcdm.heroes.v1/condition/slowed), or knocked [prone](scc:mcdm.heroes.v1/condition/prone), and they ignore [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain).
+> The field can't be [restrained](scc.v1:mcdm.heroes.v1/condition/restrained), [slowed](scc.v1:mcdm.heroes.v1/condition/slowed), or knocked [prone](scc.v1:mcdm.heroes.v1/condition/prone), and they ignore [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain).
 
 > ⭐️ **Roots Run Deep**
 >

@@ -32,9 +32,9 @@ type: statblock
 
 > ⭐️ **Brain Latch**
 >
-> The mindkiller can [grab](scc:mcdm.heroes.v1/condition/grabbed) creatures who are size 4 or smaller, using their Reason score in place of Might. A creature [grabbed](scc:mcdm.heroes.v1/condition/grabbed) by the mindkiller takes a bane on ability rolls made to escape the grab.
+> The mindkiller can [grab](scc.v1:mcdm.heroes.v1/condition/grabbed) creatures who are size 4 or smaller, using their Reason score in place of Might. A creature [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) by the mindkiller takes a bane on ability rolls made to escape the grab.
 
-> 🗡 **Killer Claws ([Signature Ability](scc:mcdm.heroes.v1/rule.combat/signature-ability))**
+> 🗡 **Killer Claws ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
 > | **Melee, Strike, Weapon** |               **Main action** |
 > |---------------------------|------------------------------:|
@@ -43,8 +43,8 @@ type: statblock
 > **Power Roll + 3:**
 >
 > - **≤11:** 11 damage
-> - **12-16:** 17 damage; A < 2 [grabbed](scc:mcdm.heroes.v1/condition/grabbed)
-> - **17+:** 21 damage; A < 3 [grabbed](scc:mcdm.heroes.v1/condition/grabbed)
+> - **12-16:** 17 damage; A < 2 [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)
+> - **17+:** 21 damage; A < 3 [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)
 
 > 🏹 **Concealing Strike (2 Malice)**
 >
@@ -64,23 +64,23 @@ type: statblock
 > |----------------------------|--------------------:|
 > | **📏 Melee 1**             | **🎯 One creature** |
 >
-> **Effect:** The target must be [grabbed](scc:mcdm.heroes.v1/condition/grabbed) by the mindkiller. If the target has R < 2, they take a −1 penalty to their Reason, Intuition, or Presence score and the mindkiller has a +1 bonus to the same score, all until the end of the encounter.
+> **Effect:** The target must be [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) by the mindkiller. If the target has R < 2, they take a −1 penalty to their Reason, Intuition, or Presence score and the mindkiller has a +1 bonus to the same score, all until the end of the encounter.
 
 > ❗️ **Meat Shield**
 >
-> | **-**       | **[Triggered Action](scc:mcdm.heroes.v1/rule.combat/triggered-action)** |
+> | **-**       | **[Triggered Action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |
 > |-------------|---------------------:|
 > | **📏 Self** |          **🎯 Self** |
 >
 > **Trigger:** The mindkiller takes damage.
 >
-> **Effect:** The mindkiller halves the damage. If the mindkiller has a creature [grabbed](scc:mcdm.heroes.v1/condition/grabbed), that creature takes the other half of the damage.
+> **Effect:** The mindkiller halves the damage. If the mindkiller has a creature [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed), that creature takes the other half of the damage.
 >
-> **3 Malice:** A [grabbed](scc:mcdm.heroes.v1/condition/grabbed) creature takes the damage instead of the mindkiller.
+> **3 Malice:** A [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) creature takes the damage instead of the mindkiller.
 
 > ⭐️ **Psionic Conductor**
 >
-> Whenever a non-[minion](scc:mcdm.monsters.v1/rule.organization/minion) voiceless talker within 5 squares of the mindkiller uses a psionic ability, they can do so as if they were in the mindkiller's space.
+> Whenever a non-[minion](scc.v1:mcdm.monsters.v1/rule.organization/minion) voiceless talker within 5 squares of the mindkiller uses a psionic ability, they can do so as if they were in the mindkiller's space.
 
 > ⭐️ **Nimble**
 >

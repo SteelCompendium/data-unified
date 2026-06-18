@@ -51,7 +51,7 @@ type: statblock
 >
 > **Trigger:** The moondancer takes damage from a strike.
 >
-> **Effect:** The moondancer can [teleport](scc:mcdm.heroes.v1/movement/teleport) up to 10 squares to a space with concealment created by darkness.
+> **Effect:** The moondancer can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) up to 10 squares to a space with concealment created by darkness.
 
 > ⭐️ **Of the Umbra**
 >

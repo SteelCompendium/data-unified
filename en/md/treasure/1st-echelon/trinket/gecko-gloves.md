@@ -1,6 +1,6 @@
 ---
 echelon: "1"
-effect: While you wear these gloves, your grip is all but impossible to break. You can't be disarmed, you can't lose your grip while climbing unless you are [force moved](scc:mcdm.heroes.v1/movement/forced-movement), and any creature [grabbed](scc:mcdm.heroes.v1/condition/grabbed) by you takes a [bane](scc:mcdm.heroes.v1/rule.dice/bane) on the [test](scc:mcdm.heroes.v1/rule.test/test) for the [Escape Grab](scc:mcdm.heroes.v1/feature.common.maneuvers/escape-grab) maneuver.
+effect: While you wear these gloves, your grip is all but impossible to break. You can't be disarmed, you can't lose your grip while climbing unless you are [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement), and any creature [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) by you takes a [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) on the [test](scc.v1:mcdm.heroes.v1/rule.test/test) for the [Escape Grab](scc.v1:mcdm.heroes.v1/feature.common.maneuvers/escape-grab) maneuver.
 flavor: These scaled gloves have palms and fingers covered in near-invisible sticky hairs.
 keywords:
     - Hands
@@ -16,12 +16,12 @@ type: treasure
 
 **Keywords:** Hands, Magic
 
-**[Item Prerequisite](scc:mcdm.heroes.v1/rule.downtime/item-prerequisite):** Ten gecko tails
+**[Item Prerequisite](scc.v1:mcdm.heroes.v1/rule.downtime/item-prerequisite):** Ten gecko tails
 
-**[Project Source](scc:mcdm.heroes.v1/rule.downtime/project-source):** Texts or lore in Caelian
+**[Project Source](scc.v1:mcdm.heroes.v1/rule.downtime/project-source):** Texts or lore in Caelian
 
-**[Project Roll](scc:mcdm.heroes.v1/rule.downtime/project-roll) [Characteristic](scc:mcdm.heroes.v1/rule.character/characteristic):** [Reason](scc:mcdm.heroes.v1/rule.character/reason) or [Intuition](scc:mcdm.heroes.v1/rule.character/intuition)
+**[Project Roll](scc.v1:mcdm.heroes.v1/rule.downtime/project-roll) [Characteristic](scc.v1:mcdm.heroes.v1/rule.character/characteristic):** [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) or [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)
 
 **Project Goal:** 150
 
-**Effect:** While you wear these gloves, your grip is all but impossible to break. You can't be disarmed, you can't lose your grip while climbing unless you are [force moved](scc:mcdm.heroes.v1/movement/forced-movement), and any creature [grabbed](scc:mcdm.heroes.v1/condition/grabbed) by you takes a [bane](scc:mcdm.heroes.v1/rule.dice/bane) on the [test](scc:mcdm.heroes.v1/rule.test/test) for the [Escape Grab](scc:mcdm.heroes.v1/feature.common.maneuvers/escape-grab) maneuver.
+**Effect:** While you wear these gloves, your grip is all but impossible to break. You can't be disarmed, you can't lose your grip while climbing unless you are [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement), and any creature [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) by you takes a [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) on the [test](scc.v1:mcdm.heroes.v1/rule.test/test) for the [Escape Grab](scc.v1:mcdm.heroes.v1/feature.common.maneuvers/escape-grab) maneuver.

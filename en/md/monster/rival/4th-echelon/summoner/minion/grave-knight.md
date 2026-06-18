@@ -37,12 +37,12 @@ weaknesses:
 > |---------------------------|----------------:|
 > | **📏 Melee 1** | **🎯 One creature or object per minion** |
 >
-> 5 corruption damage; M < 3 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) ([EoT](scc:mcdm.heroes.v1/rule.combat/end-of-turn))
+> 5 corruption damage; M < 3 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) ([EoT](scc.v1:mcdm.heroes.v1/rule.combat/end-of-turn))
 >
-> 7 corruption damage; M < 4 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) ([EoT](scc:mcdm.heroes.v1/rule.combat/end-of-turn))
+> 7 corruption damage; M < 4 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) ([EoT](scc.v1:mcdm.heroes.v1/rule.combat/end-of-turn))
 >
-> 9 corruption damage; M < 5 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
+> 9 corruption damage; M < 5 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
 
 > ⭐️ **To the Grave**
 >
-> When the grave knight is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), they can make a melee [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) before being destroyed.
+> When the grave knight is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), they can make a melee [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) before being destroyed.

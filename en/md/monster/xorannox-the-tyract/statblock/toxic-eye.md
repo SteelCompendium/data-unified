@@ -28,7 +28,7 @@ type: statblock
 |     **-**<br>Immunity      | **Fly, hover**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |      **-1**<br>Might       |     **+1**<br>Agility      | **+4**<br>Reason  |  **+1**<br>Intuition  |  **-1**<br>Presence  |
 
-> 🔳 **Toxic Vapors ([Signature Ability](scc:mcdm.heroes.v1/rule.combat/signature-ability))**
+> 🔳 **Toxic Vapors ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
 > | **Area, Psionic, Ranged** |               **Main action** |
 > |---------------------------|------------------------------:|
@@ -37,8 +37,8 @@ type: statblock
 > **Power Roll + 4:**
 >
 > - **≤11:** 6 poison damage
-> - **12-16:** 10 poison damage; M < 3 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
-> - **17+:** 13 poison damage; M < 4 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
+> - **12-16:** 10 poison damage; M < 3 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+> - **17+:** 13 poison damage; M < 4 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
 
 > ⭐️ **Psionic Barrier**
 >

@@ -7,4 +7,4 @@ scc: mcdm.beastheart.v1/feature.companion.beastheart.wolf.level-10/dire-wolf
 type: feature
 ---
 
-While the wolf is rampaging, you and the wolf are surrounded by an aura of dread, and enemies who start their turn adjacent to you or the wolf who have P < STRONG are [frightened](scc:mcdm.heroes.v1/condition/frightened) until the end of their next turn.
+While the wolf is rampaging, you and the wolf are surrounded by an aura of dread, and enemies who start their turn adjacent to you or the wolf who have P < STRONG are [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) until the end of their next turn.

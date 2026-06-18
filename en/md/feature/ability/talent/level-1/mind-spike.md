@@ -1,16 +1,16 @@
 ---
 action_type: Main action
 class: talent
-distance: '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 10'
+distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
 flavor: A telepathic bolt instantly zaps a creature's brain.
 keywords:
     - Psionic
-    - '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)'
+    - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'
     - Strike
     - Telepathy
 level: "1"
 name: Mind Spike
-power_roll_characteristic: '[Reason](scc:mcdm.heroes.v1/rule.character/reason)'
+power_roll_characteristic: '[Reason](scc.v1:mcdm.heroes.v1/rule.character/reason)'
 scc: mcdm.heroes.v1/feature.ability.talent.level-1/mind-spike
 target: One creature
 tier1: 2 + R psychic damage
@@ -22,11 +22,11 @@ type: ability
 
 *A telepathic bolt instantly zaps a creature's brain.*
 
-| **Psionic, [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)**, **Strike, Telepathy** |     **Main action** |
+| **Psionic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)**, **Strike, Telepathy** |     **Main action** |
 |--------------------------------------------|--------------------:|
-| **📏 [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 10**                           | **🎯 One creature** |
+| **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**                           | **🎯 One creature** |
 
-**[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Reason](scc:mcdm.heroes.v1/rule.character/reason):**
+**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason):**
 
 - **≤11:** 2 + R psychic damage
 - **12-16:** 4 + R psychic damage

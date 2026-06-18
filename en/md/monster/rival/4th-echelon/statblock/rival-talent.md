@@ -27,7 +27,7 @@ type: statblock
 | **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |   **-**<br>Weakness   |
 |  **0**<br>Might   | **0**<br>Agility  |  **+5**<br>Reason  |  **0**<br>Intuition   |  **+1**<br>Presence   |
 
-> 🏹 **Override ([Signature Ability](scc:mcdm.heroes.v1/rule.combat/signature-ability))**
+> 🏹 **Override ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
 > | **Psionic, Ranged, Strike, Telekinesis** |                 **Main action** |
 > |------------------------------------------|--------------------------------:|
@@ -39,9 +39,9 @@ type: statblock
 > - **12-16:** 20 psychic damage
 > - **17+:** 24 psychic damage
 >
-> **4 [Malice](scc:mcdm.monsters.v1/rule.monster/malice):** Each target moves up to their speed and can make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) against one enemy of the talent's choice. The target's movement can provoke opportunity attacks, but they can't otherwise be moved in a way that would harm them.
+> **4 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice):** Each target moves up to their speed and can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against one enemy of the talent's choice. The target's movement can provoke opportunity attacks, but they can't otherwise be moved in a way that would harm them.
 
-> 🏹 **Steal Time (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
+> 🏹 **Steal Time (3 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Chronopathy, Psionic, Ranged** |                  **Maneuver** |
 > |----------------------------------|------------------------------:|
@@ -49,13 +49,13 @@ type: statblock
 >
 > **Power Roll + 5:**
 >
-> - **≤11:** R < 3 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
-> - **12-16:** R < 4 [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)
-> - **17+:** R < 5 [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)
+> - **≤11:** R < 3 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
+> - **12-16:** R < 4 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
+> - **17+:** R < 5 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
 >
 > **Effect:** One ally within distance can use an additional main action on their next turn.
 
-> ❗️ **Psionic Retribution (2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
+> ❗️ **Psionic Retribution (2 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Psionic**            | **Triggered action** |
 > |------------------------|---------------------:|
@@ -63,8 +63,8 @@ type: statblock
 >
 > **Trigger:** A creature deals damage to the talent.
 >
-> **Effect:** The talent halves the damage and [shifts](scc:mcdm.heroes.v1/movement/shifting) up to 2 squares. The triggering creature takes psychic damage equal to half the damage dealt and is [pushed](scc:mcdm.heroes.v1/movement/forced-movement) up to 5 squares.
+> **Effect:** The talent halves the damage and [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to 2 squares. The triggering creature takes psychic damage equal to half the damage dealt and is [pushed](scc.v1:mcdm.heroes.v1/movement/forced-movement) up to 5 squares.
 
 > ⭐️ **Rivalry**
 >
-> At the start of an encounter, the talent chooses one creature within their [line of effect](scc:mcdm.heroes.v1/rule.combat/line-of-effect). Both the talent and the creature can add a d3 roll to power rolls they make against each other.
+> At the start of an encounter, the talent chooses one creature within their [line of effect](scc.v1:mcdm.heroes.v1/rule.combat/line-of-effect). Both the talent and the creature can add a d3 roll to power rolls they make against each other.

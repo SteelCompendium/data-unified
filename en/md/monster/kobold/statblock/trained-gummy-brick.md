@@ -38,13 +38,13 @@ type: statblock
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 7 acid damage; A < 0 [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)
-> - **12-16:** 10 acid damage; A < 1 [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)
-> - **17+:** 14 acid damage; A < 2 [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)
+> - **≤11:** 7 acid damage; A < 0 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
+> - **12-16:** 10 acid damage; A < 1 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
+> - **17+:** 14 acid damage; A < 2 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
 >
-> **Effect:** A size 2 or smaller creature [restrained](scc:mcdm.heroes.v1/condition/restrained) this way is [pulled](scc:mcdm.heroes.v1/movement/forced-movement) into the brick's space, moves with the brick, and takes 4 acid damage at the start of each of their turns. An engulfed creature who is no longer [restrained](scc:mcdm.heroes.v1/condition/restrained) moves to the nearest unoccupied space [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the brick. The brick can have as many creatures or objects engulfed as will fit within their space.
+> **Effect:** A size 2 or smaller creature [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) this way is [pulled](scc.v1:mcdm.heroes.v1/movement/forced-movement) into the brick's space, moves with the brick, and takes 4 acid damage at the start of each of their turns. An engulfed creature who is no longer [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) moves to the nearest unoccupied space [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the brick. The brick can have as many creatures or objects engulfed as will fit within their space.
 >
-> **2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice):** This ability targets one additional target.
+> **2 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice):** This ability targets one additional target.
 
 > ❗️ **You Didn't Pay Attention!**
 >
@@ -52,7 +52,7 @@ type: statblock
 > |-------------|------------------------------:|
 > | **📏 Self** | **🎯 One creature or object** |
 >
-> **Trigger:** A creature moves or is [force moved](scc:mcdm.heroes.v1/movement/forced-movement) [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the brick.
+> **Trigger:** A creature moves or is [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement) [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the brick.
 >
 > **Effect:** The brick uses Engulf against the triggering creature and has a double edge.
 

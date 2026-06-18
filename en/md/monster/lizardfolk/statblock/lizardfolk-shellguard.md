@@ -45,4 +45,4 @@ with_captain: +2 bonus to Stamina
 
 > ⭐️ **Reptilian Escape**
 >
-> While the shellguard has a tail, whenever they are [grabbed](scc:mcdm.heroes.v1/condition/grabbed), [prone](scc:mcdm.heroes.v1/condition/prone), [slowed](scc:mcdm.heroes.v1/condition/slowed), or [weakened](scc:mcdm.heroes.v1/condition/weakened), they can lose their tail to immediately end that condition, then [shift](scc:mcdm.heroes.v1/movement/shifting) up to 2 squares.
+> While the shellguard has a tail, whenever they are [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed), [prone](scc.v1:mcdm.heroes.v1/condition/prone), [slowed](scc.v1:mcdm.heroes.v1/condition/slowed), or [weakened](scc.v1:mcdm.heroes.v1/condition/weakened), they can lose their tail to immediately end that condition, then [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to 2 squares.

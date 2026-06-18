@@ -35,8 +35,8 @@ type: statblock
 > **Power Roll + 2:**
 >
 > - **≤11:** 7 damage
-> - **12-16:** 11 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 1; M < 1 [prone](scc:mcdm.heroes.v1/condition/prone)
-> - **17+:** 14 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 2; M < 1 [prone](scc:mcdm.heroes.v1/condition/prone)
+> - **12-16:** 11 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1; M < 1 [prone](scc.v1:mcdm.heroes.v1/condition/prone)
+> - **17+:** 14 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2; M < 1 [prone](scc.v1:mcdm.heroes.v1/condition/prone)
 
 > ❇️ **Wild Swing**
 >
@@ -48,7 +48,7 @@ type: statblock
 >
 > - **≤11:** 3 damage
 > - **12-16:** 6 damage
-> - **17+:** 8 damage; A < 2 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
+> - **17+:** 8 damage; A < 2 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
 
 > ❗️ **Swat**
 >
@@ -58,7 +58,7 @@ type: statblock
 >
 > **Trigger:** A creature or object within distance deals damage to the predator.
 >
-> **Effect:** The target is [pushed](scc:mcdm.heroes.v1/movement/forced-movement) up to 5 squares.
+> **Effect:** The target is [pushed](scc.v1:mcdm.heroes.v1/movement/forced-movement) up to 5 squares.
 
 > ⭐️ **Trample**
 >

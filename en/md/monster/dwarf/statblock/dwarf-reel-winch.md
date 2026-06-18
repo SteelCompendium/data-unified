@@ -35,20 +35,20 @@ type: statblock
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 5 damage; M < 0 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
-> - **12-16:** 7 damage; M < 1 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
-> - **17+:** 9 damage; M < 2 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
+> - **≤11:** 5 damage; M < 0 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
+> - **12-16:** 7 damage; M < 1 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
+> - **17+:** 9 damage; M < 2 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
 >
-> **Effect:** The target is [pulled](scc:mcdm.heroes.v1/movement/forced-movement) up to 5 squares. A target [restrained](scc:mcdm.heroes.v1/condition/restrained) by a dwarf can be force moved by this ability. This forced movement doesn't end the [restrained](scc:mcdm.heroes.v1/condition/restrained) condition unless the Director determines otherwise.
+> **Effect:** The target is [pulled](scc.v1:mcdm.heroes.v1/movement/forced-movement) up to 5 squares. A target [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) by a dwarf can be force moved by this ability. This forced movement doesn't end the [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) condition unless the Director determines otherwise.
 
-> 🏹 **Reel Them In (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
+> 🏹 **Reel Them In (3 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Ranged, Weapon** |           **Maneuver** |
 > |--------------------|-----------------------:|
 > | **📏 Ranged 10**   | **🎯 Three creatures** |
 >
-> **Effect:** The target is [pulled](scc:mcdm.heroes.v1/movement/forced-movement) up to 8 squares. A [restrained](scc:mcdm.heroes.v1/condition/restrained) or [slowed](scc:mcdm.heroes.v1/condition/slowed) target can be pulled an additional 2 squares. A target [restrained](scc:mcdm.heroes.v1/condition/restrained) by a dwarf can be force moved by this ability. This forced movement doesn't end the [restrained](scc:mcdm.heroes.v1/condition/restrained) condition unless the Director determines otherwise.
+> **Effect:** The target is [pulled](scc.v1:mcdm.heroes.v1/movement/forced-movement) up to 8 squares. A [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) or [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) target can be pulled an additional 2 squares. A target [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) by a dwarf can be force moved by this ability. This forced movement doesn't end the [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) condition unless the Director determines otherwise.
 
 > ⭐️ **We Have a Quota!**
 >
-> If a target made [slowed](scc:mcdm.heroes.v1/condition/slowed) by the reel winch is already [grabbed](scc:mcdm.heroes.v1/condition/grabbed) or [slowed](scc:mcdm.heroes.v1/condition/slowed), the [grabbed](scc:mcdm.heroes.v1/condition/grabbed) and [slowed](scc:mcdm.heroes.v1/condition/slowed) conditions end and the target is [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends).
+> If a target made [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) by the reel winch is already [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) or [slowed](scc.v1:mcdm.heroes.v1/condition/slowed), the [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) and [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) conditions end and the target is [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends).

@@ -12,7 +12,7 @@ Your wild nature grants you a feature, as shown on the 2nd-Level Wild Nature Fea
 
 | Wild Nature | Feature |
 | ---- | ---- |
-| Guardian | [Watchdog](scc:mcdm.beastheart.v1/feature.beastheart.level-2/watchdog) |
-| Prowler |  [Supersniffer](scc:mcdm.beastheart.v1/feature.beastheart.level-2/supersniffer) |
-| Punisher | [This One’s Yours](scc:mcdm.beastheart.v1/feature.beastheart.level-2/this-ones-yours) |
-| Spark | [Stormheart](scc:mcdm.beastheart.v1/feature.beastheart.level-2/stormheart) |
+| Guardian | [Watchdog](scc.v1:mcdm.beastheart.v1/feature.beastheart.level-2/watchdog) |
+| Prowler |  [Supersniffer](scc.v1:mcdm.beastheart.v1/feature.beastheart.level-2/supersniffer) |
+| Punisher | [This One’s Yours](scc.v1:mcdm.beastheart.v1/feature.beastheart.level-2/this-ones-yours) |
+| Spark | [Stormheart](scc.v1:mcdm.beastheart.v1/feature.beastheart.level-2/stormheart) |

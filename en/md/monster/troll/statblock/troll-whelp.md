@@ -31,7 +31,7 @@ with_captain: +2 damage bonus to strikes
 | **-**<br>Immunity | **-**<br>Movement |         -         | **+2 damage bonus to strikes**<br>With Captain |  **Acid 5, fire **<br>Weakness  |
 |  **+3**<br>Might  | **+1**<br>Agility | **-1**<br>Reason  |               **0**<br>Intuition               |        **0**<br>Presence        |
 
-> 🗡 **Jaws and Claws ([Signature Ability](scc:mcdm.heroes.v1/rule.combat/signature-ability))**
+> 🗡 **Jaws and Claws ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
 > | **Melee, Strike, Weapon** |                          **Main action** |
 > |---------------------------|-----------------------------------------:|
@@ -40,9 +40,9 @@ with_captain: +2 damage bonus to strikes
 > **Power Roll + 3:**
 >
 > - **≤11:** 3 damage
-> - **12-16:** 6 damage; [slide](scc:mcdm.heroes.v1/movement/forced-movement) 1
-> - **17+:** 7 damage; [slide](scc:mcdm.heroes.v1/movement/forced-movement) 2; M < 2 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
+> - **12-16:** 6 damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1
+> - **17+:** 7 damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2; M < 2 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
 
 > ⭐️ **Lingering Hunger**
 >
-> Whenever two or more whelps are simultaneously reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) by damage that isn't acid or fire damage, half of those whelps become troll limbjumbles with 4 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina).
+> Whenever two or more whelps are simultaneously reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) by damage that isn't acid or fire damage, half of those whelps become troll limbjumbles with 4 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).

@@ -2,8 +2,8 @@
 action_type: Main action
 class: conduit
 cost: 9 Piety
-distance: 4 [burst](scc:mcdm.heroes.v1/rule.combat/burst)
-effect: Each target can spend any number of [Recoveries](scc:mcdm.heroes.v1/rule.health/recoveries). Additionally, each target can end one effect on themself that is ended by a [saving throw](scc:mcdm.heroes.v1/rule.general/saving-throw) or that ends at the end of their [turn](scc:mcdm.heroes.v1/rule.combat/turn), or they can stand up if [prone](scc:mcdm.heroes.v1/condition/prone).
+distance: 4 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)
+effect: Each target can spend any number of [Recoveries](scc.v1:mcdm.heroes.v1/rule.health/recoveries). Additionally, each target can end one effect on themself that is ended by a [saving throw](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) or that ends at the end of their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), or they can stand up if [prone](scc.v1:mcdm.heroes.v1/condition/prone).
 flavor: With a gesture, you restore your health and that of your allies.
 keywords:
     - Area
@@ -20,6 +20,6 @@ type: ability
 
 | **Area, Magic**  |                       **Main action** |
 |------------------|--------------------------------------:|
-| **📏 4 [burst](scc:mcdm.heroes.v1/rule.combat/burst)**   | **🎯 Self and each ally in the area** |
+| **📏 4 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)**   | **🎯 Self and each ally in the area** |
 
-**Effect:** Each target can spend any number of [Recoveries](scc:mcdm.heroes.v1/rule.health/recoveries). Additionally, each target can end one effect on themself that is ended by a [saving throw](scc:mcdm.heroes.v1/rule.general/saving-throw) or that ends at the end of their [turn](scc:mcdm.heroes.v1/rule.combat/turn), or they can stand up if [prone](scc:mcdm.heroes.v1/condition/prone).
+**Effect:** Each target can spend any number of [Recoveries](scc.v1:mcdm.heroes.v1/rule.health/recoveries). Additionally, each target can end one effect on themself that is ended by a [saving throw](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) or that ends at the end of their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), or they can stand up if [prone](scc.v1:mcdm.heroes.v1/condition/prone).

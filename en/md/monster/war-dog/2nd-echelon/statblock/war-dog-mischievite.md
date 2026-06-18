@@ -28,7 +28,7 @@ type: statblock
 |      **-**<br>Immunity      | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |       **+1**<br>Might       | **+3**<br>Agility |  **0**<br>Reason  |  **+2**<br>Intuition  |  **0**<br>Presence   |
 
-> ⚔️ **Fuse-Iron Knives ([Signature Ability](scc:mcdm.heroes.v1/rule.combat/signature-ability))**
+> ⚔️ **Fuse-Iron Knives ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
 > | **Melee, Ranged, Strike, Weapon** |      **Main action** |
 > |-----------------------------------|---------------------:|
@@ -48,9 +48,9 @@ type: statblock
 > |-----------------|------------------------------------:|
 > | **📏 Ranged 3** | **🎯 One ally or dazzled creature** |
 >
-> **Effect:** The mischievite swaps positions with the target. An ally targeted by this ability can make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) before or after being swapped.
+> **Effect:** The mischievite swaps positions with the target. An ally targeted by this ability can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) before or after being swapped.
 >
-> **2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice):** The mischievite can use this ability as a [triggered action](scc:mcdm.heroes.v1/rule.combat/triggered-action) when they are targeted by an ability. If they do, the swapped target becomes the new target of the triggering ability.
+> **2 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice):** The mischievite can use this ability as a [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action) when they are targeted by an ability. If they do, the swapped target becomes the new target of the triggering ability.
 
 > ⭐️ **Crafty**
 >
@@ -58,4 +58,4 @@ type: statblock
 
 > ⭐️ **Loyalty Collar**
 >
-> When the mischievite is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), their loyalty collar explodes, dealing 2d6 damage to each [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) enemy and object.
+> When the mischievite is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), their loyalty collar explodes, dealing 2d6 damage to each [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) enemy and object.

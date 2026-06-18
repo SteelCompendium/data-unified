@@ -2,8 +2,8 @@
 action_type: Maneuver
 class: "null"
 cost: 9 Discipline
-distance: 3 [burst](scc:mcdm.heroes.v1/rule.combat/burst)
-effect: Each target can end any [conditions](scc:mcdm.heroes.v1/rule.combat/condition) or effects on themself, and gains 5 [temporary Stamina](scc:mcdm.heroes.v1/rule.health/temporary-stamina) for each [condition](scc:mcdm.heroes.v1/rule.combat/condition) or effect removed.
+distance: 3 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)
+effect: Each target can end any [conditions](scc.v1:mcdm.heroes.v1/rule.combat/condition) or effects on themself, and gains 5 [temporary Stamina](scc.v1:mcdm.heroes.v1/rule.health/temporary-stamina) for each [condition](scc.v1:mcdm.heroes.v1/rule.combat/condition) or effect removed.
 flavor: You expand your nullifying power to mitigate harmful effects.
 keywords:
     - Area
@@ -20,6 +20,6 @@ type: ability
 
 | **Area, Psionic** |                          **Maneuver** |
 |-------------------|--------------------------------------:|
-| **📏 3 [burst](scc:mcdm.heroes.v1/rule.combat/burst)**    | **🎯 Self and each ally in the area** |
+| **📏 3 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)**    | **🎯 Self and each ally in the area** |
 
-**Effect:** Each target can end any [conditions](scc:mcdm.heroes.v1/rule.combat/condition) or effects on themself, and gains 5 [temporary Stamina](scc:mcdm.heroes.v1/rule.health/temporary-stamina) for each [condition](scc:mcdm.heroes.v1/rule.combat/condition) or effect removed.
+**Effect:** Each target can end any [conditions](scc.v1:mcdm.heroes.v1/rule.combat/condition) or effects on themself, and gains 5 [temporary Stamina](scc.v1:mcdm.heroes.v1/rule.health/temporary-stamina) for each [condition](scc.v1:mcdm.heroes.v1/rule.combat/condition) or effect removed.

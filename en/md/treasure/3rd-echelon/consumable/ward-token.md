@@ -1,6 +1,6 @@
 ---
 echelon: "3"
-effect: As a maneuver, you toss this stone above you and it shatters, showering you in dust. Until the end of the encounter, any enemy ability that targets you has a double [bane](scc:mcdm.heroes.v1/rule.dice/bane).
+effect: As a maneuver, you toss this stone above you and it shatters, showering you in dust. Until the end of the encounter, any enemy ability that targets you has a double [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane).
 flavor: This smoothly polished quartz stone feels strangely warm to the touch.
 keywords:
     - Psionic
@@ -15,12 +15,12 @@ type: treasure
 
 **Keywords:** Psionic
 
-**[Item Prerequisite](scc:mcdm.heroes.v1/rule.downtime/item-prerequisite):** A small quartz
+**[Item Prerequisite](scc.v1:mcdm.heroes.v1/rule.downtime/item-prerequisite):** A small quartz
 
-**[Project Source](scc:mcdm.heroes.v1/rule.downtime/project-source):** Texts or lore in Zaliac
+**[Project Source](scc.v1:mcdm.heroes.v1/rule.downtime/project-source):** Texts or lore in Zaliac
 
-**[Project Roll](scc:mcdm.heroes.v1/rule.downtime/project-roll) [Characteristic](scc:mcdm.heroes.v1/rule.character/characteristic):** [Might](scc:mcdm.heroes.v1/rule.character/might) or [Intuition](scc:mcdm.heroes.v1/rule.character/intuition)
+**[Project Roll](scc.v1:mcdm.heroes.v1/rule.downtime/project-roll) [Characteristic](scc.v1:mcdm.heroes.v1/rule.character/characteristic):** [Might](scc.v1:mcdm.heroes.v1/rule.character/might) or [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)
 
 **Project Goal:** 180
 
-**Effect:** As a maneuver, you toss this stone above you and it shatters, showering you in dust. Until the end of the encounter, any enemy ability that targets you has a double [bane](scc:mcdm.heroes.v1/rule.dice/bane).
+**Effect:** As a maneuver, you toss this stone above you and it shatters, showering you in dust. Until the end of the encounter, any enemy ability that targets you has a double [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane).

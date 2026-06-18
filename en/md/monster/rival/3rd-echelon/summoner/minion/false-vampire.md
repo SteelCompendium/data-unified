@@ -33,8 +33,8 @@ weaknesses:
 
 > ⭐️ **Proboscis Strike**
 >
-> The false vampire's melee [free strikes](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) have a distance of 2 and inflict M < 3 [restrained](scc:mcdm.heroes.v1/condition/restrained) ([EoT](scc:mcdm.heroes.v1/rule.combat/end-of-turn)). The false vampire can move the target while they are [restrained](scc:mcdm.heroes.v1/condition/restrained) this way. At the start of a [restrained](scc:mcdm.heroes.v1/condition/restrained) creature's turn, they take 4 acid damage.
+> The false vampire's melee [free strikes](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) have a distance of 2 and inflict M < 3 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) ([EoT](scc.v1:mcdm.heroes.v1/rule.combat/end-of-turn)). The false vampire can move the target while they are [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) this way. At the start of a [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) creature's turn, they take 4 acid damage.
 
 > ⭐️ **Bloodthirsty**
 >
-> The false vampire has a [speed](scc:mcdm.heroes.v1/rule.character/speed) of 10 while a creature is [bleeding](scc:mcdm.heroes.v1/condition/bleeding) within 10.
+> The false vampire has a [speed](scc.v1:mcdm.heroes.v1/rule.character/speed) of 10 while a creature is [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) within 10.

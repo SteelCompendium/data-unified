@@ -27,7 +27,7 @@ type: statblock
 | **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+2**<br>Might  | **+2**<br>Agility | **+2**<br>Reason  |  **+2**<br>Intuition  |  **+2**<br>Presence  |
 
-> 🗡 **My Spear, My Foe ([Signature Ability](scc:mcdm.heroes.v1/rule.combat/signature-ability))**
+> 🗡 **My Spear, My Foe ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
 > | **Melee, Strike, Weapon** |               **Main action** |
 > |---------------------------|------------------------------:|
@@ -36,8 +36,8 @@ type: statblock
 > **Power Roll + 2:**
 >
 > - **≤11:** 6 damage
-> - **12-16:** 9 damage; [taunted](scc:mcdm.heroes.v1/condition/taunted) (EoT)
-> - **17+:** 12 damage; [taunted](scc:mcdm.heroes.v1/condition/taunted) (EoT)
+> - **12-16:** 9 damage; [taunted](scc.v1:mcdm.heroes.v1/condition/taunted) (EoT)
+> - **17+:** 12 damage; [taunted](scc.v1:mcdm.heroes.v1/condition/taunted) (EoT)
 >
 > **Effect:** This ability has a double edge against any target who dealt damage to the rampart this round.
 
@@ -47,7 +47,7 @@ type: statblock
 > |------------------------|----------------:|
 > | **📏 Self; see below** | **🎯 One ally** |
 >
-> **Effect:** The rampart moves or [shifts](scc:mcdm.heroes.v1/movement/shifting) up to their speed [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the target, then can swap places with the target.
+> **Effect:** The rampart moves or [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the target, then can swap places with the target.
 
 > ❗️ **No.**
 >
@@ -55,10 +55,10 @@ type: statblock
 > |-------------|---------------------:|
 > | **📏 Self** |          **🎯 Self** |
 >
-> **Trigger:** A creature targets an ally [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the rampart with an ability that doesn't also target the rampart.
+> **Trigger:** A creature targets an ally [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the rampart with an ability that doesn't also target the rampart.
 >
 > **Effect:** The rampart becomes the target of the triggering ability instead.
 
 > ⭐️ **Relentless**
 >
-> If the rampart is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), they can make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) before dying. If the target of the free strike is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), the rampart is reduced to 1 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) instead.
+> If the rampart is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), they can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) before dying. If the target of the free strike is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), the rampart is reduced to 1 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) instead.

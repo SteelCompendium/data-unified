@@ -36,8 +36,8 @@ This vaguely humanoid form is warped and distorted by a demon nestled inside the
 
 > ⭐️ **Extended Barbed Strike**
 >
-> The ensnarer's melee [free strikes](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) have a distance of 3 and inflict [pull](scc:mcdm.heroes.v1/movement/forced-movement) 1. The [pull](scc:mcdm.heroes.v1/movement/forced-movement) distance increases by 1 for each additional ensnarer striking the same target. Choose the ensnarer that the target is being pulled to before applying [forced movement](scc:mcdm.heroes.v1/movement/forced-movement).
+> The ensnarer's melee [free strikes](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) have a distance of 3 and inflict [pull](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1. The [pull](scc.v1:mcdm.heroes.v1/movement/forced-movement) distance increases by 1 for each additional ensnarer striking the same target. Choose the ensnarer that the target is being pulled to before applying [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement).
 
 > ⭐️ **Soulsight**
 >
-> Each creature adjacent to the ensnarer can't be [hidden](scc:mcdm.heroes.v1/feature.common.maneuvers/hide) from them.
+> Each creature adjacent to the ensnarer can't be [hidden](scc.v1:mcdm.heroes.v1/feature.common.maneuvers/hide) from them.

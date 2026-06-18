@@ -29,7 +29,7 @@ type: statblock
 | **Corruption 3, poison 3**<br>Immunity | **Fly, hover**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |            **-2**<br>Might             |     **+2**<br>Agility      |  **0**<br>Reason  |  **0**<br>Intuition   |  **+3**<br>Presence  |
 
-> 🏹 **Heat Death ([Signature Ability](scc:mcdm.heroes.v1/rule.combat/signature-ability))**
+> 🏹 **Heat Death ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
 > | **Magic, Ranged, Strike** |      **Main action** |
 > |---------------------------|---------------------:|
@@ -37,9 +37,9 @@ type: statblock
 >
 > **Power Roll + 3:**
 >
-> - **≤11:** 7 cold damage; P < 1 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
-> - **12-16:** 10 cold damage; P < 2 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
-> - **17+:** 13 cold damage; P < 3 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
+> - **≤11:** 7 cold damage; P < 1 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
+> - **12-16:** 10 cold damage; P < 2 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
+> - **17+:** 13 cold damage; P < 3 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
 >
 > **Effect:** The next strike made against the target gains an edge.
 
@@ -49,11 +49,11 @@ type: statblock
 > |-----------------|---------------------------------------------:|
 > | **📏 Ranged 8** | **🎯 Self or one ally with a Phasing trait** |
 >
-> **Effect:** The target [shifts](scc:mcdm.heroes.v1/movement/shifting) up to their speed.
+> **Effect:** The target [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed.
 >
-> **2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice):** The ghost chooses one additional target.
+> **2 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice):** The ghost chooses one additional target.
 
-> ❗️ **Shriek (1 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
+> ❗️ **Shriek (1 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Magic, Melee** |           **Triggered action** |
 > |------------------|-------------------------------:|
@@ -65,17 +65,17 @@ type: statblock
 
 > ⭐️ **Phantom Flow**
 >
-> Each undead with a Phasing trait within 10 squares of the ghost can't be made [slowed](scc:mcdm.heroes.v1/condition/slowed) or [weakened](scc:mcdm.heroes.v1/condition/weakened).
+> Each undead with a Phasing trait within 10 squares of the ghost can't be made [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) or [weakened](scc.v1:mcdm.heroes.v1/condition/weakened).
 
-> ☠️ **Paranormal Activity ([Villain Action](scc:mcdm.monsters.v1/rule.monster/villain-action) 1)**
+> ☠️ **Paranormal Activity ([Villain Action](scc.v1:mcdm.monsters.v1/rule.monster/villain-action) 1)**
 >
 > | **Area, Magic** |                                            **-** |
 > |-----------------|-------------------------------------------------:|
 > | **📏 5 burst**  | **🎯 Each size 3 or smaller object in the area** |
 >
-> **Effect:** Each target rises 1 square into the air and is vertically [pulled](scc:mcdm.heroes.v1/movement/forced-movement) up to 5 squares toward the nearest enemy within 3 squares of the target.
+> **Effect:** Each target rises 1 square into the air and is vertically [pulled](scc.v1:mcdm.heroes.v1/movement/forced-movement) up to 5 squares toward the nearest enemy within 3 squares of the target.
 
-> ☠️ **Spirited Away ([Villain Action](scc:mcdm.monsters.v1/rule.monster/villain-action) 2)**
+> ☠️ **Spirited Away ([Villain Action](scc.v1:mcdm.monsters.v1/rule.monster/villain-action) 2)**
 >
 > | **Area, Magic** |                         **-** |
 > |-----------------|------------------------------:|
@@ -87,9 +87,9 @@ type: statblock
 > - **12-16:** P < 2 the target is levitated (EoT)
 > - **17+:** P < 3 the target is levitated until the end of the encounter
 >
-> **Effect:** A levitated target floats 1 square off the ground when first affected, then rises 1 square at the end of each of their turns. If a levitated target can't already [fly](scc:mcdm.heroes.v1/movement/fly), they can [fly](scc:mcdm.heroes.v1/movement/fly) but are [slowed](scc:mcdm.heroes.v1/condition/slowed) and [weakened](scc:mcdm.heroes.v1/condition/weakened) while flying this way.
+> **Effect:** A levitated target floats 1 square off the ground when first affected, then rises 1 square at the end of each of their turns. If a levitated target can't already [fly](scc.v1:mcdm.heroes.v1/movement/fly), they can [fly](scc.v1:mcdm.heroes.v1/movement/fly) but are [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) and [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) while flying this way.
 
-> ☠️ **Awful Wail ([Villain Action](scc:mcdm.monsters.v1/rule.monster/villain-action) 3)**
+> ☠️ **Awful Wail ([Villain Action](scc.v1:mcdm.monsters.v1/rule.monster/villain-action) 3)**
 >
 > | **Area, Magic** |                         **-** |
 > |-----------------|------------------------------:|
@@ -101,8 +101,8 @@ type: statblock
 > - **12-16:** 5 sonic damage
 > - **17+:** 8 sonic damage
 >
-> **Effect:** A target who has P < 2 is reduced to 1 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) if they are [winded](scc:mcdm.heroes.v1/rule.health/winded) after taking this damage.
+> **Effect:** A target who has P < 2 is reduced to 1 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) if they are [winded](scc.v1:mcdm.heroes.v1/rule.health/winded) after taking this damage.
 
 > ⭐️ **Corruptive Phasing**
 >
-> The ghost can move through creatures and objects at their usual speed, but can't end their turn inside a creature or object. The first time in a round that the ghost moves through a creature, that creature takes 2 corruption damage. The ghost doesn't take damage from being [force moved](scc:mcdm.heroes.v1/movement/forced-movement) into objects.
+> The ghost can move through creatures and objects at their usual speed, but can't end their turn inside a creature or object. The first time in a round that the ghost moves through a creature, that creature takes 2 corruption damage. The ghost doesn't take damage from being [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement) into objects.

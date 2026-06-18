@@ -1,6 +1,6 @@
 ---
 echelon: "2"
-effect: When you drink this potion as a maneuver, you sprout 3-foot sharpened horns from your forehead. Whenever you use the [Charge](scc:mcdm.heroes.v1/feature.common.main-actions/charge) main action, the target of your [strike](scc:mcdm.heroes.v1/rule.combat/strike) is gored upon your horns and [grabbed](scc:mcdm.heroes.v1/condition/grabbed). While [grabbed](scc:mcdm.heroes.v1/condition/grabbed) this way, the creature is [bleeding](scc:mcdm.heroes.v1/condition/bleeding). You can also grab another creature with your limbs. The horns harmlessly fall off your head at the end of the encounter.
+effect: When you drink this potion as a maneuver, you sprout 3-foot sharpened horns from your forehead. Whenever you use the [Charge](scc.v1:mcdm.heroes.v1/feature.common.main-actions/charge) main action, the target of your [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) is gored upon your horns and [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed). While [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) this way, the creature is [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding). You can also grab another creature with your limbs. The horns harmlessly fall off your head at the end of the encounter.
 flavor: Tiny chips of white bone float within this dark potion, which carries the scent of beef broth.
 keywords:
     - Magic
@@ -16,12 +16,12 @@ type: treasure
 
 **Keywords:** Magic, Potion
 
-**[Item Prerequisite](scc:mcdm.heroes.v1/rule.downtime/item-prerequisite):** One vial of pure bovine essence
+**[Item Prerequisite](scc.v1:mcdm.heroes.v1/rule.downtime/item-prerequisite):** One vial of pure bovine essence
 
-**[Project Source](scc:mcdm.heroes.v1/rule.downtime/project-source):** Texts or lore in Caelian
+**[Project Source](scc.v1:mcdm.heroes.v1/rule.downtime/project-source):** Texts or lore in Caelian
 
-**[Project Roll](scc:mcdm.heroes.v1/rule.downtime/project-roll) [Characteristic](scc:mcdm.heroes.v1/rule.character/characteristic):** [Reason](scc:mcdm.heroes.v1/rule.character/reason) or [Intuition](scc:mcdm.heroes.v1/rule.character/intuition)
+**[Project Roll](scc.v1:mcdm.heroes.v1/rule.downtime/project-roll) [Characteristic](scc.v1:mcdm.heroes.v1/rule.character/characteristic):** [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) or [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)
 
 **Project Goal:** 90
 
-**Effect:** When you drink this potion as a maneuver, you sprout 3-foot sharpened horns from your forehead. Whenever you use the [Charge](scc:mcdm.heroes.v1/feature.common.main-actions/charge) main action, the target of your [strike](scc:mcdm.heroes.v1/rule.combat/strike) is gored upon your horns and [grabbed](scc:mcdm.heroes.v1/condition/grabbed). While [grabbed](scc:mcdm.heroes.v1/condition/grabbed) this way, the creature is [bleeding](scc:mcdm.heroes.v1/condition/bleeding). You can also grab another creature with your limbs. The horns harmlessly fall off your head at the end of the encounter.
+**Effect:** When you drink this potion as a maneuver, you sprout 3-foot sharpened horns from your forehead. Whenever you use the [Charge](scc.v1:mcdm.heroes.v1/feature.common.main-actions/charge) main action, the target of your [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) is gored upon your horns and [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed). While [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) this way, the creature is [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding). You can also grab another creature with your limbs. The horns harmlessly fall off your head at the end of the encounter.

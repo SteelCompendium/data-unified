@@ -8,9 +8,9 @@ type: god
 
 The Queen of Suns. A living nebula. Desperate ships in need sometimes find themselves enveloped within Nebular, their systems repairing, their injuries healing.
 
-She is a stellar nursery leaving a trail of infant stars in her wake. Hers is the Engine of Law transforming darkness into light, chaos into order. She is the most popular god among the [memonek](scc:mcdm.heroes.v1/ancestry/memonek) and the senior god among the Lords of Law insofar as their hierarchy can be discerned by mortal minds.
+She is a stellar nursery leaving a trail of infant stars in her wake. Hers is the Engine of Law transforming darkness into light, chaos into order. She is the most popular god among the [memonek](scc.v1:mcdm.heroes.v1/ancestry/memonek) and the senior god among the Lords of Law insofar as their hierarchy can be discerned by mortal minds.
 
-She is the goddess of creation and for some of her [followers](scc:mcdm.heroes.v1/rule.general/follower), life itself, as her children's energies feed all life on all worlds. Her priests teach that life is the opposite of entropy, and the natural byproduct of her solar incubator.
+She is the goddess of creation and for some of her [followers](scc.v1:mcdm.heroes.v1/rule.general/follower), life itself, as her children's energies feed all life on all worlds. Her priests teach that life is the opposite of entropy, and the natural byproduct of her solar incubator.
 
 ##### The Calling of Lady Magnetar
 
@@ -18,7 +18,7 @@ She is the goddess of creation and for some of her [followers](scc:mcdm.heroes.v
 
 Captain Kalisdrossa was the leader of Sword Squadron an elite cadre of legendary UNISOL fighter pilots. Her crew believed unwaveringly that with Kalisdrossa as their leader, though one or two may perish in battle, the squadron would always come home.
 
-In the legendary Battle of Cassiar IV against Grotenhulk the Evolver, flagship of the protean fleet, the protean mutate-commander Oruth-phor intended to break Sword Squadron's winning streak, and from the body of PCS Grotenhulk, a giant swam of living drone-sprites, each specially evolved to [seek and destroy](scc:mcdm.heroes.v1/feature.ability.fury.level-6/seek-and-destroy) UNISOL Arrestor-class ships, spawned.
+In the legendary Battle of Cassiar IV against Grotenhulk the Evolver, flagship of the protean fleet, the protean mutate-commander Oruth-phor intended to break Sword Squadron's winning streak, and from the body of PCS Grotenhulk, a giant swam of living drone-sprites, each specially evolved to [seek and destroy](scc.v1:mcdm.heroes.v1/feature.ability.fury.level-6/seek-and-destroy) UNISOL Arrestor-class ships, spawned.
 
 Sword Squadron's meson repeaters were too imprecise to target the tiny drone-sprites. Not only were the pilots unable to carry out their orders, they were being picked off one by one. Many privately believed this was the final flight of Sword Squadron.
 
@@ -34,18 +34,18 @@ Her instincts were precise and correct. The resulting chemonuclear reaction gene
 
 There was only one place to lead them. The surface of Cassiar Prime was a boiling sea of plasma condensate powerful enough to rip planets apart. "It should make short work of these drones," Captain Kalisdrossa thought.
 
-Sword-1 plunged into the fermionic sea, the hull boiling away moments before impact. A million drone-sprites followed into oblivion. Commander Oruth-phor howled his [fury](scc:mcdm.heroes.v1/class/fury) into empty space and ordered his ship to envelop the UNISOL capital ship, literally swallow it whole. Grotenhulk the Evolver understood the command and knew it was suicide, but the ship was compelled to obey.
+Sword-1 plunged into the fermionic sea, the hull boiling away moments before impact. A million drone-sprites followed into oblivion. Commander Oruth-phor howled his [fury](scc.v1:mcdm.heroes.v1/class/fury) into empty space and ordered his ship to envelop the UNISOL capital ship, literally swallow it whole. Grotenhulk the Evolver understood the command and knew it was suicide, but the ship was compelled to obey.
 
-Watching the great maw of the living changeship open to swallow an entire flagship struck terror into every [memonek](scc:mcdm.heroes.v1/ancestry/memonek) in the fleet.
+Watching the great maw of the living changeship open to swallow an entire flagship struck terror into every [memonek](scc.v1:mcdm.heroes.v1/ancestry/memonek) in the fleet.
 
 Then, crackling across every signal unit, a voice. "COME FORTH LADY MAGNETAR, CHOSEN OF THE MOTHER OF STARS." And out of the blue plasma sea that was the surface of the star Cassiar Prime arose a figure, humanoid, made of solid boiling plasma.
 
 It was Kalisdrossa, still wearing the helmet that marked her captain of Sword Squadron, holding in her hand the blue-topaz Fusion Rod—a powerful artifact that would serve as her weapon, and the symbol of her office as Herald of Nebular.
 
-Lady Magnetar flew across the void of space at lightning [speed](scc:mcdm.heroes.v1/rule.character/speed), evaporating protean fighters as she went. Until finally she faced Grotenhulk the Evolver, his maw poised to envelop the UNISOL capital ship.
+Lady Magnetar flew across the void of space at lightning [speed](scc.v1:mcdm.heroes.v1/rule.character/speed), evaporating protean fighters as she went. Until finally she faced Grotenhulk the Evolver, his maw poised to envelop the UNISOL capital ship.
 
 She punched a hole right through the hullskin of the changeship and battled her way, deck by deck, toward the heart of the beast. Though a thousand protean soldiers stood in her way, none could touch her or slow her relentless progress.
 
-The [memonek](scc:mcdm.heroes.v1/ancestry/memonek) officers and soldiers of UNISOL watched the [bleeding](scc:mcdm.heroes.v1/condition/bleeding) changeship convulse, then explode as brilliant shafts of blue light tore the ship apart. Ending the Battle of Cassiar IV.
+The [memonek](scc.v1:mcdm.heroes.v1/ancestry/memonek) officers and soldiers of UNISOL watched the [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) changeship convulse, then explode as brilliant shafts of blue light tore the ship apart. Ending the Battle of Cassiar IV.
 
 Lady Magnetar is the Herald of Nebulon the Star Mother aiding those who fight in the cause of light and life and order. She is invoked whenever a great sacrifice must be made. "Lady Magnetar, let my sacrifice not be in vain."

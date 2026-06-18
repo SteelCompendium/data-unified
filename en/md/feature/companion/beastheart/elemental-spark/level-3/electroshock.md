@@ -7,4 +7,4 @@ scc: mcdm.beastheart.v1/feature.companion.beastheart.elemental-spark.level-3/ele
 type: feature
 ---
 
-Whenever the spark makes a strike against a creature while rampaging, they can cause a target who has M < AVERAGE to be [dazed](scc:mcdm.heroes.v1/condition/dazed) until the end of the target's next turn.
+Whenever the spark makes a strike against a creature while rampaging, they can cause a target who has M < AVERAGE to be [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) until the end of the target's next turn.

@@ -40,17 +40,17 @@ type: statblock
 >
 > - **≤11:** 6 corruption damage
 > - **12-16:** 9 corruption damage
-> - **17+:** 12 corruption damage; I < 2 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
+> - **17+:** 12 corruption damage; I < 2 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
 >
-> **2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice):** The death cultist regains [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) equal to half the damage dealt.
+> **2 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice):** The death cultist regains [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) equal to half the damage dealt.
 
-> ❇️ **Rise, My Minions (1 [Malice](scc:mcdm.monsters.v1/rule.monster/malice) per [minion](scc:mcdm.monsters.v1/rule.organization/minion))**
+> ❇️ **Rise, My Minions (1 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice) per [minion](scc.v1:mcdm.monsters.v1/rule.organization/minion))**
 >
 > | **Area**       |                        **Maneuver** |
 > |----------------|------------------------------------:|
-> | **📏 5 burst** | **🎯 Each dead [minion](scc:mcdm.monsters.v1/rule.organization/minion) in the area** |
+> | **📏 5 burst** | **🎯 Each dead [minion](scc.v1:mcdm.monsters.v1/rule.organization/minion) in the area** |
 >
-> **Effect:** Each target who died during this encounter revives with full [Stamina](scc:mcdm.heroes.v1/rule.health/stamina). They immediately die at the end of the encounter or if the death cultist is killed. A target can be revived multiple times by this ability.
+> **Effect:** Each target who died during this encounter revives with full [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina). They immediately die at the end of the encounter or if the death cultist is killed. A target can be revived multiple times by this ability.
 
 > ⭐️ **Supernatural Insight**
 >

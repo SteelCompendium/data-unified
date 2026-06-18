@@ -1,6 +1,6 @@
 ---
 features:
-    - body: Whenever the hellhound makes a strike against a creature while rampaging, they can cause a target who has P < AVERAGE to be [frightened](scc:mcdm.heroes.v1/condition/frightened) until the end of the target's next turn.
+    - body: Whenever the hellhound makes a strike against a creature while rampaging, they can cause a target who has P < AVERAGE to be [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) until the end of the target's next turn.
       level: 3
       name: Infernal Apparition
     - body: While the hellhound is rampaging, your mouth foams with acidic ichor, and whenever you make a strike against a creature, you deal extra acid damage equal to your Might score.

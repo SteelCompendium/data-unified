@@ -41,7 +41,7 @@ weaknesses:
 > - **12-16:** Slide 4
 > - **17+:** Slide 5
 >
-> **Effect:** The ground in the area turns into a morass of spongy flesh before the targets are [force moved](scc:mcdm.heroes.v1/movement/forced-movement). Until the start of the torlas's next turn, the area is [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain), and each creature who moves in the area takes 1 damage for each square moved.
+> **Effect:** The ground in the area turns into a morass of spongy flesh before the targets are [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement). Until the start of the torlas's next turn, the area is [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain), and each creature who moves in the area takes 1 damage for each square moved.
 
 > 🏹 **Grasping Tendons**
 >
@@ -53,7 +53,7 @@ weaknesses:
 
 > ⭐️ **Lethe**
 >
-> While the torlas is [winded](scc:mcdm.heroes.v1/rule.health/winded), they gain an [edge](scc:mcdm.heroes.v1/rule.dice/edge) on strikes, and any strike made against them gains an edge.
+> While the torlas is [winded](scc.v1:mcdm.heroes.v1/rule.health/winded), they gain an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on strikes, and any strike made against them gains an edge.
 
 > ⭐️ **Soulsight**
 >

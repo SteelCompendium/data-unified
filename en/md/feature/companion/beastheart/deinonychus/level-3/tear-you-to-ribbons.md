@@ -7,4 +7,4 @@ scc: mcdm.beastheart.v1/feature.companion.beastheart.deinonychus.level-3/tear-yo
 type: feature
 ---
 
-Whenever the deinonychus makes a strike against a creature while rampaging, the target is [bleeding](scc:mcdm.heroes.v1/condition/bleeding) until the end of their next turn.
+Whenever the deinonychus makes a strike against a creature while rampaging, the target is [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) until the end of their next turn.

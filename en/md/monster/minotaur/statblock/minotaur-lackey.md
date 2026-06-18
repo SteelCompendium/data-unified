@@ -29,7 +29,7 @@ with_captain: +2 bonus to speed
 |      **-**<br>Immunity       | **-**<br>Movement |         -         | **+2 bonus to speed**<br>With Captain |   **-**<br>Weakness    |
 |       **+3**<br>Might        | **+4**<br>Agility |  **0**<br>Reason  |          **+1**<br>Intuition          |   **-1**<br>Presence   |
 
-> 🗡 **Horn Vault ([Signature Ability](scc:mcdm.heroes.v1/rule.combat/signature-ability))**
+> 🗡 **Horn Vault ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
 > | **Charge, Melee, Strike, Weapon** |                          **Main action** |
 > |-----------------------------------|-----------------------------------------:|
@@ -38,10 +38,10 @@ with_captain: +2 bonus to speed
 > **Power Roll + 4:**
 >
 > - **≤11:** 3 damage
-> - **12-16:** 6 damage; [slide](scc:mcdm.heroes.v1/movement/forced-movement) 1
-> - **17+:** 8 damage; [slide](scc:mcdm.heroes.v1/movement/forced-movement) 3
+> - **12-16:** 6 damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1
+> - **17+:** 8 damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3
 >
-> **Effect:** A target who is [force moved](scc:mcdm.heroes.v1/movement/forced-movement) into an obstacle and has M < 3 is [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends).
+> **Effect:** A target who is [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement) into an obstacle and has M < 3 is [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends).
 
 > ⭐️ **Minotaur Sense**
 >

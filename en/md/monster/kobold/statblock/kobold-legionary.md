@@ -35,11 +35,11 @@ type: statblock
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 3 damage; [taunted](scc:mcdm.heroes.v1/condition/taunted) (EoT)
-> - **12-16:** 4 damage; [taunted](scc:mcdm.heroes.v1/condition/taunted) (EoT)
-> - **17+:** 5 damage; [taunted](scc:mcdm.heroes.v1/condition/taunted) (EoT)
+> - **≤11:** 3 damage; [taunted](scc.v1:mcdm.heroes.v1/condition/taunted) (EoT)
+> - **12-16:** 4 damage; [taunted](scc.v1:mcdm.heroes.v1/condition/taunted) (EoT)
+> - **17+:** 5 damage; [taunted](scc.v1:mcdm.heroes.v1/condition/taunted) (EoT)
 >
-> **3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice):** If the legionary is acting as a [captain](scc:mcdm.monsters.v1/rule.monster/captain), they and each member of their [squad](scc:mcdm.monsters.v1/rule.monster/squad) [shift](scc:mcdm.heroes.v1/movement/shifting) up to 2 squares before this ability is used.
+> **3 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice):** If the legionary is acting as a [captain](scc.v1:mcdm.monsters.v1/rule.monster/captain), they and each member of their [squad](scc.v1:mcdm.monsters.v1/rule.monster/squad) [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to 2 squares before this ability is used.
 
 > 🗡 **Shield Bash**
 >
@@ -49,10 +49,10 @@ type: statblock
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 2 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 1; M < 0 [prone](scc:mcdm.heroes.v1/condition/prone)
-> - **12-16:** 3 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 1; M < 1 [prone](scc:mcdm.heroes.v1/condition/prone)
-> - **17+:** 4 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 1; M < 2 [prone](scc:mcdm.heroes.v1/condition/prone)
+> - **≤11:** 2 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1; M < 0 [prone](scc.v1:mcdm.heroes.v1/condition/prone)
+> - **12-16:** 3 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1; M < 1 [prone](scc.v1:mcdm.heroes.v1/condition/prone)
+> - **17+:** 4 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1; M < 2 [prone](scc.v1:mcdm.heroes.v1/condition/prone)
 
 > ⭐️ **Shield? Shield!**
 >
-> While [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to an ally who also has this trait, the legionary has stability 1, has cover, and grants cover to allies.
+> While [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to an ally who also has this trait, the legionary has stability 1, has cover, and grants cover to allies.

@@ -36,10 +36,10 @@ type: statblock
 > **Power Roll + 2:**
 >
 > - **≤11:** 7 damage
-> - **12-16:** 11 damage; A < 1 [prone](scc:mcdm.heroes.v1/condition/prone)
-> - **17+:** 14 damage; A < 2 [prone](scc:mcdm.heroes.v1/condition/prone)
+> - **12-16:** 11 damage; A < 1 [prone](scc.v1:mcdm.heroes.v1/condition/prone)
+> - **17+:** 14 damage; A < 2 [prone](scc.v1:mcdm.heroes.v1/condition/prone)
 >
-> **Effect:** The pouncer can make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) against each target they knock [prone](scc:mcdm.heroes.v1/condition/prone).
+> **Effect:** The pouncer can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against each target they knock [prone](scc.v1:mcdm.heroes.v1/condition/prone).
 
 > ❇️ **Sparkling Tail Whip**
 >
@@ -55,7 +55,7 @@ type: statblock
 >
 > **Effect:** A dazzled target takes a bane on strikes and has line of effect only within 1 square.
 
-> 🔳 **Illusory Feint (5 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
+> 🔳 **Illusory Feint (5 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Area, Magic, Ranged** |                  **Maneuver** |
 > |-------------------------|------------------------------:|
@@ -63,11 +63,11 @@ type: statblock
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** I < 0 [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)
-> - **12-16:** I < 1 [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)
-> - **17+:** I < 2 [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)
+> - **≤11:** I < 0 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
+> - **12-16:** I < 1 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
+> - **17+:** I < 2 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
 >
-> **Effect:** While [dazed](scc:mcdm.heroes.v1/condition/dazed) this way, a target has speed 0. If a target takes damage, or if someone else uses a main action to shake the target out of their stupor, the [dazed](scc:mcdm.heroes.v1/condition/dazed) condition ends.
+> **Effect:** While [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) this way, a target has speed 0. If a target takes damage, or if someone else uses a main action to shake the target out of their stupor, the [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) condition ends.
 
 > ❗️ **Striking Afterimage**
 >
@@ -77,8 +77,8 @@ type: statblock
 >
 > **Trigger:** The pouncer takes damage from a strike.
 >
-> **Effect:** The pouncer halves the damage, ignores any nondamaging effects associated with it, and can [teleport](scc:mcdm.heroes.v1/movement/teleport) up to 5 squares. If they [teleport](scc:mcdm.heroes.v1/movement/teleport) into concealment or cover, the pouncer can immediately attempt to hide as a free maneuver.
+> **Effect:** The pouncer halves the damage, ignores any nondamaging effects associated with it, and can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) up to 5 squares. If they [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) into concealment or cover, the pouncer can immediately attempt to hide as a free maneuver.
 
 > ⭐️ **Avoidance**
 >
-> Any effect on the pouncer that would be ended by a [saving throw](scc:mcdm.heroes.v1/rule.general/saving-throw) instead ends automatically at the end of their next turn.
+> Any effect on the pouncer that would be ended by a [saving throw](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) instead ends automatically at the end of their next turn.

@@ -45,7 +45,7 @@ type: statblock
 >
 > **3 Malice:** The target instead has a double bane on the next ability they use.
 
-> 🏹 **Enemies in the Dark (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
+> 🏹 **Enemies in the Dark (3 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Magic, Ranged, Strike** |    **Main action** |
 > |---------------------------|-------------------:|
@@ -53,8 +53,8 @@ type: statblock
 >
 > **Power Roll + 3:**
 >
-> - **≤11:** 8 damage; R < 1 the target makes a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) against one enemy of the noctis mage's choice.
-> - **12-16:** 10 damage; R < 2 the target makes a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) against one enemy of the noctis mage's choice.
+> - **≤11:** 8 damage; R < 1 the target makes a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against one enemy of the noctis mage's choice.
+> - **12-16:** 10 damage; R < 2 the target makes a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against one enemy of the noctis mage's choice.
 > - **17+:** 13 damage; R < 3 the target uses a signature ability against one enemy of the noctis mage's choice.
 
 > ⭐️ **Of the Umbra**

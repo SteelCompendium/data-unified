@@ -2,10 +2,10 @@
 flavor: For long years, you studied magic under the mentorship of a more experienced mage.
 language: One language
 name: Mage's Apprentice
-perk: One [supernatural](scc:mcdm.heroes.v1/rule.general/supernatural) perk (*Quick Build:* [Arcane Trick](scc:mcdm.heroes.v1/perk/arcane-trick).)
+perk: One [supernatural](scc.v1:mcdm.heroes.v1/rule.general/supernatural) perk (*Quick Build:* [Arcane Trick](scc.v1:mcdm.heroes.v1/perk/arcane-trick).)
 scc: mcdm.heroes.v1/career/mages-apprentice
 skills:
-    - The [Magic](scc:mcdm.heroes.v1/skill.lore/magic) skill (from the [lore skill group](scc:mcdm.heroes.v1/skill.group/lore)), plus two other skills from the [lore group](scc:mcdm.heroes.v1/skill.group/lore) (*Quick Build:* [Magic](scc:mcdm.heroes.v1/skill.lore/magic), [Monsters](scc:mcdm.heroes.v1/skill.lore/monsters), [Timescape](scc:mcdm.heroes.v1/skill.lore/timescape).)
+    - The [Magic](scc.v1:mcdm.heroes.v1/skill.lore/magic) skill (from the [lore skill group](scc.v1:mcdm.heroes.v1/skill.group/lore)), plus two other skills from the [lore group](scc.v1:mcdm.heroes.v1/skill.group/lore) (*Quick Build:* [Magic](scc.v1:mcdm.heroes.v1/skill.lore/magic), [Monsters](scc.v1:mcdm.heroes.v1/skill.lore/monsters), [Timescape](scc.v1:mcdm.heroes.v1/skill.lore/timescape).)
 type: career
 ---
 
@@ -18,13 +18,13 @@ For long years, you studied magic under the mentorship of a more experienced mag
 
 You gain the following career benefits:
 
-**Skills:** The [Magic](scc:mcdm.heroes.v1/skill.lore/magic) skill (from the [lore skill group](scc:mcdm.heroes.v1/skill.group/lore)), plus two other skills from the [lore group](scc:mcdm.heroes.v1/skill.group/lore) (*Quick Build:* [Magic](scc:mcdm.heroes.v1/skill.lore/magic), [Monsters](scc:mcdm.heroes.v1/skill.lore/monsters), [Timescape](scc:mcdm.heroes.v1/skill.lore/timescape).)
+**Skills:** The [Magic](scc.v1:mcdm.heroes.v1/skill.lore/magic) skill (from the [lore skill group](scc.v1:mcdm.heroes.v1/skill.group/lore)), plus two other skills from the [lore group](scc.v1:mcdm.heroes.v1/skill.group/lore) (*Quick Build:* [Magic](scc.v1:mcdm.heroes.v1/skill.lore/magic), [Monsters](scc.v1:mcdm.heroes.v1/skill.lore/monsters), [Timescape](scc.v1:mcdm.heroes.v1/skill.lore/timescape).)
 
 **Languages:** One language
 
-**[Renown](scc:mcdm.heroes.v1/rule.resource/renown):** +1
+**[Renown](scc.v1:mcdm.heroes.v1/rule.resource/renown):** +1
 
-**Perk:** One [supernatural](scc:mcdm.heroes.v1/rule.general/supernatural) perk (*Quick Build:* [Arcane Trick](scc:mcdm.heroes.v1/perk/arcane-trick).)
+**Perk:** One [supernatural](scc.v1:mcdm.heroes.v1/rule.general/supernatural) perk (*Quick Build:* [Arcane Trick](scc.v1:mcdm.heroes.v1/perk/arcane-trick).)
 
 | d6 | Inciting Incident                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 |----|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -33,4 +33,4 @@ You gain the following career benefits:
 | 3  | **Missing Mage:** One day you woke up and the mage you worked for was gone. They didn't take any of their belongings and there was no sign of any foul play-only the scent of sulfur in their bedchamber. You set out on your heroic journey in the aftermath and have been looking for them ever since. |
 | 4  | **Nightmares Made Flesh:** Your attempts at magic have always been unpredictable. A powerful mage promised to help you gain control. During your training, a terrible nightmare caused your body to flare with magic and pull the monster of your nightmare into the waking world. The horror escaped. You left, seeking to vanquish their vileness. |
 | 5  | **Otherworldly:** While studying magic, you accidentally sent yourself from your original world to this one. Now you're stranded here, hoping to find ancient texts or powerful magic treasures that might transport you back home. A life of adventure it is! | 
-| 6  | **Ultimate Power:** The mage you worked for was a kindly old soul, but the basic magic they taught you always seemed like a small part of something bigger. It wasn't until you met an adventuring [elementalist](scc:mcdm.heroes.v1/class/elementalist) that you realized hitting the road as a hero was the only way to truly improve and hone your skills. You resigned your apprenticeship and found yourself walking the path of a hero the next day. |
+| 6  | **Ultimate Power:** The mage you worked for was a kindly old soul, but the basic magic they taught you always seemed like a small part of something bigger. It wasn't until you met an adventuring [elementalist](scc.v1:mcdm.heroes.v1/class/elementalist) that you realized hitting the road as a hero was the only way to truly improve and hone your skills. You resigned your apprenticeship and found yourself walking the path of a hero the next day. |

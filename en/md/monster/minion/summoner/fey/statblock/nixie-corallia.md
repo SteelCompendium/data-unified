@@ -35,12 +35,12 @@ Corallias are saltwater nixies with coarse, coral-like skin and curly hair with 
 
 > ⭐️ **Water Weird**
 >
-> Once per [turn](scc:mcdm.heroes.v1/rule.combat/turn) during their move action, each nixie under your control can [teleport](scc:mcdm.heroes.v1/movement/teleport) to a body of water within 6. The corallia can't [teleport](scc:mcdm.heroes.v1/movement/teleport) into water created by their own seafoam pool.
+> Once per [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) during their move action, each nixie under your control can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) to a body of water within 6. The corallia can't [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) into water created by their own seafoam pool.
 
 > ⭐️ **Seafoam Pool**
 >
-> The area within 2 squares of the corallia is filled with purifying saltwater that disables the effects of [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain) created by enemies. At the end of the corallia's [turn](scc:mcdm.heroes.v1/rule.combat/turn), the corallia can scrub you or an ally in the affected area and end one [condition](scc:mcdm.heroes.v1/rule.combat/condition).
+> The area within 2 squares of the corallia is filled with purifying saltwater that disables the effects of [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain) created by enemies. At the end of the corallia's [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), the corallia can scrub you or an ally in the affected area and end one [condition](scc.v1:mcdm.heroes.v1/rule.combat/condition).
 
 > ⭐️ **Minuscule**
 >
-> The coralia has [cover](scc:mcdm.heroes.v1/rule.combat/cover) while occupying a larger creature's space.
+> The coralia has [cover](scc.v1:mcdm.heroes.v1/rule.combat/cover) while occupying a larger creature's space.

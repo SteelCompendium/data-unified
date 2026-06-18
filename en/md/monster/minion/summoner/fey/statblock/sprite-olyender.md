@@ -34,12 +34,12 @@ These brawny sprites wear heavy beetle armor and have a halo hovering away from 
 
 > ⭐️ **Warrior's Toss**
 >
-> The olyender's melee [strikes](scc:mcdm.heroes.v1/rule.combat/strike) inflict [push](scc:mcdm.heroes.v1/movement/forced-movement) 4. If the target is [force moved](scc:mcdm.heroes.v1/movement/forced-movement) into an object, they are M < AVERAGE knocked [prone](scc:mcdm.heroes.v1/condition/prone) and can't stand (save ends).
+> The olyender's melee [strikes](scc.v1:mcdm.heroes.v1/rule.combat/strike) inflict [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 4. If the target is [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement) into an object, they are M < AVERAGE knocked [prone](scc.v1:mcdm.heroes.v1/condition/prone) and can't stand (save ends).
 
 > ⭐️ **Use Their Might**
 >
-> When targeting a creature with a [grab](scc:mcdm.heroes.v1/feature.common.maneuvers/grab) or [forced movement](scc:mcdm.heroes.v1/movement/forced-movement), the olyender's [size](scc:mcdm.heroes.v1/rule.character/size) is considered one larger than the target.
+> When targeting a creature with a [grab](scc.v1:mcdm.heroes.v1/feature.common.maneuvers/grab) or [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement), the olyender's [size](scc.v1:mcdm.heroes.v1/rule.character/size) is considered one larger than the target.
 
 > ⭐️ **Minuscule**
 >
-> The olyender has [cover](scc:mcdm.heroes.v1/rule.combat/cover) while occupying a larger creature's space.
+> The olyender has [cover](scc.v1:mcdm.heroes.v1/rule.combat/cover) while occupying a larger creature's space.

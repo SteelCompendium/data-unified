@@ -39,9 +39,9 @@ type: statblock
 > - **12-16:** 10 damage
 > - **17+:** 13 damage
 >
-> **Effect:** One ally within 10 squares of the monarch can make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike).
+> **Effect:** One ally within 10 squares of the monarch can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike).
 
-> 🏹 **Get in Here! (1 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
+> 🏹 **Get in Here! (1 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Ranged**       |   **Maneuver** |
 > |------------------|---------------:|
@@ -61,21 +61,21 @@ type: statblock
 
 > ⭐️ **Crafty**
 >
-> The monarch doesn't provoke [opportunity attacks](scc:mcdm.heroes.v1/rule.combat/opportunity-attack) by moving.
+> The monarch doesn't provoke [opportunity attacks](scc.v1:mcdm.heroes.v1/rule.combat/opportunity-attack) by moving.
 
-> ⭐️ **[End Effect](scc:mcdm.monsters.v1/rule.monster/end-effect)**
+> ⭐️ **[End Effect](scc.v1:mcdm.monsters.v1/rule.monster/end-effect)**
 >
 > At the end of each of their turns, the monarch can take 5 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way.
 
-> ☠️ **What Are You Waiting For? ([Villain Action](scc:mcdm.monsters.v1/rule.monster/villain-action) 1)**
+> ☠️ **What Are You Waiting For? ([Villain Action](scc.v1:mcdm.monsters.v1/rule.monster/villain-action) 1)**
 >
 > | **Area**        |                        **-** |
 > |-----------------|-----------------------------:|
 > | **📏 10 burst** | **🎯 Each ally in the area** |
 >
-> **Effect:** Each target can move up to their speed or make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike).
+> **Effect:** Each target can move up to their speed or make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike).
 
-> ☠️ **Focus Fire ([Villain Action](scc:mcdm.monsters.v1/rule.monster/villain-action) 2)**
+> ☠️ **Focus Fire ([Villain Action](scc.v1:mcdm.monsters.v1/rule.monster/villain-action) 2)**
 >
 > | **Ranged**       |                      **-** |
 > |------------------|---------------------------:|
@@ -83,10 +83,10 @@ type: statblock
 >
 > **Effect:** Each ally within 10 squares of the target can move up to their speed toward the target.
 
-> ☠️ **Kill! ([Villain Action](scc:mcdm.monsters.v1/rule.monster/villain-action) 3)**
+> ☠️ **Kill! ([Villain Action](scc.v1:mcdm.monsters.v1/rule.monster/villain-action) 3)**
 >
 > | **-**          |          **-** |
 > |----------------|---------------:|
 > | **📏 Special** | **🎯 Special** |
 >
-> **Effect:** Each enemy in the encounter takes 2 damage for each goblin [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to them.
+> **Effect:** Each enemy in the encounter takes 2 damage for each goblin [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to them.

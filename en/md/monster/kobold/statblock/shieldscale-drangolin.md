@@ -48,9 +48,9 @@ type: statblock
 > |------------------------|----------------:|
 > | **📏 Self; see below** |     **🎯 Self** |
 >
-> **Effect:** The drangolin [shifts](scc:mcdm.heroes.v1/movement/shifting) up to their speed and uses Fiery Claws against each creature who comes [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to them during the shift. The drangolin makes one power roll against all targets.
+> **Effect:** The drangolin [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed and uses Fiery Claws against each creature who comes [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to them during the shift. The drangolin makes one power roll against all targets.
 
-> ❇️ **Erupt (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
+> ❇️ **Erupt (3 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Area, Weapon** |                  **Main action** |
 > |------------------|---------------------------------:|
@@ -60,14 +60,14 @@ type: statblock
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 6 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 1; A < 0 [prone](scc:mcdm.heroes.v1/condition/prone)
-> - **12-16:** 8 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 3; A < 0 [prone](scc:mcdm.heroes.v1/condition/prone)
-> - **17+:** 11 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 5; A < 0 [prone](scc:mcdm.heroes.v1/condition/prone)
+> - **≤11:** 6 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1; A < 0 [prone](scc.v1:mcdm.heroes.v1/condition/prone)
+> - **12-16:** 8 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3; A < 0 [prone](scc.v1:mcdm.heroes.v1/condition/prone)
+> - **17+:** 11 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5; A < 0 [prone](scc.v1:mcdm.heroes.v1/condition/prone)
 
 > ⭐️ **Ashen Cloud**
 >
-> Any ally [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the drangolin has concealment.
+> Any ally [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the drangolin has concealment.
 
 > ⭐️ **Burrow Bond**
 >
-> When the drangolin burrows, each [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) size 1S or smaller ally can move with them.
+> When the drangolin burrows, each [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) size 1S or smaller ally can move with them.

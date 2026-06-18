@@ -3,7 +3,7 @@ action_type: Main action
 class: "null"
 cost: 9 Discipline
 distance: Self
-effect: You can use up to three [signature abilities](scc:mcdm.heroes.v1/rule.combat/signature-ability), each of which gains an [edge](scc:mcdm.heroes.v1/rule.dice/edge).
+effect: You can use up to three [signature abilities](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability), each of which gains an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge).
 flavor: You slip into a faster timestream to act more quickly.
 keywords:
     - Psionic
@@ -21,4 +21,4 @@ type: ability
 |-------------|----------------:|
 | **📏 Self** |     **🎯 Self** |
 
-**Effect:** You can use up to three [signature abilities](scc:mcdm.heroes.v1/rule.combat/signature-ability), each of which gains an [edge](scc:mcdm.heroes.v1/rule.dice/edge).
+**Effect:** You can use up to three [signature abilities](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability), each of which gains an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge).

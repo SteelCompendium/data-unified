@@ -41,9 +41,9 @@ weaknesses:
 > - **12-16:** 7 damage; pull 3
 > - **17+:** 8 damage; pull 4
 >
-> **Effect:** If the target is pulled [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the muceron, the muceron can either make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) or use the [Grab](scc:mcdm.heroes.v1/feature.common.maneuvers/grab) maneuver against them.
+> **Effect:** If the target is pulled [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the muceron, the muceron can either make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) or use the [Grab](scc.v1:mcdm.heroes.v1/feature.common.maneuvers/grab) maneuver against them.
 
-> 🏹 **Tongue Pull (2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
+> 🏹 **Tongue Pull (2 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Ranged, Strike, Weapon** |                      **Maneuver** |
 > |----------------------------|----------------------------------:|
@@ -53,7 +53,7 @@ weaknesses:
 
 > ⭐️ **Lethe**
 >
-> While the muceron is [winded](scc:mcdm.heroes.v1/rule.health/winded), they gain an [edge](scc:mcdm.heroes.v1/rule.dice/edge) on strikes, and any strike made against them gains an edge.
+> While the muceron is [winded](scc.v1:mcdm.heroes.v1/rule.health/winded), they gain an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on strikes, and any strike made against them gains an edge.
 
 > ⭐️ **Soulsight**
 >

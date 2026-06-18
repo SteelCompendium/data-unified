@@ -8,12 +8,12 @@ type: feature
 
 Through your studies, you know and can manipulate the seven primal elements of the timescape:
 
-- **Air** is the element of movement. Air abilities allow you to manipulate [speed](scc:mcdm.heroes.v1/rule.character/speed), quickness, flight, and breath.
+- **Air** is the element of movement. Air abilities allow you to manipulate [speed](scc.v1:mcdm.heroes.v1/rule.character/speed), quickness, flight, and breath.
 - **Earth** is the element of permanence. Earth abilities bolster your body and grant the power to permanently create and shape physical terrain.
 - **Fire** is the element of destruction. Fire abilities devastate enemies and melt objects to slag.
 - **Green** is the element of creation and growth. Green abilities make and manipulate plants, fungi, and other forms of life to hamper foes and nourish your allies.
 - **Rot** is the element of decay. Rot abilities harm and debuff enemies.
-- **Void** is the element of the mystery. Void abilities warp space and reality, allowing you to [teleport](scc:mcdm.heroes.v1/movement/teleport), create illusions, and make things incorporeal.
+- **Void** is the element of the mystery. Void abilities warp space and reality, allowing you to [teleport](scc.v1:mcdm.heroes.v1/movement/teleport), create illusions, and make things incorporeal.
 - **Water** is the element of change. Water abilities enhance your allies' power, and alter your enemies' power for the worse.
 
-You choose an [elemental specialization](scc:mcdm.heroes.v1/feature.elementalist.level-1/elemental-specialization) from the following options: earth, fire, green, or void. Your [elemental specialization](scc:mcdm.heroes.v1/feature.elementalist.level-1/elemental-specialization) is your [subclass](scc:mcdm.heroes.v1/rule.general/subclass), and your choice of specialization determines many of the features you'll gain as you gain new levels, including one of the following benefits. (Other elemental specializations will be featured in future products.) (*Quick Build:* Fire.)
+You choose an [elemental specialization](scc.v1:mcdm.heroes.v1/feature.elementalist.level-1/elemental-specialization) from the following options: earth, fire, green, or void. Your [elemental specialization](scc.v1:mcdm.heroes.v1/feature.elementalist.level-1/elemental-specialization) is your [subclass](scc.v1:mcdm.heroes.v1/rule.general/subclass), and your choice of specialization determines many of the features you'll gain as you gain new levels, including one of the following benefits. (Other elemental specializations will be featured in future products.) (*Quick Build:* Fire.)

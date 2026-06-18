@@ -6,12 +6,12 @@ scc: mcdm.heroes.v1/feature.talent.level-2/2nd-level-tradition-feature
 type: feature
 ---
 
-Your [talent tradition](scc:mcdm.heroes.v1/feature.talent.level-1/talent-tradition) grants you a feature, as shown on the 2nd-Level Tradition Features table.
+Your [talent tradition](scc.v1:mcdm.heroes.v1/feature.talent.level-1/talent-tradition) grants you a feature, as shown on the 2nd-Level Tradition Features table.
 
 ###### 2nd-Level Tradition Features Table
 
 | Tradition                    | Features        |
 |------------------------------|-----------------|
-| Chronopathy                  | [Ease the Hours](scc:mcdm.heroes.v1/feature.talent.level-2/ease-the-hours)  |
-| Telekinesis                  | [Ease Their Fall](scc:mcdm.heroes.v1/feature.talent.level-2/ease-their-fall) |
-| Telepathy                    | [Ease the Mind](scc:mcdm.heroes.v1/feature.talent.level-2/ease-the-mind)   |
+| Chronopathy                  | [Ease the Hours](scc.v1:mcdm.heroes.v1/feature.talent.level-2/ease-the-hours)  |
+| Telekinesis                  | [Ease Their Fall](scc.v1:mcdm.heroes.v1/feature.talent.level-2/ease-their-fall) |
+| Telepathy                    | [Ease the Mind](scc.v1:mcdm.heroes.v1/feature.talent.level-2/ease-the-mind)   |

@@ -6,7 +6,7 @@ scc: mcdm.heroes.v1/feature.troubadour.level-2/2nd-level-class-act-ability
 type: feature
 ---
 
-Your [troubadour class act](scc:mcdm.heroes.v1/feature.troubadour.level-1/troubadour-class-act) grants your choice of one of two [heroic abilities](scc:mcdm.heroes.v1/rule.general/heroic-ability).
+Your [troubadour class act](scc.v1:mcdm.heroes.v1/feature.troubadour.level-1/troubadour-class-act) grants your choice of one of two [heroic abilities](scc.v1:mcdm.heroes.v1/rule.general/heroic-ability).
 
 ##### 2nd-Level Auteur Ability
 

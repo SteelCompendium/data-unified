@@ -2,29 +2,29 @@
 flavor: In the past, you entertained the masses with flashy displays of violence in the arena.
 language: One language
 name: Gladiator
-perk: One exploration perk (*Quick Build:* [Friend Catapult](scc:mcdm.heroes.v1/perk/friend-catapult).)
+perk: One exploration perk (*Quick Build:* [Friend Catapult](scc.v1:mcdm.heroes.v1/perk/friend-catapult).)
 scc: mcdm.heroes.v1/career/gladiator
 skills:
-    - Two skills from the [exploration skill group](scc:mcdm.heroes.v1/skill.group/exploration) (*Quick Build:*  [Gymnastics](scc:mcdm.heroes.v1/skill.exploration/gymnastics), [Jump](scc:mcdm.heroes.v1/skill.exploration/jump).)
+    - Two skills from the [exploration skill group](scc.v1:mcdm.heroes.v1/skill.group/exploration) (*Quick Build:*  [Gymnastics](scc.v1:mcdm.heroes.v1/skill.exploration/gymnastics), [Jump](scc.v1:mcdm.heroes.v1/skill.exploration/jump).)
 type: career
 ---
 
 In the past, you entertained the masses with flashy displays of violence in the arena. In defining your career, think about the following questions:
 
 - What led you to this life of violent entertainment?
-- What was your [gladiator](scc:mcdm.heroes.v1/career/gladiator) name and persona?
+- What was your [gladiator](scc.v1:mcdm.heroes.v1/career/gladiator) name and persona?
 - Who was your biggest rival?
 - What happened during your most famous match?
 
 You gain the following career benefits:
 
-**Skills:** Two skills from the [exploration skill group](scc:mcdm.heroes.v1/skill.group/exploration) (*Quick Build:*  [Gymnastics](scc:mcdm.heroes.v1/skill.exploration/gymnastics), [Jump](scc:mcdm.heroes.v1/skill.exploration/jump).)
+**Skills:** Two skills from the [exploration skill group](scc.v1:mcdm.heroes.v1/skill.group/exploration) (*Quick Build:*  [Gymnastics](scc.v1:mcdm.heroes.v1/skill.exploration/gymnastics), [Jump](scc.v1:mcdm.heroes.v1/skill.exploration/jump).)
 
 **Languages:** One language
 
-**[Renown](scc:mcdm.heroes.v1/rule.resource/renown):** +2
+**[Renown](scc.v1:mcdm.heroes.v1/rule.resource/renown):** +2
 
-**Perk:** One exploration perk (*Quick Build:* [Friend Catapult](scc:mcdm.heroes.v1/perk/friend-catapult).)
+**Perk:** One exploration perk (*Quick Build:* [Friend Catapult](scc.v1:mcdm.heroes.v1/perk/friend-catapult).)
 
 | d6 | Inciting Incident                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 |----|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -33,4 +33,4 @@ You gain the following career benefits:
 | 3  | **Joined the Arena:** As a child, you loved gladiatorial matches, captivated by the fierce displays of bravery and bravado, never giving much thought to how the competitors ended up in the ring. Then your friend was wrongly accused of a crime and sentenced to compete. You went in their place. After viewing what life was like for those forced to fight, you survived your sentence and resolved to protect the unfairly condemned. |
 | 4  | **New Challenges:** You earned every title you could. You beat every opponent willing to face you in the arena. Your final battle with your rival ended with you victorious—and still you were unsatisfied. Other, greater foes are out there. And you mean to find them. | 
 | 5  | **Scion's Compassion:** You were born a noble, but the duplicitous and power-hungry nature of your family had you seeking your own fortune in the arena. You saw that competitors brought there by circumstance and not choice suffered. You gave all you could of your family money to those lessfortunate folk, and then set out to make a real difference in this cruel world. |
-| 6  | **Warriors' Home:** The orphanage you grew up in secretly supplied gladiators to the arena. Forced to fight against many childhood friends as an adult, you vowed to dismantle the arena and free other victims. You became a liberator, dedicated to ending the oppression of others until your [dying](scc:mcdm.heroes.v1/rule.health/dying) breath. |
+| 6  | **Warriors' Home:** The orphanage you grew up in secretly supplied gladiators to the arena. Forced to fight against many childhood friends as an adult, you vowed to dismantle the arena and free other victims. You became a liberator, dedicated to ending the oppression of others until your [dying](scc.v1:mcdm.heroes.v1/rule.health/dying) breath. |

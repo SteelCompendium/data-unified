@@ -35,12 +35,12 @@ The bellringers are glowing pixies that jingle as they fly. Historically, these 
 
 > ⭐️ **Ringing Strike**
 >
-> The bellringer's [free strikes](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) grant an [edge](scc:mcdm.heroes.v1/rule.dice/edge) to the next [strike](scc:mcdm.heroes.v1/rule.combat/strike) made against the target, or a double [edge](scc:mcdm.heroes.v1/rule.dice/edge) if two or more bellringers strike the same target.
+> The bellringer's [free strikes](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) grant an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) to the next [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) made against the target, or a double [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) if two or more bellringers strike the same target.
 
 > ⭐️ **Fairy Chime**
 >
-> Each ally within 1 square of a bellringer has a +1 to [saving throws](scc:mcdm.heroes.v1/rule.general/saving-throw). Each enemy within 1 square of a bellringer has a -1 to [saving throws](scc:mcdm.heroes.v1/rule.general/saving-throw).
+> Each ally within 1 square of a bellringer has a +1 to [saving throws](scc.v1:mcdm.heroes.v1/rule.general/saving-throw). Each enemy within 1 square of a bellringer has a -1 to [saving throws](scc.v1:mcdm.heroes.v1/rule.general/saving-throw).
 
 > ⭐️ **Minuscule**
 >
-> The bellringer has [cover](scc:mcdm.heroes.v1/rule.combat/cover) while occupying a larger creature's space.
+> The bellringer has [cover](scc.v1:mcdm.heroes.v1/rule.combat/cover) while occupying a larger creature's space.

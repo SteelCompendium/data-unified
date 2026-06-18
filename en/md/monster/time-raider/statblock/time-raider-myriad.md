@@ -30,7 +30,7 @@ with_captain: +1 damage bonus to strikes
 | **Psychic 3**<br>Immunity | **-**<br>Movement |        -         | **+1 damage bonus to strikes**<br>With Captain |   **-**<br>Weakness   |
 |      **+2**<br>Might      | **+1**<br>Agility | **+2**<br>Reason |              **+1**<br>Intuition               |  **+1**<br>Presence   |
 
-> 🗡 **Fifth Fist ([Signature Ability](scc:mcdm.heroes.v1/rule.combat/signature-ability))**
+> 🗡 **Fifth Fist ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
 > | **Melee, Psionic, Strike, Weapon** |                          **Main action** |
 > |------------------------------------|-----------------------------------------:|
@@ -38,9 +38,9 @@ with_captain: +1 damage bonus to strikes
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 3 damage; [slide](scc:mcdm.heroes.v1/movement/forced-movement) 1
-> - **12-16:** 5 damage; [slide](scc:mcdm.heroes.v1/movement/forced-movement) 2
-> - **17+:** 6 damage; [slide](scc:mcdm.heroes.v1/movement/forced-movement) 3, [prone](scc:mcdm.heroes.v1/condition/prone)
+> - **≤11:** 3 damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1
+> - **12-16:** 5 damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2
+> - **17+:** 6 damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3, [prone](scc.v1:mcdm.heroes.v1/condition/prone)
 
 > ⭐️ **Foresight**
 >

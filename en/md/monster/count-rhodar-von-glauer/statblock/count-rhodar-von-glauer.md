@@ -32,7 +32,7 @@ type: statblock
 
 > ☠️ **Solo Monster**
 >
-> **[End Effect](scc:mcdm.monsters.v1/rule.monster/end-effect):** At the end of each of his turns, Rhodar can take 20 damage to end one effect on him that can be ended by a [saving throw](scc:mcdm.heroes.v1/rule.general/saving-throw). This damage can't be reduced in any way.
+> **[End Effect](scc.v1:mcdm.monsters.v1/rule.monster/end-effect):** At the end of each of his turns, Rhodar can take 20 damage to end one effect on him that can be ended by a [saving throw](scc.v1:mcdm.heroes.v1/rule.general/saving-throw). This damage can't be reduced in any way.
 >
 > **Solo Turns:** Rhodar can take two turns each round. He can't take turns consecutively.
 
@@ -42,9 +42,9 @@ type: statblock
 
 > ⭐️ **Thin the Blood**
 >
-> Each enemy within 10 squares of Rhodar takes a -2 penalty to [saving throws](scc:mcdm.heroes.v1/rule.general/saving-throw).
+> Each enemy within 10 squares of Rhodar takes a -2 penalty to [saving throws](scc.v1:mcdm.heroes.v1/rule.general/saving-throw).
 
-> ⚔️ **Spear of the Damned ([Signature Ability](scc:mcdm.heroes.v1/rule.combat/signature-ability))**
+> ⚔️ **Spear of the Damned ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
 > | **Magic, Melee, Ranged, Strike, Weapon** |                   **Main action** |
 > |------------------------------------------|----------------------------------:|
@@ -52,11 +52,11 @@ type: statblock
 >
 > **Power Roll + 5:**
 >
-> - **≤11:** 13 damage; A < 4 [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)
-> - **12-16:** 18 damage; A < 5 [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)
-> - **17+:** 21 damage; A < 6 [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)
+> - **≤11:** 13 damage; A < 4 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
+> - **12-16:** 18 damage; A < 5 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
+> - **17+:** 21 damage; A < 6 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
 >
-> **Effect:** A target [restrained](scc:mcdm.heroes.v1/condition/restrained) this way is impaled by a spear. Rhodar has four spears, each of which can be used to impale a target. At the start of each of his turns, Rhodar can summon any of his spears back to himself, ending the [restrained](scc:mcdm.heroes.v1/condition/restrained) condition on an impaled target.
+> **Effect:** A target [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) this way is impaled by a spear. Rhodar has four spears, each of which can be used to impale a target. At the start of each of his turns, Rhodar can summon any of his spears back to himself, ending the [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) condition on an impaled target.
 
 > ❇️ **Disarming Glare**
 >
@@ -66,11 +66,11 @@ type: statblock
 >
 > **Effect:** Each target makes an Intuition test.
 >
-> - **≤11:** 16 corruption damage; [frightened](scc:mcdm.heroes.v1/condition/frightened) (save ends)
-> - **12-16:** 13 corruption damage; [frightened](scc:mcdm.heroes.v1/condition/frightened) (EoT)
+> - **≤11:** 16 corruption damage; [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
+> - **12-16:** 13 corruption damage; [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (EoT)
 > - **17+:** 8 corruption damage
 >
-> While a target is [frightened](scc:mcdm.heroes.v1/condition/frightened) this way, Rhodar ignores banes and double banes on abilities used against them.
+> While a target is [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) this way, Rhodar ignores banes and double banes on abilities used against them.
 
 > 🗡 **Vermilion Fangs (3 Malice)**
 >
@@ -80,11 +80,11 @@ type: statblock
 >
 > **Power Roll + 5:**
 >
-> - **≤11:** 17 corruption damage; M < 4 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends) and [prone](scc:mcdm.heroes.v1/condition/prone)
-> - **12-16:** 24 corruption damage; [prone](scc:mcdm.heroes.v1/condition/prone); M < 5 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
-> - **17+:** 30 corruption damage; [prone](scc:mcdm.heroes.v1/condition/prone); M < 6 the target is [bleeding](scc:mcdm.heroes.v1/condition/bleeding) until the end of the encounter
+> - **≤11:** 17 corruption damage; M < 4 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends) and [prone](scc.v1:mcdm.heroes.v1/condition/prone)
+> - **12-16:** 24 corruption damage; [prone](scc.v1:mcdm.heroes.v1/condition/prone); M < 5 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
+> - **17+:** 30 corruption damage; [prone](scc.v1:mcdm.heroes.v1/condition/prone); M < 6 the target is [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) until the end of the encounter
 >
-> **Effect:** Rhodar regains [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) equal to half the damage dealt.
+> **Effect:** Rhodar regains [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) equal to half the damage dealt.
 
 > ❇️ **Sanguineous Flourish (5 Malice)**
 >
@@ -94,11 +94,11 @@ type: statblock
 >
 > **Power Roll + 5:**
 >
-> - **≤11:** 6 damage, 2 corruption damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 2; M < 4 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
-> - **12-16:** 6 damage, 7 corruption damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 5; M < 5 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
-> - **17+:** 6 damage, 10 corruption damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 7; M < 6 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
+> - **≤11:** 6 damage, 2 corruption damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2; M < 4 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
+> - **12-16:** 6 damage, 7 corruption damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5; M < 5 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
+> - **17+:** 6 damage, 10 corruption damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 7; M < 6 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
 >
-> **Effect:** Rhodar [shifts](scc:mcdm.heroes.v1/movement/shifting) up to his speed before or after using this ability. He regains [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) equal to half the total corruption damage dealt.
+> **Effect:** Rhodar [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to his speed before or after using this ability. He regains [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) equal to half the total corruption damage dealt.
 
 > 🔳 **Vengeance of Rhöl (2 Malice)**
 >
@@ -106,23 +106,23 @@ type: statblock
 > |-----------------------------|---------------:|
 > | **📏 Two 3 cubes within 5** | **🎯 Special** |
 >
-> **Effect:** Each area is saturated with vengeful spirits until the end of the round. Any enemy who enters the area for the first time in a round or starts their turn there takes 5 corruption damage. At the end of the round, the spirits violently disperse. Each enemy within 2 squares of an area and has P < 5 is [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends).
+> **Effect:** Each area is saturated with vengeful spirits until the end of the round. Any enemy who enters the area for the first time in a round or starts their turn there takes 5 corruption damage. At the end of the round, the spirits violently disperse. Each enemy within 2 squares of an area and has P < 5 is [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends).
 
 > ❗️ **Reactive Rebuke (2 Malice)**
 >
-> | **Magic, Ranged** |           **[Triggered Action](scc:mcdm.heroes.v1/rule.combat/triggered-action)** |
+> | **Magic, Ranged** |           **[Triggered Action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |
 > |-------------------|-------------------------------:|
 > | **📏 Ranged 10**  | **🎯 The triggering creature** |
 >
 > **Trigger:** A creature within distance makes a strike against Rhodar.
 >
-> **Effect:** A target who has I < 5 is [frightened](scc:mcdm.heroes.v1/condition/frightened). This effect ends if the target is 11 or more squares from Rhodar.
+> **Effect:** A target who has I < 5 is [frightened](scc.v1:mcdm.heroes.v1/condition/frightened). This effect ends if the target is 11 or more squares from Rhodar.
 
 > ⭐️ **Lord's Bloodthirst**
 >
-> Rhodar has speed 15 and an edge on power rolls while any creature within 20 squares of him is [bleeding](scc:mcdm.heroes.v1/condition/bleeding). Any [bleeding](scc:mcdm.heroes.v1/condition/bleeding) creature within 10 squares of Rhodar can't hide.
+> Rhodar has speed 15 and an edge on power rolls while any creature within 20 squares of him is [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding). Any [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) creature within 10 squares of Rhodar can't hide.
 
-> ☠️ **Red Tide ([Villain Action](scc:mcdm.monsters.v1/rule.monster/villain-action) 1)**
+> ☠️ **Red Tide ([Villain Action](scc.v1:mcdm.monsters.v1/rule.monster/villain-action) 1)**
 >
 > | **Area, Magic, Ranged** |                         **-** |
 > |-------------------------|------------------------------:|
@@ -136,7 +136,7 @@ type: statblock
 >
 > **Effect:** While a creature is blood soaked, Rhodar has a double edge on abilities used against them.
 
-> ☠️ **Sanguine Mist ([Villain Action](scc:mcdm.monsters.v1/rule.monster/villain-action) 2)**
+> ☠️ **Sanguine Mist ([Villain Action](scc.v1:mcdm.monsters.v1/rule.monster/villain-action) 2)**
 >
 > | **Area, Magic** |                         **-** |
 > |-----------------|------------------------------:|
@@ -144,13 +144,13 @@ type: statblock
 >
 > **Effect:** Each target makes a Presence test.
 >
-> - **≤11:** 16 corruption damage; the target is [bleeding](scc:mcdm.heroes.v1/condition/bleeding) until the end of the encounter
-> - **12-16:** 13 corruption damage; [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
+> - **≤11:** 16 corruption damage; the target is [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) until the end of the encounter
+> - **12-16:** 13 corruption damage; [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
 > - **17+:** 8 corruption damage
 >
-> **Effect:** Rhodar [teleports](scc:mcdm.heroes.v1/movement/teleport) to an unoccupied space in the area. If he has lost the damage immunity from his Grave Ward trait, he regains it.
+> **Effect:** Rhodar [teleports](scc.v1:mcdm.heroes.v1/movement/teleport) to an unoccupied space in the area. If he has lost the damage immunity from his Grave Ward trait, he regains it.
 
-> ☠️ **Fires of Dracul ([Villain Action](scc:mcdm.monsters.v1/rule.monster/villain-action) 3)**
+> ☠️ **Fires of Dracul ([Villain Action](scc.v1:mcdm.monsters.v1/rule.monster/villain-action) 3)**
 >
 > | **Area, Magic**             |                         **-** |
 > |-----------------------------|------------------------------:|
@@ -158,8 +158,8 @@ type: statblock
 >
 > **Power Roll + 5:**
 >
-> - **≤11:** 10 fire damage; R < 4 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
-> - **12-16:** 16 fire damage; R < 5 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
-> - **17+:** 20 fire damage; R < 6 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
+> - **≤11:** 10 fire damage; R < 4 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+> - **12-16:** 16 fire damage; R < 5 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+> - **17+:** 20 fire damage; R < 6 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
 >
-> **Effect:** Rhodar [teleports](scc:mcdm.heroes.v1/movement/teleport) to an unoccupied space [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to one target after the ability resolve.
+> **Effect:** Rhodar [teleports](scc.v1:mcdm.heroes.v1/movement/teleport) to an unoccupied space [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to one target after the ability resolve.

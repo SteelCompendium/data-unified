@@ -1,17 +1,17 @@
 ---
 features:
     - icon: "\U0001F300"
-      intro: As a maneuver, a creature [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to a pavise shield controlled by another creature can make a **Might test**.
+      intro: As a maneuver, a creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to a pavise shield controlled by another creature can make a **Might test**.
       name: Deactivate
       power_roll:
         tiers:
             high: The creature making the test grabs the shield and takes control of it.
-            low: The creature controlling the shield retains control of it and can make an [opportunity attack](scc:mcdm.heroes.v1/rule.combat/opportunity-attack) against the creature making the test.
+            low: The creature controlling the shield retains control of it and can make an [opportunity attack](scc.v1:mcdm.heroes.v1/rule.combat/opportunity-attack) against the creature making the test.
             mid: The creature controlling the shield retains control of it.
     - body: |-
-        While a creature has the pavise shield grabbed, they have [cover](scc:mcdm.heroes.v1/rule.combat/cover) and take half damage from abilities whose line of effect extends through the shield. The pavise shield takes the other half of the damage.
+        While a creature has the pavise shield grabbed, they have [cover](scc.v1:mcdm.heroes.v1/rule.combat/cover) and take half damage from abilities whose line of effect extends through the shield. The pavise shield takes the other half of the damage.
 
-        While a creature has a pavise shield grabbed, their speed is halved and they move the shield like a [grabbed](scc:mcdm.heroes.v1/condition/grabbed) creature.
+        While a creature has a pavise shield grabbed, their speed is halved and they move the shield like a [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) creature.
       icon: ⭐️
       name: Controlling the Shield
 flavor: A reinforced metal shield embedded in the ground acts as cover for the creature controlling it.
@@ -30,7 +30,7 @@ terrain_type: Fortification
 type: dynamic-terrain
 ---
 
-A reinforced metal shield embedded in the ground acts as [cover](scc:mcdm.heroes.v1/rule.combat/cover) for the creature controlling it.
+A reinforced metal shield embedded in the ground acts as [cover](scc.v1:mcdm.heroes.v1/rule.combat/cover) for the creature controlling it.
 
 - **EV:** 1
 - **Stamina:** 9
@@ -38,14 +38,14 @@ A reinforced metal shield embedded in the ground acts as [cover](scc:mcdm.heroes
 
 > 🌀 **Deactivate**
 >
-> As a maneuver, a creature [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to a pavise shield controlled by another creature can make a **Might test**.
+> As a maneuver, a creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to a pavise shield controlled by another creature can make a **Might test**.
 >
-> - **≤11:** The creature controlling the shield retains control of it and can make an [opportunity attack](scc:mcdm.heroes.v1/rule.combat/opportunity-attack) against the creature making the test.
+> - **≤11:** The creature controlling the shield retains control of it and can make an [opportunity attack](scc.v1:mcdm.heroes.v1/rule.combat/opportunity-attack) against the creature making the test.
 > - **12-16:** The creature controlling the shield retains control of it.
 > - **17+:** The creature making the test grabs the shield and takes control of it.
 
 > ⭐️ **Controlling the Shield**
 >
-> While a creature has the pavise shield grabbed, they have [cover](scc:mcdm.heroes.v1/rule.combat/cover) and take half damage from abilities whose line of effect extends through the shield. The pavise shield takes the other half of the damage.
+> While a creature has the pavise shield grabbed, they have [cover](scc.v1:mcdm.heroes.v1/rule.combat/cover) and take half damage from abilities whose line of effect extends through the shield. The pavise shield takes the other half of the damage.
 >
-> While a creature has a pavise shield grabbed, their speed is halved and they move the shield like a [grabbed](scc:mcdm.heroes.v1/condition/grabbed) creature.
+> While a creature has a pavise shield grabbed, their speed is halved and they move the shield like a [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) creature.

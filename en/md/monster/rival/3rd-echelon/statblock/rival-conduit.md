@@ -27,7 +27,7 @@ type: statblock
 | **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+3**<br>Might  | **0**<br>Agility  |  **+1**<br>Reason  |  **+4**<br>Intuition  |  **+2**<br>Presence  |
 
-> ⚔️ **Celestial Furor ([Signature Ability](scc:mcdm.heroes.v1/rule.combat/signature-ability))**
+> ⚔️ **Celestial Furor ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
 > | **Magic, Melee, Ranged, Strike** |                 **Main action** |
 > |----------------------------------|--------------------------------:|
@@ -35,24 +35,24 @@ type: statblock
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** 12 holy damage; vertical [slide](scc:mcdm.heroes.v1/movement/forced-movement) 2
-> - **12-16:** 17 holy damage; vertical [slide](scc:mcdm.heroes.v1/movement/forced-movement) 3
-> - **17+:** 21 holy damage; vertical [slide](scc:mcdm.heroes.v1/movement/forced-movement) 4
+> - **≤11:** 12 holy damage; vertical [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2
+> - **12-16:** 17 holy damage; vertical [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3
+> - **17+:** 21 holy damage; vertical [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 4
 >
-> **Effect:** The conduit or one ally within distance regains [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) equal to half the damage dealt.
+> **Effect:** The conduit or one ally within distance regains [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) equal to half the damage dealt.
 
-> 🏹 **Imbue with Power (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
+> 🏹 **Imbue with Power (3 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Magic, Ranged** |                **Maneuver** |
 > |-------------------|----------------------------:|
 > | **📏 Ranged 10**  | **🎯 Self and five allies** |
 >
-> **Effect:** Each target has a double edge on their next [strike](scc:mcdm.heroes.v1/rule.combat/strike).
+> **Effect:** Each target has a double edge on their next [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike).
 
 > ⭐️ **Unwavering Defender**
 >
-> Damage dealt to any ally [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the conduit is halved.
+> Damage dealt to any ally [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the conduit is halved.
 
 > ⭐️ **Rivalry**
 >
-> At the start of an encounter, the conduit chooses one creature within their [line of effect](scc:mcdm.heroes.v1/rule.combat/line-of-effect). Both the conduit and the creature can add a d3 roll to power rolls they make against each other.
+> At the start of an encounter, the conduit chooses one creature within their [line of effect](scc.v1:mcdm.heroes.v1/rule.combat/line-of-effect). Both the conduit and the creature can add a d3 roll to power rolls they make against each other.

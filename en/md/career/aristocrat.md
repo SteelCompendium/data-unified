@@ -5,33 +5,33 @@ name: Aristocrat
 perk: One lore perk (*Quick Build:* I've Read About This Place.)
 scc: mcdm.heroes.v1/career/aristocrat
 skills:
-    - One skill from the [interpersonal skill group](scc:mcdm.heroes.v1/skill.group/interpersonal) and one skill from the [lore group](scc:mcdm.heroes.v1/skill.group/lore) (*Quick Build:* [Brag](scc:mcdm.heroes.v1/skill.interpersonal/brag), [Society](scc:mcdm.heroes.v1/skill.lore/society).)
+    - One skill from the [interpersonal skill group](scc.v1:mcdm.heroes.v1/skill.group/interpersonal) and one skill from the [lore group](scc.v1:mcdm.heroes.v1/skill.group/lore) (*Quick Build:* [Brag](scc.v1:mcdm.heroes.v1/skill.interpersonal/brag), [Society](scc.v1:mcdm.heroes.v1/skill.lore/society).)
 type: career
 ---
 
 Career? Who needs a career when you're born into money! Or marry into it! Or con your way into it! Whatever the case, you didn't need to work thanks to (someone's) generational wealth. In defining your career, think about the following questions:
 
-- How did you become an [aristocrat](scc:mcdm.heroes.v1/career/aristocrat)?
+- How did you become an [aristocrat](scc.v1:mcdm.heroes.v1/career/aristocrat)?
 - What did you do to fill your days?
 - Which aristocrats and people who worked for you were your best friends and greatest enemies?
 - What sentimental heirloom from your old estate do you carry, and what does it mean to you?
 
 You gain the following career benefits:
 
-**Skills:** One skill from the [interpersonal skill group](scc:mcdm.heroes.v1/skill.group/interpersonal) and one skill from the [lore group](scc:mcdm.heroes.v1/skill.group/lore) (*Quick Build:* [Brag](scc:mcdm.heroes.v1/skill.interpersonal/brag), [Society](scc:mcdm.heroes.v1/skill.lore/society).)
+**Skills:** One skill from the [interpersonal skill group](scc.v1:mcdm.heroes.v1/skill.group/interpersonal) and one skill from the [lore group](scc.v1:mcdm.heroes.v1/skill.group/lore) (*Quick Build:* [Brag](scc.v1:mcdm.heroes.v1/skill.interpersonal/brag), [Society](scc.v1:mcdm.heroes.v1/skill.lore/society).)
 
 **Languages:** One language
 
-**[Renown](scc:mcdm.heroes.v1/rule.resource/renown):** +1
+**[Renown](scc.v1:mcdm.heroes.v1/rule.resource/renown):** +1
 
-**[Wealth](scc:mcdm.heroes.v1/rule.resource/wealth):** +1
+**[Wealth](scc.v1:mcdm.heroes.v1/rule.resource/wealth):** +1
 
 **Perk:** One lore perk (*Quick Build:* I've Read About This Place.)
 
 | d6 | Inciting Incident                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 |----|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 1  | **Blood Money:** When you entered adulthood, you heard unsavory whispers about your family's fortune before learning that their wealth came at the cost of others' suffering. Whether you shed light on the secret or not, you left to become a hero stripped of noble title. |
-| 2  | **Charmed Life:** Whether through some [supernatural](scc:mcdm.heroes.v1/rule.general/supernatural) power or your innate persuasiveness, you were able to defraud other aristocrats. You did it for fun. And when you were found out, you lost your status. Whether you served time or escaped punishment, you decided to rehabilitate yourself and became a hero. |
+| 2  | **Charmed Life:** Whether through some [supernatural](scc.v1:mcdm.heroes.v1/rule.general/supernatural) power or your innate persuasiveness, you were able to defraud other aristocrats. You did it for fun. And when you were found out, you lost your status. Whether you served time or escaped punishment, you decided to rehabilitate yourself and became a hero. |
 | 3  | **Inheritance:** The guardians who instilled in you the virtues of doing the right thing were murdered in a senseless petty robbery. Though their wealth was bequeathed to you, it did little to assuage the guilt you felt for being unable to stop the deadly crime. You decided to use your riches to fund your life as a hero, whether publicly or using an alter ego. |
 | 4  | **Privileged Position:** Life outside the manor never piqued your interest. You had everything you wanted. It thus came as a surprise when the peasants came to overthrow your family. You narrowly escaped, and for the first time witnessed the world. It caused you to become a hero for the people, fighting against inequities. |
 | 5  | **Royal Pauper:** Seeking a break from noble duties, you sought a lookalike to switch identities with. It went so well that you made a habit of switching whenever you were bored. Unfortunately, your counterpart became so good at imitating you that they convinced all those around you that you were an impostor. You lost contact with your family, but now pursue a heroic path free of the pomp of your old life. |

@@ -34,7 +34,7 @@ weaknesses:
 
 > ⭐️ **Undead Summoner**
 >
-> The summoner can command up to two squads of minions with a maximum of 4 minions per squad. They can only have one squad of [signature minions](scc:mcdm.summoner.v1/feature.summoner.level-1/minions) active at any time.
+> The summoner can command up to two squads of minions with a maximum of 4 minions per squad. They can only have one squad of [signature minions](scc.v1:mcdm.summoner.v1/feature.summoner.level-1/minions) active at any time.
 >
 > At the start of each of the summoner's turns, up to three **skeletons** appear in unoccupied spaces within 5 squares of the summoner. On each of the summoner's turns, they direct the squad of skeletons to move and use a main action.
 
@@ -48,7 +48,7 @@ weaknesses:
 >
 > 8 corruption damage
 >
-> 11 corruption damage; R < 2 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
+> 11 corruption damage; R < 2 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
 
 > 🏹 **Call Forth (1+ Malice)**
 >
@@ -64,12 +64,12 @@ weaknesses:
 > |-------|---------------------:|
 > | **📏 Ranged 10** | **🎯 Self or one ally** |
 >
-> **Trigger:** The target is targeted by a [strike](scc:mcdm.heroes.v1/rule.combat/strike).
+> **Trigger:** The target is targeted by a [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike).
 >
-> **Effect:** If one of the summoner's minions is [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the target and is within distance of the [strike](scc:mcdm.heroes.v1/rule.combat/strike), they become the new target of the strike.
+> **Effect:** If one of the summoner's minions is [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the target and is within distance of the [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), they become the new target of the strike.
 >
-> **2 Malice:** Instead of commanding an existing minion, the summoner summons a **skeleton** into an unoccupied space [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the target to take the strike.
+> **2 Malice:** Instead of commanding an existing minion, the summoner summons a **skeleton** into an unoccupied space [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the target to take the strike.
 
 > ⭐️ **Rivalry (With All of Us)**
 >
-> At the start of an encounter, the summoner chooses one creature within their [line of effect](scc:mcdm.heroes.v1/rule.combat/line-of-effect). Both the summoner and the creature can add a d3 roll to [power rolls](scc:mcdm.heroes.v1/rule.dice/power-roll) they make against each other. Whenever one of the summoner's squads uses a damaging ability against the creature, the creature takes an additional 2 damage.
+> At the start of an encounter, the summoner chooses one creature within their [line of effect](scc.v1:mcdm.heroes.v1/rule.combat/line-of-effect). Both the summoner and the creature can add a d3 roll to [power rolls](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) they make against each other. Whenever one of the summoner's squads uses a damaging ability against the creature, the creature takes an additional 2 damage.

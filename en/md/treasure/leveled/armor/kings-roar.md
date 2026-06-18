@@ -14,16 +14,16 @@ type: treasure
 
 **Keywords:** Magic, Shield
 
-**[Item Prerequisite](scc:mcdm.heroes.v1/rule.downtime/item-prerequisite):** A ballad of heroism, two ingots of sunmetal
+**[Item Prerequisite](scc.v1:mcdm.heroes.v1/rule.downtime/item-prerequisite):** A ballad of heroism, two ingots of sunmetal
 
-**[Project Source](scc:mcdm.heroes.v1/rule.downtime/project-source):** Songs in High Rhyvian
+**[Project Source](scc.v1:mcdm.heroes.v1/rule.downtime/project-source):** Songs in High Rhyvian
 
-**[Project Roll](scc:mcdm.heroes.v1/rule.downtime/project-roll) [Characteristic](scc:mcdm.heroes.v1/rule.character/characteristic):** [Reason](scc:mcdm.heroes.v1/rule.character/reason), [Intuition](scc:mcdm.heroes.v1/rule.character/intuition), or [Presence](scc:mcdm.heroes.v1/rule.character/presence)
+**[Project Roll](scc.v1:mcdm.heroes.v1/rule.downtime/project-roll) [Characteristic](scc.v1:mcdm.heroes.v1/rule.character/characteristic):** [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason), [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition), or [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence)
 
 **Project Goal:** 450
 
-**1st Level:** While you wield or carry this shield, you gain a +3 [bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to [Stamina](scc:mcdm.heroes.v1/rule.health/stamina). This [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) [bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) adds to the [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) [bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) granted by other treasures. Additionally, you can use a maneuver to make the shield's lion face roar, choosing one [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) creature or object and [pushing](scc:mcdm.heroes.v1/movement/forced-movement) that target up to 3 squares.
+**1st Level:** While you wield or carry this shield, you gain a +3 [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina). This [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) adds to the [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) granted by other treasures. Additionally, you can use a maneuver to make the shield's lion face roar, choosing one [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) creature or object and [pushing](scc.v1:mcdm.heroes.v1/movement/forced-movement) that target up to 3 squares.
 
-**5th Level:** The shield's [bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) increases to +6. When you cause the shield to roar, you target one creature or object within 3 squares and [push](scc:mcdm.heroes.v1/movement/forced-movement) that target up to 4 squares.
+**5th Level:** The shield's [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) increases to +6. When you cause the shield to roar, you target one creature or object within 3 squares and [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) that target up to 4 squares.
 
-**9th Level:** The shield's [bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) increases to +9. When you cause the shield to roar, you target one creature or object within 6 squares, you [push](scc:mcdm.heroes.v1/movement/forced-movement) that target up to 5 squares, and the target is [slowed](scc:mcdm.heroes.v1/condition/slowed) until the end of their next [turn](scc:mcdm.heroes.v1/rule.combat/turn).
+**9th Level:** The shield's [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) increases to +9. When you cause the shield to roar, you target one creature or object within 6 squares, you [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) that target up to 5 squares, and the target is [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) until the end of their next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn).

@@ -6,7 +6,7 @@ scc: mcdm.heroes.v1/kit/shining-armor
 type: kit
 ---
 
-The [Shining Armor](scc:mcdm.heroes.v1/kit/shining-armor) kit provides the most protection a kit can afford, providing you with the sword, shield, and armor necessary to play the prototypical knight.
+The [Shining Armor](scc.v1:mcdm.heroes.v1/kit/shining-armor) kit provides the most protection a kit can afford, providing you with the sword, shield, and armor necessary to play the prototypical knight.
 
 ##### Equipment
 
@@ -14,11 +14,11 @@ You wear heavy armor and wield a shield and a medium weapon.
 
 ##### Kit Bonuses
 
-**[Stamina](scc:mcdm.heroes.v1/rule.health/stamina) [Bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties):** +12 per [echelon](scc:mcdm.heroes.v1/rule.general/echelon)
+**[Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) [Bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties):** +12 per [echelon](scc.v1:mcdm.heroes.v1/rule.general/echelon)
 
-**[Stability](scc:mcdm.heroes.v1/rule.character/stability) [Bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties):** +1
+**[Stability](scc.v1:mcdm.heroes.v1/rule.character/stability) [Bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties):** +1
 
-**[Melee](scc:mcdm.heroes.v1/rule.combat/melee) Damage [Bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties):** +2/+2/+2
+**[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) Damage [Bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties):** +2/+2/+2
 
 ##### Signature Ability
 
@@ -26,14 +26,14 @@ You wear heavy armor and wield a shield and a medium weapon.
 
 *The strength of your assault makes it impossible for your foe to ignore you.*
 
-| **[Melee](scc:mcdm.heroes.v1/rule.combat/melee), [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** |     **Main action** |
+| **[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), Weapon** |     **Main action** |
 |---------------------------|--------------------:|
-| **📏 [Melee](scc:mcdm.heroes.v1/rule.combat/melee) 1**            | **🎯 One creature** |
+| **📏 [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1**            | **🎯 One creature** |
 
-**[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc:mcdm.heroes.v1/rule.character/might) or [Agility](scc:mcdm.heroes.v1/rule.character/agility):**
+**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc.v1:mcdm.heroes.v1/rule.character/might) or [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility):**
 
 - **≤11:** 5 + M or A damage
 - **12-16:** 8 + M or A damage
 - **17+:** 11 + M or A damage
 
-**Effect:** The target is [taunted](scc:mcdm.heroes.v1/condition/taunted) until the end of their next [turn](scc:mcdm.heroes.v1/rule.combat/turn).
+**Effect:** The target is [taunted](scc.v1:mcdm.heroes.v1/condition/taunted) until the end of their next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn).

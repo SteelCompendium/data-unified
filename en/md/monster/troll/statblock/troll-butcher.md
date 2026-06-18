@@ -30,7 +30,7 @@ weaknesses:
 | **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |  **Acid 5, fire **<br>Weakness  |
 |  **+3**<br>Might  | **+1**<br>Agility |  **+1**<br>Reason  |  **0**<br>Intuition   |        **0**<br>Presence        |
 
-> 🗡 **Savoring Bite ([Signature Ability](scc:mcdm.heroes.v1/rule.combat/signature-ability))**
+> 🗡 **Savoring Bite ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
 > | **Melee, Strike, Weapon** |                 **Main action** |
 > |---------------------------|--------------------------------:|
@@ -38,11 +38,11 @@ weaknesses:
 >
 > **Power Roll + 3:**
 >
-> - **≤11:** 9 damage; M < 1 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
-> - **12-16:** 14 damage; M < 2 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
-> - **17+:** 17 damage; M < 3 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
+> - **≤11:** 9 damage; M < 1 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
+> - **12-16:** 14 damage; M < 2 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
+> - **17+:** 17 damage; M < 3 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
 >
-> **1 [Malice](scc:mcdm.monsters.v1/rule.monster/malice):** The butcher regains [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) equal to the damage dealt.
+> **1 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice):** The butcher regains [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) equal to the damage dealt.
 
 > 🔳 **Rotten Scraps**
 >
@@ -52,19 +52,19 @@ weaknesses:
 >
 > **Power Roll + 3:**
 >
-> - **≤11:** 5 poison damage; M < 1 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
-> - **12-16:** 9 poison damage; M < 2 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
-> - **17+:** 11 poison damage; M < 3 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
+> - **≤11:** 5 poison damage; M < 1 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+> - **12-16:** 9 poison damage; M < 2 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+> - **17+:** 11 poison damage; M < 3 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
 >
-> **Effect:** Each troll in the area ignores the damage and instead regains 3 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina).
+> **Effect:** Each troll in the area ignores the damage and instead regains 3 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).
 
-> 👤 **Gourmet Flesh (2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
+> 👤 **Gourmet Flesh (2 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **-**       | **Maneuver** |
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
-> **Effect:** The butcher enhances their next use of Savoring Bite, changing the damage type and condition imposed to one of the following pairs: corruption damage and [dazed](scc:mcdm.heroes.v1/condition/dazed), acid damage and [restrained](scc:mcdm.heroes.v1/condition/restrained), or lightning damage and [frightened](scc:mcdm.heroes.v1/condition/frightened).
+> **Effect:** The butcher enhances their next use of Savoring Bite, changing the damage type and condition imposed to one of the following pairs: corruption damage and [dazed](scc.v1:mcdm.heroes.v1/condition/dazed), acid damage and [restrained](scc.v1:mcdm.heroes.v1/condition/restrained), or lightning damage and [frightened](scc.v1:mcdm.heroes.v1/condition/frightened).
 
 > ❗️ **Acquired Taste**
 >
@@ -72,9 +72,9 @@ weaknesses:
 > |----------------|-------------------------------:|
 > | **📏 Melee 1** | **🎯 The triggering creature** |
 >
-> **Trigger:** A creature within distance deals damage to the butcher with an ability that gains an edge, has a double edge, or uses a [surge](scc:mcdm.heroes.v1/rule.resource/surge).
+> **Trigger:** A creature within distance deals damage to the butcher with an ability that gains an edge, has a double edge, or uses a [surge](scc.v1:mcdm.heroes.v1/rule.resource/surge).
 >
-> **Effect:** The butcher makes a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) against the target. Until the end of their next turn, the butcher gains an edge on power rolls and deals an extra 3 damage with strikes.
+> **Effect:** The butcher makes a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against the target. Until the end of their next turn, the butcher gains an edge on power rolls and deals an extra 3 damage with strikes.
 
 > ⭐️ **Bloody Feast**
 >
@@ -82,4 +82,4 @@ weaknesses:
 
 > ⭐️ **Relentless Hunger**
 >
-> The butcher dies only if they are reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) by acid or fire damage, if they end their turn with 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), or if they take acid or fire damage while at 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina).
+> The butcher dies only if they are reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) by acid or fire damage, if they end their turn with 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), or if they take acid or fire damage while at 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).

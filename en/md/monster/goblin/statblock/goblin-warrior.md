@@ -40,7 +40,7 @@ type: statblock
 > - **12-16:** 4 damage
 > - **17+:** 5 damage
 
-> 🗡 **Bury the Point (2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
+> 🗡 **Bury the Point (2 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Melee, Strike, Weapon** |     **Main action** |
 > |---------------------------|--------------------:|
@@ -48,10 +48,10 @@ type: statblock
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 5 damage; M < 0 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
-> - **12-16:** 6 damage; M < 1 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
-> - **17+:** 7 damage; M < 2 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
+> - **≤11:** 5 damage; M < 0 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
+> - **12-16:** 6 damage; M < 1 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
+> - **17+:** 7 damage; M < 2 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
 
 > ⭐️ **Crafty**
 >
-> The warrior doesn't provoke [opportunity attacks](scc:mcdm.heroes.v1/rule.combat/opportunity-attack) by moving.
+> The warrior doesn't provoke [opportunity attacks](scc.v1:mcdm.heroes.v1/rule.combat/opportunity-attack) by moving.

@@ -29,7 +29,7 @@ type: statblock
 | **Corruption 1, poison 1**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |            **+2**<br>Might             | **+1**<br>Agility |  **0**<br>Reason  |  **0**<br>Intuition   |  **+1**<br>Presence  |
 
-> 🗡 **Soulstealer Longsword ([Signature Ability](scc:mcdm.heroes.v1/rule.combat/signature-ability))**
+> 🗡 **Soulstealer Longsword ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
 > | **Melee, Strike, Weapon** |               **Main action** |
 > |---------------------------|------------------------------:|
@@ -38,19 +38,19 @@ type: statblock
 > **Power Roll + 2:**
 >
 > - **≤11:** 3 corruption damage
-> - **12-16:** 4 corruption damage; M < 1 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
-> - **17+:** 5 corruption damage; M < 2 [slowed](scc:mcdm.heroes.v1/condition/slowed) and [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
+> - **12-16:** 4 corruption damage; M < 1 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
+> - **17+:** 5 corruption damage; M < 2 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) and [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
 >
 > **Effect:** The target appears to rapidly age each time they take damage from this ability. The target regains their former appearance when the soulwight is destroyed.
 
-> 🏹 **Stolen Vitality (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
+> 🏹 **Stolen Vitality (3 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Magic, Ranged** |    **Maneuver** |
 > |-------------------|----------------:|
 > | **📏 Ranged 5**   | **🎯 One ally** |
 >
-> **Effect:** The target regains 10 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina). The soulwight can't use this maneuver again until after they strike a creature with their Soulstealer Longsword.
+> **Effect:** The target regains 10 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina). The soulwight can't use this maneuver again until after they strike a creature with their Soulstealer Longsword.
 
 > ⭐️ **Arise**
 >
-> The first time the soulwight is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) by damage that isn't fire damage or holy damage and their body isn't destroyed, they instead have 1 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) and fall [prone](scc:mcdm.heroes.v1/condition/prone).
+> The first time the soulwight is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) by damage that isn't fire damage or holy damage and their body isn't destroyed, they instead have 1 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) and fall [prone](scc.v1:mcdm.heroes.v1/condition/prone).

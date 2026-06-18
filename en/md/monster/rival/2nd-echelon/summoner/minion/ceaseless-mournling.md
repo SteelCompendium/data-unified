@@ -33,7 +33,7 @@ weaknesses:
 
 > ⭐️ **Always Crying**
 >
-> At the end of the mournling's turn, each enemy within 1 of the mournling takes 2 sonic damage and can't [shift](scc:mcdm.heroes.v1/movement/shifting) until the start of the mournling's next turn.
+> At the end of the mournling's turn, each enemy within 1 of the mournling takes 2 sonic damage and can't [shift](scc.v1:mcdm.heroes.v1/movement/shifting) until the start of the mournling's next turn.
 
 > ⭐️ **Immutable Form**
 >
@@ -41,4 +41,4 @@ weaknesses:
 
 > ⭐️ **Rupture**
 >
-> The first time the mournling [burrows](scc:mcdm.heroes.v1/movement/burrow) out of the ground on their turn, they can make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) against each [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) enemy.
+> The first time the mournling [burrows](scc.v1:mcdm.heroes.v1/movement/burrow) out of the ground on their turn, they can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against each [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) enemy.

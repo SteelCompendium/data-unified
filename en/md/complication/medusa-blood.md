@@ -16,16 +16,16 @@ Your mother and father never saw eye to eye. You know this because your father i
 >
 > *Your looks don't kill—they petrify.*
 >
-> | **Magic, [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged), [Strike](scc:mcdm.heroes.v1/rule.combat/strike)** |     **Main action** |
+> | **Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)** |     **Main action** |
 > |---------------------------|--------------------:|
-> | **📏 [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 10**          | **🎯 One creature** |
+> | **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**          | **🎯 One creature** |
 >
-> **[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc:mcdm.heroes.v1/rule.character/might) or [Presence](scc:mcdm.heroes.v1/rule.character/presence):**
+> **[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc.v1:mcdm.heroes.v1/rule.character/might) or [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence):**
 >
-> - **≤11:** 2 damage; M < WEAK, [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
-> - **12-16:** 4 damage; M < AVERAGE, [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
-> - **17+:** 6 damage; M < STRONG, [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
+> - **≤11:** 2 damage; M < WEAK, [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
+> - **12-16:** 4 damage; M < AVERAGE, [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
+> - **17+:** 6 damage; M < STRONG, [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
 >
-> **Effect:** This ability has no effect on a creature who can't see you or who purposefully avoids looking at your eyes. A creature reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) by this ability is turned to inanimate stone.
+> **Effect:** This ability has no effect on a creature who can't see you or who purposefully avoids looking at your eyes. A creature reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) by this ability is turned to inanimate stone.
 
 **Drawback:** Out of combat, you use your Stone Eyes ability on anyone who meets your gaze, whether you intend to or not. Your companions know not to make eye contact, but strangers are likely to trigger the ability unless you cover your eyes.

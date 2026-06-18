@@ -41,7 +41,7 @@ type: statblock
 >
 > - **≤11:** 3 cold damage
 > - **12-16:** 5 cold damage
-> - **17+:** 7 cold damage; P < STRONG [slowed](scc:mcdm.heroes.v1/condition/slowed) (EoT)
+> - **17+:** 7 cold damage; P < STRONG [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (EoT)
 
 > 👤 **Spirit Meld**
 >
@@ -49,7 +49,7 @@ type: statblock
 > |-------------|----------------:|
 > | **📏 Self** |     **🎯 Self** |
 >
-> **Effect:** While [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to their mentor, the unquiet spirit enters the mentor's space. A spirit who enters their mentor's space this way moves with the mentor, can't be sensed, and can't affect or be affected by other creatures or objects. They can't take main actions, maneuvers, or move actions, except to use this ability to leave their mentor's space and appear in an [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) space.
+> **Effect:** While [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to their mentor, the unquiet spirit enters the mentor's space. A spirit who enters their mentor's space this way moves with the mentor, can't be sensed, and can't affect or be affected by other creatures or objects. They can't take main actions, maneuvers, or move actions, except to use this ability to leave their mentor's space and appear in an [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) space.
 
 > ⭐️ **Corruptive Phasing**
 >
@@ -69,7 +69,7 @@ type: statblock
 > - **12-16:** 10 corruption damage; the target has 2 levels of drain
 > - **17+:** 14 corruption damage; the target has 3 levels of drain
 >
-> **Effect:** The next creature to make a [strike](scc:mcdm.heroes.v1/rule.combat/strike) against the target gains 1 [surge](scc:mcdm.heroes.v1/rule.resource/surge) for each level of drain, which must be used on that [strike](scc:mcdm.heroes.v1/rule.combat/strike).
+> **Effect:** The next creature to make a [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) against the target gains 1 [surge](scc.v1:mcdm.heroes.v1/rule.resource/surge) for each level of drain, which must be used on that [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike).
 
 ######## Level 7 Retainer Advancement Ability
 
@@ -81,9 +81,9 @@ type: statblock
 >
 > **Power Roll + highest characteristic:**
 >
-> - **≤11:** A < WEAK [slowed](scc:mcdm.heroes.v1/condition/slowed) and [weakened](scc:mcdm.heroes.v1/condition/weakened) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
-> - **12-16:** A < AVERAGE [slowed](scc:mcdm.heroes.v1/condition/slowed) and [weakened](scc:mcdm.heroes.v1/condition/weakened) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
-> - **17+:** A < STRONG [slowed](scc:mcdm.heroes.v1/condition/slowed) and [weakened](scc:mcdm.heroes.v1/condition/weakened) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
+> - **≤11:** A < WEAK [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) and [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
+> - **12-16:** A < AVERAGE [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) and [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
+> - **17+:** A < STRONG [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) and [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
 
 ######## Level 10 Retainer Advancement Ability
 
@@ -93,4 +93,4 @@ type: statblock
 > |---------------------------|--------------------:|
 > | **📏 Ranged 5**           | **🎯 One creature** |
 >
-> **Effect:** If the target has P < STRONG, they are phased until the end of their next turn. A phased target gains the unquiet spirit's Corruptive Phasing trait and can [fly](scc:mcdm.heroes.v1/movement/fly). They are visible but can't affect or be affed by other creatures or objects. A willing creature not subject to the ability's [potency](scc:mcdm.heroes.v1/rule.character/potency) can choose to automatically be affected.
+> **Effect:** If the target has P < STRONG, they are phased until the end of their next turn. A phased target gains the unquiet spirit's Corruptive Phasing trait and can [fly](scc.v1:mcdm.heroes.v1/movement/fly). They are visible but can't affect or be affed by other creatures or objects. A willing creature not subject to the ability's [potency](scc.v1:mcdm.heroes.v1/rule.character/potency) can choose to automatically be affected.

@@ -2,17 +2,17 @@
 effect: 'Choose one of the following benefits:'
 flavor: I will follow you to the ends of the earth—just so I can kick you off the edge.
 name: Sworn Hunter
-prerequisite: You have the [Marshal](scc:mcdm.heroes.v1/title/marshal) title, and you take down an entire criminal organization.
+prerequisite: You have the [Marshal](scc.v1:mcdm.heroes.v1/title/marshal) title, and you take down an entire criminal organization.
 scc: mcdm.heroes.v1/title/sworn-hunter
 type: title
 ---
 
-*I will follow you to the ends of the earth—just so I can kick you off the [edge](scc:mcdm.heroes.v1/rule.dice/edge).*
+*I will follow you to the ends of the earth—just so I can kick you off the [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge).*
 
-**Prerequisite:** You have the [Marshal](scc:mcdm.heroes.v1/title/marshal) title, and you take down an entire criminal organization.
+**Prerequisite:** You have the [Marshal](scc.v1:mcdm.heroes.v1/title/marshal) title, and you take down an entire criminal organization.
 
 **Effect:** Choose one of the following benefits:
 
-- *Hunter's Oath:* As a main action, you swear a hunter's oath against a creature within 10 squares who you have [line of effect](scc:mcdm.heroes.v1/rule.combat/line-of-effect) to. This oath lasts until the target dies or until you swear a hunter's oath against a different creature. As long as the hunter's oath lasts, you magically know the direction to the target if they are within 50 miles of you, and your damage-dealing abilities gain a +5 damage [bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) against the target.
-- *Particular Set of Skills:* You know a skill from the [intrigue skill group](scc:mcdm.heroes.v1/skill.group/intrigue).
-- *We're In This Together:* When you have a creature [grabbed](scc:mcdm.heroes.v1/condition/grabbed) and take damage from an ability not used by that creature, the [grabbed](scc:mcdm.heroes.v1/condition/grabbed) creature takes the same damage.
+- *Hunter's Oath:* As a main action, you swear a hunter's oath against a creature within 10 squares who you have [line of effect](scc.v1:mcdm.heroes.v1/rule.combat/line-of-effect) to. This oath lasts until the target dies or until you swear a hunter's oath against a different creature. As long as the hunter's oath lasts, you magically know the direction to the target if they are within 50 miles of you, and your damage-dealing abilities gain a +5 damage [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) against the target.
+- *Particular Set of Skills:* You know a skill from the [intrigue skill group](scc.v1:mcdm.heroes.v1/skill.group/intrigue).
+- *We're In This Together:* When you have a creature [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) and take damage from an ability not used by that creature, the [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) creature takes the same damage.

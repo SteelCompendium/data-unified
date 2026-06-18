@@ -28,7 +28,7 @@ type: statblock
 |      **-**<br>Immunity      | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |       **+1**<br>Might       | **+3**<br>Agility |  **0**<br>Reason  |  **0**<br>Intuition   |  **+2**<br>Presence  |
 
-> 🗡 **Needle-Knife ([Signature Ability](scc:mcdm.heroes.v1/rule.combat/signature-ability))**
+> 🗡 **Needle-Knife ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
 > | **Melee, Strike, Weapon** |               **Main action** |
 > |---------------------------|------------------------------:|
@@ -37,12 +37,12 @@ type: statblock
 > **Power Roll + 3:**
 >
 > - **≤11:** 6 damage
-> - **12-16:** 8 damage; A < 2 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
-> - **17+:** 10 damage; A < 3 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) and [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
+> - **12-16:** 8 damage; A < 2 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
+> - **17+:** 10 damage; A < 3 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) and [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
 >
 > **Effect:** This ability deals an extra 6 damage if the hypokrite is hidden or disguised.
 
-> ❗️ **Feign Death (2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
+> ❗️ **Feign Death (2 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Ranged**       | **Triggered action** |
 > |------------------|---------------------:|
@@ -50,12 +50,12 @@ type: statblock
 >
 > **Trigger:** The hypokrite takes damage.
 >
-> **Effect:** The hypokrite detonates their loyalty collar to deal 2d6 damage to each [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) enemy, but [teleports](scc:mcdm.heroes.v1/movement/teleport) to an unoccupied space [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to an ally within distance and remains alive.
+> **Effect:** The hypokrite detonates their loyalty collar to deal 2d6 damage to each [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) enemy, but [teleports](scc.v1:mcdm.heroes.v1/movement/teleport) to an unoccupied space [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to an ally within distance and remains alive.
 
 > ⭐️ **Face in the Crowd**
 >
-> The hypokrite is invisible while [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to any ally who isn't hidden, and they can attempt to hide even while observed. Whenever they use the Hide maneuver, the hypokrite can disguise themself as another creature within line of effect.
+> The hypokrite is invisible while [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to any ally who isn't hidden, and they can attempt to hide even while observed. Whenever they use the Hide maneuver, the hypokrite can disguise themself as another creature within line of effect.
 
 > ⭐️ **Loyalty Collar**
 >
-> When the hypokrite is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), their loyalty collar explodes, dealing 2d6 damage to each [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) enemy and object.
+> When the hypokrite is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), their loyalty collar explodes, dealing 2d6 damage to each [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) enemy and object.

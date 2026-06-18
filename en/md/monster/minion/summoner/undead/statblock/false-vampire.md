@@ -36,8 +36,8 @@ A false vampire is a bestial, bipedal ghoul that draws life from liquified remai
 
 > ⭐️ **Proboscis Strike**
 >
-> The false vampire's melee [free strikes](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) have a distance of 2 and inflict M < AVERAGE [restrained](scc:mcdm.heroes.v1/condition/restrained) (EoT). The false vampire can move the target while they are [restrained](scc:mcdm.heroes.v1/condition/restrained) this way. At the start of a [restrained](scc:mcdm.heroes.v1/condition/restrained) creature's [turn](scc:mcdm.heroes.v1/rule.combat/turn), they take acid [damage](scc:mcdm.heroes.v1/rule.damage/damage) equal to your [Reason](scc:mcdm.heroes.v1/rule.character/reason).
+> The false vampire's melee [free strikes](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) have a distance of 2 and inflict M < AVERAGE [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (EoT). The false vampire can move the target while they are [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) this way. At the start of a [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) creature's [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), they take acid [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage) equal to your [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason).
 
 > ⭐️ **Bloodthirsty**
 >
-> The false vampire has a [speed](scc:mcdm.heroes.v1/rule.character/speed) of 10 while a creature is [bleeding](scc:mcdm.heroes.v1/condition/bleeding) within 10.
+> The false vampire has a [speed](scc.v1:mcdm.heroes.v1/rule.character/speed) of 10 while a creature is [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) within 10.

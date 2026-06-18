@@ -41,7 +41,7 @@ type: statblock
 
 > ⭐️ **Relentless**
 >
-> If the charger is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), they can make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) before dying. If the target of the [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), the charger is reduced to 1 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) instead.
+> If the charger is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), they can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) before dying. If the target of the [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), the charger is reduced to 1 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) instead.
 
 ######## Level 4 Retainer Advancement Ability
 
@@ -51,7 +51,7 @@ type: statblock
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
-> **Effect:** Until the start of the charger's next turn, the charger and their mentor each have [temporary Stamina](scc:mcdm.heroes.v1/rule.health/temporary-stamina) equal to their Recovery value and a +2 bonus to speed, and they each gain an edge on reactive tests.
+> **Effect:** Until the start of the charger's next turn, the charger and their mentor each have [temporary Stamina](scc.v1:mcdm.heroes.v1/rule.health/temporary-stamina) equal to their Recovery value and a +2 bonus to speed, and they each gain an edge on reactive tests.
 
 ######## Level 7 Retainer Advancement Ability
 
@@ -61,7 +61,7 @@ type: statblock
 > |------------------------|----------------:|
 > | **📏 Self; See below** |     **🎯 Self** |
 >
-> **Effect:** The charger moves in a straight line up to their speed. During this move, they ignore enemy [free strikes](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike), and they can make a melee [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) against any creature they move [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to.
+> **Effect:** The charger moves in a straight line up to their speed. During this move, they ignore enemy [free strikes](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike), and they can make a melee [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against any creature they move [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to.
 
 ######## Level 10 Retainer Advancement Ability
 

@@ -3,7 +3,7 @@ action_type: Main action
 class: beastheart
 cost: 11 Ferocity
 distance: Melee 1
-effect: Your companion [teleports](scc:mcdm.heroes.v1/movement/teleport) up to their speed.
+effect: Your companion [teleports](scc.v1:mcdm.heroes.v1/movement/teleport) up to their speed.
 flavor: Your companion appears next to their victim in the guise of a heart-stopping nightmare.
 keywords:
     - Companion
@@ -17,9 +17,9 @@ power_roll_characteristic: Intuition
 scc: mcdm.beastheart.v1/feature.ability.beastheart.level-9/behold-the-face-of-chaos
 subclass: prowler
 target: One creature
-tier1: 13 + I psychic damage; P < WEAK [frightened](scc:mcdm.heroes.v1/condition/frightened) (save ends)
-tier2: 20 + I psychic damage; P < AVERAGE [frightened](scc:mcdm.heroes.v1/condition/frightened) (save ends)
-tier3: 27 + I psychic damage; P < STRONG [frightened](scc:mcdm.heroes.v1/condition/frightened) (save ends)
+tier1: 13 + I psychic damage; P < WEAK [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
+tier2: 20 + I psychic damage; P < AVERAGE [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
+tier3: 27 + I psychic damage; P < STRONG [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
 type: ability
 ---
 
@@ -29,10 +29,10 @@ type: ability
 |---------------------------------------------|----------------:|
 | **📏 Melee 1**                              | **🎯 One creature** |
 
-**Effect:** Your companion [teleports](scc:mcdm.heroes.v1/movement/teleport) up to their speed.
+**Effect:** Your companion [teleports](scc.v1:mcdm.heroes.v1/movement/teleport) up to their speed.
 
 **Power Roll + Intuition:**
 
-- **≤11:** 13 + I psychic damage; P < WEAK [frightened](scc:mcdm.heroes.v1/condition/frightened) (save ends)
-- **12-16:** 20 + I psychic damage; P < AVERAGE [frightened](scc:mcdm.heroes.v1/condition/frightened) (save ends)
-- **17+:** 27 + I psychic damage; P < STRONG [frightened](scc:mcdm.heroes.v1/condition/frightened) (save ends)
+- **≤11:** 13 + I psychic damage; P < WEAK [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
+- **12-16:** 20 + I psychic damage; P < AVERAGE [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
+- **17+:** 27 + I psychic damage; P < STRONG [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)

@@ -6,12 +6,12 @@ scc: mcdm.heroes.v1/feature.null.level-5/5th-level-tradition-feature
 type: feature
 ---
 
-Your [null tradition](scc:mcdm.heroes.v1/feature.null.level-1/null-tradition) grants you a feature, as shown on the 5th-Level Tradition Features table.
+Your [null tradition](scc.v1:mcdm.heroes.v1/feature.null.level-1/null-tradition) grants you a feature, as shown on the 5th-Level Tradition Features table.
 
 ###### 5th-Level Tradition Features Table
 
 | Tradition     | Feature            |
 |---------------|--------------------|
-| Chronokinetic | [Instant Action](scc:mcdm.heroes.v1/feature.null.level-5/instant-action)     |
-| Cryokinetic   | [Chilling Readiness](scc:mcdm.heroes.v1/feature.null.level-5/chilling-readiness) |
-| Metakinetic   | [Inertial Fulcrum](scc:mcdm.heroes.v1/feature.null.level-5/inertial-fulcrum)   |
+| Chronokinetic | [Instant Action](scc.v1:mcdm.heroes.v1/feature.null.level-5/instant-action)     |
+| Cryokinetic   | [Chilling Readiness](scc.v1:mcdm.heroes.v1/feature.null.level-5/chilling-readiness) |
+| Metakinetic   | [Inertial Fulcrum](scc.v1:mcdm.heroes.v1/feature.null.level-5/inertial-fulcrum)   |

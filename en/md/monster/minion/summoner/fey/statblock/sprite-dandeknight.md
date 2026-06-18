@@ -39,8 +39,8 @@ Dandeknights are sprite warriors whose dragonfly wingbeats emit a tonal drone. T
 
 > ⭐️ **Staccato Swings**
 >
-> When the dandeknight makes a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike), they can make two [free strikes](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) instead. The damage is added together and treated as a single [strike](scc:mcdm.heroes.v1/rule.combat/strike) if both strikes hit the same target.
+> When the dandeknight makes a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike), they can make two [free strikes](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) instead. The damage is added together and treated as a single [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) if both strikes hit the same target.
 
 > ⭐️ **Minuscule**
 >
-> The dandeknight has [cover](scc:mcdm.heroes.v1/rule.combat/cover) while occupying a larger creature's space.
+> The dandeknight has [cover](scc.v1:mcdm.heroes.v1/rule.combat/cover) while occupying a larger creature's space.

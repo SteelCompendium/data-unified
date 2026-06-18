@@ -35,8 +35,8 @@ The orchiguard is a sprite surrounded by a wheel of shields. They are usually cr
 
 > ⭐️ **Fairy Guard**
 >
-> Each non-orchiguard ally takes half damage from abilities while within 1 square of the orchiguard. Whenever the orchiguard reduces damage this way, they take damage equal to half their maximum [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) and their [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) damage increases by 1.
+> Each non-orchiguard ally takes half damage from abilities while within 1 square of the orchiguard. Whenever the orchiguard reduces damage this way, they take damage equal to half their maximum [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) and their [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) damage increases by 1.
 
 > ⭐️ **Minuscule**
 >
-> The orchiguard has [cover](scc:mcdm.heroes.v1/rule.combat/cover) while occupying a larger creature's space.
+> The orchiguard has [cover](scc.v1:mcdm.heroes.v1/rule.combat/cover) while occupying a larger creature's space.

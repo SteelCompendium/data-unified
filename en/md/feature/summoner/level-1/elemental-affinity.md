@@ -6,4 +6,4 @@ scc: mcdm.summoner.v1/feature.summoner.level-1/elemental-affinity
 type: feature
 ---
 
-Whenever you use [Call Forth](scc:mcdm.summoner.v1/feature.ability.summoner.level-1/call-forth) to summon one or more non-signature elemental minions, you can summon one bonus signature minion at no cost. You can choose between a signature minion that shares an Element keyword with the minions you summoned (such as Fire, Earth, or Air) or an elemental mote.
+Whenever you use [Call Forth](scc.v1:mcdm.summoner.v1/feature.ability.summoner.level-1/call-forth) to summon one or more non-signature elemental minions, you can summon one bonus signature minion at no cost. You can choose between a signature minion that shares an Element keyword with the minions you summoned (such as Fire, Earth, or Air) or an elemental mote.

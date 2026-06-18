@@ -6,4 +6,4 @@ scc: mcdm.heroes.v1/feature.conduit.level-1/healing-grace
 type: feature
 ---
 
-You have the following ability, which you can use once on your [turn](scc:mcdm.heroes.v1/rule.combat/turn).
+You have the following ability, which you can use once on your [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn).

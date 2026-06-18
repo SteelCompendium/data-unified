@@ -40,12 +40,12 @@ type: statblock
 > **Power Roll + 3:**
 >
 > - **≤11:** 10 damage
-> - **12-16:** 15 damage; M < 1 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
-> - **17+:** 18 damage; M < 2 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
+> - **12-16:** 15 damage; M < 1 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
+> - **17+:** 18 damage; M < 2 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
 >
 > **Effect:** Locratix deals 6 damage to each creature or object in a 2 x 1 line behind the target.
 
-> 🔳 **Acidic Stun (2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
+> 🔳 **Acidic Stun (2 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Area, Magic**            |               **Main action** |
 > |----------------------------|------------------------------:|
@@ -53,11 +53,11 @@ type: statblock
 >
 > **Power Roll + 3:**
 >
-> - **≤11:** 7 acid damage; M < 1 [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)
-> - **12-16:** 12 acid damage; M < 2 [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)
-> - **17+:** 15 acid damage; M < 3 [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)
+> - **≤11:** 7 acid damage; M < 1 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
+> - **12-16:** 12 acid damage; M < 2 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
+> - **17+:** 15 acid damage; M < 3 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
 >
-> **Effect:** While [dazed](scc:mcdm.heroes.v1/condition/dazed) this way, a target takes an extra 6 damage from Locratix's abilities.
+> **Effect:** While [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) this way, a target takes an extra 6 damage from Locratix's abilities.
 
 > 👤 **Takeoff**
 >
@@ -65,7 +65,7 @@ type: statblock
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
-> **Effect:** Locratix [flies](scc:mcdm.heroes.v1/movement/fly) up to her speed. Any creature [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the space on the ground she took off from who has A < 2 is knocked [prone](scc:mcdm.heroes.v1/condition/prone).
+> **Effect:** Locratix [flies](scc.v1:mcdm.heroes.v1/movement/fly) up to her speed. Any creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the space on the ground she took off from who has A < 2 is knocked [prone](scc.v1:mcdm.heroes.v1/condition/prone).
 
 > ❗️ **Stay Back!**
 >
@@ -73,7 +73,7 @@ type: statblock
 > |----------------|-------------------------------:|
 > | **📏 Melee 2** | **🎯 The triggering creature** |
 >
-> **Trigger:** A creature within distance moves or is [force moved](scc:mcdm.heroes.v1/movement/forced-movement).
+> **Trigger:** A creature within distance moves or is [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement).
 >
 > **Power Roll + 3:**
 >
@@ -83,7 +83,7 @@ type: statblock
 
 > ⭐️ **Flighty**
 >
-> When Locratix deals rolled damage to an enemy, that enemy can't use Locratix as the trigger for any of their [triggered actions](scc:mcdm.heroes.v1/rule.combat/triggered-action) until the start of Locratix's next turn.
+> When Locratix deals rolled damage to an enemy, that enemy can't use Locratix as the trigger for any of their [triggered actions](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action) until the start of Locratix's next turn.
 
 > ⭐️ **Absorbing Scales**
 >

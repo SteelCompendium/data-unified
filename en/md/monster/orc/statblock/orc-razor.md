@@ -28,7 +28,7 @@ with_captain: +1 damage bonus to strikes
 | **-**<br>Immunity | **-**<br>Movement |        -         | **+1 damage bonus to strikes**<br>With Captain |   **-**<br>Weakness   |
 |  **+2**<br>Might  | **+1**<br>Agility | **0**<br>Reason  |               **0**<br>Intuition               |   **0**<br>Presence   |
 
-> 🏹 **Boot and Blade ([Signature Ability](scc:mcdm.heroes.v1/rule.combat/signature-ability))**
+> 🏹 **Boot and Blade ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
 > | **Melee, Strike, Weapon** |                          **Main action** |
 > |---------------------------|-----------------------------------------:|
@@ -37,11 +37,11 @@ with_captain: +1 damage bonus to strikes
 > **Power Roll + 2:**
 >
 > - **≤11:** 2 damage
-> - **12-16:** 4 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 3
-> - **17+:** 5 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 3 or [prone](scc:mcdm.heroes.v1/condition/prone)
+> - **12-16:** 4 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3
+> - **17+:** 5 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3 or [prone](scc.v1:mcdm.heroes.v1/condition/prone)
 >
-> **Effect:** The razor gains an edge against any target affected by a [condition](scc:mcdm.heroes.v1/rule.combat/condition).
+> **Effect:** The razor gains an edge against any target affected by a [condition](scc.v1:mcdm.heroes.v1/rule.combat/condition).
 
 > ⭐️ **Bloodfire Burn**
 >
-> If the razor is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), they can make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) before dying.
+> If the razor is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), they can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) before dying.

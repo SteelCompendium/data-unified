@@ -33,11 +33,11 @@ weaknesses:
 
 > ☠️ **Solo Monster**
 >
-> **[End Effect](scc:mcdm.monsters.v1/rule.monster/end-effect):** At the end of each of their turns, the lich can take 20 damage to end one effect on them that can be ended by a [saving throw](scc:mcdm.heroes.v1/rule.general/saving-throw). This damage can't be reduced in any way.
+> **[End Effect](scc.v1:mcdm.monsters.v1/rule.monster/end-effect):** At the end of each of their turns, the lich can take 20 damage to end one effect on them that can be ended by a [saving throw](scc.v1:mcdm.heroes.v1/rule.general/saving-throw). This damage can't be reduced in any way.
 >
 > **Solo Turns:** The lich can take two turns each round. They can't take turns consecutively.
 
-> 🏹 **Conflagration ([Signature Ability](scc:mcdm.heroes.v1/rule.combat/signature-ability))**
+> 🏹 **Conflagration ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
 > | **Magic, Ranged, Strike** |                 **Main action** |
 > |---------------------------|--------------------------------:|
@@ -63,9 +63,9 @@ weaknesses:
 > - **12-16:** 13 corruption damage; P < 5 the target is hopeless (save ends)
 > - **17+:** 16 corruption damage; P < 6 the target is hopeless (save ends)
 >
-> **Effect:** A hopeless creature can't benefit from edges or double edges, can't gain or use [surges](scc:mcdm.heroes.v1/rule.resource/surge), and can't gain temporary [Stamina](scc:mcdm.heroes.v1/rule.health/stamina).
+> **Effect:** A hopeless creature can't benefit from edges or double edges, can't gain or use [surges](scc.v1:mcdm.heroes.v1/rule.resource/surge), and can't gain temporary [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).
 >
-> **3 Malice:** The distance of this ability increases to a 20 burst and its [potency](scc:mcdm.heroes.v1/rule.character/potency) increases by 1.
+> **3 Malice:** The distance of this ability increases to a 20 burst and its [potency](scc.v1:mcdm.heroes.v1/rule.character/potency) increases by 1.
 
 > 🏹 **Pain Unending (2 Malice)**
 >
@@ -83,7 +83,7 @@ weaknesses:
 >
 > **3 Malice:** The lich chooses one additional target.
 >
-> **2+ Malice:** Each creature wracked with pain gains one of the following conditions of the lich's choice for each 2 Malice spent: [bleeding](scc:mcdm.heroes.v1/condition/bleeding), [slowed](scc:mcdm.heroes.v1/condition/slowed), or [prone](scc:mcdm.heroes.v1/condition/prone) and can't stand. These conditions end when a creature is no longer wracked with pain.
+> **2+ Malice:** Each creature wracked with pain gains one of the following conditions of the lich's choice for each 2 Malice spent: [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding), [slowed](scc.v1:mcdm.heroes.v1/condition/slowed), or [prone](scc.v1:mcdm.heroes.v1/condition/prone) and can't stand. These conditions end when a creature is no longer wracked with pain.
 
 > 👤 **Necrotic Form**
 >
@@ -91,11 +91,11 @@ weaknesses:
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 > 
-> **Effect:** The lich becomes spectral, moves up to their speed, and becomes corporeal again. While spectral, the lich automatically ends the [grabbed](scc:mcdm.heroes.v1/condition/grabbed) or [restrained](scc:mcdm.heroes.v1/condition/restrained) conditions, has damage immunity 5, can move through solid matter, and ignores [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain). If the lich ends this movement inside solid matter, they are shunted out into the space from which they entered it.
+> **Effect:** The lich becomes spectral, moves up to their speed, and becomes corporeal again. While spectral, the lich automatically ends the [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) or [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) conditions, has damage immunity 5, can move through solid matter, and ignores [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain). If the lich ends this movement inside solid matter, they are shunted out into the space from which they entered it.
 
 > ❗️ **Baleful Swap (2 Malice)**
 >
-> | **Ranged**       | **[Triggered Action](scc:mcdm.heroes.v1/rule.combat/triggered-action)** |
+> | **Ranged**       | **[Triggered Action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |
 > |------------------|---------------------:|
 > | **📏 Ranged 10** |     **🎯 One enemy** |
 >
@@ -105,23 +105,23 @@ weaknesses:
 
 > ⭐️ **Herald of Oblivion**
 >
-> In the lich's presence, death's call is stronger. Any [winded](scc:mcdm.heroes.v1/rule.health/winded) creature within 5 squares of the lich is [bleeding](scc:mcdm.heroes.v1/condition/bleeding) and can't use the Catch Breath maneuver.
+> In the lich's presence, death's call is stronger. Any [winded](scc.v1:mcdm.heroes.v1/rule.health/winded) creature within 5 squares of the lich is [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) and can't use the Catch Breath maneuver.
 
 > ⭐️ **Glare of Undeath**
 >
-> At the start of each round, the lich chooses a creature within 10 squares. If that creature has R < 4, they are [restrained](scc:mcdm.heroes.v1/condition/restrained) until the end of the lich's next turn. The lich can't choose the same creature two rounds in a row.
+> At the start of each round, the lich chooses a creature within 10 squares. If that creature has R < 4, they are [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) until the end of the lich's next turn. The lich can't choose the same creature two rounds in a row.
 
 > ⭐️ **Rejuvenation**
 >
-> The lich has a soulstone, which has 50 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) and damage immunity all except to sonic damage and holy damage. If the lich is destroyed while their soulstone is intact, their soul retreats into the soulstone. Any creature who has P < 5 and who moves within 5 squares of an inhabited soulstone for the first time in a round or starts their turn there is compelled (save ends). A compelled creature must do everything in their power to move toward and touch the soulstone.
+> The lich has a soulstone, which has 50 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) and damage immunity all except to sonic damage and holy damage. If the lich is destroyed while their soulstone is intact, their soul retreats into the soulstone. Any creature who has P < 5 and who moves within 5 squares of an inhabited soulstone for the first time in a round or starts their turn there is compelled (save ends). A compelled creature must do everything in their power to move toward and touch the soulstone.
 >
 > A creature who touches an inhabited soulstone makes a **Might test** that takes a bane.
 >
-> - **≤11:** The creature is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) and the lich manifests [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the soulstone with full [Stamina](scc:mcdm.heroes.v1/rule.health/stamina).
-> - **12-16:** The creature is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) and the lich manifests [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the soulstone with 300 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina).
-> - **17+:** The creature has their [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) reduced to their [winded](scc:mcdm.heroes.v1/rule.health/winded) value unless it is already lower, and the lich manifests [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the soulstone with 100 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina).
+> - **≤11:** The creature is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) and the lich manifests [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the soulstone with full [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).
+> - **12-16:** The creature is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) and the lich manifests [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the soulstone with 300 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).
+> - **17+:** The creature has their [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) reduced to their [winded](scc.v1:mcdm.heroes.v1/rule.health/winded) value unless it is already lower, and the lich manifests [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the soulstone with 100 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).
 
-> ☠️ **Cages of Wasting ([Villain Action](scc:mcdm.monsters.v1/rule.monster/villain-action) 1)**
+> ☠️ **Cages of Wasting ([Villain Action](scc.v1:mcdm.monsters.v1/rule.monster/villain-action) 1)**
 >
 > | **Area, Magic, Ranged**      |                            **-** |
 > |------------------------------|---------------------------------:|
@@ -129,13 +129,13 @@ weaknesses:
 >
 > **Effect:** Each target makes an Agility test.
 >
-> - **≤11:** 10 corruption damage; [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)
-> - **12-16:** 16 corruption damage; [restrained](scc:mcdm.heroes.v1/condition/restrained) (EoT)
+> - **≤11:** 10 corruption damage; [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
+> - **12-16:** 16 corruption damage; [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (EoT)
 > - **17+:** 20 corruption damage
 >
-> **Effect:** The lich deals an additional 10 corruption damage to each creature [restrained](scc:mcdm.heroes.v1/condition/restrained) this way.
+> **Effect:** The lich deals an additional 10 corruption damage to each creature [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) this way.
 
-> ☠️ **My Power Alone ([Villain Action](scc:mcdm.monsters.v1/rule.monster/villain-action) 2)**
+> ☠️ **My Power Alone ([Villain Action](scc.v1:mcdm.monsters.v1/rule.monster/villain-action) 2)**
 >
 > | **Area, Magic** |                         **-** |
 > |-----------------|------------------------------:|
@@ -143,7 +143,7 @@ weaknesses:
 >
 > **Effect:** A target can't use heroic abilities until the start of the lich's next turn.
 
-> ☠️ **Arms of Necrosis ([Villain Action](scc:mcdm.monsters.v1/rule.monster/villain-action) 3)**
+> ☠️ **Arms of Necrosis ([Villain Action](scc.v1:mcdm.monsters.v1/rule.monster/villain-action) 3)**
 >
 > | **Area, Magic** |                            **-** |
 > |-----------------|---------------------------------:|
@@ -151,8 +151,8 @@ weaknesses:
 >
 > **Power Roll + 5:**
 >
-> - **≤11:** 8 corruption damage; A < 4 [frightened](scc:mcdm.heroes.v1/condition/frightened) (save ends)
-> - **12-16:** 13 corruption damage; A < 5 [frightened](scc:mcdm.heroes.v1/condition/frightened) (save ends)
-> - **17+:** 16 corruption damage; A < 6 [frightened](scc:mcdm.heroes.v1/condition/frightened) (save ends)
+> - **≤11:** 8 corruption damage; A < 4 [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
+> - **12-16:** 13 corruption damage; A < 5 [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
+> - **17+:** 16 corruption damage; A < 6 [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
 >
-> **Effect:** At the end of each of the lich's turns, they regain 10 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) for each creature [frightened](scc:mcdm.heroes.v1/condition/frightened) this way.
+> **Effect:** At the end of each of the lich's turns, they regain 10 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) for each creature [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) this way.

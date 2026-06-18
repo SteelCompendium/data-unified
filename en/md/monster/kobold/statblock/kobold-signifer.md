@@ -39,22 +39,22 @@ type: statblock
 > - **12-16:** 4 damage
 > - **17+:** 5 damage
 >
-> **Effect:** One ally within 10 squares of the signifer can [shift](scc:mcdm.heroes.v1/movement/shifting) up to their speed if they end that shift [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to an ally.
+> **Effect:** One ally within 10 squares of the signifer can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed if they end that shift [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to an ally.
 >
-> **2+ [Malice](scc:mcdm.monsters.v1/rule.monster/malice):** One additional ally can [shift](scc:mcdm.heroes.v1/movement/shifting) for each 2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice) spent.
+> **2+ [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice):** One additional ally can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) for each 2 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice) spent.
 
-> ❇️ **Glory to the Legion (5 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
+> ❇️ **Glory to the Legion (5 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Area**       |                 **Maneuver** |
 > |----------------|-----------------------------:|
 > | **📏 5 burst** | **🎯 Each ally in the area** |
 >
-> **Effect:** Each target regains 5 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina).
+> **Effect:** Each target regains 5 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).
 
 > ⭐️ **Shield? Shield!**
 >
-> While [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to an ally who also has this trait, the signifer has stability 1, has cover, and grants cover to allies.
+> While [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to an ally who also has this trait, the signifer has stability 1, has cover, and grants cover to allies.
 
 > ⭐️ **Upholding High Standards**
 >
-> Any ally who starts their turn within 5 squares of the signifer gains a +2 bonus to speed and a +2 damage bonus to strikes until the end of their turn. Additionally, if the signifer is killed, any kobold [minion](scc:mcdm.monsters.v1/rule.organization/minion) can enter their space during the same encounter to retrieve the signum battle standard they carry (no action required) and replace their stat block with the signifer stat block.
+> Any ally who starts their turn within 5 squares of the signifer gains a +2 bonus to speed and a +2 damage bonus to strikes until the end of their turn. Additionally, if the signifer is killed, any kobold [minion](scc.v1:mcdm.monsters.v1/rule.organization/minion) can enter their space during the same encounter to retrieve the signum battle standard they carry (no action required) and replace their stat block with the signifer stat block.

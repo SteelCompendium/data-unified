@@ -39,9 +39,9 @@ type: statblock
 >
 > - **≤11:** 10 damage
 > - **12-16:** 15 damage
-> - **17+:** 18 fire damage; R < 3 [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)
+> - **17+:** 18 fire damage; R < 3 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
 >
-> **Effect:** The magistrate [shifts](scc:mcdm.heroes.v1/movement/shifting) up to 3 squares before or after using this ability, or between each strike.
+> **Effect:** The magistrate [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to 3 squares before or after using this ability, or between each strike.
 
 > 🗡 **Verdict**
 >
@@ -55,7 +55,7 @@ type: statblock
 > - **12-16:** 17 damage
 > - **17+:** 21 damage
 >
-> **Effect:** This ability has a double [edge](scc:mcdm.heroes.v1/rule.dice/edge) if the magistrate was hidden from the target, and deals an extra 5 damage if the target is [dazed](scc:mcdm.heroes.v1/condition/dazed).
+> **Effect:** This ability has a double [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) if the magistrate was hidden from the target, and deals an extra 5 damage if the target is [dazed](scc.v1:mcdm.heroes.v1/condition/dazed).
 
 > 👤 **Justice Turns Its Gaze**
 >
@@ -63,9 +63,9 @@ type: statblock
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
-> **Effect:** The magistrate turns invisible until the start of their next turn, and can attempt to hide as a [free maneuver](scc:mcdm.heroes.v1/rule.combat/free-maneuver) before the end of the current turn.
+> **Effect:** The magistrate turns invisible until the start of their next turn, and can attempt to hide as a [free maneuver](scc.v1:mcdm.heroes.v1/rule.combat/free-maneuver) before the end of the current turn.
 
-> ❗️ **Devilish Charm (2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
+> ❗️ **Devilish Charm (2 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Magic, Ranged** |           **Triggered action** |
 > |-------------------|-------------------------------:|
@@ -77,12 +77,12 @@ type: statblock
 >
 > - **≤11:** The magistrate chooses a new target for the strike.
 > - **12-16:** The magistrate halves the triggering damage.
-> - **17+:** The target takes a [bane](scc:mcdm.heroes.v1/rule.dice/bane) on the strike.
+> - **17+:** The target takes a [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) on the strike.
 
 > ⭐️ **Leading**
 >
-> Whenever the magistrate moves away from an enemy who is [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to one of the magistrate's allies, they can [shift](scc:mcdm.heroes.v1/movement/shifting) instead.
+> Whenever the magistrate moves away from an enemy who is [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to one of the magistrate's allies, they can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) instead.
 
 > ⭐️ **True Name**
 >
-> If a creature within 10 squares speaks the magistrate's true name, the magistrate loses their damage immunities, any nondamaging effects of their [signature ability](scc:mcdm.heroes.v1/rule.combat/signature-ability), and their Devilish Charm ability until the end of the encounter.
+> If a creature within 10 squares speaks the magistrate's true name, the magistrate loses their damage immunities, any nondamaging effects of their [signature ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability), and their Devilish Charm ability until the end of the encounter.

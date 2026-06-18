@@ -39,11 +39,11 @@ weaknesses:
 >
 > - **≤11:** 9 cold, fire, or sonic damage
 > - **12-16:** 11 cold, fire, or sonic damage
-> - **17+:** 13 cold, fire, or sonic damage; M < 4 [bleeding](scc:mcdm.heroes.v1/condition/bleeding), [dazed](scc:mcdm.heroes.v1/condition/dazed), or [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
+> - **17+:** 13 cold, fire, or sonic damage; M < 4 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding), [dazed](scc.v1:mcdm.heroes.v1/condition/dazed), or [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
 >
 > **Special:** After making the power roll, the chimeron decides what damage type the ability deals and which condition it imposes.
 
-> ❗️ **Pain Absorption (1 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
+> ❗️ **Pain Absorption (1 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **-**       | **Triggered action** |
 > |-------------|---------------------:|
@@ -55,7 +55,7 @@ weaknesses:
 
 > ⭐️ **Lethe**
 >
-> While the chimeron is [winded](scc:mcdm.heroes.v1/rule.health/winded), they gain an [edge](scc:mcdm.heroes.v1/rule.dice/edge) on strikes, and any strike made against them gains an edge.
+> While the chimeron is [winded](scc.v1:mcdm.heroes.v1/rule.health/winded), they gain an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on strikes, and any strike made against them gains an edge.
 
 > ⭐️ **Soulsight**
 >

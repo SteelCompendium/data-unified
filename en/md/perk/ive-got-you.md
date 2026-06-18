@@ -5,4 +5,4 @@ scc: mcdm.heroes.v1/perk/ive-got-you
 type: perk
 ---
 
-Whenever a willing ally falls and would land on you or [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to you, you can safely catch them as a free [triggered action](scc:mcdm.heroes.v1/rule.combat/triggered-action). Neither of you takes damage from the ally's fall.
+Whenever a willing ally falls and would land on you or [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to you, you can safely catch them as a free [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action). Neither of you takes damage from the ally's fall.

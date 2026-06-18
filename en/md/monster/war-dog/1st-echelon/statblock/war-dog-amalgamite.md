@@ -28,7 +28,7 @@ type: statblock
 |      **-**<br>Immunity      | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |       **+2**<br>Might       | **0**<br>Agility  |  **0**<br>Reason  |  **0**<br>Intuition   |  **0**<br>Presence   |
 
-> 🗡 **Several Arms ([Signature Ability](scc:mcdm.heroes.v1/rule.combat/signature-ability))**
+> 🗡 **Several Arms ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
 > | **Melee, Strike, Weapon** |                 **Main action** |
 > |---------------------------|--------------------------------:|
@@ -37,12 +37,12 @@ type: statblock
 > **Power Roll + 2:**
 >
 > - **≤11:** 4 damage
-> - **12-16:** 5 damage; A < 1 [grabbed](scc:mcdm.heroes.v1/condition/grabbed)
-> - **17+:** 6 damage; A < 2 [grabbed](scc:mcdm.heroes.v1/condition/grabbed)
+> - **12-16:** 5 damage; A < 1 [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)
+> - **17+:** 6 damage; A < 2 [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)
 >
-> **Effect:** The amalgamite can have up to four targets [grabbed](scc:mcdm.heroes.v1/condition/grabbed) at once.
+> **Effect:** The amalgamite can have up to four targets [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) at once.
 >
-> **3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice):** The amalgamite deals 3 damage to each creature [grabbed](scc:mcdm.heroes.v1/condition/grabbed) this way or who they already have [grabbed](scc:mcdm.heroes.v1/condition/grabbed), and regains [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) equal to the damage dealt.
+> **3 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice):** The amalgamite deals 3 damage to each creature [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) this way or who they already have [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed), and regains [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) equal to the damage dealt.
 
 > 🏹 **Posthumous Promotion**
 >
@@ -50,8 +50,8 @@ type: statblock
 > |-------------------|-------------------:|
 > | **📏 Ranged 10**  | **🎯 One war dog** |
 >
-> **Effect:** If the target has a loyalty collar, they are reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina).
+> **Effect:** If the target has a loyalty collar, they are reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).
 
 > ⭐️ **Loyalty Collar**
 >
-> When the amalgamite is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), their loyalty collar explodes, dealing 1d6 damage to each [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) enemy and object.
+> When the amalgamite is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), their loyalty collar explodes, dealing 1d6 damage to each [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) enemy and object.

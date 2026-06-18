@@ -6,4 +6,4 @@ scc: mcdm.heroes.v1/feature.conduit.level-2/the-lists-of-heaven
 type: feature
 ---
 
-Your deity is aware of your growing influence, making it easier to draw their attention and power when you heal your allies. Whenever you allow another creature to spend a [Recovery](scc:mcdm.heroes.v1/rule.health/recoveries), you can also spend a [Recovery](scc:mcdm.heroes.v1/rule.health/recoveries).
+Your deity is aware of your growing influence, making it easier to draw their attention and power when you heal your allies. Whenever you allow another creature to spend a [Recovery](scc.v1:mcdm.heroes.v1/rule.health/recoveries), you can also spend a [Recovery](scc.v1:mcdm.heroes.v1/rule.health/recoveries).

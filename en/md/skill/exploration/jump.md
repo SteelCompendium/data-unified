@@ -4,4 +4,4 @@ scc: mcdm.heroes.v1/skill.exploration/jump
 type: skill
 ---
 
-Leap vertical and horizontal [distances](scc:mcdm.heroes.v1/rule.combat/distance).
+Leap vertical and horizontal [distances](scc.v1:mcdm.heroes.v1/rule.combat/distance).

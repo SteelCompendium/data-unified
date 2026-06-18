@@ -2,36 +2,36 @@
 action_type: Main action
 class: shadow
 cost: 9 Insight
-distance: '[Melee](scc:mcdm.heroes.v1/rule.combat/melee) 1'
-effect: A creature [force moved](scc:mcdm.heroes.v1/movement/forced-movement) by this ability must be moved straight upward.
+distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
+effect: A creature [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement) by this ability must be moved straight upward.
 flavor: Your attack produces a cloud of black ash that launches an enemy into the air.
 keywords:
     - Magic
-    - '[Melee](scc:mcdm.heroes.v1/rule.combat/melee)'
-    - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
+    - '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)'
+    - '[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)'
     - Weapon
 level: "6"
 name: Black Ash Eruption
-power_roll_characteristic: '[Agility](scc:mcdm.heroes.v1/rule.character/agility)'
+power_roll_characteristic: '[Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)'
 scc: mcdm.heroes.v1/feature.ability.shadow.level-6/black-ash-eruption
 target: One creature
-tier1: 3 + A damage; vertical [push](scc:mcdm.heroes.v1/movement/forced-movement) 5
-tier2: 6 + A damage; vertical [push](scc:mcdm.heroes.v1/movement/forced-movement) 10
-tier3: 9 + A damage; vertical [push](scc:mcdm.heroes.v1/movement/forced-movement) 15
+tier1: 3 + A damage; vertical [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5
+tier2: 6 + A damage; vertical [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 10
+tier3: 9 + A damage; vertical [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 15
 type: ability
 ---
 
 
 *Your attack produces a cloud of black ash that launches an enemy into the air.*
 
-| **Magic, [Melee](scc:mcdm.heroes.v1/rule.combat/melee), [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** |     **Main action** |
+| **Magic, [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), Weapon** |     **Main action** |
 |----------------------------------|--------------------:|
-| **📏 [Melee](scc:mcdm.heroes.v1/rule.combat/melee) 1**                   | **🎯 One creature** |
+| **📏 [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1**                   | **🎯 One creature** |
 
-**[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Agility](scc:mcdm.heroes.v1/rule.character/agility):**
+**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility):**
 
-- **≤11:** 3 + A damage; vertical [push](scc:mcdm.heroes.v1/movement/forced-movement) 5
-- **12-16:** 6 + A damage; vertical [push](scc:mcdm.heroes.v1/movement/forced-movement) 10
-- **17+:** 9 + A damage; vertical [push](scc:mcdm.heroes.v1/movement/forced-movement) 15
+- **≤11:** 3 + A damage; vertical [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5
+- **12-16:** 6 + A damage; vertical [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 10
+- **17+:** 9 + A damage; vertical [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 15
 
-**Effect:** A creature [force moved](scc:mcdm.heroes.v1/movement/forced-movement) by this ability must be moved straight upward.
+**Effect:** A creature [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement) by this ability must be moved straight upward.

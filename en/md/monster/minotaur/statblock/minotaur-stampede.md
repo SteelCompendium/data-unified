@@ -30,7 +30,7 @@ with_captain: Gain an edge on strikes
 |          **-**<br>Immunity          | **-**<br>Movement |         -         | **Gain an edge on strikes**<br>With Captain |   **-**<br>Weakness    |
 |           **+5**<br>Might           | **+5**<br>Agility |  **0**<br>Reason  |             **+2**<br>Intuition             |   **-1**<br>Presence   |
 
-> 🗡 **Bull Rush ([Signature Ability](scc:mcdm.heroes.v1/rule.combat/signature-ability))**
+> 🗡 **Bull Rush ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
 > | **Charge, Melee, Strike, Weapon** |                          **Main action** |
 > |-----------------------------------|-----------------------------------------:|
@@ -39,11 +39,11 @@ with_captain: Gain an edge on strikes
 > **Power Roll + 5:**
 >
 > - **≤11:** 4 damage
-> - **12-16:** 7 damage; [prone](scc:mcdm.heroes.v1/condition/prone)
-> - **17+:** 9 damage; [prone](scc:mcdm.heroes.v1/condition/prone); M < 5 can't stand (save ends)
+> - **12-16:** 7 damage; [prone](scc.v1:mcdm.heroes.v1/condition/prone)
+> - **17+:** 9 damage; [prone](scc.v1:mcdm.heroes.v1/condition/prone); M < 5 can't stand (save ends)
 >
-> **Effect:** If this ability is used as part of the Charge main action, each creature the stampede moves through who has M < 4 is knocked [prone](scc:mcdm.heroes.v1/condition/prone).
+> **Effect:** If this ability is used as part of the Charge main action, each creature the stampede moves through who has M < 4 is knocked [prone](scc.v1:mcdm.heroes.v1/condition/prone).
 
 > ⭐️ **Swarm**
 >
-> The stampede can move through spaces as if they were a size 2 creature, and can occupy other creatures' spaces. At the start of each of the stampede's turns, they can make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) against each creature whose space they share.
+> The stampede can move through spaces as if they were a size 2 creature, and can occupy other creatures' spaces. At the start of each of the stampede's turns, they can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against each creature whose space they share.

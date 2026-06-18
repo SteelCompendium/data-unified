@@ -14,16 +14,16 @@ type: treasure
 
 **Keywords:** Light Armor, Magic
 
-**[Item Prerequisite](scc:mcdm.heroes.v1/rule.downtime/item-prerequisite):** Five rabid honey badger pelts, the quills of a hedgehog
+**[Item Prerequisite](scc.v1:mcdm.heroes.v1/rule.downtime/item-prerequisite):** Five rabid honey badger pelts, the quills of a hedgehog
 
-**[Project Source](scc:mcdm.heroes.v1/rule.downtime/project-source):** Texts or lore in Yllyric
+**[Project Source](scc.v1:mcdm.heroes.v1/rule.downtime/project-source):** Texts or lore in Yllyric
 
-**[Project Roll](scc:mcdm.heroes.v1/rule.downtime/project-roll) [Characteristic](scc:mcdm.heroes.v1/rule.character/characteristic):** [Agility](scc:mcdm.heroes.v1/rule.character/agility) or [Intuition](scc:mcdm.heroes.v1/rule.character/intuition)
+**[Project Roll](scc.v1:mcdm.heroes.v1/rule.downtime/project-roll) [Characteristic](scc.v1:mcdm.heroes.v1/rule.character/characteristic):** [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility) or [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)
 
 **Project Goal:** 450
 
-**1st Level:** While you wear this armor, you gain a +6 [bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), and you have immunity to acid and poison damage equal to your highest [characteristic](scc:mcdm.heroes.v1/rule.character/characteristic) score.
+**1st Level:** While you wear this armor, you gain a +6 [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), and you have immunity to acid and poison damage equal to your highest [characteristic](scc.v1:mcdm.heroes.v1/rule.character/characteristic) score.
 
-**5th Level:** The armor's [bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) increases to +12. Additionally, whenever an [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) creature deals damage to you, they take 3 acid or poison damage (your choice).
+**5th Level:** The armor's [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) increases to +12. Additionally, whenever an [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) creature deals damage to you, they take 3 acid or poison damage (your choice).
 
-**9th Level:** The armor's [bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) increases to +21, and an [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) creature who deals damage to you takes 6 acid or poison damage. Additionally, you can use a maneuver to transmute a 2-[cube](scc:mcdm.heroes.v1/rule.combat/cube) area of liquid or gas [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to you into liquid acid or poison gas until the start of your next [turn](scc:mcdm.heroes.v1/rule.combat/turn). Any creature who enters the area for the first time in a [combat round](scc:mcdm.heroes.v1/rule.combat/combat-round) or starts their turn there takes 6 acid or poison damage, as appropriate.
+**9th Level:** The armor's [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) increases to +21, and an [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) creature who deals damage to you takes 6 acid or poison damage. Additionally, you can use a maneuver to transmute a 2-[cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) area of liquid or gas [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to you into liquid acid or poison gas until the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn). Any creature who enters the area for the first time in a [combat round](scc.v1:mcdm.heroes.v1/rule.combat/combat-round) or starts their turn there takes 6 acid or poison damage, as appropriate.

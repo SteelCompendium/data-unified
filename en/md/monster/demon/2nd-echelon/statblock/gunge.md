@@ -37,13 +37,13 @@ weaknesses:
 >
 > **Power Roll + 3:**
 >
-> - **≤11:** 5 acid damage; M < 1 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
-> - **12-16:** 7 acid damage; M < 2 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
-> - **17+:** 9 acid damage; M < 3 [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)
+> - **≤11:** 5 acid damage; M < 1 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
+> - **12-16:** 7 acid damage; M < 2 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
+> - **17+:** 9 acid damage; M < 3 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
 >
-> **Effect:** The ground and any surfaces in the area pool with slime. The slime is [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain) for enemies, and any enemy is [bleeding](scc:mcdm.heroes.v1/condition/bleeding) while in the area.
+> **Effect:** The ground and any surfaces in the area pool with slime. The slime is [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain) for enemies, and any enemy is [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) while in the area.
 
-> ❗️ **Spew Slide (1 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
+> ❗️ **Spew Slide (1 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **-**       | **Free triggered action** |
 > |-------------|--------------------------:|
@@ -51,11 +51,11 @@ weaknesses:
 >
 > **Trigger:** The gunge takes damage from a melee strike.
 >
-> **Effect:** The gunge vomits with great force, letting them [shift](scc:mcdm.heroes.v1/movement/shifting) up to their speed and ignore any additional effects from the strike. The space the gunge occupied before the shift is covered in slime that is [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain) for enemies. Additionally, any enemy is [bleeding](scc:mcdm.heroes.v1/condition/bleeding) while in the slime.
+> **Effect:** The gunge vomits with great force, letting them [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed and ignore any additional effects from the strike. The space the gunge occupied before the shift is covered in slime that is [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain) for enemies. Additionally, any enemy is [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) while in the slime.
 
 > ⭐️ **Lethe**
 >
-> While the gunge is [winded](scc:mcdm.heroes.v1/rule.health/winded), they gain an [edge](scc:mcdm.heroes.v1/rule.dice/edge) on strikes, and any strike made against them gains an edge.
+> While the gunge is [winded](scc.v1:mcdm.heroes.v1/rule.health/winded), they gain an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on strikes, and any strike made against them gains an edge.
 
 > ⭐️ **Soulsight**
 >

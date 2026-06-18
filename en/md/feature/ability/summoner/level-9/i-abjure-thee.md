@@ -2,7 +2,7 @@
 action_type: Main action
 class: summoner
 distance: 3 burst
-effect: Each enemy minion in the area is permanently removed from the encounter map. Up to three non-leader or non-solo enemies in the area are removed from the encounter for 1 [round](scc:mcdm.heroes.v1/rule.combat/combat-round).
+effect: Each enemy minion in the area is permanently removed from the encounter map. Up to three non-leader or non-solo enemies in the area are removed from the encounter for 1 [round](scc.v1:mcdm.heroes.v1/rule.combat/combat-round).
 flavor: Cast those not affixed to this manifold into the void of a minion's existence.
 keywords:
     - Area
@@ -20,6 +20,6 @@ type: ability
 |-----------------|----------------:|
 | **📏 3 burst** | **🎯 Special** |
 
-**Effect:** Each enemy minion in the area is permanently removed from the encounter map. Up to three non-leader or non-solo enemies in the area are removed from the encounter for 1 [round](scc:mcdm.heroes.v1/rule.combat/combat-round).
+**Effect:** Each enemy minion in the area is permanently removed from the encounter map. Up to three non-leader or non-solo enemies in the area are removed from the encounter for 1 [round](scc.v1:mcdm.heroes.v1/rule.combat/combat-round).
 
-A leader or a solo enemy in the area that has R, I, or P < AVERAGE is [weakened](scc:mcdm.heroes.v1/condition/weakened) and [slowed](scc:mcdm.heroes.v1/condition/slowed) ([save ends](scc:mcdm.heroes.v1/rule.general/saving-throw)) as they are partially removed from the manifold. You can increase the [potency](scc:mcdm.heroes.v1/rule.character/potency) by 1 for each of your minions [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the target you choose to sacrifice as a part of using this ability.
+A leader or a solo enemy in the area that has R, I, or P < AVERAGE is [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) and [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) ([save ends](scc.v1:mcdm.heroes.v1/rule.general/saving-throw)) as they are partially removed from the manifold. You can increase the [potency](scc.v1:mcdm.heroes.v1/rule.character/potency) by 1 for each of your minions [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the target you choose to sacrifice as a part of using this ability.

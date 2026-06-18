@@ -37,9 +37,9 @@ with_captain: +1 damage bonus to strikes
 > **Power Roll + 2:**
 >
 > - **≤11:** 3 damage
-> - **12-16:** 4 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 1
-> - **17+:** 6 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 3
+> - **12-16:** 4 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1
+> - **17+:** 6 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3
 
 > ⭐️ **Death Circle**
 >
-> Whenever a non-[minion](scc:mcdm.monsters.v1/rule.organization/minion) ally within 5 squares of the chainflail is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), the chainflail can move up to their speed.
+> Whenever a non-[minion](scc.v1:mcdm.monsters.v1/rule.organization/minion) ally within 5 squares of the chainflail is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), the chainflail can move up to their speed.

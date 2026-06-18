@@ -27,7 +27,7 @@ type: statblock
 | **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+3**<br>Might  | **+3**<br>Agility | **-1**<br>Reason  |  **-2**<br>Intuition  |  **0**<br>Presence   |
 
-> 🗡 **Fuse-Iron Lance ([Signature Ability](scc:mcdm.heroes.v1/rule.combat/signature-ability))**
+> 🗡 **Fuse-Iron Lance ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
 > | **Charge, Melee, Strike, Weapon** |               **Main action** |
 > |-----------------------------------|------------------------------:|
@@ -37,11 +37,11 @@ type: statblock
 >
 > - **≤11:** 6 damage
 > - **12-16:** 8 damage
-> - **17+:** 10 damage; I < 3 [frightened](scc:mcdm.heroes.v1/condition/frightened) (save ends)
+> - **17+:** 10 damage; I < 3 [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
 >
 > **Effect:** This ability gains an edge while charging.
 >
-> **2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice):** The ability deals an extra 3 fire damage to the target and each enemy [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the target.
+> **2 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice):** The ability deals an extra 3 fire damage to the target and each enemy [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the target.
 
 > 🗡 **Blazing Charge**
 >
@@ -49,14 +49,14 @@ type: statblock
 > |---------------------------|---------------:|
 > | **📏 Special; see below** | **🎯 Special** |
 >
-> **Effect:** The equivite moves up to their speed and ignores [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain). Any mundane size 1 object whose space they move through is destroyed. The equivite makes one power roll against each enemy whose space they move through for the first time.
+> **Effect:** The equivite moves up to their speed and ignores [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain). Any mundane size 1 object whose space they move through is destroyed. The equivite makes one power roll against each enemy whose space they move through for the first time.
 >
 > **Power Roll + 3:**
 >
-> - **≤11:** 2 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 1
-> - **12-16:** 4 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 2
-> - **17+:** 5 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 3; M < 3 [prone](scc:mcdm.heroes.v1/condition/prone)
+> - **≤11:** 2 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1
+> - **12-16:** 4 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2
+> - **17+:** 5 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3; M < 3 [prone](scc.v1:mcdm.heroes.v1/condition/prone)
 
 > ⭐️ **Loyalty Collar**
 >
-> When the equivite is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), their loyalty collar explodes, dealing 2d6 damage to each [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) enemy and object.
+> When the equivite is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), their loyalty collar explodes, dealing 2d6 damage to each [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) enemy and object.

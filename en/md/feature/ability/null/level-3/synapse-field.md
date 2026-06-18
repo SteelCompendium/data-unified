@@ -3,8 +3,8 @@ action_type: Maneuver
 class: "null"
 cost: 7 Discipline
 distance: Self
-effect: Until the end of the encounter, the size of your [Null Field](scc:mcdm.heroes.v1/feature.null.level-1/null-field) ability increases by 1. While the area of that ability is enlarged this way, whenever an enemy in the area takes [rolled damage](scc:mcdm.heroes.v1/rule.damage/rolled-damage), they take extra psychic damage equal to twice your [Intuition](scc:mcdm.heroes.v1/rule.character/intuition) score.
-flavor: Attacks made by allies in your [null field](scc:mcdm.heroes.v1/feature.null.level-1/null-field) disrupt your enemies' thoughts, causing psychic pain.
+effect: Until the end of the encounter, the size of your [Null Field](scc.v1:mcdm.heroes.v1/feature.null.level-1/null-field) ability increases by 1. While the area of that ability is enlarged this way, whenever an enemy in the area takes [rolled damage](scc.v1:mcdm.heroes.v1/rule.damage/rolled-damage), they take extra psychic damage equal to twice your [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition) score.
+flavor: Attacks made by allies in your [null field](scc.v1:mcdm.heroes.v1/feature.null.level-1/null-field) disrupt your enemies' thoughts, causing psychic pain.
 keywords:
     - Psionic
 level: "3"
@@ -15,10 +15,10 @@ type: ability
 ---
 
 
-*Attacks made by allies in your [null field](scc:mcdm.heroes.v1/feature.null.level-1/null-field) disrupt your enemies' thoughts, causing psychic pain.*
+*Attacks made by allies in your [null field](scc.v1:mcdm.heroes.v1/feature.null.level-1/null-field) disrupt your enemies' thoughts, causing psychic pain.*
 
 | **Psionic** | **Maneuver** |
 |-------------|-------------:|
 | **📏 Self** |  **🎯 Self** |
 
-**Effect:** Until the end of the encounter, the size of your [Null Field](scc:mcdm.heroes.v1/feature.null.level-1/null-field) ability increases by 1. While the area of that ability is enlarged this way, whenever an enemy in the area takes [rolled damage](scc:mcdm.heroes.v1/rule.damage/rolled-damage), they take extra psychic damage equal to twice your [Intuition](scc:mcdm.heroes.v1/rule.character/intuition) score.
+**Effect:** Until the end of the encounter, the size of your [Null Field](scc.v1:mcdm.heroes.v1/feature.null.level-1/null-field) ability increases by 1. While the area of that ability is enlarged this way, whenever an enemy in the area takes [rolled damage](scc.v1:mcdm.heroes.v1/rule.damage/rolled-damage), they take extra psychic damage equal to twice your [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition) score.

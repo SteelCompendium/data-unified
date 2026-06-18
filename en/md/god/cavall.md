@@ -6,13 +6,13 @@ type: god
 
 **Domains:** Life, Love, Protection, War
 
-Cavall believes that mortals cannot live where injustice thrives. To [followers](scc:mcdm.heroes.v1/rule.general/follower) of Cavall, the unjust society is the Wasted Land, where people live false lives. The concepts of civil law and just punishment are his.
+Cavall believes that mortals cannot live where injustice thrives. To [followers](scc.v1:mcdm.heroes.v1/rule.general/follower) of Cavall, the unjust society is the Wasted Land, where people live false lives. The concepts of civil law and just punishment are his.
 
 A watchhouse chaplain is almost certainly a priest of Cavall. A rector serving a small town may be welcome on the town council, but would consider passing judgment on a fellow citizen a breach of duty. The maxim of the church of Saint Gwiddon the Vigilant translates as: "To watch, report, but not to judge." The law, Cavall says, belongs to mortals.
 
-[Censors](scc:mcdm.heroes.v1/class/censor) of Cavall, on the other hand, have no such motto. The nobility often sponsor knights of Cavall to roam the countryside and dispense justice in remote wilderness areas where the noble's influence cannot reach.
+[Censors](scc.v1:mcdm.heroes.v1/class/censor) of Cavall, on the other hand, have no such motto. The nobility often sponsor knights of Cavall to roam the countryside and dispense justice in remote wilderness areas where the noble's influence cannot reach.
 
-Brother to [Adûn](scc:mcdm.heroes.v1/god/adun) and patron of the country of Corwell, Cavall also believes that people, no matter how vile, can be bettered. "Let the law judge," said Saint Llewellyn, "Let us forgive."
+Brother to [Adûn](scc.v1:mcdm.heroes.v1/god/adun) and patron of the country of Corwell, Cavall also believes that people, no matter how vile, can be bettered. "Let the law judge," said Saint Llewellyn, "Let us forgive."
 
 ##### Llewellyn the Valiant
 
@@ -32,7 +32,7 @@ When Llewellyn slew Ghruk the Trollhag, she cried out, "Follow Melianus!" as she
 
 That night, Llewellyn waited in the stables and, at midnight, Melianus appeared. He mounted his great black warhorse Coalfire and rode. To where, Llewellyn could not guess. But the knight followed the duke as he rode east toward the marsh, he remembered the rumors.
 
-At the edge of the marsh, Coalfire's eyes began to glow with a baleful flame and his mane [burst](scc:mcdm.heroes.v1/rule.combat/burst) into crimson fire. Llewellyn's breath caught in his throat. "A nightmare!" he realized. The rumors were true! The sorcerer had given Melianus a [devil](scc:mcdm.heroes.v1/ancestry/devil) steed.
+At the edge of the marsh, Coalfire's eyes began to glow with a baleful flame and his mane [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst) into crimson fire. Llewellyn's breath caught in his throat. "A nightmare!" he realized. The rumors were true! The sorcerer had given Melianus a [devil](scc.v1:mcdm.heroes.v1/ancestry/devil) steed.
 
 On flaming nightmare hooves was Melianus able to cross the impassable swamp. Llewellyn balked, no one could cross the cursed bog. But Silverheart champed at her bit, pulled on the reins. She would not yield. Placing his trust in his steed, Llewellyn let the reins lie slack, and Silverheart took the lead.
 
@@ -40,15 +40,15 @@ Llewellyn and Silverheart plunged into the bog and though it was night and the m
 
 Looking to the upper window of the tower, Llewellyn saw someone performing a dark ritual. A flash of lightning illuminated the figure. It was Melianus! Melianus was the sorcerer! Llewellyn called out, and the duke descended the tower and mounted his hellsteed. On his shield now—the screaming-skull symbol of Cyrvis, the Lich, god of malice.
 
-Cyrvis had rewarded his loyal servant for years of cruelty, and the figure astride the nightmare was Saint Melianus the Bright. The Dark [Saint](scc:mcdm.heroes.v1/rule.world/saint) charged Llewellyn, his lance gleaming with balefire. Llewellyn and Silverheart returned the charge and the two clashed together, Melianus's blow strong enough to unseat a giant. But Llewellyn was not thrown. His strength was the strength of ten, for his heart was pure.
+Cyrvis had rewarded his loyal servant for years of cruelty, and the figure astride the nightmare was Saint Melianus the Bright. The Dark [Saint](scc.v1:mcdm.heroes.v1/rule.world/saint) charged Llewellyn, his lance gleaming with balefire. Llewellyn and Silverheart returned the charge and the two clashed together, Melianus's blow strong enough to unseat a giant. But Llewellyn was not thrown. His strength was the strength of ten, for his heart was pure.
 
 Coalfire struck with flaming hooves at Silverheart but the destrier struck back, blow for bite and bite for blow. Then the hellsteed, roared and a rotting green flame burned Silverheart's flesh and stole her breath until, choking, she fell to the ground, dead.
 
-Llewellyn's heart [burst](scc:mcdm.heroes.v1/rule.combat/burst). He threw his body over the corpse of his loyal steed, and Melianus's lance pierced his armor, his back, and his heart. Knight and horse, dead. Melianus crowed as the lightning flashed again. But, in that moment, the miracle.
+Llewellyn's heart [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst). He threw his body over the corpse of his loyal steed, and Melianus's lance pierced his armor, his back, and his heart. Knight and horse, dead. Melianus crowed as the lightning flashed again. But, in that moment, the miracle.
 
-Cavall stood between the Dark [Saint](scc:mcdm.heroes.v1/rule.world/saint) and loyal knight. Cavall pulled the lance from Llewellyn's back. "Rise my son, and rise thy steed. Thy work shalt never be done."
+Cavall stood between the Dark [Saint](scc.v1:mcdm.heroes.v1/rule.world/saint) and loyal knight. Cavall pulled the lance from Llewellyn's back. "Rise my son, and rise thy steed. Thy work shalt never be done."
 
-Saint Llewellyn the Valiant and Silverheart his Eversteed rose, immortal, and the battle against evil renewed itself, the two armored [saints](scc:mcdm.heroes.v1/rule.world/saint) clashing on barded steeds.
+Saint Llewellyn the Valiant and Silverheart his Eversteed rose, immortal, and the battle against evil renewed itself, the two armored [saints](scc.v1:mcdm.heroes.v1/rule.world/saint) clashing on barded steeds.
 
 Weeks later, neither having returned, the people of Gant laboriously forded the swamp and found the tower of the sorcerer. The ground
 
@@ -56,7 +56,7 @@ around the tower turned black from the baleful energies unleashed. Though no bod
 
 Llewellyn and Silverheart had rid the people of their cursed, hateful duke.
 
-Saint Llewellyn is Cavall's greatest [saint](scc:mcdm.heroes.v1/rule.world/saint). He teaches that the greatest loyalty is to the well-being of the people, and that it is the responsibility of the strong to protect the weak. That the only proper use of power is in pursuit of justice.
+Saint Llewellyn is Cavall's greatest [saint](scc.v1:mcdm.heroes.v1/rule.world/saint). He teaches that the greatest loyalty is to the well-being of the people, and that it is the responsibility of the strong to protect the weak. That the only proper use of power is in pursuit of justice.
 
 ##### Gwenllian the Fell-Handed
 
@@ -66,7 +66,7 @@ Saint Llewellyn is Cavall's greatest [saint](scc:mcdm.heroes.v1/rule.world/saint
 
 The Red Sun hobgoblins seemed unstoppable. The baron began to think he might need to evacuate the entire barony, else allow his people to be slaughtered. His greatest knights perished against the Red Sun, who wielded some magic that granted them invulnerability.
 
-Then the loremaster came. Zür the wizard, [dwarf](scc:mcdm.heroes.v1/ancestry/dwarf) and master of the Tower of Enchantment arrived. Seeing the need, he opened his tomes and researched what might the hobgoblins might wield. He presented himself to the baron's court with a solution. The Red Sun had found an ancient spring dedicated to a Gol demon-god. The Red Sun hobgoblins had bathed in the spring and awoken the blessing of the demon within and, having bathed in the river, they were now invulnerable.
+Then the loremaster came. Zür the wizard, [dwarf](scc.v1:mcdm.heroes.v1/ancestry/dwarf) and master of the Tower of Enchantment arrived. Seeing the need, he opened his tomes and researched what might the hobgoblins might wield. He presented himself to the baron's court with a solution. The Red Sun had found an ancient spring dedicated to a Gol demon-god. The Red Sun hobgoblins had bathed in the spring and awoken the blessing of the demon within and, having bathed in the river, they were now invulnerable.
 
 Zür believed he could remove the enchantment and rob the Red Sun of their power. But the way to the spring was dangerous and he had no guard. The baron was at a loss, his greatest knights were almost all dead, thanks to the Red Sun.
 
@@ -74,21 +74,21 @@ Zür believed he could remove the enchantment and rob the Red Sun of their power
 
 The baron could not say no to his closest and most loyal knight, and so Lady Gwenllian, daughter of Morwetha, rode out with Zür the Enchanter. "It will take time to perform the ritual," Zür said. "Once I start, the demon will send creatures to stop me. They will be terrible."
 
-Gwenllian swore to defend the [dwarf](scc:mcdm.heroes.v1/ancestry/dwarf) against all who might come for as long as it might take. In later years, Zür professed he felt the weight of her vow and knew the gods were watching. "How long to work your ritual?" she asked, and she could tell the answer would be dire.
+Gwenllian swore to defend the [dwarf](scc.v1:mcdm.heroes.v1/ancestry/dwarf) against all who might come for as long as it might take. In later years, Zür professed he felt the weight of her vow and knew the gods were watching. "How long to work your ritual?" she asked, and she could tell the answer would be dire.
 
 "Ten days," Zür said. "Ten days must I work this weaving without pause or rest or food or water." Dour Gwenllian merely nodded. "So be it."
 
 Arriving at the spring which ran red, Zür prepared his weaving. "You understand," he said coating his hands in a rare powder, "that once we begin, we cannot stop, no matter how horrible the fiends the demon sends at us."
 
-Well-versed in the faith of Ord and the [dwarves](scc:mcdm.heroes.v1/ancestry/dwarf), Gwenllian responded. "Work your ritual, loremaster. And I will make your life worthy of a god's memory."
+Well-versed in the faith of Ord and the [dwarves](scc.v1:mcdm.heroes.v1/ancestry/dwarf), Gwenllian responded. "Work your ritual, loremaster. And I will make your life worthy of a god's memory."
 
 For ten days and nine nights, Zür spoke his weaving and lighting sprang from his fingertips as he grappled with the demon of the spring. And horrors came as he did so.
 
-Creatures unseen in [Orden](scc:mcdm.heroes.v1/rule.world/orden), assemblages of organs, teeth, and claws. Animals with too many legs or too few heads. The dead came, trees that walked whose branches dripped blood came. The tale of all
+Creatures unseen in [Orden](scc.v1:mcdm.heroes.v1/rule.world/orden), assemblages of organs, teeth, and claws. Animals with too many legs or too few heads. The dead came, trees that walked whose branches dripped blood came. The tale of all
 
-detailed in the Lay of Lady Gwenllian. And while the endurance of the [dwarves](scc:mcdm.heroes.v1/ancestry/dwarf) is well documented, Lady Gwenllian did not falter, did not rest.
+detailed in the Lay of Lady Gwenllian. And while the endurance of the [dwarves](scc.v1:mcdm.heroes.v1/ancestry/dwarf) is well documented, Lady Gwenllian did not falter, did not rest.
 
-On the seventh day did a group from the Barony come to tell the [dwarf](scc:mcdm.heroes.v1/ancestry/dwarf) the Red Sun had been defeated. Zür hesitated, but Lady Gwenllian did not. Exhausted, spent, she could not be fooled. She saw through the demon's guise and the men who were not men erupted in tentacles and spines.
+On the seventh day did a group from the Barony come to tell the [dwarf](scc.v1:mcdm.heroes.v1/ancestry/dwarf) the Red Sun had been defeated. Zür hesitated, but Lady Gwenllian did not. Exhausted, spent, she could not be fooled. She saw through the demon's guise and the men who were not men erupted in tentacles and spines.
 
 Lady Gwenllian dispatched them all.
 
@@ -96,4 +96,4 @@ Twelve days after they rode out, Zür returned with Lady Gwenllian's body on her
 
 "I bring you her body," Zür said to the baron. "And one thing more will I do for you. I shall build you a church here. A cathedral worthy of the life of Saint Gwenllian."
 
-Gwenllian is the [saint](scc:mcdm.heroes.v1/rule.world/saint) of those who stand watch, of all those who must carry a burden ceaselessly. Gwenllian teaches that vigilance is its own reward.
+Gwenllian is the [saint](scc.v1:mcdm.heroes.v1/rule.world/saint) of those who stand watch, of all those who must carry a burden ceaselessly. Gwenllian teaches that vigilance is its own reward.

@@ -4,9 +4,9 @@ scc: mcdm.heroes.v1/rule.general/creature
 type: rule
 ---
 
-*Draw Steel* uses the terms "creature" and "object" when referring to the targets of abilities and other effects. [Creatures](scc:mcdm.heroes.v1/rule.general/creature) are living or unliving beings such as animals, elves, [humans](scc:mcdm.heroes.v1/ancestry/human), dragons, giants, zombies, and valok. Objects are inanimate matter such as walls, carriages, cups, swords, ropes, coins, paintings, columns, and buildings.
+*Draw Steel* uses the terms "creature" and "object" when referring to the targets of abilities and other effects. [Creatures](scc.v1:mcdm.heroes.v1/rule.general/creature) are living or unliving beings such as animals, elves, [humans](scc.v1:mcdm.heroes.v1/ancestry/human), dragons, giants, zombies, and valok. Objects are inanimate matter such as walls, carriages, cups, swords, ropes, coins, paintings, columns, and buildings.
 
-When a creature dies, their body becomes an object, and is affected by abilities and other effects as an object, not a creature. For example, an [elementalist](scc:mcdm.heroes.v1/class/elementalist) can't use their [Return to Formlessness](scc:mcdm.heroes.v1/feature.ability.elementalist.level-1/return-to-formlessness) ability to set an enemy cult leader on fire. But if that leader dies, the [elementalist](scc:mcdm.heroes.v1/class/elementalist) can immolate their body to prevent them from being raised as a powerful undead by the temple's magic.
+When a creature dies, their body becomes an object, and is affected by abilities and other effects as an object, not a creature. For example, an [elementalist](scc.v1:mcdm.heroes.v1/class/elementalist) can't use their [Return to Formlessness](scc.v1:mcdm.heroes.v1/feature.ability.elementalist.level-1/return-to-formlessness) ability to set an enemy cult leader on fire. But if that leader dies, the [elementalist](scc.v1:mcdm.heroes.v1/class/elementalist) can immolate their body to prevent them from being raised as a powerful undead by the temple's magic.
 
 #### Unattended Objects
 

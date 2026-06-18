@@ -1,10 +1,10 @@
 ---
 flavor: You can sing, act, or dance well enough that people actually pay you to do it. Imagine that!
 name: Performer
-perk: One interpersonal perk (*Quick Build:* [Harmonizer](scc:mcdm.heroes.v1/perk/harmonizer).)
+perk: One interpersonal perk (*Quick Build:* [Harmonizer](scc.v1:mcdm.heroes.v1/perk/harmonizer).)
 scc: mcdm.heroes.v1/career/performer
 skills:
-    - The [Music](scc:mcdm.heroes.v1/skill.interpersonal/music) or [Perform](scc:mcdm.heroes.v1/skill.interpersonal/perform) skill (from the [interpersonal skill group](scc:mcdm.heroes.v1/skill.group/interpersonal)), plus two more skills from the [interpersonal group](scc:mcdm.heroes.v1/skill.group/interpersonal) (*Quick Build:* [Flirt](scc:mcdm.heroes.v1/skill.interpersonal/flirt), [Music](scc:mcdm.heroes.v1/skill.interpersonal/music), [Perform](scc:mcdm.heroes.v1/skill.interpersonal/perform).)
+    - The [Music](scc.v1:mcdm.heroes.v1/skill.interpersonal/music) or [Perform](scc.v1:mcdm.heroes.v1/skill.interpersonal/perform) skill (from the [interpersonal skill group](scc.v1:mcdm.heroes.v1/skill.group/interpersonal)), plus two more skills from the [interpersonal group](scc.v1:mcdm.heroes.v1/skill.group/interpersonal) (*Quick Build:* [Flirt](scc.v1:mcdm.heroes.v1/skill.interpersonal/flirt), [Music](scc.v1:mcdm.heroes.v1/skill.interpersonal/music), [Perform](scc.v1:mcdm.heroes.v1/skill.interpersonal/perform).)
 type: career
 ---
 
@@ -17,11 +17,11 @@ You can sing, act, or dance well enough that people actually pay you to do it. I
 
 You gain the following career benefits:
 
-**Skills:** The [Music](scc:mcdm.heroes.v1/skill.interpersonal/music) or [Perform](scc:mcdm.heroes.v1/skill.interpersonal/perform) skill (from the [interpersonal skill group](scc:mcdm.heroes.v1/skill.group/interpersonal)), plus two more skills from the [interpersonal group](scc:mcdm.heroes.v1/skill.group/interpersonal) (*Quick Build:* [Flirt](scc:mcdm.heroes.v1/skill.interpersonal/flirt), [Music](scc:mcdm.heroes.v1/skill.interpersonal/music), [Perform](scc:mcdm.heroes.v1/skill.interpersonal/perform).)
+**Skills:** The [Music](scc.v1:mcdm.heroes.v1/skill.interpersonal/music) or [Perform](scc.v1:mcdm.heroes.v1/skill.interpersonal/perform) skill (from the [interpersonal skill group](scc.v1:mcdm.heroes.v1/skill.group/interpersonal)), plus two more skills from the [interpersonal group](scc.v1:mcdm.heroes.v1/skill.group/interpersonal) (*Quick Build:* [Flirt](scc.v1:mcdm.heroes.v1/skill.interpersonal/flirt), [Music](scc.v1:mcdm.heroes.v1/skill.interpersonal/music), [Perform](scc.v1:mcdm.heroes.v1/skill.interpersonal/perform).)
 
-**[Renown](scc:mcdm.heroes.v1/rule.resource/renown):** +2
+**[Renown](scc.v1:mcdm.heroes.v1/rule.resource/renown):** +2
 
-**Perk:** One interpersonal perk (*Quick Build:* [Harmonizer](scc:mcdm.heroes.v1/perk/harmonizer).)
+**Perk:** One interpersonal perk (*Quick Build:* [Harmonizer](scc.v1:mcdm.heroes.v1/perk/harmonizer).)
 
 | d6 | Inciting Incident                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 |----|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

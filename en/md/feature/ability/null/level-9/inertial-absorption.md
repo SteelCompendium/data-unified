@@ -3,7 +3,7 @@ action_type: Free triggered
 class: "null"
 cost: 11 Discipline
 distance: Self
-effect: You take half the damage, negate any effects associated with the damage for you, and gain 3 [surges](scc:mcdm.heroes.v1/rule.resource/surge).
+effect: You take half the damage, negate any effects associated with the damage for you, and gain 3 [surges](scc.v1:mcdm.heroes.v1/rule.resource/surge).
 flavor: You absorb an attack to empower your body.
 keywords:
     - Psionic
@@ -25,4 +25,4 @@ type: ability
 
 **Trigger:** Another creature damages you using an ability.
 
-**Effect:** You take half the damage, negate any effects associated with the damage for you, and gain 3 [surges](scc:mcdm.heroes.v1/rule.resource/surge).
+**Effect:** You take half the damage, negate any effects associated with the damage for you, and gain 3 [surges](scc.v1:mcdm.heroes.v1/rule.resource/surge).

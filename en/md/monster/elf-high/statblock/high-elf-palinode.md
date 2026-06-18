@@ -39,10 +39,10 @@ type: statblock
 > **Power Roll + 2:**
 >
 > - **≤11:** 5 psychic damage
-> - **12-16:** 7 psychic damage; I < 1 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
-> - **17+:** 9 psychic damage; I < 2 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
+> - **12-16:** 7 psychic damage; I < 1 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+> - **17+:** 9 psychic damage; I < 2 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
 >
-> **2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice):** The [potency](scc:mcdm.heroes.v1/rule.character/potency) increases by 1. If the target is [weakened](scc:mcdm.heroes.v1/condition/weakened) this way at the end of the encounter, they can't take a respite activity during their next respite.
+> **2 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice):** The [potency](scc.v1:mcdm.heroes.v1/rule.character/potency) increases by 1. If the target is [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) this way at the end of the encounter, they can't take a respite activity during their next respite.
 
 > 🏹 **Recall**
 >
@@ -50,7 +50,7 @@ type: statblock
 > |-------------------|------------------:|
 > | **📏 Ranged 5**   | **🎯 Two allies** |
 >
-> **Effect:** Each target can [teleport](scc:mcdm.heroes.v1/movement/teleport) to an unoccupied space [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the palinode. The palinode and each target then gain 5 temporary Stamina.
+> **Effect:** Each target can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) to an unoccupied space [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the palinode. The palinode and each target then gain 5 temporary Stamina.
 
 > ⭐️ **Otherworldly Grace**
 >

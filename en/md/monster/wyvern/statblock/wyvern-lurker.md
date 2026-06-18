@@ -30,7 +30,7 @@ type: statblock
 | **Acid 5**<br>Immunity | **Fly**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |    **+2**<br>Might     |  **+3**<br>Agility  |  **-1**<br>Reason  |  **+1**<br>Intuition  |  **0**<br>Presence   |
 
-> 🗡 **Agonizing Stinger ([Signature Ability](scc:mcdm.heroes.v1/rule.combat/signature-ability))**
+> 🗡 **Agonizing Stinger ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
 > | **Magic, Strike, Weapon** |                 **Main action** |
 > |---------------------------|--------------------------------:|
@@ -39,8 +39,8 @@ type: statblock
 > **Power Roll + 3:**
 >
 > - **≤11:** 9 damage
-> - **12-16:** 14 damage; M < 2 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
-> - **17+:** 17 damage; M < 3 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
+> - **12-16:** 14 damage; M < 2 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
+> - **17+:** 17 damage; M < 3 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
 >
 > **1 Malice:** One target hidden from the lurker takes an extra 6 acid damage.
 
@@ -52,11 +52,11 @@ type: statblock
 >
 > **Power Roll + 3:**
 >
-> - **≤11:** 10 acid damage; M < 1 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
-> - **12-16:** 16 acid damage; M < 2 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
-> - **17+:** 20 acid damage; M < 3 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
+> - **≤11:** 10 acid damage; M < 1 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+> - **12-16:** 16 acid damage; M < 2 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+> - **17+:** 20 acid damage; M < 3 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
 >
-> **Effect:** A target [weakened](scc:mcdm.heroes.v1/condition/weakened) this way takes 1d4 acid damage at the start of each of their turns.
+> **Effect:** A target [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) this way takes 1d4 acid damage at the start of each of their turns.
 
 > 👤 **Swooping Torment**
 >
@@ -64,7 +64,7 @@ type: statblock
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
-> **Effect:** The lurker [flies](scc:mcdm.heroes.v1/movement/fly) up to their speed, then can attempt to hide. Each enemy the lurker moves [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to during this movement can choose to take 3 sonic damage or fall [prone](scc:mcdm.heroes.v1/condition/prone).
+> **Effect:** The lurker [flies](scc.v1:mcdm.heroes.v1/movement/fly) up to their speed, then can attempt to hide. Each enemy the lurker moves [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to during this movement can choose to take 3 sonic damage or fall [prone](scc.v1:mcdm.heroes.v1/condition/prone).
 
 > ❗️ **Retaliatory Dive**
 >
@@ -74,7 +74,7 @@ type: statblock
 >
 > **Trigger:** A creature within distance deals damage to the lurker with a ranged ability.
 >
-> **Effect:** The lurker [flies](scc:mcdm.heroes.v1/movement/fly) [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the target and can make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) against them.
+> **Effect:** The lurker [flies](scc.v1:mcdm.heroes.v1/movement/fly) [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the target and can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against them.
 
 > ⭐️ **Ruthless Rage**
 >

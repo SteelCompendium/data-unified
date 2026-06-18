@@ -30,7 +30,7 @@ type: statblock
 | **Corruption 1, poison 1**<br>Immunity | **Fly, hover**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |            **-5**<br>Might             |     **+1**<br>Agility      | **+0**<br>Reason  |  **+0**<br>Intuition  |  **+2**<br>Presence  |
 
-> 🗡 **Decaying Touch ([Signature Ability](scc:mcdm.heroes.v1/rule.combat/signature-ability))**
+> 🗡 **Decaying Touch ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
 > | **Magic, Melee, Strike** |     **Main action** |
 > |--------------------------|--------------------:|
@@ -38,11 +38,11 @@ type: statblock
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 3 corruption damage; P < 0 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
-> - **12-16:** 4 corruption damage; P < 1 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
-> - **17+:** 5 corruption damage; P < 2 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
+> - **≤11:** 3 corruption damage; P < 0 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+> - **12-16:** 4 corruption damage; P < 1 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+> - **17+:** 5 corruption damage; P < 2 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
 >
-> **2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice):** The [potency](scc:mcdm.heroes.v1/rule.character/potency) increases by 1. Any living creature who dies from this damage rises at the start of the next round in the target's space as a specter under the Director's control.
+> **2 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice):** The [potency](scc.v1:mcdm.heroes.v1/rule.character/potency) increases by 1. Any living creature who dies from this damage rises at the start of the next round in the target's space as a specter under the Director's control.
 
 > 👤 **Hidden Movement**
 >
@@ -54,4 +54,4 @@ type: statblock
 
 > ⭐️ **Corruptive Phasing**
 >
-> The specter can move through creatures and objects at their usual speed, but can't end their turn inside a creature or object. The first time in a round that the specter moves through a creature, that creature takes 2 corruption damage. The specter doesn't take damage from being [force moved](scc:mcdm.heroes.v1/movement/forced-movement) into objects.
+> The specter can move through creatures and objects at their usual speed, but can't end their turn inside a creature or object. The first time in a round that the specter moves through a creature, that creature takes 2 corruption damage. The specter doesn't take damage from being [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement) into objects.

@@ -33,6 +33,6 @@ type: ability
 
 **Effect:** You can spend charges to activate one of the following effects. You can activate an effect multiple times. All charges disappear after using this ability.
 
-- 1 charge: You or an ally within your Summoner's Range can spend a [Recovery](scc:mcdm.heroes.v1/rule.health/recoveries).
-- 1 charge: You or an ally within your Summoner's Range gain a [surge](scc:mcdm.heroes.v1/rule.resource/surge).
-- 2 charges: You call forth a signature [minion](scc:mcdm.summoner.v1/feature.summoner.level-1/minions) into an unoccupied space within your Summoner's Range.
+- 1 charge: You or an ally within your Summoner's Range can spend a [Recovery](scc.v1:mcdm.heroes.v1/rule.health/recoveries).
+- 1 charge: You or an ally within your Summoner's Range gain a [surge](scc.v1:mcdm.heroes.v1/rule.resource/surge).
+- 2 charges: You call forth a signature [minion](scc.v1:mcdm.summoner.v1/feature.summoner.level-1/minions) into an unoccupied space within your Summoner's Range.

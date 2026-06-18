@@ -6,4 +6,4 @@ scc: mcdm.heroes.v1/feature.tactician.level-5/distracted
 type: feature
 ---
 
-You have mastered the ability to distract your foes, allowing you and your allies to take advantage of their gaps in attention. Whenever you or any ally attempts to hide, any creature marked by you doesn't count as an observer. Additionally, you and your allies can use other allies as [cover](scc:mcdm.heroes.v1/rule.combat/cover) for the purpose of hiding.
+You have mastered the ability to distract your foes, allowing you and your allies to take advantage of their gaps in attention. Whenever you or any ally attempts to hide, any creature marked by you doesn't count as an observer. Additionally, you and your allies can use other allies as [cover](scc.v1:mcdm.heroes.v1/rule.combat/cover) for the purpose of hiding.

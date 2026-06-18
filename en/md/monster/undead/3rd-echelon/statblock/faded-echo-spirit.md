@@ -31,7 +31,7 @@ with_captain: Gain an edge on strikes
 | **Corruption 7, poison 7**<br>Immunity | **Fly, hover**<br>Movement |         -         | **Gain an edge on strikes**<br>With Captain |   **-**<br>Weakness   |
 |            **-3**<br>Might             |     **+4**<br>Agility      | **-5**<br>Reason  |             **+1**<br>Intuition             |  **-3**<br>Presence   |
 
-> 🗡 **Hollow Grasp ([Signature Ability](scc:mcdm.heroes.v1/rule.combat/signature-ability))**
+> 🗡 **Hollow Grasp ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
 > | **Melee, Strike, Weapon** |                          **Main action** |
 > |---------------------------|-----------------------------------------:|
@@ -40,11 +40,11 @@ with_captain: Gain an edge on strikes
 > **Power Roll + 4:**
 >
 > - **≤11:** 3 corruption damage
-> - **12-16:** 6 corruption damage; P < 3 [weakened](scc:mcdm.heroes.v1/condition/weakened)
-> - **17+:** 7 corruption damage; P < 4 [weakened](scc:mcdm.heroes.v1/condition/weakened)
+> - **12-16:** 6 corruption damage; P < 3 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened)
+> - **17+:** 7 corruption damage; P < 4 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened)
 >
-> **Effect:** This [weakened](scc:mcdm.heroes.v1/condition/weakened) condition ends if an affected target ends their turn with no spirit within 5 squares of them.
+> **Effect:** This [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) condition ends if an affected target ends their turn with no spirit within 5 squares of them.
 
 > ⭐️ **Corruptive Phasing**
 >
-> The spirit can move through creatures and objects at their usual speed, but can't end their turn inside a creature or object. The first time in a round that the spirit moves through a creature, that creature takes 4 corruption damage. The spirit doesn't take damage from being [force moved](scc:mcdm.heroes.v1/movement/forced-movement) into objects.
+> The spirit can move through creatures and objects at their usual speed, but can't end their turn inside a creature or object. The first time in a round that the spirit moves through a creature, that creature takes 4 corruption damage. The spirit doesn't take damage from being [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement) into objects.

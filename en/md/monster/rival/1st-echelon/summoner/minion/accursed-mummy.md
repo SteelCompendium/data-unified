@@ -38,14 +38,14 @@ weaknesses:
 > |---------------------------|----------------:|
 > | **📏 Melee 2** | **🎯 One creature or object per minion** |
 >
-> 3 poison damage; [pull](scc:mcdm.heroes.v1/movement/forced-movement) 2
+> 3 poison damage; [pull](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2
 >
-> 4 poison damage; [pull](scc:mcdm.heroes.v1/movement/forced-movement) 3
+> 4 poison damage; [pull](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3
 >
-> 6 poison damage; [pull](scc:mcdm.heroes.v1/movement/forced-movement) 4
+> 6 poison damage; [pull](scc.v1:mcdm.heroes.v1/movement/forced-movement) 4
 >
-> **Effect:** A target pulled [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the mummy is M < 2 [weakened](scc:mcdm.heroes.v1/condition/weakened) ([EoT](scc:mcdm.heroes.v1/rule.combat/end-of-turn)).
+> **Effect:** A target pulled [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the mummy is M < 2 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) ([EoT](scc.v1:mcdm.heroes.v1/rule.combat/end-of-turn)).
 
 > ⭐️ **Mummy Dust**
 >
-> Whenever the mummy takes damage, each enemy [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the mummy takes 2 poison damage.
+> Whenever the mummy takes damage, each enemy [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the mummy takes 2 poison damage.

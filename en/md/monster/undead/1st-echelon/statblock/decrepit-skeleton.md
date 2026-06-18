@@ -31,7 +31,7 @@ with_captain: Gain an edge on strikes
 | **Corruption 1, poison 1**<br>Immunity | **-**<br>Movement |        -         | **Gain an edge on strikes**<br>With Captain |   **-**<br>Weakness   |
 |             **0**<br>Might             | **+2**<br>Agility | **-2**<br>Reason |             **0**<br>Intuition              |  **-2**<br>Presence   |
 
-> 🏹 **Bone Bow ([Signature Ability](scc:mcdm.heroes.v1/rule.combat/signature-ability))**
+> 🏹 **Bone Bow ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
 > | **Ranged, Strike, Weapon** |                          **Main action** |
 > |----------------------------|-----------------------------------------:|
@@ -47,4 +47,4 @@ with_captain: Gain an edge on strikes
 
 > ⭐️ **Bonetrops**
 >
-> When the decrepit skeleton is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), their space is [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain). The first time any enemy enters this space, the take 1 damage and the effect end.
+> When the decrepit skeleton is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), their space is [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain). The first time any enemy enters this space, the take 1 damage and the effect end.

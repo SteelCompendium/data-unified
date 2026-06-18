@@ -2,10 +2,10 @@
 flavor: You once worked as a bandit, insurgent, smuggler, outlaw, or even as an assassin.
 language: One language
 name: Criminal
-perk: One intrigue perk (*Quick Build:* [Criminal Contacts](scc:mcdm.heroes.v1/perk/criminal-contacts).)
+perk: One intrigue perk (*Quick Build:* [Criminal Contacts](scc.v1:mcdm.heroes.v1/perk/criminal-contacts).)
 scc: mcdm.heroes.v1/career/criminal
 skills:
-    - The [Criminal Underworld](scc:mcdm.heroes.v1/skill.lore/criminal-underworld) skill (from the [lore skill group](scc:mcdm.heroes.v1/skill.group/lore)), plus two skills from the [intrigue group](scc:mcdm.heroes.v1/skill.group/intrigue) (*Quick Build:* [Criminal Underworld](scc:mcdm.heroes.v1/skill.lore/criminal-underworld), Pick Lock, Pick Pocket.)
+    - The [Criminal Underworld](scc.v1:mcdm.heroes.v1/skill.lore/criminal-underworld) skill (from the [lore skill group](scc.v1:mcdm.heroes.v1/skill.group/lore)), plus two skills from the [intrigue group](scc.v1:mcdm.heroes.v1/skill.group/intrigue) (*Quick Build:* [Criminal Underworld](scc.v1:mcdm.heroes.v1/skill.lore/criminal-underworld), Pick Lock, Pick Pocket.)
 type: career
 ---
 
@@ -14,22 +14,22 @@ You once worked as a bandit, insurgent, smuggler, outlaw, or even as an assassin
 - What crimes did you commit, and why?
 - Did anyone help you perform your illicit activities?
 - What is one crime you botched?
-- Who was your nemesis while you were a [criminal](scc:mcdm.heroes.v1/career/criminal)?
+- Who was your nemesis while you were a [criminal](scc.v1:mcdm.heroes.v1/career/criminal)?
 
 You gain the following career benefits:
 
-**Skills:** The [Criminal Underworld](scc:mcdm.heroes.v1/skill.lore/criminal-underworld) skill (from the [lore skill group](scc:mcdm.heroes.v1/skill.group/lore)), plus two skills from the [intrigue group](scc:mcdm.heroes.v1/skill.group/intrigue) (*Quick Build:* [Criminal Underworld](scc:mcdm.heroes.v1/skill.lore/criminal-underworld), Pick Lock, Pick Pocket.)
+**Skills:** The [Criminal Underworld](scc.v1:mcdm.heroes.v1/skill.lore/criminal-underworld) skill (from the [lore skill group](scc.v1:mcdm.heroes.v1/skill.group/lore)), plus two skills from the [intrigue group](scc.v1:mcdm.heroes.v1/skill.group/intrigue) (*Quick Build:* [Criminal Underworld](scc.v1:mcdm.heroes.v1/skill.lore/criminal-underworld), Pick Lock, Pick Pocket.)
 
 **Languages:** One language
 
-**[Project Points](scc:mcdm.heroes.v1/rule.downtime/project-points):** 120
+**[Project Points](scc.v1:mcdm.heroes.v1/rule.downtime/project-points):** 120
 
-**Perk:** One intrigue perk (*Quick Build:* [Criminal Contacts](scc:mcdm.heroes.v1/perk/criminal-contacts).)
+**Perk:** One intrigue perk (*Quick Build:* [Criminal Contacts](scc.v1:mcdm.heroes.v1/perk/criminal-contacts).)
 
 | d6 | Inciting Incident                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 |----|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 1  | **Antiquity Procurement:** You stole, smuggled, and sold antiquities. In your haste to make a quick sale, you didn't fully vet a client and they subsequently robbed your warehouse. When the items you had stolen were taken from you, you realized the harm you had caused. Now you adventure to find those items you lost and return them to where they belong. |
-| 2  | **Atonement:** The last [criminal](scc:mcdm.heroes.v1/career/criminal) job you pulled led to the death of someone or the destruction of something you love. To make up for the loss you caused, you left your [criminal](scc:mcdm.heroes.v1/career/criminal) ways behind and became a hero. |
+| 2  | **Atonement:** The last [criminal](scc.v1:mcdm.heroes.v1/career/criminal) job you pulled led to the death of someone or the destruction of something you love. To make up for the loss you caused, you left your [criminal](scc.v1:mcdm.heroes.v1/career/criminal) ways behind and became a hero. |
 | 3  | **Friendly Priest:** You went to prison for your crimes and eventually escaped. An elderly priest took you in and shielded you from the law, convinced that your soul wasn't corrupt. They never judged you for your past, speaking only of the future. Eventually, the priest died, imparting final words that inspired you to become a hero. |
 | 4  | **Shadowed Influence:** You spent years blackmailing and manipulating nobles for influence and wealth until a scheme went wrong. You were publicly exposed, and after a narrow escape, you reevaluated your life. Under a new identity, you work as a hero and hope no one looks at your past too closely. |
 | 5  | **Simply Survival:** Stealing was a matter of survival for you and not what defined you—at least in your mind. But when your thieving actions led to innocent folk being harmed, you knew you could be better. You turned your back on your old life, though your old skills still come in handy. |

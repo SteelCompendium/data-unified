@@ -36,13 +36,13 @@ type: statblock
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** 6 damage; I < 2 [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)
-> - **12-16:** 10 damage; I < 3 [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)
-> - **17+:** 14 damage; I < 4 [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)
+> - **≤11:** 6 damage; I < 2 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
+> - **12-16:** 10 damage; I < 3 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
+> - **17+:** 14 damage; I < 4 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
 >
-> **Effect:** If the target has any effect on them that can be ended by a saving throw or that ends at the end of their turn, they are also knocked [prone](scc:mcdm.heroes.v1/condition/prone).
+> **Effect:** If the target has any effect on them that can be ended by a saving throw or that ends at the end of their turn, they are also knocked [prone](scc.v1:mcdm.heroes.v1/condition/prone).
 
-> 🗡 **Far Flung (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
+> 🗡 **Far Flung (3 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Melee, Weapon** |               **Main action** |
 > |-------------------|------------------------------:|
@@ -50,11 +50,11 @@ type: statblock
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** Vertical [push](scc:mcdm.heroes.v1/movement/forced-movement) 7
-> - **12-16:** Vertical [push](scc:mcdm.heroes.v1/movement/forced-movement) 10
-> - **17+:** Vertical [push](scc:mcdm.heroes.v1/movement/forced-movement) 12
+> - **≤11:** Vertical [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 7
+> - **12-16:** Vertical [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 10
+> - **17+:** Vertical [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 12
 >
-> **Effect:** Against a target who is [prone](scc:mcdm.heroes.v1/condition/prone) or [grabbed](scc:mcdm.heroes.v1/condition/grabbed), this ability has a double edge.
+> **Effect:** Against a target who is [prone](scc.v1:mcdm.heroes.v1/condition/prone) or [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed), this ability has a double edge.
 
 > 🔳 **Polish Stone Shape**
 >
@@ -62,9 +62,9 @@ type: statblock
 > |-----------------------------|---------------:|
 > | **📏 10 x 2 line within 1** | **🎯 Special** |
 >
-> **Effect:** The ground in the area becomes slick and glossy. Any non-giant who starts or ends their turn in the area is knocked [prone](scc:mcdm.heroes.v1/condition/prone) and [slides](scc:mcdm.heroes.v1/movement/forced-movement) 2 squares.
+> **Effect:** The ground in the area becomes slick and glossy. Any non-giant who starts or ends their turn in the area is knocked [prone](scc.v1:mcdm.heroes.v1/condition/prone) and [slides](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2 squares.
 
-> ❗️ **Break Armor (1 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
+> ❗️ **Break Armor (1 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **-**       | **Triggered action** |
 > |-------------|---------------------:|
@@ -80,8 +80,8 @@ type: statblock
 
 > ⭐️ **Stone Steps**
 >
-> The marble stone giant ignores [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain).
+> The marble stone giant ignores [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain).
 
 > ⭐️ **Stone Swim**
 >
-> The marble stone giant can [burrow](scc:mcdm.heroes.v1/movement/burrow) through stone, but can't drag other creatures underground when they do so.
+> The marble stone giant can [burrow](scc.v1:mcdm.heroes.v1/movement/burrow) through stone, but can't drag other creatures underground when they do so.

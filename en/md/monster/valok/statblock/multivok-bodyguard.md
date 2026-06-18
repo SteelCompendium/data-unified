@@ -29,7 +29,7 @@ type: statblock
 |          **-**<br>Immunity           | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |           **+4**<br>Might            | **0**<br>Agility  |  **-2**<br>Reason  |  **+1**<br>Intuition  |  **-4**<br>Presence  |
 
-> 🏹 **Gatling Bolt Gun ([Signature Ability](scc:mcdm.heroes.v1/rule.combat/signature-ability))**
+> 🏹 **Gatling Bolt Gun ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
 > | **Ranged, Strike, Weapon** |                 **Main action** |
 > |----------------------------|--------------------------------:|
@@ -39,7 +39,7 @@ type: statblock
 >
 > - **≤11:** 13 damage
 > - **12-16:** 18 damage
-> - **17+:** 22 damage; A < 4 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
+> - **17+:** 22 damage; A < 4 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
 
 > 🗡 **Valiar Axe (3 Malice)**
 >
@@ -49,9 +49,9 @@ type: statblock
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** 15 damage; M < 2 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
-> - **12-16:** 21 damage; M < 3 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
-> - **17+:** 26 damage; [prone](scc:mcdm.heroes.v1/condition/prone); M < 4 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
+> - **≤11:** 15 damage; M < 2 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+> - **12-16:** 21 damage; M < 3 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+> - **17+:** 26 damage; [prone](scc.v1:mcdm.heroes.v1/condition/prone); M < 4 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
 >
 > **Effect:** The bodyguard has a double edge on this ability if it was previously used against the same target in this encounter.
 
@@ -63,11 +63,11 @@ type: statblock
 >
 > **Special:** This ability targets only metal-clad enemies and metal objects of size 3 or smaller.
 >
-> **Effect:** Each target is [pulled](scc:mcdm.heroes.v1/movement/forced-movement) up to 8 squares, or if they have M < 3, they are [pulled](scc:mcdm.heroes.v1/movement/forced-movement) up to 15 squares. The bodyguard can make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) against each target who ends this [forced movement](scc:mcdm.heroes.v1/movement/forced-movement) [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to them.
+> **Effect:** Each target is [pulled](scc.v1:mcdm.heroes.v1/movement/forced-movement) up to 8 squares, or if they have M < 3, they are [pulled](scc.v1:mcdm.heroes.v1/movement/forced-movement) up to 15 squares. The bodyguard can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against each target who ends this [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to them.
 
 > ❗️ **Valiar Cloak**
 >
-> | **Melee**      | **[Triggered Action](scc:mcdm.heroes.v1/rule.combat/triggered-action)** |
+> | **Melee**      | **[Triggered Action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |
 > |----------------|---------------------:|
 > | **📏 Melee 2** |          **🎯 Self** |
 >
@@ -77,7 +77,7 @@ type: statblock
 
 > ⭐️ **Multivok Maintenance**
 >
-> At the start of the bodyguard's turn, each servok within 2 squares of them regains 15 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina).
+> At the start of the bodyguard's turn, each servok within 2 squares of them regains 15 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).
 
 > ⭐️ **Crafted to Perfection**
 >
@@ -85,4 +85,4 @@ type: statblock
 
 > ⭐️ **Valiar Might**
 >
-> While the bodyguard isn't [bleeding](scc:mcdm.heroes.v1/condition/bleeding), [weakened](scc:mcdm.heroes.v1/condition/weakened), or [winded](scc:mcdm.heroes.v1/rule.health/winded), any power roll made against them is automatically a tier 1 outcome. A critical hit still grants its additional main action.
+> While the bodyguard isn't [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding), [weakened](scc.v1:mcdm.heroes.v1/condition/weakened), or [winded](scc.v1:mcdm.heroes.v1/rule.health/winded), any power roll made against them is automatically a tier 1 outcome. A critical hit still grants its additional main action.

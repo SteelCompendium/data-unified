@@ -38,11 +38,11 @@ type: statblock
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** 11 damage; M < 2 [prone](scc:mcdm.heroes.v1/condition/prone)
-> - **12-16:** 16 damage; M < 3 [prone](scc:mcdm.heroes.v1/condition/prone)
-> - **17+:** 19 damage; M < 4 [prone](scc:mcdm.heroes.v1/condition/prone)
+> - **≤11:** 11 damage; M < 2 [prone](scc.v1:mcdm.heroes.v1/condition/prone)
+> - **12-16:** 16 damage; M < 3 [prone](scc.v1:mcdm.heroes.v1/condition/prone)
+> - **17+:** 19 damage; M < 4 [prone](scc.v1:mcdm.heroes.v1/condition/prone)
 >
-> **2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice):** If the target has M < 4, they are also [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends).
+> **2 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice):** If the target has M < 4, they are also [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends).
 
 > 🔳 **I'll Cut A Path**
 >
@@ -50,13 +50,13 @@ type: statblock
 > |----------------------------|------------------------------:|
 > | **📏 5 x 2 line within 1** | **🎯 Each enemy in the area** |
 >
-> **Effect:** Before the power roll is made, Dorzinuuth [shifts](scc:mcdm.heroes.v1/movement/shifting) to an unoccupied space [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the end of the line.
+> **Effect:** Before the power roll is made, Dorzinuuth [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) to an unoccupied space [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the end of the line.
 >
 > **Power Roll + 4:**
 >
 > - **≤11:** 7 damage
-> - **12-16:** 13 damage; M < 3 [prone](scc:mcdm.heroes.v1/condition/prone)
-> - **17+:** 15 damage; M < 4 [prone](scc:mcdm.heroes.v1/condition/prone)
+> - **12-16:** 13 damage; M < 3 [prone](scc.v1:mcdm.heroes.v1/condition/prone)
+> - **17+:** 15 damage; M < 4 [prone](scc.v1:mcdm.heroes.v1/condition/prone)
 
 > ❗️ **Watch Your Six!**
 >
@@ -64,7 +64,7 @@ type: statblock
 > |----------------|---------------------:|
 > | **📏 Melee 1** |      **🎯 One ally** |
 >
-> **Trigger:** An ally within distance takes damage while Dorzinuuth isn't [flying](scc:mcdm.heroes.v1/movement/fly).
+> **Trigger:** An ally within distance takes damage while Dorzinuuth isn't [flying](scc.v1:mcdm.heroes.v1/movement/fly).
 >
 > **Effect:** Dorzinuuth shields the triggering ally with his wings, halving the damage.
 
@@ -74,13 +74,13 @@ type: statblock
 
 > ⭐️ **Remember Your Oath**
 >
-> If Dorzinuuth hears a creature recite the Dragon Phalanx oath, he takes a [bane](scc:mcdm.heroes.v1/rule.dice/bane) on strikes made against that character until the end of the encounter.
+> If Dorzinuuth hears a creature recite the Dragon Phalanx oath, he takes a [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) on strikes made against that character until the end of the encounter.
 
 > ⭐️ **Sheltering Wings**
 >
-> While Dorzinuuth isn't [flying](scc:mcdm.heroes.v1/movement/fly), strikes made against him take a [bane](scc:mcdm.heroes.v1/rule.dice/bane).
+> While Dorzinuuth isn't [flying](scc.v1:mcdm.heroes.v1/movement/fly), strikes made against him take a [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane).
 
-> ☠️ **Roaring Gambit ([Villain Action](scc:mcdm.monsters.v1/rule.monster/villain-action) 1)**
+> ☠️ **Roaring Gambit ([Villain Action](scc.v1:mcdm.monsters.v1/rule.monster/villain-action) 1)**
 >
 > | **Area**       |                         **-** |
 > |----------------|------------------------------:|
@@ -88,21 +88,21 @@ type: statblock
 >
 > **Effect:** Dorzinuuth lets loose a powerful roar. Each target makes a **Reason test**.
 >
-> - **≤11:** [Frightened](scc:mcdm.heroes.v1/condition/frightened) (save ends)
-> - **12-16:** [Frightened](scc:mcdm.heroes.v1/condition/frightened) (EoT)
+> - **≤11:** [Frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
+> - **12-16:** [Frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (EoT)
 > - **17+:** No effect.
 >
-> **Effect:** Each ally in the area gains an [edge](scc:mcdm.heroes.v1/rule.dice/edge) on their next strike.
+> **Effect:** Each ally in the area gains an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on their next strike.
 
-> ☠️ **Wings of Second Wind ([Villain Action](scc:mcdm.monsters.v1/rule.monster/villain-action) 2)**
+> ☠️ **Wings of Second Wind ([Villain Action](scc.v1:mcdm.monsters.v1/rule.monster/villain-action) 2)**
 >
 > | **Area**        |                                 **-** |
 > |-----------------|--------------------------------------:|
 > | **📏 10 burst** | **🎯 Self and each ally in the area** |
 >
-> **Effect:** Each target [shifts](scc:mcdm.heroes.v1/movement/shifting) or [flies](scc:mcdm.heroes.v1/movement/fly) up to their speed and regains 10 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina).
+> **Effect:** Each target [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) or [flies](scc.v1:mcdm.heroes.v1/movement/fly) up to their speed and regains 10 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).
 
-> ☠️ **Snap, Crackle, Pop ([Villain Action](scc:mcdm.monsters.v1/rule.monster/villain-action) 3)**
+> ☠️ **Snap, Crackle, Pop ([Villain Action](scc.v1:mcdm.monsters.v1/rule.monster/villain-action) 3)**
 >
 > | **Area, Magic** |                        **-** |
 > |-----------------|-----------------------------:|

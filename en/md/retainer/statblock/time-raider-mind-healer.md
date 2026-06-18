@@ -41,7 +41,7 @@ type: statblock
 > - **12-16:** 8 fire damage
 > - **17+:** 11 fire damage
 >
-> **Effect:** If the mind healer targets an ally, the ability deals no damage. Additionally, the target can end one effect on them that can be ended by a [saving throw](scc:mcdm.heroes.v1/rule.general/saving-throw) or that ends at the end of their turn.
+> **Effect:** If the mind healer targets an ally, the ability deals no damage. Additionally, the target can end one effect on them that can be ended by a [saving throw](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) or that ends at the end of their turn.
 
 > ⭐️ **Foresight**
 >
@@ -55,7 +55,7 @@ type: statblock
 > |-----------------|--------------------:|
 > | **📏 Ranged 3** | **🎯 One creature** |
 >
-> **Effect:** The target can spend 1 [Recovery](scc:mcdm.heroes.v1/rule.health/recoveries), and has their speed doubled until the end of their next turn.
+> **Effect:** The target can spend 1 [Recovery](scc.v1:mcdm.heroes.v1/rule.health/recoveries), and has their speed doubled until the end of their next turn.
 
 ######## Level 7 Retainer Advancement Ability
 
@@ -67,9 +67,9 @@ type: statblock
 >
 > **Power Roll + highest characteristic:**
 >
-> - **≤11:** 8 psychic damage; R < WEAK [frightened](scc:mcdm.heroes.v1/condition/frightened) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
-> - **12-16:** 13 psychic damage; R < AVERAGE [frightened](scc:mcdm.heroes.v1/condition/frightened) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
-> - **17+:** 17 psychic damage; R < STRONG [frightened](scc:mcdm.heroes.v1/condition/frightened) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
+> - **≤11:** 8 psychic damage; R < WEAK [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
+> - **12-16:** 13 psychic damage; R < AVERAGE [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
+> - **17+:** 17 psychic damage; R < STRONG [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
 
 ######## Level 10 Retainer Advancement Ability
 
@@ -85,4 +85,4 @@ type: statblock
 > - **12-16:** 16 psychic damage
 > - **17+:** 21 psychic damage
 >
-> **Effect:** If the mind healer is [dazed](scc:mcdm.heroes.v1/condition/dazed), [frightened](scc:mcdm.heroes.v1/condition/frightened), or [taunted](scc:mcdm.heroes.v1/condition/taunted), they can end one of those conditions and impose the same condition on one enemy in the area. Additionally, they can do the same for their mentor if the mentor is in the area and is [dazed](scc:mcdm.heroes.v1/condition/dazed), [frightened](scc:mcdm.heroes.v1/condition/frightened), or [taunted](scc:mcdm.heroes.v1/condition/taunted).
+> **Effect:** If the mind healer is [dazed](scc.v1:mcdm.heroes.v1/condition/dazed), [frightened](scc.v1:mcdm.heroes.v1/condition/frightened), or [taunted](scc.v1:mcdm.heroes.v1/condition/taunted), they can end one of those conditions and impose the same condition on one enemy in the area. Additionally, they can do the same for their mentor if the mentor is in the area and is [dazed](scc.v1:mcdm.heroes.v1/condition/dazed), [frightened](scc.v1:mcdm.heroes.v1/condition/frightened), or [taunted](scc.v1:mcdm.heroes.v1/condition/taunted).

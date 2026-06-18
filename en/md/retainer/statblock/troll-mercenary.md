@@ -42,7 +42,7 @@ weaknesses:
 > - **12-16:** 11 damage
 > - **17+:** 14 damage
 >
-> **Effect:** The mercenary regains [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) equal to half the damage dealt.
+> **Effect:** The mercenary regains [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) equal to half the damage dealt.
 
 > ❇️ **Troll Roar (Encounter)**
 >
@@ -52,13 +52,13 @@ weaknesses:
 >
 > **Power Roll + highest characteristic:**
 >
-> - **≤11:** P < WEAK [frightened](scc:mcdm.heroes.v1/condition/frightened) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
-> - **12-16:** P < AVERAGE [frightened](scc:mcdm.heroes.v1/condition/frightened) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
-> - **17+:** P < STRONG [frightened](scc:mcdm.heroes.v1/condition/frightened) ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends), push 3, [prone](scc:mcdm.heroes.v1/condition/prone)
+> - **≤11:** P < WEAK [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
+> - **12-16:** P < AVERAGE [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
+> - **17+:** P < STRONG [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends), push 3, [prone](scc.v1:mcdm.heroes.v1/condition/prone)
 
 > ⭐️ **Relentless Hunger**
 >
-> The mercenary dies only if they are reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) by acid or fire damage, if they end their turn with 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), or if they take acid or fire damage while at 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina).
+> The mercenary dies only if they are reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) by acid or fire damage, if they end their turn with 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), or if they take acid or fire damage while at 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).
 
 ######## Level 7 Retainer Advancement Ability
 
@@ -68,7 +68,7 @@ weaknesses:
 > |----------------|-----------------------:|
 > | **📏 Melee 1** | **🎯 Three creatures** |
 >
-> **Effect:** The mercenary must be [winded](scc:mcdm.heroes.v1/rule.health/winded) to use this ability. The mercenary uses Big Bite against each target.
+> **Effect:** The mercenary must be [winded](scc.v1:mcdm.heroes.v1/rule.health/winded) to use this ability. The mercenary uses Big Bite against each target.
 
 ######## Level 10 Retainer Advancement Ability
 

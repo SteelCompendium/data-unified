@@ -1,13 +1,13 @@
 ---
 features:
     - icon: "\U0001F300"
-      intro: As a maneuver, a creature [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to an iron dragon can make an **Agility test**.
+      intro: As a maneuver, a creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to an iron dragon can make an **Agility test**.
       name: Deactivate
       power_roll:
         tiers:
             high: The iron dragon is deactivated and can't be used.
             low: The creature accidentally activates the **Gout of Flame** ability.
-            mid: The iron dragon is deactivated but the creature is [slowed](scc:mcdm.heroes.v1/condition/slowed) (EoT).
+            mid: The iron dragon is deactivated but the creature is [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (EoT).
     - distance: 8 x 2 line within 1
       icon: "\U0001F533"
       keywords:
@@ -17,9 +17,9 @@ features:
       power_roll:
         formula: + 2
         tiers:
-            high: 13 fire damage; A < 2 the target is burning ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
-            low: 6 fire damage; A < 0 the target is burning ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
-            mid: 10 fire damage; A < 1 the target is burning ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
+            high: 13 fire damage; A < 2 the target is burning ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
+            low: 6 fire damage; A < 0 the target is burning ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
+            mid: 10 fire damage; A < 1 the target is burning ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
       sections:
         - label: Effect
           text: A burning creature takes 1d6 fire damage at the start of each of their turns. A burning object takes 1d6 fire damage at the end of each round. This ability can't be used again until the iron dragon is reloaded.
@@ -79,10 +79,10 @@ A massive metal device uses a bellows system and liquid fuel to shoot out gouts 
 
 > 🌀 **Deactivate**
 >
-> As a maneuver, a creature [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to an iron dragon can make an **Agility test**.
+> As a maneuver, a creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to an iron dragon can make an **Agility test**.
 >
 > - **≤11:** The creature accidentally activates the **Gout of Flame** ability.
-> - **12-16:** The iron dragon is deactivated but the creature is [slowed](scc:mcdm.heroes.v1/condition/slowed) (EoT).
+> - **12-16:** The iron dragon is deactivated but the creature is [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (EoT).
 > - **17+:** The iron dragon is deactivated and can't be used.
 
 > 🔳 **Gout of Flame**
@@ -93,9 +93,9 @@ A massive metal device uses a bellows system and liquid fuel to shoot out gouts 
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 6 fire damage; A < 0 the target is burning ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
-> - **12-16:** 10 fire damage; A < 1 the target is burning ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
-> - **17+:** 13 fire damage; A < 2 the target is burning ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
+> - **≤11:** 6 fire damage; A < 0 the target is burning ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
+> - **12-16:** 10 fire damage; A < 1 the target is burning ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
+> - **17+:** 13 fire damage; A < 2 the target is burning ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
 >
 > **Effect:** A burning creature takes 1d6 fire damage at the start of each of their turns. A burning object takes 1d6 fire damage at the end of each round. This ability can't be used again until the iron dragon is reloaded.
 

@@ -40,9 +40,9 @@ type: statblock
 > - **12-16:** 9 damage
 > - **17+:** 12 damage; A < 2 bleeding (save ends)
 >
-> **Effect:** If the scaletooth has the target [grabbed](scc:mcdm.heroes.v1/condition/grabbed), the [potency](scc:mcdm.heroes.v1/rule.character/potency) of this ability increases by 1.
+> **Effect:** If the scaletooth has the target [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed), the [potency](scc.v1:mcdm.heroes.v1/rule.character/potency) of this ability increases by 1.
 
-> 🗡 **Tail Whip (2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
+> 🗡 **Tail Whip (2 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Melee, Strike, Weapon** |                 **Main action** |
 > |---------------------------|--------------------------------:|
@@ -50,10 +50,10 @@ type: statblock
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 5 damage; [slide](scc:mcdm.heroes.v1/movement/forced-movement) 1
-> - **12-16:** 8 damage; [slide](scc:mcdm.heroes.v1/movement/forced-movement) 2; M < 1 [grabbed](scc:mcdm.heroes.v1/condition/grabbed) if within 2 squares of the scaletooth
-> - **17+:** 10 damage; [slide](scc:mcdm.heroes.v1/movement/forced-movement) 3; M < 2 [grabbed](scc:mcdm.heroes.v1/condition/grabbed) if within 2 squares of the scaletooth
+> - **≤11:** 5 damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1
+> - **12-16:** 8 damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2; M < 1 [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) if within 2 squares of the scaletooth
+> - **17+:** 10 damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3; M < 2 [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) if within 2 squares of the scaletooth
 
 > ⭐️ **Reptilian Escape**
 >
-> While the scaletooth has a tail, whenever they are [grabbed](scc:mcdm.heroes.v1/condition/grabbed), [prone](scc:mcdm.heroes.v1/condition/prone), [slowed](scc:mcdm.heroes.v1/condition/slowed), or [weakened](scc:mcdm.heroes.v1/condition/weakened), they can lose their tail to immediately end that condition, then [shift](scc:mcdm.heroes.v1/movement/shifting) up to 2 squares.
+> While the scaletooth has a tail, whenever they are [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed), [prone](scc.v1:mcdm.heroes.v1/condition/prone), [slowed](scc.v1:mcdm.heroes.v1/condition/slowed), or [weakened](scc.v1:mcdm.heroes.v1/condition/weakened), they can lose their tail to immediately end that condition, then [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to 2 squares.

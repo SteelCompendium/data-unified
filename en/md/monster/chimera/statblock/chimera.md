@@ -31,13 +31,13 @@ type: statblock
 
 > ☠️ **Solo Monster**
 >
-> **End Effect:** At the end of each of their turns, the chimera can take 5 damage to end one effect on them that can be ended by a [saving throw](scc:mcdm.heroes.v1/rule.general/saving-throw). This damage can't be reduced in any way.
+> **End Effect:** At the end of each of their turns, the chimera can take 5 damage to end one effect on them that can be ended by a [saving throw](scc.v1:mcdm.heroes.v1/rule.general/saving-throw). This damage can't be reduced in any way.
 >
 > **Solo Turns:** The chimera can take two turns each round. They can't take turns consecutively.
 
 > ⭐️ **Volant**
 >
-> When the chimera makes a creature [winded](scc:mcdm.heroes.v1/rule.health/winded) or reduces them to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), they can move their speed toward an enemy.
+> When the chimera makes a creature [winded](scc.v1:mcdm.heroes.v1/rule.health/winded) or reduces them to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), they can move their speed toward an enemy.
 
 > 🗡 **Bite (Signature Ability)**
 >
@@ -51,9 +51,9 @@ type: statblock
 > - **12-16:** 13 damage
 > - **17+:** 16 damage
 >
-> **Effect:** This strike deals an extra 3 damage if it gains an [edge](scc:mcdm.heroes.v1/rule.dice/edge) or has a double edge.
+> **Effect:** This strike deals an extra 3 damage if it gains an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) or has a double edge.
 
-> 🔳 **Dragon's Eruption (5 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
+> 🔳 **Dragon's Eruption (5 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Area, Magic, Ranged** |               **Main action** |
 > |-------------------------|------------------------------:|
@@ -65,7 +65,7 @@ type: statblock
 > - **12-16:** 5 fire damage; A < 2 5 fire damage
 > - **17+:** 7 fire damage; A < 3 7 fire damage
 
-> ❇️ **Roar (5 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
+> ❇️ **Roar (5 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Area, Magic** |               **Main action** |
 > |-----------------|------------------------------:|
@@ -74,8 +74,8 @@ type: statblock
 > **Power Roll + 3:**
 >
 > - **≤11:** 4 psychic damage
-> - **12-16:** 8 psychic damage; I < 2 [frightened](scc:mcdm.heroes.v1/condition/frightened) (save ends)
-> - **17+:** 10 psychic damage; I < 3 [frightened](scc:mcdm.heroes.v1/condition/frightened) (save ends)
+> - **12-16:** 8 psychic damage; I < 2 [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
+> - **17+:** 10 psychic damage; I < 3 [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
 
 > 🗡 **Lion's Toss**
 >
@@ -97,13 +97,13 @@ type: statblock
 >
 > **Trigger:** A creature makes a strike against the chimera and obtains a tier 1 outcome.
 >
-> **Effect:** The chimera [shifts](scc:mcdm.heroes.v1/movement/shifting) up to 5 squares. If they end this shift within distance of the target, make a power roll.
+> **Effect:** The chimera [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to 5 squares. If they end this shift within distance of the target, make a power roll.
 >
 > **Power Roll + 3:**
 >
-> - **≤11:** 6 damage; M < 1 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
-> - **12-16:** 8 damage; [prone](scc:mcdm.heroes.v1/condition/prone); M < 2 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
-> - **17+:** 10 damage; [prone](scc:mcdm.heroes.v1/condition/prone); M < 3 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
+> - **≤11:** 6 damage; M < 1 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
+> - **12-16:** 8 damage; [prone](scc.v1:mcdm.heroes.v1/condition/prone); M < 2 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
+> - **17+:** 10 damage; [prone](scc.v1:mcdm.heroes.v1/condition/prone); M < 3 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
 
 > ☠️ **Overture of Destruction (Villain Action 1)**
 >
@@ -119,7 +119,7 @@ type: statblock
 > |-------------|------------:|
 > | **📏 Self** | **🎯 Self** |
 >
-> **Effect:** The chimera uses Dragon's Eruption and Roar without spending [Malice](scc:mcdm.monsters.v1/rule.monster/malice).
+> **Effect:** The chimera uses Dragon's Eruption and Roar without spending [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice).
 
 > ☠️ **Chorus of Destruction (Villain Action 3)**
 >
@@ -127,4 +127,4 @@ type: statblock
 > |-------------|------------:|
 > | **📏 Self** | **🎯 Self** |
 >
-> **Effect:** The chimera uses Roar, then [shifts](scc:mcdm.heroes.v1/movement/shifting) up to their speed and can make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) against each enemy who comes [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to them during the shift. When the chimera ends this shift, they use Dragon's Eruption. The use of these abilities as part of this [villain action](scc:mcdm.monsters.v1/rule.monster/villain-action) costs no [Malice](scc:mcdm.monsters.v1/rule.monster/malice).
+> **Effect:** The chimera uses Roar, then [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed and can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against each enemy who comes [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to them during the shift. When the chimera ends this shift, they use Dragon's Eruption. The use of these abilities as part of this [villain action](scc.v1:mcdm.monsters.v1/rule.monster/villain-action) costs no [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice).

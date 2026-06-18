@@ -38,17 +38,17 @@ type: statblock
 >
 > - **≤11:** 6 damage
 > - **12-16:** 9 damage
-> - **17+:** 12 damage; R < 2 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
+> - **17+:** 12 damage; R < 2 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
 >
-> **Effect:** The bloodletter and each of their allies has a double edge on abilities targeting a creature [bleeding](scc:mcdm.heroes.v1/condition/bleeding) this way.
+> **Effect:** The bloodletter and each of their allies has a double edge on abilities targeting a creature [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) this way.
 
-> ❇️ **Blood Haze (2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
+> ❇️ **Blood Haze (2 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Area, Magic** |   **Maneuver** |
 > |-----------------|---------------:|
 > | **📏 1 burst**  | **🎯 Special** |
 >
-> **Effect:** Until the end of the next round, a cloud of blood vapor fills the area. The cloud blocks line of effect for enemies, and any enemy has damage weakness 3 while in the area. The bloodletter can then [shift](scc:mcdm.heroes.v1/movement/shifting) up to their speed, and can attempt to hide if they end that shift with concealment.
+> **Effect:** Until the end of the next round, a cloud of blood vapor fills the area. The cloud blocks line of effect for enemies, and any enemy has damage weakness 3 while in the area. The bloodletter can then [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed, and can attempt to hide if they end that shift with concealment.
 
 > ⭐️ **Otherworldly Grace**
 >

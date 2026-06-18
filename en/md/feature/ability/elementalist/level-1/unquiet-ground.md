@@ -1,17 +1,17 @@
 ---
 action_type: Main action
 class: elementalist
-distance: 2 [cube](scc:mcdm.heroes.v1/rule.combat/cube) within 10
-effect: The ground beneath the area is [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain) for enemies.
+distance: 2 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 10
+effect: The ground beneath the area is [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain) for enemies.
 flavor: A sudden storm of detritus assaults your foes and leaves them struggling to move.
 keywords:
     - Area
     - Earth
     - Magic
-    - '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)'
+    - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'
 level: "1"
 name: Unquiet Ground
-power_roll_characteristic: '[Reason](scc:mcdm.heroes.v1/rule.character/reason)'
+power_roll_characteristic: '[Reason](scc.v1:mcdm.heroes.v1/rule.character/reason)'
 scc: mcdm.heroes.v1/feature.ability.elementalist.level-1/unquiet-ground
 subtype: signature
 target: Each enemy in the area
@@ -24,14 +24,14 @@ type: ability
 
 *A sudden storm of detritus assaults your foes and leaves them struggling to move.*
 
-| **Area, Earth, Magic, [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)** |               **Main action** |
+| **Area, Earth, Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)** |               **Main action** |
 |--------------------------------|------------------------------:|
-| **📏 2 [cube](scc:mcdm.heroes.v1/rule.combat/cube) within 10**        | **🎯 Each enemy in the area** |
+| **📏 2 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 10**        | **🎯 Each enemy in the area** |
 
-**[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Reason](scc:mcdm.heroes.v1/rule.character/reason):**
+**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason):**
 
 - **≤11:** 2 damage
 - **12-16:** 5 damage
 - **17+:** 7 damage
 
-**Effect:** The ground beneath the area is [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain) for enemies.
+**Effect:** The ground beneath the area is [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain) for enemies.

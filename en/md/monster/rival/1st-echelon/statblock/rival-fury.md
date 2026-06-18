@@ -27,7 +27,7 @@ type: statblock
 | **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+2**<br>Might  | **+1**<br>Agility |  **0**<br>Reason   |  **0**<br>Intuition   |  **0**<br>Presence   |
 
-> 🗡 **Brutal Impact ([Signature Ability](scc:mcdm.heroes.v1/rule.combat/signature-ability))**
+> 🗡 **Brutal Impact ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
 > | **Melee, Strike, Weapon** |                 **Main action** |
 > |---------------------------|--------------------------------:|
@@ -35,13 +35,13 @@ type: statblock
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 7 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 1
-> - **12-16:** 11 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 2
-> - **17+:** 14 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 3
+> - **≤11:** 7 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1
+> - **12-16:** 11 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2
+> - **17+:** 14 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3
 >
-> **2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice):** Each target who has M < 1 is [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends).
+> **2 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice):** Each target who has M < 1 is [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends).
 
-> 🗡 **Let's Tussle (2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
+> 🗡 **Let's Tussle (2 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Melee, Strike, Weapon** |     **Main action** |
 > |---------------------------|--------------------:|
@@ -49,16 +49,16 @@ type: statblock
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 8 damage; M < 0 [grabbed](scc:mcdm.heroes.v1/condition/grabbed)
-> - **12-16:** 13 damage; M < 1 [grabbed](scc:mcdm.heroes.v1/condition/grabbed)
-> - **17+:** 16 damage; M < 2 [grabbed](scc:mcdm.heroes.v1/condition/grabbed)
+> - **≤11:** 8 damage; M < 0 [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)
+> - **12-16:** 13 damage; M < 1 [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)
+> - **17+:** 16 damage; M < 2 [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)
 >
-> **Effect:** The target must be the fury's size or smaller. While the target is [grabbed](scc:mcdm.heroes.v1/condition/grabbed) this way, the fury gains an edge on [strikes](scc:mcdm.heroes.v1/rule.combat/strike) against them.
+> **Effect:** The target must be the fury's size or smaller. While the target is [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) this way, the fury gains an edge on [strikes](scc.v1:mcdm.heroes.v1/rule.combat/strike) against them.
 
 > ⭐️ **Overwhelm**
 >
-> Once per turn, when the fury [force moves](scc:mcdm.heroes.v1/movement/forced-movement) a creature or object, or [shifts](scc:mcdm.heroes.v1/movement/shifting) [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to a creature or object, they can make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) against that creature or object.
+> Once per turn, when the fury [force moves](scc.v1:mcdm.heroes.v1/movement/forced-movement) a creature or object, or [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to a creature or object, they can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against that creature or object.
 
 > ⭐️ **Rivalry**
 >
-> At the start of an encounter, the fury chooses one creature within their [line of effect](scc:mcdm.heroes.v1/rule.combat/line-of-effect). Both the fury and the creature can add a d3 roll to power rolls they make against each other.
+> At the start of an encounter, the fury chooses one creature within their [line of effect](scc.v1:mcdm.heroes.v1/rule.combat/line-of-effect). Both the fury and the creature can add a d3 roll to power rolls they make against each other.

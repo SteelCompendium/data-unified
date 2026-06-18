@@ -33,8 +33,8 @@ weaknesses:
 
 > ⭐️ **Zombie Clutch**
 >
-> The lumberer's melee [free strikes](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) inflict A < 3 [grabbed](scc:mcdm.heroes.v1/condition/grabbed). A creature or object that starts their turn [grabbed](scc:mcdm.heroes.v1/condition/grabbed) by the lumberer takes 2 corruption damage.
+> The lumberer's melee [free strikes](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) inflict A < 3 [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed). A creature or object that starts their turn [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) by the lumberer takes 2 corruption damage.
 
 > ⭐️ **Death Grasp**
 >
-> When the lumberer is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), they can latch onto an [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) enemy before being destroyed. The enemy is M < 4 [restrained](scc:mcdm.heroes.v1/condition/restrained) ([EoT](scc:mcdm.heroes.v1/rule.combat/end-of-turn)).
+> When the lumberer is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), they can latch onto an [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) enemy before being destroyed. The enemy is M < 4 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) ([EoT](scc.v1:mcdm.heroes.v1/rule.combat/end-of-turn)).

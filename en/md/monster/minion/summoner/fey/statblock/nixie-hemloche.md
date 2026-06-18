@@ -35,12 +35,12 @@ Hemloches are spotted nixies whose long, wavy hair endlessly bobs and flows into
 
 > ⭐️ **Water Weird**
 >
-> Once per [turn](scc:mcdm.heroes.v1/rule.combat/turn) during their move action, each nixie under your control can [teleport](scc:mcdm.heroes.v1/movement/teleport) to a body of water within 6. The hemloche can't [teleport](scc:mcdm.heroes.v1/movement/teleport) into water created by their own whirling waves.
+> Once per [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) during their move action, each nixie under your control can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) to a body of water within 6. The hemloche can't [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) into water created by their own whirling waves.
 
 > ⭐️ **Whirling Waves**
 >
-> The area within 1 square of the hemloche is filled with churning water and is considered [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain). At the end of the hemloche's [turn](scc:mcdm.heroes.v1/rule.combat/turn), the hemloche can choose to [slide](scc:mcdm.heroes.v1/movement/forced-movement) each enemy in the affected area 3 squares. An enemy that takes [damage](scc:mcdm.heroes.v1/rule.damage/damage) while being [force moved](scc:mcdm.heroes.v1/movement/forced-movement) is also M < AVERAGE knocked [prone](scc:mcdm.heroes.v1/condition/prone).
+> The area within 1 square of the hemloche is filled with churning water and is considered [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain). At the end of the hemloche's [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), the hemloche can choose to [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) each enemy in the affected area 3 squares. An enemy that takes [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage) while being [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement) is also M < AVERAGE knocked [prone](scc.v1:mcdm.heroes.v1/condition/prone).
 
 > ⭐️ **Minuscule**
 >
-> The hemloche has [cover](scc:mcdm.heroes.v1/rule.combat/cover) while occupying a larger creature's space.
+> The hemloche has [cover](scc.v1:mcdm.heroes.v1/rule.combat/cover) while occupying a larger creature's space.

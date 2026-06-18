@@ -14,14 +14,14 @@ type: title
 **Effect:** Choose one of the following benefits:
 
 - *Boffin:* You gain a small magic spy device called a boffin. Once per encounter, you can activate a boffin property as a maneuver (see below).
-- *Caustic Alchemy:* You have your choice of the 1st-level [shadow college](scc:mcdm.heroes.v1/feature.shadow.level-1/shadow-college) features Coat the Blade or [Smoke Bomb](scc:mcdm.heroes.v1/feature.shadow.level-1/smoke-bomb) (see Chapter 5: [Classes](scc:mcdm.heroes.v1/chapter/classes)). When you use that feature, you can't spend insight unless you have the Insight class feature.
-- *Spy Ring:* You gain a piece of magic jewelry, such as a ring. As a main action while wearing the jewelry, you can take on the illusory appearance of an individual within 10 squares who you have [line of effect](scc:mcdm.heroes.v1/rule.combat/line-of-effect) to. This disguise lets you automatically succeed on [tests](scc:mcdm.heroes.v1/rule.test/test) made using the Disguise skill based solely on visual identification.
+- *Caustic Alchemy:* You have your choice of the 1st-level [shadow college](scc.v1:mcdm.heroes.v1/feature.shadow.level-1/shadow-college) features Coat the Blade or [Smoke Bomb](scc.v1:mcdm.heroes.v1/feature.shadow.level-1/smoke-bomb) (see Chapter 5: [Classes](scc.v1:mcdm.heroes.v1/chapter/classes)). When you use that feature, you can't spend insight unless you have the Insight class feature.
+- *Spy Ring:* You gain a piece of magic jewelry, such as a ring. As a main action while wearing the jewelry, you can take on the illusory appearance of an individual within 10 squares who you have [line of effect](scc.v1:mcdm.heroes.v1/rule.combat/line-of-effect) to. This disguise lets you automatically succeed on [tests](scc.v1:mcdm.heroes.v1/rule.test/test) made using the Disguise skill based solely on visual identification.
 
 ##### Boffin Properties
 
 Taking the Boffin benefit lets you use the following boffin properties as a maneuver:
 
-- Make a [test](scc:mcdm.heroes.v1/rule.test/test) that uses the Disguise skill. You gain an [edge](scc:mcdm.heroes.v1/rule.dice/edge) on the [test](scc:mcdm.heroes.v1/rule.test/test).
+- Make a [test](scc.v1:mcdm.heroes.v1/rule.test/test) that uses the Disguise skill. You gain an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on the [test](scc.v1:mcdm.heroes.v1/rule.test/test).
 - One mundane lock you touch is unlocked.
-- Choose a square within 10 squares, even if you don't have [line of effect](scc:mcdm.heroes.v1/rule.combat/line-of-effect) to it. You can observe the area around that square as if you were in it.
-- You throw the boffin up to 10 squares, where it explodes in a 5 [cube](scc:mcdm.heroes.v1/rule.combat/cube). Each creature in the area takes fire damage equal to 2d10 + your level. The boffin is permanently destroyed but can be replaced by your spymaster... though they don't like doing so too often.
+- Choose a square within 10 squares, even if you don't have [line of effect](scc.v1:mcdm.heroes.v1/rule.combat/line-of-effect) to it. You can observe the area around that square as if you were in it.
+- You throw the boffin up to 10 squares, where it explodes in a 5 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube). Each creature in the area takes fire damage equal to 2d10 + your level. The boffin is permanently destroyed but can be replaced by your spymaster... though they don't like doing so too often.

@@ -6,4 +6,4 @@ scc: mcdm.beastheart.v1/feature.beastheart.level-4/rampage-improvement
 type: feature
 ---
 
-Your [Rampage](scc:mcdm.beastheart.v1/feature.beastheart.level-1/rampage) feature provides additional effects when your companion has 16 or more rampage.
+Your [Rampage](scc.v1:mcdm.beastheart.v1/feature.beastheart.level-1/rampage) feature provides additional effects when your companion has 16 or more rampage.

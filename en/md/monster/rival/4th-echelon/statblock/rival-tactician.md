@@ -27,7 +27,7 @@ type: statblock
 | **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |   **-**<br>Weakness   |
 |  **+5**<br>Might  | **+2**<br>Agility |  **+4**<br>Reason  |  **0**<br>Intuition   |   **+3**<br>Presence   |
 
-> 🏹 **Forward Assault ([Signature Ability](scc:mcdm.heroes.v1/rule.combat/signature-ability))**
+> 🏹 **Forward Assault ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
 > | **Ranged, Strike, Weapon** |                 **Main action** |
 > |----------------------------|--------------------------------:|
@@ -36,12 +36,12 @@ type: statblock
 > **Power Roll + 5:**
 >
 > - **≤11:** 15 damage
-> - **12-16:** 21 damage; A < 4 [prone](scc:mcdm.heroes.v1/condition/prone) and can't stand (EoT)
-> - **17+:** 25 damage; [prone](scc:mcdm.heroes.v1/condition/prone); A < 5 can't stand (EoT)
+> - **12-16:** 21 damage; A < 4 [prone](scc.v1:mcdm.heroes.v1/condition/prone) and can't stand (EoT)
+> - **17+:** 25 damage; [prone](scc.v1:mcdm.heroes.v1/condition/prone); A < 5 can't stand (EoT)
 >
-> **5 [Malice](scc:mcdm.monsters.v1/rule.monster/malice):** Two allies within distance move up to their speed and can use a [signature ability](scc:mcdm.heroes.v1/rule.combat/signature-ability) that has a double edge.
+> **5 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice):** Two allies within distance move up to their speed and can use a [signature ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability) that has a double edge.
 
-> 🔳 **Guardian From Afar (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
+> 🔳 **Guardian From Afar (3 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Area, Ranged, Weapon** |                 **Main action** |
 > |--------------------------|--------------------------------:|
@@ -49,11 +49,11 @@ type: statblock
 >
 > **Power Roll + 5:**
 >
-> - **≤11:** 10 damage; M < 3 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
-> - **12-16:** 16 damage; M < 4 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
-> - **17+:** 20 damage; M < 5 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
+> - **≤11:** 10 damage; M < 3 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+> - **12-16:** 16 damage; M < 4 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+> - **17+:** 20 damage; M < 5 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
 >
-> **Effect:** Each ally in the area regains 10 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina).
+> **Effect:** Each ally in the area regains 10 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).
 
 > ❗️ **Battlefield Control**
 >
@@ -63,8 +63,8 @@ type: statblock
 >
 > **Trigger:** An enemy within distance willingly moves.
 >
-> **Effect:** At any point during the movement, the tactician and one ally within distance can use a [signature ability](scc:mcdm.heroes.v1/rule.combat/signature-ability) against the target.
+> **Effect:** At any point during the movement, the tactician and one ally within distance can use a [signature ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability) against the target.
 
 > ⭐️ **Rivalry**
 >
-> At the start of an encounter, the tactician chooses one creature within their [line of effect](scc:mcdm.heroes.v1/rule.combat/line-of-effect). Both the tactician and the creature can add a d3 roll to power rolls they make against each other.
+> At the start of an encounter, the tactician chooses one creature within their [line of effect](scc.v1:mcdm.heroes.v1/rule.combat/line-of-effect). Both the tactician and the creature can add a d3 roll to power rolls they make against each other.

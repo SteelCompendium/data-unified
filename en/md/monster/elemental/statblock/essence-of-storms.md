@@ -38,10 +38,10 @@ type: statblock
 > **Power Roll + 2:**
 >
 > - **≤11:** 5 damage
-> - **12-16:** 5 damage, 4 lightning damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 1
-> - **17+:** 5 damage, 7 lightning damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 3
+> - **12-16:** 5 damage, 4 lightning damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1
+> - **17+:** 5 damage, 7 lightning damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3
 >
-> **Effect:** The essence [shifts](scc:mcdm.heroes.v1/movement/shifting) up to 3 squares before or after using this ability.
+> **Effect:** The essence [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to 3 squares before or after using this ability.
 
 > 🏹 **Convocation of Squalls**
 >
@@ -51,9 +51,9 @@ type: statblock
 >
 > **Effect:** Until the start of the essence's next turn, the target has lightning immunity 5.
 >
-> **3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice):** Until the end of the encounter, a vortex surrounds the target in a 3 aura. The area is [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain) for enemies. Additionally, at the end of each of the target's turns, they can [push](scc:mcdm.heroes.v1/movement/forced-movement) one creature in the area up to 5 squares.
+> **3 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice):** Until the end of the encounter, a vortex surrounds the target in a 3 aura. The area is [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain) for enemies. Additionally, at the end of each of the target's turns, they can [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) one creature in the area up to 5 squares.
 
-> ❗️ **Thunderclap (1 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
+> ❗️ **Thunderclap (1 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Magic, Ranged** |           **Triggered action** |
 > |-------------------|-------------------------------:|
@@ -65,4 +65,4 @@ type: statblock
 
 > ⭐️ **Fickle and Free**
 >
-> The essence can't be [restrained](scc:mcdm.heroes.v1/condition/restrained), [slowed](scc:mcdm.heroes.v1/condition/slowed), or knocked [prone](scc:mcdm.heroes.v1/condition/prone), and they ignore [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain).
+> The essence can't be [restrained](scc.v1:mcdm.heroes.v1/condition/restrained), [slowed](scc.v1:mcdm.heroes.v1/condition/slowed), or knocked [prone](scc.v1:mcdm.heroes.v1/condition/prone), and they ignore [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain).

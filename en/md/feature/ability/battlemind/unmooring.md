@@ -1,16 +1,16 @@
 ---
 action_type: Main action
-distance: '[Melee](scc:mcdm.heroes.v1/rule.combat/melee) 1'
-effect: Until the end of the target's next [turn](scc:mcdm.heroes.v1/rule.combat/turn), any [forced movement](scc:mcdm.heroes.v1/movement/forced-movement) that affects the target has its [distance](scc:mcdm.heroes.v1/rule.combat/distance) increased by 2.
+distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
+effect: Until the end of the target's next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), any [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) that affects the target has its [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance) increased by 2.
 flavor: Your weapon unleashes psionic energy that reduces your target's weight.
 keywords:
-    - '[Melee](scc:mcdm.heroes.v1/rule.combat/melee)'
+    - '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)'
     - Psionic
-    - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
+    - '[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)'
     - Weapon
 kit: battlemind
 name: Unmooring
-power_roll_characteristic: '[Might](scc:mcdm.heroes.v1/rule.character/might), [Reason](scc:mcdm.heroes.v1/rule.character/reason), [Intuition](scc:mcdm.heroes.v1/rule.character/intuition), or [Presence](scc:mcdm.heroes.v1/rule.character/presence)'
+power_roll_characteristic: '[Might](scc.v1:mcdm.heroes.v1/rule.character/might), [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason), [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition), or [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence)'
 scc: mcdm.heroes.v1/feature.ability.battlemind/unmooring
 subtype: signature
 target: One creature
@@ -22,14 +22,14 @@ type: ability
 
 *Your weapon unleashes psionic energy that reduces your target's weight.*
 
-| **[Melee](scc:mcdm.heroes.v1/rule.combat/melee), Psionic, [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** |     **Main action** |
+| **[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), Psionic, [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), Weapon** |     **Main action** |
 |------------------------------------|--------------------:|
-| **📏 [Melee](scc:mcdm.heroes.v1/rule.combat/melee) 1**                     | **🎯 One creature** |
+| **📏 [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1**                     | **🎯 One creature** |
 
-**[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc:mcdm.heroes.v1/rule.character/might), [Reason](scc:mcdm.heroes.v1/rule.character/reason), [Intuition](scc:mcdm.heroes.v1/rule.character/intuition), or [Presence](scc:mcdm.heroes.v1/rule.character/presence):**
+**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc.v1:mcdm.heroes.v1/rule.character/might), [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason), [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition), or [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence):**
 
 - **≤11:** 5 + M, R, I, or P damage
 - **12-16:** 8 + M, R, I, or P damage
 - **17+:** 11 + M, R, I, or P damage
 
-**Effect:** Until the end of the target's next [turn](scc:mcdm.heroes.v1/rule.combat/turn), any [forced movement](scc:mcdm.heroes.v1/movement/forced-movement) that affects the target has its [distance](scc:mcdm.heroes.v1/rule.combat/distance) increased by 2.
+**Effect:** Until the end of the target's next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), any [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) that affects the target has its [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance) increased by 2.

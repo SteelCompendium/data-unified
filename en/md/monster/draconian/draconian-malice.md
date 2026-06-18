@@ -1,6 +1,6 @@
 ---
 features:
-    - body: A draconian acting this turn flaps their wings and creates a mighty gale. Each creature [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the draconian is pushed up to 4 squares, and if they have M < 2, they are knocked [prone](scc:mcdm.heroes.v1/condition/prone).
+    - body: A draconian acting this turn flaps their wings and creates a mighty gale. Each creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the draconian is pushed up to 4 squares, and if they have M < 2, they are knocked [prone](scc.v1:mcdm.heroes.v1/condition/prone).
       cost: 3 Malice
       icon: "\U0001F464"
       name: Guarding Gale
@@ -47,13 +47,13 @@ scc: mcdm.monsters.v1/monster.draconian/draconian-malice
 type: featureblock
 ---
 
-At the start of any draconian's turn, you can spend [Malice](scc:mcdm.monsters.v1/rule.monster/malice) to activate one of the following features.
+At the start of any draconian's turn, you can spend [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice) to activate one of the following features.
 
-> 👤 **Guarding Gale (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
+> 👤 **Guarding Gale (3 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
-> A draconian acting this turn flaps their wings and creates a mighty gale. Each creature [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the draconian is pushed up to 4 squares, and if they have M < 2, they are knocked [prone](scc:mcdm.heroes.v1/condition/prone).
+> A draconian acting this turn flaps their wings and creates a mighty gale. Each creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the draconian is pushed up to 4 squares, and if they have M < 2, they are knocked [prone](scc.v1:mcdm.heroes.v1/condition/prone).
 
-> 🔳 **Breath Weapon (5 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
+> 🔳 **Breath Weapon (5 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Area, Magic**            |               **Main action** |
 > |----------------------------|------------------------------:|
@@ -67,7 +67,7 @@ At the start of any draconian's turn, you can spend [Malice](scc:mcdm.monsters.v
 > - **12-16:** 10 damage
 > - **17+:** 13 damage
 
-> ❇️ **Scaleshatter Burst (7 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
+> ❇️ **Scaleshatter Burst (7 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Area, Magic** |             **Free maneuver** |
 > |-----------------|------------------------------:|

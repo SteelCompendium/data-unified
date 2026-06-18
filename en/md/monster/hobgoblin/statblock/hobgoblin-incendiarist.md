@@ -45,7 +45,7 @@ type: statblock
 >
 > **Effect:** A burning creature takes 1d6 fire damage at the start of each of their turns. A burning object takes 1d6 fire damage at the end of each round.
 
-> 🔳 **Fireball Volley (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
+> 🔳 **Fireball Volley (3 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Area, Magic, Ranged** |                         **Main action** |
 > |-------------------------|----------------------------------------:|
@@ -55,14 +55,14 @@ type: statblock
 >
 > - **≤11:** 5 fire damage; A < 1 burning (save ends)
 > - **12-16:** 9 fire damage; A < 2 burning (save ends)
-> - **17+:** 11 fire damage; [prone](scc:mcdm.heroes.v1/condition/prone); A < 3 burning (save ends)
+> - **17+:** 11 fire damage; [prone](scc.v1:mcdm.heroes.v1/condition/prone); A < 3 burning (save ends)
 >
 > **Effect:** A burning creature takes 1d6 fire damage at the start of each of their turns. A burning object takes 1d6 fire damage at the end of each round.
 
 > ⭐️ **Raining Cinders**
 >
-> The ranged [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) of each ally within 3 squares of the incendiarist has a distance of 10 and deals fire damage.
+> The ranged [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) of each ally within 3 squares of the incendiarist has a distance of 10 and deals fire damage.
 
 > ⭐️ **Infernal Ichor**
 >
-> When the incendiarist is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), they spray burning blood. Each creature [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the incendiarist takes 3 fire damage.
+> When the incendiarist is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), they spray burning blood. Each creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the incendiarist takes 3 fire damage.

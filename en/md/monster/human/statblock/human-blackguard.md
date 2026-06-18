@@ -37,13 +37,13 @@ type: statblock
 >
 > **Power Roll + 3:**
 >
-> - **≤11:** 3 damage; M < 1 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
-> - **12-16:** 6 damage; M < 2 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
-> - **17+:** 8 damage; M < 3 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
+> - **≤11:** 3 damage; M < 1 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
+> - **12-16:** 6 damage; M < 2 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
+> - **17+:** 8 damage; M < 3 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
 >
-> **Effect:** One ally within 10 squares can make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike).
+> **Effect:** One ally within 10 squares can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike).
 >
-> **1 [Malice](scc:mcdm.monsters.v1/rule.monster/malice):** One ally within 10 squares can use their [signature ability](scc:mcdm.heroes.v1/rule.combat/signature-ability) instead.
+> **1 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice):** One ally within 10 squares can use their [signature ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability) instead.
 
 > 🏹 **You!**
 >
@@ -53,9 +53,9 @@ type: statblock
 >
 > **Effect:** The target is marked until the start of the blackguard's next turn. The blackguard and each of their allies gain an edge on abilities used against targets marked by the blackguard.
 
-> ⭐️ **[End Effect](scc:mcdm.monsters.v1/rule.monster/end-effect)**
+> ⭐️ **[End Effect](scc.v1:mcdm.monsters.v1/rule.monster/end-effect)**
 >
-> At the end of each of their turns, the blackguard can take 5 damage to end one effect on them that can be ended by a [saving throw](scc:mcdm.heroes.v1/rule.general/saving-throw). This damage can't be reduced in any way.
+> At the end of each of their turns, the blackguard can take 5 damage to end one effect on them that can be ended by a [saving throw](scc.v1:mcdm.heroes.v1/rule.general/saving-throw). This damage can't be reduced in any way.
 
 > ⭐️ **Supernatural Insight**
 >
@@ -67,30 +67,30 @@ type: statblock
 > |----------------|------------------------:|
 > | **📏 Melee 1** | **🎯 Self or one ally** |
 >
-> **Trigger:** A creature makes a strike against the blackguard or an ally [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to them.
+> **Trigger:** A creature makes a strike against the blackguard or an ally [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to them.
 >
 > **Effect:** The damage is halved.
 
-> ☠️ **Advance! ([Villain Action](scc:mcdm.monsters.v1/rule.monster/villain-action) 1)**
+> ☠️ **Advance! ([Villain Action](scc.v1:mcdm.monsters.v1/rule.monster/villain-action) 1)**
 >
 > | **-**       |       **-** | 
 > |-------------|------------:|
 > | **📏 Self** | **🎯 Self** |
 >
-> **Effect:** The blackguard [shifts](scc:mcdm.heroes.v1/movement/shifting) up to their speed. During or after this movement, they can use their Zweihander Swing twice.
+> **Effect:** The blackguard [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed. During or after this movement, they can use their Zweihander Swing twice.
 
-> ☠️ **Back! ([Villain Action](scc:mcdm.monsters.v1/rule.monster/villain-action) 2)**
+> ☠️ **Back! ([Villain Action](scc.v1:mcdm.monsters.v1/rule.monster/villain-action) 2)**
 >
 > | **Area, Magic** |                         **-** |
 > |-----------------|------------------------------:|
 > | **📏 5 burst**  | **🎯 Each enemy in the area** |
 >
-> **Effect:** The blackguard [slides](scc:mcdm.heroes.v1/movement/forced-movement) each target up to 5 squares.
+> **Effect:** The blackguard [slides](scc.v1:mcdm.heroes.v1/movement/forced-movement) each target up to 5 squares.
 
-> ☠️ **I Can Throw My Blade and So Should You! ([Villain Action](scc:mcdm.monsters.v1/rule.monster/villain-action) 3)**
+> ☠️ **I Can Throw My Blade and So Should You! ([Villain Action](scc.v1:mcdm.monsters.v1/rule.monster/villain-action) 3)**
 >
 > | **Area, Magic, Ranged, Weapon** |                         **-** |
 > |---------------------------------|------------------------------:|
 > | **📏 3 cube within 5**          | **🎯 Each enemy in the area** |
 >
-> **Effect:** The blackguard uses their Zweihander Swing against each target. Each ally within 5 squares of the area can then make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) against a target (one target per ally).
+> **Effect:** The blackguard uses their Zweihander Swing against each target. Each ally within 5 squares of the area can then make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against a target (one target per ally).

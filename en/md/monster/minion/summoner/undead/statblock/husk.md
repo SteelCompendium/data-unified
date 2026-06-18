@@ -37,4 +37,4 @@ Husks have stiff corpses that snap and crackle with each sudden movement. Corros
 
 > ⭐️ **Rotting Strike**
 >
-> The husk's melee [free strikes](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) inflict M < WEAK [slowed](scc:mcdm.heroes.v1/condition/slowed) ([EoT](scc:mcdm.heroes.v1/rule.combat/end-of-turn)). The [potency](scc:mcdm.heroes.v1/rule.character/potency) increases by 1 for each additional husk adjacent to the target (maximum +2).
+> The husk's melee [free strikes](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) inflict M < WEAK [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) ([EoT](scc.v1:mcdm.heroes.v1/rule.combat/end-of-turn)). The [potency](scc.v1:mcdm.heroes.v1/rule.character/potency) increases by 1 for each additional husk adjacent to the target (maximum +2).

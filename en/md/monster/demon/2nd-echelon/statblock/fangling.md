@@ -43,7 +43,7 @@ weaknesses:
 >
 > **Effect:** Each enemy adjacent to the fangling takes 2 damage.
 
-> 🔳 **Tumbling Gore (2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
+> 🔳 **Tumbling Gore (2 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Area, Weapon**           |                  **Maneuver** |
 > |----------------------------|------------------------------:|
@@ -51,17 +51,17 @@ weaknesses:
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 2 damage; pull 1; A < 1 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
-> - **12-16:** 3 damage; pull 1; A < 2 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
-> - **17+:** 4 damage; pull 1; A < 3 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
+> - **≤11:** 2 damage; pull 1; A < 1 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
+> - **12-16:** 3 damage; pull 1; A < 2 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
+> - **17+:** 4 damage; pull 1; A < 3 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
 
 > ⭐️ **Made of Teeth**
 >
-> Whenever an [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) enemy [grabs](scc:mcdm.heroes.v1/feature.common.maneuvers/grab) the fangling or uses a melee ability against the fangling, they take 2 damage.
+> Whenever an [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) enemy [grabs](scc.v1:mcdm.heroes.v1/feature.common.maneuvers/grab) the fangling or uses a melee ability against the fangling, they take 2 damage.
 
 > ⭐️ **Lethe**
 >
-> While the fangling is [winded](scc:mcdm.heroes.v1/rule.health/winded), they gain an [edge](scc:mcdm.heroes.v1/rule.dice/edge) on strikes, and any strike made against them gains an edge.
+> While the fangling is [winded](scc.v1:mcdm.heroes.v1/rule.health/winded), they gain an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on strikes, and any strike made against them gains an edge.
 
 > ⭐️ **Soulsight**
 >

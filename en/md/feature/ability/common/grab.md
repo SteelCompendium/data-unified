@@ -1,33 +1,33 @@
 ---
 action_type: Maneuver
-distance: '[Melee](scc:mcdm.heroes.v1/rule.combat/melee) 1'
-effect: You can usually target only creatures of your [size](scc:mcdm.heroes.v1/rule.character/size) or smaller. If your [Might](scc:mcdm.heroes.v1/rule.character/might) score is 2 or higher, you can target any creature with a [size](scc:mcdm.heroes.v1/rule.character/size) equal to or less than your [Might](scc:mcdm.heroes.v1/rule.character/might) score.
+distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
+effect: You can usually target only creatures of your [size](scc.v1:mcdm.heroes.v1/rule.character/size) or smaller. If your [Might](scc.v1:mcdm.heroes.v1/rule.character/might) score is 2 or higher, you can target any creature with a [size](scc.v1:mcdm.heroes.v1/rule.character/size) equal to or less than your [Might](scc.v1:mcdm.heroes.v1/rule.character/might) score.
 keywords:
-    - '[Melee](scc:mcdm.heroes.v1/rule.combat/melee)'
+    - '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)'
     - Weapon
 name: Grab
-power_roll_characteristic: '[Might](scc:mcdm.heroes.v1/rule.character/might)'
+power_roll_characteristic: '[Might](scc.v1:mcdm.heroes.v1/rule.character/might)'
 scc: mcdm.heroes.v1/feature.ability.common/grab
 target: One creature
 tier1: No effect.
-tier2: You can grab the target, but if you do, the target can make a [melee](scc:mcdm.heroes.v1/rule.combat/melee) [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) against you before they are [grabbed](scc:mcdm.heroes.v1/condition/grabbed).
-tier3: The target is [grabbed](scc:mcdm.heroes.v1/condition/grabbed) by you.
+tier2: You can grab the target, but if you do, the target can make a [melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against you before they are [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed).
+tier3: The target is [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) by you.
 type: ability
 ---
 
 
-| **[Melee](scc:mcdm.heroes.v1/rule.combat/melee), Weapon** |        **Maneuver** |
+| **[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), Weapon** |        **Maneuver** |
 |-------------------|--------------------:|
-| **📏 [Melee](scc:mcdm.heroes.v1/rule.combat/melee) 1**    | **🎯 One creature** |
+| **📏 [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1**    | **🎯 One creature** |
 
-**[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc:mcdm.heroes.v1/rule.character/might):**
+**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc.v1:mcdm.heroes.v1/rule.character/might):**
 
 - **≤11:** No effect.
-- **12-16:** You can grab the target, but if you do, the target can make a [melee](scc:mcdm.heroes.v1/rule.combat/melee) [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) against you before they are [grabbed](scc:mcdm.heroes.v1/condition/grabbed).
-- **17+:** The target is [grabbed](scc:mcdm.heroes.v1/condition/grabbed) by you.
+- **12-16:** You can grab the target, but if you do, the target can make a [melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against you before they are [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed).
+- **17+:** The target is [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) by you.
 
-**Effect:** You can usually target only creatures of your [size](scc:mcdm.heroes.v1/rule.character/size) or smaller. If your [Might](scc:mcdm.heroes.v1/rule.character/might) score is 2 or higher, you can target any creature with a [size](scc:mcdm.heroes.v1/rule.character/size) equal to or less than your [Might](scc:mcdm.heroes.v1/rule.character/might) score.
+**Effect:** You can usually target only creatures of your [size](scc.v1:mcdm.heroes.v1/rule.character/size) or smaller. If your [Might](scc.v1:mcdm.heroes.v1/rule.character/might) score is 2 or higher, you can target any creature with a [size](scc.v1:mcdm.heroes.v1/rule.character/size) equal to or less than your [Might](scc.v1:mcdm.heroes.v1/rule.character/might) score.
 
 Unless otherwise indicated, a creature can grab only one creature at a time.
 
-See [Conditions](scc:mcdm.heroes.v1/rule.combat/condition) in Chapter 5: [Classes](scc:mcdm.heroes.v1/chapter/classes) for information on the [grabbed](scc:mcdm.heroes.v1/condition/grabbed) [condition](scc:mcdm.heroes.v1/rule.combat/condition).
+See [Conditions](scc.v1:mcdm.heroes.v1/rule.combat/condition) in Chapter 5: [Classes](scc.v1:mcdm.heroes.v1/chapter/classes) for information on the [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) [condition](scc.v1:mcdm.heroes.v1/rule.combat/condition).

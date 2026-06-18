@@ -27,7 +27,7 @@ type: statblock
 |      **-**<br>Immunity      | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |       **+4**<br>Might       | **+3**<br>Agility |  **+2**<br>Reason  |  **+3**<br>Intuition  |  **+4**<br>Presence  |
 
-> ⚔️ **Houndblade ([Signature Ability](scc:mcdm.heroes.v1/rule.combat/signature-ability))**
+> ⚔️ **Houndblade ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
 > | **Charge, Melee, Ranged, Strike, Weapon** |                 **Main action** |
 > |-------------------------------------------|--------------------------------:|
@@ -41,15 +41,15 @@ type: statblock
 >
 > **Effect:** A creature taunted this way takes a bane on strikes.
 >
-> **3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice):** Each target loses 1d3 Recoveries.
+> **3 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice):** Each target loses 1d3 Recoveries.
 
-> 🏹 **Get Them, You Dolts! (1 [Malice](scc:mcdm.monsters.v1/rule.monster/malice) per target)**
+> 🏹 **Get Them, You Dolts! (1 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice) per target)**
 >
 > | **Ranged**       |           **Maneuver** |
 > |------------------|-----------------------:|
 > | **📏 Ranged 10** | **🎯 Three creatures** |
 >
-> **Effect:** Each target [shifts](scc:mcdm.heroes.v1/movement/shifting) up to their speed and can make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike). If the [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) targets an enemy taunted by the tetrarch, it deals an extra 4 damage.
+> **Effect:** Each target [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed and can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike). If the [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) targets an enemy taunted by the tetrarch, it deals an extra 4 damage.
 
 > ❗️ **Sneering Disregard**
 >
@@ -59,13 +59,13 @@ type: statblock
 >
 > **Trigger:** A creature within distance who is not taunted by the tetrarch targets the tetrarch with a power roll.
 >
-> **Effect:** The power roll has a double bane. If the target obtains a tier 1 outcome, the tetrarch ignores any of the power roll's effects other than damage and the target is [frightened](scc:mcdm.heroes.v1/condition/frightened) of the tetrarch (save ends).
+> **Effect:** The power roll has a double bane. If the target obtains a tier 1 outcome, the tetrarch ignores any of the power roll's effects other than damage and the target is [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) of the tetrarch (save ends).
 
-> ⭐️ **[End Effect](scc:mcdm.monsters.v1/rule.monster/end-effect)**
+> ⭐️ **[End Effect](scc.v1:mcdm.monsters.v1/rule.monster/end-effect)**
 >
-> At the end of each of their turns, the tetrarch can take 10 damage to end one effect on them that can be ended by a [saving throw](scc:mcdm.heroes.v1/rule.general/saving-throw). This damage can't be reduced in any way.
+> At the end of each of their turns, the tetrarch can take 10 damage to end one effect on them that can be ended by a [saving throw](scc.v1:mcdm.heroes.v1/rule.general/saving-throw). This damage can't be reduced in any way.
 
-> ☠️ **Enter the Fray ([Villain Action](scc:mcdm.monsters.v1/rule.monster/villain-action) 1)**
+> ☠️ **Enter the Fray ([Villain Action](scc.v1:mcdm.monsters.v1/rule.monster/villain-action) 1)**
 >
 > | **Area**       |                         **-** |
 > |----------------|------------------------------:|
@@ -75,11 +75,11 @@ type: statblock
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** [Push](scc:mcdm.heroes.v1/movement/forced-movement) 2; I < 2 [frightened](scc:mcdm.heroes.v1/condition/frightened) (save ends)
-> - **12-16:** [Push](scc:mcdm.heroes.v1/movement/forced-movement) 4; I < 3 [frightened](scc:mcdm.heroes.v1/condition/frightened) (save ends)
-> - **17+:** [Push](scc:mcdm.heroes.v1/movement/forced-movement) 5; I < 4 [frightened](scc:mcdm.heroes.v1/condition/frightened) (save ends)
+> - **≤11:** [Push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2; I < 2 [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
+> - **12-16:** [Push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 4; I < 3 [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
+> - **17+:** [Push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5; I < 4 [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
 
-> ☠️ **Lay Waste ([Villain Action](scc:mcdm.monsters.v1/rule.monster/villain-action) 2)**
+> ☠️ **Lay Waste ([Villain Action](scc.v1:mcdm.monsters.v1/rule.monster/villain-action) 2)**
 >
 > | **Area, Ranged, Weapon**      |                                       **-** |
 > |-------------------------------|--------------------------------------------:|
@@ -87,13 +87,13 @@ type: statblock
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** 7 fire damage; A < 2 [slowed](scc:mcdm.heroes.v1/condition/slowed) (EoT)
-> - **12-16:** 13 fire damage; A < 3 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
-> - **17+:** 16 fire damage; A < 4 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
+> - **≤11:** 7 fire damage; A < 2 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (EoT)
+> - **12-16:** 13 fire damage; A < 3 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
+> - **17+:** 16 fire damage; A < 4 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
 >
-> **Effect:** The area is set ablaze until the end of the encounter. While ablaze, the area is [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain), and any creature takes 2 fire damage for each square in the area they enter for the first time in a round.
+> **Effect:** The area is set ablaze until the end of the encounter. While ablaze, the area is [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain), and any creature takes 2 fire damage for each square in the area they enter for the first time in a round.
 
-> ☠️ **You Would Dare?! ([Villain Action](scc:mcdm.monsters.v1/rule.monster/villain-action) 3)**
+> ☠️ **You Would Dare?! ([Villain Action](scc.v1:mcdm.monsters.v1/rule.monster/villain-action) 3)**
 >
 > | **-**       |       **-** |
 > |-------------|------------:|

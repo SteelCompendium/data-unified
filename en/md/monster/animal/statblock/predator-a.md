@@ -35,8 +35,8 @@ type: statblock
 > **Power Roll + 2:**
 >
 > - **≤11:** 7 damage
-> - **12-16:** 10 damage; M < 1 [prone](scc:mcdm.heroes.v1/condition/prone)
-> - **17+:** 13 damage; M < 1 [prone](scc:mcdm.heroes.v1/condition/prone)
+> - **12-16:** 10 damage; M < 1 [prone](scc.v1:mcdm.heroes.v1/condition/prone)
+> - **17+:** 13 damage; M < 1 [prone](scc.v1:mcdm.heroes.v1/condition/prone)
 
 > 👤 **Ready to Strike**
 >
@@ -54,7 +54,7 @@ type: statblock
 >
 > **Trigger:** A creature or object comes within distance.
 >
-> **Effect:** The predator makes a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) against the target. If the predator was hidden from the target, the strike deals an extra 3 damage.
+> **Effect:** The predator makes a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against the target. If the predator was hidden from the target, the strike deals an extra 3 damage.
 
 > ⭐️ **Nature's Spirit**
 >

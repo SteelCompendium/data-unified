@@ -2,7 +2,7 @@
 action_type: Main action
 class: summoner
 distance: Melee 3
-effect: This [strike](scc:mcdm.heroes.v1/rule.combat/strike) deals an additional 2 [damage](scc:mcdm.heroes.v1/rule.damage/damage) for each ally [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to you.
+effect: This [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) deals an additional 2 [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage) for each ally [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to you.
 flavor: You draw your strength from the army you surround yourself with and summon a hot blade of energy and fervor.
 keywords:
     - Magic
@@ -31,4 +31,4 @@ type: ability
 - **12-16:** 2 + R damage
 - **17+:** 4 + R damage
 
-**Effect:** This [strike](scc:mcdm.heroes.v1/rule.combat/strike) deals an additional 2 [damage](scc:mcdm.heroes.v1/rule.damage/damage) for each ally [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to you.
+**Effect:** This [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) deals an additional 2 [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage) for each ally [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to you.

@@ -27,7 +27,7 @@ type: statblock
 | **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |   **-**<br>Weakness   |
 |  **+1**<br>Might  | **+3**<br>Agility |  **+5**<br>Reason  |  **+4**<br>Intuition  |  **+1**<br>Presence   |
 
-> 🏹 **Viridescent Storm ([Signature Ability](scc:mcdm.heroes.v1/rule.combat/signature-ability))**
+> 🏹 **Viridescent Storm ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
 > | **Green, Magic, Ranged, Strike** |                 **Main action** |
 > |----------------------------------|--------------------------------:|
@@ -35,19 +35,19 @@ type: statblock
 >
 > **Power Roll + 5:**
 >
-> - **≤11:** 15 damage; [slide](scc:mcdm.heroes.v1/movement/forced-movement) 3; M < 3 5 acid damage
-> - **12-16:** 20 damage; [slide](scc:mcdm.heroes.v1/movement/forced-movement) 4; M < 4 7 acid damage
-> - **17+:** 24 damage; [slide](scc:mcdm.heroes.v1/movement/forced-movement) 5; M < 5 9 acid damage
+> - **≤11:** 15 damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3; M < 3 5 acid damage
+> - **12-16:** 20 damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 4; M < 4 7 acid damage
+> - **17+:** 24 damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5; M < 5 9 acid damage
 >
-> **Effect:** One ally within distance ends all [conditions](scc:mcdm.heroes.v1/rule.combat/condition) on themself.
+> **Effect:** One ally within distance ends all [conditions](scc.v1:mcdm.heroes.v1/rule.combat/condition) on themself.
 
-> 🔳 **The World Consumes (5 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
+> 🔳 **The World Consumes (5 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Area, Green, Magic, Ranged** |               **Main action** |
 > |--------------------------------|------------------------------:|
 > | **📏 3 cube within 10**        | **🎯 Each enemy in the area** |
 >
-> **Effect:** The area becomes overgrown with caustic vines until the end of the encounter. While in the area, any enemy has acid [weakness](scc:mcdm.heroes.v1/rule.damage/damage-weakness) 5 and is [slowed](scc:mcdm.heroes.v1/condition/slowed). Any enemy who ends their turn in the area and has M < 4 is [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends).
+> **Effect:** The area becomes overgrown with caustic vines until the end of the encounter. While in the area, any enemy has acid [weakness](scc.v1:mcdm.heroes.v1/rule.damage/damage-weakness) 5 and is [slowed](scc.v1:mcdm.heroes.v1/condition/slowed). Any enemy who ends their turn in the area and has M < 4 is [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends).
 
 > ❗️ **Breach of Nihility**
 >
@@ -57,8 +57,8 @@ type: statblock
 >
 > **Trigger:** The elementalist takes damage.
 >
-> **Effect:** The elementalist can [teleport](scc:mcdm.heroes.v1/movement/teleport) up to 5 squares. Each creature [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the space they leave or appear in takes 5 corruption damage.
+> **Effect:** The elementalist can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) up to 5 squares. Each creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the space they leave or appear in takes 5 corruption damage.
 
 > ⭐️ **Rivalry**
 >
-> At the start of an encounter, the elementalist chooses one creature within their [line of effect](scc:mcdm.heroes.v1/rule.combat/line-of-effect). Both the elementalist and the creature can add a d3 roll to power rolls they make against each other.
+> At the start of an encounter, the elementalist chooses one creature within their [line of effect](scc.v1:mcdm.heroes.v1/rule.combat/line-of-effect). Both the elementalist and the creature can add a d3 roll to power rolls they make against each other.

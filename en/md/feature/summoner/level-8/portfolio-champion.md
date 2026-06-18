@@ -10,13 +10,13 @@ Your circle now allows you to add a champion to your portfolio. Champions follow
 
 - You can only summon and command one instance of your champion.
 - Your champion is in their own squad that does not count toward your maximum number of squads.
-- Your champion can regain [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) and gain [temporary Stamina](scc:mcdm.heroes.v1/rule.health/temporary-stamina).
-- Your champion uses your [Recoveries](scc:mcdm.heroes.v1/rule.health/recoveries) to regain [Stamina](scc:mcdm.heroes.v1/rule.health/stamina).
-- Your champion can take the [Heal](scc:mcdm.heroes.v1/feature.common.main-actions/heal) and [Defend](scc:mcdm.heroes.v1/feature.common.main-actions/defend) Actions.
+- Your champion can regain [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) and gain [temporary Stamina](scc.v1:mcdm.heroes.v1/rule.health/temporary-stamina).
+- Your champion uses your [Recoveries](scc.v1:mcdm.heroes.v1/rule.health/recoveries) to regain [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).
+- Your champion can take the [Heal](scc.v1:mcdm.heroes.v1/feature.common.main-actions/heal) and [Defend](scc.v1:mcdm.heroes.v1/feature.common.main-actions/defend) Actions.
 - Your champion uses the normal rules for maneuvers.
-- You have an [edge](scc:mcdm.heroes.v1/rule.dice/edge) whenever you use an ability with the Champion keyword from your Champion's space.
+- You have an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) whenever you use an ability with the Champion keyword from your Champion's space.
 - Your champion refuses to be referred to as a minion.
 
-After summoning a champion, you can't summon them again until you earn a [Victory](scc:mcdm.heroes.v1/rule.resource/victories).
+After summoning a champion, you can't summon them again until you earn a [Victory](scc.v1:mcdm.heroes.v1/rule.resource/victories).
 
-Your champion gains additional features at 10th level. This includes a special Champion Action ability that costs eidos to use (see [Eidos](scc:mcdm.summoner.v1/feature.summoner.level-10/eidos)). This ability can be activated once per encounter at the end of any other creature's [turn](scc:mcdm.heroes.v1/rule.combat/turn).
+Your champion gains additional features at 10th level. This includes a special Champion Action ability that costs eidos to use (see [Eidos](scc.v1:mcdm.summoner.v1/feature.summoner.level-10/eidos)). This ability can be activated once per encounter at the end of any other creature's [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn).

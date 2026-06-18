@@ -2,7 +2,7 @@
 action_type: Maneuver
 class: summoner
 distance: Summoner's Range
-effect: Until the end of the encounter, each target can use a [free triggered action](scc:mcdm.heroes.v1/rule.combat/triggered-action) whenever they take [damage](scc:mcdm.heroes.v1/rule.damage/damage) to reduce the incoming [damage](scc:mcdm.heroes.v1/rule.damage/damage) by half and then lose this effect.
+effect: Until the end of the encounter, each target can use a [free triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action) whenever they take [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage) to reduce the incoming [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage) by half and then lose this effect.
 flavor: You call forth protective forces to keep you all from harm.
 keywords:
     - Magic
@@ -30,4 +30,4 @@ type: ability
 - **12-16:** Four creatures
 - **17+:** Five creatures
 
-**Effect:** Until the end of the encounter, each target can use a [free triggered action](scc:mcdm.heroes.v1/rule.combat/triggered-action) whenever they take [damage](scc:mcdm.heroes.v1/rule.damage/damage) to reduce the incoming [damage](scc:mcdm.heroes.v1/rule.damage/damage) by half and then lose this effect.
+**Effect:** Until the end of the encounter, each target can use a [free triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action) whenever they take [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage) to reduce the incoming [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage) by half and then lose this effect.

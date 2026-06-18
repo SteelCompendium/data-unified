@@ -2,11 +2,11 @@
 action_type: Main action
 class: tactician
 cost: 9 Focus
-distance: '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 10'
-effect: Each target gains 1 [surge](scc:mcdm.heroes.v1/rule.resource/surge) and can use a [signature ability](scc:mcdm.heroes.v1/rule.combat/signature-ability) that has a double [edge](scc:mcdm.heroes.v1/rule.dice/edge).
+distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
+effect: Each target gains 1 [surge](scc.v1:mcdm.heroes.v1/rule.resource/surge) and can use a [signature ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability) that has a double [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge).
 flavor: You remind your allies how to best use their gear.
 keywords:
-    - '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)'
+    - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'
 level: "5"
 name: Squad! Remember Your Training!
 scc: mcdm.heroes.v1/feature.ability.tactician.level-5/squad-remember-your-training
@@ -17,8 +17,8 @@ type: ability
 
 *You remind your allies how to best use their gear.*
 
-| **[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)**                |                         **Main action** |
+| **[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)**                |                         **Main action** |
 |------------------------------|----------------------------------------:|
-| **📏 [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 10**  | **🎯 Self and two allies** |
+| **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**  | **🎯 Self and two allies** |
 
-**Effect:** Each target gains 1 [surge](scc:mcdm.heroes.v1/rule.resource/surge) and can use a [signature ability](scc:mcdm.heroes.v1/rule.combat/signature-ability) that has a double [edge](scc:mcdm.heroes.v1/rule.dice/edge).
+**Effect:** Each target gains 1 [surge](scc.v1:mcdm.heroes.v1/rule.resource/surge) and can use a [signature ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability) that has a double [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge).

@@ -13,9 +13,9 @@ name: Lead By Example
 power_roll_characteristic: Reason
 scc: mcdm.summoner.v1/feature.ability.summoner.level-3/lead-by-example
 target: One enemy or object
-tier1: 8 + R [damage](scc:mcdm.heroes.v1/rule.damage/damage); R < WEAK [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)
-tier2: 12 + R [damage](scc:mcdm.heroes.v1/rule.damage/damage); R < AVERAGE [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)
-tier3: 16 + R [damage](scc:mcdm.heroes.v1/rule.damage/damage); R < STRONG [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)
+tier1: 8 + R [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage); R < WEAK [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
+tier2: 12 + R [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage); R < AVERAGE [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
+tier3: 16 + R [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage); R < STRONG [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
 type: ability
 ---
 
@@ -27,6 +27,6 @@ type: ability
 
 **Power Roll + Reason:**
 
-- **≤11:** 8 + R [damage](scc:mcdm.heroes.v1/rule.damage/damage); R < WEAK [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)
-- **12-16:** 12 + R [damage](scc:mcdm.heroes.v1/rule.damage/damage); R < AVERAGE [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)
-- **17+:** 16 + R [damage](scc:mcdm.heroes.v1/rule.damage/damage); R < STRONG [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)
+- **≤11:** 8 + R [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage); R < WEAK [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
+- **12-16:** 12 + R [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage); R < AVERAGE [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
+- **17+:** 16 + R [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage); R < STRONG [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)

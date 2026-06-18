@@ -7,4 +7,4 @@ scc: mcdm.beastheart.v1/feature.companion.beastheart.condor.level-1/moving-targe
 type: feature
 ---
 
-While the condor is [flying](scc:mcdm.heroes.v1/movement/fly) and has a speed greater than 0, ranged strikes against them take a bane.
+While the condor is [flying](scc.v1:mcdm.heroes.v1/movement/fly) and has a speed greater than 0, ranged strikes against them take a bane.

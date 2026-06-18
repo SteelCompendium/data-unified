@@ -2,12 +2,12 @@
 action_type: Maneuver
 class: conduit
 cost: 9 Piety
-distance: '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 10'
-effect: Each target gains 3 of their [Heroic Resource](scc:mcdm.heroes.v1/rule.resource/heroic-resource).
+distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
+effect: Each target gains 3 of their [Heroic Resource](scc.v1:mcdm.heroes.v1/rule.resource/heroic-resource).
 flavor: You beseech the gods to give your allies what they need to win the day, and the gods answer.
 keywords:
     - Magic
-    - '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)'
+    - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'
 level: "6"
 name: Lauded by God
 scc: mcdm.heroes.v1/feature.ability.conduit.level-6/lauded-by-god
@@ -18,8 +18,8 @@ type: ability
 
 *You beseech the gods to give your allies what they need to win the day, and the gods answer.*
 
-| **Magic, [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)**  |      **Maneuver** |
+| **Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)**  |      **Maneuver** |
 |--------------------|------------------:|
-| **📏 [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 10**   | **🎯 Two allies** |
+| **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**   | **🎯 Two allies** |
 
-**Effect:** Each target gains 3 of their [Heroic Resource](scc:mcdm.heroes.v1/rule.resource/heroic-resource).
+**Effect:** Each target gains 3 of their [Heroic Resource](scc.v1:mcdm.heroes.v1/rule.resource/heroic-resource).

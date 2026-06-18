@@ -2,9 +2,9 @@
 action_type: Maneuver
 class: conduit
 cost: 11 Piety
-distance: 5 [aura](scc:mcdm.heroes.v1/rule.combat/aura)
-effect: Until the end of the encounter, any [ability roll](scc:mcdm.heroes.v1/rule.dice/ability-roll) made against a target takes a [bane](scc:mcdm.heroes.v1/rule.dice/bane) and each target has [damage immunity](scc:mcdm.heroes.v1/rule.damage/damage-immunity) 5.
-flavor: A protective [aura](scc:mcdm.heroes.v1/rule.combat/aura) defends your allies from harm.
+distance: 5 [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura)
+effect: Until the end of the encounter, any [ability roll](scc.v1:mcdm.heroes.v1/rule.dice/ability-roll) made against a target takes a [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) and each target has [damage immunity](scc.v1:mcdm.heroes.v1/rule.damage/damage-immunity) 5.
+flavor: A protective [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura) defends your allies from harm.
 keywords:
     - Area
     - Magic
@@ -16,10 +16,10 @@ type: ability
 ---
 
 
-*A protective [aura](scc:mcdm.heroes.v1/rule.combat/aura) defends your allies from harm.*
+*A protective [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura) defends your allies from harm.*
 
 | **Area, Magic**   |                          **Maneuver** |
 |-------------------|--------------------------------------:|
-| **📏 5 [aura](scc:mcdm.heroes.v1/rule.combat/aura)**     | **🎯 Self and each ally in the area** |
+| **📏 5 [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura)**     | **🎯 Self and each ally in the area** |
 
-**Effect:** Until the end of the encounter, any [ability roll](scc:mcdm.heroes.v1/rule.dice/ability-roll) made against a target takes a [bane](scc:mcdm.heroes.v1/rule.dice/bane) and each target has [damage immunity](scc:mcdm.heroes.v1/rule.damage/damage-immunity) 5.
+**Effect:** Until the end of the encounter, any [ability roll](scc.v1:mcdm.heroes.v1/rule.dice/ability-roll) made against a target takes a [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) and each target has [damage immunity](scc.v1:mcdm.heroes.v1/rule.damage/damage-immunity) 5.

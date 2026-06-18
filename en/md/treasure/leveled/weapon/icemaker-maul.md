@@ -14,16 +14,16 @@ type: treasure
 
 **Keywords:** Heavy Weapon, Magic
 
-**[Item Prerequisite](scc:mcdm.heroes.v1/rule.downtime/item-prerequisite):** Eight iron bars cooled in a glacier, the branch of an ancient evergreen
+**[Item Prerequisite](scc.v1:mcdm.heroes.v1/rule.downtime/item-prerequisite):** Eight iron bars cooled in a glacier, the branch of an ancient evergreen
 
-**[Project Source](scc:mcdm.heroes.v1/rule.downtime/project-source):** Texts in Zaliac
+**[Project Source](scc.v1:mcdm.heroes.v1/rule.downtime/project-source):** Texts in Zaliac
 
-**[Project Roll](scc:mcdm.heroes.v1/rule.downtime/project-roll) [Characteristic](scc:mcdm.heroes.v1/rule.character/characteristic):** [Might](scc:mcdm.heroes.v1/rule.character/might), [Reason](scc:mcdm.heroes.v1/rule.character/reason), or [Intuition](scc:mcdm.heroes.v1/rule.character/intuition)
+**[Project Roll](scc.v1:mcdm.heroes.v1/rule.downtime/project-roll) [Characteristic](scc.v1:mcdm.heroes.v1/rule.character/characteristic):** [Might](scc.v1:mcdm.heroes.v1/rule.character/might), [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason), or [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)
 
 **Project Goal:** 450
 
-**1st Level:** Any weapon ability that deals [rolled damage](scc:mcdm.heroes.v1/rule.damage/rolled-damage) using this weapon deals an extra 1 cold damage. Additionally, you can use a maneuver to create an ice field in a 3 [burst](scc:mcdm.heroes.v1/rule.combat/burst). The ground in this area is [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain) for enemies, and lasts until the end of the encounter or when you use this ability again.
+**1st Level:** Any weapon ability that deals [rolled damage](scc.v1:mcdm.heroes.v1/rule.damage/rolled-damage) using this weapon deals an extra 1 cold damage. Additionally, you can use a maneuver to create an ice field in a 3 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst). The ground in this area is [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain) for enemies, and lasts until the end of the encounter or when you use this ability again.
 
-**5th Level:** The weapon's extra cold damage increases to 2, and the ice field becomes a 4 [burst](scc:mcdm.heroes.v1/rule.combat/burst). Additionally, whenever you use a weapon ability using this weapon against one or more enemies in the ice field, you gain 1 [surge](scc:mcdm.heroes.v1/rule.resource/surge) that you can use immediately.
+**5th Level:** The weapon's extra cold damage increases to 2, and the ice field becomes a 4 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst). Additionally, whenever you use a weapon ability using this weapon against one or more enemies in the ice field, you gain 1 [surge](scc.v1:mcdm.heroes.v1/rule.resource/surge) that you can use immediately.
 
-**9th Level:** The weapon's extra cold damage increases to 3, and the ice field becomes a 5 [burst](scc:mcdm.heroes.v1/rule.combat/burst). Additionally, any enemy in the ice field who is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) by an ability using the weapon can be shattered, killing them and dealing 15 cold damage to each enemy within 3 squares of them.
+**9th Level:** The weapon's extra cold damage increases to 3, and the ice field becomes a 5 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst). Additionally, any enemy in the ice field who is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) by an ability using the weapon can be shattered, killing them and dealing 15 cold damage to each enemy within 3 squares of them.

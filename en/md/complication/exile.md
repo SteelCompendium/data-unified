@@ -1,6 +1,6 @@
 ---
-benefit: 'You know one extant language of your choice (see Languages in [Orden](scc:mcdm.heroes.v1/rule.world/orden) in Chapter 4: [Background](scc:mcdm.heroes.v1/chapter/background)).'
-drawback: If any [NPC](scc:mcdm.heroes.v1/rule.general/npc) from your homeland recognizes you, whether in your homeland or elsewhere, they attempt to harm you at the Director's discretion.
+benefit: 'You know one extant language of your choice (see Languages in [Orden](scc.v1:mcdm.heroes.v1/rule.world/orden) in Chapter 4: [Background](scc.v1:mcdm.heroes.v1/chapter/background)).'
+drawback: If any [NPC](scc.v1:mcdm.heroes.v1/rule.general/npc) from your homeland recognizes you, whether in your homeland or elsewhere, they attempt to harm you at the Director's discretion.
 flavor: Whether you're a convicted criminal, a noble stripped of their title, or a person who made one too many enemies, you've been cast forth from your homeland, never to return. At least not until you're strong enough to set things right.
 name: Exile
 scc: mcdm.heroes.v1/complication/exile
@@ -9,6 +9,6 @@ type: complication
 
 Whether you're a convicted criminal, a noble stripped of their title, or a person who made one too many enemies, you've been cast forth from your homeland, never to return. At least not until you're strong enough to set things right.
 
-**Benefit:** You know one extant language of your choice (see Languages in [Orden](scc:mcdm.heroes.v1/rule.world/orden) in Chapter 4: [Background](scc:mcdm.heroes.v1/chapter/background)).
+**Benefit:** You know one extant language of your choice (see Languages in [Orden](scc.v1:mcdm.heroes.v1/rule.world/orden) in Chapter 4: [Background](scc.v1:mcdm.heroes.v1/chapter/background)).
 
-**Drawback:** If any [NPC](scc:mcdm.heroes.v1/rule.general/npc) from your homeland recognizes you, whether in your homeland or elsewhere, they attempt to harm you at the Director's discretion.
+**Drawback:** If any [NPC](scc.v1:mcdm.heroes.v1/rule.general/npc) from your homeland recognizes you, whether in your homeland or elsewhere, they attempt to harm you at the Director's discretion.

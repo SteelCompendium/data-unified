@@ -36,12 +36,12 @@ The desolations have vaguely humanoid sand forms with no legs. Their glass hose 
 
 > ⭐️ **Burying Strike**
 >
-> The desolation's [free strikes](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) inflict M < AVERAGE [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends). If the target is already [slowed](scc:mcdm.heroes.v1/condition/slowed), then they are M < STRONG [restrained](scc:mcdm.heroes.v1/condition/restrained) ([EoT](scc:mcdm.heroes.v1/rule.combat/end-of-turn)).
+> The desolation's [free strikes](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) inflict M < AVERAGE [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends). If the target is already [slowed](scc.v1:mcdm.heroes.v1/condition/slowed), then they are M < STRONG [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) ([EoT](scc.v1:mcdm.heroes.v1/rule.combat/end-of-turn)).
 
 > ⭐️ **Sand Through Your Fingers**
 >
-> The desolation doesn't provoke [opportunity attacks](scc:mcdm.heroes.v1/rule.combat/opportunity-attack) by moving.
+> The desolation doesn't provoke [opportunity attacks](scc.v1:mcdm.heroes.v1/rule.combat/opportunity-attack) by moving.
 
 > ⭐️ **Shifting Sand Pit** 1 Essence
 >
-> When the desolation is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), the area within 1 square of the desolation becomes [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain) for enemies until the end of the encounter. You or an ally that enters the affected area can immediately [shift](scc:mcdm.heroes.v1/movement/shifting) 3.
+> When the desolation is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), the area within 1 square of the desolation becomes [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain) for enemies until the end of the encounter. You or an ally that enters the affected area can immediately [shift](scc.v1:mcdm.heroes.v1/movement/shifting) 3.

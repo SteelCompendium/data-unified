@@ -13,10 +13,10 @@ You can also take advantage of powerful magic to buff your allies, whittle down 
 
 ### Draw Steel Master Classes
 
-The [summoner](scc:mcdm.summoner.v1/class/summoner) is an example of a master class in Draw Steel. Master classes are intended for players who are familiar with the game and have played a few sessions already. They are not recommended for first time players—you need to know the rules before we start breaking them on you!
+The [summoner](scc.v1:mcdm.summoner.v1/class/summoner) is an example of a master class in Draw Steel. Master classes are intended for players who are familiar with the game and have played a few sessions already. They are not recommended for first time players—you need to know the rules before we start breaking them on you!
 
 If you are new to Draw Steel, we recommend checking out The Delian Tomb starter adventure, which includes a step-by-step tutorial on how to play the game and breaks down all the working parts of a hero. Save Broadhurst first, and then you hurry back here!
 
 ### 1st-Level Features
 
-As a [summoner](scc:mcdm.summoner.v1/class/summoner), you gain the following features.
+As a [summoner](scc.v1:mcdm.summoner.v1/class/summoner), you gain the following features.

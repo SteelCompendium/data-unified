@@ -2,37 +2,37 @@
 action_type: Main action
 class: fury
 cost: 9 Ferocity
-distance: '[Melee](scc:mcdm.heroes.v1/rule.combat/melee) 1'
-effect: You [shift](scc:mcdm.heroes.v1/movement/shifting) up to your [speed](scc:mcdm.heroes.v1/rule.character/speed).
+distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
+effect: You [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to your [speed](scc.v1:mcdm.heroes.v1/rule.character/speed).
 flavor: You break through the enemy lines to make an example.
 keywords:
-    - '[Melee](scc:mcdm.heroes.v1/rule.combat/melee)'
-    - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
+    - '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)'
+    - '[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)'
     - Weapon
 level: "6"
 name: Seek and Destroy
-power_roll_characteristic: '[Might](scc:mcdm.heroes.v1/rule.character/might)'
+power_roll_characteristic: '[Might](scc.v1:mcdm.heroes.v1/rule.character/might)'
 scc: mcdm.heroes.v1/feature.ability.fury.level-6/seek-and-destroy
 target: One creature
-tier1: 4 + M damage; P < WEAK, [frightened](scc:mcdm.heroes.v1/condition/frightened) (save ends)
-tier2: 6 + M damage; P < AVERAGE, [frightened](scc:mcdm.heroes.v1/condition/frightened) (save ends)
-tier3: 10 + M damage; P < STRONG, [frightened](scc:mcdm.heroes.v1/condition/frightened) (save ends)
+tier1: 4 + M damage; P < WEAK, [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
+tier2: 6 + M damage; P < AVERAGE, [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
+tier3: 10 + M damage; P < STRONG, [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
 type: ability
 ---
 
 
 *You break through the enemy lines to make an example.*
 
-| **[Melee](scc:mcdm.heroes.v1/rule.combat/melee), [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** |     **Main action** |
+| **[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), Weapon** |     **Main action** |
 |---------------------------|--------------------:|
-| **📏 [Melee](scc:mcdm.heroes.v1/rule.combat/melee) 1**            | **🎯 One creature** |
+| **📏 [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1**            | **🎯 One creature** |
 
-**Effect:** You [shift](scc:mcdm.heroes.v1/movement/shifting) up to your [speed](scc:mcdm.heroes.v1/rule.character/speed).
+**Effect:** You [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to your [speed](scc.v1:mcdm.heroes.v1/rule.character/speed).
 
-**[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc:mcdm.heroes.v1/rule.character/might):**
+**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc.v1:mcdm.heroes.v1/rule.character/might):**
 
-- **≤11:** 4 + M damage; P < WEAK, [frightened](scc:mcdm.heroes.v1/condition/frightened) (save ends)
-- **12-16:** 6 + M damage; P < AVERAGE, [frightened](scc:mcdm.heroes.v1/condition/frightened) (save ends)
-- **17+:** 10 + M damage; P < STRONG, [frightened](scc:mcdm.heroes.v1/condition/frightened) (save ends)
+- **≤11:** 4 + M damage; P < WEAK, [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
+- **12-16:** 6 + M damage; P < AVERAGE, [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
+- **17+:** 10 + M damage; P < STRONG, [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
 
-**Effect:** If a target who is not a leader or solo creature is [winded](scc:mcdm.heroes.v1/rule.health/winded) by this [strike](scc:mcdm.heroes.v1/rule.combat/strike), they are reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) and you choose an enemy within 5 squares of you. If that enemy has P < AVERAGE, they are [frightened](scc:mcdm.heroes.v1/condition/frightened) of you (save ends).
+**Effect:** If a target who is not a leader or solo creature is [winded](scc.v1:mcdm.heroes.v1/rule.health/winded) by this [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), they are reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) and you choose an enemy within 5 squares of you. If that enemy has P < AVERAGE, they are [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) of you (save ends).

@@ -4,4 +4,4 @@ scc: mcdm.heroes.v1/rule.combat/melee
 type: rule
 ---
 
-Abilities with the Melee keyword can be used only over very short distances, typically within a character's reach, because they require a character to make contact with a creature or object with their body, a weapon, or an [implement](scc:mcdm.heroes.v1/rule.treasure/implement). (An [implement](scc:mcdm.heroes.v1/rule.treasure/implement) is a special object used by characters channeling magic or psionic power, described in Imbue Treasure in Chapter 12: [Downtime Projects](scc:mcdm.heroes.v1/chapter/downtime-projects).)
+Abilities with the Melee keyword can be used only over very short distances, typically within a character's reach, because they require a character to make contact with a creature or object with their body, a weapon, or an [implement](scc.v1:mcdm.heroes.v1/rule.treasure/implement). (An [implement](scc.v1:mcdm.heroes.v1/rule.treasure/implement) is a special object used by characters channeling magic or psionic power, described in Imbue Treasure in Chapter 12: [Downtime Projects](scc.v1:mcdm.heroes.v1/chapter/downtime-projects).)

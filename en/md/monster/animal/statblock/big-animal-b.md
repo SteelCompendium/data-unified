@@ -54,7 +54,7 @@ type: statblock
 >
 > **Trigger:** The target is knocked prone.
 >
-> **Effect:** The animal moves up to their speed. If they end their turn adjacent to the target, they can use the [Stand Up](scc:mcdm.heroes.v1/feature.common.maneuvers/stand-up) maneuver to let the target stand, then get on to ride them.
+> **Effect:** The animal moves up to their speed. If they end their turn adjacent to the target, they can use the [Stand Up](scc.v1:mcdm.heroes.v1/feature.common.maneuvers/stand-up) maneuver to let the target stand, then get on to ride them.
 
 > ⭐️ **Beast of Burden**
 >

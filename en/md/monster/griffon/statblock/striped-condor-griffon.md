@@ -36,19 +36,19 @@ type: statblock
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 7 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 1
-> - **12-16:** 11 damage; one target is [pushed](scc:mcdm.heroes.v1/movement/forced-movement) up to 2 squares; the other target is vertical [pushed](scc:mcdm.heroes.v1/movement/forced-movement) up to 2 squares
-> - **17+:** 14 damage; one target is [pushed](scc:mcdm.heroes.v1/movement/forced-movement) up to 2 squares and knocked [prone](scc:mcdm.heroes.v1/condition/prone); the other target is vertical [pushed](scc:mcdm.heroes.v1/movement/forced-movement) up to 3 squares
+> - **≤11:** 7 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1
+> - **12-16:** 11 damage; one target is [pushed](scc.v1:mcdm.heroes.v1/movement/forced-movement) up to 2 squares; the other target is vertical [pushed](scc.v1:mcdm.heroes.v1/movement/forced-movement) up to 2 squares
+> - **17+:** 14 damage; one target is [pushed](scc.v1:mcdm.heroes.v1/movement/forced-movement) up to 2 squares and knocked [prone](scc.v1:mcdm.heroes.v1/condition/prone); the other target is vertical [pushed](scc.v1:mcdm.heroes.v1/movement/forced-movement) up to 3 squares
 
-> 👤 **Bound Ahead (5 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
+> 👤 **Bound Ahead (5 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **-**       | **Main action** |
 > |-------------|----------------:|
 > | **📏 Self** |     **🎯 Self** |
 >
-> **Effect:** The griffon [shifts](scc:mcdm.heroes.v1/movement/shifting) up to their speed along the ground in straight line. Each enemy who comes [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the griffon during this shift can choose to either take 5 damage or be knocked [prone](scc:mcdm.heroes.v1/condition/prone).
+> **Effect:** The griffon [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed along the ground in straight line. Each enemy who comes [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the griffon during this shift can choose to either take 5 damage or be knocked [prone](scc.v1:mcdm.heroes.v1/condition/prone).
 
-> 🔳 **Power Wing Buffet (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
+> 🔳 **Power Wing Buffet (3 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Area**                   |                               **Maneuver** |
 > |----------------------------|-------------------------------------------:|
@@ -56,9 +56,9 @@ type: statblock
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** [Push](scc:mcdm.heroes.v1/movement/forced-movement) 2; M < 0 the [forced movement](scc:mcdm.heroes.v1/movement/forced-movement) is vertical
-> - **12-16:** [Push](scc:mcdm.heroes.v1/movement/forced-movement) 4; M < 1 the [forced movement](scc:mcdm.heroes.v1/movement/forced-movement) is vertical
-> - **17+:** [Push](scc:mcdm.heroes.v1/movement/forced-movement) 6; M < 2 the [forced movement](scc:mcdm.heroes.v1/movement/forced-movement) is vertical
+> - **≤11:** [Push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2; M < 0 the [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) is vertical
+> - **12-16:** [Push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 4; M < 1 the [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) is vertical
+> - **17+:** [Push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 6; M < 2 the [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) is vertical
 
 > ❗️ **Circle and Strike**
 >
@@ -68,15 +68,15 @@ type: statblock
 >
 > **Trigger:** The griffon flies directly above a creature within distance.
 >
-> **Effect:** The griffon dives down onto the target, taking no damage from falling if they reach the ground. The target takes 3 damage for each square the griffon dove, and if they have A < 2, they are [grabbed](scc:mcdm.heroes.v1/condition/grabbed) or knocked [prone](scc:mcdm.heroes.v1/condition/prone).
+> **Effect:** The griffon dives down onto the target, taking no damage from falling if they reach the ground. The target takes 3 damage for each square the griffon dove, and if they have A < 2, they are [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) or knocked [prone](scc.v1:mcdm.heroes.v1/condition/prone).
 
 > ⭐️ **Beast of Prey**
 >
-> While [grabbed](scc:mcdm.heroes.v1/condition/grabbed) by the griffon, a creature has a double bane on the Escape Grab maneuver.
+> While [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) by the griffon, a creature has a double bane on the Escape Grab maneuver.
 
 > ⭐️ **Steady**
 >
-> Any power roll that could knock the griffon [prone](scc:mcdm.heroes.v1/condition/prone) takes a bane.
+> Any power roll that could knock the griffon [prone](scc.v1:mcdm.heroes.v1/condition/prone) takes a bane.
 
 > ⭐️ **Banded Predator**
 >

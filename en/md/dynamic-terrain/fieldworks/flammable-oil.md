@@ -1,19 +1,19 @@
 ---
 features:
     - icon: "\U0001F300"
-      intro: As a maneuver, a creature [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to a patch of flammable oil can make an **Agility test**.
+      intro: As a maneuver, a creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to a patch of flammable oil can make an **Agility test**.
       name: Deactivate
       power_roll:
         tiers:
             high: The oil is rendered safe and can't be ignited.
             low: The creature ignites the oil and is affected as if in its area.
-            mid: The oil temporarily ignites before safely burning out, and the creature takes 3 fire damage and is burning ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends).
+            mid: The oil temporarily ignites before safely burning out, and the creature takes 3 fire damage and is burning ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends).
     - body: A creature or object in a square of oil takes fire damage, or a creature or object enters a square of burning oil or starts their turn there.
       icon: ❕
       name: Activate
       sections:
         - label: Effect
-          text: The triggering creature or object takes 3 fire damage and is burning ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends). A burning creature takes 1d6 fire damage at the start of each of their turns. A burning object takes 1d6 fire damage at the end of each round.
+          text: The triggering creature or object takes 3 fire damage and is burning ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends). A burning creature takes 1d6 fire damage at the start of each of their turns. A burning object takes 1d6 fire damage at the end of each round.
     - body: '**Concealed Oil (+1 EV)** The oil is hidden until it ignites.'
       icon: ⭐️
       name: Upgrade
@@ -44,17 +44,17 @@ A patch of flammable oil or pitch on the ground is ready to be ignited.
 
 > 🌀 **Deactivate**
 >
-> As a maneuver, a creature [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to a patch of flammable oil can make an **Agility test**.
+> As a maneuver, a creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to a patch of flammable oil can make an **Agility test**.
 >
 > - **≤11:** The creature ignites the oil and is affected as if in its area.
-> - **12-16:** The oil temporarily ignites before safely burning out, and the creature takes 3 fire damage and is burning ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends).
+> - **12-16:** The oil temporarily ignites before safely burning out, and the creature takes 3 fire damage and is burning ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends).
 > - **17+:** The oil is rendered safe and can't be ignited.
 
 > ❕ **Activate**
 >
 > A creature or object in a square of oil takes fire damage, or a creature or object enters a square of burning oil or starts their turn there.
 >
-> **Effect:** The triggering creature or object takes 3 fire damage and is burning ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends). A burning creature takes 1d6 fire damage at the start of each of their turns. A burning object takes 1d6 fire damage at the end of each round.
+> **Effect:** The triggering creature or object takes 3 fire damage and is burning ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends). A burning creature takes 1d6 fire damage at the start of each of their turns. A burning object takes 1d6 fire damage at the end of each round.
 
 > ⭐️ **Upgrade**
 >

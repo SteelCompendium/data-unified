@@ -1,13 +1,13 @@
 ---
 features:
     - icon: "\U0001F300"
-      intro: As a maneuver, a creature [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to a pressure plate can make an **Agility test**.
+      intro: As a maneuver, a creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to a pressure plate can make an **Agility test**.
       name: Deactivate
       power_roll:
         tiers:
             high: The pressure plate is deactivated and doesn't trigger.
             low: The creature triggers the pressure plate.
-            mid: The pressure plate is deactivated but the creature is [slowed](scc:mcdm.heroes.v1/condition/slowed) (EoT).
+            mid: The pressure plate is deactivated but the creature is [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (EoT).
     - body: The pressure plate is calibrated to be triggered by creatures or objects of a particular size. The pressure plate triggers when a creature or object of the appropriate size enters its area.
       icon: ❕
       name: Activate
@@ -50,10 +50,10 @@ This mechanism acts as a trigger for another linked mechanism, and is skillfully
 
 > 🌀 **Deactivate**
 >
-> As a maneuver, a creature [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to a pressure plate can make an **Agility test**.
+> As a maneuver, a creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to a pressure plate can make an **Agility test**.
 >
 > - **≤11:** The creature triggers the pressure plate.
-> - **12-16:** The pressure plate is deactivated but the creature is [slowed](scc:mcdm.heroes.v1/condition/slowed) (EoT).
+> - **12-16:** The pressure plate is deactivated but the creature is [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (EoT).
 > - **17+:** The pressure plate is deactivated and doesn't trigger.
 
 > ❕ **Activate**

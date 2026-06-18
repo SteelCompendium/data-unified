@@ -23,6 +23,6 @@ type: ability
 
 **Effect:** You can use this ability as if in the space of one of your minions within your Summoner's Range.
 
-Each target is R < AVERAGE [weakened](scc:mcdm.heroes.v1/condition/weakened) ([save ends](scc:mcdm.heroes.v1/rule.general/saving-throw)).
+Each target is R < AVERAGE [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) ([save ends](scc.v1:mcdm.heroes.v1/rule.general/saving-throw)).
 
-Until the end of the encounter, whenever a target gets a [tier](scc:mcdm.heroes.v1/rule.dice/tier-outcome) 1 result on a [strike](scc:mcdm.heroes.v1/rule.combat/strike), they deal half [damage](scc:mcdm.heroes.v1/rule.damage/damage). If a target was striking a creature [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to one of their allies, they target their ally instead.
+Until the end of the encounter, whenever a target gets a [tier](scc.v1:mcdm.heroes.v1/rule.dice/tier-outcome) 1 result on a [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), they deal half [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage). If a target was striking a creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to one of their allies, they target their ally instead.

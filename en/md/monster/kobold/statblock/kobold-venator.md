@@ -36,19 +36,19 @@ type: statblock
 > **Power Roll + 2:**
 >
 > - **≤11:** 4 damage
-> - **12-16:** 6 damage; M < 1 [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)
-> - **17+:** 7 damage; M < 2 [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)
+> - **12-16:** 6 damage; M < 1 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
+> - **17+:** 7 damage; M < 2 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
 >
-> **3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice):** The venator lights their net on fire, and a target [restrained](scc:mcdm.heroes.v1/condition/restrained) this way takes 2 fire damage at the start of each of their turns.
+> **3 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice):** The venator lights their net on fire, and a target [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) this way takes 2 fire damage at the start of each of their turns.
 
 > ⭐️ **Lost in the Crowd**
 >
-> While the venator is [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to any ally who is not hiding, the venator can attempt to hide as if they had concealment, even if observed.
+> While the venator is [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to any ally who is not hiding, the venator can attempt to hide as if they had concealment, even if observed.
 
 > ⭐️ **Not What I Seem**
 >
-> The venator starts the encounter disguised as a [minion](scc:mcdm.monsters.v1/rule.organization/minion). They have a double edge on their first main action of the encounter, after which they reveal themself.
+> The venator starts the encounter disguised as a [minion](scc.v1:mcdm.monsters.v1/rule.organization/minion). They have a double edge on their first main action of the encounter, after which they reveal themself.
 
 > ⭐️ **Shield? Shield!**
 >
-> While [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to an ally who also has this trait, the venator has stability 1, has cover, and grants cover to allies.
+> While [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to an ally who also has this trait, the venator has stability 1, has cover, and grants cover to allies.

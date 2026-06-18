@@ -29,7 +29,7 @@ with_captain: Gain an edge on strikes
 |      **-**<br>Immunity      | **-**<br>Movement |        -         | **Gain an edge on strikes**<br>With Captain |   **-**<br>Weakness   |
 |       **0**<br>Might        | **+3**<br>Agility | **0**<br>Reason  |             **+2**<br>Intuition             |   **0**<br>Presence   |
 
-> ⚔️ **Shrikegun Shot ([Signature Ability](scc:mcdm.heroes.v1/rule.combat/signature-ability))**
+> ⚔️ **Shrikegun Shot ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
 > | **Melee, Ranged, Strike, Weapon** |                          **Main action** |
 > |-----------------------------------|-----------------------------------------:|
@@ -38,11 +38,11 @@ with_captain: Gain an edge on strikes
 > **Power Roll + 3:**
 >
 > - **≤11:** 2 damage
-> - **12-16:** 4 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 1
-> - **17+:** 6 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 3
+> - **12-16:** 4 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1
+> - **17+:** 6 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3
 >
 > **Effect:** Any target within 2 squares of the sweeper takes an extra 3 damage.
 
 > ⭐️ **Shrapnel-Laced Loyalty Collar**
 >
-> When the sweeper is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), their loyalty collar explodes, dealing 1d6 damage to each enemy and object within 2 squares of them.
+> When the sweeper is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), their loyalty collar explodes, dealing 1d6 damage to each enemy and object within 2 squares of them.

@@ -40,11 +40,11 @@ type: statblock
 >
 > **Power Roll + 3:**
 >
-> - **≤11:** 9 corruption damage; P < 1 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
-> - **12-16:** 14 corruption damage; P < 2 [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)
-> - **17+:** 17 corruption damage; P < 3 [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)
+> - **≤11:** 9 corruption damage; P < 1 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
+> - **12-16:** 14 corruption damage; P < 2 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
+> - **17+:** 17 corruption damage; P < 3 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
 
-> 🏹 **Glare of the Old Judgments (5 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
+> 🏹 **Glare of the Old Judgments (5 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Magic, Ranged, Strike** |     **Main action** |
 > |---------------------------|--------------------:|
@@ -56,8 +56,8 @@ type: statblock
 > - **12-16:** 10 corruption damage, or if the target has P < 2 they are judged
 > - **17+:** The target is judged.
 >
-> **Effect:** Until the end of the encounter, a judged target takes 10 corruption damage at the start of each of their turns, and regains 5 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) each time they use an ability or other effect that allows another creature to spend a Recovery.
+> **Effect:** Until the end of the encounter, a judged target takes 10 corruption damage at the start of each of their turns, and regains 5 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) each time they use an ability or other effect that allows another creature to spend a Recovery.
 
 > ⭐️ **Infernal Ichor**
 >
-> When the redglare is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), they spray burning blood. Each creature [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the redglare takes 3 fire damage.
+> When the redglare is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), they spray burning blood. Each creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the redglare takes 3 fire damage.

@@ -60,7 +60,7 @@ type: statblock
 > - **12-16:** 11 damage
 > - **17+:** 16 damage
 >
-> **Effect:** If the arrowswift is hidden when they use this ability, they gain 2 [surges](scc:mcdm.heroes.v1/rule.resource/surge) that can be used immediately.
+> **Effect:** If the arrowswift is hidden when they use this ability, they gain 2 [surges](scc.v1:mcdm.heroes.v1/rule.resource/surge) that can be used immediately.
 
 ######## Level 7 Retainer Advancement Ability
 
@@ -70,7 +70,7 @@ type: statblock
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
-> **Effect:** Until the end of the encounter, whenever the arrowswift makes a ranged [strike](scc:mcdm.heroes.v1/rule.combat/strike), the [strike](scc:mcdm.heroes.v1/rule.combat/strike) gains an edge and the arrowswift gains 1 [surge](scc:mcdm.heroes.v1/rule.resource/surge) that must be used immediately. While the arrowswift's mentor is [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to them, the mentor also gains this benefit.
+> **Effect:** Until the end of the encounter, whenever the arrowswift makes a ranged [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), the [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) gains an edge and the arrowswift gains 1 [surge](scc.v1:mcdm.heroes.v1/rule.resource/surge) that must be used immediately. While the arrowswift's mentor is [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to them, the mentor also gains this benefit.
 
 ######## Level 10 Retainer Advancement Ability
 

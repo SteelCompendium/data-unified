@@ -5,7 +5,7 @@ scc: mcdm.heroes.v1/feature.trait.dwarf/dwarf-traits
 type: trait
 ---
 
-[Dwarf](scc:mcdm.heroes.v1/ancestry/dwarf) heroes have access to the following traits.
+[Dwarf](scc.v1:mcdm.heroes.v1/ancestry/dwarf) heroes have access to the following traits.
 
 #### Purchased Dwarf Traits
 

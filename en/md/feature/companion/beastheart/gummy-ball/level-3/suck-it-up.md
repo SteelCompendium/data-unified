@@ -7,4 +7,4 @@ scc: mcdm.beastheart.v1/feature.companion.beastheart.gummy-ball.level-3/suck-it-
 type: feature
 ---
 
-Whenever the ball makes a strike while rampaging, one target is pulled up to 3 squares into the ball's space. If the target ends this movement and completely fits within the ball's space, the target is [grabbed](scc:mcdm.heroes.v1/condition/grabbed) by the ball.
+Whenever the ball makes a strike while rampaging, one target is pulled up to 3 squares into the ball's space. If the target ends this movement and completely fits within the ball's space, the target is [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) by the ball.

@@ -42,11 +42,11 @@ type: statblock
 >
 > - **≤11:** 9 fire damage
 > - **12-16:** 14 fire damage
-> - **17+:** 17 fire damage; R < 3 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
+> - **17+:** 17 fire damage; R < 3 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
 >
 > **Effect:** If this ability gains an edge or has a double edge, the target can't communicate with anyone until the end of their next turn.
 
-> ❇️ **Smoke Bomb (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
+> ❇️ **Smoke Bomb (3 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Area, Magic** |                  **Maneuver** |
 > |-----------------|------------------------------:|
@@ -64,4 +64,4 @@ type: statblock
 
 > ⭐️ **Infernal Ichor**
 >
-> When the smokebinder is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), they spray burning blood. Each creature [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the smokebinder takes 3 fire damage.
+> When the smokebinder is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), they spray burning blood. Each creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the smokebinder takes 3 fire damage.

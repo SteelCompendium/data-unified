@@ -6,7 +6,7 @@ scc: mcdm.heroes.v1/feature.talent.level-1/talent-tradition
 type: feature
 ---
 
-Psionic abilities are grouped into categories according to their effects, with each category comprising one of many [talent tradition](scc:mcdm.heroes.v1/feature.talent.level-1/talent-tradition)s:
+Psionic abilities are grouped into categories according to their effects, with each category comprising one of many [talent tradition](scc.v1:mcdm.heroes.v1/feature.talent.level-1/talent-tradition)s:
 
 - **Animapathy** abilities allow you to manipulate, meld, and exchange the souls of living things.
 - **Chronopathy** abilities allow you to view future and past events, and to manipulate time to aid allies and hinder foes.
@@ -17,4 +17,4 @@ Psionic abilities are grouped into categories according to their effects, with e
 - **Telekinesis** abilities allow you to physically manipulate creatures and objects.
 - **Telepathy** abilities allow you to communicate with, read, and influence the minds of other creatures.
 
-You choose a [talent tradition](scc:mcdm.heroes.v1/feature.talent.level-1/talent-tradition) from the following options: chronopathy, telekinesis, or telepathy. Your [talent tradition](scc:mcdm.heroes.v1/feature.talent.level-1/talent-tradition) is your [subclass](scc:mcdm.heroes.v1/rule.general/subclass), and your choice of tradition determines many of the features you'll gain as you gain new levels. (Other [talent tradition](scc:mcdm.heroes.v1/feature.talent.level-1/talent-tradition)s will be featured in future products.) (*Quick Build:* Telekinesis.)
+You choose a [talent tradition](scc.v1:mcdm.heroes.v1/feature.talent.level-1/talent-tradition) from the following options: chronopathy, telekinesis, or telepathy. Your [talent tradition](scc.v1:mcdm.heroes.v1/feature.talent.level-1/talent-tradition) is your [subclass](scc.v1:mcdm.heroes.v1/rule.general/subclass), and your choice of tradition determines many of the features you'll gain as you gain new levels. (Other [talent tradition](scc.v1:mcdm.heroes.v1/feature.talent.level-1/talent-tradition)s will be featured in future products.) (*Quick Build:* Telekinesis.)

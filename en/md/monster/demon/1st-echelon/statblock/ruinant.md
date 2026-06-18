@@ -39,15 +39,15 @@ weaknesses:
 >
 > - **≤11:** 3 damage
 > - **12-16:** 4 damage
-> - **17+:** 5 damage; M < 2 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
+> - **17+:** 5 damage; M < 2 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
 
-> 🏹 **Salt Wounds (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
+> 🏹 **Salt Wounds (3 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Magic, Ranged, Strike** |           **Maneuver** |
 > |---------------------------|-----------------------:|
 > | **📏 Ranged 10**          | **🎯 Three creatures** |
 >
-> **Special:** Each target must be at less than full [Stamina](scc:mcdm.heroes.v1/rule.health/stamina).
+> **Special:** Each target must be at less than full [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).
 >
 > **Power Roll + 2:**
 >
@@ -57,7 +57,7 @@ weaknesses:
 
 > ⭐️ **Lethe**
 >
-> While the ruinant is [winded](scc:mcdm.heroes.v1/rule.health/winded), they gain an [edge](scc:mcdm.heroes.v1/rule.dice/edge) on strikes, and any strike made against them gains an edge.
+> While the ruinant is [winded](scc.v1:mcdm.heroes.v1/rule.health/winded), they gain an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on strikes, and any strike made against them gains an edge.
 
 > ⭐️ **Soulsight**
 >

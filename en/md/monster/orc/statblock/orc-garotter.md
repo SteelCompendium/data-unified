@@ -27,7 +27,7 @@ type: statblock
 | **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+1**<br>Might  | **+2**<br>Agility | **+0**<br>Reason  |  **+1**<br>Intuition  |  **-1**<br>Presence  |
 
-> 🗡 **Dagger Feint ([Signature Ability](scc:mcdm.heroes.v1/rule.combat/signature-ability))**
+> 🗡 **Dagger Feint ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
 > | **Melee, Strike, Weapon** |               **Main action** |
 > |---------------------------|------------------------------:|
@@ -35,9 +35,9 @@ type: statblock
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 6 damage; the garroter can [shift](scc:mcdm.heroes.v1/movement/shifting) 1 square
-> - **12-16:** 9 damage; the garroter [shifts](scc:mcdm.heroes.v1/movement/shifting) up to 2 squares
-> - **17+:** 12 damage; the garroter [shifts](scc:mcdm.heroes.v1/movement/shifting) up to 3 squares
+> - **≤11:** 6 damage; the garroter can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) 1 square
+> - **12-16:** 9 damage; the garroter [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to 2 squares
+> - **17+:** 12 damage; the garroter [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to 3 squares
 >
 > **Effect:** If this ability gains an edge or has a double edge, it deals an extra 4 damage.
 
@@ -50,12 +50,12 @@ type: statblock
 > **Power Roll + 2:**
 >
 > - **≤11:** 6 damage
-> - **12-16:** 9 damage; I < 1 [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)
-> - **17+:** 12 damage; [grabbed](scc:mcdm.heroes.v1/condition/grabbed); I < 2 [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)
+> - **12-16:** 9 damage; I < 1 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
+> - **17+:** 12 damage; [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed); I < 2 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
 >
-> **Effect:** While [grabbed](scc:mcdm.heroes.v1/condition/grabbed) this way, a target can't communicate or use magic abilities.
+> **Effect:** While [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) this way, a target can't communicate or use magic abilities.
 
-> 👤 **Chroma Cloak (1 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
+> 👤 **Chroma Cloak (1 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **-**          |        **Maneuver** |
 > |----------------|--------------------:|
@@ -65,4 +65,4 @@ type: statblock
 
 > ⭐️ **Relentless**
 >
-> If the garroter is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), they can make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) before dying. If the target of the free strike is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), the garroter is reduced to 1 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) instead.
+> If the garroter is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), they can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) before dying. If the target of the free strike is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), the garroter is reduced to 1 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) instead.

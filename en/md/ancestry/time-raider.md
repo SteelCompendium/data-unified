@@ -6,11 +6,11 @@ signature_trait_name: Psychic Scar
 type: ancestry
 ---
 
-The original servitor species of the synliroi—evil psions with near godlike power—the kuran'zoi liberated themselves during the First Psychic War. In the centuries since, they built their own culture and civilization as nomads of the timescape. The exonym "[time raiders](scc:mcdm.heroes.v1/ancestry/time-raider)" was given to them by denizens of the lower worlds who, seeing the advanced technology the kuran'zoi wield, concluded they must be from the future.
+The original servitor species of the synliroi—evil psions with near godlike power—the kuran'zoi liberated themselves during the First Psychic War. In the centuries since, they built their own culture and civilization as nomads of the timescape. The exonym "[time raiders](scc.v1:mcdm.heroes.v1/ancestry/time-raider)" was given to them by denizens of the lower worlds who, seeing the advanced technology the kuran'zoi wield, concluded they must be from the future.
 
-Extraordinarily rare in [Orden](scc:mcdm.heroes.v1/rule.world/orden), [time raiders](scc:mcdm.heroes.v1/ancestry/time-raider) thrive on the Sea of Stars, the Sea Between Worlds, where the winds of limbo roar.
+Extraordinarily rare in [Orden](scc.v1:mcdm.heroes.v1/rule.world/orden), [time raiders](scc.v1:mcdm.heroes.v1/ancestry/time-raider) thrive on the Sea of Stars, the Sea Between Worlds, where the winds of limbo roar.
 
-In place of eyes, kuran'zoi possess crystalline ocular sensors that grant them high-spectral vision and which are hardened against the extreme radiations encountered in the Sea of Stars, permitting them to operate freely outside their vessels with only their portable rebreathers. [Time raiders](scc:mcdm.heroes.v1/ancestry/time-raider) also have two sets of arms, allowing them to wield [melee](scc:mcdm.heroes.v1/rule.combat/melee) weapons at the same time as [ranged](scc:mcdm.heroes.v1/rule.combat/ranged) weapons. A single well-trained kuran'zoi is like a squad unto themself.
+In place of eyes, kuran'zoi possess crystalline ocular sensors that grant them high-spectral vision and which are hardened against the extreme radiations encountered in the Sea of Stars, permitting them to operate freely outside their vessels with only their portable rebreathers. [Time raiders](scc.v1:mcdm.heroes.v1/ancestry/time-raider) also have two sets of arms, allowing them to wield [melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) weapons at the same time as [ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) weapons. A single well-trained kuran'zoi is like a squad unto themself.
 
 ### On Time Raiders
 
@@ -26,7 +26,7 @@ Up close, she could see the fine stitching along Lycaon's cheeks and forehead, t
 
 The taxiarch smiled to himself, nodded with respect at the woman's epithets. He placed his foot on a low piece of rubble, once part of the wall of the stone church, and leaned his arm on his knee. He was not dressed as the other war dogs. No black leather for him. He wore a gold breastplate with the embossed head of a ram molded into it, a white cape over his back. Gold greaves and red leather boots and gloves. The other war dogs only had patches of hair but his was long and blond.
 
-He struck a casual, jaunty pose. "Where is your worldship?" he said in a more reasonable voice. "Or came you here in a single-seater *starskimmer*?" At this, the alien's crystal eyes went wide, betraying surprise. "You see?" the taxiarch said, impressed with himself. "I am not a primitive like these peasants, who hounded you because you are alien." He nodded at the folk of the small town watching from the stables some distance away. "I am Ajax's elite. Better than his chosen. I was *made* for [victory](scc:mcdm.heroes.v1/rule.resource/victories)." Indeed, Taxiarch Lycaon looked almost fully [human](scc:mcdm.heroes.v1/ancestry/human). Handsome and fit like a statue from Phaedros, which his model had almost certainly been inspired by. Unless you looked closely, there was no sign he was a product of the body banks. "If you agree to *lead me*  to your vessel, I will let you go free."
+He struck a casual, jaunty pose. "Where is your worldship?" he said in a more reasonable voice. "Or came you here in a single-seater *starskimmer*?" At this, the alien's crystal eyes went wide, betraying surprise. "You see?" the taxiarch said, impressed with himself. "I am not a primitive like these peasants, who hounded you because you are alien." He nodded at the folk of the small town watching from the stables some distance away. "I am Ajax's elite. Better than his chosen. I was *made* for [victory](scc.v1:mcdm.heroes.v1/rule.resource/victories)." Indeed, Taxiarch Lycaon looked almost fully [human](scc.v1:mcdm.heroes.v1/ancestry/human). Handsome and fit like a statue from Phaedros, which his model had almost certainly been inspired by. Unless you looked closely, there was no sign he was a product of the body banks. "If you agree to *lead me*  to your vessel, I will let you go free."
 
 The alien sighed. "'Blaap blaap blaap,'" she said. "You should hear yourself. Like barking *thrazz*, you sound to me. Who holds your leash I wonder? For surely a microbrain such as you could not command any more than these rabble." She nodded her head at the other twenty or so war dogs.
 
@@ -50,27 +50,27 @@ Slowly everyone assembled could make out the sounds of a conversation, quiet wit
 
 "Oh, thank you for the brilliant tactical advice," another voice, high pitched, piped up.
 
-Suddenly, the images became three dimensional, solid, and seven heroes stood among them. A [human](scc:mcdm.heroes.v1/ancestry/human) in working battle plate. A [dwarf](scc:mcdm.heroes.v1/ancestry/dwarf) with his battle-staff tipped with an hourglass. An [orc](scc:mcdm.heroes.v1/ancestry/orc) with a huge battleaxe casually resting on her shoulder. A [polder](scc:mcdm.heroes.v1/ancestry/polder) with twin rapiers in his hands. A tall willowy [high elf](scc:mcdm.heroes.v1/ancestry/high-elf) with night-black skin and golden hair. An unarmed [hakaan](scc:mcdm.heroes.v1/ancestry/hakaan) towering over everyone. And a [dragon knight](scc:mcdm.heroes.v1/ancestry/dragon-knight). Of all the motley band, it was the [dragon knight](scc:mcdm.heroes.v1/ancestry/dragon-knight) who caused the people of the town to gasp. Even at a distance, even with the war dogs between them, they recognized the device of Good King Omund on the knight's shield.
+Suddenly, the images became three dimensional, solid, and seven heroes stood among them. A [human](scc.v1:mcdm.heroes.v1/ancestry/human) in working battle plate. A [dwarf](scc.v1:mcdm.heroes.v1/ancestry/dwarf) with his battle-staff tipped with an hourglass. An [orc](scc.v1:mcdm.heroes.v1/ancestry/orc) with a huge battleaxe casually resting on her shoulder. A [polder](scc.v1:mcdm.heroes.v1/ancestry/polder) with twin rapiers in his hands. A tall willowy [high elf](scc.v1:mcdm.heroes.v1/ancestry/high-elf) with night-black skin and golden hair. An unarmed [hakaan](scc.v1:mcdm.heroes.v1/ancestry/hakaan) towering over everyone. And a [dragon knight](scc.v1:mcdm.heroes.v1/ancestry/dragon-knight). Of all the motley band, it was the [dragon knight](scc.v1:mcdm.heroes.v1/ancestry/dragon-knight) who caused the people of the town to gasp. Even at a distance, even with the war dogs between them, they recognized the device of Good King Omund on the knight's shield.
 
 
 
 The war dogs scrambled. For a moment, it seemed they might flee at this sudden intrusion, but the taxiarch bellowed "Hold fast!" and they held their ground, uncertainty over the unknown threat of a band of heroes battling in each of them against the certain fear of their commander.
 
-The [hakaan](scc:mcdm.heroes.v1/ancestry/hakaan) looked around and saw a clump of villagers watching the scene from a distance, gathered around what looked like some stables. He waved. "Hello!" he said, smiling.
+The [hakaan](scc.v1:mcdm.heroes.v1/ancestry/hakaan) looked around and saw a clump of villagers watching the scene from a distance, gathered around what looked like some stables. He waved. "Hello!" he said, smiling.
 
 One of the villagers waved back before being shushed.
 
 John looked at the taxiarch and immediately read the situation. It was a clear enough picture.
 
-There was something about the war dogs. They loved Ajax's cruelty—reveled in it. John had crossed swords with other commanders in Ajax's army before. Ground Commander Vordokov was a professional—could be reasoned with, but he was an [orc](scc:mcdm.heroes.v1/ancestry/orc).
+There was something about the war dogs. They loved Ajax's cruelty—reveled in it. John had crossed swords with other commanders in Ajax's army before. Ground Commander Vordokov was a professional—could be reasoned with, but he was an [orc](scc.v1:mcdm.heroes.v1/ancestry/orc).
 
 Not the war dogs—they were fanatics.
 
 "What's this?" the taxiarch called out with a hungry grin. "Allies of the alien?" He was projecting confidence. Trying to muster his wary soldiers.
 
-"Allies of all those who suffer, and seek justice," the [dwarf](scc:mcdm.heroes.v1/ancestry/dwarf) announced. Sir John ignored the war dog, tilted his head toward the alien. "Embers?"
+"Allies of all those who suffer, and seek justice," the [dwarf](scc.v1:mcdm.heroes.v1/ancestry/dwarf) announced. Sir John ignored the war dog, tilted his head toward the alien. "Embers?"
 
-"A kuran'zoi," the [high elf](scc:mcdm.heroes.v1/ancestry/high-elf) said, and the alien held her head up with pride. "A [time raider](scc:mcdm.heroes.v1/ancestry/time-raider) from the upper worlds. What the truth is I cannot say, and no people are all one thing. But by reputation? They're intractable, ungovernable, they loathe authority, hate tyranny and are totally, utterly without fear."
+"A kuran'zoi," the [high elf](scc.v1:mcdm.heroes.v1/ancestry/high-elf) said, and the alien held her head up with pride. "A [time raider](scc.v1:mcdm.heroes.v1/ancestry/time-raider) from the upper worlds. What the truth is I cannot say, and no people are all one thing. But by reputation? They're intractable, ungovernable, they loathe authority, hate tyranny and are totally, utterly without fear."
 
 John watched the alien. They sneered their approval at Ember's summary. That was enough for Sir John, they could work out the details later. After everything they'd been through before, he trusted Embers explicitly.
 
@@ -80,22 +80,22 @@ John knew what came next, but he wasn't an assassin. He had his own part to play
 
 "She goes free," John commanded, his voice steel, "or you die here." He could feel the muscles tightening in his comrades, the whole company like a steel spring wound tight.
 
-Lycaon cocked his head at Sir John and took a few foolish steps toward the [tactician](scc:mcdm.heroes.v1/class/tactician). He was just out of reach. But close enough.
+Lycaon cocked his head at Sir John and took a few foolish steps toward the [tactician](scc.v1:mcdm.heroes.v1/class/tactician). He was just out of reach. But close enough.
 
-"I see you are a man, like Ajax. Why do you lower yourself with these... creatures?" The war dog taxiarch looked at the elf, giant, [polder](scc:mcdm.heroes.v1/ancestry/polder), [dwarf](scc:mcdm.heroes.v1/ancestry/dwarf), and [dragon knight](scc:mcdm.heroes.v1/ancestry/dragon-knight). "Little more than slimy things crawled out of the sea? Join us. Join me. Join Ajax. It'll be nice for you..."-his voice lowered almost to a whisper-"... to be on the winning side for a change."
+"I see you are a man, like Ajax. Why do you lower yourself with these... creatures?" The war dog taxiarch looked at the elf, giant, [polder](scc.v1:mcdm.heroes.v1/ancestry/polder), [dwarf](scc.v1:mcdm.heroes.v1/ancestry/dwarf), and [dragon knight](scc.v1:mcdm.heroes.v1/ancestry/dragon-knight). "Little more than slimy things crawled out of the sea? Join us. Join me. Join Ajax. It'll be nice for you..."-his voice lowered almost to a whisper-"... to be on the winning side for a change."
 
 Sir John took a deep breath, his body language changed and that was enough. Several things then happened at once, so quickly no one would later be able to say who acted first.
 
-Ember's eyes flashed into a starfield. The [time raider's](scc:mcdm.heroes.v1/ancestry/time-raider) chains dissolved into starspace and reappeared around Flight Captain Lyria pinning her arms to her side. She was giving the hawklord an excuse to sit this one out. Gods, John was glad she was with them.
+Ember's eyes flashed into a starfield. The [time raider's](scc.v1:mcdm.heroes.v1/ancestry/time-raider) chains dissolved into starspace and reappeared around Flight Captain Lyria pinning her arms to her side. She was giving the hawklord an excuse to sit this one out. Gods, John was glad she was with them.
 
-The [time raider's](scc:mcdm.heroes.v1/ancestry/time-raider) right upper hand shot out, as though she'd been waiting for the void mage to do exactly what she just did, and her meson blaster leapt out of the hands of the war dog who'd chained her. The pistol made of glass and bronze slammed into her hand and its tip flared with prismatic light.
+The [time raider's](scc.v1:mcdm.heroes.v1/ancestry/time-raider) right upper hand shot out, as though she'd been waiting for the void mage to do exactly what she just did, and her meson blaster leapt out of the hands of the war dog who'd chained her. The pistol made of glass and bronze slammed into her hand and its tip flared with prismatic light.
 
-John felt his skin tighten as Dazar warded him, and from the sun's shadow cast by Taxiarch Lycaon the [polder](scc:mcdm.heroes.v1/ancestry/polder) Jackson Bootblack emerged, a rapier in each hand, and no one saw him move from where he'd been a moment before.
+John felt his skin tighten as Dazar warded him, and from the sun's shadow cast by Taxiarch Lycaon the [polder](scc.v1:mcdm.heroes.v1/ancestry/polder) Jackson Bootblack emerged, a rapier in each hand, and no one saw him move from where he'd been a moment before.
 
-The [hakaan](scc:mcdm.heroes.v1/ancestry/hakaan) [burst](scc:mcdm.heroes.v1/rule.combat/burst) into action and sped past him like a blur.
+The [hakaan](scc.v1:mcdm.heroes.v1/ancestry/hakaan) [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst) into action and sped past him like a blur.
 
 At the same instant, a call—a horn. From directly behind John a blast of sound like a chord played by a dozen trumpets, and hope sang in his heart—the clarion call of the last Storm Knight!
 
-At the sound, the [orc](scc:mcdm.heroes.v1/ancestry/orc) dashed forward into a knot of war dog commandos, her axe already hewing about her.
+At the sound, the [orc](scc.v1:mcdm.heroes.v1/ancestry/orc) dashed forward into a knot of war dog commandos, her axe already hewing about her.
 
 John hadn't hesitated, he'd already drawn his sword and falchion. "All right, you patchwork son of a bitch." He charged Lycaon who fumbled with the shortsword on his belt.

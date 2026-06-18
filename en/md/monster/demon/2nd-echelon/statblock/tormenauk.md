@@ -39,11 +39,11 @@ weaknesses:
 >
 > - **≤11:** 7 damage
 > - **12-16:** 9 damage
-> - **17+:** 11 damage; [grabbed](scc:mcdm.heroes.v1/condition/grabbed), and the target takes a [bane](scc:mcdm.heroes.v1/rule.dice/bane) on the [Escape Grab](scc:mcdm.heroes.v1/feature.common.maneuvers/escape-grab) maneuver
+> - **17+:** 11 damage; [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed), and the target takes a [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) on the [Escape Grab](scc.v1:mcdm.heroes.v1/feature.common.maneuvers/escape-grab) maneuver
 >
-> **Effect:** Any target [grabbed](scc:mcdm.heroes.v1/condition/grabbed) this way takes 4 psychic damage at the start of each of the tormenauk's turns.
+> **Effect:** Any target [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) this way takes 4 psychic damage at the start of each of the tormenauk's turns.
 
-> ❇️ **Agony Wail (5 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
+> ❇️ **Agony Wail (5 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Area, Magic** |                  **Maneuver** |
 > |-----------------|------------------------------:|
@@ -51,15 +51,15 @@ weaknesses:
 >
 > **Power Roll + 3:**
 >
-> - **≤11:** 4 psychic damage; I < 1 [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)
-> - **12-16:** 6 psychic damage; I < 2 [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)
-> - **17+:** 8 psychic damage; I < 3 [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)
+> - **≤11:** 4 psychic damage; I < 1 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
+> - **12-16:** 6 psychic damage; I < 2 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
+> - **17+:** 8 psychic damage; I < 3 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
 >
-> **Effect:** The [potency](scc:mcdm.heroes.v1/rule.character/potency) increases by 1 if the target is [grabbed](scc:mcdm.heroes.v1/condition/grabbed) by the tormenauk.
+> **Effect:** The [potency](scc.v1:mcdm.heroes.v1/rule.character/potency) increases by 1 if the target is [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) by the tormenauk.
 
 > ⭐️ **Lethe**
 >
-> While the tormenauk is [winded](scc:mcdm.heroes.v1/rule.health/winded), they gain an [edge](scc:mcdm.heroes.v1/rule.dice/edge) on strikes, and any strike made against them gains an edge.
+> While the tormenauk is [winded](scc.v1:mcdm.heroes.v1/rule.health/winded), they gain an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on strikes, and any strike made against them gains an edge.
 
 > ⭐️ **Soulsight**
 >

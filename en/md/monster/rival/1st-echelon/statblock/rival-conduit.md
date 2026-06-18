@@ -27,7 +27,7 @@ type: statblock
 | **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **+1**<br>Might  | **+0**<br>Agility | **+0**<br>Reason  |  **+2**<br>Intuition  |  **+0**<br>Presence  |
 
-> ⚔️ **Thunder of Heavens ([Signature Ability](scc:mcdm.heroes.v1/rule.combat/signature-ability))**
+> ⚔️ **Thunder of Heavens ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
 > | **Magic, Melee, Ranged, Strike** |                 **Main action** |
 > |----------------------------------|--------------------------------:|
@@ -39,20 +39,20 @@ type: statblock
 > - **12-16:** 10 holy damage
 > - **17+:** 13 holy damage
 >
-> **Effect:** The conduit or one ally within distance regains [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) equal to half the damage dealt.
+> **Effect:** The conduit or one ally within distance regains [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) equal to half the damage dealt.
 
-> 🏹 **Imbue with Might (2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
+> 🏹 **Imbue with Might (2 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Magic, Ranged** |               **Maneuver** |
 > |-------------------|---------------------------:|
 > | **📏 Ranged 10**  | **🎯 Self and five allies** |
 >
-> **Effect:** Each target gains an edge on their next [strike](scc:mcdm.heroes.v1/rule.combat/strike).
+> **Effect:** Each target gains an edge on their next [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike).
 
 > ⭐️ **Stalwart Guardian**
 >
-> [Strikes](scc:mcdm.heroes.v1/rule.combat/strike) made against allies [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the conduit take a bane.
+> [Strikes](scc.v1:mcdm.heroes.v1/rule.combat/strike) made against allies [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the conduit take a bane.
 
 > ⭐️ **Rivalry**
 >
-> At the start of an encounter, the conduit chooses one creature within their [line of effect](scc:mcdm.heroes.v1/rule.combat/line-of-effect). Both the conduit and the creature can add a d3 roll to power rolls they make against each other.
+> At the start of an encounter, the conduit chooses one creature within their [line of effect](scc.v1:mcdm.heroes.v1/rule.combat/line-of-effect). Both the conduit and the creature can add a d3 roll to power rolls they make against each other.

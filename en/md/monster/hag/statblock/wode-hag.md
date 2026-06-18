@@ -29,7 +29,7 @@ type: statblock
 
 > ☠️ **Solo Monster**
 >
-> **[End Effect](scc:mcdm.monsters.v1/rule.monster/end-effect):** At the end of each of their turns, the hag can take 5 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way.
+> **[End Effect](scc.v1:mcdm.monsters.v1/rule.monster/end-effect):** At the end of each of their turns, the hag can take 5 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way.
 >
 > **Solo Turns:** The hag can take two turns each round. They can't take turns consecutively.
 
@@ -45,9 +45,9 @@ type: statblock
 >
 > **Power Roll + 3:**
 >
-> - **≤11:** 9 corruption damage; A < 1 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
-> - **12-16:** 13 corruption damage; A < 2 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
-> - **17+:** 16 corruption damage; A < 3 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
+> - **≤11:** 9 corruption damage; A < 1 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+> - **12-16:** 13 corruption damage; A < 2 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+> - **17+:** 16 corruption damage; A < 3 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
 
 > 🔳 **Soul Steal**
 >
@@ -63,7 +63,7 @@ type: statblock
 >
 > **Effect:** This ability gains an edge against a target who has a soul.
 >
-> **3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice):** The hag regains [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) equal to half the damage dealt.
+> **3 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice):** The hag regains [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) equal to half the damage dealt.
 
 > 👤 **Shapeshifter**
 >
@@ -73,9 +73,9 @@ type: statblock
 >
 > **Effect:** The hag alters their body to become any size 1 creature, from a house cat to a humanoid. If the hag uses this ability while outside of any enemy's line of effect, they can choose to be automatically hidden. The hag can return to their original form as a free maneuver.
 >
-> **5 [Malice](scc:mcdm.monsters.v1/rule.monster/malice):** The hag becomes a size 2 creature instead, from a bear to an ogre. While in this form, the hag's melee abilities gain a +1 bonus to distance and deal an extra 4 damage.
+> **5 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice):** The hag becomes a size 2 creature instead, from a bear to an ogre. While in this form, the hag's melee abilities gain a +1 bonus to distance and deal an extra 4 damage.
 
-> ❗️ **Turned Upside Down (2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
+> ❗️ **Turned Upside Down (2 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Area, Magic** |          **Triggered action** |
 > |-----------------|------------------------------:|
@@ -85,13 +85,13 @@ type: statblock
 >
 > **Power Roll + 3:**
 >
-> - **≤11:** [Slide](scc:mcdm.heroes.v1/movement/forced-movement) 2; R < 1 the slide is vertical
-> - **12-16:** [Slide](scc:mcdm.heroes.v1/movement/forced-movement) 3; R < 2 the slide is vertical, and the target is [restrained](scc:mcdm.heroes.v1/condition/restrained) (EoT)
-> - **17+:** Vertical [slide](scc:mcdm.heroes.v1/movement/forced-movement) 5; R < 3 [restrained](scc:mcdm.heroes.v1/condition/restrained) (EoT)
+> - **≤11:** [Slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2; R < 1 the slide is vertical
+> - **12-16:** [Slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3; R < 2 the slide is vertical, and the target is [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (EoT)
+> - **17+:** Vertical [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5; R < 3 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (EoT)
 >
-> **Effect:** While [restrained](scc:mcdm.heroes.v1/condition/restrained) this way, a creature who is vertical [force moved](scc:mcdm.heroes.v1/movement/forced-movement) is suspended in midair. The creature falls when the condition ends.
+> **Effect:** While [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) this way, a creature who is vertical [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement) is suspended in midair. The creature falls when the condition ends.
 
-> ☠️ **Snackies for Sweeties ([Villain Action](scc:mcdm.monsters.v1/rule.monster/villain-action) 1)**
+> ☠️ **Snackies for Sweeties ([Villain Action](scc.v1:mcdm.monsters.v1/rule.monster/villain-action) 1)**
 >
 > | **Area, Magic** |                            **-** |
 > |-----------------|---------------------------------:|
@@ -105,21 +105,21 @@ type: statblock
 > - **12-16:** 10 poison damage
 > - **17+:** 13 poison damage
 >
-> **Special:** A creature wearing a pastry or [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to a creature wearing a pastry can attempt an **Agility test** to remove the pastry as a maneuver.
+> **Special:** A creature wearing a pastry or [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to a creature wearing a pastry can attempt an **Agility test** to remove the pastry as a maneuver.
 >
 > - **≤11:** The hag makes the power roll for all pastries.
 > - **12-16:** The pastry is not removed.
 > - **17+:** The pastry is removed and can no longer explode.
 
-> ☠️ **Predator's Alacrity ([Villain Action](scc:mcdm.monsters.v1/rule.monster/villain-action) 2)**
+> ☠️ **Predator's Alacrity ([Villain Action](scc.v1:mcdm.monsters.v1/rule.monster/villain-action) 2)**
 >
 > | **Area, Weapon** |                         **-** |
 > |------------------|------------------------------:|
 > | **📏 1 burst**   | **🎯 Each enemy in the area** |
 >
-> **Effect:** Before using this [villain action](scc:mcdm.monsters.v1/rule.monster/villain-action), the hag [shifts](scc:mcdm.heroes.v1/movement/shifting) up to their speed. They then use Corrosive Claws against each target, [push](scc:mcdm.heroes.v1/movement/forced-movement) each target up to 2 squares, and [shift](scc:mcdm.heroes.v1/movement/shifting) up to their speed again.
+> **Effect:** Before using this [villain action](scc.v1:mcdm.monsters.v1/rule.monster/villain-action), the hag [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed. They then use Corrosive Claws against each target, [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) each target up to 2 squares, and [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed again.
 
-> ☠️ **Open the Oven ([Villain Action](scc:mcdm.monsters.v1/rule.monster/villain-action) 3)**
+> ☠️ **Open the Oven ([Villain Action](scc.v1:mcdm.monsters.v1/rule.monster/villain-action) 3)**
 >
 > | **Area, Weapon**       |                            **-** |
 > |------------------------|---------------------------------:|
@@ -127,8 +127,8 @@ type: statblock
 >
 > **Power Roll + 3:**
 >
-> - **≤11:** 6 fire damage; A < 1 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
-> - **12-16:** 10 fire damage; A < 2 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
-> - **17+:** 13 fire damage; A < 3 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
+> - **≤11:** 6 fire damage; A < 1 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+> - **12-16:** 10 fire damage; A < 2 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+> - **17+:** 13 fire damage; A < 3 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
 >
 > **Effect:** The hag turns the area into a roiling oven until the end of the encounter. Any creature in area takes an extra 5 damage from the hag's damage-dealing abilities.

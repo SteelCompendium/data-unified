@@ -29,7 +29,7 @@ type: statblock
 | **Corruption 1, poison 1**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |             **0**<br>Might             | **+2**<br>Agility | **-2**<br>Reason  |  **0**<br>Intuition   |  **-1**<br>Presence  |
 
-> 🗡 **Razor Claws ([Signature Ability](scc:mcdm.heroes.v1/rule.combat/signature-ability))**
+> 🗡 **Razor Claws ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
 > | **Charge, Melee, Strike, Weapon** |               **Main action** |
 > |-----------------------------------|------------------------------:|
@@ -39,7 +39,7 @@ type: statblock
 >
 > - **≤11:** 3 damage
 > - **12-16:** 4 damage
-> - **17+:** 5 damage; M < 2 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
+> - **17+:** 5 damage; M < 2 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
 
 > 👤 **Leap**
 >
@@ -47,11 +47,11 @@ type: statblock
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
-> **Effect:** The ghoul jumps up to 3 squares. If they land on a size 1 enemy, that enemy is knocked [prone](scc:mcdm.heroes.v1/condition/prone) and the ghoul can make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) against them.
+> **Effect:** The ghoul jumps up to 3 squares. If they land on a size 1 enemy, that enemy is knocked [prone](scc.v1:mcdm.heroes.v1/condition/prone) and the ghoul can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against them.
 
 > ⭐️ **Arise**
 >
-> The first time the ghoul is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) by damage that isn't fire damage or holy damage and their body isn't destroyed, they instead have 1 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) and fall [prone](scc:mcdm.heroes.v1/condition/prone).
+> The first time the ghoul is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) by damage that isn't fire damage or holy damage and their body isn't destroyed, they instead have 1 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) and fall [prone](scc.v1:mcdm.heroes.v1/condition/prone).
 
 > ⭐️ **Hunger**
 >

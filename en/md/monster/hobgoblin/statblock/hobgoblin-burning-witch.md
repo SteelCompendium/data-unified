@@ -44,16 +44,16 @@ type: statblock
 > - **12-16:** 6 corruption or fire damage
 > - **17+:** 8 corruption or fire damage
 >
-> **2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice):** Each target who has P < 2 is [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends). Any enemy who starts their turn within 3 squares of a target [weakened](scc:mcdm.heroes.v1/condition/weakened) this way and who has P < 2 is [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends).
+> **2 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice):** Each target who has P < 2 is [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends). Any enemy who starts their turn within 3 squares of a target [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) this way and who has P < 2 is [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends).
 
-> 🏹 **Burning Legion (1 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
+> 🏹 **Burning Legion (1 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Magic, Ranged** |           **Maneuver** |
 > |-------------------|-----------------------:|
 > | **📏 Ranged 10**  | **🎯 Three creatures** |
 >
-> **Effect:** Each target can [teleport](scc:mcdm.heroes.v1/movement/teleport) up to 5 squares. Each creature [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to a target at their destination takes 3 fire damage.
+> **Effect:** Each target can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) up to 5 squares. Each creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to a target at their destination takes 3 fire damage.
 
 > ⭐️ **Infernal Ichor**
 >
-> When the burning witch is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), they spray burning blood. Each creature [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the burning witch takes 3 fire damage.
+> When the burning witch is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), they spray burning blood. Each creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the burning witch takes 3 fire damage.

@@ -35,12 +35,12 @@ These nixies are especially tiny. Their hair grows longer than their bodies and 
 
 > ⭐️ **Water Weird**
 >
-> Once per turn during their move action, each nixie under your control can [teleport](scc:mcdm.heroes.v1/movement/teleport) to a body of water within 5. The soakreed can't [teleport](scc:mcdm.heroes.v1/movement/teleport) into water created by their own soaking bog.
+> Once per turn during their move action, each nixie under your control can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) to a body of water within 5. The soakreed can't [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) into water created by their own soaking bog.
 
 > ⭐️ **Soaking Bog**
 >
-> The area within 1 square of the soakreed is filled with swampy water. An enemy that starts their turn in the area is A < WEAK [slowed](scc:mcdm.heroes.v1/condition/slowed) ([EoT](scc:mcdm.heroes.v1/rule.combat/end-of-turn)). The [potency](scc:mcdm.heroes.v1/rule.character/potency) increases by 1 for each additional soaking bog the target occupies (maximum +2).
+> The area within 1 square of the soakreed is filled with swampy water. An enemy that starts their turn in the area is A < WEAK [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) ([EoT](scc.v1:mcdm.heroes.v1/rule.combat/end-of-turn)). The [potency](scc.v1:mcdm.heroes.v1/rule.character/potency) increases by 1 for each additional soaking bog the target occupies (maximum +2).
 
 > ⭐️ **Minuscule**
 >
-> The soakreed has [cover](scc:mcdm.heroes.v1/rule.combat/cover) while occupying a larger creature's space.
+> The soakreed has [cover](scc.v1:mcdm.heroes.v1/rule.combat/cover) while occupying a larger creature's space.

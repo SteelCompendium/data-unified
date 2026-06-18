@@ -1,6 +1,6 @@
 ---
 echelon: "3"
-effect: While you wear them in combat, these bracers magically double the size of your hands and any [melee](scc:mcdm.heroes.v1/rule.combat/melee) weapons you wield, automatically compensating for the extra weight. You gain a +2 damage [bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) for any weapon ability that deals [rolled damage](scc:mcdm.heroes.v1/rule.damage/rolled-damage), and a +1 [bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to the [distance](scc:mcdm.heroes.v1/rule.combat/distance) you [push](scc:mcdm.heroes.v1/movement/forced-movement) any target with any weapon ability. This damage [bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) adds to the damage [bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) granted by other treasures.
+effect: While you wear them in combat, these bracers magically double the size of your hands and any [melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) weapons you wield, automatically compensating for the extra weight. You gain a +2 damage [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) for any weapon ability that deals [rolled damage](scc.v1:mcdm.heroes.v1/rule.damage/rolled-damage), and a +1 [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to the [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance) you [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) any target with any weapon ability. This damage [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) adds to the damage [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) granted by other treasures.
 flavor: Each of these metallic blue bracers is oversized.
 keywords:
     - Arms
@@ -16,12 +16,12 @@ type: treasure
 
 **Keywords:** Arms, Magic
 
-**[Item Prerequisite](scc:mcdm.heroes.v1/rule.downtime/item-prerequisite):** The severed hand of a giant
+**[Item Prerequisite](scc.v1:mcdm.heroes.v1/rule.downtime/item-prerequisite):** The severed hand of a giant
 
-**[Project Source](scc:mcdm.heroes.v1/rule.downtime/project-source):** Texts or lore in Yllyric
+**[Project Source](scc.v1:mcdm.heroes.v1/rule.downtime/project-source):** Texts or lore in Yllyric
 
-**[Project Roll](scc:mcdm.heroes.v1/rule.downtime/project-roll) [Characteristic](scc:mcdm.heroes.v1/rule.character/characteristic):** [Reason](scc:mcdm.heroes.v1/rule.character/reason) or [Intuition](scc:mcdm.heroes.v1/rule.character/intuition)
+**[Project Roll](scc.v1:mcdm.heroes.v1/rule.downtime/project-roll) [Characteristic](scc.v1:mcdm.heroes.v1/rule.character/characteristic):** [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) or [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)
 
 **Project Goal:** 450
 
-**Effect:** While you wear them in combat, these bracers magically double the size of your hands and any [melee](scc:mcdm.heroes.v1/rule.combat/melee) weapons you wield, automatically compensating for the extra weight. You gain a +2 damage [bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) for any weapon ability that deals [rolled damage](scc:mcdm.heroes.v1/rule.damage/rolled-damage), and a +1 [bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to the [distance](scc:mcdm.heroes.v1/rule.combat/distance) you [push](scc:mcdm.heroes.v1/movement/forced-movement) any target with any weapon ability. This damage [bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) adds to the damage [bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) granted by other treasures.
+**Effect:** While you wear them in combat, these bracers magically double the size of your hands and any [melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) weapons you wield, automatically compensating for the extra weight. You gain a +2 damage [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) for any weapon ability that deals [rolled damage](scc.v1:mcdm.heroes.v1/rule.damage/rolled-damage), and a +1 [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to the [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance) you [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) any target with any weapon ability. This damage [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) adds to the damage [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) granted by other treasures.

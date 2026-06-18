@@ -39,9 +39,9 @@ type: statblock
 >
 > **Power Roll + 3:**
 >
-> - **≤11:** 10 poison damage; M < 1 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
-> - **12-16:** 15 poison damage; M < 2 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
-> - **17+:** 18 poison damage; M < 3 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
+> - **≤11:** 10 poison damage; M < 1 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
+> - **12-16:** 15 poison damage; M < 2 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
+> - **17+:** 18 poison damage; M < 3 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
 
 > 🏹 **Experimental Treasure**
 >
@@ -51,15 +51,15 @@ type: statblock
 >
 > **Power Roll + 3:**
 >
-> - **≤11:** The targets regains 10 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina).
-> - **12-16:** 12 corruption damage; A < 2 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
-> - **17+:** 12 lightning damage; A < 2 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
+> - **≤11:** The targets regains 10 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).
+> - **12-16:** 12 corruption damage; A < 2 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+> - **17+:** 12 lightning damage; A < 2 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
 >
 > **Effect:** The first time in an encounter that Aeolyxria makes a power roll for this ability, she can subsequently use the outcome of that roll instead of rolling whenever she uses this ability until the end of the encounter.
 >
-> **2+ [Malice](scc:mcdm.monsters.v1/rule.monster/malice):** The ability targets one additional target for each 2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice) spent.
+> **2+ [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice):** The ability targets one additional target for each 2 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice) spent.
 
-> 🔳 **Elevate (2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
+> 🔳 **Elevate (2 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Area, Ranged**       |   **Maneuver** |
 > |------------------------|---------------:|
@@ -67,7 +67,7 @@ type: statblock
 >
 > **Effect:** The ground in the area rises 5 squares, creating a pillar of dirt. Any creature in the area moves with the ground to its new elevation.
 >
-> **1+ [Malice](scc:mcdm.monsters.v1/rule.monster/malice):** Aeolyxria creates an additional pillar for each [Malice](scc:mcdm.monsters.v1/rule.monster/malice) spent.
+> **1+ [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice):** Aeolyxria creates an additional pillar for each [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice) spent.
 
 > ❗️ **Blood For Blood**
 >
@@ -75,14 +75,14 @@ type: statblock
 > |--------------------|---------------------:|
 > | **📏 Ranged 5**    |  **🎯 One creature** |
 >
-> **Trigger:** An ally is made [bleeding](scc:mcdm.heroes.v1/condition/bleeding) by the target.
+> **Trigger:** An ally is made [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) by the target.
 >
 > **Power Roll + 3:**
 >
-> - **≤11:** 7 poison damage; A < 2 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
-> - **12-16:** 12 poison damage; A < 3 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
-> - **17+:** 15 poison damage; [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
+> - **≤11:** 7 poison damage; A < 2 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
+> - **12-16:** 12 poison damage; A < 3 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
+> - **17+:** 15 poison damage; [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
 
 > ⭐️ **That's Our Opening!**
 >
-> The Director gains 1 [Malice](scc:mcdm.monsters.v1/rule.monster/malice) whenever Aeolyxria imposes a condition on an enemy.
+> The Director gains 1 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice) whenever Aeolyxria imposes a condition on an enemy.

@@ -6,4 +6,4 @@ scc: mcdm.heroes.v1/feature.fury.level-4/characteristic-increase
 type: feature
 ---
 
-Your [Might](scc:mcdm.heroes.v1/rule.character/might) and [Agility](scc:mcdm.heroes.v1/rule.character/agility) scores each increase to 3.
+Your [Might](scc.v1:mcdm.heroes.v1/rule.character/might) and [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility) scores each increase to 3.

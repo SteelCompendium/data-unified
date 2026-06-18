@@ -14,16 +14,16 @@ type: treasure
 
 **Keywords:** Magic, Net
 
-**[Item Prerequisite](scc:mcdm.heroes.v1/rule.downtime/item-prerequisite):** Four iron bars coated in magma slag
+**[Item Prerequisite](scc.v1:mcdm.heroes.v1/rule.downtime/item-prerequisite):** Four iron bars coated in magma slag
 
-**[Project Source](scc:mcdm.heroes.v1/rule.downtime/project-source):** Texts or lore in Caelian
+**[Project Source](scc.v1:mcdm.heroes.v1/rule.downtime/project-source):** Texts or lore in Caelian
 
-**[Project Roll](scc:mcdm.heroes.v1/rule.downtime/project-roll) [Characteristic](scc:mcdm.heroes.v1/rule.character/characteristic):** [Might](scc:mcdm.heroes.v1/rule.character/might), [Reason](scc:mcdm.heroes.v1/rule.character/reason), or [Intuition](scc:mcdm.heroes.v1/rule.character/intuition)
+**[Project Roll](scc.v1:mcdm.heroes.v1/rule.downtime/project-roll) [Characteristic](scc.v1:mcdm.heroes.v1/rule.character/characteristic):** [Might](scc.v1:mcdm.heroes.v1/rule.character/might), [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason), or [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)
 
 **Project Goal:** 450
 
-**1st Level:** Any weapon ability that deals [rolled damage](scc:mcdm.heroes.v1/rule.damage/rolled-damage) using this weapon deals an extra 1 fire damage. Additionally, whenever you make a [strike](scc:mcdm.heroes.v1/rule.combat/strike) using the net and obtain a tier 3 outcome, you can automatically grab the target. A target [grabbed](scc:mcdm.heroes.v1/condition/grabbed) in this way takes a [bane](scc:mcdm.heroes.v1/rule.dice/bane) when using the [Escape Grab](scc:mcdm.heroes.v1/feature.common.maneuvers/escape-grab) maneuver.
+**1st Level:** Any weapon ability that deals [rolled damage](scc.v1:mcdm.heroes.v1/rule.damage/rolled-damage) using this weapon deals an extra 1 fire damage. Additionally, whenever you make a [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) using the net and obtain a tier 3 outcome, you can automatically grab the target. A target [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) in this way takes a [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) when using the [Escape Grab](scc.v1:mcdm.heroes.v1/feature.common.maneuvers/escape-grab) maneuver.
 
-**5th Level:** The weapon's extra fire damage increases to 2. Additionally, a target [grabbed](scc:mcdm.heroes.v1/condition/grabbed) by a [strike](scc:mcdm.heroes.v1/rule.combat/strike) using the net takes 8 fire damage each time they attempt to escape using the [Escape Grab](scc:mcdm.heroes.v1/feature.common.maneuvers/escape-grab) maneuver.
+**5th Level:** The weapon's extra fire damage increases to 2. Additionally, a target [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) by a [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) using the net takes 8 fire damage each time they attempt to escape using the [Escape Grab](scc.v1:mcdm.heroes.v1/feature.common.maneuvers/escape-grab) maneuver.
 
-**9th Level:** The weapon's extra fire damage increases to 3, and the damage taken by a [grabbed](scc:mcdm.heroes.v1/condition/grabbed) creature attempting to escape increases to 15. Additionally, you can use a maneuver to make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) with another weapon against a target [grabbed](scc:mcdm.heroes.v1/condition/grabbed) using the net.
+**9th Level:** The weapon's extra fire damage increases to 3, and the damage taken by a [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) creature attempting to escape increases to 15. Additionally, you can use a maneuver to make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) with another weapon against a target [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) using the net.

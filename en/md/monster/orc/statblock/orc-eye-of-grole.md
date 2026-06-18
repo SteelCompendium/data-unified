@@ -33,9 +33,9 @@ type: statblock
 
 > ⭐️ **Elemental Affinity**
 >
-> The eye has an affinity for one of the following damage types cold, fire, or lightning. The chosen type determines the eye's [damage immunity](scc:mcdm.heroes.v1/rule.damage/damage-immunity) and the damage dealt by their abilities.
+> The eye has an affinity for one of the following damage types cold, fire, or lightning. The chosen type determines the eye's [damage immunity](scc.v1:mcdm.heroes.v1/rule.damage/damage-immunity) and the damage dealt by their abilities.
 
-> 🏹 **Elemental Discharge ([Signature Ability](scc:mcdm.heroes.v1/rule.combat/signature-ability))**
+> 🏹 **Elemental Discharge ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
 > | **Magic, Ranged, Strike** |               **Main action** |
 > |---------------------------|------------------------------:|
@@ -43,13 +43,13 @@ type: statblock
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 6 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 2, or the eye [shifts](scc:mcdm.heroes.v1/movement/shifting) up to 2 squares away from the target
-> - **12-16:** 9 damage; [slide](scc:mcdm.heroes.v1/movement/forced-movement) 4, or the eye [shifts](scc:mcdm.heroes.v1/movement/shifting) up to 4 squares away from the target
-> - **17+:** 12 damage; [slide](scc:mcdm.heroes.v1/movement/forced-movement) 6, or the eye [shifts](scc:mcdm.heroes.v1/movement/shifting) up to 6 squares away from the target
+> - **≤11:** 6 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2, or the eye [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to 2 squares away from the target
+> - **12-16:** 9 damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 4, or the eye [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to 4 squares away from the target
+> - **17+:** 12 damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 6, or the eye [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to 6 squares away from the target
 >
 > **Effect:** This ability deals cold, fire, or lightning damage.
 
-> 🔳 **Power Burst (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
+> 🔳 **Power Burst (3 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Area, Magic**            |               **Main action** |
 > |----------------------------|------------------------------:|
@@ -57,12 +57,12 @@ type: statblock
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 3 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 2
-> - **12-16:** 5 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 3
-> - **17+:** 8 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 4, [prone](scc:mcdm.heroes.v1/condition/prone)
+> - **≤11:** 3 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2
+> - **12-16:** 5 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3
+> - **17+:** 8 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 4, [prone](scc.v1:mcdm.heroes.v1/condition/prone)
 >
-> **Effect:** This ability deals cold, fire, or lightning damage, and any enemy targeted by the ability has [damage weakness](scc:mcdm.heroes.v1/rule.damage/damage-weakness) 3 to the same damage type (save ends).
+> **Effect:** This ability deals cold, fire, or lightning damage, and any enemy targeted by the ability has [damage weakness](scc.v1:mcdm.heroes.v1/rule.damage/damage-weakness) 3 to the same damage type (save ends).
 
 > ⭐️ **Relentless**
 >
-> If the eye is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), they can make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) before dying. If the target of the free strike is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), the eye is reduced to 1 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) instead.
+> If the eye is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), they can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) before dying. If the target of the free strike is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), the eye is reduced to 1 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) instead.

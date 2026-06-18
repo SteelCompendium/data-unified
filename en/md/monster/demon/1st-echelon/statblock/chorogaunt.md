@@ -36,11 +36,11 @@ weaknesses:
 >
 > **Power Roll + 3:**
 >
-> - **≤11:** 4 psychic damage; I < 1 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
-> - **12-16:** 7 psychic damage; I < 2 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
-> - **17+:** 10 psychic damage; I < 3 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
+> - **≤11:** 4 psychic damage; I < 1 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
+> - **12-16:** 7 psychic damage; I < 2 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
+> - **17+:** 10 psychic damage; I < 3 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
 >
-> **Effect:** One ally within 10 squares of the chorogaunt [shifts](scc:mcdm.heroes.v1/movement/shifting) up to their speed.
+> **Effect:** One ally within 10 squares of the chorogaunt [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed.
 
 > ❇️ **Chaotic Entrancing Harmony**
 >
@@ -48,9 +48,9 @@ weaknesses:
 > |-----------------|------------------------------:|
 > | **📏 10 burst** | **🎯 Each enemy in the area** |
 >
-> **Effect:** The chorogaunt slides each target up to 3 squares, ignoring [stability](scc:mcdm.heroes.v1/rule.character/stability).
+> **Effect:** The chorogaunt slides each target up to 3 squares, ignoring [stability](scc.v1:mcdm.heroes.v1/rule.character/stability).
 
-> ❗️ **I Thrive on Pain (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
+> ❗️ **I Thrive on Pain (3 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Magic**   | **Triggered action** |
 > |-------------|---------------------:|
@@ -62,11 +62,11 @@ weaknesses:
 
 > ⭐️ **End Effect**
 >
-> At the end of each of their turns, the chorogaunt can take 5 damage to end one effect on them that can be ended by a [saving throw](scc:mcdm.heroes.v1/rule.general/saving-throw). This damage can't be reduced in any way.
+> At the end of each of their turns, the chorogaunt can take 5 damage to end one effect on them that can be ended by a [saving throw](scc.v1:mcdm.heroes.v1/rule.general/saving-throw). This damage can't be reduced in any way.
 
 > ⭐️ **Lethe**
 >
-> While the chorogaunt is [winded](scc:mcdm.heroes.v1/rule.health/winded), they gain an [edge](scc:mcdm.heroes.v1/rule.dice/edge) on strikes, and any strike made against them gains an edge.
+> While the chorogaunt is [winded](scc.v1:mcdm.heroes.v1/rule.health/winded), they gain an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on strikes, and any strike made against them gains an edge.
 
 > ⭐️ **Soulsight**
 >
@@ -78,7 +78,7 @@ weaknesses:
 > |------------------|---------------------:|
 > | **📏 Ranged 10** | **🎯 Three enemies** |
 >
-> **Effect:** Each target must choose between taking 5 psychic damage, or being [frightened](scc:mcdm.heroes.v1/condition/frightened) (save ends).
+> **Effect:** Each target must choose between taking 5 psychic damage, or being [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends).
 
 > ☠️ **Bully the Weak (Villain Action 2)**
 >
@@ -86,7 +86,7 @@ weaknesses:
 > |------------------|----------------:|
 > | **📏 Ranged 10** | **🎯 One ally** |
 >
-> **Effect:** The chorogaunt kills the target, and each other ally in the encounter deals an extra 3 damage with strikes until the end of the round. The Director gains [Malice](scc:mcdm.monsters.v1/rule.monster/malice) equal to the number of heroes in the encounter.
+> **Effect:** The chorogaunt kills the target, and each other ally in the encounter deals an extra 3 damage with strikes until the end of the round. The Director gains [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice) equal to the number of heroes in the encounter.
 
 > ☠️ **Running Cacophony (Villain Action 3)**
 >
@@ -94,4 +94,4 @@ weaknesses:
 > |-------------|------------:|
 > | **📏 Self** | **🎯 Self** |
 >
-> **Effect:** The chorogaunt [shifts](scc:mcdm.heroes.v1/movement/shifting) up to their speed, uses Agonizing Harmony, [shifts](scc:mcdm.heroes.v1/movement/shifting) up to their speed, and then uses Agonizing Harmony again.
+> **Effect:** The chorogaunt [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed, uses Agonizing Harmony, [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed, and then uses Agonizing Harmony again.

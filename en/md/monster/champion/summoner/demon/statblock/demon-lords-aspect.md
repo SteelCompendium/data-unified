@@ -33,41 +33,41 @@ weaknesses:
 
 Stamina: Your maximum Stamina
 
-> 🏹 **Grasping Appendages 2d10 + 5 ([Signature Ability](scc:mcdm.heroes.v1/rule.combat/signature-ability))**
+> 🏹 **Grasping Appendages 2d10 + 5 ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
 > | **Melee, Strike, Weapon** | **Main action** |
 > |---------------------------|----------------:|
 > | **📏 Melee 5** | **🎯 Two creatures or objects** |
 >
-> 9 corruption [damage](scc:mcdm.heroes.v1/rule.damage/damage); [pull](scc:mcdm.heroes.v1/movement/forced-movement) 2
+> 9 corruption [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage); [pull](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2
 >
-> 12 corruption [damage](scc:mcdm.heroes.v1/rule.damage/damage); [pull](scc:mcdm.heroes.v1/movement/forced-movement) 4
+> 12 corruption [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage); [pull](scc.v1:mcdm.heroes.v1/movement/forced-movement) 4
 >
-> 14 corruption [damage](scc:mcdm.heroes.v1/rule.damage/damage); [pull](scc:mcdm.heroes.v1/movement/forced-movement) 5
+> 14 corruption [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage); [pull](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5
 >
-> **Effect:** A target [pulled](scc:mcdm.heroes.v1/movement/forced-movement) [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the Aspect is [grabbed](scc:mcdm.heroes.v1/condition/grabbed).
+> **Effect:** A target [pulled](scc.v1:mcdm.heroes.v1/movement/forced-movement) [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the Aspect is [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed).
 
 > ⭐️ **Warping Strike**
 >
-> The Aspect's [free strikes](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) [teleport](scc:mcdm.heroes.v1/movement/teleport) the target 5 squares.
+> The Aspect's [free strikes](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) the target 5 squares.
 
 > ⭐️ **Champion's Ire**
 >
-> If the Aspect only targets one creature or object with a [strike](scc:mcdm.heroes.v1/rule.combat/strike), they deal additional [damage](scc:mcdm.heroes.v1/rule.damage/damage) to the target equal to your [Reason](scc:mcdm.heroes.v1/rule.character/reason).
+> If the Aspect only targets one creature or object with a [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), they deal additional [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage) to the target equal to your [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason).
 
 > ❗️ **I Like Your Taste**
 >
-> | **—** | **[Free triggered action](scc:mcdm.heroes.v1/rule.combat/triggered-action)** |
+> | **—** | **[Free triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |
 > |-------|---------------------------:|
 > | **📏 Self** | **🎯 Self** |
 >
-> **Trigger:** The Aspect takes [damage](scc:mcdm.heroes.v1/rule.damage/damage) from an enemy.
+> **Trigger:** The Aspect takes [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage) from an enemy.
 >
-> **Effect:** The Aspect has a double [edge](scc:mcdm.heroes.v1/rule.dice/edge) on their next [power roll](scc:mcdm.heroes.v1/rule.dice/power-roll). They can choose to give this benefit to an ally within your Summoner's Range instead.
+> **Effect:** The Aspect has a double [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on their next [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll). They can choose to give this benefit to an ally within your Summoner's Range instead.
 
 > ⭐️ **Frenzy**
 >
-> When the Aspect is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), they make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) against each [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) enemy before [dying](scc:mcdm.heroes.v1/rule.health/dying).
+> When the Aspect is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), they make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against each [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) enemy before [dying](scc.v1:mcdm.heroes.v1/rule.health/dying).
 
 > **Level 10 Champion Advancement Feature**
 >
@@ -83,4 +83,4 @@ Stamina: Your maximum Stamina
 >
 > **Champion Action**
 >
-> **Effect:** Each target [teleports](scc:mcdm.heroes.v1/movement/teleport) up to their [speed](scc:mcdm.heroes.v1/rule.character/speed) and makes a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike). If a target has a [Save Ends](scc:mcdm.heroes.v1/rule.general/saving-throw) [condition](scc:mcdm.heroes.v1/rule.combat/condition), they can inflict the [condition](scc:mcdm.heroes.v1/rule.combat/condition) onto a creature with their [strike](scc:mcdm.heroes.v1/rule.combat/strike) and end the [condition](scc:mcdm.heroes.v1/rule.combat/condition) on themself.
+> **Effect:** Each target [teleports](scc.v1:mcdm.heroes.v1/movement/teleport) up to their [speed](scc.v1:mcdm.heroes.v1/rule.character/speed) and makes a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike). If a target has a [Save Ends](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) [condition](scc.v1:mcdm.heroes.v1/rule.combat/condition), they can inflict the [condition](scc.v1:mcdm.heroes.v1/rule.combat/condition) onto a creature with their [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) and end the [condition](scc.v1:mcdm.heroes.v1/rule.combat/condition) on themself.

@@ -40,11 +40,11 @@ type: statblock
 >
 > **Power Roll + 3:**
 >
-> - **≤11:** 5 fire damage; M < 1 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
-> - **12-16:** 9 fire damage; M < 2 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
-> - **17+:** 11 fire damage; M < 3 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
+> - **≤11:** 5 fire damage; M < 1 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+> - **12-16:** 9 fire damage; M < 2 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+> - **17+:** 11 fire damage; M < 3 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
 >
-> **Effect:** Before using this ability, the war mage can [teleport](scc:mcdm.heroes.v1/movement/teleport) a creature within 10 squares of them up to 2 squares.
+> **Effect:** Before using this ability, the war mage can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) a creature within 10 squares of them up to 2 squares.
 
 > 🏹 **Enchantments of War**
 >
@@ -52,15 +52,15 @@ type: statblock
 > |-------------------|------------------:|
 > | **📏 Ranged 10**  | **🎯 Two allies** |
 >
-> **Effect:** Each target gains 10 temporary [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) and has a double edge on their next power roll. The war mage can spend any amount of their current [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) to increase the temporary [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) each target gains by an equivalent amount.
+> **Effect:** Each target gains 10 temporary [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) and has a double edge on their next power roll. The war mage can spend any amount of their current [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) to increase the temporary [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) each target gains by an equivalent amount.
 
-> 🔳 **Unhallowed Ground (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
+> 🔳 **Unhallowed Ground (3 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Area, Magic, Ranged** |   **Maneuver** |
 > |-------------------------|---------------:|
 > | **📏 5 cube within 10** | **🎯 Special** |
 >
-> **Effect:** The war mage consecrates the area and causes it to smolder until the end of the encounter. The area is [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain) and an enemy in the area has fire weakness 10.
+> **Effect:** The war mage consecrates the area and causes it to smolder until the end of the encounter. The area is [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain) and an enemy in the area has fire weakness 10.
 
 > ❗️ **Magic Siphon**
 >
@@ -70,11 +70,11 @@ type: statblock
 >
 > **Trigger:** A creature within distance uses a magic ability.
 >
-> **Effect:** Any damage dealt or [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) regained from the creature's ability is halved. The war mage regains [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) equal to the remaining damage dealt or [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) regained.
+> **Effect:** Any damage dealt or [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) regained from the creature's ability is halved. The war mage regains [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) equal to the remaining damage dealt or [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) regained.
 
 > ⭐️ **Infernal Ichor**
 >
-> When the war mage is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), they spray burning blood. Each creature [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the war mage takes 3 fire damage.
+> When the war mage is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), they spray burning blood. Each creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the war mage takes 3 fire damage.
 
 > ⭐️ **Despair, You Who Face Death**
 >

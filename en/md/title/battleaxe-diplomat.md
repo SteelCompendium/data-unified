@@ -13,6 +13,6 @@ type: title
 
 **Effect:** Choose one of the following benefits:
 
-- *Iron Hand in Velvet Glove:* The first time during a negotiation that you make a [test](scc:mcdm.heroes.v1/rule.test/test) using the [Intimidate](scc:mcdm.heroes.v1/skill.interpersonal/intimidate) skill and don't make an argument that appeals to an [NPC](scc:mcdm.heroes.v1/rule.general/npc)'s motivation, you don't lower the [NPC](scc:mcdm.heroes.v1/rule.general/npc)'s patience or interest no matter the outcome of the roll.
-- *Truce!:* You have a double [edge](scc:mcdm.heroes.v1/rule.dice/edge) on [tests](scc:mcdm.heroes.v1/rule.test/test) made to stop combat and start a negotiation.
-- *Warriors' Understanding:* You gain an [edge](scc:mcdm.heroes.v1/rule.dice/edge) on [Presence](scc:mcdm.heroes.v1/rule.character/presence) [tests](scc:mcdm.heroes.v1/rule.test/test) made to interact with creatures you have fought against in combat encounters.
+- *Iron Hand in Velvet Glove:* The first time during a negotiation that you make a [test](scc.v1:mcdm.heroes.v1/rule.test/test) using the [Intimidate](scc.v1:mcdm.heroes.v1/skill.interpersonal/intimidate) skill and don't make an argument that appeals to an [NPC](scc.v1:mcdm.heroes.v1/rule.general/npc)'s motivation, you don't lower the [NPC](scc.v1:mcdm.heroes.v1/rule.general/npc)'s patience or interest no matter the outcome of the roll.
+- *Truce!:* You have a double [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on [tests](scc.v1:mcdm.heroes.v1/rule.test/test) made to stop combat and start a negotiation.
+- *Warriors' Understanding:* You gain an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence) [tests](scc.v1:mcdm.heroes.v1/rule.test/test) made to interact with creatures you have fought against in combat encounters.

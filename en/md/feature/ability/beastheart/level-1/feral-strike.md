@@ -39,7 +39,7 @@ Your companion then makes the following power roll:
 
 This ability gains the following benefit based on your wild nature.
 
-- **Guardian:** Each enemy target is [taunted](scc:mcdm.heroes.v1/condition/taunted) by your companion until the start of your next turn.
-- **Prowler:** Each enemy target is [weakened](scc:mcdm.heroes.v1/condition/weakened) until the start of your next turn.
+- **Guardian:** Each enemy target is [taunted](scc.v1:mcdm.heroes.v1/condition/taunted) by your companion until the start of your next turn.
+- **Prowler:** Each enemy target is [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) until the start of your next turn.
 - **Punisher:** Your companion slides each target up to a number of squares equal to their Might score.
 - **Spark:** This strike deals cold, fire, lightning, or sonic damage. You gain 1 surge.

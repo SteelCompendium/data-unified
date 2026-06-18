@@ -37,10 +37,10 @@ with_captain: +1 damage bonus to strikes
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 2 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 1
-> - **12-16:** 4 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 3
-> - **17+:** 5 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 4
+> - **≤11:** 2 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1
+> - **12-16:** 4 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3
+> - **17+:** 5 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 4
 
 > ⭐️ **Crafty**
 >
-> The spinecleaver doesn't provoke [opportunity attacks](scc:mcdm.heroes.v1/rule.combat/opportunity-attack) by moving.
+> The spinecleaver doesn't provoke [opportunity attacks](scc.v1:mcdm.heroes.v1/rule.combat/opportunity-attack) by moving.

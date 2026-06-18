@@ -31,7 +31,7 @@ with_captain: +2 bonus to speed
 | **Corruption 1, poison 1**<br>Immunity | **Fly, hover**<br>Movement |        -         | **+2 bonus to speed**<br>With Captain |   **-**<br>Weakness   |
 |            **-5**<br>Might             |     **+1**<br>Agility      | **0**<br>Reason  |          **0**<br>Intuition           |  **+2**<br>Presence   |
 
-> 🗡 **Life Drain ([Signature Ability](scc:mcdm.heroes.v1/rule.combat/signature-ability))**
+> 🗡 **Life Drain ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
 > | **Melee, Strike, Weapon** |                          **Main action** |
 > |---------------------------|-----------------------------------------:|
@@ -45,4 +45,4 @@ with_captain: +2 bonus to speed
 
 > ⭐️ **Shadow Phasing**
 >
-> The shade can move through creatures and objects at their usual speed, but can't end their turn inside a creature or object. The first time in a round that the shade moves through a creature, that creature takes 1 corruption damage. The shade doesn't take damage from being [force moved](scc:mcdm.heroes.v1/movement/forced-movement) into objects.
+> The shade can move through creatures and objects at their usual speed, but can't end their turn inside a creature or object. The first time in a round that the shade moves through a creature, that creature takes 1 corruption damage. The shade doesn't take damage from being [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement) into objects.

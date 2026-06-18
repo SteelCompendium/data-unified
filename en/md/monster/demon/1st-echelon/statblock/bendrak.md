@@ -38,12 +38,12 @@ weaknesses:
 > **Power Roll + 2:**
 >
 > - **≤11:** 4 psychic damage
-> - **12-16:** 5 psychic damage; P < 1 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
-> - **17+:** 7 psychic damage; P < 2 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
+> - **12-16:** 5 psychic damage; P < 1 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+> - **17+:** 7 psychic damage; P < 2 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
 >
-> **Effect:** If the target makes a strike while [weakened](scc:mcdm.heroes.v1/condition/weakened) this way, the bendrak can choose a second target within distance for the strike. The first target takes half of any damage from the strike and the second target takes any remaining damage.
+> **Effect:** If the target makes a strike while [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) this way, the bendrak can choose a second target within distance for the strike. The first target takes half of any damage from the strike and the second target takes any remaining damage.
 
-> 🏹 **Vanish (1 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
+> 🏹 **Vanish (1 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Magic, Ranged** |            **Maneuver** |
 > |-------------------|------------------------:|
@@ -53,7 +53,7 @@ weaknesses:
 
 > ⭐️ **Lethe**
 >
-> While the bendrak is [winded](scc:mcdm.heroes.v1/rule.health/winded), they gain an [edge](scc:mcdm.heroes.v1/rule.dice/edge) on strikes, and any strike made against them gains an edge.
+> While the bendrak is [winded](scc.v1:mcdm.heroes.v1/rule.health/winded), they gain an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on strikes, and any strike made against them gains an edge.
 
 > ⭐️ **Soulsight**
 >

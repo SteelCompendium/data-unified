@@ -36,12 +36,12 @@ Chimors have no true shape; their bodies restructure and change endlessly. Piece
 
 > ⭐️ **Mercurial Strike**
 >
-> The chimor's melee [free strikes](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) inflict M < WEAK [weakened](scc:mcdm.heroes.v1/condition/weakened) (EoT). The [potency](scc:mcdm.heroes.v1/rule.character/potency) is increased by the current [round](scc:mcdm.heroes.v1/rule.combat/combat-round) number.
+> The chimor's melee [free strikes](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) inflict M < WEAK [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (EoT). The [potency](scc.v1:mcdm.heroes.v1/rule.character/potency) is increased by the current [round](scc.v1:mcdm.heroes.v1/rule.combat/combat-round) number.
 
 > ⭐️ **Evershifting**
 >
-> The chimor doesn't provoke [opportunity attacks](scc:mcdm.heroes.v1/rule.combat/opportunity-attack) by moving.
+> The chimor doesn't provoke [opportunity attacks](scc.v1:mcdm.heroes.v1/rule.combat/opportunity-attack) by moving.
 
 > ⭐️ **Soulsight**
 >
-> Each creature [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the chimor can't be hidden from them.
+> Each creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the chimor can't be hidden from them.

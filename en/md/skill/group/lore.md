@@ -6,9 +6,9 @@ type: skill-group
 
 Skills from the lore skill group are used to research and recall specific information. They are especially useful during rests and downtime.
 
-Rewards for [tests](scc:mcdm.heroes.v1/rule.test/test) made with lore skills typically include learning an extra piece of useful information.
+Rewards for [tests](scc.v1:mcdm.heroes.v1/rule.test/test) made with lore skills typically include learning an extra piece of useful information.
 
-Consequences for [tests](scc:mcdm.heroes.v1/rule.test/test) made with lore skills typically include learning an incorrect piece of information that seems useful, but which actually works against your interests or wastes time. (It's fun to roleplay these kinds of moments, so lean in!) Alternatively, the Director can make medium and hard [tests](scc:mcdm.heroes.v1/rule.test/test) with lore group skills for each hero in secret, then let the players know the narrative outcome without revealing the outcome of the [power roll](scc:mcdm.heroes.v1/rule.dice/power-roll) (see the Optional Rule: Secret [Reactive Tests](scc:mcdm.heroes.v1/rule.test/reactive-test) sidebar earlier in this chapter).
+Consequences for [tests](scc.v1:mcdm.heroes.v1/rule.test/test) made with lore skills typically include learning an incorrect piece of information that seems useful, but which actually works against your interests or wastes time. (It's fun to roleplay these kinds of moments, so lean in!) Alternatively, the Director can make medium and hard [tests](scc.v1:mcdm.heroes.v1/rule.test/test) with lore group skills for each hero in secret, then let the players know the narrative outcome without revealing the outcome of the [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) (see the Optional Rule: Secret [Reactive Tests](scc.v1:mcdm.heroes.v1/rule.test/reactive-test) sidebar earlier in this chapter).
 
 ###### Lore Skills Table
 

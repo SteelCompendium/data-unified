@@ -29,7 +29,7 @@ type: statblock
 |      **-**<br>Immunity      | **Fly, hover**<br>Movement |         -          | **-**<br>With Captain |   **-**<br>Weakness   |
 |       **+1**<br>Might       |     **+3**<br>Agility      |  **+3**<br>Reason  |  **+4**<br>Intuition  |  **+5**<br>Presence   |
 
-> 🏹 **Soulbind ([Signature Ability](scc:mcdm.heroes.v1/rule.combat/signature-ability))**
+> 🏹 **Soulbind ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
 > | **Magic, Ranged, Strike** |                 **Main action** |
 > |---------------------------|--------------------------------:|
@@ -41,9 +41,9 @@ type: statblock
 > - **12-16:** 20 holy damage; R < 4 the target is soulbound (save ends)
 > - **17+:** 24 holy damage; R < 5 the target is soulbound (save ends)
 >
-> **Effect:** A soulbound creature can't benefit from edges or double edges, and can't gain or use [surges](scc:mcdm.heroes.v1/rule.resource/surge).
+> **Effect:** A soulbound creature can't benefit from edges or double edges, and can't gain or use [surges](scc.v1:mcdm.heroes.v1/rule.resource/surge).
 
-> 🔳 **Soulstorm (2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
+> 🔳 **Soulstorm (2 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Area, Magic, Ranged** |               **Main action** |
 > |-------------------------|------------------------------:|
@@ -51,13 +51,13 @@ type: statblock
 >
 > **Power Roll + 5:**
 >
-> - **≤11:** 8 corruption damage; P < 3 [weakened](scc:mcdm.heroes.v1/condition/weakened) (EoT)
-> - **12-16:** 12 corruption damage; P < 4 [weakened](scc:mcdm.heroes.v1/condition/weakened) (EoT)
-> - **17+:** 15 corruption damage; P < 5 [weakened](scc:mcdm.heroes.v1/condition/weakened) (EoT)
+> - **≤11:** 8 corruption damage; P < 3 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (EoT)
+> - **12-16:** 12 corruption damage; P < 4 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (EoT)
+> - **17+:** 15 corruption damage; P < 5 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (EoT)
 >
-> **Effect:** The area is [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain) until the start of Psyche's next turn At the start of each of her turns, Psyche can use a maneuver to maintain this effect, move the area up to 5 squares, and make the power roll against each creature in the area's new location.
+> **Effect:** The area is [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain) until the start of Psyche's next turn At the start of each of her turns, Psyche can use a maneuver to maintain this effect, move the area up to 5 squares, and make the power roll against each creature in the area's new location.
 >
-> **1 [Malice](scc:mcdm.monsters.v1/rule.monster/malice):** Until the start of Psyche's next turn, if this ability makes a creature [weakened](scc:mcdm.heroes.v1/condition/weakened), that creature is also soulbound (save ends; see Soulbind above).
+> **1 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice):** Until the start of Psyche's next turn, if this ability makes a creature [weakened](scc.v1:mcdm.heroes.v1/condition/weakened), that creature is also soulbound (save ends; see Soulbind above).
 
 > ❇️ **Command the Awakened**
 >
@@ -65,7 +65,7 @@ type: statblock
 > |-------------------|----------------------------------------:|
 > | **📏 5 burst**    | **🎯 Each soulbound enemy in the area** |
 >
-> **Effect:** Each target takes 5 damage from a self-inflicted wound, and if they have M < 4 Psyche [slides](scc:mcdm.heroes.v1/movement/forced-movement) them up to 5 squares.
+> **Effect:** Each target takes 5 damage from a self-inflicted wound, and if they have M < 4 Psyche [slides](scc.v1:mcdm.heroes.v1/movement/forced-movement) them up to 5 squares.
 
 > ❗️ **Spirit Form**
 >
@@ -75,7 +75,7 @@ type: statblock
 >
 > **Trigger:** An enemy moves within 2 squares of Psyche.
 >
-> **Effect:** Psyche moves up to 5 squares, and has damage immunity 5 and ignores [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain) during this movement. The first time she moves through any creature during this movement, that creature takes 5 corruption damage.
+> **Effect:** Psyche moves up to 5 squares, and has damage immunity 5 and ignores [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain) during this movement. The first time she moves through any creature during this movement, that creature takes 5 corruption damage.
 
 > ❗️ **Vengeance for the Slain**
 >
@@ -83,15 +83,15 @@ type: statblock
 > |------------------|--------------------------:|
 > | **📏 Ranged 10** |          **🎯 One enemy** |
 >
-> **Trigger:** A war dog within distance is made [winded](scc:mcdm.heroes.v1/rule.health/winded) or reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina).
+> **Trigger:** A war dog within distance is made [winded](scc.v1:mcdm.heroes.v1/rule.health/winded) or reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).
 >
-> **Effect:** The target loses all their [surges](scc:mcdm.heroes.v1/rule.resource/surge) and takes 5 corruption damage.
+> **Effect:** The target loses all their [surges](scc.v1:mcdm.heroes.v1/rule.resource/surge) and takes 5 corruption damage.
 >
-> **1 [Malice](scc:mcdm.monsters.v1/rule.monster/malice):** The target also takes a bane on their next strike.
+> **1 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice):** The target also takes a bane on their next strike.
 
 > ⭐️ **Immortal Soul**
 >
-> When Psyche is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), her spirit surrounds the nearest war dog, who has damage immunity 2, deals an extra 5 damage on strikes, and can use the following Immortal Flare maneuver until the end of the encounter. That war dog also gains the Immortal Soul trait, and transfers this effect to the nearest war dog when they die.
+> When Psyche is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), her spirit surrounds the nearest war dog, who has damage immunity 2, deals an extra 5 damage on strikes, and can use the following Immortal Flare maneuver until the end of the encounter. That war dog also gains the Immortal Soul trait, and transfers this effect to the nearest war dog when they die.
 
 > 🏹 **Immortal Flare**
 >

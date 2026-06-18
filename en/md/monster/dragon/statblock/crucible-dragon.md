@@ -28,9 +28,9 @@ type: statblock
 | **Fire 6**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |   
 |    **+4**<br>Might     | **-1**<br>Agility |  **+3**<br>Reason  |  **+3**<br>Intuition  |  **+2**<br>Presence  |
 
-> ☠️ **[Solo](scc:mcdm.monsters.v1/rule.organization/solo) Monster**
+> ☠️ **[Solo](scc.v1:mcdm.monsters.v1/rule.organization/solo) Monster**
 >
-> **[End Effect](scc:mcdm.monsters.v1/rule.monster/end-effect):** At the end of each of their turns, the dragon can take 10 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way.
+> **[End Effect](scc.v1:mcdm.monsters.v1/rule.monster/end-effect):** At the end of each of their turns, the dragon can take 10 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way.
 >
 > **Solo Turns:** The dragon can take two turns each round. They can't take turns consecutively.
 
@@ -50,7 +50,7 @@ type: statblock
 > - **12-16:** 10 fire damage; the target is slagged (save ends)
 > - **17+:** 6 fire damage
 >
-> A slagged target is coated in molten metal and takes 2d6 fire damage at the start of each of their turns. If a slagged target has M < 3 they are [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends) whenever they take cold damage.
+> A slagged target is coated in molten metal and takes 2d6 fire damage at the start of each of their turns. If a slagged target has M < 3 they are [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends) whenever they take cold damage.
 
 > 🗡 **Forge Hammer Tail Slam**
 >
@@ -60,37 +60,37 @@ type: statblock
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** 11 damage; M < 2 [prone](scc:mcdm.heroes.v1/condition/prone)
-> - **12-16:** 17 damage; M < 3 [prone](scc:mcdm.heroes.v1/condition/prone)
-> - **17+:** 20 damage; M < 4 [prone](scc:mcdm.heroes.v1/condition/prone)
+> - **≤11:** 11 damage; M < 2 [prone](scc.v1:mcdm.heroes.v1/condition/prone)
+> - **12-16:** 17 damage; M < 3 [prone](scc.v1:mcdm.heroes.v1/condition/prone)
+> - **17+:** 20 damage; M < 4 [prone](scc.v1:mcdm.heroes.v1/condition/prone)
 >
-> **Effect:** The dragon can make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) against each slagged target knocked [prone](scc:mcdm.heroes.v1/condition/prone) this way.
+> **Effect:** The dragon can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against each slagged target knocked [prone](scc.v1:mcdm.heroes.v1/condition/prone) this way.
 >
-> **1 [Malice](scc:mcdm.monsters.v1/rule.monster/malice):** The strike deals 1d6 cold damage.
+> **1 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice):** The strike deals 1d6 cold damage.
 
 > ⭐️ **Heat Buffer**
 >
-> Once per round while the dragon is [flying](scc:mcdm.heroes.v1/movement/fly) using their Thermodynamic Flight ability, they give off a blast of steam to extend the duration of their flight until the end of the next round. Each creature in a 4 cube within 1 underneath the dragon when they use this ability takes 7 fire damage.
+> Once per round while the dragon is [flying](scc.v1:mcdm.heroes.v1/movement/fly) using their Thermodynamic Flight ability, they give off a blast of steam to extend the duration of their flight until the end of the next round. Each creature in a 4 cube within 1 underneath the dragon when they use this ability takes 7 fire damage.
 
-> ❇️ **Thermodynamic Flight (1 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
+> ❇️ **Thermodynamic Flight (1 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Area**       |                  **Maneuver** |
 > |----------------|------------------------------:|
 > | **📏 2 burst** | **🎯 Each enemy in the area** |
 >
-> **Effect:** The dragon expels blistering steam, dealing 7 fire damage to each target in the area. The dragon then [shifts](scc:mcdm.heroes.v1/movement/shifting) up to their speed vertically and can [fly](scc:mcdm.heroes.v1/movement/fly) until the end of the round.
+> **Effect:** The dragon expels blistering steam, dealing 7 fire damage to each target in the area. The dragon then [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed vertically and can [fly](scc.v1:mcdm.heroes.v1/movement/fly) until the end of the round.
 
-> ❗️ **Hammer and Anvil (1 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
+> ❗️ **Hammer and Anvil (1 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **-**       | **Free triggered action** |
 > |-------------|--------------------------:|
 > | **📏 Self** |               **🎯 Self** |
 >
-> **Trigger:** While [flying](scc:mcdm.heroes.v1/movement/fly), the dragon starts their turn or moves.
+> **Trigger:** While [flying](scc.v1:mcdm.heroes.v1/movement/fly), the dragon starts their turn or moves.
 >
 > **Effect:** The dragon drops to the ground and uses Forge Hammer Tail Slam, which deals an extra 4 damage for each square they descended.
 
-> ❗️ **Polarize Aura (1 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
+> ❗️ **Polarize Aura (1 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Area, Magic** |                        **Triggered action** |
 > |-----------------|--------------------------------------------:|
@@ -104,9 +104,9 @@ type: statblock
 >
 > - **≤11:** Push 5
 > - **12-16:** Push 7
-> - **17+:** Push 10, ignoring [stability](scc:mcdm.heroes.v1/rule.character/stability)
+> - **17+:** Push 10, ignoring [stability](scc.v1:mcdm.heroes.v1/rule.character/stability)
 
-> ☠️ **Heart of the Forge ([Villain Action](scc:mcdm.monsters.v1/rule.monster/villain-action) 1)**
+> ☠️ **Heart of the Forge ([Villain Action](scc.v1:mcdm.monsters.v1/rule.monster/villain-action) 1)**
 >
 > | **Area, Magic** |                         **-** |
 > |-----------------|------------------------------:|
@@ -114,11 +114,11 @@ type: statblock
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** 4 fire damage; I < 2 [frightened](scc:mcdm.heroes.v1/condition/frightened) (save ends)
-> - **12-16:** 6 fire damage; I < 3 [frightened](scc:mcdm.heroes.v1/condition/frightened) (save ends)
-> - **17+:** 8 fire damage; I < 4 [frightened](scc:mcdm.heroes.v1/condition/frightened) (save ends)
+> - **≤11:** 4 fire damage; I < 2 [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
+> - **12-16:** 6 fire damage; I < 3 [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
+> - **17+:** 8 fire damage; I < 4 [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
 
-> ☠️ **Subdermal Shielding ([Villain Action](scc:mcdm.monsters.v1/rule.monster/villain-action) 2)**
+> ☠️ **Subdermal Shielding ([Villain Action](scc.v1:mcdm.monsters.v1/rule.monster/villain-action) 2)**
 >
 > | **-**       |       **-** |
 > |-------------|------------:|
@@ -126,7 +126,7 @@ type: statblock
 >
 > **Effect:** Shields embedded under the dragon's scales emerge, and the dragon gains damage immunity 6 at the start of each round until the end of the encounter. If the dragon takes any damage, they lose this immunity until the end of the current round.
 
-> ☠️ **Polarity Chaos ([Villain Action](scc:mcdm.monsters.v1/rule.monster/villain-action) 3)**
+> ☠️ **Polarity Chaos ([Villain Action](scc.v1:mcdm.monsters.v1/rule.monster/villain-action) 3)**
 >
 > | **-**           |                                       **-** |
 > |-----------------|--------------------------------------------:|

@@ -41,14 +41,14 @@ The preserved dead, bound for eternal rest, know only violence when robbed of th
 > |---------------------------|----------------:|
 > | **📏 Melee R** | **🎯 One creature or object per minion** |
 >
-> 3 poison [damage](scc:mcdm.heroes.v1/rule.damage/damage); pull R
+> 3 poison [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage); pull R
 >
-> 4 poison [damage](scc:mcdm.heroes.v1/rule.damage/damage); pull R + 1
+> 4 poison [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage); pull R + 1
 >
-> 6 poison [damage](scc:mcdm.heroes.v1/rule.damage/damage); pull R + 2
+> 6 poison [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage); pull R + 2
 >
-> **Effect:** A target pulled [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the mummy is M < STRONG [weakened](scc:mcdm.heroes.v1/condition/weakened) (EoT).
+> **Effect:** A target pulled [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the mummy is M < STRONG [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (EoT).
 
 > ⭐️ **Mummy Dust**
 >
-> Whenever the mummy takes [damage](scc:mcdm.heroes.v1/rule.damage/damage), each enemy [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the mummy takes 2 poison [damage](scc:mcdm.heroes.v1/rule.damage/damage).
+> Whenever the mummy takes [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage), each enemy [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the mummy takes 2 poison [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage).

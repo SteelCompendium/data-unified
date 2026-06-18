@@ -36,8 +36,8 @@ The shrieker expresses their unending pain in a way that can be heard and felt f
 
 > ⭐️ **Howling Strike**
 >
-> The shrieker's ranged [free strikes](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) have a distance of 12.
+> The shrieker's ranged [free strikes](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) have a distance of 12.
 
 > ⭐️ **Shrill Alarm**
 >
-> Each enemy within 2 squares of the shrieker can't [hide](scc:mcdm.heroes.v1/feature.common.maneuvers/hide) or be [hidden](scc:mcdm.heroes.v1/feature.common.maneuvers/hide).
+> Each enemy within 2 squares of the shrieker can't [hide](scc.v1:mcdm.heroes.v1/feature.common.maneuvers/hide) or be [hidden](scc.v1:mcdm.heroes.v1/feature.common.maneuvers/hide).

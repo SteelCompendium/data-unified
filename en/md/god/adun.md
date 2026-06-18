@@ -12,15 +12,15 @@ Vaslorians in remote villages still use the ancient test of strength to determin
 
 A priest following Adûn expresses their faith through labor. They build things. Many priests are also masons or carpenters. Joining the church for them did not mean abandoning their former trade. It intensified it.
 
-A knight following Adûn spends their time aiding others through hard work, inspiring people to honest speech and hard labor, as opposed to Adûn's brother [Cavall](scc:mcdm.heroes.v1/god/cavall) who seeks to right wrongs.
+A knight following Adûn spends their time aiding others through hard work, inspiring people to honest speech and hard labor, as opposed to Adûn's brother [Cavall](scc.v1:mcdm.heroes.v1/god/cavall) who seeks to right wrongs.
 
-Adûn and [Cavall](scc:mcdm.heroes.v1/god/cavall) are brothers and the line between them is not a sharply defined one. Truth and justice are close companions.
+Adûn and [Cavall](scc.v1:mcdm.heroes.v1/god/cavall) are brothers and the line between them is not a sharply defined one. Truth and justice are close companions.
 
 ##### Gaed the Confessor
 
 **Domains:** Love, Protection
 
-Gaed the Confessor, son of Malgen, son of Germoc, was the abbot of a small monastery dedicated to Saint Anthony—Shield of the North—in eastern Aendrim during the rule of the tyrant Baron Kaveran. Kaveran was a secret [censor](scc:mcdm.heroes.v1/class/censor) of the church of Saint Pallad, winning the baronial throne though a combination of treachery and good strategic battle principles. Once on the throne, he threw off the black cloth covering the device on his shield, revealing himself to be a servant of Pallad, [Saint](scc:mcdm.heroes.v1/rule.world/saint) of Nikros.
+Gaed the Confessor, son of Malgen, son of Germoc, was the abbot of a small monastery dedicated to Saint Anthony—Shield of the North—in eastern Aendrim during the rule of the tyrant Baron Kaveran. Kaveran was a secret [censor](scc.v1:mcdm.heroes.v1/class/censor) of the church of Saint Pallad, winning the baronial throne though a combination of treachery and good strategic battle principles. Once on the throne, he threw off the black cloth covering the device on his shield, revealing himself to be a servant of Pallad, [Saint](scc.v1:mcdm.heroes.v1/rule.world/saint) of Nikros.
 
 Kaveran sought to consolidate his rule by extinguishing the church of Saint Anthony, Shield of the North specifically, and worship of Adûn generally. In this, he almost succeeded. Gaed's monastery was small, his province obscure. But as he refused to renounce his faith, his monastery attracted more and more refugees, making it harder and harder for Kaveran to deal with him without causing a revolt.
 
@@ -28,9 +28,9 @@ Kaveran abducted Gaed, his knights dragging the abbot out of his monastery in th
 
 Kaveran was no fool, and knew killing Gaed would make a martyr of him, and so attacked the abbot's flock. Hoping—by putting their homes to the fire—to pressure Gaed into recanting his faith. Kaveran barred several families in a tavern, set fire to it, and brought Gaed to witness the horror.
 
-But Kaveran had not thought to shackle Gaed, and the abbot countered by lifting the bar on the burning building and walking into the tavern in full view of hundreds of his [followers](scc:mcdm.heroes.v1/rule.general/follower). He spoke Saint Anthony's words as he did so, but it was Adûn who clothed him in a shimmering blue light.
+But Kaveran had not thought to shackle Gaed, and the abbot countered by lifting the bar on the burning building and walking into the tavern in full view of hundreds of his [followers](scc.v1:mcdm.heroes.v1/rule.general/follower). He spoke Saint Anthony's words as he did so, but it was Adûn who clothed him in a shimmering blue light.
 
-It was Gaed, son of Malgen, son of Germoc, who entered the tavern—it was Saint Gaed the Confessor who emerged, unscathed, leading the people inside to safety. In that moment the people and many of Kaveran's own [followers](scc:mcdm.heroes.v1/rule.general/follower) turned on the cruel Baron, dragging him off his horse and spitting his body with kitchen knives and pitchforks.
+It was Gaed, son of Malgen, son of Germoc, who entered the tavern—it was Saint Gaed the Confessor who emerged, unscathed, leading the people inside to safety. In that moment the people and many of Kaveran's own [followers](scc.v1:mcdm.heroes.v1/rule.general/follower) turned on the cruel Baron, dragging him off his horse and spitting his body with kitchen knives and pitchforks.
 
 Gaed teaches the virtue of being true to one's principles even—especially—when doing so is the most difficult thing in the world. The title "confessor" is granted to those who persisted in their faith in public, even when doing so was dangerous or deadly.
 
@@ -38,9 +38,9 @@ Gaed teaches the virtue of being true to one's principles even—especially—wh
 
 **Domains:** Creation, Life
 
-Gryffyn the Stout was an infant [dwarf](scc:mcdm.heroes.v1/ancestry/dwarf) when his parents' cart was waylaid by bandits who killed his mother and father, stole all their wares, and set fire to the cart. They were unaware of the child nestled within.
+Gryffyn the Stout was an infant [dwarf](scc.v1:mcdm.heroes.v1/ancestry/dwarf) when his parents' cart was waylaid by bandits who killed his mother and father, stole all their wares, and set fire to the cart. They were unaware of the child nestled within.
 
-A nearby farmer saw the flames and rode out to investigate. When she arrived, she could hear the bawling of the [dwarf](scc:mcdm.heroes.v1/ancestry/dwarf) babe. Though wreathed in flame, the infant's skin was too hardy to feel the heat. In the horse's pack were a pair of tongs the farmer used to extract the child without harming herself, and she took the baby [dwarf](scc:mcdm.heroes.v1/ancestry/dwarf) home to her husband.
+A nearby farmer saw the flames and rode out to investigate. When she arrived, she could hear the bawling of the [dwarf](scc.v1:mcdm.heroes.v1/ancestry/dwarf) babe. Though wreathed in flame, the infant's skin was too hardy to feel the heat. In the horse's pack were a pair of tongs the farmer used to extract the child without harming herself, and she took the baby [dwarf](scc.v1:mcdm.heroes.v1/ancestry/dwarf) home to her husband.
 
 Naming the child Gryffyn, the farmers raised him as one of their own. The boy grew up wanting to be a farmer like his adoptive mother and father, but they encouraged him to take up masonry, believing stonework to be a natural part of his ancestry.
 
@@ -50,10 +50,10 @@ One day, years later after his parents had passed, hundreds of people from other
 
 The people were appalled, the White Ravine was impossible to cross for any but the most experienced ranger. "There is no choice" Gryffyn said. "Cinis's army will be here in a matter of days, and there is nowhere else to run."
 
-The people cried and prepared for death. Gryffyn saw this, and his heart felt like it would [burst](scc:mcdm.heroes.v1/rule.combat/burst). "There are stones enough in the quarry," he said enigmatically. "Yoke the oxen and bring the stones to the ravine and do not stop, even in darkness, even in rain, until the ghouls come or the quarry is empty."
+The people cried and prepared for death. Gryffyn saw this, and his heart felt like it would [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst). "There are stones enough in the quarry," he said enigmatically. "Yoke the oxen and bring the stones to the ravine and do not stop, even in darkness, even in rain, until the ghouls come or the quarry is empty."
 
 When the army of Cinis the Pale arrived, the people fled to the ravine, the path being easy as their carts and oxen had worn a clear road. Thinking they would throw themselves into the ravine rather than be eaten by the ghouls, they were astonished to discover... the miracle. A great stone bridge crossing the ravine. It had not existed three days prior, and all agreed it could not have taken less than a year to build.
 
-Fleeing across the bridge, the refugees found the body of Gryffyn, author of this marvel, his fingers [bleeding](scc:mcdm.heroes.v1/condition/bleeding), hammer in his hand, his heart having finally failed. He knew his labors would cost his life. But Gryffyn's Arch still stands, almost a thousand years later.
+Fleeing across the bridge, the refugees found the body of Gryffyn, author of this marvel, his fingers [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding), hammer in his hand, his heart having finally failed. He knew his labors would cost his life. But Gryffyn's Arch still stands, almost a thousand years later.
 
 Saint Gryffyn the Stout teaches that despair is the enemy of action. That unyielding endurance is the cure for impossible odds. That more than sword and spell, hard work is the savior of the people.

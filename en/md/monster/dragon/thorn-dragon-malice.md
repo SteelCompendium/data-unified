@@ -1,14 +1,14 @@
 ---
 features:
-    - body: A cage of thorns grows around one dragonsealed enemy on the encounter map, making that enemy [restrained](scc:mcdm.heroes.v1/condition/restrained) until the end of their next turn.
+    - body: A cage of thorns grows around one dragonsealed enemy on the encounter map, making that enemy [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) until the end of their next turn.
       cost: 3 Malice
       icon: ⭐️
       name: Cage of Thorns
-    - body: The dragon grows a 10 wall of briars in unoccupied spaces on the encounter map. The wall blocks [line of effect](scc:mcdm.heroes.v1/rule.combat/line-of-effect) for all creatures except the dragon. Each square of the wall has 5 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) and fire weakness 5. The area can be moved through but is [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain). Any creature who is [force moved](scc:mcdm.heroes.v1/movement/forced-movement) into or within the area takes 1 damage for each square of the area entered and is [bleeding](scc:mcdm.heroes.v1/condition/bleeding) until the end of their next turn.
+    - body: The dragon grows a 10 wall of briars in unoccupied spaces on the encounter map. The wall blocks [line of effect](scc.v1:mcdm.heroes.v1/rule.combat/line-of-effect) for all creatures except the dragon. Each square of the wall has 5 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) and fire weakness 5. The area can be moved through but is [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain). Any creature who is [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement) into or within the area takes 1 damage for each square of the area entered and is [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) until the end of their next turn.
       cost: 5 Malice
       icon: "\U0001F533"
       name: Bramble Barricade
-    - body: The dragon takes an additional main action on their turn. They can use this feature even if they are [dazed](scc:mcdm.heroes.v1/condition/dazed).
+    - body: The dragon takes an additional main action on their turn. They can use this feature even if they are [dazed](scc.v1:mcdm.heroes.v1/condition/dazed).
       cost: 5 Malice
       icon: ☠️
       name: Solo Action
@@ -18,9 +18,9 @@ features:
       name: Afflictive Overgrowth
       power_roll:
         tiers:
-            high: 5 poison damage; [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (EoT)
-            low: 12 poison damage; [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)
-            mid: 9 poison damage; [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
+            high: 5 poison damage; [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (EoT)
+            low: 12 poison damage; [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
+            mid: 9 poison damage; [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
 flavor: At the start of a thorn dragon's turn, you can spend Malice to activate one of the following features.
 kind: malice
 name: Thorn Dragon Malice
@@ -28,24 +28,24 @@ scc: mcdm.monsters.v1/monster.dragon/thorn-dragon-malice
 type: featureblock
 ---
 
-At the start of a thorn dragon's turn, you can spend [Malice](scc:mcdm.monsters.v1/rule.monster/malice) to activate one of the following features.
+At the start of a thorn dragon's turn, you can spend [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice) to activate one of the following features.
 
-> ⭐️ **Cage of Thorns (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
+> ⭐️ **Cage of Thorns (3 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
-> A cage of thorns grows around one dragonsealed enemy on the encounter map, making that enemy [restrained](scc:mcdm.heroes.v1/condition/restrained) until the end of their next turn.
+> A cage of thorns grows around one dragonsealed enemy on the encounter map, making that enemy [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) until the end of their next turn.
 
-> 🔳 **Bramble Barricade (5 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
+> 🔳 **Bramble Barricade (5 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
-> The dragon grows a 10 wall of briars in unoccupied spaces on the encounter map. The wall blocks [line of effect](scc:mcdm.heroes.v1/rule.combat/line-of-effect) for all creatures except the dragon. Each square of the wall has 5 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) and fire weakness 5. The area can be moved through but is [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain). Any creature who is [force moved](scc:mcdm.heroes.v1/movement/forced-movement) into or within the area takes 1 damage for each square of the area entered and is [bleeding](scc:mcdm.heroes.v1/condition/bleeding) until the end of their next turn.
+> The dragon grows a 10 wall of briars in unoccupied spaces on the encounter map. The wall blocks [line of effect](scc.v1:mcdm.heroes.v1/rule.combat/line-of-effect) for all creatures except the dragon. Each square of the wall has 5 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) and fire weakness 5. The area can be moved through but is [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain). Any creature who is [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement) into or within the area takes 1 damage for each square of the area entered and is [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) until the end of their next turn.
 
-> ☠️ **Solo Action (5 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
+> ☠️ **Solo Action (5 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
-> The dragon takes an additional main action on their turn. They can use this feature even if they are [dazed](scc:mcdm.heroes.v1/condition/dazed).
+> The dragon takes an additional main action on their turn. They can use this feature even if they are [dazed](scc.v1:mcdm.heroes.v1/condition/dazed).
 
-> 🌀 **Afflictive Overgrowth (7 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
+> 🌀 **Afflictive Overgrowth (7 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
 > The dragon summons poisonous, biting thorns around their foes. Each enemy on the encounter map makes an **Agility test**.
 >
-> - **≤11:** 12 poison damage; [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)
-> - **12-16:** 9 poison damage; [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
-> - **17+:** 5 poison damage; [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (EoT)
+> - **≤11:** 12 poison damage; [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
+> - **12-16:** 9 poison damage; [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
+> - **17+:** 5 poison damage; [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (EoT)

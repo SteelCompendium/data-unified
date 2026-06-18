@@ -1,6 +1,6 @@
 ---
 echelon: "2"
-effect: Dousing yourself in this powder as a maneuver causes you to weightlessly float off the ground. For 1 hour, your [stability](scc:mcdm.heroes.v1/rule.character/stability) is reduced to 0, and you can [fly](scc:mcdm.heroes.v1/movement/fly) and [hover](scc:mcdm.heroes.v1/movement/hover). Additionally, the hag that the powder is sourced from knows exactly where and when you use it.
+effect: Dousing yourself in this powder as a maneuver causes you to weightlessly float off the ground. For 1 hour, your [stability](scc.v1:mcdm.heroes.v1/rule.character/stability) is reduced to 0, and you can [fly](scc.v1:mcdm.heroes.v1/movement/fly) and [hover](scc.v1:mcdm.heroes.v1/movement/hover). Additionally, the hag that the powder is sourced from knows exactly where and when you use it.
 flavor: A glass vial holds translucent flakes that twinkle in the light.
 keywords:
     - Magic
@@ -15,12 +15,12 @@ type: treasure
 
 **Keywords:** Magic
 
-**[Item Prerequisite](scc:mcdm.heroes.v1/rule.downtime/item-prerequisite):** Several strands of hag hair
+**[Item Prerequisite](scc.v1:mcdm.heroes.v1/rule.downtime/item-prerequisite):** Several strands of hag hair
 
-**[Project Source](scc:mcdm.heroes.v1/rule.downtime/project-source):** Texts or lore in Khelt
+**[Project Source](scc.v1:mcdm.heroes.v1/rule.downtime/project-source):** Texts or lore in Khelt
 
-**[Project Roll](scc:mcdm.heroes.v1/rule.downtime/project-roll) [Characteristic](scc:mcdm.heroes.v1/rule.character/characteristic):** [Intuition](scc:mcdm.heroes.v1/rule.character/intuition) or [Presence](scc:mcdm.heroes.v1/rule.character/presence)
+**[Project Roll](scc.v1:mcdm.heroes.v1/rule.downtime/project-roll) [Characteristic](scc.v1:mcdm.heroes.v1/rule.character/characteristic):** [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition) or [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence)
 
 **Project Goal:** 90 (yields 1d3 vials)
 
-**Effect:** Dousing yourself in this powder as a maneuver causes you to weightlessly float off the ground. For 1 hour, your [stability](scc:mcdm.heroes.v1/rule.character/stability) is reduced to 0, and you can [fly](scc:mcdm.heroes.v1/movement/fly) and [hover](scc:mcdm.heroes.v1/movement/hover). Additionally, the hag that the powder is sourced from knows exactly where and when you use it.
+**Effect:** Dousing yourself in this powder as a maneuver causes you to weightlessly float off the ground. For 1 hour, your [stability](scc.v1:mcdm.heroes.v1/rule.character/stability) is reduced to 0, and you can [fly](scc.v1:mcdm.heroes.v1/movement/fly) and [hover](scc.v1:mcdm.heroes.v1/movement/hover). Additionally, the hag that the powder is sourced from knows exactly where and when you use it.

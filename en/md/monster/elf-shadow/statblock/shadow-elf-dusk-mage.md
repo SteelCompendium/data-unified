@@ -39,8 +39,8 @@ with_captain: Gain an edge on strikes
 > **Power Roll + 3:**
 >
 > - **≤11:** 2 damage
-> - **12-16:** 4 damage; A < 2 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
-> - **17+:** 6 damage; A < 3 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
+> - **12-16:** 4 damage; A < 2 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
+> - **17+:** 6 damage; A < 3 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
 
 > ⭐️ **Of the Umbra**
 >

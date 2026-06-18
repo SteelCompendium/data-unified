@@ -34,12 +34,12 @@ These massive clods of animated stone roll upon smaller piles of rocks that coul
 
 > ⭐️ **Obstruct**
 >
-> The boulder obstructs [line of effect](scc:mcdm.heroes.v1/rule.combat/line-of-effect) for enemies.
+> The boulder obstructs [line of effect](scc.v1:mcdm.heroes.v1/rule.combat/line-of-effect) for enemies.
 
 > ⭐️ **Pile Up** 1 Essence
 >
-> When one or more boulders is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), they each leave behind a stone [wall](scc:mcdm.heroes.v1/rule.combat/wall) equal to their size in their space until the end of the encounter.
+> When one or more boulders is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), they each leave behind a stone [wall](scc.v1:mcdm.heroes.v1/rule.combat/wall) equal to their size in their space until the end of the encounter.
 
 > **Traits with an Essence Cost**
 >
-> Some minion stat blocks have traits that can only be activated if you spend the [heroic resource](scc:mcdm.heroes.v1/rule.resource/heroic-resource) listed in the top corner of the trait. For example, when a crux of ash is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), you can spend 1 essence to use their Ashen Cloud trait.
+> Some minion stat blocks have traits that can only be activated if you spend the [heroic resource](scc.v1:mcdm.heroes.v1/rule.resource/heroic-resource) listed in the top corner of the trait. For example, when a crux of ash is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), you can spend 1 essence to use their Ashen Cloud trait.

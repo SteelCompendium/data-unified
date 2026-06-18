@@ -5,4 +5,4 @@ scc: mcdm.heroes.v1/perk/expert-sage
 type: perk
 ---
 
-Whenever you make a [test](scc:mcdm.heroes.v1/rule.test/test) as part of a crafting or [research project](scc:mcdm.heroes.v1/rule.downtime/research-project) using a skill from the [lore skill group](scc:mcdm.heroes.v1/skill.group/lore), you can make the [power roll](scc:mcdm.heroes.v1/rule.dice/power-roll) twice and use either roll.
+Whenever you make a [test](scc.v1:mcdm.heroes.v1/rule.test/test) as part of a crafting or [research project](scc.v1:mcdm.heroes.v1/rule.downtime/research-project) using a skill from the [lore skill group](scc.v1:mcdm.heroes.v1/skill.group/lore), you can make the [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) twice and use either roll.

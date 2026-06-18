@@ -35,8 +35,8 @@ Loftlillies lazily drift through the air in flower cups. They sip on toxic necta
 
 > ⭐️ **Floating Toxins**
 >
-> The area within 1 square of the loftlilly causes each enemy and object with a size equal to your [Reason](scc:mcdm.heroes.v1/rule.character/reason) or smaller to float 1 square off the ground until they leave the area. A floating enemy that can't [fly](scc:mcdm.heroes.v1/movement/fly) is unable to [shift](scc:mcdm.heroes.v1/movement/shifting), moves 2 additional squares from [forced movement](scc:mcdm.heroes.v1/movement/forced-movement), and has a [bane](scc:mcdm.heroes.v1/rule.dice/bane) on [strikes](scc:mcdm.heroes.v1/rule.combat/strike).
+> The area within 1 square of the loftlilly causes each enemy and object with a size equal to your [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) or smaller to float 1 square off the ground until they leave the area. A floating enemy that can't [fly](scc.v1:mcdm.heroes.v1/movement/fly) is unable to [shift](scc.v1:mcdm.heroes.v1/movement/shifting), moves 2 additional squares from [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement), and has a [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) on [strikes](scc.v1:mcdm.heroes.v1/rule.combat/strike).
 
 > ⭐️ **Minuscule**
 >
-> The loftlilly has [cover](scc:mcdm.heroes.v1/rule.combat/cover) while occupying a larger creature's space.
+> The loftlilly has [cover](scc.v1:mcdm.heroes.v1/rule.combat/cover) while occupying a larger creature's space.

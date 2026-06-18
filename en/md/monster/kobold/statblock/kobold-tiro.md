@@ -37,11 +37,11 @@ with_captain: +1 bonus to speed
 > **Power Roll + 2:**
 >
 > - **≤11:** 1 damage
-> - **12-16:** 2 damage; the tiro can [shift](scc:mcdm.heroes.v1/movement/shifting) 1 square
-> - **17+:** 3 damage; the tiro [shifts](scc:mcdm.heroes.v1/movement/shifting) up to 2 squares
+> - **12-16:** 2 damage; the tiro can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) 1 square
+> - **17+:** 3 damage; the tiro [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to 2 squares
 >
-> **Effect:** The target can't [shift](scc:mcdm.heroes.v1/movement/shifting) until the start of the tiro's next turn.
+> **Effect:** The target can't [shift](scc.v1:mcdm.heroes.v1/movement/shifting) until the start of the tiro's next turn.
 
 > ⭐️ **Shield? Shield!**
 >
-> While [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to an ally who also has this trait, the tiro has stability 1, has cover, and grants cover to allies.
+> While [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to an ally who also has this trait, the tiro has stability 1, has cover, and grants cover to allies.

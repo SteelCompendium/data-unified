@@ -38,21 +38,21 @@ weaknesses:
 >
 > **Power Roll + 5:**
 >
-> - **≤11:** 14 poison damage; M < 3 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
-> - **12-16:** 19 poison damage; M < 4 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
+> - **≤11:** 14 poison damage; M < 3 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
+> - **12-16:** 19 poison damage; M < 4 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
 > - **17+:** 23 poison damage; M < 5 the target is implanted
 >
 > **Effect:** An implanted target has a soulraker handmaiden parasite gestating in them (see the handmaiden's Implanted Parasite trait).
 
-> ❇️ **Forced Gestation (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
+> ❇️ **Forced Gestation (3 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Area**        |                                          **Maneuver** |
 > |-----------------|------------------------------------------------------:|
 > | **📏 10 burst** | **🎯 Each implanted handmaiden parasite in the area** |
 >
-> **Effect:** The hivequeen lets loose a subsonic call to each target, forcing them to immediately emerge from their host's body as a mature soulraker handmaiden and make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike).
+> **Effect:** The hivequeen lets loose a subsonic call to each target, forcing them to immediately emerge from their host's body as a mature soulraker handmaiden and make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike).
 
-> ❗️ **For the Queen! (2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
+> ❗️ **For the Queen! (2 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Area**       | **Triggered action** |
 > |----------------|---------------------:|
@@ -60,17 +60,17 @@ weaknesses:
 >
 > **Trigger:** The hivequeen is targeted by a strike for the second time on an attacker's turn, whether by the attacker or another creature acting on the attacker's turn.
 >
-> **Effect:** Two soulraker [minions](scc:mcdm.monsters.v1/rule.organization/minion) appear within distance.
+> **Effect:** Two soulraker [minions](scc.v1:mcdm.monsters.v1/rule.organization/minion) appear within distance.
 >
-> **2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice):** A soulraker praetorian also appears within distance.
+> **2 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice):** A soulraker praetorian also appears within distance.
 
 > ⭐️ **Cannibal Queen**
 >
-> At the end of their turn, the hivequeen can consume an [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) soulraker demon to end one effect on them that can be ended by a [saving throw](scc:mcdm.heroes.v1/rule.general/saving-throw) (no action required).
+> At the end of their turn, the hivequeen can consume an [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) soulraker demon to end one effect on them that can be ended by a [saving throw](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) (no action required).
 
 > ⭐️ **Hive Soulsight**
 >
-> Any creature within 2 squares of a soulraker demon within 100 miles of the hivequeen can't be hidden from the hivequeen. The hivequeen has [line of effect](scc:mcdm.heroes.v1/rule.combat/line-of-effect) to such creatures.
+> Any creature within 2 squares of a soulraker demon within 100 miles of the hivequeen can't be hidden from the hivequeen. The hivequeen has [line of effect](scc.v1:mcdm.heroes.v1/rule.combat/line-of-effect) to such creatures.
 
 > ☠️ **Kicking the Nest (Villain Action 1)**
 >
@@ -78,7 +78,7 @@ weaknesses:
 > |-----------------|-----------------------------------------:|
 > | **📏 10 burst** | **🎯 Each soulraker minion in the area** |
 >
-> **Effect:** Each target can move their speed and make a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike). If no [minions](scc:mcdm.monsters.v1/rule.organization/minion) are present, four soulraker [minions](scc:mcdm.monsters.v1/rule.organization/minion) are summoned into unoccupied spaces within distance before the hivequeen uses this [villain action](scc:mcdm.monsters.v1/rule.monster/villain-action).
+> **Effect:** Each target can move their speed and make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike). If no [minions](scc.v1:mcdm.monsters.v1/rule.organization/minion) are present, four soulraker [minions](scc.v1:mcdm.monsters.v1/rule.organization/minion) are summoned into unoccupied spaces within distance before the hivequeen uses this [villain action](scc.v1:mcdm.monsters.v1/rule.monster/villain-action).
 
 > ☠️ **Buzz Off! (Villain Action 2)**
 >
@@ -88,11 +88,11 @@ weaknesses:
 >
 > **Power Roll + 5:**
 >
-> - **≤11:** Push 3; I < 3 [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)
-> - **12-16:** Push 3; I < 4 [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)
-> - **17+:** 11 sonic damage; push 3; I < 5 [dazed](scc:mcdm.heroes.v1/condition/dazed) (save ends)
+> - **≤11:** Push 3; I < 3 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
+> - **12-16:** Push 3; I < 4 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
+> - **17+:** 11 sonic damage; push 3; I < 5 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
 >
-> **Effect:** The hivequeen [shifts](scc:mcdm.heroes.v1/movement/shifting) up to her speed.
+> **Effect:** The hivequeen [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to her speed.
 
 > ☠️ **Bomber Wasp Warfare (Villain Action 3)**
 >
@@ -102,6 +102,6 @@ weaknesses:
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** 7 poison damage; M < 3 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
-> - **12-16:** 11 poison damage; M < 4 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
-> - **17+:** 14 poison damage; M < 5 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
+> - **≤11:** 7 poison damage; M < 3 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
+> - **12-16:** 11 poison damage; M < 4 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
+> - **17+:** 14 poison damage; M < 5 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)

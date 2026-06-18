@@ -10,7 +10,7 @@ Your wild nature grants you a triggered action, as shown on the Wild Nature Trig
 
 | Wild Nature | Triggered Action                                                                                   |
 |-------------|----------------------------------------------------------------------------------------------------|
-| Guardian    | [The Pack Defends](scc:mcdm.beastheart.v1/feature.ability.beastheart.level-1/the-pack-defends)     |
-| Prowler     | [Shadow in the Mist](scc:mcdm.beastheart.v1/feature.ability.beastheart.level-1/shadow-in-the-mist) |
-| Punisher    | [Thunderclap](scc:mcdm.beastheart.v1/feature.ability.beastheart.level-1/thunderclap)               |
-| Spark       | [Pyre](scc:mcdm.beastheart.v1/feature.ability.beastheart.level-1/pyre)                             |
+| Guardian    | [The Pack Defends](scc.v1:mcdm.beastheart.v1/feature.ability.beastheart.level-1/the-pack-defends)     |
+| Prowler     | [Shadow in the Mist](scc.v1:mcdm.beastheart.v1/feature.ability.beastheart.level-1/shadow-in-the-mist) |
+| Punisher    | [Thunderclap](scc.v1:mcdm.beastheart.v1/feature.ability.beastheart.level-1/thunderclap)               |
+| Spark       | [Pyre](scc.v1:mcdm.beastheart.v1/feature.ability.beastheart.level-1/pyre)                             |

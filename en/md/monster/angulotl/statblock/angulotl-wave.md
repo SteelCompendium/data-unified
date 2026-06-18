@@ -42,20 +42,20 @@ type: statblock
 > - **12-16:** 4 holy damage; R < 1 the target is illuminated (save ends)
 > - **17+:** 5 holy damage; R < 2 the target is illuminated (save ends)
 >
-> **Effect:** An illuminated creature or object can't hide or become invisible, and any strike made against an illuminated target gains an [edge](scc:mcdm.heroes.v1/rule.dice/edge).
+> **Effect:** An illuminated creature or object can't hide or become invisible, and any strike made against an illuminated target gains an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge).
 
-> 🔳 **Noxious Bubble (2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
+> 🔳 **Noxious Bubble (2 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Area, Magic, Ranged**                     | **Main action** |
 > |---------------------------------------------|----------------:|
 > | **📏 2 cube of unoccupied space within 10** |  **🎯 Special** |
 >
-> **Effect:** A bubble of toxic gas fills the area, ready to pop. If any creature or object touches the bubble or if the bubble takes damage, it bursts. Each angulotl adjacent to the bubble is wet until the end of the encounter, and each enemy adjacent to the bubble makes a **[Might](scc:mcdm.heroes.v1/rule.character/might) test**.
+> **Effect:** A bubble of toxic gas fills the area, ready to pop. If any creature or object touches the bubble or if the bubble takes damage, it bursts. Each angulotl adjacent to the bubble is wet until the end of the encounter, and each enemy adjacent to the bubble makes a **[Might](scc.v1:mcdm.heroes.v1/rule.character/might) test**.
 >
-> - **≤11:** 3 poison damage; the target is wet and [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
+> - **≤11:** 3 poison damage; the target is wet and [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
 > - **12-16:** 2 poison damage; the target is wet (save ends)
-> - **17+:** 1 poison damage; the target is wet ([EoT](scc:mcdm.heroes.v1/rule.combat/end-of-turn))
+> - **17+:** 1 poison damage; the target is wet ([EoT](scc.v1:mcdm.heroes.v1/rule.combat/end-of-turn))
 
 > ⭐️ **Toxiferous**
 >
-> Whenever an adjacent enemy [grabs](scc:mcdm.heroes.v1/feature.common.maneuvers/grab) the wave or uses a melee ability against them, that enemy takes 2 poison damage.
+> Whenever an adjacent enemy [grabs](scc.v1:mcdm.heroes.v1/feature.common.maneuvers/grab) the wave or uses a melee ability against them, that enemy takes 2 poison damage.

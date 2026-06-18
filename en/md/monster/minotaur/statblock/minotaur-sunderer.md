@@ -28,7 +28,7 @@ type: statblock
 |      **-**<br>Immunity       | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |       **+2**<br>Might        | **+1**<br>Agility |  **0**<br>Reason   |  **+2**<br>Intuition  |  **-1**<br>Presence  |
 
-> 🗡 **Spiked Maul ([Signature Ability](scc:mcdm.heroes.v1/rule.combat/signature-ability))**
+> 🗡 **Spiked Maul ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
 > | **Charge, Melee, Strike, Weapon** |                 **Main action** |
 > |-----------------------------------|--------------------------------:|
@@ -36,13 +36,13 @@ type: statblock
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 8 damage; [pull](scc:mcdm.heroes.v1/movement/forced-movement) 1
-> - **12-16:** 12 damage; [pull](scc:mcdm.heroes.v1/movement/forced-movement) 2
-> - **17+:** 15 damage; [pull](scc:mcdm.heroes.v1/movement/forced-movement) 3
+> - **≤11:** 8 damage; [pull](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1
+> - **12-16:** 12 damage; [pull](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2
+> - **17+:** 15 damage; [pull](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3
 >
-> **Effect:** A target [pulled](scc:mcdm.heroes.v1/movement/forced-movement) [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the sunderer is automatically [grabbed](scc:mcdm.heroes.v1/condition/grabbed).
+> **Effect:** A target [pulled](scc.v1:mcdm.heroes.v1/movement/forced-movement) [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the sunderer is automatically [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed).
 
-> ❇️ **Fearsome Bay (5 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
+> ❇️ **Fearsome Bay (5 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Area**       |               **Main action** |
 > |----------------|------------------------------:|
@@ -50,27 +50,27 @@ type: statblock
 >
 > **Power Roll + 2:**
 > 
-> - **≤11:** I < 0 [frightened](scc:mcdm.heroes.v1/condition/frightened) (save ends)
-> - **12-16:** I < 1 [frightened](scc:mcdm.heroes.v1/condition/frightened) (save ends)
-> - **17+:** I < 2 [frightened](scc:mcdm.heroes.v1/condition/frightened) (save ends)
+> - **≤11:** I < 0 [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
+> - **12-16:** I < 1 [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
+> - **17+:** I < 2 [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
 >
 > **Effect:** Until the end of their next turn, the minotaur has damage immunity 2 and deals an extra 5 damage with strikes.
 
-> 🗡 **Disemboweling Horns (3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
+> 🗡 **Disemboweling Horns (3 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Charge, Melee, Strike, Weapon** |        **Maneuver** |
 > |-----------------------------------|--------------------:|
 > | **📏 Melee 2**                    | **🎯 One creature** |
 >
-> **Special:** The target must be [grabbed](scc:mcdm.heroes.v1/condition/grabbed) by the sunderer.
+> **Special:** The target must be [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) by the sunderer.
 >
 > **Power Roll + 2:**
 > 
-> - **≤11:** 5 damage; M < 0 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
-> - **12-16:** 8 damage; M < 1 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
-> - **17+:** 9 damage; M < 2 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
+> - **≤11:** 5 damage; M < 0 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
+> - **12-16:** 8 damage; M < 1 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
+> - **17+:** 9 damage; M < 2 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
 >
-> **Effect:** While [bleeding](scc:mcdm.heroes.v1/condition/bleeding) this way, the target takes 1d6 damage at the start of each of their turns.
+> **Effect:** While [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) this way, the target takes 1d6 damage at the start of each of their turns.
 
 > ❗️ **Retaliatory Strike**
 >

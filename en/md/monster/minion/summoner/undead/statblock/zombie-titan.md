@@ -35,12 +35,12 @@ Zombie titan is a catchall for undead giants, patchwork ogres and mournlings, or
 
 > ⭐️ **Big Stomp**
 >
-> The titan's melee [free strikes](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) M < STRONG knock the target [prone](scc:mcdm.heroes.v1/condition/prone).
+> The titan's melee [free strikes](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) M < STRONG knock the target [prone](scc.v1:mcdm.heroes.v1/condition/prone).
 
 > ⭐️ **Overwhelming Size**
 >
-> The titan can move through enemies at normal speed. If the titan ends their [turn](scc:mcdm.heroes.v1/rule.combat/turn) in a [prone](scc:mcdm.heroes.v1/condition/prone) [size](scc:mcdm.heroes.v1/rule.character/size) 2 or smaller creature's space, the creature can't stand.
+> The titan can move through enemies at normal speed. If the titan ends their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) in a [prone](scc.v1:mcdm.heroes.v1/condition/prone) [size](scc.v1:mcdm.heroes.v1/rule.character/size) 2 or smaller creature's space, the creature can't stand.
 
 > ⭐️ **Flesh to Mountains**
 >
-> When the titan is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), their space becomes [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain). If a creature was [prone](scc:mcdm.heroes.v1/condition/prone) underneath the titan when the titan is killed, they take 10 [damage](scc:mcdm.heroes.v1/rule.damage/damage) and are [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends).
+> When the titan is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), their space becomes [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain). If a creature was [prone](scc.v1:mcdm.heroes.v1/condition/prone) underneath the titan when the titan is killed, they take 10 [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage) and are [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends).

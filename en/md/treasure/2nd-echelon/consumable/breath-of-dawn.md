@@ -1,6 +1,6 @@
 ---
 echelon: "2"
-effect: As a maneuver, you inhale the Breath of Dawn and are overcome with tranquility. You immediately end the [frightened](scc:mcdm.heroes.v1/condition/frightened), [slowed](scc:mcdm.heroes.v1/condition/slowed), and [taunted](scc:mcdm.heroes.v1/condition/taunted) [conditions](scc:mcdm.heroes.v1/rule.combat/condition) on yourself, and you gain a +8 [bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to [Stability](scc:mcdm.heroes.v1/rule.character/stability) until the end of the encounter.
+effect: As a maneuver, you inhale the Breath of Dawn and are overcome with tranquility. You immediately end the [frightened](scc.v1:mcdm.heroes.v1/condition/frightened), [slowed](scc.v1:mcdm.heroes.v1/condition/slowed), and [taunted](scc.v1:mcdm.heroes.v1/condition/taunted) [conditions](scc.v1:mcdm.heroes.v1/rule.combat/condition) on yourself, and you gain a +8 [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to [Stability](scc.v1:mcdm.heroes.v1/rule.character/stability) until the end of the encounter.
 flavor: A glass flask contains a whirl of gentle sunlight.
 keywords:
     - Psionic
@@ -15,12 +15,12 @@ type: treasure
 
 **Keywords:** Psionic
 
-**[Item Prerequisite](scc:mcdm.heroes.v1/rule.downtime/item-prerequisite):** The breath of a mystic sage captured at sunrise
+**[Item Prerequisite](scc.v1:mcdm.heroes.v1/rule.downtime/item-prerequisite):** The breath of a mystic sage captured at sunrise
 
-**[Project Source](scc:mcdm.heroes.v1/rule.downtime/project-source):** Texts or lore in Hyrallic
+**[Project Source](scc.v1:mcdm.heroes.v1/rule.downtime/project-source):** Texts or lore in Hyrallic
 
-**[Project Roll](scc:mcdm.heroes.v1/rule.downtime/project-roll) [Characteristic](scc:mcdm.heroes.v1/rule.character/characteristic):** [Intuition](scc:mcdm.heroes.v1/rule.character/intuition) or [Presence](scc:mcdm.heroes.v1/rule.character/presence)
+**[Project Roll](scc.v1:mcdm.heroes.v1/rule.downtime/project-roll) [Characteristic](scc.v1:mcdm.heroes.v1/rule.character/characteristic):** [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition) or [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence)
 
 **Project Goal:** 90
 
-**Effect:** As a maneuver, you inhale the Breath of Dawn and are overcome with tranquility. You immediately end the [frightened](scc:mcdm.heroes.v1/condition/frightened), [slowed](scc:mcdm.heroes.v1/condition/slowed), and [taunted](scc:mcdm.heroes.v1/condition/taunted) [conditions](scc:mcdm.heroes.v1/rule.combat/condition) on yourself, and you gain a +8 [bonus](scc:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to [Stability](scc:mcdm.heroes.v1/rule.character/stability) until the end of the encounter.
+**Effect:** As a maneuver, you inhale the Breath of Dawn and are overcome with tranquility. You immediately end the [frightened](scc.v1:mcdm.heroes.v1/condition/frightened), [slowed](scc.v1:mcdm.heroes.v1/condition/slowed), and [taunted](scc.v1:mcdm.heroes.v1/condition/taunted) [conditions](scc.v1:mcdm.heroes.v1/rule.combat/condition) on yourself, and you gain a +8 [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to [Stability](scc.v1:mcdm.heroes.v1/rule.character/stability) until the end of the encounter.

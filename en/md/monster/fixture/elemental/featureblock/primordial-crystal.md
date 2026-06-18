@@ -1,6 +1,6 @@
 ---
 features:
-    - body: Each enemy that starts their [turn](scc:mcdm.heroes.v1/rule.combat/turn) within 3 squares of the crystal is vertically pulled 3.
+    - body: Each enemy that starts their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) within 3 squares of the crystal is vertically pulled 3.
       icon: ⭐️
       name: Magnetic Pull
     - body: When you or an ally uses a ranged ability that draws a line through the crystal, the distance increases by 5.
@@ -25,7 +25,7 @@ type: featureblock
 
 > ⭐️ **Magnetic Pull**
 >
-> Each enemy that starts their [turn](scc:mcdm.heroes.v1/rule.combat/turn) within 3 squares of the crystal is vertically pulled 3.
+> Each enemy that starts their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) within 3 squares of the crystal is vertically pulled 3.
 
 > ⭐️ **Elemental Boost**
 >

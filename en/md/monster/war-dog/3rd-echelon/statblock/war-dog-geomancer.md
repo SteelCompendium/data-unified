@@ -29,7 +29,7 @@ type: statblock
 |      **-**<br>Immunity      | **Burrow**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |       **+2**<br>Might       |   **+1**<br>Agility    | **+4**<br>Reason  |  **+4**<br>Intuition  |  **+2**<br>Presence  |
 
-> 🔳 **Earthwave ([Signature Ability](scc:mcdm.heroes.v1/rule.combat/signature-ability))**
+> 🔳 **Earthwave ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
 > | **Area, Magic, Ranged**     |                  **Main action** |
 > |-----------------------------|---------------------------------:|
@@ -37,13 +37,13 @@ type: statblock
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** 3 damage; M < 2 [push](scc:mcdm.heroes.v1/movement/forced-movement) (see effect)
-> - **12-16:** 6 damage; M < 3 [push](scc:mcdm.heroes.v1/movement/forced-movement)
-> - **17+:** 8 damage; M < 4 [push](scc:mcdm.heroes.v1/movement/forced-movement), [prone](scc:mcdm.heroes.v1/condition/prone)
+> - **≤11:** 3 damage; M < 2 [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) (see effect)
+> - **12-16:** 6 damage; M < 3 [push](scc.v1:mcdm.heroes.v1/movement/forced-movement)
+> - **17+:** 8 damage; M < 4 [push](scc.v1:mcdm.heroes.v1/movement/forced-movement), [prone](scc.v1:mcdm.heroes.v1/condition/prone)
 >
-> **Effect:** This ability ignores stability. The geomancer declares a direction for the area, and any creature [pushed](scc:mcdm.heroes.v1/movement/forced-movement) by this ability is pushed to the last space in the area in the chosen direction.
+> **Effect:** This ability ignores stability. The geomancer declares a direction for the area, and any creature [pushed](scc.v1:mcdm.heroes.v1/movement/forced-movement) by this ability is pushed to the last space in the area in the chosen direction.
 >
-> **2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice):** The ground beneath the area becomes a 2-square-deep trench after the power roll is resolved.
+> **2 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice):** The ground beneath the area becomes a 2-square-deep trench after the power roll is resolved.
 
 > 🔳 **Siegeworks**
 >
@@ -51,7 +51,7 @@ type: statblock
 > |-------------------------|---------------:|
 > | **📏 5 wall within 10** | **🎯 Special** |
 >
-> **Effect:** The geomancer raises a wall of stone set with viewing gaps. Creatures have line of effect through the wall while [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to it.
+> **Effect:** The geomancer raises a wall of stone set with viewing gaps. Creatures have line of effect through the wall while [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to it.
 
 > ⭐️ **Dust Cloud**
 >
@@ -59,4 +59,4 @@ type: statblock
 
 > ⭐️ **Loyalty Collar**
 >
-> When the geomancer is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), their loyalty collar explodes, dealing 3d6 damage to each [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) enemy and object.
+> When the geomancer is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), their loyalty collar explodes, dealing 3d6 damage to each [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) enemy and object.

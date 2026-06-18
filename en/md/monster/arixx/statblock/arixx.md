@@ -29,17 +29,17 @@ type: statblock
 
 > ☠️ **Solo Monster**
 >
-> **[End Effect](scc:mcdm.monsters.v1/rule.monster/end-effect):** At the end of each of their turns, the arixx can take 5 damage to end one effect on them that can be ended by a [saving throw](scc:mcdm.heroes.v1/rule.general/saving-throw). This damage can't be reduced in any way.
+> **[End Effect](scc.v1:mcdm.monsters.v1/rule.monster/end-effect):** At the end of each of their turns, the arixx can take 5 damage to end one effect on them that can be ended by a [saving throw](scc.v1:mcdm.heroes.v1/rule.general/saving-throw). This damage can't be reduced in any way.
 >
 > **Solo Turns:** The arixx can take two turns each round. They can't take turns consecutively.
 
 > ⭐️ **Earthwalk**
 >
-> [Difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain) composed of earth or loose rock doesn't cost the arixx extra movement.
+> [Difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain) composed of earth or loose rock doesn't cost the arixx extra movement.
 
 > ⭐️ **Soft Underbelly**
 >
-> A [prone](scc:mcdm.heroes.v1/condition/prone) creature making a melee strike against the arixx has a double [edge](scc:mcdm.heroes.v1/rule.dice/edge) on the strike instead of taking a [bane](scc:mcdm.heroes.v1/rule.dice/bane).
+> A [prone](scc.v1:mcdm.heroes.v1/condition/prone) creature making a melee strike against the arixx has a double [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on the strike instead of taking a [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane).
 
 > 🗡 **Bite (Signature Ability)**
 >
@@ -49,11 +49,11 @@ type: statblock
 >
 > **Power Roll + 3:**
 >
-> - **≤11:** 9 damage; [grabbed](scc:mcdm.heroes.v1/condition/grabbed)
-> - **12-16:** 13 damage; [grabbed](scc:mcdm.heroes.v1/condition/grabbed)
-> - **17+:** 16 damage; [grabbed](scc:mcdm.heroes.v1/condition/grabbed)
+> - **≤11:** 9 damage; [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)
+> - **12-16:** 13 damage; [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)
+> - **17+:** 16 damage; [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)
 >
-> **Effect:** A size 1 target [grabbed](scc:mcdm.heroes.v1/condition/grabbed) this way takes 3 acid damage at the start of each of their turns.
+> **Effect:** A size 1 target [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) this way takes 3 acid damage at the start of each of their turns.
 
 > 🗡 **Claw Swing**
 >
@@ -63,11 +63,11 @@ type: statblock
 >
 > **Power Roll + 3:**
 >
-> - **≤11:** 5 damage; A < 1 [grabbed](scc:mcdm.heroes.v1/condition/grabbed)
-> - **12-16:** 8 damage; A < 2 [grabbed](scc:mcdm.heroes.v1/condition/grabbed)
-> - **17+:** 11 damage; A < 3 [grabbed](scc:mcdm.heroes.v1/condition/grabbed)
+> - **≤11:** 5 damage; A < 1 [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)
+> - **12-16:** 8 damage; A < 2 [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)
+> - **17+:** 11 damage; A < 3 [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)
 >
-> **Effect:** The arixx can vertically [slide](scc:mcdm.heroes.v1/movement/forced-movement) each [grabbed](scc:mcdm.heroes.v1/condition/grabbed) target up to 3 squares.
+> **Effect:** The arixx can vertically [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) each [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) target up to 3 squares.
 
 > 🏹 **Spitfire**
 >
@@ -79,7 +79,7 @@ type: statblock
 >
 > - **≤11:** 4 acid damage
 > - **12-16:** 6 acid damage
-> - **17+:** 7 acid damage; [prone](scc:mcdm.heroes.v1/condition/prone)
+> - **17+:** 7 acid damage; [prone](scc.v1:mcdm.heroes.v1/condition/prone)
 >
 > **Effect:** The ground beneath each target is covered in burning acid until the end of the encounter. Any enemy who enters an affected space for the first time in a round or starts their turn there takes 2 acid damage.
 
@@ -92,10 +92,10 @@ type: statblock
 > **Power Roll + 3:**
 >
 > - **≤11:** 4 damage
-> - **12-16:** 6 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 2
-> - **17+:** 7 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 4
+> - **12-16:** 6 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2
+> - **17+:** 7 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 4
 >
-> **Effect:** The arixx flings rocks and debris to fill the area, and has a double [edge](scc:mcdm.heroes.v1/rule.dice/edge) on the power roll if they started their turn underground. The area is [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain).
+> **Effect:** The arixx flings rocks and debris to fill the area, and has a double [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on the power roll if they started their turn underground. The area is [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain).
 
 > ❇️ **Dust Cloud**
 >
@@ -103,7 +103,7 @@ type: statblock
 > |----------------|---------------:|
 > | **📏 1 burst** | **🎯 Special** |
 >
-> **Effect:** The arixx kicks up dust to fill the area until the start of their next turn, then moves up to their speed. Any enemy in the area or who targets a creature in the area takes a [bane](scc:mcdm.heroes.v1/rule.dice/bane) on power rolls.
+> **Effect:** The arixx kicks up dust to fill the area until the start of their next turn, then moves up to their speed. Any enemy in the area or who targets a creature in the area takes a [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) on power rolls.
 
 > ❗️ **Skitter**
 >
@@ -113,7 +113,7 @@ type: statblock
 >
 > **Trigger:** The arixx takes damage.
 >
-> **Effect:** The arixx halves the damage and [shifts](scc:mcdm.heroes.v1/movement/shifting) up to 3 squares after the triggering effect resolves.
+> **Effect:** The arixx halves the damage and [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to 3 squares after the triggering effect resolves.
 
 > ☠️ **Acid Spew (Villain Action 1)**
 >
@@ -135,7 +135,7 @@ type: statblock
 > |-------------|------------:|
 > | **📏 Self** | **🎯 Self** |
 >
-> **Effect:** The arixx [shifts](scc:mcdm.heroes.v1/movement/shifting) up to their speed. If they end this shift above ground and within 2 squares of a creature, they use Bite against the creature and can then use the Dig maneuver.
+> **Effect:** The arixx [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed. If they end this shift above ground and within 2 squares of a creature, they use Bite against the creature and can then use the Dig maneuver.
 
 > ☠️ **Acid and Claws (Villain Action 3)**
 >
@@ -145,6 +145,6 @@ type: statblock
 >
 > **Power Roll + 3:**
 >
-> - **≤11:** 5 acid damage; M < 1 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
-> - **12-16:** 8 acid damage; M < 2 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
-> - **17+:** 11 acid damage; M < 3 [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
+> - **≤11:** 5 acid damage; M < 1 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+> - **12-16:** 8 acid damage; M < 2 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+> - **17+:** 11 acid damage; M < 3 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)

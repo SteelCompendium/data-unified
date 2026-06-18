@@ -30,7 +30,7 @@ type: statblock
 | **Psychic 3**<br>Immunity | **Fly, hover**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |      **+1**<br>Might      |     **+1**<br>Agility      | **+2**<br>Reason  |  **+1**<br>Intuition  |  **0**<br>Presence   |
 
-> 🗡 **Psionic Slam ([Signature Ability](scc:mcdm.heroes.v1/rule.combat/signature-ability))**
+> 🗡 **Psionic Slam ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
 > | **Melee, Psionic, Strike** |     **Main action** |
 > |----------------------------|--------------------:|
@@ -44,13 +44,13 @@ type: statblock
 >
 > **Effect:** Any power roll made against the target gains an edge until the start of the vertex's next turn.
 
-> 🔳 **Split Space (5 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
+> 🔳 **Split Space (5 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Area, Psionic, Ranged** | **Main action** |
 > |---------------------------|----------------:|
 > | **📏 2 cube within 10**   |  **🎯 Special** |
 >
-> **Effect:** A portal fills the area, connecting to a location the vertex has experienced on any plane of existence, in person or otherwise. Any creature who enters the portal for the first time in a round or starts their turn there is instantly [teleported](scc:mcdm.heroes.v1/movement/teleport) to any unoccupied space in the portal at the chosen location. The portal lasts until the vertex uses this ability again, dismisses the portal (no action required), or is transported by the portal.
+> **Effect:** A portal fills the area, connecting to a location the vertex has experienced on any plane of existence, in person or otherwise. Any creature who enters the portal for the first time in a round or starts their turn there is instantly [teleported](scc.v1:mcdm.heroes.v1/movement/teleport) to any unoccupied space in the portal at the chosen location. The portal lasts until the vertex uses this ability again, dismisses the portal (no action required), or is transported by the portal.
 
 > ❇️ **Invigorated March**
 >
@@ -58,7 +58,7 @@ type: statblock
 > |-------------------|-----------------------------:|
 > | **📏 4 burst**    | **🎯 Each ally in the area** |
 >
-> **Effect:** Each target [shifts](scc:mcdm.heroes.v1/movement/shifting) up to half their speed.
+> **Effect:** Each target [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to half their speed.
 
 > ⭐️ **Foresight**
 >

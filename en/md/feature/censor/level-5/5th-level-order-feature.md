@@ -6,12 +6,12 @@ scc: mcdm.heroes.v1/feature.censor.level-5/5th-level-order-feature
 type: feature
 ---
 
-Your [censor order](scc:mcdm.heroes.v1/feature.censor.level-1/censor-order) grants you a feature, as shown on the 5th-Level Order Features table.
+Your [censor order](scc.v1:mcdm.heroes.v1/feature.censor.level-1/censor-order) grants you a feature, as shown on the 5th-Level Order Features table.
 
 ###### 5th-Level Order Features Table
 
 | Order                    | Feature       |
 |--------------------------|---------------|
-| Exorcist                 | [Evil Revealed](scc:mcdm.heroes.v1/feature.censor.level-5/evil-revealed) |
-| Oracle                   | [Prophecy](scc:mcdm.heroes.v1/feature.censor.level-5/prophecy)      |
-| Paragon                  | [Stand Fast](scc:mcdm.heroes.v1/feature.censor.level-5/stand-fast)!   |
+| Exorcist                 | [Evil Revealed](scc.v1:mcdm.heroes.v1/feature.censor.level-5/evil-revealed) |
+| Oracle                   | [Prophecy](scc.v1:mcdm.heroes.v1/feature.censor.level-5/prophecy)      |
+| Paragon                  | [Stand Fast](scc.v1:mcdm.heroes.v1/feature.censor.level-5/stand-fast)!   |

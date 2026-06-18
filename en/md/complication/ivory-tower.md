@@ -1,6 +1,6 @@
 ---
-benefit: 'You have three skills of your choice, and you know one dead language of your choice (see Languages in [Orden](scc:mcdm.heroes.v1/rule.world/orden) in Chapter 4: [Background](scc:mcdm.heroes.v1/chapter/background)).'
-drawback: The Director chooses one of the skills you have from this complication. You lose that skill and can't ever learn it again. Additionally, you take a [bane](scc:mcdm.heroes.v1/rule.dice/bane) on any [test](scc:mcdm.heroes.v1/rule.test/test) to which that skill would apply.
+benefit: 'You have three skills of your choice, and you know one dead language of your choice (see Languages in [Orden](scc.v1:mcdm.heroes.v1/rule.world/orden) in Chapter 4: [Background](scc.v1:mcdm.heroes.v1/chapter/background)).'
+drawback: The Director chooses one of the skills you have from this complication. You lose that skill and can't ever learn it again. Additionally, you take a [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) on any [test](scc.v1:mcdm.heroes.v1/rule.test/test) to which that skill would apply.
 flavor: You studied in an academy or other educational institution. Your training was thorough and your reading list was wide-ranging. But when you left school, you discovered there were serious gaps in your education. Maybe some of those books were a little out of date.
 name: Ivory Tower
 scc: mcdm.heroes.v1/complication/ivory-tower
@@ -9,6 +9,6 @@ type: complication
 
 You studied in an academy or other educational institution. Your training was thorough and your reading list was wide-ranging. But when you left school, you discovered there were serious gaps in your education. Maybe some of those books were a little out of date.
 
-**Benefit:** You have three skills of your choice, and you know one dead language of your choice (see Languages in [Orden](scc:mcdm.heroes.v1/rule.world/orden) in Chapter 4: [Background](scc:mcdm.heroes.v1/chapter/background)).
+**Benefit:** You have three skills of your choice, and you know one dead language of your choice (see Languages in [Orden](scc.v1:mcdm.heroes.v1/rule.world/orden) in Chapter 4: [Background](scc.v1:mcdm.heroes.v1/chapter/background)).
 
-**Drawback:** The Director chooses one of the skills you have from this complication. You lose that skill and can't ever learn it again. Additionally, you take a [bane](scc:mcdm.heroes.v1/rule.dice/bane) on any [test](scc:mcdm.heroes.v1/rule.test/test) to which that skill would apply.
+**Drawback:** The Director chooses one of the skills you have from this complication. You lose that skill and can't ever learn it again. Additionally, you take a [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) on any [test](scc.v1:mcdm.heroes.v1/rule.test/test) to which that skill would apply.

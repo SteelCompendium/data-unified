@@ -34,7 +34,7 @@ weaknesses:
 
 > ⭐️ **Undead Summoner**
 >
-> The summoner can command up to two squads of minions with a maximum of 8 minions per squad. They can only have one squad of [signature minions](scc:mcdm.summoner.v1/feature.summoner.level-1/minions) active at any time.
+> The summoner can command up to two squads of minions with a maximum of 8 minions per squad. They can only have one squad of [signature minions](scc.v1:mcdm.summoner.v1/feature.summoner.level-1/minions) active at any time.
 >
 > At the start of each of the summoner's turns, up to four **skeletons** appear in unoccupied spaces within 5 squares of the summoner. On each of the summoner's turns, they direct the squad of skeletons to move and use a main action.
 
@@ -44,11 +44,11 @@ weaknesses:
 > |---------------------------|----------------:|
 > | **📏 Ranged 10** | **🎯 One creature or object** |
 >
-> 8 psychic damage; R < 2 [frightened](scc:mcdm.heroes.v1/condition/frightened) ([EoT](scc:mcdm.heroes.v1/rule.combat/end-of-turn))
+> 8 psychic damage; R < 2 [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) ([EoT](scc.v1:mcdm.heroes.v1/rule.combat/end-of-turn))
 >
-> 13 psychic damage; R < 3 [frightened](scc:mcdm.heroes.v1/condition/frightened) ([EoT](scc:mcdm.heroes.v1/rule.combat/end-of-turn))
+> 13 psychic damage; R < 3 [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) ([EoT](scc.v1:mcdm.heroes.v1/rule.combat/end-of-turn))
 >
-> 17 psychic damage; R < 4 [frightened](scc:mcdm.heroes.v1/condition/frightened) ([EoT](scc:mcdm.heroes.v1/rule.combat/end-of-turn))
+> 17 psychic damage; R < 4 [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) ([EoT](scc.v1:mcdm.heroes.v1/rule.combat/end-of-turn))
 
 > 🏹 **Call Forth (1+ Malice)**
 >
@@ -64,12 +64,12 @@ weaknesses:
 > |-------|---------------------:|
 > | **📏 Ranged 10** | **🎯 Self or one ally** |
 >
-> **Trigger:** The target is targeted by a [strike](scc:mcdm.heroes.v1/rule.combat/strike).
+> **Trigger:** The target is targeted by a [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike).
 >
-> **Effect:** The summoner summons a **skeleton** into an unoccupied space [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the target. They become the new target of the strike. The original target can [shift](scc:mcdm.heroes.v1/movement/shifting) into any square [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the minion.
+> **Effect:** The summoner summons a **skeleton** into an unoccupied space [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the target. They become the new target of the strike. The original target can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) into any square [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the minion.
 >
-> **1 Malice:** Instead, the summoner summons a **zombie lumberer** into an unoccupied space [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the target to take the strike.
+> **1 Malice:** Instead, the summoner summons a **zombie lumberer** into an unoccupied space [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the target to take the strike.
 
 > ⭐️ **Rivalry (With All of Us)**
 >
-> At the start of an encounter, the summoner chooses one creature within their [line of effect](scc:mcdm.heroes.v1/rule.combat/line-of-effect). Both the summoner and the creature can add a d3 roll to [power rolls](scc:mcdm.heroes.v1/rule.dice/power-roll) they make against each other. Whenever one of the summoner's squads uses a damaging ability against the creature, the creature takes an additional 4 damage.
+> At the start of an encounter, the summoner chooses one creature within their [line of effect](scc.v1:mcdm.heroes.v1/rule.combat/line-of-effect). Both the summoner and the creature can add a d3 roll to [power rolls](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) they make against each other. Whenever one of the summoner's squads uses a damaging ability against the creature, the creature takes an additional 4 damage.

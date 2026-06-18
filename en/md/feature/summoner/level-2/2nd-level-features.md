@@ -6,4 +6,4 @@ scc: mcdm.summoner.v1/feature.summoner.level-2/2nd-level-features
 type: feature
 ---
 
-As a 2nd-level [summoner](scc:mcdm.summoner.v1/class/summoner), you gain the following features.
+As a 2nd-level [summoner](scc.v1:mcdm.summoner.v1/class/summoner), you gain the following features.

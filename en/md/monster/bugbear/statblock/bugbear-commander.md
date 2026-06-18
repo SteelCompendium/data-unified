@@ -39,9 +39,9 @@ type: statblock
 >
 > - **≤11:** 7 damage
 > - **12-16:** 10 damage
-> - **17+:** 13 damage; one target is [grabbed](scc:mcdm.heroes.v1/condition/grabbed)
+> - **17+:** 13 damage; one target is [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)
 >
-> **Effect:** One ally within 5 squares of the commander gains an [edge](scc:mcdm.heroes.v1/rule.dice/edge) on their next strike until the start of the commander's next turn.
+> **Effect:** One ally within 5 squares of the commander gains an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on their next strike until the start of the commander's next turn.
 
 > 🏹 **You Next!**
 >
@@ -51,13 +51,13 @@ type: statblock
 >
 > **Effect:** The target moves up to their speed and uses a signature ability.
 
-> ❇️ **Fall Back! (5 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
+> ❇️ **Fall Back! (5 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Area**       |              **Main Action** |
 > |----------------|-----------------------------:|
 > | **📏 5 burst** | **🎯 Each ally in the area** |
 >
-> **Effect:** Each target [shifts](scc:mcdm.heroes.v1/movement/shifting) up to their speed, then can use the Throw maneuver.
+> **Effect:** Each target [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed, then can use the Throw maneuver.
 
 > 🗡 **Throw**
 >
@@ -65,9 +65,9 @@ type: statblock
 > |-------------------|------------------------------:|
 > | **📏 Melee 1**    | **🎯 One creature or object** |
 >
-> **Special:** The target must be [grabbed](scc:mcdm.heroes.v1/condition/grabbed) by the commander.
+> **Special:** The target must be [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) by the commander.
 >
-> **Effect:** The target is vertical [pushed](scc:mcdm.heroes.v1/movement/forced-movement) up to 4 squares. An ally doesn't take damage from being [force moved](scc:mcdm.heroes.v1/movement/forced-movement) this way.
+> **Effect:** The target is vertical [pushed](scc.v1:mcdm.heroes.v1/movement/forced-movement) up to 4 squares. An ally doesn't take damage from being [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement) this way.
 
 > ❗️ **Catcher**
 >
@@ -75,9 +75,9 @@ type: statblock
 > |----------------|-----------------------------------------:|
 > | **📏 Melee 1** | **🎯 The triggering creature or object** |
 >
-> **Trigger:** A size 1 creature or object is [force moved](scc:mcdm.heroes.v1/movement/forced-movement) within distance, or a size 1 ally willingly moves within distance.
+> **Trigger:** A size 1 creature or object is [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement) within distance, or a size 1 ally willingly moves within distance.
 >
-> **Effect:** The target is [grabbed](scc:mcdm.heroes.v1/condition/grabbed) by the commander.
+> **Effect:** The target is [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) by the commander.
 
 > ⭐️ **The Commander's Watching**
 >

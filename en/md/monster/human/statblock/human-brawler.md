@@ -40,21 +40,21 @@ type: statblock
 >
 > - **≤11:** 6 damage
 > - **12-16:** 9 damage
-> - **17+:** 12 damage; M < 2 [grabbed](scc:mcdm.heroes.v1/condition/grabbed) and the target takes a bane on the Escape Grab maneuver
+> - **17+:** 12 damage; M < 2 [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) and the target takes a bane on the Escape Grab maneuver
 >
-> **Effect:** A target who is already [grabbed](scc:mcdm.heroes.v1/condition/grabbed) takes an extra 2 damage.
+> **Effect:** A target who is already [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) takes an extra 2 damage.
 
-> 🗡 **Throw (1 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
+> 🗡 **Throw (1 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Melee**      |                               **Maneuver** |
 > |----------------|-------------------------------------------:|
 > | **📏 Melee 1** | **🎯 One creature grabbed by the brawler** |
 >
-> **Effect:** The brawler [pushes](scc:mcdm.heroes.v1/movement/forced-movement) the target up to 5 squares.
+> **Effect:** The brawler [pushes](scc.v1:mcdm.heroes.v1/movement/forced-movement) the target up to 5 squares.
 
 > ⭐️ **Shoot the Hostage**
 >
-> The brawler halves the damage from any strike if they have a creature or object [grabbed](scc:mcdm.heroes.v1/condition/grabbed) of size 1S or larger. The [grabbed](scc:mcdm.heroes.v1/condition/grabbed) creature or object takes the remaining damage.
+> The brawler halves the damage from any strike if they have a creature or object [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) of size 1S or larger. The [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) creature or object takes the remaining damage.
 
 > ⭐️ **Supernatural Insight**
 >

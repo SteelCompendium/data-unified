@@ -3,7 +3,7 @@ action_type: Maneuver
 class: fury
 cost: 7 Ferocity
 distance: Self
-effect: Until the end of the encounter or until you are [dying](scc:mcdm.heroes.v1/rule.health/dying), each enemy who starts their [turn](scc:mcdm.heroes.v1/rule.combat/turn) [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to you and has P < STRONG is [frightened](scc:mcdm.heroes.v1/condition/frightened) until the end of their [turn](scc:mcdm.heroes.v1/rule.combat/turn).
+effect: Until the end of the encounter or until you are [dying](scc.v1:mcdm.heroes.v1/rule.health/dying), each enemy who starts their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to you and has P < STRONG is [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) until the end of their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn).
 flavor: Foes tremble at the sight of you.
 keywords:
     - Magic
@@ -21,4 +21,4 @@ type: ability
 |-------------|-------------:|
 | **📏 Self** |  **🎯 Self** |
 
-**Effect:** Until the end of the encounter or until you are [dying](scc:mcdm.heroes.v1/rule.health/dying), each enemy who starts their [turn](scc:mcdm.heroes.v1/rule.combat/turn) [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to you and has P < STRONG is [frightened](scc:mcdm.heroes.v1/condition/frightened) until the end of their [turn](scc:mcdm.heroes.v1/rule.combat/turn).
+**Effect:** Until the end of the encounter or until you are [dying](scc.v1:mcdm.heroes.v1/rule.health/dying), each enemy who starts their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to you and has P < STRONG is [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) until the end of their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn).

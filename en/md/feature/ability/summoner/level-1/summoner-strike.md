@@ -2,7 +2,7 @@
 action_type: Main action
 class: summoner
 distance: Melee 1 or Ranged 5
-effect: R [damage](scc:mcdm.heroes.v1/rule.damage/damage). If the target has R < WEAK, they are [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends).
+effect: R [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage). If the target has R < WEAK, they are [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends).
 flavor: A sudden burst of energy erupts from your implement and shocks your foes' nerves.
 keywords:
     - Magic
@@ -22,6 +22,6 @@ type: ability
 |----------------------------------|--------------------------:|
 | **📏 Melee 1 or Ranged 5**      | **🎯 One creature or object** |
 
-**Effect:** R [damage](scc:mcdm.heroes.v1/rule.damage/damage). If the target has R < WEAK, they are [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends).
+**Effect:** R [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage). If the target has R < WEAK, they are [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends).
 
-**Special:** This ability has the Charge keyword when it's used as a melee [strike](scc:mcdm.heroes.v1/rule.combat/strike).
+**Special:** This ability has the Charge keyword when it's used as a melee [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike).

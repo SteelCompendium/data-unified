@@ -6,9 +6,9 @@ type: skill-group
 
 Skills from the intrigue skill group are used in tasks centered around investigation, thievery, and spycraft.
 
-Rewards for [tests](scc:mcdm.heroes.v1/rule.test/test) made with skills from this group typically include helping another creature engaging in the same task succeed without needing to also make a [test](scc:mcdm.heroes.v1/rule.test/test), automatically succeeding on a follow-up [test](scc:mcdm.heroes.v1/rule.test/test) while engaged in the same task, discovering helpful information in addition to what you set out to learn, and performing an extra bit of clandestine activity in addition to what you set out to do.
+Rewards for [tests](scc.v1:mcdm.heroes.v1/rule.test/test) made with skills from this group typically include helping another creature engaging in the same task succeed without needing to also make a [test](scc.v1:mcdm.heroes.v1/rule.test/test), automatically succeeding on a follow-up [test](scc.v1:mcdm.heroes.v1/rule.test/test) while engaged in the same task, discovering helpful information in addition to what you set out to learn, and performing an extra bit of clandestine activity in addition to what you set out to do.
 
-Consequences for [tests](scc:mcdm.heroes.v1/rule.test/test) made with intrigue skills include getting caught in the act or failing to notice a detail that places you in danger, such as triggering a trap or walking into an ambush.
+Consequences for [tests](scc.v1:mcdm.heroes.v1/rule.test/test) made with intrigue skills include getting caught in the act or failing to notice a detail that places you in danger, such as triggering a trap or walking into an ambush.
 
 ###### Intrigue Skills Table
 

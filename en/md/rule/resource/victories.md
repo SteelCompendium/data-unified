@@ -8,12 +8,12 @@ Victories measure your hero's increasing power over the course of an adventure, 
 
 ##### Victories For Combat
 
-Each time your hero survives a combat encounter in which the party's [objectives](scc:mcdm.heroes.v1/rule.combat/objective) are achieved, you earn 1 Victory. The Director can decide that a trivially easy encounter doesn't earn the heroes a Victory, and can award additional Victories for particularly challenging encounters.
+Each time your hero survives a combat encounter in which the party's [objectives](scc.v1:mcdm.heroes.v1/rule.combat/objective) are achieved, you earn 1 Victory. The Director can decide that a trivially easy encounter doesn't earn the heroes a Victory, and can award additional Victories for particularly challenging encounters.
 
 ##### Victories For Noncombat Challenges
 
-When your hero successfully overcomes a big challenge that doesn't involve combat, the Director can award you 1 Victory. Such challenges can include things such as a particularly complicated and deadly trap, a negotiation, a [montage test](scc:mcdm.heroes.v1/rule.test/montage-test), a complicated puzzle, or the execution of a clever idea that avoids a battle. Especially difficult challenges might earn you more than 1 Victory.
+When your hero successfully overcomes a big challenge that doesn't involve combat, the Director can award you 1 Victory. Such challenges can include things such as a particularly complicated and deadly trap, a negotiation, a [montage test](scc.v1:mcdm.heroes.v1/rule.test/montage-test), a complicated puzzle, or the execution of a clever idea that avoids a battle. Especially difficult challenges might earn you more than 1 Victory.
 
 ##### Victories Reset
 
-Whenever you finish a [respite](scc:mcdm.heroes.v1/rule.resource/respite) (see [Respite](scc:mcdm.heroes.v1/rule.resource/respite) below), your Victories are converted into [Experience](scc:mcdm.heroes.v1/rule.resource/experience).
+Whenever you finish a [respite](scc.v1:mcdm.heroes.v1/rule.resource/respite) (see [Respite](scc.v1:mcdm.heroes.v1/rule.resource/respite) below), your Victories are converted into [Experience](scc.v1:mcdm.heroes.v1/rule.resource/experience).

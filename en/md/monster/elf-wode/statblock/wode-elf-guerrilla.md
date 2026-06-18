@@ -39,11 +39,11 @@ type: statblock
 >
 > - **≤11:** 7 damage
 > - **12-16:** 11 damage
-> - **17+:** 14 damage; M < 2 [bleeding](scc:mcdm.heroes.v1/condition/bleeding) (save ends)
+> - **17+:** 14 damage; M < 2 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
 >
-> **Effect:** The guerrilla can [teleport](scc:mcdm.heroes.v1/movement/teleport) up to 3 squares.
+> **Effect:** The guerrilla can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) up to 3 squares.
 >
-> **3 [Malice](scc:mcdm.monsters.v1/rule.monster/malice):** This ability targets one additional target, and deals an additional 3 damage if both targets are [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to each other.
+> **3 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice):** This ability targets one additional target, and deals an additional 3 damage if both targets are [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to each other.
 
 > ❗️ **Do Not Hesitate in the Wode (3 Malice)**
 >

@@ -39,14 +39,14 @@ The belladonix are found among the elite guard of fey monarchs and carry themsel
 > |---------------------------|----------------:|
 > | **📏 Ranged 15** | **🎯 One creature or object per minion** |
 >
-> 8 poison [damage](scc:mcdm.heroes.v1/rule.damage/damage); M < WEAK [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)
+> 8 poison [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage); M < WEAK [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
 >
-> 12 poison [damage](scc:mcdm.heroes.v1/rule.damage/damage); M < AVERAGE [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)
+> 12 poison [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage); M < AVERAGE [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
 >
-> 17 poison [damage](scc:mcdm.heroes.v1/rule.damage/damage); M < STRONG [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)
+> 17 poison [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage); M < STRONG [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
 >
-> **Effect:** A target [restrained](scc:mcdm.heroes.v1/condition/restrained) by this ability is trapped in a poison-fueled haze and considers each creature within 1 square of them to be an enemy until the [condition](scc:mcdm.heroes.v1/rule.combat/condition) ends.
+> **Effect:** A target [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) by this ability is trapped in a poison-fueled haze and considers each creature within 1 square of them to be an enemy until the [condition](scc.v1:mcdm.heroes.v1/rule.combat/condition) ends.
 
 > ⭐️ **Minuscule**
 >
-> The belladonix has [cover](scc:mcdm.heroes.v1/rule.combat/cover) while occupying a larger creature's space.
+> The belladonix has [cover](scc.v1:mcdm.heroes.v1/rule.combat/cover) while occupying a larger creature's space.

@@ -4,17 +4,17 @@ scc: mcdm.heroes.v1/rule.combat/target
 type: rule
 ---
 
-The "[Target](scc:mcdm.heroes.v1/rule.combat/target)" entry of an ability, represented by this symbol 🎯, notes the number of creatures, objects, or both who can be targeted by that ability. You can always affect fewer targets than the number indicated by this entry.
+The "[Target](scc.v1:mcdm.heroes.v1/rule.combat/target)" entry of an ability, represented by this symbol 🎯, notes the number of creatures, objects, or both who can be targeted by that ability. You can always affect fewer targets than the number indicated by this entry.
 
 ##### Creature
 
-If an ability targets one or more creatures, it can affect creatures within the ability's [distance](scc:mcdm.heroes.v1/rule.combat/distance) or area. You aren't an eligible creature target for your own abilities unless those abilities also have "self" as a target (see below), or unless the ability indicates otherwise.
+If an ability targets one or more creatures, it can affect creatures within the ability's [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance) or area. You aren't an eligible creature target for your own abilities unless those abilities also have "self" as a target (see below), or unless the ability indicates otherwise.
 
 ##### Object
 
-If an ability targets one or more objects, it can affect any object within the ability's [distance](scc:mcdm.heroes.v1/rule.combat/distance) or area. Unless otherwise noted, objects have poison immunity all and psychic immunity all. \(Damage in Chapter 10: [Combat](scc:mcdm.heroes.v1/chapter/combat) has information on [damage immunity](scc:mcdm.heroes.v1/rule.damage/damage-immunity).)
+If an ability targets one or more objects, it can affect any object within the ability's [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance) or area. Unless otherwise noted, objects have poison immunity all and psychic immunity all. \(Damage in Chapter 10: [Combat](scc.v1:mcdm.heroes.v1/chapter/combat) has information on [damage immunity](scc.v1:mcdm.heroes.v1/rule.damage/damage-immunity).)
 
-When an ability can target creatures and objects, the ability can damage objects. However, unless otherwise noted (as with the [talent's](scc:mcdm.heroes.v1/class/talent) [Minor Telekinesis](scc:mcdm.heroes.v1/feature.ability.talent.level-1/minor-telekinesis) ability) or if the Director allows it, objects are immune to an ability's other effects. If an ability forces an object to make a [test](scc:mcdm.heroes.v1/rule.test/test), the object automatically gets a tier 1 result on the [test](scc:mcdm.heroes.v1/rule.test/test).
+When an ability can target creatures and objects, the ability can damage objects. However, unless otherwise noted (as with the [talent's](scc.v1:mcdm.heroes.v1/class/talent) [Minor Telekinesis](scc.v1:mcdm.heroes.v1/feature.ability.talent.level-1/minor-telekinesis) ability) or if the Director allows it, objects are immune to an ability's other effects. If an ability forces an object to make a [test](scc.v1:mcdm.heroes.v1/rule.test/test), the object automatically gets a tier 1 result on the [test](scc.v1:mcdm.heroes.v1/rule.test/test).
 
 ##### Self
 

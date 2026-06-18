@@ -32,15 +32,15 @@ weaknesses:
 
 > ⭐️ **Transforming Strike**
 >
-> The violent's melee [free strikes](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) deal an additional 2 damage to each [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) enemy from whom they were hidden. The violent loses their disguise after striking.
+> The violent's melee [free strikes](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) deal an additional 2 damage to each [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) enemy from whom they were hidden. The violent loses their disguise after striking.
 
 > ⭐️ **Mimicry**
 >
-> The violent uses the [Hide](scc:mcdm.heroes.v1/feature.common.maneuvers/hide) maneuver at the start of their turn as a [free maneuver](scc:mcdm.heroes.v1/rule.combat/free-maneuver), disguising themselves as a a [size](scc:mcdm.heroes.v1/rule.character/size) 1M or smaller object.
+> The violent uses the [Hide](scc.v1:mcdm.heroes.v1/feature.common.maneuvers/hide) maneuver at the start of their turn as a [free maneuver](scc.v1:mcdm.heroes.v1/rule.combat/free-maneuver), disguising themselves as a a [size](scc.v1:mcdm.heroes.v1/rule.character/size) 1M or smaller object.
 
 > ⭐️ **Soulsight**
 >
-> Each creature [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the violent can't be hidden from them.
+> Each creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the violent can't be hidden from them.
 
 ######## Level 7 Retainer Advancement Ability
 
@@ -50,7 +50,7 @@ weaknesses:
 > |-----------------|-------------:|
 > | **📏 5 burst** | **🎯 Each of the detective's minions in the area** |
 >
-> **Effect:** Each target moves up to their [speed](scc:mcdm.heroes.v1/rule.character/speed) toward an ally. Each ally within [line of effect](scc:mcdm.heroes.v1/rule.combat/line-of-effect) of the detective can give one [EoT](scc:mcdm.heroes.v1/rule.combat/end-of-turn) or save ends effect they're affected by to an [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) minion and end that effect on themself.
+> **Effect:** Each target moves up to their [speed](scc.v1:mcdm.heroes.v1/rule.character/speed) toward an ally. Each ally within [line of effect](scc.v1:mcdm.heroes.v1/rule.combat/line-of-effect) of the detective can give one [EoT](scc.v1:mcdm.heroes.v1/rule.combat/end-of-turn) or save ends effect they're affected by to an [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) minion and end that effect on themself.
 >
 > Until the end of the encounter, whenever an enemy kills a target and has P < STRONG, they receive all EoT or save ends effects the target was affected by.
 
@@ -64,13 +64,13 @@ weaknesses:
 >
 > **Effect:** The minion explodes. Make a power roll, targeting each enemy within 2 squares of the target.
 >
-> 5 corruption damage; M < WEAK [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
+> 5 corruption damage; M < WEAK [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
 >
-> 8 corruption damage; M < AVERAGE [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
+> 8 corruption damage; M < AVERAGE [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
 >
-> 10 corruption damage; M < STRONG [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends)
+> 10 corruption damage; M < STRONG [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
 >
-> The area within 2 squares of the exploded minion is covered in blight until the end of the encounter. Abilities used against an enemy in the area have an [edge](scc:mcdm.heroes.v1/rule.dice/edge).
+> The area within 2 squares of the exploded minion is covered in blight until the end of the encounter. Abilities used against an enemy in the area have an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge).
 
 ######## Level 10 Retainer Advancement Ability
 

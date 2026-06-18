@@ -5,4 +5,4 @@ scc: mcdm.heroes.v1/perk/power-player
 type: perk
 ---
 
-Whenever you make a [test](scc:mcdm.heroes.v1/rule.test/test) that uses the [Brag](scc:mcdm.heroes.v1/skill.interpersonal/brag), [Flirt](scc:mcdm.heroes.v1/skill.interpersonal/flirt), or [Intimidate](scc:mcdm.heroes.v1/skill.interpersonal/intimidate) skills, you can use [Might](scc:mcdm.heroes.v1/rule.character/might) instead of any other [characteristic](scc:mcdm.heroes.v1/rule.character/characteristic) the [test](scc:mcdm.heroes.v1/rule.test/test) calls for.
+Whenever you make a [test](scc.v1:mcdm.heroes.v1/rule.test/test) that uses the [Brag](scc.v1:mcdm.heroes.v1/skill.interpersonal/brag), [Flirt](scc.v1:mcdm.heroes.v1/skill.interpersonal/flirt), or [Intimidate](scc.v1:mcdm.heroes.v1/skill.interpersonal/intimidate) skills, you can use [Might](scc.v1:mcdm.heroes.v1/rule.character/might) instead of any other [characteristic](scc.v1:mcdm.heroes.v1/rule.character/characteristic) the [test](scc.v1:mcdm.heroes.v1/rule.test/test) calls for.

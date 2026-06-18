@@ -35,8 +35,8 @@ The gales are twisting ribbons of cloud and debris endlessly dancing in place. T
 
 > ⭐️ **Cutting the Air**
 >
-> The gale doesn't provoke [opportunity attacks](scc:mcdm.heroes.v1/rule.combat/opportunity-attack) by moving.
+> The gale doesn't provoke [opportunity attacks](scc.v1:mcdm.heroes.v1/rule.combat/opportunity-attack) by moving.
 
 > ⭐️ **Whirlwind**
 >
-> When the gale is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), winds whip in their space until the end of the encounter. You or an ally that enters this space or starts their turn there can immediately [shift](scc:mcdm.heroes.v1/movement/shifting) (including vertically).
+> When the gale is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), winds whip in their space until the end of the encounter. You or an ally that enters this space or starts their turn there can immediately [shift](scc.v1:mcdm.heroes.v1/movement/shifting) (including vertically).

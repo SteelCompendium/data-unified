@@ -2,10 +2,10 @@
 flavor: From an early age, you dedicated yourself to learning, whether you shared the knowledge of the world with others or sought out secret lore only for yourself.
 language: One language
 name: Sage
-perk: One lore perk (*Quick Build:* [Expert Sage](scc:mcdm.heroes.v1/perk/expert-sage).)
+perk: One lore perk (*Quick Build:* [Expert Sage](scc.v1:mcdm.heroes.v1/perk/expert-sage).)
 scc: mcdm.heroes.v1/career/sage
 skills:
-    - Two skills from the [lore skill group](scc:mcdm.heroes.v1/skill.group/lore) (*Quick Build:* [History](scc:mcdm.heroes.v1/skill.lore/history), [Magic](scc:mcdm.heroes.v1/skill.lore/magic).)
+    - Two skills from the [lore skill group](scc.v1:mcdm.heroes.v1/skill.group/lore) (*Quick Build:* [History](scc.v1:mcdm.heroes.v1/skill.lore/history), [Magic](scc.v1:mcdm.heroes.v1/skill.lore/magic).)
 type: career
 ---
 
@@ -18,13 +18,13 @@ From an early age, you dedicated yourself to learning, whether you shared the kn
 
 You gain the following career benefits:
 
-**Skills:** Two skills from the [lore skill group](scc:mcdm.heroes.v1/skill.group/lore) (*Quick Build:* [History](scc:mcdm.heroes.v1/skill.lore/history), [Magic](scc:mcdm.heroes.v1/skill.lore/magic).)
+**Skills:** Two skills from the [lore skill group](scc.v1:mcdm.heroes.v1/skill.group/lore) (*Quick Build:* [History](scc.v1:mcdm.heroes.v1/skill.lore/history), [Magic](scc.v1:mcdm.heroes.v1/skill.lore/magic).)
 
 **Languages:** One language
 
-**[Project Points](scc:mcdm.heroes.v1/rule.downtime/project-points):** 240
+**[Project Points](scc.v1:mcdm.heroes.v1/rule.downtime/project-points):** 240
 
-**Perk:** One lore perk (*Quick Build:* [Expert Sage](scc:mcdm.heroes.v1/perk/expert-sage).)
+**Perk:** One lore perk (*Quick Build:* [Expert Sage](scc.v1:mcdm.heroes.v1/perk/expert-sage).)
 
 | d6 | Inciting Incident                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 |----|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

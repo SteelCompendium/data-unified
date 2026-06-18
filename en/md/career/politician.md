@@ -2,10 +2,10 @@
 flavor: You worked as a leader within a formal, bureaucratic organization or government. You might have been appointed, born, or elected into your position, but getting people to agree and making decisions for the people you serve (or who served you) was your job.
 language: One language
 name: Politician
-perk: One interpersonal perk (*Quick Build:* [Engrossing Monologue](scc:mcdm.heroes.v1/perk/engrossing-monologue).)
+perk: One interpersonal perk (*Quick Build:* [Engrossing Monologue](scc.v1:mcdm.heroes.v1/perk/engrossing-monologue).)
 scc: mcdm.heroes.v1/career/politician
 skills:
-    - Two skills from the [interpersonal skill group](scc:mcdm.heroes.v1/skill.group/interpersonal) (*Quick Build:* [Lead](scc:mcdm.heroes.v1/skill.interpersonal/lead), [Lie](scc:mcdm.heroes.v1/skill.interpersonal/lie).)
+    - Two skills from the [interpersonal skill group](scc.v1:mcdm.heroes.v1/skill.group/interpersonal) (*Quick Build:* [Lead](scc.v1:mcdm.heroes.v1/skill.interpersonal/lead), [Lie](scc.v1:mcdm.heroes.v1/skill.interpersonal/lie).)
 type: career
 ---
 
@@ -18,15 +18,15 @@ You worked as a leader within a formal, bureaucratic organization or government.
 
 You gain the following career benefits:
 
-**Skills:** Two skills from the [interpersonal skill group](scc:mcdm.heroes.v1/skill.group/interpersonal) (*Quick Build:* [Lead](scc:mcdm.heroes.v1/skill.interpersonal/lead), [Lie](scc:mcdm.heroes.v1/skill.interpersonal/lie).)
+**Skills:** Two skills from the [interpersonal skill group](scc.v1:mcdm.heroes.v1/skill.group/interpersonal) (*Quick Build:* [Lead](scc.v1:mcdm.heroes.v1/skill.interpersonal/lead), [Lie](scc.v1:mcdm.heroes.v1/skill.interpersonal/lie).)
 
 **Languages:** One language
 
-**[Renown](scc:mcdm.heroes.v1/rule.resource/renown):** +1
+**[Renown](scc.v1:mcdm.heroes.v1/rule.resource/renown):** +1
 
-**[Wealth](scc:mcdm.heroes.v1/rule.resource/wealth):** +1
+**[Wealth](scc.v1:mcdm.heroes.v1/rule.resource/wealth):** +1
 
-**Perk:** One interpersonal perk (*Quick Build:* [Engrossing Monologue](scc:mcdm.heroes.v1/perk/engrossing-monologue).)
+**Perk:** One interpersonal perk (*Quick Build:* [Engrossing Monologue](scc.v1:mcdm.heroes.v1/perk/engrossing-monologue).)
 
 | d6 | Inciting Incident                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 |----|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

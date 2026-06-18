@@ -38,12 +38,12 @@ weaknesses:
 > **Power Roll + 4:**
 >
 > - **≤11:** 7 damage; pull 1
-> - **12-16:** 10 damage; pull 2, [grabbed](scc:mcdm.heroes.v1/condition/grabbed)
-> - **17+:** 12 damage; pull 3, [grabbed](scc:mcdm.heroes.v1/condition/grabbed)
+> - **12-16:** 10 damage; pull 2, [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)
+> - **17+:** 12 damage; pull 3, [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)
 >
-> **Effect:** Any target [restrained](scc:mcdm.heroes.v1/condition/restrained) by the styrich's Tangled Nest ability can be pulled the distance determined by the power roll.
+> **Effect:** Any target [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) by the styrich's Tangled Nest ability can be pulled the distance determined by the power roll.
 
-> ❇️ **Tangled Nest (5 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
+> ❇️ **Tangled Nest (5 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Area**       |                  **Maneuver** |
 > |----------------|------------------------------:|
@@ -51,13 +51,13 @@ weaknesses:
 >
 > **Power Roll + 4:**
 >
-> - **≤11:** A < 2 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
-> - **12-16:** [Slowed](scc:mcdm.heroes.v1/condition/slowed) (EoT) or A < 3 3 damage and [restrained](scc:mcdm.heroes.v1/condition/restrained) (EoT)
-> - **17+:** [Restrained](scc:mcdm.heroes.v1/condition/restrained) (EoT) or A < 4 3 damage and [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends)
+> - **≤11:** A < 2 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
+> - **12-16:** [Slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (EoT) or A < 3 3 damage and [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (EoT)
+> - **17+:** [Restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (EoT) or A < 4 3 damage and [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
 
 > ⭐️ **Lethe**
 >
-> While the styrich is [winded](scc:mcdm.heroes.v1/rule.health/winded), they gain an [edge](scc:mcdm.heroes.v1/rule.dice/edge) on strikes, and any strike made against them gains an edge.
+> While the styrich is [winded](scc.v1:mcdm.heroes.v1/rule.health/winded), they gain an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on strikes, and any strike made against them gains an edge.
 
 > ⭐️ **Soulsight**
 >

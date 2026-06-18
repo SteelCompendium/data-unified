@@ -30,7 +30,7 @@ type: statblock
 | **Psychic 6**<br>Immunity | **Hover, teleport**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
 |      **-1**<br>Might      |        **+1**<br>Agility        |  **+3**<br>Reason  |  **+2**<br>Intuition  |  **+2**<br>Presence  |
 
-> 🗡 **Tentacle ([Signature Ability](scc:mcdm.heroes.v1/rule.combat/signature-ability))**
+> 🗡 **Tentacle ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
 > | **Melee, Strike, Weapon** |                 **Main action** |
 > |---------------------------|--------------------------------:|
@@ -39,8 +39,8 @@ type: statblock
 > **Power Roll + 3:**
 >
 > - **≤11:** 10 damage
-> - **12-16:** 15 damage; M < 2 [grabbed](scc:mcdm.heroes.v1/condition/grabbed)
-> - **17+:** 18 damage; M < 3 [grabbed](scc:mcdm.heroes.v1/condition/grabbed)
+> - **12-16:** 15 damage; M < 2 [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)
+> - **17+:** 18 damage; M < 3 [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)
 
 > ❇️ **Psionic Boom (3 Malice)**
 >
@@ -50,9 +50,9 @@ type: statblock
 >
 > **Power Roll + 3:**
 >
-> - **≤11:** 6 psychic damage; R < 1 [push](scc:mcdm.heroes.v1/movement/forced-movement) 2
-> - **12-16:** 10 psychic damage; R < 2 [push](scc:mcdm.heroes.v1/movement/forced-movement) 3
-> - **17+:** 12 psychic damage; R < 3 [push](scc:mcdm.heroes.v1/movement/forced-movement) 4 and [prone](scc:mcdm.heroes.v1/condition/prone)
+> - **≤11:** 6 psychic damage; R < 1 [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2
+> - **12-16:** 10 psychic damage; R < 2 [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3
+> - **17+:** 12 psychic damage; R < 3 [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 4 and [prone](scc.v1:mcdm.heroes.v1/condition/prone)
 >
 > **2 Malice:** The size of the burst increases to 5.
 
@@ -62,24 +62,24 @@ type: statblock
 > |--------------------|--------------------:|
 > | **📏 Melee 1**     | **🎯 One creature** |
 >
-> **Effect:** The target must be [grabbed](scc:mcdm.heroes.v1/condition/grabbed) by the invader.
+> **Effect:** The target must be [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) by the invader.
 >
 > **Power Roll + 3:**
 >
-> - **≤11:** 6 damage; vertical [slide](scc:mcdm.heroes.v1/movement/forced-movement) 2
-> - **12-16:** 10 damage; vertical [slide](scc:mcdm.heroes.v1/movement/forced-movement) 2
-> - **17+:** 12 damage; vertical [slide](scc:mcdm.heroes.v1/movement/forced-movement) 3
+> - **≤11:** 6 damage; vertical [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2
+> - **12-16:** 10 damage; vertical [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2
+> - **17+:** 12 damage; vertical [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3
 
 > ❗️ **Brain Drain**
 >
-> | **Melee, Psionic** |           **[Triggered Action](scc:mcdm.heroes.v1/rule.combat/triggered-action)** |
+> | **Melee, Psionic** |           **[Triggered Action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |
 > |--------------------|-------------------------------:|
 > | **📏 Special**     | **🎯 The triggering creature** |
 >
-> **Trigger:** A creature [grabbed](scc:mcdm.heroes.v1/condition/grabbed) by the invader resists an ability's [potency](scc:mcdm.heroes.v1/rule.character/potency).
+> **Trigger:** A creature [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) by the invader resists an ability's [potency](scc.v1:mcdm.heroes.v1/rule.character/potency).
 >
-> **Effect:** The [potency](scc:mcdm.heroes.v1/rule.character/potency) increases by 2.
+> **Effect:** The [potency](scc.v1:mcdm.heroes.v1/rule.character/potency) increases by 2.
 
 > ⭐️ **Psionic Amplifier**
 >
-> Whenever a non-[minion](scc:mcdm.monsters.v1/rule.organization/minion) voiceless talker within 5 squares of the invader uses a psionic ability, they can do so as if they were in the invader's space, and the ability has a double edge.
+> Whenever a non-[minion](scc.v1:mcdm.monsters.v1/rule.organization/minion) voiceless talker within 5 squares of the invader uses a psionic ability, they can do so as if they were in the invader's space, and the ability has a double edge.

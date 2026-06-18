@@ -33,7 +33,7 @@ weaknesses:
 
 > ⭐️ **Demon Summoner**
 >
-> The detective can command up to two squads of minions with a maximum of 4 minions per squad. They can only have one squad of [signature minions](scc:mcdm.summoner.v1/feature.summoner.level-1/minions) active at any time.
+> The detective can command up to two squads of minions with a maximum of 4 minions per squad. They can only have one squad of [signature minions](scc.v1:mcdm.summoner.v1/feature.summoner.level-1/minions) active at any time.
 >
 > At the start of each of the detective's turns, up to three **razors** appear in unoccupied spaces within 5 squares of the detective. On each of the detective's turns, they direct the squad of razors to move and use a main action.
 
@@ -47,10 +47,10 @@ weaknesses:
 >
 > 3 damage
 >
-> 5 damage; R < STRONG [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
+> 5 damage; R < STRONG [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
 >
-> **Effect:** The target takes an additional 1 damage for each demon [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to them.
+> **Effect:** The target takes an additional 1 damage for each demon [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to them.
 
 > ⭐️ **True Name**
 >
-> If a creature within 10 squares speaks the detective's true name, the detective loses their [damage immunities](scc:mcdm.heroes.v1/rule.damage/damage-immunity) and can't summon any **razors** until the end of the encounter.
+> If a creature within 10 squares speaks the detective's true name, the detective loses their [damage immunities](scc.v1:mcdm.heroes.v1/rule.damage/damage-immunity) and can't summon any **razors** until the end of the encounter.

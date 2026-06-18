@@ -5,7 +5,7 @@ name: Sailor
 perk: One exploration perk (*Quick Build:* Put Your Back Into It!)
 scc: mcdm.heroes.v1/career/sailor
 skills:
-    - Swim (from the [exploration skill group](scc:mcdm.heroes.v1/skill.group/exploration)), plus two more skills from the [exploration group](scc:mcdm.heroes.v1/skill.group/exploration) (*Quick Build:* [Climb](scc:mcdm.heroes.v1/skill.exploration/climb), [Gymnastics](scc:mcdm.heroes.v1/skill.exploration/gymnastics), [Swim](scc:mcdm.heroes.v1/skill.exploration/swim).)
+    - Swim (from the [exploration skill group](scc.v1:mcdm.heroes.v1/skill.group/exploration)), plus two more skills from the [exploration group](scc.v1:mcdm.heroes.v1/skill.group/exploration) (*Quick Build:* [Climb](scc.v1:mcdm.heroes.v1/skill.exploration/climb), [Gymnastics](scc.v1:mcdm.heroes.v1/skill.exploration/gymnastics), [Swim](scc.v1:mcdm.heroes.v1/skill.exploration/swim).)
 type: career
 ---
 
@@ -18,7 +18,7 @@ You worked on a ship, whether a merchant cog, a mercenary or military craft, or 
 
 You gain the following career benefits:
 
-**Skills:** Swim (from the [exploration skill group](scc:mcdm.heroes.v1/skill.group/exploration)), plus two more skills from the [exploration group](scc:mcdm.heroes.v1/skill.group/exploration) (*Quick Build:* [Climb](scc:mcdm.heroes.v1/skill.exploration/climb), [Gymnastics](scc:mcdm.heroes.v1/skill.exploration/gymnastics), [Swim](scc:mcdm.heroes.v1/skill.exploration/swim).)
+**Skills:** Swim (from the [exploration skill group](scc.v1:mcdm.heroes.v1/skill.group/exploration)), plus two more skills from the [exploration group](scc.v1:mcdm.heroes.v1/skill.group/exploration) (*Quick Build:* [Climb](scc.v1:mcdm.heroes.v1/skill.exploration/climb), [Gymnastics](scc.v1:mcdm.heroes.v1/skill.exploration/gymnastics), [Swim](scc.v1:mcdm.heroes.v1/skill.exploration/swim).)
 
 **Languages:** Two languages
 
@@ -27,7 +27,7 @@ You gain the following career benefits:
 | d6 | Inciting Incident                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 |----|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 **Alone:** You joined up with your best friend, sibling, or other loved one, the culmination of a lifelong dream to sail the high seas together. When they died, you lost your taste for the seafaring life. You left at the first opportunity and haven't looked back since.
-**Deserter:** It was in the middle of a pirate raid (whether you were part of it or targeted by it) that you realized you no longer yearned for a [sailor's](scc:mcdm.heroes.v1/career/sailor) life. You used the chaos of the moment to slip away unnoticed. You now work as a hero in an effort to either end the piracy of others or atone for your past deeds, but you fear the day your old crew finds you and punishes you for your desertion.
+**Deserter:** It was in the middle of a pirate raid (whether you were part of it or targeted by it) that you realized you no longer yearned for a [sailor's](scc.v1:mcdm.heroes.v1/career/sailor) life. You used the chaos of the moment to slip away unnoticed. You now work as a hero in an effort to either end the piracy of others or atone for your past deeds, but you fear the day your old crew finds you and punishes you for your desertion.
 **Forgotten:** You awoke aboard your ship with no memory of who you were. Though the other sailors insisted they knew you, you didn't know them. The next time you went ashore, you decided to stay, determined to find out who you really are.
 **Jealousy:** You had the favor of your captain, which earned you many rivals aboard your ship. One night, your fellow sailors pulled you from your bunk and threw you overboard. By some miracle, you were scooped from the waters by a passing vessel. You worked off your debt to them, then set out on a new life involving less pettiness.
 **Marooned:** There was a mutiny, and you were on the losing side. You were marooned on an island and escaped when a merchant vessel was blown off course by a storm and found you. Your reputation is ruined among sailors, so you seek adventure elsewhere.

@@ -36,4 +36,4 @@ These autonomous bone networks fall just short of replicating the structure they
 
 > ⭐️ **Bonetrops**
 >
-> When the skeleton is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), their square becomes [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain) for enemies. The first time any enemy enters this space, they take 2 damage and end this effect.
+> When the skeleton is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), their square becomes [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain) for enemies. The first time any enemy enters this space, they take 2 damage and end this effect.

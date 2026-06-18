@@ -1,6 +1,6 @@
 ---
 echelon: "1"
-effect: When you drink this potion as a maneuver, you regain [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) equal to your [recovery value](scc:mcdm.heroes.v1/rule.health/recoveries) without spending a [Recovery](scc:mcdm.heroes.v1/rule.health/recoveries).
+effect: When you drink this potion as a maneuver, you regain [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) equal to your [recovery value](scc.v1:mcdm.heroes.v1/rule.health/recoveries) without spending a [Recovery](scc.v1:mcdm.heroes.v1/rule.health/recoveries).
 flavor: Thick and red, this liquid tastes of sour beer.
 keywords:
     - Magic
@@ -16,12 +16,12 @@ type: treasure
 
 **Keywords:** Magic, Potion
 
-**[Item Prerequisite](scc:mcdm.heroes.v1/rule.downtime/item-prerequisite):** An ounce of costmary leaves
+**[Item Prerequisite](scc.v1:mcdm.heroes.v1/rule.downtime/item-prerequisite):** An ounce of costmary leaves
 
-**[Project Source](scc:mcdm.heroes.v1/rule.downtime/project-source):** Texts or lore in Caelian
+**[Project Source](scc.v1:mcdm.heroes.v1/rule.downtime/project-source):** Texts or lore in Caelian
 
-**[Project Roll](scc:mcdm.heroes.v1/rule.downtime/project-roll) [Characteristic](scc:mcdm.heroes.v1/rule.character/characteristic):** [Reason](scc:mcdm.heroes.v1/rule.character/reason) or [Intuition](scc:mcdm.heroes.v1/rule.character/intuition)
+**[Project Roll](scc.v1:mcdm.heroes.v1/rule.downtime/project-roll) [Characteristic](scc.v1:mcdm.heroes.v1/rule.character/characteristic):** [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) or [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)
 
 **Project Goal:** 45
 
-**Effect:** When you drink this potion as a maneuver, you regain [Stamina](scc:mcdm.heroes.v1/rule.health/stamina) equal to your [recovery value](scc:mcdm.heroes.v1/rule.health/recoveries) without spending a [Recovery](scc:mcdm.heroes.v1/rule.health/recoveries).
+**Effect:** When you drink this potion as a maneuver, you regain [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) equal to your [recovery value](scc.v1:mcdm.heroes.v1/rule.health/recoveries) without spending a [Recovery](scc.v1:mcdm.heroes.v1/rule.health/recoveries).

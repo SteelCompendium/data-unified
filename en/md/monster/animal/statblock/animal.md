@@ -38,7 +38,7 @@ type: statblock
 > - **12-16:** 9 damage
 > - **17+:** 12 damage
 >
-> **Effect:** The animal [shifts](scc:mcdm.heroes.v1/movement/shifting) up to 2 squares between strikes.
+> **Effect:** The animal [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to 2 squares between strikes.
 
 > 👤 **Rush**
 >

@@ -2,12 +2,12 @@
 action_type: Maneuver
 class: troubadour
 cost: 11 Drama
-distance: '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 10'
-effect: Until the end of the encounter, whenever the target takes damage while [winded](scc:mcdm.heroes.v1/rule.health/winded), they can use a free [triggered action](scc:mcdm.heroes.v1/rule.combat/triggered-action) to deal half the damage they took to the source of the damage.
+distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
+effect: Until the end of the encounter, whenever the target takes damage while [winded](scc.v1:mcdm.heroes.v1/rule.health/winded), they can use a free [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action) to deal half the damage they took to the source of the damage.
 flavor: A song for the brokenhearted wraps itself around the target and blossoms into a ward of thorns.
 keywords:
     - Magic
-    - '[Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)'
+    - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'
 level: "8"
 name: Power Ballad
 scc: mcdm.heroes.v1/feature.ability.troubadour.level-8/power-ballad
@@ -18,8 +18,8 @@ type: ability
 
 *A song for the brokenhearted wraps itself around the target and blossoms into a ward of thorns.*
 
-| **Magic, [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged)** |            **Maneuver** |
+| **Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)** |            **Maneuver** |
 |-------------------|------------------------:|
-| **📏 [Ranged](scc:mcdm.heroes.v1/rule.combat/ranged) 10**  | **🎯 Self or one ally** |
+| **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**  | **🎯 Self or one ally** |
 
-**Effect:** Until the end of the encounter, whenever the target takes damage while [winded](scc:mcdm.heroes.v1/rule.health/winded), they can use a free [triggered action](scc:mcdm.heroes.v1/rule.combat/triggered-action) to deal half the damage they took to the source of the damage.
+**Effect:** Until the end of the encounter, whenever the target takes damage while [winded](scc.v1:mcdm.heroes.v1/rule.health/winded), they can use a free [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action) to deal half the damage they took to the source of the damage.

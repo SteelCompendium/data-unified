@@ -42,8 +42,8 @@ type: statblock
 > - **12-16:** 6 poison damage
 > - **17+:** 7 poison damage
 >
-> **2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice):** A target who has M < 2 is [weakened](scc:mcdm.heroes.v1/condition/weakened) (save ends). A target [weakened](scc:mcdm.heroes.v1/condition/weakened) this way takes 2 poison damage at the start of each of their turns.
+> **2 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice):** A target who has M < 2 is [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends). A target [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) this way takes 2 poison damage at the start of each of their turns.
 
 > ⭐️ **Toxiferous**
 >
-> Whenever an adjacent enemy [grabs](scc:mcdm.heroes.v1/feature.common.maneuvers/grab) the needler or uses a melee ability against them, that enemy takes 2 poison damage.
+> Whenever an adjacent enemy [grabs](scc.v1:mcdm.heroes.v1/feature.common.maneuvers/grab) the needler or uses a melee ability against them, that enemy takes 2 poison damage.

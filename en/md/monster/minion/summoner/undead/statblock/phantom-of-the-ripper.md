@@ -40,14 +40,14 @@ These phantoms puppet the remnants of their corporeal forms. Unlike other spirit
 > |---------------------------|----------------:|
 > | **📏 Melee 1** | **🎯 One creature or object per minion** |
 >
-> 8 [damage](scc:mcdm.heroes.v1/rule.damage/damage); A < WEAK [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
+> 8 [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage); A < WEAK [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
 >
-> 13 [damage](scc:mcdm.heroes.v1/rule.damage/damage); A < AVERAGE [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
+> 13 [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage); A < AVERAGE [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
 >
-> 17 [damage](scc:mcdm.heroes.v1/rule.damage/damage); A < STRONG [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
+> 17 [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage); A < STRONG [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
 >
-> **Effect:** The phantom deals an additional 3 [damage](scc:mcdm.heroes.v1/rule.damage/damage) if they have an [edge](scc:mcdm.heroes.v1/rule.dice/edge).
+> **Effect:** The phantom deals an additional 3 [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage) if they have an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge).
 
 > ⭐️ **Ripping Phase**
 >
-> The phantom can move through other creatures and objects at normal speed. The first time in a [round](scc:mcdm.heroes.v1/rule.combat/combat-round) that the phantom passes through a creature, that creature takes 3 corruption [damage](scc:mcdm.heroes.v1/rule.damage/damage) and has a [bane](scc:mcdm.heroes.v1/rule.dice/bane) on their next [strike](scc:mcdm.heroes.v1/rule.combat/strike). The phantom doesn't take [damage](scc:mcdm.heroes.v1/rule.damage/damage) from being [force moved](scc:mcdm.heroes.v1/movement/forced-movement) into objects.
+> The phantom can move through other creatures and objects at normal speed. The first time in a [round](scc.v1:mcdm.heroes.v1/rule.combat/combat-round) that the phantom passes through a creature, that creature takes 3 corruption [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage) and has a [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) on their next [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike). The phantom doesn't take [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage) from being [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement) into objects.

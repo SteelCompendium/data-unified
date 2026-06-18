@@ -10,8 +10,8 @@ You are a formidable combatant in your own right, but your greatest strength is 
 
 ##### Heroic Abilities
 
-Your [heroic abilities](scc:mcdm.heroes.v1/rule.general/heroic-ability) cover a range of combat tactics, all of which require focus to use.
+Your [heroic abilities](scc.v1:mcdm.heroes.v1/rule.general/heroic-ability) cover a range of combat tactics, all of which require focus to use.
 
 ###### 3-Focus Ability
 
-Choose one [heroic ability](scc:mcdm.heroes.v1/rule.general/heroic-ability) from the following options, each of which costs 3 focus to use. (*Quick Build:* [Inspiring Strike](scc:mcdm.heroes.v1/feature.ability.tactician.level-1/inspiring-strike).)
+Choose one [heroic ability](scc.v1:mcdm.heroes.v1/rule.general/heroic-ability) from the following options, each of which costs 3 focus to use. (*Quick Build:* [Inspiring Strike](scc.v1:mcdm.heroes.v1/feature.ability.tactician.level-1/inspiring-strike).)

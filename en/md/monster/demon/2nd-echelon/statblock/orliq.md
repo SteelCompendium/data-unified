@@ -45,7 +45,7 @@ with_captain: +2 bonus to speed
 
 > ⭐️ **Imposing Energy**
 >
-> Any enemy who starts their turn with two or more orliq [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to them is [slowed](scc:mcdm.heroes.v1/condition/slowed) (EoT).
+> Any enemy who starts their turn with two or more orliq [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to them is [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (EoT).
 
 > ⭐️ **Soulsight**
 >

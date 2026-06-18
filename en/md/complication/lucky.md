@@ -1,14 +1,14 @@
 ---
-benefit: When you spend a [hero token](scc:mcdm.heroes.v1/rule.resource/hero-token) to succeed on a [saving throw](scc:mcdm.heroes.v1/rule.general/saving-throw) or to reroll a [test](scc:mcdm.heroes.v1/rule.test/test), roll a d10. On a 6 or higher, you gain the benefit but don't spend the [hero token](scc:mcdm.heroes.v1/rule.resource/hero-token).
-drawback: Whenever you obtain a tier 1 outcome on a [test](scc:mcdm.heroes.v1/rule.test/test) and don't spend a [hero token](scc:mcdm.heroes.v1/rule.resource/hero-token) to reroll, you take a [bane](scc:mcdm.heroes.v1/rule.dice/bane) on the next [test](scc:mcdm.heroes.v1/rule.test/test) you make.
+benefit: When you spend a [hero token](scc.v1:mcdm.heroes.v1/rule.resource/hero-token) to succeed on a [saving throw](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) or to reroll a [test](scc.v1:mcdm.heroes.v1/rule.test/test), roll a d10. On a 6 or higher, you gain the benefit but don't spend the [hero token](scc.v1:mcdm.heroes.v1/rule.resource/hero-token).
+drawback: Whenever you obtain a tier 1 outcome on a [test](scc.v1:mcdm.heroes.v1/rule.test/test) and don't spend a [hero token](scc.v1:mcdm.heroes.v1/rule.resource/hero-token) to reroll, you take a [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) on the next [test](scc.v1:mcdm.heroes.v1/rule.test/test) you make.
 flavor: You've always had a lucky streak. When you leave things in the hands of fate, you succeed more than you fail. But luck is fickle—and when you don't trust it, it deserts you.
 name: Lucky
 scc: mcdm.heroes.v1/complication/lucky
 type: complication
 ---
 
-You've always had a [lucky](scc:mcdm.heroes.v1/complication/lucky) streak. When you leave things in the hands of fate, you succeed more than you fail. But luck is fickle—and when you don't trust it, it deserts you.
+You've always had a [lucky](scc.v1:mcdm.heroes.v1/complication/lucky) streak. When you leave things in the hands of fate, you succeed more than you fail. But luck is fickle—and when you don't trust it, it deserts you.
 
-**Benefit:** When you spend a [hero token](scc:mcdm.heroes.v1/rule.resource/hero-token) to succeed on a [saving throw](scc:mcdm.heroes.v1/rule.general/saving-throw) or to reroll a [test](scc:mcdm.heroes.v1/rule.test/test), roll a d10. On a 6 or higher, you gain the benefit but don't spend the [hero token](scc:mcdm.heroes.v1/rule.resource/hero-token).
+**Benefit:** When you spend a [hero token](scc.v1:mcdm.heroes.v1/rule.resource/hero-token) to succeed on a [saving throw](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) or to reroll a [test](scc.v1:mcdm.heroes.v1/rule.test/test), roll a d10. On a 6 or higher, you gain the benefit but don't spend the [hero token](scc.v1:mcdm.heroes.v1/rule.resource/hero-token).
 
-**Drawback:** Whenever you obtain a tier 1 outcome on a [test](scc:mcdm.heroes.v1/rule.test/test) and don't spend a [hero token](scc:mcdm.heroes.v1/rule.resource/hero-token) to reroll, you take a [bane](scc:mcdm.heroes.v1/rule.dice/bane) on the next [test](scc:mcdm.heroes.v1/rule.test/test) you make.
+**Drawback:** Whenever you obtain a tier 1 outcome on a [test](scc.v1:mcdm.heroes.v1/rule.test/test) and don't spend a [hero token](scc.v1:mcdm.heroes.v1/rule.resource/hero-token) to reroll, you take a [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) on the next [test](scc.v1:mcdm.heroes.v1/rule.test/test) you make.

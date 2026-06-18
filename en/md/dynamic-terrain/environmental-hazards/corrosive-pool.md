@@ -17,9 +17,9 @@ features:
       power_roll:
         formula: + 2
         tiers:
-            high: 9 fire damage; M < 3 the target is burning ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
-            low: 3 fire damage; M < 1 the target is burning ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
-            mid: 6 fire damage; M < 2 the target is burning ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
+            high: 9 fire damage; M < 3 the target is burning ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
+            low: 3 fire damage; M < 1 the target is burning ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
+            mid: 6 fire damage; M < 2 the target is burning ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
       sections:
         - label: Trigger
           text: The pool takes fire damage.
@@ -41,7 +41,7 @@ stats:
     - name: Stamina
       value: 12 per square
     - name: Size
-      value: One or more squares of [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain)
+      value: One or more squares of [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain)
     - name: Immunity
       value: 20 to all damage except cold or fire damage
 terrain_type: Hazard
@@ -52,7 +52,7 @@ This shallow pool bubbles with acid or some other corrosive liquid.
 
 - **EV:** 3 per 10 x 10 pool
 - **Stamina:** 12 per square
-- **Size:** One or more squares of [difficult terrain](scc:mcdm.heroes.v1/movement/difficult-terrain)
+- **Size:** One or more squares of [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain)
 - **Immunity:** 20 to all damage except cold or fire damage
 
 > 🌀 **Deactivate**
@@ -75,9 +75,9 @@ This shallow pool bubbles with acid or some other corrosive liquid.
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 3 fire damage; M < 1 the target is burning ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
-> - **12-16:** 6 fire damage; M < 2 the target is burning ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
-> - **17+:** 9 fire damage; M < 3 the target is burning ([save](scc:mcdm.heroes.v1/rule.general/saving-throw) ends)
+> - **≤11:** 3 fire damage; M < 1 the target is burning ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
+> - **12-16:** 6 fire damage; M < 2 the target is burning ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
+> - **17+:** 9 fire damage; M < 3 the target is burning ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
 >
 > **Effect:** The liquid in the pool is consumed. This ability has a double edge against any target in the pool. A burning creature takes 1d6 fire damage at the start of each of their turns. A burning object takes 1d6 fire damage at the end of each round. Any target with acid weakness takes extra damage from this ability and while burning as if the fire damage were acid damage.
 

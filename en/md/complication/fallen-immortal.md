@@ -1,6 +1,6 @@
 ---
-benefit: You have the Religion skill (from the [lore skill group](scc:mcdm.heroes.v1/skill.group/lore)). Additionally, whenever you use an ability that deals untyped damage, that ability can deal holy damage instead.
-drawback: You will never fully gain a mortal's comfort with untruth. Any [test](scc:mcdm.heroes.v1/rule.test/test) you make to deceive another creature takes a [bane](scc:mcdm.heroes.v1/rule.dice/bane).
+benefit: You have the Religion skill (from the [lore skill group](scc.v1:mcdm.heroes.v1/skill.group/lore)). Additionally, whenever you use an ability that deals untyped damage, that ability can deal holy damage instead.
+drawback: You will never fully gain a mortal's comfort with untruth. Any [test](scc.v1:mcdm.heroes.v1/rule.test/test) you make to deceive another creature takes a [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane).
 flavor: You used to be an immortal creature, dispensing justice and doing the bidding of the gods. Now, whether as punishment or reward, you have been ordered to set your true nature aside and become a mortal. Your remaining years will be short, but living alongside your fellow mortals gives your life new meaning.
 name: Fallen Immortal
 scc: mcdm.heroes.v1/complication/fallen-immortal
@@ -9,6 +9,6 @@ type: complication
 
 You used to be an immortal creature, dispensing justice and doing the bidding of the gods. Now, whether as punishment or reward, you have been ordered to set your true nature aside and become a mortal. Your remaining years will be short, but living alongside your fellow mortals gives your life new meaning.
 
-**Benefit:** You have the Religion skill (from the [lore skill group](scc:mcdm.heroes.v1/skill.group/lore)). Additionally, whenever you use an ability that deals untyped damage, that ability can deal holy damage instead.
+**Benefit:** You have the Religion skill (from the [lore skill group](scc.v1:mcdm.heroes.v1/skill.group/lore)). Additionally, whenever you use an ability that deals untyped damage, that ability can deal holy damage instead.
 
-**Drawback:** You will never fully gain a mortal's comfort with untruth. Any [test](scc:mcdm.heroes.v1/rule.test/test) you make to deceive another creature takes a [bane](scc:mcdm.heroes.v1/rule.dice/bane).
+**Drawback:** You will never fully gain a mortal's comfort with untruth. Any [test](scc.v1:mcdm.heroes.v1/rule.test/test) you make to deceive another creature takes a [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane).

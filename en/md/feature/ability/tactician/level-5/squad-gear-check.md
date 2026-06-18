@@ -2,16 +2,16 @@
 action_type: Main action
 class: tactician
 cost: 9 Focus
-distance: '[Melee](scc:mcdm.heroes.v1/rule.combat/melee) 1'
-effect: You and each ally [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the target gain 10 [temporary Stamina](scc:mcdm.heroes.v1/rule.health/temporary-stamina).
+distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
+effect: You and each ally [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the target gain 10 [temporary Stamina](scc.v1:mcdm.heroes.v1/rule.health/temporary-stamina).
 flavor: You distract a foe while your allies secure their defensive gear.
 keywords:
-    - '[Melee](scc:mcdm.heroes.v1/rule.combat/melee)'
-    - '[Strike](scc:mcdm.heroes.v1/rule.combat/strike)'
+    - '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)'
+    - '[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)'
     - Weapon
 level: "5"
 name: Squad! Gear Check!
-power_roll_characteristic: '[Might](scc:mcdm.heroes.v1/rule.character/might)'
+power_roll_characteristic: '[Might](scc.v1:mcdm.heroes.v1/rule.character/might)'
 scc: mcdm.heroes.v1/feature.ability.tactician.level-5/squad-gear-check
 target: One creature
 tier1: 9 + M damage
@@ -23,14 +23,14 @@ type: ability
 
 *You distract a foe while your allies secure their defensive gear.*
 
-| **[Melee](scc:mcdm.heroes.v1/rule.combat/melee), [Strike](scc:mcdm.heroes.v1/rule.combat/strike), Weapon** | **Main action**     |
+| **[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), Weapon** | **Main action**     |
 |---------------------------|---------------------|
-| **📏 [Melee](scc:mcdm.heroes.v1/rule.combat/melee) 1**            | **🎯 One creature** |
+| **📏 [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1**            | **🎯 One creature** |
 
-**[Power Roll](scc:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc:mcdm.heroes.v1/rule.character/might):**
+**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc.v1:mcdm.heroes.v1/rule.character/might):**
 
 - **≤11:** 9 + M damage
 - **12-16:** 13 + M damage
 - **17+:** 18 + M damage
 
-**Effect:** You and each ally [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to the target gain 10 [temporary Stamina](scc:mcdm.heroes.v1/rule.health/temporary-stamina).
+**Effect:** You and each ally [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the target gain 10 [temporary Stamina](scc.v1:mcdm.heroes.v1/rule.health/temporary-stamina).

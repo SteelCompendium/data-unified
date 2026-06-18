@@ -35,21 +35,21 @@ type: statblock
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 6 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 1
-> - **12-16:** 9 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 3
-> - **17+:** 12 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 5
+> - **≤11:** 6 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1
+> - **12-16:** 9 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3
+> - **17+:** 12 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5
 >
-> **Effect:** If the target is [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) to an object or a wall after the power roll is resolved, they are [restrained](scc:mcdm.heroes.v1/condition/restrained) until the end of their next turn. A target [restrained](scc:mcdm.heroes.v1/condition/restrained) by a dwarf can be force moved by this ability. This forced movement doesn't end the [restrained](scc:mcdm.heroes.v1/condition/restrained) condition unless the Director determines otherwise.
+> **Effect:** If the target is [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to an object or a wall after the power roll is resolved, they are [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) until the end of their next turn. A target [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) by a dwarf can be force moved by this ability. This forced movement doesn't end the [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) condition unless the Director determines otherwise.
 >
-> **5 [Malice](scc:mcdm.monsters.v1/rule.monster/malice):** If the target is pushed into another creature, the target and the creature are each [restrained](scc:mcdm.heroes.v1/condition/restrained) until the end of their next turn.
+> **5 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice):** If the target is pushed into another creature, the target and the creature are each [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) until the end of their next turn.
 
-> 🏹 **Ensnaring Chains (5 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
+> 🏹 **Ensnaring Chains (5 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Ranged, Weapon** |                                     **Maneuver** |
 > |--------------------|-------------------------------------------------:|
-> | **📏 Ranged 10**   | **🎯 One [prone](scc:mcdm.heroes.v1/condition/prone), [restrained](scc:mcdm.heroes.v1/condition/restrained), or [slowed](scc:mcdm.heroes.v1/condition/slowed) creature** |
+> | **📏 Ranged 10**   | **🎯 One [prone](scc.v1:mcdm.heroes.v1/condition/prone), [restrained](scc.v1:mcdm.heroes.v1/condition/restrained), or [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) creature** |
 >
-> **Effect:** The gunner makes a [free strike](scc:mcdm.heroes.v1/feature.common.main-actions/free-strike) against the target, and the [prone](scc:mcdm.heroes.v1/condition/prone), [restrained](scc:mcdm.heroes.v1/condition/restrained), and [slowed](scc:mcdm.heroes.v1/condition/slowed) conditions on the target end. The target is then [restrained](scc:mcdm.heroes.v1/condition/restrained) (save ends).
+> **Effect:** The gunner makes a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against the target, and the [prone](scc.v1:mcdm.heroes.v1/condition/prone), [restrained](scc.v1:mcdm.heroes.v1/condition/restrained), and [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) conditions on the target end. The target is then [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends).
 
 > ⭐️ **Split Shot**
 >

@@ -4,7 +4,7 @@ scc: mcdm.monsters.v1/rule.monster/keyword
 type: rule
 ---
 
-Each stat block has one or more creature [keywords](scc:mcdm.monsters.v1/rule.monster/keyword). These keywords don't necessarily mean anything on their own, but special rules might apply to them. For instance, a creature with the Goblin keyword benefits from and can contribute to goblin [Malice](scc:mcdm.monsters.v1/rule.monster/malice) features. (See Malice later in this introduction for information.)
+Each stat block has one or more creature [keywords](scc.v1:mcdm.monsters.v1/rule.monster/keyword). These keywords don't necessarily mean anything on their own, but special rules might apply to them. For instance, a creature with the Goblin keyword benefits from and can contribute to goblin [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice) features. (See Malice later in this introduction for information.)
 
 ##### General Keywords
 

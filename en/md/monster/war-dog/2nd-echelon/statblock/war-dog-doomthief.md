@@ -28,7 +28,7 @@ type: statblock
 |      **-**<br>Immunity      | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |       **+3**<br>Might       | **-1**<br>Agility |  **0**<br>Reason  |  **+3**<br>Intuition  |  **+1**<br>Presence  |
 
-> 🔳 **Ripper Shrikegun ([Signature Ability](scc:mcdm.heroes.v1/rule.combat/signature-ability))**
+> 🔳 **Ripper Shrikegun ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
 > | **Area, Weapon**            |               **Main action** |
 > |-----------------------------|------------------------------:|
@@ -36,9 +36,9 @@ type: statblock
 >
 > **Power Roll + 3:**
 >
-> - **≤11:** 3 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 1
-> - **12-16:** 5 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 3
-> - **17+:** 6 damage; [push](scc:mcdm.heroes.v1/movement/forced-movement) 5; A < 3 [slowed](scc:mcdm.heroes.v1/condition/slowed) (save ends)
+> - **≤11:** 3 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1
+> - **12-16:** 5 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3
+> - **17+:** 6 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5; A < 3 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
 >
 > **Effect:** The doomthief can't willingly move on the same turn they use this ability.
 
@@ -46,7 +46,7 @@ type: statblock
 >
 > The doomthief emits a 3 aura of warped fate that blocks line of effect for any enemy ability that doesn't include them as a target.
 
-> 👤 **Expanding Doom (4 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
+> 👤 **Expanding Doom (4 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **-**       | **Maneuver** |
 > |-------------|-------------:|
@@ -56,4 +56,4 @@ type: statblock
 
 > ⭐️ **Loyalty Collar**
 >
-> When the doomthief is reduced to 0 [Stamina](scc:mcdm.heroes.v1/rule.health/stamina), their loyalty collar explodes, dealing 2d6 damage to each [adjacent](scc:mcdm.heroes.v1/rule.combat/adjacent) enemy and object.
+> When the doomthief is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), their loyalty collar explodes, dealing 2d6 damage to each [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) enemy and object.

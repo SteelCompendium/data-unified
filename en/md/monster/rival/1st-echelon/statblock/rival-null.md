@@ -27,7 +27,7 @@ type: statblock
 | **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
 |  **0**<br>Might   | **+2**<br>Agility | **+1**<br>Reason  |  **+2**<br>Intuition  |  **0**<br>Presence   |
 
-> 🗡 **Nimble Step ([Signature Ability](scc:mcdm.heroes.v1/rule.combat/signature-ability))**
+> 🗡 **Nimble Step ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
 > | **Melee, Strike, Weapon** |                 **Main action** |
 > |---------------------------|--------------------------------:|
@@ -35,11 +35,11 @@ type: statblock
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 7 damage; the null [shifts](scc:mcdm.heroes.v1/movement/shifting) up to 2 squares
-> - **12-16:** 10 damage; the null [shifts](scc:mcdm.heroes.v1/movement/shifting) up to 3 squares
-> - **17+:** 13 damage; the null [shifts](scc:mcdm.heroes.v1/movement/shifting) up to 4 squares
+> - **≤11:** 7 damage; the null [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to 2 squares
+> - **12-16:** 10 damage; the null [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to 3 squares
+> - **17+:** 13 damage; the null [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to 4 squares
 
-> 🗡 **Numb (2 [Malice](scc:mcdm.monsters.v1/rule.monster/malice))**
+> 🗡 **Numb (2 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
 > | **Melee, Psionic, Strike, Weapon** |                  **Maneuver** |
 > |------------------------------------|------------------------------:|
@@ -47,14 +47,14 @@ type: statblock
 >
 > **Power Roll + 2:**
 >
-> - **≤11:** 7 damage; R < 0 [slowed](scc:mcdm.heroes.v1/condition/slowed) (EoT)
-> - **12-16:** 10 damage; R < 1 [slowed](scc:mcdm.heroes.v1/condition/slowed) (EoT)
-> - **17+:** 13 damage; R < 2 [dazed](scc:mcdm.heroes.v1/condition/dazed) and [slowed](scc:mcdm.heroes.v1/condition/slowed) (EoT)
+> - **≤11:** 7 damage; R < 0 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (EoT)
+> - **12-16:** 10 damage; R < 1 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (EoT)
+> - **17+:** 13 damage; R < 2 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) and [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (EoT)
 
 > ⭐️ **Inertial Shield**
 >
-> The first time each round that the null is targeted by a damage-dealing [strike](scc:mcdm.heroes.v1/rule.combat/strike), they halve the damage.
+> The first time each round that the null is targeted by a damage-dealing [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), they halve the damage.
 
 > ⭐️ **Rivalry**
 >
-> At the start of an encounter, the null chooses one creature within their [line of effect](scc:mcdm.heroes.v1/rule.combat/line-of-effect). Both the null and the creature can add a d3 roll to power rolls they make against each other.
+> At the start of an encounter, the null chooses one creature within their [line of effect](scc.v1:mcdm.heroes.v1/rule.combat/line-of-effect). Both the null and the creature can add a d3 roll to power rolls they make against each other.
