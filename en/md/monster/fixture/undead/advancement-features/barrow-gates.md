@@ -19,16 +19,19 @@ type: featureblock
 
 > **Level 5 Fixture Advancement Feature**
 >
+<!-- @type: feature | @id: memento-mori | @level: 5 -->
 > ⭐️ **Memento Mori**
 >
 > You gain a [surge](scc.v1:mcdm.heroes.v1/rule.resource/surge) the first time in a [round](scc.v1:mcdm.heroes.v1/rule.combat/combat-round) one of your undead [minions](scc.v1:mcdm.summoner.v1/feature.summoner.level-1/minions) unwillingly dies while you have [line of effect](scc.v1:mcdm.heroes.v1/rule.combat/line-of-effect) to the gates. You can choose to give the [surge](scc.v1:mcdm.heroes.v1/rule.resource/surge) to an ally who also has [line of effect](scc.v1:mcdm.heroes.v1/rule.combat/line-of-effect) to the gates.
 
 > **Level 9 Fixture Advancement Feature**
 >
+<!-- @type: feature | @id: size-increase | @level: 9 -->
 > ⭐️ **Size Increase**
 >
 > The gates are now size 3.
 >
+<!-- @type: feature | @id: open-the-gates | @level: 9 -->
 > ⭐️ **Open the Gates**
 >
 > You can use [Rise!](scc.v1:mcdm.summoner.v1/feature.summoner.level-1/rise) as a [free triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action) each time an enemy dies within 3 squares of the gates while you have [line of effect](scc.v1:mcdm.heroes.v1/rule.combat/line-of-effect) to the gates.

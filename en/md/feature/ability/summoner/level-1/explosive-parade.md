@@ -3,6 +3,7 @@ action_type: Main action
 class: summoner
 distance: Summoner's Range
 effect: The [minions](scc.v1:mcdm.summoner.v1/feature.summoner.level-1/minions) are summoned within distance regardless of your minion maximum and without organizing them into squads. Each newly summoned [minion](scc.v1:mcdm.summoner.v1/feature.summoner.level-1/minions) immediately moves up to their [speed](scc.v1:mcdm.heroes.v1/rule.character/speed) toward a creature or object.
+feature_source: summoner
 flavor: Your minions swell with energy until they can no longer exist in this realm.
 keywords:
     - Magic

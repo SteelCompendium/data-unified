@@ -15,44 +15,4 @@ The Beastheart is an example of a master class in *Draw Steel*. Master classes a
 
 If you're new to *Draw Steel*, we recommend checking out *[The Delian Tomb](https://shop.mcdmproductions.com/products/the-delian-tomb-pdf)* starter adventure, which includes a step-by-step tutorial on how to play the game and breaks down all the working parts of a hero. Save Broadhurst first, then hurry back here!
 
-### 1st-Level Features
-
-As a 1st-level beastheart, you gain the following features.
-
 ### Companion Stat Blocks
-
-### 2nd-Level Features
-
-As a 2nd-level beastheart, you gain the following features.
-
-### 3rd-Level Features
-
-As a 3rd-level beastheart, you gain the following features.
-
-### 4th-Level Features
-
-As a 4th-level beastheart, you gain the following features.
-
-### 5th-Level Features
-
-As a 5th-level beastheart, you gain the following features.
-
-### 6th-Level Features
-
-As a 6th-level beastheart, you gain the following features.
-
-### 7th-Level Features
-
-As a 7th-level beastheart, you gain the following features.
-
-### 8th-Level Features
-
-As an 8th-level beastheart, you gain the following features.
-
-### 9th-Level Features
-
-As a 9th-level beastheart, you gain the following features.
-
-### 10th-Level Features
-
-As a 10th-level beastheart, you gain the following features.

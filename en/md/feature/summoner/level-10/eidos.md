@@ -1,5 +1,6 @@
 ---
 class: summoner
+feature_source: summoner
 level: "10"
 name: Eidos
 scc: mcdm.summoner.v1/feature.summoner.level-10/eidos

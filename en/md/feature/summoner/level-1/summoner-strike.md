@@ -1,5 +1,6 @@
 ---
 class: summoner
+feature_source: summoner
 level: "1"
 name: Summoner Strike
 scc: mcdm.summoner.v1/feature.summoner.level-1/summoner-strike

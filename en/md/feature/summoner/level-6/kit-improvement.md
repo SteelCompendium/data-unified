@@ -1,5 +1,6 @@
 ---
 class: summoner
+feature_source: summoner
 level: "6"
 name: Kit Improvement
 scc: mcdm.summoner.v1/feature.summoner.level-6/kit-improvement

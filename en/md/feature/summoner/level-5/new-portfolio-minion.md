@@ -1,5 +1,6 @@
 ---
 class: summoner
+feature_source: circle
 level: "5"
 name: New Portfolio Minion
 scc: mcdm.summoner.v1/feature.summoner.level-5/new-portfolio-minion

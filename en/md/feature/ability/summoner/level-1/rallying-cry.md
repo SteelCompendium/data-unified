@@ -3,6 +3,7 @@ action_type: Maneuver
 class: summoner
 distance: 3 burst
 effect: Each target chooses between gaining 2 [surges](scc.v1:mcdm.heroes.v1/rule.resource/surge) or dealing additional [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage) equal to your [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) on their next [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike).
+feature_source: summoner
 flavor: '"Show them what you''re made of!"'
 keywords:
     - Magic

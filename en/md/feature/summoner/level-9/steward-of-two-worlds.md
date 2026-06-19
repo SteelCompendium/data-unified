@@ -1,5 +1,6 @@
 ---
 class: summoner
+feature_source: summoner
 level: "9"
 name: Steward of Two Worlds
 scc: mcdm.summoner.v1/feature.summoner.level-9/steward-of-two-worlds

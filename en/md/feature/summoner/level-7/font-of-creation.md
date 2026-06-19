@@ -1,5 +1,6 @@
 ---
 class: summoner
+feature_source: summoner
 level: "7"
 name: Font of Creation
 scc: mcdm.summoner.v1/feature.summoner.level-7/font-of-creation

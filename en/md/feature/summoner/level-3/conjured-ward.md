@@ -1,5 +1,6 @@
 ---
 class: summoner
+feature_source: summoner
 level: "3"
 name: Conjured Ward
 scc: mcdm.summoner.v1/feature.summoner.level-3/conjured-ward

@@ -1,5 +1,6 @@
 ---
 class: summoner
+feature_source: circle
 level: "5"
 name: Shaping
 scc: mcdm.summoner.v1/feature.summoner.level-5/shaping

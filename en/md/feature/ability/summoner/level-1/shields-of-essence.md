@@ -3,6 +3,7 @@ action_type: Maneuver
 class: summoner
 distance: Summoner's Range
 effect: Until the end of the encounter, each target can use a [free triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action) whenever they take [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage) to reduce the incoming [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage) by half and then lose this effect.
+feature_source: summoner
 flavor: You call forth protective forces to keep you all from harm.
 keywords:
     - Magic

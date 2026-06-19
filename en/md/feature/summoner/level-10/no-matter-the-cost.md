@@ -1,5 +1,6 @@
 ---
 class: summoner
+feature_source: summoner
 level: "10"
 name: No Matter the Cost
 scc: mcdm.summoner.v1/feature.summoner.level-10/no-matter-the-cost

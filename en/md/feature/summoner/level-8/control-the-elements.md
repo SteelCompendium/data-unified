@@ -1,5 +1,6 @@
 ---
 class: summoner
+feature_source: summoner
 level: "8"
 name: Control the Elements
 scc: mcdm.summoner.v1/feature.summoner.level-8/control-the-elements

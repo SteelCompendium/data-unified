@@ -1,5 +1,6 @@
 ---
 class: summoner
+feature_source: circle
 level: "8"
 name: 8th-Level Circle Feature
 scc: mcdm.summoner.v1/feature.summoner.level-8/8th-level-circle-feature

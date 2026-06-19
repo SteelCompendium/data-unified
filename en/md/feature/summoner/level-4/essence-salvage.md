@@ -1,5 +1,6 @@
 ---
 class: summoner
+feature_source: summoner
 level: "4"
 name: Essence Salvage
 scc: mcdm.summoner.v1/feature.summoner.level-4/essence-salvage

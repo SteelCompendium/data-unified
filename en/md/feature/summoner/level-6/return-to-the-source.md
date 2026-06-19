@@ -1,5 +1,6 @@
 ---
 class: summoner
+feature_source: circle
 level: "6"
 name: Return to the Source
 scc: mcdm.summoner.v1/feature.summoner.level-6/return-to-the-source

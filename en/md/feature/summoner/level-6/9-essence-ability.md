@@ -1,5 +1,6 @@
 ---
 class: summoner
+feature_source: summoner
 level: "6"
 name: 9-Essence Ability
 scc: mcdm.summoner.v1/feature.summoner.level-6/9-essence-ability

@@ -1,5 +1,6 @@
 ---
 class: summoner
+feature_source: circle
 level: "1"
 name: Soulsense
 scc: mcdm.summoner.v1/feature.summoner.level-1/soulsense

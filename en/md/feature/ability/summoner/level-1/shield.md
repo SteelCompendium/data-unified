@@ -3,6 +3,7 @@ action_type: Triggered
 class: summoner
 distance: Summoner's Range
 effect: If one of your minions is [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the target and is within [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance) of the strike, they become the new target of the strike.
+feature_source: summoner
 flavor: You call upon a minion to use their body to dampen the blow.
 keywords:
     - —

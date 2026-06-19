@@ -1,5 +1,6 @@
 ---
 class: summoner
+feature_source: summoner
 level: "8"
 name: Kill the Pain
 scc: mcdm.summoner.v1/feature.summoner.level-8/kill-the-pain

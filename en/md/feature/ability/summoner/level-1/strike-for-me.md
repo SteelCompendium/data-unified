@@ -3,6 +3,7 @@ action_type: Free triggered
 class: summoner
 distance: Summoner's Range
 effect: Your minions act in place of you making a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) or using a [signature ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability). If you were granted the [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action) against a specific target, your minions must strike the same target. If the [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action) granted you a [signature ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability), you have an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on the [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll).
+feature_source: summoner
 flavor: Your minions fight in your stead.
 keywords:
     - Magic

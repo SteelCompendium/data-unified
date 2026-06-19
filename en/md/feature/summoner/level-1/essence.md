@@ -1,5 +1,6 @@
 ---
 class: summoner
+feature_source: summoner
 level: "1"
 name: Essence
 scc: mcdm.summoner.v1/feature.summoner.level-1/essence

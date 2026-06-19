@@ -1,5 +1,6 @@
 ---
 class: summoner
+feature_source: circle
 level: "1"
 name: Death Snap
 scc: mcdm.summoner.v1/feature.summoner.level-1/death-snap

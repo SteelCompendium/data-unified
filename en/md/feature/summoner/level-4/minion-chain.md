@@ -1,5 +1,6 @@
 ---
 class: summoner
+feature_source: summoner
 level: "4"
 name: Minion Chain
 scc: mcdm.summoner.v1/feature.summoner.level-4/minion-chain

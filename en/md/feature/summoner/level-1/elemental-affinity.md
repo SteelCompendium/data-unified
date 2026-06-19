@@ -1,5 +1,6 @@
 ---
 class: summoner
+feature_source: circle
 level: "1"
 name: Elemental Affinity
 scc: mcdm.summoner.v1/feature.summoner.level-1/elemental-affinity

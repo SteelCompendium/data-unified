@@ -1,5 +1,6 @@
 ---
 class: summoner
+feature_source: circle
 level: "5"
 name: Pixie Lift
 scc: mcdm.summoner.v1/feature.summoner.level-5/pixie-lift

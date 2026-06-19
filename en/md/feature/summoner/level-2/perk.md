@@ -1,5 +1,6 @@
 ---
 class: summoner
+feature_source: summoner
 level: "2"
 name: Perk
 scc: mcdm.summoner.v1/feature.summoner.level-2/perk

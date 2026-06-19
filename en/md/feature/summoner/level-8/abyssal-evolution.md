@@ -1,5 +1,6 @@
 ---
 class: summoner
+feature_source: summoner
 level: "8"
 name: Abyssal Evolution
 scc: mcdm.summoner.v1/feature.summoner.level-8/abyssal-evolution

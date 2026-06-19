@@ -1,5 +1,6 @@
 ---
 class: summoner
+feature_source: circle
 level: "8"
 name: Portfolio Champion
 scc: mcdm.summoner.v1/feature.summoner.level-8/portfolio-champion
