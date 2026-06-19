@@ -1,0 +1,83 @@
+---
+features:
+    - distance: Melee 1
+      icon: ❗️
+      keywords:
+        - Melee
+      level: 4
+      name: Horn Toss
+      sections:
+        - label: Trigger
+          text: The gorer damages a creature within distance using Gore.
+        - label: Effect
+          text: The target is pushed up to 3 squares. If the target has [stability](scc.v1:mcdm.heroes.v1/rule.character/stability) 0, they are also knocked [prone](scc.v1:mcdm.heroes.v1/condition/prone).
+      target: The triggering creature
+      usage: Free triggered action
+    - cost: Encounter
+      distance: Self
+      icon: "\U0001F464"
+      keywords:
+        - '-'
+      level: 7
+      name: Triumphant Bay
+      sections:
+        - label: Effect
+          text: The gorer gains 3 [surges](scc.v1:mcdm.heroes.v1/rule.resource/surge), and until the start of the gorer's next turn, [strikes](scc.v1:mcdm.heroes.v1/rule.combat/strike) made against them and their mentor take a bane.
+      target: Self
+      usage: Maneuver
+    - cost: Encounter
+      distance: 1 burst
+      icon: ❇️
+      keywords:
+        - Area
+        - Weapon
+      level: 10
+      name: Horn Rake
+      power_roll:
+        formula: + highest characteristic
+        tiers:
+            high: 21 damage; M < STRONG [prone](scc.v1:mcdm.heroes.v1/condition/prone) and can't stand ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends).
+            low: 11 damage; M < WEAK [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
+            mid: 16 damage; M < AVERAGE [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
+      target: Each enemy in the area
+      usage: Main action
+name: Minotaur Gorer Advancement Features
+scc: mcdm.monsters.v1/monster.retainer.advancement-features/minotaur-gorer
+type: featureblock
+---
+
+> **Level 4 Retainer Advancement Ability**
+
+> ❗️ **Horn Toss**
+>
+> | **Melee**      |      **Free triggered action** |
+> |----------------|-------------------------------:|
+> | **📏 Melee 1** | **🎯 The triggering creature** |
+>
+> **Trigger:** The gorer damages a creature within distance using Gore.
+>
+> **Effect:** The target is pushed up to 3 squares. If the target has [stability](scc.v1:mcdm.heroes.v1/rule.character/stability) 0, they are also knocked [prone](scc.v1:mcdm.heroes.v1/condition/prone).
+
+> **Level 7 Retainer Advancement Ability**
+
+> 👤 **Triumphant Bay (Encounter)**
+>
+> | **-**       | **Maneuver** |
+> |-------------|-------------:|
+> | **📏 Self** |  **🎯 Self** |
+>
+> **Effect:** The gorer gains 3 [surges](scc.v1:mcdm.heroes.v1/rule.resource/surge), and until the start of the gorer's next turn, [strikes](scc.v1:mcdm.heroes.v1/rule.combat/strike) made against them and their mentor take a bane.
+
+> **Level 10 Retainer Advancement Ability**
+
+> ❇️ **Horn Rake (Encounter)**
+>
+> | **Area, Weapon** |               **Main action** |
+> |------------------|------------------------------:|
+> | **📏 1 burst**   | **🎯 Each enemy in the area** |
+>
+> **Power Roll + highest characteristic:**
+>
+> - **≤11:** 11 damage; M < WEAK [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
+> - **12-16:** 16 damage; M < AVERAGE [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
+> - **17+:** 21 damage; M < STRONG [prone](scc.v1:mcdm.heroes.v1/condition/prone) and can't stand ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends).
