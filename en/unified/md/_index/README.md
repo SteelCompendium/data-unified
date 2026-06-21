@@ -11,7 +11,7 @@
 - [Dynamic-terrain](dynamic-terrain.md) (35 items)
 - [Feature](feature.md) (874 items)
 - [Feature-group](feature-group.md) (14 items)
-- [Featureblock](featureblock.md) (116 items)
+- [Featureblock](featureblock.md) (117 items)
 - [God](god.md) (11 items)
 - [Kit](kit.md) (25 items)
 - [Monster](monster.md) (51 items)
@@ -28,4 +28,4 @@
 - [Trait](trait.md) (94 items)
 - [Treasure](treasure.md) (127 items)
 
-Total items: 3075
+Total items: 3076
