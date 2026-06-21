@@ -1,6 +1,5 @@
 ---
 ancestry: polder
-cost: 2 Points
 name: Fearless
 scc: mcdm.heroes.v1/feature.trait.polder/fearless
 type: trait

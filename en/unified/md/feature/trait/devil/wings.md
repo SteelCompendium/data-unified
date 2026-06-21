@@ -1,6 +1,5 @@
 ---
 ancestry: devil
-cost: 2 Points
 name: Wings
 scc: mcdm.heroes.v1/feature.trait.devil/wings
 type: trait

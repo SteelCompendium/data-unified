@@ -1,9 +1,6 @@
 ---
 action_type: feature
 ancestry: dwarf
-cost: 2 Points
-cost_amount: "2"
-cost_resource: Points
 feature_type: trait
 file_basename: great-fortitude
 file_dpath: feature/trait/dwarf
@@ -16,13 +13,11 @@ type: trait
 ---
 
 ```ds-feature
-cost: 2 Points
 effects:
     - effect: Your hearty constitution prevents you from losing strength. You can't be made [weakened](../../../condition/weakened.md).
 feature_type: trait
 metadata:
     ancestry: dwarf
-    cost: 2 Points
     name: Great Fortitude
     scc: mcdm.heroes.v1/feature.trait.dwarf/great-fortitude
     type: trait

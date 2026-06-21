@@ -11,7 +11,7 @@
 - [Dynamic-terrain](dynamic-terrain.md) (35 items)
 - [Feature](feature.md) (874 items)
 - [Feature-group](feature-group.md) (14 items)
-- [Featureblock](featureblock.md) (117 items)
+- [Featureblock](featureblock.md) (116 items)
 - [God](god.md) (11 items)
 - [Kit](kit.md) (25 items)
 - [Monster](monster.md) (51 items)
@@ -19,13 +19,13 @@
 - [Negotiation](negotiation.md) (12 items)
 - [Perk](perk.md) (55 items)
 - [Project](project.md) (16 items)
-- [Rule](rule.md) (151 items)
+- [Rule](rule.md) (150 items)
 - [Saint](saint.md) (28 items)
 - [Skill](skill.md) (57 items)
 - [Skill-group](skill-group.md) (5 items)
 - [Statblock](statblock.md) (512 items)
-- [Title](title.md) (66 items)
+- [Title](title.md) (67 items)
 - [Trait](trait.md) (94 items)
 - [Treasure](treasure.md) (127 items)
 
-Total items: 3076
+Total items: 3075

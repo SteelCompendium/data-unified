@@ -1,9 +1,6 @@
 ---
 action_type: feature
 ancestry: polder
-cost: 1 Point
-cost_amount: "1"
-cost_resource: Point
 feature_type: trait
 file_basename: reactive-tumble
 file_dpath: feature/trait/polder
@@ -16,13 +13,11 @@ type: trait
 ---
 
 ```ds-feature
-cost: 1 Point
 effects:
     - effect: Staying light on your feet lets you quickly get back into position. Whenever you are [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement), you can use a free [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action) to [shift](scc.v1:mcdm.heroes.v1/movement/shifting) 1 square after the [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) is resolved.
 feature_type: trait
 metadata:
     ancestry: polder
-    cost: 1 Point
     name: Reactive Tumble
     scc: mcdm.heroes.v1/feature.trait.polder/reactive-tumble
     type: trait

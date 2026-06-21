@@ -84,7 +84,7 @@ You call upon a number of [heroic abilities](../../../rule/general/heroic-abilit
 
 Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the following options, each of which costs 3 wrath to use. (*Quick Build:* [The Gods Punish and Defend](../../ability/censor/level-1/the-gods-punish-and-defend.md).)
 
-### Behold a Shield of Faith! {data-scc="mcdm.heroes.v1/feature.ability.censor.level-1/behold-a-shield-of-faith" data-cost="3 Wrath"}
+### Behold a Shield of Faith! {data-scc="mcdm.heroes.v1/feature.ability.censor.level-1/behold-a-shield-of-faith"}
 
 
 *A mighty blow [turns](../../../rule/combat/turn.md) your foe's vitality into a holy light that envelops you and an ally, discouraging enemies who might attack you.*
@@ -101,7 +101,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 **Effect:** Until the start of your next [turn](../../../rule/combat/turn.md), enemies take a [bane](../../../rule/dice/bane.md) on [ability rolls](../../../rule/dice/ability-roll.md) made against you or any ally [adjacent](../../../rule/combat/adjacent.md) to you.
 
-### Driving Assault {data-scc="mcdm.heroes.v1/feature.ability.censor.level-1/driving-assault" data-cost="3 Wrath"}
+### Driving Assault {data-scc="mcdm.heroes.v1/feature.ability.censor.level-1/driving-assault"}
 
 
 *As you force your enemy back with your weapon, you use your faith to stay close.*
@@ -118,7 +118,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 **Effect:** You can [shift](../../../movement/shifting.md) up to your [speed](../../../rule/character/speed.md) in a straight line toward the target after [pushing](../../../movement/forced-movement.md) them.
 
-### The Gods Punish and Defend {data-scc="mcdm.heroes.v1/feature.ability.censor.level-1/the-gods-punish-and-defend" data-cost="3 Wrath"}
+### The Gods Punish and Defend {data-scc="mcdm.heroes.v1/feature.ability.censor.level-1/the-gods-punish-and-defend"}
 
 
 *You channel holy energy to smite a foe and heal an ally.*
@@ -135,7 +135,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 **Effect:** You can spend a [Recovery](../../../rule/health/recoveries.md) to allow yourself or one ally within 10 squares to regain [Stamina](../../../rule/health/stamina.md) equal to your [recovery value](../../../rule/health/recoveries.md).
 
-### Repent! {data-scc="mcdm.heroes.v1/feature.ability.censor.level-1/repent" data-cost="3 Wrath"}
+### Repent! {data-scc="mcdm.heroes.v1/feature.ability.censor.level-1/repent"}
 
 
 *You conjure memories of their sins to harry your foes.*
@@ -154,7 +154,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the following options, each of which costs 5 wrath to use. (*Quick Build:* [Purifying Fire](../../ability/censor/level-1/purifying-fire.md).)
 
-### Arrest {data-scc="mcdm.heroes.v1/feature.ability.censor.level-1/arrest" data-cost="5 Wrath"}
+### Arrest {data-scc="mcdm.heroes.v1/feature.ability.censor.level-1/arrest"}
 
 
 *"I got you, you son of a bitch."*
@@ -171,7 +171,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 **Effect:** If the target makes a [strike](../../../rule/combat/strike.md) against a creature while [grabbed](../../../condition/grabbed.md) this way, you can spend 3 wrath to deal holy damage to them equal to your [Presence](../../../rule/character/presence.md) score, then change the target of the [strike](../../../rule/combat/strike.md) to another target within the [strike](../../../rule/combat/strike.md)'s [distance](../../../rule/combat/distance.md).
 
-### Behold the Face of Justice! {data-scc="mcdm.heroes.v1/feature.ability.censor.level-1/behold-the-face-of-justice" data-cost="5 Wrath"}
+### Behold the Face of Justice! {data-scc="mcdm.heroes.v1/feature.ability.censor.level-1/behold-the-face-of-justice"}
 
 
 *You attack a foe and your enemies behold a vision of the true nature of your resolve.*
@@ -188,7 +188,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 **Effect:** Each enemy [frightened](../../../condition/frightened.md) this way is [pushed](../../../movement/forced-movement.md) up to 2 squares away from the target and takes psychic damage equal to your [Presence](../../../rule/character/presence.md) score.
 
-### Censored {data-scc="mcdm.heroes.v1/feature.ability.censor.level-1/censored" data-cost="5 Wrath"}
+### Censored {data-scc="mcdm.heroes.v1/feature.ability.censor.level-1/censored"}
 
 
 *Judged and [sentenced](../../ability/censor/level-2/sentenced.md).*
@@ -205,7 +205,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 **Effect:** When a target who is not a leader or solo creature is made [winded](../../../rule/health/winded.md) by this ability, they are reduced to 0 [Stamina](../../../rule/health/stamina.md).
 
-### Purifying Fire {data-scc="mcdm.heroes.v1/feature.ability.censor.level-1/purifying-fire" data-cost="5 Wrath"}
+### Purifying Fire {data-scc="mcdm.heroes.v1/feature.ability.censor.level-1/purifying-fire"}
 
 
 *The gods judge, fire cleanses.*

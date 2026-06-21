@@ -350,7 +350,7 @@ You call upon a number of [heroic abilities](../rule/general/heroic-ability.md),
 
 Choose one [heroic ability](../rule/general/heroic-ability.md) from the following options, each of which costs 3 wrath to use. (*Quick Build:* [The Gods Punish and Defend](../feature/ability/censor/level-1/the-gods-punish-and-defend.md).)
 
-##### Behold a Shield of Faith! {data-scc="mcdm.heroes.v1/feature.ability.censor.level-1/behold-a-shield-of-faith" data-cost="3 Wrath"}
+##### Behold a Shield of Faith! {data-scc="mcdm.heroes.v1/feature.ability.censor.level-1/behold-a-shield-of-faith"}
 
 
 *A mighty blow [turns](../rule/combat/turn.md) your foe's vitality into a holy light that envelops you and an ally, discouraging enemies who might attack you.*
@@ -367,7 +367,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 **Effect:** Until the start of your next [turn](../rule/combat/turn.md), enemies take a [bane](../rule/dice/bane.md) on [ability rolls](../rule/dice/ability-roll.md) made against you or any ally [adjacent](../rule/combat/adjacent.md) to you.
 
-##### Driving Assault {data-scc="mcdm.heroes.v1/feature.ability.censor.level-1/driving-assault" data-cost="3 Wrath"}
+##### Driving Assault {data-scc="mcdm.heroes.v1/feature.ability.censor.level-1/driving-assault"}
 
 
 *As you force your enemy back with your weapon, you use your faith to stay close.*
@@ -384,7 +384,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 **Effect:** You can [shift](../movement/shifting.md) up to your [speed](../rule/character/speed.md) in a straight line toward the target after [pushing](../movement/forced-movement.md) them.
 
-##### The Gods Punish and Defend {data-scc="mcdm.heroes.v1/feature.ability.censor.level-1/the-gods-punish-and-defend" data-cost="3 Wrath"}
+##### The Gods Punish and Defend {data-scc="mcdm.heroes.v1/feature.ability.censor.level-1/the-gods-punish-and-defend"}
 
 
 *You channel holy energy to smite a foe and heal an ally.*
@@ -401,7 +401,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 **Effect:** You can spend a [Recovery](../rule/health/recoveries.md) to allow yourself or one ally within 10 squares to regain [Stamina](../rule/health/stamina.md) equal to your [recovery value](../rule/health/recoveries.md).
 
-##### Repent! {data-scc="mcdm.heroes.v1/feature.ability.censor.level-1/repent" data-cost="3 Wrath"}
+##### Repent! {data-scc="mcdm.heroes.v1/feature.ability.censor.level-1/repent"}
 
 
 *You conjure memories of their sins to harry your foes.*
@@ -420,7 +420,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 Choose one [heroic ability](../rule/general/heroic-ability.md) from the following options, each of which costs 5 wrath to use. (*Quick Build:* [Purifying Fire](../feature/ability/censor/level-1/purifying-fire.md).)
 
-##### Arrest {data-scc="mcdm.heroes.v1/feature.ability.censor.level-1/arrest" data-cost="5 Wrath"}
+##### Arrest {data-scc="mcdm.heroes.v1/feature.ability.censor.level-1/arrest"}
 
 
 *"I got you, you son of a bitch."*
@@ -437,7 +437,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 **Effect:** If the target makes a [strike](../rule/combat/strike.md) against a creature while [grabbed](../condition/grabbed.md) this way, you can spend 3 wrath to deal holy damage to them equal to your [Presence](../rule/character/presence.md) score, then change the target of the [strike](../rule/combat/strike.md) to another target within the [strike](../rule/combat/strike.md)'s [distance](../rule/combat/distance.md).
 
-##### Behold the Face of Justice! {data-scc="mcdm.heroes.v1/feature.ability.censor.level-1/behold-the-face-of-justice" data-cost="5 Wrath"}
+##### Behold the Face of Justice! {data-scc="mcdm.heroes.v1/feature.ability.censor.level-1/behold-the-face-of-justice"}
 
 
 *You attack a foe and your enemies behold a vision of the true nature of your resolve.*
@@ -454,7 +454,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 **Effect:** Each enemy [frightened](../condition/frightened.md) this way is [pushed](../movement/forced-movement.md) up to 2 squares away from the target and takes psychic damage equal to your [Presence](../rule/character/presence.md) score.
 
-##### Censored {data-scc="mcdm.heroes.v1/feature.ability.censor.level-1/censored" data-cost="5 Wrath"}
+##### Censored {data-scc="mcdm.heroes.v1/feature.ability.censor.level-1/censored"}
 
 
 *Judged and [sentenced](../feature/ability/censor/level-2/sentenced.md).*
@@ -471,7 +471,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 **Effect:** When a target who is not a leader or solo creature is made [winded](../rule/health/winded.md) by this ability, they are reduced to 0 [Stamina](../rule/health/stamina.md).
 
-##### Purifying Fire {data-scc="mcdm.heroes.v1/feature.ability.censor.level-1/purifying-fire" data-cost="5 Wrath"}
+##### Purifying Fire {data-scc="mcdm.heroes.v1/feature.ability.censor.level-1/purifying-fire"}
 
 
 *The gods judge, fire cleanses.*
@@ -540,7 +540,7 @@ Your [censor order](../feature/censor/level-1/censor-order.md) grants your choic
 
 Choose one of the following abilities.
 
-##### It Is Justice You Fear {data-scc="mcdm.heroes.v1/feature.ability.censor.level-2/it-is-justice-you-fear" data-cost="5 Wrath"}
+##### It Is Justice You Fear {data-scc="mcdm.heroes.v1/feature.ability.censor.level-2/it-is-justice-you-fear"}
 
 
 *I am but a vessel. Your own deeds weigh upon you.*
@@ -557,7 +557,7 @@ Choose one of the following abilities.
 
 **Effect:** If the target is already [frightened](../condition/frightened.md) of you or another creature and this ability would frighten them again, they instead take psychic damage equal to twice your [Presence](../rule/character/presence.md) score.
 
-##### Revelator {data-scc="mcdm.heroes.v1/feature.ability.censor.level-2/revelator" data-cost="5 Wrath"}
+##### Revelator {data-scc="mcdm.heroes.v1/feature.ability.censor.level-2/revelator"}
 
 
 *You channel holy energy to harm unbelievers and reveal those hidden from your [judgment](../feature/ability/censor/level-1/judgment.md).*
@@ -572,7 +572,7 @@ Choose one of the following abilities.
 
 Choose one of the following abilities.
 
-##### Prescient Grace {data-scc="mcdm.heroes.v1/feature.ability.censor.level-2/prescient-grace" data-cost="5 Wrath"}
+##### Prescient Grace {data-scc="mcdm.heroes.v1/feature.ability.censor.level-2/prescient-grace"}
 
 
 *Gifted by a prescient vision, you warn an ally of an impending attack.*
@@ -585,7 +585,7 @@ Choose one of the following abilities.
 
 **Effect:** You can spend a [Recovery](../rule/health/recoveries.md) to allow the target to regain [Stamina](../rule/health/stamina.md) equal to your [recovery value](../rule/health/recoveries.md). The target can then take their [turn](../rule/combat/turn.md) immediately before the triggering enemy.
 
-##### With My Blessing {data-scc="mcdm.heroes.v1/feature.ability.censor.level-2/with-my-blessing" data-cost="5 Wrath"}
+##### With My Blessing {data-scc="mcdm.heroes.v1/feature.ability.censor.level-2/with-my-blessing"}
 
 
 *A word in prayer, and the gods show the way.*
@@ -600,7 +600,7 @@ Choose one of the following abilities.
 
 Choose one of the following abilities.
 
-##### Blessing of the Faithful {data-scc="mcdm.heroes.v1/feature.ability.censor.level-2/blessing-of-the-faithful" data-cost="5 Wrath"}
+##### Blessing of the Faithful {data-scc="mcdm.heroes.v1/feature.ability.censor.level-2/blessing-of-the-faithful"}
 
 
 *The gods reward your faith.*
@@ -611,7 +611,7 @@ Choose one of the following abilities.
 
 **Effect:** Until the end of the encounter or until you are [dying](../rule/health/dying.md), each target gains 1 [surge](../rule/resource/surge.md) at the end of each of your [turns](../rule/combat/turn.md).
 
-##### Sentenced {data-scc="mcdm.heroes.v1/feature.ability.censor.level-2/sentenced" data-cost="5 Wrath"}
+##### Sentenced {data-scc="mcdm.heroes.v1/feature.ability.censor.level-2/sentenced"}
 
 
 *The shock of your condemnation freezes your enemy in their boots.*
@@ -640,7 +640,7 @@ Your [judgment](../feature/ability/censor/level-1/judgment.md) has grown in [div
 
 Choose one [heroic ability](../rule/general/heroic-ability.md) from the following options, each of which costs 7 wrath to use.
 
-#### Edict of Disruptive Isolation {data-scc="mcdm.heroes.v1/feature.ability.censor.level-3/edict-of-disruptive-isolation" data-cost="7 Wrath"}
+#### Edict of Disruptive Isolation {data-scc="mcdm.heroes.v1/feature.ability.censor.level-3/edict-of-disruptive-isolation"}
 
 
 *The evil within your foes detonates with holy fire that burns only the guilty.*
@@ -651,7 +651,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 **Effect:** Until the end of the encounter or until you are [dying](../rule/health/dying.md), each target takes holy damage equal to your [Presence](../rule/character/presence.md) score at the end of each of your [turns](../rule/combat/turn.md). A target takes an extra 2d6 holy damage if they are judged by you or if they are [adjacent](../rule/combat/adjacent.md) to any enemy.
 
-#### Edict of Perfect Order {data-scc="mcdm.heroes.v1/feature.ability.censor.level-3/edict-of-perfect-order" data-cost="7 Wrath"}
+#### Edict of Perfect Order {data-scc="mcdm.heroes.v1/feature.ability.censor.level-3/edict-of-perfect-order"}
 
 
 *Within the area of your divine presence, your enemies will regret using their fell abilities.*
@@ -662,7 +662,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 **Effect:** Until the end of the encounter or until you are [dying](../rule/health/dying.md), whenever a target uses an ability that costs Malice (see *Draw Steel: Monsters*), they take holy damage equal to three times your [Presence](../rule/character/presence.md) score. A target judged by you takes an extra 2d6 holy damage.
 
-#### Edict of Purifying Pacifism {data-scc="mcdm.heroes.v1/feature.ability.censor.level-3/edict-of-purifying-pacifism" data-cost="7 Wrath"}
+#### Edict of Purifying Pacifism {data-scc="mcdm.heroes.v1/feature.ability.censor.level-3/edict-of-purifying-pacifism"}
 
 
 *You shed a righteous energy that punishes enemies who would harm you or your allies.*
@@ -673,7 +673,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 **Effect:** Until the end of the encounter or until you are [dying](../rule/health/dying.md), whenever a target makes a [strike](../rule/combat/strike.md), they take holy damage equal to twice your [Presence](../rule/character/presence.md) score. A target judged by you takes an extra 2d6 holy damage.
 
-#### Edict of Stillness {data-scc="mcdm.heroes.v1/feature.ability.censor.level-3/edict-of-stillness" data-cost="7 Wrath"}
+#### Edict of Stillness {data-scc="mcdm.heroes.v1/feature.ability.censor.level-3/edict-of-stillness"}
 
 
 *The holy [aura](../rule/combat/aura.md) you project makes it painful for evil-doers to leave your reach.*
@@ -820,7 +820,7 @@ Your divine spark grows in power, allowing you and your allies to focus and endu
 
 Choose one [heroic ability](../rule/general/heroic-ability.md) from the following options, each of which costs 9 wrath to use.
 
-#### Gods Grant Thee Strength {data-scc="mcdm.heroes.v1/feature.ability.censor.level-5/gods-grant-thee-strength" data-cost="9 Wrath"}
+#### Gods Grant Thee Strength {data-scc="mcdm.heroes.v1/feature.ability.censor.level-5/gods-grant-thee-strength"}
 
 
 *You channel divine force for movement that cannot be stopped.*
@@ -831,7 +831,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 **Effect:** The target ends any [condition](../rule/combat/condition.md) or effect on them that is ended by a [saving throw](../rule/general/saving-throw.md) or that ends at the end of their [turn](../rule/combat/turn.md), or a [prone target](../condition/prone.md) can stand up. The target then gains 2 [surges](../rule/resource/surge.md), can [shift](../movement/shifting.md) up to their [speed](../rule/character/speed.md) while ignoring [difficult terrain](../movement/difficult-terrain.md), and can use a [strike](../rule/combat/strike.md) [signature ability](../rule/combat/signature-ability.md) as a free [triggered action](../rule/combat/triggered-action.md).
 
-#### Orison of Victory {data-scc="mcdm.heroes.v1/feature.ability.censor.level-5/orison-of-victory" data-cost="9 Wrath"}
+#### Orison of Victory {data-scc="mcdm.heroes.v1/feature.ability.censor.level-5/orison-of-victory"}
 
 
 *You channel your god's will to overcome hardship and inflict pain.*
@@ -848,7 +848,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 **Effect:** A target can end one effect on them that is ended by a [saving throw](../rule/general/saving-throw.md) or that ends at the end of their [turn](../rule/combat/turn.md), or a [prone target](../condition/prone.md) can stand up.
 
-#### Righteous Judgment {data-scc="mcdm.heroes.v1/feature.ability.censor.level-5/righteous-judgment" data-cost="9 Wrath"}
+#### Righteous Judgment {data-scc="mcdm.heroes.v1/feature.ability.censor.level-5/righteous-judgment"}
 
 
 *You amplify the power of your [judgment](../feature/ability/censor/level-1/judgment.md).*
@@ -865,7 +865,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 **Effect:** Until the end of the encounter, whenever any ally deals damage to a target judged by you, that ally gains 1 [surge](../rule/resource/surge.md).
 
-#### Shield of the Righteous {data-scc="mcdm.heroes.v1/feature.ability.censor.level-5/shield-of-the-righteous" data-cost="9 Wrath"}
+#### Shield of the Righteous {data-scc="mcdm.heroes.v1/feature.ability.censor.level-5/shield-of-the-righteous"}
 
 
 *You strike a foe and create a fleet of divine shields that protect your allies.*
@@ -905,7 +905,7 @@ Your [censor order](../feature/censor/level-1/censor-order.md) grants your choic
 
 Choose one of the following abilities.
 
-##### Begone! {data-scc="mcdm.heroes.v1/feature.ability.censor.level-6/begone" data-cost="9 Wrath"}
+##### Begone! {data-scc="mcdm.heroes.v1/feature.ability.censor.level-6/begone"}
 
 
 *You terrify your enemies into retreating, creating chaos in their ranks.*
@@ -920,7 +920,7 @@ Choose one of the following abilities.
 - **12-16:** 6 psychic damage; [slide](../movement/forced-movement.md) 5
 - **17+:** 8 psychic damage; [slide](../movement/forced-movement.md) 7
 
-##### Pain of Your Own Making {data-scc="mcdm.heroes.v1/feature.ability.censor.level-6/pain-of-your-own-making" data-cost="9 Wrath"}
+##### Pain of Your Own Making {data-scc="mcdm.heroes.v1/feature.ability.censor.level-6/pain-of-your-own-making"}
 
 
 *You reverse the effects from an evildoer.*
@@ -937,7 +937,7 @@ Choose one of the following abilities.
 
 Choose one of the following abilities.
 
-##### Burden of Evil {data-scc="mcdm.heroes.v1/feature.ability.censor.level-6/burden-of-evil" data-cost="9 Wrath"}
+##### Burden of Evil {data-scc="mcdm.heroes.v1/feature.ability.censor.level-6/burden-of-evil"}
 
 
 *You reveal a vision of your enemies' fate that causes them to scramble as it staggers them.*
@@ -952,7 +952,7 @@ Choose one of the following abilities.
 - **12-16:** [Slide](../movement/forced-movement.md) 5; I < AVERAGE, [dazed](../condition/dazed.md) (save ends)
 - **17+:** [Slide](../movement/forced-movement.md) 7; I < STRONG, [dazed](../condition/dazed.md) (save ends)
 
-##### Edict of Peace {data-scc="mcdm.heroes.v1/feature.ability.censor.level-6/edict-of-peace" data-cost="9 Wrath"}
+##### Edict of Peace {data-scc="mcdm.heroes.v1/feature.ability.censor.level-6/edict-of-peace"}
 
 
 *You anticipate your foes' moves and deny them.*
@@ -967,7 +967,7 @@ Choose one of the following abilities.
 
 Choose one of the following abilities.
 
-##### Congregation {data-scc="mcdm.heroes.v1/feature.ability.censor.level-6/congregation" data-cost="9 Wrath"}
+##### Congregation {data-scc="mcdm.heroes.v1/feature.ability.censor.level-6/congregation"}
 
 
 *You focus your allies' wrath on a chosen foe.*
@@ -984,7 +984,7 @@ Choose one of the following abilities.
 
 **Effect:** Each ally can [shift](../movement/shifting.md) up to 2 squares and gains 2 [surges](../rule/resource/surge.md) before making the [strike](../rule/combat/strike.md).
 
-##### Intercede {data-scc="mcdm.heroes.v1/feature.ability.censor.level-6/intercede" data-cost="9 Wrath"}
+##### Intercede {data-scc="mcdm.heroes.v1/feature.ability.censor.level-6/intercede"}
 
 
 *You take your ally's place.*
@@ -1081,7 +1081,7 @@ Lightning and thunder infuse your body. Whenever you use an ability to deal [rol
 
 You have the following ability.
 
-##### Trinity of Trickery {data-scc="mcdm.heroes.v1/feature.ability.censor.level-7/trinity-of-trickery" data-cost="9 Wrath"}
+##### Trinity of Trickery {data-scc="mcdm.heroes.v1/feature.ability.censor.level-7/trinity-of-trickery"}
 
 
 *Hey! I'm over here. No, here, numbskull.*
@@ -1150,7 +1150,7 @@ Your words take on the power of your deity, with all the authority that entails.
 
 Choose one [heroic ability](../rule/general/heroic-ability.md) from the following options, each of which costs 11 wrath to use.
 
-#### Excommunication {data-scc="mcdm.heroes.v1/feature.ability.censor.level-8/excommunication" data-cost="11 Wrath"}
+#### Excommunication {data-scc="mcdm.heroes.v1/feature.ability.censor.level-8/excommunication"}
 
 
 *You curse your foe to become a bane to their allies.*
@@ -1167,7 +1167,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 **Effect:** At the end of each of your [turns](../rule/combat/turn.md), a target [weakened](../condition/weakened.md) this way deals holy damage equal to twice your [Presence](../rule/character/presence.md) score to each enemy within 2 squares of them. Additionally, a target [weakened](../condition/weakened.md) this way can't be targeted by their allies' abilities.
 
-#### Hand of the Gods {data-scc="mcdm.heroes.v1/feature.ability.censor.level-8/hand-of-the-gods" data-cost="11 Wrath"}
+#### Hand of the Gods {data-scc="mcdm.heroes.v1/feature.ability.censor.level-8/hand-of-the-gods"}
 
 
 *You use your foe as a tool against your enemies.*
@@ -1184,7 +1184,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 **Effect:** Until the end of the encounter, while the target is judged by you, you can choose to make them the source of any of your abilities. Additionally, the target counts as an ally for the purpose of [flanking](../rule/combat/flanking.md).
 
-#### Pillar of Holy Fire {data-scc="mcdm.heroes.v1/feature.ability.censor.level-8/pillar-of-holy-fire" data-cost="11 Wrath"}
+#### Pillar of Holy Fire {data-scc="mcdm.heroes.v1/feature.ability.censor.level-8/pillar-of-holy-fire"}
 
 
 *Your enemy's guilt fuels a holy flame that burns your foes.*
@@ -1201,7 +1201,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 **Effect:** At the end of each of your [turns](../rule/combat/turn.md), a target [dazed](../condition/dazed.md) this way deals holy damage equal to twice your [Presence](../rule/character/presence.md) score to each enemy within 2 squares of them.
 
-#### Your Allies Turn on You! {data-scc="mcdm.heroes.v1/feature.ability.censor.level-8/your-allies-turn-on-you" data-cost="11 Wrath"}
+#### Your Allies Turn on You! {data-scc="mcdm.heroes.v1/feature.ability.censor.level-8/your-allies-turn-on-you"}
 
 
 *You [turn](../rule/combat/turn.md) your enemies' ire to the target.*
@@ -1238,7 +1238,7 @@ Your [censor order](../feature/censor/level-1/censor-order.md) grants your choic
 
 Choose one of the following abilities.
 
-##### Banish {data-scc="mcdm.heroes.v1/feature.ability.censor.level-9/banish" data-cost="11 Wrath"}
+##### Banish {data-scc="mcdm.heroes.v1/feature.ability.censor.level-9/banish"}
 
 
 *You sever the target's tenuous connection to the world.*
@@ -1255,7 +1255,7 @@ Choose one of the following abilities.
 
 **Effect:** This ability gains an [edge](../rule/dice/edge.md) against demons, [devils](../ancestry/devil.md), undead, and creatures not native to your current world. If you know the target's true name, this ability has a double [edge](../rule/dice/edge.md). While banished, the target is sent to another manifold in the timescape and removed from the encounter map. A banished target can do nothing but make [saving throws](../rule/general/saving-throw.md), and takes 10 holy damage each time they do so. If the target is reduced to 0 [Stamina](../rule/health/stamina.md) while banished, they are lost to the timescape.
 
-##### Terror Manifest {data-scc="mcdm.heroes.v1/feature.ability.censor.level-9/terror-manifest" data-cost="11 Wrath"}
+##### Terror Manifest {data-scc="mcdm.heroes.v1/feature.ability.censor.level-9/terror-manifest"}
 
 
 *"I know what you fear."*
@@ -1276,7 +1276,7 @@ Choose one of the following abilities.
 
 Choose one of the following abilities.
 
-##### Blessing and a Curse {data-scc="mcdm.heroes.v1/feature.ability.censor.level-9/blessing-and-a-curse" data-cost="11 Wrath"}
+##### Blessing and a Curse {data-scc="mcdm.heroes.v1/feature.ability.censor.level-9/blessing-and-a-curse"}
 
 
 *The gods bless and damn in equal measure.*
@@ -1289,7 +1289,7 @@ Choose one of the following abilities.
 
 **Effect:** The target obtains a tier 1 or tier 3 outcome on their [power roll](../rule/dice/power-roll.md) (your choice). You can then choose another target within [distance](../rule/combat/distance.md), who obtains the opposite outcome on their next [power roll](../rule/dice/power-roll.md).
 
-##### Fulfill Your Destiny {data-scc="mcdm.heroes.v1/feature.ability.censor.level-9/fulfill-your-destiny" data-cost="11 Wrath"}
+##### Fulfill Your Destiny {data-scc="mcdm.heroes.v1/feature.ability.censor.level-9/fulfill-your-destiny"}
 
 
 *You have looked at various futures, and only this one works.*
@@ -1306,7 +1306,7 @@ Choose one of the following abilities.
 
 Choose one of the following abilities.
 
-##### Apostate {data-scc="mcdm.heroes.v1/feature.ability.censor.level-9/apostate" data-cost="11 Wrath"}
+##### Apostate {data-scc="mcdm.heroes.v1/feature.ability.censor.level-9/apostate"}
 
 
 *You channel holy energy to seal an enemy's fate.*
@@ -1323,7 +1323,7 @@ Choose one of the following abilities.
 
 **Effect:** Until the end of the encounter or until you are [dying](../rule/health/dying.md), the target has [damage weakness](../rule/damage/damage-weakness.md) 10.
 
-##### Edict of Unyielding Resolve {data-scc="mcdm.heroes.v1/feature.ability.censor.level-9/edict-of-unyielding-resolve" data-cost="11 Wrath"}
+##### Edict of Unyielding Resolve {data-scc="mcdm.heroes.v1/feature.ability.censor.level-9/edict-of-unyielding-resolve"}
 
 
 *You and your allies are clad in shimmering armor.*

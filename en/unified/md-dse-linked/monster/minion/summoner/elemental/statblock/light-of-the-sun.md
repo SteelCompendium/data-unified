@@ -14,10 +14,10 @@ intuition: 0
 item_id: light-of-the-sun
 item_name: Light of the Sun
 keywords:
-    - Elemental (Air)
-    - Elemental (Green)
-    - Elemental (Fire)
-    - Elemental (Void)
+    - Elemental (Air
+    - Green
+    - Fire
+    - Void)
 might: 0
 movement: Fly
 name: Light of the Sun

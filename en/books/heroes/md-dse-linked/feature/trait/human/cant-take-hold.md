@@ -1,9 +1,6 @@
 ---
 action_type: feature
 ancestry: human
-cost: 1 Point
-cost_amount: "1"
-cost_resource: Point
 feature_type: trait
 file_basename: cant-take-hold
 file_dpath: feature/trait/human
@@ -16,13 +13,11 @@ type: trait
 ---
 
 ```ds-feature
-cost: 1 Point
 effects:
     - effect: Your connection to the natural world allows you to resist certain [supernatural](../../../rule/general/supernatural.md) effects. You ignore temporary [difficult terrain](../../../movement/difficult-terrain.md) created by magic and psionic abilities. Additionally, when you are [force moved](../../../movement/forced-movement.md) by a magic or psionic ability, you can reduce the [forced movement](../../../movement/forced-movement.md) [distance](../../../rule/combat/distance.md) by 1.
 feature_type: trait
 metadata:
     ancestry: human
-    cost: 1 Point
     name: Can't Take Hold
     scc: mcdm.heroes.v1/feature.trait.human/cant-take-hold
     type: trait

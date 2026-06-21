@@ -80,7 +80,7 @@ Lightning and thunder infuse your body. Whenever you use an ability to deal ligh
 
 You have the following ability.
 
-### Trinity of Trickery {data-scc="mcdm.heroes.v1/feature.ability.conduit.level-7/trinity-of-trickery" data-cost="9 Piety"}
+### Trinity of Trickery {data-scc="mcdm.heroes.v1/feature.ability.conduit.level-7/trinity-of-trickery"}
 
 
 *Hey! I'm over here. No, here, numbskull.*

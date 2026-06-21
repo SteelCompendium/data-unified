@@ -148,7 +148,7 @@ You channel a variety of [heroic abilities](../../../rule/general/heroic-ability
 
 Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the following options, each of which costs 3 essence to use. (*Quick Build:* The Flesh, a Crucible.)
 
-### Behold the Mystery {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-1/behold-the-mystery" data-cost="3 Essence"}
+### Behold the Mystery {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-1/behold-the-mystery"}
 
 
 *You open a rift into the void to harry your foes.*
@@ -165,7 +165,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 **Persistent 1:** At the start of your [turn](../../../rule/combat/turn.md), you can use a maneuver to use this ability again without spending essence.
 
-### The Flesh, a Crucible {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-1/the-flesh-a-crucible" data-cost="3 Essence"}
+### The Flesh, a Crucible {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-1/the-flesh-a-crucible"}
 
 
 *Fire engulfs your target and continues to churn.*
@@ -182,7 +182,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 **Persistent 1:** If the target is within [distance](../../../rule/combat/distance.md) at the start of your [turn](../../../rule/combat/turn.md), you can make the [power roll](../../../rule/dice/power-roll.md) again without spending essence (no action required).
 
-### Invigorating Growth {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-1/invigorating-growth" data-cost="3 Essence"}
+### Invigorating Growth {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-1/invigorating-growth"}
 
 
 *Mushrooms erupt from a foe, sapping their vitality to spread strengthening spores.*
@@ -199,7 +199,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 **Effect:** Mushrooms cover the target's body. While the mushrooms are on the target, you and any ally [adjacent](../../../rule/combat/adjacent.md) to the target gain 1 [surge](../../../rule/resource/surge.md) whenever the target takes damage. The mushrooms can be removed by the target or an [adjacent](../../../rule/combat/adjacent.md) creature as a main action.
 
-### Ripples in the Earth {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-1/ripples-in-the-earth" data-cost="3 Essence"}
+### Ripples in the Earth {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-1/ripples-in-the-earth"}
 
 
 *Like a stone was dropped into a pond, waves in the earth radiate from you.*
@@ -220,7 +220,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the following options, each of which costs 5 essence to use. (*Quick Build:* [Conflagration](../../ability/elementalist/level-1/conflagration.md).)
 
-### Conflagration {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-1/conflagration" data-cost="5 Essence"}
+### Conflagration {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-1/conflagration"}
 
 
 *A storm of fire descends upon your enemies.*
@@ -237,7 +237,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 **Persistent 2:** At the start of your [turn](../../../rule/combat/turn.md), you can use a maneuver to use this ability again without spending essence.
 
-### Instantaneous Excavation {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-1/instantaneous-excavation" data-cost="5 Essence"}
+### Instantaneous Excavation {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-1/instantaneous-excavation"}
 
 
 *The surface of the world around you opens up to swallow foes.*
@@ -256,7 +256,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 **Persistent 1:** At the start of your [turn](../../../rule/combat/turn.md), you open another hole, making a [power roll](../../../rule/dice/power-roll.md) against each creature who could fall into the hole when it opens without spending essence.
 
-### No More Than a Breeze {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-1/no-more-than-a-breeze" data-cost="5 Essence"}
+### No More Than a Breeze {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-1/no-more-than-a-breeze"}
 
 
 *The material substance of a creature shreds away at your command.*
@@ -269,7 +269,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 **Persistent 1:** The effect lasts until the start of your next [turn](../../../rule/combat/turn.md).
 
-### Test of Rain {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-1/test-of-rain" data-cost="5 Essence"}
+### Test of Rain {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-1/test-of-rain"}
 
 
 *You call down a rain that burns your enemies and restores your allies.*

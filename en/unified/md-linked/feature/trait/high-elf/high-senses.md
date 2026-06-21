@@ -1,6 +1,5 @@
 ---
 ancestry: high-elf
-cost: 1 Point
 name: High Senses
 scc: mcdm.heroes.v1/feature.trait.high-elf/high-senses
 type: trait

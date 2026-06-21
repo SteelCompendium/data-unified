@@ -1,6 +1,5 @@
 ---
 ancestry: human
-cost: 2 Points
 name: Staying Power
 scc: mcdm.heroes.v1/feature.trait.human/staying-power
 type: trait

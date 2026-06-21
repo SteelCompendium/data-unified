@@ -13,8 +13,8 @@ intuition: 0
 item_id: flow-of-magma
 item_name: Flow of Magma
 keywords:
-    - Elemental (Fire)
-    - Elemental (Earth)
+    - Elemental (Fire
+    - Earth)
 might: 2
 movement: Climb
 name: Flow of Magma

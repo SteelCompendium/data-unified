@@ -1,6 +1,5 @@
 ---
 ancestry: wode-elf
-cost: 1 Point
 name: Forest Walk
 scc: mcdm.heroes.v1/feature.trait.wode-elf/forest-walk
 type: trait

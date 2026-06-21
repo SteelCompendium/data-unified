@@ -12,7 +12,7 @@ Your [censor order](../level-1/censor-order.md) grants your choice of one of two
 
 Choose one of the following abilities.
 
-### Banish {data-scc="mcdm.heroes.v1/feature.ability.censor.level-9/banish" data-cost="11 Wrath"}
+### Banish {data-scc="mcdm.heroes.v1/feature.ability.censor.level-9/banish"}
 
 
 *You sever the target's tenuous connection to the world.*
@@ -29,7 +29,7 @@ Choose one of the following abilities.
 
 **Effect:** This ability gains an [edge](../../../rule/dice/edge.md) against demons, [devils](../../../ancestry/devil.md), undead, and creatures not native to your current world. If you know the target's true name, this ability has a double [edge](../../../rule/dice/edge.md). While banished, the target is sent to another manifold in the timescape and removed from the encounter map. A banished target can do nothing but make [saving throws](../../../rule/general/saving-throw.md), and takes 10 holy damage each time they do so. If the target is reduced to 0 [Stamina](../../../rule/health/stamina.md) while banished, they are lost to the timescape.
 
-### Terror Manifest {data-scc="mcdm.heroes.v1/feature.ability.censor.level-9/terror-manifest" data-cost="11 Wrath"}
+### Terror Manifest {data-scc="mcdm.heroes.v1/feature.ability.censor.level-9/terror-manifest"}
 
 
 *"I know what you fear."*
@@ -50,7 +50,7 @@ Choose one of the following abilities.
 
 Choose one of the following abilities.
 
-### Blessing and a Curse {data-scc="mcdm.heroes.v1/feature.ability.censor.level-9/blessing-and-a-curse" data-cost="11 Wrath"}
+### Blessing and a Curse {data-scc="mcdm.heroes.v1/feature.ability.censor.level-9/blessing-and-a-curse"}
 
 
 *The gods bless and damn in equal measure.*
@@ -63,7 +63,7 @@ Choose one of the following abilities.
 
 **Effect:** The target obtains a tier 1 or tier 3 outcome on their [power roll](../../../rule/dice/power-roll.md) (your choice). You can then choose another target within [distance](../../../rule/combat/distance.md), who obtains the opposite outcome on their next [power roll](../../../rule/dice/power-roll.md).
 
-### Fulfill Your Destiny {data-scc="mcdm.heroes.v1/feature.ability.censor.level-9/fulfill-your-destiny" data-cost="11 Wrath"}
+### Fulfill Your Destiny {data-scc="mcdm.heroes.v1/feature.ability.censor.level-9/fulfill-your-destiny"}
 
 
 *You have looked at various futures, and only this one works.*
@@ -80,7 +80,7 @@ Choose one of the following abilities.
 
 Choose one of the following abilities.
 
-### Apostate {data-scc="mcdm.heroes.v1/feature.ability.censor.level-9/apostate" data-cost="11 Wrath"}
+### Apostate {data-scc="mcdm.heroes.v1/feature.ability.censor.level-9/apostate"}
 
 
 *You channel holy energy to seal an enemy's fate.*
@@ -97,7 +97,7 @@ Choose one of the following abilities.
 
 **Effect:** Until the end of the encounter or until you are [dying](../../../rule/health/dying.md), the target has [damage weakness](../../../rule/damage/damage-weakness.md) 10.
 
-### Edict of Unyielding Resolve {data-scc="mcdm.heroes.v1/feature.ability.censor.level-9/edict-of-unyielding-resolve" data-cost="11 Wrath"}
+### Edict of Unyielding Resolve {data-scc="mcdm.heroes.v1/feature.ability.censor.level-9/edict-of-unyielding-resolve"}
 
 
 *You and your allies are clad in shimmering armor.*

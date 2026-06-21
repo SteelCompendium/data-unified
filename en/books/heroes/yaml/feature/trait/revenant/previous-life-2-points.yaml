@@ -1,4 +1,3 @@
-cost: 2 Points
 effects:
     - effect: You select a purchased trait that costs 2 ancestry points from your previous ancestry.
 feature_type: trait

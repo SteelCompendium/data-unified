@@ -148,7 +148,7 @@ You have mastered a range of [heroic abilities](../../../rule/general/heroic-abi
 
 Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the following options, each of which costs 3 discipline to use. (*Quick Build:* [Chronal Spike](../../ability/null/level-1/chronal-spike.md).)
 
-### Chronal Spike {data-scc="mcdm.heroes.v1/feature.ability.null.level-1/chronal-spike" data-cost="3 Discipline"}
+### Chronal Spike {data-scc="mcdm.heroes.v1/feature.ability.null.level-1/chronal-spike"}
 
 
 *You foresee the best moment to strike, then exploit it.*
@@ -165,7 +165,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 **Effect:** You can [shift](../../../movement/shifting.md) up to half your [speed](../../../rule/character/speed.md) before or after you make this [strike](../../../rule/combat/strike.md). Additionally, whenever an effect lets you make a [free strike](../../common/main-actions/free-strike.md) or use a [signature ability](../../../rule/combat/signature-ability.md), you can use this ability instead, paying its discipline cost as usual.
 
-### Psychic Pulse {data-scc="mcdm.heroes.v1/feature.ability.null.level-1/psychic-pulse" data-cost="3 Discipline"}
+### Psychic Pulse {data-scc="mcdm.heroes.v1/feature.ability.null.level-1/psychic-pulse"}
 
 
 *A burst of psionic energy interferes with your enemy's synapses.*
@@ -176,7 +176,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 **Effect:** Each target takes psychic damage equal to twice your [Intuition](../../../rule/character/intuition.md) score. Until the start of your next [turn](../../../rule/combat/turn.md), the size of your [Null Field](null-field.md) ability increases by 1. At the end of your current [turn](../../../rule/combat/turn.md), each enemy in the area of your [Null Field](null-field.md) ability takes psychic damage equal to your [Intuition](../../../rule/character/intuition.md) score.
 
-### Relentless Nemesis {data-scc="mcdm.heroes.v1/feature.ability.null.level-1/relentless-nemesis" data-cost="3 Discipline"}
+### Relentless Nemesis {data-scc="mcdm.heroes.v1/feature.ability.null.level-1/relentless-nemesis"}
 
 
 *You strike, and for the next few moments, your enemy can't escape you.*
@@ -193,7 +193,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 **Effect:** Until the start of your next [turn](../../../rule/combat/turn.md), whenever the target finishes moving or being [force moved](../../../movement/forced-movement.md), you can use a free [triggered action](../../../rule/combat/triggered-action.md) to [shift](../../../movement/shifting.md) up to your [speed](../../../rule/character/speed.md). You must end this [shift](../../../movement/shifting.md) [adjacent](../../../rule/combat/adjacent.md) to the target.
 
-### Stunning Blow {data-scc="mcdm.heroes.v1/feature.ability.null.level-1/stunning-blow" data-cost="3 Discipline"}
+### Stunning Blow {data-scc="mcdm.heroes.v1/feature.ability.null.level-1/stunning-blow"}
 
 
 *You focus your psionic technique into a concussive punch.*
@@ -212,7 +212,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the following options, each of which costs 5 discipline to use. (*Quick Build:* [A Squad Unto Myself](../../ability/null/level-1/a-squad-unto-myself.md).)
 
-### Arcane Disruptor {data-scc="mcdm.heroes.v1/feature.ability.null.level-1/arcane-disruptor" data-cost="5 Discipline"}
+### Arcane Disruptor {data-scc="mcdm.heroes.v1/feature.ability.null.level-1/arcane-disruptor"}
 
 
 *Your blow reorders a foe's body, causing pain if they attempt to channel sorcery.*
@@ -229,7 +229,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 **Effect:** While [weakened](../../../condition/weakened.md) this way, the target takes damage equal to your [Intuition](../../../rule/character/intuition.md) score whenever they use a [supernatural](../../../rule/general/supernatural.md) ability that costs Malice.
 
-### Impart Force {data-scc="mcdm.heroes.v1/feature.ability.null.level-1/impart-force" data-cost="5 Discipline"}
+### Impart Force {data-scc="mcdm.heroes.v1/feature.ability.null.level-1/impart-force"}
 
 
 *A single touch from you, and your enemy flies backward.*
@@ -246,7 +246,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 **Effect:** An object you target must be your [size](../../../rule/character/size.md) or smaller. You gain an [edge](../../../rule/dice/edge.md) on this ability. Additionally, for each square you [push](../../../movement/forced-movement.md) the target, they take 1 psychic damage.
 
-### Phase Strike {data-scc="mcdm.heroes.v1/feature.ability.null.level-1/phase-strike" data-cost="5 Discipline"}
+### Phase Strike {data-scc="mcdm.heroes.v1/feature.ability.null.level-1/phase-strike"}
 
 
 *For a moment, your foe slips out of phase with this manifold.*
@@ -263,7 +263,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 **Effect:** A target who goes out of phase is [slowed](../../../condition/slowed.md), has their [stability](../../../rule/character/stability.md) reduced by 2, and can't obtain a tier 3 outcome on [ability rolls](../../../rule/dice/ability-roll.md).
 
-### A Squad Unto Myself {data-scc="mcdm.heroes.v1/feature.ability.null.level-1/a-squad-unto-myself" data-cost="5 Discipline"}
+### A Squad Unto Myself {data-scc="mcdm.heroes.v1/feature.ability.null.level-1/a-squad-unto-myself"}
 
 
 *You move so quickly, it seems as though an army assaulted your foes.*

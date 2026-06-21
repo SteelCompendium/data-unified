@@ -1,6 +1,5 @@
 ---
 ancestry: hakaan
-cost: 1 Point
 name: All Is a Feather
 scc: mcdm.heroes.v1/feature.trait.hakaan/all-is-a-feather
 type: trait

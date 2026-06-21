@@ -1,6 +1,5 @@
 ---
 ancestry: time-raider
-cost: 1 Point
 name: Four-Armed Athletics
 scc: mcdm.heroes.v1/feature.trait.time-raider/four-armed-athletics
 type: trait

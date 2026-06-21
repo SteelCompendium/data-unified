@@ -1,9 +1,6 @@
 ---
 action_type: feature
 ancestry: hakaan
-cost: 1 Point
-cost_amount: "1"
-cost_resource: Point
 feature_type: trait
 file_basename: all-is-a-feather
 file_dpath: feature/trait/hakaan
@@ -16,13 +13,11 @@ type: trait
 ---
 
 ```ds-feature
-cost: 1 Point
 effects:
     - effect: You are exceptionally strong. You gain an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on [tests](scc.v1:mcdm.heroes.v1/rule.test/test) made to lift and haul heavy objects.
 feature_type: trait
 metadata:
     ancestry: hakaan
-    cost: 1 Point
     name: All Is a Feather
     scc: mcdm.heroes.v1/feature.trait.hakaan/all-is-a-feather
     type: trait

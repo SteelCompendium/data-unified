@@ -1,9 +1,6 @@
 ---
 action_type: feature
 ancestry: memonek
-cost: 1 Point
-cost_amount: "1"
-cost_resource: Point
 feature_type: trait
 file_basename: unphased
 file_dpath: feature/trait/memonek
@@ -16,13 +13,11 @@ type: trait
 ---
 
 ```ds-feature
-cost: 1 Point
 effects:
     - effect: Your ordered mind can't be caught off guard. You can't be made [surprised](../../../rule/combat/surprised.md).
 feature_type: trait
 metadata:
     ancestry: memonek
-    cost: 1 Point
     name: Unphased
     scc: mcdm.heroes.v1/feature.trait.memonek/unphased
     type: trait

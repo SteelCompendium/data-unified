@@ -1,6 +1,5 @@
 ---
 ancestry: dwarf
-cost: 1 Point
 name: Stone Singer
 scc: mcdm.heroes.v1/feature.trait.dwarf/stone-singer
 type: trait

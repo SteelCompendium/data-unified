@@ -1,5 +1,4 @@
 {
-  "cost": "1 Point",
   "effects": [
     {
       "effect": "You can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) into and while within [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain)."

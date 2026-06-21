@@ -1,6 +1,5 @@
 ---
 ancestry: memonek
-cost: 1 Point
 name: Useful Emotion
 scc: mcdm.heroes.v1/feature.trait.memonek/useful-emotion
 type: trait

@@ -1,6 +1,5 @@
 ---
 ancestry: high-elf
-cost: 2 Points
 name: Unstoppable Mind
 scc: mcdm.heroes.v1/feature.trait.high-elf/unstoppable-mind
 type: trait

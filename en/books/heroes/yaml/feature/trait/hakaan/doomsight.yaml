@@ -1,4 +1,3 @@
-cost: 2 Points
 effects:
     - effect: |-
         Working with your Director, you can predetermine an encounter in which you will die. When that encounter begins, you become doomed. While doomed, you automatically obtain a tier 3 outcome on [tests](scc.v1:mcdm.heroes.v1/rule.test/test) and [ability rolls](scc.v1:mcdm.heroes.v1/rule.dice/ability-roll), and you don't die no matter how low your [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) falls. You then die immediately at the end of the encounter, and can't be returned to life by any means.

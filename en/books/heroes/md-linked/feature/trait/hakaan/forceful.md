@@ -1,6 +1,5 @@
 ---
 ancestry: hakaan
-cost: 1 Point
 name: Forceful
 scc: mcdm.heroes.v1/feature.trait.hakaan/forceful
 type: trait

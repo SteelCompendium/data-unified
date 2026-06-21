@@ -8,7 +8,7 @@ type: feature
 
 Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the following options, each of which costs 5 essence to use. Alternatively, you can choose one of the 5-essence abilities you didn't select at 1st level (see 1st-Level Features).
 
-## O Flower Aid, O Earth Defend {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-2/o-flower-aid-o-earth-defend" data-cost="5 Essence"}
+## O Flower Aid, O Earth Defend {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-2/o-flower-aid-o-earth-defend"}
 
 
 *Revitalizing plants and jagged stones grow, helping allies and hindering foes.*
@@ -25,7 +25,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 **Persistent 1:** The area remains until the start of your next [turn](../../../rule/combat/turn.md). As a maneuver, you can move the area up to 5 squares. This ability ends if the area is ever not within your [line of effect](../../../rule/combat/line-of-effect.md).
 
-## Subvert the Green Within {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-2/subvert-the-green-within" data-cost="5 Essence"}
+## Subvert the Green Within {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-2/subvert-the-green-within"}
 
 
 *Fungal spores sprout inside your enemy's brain, allowing you to control their actions.*
@@ -42,7 +42,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 - **12-16:** 9 + R poison damage
 - **17+:** 12 + R poison damage
 
-## Translated Through Flame {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-2/translated-through-flame" data-cost="5 Essence"}
+## Translated Through Flame {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-2/translated-through-flame"}
 
 
 *Your ally disappears, then reappears in a burst of fire.*
@@ -59,7 +59,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 - **12-16:** 5 fire damage
 - **17+:** 8 fire damage
 
-## Volcano's Embrace {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-2/volcanos-embrace" data-cost="5 Essence"}
+## Volcano's Embrace {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-2/volcanos-embrace"}
 
 
 *Wrap them up in fire and melting stone.*

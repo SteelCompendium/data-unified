@@ -1,5 +1,4 @@
 {
-  "cost": "2 Points",
   "effects": [
     {
       "effect": "Your hearty constitution prevents you from losing strength. You can't be made [weakened](scc.v1:mcdm.heroes.v1/condition/weakened)."

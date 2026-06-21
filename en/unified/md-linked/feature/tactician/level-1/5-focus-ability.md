@@ -8,7 +8,7 @@ type: feature
 
 Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the following options, each of which costs 5 focus to use. (*Quick Build:* [Hammer and Anvil](../../ability/tactician/level-1/hammer-and-anvil.md).)
 
-## Hammer and Anvil {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-1/hammer-and-anvil" data-cost="5 Focus"}
+## Hammer and Anvil {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-1/hammer-and-anvil"}
 
 
 *"Let's not argue about who's the hammer and who's the anvil!"*
@@ -25,7 +25,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 **Effect:** If the target is reduced to 0 [Stamina](../../../rule/health/stamina.md) before one or both chosen allies has made their [strike](../../../rule/combat/strike.md), the ally or allies can pick a different target.
 
-## Mind Game {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-1/mind-game" data-cost="5 Focus"}
+## Mind Game {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-1/mind-game"}
 
 
 *Your attack demoralizes your foe. Your allies begin to think you can win.*
@@ -44,7 +44,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 **Effect:** Before the start of your next [turn](../../../rule/combat/turn.md), the first time any ally deals damage to any target marked by you, that ally can spend a [Recovery](../../../rule/health/recoveries.md).
 
-## Now! {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-1/now" data-cost="5 Focus"}
+## Now! {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-1/now"}
 
 
 *Your allies wait for your command—then unleash death!*
@@ -55,7 +55,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 **Effect:** Each target can make a [free strike](../../common/main-actions/free-strike.md).
 
-## This Is What We Planned For {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-1/this-is-what-we-planned-for" data-cost="5 Focus"}
+## This Is What We Planned For {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-1/this-is-what-we-planned-for"}
 
 
 *All those coordination drills you made them do finally pay off.*

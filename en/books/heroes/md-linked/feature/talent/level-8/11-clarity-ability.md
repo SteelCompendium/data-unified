@@ -8,7 +8,7 @@ type: feature
 
 Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the following options, each of which costs 11 clarity to use.
 
-## Doubt {data-scc="mcdm.heroes.v1/feature.ability.talent.level-8/doubt" data-cost="11 Clarity"}
+## Doubt {data-scc="mcdm.heroes.v1/feature.ability.talent.level-8/doubt"}
 
 
 *You tug at the strings of the foe's anima and unravel them, allowing someone else to take advantage of their drive.*
@@ -27,7 +27,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 **Strained:** You feel dispirited until you finish a [respite](../../../rule/resource/respite.md). If you obtain a tier 3 outcome on the [power roll](../../../rule/dice/power-roll.md), you and the target each have [damage weakness](../../../rule/damage/damage-weakness.md) 5 (save ends).
 
-## Mindwipe {data-scc="mcdm.heroes.v1/feature.ability.talent.level-8/mindwipe" data-cost="11 Clarity"}
+## Mindwipe {data-scc="mcdm.heroes.v1/feature.ability.talent.level-8/mindwipe"}
 
 
 *You attempt to make them forget all their training.*
@@ -46,7 +46,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 **Strained:** You take 3d6 damage.
 
-## Rejuvenate {data-scc="mcdm.heroes.v1/feature.ability.talent.level-8/rejuvenate" data-cost="11 Clarity"}
+## Rejuvenate {data-scc="mcdm.heroes.v1/feature.ability.talent.level-8/rejuvenate"}
 
 
 *You reshape the flow of time in the target's body to return it to an earlier state.*
@@ -63,7 +63,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 **Strained:** You and the target both permanently grow visibly younger (the equivalent of 20 [human](../../../ancestry/human.md) years, to the minimum of an 18-year-old). Additionally, you are [weakened](../../../condition/weakened.md) and [slowed](../../../condition/slowed.md) (save ends).
 
-## Steel {data-scc="mcdm.heroes.v1/feature.ability.talent.level-8/steel" data-cost="11 Clarity"}
+## Steel {data-scc="mcdm.heroes.v1/feature.ability.talent.level-8/steel"}
 
 
 *The target's skin becomes covered in tough metal.*

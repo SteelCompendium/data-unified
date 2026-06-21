@@ -1,4 +1,3 @@
-cost: 1 Point
 effects:
     - effect: |-
         As a maneuver, you can recite the following oath. Until the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), whenever you make a [saving throw](scc.v1:mcdm.heroes.v1/rule.general/saving-throw), you succeed on a 4 or higher.

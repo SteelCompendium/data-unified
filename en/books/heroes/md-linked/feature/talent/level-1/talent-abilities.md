@@ -166,7 +166,7 @@ You know a range of [heroic abilities](../../../rule/general/heroic-ability.md),
 
 Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the following options, each of which costs 3 clarity to use. (*Quick Build:* [Choke](../../ability/talent/level-1/choke.md).)
 
-### Awe {data-scc="mcdm.heroes.v1/feature.ability.talent.level-1/awe" data-cost="3 Clarity"}
+### Awe {data-scc="mcdm.heroes.v1/feature.ability.talent.level-1/awe"}
 
 
 *You project psionic energy out to a creature and take on a new visage in their mind.*
@@ -183,7 +183,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 - **12-16:** 6 + P psychic damage; I < AVERAGE, [frightened](../../../condition/frightened.md) (save ends)
 - **17+:** 9 + P psychic damage; I < STRONG, [frightened](../../../condition/frightened.md) (save ends)
 
-### Choke {data-scc="mcdm.heroes.v1/feature.ability.talent.level-1/choke" data-cost="3 Clarity"}
+### Choke {data-scc="mcdm.heroes.v1/feature.ability.talent.level-1/choke"}
 
 
 *You crush a foe in a telekinetic grip.*
@@ -200,7 +200,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 **Effect:** You can vertical [pull](../../../movement/forced-movement.md) the target up to 2 squares. If the target is made [restrained](../../../condition/restrained.md) by this ability, this [forced movement](../../../movement/forced-movement.md) ignores their [stability](../../../rule/character/stability.md).
 
-### Precognition {data-scc="mcdm.heroes.v1/feature.ability.talent.level-1/precognition" data-cost="3 Clarity"}
+### Precognition {data-scc="mcdm.heroes.v1/feature.ability.talent.level-1/precognition"}
 
 
 *You give a target a glimpse into the future so that they're ready for what comes next.*
@@ -211,7 +211,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 **Effect:** [Ability rolls](../../../rule/dice/ability-roll.md) made against the target take a [bane](../../../rule/dice/bane.md) until the start of your next [turn](../../../rule/combat/turn.md). Whenever the target takes damage while under this effect, they can use a [triggered action](../../../rule/combat/triggered-action.md) to make a [free strike](../../common/main-actions/free-strike.md) against the source of the damage.
 
-### Smolder {data-scc="mcdm.heroes.v1/feature.ability.talent.level-1/smolder" data-cost="3 Clarity"}
+### Smolder {data-scc="mcdm.heroes.v1/feature.ability.talent.level-1/smolder"}
 
 
 *Smoke flows from your enemy like tears as their skin begins to blacken and flake.*
@@ -232,7 +232,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the following options, each of which costs 5 clarity to use. (*Quick Build:* [Inertia Soak](../../ability/talent/level-1/inertia-soak.md).)
 
-### Flashback {data-scc="mcdm.heroes.v1/feature.ability.talent.level-1/flashback" data-cost="5 Clarity"}
+### Flashback {data-scc="mcdm.heroes.v1/feature.ability.talent.level-1/flashback"}
 
 
 *The target is thrown several seconds back through time and gets to do it all again.*
@@ -245,7 +245,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 **Strained:** You take 1d6 damage and are [slowed](../../../condition/slowed.md) (save ends).
 
-### Inertia Soak {data-scc="mcdm.heroes.v1/feature.ability.talent.level-1/inertia-soak" data-cost="5 Clarity"}
+### Inertia Soak {data-scc="mcdm.heroes.v1/feature.ability.talent.level-1/inertia-soak"}
 
 
 *Your psionic energy surrounds the target and pushes everything else away from them.*
@@ -258,7 +258,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 **Strained:** You are [weakened](../../../condition/weakened.md) (save ends). While you are [weakened](../../../condition/weakened.md) this way, whenever you are force moved, the [forced movement](../../../movement/forced-movement.md) [distance](../../../rule/combat/distance.md) gains a +5 [bonus](../../../rule/dice/bonuses-and-penalties.md).
 
-### Iron {data-scc="mcdm.heroes.v1/feature.ability.talent.level-1/iron" data-cost="5 Clarity"}
+### Iron {data-scc="mcdm.heroes.v1/feature.ability.talent.level-1/iron"}
 
 
 *The target's skin turns to hard, dark metal, impenetrable and dense.*
@@ -271,7 +271,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 **Strained:** You can't use maneuvers (save ends).
 
-### Perfect Clarity {data-scc="mcdm.heroes.v1/feature.ability.talent.level-1/perfect-clarity" data-cost="5 Clarity"}
+### Perfect Clarity {data-scc="mcdm.heroes.v1/feature.ability.talent.level-1/perfect-clarity"}
 
 
 *You clear the mind of nothing but the goal.*

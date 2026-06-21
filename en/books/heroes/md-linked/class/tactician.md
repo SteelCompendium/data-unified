@@ -266,7 +266,7 @@ Your [heroic abilities](../rule/general/heroic-ability.md) cover a range of comb
 
 Choose one [heroic ability](../rule/general/heroic-ability.md) from the following options, each of which costs 3 focus to use. (*Quick Build:* [Inspiring Strike](../feature/ability/tactician/level-1/inspiring-strike.md).)
 
-##### Battle Cry {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-1/battle-cry" data-cost="3 Focus"}
+##### Battle Cry {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-1/battle-cry"}
 
 
 *You shout a phrase that galvanizes your team.*
@@ -281,7 +281,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 - **12-16:** Each target gains 2 [surges](../rule/resource/surge.md).
 - **17+:** Each target gains 3 [surges](../rule/resource/surge.md).
 
-##### Concussive Strike {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-1/concussive-strike" data-cost="3 Focus"}
+##### Concussive Strike {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-1/concussive-strike"}
 
 
 *Your precise strike leaves your foe struggling to respond.*
@@ -296,7 +296,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 - **12-16:** 5 + M damage; M < AVERAGE, [dazed](../condition/dazed.md) (save ends)
 - **17+:** 8 + M damage; M < STRONG, [dazed](../condition/dazed.md) (save ends)
 
-##### Inspiring Strike {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-1/inspiring-strike" data-cost="3 Focus"}
+##### Inspiring Strike {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-1/inspiring-strike"}
 
 
 *Your attack gives an ally hope.*
@@ -311,7 +311,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 - **12-16:** 5 + M damage; you or one ally within 10 squares of you can spend a [Recovery](../rule/health/recoveries.md)
 - **17+:** 8 + M damage; you and one ally within 10 squares of you can spend a [Recovery](../rule/health/recoveries.md), and each of you gains an [edge](../rule/dice/edge.md) on the next [ability roll](../rule/dice/ability-roll.md) you make during the encounter
 
-##### Squad! Forward! {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-1/squad-forward" data-cost="3 Focus"}
+##### Squad! Forward! {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-1/squad-forward"}
 
 
 *On your command, you and your allies force back the enemy line.*
@@ -326,7 +326,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 Choose one [heroic ability](../rule/general/heroic-ability.md) from the following options, each of which costs 5 focus to use. (*Quick Build:* [Hammer and Anvil](../feature/ability/tactician/level-1/hammer-and-anvil.md).)
 
-#### Hammer and Anvil {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-1/hammer-and-anvil" data-cost="5 Focus"}
+#### Hammer and Anvil {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-1/hammer-and-anvil"}
 
 
 *"Let's not argue about who's the hammer and who's the anvil!"*
@@ -343,7 +343,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 **Effect:** If the target is reduced to 0 [Stamina](../rule/health/stamina.md) before one or both chosen allies has made their [strike](../rule/combat/strike.md), the ally or allies can pick a different target.
 
-#### Mind Game {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-1/mind-game" data-cost="5 Focus"}
+#### Mind Game {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-1/mind-game"}
 
 
 *Your attack demoralizes your foe. Your allies begin to think you can win.*
@@ -362,7 +362,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 **Effect:** Before the start of your next [turn](../rule/combat/turn.md), the first time any ally deals damage to any target marked by you, that ally can spend a [Recovery](../rule/health/recoveries.md).
 
-#### Now! {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-1/now" data-cost="5 Focus"}
+#### Now! {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-1/now"}
 
 
 *Your allies wait for your command—then unleash death!*
@@ -373,7 +373,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 **Effect:** Each target can make a [free strike](../feature/common/main-actions/free-strike.md).
 
-#### This Is What We Planned For {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-1/this-is-what-we-planned-for" data-cost="5 Focus"}
+#### This Is What We Planned For {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-1/this-is-what-we-planned-for"}
 
 
 *All those coordination drills you made them do finally pay off.*
@@ -426,7 +426,7 @@ Your [tactical doctrine](../feature/tactician/level-1/tactical-doctrine.md) gran
 
 Choose one of the following abilities.
 
-##### Fog of War {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-2/fog-of-war" data-cost="5 Focus"}
+##### Fog of War {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-2/fog-of-war"}
 
 
 *Your unorthodox strategy causes enemies to lash out in fear, heedless of who they might be attacking.*
@@ -439,7 +439,7 @@ Choose one of the following abilities.
 
 **Mark Benefit:** Until the end of the encounter, whenever you or any ally makes a [strike](../rule/combat/strike.md) against a creature marked by you, you can spend 2 focus to force that target to make a [free strike](../feature/common/main-actions/free-strike.md) against a creature of your choice within 5 squares of them.
 
-##### Try Me Instead {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-2/try-me-instead" data-cost="5 Focus"}
+##### Try Me Instead {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-2/try-me-instead"}
 
 
 *"Try picking on someone my [size](../rule/character/size.md)."*
@@ -460,7 +460,7 @@ Choose one of the following abilities.
 
 Choose one of the following abilities.
 
-##### I've Got Your Back {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-2/ive-got-your-back" data-cost="5 Focus"}
+##### I've Got Your Back {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-2/ive-got-your-back"}
 
 
 *Your enemy will think twice about attacking your friend.*
@@ -477,7 +477,7 @@ Choose one of the following abilities.
 
 **Effect:** One ally [adjacent](../rule/combat/adjacent.md) to the target can spend a [Recovery](../rule/health/recoveries.md).
 
-##### Targets of Opportunity {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-2/targets-of-opportunity" data-cost="5 Focus"}
+##### Targets of Opportunity {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-2/targets-of-opportunity"}
 
 
 *You point out easy targets to your friends, allowing them to include more enemies in their attacks.*
@@ -494,7 +494,7 @@ Choose one of the following abilities.
 
 Choose one of the following abilities.
 
-##### No Dying on My Watch {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-2/no-dying-on-my-watch" data-cost="5 Focus"}
+##### No Dying on My Watch {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-2/no-dying-on-my-watch"}
 
 
 *You prioritize saving an ally over your own safety.*
@@ -513,7 +513,7 @@ Choose one of the following abilities.
 - **12-16:** R < AVERAGE, the target is [frightened](../condition/frightened.md) of the triggering ally (save ends)
 - **17+:** R < STRONG, the target is [frightened](../condition/frightened.md) of the triggering ally (save ends)
 
-##### Squad! On Me! {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-2/squad-on-me" data-cost="5 Focus"}
+##### Squad! On Me! {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-2/squad-on-me"}
 
 
 *Together we are invincible!*
@@ -536,7 +536,7 @@ Even before battle begins, your enemies struggle to keep up with your tactics. A
 
 Choose one [heroic ability](../rule/general/heroic-ability.md) from the following options, each of which costs 7 focus to use.
 
-#### Frontal Assault {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-3/frontal-assault" data-cost="7 Focus"}
+#### Frontal Assault {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-3/frontal-assault"}
 
 
 *The purpose of a charge is to break their morale and force a retreat.*
@@ -547,7 +547,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 **Effect:** Until the end of the encounter or until you are [dying](../rule/health/dying.md), the first time on a [turn](../rule/combat/turn.md) that you or any ally deals damage to a target marked by you, the creature who dealt the damage can [push](../movement/forced-movement.md) the target up to 2 squares and then [shift](../movement/shifting.md) up to 2 squares. Additionally, any ally using the [Charge](../feature/common/main-actions/charge.md) main action to target a creature marked by you can use a [melee](../rule/combat/melee.md) [strike](../rule/combat/strike.md) [signature ability](../rule/combat/signature-ability.md) or a [melee](../rule/combat/melee.md) [strike](../rule/combat/strike.md) [heroic ability](../rule/general/heroic-ability.md) instead of a [melee](../rule/combat/melee.md) [free strike](../feature/common/main-actions/free-strike.md).
 
-#### Hit 'Em Hard! {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-3/hit-em-hard" data-cost="7 Focus"}
+#### Hit 'Em Hard! {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-3/hit-em-hard"}
 
 
 *Your allies see the advantages in attacking the targets you select.*
@@ -558,7 +558,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 **Effect:** Until the end of the encounter or until you are [dying](../rule/health/dying.md), whenever you or any ally deals damage to a target marked by you, that creature gains 2 [surges](../rule/resource/surge.md), which they can use immediately.
 
-#### Rout {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-3/rout" data-cost="7 Focus"}
+#### Rout {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-3/rout"}
 
 
 *The tide begins to [turn](../rule/combat/turn.md).*
@@ -569,7 +569,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 **Effect:** Until the end of the encounter or until you are [dying](../rule/health/dying.md), whenever you or any ally deals damage to a target marked by you who has R < AVERAGE, the target is [frightened](../condition/frightened.md) of the creature who dealt the damage (save ends).
 
-#### Stay Strong and Focus! {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-3/stay-strong-and-focus" data-cost="7 Focus"}
+#### Stay Strong and Focus! {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-3/stay-strong-and-focus"}
 
 
 *"We can do this! Keep faith and hold fast!"*
@@ -648,7 +648,7 @@ When you use the [Charge](../feature/common/main-actions/charge.md) main action 
 
 Choose one [heroic ability](../rule/general/heroic-ability.md) from the following options, each of which costs 9 focus to use.
 
-#### Squad! Gear Check! {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-5/squad-gear-check" data-cost="9 Focus"}
+#### Squad! Gear Check! {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-5/squad-gear-check"}
 
 
 *You distract a foe while your allies secure their defensive gear.*
@@ -665,7 +665,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 **Effect:** You and each ally [adjacent](../rule/combat/adjacent.md) to the target gain 10 [temporary Stamina](../rule/health/temporary-stamina.md).
 
-#### Squad! Remember Your Training! {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-5/squad-remember-your-training" data-cost="9 Focus"}
+#### Squad! Remember Your Training! {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-5/squad-remember-your-training"}
 
 
 *You remind your allies how to best use their gear.*
@@ -676,7 +676,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 **Effect:** Each target gains 1 [surge](../rule/resource/surge.md) and can use a [signature ability](../rule/combat/signature-ability.md) that has a double [edge](../rule/dice/edge.md).
 
-#### Win This Day! {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-5/win-this-day" data-cost="9 Focus"}
+#### Win This Day! {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-5/win-this-day"}
 
 
 *You inspire your allies to recover and gather their strength.*
@@ -687,7 +687,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 **Effect:** Each target gains 2 [surges](../rule/resource/surge.md). Additionally, they can spend a [Recovery](../rule/health/recoveries.md), remove any [conditions](../rule/combat/condition.md) or effects on them, and stand up if they [are prone](../condition/prone.md).
 
-#### You've Still Got Something Left {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-5/youve-still-got-something-left" data-cost="9 Focus"}
+#### You've Still Got Something Left {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-5/youve-still-got-something-left"}
 
 
 *You push an ally to use a [heroic ability](../rule/general/heroic-ability.md) sooner than they otherwise would.*
@@ -718,7 +718,7 @@ Your [tactical doctrine](../feature/tactician/level-1/tactical-doctrine.md) gran
 
 Choose one of the following abilities.
 
-##### Coordinated Execution {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-6/coordinated-execution" data-cost="9 Focus"}
+##### Coordinated Execution {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-6/coordinated-execution"}
 
 
 *You direct your ally to make a killing blow.*
@@ -731,7 +731,7 @@ Choose one of the following abilities.
 
 **Effect:** If the target of the triggering ability is not a leader or solo creature, they are reduced to 0 [Stamina](../rule/health/stamina.md). If the target of the triggering ability is a minion, the entire squad is killed. If the target of the triggering ability is a leader or solo creature, the triggering ability's [power roll](../rule/dice/power-roll.md) automatically obtains a tier 3 outcome.
 
-##### Panic in Their Lines {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-6/panic-in-their-lines" data-cost="9 Focus"}
+##### Panic in Their Lines {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-6/panic-in-their-lines"}
 
 
 *You confuse your foes, causing them to turn on each other.*
@@ -752,7 +752,7 @@ Choose one of the following abilities.
 
 Choose one of the following abilities.
 
-##### Battle Plan {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-6/battle-plan" data-cost="9 Focus"}
+##### Battle Plan {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-6/battle-plan"}
 
 
 *With new understanding of your foes, you create the perfect plan to win the battle.*
@@ -765,7 +765,7 @@ Choose one of the following abilities.
 
 **Mark Benefit:** Until the end of the encounter, whenever you or any ally makes a [strike](../rule/combat/strike.md) against a creature marked by you, you can spend 2 focus to make the [strike](../rule/combat/strike.md) ignore [damage immunity](../rule/damage/damage-immunity.md) and deal extra damage equal to three times your [Reason](../rule/character/reason.md) score.
 
-##### Hustle! {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-6/hustle" data-cost="9 Focus"}
+##### Hustle! {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-6/hustle"}
 
 
 *You and your allies coordinate to form a new battle line.*
@@ -780,7 +780,7 @@ Choose one of the following abilities.
 
 Choose one of the following abilities.
 
-##### Instant Retaliation {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-6/instant-retaliation" data-cost="9 Focus"}
+##### Instant Retaliation {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-6/instant-retaliation"}
 
 
 *You [parry](../feature/ability/tactician/level-1/parry.md) with almost [supernatural](../rule/general/supernatural.md) [speed](../rule/character/speed.md).*
@@ -799,7 +799,7 @@ Choose one of the following abilities.
 - **12-16:** A < AVERAGE, [dazed](../condition/dazed.md) (save ends)
 - **17+:** A < STRONG, [dazed](../condition/dazed.md) (save ends)
 
-##### To Me Squad! {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-6/to-me-squad" data-cost="9 Focus"}
+##### To Me Squad! {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-6/to-me-squad"}
 
 
 *You lead your allies in a charge.*
@@ -902,7 +902,7 @@ You have trained your squad to maximize impact and break enemy lines when they a
 
 Choose one [heroic ability](../rule/general/heroic-ability.md) from the following options, each of which costs 11 focus to use.
 
-#### Go Now and Speed Well {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-8/go-now-and-speed-well" data-cost="11 Focus"}
+#### Go Now and Speed Well {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-8/go-now-and-speed-well"}
 
 
 *You direct an attack to strike true.*
@@ -913,7 +913,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 **Effect:** The target gains 2 [surges](../rule/resource/surge.md) and can use a signature or [heroic ability](../rule/general/heroic-ability.md) as a free [triggered action](../rule/combat/triggered-action.md). The ability has a double [edge](../rule/dice/edge.md) on the [power roll](../rule/dice/power-roll.md), ignores [damage immunity](../rule/damage/damage-immunity.md), and increases the [potency](../rule/character/potency.md) of any [potency](../rule/character/potency.md) effects by 1.
 
-#### Finish Them! {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-8/finish-them" data-cost="11 Focus"}
+#### Finish Them! {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-8/finish-them"}
 
 
 *You point out an opening to your ally so they can land a killing blow.*
@@ -926,7 +926,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 **Effect:** The target is killed. Additionally, the creature who caused the target to be [winded](../rule/health/winded.md) can spend a [Recovery](../rule/health/recoveries.md).
 
-#### Floodgates Open {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-8/floodgates-open" data-cost="11 Focus"}
+#### Floodgates Open {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-8/floodgates-open"}
 
 
 *You direct your squad to strike in unison and with devastating effect.*
@@ -937,7 +937,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 **Effect:** Each target gains 1 [surge](../rule/resource/surge.md) and can use a [signature ability](../rule/combat/signature-ability.md) as a free [triggered action](../rule/combat/triggered-action.md). That ability gains an [edge](../rule/dice/edge.md) on the [power roll](../rule/dice/power-roll.md) and increases the [potency](../rule/character/potency.md) of any [potency](../rule/character/potency.md) effects by 1.
 
-#### I'll Open and You'll Close {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-8/ill-open-and-youll-close" data-cost="11 Focus"}
+#### I'll Open and You'll Close {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-8/ill-open-and-youll-close"}
 
 
 *You create an opening for an ally.*
@@ -970,7 +970,7 @@ Your [tactical doctrine](../feature/tactician/level-1/tactical-doctrine.md) gran
 
 Choose one of the following abilities.
 
-##### Squad! Hit and Run! {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-9/squad-hit-and-run" data-cost="11 Focus"}
+##### Squad! Hit and Run! {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-9/squad-hit-and-run"}
 
 
 *I had to pry this secret from the [shadow college](../feature/shadow/level-1/shadow-college.md)s.*
@@ -981,7 +981,7 @@ Choose one of the following abilities.
 
 **Effect:** Each target gains 2 [surges](../rule/resource/surge.md), and can use a free [triggered action](../rule/combat/triggered-action.md) to use a [signature ability](../rule/combat/signature-ability.md) that gains an [edge](../rule/dice/edge.md). After resolving their ability, each target can [shift](../movement/shifting.md) up to 2 squares and become hidden even if they have no [cover](../rule/combat/cover.md) or [concealment](../rule/combat/concealment.md), or if they are observed.
 
-##### Their Lack of Focus Is Their Undoing {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-9/their-lack-of-focus-is-their-undoing" data-cost="11 Focus"}
+##### Their Lack of Focus Is Their Undoing {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-9/their-lack-of-focus-is-their-undoing"}
 
 
 *You trick your enemies into attacking each other and leave them confused by the aftermath.*
@@ -1002,7 +1002,7 @@ Choose one of the following abilities.
 
 Choose one of the following abilities.
 
-##### Blot Out the Sun! {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-9/blot-out-the-sun" data-cost="11 Focus"}
+##### Blot Out the Sun! {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-9/blot-out-the-sun"}
 
 
 *What makes a good soldier? The ability to fire four shots a minute in any weather.*
@@ -1013,7 +1013,7 @@ Choose one of the following abilities.
 
 **Effect:** Each target can make a [ranged](../rule/combat/ranged.md) [free strike](../feature/common/main-actions/free-strike.md) that gains an [edge](../rule/dice/edge.md) against any enemy marked by you within [distance](../rule/combat/distance.md) of their [ranged](../rule/combat/ranged.md) [free strike](../feature/common/main-actions/free-strike.md). A target ignores [banes](../rule/dice/bane.md) and double [banes](../rule/dice/bane.md) when making this [strike](../rule/combat/strike.md).
 
-##### Counterstrategy {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-9/counterstrategy" data-cost="11 Focus"}
+##### Counterstrategy {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-9/counterstrategy"}
 
 
 *I've identified a way to negate their strengths.*
@@ -1028,7 +1028,7 @@ Choose one of the following abilities.
 
 Choose one of the following abilities.
 
-##### No Escape {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-9/no-escape" data-cost="11 Focus"}
+##### No Escape {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-9/no-escape"}
 
 
 *Nothing will stop you from reaching your foe.*
@@ -1047,7 +1047,7 @@ Choose one of the following abilities.
 
 **Effect:** If you use this ability as part of the [Charge](../feature/common/main-actions/charge.md) main action, enemies' spaces don't count as [difficult terrain](../movement/difficult-terrain.md) for your movement. Additionally, if you move through any creature's space, you can [slide](../movement/forced-movement.md) that creature 1 square out of the path of your charge.
 
-##### That One Is Mine! {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-9/that-one-is-mine" data-cost="11 Focus"}
+##### That One Is Mine! {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-9/that-one-is-mine"}
 
 
 *You focus on making an enemy irrelevant.*

@@ -1,6 +1,5 @@
 ---
 ancestry: wode-elf
-cost: 1 Point
 name: Quick and Brutal
 scc: mcdm.heroes.v1/feature.trait.wode-elf/quick-and-brutal
 type: trait

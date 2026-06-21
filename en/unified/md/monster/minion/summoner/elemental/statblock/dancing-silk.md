@@ -7,9 +7,9 @@ immunities:
     - Poison R
 intuition: 0
 keywords:
-    - Elemental (Earth)
-    - Elemental (Air)
-    - Elemental (Green)
+    - Elemental (Earth
+    - Air
+    - Green)
 might: -1
 movement: Fly
 name: Dancing Silk

@@ -33,7 +33,6 @@ ability:
     target: One creature bearing your sigil
     type: feature
     usage: Main action
-cost: 2 Points
 effects:
     - effect: |-
         As a maneuver, you place a magic sigil on a creature within 10 squares. When you place a sigil, you decide where it appears on the creature's body, and whether the sigil is visible to only you or to all creatures.

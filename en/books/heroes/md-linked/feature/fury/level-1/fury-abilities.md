@@ -84,7 +84,7 @@ You fight with an array of [heroic abilities](../../../rule/general/heroic-abili
 
 Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the following options, each of which costs 3 ferocity to use. (*Quick Build:* Back!)
 
-### Back! {data-scc="mcdm.heroes.v1/feature.ability.fury.level-1/back" data-cost="3 Ferocity"}
+### Back! {data-scc="mcdm.heroes.v1/feature.ability.fury.level-1/back"}
 
 
 *You hew about you with your mighty weapon, hurling enemies backward.*
@@ -99,7 +99,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 - **12-16:** 8 damage; [push](../../../movement/forced-movement.md) 1
 - **17+:** 11 damage; [push](../../../movement/forced-movement.md) 3
 
-### Out of the Way! {data-scc="mcdm.heroes.v1/feature.ability.fury.level-1/out-of-the-way" data-cost="3 Ferocity"}
+### Out of the Way! {data-scc="mcdm.heroes.v1/feature.ability.fury.level-1/out-of-the-way"}
 
 
 *Your enemies will clear your path—whether they want to or not.*
@@ -116,7 +116,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 **Effect:** When you [slide](../../../movement/forced-movement.md) the target, you can move into any square they leave. If you take damage from an [opportunity attack](../../../rule/combat/opportunity-attack.md) by moving this way, the target takes the same damage.
 
-### Tide of Death {data-scc="mcdm.heroes.v1/feature.ability.fury.level-1/tide-of-death" data-cost="3 Ferocity"}
+### Tide of Death {data-scc="mcdm.heroes.v1/feature.ability.fury.level-1/tide-of-death"}
 
 
 *Teach them the folly of lining up for you.*
@@ -135,7 +135,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 **Effect:** The last target you damage takes extra damage equal to your [Might](../../../rule/character/might.md) score for each [opportunity attack](../../../rule/combat/opportunity-attack.md) you trigger during your move.
 
-### Your Entrails Are Your Extrails! {data-scc="mcdm.heroes.v1/feature.ability.fury.level-1/your-entrails-are-your-extrails" data-cost="3 Ferocity"}
+### Your Entrails Are Your Extrails! {data-scc="mcdm.heroes.v1/feature.ability.fury.level-1/your-entrails-are-your-extrails"}
 
 
 *Hard for them to fight when they're busy holding in their giblets.*
@@ -156,7 +156,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the following options, each of which costs 5 ferocity to use. (*Quick Build:* [Blood for Blood](../../ability/fury/level-1/blood-for-blood.md)!)
 
-### Blood for Blood! {data-scc="mcdm.heroes.v1/feature.ability.fury.level-1/blood-for-blood" data-cost="5 Ferocity"}
+### Blood for Blood! {data-scc="mcdm.heroes.v1/feature.ability.fury.level-1/blood-for-blood"}
 
 
 *See how well they fight after you've bled them dry.*
@@ -173,7 +173,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 **Effect:** You can deal 1d6 damage to yourself to deal an extra 1d6 damage to the target.
 
-### Make Peace With Your God! {data-scc="mcdm.heroes.v1/feature.ability.fury.level-1/make-peace-with-your-god" data-cost="5 Ferocity"}
+### Make Peace With Your God! {data-scc="mcdm.heroes.v1/feature.ability.fury.level-1/make-peace-with-your-god"}
 
 
 *Anger is your energy.*
@@ -184,7 +184,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 **Effect:** You gain 1 [surge](../../../rule/resource/surge.md), and the next [ability roll](../../../rule/dice/ability-roll.md) you make this [turn](../../../rule/combat/turn.md) automatically obtains a tier 3 outcome.
 
-### Thunder Roar {data-scc="mcdm.heroes.v1/feature.ability.fury.level-1/thunder-roar" data-cost="5 Ferocity"}
+### Thunder Roar {data-scc="mcdm.heroes.v1/feature.ability.fury.level-1/thunder-roar"}
 
 
 *You unleash a howl that hurls your enemies back.*
@@ -201,7 +201,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 **Effect:** The targets are [force moved](../../../movement/forced-movement.md) one at a time, starting with the target nearest to you, and can be [pushed](../../../movement/forced-movement.md) into other targets in the same line.
 
-### To the Uttermost End {data-scc="mcdm.heroes.v1/feature.ability.fury.level-1/to-the-uttermost-end" data-cost="5 Ferocity"}
+### To the Uttermost End {data-scc="mcdm.heroes.v1/feature.ability.fury.level-1/to-the-uttermost-end"}
 
 
 *You gut your life force to ensure a foe's demise.*

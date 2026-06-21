@@ -1,6 +1,5 @@
 ---
 ancestry: revenant
-cost: 2 Points
 name: Vengeance Mark
 scc: mcdm.heroes.v1/feature.trait.revenant/vengeance-mark
 type: trait

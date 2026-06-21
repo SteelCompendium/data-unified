@@ -1,9 +1,6 @@
 ---
 action_type: feature
 ancestry: devil
-cost: 1 Point
-cost_amount: "1"
-cost_resource: Point
 feature_type: trait
 file_basename: hellsight
 file_dpath: feature/trait/devil
@@ -16,13 +13,11 @@ type: trait
 ---
 
 ```ds-feature
-cost: 1 Point
 effects:
     - effect: Your eyes let you see through darkness, fog, and other obscuring effects. You don't take a [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) on [strikes](scc.v1:mcdm.heroes.v1/rule.combat/strike) made against creatures with [concealment](scc.v1:mcdm.heroes.v1/rule.combat/concealment).
 feature_type: trait
 metadata:
     ancestry: devil
-    cost: 1 Point
     name: Hellsight
     scc: mcdm.heroes.v1/feature.trait.devil/hellsight
     type: trait

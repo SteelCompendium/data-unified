@@ -1,6 +1,5 @@
 ---
 ancestry: dragon-knight
-cost: 2 Points
 name: Dragon Breath
 scc: mcdm.heroes.v1/feature.trait.dragon-knight/dragon-breath
 type: trait

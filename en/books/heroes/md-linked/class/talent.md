@@ -448,7 +448,7 @@ You know a range of [heroic abilities](../rule/general/heroic-ability.md), all o
 
 Choose one [heroic ability](../rule/general/heroic-ability.md) from the following options, each of which costs 3 clarity to use. (*Quick Build:* [Choke](../feature/ability/talent/level-1/choke.md).)
 
-##### Awe {data-scc="mcdm.heroes.v1/feature.ability.talent.level-1/awe" data-cost="3 Clarity"}
+##### Awe {data-scc="mcdm.heroes.v1/feature.ability.talent.level-1/awe"}
 
 
 *You project psionic energy out to a creature and take on a new visage in their mind.*
@@ -465,7 +465,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 - **12-16:** 6 + P psychic damage; I < AVERAGE, [frightened](../condition/frightened.md) (save ends)
 - **17+:** 9 + P psychic damage; I < STRONG, [frightened](../condition/frightened.md) (save ends)
 
-##### Choke {data-scc="mcdm.heroes.v1/feature.ability.talent.level-1/choke" data-cost="3 Clarity"}
+##### Choke {data-scc="mcdm.heroes.v1/feature.ability.talent.level-1/choke"}
 
 
 *You crush a foe in a telekinetic grip.*
@@ -482,7 +482,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 **Effect:** You can vertical [pull](../movement/forced-movement.md) the target up to 2 squares. If the target is made [restrained](../condition/restrained.md) by this ability, this [forced movement](../movement/forced-movement.md) ignores their [stability](../rule/character/stability.md).
 
-##### Precognition {data-scc="mcdm.heroes.v1/feature.ability.talent.level-1/precognition" data-cost="3 Clarity"}
+##### Precognition {data-scc="mcdm.heroes.v1/feature.ability.talent.level-1/precognition"}
 
 
 *You give a target a glimpse into the future so that they're ready for what comes next.*
@@ -493,7 +493,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 **Effect:** [Ability rolls](../rule/dice/ability-roll.md) made against the target take a [bane](../rule/dice/bane.md) until the start of your next [turn](../rule/combat/turn.md). Whenever the target takes damage while under this effect, they can use a [triggered action](../rule/combat/triggered-action.md) to make a [free strike](../feature/common/main-actions/free-strike.md) against the source of the damage.
 
-##### Smolder {data-scc="mcdm.heroes.v1/feature.ability.talent.level-1/smolder" data-cost="3 Clarity"}
+##### Smolder {data-scc="mcdm.heroes.v1/feature.ability.talent.level-1/smolder"}
 
 
 *Smoke flows from your enemy like tears as their skin begins to blacken and flake.*
@@ -514,7 +514,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 Choose one [heroic ability](../rule/general/heroic-ability.md) from the following options, each of which costs 5 clarity to use. (*Quick Build:* [Inertia Soak](../feature/ability/talent/level-1/inertia-soak.md).)
 
-##### Flashback {data-scc="mcdm.heroes.v1/feature.ability.talent.level-1/flashback" data-cost="5 Clarity"}
+##### Flashback {data-scc="mcdm.heroes.v1/feature.ability.talent.level-1/flashback"}
 
 
 *The target is thrown several seconds back through time and gets to do it all again.*
@@ -527,7 +527,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 **Strained:** You take 1d6 damage and are [slowed](../condition/slowed.md) (save ends).
 
-##### Inertia Soak {data-scc="mcdm.heroes.v1/feature.ability.talent.level-1/inertia-soak" data-cost="5 Clarity"}
+##### Inertia Soak {data-scc="mcdm.heroes.v1/feature.ability.talent.level-1/inertia-soak"}
 
 
 *Your psionic energy surrounds the target and pushes everything else away from them.*
@@ -540,7 +540,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 **Strained:** You are [weakened](../condition/weakened.md) (save ends). While you are [weakened](../condition/weakened.md) this way, whenever you are force moved, the [forced movement](../movement/forced-movement.md) [distance](../rule/combat/distance.md) gains a +5 [bonus](../rule/dice/bonuses-and-penalties.md).
 
-##### Iron {data-scc="mcdm.heroes.v1/feature.ability.talent.level-1/iron" data-cost="5 Clarity"}
+##### Iron {data-scc="mcdm.heroes.v1/feature.ability.talent.level-1/iron"}
 
 
 *The target's skin turns to hard, dark metal, impenetrable and dense.*
@@ -553,7 +553,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 **Strained:** You can't use maneuvers (save ends).
 
-##### Perfect Clarity {data-scc="mcdm.heroes.v1/feature.ability.talent.level-1/perfect-clarity" data-cost="5 Clarity"}
+##### Perfect Clarity {data-scc="mcdm.heroes.v1/feature.ability.talent.level-1/perfect-clarity"}
 
 
 *You clear the mind of nothing but the goal.*
@@ -606,7 +606,7 @@ Your [talent tradition](../feature/talent/level-1/talent-tradition.md) grants yo
 
 Choose one of the following abilities.
 
-##### Applied Chronometrics {data-scc="mcdm.heroes.v1/feature.ability.talent.level-2/applied-chronometrics" data-cost="5 Clarity"}
+##### Applied Chronometrics {data-scc="mcdm.heroes.v1/feature.ability.talent.level-2/applied-chronometrics"}
 
 
 *Time slows down around you. Your heartbeat is the only gauge of the extra moments you've gained.*
@@ -625,7 +625,7 @@ Choose one of the following abilities.
 
 **Strained:** Your [speed](../rule/character/speed.md) is halved until the end of the encounter.
 
-##### Slow {data-scc="mcdm.heroes.v1/feature.ability.talent.level-2/slow" data-cost="5 Clarity"}
+##### Slow {data-scc="mcdm.heroes.v1/feature.ability.talent.level-2/slow"}
 
 
 *Perhaps they wonder why everyone else is moving so quickly?*
@@ -648,7 +648,7 @@ Choose one of the following abilities.
 
 Choose one of the following abilities.
 
-##### Gravitic Burst {data-scc="mcdm.heroes.v1/feature.ability.talent.level-2/gravitic-burst" data-cost="5 Clarity"}
+##### Gravitic Burst {data-scc="mcdm.heroes.v1/feature.ability.talent.level-2/gravitic-burst"}
 
 
 *Everyone get away from me!*
@@ -665,7 +665,7 @@ Choose one of the following abilities.
 
 **Strained:** The size of the [burst](../rule/combat/burst.md) increases by 1, and you are [weakened](../condition/weakened.md) until the end of your [turn](../rule/combat/turn.md).
 
-##### Levity and Gravity {data-scc="mcdm.heroes.v1/feature.ability.talent.level-2/levity-and-gravity" data-cost="5 Clarity"}
+##### Levity and Gravity {data-scc="mcdm.heroes.v1/feature.ability.talent.level-2/levity-and-gravity"}
 
 
 *You raise the target slightly into the air, then smother them against the ground.*
@@ -686,7 +686,7 @@ Choose one of the following abilities.
 
 Choose one of the following abilities.
 
-##### Overwhelm {data-scc="mcdm.heroes.v1/feature.ability.talent.level-2/overwhelm" data-cost="5 Clarity"}
+##### Overwhelm {data-scc="mcdm.heroes.v1/feature.ability.talent.level-2/overwhelm"}
 
 
 *You overload their senses, turning all their subconscious thoughts into conscious ones.*
@@ -703,7 +703,7 @@ Choose one of the following abilities.
 
 **Strained:** You start crying, and you can't use [triggered actions](../rule/combat/triggered-action.md) or make [free strikes](../feature/common/main-actions/free-strike.md) until the end of the target's next [turn](../rule/combat/turn.md).
 
-##### Synaptic Override {data-scc="mcdm.heroes.v1/feature.ability.talent.level-2/synaptic-override" data-cost="5 Clarity"}
+##### Synaptic Override {data-scc="mcdm.heroes.v1/feature.ability.talent.level-2/synaptic-override"}
 
 
 *You control an enemy's nervous system. How pleasant for them.*
@@ -734,7 +734,7 @@ You can extend your psionic senses beyond their usual range. Once on each of you
 
 Choose one [heroic ability](../rule/general/heroic-ability.md) from the following options, each of which costs 7 clarity to use.
 
-#### Fling Through Time {data-scc="mcdm.heroes.v1/feature.ability.talent.level-3/fling-through-time" data-cost="7 Clarity"}
+#### Fling Through Time {data-scc="mcdm.heroes.v1/feature.ability.talent.level-3/fling-through-time"}
 
 
 *You hurl the target through the annals of time, forcing them to witness every moment of their existence all at once.*
@@ -753,7 +753,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 **Strained:** You take 2d6 damage and permanently grow visibly older (the equivalent of 10 years for a [human](../ancestry/human.md)). If you obtain a tier 3 outcome on the [power roll](../rule/dice/power-roll.md), you gain 2 clarity.
 
-#### Force Orbs {data-scc="mcdm.heroes.v1/feature.ability.talent.level-3/force-orbs" data-cost="7 Clarity"}
+#### Force Orbs {data-scc="mcdm.heroes.v1/feature.ability.talent.level-3/force-orbs"}
 
 
 *Spheres of solid psionic energy float around you.*
@@ -774,7 +774,7 @@ Once on each of your [turns](../rule/combat/turn.md), you can use a [free maneuv
 
 **Strained:** You create five orbs, and you are [weakened](../condition/weakened.md) while you have any orbs active.
 
-#### Reflector Field {data-scc="mcdm.heroes.v1/feature.ability.talent.level-3/reflector-field" data-cost="7 Clarity"}
+#### Reflector Field {data-scc="mcdm.heroes.v1/feature.ability.talent.level-3/reflector-field"}
 
 
 *A protective field reverses the momentum of incoming attacks.*
@@ -787,7 +787,7 @@ Once on each of your [turns](../rule/combat/turn.md), you can use a [free maneuv
 
 **Strained:** The size of the [aura](../rule/combat/aura.md) increases by 1. Whenever your [aura](../rule/combat/aura.md) reflects an ability, you take 2d6 damage and forget a memory, as determined by you and the Director.
 
-#### Soul Burn {data-scc="mcdm.heroes.v1/feature.ability.talent.level-3/soul-burn" data-cost="7 Clarity"}
+#### Soul Burn {data-scc="mcdm.heroes.v1/feature.ability.talent.level-3/soul-burn"}
 
 
 *You blast their soul out of their body, leaving it to helplessly float back to a weakened husk.*
@@ -884,7 +884,7 @@ Whenever an ally uses a [ranged](../rule/combat/ranged.md) ability while you are
 
 Choose one [heroic ability](../rule/general/heroic-ability.md) from the following options, each of which costs 9 clarity to use.
 
-#### Exothermic Shield {data-scc="mcdm.heroes.v1/feature.ability.talent.level-5/exothermic-shield" data-cost="9 Clarity"}
+#### Exothermic Shield {data-scc="mcdm.heroes.v1/feature.ability.talent.level-5/exothermic-shield"}
 
 
 *You encase the target in psionic flame and allow them to flicker without fear of burning out.*
@@ -897,7 +897,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 **Strained:** The target gains 2 [surges](../rule/resource/surge.md). You are [weakened](../condition/weakened.md) and [slowed](../condition/slowed.md) (save ends).
 
-#### Hypersonic {data-scc="mcdm.heroes.v1/feature.ability.talent.level-5/hypersonic" data-cost="9 Clarity"}
+#### Hypersonic {data-scc="mcdm.heroes.v1/feature.ability.talent.level-5/hypersonic"}
 
 
 *You move fast enough to [turn](../rule/combat/turn.md) around and watch your foes feel the aftermath.*
@@ -916,7 +916,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 **Strained:** If you obtain a tier 2 outcome or better, you are [slowed](../condition/slowed.md) until the end of your [turn](../rule/combat/turn.md) and each target is [slowed](../condition/slowed.md) until the end of their [turn](../rule/combat/turn.md).
 
-#### Mind Snare {data-scc="mcdm.heroes.v1/feature.ability.talent.level-5/mind-snare" data-cost="9 Clarity"}
+#### Mind Snare {data-scc="mcdm.heroes.v1/feature.ability.talent.level-5/mind-snare"}
 
 
 *You latch onto your prey's brain and don't let go, like a song they can't get out of their head.*
@@ -935,7 +935,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 **Strained:** While [slowed](../condition/slowed.md) this way, the target instead takes 5 psychic damage for each square they willingly leave. You have a double [bane](../rule/dice/bane.md) on [ability rolls](../rule/dice/ability-roll.md) made against the target while they are [slowed](../condition/slowed.md) this way.
 
-#### Soulbound {data-scc="mcdm.heroes.v1/feature.ability.talent.level-5/soulbound" data-cost="9 Clarity"}
+#### Soulbound {data-scc="mcdm.heroes.v1/feature.ability.talent.level-5/soulbound"}
 
 
 *You fire a piercing bolt of psychic energy that lances through two foes and leaves a faint intangible thread between them.*
@@ -966,31 +966,31 @@ You gain one interpersonal, lore, or [supernatural](../rule/general/supernatural
 
 Whenever you use an ability that is a main action or a maneuver with the Psionic keyword, you can spend additional discipline to apply a [psi boost](../feature/null/level-7/psi-boost.md) to it and enhance its effects. A [psi boost](../feature/null/level-7/psi-boost.md)'s effects only last until the end of the [turn](../rule/combat/turn.md) which the ability is first used. You can apply multiple psi boosts to an ability, but only one instance of each specific boost. You can use the following psi boosts.
 
-#### Dynamic Power {data-scc="mcdm.heroes.v1/feature.talent.level-6/dynamic-power" data-cost="1 Clarity"}
+#### Dynamic Power {data-scc="mcdm.heroes.v1/feature.talent.level-6/dynamic-power"}
 
 If the ability force moves a target, the [forced movement](../movement/forced-movement.md) [distance](../rule/combat/distance.md) gains a [bonus](../rule/dice/bonuses-and-penalties.md) equal to your [Reason](../rule/character/reason.md) score.
 
-#### Expanded Power {data-scc="mcdm.heroes.v1/feature.talent.level-6/expanded-power" data-cost="3 Clarity"}
+#### Expanded Power {data-scc="mcdm.heroes.v1/feature.talent.level-6/expanded-power"}
 
 If the ability targets an area, you increase the size of the area by 1. If the area is a line, you increase the size of one dimension, not both.
 
-#### Extended Power {data-scc="mcdm.heroes.v1/feature.talent.level-6/extended-power" data-cost="1 Clarity"}
+#### Extended Power {data-scc="mcdm.heroes.v1/feature.talent.level-6/extended-power"}
 
 If the ability is [ranged](../rule/combat/ranged.md), the [distance](../rule/combat/distance.md) gains a [bonus](../rule/dice/bonuses-and-penalties.md) equal to your [Reason](../rule/character/reason.md) score. If the ability is [melee](../rule/combat/melee.md), the [distance](../rule/combat/distance.md) gains a +2 [bonus](../rule/dice/bonuses-and-penalties.md).
 
-#### Heightened Power {data-scc="mcdm.heroes.v1/feature.talent.level-6/heightened-power" data-cost="1 Clarity"}
+#### Heightened Power {data-scc="mcdm.heroes.v1/feature.talent.level-6/heightened-power"}
 
 If the ability deals [rolled damage](../rule/damage/rolled-damage.md), it deals extra damage equal to your [Reason](../rule/character/reason.md) score.
 
-#### Magnified Power {data-scc="mcdm.heroes.v1/feature.talent.level-6/magnified-power" data-cost="5 Clarity"}
+#### Magnified Power {data-scc="mcdm.heroes.v1/feature.talent.level-6/magnified-power"}
 
 If the ability has a [potency](../rule/character/potency.md), you increase that [potency](../rule/character/potency.md) by an amount equal to your [Reason](../rule/character/reason.md) score.
 
-#### Shared Power {data-scc="mcdm.heroes.v1/feature.talent.level-6/shared-power" data-cost="5 Clarity"}
+#### Shared Power {data-scc="mcdm.heroes.v1/feature.talent.level-6/shared-power"}
 
 If the ability targets individual creatures or objects, you target one additional creature or object within [distance](../rule/combat/distance.md).
 
-#### Sharpened Power {data-scc="mcdm.heroes.v1/feature.talent.level-6/sharpened-power" data-cost="1 Clarity"}
+#### Sharpened Power {data-scc="mcdm.heroes.v1/feature.talent.level-6/sharpened-power"}
 
 If the ability has any [power roll](../rule/dice/power-roll.md), that roll gains an [edge](../rule/dice/edge.md).
 
@@ -1002,7 +1002,7 @@ Your [talent tradition](../feature/talent/level-1/talent-tradition.md) grants yo
 
 Choose one of the following abilities.
 
-##### Fate {data-scc="mcdm.heroes.v1/feature.ability.talent.level-6/fate" data-cost="9 Clarity"}
+##### Fate {data-scc="mcdm.heroes.v1/feature.ability.talent.level-6/fate"}
 
 
 *Your foe gets a glimpse of how it will end for them.*
@@ -1021,7 +1021,7 @@ Choose one of the following abilities.
 - **12-16:** 13 + P psychic damage
 - **17+:** 17 + P psychic damage
 
-##### Stasis Field {data-scc="mcdm.heroes.v1/feature.ability.talent.level-6/stasis-field" data-cost="9 Clarity"}
+##### Stasis Field {data-scc="mcdm.heroes.v1/feature.ability.talent.level-6/stasis-field"}
 
 
 *Keep everything as it was. Ignore everything that will be.*
@@ -1046,7 +1046,7 @@ Make a [power roll](../rule/dice/power-roll.md) that targets each enemy in the a
 
 Choose one of the following abilities.
 
-##### Gravitic Well {data-scc="mcdm.heroes.v1/feature.ability.talent.level-6/gravitic-well" data-cost="9 Clarity"}
+##### Gravitic Well {data-scc="mcdm.heroes.v1/feature.ability.talent.level-6/gravitic-well"}
 
 
 *You bend gravity into a fine point and pull your foes toward it.*
@@ -1065,7 +1065,7 @@ Choose one of the following abilities.
 
 **Strained:** The size of the area increases by 2. You also target yourself and each ally within [distance](../rule/combat/distance.md).
 
-##### Greater Kinetic Grip {data-scc="mcdm.heroes.v1/feature.ability.talent.level-6/greater-kinetic-grip" data-cost="9 Clarity"}
+##### Greater Kinetic Grip {data-scc="mcdm.heroes.v1/feature.ability.talent.level-6/greater-kinetic-grip"}
 
 
 *You raise the target into the air without breaking a sweat.*
@@ -1086,7 +1086,7 @@ Choose one of the following abilities.
 
 Choose one of the following abilities.
 
-##### Synaptic Conditioning {data-scc="mcdm.heroes.v1/feature.ability.talent.level-6/synaptic-conditioning" data-cost="9 Clarity"}
+##### Synaptic Conditioning {data-scc="mcdm.heroes.v1/feature.ability.talent.level-6/synaptic-conditioning"}
 
 
 *It's a subtle mindset shift. It's not that they're your enemy—you just don't like them!*
@@ -1103,7 +1103,7 @@ Choose one of the following abilities.
 
 **Strained:** While the target is under this effect, you no longer consider your enemies to be your enemies when using your abilities and features.
 
-##### Synaptic Dissipation {data-scc="mcdm.heroes.v1/feature.ability.talent.level-6/synaptic-dissipation" data-cost="9 Clarity"}
+##### Synaptic Dissipation {data-scc="mcdm.heroes.v1/feature.ability.talent.level-6/synaptic-dissipation"}
 
 
 *You manipulate your enemies' minds and make them wonder if you were ever really there in the first place.*
@@ -1199,7 +1199,7 @@ During a [respite](../rule/resource/respite.md), you can choose a number of crea
 
 You have the following ability.
 
-#### Stasis Shield {data-scc="mcdm.heroes.v1/feature.ability.talent.level-8/stasis-shield" data-cost="3 Clarity"}
+#### Stasis Shield {data-scc="mcdm.heroes.v1/feature.ability.talent.level-8/stasis-shield"}
 
 
 *You freeze time just long enough to bring the victim to safety!*
@@ -1222,7 +1222,7 @@ The range of your [Telepathic Speech](../feature/talent/level-1/telepathic-speec
 
 Choose one [heroic ability](../rule/general/heroic-ability.md) from the following options, each of which costs 11 clarity to use.
 
-#### Doubt {data-scc="mcdm.heroes.v1/feature.ability.talent.level-8/doubt" data-cost="11 Clarity"}
+#### Doubt {data-scc="mcdm.heroes.v1/feature.ability.talent.level-8/doubt"}
 
 
 *You tug at the strings of the foe's anima and unravel them, allowing someone else to take advantage of their drive.*
@@ -1241,7 +1241,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 **Strained:** You feel dispirited until you finish a [respite](../rule/resource/respite.md). If you obtain a tier 3 outcome on the [power roll](../rule/dice/power-roll.md), you and the target each have [damage weakness](../rule/damage/damage-weakness.md) 5 (save ends).
 
-#### Mindwipe {data-scc="mcdm.heroes.v1/feature.ability.talent.level-8/mindwipe" data-cost="11 Clarity"}
+#### Mindwipe {data-scc="mcdm.heroes.v1/feature.ability.talent.level-8/mindwipe"}
 
 
 *You attempt to make them forget all their training.*
@@ -1260,7 +1260,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 **Strained:** You take 3d6 damage.
 
-#### Rejuvenate {data-scc="mcdm.heroes.v1/feature.ability.talent.level-8/rejuvenate" data-cost="11 Clarity"}
+#### Rejuvenate {data-scc="mcdm.heroes.v1/feature.ability.talent.level-8/rejuvenate"}
 
 
 *You reshape the flow of time in the target's body to return it to an earlier state.*
@@ -1277,7 +1277,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 **Strained:** You and the target both permanently grow visibly younger (the equivalent of 20 [human](../ancestry/human.md) years, to the minimum of an 18-year-old). Additionally, you are [weakened](../condition/weakened.md) and [slowed](../condition/slowed.md) (save ends).
 
-#### Steel {data-scc="mcdm.heroes.v1/feature.ability.talent.level-8/steel" data-cost="11 Clarity"}
+#### Steel {data-scc="mcdm.heroes.v1/feature.ability.talent.level-8/steel"}
 
 
 *The target's skin becomes covered in tough metal.*
@@ -1312,7 +1312,7 @@ Your [talent tradition](../feature/talent/level-1/talent-tradition.md) grants yo
 
 Choose one of the following abilities.
 
-##### Acceleration Field {data-scc="mcdm.heroes.v1/feature.ability.talent.level-9/acceleration-field" data-cost="11 Clarity"}
+##### Acceleration Field {data-scc="mcdm.heroes.v1/feature.ability.talent.level-9/acceleration-field"}
 
 
 *You forcibly stuff more moments into a critical point in time, knowing full well you might need to steal some of your own.*
@@ -1331,7 +1331,7 @@ Choose one of the following abilities.
 - **12-16:** 6 corruption damage; [slowed](../condition/slowed.md) (save ends)
 - **17+:** 10 corruption damage; [slowed](../condition/slowed.md) (save ends)
 
-##### Borrow From the Future {data-scc="mcdm.heroes.v1/feature.ability.talent.level-9/borrow-from-the-future" data-cost="11 Clarity"}
+##### Borrow From the Future {data-scc="mcdm.heroes.v1/feature.ability.talent.level-9/borrow-from-the-future"}
 
 
 *You lean on future heroism to assist you in the now.*
@@ -1346,7 +1346,7 @@ Choose one of the following abilities.
 
 Choose one of the following abilities.
 
-##### Fulcrum {data-scc="mcdm.heroes.v1/feature.ability.talent.level-9/fulcrum" data-cost="11 Clarity"}
+##### Fulcrum {data-scc="mcdm.heroes.v1/feature.ability.talent.level-9/fulcrum"}
 
 
 *You precisely manipulate the creatures around you.*
@@ -1365,7 +1365,7 @@ Choose one of the following abilities.
 
 **Strained:** You can choose to reduce the size of the [burst](../rule/combat/burst.md) by 2 (to a minimum of 1 [burst](../rule/combat/burst.md)) to give the [forced movement](../movement/forced-movement.md) [distance](../rule/combat/distance.md) a +2 [bonus](../rule/dice/bonuses-and-penalties.md). You take half the total damage all targets take from [forced movement](../movement/forced-movement.md).
 
-##### Gravitic Nova {data-scc="mcdm.heroes.v1/feature.ability.talent.level-9/gravitic-nova" data-cost="11 Clarity"}
+##### Gravitic Nova {data-scc="mcdm.heroes.v1/feature.ability.talent.level-9/gravitic-nova"}
 
 
 *Unbridled psionic energy erupts from your body and flashes outward, hurling your foes back.*
@@ -1388,7 +1388,7 @@ Choose one of the following abilities.
 
 Choose one of the following abilities.
 
-##### Resonant Mind Spike {data-scc="mcdm.heroes.v1/feature.ability.talent.level-9/resonant-mind-spike" data-cost="11 Clarity"}
+##### Resonant Mind Spike {data-scc="mcdm.heroes.v1/feature.ability.talent.level-9/resonant-mind-spike"}
 
 
 *You fire a telepathic bolt empowered by every consciousness within reach directly into your foe's mind.*
@@ -1407,7 +1407,7 @@ Choose one of the following abilities.
 
 **Strained:** The [ability roll](../rule/dice/ability-roll.md) scores a [critical hit](../rule/combat/critical-hit.md) on a natural 17 or higher. You take half the damage the target takes, and you can't reduce this damage in any way.
 
-##### Synaptic Terror {data-scc="mcdm.heroes.v1/feature.ability.talent.level-9/synaptic-terror" data-cost="11 Clarity"}
+##### Synaptic Terror {data-scc="mcdm.heroes.v1/feature.ability.talent.level-9/synaptic-terror"}
 
 
 *You project a terrifying image into the brains of your foes, and their fear psionically invigorates your allies.*

@@ -1,6 +1,5 @@
 ---
 ancestry: polder
-cost: 1 Point
 name: Graceful Retreat
 scc: mcdm.heroes.v1/feature.trait.polder/graceful-retreat
 type: trait

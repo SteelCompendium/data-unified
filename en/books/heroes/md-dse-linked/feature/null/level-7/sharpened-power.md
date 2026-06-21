@@ -1,9 +1,6 @@
 ---
 action_type: feature
 class: "null"
-cost: 1 Discipline
-cost_amount: "1"
-cost_resource: Discipline
 feature_type: feature
 file_basename: sharpened-power
 file_dpath: feature/null/level-7
@@ -17,13 +14,11 @@ type: feature
 ---
 
 ```ds-feature
-cost: 1 Discipline
 effects:
     - effect: If the ability has any [power roll](../../../rule/dice/power-roll.md), that roll gains an [edge](../../../rule/dice/edge.md).
 feature_type: feature
 metadata:
     class: "null"
-    cost: 1 Discipline
     level: "7"
     name: Sharpened Power
     scc: mcdm.heroes.v1/feature.null.level-7/sharpened-power

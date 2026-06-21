@@ -1,6 +1,5 @@
 ---
 ancestry: time-raider
-cost: 1 Point
 name: Foresight
 scc: mcdm.heroes.v1/feature.trait.time-raider/foresight
 type: trait

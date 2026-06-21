@@ -375,7 +375,7 @@ You have the following triggered action.
 
 You have the following triggered action.
 
-#### Not Yet! {data-scc="mcdm.summoner.v1/feature.ability.summoner.level-1/not-yet" data-cost="3 Essence"}
+#### Not Yet! {data-scc="mcdm.summoner.v1/feature.ability.summoner.level-1/not-yet"}
 
 *I command you to not die.*
 
@@ -966,7 +966,7 @@ Breaking down your [essence](../feature/summoner/level-1/essence.md) into pure p
 
 Choose one [heroic ability](../rule/general/heroic-ability.md) from the following options, each of which costs 5 [essence](../feature/summoner/level-1/essence.md) to use. (Quick Build: [Rallying Cry](../feature/ability/summoner/level-1/rallying-cry.md).)
 
-###### Essence Transfer {data-scc="mcdm.summoner.v1/feature.ability.summoner.level-1/essence-transfer" data-cost="5 Essence"}
+###### Essence Transfer {data-scc="mcdm.summoner.v1/feature.ability.summoner.level-1/essence-transfer"}
 
 *You pierce your foe and repurpose some of that 'fiber of their being' they weren't using.*
 
@@ -986,7 +986,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 - 1 charge: You or an ally within your Summoner's Range gain a [surge](../rule/resource/surge.md).
 - 2 charges: You call forth a signature [minion](../feature/summoner/level-1/minions.md) into an unoccupied space within your Summoner's Range.
 
-###### Explosive Parade {data-scc="mcdm.summoner.v1/feature.ability.summoner.level-1/explosive-parade" data-cost="5 Essence"}
+###### Explosive Parade {data-scc="mcdm.summoner.v1/feature.ability.summoner.level-1/explosive-parade"}
 
 *Your minions swell with energy until they can no longer exist in this realm.*
 
@@ -1006,7 +1006,7 @@ If they move adjacent to their target, become targeted by an [opportunity attack
 
 **Special:** In addition to the [minions](../feature/summoner/level-1/minions.md) summoned as a part of this ability, you can choose to command any number of your [minions](../feature/summoner/level-1/minions.md) within distance, provided they haven't used a main action or maneuver during the [turn](../rule/combat/turn.md).
 
-###### Distraction Tactics {data-scc="mcdm.summoner.v1/feature.ability.summoner.level-1/distraction-tactics" data-cost="5 Essence"}
+###### Distraction Tactics {data-scc="mcdm.summoner.v1/feature.ability.summoner.level-1/distraction-tactics"}
 
 *Your minions do the work to draw the heat away from your allies.*
 
@@ -1018,7 +1018,7 @@ If they move adjacent to their target, become targeted by an [opportunity attack
 
 The target's [strikes](../rule/combat/strike.md) can inflict I < WEAK [taunted](../condition/taunted.md) (EoT) to enemies. The [potency](../rule/character/potency.md) increases by 1 for each [minion](../feature/summoner/level-1/minions.md) that joined the [strike](../rule/combat/strike.md).
 
-###### Rallying Cry {data-scc="mcdm.summoner.v1/feature.ability.summoner.level-1/rallying-cry" data-cost="5 Essence"}
+###### Rallying Cry {data-scc="mcdm.summoner.v1/feature.ability.summoner.level-1/rallying-cry"}
 
 *"Show them what you're made of!"*
 
@@ -1028,7 +1028,7 @@ The target's [strikes](../rule/combat/strike.md) can inflict I < WEAK [taunted](
 
 **Effect:** Each target chooses between gaining 2 [surges](../rule/resource/surge.md) or dealing additional [damage](../rule/damage/damage.md) equal to your [Reason](../rule/character/reason.md) on their next [strike](../rule/combat/strike.md).
 
-###### Shields of Essence {data-scc="mcdm.summoner.v1/feature.ability.summoner.level-1/shields-of-essence" data-cost="5 Essence"}
+###### Shields of Essence {data-scc="mcdm.summoner.v1/feature.ability.summoner.level-1/shields-of-essence"}
 
 *You call forth protective forces to keep you all from harm.*
 
@@ -1044,7 +1044,7 @@ The target's [strikes](../rule/combat/strike.md) can inflict I < WEAK [taunted](
 
 **Effect:** Until the end of the encounter, each target can use a [free triggered action](../rule/combat/triggered-action.md) whenever they take [damage](../rule/damage/damage.md) to reduce the incoming [damage](../rule/damage/damage.md) by half and then lose this effect.
 
-###### Summoner's Sword {data-scc="mcdm.summoner.v1/feature.ability.summoner.level-1/summoners-sword" data-cost="5 Essence"}
+###### Summoner's Sword {data-scc="mcdm.summoner.v1/feature.ability.summoner.level-1/summoners-sword"}
 
 *You draw your strength from the army you surround yourself with and summon a hot blade of energy and fervor.*
 
@@ -1560,7 +1560,7 @@ Whenever an [adjacent](../rule/combat/adjacent.md) creature deals [damage](../ru
 
 Choose one [heroic ability](../rule/general/heroic-ability.md) from the following options, each of which costs 7 [essence](../feature/summoner/level-1/essence.md) to use.
 
-##### Blitz Tactics {data-scc="mcdm.summoner.v1/feature.ability.summoner.level-3/blitz-tactics" data-cost="7 Essence"}
+##### Blitz Tactics {data-scc="mcdm.summoner.v1/feature.ability.summoner.level-3/blitz-tactics"}
 
 *Rush 'em! CRUSH 'EM!*
 
@@ -1570,7 +1570,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 **Effect:** Until the end of the encounter or you are [dying](../rule/health/dying.md), each [minion](../feature/summoner/level-1/minions.md) under your control during the encounter is the target of the following effect. The first time on a [turn](../rule/combat/turn.md) that the target moves through an enemy's space, the enemy can choose to [shift](../movement/shifting.md) 1 square or be M < WEAK (or M < AVERAGE if the target is larger than the enemy) knocked [prone](../condition/prone.md). The [potency](../rule/character/potency.md) increases by 1 for each subsequent target that moves through the enemy's space during the same move action.
 
-##### Cavalry Call {data-scc="mcdm.summoner.v1/feature.ability.summoner.level-3/cavalry-call" data-cost="7 Essence"}
+##### Cavalry Call {data-scc="mcdm.summoner.v1/feature.ability.summoner.level-3/cavalry-call"}
 
 *A lone squad appears to disrupt the enemy's plans and peels off their forces, one by one.*
 
@@ -1582,7 +1582,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 These [minions](../feature/summoner/level-1/minions.md) die at the end of your [turn](../rule/combat/turn.md), activate no effects upon death, and you gain no [essence](../feature/summoner/level-1/essence.md) from their deaths.
 
-##### Essence Funnel {data-scc="mcdm.summoner.v1/feature.ability.summoner.level-3/essence-funnel" data-cost="7 Essence"}
+##### Essence Funnel {data-scc="mcdm.summoner.v1/feature.ability.summoner.level-3/essence-funnel"}
 
 *You rapidly summon and sacrifice minions in order to power a devastating blast of magic.*
 
@@ -1598,7 +1598,7 @@ These [minions](../feature/summoner/level-1/minions.md) die at the end of your [
 
 **Special:** You can choose to kill any number of your [minions](../feature/summoner/level-1/minions.md) within your Summoner's Range as a part of this ability, provided they haven't used a main action or maneuver during the [turn](../rule/combat/turn.md). Each target takes an additional 1 [damage](../rule/damage/damage.md), plus 1 [damage](../rule/damage/damage.md) for each [minion](../feature/summoner/level-1/minions.md) killed this way. These [minions](../feature/summoner/level-1/minions.md) activate no effects upon death, and you gain no [essence](../feature/summoner/level-1/essence.md) from their deaths.
 
-##### Lead By Example {data-scc="mcdm.summoner.v1/feature.ability.summoner.level-3/lead-by-example" data-cost="7 Essence"}
+##### Lead By Example {data-scc="mcdm.summoner.v1/feature.ability.summoner.level-3/lead-by-example"}
 
 *Your minions watch as your implement crackles with power, ready to slam unbelievable force into your foe.*
 
@@ -2069,7 +2069,7 @@ Additionally, whenever you reduce an enemy to 0 [Stamina](../rule/health/stamina
 
 You can summon the assistance of your future champion (see [Portfolio Champion](../feature/summoner/level-8/portfolio-champion.md)) and allow them to show off a brief display of their power. Select one of the following [heroic abilities](../rule/general/heroic-ability.md), each of which costs 9 essence to use.
 
-##### A Champion's Cry {data-scc="mcdm.summoner.v1/feature.ability.summoner.level-6/a-champions-cry" data-cost="9 Essence"}
+##### A Champion's Cry {data-scc="mcdm.summoner.v1/feature.ability.summoner.level-6/a-champions-cry"}
 
 *Your champion unleashes a bellow that shakes you to your core.*
 
@@ -2085,7 +2085,7 @@ You can summon the assistance of your future champion (see [Portfolio Champion](
 
 **Effect:** You can use this ability as if in the space of one of your minions within your Summoner's Range.
 
-##### Army's Idol {data-scc="mcdm.summoner.v1/feature.ability.summoner.level-6/armys-idol" data-cost="9 Essence"}
+##### Army's Idol {data-scc="mcdm.summoner.v1/feature.ability.summoner.level-6/armys-idol"}
 
 *Your champion's appearance has an enchanting impact on you and your allies.*
 
@@ -2099,7 +2099,7 @@ Until the end of the encounter or you become [dying](../rule/health/dying.md), e
 
 Each target can immediately make each of their [saving throws](../rule/general/saving-throw.md) and stand up from [prone](../condition/prone.md).
 
-##### The Champion Slams the Earth {data-scc="mcdm.summoner.v1/feature.ability.summoner.level-6/the-champion-slams-the-earth" data-cost="9 Essence"}
+##### The Champion Slams the Earth {data-scc="mcdm.summoner.v1/feature.ability.summoner.level-6/the-champion-slams-the-earth"}
 
 *Your champion lays their fury upon those unfortunate enough to be in their wake.*
 
@@ -2117,7 +2117,7 @@ Each target can immediately make each of their [saving throws](../rule/general/s
 
 **Special:** You can change the [damage type](../rule/damage/damage-type.md) to be a type that your champion deals on their stat block (see [Portfolio Champion](../feature/summoner/level-8/portfolio-champion.md)).
 
-##### Their Pall Shrouds All {data-scc="mcdm.summoner.v1/feature.ability.summoner.level-6/their-pall-shrouds-all" data-cost="9 Essence"}
+##### Their Pall Shrouds All {data-scc="mcdm.summoner.v1/feature.ability.summoner.level-6/their-pall-shrouds-all"}
 
 *Your champion fills the area with a thick haze hiding friend from foe.*
 
@@ -2527,7 +2527,7 @@ You and your allies are now welcome in your circle's source manifold. Negotiatio
 
 Choose one [heroic ability](../rule/general/heroic-ability.md) from the following options, each of which costs 11 essence to use.
 
-##### 10,000 Minions {data-scc="mcdm.summoner.v1/feature.ability.summoner.level-9/10000-minions" data-cost="11 Essence"}
+##### 10,000 Minions {data-scc="mcdm.summoner.v1/feature.ability.summoner.level-9/10000-minions"}
 
 *The battle is now a war. Your entire army storms the field.*
 
@@ -2539,7 +2539,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 Additionally, you can use [Minion Bridge](../feature/ability/summoner/level-1/minion-bridge.md) treating each affected square as an eligible minion (up to a maximum of 10 additional squares).
 
-##### Bodyguard Tactics {data-scc="mcdm.summoner.v1/feature.ability.summoner.level-9/bodyguard-tactics" data-cost="11 Essence"}
+##### Bodyguard Tactics {data-scc="mcdm.summoner.v1/feature.ability.summoner.level-9/bodyguard-tactics"}
 
 *You surround your allies with a nigh-endless supply of summons that stand in the way of all impacts.*
 
@@ -2549,7 +2549,7 @@ Additionally, you can use [Minion Bridge](../feature/ability/summoner/level-1/mi
 
 **Effect:** Until the end of the encounter or you are [dying](../rule/health/dying.md), each target has [damage immunity](../rule/damage/damage-immunity.md) 5 and can use a [free triggered action](../rule/combat/triggered-action.md) once per [turn](../rule/combat/turn.md) whenever they are [force moved](../movement/forced-movement.md) to reduce the distance by half.
 
-##### I Abjure Thee {data-scc="mcdm.summoner.v1/feature.ability.summoner.level-9/i-abjure-thee" data-cost="11 Essence"}
+##### I Abjure Thee {data-scc="mcdm.summoner.v1/feature.ability.summoner.level-9/i-abjure-thee"}
 
 *Cast those not affixed to this manifold into the void of a minion's existence.*
 
@@ -2561,7 +2561,7 @@ Additionally, you can use [Minion Bridge](../feature/ability/summoner/level-1/mi
 
 A leader or a solo enemy in the area that has R, I, or P < AVERAGE is [weakened](../condition/weakened.md) and [slowed](../condition/slowed.md) ([save ends](../rule/general/saving-throw.md)) as they are partially removed from the manifold. You can increase the [potency](../rule/character/potency.md) by 1 for each of your minions [adjacent](../rule/combat/adjacent.md) to the target you choose to sacrifice as a part of using this ability.
 
-##### The Champion's Wrath {data-scc="mcdm.summoner.v1/feature.ability.summoner.level-9/the-champions-wrath" data-cost="11 Essence"}
+##### The Champion's Wrath {data-scc="mcdm.summoner.v1/feature.ability.summoner.level-9/the-champions-wrath"}
 
 *Your champion appears and goes into a rampage, clearing the way for your minions to march forth.*
 

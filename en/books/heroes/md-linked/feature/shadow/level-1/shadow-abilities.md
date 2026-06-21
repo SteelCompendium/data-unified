@@ -88,7 +88,7 @@ A range of [heroic abilities](../../../rule/general/heroic-ability.md) define yo
 
 Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the following options, each of which costs 3 insight to use. (*Quick Build:* [Get In Get Out](../../ability/shadow/level-1/get-in-get-out.md).)
 
-### Disorienting Strike {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-1/disorienting-strike" data-cost="3 Insight"}
+### Disorienting Strike {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-1/disorienting-strike"}
 
 
 *Your attack leaves them reeling, allowing you to follow up.*
@@ -105,7 +105,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 **Effect:** You can [shift](../../../movement/shifting.md) into any square the target leaves when you [slide](../../../movement/forced-movement.md) them.
 
-### Eviscerate {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-1/eviscerate" data-cost="3 Insight"}
+### Eviscerate {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-1/eviscerate"}
 
 
 *You leave your foe bleeding out after a devastating attack.*
@@ -120,7 +120,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 - **12-16:** 6 + A damage; A < AVERAGE, [bleeding](../../../condition/bleeding.md) (save ends)
 - **17+:** 10 + A damage; A < STRONG, [bleeding](../../../condition/bleeding.md) (save ends)
 
-### Get In Get Out {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-1/get-in-get-out" data-cost="3 Insight"}
+### Get In Get Out {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-1/get-in-get-out"}
 
 
 *Move unexpectedly, strike fast, and be gone!*
@@ -137,7 +137,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 **Effect:** You can [shift](../../../movement/shifting.md) up to your [speed](../../../rule/character/speed.md), dividing that movement before or after your [strike](../../../rule/combat/strike.md) as desired.
 
-### Two Throats at Once {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-1/two-throats-at-once" data-cost="3 Insight"}
+### Two Throats at Once {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-1/two-throats-at-once"}
 
 
 *A bargain.*
@@ -156,7 +156,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the following options, each of which costs 5 insight to use. (Quick Build: [Coup de Grace](../../ability/shadow/level-1/coup-de-grace.md).)
 
-### Coup de Grace {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-1/coup-de-grace" data-cost="5 Insight"}
+### Coup de Grace {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-1/coup-de-grace"}
 
 
 *Your blade might be the last thing they see.*
@@ -171,7 +171,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 - **12-16:** 2d6 + 11 + A damage
 - **17+:** 2d6 + 16 + A damage
 
-### One Hundred Throats {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-1/one-hundred-throats" data-cost="5 Insight"}
+### One Hundred Throats {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-1/one-hundred-throats"}
 
 
 *As you move across the battlefield, every foe within reach feels your wrath.*
@@ -188,7 +188,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 - **12-16:** 6 damage
 - **17+:** 9 damage
 
-### Setup {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-1/setup" data-cost="5 Insight"}
+### Setup {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-1/setup"}
 
 
 *Your friends will thank you.*
@@ -203,7 +203,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 - **12-16:** 9 + A damage; R < AVERAGE, the target has [damage weakness](../../../rule/damage/damage-weakness.md) 5 (save ends)
 - **17+:** 13 + A damage; R < STRONG, the target has [damage weakness](../../../rule/damage/damage-weakness.md) 5 (save ends)
 
-### Shadowstrike {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-1/shadowstrike" data-cost="5 Insight"}
+### Shadowstrike {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-1/shadowstrike"}
 
 
 *They have no idea what the college taught you.*

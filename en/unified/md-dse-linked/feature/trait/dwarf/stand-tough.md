@@ -1,9 +1,6 @@
 ---
 action_type: feature
 ancestry: dwarf
-cost: 1 Point
-cost_amount: "1"
-cost_resource: Point
 feature_type: trait
 file_basename: stand-tough
 file_dpath: feature/trait/dwarf
@@ -16,13 +13,11 @@ type: trait
 ---
 
 ```ds-feature
-cost: 1 Point
 effects:
     - effect: Your body is made to withstand the blows of your enemies. Your [Might](../../../rule/character/might.md) score is treated as 1 higher for the purpose of resisting [potencies](../../../rule/character/potency.md), and you gain an [edge](../../../rule/dice/edge.md) on [Might](../../../rule/character/might.md) [tests](../../../rule/test/test.md) when called for to resist environmental effects or a creature's traits or abilities.
 feature_type: trait
 metadata:
     ancestry: dwarf
-    cost: 1 Point
     name: Stand Tough
     scc: mcdm.heroes.v1/feature.trait.dwarf/stand-tough
     type: trait

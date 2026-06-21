@@ -1,6 +1,5 @@
 ---
 ancestry: devil
-cost: 1 Point
 name: Hellsight
 scc: mcdm.heroes.v1/feature.trait.devil/hellsight
 type: trait

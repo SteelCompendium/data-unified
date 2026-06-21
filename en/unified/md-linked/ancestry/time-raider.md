@@ -112,23 +112,23 @@ Your mind is a formidable layer of defense. You have psychic immunity equal to y
 
 You have 3 ancestry points to spend on the following traits. (*Quick Build:* Beyondsight, Psionic Gift with [Psionic Bolt](../feature/ability/time-raider/psionic-bolt.md).)
 
-#### Beyondsight {data-scc="mcdm.heroes.v1/feature.trait.time-raider/beyondsight" data-cost="1 Point"}
+#### Beyondsight {data-scc="mcdm.heroes.v1/feature.trait.time-raider/beyondsight"}
 
 As a maneuver, you can adjust your vision to allow you to see through mundane obstructions that are 1 square thick or less. While your vision is adjusted this way, you can't see the area within 1 square of you and you don't have [line of effect](../rule/combat/line-of-effect.md) to any creature or object in that area. You can restore your usual vision as a maneuver.
 
-#### Foresight {data-scc="mcdm.heroes.v1/feature.trait.time-raider/foresight" data-cost="1 Point"}
+#### Foresight {data-scc="mcdm.heroes.v1/feature.trait.time-raider/foresight"}
 
 Your senses extend past mundane obscuration and the veil of the future alike. You automatically know the location of any creature with [concealment](../rule/combat/concealment.md) who isn't hidden from you within 20, and you negate the usual [bane](../rule/dice/bane.md) on [strikes](../rule/combat/strike.md) against such creatures. Additionally, whenever you are targeted by a [strike](../rule/combat/strike.md), you can use a [triggered action](../rule/combat/triggered-action.md) to impose a [bane](../rule/dice/bane.md) on the [power roll](../rule/dice/power-roll.md).
 
-#### Four-Armed Athletics {data-scc="mcdm.heroes.v1/feature.trait.time-raider/four-armed-athletics" data-cost="1 Point"}
+#### Four-Armed Athletics {data-scc="mcdm.heroes.v1/feature.trait.time-raider/four-armed-athletics"}
 
 Your unique physiology enhances your movement. You gain an [edge](../rule/dice/edge.md) on [tests](../rule/test/test.md) that use the [Climb](../skill/exploration/climb.md), [Gymnastics](../skill/exploration/gymnastics.md), or [Swim](../skill/exploration/swim.md) skills when you can use all your arms in the attempt.
 
-#### Four-Armed Martial Arts {data-scc="mcdm.heroes.v1/feature.trait.time-raider/four-armed-martial-arts" data-cost="2 Points"}
+#### Four-Armed Martial Arts {data-scc="mcdm.heroes.v1/feature.trait.time-raider/four-armed-martial-arts"}
 
 Your multiple arms let you take on multiple tasks at the same time. Whenever you use the [Grab](../feature/common/maneuvers/grab.md) or [Knockback](../feature/common/maneuvers/knockback.md) maneuver against an [adjacent](../rule/combat/adjacent.md) creature, you can target one additional [adjacent](../rule/combat/adjacent.md) creature, using the same [power roll](../rule/dice/power-roll.md) for both targets. Additionally, you can have up to two creatures [grabbed](../condition/grabbed.md) at a time.
 
-#### Psionic Gift {data-scc="mcdm.heroes.v1/feature.trait.time-raider/psionic-gift" data-cost="2 Points"}
+#### Psionic Gift {data-scc="mcdm.heroes.v1/feature.trait.time-raider/psionic-gift"}
 
 Choose one [signature ability](../rule/combat/signature-ability.md) from the following options. [Signature abilities](../rule/combat/signature-ability.md) can be used at will.
 
@@ -170,6 +170,6 @@ Choose one [signature ability](../rule/combat/signature-ability.md) from the fol
 
 **Effect:** The target gains a [bonus](../rule/dice/bonuses-and-penalties.md) to [speed](../rule/character/speed.md) equal to your [Reason](../rule/character/reason.md), [Intuition](../rule/character/intuition.md), or [Presence](../rule/character/presence.md) score (your choice) until the start of your next [turn](../rule/combat/turn.md).
 
-#### Unstoppable Mind {data-cost="2 Points"}
+#### Unstoppable Mind
 
 Your mind allows you to maintain your focus in any situation. You can't be made [dazed](../condition/dazed.md).

@@ -1,6 +1,5 @@
 ---
 class: talent
-cost: 1 Clarity
 level: "6"
 name: Dynamic Power
 scc: mcdm.heroes.v1/feature.talent.level-6/dynamic-power

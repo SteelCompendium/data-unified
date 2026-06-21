@@ -16,7 +16,7 @@ Your [troubadour class act](troubadour-class-act.md) grants you a [triggered act
 | Duelist   | [Riposte](../../ability/troubadour/level-1/riposte.md)                |
 | Virtuoso  | [Harmonize](../../ability/troubadour/level-1/harmonize.md)              |
 
-### Harmonize {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-1/harmonize" data-cost="3 Drama"}
+### Harmonize {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-1/harmonize"}
 
 
 *Give the chorus a little punch.*

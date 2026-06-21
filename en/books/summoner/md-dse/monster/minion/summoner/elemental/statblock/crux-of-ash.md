@@ -14,8 +14,8 @@ intuition: 0
 item_id: crux-of-ash
 item_name: Crux of Ash
 keywords:
-    - Elemental (Fire)
-    - Elemental (Air)
+    - Elemental (Fire
+    - Air)
 might: -2
 movement: Fly
 name: Crux of Ash

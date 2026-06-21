@@ -1,6 +1,5 @@
 ---
 ancestry: hakaan
-cost: 2 Points
 name: Great Fortitude
 scc: mcdm.heroes.v1/feature.trait.hakaan/great-fortitude
 type: trait

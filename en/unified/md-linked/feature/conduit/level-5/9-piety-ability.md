@@ -8,7 +8,7 @@ type: feature
 
 Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the following options, each of which costs 9 piety to use.
 
-## Beacon of Grace {data-scc="mcdm.heroes.v1/feature.ability.conduit.level-5/beacon-of-grace" data-cost="9 Piety"}
+## Beacon of Grace {data-scc="mcdm.heroes.v1/feature.ability.conduit.level-5/beacon-of-grace"}
 
 
 *You ignite a foe with holy radiance, rewarding allies who attack them.*
@@ -25,7 +25,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 **Effect:** Until the end of the encounter, whenever you or any ally damages the target using an ability, that creature can spend a [Recovery](../../../rule/health/recoveries.md). If the target is reduced to 0 [Stamina](../../../rule/health/stamina.md) before the end of the encounter, you can use a free [triggered action](../level-1/triggered-action.md) to move this effect to another creature within [distance](../../../rule/combat/distance.md).
 
-## Penance {data-scc="mcdm.heroes.v1/feature.ability.conduit.level-5/penance" data-cost="9 Piety"}
+## Penance {data-scc="mcdm.heroes.v1/feature.ability.conduit.level-5/penance"}
 
 
 *"If you won't kneel, the gods will make you."*
@@ -40,7 +40,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 - **12-16:** 7 corruption damage; I < AVERAGE, [prone and](../../../condition/prone.md) can't stand (save ends)
 - **17+:** 11 corruption damage; I < STRONG, [prone and](../../../condition/prone.md) can't stand (save ends)
 
-## Sanctuary {data-scc="mcdm.heroes.v1/feature.ability.conduit.level-5/sanctuary" data-cost="9 Piety"}
+## Sanctuary {data-scc="mcdm.heroes.v1/feature.ability.conduit.level-5/sanctuary"}
 
 
 *You send yourself or an ally to a divine manifold to instantaneously regain health.*
@@ -51,7 +51,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 **Effect:** The target is removed from the encounter map until the start of their next [turn](../../../rule/combat/turn.md) and can spend any number of [Recoveries](../../../rule/health/recoveries.md). At the start of their [turn](../../../rule/combat/turn.md), the target reappears in the space they left or the nearest unoccupied space of their choice.
 
-## Vessel of Retribution {data-scc="mcdm.heroes.v1/feature.ability.conduit.level-5/vessel-of-retribution" data-cost="9 Piety"}
+## Vessel of Retribution {data-scc="mcdm.heroes.v1/feature.ability.conduit.level-5/vessel-of-retribution"}
 
 
 *You infuse yourself or an ally with the retributive energy of the gods, waiting to be unleashed.*

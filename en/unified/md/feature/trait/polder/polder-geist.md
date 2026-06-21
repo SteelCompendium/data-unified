@@ -1,6 +1,5 @@
 ---
 ancestry: polder
-cost: 1 Point
 name: Polder Geist
 scc: mcdm.heroes.v1/feature.trait.polder/polder-geist
 type: trait

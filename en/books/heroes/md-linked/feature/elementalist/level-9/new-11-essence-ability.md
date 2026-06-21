@@ -8,7 +8,7 @@ type: feature
 
 Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the following options, each of which costs 11 essence to use. Alternatively, you can choose one of the 11-essence abilities you didn't select at 8th level (see 8th-Level Features).
 
-## Earth Rejects You {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-9/earth-rejects-you" data-cost="11 Essence"}
+## Earth Rejects You {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-9/earth-rejects-you"}
 
 
 *Everyone and everything gets blown away in an eruption of rocks and debris.*
@@ -25,7 +25,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 **Persistent 2:** At the start of your [turn](../../../rule/combat/turn.md), you can use a maneuver to use this ability again without spending essence.
 
-## The Green Defends Its Servants {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-9/the-green-defends-its-servants" data-cost="11 Essence"}
+## The Green Defends Its Servants {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-9/the-green-defends-its-servants"}
 
 
 *A luminous green shield shows its true beauty the more it cracks.*
@@ -38,7 +38,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 **Persistent 2:** The effect lasts until the start of your next [turn](../../../rule/combat/turn.md).
 
-## Prism {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-9/prism" data-cost="11 Essence"}
+## Prism {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-9/prism"}
 
 
 *You split your essence, allowing you to cast multiple effects at once.*
@@ -49,7 +49,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 **Effect:** You use up to three [heroic abilities](../../../rule/general/heroic-ability.md) whose essence costs total 11 or less, spending no additional essence beyond the cost of this ability. You can [shift](../../../movement/shifting.md) up to 2 squares between your use of each ability.
 
-## Unquenchable Fire {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-9/unquenchable-fire" data-cost="11 Essence"}
+## Unquenchable Fire {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-9/unquenchable-fire"}
 
 
 *You let fly a fiery missile braided with pure primal energy.*

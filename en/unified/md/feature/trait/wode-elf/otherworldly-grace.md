@@ -1,6 +1,5 @@
 ---
 ancestry: wode-elf
-cost: 2 Points
 name: Otherworldly Grace
 scc: mcdm.heroes.v1/feature.trait.wode-elf/otherworldly-grace
 type: trait

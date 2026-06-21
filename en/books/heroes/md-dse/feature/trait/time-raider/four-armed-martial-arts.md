@@ -1,9 +1,6 @@
 ---
 action_type: feature
 ancestry: time-raider
-cost: 2 Points
-cost_amount: "2"
-cost_resource: Points
 feature_type: trait
 file_basename: four-armed-martial-arts
 file_dpath: feature/trait/time-raider
@@ -16,13 +13,11 @@ type: trait
 ---
 
 ```ds-feature
-cost: 2 Points
 effects:
     - effect: Your multiple arms let you take on multiple tasks at the same time. Whenever you use the [Grab](scc.v1:mcdm.heroes.v1/feature.common.maneuvers/grab) or [Knockback](scc.v1:mcdm.heroes.v1/feature.common.maneuvers/knockback) maneuver against an [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) creature, you can target one additional [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) creature, using the same [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) for both targets. Additionally, you can have up to two creatures [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) at a time.
 feature_type: trait
 metadata:
     ancestry: time-raider
-    cost: 2 Points
     name: Four-Armed Martial Arts
     scc: mcdm.heroes.v1/feature.trait.time-raider/four-armed-martial-arts
     type: trait

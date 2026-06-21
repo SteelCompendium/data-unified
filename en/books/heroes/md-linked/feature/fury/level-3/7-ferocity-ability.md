@@ -8,7 +8,7 @@ type: feature
 
 Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the following options, each of which costs 7 ferocity to use.
 
-## Demon Unleashed {data-scc="mcdm.heroes.v1/feature.ability.fury.level-3/demon-unleashed" data-cost="7 Ferocity"}
+## Demon Unleashed {data-scc="mcdm.heroes.v1/feature.ability.fury.level-3/demon-unleashed"}
 
 
 *Foes tremble at the sight of you.*
@@ -19,7 +19,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 **Effect:** Until the end of the encounter or until you are [dying](../../../rule/health/dying.md), each enemy who starts their [turn](../../../rule/combat/turn.md) [adjacent](../../../rule/combat/adjacent.md) to you and has P < STRONG is [frightened](../../../condition/frightened.md) until the end of their [turn](../../../rule/combat/turn.md).
 
-## Face the Storm! {data-scc="mcdm.heroes.v1/feature.ability.fury.level-3/face-the-storm" data-cost="7 Ferocity"}
+## Face the Storm! {data-scc="mcdm.heroes.v1/feature.ability.fury.level-3/face-the-storm"}
 
 
 *Shocked in the face of your naked brutality, your enemy's instincts take over.*
@@ -30,7 +30,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 **Effect:** Until the end of the encounter or until you are [dying](../../../rule/health/dying.md), each creature you make a [melee](../../../rule/combat/melee.md) [strike](../../../rule/combat/strike.md) against who has P < AVERAGE is [taunted](../../../condition/taunted.md) until the end of their next [turn](../../../rule/combat/turn.md). Additionally, when you use an ability that deals [rolled damage](../../../rule/damage/rolled-damage.md) against any enemy [taunted](../../../condition/taunted.md) by you, the ability deals extra damage equal to twice your [Might](../../../rule/character/might.md) score and increases its [potency](../../../rule/character/potency.md) by 1.
 
-## Steelbreaker {data-scc="mcdm.heroes.v1/feature.ability.fury.level-3/steelbreaker" data-cost="7 Ferocity"}
+## Steelbreaker {data-scc="mcdm.heroes.v1/feature.ability.fury.level-3/steelbreaker"}
 
 
 *See how useless their weapons are!*
@@ -41,7 +41,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 **Effect:** You gain 20 [temporary Stamina](../../../rule/health/temporary-stamina.md).
 
-## You Are Already Dead {data-scc="mcdm.heroes.v1/feature.ability.fury.level-3/you-are-already-dead" data-cost="7 Ferocity"}
+## You Are Already Dead {data-scc="mcdm.heroes.v1/feature.ability.fury.level-3/you-are-already-dead"}
 
 
 *Slash. Walk away.*

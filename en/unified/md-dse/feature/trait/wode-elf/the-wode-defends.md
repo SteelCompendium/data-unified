@@ -1,9 +1,6 @@
 ---
 action_type: feature
 ancestry: wode-elf
-cost: 2 Points
-cost_amount: "2"
-cost_resource: Points
 feature_type: trait
 file_basename: the-wode-defends
 file_dpath: feature/trait/wode-elf
@@ -16,13 +13,11 @@ type: trait
 ---
 
 ```ds-feature
-cost: 2 Points
 effects:
     - effect: You have the following [signature ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability). [Signature abilities](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability) can be used at will.
 feature_type: trait
 metadata:
     ancestry: wode-elf
-    cost: 2 Points
     name: The Wode Defends
     scc: mcdm.heroes.v1/feature.trait.wode-elf/the-wode-defends
     type: trait

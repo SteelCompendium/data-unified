@@ -8,7 +8,7 @@ type: feature
 
 Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the following options, each of which costs 11 ferocity to use.
 
-## Elemental Ferocity {data-scc="mcdm.heroes.v1/feature.ability.fury.level-8/elemental-ferocity" data-cost="11 Ferocity"}
+## Elemental Ferocity {data-scc="mcdm.heroes.v1/feature.ability.fury.level-8/elemental-ferocity"}
 
 
 *Your primordial energy makes for instant retribution.*
@@ -19,7 +19,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 **Effect:** You gain 10 [temporary Stamina](../../../rule/health/temporary-stamina.md). Additionally, choose acid, cold, corruption, fire, lightning, poison, or sonic damage. Until the end of the encounter or until you are [dying](../../../rule/health/dying.md), whenever an enemy damages you, they take 10 damage of the chosen type. If this damage reduces the enemy to 0 [Stamina](../../../rule/health/stamina.md), you gain 10 [temporary Stamina](../../../rule/health/temporary-stamina.md).
 
-## Overkill {data-scc="mcdm.heroes.v1/feature.ability.fury.level-8/overkill" data-cost="11 Ferocity"}
+## Overkill {data-scc="mcdm.heroes.v1/feature.ability.fury.level-8/overkill"}
 
 
 *You strike so no damage is wasted.*
@@ -36,7 +36,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 **Effect:** If the target is a minion or is [winded](../../../rule/health/winded.md) but isn't a leader or solo creature, they are reduced to 0 [Stamina](../../../rule/health/stamina.md) before this ability's damage is dealt. If the target is killed by this damage, you can deal any damage over what was required to kill them to another creature within 5 squares of the target.
 
-## Primordial Rage {data-scc="mcdm.heroes.v1/feature.ability.fury.level-8/primordial-rage" data-cost="11 Ferocity"}
+## Primordial Rage {data-scc="mcdm.heroes.v1/feature.ability.fury.level-8/primordial-rage"}
 
 
 *Your ferocity manifests into [primordial power](../level-10/primordial-power.md).*
@@ -47,7 +47,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 **Effect:** Choose acid, cold, corruption, fire, lightning, poison, or sonic damage. Until the end of the encounter or until you are [dying](../../../rule/health/dying.md), you can choose one target of any ability you use, with that target taking an extra 15 damage of the chosen type. Additionally, whenever you gain ferocity from taking damage, the source of the damage takes 5 damage of the chosen type.
 
-## Relentless Death {data-scc="mcdm.heroes.v1/feature.ability.fury.level-8/relentless-death" data-cost="11 Ferocity"}
+## Relentless Death {data-scc="mcdm.heroes.v1/feature.ability.fury.level-8/relentless-death"}
 
 
 *You won't escape your fate.*

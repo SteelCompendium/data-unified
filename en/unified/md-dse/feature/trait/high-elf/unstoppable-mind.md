@@ -1,9 +1,6 @@
 ---
 action_type: feature
 ancestry: high-elf
-cost: 2 Points
-cost_amount: "2"
-cost_resource: Points
 feature_type: trait
 file_basename: unstoppable-mind
 file_dpath: feature/trait/high-elf
@@ -16,13 +13,11 @@ type: trait
 ---
 
 ```ds-feature
-cost: 2 Points
 effects:
     - effect: Your mind allows you to maintain your focus in any situation. You can't be made [dazed](scc.v1:mcdm.heroes.v1/condition/dazed).
 feature_type: trait
 metadata:
     ancestry: high-elf
-    cost: 2 Points
     name: Unstoppable Mind
     scc: mcdm.heroes.v1/feature.trait.high-elf/unstoppable-mind
     type: trait

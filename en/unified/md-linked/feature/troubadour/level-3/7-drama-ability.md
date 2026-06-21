@@ -8,7 +8,7 @@ type: feature
 
 Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the following options, each of which costs 7 drama to use.
 
-## Extensive Rewrites {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-3/extensive-rewrites" data-cost="7 Drama"}
+## Extensive Rewrites {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-3/extensive-rewrites"}
 
 
 *No, this isn't right. That foe was over there!*
@@ -25,7 +25,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 **Effect:** Instead of [sliding](../../../movement/forced-movement.md) a target, you can swap their location with another target as long as each can fit into the other's space. You can't [slide](../../../movement/forced-movement.md) targets into other creatures or objects using this ability.
 
-## Infernal Gavotte {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-3/infernal-gavotte" data-cost="7 Drama"}
+## Infernal Gavotte {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-3/infernal-gavotte"}
 
 
 *A spicy performance lights a fire under your allies' feet.*
@@ -42,7 +42,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 **Effect:** Each ally in the area can [shift](../../../movement/shifting.md) up to 2 squares.
 
-## Star Solo {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-3/star-solo" data-cost="7 Drama"}
+## Star Solo {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-3/star-solo"}
 
 
 *Your performance travels and doesn't stop moving until your audience is completely rocked.*
@@ -59,7 +59,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 **Effect:** You can choose to have this ability deal sonic damage. Additionally, you can use this ability against the same target for the next 2 [combat rounds](../../../rule/combat/combat-round.md) without spending drama.
 
-## We Meet at Last {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-3/we-meet-at-last" data-cost="7 Drama"}
+## We Meet at Last {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-3/we-meet-at-last"}
 
 
 *You magically intertwine your fate with another creature—for better or worse.*

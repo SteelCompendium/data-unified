@@ -1,6 +1,5 @@
 ---
 ancestry: devil
-cost: 1 Point
 name: Beast Legs
 scc: mcdm.heroes.v1/feature.trait.devil/beast-legs
 type: trait

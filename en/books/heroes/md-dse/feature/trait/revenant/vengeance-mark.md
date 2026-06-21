@@ -1,9 +1,6 @@
 ---
 action_type: feature
 ancestry: revenant
-cost: 2 Points
-cost_amount: "2"
-cost_resource: Points
 feature_type: trait
 file_basename: vengeance-mark
 file_dpath: feature/trait/revenant
@@ -16,7 +13,6 @@ type: trait
 ---
 
 ```ds-feature
-cost: 2 Points
 effects:
     - effect: |-
         As a maneuver, you place a magic sigil on a creature within 10 squares. When you place a sigil, you decide where it appears on the creature's body, and whether the sigil is visible to only you or to all creatures.
@@ -27,7 +23,6 @@ effects:
 feature_type: trait
 metadata:
     ancestry: revenant
-    cost: 2 Points
     name: Vengeance Mark
     scc: mcdm.heroes.v1/feature.trait.revenant/vengeance-mark
     type: trait

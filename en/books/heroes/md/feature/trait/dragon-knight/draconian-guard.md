@@ -1,6 +1,5 @@
 ---
 ancestry: dragon-knight
-cost: 1 Point
 name: Draconian Guard
 scc: mcdm.heroes.v1/feature.trait.dragon-knight/draconian-guard
 type: trait

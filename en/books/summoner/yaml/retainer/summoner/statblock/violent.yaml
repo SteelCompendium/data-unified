@@ -1,0 +1,90 @@
+agility: 3
+ev: ""
+features:
+    - effects:
+        - effect: The violent's melee [free strikes](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) deal an additional 2 damage to each [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) enemy from whom they were hidden. The violent loses their disguise after striking.
+      feature_type: trait
+      icon: ⭐️
+      name: Transforming Strike
+      type: feature
+    - effects:
+        - effect: The violent uses the [Hide](scc.v1:mcdm.heroes.v1/feature.common.maneuvers/hide) maneuver at the start of their turn as a [free maneuver](scc.v1:mcdm.heroes.v1/rule.combat/free-maneuver), disguising themselves as a a [size](scc.v1:mcdm.heroes.v1/rule.character/size) 1M or smaller object.
+      feature_type: trait
+      icon: ⭐️
+      name: Mimicry
+      type: feature
+    - effects:
+        - effect: Each creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the violent can't be hidden from them.
+      feature_type: trait
+      icon: ⭐️
+      name: Soulsight
+      type: feature
+    - cost: Encounter
+      distance: 5 burst
+      effects:
+        - effect: |-
+            **Effect:** Each target moves up to their [speed](scc.v1:mcdm.heroes.v1/rule.character/speed) toward an ally. Each ally within [line of effect](scc.v1:mcdm.heroes.v1/rule.combat/line-of-effect) of the detective can give one [EoT](scc.v1:mcdm.heroes.v1/rule.combat/end-of-turn) or save ends effect they're affected by to an [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) minion and end that effect on themself.
+            Until the end of the encounter, whenever an enemy kills a target and has P < STRONG, they receive all EoT or save ends effects the target was affected by.
+      feature_type: ability
+      icon: "\U0001F300"
+      keywords:
+        - Area
+        - Magic
+      name: Cleansing Flense
+      target: Each of the detective's minions in the area
+      type: feature
+      usage: Maneuver
+    - cost: Encounter
+      distance: Ranged 5
+      effects:
+        - roll: 2d10 + highest characteristic
+          tier1: 5 corruption damage; M < WEAK [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+          tier2: 8 corruption damage; M < AVERAGE [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+          tier3: 10 corruption damage; M < STRONG [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+      feature_type: ability
+      icon: "\U0001F3F9"
+      keywords:
+        - Area
+        - Magic
+      name: Blightwash
+      target: One of the detective's minions
+      type: feature
+      usage: Main action
+    - cost: Encounter
+      distance: Ranged 10
+      effects:
+        - effect: '**Effect:** The detective summons two gorrres into unoccupied spaces within distance. On each of the detective''s turns, they direct the squad of **gorrres** to move and use a main action.'
+      feature_type: ability
+      icon: "\U0001F3F9"
+      keywords:
+        - Magic
+        - Ranged
+      name: Summon Gorrres
+      target: Special
+      type: feature
+      usage: Main action
+free_strike: 4
+immunities:
+    - —
+intuition: -1
+keywords:
+    - Abyssal
+    - Demon
+level: 0
+metadata:
+    scc: mcdm.summoner.v1/retainer.summoner.statblock/violent
+    source: mcdm.summoner.v1
+might: 2
+movement: Climb
+name: Violent
+organization: Minion
+presence: -1
+reason: 0
+role: Ambusher
+size: 1M
+speed: 7
+stability: 1
+stamina: 7 | 7 | 7
+type: statblock
+weaknesses:
+    - Holy 1

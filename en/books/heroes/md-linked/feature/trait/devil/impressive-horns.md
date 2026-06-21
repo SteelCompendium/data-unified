@@ -1,6 +1,5 @@
 ---
 ancestry: devil
-cost: 2 Points
 name: Impressive Horns
 scc: mcdm.heroes.v1/feature.trait.devil/impressive-horns
 type: trait

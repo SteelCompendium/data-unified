@@ -1,6 +1,5 @@
 ---
 ancestry: human
-cost: 1 Point
 name: Can't Take Hold
 scc: mcdm.heroes.v1/feature.trait.human/cant-take-hold
 type: trait

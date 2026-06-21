@@ -1,6 +1,5 @@
 ---
 ancestry: orc
-cost: 2 Points
 name: Glowing Recovery
 scc: mcdm.heroes.v1/feature.trait.orc/glowing-recovery
 type: trait

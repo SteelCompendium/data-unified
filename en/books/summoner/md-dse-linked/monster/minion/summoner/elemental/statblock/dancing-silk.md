@@ -13,9 +13,9 @@ intuition: 0
 item_id: dancing-silk
 item_name: Dancing Silk
 keywords:
-    - Elemental (Earth)
-    - Elemental (Air)
-    - Elemental (Green)
+    - Elemental (Earth
+    - Air
+    - Green)
 might: -1
 movement: Fly
 name: Dancing Silk

@@ -1,6 +1,5 @@
 ---
 class: talent
-cost: 5 Clarity
 level: "6"
 name: Magnified Power
 scc: mcdm.heroes.v1/feature.talent.level-6/magnified-power

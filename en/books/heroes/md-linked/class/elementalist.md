@@ -491,7 +491,7 @@ You channel a variety of [heroic abilities](../rule/general/heroic-ability.md), 
 
 Choose one [heroic ability](../rule/general/heroic-ability.md) from the following options, each of which costs 3 essence to use. (*Quick Build:* The Flesh, a Crucible.)
 
-##### Behold the Mystery {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-1/behold-the-mystery" data-cost="3 Essence"}
+##### Behold the Mystery {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-1/behold-the-mystery"}
 
 
 *You open a rift into the void to harry your foes.*
@@ -508,7 +508,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 **Persistent 1:** At the start of your [turn](../rule/combat/turn.md), you can use a maneuver to use this ability again without spending essence.
 
-##### The Flesh, a Crucible {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-1/the-flesh-a-crucible" data-cost="3 Essence"}
+##### The Flesh, a Crucible {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-1/the-flesh-a-crucible"}
 
 
 *Fire engulfs your target and continues to churn.*
@@ -525,7 +525,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 **Persistent 1:** If the target is within [distance](../rule/combat/distance.md) at the start of your [turn](../rule/combat/turn.md), you can make the [power roll](../rule/dice/power-roll.md) again without spending essence (no action required).
 
-##### Invigorating Growth {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-1/invigorating-growth" data-cost="3 Essence"}
+##### Invigorating Growth {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-1/invigorating-growth"}
 
 
 *Mushrooms erupt from a foe, sapping their vitality to spread strengthening spores.*
@@ -542,7 +542,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 **Effect:** Mushrooms cover the target's body. While the mushrooms are on the target, you and any ally [adjacent](../rule/combat/adjacent.md) to the target gain 1 [surge](../rule/resource/surge.md) whenever the target takes damage. The mushrooms can be removed by the target or an [adjacent](../rule/combat/adjacent.md) creature as a main action.
 
-##### Ripples in the Earth {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-1/ripples-in-the-earth" data-cost="3 Essence"}
+##### Ripples in the Earth {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-1/ripples-in-the-earth"}
 
 
 *Like a stone was dropped into a pond, waves in the earth radiate from you.*
@@ -563,7 +563,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 Choose one [heroic ability](../rule/general/heroic-ability.md) from the following options, each of which costs 5 essence to use. (*Quick Build:* [Conflagration](../feature/ability/elementalist/level-1/conflagration.md).)
 
-##### Conflagration {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-1/conflagration" data-cost="5 Essence"}
+##### Conflagration {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-1/conflagration"}
 
 
 *A storm of fire descends upon your enemies.*
@@ -580,7 +580,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 **Persistent 2:** At the start of your [turn](../rule/combat/turn.md), you can use a maneuver to use this ability again without spending essence.
 
-##### Instantaneous Excavation {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-1/instantaneous-excavation" data-cost="5 Essence"}
+##### Instantaneous Excavation {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-1/instantaneous-excavation"}
 
 
 *The surface of the world around you opens up to swallow foes.*
@@ -599,7 +599,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 **Persistent 1:** At the start of your [turn](../rule/combat/turn.md), you open another hole, making a [power roll](../rule/dice/power-roll.md) against each creature who could fall into the hole when it opens without spending essence.
 
-##### No More Than a Breeze {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-1/no-more-than-a-breeze" data-cost="5 Essence"}
+##### No More Than a Breeze {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-1/no-more-than-a-breeze"}
 
 
 *The material substance of a creature shreds away at your command.*
@@ -612,7 +612,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 **Persistent 1:** The effect lasts until the start of your next [turn](../rule/combat/turn.md).
 
-##### Test of Rain {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-1/test-of-rain" data-cost="5 Essence"}
+##### Test of Rain {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-1/test-of-rain"}
 
 
 *You call down a rain that burns your enemies and restores your allies.*
@@ -716,7 +716,7 @@ At the start of each of your [turns](../rule/combat/turn.md) while the portals a
 
 Choose one [heroic ability](../rule/general/heroic-ability.md) from the following options, each of which costs 5 essence to use. Alternatively, you can choose one of the 5-essence abilities you didn't select at 1st level (see 1st-Level Features).
 
-#### O Flower Aid, O Earth Defend {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-2/o-flower-aid-o-earth-defend" data-cost="5 Essence"}
+#### O Flower Aid, O Earth Defend {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-2/o-flower-aid-o-earth-defend"}
 
 
 *Revitalizing plants and jagged stones grow, helping allies and hindering foes.*
@@ -733,7 +733,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 **Persistent 1:** The area remains until the start of your next [turn](../rule/combat/turn.md). As a maneuver, you can move the area up to 5 squares. This ability ends if the area is ever not within your [line of effect](../rule/combat/line-of-effect.md).
 
-#### Subvert the Green Within {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-2/subvert-the-green-within" data-cost="5 Essence"}
+#### Subvert the Green Within {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-2/subvert-the-green-within"}
 
 
 *Fungal spores sprout inside your enemy's brain, allowing you to control their actions.*
@@ -750,7 +750,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 - **12-16:** 9 + R poison damage
 - **17+:** 12 + R poison damage
 
-#### Translated Through Flame {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-2/translated-through-flame" data-cost="5 Essence"}
+#### Translated Through Flame {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-2/translated-through-flame"}
 
 
 *Your ally disappears, then reappears in a burst of fire.*
@@ -767,7 +767,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 - **12-16:** 5 fire damage
 - **17+:** 8 fire damage
 
-#### Volcano's Embrace {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-2/volcanos-embrace" data-cost="5 Essence"}
+#### Volcano's Embrace {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-2/volcanos-embrace"}
 
 
 *Wrap them up in fire and melting stone.*
@@ -841,7 +841,7 @@ You have the following ability.
 
 Choose one [heroic ability](../rule/general/heroic-ability.md) from the following options, each of which costs 7 essence to use.
 
-#### Erase {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-3/erase" data-cost="7 Essence"}
+#### Erase {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-3/erase"}
 
 
 *With a flick of the wrist, you phase creatures out of existence.*
@@ -860,7 +860,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 **Effect:** Each target begins to fade from existence (save ends). On their first [turn](../rule/combat/turn.md) while fading from existence, a target takes a [bane](../rule/dice/bane.md) on [power rolls](../rule/dice/power-roll.md). At the end of their first [turn](../rule/combat/turn.md), they have a double [bane](../rule/dice/bane.md) on [power rolls](../rule/dice/power-roll.md). At the end of their second [turn](../rule/combat/turn.md), they fade from existence for 1 hour, after which they reappear in their original space or the nearest unoccupied space.
 
-#### Maw of Earth {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-3/maw-of-earth" data-cost="7 Essence"}
+#### Maw of Earth {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-3/maw-of-earth"}
 
 
 *You open up the ground, spewing out shrapnel of stone and debris.*
@@ -877,7 +877,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 **Effect:** The ground in or directly beneath the area drops 3 squares.
 
-#### Swarm of Spirits {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-3/swarm-of-spirits" data-cost="7 Essence"}
+#### Swarm of Spirits {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-3/swarm-of-spirits"}
 
 
 *Guardian animal spirits surround you to harry your foes and bolster your allies.*
@@ -896,7 +896,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 **Persistent 1:** You make the [power roll](../rule/dice/power-roll.md) again to target each enemy in the area without spending essence, and the effect lasts until the start of your next [turn](../rule/combat/turn.md).
 
-#### Wall of Fire {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-3/wall-of-fire" data-cost="7 Essence"}
+#### Wall of Fire {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-3/wall-of-fire"}
 
 
 *A blazing, beautifully organized inferno erupts at your command.*
@@ -1003,7 +1003,7 @@ Additionally, whenever you use a fire ability or are targeted by an ability that
 
 Choose one [heroic ability](../rule/general/heroic-ability.md) from the following options, each of which costs 9 essence to use.
 
-#### Combustion Deferred {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-5/combustion-deferred" data-cost="9 Essence"}
+#### Combustion Deferred {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-5/combustion-deferred"}
 
 
 *Your flames dance from kindling to kindling to kindling.*
@@ -1020,7 +1020,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 **Effect:** When the target ends their next [turn](../rule/combat/turn.md), or if they drop to 0 [Stamina](../rule/health/stamina.md) before then, each enemy [adjacent](../rule/combat/adjacent.md) to them takes fire damage equal to twice your [Reason](../rule/character/reason.md) score. Each affected enemy then gains this same effect.
 
-#### Storm of Sands {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-5/storm-of-sands" data-cost="9 Essence"}
+#### Storm of Sands {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-5/storm-of-sands"}
 
 
 *Dirt and debris swirl into a dark, pulsing hurricane.*
@@ -1039,7 +1039,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 **Persistent 1:** The area remains until the start of your next [turn](../rule/combat/turn.md), and you can move it up to 5 squares (no action required). As a maneuver, you can make the [power roll](../rule/dice/power-roll.md) again without spending essence.
 
-#### Subverted Perception of Space {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-5/subverted-perception-of-space" data-cost="9 Essence"}
+#### Subverted Perception of Space {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-5/subverted-perception-of-space"}
 
 
 *You rip an enemy's world in twain.*
@@ -1054,7 +1054,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 - **12-16:** 10 + R corruption damage; the target has [line of effect](../rule/combat/line-of-effect.md) only to creatures and objects within 4 squares of them until the start of your next [turn](../rule/combat/turn.md)
 - **17+:** 15 + R corruption damage; the target has [line of effect](../rule/combat/line-of-effect.md) only to [adjacent](../rule/combat/adjacent.md) creatures and objects until the start of your next [turn](../rule/combat/turn.md)
 
-#### Web of All That's Come Before {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-5/web-of-all-thats-come-before" data-cost="9 Essence"}
+#### Web of All That's Come Before {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-5/web-of-all-thats-come-before"}
 
 
 *Threads you've been weaving through your adventures create a vibrant, pearlescent web.*
@@ -1096,7 +1096,7 @@ You can spend 10 uninterrupted minutes to create a freeform magic spell for a va
 
 Choose one [heroic ability](../rule/general/heroic-ability.md) from the following options, each of which costs 9 essence to use. Alternatively, you can choose one of the 9-assence abilities you didn't select at 5th level (see 5th-Level Features).
 
-#### Luminous Champion Aloft {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-6/luminous-champion-aloft" data-cost="9 Essence"}
+#### Luminous Champion Aloft {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-6/luminous-champion-aloft"}
 
 
 *They shine vibrantly, a beautiful diamond in the night sky.*
@@ -1109,7 +1109,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 **Persistent 1:** The effect lasts until the start of your next [turn](../rule/combat/turn.md).
 
-#### Magma Titan {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-6/magma-titan" data-cost="9 Essence"}
+#### Magma Titan {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-6/magma-titan"}
 
 
 *Their body swells with lava, mud, and might, towering over their enemies.*
@@ -1128,7 +1128,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 **Persistent 2:** The effect lasts until the start of your next [turn](../rule/combat/turn.md). Additionally, at the start of your [turn](../rule/combat/turn.md), the target can spend 2 [Recoveries](../rule/health/recoveries.md).
 
-#### Meteor {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-6/meteor" data-cost="9 Essence"}
+#### Meteor {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-6/meteor"}
 
 
 *You [teleport](../movement/teleport.md) the target into the air and let the ground and the elemental force of fire do the rest.*
@@ -1145,7 +1145,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 **Effect:** If the target is [teleport](../movement/teleport.md)ed to a space where they would fall, they immediately do so, treating the fall as if their [Agility](../rule/character/agility.md) score were 0. The target takes fire damage from the fall, and each enemy within 3 squares of where they land takes the same amount of fire damage. The ground within 3 squares of where the target lands is [difficult terrain](../movement/difficult-terrain.md).
 
-#### The Wode Remembers and Returns {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-6/the-wode-remembers-and-returns" data-cost="9 Essence"}
+#### The Wode Remembers and Returns {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-6/the-wode-remembers-and-returns"}
 
 
 *You create a terrarium that spans from canopy above to underbrush below.*
@@ -1280,7 +1280,7 @@ The source starts an encounter at full [Stamina](../rule/health/stamina.md), but
 
 Choose one [heroic ability](../rule/general/heroic-ability.md) from the following options, each of which costs 11 essence to use.
 
-#### Heart of the Wode {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-8/heart-of-the-wode" data-cost="11 Essence"}
+#### Heart of the Wode {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-8/heart-of-the-wode"}
 
 
 *You call forth one of the Great Tree's many splinters to provide for your every need.*
@@ -1293,7 +1293,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 Each enemy who ends their [turn](../rule/combat/turn.md) within 3 squares of the tree is [restrained](../condition/restrained.md) until the end of their next [turn](../rule/combat/turn.md). A creature [restrained](../condition/restrained.md) this way can use a main action to end the effect early.
 
-#### Muse of Fire {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-8/muse-of-fire" data-cost="11 Essence"}
+#### Muse of Fire {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-8/muse-of-fire"}
 
 
 *The fire burns hot enough to sear the face of any god watching.*
@@ -1310,7 +1310,7 @@ Each enemy who ends their [turn](../rule/combat/turn.md) within 3 squares of the
 
 **Effect:** The Director's Malice can become negative as a result of this ability.
 
-#### Return to Oblivion {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-8/return-to-oblivion" data-cost="11 Essence"}
+#### Return to Oblivion {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-8/return-to-oblivion"}
 
 
 *You create a tear in reality that could consume everything.*
@@ -1321,7 +1321,7 @@ Each enemy who ends their [turn](../rule/combat/turn.md) within 3 squares of the
 
 **Effect:** You create a [size](../rule/character/size.md) 1L vortex that lasts until the end of the encounter. At the start of each [combat round](../rule/combat/combat-round.md) while the vortex is unoccupied, the vortex vertical [pulls](../movement/forced-movement.md) 3 each enemy within 5 squares of it. Each enemy who enters the vortex or starts their turn there is [knocked prone](../condition/prone.md). At the end of the round, if a [winded](../rule/health/winded.md) enemy who is not a leader or solo creature is in the vortex, they are instantly destroyed.
 
-#### World Torn Asunder {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-8/world-torn-asunder" data-cost="11 Essence"}
+#### World Torn Asunder {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-8/world-torn-asunder"}
 
 
 *You stomp your foot and quake the whole world over.*
@@ -1352,7 +1352,7 @@ Additionally, when you have 5 or more [Victories](../rule/resource/victories.md)
 
 Choose one [heroic ability](../rule/general/heroic-ability.md) from the following options, each of which costs 11 essence to use. Alternatively, you can choose one of the 11-essence abilities you didn't select at 8th level (see 8th-Level Features).
 
-#### Earth Rejects You {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-9/earth-rejects-you" data-cost="11 Essence"}
+#### Earth Rejects You {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-9/earth-rejects-you"}
 
 
 *Everyone and everything gets blown away in an eruption of rocks and debris.*
@@ -1369,7 +1369,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 **Persistent 2:** At the start of your [turn](../rule/combat/turn.md), you can use a maneuver to use this ability again without spending essence.
 
-#### The Green Defends Its Servants {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-9/the-green-defends-its-servants" data-cost="11 Essence"}
+#### The Green Defends Its Servants {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-9/the-green-defends-its-servants"}
 
 
 *A luminous green shield shows its true beauty the more it cracks.*
@@ -1382,7 +1382,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 **Persistent 2:** The effect lasts until the start of your next [turn](../rule/combat/turn.md).
 
-#### Prism {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-9/prism" data-cost="11 Essence"}
+#### Prism {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-9/prism"}
 
 
 *You split your essence, allowing you to cast multiple effects at once.*
@@ -1393,7 +1393,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 **Effect:** You use up to three [heroic abilities](../rule/general/heroic-ability.md) whose essence costs total 11 or less, spending no additional essence beyond the cost of this ability. You can [shift](../movement/shifting.md) up to 2 squares between your use of each ability.
 
-#### Unquenchable Fire {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-9/unquenchable-fire" data-cost="11 Essence"}
+#### Unquenchable Fire {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-9/unquenchable-fire"}
 
 
 *You let fly a fiery missile braided with pure primal energy.*

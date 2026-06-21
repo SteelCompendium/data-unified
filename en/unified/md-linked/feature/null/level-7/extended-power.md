@@ -1,6 +1,5 @@
 ---
 class: "null"
-cost: 1 Discipline
 level: "7"
 name: Extended Power
 scc: mcdm.heroes.v1/feature.null.level-7/extended-power

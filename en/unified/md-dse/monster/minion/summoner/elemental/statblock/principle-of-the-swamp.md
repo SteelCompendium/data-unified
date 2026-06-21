@@ -14,9 +14,9 @@ intuition: 2
 item_id: principle-of-the-swamp
 item_name: Principle of the Swamp
 keywords:
-    - Elemental (Green)
-    - Elemental (Water)
-    - Elemental (Rot)
+    - Elemental (Green
+    - Water
+    - Rot)
 might: 3
 movement: Swim
 name: Principle of the Swamp

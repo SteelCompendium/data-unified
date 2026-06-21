@@ -1,6 +1,5 @@
 ---
 class: talent
-cost: 3 Clarity
 level: "6"
 name: Expanded Power
 scc: mcdm.heroes.v1/feature.talent.level-6/expanded-power

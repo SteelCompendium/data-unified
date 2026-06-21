@@ -49,7 +49,7 @@ You have the following triggered action.
 
 You have the following triggered action.
 
-## Not Yet! {data-scc="mcdm.summoner.v1/feature.ability.summoner.level-1/not-yet" data-cost="3 Essence"}
+## Not Yet! {data-scc="mcdm.summoner.v1/feature.ability.summoner.level-1/not-yet"}
 
 *I command you to not die.*
 

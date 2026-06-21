@@ -8,7 +8,7 @@ type: feature
 
 Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the following options, each of which costs 9 focus to use.
 
-## Squad! Gear Check! {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-5/squad-gear-check" data-cost="9 Focus"}
+## Squad! Gear Check! {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-5/squad-gear-check"}
 
 
 *You distract a foe while your allies secure their defensive gear.*
@@ -25,7 +25,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 **Effect:** You and each ally [adjacent](../../../rule/combat/adjacent.md) to the target gain 10 [temporary Stamina](../../../rule/health/temporary-stamina.md).
 
-## Squad! Remember Your Training! {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-5/squad-remember-your-training" data-cost="9 Focus"}
+## Squad! Remember Your Training! {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-5/squad-remember-your-training"}
 
 
 *You remind your allies how to best use their gear.*
@@ -36,7 +36,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 **Effect:** Each target gains 1 [surge](../../../rule/resource/surge.md) and can use a [signature ability](../../../rule/combat/signature-ability.md) that has a double [edge](../../../rule/dice/edge.md).
 
-## Win This Day! {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-5/win-this-day" data-cost="9 Focus"}
+## Win This Day! {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-5/win-this-day"}
 
 
 *You inspire your allies to recover and gather their strength.*
@@ -47,7 +47,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 **Effect:** Each target gains 2 [surges](../../../rule/resource/surge.md). Additionally, they can spend a [Recovery](../../../rule/health/recoveries.md), remove any [conditions](../../../rule/combat/condition.md) or effects on them, and stand up if they [are prone](../../../condition/prone.md).
 
-## You've Still Got Something Left {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-5/youve-still-got-something-left" data-cost="9 Focus"}
+## You've Still Got Something Left {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-5/youve-still-got-something-left"}
 
 
 *You push an ally to use a [heroic ability](../../../rule/general/heroic-ability.md) sooner than they otherwise would.*

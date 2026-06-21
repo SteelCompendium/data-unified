@@ -1,6 +1,5 @@
 ---
 ancestry: high-elf
-cost: 2 Points
 name: Glamor of Terror
 scc: mcdm.heroes.v1/feature.trait.high-elf/glamor-of-terror
 type: trait

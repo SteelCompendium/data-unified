@@ -15,9 +15,9 @@ immunities:
     - Poison R
 intuition: 2
 keywords:
-    - Elemental (Green)
-    - Elemental (Water)
-    - Elemental (Rot)
+    - Elemental (Green
+    - Water
+    - Rot)
 level: 0
 metadata:
     scc: mcdm.summoner.v1/monster.minion.summoner.elemental.statblock/principle-of-the-swamp

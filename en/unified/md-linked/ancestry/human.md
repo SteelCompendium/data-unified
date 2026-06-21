@@ -58,22 +58,22 @@ As a maneuver, you can open your awareness to detect [supernatural](../rule/gene
 
 You have 3 ancestry points to spend on the following traits. (*Quick Build:* Perseverance, Staying Power.)
 
-#### Can't Take Hold {data-scc="mcdm.heroes.v1/feature.trait.human/cant-take-hold" data-cost="1 Point"}
+#### Can't Take Hold {data-scc="mcdm.heroes.v1/feature.trait.human/cant-take-hold"}
 
 Your connection to the natural world allows you to resist certain [supernatural](../rule/general/supernatural.md) effects. You ignore temporary [difficult terrain](../movement/difficult-terrain.md) created by magic and psionic abilities. Additionally, when you are [force moved](../movement/forced-movement.md) by a magic or psionic ability, you can reduce the [forced movement](../movement/forced-movement.md) [distance](../rule/combat/distance.md) by 1.
 
-#### Determination {data-scc="mcdm.heroes.v1/feature.trait.human/determination" data-cost="2 Points"}
+#### Determination {data-scc="mcdm.heroes.v1/feature.trait.human/determination"}
 
 A tolerance for pain and distress allows you to push through difficult situations. If you are [frightened](../condition/frightened.md), [slowed](../condition/slowed.md), or [weakened](../condition/weakened.md), you can use a maneuver to immediately end one of those [conditions](../rule/combat/condition.md).
 
-#### Perseverance {data-scc="mcdm.heroes.v1/feature.trait.human/perseverance" data-cost="1 Point"}
+#### Perseverance {data-scc="mcdm.heroes.v1/feature.trait.human/perseverance"}
 
 Giving up is for other people. You gain an [edge](../rule/dice/edge.md) on [tests](../rule/test/test.md) made using the [Endurance](../skill/exploration/endurance.md) skill. Additionally, when you are [slowed](../condition/slowed.md), your [speed](../rule/character/speed.md) is reduced to 3 instead of 2.
 
-#### Resist the Unnatural {data-scc="mcdm.heroes.v1/feature.trait.human/resist-the-unnatural" data-cost="1 Point"}
+#### Resist the Unnatural {data-scc="mcdm.heroes.v1/feature.trait.human/resist-the-unnatural"}
 
 Your instinctive resilience protects you from injuries beyond the routine. Whenever you take damage that isn't untyped, you can use a [triggered action](../rule/combat/triggered-action.md) to take half the damage.
 
-#### Staying Power {data-scc="mcdm.heroes.v1/feature.trait.human/staying-power" data-cost="2 Points"}
+#### Staying Power {data-scc="mcdm.heroes.v1/feature.trait.human/staying-power"}
 
 Your [human](human.md) physiology allows you to fight, run, and stay awake longer than others. You increase your number of [Recoveries](../rule/health/recoveries.md) by 2.

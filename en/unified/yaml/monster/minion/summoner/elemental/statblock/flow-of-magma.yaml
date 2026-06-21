@@ -25,8 +25,8 @@ immunities:
     - Fire R
 intuition: 0
 keywords:
-    - Elemental (Fire)
-    - Elemental (Earth)
+    - Elemental (Fire
+    - Earth)
 level: 0
 metadata:
     scc: mcdm.summoner.v1/monster.minion.summoner.elemental.statblock/flow-of-magma

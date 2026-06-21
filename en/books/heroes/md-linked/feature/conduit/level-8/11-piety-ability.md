@@ -8,7 +8,7 @@ type: feature
 
 Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the following options, each of which costs 11 piety to use.
 
-## Arise! {data-scc="mcdm.heroes.v1/feature.ability.conduit.level-8/arise" data-cost="11 Piety"}
+## Arise! {data-scc="mcdm.heroes.v1/feature.ability.conduit.level-8/arise"}
 
 
 *Your deity rewards you or an ally on the verge of defeat with a miracle burst of strength and resolve.*
@@ -19,7 +19,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 **Effect:** The target can spend any number of [Recoveries](../../../rule/health/recoveries.md), can end any effects on them that are ended by a [saving throw](../../../rule/general/saving-throw.md) or that end at the end of their [turn](../../../rule/combat/turn.md), and can stand up if they [are prone](../../../condition/prone.md). Additionally, at the start of each of their [turns](../../../rule/combat/turn.md) until the end of the encounter or until they are [dying](../../../rule/health/dying.md), the target gains 3 [surges](../../../rule/resource/surge.md).
 
-## Blessing of Steel {data-scc="mcdm.heroes.v1/feature.ability.conduit.level-8/blessing-of-steel" data-cost="11 Piety"}
+## Blessing of Steel {data-scc="mcdm.heroes.v1/feature.ability.conduit.level-8/blessing-of-steel"}
 
 
 *A protective [aura](../../../rule/combat/aura.md) defends your allies from harm.*
@@ -30,7 +30,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 **Effect:** Until the end of the encounter, any [ability roll](../../../rule/dice/ability-roll.md) made against a target takes a [bane](../../../rule/dice/bane.md) and each target has [damage immunity](../../../rule/damage/damage-immunity.md) 5.
 
-## Blessing of the Blade {data-scc="mcdm.heroes.v1/feature.ability.conduit.level-8/blessing-of-the-blade" data-cost="11 Piety"}
+## Blessing of the Blade {data-scc="mcdm.heroes.v1/feature.ability.conduit.level-8/blessing-of-the-blade"}
 
 
 *"The power of the gods is within you, friends. Allow me to unleash it."*
@@ -41,7 +41,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 **Effect:** At the end of each of your [turns](../../../rule/combat/turn.md) until the end of the encounter or until you are [dying](../../../rule/health/dying.md), each target gains 3 [surges](../../../rule/resource/surge.md).
 
-## Drag the Unworthy {data-scc="mcdm.heroes.v1/feature.ability.conduit.level-8/drag-the-unworthy" data-cost="11 Piety"}
+## Drag the Unworthy {data-scc="mcdm.heroes.v1/feature.ability.conduit.level-8/drag-the-unworthy"}
 
 
 *You conjure an angel who moves a foe and heals your allies.*

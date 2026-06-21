@@ -9,7 +9,7 @@ type: feature
 
 Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the following options, each of which costs 11 essence to use.
 
-## 10,000 Minions {data-scc="mcdm.summoner.v1/feature.ability.summoner.level-9/10000-minions" data-cost="11 Essence"}
+## 10,000 Minions {data-scc="mcdm.summoner.v1/feature.ability.summoner.level-9/10000-minions"}
 
 *The battle is now a war. Your entire army storms the field.*
 
@@ -21,7 +21,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 Additionally, you can use [Minion Bridge](../../ability/summoner/level-1/minion-bridge.md) treating each affected square as an eligible minion (up to a maximum of 10 additional squares).
 
-## Bodyguard Tactics {data-scc="mcdm.summoner.v1/feature.ability.summoner.level-9/bodyguard-tactics" data-cost="11 Essence"}
+## Bodyguard Tactics {data-scc="mcdm.summoner.v1/feature.ability.summoner.level-9/bodyguard-tactics"}
 
 *You surround your allies with a nigh-endless supply of summons that stand in the way of all impacts.*
 
@@ -31,7 +31,7 @@ Additionally, you can use [Minion Bridge](../../ability/summoner/level-1/minion-
 
 **Effect:** Until the end of the encounter or you are [dying](../../../rule/health/dying.md), each target has [damage immunity](../../../rule/damage/damage-immunity.md) 5 and can use a [free triggered action](../../../rule/combat/triggered-action.md) once per [turn](../../../rule/combat/turn.md) whenever they are [force moved](../../../movement/forced-movement.md) to reduce the distance by half.
 
-## I Abjure Thee {data-scc="mcdm.summoner.v1/feature.ability.summoner.level-9/i-abjure-thee" data-cost="11 Essence"}
+## I Abjure Thee {data-scc="mcdm.summoner.v1/feature.ability.summoner.level-9/i-abjure-thee"}
 
 *Cast those not affixed to this manifold into the void of a minion's existence.*
 
@@ -43,7 +43,7 @@ Additionally, you can use [Minion Bridge](../../ability/summoner/level-1/minion-
 
 A leader or a solo enemy in the area that has R, I, or P < AVERAGE is [weakened](../../../condition/weakened.md) and [slowed](../../../condition/slowed.md) ([save ends](../../../rule/general/saving-throw.md)) as they are partially removed from the manifold. You can increase the [potency](../../../rule/character/potency.md) by 1 for each of your minions [adjacent](../../../rule/combat/adjacent.md) to the target you choose to sacrifice as a part of using this ability.
 
-## The Champion's Wrath {data-scc="mcdm.summoner.v1/feature.ability.summoner.level-9/the-champions-wrath" data-cost="11 Essence"}
+## The Champion's Wrath {data-scc="mcdm.summoner.v1/feature.ability.summoner.level-9/the-champions-wrath"}
 
 *Your champion appears and goes into a rampage, clearing the way for your minions to march forth.*
 

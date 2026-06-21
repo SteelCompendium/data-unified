@@ -1,9 +1,6 @@
 ---
 action_type: feature
 class: talent
-cost: 1 Clarity
-cost_amount: "1"
-cost_resource: Clarity
 feature_type: feature
 file_basename: dynamic-power
 file_dpath: feature/talent/level-6
@@ -17,13 +14,11 @@ type: feature
 ---
 
 ```ds-feature
-cost: 1 Clarity
 effects:
     - effect: If the ability force moves a target, the [forced movement](../../../movement/forced-movement.md) [distance](../../../rule/combat/distance.md) gains a [bonus](../../../rule/dice/bonuses-and-penalties.md) equal to your [Reason](../../../rule/character/reason.md) score.
 feature_type: feature
 metadata:
     class: talent
-    cost: 1 Clarity
     level: "6"
     name: Dynamic Power
     scc: mcdm.heroes.v1/feature.talent.level-6/dynamic-power

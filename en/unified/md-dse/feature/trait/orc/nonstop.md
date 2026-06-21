@@ -1,9 +1,6 @@
 ---
 action_type: feature
 ancestry: orc
-cost: 2 Points
-cost_amount: "2"
-cost_resource: Points
 feature_type: trait
 file_basename: nonstop
 file_dpath: feature/trait/orc
@@ -16,13 +13,11 @@ type: trait
 ---
 
 ```ds-feature
-cost: 2 Points
 effects:
     - effect: Your bloodfire supplies you with a constant rush of adrenaline. You can't be made [slowed](scc.v1:mcdm.heroes.v1/condition/slowed).
 feature_type: trait
 metadata:
     ancestry: orc
-    cost: 2 Points
     name: Nonstop
     scc: mcdm.heroes.v1/feature.trait.orc/nonstop
     type: trait

@@ -1,6 +1,5 @@
 ---
 ancestry: polder
-cost: 1 Point
 name: Corruption Immunity
 scc: mcdm.heroes.v1/feature.trait.polder/corruption-immunity
 type: trait

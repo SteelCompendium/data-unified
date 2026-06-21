@@ -1,6 +1,5 @@
 ---
 ancestry: dwarf
-cost: 2 Points
 name: Spark Off Your Skin
 scc: mcdm.heroes.v1/feature.trait.dwarf/spark-off-your-skin
 type: trait

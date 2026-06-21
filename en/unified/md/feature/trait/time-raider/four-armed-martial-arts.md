@@ -1,6 +1,5 @@
 ---
 ancestry: time-raider
-cost: 2 Points
 name: Four-Armed Martial Arts
 scc: mcdm.heroes.v1/feature.trait.time-raider/four-armed-martial-arts
 type: trait

@@ -1,6 +1,5 @@
 ---
 class: "null"
-cost: 5 Discipline
 level: "7"
 name: Magnified Power
 scc: mcdm.heroes.v1/feature.null.level-7/magnified-power

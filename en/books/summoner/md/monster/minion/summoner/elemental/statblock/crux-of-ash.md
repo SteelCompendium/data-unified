@@ -8,8 +8,8 @@ immunities:
     - Sonic R
 intuition: 0
 keywords:
-    - Elemental (Fire)
-    - Elemental (Air)
+    - Elemental (Fire
+    - Air)
 might: -2
 movement: Fly
 name: Crux of Ash

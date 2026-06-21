@@ -1,6 +1,5 @@
 ---
 class: "null"
-cost: 5 Discipline
 level: "7"
 name: Shared Power
 scc: mcdm.heroes.v1/feature.null.level-7/shared-power

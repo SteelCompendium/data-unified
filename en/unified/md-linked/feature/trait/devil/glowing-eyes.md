@@ -1,6 +1,5 @@
 ---
 ancestry: devil
-cost: 1 Point
 name: Glowing Eyes
 scc: mcdm.heroes.v1/feature.trait.devil/glowing-eyes
 type: trait

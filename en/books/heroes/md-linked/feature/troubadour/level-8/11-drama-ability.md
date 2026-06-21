@@ -8,7 +8,7 @@ type: feature
 
 Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the following options, each of which costs 11 drama to use.
 
-## Dramatic Reveal {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-8/dramatic-reveal" data-cost="11 Drama"}
+## Dramatic Reveal {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-8/dramatic-reveal"}
 
 
 *A little stage trickery, and where once stood a foe, now stands a friend!*
@@ -19,7 +19,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 **Effect:** Until the end of the encounter, whenever you reduce a creature to 0 [Stamina](../../../rule/health/stamina.md) using an ability, you can use a free [triggered action](../../../rule/combat/triggered-action.md) to [teleport](../../../movement/teleport.md) an ally within [distance](../../../rule/combat/distance.md) of that ability into the creature's space in a plume of rose petals. You or the [teleport](../../../movement/teleport.md)ed ally can then make a [melee](../../../rule/combat/melee.md) [free strike](../../common/main-actions/free-strike.md).
 
-## Power Ballad {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-8/power-ballad" data-cost="11 Drama"}
+## Power Ballad {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-8/power-ballad"}
 
 
 *A song for the brokenhearted wraps itself around the target and blossoms into a ward of thorns.*
@@ -30,7 +30,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 **Effect:** Until the end of the encounter, whenever the target takes damage while [winded](../../../rule/health/winded.md), they can use a free [triggered action](../../../rule/combat/triggered-action.md) to deal half the damage they took to the source of the damage.
 
-## Saved in the Edit {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-8/saved-in-the-edit" data-cost="11 Drama"}
+## Saved in the Edit {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-8/saved-in-the-edit"}
 
 
 *You shout a word of power that allows you to rewrite reality to your whims.*
@@ -46,7 +46,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 - The target has a [bonus](../../../rule/dice/bonuses-and-penalties.md) to [stability](../../../rule/character/stability.md) and a [penalty](../../../rule/dice/bonuses-and-penalties.md) to [speed](../../../rule/character/speed.md) equal to your [Presence](../../../rule/character/presence.md) score.
 - The target has a [bonus](../../../rule/dice/bonuses-and-penalties.md) to [speed](../../../rule/character/speed.md) and a [penalty](../../../rule/dice/bonuses-and-penalties.md) to [stability](../../../rule/character/stability.md) equal to your [Presence](../../../rule/character/presence.md) score.
 
-## The Show Must Go On {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-8/the-show-must-go-on" data-cost="11 Drama"}
+## The Show Must Go On {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-8/the-show-must-go-on"}
 
 
 *You shine a bright light on the players on the stage and compel them to finish the performance.*

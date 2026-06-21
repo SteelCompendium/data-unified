@@ -7,8 +7,8 @@ immunities:
     - Sonic R
 intuition: 0
 keywords:
-    - Elemental (Air)
-    - Elemental (Earth)
+    - Elemental (Air
+    - Earth)
 might: 1
 movement: Burrow
 name: Desolation of Sand

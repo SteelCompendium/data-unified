@@ -1,6 +1,5 @@
 ---
 ancestry: revenant
-cost: 1 Point
 name: Undead Influence
 scc: mcdm.heroes.v1/feature.trait.revenant/undead-influence
 type: trait

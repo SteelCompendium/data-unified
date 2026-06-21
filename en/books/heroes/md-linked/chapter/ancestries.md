@@ -381,31 +381,31 @@ Your innate magic allows you to twist how your words are perceived to get a bett
 
 You have 3 ancestry points to spend on the following traits. (*Quick Build:* Beast Legs, Impressive Horns.)
 
-##### Barbed Tail {data-scc="mcdm.heroes.v1/feature.trait.devil/barbed-tail" data-cost="1 Point"}
+##### Barbed Tail {data-scc="mcdm.heroes.v1/feature.trait.devil/barbed-tail"}
 
 Your pointy tail allows you to punctuate all your actions. Once per round when you make a [melee](../rule/combat/melee.md) [strike](../rule/combat/strike.md), you can deal extra damage with the [strike](../rule/combat/strike.md) equal to your highest [characteristic](../rule/character/characteristic.md) score.
 
-##### Beast Legs {data-scc="mcdm.heroes.v1/feature.trait.devil/beast-legs" data-cost="1 Point"}
+##### Beast Legs {data-scc="mcdm.heroes.v1/feature.trait.devil/beast-legs"}
 
 Your powerful legs make you faster. You have [speed](../rule/character/speed.md) 6.
 
-##### Glowing Eyes {data-scc="mcdm.heroes.v1/feature.trait.devil/glowing-eyes" data-cost="1 Point"}
+##### Glowing Eyes {data-scc="mcdm.heroes.v1/feature.trait.devil/glowing-eyes"}
 
 Your eyes are a solid, vibrant color that flares to show your excitement or rage. Whenever you take damage from a creature, you can use a [triggered action](../rule/combat/triggered-action.md) to deal that creature psychic damage equal to 1d10 + your level.
 
-##### Hellsight {data-scc="mcdm.heroes.v1/feature.trait.devil/hellsight" data-cost="1 Point"}
+##### Hellsight {data-scc="mcdm.heroes.v1/feature.trait.devil/hellsight"}
 
 Your eyes let you see through darkness, fog, and other obscuring effects. You don't take a [bane](../rule/dice/bane.md) on [strikes](../rule/combat/strike.md) made against creatures with [concealment](../rule/combat/concealment.md).
 
-##### Impressive Horns {data-scc="mcdm.heroes.v1/feature.trait.devil/impressive-horns" data-cost="2 Points"}
+##### Impressive Horns {data-scc="mcdm.heroes.v1/feature.trait.devil/impressive-horns"}
 
 Your cherished horns are larger than the average [devil's](../ancestry/devil.md), and a hardened representation of your force of will. Whenever you make a [saving throw](../rule/general/saving-throw.md), you succeed on a roll of 5 or higher.
 
-##### Prehensile Tail {data-scc="mcdm.heroes.v1/feature.trait.devil/prehensile-tail" data-cost="2 Points"}
+##### Prehensile Tail {data-scc="mcdm.heroes.v1/feature.trait.devil/prehensile-tail"}
 
 Your prehensile tail allows you to challenge foes on all sides. You can't be flanked.
 
-##### Wings {data-scc="mcdm.heroes.v1/feature.trait.devil/wings" data-cost="2 Points"}
+##### Wings {data-scc="mcdm.heroes.v1/feature.trait.devil/wings"}
 
 You possess wings powerful enough to take you airborne. While using your wings to [fly](../movement/fly.md), you can stay aloft for a number of rounds equal to your [Might](../rule/character/might.md) score (minimum 1 round) before you fall. While using your wings to [fly](../movement/fly.md) at 3rd level or lower, you have [damage weakness](../rule/damage/damage-weakness.md) 5.
 
@@ -507,11 +507,11 @@ Your hardened scales grant you [damage immunity](../rule/damage/damage-immunity.
 
 You have 3 ancestry points to spend on the following traits. (*Quick Build:* [Dragon Breath](../feature/ability/dragon-knight/dragon-breath.md), Prismatic Scales.)
 
-##### Draconian Guard {data-scc="mcdm.heroes.v1/feature.trait.dragon-knight/draconian-guard" data-cost="1 Point"}
+##### Draconian Guard {data-scc="mcdm.heroes.v1/feature.trait.dragon-knight/draconian-guard"}
 
 Whenever you or an [adjacent](../rule/combat/adjacent.md) creature takes damage from a [strike](../rule/combat/strike.md), you can use a [triggered action](../rule/combat/triggered-action.md) to guard against the blow. You reduce any damage from the [strike](../rule/combat/strike.md) by an amount equal to your level.
 
-##### Draconian Pride {data-scc="mcdm.heroes.v1/feature.trait.dragon-knight/draconian-pride" data-cost="2 Points"}
+##### Draconian Pride {data-scc="mcdm.heroes.v1/feature.trait.dragon-knight/draconian-pride"}
 
 You have the following [signature ability](../rule/combat/signature-ability.md).
 
@@ -529,7 +529,7 @@ You have the following [signature ability](../rule/combat/signature-ability.md).
 - **12-16:** 5 damage; [push](../movement/forced-movement.md) 1
 - **17+:** 7 damage; [push](../movement/forced-movement.md) 2
 
-##### Dragon Breath {data-scc="mcdm.heroes.v1/feature.trait.dragon-knight/dragon-breath" data-cost="2 Points"}
+##### Dragon Breath {data-scc="mcdm.heroes.v1/feature.trait.dragon-knight/dragon-breath"}
 
 You have the following [signature ability](../rule/combat/signature-ability.md).
 
@@ -549,17 +549,17 @@ You have the following [signature ability](../rule/combat/signature-ability.md).
 
 **Effect:** You choose the ability's [damage type](../rule/damage/damage-type.md) from acid, cold, corruption, fire, lightning, or poison.
 
-##### Prismatic Scales {data-scc="mcdm.heroes.v1/feature.trait.dragon-knight/prismatic-scales" data-cost="1 Point"}
+##### Prismatic Scales {data-scc="mcdm.heroes.v1/feature.trait.dragon-knight/prismatic-scales"}
 
 Select one [damage immunity](../rule/damage/damage-immunity.md) granted by your Wyrmplate trait. You always have this immunity, in addition to the immunity granted by Wyrmplate.
 
-##### Remember Your Oath {data-scc="mcdm.heroes.v1/feature.trait.dragon-knight/remember-your-oath" data-cost="1 Point"}
+##### Remember Your Oath {data-scc="mcdm.heroes.v1/feature.trait.dragon-knight/remember-your-oath"}
 
 As a maneuver, you can recite the following oath. Until the start of your next [turn](../rule/combat/turn.md), whenever you make a [saving throw](../rule/general/saving-throw.md), you succeed on a 4 or higher.
 
 *Even should the sun stop in the sky Even should the night last a thousand years I will stand forever I shall not yield Those who suffer and yearn for justice I am your sword and shield I will yield no ground I will speak no lies I will stand against all tyrants Until the last villain dies*
 
-##### Wings {data-scc="mcdm.heroes.v1/feature.trait.dragon-knight/wings" data-cost="2 Points"}
+##### Wings {data-scc="mcdm.heroes.v1/feature.trait.dragon-knight/wings"}
 
 You possess wings powerful enough to take you airborne. While using your wings to [fly](../movement/fly.md), you can stay aloft for a number of rounds equal to your [Might](../rule/character/might.md) score (minimum 1 round) before you fall. While using your wings to [fly](../movement/fly.md) at 3rd level or lower, you have [damage weakness](../rule/damage/damage-weakness.md) 5.
 
@@ -687,23 +687,23 @@ You can have one rune active at a time, and can change or remove a rune with 10 
 
 You have 3 ancestry points to spend on the following traits. (*Quick Build:* Grounded, Spark Off Your Skin.)
 
-##### Great Fortitude {data-scc="mcdm.heroes.v1/feature.trait.dwarf/great-fortitude" data-cost="2 Points"}
+##### Great Fortitude {data-scc="mcdm.heroes.v1/feature.trait.dwarf/great-fortitude"}
 
 Your hearty constitution prevents you from losing strength. You can't be made [weakened](../condition/weakened.md).
 
-##### Grounded {data-scc="mcdm.heroes.v1/feature.trait.dwarf/grounded" data-cost="1 Point"}
+##### Grounded {data-scc="mcdm.heroes.v1/feature.trait.dwarf/grounded"}
 
 Your heavy stone body and connection to the earth make it difficult for others to move you. You have a +1 [bonus](../rule/dice/bonuses-and-penalties.md) to [stability](../rule/character/stability.md).
 
-##### Spark Off Your Skin {data-scc="mcdm.heroes.v1/feature.trait.dwarf/spark-off-your-skin" data-cost="2 Points"}
+##### Spark Off Your Skin {data-scc="mcdm.heroes.v1/feature.trait.dwarf/spark-off-your-skin"}
 
 Your stone skin affords you potent protection. You have a +6 [bonus](../rule/dice/bonuses-and-penalties.md) to [Stamina](../rule/health/stamina.md), and that [bonus](../rule/dice/bonuses-and-penalties.md) increases by 6 at 4th, 7th, and 10th levels.
 
-##### Stand Tough {data-scc="mcdm.heroes.v1/feature.trait.dwarf/stand-tough" data-cost="1 Point"}
+##### Stand Tough {data-scc="mcdm.heroes.v1/feature.trait.dwarf/stand-tough"}
 
 Your body is made to withstand the blows of your enemies. Your [Might](../rule/character/might.md) score is treated as 1 higher for the purpose of resisting [potencies](../rule/character/potency.md), and you gain an [edge](../rule/dice/edge.md) on [Might](../rule/character/might.md) [tests](../rule/test/test.md) when called for to resist environmental effects or a creature's traits or abilities.
 
-##### Stone Singer {data-scc="mcdm.heroes.v1/feature.trait.dwarf/stone-singer" data-cost="1 Point"}
+##### Stone Singer {data-scc="mcdm.heroes.v1/feature.trait.dwarf/stone-singer"}
 
 You have a magic connection to the earth. When you spend 1 uninterrupted hour singing, you can reshape any unworked mundane stone within 3 squares. You can't destroy this stone, but you can move each square of it anywhere within 3 squares, piling it off to one side to dig a hole or building it up to create a wall.
 
@@ -803,27 +803,27 @@ You can magically alter your appearance to better blend in with your surrounding
 
 You have 3 ancestry points to spend on the following traits. (*Quick Build:* Swift, Otherworldly Grace.)
 
-##### Forest Walk {data-scc="mcdm.heroes.v1/feature.trait.wode-elf/forest-walk" data-cost="1 Point"}
+##### Forest Walk {data-scc="mcdm.heroes.v1/feature.trait.wode-elf/forest-walk"}
 
 You can [shift](../movement/shifting.md) into and while within [difficult terrain](../movement/difficult-terrain.md).
 
-##### Quick and Brutal {data-scc="mcdm.heroes.v1/feature.trait.wode-elf/quick-and-brutal" data-cost="1 Point"}
+##### Quick and Brutal {data-scc="mcdm.heroes.v1/feature.trait.wode-elf/quick-and-brutal"}
 
 Whenever you score a [critical hit](../rule/combat/critical-hit.md), you can take an additional main action and an additional move action instead of just a main action.
 
-##### Otherworldly Grace {data-scc="mcdm.heroes.v1/feature.trait.wode-elf/otherworldly-grace" data-cost="2 Points"}
+##### Otherworldly Grace {data-scc="mcdm.heroes.v1/feature.trait.wode-elf/otherworldly-grace"}
 
 Your elf body and mind can't be contained for long. Whenever you make a [saving throw](../rule/general/saving-throw.md), you succeed on a roll of 5 or higher.
 
-##### Revisit Memory {data-scc="mcdm.heroes.v1/feature.trait.wode-elf/revisit-memory" data-cost="1 Point"}
+##### Revisit Memory {data-scc="mcdm.heroes.v1/feature.trait.wode-elf/revisit-memory"}
 
 Accessing memories is as easy as living in the present for you. You gain an [edge](../rule/dice/edge.md) on [tests](../rule/test/test.md) made to recall lore.
 
-##### Swift {data-scc="mcdm.heroes.v1/feature.trait.wode-elf/swift" data-cost="1 Point"}
+##### Swift {data-scc="mcdm.heroes.v1/feature.trait.wode-elf/swift"}
 
 You have [speed](../rule/character/speed.md) 6.
 
-##### The Wode Defends {data-scc="mcdm.heroes.v1/feature.trait.wode-elf/the-wode-defends" data-cost="2 Points"}
+##### The Wode Defends {data-scc="mcdm.heroes.v1/feature.trait.wode-elf/the-wode-defends"}
 
 You have the following [signature ability](../rule/combat/signature-ability.md). [Signature abilities](../rule/combat/signature-ability.md) can be used at will.
 
@@ -925,27 +925,27 @@ A magic glamor makes others perceive you as interesting and engaging, granting y
 
 You have 3 ancestry points to spend on the following traits. (*Quick Build:* High Senses, Otherworldly Grace.)
 
-##### Glamor of Terror {data-scc="mcdm.heroes.v1/feature.trait.high-elf/glamor-of-terror" data-cost="2 Points"}
+##### Glamor of Terror {data-scc="mcdm.heroes.v1/feature.trait.high-elf/glamor-of-terror"}
 
 When a foe strikes, you reverse the magic of your glamor to instill fear into their heart. Whenever you take damage from a creature, you can use a [triggered action](../rule/combat/triggered-action.md) to make that creature [frightened](../condition/frightened.md) of you until the end of their next [turn](../rule/combat/turn.md).
 
-##### Graceful Retreat {data-scc="mcdm.heroes.v1/feature.trait.high-elf/graceful-retreat" data-cost="1 Point"}
+##### Graceful Retreat {data-scc="mcdm.heroes.v1/feature.trait.high-elf/graceful-retreat"}
 
 You gain a +1 [bonus](../rule/dice/bonuses-and-penalties.md) to the [distance](../rule/combat/distance.md) you can shift when you take the [Disengage](../feature/common/move-actions/disengage.md) move action.
 
-##### High Senses {data-scc="mcdm.heroes.v1/feature.trait.high-elf/high-senses" data-cost="1 Point"}
+##### High Senses {data-scc="mcdm.heroes.v1/feature.trait.high-elf/high-senses"}
 
 Your senses are especially keen and perceptive. You gain an [edge](../rule/dice/edge.md) on [tests](../rule/test/test.md) made to notice threats.
 
-##### Otherworldly Grace {data-scc="mcdm.heroes.v1/feature.trait.high-elf/otherworldly-grace" data-cost="2 Points"}
+##### Otherworldly Grace {data-scc="mcdm.heroes.v1/feature.trait.high-elf/otherworldly-grace"}
 
 Your elf body and mind can't be contained for long. Whenever you make a [saving throw](../rule/general/saving-throw.md), you succeed on a roll of 5 or higher.
 
-##### Revisit Memory {data-scc="mcdm.heroes.v1/feature.trait.high-elf/revisit-memory" data-cost="1 Point"}
+##### Revisit Memory {data-scc="mcdm.heroes.v1/feature.trait.high-elf/revisit-memory"}
 
 Accessing memories is as easy as living in the present for you. You gain an [edge](../rule/dice/edge.md) on [tests](../rule/test/test.md) made to recall lore.
 
-##### Unstoppable Mind {data-scc="mcdm.heroes.v1/feature.trait.high-elf/unstoppable-mind" data-cost="2 Points"}
+##### Unstoppable Mind {data-scc="mcdm.heroes.v1/feature.trait.high-elf/unstoppable-mind"}
 
 Your mind allows you to maintain your focus in any situation. You can't be made [dazed](../condition/dazed.md).
 
@@ -1059,11 +1059,11 @@ Your stature reflects your giant forebears. Your [size](../rule/character/size.m
 
 You have 3 ancestry points to spend on the following traits. (*Quick Build:* Doomsight, Forceful.)
 
-##### All Is a Feather {data-scc="mcdm.heroes.v1/feature.trait.hakaan/all-is-a-feather" data-cost="1 Point"}
+##### All Is a Feather {data-scc="mcdm.heroes.v1/feature.trait.hakaan/all-is-a-feather"}
 
 You are exceptionally strong. You gain an [edge](../rule/dice/edge.md) on [tests](../rule/test/test.md) made to lift and haul heavy objects.
 
-##### Doomsight {data-scc="mcdm.heroes.v1/feature.trait.hakaan/doomsight" data-cost="2 Points"}
+##### Doomsight {data-scc="mcdm.heroes.v1/feature.trait.hakaan/doomsight"}
 
 Working with your Director, you can predetermine an encounter in which you will die. When that encounter begins, you become doomed. While doomed, you automatically obtain a tier 3 outcome on [tests](../rule/test/test.md) and [ability rolls](../rule/dice/ability-roll.md), and you don't die no matter how low your [Stamina](../rule/health/stamina.md) falls. You then die immediately at the end of the encounter, and can't be returned to life by any means.
 
@@ -1071,15 +1071,15 @@ If you don't predetermine your death encounter, you can choose to become doomed 
 
 Additionally, when your [Stamina](../rule/health/stamina.md) reaches the negative of your [winded](../rule/health/winded.md) value and you are not doomed, you turn to rubble instead of experiencing death. You are unaware of your surroundings in this state, and you can't regain [Stamina](../rule/health/stamina.md) or have this effect undone in any way. After 12 hours, you regain [Stamina](../rule/health/stamina.md) equal to your [recovery value](../rule/health/recoveries.md).
 
-##### Forceful {data-scc="mcdm.heroes.v1/feature.trait.hakaan/forceful" data-cost="1 Point"}
+##### Forceful {data-scc="mcdm.heroes.v1/feature.trait.hakaan/forceful"}
 
 Whenever you [force move](../movement/forced-movement.md) a creature or object, the [forced movement](../movement/forced-movement.md) [distance](../rule/combat/distance.md) gains a +1 [bonus](../rule/dice/bonuses-and-penalties.md).
 
-##### Great Fortitude {data-scc="mcdm.heroes.v1/feature.trait.hakaan/great-fortitude" data-cost="2 Points"}
+##### Great Fortitude {data-scc="mcdm.heroes.v1/feature.trait.hakaan/great-fortitude"}
 
 Your hearty constitution prevents you from losing strength. You can't be made [weakened](../condition/weakened.md).
 
-##### Stand Tough {data-scc="mcdm.heroes.v1/feature.trait.hakaan/stand-tough" data-cost="1 Point"}
+##### Stand Tough {data-scc="mcdm.heroes.v1/feature.trait.hakaan/stand-tough"}
 
 Your body is made to withstand the blows of your enemies. Your [Might](../rule/character/might.md) score is treated as 1 higher for the purpose of resisting [potencies](../rule/character/potency.md), and you gain an [edge](../rule/dice/edge.md) on [Might](../rule/character/might.md) [tests](../rule/test/test.md) when called for to resist environmental effects or a creature's traits or abilities.
 
@@ -1137,23 +1137,23 @@ As a maneuver, you can open your awareness to detect [supernatural](../rule/gene
 
 You have 3 ancestry points to spend on the following traits. (*Quick Build:* Perseverance, Staying Power.)
 
-##### Can't Take Hold {data-scc="mcdm.heroes.v1/feature.trait.human/cant-take-hold" data-cost="1 Point"}
+##### Can't Take Hold {data-scc="mcdm.heroes.v1/feature.trait.human/cant-take-hold"}
 
 Your connection to the natural world allows you to resist certain [supernatural](../rule/general/supernatural.md) effects. You ignore temporary [difficult terrain](../movement/difficult-terrain.md) created by magic and psionic abilities. Additionally, when you are [force moved](../movement/forced-movement.md) by a magic or psionic ability, you can reduce the [forced movement](../movement/forced-movement.md) [distance](../rule/combat/distance.md) by 1.
 
-##### Determination {data-scc="mcdm.heroes.v1/feature.trait.human/determination" data-cost="2 Points"}
+##### Determination {data-scc="mcdm.heroes.v1/feature.trait.human/determination"}
 
 A tolerance for pain and distress allows you to push through difficult situations. If you are [frightened](../condition/frightened.md), [slowed](../condition/slowed.md), or [weakened](../condition/weakened.md), you can use a maneuver to immediately end one of those [conditions](../rule/combat/condition.md).
 
-##### Perseverance {data-scc="mcdm.heroes.v1/feature.trait.human/perseverance" data-cost="1 Point"}
+##### Perseverance {data-scc="mcdm.heroes.v1/feature.trait.human/perseverance"}
 
 Giving up is for other people. You gain an [edge](../rule/dice/edge.md) on [tests](../rule/test/test.md) made using the [Endurance](../skill/exploration/endurance.md) skill. Additionally, when you are [slowed](../condition/slowed.md), your [speed](../rule/character/speed.md) is reduced to 3 instead of 2.
 
-##### Resist the Unnatural {data-scc="mcdm.heroes.v1/feature.trait.human/resist-the-unnatural" data-cost="1 Point"}
+##### Resist the Unnatural {data-scc="mcdm.heroes.v1/feature.trait.human/resist-the-unnatural"}
 
 Your instinctive resilience protects you from injuries beyond the routine. Whenever you take damage that isn't untyped, you can use a [triggered action](../rule/combat/triggered-action.md) to take half the damage.
 
-##### Staying Power {data-scc="mcdm.heroes.v1/feature.trait.human/staying-power" data-cost="2 Points"}
+##### Staying Power {data-scc="mcdm.heroes.v1/feature.trait.human/staying-power"}
 
 Your [human](../ancestry/human.md) physiology allows you to fight, run, and stay awake longer than others. You increase your number of [Recoveries](../rule/health/recoveries.md) by 2.
 
@@ -1263,31 +1263,31 @@ Your body is light for a creature of your height. Whenever another creature atte
 
 You have 4 ancestry points to spend on the following traits. (*Quick Build:* Lightning Nimbleness, Nonstop.)
 
-##### I Am Law {data-scc="mcdm.heroes.v1/feature.trait.memonek/i-am-law" data-cost="1 Point"}
+##### I Am Law {data-scc="mcdm.heroes.v1/feature.trait.memonek/i-am-law"}
 
 Your lawful nature and quick reflexes mean you give no quarter to creatures trying to get past you. Enemies can't move through your space unless you allow them to do so.
 
-##### Keeper of Order {data-scc="mcdm.heroes.v1/feature.trait.memonek/keeper-of-order" data-cost="2 Points"}
+##### Keeper of Order {data-scc="mcdm.heroes.v1/feature.trait.memonek/keeper-of-order"}
 
 Your connection to Axiom, the plane of Uttermost Law, allows you to manage chaos around you. Once per round when you or an [adjacent](../rule/combat/adjacent.md) creature makes a [power roll](../rule/dice/power-roll.md), you can use a free [triggered action](../rule/combat/triggered-action.md) to remove an [edge](../rule/dice/edge.md) or a [bane](../rule/dice/bane.md) on the roll, to [turn](../rule/combat/turn.md) a double [edge](../rule/dice/edge.md) into an [edge](../rule/dice/edge.md), or to [turn](../rule/combat/turn.md) a double [bane](../rule/dice/bane.md) into a [bane](../rule/dice/bane.md).
 
-##### Lightning Nimbleness {data-scc="mcdm.heroes.v1/feature.trait.memonek/lightning-nimbleness" data-cost="2 Points"}
+##### Lightning Nimbleness {data-scc="mcdm.heroes.v1/feature.trait.memonek/lightning-nimbleness"}
 
 You can push your body to move at incredible [speeds](../rule/character/speed.md). Your [speed](../rule/character/speed.md) is 7.
 
-##### Nonstop {data-scc="mcdm.heroes.v1/feature.trait.memonek/nonstop" data-cost="2 Points"}
+##### Nonstop {data-scc="mcdm.heroes.v1/feature.trait.memonek/nonstop"}
 
 Your connection to Axiom allows you to regulate your movement. You can't be made [slowed](../condition/slowed.md).
 
-##### Systematic Mind {data-scc="mcdm.heroes.v1/feature.trait.memonek/systematic-mind" data-cost="1 Point"}
+##### Systematic Mind {data-scc="mcdm.heroes.v1/feature.trait.memonek/systematic-mind"}
 
 You gain an [edge](../rule/dice/edge.md) on [tests](../rule/test/test.md) made to parse schematics, maps, and other systematic documents that aren't inherently chaotic. In addition, you treat any language you don't know as if you know a related language.
 
-##### Unphased {data-scc="mcdm.heroes.v1/feature.trait.memonek/unphased" data-cost="1 Point"}
+##### Unphased {data-scc="mcdm.heroes.v1/feature.trait.memonek/unphased"}
 
 Your ordered mind can't be caught off guard. You can't be made [surprised](../rule/combat/surprised.md).
 
-##### Useful Emotion {data-scc="mcdm.heroes.v1/feature.trait.memonek/useful-emotion" data-cost="1 Point"}
+##### Useful Emotion {data-scc="mcdm.heroes.v1/feature.trait.memonek/useful-emotion"}
 
 Velloparatha—the worldsickness—might hinder you, but you know how to [turn](../rule/combat/turn.md) your pain into something your enemies feel. At the start of any combat, you gain 1 [surge](../rule/resource/surge.md).
 
@@ -1427,23 +1427,23 @@ Whenever a creature deals damage to you that leaves you [dying](../rule/health/d
 
 You have 3 ancestry points to spend on the following traits. (*Quick Build:* Glowing [Recovery](../rule/health/recoveries.md), Grounded.)
 
-##### Bloodfire Rush {data-scc="mcdm.heroes.v1/feature.trait.orc/bloodfire-rush" data-cost="1 Point"}
+##### Bloodfire Rush {data-scc="mcdm.heroes.v1/feature.trait.orc/bloodfire-rush"}
 
 The magic coursing through your veins makes you run faster in the heat of battle. The first time in any [combat round](../rule/combat/combat-round.md) that you take damage, you gain a +2 [bonus](../rule/dice/bonuses-and-penalties.md) to [speed](../rule/character/speed.md) until the end of the round.
 
-##### Glowing Recovery {data-scc="mcdm.heroes.v1/feature.trait.orc/glowing-recovery" data-cost="2 Points"}
+##### Glowing Recovery {data-scc="mcdm.heroes.v1/feature.trait.orc/glowing-recovery"}
 
 Your bloodfire allows you to regain your strength quicker than others. Whenever you use the [Catch Breath](../feature/common/maneuvers/catch-breath.md) maneuver, you can spend as many [Recoveries](../rule/health/recoveries.md) as you like.
 
-##### Grounded {data-scc="mcdm.heroes.v1/feature.trait.orc/grounded" data-cost="1 Point"}
+##### Grounded {data-scc="mcdm.heroes.v1/feature.trait.orc/grounded"}
 
 The magic in your blood makes it difficult for others to move you. You have a +1 [bonus](../rule/dice/bonuses-and-penalties.md) to [stability](../rule/character/stability.md).
 
-##### Nonstop {data-scc="mcdm.heroes.v1/feature.trait.orc/nonstop" data-cost="2 Points"}
+##### Nonstop {data-scc="mcdm.heroes.v1/feature.trait.orc/nonstop"}
 
 Your bloodfire supplies you with a constant rush of adrenaline. You can't be made [slowed](../condition/slowed.md).
 
-##### Passionate Artisan {data-scc="mcdm.heroes.v1/feature.trait.orc/passionate-artisan" data-cost="1 Point"}
+##### Passionate Artisan {data-scc="mcdm.heroes.v1/feature.trait.orc/passionate-artisan"}
 
 When you are stirred by a passion for creation, your bloodfire allows you to work longer and harder. When you gain your initial skills from your career, culture, class, or other source, choose two skills from the [crafting skill group](../skill/group/crafting.md), whether you have those skills or not. Whenever you make a [project roll](../rule/downtime/project-roll.md) for a [crafting project](../rule/downtime/crafting-project.md) that uses these skills, you gain a +2 [bonus](../rule/dice/bonuses-and-penalties.md) to the roll.
 
@@ -1591,27 +1591,27 @@ Your diminutive stature lets you easily get out of—or into—trouble. Your [si
 
 You have 4 ancestry points to spend on the following traits. (*Quick Build:* Corruption Immunity, Fearless, Graceful Retreat.)
 
-##### Corruption Immunity {data-scc="mcdm.heroes.v1/feature.trait.polder/corruption-immunity" data-cost="1 Point"}
+##### Corruption Immunity {data-scc="mcdm.heroes.v1/feature.trait.polder/corruption-immunity"}
 
 Your innate [shadow](../class/shadow.md) magic grants you resilience against the unnatural. You have corruption immunity equal to your level + 2.
 
-##### Fearless {data-scc="mcdm.heroes.v1/feature.trait.polder/fearless" data-cost="2 Points"}
+##### Fearless {data-scc="mcdm.heroes.v1/feature.trait.polder/fearless"}
 
 Courage is all you know. You can't be made [frightened](../condition/frightened.md).
 
-##### Graceful Retreat {data-scc="mcdm.heroes.v1/feature.trait.polder/graceful-retreat" data-cost="1 Point"}
+##### Graceful Retreat {data-scc="mcdm.heroes.v1/feature.trait.polder/graceful-retreat"}
 
 Your small [size](../rule/character/size.md) makes it easier for you to slip away from the fray. You gain a +1 [bonus](../rule/dice/bonuses-and-penalties.md) to the [distance](../rule/combat/distance.md) you can shift when you take the [Disengage](../feature/common/move-actions/disengage.md) move action.
 
-##### Nimblestep {data-scc="mcdm.heroes.v1/feature.trait.polder/nimblestep" data-cost="2 Points"}
+##### Nimblestep {data-scc="mcdm.heroes.v1/feature.trait.polder/nimblestep"}
 
 A light step serves you well when [speed](../rule/character/speed.md) is of the essence. You ignore the effects of [difficult terrain](../movement/difficult-terrain.md) and can move at full [speed](../rule/character/speed.md) while sneaking.
 
-##### Polder Geist {data-scc="mcdm.heroes.v1/feature.trait.polder/polder-geist" data-cost="1 Point"}
+##### Polder Geist {data-scc="mcdm.heroes.v1/feature.trait.polder/polder-geist"}
 
 Evading others' notice gives you freedom to move. At the start of each of your [turns](../rule/combat/turn.md) during combat, if no enemy has [line of effect](../rule/combat/line-of-effect.md) to you or if you are hidden from or have [concealment](../rule/combat/concealment.md) from any enemy with [line of effect](../rule/combat/line-of-effect.md) to you, you gain a +3 [bonus](../rule/dice/bonuses-and-penalties.md) to [speed](../rule/character/speed.md) until the end of your [turn](../rule/combat/turn.md).
 
-##### Reactive Tumble {data-scc="mcdm.heroes.v1/feature.trait.polder/reactive-tumble" data-cost="1 Point"}
+##### Reactive Tumble {data-scc="mcdm.heroes.v1/feature.trait.polder/reactive-tumble"}
 
 Staying light on your feet lets you quickly get back into position. Whenever you are [force moved](../movement/forced-movement.md), you can use a free [triggered action](../rule/combat/triggered-action.md) to [shift](../movement/shifting.md) 1 square after the [forced movement](../movement/forced-movement.md) is resolved.
 
@@ -1697,23 +1697,23 @@ Additionally, when your [Stamina](../rule/health/stamina.md) reaches the negativ
 
 You have 2 ancestry points to spend on the following traits, or 3 ancestry points if your [size](../rule/character/size.md) is 1S. (*Quick Build:* Bloodless, plus Undead Influence if [size](../rule/character/size.md) 1S.)
 
-##### Bloodless {data-scc="mcdm.heroes.v1/feature.trait.revenant/bloodless" data-cost="2 Points"}
+##### Bloodless {data-scc="mcdm.heroes.v1/feature.trait.revenant/bloodless"}
 
 For you, an open wound is indistinguishable from a scratch. You can't be made [bleeding](../condition/bleeding.md) even while [dying](../rule/health/dying.md).
 
-##### Previous Life: 1 Point {data-scc="mcdm.heroes.v1/feature.trait.revenant/previous-life-1-point" data-cost="1 Point"}
+##### Previous Life: 1 Point {data-scc="mcdm.heroes.v1/feature.trait.revenant/previous-life-1-point"}
 
 You select a purchased trait that costs 1 ancestry point from your previous ancestry. You can take this trait multiple times, selecting a different 1 point trait from your previous ancestry each time.
 
-##### Previous Life: 2 Points {data-scc="mcdm.heroes.v1/feature.trait.revenant/previous-life-2-points" data-cost="2 Points"}
+##### Previous Life: 2 Points {data-scc="mcdm.heroes.v1/feature.trait.revenant/previous-life-2-points"}
 
 You select a purchased trait that costs 2 ancestry points from your previous ancestry.
 
-##### Undead Influence {data-scc="mcdm.heroes.v1/feature.trait.revenant/undead-influence" data-cost="1 Point"}
+##### Undead Influence {data-scc="mcdm.heroes.v1/feature.trait.revenant/undead-influence"}
 
 Your [supernatural](../rule/general/supernatural.md) gifts allow you to influence other undead. You gain an [edge](../rule/dice/edge.md) on [Reason](../rule/character/reason.md), [Intuition](../rule/character/intuition.md), and [Presence](../rule/character/presence.md) [tests](../rule/test/test.md) made to interact with undead creatures.
 
-##### Vengeance Mark {data-scc="mcdm.heroes.v1/feature.trait.revenant/vengeance-mark" data-cost="2 Points"}
+##### Vengeance Mark {data-scc="mcdm.heroes.v1/feature.trait.revenant/vengeance-mark"}
 
 As a maneuver, you place a magic sigil on a creature within 10 squares. When you place a sigil, you decide where it appears on the creature's body, and whether the sigil is visible to only you or to all creatures.
 
@@ -1845,23 +1845,23 @@ Your mind is a formidable layer of defense. You have psychic immunity equal to y
 
 You have 3 ancestry points to spend on the following traits. (*Quick Build:* Beyondsight, Psionic Gift with [Psionic Bolt](../feature/ability/time-raider/psionic-bolt.md).)
 
-##### Beyondsight {data-scc="mcdm.heroes.v1/feature.trait.time-raider/beyondsight" data-cost="1 Point"}
+##### Beyondsight {data-scc="mcdm.heroes.v1/feature.trait.time-raider/beyondsight"}
 
 As a maneuver, you can adjust your vision to allow you to see through mundane obstructions that are 1 square thick or less. While your vision is adjusted this way, you can't see the area within 1 square of you and you don't have [line of effect](../rule/combat/line-of-effect.md) to any creature or object in that area. You can restore your usual vision as a maneuver.
 
-##### Foresight {data-scc="mcdm.heroes.v1/feature.trait.time-raider/foresight" data-cost="1 Point"}
+##### Foresight {data-scc="mcdm.heroes.v1/feature.trait.time-raider/foresight"}
 
 Your senses extend past mundane obscuration and the veil of the future alike. You automatically know the location of any creature with [concealment](../rule/combat/concealment.md) who isn't hidden from you within 20, and you negate the usual [bane](../rule/dice/bane.md) on [strikes](../rule/combat/strike.md) against such creatures. Additionally, whenever you are targeted by a [strike](../rule/combat/strike.md), you can use a [triggered action](../rule/combat/triggered-action.md) to impose a [bane](../rule/dice/bane.md) on the [power roll](../rule/dice/power-roll.md).
 
-##### Four-Armed Athletics {data-scc="mcdm.heroes.v1/feature.trait.time-raider/four-armed-athletics" data-cost="1 Point"}
+##### Four-Armed Athletics {data-scc="mcdm.heroes.v1/feature.trait.time-raider/four-armed-athletics"}
 
 Your unique physiology enhances your movement. You gain an [edge](../rule/dice/edge.md) on [tests](../rule/test/test.md) that use the [Climb](../skill/exploration/climb.md), [Gymnastics](../skill/exploration/gymnastics.md), or [Swim](../skill/exploration/swim.md) skills when you can use all your arms in the attempt.
 
-##### Four-Armed Martial Arts {data-scc="mcdm.heroes.v1/feature.trait.time-raider/four-armed-martial-arts" data-cost="2 Points"}
+##### Four-Armed Martial Arts {data-scc="mcdm.heroes.v1/feature.trait.time-raider/four-armed-martial-arts"}
 
 Your multiple arms let you take on multiple tasks at the same time. Whenever you use the [Grab](../feature/common/maneuvers/grab.md) or [Knockback](../feature/common/maneuvers/knockback.md) maneuver against an [adjacent](../rule/combat/adjacent.md) creature, you can target one additional [adjacent](../rule/combat/adjacent.md) creature, using the same [power roll](../rule/dice/power-roll.md) for both targets. Additionally, you can have up to two creatures [grabbed](../condition/grabbed.md) at a time.
 
-##### Psionic Gift {data-scc="mcdm.heroes.v1/feature.trait.time-raider/psionic-gift" data-cost="2 Points"}
+##### Psionic Gift {data-scc="mcdm.heroes.v1/feature.trait.time-raider/psionic-gift"}
 
 Choose one [signature ability](../rule/combat/signature-ability.md) from the following options. [Signature abilities](../rule/combat/signature-ability.md) can be used at will.
 
@@ -1903,6 +1903,6 @@ Choose one [signature ability](../rule/combat/signature-ability.md) from the fol
 
 **Effect:** The target gains a [bonus](../rule/dice/bonuses-and-penalties.md) to [speed](../rule/character/speed.md) equal to your [Reason](../rule/character/reason.md), [Intuition](../rule/character/intuition.md), or [Presence](../rule/character/presence.md) score (your choice) until the start of your next [turn](../rule/combat/turn.md).
 
-##### Unstoppable Mind {data-cost="2 Points"}
+##### Unstoppable Mind
 
 Your mind allows you to maintain your focus in any situation. You can't be made [dazed](../condition/dazed.md).
