@@ -1,6 +1,6 @@
 # Title Index
 
-Total: 67
+Total: 66
 
 - [Ancient Loremaster](../title/ancient-loremaster.md)
 - [Arena Fighter](../title/arena-fighter.md)
@@ -27,7 +27,6 @@ Total: 67
 - [Faction Officer](../title/faction-officer.md)
 - [Fey Friend](../title/fey-friend.md)
 - [Fleet Admiral](../title/fleet-admiral.md)
-- [Follower Types](../title/follower-types.md)
 - [Forsaken](../title/forsaken.md)
 - [Giant Slayer](../title/giant-slayer.md)
 - [Godsworn](../title/godsworn.md)
