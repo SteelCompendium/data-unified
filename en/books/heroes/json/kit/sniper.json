@@ -1,8 +1,11 @@
 {
   "content": "The [Sniper](scc.v1:mcdm.heroes.v1/kit/sniper) kit gives you the tools and techniques to take down enemies from afar. This kit can help you become the archer who lurks behind trees or down tunnels, picking off enemies with a bow or crossbow as they approach.\n\n##### Equipment\n\nYou wear no armor and wield a bow.\n\n##### Kit Bonuses\n\n**[Speed](scc.v1:mcdm.heroes.v1/rule.character/speed) [Bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties):** +1\n\n**[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) Damage [Bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties):** +0/+0/+4\n\n**[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) [Distance](scc.v1:mcdm.heroes.v1/rule.combat/distance) [Bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties):** +10\n\n**Disengage [Bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties):** +1\n\n##### Signature Ability\n\n###### Patient Shot\n\n*Breathe... aim... wait... then strike!*\n\n| **[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), Weapon** |     **Main action** |\n|----------------------------|--------------------:|\n| **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 15**           | **🎯 One creature** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc.v1:mcdm.heroes.v1/rule.character/might) or [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility):**\n\n- **≤11:** 3 + M or A damage\n- **12-16:** 6 + M or A damage\n- **17+:** 13 + M or A damage\n\n**Effect:** If you don't take a move action this [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), this [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) deals extra damage equal to your [Might](scc.v1:mcdm.heroes.v1/rule.character/might) or [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility) score (your choice).",
+  "disengage_bonus": "+1",
   "equipment_text": "You wear no armor and wield a bow.",
   "flavor": "The Sniper kit gives you the tools and techniques to take down enemies from afar. This kit can help you become the archer who lurks behind trees or down tunnels, picking off enemies with a bow or crossbow as they approach.",
   "name": "Sniper",
+  "ranged_damage_bonus": "+0/+0/+4",
+  "ranged_distance_bonus": "+10",
   "scc": "mcdm.heroes.v1/kit/sniper",
   "signature_ability": {
     "ability_type": "Signature",
@@ -48,5 +51,6 @@
     "type": "feature",
     "usage": "Main action"
   },
+  "speed_bonus": "+1",
   "type": "kit"
 }

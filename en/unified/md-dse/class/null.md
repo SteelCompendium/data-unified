@@ -1,4 +1,5 @@
 ---
+average_potency: '[Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition) − 1'
 file_basename: "null"
 file_dpath: class
 flavor: The mind is not separate from the body. Perfection of one requires perfection of the other. You strive for perfect discipline, perfect order, mastery over mind and body, becoming an unarmed psionic warrior who dampens and absorbs magic and psionics. You require no weapons, no tools. You suffice.
@@ -9,7 +10,9 @@ scc: mcdm.heroes.v1/class/null
 skills:
     - 'You gain the [Psionics](scc.v1:mcdm.heroes.v1/skill.lore/psionics) skill (see Skills in Chapter 9: [Tests](scc.v1:mcdm.heroes.v1/chapter/tests)). Then choose any two skills from the [interpersonal](scc.v1:mcdm.heroes.v1/skill.group/interpersonal) or [lore](scc.v1:mcdm.heroes.v1/skill.group/lore) skill groups. (*Quick Build:* Psionics, [Read Person](scc.v1:mcdm.heroes.v1/skill.interpersonal/read-person), Timescape.)'
 source: mcdm.heroes.v1
+strong_potency: '[Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)'
 type: class
+weak_potency: '[Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition) − 2'
 ---
 
 The mind is not separate from the body. Perfection of one requires perfection of the other. You strive for perfect discipline, perfect order, mastery over mind and body, becoming an unarmed psionic warrior who dampens and absorbs magic and psionics. You require no weapons, no tools. You suffice.

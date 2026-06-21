@@ -4,9 +4,11 @@
   "language": "One language",
   "name": "Politician",
   "perk": "One interpersonal perk (*Quick Build:* [Engrossing Monologue](scc.v1:mcdm.heroes.v1/perk/engrossing-monologue).)",
+  "renown": "+1",
   "scc": "mcdm.heroes.v1/career/politician",
   "skills": [
     "Two skills from the [interpersonal skill group](scc.v1:mcdm.heroes.v1/skill.group/interpersonal) (*Quick Build:* [Lead](scc.v1:mcdm.heroes.v1/skill.interpersonal/lead), [Lie](scc.v1:mcdm.heroes.v1/skill.interpersonal/lie).)"
   ],
-  "type": "career"
+  "type": "career",
+  "wealth": "+1"
 }

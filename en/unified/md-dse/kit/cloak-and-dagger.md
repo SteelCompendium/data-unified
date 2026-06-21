@@ -1,13 +1,19 @@
 ---
+disengage_bonus: "+1"
 equipment_text: You wear light armor and wield one or two light weapons.
 file_basename: cloak-and-dagger
 file_dpath: kit
 flavor: Providing throwable light weapons and light armor easily concealed by a cloak to confuse your enemies, the Cloak and Dagger kit makes you more mobile while increasing the effectiveness of your short-range strikes.
 item_id: cloak-and-dagger
 item_name: Cloak and Dagger
+melee_damage_bonus: +1/+1/+1
 name: Cloak and Dagger
+ranged_damage_bonus: +1/+1/+1
+ranged_distance_bonus: "+5"
 scc: mcdm.heroes.v1/kit/cloak-and-dagger
 source: mcdm.heroes.v1
+speed_bonus: "+2"
+stamina_bonus: +3 per [echelon](scc.v1:mcdm.heroes.v1/rule.general/echelon)
 type: kit
 ---
 

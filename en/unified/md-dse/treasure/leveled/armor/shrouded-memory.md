@@ -9,6 +9,7 @@ keywords:
     - Psionic
 name: Shrouded Memory
 project_goal: "450"
+project_roll_characteristic: '[Agility](scc.v1:mcdm.heroes.v1/rule.character/agility) or [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence)'
 scc: mcdm.heroes.v1/treasure.leveled.armor/shrouded-memory
 source: mcdm.heroes.v1
 treasure_type: armor

@@ -1,4 +1,5 @@
 ---
+average_potency: '[Might](scc.v1:mcdm.heroes.v1/rule.character/might) − 1'
 file_basename: fury
 file_dpath: class
 flavor: You do not temper the heat of battle within you. You unleash it! Your experience in the wild taught you the secrets of predators, and now, like the raptor, the panther, the wolf, you channel unfettered anger into martial prowess. Primordial Chaos is your ally. Let others use finesse to clean up the wreckage left in your wake.
@@ -9,7 +10,9 @@ scc: mcdm.heroes.v1/class/fury
 skills:
     - 'You gain the [Nature](scc.v1:mcdm.heroes.v1/skill.lore/nature) skill (see Skills in Chapter 9: [Tests](scc.v1:mcdm.heroes.v1/chapter/tests)). Then choose any two skills from the [exploration](scc.v1:mcdm.heroes.v1/skill.group/exploration) or [intrigue](scc.v1:mcdm.heroes.v1/skill.group/intrigue) skill groups. (*Quick Build:* Alertness, Jump, Nature.)'
 source: mcdm.heroes.v1
+strong_potency: '[Might](scc.v1:mcdm.heroes.v1/rule.character/might)'
 type: class
+weak_potency: '[Might](scc.v1:mcdm.heroes.v1/rule.character/might) − 2'
 ---
 
 You do not temper the heat of battle within you. You unleash it! Your experience in the wild taught you the secrets of predators, and now, like the raptor, the [panther](scc.v1:mcdm.heroes.v1/kit/panther), the wolf, you channel [unfettered](scc.v1:mcdm.heroes.v1/feature.fury.level-5/unfettered) anger into martial prowess. Primordial Chaos is your ally. Let others use finesse to clean up the wreckage left in your wake.

@@ -1,13 +1,19 @@
 ---
+disengage_bonus: "+1"
 equipment_text: You wear light armor and wield a shield and a light weapon.
 file_basename: raider
 file_dpath: kit
 flavor: The Raider kit keeps you protected while granting you full mobility, providing a boost to speed and distance that lets you run around the battlefield like a Viking warrior.
 item_id: raider
 item_name: Raider
+melee_damage_bonus: +1/+1/+1
 name: Raider
+ranged_damage_bonus: +1/+1/+1
+ranged_distance_bonus: "+5"
 scc: mcdm.heroes.v1/kit/raider
 source: mcdm.heroes.v1
+speed_bonus: "+1"
+stamina_bonus: +6 per [echelon](../rule/general/echelon.md)
 type: kit
 ---
 

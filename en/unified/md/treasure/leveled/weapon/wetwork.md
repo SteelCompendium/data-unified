@@ -5,6 +5,7 @@ keywords:
     - Psionic
 name: Wetwork
 project_goal: "450"
+project_roll_characteristic: '[Might](scc.v1:mcdm.heroes.v1/rule.character/might), [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason), or [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)'
 scc: mcdm.heroes.v1/treasure.leveled.weapon/wetwork
 treasure_type: weapon
 type: treasure

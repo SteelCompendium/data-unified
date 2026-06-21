@@ -1,4 +1,5 @@
 ---
+average_potency: '[Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) − 1'
 file_basename: tactician
 file_dpath: class
 flavor: Strategist. Defender. Leader. With weapon in hand, you lead allies into the maw of battle, barking out commands that inspire your fellow heroes to move faster and strike more precisely. All the while, you stand between your compatriots and death, taunting the followers of evil to best you if they can.
@@ -9,7 +10,9 @@ scc: mcdm.heroes.v1/class/tactician
 skills:
     - 'You gain the [Lead](scc.v1:mcdm.heroes.v1/skill.interpersonal/lead) skill (see Skills in Chapter 9: [Tests](scc.v1:mcdm.heroes.v1/chapter/tests)). Then choose any two skills from Alertness, Architecture, Blacksmithing, Brag, Culture, Empathize, Fletching, Mechanics, Monsters, Search, Strategy, or the skills of the [exploration skill group](scc.v1:mcdm.heroes.v1/skill.group/exploration). (*Quick Build:* Lead, Monsters, Strategy.)'
 source: mcdm.heroes.v1
+strong_potency: '[Reason](scc.v1:mcdm.heroes.v1/rule.character/reason)'
 type: class
+weak_potency: '[Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) − 2'
 ---
 
 Strategist. Defender. Leader. With weapon in hand, you lead allies into the maw of battle, barking out commands that inspire your fellow heroes to move faster and strike more precisely. All the while, you stand between your compatriots and death, taunting the [followers](scc.v1:mcdm.heroes.v1/rule.general/follower) of evil to best you if they can.

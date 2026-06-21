@@ -6,6 +6,7 @@ keywords:
     - Magic
 name: 'Page From the Infinite Library: Solaris'
 project_goal: "360"
+project_roll_characteristic: '[Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) or [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)'
 scc: mcdm.heroes.v1/treasure.4th-echelon.consumable/page-from-the-infinite-library-solaris
 treasure_type: consumable
 type: treasure

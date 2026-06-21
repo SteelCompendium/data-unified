@@ -4,6 +4,7 @@
   "language": "One language",
   "name": "Mage's Apprentice",
   "perk": "One [supernatural](scc.v1:mcdm.heroes.v1/rule.general/supernatural) perk (*Quick Build:* [Arcane Trick](scc.v1:mcdm.heroes.v1/perk/arcane-trick).)",
+  "renown": "+1",
   "scc": "mcdm.heroes.v1/career/mages-apprentice",
   "skills": [
     "The [Magic](scc.v1:mcdm.heroes.v1/skill.lore/magic) skill (from the [lore skill group](scc.v1:mcdm.heroes.v1/skill.group/lore)), plus two other skills from the [lore group](scc.v1:mcdm.heroes.v1/skill.group/lore) (*Quick Build:* [Magic](scc.v1:mcdm.heroes.v1/skill.lore/magic), [Monsters](scc.v1:mcdm.heroes.v1/skill.lore/monsters), [Timescape](scc.v1:mcdm.heroes.v1/skill.lore/timescape).)"

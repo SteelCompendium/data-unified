@@ -11,6 +11,7 @@ keywords:
     - Psionic
 name: Psi Blade
 project_goal: "600"
+project_roll_characteristic: '[Agility](../../../rule/character/agility.md) or [Presence](../../../rule/character/presence.md)'
 scc: mcdm.heroes.v1/treasure.4th-echelon.trinket/psi-blade
 source: mcdm.heroes.v1
 treasure_type: trinket

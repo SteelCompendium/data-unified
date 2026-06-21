@@ -10,6 +10,7 @@ keywords:
     - Psionic
 name: Ward Token
 project_goal: "180"
+project_roll_characteristic: '[Might](scc.v1:mcdm.heroes.v1/rule.character/might) or [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)'
 scc: mcdm.heroes.v1/treasure.3rd-echelon.consumable/ward-token
 source: mcdm.heroes.v1
 treasure_type: consumable

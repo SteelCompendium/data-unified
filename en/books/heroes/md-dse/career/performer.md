@@ -6,6 +6,7 @@ item_id: performer
 item_name: Performer
 name: Performer
 perk: One interpersonal perk (*Quick Build:* [Harmonizer](scc.v1:mcdm.heroes.v1/perk/harmonizer).)
+renown: "+2"
 scc: mcdm.heroes.v1/career/performer
 skills:
     - The [Music](scc.v1:mcdm.heroes.v1/skill.interpersonal/music) or [Perform](scc.v1:mcdm.heroes.v1/skill.interpersonal/perform) skill (from the [interpersonal skill group](scc.v1:mcdm.heroes.v1/skill.group/interpersonal)), plus two more skills from the [interpersonal group](scc.v1:mcdm.heroes.v1/skill.group/interpersonal) (*Quick Build:* [Flirt](scc.v1:mcdm.heroes.v1/skill.interpersonal/flirt), [Music](scc.v1:mcdm.heroes.v1/skill.interpersonal/music), [Perform](scc.v1:mcdm.heroes.v1/skill.interpersonal/perform).)

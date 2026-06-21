@@ -11,6 +11,7 @@ keywords:
     - Potion
 name: Stygian Liquor
 project_goal: "180"
+project_roll_characteristic: '[Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) or [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)'
 scc: mcdm.heroes.v1/treasure.3rd-echelon.consumable/stygian-liquor
 source: mcdm.heroes.v1
 treasure_type: consumable

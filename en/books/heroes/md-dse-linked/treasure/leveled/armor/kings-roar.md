@@ -9,6 +9,7 @@ keywords:
     - Shield
 name: King's Roar
 project_goal: "450"
+project_roll_characteristic: '[Reason](../../../rule/character/reason.md), [Intuition](../../../rule/character/intuition.md), or [Presence](../../../rule/character/presence.md)'
 scc: mcdm.heroes.v1/treasure.leveled.armor/kings-roar
 source: mcdm.heroes.v1
 treasure_type: armor

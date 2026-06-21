@@ -2,6 +2,7 @@
   "content": "The [Shining Armor](scc.v1:mcdm.heroes.v1/kit/shining-armor) kit provides the most protection a kit can afford, providing you with the sword, shield, and armor necessary to play the prototypical knight.\n\n##### Equipment\n\nYou wear heavy armor and wield a shield and a medium weapon.\n\n##### Kit Bonuses\n\n**[Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) [Bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties):** +12 per [echelon](scc.v1:mcdm.heroes.v1/rule.general/echelon)\n\n**[Stability](scc.v1:mcdm.heroes.v1/rule.character/stability) [Bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties):** +1\n\n**[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) Damage [Bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties):** +2/+2/+2\n\n##### Signature Ability\n\n###### Protective Attack\n\n*The strength of your assault makes it impossible for your foe to ignore you.*\n\n| **[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), Weapon** |     **Main action** |\n|---------------------------|--------------------:|\n| **📏 [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1**            | **🎯 One creature** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc.v1:mcdm.heroes.v1/rule.character/might) or [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility):**\n\n- **≤11:** 5 + M or A damage\n- **12-16:** 8 + M or A damage\n- **17+:** 11 + M or A damage\n\n**Effect:** The target is [taunted](scc.v1:mcdm.heroes.v1/condition/taunted) until the end of their next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn).",
   "equipment_text": "You wear heavy armor and wield a shield and a medium weapon.",
   "flavor": "The Shining Armor kit provides the most protection a kit can afford, providing you with the sword, shield, and armor necessary to play the prototypical knight.",
+  "melee_damage_bonus": "+2/+2/+2",
   "name": "Shining Armor",
   "scc": "mcdm.heroes.v1/kit/shining-armor",
   "signature_ability": {
@@ -48,5 +49,7 @@
     "type": "feature",
     "usage": "Main action"
   },
+  "stability_bonus": "+1",
+  "stamina_bonus": "+12 per [echelon](scc.v1:mcdm.heroes.v1/rule.general/echelon)",
   "type": "kit"
 }

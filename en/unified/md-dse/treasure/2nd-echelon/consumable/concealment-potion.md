@@ -11,6 +11,7 @@ keywords:
     - Psionic
 name: Concealment Potion
 project_goal: "90"
+project_roll_characteristic: '[Agility](scc.v1:mcdm.heroes.v1/rule.character/agility) or [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)'
 scc: mcdm.heroes.v1/treasure.2nd-echelon.consumable/concealment-potion
 source: mcdm.heroes.v1
 treasure_type: consumable

@@ -11,6 +11,7 @@ keywords:
     - Ring
 name: Shifting Ring
 project_goal: "450"
+project_roll_characteristic: '[Agility](../../../rule/character/agility.md) or [Intuition](../../../rule/character/intuition.md)'
 scc: mcdm.heroes.v1/treasure.3rd-echelon.trinket/shifting-ring
 source: mcdm.heroes.v1
 treasure_type: trinket

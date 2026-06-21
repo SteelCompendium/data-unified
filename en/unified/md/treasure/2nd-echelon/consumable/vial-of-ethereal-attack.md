@@ -6,6 +6,7 @@ keywords:
     - Psionic
 name: Vial of Ethereal Attack
 project_goal: "90"
+project_roll_characteristic: '[Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) or [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)'
 scc: mcdm.heroes.v1/treasure.2nd-echelon.consumable/vial-of-ethereal-attack
 treasure_type: consumable
 type: treasure

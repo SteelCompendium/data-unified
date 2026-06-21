@@ -5,6 +5,7 @@ keywords:
     - Wand
 name: Brittlebreaker
 project_goal: "450"
+project_roll_characteristic: '[Might](scc.v1:mcdm.heroes.v1/rule.character/might), [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason), or [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)'
 scc: mcdm.heroes.v1/treasure.leveled.implement/brittlebreaker
 treasure_type: implement
 type: treasure

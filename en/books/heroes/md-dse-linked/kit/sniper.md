@@ -1,4 +1,5 @@
 ---
+disengage_bonus: "+1"
 equipment_text: You wear no armor and wield a bow.
 file_basename: sniper
 file_dpath: kit
@@ -6,8 +7,11 @@ flavor: The Sniper kit gives you the tools and techniques to take down enemies f
 item_id: sniper
 item_name: Sniper
 name: Sniper
+ranged_damage_bonus: +0/+0/+4
+ranged_distance_bonus: "+10"
 scc: mcdm.heroes.v1/kit/sniper
 source: mcdm.heroes.v1
+speed_bonus: "+1"
 type: kit
 ---
 

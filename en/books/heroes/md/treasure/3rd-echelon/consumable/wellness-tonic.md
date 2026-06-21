@@ -7,6 +7,7 @@ keywords:
     - Psionic
 name: Wellness Tonic
 project_goal: "180"
+project_roll_characteristic: '[Might](scc.v1:mcdm.heroes.v1/rule.character/might) or [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)'
 scc: mcdm.heroes.v1/treasure.3rd-echelon.consumable/wellness-tonic
 treasure_type: consumable
 type: treasure

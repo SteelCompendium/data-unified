@@ -9,6 +9,7 @@ keywords:
     - Polearm
 name: Lance of the Sundered Star
 project_goal: "450"
+project_roll_characteristic: '[Agility](scc.v1:mcdm.heroes.v1/rule.character/agility) or [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence)'
 scc: mcdm.heroes.v1/treasure.leveled.weapon/lance-of-the-sundered-star
 source: mcdm.heroes.v1
 treasure_type: weapon

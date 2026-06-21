@@ -9,6 +9,7 @@ keywords:
     - Net
 name: Molten Constrictor
 project_goal: "450"
+project_roll_characteristic: '[Might](../../../rule/character/might.md), [Reason](../../../rule/character/reason.md), or [Intuition](../../../rule/character/intuition.md)'
 scc: mcdm.heroes.v1/treasure.leveled.weapon/molten-constrictor
 source: mcdm.heroes.v1
 treasure_type: weapon

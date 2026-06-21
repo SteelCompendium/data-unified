@@ -1,8 +1,12 @@
 ---
 equipment_text: You wear no armor and wield a heavy weapon.
 flavor: If you want a good balance of protection, speed, and damage, the Panther kit is for you. This kit increases your Stamina not by wearing armor, but through the focused battle preparation of body and mind, letting you be fast and mobile while swinging a heavy weapon at your foes.
+melee_damage_bonus: +0/+0/+4
 name: Panther
 scc: mcdm.heroes.v1/kit/panther
+speed_bonus: "+1"
+stability_bonus: "+1"
+stamina_bonus: +6 per [echelon](scc.v1:mcdm.heroes.v1/rule.general/echelon)
 type: kit
 ---
 

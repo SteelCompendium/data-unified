@@ -10,6 +10,7 @@ keywords:
     - Magic
 name: Black Ash Dart
 project_goal: 45 (yields 1d3 darts, or three darts if crafted by a shadow)
+project_roll_characteristic: '[Agility](../../../rule/character/agility.md) or [Intuition](../../../rule/character/intuition.md)'
 scc: mcdm.heroes.v1/treasure.1st-echelon.consumable/black-ash-dart
 source: mcdm.heroes.v1
 treasure_type: consumable

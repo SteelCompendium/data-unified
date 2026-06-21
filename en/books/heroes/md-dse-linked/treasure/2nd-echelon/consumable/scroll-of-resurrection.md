@@ -11,6 +11,7 @@ keywords:
     - Scroll
 name: Scroll of Resurrection
 project_goal: "90"
+project_roll_characteristic: '[Intuition](../../../rule/character/intuition.md) or [Presence](../../../rule/character/presence.md)'
 scc: mcdm.heroes.v1/treasure.2nd-echelon.consumable/scroll-of-resurrection
 source: mcdm.heroes.v1
 treasure_type: consumable

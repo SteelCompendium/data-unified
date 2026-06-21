@@ -1,13 +1,17 @@
 ---
+disengage_bonus: "+1"
 equipment_text: You wear no armor and wield only your unarmed [strikes](scc.v1:mcdm.heroes.v1/rule.combat/strike).
 file_basename: martial-artist
 file_dpath: kit
 flavor: If you want to be fast in a fight, then Martial Artist is the kit for you. Unencumbered by weapons or armor, this fighting style rewards quick, focused unarmed strikes against opponents, and allows you to be the ultimate skirmisher.
 item_id: martial-artist
 item_name: Martial Artist
+melee_damage_bonus: +2/+2/+2
 name: Martial Artist
 scc: mcdm.heroes.v1/kit/martial-artist
 source: mcdm.heroes.v1
+speed_bonus: "+3"
+stamina_bonus: +3 per [echelon](scc.v1:mcdm.heroes.v1/rule.general/echelon)
 type: kit
 ---
 

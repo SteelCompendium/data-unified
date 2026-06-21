@@ -1,4 +1,5 @@
 ---
+disengage_bonus: "+1"
 equipment_text: You wear no armor and wield a bow.
 file_basename: arcane-archer
 file_dpath: kit
@@ -6,8 +7,11 @@ flavor: The Arcane Archer kit allows you to combine magic and ranged weapon stri
 item_id: arcane-archer
 item_name: Arcane Archer
 name: Arcane Archer
+ranged_damage_bonus: +2/+2/+2
+ranged_distance_bonus: "+10"
 scc: mcdm.heroes.v1/kit/arcane-archer
 source: mcdm.heroes.v1
+speed_bonus: "+1"
 type: kit
 ---
 

@@ -11,6 +11,7 @@ keywords:
     - Magic
 name: Gecko Gloves
 project_goal: "150"
+project_roll_characteristic: '[Reason](../../../rule/character/reason.md) or [Intuition](../../../rule/character/intuition.md)'
 scc: mcdm.heroes.v1/treasure.1st-echelon.trinket/gecko-gloves
 source: mcdm.heroes.v1
 treasure_type: trinket

@@ -10,6 +10,7 @@ keywords:
     - Magic
 name: Chocolate of Immovability
 project_goal: "90"
+project_roll_characteristic: '[Reason](../../../rule/character/reason.md) or [Intuition](../../../rule/character/intuition.md)'
 scc: mcdm.heroes.v1/treasure.2nd-echelon.consumable/chocolate-of-immovability
 source: mcdm.heroes.v1
 treasure_type: consumable

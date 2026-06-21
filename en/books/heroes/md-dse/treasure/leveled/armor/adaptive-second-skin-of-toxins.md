@@ -9,6 +9,7 @@ keywords:
     - Magic
 name: Adaptive Second Skin of Toxins
 project_goal: "450"
+project_roll_characteristic: '[Agility](scc.v1:mcdm.heroes.v1/rule.character/agility) or [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)'
 scc: mcdm.heroes.v1/treasure.leveled.armor/adaptive-second-skin-of-toxins
 source: mcdm.heroes.v1
 treasure_type: armor

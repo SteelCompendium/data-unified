@@ -9,6 +9,7 @@ keywords:
     - Magic
 name: Blade of the Luxurious Fop
 project_goal: "450"
+project_roll_characteristic: '[Agility](../../../rule/character/agility.md), [Reason](../../../rule/character/reason.md), or [Intuition](../../../rule/character/intuition.md)'
 scc: mcdm.heroes.v1/treasure.leveled.weapon/blade-of-the-luxurious-fop
 source: mcdm.heroes.v1
 treasure_type: weapon

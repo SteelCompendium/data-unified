@@ -3,10 +3,12 @@ flavor: Career? Who needs a career when you're born into money! Or marry into it
 language: One language
 name: Aristocrat
 perk: One lore perk (*Quick Build:* I've Read About This Place.)
+renown: "+1"
 scc: mcdm.heroes.v1/career/aristocrat
 skills:
     - One skill from the [interpersonal skill group](scc.v1:mcdm.heroes.v1/skill.group/interpersonal) and one skill from the [lore group](scc.v1:mcdm.heroes.v1/skill.group/lore) (*Quick Build:* [Brag](scc.v1:mcdm.heroes.v1/skill.interpersonal/brag), [Society](scc.v1:mcdm.heroes.v1/skill.lore/society).)
 type: career
+wealth: "+1"
 ---
 
 Career? Who needs a career when you're born into money! Or marry into it! Or con your way into it! Whatever the case, you didn't need to work thanks to (someone's) generational wealth. In defining your career, think about the following questions:

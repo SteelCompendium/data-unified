@@ -6,6 +6,7 @@ keywords:
     - Psionic
 name: Key of Inquiry
 project_goal: "300"
+project_roll_characteristic: '[Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) or [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)'
 scc: mcdm.heroes.v1/treasure.2nd-echelon.trinket/key-of-inquiry
 treasure_type: trinket
 type: treasure

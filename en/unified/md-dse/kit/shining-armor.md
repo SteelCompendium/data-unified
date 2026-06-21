@@ -5,9 +5,12 @@ file_dpath: kit
 flavor: The Shining Armor kit provides the most protection a kit can afford, providing you with the sword, shield, and armor necessary to play the prototypical knight.
 item_id: shining-armor
 item_name: Shining Armor
+melee_damage_bonus: +2/+2/+2
 name: Shining Armor
 scc: mcdm.heroes.v1/kit/shining-armor
 source: mcdm.heroes.v1
+stability_bonus: "+1"
+stamina_bonus: +12 per [echelon](scc.v1:mcdm.heroes.v1/rule.general/echelon)
 type: kit
 ---
 

@@ -10,6 +10,7 @@ keywords:
     - Magic
 name: Divine Vine
 project_goal: "150"
+project_roll_characteristic: '[Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) or [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence)'
 scc: mcdm.heroes.v1/treasure.1st-echelon.trinket/divine-vine
 source: mcdm.heroes.v1
 treasure_type: trinket

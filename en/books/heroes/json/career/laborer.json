@@ -4,6 +4,7 @@
   "language": "One language",
   "name": "Laborer",
   "perk": "One exploration perk (*Quick Build:* Brawny.)",
+  "project_points": "120",
   "scc": "mcdm.heroes.v1/career/laborer",
   "skills": [
     "The [Endurance](scc.v1:mcdm.heroes.v1/skill.exploration/endurance) skill (from the [exploration skill group](scc.v1:mcdm.heroes.v1/skill.group/exploration)), plus two skills from either the [crafting group](scc.v1:mcdm.heroes.v1/skill.group/crafting) or the [exploration group](scc.v1:mcdm.heroes.v1/skill.group/exploration) (*Quick Build:* [Blacksmithing](scc.v1:mcdm.heroes.v1/skill.crafting/blacksmithing), [Endurance](scc.v1:mcdm.heroes.v1/skill.exploration/endurance), [Lift](scc.v1:mcdm.heroes.v1/skill.exploration/lift).)"

@@ -1,13 +1,19 @@
 ---
+disengage_bonus: "+1"
 equipment_text: You wear medium armor and wield a bow and a medium weapon.
 file_basename: ranger
 file_dpath: kit
 flavor: The Ranger kit outfits you with medium armor and weapons for every challenge, letting you easily switch between melee and ranged combat. This kit provides a good balance of bonuses to defense and offense to create a hero who is a jack-of-all-trades.
 item_id: ranger
 item_name: Ranger
+melee_damage_bonus: +1/+1/+1
 name: Ranger
+ranged_damage_bonus: +1/+1/+1
+ranged_distance_bonus: "+5"
 scc: mcdm.heroes.v1/kit/ranger
 source: mcdm.heroes.v1
+speed_bonus: "+1"
+stamina_bonus: +6 per [echelon](scc.v1:mcdm.heroes.v1/rule.general/echelon)
 type: kit
 ---
 

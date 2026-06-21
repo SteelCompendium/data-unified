@@ -11,6 +11,7 @@ keywords:
     - Psionic
 name: Evilest Eye
 project_goal: "300"
+project_roll_characteristic: '[Reason](../../../rule/character/reason.md) or [Intuition](../../../rule/character/intuition.md)'
 scc: mcdm.heroes.v1/treasure.2nd-echelon.trinket/evilest-eye
 source: mcdm.heroes.v1
 treasure_type: trinket

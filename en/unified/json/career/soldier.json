@@ -4,6 +4,7 @@
   "language": "Two languages",
   "name": "Soldier",
   "perk": "One exploration perk (*Quick Build:* Teamwork.)",
+  "renown": "+1",
   "scc": "mcdm.heroes.v1/career/soldier",
   "skills": [
     "One skill from the [exploration skill group](scc.v1:mcdm.heroes.v1/skill.group/exploration) and one skill from the [intrigue group](scc.v1:mcdm.heroes.v1/skill.group/intrigue) (*Quick Build:* [Alertness](scc.v1:mcdm.heroes.v1/skill.intrigue/alertness), [Endurance](scc.v1:mcdm.heroes.v1/skill.exploration/endurance).)"

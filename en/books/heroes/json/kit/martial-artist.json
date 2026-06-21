@@ -1,7 +1,9 @@
 {
   "content": "If you want to be fast in a fight, then [Martial Artist](scc.v1:mcdm.heroes.v1/kit/martial-artist) is the kit for you. Unencumbered by weapons or armor, this fighting style rewards quick, focused unarmed [strikes](scc.v1:mcdm.heroes.v1/rule.combat/strike) against opponents, and allows you to be the ultimate skirmisher.\n\n##### Equipment\n\nYou wear no armor and wield only your unarmed [strikes](scc.v1:mcdm.heroes.v1/rule.combat/strike).\n\n##### Kit Bonuses\n\n**[Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) [Bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties):** +3 per [echelon](scc.v1:mcdm.heroes.v1/rule.general/echelon)\n\n**[Speed](scc.v1:mcdm.heroes.v1/rule.character/speed) [Bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties):** +3\n\n**[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) Damage [Bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties):** +2/+2/+2\n\n**Disengage [Bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties):** +1\n\n##### Signature Ability\n\n###### Battle Grace\n\n*You feint to move your enemies into perfect position.*\n\n| **[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), Weapon** |     **Main action** |\n|---------------------------|--------------------:|\n| **📏 [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1**            | **🎯 One creature** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc.v1:mcdm.heroes.v1/rule.character/might) or [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility):**\n\n- **≤11:** 5 + M or A damage\n- **12-16:** 8 + M or A damage; you can swap places with the target\n- **17+:** 11 + M or A damage; you can swap places with the target\n\n**Effect:** If you obtain a tier 2 or tier 3 outcome and can't swap places with the target because one or both of you is too big to fit into the swapped space, you both remain in your original spaces and the target takes 1 extra damage.",
+  "disengage_bonus": "+1",
   "equipment_text": "You wear no armor and wield only your unarmed [strikes](scc.v1:mcdm.heroes.v1/rule.combat/strike).",
   "flavor": "If you want to be fast in a fight, then Martial Artist is the kit for you. Unencumbered by weapons or armor, this fighting style rewards quick, focused unarmed strikes against opponents, and allows you to be the ultimate skirmisher.",
+  "melee_damage_bonus": "+2/+2/+2",
   "name": "Martial Artist",
   "scc": "mcdm.heroes.v1/kit/martial-artist",
   "signature_ability": {
@@ -48,5 +50,7 @@
     "type": "feature",
     "usage": "Main action"
   },
+  "speed_bonus": "+3",
+  "stamina_bonus": "+3 per [echelon](scc.v1:mcdm.heroes.v1/rule.general/echelon)",
   "type": "kit"
 }

@@ -7,6 +7,7 @@ item_name: Warden
 language: One language
 name: Warden
 perk: One exploration perk (*Quick Build:* [Camouflage Hunter](../perk/camouflage-hunter.md).)
+project_points: "120"
 scc: mcdm.heroes.v1/career/warden
 skills:
     - Nature (from the [lore skill group](../skill/group/lore.md)), plus one skill from the [exploration group](../skill/group/exploration.md) and one skill from the [intrigue group](../skill/group/intrigue.md) (*Quick Build:*  [Nature](../skill/lore/nature.md), Navigate, Track.)

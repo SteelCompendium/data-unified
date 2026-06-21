@@ -1,4 +1,5 @@
 ---
+average_potency: '[Presence](../rule/character/presence.md) − 1'
 file_basename: censor
 file_dpath: class
 flavor: Demons and deathless fear you. Criminals run from the sight of your shadow. Agents of chaos, blasphemers, and heretics tremble at the sound of your voice. You carry the power of the gods, armed with wrath and sent out into the world first to seek, then censor those whose actions—or even existence—are anathema to your church.
@@ -9,7 +10,9 @@ scc: mcdm.heroes.v1/class/censor
 skills:
     - 'Choose any two skills from the [interpersonal](../skill/group/interpersonal.md) or [lore](../skill/group/lore.md) skill groups (see Skills in Chapter 9: [Tests](../chapter/tests.md)). (*Quick Build:* [Intimidate](../skill/interpersonal/intimidate.md), [Religion](../skill/lore/religion.md).)'
 source: mcdm.heroes.v1
+strong_potency: '[Presence](../rule/character/presence.md)'
 type: class
+weak_potency: '[Presence](../rule/character/presence.md) − 2'
 ---
 
 Demons and deathless fear you. Criminals run from the sight of your shadow. Agents of chaos, blasphemers, and heretics tremble at the sound of your voice. You carry the power of the gods, armed with wrath and sent out into the world first to seek, then censor those whose actions—or even existence—are anathema to your church.

@@ -1,6 +1,7 @@
 content: "Meant for brawlers and boxers, the [Pugilist](scc.v1:mcdm.heroes.v1/kit/pugilist) kit gives you access to a [melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) fighting style that grants a boost to [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) and damage while allowing you to float like a butterfly. If you want to be a tough, strong hero who doles out punishment with your fists, then this kit is for you.\n\n##### Equipment\n\nYou wear no armor and wield only your unarmed [strikes](scc.v1:mcdm.heroes.v1/rule.combat/strike).\n\n##### Kit Bonuses\n\n**[Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) [Bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties):** +6 per [echelon](scc.v1:mcdm.heroes.v1/rule.general/echelon)\n\n**[Speed](scc.v1:mcdm.heroes.v1/rule.character/speed) [Bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties):** +2\n\n**[Stability](scc.v1:mcdm.heroes.v1/rule.character/stability) [Bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties):** +1\n\n**[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) Damage [Bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties):** +1/+1/+1\n\n##### Signature Ability\n\n###### Let's Dance\n\n*Keeping your enemies stumbling around the battlefield is second nature to you.*\n\n| **[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), Weapon** |     **Main action** |\n|---------------------------|--------------------:|\n| **\U0001F4CF [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1**            | **\U0001F3AF One creature** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc.v1:mcdm.heroes.v1/rule.character/might) or [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility):**\n\n- **≤11:** 3 + M or A damage\n- **12-16:** 6 + M or A damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1\n- **17+:** 8 + M or A damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2\n\n**Effect:** You can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) into any square the target leaves after you [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) them."
 equipment_text: You wear no armor and wield only your unarmed [strikes](scc.v1:mcdm.heroes.v1/rule.combat/strike).
 flavor: Meant for brawlers and boxers, the Pugilist kit gives you access to a melee fighting style that grants a boost to Stamina and damage while allowing you to float like a butterfly. If you want to be a tough, strong hero who doles out punishment with your fists, then this kit is for you.
+melee_damage_bonus: +1/+1/+1
 name: Pugilist
 scc: mcdm.heroes.v1/kit/pugilist
 signature_ability:
@@ -38,4 +39,7 @@ signature_ability:
     target: One creature
     type: feature
     usage: Main action
+speed_bonus: "+2"
+stability_bonus: "+1"
+stamina_bonus: +6 per [echelon](scc.v1:mcdm.heroes.v1/rule.general/echelon)
 type: kit

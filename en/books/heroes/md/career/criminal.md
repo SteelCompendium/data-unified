@@ -3,6 +3,7 @@ flavor: You once worked as a bandit, insurgent, smuggler, outlaw, or even as an 
 language: One language
 name: Criminal
 perk: One intrigue perk (*Quick Build:* [Criminal Contacts](scc.v1:mcdm.heroes.v1/perk/criminal-contacts).)
+project_points: "120"
 scc: mcdm.heroes.v1/career/criminal
 skills:
     - The [Criminal Underworld](scc.v1:mcdm.heroes.v1/skill.lore/criminal-underworld) skill (from the [lore skill group](scc.v1:mcdm.heroes.v1/skill.group/lore)), plus two skills from the [intrigue group](scc.v1:mcdm.heroes.v1/skill.group/intrigue) (*Quick Build:* [Criminal Underworld](scc.v1:mcdm.heroes.v1/skill.lore/criminal-underworld), Pick Lock, Pick Pocket.)

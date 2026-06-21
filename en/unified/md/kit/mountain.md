@@ -1,8 +1,11 @@
 ---
 equipment_text: You wear heavy armor and wield a heavy weapon.
 flavor: The Mountain kit does exactly what it says on the tin. You don heavy armor and raise a heavy weapon to stand strong against your foes, quickly demolishing them when it's your turn to strike.
+melee_damage_bonus: +0/+0/+4
 name: Mountain
 scc: mcdm.heroes.v1/kit/mountain
+stability_bonus: "+2"
+stamina_bonus: +9 per [echelon](scc.v1:mcdm.heroes.v1/rule.general/echelon)
 type: kit
 ---
 

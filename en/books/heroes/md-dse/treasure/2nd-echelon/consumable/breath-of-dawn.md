@@ -10,6 +10,7 @@ keywords:
     - Psionic
 name: Breath of Dawn
 project_goal: "90"
+project_roll_characteristic: '[Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition) or [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence)'
 scc: mcdm.heroes.v1/treasure.2nd-echelon.consumable/breath-of-dawn
 source: mcdm.heroes.v1
 treasure_type: consumable

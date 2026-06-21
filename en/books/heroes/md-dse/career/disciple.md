@@ -6,6 +6,7 @@ item_id: disciple
 item_name: Disciple
 name: Disciple
 perk: One [supernatural](scc.v1:mcdm.heroes.v1/rule.general/supernatural) perk (*Quick Build:* [Ritualist](scc.v1:mcdm.heroes.v1/perk/ritualist).)
+project_points: "240"
 scc: mcdm.heroes.v1/career/disciple
 skills:
     - The [Religion](scc.v1:mcdm.heroes.v1/skill.lore/religion) skill (from the [lore skill group](scc.v1:mcdm.heroes.v1/skill.group/lore)), plus two more skills from the [lore group](scc.v1:mcdm.heroes.v1/skill.group/lore) (*Quick Build:* [Culture](scc.v1:mcdm.heroes.v1/skill.lore/culture), [Magic](scc.v1:mcdm.heroes.v1/skill.lore/magic), [Religion](scc.v1:mcdm.heroes.v1/skill.lore/religion).)

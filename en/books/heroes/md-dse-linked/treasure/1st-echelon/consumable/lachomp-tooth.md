@@ -10,6 +10,7 @@ keywords:
     - Psionic
 name: Lachomp Tooth
 project_goal: 45 (yields 1d3 teeth)
+project_roll_characteristic: '[Reason](../../../rule/character/reason.md) or [Intuition](../../../rule/character/intuition.md)'
 scc: mcdm.heroes.v1/treasure.1st-echelon.consumable/lachomp-tooth
 source: mcdm.heroes.v1
 treasure_type: consumable

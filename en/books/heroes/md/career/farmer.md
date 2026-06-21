@@ -3,6 +3,7 @@ flavor: You grew crops or cared for livestock.
 language: One language
 name: Farmer
 perk: One exploration perk (*Quick Build:* [Monster Whisperer](scc.v1:mcdm.heroes.v1/perk/monster-whisperer).)
+project_points: "120"
 scc: mcdm.heroes.v1/career/farmer
 skills:
     - The [Handle Animals](scc.v1:mcdm.heroes.v1/skill.interpersonal/handle-animals) skill (from the [interpersonal skill group](scc.v1:mcdm.heroes.v1/skill.group/interpersonal)), plus two skills from the [exploration group](scc.v1:mcdm.heroes.v1/skill.group/exploration) (*Quick Build:* [Drive](scc.v1:mcdm.heroes.v1/skill.exploration/drive), [Handle Animals](scc.v1:mcdm.heroes.v1/skill.interpersonal/handle-animals), [Lift](scc.v1:mcdm.heroes.v1/skill.exploration/lift).)

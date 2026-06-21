@@ -11,6 +11,7 @@ keywords:
     - Psionic
 name: Mirage Band
 project_goal: "450"
+project_roll_characteristic: '[Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) or [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)'
 scc: mcdm.heroes.v1/treasure.3rd-echelon.trinket/mirage-band
 source: mcdm.heroes.v1
 treasure_type: trinket

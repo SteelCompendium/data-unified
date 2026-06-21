@@ -5,6 +5,7 @@ keywords:
     - Psionic
 name: Knife of Nine
 project_goal: "450"
+project_roll_characteristic: '[Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) or [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)'
 scc: mcdm.heroes.v1/treasure.leveled.weapon/knife-of-nine
 treasure_type: weapon
 type: treasure

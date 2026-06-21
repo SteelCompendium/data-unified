@@ -3,10 +3,12 @@ flavor: You worked as a leader within a formal, bureaucratic organization or gov
 language: One language
 name: Politician
 perk: One interpersonal perk (*Quick Build:* [Engrossing Monologue](scc.v1:mcdm.heroes.v1/perk/engrossing-monologue).)
+renown: "+1"
 scc: mcdm.heroes.v1/career/politician
 skills:
     - Two skills from the [interpersonal skill group](scc.v1:mcdm.heroes.v1/skill.group/interpersonal) (*Quick Build:* [Lead](scc.v1:mcdm.heroes.v1/skill.interpersonal/lead), [Lie](scc.v1:mcdm.heroes.v1/skill.interpersonal/lie).)
 type: career
+wealth: "+1"
 ---
 
 You worked as a leader within a formal, bureaucratic organization or government. You might have been appointed, born, or elected into your position, but getting people to agree and making decisions for the people you serve (or who served you) was your job. In defining your career, think about the following questions:

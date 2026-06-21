@@ -5,9 +5,13 @@ file_dpath: kit
 flavor: The Spellsword kit combines melee strikes and a little bit of magic, letting you create a warrior who doesn't have to choose between the incantation and the blade.
 item_id: spellsword
 item_name: Spellsword
+melee_damage_bonus: +2/+2/+2
 name: Spellsword
 scc: mcdm.heroes.v1/kit/spellsword
 source: mcdm.heroes.v1
+speed_bonus: "+1"
+stability_bonus: "+1"
+stamina_bonus: +6 per [echelon](../rule/general/echelon.md)
 type: kit
 ---
 

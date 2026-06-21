@@ -1,10 +1,13 @@
 ---
+average_potency: '[Reason](../rule/character/reason.md) − 1'
 flavor: Air for movement. Earth for permanence. Fire for destruction. Water for change. Green for growth. Rot for death. Void for the mystery that which cannot be known. Years of study and practice and poring over tomes brought you the revelations that allow you to manipulate these building blocks of reality. Now you use your mastery of the seven elements to destroy, create, and warp the world with magic.
 name: Elementalist
 scc: mcdm.heroes.v1/class/elementalist
 skills:
     - 'You gain the Magic skill (see Skills in Chapter 9: [Tests](../chapter/tests.md)). Then choose any three skills from the [crafting](../skill/group/crafting.md) or [lore](../skill/group/lore.md) skill groups. (*Quick Build:* Alchemy, Blacksmithing, History, Magic.)'
+strong_potency: '[Reason](../rule/character/reason.md)'
 type: class
+weak_potency: '[Reason](../rule/character/reason.md) − 2'
 ---
 
 Air for movement. Earth for permanence. Fire for destruction. Water for change. Green for growth. Rot for death. Void for the mystery that which cannot be known. Years of study and practice and poring over tomes brought you the revelations that allow you to manipulate these building blocks of reality. Now you use your mastery of the seven elements to destroy, create, and warp the world with magic.

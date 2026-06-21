@@ -9,6 +9,7 @@ keywords:
     - Medium Armor
 name: Grand Scarab
 project_goal: "450"
+project_roll_characteristic: '[Might](../../../rule/character/might.md), [Reason](../../../rule/character/reason.md), or [Intuition](../../../rule/character/intuition.md)'
 scc: mcdm.heroes.v1/treasure.leveled.armor/grand-scarab
 source: mcdm.heroes.v1
 treasure_type: armor

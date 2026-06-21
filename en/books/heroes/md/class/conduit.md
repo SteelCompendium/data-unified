@@ -1,10 +1,13 @@
 ---
+average_potency: '[Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition) - 1'
 flavor: The power of the gods flows through you! As a vessel for divine power, you don't just keep your allies in the fight. You make those allies more effective, even as you rain divine energy down upon your foes. Though the deity or saint you serve might have other faithful and clergy, you are special among worshippers, receiving your abilities from the highest source.
 name: Conduit
 scc: mcdm.heroes.v1/class/conduit
 skills:
     - 'Choose any two skills from the [interpersonal](scc.v1:mcdm.heroes.v1/skill.group/interpersonal) or [lore](scc.v1:mcdm.heroes.v1/skill.group/lore) skill groups (see Skills in Chapter 9: [Tests](scc.v1:mcdm.heroes.v1/chapter/tests)). (*Quick Build:* [Read Person](scc.v1:mcdm.heroes.v1/skill.interpersonal/read-person), Religion.)'
+strong_potency: '[Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)'
 type: class
+weak_potency: '[Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition) - 2'
 ---
 
 The power of the gods flows through you! As a vessel for [divine power](scc.v1:mcdm.heroes.v1/feature.conduit.level-10/divine-power), you don't just keep your allies in the fight. You make those allies more effective, even as you rain divine energy down upon your foes. Though the deity or [saint](scc.v1:mcdm.heroes.v1/rule.world/saint) you serve might have other faithful and clergy, you are special among worshippers, receiving your abilities from the highest source.

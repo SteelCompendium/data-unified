@@ -7,6 +7,7 @@ item_name: Artisan
 language: One language
 name: Artisan
 perk: One crafting perk (*Quick Build:* [Area of Expertise](../perk/area-of-expertise.md).)
+project_points: "240"
 scc: mcdm.heroes.v1/career/artisan
 skills:
     - Two skills from the [crafting skill group](../skill/group/crafting.md) (*Quick Build:* [Blacksmithing](../skill/crafting/blacksmithing.md), [Carpentry](../skill/crafting/carpentry.md).)

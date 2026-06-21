@@ -10,6 +10,7 @@ keywords:
     - Magic
 name: Float Powder
 project_goal: 90 (yields 1d3 vials)
+project_roll_characteristic: '[Intuition](../../../rule/character/intuition.md) or [Presence](../../../rule/character/presence.md)'
 scc: mcdm.heroes.v1/treasure.2nd-echelon.consumable/float-powder
 source: mcdm.heroes.v1
 treasure_type: consumable

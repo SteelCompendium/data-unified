@@ -25,6 +25,7 @@ keywords:
     - Magic
 name: Gravekeeper's Lantern
 project_goal: "600"
+project_roll_characteristic: '[Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) or [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)'
 scc: mcdm.heroes.v1/treasure.4th-echelon.trinket/gravekeepers-lantern
 treasure_type: trinket
 type: treasure

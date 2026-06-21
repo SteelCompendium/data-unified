@@ -11,6 +11,7 @@ keywords:
     - Psionic
 name: Flameshade Gloves
 project_goal: "150"
+project_roll_characteristic: '[Reason](scc.v1:mcdm.heroes.v1/rule.character/reason)'
 scc: mcdm.heroes.v1/treasure.1st-echelon.trinket/flameshade-gloves
 source: mcdm.heroes.v1
 treasure_type: trinket

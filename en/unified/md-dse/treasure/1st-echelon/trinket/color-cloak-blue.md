@@ -11,6 +11,7 @@ keywords:
     - Neck
 name: Color Cloak (Blue)
 project_goal: "150"
+project_roll_characteristic: '[Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) or [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)'
 scc: mcdm.heroes.v1/treasure.1st-echelon.trinket/color-cloak-blue
 source: mcdm.heroes.v1
 treasure_type: trinket

@@ -11,6 +11,7 @@ keywords:
     - Waist
 name: Bastion Belt
 project_goal: "300"
+project_roll_characteristic: '[Might](../../../rule/character/might.md) or [Intuition](../../../rule/character/intuition.md)'
 scc: mcdm.heroes.v1/treasure.2nd-echelon.trinket/bastion-belt
 source: mcdm.heroes.v1
 treasure_type: trinket

@@ -7,6 +7,7 @@ item_name: Soldier
 language: Two languages
 name: Soldier
 perk: One exploration perk (*Quick Build:* Teamwork.)
+renown: "+1"
 scc: mcdm.heroes.v1/career/soldier
 skills:
     - One skill from the [exploration skill group](../skill/group/exploration.md) and one skill from the [intrigue group](../skill/group/intrigue.md) (*Quick Build:* [Alertness](../skill/intrigue/alertness.md), [Endurance](../skill/exploration/endurance.md).)

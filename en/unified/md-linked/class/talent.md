@@ -1,10 +1,13 @@
 ---
+average_potency: '[Reason](../rule/character/reason.md) − 1'
 flavor: A rare few people are born with the potential to harness psionic power, but only those who experience an awakening, a significant event that activates a talent's abilities, can tap into the mind's full potential. You are one of those people—a master of psionics and a source of incredible power created through sheer force of will. You can move and change matter, time, gravity, the laws of physics, or another creature's mind.
 name: Talent
 scc: mcdm.heroes.v1/class/talent
 skills:
     - 'You gain the Psionics and [Read Person](../skill/interpersonal/read-person.md) skills (see Skills in Chapter 9: [Tests](../chapter/tests.md)). Then choose any two skills from the [interpersonal](../skill/group/interpersonal.md) or [lore](../skill/group/lore.md) skill groups. (*Quick Build:* Empathize, Psionics, [Read Person](../skill/interpersonal/read-person.md), Timescape.)'
+strong_potency: '[Reason](../rule/character/reason.md)'
 type: class
+weak_potency: '[Reason](../rule/character/reason.md) − 2'
 ---
 
 A rare few people are born with the potential to harness psionic power, but only those who experience an awakening, a significant event that activates a [talent's](talent.md) abilities, can tap into the mind's full potential. You are one of those people—a master of psionics and a source of incredible power created through sheer force of will. You can move and change matter, time, gravity, the laws of physics, or another creature's mind.

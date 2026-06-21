@@ -7,6 +7,7 @@ item_name: Sage
 language: One language
 name: Sage
 perk: One lore perk (*Quick Build:* [Expert Sage](scc.v1:mcdm.heroes.v1/perk/expert-sage).)
+project_points: "240"
 scc: mcdm.heroes.v1/career/sage
 skills:
     - Two skills from the [lore skill group](scc.v1:mcdm.heroes.v1/skill.group/lore) (*Quick Build:* [History](scc.v1:mcdm.heroes.v1/skill.lore/history), [Magic](scc.v1:mcdm.heroes.v1/skill.lore/magic).)

@@ -1,7 +1,9 @@
 {
   "content": "The [Dual Wielder](scc.v1:mcdm.heroes.v1/kit/dual-wielder) kit is for folks who want to excel at using two weapons at the same time. Your fighting style maximizes the power of each weapon you have in hand, making you a whirling dealer of death.\n\n##### Equipment\n\nYou wear medium armor and wield a light weapon and a medium weapon.\n\n##### Kit Bonuses\n\n**[Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) [Bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties):** +6 per [echelon](scc.v1:mcdm.heroes.v1/rule.general/echelon)\n\n**[Speed](scc.v1:mcdm.heroes.v1/rule.character/speed) [Bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties):** +2\n\n**[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) Damage [Bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties):** +2/+2/+2\n\n**Disengage [Bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties):** +1\n\n##### Signature Ability\n\n###### Double Strike\n\n*Why strike once when you could do it twice?*\n\n| **[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), Weapon** |                 **Main action** |\n|---------------------------|--------------------------------:|\n| **📏 [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1**            | **🎯 Two creatures or objects** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc.v1:mcdm.heroes.v1/rule.character/might) or [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility):**\n\n- **≤11:** 4 damage\n- **12-16:** 6 damage\n- **17+:** 8 damage\n\n**Effect:** If you use this ability on your [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), you can use it against one target, then use your maneuver and your move action for that [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) before using the ability against a second target. You still use the same [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) for both targets.",
+  "disengage_bonus": "+1",
   "equipment_text": "You wear medium armor and wield a light weapon and a medium weapon.",
   "flavor": "The Dual Wielder kit is for folks who want to excel at using two weapons at the same time. Your fighting style maximizes the power of each weapon you have in hand, making you a whirling dealer of death.",
+  "melee_damage_bonus": "+2/+2/+2",
   "name": "Dual Wielder",
   "scc": "mcdm.heroes.v1/kit/dual-wielder",
   "signature_ability": {
@@ -48,5 +50,7 @@
     "type": "feature",
     "usage": "Main action"
   },
+  "speed_bonus": "+2",
+  "stamina_bonus": "+6 per [echelon](scc.v1:mcdm.heroes.v1/rule.general/echelon)",
   "type": "kit"
 }

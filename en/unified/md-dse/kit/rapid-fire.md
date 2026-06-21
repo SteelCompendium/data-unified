@@ -1,4 +1,5 @@
 ---
+disengage_bonus: "+1"
 equipment_text: You wear light armor and wield a bow.
 file_basename: rapid-fire
 file_dpath: kit
@@ -6,8 +7,12 @@ flavor: The Rapid-Fire kit is for archers who want to deal maximum damage by sho
 item_id: rapid-fire
 item_name: Rapid-Fire
 name: Rapid-Fire
+ranged_damage_bonus: +2/+2/+2
+ranged_distance_bonus: "+7"
 scc: mcdm.heroes.v1/kit/rapid-fire
 source: mcdm.heroes.v1
+speed_bonus: "+1"
+stamina_bonus: +3 per [echelon](scc.v1:mcdm.heroes.v1/rule.general/echelon)
 type: kit
 ---
 

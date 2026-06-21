@@ -11,6 +11,7 @@ keywords:
     - Psionic
 name: Professor Veratismo's Quaff 'n Huff Snuff
 project_goal: "45"
+project_roll_characteristic: '[Reason](../../../rule/character/reason.md)'
 scc: mcdm.heroes.v1/treasure.1st-echelon.consumable/professor-veratismos-quaff-n-huff-snuff
 source: mcdm.heroes.v1
 treasure_type: consumable

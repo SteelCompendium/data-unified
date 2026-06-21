@@ -1,4 +1,5 @@
 ---
+average_potency: '[Presence](../rule/character/presence.md) − 1'
 file_basename: troubadour
 file_dpath: class
 flavor: The whole world's a stage, and everyone on it, an actor. No one knows this better than the troubadour. You find energy in the drama of everyday life and know how to draw spectacle forth from even the most mundane of situations. You accent highs and deepen lows in service to whoever might witness your performance.
@@ -9,7 +10,9 @@ scc: mcdm.heroes.v1/class/troubadour
 skills:
     - 'You gain the [Read Person](../skill/interpersonal/read-person.md) skill (see Skills in Chapter 9: [Tests](../chapter/tests.md)). Then choose two skills from the [interpersonal skill group](../skill/group/interpersonal.md) and one skill from the [intrigue](../skill/group/intrigue.md) or [lore](../skill/group/lore.md) skill groups. (*Quick Build:* Brag, Flirt, [Read Person](../skill/interpersonal/read-person.md), Rumors.)'
 source: mcdm.heroes.v1
+strong_potency: '[Presence](../rule/character/presence.md)'
 type: class
+weak_potency: '[Presence](../rule/character/presence.md) − 2'
 ---
 
 The whole world's a stage, and everyone on it, an actor. No one knows this better than the [troubadour](troubadour.md). You find energy in the drama of everyday life and know how to draw spectacle forth from even the most mundane of situations. You accent highs and deepen lows in service to whoever might witness your performance.

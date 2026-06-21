@@ -7,6 +7,7 @@ item_name: Mage's Apprentice
 language: One language
 name: Mage's Apprentice
 perk: One [supernatural](../rule/general/supernatural.md) perk (*Quick Build:* [Arcane Trick](../perk/arcane-trick.md).)
+renown: "+1"
 scc: mcdm.heroes.v1/career/mages-apprentice
 skills:
     - The [Magic](../skill/lore/magic.md) skill (from the [lore skill group](../skill/group/lore.md)), plus two other skills from the [lore group](../skill/group/lore.md) (*Quick Build:* [Magic](../skill/lore/magic.md), [Monsters](../skill/lore/monsters.md), [Timescape](../skill/lore/timescape.md).)

@@ -6,6 +6,7 @@ keywords:
     - Magic
 name: Catapult Dust
 project_goal: "45"
+project_roll_characteristic: '[Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) or [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)'
 scc: mcdm.heroes.v1/treasure.1st-echelon.consumable/catapult-dust
 treasure_type: consumable
 type: treasure

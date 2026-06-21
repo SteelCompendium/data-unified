@@ -11,6 +11,7 @@ keywords:
     - Psionic
 name: Blood Essence Vial
 project_goal: "45"
+project_roll_characteristic: '[Agility](scc.v1:mcdm.heroes.v1/rule.character/agility) or [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason)'
 scc: mcdm.heroes.v1/treasure.1st-echelon.consumable/blood-essence-vial
 source: mcdm.heroes.v1
 treasure_type: consumable
