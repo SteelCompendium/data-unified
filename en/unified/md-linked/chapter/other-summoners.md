@@ -11,7 +11,7 @@ Whenever the following retainer would gain a new advancement ability, the player
 
 ##### —
 
-###### Devil Detective {data-scc="mcdm.summoner.v1/retainer.summoner.statblock/devil-detective"}
+###### Devil Detective {data-scc="mcdm.summoner.v1/monster.retainer.statblock/devil-detective"}
 
 | Devil, Infernal | - | Level 1 | Controller Retainer | - |
 |:-:|:---------------:|:---------------------------:|:-:|:-:|
@@ -43,7 +43,7 @@ Whenever the following retainer would gain a new advancement ability, the player
 >
 > If a creature within 10 squares speaks the detective's true name, the detective loses their [damage immunities](../rule/damage/damage-immunity.md) and can't summon any **razors** until the end of the encounter.
 
-###### Razor {data-scc="mcdm.summoner.v1/retainer.summoner.statblock/razor"}
+###### Razor {data-scc="mcdm.summoner.v1/monster.retainer.statblock/razor"}
 
 | Abyssal, Demon | - | - | Signature Minion Harrier | - |
 |:-:|:--------------:|:------------------------:|:-:|:-:|
@@ -87,7 +87,7 @@ Whenever the following retainer would gain a new advancement ability, the player
 >
 > **Effect:** The detective summons 3 violents into unoccupied spaces within distance. On each of the detective's turns, they direct the squad of **violents** to move and use a main action.
 
-###### Violent {data-scc="mcdm.summoner.v1/retainer.summoner.statblock/violent"}
+###### Violent {data-scc="mcdm.summoner.v1/monster.retainer.statblock/violent"}
 
 | Abyssal, Demon | - | - | Minion Ambusher | - |
 |:-:|:--------------:|:---------------:|:-:|:-:|
@@ -147,7 +147,7 @@ Whenever the following retainer would gain a new advancement ability, the player
 >
 > **Effect:** The detective summons two gorrres into unoccupied spaces within distance. On each of the detective's turns, they direct the squad of **gorrres** to move and use a main action.
 
-###### Gorrre {data-scc="mcdm.summoner.v1/retainer.summoner.statblock/gorrre"}
+###### Gorrre {data-scc="mcdm.summoner.v1/monster.retainer.statblock/gorrre"}
 
 | Abyssal, Demon | - | - | Minion Brute | - |
 |:-:|:--------------:|:------------:|:-:|:-:|
