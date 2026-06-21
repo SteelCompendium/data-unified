@@ -8,7 +8,7 @@ type: feature
 
 Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the following options, each of which costs 7 essence to use.
 
-## Erase {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-3/erase"}
+## Erase {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-3/erase" data-cost="7 Essence"}
 
 
 *With a flick of the wrist, you phase creatures out of existence.*
@@ -27,7 +27,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 **Effect:** Each target begins to fade from existence (save ends). On their first [turn](../../../rule/combat/turn.md) while fading from existence, a target takes a [bane](../../../rule/dice/bane.md) on [power rolls](../../../rule/dice/power-roll.md). At the end of their first [turn](../../../rule/combat/turn.md), they have a double [bane](../../../rule/dice/bane.md) on [power rolls](../../../rule/dice/power-roll.md). At the end of their second [turn](../../../rule/combat/turn.md), they fade from existence for 1 hour, after which they reappear in their original space or the nearest unoccupied space.
 
-## Maw of Earth {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-3/maw-of-earth"}
+## Maw of Earth {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-3/maw-of-earth" data-cost="7 Essence"}
 
 
 *You open up the ground, spewing out shrapnel of stone and debris.*
@@ -44,7 +44,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 **Effect:** The ground in or directly beneath the area drops 3 squares.
 
-## Swarm of Spirits {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-3/swarm-of-spirits"}
+## Swarm of Spirits {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-3/swarm-of-spirits" data-cost="7 Essence"}
 
 
 *Guardian animal spirits surround you to harry your foes and bolster your allies.*
@@ -63,7 +63,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 **Persistent 1:** You make the [power roll](../../../rule/dice/power-roll.md) again to target each enemy in the area without spending essence, and the effect lasts until the start of your next [turn](../../../rule/combat/turn.md).
 
-## Wall of Fire {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-3/wall-of-fire"}
+## Wall of Fire {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-3/wall-of-fire" data-cost="7 Essence"}
 
 
 *A blazing, beautifully organized inferno erupts at your command.*

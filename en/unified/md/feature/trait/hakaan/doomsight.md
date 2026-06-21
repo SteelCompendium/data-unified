@@ -1,5 +1,6 @@
 ---
 ancestry: hakaan
+cost: 2 Points
 name: Doomsight
 scc: mcdm.heroes.v1/feature.trait.hakaan/doomsight
 type: trait

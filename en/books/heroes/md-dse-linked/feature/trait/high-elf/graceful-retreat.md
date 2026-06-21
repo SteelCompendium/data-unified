@@ -1,6 +1,9 @@
 ---
 action_type: feature
 ancestry: high-elf
+cost: 1 Point
+cost_amount: "1"
+cost_resource: Point
 feature_type: trait
 file_basename: graceful-retreat
 file_dpath: feature/trait/high-elf
@@ -13,11 +16,13 @@ type: trait
 ---
 
 ```ds-feature
+cost: 1 Point
 effects:
     - effect: You gain a +1 [bonus](../../../rule/dice/bonuses-and-penalties.md) to the [distance](../../../rule/combat/distance.md) you can shift when you take the [Disengage](../../common/move-actions/disengage.md) move action.
 feature_type: trait
 metadata:
     ancestry: high-elf
+    cost: 1 Point
     name: Graceful Retreat
     scc: mcdm.heroes.v1/feature.trait.high-elf/graceful-retreat
     type: trait

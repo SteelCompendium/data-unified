@@ -12,7 +12,7 @@ Your [troubadour class act](../level-1/troubadour-class-act.md) grants your choi
 
 Choose one of the following abilities.
 
-### Here's How Your Story Ends {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-6/heres-how-your-story-ends"}
+### Here's How Your Story Ends {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-6/heres-how-your-story-ends" data-cost="9 Drama"}
 
 
 *You give away the ending of this battle, and it's not great for them.*
@@ -27,7 +27,7 @@ Choose one of the following abilities.
 - **12-16:** 5 psychic damage; P < AVERAGE, [frightened](../../../condition/frightened.md) (save ends)
 - **17+:** 7 psychic damage; P < STRONG, [frightened](../../../condition/frightened.md) (save ends)
 
-### You're All My Understudies {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-6/youre-all-my-understudies"}
+### You're All My Understudies {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-6/youre-all-my-understudies" data-cost="9 Drama"}
 
 
 *It's important for everyone to know each other's lines, just in case...*
@@ -42,7 +42,7 @@ Choose one of the following abilities.
 
 Choose one of the following abilities.
 
-### Blood on the Stage {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-6/blood-on-the-stage"}
+### Blood on the Stage {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-6/blood-on-the-stage" data-cost="9 Drama"}
 
 
 *It's love and blood or drama and blood. Either way, there's always blood.*
@@ -57,7 +57,7 @@ Choose one of the following abilities.
 - **12-16:** 18 + A damage; M < AVERAGE, [bleeding](../../../condition/bleeding.md) (save ends)
 - **17+:** 24 + A damage; [bleeding](../../../condition/bleeding.md) ([EoT](../../../rule/combat/end-of-turn.md)), or if M < STRONG, [bleeding](../../../condition/bleeding.md) (save ends)
 
-### Fight Choreography {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-6/fight-choreography"}
+### Fight Choreography {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-6/fight-choreography" data-cost="9 Drama"}
 
 
 *You and your partner make a flashy show of derring-do, then get back to your corners.*
@@ -72,7 +72,7 @@ Choose one of the following abilities.
 
 Choose one of the following abilities.
 
-### Feedback {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-6/feedback"}
+### Feedback {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-6/feedback" data-cost="9 Drama"}
 
 
 *Your music pounds the crowd to the beat until their hearts can't stand it anymore.*
@@ -89,7 +89,7 @@ Choose one of the following abilities.
 - **12-16:** 10 sonic damage; P < AVERAGE[, prone](../../../condition/prone.md)
 - **17+:** 13 sonic damage; P < STRONG[, prone](../../../condition/prone.md)
 
-### Legendary Drum Fill {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-6/legendary-drum-fill"}
+### Legendary Drum Fill {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-6/legendary-drum-fill" data-cost="9 Drama"}
 
 
 *You start a drumroll that roars like thunder with every impact the heroes make.*

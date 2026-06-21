@@ -1,3 +1,4 @@
+cost: 1 Point
 effects:
     - effect: Your senses are especially keen and perceptive. You gain an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on [tests](scc.v1:mcdm.heroes.v1/rule.test/test) made to notice threats.
 feature_type: trait

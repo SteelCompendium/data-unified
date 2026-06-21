@@ -173,7 +173,7 @@ Your [shadow college](../feature/shadow/level-1/shadow-college.md) grants you a 
 | Caustic Alchemy | [Defensive Roll](../feature/ability/shadow/level-1/defensive-roll.md)        |
 | Harlequin Mask  | [Clever Trick](../feature/ability/shadow/level-1/clever-trick.md)          |
 
-##### Clever Trick {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-1/clever-trick"}
+##### Clever Trick {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-1/clever-trick" data-cost="1 Insight"}
 
 
 *You sow a moment of confusion in combat, to your enemy's peril.*
@@ -220,7 +220,7 @@ Your [shadow college](../feature/shadow/level-1/shadow-college.md) grants you a 
 
 You have the following ability.
 
-#### Hesitation Is Weakness {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-1/hesitation-is-weakness"}
+#### Hesitation Is Weakness {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-1/hesitation-is-weakness" data-cost="1 Insight"}
 
 
 *Keep up the attack. Never give them a moment's grace.*
@@ -321,7 +321,7 @@ A range of [heroic abilities](../rule/general/heroic-ability.md) define your com
 
 Choose one [heroic ability](../rule/general/heroic-ability.md) from the following options, each of which costs 3 insight to use. (*Quick Build:* [Get In Get Out](../feature/ability/shadow/level-1/get-in-get-out.md).)
 
-##### Disorienting Strike {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-1/disorienting-strike"}
+##### Disorienting Strike {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-1/disorienting-strike" data-cost="3 Insight"}
 
 
 *Your attack leaves them reeling, allowing you to follow up.*
@@ -338,7 +338,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 **Effect:** You can [shift](../movement/shifting.md) into any square the target leaves when you [slide](../movement/forced-movement.md) them.
 
-##### Eviscerate {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-1/eviscerate"}
+##### Eviscerate {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-1/eviscerate" data-cost="3 Insight"}
 
 
 *You leave your foe bleeding out after a devastating attack.*
@@ -353,7 +353,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 - **12-16:** 6 + A damage; A < AVERAGE, [bleeding](../condition/bleeding.md) (save ends)
 - **17+:** 10 + A damage; A < STRONG, [bleeding](../condition/bleeding.md) (save ends)
 
-##### Get In Get Out {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-1/get-in-get-out"}
+##### Get In Get Out {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-1/get-in-get-out" data-cost="3 Insight"}
 
 
 *Move unexpectedly, strike fast, and be gone!*
@@ -370,7 +370,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 **Effect:** You can [shift](../movement/shifting.md) up to your [speed](../rule/character/speed.md), dividing that movement before or after your [strike](../rule/combat/strike.md) as desired.
 
-##### Two Throats at Once {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-1/two-throats-at-once"}
+##### Two Throats at Once {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-1/two-throats-at-once" data-cost="3 Insight"}
 
 
 *A bargain.*
@@ -389,7 +389,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 Choose one [heroic ability](../rule/general/heroic-ability.md) from the following options, each of which costs 5 insight to use. (Quick Build: [Coup de Grace](../feature/ability/shadow/level-1/coup-de-grace.md).)
 
-##### Coup de Grace {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-1/coup-de-grace"}
+##### Coup de Grace {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-1/coup-de-grace" data-cost="5 Insight"}
 
 
 *Your blade might be the last thing they see.*
@@ -404,7 +404,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 - **12-16:** 2d6 + 11 + A damage
 - **17+:** 2d6 + 16 + A damage
 
-##### One Hundred Throats {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-1/one-hundred-throats"}
+##### One Hundred Throats {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-1/one-hundred-throats" data-cost="5 Insight"}
 
 
 *As you move across the battlefield, every foe within reach feels your wrath.*
@@ -421,7 +421,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 - **12-16:** 6 damage
 - **17+:** 9 damage
 
-##### Setup {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-1/setup"}
+##### Setup {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-1/setup" data-cost="5 Insight"}
 
 
 *Your friends will thank you.*
@@ -436,7 +436,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 - **12-16:** 9 + A damage; R < AVERAGE, the target has [damage weakness](../rule/damage/damage-weakness.md) 5 (save ends)
 - **17+:** 13 + A damage; R < STRONG, the target has [damage weakness](../rule/damage/damage-weakness.md) 5 (save ends)
 
-##### Shadowstrike {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-1/shadowstrike"}
+##### Shadowstrike {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-1/shadowstrike" data-cost="5 Insight"}
 
 
 *They have no idea what the college taught you.*
@@ -489,7 +489,7 @@ Your [shadow college](../feature/shadow/level-1/shadow-college.md) grants your c
 
 Choose one of the following abilities.
 
-##### In a Puff of Ash {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-2/in-a-puff-of-ash"}
+##### In a Puff of Ash {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-2/in-a-puff-of-ash" data-cost="5 Insight"}
 
 
 *You enchant a [strike](../rule/combat/strike.md) with your [teleport](../movement/teleport.md)ation magic.*
@@ -504,7 +504,7 @@ Choose one of the following abilities.
 - **12-16:** 10 + A damage; you can [teleport](../movement/teleport.md) the target up to 3 squares
 - **17+:** 14 + A damage; you can [teleport](../movement/teleport.md) the target up to 5 squares
 
-##### Too Slow {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-2/too-slow"}
+##### Too Slow {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-2/too-slow" data-cost="5 Insight"}
 
 
 *Your foe made a big mistake.*
@@ -521,7 +521,7 @@ Choose one of the following abilities.
 
 Choose one of the following abilities.
 
-##### Sticky Bomb {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-2/sticky-bomb"}
+##### Sticky Bomb {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-2/sticky-bomb" data-cost="5 Insight"}
 
 
 *Explosives are best when they're attached to an enemy.*
@@ -538,7 +538,7 @@ Choose one of the following abilities.
 - **12-16:** 7 + A fire damage
 - **17+:** 11 + A fire damage
 
-##### Stink Bomb {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-2/stink-bomb"}
+##### Stink Bomb {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-2/stink-bomb" data-cost="5 Insight"}
 
 
 *Putrid yellow gas explodes from a bomb you toss.*
@@ -559,7 +559,7 @@ Choose one of the following abilities.
 
 Choose one of the following abilities.
 
-##### Machinations of Sound {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-2/machinations-of-sound"}
+##### Machinations of Sound {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-2/machinations-of-sound" data-cost="5 Insight"}
 
 
 *Illusory sounds make your foes reposition themselves as they cower or investigate the disturbance.*
@@ -576,7 +576,7 @@ Choose one of the following abilities.
 
 **Effect:** This [forced movement](../movement/forced-movement.md) ignores [stability](../rule/character/stability.md). Instead, the [forced movement](../movement/forced-movement.md) is reduced by a number equal to the target's [Intuition](../rule/character/intuition.md) score.
 
-##### So Gullible {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-2/so-gullible"}
+##### So Gullible {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-2/so-gullible" data-cost="5 Insight"}
 
 
 *When your enemy strikes, you reveal you were in a different place all along.*
@@ -612,7 +612,7 @@ You have the following ability.
 
 Choose one [heroic ability](../rule/general/heroic-ability.md) from the following options, each of which costs 7 insight to use.
 
-#### Dancer {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-3/dancer"}
+#### Dancer {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-3/dancer" data-cost="7 Insight"}
 
 
 *You enter a flow state that makes you nearly impossible to pin down.*
@@ -623,7 +623,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 **Effect:** Until the end of the encounter, whenever an enemy moves or is [force moved](../movement/forced-movement.md) [adjacent](../rule/combat/adjacent.md) to you or damages you, you can take the [Disengage](../feature/common/move-actions/disengage.md) move action as a free [triggered action](../rule/combat/triggered-action.md).
 
-#### Misdirecting Strike {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-3/misdirecting-strike"}
+#### Misdirecting Strike {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-3/misdirecting-strike" data-cost="7 Insight"}
 
 
 *"Why are you looking at ME?!"*
@@ -640,7 +640,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 **Effect:** The target is [taunted](../condition/taunted.md) by a willing ally within 5 squares of you until the end of the target's next [turn](../rule/combat/turn.md).
 
-#### Pinning Shot {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-3/pinning-shot"}
+#### Pinning Shot {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-3/pinning-shot" data-cost="7 Insight"}
 
 
 *One missile—placed well and placed hard.*
@@ -655,7 +655,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 - **12-16:** 12 + A damage; A < AVERAGE, [restrained](../condition/restrained.md) (save ends)
 - **17+:** 16 + A damage; A < STRONG, [restrained](../condition/restrained.md) (save ends)
 
-#### Staggering Blow {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-3/staggering-blow"}
+#### Staggering Blow {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-3/staggering-blow" data-cost="7 Insight"}
 
 
 *There's no recovering from this.*
@@ -751,7 +751,7 @@ Additionally, your [Defensive Roll](../feature/ability/shadow/level-1/defensive-
 
 Choose one [heroic ability](../rule/general/heroic-ability.md) from the following options, each of which costs 9 insight to use.
 
-#### Blackout {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-5/blackout"}
+#### Blackout {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-5/blackout" data-cost="9 Insight"}
 
 
 *You cause a plume of shadow to erupt from your eyes and create a cloud of darkness.*
@@ -762,7 +762,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 **Effect:** A black cloud fills the area until the end of your next [turn](../rule/combat/turn.md), granting you and your allies [concealment](../rule/combat/concealment.md) against enemies. While you are in the area, whenever an enemy ends their [turn](../rule/combat/turn.md) in the area, you can use a free [triggered action](../rule/combat/triggered-action.md) to [shift](../movement/shifting.md) to a new location within the area and make a [free strike](../feature/common/main-actions/free-strike.md) against them.
 
-#### Into the Shadows {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-5/into-the-shadows"}
+#### Into the Shadows {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-5/into-the-shadows" data-cost="9 Insight"}
 
 
 *You sweep your foe off their feet and plunge them into absolute darkness.*
@@ -779,7 +779,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 - **12-16:** 13 + A corruption damage
 - **17+:** 17 + A corruption damage
 
-#### Shadowfall {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-5/shadowfall"}
+#### Shadowfall {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-5/shadowfall" data-cost="9 Insight"}
 
 
 *You vanish. They fall. You reappear.*
@@ -796,7 +796,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 **Effect:** You disappear before making the [power roll](../rule/dice/power-roll.md). After the [power roll](../rule/dice/power-roll.md) is resolved, you appear in the first unoccupied space at the far end of the line.
 
-#### You Talk Too Much {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-5/you-talk-too-much"}
+#### You Talk Too Much {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-5/you-talk-too-much" data-cost="9 Insight"}
 
 
 *Silence is a virtue. A knife pinning their mouth shut is the next best thing.*
@@ -841,7 +841,7 @@ Your [shadow college](../feature/shadow/level-1/shadow-college.md) grants your c
 
 Choose one of the following abilities.
 
-##### Black Ash Eruption {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-6/black-ash-eruption"}
+##### Black Ash Eruption {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-6/black-ash-eruption" data-cost="9 Insight"}
 
 
 *Your attack produces a cloud of black ash that launches an enemy into the air.*
@@ -858,7 +858,7 @@ Choose one of the following abilities.
 
 **Effect:** A creature [force moved](../movement/forced-movement.md) by this ability must be moved straight upward.
 
-##### Cinderstorm {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-6/cinderstorm"}
+##### Cinderstorm {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-6/cinderstorm" data-cost="9 Insight"}
 
 
 *You [teleport](../movement/teleport.md) your friends in a burst of ash and fire.*
@@ -873,7 +873,7 @@ Choose one of the following abilities.
 
 Choose one of the following abilities.
 
-##### One Vial Makes You Better {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-6/one-vial-makes-you-better"}
+##### One Vial Makes You Better {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-6/one-vial-makes-you-better" data-cost="9 Insight"}
 
 
 *A well-timed throw of a potion will keep your allies in the fight.*
@@ -886,7 +886,7 @@ Choose one of the following abilities.
 
 A creature who drinks the potion can spend up to 2 [Recoveries](../rule/health/recoveries.md), and has acid immunity, fire immunity, or poison immunity (their choice) equal to your level until the end of the encounter.
 
-##### One Vial Makes You Faster {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-6/one-vial-makes-you-faster"}
+##### One Vial Makes You Faster {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-6/one-vial-makes-you-faster" data-cost="9 Insight"}
 
 
 *Each ally who catches a potion you throw can take the battle to the next level.*
@@ -909,7 +909,7 @@ A creature who drinks the potion receives benefits based on your [power roll](..
 
 Choose one of the following abilities.
 
-##### Look! {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-6/look"}
+##### Look! {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-6/look" data-cost="9 Insight"}
 
 
 *You distract your foes, allowing your allies to take advantage of that distraction.*
@@ -920,7 +920,7 @@ Choose one of the following abilities.
 
 **Effect:** Until the start of your next [turn](../rule/combat/turn.md), any [ability roll](../rule/dice/ability-roll.md) made against a target gains an [edge](../rule/dice/edge.md).
 
-##### Puppet Strings {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-6/puppet-strings"}
+##### Puppet Strings {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-6/puppet-strings" data-cost="9 Insight"}
 
 
 *You prick little needles on the tips of your fingers into the nerves of your enemies and cause them to lose control.*
@@ -1012,7 +1012,7 @@ For each [combat round](../rule/combat/combat-round.md) that has passed since th
 
 Choose one [heroic ability](../rule/general/heroic-ability.md) from the following options, each of which costs 11 insight to use.
 
-#### Assassinate {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-8/assassinate"}
+#### Assassinate {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-8/assassinate" data-cost="11 Insight"}
 
 
 *A practiced attack will instantly kill an already weakened foe.*
@@ -1029,7 +1029,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 **Effect:** A target who is not a minion, leader, or solo creature and who is [winded](../rule/health/winded.md) after taking this damage is reduced to 0 [Stamina](../rule/health/stamina.md).
 
-#### Shadowgrasp {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-8/shadowgrasp"}
+#### Shadowgrasp {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-8/shadowgrasp" data-cost="11 Insight"}
 
 
 *The shadows around you give way, allowing the shadow creature within you to grasp at your foes.*
@@ -1044,7 +1044,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 - **12-16:** 16 corruption damage; A < AVERAGE, [restrained](../condition/restrained.md) (save ends)
 - **17+:** 21 corruption damage; A < STRONG, [restrained](../condition/restrained.md) (save ends)
 
-#### Speed of Shadows {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-8/speed-of-shadows"}
+#### Speed of Shadows {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-8/speed-of-shadows" data-cost="11 Insight"}
 
 
 *You make multiple [strikes](../rule/combat/strike.md) against a foe before they even notice they're dead.*
@@ -1055,7 +1055,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 **Effect:** You can use a [strike](../rule/combat/strike.md) [signature ability](../rule/combat/signature-ability.md) four times, use a [strike](../rule/combat/strike.md) [signature ability](../rule/combat/signature-ability.md) that gains an [edge](../rule/dice/edge.md) three times, or use a [strike](../rule/combat/strike.md) [signature ability](../rule/combat/signature-ability.md) that has a double [edge](../rule/dice/edge.md) twice. You can [shift](../movement/shifting.md) up to 2 squares between each use.
 
-#### They Always Line Up {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-8/they-always-line-up"}
+#### They Always Line Up {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-8/they-always-line-up" data-cost="11 Insight"}
 
 
 *You fire a projectile so fast that it passes through a line of foes, hamstringing them.*
@@ -1088,7 +1088,7 @@ Your [shadow college](../feature/shadow/level-1/shadow-college.md) grants your c
 
 Choose one of the following abilities.
 
-##### Cacophony of Cinders {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-9/cacophony-of-cinders"}
+##### Cacophony of Cinders {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-9/cacophony-of-cinders" data-cost="11 Insight"}
 
 
 *You tumble through the battle, stabbing foes and [teleporting](../movement/teleport.md) allies.*
@@ -1105,7 +1105,7 @@ Choose one of the following abilities.
 - **12-16:** An enemy takes 10 damage; an ally can [teleport](../movement/teleport.md) up to 5 squares.
 - **17+:** An enemy takes 14 damage; an ally can [teleport](../movement/teleport.md) up to 7 squares.
 
-##### Demon Door {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-9/demon-door"}
+##### Demon Door {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-9/demon-door" data-cost="11 Insight"}
 
 
 *You create a temporary portal to allow a massive demonic hand to reach through.*
@@ -1126,7 +1126,7 @@ Choose one of the following abilities.
 
 Choose one of the following abilities.
 
-##### Chain Reaction {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-9/chain-reaction"}
+##### Chain Reaction {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-9/chain-reaction" data-cost="11 Insight"}
 
 
 *One explosion, an offense. Three explosions, an assault. Nine explosions, a celebration.*
@@ -1143,7 +1143,7 @@ Choose one of the following abilities.
 - **12-16:** 10 damage
 - **17+:** 15 damage
 
-##### To the Stars {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-9/to-the-stars"}
+##### To the Stars {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-9/to-the-stars" data-cost="11 Insight"}
 
 
 *You attach your most potent explosive to your foe. Under less pressing circumstances, you're sure you could launch them into orbit.*
@@ -1164,7 +1164,7 @@ Choose one of the following abilities.
 
 Choose one of the following abilities.
 
-##### I Am You {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-9/i-am-you"}
+##### I Am You {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-9/i-am-you" data-cost="11 Insight"}
 
 
 *Your mask reflects your foe's face. Surely they won't need it much longer.*
@@ -1175,7 +1175,7 @@ Choose one of the following abilities.
 
 **Effect:** Until the end of the encounter, you gain the target's damage immunities and [speed](../rule/character/speed.md) (if they are better than yours), and can use any types of movement they can use. You can also use the target's [signature ability](../rule/combat/signature-ability.md), using their [bonus](../rule/dice/bonuses-and-penalties.md) for the [power roll](../rule/dice/power-roll.md).
 
-##### It Was Me All Along {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-9/it-was-me-all-along"}
+##### It Was Me All Along {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-9/it-was-me-all-along" data-cost="11 Insight"}
 
 
 *After everything you've been through together, you twist the blade and make the pain extra personal.*

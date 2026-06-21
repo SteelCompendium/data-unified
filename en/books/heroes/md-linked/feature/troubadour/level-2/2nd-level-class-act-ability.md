@@ -12,7 +12,7 @@ Your [troubadour class act](../level-1/troubadour-class-act.md) grants your choi
 
 Choose one of the following abilities.
 
-### Guest Star {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-2/guest-star"}
+### Guest Star {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-2/guest-star" data-cost="5 Drama"}
 
 
 *We offered them a percentage of the gross. So they're working for free!*
@@ -23,7 +23,7 @@ Choose one of the following abilities.
 
 **Effect:** A [guest star](../../ability/troubadour/level-2/guest-star.md) appears to help you during the encounter: either a bystander within [distance](../../../rule/combat/distance.md) uplifted by your magic, or a mysterious new hero who appears in an unoccupied space within [distance](../../../rule/combat/distance.md). This [guest star](../../ability/troubadour/level-2/guest-star.md) is controlled by you, has their own [turn](../../../rule/combat/turn.md), and shares your [characteristics](../../../rule/character/characteristic.md). Their [Stamina](../../../rule/health/stamina.md) maximum is half yours. They have no abilities other than your [melee](../../../rule/combat/melee.md) and [ranged](../../../rule/combat/ranged.md) [free strikes](../../common/main-actions/free-strike.md). At the end of the encounter, or when the [guest star](../../ability/troubadour/level-2/guest-star.md) is reduced to 0 [Stamina](../../../rule/health/stamina.md), they retreat or revert to a bystander. The same bystander can't be uplifted this way more than once during an encounter.
 
-### Twist at the End {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-2/twist-at-the-end"}
+### Twist at the End {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-2/twist-at-the-end" data-cost="5 Drama"}
 
 
 *You didn't see that coming, did you?!*
@@ -38,7 +38,7 @@ Choose one of the following abilities.
 
 Choose one of the following abilities.
 
-### Classic Chandelier Stunt {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-2/classic-chandelier-stunt"}
+### Classic Chandelier Stunt {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-2/classic-chandelier-stunt" data-cost="5 Drama"}
 
 
 *Audiences love this bit.*
@@ -49,7 +49,7 @@ Choose one of the following abilities.
 
 **Effect:** Each target can [shift](../../../movement/shifting.md) up to 5 squares, including vertically, but must end this movement [adjacent](../../../rule/combat/adjacent.md) to the other target and on solid ground. Each target can then make a [melee](../../../rule/combat/melee.md) [free strike](../../common/main-actions/free-strike.md) that deals extra damage equal to twice their highest [characteristic](../../../rule/character/characteristic.md) score.
 
-### En Garde! {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-2/en-garde"}
+### En Garde! {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-2/en-garde" data-cost="5 Drama"}
 
 
 *Wait, it's... Guard! [Turn](../../../rule/combat/turn.md)! Parry! Dodge! Spin! Thrust! Ha!*
@@ -70,7 +70,7 @@ Choose one of the following abilities.
 
 Choose one of the following abilities.
 
-### Encore {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-2/encore"}
+### Encore {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-2/encore" data-cost="5 Drama"}
 
 
 *Again! Again!*
@@ -81,7 +81,7 @@ Choose one of the following abilities.
 
 **Effect:** You use an ability that you have observed being used this [combat round](../../../rule/combat/combat-round.md). The ability must have the [Strike](../../../rule/combat/strike.md) keyword, cost 5 or fewer of a [Heroic Resource](../../../rule/resource/heroic-resource.md), and cost no Malice. When you make the [strike](../../../rule/combat/strike.md), you use your [Presence](../../../rule/character/presence.md) score for any [power rolls](../../../rule/dice/power-roll.md), and any damage you deal is sonic damage.
 
-### Tough Crowd {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-2/tough-crowd"}
+### Tough Crowd {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-2/tough-crowd" data-cost="5 Drama"}
 
 
 *Your fans don't seem to like the opening act...*

@@ -296,7 +296,7 @@ You fight with an array of [heroic abilities](../rule/general/heroic-ability.md)
 
 Choose one [heroic ability](../rule/general/heroic-ability.md) from the following options, each of which costs 3 ferocity to use. (*Quick Build:* Back!)
 
-##### Back! {data-scc="mcdm.heroes.v1/feature.ability.fury.level-1/back"}
+##### Back! {data-scc="mcdm.heroes.v1/feature.ability.fury.level-1/back" data-cost="3 Ferocity"}
 
 
 *You hew about you with your mighty weapon, hurling enemies backward.*
@@ -311,7 +311,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 - **12-16:** 8 damage; [push](../movement/forced-movement.md) 1
 - **17+:** 11 damage; [push](../movement/forced-movement.md) 3
 
-##### Out of the Way! {data-scc="mcdm.heroes.v1/feature.ability.fury.level-1/out-of-the-way"}
+##### Out of the Way! {data-scc="mcdm.heroes.v1/feature.ability.fury.level-1/out-of-the-way" data-cost="3 Ferocity"}
 
 
 *Your enemies will clear your path—whether they want to or not.*
@@ -328,7 +328,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 **Effect:** When you [slide](../movement/forced-movement.md) the target, you can move into any square they leave. If you take damage from an [opportunity attack](../rule/combat/opportunity-attack.md) by moving this way, the target takes the same damage.
 
-##### Tide of Death {data-scc="mcdm.heroes.v1/feature.ability.fury.level-1/tide-of-death"}
+##### Tide of Death {data-scc="mcdm.heroes.v1/feature.ability.fury.level-1/tide-of-death" data-cost="3 Ferocity"}
 
 
 *Teach them the folly of lining up for you.*
@@ -347,7 +347,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 **Effect:** The last target you damage takes extra damage equal to your [Might](../rule/character/might.md) score for each [opportunity attack](../rule/combat/opportunity-attack.md) you trigger during your move.
 
-##### Your Entrails Are Your Extrails! {data-scc="mcdm.heroes.v1/feature.ability.fury.level-1/your-entrails-are-your-extrails"}
+##### Your Entrails Are Your Extrails! {data-scc="mcdm.heroes.v1/feature.ability.fury.level-1/your-entrails-are-your-extrails" data-cost="3 Ferocity"}
 
 
 *Hard for them to fight when they're busy holding in their giblets.*
@@ -368,7 +368,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 Choose one [heroic ability](../rule/general/heroic-ability.md) from the following options, each of which costs 5 ferocity to use. (*Quick Build:* [Blood for Blood](../feature/ability/fury/level-1/blood-for-blood.md)!)
 
-##### Blood for Blood! {data-scc="mcdm.heroes.v1/feature.ability.fury.level-1/blood-for-blood"}
+##### Blood for Blood! {data-scc="mcdm.heroes.v1/feature.ability.fury.level-1/blood-for-blood" data-cost="5 Ferocity"}
 
 
 *See how well they fight after you've bled them dry.*
@@ -385,7 +385,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 **Effect:** You can deal 1d6 damage to yourself to deal an extra 1d6 damage to the target.
 
-##### Make Peace With Your God! {data-scc="mcdm.heroes.v1/feature.ability.fury.level-1/make-peace-with-your-god"}
+##### Make Peace With Your God! {data-scc="mcdm.heroes.v1/feature.ability.fury.level-1/make-peace-with-your-god" data-cost="5 Ferocity"}
 
 
 *Anger is your energy.*
@@ -396,7 +396,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 **Effect:** You gain 1 [surge](../rule/resource/surge.md), and the next [ability roll](../rule/dice/ability-roll.md) you make this [turn](../rule/combat/turn.md) automatically obtains a tier 3 outcome.
 
-##### Thunder Roar {data-scc="mcdm.heroes.v1/feature.ability.fury.level-1/thunder-roar"}
+##### Thunder Roar {data-scc="mcdm.heroes.v1/feature.ability.fury.level-1/thunder-roar" data-cost="5 Ferocity"}
 
 
 *You unleash a howl that hurls your enemies back.*
@@ -413,7 +413,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 **Effect:** The targets are [force moved](../movement/forced-movement.md) one at a time, starting with the target nearest to you, and can be [pushed](../movement/forced-movement.md) into other targets in the same line.
 
-##### To the Uttermost End {data-scc="mcdm.heroes.v1/feature.ability.fury.level-1/to-the-uttermost-end"}
+##### To the Uttermost End {data-scc="mcdm.heroes.v1/feature.ability.fury.level-1/to-the-uttermost-end" data-cost="5 Ferocity"}
 
 
 *You gut your life force to ensure a foe's demise.*
@@ -470,7 +470,7 @@ Your [primordial aspect](../feature/fury/level-1/primordial-aspect.md) grants yo
 
 Choose one of the following abilities.
 
-##### Special Delivery {data-scc="mcdm.heroes.v1/feature.ability.fury.level-2/special-delivery"}
+##### Special Delivery {data-scc="mcdm.heroes.v1/feature.ability.fury.level-2/special-delivery" data-cost="5 Ferocity"}
 
 
 *You ready?*
@@ -481,7 +481,7 @@ Choose one of the following abilities.
 
 **Effect:** You vertically [push](../movement/forced-movement.md) the target up to 4 squares. This [forced movement](../movement/forced-movement.md) ignores the target's [stability](../rule/character/stability.md), and the target takes no damage from colliding with creatures or objects. At the end of this movement, the target can make a [free strike](../feature/common/main-actions/free-strike.md) that deals extra damage equal to your [Might](../rule/character/might.md) score.
 
-##### Wrecking Ball {data-scc="mcdm.heroes.v1/feature.ability.fury.level-2/wrecking-ball"}
+##### Wrecking Ball {data-scc="mcdm.heroes.v1/feature.ability.fury.level-2/wrecking-ball" data-cost="5 Ferocity"}
 
 
 *It's easier to destroy than to create. Much easier, in fact!*
@@ -504,7 +504,7 @@ Additionally, you make one [power roll](../rule/dice/power-roll.md) that targets
 
 Choose one of the following abilities.
 
-##### Death... Death! {data-scc="mcdm.heroes.v1/feature.ability.fury.level-2/death-death"}
+##### Death... Death! {data-scc="mcdm.heroes.v1/feature.ability.fury.level-2/death-death" data-cost="5 Ferocity"}
 
 
 *Your unbridled rage strikes terror in their hearts.*
@@ -519,7 +519,7 @@ Choose one of the following abilities.
 - **12-16:** 5 + M damage; P < AVERAGE, [dazed](../condition/dazed.md) and [frightened](../condition/frightened.md) (save ends)
 - **17+:** 8 + M damage; P < STRONG, [dazed](../condition/dazed.md) and [frightened](../condition/frightened.md) (save ends)
 
-##### Phalanx-Breaker {data-scc="mcdm.heroes.v1/feature.ability.fury.level-2/phalanx-breaker"}
+##### Phalanx-Breaker {data-scc="mcdm.heroes.v1/feature.ability.fury.level-2/phalanx-breaker" data-cost="5 Ferocity"}
 
 
 *Organizing your forces like feckless creatures of Law. Pitiful.*
@@ -540,7 +540,7 @@ Choose one of the following abilities.
 
 Choose one of the following abilities.
 
-##### Apex Predator {data-scc="mcdm.heroes.v1/feature.ability.fury.level-2/apex-predator"}
+##### Apex Predator {data-scc="mcdm.heroes.v1/feature.ability.fury.level-2/apex-predator" data-cost="5 Ferocity"}
 
 
 *I will hunt you down.*
@@ -557,7 +557,7 @@ Choose one of the following abilities.
 
 **Effect:** The target can't be hidden from you for 24 hours. Until the end of the encounter, whenever the target willingly moves, you can use a free [triggered action](../rule/combat/triggered-action.md) to move.
 
-##### Visceral Roar {data-scc="mcdm.heroes.v1/feature.ability.fury.level-2/visceral-roar"}
+##### Visceral Roar {data-scc="mcdm.heroes.v1/feature.ability.fury.level-2/visceral-roar" data-cost="5 Ferocity"}
 
 
 *The sound of the storm within you staggers your opponents.*
@@ -610,7 +610,7 @@ You have a double [edge](../rule/dice/edge.md) on [tests](../rule/test/test.md) 
 
 Choose one [heroic ability](../rule/general/heroic-ability.md) from the following options, each of which costs 7 ferocity to use.
 
-#### Demon Unleashed {data-scc="mcdm.heroes.v1/feature.ability.fury.level-3/demon-unleashed"}
+#### Demon Unleashed {data-scc="mcdm.heroes.v1/feature.ability.fury.level-3/demon-unleashed" data-cost="7 Ferocity"}
 
 
 *Foes tremble at the sight of you.*
@@ -621,7 +621,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 **Effect:** Until the end of the encounter or until you are [dying](../rule/health/dying.md), each enemy who starts their [turn](../rule/combat/turn.md) [adjacent](../rule/combat/adjacent.md) to you and has P < STRONG is [frightened](../condition/frightened.md) until the end of their [turn](../rule/combat/turn.md).
 
-#### Face the Storm! {data-scc="mcdm.heroes.v1/feature.ability.fury.level-3/face-the-storm"}
+#### Face the Storm! {data-scc="mcdm.heroes.v1/feature.ability.fury.level-3/face-the-storm" data-cost="7 Ferocity"}
 
 
 *Shocked in the face of your naked brutality, your enemy's instincts take over.*
@@ -632,7 +632,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 **Effect:** Until the end of the encounter or until you are [dying](../rule/health/dying.md), each creature you make a [melee](../rule/combat/melee.md) [strike](../rule/combat/strike.md) against who has P < AVERAGE is [taunted](../condition/taunted.md) until the end of their next [turn](../rule/combat/turn.md). Additionally, when you use an ability that deals [rolled damage](../rule/damage/rolled-damage.md) against any enemy [taunted](../condition/taunted.md) by you, the ability deals extra damage equal to twice your [Might](../rule/character/might.md) score and increases its [potency](../rule/character/potency.md) by 1.
 
-#### Steelbreaker {data-scc="mcdm.heroes.v1/feature.ability.fury.level-3/steelbreaker"}
+#### Steelbreaker {data-scc="mcdm.heroes.v1/feature.ability.fury.level-3/steelbreaker" data-cost="7 Ferocity"}
 
 
 *See how useless their weapons are!*
@@ -643,7 +643,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 **Effect:** You gain 20 [temporary Stamina](../rule/health/temporary-stamina.md).
 
-#### You Are Already Dead {data-scc="mcdm.heroes.v1/feature.ability.fury.level-3/you-are-already-dead"}
+#### You Are Already Dead {data-scc="mcdm.heroes.v1/feature.ability.fury.level-3/you-are-already-dead" data-cost="7 Ferocity"}
 
 
 *Slash. Walk away.*
@@ -718,7 +718,7 @@ At the start of your [turn](../rule/combat/turn.md), you can end any [restrained
 
 Choose one [heroic ability](../rule/general/heroic-ability.md) from the following options, each of which costs 9 ferocity to use.
 
-#### Debilitating Strike {data-scc="mcdm.heroes.v1/feature.ability.fury.level-5/debilitating-strike"}
+#### Debilitating Strike {data-scc="mcdm.heroes.v1/feature.ability.fury.level-5/debilitating-strike" data-cost="9 Ferocity"}
 
 
 *You need just one blow to sabotage your target.*
@@ -735,7 +735,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 **Effect:** While [slowed](../condition/slowed.md) this way, the target takes 1 damage for every square they move, including from [forced movement](../movement/forced-movement.md).
 
-#### My Turn! {data-scc="mcdm.heroes.v1/feature.ability.fury.level-5/my-turn"}
+#### My Turn! {data-scc="mcdm.heroes.v1/feature.ability.fury.level-5/my-turn" data-cost="9 Ferocity"}
 
 
 *You quickly strike back at a foe.*
@@ -754,7 +754,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 **Effect:** You can spend a [Recovery](../rule/health/recoveries.md).
 
-#### Rebounding Storm {data-scc="mcdm.heroes.v1/feature.ability.fury.level-5/rebounding-storm"}
+#### Rebounding Storm {data-scc="mcdm.heroes.v1/feature.ability.fury.level-5/rebounding-storm" data-cost="9 Ferocity"}
 
 
 *You knock around enemies like playthings.*
@@ -771,7 +771,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 **Effect:** When a target would end this [forced movement](../movement/forced-movement.md) by colliding with a creature or object, they take damage as usual, then are [pushed](../movement/forced-movement.md) the remaining [distance](../rule/combat/distance.md) away from the creature or object in the direction they came from. As long as [forced movement](../movement/forced-movement.md) remains, this effect continues if the target collides with another creature or object.
 
-#### To Stone! {data-scc="mcdm.heroes.v1/feature.ability.fury.level-5/to-stone"}
+#### To Stone! {data-scc="mcdm.heroes.v1/feature.ability.fury.level-5/to-stone" data-cost="9 Ferocity"}
 
 
 *You channel the Primordial Chaos into blows that petrify your foe... literally.*
@@ -816,7 +816,7 @@ Your [primordial aspect](../feature/fury/level-1/primordial-aspect.md) grants yo
 
 Choose one of the following abilities.
 
-##### Avalanche Impact {data-scc="mcdm.heroes.v1/feature.ability.fury.level-6/avalanche-impact"}
+##### Avalanche Impact {data-scc="mcdm.heroes.v1/feature.ability.fury.level-6/avalanche-impact" data-cost="9 Ferocity"}
 
 
 *You leap and crash down, causing a shockwave that devastates foes.*
@@ -833,7 +833,7 @@ Choose one of the following abilities.
 - **12-16:** 7 damage; [push](../movement/forced-movement.md) 2
 - **17+:** 11 damage; [push](../movement/forced-movement.md) 3
 
-##### Force of Storms {data-scc="mcdm.heroes.v1/feature.ability.fury.level-6/force-of-storms"}
+##### Force of Storms {data-scc="mcdm.heroes.v1/feature.ability.fury.level-6/force-of-storms" data-cost="9 Ferocity"}
 
 
 *You strike an enemy hard enough to be a projectile that knocks a crowd of creatures around.*
@@ -854,7 +854,7 @@ Choose one of the following abilities.
 
 Choose one of the following abilities.
 
-##### Death Strike {data-scc="mcdm.heroes.v1/feature.ability.fury.level-6/death-strike"}
+##### Death Strike {data-scc="mcdm.heroes.v1/feature.ability.fury.level-6/death-strike" data-cost="9 Ferocity"}
 
 
 *Once you taste your foe's blood, you become more efficient and [turn](../rule/combat/turn.md) every killing blow into an opportunity.*
@@ -867,7 +867,7 @@ Choose one of the following abilities.
 
 **Effect:** You target a creature [adjacent](../rule/combat/adjacent.md) to you with the same strike, using the same [power roll](../rule/dice/power-roll.md) as the triggering strike.
 
-##### Seek and Destroy {data-scc="mcdm.heroes.v1/feature.ability.fury.level-6/seek-and-destroy"}
+##### Seek and Destroy {data-scc="mcdm.heroes.v1/feature.ability.fury.level-6/seek-and-destroy" data-cost="9 Ferocity"}
 
 
 *You break through the enemy lines to make an example.*
@@ -890,7 +890,7 @@ Choose one of the following abilities.
 
 Choose one of the following abilities.
 
-##### Pounce {data-scc="mcdm.heroes.v1/feature.ability.fury.level-6/pounce"}
+##### Pounce {data-scc="mcdm.heroes.v1/feature.ability.fury.level-6/pounce" data-cost="9 Ferocity"}
 
 
 *You strike at the target like the ultimate predator you are.*
@@ -907,7 +907,7 @@ Choose one of the following abilities.
 
 **Effect:** You can [shift](../movement/shifting.md) up to 4 squares, bringing the target with you. While [grabbed](../condition/grabbed.md) this way, the target takes damage equal to twice your [Might](../rule/character/might.md) score at the start of each of your [turns](../rule/combat/turn.md).
 
-##### Riders on the Storm {data-scc="mcdm.heroes.v1/feature.ability.fury.level-6/riders-on-the-storm"}
+##### Riders on the Storm {data-scc="mcdm.heroes.v1/feature.ability.fury.level-6/riders-on-the-storm" data-cost="9 Ferocity"}
 
 
 *You focus your connection to the Primordial Chaos into a seething storm.*
@@ -982,7 +982,7 @@ Your strength is unmatched. Whenever you make a [Might](../rule/character/might.
 
 Choose one [heroic ability](../rule/general/heroic-ability.md) from the following options, each of which costs 11 ferocity to use.
 
-#### Elemental Ferocity {data-scc="mcdm.heroes.v1/feature.ability.fury.level-8/elemental-ferocity"}
+#### Elemental Ferocity {data-scc="mcdm.heroes.v1/feature.ability.fury.level-8/elemental-ferocity" data-cost="11 Ferocity"}
 
 
 *Your primordial energy makes for instant retribution.*
@@ -993,7 +993,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 **Effect:** You gain 10 [temporary Stamina](../rule/health/temporary-stamina.md). Additionally, choose acid, cold, corruption, fire, lightning, poison, or sonic damage. Until the end of the encounter or until you are [dying](../rule/health/dying.md), whenever an enemy damages you, they take 10 damage of the chosen type. If this damage reduces the enemy to 0 [Stamina](../rule/health/stamina.md), you gain 10 [temporary Stamina](../rule/health/temporary-stamina.md).
 
-#### Overkill {data-scc="mcdm.heroes.v1/feature.ability.fury.level-8/overkill"}
+#### Overkill {data-scc="mcdm.heroes.v1/feature.ability.fury.level-8/overkill" data-cost="11 Ferocity"}
 
 
 *You strike so no damage is wasted.*
@@ -1010,7 +1010,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 **Effect:** If the target is a minion or is [winded](../rule/health/winded.md) but isn't a leader or solo creature, they are reduced to 0 [Stamina](../rule/health/stamina.md) before this ability's damage is dealt. If the target is killed by this damage, you can deal any damage over what was required to kill them to another creature within 5 squares of the target.
 
-#### Primordial Rage {data-scc="mcdm.heroes.v1/feature.ability.fury.level-8/primordial-rage"}
+#### Primordial Rage {data-scc="mcdm.heroes.v1/feature.ability.fury.level-8/primordial-rage" data-cost="11 Ferocity"}
 
 
 *Your ferocity manifests into [primordial power](../feature/fury/level-10/primordial-power.md).*
@@ -1021,7 +1021,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 **Effect:** Choose acid, cold, corruption, fire, lightning, poison, or sonic damage. Until the end of the encounter or until you are [dying](../rule/health/dying.md), you can choose one target of any ability you use, with that target taking an extra 15 damage of the chosen type. Additionally, whenever you gain ferocity from taking damage, the source of the damage takes 5 damage of the chosen type.
 
-#### Relentless Death {data-scc="mcdm.heroes.v1/feature.ability.fury.level-8/relentless-death"}
+#### Relentless Death {data-scc="mcdm.heroes.v1/feature.ability.fury.level-8/relentless-death" data-cost="11 Ferocity"}
 
 
 *You won't escape your fate.*
@@ -1054,7 +1054,7 @@ Your [primordial aspect](../feature/fury/level-1/primordial-aspect.md) grants yo
 
 Choose one of the following abilities.
 
-##### Death Comes for You All! {data-scc="mcdm.heroes.v1/feature.ability.fury.level-9/death-comes-for-you-all"}
+##### Death Comes for You All! {data-scc="mcdm.heroes.v1/feature.ability.fury.level-9/death-comes-for-you-all" data-cost="11 Ferocity"}
 
 
 *You use your weapon to create a destructive shockwave.*
@@ -1071,7 +1071,7 @@ Choose one of the following abilities.
 
 **Effect:** If this [forced movement](../movement/forced-movement.md) causes a target to be hurled through an object, that target takes an extra 10 damage.
 
-##### Primordial Vortex {data-scc="mcdm.heroes.v1/feature.ability.fury.level-9/primordial-vortex"}
+##### Primordial Vortex {data-scc="mcdm.heroes.v1/feature.ability.fury.level-9/primordial-vortex" data-cost="11 Ferocity"}
 
 
 *You channel the power of the Primordial Chaos to pull foes to you.*
@@ -1092,7 +1092,7 @@ Choose one of the following abilities.
 
 Choose one of the following abilities.
 
-##### Primordial Bane {data-scc="mcdm.heroes.v1/feature.ability.fury.level-9/primordial-bane"}
+##### Primordial Bane {data-scc="mcdm.heroes.v1/feature.ability.fury.level-9/primordial-bane" data-cost="11 Ferocity"}
 
 
 *You attune the target to be weaker to a specific element.*
@@ -1109,7 +1109,7 @@ Choose one of the following abilities.
 
 **Effect:** Choose acid, cold, corruption, fire, lightning, poison, or sonic damage. The target loses any [damage immunity](../rule/damage/damage-immunity.md) to the chosen type and gains weakness 10 to the chosen type (save ends).
 
-##### Shower of Blood {data-scc="mcdm.heroes.v1/feature.ability.fury.level-9/shower-of-blood"}
+##### Shower of Blood {data-scc="mcdm.heroes.v1/feature.ability.fury.level-9/shower-of-blood" data-cost="11 Ferocity"}
 
 
 *You shock your foes with the brutality of your [strike](../rule/combat/strike.md), resetting the balance of combat.*
@@ -1130,7 +1130,7 @@ Choose one of the following abilities.
 
 Choose one of the following abilities.
 
-##### Death Rattle {data-scc="mcdm.heroes.v1/feature.ability.fury.level-9/death-rattle"}
+##### Death Rattle {data-scc="mcdm.heroes.v1/feature.ability.fury.level-9/death-rattle" data-cost="11 Ferocity"}
 
 
 *You unleash an otherworldly cry that rips through your enemies, killing the weakest of them.*
@@ -1145,7 +1145,7 @@ Choose one of the following abilities.
 - **12-16:** 6 psychic damage; any target who is a minion is reduced to 0 [Stamina](../rule/health/stamina.md), as does one [winded](../rule/health/winded.md) target who is not a leader or solo creature
 - **17+:** 10 psychic damage; each target who is not a leader or solo creature is [winded](../rule/health/winded.md); any target who is a minion is reduced to 0 [Stamina](../rule/health/stamina.md), as does one [winded](../rule/health/winded.md) target who is not a leader or solo creature
 
-##### Deluge {data-scc="mcdm.heroes.v1/feature.ability.fury.level-9/deluge"}
+##### Deluge {data-scc="mcdm.heroes.v1/feature.ability.fury.level-9/deluge" data-cost="11 Ferocity"}
 
 
 *You summon your [primordial storm](../feature/fury/stormwight-kits/primordial-storm.md).*

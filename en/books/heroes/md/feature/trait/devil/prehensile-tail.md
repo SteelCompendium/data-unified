@@ -1,5 +1,6 @@
 ---
 ancestry: devil
+cost: 2 Points
 name: Prehensile Tail
 scc: mcdm.heroes.v1/feature.trait.devil/prehensile-tail
 type: trait

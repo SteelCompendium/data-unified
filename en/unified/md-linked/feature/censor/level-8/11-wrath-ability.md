@@ -8,7 +8,7 @@ type: feature
 
 Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the following options, each of which costs 11 wrath to use.
 
-## Excommunication {data-scc="mcdm.heroes.v1/feature.ability.censor.level-8/excommunication"}
+## Excommunication {data-scc="mcdm.heroes.v1/feature.ability.censor.level-8/excommunication" data-cost="11 Wrath"}
 
 
 *You curse your foe to become a bane to their allies.*
@@ -25,7 +25,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 **Effect:** At the end of each of your [turns](../../../rule/combat/turn.md), a target [weakened](../../../condition/weakened.md) this way deals holy damage equal to twice your [Presence](../../../rule/character/presence.md) score to each enemy within 2 squares of them. Additionally, a target [weakened](../../../condition/weakened.md) this way can't be targeted by their allies' abilities.
 
-## Hand of the Gods {data-scc="mcdm.heroes.v1/feature.ability.censor.level-8/hand-of-the-gods"}
+## Hand of the Gods {data-scc="mcdm.heroes.v1/feature.ability.censor.level-8/hand-of-the-gods" data-cost="11 Wrath"}
 
 
 *You use your foe as a tool against your enemies.*
@@ -42,7 +42,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 **Effect:** Until the end of the encounter, while the target is judged by you, you can choose to make them the source of any of your abilities. Additionally, the target counts as an ally for the purpose of [flanking](../../../rule/combat/flanking.md).
 
-## Pillar of Holy Fire {data-scc="mcdm.heroes.v1/feature.ability.censor.level-8/pillar-of-holy-fire"}
+## Pillar of Holy Fire {data-scc="mcdm.heroes.v1/feature.ability.censor.level-8/pillar-of-holy-fire" data-cost="11 Wrath"}
 
 
 *Your enemy's guilt fuels a holy flame that burns your foes.*
@@ -59,7 +59,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 **Effect:** At the end of each of your [turns](../../../rule/combat/turn.md), a target [dazed](../../../condition/dazed.md) this way deals holy damage equal to twice your [Presence](../../../rule/character/presence.md) score to each enemy within 2 squares of them.
 
-## Your Allies Turn on You! {data-scc="mcdm.heroes.v1/feature.ability.censor.level-8/your-allies-turn-on-you"}
+## Your Allies Turn on You! {data-scc="mcdm.heroes.v1/feature.ability.censor.level-8/your-allies-turn-on-you" data-cost="11 Wrath"}
 
 
 *You [turn](../../../rule/combat/turn.md) your enemies' ire to the target.*

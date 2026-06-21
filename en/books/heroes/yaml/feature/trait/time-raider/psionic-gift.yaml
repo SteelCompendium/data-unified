@@ -1,3 +1,4 @@
+cost: 2 Points
 effects:
     - effect: Choose one [signature ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability) from the following options. [Signature abilities](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability) can be used at will.
 feature_type: trait

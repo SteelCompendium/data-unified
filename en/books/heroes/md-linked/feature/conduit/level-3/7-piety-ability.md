@@ -8,7 +8,7 @@ type: feature
 
 Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the following options, each of which costs 7 piety to use.
 
-## Fear of the Gods {data-scc="mcdm.heroes.v1/feature.ability.conduit.level-3/fear-of-the-gods"}
+## Fear of the Gods {data-scc="mcdm.heroes.v1/feature.ability.conduit.level-3/fear-of-the-gods" data-cost="7 Piety"}
 
 
 *Your divine magic makes a creature appear as what your enemies fear most.*
@@ -25,7 +25,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 **Effect:** Each target is [frightened](../../../condition/frightened.md) of you or a creature you choose within [distance](../../../rule/combat/distance.md).
 
-## Saint's Raiment {data-scc="mcdm.heroes.v1/feature.ability.conduit.level-3/saints-raiment"}
+## Saint's Raiment {data-scc="mcdm.heroes.v1/feature.ability.conduit.level-3/saints-raiment" data-cost="7 Piety"}
 
 
 *An ally becomes the wearer of an empowered golden cloak.*
@@ -36,7 +36,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 **Effect:** The target gains 20 [temporary Stamina](../../../rule/health/temporary-stamina.md) and 3 [surges](../../../rule/resource/surge.md).
 
-## Soul Siphon {data-scc="mcdm.heroes.v1/feature.ability.conduit.level-3/soul-siphon"}
+## Soul Siphon {data-scc="mcdm.heroes.v1/feature.ability.conduit.level-3/soul-siphon" data-cost="7 Piety"}
 
 
 *A beam of energy connects a foe to a friend, draining life from one to heal the other.*
@@ -53,7 +53,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 **Effect:** One ally within [distance](../../../rule/combat/distance.md) can spend any number of [Recoveries](../../../rule/health/recoveries.md).
 
-## Words of Wrath and Grace {data-scc="mcdm.heroes.v1/feature.ability.conduit.level-3/words-of-wrath-and-grace"}
+## Words of Wrath and Grace {data-scc="mcdm.heroes.v1/feature.ability.conduit.level-3/words-of-wrath-and-grace" data-cost="7 Piety"}
 
 
 *Your [saint](../../../rule/world/saint.md) grants your enemies a vision of pain and fills your allies with healing energy.*

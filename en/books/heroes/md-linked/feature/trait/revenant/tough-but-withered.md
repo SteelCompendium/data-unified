@@ -13,23 +13,23 @@ Additionally, when your [Stamina](../../../rule/health/stamina.md) reaches the n
 
 You have 2 ancestry points to spend on the following traits, or 3 ancestry points if your [size](../../../rule/character/size.md) is 1S. (*Quick Build:* Bloodless, plus Undead Influence if [size](../../../rule/character/size.md) 1S.)
 
-## Bloodless {data-scc="mcdm.heroes.v1/feature.trait.revenant/bloodless"}
+## Bloodless {data-scc="mcdm.heroes.v1/feature.trait.revenant/bloodless" data-cost="2 Points"}
 
 For you, an open wound is indistinguishable from a scratch. You can't be made [bleeding](../../../condition/bleeding.md) even while [dying](../../../rule/health/dying.md).
 
-## Previous Life: 1 Point {data-scc="mcdm.heroes.v1/feature.trait.revenant/previous-life-1-point"}
+## Previous Life: 1 Point {data-scc="mcdm.heroes.v1/feature.trait.revenant/previous-life-1-point" data-cost="1 Point"}
 
 You select a purchased trait that costs 1 ancestry point from your previous ancestry. You can take this trait multiple times, selecting a different 1 point trait from your previous ancestry each time.
 
-## Previous Life: 2 Points {data-scc="mcdm.heroes.v1/feature.trait.revenant/previous-life-2-points"}
+## Previous Life: 2 Points {data-scc="mcdm.heroes.v1/feature.trait.revenant/previous-life-2-points" data-cost="2 Points"}
 
 You select a purchased trait that costs 2 ancestry points from your previous ancestry.
 
-## Undead Influence {data-scc="mcdm.heroes.v1/feature.trait.revenant/undead-influence"}
+## Undead Influence {data-scc="mcdm.heroes.v1/feature.trait.revenant/undead-influence" data-cost="1 Point"}
 
 Your [supernatural](../../../rule/general/supernatural.md) gifts allow you to influence other undead. You gain an [edge](../../../rule/dice/edge.md) on [Reason](../../../rule/character/reason.md), [Intuition](../../../rule/character/intuition.md), and [Presence](../../../rule/character/presence.md) [tests](../../../rule/test/test.md) made to interact with undead creatures.
 
-## Vengeance Mark {data-scc="mcdm.heroes.v1/feature.trait.revenant/vengeance-mark"}
+## Vengeance Mark {data-scc="mcdm.heroes.v1/feature.trait.revenant/vengeance-mark" data-cost="2 Points"}
 
 As a maneuver, you place a magic sigil on a creature within 10 squares. When you place a sigil, you decide where it appears on the creature's body, and whether the sigil is visible to only you or to all creatures.
 

@@ -12,7 +12,7 @@ Your [primordial aspect](../level-1/primordial-aspect.md) grants your choice of 
 
 Choose one of the following abilities.
 
-### Special Delivery {data-scc="mcdm.heroes.v1/feature.ability.fury.level-2/special-delivery"}
+### Special Delivery {data-scc="mcdm.heroes.v1/feature.ability.fury.level-2/special-delivery" data-cost="5 Ferocity"}
 
 
 *You ready?*
@@ -23,7 +23,7 @@ Choose one of the following abilities.
 
 **Effect:** You vertically [push](../../../movement/forced-movement.md) the target up to 4 squares. This [forced movement](../../../movement/forced-movement.md) ignores the target's [stability](../../../rule/character/stability.md), and the target takes no damage from colliding with creatures or objects. At the end of this movement, the target can make a [free strike](../../common/main-actions/free-strike.md) that deals extra damage equal to your [Might](../../../rule/character/might.md) score.
 
-### Wrecking Ball {data-scc="mcdm.heroes.v1/feature.ability.fury.level-2/wrecking-ball"}
+### Wrecking Ball {data-scc="mcdm.heroes.v1/feature.ability.fury.level-2/wrecking-ball" data-cost="5 Ferocity"}
 
 
 *It's easier to destroy than to create. Much easier, in fact!*
@@ -46,7 +46,7 @@ Additionally, you make one [power roll](../../../rule/dice/power-roll.md) that t
 
 Choose one of the following abilities.
 
-### Death... Death! {data-scc="mcdm.heroes.v1/feature.ability.fury.level-2/death-death"}
+### Death... Death! {data-scc="mcdm.heroes.v1/feature.ability.fury.level-2/death-death" data-cost="5 Ferocity"}
 
 
 *Your unbridled rage strikes terror in their hearts.*
@@ -61,7 +61,7 @@ Choose one of the following abilities.
 - **12-16:** 5 + M damage; P < AVERAGE, [dazed](../../../condition/dazed.md) and [frightened](../../../condition/frightened.md) (save ends)
 - **17+:** 8 + M damage; P < STRONG, [dazed](../../../condition/dazed.md) and [frightened](../../../condition/frightened.md) (save ends)
 
-### Phalanx-Breaker {data-scc="mcdm.heroes.v1/feature.ability.fury.level-2/phalanx-breaker"}
+### Phalanx-Breaker {data-scc="mcdm.heroes.v1/feature.ability.fury.level-2/phalanx-breaker" data-cost="5 Ferocity"}
 
 
 *Organizing your forces like feckless creatures of Law. Pitiful.*
@@ -82,7 +82,7 @@ Choose one of the following abilities.
 
 Choose one of the following abilities.
 
-### Apex Predator {data-scc="mcdm.heroes.v1/feature.ability.fury.level-2/apex-predator"}
+### Apex Predator {data-scc="mcdm.heroes.v1/feature.ability.fury.level-2/apex-predator" data-cost="5 Ferocity"}
 
 
 *I will hunt you down.*
@@ -99,7 +99,7 @@ Choose one of the following abilities.
 
 **Effect:** The target can't be hidden from you for 24 hours. Until the end of the encounter, whenever the target willingly moves, you can use a free [triggered action](../../../rule/combat/triggered-action.md) to move.
 
-### Visceral Roar {data-scc="mcdm.heroes.v1/feature.ability.fury.level-2/visceral-roar"}
+### Visceral Roar {data-scc="mcdm.heroes.v1/feature.ability.fury.level-2/visceral-roar" data-cost="5 Ferocity"}
 
 
 *The sound of the storm within you staggers your opponents.*

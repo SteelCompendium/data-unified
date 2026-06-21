@@ -1,5 +1,6 @@
 ---
 ancestry: polder
+cost: 2 Points
 name: Nimblestep
 scc: mcdm.heroes.v1/feature.trait.polder/nimblestep
 type: trait

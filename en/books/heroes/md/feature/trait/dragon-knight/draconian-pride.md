@@ -1,5 +1,6 @@
 ---
 ancestry: dragon-knight
+cost: 2 Points
 name: Draconian Pride
 scc: mcdm.heroes.v1/feature.trait.dragon-knight/draconian-pride
 type: trait

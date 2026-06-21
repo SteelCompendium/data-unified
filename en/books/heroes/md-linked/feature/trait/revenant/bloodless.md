@@ -1,5 +1,6 @@
 ---
 ancestry: revenant
+cost: 2 Points
 name: Bloodless
 scc: mcdm.heroes.v1/feature.trait.revenant/bloodless
 type: trait

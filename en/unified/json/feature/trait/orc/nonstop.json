@@ -1,4 +1,5 @@
 {
+  "cost": "2 Points",
   "effects": [
     {
       "effect": "Your bloodfire supplies you with a constant rush of adrenaline. You can't be made [slowed](scc.v1:mcdm.heroes.v1/condition/slowed)."

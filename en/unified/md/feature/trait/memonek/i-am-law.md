@@ -1,5 +1,6 @@
 ---
 ancestry: memonek
+cost: 1 Point
 name: I Am Law
 scc: mcdm.heroes.v1/feature.trait.memonek/i-am-law
 type: trait

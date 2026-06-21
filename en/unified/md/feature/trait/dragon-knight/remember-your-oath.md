@@ -1,5 +1,6 @@
 ---
 ancestry: dragon-knight
+cost: 1 Point
 name: Remember Your Oath
 scc: mcdm.heroes.v1/feature.trait.dragon-knight/remember-your-oath
 type: trait

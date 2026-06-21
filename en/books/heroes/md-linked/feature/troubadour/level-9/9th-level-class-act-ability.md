@@ -12,7 +12,7 @@ Your [troubadour class act](../level-1/troubadour-class-act.md) grants your choi
 
 Choose one of the following abilities.
 
-### Epic {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-9/epic"}
+### Epic {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-9/epic" data-cost="11 Drama"}
 
 
 *Your story tells a tale of the villain's waning power and how the heroes rose to the occasion to stop them.*
@@ -29,7 +29,7 @@ Choose one of the following abilities.
 
 **Effect:** Choose one ally within [distance](../../../rule/combat/distance.md). While the target is affected by this ability, each time they use an ability, that ally can make a [free strike](../../common/main-actions/free-strike.md) against them after the ability is resolved.
 
-### Rising Tension {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-9/rising-tension"}
+### Rising Tension {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-9/rising-tension" data-cost="11 Drama"}
 
 
 *You narrate the tension of the scene and put all hope into your protagonist to [turn](../../../rule/combat/turn.md) things around.*
@@ -44,7 +44,7 @@ Choose one of the following abilities.
 
 Choose one of the following abilities.
 
-### Expert Fencer {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-9/expert-fencer"}
+### Expert Fencer {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-9/expert-fencer" data-cost="11 Drama"}
 
 
 *If you can land the [strike](../../../rule/combat/strike.md), the crowd goes wild.*
@@ -61,7 +61,7 @@ Choose one of the following abilities.
 
 **Effect:** This ability can't obtain better than a tier 2 outcome unless the target is at maximum [distance](../../../rule/combat/distance.md). If you obtain a tier 3 outcome with a natural 17 or higher, you gain 3 [surges](../../../rule/resource/surge.md) that you can use immediately.
 
-### Renegotiated Contract {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-9/renegotiated-contract"}
+### Renegotiated Contract {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-9/renegotiated-contract" data-cost="11 Drama"}
 
 
 *No, no. You don't die until the sequel.*
@@ -82,7 +82,7 @@ Choose one of the following abilities.
 
 Choose one of the following abilities.
 
-### Jam Session {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-9/jam-session"}
+### Jam Session {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-9/jam-session" data-cost="11 Drama"}
 
 
 *Your [jam session](../../ability/troubadour/level-9/jam-session.md) creates new genres that compel everyone to get up and move.*
@@ -99,7 +99,7 @@ Choose one of the following abilities.
 
 **Effect:** Each creature within [distance](../../../rule/combat/distance.md) gains a +5 [bonus](../../../rule/dice/bonuses-and-penalties.md) to [speed](../../../rule/character/speed.md) until the end of their next [turn](../../../rule/combat/turn.md). While under this effect, each target must use their full movement during their [turn](../../../rule/combat/turn.md).
 
-### Melt Their Faces {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-9/melt-their-faces"}
+### Melt Their Faces {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-9/melt-their-faces" data-cost="11 Drama"}
 
 
 *The power of music rips through the reality around the target and blows them away.*

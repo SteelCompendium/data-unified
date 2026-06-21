@@ -12,7 +12,7 @@ Your [talent tradition](../level-1/talent-tradition.md) grants your choice of on
 
 Choose one of the following abilities.
 
-### Acceleration Field {data-scc="mcdm.heroes.v1/feature.ability.talent.level-9/acceleration-field"}
+### Acceleration Field {data-scc="mcdm.heroes.v1/feature.ability.talent.level-9/acceleration-field" data-cost="11 Clarity"}
 
 
 *You forcibly stuff more moments into a critical point in time, knowing full well you might need to steal some of your own.*
@@ -31,7 +31,7 @@ Choose one of the following abilities.
 - **12-16:** 6 corruption damage; [slowed](../../../condition/slowed.md) (save ends)
 - **17+:** 10 corruption damage; [slowed](../../../condition/slowed.md) (save ends)
 
-### Borrow From the Future {data-scc="mcdm.heroes.v1/feature.ability.talent.level-9/borrow-from-the-future"}
+### Borrow From the Future {data-scc="mcdm.heroes.v1/feature.ability.talent.level-9/borrow-from-the-future" data-cost="11 Clarity"}
 
 
 *You lean on future heroism to assist you in the now.*
@@ -46,7 +46,7 @@ Choose one of the following abilities.
 
 Choose one of the following abilities.
 
-### Fulcrum {data-scc="mcdm.heroes.v1/feature.ability.talent.level-9/fulcrum"}
+### Fulcrum {data-scc="mcdm.heroes.v1/feature.ability.talent.level-9/fulcrum" data-cost="11 Clarity"}
 
 
 *You precisely manipulate the creatures around you.*
@@ -65,7 +65,7 @@ Choose one of the following abilities.
 
 **Strained:** You can choose to reduce the size of the [burst](../../../rule/combat/burst.md) by 2 (to a minimum of 1 [burst](../../../rule/combat/burst.md)) to give the [forced movement](../../../movement/forced-movement.md) [distance](../../../rule/combat/distance.md) a +2 [bonus](../../../rule/dice/bonuses-and-penalties.md). You take half the total damage all targets take from [forced movement](../../../movement/forced-movement.md).
 
-### Gravitic Nova {data-scc="mcdm.heroes.v1/feature.ability.talent.level-9/gravitic-nova"}
+### Gravitic Nova {data-scc="mcdm.heroes.v1/feature.ability.talent.level-9/gravitic-nova" data-cost="11 Clarity"}
 
 
 *Unbridled psionic energy erupts from your body and flashes outward, hurling your foes back.*
@@ -88,7 +88,7 @@ Choose one of the following abilities.
 
 Choose one of the following abilities.
 
-### Resonant Mind Spike {data-scc="mcdm.heroes.v1/feature.ability.talent.level-9/resonant-mind-spike"}
+### Resonant Mind Spike {data-scc="mcdm.heroes.v1/feature.ability.talent.level-9/resonant-mind-spike" data-cost="11 Clarity"}
 
 
 *You fire a telepathic bolt empowered by every consciousness within reach directly into your foe's mind.*
@@ -107,7 +107,7 @@ Choose one of the following abilities.
 
 **Strained:** The [ability roll](../../../rule/dice/ability-roll.md) scores a [critical hit](../../../rule/combat/critical-hit.md) on a natural 17 or higher. You take half the damage the target takes, and you can't reduce this damage in any way.
 
-### Synaptic Terror {data-scc="mcdm.heroes.v1/feature.ability.talent.level-9/synaptic-terror"}
+### Synaptic Terror {data-scc="mcdm.heroes.v1/feature.ability.talent.level-9/synaptic-terror" data-cost="11 Clarity"}
 
 
 *You project a terrifying image into the brains of your foes, and their fear psionically invigorates your allies.*

@@ -1,5 +1,6 @@
 ---
 ancestry: time-raider
+cost: 2 Points
 name: Psionic Gift
 scc: mcdm.heroes.v1/feature.trait.time-raider/psionic-gift
 type: trait

@@ -12,7 +12,7 @@ Your [primordial aspect](../level-1/primordial-aspect.md) grants your choice of 
 
 Choose one of the following abilities.
 
-### Avalanche Impact {data-scc="mcdm.heroes.v1/feature.ability.fury.level-6/avalanche-impact"}
+### Avalanche Impact {data-scc="mcdm.heroes.v1/feature.ability.fury.level-6/avalanche-impact" data-cost="9 Ferocity"}
 
 
 *You leap and crash down, causing a shockwave that devastates foes.*
@@ -29,7 +29,7 @@ Choose one of the following abilities.
 - **12-16:** 7 damage; [push](../../../movement/forced-movement.md) 2
 - **17+:** 11 damage; [push](../../../movement/forced-movement.md) 3
 
-### Force of Storms {data-scc="mcdm.heroes.v1/feature.ability.fury.level-6/force-of-storms"}
+### Force of Storms {data-scc="mcdm.heroes.v1/feature.ability.fury.level-6/force-of-storms" data-cost="9 Ferocity"}
 
 
 *You strike an enemy hard enough to be a projectile that knocks a crowd of creatures around.*
@@ -50,7 +50,7 @@ Choose one of the following abilities.
 
 Choose one of the following abilities.
 
-### Death Strike {data-scc="mcdm.heroes.v1/feature.ability.fury.level-6/death-strike"}
+### Death Strike {data-scc="mcdm.heroes.v1/feature.ability.fury.level-6/death-strike" data-cost="9 Ferocity"}
 
 
 *Once you taste your foe's blood, you become more efficient and [turn](../../../rule/combat/turn.md) every killing blow into an opportunity.*
@@ -63,7 +63,7 @@ Choose one of the following abilities.
 
 **Effect:** You target a creature [adjacent](../../../rule/combat/adjacent.md) to you with the same strike, using the same [power roll](../../../rule/dice/power-roll.md) as the triggering strike.
 
-### Seek and Destroy {data-scc="mcdm.heroes.v1/feature.ability.fury.level-6/seek-and-destroy"}
+### Seek and Destroy {data-scc="mcdm.heroes.v1/feature.ability.fury.level-6/seek-and-destroy" data-cost="9 Ferocity"}
 
 
 *You break through the enemy lines to make an example.*
@@ -86,7 +86,7 @@ Choose one of the following abilities.
 
 Choose one of the following abilities.
 
-### Pounce {data-scc="mcdm.heroes.v1/feature.ability.fury.level-6/pounce"}
+### Pounce {data-scc="mcdm.heroes.v1/feature.ability.fury.level-6/pounce" data-cost="9 Ferocity"}
 
 
 *You strike at the target like the ultimate predator you are.*
@@ -103,7 +103,7 @@ Choose one of the following abilities.
 
 **Effect:** You can [shift](../../../movement/shifting.md) up to 4 squares, bringing the target with you. While [grabbed](../../../condition/grabbed.md) this way, the target takes damage equal to twice your [Might](../../../rule/character/might.md) score at the start of each of your [turns](../../../rule/combat/turn.md).
 
-### Riders on the Storm {data-scc="mcdm.heroes.v1/feature.ability.fury.level-6/riders-on-the-storm"}
+### Riders on the Storm {data-scc="mcdm.heroes.v1/feature.ability.fury.level-6/riders-on-the-storm" data-cost="9 Ferocity"}
 
 
 *You focus your connection to the Primordial Chaos into a seething storm.*

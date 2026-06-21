@@ -12,7 +12,7 @@ Your [shadow college](../level-1/shadow-college.md) grants your choice of one of
 
 Choose one of the following abilities.
 
-### In a Puff of Ash {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-2/in-a-puff-of-ash"}
+### In a Puff of Ash {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-2/in-a-puff-of-ash" data-cost="5 Insight"}
 
 
 *You enchant a [strike](../../../rule/combat/strike.md) with your [teleport](../../../movement/teleport.md)ation magic.*
@@ -27,7 +27,7 @@ Choose one of the following abilities.
 - **12-16:** 10 + A damage; you can [teleport](../../../movement/teleport.md) the target up to 3 squares
 - **17+:** 14 + A damage; you can [teleport](../../../movement/teleport.md) the target up to 5 squares
 
-### Too Slow {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-2/too-slow"}
+### Too Slow {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-2/too-slow" data-cost="5 Insight"}
 
 
 *Your foe made a big mistake.*
@@ -44,7 +44,7 @@ Choose one of the following abilities.
 
 Choose one of the following abilities.
 
-### Sticky Bomb {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-2/sticky-bomb"}
+### Sticky Bomb {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-2/sticky-bomb" data-cost="5 Insight"}
 
 
 *Explosives are best when they're attached to an enemy.*
@@ -61,7 +61,7 @@ Choose one of the following abilities.
 - **12-16:** 7 + A fire damage
 - **17+:** 11 + A fire damage
 
-### Stink Bomb {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-2/stink-bomb"}
+### Stink Bomb {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-2/stink-bomb" data-cost="5 Insight"}
 
 
 *Putrid yellow gas explodes from a bomb you toss.*
@@ -82,7 +82,7 @@ Choose one of the following abilities.
 
 Choose one of the following abilities.
 
-### Machinations of Sound {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-2/machinations-of-sound"}
+### Machinations of Sound {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-2/machinations-of-sound" data-cost="5 Insight"}
 
 
 *Illusory sounds make your foes reposition themselves as they cower or investigate the disturbance.*
@@ -99,7 +99,7 @@ Choose one of the following abilities.
 
 **Effect:** This [forced movement](../../../movement/forced-movement.md) ignores [stability](../../../rule/character/stability.md). Instead, the [forced movement](../../../movement/forced-movement.md) is reduced by a number equal to the target's [Intuition](../../../rule/character/intuition.md) score.
 
-### So Gullible {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-2/so-gullible"}
+### So Gullible {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-2/so-gullible" data-cost="5 Insight"}
 
 
 *When your enemy strikes, you reveal you were in a different place all along.*

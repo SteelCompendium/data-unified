@@ -8,7 +8,7 @@ type: feature
 
 Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the following options, each of which costs 9 essence to use. Alternatively, you can choose one of the 9-assence abilities you didn't select at 5th level (see 5th-Level Features).
 
-## Luminous Champion Aloft {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-6/luminous-champion-aloft"}
+## Luminous Champion Aloft {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-6/luminous-champion-aloft" data-cost="9 Essence"}
 
 
 *They shine vibrantly, a beautiful diamond in the night sky.*
@@ -21,7 +21,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 **Persistent 1:** The effect lasts until the start of your next [turn](../../../rule/combat/turn.md).
 
-## Magma Titan {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-6/magma-titan"}
+## Magma Titan {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-6/magma-titan" data-cost="9 Essence"}
 
 
 *Their body swells with lava, mud, and might, towering over their enemies.*
@@ -40,7 +40,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 **Persistent 2:** The effect lasts until the start of your next [turn](../../../rule/combat/turn.md). Additionally, at the start of your [turn](../../../rule/combat/turn.md), the target can spend 2 [Recoveries](../../../rule/health/recoveries.md).
 
-## Meteor {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-6/meteor"}
+## Meteor {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-6/meteor" data-cost="9 Essence"}
 
 
 *You [teleport](../../../movement/teleport.md) the target into the air and let the ground and the elemental force of fire do the rest.*
@@ -57,7 +57,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 **Effect:** If the target is [teleport](../../../movement/teleport.md)ed to a space where they would fall, they immediately do so, treating the fall as if their [Agility](../../../rule/character/agility.md) score were 0. The target takes fire damage from the fall, and each enemy within 3 squares of where they land takes the same amount of fire damage. The ground within 3 squares of where the target lands is [difficult terrain](../../../movement/difficult-terrain.md).
 
-## The Wode Remembers and Returns {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-6/the-wode-remembers-and-returns"}
+## The Wode Remembers and Returns {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-6/the-wode-remembers-and-returns" data-cost="9 Essence"}
 
 
 *You create a terrarium that spans from canopy above to underbrush below.*

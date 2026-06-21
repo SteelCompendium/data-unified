@@ -1,6 +1,9 @@
 ---
 action_type: feature
 class: talent
+cost: 5 Clarity
+cost_amount: "5"
+cost_resource: Clarity
 feature_type: feature
 file_basename: shared-power
 file_dpath: feature/talent/level-6
@@ -14,11 +17,13 @@ type: feature
 ---
 
 ```ds-feature
+cost: 5 Clarity
 effects:
     - effect: If the ability targets individual creatures or objects, you target one additional creature or object within [distance](../../../rule/combat/distance.md).
 feature_type: feature
 metadata:
     class: talent
+    cost: 5 Clarity
     level: "6"
     name: Shared Power
     scc: mcdm.heroes.v1/feature.talent.level-6/shared-power

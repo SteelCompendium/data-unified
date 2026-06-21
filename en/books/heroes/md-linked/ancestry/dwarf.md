@@ -128,22 +128,22 @@ You can have one rune active at a time, and can change or remove a rune with 10 
 
 You have 3 ancestry points to spend on the following traits. (*Quick Build:* Grounded, Spark Off Your Skin.)
 
-#### Great Fortitude {data-scc="mcdm.heroes.v1/feature.trait.dwarf/great-fortitude"}
+#### Great Fortitude {data-scc="mcdm.heroes.v1/feature.trait.dwarf/great-fortitude" data-cost="2 Points"}
 
 Your hearty constitution prevents you from losing strength. You can't be made [weakened](../condition/weakened.md).
 
-#### Grounded {data-scc="mcdm.heroes.v1/feature.trait.dwarf/grounded"}
+#### Grounded {data-scc="mcdm.heroes.v1/feature.trait.dwarf/grounded" data-cost="1 Point"}
 
 Your heavy stone body and connection to the earth make it difficult for others to move you. You have a +1 [bonus](../rule/dice/bonuses-and-penalties.md) to [stability](../rule/character/stability.md).
 
-#### Spark Off Your Skin {data-scc="mcdm.heroes.v1/feature.trait.dwarf/spark-off-your-skin"}
+#### Spark Off Your Skin {data-scc="mcdm.heroes.v1/feature.trait.dwarf/spark-off-your-skin" data-cost="2 Points"}
 
 Your stone skin affords you potent protection. You have a +6 [bonus](../rule/dice/bonuses-and-penalties.md) to [Stamina](../rule/health/stamina.md), and that [bonus](../rule/dice/bonuses-and-penalties.md) increases by 6 at 4th, 7th, and 10th levels.
 
-#### Stand Tough {data-scc="mcdm.heroes.v1/feature.trait.dwarf/stand-tough"}
+#### Stand Tough {data-scc="mcdm.heroes.v1/feature.trait.dwarf/stand-tough" data-cost="1 Point"}
 
 Your body is made to withstand the blows of your enemies. Your [Might](../rule/character/might.md) score is treated as 1 higher for the purpose of resisting [potencies](../rule/character/potency.md), and you gain an [edge](../rule/dice/edge.md) on [Might](../rule/character/might.md) [tests](../rule/test/test.md) when called for to resist environmental effects or a creature's traits or abilities.
 
-#### Stone Singer {data-scc="mcdm.heroes.v1/feature.trait.dwarf/stone-singer"}
+#### Stone Singer {data-scc="mcdm.heroes.v1/feature.trait.dwarf/stone-singer" data-cost="1 Point"}
 
 You have a magic connection to the earth. When you spend 1 uninterrupted hour singing, you can reshape any unworked mundane stone within 3 squares. You can't destroy this stone, but you can move each square of it anywhere within 3 squares, piling it off to one side to dig a hole or building it up to create a wall.

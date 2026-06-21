@@ -1,5 +1,6 @@
 ---
 ancestry: orc
+cost: 1 Point
 name: Grounded
 scc: mcdm.heroes.v1/feature.trait.orc/grounded
 type: trait

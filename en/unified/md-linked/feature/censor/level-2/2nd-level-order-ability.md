@@ -12,7 +12,7 @@ Your [censor order](../level-1/censor-order.md) grants your choice of one of two
 
 Choose one of the following abilities.
 
-### It Is Justice You Fear {data-scc="mcdm.heroes.v1/feature.ability.censor.level-2/it-is-justice-you-fear"}
+### It Is Justice You Fear {data-scc="mcdm.heroes.v1/feature.ability.censor.level-2/it-is-justice-you-fear" data-cost="5 Wrath"}
 
 
 *I am but a vessel. Your own deeds weigh upon you.*
@@ -29,7 +29,7 @@ Choose one of the following abilities.
 
 **Effect:** If the target is already [frightened](../../../condition/frightened.md) of you or another creature and this ability would frighten them again, they instead take psychic damage equal to twice your [Presence](../../../rule/character/presence.md) score.
 
-### Revelator {data-scc="mcdm.heroes.v1/feature.ability.censor.level-2/revelator"}
+### Revelator {data-scc="mcdm.heroes.v1/feature.ability.censor.level-2/revelator" data-cost="5 Wrath"}
 
 
 *You channel holy energy to harm unbelievers and reveal those hidden from your [judgment](../../ability/censor/level-1/judgment.md).*
@@ -44,7 +44,7 @@ Choose one of the following abilities.
 
 Choose one of the following abilities.
 
-### Prescient Grace {data-scc="mcdm.heroes.v1/feature.ability.censor.level-2/prescient-grace"}
+### Prescient Grace {data-scc="mcdm.heroes.v1/feature.ability.censor.level-2/prescient-grace" data-cost="5 Wrath"}
 
 
 *Gifted by a prescient vision, you warn an ally of an impending attack.*
@@ -57,7 +57,7 @@ Choose one of the following abilities.
 
 **Effect:** You can spend a [Recovery](../../../rule/health/recoveries.md) to allow the target to regain [Stamina](../../../rule/health/stamina.md) equal to your [recovery value](../../../rule/health/recoveries.md). The target can then take their [turn](../../../rule/combat/turn.md) immediately before the triggering enemy.
 
-### With My Blessing {data-scc="mcdm.heroes.v1/feature.ability.censor.level-2/with-my-blessing"}
+### With My Blessing {data-scc="mcdm.heroes.v1/feature.ability.censor.level-2/with-my-blessing" data-cost="5 Wrath"}
 
 
 *A word in prayer, and the gods show the way.*
@@ -72,7 +72,7 @@ Choose one of the following abilities.
 
 Choose one of the following abilities.
 
-### Blessing of the Faithful {data-scc="mcdm.heroes.v1/feature.ability.censor.level-2/blessing-of-the-faithful"}
+### Blessing of the Faithful {data-scc="mcdm.heroes.v1/feature.ability.censor.level-2/blessing-of-the-faithful" data-cost="5 Wrath"}
 
 
 *The gods reward your faith.*
@@ -83,7 +83,7 @@ Choose one of the following abilities.
 
 **Effect:** Until the end of the encounter or until you are [dying](../../../rule/health/dying.md), each target gains 1 [surge](../../../rule/resource/surge.md) at the end of each of your [turns](../../../rule/combat/turn.md).
 
-### Sentenced {data-scc="mcdm.heroes.v1/feature.ability.censor.level-2/sentenced"}
+### Sentenced {data-scc="mcdm.heroes.v1/feature.ability.censor.level-2/sentenced" data-cost="5 Wrath"}
 
 
 *The shock of your condemnation freezes your enemy in their boots.*

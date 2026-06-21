@@ -8,7 +8,7 @@ type: feature
 
 Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the following options, each of which costs 9 ferocity to use.
 
-## Debilitating Strike {data-scc="mcdm.heroes.v1/feature.ability.fury.level-5/debilitating-strike"}
+## Debilitating Strike {data-scc="mcdm.heroes.v1/feature.ability.fury.level-5/debilitating-strike" data-cost="9 Ferocity"}
 
 
 *You need just one blow to sabotage your target.*
@@ -25,7 +25,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 **Effect:** While [slowed](../../../condition/slowed.md) this way, the target takes 1 damage for every square they move, including from [forced movement](../../../movement/forced-movement.md).
 
-## My Turn! {data-scc="mcdm.heroes.v1/feature.ability.fury.level-5/my-turn"}
+## My Turn! {data-scc="mcdm.heroes.v1/feature.ability.fury.level-5/my-turn" data-cost="9 Ferocity"}
 
 
 *You quickly strike back at a foe.*
@@ -44,7 +44,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 **Effect:** You can spend a [Recovery](../../../rule/health/recoveries.md).
 
-## Rebounding Storm {data-scc="mcdm.heroes.v1/feature.ability.fury.level-5/rebounding-storm"}
+## Rebounding Storm {data-scc="mcdm.heroes.v1/feature.ability.fury.level-5/rebounding-storm" data-cost="9 Ferocity"}
 
 
 *You knock around enemies like playthings.*
@@ -61,7 +61,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 **Effect:** When a target would end this [forced movement](../../../movement/forced-movement.md) by colliding with a creature or object, they take damage as usual, then are [pushed](../../../movement/forced-movement.md) the remaining [distance](../../../rule/combat/distance.md) away from the creature or object in the direction they came from. As long as [forced movement](../../../movement/forced-movement.md) remains, this effect continues if the target collides with another creature or object.
 
-## To Stone! {data-scc="mcdm.heroes.v1/feature.ability.fury.level-5/to-stone"}
+## To Stone! {data-scc="mcdm.heroes.v1/feature.ability.fury.level-5/to-stone" data-cost="9 Ferocity"}
 
 
 *You channel the Primordial Chaos into blows that petrify your foe... literally.*

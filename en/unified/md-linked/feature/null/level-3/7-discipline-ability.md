@@ -8,7 +8,7 @@ type: feature
 
 Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the following options, each of which costs 7 discipline to use.
 
-## Absorption Field {data-scc="mcdm.heroes.v1/feature.ability.null.level-3/absorption-field"}
+## Absorption Field {data-scc="mcdm.heroes.v1/feature.ability.null.level-3/absorption-field" data-cost="7 Discipline"}
 
 
 *Your [null field](../level-1/null-field.md) absorbs kinetic energy.*
@@ -19,7 +19,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 **Effect:** Until the end of the encounter, the size of your [Null Field](../level-1/null-field.md) ability increases by 1. While the area of that ability is enlarged this way, each enemy in the area takes a [bane](../../../rule/dice/bane.md) on [ability rolls](../../../rule/dice/ability-roll.md).
 
-## Molecular Rearrangement Field {data-scc="mcdm.heroes.v1/feature.ability.null.level-3/molecular-rearrangement-field"}
+## Molecular Rearrangement Field {data-scc="mcdm.heroes.v1/feature.ability.null.level-3/molecular-rearrangement-field" data-cost="7 Discipline"}
 
 
 *Your enemies' wounds open, your allies' wounds close.*
@@ -30,7 +30,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 **Effect:** Until the end of the encounter, the size of your [Null Field](../level-1/null-field.md) ability increases by 1. While the area of that ability is enlarged this way, each enemy who has I < AVERAGE and enters the area for the first time in a [combat round](../../../rule/combat/combat-round.md) or starts their turn there is [bleeding](../../../condition/bleeding.md) (save ends). Each ally who enters the area for the first time in a [combat round](../../../rule/combat/combat-round.md) or starts their turn there gains [temporary Stamina](../../../rule/health/temporary-stamina.md) equal to your [Intuition](../../../rule/character/intuition.md) score.
 
-## Stabilizing Field {data-scc="mcdm.heroes.v1/feature.ability.null.level-3/stabilizing-field"}
+## Stabilizing Field {data-scc="mcdm.heroes.v1/feature.ability.null.level-3/stabilizing-field" data-cost="7 Discipline"}
 
 
 *You project order, making it harder for your enemies to interfere with you and your allies.*
@@ -41,7 +41,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 **Effect:** Until the end of the encounter, the size of your [Null Field](../level-1/null-field.md) ability increases by 1. While the area of that ability is enlarged this way, you ignore [difficult terrain](../../../movement/difficult-terrain.md) and reduce the [potency](../../../rule/character/potency.md) of enemy effects targeting you by 1 for you. You can also use a free [triggered action](../../../rule/combat/triggered-action.md) at the start of each of your turns to end one effect on you that is ended by a [saving throw](../../../rule/general/saving-throw.md) or that ends at the end of your [turn](../../../rule/combat/turn.md). Each ally in the area also gains these benefits.
 
-## Synapse Field {data-scc="mcdm.heroes.v1/feature.ability.null.level-3/synapse-field"}
+## Synapse Field {data-scc="mcdm.heroes.v1/feature.ability.null.level-3/synapse-field" data-cost="7 Discipline"}
 
 
 *Attacks made by allies in your [null field](../level-1/null-field.md) disrupt your enemies' thoughts, causing psychic pain.*

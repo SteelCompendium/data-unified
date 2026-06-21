@@ -1,6 +1,9 @@
 ---
 action_type: feature
 ancestry: wode-elf
+cost: 1 Point
+cost_amount: "1"
+cost_resource: Point
 feature_type: trait
 file_basename: revisit-memory
 file_dpath: feature/trait/wode-elf
@@ -13,11 +16,13 @@ type: trait
 ---
 
 ```ds-feature
+cost: 1 Point
 effects:
     - effect: Accessing memories is as easy as living in the present for you. You gain an [edge](../../../rule/dice/edge.md) on [tests](../../../rule/test/test.md) made to recall lore.
 feature_type: trait
 metadata:
     ancestry: wode-elf
+    cost: 1 Point
     name: Revisit Memory
     scc: mcdm.heroes.v1/feature.trait.wode-elf/revisit-memory
     type: trait

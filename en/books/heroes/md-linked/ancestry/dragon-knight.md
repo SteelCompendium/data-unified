@@ -102,11 +102,11 @@ Your hardened scales grant you [damage immunity](../rule/damage/damage-immunity.
 
 You have 3 ancestry points to spend on the following traits. (*Quick Build:* [Dragon Breath](../feature/ability/dragon-knight/dragon-breath.md), Prismatic Scales.)
 
-#### Draconian Guard {data-scc="mcdm.heroes.v1/feature.trait.dragon-knight/draconian-guard"}
+#### Draconian Guard {data-scc="mcdm.heroes.v1/feature.trait.dragon-knight/draconian-guard" data-cost="1 Point"}
 
 Whenever you or an [adjacent](../rule/combat/adjacent.md) creature takes damage from a [strike](../rule/combat/strike.md), you can use a [triggered action](../rule/combat/triggered-action.md) to guard against the blow. You reduce any damage from the [strike](../rule/combat/strike.md) by an amount equal to your level.
 
-#### Draconian Pride {data-scc="mcdm.heroes.v1/feature.trait.dragon-knight/draconian-pride"}
+#### Draconian Pride {data-scc="mcdm.heroes.v1/feature.trait.dragon-knight/draconian-pride" data-cost="2 Points"}
 
 You have the following [signature ability](../rule/combat/signature-ability.md).
 
@@ -124,7 +124,7 @@ You have the following [signature ability](../rule/combat/signature-ability.md).
 - **12-16:** 5 damage; [push](../movement/forced-movement.md) 1
 - **17+:** 7 damage; [push](../movement/forced-movement.md) 2
 
-#### Dragon Breath {data-scc="mcdm.heroes.v1/feature.trait.dragon-knight/dragon-breath"}
+#### Dragon Breath {data-scc="mcdm.heroes.v1/feature.trait.dragon-knight/dragon-breath" data-cost="2 Points"}
 
 You have the following [signature ability](../rule/combat/signature-ability.md).
 
@@ -144,16 +144,16 @@ You have the following [signature ability](../rule/combat/signature-ability.md).
 
 **Effect:** You choose the ability's [damage type](../rule/damage/damage-type.md) from acid, cold, corruption, fire, lightning, or poison.
 
-#### Prismatic Scales {data-scc="mcdm.heroes.v1/feature.trait.dragon-knight/prismatic-scales"}
+#### Prismatic Scales {data-scc="mcdm.heroes.v1/feature.trait.dragon-knight/prismatic-scales" data-cost="1 Point"}
 
 Select one [damage immunity](../rule/damage/damage-immunity.md) granted by your Wyrmplate trait. You always have this immunity, in addition to the immunity granted by Wyrmplate.
 
-#### Remember Your Oath {data-scc="mcdm.heroes.v1/feature.trait.dragon-knight/remember-your-oath"}
+#### Remember Your Oath {data-scc="mcdm.heroes.v1/feature.trait.dragon-knight/remember-your-oath" data-cost="1 Point"}
 
 As a maneuver, you can recite the following oath. Until the start of your next [turn](../rule/combat/turn.md), whenever you make a [saving throw](../rule/general/saving-throw.md), you succeed on a 4 or higher.
 
 *Even should the sun stop in the sky Even should the night last a thousand years I will stand forever I shall not yield Those who suffer and yearn for justice I am your sword and shield I will yield no ground I will speak no lies I will stand against all tyrants Until the last villain dies*
 
-#### Wings {data-scc="mcdm.heroes.v1/feature.trait.dragon-knight/wings"}
+#### Wings {data-scc="mcdm.heroes.v1/feature.trait.dragon-knight/wings" data-cost="2 Points"}
 
 You possess wings powerful enough to take you airborne. While using your wings to [fly](../movement/fly.md), you can stay aloft for a number of rounds equal to your [Might](../rule/character/might.md) score (minimum 1 round) before you fall. While using your wings to [fly](../movement/fly.md) at 3rd level or lower, you have [damage weakness](../rule/damage/damage-weakness.md) 5.

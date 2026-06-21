@@ -1,4 +1,5 @@
 {
+  "cost": "2 Points",
   "effects": [
     {
       "effect": "You can push your body to move at incredible [speeds](scc.v1:mcdm.heroes.v1/rule.character/speed). Your [speed](scc.v1:mcdm.heroes.v1/rule.character/speed) is 7."

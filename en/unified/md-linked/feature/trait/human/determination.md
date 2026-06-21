@@ -1,5 +1,6 @@
 ---
 ancestry: human
+cost: 2 Points
 name: Determination
 scc: mcdm.heroes.v1/feature.trait.human/determination
 type: trait

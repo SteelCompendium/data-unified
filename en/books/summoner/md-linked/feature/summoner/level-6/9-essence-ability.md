@@ -9,7 +9,7 @@ type: feature
 
 You can summon the assistance of your future champion (see [Portfolio Champion](../level-8/portfolio-champion.md)) and allow them to show off a brief display of their power. Select one of the following [heroic abilities](../../../rule/general/heroic-ability.md), each of which costs 9 essence to use.
 
-## A Champion's Cry {data-scc="mcdm.summoner.v1/feature.ability.summoner.level-6/a-champions-cry"}
+## A Champion's Cry {data-scc="mcdm.summoner.v1/feature.ability.summoner.level-6/a-champions-cry" data-cost="9 Essence"}
 
 *Your champion unleashes a bellow that shakes you to your core.*
 
@@ -25,7 +25,7 @@ You can summon the assistance of your future champion (see [Portfolio Champion](
 
 **Effect:** You can use this ability as if in the space of one of your minions within your Summoner's Range.
 
-## Army's Idol {data-scc="mcdm.summoner.v1/feature.ability.summoner.level-6/armys-idol"}
+## Army's Idol {data-scc="mcdm.summoner.v1/feature.ability.summoner.level-6/armys-idol" data-cost="9 Essence"}
 
 *Your champion's appearance has an enchanting impact on you and your allies.*
 
@@ -39,7 +39,7 @@ Until the end of the encounter or you become [dying](../../../rule/health/dying.
 
 Each target can immediately make each of their [saving throws](../../../rule/general/saving-throw.md) and stand up from [prone](../../../condition/prone.md).
 
-## The Champion Slams the Earth {data-scc="mcdm.summoner.v1/feature.ability.summoner.level-6/the-champion-slams-the-earth"}
+## The Champion Slams the Earth {data-scc="mcdm.summoner.v1/feature.ability.summoner.level-6/the-champion-slams-the-earth" data-cost="9 Essence"}
 
 *Your champion lays their fury upon those unfortunate enough to be in their wake.*
 
@@ -57,7 +57,7 @@ Each target can immediately make each of their [saving throws](../../../rule/gen
 
 **Special:** You can change the [damage type](../../../rule/damage/damage-type.md) to be a type that your champion deals on their stat block (see [Portfolio Champion](../level-8/portfolio-champion.md)).
 
-## Their Pall Shrouds All {data-scc="mcdm.summoner.v1/feature.ability.summoner.level-6/their-pall-shrouds-all"}
+## Their Pall Shrouds All {data-scc="mcdm.summoner.v1/feature.ability.summoner.level-6/their-pall-shrouds-all" data-cost="9 Essence"}
 
 *Your champion fills the area with a thick haze hiding friend from foe.*
 

@@ -12,7 +12,7 @@ Your [primordial aspect](../level-1/primordial-aspect.md) grants your choice of 
 
 Choose one of the following abilities.
 
-### Death Comes for You All! {data-scc="mcdm.heroes.v1/feature.ability.fury.level-9/death-comes-for-you-all"}
+### Death Comes for You All! {data-scc="mcdm.heroes.v1/feature.ability.fury.level-9/death-comes-for-you-all" data-cost="11 Ferocity"}
 
 
 *You use your weapon to create a destructive shockwave.*
@@ -29,7 +29,7 @@ Choose one of the following abilities.
 
 **Effect:** If this [forced movement](../../../movement/forced-movement.md) causes a target to be hurled through an object, that target takes an extra 10 damage.
 
-### Primordial Vortex {data-scc="mcdm.heroes.v1/feature.ability.fury.level-9/primordial-vortex"}
+### Primordial Vortex {data-scc="mcdm.heroes.v1/feature.ability.fury.level-9/primordial-vortex" data-cost="11 Ferocity"}
 
 
 *You channel the power of the Primordial Chaos to pull foes to you.*
@@ -50,7 +50,7 @@ Choose one of the following abilities.
 
 Choose one of the following abilities.
 
-### Primordial Bane {data-scc="mcdm.heroes.v1/feature.ability.fury.level-9/primordial-bane"}
+### Primordial Bane {data-scc="mcdm.heroes.v1/feature.ability.fury.level-9/primordial-bane" data-cost="11 Ferocity"}
 
 
 *You attune the target to be weaker to a specific element.*
@@ -67,7 +67,7 @@ Choose one of the following abilities.
 
 **Effect:** Choose acid, cold, corruption, fire, lightning, poison, or sonic damage. The target loses any [damage immunity](../../../rule/damage/damage-immunity.md) to the chosen type and gains weakness 10 to the chosen type (save ends).
 
-### Shower of Blood {data-scc="mcdm.heroes.v1/feature.ability.fury.level-9/shower-of-blood"}
+### Shower of Blood {data-scc="mcdm.heroes.v1/feature.ability.fury.level-9/shower-of-blood" data-cost="11 Ferocity"}
 
 
 *You shock your foes with the brutality of your [strike](../../../rule/combat/strike.md), resetting the balance of combat.*
@@ -88,7 +88,7 @@ Choose one of the following abilities.
 
 Choose one of the following abilities.
 
-### Death Rattle {data-scc="mcdm.heroes.v1/feature.ability.fury.level-9/death-rattle"}
+### Death Rattle {data-scc="mcdm.heroes.v1/feature.ability.fury.level-9/death-rattle" data-cost="11 Ferocity"}
 
 
 *You unleash an otherworldly cry that rips through your enemies, killing the weakest of them.*
@@ -103,7 +103,7 @@ Choose one of the following abilities.
 - **12-16:** 6 psychic damage; any target who is a minion is reduced to 0 [Stamina](../../../rule/health/stamina.md), as does one [winded](../../../rule/health/winded.md) target who is not a leader or solo creature
 - **17+:** 10 psychic damage; each target who is not a leader or solo creature is [winded](../../../rule/health/winded.md); any target who is a minion is reduced to 0 [Stamina](../../../rule/health/stamina.md), as does one [winded](../../../rule/health/winded.md) target who is not a leader or solo creature
 
-### Deluge {data-scc="mcdm.heroes.v1/feature.ability.fury.level-9/deluge"}
+### Deluge {data-scc="mcdm.heroes.v1/feature.ability.fury.level-9/deluge" data-cost="11 Ferocity"}
 
 
 *You summon your [primordial storm](../stormwight-kits/primordial-storm.md).*

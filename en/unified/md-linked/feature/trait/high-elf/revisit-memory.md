@@ -1,5 +1,6 @@
 ---
 ancestry: high-elf
+cost: 1 Point
 name: Revisit Memory
 scc: mcdm.heroes.v1/feature.trait.high-elf/revisit-memory
 type: trait

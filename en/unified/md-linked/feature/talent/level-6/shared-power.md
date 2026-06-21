@@ -1,5 +1,6 @@
 ---
 class: talent
+cost: 5 Clarity
 level: "6"
 name: Shared Power
 scc: mcdm.heroes.v1/feature.talent.level-6/shared-power

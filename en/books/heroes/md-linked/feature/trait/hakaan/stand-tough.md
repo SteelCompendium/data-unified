@@ -1,5 +1,6 @@
 ---
 ancestry: hakaan
+cost: 1 Point
 name: Stand Tough
 scc: mcdm.heroes.v1/feature.trait.hakaan/stand-tough
 type: trait

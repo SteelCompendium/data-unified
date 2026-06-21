@@ -1,6 +1,9 @@
 ---
 action_type: feature
 ancestry: wode-elf
+cost: 1 Point
+cost_amount: "1"
+cost_resource: Point
 feature_type: trait
 file_basename: forest-walk
 file_dpath: feature/trait/wode-elf
@@ -13,11 +16,13 @@ type: trait
 ---
 
 ```ds-feature
+cost: 1 Point
 effects:
     - effect: You can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) into and while within [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain).
 feature_type: trait
 metadata:
     ancestry: wode-elf
+    cost: 1 Point
     name: Forest Walk
     scc: mcdm.heroes.v1/feature.trait.wode-elf/forest-walk
     type: trait

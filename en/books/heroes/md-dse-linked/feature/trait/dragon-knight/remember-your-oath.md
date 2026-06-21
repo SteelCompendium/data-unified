@@ -1,6 +1,9 @@
 ---
 action_type: feature
 ancestry: dragon-knight
+cost: 1 Point
+cost_amount: "1"
+cost_resource: Point
 feature_type: trait
 file_basename: remember-your-oath
 file_dpath: feature/trait/dragon-knight
@@ -13,6 +16,7 @@ type: trait
 ---
 
 ```ds-feature
+cost: 1 Point
 effects:
     - effect: |-
         As a maneuver, you can recite the following oath. Until the start of your next [turn](../../../rule/combat/turn.md), whenever you make a [saving throw](../../../rule/general/saving-throw.md), you succeed on a 4 or higher.
@@ -21,6 +25,7 @@ effects:
 feature_type: trait
 metadata:
     ancestry: dragon-knight
+    cost: 1 Point
     name: Remember Your Oath
     scc: mcdm.heroes.v1/feature.trait.dragon-knight/remember-your-oath
     type: trait

@@ -1,5 +1,6 @@
 ---
 ancestry: human
+cost: 1 Point
 name: Perseverance
 scc: mcdm.heroes.v1/feature.trait.human/perseverance
 type: trait

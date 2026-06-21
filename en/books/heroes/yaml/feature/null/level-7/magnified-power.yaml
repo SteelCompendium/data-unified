@@ -1,3 +1,4 @@
+cost: 5 Discipline
 effects:
     - effect: If the ability has a [potency](scc.v1:mcdm.heroes.v1/rule.character/potency), you increase that [potency](scc.v1:mcdm.heroes.v1/rule.character/potency) by an amount equal to your [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition) score.
 feature_type: feature
