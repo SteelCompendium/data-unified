@@ -26,10 +26,10 @@ immunities:
     - fire R
 intuition: 0
 keywords:
-    - Elemental (Air
-    - Green
-    - Fire
-    - Void)
+    - Elemental (Air)
+    - Elemental (Green)
+    - Elemental (Fire)
+    - Elemental (Void)
 level: 0
 metadata:
     scc: mcdm.summoner.v1/monster.minion.summoner.elemental.statblock/light-of-the-sun

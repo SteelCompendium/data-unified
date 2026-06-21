@@ -15,8 +15,8 @@ immunities:
     - Sonic R
 intuition: 0
 keywords:
-    - Elemental (Fire
-    - Air)
+    - Elemental (Fire)
+    - Elemental (Air)
 level: 0
 metadata:
     scc: mcdm.summoner.v1/monster.minion.summoner.elemental.statblock/crux-of-ash

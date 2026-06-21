@@ -13,8 +13,8 @@ intuition: 0
 item_id: desolation-of-sand
 item_name: Desolation of Sand
 keywords:
-    - Elemental (Air
-    - Earth)
+    - Elemental (Air)
+    - Elemental (Earth)
 might: 1
 movement: Burrow
 name: Desolation of Sand

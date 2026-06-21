@@ -7,10 +7,10 @@ immunities:
     - Corruption R
 intuition: 0
 keywords:
-    - Elemental (Earth
-    - Fire
-    - Rot
-    - Water)
+    - Elemental (Earth)
+    - Elemental (Fire)
+    - Elemental (Rot)
+    - Elemental (Water)
 might: 4
 movement: —
 name: Knight of Blood

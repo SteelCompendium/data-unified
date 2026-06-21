@@ -13,9 +13,9 @@ intuition: 0
 item_id: iron-reaver
 item_name: Iron Reaver
 keywords:
-    - Elemental (Earth
-    - Fire
-    - Void)
+    - Elemental (Earth)
+    - Elemental (Fire)
+    - Elemental (Void)
 might: 3
 movement: Burrow
 name: Iron Reaver

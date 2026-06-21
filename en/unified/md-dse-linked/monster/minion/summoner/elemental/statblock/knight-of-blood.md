@@ -13,10 +13,10 @@ intuition: 0
 item_id: knight-of-blood
 item_name: Knight of Blood
 keywords:
-    - Elemental (Earth
-    - Fire
-    - Rot
-    - Water)
+    - Elemental (Earth)
+    - Elemental (Fire)
+    - Elemental (Rot)
+    - Elemental (Water)
 might: 4
 movement: —
 name: Knight of Blood

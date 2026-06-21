@@ -8,9 +8,9 @@ immunities:
     - Poison R
 intuition: 2
 keywords:
-    - Elemental (Green
-    - Water
-    - Rot)
+    - Elemental (Green)
+    - Elemental (Water)
+    - Elemental (Rot)
 might: 3
 movement: Swim
 name: Principle of the Swamp
