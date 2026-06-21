@@ -1,0 +1,64 @@
+---
+agility: 2
+ev: '-'
+free_strike: 2
+intuition: 1
+keywords:
+    - Bugbear
+    - Fey
+    - Goblin
+    - Humanoid
+level: 2
+might: 2
+name: Bugbear Commando
+organization: Retainer
+presence: 0
+reason: 0
+role: Ambusher
+scc: mcdm.monsters.v1/monster.retainer.statblock/bugbear-commando
+size: 1L
+speed: 5
+stability: 0
+stamina: "30"
+type: statblock
+---
+
+| Bugbear, Fey, Goblin, Humanoid |         -         |      Level 2      |   Ambusher Retainer   |         EV -         |
+|:------------------------------:|:-----------------:|:-----------------:|:---------------------:|:--------------------:|
+|         **1L**<br>Size         |  **5**<br>Speed   | **30**<br>Stamina |  **0**<br>Stability   | **2**<br>Free Strike |
+|       **-**<br>Immunity        | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
+|        **+2**<br>Might         | **+2**<br>Agility |  **0**<br>Reason  |  **+1**<br>Intuition  |  **0**<br>Presence   |
+
+> 🗡 **Bear Hug (Signature Ability)**
+>
+> | **Melee, Strike, Weapon** |               **Main action** |
+> |---------------------------|------------------------------:|
+> | **📏 Melee 1**            | **🎯 One creature or object** |
+>
+> **Power Roll + highest characteristic:**
+>
+> - **≤11:** 5 damage
+> - **12-16:** 6 damage
+> - **17+:** 11 damage
+>
+> **Effect:** If the commando started their turn with concealment from the target or hidden from them, they gain 1 [surge](scc.v1:mcdm.heroes.v1/rule.resource/surge) that can be used immediately.
+
+> 🗡 **Throw**
+>
+> | **Melee, Strike** |                  **Maneuver** |
+> |-------------------|------------------------------:|
+> | **📏 Melee 1**    | **🎯 One creature or object** |
+>
+> **Special:** The target must be [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) by the commando.
+>
+> **Effect:** The target is vertical pushed up to 5 squares. An ally doesn't take damage from being [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement) this way.
+
+> ❗️ **Catcher**
+>
+> | **Melee**      |                **Free triggered action** |
+> |----------------|-----------------------------------------:|
+> | **📏 Melee 1** | **🎯 The triggering creature or object** |
+>
+> **Trigger:** A size 1 creature or object is [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement) within distance, or a size 1 ally willingly moves within distance.
+>
+> **Effect:** The target is [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) by the commando.

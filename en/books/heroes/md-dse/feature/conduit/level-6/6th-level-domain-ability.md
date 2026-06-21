@@ -1,0 +1,46 @@
+---
+action_type: feature
+class: conduit
+feature_type: feature
+file_basename: 6th-level-domain-ability
+file_dpath: feature/conduit/level-6
+item_id: 6th-level-domain-ability
+item_name: 6th-Level Domain Ability
+level: "6"
+name: 6th-Level Domain Ability
+scc: mcdm.heroes.v1/feature.conduit.level-6/6th-level-domain-ability
+source: mcdm.heroes.v1
+type: feature
+---
+
+```ds-feature
+effects:
+    - effect: |-
+        Choose one of your domains. You gain a [heroic ability](scc.v1:mcdm.heroes.v1/rule.general/heroic-ability) from that domain, as shown on the 6th-Level [Conduit](scc.v1:mcdm.heroes.v1/class/conduit) Domain Abilities table.
+
+        ###### 6th-Level Conduit Domain Abilities Table
+
+        | Domain     | Ability                    |
+        |------------|----------------------------|
+        | Creation   | Gods' Machine              |
+        | Death      | [Aura of Souls](scc.v1:mcdm.heroes.v1/feature.ability.conduit.level-6/aura-of-souls)              |
+        | Fate       | [Your Story Ends Here](scc.v1:mcdm.heroes.v1/feature.ability.conduit.level-6/your-story-ends-here)       |
+        | Knowledge  | [Invocation of Undoing](scc.v1:mcdm.heroes.v1/feature.ability.conduit.level-6/invocation-of-undoing)      |
+        | Life       | [Revitalizing Grace](scc.v1:mcdm.heroes.v1/feature.ability.conduit.level-6/revitalizing-grace)         |
+        | Love       | [Lauded by God](scc.v1:mcdm.heroes.v1/feature.ability.conduit.level-6/lauded-by-god)              |
+        | Nature     | [Spirit Stampede](scc.v1:mcdm.heroes.v1/feature.ability.conduit.level-6/spirit-stampede)            |
+        | Protection | [Cuirass of the Gods](scc.v1:mcdm.heroes.v1/feature.ability.conduit.level-6/cuirass-of-the-gods)        |
+        | Storm      | [Lightning Lord](scc.v1:mcdm.heroes.v1/feature.ability.conduit.level-6/lightning-lord)             |
+        | Sun        | [Blessing of the Midday Sun](scc.v1:mcdm.heroes.v1/feature.ability.conduit.level-6/blessing-of-the-midday-sun) |
+        | Trickery   | [Invocation of Mystery](scc.v1:mcdm.heroes.v1/feature.ability.conduit.level-6/invocation-of-mystery)      |
+        | War        | [Blade of the Heavens](scc.v1:mcdm.heroes.v1/feature.ability.conduit.level-6/blade-of-the-heavens)       |
+feature_type: feature
+metadata:
+    class: conduit
+    level: "6"
+    name: 6th-Level Domain Ability
+    scc: mcdm.heroes.v1/feature.conduit.level-6/6th-level-domain-ability
+    type: feature
+name: 6th-Level Domain Ability
+type: feature
+```

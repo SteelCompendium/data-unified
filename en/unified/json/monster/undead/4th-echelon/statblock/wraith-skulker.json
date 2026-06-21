@@ -1,0 +1,67 @@
+{
+  "agility": 3,
+  "ev": "12 for four minions",
+  "features": [
+    {
+      "ability_type": "Signature Ability",
+      "distance": "Melee 1",
+      "effects": [
+        {
+          "roll": "Power Roll + 5",
+          "tier1": "4 cold damage; the wraith can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) 1 square",
+          "tier2": "7 cold damage; the wraith [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to 2 square",
+          "tier3": "9 cold damage; P \u003c 5 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends); the wraith [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to 3 squares"
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "🗡",
+      "keywords": [
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "name": "Draining Rake",
+      "target": "One creature or object per minion",
+      "type": "feature",
+      "usage": "Main action"
+    },
+    {
+      "effects": [
+        {
+          "effect": "The wraith can move through creatures and objects at their usual speed, but can't end their turn inside a creature or object. The first time in a round that the wraith moves through a creature, that creature takes 5 corruption damage. The wraith doesn't take damage from being [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement) into objects."
+        }
+      ],
+      "feature_type": "trait",
+      "icon": "⭐️",
+      "name": "Corruptive Phasing",
+      "type": "feature"
+    }
+  ],
+  "free_strike": 4,
+  "immunities": [
+    "Corruption 10",
+    "poison 10"
+  ],
+  "intuition": 1,
+  "keywords": [
+    "Undead"
+  ],
+  "level": 10,
+  "metadata": {
+    "scc": "mcdm.monsters.v1/monster.undead.4th-echelon.statblock/wraith-skulker",
+    "source": "mcdm.monsters.v1"
+  },
+  "might": -2,
+  "movement": "Fly, hover",
+  "name": "Wraith Skulker",
+  "organization": "Minion",
+  "presence": 5,
+  "reason": 1,
+  "role": "Harrier",
+  "size": "1M",
+  "speed": 7,
+  "stability": 1,
+  "stamina": "15",
+  "type": "statblock",
+  "with_captain": "+3 bonus to speed"
+}

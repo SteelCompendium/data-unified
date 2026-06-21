@@ -1,0 +1,44 @@
+{
+  "cost": "9 Discipline",
+  "distance": "Self",
+  "effects": [
+    {
+      "roll": "Power Roll + [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)",
+      "tier1": "Vertical [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5",
+      "tier2": "Vertical [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 7",
+      "tier3": "Vertical [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 9"
+    },
+    {
+      "effect": "This movement ignores [stability](scc.v1:mcdm.heroes.v1/rule.character/stability). If you [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) into another creature, you resolve damage to both of you as if your [force move](scc.v1:mcdm.heroes.v1/movement/forced-movement)ment had ended, but you keep moving through that creature's space.",
+      "name": "Effect"
+    }
+  ],
+  "feature_type": "ability",
+  "flavor": "You channel your discipline into momentum that defies gravity.",
+  "keywords": [
+    "Psionic"
+  ],
+  "metadata": {
+    "action_type": "Maneuver",
+    "class": "null",
+    "content": "\n*You channel your discipline into momentum that defies gravity.*\n\n| **Psionic** | **Maneuver** |\n|-------------|-------------:|\n| **📏 Self** |  **🎯 Self** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition):**\n\n- **≤11:** Vertical [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5\n- **12-16:** Vertical [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 7\n- **17+:** Vertical [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 9\n\n**Effect:** This movement ignores [stability](scc.v1:mcdm.heroes.v1/rule.character/stability). If you [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) into another creature, you resolve damage to both of you as if your [force move](scc.v1:mcdm.heroes.v1/movement/forced-movement)ment had ended, but you keep moving through that creature's space.",
+    "distance": "Self",
+    "feature_type": "ability",
+    "flavor": "You channel your discipline into momentum that defies gravity.",
+    "item_id": "gravitic-charge",
+    "item_name": "Gravitic Charge",
+    "keywords": [
+      "Psionic"
+    ],
+    "level": 6,
+    "scc": [
+      "mcdm.heroes.v1/feature.ability.null.level-6/gravitic-charge"
+    ],
+    "target": "Self",
+    "type": "feature/ability/null/level-6"
+  },
+  "name": "Gravitic Charge",
+  "target": "Self",
+  "type": "feature",
+  "usage": "Maneuver"
+}

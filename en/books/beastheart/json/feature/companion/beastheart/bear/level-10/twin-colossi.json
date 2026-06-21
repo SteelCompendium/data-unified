@@ -1,0 +1,22 @@
+{
+  "effects": [
+    {
+      "effect": "While the bear is rampaging, you gain a +1 bonus to distance with melee weapon abilities, your size increases to match the bear's size (to a maximum of 3), and your strikes deal an extra 5 damage."
+    }
+  ],
+  "feature_type": "feature",
+  "metadata": {
+    "action_type": "feature",
+    "class": "beastheart",
+    "feature_type": "feature",
+    "item_id": "twin-colossi",
+    "item_name": "Twin Colossi",
+    "level": 10,
+    "scc": [
+      "mcdm.beastheart.v1/feature.companion.beastheart.bear.level-10/twin-colossi"
+    ],
+    "type": "feature/companion/beastheart/bear/level-10"
+  },
+  "name": "Twin Colossi",
+  "type": "feature"
+}

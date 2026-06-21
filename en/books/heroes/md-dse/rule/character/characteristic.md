@@ -1,0 +1,16 @@
+---
+file_basename: characteristic
+file_dpath: rule/character
+item_id: characteristic
+item_name: Characteristics
+name: Characteristics
+scc: mcdm.heroes.v1/rule.character/characteristic
+source: mcdm.heroes.v1
+type: rule
+---
+
+Each creature in the game has five characteristics that represent their physical and mental prowess.
+
+#### Characteristic Scores
+
+Each [characteristic](scc.v1:mcdm.heroes.v1/rule.character/characteristic) has a score that runs from −5 to +5. The higher a score, the more impact a creature has with that [characteristic](scc.v1:mcdm.heroes.v1/rule.character/characteristic). A baby bunny rabbit would have a [Might](scc.v1:mcdm.heroes.v1/rule.character/might) score of −5, while an ancient dragon would have a [Might](scc.v1:mcdm.heroes.v1/rule.character/might) score of 5. The average [human](scc.v1:mcdm.heroes.v1/ancestry/human) has a score of 0 in all their [characteristics](scc.v1:mcdm.heroes.v1/rule.character/characteristic). [Characteristic](scc.v1:mcdm.heroes.v1/rule.character/characteristic) scores are added to [power rolls](scc.v1:mcdm.heroes.v1/rule.dice/power-roll)—the dice rolls you make whenever your character attempts a task with an uncertain outcome (see [Power Rolls](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) below).

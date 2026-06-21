@@ -1,0 +1,59 @@
+{
+  "ability": {
+    "ability_type": "Triggered",
+    "distance": "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 5",
+    "effects": [
+      {
+        "effect": "The target takes half the damage. You remain hidden.",
+        "name": "Effect"
+      }
+    ],
+    "feature_type": "ability",
+    "flavor": "A steely dagger from out of the blue knocks another weapon off course.",
+    "keywords": [
+      "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)",
+      "Weapon"
+    ],
+    "metadata": {
+      "ability_type": "Triggered",
+      "action_type": "Triggered",
+      "content": "\n*A steely dagger from out of the blue knocks another weapon off course.*\n\n| **[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged), Weapon** |   **Triggered** |\n|--------------------|----------------:|\n| **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 5**    | **🎯 One ally** |\n\n**Trigger:** The target takes damage from another creature's ability while you are hidden.\n\n**Effect:** The target takes half the damage. You remain hidden.",
+      "distance": "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 5",
+      "feature_type": "ability",
+      "flavor": "A steely dagger from out of the blue knocks another weapon off course.",
+      "item_id": "night-watch",
+      "item_name": "Night Watch",
+      "keywords": [
+        "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)",
+        "Weapon"
+      ],
+      "target": "One ally",
+      "type": "feature/ability/common"
+    },
+    "name": "Night Watch",
+    "target": "One ally",
+    "trigger": "The target takes damage from another creature's ability while you are hidden.",
+    "type": "feature",
+    "usage": "Triggered"
+  },
+  "effects": [
+    {
+      "effect": "Your sense for stealth shows those around you how to evade notice. While you are hidden, enemies take a [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) on [tests](scc.v1:mcdm.heroes.v1/rule.test/test) made to search for you or other hidden creatures within 10 squares of you.\n\nAdditionally, you have the following ability."
+    }
+  ],
+  "feature_type": "feature",
+  "metadata": {
+    "action_type": "feature",
+    "class": "shadow",
+    "feature_type": "feature",
+    "item_id": "night-watch",
+    "item_name": "Night Watch",
+    "level": 4,
+    "scc": [
+      "mcdm.heroes.v1/feature.shadow.level-4/night-watch"
+    ],
+    "type": "feature/shadow/level-4"
+  },
+  "name": "Night Watch",
+  "type": "feature"
+}

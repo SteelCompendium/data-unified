@@ -1,0 +1,28 @@
+---
+action_type: feature
+class: beastheart
+feature_type: feature
+file_basename: avatar-of-the-green
+file_dpath: feature/beastheart/level-9
+item_id: avatar-of-the-green
+item_name: Avatar of the Green
+level: "9"
+name: Avatar of the Green
+scc: mcdm.beastheart.v1/feature.beastheart.level-9/avatar-of-the-green
+source: mcdm.beastheart.v1
+type: feature
+---
+
+```ds-feature
+effects:
+    - effect: Your companion has transcended beasthood. Although they're still your faithful friend, they're also a vessel for nature's wisdom and memories. Your companion's Reason score increases to 1, or increases by 1 if it is already 1 or higher, and they learn every language you know. Your companion can communicate telepathically with any creature within 10 squares, using language as well as images and feelings. Additionally, you learn the [Nature](scc.v1:mcdm.heroes.v1/skill.lore/nature) skill and one other skill from the lore skill group.
+feature_type: feature
+metadata:
+    class: beastheart
+    level: "9"
+    name: Avatar of the Green
+    scc: mcdm.beastheart.v1/feature.beastheart.level-9/avatar-of-the-green
+    type: feature
+name: Avatar of the Green
+type: feature
+```

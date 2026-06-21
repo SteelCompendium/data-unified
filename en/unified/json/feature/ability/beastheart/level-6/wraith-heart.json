@@ -1,0 +1,39 @@
+{
+  "cost": "9 Ferocity",
+  "distance": "Self",
+  "effects": [
+    {
+      "effect": "You and your companion [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to your speeds. During this movement, you are both invisible, can move through enemies and objects, and ignore [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain). You each deal corruption damage equal to your own Intuition score to each enemy you pass through during this movement. You can both damage each enemy once this way.",
+      "name": "Effect"
+    }
+  ],
+  "feature_type": "ability",
+  "flavor": "You and your companion become soul-freezing wraiths.",
+  "keywords": [
+    "Magic"
+  ],
+  "metadata": {
+    "action_type": "Move",
+    "class": "beastheart",
+    "content": "*You and your companion become soul-freezing wraiths.*\n\n| **Magic**   |    **Move** |\n|-------------|------------:|\n| **📏 Self** | **🎯 Self** |\n\n**Effect:** You and your companion [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to your speeds. During this movement, you are both invisible, can move through enemies and objects, and ignore [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain). You each deal corruption damage equal to your own Intuition score to each enemy you pass through during this movement. You can both damage each enemy once this way.",
+    "distance": "Self",
+    "feature_type": "ability",
+    "flavor": "You and your companion become soul-freezing wraiths.",
+    "item_id": "wraith-heart",
+    "item_name": "Wraith Heart",
+    "keywords": [
+      "Magic"
+    ],
+    "level": 6,
+    "scc": [
+      "mcdm.beastheart.v1/feature.ability.beastheart.level-6/wraith-heart"
+    ],
+    "subclass": "prowler",
+    "target": "Self",
+    "type": "feature/ability/beastheart/level-6"
+  },
+  "name": "Wraith Heart",
+  "target": "Self",
+  "type": "feature",
+  "usage": "Move"
+}

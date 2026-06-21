@@ -1,0 +1,15 @@
+---
+file_basename: curse-of-poverty
+file_dpath: complication
+flavor: A soothsayer once predicted you would have a long life, even as they told you you'd never be rich. But you're determined to prove them wrong. You'll get rich or die trying!
+item_id: curse-of-poverty
+item_name: Curse of Poverty
+name: Curse of Poverty
+scc: mcdm.heroes.v1/complication/curse-of-poverty
+source: mcdm.heroes.v1
+type: complication
+---
+
+A soothsayer once predicted you would have a long life, even as they told you you'd never be rich. But you're determined to prove them wrong. You'll get rich or die trying!
+
+**Benefit and Drawback:** Whenever you take a [respite](scc.v1:mcdm.heroes.v1/rule.resource/respite) while your [Wealth](scc.v1:mcdm.heroes.v1/rule.resource/wealth) is higher than 1, some improbable event occurs that causes most of your money to vanish—including money you've hidden, loaned to others, or given away. Your [Wealth](scc.v1:mcdm.heroes.v1/rule.resource/wealth) is reduced to 1. For each point of [Wealth](scc.v1:mcdm.heroes.v1/rule.resource/wealth) you lose this way, your number of [Recoveries](scc.v1:mcdm.heroes.v1/rule.health/recoveries) increases by 1. Your [Recoveries](scc.v1:mcdm.heroes.v1/rule.health/recoveries) reset to their usual value the first time you take a [respite](scc.v1:mcdm.heroes.v1/rule.resource/respite) with fewer [Recoveries](scc.v1:mcdm.heroes.v1/rule.health/recoveries) than your maximum.

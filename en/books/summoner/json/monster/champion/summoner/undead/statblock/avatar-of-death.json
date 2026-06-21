@@ -1,0 +1,140 @@
+{
+  "agility": 2,
+  "cost": "9 essence for one champion",
+  "ev": "",
+  "features": [
+    {
+      "ability_type": "Signature Ability",
+      "distance": "Melee 2",
+      "effects": [
+        {
+          "roll": "2d10 + 5",
+          "tier1": "9 corruption [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage); M \u003c WEAK [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) ([save ends](scc.v1:mcdm.heroes.v1/rule.general/saving-throw))",
+          "tier2": "12 corruption [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage); M \u003c AVERAGE [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) ([save ends](scc.v1:mcdm.heroes.v1/rule.general/saving-throw))",
+          "tier3": "14 corruption [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage); M \u003c STRONG [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) ([save ends](scc.v1:mcdm.heroes.v1/rule.general/saving-throw))"
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "🏹",
+      "keywords": [
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "name": "Culling Scythe",
+      "target": "Two creatures or objects",
+      "type": "feature",
+      "usage": "Main action"
+    },
+    {
+      "effects": [
+        {
+          "effect": "The Avatar's melee [free strikes](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) P \u003c WEAK instantly reduce a [winded](scc.v1:mcdm.heroes.v1/rule.health/winded) non-leader or solo creature to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), including targets [winded](scc.v1:mcdm.heroes.v1/rule.health/winded) by the [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)."
+        }
+      ],
+      "feature_type": "trait",
+      "icon": "⭐️",
+      "name": "Revelation Strike",
+      "type": "feature"
+    },
+    {
+      "effects": [
+        {
+          "effect": "If the Avatar only targets one creature or object with a [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), they deal additional [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage) to the target equal to your [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason)."
+        }
+      ],
+      "feature_type": "trait",
+      "icon": "⭐️",
+      "name": "Champion's Ire",
+      "type": "feature"
+    },
+    {
+      "distance": "1 burst",
+      "effects": [
+        {
+          "effect": "**Trigger:** The Avatar takes [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage).\n**Effect:** M \u003c AVERAGE [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) ([EoT](scc.v1:mcdm.heroes.v1/rule.combat/end-of-turn))."
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "❗️",
+      "keywords": [
+        "Area"
+      ],
+      "name": "Dust and Rot",
+      "target": "Each enemy in the burst",
+      "type": "feature",
+      "usage": "Free triggered action"
+    },
+    {
+      "effects": [
+        {
+          "effect": "The Avatar is unaffected by [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain) and [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage) from [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement)."
+        }
+      ],
+      "feature_type": "trait",
+      "icon": "⭐️",
+      "name": "Drifting Spirit",
+      "type": "feature"
+    },
+    {
+      "effects": [
+        {
+          "effect": "The Avatar is now size 3."
+        }
+      ],
+      "feature_type": "trait",
+      "icon": "⭐️",
+      "name": "Size Increase",
+      "type": "feature"
+    },
+    {
+      "distance": "5 × 3 line within 1",
+      "effects": [
+        {
+          "effect": "**Champion Action**\n**Effect:** 9 holy [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage). Each target is vertically [pulled](scc.v1:mcdm.heroes.v1/movement/forced-movement) a number of squares equal to their [size](scc.v1:mcdm.heroes.v1/rule.character/size) straight down, ignoring [stability](scc.v1:mcdm.heroes.v1/rule.character/stability). If the target would be [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement) into the ground, they are buried beneath the ground instead."
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "❗️",
+      "keywords": [
+        "Area",
+        "Magic",
+        "Ranged"
+      ],
+      "name": "Gravemaker",
+      "target": "Each enemy and object in the line",
+      "type": "feature",
+      "usage": "1 Eidos"
+    }
+  ],
+  "flavor": "Stamina: Your maximum Stamina",
+  "free_strike": 9,
+  "immunities": [
+    "Corruption 5",
+    "poison 5"
+  ],
+  "intuition": 2,
+  "keywords": [
+    "Undead"
+  ],
+  "level": 0,
+  "metadata": {
+    "scc": "mcdm.summoner.v1/monster.champion.summoner.undead.statblock/avatar-of-death",
+    "source": "mcdm.summoner.v1"
+  },
+  "might": 5,
+  "movement": "Fly",
+  "name": "Avatar of Death",
+  "organization": "Champion",
+  "presence": 2,
+  "reason": 5,
+  "role": "",
+  "size": "2",
+  "speed": 6,
+  "stability": 3,
+  "stamina": "SPECIAL",
+  "type": "statblock",
+  "weaknesses": [
+    "—"
+  ]
+}

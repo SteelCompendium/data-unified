@@ -1,0 +1,22 @@
+{
+  "effects": [
+    {
+      "effect": "While the spark is rampaging, you and the spark can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to your speed as a free maneuver once on each of your turns."
+    }
+  ],
+  "feature_type": "feature",
+  "metadata": {
+    "action_type": "feature",
+    "class": "beastheart",
+    "feature_type": "feature",
+    "item_id": "lightning-speed",
+    "item_name": "Lightning Speed",
+    "level": 10,
+    "scc": [
+      "mcdm.beastheart.v1/feature.companion.beastheart.elemental-spark.level-10/lightning-speed"
+    ],
+    "type": "feature/companion/beastheart/elemental-spark/level-10"
+  },
+  "name": "Lightning Speed",
+  "type": "feature"
+}

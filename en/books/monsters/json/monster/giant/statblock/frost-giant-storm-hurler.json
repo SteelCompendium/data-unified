@@ -1,0 +1,121 @@
+{
+  "agility": -1,
+  "ev": "40",
+  "features": [
+    {
+      "ability_type": "Signature Ability",
+      "distance": "Ranged 15",
+      "effects": [
+        {
+          "roll": "Power Roll + 4",
+          "tier1": "13 cold damage",
+          "tier2": "18 cold damage; M \u003c 3 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)",
+          "tier3": "22 cold damage; M \u003c 4 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)"
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "🏹",
+      "keywords": [
+        "Magic",
+        "Ranged",
+        "Strike"
+      ],
+      "name": "Ice Javelins",
+      "target": "Two creatures or objects",
+      "type": "feature",
+      "usage": "Main action"
+    },
+    {
+      "cost": "3 Malice",
+      "distance": "Ranged 15",
+      "effects": [
+        {
+          "roll": "",
+          "tier1": "14 cold damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 4; [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)",
+          "tier2": "11 cold damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2; [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)",
+          "tier3": "7 cold damage"
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "🏹",
+      "keywords": [
+        "Magic",
+        "Ranged"
+      ],
+      "name": "Flower of Frost",
+      "target": "Special",
+      "type": "feature",
+      "usage": "Main action"
+    },
+    {
+      "distance": "Melee 1",
+      "effects": [
+        {
+          "effect": "**Effect:** The storm hurler and the target each [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to 6 squares while staying [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to each other. The target can then jump up to 5 squares and make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike)."
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "🗡",
+      "keywords": [
+        "Melee"
+      ],
+      "name": "Ice Dance",
+      "target": "One giant ally",
+      "type": "feature",
+      "usage": "Maneuver"
+    },
+    {
+      "distance": "Self",
+      "effects": [
+        {
+          "effect": "**Trigger:** The storm hurler is targeted by a ranged strike.\n**Effect:** The triggering strike has a double bane. If the strike obtains a tier 1 outcome, the storm hurler uses Ice Javelins against the creature who made it."
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "❗️",
+      "keywords": [
+        "-"
+      ],
+      "name": "Frozen Retribution",
+      "target": "Self",
+      "type": "feature",
+      "usage": "Triggered action"
+    },
+    {
+      "effects": [
+        {
+          "effect": "The storm hurler is surrounded by a snowstorm. Any enemy who starts their turn within 2 squares of the storm hurler can't [shift](scc.v1:mcdm.heroes.v1/movement/shifting)."
+        }
+      ],
+      "feature_type": "trait",
+      "icon": "⭐️",
+      "name": "Kingdom of Isolation",
+      "type": "feature"
+    }
+  ],
+  "free_strike": 9,
+  "immunities": [
+    "Cold 8"
+  ],
+  "intuition": 0,
+  "keywords": [
+    "Frost Giant",
+    "Giant"
+  ],
+  "level": 8,
+  "metadata": {
+    "scc": "mcdm.monsters.v1/monster.giant.statblock/frost-giant-storm-hurler",
+    "source": "mcdm.monsters.v1"
+  },
+  "might": 4,
+  "name": "Frost Giant Storm Hurler",
+  "organization": "Elite",
+  "presence": 0,
+  "reason": 0,
+  "role": "Artillery",
+  "size": "4",
+  "speed": 7,
+  "stability": 5,
+  "stamina": "180",
+  "type": "statblock"
+}

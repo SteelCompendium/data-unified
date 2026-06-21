@@ -1,0 +1,138 @@
+{
+  "agility": 1,
+  "ev": "28",
+  "features": [
+    {
+      "ability_type": "Signature Ability",
+      "distance": "Melee 2",
+      "effects": [
+        {
+          "roll": "Power Roll + 3",
+          "tier1": "9 damage",
+          "tier2": "14 damage; A \u003c 2 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)",
+          "tier3": "17 damage; A \u003c 3 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)"
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "🗡",
+      "keywords": [
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "name": "Infernal Pike",
+      "target": "Two creatures or objects",
+      "type": "feature",
+      "usage": "Main action"
+    },
+    {
+      "distance": "Melee 2",
+      "effects": [
+        {
+          "roll": "Power Roll + 3",
+          "tier1": "6 damage; M \u003c 1 [prone](scc.v1:mcdm.heroes.v1/condition/prone)",
+          "tier2": "11 damage; M \u003c 2 [prone](scc.v1:mcdm.heroes.v1/condition/prone) and can't stand (save ends)",
+          "tier3": "14 damage; M \u003c 3 [prone](scc.v1:mcdm.heroes.v1/condition/prone) and can't stand (save ends)"
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "🗡",
+      "keywords": [
+        "Charge",
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "name": "Writ of Execution",
+      "target": "Two creatures or objects",
+      "type": "feature",
+      "usage": "Main action"
+    },
+    {
+      "distance": "Melee 1",
+      "effects": [
+        {
+          "effect": "**Effect:** The target is [taunted](scc.v1:mcdm.heroes.v1/condition/taunted) by the legate (save ends). The legate can have only one creature [taunted](scc.v1:mcdm.heroes.v1/condition/taunted) at a time."
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "🗡",
+      "keywords": [
+        "Melee"
+      ],
+      "name": "Law and Order",
+      "target": "One creature",
+      "type": "feature",
+      "usage": "Maneuver"
+    },
+    {
+      "cost": "2 Malice",
+      "distance": "Ranged 5",
+      "effects": [
+        {
+          "roll": "",
+          "tier1": "The legate chooses a new target for the strike.",
+          "tier2": "The legate halves the triggering damage.",
+          "tier3": "The target takes a [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) on the strike."
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "❗️",
+      "keywords": [
+        "Magic",
+        "Ranged"
+      ],
+      "name": "Devilish Charm",
+      "target": "The triggering creature",
+      "type": "feature",
+      "usage": "Triggered action"
+    },
+    {
+      "effects": [
+        {
+          "effect": "The legate has damage immunity 3 while in one of the Seven Cities of Hell or within 10 squares of a non-[minion](scc.v1:mcdm.monsters.v1/rule.organization/minion) devil who is of a higher level than them."
+        }
+      ],
+      "feature_type": "trait",
+      "icon": "⭐️",
+      "name": "Hellish Bailiff",
+      "type": "feature"
+    },
+    {
+      "effects": [
+        {
+          "effect": "If a creature within 10 squares speaks the legate's true name, the legate loses their damage immunities, any nondamaging effects of their [signature ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability), and their Devilish Charm ability until the end of the encounter."
+        }
+      ],
+      "feature_type": "trait",
+      "icon": "⭐️",
+      "name": "True Name",
+      "type": "feature"
+    }
+  ],
+  "free_strike": 6,
+  "immunities": [
+    "Fire 5"
+  ],
+  "intuition": 1,
+  "keywords": [
+    "Devil",
+    "Infernal"
+  ],
+  "level": 5,
+  "metadata": {
+    "scc": "mcdm.monsters.v1/monster.devil.statblock/devil-legate",
+    "source": "mcdm.monsters.v1"
+  },
+  "might": 3,
+  "name": "Devil Legate",
+  "organization": "Elite",
+  "presence": 2,
+  "reason": 0,
+  "role": "Defender",
+  "size": "1M",
+  "speed": 6,
+  "stability": 2,
+  "stamina": "160",
+  "type": "statblock"
+}

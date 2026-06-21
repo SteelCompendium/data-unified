@@ -1,0 +1,79 @@
+{
+  "agility": 3,
+  "ev": "6 for four minions",
+  "features": [
+    {
+      "ability_type": "Signature Ability",
+      "distance": "Melee 1",
+      "effects": [
+        {
+          "roll": "Power Roll + 3",
+          "tier1": "2 corruption damage; slide 2",
+          "tier2": "4 corruption damage; vertical slide 2",
+          "tier3": "6 corruption damage; vertical slide 2"
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "🗡",
+      "keywords": [
+        "Magic",
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "name": "Soul Prism",
+      "target": "One creature or object per minion",
+      "type": "feature",
+      "usage": "Main action"
+    },
+    {
+      "effects": [
+        {
+          "effect": "Any enemy who starts their turn with two or more orliq [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to them is [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (EoT)."
+        }
+      ],
+      "feature_type": "trait",
+      "icon": "⭐️",
+      "name": "Imposing Energy",
+      "type": "feature"
+    },
+    {
+      "effects": [
+        {
+          "effect": "Any creature within 2 squares of the orliq can't be hidden from them."
+        }
+      ],
+      "feature_type": "trait",
+      "icon": "⭐️",
+      "name": "Soulsight",
+      "type": "feature"
+    }
+  ],
+  "free_strike": 2,
+  "intuition": 0,
+  "keywords": [
+    "Abyssal",
+    "Demon"
+  ],
+  "level": 4,
+  "metadata": {
+    "scc": "mcdm.monsters.v1/monster.demon.2nd-echelon.statblock/orliq",
+    "source": "mcdm.monsters.v1"
+  },
+  "might": -1,
+  "movement": "Fly",
+  "name": "Orliq",
+  "organization": "Minion",
+  "presence": -1,
+  "reason": 1,
+  "role": "Harrier",
+  "size": "1T",
+  "speed": 6,
+  "stability": 0,
+  "stamina": "8",
+  "type": "statblock",
+  "weaknesses": [
+    "Holy 5"
+  ],
+  "with_captain": "+2 bonus to speed"
+}

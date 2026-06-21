@@ -1,0 +1,9 @@
+{
+  "content": "*I was grappling with them, and when they died... I felt something happen. To me.*\n\n**Prerequisite:** You defeat a leader or solo creature who has at least one ability with the Psionic keyword, such as a voiceless talker evolutionist.\n\n**Effect:** Choose one of the following benefits:\n\n- *Foresight:* You don't take a [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) when using abilities against creatures with [concealment](scc.v1:mcdm.heroes.v1/rule.combat/concealment).\n- *Rogue [Talent](scc.v1:mcdm.heroes.v1/class/talent):* Choose one [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action) that the [talent](scc.v1:mcdm.heroes.v1/class/talent) class has access to at 1st level. You gain that ability regardless of whether your class and [subclass](scc.v1:mcdm.heroes.v1/rule.general/subclass) allow you to take it. If this ability allows you to gain or spend clarity, you can't do so unless you have the Clarity class feature.\n- *Telepathy:* As a maneuver, you communicate telepathically with a creature within 10 squares who understands a language you know. The creature can respond telepathically as part of the same maneuver.",
+  "effect": "Choose one of the following benefits:",
+  "flavor": "I was grappling with them, and when they died... I felt something happen. To me.",
+  "name": "Awakened",
+  "prerequisite": "You defeat a leader or solo creature who has at least one ability with the Psionic keyword, such as a voiceless talker evolutionist.",
+  "scc": "mcdm.heroes.v1/title/awakened",
+  "type": "title"
+}

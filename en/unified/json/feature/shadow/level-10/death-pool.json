@@ -1,0 +1,22 @@
+{
+  "effects": [
+    {
+      "effect": "The first time each [combat round](scc.v1:mcdm.heroes.v1/rule.combat/combat-round) that you deal damage incorporating 1 or more [surges](scc.v1:mcdm.heroes.v1/rule.resource/surge), you gain 3 insight instead of 2."
+    }
+  ],
+  "feature_type": "feature",
+  "metadata": {
+    "action_type": "feature",
+    "class": "shadow",
+    "feature_type": "feature",
+    "item_id": "death-pool",
+    "item_name": "Death Pool",
+    "level": 10,
+    "scc": [
+      "mcdm.heroes.v1/feature.shadow.level-10/death-pool"
+    ],
+    "type": "feature/shadow/level-10"
+  },
+  "name": "Death Pool",
+  "type": "feature"
+}

@@ -1,0 +1,21 @@
+---
+features:
+    - body: While the boar is rampaging, they have a +2 bonus to speed and a double edge on the Escape Grab maneuver.
+      level: 3
+      name: Greased Pig
+    - body: While the boar is rampaging, you can use their Gore maneuver, and you and the boar can [shift](../../../../movement/shifting.md) instead of move when using the Charge action or the Gore maneuver.
+      level: 6
+      name: Wild Rush
+    - body: Whenever you or the boar use an ability that deals damage while the boar is rampaging, you gain 10 temporary Stamina.
+      level: 10
+      name: Immortal Rage
+file_basename: boar
+file_dpath: monster/companion/beastheart/advancement-features
+item_id: boar
+item_name: Boar Advancement Features
+name: Boar Advancement Features
+scc: mcdm.beastheart.v1/monster.companion.beastheart.advancement-features/boar
+source: mcdm.beastheart.v1
+type: featureblock
+---
+

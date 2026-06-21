@@ -1,0 +1,37 @@
+agility: -2
+cost: 3 essence for two minions
+ev: ""
+features:
+    - effects:
+        - effect: The crux's melee [free strikes](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) M < AVERAGE automatically [hide](scc.v1:mcdm.heroes.v1/feature.common.maneuvers/hide) each ally from the target until the start of the crux's next turn, until the target uses a [maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn) to clear the soot, until the crux takes damage, or until the crux is destroyed.
+      feature_type: trait
+      icon: ⭐️
+      name: Soot Strike
+      type: feature
+flavor: The crux is a curtain of billowing hot ash with an avian head. They cover their victims in a burning cloak of charcoal and soot.
+free_strike: 5
+immunities:
+    - Fire R
+    - Sonic R
+intuition: 0
+keywords:
+    - Elemental (Fire
+    - Air)
+level: 0
+metadata:
+    scc: mcdm.summoner.v1/monster.minion.summoner.elemental.statblock/crux-of-ash
+    source: mcdm.summoner.v1
+might: -2
+movement: Fly
+name: Crux of Ash
+organization: Minion
+presence: 1
+reason: 0
+role: Ambusher
+size: 1M
+speed: 5
+stability: 0
+stamina: 6 | 6
+type: statblock
+weaknesses:
+    - —

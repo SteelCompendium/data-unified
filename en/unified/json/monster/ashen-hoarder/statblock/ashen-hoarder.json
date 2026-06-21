@@ -1,0 +1,228 @@
+{
+  "agility": -1,
+  "ev": "72",
+  "features": [
+    {
+      "effects": [
+        {
+          "effect": "**[End Effect](scc.v1:mcdm.monsters.v1/rule.monster/end-effect):** At the end of each of their turns, the ashen hoarder can take 10 damage to end one effect on them that can be ended by a [saving throw](scc.v1:mcdm.heroes.v1/rule.general/saving-throw). This damage can't be reduced in any way.\n**Solo Turns:** The ashen hoarder can take two turns each round. They can't take turns consecutively."
+        }
+      ],
+      "feature_type": "trait",
+      "icon": "☠️",
+      "name": "Solo Monster",
+      "type": "feature"
+    },
+    {
+      "ability_type": "Signature Ability",
+      "distance": "Melee 2",
+      "effects": [
+        {
+          "roll": "Power Roll + 4",
+          "tier1": "10 damage; if one target has M \u003c 2 they are [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends); if the other target has A \u003c 2 they are [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)",
+          "tier2": "15 damage; if one target has M \u003c 3 they are [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends); if the other target has A \u003c 3 they are [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)",
+          "tier3": "18 damage; M \u003c 4 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends); A \u003c 2 [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)"
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "🗡",
+      "keywords": [
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "name": "Claw and Blade",
+      "target": "Two creatures or objects",
+      "type": "feature",
+      "usage": "Main action"
+    },
+    {
+      "distance": "4 cube within 20",
+      "effects": [
+        {
+          "roll": "Power Roll + 4",
+          "tier1": "4 damage; A \u003c 2 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)",
+          "tier2": "8 damage; A \u003c 3 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)",
+          "tier3": "11 damage; A \u003c 4 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)"
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "🔳",
+      "keywords": [
+        "Area",
+        "Magic",
+        "Ranged"
+      ],
+      "name": "Corpse Bomb",
+      "target": "Each enemy in the area",
+      "type": "feature",
+      "usage": "Main Action"
+    },
+    {
+      "cost": "3 Malice",
+      "distance": "4 x 1 line within 1",
+      "effects": [
+        {
+          "roll": "Power Roll + 4",
+          "tier1": "6 corruption damage; M \u003c 2 the target is impaled (save ends)",
+          "tier2": "11 corruption damage; M \u003c 3 the target is impaled (save ends)",
+          "tier3": "14 corruption damage; M \u003c 4 the target is impaled (save ends)"
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "🔳",
+      "keywords": [
+        "Area",
+        "Weapon"
+      ],
+      "name": "Impale",
+      "target": "Each creature in the area",
+      "type": "feature",
+      "usage": "Main action"
+    },
+    {
+      "distance": "Self",
+      "effects": [
+        {
+          "effect": "**Effect:** The ashen hoarder moves up to twice their speed in a straight line. Each creature or object in the path of this movement is either [pushed](scc.v1:mcdm.heroes.v1/movement/forced-movement) into the nearest unoccupied space outside the path, or if they have M \u003c 3 is pushed forward until the movement ends. Any creature who is [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement) forward into an obstacle is [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)."
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "👤",
+      "keywords": [
+        "-"
+      ],
+      "name": "Bone Dozer",
+      "target": "Self",
+      "type": "feature",
+      "usage": "Maneuver"
+    },
+    {
+      "cost": "2 Malice",
+      "distance": "Self",
+      "effects": [
+        {
+          "effect": "**Trigger:** The ashen hoarder takes damage.\n**Effect:** The ashen hoarder halves the damage. If the ashen hoarder has one or more creatures impaled, the [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice) cost of this feature is reduced by 1 and one impaled creature takes the other half of the damage."
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "❗️",
+      "keywords": [
+        "-"
+      ],
+      "name": "Armor of Corpses",
+      "target": "Self",
+      "type": "feature",
+      "usage": "Triggered action"
+    },
+    {
+      "effects": [
+        {
+          "effect": "An adjacent enemy who [grabs](scc.v1:mcdm.heroes.v1/feature.common.maneuvers/grab) the ashen hoarder or uses a melee ability against them takes 3 damage."
+        }
+      ],
+      "feature_type": "trait",
+      "icon": "⭐️",
+      "name": "Bladed Body",
+      "type": "feature"
+    },
+    {
+      "effects": [
+        {
+          "effect": "When the ashen hoarder is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), they explode in a swirling singularity of bone shards and soul energy. Each creature within 5 squares of the ashen hoarder who has M \u003c 3 takes 11 corruption damage. A creature killed by this damage has their soul sucked into the vortex and lost somewhere in the Abyssal Wasteland, and can't be brought back to life until their soul is recovered."
+        }
+      ],
+      "feature_type": "trait",
+      "icon": "⭐️",
+      "name": "Soul Singularity",
+      "type": "feature"
+    },
+    {
+      "cost": "Villain Action 1",
+      "distance": "8 x 3 line within 1",
+      "effects": [
+        {
+          "roll": "Power Roll + 4",
+          "tier1": "6 damage, vertical push 2",
+          "tier2": "11 damage, vertical push 2",
+          "tier3": "14 damage, vertical push 3"
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "☠️",
+      "keywords": [
+        "Area",
+        "Weapon"
+      ],
+      "name": "Skeletal Eruption",
+      "target": "Each creature and object in the area",
+      "type": "feature",
+      "usage": "-"
+    },
+    {
+      "cost": "Villain Action 2",
+      "distance": "10 cube within 20",
+      "effects": [
+        {
+          "effect": "**Effect:** The ashen hoarder sprays out six size 1M zombie mines that appear in unoccupied squares within distance. Any enemy who moves adjacent to a zombie mine for the first time in a round or starts their turn there causes the mine to explode, dealing 4 corruption damage to each creature adjacent to the mine. Any other zombie mines adjacent to the exploding mine also explode. At the start of each of the ashen hoarder's turns, each unexploded zombie mine can be moved up to 2 squares."
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "☠️",
+      "keywords": [
+        "Area",
+        "Ranged"
+      ],
+      "name": "Mobile Mine Field",
+      "target": "Special",
+      "type": "feature",
+      "usage": "-"
+    },
+    {
+      "cost": "Villain Action 3",
+      "distance": "Self; see below",
+      "effects": [
+        {
+          "effect": "**Effect:** The ashen hoarder moves up to their speed and uses Claw and Blade with a double edge against one target. On a tier 3 outcome, the ashen hoarder can use Impale without spending Malice."
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "☠️",
+      "keywords": [
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "name": "Ossuary Assault",
+      "target": "Self",
+      "type": "feature",
+      "usage": "-"
+    }
+  ],
+  "free_strike": 6,
+  "intuition": 0,
+  "keywords": [
+    "Construct",
+    "Undead"
+  ],
+  "level": 4,
+  "metadata": {
+    "scc": "mcdm.monsters.v1/monster.ashen-hoarder.statblock/ashen-hoarder",
+    "source": "mcdm.monsters.v1"
+  },
+  "might": 4,
+  "movement": "Burrow",
+  "name": "Ashen Hoarder",
+  "organization": "Solo",
+  "presence": -5,
+  "reason": -2,
+  "role": "",
+  "size": "3",
+  "speed": 8,
+  "stability": 3,
+  "stamina": "350",
+  "type": "statblock",
+  "weaknesses": [
+    "Holy 5"
+  ]
+}

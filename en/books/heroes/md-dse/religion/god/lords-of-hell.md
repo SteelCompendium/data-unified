@@ -1,0 +1,23 @@
+---
+alignment: devil
+file_basename: lords-of-hell
+file_dpath: religion/god
+god_class: devil
+item_id: lords-of-hell
+item_name: Lords of Hell
+name: Lords of Hell
+pantheon: hell
+scc: mcdm.heroes.v1/religion.god/lords-of-hell
+source: mcdm.heroes.v1
+type: god
+---
+
+[Devil](scc.v1:mcdm.heroes.v1/ancestry/devil) heroes in [Orden](scc.v1:mcdm.heroes.v1/rule.world/orden) usually serve the gods and [saints](scc.v1:mcdm.heroes.v1/rule.world/saint) of the culture in which they were raised. Few [devils](scc.v1:mcdm.heroes.v1/ancestry/devil) in [Orden](scc.v1:mcdm.heroes.v1/rule.world/orden) are from the Seven Cities, most are descended from [devils](scc.v1:mcdm.heroes.v1/ancestry/devil) who were stranded on [Orden](scc.v1:mcdm.heroes.v1/rule.world/orden) hundreds or thousands of years ago. [Devils](scc.v1:mcdm.heroes.v1/ancestry/devil) who are from the Seven Cities have their own unique pantheon.
+
+The Seven Cities have [saints](scc.v1:mcdm.heroes.v1/rule.world/saint) just like [humans](scc.v1:mcdm.heroes.v1/ancestry/human) in [Orden](scc.v1:mcdm.heroes.v1/rule.world/orden) do but in place of gods, these [saints](scc.v1:mcdm.heroes.v1/rule.world/saint) serve the seven Archdukes of Hell, also known as Archdevils or the Lords of Hell. Unlike the gods of [Orden](scc.v1:mcdm.heroes.v1/rule.world/orden), the Lords of Hell are corporeal. Giant figures, 30 feet tall, who each sit upon the throne of their city, projecting their consciousness out into the world, dealing with politics, sorcery, and treachery, manifesting avatars when necessary. They are, effectively, the Gods of Hell.
+
+Like the other gods of the timescape, the Lords of Hell are too busy to attend to every petition and request and so employ [saints](scc.v1:mcdm.heroes.v1/rule.world/saint) just like other gods. Religion in Hell is superficially similar to religion among the peoples of [Orden](scc.v1:mcdm.heroes.v1/rule.world/orden). There are churches and rites and rituals, but [devils](scc.v1:mcdm.heroes.v1/ancestry/devil) tend to view attending church and performing the expected rituals at the appropriate times as akin to paying taxes. Annoying but necessary.
+
+#### Saints of Hell
+
+Like [Orden](scc.v1:mcdm.heroes.v1/rule.world/orden), there are dozens of [saints](scc.v1:mcdm.heroes.v1/rule.world/saint) in Hell, some obscure. These three are some of the most popular and the most likely [saints](scc.v1:mcdm.heroes.v1/rule.world/saint) for a [conduit](scc.v1:mcdm.heroes.v1/class/conduit) or [censor](scc.v1:mcdm.heroes.v1/class/censor) to follow.

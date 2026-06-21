@@ -1,0 +1,43 @@
+content: "The [Spellsword](scc.v1:mcdm.heroes.v1/kit/spellsword) kit combines [melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) [strikes](scc.v1:mcdm.heroes.v1/rule.combat/strike) and a little bit of magic, letting you create a warrior who doesn't have to choose between the incantation and the blade.\n\n##### Equipment\n\nYou wear light armor and wield a shield and a medium weapon.\n\n##### Kit Bonuses\n\n**[Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) [Bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties):** +6 per [echelon](scc.v1:mcdm.heroes.v1/rule.general/echelon)\n\n**[Speed](scc.v1:mcdm.heroes.v1/rule.character/speed) [Bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties):** +1\n\n**[Stability](scc.v1:mcdm.heroes.v1/rule.character/stability) [Bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties):** +1\n\n**[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) Damage [Bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties):** +2/+2/+2\n\n##### Signature Ability\n\n###### Leaping Lightning\n\n*Lightning jumps from your weapon as you strike to harm a nearby foe.*\n\n| **Magic, [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), Weapon** |               **Main action** |\n|----------------------------------|------------------------------:|\n| **\U0001F4CF [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1**                   | **\U0001F3AF One creature or object** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc.v1:mcdm.heroes.v1/rule.character/might), [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason), [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition), or [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence):**\n\n- **≤11:** 5 + M, R, I, or P lightning damage\n- **12-16:** 8 + M, R, I, or P lightning damage\n- **17+:** 11 + M, R, I, or P lightning damage\n\n**Effect:** A creature or object of your choice within 2 squares of the target takes lightning damage equal to the [characteristic](scc.v1:mcdm.heroes.v1/rule.character/characteristic) score used for this ability's [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll)."
+equipment_text: You wear light armor and wield a shield and a medium weapon.
+flavor: The Spellsword kit combines melee strikes and a little bit of magic, letting you create a warrior who doesn't have to choose between the incantation and the blade.
+name: Spellsword
+scc: mcdm.heroes.v1/kit/spellsword
+signature_ability:
+    ability_type: Signature
+    distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
+    effects:
+        - roll: Power Roll + [Might](scc.v1:mcdm.heroes.v1/rule.character/might), [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason), [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition), or [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence)
+          tier1: 5 + M, R, I, or P lightning damage
+          tier2: 8 + M, R, I, or P lightning damage
+          tier3: 11 + M, R, I, or P lightning damage
+        - effect: A creature or object of your choice within 2 squares of the target takes lightning damage equal to the [characteristic](scc.v1:mcdm.heroes.v1/rule.character/characteristic) score used for this ability's [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll).
+          name: Effect
+    feature_type: ability
+    flavor: Lightning jumps from your weapon as you strike to harm a nearby foe.
+    keywords:
+        - Magic
+        - '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)'
+        - '[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)'
+        - Weapon
+    metadata:
+        ability_type: Signature
+        action_type: Main action
+        content: "*Lightning jumps from your weapon as you strike to harm a nearby foe.*\n\n| **Magic, [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), Weapon** |               **Main action** |\n|----------------------------------|------------------------------:|\n| **\U0001F4CF [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1**                   | **\U0001F3AF One creature or object** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc.v1:mcdm.heroes.v1/rule.character/might), [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason), [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition), or [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence):**\n\n- **≤11:** 5 + M, R, I, or P lightning damage\n- **12-16:** 8 + M, R, I, or P lightning damage\n- **17+:** 11 + M, R, I, or P lightning damage\n\n**Effect:** A creature or object of your choice within 2 squares of the target takes lightning damage equal to the [characteristic](scc.v1:mcdm.heroes.v1/rule.character/characteristic) score used for this ability's [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll)."
+        distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
+        feature_type: ability
+        flavor: Lightning jumps from your weapon as you strike to harm a nearby foe.
+        item_id: leaping-lightning
+        item_name: Leaping Lightning
+        keywords:
+            - Magic
+            - '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)'
+            - '[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)'
+            - Weapon
+        target: One creature or object
+        type: feature/ability/common
+    name: Leaping Lightning
+    target: One creature or object
+    type: feature
+    usage: Main action
+type: kit

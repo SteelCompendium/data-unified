@@ -1,0 +1,93 @@
+{
+  "agility": 0,
+  "ev": "40",
+  "features": [
+    {
+      "ability_type": "Signature Ability",
+      "distance": "Melee 1 or ranged 10",
+      "effects": [
+        {
+          "roll": "Power Roll + 4",
+          "tier1": "12 holy damage; vertical [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2",
+          "tier2": "17 holy damage; vertical [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3",
+          "tier3": "21 holy damage; vertical [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 4"
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "⚔️",
+      "keywords": [
+        "Magic",
+        "Melee",
+        "Ranged",
+        "Strike"
+      ],
+      "name": "Celestial Furor",
+      "target": "Two creatures or objects",
+      "type": "feature",
+      "usage": "Main action"
+    },
+    {
+      "cost": "3 Malice",
+      "distance": "Ranged 10",
+      "effects": [
+        {
+          "effect": "**Effect:** Each target has a double edge on their next [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)."
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "🏹",
+      "keywords": [
+        "Magic",
+        "Ranged"
+      ],
+      "name": "Imbue with Power",
+      "target": "Self and five allies",
+      "type": "feature",
+      "usage": "Maneuver"
+    },
+    {
+      "effects": [
+        {
+          "effect": "Damage dealt to any ally [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the conduit is halved."
+        }
+      ],
+      "feature_type": "trait",
+      "icon": "⭐️",
+      "name": "Unwavering Defender",
+      "type": "feature"
+    },
+    {
+      "effects": [
+        {
+          "effect": "At the start of an encounter, the conduit chooses one creature within their [line of effect](scc.v1:mcdm.heroes.v1/rule.combat/line-of-effect). Both the conduit and the creature can add a d3 roll to power rolls they make against each other."
+        }
+      ],
+      "feature_type": "trait",
+      "icon": "⭐️",
+      "name": "Rivalry",
+      "type": "feature"
+    }
+  ],
+  "free_strike": 8,
+  "intuition": 4,
+  "keywords": [
+    "Humanoid",
+    "Rival"
+  ],
+  "level": 8,
+  "metadata": {
+    "scc": "mcdm.monsters.v1/monster.rival.3rd-echelon.statblock/rival-conduit",
+    "source": "mcdm.monsters.v1"
+  },
+  "might": 3,
+  "name": "Rival Conduit",
+  "organization": "Elite",
+  "presence": 2,
+  "reason": 1,
+  "role": "Support",
+  "size": "1M",
+  "speed": 5,
+  "stability": 1,
+  "stamina": "200",
+  "type": "statblock"
+}

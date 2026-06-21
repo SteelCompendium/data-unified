@@ -1,0 +1,46 @@
+{
+  "cost": "5 Clarity",
+  "distance": "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10",
+  "effects": [
+    {
+      "roll": "Power Roll + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason)",
+      "tier1": "6 + R psychic damage; I \u003c WEAK, [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)",
+      "tier2": "10 + R psychic damage; I \u003c AVERAGE, [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)",
+      "tier3": "14 + R psychic damage; I \u003c STRONG, [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)"
+    }
+  ],
+  "feature_type": "ability",
+  "flavor": "You overload their senses, turning all their subconscious thoughts into conscious ones.",
+  "keywords": [
+    "Psionic",
+    "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)",
+    "[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)",
+    "Telepathy"
+  ],
+  "metadata": {
+    "action_type": "Main action",
+    "class": "talent",
+    "content": "\n*You overload their senses, turning all their subconscious thoughts into conscious ones.*\n\n| **Psionic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), Telepathy** |     **Main action** |\n|----------------------------------------|--------------------:|\n| **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**                       | **🎯 One creature** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason):**\n\n- **≤11:** 6 + R psychic damage; I \u003c WEAK, [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)\n- **12-16:** 10 + R psychic damage; I \u003c AVERAGE, [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)\n- **17+:** 14 + R psychic damage; I \u003c STRONG, [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)\n\n**Strained:** You start crying, and you can't use [triggered actions](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action) or make [free strikes](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) until the end of the target's next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn).",
+    "distance": "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10",
+    "feature_type": "ability",
+    "flavor": "You overload their senses, turning all their subconscious thoughts into conscious ones.",
+    "item_id": "overwhelm",
+    "item_name": "Overwhelm",
+    "keywords": [
+      "Psionic",
+      "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)",
+      "[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)",
+      "Telepathy"
+    ],
+    "level": 2,
+    "scc": [
+      "mcdm.heroes.v1/feature.ability.talent.level-2/overwhelm"
+    ],
+    "target": "One creature",
+    "type": "feature/ability/talent/level-2"
+  },
+  "name": "Overwhelm",
+  "target": "One creature",
+  "type": "feature",
+  "usage": "Main action"
+}

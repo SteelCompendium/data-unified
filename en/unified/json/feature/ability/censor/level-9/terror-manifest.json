@@ -1,0 +1,48 @@
+{
+  "cost": "11 Wrath",
+  "distance": "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10",
+  "effects": [
+    {
+      "roll": "Power Roll + [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence)",
+      "tier1": "7 + P psychic damage; P \u003c WEAK, [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)",
+      "tier2": "10 + P psychic damage; P \u003c AVERAGE, [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)",
+      "tier3": "13 + P psychic damage; P \u003c STRONG, [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)"
+    },
+    {
+      "effect": "While [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) this way, if a target who is a leader or solo creature is [winded](scc.v1:mcdm.heroes.v1/rule.health/winded), they take an extra 25 psychic damage. If a target [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) this way is not a leader or solo creature and is [winded](scc.v1:mcdm.heroes.v1/rule.health/winded), they are reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).",
+      "name": "Effect"
+    }
+  ],
+  "feature_type": "ability",
+  "flavor": "\"I know what you fear.\"",
+  "keywords": [
+    "Magic",
+    "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)",
+    "[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)"
+  ],
+  "metadata": {
+    "action_type": "Main action",
+    "class": "censor",
+    "content": "\n*\"I know what you fear.\"*\n\n| **Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)**  |     **Main action** |\n|----------------------------|--------------------:|\n| **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**           | **🎯 One creature** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence):**\n\n- **≤11:** 7 + P psychic damage; P \u003c WEAK, [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)\n- **12-16:** 10 + P psychic damage; P \u003c AVERAGE, [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)\n- **17+:** 13 + P psychic damage; P \u003c STRONG, [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)\n\n**Effect:** While [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) this way, if a target who is a leader or solo creature is [winded](scc.v1:mcdm.heroes.v1/rule.health/winded), they take an extra 25 psychic damage. If a target [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) this way is not a leader or solo creature and is [winded](scc.v1:mcdm.heroes.v1/rule.health/winded), they are reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).",
+    "distance": "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10",
+    "feature_type": "ability",
+    "flavor": "\"I know what you fear.\"",
+    "item_id": "terror-manifest",
+    "item_name": "Terror Manifest",
+    "keywords": [
+      "Magic",
+      "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)",
+      "[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)"
+    ],
+    "level": 9,
+    "scc": [
+      "mcdm.heroes.v1/feature.ability.censor.level-9/terror-manifest"
+    ],
+    "target": "One creature",
+    "type": "feature/ability/censor/level-9"
+  },
+  "name": "Terror Manifest",
+  "target": "One creature",
+  "type": "feature",
+  "usage": "Main action"
+}

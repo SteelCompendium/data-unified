@@ -1,0 +1,15 @@
+effects:
+    - effect: 'You gain one skill of your choice. See Skills in Chapter 9: [Tests](scc.v1:mcdm.heroes.v1/chapter/tests).'
+feature_type: feature
+metadata:
+    action_type: feature
+    class: "null"
+    feature_type: feature
+    item_id: skill
+    item_name: Skill
+    level: 4
+    scc:
+        - mcdm.heroes.v1/feature.null.level-4/skill
+    type: feature/null/level-4
+name: Skill
+type: feature

@@ -1,0 +1,15 @@
+effects:
+    - effect: While the boar is rampaging, they have a +2 bonus to speed and a double edge on the Escape Grab maneuver.
+feature_type: feature
+metadata:
+    action_type: feature
+    class: beastheart
+    feature_type: feature
+    item_id: greased-pig
+    item_name: Greased Pig
+    level: 3
+    scc:
+        - mcdm.beastheart.v1/feature.companion.beastheart.boar.level-3/greased-pig
+    type: feature/companion/beastheart/boar/level-3
+name: Greased Pig
+type: feature

@@ -1,0 +1,13 @@
+effects:
+    - effect: The magic coursing through your veins makes you run faster in the heat of battle. The first time in any [combat round](scc.v1:mcdm.heroes.v1/rule.combat/combat-round) that you take damage, you gain a +2 [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to [speed](scc.v1:mcdm.heroes.v1/rule.character/speed) until the end of the round.
+feature_type: trait
+metadata:
+    action_type: feature
+    feature_type: trait
+    item_id: bloodfire-rush
+    item_name: Bloodfire Rush
+    scc:
+        - mcdm.heroes.v1/feature.trait.orc/bloodfire-rush
+    type: feature/trait/orc
+name: Bloodfire Rush
+type: feature

@@ -1,0 +1,22 @@
+{
+  "effects": [
+    {
+      "effect": "Your [troubadour class act](scc.v1:mcdm.heroes.v1/feature.troubadour.level-1/troubadour-class-act) grants you a feature, as shown on the 3rd-Level Class Act Features table.\n\n###### 3rd-Level Class Act Features Table\n\n| Class Act  | Features     |\n|------------|--------------|\n| Auteur     | [Missed Cue](scc.v1:mcdm.heroes.v1/feature.troubadour.level-3/missed-cue)   |\n| Duelist    | Foil         |\n| Virtuoso   | [Second Album](scc.v1:mcdm.heroes.v1/feature.troubadour.level-3/second-album) |"
+    }
+  ],
+  "feature_type": "feature",
+  "metadata": {
+    "action_type": "feature",
+    "class": "troubadour",
+    "feature_type": "feature",
+    "item_id": "3rd-level-class-act-feature",
+    "item_name": "3rd-Level Class Act Feature",
+    "level": 3,
+    "scc": [
+      "mcdm.heroes.v1/feature.troubadour.level-3/3rd-level-class-act-feature"
+    ],
+    "type": "feature/troubadour/level-3"
+  },
+  "name": "3rd-Level Class Act Feature",
+  "type": "feature"
+}

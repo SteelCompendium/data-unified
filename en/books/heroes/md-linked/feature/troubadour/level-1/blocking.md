@@ -1,0 +1,20 @@
+---
+class: troubadour
+level: "1"
+name: Blocking
+scc: mcdm.heroes.v1/feature.troubadour.level-1/blocking
+type: feature
+---
+
+You have the following performance ability, which is usable with your [Routines](routines.md) feature.
+
+## Blocking {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-1/blocking"}
+
+
+*No, no, no, you lose the audience that way. Try it like this...*
+
+| **Area, Magic, Performance** |                    **No action** |
+|------------------------------|---------------------------------:|
+| **📏 2 [aura](../../../rule/combat/aura.md)**                | **🎯 Each creature in the area** |
+
+**Effect:** At the end of each of your [turns](../../../rule/combat/turn.md) while this performance is active, you can choose up to a number of targets equal to your [Presence](../../../rule/character/presence.md) score and [teleport](../../../movement/teleport.md) those targets to unoccupied spaces in the area. A target can't be [teleport](../../../movement/teleport.md)ed in a way that would harm them (such as over a cliff), leave them [dying](../../../rule/health/dying.md), or result in them suffering a [condition](../../../rule/combat/condition.md) or other negative effect.

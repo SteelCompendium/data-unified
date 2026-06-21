@@ -1,0 +1,105 @@
+{
+  "agility": 2,
+  "ev": "28",
+  "features": [
+    {
+      "ability_type": "Signature Ability",
+      "distance": "Ranged 10",
+      "effects": [
+        {
+          "roll": "Power Roll + 3",
+          "tier1": "9 damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1; M \u003c 1 3 acid damage",
+          "tier2": "14 damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2; M \u003c 2 5 acid damage",
+          "tier3": "17 damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3; M \u003c 3 7 acid damage"
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "🏹",
+      "keywords": [
+        "Green",
+        "Magic",
+        "Ranged",
+        "Strike"
+      ],
+      "name": "The Thriving Wilds",
+      "target": "Two creatures or objects",
+      "type": "feature",
+      "usage": "Main action"
+    },
+    {
+      "cost": "4 Malice",
+      "distance": "4 cube within 10",
+      "effects": [
+        {
+          "roll": "Power Roll + 3",
+          "tier1": "5 damage",
+          "tier2": "9 damage; [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (EoT)",
+          "tier3": "11 damage; [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)"
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "🔳",
+      "keywords": [
+        "Area",
+        "Green",
+        "Magic",
+        "Ranged"
+      ],
+      "name": "The Depths Hunger",
+      "target": "Each enemy in the area",
+      "type": "feature",
+      "usage": "Main action"
+    },
+    {
+      "distance": "Self",
+      "effects": [
+        {
+          "effect": "**Trigger:** The elementalist takes damage.\n**Effect:** The elementalist can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) up to 3 squares. Each creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the space they leave takes 3 corruption damage."
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "❗️",
+      "keywords": [
+        "Magic",
+        "Void"
+      ],
+      "name": "Fissures of Darkness",
+      "target": "Self",
+      "type": "feature",
+      "usage": "Triggered action"
+    },
+    {
+      "effects": [
+        {
+          "effect": "At the start of an encounter, the elementalist chooses one creature within their [line of effect](scc.v1:mcdm.heroes.v1/rule.combat/line-of-effect). Both the elementalist and the creature can add a d3 roll to power rolls they make against each other."
+        }
+      ],
+      "feature_type": "trait",
+      "icon": "⭐️",
+      "name": "Rivalry",
+      "type": "feature"
+    }
+  ],
+  "free_strike": 6,
+  "intuition": 2,
+  "keywords": [
+    "Humanoid",
+    "Rival"
+  ],
+  "level": 5,
+  "metadata": {
+    "scc": "mcdm.monsters.v1/monster.rival.2nd-echelon.statblock/rival-elementalist",
+    "source": "mcdm.monsters.v1"
+  },
+  "might": 0,
+  "name": "Rival Elementalist",
+  "organization": "Elite",
+  "presence": 0,
+  "reason": 3,
+  "role": "Controller",
+  "size": "1M",
+  "speed": 5,
+  "stability": 1,
+  "stamina": "120",
+  "type": "statblock"
+}

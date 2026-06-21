@@ -1,0 +1,134 @@
+{
+  "agility": 3,
+  "ev": "32",
+  "features": [
+    {
+      "ability_type": "Signature Ability",
+      "distance": "Ranged 10",
+      "effects": [
+        {
+          "roll": "Power Roll + 3",
+          "tier1": "11 damage",
+          "tier2": "19 damage; the strike spreads 1 square",
+          "tier3": "22 damage; the strike spreads 2 squares"
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "🏹",
+      "keywords": [
+        "Psionic",
+        "Ranged",
+        "Strike",
+        "Weapon"
+      ],
+      "name": "Psionic Rifle Burst",
+      "target": "One creature or object",
+      "type": "feature",
+      "usage": "Main action"
+    },
+    {
+      "distance": "10 x 1 line within 10",
+      "effects": [
+        {
+          "roll": "Power Roll + 3",
+          "tier1": "6 lightning damage",
+          "tier2": "10 lightning damage; I \u003c 2 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)",
+          "tier3": "13 lightning damage; I \u003c 3 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)"
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "🔳",
+      "keywords": [
+        "Area",
+        "Psionic"
+      ],
+      "name": "Mind Jolt",
+      "target": "Each enemy in the area",
+      "type": "feature",
+      "usage": "Main action"
+    },
+    {
+      "distance": "Ranged 10",
+      "effects": [
+        {
+          "effect": "**Effect:** Until the start of the artillerist's next turn, the next psionic ability used against the target automatically treats its initial power roll as a 17. The creature using the ability can still roll to determine if they score a critical hit."
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "🏹",
+      "keywords": [
+        "Ranged"
+      ],
+      "name": "In Our Sights",
+      "target": "One creature",
+      "type": "feature",
+      "usage": "Maneuver"
+    },
+    {
+      "cost": "1 Malice",
+      "distance": "Self",
+      "effects": [
+        {
+          "effect": "**Trigger:** The artillerist takes damage.\n**Effect:** The artillerist can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) up to 5 squares and ignores any effects associated with the damage."
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "❗️",
+      "keywords": [
+        "-"
+      ],
+      "name": "Tactical Reposition",
+      "target": "Self",
+      "type": "feature",
+      "usage": "Triggered Action"
+    },
+    {
+      "effects": [
+        {
+          "effect": "Whenever a non-[minion](scc.v1:mcdm.monsters.v1/rule.organization/minion) voiceless talker within 5 squares of the artillerist uses a psionic ability, they can do so as if they were in the artillerist's space."
+        }
+      ],
+      "feature_type": "trait",
+      "icon": "⭐️",
+      "name": "Psionic Conductor",
+      "type": "feature"
+    },
+    {
+      "effects": [
+        {
+          "effect": "The artillerist ignores invisibility, cover, and concealment. A creature can't hide from the artillerist while the artillerist has line of effect to the."
+        }
+      ],
+      "feature_type": "trait",
+      "icon": "⭐️",
+      "name": "Locked On",
+      "type": "feature"
+    }
+  ],
+  "free_strike": 7,
+  "immunities": [
+    "Psychic 6"
+  ],
+  "intuition": 2,
+  "keywords": [
+    "Horror",
+    "Voiceless Talker"
+  ],
+  "level": 6,
+  "metadata": {
+    "scc": "mcdm.monsters.v1/monster.voiceless-talker.statblock/voiceless-talker-artillerist",
+    "source": "mcdm.monsters.v1"
+  },
+  "might": 0,
+  "movement": "Hover, teleport",
+  "name": "Voiceless Talker Artillerist",
+  "organization": "Elite",
+  "presence": 1,
+  "reason": 3,
+  "role": "Artillery",
+  "size": "1M",
+  "speed": 5,
+  "stability": 2,
+  "stamina": "140",
+  "type": "statblock"
+}

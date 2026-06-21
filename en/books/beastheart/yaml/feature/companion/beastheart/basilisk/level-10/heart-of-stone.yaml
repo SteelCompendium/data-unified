@@ -1,0 +1,15 @@
+effects:
+    - effect: While the basilisk is rampaging, you and the basilisk have damage immunity 10 as you become nearly impervious living statues.
+feature_type: feature
+metadata:
+    action_type: feature
+    class: beastheart
+    feature_type: feature
+    item_id: heart-of-stone
+    item_name: Heart of Stone
+    level: 10
+    scc:
+        - mcdm.beastheart.v1/feature.companion.beastheart.basilisk.level-10/heart-of-stone
+    type: feature/companion/beastheart/basilisk/level-10
+name: Heart of Stone
+type: feature

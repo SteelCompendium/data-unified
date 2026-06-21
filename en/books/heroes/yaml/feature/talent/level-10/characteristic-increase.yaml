@@ -1,0 +1,15 @@
+effects:
+    - effect: Your [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) and [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence) scores each increase to 5.
+feature_type: feature
+metadata:
+    action_type: feature
+    class: talent
+    feature_type: feature
+    item_id: characteristic-increase
+    item_name: Characteristic Increase
+    level: 10
+    scc:
+        - mcdm.heroes.v1/feature.talent.level-10/characteristic-increase
+    type: feature/talent/level-10
+name: Characteristic Increase
+type: feature

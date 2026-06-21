@@ -1,0 +1,66 @@
+{
+  "features": [
+    {
+      "distance": "Self",
+      "icon": "👤",
+      "keywords": [
+        "-"
+      ],
+      "level": 4,
+      "name": "Boost",
+      "sections": [
+        {
+          "label": "Effect",
+          "text": "If the sidekick's mentor moves [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the sidekick at any point during the mentor's turn, the mentor gains a +1 bonus to speed and can automatically climb at full speed while moving until the end of their turn."
+        }
+      ],
+      "target": "Self",
+      "usage": "Maneuver"
+    },
+    {
+      "cost": "Encounter",
+      "distance": "3 cube within 3",
+      "icon": "🔳",
+      "keywords": [
+        "Area",
+        "Ranged"
+      ],
+      "level": 7,
+      "name": "Bug Bag",
+      "power_roll": {
+        "formula": "+ highest characteristic",
+        "tiers": {
+          "high": "13 poison damage; M \u003c STRONG [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)",
+          "low": "6 poison damage; M \u003c WEAK [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)",
+          "mid": "9 poison damage; M \u003c AVERAGE [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)"
+        }
+      },
+      "target": "Each creature in the area",
+      "usage": "Main action"
+    },
+    {
+      "cost": "Encounter",
+      "distance": "Ranged 10",
+      "icon": "🏹",
+      "keywords": [
+        "Ranged"
+      ],
+      "level": 10,
+      "name": "Triumphant Squeak",
+      "sections": [
+        {
+          "label": "Effect",
+          "text": "Each target can spend a [Recovery](scc.v1:mcdm.heroes.v1/rule.health/recoveries), and ends the [dazed](scc.v1:mcdm.heroes.v1/condition/dazed), [frightened](scc.v1:mcdm.heroes.v1/condition/frightened), and [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) conditions on themself."
+        }
+      ],
+      "target": "Self and each ally",
+      "usage": "Maneuver"
+    }
+  ],
+  "metadata": {
+    "scc": "mcdm.monsters.v1/monster.retainer.advancement-features/radenwight-sidekick",
+    "source": "mcdm.monsters.v1"
+  },
+  "name": "Radenwight Sidekick Advancement Features",
+  "type": "featureblock"
+}

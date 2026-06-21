@@ -1,0 +1,48 @@
+{
+  "cost": "11 Insight",
+  "distance": "[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1",
+  "effects": [
+    {
+      "roll": "Power Roll + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)",
+      "tier1": "15 + A damage",
+      "tier2": "21 + A damage",
+      "tier3": "28 + A damage"
+    },
+    {
+      "effect": "If you are disguised as a creature the target knew using your [I'm No Threat](scc.v1:mcdm.heroes.v1/feature.ability.shadow.level-1/im-no-threat) ability, this ability deals extra damage equal to three times your [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility) score.",
+      "name": "Effect"
+    }
+  ],
+  "feature_type": "ability",
+  "flavor": "After everything you've been through together, you twist the blade and make the pain extra personal.",
+  "keywords": [
+    "[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)",
+    "[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)",
+    "Weapon"
+  ],
+  "metadata": {
+    "action_type": "Main action",
+    "class": "shadow",
+    "content": "\n*After everything you've been through together, you twist the blade and make the pain extra personal.*\n\n| **[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), Weapon** |               **Main action** |\n|---------------------------|------------------------------:|\n| **📏 [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1**            | **🎯 One creature or object** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility):**\n\n- **≤11:** 15 + A damage\n- **12-16:** 21 + A damage\n- **17+:** 28 + A damage\n\n**Effect:** If you are disguised as a creature the target knew using your [I'm No Threat](scc.v1:mcdm.heroes.v1/feature.ability.shadow.level-1/im-no-threat) ability, this ability deals extra damage equal to three times your [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility) score.",
+    "distance": "[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1",
+    "feature_type": "ability",
+    "flavor": "After everything you've been through together, you twist the blade and make the pain extra personal.",
+    "item_id": "it-was-me-all-along",
+    "item_name": "It Was Me All Along",
+    "keywords": [
+      "[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)",
+      "[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)",
+      "Weapon"
+    ],
+    "level": 9,
+    "scc": [
+      "mcdm.heroes.v1/feature.ability.shadow.level-9/it-was-me-all-along"
+    ],
+    "target": "One creature or object",
+    "type": "feature/ability/shadow/level-9"
+  },
+  "name": "It Was Me All Along",
+  "target": "One creature or object",
+  "type": "feature",
+  "usage": "Main action"
+}

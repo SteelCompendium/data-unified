@@ -1,0 +1,287 @@
+---
+class: elementalist
+level: "1"
+name: Elementalist Abilities
+scc: mcdm.heroes.v1/feature.elementalist.level-1/elementalist-abilities
+type: feature
+---
+
+Your understanding of elemental magic grants you unique abilities, letting you damage, move, and debuff your enemies, empower your allies, and alter the terrain around you. You can select abilities from any [elemental specialization](elemental-specialization.md) to broaden your potential, or you can focus on abilities tied to your chosen specialization to establish your mastery of elemental power.
+
+## Signature Abilities
+
+Choose two [signature abilities](../../../rule/combat/signature-ability.md) from the following options. [Signature abilities](../../../rule/combat/signature-ability.md) can be used at will. (*Quick Build:* [Bifurcated Incineration](../../ability/elementalist/level-1/bifurcated-incineration.md), [Viscous Fire](../../ability/elementalist/level-1/viscous-fire.md).)
+
+### Afflict a Bountiful Decay {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-1/afflict-a-bountiful-decay"}
+
+
+*Your curse causes your foe's flesh to rot off as spores that aid your allies.*
+
+| **Green, Magic, [Ranged](../../../rule/combat/ranged.md), Rot, [Strike](../../../rule/combat/strike.md)**  |     **Main action** |
+|----------------------------------------|--------------------:|
+| **📏 [Ranged](../../../rule/combat/ranged.md) 10**                       | **🎯 One creature** |
+
+**[Power Roll](../../../rule/dice/power-roll.md) + [Reason](../../../rule/character/reason.md):**
+
+- **≤11:** 2 + R corruption damage
+- **12-16:** 4 + R corruption damage
+- **17+:** 6 + R corruption damage
+
+**Effect:** Choose yourself or one ally within [distance](../../../rule/combat/distance.md). That character can end one effect on them that is ended by a [saving throw](../../../rule/general/saving-throw.md) or that ends at the end of their [turn](../../../rule/combat/turn.md).
+
+### Bifurcated Incineration {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-1/bifurcated-incineration"}
+
+
+*Two jets of flame lance out at your command.*
+
+| **Fire, Magic, [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md)** |                 **Main action** |
+|---------------------------------|--------------------------------:|
+| **📏 [Ranged](../../../rule/combat/ranged.md) 10**                | **🎯 Two creatures or objects** |
+
+**[Power Roll](../../../rule/dice/power-roll.md) + [Reason](../../../rule/character/reason.md):**
+
+- **≤11:** 2 fire damage
+- **12-16:** 4 fire damage
+- **17+:** 6 fire damage
+
+### Grasp of Beyond {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-1/grasp-of-beyond"}
+
+
+*You absorb the life energy of another creature and use it to [teleport](../../../movement/teleport.md).*
+
+| **Magic, [Melee](../../../rule/combat/melee.md), [Strike](../../../rule/combat/strike.md), Void** |     **Main action** |
+|--------------------------------|--------------------:|
+| **📏 [Melee](../../../rule/combat/melee.md) 1**                 | **🎯 One creature** |
+
+**[Power Roll](../../../rule/dice/power-roll.md) + [Reason](../../../rule/character/reason.md):**
+
+- **≤11:** 3 + R corruption damage
+- **12-16:** 6 + R corruption damage
+- **17+:** 9 + R corruption damage
+
+**Effect:** You can [teleport](../../../movement/teleport.md) up to a number of squares equal to your [Reason](../../../rule/character/reason.md) score.
+
+### The Green Within, the Green Without {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-1/the-green-within-the-green-without"}
+
+
+*Whipping vines erupt from a foe's body to grasp at another close by.*
+
+| **Green, Magic, [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md)** |      **Main action** |
+|----------------------------------|---------------------:|
+| **📏 [Ranged](../../../rule/combat/ranged.md) 10**                 |  **🎯 One creature** |
+
+**[Power Roll](../../../rule/dice/power-roll.md) + [Reason](../../../rule/character/reason.md):**
+
+- **≤11:** 2 + R damage
+- **12-16:** 5 + R damage
+- **17+:** 7 + R damage
+
+**Effect:** You [slide](../../../movement/forced-movement.md) one creature within 10 squares of the target up to 2 squares.
+
+### Meteoric Introduction {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-1/meteoric-introduction"}
+
+
+*You give your enemy a gentle tap-like an asteroid impact.*
+
+| **Earth, Magic, [Melee](../../../rule/combat/melee.md), [Strike](../../../rule/combat/strike.md)** |               **Main action** |
+|---------------------------------|------------------------------:|
+| **📏 [Melee](../../../rule/combat/melee.md) 1**                  | **🎯 One creature or object** |
+
+**[Power Roll](../../../rule/dice/power-roll.md) + [Reason](../../../rule/character/reason.md):**
+
+- **≤11:** 3 + R damage; [push](../../../movement/forced-movement.md) 2
+- **12-16:** 5 + R damage; [push](../../../movement/forced-movement.md) 3
+- **17+:** 8 + R damage; [push](../../../movement/forced-movement.md) 4
+
+### Ray of Agonizing Self-Reflection {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-1/ray-of-agonizing-self-reflection"}
+
+
+*You inflict pain and doubt in equal measure.*
+
+| **Magic, [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md), Void** |               **Main action** | 
+|---------------------------------|------------------------------:|
+| **📏 [Ranged](../../../rule/combat/ranged.md) 10**                | **🎯 One creature or object** |
+
+**[Power Roll](../../../rule/dice/power-roll.md) + [Reason](../../../rule/character/reason.md):**
+
+- **≤11:** 2 + R corruption damage; R < WEAK, [slowed](../../../condition/slowed.md) (save ends)
+- **12-16:** 4 + R corruption damage; R < AVERAGE, [slowed](../../../condition/slowed.md) (save ends)
+- **17+:** 6 + R corruption damage; R < STRONG, [slowed](../../../condition/slowed.md) (save ends)
+
+### Unquiet Ground {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-1/unquiet-ground"}
+
+
+*A sudden storm of detritus assaults your foes and leaves them struggling to move.*
+
+| **Area, Earth, Magic, [Ranged](../../../rule/combat/ranged.md)** |               **Main action** |
+|--------------------------------|------------------------------:|
+| **📏 2 [cube](../../../rule/combat/cube.md) within 10**        | **🎯 Each enemy in the area** |
+
+**[Power Roll](../../../rule/dice/power-roll.md) + [Reason](../../../rule/character/reason.md):**
+
+- **≤11:** 2 damage
+- **12-16:** 5 damage
+- **17+:** 7 damage
+
+**Effect:** The ground beneath the area is [difficult terrain](../../../movement/difficult-terrain.md) for enemies.
+
+### Viscous Fire {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-1/viscous-fire"}
+
+
+*A jet of heavy fire erupts where you strike.*
+
+| **Fire, Magic, [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md)** |               **Main action** | 
+|---------------------------------|------------------------------:|
+| **📏 [Ranged](../../../rule/combat/ranged.md) 10**                | **🎯 One creature or object** |
+
+**[Power Roll](../../../rule/dice/power-roll.md) + [Reason](../../../rule/character/reason.md):**
+
+- **≤11:** 2 + R fire damage; [push](../../../movement/forced-movement.md) 2
+- **12-16:** 5 + R fire damage; [push](../../../movement/forced-movement.md) 3
+- **17+:** 7 + R fire damage; [push](../../../movement/forced-movement.md) 4
+
+## Heroic Abilities
+
+You channel a variety of [heroic abilities](../../../rule/general/heroic-ability.md), all of them fueled by your essence.
+
+### 3-Essence Ability
+
+Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the following options, each of which costs 3 essence to use. (*Quick Build:* The Flesh, a Crucible.)
+
+### Behold the Mystery {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-1/behold-the-mystery"}
+
+
+*You open a rift into the void to harry your foes.*
+
+| **Area, Magic, [Ranged](../../../rule/combat/ranged.md), Void** |               **Main action** |
+|-------------------------------|------------------------------:|
+| **📏 3 [cube](../../../rule/combat/cube.md) within 10**       | **🎯 Each enemy in the area** |
+
+**[Power Roll](../../../rule/dice/power-roll.md) + [Reason](../../../rule/character/reason.md):**
+
+- **≤11:** 2 psychic damage
+- **12-16:** 4 psychic damage
+- **17+:** 6 psychic damage
+
+**Persistent 1:** At the start of your [turn](../../../rule/combat/turn.md), you can use a maneuver to use this ability again without spending essence.
+
+### The Flesh, a Crucible {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-1/the-flesh-a-crucible"}
+
+
+*Fire engulfs your target and continues to churn.*
+
+| **Fire, Magic, [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md)** |               **Main action** |
+|---------------------------------|------------------------------:|
+| **📏 [Ranged](../../../rule/combat/ranged.md) 10**                | **🎯 One creature or object** |
+
+**[Power Roll](../../../rule/dice/power-roll.md) + [Reason](../../../rule/character/reason.md):**
+
+- **≤11:** 5 + R fire damage
+- **12-16:** 8 + R fire damage
+- **17+:** 11 + R fire damage
+
+**Persistent 1:** If the target is within [distance](../../../rule/combat/distance.md) at the start of your [turn](../../../rule/combat/turn.md), you can make the [power roll](../../../rule/dice/power-roll.md) again without spending essence (no action required).
+
+### Invigorating Growth {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-1/invigorating-growth"}
+
+
+*Mushrooms erupt from a foe, sapping their vitality to spread strengthening spores.*
+
+| **Green, Magic, [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md)** |      **Main action** |
+|----------------------------------|---------------------:|
+| **📏 [Ranged](../../../rule/combat/ranged.md) 10**                 |  **🎯 One creature** |
+
+**[Power Roll](../../../rule/dice/power-roll.md) + [Reason](../../../rule/character/reason.md):**
+
+- **≤11:** 4 + R poison damage
+- **12-16:** 7 + R poison damage
+- **17+:** 11 + R poison damage
+
+**Effect:** Mushrooms cover the target's body. While the mushrooms are on the target, you and any ally [adjacent](../../../rule/combat/adjacent.md) to the target gain 1 [surge](../../../rule/resource/surge.md) whenever the target takes damage. The mushrooms can be removed by the target or an [adjacent](../../../rule/combat/adjacent.md) creature as a main action.
+
+### Ripples in the Earth {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-1/ripples-in-the-earth"}
+
+
+*Like a stone was dropped into a pond, waves in the earth radiate from you.*
+
+| **Area, Earth, Magic** |               **Main action** |
+|------------------------|------------------------------:|
+| **📏 2 [burst](../../../rule/combat/burst.md)**         | **🎯 Each enemy in the area** |
+
+**[Power Roll](../../../rule/dice/power-roll.md) + [Reason](../../../rule/character/reason.md):**
+
+- **≤11:** 3 damage
+- **12-16:** 5 damage
+- **17+:** 8 damage; M < STRONG[, prone](../../../condition/prone.md)
+
+**Effect:** You must be touching the ground to use this ability. Additionally, you can choose a square of ground in the area that is unoccupied or is occupied by you or any ally. A pillar of earth rises out of the ground in that square, with a height in squares up to your [Reason](../../../rule/character/reason.md) score. The pillar can't collide with any creatures or objects, nor can it force creatures raised by it to collide with other creatures or objects.
+
+### 5-Essence Ability
+
+Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the following options, each of which costs 5 essence to use. (*Quick Build:* [Conflagration](../../ability/elementalist/level-1/conflagration.md).)
+
+### Conflagration {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-1/conflagration"}
+
+
+*A storm of fire descends upon your enemies.*
+
+| **Area, Fire, Magic, [Ranged](../../../rule/combat/ranged.md)** |               **Main action** |
+|-------------------------------|------------------------------:|
+| **📏 3 [cube](../../../rule/combat/cube.md) within 10**       | **🎯 Each enemy in the area** |
+
+**[Power Roll](../../../rule/dice/power-roll.md) + [Reason](../../../rule/character/reason.md):**
+
+- **≤11:** 4 fire damage
+- **12-16:** 6 fire damage
+- **17+:** 10 fire damage
+
+**Persistent 2:** At the start of your [turn](../../../rule/combat/turn.md), you can use a maneuver to use this ability again without spending essence.
+
+### Instantaneous Excavation {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-1/instantaneous-excavation"}
+
+
+*The surface of the world around you opens up to swallow foes.*
+
+| **Earth, Magic, [Ranged](../../../rule/combat/ranged.md)** |    **Maneuver** |
+|--------------------------|----------------:|
+| **📏 [Ranged](../../../rule/combat/ranged.md) 10**         |  **🎯 Special** |
+
+**Effect:** You open up two holes with 1-square openings that are 4 squares deep, which can be placed on any mundane surface within [distance](../../../rule/combat/distance.md). You can place these holes next to each other to create fewer holes with wider openings. When the holes open, make a separate [power roll](../../../rule/dice/power-roll.md) for each creature on the ground above a hole and small enough to fall in. (You can't score a [critical hit](../../../rule/combat/critical-hit.md) with this ability because it uses a maneuver.)
+
+**[Power Roll](../../../rule/dice/power-roll.md) + [Reason](../../../rule/character/reason.md):**
+
+- **≤11:** The target can [shift](../../../movement/shifting.md) 1 square from the edge of the hole to the nearest unoccupied space of their choice.
+- **12-16:** The target falls into the hole.
+- **17+:** The target falls into the hole and can't reduce the height of the fall.
+
+**Persistent 1:** At the start of your [turn](../../../rule/combat/turn.md), you open another hole, making a [power roll](../../../rule/dice/power-roll.md) against each creature who could fall into the hole when it opens without spending essence.
+
+### No More Than a Breeze {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-1/no-more-than-a-breeze"}
+
+
+*The material substance of a creature shreds away at your command.*
+
+| **Magic, [Ranged](../../../rule/combat/ranged.md), Void** |            **Maneuver** |
+|-------------------------|------------------------:|
+| **📏 [Ranged](../../../rule/combat/ranged.md) 10**        | **🎯 Self or one ally** |
+
+**Effect:** Until the start of your next [turn](../../../rule/combat/turn.md), the target can move through solid matter, they ignore [difficult terrain](../../../movement/difficult-terrain.md), and their movement can't provoke [opportunity attacks](../../../rule/combat/opportunity-attack.md). If the target ends their [turn](../../../rule/combat/turn.md) inside solid matter, they are forced out into the space where they entered it and this effect ends.
+
+**Persistent 1:** The effect lasts until the start of your next [turn](../../../rule/combat/turn.md).
+
+### Test of Rain {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-1/test-of-rain"}
+
+
+*You call down a rain that burns your enemies and restores your allies.*
+
+| **Area, Green, Magic, [Ranged](../../../rule/combat/ranged.md)** |               **Main action** |
+|--------------------------------|------------------------------:|
+| **📏 3 [cube](../../../rule/combat/cube.md) within 10**        | **🎯 Each enemy in the area** |
+
+**[Power Roll](../../../rule/dice/power-roll.md) + [Reason](../../../rule/character/reason.md):**
+
+- **≤11:** 4 acid damage
+- **12-16:** 6 acid damage
+- **17+:** 10 acid damage
+
+**Effect:** You can end one effect on yourself that is ended by a [saving throw](../../../rule/general/saving-throw.md) or that ends at the end of your [turn](../../../rule/combat/turn.md). Each ally in the area also gains this benefit.

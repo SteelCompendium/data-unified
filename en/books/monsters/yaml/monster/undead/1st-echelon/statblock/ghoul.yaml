@@ -1,0 +1,66 @@
+agility: 2
+ev: "3"
+features:
+    - ability_type: Signature Ability
+      distance: Melee 1
+      effects:
+        - roll: Power Roll + 2
+          tier1: 3 damage
+          tier2: 4 damage
+          tier3: 5 damage; M < 2 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
+      feature_type: ability
+      icon: "\U0001F5E1"
+      keywords:
+        - Charge
+        - Melee
+        - Strike
+        - Weapon
+      name: Razor Claws
+      target: One creature or object
+      type: feature
+      usage: Main action
+    - distance: Self
+      effects:
+        - effect: '**Effect:** The ghoul jumps up to 3 squares. If they land on a size 1 enemy, that enemy is knocked [prone](scc.v1:mcdm.heroes.v1/condition/prone) and the ghoul can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against them.'
+      feature_type: ability
+      icon: "\U0001F464"
+      keywords:
+        - '-'
+      name: Leap
+      target: Self
+      type: feature
+      usage: Maneuver
+    - effects:
+        - effect: The first time the ghoul is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) by damage that isn't fire damage or holy damage and their body isn't destroyed, they instead have 1 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) and fall [prone](scc.v1:mcdm.heroes.v1/condition/prone).
+      feature_type: trait
+      icon: ⭐️
+      name: Arise
+      type: feature
+    - effects:
+        - effect: When the ghoul uses the Charge main action, they gain a +2 bonus to speed until the end of their turn.
+      feature_type: trait
+      icon: ⭐️
+      name: Hunger
+      type: feature
+free_strike: 1
+immunities:
+    - Corruption 1
+    - poison 1
+intuition: 0
+keywords:
+    - Undead
+level: 1
+metadata:
+    scc: mcdm.monsters.v1/monster.undead.1st-echelon.statblock/ghoul
+    source: mcdm.monsters.v1
+might: 0
+name: Ghoul
+organization: Horde
+presence: -1
+reason: -2
+role: Harrier
+size: 1M
+speed: 7
+stability: 0
+stamina: "15"
+type: statblock

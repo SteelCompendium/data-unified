@@ -1,0 +1,35 @@
+cost: 9 Wrath
+distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
+effects:
+    - roll: Power Roll + [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence)
+      tier1: '[Slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3; I < WEAK, [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)'
+      tier2: '[Slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5; I < AVERAGE, [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)'
+      tier3: '[Slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 7; I < STRONG, [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)'
+feature_type: ability
+flavor: You reveal a vision of your enemies' fate that causes them to scramble as it staggers them.
+keywords:
+    - Magic
+    - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'
+    - '[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)'
+metadata:
+    action_type: Maneuver
+    class: censor
+    content: "\n*You reveal a vision of your enemies' fate that causes them to scramble as it staggers them.*\n\n| **Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)** |         **Maneuver** |\n|---------------------------|---------------------:|\n| **\U0001F4CF [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**          | **\U0001F3AF Three enemies** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence):**\n\n- **≤11:** [Slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3; I < WEAK, [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)\n- **12-16:** [Slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5; I < AVERAGE, [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)\n- **17+:** [Slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 7; I < STRONG, [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)"
+    distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
+    feature_type: ability
+    flavor: You reveal a vision of your enemies' fate that causes them to scramble as it staggers them.
+    item_id: burden-of-evil
+    item_name: Burden of Evil
+    keywords:
+        - Magic
+        - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'
+        - '[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)'
+    level: 6
+    scc:
+        - mcdm.heroes.v1/feature.ability.censor.level-6/burden-of-evil
+    target: Three enemies
+    type: feature/ability/censor/level-6
+name: Burden of Evil
+target: Three enemies
+type: feature
+usage: Maneuver

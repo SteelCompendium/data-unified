@@ -1,0 +1,25 @@
+---
+action_type: Maneuver
+class: troubadour
+cost: 9 Drama
+distance: 5 [burst](../../../../rule/combat/burst.md)
+effect: Until the end of the encounter, each target gains the [speed](../../../../rule/character/speed.md) [bonus](../../../../rule/dice/bonuses-and-penalties.md), weapon [distance](../../../../rule/combat/distance.md) [bonus](../../../../rule/dice/bonuses-and-penalties.md), disengage [bonus](../../../../rule/dice/bonuses-and-penalties.md), and [stability](../../../../rule/character/stability.md) [bonus](../../../../rule/dice/bonuses-and-penalties.md) of your currently equipped kit in addition to their own kit's [bonus](../../../../rule/dice/bonuses-and-penalties.md)es.
+flavor: It's important for everyone to know each other's lines, just in case...
+keywords:
+    - Area
+    - Magic
+level: "6"
+name: You're All My Understudies
+scc: mcdm.heroes.v1/feature.ability.troubadour.level-6/youre-all-my-understudies
+target: Each ally in the area
+type: ability
+---
+
+
+*It's important for everyone to know each other's lines, just in case...*
+
+| **Area, Magic** |                 **Maneuver** |
+|-----------------|-----------------------------:|
+| **📏 5 [burst](../../../../rule/combat/burst.md)**  | **🎯 Each ally in the area** |
+
+**Effect:** Until the end of the encounter, each target gains the [speed](../../../../rule/character/speed.md) [bonus](../../../../rule/dice/bonuses-and-penalties.md), weapon [distance](../../../../rule/combat/distance.md) [bonus](../../../../rule/dice/bonuses-and-penalties.md), disengage [bonus](../../../../rule/dice/bonuses-and-penalties.md), and [stability](../../../../rule/character/stability.md) [bonus](../../../../rule/dice/bonuses-and-penalties.md) of your currently equipped kit in addition to their own kit's [bonus](../../../../rule/dice/bonuses-and-penalties.md)es.

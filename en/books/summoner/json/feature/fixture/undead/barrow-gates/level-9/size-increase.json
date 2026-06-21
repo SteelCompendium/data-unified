@@ -1,0 +1,20 @@
+{
+  "effects": [
+    {
+      "effect": "The gates are now size 3."
+    }
+  ],
+  "feature_type": "feature",
+  "metadata": {
+    "action_type": "feature",
+    "feature_type": "feature",
+    "item_id": "size-increase",
+    "item_name": "Size Increase",
+    "scc": [
+      "mcdm.summoner.v1/feature.fixture.undead.barrow-gates.level-9/size-increase"
+    ],
+    "type": "feature/fixture/undead/barrow-gates/level-9"
+  },
+  "name": "Size Increase",
+  "type": "feature"
+}

@@ -1,0 +1,32 @@
+distance: Self
+effects:
+    - effect: You must spend a Recovery without regaining Stamina. Your partner gains temporary Stamina equal to your recovery value as they leap out of your chest. Your partner [teleports](scc.v1:mcdm.heroes.v1/movement/teleport) to your space from any distance, even if they don't have line of effect to you.
+      name: Effect
+    - cost: Spend 1 Ferocity
+      effect: Your partner can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed.
+feature_type: ability
+flavor: '"Better look away—this might not be pretty."'
+keywords:
+    - Magic
+    - Ranged
+metadata:
+    action_type: Maneuver
+    class: beastheart
+    content: "*\"Better look away—this might not be pretty.\"*\n\n| **Magic, Ranged** | **Maneuver** |\n|-------------------|-------------:|\n| **\U0001F4CF Self**       | **\U0001F3AF Self**  |\n\n**Effect:** You must spend a Recovery without regaining Stamina. Your partner gains temporary Stamina equal to your recovery value as they leap out of your chest. Your partner [teleports](scc.v1:mcdm.heroes.v1/movement/teleport) to your space from any distance, even if they don't have line of effect to you.\n\n**Spend 1 Ferocity:** Your partner can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed.\n\n**Spend 1–5 Ferocity:** Your partner gains additional temporary Stamina equal to their Might score for each ferocity spent this way.\n\n**Spend 5 Ferocity:** You restore your dead partner to life with 1 Stamina, even if their body was destroyed. They gain no temporary Stamina if you use this ability this way."
+    distance: Self
+    feature_type: ability
+    flavor: '"Better look away—this might not be pretty."'
+    item_id: heart-of-the-beast
+    item_name: Heart of the Beast
+    keywords:
+        - Magic
+        - Ranged
+    level: 1
+    scc:
+        - mcdm.beastheart.v1/feature.ability.beastheart.level-1/heart-of-the-beast
+    target: Self
+    type: feature/ability/beastheart/level-1
+name: Heart of the Beast
+target: Self
+type: feature
+usage: Maneuver

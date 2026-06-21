@@ -1,0 +1,15 @@
+{
+  "content": "*A storm rages at the center of this color-shifting shard of rock.*\n\n**Keywords:** Magic\n\n**Item Prerequisite:** The remains of an elemental\n\n**Project Source:** Records in Rhorvic\n\n**Special:** The treasure must be crafted within a cave in Quintessence\n\n**Project Roll Characteristic:** [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) or [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)\n\n**Project Goal:** 450\n\n**Effect:** While holding crystallized essence, the [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance) of your ranged magic abilities increases by 5. Any creatures you create or summon using magic have their [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) increased by one-third of their Stamina maximum.\n\nAdditionally, you can shatter and destroy the crystallized essence as a maneuver to immediately give yourself 5 [essence](scc.v1:mcdm.summoner.v1/feature.summoner.level-1/essence).",
+  "echelon": "3",
+  "effect": "While holding crystallized essence, the [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance) of your ranged magic abilities increases by 5. Any creatures you create or summon using magic have their [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) increased by one-third of their Stamina maximum.",
+  "flavor": "A storm rages at the center of this color-shifting shard of rock.",
+  "keywords": [
+    "Magic"
+  ],
+  "name": "Crystallized Essence",
+  "project_goal": "450",
+  "project_roll_characteristic": "[Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) or [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)",
+  "scc": "mcdm.summoner.v1/treasure.3rd-echelon.trinket/crystallized-essence",
+  "treasure_type": "trinket",
+  "type": "treasure"
+}

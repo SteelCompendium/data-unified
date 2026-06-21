@@ -1,0 +1,65 @@
+agility: 1
+ev: "12"
+features:
+    - ability_type: Signature Ability
+      distance: Ranged 15
+      effects:
+        - roll: Power Roll + 5
+          tier1: 9 corruption damage; I < 3 [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
+          tier2: 12 corruption damage; I < 4 [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
+          tier3: 14 corruption damage; I < 5 [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
+      feature_type: ability
+      icon: "\U0001F3F9"
+      keywords:
+        - Magic
+        - Ranged
+        - Strike
+      name: Heartstopper
+      target: One creature or object
+      type: feature
+      usage: Main action
+    - cost: 1 Malice
+      distance: Ranged 20
+      effects:
+        - effect: |-
+            **Trigger:** A creature within distance uses a magic ability.
+            **Effect:** Any damage dealt by or [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) regained from the ability is halved. The lithgekh regains [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) equal to the remaining damage dealt or [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) gained.
+      feature_type: ability
+      icon: ❗️
+      keywords:
+        - Magic
+        - Ranged
+      name: Mystic Battery
+      target: The triggering creature
+      type: feature
+      usage: Free triggered action
+    - effects:
+        - effect: Each ally within 10 squares of the lithgekh gains an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on magic abilities.
+      feature_type: trait
+      icon: ⭐️
+      name: Devour Magic
+      type: feature
+free_strike: 5
+immunities:
+    - Corruption 10
+    - poison 10
+intuition: 3
+keywords:
+    - Undead
+    - Soulless
+level: 10
+metadata:
+    scc: mcdm.monsters.v1/monster.undead.4th-echelon.statblock/lithgekh
+    source: mcdm.monsters.v1
+might: 0
+movement: Fly, hover
+name: Lithgekh
+organization: Horde
+presence: -1
+reason: 5
+role: Hexer
+size: 1M
+speed: 6
+stability: 1
+stamina: "55"
+type: statblock

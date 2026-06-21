@@ -1,0 +1,14 @@
+effects:
+    - effect: Each stormwight kit grants a set of benefits for your [Growing Ferocity](scc.v1:mcdm.heroes.v1/feature.fury.boren/growing-ferocity) feature.
+feature_type: feature
+metadata:
+    action_type: feature
+    class: fury
+    feature_type: feature
+    item_id: growing-ferocity
+    item_name: Growing Ferocity
+    scc:
+        - mcdm.heroes.v1/feature.fury.stormwight-kits/growing-ferocity
+    type: feature/fury/stormwight-kits
+name: Growing Ferocity
+type: feature

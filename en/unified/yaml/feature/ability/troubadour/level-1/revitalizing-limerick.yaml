@@ -1,0 +1,32 @@
+distance: 5 [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura)
+effects:
+    - effect: At the end of each of your [turns](scc.v1:mcdm.heroes.v1/rule.combat/turn) while this performance is active, you can choose up to a number of targets equal to your [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence) score. Each chosen target can spend a [Recovery](scc.v1:mcdm.heroes.v1/rule.health/recoveries).
+      name: Effect
+feature_type: ability
+flavor: There once was a man from [Capital](scc.v1:mcdm.heroes.v1/rule.world/capital)...
+keywords:
+    - Area
+    - Magic
+    - Performance
+metadata:
+    action_type: No action
+    class: troubadour
+    content: "\n*There once was a man from [Capital](scc.v1:mcdm.heroes.v1/rule.world/capital)...*\n\n| **Area, Magic, Performance** |                         **No action** |\n|------------------------------|--------------------------------------:|\n| **\U0001F4CF 5 [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura)**                | **\U0001F3AF Self and each ally in the area** |\n\n**Effect:** At the end of each of your [turns](scc.v1:mcdm.heroes.v1/rule.combat/turn) while this performance is active, you can choose up to a number of targets equal to your [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence) score. Each chosen target can spend a [Recovery](scc.v1:mcdm.heroes.v1/rule.health/recoveries)."
+    distance: 5 [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura)
+    feature_type: ability
+    flavor: There once was a man from [Capital](scc.v1:mcdm.heroes.v1/rule.world/capital)...
+    item_id: revitalizing-limerick
+    item_name: Revitalizing Limerick
+    keywords:
+        - Area
+        - Magic
+        - Performance
+    level: 1
+    scc:
+        - mcdm.heroes.v1/feature.ability.troubadour.level-1/revitalizing-limerick
+    target: Self and each ally in the area
+    type: feature/ability/troubadour/level-1
+name: Revitalizing Limerick
+target: Self and each ally in the area
+type: feature
+usage: No action

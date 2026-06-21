@@ -1,0 +1,18 @@
+---
+effect: 'A [characteristic](../rule/character/characteristic.md) of your choice increases by 1 (to a maximum of 6). Additionally, choose one of the following benefits:'
+flavor: The quest is done, the enemy is defeated, and the Blade of a Thousand Years has passed from our hands. What do we do with the rest of our lives?
+name: Forsaken
+prerequisite: Your party loses, destroys, or otherwise parts with an artifact.
+scc: mcdm.heroes.v1/title/forsaken
+type: title
+---
+
+*The quest is done, the enemy is defeated, and the Blade of a Thousand Years has passed from our hands. What do we do with the rest of our lives?*
+
+**Prerequisite:** Your party loses, destroys, or otherwise parts with an artifact.
+
+**Effect:** A [characteristic](../rule/character/characteristic.md) of your choice increases by 1 (to a maximum of 6). Additionally, choose one of the following benefits:
+
+- *Brief Reunion:* While you're [winded](../rule/health/winded.md), you can use a maneuver to summon the artifact to your hand. It disappears at the end of your next [turn](../rule/combat/turn.md). Once you use this benefit, you can't use it again until you earn 1 or more [Victories](../rule/resource/victories.md).
+- *Perfect Protection:* The Director chooses a [damage type](../rule/damage/damage-type.md) that is dealt by or thematically related to the artifact—for instance, holy for the Blade of a Thousand Years, psychic for the Encepter, or corruption for the Mortal Coil. You have immunity all to the chosen [damage type](../rule/damage/damage-type.md).
+- *Poor Compensation:* Instead of disappearing or otherwise departing, the artifact turns into a [trinket](../rule/treasure/trinket.md) or [leveled treasure](../rule/treasure/leveled-treasure.md) of the Director's choice that has the same approximate shape as the lost item—for instance, any magic sword for the Blade of a Thousand Years, any [implement](../rule/treasure/implement.md) for the Encepter, or a Thief of Joy or any other torque for the Mortal Coil.

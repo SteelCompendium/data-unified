@@ -1,0 +1,44 @@
+{
+  "cost": "9 Drama",
+  "distance": "[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1",
+  "effects": [
+    {
+      "roll": "Power Roll + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)",
+      "tier1": "12 + A damage; M \u003c WEAK, [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)",
+      "tier2": "18 + A damage; M \u003c AVERAGE, [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)",
+      "tier3": "24 + A damage; [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) ([EoT](scc.v1:mcdm.heroes.v1/rule.combat/end-of-turn)), or if M \u003c STRONG, [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)"
+    }
+  ],
+  "feature_type": "ability",
+  "flavor": "It's love and blood or drama and blood. Either way, there's always blood.",
+  "keywords": [
+    "[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)",
+    "[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)",
+    "Weapon"
+  ],
+  "metadata": {
+    "action_type": "Main action",
+    "class": "troubadour",
+    "content": "\n*It's love and blood or drama and blood. Either way, there's always blood.*\n\n| **[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), Weapon** |               **Main action** |\n|---------------------------|------------------------------:|\n| **📏 [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1**            | **🎯 One creature or object** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility):**\n\n- **≤11:** 12 + A damage; M \u003c WEAK, [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)\n- **12-16:** 18 + A damage; M \u003c AVERAGE, [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)\n- **17+:** 24 + A damage; [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) ([EoT](scc.v1:mcdm.heroes.v1/rule.combat/end-of-turn)), or if M \u003c STRONG, [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)",
+    "distance": "[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1",
+    "feature_type": "ability",
+    "flavor": "It's love and blood or drama and blood. Either way, there's always blood.",
+    "item_id": "blood-on-the-stage",
+    "item_name": "Blood on the Stage",
+    "keywords": [
+      "[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)",
+      "[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)",
+      "Weapon"
+    ],
+    "level": 6,
+    "scc": [
+      "mcdm.heroes.v1/feature.ability.troubadour.level-6/blood-on-the-stage"
+    ],
+    "target": "One creature or object",
+    "type": "feature/ability/troubadour/level-6"
+  },
+  "name": "Blood on the Stage",
+  "target": "One creature or object",
+  "type": "feature",
+  "usage": "Main action"
+}

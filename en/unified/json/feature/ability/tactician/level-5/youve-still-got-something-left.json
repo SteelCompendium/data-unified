@@ -1,0 +1,38 @@
+{
+  "cost": "9 Focus",
+  "distance": "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10",
+  "effects": [
+    {
+      "effect": "The target uses a [heroic ability](scc.v1:mcdm.heroes.v1/rule.general/heroic-ability) with the [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) keyword as a free [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action), and deals extra damage with that ability equal to your [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) score. The ability has its [Heroic Resource](scc.v1:mcdm.heroes.v1/rule.resource/heroic-resource) cost reduced by 1 + your [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) score (minimum cost 0).",
+      "name": "Effect"
+    }
+  ],
+  "feature_type": "ability",
+  "flavor": "You push an ally to use a [heroic ability](scc.v1:mcdm.heroes.v1/rule.general/heroic-ability) sooner than they otherwise would.",
+  "keywords": [
+    "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)"
+  ],
+  "metadata": {
+    "action_type": "Main action",
+    "class": "tactician",
+    "content": "\n*You push an ally to use a [heroic ability](scc.v1:mcdm.heroes.v1/rule.general/heroic-ability) sooner than they otherwise would.*\n\n| **[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)**       | **Main action** |\n|------------------|----------------:|\n| **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10** | **🎯 One ally** |\n\n**Effect:** The target uses a [heroic ability](scc.v1:mcdm.heroes.v1/rule.general/heroic-ability) with the [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) keyword as a free [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action), and deals extra damage with that ability equal to your [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) score. The ability has its [Heroic Resource](scc.v1:mcdm.heroes.v1/rule.resource/heroic-resource) cost reduced by 1 + your [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) score (minimum cost 0).",
+    "distance": "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10",
+    "feature_type": "ability",
+    "flavor": "You push an ally to use a [heroic ability](scc.v1:mcdm.heroes.v1/rule.general/heroic-ability) sooner than they otherwise would.",
+    "item_id": "youve-still-got-something-left",
+    "item_name": "You've Still Got Something Left",
+    "keywords": [
+      "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)"
+    ],
+    "level": 5,
+    "scc": [
+      "mcdm.heroes.v1/feature.ability.tactician.level-5/youve-still-got-something-left"
+    ],
+    "target": "One ally",
+    "type": "feature/ability/tactician/level-5"
+  },
+  "name": "You've Still Got Something Left",
+  "target": "One ally",
+  "type": "feature",
+  "usage": "Main action"
+}

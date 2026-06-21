@@ -1,0 +1,13 @@
+effects:
+    - effect: You select a purchased trait that costs 2 ancestry points from your previous ancestry.
+feature_type: trait
+metadata:
+    action_type: feature
+    feature_type: trait
+    item_id: previous-life-2-points
+    item_name: 'Previous Life: 2 Points'
+    scc:
+        - mcdm.heroes.v1/feature.trait.revenant/previous-life-2-points
+    type: feature/trait/revenant
+name: 'Previous Life: 2 Points'
+type: feature

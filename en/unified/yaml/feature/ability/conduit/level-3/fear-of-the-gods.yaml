@@ -1,0 +1,37 @@
+cost: 7 Piety
+distance: 5 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 10
+effects:
+    - roll: Power Roll + [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)
+      tier1: 6 psychic damage; I < WEAK, [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
+      tier2: 9 psychic damage; I < AVERAGE, [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
+      tier3: 13 psychic damage; I < STRONG, [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
+    - effect: Each target is [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) of you or a creature you choose within [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance).
+      name: Effect
+feature_type: ability
+flavor: Your divine magic makes a creature appear as what your enemies fear most.
+keywords:
+    - Area
+    - Magic
+    - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'
+metadata:
+    action_type: Main action
+    class: conduit
+    content: "\n*Your divine magic makes a creature appear as what your enemies fear most.*\n\n| **Area, Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)**  |               **Main action** |\n|--------------------------|------------------------------:|\n| **\U0001F4CF 5 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 10**  | **\U0001F3AF Each enemy in the area** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition):**\n\n- **≤11:** 6 psychic damage; I < WEAK, [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)\n- **12-16:** 9 psychic damage; I < AVERAGE, [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)\n- **17+:** 13 psychic damage; I < STRONG, [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)\n\n**Effect:** Each target is [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) of you or a creature you choose within [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance)."
+    distance: 5 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 10
+    feature_type: ability
+    flavor: Your divine magic makes a creature appear as what your enemies fear most.
+    item_id: fear-of-the-gods
+    item_name: Fear of the Gods
+    keywords:
+        - Area
+        - Magic
+        - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'
+    level: 3
+    scc:
+        - mcdm.heroes.v1/feature.ability.conduit.level-3/fear-of-the-gods
+    target: Each enemy in the area
+    type: feature/ability/conduit/level-3
+name: Fear of the Gods
+target: Each enemy in the area
+type: feature
+usage: Main action

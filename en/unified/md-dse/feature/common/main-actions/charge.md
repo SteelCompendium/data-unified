@@ -1,0 +1,27 @@
+---
+action_type: feature
+feature_type: feature
+file_basename: charge
+file_dpath: feature/common/main-actions
+item_id: charge
+item_name: Charge
+name: Charge
+scc: mcdm.heroes.v1/feature.common.main-actions/charge
+source: mcdm.heroes.v1
+type: feature
+---
+
+```ds-feature
+effects:
+    - effect: |-
+        When a creature takes the [Charge](scc.v1:mcdm.heroes.v1/feature.common.main-actions/charge) main action, they move up to their [speed](scc.v1:mcdm.heroes.v1/rule.character/speed) in a straight line, then make a [melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) (see [Free Strikes](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) below) against a target when they end their move. If the creature has an ability with the Charge keyword, they can use that ability against the target instead of a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike).
+
+        A creature can't move through [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain) or [shift](scc.v1:mcdm.heroes.v1/movement/shifting) when they charge. They can [fly](scc.v1:mcdm.heroes.v1/movement/fly) or [burrow](scc.v1:mcdm.heroes.v1/movement/burrow) as part of the [Charge](scc.v1:mcdm.heroes.v1/feature.common.main-actions/charge) main action if they have that movement available to them, but they can't climb or swim while charging unless they can automatically use that movement at full [speed](scc.v1:mcdm.heroes.v1/rule.character/speed).
+feature_type: feature
+metadata:
+    name: Charge
+    scc: mcdm.heroes.v1/feature.common.main-actions/charge
+    type: feature
+name: Charge
+type: feature
+```

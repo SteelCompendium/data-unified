@@ -1,0 +1,73 @@
+{
+  "agility": 2,
+  "cost": "5 essence for three minions",
+  "ev": "",
+  "features": [
+    {
+      "ability_type": "Signature Ability",
+      "distance": "Ranged 5",
+      "effects": [
+        {
+          "roll": "2d10 + R",
+          "tier1": "4 cold [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage); M \u003c WEAK [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (EoT)",
+          "tier2": "6 cold [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage); M \u003c AVERAGE [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (EoT)",
+          "tier3": "8 cold [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage); M \u003c STRONG speed is 0 (EoT)"
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "🏹",
+      "keywords": [
+        "Magic",
+        "Ranged",
+        "Strike"
+      ],
+      "name": "Freezing Howl",
+      "target": "One creature or object per minion",
+      "type": "feature",
+      "usage": "Main action"
+    },
+    {
+      "effects": [
+        {
+          "effect": "When the quiet is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), they launch a refreshing blast of air into an area equal to their [size](scc.v1:mcdm.heroes.v1/rule.character/size) + 1 within 5 before being destroyed. Each ally in the affected area gains a [surge](scc.v1:mcdm.heroes.v1/rule.resource/surge)."
+        }
+      ],
+      "feature_type": "trait",
+      "icon": "⭐️",
+      "name": "Cold Surge",
+      "type": "feature"
+    }
+  ],
+  "flavor": "This elemental is a pure-white vulpine with six legs that freely sprints through the air. Their howls are telepathic, washing over the receivers with a strong chill and a wave of goosebumps.",
+  "free_strike": 4,
+  "immunities": [
+    "Sonic R",
+    "Cold R"
+  ],
+  "intuition": 0,
+  "keywords": [
+    "Elemental (Air",
+    "Rot",
+    "Water)"
+  ],
+  "level": 0,
+  "metadata": {
+    "scc": "mcdm.summoner.v1/monster.minion.summoner.elemental.statblock/quiet-of-snow",
+    "source": "mcdm.summoner.v1"
+  },
+  "might": -1,
+  "movement": "Fly, hover",
+  "name": "Quiet of Snow",
+  "organization": "Minion",
+  "presence": 3,
+  "reason": 0,
+  "role": "Artillery",
+  "size": "1S",
+  "speed": 5,
+  "stability": 1,
+  "stamina": "4 | 4 | 4",
+  "type": "statblock",
+  "weaknesses": [
+    "—"
+  ]
+}

@@ -1,0 +1,28 @@
+---
+effect: You gain membership in a faction. You're regarded as a promising but untested agent, and you're allowed to operate independently. You can be assigned tasks to further your faction's goals, and you can expect rewards and promotion if you succeed. When engaged in a negotiation with any member of your faction, their patience increases by 2 (to a maximum of 5).
+file_basename: faction-member
+file_dpath: title
+flavor: In six months, I'll be running this place.
+item_id: faction-member
+item_name: Faction Member
+name: Faction Member
+prerequisite: You join an army, guild, or similar organization.
+scc: mcdm.heroes.v1/title/faction-member
+source: mcdm.heroes.v1
+type: title
+---
+
+*In six months, I'll be running this place.*
+
+**Prerequisite:** You join an army, guild, or similar organization.
+
+**Effect:** You gain membership in a faction. You're regarded as a promising but untested agent, and you're allowed to operate independently. You can be assigned tasks to further your faction's goals, and you can expect rewards and promotion if you succeed. When engaged in a negotiation with any member of your faction, their patience increases by 2 (to a maximum of 5).
+
+Additionally, the Director assigns you one of the following benefits, as appropriate to the faction in question. The Director can also create a custom benefit for a type of faction not noted here. You can use this benefit only in a settlement where your faction has a presence, and once you use this benefit, you can't use it again until you complete a task for your faction.
+
+- *Academic Faction:* You find a sage who can make up to three [Reason](../rule/character/reason.md) [tests](../rule/test/test.md) to recall lore or make [project rolls](../rule/downtime/project-roll.md) for [research projects](../rule/downtime/research-project.md) on your behalf. The sage has a +5 [bonus](../rule/dice/bonuses-and-penalties.md) to these [tests](../rule/test/test.md). These [project rolls](../rule/downtime/project-roll.md) take 10 minutes each and don't need to be made during a [respite](../rule/resource/respite.md).
+- *Guild Faction:* You find an expert crafter who can make up to three [project rolls](../rule/downtime/project-roll.md) for [crafting projects](../rule/downtime/crafting-project.md) on your behalf. The crafter has a +5 [bonus](../rule/dice/bonuses-and-penalties.md) to these [tests](../rule/test/test.md). These [project rolls](../rule/downtime/project-roll.md) take 10 uninterrupted minutes each and don't need to be made during a [respite](../rule/resource/respite.md).
+- *Martial Faction:* You recruit up to three minions with levels no greater than your own, of a type appropriate for the faction (such as **[human](../ancestry/human.md) guards**). These minions follow your orders for a day.
+- *Spy Faction:* You find an agent who can provide you with three pieces of information about the settlement you're in, such as the location of a hidden person, a secret entrance into a guarded area, or the negotiation motivation or pitfall of an important person.
+
+**Special:** You can gain this title multiple times, once for each faction. You can be stripped of this title if you act against the faction's interests.

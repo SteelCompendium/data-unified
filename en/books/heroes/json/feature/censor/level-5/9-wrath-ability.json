@@ -1,0 +1,22 @@
+{
+  "effects": [
+    {
+      "effect": "Choose one [heroic ability](scc.v1:mcdm.heroes.v1/rule.general/heroic-ability) from the following options, each of which costs 9 wrath to use."
+    }
+  ],
+  "feature_type": "feature",
+  "metadata": {
+    "action_type": "feature",
+    "class": "censor",
+    "feature_type": "feature",
+    "item_id": "9-wrath-ability",
+    "item_name": "9-Wrath Ability",
+    "level": 5,
+    "scc": [
+      "mcdm.heroes.v1/feature.censor.level-5/9-wrath-ability"
+    ],
+    "type": "feature/censor/level-5"
+  },
+  "name": "9-Wrath Ability",
+  "type": "feature"
+}

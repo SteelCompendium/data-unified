@@ -1,0 +1,47 @@
+agility: -2
+cost: 3 essence for two minions
+ev: ""
+features:
+    - ability_type: Signature Ability
+      distance: Melee 2
+      effects:
+        - roll: 2d10 + R
+          tier1: 4 fire damage; [shift](scc.v1:mcdm.heroes.v1/movement/shifting) 3
+          tier2: 6 fire damage; [shift](scc.v1:mcdm.heroes.v1/movement/shifting) 4
+          tier3: 8 fire damage; [shift](scc.v1:mcdm.heroes.v1/movement/shifting) 5
+      feature_type: ability
+      icon: "\U0001F3F9"
+      keywords:
+        - Magic
+        - Melee
+        - Strike
+      name: Molten Strike
+      target: One creature or object per minion
+      type: feature
+      usage: Main action
+flavor: This elemental is a long, serpentine creature of heated rock. Flows of magma drool trails of lava from their fangs after biting their prey.
+free_strike: 4
+immunities:
+    - Fire R
+intuition: 0
+keywords:
+    - Elemental (Fire
+    - Earth)
+level: 0
+metadata:
+    scc: mcdm.summoner.v1/monster.minion.summoner.elemental.statblock/flow-of-magma
+    source: mcdm.summoner.v1
+might: 2
+movement: Climb
+name: Flow of Magma
+organization: Minion
+presence: 1
+reason: 0
+role: Harrier
+size: 1L
+speed: 5
+stability: 2
+stamina: 6 | 6
+type: statblock
+weaknesses:
+    - —

@@ -1,0 +1,20 @@
+{
+  "effects": [
+    {
+      "effect": "Your unique physiology enhances your movement. You gain an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on [tests](scc.v1:mcdm.heroes.v1/rule.test/test) that use the [Climb](scc.v1:mcdm.heroes.v1/skill.exploration/climb), [Gymnastics](scc.v1:mcdm.heroes.v1/skill.exploration/gymnastics), or [Swim](scc.v1:mcdm.heroes.v1/skill.exploration/swim) skills when you can use all your arms in the attempt."
+    }
+  ],
+  "feature_type": "trait",
+  "metadata": {
+    "action_type": "feature",
+    "feature_type": "trait",
+    "item_id": "four-armed-athletics",
+    "item_name": "Four-Armed Athletics",
+    "scc": [
+      "mcdm.heroes.v1/feature.trait.time-raider/four-armed-athletics"
+    ],
+    "type": "feature/trait/time-raider"
+  },
+  "name": "Four-Armed Athletics",
+  "type": "feature"
+}

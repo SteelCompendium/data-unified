@@ -1,0 +1,50 @@
+agility: 2
+ev: 6 for four minions
+features:
+    - ability_type: Signature Ability
+      distance: Melee 1
+      effects:
+        - roll: Power Roll + 3
+          tier1: 3 damage
+          tier2: 5 damage
+          tier3: 7 damage
+      feature_type: ability
+      icon: "\U0001F5E1"
+      keywords:
+        - Charge
+        - Melee
+        - Strike
+        - Weapon
+      name: Spinning Bone Blade
+      target: One creature or object per minion
+      type: feature
+      usage: Main action
+    - effects:
+        - effect: Any creature within 2 squares of the grulqin can't be hidden from them.
+      feature_type: trait
+      icon: ⭐️
+      name: Soulsight
+      type: feature
+free_strike: 3
+intuition: -1
+keywords:
+    - Abyssal
+    - Demon
+level: 4
+metadata:
+    scc: mcdm.monsters.v1/monster.demon.2nd-echelon.statblock/grulqin
+    source: mcdm.monsters.v1
+might: 3
+name: Grulqin
+organization: Minion
+presence: -1
+reason: -1
+role: Brute
+size: 1L
+speed: 8
+stability: 1
+stamina: "9"
+type: statblock
+weaknesses:
+    - Holy 5
+with_captain: +2 damage bonus to strikes

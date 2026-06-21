@@ -1,0 +1,15 @@
+{
+  "content": "*These braids of articulated, wickedly barbed tails weave behind your heads, threatening painful stings.*\n\n**Keywords:** Light Weapon, Magic\n\n**Item Prerequisite:** The stinger from a manticore's tail\n\n**Project Source:** Texts or lore in Khemharic\n\n**Project Roll Characteristic:** Agility, Reason, or Intuition\n\n**Project Goal:** 450\n\n**1st Level:** Only a beastheart can wield this weapon. Any weapon ability that deals rolled damage using this weapon deals an extra 1 poison damage. Additionally, you and your companion can use the following maneuver.\n\n*Your scorpion tail lashes out.*\n\n---\n\n**Melee, Strike**\n\nMight score.\n\n**Melee, Strike Maneuver** o Melee 2 x One creature\n\n**Effect:** The target takes poison damage equal to 3 + your\n\n**5th Level:** The weapon's extra poison damage increases to 2. Additionally, the Scorpion Tail ability's distance increases to melee 3.\n\n**9th Level:** The weapon's extra poison damage increases to 3. Additionally, the Scorpion Tail ability's distance increases to melee 4.",
+  "effect": "The target takes poison damage equal to 3 + your",
+  "flavor": "These braids of articulated, wickedly barbed tails weave behind your heads, threatening painful stings.",
+  "keywords": [
+    "Light Weapon",
+    "Magic"
+  ],
+  "name": "Scorpion Tails",
+  "project_goal": "450",
+  "project_roll_characteristic": "Agility, Reason, or Intuition",
+  "scc": "mcdm.beastheart.v1/treasure.leveled.weapon/scorpion-tails",
+  "treasure_type": "weapon",
+  "type": "treasure"
+}

@@ -1,0 +1,32 @@
+---
+echelon: "2"
+effect: While worn, this belt grants you a +3 [bonus](../../../rule/dice/bonuses-and-penalties.md) to [Stamina](../../../rule/health/stamina.md) and a +1 [bonus](../../../rule/dice/bonuses-and-penalties.md) to [Stability](../../../rule/character/stability.md). This [Stamina](../../../rule/health/stamina.md) [bonus](../../../rule/dice/bonuses-and-penalties.md) adds to the [Stamina](../../../rule/health/stamina.md) [bonus](../../../rule/dice/bonuses-and-penalties.md) granted by other treasures.
+file_basename: bastion-belt
+file_dpath: treasure/2nd-echelon/trinket
+flavor: This thick leather belt features a bone clasp and feels unusually heavy when handled.
+item_id: bastion-belt
+item_name: Bastion Belt
+keywords:
+    - Magic
+    - Waist
+name: Bastion Belt
+project_goal: "300"
+scc: mcdm.heroes.v1/treasure.2nd-echelon.trinket/bastion-belt
+source: mcdm.heroes.v1
+treasure_type: trinket
+type: treasure
+---
+
+*This thick leather belt features a bone clasp and feels unusually heavy when handled.*
+
+**Keywords:** Magic, Waist
+
+**[Item Prerequisite](../../../rule/downtime/item-prerequisite.md):** A giant's tooth
+
+**[Project Source](../../../rule/downtime/project-source.md):** Texts or lore in High Kuric
+
+**[Project Roll](../../../rule/downtime/project-roll.md) [Characteristic](../../../rule/character/characteristic.md):** [Might](../../../rule/character/might.md) or [Intuition](../../../rule/character/intuition.md)
+
+**Project Goal:** 300
+
+**Effect:** While worn, this belt grants you a +3 [bonus](../../../rule/dice/bonuses-and-penalties.md) to [Stamina](../../../rule/health/stamina.md) and a +1 [bonus](../../../rule/dice/bonuses-and-penalties.md) to [Stability](../../../rule/character/stability.md). This [Stamina](../../../rule/health/stamina.md) [bonus](../../../rule/dice/bonuses-and-penalties.md) adds to the [Stamina](../../../rule/health/stamina.md) [bonus](../../../rule/dice/bonuses-and-penalties.md) granted by other treasures.

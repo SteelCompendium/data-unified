@@ -1,0 +1,22 @@
+{
+  "effects": [
+    {
+      "effect": "Your [primordial aspect](scc.v1:mcdm.heroes.v1/feature.fury.level-1/primordial-aspect) grants your choice of one of two [heroic abilities](scc.v1:mcdm.heroes.v1/rule.general/heroic-ability).\n\n##### 9th-Level Berserker Abilities\n\nChoose one of the following abilities.\n\n##### 9th-Level Reaver Abilities\n\nChoose one of the following abilities.\n\n##### 9th-Level Stormwight Abilities\n\nChoose one of the following abilities."
+    }
+  ],
+  "feature_type": "feature",
+  "metadata": {
+    "action_type": "feature",
+    "class": "fury",
+    "feature_type": "feature",
+    "item_id": "9th-level-aspect-ability",
+    "item_name": "9th-Level Aspect Ability",
+    "level": 9,
+    "scc": [
+      "mcdm.heroes.v1/feature.fury.level-9/9th-level-aspect-ability"
+    ],
+    "type": "feature/fury/level-9"
+  },
+  "name": "9th-Level Aspect Ability",
+  "type": "feature"
+}

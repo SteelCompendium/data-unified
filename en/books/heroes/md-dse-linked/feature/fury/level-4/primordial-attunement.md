@@ -1,0 +1,28 @@
+---
+action_type: feature
+class: fury
+feature_type: feature
+file_basename: primordial-attunement
+file_dpath: feature/fury/level-4
+item_id: primordial-attunement
+item_name: Primordial Attunement
+level: "4"
+name: Primordial Attunement
+scc: mcdm.heroes.v1/feature.fury.level-4/primordial-attunement
+source: mcdm.heroes.v1
+type: feature
+---
+
+```ds-feature
+effects:
+    - effect: As your ferocity manifests elemental forces created by the Primordial Chaos, you are aware of how elemental power interacts with those around you. You automatically sense whether any creature within 10 squares has [damage immunity](../../../rule/damage/damage-immunity.md) or [damage weakness](../../../rule/damage/damage-weakness.md) to acid, cold, corruption, fire, lightning, poison, or sonic damage, learning whether they have immunity or weakness, the value of that immunity or weakness, and the specific [damage type](../../../rule/damage/damage-type.md). Additionally, you automatically sense any source of one of those [damage types](../../../rule/damage/damage-type.md) within 10 squares, such as a fire or a source of elemental power.
+feature_type: feature
+metadata:
+    class: fury
+    level: "4"
+    name: Primordial Attunement
+    scc: mcdm.heroes.v1/feature.fury.level-4/primordial-attunement
+    type: feature
+name: Primordial Attunement
+type: feature
+```

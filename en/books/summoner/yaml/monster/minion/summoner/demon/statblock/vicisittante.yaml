@@ -1,0 +1,53 @@
+agility: 4
+cost: 7 essence for two minions
+ev: ""
+features:
+    - ability_type: Signature Ability
+      distance: Melee 1
+      effects:
+        - roll: 2d10 + R
+          tier1: 7 psychic [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage); P < WEAK [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+          tier2: 11 psychic [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage); P < AVERAGE [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+          tier3: 16 psychic [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage); P < STRONG [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+      feature_type: ability
+      icon: "\U0001F3F9"
+      keywords:
+        - Melee
+        - Psionic
+        - Strike
+      name: Cerebral Flay
+      target: One creature or object per minion
+      type: feature
+      usage: Main action
+    - effects:
+        - effect: Each creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the vicisittante can't be hidden from them.
+      feature_type: trait
+      icon: ⭐️
+      name: Soulsight
+      type: feature
+flavor: It's difficult to identify the base nature of a vicisittante apart from an ever-changing mass of burning flesh. Any surface they touch immediately scars as the demon leaves parts of themselves behind.
+free_strike: 7
+immunities:
+    - —
+intuition: 0
+keywords:
+    - Abyssal
+    - Demon
+level: 0
+metadata:
+    scc: mcdm.summoner.v1/monster.minion.summoner.demon.statblock/vicisittante
+    source: mcdm.summoner.v1
+might: 3
+movement: —
+name: Vicisittante
+organization: Minion
+presence: -1
+reason: 0
+role: Harrier
+size: "2"
+speed: 10
+stability: 0
+stamina: 17 | 17
+type: statblock
+weaknesses:
+    - Holy 1

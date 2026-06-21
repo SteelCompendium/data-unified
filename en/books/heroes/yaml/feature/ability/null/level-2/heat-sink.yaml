@@ -1,0 +1,29 @@
+cost: 5 Discipline
+distance: Self
+effects:
+    - effect: Until the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), the size of your [Null Field](scc.v1:mcdm.heroes.v1/feature.null.level-1/null-field) ability increases by 1, and you and any ally benefit from [concealment](scc.v1:mcdm.heroes.v1/rule.combat/concealment) while in the area. At the end of this [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), each enemy in the area takes cold damage equal to your [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition) score.
+      name: Effect
+feature_type: ability
+flavor: You absorb ambient heat, coating the ground in frost and precipitating snow from the air.
+keywords:
+    - Psionic
+metadata:
+    action_type: Maneuver
+    class: "null"
+    content: "\n*You absorb ambient heat, coating the ground in frost and precipitating snow from the air.*\n\n| **Psionic** | **Maneuver** |\n|-------------|-------------:|\n| **\U0001F4CF Self** |  **\U0001F3AF Self** |\n\n**Effect:** Until the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), the size of your [Null Field](scc.v1:mcdm.heroes.v1/feature.null.level-1/null-field) ability increases by 1, and you and any ally benefit from [concealment](scc.v1:mcdm.heroes.v1/rule.combat/concealment) while in the area. At the end of this [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), each enemy in the area takes cold damage equal to your [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition) score."
+    distance: Self
+    feature_type: ability
+    flavor: You absorb ambient heat, coating the ground in frost and precipitating snow from the air.
+    item_id: heat-sink
+    item_name: Heat Sink
+    keywords:
+        - Psionic
+    level: 2
+    scc:
+        - mcdm.heroes.v1/feature.ability.null.level-2/heat-sink
+    target: Self
+    type: feature/ability/null/level-2
+name: Heat Sink
+target: Self
+type: feature
+usage: Maneuver

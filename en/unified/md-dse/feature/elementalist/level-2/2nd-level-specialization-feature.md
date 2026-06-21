@@ -1,0 +1,38 @@
+---
+action_type: feature
+class: elementalist
+feature_type: feature
+file_basename: 2nd-level-specialization-feature
+file_dpath: feature/elementalist/level-2
+item_id: 2nd-level-specialization-feature
+item_name: 2nd-Level Specialization Feature
+level: "2"
+name: 2nd-Level Specialization Feature
+scc: mcdm.heroes.v1/feature.elementalist.level-2/2nd-level-specialization-feature
+source: mcdm.heroes.v1
+type: feature
+---
+
+```ds-feature
+effects:
+    - effect: |-
+        Your [elemental specialization](scc.v1:mcdm.heroes.v1/feature.elementalist.level-1/elemental-specialization) grants you a feature, as shown on the 2nd-Level [Elemental Specialization](scc.v1:mcdm.heroes.v1/feature.elementalist.level-1/elemental-specialization) Features table.
+
+        ###### 2nd-Level Elemental Specialization Features Table
+
+        | Specialization | Feature                   |
+        |----------------|---------------------------|
+        | Earth          | [Disciple of Earth](scc.v1:mcdm.heroes.v1/feature.elementalist.level-2/disciple-of-earth)         |
+        | Fire           | [Disciple of Fire](scc.v1:mcdm.heroes.v1/feature.elementalist.level-2/disciple-of-fire)          |
+        | Green          | [Disciple of the Green](scc.v1:mcdm.heroes.v1/feature.elementalist.level-2/disciple-of-the-green)     |
+        | Void           | [There Is No Space Between](scc.v1:mcdm.heroes.v1/feature.ability.elementalist.level-2/there-is-no-space-between) |
+feature_type: feature
+metadata:
+    class: elementalist
+    level: "2"
+    name: 2nd-Level Specialization Feature
+    scc: mcdm.heroes.v1/feature.elementalist.level-2/2nd-level-specialization-feature
+    type: feature
+name: 2nd-Level Specialization Feature
+type: feature
+```

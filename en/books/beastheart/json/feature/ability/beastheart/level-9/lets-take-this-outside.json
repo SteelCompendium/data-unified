@@ -1,0 +1,41 @@
+{
+  "cost": "11 Ferocity",
+  "distance": "Melee 1",
+  "effects": [
+    {
+      "effect": "You, your companion, and the target enter the heart of an eternal storm on Quintessence. The three of you can't affect or be affected by any creatures except each other. Creatures in this area are always adjacent to each other and can't move or [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) away from each other, but can otherwise act normally.",
+      "name": "Effect"
+    }
+  ],
+  "feature_type": "ability",
+  "flavor": "Your companion drags your chosen foe into storms of the Primordial Plane.",
+  "keywords": [
+    "Companion",
+    "Magic"
+  ],
+  "metadata": {
+    "action_type": "Main action",
+    "class": "beastheart",
+    "content": "*Your companion drags your chosen foe into storms of the Primordial Plane.*\n\n| **Companion, Magic** | **Main action** |\n|----------------------|----------------:|\n| **📏 Melee 1**       | **🎯 One creature** |\n\n**Effect:** You, your companion, and the target enter the heart of an eternal storm on Quintessence. The three of you can't affect or be affected by any creatures except each other. Creatures in this area are always adjacent to each other and can't move or [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) away from each other, but can otherwise act normally.\n\nWhile on Quintessence, the target takes 5 cold damage, 5 fire damage, 5 lightning damage, and 5 sonic damage at the start of each of your turns.\n\nThe effect ends when one of you dies or you end it as a free maneuver. The target can make a save at the end of each of their turns to end the effect early. When the effect ends, you each reappear in the space you left or the nearest unoccupied space. If the target dies on Quintessence, their remains do not return.",
+    "distance": "Melee 1",
+    "feature_type": "ability",
+    "flavor": "Your companion drags your chosen foe into storms of the Primordial Plane.",
+    "item_id": "lets-take-this-outside",
+    "item_name": "Let's Take This Outside",
+    "keywords": [
+      "Companion",
+      "Magic"
+    ],
+    "level": 9,
+    "scc": [
+      "mcdm.beastheart.v1/feature.ability.beastheart.level-9/lets-take-this-outside"
+    ],
+    "subclass": "prowler",
+    "target": "One creature",
+    "type": "feature/ability/beastheart/level-9"
+  },
+  "name": "Let's Take This Outside",
+  "target": "One creature",
+  "type": "feature",
+  "usage": "Main action"
+}

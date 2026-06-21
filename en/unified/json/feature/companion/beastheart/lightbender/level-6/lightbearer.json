@@ -1,0 +1,22 @@
+{
+  "effects": [
+    {
+      "effect": "While the lightbender is rampaging, you can use a free maneuver to glow with blinding light that lasts until the rampage ends or you use this ability again. While glowing, your skin sheds light for 10 squares and strikes against you take a bane."
+    }
+  ],
+  "feature_type": "feature",
+  "metadata": {
+    "action_type": "feature",
+    "class": "beastheart",
+    "feature_type": "feature",
+    "item_id": "lightbearer",
+    "item_name": "Lightbearer",
+    "level": 6,
+    "scc": [
+      "mcdm.beastheart.v1/feature.companion.beastheart.lightbender.level-6/lightbearer"
+    ],
+    "type": "feature/companion/beastheart/lightbender/level-6"
+  },
+  "name": "Lightbearer",
+  "type": "feature"
+}

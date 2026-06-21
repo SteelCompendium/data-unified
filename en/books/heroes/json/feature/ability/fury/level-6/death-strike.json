@@ -1,0 +1,45 @@
+{
+  "ability_type": "Triggered",
+  "cost": "9 Ferocity",
+  "distance": "[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1",
+  "effects": [
+    {
+      "effect": "You target a creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to you with the same strike, using the same [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) as the triggering strike.",
+      "name": "Effect"
+    }
+  ],
+  "feature_type": "ability",
+  "flavor": "Once you taste your foe's blood, you become more efficient and [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) every killing blow into an opportunity.",
+  "keywords": [
+    "[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)",
+    "[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)",
+    "Weapon"
+  ],
+  "metadata": {
+    "ability_type": "Triggered",
+    "action_type": "Free triggered",
+    "class": "fury",
+    "content": "\n*Once you taste your foe's blood, you become more efficient and [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) every killing blow into an opportunity.*\n\n| **[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), Weapon** | **Free triggered** |\n|---------------------------|-------------------:|\n| **📏 [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1**            |        **🎯 Self** |\n\n**Trigger:** You reduce a creature to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) with a [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike).\n\n**Effect:** You target a creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to you with the same strike, using the same [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) as the triggering strike.",
+    "distance": "[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1",
+    "feature_type": "ability",
+    "flavor": "Once you taste your foe's blood, you become more efficient and [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) every killing blow into an opportunity.",
+    "item_id": "death-strike",
+    "item_name": "Death Strike",
+    "keywords": [
+      "[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)",
+      "[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)",
+      "Weapon"
+    ],
+    "level": 6,
+    "scc": [
+      "mcdm.heroes.v1/feature.ability.fury.level-6/death-strike"
+    ],
+    "target": "Self",
+    "type": "feature/ability/fury/level-6"
+  },
+  "name": "Death Strike",
+  "target": "Self",
+  "trigger": "You reduce a creature to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) with a [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike).",
+  "type": "feature",
+  "usage": "Free triggered"
+}

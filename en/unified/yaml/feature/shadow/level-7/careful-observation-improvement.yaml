@@ -1,0 +1,15 @@
+effects:
+    - effect: You can target two creatures simultaneously with your [Careful Observation](scc.v1:mcdm.heroes.v1/feature.ability.shadow.level-3/careful-observation) ability, observing both simultaneously. Making a [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) against one target doesn't end your observation of the other target.
+feature_type: feature
+metadata:
+    action_type: feature
+    class: shadow
+    feature_type: feature
+    item_id: careful-observation-improvement
+    item_name: Careful Observation Improvement
+    level: 7
+    scc:
+        - mcdm.heroes.v1/feature.shadow.level-7/careful-observation-improvement
+    type: feature/shadow/level-7
+name: Careful Observation Improvement
+type: feature

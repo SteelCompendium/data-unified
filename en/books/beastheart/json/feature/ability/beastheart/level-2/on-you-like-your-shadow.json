@@ -1,0 +1,53 @@
+{
+  "cost": "5 Ferocity",
+  "distance": "Melee 1",
+  "effects": [
+    {
+      "roll": "Power Roll + Might",
+      "tier1": "5 + M damage",
+      "tier2": "8 + M damage",
+      "tier3": "12 + M damage"
+    },
+    {
+      "effect": "Your companion enters the target's space. Until your companion is no longer in the target's space, they can end their turn in that space, strikes against them also affect the target, and your strikes against the target gain an edge.",
+      "name": "Effect"
+    }
+  ],
+  "feature_type": "ability",
+  "flavor": "Your companion darts around their target, staying out of reach and using them as a shield.",
+  "keywords": [
+    "Charge",
+    "Companion",
+    "Melee",
+    "Strike",
+    "Weapon"
+  ],
+  "metadata": {
+    "action_type": "Main action",
+    "class": "beastheart",
+    "content": "*Your companion darts around their target, staying out of reach and using them as a shield.*\n\n| **Charge, Companion, Melee, Strike, Weapon** | **Main action** |\n|----------------------------------------------|----------------:|\n| **📏 Melee 1**                               | **🎯 One creature or object** |\n\n**Power Roll + Might:**\n\n- **≤11:** 5 + M damage\n- **12-16:** 8 + M damage\n- **17+:** 12 + M damage\n\n**Effect:** Your companion enters the target's space. Until your companion is no longer in the target's space, they can end their turn in that space, strikes against them also affect the target, and your strikes against the target gain an edge.",
+    "distance": "Melee 1",
+    "feature_type": "ability",
+    "flavor": "Your companion darts around their target, staying out of reach and using them as a shield.",
+    "item_id": "on-you-like-your-shadow",
+    "item_name": "On You Like Your Shadow",
+    "keywords": [
+      "Charge",
+      "Companion",
+      "Melee",
+      "Strike",
+      "Weapon"
+    ],
+    "level": 2,
+    "scc": [
+      "mcdm.beastheart.v1/feature.ability.beastheart.level-2/on-you-like-your-shadow"
+    ],
+    "subclass": "prowler",
+    "target": "One creature or object",
+    "type": "feature/ability/beastheart/level-2"
+  },
+  "name": "On You Like Your Shadow",
+  "target": "One creature or object",
+  "type": "feature",
+  "usage": "Main action"
+}

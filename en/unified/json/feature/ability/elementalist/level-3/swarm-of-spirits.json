@@ -1,0 +1,48 @@
+{
+  "cost": "7 Essence",
+  "distance": "3 [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura)",
+  "effects": [
+    {
+      "roll": "Power Roll + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason)",
+      "tier1": "3 damage",
+      "tier2": "6 damage",
+      "tier3": "9 damage"
+    },
+    {
+      "effect": "Until the end of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), each ally in the area has each of their [characteristic](scc.v1:mcdm.heroes.v1/rule.character/characteristic) scores treated as 1 higher for the purpose of resisting [potencies](scc.v1:mcdm.heroes.v1/rule.character/potency), and has a +1 [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to [saving throws](scc.v1:mcdm.heroes.v1/rule.general/saving-throw).",
+      "name": "Effect"
+    }
+  ],
+  "feature_type": "ability",
+  "flavor": "Guardian animal spirits surround you to harry your foes and bolster your allies.",
+  "keywords": [
+    "Area",
+    "Green",
+    "Magic"
+  ],
+  "metadata": {
+    "action_type": "Main action",
+    "class": "elementalist",
+    "content": "\n*Guardian animal spirits surround you to harry your foes and bolster your allies.*\n\n| **Area, Green, Magic** |               **Main action** |\n|------------------------|------------------------------:|\n| **📏 3 [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura)**          | **🎯 Each enemy in the area** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason):**\n\n- **≤11:** 3 damage\n- **12-16:** 6 damage\n- **17+:** 9 damage\n\n**Effect:** Until the end of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), each ally in the area has each of their [characteristic](scc.v1:mcdm.heroes.v1/rule.character/characteristic) scores treated as 1 higher for the purpose of resisting [potencies](scc.v1:mcdm.heroes.v1/rule.character/potency), and has a +1 [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to [saving throws](scc.v1:mcdm.heroes.v1/rule.general/saving-throw).\n\n**Persistent 1:** You make the [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) again to target each enemy in the area without spending essence, and the effect lasts until the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn).",
+    "distance": "3 [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura)",
+    "feature_type": "ability",
+    "flavor": "Guardian animal spirits surround you to harry your foes and bolster your allies.",
+    "item_id": "swarm-of-spirits",
+    "item_name": "Swarm of Spirits",
+    "keywords": [
+      "Area",
+      "Green",
+      "Magic"
+    ],
+    "level": 3,
+    "scc": [
+      "mcdm.heroes.v1/feature.ability.elementalist.level-3/swarm-of-spirits"
+    ],
+    "target": "Each enemy in the area",
+    "type": "feature/ability/elementalist/level-3"
+  },
+  "name": "Swarm of Spirits",
+  "target": "Each enemy in the area",
+  "type": "feature",
+  "usage": "Main action"
+}

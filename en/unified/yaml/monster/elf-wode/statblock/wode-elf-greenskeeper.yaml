@@ -1,0 +1,60 @@
+agility: 2
+ev: "6"
+features:
+    - ability_type: Signature Ability
+      distance: Melee 1
+      effects:
+        - roll: Power Roll + 2
+          tier1: 5 damage
+          tier2: 7 damage
+          tier3: 9 damage
+      feature_type: ability
+      icon: "\U0001F5E1"
+      keywords:
+        - Melee
+        - Strike
+        - Weapon
+      name: Growing Longsword
+      target: One creature or object
+      type: feature
+      usage: Main action
+    - cost: 3 Malice
+      distance: 3 cube within 10
+      effects:
+        - effect: '**Effect:** The area is overgrown with heavy brush and brambles until the end of the encounter, providing cover and concealment for the greenskeeper and their allies. The area is [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain) for enemies and any enemy who starts their turn in the area takes 3 damage.'
+      feature_type: ability
+      icon: "\U0001F533"
+      keywords:
+        - Area
+        - Ranged
+      name: Overgrowth
+      target: Special
+      type: feature
+      usage: Maneuver
+    - effects:
+        - effect: Abilities targeting the greenskeeper that would take a bane from cover or concealment have a double bane instead.
+      feature_type: trait
+      icon: ⭐️
+      name: Masking Glamor
+      type: feature
+free_strike: 3
+intuition: 0
+keywords:
+    - Fey
+    - Humanoid
+    - Wode Elf
+level: 1
+metadata:
+    scc: mcdm.monsters.v1/monster.elf-wode.statblock/wode-elf-greenskeeper
+    source: mcdm.monsters.v1
+might: 0
+name: Wode Elf Greenskeeper
+organization: Platoon
+presence: 1
+reason: 0
+role: Defender
+size: 1M
+speed: 7
+stability: 0
+stamina: "40"
+type: statblock

@@ -1,0 +1,58 @@
+{
+  "ability": {
+    "ability_type": "Signature",
+    "distance": "1 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)",
+    "effects": [
+      {
+        "roll": "Power Roll + [Might](scc.v1:mcdm.heroes.v1/rule.character/might) or [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence)",
+        "tier1": "2 damage",
+        "tier2": "5 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1",
+        "tier3": "7 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2"
+      }
+    ],
+    "feature_type": "ability",
+    "flavor": "You let loose a mighty roar to shake your foes' spirits.",
+    "keywords": [
+      "Area",
+      "Magic"
+    ],
+    "metadata": {
+      "ability_type": "Signature",
+      "action_type": "Main action",
+      "content": "*You let loose a mighty roar to shake your foes' spirits.*\n\n| **Area, Magic** |               **Main action** |\n|-----------------|------------------------------:|\n| **📏 1 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)**  | **🎯 Each enemy in the area** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc.v1:mcdm.heroes.v1/rule.character/might) or [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence):**\n\n- **≤11:** 2 damage\n- **12-16:** 5 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1\n- **17+:** 7 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2",
+      "distance": "1 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)",
+      "feature_type": "ability",
+      "flavor": "You let loose a mighty roar to shake your foes' spirits.",
+      "item_id": "draconian-pride",
+      "item_name": "Draconian Pride",
+      "keywords": [
+        "Area",
+        "Magic"
+      ],
+      "target": "Each enemy in the area",
+      "type": "feature/ability/common"
+    },
+    "name": "Draconian Pride",
+    "target": "Each enemy in the area",
+    "type": "feature",
+    "usage": "Main action"
+  },
+  "effects": [
+    {
+      "effect": "You have the following [signature ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability)."
+    }
+  ],
+  "feature_type": "trait",
+  "metadata": {
+    "action_type": "feature",
+    "feature_type": "trait",
+    "item_id": "draconian-pride",
+    "item_name": "Draconian Pride",
+    "scc": [
+      "mcdm.heroes.v1/feature.trait.dragon-knight/draconian-pride"
+    ],
+    "type": "feature/trait/dragon-knight"
+  },
+  "name": "Draconian Pride",
+  "type": "feature"
+}

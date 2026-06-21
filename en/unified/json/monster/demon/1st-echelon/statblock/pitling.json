@@ -1,0 +1,78 @@
+{
+  "agility": 2,
+  "ev": "3 for four minions",
+  "features": [
+    {
+      "ability_type": "Signature Ability",
+      "distance": "Ranged 10",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "tier1": "2 poison damage",
+          "tier2": "4 poison damage",
+          "tier3": "5 poison damage"
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "🏹",
+      "keywords": [
+        "Ranged",
+        "Strike",
+        "Weapon"
+      ],
+      "name": "Spit",
+      "target": "One creature per minion",
+      "type": "feature",
+      "usage": "Main action"
+    },
+    {
+      "effects": [
+        {
+          "effect": "Any enemy who has three or more pitlings within 2 squares of them can't regain Stamina."
+        }
+      ],
+      "feature_type": "trait",
+      "icon": "⭐️",
+      "name": "Horrid Stench",
+      "type": "feature"
+    },
+    {
+      "effects": [
+        {
+          "effect": "Any creature within 2 squares of the pitling can't be hidden from them."
+        }
+      ],
+      "feature_type": "trait",
+      "icon": "⭐️",
+      "name": "Soulsight",
+      "type": "feature"
+    }
+  ],
+  "free_strike": 2,
+  "intuition": -2,
+  "keywords": [
+    "Abyssal",
+    "Demon"
+  ],
+  "level": 1,
+  "metadata": {
+    "scc": "mcdm.monsters.v1/monster.demon.1st-echelon.statblock/pitling",
+    "source": "mcdm.monsters.v1"
+  },
+  "might": -2,
+  "movement": "Fly",
+  "name": "Pitling",
+  "organization": "Minion",
+  "presence": -2,
+  "reason": -2,
+  "role": "Artillery",
+  "size": "1T",
+  "speed": 5,
+  "stability": 0,
+  "stamina": "3",
+  "type": "statblock",
+  "weaknesses": [
+    "Holy 3"
+  ],
+  "with_captain": "+2 bonus to speed"
+}

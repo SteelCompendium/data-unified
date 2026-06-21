@@ -1,0 +1,15 @@
+effects:
+    - effect: Choose one [heroic ability](scc.v1:mcdm.heroes.v1/rule.general/heroic-ability) from the following options, each of which costs 7 focus to use.
+feature_type: feature
+metadata:
+    action_type: feature
+    class: tactician
+    feature_type: feature
+    item_id: 7-focus-ability
+    item_name: 7-Focus Ability
+    level: 3
+    scc:
+        - mcdm.heroes.v1/feature.tactician.level-3/7-focus-ability
+    type: feature/tactician/level-3
+name: 7-Focus Ability
+type: feature

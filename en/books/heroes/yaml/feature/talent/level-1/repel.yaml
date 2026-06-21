@@ -1,0 +1,45 @@
+ability:
+    ability_type: Triggered
+    distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
+    effects:
+        - effect: The target takes half the triggering damage, or the [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance) of the triggering [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) is reduced by a number of squares equal to your [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) score. If the target took damage and was force moved, you choose the effect. If the [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) is reduced to 0 squares, the target can [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) the source of the [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) a number of squares equal to your [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) score.
+          name: Effect
+    feature_type: ability
+    flavor: They aren't going anywhere, but you might!
+    keywords:
+        - Psionic
+        - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'
+    metadata:
+        ability_type: Triggered
+        action_type: Triggered
+        content: "\n*They aren't going anywhere, but you might!*\n\n| **Psionic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)** |           **Triggered** |\n|---------------------|------------------------:|\n| **\U0001F4CF [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**    | **\U0001F3AF Self or one ally** |\n\n**Trigger:** The target takes damage or is [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement).\n\n**Effect:** The target takes half the triggering damage, or the [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance) of the triggering [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) is reduced by a number of squares equal to your [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) score. If the target took damage and was force moved, you choose the effect. If the [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) is reduced to 0 squares, the target can [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) the source of the [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) a number of squares equal to your [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) score."
+        distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
+        feature_type: ability
+        flavor: They aren't going anywhere, but you might!
+        item_id: repel
+        item_name: Repel
+        keywords:
+            - Psionic
+            - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'
+        target: Self or one ally
+        type: feature/ability/common
+    name: Repel
+    target: Self or one ally
+    trigger: The target takes damage or is [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement).
+    type: feature
+    usage: Triggered
+effects:
+    - effect: You have the following ability.
+feature_type: feature
+metadata:
+    action_type: feature
+    class: talent
+    feature_type: feature
+    item_id: repel
+    item_name: Repel
+    level: 1
+    scc:
+        - mcdm.heroes.v1/feature.talent.level-1/repel
+    type: feature/talent/level-1
+name: Repel
+type: feature

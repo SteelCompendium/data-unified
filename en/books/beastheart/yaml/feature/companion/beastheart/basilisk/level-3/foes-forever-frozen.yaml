@@ -1,0 +1,15 @@
+effects:
+    - effect: Whenever the basilisk makes a strike against a creature while rampaging, the target is stoned (save ends).
+feature_type: feature
+metadata:
+    action_type: feature
+    class: beastheart
+    feature_type: feature
+    item_id: foes-forever-frozen
+    item_name: Foes Forever Frozen
+    level: 3
+    scc:
+        - mcdm.beastheart.v1/feature.companion.beastheart.basilisk.level-3/foes-forever-frozen
+    type: feature/companion/beastheart/basilisk/level-3
+name: Foes Forever Frozen
+type: feature

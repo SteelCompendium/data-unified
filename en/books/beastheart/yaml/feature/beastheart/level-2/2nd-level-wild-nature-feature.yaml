@@ -1,0 +1,25 @@
+effects:
+    - effect: |-
+        Your wild nature grants you a feature, as shown on the 2nd-Level Wild Nature Features table.
+
+        ###### 2nd-Level Wild Nature Features
+
+        | Wild Nature | Feature |
+        | ---- | ---- |
+        | Guardian | [Watchdog](scc.v1:mcdm.beastheart.v1/feature.beastheart.level-2/watchdog) |
+        | Prowler |  [Supersniffer](scc.v1:mcdm.beastheart.v1/feature.beastheart.level-2/supersniffer) |
+        | Punisher | [This One’s Yours](scc.v1:mcdm.beastheart.v1/feature.beastheart.level-2/this-ones-yours) |
+        | Spark | [Stormheart](scc.v1:mcdm.beastheart.v1/feature.beastheart.level-2/stormheart) |
+feature_type: feature
+metadata:
+    action_type: feature
+    class: beastheart
+    feature_type: feature
+    item_id: 2nd-level-wild-nature-feature
+    item_name: 2nd-Level Wild Nature Feature
+    level: 2
+    scc:
+        - mcdm.beastheart.v1/feature.beastheart.level-2/2nd-level-wild-nature-feature
+    type: feature/beastheart/level-2
+name: 2nd-Level Wild Nature Feature
+type: feature

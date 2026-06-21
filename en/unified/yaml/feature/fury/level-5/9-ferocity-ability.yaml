@@ -1,0 +1,15 @@
+effects:
+    - effect: Choose one [heroic ability](scc.v1:mcdm.heroes.v1/rule.general/heroic-ability) from the following options, each of which costs 9 ferocity to use.
+feature_type: feature
+metadata:
+    action_type: feature
+    class: fury
+    feature_type: feature
+    item_id: 9-ferocity-ability
+    item_name: 9-Ferocity Ability
+    level: 5
+    scc:
+        - mcdm.heroes.v1/feature.fury.level-5/9-ferocity-ability
+    type: feature/fury/level-5
+name: 9-Ferocity Ability
+type: feature

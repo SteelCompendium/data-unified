@@ -1,0 +1,34 @@
+ability_type: Triggered
+cost: 9 Wrath
+distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
+effects:
+    - effect: The target is unaffected by the [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) and you become the target instead, even if you aren't a valid target for it. You take half the damage from the [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), and the target gains 3 [surges](scc.v1:mcdm.heroes.v1/rule.resource/surge).
+      name: Effect
+feature_type: ability
+flavor: You take your ally's place.
+keywords:
+    - Magic
+    - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'
+metadata:
+    ability_type: Triggered
+    action_type: Free triggered
+    class: censor
+    content: "\n*You take your ally's place.*\n\n| **Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)** | **Free triggered** |\n|-------------------|-------------------:|\n| **\U0001F4CF [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**  |    **\U0001F3AF One ally** |\n\n**Trigger:** A creature makes a [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) against the target.\n\n**Effect:** The target is unaffected by the [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) and you become the target instead, even if you aren't a valid target for it. You take half the damage from the [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), and the target gains 3 [surges](scc.v1:mcdm.heroes.v1/rule.resource/surge)."
+    distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
+    feature_type: ability
+    flavor: You take your ally's place.
+    item_id: intercede
+    item_name: Intercede
+    keywords:
+        - Magic
+        - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'
+    level: 6
+    scc:
+        - mcdm.heroes.v1/feature.ability.censor.level-6/intercede
+    target: One ally
+    type: feature/ability/censor/level-6
+name: Intercede
+target: One ally
+trigger: A creature makes a [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) against the target.
+type: feature
+usage: Free triggered

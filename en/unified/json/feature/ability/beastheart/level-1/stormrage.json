@@ -1,0 +1,55 @@
+{
+  "ability_type": "Signature",
+  "distance": "Melee 1 or ranged 5",
+  "effects": [
+    {
+      "roll": "Power Roll + Might",
+      "tier1": "2 + M cold, fire, lightning, or sonic damage",
+      "tier2": "4 + M cold, fire, lightning, or sonic damage",
+      "tier3": "6 + M cold, fire, lightning, or sonic damage"
+    },
+    {
+      "effect": "You can spend 1 surge without gaining its benefits. If you do, your companion can use this ability as a free triggered action, targeting a different creature or object with the same power roll, but they don't trigger this effect.",
+      "name": "Effect"
+    }
+  ],
+  "feature_type": "ability",
+  "flavor": "Lances of primordial energy leap from you and your companion to sear, crush, or freeze your foe.",
+  "keywords": [
+    "Beastheart",
+    "Magic",
+    "Melee",
+    "Ranged",
+    "Strike",
+    "Weapon"
+  ],
+  "metadata": {
+    "ability_type": "Signature",
+    "action_type": "Main action",
+    "class": "beastheart",
+    "content": "*Lances of primordial energy leap from you and your companion to sear, crush, or freeze your foe.*\n\n| **Beastheart, Magic, Melee, Ranged, Strike, Weapon** |              **Main action** |\n|------------------------------------------------------|-----------------------------:|\n| **📏 Melee 1 or ranged 5**                           | **🎯 One creature or object** |\n\n**Power Roll + Might:**\n\n- **≤11:** 2 + M cold, fire, lightning, or sonic damage\n- **12-16:** 4 + M cold, fire, lightning, or sonic damage\n- **17+:** 6 + M cold, fire, lightning, or sonic damage\n\n**Effect:** You can spend 1 surge without gaining its benefits. If you do, your companion can use this ability as a free triggered action, targeting a different creature or object with the same power roll, but they don't trigger this effect.",
+    "distance": "Melee 1 or ranged 5",
+    "feature_type": "ability",
+    "flavor": "Lances of primordial energy leap from you and your companion to sear, crush, or freeze your foe.",
+    "item_id": "stormrage",
+    "item_name": "Stormrage",
+    "keywords": [
+      "Beastheart",
+      "Magic",
+      "Melee",
+      "Ranged",
+      "Strike",
+      "Weapon"
+    ],
+    "level": 1,
+    "scc": [
+      "mcdm.beastheart.v1/feature.ability.beastheart.level-1/stormrage"
+    ],
+    "target": "One creature or object",
+    "type": "feature/ability/beastheart/level-1"
+  },
+  "name": "Stormrage",
+  "target": "One creature or object",
+  "type": "feature",
+  "usage": "Main action"
+}

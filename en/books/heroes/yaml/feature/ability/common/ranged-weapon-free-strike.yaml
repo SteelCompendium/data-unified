@@ -1,0 +1,32 @@
+ability_type: Free-strike
+distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 5'
+effects:
+    - roll: Power Roll + [Might](scc.v1:mcdm.heroes.v1/rule.character/might) or [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)
+      tier1: 2 + M or A damage
+      tier2: 4 + M or A damage
+      tier3: 6 + M or A damage
+feature_type: ability
+keywords:
+    - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'
+    - '[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)'
+    - Weapon
+metadata:
+    ability_type: Free-strike
+    action_type: Main action
+    content: "| **[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), Weapon**  |               **Main action** |\n|-----------------------------|------------------------------:|\n| **\U0001F4CF [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 5**             | **\U0001F3AF One creature or object** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc.v1:mcdm.heroes.v1/rule.character/might) or [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility):**\n\n- **≤11:** 2 + M or A damage\n- **12-16:** 4 + M or A damage\n- **17+:** 6 + M or A damage"
+    distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 5'
+    feature_type: ability
+    item_id: ranged-weapon-free-strike
+    item_name: Ranged Weapon Free Strike
+    keywords:
+        - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'
+        - '[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)'
+        - Weapon
+    scc:
+        - mcdm.heroes.v1/feature.ability.common/ranged-weapon-free-strike
+    target: One creature or object
+    type: feature/ability/common
+name: Ranged Weapon Free Strike
+target: One creature or object
+type: feature
+usage: Main action

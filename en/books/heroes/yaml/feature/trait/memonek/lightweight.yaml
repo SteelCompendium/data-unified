@@ -1,0 +1,13 @@
+effects:
+    - effect: Your body is light for a creature of your height. Whenever another creature attempts to force move you, you treat your [size](scc.v1:mcdm.heroes.v1/rule.character/size) as one [size](scc.v1:mcdm.heroes.v1/rule.character/size) smaller than it is.
+feature_type: trait
+metadata:
+    action_type: feature
+    feature_type: trait
+    item_id: lightweight
+    item_name: 'Signature Trait: Lightweight'
+    scc:
+        - mcdm.heroes.v1/feature.trait.memonek/lightweight
+    type: feature/trait/memonek
+name: 'Signature Trait: Lightweight'
+type: feature

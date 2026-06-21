@@ -1,0 +1,50 @@
+{
+  "cost": "5 Focus",
+  "distance": "[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1 or [ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 5",
+  "effects": [
+    {
+      "roll": "Power Roll + [Might](scc.v1:mcdm.heroes.v1/rule.character/might)",
+      "tier1": "5 + M damage; one ally within 10 squares of you can use a [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) [signature ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability) against the target as a free [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)",
+      "tier2": "9 + M damage; one ally within 10 squares of you can use a [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) [signature ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability) that gains an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) against the target as a free [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)",
+      "tier3": "12 + M damage; two allies within 10 squares of you can each use a [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) [signature ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability) that gains an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) against the target as a free [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)"
+    },
+    {
+      "effect": "If the target is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) before one or both chosen allies has made their [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), the ally or allies can pick a different target.",
+      "name": "Effect"
+    }
+  ],
+  "feature_type": "ability",
+  "flavor": "\"Let's not argue about who's the hammer and who's the anvil!\"",
+  "keywords": [
+    "[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)",
+    "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)",
+    "[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)",
+    "Weapon"
+  ],
+  "metadata": {
+    "action_type": "Main action",
+    "class": "tactician",
+    "content": "\n*\"Let's not argue about who's the hammer and who's the anvil!\"*\n\n| **[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), Weapon** |               **Main action** |\n|-----------------------------------|------------------------------:|\n| **📏 [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1 or [ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 5**        | **🎯 One creature or object** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc.v1:mcdm.heroes.v1/rule.character/might):**\n\n- **≤11:** 5 + M damage; one ally within 10 squares of you can use a [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) [signature ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability) against the target as a free [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)\n- **12-16:** 9 + M damage; one ally within 10 squares of you can use a [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) [signature ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability) that gains an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) against the target as a free [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)\n- **17+:** 12 + M damage; two allies within 10 squares of you can each use a [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) [signature ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability) that gains an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) against the target as a free [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)\n\n**Effect:** If the target is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) before one or both chosen allies has made their [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), the ally or allies can pick a different target.",
+    "distance": "[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1 or [ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 5",
+    "feature_type": "ability",
+    "flavor": "\"Let's not argue about who's the hammer and who's the anvil!\"",
+    "item_id": "hammer-and-anvil",
+    "item_name": "Hammer and Anvil",
+    "keywords": [
+      "[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)",
+      "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)",
+      "[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)",
+      "Weapon"
+    ],
+    "level": 1,
+    "scc": [
+      "mcdm.heroes.v1/feature.ability.tactician.level-1/hammer-and-anvil"
+    ],
+    "target": "One creature or object",
+    "type": "feature/ability/tactician/level-1"
+  },
+  "name": "Hammer and Anvil",
+  "target": "One creature or object",
+  "type": "feature",
+  "usage": "Main action"
+}

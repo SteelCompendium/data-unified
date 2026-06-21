@@ -1,0 +1,67 @@
+{
+  "agility": 2,
+  "ev": "3 for four minions",
+  "features": [
+    {
+      "ability_type": "Signature Ability",
+      "distance": "Ranged 10",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "tier1": "2 damage",
+          "tier2": "4 damage",
+          "tier3": "5 damage"
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "🏹",
+      "keywords": [
+        "Ranged",
+        "Strike",
+        "Weapon"
+      ],
+      "name": "Crossbow",
+      "target": "One creature or object per minion",
+      "type": "feature",
+      "usage": "Main action"
+    },
+    {
+      "effects": [
+        {
+          "effect": "The archer ignores concealment if it's granted by a supernatural effect."
+        }
+      ],
+      "feature_type": "trait",
+      "icon": "⭐️",
+      "name": "Supernatural Insight",
+      "type": "feature"
+    }
+  ],
+  "free_strike": 2,
+  "immunities": [
+    "Corruption 1",
+    "psychic 1"
+  ],
+  "intuition": 0,
+  "keywords": [
+    "Human",
+    "Humanoid"
+  ],
+  "level": 1,
+  "metadata": {
+    "scc": "mcdm.monsters.v1/monster.human.statblock/human-archer",
+    "source": "mcdm.monsters.v1"
+  },
+  "might": 0,
+  "name": "Human Archer",
+  "organization": "Minion",
+  "presence": 0,
+  "reason": 0,
+  "role": "Artillery",
+  "size": "1M",
+  "speed": 5,
+  "stability": 0,
+  "stamina": "3",
+  "type": "statblock",
+  "with_captain": "+5 bonus to ranged distance"
+}

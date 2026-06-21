@@ -1,0 +1,10 @@
+---
+class: beastheart
+companion: wolf
+level: "1"
+name: Retriever
+scc: mcdm.beastheart.v1/feature.companion.beastheart.wolf.level-1/retriever
+type: feature
+---
+
+The wolf can move at full speed while they have a creature [grabbed](../../../../../condition/grabbed.md), no matter the [grabbed](../../../../../condition/grabbed.md) creature's size.

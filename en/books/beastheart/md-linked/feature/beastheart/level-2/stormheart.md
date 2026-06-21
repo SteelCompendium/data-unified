@@ -1,0 +1,10 @@
+---
+class: beastheart
+level: "2"
+name: Stormheart
+scc: mcdm.beastheart.v1/feature.beastheart.level-2/stormheart
+subclass: spark
+type: feature
+---
+
+Whenever you or your companion deals cold, fire, lightning, sonic, or untyped damage, you can change the damage type to cold, fire, lightning, or sonic damage.

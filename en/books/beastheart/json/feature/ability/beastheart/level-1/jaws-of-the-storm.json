@@ -1,0 +1,46 @@
+{
+  "distance": "2 cube within 5",
+  "effects": [
+    {
+      "effect": "Each target takes cold, fire, lightning, or sonic damage (your choice) equal to your Might score.",
+      "name": "Effect"
+    },
+    {
+      "cost": "Spend 1 Ferocity",
+      "effect": "The size of the cube increases by 1."
+    }
+  ],
+  "feature_type": "ability",
+  "flavor": "Your foes are torn by a tempest of primordial teeth and claws.",
+  "keywords": [
+    "Area",
+    "Beastheart",
+    "Magic"
+  ],
+  "metadata": {
+    "action_type": "Maneuver",
+    "class": "beastheart",
+    "content": "*Your foes are torn by a tempest of primordial teeth and claws.*\n\n| **Area, Beastheart, Magic** |                  **Maneuver** |\n|-----------------------------|------------------------------:|\n| **📏 2 cube within 5**      | **🎯 Each enemy in the area** |\n\n**Effect:** Each target takes cold, fire, lightning, or sonic damage (your choice) equal to your Might score.\n\n**Spend 1 Ferocity:** The size of the cube increases by 1.",
+    "distance": "2 cube within 5",
+    "feature_type": "ability",
+    "flavor": "Your foes are torn by a tempest of primordial teeth and claws.",
+    "item_id": "jaws-of-the-storm",
+    "item_name": "Jaws of the Storm",
+    "keywords": [
+      "Area",
+      "Beastheart",
+      "Magic"
+    ],
+    "level": 1,
+    "scc": [
+      "mcdm.beastheart.v1/feature.ability.beastheart.level-1/jaws-of-the-storm"
+    ],
+    "subclass": "spark",
+    "target": "Each enemy in the area",
+    "type": "feature/ability/beastheart/level-1"
+  },
+  "name": "Jaws of the Storm",
+  "target": "Each enemy in the area",
+  "type": "feature",
+  "usage": "Maneuver"
+}

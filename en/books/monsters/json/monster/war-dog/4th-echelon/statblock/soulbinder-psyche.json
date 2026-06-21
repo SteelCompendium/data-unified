@@ -1,0 +1,157 @@
+{
+  "agility": 3,
+  "ev": "48",
+  "features": [
+    {
+      "ability_type": "Signature Ability",
+      "distance": "Ranged 10",
+      "effects": [
+        {
+          "roll": "Power Roll + 5",
+          "tier1": "15 holy damage; R \u003c 3 the target is soulbound (save ends)",
+          "tier2": "20 holy damage; R \u003c 4 the target is soulbound (save ends)",
+          "tier3": "24 holy damage; R \u003c 5 the target is soulbound (save ends)"
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "🏹",
+      "keywords": [
+        "Magic",
+        "Ranged",
+        "Strike"
+      ],
+      "name": "Soulbind",
+      "target": "Two creatures or objects",
+      "type": "feature",
+      "usage": "Main action"
+    },
+    {
+      "cost": "2 Malice",
+      "distance": "3 cube within 10",
+      "effects": [
+        {
+          "roll": "Power Roll + 5",
+          "tier1": "8 corruption damage; P \u003c 3 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (EoT)",
+          "tier2": "12 corruption damage; P \u003c 4 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (EoT)",
+          "tier3": "15 corruption damage; P \u003c 5 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (EoT)"
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "🔳",
+      "keywords": [
+        "Area",
+        "Magic",
+        "Ranged"
+      ],
+      "name": "Soulstorm",
+      "target": "Each enemy in the area",
+      "type": "feature",
+      "usage": "Main action"
+    },
+    {
+      "distance": "5 burst",
+      "effects": [
+        {
+          "effect": "**Effect:** Each target takes 5 damage from a self-inflicted wound, and if they have M \u003c 4 Psyche [slides](scc.v1:mcdm.heroes.v1/movement/forced-movement) them up to 5 squares."
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "❇️",
+      "keywords": [
+        "Magic",
+        "Ranged"
+      ],
+      "name": "Command the Awakened",
+      "target": "Each soulbound enemy in the area",
+      "type": "feature",
+      "usage": "Maneuver"
+    },
+    {
+      "distance": "Self",
+      "effects": [
+        {
+          "effect": "**Trigger:** An enemy moves within 2 squares of Psyche.\n**Effect:** Psyche moves up to 5 squares, and has damage immunity 5 and ignores [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain) during this movement. The first time she moves through any creature during this movement, that creature takes 5 corruption damage."
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "❗️",
+      "keywords": [
+        "-"
+      ],
+      "name": "Spirit Form",
+      "target": "Self",
+      "type": "feature",
+      "usage": "Triggered action"
+    },
+    {
+      "distance": "Ranged 10",
+      "effects": [
+        {
+          "effect": "**Trigger:** A war dog within distance is made [winded](scc.v1:mcdm.heroes.v1/rule.health/winded) or reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).\n**Effect:** The target loses all their [surges](scc.v1:mcdm.heroes.v1/rule.resource/surge) and takes 5 corruption damage.\n**1 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice):** The target also takes a bane on their next strike."
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "❗️",
+      "keywords": [
+        "Ranged"
+      ],
+      "name": "Vengeance for the Slain",
+      "target": "One enemy",
+      "type": "feature",
+      "usage": "Free triggered action"
+    },
+    {
+      "effects": [
+        {
+          "effect": "When Psyche is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), her spirit surrounds the nearest war dog, who has damage immunity 2, deals an extra 5 damage on strikes, and can use the following Immortal Flare maneuver until the end of the encounter. That war dog also gains the Immortal Soul trait, and transfers this effect to the nearest war dog when they die."
+        }
+      ],
+      "feature_type": "trait",
+      "icon": "⭐️",
+      "name": "Immortal Soul",
+      "type": "feature"
+    },
+    {
+      "distance": "Ranged 10",
+      "effects": [
+        {
+          "effect": "**Effect:** The target takes 10 psychic damage."
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "🏹",
+      "keywords": [
+        "Magic",
+        "Ranged"
+      ],
+      "name": "Immortal Flare",
+      "target": "One creature or object",
+      "type": "feature",
+      "usage": "Maneuver"
+    }
+  ],
+  "free_strike": 10,
+  "intuition": 4,
+  "keywords": [
+    "Humanoid",
+    "Soulless",
+    "War Dog"
+  ],
+  "level": 10,
+  "metadata": {
+    "scc": "mcdm.monsters.v1/monster.war-dog.4th-echelon.statblock/soulbinder-psyche",
+    "source": "mcdm.monsters.v1"
+  },
+  "might": 1,
+  "movement": "Fly, hover",
+  "name": "Soulbinder Psyche",
+  "organization": "Elite",
+  "presence": 5,
+  "reason": 3,
+  "role": "Hexer",
+  "size": "1M",
+  "speed": 5,
+  "stability": 1,
+  "stamina": "220",
+  "type": "statblock"
+}

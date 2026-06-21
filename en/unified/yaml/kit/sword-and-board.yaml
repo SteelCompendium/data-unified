@@ -1,0 +1,39 @@
+content: "The [Sword and Board](scc.v1:mcdm.heroes.v1/kit/sword-and-board) kit doesn't just give you a shield—it makes the shield part of your offensive arsenal. With a medium weapon in one hand and a block of steel or solid oak in the other, you protect yourself while you control the battlefield.\n\n##### Equipment\n\nYou wear medium armor and wield a shield and a medium weapon.\n\n##### Kit Bonuses\n\n**[Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) [Bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties):** +9 per [echelon](scc.v1:mcdm.heroes.v1/rule.general/echelon)\n\n**[Stability](scc.v1:mcdm.heroes.v1/rule.character/stability) [Bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties):** +1\n\n**[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) Damage [Bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties):** +2/+2/+2\n\n**Disengage [Bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties):** +1\n\n##### Signature Ability\n\n###### Shield Bash\n\n*In your hands, a shield isn't just for protection.*\n\n| **[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), Weapon** |     **Main action** |\n|---------------------------|--------------------:|\n| **\U0001F4CF [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1**            | **\U0001F3AF One creature** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc.v1:mcdm.heroes.v1/rule.character/might) or [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility):**\n\n- **≤11:** 4 + M or A damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1\n- **12-16:** 7 + M or A damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2\n- **17+:** 9 + M or A damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3; M < STRONG[, prone](scc.v1:mcdm.heroes.v1/condition/prone)"
+equipment_text: You wear medium armor and wield a shield and a medium weapon.
+flavor: The Sword and Board kit doesn't just give you a shield—it makes the shield part of your offensive arsenal. With a medium weapon in one hand and a block of steel or solid oak in the other, you protect yourself while you control the battlefield.
+name: Sword and Board
+scc: mcdm.heroes.v1/kit/sword-and-board
+signature_ability:
+    ability_type: Signature
+    distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
+    effects:
+        - roll: Power Roll + [Might](scc.v1:mcdm.heroes.v1/rule.character/might) or [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)
+          tier1: 4 + M or A damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1
+          tier2: 7 + M or A damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2
+          tier3: 9 + M or A damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3; M < STRONG[, prone](scc.v1:mcdm.heroes.v1/condition/prone)
+    feature_type: ability
+    flavor: In your hands, a shield isn't just for protection.
+    keywords:
+        - '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)'
+        - '[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)'
+        - Weapon
+    metadata:
+        ability_type: Signature
+        action_type: Main action
+        content: "*In your hands, a shield isn't just for protection.*\n\n| **[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), Weapon** |     **Main action** |\n|---------------------------|--------------------:|\n| **\U0001F4CF [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1**            | **\U0001F3AF One creature** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc.v1:mcdm.heroes.v1/rule.character/might) or [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility):**\n\n- **≤11:** 4 + M or A damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1\n- **12-16:** 7 + M or A damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2\n- **17+:** 9 + M or A damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3; M < STRONG[, prone](scc.v1:mcdm.heroes.v1/condition/prone)"
+        distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
+        feature_type: ability
+        flavor: In your hands, a shield isn't just for protection.
+        item_id: shield-bash
+        item_name: Shield Bash
+        keywords:
+            - '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)'
+            - '[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)'
+            - Weapon
+        target: One creature
+        type: feature/ability/common
+    name: Shield Bash
+    target: One creature
+    type: feature
+    usage: Main action
+type: kit

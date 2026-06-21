@@ -1,0 +1,26 @@
+---
+benefit: 'You have one skill of your choice from the [lore skill group](scc.v1:mcdm.heroes.v1/skill.group/lore), and you can use the Study Lore project (see below) up to three times for that skill. Each time you use the project, you must use a different [project source](scc.v1:mcdm.heroes.v1/rule.downtime/project-source), and the project goal increases. (See Chapter 12: [Downtime Projects](scc.v1:mcdm.heroes.v1/chapter/downtime-projects).)'
+drawback: You can't imagine ever being wrong on the topic of your obsession. Whenever you make a [test](scc.v1:mcdm.heroes.v1/rule.test/test) to recall lore using your chosen skill, the Director makes the [test](scc.v1:mcdm.heroes.v1/rule.test/test) in secret. Instead of informing you whether you're right or wrong, they provide you with correct information if you succeeded and false information if you failed.
+flavor: Ever since you were a kid, you've been obsessed with a certain topic. During your travels, you spend your free time gleaning all the information you can on that obsession. You might not be the world's leading expert quite yet, but people should certainly trust your opinion on the topic.
+name: Consuming Interest
+scc: mcdm.heroes.v1/complication/consuming-interest
+type: complication
+---
+
+Ever since you were a kid, you've been obsessed with a certain topic. During your travels, you spend your free time gleaning all the information you can on that obsession. You might not be the world's leading expert quite yet, but people should certainly trust your opinion on the topic.
+
+**Benefit:** You have one skill of your choice from the [lore skill group](scc.v1:mcdm.heroes.v1/skill.group/lore), and you can use the Study Lore project (see below) up to three times for that skill. Each time you use the project, you must use a different [project source](scc.v1:mcdm.heroes.v1/rule.downtime/project-source), and the project goal increases. (See Chapter 12: [Downtime Projects](scc.v1:mcdm.heroes.v1/chapter/downtime-projects).)
+
+**Drawback:** You can't imagine ever being wrong on the topic of your obsession. Whenever you make a [test](scc.v1:mcdm.heroes.v1/rule.test/test) to recall lore using your chosen skill, the Director makes the [test](scc.v1:mcdm.heroes.v1/rule.test/test) in secret. Instead of informing you whether you're right or wrong, they provide you with correct information if you succeeded and false information if you failed.
+
+##### Study Lore
+
+**[Item Prerequisite](scc.v1:mcdm.heroes.v1/rule.downtime/item-prerequisite):** None
+
+**[Project Source](scc.v1:mcdm.heroes.v1/rule.downtime/project-source):** A significant source of information on the topic of your obsession, such as a major library or a world-[renown](scc.v1:mcdm.heroes.v1/rule.resource/renown)ed sage 
+
+**[Project Roll](scc.v1:mcdm.heroes.v1/rule.downtime/project-roll) [Characteristic](scc.v1:mcdm.heroes.v1/rule.character/characteristic):** [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason)
+
+**Project Goal:** 120, 150, 180
+
+Each time you complete this project, your knowledge of your chosen field expands, and the [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to [tests](scc.v1:mcdm.heroes.v1/rule.test/test) provided by your chosen skill increases by 1.

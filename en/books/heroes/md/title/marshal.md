@@ -1,0 +1,19 @@
+---
+effect: 'Choose one of the following benefits:'
+flavor: I said you had twenty-four hours to leave town. That was... what, about twenty-four hours ago?
+name: Marshal
+prerequisite: 'You join an organization that hunts criminals, such as the Far Mariners (see [Orden](scc.v1:mcdm.heroes.v1/rule.world/orden) and the Timescape in Chapter 1: [The Basics](scc.v1:mcdm.heroes.v1/chapter/the-basics)), or you are deputized to act for the local authorities.'
+scc: mcdm.heroes.v1/title/marshal
+type: title
+---
+
+*I said you had twenty-four hours to leave town. That was... what, about twenty-four hours ago?*
+
+**Prerequisite:** You join an organization that hunts criminals, such as the Far Mariners (see [Orden](scc.v1:mcdm.heroes.v1/rule.world/orden) and the Timescape in Chapter 1: [The Basics](scc.v1:mcdm.heroes.v1/chapter/the-basics)), or you are deputized to act for the local authorities.
+
+**Effect:** Choose one of the following benefits:
+
+- *Guess It's the Hard Way Then:* When combat begins and you aren't [surprised](scc.v1:mcdm.heroes.v1/rule.combat/surprised), the first time you take damage before taking your [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), you halve that damage.
+- *Heedless Pursuer:* Once on each of your [turns](scc.v1:mcdm.heroes.v1/rule.combat/turn), you can use a [free maneuver](scc.v1:mcdm.heroes.v1/rule.combat/free-maneuver) to deal yourself 1d6 damage that can't be reduced in any way. When you do, you ignore [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain) and you can increase the [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance) of any jump you make by 1 square, both until the end of your [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn).
+- *Silver Shield:* You have a badge granted to you by your organization. While you wear it, you gain the My Life for Yours feature from the [censor](scc.v1:mcdm.heroes.v1/class/censor) class. When you use that ability, you can't spend wrath unless you have the Wrath class feature.
+- *Trained Tracker:* You gain an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on [tests](scc.v1:mcdm.heroes.v1/rule.test/test) made to track criminals.

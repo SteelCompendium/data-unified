@@ -1,0 +1,68 @@
+---
+agility: 2
+ev: "3"
+file_basename: skeleton
+file_dpath: monster/undead/1st-echelon/statblock
+free_strike: 2
+immunities:
+    - Corruption 1
+    - poison 1
+intuition: 0
+item_id: skeleton
+item_name: Skeleton
+keywords:
+    - Undead
+    - Soulless
+level: 1
+might: 0
+name: Skeleton
+organization: Horde
+presence: -1
+reason: 1
+role: Artillery
+scc: mcdm.monsters.v1/monster.undead.1st-echelon.statblock/skeleton
+size: 1M
+source: mcdm.monsters.v1
+speed: 5
+stability: 0
+stamina: "10"
+type: statblock
+---
+
+|            Undead, Soulless            |         -         |      Level 1      |    Horde Artillery    |         EV 3         |
+|:--------------------------------------:|:-----------------:|:-----------------:|:---------------------:|:--------------------:|
+|             **1M**<br>Size             |  **5**<br>Speed   | **10**<br>Stamina |  **0**<br>Stability   | **2**<br>Free Strike |
+| **Corruption 1, poison 1**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
+|             **0**<br>Might             | **+2**<br>Agility | **+1**<br>Reason  |  **0**<br>Intuition   |  **-1**<br>Presence  |
+
+> ⚔️ **Bone Shards ([Signature Ability](../../../../rule/combat/signature-ability.md))**
+>
+> | **Melee, Ranged, Strike, Weapon** |               **Main action** |
+> |-----------------------------------|------------------------------:|
+> | **📏 Melee 1 or ranged 10**       | **🎯 One creature or object** |
+>
+> **Power Roll + 2:**
+>
+> - **≤11:** 4 damage
+> - **12-16:** 6 damage
+> - **17+:** 7 damage
+>
+> **Effect:** Until the start of the skeleton's next turn, the target takes 2 damage the first time they willingly move on their turn.
+
+> ❇️ **Bone Spur (2 [Malice](../../../../rule/monster/malice.md))**
+>
+> | **Area, Weapon** |                  **Maneuver** |
+> |------------------|------------------------------:|
+> | **📏 1 burst**   | **🎯 Each enemy in the area** |
+>
+> **Power Roll + 2:**
+>
+> - **≤11:** 1 damage; M < 0 [bleeding](../../../../condition/bleeding.md) (save ends)
+> - **12-16:** 2 damage; M < 1 [bleeding](../../../../condition/bleeding.md) (save ends)
+> - **17+:** 3 damage; M < 2 [bleeding](../../../../condition/bleeding.md) (save ends)
+>
+> **Effect:** Each target takes a bane on their next strike.
+
+> ⭐️ **Arise**
+>
+> The first time the skeleton is reduced to 0 [Stamina](../../../../rule/health/stamina.md) by damage that isn't fire damage or holy damage and their body isn't destroyed, they instead have 1 [Stamina](../../../../rule/health/stamina.md) and fall [prone](../../../../condition/prone.md).

@@ -1,0 +1,7 @@
+{
+  "content": "Unless otherwise stated, the following treasures and titles can be wielded by a [summoner](scc.v1:mcdm.summoner.v1/class/summoner) or any hero who comes upon one.\n\n## New Trinkets\n\nThe following new [trinkets](scc.v1:mcdm.heroes.v1/rule.treasure/trinket) are available to add to your game.\n\n## New Leveled Treasures\n\nThe following new [leveled treasures](scc.v1:mcdm.heroes.v1/rule.treasure/leveled-treasure) are available to add to your game.\n\n## New Titles\n\nThe following titles are available to add to your game.",
+  "name": "Rewards",
+  "order": 2,
+  "scc": "mcdm.summoner.v1/chapter/rewards",
+  "type": "chapter"
+}

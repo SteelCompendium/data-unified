@@ -1,0 +1,86 @@
+{
+  "agility": 1,
+  "ev": "3",
+  "features": [
+    {
+      "ability_type": "Signature Ability",
+      "distance": "Ranged 15",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "tier1": "3 corruption damage; I \u003c 0 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)",
+          "tier2": "4 corruption damage; I \u003c 1 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)",
+          "tier3": "5 corruption damage; I \u003c 2 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)"
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "🏹",
+      "keywords": [
+        "Magic",
+        "Ranged",
+        "Strike"
+      ],
+      "name": "Eye of Surlach",
+      "target": "One creature",
+      "type": "feature",
+      "usage": "Main action"
+    },
+    {
+      "cost": "1 Malice",
+      "distance": "Ranged 10",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "tier1": "I \u003c 0 [prone](scc.v1:mcdm.heroes.v1/condition/prone)",
+          "tier2": "I \u003c 1 [prone](scc.v1:mcdm.heroes.v1/condition/prone) and can't stand (EoT)",
+          "tier3": "[Prone](scc.v1:mcdm.heroes.v1/condition/prone); I \u003c 2 can't stand (save ends)"
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "🏹",
+      "keywords": [
+        "Magic",
+        "Ranged",
+        "Strike"
+      ],
+      "name": "Dizzying Hex",
+      "target": "One creature",
+      "type": "feature",
+      "usage": "Maneuver"
+    },
+    {
+      "effects": [
+        {
+          "effect": "The cursespitter doesn't provoke [opportunity attacks](scc.v1:mcdm.heroes.v1/rule.combat/opportunity-attack) by moving."
+        }
+      ],
+      "feature_type": "trait",
+      "icon": "⭐️",
+      "name": "Crafty",
+      "type": "feature"
+    }
+  ],
+  "free_strike": 1,
+  "intuition": 2,
+  "keywords": [
+    "Goblin",
+    "Humanoid"
+  ],
+  "level": 1,
+  "metadata": {
+    "scc": "mcdm.monsters.v1/monster.goblin.statblock/goblin-cursespitter",
+    "source": "mcdm.monsters.v1"
+  },
+  "might": -2,
+  "movement": "Climb",
+  "name": "Goblin Cursespitter",
+  "organization": "Horde",
+  "presence": 0,
+  "reason": 0,
+  "role": "Hexer",
+  "size": "1S",
+  "speed": 5,
+  "stability": 0,
+  "stamina": "10",
+  "type": "statblock"
+}

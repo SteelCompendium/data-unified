@@ -1,0 +1,31 @@
+ability_type: Triggered
+distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
+effects:
+    - effect: The target makes a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against the creature who made the triggering strike.
+      name: Effect
+feature_type: ability
+flavor: '"I''d have brought treats had I known I''d be fighting a dog."'
+keywords:
+    - '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)'
+metadata:
+    ability_type: Triggered
+    action_type: Triggered
+    class: troubadour
+    content: "\n*\"I'd have brought treats had I known I'd be fighting a dog.\"*\n\n| **[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)**      |           **Triggered** |\n|----------------|------------------------:|\n| **\U0001F4CF [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1** | **\U0001F3AF Self or one ally** |\n\n**Trigger:** The target takes damage from a [melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike).\n\n**Effect:** The target makes a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against the creature who made the triggering strike."
+    distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
+    feature_type: ability
+    flavor: '"I''d have brought treats had I known I''d be fighting a dog."'
+    item_id: riposte
+    item_name: Riposte
+    keywords:
+        - '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)'
+    level: 1
+    scc:
+        - mcdm.heroes.v1/feature.ability.troubadour.level-1/riposte
+    target: Self or one ally
+    type: feature/ability/troubadour/level-1
+name: Riposte
+target: Self or one ally
+trigger: The target takes damage from a [melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike).
+type: feature
+usage: Triggered

@@ -1,0 +1,22 @@
+{
+  "effects": [
+    {
+      "effect": "You have an epic resource called command. Each time you finish a [respite](scc.v1:mcdm.heroes.v1/rule.resource/respite), you gain command equal to the [XP](scc.v1:mcdm.heroes.v1/rule.resource/experience) you gain. You can spend command on your abilities as if it were focus.\n\nAdditionally, whenever you or any ally uses an ability to deal [rolled damage](scc.v1:mcdm.heroes.v1/rule.damage/rolled-damage) to a creature marked by you, you can spend 1 command as a free [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action) to increase the [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) outcome for that target by one tier. Whenever an enemy marked by you makes an [ability roll](scc.v1:mcdm.heroes.v1/rule.dice/ability-roll), you can spend 1 command as a free [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action) to decrease the [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) outcome by one tier.\n\nCommand remains until you spend it."
+    }
+  ],
+  "feature_type": "feature",
+  "metadata": {
+    "action_type": "feature",
+    "class": "tactician",
+    "feature_type": "feature",
+    "item_id": "command",
+    "item_name": "Command",
+    "level": 10,
+    "scc": [
+      "mcdm.heroes.v1/feature.tactician.level-10/command"
+    ],
+    "type": "feature/tactician/level-10"
+  },
+  "name": "Command",
+  "type": "feature"
+}

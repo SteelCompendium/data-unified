@@ -1,0 +1,22 @@
+{
+  "effects": [
+    {
+      "effect": "When you gain essence at the start of each of your [turns](scc.v1:mcdm.heroes.v1/rule.combat/turn) during combat, you gain 4 essence instead of 3."
+    }
+  ],
+  "feature_type": "feature",
+  "metadata": {
+    "action_type": "feature",
+    "class": "elementalist",
+    "feature_type": "feature",
+    "item_id": "essential-being",
+    "item_name": "Essential Being",
+    "level": 10,
+    "scc": [
+      "mcdm.heroes.v1/feature.elementalist.level-10/essential-being"
+    ],
+    "type": "feature/elementalist/level-10"
+  },
+  "name": "Essential Being",
+  "type": "feature"
+}

@@ -1,0 +1,36 @@
+ability_type: Signature
+distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
+effects:
+    - roll: Power Roll + [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)
+      tier1: 3 + I holy damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1
+      tier2: 5 + I holy damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2
+      tier3: 8 + I holy damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3
+feature_type: ability
+flavor: A blast of judgment disorients your foe.
+keywords:
+    - Magic
+    - '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)'
+    - '[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)'
+metadata:
+    ability_type: Signature
+    action_type: Main action
+    class: conduit
+    content: "\n*A blast of judgment disorients your foe.*\n\n| **Magic, [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)**  |               **Main action** |\n|---------------------------|------------------------------:|\n| **\U0001F4CF [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1**            | **\U0001F3AF One creature or object** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition):**\n\n- **≤11:** 3 + I holy damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1\n- **12-16:** 5 + I holy damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2\n- **17+:** 8 + I holy damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3"
+    distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
+    feature_type: ability
+    flavor: A blast of judgment disorients your foe.
+    item_id: staggering-curse
+    item_name: Staggering Curse
+    keywords:
+        - Magic
+        - '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)'
+        - '[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)'
+    level: 1
+    scc:
+        - mcdm.heroes.v1/feature.ability.conduit.level-1/staggering-curse
+    target: One creature or object
+    type: feature/ability/conduit/level-1
+name: Staggering Curse
+target: One creature or object
+type: feature
+usage: Main action

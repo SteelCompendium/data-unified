@@ -1,0 +1,39 @@
+cost: 9 Discipline
+distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
+effects:
+    - roll: Power Roll + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)
+      tier1: 10 + A damage; A < WEAK, [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)
+      tier2: 14 + A damage; A < AVERAGE, [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)
+      tier3: 18 + A damage; A < STRONG, [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)
+    - effect: While [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) this way, the target takes a [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) on the [Escape Grab](scc.v1:mcdm.heroes.v1/feature.common.maneuvers/escape-grab) maneuver. Each time they use that maneuver, they take damage equal to twice your [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility) score.
+      name: Effect
+feature_type: ability
+flavor: You grab the target with [supernatural](scc.v1:mcdm.heroes.v1/rule.general/supernatural) force.
+keywords:
+    - '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)'
+    - Psionic
+    - '[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)'
+    - Weapon
+metadata:
+    action_type: Main action
+    class: "null"
+    content: "\n*You grab the target with [supernatural](scc.v1:mcdm.heroes.v1/rule.general/supernatural) force.*\n\n| **[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), Psionic, [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), Weapon** |     **Main action** |\n|------------------------------------|--------------------:|\n| **\U0001F4CF [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1**                     | **\U0001F3AF One creature** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility):**\n\n- **≤11:** 10 + A damage; A < WEAK, [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)\n- **12-16:** 14 + A damage; A < AVERAGE, [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)\n- **17+:** 18 + A damage; A < STRONG, [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)\n\n**Effect:** While [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) this way, the target takes a [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) on the [Escape Grab](scc.v1:mcdm.heroes.v1/feature.common.maneuvers/escape-grab) maneuver. Each time they use that maneuver, they take damage equal to twice your [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility) score."
+    distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
+    feature_type: ability
+    flavor: You grab the target with [supernatural](scc.v1:mcdm.heroes.v1/rule.general/supernatural) force.
+    item_id: iron-grip
+    item_name: Iron Grip
+    keywords:
+        - '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)'
+        - Psionic
+        - '[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)'
+        - Weapon
+    level: 5
+    scc:
+        - mcdm.heroes.v1/feature.ability.null.level-5/iron-grip
+    target: One creature
+    type: feature/ability/null/level-5
+name: Iron Grip
+target: One creature
+type: feature
+usage: Main action

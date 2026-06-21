@@ -1,0 +1,14 @@
+---
+file_basename: pitfall
+file_dpath: rule/negotiation
+item_id: pitfall
+item_name: Pitfalls
+name: Pitfalls
+scc: mcdm.heroes.v1/rule.negotiation/pitfall
+source: mcdm.heroes.v1
+type: rule
+---
+
+Pitfalls are [motivations](scc.v1:mcdm.heroes.v1/rule.negotiation/motivation) that spark ire, discomfort, shame, fear, or some other negative response in an [NPC](scc.v1:mcdm.heroes.v1/rule.general/npc). Using a pitfall in an argument causes an [NPC](scc.v1:mcdm.heroes.v1/rule.general/npc)'s [interest](scc.v1:mcdm.heroes.v1/rule.negotiation/interest) and [patience](scc.v1:mcdm.heroes.v1/rule.negotiation/patience) to wane. Each [NPC](scc.v1:mcdm.heroes.v1/rule.general/npc) has at least one pitfall, and many have at least two.
+
+Pitfalls and [motivations](scc.v1:mcdm.heroes.v1/rule.negotiation/motivation) are two sides of the same concept. They're presented below as a single list, because what might be a [motivation](scc.v1:mcdm.heroes.v1/rule.negotiation/motivation) for one [NPC](scc.v1:mcdm.heroes.v1/rule.general/npc) is a pitfall for another. Whenever the heroes make an argument, they risk stumbling into one of an [NPC](scc.v1:mcdm.heroes.v1/rule.general/npc)'s pitfalls unless they do their research beforehand or read the [NPC](scc.v1:mcdm.heroes.v1/rule.general/npc) well.

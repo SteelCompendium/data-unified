@@ -1,0 +1,22 @@
+{
+  "effects": [
+    {
+      "effect": "Whenever the hellhound makes a strike against a creature while rampaging, they can cause a target who has P \u003c AVERAGE to be [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) until the end of the target's next turn."
+    }
+  ],
+  "feature_type": "feature",
+  "metadata": {
+    "action_type": "feature",
+    "class": "beastheart",
+    "feature_type": "feature",
+    "item_id": "infernal-apparition",
+    "item_name": "Infernal Apparition",
+    "level": 3,
+    "scc": [
+      "mcdm.beastheart.v1/feature.companion.beastheart.hellhound.level-3/infernal-apparition"
+    ],
+    "type": "feature/companion/beastheart/hellhound/level-3"
+  },
+  "name": "Infernal Apparition",
+  "type": "feature"
+}

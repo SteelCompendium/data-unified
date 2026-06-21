@@ -1,0 +1,50 @@
+{
+  "cost": "11 Drama",
+  "distance": "[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1 or [ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10",
+  "effects": [
+    {
+      "roll": "Power Roll + [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence)",
+      "tier1": "12 + P sonic damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5",
+      "tier2": "16 + P sonic damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 10",
+      "tier3": "22 + P sonic damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 15"
+    },
+    {
+      "effect": "[Forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) from this ability ignores [stability](scc.v1:mcdm.heroes.v1/rule.character/stability).",
+      "name": "Effect"
+    }
+  ],
+  "feature_type": "ability",
+  "flavor": "The power of music rips through the reality around the target and blows them away.",
+  "keywords": [
+    "Magic",
+    "[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)",
+    "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)",
+    "[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)"
+  ],
+  "metadata": {
+    "action_type": "Main action",
+    "class": "troubadour",
+    "content": "\n*The power of music rips through the reality around the target and blows them away.*\n\n| **Magic, [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)** |               **Main action** |\n|----------------------------------|------------------------------:|\n| **📏 [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1 or [ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**      | **🎯 One creature or object** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence):**\n\n- **≤11:** 12 + P sonic damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5\n- **12-16:** 16 + P sonic damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 10\n- **17+:** 22 + P sonic damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 15\n\n**Effect:** [Forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) from this ability ignores [stability](scc.v1:mcdm.heroes.v1/rule.character/stability).",
+    "distance": "[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1 or [ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10",
+    "feature_type": "ability",
+    "flavor": "The power of music rips through the reality around the target and blows them away.",
+    "item_id": "melt-their-faces",
+    "item_name": "Melt Their Faces",
+    "keywords": [
+      "Magic",
+      "[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)",
+      "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)",
+      "[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)"
+    ],
+    "level": 9,
+    "scc": [
+      "mcdm.heroes.v1/feature.ability.troubadour.level-9/melt-their-faces"
+    ],
+    "target": "One creature or object",
+    "type": "feature/ability/troubadour/level-9"
+  },
+  "name": "Melt Their Faces",
+  "target": "One creature or object",
+  "type": "feature",
+  "usage": "Main action"
+}

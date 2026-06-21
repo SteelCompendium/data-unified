@@ -1,0 +1,16 @@
+{
+  "alignment": "good",
+  "content": "**Domains:** Creation, Knowledge, Protection, Sun, War\n\nOrd, the Maker, the Engineer, is the patron of the [dwarves](scc.v1:mcdm.heroes.v1/ancestry/dwarf). Ord, along with his siblings Aan, Eth, and Kul, created [Orden](scc.v1:mcdm.heroes.v1/rule.world/orden). These four saw the world as a dynamic expression of their philosophies.\n\nOrd values integrity, honor, faithfulness to an ideal. Courage in battle and fair play. Treating your opponent honorably, Ord teaches, is an expression of your own worthiness. Ord is associated with permanence, which some elder [dwarves](scc.v1:mcdm.heroes.v1/ancestry/dwarf) take to mean a kind of slavish devotion to tradition. But Ord teaches permanence is the quality of reliability, of steadfastness. Young [dwarves](scc.v1:mcdm.heroes.v1/ancestry/dwarf) who chafe at the stale and stifling traditions of their elders remind the greybeards that Ord is the Maker. He expects his children to create marvels, to bring forth new discoveries, new insights. To remake the world anew each generation.\n\n#### Heroes of the Dwarves\n\nThe following heroes are venerated by many [dwarves](scc.v1:mcdm.heroes.v1/ancestry/dwarf) and others who follow Ord.",
+  "domains": [
+    "Creation",
+    "Knowledge",
+    "Protection",
+    "Sun",
+    "War"
+  ],
+  "god_class": "elder",
+  "name": "Ord",
+  "pantheon": "dwarf",
+  "scc": "mcdm.heroes.v1/religion.god/ord",
+  "type": "god"
+}

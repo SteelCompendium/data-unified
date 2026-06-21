@@ -1,0 +1,22 @@
+effects:
+    - effect: |-
+        [Time raider](scc.v1:mcdm.heroes.v1/ancestry/time-raider) heroes have access to the following traits.
+
+        #### Purchased Time Raider Traits
+
+        You have 3 ancestry points to spend on the following traits. (*Quick Build:* Beyondsight, Psionic Gift with [Psionic Bolt](scc.v1:mcdm.heroes.v1/feature.ability.time-raider/psionic-bolt).)
+
+        ##### Unstoppable Mind (2 Points)
+
+        Your mind allows you to maintain your focus in any situation. You can't be made [dazed](scc.v1:mcdm.heroes.v1/condition/dazed).
+feature_type: trait
+metadata:
+    action_type: feature
+    feature_type: trait
+    item_id: time-raider-traits
+    item_name: Time Raider Traits
+    scc:
+        - mcdm.heroes.v1/feature.trait.time-raider/time-raider-traits
+    type: feature/trait/time-raider
+name: Time Raider Traits
+type: feature

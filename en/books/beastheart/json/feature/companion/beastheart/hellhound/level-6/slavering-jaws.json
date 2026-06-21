@@ -1,0 +1,22 @@
+{
+  "effects": [
+    {
+      "effect": "While the hellhound is rampaging, your mouth foams with acidic ichor, and whenever you make a strike against a creature, you deal extra acid damage equal to your Might score."
+    }
+  ],
+  "feature_type": "feature",
+  "metadata": {
+    "action_type": "feature",
+    "class": "beastheart",
+    "feature_type": "feature",
+    "item_id": "slavering-jaws",
+    "item_name": "Slavering Jaws",
+    "level": 6,
+    "scc": [
+      "mcdm.beastheart.v1/feature.companion.beastheart.hellhound.level-6/slavering-jaws"
+    ],
+    "type": "feature/companion/beastheart/hellhound/level-6"
+  },
+  "name": "Slavering Jaws",
+  "type": "feature"
+}

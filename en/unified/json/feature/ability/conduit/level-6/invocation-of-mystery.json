@@ -1,0 +1,40 @@
+{
+  "cost": "9 Piety",
+  "distance": "4 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)",
+  "effects": [
+    {
+      "effect": "Each target is invisible until the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn).",
+      "name": "Effect"
+    }
+  ],
+  "feature_type": "ability",
+  "flavor": "\"Now you see us...\"",
+  "keywords": [
+    "Area",
+    "Magic"
+  ],
+  "metadata": {
+    "action_type": "Maneuver",
+    "class": "conduit",
+    "content": "\n*\"Now you see us...\"*\n\n| **Area, Magic**  |                          **Maneuver** |\n|------------------|--------------------------------------:|\n| **📏 4 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)**   | **🎯 Self and each ally in the area** |\n\n**Effect:** Each target is invisible until the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn).",
+    "distance": "4 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)",
+    "feature_type": "ability",
+    "flavor": "\"Now you see us...\"",
+    "item_id": "invocation-of-mystery",
+    "item_name": "Invocation of Mystery",
+    "keywords": [
+      "Area",
+      "Magic"
+    ],
+    "level": 6,
+    "scc": [
+      "mcdm.heroes.v1/feature.ability.conduit.level-6/invocation-of-mystery"
+    ],
+    "target": "Self and each ally in the area",
+    "type": "feature/ability/conduit/level-6"
+  },
+  "name": "Invocation of Mystery",
+  "target": "Self and each ally in the area",
+  "type": "feature",
+  "usage": "Maneuver"
+}

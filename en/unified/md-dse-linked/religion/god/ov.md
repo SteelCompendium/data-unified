@@ -1,0 +1,28 @@
+---
+alignment: good
+domains:
+    - Fate
+    - Knowledge
+    - Storm
+    - Sun
+file_basename: ov
+file_dpath: religion/god
+god_class: space
+item_id: ov
+item_name: OV the Wave Pilot
+name: OV the Wave Pilot
+pantheon: timescape
+scc: mcdm.heroes.v1/religion.god/ov
+source: mcdm.heroes.v1
+type: god
+---
+
+**Domains:** Fate, Knowledge, Storm, Sun
+
+OV the Wave Pilot, the Navigator, an enigmatic humanoid figure described as masculine, appears to live inside the pilot-wave. In those rare instances where a mortal is directly exposed to the energies that propel ships across the sea of stars, they occasionally report seeing a figure that matches the description of OV.
+
+Lost ships sometimes find their navigation systems lighting up, a clear path home suddenly visible where no such path was possible before. OV aids those who are lost regardless of their affiliation with law or chaos, and is one of the Lords of Balance. His herald works to stop conflicts by guiding ships around and past routes that might cause them to intercept hostile entities.
+
+OV is the god of navigators and those who seek safe passage through treacherous scenarios. Because he cares little for the politics of the timescape, he is respected by the [time raiders](../../ancestry/time-raider.md), though none would call him or any other being their "god."
+
+When a [time raider](../../ancestry/time-raider.md) swears, "OV [guide](../../rule/downtime/guide.md) me," the meaning is not, "Show me the right thing to do." But: "Show me a way out of this mess."

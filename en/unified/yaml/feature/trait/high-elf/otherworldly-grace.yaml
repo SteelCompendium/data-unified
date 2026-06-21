@@ -1,0 +1,13 @@
+effects:
+    - effect: Your elf body and mind can't be contained for long. Whenever you make a [saving throw](scc.v1:mcdm.heroes.v1/rule.general/saving-throw), you succeed on a roll of 5 or higher.
+feature_type: trait
+metadata:
+    action_type: feature
+    feature_type: trait
+    item_id: otherworldly-grace
+    item_name: Otherworldly Grace
+    scc:
+        - mcdm.heroes.v1/feature.trait.high-elf/otherworldly-grace
+    type: feature/trait/high-elf
+name: Otherworldly Grace
+type: feature

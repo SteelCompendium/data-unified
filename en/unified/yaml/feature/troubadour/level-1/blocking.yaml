@@ -1,0 +1,44 @@
+ability:
+    distance: 2 [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura)
+    effects:
+        - effect: At the end of each of your [turns](scc.v1:mcdm.heroes.v1/rule.combat/turn) while this performance is active, you can choose up to a number of targets equal to your [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence) score and [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) those targets to unoccupied spaces in the area. A target can't be [teleport](scc.v1:mcdm.heroes.v1/movement/teleport)ed in a way that would harm them (such as over a cliff), leave them [dying](scc.v1:mcdm.heroes.v1/rule.health/dying), or result in them suffering a [condition](scc.v1:mcdm.heroes.v1/rule.combat/condition) or other negative effect.
+          name: Effect
+    feature_type: ability
+    flavor: No, no, no, you lose the audience that way. Try it like this...
+    keywords:
+        - Area
+        - Magic
+        - Performance
+    metadata:
+        action_type: No action
+        content: "\n*No, no, no, you lose the audience that way. Try it like this...*\n\n| **Area, Magic, Performance** |                    **No action** |\n|------------------------------|---------------------------------:|\n| **\U0001F4CF 2 [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura)**                | **\U0001F3AF Each creature in the area** |\n\n**Effect:** At the end of each of your [turns](scc.v1:mcdm.heroes.v1/rule.combat/turn) while this performance is active, you can choose up to a number of targets equal to your [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence) score and [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) those targets to unoccupied spaces in the area. A target can't be [teleport](scc.v1:mcdm.heroes.v1/movement/teleport)ed in a way that would harm them (such as over a cliff), leave them [dying](scc.v1:mcdm.heroes.v1/rule.health/dying), or result in them suffering a [condition](scc.v1:mcdm.heroes.v1/rule.combat/condition) or other negative effect."
+        distance: 2 [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura)
+        feature_type: ability
+        flavor: No, no, no, you lose the audience that way. Try it like this...
+        item_id: blocking
+        item_name: Blocking
+        keywords:
+            - Area
+            - Magic
+            - Performance
+        target: Each creature in the area
+        type: feature/ability/common
+    name: Blocking
+    target: Each creature in the area
+    type: feature
+    usage: No action
+effects:
+    - effect: You have the following performance ability, which is usable with your [Routines](scc.v1:mcdm.heroes.v1/feature.troubadour.level-1/routines) feature.
+feature_type: feature
+metadata:
+    action_type: feature
+    class: troubadour
+    feature_type: feature
+    item_id: blocking
+    item_name: Blocking
+    level: 1
+    scc:
+        - mcdm.heroes.v1/feature.troubadour.level-1/blocking
+    type: feature/troubadour/level-1
+name: Blocking
+type: feature

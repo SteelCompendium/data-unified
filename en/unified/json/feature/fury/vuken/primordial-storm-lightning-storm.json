@@ -1,0 +1,22 @@
+{
+  "effects": [
+    {
+      "effect": "Your primordial [damage type](scc.v1:mcdm.heroes.v1/rule.damage/damage-type) is lightning."
+    }
+  ],
+  "feature_type": "feature",
+  "metadata": {
+    "action_type": "feature",
+    "class": "fury",
+    "feature_type": "feature",
+    "item_id": "primordial-storm-lightning-storm",
+    "item_name": "Primordial Storm: Lightning Storm",
+    "kit": "vuken",
+    "scc": [
+      "mcdm.heroes.v1/feature.fury.vuken/primordial-storm-lightning-storm"
+    ],
+    "type": "feature/fury/vuken"
+  },
+  "name": "Primordial Storm: Lightning Storm",
+  "type": "feature"
+}

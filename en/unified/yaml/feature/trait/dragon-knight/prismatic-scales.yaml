@@ -1,0 +1,13 @@
+effects:
+    - effect: Select one [damage immunity](scc.v1:mcdm.heroes.v1/rule.damage/damage-immunity) granted by your Wyrmplate trait. You always have this immunity, in addition to the immunity granted by Wyrmplate.
+feature_type: trait
+metadata:
+    action_type: feature
+    feature_type: trait
+    item_id: prismatic-scales
+    item_name: Prismatic Scales
+    scc:
+        - mcdm.heroes.v1/feature.trait.dragon-knight/prismatic-scales
+    type: feature/trait/dragon-knight
+name: Prismatic Scales
+type: feature

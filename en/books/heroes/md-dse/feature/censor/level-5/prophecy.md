@@ -1,0 +1,31 @@
+---
+action_type: feature
+class: censor
+feature_type: feature
+file_basename: prophecy
+file_dpath: feature/censor/level-5
+item_id: prophecy
+item_name: Prophecy
+level: "5"
+name: Prophecy
+scc: mcdm.heroes.v1/feature.censor.level-5/prophecy
+source: mcdm.heroes.v1
+type: feature
+---
+
+```ds-feature
+effects:
+    - effect: |-
+        You can better sift through the constant fragmentary visions from your deity and act to make them manifest. Each time you earn 1 or more [Victories](scc.v1:mcdm.heroes.v1/rule.resource/victories), you can make a number of 2d10 rolls equal to the number of [Victories](scc.v1:mcdm.heroes.v1/rule.resource/victories) you earned. Record each roll in order. Then whenever you or a creature within 10 squares makes a [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll), you can use a free [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action) to replace the total on the dice with your first recorded roll.
+
+        You discard each roll as it is used, and each time you earn [Victories](scc.v1:mcdm.heroes.v1/rule.resource/victories), you add new rolls to the bottom of the list. Any unused rolls are discarded when you finish a [respite](scc.v1:mcdm.heroes.v1/rule.resource/respite).
+feature_type: feature
+metadata:
+    class: censor
+    level: "5"
+    name: Prophecy
+    scc: mcdm.heroes.v1/feature.censor.level-5/prophecy
+    type: feature
+name: Prophecy
+type: feature
+```

@@ -1,0 +1,48 @@
+{
+  "ability_type": "Triggered",
+  "distance": "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10",
+  "effects": [
+    {
+      "effect": "The [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance) gains a [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) equal to your [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) score.",
+      "name": "Effect"
+    },
+    {
+      "cost": "Spend 1 Essence",
+      "effect": "The [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance) gains a [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) equal to twice your [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) score instead."
+    }
+  ],
+  "feature_type": "ability",
+  "flavor": "You add a little magic to an ally's aggression at just the right time.",
+  "keywords": [
+    "Fire",
+    "Magic",
+    "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)"
+  ],
+  "metadata": {
+    "ability_type": "Triggered",
+    "action_type": "Triggered",
+    "class": "elementalist",
+    "content": "\n*You add a little magic to an ally's aggression at just the right time.*\n\n| **Fire, Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)**  |           **Triggered** |\n|--------------------------|------------------------:|\n| **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**         | **🎯 Self or one ally** |\n\n**Trigger:** The target [force move](scc.v1:mcdm.heroes.v1/movement/forced-movement)s a creature or object. \n\n**Effect:** The [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance) gains a [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) equal to your [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) score.\n\n**Spend 1 Essence:** The [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance) gains a [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) equal to twice your [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) score instead.",
+    "distance": "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10",
+    "feature_type": "ability",
+    "flavor": "You add a little magic to an ally's aggression at just the right time.",
+    "item_id": "explosive-assistance",
+    "item_name": "Explosive Assistance",
+    "keywords": [
+      "Fire",
+      "Magic",
+      "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)"
+    ],
+    "level": 1,
+    "scc": [
+      "mcdm.heroes.v1/feature.ability.elementalist.level-1/explosive-assistance"
+    ],
+    "target": "Self or one ally",
+    "type": "feature/ability/elementalist/level-1"
+  },
+  "name": "Explosive Assistance",
+  "target": "Self or one ally",
+  "trigger": "The target [force move](scc.v1:mcdm.heroes.v1/movement/forced-movement)s a creature or object.",
+  "type": "feature",
+  "usage": "Triggered"
+}

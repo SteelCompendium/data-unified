@@ -1,0 +1,32 @@
+---
+echelon: "2"
+effect: When you drink this potion as a maneuver, you sprout 3-foot sharpened horns from your forehead. Whenever you use the [Charge](scc.v1:mcdm.heroes.v1/feature.common.main-actions/charge) main action, the target of your [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) is gored upon your horns and [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed). While [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) this way, the creature is [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding). You can also grab another creature with your limbs. The horns harmlessly fall off your head at the end of the encounter.
+file_basename: bull-shot
+file_dpath: treasure/2nd-echelon/consumable
+flavor: Tiny chips of white bone float within this dark potion, which carries the scent of beef broth.
+item_id: bull-shot
+item_name: Bull Shot
+keywords:
+    - Magic
+    - Potion
+name: Bull Shot
+project_goal: "90"
+scc: mcdm.heroes.v1/treasure.2nd-echelon.consumable/bull-shot
+source: mcdm.heroes.v1
+treasure_type: consumable
+type: treasure
+---
+
+*Tiny chips of white bone float within this dark potion, which carries the scent of beef broth.*
+
+**Keywords:** Magic, Potion
+
+**[Item Prerequisite](scc.v1:mcdm.heroes.v1/rule.downtime/item-prerequisite):** One vial of pure bovine essence
+
+**[Project Source](scc.v1:mcdm.heroes.v1/rule.downtime/project-source):** Texts or lore in Caelian
+
+**[Project Roll](scc.v1:mcdm.heroes.v1/rule.downtime/project-roll) [Characteristic](scc.v1:mcdm.heroes.v1/rule.character/characteristic):** [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) or [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)
+
+**Project Goal:** 90
+
+**Effect:** When you drink this potion as a maneuver, you sprout 3-foot sharpened horns from your forehead. Whenever you use the [Charge](scc.v1:mcdm.heroes.v1/feature.common.main-actions/charge) main action, the target of your [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) is gored upon your horns and [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed). While [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) this way, the creature is [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding). You can also grab another creature with your limbs. The horns harmlessly fall off your head at the end of the encounter.

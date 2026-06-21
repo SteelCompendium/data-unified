@@ -1,0 +1,15 @@
+effects:
+    - effect: You can long jump and high jump a [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance) equal to twice your [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility) score without needing to make a [test](scc.v1:mcdm.heroes.v1/rule.test/test).
+feature_type: feature
+metadata:
+    action_type: feature
+    class: "null"
+    feature_type: feature
+    item_id: psionic-leap
+    item_name: Psionic Leap
+    level: 3
+    scc:
+        - mcdm.heroes.v1/feature.null.level-3/psionic-leap
+    type: feature/null/level-3
+name: Psionic Leap
+type: feature

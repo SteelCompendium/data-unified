@@ -1,0 +1,46 @@
+{
+  "distance": "Melee 1",
+  "effects": [
+    {
+      "effect": "The target takes damage equal to 3 + your Might score. Before you use this ability, you can [jump](scc.v1:mcdm.heroes.v1/movement/jump) up to a number of squares equal to your Intuition score in a straight line. During this jump, enemies' spaces don't count as [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain) for you. The target takes extra lightning damage equal to the number of squares you jumped this way.",
+      "name": "Effect"
+    },
+    {
+      "cost": "Spend 1 Ferocity",
+      "effect": "Your jump doesn't provoke opportunity attacks."
+    }
+  ],
+  "feature_type": "ability",
+  "flavor": "You summon a lightning bolt and ride it into battle.",
+  "keywords": [
+    "Beastheart",
+    "Melee",
+    "Weapon"
+  ],
+  "metadata": {
+    "action_type": "Maneuver",
+    "class": "beastheart",
+    "content": "*You summon a lightning bolt and ride it into battle.*\n\n| **Beastheart, Melee, Weapon** |        **Maneuver** |\n|-------------------------------|--------------------:|\n| **📏 Melee 1**                | **🎯 One creature** |\n\n**Effect:** The target takes damage equal to 3 + your Might score. Before you use this ability, you can [jump](scc.v1:mcdm.heroes.v1/movement/jump) up to a number of squares equal to your Intuition score in a straight line. During this jump, enemies' spaces don't count as [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain) for you. The target takes extra lightning damage equal to the number of squares you jumped this way.\n\n**Spend 1 Ferocity:** Your jump doesn't provoke opportunity attacks.",
+    "distance": "Melee 1",
+    "feature_type": "ability",
+    "flavor": "You summon a lightning bolt and ride it into battle.",
+    "item_id": "lightning-leap",
+    "item_name": "Lightning Leap",
+    "keywords": [
+      "Beastheart",
+      "Melee",
+      "Weapon"
+    ],
+    "level": 1,
+    "scc": [
+      "mcdm.beastheart.v1/feature.ability.beastheart.level-1/lightning-leap"
+    ],
+    "subclass": "prowler",
+    "target": "One creature",
+    "type": "feature/ability/beastheart/level-1"
+  },
+  "name": "Lightning Leap",
+  "target": "One creature",
+  "type": "feature",
+  "usage": "Maneuver"
+}

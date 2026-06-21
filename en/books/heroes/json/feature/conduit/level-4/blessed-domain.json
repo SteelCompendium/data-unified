@@ -1,0 +1,22 @@
+{
+  "effects": [
+    {
+      "effect": "Whenever you gain piety from a domain effect, you gain 1 additional piety."
+    }
+  ],
+  "feature_type": "feature",
+  "metadata": {
+    "action_type": "feature",
+    "class": "conduit",
+    "feature_type": "feature",
+    "item_id": "blessed-domain",
+    "item_name": "Blessed Domain",
+    "level": 4,
+    "scc": [
+      "mcdm.heroes.v1/feature.conduit.level-4/blessed-domain"
+    ],
+    "type": "feature/conduit/level-4"
+  },
+  "name": "Blessed Domain",
+  "type": "feature"
+}

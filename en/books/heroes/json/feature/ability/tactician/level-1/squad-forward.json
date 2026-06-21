@@ -1,0 +1,38 @@
+{
+  "cost": "3 Focus",
+  "distance": "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10",
+  "effects": [
+    {
+      "effect": "Each target can move up to their [speed](scc.v1:mcdm.heroes.v1/rule.character/speed).",
+      "name": "Effect"
+    }
+  ],
+  "feature_type": "ability",
+  "flavor": "On your command, you and your allies force back the enemy line.",
+  "keywords": [
+    "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)"
+  ],
+  "metadata": {
+    "action_type": "Maneuver",
+    "class": "tactician",
+    "content": "\n*On your command, you and your allies force back the enemy line.*\n\n| **[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)**       |               **Maneuver** |\n|------------------|---------------------------:|\n| **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10** | **🎯 Self and two allies** |\n\n**Effect:** Each target can move up to their [speed](scc.v1:mcdm.heroes.v1/rule.character/speed).",
+    "distance": "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10",
+    "feature_type": "ability",
+    "flavor": "On your command, you and your allies force back the enemy line.",
+    "item_id": "squad-forward",
+    "item_name": "Squad! Forward!",
+    "keywords": [
+      "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)"
+    ],
+    "level": 1,
+    "scc": [
+      "mcdm.heroes.v1/feature.ability.tactician.level-1/squad-forward"
+    ],
+    "target": "Self and two allies",
+    "type": "feature/ability/tactician/level-1"
+  },
+  "name": "Squad! Forward!",
+  "target": "Self and two allies",
+  "type": "feature",
+  "usage": "Maneuver"
+}

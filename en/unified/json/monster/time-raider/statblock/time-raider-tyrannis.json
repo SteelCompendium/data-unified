@@ -1,0 +1,171 @@
+{
+  "agility": 3,
+  "ev": "20",
+  "features": [
+    {
+      "ability_type": "Signature Ability",
+      "distance": "Melee 2 or ranged 10",
+      "effects": [
+        {
+          "roll": "Power Roll + 3",
+          "tier1": "8 corruption damage",
+          "tier2": "12 corruption damage",
+          "tier3": "15 corruption damage"
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "⚔️",
+      "keywords": [
+        "Melee",
+        "Psionic",
+        "Ranged",
+        "Strike",
+        "Weapon"
+      ],
+      "name": "Gatling Blaster",
+      "target": "Two creatures or objects",
+      "type": "feature",
+      "usage": "Main action"
+    },
+    {
+      "cost": "3 Malice",
+      "distance": "Ranged 10",
+      "effects": [
+        {
+          "effect": "**Effect:** Each target can [fly](scc.v1:mcdm.heroes.v1/movement/fly) up to their speed and make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike). If a target doesn't land in an unoccupied space, they fall."
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "🏹",
+      "keywords": [
+        "Psionic",
+        "Ranged"
+      ],
+      "name": "Air Raid!",
+      "target": "Three time raiders",
+      "type": "feature",
+      "usage": "Maneuver"
+    },
+    {
+      "distance": "Ranged 10",
+      "effects": [
+        {
+          "effect": "**Trigger:** A creature within distance makes a strike against the tyrannis.\n**Effect:** The strike takes a bane. After the strike resolves, the tyrannis can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against the target.\n**2 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice):** The strike has a double bane instead."
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "❗️",
+      "keywords": [
+        "Psionic",
+        "Ranged"
+      ],
+      "name": "Precog Reflexes",
+      "target": "The triggering creature",
+      "type": "feature",
+      "usage": "Triggered action"
+    },
+    {
+      "effects": [
+        {
+          "effect": "At the end of each of their turns, the tyrannis can take 5 damage to end one effect on them that can be ended by a [saving throw](scc.v1:mcdm.heroes.v1/rule.general/saving-throw). This damage can't be reduced in any way."
+        }
+      ],
+      "feature_type": "trait",
+      "icon": "⭐️",
+      "name": "End Effect",
+      "type": "feature"
+    },
+    {
+      "effects": [
+        {
+          "effect": "The tyrannis doesn't take a bane on strikes against creatures with concealment."
+        }
+      ],
+      "feature_type": "trait",
+      "icon": "⭐️",
+      "name": "Foresight",
+      "type": "feature"
+    },
+    {
+      "cost": "Villain Action 1",
+      "distance": "Ranged 10",
+      "effects": [
+        {
+          "effect": "**Effect:** Each target gains 15 temporary [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), and has their speed doubled until the end of their next turn."
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "☠️",
+      "keywords": [
+        "Psionic",
+        "Ranged"
+      ],
+      "name": "We Will Won!",
+      "target": "Self and three allies",
+      "type": "feature",
+      "usage": "-"
+    },
+    {
+      "cost": "Villain Action 2",
+      "distance": "10 burst",
+      "effects": [
+        {
+          "effect": "**Effect:** Each target can end one effect on them or can move up to their speed."
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "☠️",
+      "keywords": [
+        "Area"
+      ],
+      "name": "Stick to the Plan!",
+      "target": "Self and each ally in the area",
+      "type": "feature",
+      "usage": "-"
+    },
+    {
+      "cost": "Villain Action 3",
+      "distance": "5 burst",
+      "effects": [
+        {
+          "effect": "**Effect:** The tyrannis fires a sensor mine into each unoccupied square in the area, and creates a gravity well whose area contains one or more squares of the tyrannis's space (see Gravity Well). Whenever an enemy enters a square with a sensor mine in it, the mine explodes, dealing 3 damage to the enemy."
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "☠️",
+      "keywords": [
+        "Area"
+      ],
+      "name": "Armageddon",
+      "target": "Special",
+      "type": "feature",
+      "usage": "-"
+    }
+  ],
+  "free_strike": 5,
+  "immunities": [
+    "Psychic 5"
+  ],
+  "intuition": 1,
+  "keywords": [
+    "Humanoid",
+    "Time Raider"
+  ],
+  "level": 3,
+  "metadata": {
+    "scc": "mcdm.monsters.v1/monster.time-raider.statblock/time-raider-tyrannis",
+    "source": "mcdm.monsters.v1"
+  },
+  "might": 0,
+  "movement": "Hover, teleport",
+  "name": "Time Raider Tyrannis",
+  "organization": "Leader",
+  "presence": 0,
+  "reason": 3,
+  "role": "",
+  "size": "2",
+  "speed": 10,
+  "stability": 2,
+  "stamina": "120",
+  "type": "statblock"
+}

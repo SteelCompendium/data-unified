@@ -1,0 +1,28 @@
+---
+action_type: feature
+class: talent
+feature_type: feature
+file_basename: distortion-temporal
+file_dpath: feature/talent/level-5
+item_id: distortion-temporal
+item_name: Distortion Temporal
+level: "5"
+name: Distortion Temporal
+scc: mcdm.heroes.v1/feature.talent.level-5/distortion-temporal
+source: mcdm.heroes.v1
+type: feature
+---
+
+```ds-feature
+effects:
+    - effect: While you are not [dying](scc.v1:mcdm.heroes.v1/rule.health/dying), time behaves irregularly around you in a 3 [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura). That area is [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain) for enemies. Additionally, when an ally enters the area for the first time in a [combat round](scc.v1:mcdm.heroes.v1/rule.combat/combat-round) or starts their turn there, they gain a +2 [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to [speed](scc.v1:mcdm.heroes.v1/rule.character/speed) until the end of the [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn).
+feature_type: feature
+metadata:
+    class: talent
+    level: "5"
+    name: Distortion Temporal
+    scc: mcdm.heroes.v1/feature.talent.level-5/distortion-temporal
+    type: feature
+name: Distortion Temporal
+type: feature
+```

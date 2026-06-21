@@ -1,0 +1,15 @@
+effects:
+    - effect: Whenever you reduce acid, cold, corruption, fire, lightning, poison, or sonic damage with [damage immunity](scc.v1:mcdm.heroes.v1/rule.damage/damage-immunity), you gain 2 [surges](scc.v1:mcdm.heroes.v1/rule.resource/surge) that can be used only to increase the damage of your next strike.
+feature_type: feature
+metadata:
+    action_type: feature
+    class: "null"
+    feature_type: feature
+    item_id: elemental-buffer
+    item_name: Elemental Buffer
+    level: 6
+    scc:
+        - mcdm.heroes.v1/feature.null.level-6/elemental-buffer
+    type: feature/null/level-6
+name: Elemental Buffer
+type: feature

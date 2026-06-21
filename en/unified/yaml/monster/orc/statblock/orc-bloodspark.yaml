@@ -1,0 +1,47 @@
+agility: 1
+ev: 3 for four minions
+features:
+    - ability_type: Signature Ability
+      distance: Ranged 10
+      effects:
+        - roll: Power Roll + 2
+          tier1: 2 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1, or the bloodspark can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) 1 square away from the target
+          tier2: 4 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2, or the bloodspark [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to 2 squares away from the target
+          tier3: 5 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 4, or the bloodspark [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to 4 squares away from the target
+      feature_type: ability
+      icon: "\U0001F3F9"
+      keywords:
+        - Magic
+        - Ranged
+        - Strike
+      name: Explosive Mote
+      target: One creature or object per minion
+      type: feature
+      usage: Main action
+    - effects:
+        - effect: If the bloodspark is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), they can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) before dying.
+      feature_type: trait
+      icon: ⭐️
+      name: Bloodfire Bur
+      type: feature
+free_strike: 2
+intuition: 0
+keywords:
+    - Humanoid
+    - Orc
+level: 1
+metadata:
+    scc: mcdm.monsters.v1/monster.orc.statblock/orc-bloodspark
+    source: mcdm.monsters.v1
+might: 0
+name: Orc Bloodspark
+organization: Minion
+presence: 2
+reason: 0
+role: Artillery
+size: 1M
+speed: 6
+stability: 0
+stamina: "3"
+type: statblock
+with_captain: +2 bonus to forced movement distance

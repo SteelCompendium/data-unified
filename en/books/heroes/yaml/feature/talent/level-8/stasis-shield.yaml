@@ -1,0 +1,46 @@
+ability:
+    ability_type: Triggered
+    cost: 3 Clarity
+    distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
+    effects:
+        - effect: The target is [teleport](scc.v1:mcdm.heroes.v1/movement/teleport)ed to an unoccupied space [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to you, taking no damage and suffering no additional effects if this movement would get them out of harm's way.
+          name: Effect
+    feature_type: ability
+    flavor: You freeze time just long enough to bring the victim to safety!
+    keywords:
+        - Psionic
+        - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'
+    metadata:
+        ability_type: Triggered
+        action_type: Triggered
+        content: "\n*You freeze time just long enough to bring the victim to safety!*\n\n| **Psionic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)** |                          **Triggered** |\n|---------------------|---------------------------------------:|\n| **\U0001F4CF [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**    | **\U0001F3AF Self, or one creature or object** |\n\n**Trigger:** The target takes damage.\n\n**Effect:** The target is [teleport](scc.v1:mcdm.heroes.v1/movement/teleport)ed to an unoccupied space [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to you, taking no damage and suffering no additional effects if this movement would get them out of harm's way.\n\n**Strained:** You can't target yourself, and you take the damage and any additional effects instead of the target."
+        distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
+        feature_type: ability
+        flavor: You freeze time just long enough to bring the victim to safety!
+        item_id: stasis-shield
+        item_name: Stasis Shield
+        keywords:
+            - Psionic
+            - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'
+        target: Self, or one creature or object
+        type: feature/ability/common
+    name: Stasis Shield
+    target: Self, or one creature or object
+    trigger: The target takes damage.
+    type: feature
+    usage: Triggered
+effects:
+    - effect: You have the following ability.
+feature_type: feature
+metadata:
+    action_type: feature
+    class: talent
+    feature_type: feature
+    item_id: stasis-shield
+    item_name: Stasis Shield
+    level: 8
+    scc:
+        - mcdm.heroes.v1/feature.talent.level-8/stasis-shield
+    type: feature/talent/level-8
+name: Stasis Shield
+type: feature

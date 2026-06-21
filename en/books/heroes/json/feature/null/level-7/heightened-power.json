@@ -1,0 +1,22 @@
+{
+  "effects": [
+    {
+      "effect": "If the ability deals [rolled damage](scc.v1:mcdm.heroes.v1/rule.damage/rolled-damage), it deals extra damage equal to your [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition) score."
+    }
+  ],
+  "feature_type": "feature",
+  "metadata": {
+    "action_type": "feature",
+    "class": "null",
+    "feature_type": "feature",
+    "item_id": "heightened-power",
+    "item_name": "Heightened Power",
+    "level": 7,
+    "scc": [
+      "mcdm.heroes.v1/feature.null.level-7/heightened-power"
+    ],
+    "type": "feature/null/level-7"
+  },
+  "name": "Heightened Power",
+  "type": "feature"
+}

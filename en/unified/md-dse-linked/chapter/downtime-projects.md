@@ -1,0 +1,27 @@
+---
+file_basename: downtime-projects
+file_dpath: chapter
+item_id: downtime-projects
+item_name: Downtime Projects
+name: Downtime Projects
+order: 12
+scc: mcdm.heroes.v1/chapter/downtime-projects
+source: mcdm.heroes.v1
+type: chapter
+---
+
+As a team, you and your fellow heroes can achieve great things. But the time between adventures gives you a chance to pursue your own individual goals: uncover forbidden lore in ancient tomes, forge weapons of great power, build ships that can sail the skies, and more. *Draw Steel*'s rules for downtime projects allow heroes to use their time during [respites](../rule/resource/respite.md) to obtain important information, make new equipment, and engage in other activities to support their adventuring.
+
+### Tracking Projects
+
+You start a downtime project during a [respite](../rule/resource/respite.md). You can start as many projects as you like, but you can't work on more than one project at a time during a [respite](../rule/resource/respite.md). Eventually, you'll be able to hire creatures who can work on additional downtime projects for you.
+
+You track project progress on your character sheet. As you work on a downtime project, you might look over old books that you've found in your travels, perform experiments, converse with experts and scholars, or work with tools to create something.
+
+### Project Prerequisites
+
+All downtime projects have prerequisites you must meet before you can undertake them.
+
+### Other Projects
+
+Not all heroes want to craft or research during their time between adventures. Some might wish to build organizations, reconnect with family or friends, or just go fishing.

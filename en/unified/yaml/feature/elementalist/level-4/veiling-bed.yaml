@@ -1,0 +1,15 @@
+effects:
+    - effect: The area provides [concealment](scc.v1:mcdm.heroes.v1/rule.combat/concealment) for you and your allies.
+feature_type: feature
+metadata:
+    action_type: feature
+    class: elementalist
+    feature_type: feature
+    item_id: veiling-bed
+    item_name: Veiling Bed
+    level: 4
+    scc:
+        - mcdm.heroes.v1/feature.elementalist.level-4/veiling-bed
+    type: feature/elementalist/level-4
+name: Veiling Bed
+type: feature

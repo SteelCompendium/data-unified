@@ -1,0 +1,44 @@
+ability:
+    distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
+    effects:
+        - effect: The target shifts up to a number of squares equal to your [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) score.
+          name: Effect
+        - cost: Spend 2 Clarity
+          effect: The target can use a maneuver.
+    feature_type: ability
+    flavor: To your ally, it seems as though the world has slowed down.
+    keywords:
+        - Psionic
+        - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'
+    metadata:
+        action_type: Maneuver
+        content: "\n*To your ally, it seems as though the world has slowed down.*\n\n| **Psionic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)** |                **Maneuver** |\n|---------------------|----------------------------:|\n| **\U0001F4CF [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**    | **\U0001F3AF Self or one creature** |\n\n**Effect:** The target shifts up to a number of squares equal to your [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) score.\n\n**Spend 2 Clarity:** The target can use a maneuver."
+        distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
+        feature_type: ability
+        flavor: To your ally, it seems as though the world has slowed down.
+        item_id: accelerate
+        item_name: Accelerate
+        keywords:
+            - Psionic
+            - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'
+        target: Self or one creature
+        type: feature/ability/common
+    name: Accelerate
+    target: Self or one creature
+    type: feature
+    usage: Maneuver
+effects:
+    - effect: You have the following ability.
+feature_type: feature
+metadata:
+    action_type: feature
+    class: talent
+    feature_type: feature
+    item_id: accelerate
+    item_name: Accelerate
+    level: 1
+    scc:
+        - mcdm.heroes.v1/feature.talent.level-1/accelerate
+    type: feature/talent/level-1
+name: Accelerate
+type: feature

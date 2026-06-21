@@ -1,0 +1,44 @@
+{
+  "cost": "11 Piety",
+  "distance": "5 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 10",
+  "effects": [
+    {
+      "roll": "Power Roll + [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)",
+      "tier1": "9 fire damage",
+      "tier2": "14 fire damage",
+      "tier3": "19 fire damage"
+    }
+  ],
+  "feature_type": "ability",
+  "flavor": "You call down a sphere of fire that burns your foes to ash.",
+  "keywords": [
+    "Area",
+    "Magic",
+    "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)"
+  ],
+  "metadata": {
+    "action_type": "Main action",
+    "class": "conduit",
+    "content": "\n*You call down a sphere of fire that burns your foes to ash.*\n\n| **Area, Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)** |               **Main action** |\n|-------------------------|------------------------------:|\n| **📏 5 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 10** | **🎯 Each enemy in the area** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition):**\n\n- **≤11:** 9 fire damage\n- **12-16:** 14 fire damage\n- **17+:** 19 fire damage",
+    "distance": "5 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 10",
+    "feature_type": "ability",
+    "flavor": "You call down a sphere of fire that burns your foes to ash.",
+    "item_id": "solar-flare",
+    "item_name": "Solar Flare",
+    "keywords": [
+      "Area",
+      "Magic",
+      "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)"
+    ],
+    "level": 9,
+    "scc": [
+      "mcdm.heroes.v1/feature.ability.conduit.level-9/solar-flare"
+    ],
+    "target": "Each enemy in the area",
+    "type": "feature/ability/conduit/level-9"
+  },
+  "name": "Solar Flare",
+  "target": "Each enemy in the area",
+  "type": "feature",
+  "usage": "Main action"
+}

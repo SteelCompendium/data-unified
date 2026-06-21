@@ -1,0 +1,37 @@
+cost: 5 Drama
+distance: 3 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 10
+effects:
+    - roll: Power Roll + [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence)
+      tier1: 5 corruption damage; M < WEAK, [pull](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1 toward the center of the area
+      tier2: 9 corruption damage; M < AVERAGE, [pull](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2 toward the center of the area
+      tier3: 12 corruption damage; M < STRONG, [pull](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3 toward the center of the area
+    - effect: The area is haunted by a swirling horde of phantoms until the end of the encounter. Allies can enter any square of the area without spending movement. At the end of each of your [turns](scc.v1:mcdm.heroes.v1/rule.combat/turn), you can make one [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) that targets each enemy in the area.
+      name: Effect
+feature_type: ability
+flavor: Your fans don't seem to like the opening act...
+keywords:
+    - Area
+    - Magic
+    - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'
+metadata:
+    action_type: Main action
+    class: troubadour
+    content: "\n*Your fans don't seem to like the opening act...*\n\n| **Area, Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)** | **Main action** |\n|-------------------------|----------------:|\n| **\U0001F4CF 3 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 10** |  **\U0001F3AF Special** |\n\n**Effect:** The area is haunted by a swirling horde of phantoms until the end of the encounter. Allies can enter any square of the area without spending movement. At the end of each of your [turns](scc.v1:mcdm.heroes.v1/rule.combat/turn), you can make one [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) that targets each enemy in the area.\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence):**\n\n- **≤11:** 5 corruption damage; M < WEAK, [pull](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1 toward the center of the area\n- **12-16:** 9 corruption damage; M < AVERAGE, [pull](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2 toward the center of the area\n- **17+:** 12 corruption damage; M < STRONG, [pull](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3 toward the center of the area"
+    distance: 3 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 10
+    feature_type: ability
+    flavor: Your fans don't seem to like the opening act...
+    item_id: tough-crowd
+    item_name: Tough Crowd
+    keywords:
+        - Area
+        - Magic
+        - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'
+    level: 2
+    scc:
+        - mcdm.heroes.v1/feature.ability.troubadour.level-2/tough-crowd
+    target: Special
+    type: feature/ability/troubadour/level-2
+name: Tough Crowd
+target: Special
+type: feature
+usage: Main action

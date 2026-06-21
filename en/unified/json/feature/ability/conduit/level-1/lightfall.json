@@ -1,0 +1,47 @@
+{
+  "ability_type": "Signature",
+  "distance": "2 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)",
+  "effects": [
+    {
+      "roll": "Power Roll + [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)",
+      "tier1": "2 holy damage",
+      "tier2": "3 holy damage",
+      "tier3": "5 holy damage"
+    },
+    {
+      "effect": "You can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) yourself and each ally in the area to unoccupied spaces in the area.",
+      "name": "Effect"
+    }
+  ],
+  "feature_type": "ability",
+  "flavor": "A rain of holy light scours your enemies and repositions your allies.",
+  "keywords": [
+    "Area",
+    "Magic"
+  ],
+  "metadata": {
+    "ability_type": "Signature",
+    "action_type": "Main action",
+    "class": "conduit",
+    "content": "\n*A rain of holy light scours your enemies and repositions your allies.*\n\n| **Area, Magic**  |               **Main action** |\n|------------------|------------------------------:|\n| **📏 2 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)**   | **🎯 Each enemy in the area** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition):**\n\n- **≤11:** 2 holy damage\n- **12-16:** 3 holy damage\n- **17+:** 5 holy damage\n\n**Effect:** You can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) yourself and each ally in the area to unoccupied spaces in the area.",
+    "distance": "2 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)",
+    "feature_type": "ability",
+    "flavor": "A rain of holy light scours your enemies and repositions your allies.",
+    "item_id": "lightfall",
+    "item_name": "Lightfall",
+    "keywords": [
+      "Area",
+      "Magic"
+    ],
+    "level": 1,
+    "scc": [
+      "mcdm.heroes.v1/feature.ability.conduit.level-1/lightfall"
+    ],
+    "target": "Each enemy in the area",
+    "type": "feature/ability/conduit/level-1"
+  },
+  "name": "Lightfall",
+  "target": "Each enemy in the area",
+  "type": "feature",
+  "usage": "Main action"
+}

@@ -1,0 +1,35 @@
+ability_type: Triggered
+distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
+effects:
+    - effect: You spend a [Recovery](scc.v1:mcdm.heroes.v1/rule.health/recoveries) and the target regains [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) equal to your [recovery value](scc.v1:mcdm.heroes.v1/rule.health/recoveries).
+      name: Effect
+    - cost: Spend 1 Wrath
+      effect: You can end one effect on the target that is ended by a [saving throw](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) or that ends at the end of their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), or a [prone](scc.v1:mcdm.heroes.v1/condition/prone) target can stand up.
+feature_type: ability
+flavor: You channel some of your vitality into more resilience for you or an ally.
+keywords:
+    - Magic
+    - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'
+metadata:
+    ability_type: Triggered
+    action_type: Triggered
+    class: censor
+    content: "\n*You channel some of your vitality into more resilience for you or an ally.*\n\n| **Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)** |           **Triggered** |\n|-------------------|------------------------:|\n| **\U0001F4CF [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**  | **\U0001F3AF Self or one ally** |\n\n**Trigger:** The target starts their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) or takes damage.\n\n**Effect:** You spend a [Recovery](scc.v1:mcdm.heroes.v1/rule.health/recoveries) and the target regains [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) equal to your [recovery value](scc.v1:mcdm.heroes.v1/rule.health/recoveries).\n\n**Spend 1 Wrath:** You can end one effect on the target that is ended by a [saving throw](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) or that ends at the end of their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), or a [prone](scc.v1:mcdm.heroes.v1/condition/prone) target can stand up."
+    distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
+    feature_type: ability
+    flavor: You channel some of your vitality into more resilience for you or an ally.
+    item_id: my-life-for-yours
+    item_name: My Life for Yours
+    keywords:
+        - Magic
+        - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'
+    level: 1
+    scc:
+        - mcdm.heroes.v1/feature.ability.censor.level-1/my-life-for-yours
+    target: Self or one ally
+    type: feature/ability/censor/level-1
+name: My Life for Yours
+target: Self or one ally
+trigger: The target starts their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) or takes damage.
+type: feature
+usage: Triggered

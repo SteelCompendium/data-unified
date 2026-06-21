@@ -1,0 +1,28 @@
+---
+action_type: feature
+class: talent
+feature_type: feature
+file_basename: speed-of-thought
+file_dpath: feature/talent/level-5
+item_id: speed-of-thought
+item_name: Speed of Thought
+level: "5"
+name: Speed of Thought
+scc: mcdm.heroes.v1/feature.talent.level-5/speed-of-thought
+source: mcdm.heroes.v1
+type: feature
+---
+
+```ds-feature
+effects:
+    - effect: Once per [combat round](scc.v1:mcdm.heroes.v1/rule.combat/combat-round) while you are not [dying](scc.v1:mcdm.heroes.v1/rule.health/dying), you can spend 2 clarity when you use a [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action) to [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) it into a free [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action).
+feature_type: feature
+metadata:
+    class: talent
+    level: "5"
+    name: Speed of Thought
+    scc: mcdm.heroes.v1/feature.talent.level-5/speed-of-thought
+    type: feature
+name: Speed of Thought
+type: feature
+```

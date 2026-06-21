@@ -1,0 +1,51 @@
+agility: 1
+ev: 11 for four minions
+features:
+    - ability_type: Signature Ability
+      distance: Melee 1
+      effects:
+        - roll: Power Roll + 4
+          tier1: 5 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2
+          tier2: 7 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3; A < 3 3 damage
+          tier3: 9 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 4; A < 4 5 damage
+      feature_type: ability
+      icon: "\U0001F5E1"
+      keywords:
+        - Charge
+        - Melee
+        - Strike
+        - Weapon
+      name: Charging Chomp
+      target: One creature or object per minion
+      type: feature
+      usage: Main action
+    - effects:
+        - effect: The crack trooper dies only if their [squad](scc.v1:mcdm.monsters.v1/rule.monster/squad)'s [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) pool is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) by acid or fire damage, if they end their turn with 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) in their [squad](scc.v1:mcdm.monsters.v1/rule.monster/squad)'s [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) pool, or if they take acid or fire damage while their [squad](scc.v1:mcdm.monsters.v1/rule.monster/squad)'s [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) pool is at 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).
+      feature_type: trait
+      icon: ⭐️
+      name: Group Appetite
+      type: feature
+free_strike: 5
+intuition: 0
+keywords:
+    - Giant
+    - Troll
+level: 9
+metadata:
+    scc: mcdm.monsters.v1/monster.troll.statblock/troll-crack-trooper
+    source: mcdm.monsters.v1
+might: 4
+name: Troll Crack Trooper
+organization: Minion
+presence: 2
+reason: -1
+role: Brute
+size: "2"
+speed: 6
+stability: 4
+stamina: "15"
+type: statblock
+weaknesses:
+    - Acid 5
+    - fire
+with_captain: +3 bonus to Stamina

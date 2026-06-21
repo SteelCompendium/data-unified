@@ -1,0 +1,22 @@
+{
+  "effects": [
+    {
+      "effect": "Your [tactical doctrine](scc.v1:mcdm.heroes.v1/feature.tactician.level-1/tactical-doctrine) grants you a feature, as shown on the 7th-Level Doctrine Features table.\n\n###### 7th-Level Doctrine Features Table\n\n| Doctrine   | Feature            |\n|------------|--------------------|\n| Insurgent  | [Asymmetric Warfare](scc.v1:mcdm.heroes.v1/feature.tactician.level-7/asymmetric-warfare) |\n| Mastermind | [Grand Strategy](scc.v1:mcdm.heroes.v1/feature.tactician.level-7/grand-strategy)     |\n| Vanguard   | [Shock and Awe](scc.v1:mcdm.heroes.v1/feature.tactician.level-7/shock-and-awe)      |"
+    }
+  ],
+  "feature_type": "feature",
+  "metadata": {
+    "action_type": "feature",
+    "class": "tactician",
+    "feature_type": "feature",
+    "item_id": "7th-level-doctrine-feature",
+    "item_name": "7th-Level Doctrine Feature",
+    "level": 7,
+    "scc": [
+      "mcdm.heroes.v1/feature.tactician.level-7/7th-level-doctrine-feature"
+    ],
+    "type": "feature/tactician/level-7"
+  },
+  "name": "7th-Level Doctrine Feature",
+  "type": "feature"
+}

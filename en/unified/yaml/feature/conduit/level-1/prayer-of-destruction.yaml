@@ -1,0 +1,15 @@
+effects:
+    - effect: Your god infuses wrath within your being. You gain a +1 [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to [rolled damage](scc.v1:mcdm.heroes.v1/rule.damage/rolled-damage) with magic abilities.
+feature_type: feature
+metadata:
+    action_type: feature
+    class: conduit
+    feature_type: feature
+    item_id: prayer-of-destruction
+    item_name: Prayer of Destruction
+    level: 1
+    scc:
+        - mcdm.heroes.v1/feature.conduit.level-1/prayer-of-destruction
+    type: feature/conduit/level-1
+name: Prayer of Destruction
+type: feature

@@ -1,0 +1,29 @@
+cost: 7 Focus
+distance: Self
+effects:
+    - effect: Until the end of the encounter or until you are [dying](scc.v1:mcdm.heroes.v1/rule.health/dying), whenever you or any ally deals damage to a target marked by you, that creature gains 2 [surges](scc.v1:mcdm.heroes.v1/rule.resource/surge), which they can use immediately.
+      name: Effect
+feature_type: ability
+flavor: Your allies see the advantages in attacking the targets you select.
+keywords:
+    - '-'
+metadata:
+    action_type: Maneuver
+    class: tactician
+    content: "\n*Your allies see the advantages in attacking the targets you select.*\n\n| **-**       | **Maneuver** |\n|-------------|-------------:|\n| **\U0001F4CF Self** |  **\U0001F3AF Self** |\n\n**Effect:** Until the end of the encounter or until you are [dying](scc.v1:mcdm.heroes.v1/rule.health/dying), whenever you or any ally deals damage to a target marked by you, that creature gains 2 [surges](scc.v1:mcdm.heroes.v1/rule.resource/surge), which they can use immediately."
+    distance: Self
+    feature_type: ability
+    flavor: Your allies see the advantages in attacking the targets you select.
+    item_id: hit-em-hard
+    item_name: Hit 'Em Hard!
+    keywords:
+        - '-'
+    level: 3
+    scc:
+        - mcdm.heroes.v1/feature.ability.tactician.level-3/hit-em-hard
+    target: Self
+    type: feature/ability/tactician/level-3
+name: Hit 'Em Hard!
+target: Self
+type: feature
+usage: Maneuver

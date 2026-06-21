@@ -1,0 +1,7 @@
+---
+name: Conditions
+scc: mcdm.heroes.v1/rule.combat/condition
+type: rule
+---
+
+Some abilities and other effects apply specific negative effects called conditions to a creature. The following conditions show up regularly in the game and can be tracked on your character sheet when they affect your hero.

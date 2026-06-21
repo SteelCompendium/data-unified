@@ -1,0 +1,51 @@
+{
+  "ability_type": "Signature",
+  "distance": "2 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 10",
+  "effects": [
+    {
+      "roll": "Power Roll + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason)",
+      "tier1": "2 damage",
+      "tier2": "5 damage",
+      "tier3": "7 damage"
+    },
+    {
+      "effect": "The ground beneath the area is [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain) for enemies.",
+      "name": "Effect"
+    }
+  ],
+  "feature_type": "ability",
+  "flavor": "A sudden storm of detritus assaults your foes and leaves them struggling to move.",
+  "keywords": [
+    "Area",
+    "Earth",
+    "Magic",
+    "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)"
+  ],
+  "metadata": {
+    "ability_type": "Signature",
+    "action_type": "Main action",
+    "class": "elementalist",
+    "content": "\n*A sudden storm of detritus assaults your foes and leaves them struggling to move.*\n\n| **Area, Earth, Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)** |               **Main action** |\n|--------------------------------|------------------------------:|\n| **📏 2 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 10**        | **🎯 Each enemy in the area** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason):**\n\n- **≤11:** 2 damage\n- **12-16:** 5 damage\n- **17+:** 7 damage\n\n**Effect:** The ground beneath the area is [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain) for enemies.",
+    "distance": "2 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 10",
+    "feature_type": "ability",
+    "flavor": "A sudden storm of detritus assaults your foes and leaves them struggling to move.",
+    "item_id": "unquiet-ground",
+    "item_name": "Unquiet Ground",
+    "keywords": [
+      "Area",
+      "Earth",
+      "Magic",
+      "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)"
+    ],
+    "level": 1,
+    "scc": [
+      "mcdm.heroes.v1/feature.ability.elementalist.level-1/unquiet-ground"
+    ],
+    "target": "Each enemy in the area",
+    "type": "feature/ability/elementalist/level-1"
+  },
+  "name": "Unquiet Ground",
+  "target": "Each enemy in the area",
+  "type": "feature",
+  "usage": "Main action"
+}

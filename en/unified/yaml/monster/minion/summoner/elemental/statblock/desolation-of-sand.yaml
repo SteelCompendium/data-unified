@@ -1,0 +1,42 @@
+agility: 2
+cost: 3 essence for two minions
+ev: ""
+features:
+    - effects:
+        - effect: The desolation's [free strikes](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) inflict M < AVERAGE [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends). If the target is already [slowed](scc.v1:mcdm.heroes.v1/condition/slowed), then they are M < STRONG [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) ([EoT](scc.v1:mcdm.heroes.v1/rule.combat/end-of-turn)).
+      feature_type: trait
+      icon: ⭐️
+      name: Burying Strike
+      type: feature
+    - effects:
+        - effect: The desolation doesn't provoke [opportunity attacks](scc.v1:mcdm.heroes.v1/rule.combat/opportunity-attack) by moving.
+      feature_type: trait
+      icon: ⭐️
+      name: Sand Through Your Fingers
+      type: feature
+flavor: The desolations have vaguely humanoid sand forms with no legs. Their glass hose “arms” shift and bristle before firing high pressure streams of sand at their foes.
+free_strike: 4
+immunities:
+    - Sonic R
+intuition: 0
+keywords:
+    - Elemental (Air
+    - Earth)
+level: 0
+metadata:
+    scc: mcdm.summoner.v1/monster.minion.summoner.elemental.statblock/desolation-of-sand
+    source: mcdm.summoner.v1
+might: 1
+movement: Burrow
+name: Desolation of Sand
+organization: Minion
+presence: -2
+reason: 0
+role: Hexer
+size: 1M
+speed: 5
+stability: 1
+stamina: 5 | 5
+type: statblock
+weaknesses:
+    - —

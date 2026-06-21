@@ -1,0 +1,39 @@
+cost: 9 Ferocity
+distance: Ranged 15
+effects:
+    - roll: Power Roll + Intuition
+      tier1: 12 + I damage
+      tier2: 18 + I damage
+      tier3: 30 + I damage
+    - effect: If you are hidden, you remain hidden after the strike.
+      name: Effect
+feature_type: ability
+flavor: You channel your companion's feral senses to take the perfect shot.
+keywords:
+    - Beastheart
+    - Ranged
+    - Strike
+    - Weapon
+metadata:
+    action_type: Main action
+    class: beastheart
+    content: "*You channel your companion's feral senses to take the perfect shot.*\n\n| **Beastheart, Ranged, Strike, Weapon** |               **Main action** |\n|----------------------------------------|------------------------------:|\n| **\U0001F4CF Ranged 15**                       | **\U0001F3AF One creature or object** |\n\n**Power Roll + Intuition:**\n\n- **≤11:** 12 + I damage\n- **12-16:** 18 + I damage\n- **17+:** 30 + I damage\n\n**Effect:** If you are hidden, you remain hidden after the strike."
+    distance: Ranged 15
+    feature_type: ability
+    flavor: You channel your companion's feral senses to take the perfect shot.
+    item_id: deadshot
+    item_name: Deadshot
+    keywords:
+        - Beastheart
+        - Ranged
+        - Strike
+        - Weapon
+    level: 5
+    scc:
+        - mcdm.beastheart.v1/feature.ability.beastheart.level-5/deadshot
+    target: One creature or object
+    type: feature/ability/beastheart/level-5
+name: Deadshot
+target: One creature or object
+type: feature
+usage: Main action

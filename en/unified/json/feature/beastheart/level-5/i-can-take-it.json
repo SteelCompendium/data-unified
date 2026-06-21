@@ -1,0 +1,23 @@
+{
+  "effects": [
+    {
+      "effect": "When you or your companion uses your [Thunderclap](scc.v1:mcdm.beastheart.v1/feature.ability.beastheart.level-1/thunderclap) ability and halves the triggering damage, whoever uses the ability can take the remaining damage instead of the original target. The damage is transferred before immunity and weakness are applied."
+    }
+  ],
+  "feature_type": "feature",
+  "metadata": {
+    "action_type": "feature",
+    "class": "beastheart",
+    "feature_type": "feature",
+    "item_id": "i-can-take-it",
+    "item_name": "I Can Take It",
+    "level": 5,
+    "scc": [
+      "mcdm.beastheart.v1/feature.beastheart.level-5/i-can-take-it"
+    ],
+    "subclass": "punisher",
+    "type": "feature/beastheart/level-5"
+  },
+  "name": "I Can Take It",
+  "type": "feature"
+}

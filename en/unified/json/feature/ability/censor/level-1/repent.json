@@ -1,0 +1,44 @@
+{
+  "cost": "3 Wrath",
+  "distance": "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10",
+  "effects": [
+    {
+      "roll": "Power Roll + [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence)",
+      "tier1": "5 + P holy damage; I \u003c WEAK, [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)",
+      "tier2": "8 + P holy damage; I \u003c AVERAGE, [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)",
+      "tier3": "11 + P holy damage; I \u003c STRONG, [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)"
+    }
+  ],
+  "feature_type": "ability",
+  "flavor": "You conjure memories of their sins to harry your foes.",
+  "keywords": [
+    "Magic",
+    "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)",
+    "[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)"
+  ],
+  "metadata": {
+    "action_type": "Main action",
+    "class": "censor",
+    "content": "\n*You conjure memories of their sins to harry your foes.*\n\n| **Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)**  |    **Main action**  |\n|----------------------------|--------------------:|\n| **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**           | **🎯 One creature** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence):**\n\n- **≤11:** 5 + P holy damage; I \u003c WEAK, [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)\n- **12-16:** 8 + P holy damage; I \u003c AVERAGE, [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)\n- **17+:** 11 + P holy damage; I \u003c STRONG, [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)",
+    "distance": "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10",
+    "feature_type": "ability",
+    "flavor": "You conjure memories of their sins to harry your foes.",
+    "item_id": "repent",
+    "item_name": "Repent!",
+    "keywords": [
+      "Magic",
+      "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)",
+      "[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)"
+    ],
+    "level": 1,
+    "scc": [
+      "mcdm.heroes.v1/feature.ability.censor.level-1/repent"
+    ],
+    "target": "One creature",
+    "type": "feature/ability/censor/level-1"
+  },
+  "name": "Repent!",
+  "target": "One creature",
+  "type": "feature",
+  "usage": "Main action"
+}

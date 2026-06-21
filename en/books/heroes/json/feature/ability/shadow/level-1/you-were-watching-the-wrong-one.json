@@ -1,0 +1,49 @@
+{
+  "ability_type": "Signature",
+  "distance": "[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1",
+  "effects": [
+    {
+      "roll": "Power Roll + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)",
+      "tier1": "3 + A damage",
+      "tier2": "5 + A damage",
+      "tier3": "8 + A damage"
+    },
+    {
+      "effect": "As long as you have one or more allies within 5 squares of the target, you gain 1 [surge](scc.v1:mcdm.heroes.v1/rule.resource/surge). If you are [flanking](scc.v1:mcdm.heroes.v1/rule.combat/flanking) the target when you use this ability, choose one ally who is [flanking](scc.v1:mcdm.heroes.v1/rule.combat/flanking) with you. That ally also gains 1 [surge](scc.v1:mcdm.heroes.v1/rule.resource/surge).",
+      "name": "Effect"
+    }
+  ],
+  "feature_type": "ability",
+  "flavor": "They can't watch both of you at once.",
+  "keywords": [
+    "[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)",
+    "[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)",
+    "Weapon"
+  ],
+  "metadata": {
+    "ability_type": "Signature",
+    "action_type": "Main action",
+    "class": "shadow",
+    "content": "\n*They can't watch both of you at once.*\n\n| **[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), Weapon** |     **Main action** |\n|---------------------------|--------------------:|\n| **📏 [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1**            | **🎯 One creature** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility):**\n\n- **≤11:** 3 + A damage\n- **12-16:** 5 + A damage\n- **17+:** 8 + A damage\n\n**Effect:** As long as you have one or more allies within 5 squares of the target, you gain 1 [surge](scc.v1:mcdm.heroes.v1/rule.resource/surge). If you are [flanking](scc.v1:mcdm.heroes.v1/rule.combat/flanking) the target when you use this ability, choose one ally who is [flanking](scc.v1:mcdm.heroes.v1/rule.combat/flanking) with you. That ally also gains 1 [surge](scc.v1:mcdm.heroes.v1/rule.resource/surge).",
+    "distance": "[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1",
+    "feature_type": "ability",
+    "flavor": "They can't watch both of you at once.",
+    "item_id": "you-were-watching-the-wrong-one",
+    "item_name": "You Were Watching the Wrong One",
+    "keywords": [
+      "[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)",
+      "[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)",
+      "Weapon"
+    ],
+    "level": 1,
+    "scc": [
+      "mcdm.heroes.v1/feature.ability.shadow.level-1/you-were-watching-the-wrong-one"
+    ],
+    "target": "One creature",
+    "type": "feature/ability/shadow/level-1"
+  },
+  "name": "You Were Watching the Wrong One",
+  "target": "One creature",
+  "type": "feature",
+  "usage": "Main action"
+}

@@ -1,0 +1,62 @@
+---
+agility: 2
+ev: "10"
+file_basename: time-raider-helix
+file_dpath: monster/time-raider/statblock
+free_strike: 5
+immunities:
+    - Psychic 3
+intuition: 2
+item_id: time-raider-helix
+item_name: Time Raider Helix
+keywords:
+    - Humanoid
+    - Time Raider
+level: 3
+might: 0
+movement: Fly
+name: Time Raider Helix
+organization: Platoon
+presence: 2
+reason: 2
+role: Controller
+scc: mcdm.monsters.v1/monster.time-raider.statblock/time-raider-helix
+size: 1M
+source: mcdm.monsters.v1
+speed: 5
+stability: 0
+stamina: "40"
+type: statblock
+---
+
+|   Humanoid, Time Raider   |          -          |      Level 3      |  Platoon Controller   |        EV 10         |
+|:-------------------------:|:-------------------:|:-----------------:|:---------------------:|:--------------------:|
+|      **1M**<br>Size       |   **5**<br>Speed    | **40**<br>Stamina |  **0**<br>Stability   | **5**<br>Free Strike |
+| **Psychic 3**<br>Immunity | **Fly**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
+|      **0**<br>Might       |  **+2**<br>Agility  | **+2**<br>Reason  |  **+2**<br>Intuition  |  **+2**<br>Presence  |
+
+> 🏹 **Blaster Volley ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
+>
+> | **Psionic, Ranged, Strike, Weapon** |                 **Main action** |
+> |-------------------------------------|--------------------------------:|
+> | **📏 Ranged 10**                    | **🎯 Two creatures or objects** |
+>
+> **Power Roll + 2:**
+>
+> - **≤11:** 6 corruption damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2
+> - **12-16:** 8 corruption damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 4
+> - **17+:** 11 corruption damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 6, [prone](scc.v1:mcdm.heroes.v1/condition/prone)
+
+> 🔳 **Kinetic Lane**
+>
+> | **Area, Psionic, Ranged**   |   **Maneuver** |
+> |-----------------------------|---------------:|
+> | **📏 4 x 2 line within 10** | **🎯 Special** |
+>
+> **Effect:** The area is a psionically charged treadmill that pushes creatures and objects at high speed in one direction of the helix's choice. Any creature who enters the area or starts their turn there [slides](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3 squares toward the end of the area in the chosen direction. Each enemy in the area when it first appears takes 3 damage before they slide.
+>
+> **3 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice):** The helix creates a second kinetic lane.
+
+> ⭐️ **Foresight**
+>
+> The helix doesn't take a bane on strikes against creatures with concealment.

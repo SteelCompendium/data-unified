@@ -1,0 +1,66 @@
+{
+  "agility": 0,
+  "ev": "3 for four minions",
+  "features": [
+    {
+      "ability_type": "Signature Ability",
+      "distance": "Melee 3",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "tier1": "2 damage; pull 1",
+          "tier2": "4 damage; pull 2",
+          "tier3": "5 damage; pull 3"
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "🗡",
+      "keywords": [
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "name": "Barbed Tongues",
+      "target": "One creature or object per minion",
+      "type": "feature",
+      "usage": "Main action"
+    },
+    {
+      "effects": [
+        {
+          "effect": "Any creature within 2 squares of the ensnarer can't be hidden from them."
+        }
+      ],
+      "feature_type": "trait",
+      "icon": "⭐️",
+      "name": "Soulsight",
+      "type": "feature"
+    }
+  ],
+  "free_strike": 2,
+  "intuition": -1,
+  "keywords": [
+    "Abyssal",
+    "Demon"
+  ],
+  "level": 1,
+  "metadata": {
+    "scc": "mcdm.monsters.v1/monster.demon.1st-echelon.statblock/ensnarer",
+    "source": "mcdm.monsters.v1"
+  },
+  "might": 2,
+  "name": "Ensnarer",
+  "organization": "Minion",
+  "presence": -1,
+  "reason": -1,
+  "role": "Brute",
+  "size": "1M",
+  "speed": 5,
+  "stability": 0,
+  "stamina": "5",
+  "type": "statblock",
+  "weaknesses": [
+    "Holy 3"
+  ],
+  "with_captain": "+2 bonus to melee distance"
+}

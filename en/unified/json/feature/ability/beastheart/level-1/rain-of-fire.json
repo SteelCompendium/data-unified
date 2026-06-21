@@ -1,0 +1,48 @@
+{
+  "cost": "5 Ferocity",
+  "distance": "3 cube within 5",
+  "effects": [
+    {
+      "roll": "Power Roll + Might",
+      "tier1": "3 fire damage",
+      "tier2": "5 fire damage",
+      "tier3": "8 fire damage"
+    },
+    {
+      "effect": "If your companion is in the area, they deal fire damage equal to their Intuition score to each target.",
+      "name": "Effect"
+    }
+  ],
+  "feature_type": "ability",
+  "flavor": "As your arrows rain down on your foes, flames spiral around your companion, setting the arrows ablaze.",
+  "keywords": [
+    "Area",
+    "Beastheart",
+    "Weapon"
+  ],
+  "metadata": {
+    "action_type": "Main action",
+    "class": "beastheart",
+    "content": "*As your arrows rain down on your foes, flames spiral around your companion, setting the arrows ablaze.*\n\n| **Area, Beastheart, Weapon** |              **Main action** |\n|------------------------------|-----------------------------:|\n| **📏 3 cube within 5**       | **🎯 Each enemy in the area** |\n\n**Power Roll + Might:**\n\n- **≤11:** 3 fire damage\n- **12-16:** 5 fire damage\n- **17+:** 8 fire damage\n\n**Effect:** If your companion is in the area, they deal fire damage equal to their Intuition score to each target.",
+    "distance": "3 cube within 5",
+    "feature_type": "ability",
+    "flavor": "As your arrows rain down on your foes, flames spiral around your companion, setting the arrows ablaze.",
+    "item_id": "rain-of-fire",
+    "item_name": "Rain of Fire",
+    "keywords": [
+      "Area",
+      "Beastheart",
+      "Weapon"
+    ],
+    "level": 1,
+    "scc": [
+      "mcdm.beastheart.v1/feature.ability.beastheart.level-1/rain-of-fire"
+    ],
+    "target": "Each enemy in the area",
+    "type": "feature/ability/beastheart/level-1"
+  },
+  "name": "Rain of Fire",
+  "target": "Each enemy in the area",
+  "type": "feature",
+  "usage": "Main action"
+}

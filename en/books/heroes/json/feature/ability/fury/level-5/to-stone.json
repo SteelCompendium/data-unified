@@ -1,0 +1,50 @@
+{
+  "cost": "9 Ferocity",
+  "distance": "[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1",
+  "effects": [
+    {
+      "roll": "Power Roll + [Might](scc.v1:mcdm.heroes.v1/rule.character/might)",
+      "tier1": "9 + M damage; M \u003c WEAK, [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)",
+      "tier2": "13 + M damage; M \u003c AVERAGE, [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)",
+      "tier3": "18 + M damage; M \u003c STRONG, [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)"
+    },
+    {
+      "effect": "While the target is [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) this way, any other effect that would make the target [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) instead makes them [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) by this ability. Additionally, a creature who fails the [saving throw](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) while [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) this way is petrified until they are given a [supernatural](scc.v1:mcdm.heroes.v1/rule.general/supernatural) cure or you choose to reverse the effect (no action required).",
+      "name": "Effect"
+    }
+  ],
+  "feature_type": "ability",
+  "flavor": "You channel the Primordial Chaos into blows that petrify your foe... literally.",
+  "keywords": [
+    "Magic",
+    "[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)",
+    "[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)",
+    "Weapon"
+  ],
+  "metadata": {
+    "action_type": "Main action",
+    "class": "fury",
+    "content": "\n*You channel the Primordial Chaos into blows that petrify your foe... literally.*\n\n| **Magic, [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), Weapon** |     **Main action** |\n|----------------------------------|--------------------:|\n| **📏 [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1**                   | **🎯 One creature** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc.v1:mcdm.heroes.v1/rule.character/might):**\n\n- **≤11:** 9 + M damage; M \u003c WEAK, [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)\n- **12-16:** 13 + M damage; M \u003c AVERAGE, [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)\n- **17+:** 18 + M damage; M \u003c STRONG, [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)\n\n**Effect:** While the target is [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) this way, any other effect that would make the target [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) instead makes them [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) by this ability. Additionally, a creature who fails the [saving throw](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) while [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) this way is petrified until they are given a [supernatural](scc.v1:mcdm.heroes.v1/rule.general/supernatural) cure or you choose to reverse the effect (no action required).",
+    "distance": "[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1",
+    "feature_type": "ability",
+    "flavor": "You channel the Primordial Chaos into blows that petrify your foe... literally.",
+    "item_id": "to-stone",
+    "item_name": "To Stone!",
+    "keywords": [
+      "Magic",
+      "[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)",
+      "[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)",
+      "Weapon"
+    ],
+    "level": 5,
+    "scc": [
+      "mcdm.heroes.v1/feature.ability.fury.level-5/to-stone"
+    ],
+    "target": "One creature",
+    "type": "feature/ability/fury/level-5"
+  },
+  "name": "To Stone!",
+  "target": "One creature",
+  "type": "feature",
+  "usage": "Main action"
+}

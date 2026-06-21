@@ -1,0 +1,13 @@
+effects:
+    - effect: You have [speed](scc.v1:mcdm.heroes.v1/rule.character/speed) 6.
+feature_type: trait
+metadata:
+    action_type: feature
+    feature_type: trait
+    item_id: swift
+    item_name: Swift
+    scc:
+        - mcdm.heroes.v1/feature.trait.wode-elf/swift
+    type: feature/trait/wode-elf
+name: Swift
+type: feature

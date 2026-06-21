@@ -1,0 +1,17 @@
+---
+effect: 'Choose one of the following benefits:'
+flavor: I stabbed the wyrm Axarthan in the heart and their silver blood washed over me, leaving me... as you see.
+name: Dragon Blooded
+prerequisite: You defeat a leader or solo creature with the Dragon keyword, such as a gloom dragon.
+scc: mcdm.heroes.v1/title/dragon-blooded
+type: title
+---
+
+*I stabbed the wyrm Axarthan in the heart and their silver blood washed over me, leaving me... as you see.*
+
+**Prerequisite:** You defeat a leader or solo creature with the Dragon keyword, such as a gloom dragon.
+
+**Effect:** Choose one of the following benefits:
+
+- *Dragon Scaled:* Dragon scales grow on your body wherever the heart's blood of the dragon touched you. You gain the Wyrmplate signature trait from the [dragon knight](scc.v1:mcdm.heroes.v1/ancestry/dragon-knight) ancestry (see Chapter 3: [Ancestries](scc.v1:mcdm.heroes.v1/chapter/ancestries)).
+- *Dragon Touched:* You gain 3 ancestry points to spend on purchased [dragon knight](scc.v1:mcdm.heroes.v1/ancestry/dragon-knight) [ancestry traits](scc.v1:mcdm.heroes.v1/chapter/ancestries).

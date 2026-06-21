@@ -1,0 +1,61 @@
+agility: 1
+ev: "5"
+features:
+    - ability_type: Signature Ability
+      distance: 3 cube within 10
+      effects:
+        - roll: Power Roll + 2
+          tier1: 2 poison damage; I < 0 [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
+          tier2: 4 poison damage; I < 1 [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
+          tier3: 5 poison damage; I < 2 [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
+      feature_type: ability
+      icon: "\U0001F533"
+      keywords:
+        - Area
+        - Magic
+        - Ranged
+      name: Plaguecaster
+      target: Each creature in the area
+      type: feature
+      usage: Main action
+    - distance: Ranged 10
+      effects:
+        - effect: '**Effect:** If the target has a loyalty collar, they are reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).'
+      feature_type: ability
+      icon: "\U0001F3F9"
+      keywords:
+        - Magic
+        - Ranged
+      name: Posthumous Promotion
+      target: One war dog
+      type: feature
+      usage: Maneuver
+    - effects:
+        - effect: When the pestilite is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), their loyalty collar explodes, dealing 1d6 damage to each [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) enemy and object.
+      feature_type: trait
+      icon: ⭐️
+      name: Loyalty Collar
+      type: feature
+free_strike: 2
+immunities:
+    - Poison 3
+intuition: 0
+keywords:
+    - Humanoid
+    - Soulless
+    - War Dog
+level: 3
+metadata:
+    scc: mcdm.monsters.v1/monster.war-dog.1st-echelon.statblock/war-dog-pestilite
+    source: mcdm.monsters.v1
+might: 0
+name: War Dog Pestilite
+organization: Horde
+presence: 2
+reason: 0
+role: Controller
+size: 1M
+speed: 5
+stability: 0
+stamina: "20"
+type: statblock

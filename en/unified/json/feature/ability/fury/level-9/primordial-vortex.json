@@ -1,0 +1,50 @@
+{
+  "cost": "11 Ferocity",
+  "distance": "3 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)",
+  "effects": [
+    {
+      "roll": "Power Roll + [Might](scc.v1:mcdm.heroes.v1/rule.character/might)",
+      "tier1": "3 damage; vertical [pull](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3",
+      "tier2": "5 damage; vertical [pull](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5",
+      "tier3": "8 damage; vertical [pull](scc.v1:mcdm.heroes.v1/movement/forced-movement) 7"
+    },
+    {
+      "effect": "If this [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) causes a target to slam into you, you take no damage from the collision and the target takes the damage you would have taken.",
+      "name": "Effect"
+    }
+  ],
+  "feature_type": "ability",
+  "flavor": "You channel the power of the Primordial Chaos to pull foes to you.",
+  "keywords": [
+    "Area",
+    "Magic",
+    "[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)",
+    "Weapon"
+  ],
+  "metadata": {
+    "action_type": "Main action",
+    "class": "fury",
+    "content": "\n*You channel the power of the Primordial Chaos to pull foes to you.*\n\n| **Area, Magic, [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), Weapon** |               **Main action** |\n|--------------------------------|------------------------------:|\n| **📏 3 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)**                 | **🎯 Each enemy in the area** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc.v1:mcdm.heroes.v1/rule.character/might):**\n\n- **≤11:** 3 damage; vertical [pull](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3\n- **12-16:** 5 damage; vertical [pull](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5\n- **17+:** 8 damage; vertical [pull](scc.v1:mcdm.heroes.v1/movement/forced-movement) 7\n\n**Effect:** If this [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) causes a target to slam into you, you take no damage from the collision and the target takes the damage you would have taken.",
+    "distance": "3 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)",
+    "feature_type": "ability",
+    "flavor": "You channel the power of the Primordial Chaos to pull foes to you.",
+    "item_id": "primordial-vortex",
+    "item_name": "Primordial Vortex",
+    "keywords": [
+      "Area",
+      "Magic",
+      "[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)",
+      "Weapon"
+    ],
+    "level": 9,
+    "scc": [
+      "mcdm.heroes.v1/feature.ability.fury.level-9/primordial-vortex"
+    ],
+    "target": "Each enemy in the area",
+    "type": "feature/ability/fury/level-9"
+  },
+  "name": "Primordial Vortex",
+  "target": "Each enemy in the area",
+  "type": "feature",
+  "usage": "Main action"
+}

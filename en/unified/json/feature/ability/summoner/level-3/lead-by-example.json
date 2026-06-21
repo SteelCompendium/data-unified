@@ -1,0 +1,46 @@
+{
+  "distance": "Melee 1 or Summoner's Range",
+  "effects": [
+    {
+      "roll": "Power Roll + Reason",
+      "tier1": "8 + R [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage); R \u003c WEAK [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)",
+      "tier2": "12 + R [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage); R \u003c AVERAGE [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)",
+      "tier3": "16 + R [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage); R \u003c STRONG [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)"
+    }
+  ],
+  "feature_type": "ability",
+  "flavor": "Your minions watch as your implement crackles with power, ready to slam unbelievable force into your foe.",
+  "keywords": [
+    "Magic",
+    "Melee",
+    "Ranged",
+    "Strike"
+  ],
+  "metadata": {
+    "action_type": "Main action",
+    "class": "summoner",
+    "content": "*Your minions watch as your implement crackles with power, ready to slam unbelievable force into your foe.*\n\n| **Magic, Melee, Ranged, Strike** | **Main action** |\n|----------------------------------|----------------:|\n| **📏 Melee 1 or Summoner's Range** | **🎯 One enemy or object** |\n\n**Power Roll + Reason:**\n\n- **≤11:** 8 + R [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage); R \u003c WEAK [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)\n- **12-16:** 12 + R [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage); R \u003c AVERAGE [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)\n- **17+:** 16 + R [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage); R \u003c STRONG [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)",
+    "distance": "Melee 1 or Summoner's Range",
+    "feature_source": "summoner",
+    "feature_type": "ability",
+    "flavor": "Your minions watch as your implement crackles with power, ready to slam unbelievable force into your foe.",
+    "item_id": "lead-by-example",
+    "item_name": "Lead By Example",
+    "keywords": [
+      "Magic",
+      "Melee",
+      "Ranged",
+      "Strike"
+    ],
+    "level": 3,
+    "scc": [
+      "mcdm.summoner.v1/feature.ability.summoner.level-3/lead-by-example"
+    ],
+    "target": "One enemy or object",
+    "type": "feature/ability/summoner/level-3"
+  },
+  "name": "Lead By Example",
+  "target": "One enemy or object",
+  "type": "feature",
+  "usage": "Main action"
+}

@@ -1,0 +1,52 @@
+{
+  "cost": "7 Ferocity",
+  "distance": "Melee 1 or ranged 5",
+  "effects": [
+    {
+      "roll": "Power Roll + Might",
+      "tier1": "9 + M damage",
+      "tier2": "14 + M damage",
+      "tier3": "19 + M damage"
+    },
+    {
+      "effect": "The next creature who damages the target before the start of your next turn gains 3 surges, which they can use on the triggering damage.",
+      "name": "Effect"
+    }
+  ],
+  "feature_type": "ability",
+  "flavor": "You smash through their guard and shatter their armor, leaving them wide open.",
+  "keywords": [
+    "Beastheart",
+    "Melee",
+    "Ranged",
+    "Strike",
+    "Weapon"
+  ],
+  "metadata": {
+    "action_type": "Main action",
+    "class": "beastheart",
+    "content": "*You smash through their guard and shatter their armor, leaving them wide open.*\n\n| **Beastheart, Melee, Ranged, Strike, Weapon** | **Main action** |\n|-----------------------------------------------|----------------:|\n| **📏 Melee 1 or ranged 5**                    | **🎯 One creature** |\n\n**Power Roll + Might:**\n\n- **≤11:** 9 + M damage\n- **12-16:** 14 + M damage\n- **17+:** 19 + M damage\n\n**Effect:** The next creature who damages the target before the start of your next turn gains 3 surges, which they can use on the triggering damage.",
+    "distance": "Melee 1 or ranged 5",
+    "feature_type": "ability",
+    "flavor": "You smash through their guard and shatter their armor, leaving them wide open.",
+    "item_id": "shieldbreaker",
+    "item_name": "Shieldbreaker",
+    "keywords": [
+      "Beastheart",
+      "Melee",
+      "Ranged",
+      "Strike",
+      "Weapon"
+    ],
+    "level": 3,
+    "scc": [
+      "mcdm.beastheart.v1/feature.ability.beastheart.level-3/shieldbreaker"
+    ],
+    "target": "One creature",
+    "type": "feature/ability/beastheart/level-3"
+  },
+  "name": "Shieldbreaker",
+  "target": "One creature",
+  "type": "feature",
+  "usage": "Main action"
+}

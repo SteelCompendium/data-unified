@@ -1,0 +1,35 @@
+---
+action_type: feature
+class: tactician
+feature_type: feature
+file_basename: tactical-doctrine
+file_dpath: feature/tactician/level-1
+item_id: tactical-doctrine
+item_name: Tactical Doctrine
+level: "1"
+name: Tactical Doctrine
+scc: mcdm.heroes.v1/feature.tactician.level-1/tactical-doctrine
+source: mcdm.heroes.v1
+type: feature
+---
+
+```ds-feature
+effects:
+    - effect: |-
+        Warfare is as old as civilization—and perhaps even older. As battle became ever more complex, military leaders invented [tactical doctrine](tactical-doctrine.md), outlining how combatants should be structured, used, and deployed. Doctrine can be learned at war colleges passing on ancient martial traditions, or directly through blood and sweat on the battlefield. Whatever path brought you to your mastery of historically proven tactics, you choose a [tactical doctrine](tactical-doctrine.md) from the following options, each of which grants you a skill. (*Quick Build:* Vanguard and the [Intimidate](../../../skill/interpersonal/intimidate.md) skill.)
+
+        - **Insurgent:** Doing your duty, playing fair, and dying honorably in battle is your opponent's job. You'll do whatever it takes to keep your allies alive. You gain a skill from the [intrigue skill group](../../../skill/group/intrigue.md).
+        - **Mastermind:** You have an encyclopedic knowledge of warfare, viewing the battlefield as a game board and seeking [victory](../../../rule/resource/victories.md) by thinking steps ahead of your opponents. You gain a skill from the [lore skill group](../../../skill/group/lore.md).
+        - **Vanguard:** You have learned the stratagems of ancient heroes, letting you lead from the front lines and seek [victory](../../../rule/resource/victories.md) through sheer force of will and personality. You gain a skill from the [interpersonal skill group](../../../skill/group/interpersonal.md).
+
+        Your [tactical doctrine](tactical-doctrine.md) is your [subclass](../../../rule/general/subclass.md), and your choice of doctrine determines many of the features you'll gain as you gain new levels.
+feature_type: feature
+metadata:
+    class: tactician
+    level: "1"
+    name: Tactical Doctrine
+    scc: mcdm.heroes.v1/feature.tactician.level-1/tactical-doctrine
+    type: feature
+name: Tactical Doctrine
+type: feature
+```

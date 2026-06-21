@@ -1,0 +1,49 @@
+agility: 2
+ev: 3 for four minions
+features:
+    - ability_type: Signature Ability
+      distance: Melee 1
+      effects:
+        - roll: Power Roll + 2
+          tier1: 1 damage
+          tier2: 2 damage
+          tier3: 3 damage
+      feature_type: ability
+      icon: "\U0001F5E1"
+      keywords:
+        - Charge
+        - Melee
+        - Strike
+        - Weapon
+      name: Club Charge
+      target: One creature or object per minion
+      type: feature
+      usage: Main action
+    - effects:
+        - effect: The runner doesn't provoke [opportunity attacks](scc.v1:mcdm.heroes.v1/rule.combat/opportunity-attack) by moving.
+      feature_type: trait
+      icon: ⭐️
+      name: Crafty
+      type: feature
+free_strike: 1
+intuition: 0
+keywords:
+    - Goblin
+    - Humanoid
+level: 1
+metadata:
+    scc: mcdm.monsters.v1/monster.goblin.statblock/goblin-runner
+    source: mcdm.monsters.v1
+might: -2
+movement: Climb
+name: Goblin Runner
+organization: Minion
+presence: -1
+reason: 0
+role: Harrier
+size: 1S
+speed: 6
+stability: 0
+stamina: "4"
+type: statblock
+with_captain: Gain an edge on strikes

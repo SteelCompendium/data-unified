@@ -1,0 +1,50 @@
+{
+  "cost": "7 Drama",
+  "distance": "3 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)",
+  "effects": [
+    {
+      "roll": "Power Roll + [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence)",
+      "tier1": "5 fire damage; A \u003c WEAK, [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)",
+      "tier2": "7 fire damage; A \u003c AVERAGE, [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)",
+      "tier3": "10 fire damage; A \u003c STRONG, [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)"
+    },
+    {
+      "effect": "Each ally in the area can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to 2 squares.",
+      "name": "Effect"
+    }
+  ],
+  "feature_type": "ability",
+  "flavor": "A spicy performance lights a fire under your allies' feet.",
+  "keywords": [
+    "Area",
+    "Magic",
+    "[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)",
+    "Weapon"
+  ],
+  "metadata": {
+    "action_type": "Main action",
+    "class": "troubadour",
+    "content": "\n*A spicy performance lights a fire under your allies' feet.*\n\n| **Area, Magic, [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), Weapon** |               **Main action** |\n|--------------------------------|------------------------------:|\n| **📏 3 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)**                 | **🎯 Each enemy in the area** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence):**\n\n- **≤11:** 5 fire damage; A \u003c WEAK, [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)\n- **12-16:** 7 fire damage; A \u003c AVERAGE, [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)\n- **17+:** 10 fire damage; A \u003c STRONG, [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)\n\n**Effect:** Each ally in the area can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to 2 squares.",
+    "distance": "3 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)",
+    "feature_type": "ability",
+    "flavor": "A spicy performance lights a fire under your allies' feet.",
+    "item_id": "infernal-gavotte",
+    "item_name": "Infernal Gavotte",
+    "keywords": [
+      "Area",
+      "Magic",
+      "[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)",
+      "Weapon"
+    ],
+    "level": 3,
+    "scc": [
+      "mcdm.heroes.v1/feature.ability.troubadour.level-3/infernal-gavotte"
+    ],
+    "target": "Each enemy in the area",
+    "type": "feature/ability/troubadour/level-3"
+  },
+  "name": "Infernal Gavotte",
+  "target": "Each enemy in the area",
+  "type": "feature",
+  "usage": "Main action"
+}

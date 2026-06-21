@@ -1,0 +1,32 @@
+distance: Self
+effects:
+    - effect: You take half the damage and [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) up to 5 squares.
+      name: Effect
+    - cost: Spend 1 Ferocity
+      effect: When you [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) this way, each enemy adjacent to your original space takes lightning or fire damage (your choice) equal to your Intuition score.
+feature_type: ability
+flavor: You burn to ash before your foes' eyes.
+keywords:
+    - Magic
+metadata:
+    action_type: Triggered Action
+    class: beastheart
+    content: "*You burn to ash before your foes' eyes.*\n\n| **Magic**   | **Triggered Action** |\n|-------------|---------------------:|\n| **\U0001F4CF Self** |          **\U0001F3AF Self** |\n\n**Trigger:** You take damage.\n\n**Effect:** You take half the damage and [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) up to 5 squares.\n\n**Spend 1 Ferocity:** When you [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) this way, each enemy adjacent to your original space takes lightning or fire damage (your choice) equal to your Intuition score."
+    distance: Self
+    feature_type: ability
+    flavor: You burn to ash before your foes' eyes.
+    item_id: pyre
+    item_name: Pyre
+    keywords:
+        - Magic
+    level: 1
+    scc:
+        - mcdm.beastheart.v1/feature.ability.beastheart.level-1/pyre
+    subclass: spark
+    target: Self
+    type: feature/ability/beastheart/level-1
+name: Pyre
+target: Self
+trigger: You take damage.
+type: feature
+usage: Triggered Action

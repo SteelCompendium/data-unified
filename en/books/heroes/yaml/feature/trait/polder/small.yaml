@@ -1,0 +1,13 @@
+effects:
+    - effect: Your diminutive stature lets you easily get out of—or into—trouble. Your [size](scc.v1:mcdm.heroes.v1/rule.character/size) is 1S.
+feature_type: trait
+metadata:
+    action_type: feature
+    feature_type: trait
+    item_id: small
+    item_name: 'Signature Trait: Small!'
+    scc:
+        - mcdm.heroes.v1/feature.trait.polder/small
+    type: feature/trait/polder
+name: 'Signature Trait: Small!'
+type: feature

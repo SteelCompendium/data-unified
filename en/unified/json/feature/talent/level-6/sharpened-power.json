@@ -1,0 +1,22 @@
+{
+  "effects": [
+    {
+      "effect": "If the ability has any [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll), that roll gains an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge)."
+    }
+  ],
+  "feature_type": "feature",
+  "metadata": {
+    "action_type": "feature",
+    "class": "talent",
+    "feature_type": "feature",
+    "item_id": "sharpened-power",
+    "item_name": "Sharpened Power",
+    "level": 6,
+    "scc": [
+      "mcdm.heroes.v1/feature.talent.level-6/sharpened-power"
+    ],
+    "type": "feature/talent/level-6"
+  },
+  "name": "Sharpened Power",
+  "type": "feature"
+}

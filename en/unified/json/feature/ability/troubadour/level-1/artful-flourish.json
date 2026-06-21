@@ -1,0 +1,53 @@
+{
+  "ability_type": "Signature",
+  "distance": "[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1",
+  "effects": [
+    {
+      "roll": "Power Roll + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)",
+      "tier1": "2 damage",
+      "tier2": "5 damage",
+      "tier3": "7 damage"
+    },
+    {
+      "effect": "You can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to 3 squares.",
+      "name": "Effect"
+    },
+    {
+      "cost": "Spend 2+ Drama",
+      "effect": "You can target one additional creature or object for every 2 drama spent."
+    }
+  ],
+  "feature_type": "ability",
+  "flavor": "And they said practicing fencing was a waste!",
+  "keywords": [
+    "[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)",
+    "[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)",
+    "Weapon"
+  ],
+  "metadata": {
+    "ability_type": "Signature",
+    "action_type": "Main action",
+    "class": "troubadour",
+    "content": "\n*And they said practicing fencing was a waste!*\n\n| **[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), Weapon** |                 **Main action** |\n|---------------------------|--------------------------------:|\n| **📏 [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1**            | **🎯 Two creatures or objects** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility):**\n\n- **≤11:** 2 damage\n- **12-16:** 5 damage\n- **17+:** 7 damage\n\n**Effect:** You can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to 3 squares.\n\n**Spend 2+ Drama:** You can target one additional creature or object for every 2 drama spent.",
+    "distance": "[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1",
+    "feature_type": "ability",
+    "flavor": "And they said practicing fencing was a waste!",
+    "item_id": "artful-flourish",
+    "item_name": "Artful Flourish",
+    "keywords": [
+      "[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)",
+      "[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)",
+      "Weapon"
+    ],
+    "level": 1,
+    "scc": [
+      "mcdm.heroes.v1/feature.ability.troubadour.level-1/artful-flourish"
+    ],
+    "target": "Two creatures or objects",
+    "type": "feature/ability/troubadour/level-1"
+  },
+  "name": "Artful Flourish",
+  "target": "Two creatures or objects",
+  "type": "feature",
+  "usage": "Main action"
+}

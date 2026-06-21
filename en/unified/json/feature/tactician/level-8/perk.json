@@ -1,0 +1,22 @@
+{
+  "effects": [
+    {
+      "effect": "You gain one perk of your choice."
+    }
+  ],
+  "feature_type": "feature",
+  "metadata": {
+    "action_type": "feature",
+    "class": "tactician",
+    "feature_type": "feature",
+    "item_id": "perk",
+    "item_name": "Perk",
+    "level": 8,
+    "scc": [
+      "mcdm.heroes.v1/feature.tactician.level-8/perk"
+    ],
+    "type": "feature/tactician/level-8"
+  },
+  "name": "Perk",
+  "type": "feature"
+}

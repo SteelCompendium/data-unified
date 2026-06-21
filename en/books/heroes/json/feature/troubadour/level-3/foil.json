@@ -1,0 +1,22 @@
+{
+  "effects": [
+    {
+      "effect": "At the start of an encounter, choose one creature within your [line of effect](scc.v1:mcdm.heroes.v1/rule.combat/line-of-effect). You have a double [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on [power rolls](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) made against or in competition with that creature. The chosen creature also has a double [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on [power rolls](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) made against or in competition with you. If the chosen creature is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), you can choose a new foil at the start of the next [combat round](scc.v1:mcdm.heroes.v1/rule.combat/combat-round)."
+    }
+  ],
+  "feature_type": "feature",
+  "metadata": {
+    "action_type": "feature",
+    "class": "troubadour",
+    "feature_type": "feature",
+    "item_id": "foil",
+    "item_name": "Foil",
+    "level": 3,
+    "scc": [
+      "mcdm.heroes.v1/feature.troubadour.level-3/foil"
+    ],
+    "type": "feature/troubadour/level-3"
+  },
+  "name": "Foil",
+  "type": "feature"
+}

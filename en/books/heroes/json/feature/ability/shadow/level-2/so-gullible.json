@@ -1,0 +1,41 @@
+{
+  "ability_type": "Triggered",
+  "cost": "5 Insight",
+  "distance": "Self",
+  "effects": [
+    {
+      "effect": "You use your [Clever Trick](scc.v1:mcdm.heroes.v1/feature.ability.shadow.level-1/clever-trick) ability with no insight cost against the triggering creature and strike. You can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) to an unoccupied space within 3 squares of that creature and can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against them. You can then spend a [Recovery](scc.v1:mcdm.heroes.v1/rule.health/recoveries).",
+      "name": "Effect"
+    }
+  ],
+  "feature_type": "ability",
+  "flavor": "When your enemy strikes, you reveal you were in a different place all along.",
+  "keywords": [
+    "Magic"
+  ],
+  "metadata": {
+    "ability_type": "Triggered",
+    "action_type": "Free triggered",
+    "class": "shadow",
+    "content": "\n*When your enemy strikes, you reveal you were in a different place all along.*\n\n| **Magic**            | **Free triggered** |\n|----------------------|-------------------:|\n| **📏 Self**          |        **🎯 Self** |\n\n**Trigger:** Another creature targets you with a [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike).\n\n**Effect:** You use your [Clever Trick](scc.v1:mcdm.heroes.v1/feature.ability.shadow.level-1/clever-trick) ability with no insight cost against the triggering creature and strike. You can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) to an unoccupied space within 3 squares of that creature and can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against them. You can then spend a [Recovery](scc.v1:mcdm.heroes.v1/rule.health/recoveries).",
+    "distance": "Self",
+    "feature_type": "ability",
+    "flavor": "When your enemy strikes, you reveal you were in a different place all along.",
+    "item_id": "so-gullible",
+    "item_name": "So Gullible",
+    "keywords": [
+      "Magic"
+    ],
+    "level": 2,
+    "scc": [
+      "mcdm.heroes.v1/feature.ability.shadow.level-2/so-gullible"
+    ],
+    "target": "Self",
+    "type": "feature/ability/shadow/level-2"
+  },
+  "name": "So Gullible",
+  "target": "Self",
+  "trigger": "Another creature targets you with a [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike).",
+  "type": "feature",
+  "usage": "Free triggered"
+}

@@ -1,0 +1,62 @@
+---
+action_type: Triggered
+class: elementalist
+distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
+effect: The target takes half the damage.
+feature_type: ability
+file_basename: skin-like-castle-walls
+file_dpath: feature/ability/elementalist/level-1
+flavor: You cover yourself or an ally in protective stone.
+item_id: skin-like-castle-walls
+item_name: Skin Like Castle Walls
+keywords:
+    - Earth
+    - Magic
+    - '[Ranged](../../../../rule/combat/ranged.md)'
+level: "1"
+name: Skin Like Castle Walls
+scc: mcdm.heroes.v1/feature.ability.elementalist.level-1/skin-like-castle-walls
+source: mcdm.heroes.v1
+spend: '1 Essence: If the damage has any [potency](../../../../rule/character/potency.md) effects associated with it, the [potency](../../../../rule/character/potency.md) is reduced by 1 for the target.'
+subtype: triggered
+target: Self or one ally
+trigger: The target takes damage.
+type: ability
+---
+
+```ds-feature
+distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
+effects:
+    - effect: The target takes half the damage.
+    - effect: '1 Essence: If the damage has any [potency](../../../../rule/character/potency.md) effects associated with it, the [potency](../../../../rule/character/potency.md) is reduced by 1 for the target.'
+      name: Spend
+feature_type: ability
+flavor: You cover yourself or an ally in protective stone.
+keywords:
+    - Earth
+    - Magic
+    - '[Ranged](../../../../rule/combat/ranged.md)'
+metadata:
+    action_type: Triggered
+    class: elementalist
+    distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
+    effect: The target takes half the damage.
+    flavor: You cover yourself or an ally in protective stone.
+    keywords:
+        - Earth
+        - Magic
+        - '[Ranged](../../../../rule/combat/ranged.md)'
+    level: "1"
+    name: Skin Like Castle Walls
+    scc: mcdm.heroes.v1/feature.ability.elementalist.level-1/skin-like-castle-walls
+    spend: '1 Essence: If the damage has any [potency](../../../../rule/character/potency.md) effects associated with it, the [potency](../../../../rule/character/potency.md) is reduced by 1 for the target.'
+    subtype: triggered
+    target: Self or one ally
+    trigger: The target takes damage.
+    type: ability
+name: Skin Like Castle Walls
+target: Self or one ally
+trigger: The target takes damage.
+type: feature
+usage: Triggered
+```

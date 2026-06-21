@@ -1,0 +1,69 @@
+{
+  "agility": 1,
+  "cost": "1 essence per minion summoned",
+  "ev": "",
+  "features": [
+    {
+      "effects": [
+        {
+          "effect": "The bellringer's [free strikes](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) grant an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) to the next [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) made against the target, or a double [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) if two or more bellringers strike the same target."
+        }
+      ],
+      "feature_type": "trait",
+      "icon": "⭐️",
+      "name": "Ringing Strike",
+      "type": "feature"
+    },
+    {
+      "effects": [
+        {
+          "effect": "Each ally within 1 square of a bellringer has a +1 to [saving throws](scc.v1:mcdm.heroes.v1/rule.general/saving-throw). Each enemy within 1 square of a bellringer has a -1 to [saving throws](scc.v1:mcdm.heroes.v1/rule.general/saving-throw)."
+        }
+      ],
+      "feature_type": "trait",
+      "icon": "⭐️",
+      "name": "Fairy Chime",
+      "type": "feature"
+    },
+    {
+      "effects": [
+        {
+          "effect": "The bellringer has [cover](scc.v1:mcdm.heroes.v1/rule.combat/cover) while occupying a larger creature's space."
+        }
+      ],
+      "feature_type": "trait",
+      "icon": "⭐️",
+      "name": "Minuscule",
+      "type": "feature"
+    }
+  ],
+  "flavor": "The bellringers are glowing pixies that jingle as they fly. Historically, these pixies worked alongside bowman to ensure their arrows struck true.",
+  "free_strike": 1,
+  "immunities": [
+    "—"
+  ],
+  "intuition": 0,
+  "keywords": [
+    "Fey"
+  ],
+  "level": 0,
+  "metadata": {
+    "scc": "mcdm.summoner.v1/monster.minion.summoner.fey.statblock/pixie-bellringer",
+    "source": "mcdm.summoner.v1"
+  },
+  "might": -3,
+  "movement": "Fly, hover",
+  "name": "Pixie Bellringer",
+  "organization": "Minion",
+  "presence": 2,
+  "reason": 0,
+  "role": "Support",
+  "size": "1T",
+  "speed": 5,
+  "stability": 0,
+  "stamina": "2",
+  "type": "statblock",
+  "weaknesses": [
+    "—"
+  ]
+}

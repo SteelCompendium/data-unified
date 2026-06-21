@@ -1,0 +1,28 @@
+---
+action_type: feature
+class: "null"
+feature_type: feature
+file_basename: enhanced-null-field
+file_dpath: feature/null/level-4
+item_id: enhanced-null-field
+item_name: Enhanced Null Field
+level: "4"
+name: Enhanced Null Field
+scc: mcdm.heroes.v1/feature.null.level-4/enhanced-null-field
+source: mcdm.heroes.v1
+type: feature
+---
+
+```ds-feature
+effects:
+    - effect: While using your [Null Field](scc.v1:mcdm.heroes.v1/feature.null.level-1/null-field) ability, you disrupt magic and psionic power suffusing the area around you. During combat, any temporary [supernatural](scc.v1:mcdm.heroes.v1/rule.general/supernatural) terrain effects of your level or lower are removed when your [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura) partially or fully overlaps with their location. Permanent [supernatural](scc.v1:mcdm.heroes.v1/rule.general/supernatural) terrain effects of your level or lower are temporarily negated while your [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura) overlaps with their location, but return when the [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura) no longer overlaps with them.
+feature_type: feature
+metadata:
+    class: "null"
+    level: "4"
+    name: Enhanced Null Field
+    scc: mcdm.heroes.v1/feature.null.level-4/enhanced-null-field
+    type: feature
+name: Enhanced Null Field
+type: feature
+```

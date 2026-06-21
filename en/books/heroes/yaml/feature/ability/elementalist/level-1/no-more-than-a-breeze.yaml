@@ -1,0 +1,33 @@
+cost: 5 Essence
+distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
+effects:
+    - effect: Until the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), the target can move through solid matter, they ignore [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain), and their movement can't provoke [opportunity attacks](scc.v1:mcdm.heroes.v1/rule.combat/opportunity-attack). If the target ends their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) inside solid matter, they are forced out into the space where they entered it and this effect ends.
+      name: Effect
+feature_type: ability
+flavor: The material substance of a creature shreds away at your command.
+keywords:
+    - Magic
+    - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'
+    - Void
+metadata:
+    action_type: Maneuver
+    class: elementalist
+    content: "\n*The material substance of a creature shreds away at your command.*\n\n| **Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged), Void** |            **Maneuver** |\n|-------------------------|------------------------:|\n| **\U0001F4CF [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**        | **\U0001F3AF Self or one ally** |\n\n**Effect:** Until the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), the target can move through solid matter, they ignore [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain), and their movement can't provoke [opportunity attacks](scc.v1:mcdm.heroes.v1/rule.combat/opportunity-attack). If the target ends their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) inside solid matter, they are forced out into the space where they entered it and this effect ends.\n\n**Persistent 1:** The effect lasts until the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn)."
+    distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
+    feature_type: ability
+    flavor: The material substance of a creature shreds away at your command.
+    item_id: no-more-than-a-breeze
+    item_name: No More Than a Breeze
+    keywords:
+        - Magic
+        - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'
+        - Void
+    level: 1
+    scc:
+        - mcdm.heroes.v1/feature.ability.elementalist.level-1/no-more-than-a-breeze
+    target: Self or one ally
+    type: feature/ability/elementalist/level-1
+name: No More Than a Breeze
+target: Self or one ally
+type: feature
+usage: Maneuver

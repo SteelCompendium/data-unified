@@ -1,0 +1,48 @@
+{
+  "cost": "11 Wrath",
+  "distance": "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10",
+  "effects": [
+    {
+      "roll": "Power Roll + [Might](scc.v1:mcdm.heroes.v1/rule.character/might)",
+      "tier1": "10 + M damage",
+      "tier2": "15 + M damage",
+      "tier3": "21 + M damage"
+    },
+    {
+      "effect": "Until the end of the encounter, while the target is judged by you, you can choose to make them the source of any of your abilities. Additionally, the target counts as an ally for the purpose of [flanking](scc.v1:mcdm.heroes.v1/rule.combat/flanking).",
+      "name": "Effect"
+    }
+  ],
+  "feature_type": "ability",
+  "flavor": "You use your foe as a tool against your enemies.",
+  "keywords": [
+    "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)",
+    "[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)",
+    "Weapon"
+  ],
+  "metadata": {
+    "action_type": "Main action",
+    "class": "censor",
+    "content": "\n*You use your foe as a tool against your enemies.*\n\n| **[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), Weapon** |               **Main action** |\n|----------------------------|------------------------------:|\n| **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**           |           **🎯 One creature** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc.v1:mcdm.heroes.v1/rule.character/might):**\n\n- **≤11:** 10 + M damage\n- **12-16:** 15 + M damage\n- **17+:** 21 + M damage\n\n**Effect:** Until the end of the encounter, while the target is judged by you, you can choose to make them the source of any of your abilities. Additionally, the target counts as an ally for the purpose of [flanking](scc.v1:mcdm.heroes.v1/rule.combat/flanking).",
+    "distance": "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10",
+    "feature_type": "ability",
+    "flavor": "You use your foe as a tool against your enemies.",
+    "item_id": "hand-of-the-gods",
+    "item_name": "Hand of the Gods",
+    "keywords": [
+      "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)",
+      "[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)",
+      "Weapon"
+    ],
+    "level": 8,
+    "scc": [
+      "mcdm.heroes.v1/feature.ability.censor.level-8/hand-of-the-gods"
+    ],
+    "target": "One creature",
+    "type": "feature/ability/censor/level-8"
+  },
+  "name": "Hand of the Gods",
+  "target": "One creature",
+  "type": "feature",
+  "usage": "Main action"
+}

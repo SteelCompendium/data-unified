@@ -1,0 +1,43 @@
+{
+  "distance": "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10",
+  "effects": [
+    {
+      "effect": "You [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) the target up to a number of squares equal to your [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) score.",
+      "name": "Effect"
+    },
+    {
+      "cost": "Spend 2+ Clarity",
+      "effect": "The size of the creature or object you can target increases by 1 for every 2 clarity spent."
+    }
+  ],
+  "feature_type": "ability",
+  "flavor": "Wisps of psychic energy ripple visibly from your brain as you force the target to move using only your mind.",
+  "keywords": [
+    "Psionic",
+    "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)"
+  ],
+  "metadata": {
+    "action_type": "Maneuver",
+    "class": "talent",
+    "content": "\n*Wisps of psychic energy ripple visibly from your brain as you force the target to move using only your mind.*\n\n| **Psionic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)** |                                 **Maneuver** |\n|---------------------|---------------------------------------------:|\n| **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**    | **🎯 Self or one [size](scc.v1:mcdm.heroes.v1/rule.character/size) 1 creature or object** |\n\n**Effect:** You [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) the target up to a number of squares equal to your [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) score.\n\n**Spend 2+ Clarity:** The size of the creature or object you can target increases by 1 for every 2 clarity spent.\n\n**Spend 3 Clarity:** You can vertical [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) the target.",
+    "distance": "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10",
+    "feature_type": "ability",
+    "flavor": "Wisps of psychic energy ripple visibly from your brain as you force the target to move using only your mind.",
+    "item_id": "minor-telekinesis",
+    "item_name": "Minor Telekinesis",
+    "keywords": [
+      "Psionic",
+      "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)"
+    ],
+    "level": 1,
+    "scc": [
+      "mcdm.heroes.v1/feature.ability.talent.level-1/minor-telekinesis"
+    ],
+    "target": "Self or one [size](scc.v1:mcdm.heroes.v1/rule.character/size) 1 creature or object",
+    "type": "feature/ability/talent/level-1"
+  },
+  "name": "Minor Telekinesis",
+  "target": "Self or one [size](scc.v1:mcdm.heroes.v1/rule.character/size) 1 creature or object",
+  "type": "feature",
+  "usage": "Maneuver"
+}

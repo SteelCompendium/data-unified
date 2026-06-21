@@ -1,0 +1,128 @@
+{
+  "agility": 2,
+  "ev": "12",
+  "features": [
+    {
+      "ability_type": "Signature Ability",
+      "distance": "Melee 3",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "tier1": "8 acid damage; pull 1",
+          "tier2": "10 acid damage; pull 2",
+          "tier3": "14 acid damage; pull 3"
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "🗡",
+      "keywords": [
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "name": "Prehensile Tongue",
+      "target": "One creature or object",
+      "type": "feature",
+      "usage": "Main action"
+    },
+    {
+      "distance": "5 x 2 line within 1",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "tier1": "A \u003c 0 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)",
+          "tier2": "A \u003c 1 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)",
+          "tier3": "[Slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends); or if A \u003c 2 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)"
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "🔳",
+      "keywords": [
+        "Area",
+        "Magic"
+      ],
+      "name": "Petrifying Eye Beams",
+      "target": "Special",
+      "type": "feature",
+      "usage": "Maneuver"
+    },
+    {
+      "cost": "2 Malice",
+      "distance": "Melee 1 or ranged 10",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "tier1": "8 corruption damage; R \u003c 0 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)",
+          "tier2": "10 corruption damage; R \u003c 1 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)",
+          "tier3": "14 corruption damage; R \u003c 2 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) and [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)"
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "⚔️",
+      "keywords": [
+        "Magic",
+        "Melee",
+        "Ranged",
+        "Strike"
+      ],
+      "name": "Wink",
+      "target": "One creature",
+      "type": "feature",
+      "usage": "Main action"
+    },
+    {
+      "distance": "2 burst",
+      "effects": [
+        {
+          "effect": "**Trigger:** The tonguesnapper takes damage from a melee ability.\n**Effect:** Each target takes 4 acid damage. Any target who has M \u003c 2 is also [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)."
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "❗️",
+      "keywords": [
+        "Area"
+      ],
+      "name": "Neurotoxin Splash",
+      "target": "Each enemy in the area",
+      "type": "feature",
+      "usage": "Triggered action"
+    },
+    {
+      "effects": [
+        {
+          "effect": "Any creature who starts their turn adjacent to the tonguesnapper and has M \u003c 1 is [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)."
+        }
+      ],
+      "feature_type": "trait",
+      "icon": "⭐️",
+      "name": "Petrifying Fumes",
+      "type": "feature"
+    }
+  ],
+  "free_strike": 4,
+  "immunities": [
+    "Acid 2",
+    "Poison 2"
+  ],
+  "intuition": -1,
+  "keywords": [
+    "Basilisk",
+    "Beast"
+  ],
+  "level": 1,
+  "metadata": {
+    "scc": "mcdm.monsters.v1/monster.basilisk.statblock/basilisk-tonguesnapper",
+    "source": "mcdm.monsters.v1"
+  },
+  "might": 1,
+  "name": "Basilisk Tonguesnapper",
+  "organization": "Elite",
+  "presence": -1,
+  "reason": -3,
+  "role": "Hexer",
+  "size": "2",
+  "speed": 8,
+  "stability": 2,
+  "stamina": "40",
+  "type": "statblock"
+}

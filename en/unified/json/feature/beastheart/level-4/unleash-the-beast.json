@@ -1,0 +1,22 @@
+{
+  "effects": [
+    {
+      "effect": "The first time each combat round that a creature adjacent to your companion takes damage, you gain 3 ferocity instead of 2 ferocity."
+    }
+  ],
+  "feature_type": "feature",
+  "metadata": {
+    "action_type": "feature",
+    "class": "beastheart",
+    "feature_type": "feature",
+    "item_id": "unleash-the-beast",
+    "item_name": "Unleash the Beast",
+    "level": 4,
+    "scc": [
+      "mcdm.beastheart.v1/feature.beastheart.level-4/unleash-the-beast"
+    ],
+    "type": "feature/beastheart/level-4"
+  },
+  "name": "Unleash the Beast",
+  "type": "feature"
+}

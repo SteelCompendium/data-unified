@@ -1,0 +1,141 @@
+{
+  "agility": 4,
+  "ev": "48",
+  "features": [
+    {
+      "ability_type": "Signature Ability",
+      "distance": "Melee 2",
+      "effects": [
+        {
+          "roll": "Power Roll + 5",
+          "tier1": "15 damage",
+          "tier2": "21 damage; Doru gains an edge on his next power roll; M \u003c 4 [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3",
+          "tier3": "25 damage; Doru has a double edge on his next power roll; M \u003c 5 [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5"
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "🗡",
+      "keywords": [
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "name": "Houndaxe",
+      "target": "Two creatures or objects",
+      "type": "feature",
+      "usage": "Main action"
+    },
+    {
+      "cost": "2 Malice",
+      "distance": "3 burst",
+      "effects": [
+        {
+          "roll": "Power Roll + 5",
+          "tier1": "5 damage; A \u003c 3 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)",
+          "tier2": "11 damage; A \u003c 4 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)",
+          "tier3": "15 damage; A \u003c 5 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)"
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "❇️",
+      "keywords": [
+        "Area",
+        "Weapon"
+      ],
+      "name": "Bloody Whirlwind",
+      "target": "Each creature and object in the area",
+      "type": "feature",
+      "usage": "Main action"
+    },
+    {
+      "distance": "Ranged 5",
+      "effects": [
+        {
+          "effect": "**Effect:** Doru jumps to an unoccupied space [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the target, then can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against them. If the target is [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) or [winded](scc.v1:mcdm.heroes.v1/rule.health/winded), the distance of the ability becomes Ranged 10 and the [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) deals an extra 5 damage."
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "🏹",
+      "keywords": [
+        "Ranged"
+      ],
+      "name": "Hunting Leap",
+      "target": "One creature or object",
+      "type": "feature",
+      "usage": "Maneuver"
+    },
+    {
+      "distance": "Self",
+      "effects": [
+        {
+          "effect": "**Trigger:** An enemy makes a strike against Doru.\n**Effect:** The triggering strike takes a bane and Doru gains an edge on his next power roll."
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "❗️",
+      "keywords": [
+        "-"
+      ],
+      "name": "Laugh It Off",
+      "target": "Self",
+      "type": "feature",
+      "usage": "Triggered action"
+    },
+    {
+      "effects": [
+        {
+          "effect": "Doru can't be made [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) or [restrained](scc.v1:mcdm.heroes.v1/condition/restrained). Additionally, he can move while [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed), and a creature grabbing him moves along with him unless they let go."
+        }
+      ],
+      "feature_type": "trait",
+      "icon": "⭐️",
+      "name": "Iron Juggernaut",
+      "type": "feature"
+    },
+    {
+      "effects": [
+        {
+          "effect": "Doru regains 10 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) at the start of each of his turns unless he took acid or fire damage since the start of his previous turn. Whenever he regains [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) this way, the Director can spend 2 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice) to end one effect on Doru that can be ended by a [saving throw](scc.v1:mcdm.heroes.v1/rule.general/saving-throw)."
+        }
+      ],
+      "feature_type": "trait",
+      "icon": "⭐️",
+      "name": "The Scarless",
+      "type": "feature"
+    },
+    {
+      "effects": [
+        {
+          "effect": "When Doru is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), his loyalty collar explodes, dealing 20 damage to each enemy and object within 3 squares of him."
+        }
+      ],
+      "feature_type": "trait",
+      "icon": "⭐️",
+      "name": "Champion's Loyalty Collar",
+      "type": "feature"
+    }
+  ],
+  "free_strike": 10,
+  "intuition": 4,
+  "keywords": [
+    "Humanoid",
+    "Soulless",
+    "War Dog"
+  ],
+  "level": 10,
+  "metadata": {
+    "scc": "mcdm.monsters.v1/monster.war-dog.4th-echelon.statblock/iron-champion-doru",
+    "source": "mcdm.monsters.v1"
+  },
+  "might": 5,
+  "name": "Iron Champion Doru",
+  "organization": "Elite",
+  "presence": 2,
+  "reason": 1,
+  "role": "Brute",
+  "size": "1L",
+  "speed": 5,
+  "stability": 2,
+  "stamina": "260",
+  "type": "statblock"
+}

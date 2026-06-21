@@ -1,0 +1,34 @@
+---
+file_basename: grand-scarab
+file_dpath: treasure/leveled/armor
+flavor: The blue-purple carapace and wings of a gigantic scarab beetle have been formed into an ornate breastplate.
+item_id: grand-scarab
+item_name: Grand Scarab
+keywords:
+    - Magic
+    - Medium Armor
+name: Grand Scarab
+project_goal: "450"
+scc: mcdm.heroes.v1/treasure.leveled.armor/grand-scarab
+source: mcdm.heroes.v1
+treasure_type: armor
+type: treasure
+---
+
+*The blue-purple carapace and wings of a gigantic scarab beetle have been formed into an ornate breastplate.*
+
+**Keywords:** Magic, Medium Armor
+
+**[Item Prerequisite](scc.v1:mcdm.heroes.v1/rule.downtime/item-prerequisite):** A giant scarab beetle carapace
+
+**[Project Source](scc.v1:mcdm.heroes.v1/rule.downtime/project-source):** Texts or lore in Phaedran
+
+**[Project Roll](scc.v1:mcdm.heroes.v1/rule.downtime/project-roll) [Characteristic](scc.v1:mcdm.heroes.v1/rule.character/characteristic):** [Might](scc.v1:mcdm.heroes.v1/rule.character/might), [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason), or [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)
+
+**Project Goal:** 450
+
+**1st Level:** While you wear this armor, you gain a +6 [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) and you can [fly](scc.v1:mcdm.heroes.v1/movement/fly). If you don't end your turn on the ground, you fall.
+
+**5th Level:** The armor's [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) increases to +12. Additionally, you no longer need to end your turn on the ground to avoid falling.
+
+**9th Level:** The armor's [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) increases to +21. Additionally, if you [fly](scc.v1:mcdm.heroes.v1/movement/fly) any [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance) before making a [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), that [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) gains an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge).

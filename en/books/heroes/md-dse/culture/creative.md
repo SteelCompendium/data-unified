@@ -1,0 +1,15 @@
+---
+file_basename: creative
+file_dpath: culture
+flavor: A hero with a creative upbringing was raised among folk who create art or other works valuable enough to trade. A creative culture might produce fine art such as dance, music, or sculpture, or more practical wares such as wagons, weapons, tools, or buildings. People in such cultures learn the value of quality crafting and attention to detail.
+item_id: creative
+item_name: Creative
+name: Creative
+scc: mcdm.heroes.v1/culture/creative
+source: mcdm.heroes.v1
+type: culture
+---
+
+A hero with a [creative](scc.v1:mcdm.heroes.v1/culture/creative) upbringing was raised among folk who create art or other works valuable enough to trade. A [creative](scc.v1:mcdm.heroes.v1/culture/creative) culture might produce fine art such as dance, music, or sculpture, or more practical wares such as wagons, weapons, tools, or buildings. People in such cultures learn the value of quality crafting and attention to detail.
+
+**Skill Options:** The [Music](scc.v1:mcdm.heroes.v1/skill.interpersonal/music) or [Perform](scc.v1:mcdm.heroes.v1/skill.interpersonal/perform) skill (from the [interpersonal skill group](scc.v1:mcdm.heroes.v1/skill.group/interpersonal)), or one skill from the [crafting group](scc.v1:mcdm.heroes.v1/skill.group/crafting). (*Quick Build:* [Perform](scc.v1:mcdm.heroes.v1/skill.interpersonal/perform).)

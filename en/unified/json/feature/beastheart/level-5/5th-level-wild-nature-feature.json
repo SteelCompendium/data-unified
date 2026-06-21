@@ -1,0 +1,22 @@
+{
+  "effects": [
+    {
+      "effect": "Your wild nature grants you a feature, as shown on the 5th-Level Wild Nature Features table.\n\n| ♦ 5th-Level Wild Nature Features ♦ |                                                                                                      |\n|------------------------------------|------------------------------------------------------------------------------------------------------|\n| Wild Nature                        | Feature                                                                                              |\n| Guardian                           | [There For Each Other](scc.v1:mcdm.beastheart.v1/feature.beastheart.level-5/there-for-each-other) |\n| Prowler                            | [Melt Away](scc.v1:mcdm.beastheart.v1/feature.beastheart.level-5/melt-away)                       |\n| Punisher                           | [I Can Take It](scc.v1:mcdm.beastheart.v1/feature.beastheart.level-5/i-can-take-it)               |\n| Spark                              | [Wildfire Pyre](scc.v1:mcdm.beastheart.v1/feature.beastheart.level-5/wildfire-pyre)               |"
+    }
+  ],
+  "feature_type": "feature",
+  "metadata": {
+    "action_type": "feature",
+    "class": "beastheart",
+    "feature_type": "feature",
+    "item_id": "5th-level-wild-nature-feature",
+    "item_name": "5th-Level Wild Nature Feature",
+    "level": 5,
+    "scc": [
+      "mcdm.beastheart.v1/feature.beastheart.level-5/5th-level-wild-nature-feature"
+    ],
+    "type": "feature/beastheart/level-5"
+  },
+  "name": "5th-Level Wild Nature Feature",
+  "type": "feature"
+}

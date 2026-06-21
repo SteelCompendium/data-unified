@@ -1,0 +1,81 @@
+{
+  "agility": 1,
+  "ev": "8",
+  "features": [
+    {
+      "ability_type": "Signature Ability",
+      "distance": "Ranged 10",
+      "effects": [
+        {
+          "roll": "Power Roll + 3",
+          "tier1": "3 corruption damage; A \u003c 1 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)",
+          "tier2": "5 corruption damage; A \u003c 2 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)",
+          "tier3": "7 corruption damage; A \u003c 3 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)"
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "🏹",
+      "keywords": [
+        "Magic",
+        "Ranged"
+      ],
+      "name": "Snaking Entrails",
+      "target": "One ally",
+      "type": "feature",
+      "usage": "Main action"
+    },
+    {
+      "distance": "10 wall within 10",
+      "effects": [
+        {
+          "effect": "**Effect:** The target spawns a wall of bloody muscle and pulsing viscera that must share one or more squares with the target. Each enemy in the area when the wall is created vertically [slides](scc.v1:mcdm.heroes.v1/movement/forced-movement) up to 2 squares and is knocked [prone](scc.v1:mcdm.heroes.v1/condition/prone). Each square of the wall has 3 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina)."
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "🔳",
+      "keywords": [
+        "Area",
+        "Magic",
+        "Ranged"
+      ],
+      "name": "Wall of Flesh",
+      "target": "One corpse",
+      "type": "feature",
+      "usage": "Maneuver"
+    },
+    {
+      "effects": [
+        {
+          "effect": "When the thanatite is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), their loyalty collar explodes, dealing 2d6 damage to each [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) enemy and object."
+        }
+      ],
+      "feature_type": "trait",
+      "icon": "⭐️",
+      "name": "Loyalty Collar",
+      "type": "feature"
+    }
+  ],
+  "free_strike": 3,
+  "intuition": 3,
+  "keywords": [
+    "Humanoid",
+    "Soulless",
+    "War Dog"
+  ],
+  "level": 6,
+  "metadata": {
+    "scc": "mcdm.monsters.v1/monster.war-dog.2nd-echelon.statblock/war-dog-thanatite",
+    "source": "mcdm.monsters.v1"
+  },
+  "might": 1,
+  "name": "War Dog Thanatite",
+  "organization": "Horde",
+  "presence": 1,
+  "reason": 2,
+  "role": "Controller",
+  "size": "1M",
+  "speed": 5,
+  "stability": 0,
+  "stamina": "35",
+  "type": "statblock"
+}

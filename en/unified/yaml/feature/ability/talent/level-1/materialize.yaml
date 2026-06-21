@@ -1,0 +1,40 @@
+ability_type: Signature
+distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
+effects:
+    - roll: Power Roll + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason)
+      tier1: 3 + R damage
+      tier2: 5 + R damage
+      tier3: 8 + R damage
+    - effect: A worthless [size](scc.v1:mcdm.heroes.v1/rule.character/size) 1M object drops onto the target to deal the damage, then rolls into an [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) unoccupied space of your choice. The object is made of wood, stone, or metal (your choice).
+      name: Effect
+feature_type: ability
+flavor: You picture an object in your mind and give it form—directly above your opponent's head.
+keywords:
+    - Psionic
+    - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'
+    - Resopathy
+    - '[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)'
+metadata:
+    ability_type: Signature
+    action_type: Main action
+    class: talent
+    content: "\n*You picture an object in your mind and give it form—directly above your opponent's head.*\n\n| **Psionic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged), Resopathy, [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)** |               **Main action** |\n|----------------------------------------|------------------------------:|\n| **\U0001F4CF [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**                       | **\U0001F3AF One creature or object** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason):**\n\n- **≤11:** 3 + R damage\n- **12-16:** 5 + R damage\n- **17+:** 8 + R damage\n\n**Effect:** A worthless [size](scc.v1:mcdm.heroes.v1/rule.character/size) 1M object drops onto the target to deal the damage, then rolls into an [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) unoccupied space of your choice. The object is made of wood, stone, or metal (your choice).\n\n**Strained:** The object explodes after the damage is dealt, and each creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the target takes damage equal to your [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) score. You also take damage equal to your [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) score that can't be reduced in any way."
+    distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
+    feature_type: ability
+    flavor: You picture an object in your mind and give it form—directly above your opponent's head.
+    item_id: materialize
+    item_name: Materialize
+    keywords:
+        - Psionic
+        - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'
+        - Resopathy
+        - '[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)'
+    level: 1
+    scc:
+        - mcdm.heroes.v1/feature.ability.talent.level-1/materialize
+    target: One creature or object
+    type: feature/ability/talent/level-1
+name: Materialize
+target: One creature or object
+type: feature
+usage: Main action

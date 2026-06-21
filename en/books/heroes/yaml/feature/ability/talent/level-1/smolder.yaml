@@ -1,0 +1,39 @@
+cost: 3 Clarity
+distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
+effects:
+    - roll: Power Roll + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason)
+      tier1: 3 + R damage; R < WEAK, the target has weakness 5 (save ends)
+      tier2: 6 + R damage; R < AVERAGE, the target has weakness 5 (save ends)
+      tier3: 9 + R damage; R < STRONG, the target has weakness equal to 5 + your [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) score (save ends)
+    - effect: 'Choose the [damage type](scc.v1:mcdm.heroes.v1/rule.damage/damage-type) and the weakness for this ability from one of the following: acid, corruption, or fire. The target takes damage before this ability imposes any weakness.'
+      name: Effect
+feature_type: ability
+flavor: Smoke flows from your enemy like tears as their skin begins to blacken and flake.
+keywords:
+    - Psionic
+    - Pyrokinesis
+    - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'
+    - '[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)'
+metadata:
+    action_type: Main action
+    class: talent
+    content: "\n*Smoke flows from your enemy like tears as their skin begins to blacken and flake.*\n\n| **Psionic, Pyrokinesis, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)** |     **Main action** |\n|------------------------------------------|--------------------:|\n| **\U0001F4CF [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**                         | **\U0001F3AF One creature** |\n\n**Effect:** Choose the [damage type](scc.v1:mcdm.heroes.v1/rule.damage/damage-type) and the weakness for this ability from one of the following: acid, corruption, or fire. The target takes damage before this ability imposes any weakness.\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason):**\n\n- **≤11:** 3 + R damage; R < WEAK, the target has weakness 5 (save ends)\n- **12-16:** 6 + R damage; R < AVERAGE, the target has weakness 5 (save ends)\n- **17+:** 9 + R damage; R < STRONG, the target has weakness equal to 5 + your [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) score (save ends)"
+    distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
+    feature_type: ability
+    flavor: Smoke flows from your enemy like tears as their skin begins to blacken and flake.
+    item_id: smolder
+    item_name: Smolder
+    keywords:
+        - Psionic
+        - Pyrokinesis
+        - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'
+        - '[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)'
+    level: 1
+    scc:
+        - mcdm.heroes.v1/feature.ability.talent.level-1/smolder
+    target: One creature
+    type: feature/ability/talent/level-1
+name: Smolder
+target: One creature
+type: feature
+usage: Main action

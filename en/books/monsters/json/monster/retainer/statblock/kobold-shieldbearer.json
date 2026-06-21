@@ -1,0 +1,62 @@
+{
+  "agility": 1,
+  "ev": "-",
+  "features": [
+    {
+      "ability_type": "Signature Ability",
+      "distance": "Melee 1",
+      "effects": [
+        {
+          "roll": "Power Roll + highest characteristic",
+          "tier1": "3 damage",
+          "tier2": "5 damage",
+          "tier3": "7 damage; [taunted](scc.v1:mcdm.heroes.v1/condition/taunted) (EoT)"
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "🗡",
+      "keywords": [
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "name": "Gladius",
+      "target": "One creature or object",
+      "type": "feature",
+      "usage": "Main action"
+    },
+    {
+      "effects": [
+        {
+          "effect": "While the shieldbearer is [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to their mentor, both have a +1 bonus to [stability](scc.v1:mcdm.heroes.v1/rule.character/stability), have [cover](scc.v1:mcdm.heroes.v1/rule.combat/cover), and grant [cover](scc.v1:mcdm.heroes.v1/rule.combat/cover) to allies."
+        }
+      ],
+      "feature_type": "trait",
+      "icon": "⭐️",
+      "name": "Shield, Boss?",
+      "type": "feature"
+    }
+  ],
+  "free_strike": 6,
+  "intuition": 0,
+  "keywords": [
+    "Humanoid",
+    "Kobold"
+  ],
+  "level": 1,
+  "metadata": {
+    "scc": "mcdm.monsters.v1/monster.retainer.statblock/kobold-shieldbearer",
+    "source": "mcdm.monsters.v1"
+  },
+  "might": 2,
+  "name": "Kobold Shieldbearer",
+  "organization": "Retainer",
+  "presence": 0,
+  "reason": 0,
+  "role": "Defender",
+  "size": "2",
+  "speed": 5,
+  "stability": 4,
+  "stamina": "21",
+  "type": "statblock"
+}

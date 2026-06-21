@@ -1,0 +1,50 @@
+agility: 2
+ev: 3 for 4 minions
+features:
+    - ability_type: Signature Ability
+      distance: Ranged 8
+      effects:
+        - roll: Power Roll + 2
+          tier1: 2 poison damage
+          tier2: 4 poison damage
+          tier3: 5 poison damage
+      feature_type: ability
+      icon: "\U0001F3F9"
+      keywords:
+        - Ranged
+        - Strike
+        - Weapon
+      name: Poison Dart
+      target: One creature per minion
+      type: feature
+      usage: Main action
+    - effects:
+        - effect: Whenever an adjacent enemy [grabs](scc.v1:mcdm.heroes.v1/feature.common.maneuvers/grab) the dart or uses a melee ability against them, that enemy takes 1 poison damage.
+      feature_type: trait
+      icon: ⭐️
+      name: Toxiferous
+      type: feature
+free_strike: 2
+immunities:
+    - Poison 2
+intuition: 0
+keywords:
+    - Angulotl
+    - Humanoid
+level: 1
+metadata:
+    scc: mcdm.monsters.v1/monster.angulotl.statblock/angulotl-dart
+    source: mcdm.monsters.v1
+might: 0
+movement: Climb, swim
+name: Angulotl Dart
+organization: Minion
+presence: 0
+reason: 1
+role: Artillery
+size: 1S
+speed: 5
+stability: 0
+stamina: "3"
+type: statblock
+with_captain: +4 bonus to ranged distance

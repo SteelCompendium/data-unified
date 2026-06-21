@@ -1,0 +1,23 @@
+{
+  "effects": [
+    {
+      "effect": "You or your companion can use your [Shadow in the Mist](scc.v1:mcdm.beastheart.v1/feature.ability.beastheart.level-1/shadow-in-the-mist) ability even when targeted by the triggering ability."
+    }
+  ],
+  "feature_type": "feature",
+  "metadata": {
+    "action_type": "feature",
+    "class": "beastheart",
+    "feature_type": "feature",
+    "item_id": "melt-away",
+    "item_name": "Melt Away",
+    "level": 5,
+    "scc": [
+      "mcdm.beastheart.v1/feature.beastheart.level-5/melt-away"
+    ],
+    "subclass": "prowler",
+    "type": "feature/beastheart/level-5"
+  },
+  "name": "Melt Away",
+  "type": "feature"
+}

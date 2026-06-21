@@ -1,0 +1,22 @@
+{
+  "effects": [
+    {
+      "effect": "At the start of each of your [turns](scc.v1:mcdm.heroes.v1/rule.combat/turn) during combat, you gain 1d3 + 1 clarity instead of 1d3."
+    }
+  ],
+  "feature_type": "feature",
+  "metadata": {
+    "action_type": "feature",
+    "class": "talent",
+    "feature_type": "feature",
+    "item_id": "lucid-mind",
+    "item_name": "Lucid Mind",
+    "level": 7,
+    "scc": [
+      "mcdm.heroes.v1/feature.talent.level-7/lucid-mind"
+    ],
+    "type": "feature/talent/level-7"
+  },
+  "name": "Lucid Mind",
+  "type": "feature"
+}

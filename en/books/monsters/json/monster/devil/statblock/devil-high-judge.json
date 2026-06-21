@@ -1,0 +1,180 @@
+{
+  "agility": 3,
+  "ev": "32",
+  "features": [
+    {
+      "ability_type": "Signature Ability",
+      "distance": "Ranged 12",
+      "effects": [
+        {
+          "roll": "Power Roll + 4",
+          "tier1": "10 damage; P \u003c 2 the target can't hide (save ends)",
+          "tier2": "15 damage; P \u003c 3 the target can't hide (save ends)",
+          "tier3": "19 damage; P \u003c 4 the target can't hide (save ends)"
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "🏹",
+      "keywords": [
+        "Magic",
+        "Ranged",
+        "Strike"
+      ],
+      "name": "Infernal Decree",
+      "target": "Three creatures or objects",
+      "type": "feature",
+      "usage": "Main action"
+    },
+    {
+      "distance": "Ranged 12",
+      "effects": [
+        {
+          "roll": "Power Roll + 4",
+          "tier1": "I \u003c 2 the target is charmed (save ends)",
+          "tier2": "I \u003c 3 the target is charmed (save ends)",
+          "tier3": "I \u003c 4 the target is charmed (save ends)"
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "🏹",
+      "keywords": [
+        "Magic",
+        "Ranged",
+        "Strike"
+      ],
+      "name": "Compel the Jury",
+      "target": "Two creatures",
+      "type": "feature",
+      "usage": "Maneuver"
+    },
+    {
+      "cost": "2 Malice",
+      "distance": "Ranged 5",
+      "effects": [
+        {
+          "roll": "",
+          "tier1": "The target is charmed (save ends).",
+          "tier2": "The high judge chooses a new target for the strike.",
+          "tier3": "The target takes a [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) on the strike."
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "❗️",
+      "keywords": [
+        "Magic",
+        "Ranged"
+      ],
+      "name": "Devilish Suggestion",
+      "target": "The triggering creature",
+      "type": "feature",
+      "usage": "Triggered action"
+    },
+    {
+      "effects": [
+        {
+          "effect": "At the end of each of their turns, the high judge can take 10 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way."
+        }
+      ],
+      "feature_type": "trait",
+      "icon": "⭐️",
+      "name": "End Effect",
+      "type": "feature"
+    },
+    {
+      "effects": [
+        {
+          "effect": "If a creature within 10 squares speaks the high judge's true name, the high judge loses their damage immunities, any nondamaging effects of their [signature ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability), and their Devilish Suggestion [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action) until the end of the encounter."
+        }
+      ],
+      "feature_type": "trait",
+      "icon": "⭐️",
+      "name": "True Name",
+      "type": "feature"
+    },
+    {
+      "cost": "Villain Action 1",
+      "distance": "3 burst",
+      "effects": [
+        {
+          "roll": "",
+          "tier1": "15 psychic damage; the target is charmed (save ends)",
+          "tier2": "12 psychic damage; the target is charmed (save ends)",
+          "tier3": "7 psychic damage"
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "☠️",
+      "keywords": [
+        "Area",
+        "Magic"
+      ],
+      "name": "All Rise",
+      "target": "Each enemy in the area",
+      "type": "feature",
+      "usage": "-"
+    },
+    {
+      "cost": "Villain Action 2",
+      "distance": "5 burst",
+      "effects": [
+        {
+          "effect": "**Effect:** Each target [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed. The high judge can make each creature charmed by All Rise, Compel the Jury, or Devilish Suggestion move up to half that creature's speed."
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "☠️",
+      "keywords": [
+        "Area"
+      ],
+      "name": "Heed My Decree",
+      "target": "Self and each ally in the area",
+      "type": "feature",
+      "usage": "-"
+    },
+    {
+      "cost": "Villain Action 3",
+      "distance": "Ranged 12",
+      "effects": [
+        {
+          "effect": "**Effect:** If the target is an ally or a creature charmed by All Rise, Compel the Jury, or Devilish Suggestion, the high judge and the target [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) to swap places. Each ally within 12 squares of the high judge can then make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against a target of the high judge's choice. Each creature charmed by All Rise, Compel the Jury, or Devilish Suggestion makes a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against a target of the high judge's choice."
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "☠️",
+      "keywords": [
+        "Magic",
+        "Ranged"
+      ],
+      "name": "Deceptive Stratagem",
+      "target": "One creature",
+      "type": "feature",
+      "usage": "-"
+    }
+  ],
+  "free_strike": 6,
+  "immunities": [
+    "Fire 5"
+  ],
+  "intuition": 1,
+  "keywords": [
+    "Devil",
+    "Infernal"
+  ],
+  "level": 6,
+  "metadata": {
+    "scc": "mcdm.monsters.v1/monster.devil.statblock/devil-high-judge",
+    "source": "mcdm.monsters.v1"
+  },
+  "might": 1,
+  "movement": "Fly",
+  "name": "Devil High Judge",
+  "organization": "Leader",
+  "presence": 2,
+  "reason": 0,
+  "role": "",
+  "size": "1M",
+  "speed": 7,
+  "stability": 2,
+  "stamina": "181",
+  "type": "statblock"
+}

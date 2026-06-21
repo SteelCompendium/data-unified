@@ -1,0 +1,76 @@
+{
+  "agility": 2,
+  "ev": "6",
+  "features": [
+    {
+      "ability_type": "Signature Ability",
+      "distance": "Melee 1 or ranged 10",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "tier1": "5 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2",
+          "tier2": "7 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 4",
+          "tier3": "9 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 6"
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "⚔️",
+      "keywords": [
+        "Charge",
+        "Melee",
+        "Ranged",
+        "Strike",
+        "Weapon"
+      ],
+      "name": "Concussive Bolts",
+      "target": "One creature or object",
+      "type": "feature",
+      "usage": "Main action"
+    },
+    {
+      "cost": "3 Malice",
+      "distance": "3 cube within 5",
+      "effects": [
+        {
+          "roll": "",
+          "tier1": "7 damage; [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (EoT)",
+          "tier2": "5 damage; [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (EoT)",
+          "tier3": "No effect."
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "🔳",
+      "keywords": [
+        "Area",
+        "Ranged",
+        "Weapon"
+      ],
+      "name": "Steam-Powered Snare",
+      "target": "Each enemy in the area",
+      "type": "feature",
+      "usage": "Maneuver"
+    }
+  ],
+  "free_strike": 3,
+  "intuition": 1,
+  "keywords": [
+    "Dwarf",
+    "Humanoid"
+  ],
+  "level": 1,
+  "metadata": {
+    "scc": "mcdm.monsters.v1/monster.dwarf.statblock/dwarf-trapper",
+    "source": "mcdm.monsters.v1"
+  },
+  "might": 0,
+  "name": "Dwarf Trapper",
+  "organization": "Platoon",
+  "presence": 0,
+  "reason": 0,
+  "role": "Harrier",
+  "size": "1M",
+  "speed": 7,
+  "stability": 2,
+  "stamina": "36",
+  "type": "statblock"
+}

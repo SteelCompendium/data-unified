@@ -1,0 +1,50 @@
+---
+agility: 0
+ev: 8 for four minions
+file_basename: voiceless-talker-graywarper
+file_dpath: monster/voiceless-talker/statblock
+free_strike: 3
+intuition: 1
+item_id: voiceless-talker-graywarper
+item_name: Voiceless Talker Graywarper
+keywords:
+    - Horror
+    - Voiceless Talker
+level: 6
+might: -1
+name: Voiceless Talker Graywarper
+organization: Minion
+presence: 1
+reason: 3
+role: Controller
+scc: mcdm.monsters.v1/monster.voiceless-talker.statblock/voiceless-talker-graywarper
+size: 1M
+source: mcdm.monsters.v1
+speed: 5
+stability: 0
+stamina: "9"
+type: statblock
+with_captain: +2 bonus to Stamina
+---
+
+| Horror, Voiceless Talker |         -         |     Level 6      |            Minion Controller            | EV 8 for four minions |
+|:------------------------:|:-----------------:|:----------------:|:---------------------------------------:|:---------------------:|
+|      **1M**<br>Size      |  **5**<br>Speed   | **9**<br>Stamina |           **0**<br>Stability            | **3**<br>Free Strike  |
+|    **-**<br>Immunity     | **-**<br>Movement |        -         | **+2 bonus to Stamina**<br>With Captain |   **-**<br>Weakness   |
+|     **-1**<br>Might      | **0**<br>Agility  | **+3**<br>Reason |           **+1**<br>Intuition           |  **+1**<br>Presence   |
+
+> 🏹 **Phase Chant ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
+>
+> | **Psionic, Ranged, Strike** |                          **Main action** |
+> |-----------------------------|-----------------------------------------:|
+> | **📏 Ranged 8**             | **🎯 One creature or object per minion** |
+>
+> **Power Roll + 3:**
+>
+> - **≤11:** 3 psychic damage
+> - **12-16:** 5 psychic damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2
+> - **17+:** 7 psychic damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 4
+
+> ⭐️ **Psionic Conductor**
+>
+> Whenever a non-[minion](scc.v1:mcdm.monsters.v1/rule.organization/minion) voiceless talker within 5 squares of the graywarper uses a psionic ability, they can do so as if they were in the graywarper's space.

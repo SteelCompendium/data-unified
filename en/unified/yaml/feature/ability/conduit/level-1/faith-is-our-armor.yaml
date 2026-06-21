@@ -1,0 +1,35 @@
+cost: 5 Piety
+distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
+effects:
+    - roll: Power Roll + [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)
+      tier1: The target gains 5 [temporary Stamina](scc.v1:mcdm.heroes.v1/rule.health/temporary-stamina).
+      tier2: The target gains 10 [temporary Stamina](scc.v1:mcdm.heroes.v1/rule.health/temporary-stamina).
+      tier3: The target gains 15 [temporary Stamina](scc.v1:mcdm.heroes.v1/rule.health/temporary-stamina).
+    - effect: You can target yourself instead of one ally with this ability.
+      name: Effect
+feature_type: ability
+flavor: The heroes' armor glows with golden light, granting divine protection.
+keywords:
+    - Magic
+    - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'
+metadata:
+    action_type: Maneuver
+    class: conduit
+    content: "\n*The heroes' armor glows with golden light, granting divine protection.*\n\n| **Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)**        |       **Maneuver** |\n|--------------------------|-------------------:|\n| **\U0001F4CF [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**         | **\U0001F3AF Four allies** |\n\n**Effect:** You can target yourself instead of one ally with this ability.\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition):**\n\n- **≤11:** The target gains 5 [temporary Stamina](scc.v1:mcdm.heroes.v1/rule.health/temporary-stamina).\n- **12-16:** The target gains 10 [temporary Stamina](scc.v1:mcdm.heroes.v1/rule.health/temporary-stamina).\n- **17+:** The target gains 15 [temporary Stamina](scc.v1:mcdm.heroes.v1/rule.health/temporary-stamina)."
+    distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
+    feature_type: ability
+    flavor: The heroes' armor glows with golden light, granting divine protection.
+    item_id: faith-is-our-armor
+    item_name: Faith Is Our Armor
+    keywords:
+        - Magic
+        - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'
+    level: 1
+    scc:
+        - mcdm.heroes.v1/feature.ability.conduit.level-1/faith-is-our-armor
+    target: Four allies
+    type: feature/ability/conduit/level-1
+name: Faith Is Our Armor
+target: Four allies
+type: feature
+usage: Maneuver

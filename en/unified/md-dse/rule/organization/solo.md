@@ -1,0 +1,12 @@
+---
+file_basename: solo
+file_dpath: rule/organization
+item_id: solo
+item_name: Solo
+name: Solo
+scc: mcdm.monsters.v1/rule.organization/solo
+source: mcdm.monsters.v1
+type: rule
+---
+
+A solo creature is an encounter all on their own. They have a special set of rules within their stat block and can be deployed... well, solo! A solo creature can typically stand toe-to-toe with six heroes of the same level. Solo creatures have no additional creature role.

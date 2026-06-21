@@ -1,0 +1,15 @@
+effects:
+    - effect: At the start of each of your turns in combat, you gain 1d3 + 1 ferocity instead of 1d3.
+feature_type: feature
+metadata:
+    action_type: feature
+    class: beastheart
+    feature_type: feature
+    item_id: feral-heart
+    item_name: Feral Heart
+    level: 7
+    scc:
+        - mcdm.beastheart.v1/feature.beastheart.level-7/feral-heart
+    type: feature/beastheart/level-7
+name: Feral Heart
+type: feature

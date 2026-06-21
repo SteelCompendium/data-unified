@@ -1,0 +1,33 @@
+cost: 5 Insight
+distance: Self; see below
+effects:
+    - effect: You use a [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) [signature ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability) twice.
+      name: Effect
+feature_type: ability
+flavor: They have no idea what the college taught you.
+keywords:
+    - Magic
+    - '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)'
+    - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'
+metadata:
+    action_type: Main action
+    class: shadow
+    content: "\n*They have no idea what the college taught you.*\n\n| **Magic, [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)** | **Main action** |\n|------------------------|----------------:|\n| **\U0001F4CF Self; see below** |     **\U0001F3AF Self** |\n\n**Effect:** You use a [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) [signature ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability) twice."
+    distance: Self; see below
+    feature_type: ability
+    flavor: They have no idea what the college taught you.
+    item_id: shadowstrike
+    item_name: Shadowstrike
+    keywords:
+        - Magic
+        - '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)'
+        - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'
+    level: 1
+    scc:
+        - mcdm.heroes.v1/feature.ability.shadow.level-1/shadowstrike
+    target: Self
+    type: feature/ability/shadow/level-1
+name: Shadowstrike
+target: Self
+type: feature
+usage: Main action

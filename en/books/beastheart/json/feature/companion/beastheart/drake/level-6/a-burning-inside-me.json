@@ -1,0 +1,22 @@
+{
+  "effects": [
+    {
+      "effect": "While the drake is rampaging, you gain draconic wings and can [fly](scc.v1:mcdm.heroes.v1/movement/fly). If you are midair when the drake's rampage ends, you take no damage from the fall. Additionally, you can use the drake's Drake Breath maneuver until their rampage ends."
+    }
+  ],
+  "feature_type": "feature",
+  "metadata": {
+    "action_type": "feature",
+    "class": "beastheart",
+    "feature_type": "feature",
+    "item_id": "a-burning-inside-me",
+    "item_name": "A Burning Inside Me",
+    "level": 6,
+    "scc": [
+      "mcdm.beastheart.v1/feature.companion.beastheart.drake.level-6/a-burning-inside-me"
+    ],
+    "type": "feature/companion/beastheart/drake/level-6"
+  },
+  "name": "A Burning Inside Me",
+  "type": "feature"
+}

@@ -1,0 +1,35 @@
+---
+action_type: Main action
+class: fury
+cost: 5 Ferocity
+distance: Self; see below
+effect: You [shift](../../../../movement/shifting.md) up to your [speed](../../../../rule/character/speed.md) and make one [power roll](../../../../rule/dice/power-roll.md) that targets up to three enemies you move [adjacent](../../../../rule/combat/adjacent.md) to during this [shift](../../../../movement/shifting.md).
+flavor: Organizing your forces like feckless creatures of Law. Pitiful.
+keywords:
+    - '[Melee](../../../../rule/combat/melee.md)'
+    - Weapon
+level: "2"
+name: Phalanx-Breaker
+power_roll_characteristic: '[Might](../../../../rule/character/might.md)'
+scc: mcdm.heroes.v1/feature.ability.fury.level-2/phalanx-breaker
+target: Self
+tier1: 2 damage; A < WEAK, [dazed](../../../../condition/dazed.md) (save ends)
+tier2: 4 damage; A < AVERAGE, [dazed](../../../../condition/dazed.md) (save ends)
+tier3: 6 damage; A < STRONG, [dazed](../../../../condition/dazed.md) (save ends)
+type: ability
+---
+
+
+*Organizing your forces like feckless creatures of Law. Pitiful.*
+
+| **[Melee](../../../../rule/combat/melee.md), Weapon**      | **Main action** |
+|------------------------|----------------:|
+| **📏 Self; see below** |     **🎯 Self** |
+
+**Effect:** You [shift](../../../../movement/shifting.md) up to your [speed](../../../../rule/character/speed.md) and make one [power roll](../../../../rule/dice/power-roll.md) that targets up to three enemies you move [adjacent](../../../../rule/combat/adjacent.md) to during this [shift](../../../../movement/shifting.md).
+
+**[Power Roll](../../../../rule/dice/power-roll.md) + [Might](../../../../rule/character/might.md):**
+
+- **≤11:** 2 damage; A < WEAK, [dazed](../../../../condition/dazed.md) (save ends)
+- **12-16:** 4 damage; A < AVERAGE, [dazed](../../../../condition/dazed.md) (save ends)
+- **17+:** 6 damage; A < STRONG, [dazed](../../../../condition/dazed.md) (save ends)

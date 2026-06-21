@@ -1,0 +1,7 @@
+---
+name: Fletching
+scc: mcdm.heroes.v1/skill.crafting/fletching
+type: skill
+---
+
+Make [ranged](../../rule/combat/ranged.md) weapons and ammunition.

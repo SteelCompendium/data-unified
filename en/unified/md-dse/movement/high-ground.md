@@ -1,0 +1,14 @@
+---
+file_basename: high-ground
+file_dpath: movement
+item_id: high-ground
+item_name: High Ground
+name: High Ground
+scc: mcdm.heroes.v1/movement/high-ground
+source: mcdm.heroes.v1
+type: movement
+---
+
+Whenever a creature uses an ability to target a creature or object while standing on the ground and occupying a space that is fully above the target's space, they gain an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on the [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) against that target. To be fully above a target, the bottom of a creature's space must be higher than or bordering on the top of the target's space.
+
+A creature can gain this benefit while climbing only if they have "climb" in their [speed](scc.v1:mcdm.heroes.v1/rule.character/speed) entry or can automatically climb at full [speed](scc.v1:mcdm.heroes.v1/rule.character/speed) while moving.

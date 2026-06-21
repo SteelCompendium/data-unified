@@ -1,0 +1,18 @@
+content: |-
+    The following perks can be taken only by beastheart characters.
+
+    ## Exploration Perks
+
+    This section presents exploration perks in alphabetical order.
+
+    ## Intrigue Perks
+
+    This section presents an intrigue perk.
+
+    ## Interpersonal Perks
+
+    This section presents interpersonal perks in alphabetical order.
+name: Perks
+order: 3
+scc: mcdm.beastheart.v1/chapter/perks
+type: chapter

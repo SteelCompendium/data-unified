@@ -1,0 +1,29 @@
+cost: 9 Discipline
+distance: Self
+effects:
+    - effect: You can use up to three [signature abilities](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability), each of which gains an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge).
+      name: Effect
+feature_type: ability
+flavor: You slip into a faster timestream to act more quickly.
+keywords:
+    - Psionic
+metadata:
+    action_type: Main action
+    class: "null"
+    content: "\n*You slip into a faster timestream to act more quickly.*\n\n| **Psionic** | **Main action** |\n|-------------|----------------:|\n| **\U0001F4CF Self** |     **\U0001F3AF Self** |\n\n**Effect:** You can use up to three [signature abilities](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability), each of which gains an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge)."
+    distance: Self
+    feature_type: ability
+    flavor: You slip into a faster timestream to act more quickly.
+    item_id: interphase
+    item_name: Interphase
+    keywords:
+        - Psionic
+    level: 6
+    scc:
+        - mcdm.heroes.v1/feature.ability.null.level-6/interphase
+    target: Self
+    type: feature/ability/null/level-6
+name: Interphase
+target: Self
+type: feature
+usage: Main action

@@ -1,0 +1,41 @@
+{
+  "distance": "5 [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura)",
+  "effects": [
+    {
+      "effect": "While this performance is active, each target who is dead can choose to continue taking [turns](scc.v1:mcdm.heroes.v1/rule.combat/turn) after death. On each of their [turns](scc.v1:mcdm.heroes.v1/rule.combat/turn), a target can move and use either a main action or a maneuver, but can't spend [Recoveries](scc.v1:mcdm.heroes.v1/rule.health/recoveries) or use [triggered actions](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action). At the end of the encounter, each target who chose to take [turns](scc.v1:mcdm.heroes.v1/rule.combat/turn) this way turns to dust and blows away.",
+      "name": "Effect"
+    }
+  ],
+  "feature_type": "ability",
+  "flavor": "Music pours out of your heart, filling the area with the utmost delicacy and without damper.",
+  "keywords": [
+    "Area",
+    "Magic",
+    "Performance"
+  ],
+  "metadata": {
+    "action_type": "No action",
+    "class": "troubadour",
+    "content": "\n*Music pours out of your heart, filling the area with the utmost delicacy and without damper.*\n\n| **Area, Magic, Performance** |                **No action** |\n|------------------------------|-----------------------------:|\n| **📏 5 [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura)**                | **🎯 Each ally in the area** |\n\n**Effect:** While this performance is active, each target who is dead can choose to continue taking [turns](scc.v1:mcdm.heroes.v1/rule.combat/turn) after death. On each of their [turns](scc.v1:mcdm.heroes.v1/rule.combat/turn), a target can move and use either a main action or a maneuver, but can't spend [Recoveries](scc.v1:mcdm.heroes.v1/rule.health/recoveries) or use [triggered actions](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action). At the end of the encounter, each target who chose to take [turns](scc.v1:mcdm.heroes.v1/rule.combat/turn) this way turns to dust and blows away.",
+    "distance": "5 [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura)",
+    "feature_type": "ability",
+    "flavor": "Music pours out of your heart, filling the area with the utmost delicacy and without damper.",
+    "item_id": "moonlight-sonata",
+    "item_name": "Moonlight Sonata",
+    "keywords": [
+      "Area",
+      "Magic",
+      "Performance"
+    ],
+    "level": 8,
+    "scc": [
+      "mcdm.heroes.v1/feature.ability.troubadour.level-8/moonlight-sonata"
+    ],
+    "target": "Each ally in the area",
+    "type": "feature/ability/troubadour/level-8"
+  },
+  "name": "Moonlight Sonata",
+  "target": "Each ally in the area",
+  "type": "feature",
+  "usage": "No action"
+}

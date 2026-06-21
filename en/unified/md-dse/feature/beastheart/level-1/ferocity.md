@@ -1,0 +1,43 @@
+---
+action_type: feature
+class: beastheart
+feature_type: feature
+file_basename: ferocity
+file_dpath: feature/beastheart/level-1
+item_id: ferocity
+item_name: Ferocity
+level: "1"
+name: Ferocity
+scc: mcdm.beastheart.v1/feature.beastheart.level-1/ferocity
+source: mcdm.beastheart.v1
+type: feature
+---
+
+```ds-feature
+effects:
+    - effect: |-
+        You and your companion tap into a predator's bloodlust that grants you a Heroic Resource called ferocity.
+
+        ##### Ferocity in Combat
+
+        At the start of a combat encounter or some other stressful situation tracked in combat rounds (as determined by the Director), you gain ferocity equal to your Victories. At the start of each of your turns during combat, you gain 1d3 ferocity.
+
+        Additionally, the first time each combat round that a creature adjacent to your companion takes damage, you gain 2 ferocity.
+
+        You lose any remaining ferocity at the end of the encounter.
+
+        ##### Ferocity Outside of Combat
+
+        Though you can't gain ferocity outside of combat, you can use your heroic abilities and effects that cost ferocity without spending it. Whenever you or your companion uses an ability or effect outside of combat that costs ferocity, that same ability or effect can't be used outside of combat again until you earn 1 or more Victories or finish a respite.
+
+        When you or your companion uses an ability outside of combat that has a variable or unlimited ferocity cost, the ability can be used as if you had spent an amount of ferocity equal to your Victories.
+feature_type: feature
+metadata:
+    class: beastheart
+    level: "1"
+    name: Ferocity
+    scc: mcdm.beastheart.v1/feature.beastheart.level-1/ferocity
+    type: feature
+name: Ferocity
+type: feature
+```

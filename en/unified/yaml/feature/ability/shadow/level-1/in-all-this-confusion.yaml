@@ -1,0 +1,33 @@
+ability_type: Triggered
+distance: Self
+effects:
+    - effect: You take half the damage, then can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) up to 4 squares after the triggering effect resolves.
+      name: Effect
+    - cost: Spend 1+ Insight
+      effect: You [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) 1 additional square for each insight spent.
+feature_type: ability
+flavor: You vanish in a plume of black smoke to avoid danger.
+keywords:
+    - Magic
+metadata:
+    ability_type: Triggered
+    action_type: Triggered
+    class: shadow
+    content: "\n*You vanish in a plume of black smoke to avoid danger.*\n\n| **Magic**   | **Triggered** |\n|-------------|--------------:|\n| **\U0001F4CF Self** |     **\U0001F3AF Self** |\n\n**Trigger:** You take damage.\n\n**Effect:** You take half the damage, then can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) up to 4 squares after the triggering effect resolves.\n\n**Spend 1+ Insight:** You [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) 1 additional square for each insight spent."
+    distance: Self
+    feature_type: ability
+    flavor: You vanish in a plume of black smoke to avoid danger.
+    item_id: in-all-this-confusion
+    item_name: In All This Confusion
+    keywords:
+        - Magic
+    level: 1
+    scc:
+        - mcdm.heroes.v1/feature.ability.shadow.level-1/in-all-this-confusion
+    target: Self
+    type: feature/ability/shadow/level-1
+name: In All This Confusion
+target: Self
+trigger: You take damage.
+type: feature
+usage: Triggered

@@ -1,0 +1,48 @@
+{
+  "cost": "9 Ferocity",
+  "distance": "[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1",
+  "effects": [
+    {
+      "roll": "Power Roll + [Might](scc.v1:mcdm.heroes.v1/rule.character/might)",
+      "tier1": "9 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3",
+      "tier2": "14 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5",
+      "tier3": "19 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 7"
+    },
+    {
+      "effect": "When a target would end this [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) by colliding with a creature or object, they take damage as usual, then are [pushed](scc.v1:mcdm.heroes.v1/movement/forced-movement) the remaining [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance) away from the creature or object in the direction they came from. As long as [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) remains, this effect continues if the target collides with another creature or object.",
+      "name": "Effect"
+    }
+  ],
+  "feature_type": "ability",
+  "flavor": "You knock around enemies like playthings.",
+  "keywords": [
+    "[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)",
+    "[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)",
+    "Weapon"
+  ],
+  "metadata": {
+    "action_type": "Main action",
+    "class": "fury",
+    "content": "\n*You knock around enemies like playthings.*\n\n| **[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), Weapon** |                 **Main action** |\n|---------------------------|--------------------------------:|\n| **📏 [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1**            | **🎯 Two creatures or objects** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc.v1:mcdm.heroes.v1/rule.character/might):**\n\n- **≤11:** 9 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3\n- **12-16:** 14 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5\n- **17+:** 19 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 7\n\n**Effect:** When a target would end this [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) by colliding with a creature or object, they take damage as usual, then are [pushed](scc.v1:mcdm.heroes.v1/movement/forced-movement) the remaining [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance) away from the creature or object in the direction they came from. As long as [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) remains, this effect continues if the target collides with another creature or object.",
+    "distance": "[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1",
+    "feature_type": "ability",
+    "flavor": "You knock around enemies like playthings.",
+    "item_id": "rebounding-storm",
+    "item_name": "Rebounding Storm",
+    "keywords": [
+      "[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)",
+      "[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)",
+      "Weapon"
+    ],
+    "level": 5,
+    "scc": [
+      "mcdm.heroes.v1/feature.ability.fury.level-5/rebounding-storm"
+    ],
+    "target": "Two creatures or objects",
+    "type": "feature/ability/fury/level-5"
+  },
+  "name": "Rebounding Storm",
+  "target": "Two creatures or objects",
+  "type": "feature",
+  "usage": "Main action"
+}

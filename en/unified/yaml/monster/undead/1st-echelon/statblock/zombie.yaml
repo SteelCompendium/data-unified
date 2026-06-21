@@ -1,0 +1,64 @@
+agility: 1
+ev: "3"
+features:
+    - ability_type: Signature Ability
+      distance: Melee 1
+      effects:
+        - roll: Power Roll + 2
+          tier1: 4 damage
+          tier2: 6 damage
+          tier3: 7 damage; [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)
+      feature_type: ability
+      icon: "\U0001F5E1"
+      keywords:
+        - Melee
+        - Strike
+        - Weapon
+      name: Clobber and Clutch
+      target: One creature or object
+      type: feature
+      usage: Main action
+    - cost: 3 Malice
+      distance: 2 burst
+      effects:
+        - roll: Power Roll + 2
+          tier1: 2 corruption damage
+          tier2: 3 corruption damage; M < 1 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+          tier3: 4 corruption damage; M < 2 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
+      feature_type: ability
+      icon: ❇️
+      keywords:
+        - Area
+      name: Zombie Dust
+      target: Each enemy in the area
+      type: feature
+      usage: Maneuver
+    - effects:
+        - effect: The first time the zombie is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) by damage that isn't fire damage or holy damage and their body isn't destroyed, they instead have 10 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) and fall [prone](scc.v1:mcdm.heroes.v1/condition/prone).
+      feature_type: trait
+      icon: ⭐️
+      name: Endless Knight
+      type: feature
+free_strike: 2
+immunities:
+    - Corruption 1
+    - poison 1
+intuition: -2
+keywords:
+    - Undead
+    - Soulless
+level: 1
+metadata:
+    scc: mcdm.monsters.v1/monster.undead.1st-echelon.statblock/zombie
+    source: mcdm.monsters.v1
+might: 2
+name: Zombie
+organization: Horde
+presence: 1
+reason: -5
+role: Brute
+size: 1M
+speed: 5
+stability: 1
+stamina: "20"
+type: statblock

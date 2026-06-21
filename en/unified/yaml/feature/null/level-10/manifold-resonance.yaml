@@ -1,0 +1,18 @@
+effects:
+    - effect: |-
+        Your body becomes perfected matter, beyond the whims and chaos of the timescape and the restrictions of the manifolds. Each time you finish a [respite](scc.v1:mcdm.heroes.v1/rule.resource/respite), you can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) yourself and any creatures in the area of your [Null Field](scc.v1:mcdm.heroes.v1/feature.null.level-1/null-field) ability to any location in the timescape known to you, known to any other creature in the area, or where any [supernatural](scc.v1:mcdm.heroes.v1/rule.general/supernatural) treasure in the area has been before.
+
+        Whenever you use an ability, you gain 1 discipline that can be used only to apply a benefit from your [Psi Boost](scc.v1:mcdm.heroes.v1/feature.null.level-7/psi-boost) feature to that ability. Additionally, you and allies in the area of your [Null Field](scc.v1:mcdm.heroes.v1/feature.null.level-1/null-field) ability ignore [banes](scc.v1:mcdm.heroes.v1/rule.dice/bane) and double [banes](scc.v1:mcdm.heroes.v1/rule.dice/bane) on your [power rolls](scc.v1:mcdm.heroes.v1/rule.dice/power-roll).
+feature_type: feature
+metadata:
+    action_type: feature
+    class: "null"
+    feature_type: feature
+    item_id: manifold-resonance
+    item_name: Manifold Resonance
+    level: 10
+    scc:
+        - mcdm.heroes.v1/feature.null.level-10/manifold-resonance
+    type: feature/null/level-10
+name: Manifold Resonance
+type: feature

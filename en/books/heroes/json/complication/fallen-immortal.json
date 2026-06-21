@@ -1,0 +1,9 @@
+{
+  "benefit": "You have the Religion skill (from the [lore skill group](scc.v1:mcdm.heroes.v1/skill.group/lore)). Additionally, whenever you use an ability that deals untyped damage, that ability can deal holy damage instead.",
+  "content": "You used to be an immortal creature, dispensing justice and doing the bidding of the gods. Now, whether as punishment or reward, you have been ordered to set your true nature aside and become a mortal. Your remaining years will be short, but living alongside your fellow mortals gives your life new meaning.\n\n**Benefit:** You have the Religion skill (from the [lore skill group](scc.v1:mcdm.heroes.v1/skill.group/lore)). Additionally, whenever you use an ability that deals untyped damage, that ability can deal holy damage instead.\n\n**Drawback:** You will never fully gain a mortal's comfort with untruth. Any [test](scc.v1:mcdm.heroes.v1/rule.test/test) you make to deceive another creature takes a [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane).",
+  "drawback": "You will never fully gain a mortal's comfort with untruth. Any [test](scc.v1:mcdm.heroes.v1/rule.test/test) you make to deceive another creature takes a [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane).",
+  "flavor": "You used to be an immortal creature, dispensing justice and doing the bidding of the gods. Now, whether as punishment or reward, you have been ordered to set your true nature aside and become a mortal. Your remaining years will be short, but living alongside your fellow mortals gives your life new meaning.",
+  "name": "Fallen Immortal",
+  "scc": "mcdm.heroes.v1/complication/fallen-immortal",
+  "type": "complication"
+}

@@ -1,0 +1,15 @@
+effects:
+    - effect: You gain one perk of your choice.
+feature_type: feature
+metadata:
+    action_type: feature
+    class: shadow
+    feature_type: feature
+    item_id: perk
+    item_name: Perk
+    level: 6
+    scc:
+        - mcdm.heroes.v1/feature.shadow.level-6/perk
+    type: feature/shadow/level-6
+name: Perk
+type: feature

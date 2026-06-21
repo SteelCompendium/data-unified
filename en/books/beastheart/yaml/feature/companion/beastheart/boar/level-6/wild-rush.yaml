@@ -1,0 +1,15 @@
+effects:
+    - effect: While the boar is rampaging, you can use their Gore maneuver, and you and the boar can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) instead of move when using the Charge action or the Gore maneuver.
+feature_type: feature
+metadata:
+    action_type: feature
+    class: beastheart
+    feature_type: feature
+    item_id: wild-rush
+    item_name: Wild Rush
+    level: 6
+    scc:
+        - mcdm.beastheart.v1/feature.companion.beastheart.boar.level-6/wild-rush
+    type: feature/companion/beastheart/boar/level-6
+name: Wild Rush
+type: feature

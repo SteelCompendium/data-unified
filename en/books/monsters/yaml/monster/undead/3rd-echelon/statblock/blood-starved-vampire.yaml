@@ -1,0 +1,51 @@
+agility: 1
+ev: 9 for four minions
+features:
+    - ability_type: Signature Ability
+      distance: Melee 1
+      effects:
+        - roll: Power Roll + 4
+          tier1: 3 damage
+          tier2: 6 damage
+          tier3: 7 damage; M < 4 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (EoT)
+      feature_type: ability
+      icon: "\U0001F5E1"
+      keywords:
+        - Melee
+        - Strike
+        - Weapon
+      name: Feeding Frenzy
+      target: One creature or object per minion
+      type: feature
+      usage: Main action
+    - effects:
+        - effect: The blood-starved vampire has speed 10 while any creature within 10 squares of them is [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding). The vampire must use Feeding Frenzy against a [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) creature on their turn if they are able to.
+      feature_type: trait
+      icon: ⭐️
+      name: Unslakable Bloodthirst
+      type: feature
+free_strike: 3
+immunities:
+    - Corruption 7
+    - poison 7
+intuition: 1
+keywords:
+    - Undead
+    - Vampire
+level: 7
+metadata:
+    scc: mcdm.monsters.v1/monster.undead.3rd-echelon.statblock/blood-starved-vampire
+    source: mcdm.monsters.v1
+might: 4
+movement: Climb
+name: Blood-Starved Vampire
+organization: Minion
+presence: -3
+reason: -3
+role: Harrier
+size: 1M
+speed: 6
+stability: 0
+stamina: "12"
+type: statblock
+with_captain: +3 bonus to speed

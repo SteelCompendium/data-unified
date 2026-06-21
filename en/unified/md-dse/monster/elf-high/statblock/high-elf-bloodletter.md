@@ -1,0 +1,60 @@
+---
+agility: 2
+ev: "6"
+file_basename: high-elf-bloodletter
+file_dpath: monster/elf-high/statblock
+free_strike: 4
+intuition: 1
+item_id: high-elf-bloodletter
+item_name: High Elf Bloodletter
+keywords:
+    - Fey
+    - High Elf
+    - Humanoid
+level: 1
+might: 0
+name: High Elf Bloodletter
+organization: Platoon
+presence: 0
+reason: 0
+role: Ambusher
+scc: mcdm.monsters.v1/monster.elf-high.statblock/high-elf-bloodletter
+size: 1M
+source: mcdm.monsters.v1
+speed: 7
+stability: 0
+stamina: "30"
+type: statblock
+---
+
+| Fey, High Elf, Humanoid |         -         |      Level 1      |   Platoon Ambusher    |         EV 6         |
+|:-----------------------:|:-----------------:|:-----------------:|:---------------------:|:--------------------:|
+|     **1M**<br>Size      |  **7**<br>Speed   | **30**<br>Stamina |  **0**<br>Stability   | **4**<br>Free Strike |
+|    **-**<br>Immunity    | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
+|     **0**<br>Might      | **+2**<br>Agility |  **0**<br>Reason  |  **+1**<br>Intuition  |  **0**<br>Presence   |
+
+> 🗡 **Razor's Edge (Signature Ability)**
+>
+> | **Melee, Strike, Weapon** |               **Main action** |
+> |---------------------------|------------------------------:|
+> | **📏 Melee 1**            | **🎯 One creature or object** |
+>
+> **Power Roll + 2:**
+>
+> - **≤11:** 6 damage
+> - **12-16:** 9 damage
+> - **17+:** 12 damage; R < 2 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
+>
+> **Effect:** The bloodletter and each of their allies has a double edge on abilities targeting a creature [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) this way.
+
+> ❇️ **Blood Haze (2 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
+>
+> | **Area, Magic** |   **Maneuver** |
+> |-----------------|---------------:|
+> | **📏 1 burst**  | **🎯 Special** |
+>
+> **Effect:** Until the end of the next round, a cloud of blood vapor fills the area. The cloud blocks line of effect for enemies, and any enemy has damage weakness 3 while in the area. The bloodletter can then [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed, and can attempt to hide if they end that shift with concealment.
+
+> ⭐️ **Otherworldly Grace**
+>
+> At the start of each of their turns, the bloodletter can choose one effect on them that can be ended by a saving throw. That effect instead ends at the end of their turn.

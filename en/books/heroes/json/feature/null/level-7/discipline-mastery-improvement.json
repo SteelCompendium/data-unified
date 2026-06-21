@@ -1,0 +1,22 @@
+{
+  "effects": [
+    {
+      "effect": "Your [Discipline Mastery](scc.v1:mcdm.heroes.v1/feature.null.level-1/discipline-mastery) feature provides additional benefits when you have 10 or more discipline."
+    }
+  ],
+  "feature_type": "feature",
+  "metadata": {
+    "action_type": "feature",
+    "class": "null",
+    "feature_type": "feature",
+    "item_id": "discipline-mastery-improvement",
+    "item_name": "Discipline Mastery Improvement",
+    "level": 7,
+    "scc": [
+      "mcdm.heroes.v1/feature.null.level-7/discipline-mastery-improvement"
+    ],
+    "type": "feature/null/level-7"
+  },
+  "name": "Discipline Mastery Improvement",
+  "type": "feature"
+}

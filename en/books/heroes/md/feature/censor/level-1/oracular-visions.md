@@ -1,0 +1,9 @@
+---
+class: censor
+level: "1"
+name: Oracular Visions
+scc: mcdm.heroes.v1/feature.censor.level-1/oracular-visions
+type: feature
+---
+
+Your deity rewards you with hazy visions of things to come. Each time you earn 1 or more [Victories](scc.v1:mcdm.heroes.v1/rule.resource/victories), you earn an equal number of fate points. Whenever you or a creature within 10 squares makes a [test](scc.v1:mcdm.heroes.v1/rule.test/test), you can spend 1 fate point to tap into a vision of the outcome, granting that creature an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on the [test](scc.v1:mcdm.heroes.v1/rule.test/test). You lose any remaining fate points when you finish a [respite](scc.v1:mcdm.heroes.v1/rule.resource/respite).

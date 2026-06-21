@@ -1,0 +1,34 @@
+---
+file_basename: kuranzoi-prismscale
+file_dpath: treasure/leveled/armor
+flavor: Each scale of this iridescent armor shimmers with the faint image of a frozen moment of time.
+item_id: kuranzoi-prismscale
+item_name: Kuran'zoi Prismscale
+keywords:
+    - Medium Armor
+    - Psionic
+name: Kuran'zoi Prismscale
+project_goal: "450"
+scc: mcdm.heroes.v1/treasure.leveled.armor/kuranzoi-prismscale
+source: mcdm.heroes.v1
+treasure_type: armor
+type: treasure
+---
+
+*Each scale of this iridescent armor shimmers with the faint image of a frozen moment of time.*
+
+**Keywords:** Medium Armor, Psionic
+
+**[Item Prerequisite](scc.v1:mcdm.heroes.v1/rule.downtime/item-prerequisite):** The eyes of a [time raider](scc.v1:mcdm.heroes.v1/ancestry/time-raider) who died valiantly in battle
+
+**[Project Source](scc.v1:mcdm.heroes.v1/rule.downtime/project-source):** Texts or lore in Voll
+
+**[Project Roll](scc.v1:mcdm.heroes.v1/rule.downtime/project-roll) [Characteristic](scc.v1:mcdm.heroes.v1/rule.character/characteristic):** [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition) or [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence)
+
+**Project Goal:** 450
+
+**1st Level:** You gain a +6 [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) while you wear this armor. Additionally, whenever a creature within 5 squares deals damage to you, you can use a [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action) to capture a moment of time in the armor, making that creature [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) until the end of their next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn).
+
+**5th Level:** The armor's [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) increases to +12. Additionally, when you capture a moment of time in the armor, the triggering creature also takes corruption damage equal to twice your highest [characteristic](scc.v1:mcdm.heroes.v1/rule.character/characteristic) score.
+
+**9th Level:** The armor's [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) increases to +21. Additionally, whenever you capture a moment of time in the armor, you can immediately release it to gain a +3 [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to [speed](scc.v1:mcdm.heroes.v1/rule.character/speed) that lasts until the end of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn).

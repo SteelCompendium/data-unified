@@ -1,0 +1,37 @@
+---
+action_type: feature
+class: shadow
+feature_type: feature
+file_basename: shadow-college
+file_dpath: feature/shadow/level-1
+item_id: shadow-college
+item_name: Shadow College
+level: "1"
+name: Shadow College
+scc: mcdm.heroes.v1/feature.shadow.level-1/shadow-college
+source: mcdm.heroes.v1
+type: feature
+---
+
+```ds-feature
+effects:
+    - effect: |-
+        [Shadow](../../../class/shadow.md) colleges are secret institutions that [turn](../../../rule/combat/turn.md) ordinary folk into something else. Finding a college is the first step in a rigorous initiation process that [tests](../../../rule/test/test.md) the mettle of an applicant. Even those who make the cut often wash out—or are kicked out—as the master [shadows](../../../class/shadow.md) who teach stealth, magic, and assassination to their students are often less than gentle in their approach.
+
+        You graduated from a [shadow college](shadow-college.md) chosen from the following options, each of which grants you a skill. (*Quick Build:* College of Black Ash.)
+
+        - College of Black Ash: The College of Black Ash founded the art of being a [shadow](../../../class/shadow.md). Its graduates are unmatched in mobility, using sorcery to [teleport](../../../movement/teleport.md) around the battlefield, manipulate shadows, and summon darkness. You have the [Magic](../../../skill/lore/magic.md) skill.
+        - College of Caustic Alchemy: The College of Caustic Alchemy teaches its students recipes for the acids, bombs, and poisons used in their grim work. Graduates of the college are exceptional assassins. You have the [Alchemy](../../../skill/crafting/alchemy.md) skill.
+        - College of the Harlequin Mask: Graduates of the College of the Harlequin Mask learn illusion magic, which they use to infiltrate enemy strongholds and create orchestrated chaos in combat. You have the [Lie](../../../skill/interpersonal/lie.md) skill.
+
+        Your [shadow college](shadow-college.md) is your [subclass](../../../rule/general/subclass.md), and your choice of college determines many of the features you'll gain as you gain new levels.
+feature_type: feature
+metadata:
+    class: shadow
+    level: "1"
+    name: Shadow College
+    scc: mcdm.heroes.v1/feature.shadow.level-1/shadow-college
+    type: feature
+name: Shadow College
+type: feature
+```

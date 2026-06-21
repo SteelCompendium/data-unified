@@ -1,0 +1,14 @@
+{
+  "content": "*Though this humanoid femur is coated in lead, it feels impossibly heavy for its [size](scc.v1:mcdm.heroes.v1/rule.character/size).*\n\n**Keywords:** Magic\n\n**[Item Prerequisite](scc.v1:mcdm.heroes.v1/rule.downtime/item-prerequisite):** One humanoid femur, one bar of lead laced with starmetal\n\n**[Project Source](scc.v1:mcdm.heroes.v1/rule.downtime/project-source):** Texts or lore in Caelian\n\n**[Project Roll](scc.v1:mcdm.heroes.v1/rule.downtime/project-roll) [Characteristic](scc.v1:mcdm.heroes.v1/rule.character/characteristic):** [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) or [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)\n\n**Project Goal:** 150\n\n**Effect:** While holding the Deadweight, you fall twice as fast, taking an extra 1 damage for each square you fall (to a maximum of 75 total damage from a single fall). If you fall 5 or more squares this way, you can make a [melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) as a [free maneuver](scc.v1:mcdm.heroes.v1/rule.combat/free-maneuver) once during the fall before you hit the ground.",
+  "echelon": "1",
+  "effect": "While holding the Deadweight, you fall twice as fast, taking an extra 1 damage for each square you fall (to a maximum of 75 total damage from a single fall). If you fall 5 or more squares this way, you can make a [melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) as a [free maneuver](scc.v1:mcdm.heroes.v1/rule.combat/free-maneuver) once during the fall before you hit the ground.",
+  "flavor": "Though this humanoid femur is coated in lead, it feels impossibly heavy for its size.",
+  "keywords": [
+    "Magic"
+  ],
+  "name": "Deadweight",
+  "project_goal": "150",
+  "scc": "mcdm.heroes.v1/treasure.1st-echelon.trinket/deadweight",
+  "treasure_type": "trinket",
+  "type": "treasure"
+}

@@ -1,0 +1,63 @@
+agility: 0
+ev: "10"
+features:
+    - ability_type: Signature Ability
+      distance: 2 cube within 1
+      effects:
+        - roll: Power Roll + 2
+          tier1: 5 damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1; M < 0 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
+          tier2: 8 damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3; M < 1 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
+          tier3: 11 damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5; M < 2 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
+      feature_type: ability
+      icon: "\U0001F533"
+      keywords:
+        - Area
+        - Magic
+      name: Tile Slide
+      target: Each creature and object in the area
+      type: feature
+      usage: Main action
+    - cost: 3 Malice
+      distance: 3 cube within 10
+      effects:
+        - roll: Power Roll + 2
+          tier1: 4 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2; R < 1 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
+          tier2: 6 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3; R < 2 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
+          tier3: 9 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3; R < 3 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
+      feature_type: ability
+      icon: "\U0001F533"
+      keywords:
+        - Area
+        - Magic
+        - Ranged
+      name: Stone Wave
+      target: Each enemy in the area
+      type: feature
+      usage: Maneuver
+    - effects:
+        - effect: Whenever the stone whisperer willingly moves, they can phase through up to 2 squares of stone as part of that movement. If they end their movement inside stone, they are shunted out into the space from which they entered it.
+      feature_type: trait
+      icon: ⭐️
+      name: Stone Walker
+      type: feature
+free_strike: 5
+intuition: 2
+keywords:
+    - Dwarf
+    - Humanoid
+level: 3
+metadata:
+    scc: mcdm.monsters.v1/monster.dwarf.statblock/dwarf-stone-whisperer
+    source: mcdm.monsters.v1
+might: 1
+movement: Burrow
+name: Dwarf Stone Whisperer
+organization: Platoon
+presence: 0
+reason: 2
+role: Controller
+size: 1M
+speed: 5
+stability: 2
+stamina: "52"
+type: statblock

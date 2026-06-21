@@ -1,0 +1,22 @@
+{
+  "effects": [
+    {
+      "effect": "Your [troubadour class act](scc.v1:mcdm.heroes.v1/feature.troubadour.level-1/troubadour-class-act) grants your choice of one of two [heroic abilities](scc.v1:mcdm.heroes.v1/rule.general/heroic-ability).\n\n##### 9th-Level Auteur Abilities\n\nChoose one of the following abilities.\n\n##### 9th-Level Duelist Abilities\n\nChoose one of the following abilities.\n\n##### 9th-Level Virtuoso Abilities\n\nChoose one of the following abilities."
+    }
+  ],
+  "feature_type": "feature",
+  "metadata": {
+    "action_type": "feature",
+    "class": "troubadour",
+    "feature_type": "feature",
+    "item_id": "9th-level-class-act-ability",
+    "item_name": "9th-Level Class Act Ability",
+    "level": 9,
+    "scc": [
+      "mcdm.heroes.v1/feature.troubadour.level-9/9th-level-class-act-ability"
+    ],
+    "type": "feature/troubadour/level-9"
+  },
+  "name": "9th-Level Class Act Ability",
+  "type": "feature"
+}

@@ -1,0 +1,13 @@
+effects:
+    - effect: You can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) into and while within [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain).
+feature_type: trait
+metadata:
+    action_type: feature
+    feature_type: trait
+    item_id: forest-walk
+    item_name: Forest Walk
+    scc:
+        - mcdm.heroes.v1/feature.trait.wode-elf/forest-walk
+    type: feature/trait/wode-elf
+name: Forest Walk
+type: feature

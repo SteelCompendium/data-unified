@@ -1,0 +1,15 @@
+effects:
+    - effect: When you gain focus at the start of each of your [turns](scc.v1:mcdm.heroes.v1/rule.combat/turn) during combat, you gain 4 focus instead of 3.
+feature_type: feature
+metadata:
+    action_type: feature
+    class: tactician
+    feature_type: feature
+    item_id: true-focus
+    item_name: True Focus
+    level: 10
+    scc:
+        - mcdm.heroes.v1/feature.tactician.level-10/true-focus
+    type: feature/tactician/level-10
+name: True Focus
+type: feature

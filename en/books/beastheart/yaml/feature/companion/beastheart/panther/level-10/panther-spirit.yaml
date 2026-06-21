@@ -1,0 +1,15 @@
+effects:
+    - effect: While the panther is rampaging, you and the panther are invisible and can move through objects and terrain, which are [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain) for you both. A creature who ends their turn inside a solid object from moving this way is [teleported](scc.v1:mcdm.heroes.v1/movement/teleport) to the last unoccupied space they previously occupied.
+feature_type: feature
+metadata:
+    action_type: feature
+    class: beastheart
+    feature_type: feature
+    item_id: panther-spirit
+    item_name: Panther Spirit
+    level: 10
+    scc:
+        - mcdm.beastheart.v1/feature.companion.beastheart.panther.level-10/panther-spirit
+    type: feature/companion/beastheart/panther/level-10
+name: Panther Spirit
+type: feature

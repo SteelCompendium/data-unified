@@ -1,0 +1,22 @@
+{
+  "effects": [
+    {
+      "effect": "Your wild nature grants your choice of one of two heroic abilities.\n\n##### 2nd-Level Guardian Abilities\n\nChoose one of the following abilities.\n\n##### 2nd-Level Prowler Abilities\n\nChoose one of the following abilities.\n\n##### 2nd-Level Punisher Abilities\n\nChoose one of the following abilities.\n\n##### 2nd-Level Spark Abilities\n\nChoose one of the following abilities."
+    }
+  ],
+  "feature_type": "feature",
+  "metadata": {
+    "action_type": "feature",
+    "class": "beastheart",
+    "feature_type": "feature",
+    "item_id": "2nd-level-wild-nature-ability",
+    "item_name": "2nd-Level Wild Nature Ability",
+    "level": 2,
+    "scc": [
+      "mcdm.beastheart.v1/feature.beastheart.level-2/2nd-level-wild-nature-ability"
+    ],
+    "type": "feature/beastheart/level-2"
+  },
+  "name": "2nd-Level Wild Nature Ability",
+  "type": "feature"
+}

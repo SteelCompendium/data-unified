@@ -1,0 +1,40 @@
+{
+  "distance": "3 burst",
+  "effects": [
+    {
+      "effect": "Each enemy minion in the area is permanently removed from the encounter map. Up to three non-leader or non-solo enemies in the area are removed from the encounter for 1 [round](scc.v1:mcdm.heroes.v1/rule.combat/combat-round).",
+      "name": "Effect"
+    }
+  ],
+  "feature_type": "ability",
+  "flavor": "Cast those not affixed to this manifold into the void of a minion's existence.",
+  "keywords": [
+    "Area",
+    "Magic"
+  ],
+  "metadata": {
+    "action_type": "Main action",
+    "class": "summoner",
+    "content": "*Cast those not affixed to this manifold into the void of a minion's existence.*\n\n| **Area, Magic** | **Main action** |\n|-----------------|----------------:|\n| **📏 3 burst** | **🎯 Special** |\n\n**Effect:** Each enemy minion in the area is permanently removed from the encounter map. Up to three non-leader or non-solo enemies in the area are removed from the encounter for 1 [round](scc.v1:mcdm.heroes.v1/rule.combat/combat-round).\n\nA leader or a solo enemy in the area that has R, I, or P \u003c AVERAGE is [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) and [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) ([save ends](scc.v1:mcdm.heroes.v1/rule.general/saving-throw)) as they are partially removed from the manifold. You can increase the [potency](scc.v1:mcdm.heroes.v1/rule.character/potency) by 1 for each of your minions [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the target you choose to sacrifice as a part of using this ability.",
+    "distance": "3 burst",
+    "feature_source": "summoner",
+    "feature_type": "ability",
+    "flavor": "Cast those not affixed to this manifold into the void of a minion's existence.",
+    "item_id": "i-abjure-thee",
+    "item_name": "I Abjure Thee",
+    "keywords": [
+      "Area",
+      "Magic"
+    ],
+    "level": 9,
+    "scc": [
+      "mcdm.summoner.v1/feature.ability.summoner.level-9/i-abjure-thee"
+    ],
+    "target": "Special",
+    "type": "feature/ability/summoner/level-9"
+  },
+  "name": "I Abjure Thee",
+  "target": "Special",
+  "type": "feature",
+  "usage": "Main action"
+}

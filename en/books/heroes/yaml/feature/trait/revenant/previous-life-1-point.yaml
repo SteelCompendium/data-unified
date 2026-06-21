@@ -1,0 +1,13 @@
+effects:
+    - effect: You select a purchased trait that costs 1 ancestry point from your previous ancestry. You can take this trait multiple times, selecting a different 1 point trait from your previous ancestry each time.
+feature_type: trait
+metadata:
+    action_type: feature
+    feature_type: trait
+    item_id: previous-life-1-point
+    item_name: 'Previous Life: 1 Point'
+    scc:
+        - mcdm.heroes.v1/feature.trait.revenant/previous-life-1-point
+    type: feature/trait/revenant
+name: 'Previous Life: 1 Point'
+type: feature

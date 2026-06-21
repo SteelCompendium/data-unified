@@ -1,0 +1,13 @@
+effects:
+    - effect: '[Polder](scc.v1:mcdm.heroes.v1/ancestry/polder) heroes have access to the following traits.'
+feature_type: trait
+metadata:
+    action_type: feature
+    feature_type: trait
+    item_id: polder-traits
+    item_name: Polder Traits
+    scc:
+        - mcdm.heroes.v1/feature.trait.polder/polder-traits
+    type: feature/trait/polder
+name: Polder Traits
+type: feature

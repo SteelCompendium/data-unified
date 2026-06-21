@@ -1,0 +1,38 @@
+cost: 9 Ferocity
+distance: Ranged 5
+effects:
+    - roll: Power Roll + Intuition
+      tier1: 9 + I psychic damage; I < WEAK [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+      tier2: 13 + I psychic damage; I < AVERAGE [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+      tier3: 18 + I psychic damage; I < STRONG [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+    - effect: The first time the target uses a move action, main action, maneuver, or triggered action before the start of your next turn, your companion makes the following power roll before the target acts. If the target hasn't acted before the start of your next turn, they are [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) of your companion (save ends).
+      name: Effect
+feature_type: ability
+flavor: Your companion locks eyes with an enemy, imposing their will upon the enemy and daring them to move a muscle.
+keywords:
+    - Companion
+    - Magic
+    - Ranged
+metadata:
+    action_type: Maneuver
+    class: beastheart
+    content: "*Your companion locks eyes with an enemy, imposing their will upon the enemy and daring them to move a muscle.*\n\n| **Companion, Magic, Ranged** |        **Maneuver** |\n|------------------------------|--------------------:|\n| **\U0001F4CF Ranged 5**              | **\U0001F3AF One creature** |\n\n**Effect:** The first time the target uses a move action, main action, maneuver, or triggered action before the start of your next turn, your companion makes the following power roll before the target acts. If the target hasn't acted before the start of your next turn, they are [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) of your companion (save ends).\n\n**Power Roll + Intuition:**\n\n- **≤11:** 9 + I psychic damage; I < WEAK [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)\n- **12-16:** 13 + I psychic damage; I < AVERAGE [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)\n- **17+:** 18 + I psychic damage; I < STRONG [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)"
+    distance: Ranged 5
+    feature_type: ability
+    flavor: Your companion locks eyes with an enemy, imposing their will upon the enemy and daring them to move a muscle.
+    item_id: stare-down
+    item_name: Stare Down
+    keywords:
+        - Companion
+        - Magic
+        - Ranged
+    level: 6
+    scc:
+        - mcdm.beastheart.v1/feature.ability.beastheart.level-6/stare-down
+    subclass: guardian
+    target: One creature
+    type: feature/ability/beastheart/level-6
+name: Stare Down
+target: One creature
+type: feature
+usage: Maneuver

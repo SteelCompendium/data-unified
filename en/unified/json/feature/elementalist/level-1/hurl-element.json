@@ -1,0 +1,64 @@
+{
+  "ability": {
+    "distance": "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10",
+    "effects": [
+      {
+        "roll": "Power Roll + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason)",
+        "tier1": "2 + R damage",
+        "tier2": "4 + R damage",
+        "tier3": "6 + R damage"
+      },
+      {
+        "effect": "When you make this [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), choose the [damage type](scc.v1:mcdm.heroes.v1/rule.damage/damage-type) from one of the following options: acid, cold, corruption, fire, lightning, poison, or sonic.",
+        "name": "Effect"
+      }
+    ],
+    "feature_type": "ability",
+    "flavor": "You cast a ball of elemental energy at a foe.",
+    "keywords": [
+      "Magic",
+      "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)",
+      "[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)"
+    ],
+    "metadata": {
+      "action_type": "Main action",
+      "content": "\n*You cast a ball of elemental energy at a foe.*\n\n| **Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)** |               **Main action** |\n|---------------------------|------------------------------:|\n| **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**          | **🎯 One creature or object** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason):**\n\n- **≤11:** 2 + R damage\n- **12-16:** 4 + R damage\n- **17+:** 6 + R damage\n\n**Effect:** When you make this [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), choose the [damage type](scc.v1:mcdm.heroes.v1/rule.damage/damage-type) from one of the following options: acid, cold, corruption, fire, lightning, poison, or sonic.",
+      "distance": "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10",
+      "feature_type": "ability",
+      "flavor": "You cast a ball of elemental energy at a foe.",
+      "item_id": "hurl-element",
+      "item_name": "Hurl Element",
+      "keywords": [
+        "Magic",
+        "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)",
+        "[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)"
+      ],
+      "target": "One creature or object",
+      "type": "feature/ability/common"
+    },
+    "name": "Hurl Element",
+    "target": "One creature or object",
+    "type": "feature",
+    "usage": "Main action"
+  },
+  "effects": [
+    {
+      "effect": "You have the following ability, which can be used as a [ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike)."
+    }
+  ],
+  "feature_type": "feature",
+  "metadata": {
+    "action_type": "feature",
+    "class": "elementalist",
+    "feature_type": "feature",
+    "item_id": "hurl-element",
+    "item_name": "Hurl Element",
+    "level": 1,
+    "scc": [
+      "mcdm.heroes.v1/feature.elementalist.level-1/hurl-element"
+    ],
+    "type": "feature/elementalist/level-1"
+  },
+  "name": "Hurl Element",
+  "type": "feature"
+}

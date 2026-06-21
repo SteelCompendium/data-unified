@@ -1,0 +1,19 @@
+---
+benefit: 'You have a [retainer](../rule/general/retainer.md), in addition to any [followers](../rule/general/follower.md) you acquire through [Renown](../rule/resource/renown.md) or other means. As usual, you can have only one [retainer](../rule/general/retainer.md) in your service at a time. (See [Renown](../rule/resource/renown.md) in Chapter 13: [Rewards](../chapter/rewards.md) and [Retainers](../rule/general/retainer.md) in *Draw Steel: Monsters*).'
+drawback: Outside of combat, your [retainer](../rule/general/retainer.md) is under the Director's control. The [retainer](../rule/general/retainer.md) sometimes acts without orders—always with your best interests at heart, but often in embarrassing or inconvenient ways.
+file_basename: meddling-butler
+file_dpath: complication
+flavor: You're not sure what you did to deserve it, but for some reason, your family saddled you with an old, trusted, and extremely irritating family servant. They're supremely competent, of course, but they sometimes seem to forget who's in charge.
+item_id: meddling-butler
+item_name: Meddling Butler
+name: Meddling Butler
+scc: mcdm.heroes.v1/complication/meddling-butler
+source: mcdm.heroes.v1
+type: complication
+---
+
+You're not sure what you did to deserve it, but for some reason, your family saddled you with an old, trusted, and extremely irritating family servant. They're supremely competent, of course, but they sometimes seem to forget who's in charge.
+
+**Benefit:** You have a [retainer](../rule/general/retainer.md), in addition to any [followers](../rule/general/follower.md) you acquire through [Renown](../rule/resource/renown.md) or other means. As usual, you can have only one [retainer](../rule/general/retainer.md) in your service at a time. (See [Renown](../rule/resource/renown.md) in Chapter 13: [Rewards](../chapter/rewards.md) and [Retainers](../rule/general/retainer.md) in *Draw Steel: Monsters*).
+
+**Drawback:** Outside of combat, your [retainer](../rule/general/retainer.md) is under the Director's control. The [retainer](../rule/general/retainer.md) sometimes acts without orders—always with your best interests at heart, but often in embarrassing or inconvenient ways.

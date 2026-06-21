@@ -1,0 +1,76 @@
+agility: 0
+ev: "28"
+features:
+    - ability_type: Signature Ability
+      distance: Ranged 10
+      effects:
+        - roll: Power Roll + 3
+          tier1: 10 damage
+          tier2: 15 damage
+          tier3: 18 damage
+      feature_type: ability
+      icon: "\U0001F3F9"
+      keywords:
+        - Ranged
+        - Strike
+        - Weapon
+      name: Mark Targets
+      target: Two creatures or objects
+      type: feature
+      usage: Main action
+    - cost: 3 Malice
+      distance: Ranged 5
+      effects:
+        - roll: Power Roll + 3
+          tier1: 11 damage; M < 1 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+          tier2: 16 damage; M < 2 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+          tier3: 21 damage; M < 3 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+      feature_type: ability
+      icon: "\U0001F3F9"
+      keywords:
+        - Ranged
+        - Strike
+        - Weapon
+      name: Preserve and Protect
+      target: One creature or object
+      type: feature
+      usage: Main action
+    - distance: Ranged 10
+      effects:
+        - effect: |-
+            **Trigger:** An enemy within distance willingly moves.
+            **Effect:** At any point during the movement, the tactician and one ally within distance can each make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against the target.
+      feature_type: ability
+      icon: ❗️
+      keywords:
+        - Ranged
+      name: Take the Opening
+      target: The triggering enemy
+      type: feature
+      usage: Triggered action
+    - effects:
+        - effect: At the start of an encounter, the tactician chooses one creature within their [line of effect](scc.v1:mcdm.heroes.v1/rule.combat/line-of-effect). Both the tactician and the creature can add a d3 roll to power rolls they make against each other.
+      feature_type: trait
+      icon: ⭐️
+      name: Rivalry
+      type: feature
+free_strike: 7
+intuition: 0
+keywords:
+    - Humanoid
+    - Rival
+level: 5
+metadata:
+    scc: mcdm.monsters.v1/monster.rival.2nd-echelon.statblock/rival-tactician
+    source: mcdm.monsters.v1
+might: 3
+name: Rival Tactician
+organization: Elite
+presence: 1
+reason: 2
+role: Artillery
+size: 1M
+speed: 5
+stability: 2
+stamina: "120"
+type: statblock

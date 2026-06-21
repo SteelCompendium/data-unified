@@ -1,0 +1,14 @@
+---
+file_basename: winded
+file_dpath: rule/health
+item_id: winded
+item_name: Winded
+name: Winded
+scc: mcdm.heroes.v1/rule.health/winded
+source: mcdm.heroes.v1
+type: rule
+---
+
+Your winded value equals half your [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) maximum. When your [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) is equal to or less than your winded value, you are winded. Although being winded has no effects on its own, certain ancestry, class, item, title, and monster abilities affect winded creatures.
+
+You can tell when other creatures are winded and vice versa.

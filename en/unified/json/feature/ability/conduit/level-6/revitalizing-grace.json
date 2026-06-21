@@ -1,0 +1,40 @@
+{
+  "cost": "9 Piety",
+  "distance": "4 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)",
+  "effects": [
+    {
+      "effect": "Each target can spend any number of [Recoveries](scc.v1:mcdm.heroes.v1/rule.health/recoveries). Additionally, each target can end one effect on themself that is ended by a [saving throw](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) or that ends at the end of their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), or they can stand up if [prone](scc.v1:mcdm.heroes.v1/condition/prone).",
+      "name": "Effect"
+    }
+  ],
+  "feature_type": "ability",
+  "flavor": "With a gesture, you restore your health and that of your allies.",
+  "keywords": [
+    "Area",
+    "Magic"
+  ],
+  "metadata": {
+    "action_type": "Main action",
+    "class": "conduit",
+    "content": "\n*With a gesture, you restore your health and that of your allies.*\n\n| **Area, Magic**  |                       **Main action** |\n|------------------|--------------------------------------:|\n| **📏 4 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)**   | **🎯 Self and each ally in the area** |\n\n**Effect:** Each target can spend any number of [Recoveries](scc.v1:mcdm.heroes.v1/rule.health/recoveries). Additionally, each target can end one effect on themself that is ended by a [saving throw](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) or that ends at the end of their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), or they can stand up if [prone](scc.v1:mcdm.heroes.v1/condition/prone).",
+    "distance": "4 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)",
+    "feature_type": "ability",
+    "flavor": "With a gesture, you restore your health and that of your allies.",
+    "item_id": "revitalizing-grace",
+    "item_name": "Revitalizing Grace",
+    "keywords": [
+      "Area",
+      "Magic"
+    ],
+    "level": 6,
+    "scc": [
+      "mcdm.heroes.v1/feature.ability.conduit.level-6/revitalizing-grace"
+    ],
+    "target": "Self and each ally in the area",
+    "type": "feature/ability/conduit/level-6"
+  },
+  "name": "Revitalizing Grace",
+  "target": "Self and each ally in the area",
+  "type": "feature",
+  "usage": "Main action"
+}

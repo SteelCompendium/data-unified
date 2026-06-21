@@ -1,0 +1,47 @@
+{
+  "ability_type": "Signature",
+  "distance": "1 or 2 cube within 1",
+  "effects": [
+    {
+      "effect": "The target takes damage of the drake's attuned damage type (see [Elementally Attuned](scc.v1:mcdm.beastheart.v1/feature.companion.beastheart.drake.level-1/elementally-attuned)) equal to the drake's Might score.",
+      "name": "Effect"
+    },
+    {
+      "cost": "Spend 1 or 2 Ferocity",
+      "effect": "This ability affects a 3 cube (if you spend 1 ferocity) or a 4 cube (if you spend 2 ferocity) within 1."
+    }
+  ],
+  "feature_type": "ability",
+  "flavor": "The drake exhales a blast of flesh-melting energy.",
+  "keywords": [
+    "Area",
+    "Companion",
+    "Magic"
+  ],
+  "metadata": {
+    "ability_type": "Signature",
+    "action_type": "Maneuver",
+    "class": "beastheart",
+    "content": "*The drake exhales a blast of flesh-melting energy.*\n\n| **Area, Companion, Magic**  |                     **Maneuver** |\n|-----------------------------|---------------------------------:|\n| **📏 1 or 2 cube within 1** | **🎯 Each creature in the area** |\n\n**Effect:** The target takes damage of the drake's attuned damage type (see [Elementally Attuned](scc.v1:mcdm.beastheart.v1/feature.companion.beastheart.drake.level-1/elementally-attuned)) equal to the drake's Might score.\n\n**Spend 1 or 2 Ferocity:** This ability affects a 3 cube (if you spend 1 ferocity) or a 4 cube (if you spend 2 ferocity) within 1.",
+    "distance": "1 or 2 cube within 1",
+    "feature_type": "ability",
+    "flavor": "The drake exhales a blast of flesh-melting energy.",
+    "item_id": "drake-breath",
+    "item_name": "Drake Breath",
+    "keywords": [
+      "Area",
+      "Companion",
+      "Magic"
+    ],
+    "level": 1,
+    "scc": [
+      "mcdm.beastheart.v1/feature.ability.companion.beastheart.drake.level-1/drake-breath"
+    ],
+    "target": "Each creature in the area",
+    "type": "feature/ability/companion/beastheart/drake/level-1"
+  },
+  "name": "Drake Breath",
+  "target": "Each creature in the area",
+  "type": "feature",
+  "usage": "Maneuver"
+}

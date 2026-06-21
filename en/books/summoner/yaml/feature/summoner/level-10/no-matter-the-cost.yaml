@@ -1,0 +1,16 @@
+effects:
+    - effect: Whenever you sacrifice minions, you now reduce the cost of a [heroic ability](scc.v1:mcdm.heroes.v1/rule.general/heroic-ability) or minion by the same amount (to a minimum of 1) instead of only reducing the cost by 1.
+feature_type: feature
+metadata:
+    action_type: feature
+    class: summoner
+    feature_source: summoner
+    feature_type: feature
+    item_id: no-matter-the-cost
+    item_name: No Matter the Cost
+    level: 10
+    scc:
+        - mcdm.summoner.v1/feature.summoner.level-10/no-matter-the-cost
+    type: feature/summoner/level-10
+name: No Matter the Cost
+type: feature

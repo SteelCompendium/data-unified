@@ -1,0 +1,63 @@
+{
+  "agility": 2,
+  "ev": "4 for four minions",
+  "features": [
+    {
+      "ability_type": "Signature Ability",
+      "distance": "Melee 1",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "tier1": "2 damage",
+          "tier2": "3 damage",
+          "tier3": "5 damage; the wildling can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against a creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the target"
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "🗡",
+      "keywords": [
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "name": "Flail",
+      "target": "One creature or object per minion",
+      "type": "feature",
+      "usage": "Main action"
+    },
+    {
+      "effects": [
+        {
+          "effect": "Whenever a non-[minion](scc.v1:mcdm.monsters.v1/rule.organization/minion) ally within 7 squares of the wildling is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), the wildling can move up to their speed."
+        }
+      ],
+      "feature_type": "trait",
+      "icon": "⭐️",
+      "name": "Death Circle",
+      "type": "feature"
+    }
+  ],
+  "free_strike": 2,
+  "intuition": 0,
+  "keywords": [
+    "Abyssal",
+    "Gnoll"
+  ],
+  "level": 2,
+  "metadata": {
+    "scc": "mcdm.monsters.v1/monster.gnoll.statblock/gnoll-wildling",
+    "source": "mcdm.monsters.v1"
+  },
+  "might": 1,
+  "name": "Gnoll Wildling",
+  "organization": "Minion",
+  "presence": -2,
+  "reason": 0,
+  "role": "Harrier",
+  "size": "1M",
+  "speed": 7,
+  "stability": 1,
+  "stamina": "5",
+  "type": "statblock",
+  "with_captain": "Gain an edge on strikes"
+}

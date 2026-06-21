@@ -1,0 +1,37 @@
+cost: 3 Wrath
+distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
+effects:
+    - roll: Power Roll + [Might](scc.v1:mcdm.heroes.v1/rule.character/might)
+      tier1: 3 + M damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1
+      tier2: 6 + M damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3
+      tier3: 9 + M damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5
+    - effect: You can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to your [speed](scc.v1:mcdm.heroes.v1/rule.character/speed) in a straight line toward the target after [pushing](scc.v1:mcdm.heroes.v1/movement/forced-movement) them.
+      name: Effect
+feature_type: ability
+flavor: As you force your enemy back with your weapon, you use your faith to stay close.
+keywords:
+    - '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)'
+    - '[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)'
+    - Weapon
+metadata:
+    action_type: Main action
+    class: censor
+    content: "\n*As you force your enemy back with your weapon, you use your faith to stay close.*\n\n| **[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), Weapon**  |               **Main action** |\n|----------------------------|------------------------------:|\n| **\U0001F4CF [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1**             | **\U0001F3AF One creature or object** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc.v1:mcdm.heroes.v1/rule.character/might):**\n\n- **≤11:** 3 + M damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1\n- **12-16:** 6 + M damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3\n- **17+:** 9 + M damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5\n\n**Effect:** You can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to your [speed](scc.v1:mcdm.heroes.v1/rule.character/speed) in a straight line toward the target after [pushing](scc.v1:mcdm.heroes.v1/movement/forced-movement) them."
+    distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
+    feature_type: ability
+    flavor: As you force your enemy back with your weapon, you use your faith to stay close.
+    item_id: driving-assault
+    item_name: Driving Assault
+    keywords:
+        - '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)'
+        - '[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)'
+        - Weapon
+    level: 1
+    scc:
+        - mcdm.heroes.v1/feature.ability.censor.level-1/driving-assault
+    target: One creature or object
+    type: feature/ability/censor/level-1
+name: Driving Assault
+target: One creature or object
+type: feature
+usage: Main action

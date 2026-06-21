@@ -1,0 +1,47 @@
+{
+  "ability_type": "Signature",
+  "distance": "Melee 1",
+  "effects": [
+    {
+      "effect": "The target takes acid damage equal to 3 + the ball's Might score, and if they have A \u003c AVERAGE, the ball moves into the target's space. If the target completely fits within the ball's space, the target is [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) by the ball.",
+      "name": "Effect"
+    },
+    {
+      "cost": "Spend 1 Ferocity",
+      "effect": "A target [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) this way takes acid damage equal to the ball's Might score at the end of each of the ball's turns."
+    }
+  ],
+  "feature_type": "ability",
+  "flavor": "With a sickening squelch, the ball oozes around their hapless prey.",
+  "keywords": [
+    "Companion",
+    "Melee",
+    "Weapon"
+  ],
+  "metadata": {
+    "ability_type": "Signature",
+    "action_type": "Maneuver",
+    "class": "beastheart",
+    "content": "*With a sickening squelch, the ball oozes around their hapless prey.*\n\n| **Companion, Melee, Weapon** |     **Maneuver** |\n|------------------------------|-----------------:|\n| **📏 Melee 1**               | **🎯 One enemy** |\n\n**Effect:** The target takes acid damage equal to 3 + the ball's Might score, and if they have A \u003c AVERAGE, the ball moves into the target's space. If the target completely fits within the ball's space, the target is [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) by the ball.\n\n**Spend 1 Ferocity:** A target [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) this way takes acid damage equal to the ball's Might score at the end of each of the ball's turns.",
+    "distance": "Melee 1",
+    "feature_type": "ability",
+    "flavor": "With a sickening squelch, the ball oozes around their hapless prey.",
+    "item_id": "absorb",
+    "item_name": "Absorb",
+    "keywords": [
+      "Companion",
+      "Melee",
+      "Weapon"
+    ],
+    "level": 1,
+    "scc": [
+      "mcdm.beastheart.v1/feature.ability.companion.beastheart.gummy-ball.level-1/absorb"
+    ],
+    "target": "One enemy",
+    "type": "feature/ability/companion/beastheart/gummy-ball/level-1"
+  },
+  "name": "Absorb",
+  "target": "One enemy",
+  "type": "feature",
+  "usage": "Maneuver"
+}

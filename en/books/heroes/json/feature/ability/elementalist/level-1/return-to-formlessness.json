@@ -1,0 +1,41 @@
+{
+  "distance": "[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1",
+  "effects": [
+    {
+      "effect": "You heat the target and cause it to melt or combust, destroying it. If the object is larger than 1 square, then only the square of the object you touch is destroyed.",
+      "name": "Effect"
+    }
+  ],
+  "feature_type": "ability",
+  "flavor": "With the merest touch, you cause an object to turn to slag or ash.",
+  "keywords": [
+    "Fire",
+    "Magic",
+    "[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)"
+  ],
+  "metadata": {
+    "action_type": "Main action",
+    "class": "elementalist",
+    "content": "\n*With the merest touch, you cause an object to turn to slag or ash.*\n\n| **Fire, Magic, [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)**  |           **Main action** |\n|-------------------------|--------------------------:|\n| **📏 [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1**          | **🎯 One mundane object** |\n\n**Effect:** You heat the target and cause it to melt or combust, destroying it. If the object is larger than 1 square, then only the square of the object you touch is destroyed.",
+    "distance": "[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1",
+    "feature_type": "ability",
+    "flavor": "With the merest touch, you cause an object to turn to slag or ash.",
+    "item_id": "return-to-formlessness",
+    "item_name": "Return to Formlessness",
+    "keywords": [
+      "Fire",
+      "Magic",
+      "[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)"
+    ],
+    "level": 1,
+    "scc": [
+      "mcdm.heroes.v1/feature.ability.elementalist.level-1/return-to-formlessness"
+    ],
+    "target": "One mundane object",
+    "type": "feature/ability/elementalist/level-1"
+  },
+  "name": "Return to Formlessness",
+  "target": "One mundane object",
+  "type": "feature",
+  "usage": "Main action"
+}

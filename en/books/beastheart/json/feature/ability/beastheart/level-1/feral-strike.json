@@ -1,0 +1,51 @@
+{
+  "ability_type": "Signature",
+  "distance": "1 burst",
+  "effects": [
+    {
+      "roll": "Power Roll + Might",
+      "tier1": "1 + M damage",
+      "tier2": "3 + M damage",
+      "tier3": "4 + M damage"
+    },
+    {
+      "effect": "Your companion moves up to a number of squares equal to their Intuition score straight toward the closest enemy they are aware of, avoiding damaging terrain and ending the movement when they are adjacent to that enemy.",
+      "name": "Effect"
+    }
+  ],
+  "feature_type": "ability",
+  "keywords": [
+    "Area",
+    "Companion",
+    "Melee",
+    "Strike",
+    "Weapon"
+  ],
+  "metadata": {
+    "ability_type": "Signature",
+    "action_type": "Main action",
+    "class": "beastheart",
+    "content": "Relying on their instincts, your companion launches toward the nearest threat. Your companion lunges into the fray, attacking wildly with teeth, claws, or other weapons.\n\n| **Area, Companion, Melee, Strike, Weapon** |                  **Main action** |\n|--------------------------------------------|---------------------------------:|\n| **📏 1 burst**                             | **🎯 Each creature in the area** |\n\n**Effect:** Your companion moves up to a number of squares equal to their Intuition score straight toward the closest enemy they are aware of, avoiding damaging terrain and ending the movement when they are adjacent to that enemy.\n\nYour companion then makes the following power roll:\n\n**Power Roll + Might:**\n\n- **≤11:** 1 + M damage\n- **12-16:** 3 + M damage\n- **17+:** 4 + M damage\n\nThis ability gains the following benefit based on your wild nature.\n\n- **Guardian:** Each enemy target is [taunted](scc.v1:mcdm.heroes.v1/condition/taunted) by your companion until the start of your next turn.\n- **Prowler:** Each enemy target is [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) until the start of your next turn.\n- **Punisher:** Your companion slides each target up to a number of squares equal to their Might score.\n- **Spark:** This strike deals cold, fire, lightning, or sonic damage. You gain 1 surge.",
+    "distance": "1 burst",
+    "feature_type": "ability",
+    "item_id": "feral-strike",
+    "item_name": "Feral Strike",
+    "keywords": [
+      "Area",
+      "Companion",
+      "Melee",
+      "Strike",
+      "Weapon"
+    ],
+    "level": 1,
+    "scc": [
+      "mcdm.beastheart.v1/feature.ability.beastheart.level-1/feral-strike"
+    ],
+    "target": "Each creature in the area",
+    "type": "feature/ability/beastheart/level-1"
+  },
+  "name": "Feral Strike",
+  "target": "Each creature in the area",
+  "type": "feature",
+  "usage": "Main action"
+}

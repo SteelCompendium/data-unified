@@ -1,0 +1,20 @@
+{
+  "effects": [
+    {
+      "effect": "Your lawful nature and quick reflexes mean you give no quarter to creatures trying to get past you. Enemies can't move through your space unless you allow them to do so."
+    }
+  ],
+  "feature_type": "trait",
+  "metadata": {
+    "action_type": "feature",
+    "feature_type": "trait",
+    "item_id": "i-am-law",
+    "item_name": "I Am Law",
+    "scc": [
+      "mcdm.heroes.v1/feature.trait.memonek/i-am-law"
+    ],
+    "type": "feature/trait/memonek"
+  },
+  "name": "I Am Law",
+  "type": "feature"
+}

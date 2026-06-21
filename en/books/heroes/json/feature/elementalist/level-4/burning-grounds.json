@@ -1,0 +1,22 @@
+{
+  "effects": [
+    {
+      "effect": "At the end of each of your [turns](scc.v1:mcdm.heroes.v1/rule.combat/turn), each enemy in the area takes fire damage equal to your [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) score."
+    }
+  ],
+  "feature_type": "feature",
+  "metadata": {
+    "action_type": "feature",
+    "class": "elementalist",
+    "feature_type": "feature",
+    "item_id": "burning-grounds",
+    "item_name": "Burning Grounds",
+    "level": 4,
+    "scc": [
+      "mcdm.heroes.v1/feature.elementalist.level-4/burning-grounds"
+    ],
+    "type": "feature/elementalist/level-4"
+  },
+  "name": "Burning Grounds",
+  "type": "feature"
+}

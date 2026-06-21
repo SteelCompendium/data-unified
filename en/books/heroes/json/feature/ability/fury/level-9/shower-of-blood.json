@@ -1,0 +1,48 @@
+{
+  "cost": "11 Ferocity",
+  "distance": "[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1",
+  "effects": [
+    {
+      "roll": "Power Roll + [Might](scc.v1:mcdm.heroes.v1/rule.character/might)",
+      "tier1": "12 + M damage",
+      "tier2": "18 + M damage",
+      "tier3": "24 + M damage"
+    },
+    {
+      "effect": "Each enemy within 5 squares of you is distracted until the end of the round. While a creature is distracted this way, they can't take [triggered actions](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action) or free [triggered actions](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action), [ability rolls](scc.v1:mcdm.heroes.v1/rule.dice/ability-roll) made against them gain an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge), and their [characteristic](scc.v1:mcdm.heroes.v1/rule.character/characteristic) scores are considered 1 lower for the purpose of resisting [potencies](scc.v1:mcdm.heroes.v1/rule.character/potency).",
+      "name": "Effect"
+    }
+  ],
+  "feature_type": "ability",
+  "flavor": "You shock your foes with the brutality of your [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), resetting the balance of combat.",
+  "keywords": [
+    "[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)",
+    "[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)",
+    "Weapon"
+  ],
+  "metadata": {
+    "action_type": "Main action",
+    "class": "fury",
+    "content": "\n*You shock your foes with the brutality of your [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), resetting the balance of combat.*\n\n| **[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), Weapon** |     **Main action** |\n|---------------------------|--------------------:|\n| **📏 [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1**            | **🎯 One creature** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc.v1:mcdm.heroes.v1/rule.character/might):**\n\n- **≤11:** 12 + M damage\n- **12-16:** 18 + M damage\n- **17+:** 24 + M damage\n\n**Effect:** Each enemy within 5 squares of you is distracted until the end of the round. While a creature is distracted this way, they can't take [triggered actions](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action) or free [triggered actions](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action), [ability rolls](scc.v1:mcdm.heroes.v1/rule.dice/ability-roll) made against them gain an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge), and their [characteristic](scc.v1:mcdm.heroes.v1/rule.character/characteristic) scores are considered 1 lower for the purpose of resisting [potencies](scc.v1:mcdm.heroes.v1/rule.character/potency).",
+    "distance": "[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1",
+    "feature_type": "ability",
+    "flavor": "You shock your foes with the brutality of your [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), resetting the balance of combat.",
+    "item_id": "shower-of-blood",
+    "item_name": "Shower of Blood",
+    "keywords": [
+      "[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)",
+      "[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)",
+      "Weapon"
+    ],
+    "level": 9,
+    "scc": [
+      "mcdm.heroes.v1/feature.ability.fury.level-9/shower-of-blood"
+    ],
+    "target": "One creature",
+    "type": "feature/ability/fury/level-9"
+  },
+  "name": "Shower of Blood",
+  "target": "One creature",
+  "type": "feature",
+  "usage": "Main action"
+}

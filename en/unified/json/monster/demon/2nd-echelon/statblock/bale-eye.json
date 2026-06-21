@@ -1,0 +1,100 @@
+{
+  "agility": 0,
+  "ev": "7",
+  "features": [
+    {
+      "ability_type": "Signature Ability",
+      "distance": "Ranged 15",
+      "effects": [
+        {
+          "roll": "Power Roll + 3",
+          "tier1": "6 psychic damage",
+          "tier2": "8 psychic damage",
+          "tier3": "9 psychic damage"
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "🏹",
+      "keywords": [
+        "Magic",
+        "Ranged",
+        "Strike"
+      ],
+      "name": "Wilting Visions",
+      "target": "One creature",
+      "type": "feature",
+      "usage": "Main action"
+    },
+    {
+      "cost": "5 Malice",
+      "distance": "4 cube within 5",
+      "effects": [
+        {
+          "roll": "Power Roll + 3",
+          "tier1": "3 psychic damage; A \u003c 1 the target is warped (save ends)",
+          "tier2": "5 psychic damage; A \u003c 2 the target is warped (save ends)",
+          "tier3": "6 psychic damage; A \u003c 3 the target is warped (save ends)"
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "🔳",
+      "keywords": [
+        "Area",
+        "Magic",
+        "Ranged"
+      ],
+      "name": "Demonwarp Tears",
+      "target": "Each enemy in the area",
+      "type": "feature",
+      "usage": "Main action"
+    },
+    {
+      "effects": [
+        {
+          "effect": "While the bale eye is [winded](scc.v1:mcdm.heroes.v1/rule.health/winded), they gain an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on strikes, and any strike made against them gains an edge."
+        }
+      ],
+      "feature_type": "trait",
+      "icon": "⭐️",
+      "name": "Lethe",
+      "type": "feature"
+    },
+    {
+      "effects": [
+        {
+          "effect": "Any creature within 5 squares of the bale eye can't be hidden from them."
+        }
+      ],
+      "feature_type": "trait",
+      "icon": "⭐️",
+      "name": "Soulsight",
+      "type": "feature"
+    }
+  ],
+  "free_strike": 3,
+  "intuition": 3,
+  "keywords": [
+    "Abyssal",
+    "Demon"
+  ],
+  "level": 5,
+  "metadata": {
+    "scc": "mcdm.monsters.v1/monster.demon.2nd-echelon.statblock/bale-eye",
+    "source": "mcdm.monsters.v1"
+  },
+  "might": 0,
+  "movement": "Fly",
+  "name": "Bale Eye",
+  "organization": "Horde",
+  "presence": 3,
+  "reason": 3,
+  "role": "Hexer",
+  "size": "4",
+  "speed": 6,
+  "stability": 2,
+  "stamina": "30",
+  "type": "statblock",
+  "weaknesses": [
+    "Holy 5"
+  ]
+}

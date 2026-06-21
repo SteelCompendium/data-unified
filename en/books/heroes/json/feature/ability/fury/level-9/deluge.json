@@ -1,0 +1,48 @@
+{
+  "cost": "11 Ferocity",
+  "distance": "5 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 10",
+  "effects": [
+    {
+      "roll": "Power Roll + [Might](scc.v1:mcdm.heroes.v1/rule.character/might)",
+      "tier1": "7 damage",
+      "tier2": "10 damage",
+      "tier3": "15 damage"
+    },
+    {
+      "effect": "This ability deals your primordial [damage type](scc.v1:mcdm.heroes.v1/rule.damage/damage-type) and ignores [damage immunity](scc.v1:mcdm.heroes.v1/rule.damage/damage-immunity).",
+      "name": "Effect"
+    }
+  ],
+  "feature_type": "ability",
+  "flavor": "You summon your [primordial storm](scc.v1:mcdm.heroes.v1/feature.fury.stormwight-kits/primordial-storm).",
+  "keywords": [
+    "Area",
+    "Magic",
+    "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)"
+  ],
+  "metadata": {
+    "action_type": "Main action",
+    "class": "fury",
+    "content": "\n*You summon your [primordial storm](scc.v1:mcdm.heroes.v1/feature.fury.stormwight-kits/primordial-storm).*\n\n| **Area, Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)** |               **Main action** |\n|-------------------------|------------------------------:|\n| **📏 5 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 10** | **🎯 Each enemy in the area** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc.v1:mcdm.heroes.v1/rule.character/might):**\n\n- **≤11:** 7 damage\n- **12-16:** 10 damage\n- **17+:** 15 damage\n\n**Effect:** This ability deals your primordial [damage type](scc.v1:mcdm.heroes.v1/rule.damage/damage-type) and ignores [damage immunity](scc.v1:mcdm.heroes.v1/rule.damage/damage-immunity).",
+    "distance": "5 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 10",
+    "feature_type": "ability",
+    "flavor": "You summon your [primordial storm](scc.v1:mcdm.heroes.v1/feature.fury.stormwight-kits/primordial-storm).",
+    "item_id": "deluge",
+    "item_name": "Deluge",
+    "keywords": [
+      "Area",
+      "Magic",
+      "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)"
+    ],
+    "level": 9,
+    "scc": [
+      "mcdm.heroes.v1/feature.ability.fury.level-9/deluge"
+    ],
+    "target": "Each enemy in the area",
+    "type": "feature/ability/fury/level-9"
+  },
+  "name": "Deluge",
+  "target": "Each enemy in the area",
+  "type": "feature",
+  "usage": "Main action"
+}

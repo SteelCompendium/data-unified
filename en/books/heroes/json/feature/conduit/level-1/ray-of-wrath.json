@@ -1,0 +1,64 @@
+{
+  "ability": {
+    "distance": "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10",
+    "effects": [
+      {
+        "roll": "Power Roll + [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)",
+        "tier1": "2 + I damage",
+        "tier2": "4 + I damage",
+        "tier3": "6 + I damage"
+      },
+      {
+        "effect": "You can have this ability deal holy damage.",
+        "name": "Effect"
+      }
+    ],
+    "feature_type": "ability",
+    "flavor": "You unleash a blast of holy light upon your foe.",
+    "keywords": [
+      "Magic",
+      "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)",
+      "[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)"
+    ],
+    "metadata": {
+      "action_type": "Main action",
+      "content": "\n*You unleash a blast of holy light upon your foe.*\n\n| **Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)**  |               **Main action** |\n|----------------------------|------------------------------:|\n| **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**           | **🎯 One creature or object** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition):**\n\n- **≤11:** 2 + I damage\n- **12-16:** 4 + I damage\n- **17+:** 6 + I damage\n\n**Effect:** You can have this ability deal holy damage.",
+      "distance": "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10",
+      "feature_type": "ability",
+      "flavor": "You unleash a blast of holy light upon your foe.",
+      "item_id": "ray-of-wrath",
+      "item_name": "Ray of Wrath",
+      "keywords": [
+        "Magic",
+        "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)",
+        "[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)"
+      ],
+      "target": "One creature or object",
+      "type": "feature/ability/common"
+    },
+    "name": "Ray of Wrath",
+    "target": "One creature or object",
+    "type": "feature",
+    "usage": "Main action"
+  },
+  "effects": [
+    {
+      "effect": "You have the following ability, which can be used as a [ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike)."
+    }
+  ],
+  "feature_type": "feature",
+  "metadata": {
+    "action_type": "feature",
+    "class": "conduit",
+    "feature_type": "feature",
+    "item_id": "ray-of-wrath",
+    "item_name": "Ray of Wrath",
+    "level": 1,
+    "scc": [
+      "mcdm.heroes.v1/feature.conduit.level-1/ray-of-wrath"
+    ],
+    "type": "feature/conduit/level-1"
+  },
+  "name": "Ray of Wrath",
+  "type": "feature"
+}

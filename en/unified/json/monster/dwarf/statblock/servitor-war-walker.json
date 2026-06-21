@@ -1,0 +1,97 @@
+{
+  "agility": 0,
+  "ev": "12",
+  "features": [
+    {
+      "ability_type": "Signature Ability",
+      "distance": "Melee 2",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "tier1": "6 damage",
+          "tier2": "9 damage",
+          "tier3": "12 damage; M \u003c 2 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)"
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "🗡",
+      "keywords": [
+        "Charge",
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "name": "Grasping Claws",
+      "target": "Two creatures or objects",
+      "type": "feature",
+      "usage": "Main action"
+    },
+    {
+      "cost": "3 Malice",
+      "distance": "3 burst",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "tier1": "3 lightning damage; A \u003c 0 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)",
+          "tier2": "6 lightning damage; A \u003c 1 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)",
+          "tier3": "7 lightning damage; A \u003c 2 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)"
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "❇️",
+      "keywords": [
+        "Area",
+        "Weapon"
+      ],
+      "name": "Stunning Blast",
+      "target": "Each enemy in the area",
+      "type": "feature",
+      "usage": "Maneuver"
+    },
+    {
+      "effects": [
+        {
+          "effect": "While riding the war walker, three size 1 allies can occupy the same space. Creatures riding the war walker have cover."
+        }
+      ],
+      "feature_type": "trait",
+      "icon": "⭐️",
+      "name": "Cupola",
+      "type": "feature"
+    },
+    {
+      "effects": [
+        {
+          "effect": "Any [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) or [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) creature who comes [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the war walker is automatically [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends) and takes a bane on power rolls. A creature [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) this way moves with the war walker."
+        }
+      ],
+      "feature_type": "trait",
+      "icon": "⭐️",
+      "name": "Mobile Prison Harness",
+      "type": "feature"
+    }
+  ],
+  "free_strike": 4,
+  "intuition": 0,
+  "keywords": [
+    "Dwarf",
+    "Humanoid"
+  ],
+  "level": 1,
+  "metadata": {
+    "scc": "mcdm.monsters.v1/monster.dwarf.statblock/servitor-war-walker",
+    "source": "mcdm.monsters.v1"
+  },
+  "might": 2,
+  "movement": "Climb",
+  "name": "Servitor War Walker",
+  "organization": "Elite",
+  "presence": -2,
+  "reason": -2,
+  "role": "Mount",
+  "size": "3",
+  "speed": 8,
+  "stability": 2,
+  "stamina": "60",
+  "type": "statblock"
+}

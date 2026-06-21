@@ -1,0 +1,38 @@
+---
+action_type: Main action
+class: troubadour
+cost: 7 Drama
+distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1 or [ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
+effect: You can choose to have this ability deal sonic damage. Additionally, you can use this ability against the same target for the next 2 [combat rounds](scc.v1:mcdm.heroes.v1/rule.combat/combat-round) without spending drama.
+flavor: Your performance travels and doesn't stop moving until your audience is completely rocked.
+keywords:
+    - Magic
+    - '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)'
+    - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'
+    - '[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)'
+    - Weapon
+level: "3"
+name: Star Solo
+power_roll_characteristic: '[Presence](scc.v1:mcdm.heroes.v1/rule.character/presence)'
+scc: mcdm.heroes.v1/feature.ability.troubadour.level-3/star-solo
+target: One creature or object
+tier1: 5 + P damage
+tier2: 8 + P damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3
+tier3: 11 + P damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5
+type: ability
+---
+
+
+*Your performance travels and doesn't stop moving until your audience is completely rocked.*
+
+| **Magic, [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), Weapon** |               **Main action** |
+|------------------------------------------|------------------------------:|
+| **📏 [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1 or [ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**              | **🎯 One creature or object** |
+
+**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence):**
+
+- **≤11:** 5 + P damage
+- **12-16:** 8 + P damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3
+- **17+:** 11 + P damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5
+
+**Effect:** You can choose to have this ability deal sonic damage. Additionally, you can use this ability against the same target for the next 2 [combat rounds](scc.v1:mcdm.heroes.v1/rule.combat/combat-round) without spending drama.

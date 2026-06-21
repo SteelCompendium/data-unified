@@ -1,0 +1,35 @@
+distance: Ranged 10
+effects:
+    - effect: If your companion is within range and can fit into the target space, they [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) to the space. They can then make a melee free strike.
+      name: Effect
+    - cost: Spend 1 Ferocity
+      effect: The distance increases to ranged 15.
+feature_type: ability
+flavor: You point, and your companion appears.
+keywords:
+    - Beastheart
+    - Magic
+    - Ranged
+metadata:
+    action_type: Maneuver
+    class: beastheart
+    content: "*You point, and your companion appears.*\n\n| **Beastheart, Magic, Ranged** |                **Maneuver** |\n|-------------------------------|----------------------------:|\n| **\U0001F4CF Ranged 10**              | **\U0001F3AF One unoccupied space** |\n\n**Effect:** If your companion is within range and can fit into the target space, they [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) to the space. They can then make a melee free strike.\n\n**Spend 1 Ferocity:** The distance increases to ranged 15."
+    distance: Ranged 10
+    feature_type: ability
+    flavor: You point, and your companion appears.
+    item_id: living-arrow
+    item_name: Living Arrow
+    keywords:
+        - Beastheart
+        - Magic
+        - Ranged
+    level: 1
+    scc:
+        - mcdm.beastheart.v1/feature.ability.beastheart.level-1/living-arrow
+    subclass: guardian
+    target: One unoccupied space
+    type: feature/ability/beastheart/level-1
+name: Living Arrow
+target: One unoccupied space
+type: feature
+usage: Maneuver

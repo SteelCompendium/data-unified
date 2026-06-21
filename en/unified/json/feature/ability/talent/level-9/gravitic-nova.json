@@ -1,0 +1,48 @@
+{
+  "cost": "11 Clarity",
+  "distance": "3 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)",
+  "effects": [
+    {
+      "roll": "Power Roll + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason)",
+      "tier1": "6 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 7",
+      "tier2": "9 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 10",
+      "tier3": "13 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 15"
+    },
+    {
+      "effect": "On a [critical hit](scc.v1:mcdm.heroes.v1/rule.combat/critical-hit), the size of the area increases by 3, and this ability deals an extra 10 damage.",
+      "name": "Effect"
+    }
+  ],
+  "feature_type": "ability",
+  "flavor": "Unbridled psionic energy erupts from your body and flashes outward, hurling your foes back.",
+  "keywords": [
+    "Area",
+    "Psionic",
+    "Telekinesis"
+  ],
+  "metadata": {
+    "action_type": "Main action",
+    "class": "talent",
+    "content": "\n*Unbridled psionic energy erupts from your body and flashes outward, hurling your foes back.*\n\n| **Area, Psionic, Telekinesis** |                          **Main action** |\n|--------------------------------|-----------------------------------------:|\n| **📏 3 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)**                 | **🎯 Each enemy and object in the area** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason):**\n\n- **≤11:** 6 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 7\n- **12-16:** 9 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 10\n- **17+:** 13 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 15\n\n**Effect:** On a [critical hit](scc.v1:mcdm.heroes.v1/rule.combat/critical-hit), the size of the area increases by 3, and this ability deals an extra 10 damage.\n\n**Strained:** You are [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends). If you scored a [critical hit](scc.v1:mcdm.heroes.v1/rule.combat/critical-hit) with this ability, you die.",
+    "distance": "3 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)",
+    "feature_type": "ability",
+    "flavor": "Unbridled psionic energy erupts from your body and flashes outward, hurling your foes back.",
+    "item_id": "gravitic-nova",
+    "item_name": "Gravitic Nova",
+    "keywords": [
+      "Area",
+      "Psionic",
+      "Telekinesis"
+    ],
+    "level": 9,
+    "scc": [
+      "mcdm.heroes.v1/feature.ability.talent.level-9/gravitic-nova"
+    ],
+    "target": "Each enemy and object in the area",
+    "type": "feature/ability/talent/level-9"
+  },
+  "name": "Gravitic Nova",
+  "target": "Each enemy and object in the area",
+  "type": "feature",
+  "usage": "Main action"
+}

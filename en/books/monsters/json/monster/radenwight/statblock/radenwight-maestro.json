@@ -1,0 +1,157 @@
+{
+  "agility": 2,
+  "ev": "12",
+  "features": [
+    {
+      "ability_type": "Signature Ability",
+      "distance": "5 burst",
+      "effects": [
+        {
+          "roll": "Power Roll + 3",
+          "tier1": "3 sonic damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1, the maestro can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) 1 square",
+          "tier2": "6 sonic damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3, the maestro [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to 3 squares",
+          "tier3": "8 sonic damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5, the maestro [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to 5 squares"
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "❇️",
+      "keywords": [
+        "Area",
+        "Magic"
+      ],
+      "name": "Cacophony",
+      "target": "Each enemy in the area",
+      "type": "feature",
+      "usage": "Main action"
+    },
+    {
+      "distance": "Ranged 10",
+      "effects": [
+        {
+          "roll": "Power Roll + 3",
+          "tier1": "P \u003c 1 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)",
+          "tier2": "P \u003c 2 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)",
+          "tier3": "P \u003c 3 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)"
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "🏹",
+      "keywords": [
+        "Magic",
+        "Ranged",
+        "Strike"
+      ],
+      "name": "Tempo Changer",
+      "target": "Two enemies",
+      "type": "feature",
+      "usage": "Maneuver"
+    },
+    {
+      "cost": "2 Malice",
+      "distance": "Ranged 5",
+      "effects": [
+        {
+          "effect": "**Trigger:** A creature within distance deals damage to an ally or takes damage from an ally.\n**Effect:** The maestro makes a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against the target."
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "❗️",
+      "keywords": [
+        "Magic",
+        "Ranged"
+      ],
+      "name": "Ever-Ready Rodent",
+      "target": "The triggering creature",
+      "type": "feature",
+      "usage": "Free triggered action"
+    },
+    {
+      "effects": [
+        {
+          "effect": "At the end of each of their turns, the maestro can take 5 damage to end one effect on them that can be ended by a [saving throw](scc.v1:mcdm.heroes.v1/rule.general/saving-throw). This damage can't be reduced in any way."
+        }
+      ],
+      "feature_type": "trait",
+      "icon": "⭐️",
+      "name": "End Effect",
+      "type": "feature"
+    },
+    {
+      "cost": "Villain Action 1",
+      "distance": "10 burst",
+      "effects": [
+        {
+          "effect": "**Effect:** Each target can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed or take the Defend action."
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "☠️",
+      "keywords": [
+        "Area"
+      ],
+      "name": "Overture",
+      "target": "Each ally in the area",
+      "type": "feature",
+      "usage": "-"
+    },
+    {
+      "cost": "Villain Action 2",
+      "distance": "Ranged 15",
+      "effects": [
+        {
+          "effect": "**Effect:** Until the end of their next turn, the target halves any damage they take, gains a +4 damage bonus to [strikes](scc.v1:mcdm.heroes.v1/rule.combat/strike), and has their speed doubled."
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "☠️",
+      "keywords": [
+        "Ranged"
+      ],
+      "name": "Solo Act",
+      "target": "One creature",
+      "type": "feature",
+      "usage": "-"
+    },
+    {
+      "cost": "Villain Action 3",
+      "distance": "10 burst",
+      "effects": [
+        {
+          "effect": "**Effect:** Each target stands, makes a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike), then falls dead again. Any ally of the targets can use Ready Rodent as a free triggered action once in conjunction with these free strikes."
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "☠️",
+      "keywords": [
+        "Area"
+      ],
+      "name": "Rondo of Rat",
+      "target": "Each dead ally in the area",
+      "type": "feature",
+      "usage": "-"
+    }
+  ],
+  "free_strike": 4,
+  "intuition": 0,
+  "keywords": [
+    "Humanoid",
+    "Radenwight"
+  ],
+  "level": 1,
+  "metadata": {
+    "scc": "mcdm.monsters.v1/monster.radenwight.statblock/radenwight-maestro",
+    "source": "mcdm.monsters.v1"
+  },
+  "might": -2,
+  "movement": "Climb",
+  "name": "Radenwight Maestro",
+  "organization": "Leader",
+  "presence": 3,
+  "reason": 0,
+  "role": "",
+  "size": "1S",
+  "speed": 5,
+  "stability": 1,
+  "stamina": "80",
+  "type": "statblock"
+}

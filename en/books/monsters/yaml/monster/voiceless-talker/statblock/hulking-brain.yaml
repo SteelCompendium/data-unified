@@ -1,0 +1,93 @@
+agility: 1
+ev: "32"
+features:
+    - ability_type: Signature Ability
+      distance: Melee 1
+      effects:
+        - roll: Power Roll + 3
+          tier1: 7 damage
+          tier2: 10 damage; A < 2 [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)
+          tier3: 11 damage; A < 3 [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)
+      feature_type: ability
+      icon: "\U0001F5E1"
+      keywords:
+        - Melee
+        - Strike
+        - Weapon
+      name: Four-Way Grasp
+      target: Four creatures or objects
+      type: feature
+      usage: Main action
+    - distance: Melee 1
+      effects:
+        - roll: Power Roll + 3
+          tier1: 7 damage; M < 1 3 damage
+          tier2: 10 damage; M < 2 3 damage
+          tier3: 13 damage; M < 3 6 damage
+      feature_type: ability
+      icon: "\U0001F5E1"
+      keywords:
+        - Melee
+        - Strike
+      name: Cerebral Suplex
+      target: Each enemy
+      type: feature
+      usage: Main action
+    - distance: Self
+      effects:
+        - effect: '**Effect:** The hulking brain [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to 4 squares, ignoring difficu terrain.'
+      feature_type: ability
+      icon: "\U0001F464"
+      keywords:
+        - '-'
+      name: Lumber
+      target: Self
+      type: feature
+      usage: Maneuver
+    - cost: 1 Malice
+      distance: Self
+      effects:
+        - effect: |-
+            **Trigger:** An ally voiceless talker within 5 squares takes damage from an enemy ability.
+            **Effect:** The hulking brain [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the ally and becomes the new target of the ability.
+            **2 Malice:** The enemy is knocked [prone](scc.v1:mcdm.heroes.v1/condition/prone).
+      feature_type: ability
+      icon: ❗️
+      keywords:
+        - '-'
+      name: Brawny Buffe
+      target: Self
+      type: feature
+      usage: Free triggered action
+    - effects:
+        - effect: The hulking brain can carry up to four size 1 creatures they have [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed), and takes no penalty to their speed while doing so.
+      feature_type: trait
+      icon: ⭐️
+      name: Biceps to Spare
+      type: feature
+    - effects:
+        - effect: Whenever a non-[minion](scc.v1:mcdm.monsters.v1/rule.organization/minion) voiceless talker within 5 squares of the hulking brain uses a psionic ability, they can do so as if they were in the hulking brain's space.
+      feature_type: trait
+      icon: ⭐️
+      name: Psionic Conductor
+      type: feature
+free_strike: 7
+intuition: -2
+keywords:
+    - Horror
+    - Voiceless Talker
+level: 6
+metadata:
+    scc: mcdm.monsters.v1/monster.voiceless-talker.statblock/hulking-brain
+    source: mcdm.monsters.v1
+might: 3
+name: Hulking Brain
+organization: Elite
+presence: 0
+reason: -2
+role: Brute
+size: 1L
+speed: 5
+stability: 4
+stamina: "180"
+type: statblock

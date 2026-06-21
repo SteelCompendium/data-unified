@@ -1,0 +1,22 @@
+{
+  "effects": [
+    {
+      "effect": "You gain one crafting, exploration, or intrigue perk of your choice. See Chapter 7: [Perks](scc.v1:mcdm.heroes.v1/chapter/perks)."
+    }
+  ],
+  "feature_type": "feature",
+  "metadata": {
+    "action_type": "feature",
+    "class": "fury",
+    "feature_type": "feature",
+    "item_id": "perk",
+    "item_name": "Perk",
+    "level": 2,
+    "scc": [
+      "mcdm.heroes.v1/feature.fury.level-2/perk"
+    ],
+    "type": "feature/fury/level-2"
+  },
+  "name": "Perk",
+  "type": "feature"
+}

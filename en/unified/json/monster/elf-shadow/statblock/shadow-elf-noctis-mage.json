@@ -1,0 +1,87 @@
+{
+  "agility": 2,
+  "ev": "16",
+  "features": [
+    {
+      "ability_type": "Signature Ability",
+      "distance": "Ranged 5",
+      "effects": [
+        {
+          "roll": "Power Roll + 3",
+          "tier1": "9 damage",
+          "tier2": "14 damage",
+          "tier3": "17 damage"
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "🏹",
+      "keywords": [
+        "Magic",
+        "Ranged",
+        "Strike"
+      ],
+      "name": "Blotting Bolt",
+      "target": "One creature or object",
+      "type": "feature",
+      "usage": "Main action"
+    },
+    {
+      "cost": "3 Malice",
+      "distance": "Ranged 5",
+      "effects": [
+        {
+          "roll": "Power Roll + 3",
+          "tier1": "8 damage; R \u003c 1 the target makes a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against one enemy of the noctis mage's choice.",
+          "tier2": "10 damage; R \u003c 2 the target makes a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against one enemy of the noctis mage's choice.",
+          "tier3": "13 damage; R \u003c 3 the target uses a signature ability against one enemy of the noctis mage's choice."
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "🏹",
+      "keywords": [
+        "Magic",
+        "Ranged",
+        "Strike"
+      ],
+      "name": "Enemies in the Dark",
+      "target": "Two enemies",
+      "type": "feature",
+      "usage": "Main action"
+    },
+    {
+      "effects": [
+        {
+          "effect": "The noctis mage ignores concealment created by darkness. While the noctis mage is in direct sunlight, they have damage weakness 3. While the noctis mage has concealment, they have damage immunity 3."
+        }
+      ],
+      "feature_type": "trait",
+      "icon": "⭐️",
+      "name": "Of the Umbra",
+      "type": "feature"
+    }
+  ],
+  "free_strike": 6,
+  "intuition": 1,
+  "keywords": [
+    "Fey",
+    "Humanoid",
+    "Shadow Elf"
+  ],
+  "level": 6,
+  "metadata": {
+    "scc": "mcdm.monsters.v1/monster.elf-shadow.statblock/shadow-elf-noctis-mage",
+    "source": "mcdm.monsters.v1"
+  },
+  "might": 0,
+  "movement": "Climb",
+  "name": "Shadow Elf Noctis Mage",
+  "organization": "Platoon",
+  "presence": 1,
+  "reason": 3,
+  "role": "Hexer",
+  "size": "1M",
+  "speed": 5,
+  "stability": 0,
+  "stamina": "70",
+  "type": "statblock"
+}

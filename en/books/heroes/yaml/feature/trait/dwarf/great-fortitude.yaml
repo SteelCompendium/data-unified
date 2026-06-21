@@ -1,0 +1,13 @@
+effects:
+    - effect: Your hearty constitution prevents you from losing strength. You can't be made [weakened](scc.v1:mcdm.heroes.v1/condition/weakened).
+feature_type: trait
+metadata:
+    action_type: feature
+    feature_type: trait
+    item_id: great-fortitude
+    item_name: Great Fortitude
+    scc:
+        - mcdm.heroes.v1/feature.trait.dwarf/great-fortitude
+    type: feature/trait/dwarf
+name: Great Fortitude
+type: feature

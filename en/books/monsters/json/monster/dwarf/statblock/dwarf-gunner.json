@@ -1,0 +1,81 @@
+{
+  "agility": 2,
+  "ev": "6",
+  "features": [
+    {
+      "ability_type": "Signature Ability",
+      "distance": "Ranged 10",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "tier1": "6 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1",
+          "tier2": "9 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3",
+          "tier3": "12 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5"
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "🏹",
+      "keywords": [
+        "Ranged",
+        "Strike",
+        "Weapon"
+      ],
+      "name": "Portable Ballista",
+      "target": "One creature or object",
+      "type": "feature",
+      "usage": "Main action"
+    },
+    {
+      "cost": "5 Malice",
+      "distance": "Ranged 10",
+      "effects": [
+        {
+          "effect": "**Effect:** The gunner makes a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against the target, and the [prone](scc.v1:mcdm.heroes.v1/condition/prone), [restrained](scc.v1:mcdm.heroes.v1/condition/restrained), and [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) conditions on the target end. The target is then [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)."
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "🏹",
+      "keywords": [
+        "Ranged",
+        "Weapon"
+      ],
+      "name": "Ensnaring Chains",
+      "target": "One prone, restrained, or slowed creature",
+      "type": "feature",
+      "usage": "Maneuver"
+    },
+    {
+      "effects": [
+        {
+          "effect": "Whenever the gunner deals rolled damage to a target, one creature or object adjacent to the target takes 3 damage."
+        }
+      ],
+      "feature_type": "trait",
+      "icon": "⭐️",
+      "name": "Split Shot",
+      "type": "feature"
+    }
+  ],
+  "free_strike": 4,
+  "intuition": 1,
+  "keywords": [
+    "Dwarf",
+    "Humanoid"
+  ],
+  "level": 1,
+  "metadata": {
+    "scc": "mcdm.monsters.v1/monster.dwarf.statblock/dwarf-gunner",
+    "source": "mcdm.monsters.v1"
+  },
+  "might": 0,
+  "name": "Dwarf Gunner",
+  "organization": "Platoon",
+  "presence": 0,
+  "reason": 0,
+  "role": "Artillery",
+  "size": "1M",
+  "speed": 5,
+  "stability": 1,
+  "stamina": "26",
+  "type": "statblock"
+}

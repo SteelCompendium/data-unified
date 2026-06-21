@@ -1,0 +1,95 @@
+{
+  "agility": -1,
+  "ev": "24",
+  "features": [
+    {
+      "ability_type": "Signature Ability",
+      "distance": "Melee 3",
+      "effects": [
+        {
+          "roll": "Power Roll + 3",
+          "tier1": "9 damage",
+          "tier2": "14 damage; A \u003c 2 [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)",
+          "tier3": "17 damage; A \u003c 3 [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)"
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "🗡",
+      "keywords": [
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "name": "Rotten Smash",
+      "target": "Two creatures or objects",
+      "type": "feature",
+      "usage": "Main action"
+    },
+    {
+      "cost": "1 Malice",
+      "distance": "Self",
+      "effects": [
+        {
+          "effect": "**Trigger:** The giant zombie [grabs](scc.v1:mcdm.heroes.v1/condition/grabbed) two creatures or objects, or starts their turn with two creatures or objects [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed).\n**Effect:** The creatures or objects are smashed together using Rotten Smash, which has a double edge."
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "❗️",
+      "keywords": [
+        "-"
+      ],
+      "name": "Knocking Heads",
+      "target": "Self; see below",
+      "type": "feature",
+      "usage": "Triggered action"
+    },
+    {
+      "effects": [
+        {
+          "effect": "The first time the giant zombie is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) by damage that isn't fire damage or holy damage and their body isn't destroyed, they instead have 50 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) and fall [prone](scc.v1:mcdm.heroes.v1/condition/prone)."
+        }
+      ],
+      "feature_type": "trait",
+      "icon": "⭐️",
+      "name": "Endless Knight",
+      "type": "feature"
+    },
+    {
+      "effects": [
+        {
+          "effect": "When the giant zombie is targeted by an ability that deals rolled damage, they halve the damage from a tier 1 outcome."
+        }
+      ],
+      "feature_type": "trait",
+      "icon": "⭐️",
+      "name": "Negative Nerves",
+      "type": "feature"
+    }
+  ],
+  "free_strike": 6,
+  "immunities": [
+    "Corruption 4",
+    "poison 4"
+  ],
+  "intuition": 1,
+  "keywords": [
+    "Undead",
+    "Soulless"
+  ],
+  "level": 4,
+  "metadata": {
+    "scc": "mcdm.monsters.v1/monster.undead.2nd-echelon.statblock/giant-zombie",
+    "source": "mcdm.monsters.v1"
+  },
+  "might": 3,
+  "name": "Giant Zombie",
+  "organization": "Elite",
+  "presence": 2,
+  "reason": -2,
+  "role": "Brute",
+  "size": "3",
+  "speed": 6,
+  "stability": 2,
+  "stamina": "140",
+  "type": "statblock"
+}

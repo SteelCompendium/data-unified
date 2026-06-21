@@ -1,0 +1,90 @@
+{
+  "agility": 2,
+  "ev": "16",
+  "features": [
+    {
+      "ability_type": "Signature Ability",
+      "distance": "Melee 1",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "tier1": "7 damage",
+          "tier2": "11 damage",
+          "tier3": "14 damage; A \u003c 2 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)"
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "🗡",
+      "keywords": [
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "name": "Swift Serration",
+      "target": "Two creatures or objects",
+      "type": "feature",
+      "usage": "Main action"
+    },
+    {
+      "distance": "Self",
+      "effects": [
+        {
+          "effect": "**Effect:** The shadow coats their weapon with poison. They gain an edge on their next [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), and any [potency](scc.v1:mcdm.heroes.v1/rule.character/potency) for that strike increases by 1."
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "👤",
+      "keywords": [
+        "-"
+      ],
+      "name": "Poison the Blade",
+      "target": "Self",
+      "type": "feature",
+      "usage": "Maneuver"
+    },
+    {
+      "effects": [
+        {
+          "effect": "The shadow deals an extra 5 damage to any [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) target."
+        }
+      ],
+      "feature_type": "trait",
+      "icon": "⭐️",
+      "name": "Exploit Opening",
+      "type": "feature"
+    },
+    {
+      "effects": [
+        {
+          "effect": "At the start of an encounter, the shadow chooses one creature within their [line of effect](scc.v1:mcdm.heroes.v1/rule.combat/line-of-effect). Both the shadow and the creature can add a d3 roll to power rolls they make against each other."
+        }
+      ],
+      "feature_type": "trait",
+      "icon": "⭐️",
+      "name": "Rivalry",
+      "type": "feature"
+    }
+  ],
+  "free_strike": 5,
+  "intuition": 0,
+  "keywords": [
+    "Humanoid",
+    "Rival"
+  ],
+  "level": 2,
+  "metadata": {
+    "scc": "mcdm.monsters.v1/monster.rival.1st-echelon.statblock/rival-shadow",
+    "source": "mcdm.monsters.v1"
+  },
+  "might": 0,
+  "name": "Rival Shadow",
+  "organization": "Elite",
+  "presence": 1,
+  "reason": 0,
+  "role": "Ambusher",
+  "size": "1M",
+  "speed": 7,
+  "stability": 1,
+  "stamina": "80",
+  "type": "statblock"
+}

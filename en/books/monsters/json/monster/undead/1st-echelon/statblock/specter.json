@@ -1,0 +1,83 @@
+{
+  "agility": 1,
+  "ev": "3",
+  "features": [
+    {
+      "ability_type": "Signature Ability",
+      "distance": "Melee 1",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "tier1": "3 corruption damage; P \u003c 0 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)",
+          "tier2": "4 corruption damage; P \u003c 1 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)",
+          "tier3": "5 corruption damage; P \u003c 2 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)"
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "🗡",
+      "keywords": [
+        "Magic",
+        "Melee",
+        "Strike"
+      ],
+      "name": "Decaying Touch",
+      "target": "One creature",
+      "type": "feature",
+      "usage": "Main action"
+    },
+    {
+      "distance": "Self",
+      "effects": [
+        {
+          "effect": "**Effect:** The specter turns invisible, moves up to their speed, and is visible again."
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "👤",
+      "keywords": [
+        "-"
+      ],
+      "name": "Hidden Movement",
+      "target": "Self",
+      "type": "feature",
+      "usage": "Maneuver"
+    },
+    {
+      "effects": [
+        {
+          "effect": "The specter can move through creatures and objects at their usual speed, but can't end their turn inside a creature or object. The first time in a round that the specter moves through a creature, that creature takes 2 corruption damage. The specter doesn't take damage from being [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement) into objects."
+        }
+      ],
+      "feature_type": "trait",
+      "icon": "⭐️",
+      "name": "Corruptive Phasing",
+      "type": "feature"
+    }
+  ],
+  "free_strike": 1,
+  "immunities": [
+    "Corruption 1",
+    "poison 1"
+  ],
+  "intuition": 0,
+  "keywords": [
+    "Undead"
+  ],
+  "level": 1,
+  "metadata": {
+    "scc": "mcdm.monsters.v1/monster.undead.1st-echelon.statblock/specter",
+    "source": "mcdm.monsters.v1"
+  },
+  "might": -5,
+  "movement": "Fly, hover",
+  "name": "Specter",
+  "organization": "Horde",
+  "presence": 2,
+  "reason": 0,
+  "role": "Hexer",
+  "size": "1M",
+  "speed": 5,
+  "stability": 1,
+  "stamina": "10",
+  "type": "statblock"
+}

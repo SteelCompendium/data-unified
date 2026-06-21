@@ -1,0 +1,59 @@
+{
+  "agility": 1,
+  "cost": "3 essence for two minions",
+  "ev": "",
+  "features": [
+    {
+      "effects": [
+        {
+          "effect": "The stalker shade turns invisible, [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) 3 squares, and reappears after making a [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)."
+        }
+      ],
+      "feature_type": "trait",
+      "icon": "⭐️",
+      "name": "Shadow Strike",
+      "type": "feature"
+    },
+    {
+      "effects": [
+        {
+          "effect": "The stalker shade can move through other creatures and objects at normal speed. The first time in a round that the stalker shade passes through a creature, that creature takes 2 corruption damage. The stalker shade doesn't take damage from being [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement) into objects."
+        }
+      ],
+      "feature_type": "trait",
+      "icon": "⭐️",
+      "name": "Shadow Phasing",
+      "type": "feature"
+    }
+  ],
+  "flavor": "Shades are a form of umbral stalker that float free from any floor or surface. They can bend their appearance to completely vanish in the light.",
+  "free_strike": 5,
+  "immunities": [
+    "Corruption R",
+    "Poison R"
+  ],
+  "intuition": 0,
+  "keywords": [
+    "Undead"
+  ],
+  "level": 0,
+  "metadata": {
+    "scc": "mcdm.summoner.v1/monster.minion.summoner.undead.statblock/stalker-shade",
+    "source": "mcdm.summoner.v1"
+  },
+  "might": -2,
+  "movement": "Fly, hover",
+  "name": "Stalker Shade",
+  "organization": "Minion",
+  "presence": 2,
+  "reason": 0,
+  "role": "Ambusher",
+  "size": "1M",
+  "speed": 5,
+  "stability": 1,
+  "stamina": "6 | 6",
+  "type": "statblock",
+  "weaknesses": [
+    "—"
+  ]
+}

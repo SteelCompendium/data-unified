@@ -1,0 +1,43 @@
+agility: 4
+cost: 7 essence for three minions
+ev: ""
+features:
+    - effects:
+        - effect: The reaver has [cover](scc.v1:mcdm.heroes.v1/rule.combat/cover) while [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to another reaver they were summoned with. Whenever they receive an effect that allows them to move or [shift](scc.v1:mcdm.heroes.v1/movement/shifting) outside of their move action, they share the effect with each [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) reaver they were summoned with.
+      feature_type: trait
+      icon: ⭐️
+      name: Decentralized Segments
+      type: feature
+    - effects:
+        - effect: The reaver's [free strikes](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) inflict M < WEAK [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends). Each time the reaver inflicts [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) on a creature, they can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) 2 and make an additional [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) on a new target.
+      feature_type: trait
+      icon: ⭐️
+      name: Bladed Strike
+      type: feature
+flavor: Iron reavers are long, gnashing lines of centipede-like bladed legs. Their bodies endlessly shed metal shavings and hard sheets of iron as they move.
+free_strike: 6
+immunities:
+    - Poison R
+intuition: 0
+keywords:
+    - Elemental (Earth
+    - Fire
+    - Void)
+level: 0
+metadata:
+    scc: mcdm.summoner.v1/monster.minion.summoner.elemental.statblock/iron-reaver
+    source: mcdm.summoner.v1
+might: 3
+movement: Burrow
+name: Iron Reaver
+organization: Minion
+presence: -1
+reason: 0
+role: Harrier
+size: 1L
+speed: 6
+stability: 0
+stamina: 10 | 10 | 10
+type: statblock
+weaknesses:
+    - —

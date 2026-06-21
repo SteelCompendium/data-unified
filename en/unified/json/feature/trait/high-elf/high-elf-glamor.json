@@ -1,0 +1,20 @@
+{
+  "effects": [
+    {
+      "effect": "A magic glamor makes others perceive you as interesting and engaging, granting you an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence) [tests](scc.v1:mcdm.heroes.v1/rule.test/test) using the [Flirt](scc.v1:mcdm.heroes.v1/skill.interpersonal/flirt) or [Persuade](scc.v1:mcdm.heroes.v1/skill.interpersonal/persuade) skills. This glamor makes you appear and sound slightly different to each creature you meet, since what is engaging to one might be different for another. However, you never appear to be anyone other than yourself."
+    }
+  ],
+  "feature_type": "trait",
+  "metadata": {
+    "action_type": "feature",
+    "feature_type": "trait",
+    "item_id": "high-elf-glamor",
+    "item_name": "Signature Trait: High Elf Glamor",
+    "scc": [
+      "mcdm.heroes.v1/feature.trait.high-elf/high-elf-glamor"
+    ],
+    "type": "feature/trait/high-elf"
+  },
+  "name": "Signature Trait: High Elf Glamor",
+  "type": "feature"
+}

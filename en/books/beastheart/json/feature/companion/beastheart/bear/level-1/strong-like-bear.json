@@ -1,0 +1,22 @@
+{
+  "effects": [
+    {
+      "effect": "You gain a +1 bonus to your stability."
+    }
+  ],
+  "feature_type": "feature",
+  "metadata": {
+    "action_type": "feature",
+    "class": "beastheart",
+    "feature_type": "feature",
+    "item_id": "strong-like-bear",
+    "item_name": "Strong Like Bear",
+    "level": 1,
+    "scc": [
+      "mcdm.beastheart.v1/feature.companion.beastheart.bear.level-1/strong-like-bear"
+    ],
+    "type": "feature/companion/beastheart/bear/level-1"
+  },
+  "name": "Strong Like Bear",
+  "type": "feature"
+}

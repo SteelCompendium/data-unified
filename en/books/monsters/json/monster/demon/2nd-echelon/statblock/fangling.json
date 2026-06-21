@@ -1,0 +1,109 @@
+{
+  "agility": 2,
+  "ev": "6",
+  "features": [
+    {
+      "ability_type": "Signature Ability",
+      "distance": "Melee 1",
+      "effects": [
+        {
+          "roll": "Power Roll + 3",
+          "tier1": "5 damage",
+          "tier2": "7 damage",
+          "tier3": "9 damage"
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "🗡",
+      "keywords": [
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "name": "Tooth! Tusk! Claw!",
+      "target": "One creature or object",
+      "type": "feature",
+      "usage": "Main action"
+    },
+    {
+      "cost": "2 Malice",
+      "distance": "8 x 3 line within 1",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "tier1": "2 damage; pull 1; A \u003c 1 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)",
+          "tier2": "3 damage; pull 1; A \u003c 2 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)",
+          "tier3": "4 damage; pull 1; A \u003c 3 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)"
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "🔳",
+      "keywords": [
+        "Area",
+        "Weapon"
+      ],
+      "name": "Tumbling Gore",
+      "target": "Each enemy in the area",
+      "type": "feature",
+      "usage": "Maneuver"
+    },
+    {
+      "effects": [
+        {
+          "effect": "Whenever an [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) enemy [grabs](scc.v1:mcdm.heroes.v1/feature.common.maneuvers/grab) the fangling or uses a melee ability against the fangling, they take 2 damage."
+        }
+      ],
+      "feature_type": "trait",
+      "icon": "⭐️",
+      "name": "Made of Teeth",
+      "type": "feature"
+    },
+    {
+      "effects": [
+        {
+          "effect": "While the fangling is [winded](scc.v1:mcdm.heroes.v1/rule.health/winded), they gain an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on strikes, and any strike made against them gains an edge."
+        }
+      ],
+      "feature_type": "trait",
+      "icon": "⭐️",
+      "name": "Lethe",
+      "type": "feature"
+    },
+    {
+      "effects": [
+        {
+          "effect": "Any creature within 2 squares of the fangling can't be hidden from them."
+        }
+      ],
+      "feature_type": "trait",
+      "icon": "⭐️",
+      "name": "Soulsight",
+      "type": "feature"
+    }
+  ],
+  "free_strike": 2,
+  "intuition": 0,
+  "keywords": [
+    "Abyssal",
+    "Demon"
+  ],
+  "level": 4,
+  "metadata": {
+    "scc": "mcdm.monsters.v1/monster.demon.2nd-echelon.statblock/fangling",
+    "source": "mcdm.monsters.v1"
+  },
+  "might": 3,
+  "name": "Fangling",
+  "organization": "Horde",
+  "presence": 0,
+  "reason": 0,
+  "role": "Harrier",
+  "size": "1L",
+  "speed": 8,
+  "stability": 0,
+  "stamina": "30",
+  "type": "statblock",
+  "weaknesses": [
+    "Holy 5"
+  ]
+}

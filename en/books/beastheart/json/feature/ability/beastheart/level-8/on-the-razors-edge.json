@@ -1,0 +1,52 @@
+{
+  "cost": "11 Ferocity",
+  "distance": "Melee 1 or ranged 5",
+  "effects": [
+    {
+      "roll": "Power Roll + Might",
+      "tier1": "5 + M damage",
+      "tier2": "15 + M damage",
+      "tier3": "25 + M damage"
+    },
+    {
+      "effect": "Your companion can use this ability against an adjacent target, making their own power roll. Both power rolls gain an edge if either of you is [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding), dying, or winded, and your power roll has a double edge if your companion is dead or otherwise unable to act.",
+      "name": "Effect"
+    }
+  ],
+  "feature_type": "ability",
+  "flavor": "Driven by the pain and desperation of battle, you and your companion spend your last strength in a flurry of wild attacks.",
+  "keywords": [
+    "Beastheart",
+    "Melee",
+    "Ranged",
+    "Strike",
+    "Weapon"
+  ],
+  "metadata": {
+    "action_type": "Main action",
+    "class": "beastheart",
+    "content": "*Driven by the pain and desperation of battle, you and your companion spend your last strength in a flurry of wild attacks.*\n\n| **Beastheart, Melee, Ranged, Strike, Weapon** | **Main action** |\n|-----------------------------------------------|----------------:|\n| **📏 Melee 1 or ranged 5**                    | **🎯 One creature or object** |\n\n**Power Roll + Might:**\n\n- **≤11:** 5 + M damage\n- **12-16:** 15 + M damage\n- **17+:** 25 + M damage\n\n**Effect:** Your companion can use this ability against an adjacent target, making their own power roll. Both power rolls gain an edge if either of you is [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding), dying, or winded, and your power roll has a double edge if your companion is dead or otherwise unable to act.",
+    "distance": "Melee 1 or ranged 5",
+    "feature_type": "ability",
+    "flavor": "Driven by the pain and desperation of battle, you and your companion spend your last strength in a flurry of wild attacks.",
+    "item_id": "on-the-razors-edge",
+    "item_name": "On the Razor's Edge",
+    "keywords": [
+      "Beastheart",
+      "Melee",
+      "Ranged",
+      "Strike",
+      "Weapon"
+    ],
+    "level": 8,
+    "scc": [
+      "mcdm.beastheart.v1/feature.ability.beastheart.level-8/on-the-razors-edge"
+    ],
+    "target": "One creature or object",
+    "type": "feature/ability/beastheart/level-8"
+  },
+  "name": "On the Razor's Edge",
+  "target": "One creature or object",
+  "type": "feature",
+  "usage": "Main action"
+}

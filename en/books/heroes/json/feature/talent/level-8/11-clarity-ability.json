@@ -1,0 +1,22 @@
+{
+  "effects": [
+    {
+      "effect": "Choose one [heroic ability](scc.v1:mcdm.heroes.v1/rule.general/heroic-ability) from the following options, each of which costs 11 clarity to use."
+    }
+  ],
+  "feature_type": "feature",
+  "metadata": {
+    "action_type": "feature",
+    "class": "talent",
+    "feature_type": "feature",
+    "item_id": "11-clarity-ability",
+    "item_name": "11-Clarity Ability",
+    "level": 8,
+    "scc": [
+      "mcdm.heroes.v1/feature.talent.level-8/11-clarity-ability"
+    ],
+    "type": "feature/talent/level-8"
+  },
+  "name": "11-Clarity Ability",
+  "type": "feature"
+}

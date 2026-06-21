@@ -1,0 +1,22 @@
+{
+  "effects": [
+    {
+      "effect": "Your [shadow college](scc.v1:mcdm.heroes.v1/feature.shadow.level-1/shadow-college) grants you a feature, as shown on the 2nd-Level College Features table.\n\n###### 2nd-Level College Features Table\n\n| College                    | Feature          |\n|----------------------------|------------------|\n| Black Ash                  | [Burning Ash](scc.v1:mcdm.heroes.v1/feature.shadow.level-2/burning-ash)      |\n| Caustic Alchemy            | [Trained Assassin](scc.v1:mcdm.heroes.v1/feature.shadow.level-2/trained-assassin) |\n| Harlequin Mask             | Friend!          |"
+    }
+  ],
+  "feature_type": "feature",
+  "metadata": {
+    "action_type": "feature",
+    "class": "shadow",
+    "feature_type": "feature",
+    "item_id": "2nd-level-college-feature",
+    "item_name": "2nd-Level College Feature",
+    "level": 2,
+    "scc": [
+      "mcdm.heroes.v1/feature.shadow.level-2/2nd-level-college-feature"
+    ],
+    "type": "feature/shadow/level-2"
+  },
+  "name": "2nd-Level College Feature",
+  "type": "feature"
+}

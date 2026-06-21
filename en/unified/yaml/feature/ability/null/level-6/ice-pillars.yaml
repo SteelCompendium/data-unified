@@ -1,0 +1,35 @@
+cost: 9 Discipline
+distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
+effects:
+    - roll: Power Roll + [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)
+      tier1: Vertical [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 6
+      tier2: Vertical [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 8
+      tier3: Vertical [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 10
+    - effect: The pillars vanish as soon as the effects of the [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) are resolved.
+      name: Effect
+feature_type: ability
+flavor: Pillars of ice erupt from the ground and launch your foes into the air.
+keywords:
+    - Psionic
+    - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'
+metadata:
+    action_type: Main action
+    class: "null"
+    content: "\n*Pillars of ice erupt from the ground and launch your foes into the air.*\n\n| **Psionic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)** |                   **Main action** |\n|---------------------|----------------------------------:|\n| **\U0001F4CF [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**    | **\U0001F3AF Three creatures or objects** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition):**\n\n- **≤11:** Vertical [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 6\n- **12-16:** Vertical [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 8\n- **17+:** Vertical [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 10\n\n**Effect:** The pillars vanish as soon as the effects of the [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) are resolved."
+    distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
+    feature_type: ability
+    flavor: Pillars of ice erupt from the ground and launch your foes into the air.
+    item_id: ice-pillars
+    item_name: Ice Pillars
+    keywords:
+        - Psionic
+        - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'
+    level: 6
+    scc:
+        - mcdm.heroes.v1/feature.ability.null.level-6/ice-pillars
+    target: Three creatures or objects
+    type: feature/ability/null/level-6
+name: Ice Pillars
+target: Three creatures or objects
+type: feature
+usage: Main action

@@ -1,0 +1,32 @@
+content: |-
+    *This thin glass sphere holds a tiny roiling cloud.*
+
+    **Keywords:** Magic
+
+    **[Item Prerequisite](scc.v1:mcdm.heroes.v1/rule.downtime/item-prerequisite):** A cup of rainwater from a sacred fey grove, plus an optional prerequisite (see below)
+
+    **[Project Source](scc.v1:mcdm.heroes.v1/rule.downtime/project-source):** Texts or lore in Caelian
+
+    **[Project Roll](scc.v1:mcdm.heroes.v1/rule.downtime/project-roll) [Characteristic](scc.v1:mcdm.heroes.v1/rule.character/characteristic):** [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) or [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)
+
+    **Project Goal:** 30 or 45 (see below)
+
+    **Effect:** As a maneuver, you throw this delicate glass sphere up to 5 squares, breaking it and creating a 4 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) of fog. The fog dissipates after 10 minutes or if a strong gust of wind created by a storm or magic passes through the area.
+
+    Enterprising mages within various thieves' guilds have developed variations of the Portable Cloud. Each variation has a secondary [item prerequisite](scc.v1:mcdm.heroes.v1/rule.downtime/item-prerequisite) and a project goal of 45.
+
+    **Noxious Cloud:** Filled with a green or putrid yellow haze, this sphere spreads a choking, foul-smelling mist when broken. Each creature who enters the cloud for the first time in a [combat round](scc.v1:mcdm.heroes.v1/rule.combat/combat-round) or starts their turn there takes 5 poison damage. Additionally, any creature is [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) while in the fog.
+
+    **[Item Prerequisite](scc.v1:mcdm.heroes.v1/rule.downtime/item-prerequisite):** An ounce of undead flesh. **Thunderhead Cloud:** Small lightning bolts arc around the black cloud in this sphere, which creates a 3 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) of cloud and lightning when broken. Each creature who enters the cloud for the first time in a [combat round](scc.v1:mcdm.heroes.v1/rule.combat/combat-round) or starts their turn there takes 5 lightning damage. Additionally, any creature is [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) while in the cloud.
+
+    **[Item Prerequisite](scc.v1:mcdm.heroes.v1/rule.downtime/item-prerequisite):** A spool of copper wire.
+echelon: "1"
+effect: As a maneuver, you throw this delicate glass sphere up to 5 squares, breaking it and creating a 4 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) of fog. The fog dissipates after 10 minutes or if a strong gust of wind created by a storm or magic passes through the area.
+flavor: This thin glass sphere holds a tiny roiling cloud.
+keywords:
+    - Magic
+name: Portable Cloud
+project_goal: 30 or 45 (see below)
+scc: mcdm.heroes.v1/treasure.1st-echelon.consumable/portable-cloud
+treasure_type: consumable
+type: treasure

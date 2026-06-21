@@ -1,0 +1,15 @@
+effects:
+    - effect: Your primordial [damage type](scc.v1:mcdm.heroes.v1/rule.damage/damage-type) is cold.
+feature_type: feature
+metadata:
+    action_type: feature
+    class: fury
+    feature_type: feature
+    item_id: primordial-storm-blizzard
+    item_name: 'Primordial Storm: Blizzard'
+    kit: boren
+    scc:
+        - mcdm.heroes.v1/feature.fury.boren/primordial-storm-blizzard
+    type: feature/fury/boren
+name: 'Primordial Storm: Blizzard'
+type: feature

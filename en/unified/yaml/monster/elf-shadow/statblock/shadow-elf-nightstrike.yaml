@@ -1,0 +1,49 @@
+agility: 3
+ev: 6 for four minions
+features:
+    - ability_type: Signature Ability
+      distance: Melee 2
+      effects:
+        - roll: Power Roll + 3
+          tier1: 3 damage
+          tier2: 5 damage
+          tier3: 7 damage
+      feature_type: ability
+      icon: "\U0001F5E1"
+      keywords:
+        - Melee
+        - Strike
+        - Weapon
+      name: Vault
+      target: One creature or object per minion
+      type: feature
+      usage: Main action
+    - effects:
+        - effect: The nightstrike ignores concealment created by darkness. While the nightstrike is in direct sunlight, they have damage weakness 3. While the nightstrike has concealment, they have damage immunity 3.
+      feature_type: trait
+      icon: ⭐️
+      name: Of the Umbra
+      type: feature
+free_strike: 3
+intuition: 1
+keywords:
+    - Fey
+    - Humanoid
+    - Shadow Elf
+level: 4
+metadata:
+    scc: mcdm.monsters.v1/monster.elf-shadow.statblock/shadow-elf-nightstrike
+    source: mcdm.monsters.v1
+might: 1
+movement: Climb
+name: Shadow Elf Nightstrike
+organization: Minion
+presence: 0
+reason: 0
+role: Ambusher
+size: 1M
+speed: 5
+stability: 0
+stamina: "8"
+type: statblock
+with_captain: Gain an edge on strikes

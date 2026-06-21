@@ -1,0 +1,38 @@
+agility: -2
+cost: 5 essence for three minions
+ev: ""
+features:
+    - effects:
+        - effect: The principle's melee [free strikes](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) have a distance of R and inflict M < STRONG [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed). The principle can have an unlimited number of creatures or objects [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed). A creature [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) by this [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) still has their normal [speed](scc.v1:mcdm.heroes.v1/rule.character/speed), but can't move farther away from the principle.
+      feature_type: trait
+      icon: ⭐️
+      name: Encroaching Strike
+      type: feature
+flavor: The manes of these equine sludge dwellers extend and hook into things like strong, fraying arms. This allows the principle of the swamp to either pull themselves onto dry land, or pull their prey into the dank depths.
+free_strike: 4
+immunities:
+    - Corruption R
+    - Poison R
+intuition: 2
+keywords:
+    - Elemental (Green
+    - Water
+    - Rot)
+level: 0
+metadata:
+    scc: mcdm.summoner.v1/monster.minion.summoner.elemental.statblock/principle-of-the-swamp
+    source: mcdm.summoner.v1
+might: 3
+movement: Swim
+name: Principle of the Swamp
+organization: Minion
+presence: -2
+reason: 0
+role: Brute
+size: "2"
+speed: 4
+stability: 0
+stamina: 5 | 5 | 5
+type: statblock
+weaknesses:
+    - —

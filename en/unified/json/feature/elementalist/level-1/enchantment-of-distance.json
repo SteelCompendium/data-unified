@@ -1,0 +1,22 @@
+{
+  "effects": [
+    {
+      "effect": "You have a +2 [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to the [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance) of your [ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) magic abilities."
+    }
+  ],
+  "feature_type": "feature",
+  "metadata": {
+    "action_type": "feature",
+    "class": "elementalist",
+    "feature_type": "feature",
+    "item_id": "enchantment-of-distance",
+    "item_name": "Enchantment of Distance",
+    "level": 1,
+    "scc": [
+      "mcdm.heroes.v1/feature.elementalist.level-1/enchantment-of-distance"
+    ],
+    "type": "feature/elementalist/level-1"
+  },
+  "name": "Enchantment of Distance",
+  "type": "feature"
+}

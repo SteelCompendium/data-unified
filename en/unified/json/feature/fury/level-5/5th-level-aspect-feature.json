@@ -1,0 +1,22 @@
+{
+  "effects": [
+    {
+      "effect": "Your [primordial aspect](scc.v1:mcdm.heroes.v1/feature.fury.level-1/primordial-aspect) grants you a feature, as shown on the 5th-Level Aspect Features table.\n\n###### 5th-Level Aspect Features Table\n\n| Aspect     | Feature    |\n|------------|------------|\n| Berserker  | [Bounder](scc.v1:mcdm.heroes.v1/feature.fury.level-5/bounder)    |\n| Reaver     | [Unfettered](scc.v1:mcdm.heroes.v1/feature.fury.level-5/unfettered) |\n| Stormwight | [Stormborn](scc.v1:mcdm.heroes.v1/feature.fury.level-5/stormborn)  |"
+    }
+  ],
+  "feature_type": "feature",
+  "metadata": {
+    "action_type": "feature",
+    "class": "fury",
+    "feature_type": "feature",
+    "item_id": "5th-level-aspect-feature",
+    "item_name": "5th-Level Aspect Feature",
+    "level": 5,
+    "scc": [
+      "mcdm.heroes.v1/feature.fury.level-5/5th-level-aspect-feature"
+    ],
+    "type": "feature/fury/level-5"
+  },
+  "name": "5th-Level Aspect Feature",
+  "type": "feature"
+}

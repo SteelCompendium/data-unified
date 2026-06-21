@@ -1,0 +1,39 @@
+cost: 3 Ferocity
+distance: Melee 1
+effects:
+    - roll: Power Roll + Might
+      tier1: 4 + M damage; your companion can spend a Recovery
+      tier2: 7 + M damage; you and your companion can each spend a Recovery
+      tier3: 11 + M damage; A < STRONG [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (EoT); you and your companion can each spend a Recovery and shift up to 2 squares
+feature_type: ability
+flavor: The enemy's blood flows like wine, invigorating your companion.
+keywords:
+    - Companion
+    - Magic
+    - Melee
+    - Strike
+    - Weapon
+metadata:
+    action_type: Main action
+    class: beastheart
+    content: "*The enemy's blood flows like wine, invigorating your companion.*\n\n| **Companion, Magic, Melee, Strike, Weapon** | **Main action** |\n|---------------------------------------------|----------------:|\n| **\U0001F4CF Melee 1**                              | **\U0001F3AF One creature** |\n\n**Power Roll + Might:**\n\n- **≤11:** 4 + M damage; your companion can spend a Recovery\n- **12-16:** 7 + M damage; you and your companion can each spend a Recovery\n- **17+:** 11 + M damage; A < STRONG [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (EoT); you and your companion can each spend a Recovery and shift up to 2 squares"
+    distance: Melee 1
+    feature_type: ability
+    flavor: The enemy's blood flows like wine, invigorating your companion.
+    item_id: hungry-like-the-wolf
+    item_name: Hungry Like the Wolf
+    keywords:
+        - Companion
+        - Magic
+        - Melee
+        - Strike
+        - Weapon
+    level: 1
+    scc:
+        - mcdm.beastheart.v1/feature.ability.beastheart.level-1/hungry-like-the-wolf
+    target: One creature
+    type: feature/ability/beastheart/level-1
+name: Hungry Like the Wolf
+target: One creature
+type: feature
+usage: Main action

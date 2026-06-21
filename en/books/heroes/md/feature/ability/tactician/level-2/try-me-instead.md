@@ -1,0 +1,36 @@
+---
+action_type: Main action
+class: tactician
+cost: 5 Focus
+distance: Self; see below
+effect: You [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to your [speed](scc.v1:mcdm.heroes.v1/rule.character/speed) directly toward an ally, ending [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to them, then swapping locations with that ally as long as you can fit into each other's spaces. The ally can spend a [Recovery](scc.v1:mcdm.heroes.v1/rule.health/recoveries), and you can make the following weapon [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) with a [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance) of [melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1 against a creature.
+flavor: '"Try picking on someone my [size](scc.v1:mcdm.heroes.v1/rule.character/size)."'
+keywords:
+    - '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)'
+    - '[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)'
+    - Weapon
+level: "2"
+name: Try Me Instead
+power_roll_characteristic: '[Reason](scc.v1:mcdm.heroes.v1/rule.character/reason)'
+scc: mcdm.heroes.v1/feature.ability.tactician.level-2/try-me-instead
+target: Self
+tier1: 2 + R damage; R < WEAK, [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
+tier2: 3 + R damage; R < AVERAGE, [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
+tier3: 4 + R damage; R < STRONG, [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
+type: ability
+---
+
+
+*"Try picking on someone my [size](scc.v1:mcdm.heroes.v1/rule.character/size)."*
+
+| **[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), Weapon** | **Main action** |
+|---------------------------|----------------:|
+| **📏 Self; see below**    |     **🎯 Self** |
+
+**Effect:** You [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to your [speed](scc.v1:mcdm.heroes.v1/rule.character/speed) directly toward an ally, ending [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to them, then swapping locations with that ally as long as you can fit into each other's spaces. The ally can spend a [Recovery](scc.v1:mcdm.heroes.v1/rule.health/recoveries), and you can make the following weapon [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) with a [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance) of [melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1 against a creature.
+
+**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason):**
+
+- **≤11:** 2 + R damage; R < WEAK, [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
+- **12-16:** 3 + R damage; R < AVERAGE, [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
+- **17+:** 4 + R damage; R < STRONG, [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)

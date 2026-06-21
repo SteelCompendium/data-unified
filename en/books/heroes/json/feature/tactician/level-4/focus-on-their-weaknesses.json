@@ -1,0 +1,22 @@
+{
+  "effects": [
+    {
+      "effect": "The first time each [combat round](scc.v1:mcdm.heroes.v1/rule.combat/combat-round) that you or any ally damages a target marked by you, you gain 2 focus instead of 1."
+    }
+  ],
+  "feature_type": "feature",
+  "metadata": {
+    "action_type": "feature",
+    "class": "tactician",
+    "feature_type": "feature",
+    "item_id": "focus-on-their-weaknesses",
+    "item_name": "Focus on Their Weaknesses",
+    "level": 4,
+    "scc": [
+      "mcdm.heroes.v1/feature.tactician.level-4/focus-on-their-weaknesses"
+    ],
+    "type": "feature/tactician/level-4"
+  },
+  "name": "Focus on Their Weaknesses",
+  "type": "feature"
+}

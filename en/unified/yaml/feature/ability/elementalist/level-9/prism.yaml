@@ -1,0 +1,31 @@
+cost: 11 Essence
+distance: Self
+effects:
+    - effect: You use up to three [heroic abilities](scc.v1:mcdm.heroes.v1/rule.general/heroic-ability) whose essence costs total 11 or less, spending no additional essence beyond the cost of this ability. You can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to 2 squares between your use of each ability.
+      name: Effect
+feature_type: ability
+flavor: You split your essence, allowing you to cast multiple effects at once.
+keywords:
+    - Magic
+    - Void
+metadata:
+    action_type: Main action
+    class: elementalist
+    content: "\n*You split your essence, allowing you to cast multiple effects at once.*\n\n| **Magic, Void** | **Main action** |\n|-----------------|----------------:|\n| **\U0001F4CF Self**     |     **\U0001F3AF Self** |\n\n**Effect:** You use up to three [heroic abilities](scc.v1:mcdm.heroes.v1/rule.general/heroic-ability) whose essence costs total 11 or less, spending no additional essence beyond the cost of this ability. You can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to 2 squares between your use of each ability."
+    distance: Self
+    feature_type: ability
+    flavor: You split your essence, allowing you to cast multiple effects at once.
+    item_id: prism
+    item_name: Prism
+    keywords:
+        - Magic
+        - Void
+    level: 9
+    scc:
+        - mcdm.heroes.v1/feature.ability.elementalist.level-9/prism
+    target: Self
+    type: feature/ability/elementalist/level-9
+name: Prism
+target: Self
+type: feature
+usage: Main action

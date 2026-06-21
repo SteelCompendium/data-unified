@@ -1,0 +1,23 @@
+{
+  "effects": [
+    {
+      "effect": "Your circle grants you a feature as shown on the 8th-Level Summoner Circle Features table.\n\n###### 8th-Level Summoner Circle Features\n\n| Circle | Feature |\n|--------|---------|\n| Blight | Abyssal Evolution |\n| Graves | Kill the Pain |\n| Spring | Celestial Grace |\n| Storms | Control the Elements |"
+    }
+  ],
+  "feature_type": "feature",
+  "metadata": {
+    "action_type": "feature",
+    "class": "summoner",
+    "feature_source": "circle",
+    "feature_type": "feature",
+    "item_id": "8th-level-circle-feature",
+    "item_name": "8th-Level Circle Feature",
+    "level": 8,
+    "scc": [
+      "mcdm.summoner.v1/feature.summoner.level-8/8th-level-circle-feature"
+    ],
+    "type": "feature/summoner/level-8"
+  },
+  "name": "8th-Level Circle Feature",
+  "type": "feature"
+}

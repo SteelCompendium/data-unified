@@ -1,0 +1,41 @@
+{
+  "distance": "5 [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura)",
+  "effects": [
+    {
+      "effect": "While this performance is active, a target who starts their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) in the area gains a [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to the [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance) they can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) equal to your [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence) score until the end of their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn).",
+      "name": "Effect"
+    }
+  ],
+  "feature_type": "ability",
+  "flavor": "Swordplay so graceful it looks like you all practiced this.",
+  "keywords": [
+    "Area",
+    "Magic",
+    "Performance"
+  ],
+  "metadata": {
+    "action_type": "No action",
+    "class": "troubadour",
+    "content": "\n*Swordplay so graceful it looks like you all practiced this.*\n\n| **Area, Magic, Performance** |                         **No action** |\n|------------------------------|--------------------------------------:|\n| **📏 5 [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura)**                | **🎯 Self and each ally in the area** |\n\n**Effect:** While this performance is active, a target who starts their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) in the area gains a [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to the [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance) they can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) equal to your [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence) score until the end of their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn).",
+    "distance": "5 [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura)",
+    "feature_type": "ability",
+    "flavor": "Swordplay so graceful it looks like you all practiced this.",
+    "item_id": "we-cant-be-upstaged",
+    "item_name": "We Can't Be Upstaged!",
+    "keywords": [
+      "Area",
+      "Magic",
+      "Performance"
+    ],
+    "level": 5,
+    "scc": [
+      "mcdm.heroes.v1/feature.ability.troubadour.level-5/we-cant-be-upstaged"
+    ],
+    "target": "Self and each ally in the area",
+    "type": "feature/ability/troubadour/level-5"
+  },
+  "name": "We Can't Be Upstaged!",
+  "target": "Self and each ally in the area",
+  "type": "feature",
+  "usage": "No action"
+}

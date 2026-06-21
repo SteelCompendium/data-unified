@@ -1,0 +1,28 @@
+distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 20'
+effects:
+    - effect: As long as you remain within [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance) of the target, maintain [line of effect](scc.v1:mcdm.heroes.v1/rule.combat/line-of-effect) to them, and strike no other creature first, you gain an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on the next strike you make against the assessed creature, and gain 1 [surge](scc.v1:mcdm.heroes.v1/rule.resource/surge) you can use only on that [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike).
+      name: Effect
+feature_type: ability
+flavor: A moment of focus leaves a foe firmly in your sights.
+keywords:
+    - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'
+metadata:
+    action_type: Maneuver
+    class: shadow
+    content: "\n*A moment of focus leaves a foe firmly in your sights.*\n\n| **[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)**       |        **Maneuver** |\n|------------------|--------------------:|\n| **\U0001F4CF [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 20** | **\U0001F3AF One creature** |\n\n**Effect:** As long as you remain within [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance) of the target, maintain [line of effect](scc.v1:mcdm.heroes.v1/rule.combat/line-of-effect) to them, and strike no other creature first, you gain an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on the next strike you make against the assessed creature, and gain 1 [surge](scc.v1:mcdm.heroes.v1/rule.resource/surge) you can use only on that [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)."
+    distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 20'
+    feature_type: ability
+    flavor: A moment of focus leaves a foe firmly in your sights.
+    item_id: careful-observation
+    item_name: Careful Observation
+    keywords:
+        - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'
+    level: 3
+    scc:
+        - mcdm.heroes.v1/feature.ability.shadow.level-3/careful-observation
+    target: One creature
+    type: feature/ability/shadow/level-3
+name: Careful Observation
+target: One creature
+type: feature
+usage: Maneuver

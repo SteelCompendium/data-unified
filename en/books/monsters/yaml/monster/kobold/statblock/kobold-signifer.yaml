@@ -1,0 +1,64 @@
+agility: 1
+ev: "3"
+features:
+    - ability_type: Signature Ability
+      distance: Melee 1
+      effects:
+        - roll: Power Roll + 2
+          tier1: 3 damage
+          tier2: 4 damage
+          tier3: 5 damage
+      feature_type: ability
+      icon: "\U0001F5E1"
+      keywords:
+        - Melee
+        - Strike
+        - Weapon
+      name: Signum
+      target: One creature or object
+      type: feature
+      usage: Main action
+    - cost: 5 Malice
+      distance: 5 burst
+      effects:
+        - effect: '**Effect:** Each target regains 5 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).'
+      feature_type: ability
+      icon: ❇️
+      keywords:
+        - Area
+      name: Glory to the Legion
+      target: Each ally in the area
+      type: feature
+      usage: Maneuver
+    - effects:
+        - effect: While [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to an ally who also has this trait, the signifer has stability 1, has cover, and grants cover to allies.
+      feature_type: trait
+      icon: ⭐️
+      name: Shield? Shield!
+      type: feature
+    - effects:
+        - effect: Any ally who starts their turn within 5 squares of the signifer gains a +2 bonus to speed and a +2 damage bonus to strikes until the end of their turn. Additionally, if the signifer is killed, any kobold [minion](scc.v1:mcdm.monsters.v1/rule.organization/minion) can enter their space during the same encounter to retrieve the signum battle standard they carry (no action required) and replace their stat block with the signifer stat block.
+      feature_type: trait
+      icon: ⭐️
+      name: Upholding High Standards
+      type: feature
+free_strike: 1
+intuition: 0
+keywords:
+    - Humanoid
+    - Kobold
+level: 1
+metadata:
+    scc: mcdm.monsters.v1/monster.kobold.statblock/kobold-signifer
+    source: mcdm.monsters.v1
+might: 0
+name: Kobold Signifer
+organization: Horde
+presence: 2
+reason: 0
+role: Support
+size: 1S
+speed: 5
+stability: 0
+stamina: "15"
+type: statblock

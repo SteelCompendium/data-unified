@@ -1,0 +1,47 @@
+{
+  "distance": "Summoner's Range",
+  "effects": [
+    {
+      "roll": "Power Roll + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason)",
+      "tier1": "Up to three targets each make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike)",
+      "tier2": "Up to five targets each make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike)",
+      "tier3": "Up to seven targets each make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike)"
+    },
+    {
+      "effect": "Your minions act in place of you making a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) or using a [signature ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability). If you were granted the [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action) against a specific target, your minions must strike the same target. If the [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action) granted you a [signature ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability), you have an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on the [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll).",
+      "name": "Effect"
+    }
+  ],
+  "feature_type": "ability",
+  "flavor": "Your minions fight in your stead.",
+  "keywords": [
+    "Magic",
+    "Ranged"
+  ],
+  "metadata": {
+    "action_type": "Free triggered",
+    "class": "summoner",
+    "content": "*Your minions fight in your stead.*\n\n| **Magic, Ranged**       |  **Free triggered** |\n|-------------------------|--------------------:|\n| **📏 Summoner's Range** | **🎯 Each of your minions** |\n\n**Trigger:** You use a [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action) to make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) or use a [signature ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability).\n\n**Power Roll + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason):**\n\n- **≤11:** Up to three targets each make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike)\n- **12-16:** Up to five targets each make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike)\n- **17+:** Up to seven targets each make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike)\n\n**Special:** On a [natural 19 or 20](scc.v1:mcdm.heroes.v1/rule.dice/natural-19-20), each target makes a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike).\n\n**Effect:** Your minions act in place of you making a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) or using a [signature ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability). If you were granted the [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action) against a specific target, your minions must strike the same target. If the [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action) granted you a [signature ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability), you have an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on the [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll).\n\n**Your Minions Deal the Damage**\n\nBy normal Draw Steel rules, everyone gets access to [free strikes](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike). As a [summoner](scc.v1:mcdm.summoner.v1/class/summoner), you have a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) equivalent in addition to minions who have their own free strikes. Changing how you attack allows your minions to shine in battle while keeping your damage output in line with your fellow heroes. The static damage you and most of your minions deal also keeps your [turns](scc.v1:mcdm.heroes.v1/rule.combat/turn) fast and flowing.",
+    "distance": "Summoner's Range",
+    "feature_source": "summoner",
+    "feature_type": "ability",
+    "flavor": "Your minions fight in your stead.",
+    "item_id": "strike-for-me",
+    "item_name": "Strike for Me",
+    "keywords": [
+      "Magic",
+      "Ranged"
+    ],
+    "level": 1,
+    "scc": [
+      "mcdm.summoner.v1/feature.ability.summoner.level-1/strike-for-me"
+    ],
+    "target": "Each of your minions",
+    "type": "feature/ability/summoner/level-1"
+  },
+  "name": "Strike for Me",
+  "target": "Each of your minions",
+  "trigger": "You use a [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action) to make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) or use a [signature ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability).",
+  "type": "feature",
+  "usage": "Free triggered"
+}

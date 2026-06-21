@@ -1,0 +1,22 @@
+{
+  "effects": [
+    {
+      "effect": "Your [primordial aspect](scc.v1:mcdm.heroes.v1/feature.fury.level-1/primordial-aspect) grants you a feature, as shown on the 3rd-Level Aspect Features table.\n\n###### 3rd-Level Aspect Features Table\n\n| Aspect                    | Feature                  |\n|---------------------------|--------------------------|\n| Berserker                 | [Immovable Object](scc.v1:mcdm.heroes.v1/feature.fury.level-3/immovable-object)         |\n| Reaver                    | [See Through Their Tricks](scc.v1:mcdm.heroes.v1/feature.fury.level-3/see-through-their-tricks) |\n| Stormwight                | Nature's Knight          |"
+    }
+  ],
+  "feature_type": "feature",
+  "metadata": {
+    "action_type": "feature",
+    "class": "fury",
+    "feature_type": "feature",
+    "item_id": "3rd-level-aspect-feature",
+    "item_name": "3rd-Level Aspect Feature",
+    "level": 3,
+    "scc": [
+      "mcdm.heroes.v1/feature.fury.level-3/3rd-level-aspect-feature"
+    ],
+    "type": "feature/fury/level-3"
+  },
+  "name": "3rd-Level Aspect Feature",
+  "type": "feature"
+}

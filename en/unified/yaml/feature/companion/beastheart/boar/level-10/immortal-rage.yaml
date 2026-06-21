@@ -1,0 +1,15 @@
+effects:
+    - effect: Whenever you or the boar use an ability that deals damage while the boar is rampaging, you gain 10 temporary Stamina.
+feature_type: feature
+metadata:
+    action_type: feature
+    class: beastheart
+    feature_type: feature
+    item_id: immortal-rage
+    item_name: Immortal Rage
+    level: 10
+    scc:
+        - mcdm.beastheart.v1/feature.companion.beastheart.boar.level-10/immortal-rage
+    type: feature/companion/beastheart/boar/level-10
+name: Immortal Rage
+type: feature

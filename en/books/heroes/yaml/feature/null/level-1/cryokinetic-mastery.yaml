@@ -1,0 +1,29 @@
+effects:
+    - effect: |-
+        Whenever you use your [Inertial Shield](scc.v1:mcdm.heroes.v1/feature.ability.null.level-1/inertial-shield) ability, you can then use the [Grab](scc.v1:mcdm.heroes.v1/feature.common.maneuvers/grab) maneuver as a free [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action).
+
+        Additionally, as your discipline grows, you strengthen the psionic power suffusing you, granting benefits from the [Cryokinetic Mastery](scc.v1:mcdm.heroes.v1/feature.null.level-1/cryokinetic-mastery) table. Benefits are cumulative except where an improved benefit replaces a lesser benefit.
+
+        ###### Cryokinetic Mastery Table
+
+        | Discipline      | Benefit                                                                                                                                                                                           |
+        |-----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+        | 2               | Whenever you use the [Knockback](scc.v1:mcdm.heroes.v1/feature.common.maneuvers/knockback) maneuver, you can target one additional creature. Additionally, whenever you deal untyped damage with a psionic ability, you can change it to cold damage instead. |
+        | 4               | The first time on a [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) that you grab a creature or an enemy moves 1 or more squares in the area of your [Null Field](scc.v1:mcdm.heroes.v1/feature.null.level-1/null-field) ability, you gain 1 [surge](scc.v1:mcdm.heroes.v1/rule.resource/surge).                                                   |
+        | 6               | You gain an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on the [Grab](scc.v1:mcdm.heroes.v1/feature.common.maneuvers/grab) and [Knockback](scc.v1:mcdm.heroes.v1/feature.common.maneuvers/knockback) maneuvers.                                                                                                                                             |
+        | 8 (4th level)   | The first time on a [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) that you grab a creature or an enemy moves 1 or more squares in the area of your [Null Field](scc.v1:mcdm.heroes.v1/feature.null.level-1/null-field) ability, you gain 2 [surges](scc.v1:mcdm.heroes.v1/rule.resource/surge).                                                  |
+        | 10 (7th level)  | You have a double [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on the [Grab](scc.v1:mcdm.heroes.v1/feature.common.maneuvers/grab) and [Knockback](scc.v1:mcdm.heroes.v1/feature.common.maneuvers/knockback) maneuvers.                                                                                                                                       |
+        | 12 (10th level) | Whenever you force move a target, the [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance) gains a [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) equal to your [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition) score. Additionally, whenever you use a [heroic ability](scc.v1:mcdm.heroes.v1/rule.general/heroic-ability), you gain 10 [temporary Stamina](scc.v1:mcdm.heroes.v1/rule.health/temporary-stamina).       |
+feature_type: feature
+metadata:
+    action_type: feature
+    class: "null"
+    feature_type: feature
+    item_id: cryokinetic-mastery
+    item_name: Cryokinetic Mastery
+    level: 1
+    scc:
+        - mcdm.heroes.v1/feature.null.level-1/cryokinetic-mastery
+    type: feature/null/level-1
+name: Cryokinetic Mastery
+type: feature

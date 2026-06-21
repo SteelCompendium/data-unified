@@ -1,0 +1,42 @@
+ability:
+    distance: 1 [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura)
+    effects:
+        - effect: Each target reduces their [potencies](scc.v1:mcdm.heroes.v1/rule.character/potency) by 1.
+          name: Effect
+    feature_type: ability
+    flavor: You project an [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura) that dampens the power of your foes.
+    keywords:
+        - Area
+        - Psionic
+    metadata:
+        action_type: Maneuver
+        content: "\n*You project an [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura) that dampens the power of your foes.*\n\n| **Area, Psionic** |                  **Maneuver** |\n|-------------------|------------------------------:|\n| **\U0001F4CF 1 [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura)**     | **\U0001F3AF Each enemy in the area** |\n\n**Effect:** Each target reduces their [potencies](scc.v1:mcdm.heroes.v1/rule.character/potency) by 1.\n\nOnce as a [free maneuver](scc.v1:mcdm.heroes.v1/rule.combat/free-maneuver) on each of your [turns](scc.v1:mcdm.heroes.v1/rule.combat/turn), you can spend 1 discipline and give your [Null Field](scc.v1:mcdm.heroes.v1/feature.null.level-1/null-field) one of the following additional effects until the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn):\n\n- Gravitic Disruption: The first time on a [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) that a target takes damage, you can [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) them up to 2 squares.\n- Inertial Anchor: Any target who starts their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) in the area can't [shift](scc.v1:mcdm.heroes.v1/movement/shifting).\n- Synaptic Break: Whenever you or any ally uses an ability against a target that has a [potency](scc.v1:mcdm.heroes.v1/rule.character/potency) effect, the [potency](scc.v1:mcdm.heroes.v1/rule.character/potency) is increased by 1.\n\nThis ability remains active even after an encounter ends. It ends only if you are [dying](scc.v1:mcdm.heroes.v1/rule.health/dying) or if you willingly end it (no action required)."
+        distance: 1 [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura)
+        feature_type: ability
+        flavor: You project an [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura) that dampens the power of your foes.
+        item_id: null-field
+        item_name: Null Field
+        keywords:
+            - Area
+            - Psionic
+        target: Each enemy in the area
+        type: feature/ability/common
+    name: Null Field
+    target: Each enemy in the area
+    type: feature
+    usage: Maneuver
+effects:
+    - effect: You project a psionic field of order around your body, dampening the effects of [supernatural](scc.v1:mcdm.heroes.v1/rule.general/supernatural) abilities harmful to you and your allies.
+feature_type: feature
+metadata:
+    action_type: feature
+    class: "null"
+    feature_type: feature
+    item_id: null-field
+    item_name: Null Field
+    level: 1
+    scc:
+        - mcdm.heroes.v1/feature.null.level-1/null-field
+    type: feature/null/level-1
+name: Null Field
+type: feature

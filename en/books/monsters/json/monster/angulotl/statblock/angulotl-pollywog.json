@@ -1,0 +1,66 @@
+{
+  "agility": 2,
+  "ev": "3 for 4 minions",
+  "features": [
+    {
+      "ability_type": "Signature Ability",
+      "distance": "Melee 1",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "tier1": "1 poison damage",
+          "tier2": "2 poison damage; the pollywog can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) 1 square",
+          "tier3": "3 poison damage; the pollywog [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to 3 squares"
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "🗡",
+      "keywords": [
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "name": "Nip",
+      "target": "One creature per minion",
+      "type": "feature",
+      "usage": "Main action"
+    },
+    {
+      "effects": [
+        {
+          "effect": "Any angulotl who can target the pollywog with a melee [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) can eat them as a maneuver. The angulotl regains 4 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) and is wet until the end of their next turn."
+        }
+      ],
+      "feature_type": "trait",
+      "icon": "⭐️",
+      "name": "Quick Snack",
+      "type": "feature"
+    }
+  ],
+  "free_strike": 1,
+  "immunities": [
+    "Poison 2"
+  ],
+  "intuition": -2,
+  "keywords": [
+    "Angulotl"
+  ],
+  "level": 1,
+  "metadata": {
+    "scc": "mcdm.monsters.v1/monster.angulotl.statblock/angulotl-pollywog",
+    "source": "mcdm.monsters.v1"
+  },
+  "might": 0,
+  "movement": "Climb, swim",
+  "name": "Angulotl Pollywog",
+  "organization": "Minion",
+  "presence": 0,
+  "reason": -2,
+  "role": "Harrier",
+  "size": "1S",
+  "speed": 6,
+  "stability": 0,
+  "stamina": "4",
+  "type": "statblock",
+  "with_captain": "+2 bonus to speed"
+}

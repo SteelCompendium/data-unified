@@ -1,0 +1,36 @@
+agility: 0
+cost: 1 essence per minion summoned
+ev: ""
+features:
+    - effects:
+        - effect: When the skeleton is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), their square becomes [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain) for enemies. The first time any enemy enters this space, they take 2 damage and end this effect.
+      feature_type: trait
+      icon: ⭐️
+      name: Bonetrops
+      type: feature
+flavor: These autonomous bone networks fall just short of replicating the structure they had in life. Skeleton bones are especially brittle and can splinter into huge shards when met with enough force.
+free_strike: 1
+immunities:
+    - Corruption R
+    - Poison R
+intuition: -1
+keywords:
+    - Undead
+level: 0
+metadata:
+    scc: mcdm.summoner.v1/monster.minion.summoner.undead.statblock/skeleton
+    source: mcdm.summoner.v1
+might: 2
+movement: —
+name: Skeleton
+organization: Minion
+presence: -1
+reason: -1
+role: Harrier
+size: 1M
+speed: 6
+stability: 0
+stamina: "2"
+type: statblock
+weaknesses:
+    - —

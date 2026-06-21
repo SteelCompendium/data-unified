@@ -1,0 +1,20 @@
+---
+domains:
+    - Life
+    - Nature
+file_basename: thyll-hylacae
+file_dpath: religion/saint
+item_id: thyll-hylacae
+item_name: Thyll Hylacae
+name: Thyll Hylacae
+patron: val
+scc: mcdm.heroes.v1/religion.saint/thyll-hylacae
+source: mcdm.heroes.v1
+type: saint
+---
+
+**Domains:** Life, Nature
+
+Thyll Hylacae, the Forestal, Apothachron, also known as the Sacrifice. Thyll spoke to the plants, learned their truths—discovered many magics hidden within. The power to heal, harm, change. It was Hylacae who first sensed, then learned, the language of trees. She studied, cared for them, and protected them when the folk of farm and field came to cut them down.
+
+Though she was mighty in warlore, she could not be everywhere. In the end, she sacrificed herself for the trees, the ritual she performed uplifted a small population of trees, creating the derwic—the thinking speaking tree-peoples few of whom remain in [Orden](scc.v1:mcdm.heroes.v1/rule.world/orden).

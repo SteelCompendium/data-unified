@@ -1,0 +1,32 @@
+distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
+effects:
+    - effect: 'Choose one of the following effects:'
+      name: Effect
+    - cost: Spend 1 Drama
+      effect: You can choose two targets for the chosen effect.
+feature_type: ability
+flavor: It doesn't need to make sense. Just say it with emotion.
+keywords:
+    - Magic
+    - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'
+metadata:
+    action_type: Maneuver
+    class: troubadour
+    content: "\n*It doesn't need to make sense. Just say it with emotion.*\n\n| **Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)** |   **Maneuver** |\n|-------------------|---------------:|\n| **\U0001F4CF [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**  | **\U0001F3AF Special** |\n\n**Effect:** Choose one of the following effects:\n\n- You orate a rousing tale of [victory](scc.v1:mcdm.heroes.v1/rule.resource/victories). One ally within [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance) gains an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on the next [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) they make before the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn).\n- You weave a tale of high-stakes heroics. One ally within [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance) gains 1 [surge](scc.v1:mcdm.heroes.v1/rule.resource/surge).\n- You insult a foe where they're most vulnerable. One enemy within [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance) takes a [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) on the next [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) they make before the end of their next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn).\n\n**Spend 1 Drama:** You can choose two targets for the chosen effect."
+    distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
+    feature_type: ability
+    flavor: It doesn't need to make sense. Just say it with emotion.
+    item_id: dramatic-monologue
+    item_name: Dramatic Monologue
+    keywords:
+        - Magic
+        - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'
+    level: 1
+    scc:
+        - mcdm.heroes.v1/feature.ability.troubadour.level-1/dramatic-monologue
+    target: Special
+    type: feature/ability/troubadour/level-1
+name: Dramatic Monologue
+target: Special
+type: feature
+usage: Maneuver

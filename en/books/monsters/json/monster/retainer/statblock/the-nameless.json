@@ -1,0 +1,86 @@
+{
+  "agility": 2,
+  "ev": "-",
+  "features": [
+    {
+      "ability_type": "Signature Ability",
+      "distance": "Melee 1",
+      "effects": [
+        {
+          "roll": "Power Roll + highest characteristic",
+          "tier1": "6 damage",
+          "tier2": "11 damage",
+          "tier3": "14 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2"
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "🗡",
+      "keywords": [
+        "Charge",
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "name": "Baneful Blade",
+      "target": "One creature or object",
+      "type": "feature",
+      "usage": "Main action"
+    },
+    {
+      "cost": "Encounter",
+      "distance": "Melee 1",
+      "effects": [
+        {
+          "effect": "**Effect:** The Nameless's mentor enters the Nameless's space and rides on their back. The Nameless or the mentor can move the mentor to an [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) space as a free maneuver. While in the Nameless's space, the mentor moves with them and can't use their move action, and ability rolls against the mentor take a bane."
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "🗡",
+      "keywords": [
+        "Melee"
+      ],
+      "name": "I'm Not a Steed, You're Equipment",
+      "target": "The Nameless's mentor",
+      "type": "feature",
+      "usage": "Main action"
+    },
+    {
+      "effects": [
+        {
+          "effect": "Ranged strikes against the Nameless take a bane."
+        }
+      ],
+      "feature_type": "trait",
+      "icon": "⭐️",
+      "name": "Wing Block",
+      "type": "feature"
+    }
+  ],
+  "free_strike": 6,
+  "immunities": [
+    "Corruption 6"
+  ],
+  "intuition": 1,
+  "keywords": [
+    "Draconian",
+    "Dragon",
+    "Humanoid"
+  ],
+  "level": 6,
+  "metadata": {
+    "scc": "mcdm.monsters.v1/monster.retainer.statblock/the-nameless",
+    "source": "mcdm.monsters.v1"
+  },
+  "might": 3,
+  "movement": "Fly",
+  "name": "The Nameless",
+  "organization": "Retainer",
+  "presence": 2,
+  "reason": 1,
+  "role": "Defender",
+  "size": "1M",
+  "speed": 5,
+  "stability": 4,
+  "stamina": "66",
+  "type": "statblock"
+}

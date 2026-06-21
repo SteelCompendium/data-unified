@@ -1,0 +1,63 @@
+{
+  "agility": 2,
+  "ev": "3 for four minions",
+  "features": [
+    {
+      "ability_type": "Signature Ability",
+      "distance": "Melee 2",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "tier1": "1 damage",
+          "tier2": "2 damage",
+          "tier3": "3 damage"
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "🗡",
+      "keywords": [
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "name": "Hasta",
+      "target": "One creature or object per minion",
+      "type": "feature",
+      "usage": "Main action"
+    },
+    {
+      "effects": [
+        {
+          "effect": "While [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to an ally who also has this trait, the princeps has stability 1, has cover, and grants cover to allies."
+        }
+      ],
+      "feature_type": "trait",
+      "icon": "⭐️",
+      "name": "Shield? Shield!",
+      "type": "feature"
+    }
+  ],
+  "free_strike": 1,
+  "intuition": 0,
+  "keywords": [
+    "Humanoid",
+    "Kobold"
+  ],
+  "level": 1,
+  "metadata": {
+    "scc": "mcdm.monsters.v1/monster.kobold.statblock/kobold-princeps",
+    "source": "mcdm.monsters.v1"
+  },
+  "might": 0,
+  "name": "Kobold Princeps",
+  "organization": "Minion",
+  "presence": 0,
+  "reason": 0,
+  "role": "Support",
+  "size": "1S",
+  "speed": 5,
+  "stability": 0,
+  "stamina": "4",
+  "type": "statblock",
+  "with_captain": "+2 bonus to Stamina"
+}

@@ -1,0 +1,13 @@
+effects:
+    - effect: Your prehensile tail allows you to challenge foes on all sides. You can't be flanked.
+feature_type: trait
+metadata:
+    action_type: feature
+    feature_type: trait
+    item_id: prehensile-tail
+    item_name: Prehensile Tail
+    scc:
+        - mcdm.heroes.v1/feature.trait.devil/prehensile-tail
+    type: feature/trait/devil
+name: Prehensile Tail
+type: feature

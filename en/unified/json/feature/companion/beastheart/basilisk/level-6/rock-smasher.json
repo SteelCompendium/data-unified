@@ -1,0 +1,22 @@
+{
+  "effects": [
+    {
+      "effect": "Whenever you deal rolled damage to a stoned creature while the basilisk is rampaging, you deal extra damage equal to twice your Might score."
+    }
+  ],
+  "feature_type": "feature",
+  "metadata": {
+    "action_type": "feature",
+    "class": "beastheart",
+    "feature_type": "feature",
+    "item_id": "rock-smasher",
+    "item_name": "Rock Smasher",
+    "level": 6,
+    "scc": [
+      "mcdm.beastheart.v1/feature.companion.beastheart.basilisk.level-6/rock-smasher"
+    ],
+    "type": "feature/companion/beastheart/basilisk/level-6"
+  },
+  "name": "Rock Smasher",
+  "type": "feature"
+}

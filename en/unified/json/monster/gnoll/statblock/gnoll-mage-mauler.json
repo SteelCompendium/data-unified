@@ -1,0 +1,63 @@
+{
+  "agility": 1,
+  "ev": "4 for four minions",
+  "features": [
+    {
+      "ability_type": "Signature Ability",
+      "distance": "Melee 1",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "tier1": "2 acid damage",
+          "tier2": "3 cold damage",
+          "tier3": "5 lightning damage; the target can't use magic abilities (EoT)"
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "🗡",
+      "keywords": [
+        "Magic",
+        "Melee",
+        "Strike"
+      ],
+      "name": "Wizard Ripper",
+      "target": "One creature or object per minion",
+      "type": "feature",
+      "usage": "Main action"
+    },
+    {
+      "effects": [
+        {
+          "effect": "Whenever a non-[minion](scc.v1:mcdm.monsters.v1/rule.organization/minion) ally within 5 squares of the mage mauler is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), the mage mauler can move up to their speed."
+        }
+      ],
+      "feature_type": "trait",
+      "icon": "⭐️",
+      "name": "Death Circle",
+      "type": "feature"
+    }
+  ],
+  "free_strike": 2,
+  "intuition": 0,
+  "keywords": [
+    "Abyssal",
+    "Gnoll"
+  ],
+  "level": 2,
+  "metadata": {
+    "scc": "mcdm.monsters.v1/monster.gnoll.statblock/gnoll-mage-mauler",
+    "source": "mcdm.monsters.v1"
+  },
+  "might": 2,
+  "name": "Gnoll Mage Mauler",
+  "organization": "Minion",
+  "presence": 0,
+  "reason": -1,
+  "role": "Hexer",
+  "size": "1M",
+  "speed": 5,
+  "stability": 1,
+  "stamina": "4",
+  "type": "statblock",
+  "with_captain": "+2 bonus to melee distance"
+}

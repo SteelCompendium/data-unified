@@ -1,0 +1,23 @@
+{
+  "effects": [
+    {
+      "effect": "Whenever you use Call Forth, you can spend essence to change the size of one elemental minion you summon as shown on the following table.\n\n###### Control the Elements\n\n| Essence Cost | Size Change |\n|--------------|-------------|\n| 1 | The minion becomes size 2. |\n| 3 | The minion becomes size 3. |\n| 5 | The minion becomes size 4. |"
+    }
+  ],
+  "feature_type": "feature",
+  "metadata": {
+    "action_type": "feature",
+    "class": "summoner",
+    "feature_source": "summoner",
+    "feature_type": "feature",
+    "item_id": "control-the-elements",
+    "item_name": "Control the Elements",
+    "level": 8,
+    "scc": [
+      "mcdm.summoner.v1/feature.summoner.level-8/control-the-elements"
+    ],
+    "type": "feature/summoner/level-8"
+  },
+  "name": "Control the Elements",
+  "type": "feature"
+}

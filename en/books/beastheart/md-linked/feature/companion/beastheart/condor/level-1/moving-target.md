@@ -1,0 +1,10 @@
+---
+class: beastheart
+companion: condor
+level: "1"
+name: Moving Target
+scc: mcdm.beastheart.v1/feature.companion.beastheart.condor.level-1/moving-target
+type: feature
+---
+
+While the condor is [flying](../../../../../movement/fly.md) and has a speed greater than 0, ranged strikes against them take a bane.

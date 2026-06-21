@@ -1,0 +1,46 @@
+{
+  "cost": "5 Essence",
+  "distance": "3 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 10",
+  "effects": [
+    {
+      "roll": "Power Roll + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason)",
+      "tier1": "4 fire damage",
+      "tier2": "6 fire damage",
+      "tier3": "10 fire damage"
+    }
+  ],
+  "feature_type": "ability",
+  "flavor": "A storm of fire descends upon your enemies.",
+  "keywords": [
+    "Area",
+    "Fire",
+    "Magic",
+    "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)"
+  ],
+  "metadata": {
+    "action_type": "Main action",
+    "class": "elementalist",
+    "content": "\n*A storm of fire descends upon your enemies.*\n\n| **Area, Fire, Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)** |               **Main action** |\n|-------------------------------|------------------------------:|\n| **📏 3 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 10**       | **🎯 Each enemy in the area** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason):**\n\n- **≤11:** 4 fire damage\n- **12-16:** 6 fire damage\n- **17+:** 10 fire damage\n\n**Persistent 2:** At the start of your [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), you can use a maneuver to use this ability again without spending essence.",
+    "distance": "3 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 10",
+    "feature_type": "ability",
+    "flavor": "A storm of fire descends upon your enemies.",
+    "item_id": "conflagration",
+    "item_name": "Conflagration",
+    "keywords": [
+      "Area",
+      "Fire",
+      "Magic",
+      "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)"
+    ],
+    "level": 1,
+    "scc": [
+      "mcdm.heroes.v1/feature.ability.elementalist.level-1/conflagration"
+    ],
+    "target": "Each enemy in the area",
+    "type": "feature/ability/elementalist/level-1"
+  },
+  "name": "Conflagration",
+  "target": "Each enemy in the area",
+  "type": "feature",
+  "usage": "Main action"
+}

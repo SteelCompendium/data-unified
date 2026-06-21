@@ -1,0 +1,50 @@
+{
+  "cost": "9 Focus",
+  "distance": "[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1 or [ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 5",
+  "effects": [
+    {
+      "roll": "Power Roll + [Might](scc.v1:mcdm.heroes.v1/rule.character/might)",
+      "tier1": "6 + M damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1",
+      "tier2": "9 + M damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3",
+      "tier3": "13 + M damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5"
+    },
+    {
+      "effect": "If a target is [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement) into another creature, they must make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against that creature.",
+      "name": "Effect"
+    }
+  ],
+  "feature_type": "ability",
+  "flavor": "You confuse your foes, causing them to turn on each other.",
+  "keywords": [
+    "[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)",
+    "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)",
+    "[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)",
+    "Weapon"
+  ],
+  "metadata": {
+    "action_type": "Main action",
+    "class": "tactician",
+    "content": "\n*You confuse your foes, causing them to turn on each other.*\n\n| **[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), Weapon** |      **Main action** |\n|-----------------------------------|---------------------:|\n| **📏 [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1 or [ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 5**        | **🎯 Two creatures** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc.v1:mcdm.heroes.v1/rule.character/might):**\n\n- **≤11:** 6 + M damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1\n- **12-16:** 9 + M damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3\n- **17+:** 13 + M damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5\n\n**Effect:** If a target is [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement) into another creature, they must make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against that creature.",
+    "distance": "[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1 or [ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 5",
+    "feature_type": "ability",
+    "flavor": "You confuse your foes, causing them to turn on each other.",
+    "item_id": "panic-in-their-lines",
+    "item_name": "Panic in Their Lines",
+    "keywords": [
+      "[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)",
+      "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)",
+      "[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)",
+      "Weapon"
+    ],
+    "level": 6,
+    "scc": [
+      "mcdm.heroes.v1/feature.ability.tactician.level-6/panic-in-their-lines"
+    ],
+    "target": "Two creatures",
+    "type": "feature/ability/tactician/level-6"
+  },
+  "name": "Panic in Their Lines",
+  "target": "Two creatures",
+  "type": "feature",
+  "usage": "Main action"
+}

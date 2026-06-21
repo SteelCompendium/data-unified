@@ -1,0 +1,37 @@
+cost: 9 Essence
+distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
+effects:
+    - roll: Power Roll + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason)
+      tier1: 9 + R corruption damage
+      tier2: 10 + R corruption damage; the target has [line of effect](scc.v1:mcdm.heroes.v1/rule.combat/line-of-effect) only to creatures and objects within 4 squares of them until the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn)
+      tier3: 15 + R corruption damage; the target has [line of effect](scc.v1:mcdm.heroes.v1/rule.combat/line-of-effect) only to [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) creatures and objects until the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn)
+feature_type: ability
+flavor: You rip an enemy's world in twain.
+keywords:
+    - Magic
+    - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'
+    - '[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)'
+    - Void
+metadata:
+    action_type: Main action
+    class: elementalist
+    content: "\n*You rip an enemy's world in twain.*\n\n| **Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), Void** |               **Main action** |\n|---------------------------------|------------------------------:|\n| **\U0001F4CF [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**                | **\U0001F3AF One creature or object** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason):**\n\n- **≤11:** 9 + R corruption damage\n- **12-16:** 10 + R corruption damage; the target has [line of effect](scc.v1:mcdm.heroes.v1/rule.combat/line-of-effect) only to creatures and objects within 4 squares of them until the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn)\n- **17+:** 15 + R corruption damage; the target has [line of effect](scc.v1:mcdm.heroes.v1/rule.combat/line-of-effect) only to [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) creatures and objects until the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn)"
+    distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
+    feature_type: ability
+    flavor: You rip an enemy's world in twain.
+    item_id: subverted-perception-of-space
+    item_name: Subverted Perception of Space
+    keywords:
+        - Magic
+        - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'
+        - '[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)'
+        - Void
+    level: 5
+    scc:
+        - mcdm.heroes.v1/feature.ability.elementalist.level-5/subverted-perception-of-space
+    target: One creature or object
+    type: feature/ability/elementalist/level-5
+name: Subverted Perception of Space
+target: One creature or object
+type: feature
+usage: Main action

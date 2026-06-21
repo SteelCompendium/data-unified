@@ -1,0 +1,21 @@
+{
+  "effects": [
+    {
+      "effect": "All stormwight kits have the following features in common.\n\n##### Signature Ability\n\nYou gain a new [signature ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability) from your kit."
+    }
+  ],
+  "feature_type": "feature",
+  "metadata": {
+    "action_type": "feature",
+    "class": "fury",
+    "feature_type": "feature",
+    "item_id": "kit-features",
+    "item_name": "Kit Features",
+    "scc": [
+      "mcdm.heroes.v1/feature.fury.stormwight-kits/kit-features"
+    ],
+    "type": "feature/fury/stormwight-kits"
+  },
+  "name": "Kit Features",
+  "type": "feature"
+}

@@ -1,0 +1,48 @@
+{
+  "cost": "9 Ferocity",
+  "distance": "[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1",
+  "effects": [
+    {
+      "roll": "Power Roll + [Might](scc.v1:mcdm.heroes.v1/rule.character/might)",
+      "tier1": "4 + M damage; P \u003c WEAK, [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)",
+      "tier2": "6 + M damage; P \u003c AVERAGE, [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)",
+      "tier3": "10 + M damage; P \u003c STRONG, [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)"
+    },
+    {
+      "effect": "You [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to your [speed](scc.v1:mcdm.heroes.v1/rule.character/speed).",
+      "name": "Effect"
+    }
+  ],
+  "feature_type": "ability",
+  "flavor": "You break through the enemy lines to make an example.",
+  "keywords": [
+    "[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)",
+    "[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)",
+    "Weapon"
+  ],
+  "metadata": {
+    "action_type": "Main action",
+    "class": "fury",
+    "content": "\n*You break through the enemy lines to make an example.*\n\n| **[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), Weapon** |     **Main action** |\n|---------------------------|--------------------:|\n| **📏 [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1**            | **🎯 One creature** |\n\n**Effect:** You [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to your [speed](scc.v1:mcdm.heroes.v1/rule.character/speed).\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc.v1:mcdm.heroes.v1/rule.character/might):**\n\n- **≤11:** 4 + M damage; P \u003c WEAK, [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)\n- **12-16:** 6 + M damage; P \u003c AVERAGE, [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)\n- **17+:** 10 + M damage; P \u003c STRONG, [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)\n\n**Effect:** If a target who is not a leader or solo creature is [winded](scc.v1:mcdm.heroes.v1/rule.health/winded) by this [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), they are reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) and you choose an enemy within 5 squares of you. If that enemy has P \u003c AVERAGE, they are [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) of you (save ends).",
+    "distance": "[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1",
+    "feature_type": "ability",
+    "flavor": "You break through the enemy lines to make an example.",
+    "item_id": "seek-and-destroy",
+    "item_name": "Seek and Destroy",
+    "keywords": [
+      "[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)",
+      "[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)",
+      "Weapon"
+    ],
+    "level": 6,
+    "scc": [
+      "mcdm.heroes.v1/feature.ability.fury.level-6/seek-and-destroy"
+    ],
+    "target": "One creature",
+    "type": "feature/ability/fury/level-6"
+  },
+  "name": "Seek and Destroy",
+  "target": "One creature",
+  "type": "feature",
+  "usage": "Main action"
+}

@@ -1,0 +1,22 @@
+{
+  "effects": [
+    {
+      "effect": "Your [talent tradition](scc.v1:mcdm.heroes.v1/feature.talent.level-1/talent-tradition) grants you two features, as shown on the 1st-Level Tradition Features table.\n\n###### 1st-Level Tradition Features Table\n\n| Tradition   | Features                         |\n|-------------|----------------------------------|\n| Chronopathy | [Accelerate](scc.v1:mcdm.heroes.v1/feature.ability.talent.level-1/accelerate), Again                |\n| Telekinesis | [Minor Telekinesis](scc.v1:mcdm.heroes.v1/feature.ability.talent.level-1/minor-telekinesis), [Repel](scc.v1:mcdm.heroes.v1/feature.ability.talent.level-1/repel)         |\n| Telepathy   | [Feedback Loop](scc.v1:mcdm.heroes.v1/feature.ability.talent.level-1/feedback-loop), [Remote Assistance](scc.v1:mcdm.heroes.v1/feature.ability.talent.level-1/remote-assistance) |"
+    }
+  ],
+  "feature_type": "feature",
+  "metadata": {
+    "action_type": "feature",
+    "class": "talent",
+    "feature_type": "feature",
+    "item_id": "1st-level-tradition-features",
+    "item_name": "1st-Level Tradition Features",
+    "level": 1,
+    "scc": [
+      "mcdm.heroes.v1/feature.talent.level-1/1st-level-tradition-features"
+    ],
+    "type": "feature/talent/level-1"
+  },
+  "name": "1st-Level Tradition Features",
+  "type": "feature"
+}

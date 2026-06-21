@@ -1,0 +1,10 @@
+---
+flavor: Your appearance marks you as part of a group that is universally feared. You might be a gentle soul, but you're not often given a chance to prove it. It's no wonder you usually wear a hood.
+name: Misunderstood
+scc: mcdm.heroes.v1/complication/misunderstood
+type: complication
+---
+
+Your appearance marks you as part of a group that is universally feared. You might be a gentle soul, but you're not often given a chance to prove it. It's no wonder you usually wear a hood.
+
+**Benefit and Drawback:** When you reveal your appearance to creatures who don't know you personally, you gain an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on any [test](scc.v1:mcdm.heroes.v1/rule.test/test) involving those creatures where the [Brag](scc.v1:mcdm.heroes.v1/skill.interpersonal/brag) or [Intimidate](scc.v1:mcdm.heroes.v1/skill.interpersonal/intimidate) skill could be applied, but you take a [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) on any [test](scc.v1:mcdm.heroes.v1/rule.test/test) where the [Flirt](scc.v1:mcdm.heroes.v1/skill.interpersonal/flirt), Lead, or [Persuade](scc.v1:mcdm.heroes.v1/skill.interpersonal/persuade) skill could be applied.

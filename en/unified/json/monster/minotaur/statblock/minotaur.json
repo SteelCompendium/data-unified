@@ -1,0 +1,123 @@
+{
+  "agility": 2,
+  "ev": "20",
+  "features": [
+    {
+      "ability_type": "Signature Ability",
+      "distance": "Melee 2",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "tier1": "7 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1",
+          "tier2": "11 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2",
+          "tier3": "14 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3"
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "🗡",
+      "keywords": [
+        "Charge",
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "name": "Flail and Blade",
+      "target": "Two creatures or objects",
+      "type": "feature",
+      "usage": "Main action"
+    },
+    {
+      "cost": "3 Malice",
+      "distance": "Self",
+      "effects": [
+        {
+          "effect": "**Effect:** Until the end of their next turn, the minotaur has damage immunity 2 and deals an extra 5 damage with strikes. On their next turn, the minotaur can use one additional maneuver."
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "👤",
+      "keywords": [
+        "-"
+      ],
+      "name": "Primal Bay",
+      "target": "Self",
+      "type": "feature",
+      "usage": "Main action"
+    },
+    {
+      "cost": "5 Malice",
+      "distance": "Melee 2",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "tier1": "5 damage; I \u003c 0 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)",
+          "tier2": "8 damage; I \u003c 1 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)",
+          "tier3": "9 damage; I \u003c 2 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)"
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "🗡",
+      "keywords": [
+        "Charge",
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "name": "Goring Horns",
+      "target": "One creature or object",
+      "type": "feature",
+      "usage": "Maneuver"
+    },
+    {
+      "distance": "Ranged 8",
+      "effects": [
+        {
+          "effect": "**Trigger:** A creature within distance deals damage to the minotaur.\n**Effect:** The minotaur uses the Charge main action and either Flail and Blade or Goring Horns against the target."
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "❗️",
+      "keywords": [
+        "Ranged"
+      ],
+      "name": "Retaliatory Strike",
+      "target": "The triggering creature",
+      "type": "feature",
+      "usage": "Triggered action"
+    },
+    {
+      "effects": [
+        {
+          "effect": "The minotaur can't obtain less than a tier 2 outcome when making tests to navigate, search, or seek."
+        }
+      ],
+      "feature_type": "trait",
+      "icon": "⭐️",
+      "name": "Minotaur Sense",
+      "type": "feature"
+    }
+  ],
+  "free_strike": 5,
+  "intuition": 1,
+  "keywords": [
+    "Accursed",
+    "Humanoid",
+    "Minotaur"
+  ],
+  "level": 3,
+  "metadata": {
+    "scc": "mcdm.monsters.v1/monster.minotaur.statblock/minotaur",
+    "source": "mcdm.monsters.v1"
+  },
+  "might": 2,
+  "name": "Minotaur",
+  "organization": "Elite",
+  "presence": -1,
+  "reason": 0,
+  "role": "Harrier",
+  "size": "2",
+  "speed": 8,
+  "stability": 2,
+  "stamina": "100",
+  "type": "statblock"
+}

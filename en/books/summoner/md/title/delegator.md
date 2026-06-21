@@ -1,0 +1,16 @@
+---
+effect: At the start of a combat encounter, you can choose to translate yourself into your circle's source manifold while your champion fights and summons monsters in your place. The champion uses your [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), [Recoveries](scc.v1:mcdm.heroes.v1/rule.health/recoveries), abilities, and features (except for your [Summoner Strike](scc.v1:mcdm.summoner.v1/feature.summoner.level-1/summoner-strike) and [Summoner's Kit](scc.v1:mcdm.summoner.v1/feature.summoner.level-3/summoners-kit)). You can dismiss the champion and summon yourself back into the place you left at the end of an encounter.
+flavor: They're all yours, buddy.
+name: Delegator
+prerequisite: You are a [summoner](scc.v1:mcdm.summoner.v1/class/summoner), and you strike a deal with your [portfolio's](scc.v1:mcdm.summoner.v1/feature.summoner.level-1/portfolio) champion.
+scc: mcdm.summoner.v1/title/delegator
+type: title
+---
+
+*They're all yours, buddy.*
+
+**Prerequisite:** You are a [summoner](scc.v1:mcdm.summoner.v1/class/summoner), and you strike a deal with your [portfolio's](scc.v1:mcdm.summoner.v1/feature.summoner.level-1/portfolio) champion.
+
+**Effect:** At the start of a combat encounter, you can choose to translate yourself into your circle's source manifold while your champion fights and summons monsters in your place. The champion uses your [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), [Recoveries](scc.v1:mcdm.heroes.v1/rule.health/recoveries), abilities, and features (except for your [Summoner Strike](scc.v1:mcdm.summoner.v1/feature.summoner.level-1/summoner-strike) and [Summoner's Kit](scc.v1:mcdm.summoner.v1/feature.summoner.level-3/summoners-kit)). You can dismiss the champion and summon yourself back into the place you left at the end of an encounter.
+
+If your champion would die while taking your place, you lose access to your [Return to the Source](scc.v1:mcdm.summoner.v1/feature.summoner.level-6/return-to-the-source) feature and can only summon signature minions until you revive your champion as a [respite](scc.v1:mcdm.heroes.v1/rule.resource/respite) activity.

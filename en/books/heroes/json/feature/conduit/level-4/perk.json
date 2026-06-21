@@ -1,0 +1,22 @@
+{
+  "effects": [
+    {
+      "effect": "You gain one perk of your choice."
+    }
+  ],
+  "feature_type": "feature",
+  "metadata": {
+    "action_type": "feature",
+    "class": "conduit",
+    "feature_type": "feature",
+    "item_id": "perk",
+    "item_name": "Perk",
+    "level": 4,
+    "scc": [
+      "mcdm.heroes.v1/feature.conduit.level-4/perk"
+    ],
+    "type": "feature/conduit/level-4"
+  },
+  "name": "Perk",
+  "type": "feature"
+}

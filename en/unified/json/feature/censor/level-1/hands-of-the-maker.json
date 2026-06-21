@@ -1,0 +1,54 @@
+{
+  "ability": {
+    "distance": "Self",
+    "effects": [
+      {
+        "effect": "You create a mundane object of [size](scc.v1:mcdm.heroes.v1/rule.character/size) 1S or smaller. You can maintain a number of objects created this way equal to your [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence) score. You can destroy an object created this way with a thought, no matter how far you are from it (no action required).",
+        "name": "Effect"
+      }
+    ],
+    "feature_type": "ability",
+    "flavor": "You craft objects with the power of your mind.",
+    "keywords": [
+      "Magic"
+    ],
+    "metadata": {
+      "action_type": "Maneuver",
+      "content": "\n*You craft objects with the power of your mind.*\n\n| **Magic**   | **Maneuver** |\n|-------------|------------:|\n| **📏 Self** | **🎯 Self** |\n\n**Effect:** You create a mundane object of [size](scc.v1:mcdm.heroes.v1/rule.character/size) 1S or smaller. You can maintain a number of objects created this way equal to your [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence) score. You can destroy an object created this way with a thought, no matter how far you are from it (no action required).",
+      "distance": "Self",
+      "feature_type": "ability",
+      "flavor": "You craft objects with the power of your mind.",
+      "item_id": "hands-of-the-maker",
+      "item_name": "Hands of the Maker",
+      "keywords": [
+        "Magic"
+      ],
+      "target": "Self",
+      "type": "feature/ability/common"
+    },
+    "name": "Hands of the Maker",
+    "target": "Self",
+    "type": "feature",
+    "usage": "Maneuver"
+  },
+  "effects": [
+    {
+      "effect": "You have the following ability."
+    }
+  ],
+  "feature_type": "feature",
+  "metadata": {
+    "action_type": "feature",
+    "class": "censor",
+    "feature_type": "feature",
+    "item_id": "hands-of-the-maker",
+    "item_name": "Hands of the Maker",
+    "level": 1,
+    "scc": [
+      "mcdm.heroes.v1/feature.censor.level-1/hands-of-the-maker"
+    ],
+    "type": "feature/censor/level-1"
+  },
+  "name": "Hands of the Maker",
+  "type": "feature"
+}

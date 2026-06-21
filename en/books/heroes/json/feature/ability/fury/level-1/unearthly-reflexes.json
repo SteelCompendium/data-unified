@@ -1,0 +1,44 @@
+{
+  "ability_type": "Triggered",
+  "distance": "Self",
+  "effects": [
+    {
+      "effect": "You take half the damage from the triggering effect and can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to a number of squares equal to your [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility) score.",
+      "name": "Effect"
+    },
+    {
+      "cost": "Spend 1 Ferocity",
+      "effect": "If the damage has any [potency](scc.v1:mcdm.heroes.v1/rule.character/potency) effects associated with it, the [potency](scc.v1:mcdm.heroes.v1/rule.character/potency) is reduced by 1 for you."
+    }
+  ],
+  "feature_type": "ability",
+  "flavor": "You are as elusive as a hummingbird.",
+  "keywords": [
+    "-"
+  ],
+  "metadata": {
+    "ability_type": "Triggered",
+    "action_type": "Triggered",
+    "class": "fury",
+    "content": "\n*You are as elusive as a hummingbird.*\n\n| **-**       | **Triggered** |\n|-------------|--------------:|\n| **📏 Self** |    **🎯 Self** |\n\n**Trigger:** You take damage.\n\n**Effect:** You take half the damage from the triggering effect and can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to a number of squares equal to your [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility) score.\n\n**Spend 1 Ferocity:** If the damage has any [potency](scc.v1:mcdm.heroes.v1/rule.character/potency) effects associated with it, the [potency](scc.v1:mcdm.heroes.v1/rule.character/potency) is reduced by 1 for you.",
+    "distance": "Self",
+    "feature_type": "ability",
+    "flavor": "You are as elusive as a hummingbird.",
+    "item_id": "unearthly-reflexes",
+    "item_name": "Unearthly Reflexes",
+    "keywords": [
+      "-"
+    ],
+    "level": 1,
+    "scc": [
+      "mcdm.heroes.v1/feature.ability.fury.level-1/unearthly-reflexes"
+    ],
+    "target": "Self",
+    "type": "feature/ability/fury/level-1"
+  },
+  "name": "Unearthly Reflexes",
+  "target": "Self",
+  "trigger": "You take damage.",
+  "type": "feature",
+  "usage": "Triggered"
+}

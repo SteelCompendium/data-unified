@@ -1,0 +1,22 @@
+{
+  "effects": [
+    {
+      "effect": "Your [tactical doctrine](scc.v1:mcdm.heroes.v1/feature.tactician.level-1/tactical-doctrine) grants you a feature, as shown on the 8th-Level Doctrine Features table.\n\n###### 8th-Level Doctrine Features Table\n\n| Doctrine   | Feature                            |\n|------------|------------------------------------|\n| Insurgent  | [Bait and Ambush](scc.v1:mcdm.heroes.v1/feature.tactician.level-8/bait-and-ambush)                    |\n| Mastermind | [Pincer Movement](scc.v1:mcdm.heroes.v1/feature.tactician.level-8/pincer-movement)                    |\n| Vanguard   | [See Your Enemies Driven Before You](scc.v1:mcdm.heroes.v1/feature.tactician.level-8/see-your-enemies-driven-before-you) |"
+    }
+  ],
+  "feature_type": "feature",
+  "metadata": {
+    "action_type": "feature",
+    "class": "tactician",
+    "feature_type": "feature",
+    "item_id": "8th-level-doctrine-feature",
+    "item_name": "8th-Level Doctrine Feature",
+    "level": 8,
+    "scc": [
+      "mcdm.heroes.v1/feature.tactician.level-8/8th-level-doctrine-feature"
+    ],
+    "type": "feature/tactician/level-8"
+  },
+  "name": "8th-Level Doctrine Feature",
+  "type": "feature"
+}

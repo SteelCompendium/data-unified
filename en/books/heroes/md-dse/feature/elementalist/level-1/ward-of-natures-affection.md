@@ -1,0 +1,28 @@
+---
+action_type: feature
+class: elementalist
+feature_type: feature
+file_basename: ward-of-natures-affection
+file_dpath: feature/elementalist/level-1
+item_id: ward-of-natures-affection
+item_name: Ward of Nature's Affection
+level: "1"
+name: Ward of Nature's Affection
+scc: mcdm.heroes.v1/feature.elementalist.level-1/ward-of-natures-affection
+source: mcdm.heroes.v1
+type: feature
+---
+
+```ds-feature
+effects:
+    - effect: The green energy writhing within your body allows you to produce powerful vines when you're in danger. Whenever a creature within a number of squares equal to your [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) score deals damage to you, you can use a free [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action) to [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) that creature up to a number of squares equal to your [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) score.
+feature_type: feature
+metadata:
+    class: elementalist
+    level: "1"
+    name: Ward of Nature's Affection
+    scc: mcdm.heroes.v1/feature.elementalist.level-1/ward-of-natures-affection
+    type: feature
+name: Ward of Nature's Affection
+type: feature
+```

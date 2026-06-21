@@ -1,0 +1,63 @@
+{
+  "agility": 1,
+  "ev": "-",
+  "features": [
+    {
+      "ability_type": "Signature Ability",
+      "distance": "Ranged 10",
+      "effects": [
+        {
+          "roll": "Power Roll + highest characteristic",
+          "tier1": "3 fire damage",
+          "tier2": "5 fire damage",
+          "tier3": "7 fire damage"
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "🏹",
+      "keywords": [
+        "Magic",
+        "Ranged",
+        "Strike"
+      ],
+      "name": "Summer's Bolt",
+      "target": "One creature or object",
+      "type": "feature",
+      "usage": "Main action"
+    },
+    {
+      "effects": [
+        {
+          "effect": "At the start of each of their turns, the weatherwise can choose one effect on them that can be ended by a [saving throw](scc.v1:mcdm.heroes.v1/rule.general/saving-throw). That effect instead ends at the end of their turn."
+        }
+      ],
+      "feature_type": "trait",
+      "icon": "⭐️",
+      "name": "Otherworldly Grace",
+      "type": "feature"
+    }
+  ],
+  "free_strike": 2,
+  "intuition": 0,
+  "keywords": [
+    "Fey",
+    "High Elf",
+    "Humanoid"
+  ],
+  "level": 1,
+  "metadata": {
+    "scc": "mcdm.monsters.v1/monster.retainer.statblock/high-elf-weatherwise",
+    "source": "mcdm.monsters.v1"
+  },
+  "might": -1,
+  "name": "High Elf Weatherwise",
+  "organization": "Retainer",
+  "presence": 1,
+  "reason": 2,
+  "role": "Controller",
+  "size": "1M",
+  "speed": 5,
+  "stability": 0,
+  "stamina": "21",
+  "type": "statblock"
+}

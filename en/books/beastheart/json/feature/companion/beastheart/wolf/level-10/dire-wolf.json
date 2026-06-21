@@ -1,0 +1,22 @@
+{
+  "effects": [
+    {
+      "effect": "While the wolf is rampaging, you and the wolf are surrounded by an aura of dread, and enemies who start their turn adjacent to you or the wolf who have P \u003c STRONG are [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) until the end of their next turn."
+    }
+  ],
+  "feature_type": "feature",
+  "metadata": {
+    "action_type": "feature",
+    "class": "beastheart",
+    "feature_type": "feature",
+    "item_id": "dire-wolf",
+    "item_name": "Dire Wolf",
+    "level": 10,
+    "scc": [
+      "mcdm.beastheart.v1/feature.companion.beastheart.wolf.level-10/dire-wolf"
+    ],
+    "type": "feature/companion/beastheart/wolf/level-10"
+  },
+  "name": "Dire Wolf",
+  "type": "feature"
+}

@@ -1,0 +1,15 @@
+effects:
+    - effect: Your companion gains the level 3 advancement feature granted by their stat block.
+feature_type: feature
+metadata:
+    action_type: feature
+    class: beastheart
+    feature_type: feature
+    item_id: companion-advancement-feature
+    item_name: Companion Advancement Feature
+    level: 3
+    scc:
+        - mcdm.beastheart.v1/feature.beastheart.level-3/companion-advancement-feature
+    type: feature/beastheart/level-3
+name: Companion Advancement Feature
+type: feature

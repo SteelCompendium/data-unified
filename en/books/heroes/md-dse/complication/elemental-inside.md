@@ -1,0 +1,19 @@
+---
+benefit: You gain a +3 [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) at 1st level, then again at 4th, 7th, and 10th levels.
+drawback: While you are [dying](scc.v1:mcdm.heroes.v1/rule.health/dying), your possessing elemental takes control of your body. The elemental yearns for destruction, causing you to attack the nearest creature you notice without regard for your desires or your body's safety. If you don't do your best to fulfill the elemental's rage, the Director can take temporary control of your hero.
+file_basename: elemental-inside
+file_dpath: complication
+flavor: When an evil mage threatened someone you loved, you blocked that foe's summoning of an elemental creature by absorbing their magic with your body. You are now infused with the power of that elemental—who isn't at all happy about it.
+item_id: elemental-inside
+item_name: Elemental Inside
+name: Elemental Inside
+scc: mcdm.heroes.v1/complication/elemental-inside
+source: mcdm.heroes.v1
+type: complication
+---
+
+When an evil mage threatened someone you loved, you blocked that foe's summoning of an elemental creature by absorbing their magic with your body. You are now infused with the power of that elemental—who isn't at all happy about it.
+
+**Benefit:** You gain a +3 [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) at 1st level, then again at 4th, 7th, and 10th levels.
+
+**Drawback:** While you are [dying](scc.v1:mcdm.heroes.v1/rule.health/dying), your possessing elemental takes control of your body. The elemental yearns for destruction, causing you to attack the nearest creature you notice without regard for your desires or your body's safety. If you don't do your best to fulfill the elemental's rage, the Director can take temporary control of your hero.

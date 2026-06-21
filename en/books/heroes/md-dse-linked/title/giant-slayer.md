@@ -1,0 +1,39 @@
+---
+effect: 'Choose one of the following benefits:'
+file_basename: giant-slayer
+file_dpath: title
+flavor: Come back here, puny one, and let me crush you!
+item_id: giant-slayer
+item_name: Giant Slayer
+name: Giant Slayer
+prerequisite: You defeat a leader or solo creature with the Giant keyword, such as a fire giant chief.
+scc: mcdm.heroes.v1/title/giant-slayer
+source: mcdm.heroes.v1
+type: title
+---
+
+*Come back here, puny one, and let me crush you!*
+
+**Prerequisite:** You defeat a leader or solo creature with the Giant keyword, such as a fire giant chief.
+
+**Effect:** Choose one of the following benefits:
+
+- *Smallfolk Dodge:* Any creature of [size](../rule/character/size.md) 2 or larger takes a [bane](../rule/dice/bane.md) on [strikes](../rule/combat/strike.md) against you.
+- *The Harder They Fall:* You have the following ability, which can be paid for using the [Heroic Resource](../rule/resource/heroic-resource.md) of your class.
+
+##### The Harder They Fall (7 Heroic Resource)
+
+>
+> | **[Melee](../rule/combat/melee.md), [Strike](../rule/combat/strike.md), Weapon** |     **Main action** |
+> |---------------------------|--------------------:|
+> | **📏 [Melee](../rule/combat/melee.md) 1**            | **🎯 One creature** |
+>
+> **[Power Roll](../rule/dice/power-roll.md) + [Might](../rule/character/might.md) or [Agility](../rule/character/agility.md):**
+>
+> - **≤11:** 7 damage; M < WEAK[, prone](../condition/prone.md) and can't stand (save ends)
+> - **12-16:** 11 damage; M < AVERAGE[, prone](../condition/prone.md) and can't stand (save ends)
+> - **17+:** 16 damage; M < STRONG[, prone](../condition/prone.md) and can't stand (save ends)
+>
+> **Special:** If the target is [size](../rule/character/size.md) 2 or larger, you gain an [edge](../rule/dice/edge.md) on this ability.
+
+- *Up the Beanstalk:* You have the [Climb](../skill/exploration/climb.md) skill. If you already have this skill, you instead gain an [edge](../rule/dice/edge.md) on [tests](../rule/test/test.md) made using the [Climb](../skill/exploration/climb.md) skill. While you're climbing a creature, the creature has a double [bane](../rule/dice/bane.md) on [strikes](../rule/combat/strike.md) against you and you have a double [edge](../rule/dice/edge.md) on [tests](../rule/test/test.md) made to stay on the creature.

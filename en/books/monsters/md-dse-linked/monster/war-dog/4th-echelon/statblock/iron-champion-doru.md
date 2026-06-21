@@ -1,0 +1,94 @@
+---
+agility: 4
+ev: "48"
+file_basename: iron-champion-doru
+file_dpath: monster/war-dog/4th-echelon/statblock
+free_strike: 10
+intuition: 4
+item_id: iron-champion-doru
+item_name: Iron Champion Doru
+keywords:
+    - Humanoid
+    - Soulless
+    - War Dog
+level: 10
+might: 5
+name: Iron Champion Doru
+organization: Elite
+presence: 2
+reason: 1
+role: Brute
+scc: mcdm.monsters.v1/monster.war-dog.4th-echelon.statblock/iron-champion-doru
+size: 1L
+source: mcdm.monsters.v1
+speed: 5
+stability: 2
+stamina: "260"
+type: statblock
+---
+
+| Humanoid, Soulless, War Dog |         -         |      Level 10       |      Elite Brute      |        EV 48         |
+|:---------------------------:|:-----------------:|:-------------------:|:---------------------:|:--------------------:|
+|       **1L**<br>Size        |  **5**<br>Speed   | **260**<br>Stamina |  **2**<br>Stability   | **10**<br>Free Strike |
+|      **-**<br>Immunity      | **-**<br>Movement |          -          | **-**<br>With Captain |  **-**<br>Weakness   |
+|       **+5**<br>Might       | **+4**<br>Agility |  **+1**<br>Reason   |  **+4**<br>Intuition  |  **+2**<br>Presence  |
+
+> 🗡 **Houndaxe ([Signature Ability](../../../../rule/combat/signature-ability.md))**
+>
+> | **Melee, Strike, Weapon** |                 **Main action** |
+> |---------------------------|--------------------------------:|
+> | **📏 Melee 2**            | **🎯 Two creatures or objects** |
+>
+> **Power Roll + 5:**
+>
+> - **≤11:** 15 damage
+> - **12-16:** 21 damage; Doru gains an edge on his next power roll; M < 4 [slide](../../../../movement/forced-movement.md) 3
+> - **17+:** 25 damage; Doru has a double edge on his next power roll; M < 5 [slide](../../../../movement/forced-movement.md) 5
+>
+> **Effect:** The damage from this ability can't be reduced in any way.
+>
+> **3 [Malice](../../../../rule/monster/malice.md):** This ability targets one additional target.
+
+> ❇️ **Bloody Whirlwind (2 [Malice](../../../../rule/monster/malice.md))**
+>
+> | **Area, Weapon** |                             **Main action** |
+> |------------------|--------------------------------------------:|
+> | **📏 3 burst**   | **🎯 Each creature and object in the area** |
+>
+> **Power Roll + 5:**
+>
+> - **≤11:** 5 damage; A < 3 [bleeding](../../../../condition/bleeding.md) (save ends)
+> - **12-16:** 11 damage; A < 4 [bleeding](../../../../condition/bleeding.md) (save ends)
+> - **17+:** 15 damage; A < 5 [bleeding](../../../../condition/bleeding.md) (save ends)
+>
+> **Effect:** This ability deals an extra 5 damage for each [winded](../../../../rule/health/winded.md) target in the area.
+
+> 🏹 **Hunting Leap**
+>
+> | **Ranged**      |                  **Maneuver** |
+> |-----------------|------------------------------:|
+> | **📏 Ranged 5** | **🎯 One creature or object** |
+>
+> **Effect:** Doru jumps to an unoccupied space [adjacent](../../../../rule/combat/adjacent.md) to the target, then can make a [free strike](../../../../feature/common/main-actions/free-strike.md) against them. If the target is [bleeding](../../../../condition/bleeding.md) or [winded](../../../../rule/health/winded.md), the distance of the ability becomes Ranged 10 and the [free strike](../../../../feature/common/main-actions/free-strike.md) deals an extra 5 damage.
+
+> ❗️ **Laugh It Off**
+>
+> | **-**       | **Triggered action** |
+> |-------------|---------------------:|
+> | **📏 Self** |          **🎯 Self** |
+>
+> **Trigger:** An enemy makes a strike against Doru.
+>
+> **Effect:** The triggering strike takes a bane and Doru gains an edge on his next power roll.
+
+> ⭐️ **Iron Juggernaut**
+>
+> Doru can't be made [slowed](../../../../condition/slowed.md) or [restrained](../../../../condition/restrained.md). Additionally, he can move while [grabbed](../../../../condition/grabbed.md), and a creature grabbing him moves along with him unless they let go.
+
+> ⭐️ **The Scarless**
+>
+> Doru regains 10 [Stamina](../../../../rule/health/stamina.md) at the start of each of his turns unless he took acid or fire damage since the start of his previous turn. Whenever he regains [Stamina](../../../../rule/health/stamina.md) this way, the Director can spend 2 [Malice](../../../../rule/monster/malice.md) to end one effect on Doru that can be ended by a [saving throw](../../../../rule/general/saving-throw.md).
+
+> ⭐️ **Champion's Loyalty Collar**
+>
+> When Doru is reduced to 0 [Stamina](../../../../rule/health/stamina.md), his loyalty collar explodes, dealing 20 damage to each enemy and object within 3 squares of him.

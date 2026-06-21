@@ -1,0 +1,28 @@
+---
+action_type: feature
+class: talent
+feature_type: feature
+file_basename: density-augmentation
+file_dpath: feature/talent/level-1
+item_id: density-augmentation
+item_name: Density Augmentation
+level: "1"
+name: Density Augmentation
+scc: mcdm.heroes.v1/feature.talent.level-1/density-augmentation
+source: mcdm.heroes.v1
+type: feature
+---
+
+```ds-feature
+effects:
+    - effect: You gain a +6 [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), and this [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) increases by 6 at 4th, 7th, and 10th levels. Additionally, you gain a +1 [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to [stability](scc.v1:mcdm.heroes.v1/rule.character/stability).
+feature_type: feature
+metadata:
+    class: talent
+    level: "1"
+    name: Density Augmentation
+    scc: mcdm.heroes.v1/feature.talent.level-1/density-augmentation
+    type: feature
+name: Density Augmentation
+type: feature
+```

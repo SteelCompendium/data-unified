@@ -1,0 +1,43 @@
+{
+  "distance": "Melee 1",
+  "effects": [
+    {
+      "effect": "The target takes half the damage.",
+      "name": "Effect"
+    },
+    {
+      "cost": "Spend 1 Ferocity",
+      "effect": "You spend a Recovery without regaining Stamina, and the target regains Stamina equal to your recovery value."
+    }
+  ],
+  "feature_type": "ability",
+  "flavor": "You siphon away the pain and endure it yourself.",
+  "keywords": [
+    "Magic"
+  ],
+  "metadata": {
+    "action_type": "Triggered Action",
+    "class": "beastheart",
+    "content": "*You siphon away the pain and endure it yourself.*\n\n| **Magic**      | **Triggered Action** |\n|----------------|---------------------:|\n| **📏 Melee 1** |      **🎯 One ally** |\n\n**Trigger:** The target takes damage.\n\n**Effect:** The target takes half the damage.\n\n**Spend 1 Ferocity:** You spend a Recovery without regaining Stamina, and the target regains Stamina equal to your recovery value.",
+    "distance": "Melee 1",
+    "feature_type": "ability",
+    "flavor": "You siphon away the pain and endure it yourself.",
+    "item_id": "the-pack-defends",
+    "item_name": "The Pack Defends",
+    "keywords": [
+      "Magic"
+    ],
+    "level": 1,
+    "scc": [
+      "mcdm.beastheart.v1/feature.ability.beastheart.level-1/the-pack-defends"
+    ],
+    "subclass": "guardian",
+    "target": "One ally",
+    "type": "feature/ability/beastheart/level-1"
+  },
+  "name": "The Pack Defends",
+  "target": "One ally",
+  "trigger": "The target takes damage.",
+  "type": "feature",
+  "usage": "Triggered Action"
+}

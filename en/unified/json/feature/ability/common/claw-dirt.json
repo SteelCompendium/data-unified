@@ -1,0 +1,35 @@
+{
+  "distance": "Self",
+  "effects": [
+    {
+      "roll": "Power Roll + [Might](scc.v1:mcdm.heroes.v1/rule.character/might)",
+      "tier1": "You can move 1 square into, out of, or through ground you are touching that can be burrowed through, and you are [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) and [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) ([EoT](scc.v1:mcdm.heroes.v1/rule.combat/end-of-turn)).",
+      "tier2": "You can use your main action this turn to move 1 square into, out of, or through ground you are touching that can be burrowed through, and you are [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) ([EoT](scc.v1:mcdm.heroes.v1/rule.combat/end-of-turn)).",
+      "tier3": "You can move 1 square into, out of, or through ground you are touching that can be burrowed through."
+    }
+  ],
+  "feature_type": "ability",
+  "keywords": [
+    "-"
+  ],
+  "metadata": {
+    "action_type": "Maneuver",
+    "content": "| **-**       | **Maneuver** |\n|-------------|-------------:|\n| **📏 Self** |  **🎯 Self** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc.v1:mcdm.heroes.v1/rule.character/might):**\n\n- **≤11:** You can move 1 square into, out of, or through ground you are touching that can be burrowed through, and you are [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) and [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) ([EoT](scc.v1:mcdm.heroes.v1/rule.combat/end-of-turn)).\n- **12-16:** You can use your main action this turn to move 1 square into, out of, or through ground you are touching that can be burrowed through, and you are [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) ([EoT](scc.v1:mcdm.heroes.v1/rule.combat/end-of-turn)).\n- **17+:** You can move 1 square into, out of, or through ground you are touching that can be burrowed through.",
+    "distance": "Self",
+    "feature_type": "ability",
+    "item_id": "claw-dirt",
+    "item_name": "Claw Dirt",
+    "keywords": [
+      "-"
+    ],
+    "scc": [
+      "mcdm.heroes.v1/feature.ability.common/claw-dirt"
+    ],
+    "target": "Self",
+    "type": "feature/ability/common"
+  },
+  "name": "Claw Dirt",
+  "target": "Self",
+  "type": "feature",
+  "usage": "Maneuver"
+}

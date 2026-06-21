@@ -1,0 +1,44 @@
+{
+  "cost": "9 Piety",
+  "distance": "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 5",
+  "effects": [
+    {
+      "roll": "Power Roll + [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)",
+      "tier1": "8 + I damage; A \u003c WEAK, [prone and](scc.v1:mcdm.heroes.v1/condition/prone) [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)",
+      "tier2": "12 + I damage; A \u003c AVERAGE, [prone and](scc.v1:mcdm.heroes.v1/condition/prone) [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)",
+      "tier3": "16 + I damage; A \u003c STRONG, [prone and](scc.v1:mcdm.heroes.v1/condition/prone) [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)"
+    }
+  ],
+  "feature_type": "ability",
+  "flavor": "A greatsword streams down from the sky, threatening to pin your foe.",
+  "keywords": [
+    "Magic",
+    "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)",
+    "[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)"
+  ],
+  "metadata": {
+    "action_type": "Main action",
+    "class": "conduit",
+    "content": "\n*A greatsword streams down from the sky, threatening to pin your foe.*\n\n| **Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)**  |     **Main action** |\n|----------------------------|--------------------:|\n| **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 5**            | **🎯 One creature** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition):**\n\n- **≤11:** 8 + I damage; A \u003c WEAK, [prone and](scc.v1:mcdm.heroes.v1/condition/prone) [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)\n- **12-16:** 12 + I damage; A \u003c AVERAGE, [prone and](scc.v1:mcdm.heroes.v1/condition/prone) [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)\n- **17+:** 16 + I damage; A \u003c STRONG, [prone and](scc.v1:mcdm.heroes.v1/condition/prone) [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)",
+    "distance": "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 5",
+    "feature_type": "ability",
+    "flavor": "A greatsword streams down from the sky, threatening to pin your foe.",
+    "item_id": "blade-of-the-heavens",
+    "item_name": "Blade of the Heavens",
+    "keywords": [
+      "Magic",
+      "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)",
+      "[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)"
+    ],
+    "level": 6,
+    "scc": [
+      "mcdm.heroes.v1/feature.ability.conduit.level-6/blade-of-the-heavens"
+    ],
+    "target": "One creature",
+    "type": "feature/ability/conduit/level-6"
+  },
+  "name": "Blade of the Heavens",
+  "target": "One creature",
+  "type": "feature",
+  "usage": "Main action"
+}

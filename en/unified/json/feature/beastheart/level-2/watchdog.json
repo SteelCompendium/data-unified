@@ -1,0 +1,23 @@
+{
+  "effects": [
+    {
+      "effect": "You and your companion can't be surprised."
+    }
+  ],
+  "feature_type": "feature",
+  "metadata": {
+    "action_type": "feature",
+    "class": "beastheart",
+    "feature_type": "feature",
+    "item_id": "watchdog",
+    "item_name": "Watchdog",
+    "level": 2,
+    "scc": [
+      "mcdm.beastheart.v1/feature.beastheart.level-2/watchdog"
+    ],
+    "subclass": "guardian",
+    "type": "feature/beastheart/level-2"
+  },
+  "name": "Watchdog",
+  "type": "feature"
+}

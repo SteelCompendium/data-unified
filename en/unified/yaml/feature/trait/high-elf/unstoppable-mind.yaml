@@ -1,0 +1,13 @@
+effects:
+    - effect: Your mind allows you to maintain your focus in any situation. You can't be made [dazed](scc.v1:mcdm.heroes.v1/condition/dazed).
+feature_type: trait
+metadata:
+    action_type: feature
+    feature_type: trait
+    item_id: unstoppable-mind
+    item_name: Unstoppable Mind
+    scc:
+        - mcdm.heroes.v1/feature.trait.high-elf/unstoppable-mind
+    type: feature/trait/high-elf
+name: Unstoppable Mind
+type: feature

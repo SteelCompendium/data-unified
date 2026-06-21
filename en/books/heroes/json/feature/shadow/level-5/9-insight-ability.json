@@ -1,0 +1,22 @@
+{
+  "effects": [
+    {
+      "effect": "Choose one [heroic ability](scc.v1:mcdm.heroes.v1/rule.general/heroic-ability) from the following options, each of which costs 9 insight to use."
+    }
+  ],
+  "feature_type": "feature",
+  "metadata": {
+    "action_type": "feature",
+    "class": "shadow",
+    "feature_type": "feature",
+    "item_id": "9-insight-ability",
+    "item_name": "9-Insight Ability",
+    "level": 5,
+    "scc": [
+      "mcdm.heroes.v1/feature.shadow.level-5/9-insight-ability"
+    ],
+    "type": "feature/shadow/level-5"
+  },
+  "name": "9-Insight Ability",
+  "type": "feature"
+}

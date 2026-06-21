@@ -1,0 +1,50 @@
+agility: -2
+ev: 3 for four minions
+features:
+    - ability_type: Signature Ability
+      distance: Melee 1
+      effects:
+        - roll: Power Roll + 2
+          tier1: 2 damage
+          tier2: 4 damage
+          tier3: 5 damage; M < 2 [prone](scc.v1:mcdm.heroes.v1/condition/prone) if size 1, or [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends) otherwise
+      feature_type: ability
+      icon: "\U0001F5E1"
+      keywords:
+        - Melee
+        - Strike
+        - Weapon
+      name: Rotting Fist
+      target: One creature or object per minion
+      type: feature
+      usage: Main action
+    - effects:
+        - effect: When the rotting zombie is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), their space is [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain). The first time any enemy who has M < 2 enters this space, they are [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends) and the effect ends.
+      feature_type: trait
+      icon: ⭐️
+      name: Death Grasp
+      type: feature
+free_strike: 2
+immunities:
+    - Corruption 1
+    - poison 1
+intuition: -2
+keywords:
+    - Undead
+    - Soulless
+level: 1
+metadata:
+    scc: mcdm.monsters.v1/monster.undead.1st-echelon.statblock/rotting-zombie
+    source: mcdm.monsters.v1
+might: 2
+name: Rotting Zombie
+organization: Minion
+presence: -3
+reason: -5
+role: Brute
+size: 1M
+speed: 4
+stability: 0
+stamina: "5"
+type: statblock
+with_captain: +1 damage bonus to strikes

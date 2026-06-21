@@ -1,0 +1,23 @@
+{
+  "effects": [
+    {
+      "effect": "Whenever you or your companion deals cold, fire, lightning, sonic, or untyped damage, you can change the damage type to cold, fire, lightning, or sonic damage."
+    }
+  ],
+  "feature_type": "feature",
+  "metadata": {
+    "action_type": "feature",
+    "class": "beastheart",
+    "feature_type": "feature",
+    "item_id": "stormheart",
+    "item_name": "Stormheart",
+    "level": 2,
+    "scc": [
+      "mcdm.beastheart.v1/feature.beastheart.level-2/stormheart"
+    ],
+    "subclass": "spark",
+    "type": "feature/beastheart/level-2"
+  },
+  "name": "Stormheart",
+  "type": "feature"
+}

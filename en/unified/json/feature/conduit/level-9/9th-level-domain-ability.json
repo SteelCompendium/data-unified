@@ -1,0 +1,22 @@
+{
+  "effects": [
+    {
+      "effect": "Choose one of your domains. You gain a [heroic ability](scc.v1:mcdm.heroes.v1/rule.general/heroic-ability) from that domain, as shown on the 9th-Level [Conduit](scc.v1:mcdm.heroes.v1/class/conduit) Domain Abilities table.\n\n###### 9th-Level Conduit Domain Abilities Table\n\n| Domain     | Ability                  |\n|------------|--------------------------|\n| Creation   | [Divine Dragon](scc.v1:mcdm.heroes.v1/feature.ability.conduit.level-9/divine-dragon)            |\n| Death      | [Word of Final Redemption](scc.v1:mcdm.heroes.v1/feature.ability.conduit.level-9/word-of-final-redemption) |\n| Fate       | [Bend Fate](scc.v1:mcdm.heroes.v1/feature.ability.conduit.level-9/bend-fate)                |\n| Knowledge  | [Word of Weakening](scc.v1:mcdm.heroes.v1/feature.ability.conduit.level-9/word-of-weakening)        |\n| Life       | [Radiance of Grace](scc.v1:mcdm.heroes.v1/feature.ability.conduit.level-9/radiance-of-grace)        |\n| Love       | [Alacrity of the Heart](scc.v1:mcdm.heroes.v1/feature.ability.conduit.level-9/alacrity-of-the-heart)    |\n| Nature     | [Thorn Cage](scc.v1:mcdm.heroes.v1/feature.ability.conduit.level-9/thorn-cage)               |\n| Protection | [Blessing of the Fortress](scc.v1:mcdm.heroes.v1/feature.ability.conduit.level-9/blessing-of-the-fortress) |\n| Storm      | [Godstorm](scc.v1:mcdm.heroes.v1/feature.ability.conduit.level-9/godstorm)                 |\n| Sun        | [Solar Flare](scc.v1:mcdm.heroes.v1/feature.ability.conduit.level-9/solar-flare)              |\n| Trickery   | [Night Falls](scc.v1:mcdm.heroes.v1/feature.ability.conduit.level-9/night-falls)              |\n| War        | [Righteous Phalanx](scc.v1:mcdm.heroes.v1/feature.ability.conduit.level-9/righteous-phalanx)        |"
+    }
+  ],
+  "feature_type": "feature",
+  "metadata": {
+    "action_type": "feature",
+    "class": "conduit",
+    "feature_type": "feature",
+    "item_id": "9th-level-domain-ability",
+    "item_name": "9th-Level Domain Ability",
+    "level": 9,
+    "scc": [
+      "mcdm.heroes.v1/feature.conduit.level-9/9th-level-domain-ability"
+    ],
+    "type": "feature/conduit/level-9"
+  },
+  "name": "9th-Level Domain Ability",
+  "type": "feature"
+}

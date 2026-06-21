@@ -1,0 +1,58 @@
+agility: 1
+ev: "4"
+features:
+    - ability_type: Signature Ability
+      distance: Melee 1
+      effects:
+        - roll: Power Roll + 2
+          tier1: 4 damage
+          tier2: 5 damage
+          tier3: 7 damage; [prone](scc.v1:mcdm.heroes.v1/condition/prone); A < 2 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
+      feature_type: ability
+      icon: "\U0001F5E1"
+      keywords:
+        - Melee
+        - Strike
+        - Weapon
+      name: Fury Flail
+      target: One creature or object
+      type: feature
+      usage: Main action
+    - cost: 3 Malice
+      distance: 2 burst
+      effects:
+        - effect: '**Effect:** Each target [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed. If any target hasn''t used their own Cackletongue maneuver on this turn, they can use it immediately at no cost.'
+      feature_type: ability
+      icon: ❇️
+      keywords:
+        - Area
+      name: Marauder's Cackletongue
+      target: Self and each ally in the area
+      type: feature
+      usage: Maneuver
+    - effects:
+        - effect: Whenever a non-[minion](scc.v1:mcdm.monsters.v1/rule.organization/minion) ally within 7 squares of the marauder is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), the marauder moves up to their speed and can make a melee [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike).
+      feature_type: trait
+      icon: ⭐️
+      name: Death Frenzy
+      type: feature
+free_strike: 2
+intuition: 0
+keywords:
+    - Abyssal
+    - Gnoll
+level: 2
+metadata:
+    scc: mcdm.monsters.v1/monster.gnoll.statblock/gnoll-marauder
+    source: mcdm.monsters.v1
+might: 1
+name: Gnoll Marauder
+organization: Horde
+presence: 1
+reason: 0
+role: Harrier
+size: 1M
+speed: 7
+stability: 1
+stamina: "20"
+type: statblock

@@ -1,0 +1,44 @@
+{
+  "ability_type": "Triggered",
+  "distance": "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10",
+  "effects": [
+    {
+      "effect": "An [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on the triggering roll becomes a [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane), or a double [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) becomes an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge). A [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) becomes an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge), or a double [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) becomes a [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane).",
+      "name": "Effect"
+    },
+    {
+      "cost": "Spend 3 Drama",
+      "effect": "An [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on the triggering roll becomes a double [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane), or a double [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) is negated. A [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) becomes a double [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge), or a double [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) is negated."
+    }
+  ],
+  "feature_type": "ability",
+  "flavor": "All's fair in love and whatever.",
+  "keywords": [
+    "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)"
+  ],
+  "metadata": {
+    "ability_type": "Triggered",
+    "action_type": "Triggered",
+    "class": "troubadour",
+    "content": "\n*All's fair in love and whatever.*\n\n| **[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)**       |       **Triggered** |\n|------------------|--------------------:|\n| **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10** | **🎯 One creature** |\n\n**Trigger:** The target makes an [ability roll](scc.v1:mcdm.heroes.v1/rule.dice/ability-roll) that has an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge), a double [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge), a [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane), or a double [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane).\n\n**Effect:** An [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on the triggering roll becomes a [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane), or a double [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) becomes an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge). A [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) becomes an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge), or a double [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) becomes a [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane).\n\n**Spend 3 Drama:** An [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on the triggering roll becomes a double [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane), or a double [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) is negated. A [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) becomes a double [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge), or a double [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) is negated.",
+    "distance": "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10",
+    "feature_type": "ability",
+    "flavor": "All's fair in love and whatever.",
+    "item_id": "turnabout-is-fair-play",
+    "item_name": "Turnabout Is Fair Play",
+    "keywords": [
+      "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)"
+    ],
+    "level": 1,
+    "scc": [
+      "mcdm.heroes.v1/feature.ability.troubadour.level-1/turnabout-is-fair-play"
+    ],
+    "target": "One creature",
+    "type": "feature/ability/troubadour/level-1"
+  },
+  "name": "Turnabout Is Fair Play",
+  "target": "One creature",
+  "trigger": "The target makes an [ability roll](scc.v1:mcdm.heroes.v1/rule.dice/ability-roll) that has an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge), a double [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge), a [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane), or a double [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane).",
+  "type": "feature",
+  "usage": "Triggered"
+}

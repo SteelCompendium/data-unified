@@ -1,0 +1,28 @@
+---
+action_type: feature
+class: tactician
+feature_type: feature
+file_basename: shock-and-awe
+file_dpath: feature/tactician/level-7
+item_id: shock-and-awe
+item_name: Shock and Awe
+level: "7"
+name: Shock and Awe
+scc: mcdm.heroes.v1/feature.tactician.level-7/shock-and-awe
+source: mcdm.heroes.v1
+type: feature
+---
+
+```ds-feature
+effects:
+    - effect: You have expanded your leadership skills, strengthening your [followers](scc.v1:mcdm.heroes.v1/rule.general/follower)' morale and providing logistical support. During a [montage test](scc.v1:mcdm.heroes.v1/rule.test/montage-test) or negotiation, you can obtain one automatic success on a [test](scc.v1:mcdm.heroes.v1/rule.test/test) made using a skill from the [interpersonal skill group](scc.v1:mcdm.heroes.v1/skill.group/interpersonal). Additionally, you can convince a group of people to help you with a [crafting project](scc.v1:mcdm.heroes.v1/rule.downtime/crafting-project) during a [respite](scc.v1:mcdm.heroes.v1/rule.resource/respite). If these people are available when you take a [respite](scc.v1:mcdm.heroes.v1/rule.resource/respite), you can make a [project roll](scc.v1:mcdm.heroes.v1/rule.downtime/project-roll) for a [crafting project](scc.v1:mcdm.heroes.v1/rule.downtime/crafting-project) in addition to undertaking another [respite](scc.v1:mcdm.heroes.v1/rule.resource/respite) activity.
+feature_type: feature
+metadata:
+    class: tactician
+    level: "7"
+    name: Shock and Awe
+    scc: mcdm.heroes.v1/feature.tactician.level-7/shock-and-awe
+    type: feature
+name: Shock and Awe
+type: feature
+```

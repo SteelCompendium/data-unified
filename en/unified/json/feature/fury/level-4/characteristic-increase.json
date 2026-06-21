@@ -1,0 +1,22 @@
+{
+  "effects": [
+    {
+      "effect": "Your [Might](scc.v1:mcdm.heroes.v1/rule.character/might) and [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility) scores each increase to 3."
+    }
+  ],
+  "feature_type": "feature",
+  "metadata": {
+    "action_type": "feature",
+    "class": "fury",
+    "feature_type": "feature",
+    "item_id": "characteristic-increase",
+    "item_name": "Characteristic Increase",
+    "level": 4,
+    "scc": [
+      "mcdm.heroes.v1/feature.fury.level-4/characteristic-increase"
+    ],
+    "type": "feature/fury/level-4"
+  },
+  "name": "Characteristic Increase",
+  "type": "feature"
+}

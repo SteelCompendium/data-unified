@@ -1,0 +1,90 @@
+agility: 3
+ev: "32"
+features:
+    - ability_type: Signature Ability
+      distance: Melee 1
+      effects:
+        - roll: Power Roll + 3
+          tier1: 10 damage; M < 1 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+          tier2: 15 damage; M < 2 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+          tier3: 18 corruption damage; M < 3 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+      feature_type: ability
+      icon: "\U0001F5E1"
+      keywords:
+        - Melee
+        - Strike
+        - Weapon
+      name: Breaking Palm
+      target: Two enemies
+      type: feature
+      usage: Main action
+    - distance: 2 burst
+      effects:
+        - roll: Power Roll + 3
+          tier1: 7 corruption damage; M < 1 the target has corruption weakness 3 (save ends)
+          tier2: 12 corruption damage; M < 2 the target has corruption weakness 3 (save ends)
+          tier3: 15 corruption damage; M < 3 the target has corruption weakness 3 (save ends)
+      feature_type: ability
+      icon: ❇️
+      keywords:
+        - Area
+        - Magic
+      name: Expunging Exhalation
+      target: Each enemy in the area
+      type: feature
+      usage: Main action
+    - distance: Ranged 3
+      effects:
+        - effect: '**Effect:** Myxovidan and the target [shift](scc.v1:mcdm.heroes.v1/movement/shifting) to swap places.'
+      feature_type: ability
+      icon: "\U0001F3F9"
+      keywords:
+        - Ranged
+      name: Step and Swap
+      target: One ally
+      type: feature
+      usage: Maneuver
+    - cost: 2 Malice
+      distance: Self
+      effects:
+        - effect: |-
+            **Trigger:** An [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) creature damages Myxovidan with a melee ability.
+            **Effect:** Myxovidan recreates the ability to use it against the triggering creature. If the ability has a power roll, Myxovidan uses his highest characteristic score for the roll. If Myxovidan gets a higher tier outcome than the triggering creature, the Director gains 2 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice).
+      feature_type: ability
+      icon: ❗️
+      keywords:
+        - '-'
+      name: Anyone Can Do That
+      target: Self
+      type: feature
+      usage: Triggered action
+    - effects:
+        - effect: Whenever an enemy regains [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) while within 5 squares of Myxovidan, they regain 3 less [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).
+      feature_type: trait
+      icon: ⭐️
+      name: Stench of Death
+      type: feature
+free_strike: 7
+immunities:
+    - Corruption 6
+intuition: 2
+keywords:
+    - Draconian
+    - Dragon
+    - Humanoid
+level: 6
+metadata:
+    scc: mcdm.monsters.v1/monster.draconian.statblock/myxovidan-the-sintaker
+    source: mcdm.monsters.v1
+might: -1
+movement: Fly
+name: Myxovidan the Sintaker
+organization: Elite
+presence: 1
+reason: 2
+role: Hexer
+size: 1M
+speed: 5
+stability: 2
+stamina: "140"
+type: statblock

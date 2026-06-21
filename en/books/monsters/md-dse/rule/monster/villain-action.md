@@ -1,0 +1,22 @@
+---
+file_basename: villain-action
+file_dpath: rule/monster
+item_id: villain-action
+item_name: Villain Actions
+name: Villain Actions
+scc: mcdm.monsters.v1/rule.monster/villain-action
+source: mcdm.monsters.v1
+type: rule
+---
+
+The [solo](scc.v1:mcdm.monsters.v1/rule.organization/solo) and [leader](scc.v1:mcdm.monsters.v1/rule.organization/leader) creatures presented in this book are designed to be fought in climactic battles at the end of an adventure or campaign. Because of this, they have special abilities called [villain actions](scc.v1:mcdm.monsters.v1/rule.monster/villain-action).
+
+A creature with [villain actions](scc.v1:mcdm.monsters.v1/rule.monster/villain-action) always has three. Each villain action can be used only once per encounter, and no more than one villain action can be used per [round](scc.v1:mcdm.heroes.v1/rule.combat/combat-round). (This holds even if you have two or more creatures with villain actions in an encounter, though such an occurrence should be rare.)
+
+A creature can use a villain action at the end of any other creature's [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) during combat. Villain actions are numbered and intended to be used in a specific order that creates a logical encounter flow and cinematic arc, but you can use them in any order you choose.
+
+The first villain action is an opener, which shows the heroes they're not battling a typical creature. Openers generally deal some damage, summon a lackey or three, buff the leader, debuff the heroes, or move the creature into an advantageous position. They're a taste of what's to come.
+
+The second villain action provides crowd control. It typically activates after the heroes have had a chance to respond once or twice to the villain, move into position, and surround the villain. This second action helps the villain regain the upper hand. Like an opener, this action comes in many flavors, but it's even more powerful than an opener.
+
+The third and final villain action is an ultimate move or "ult"-a showstopper that the villain can use to deal a devastating blow to the heroes before the end of the battle.

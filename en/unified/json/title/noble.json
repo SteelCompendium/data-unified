@@ -1,0 +1,9 @@
+{
+  "content": "*Technically, I'm called Lord Morninghill these days. I did a little favor for Duke Kenway at the Battle of Black Forest.*\n\n**Prerequisite:** A [monarch](scc.v1:mcdm.heroes.v1/title/monarch) or important [noble](scc.v1:mcdm.heroes.v1/title/noble) grants you a [noble](scc.v1:mcdm.heroes.v1/title/noble) rank.\n\n**Effect:** Choose one of the following benefits:\n\n- *I Know How to Talk to These People:* You gain an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence) [tests](scc.v1:mcdm.heroes.v1/rule.test/test) made to interact with royals, nobles, and their feudal [followers](scc.v1:mcdm.heroes.v1/rule.general/follower), provided they are aware of your [noble](scc.v1:mcdm.heroes.v1/title/noble) rank.\n- *Noble Splendor:* You earn 1 [Renown](scc.v1:mcdm.heroes.v1/rule.resource/renown) and 1 [Wealth](scc.v1:mcdm.heroes.v1/rule.resource/wealth).\n- *Retinue:* The number of [followers](scc.v1:mcdm.heroes.v1/rule.general/follower) you can recruit increases by two.\n\n**Special:** If you take this title, you might occasionally be called upon to perform duties for the person who granted your [noble](scc.v1:mcdm.heroes.v1/title/noble) rank.",
+  "effect": "Choose one of the following benefits:",
+  "flavor": "Technically, I'm called Lord Morninghill these days. I did a little favor for Duke Kenway at the Battle of Black Forest.",
+  "name": "Noble",
+  "prerequisite": "A [monarch](scc.v1:mcdm.heroes.v1/title/monarch) or important [noble](scc.v1:mcdm.heroes.v1/title/noble) grants you a [noble](scc.v1:mcdm.heroes.v1/title/noble) rank.",
+  "scc": "mcdm.heroes.v1/title/noble",
+  "type": "title"
+}

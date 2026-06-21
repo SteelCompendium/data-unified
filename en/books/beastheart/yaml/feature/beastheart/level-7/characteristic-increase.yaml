@@ -1,0 +1,15 @@
+effects:
+    - effect: Each of your and your companion's characteristic scores increases by 1, to a maximum of 4.
+feature_type: feature
+metadata:
+    action_type: feature
+    class: beastheart
+    feature_type: feature
+    item_id: characteristic-increase
+    item_name: Characteristic Increase
+    level: 7
+    scc:
+        - mcdm.beastheart.v1/feature.beastheart.level-7/characteristic-increase
+    type: feature/beastheart/level-7
+name: Characteristic Increase
+type: feature

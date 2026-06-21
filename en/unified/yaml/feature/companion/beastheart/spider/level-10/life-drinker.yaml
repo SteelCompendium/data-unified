@@ -1,0 +1,15 @@
+effects:
+    - effect: Whenever you or the spider deals damage with a maneuver while the spider is rampaging, the attacker regains Stamina equal to the damage dealt.
+feature_type: feature
+metadata:
+    action_type: feature
+    class: beastheart
+    feature_type: feature
+    item_id: life-drinker
+    item_name: Life Drinker
+    level: 10
+    scc:
+        - mcdm.beastheart.v1/feature.companion.beastheart.spider.level-10/life-drinker
+    type: feature/companion/beastheart/spider/level-10
+name: Life Drinker
+type: feature

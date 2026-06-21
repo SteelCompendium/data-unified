@@ -1,0 +1,61 @@
+---
+agility: 0
+ev: "10"
+free_strike: 5
+intuition: 2
+keywords:
+    - Dwarf
+    - Humanoid
+level: 3
+might: 1
+movement: Burrow
+name: Dwarf Stone Whisperer
+organization: Platoon
+presence: 0
+reason: 2
+role: Controller
+scc: mcdm.monsters.v1/monster.dwarf.statblock/dwarf-stone-whisperer
+size: 1M
+speed: 5
+stability: 2
+stamina: "52"
+type: statblock
+---
+
+|  Dwarf, Humanoid  |           -            |      Level 3      |  Platoon Controller   |        EV 10         | 
+|:-----------------:|:----------------------:|:-----------------:|:---------------------:|:--------------------:| 
+|  **1M**<br>Size   |     **5**<br>Speed     | **52**<br>Stamina |  **2**<br>Stability   | **5**<br>Free Strike | 
+| **-**<br>Immunity | **Burrow**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   | 
+|  **+1**<br>Might  |   **+0**<br>Agility    | **+2**<br>Reason  |  **+2**<br>Intuition  |  **+0**<br>Presence  |
+
+> 🔳 **Tile Slide (Signature Ability)**
+>
+> | **Area, Magic**        |                             **Main action** |
+> |------------------------|--------------------------------------------:|
+> | **📏 2 cube within 1** | **🎯 Each creature and object in the area** |
+>
+> **Power Roll + 2:**
+>
+> - **≤11:** 5 damage; [slide](../../../movement/forced-movement.md) 1; M < 0 [slowed](../../../condition/slowed.md) (save ends)
+> - **12-16:** 8 damage; [slide](../../../movement/forced-movement.md) 3; M < 1 [slowed](../../../condition/slowed.md) (save ends)
+> - **17+:** 11 damage; [slide](../../../movement/forced-movement.md) 5; M < 2 [restrained](../../../condition/restrained.md) (save ends)
+>
+> **Effect:** A target [restrained](../../../condition/restrained.md) by a dwarf can be force moved by this ability. This forced movement doesn't end the [restrained](../../../condition/restrained.md) condition unless the Director determines otherwise.
+
+> 🔳 **Stone Wave (3 [Malice](../../../rule/monster/malice.md))**
+>
+> | **Area, Magic, Ranged** |                  **Maneuver** |
+> |-------------------------|------------------------------:|
+> | **📏 3 cube within 10** | **🎯 Each enemy in the area** |
+>
+> **Power Roll + 2:**
+>
+> - **≤11:** 4 damage; [push](../../../movement/forced-movement.md) 2; R < 1 [slowed](../../../condition/slowed.md) (save ends)
+> - **12-16:** 6 damage; [push](../../../movement/forced-movement.md) 3; R < 2 [slowed](../../../condition/slowed.md) (save ends)
+> - **17+:** 9 damage; [push](../../../movement/forced-movement.md) 3; R < 3 [slowed](../../../condition/slowed.md) (save ends)
+>
+> **Effect:** The area is [difficult terrain](../../../movement/difficult-terrain.md) for enemies. A target [restrained](../../../condition/restrained.md) by a dwarf can be force moved by this ability. This forced movement doesn't end the [restrained](../../../condition/restrained.md) condition unless the Director determines otherwise.
+
+> ⭐️ **Stone Walker**
+>
+> Whenever the stone whisperer willingly moves, they can phase through up to 2 squares of stone as part of that movement. If they end their movement inside stone, they are shunted out into the space from which they entered it.

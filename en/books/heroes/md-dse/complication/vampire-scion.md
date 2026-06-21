@@ -1,0 +1,19 @@
+---
+benefit: Whenever you make a [melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against an [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) creature, you can do so by biting that creature. If you obtain a tier 3 outcome on the [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike), you gain [temporary Stamina](scc.v1:mcdm.heroes.v1/rule.health/temporary-stamina) equal to the damage dealt. If not lost beforehand, this [temporary Stamina](scc.v1:mcdm.heroes.v1/rule.health/temporary-stamina) lasts until the end of your next [respite](scc.v1:mcdm.heroes.v1/rule.resource/respite).
+drawback: While you have [temporary Stamina](scc.v1:mcdm.heroes.v1/rule.health/temporary-stamina) from this complication, you grow visible fangs, you take a [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) on [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence) [tests](scc.v1:mcdm.heroes.v1/rule.test/test) made to interact with humanoids, and your vampire progenitor can sense your location.
+file_basename: vampire-scion
+file_dpath: complication
+flavor: A vampire has bitten you. You're not undead—or not yet, anyway—but your connection with your vampire progenitor fills you with urges you fight to control.
+item_id: vampire-scion
+item_name: Vampire Scion
+name: Vampire Scion
+scc: mcdm.heroes.v1/complication/vampire-scion
+source: mcdm.heroes.v1
+type: complication
+---
+
+A vampire has bitten you. You're not undead—or not yet, anyway—but your connection with your vampire progenitor fills you with urges you fight to control.
+
+**Benefit:** Whenever you make a [melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against an [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) creature, you can do so by biting that creature. If you obtain a tier 3 outcome on the [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike), you gain [temporary Stamina](scc.v1:mcdm.heroes.v1/rule.health/temporary-stamina) equal to the damage dealt. If not lost beforehand, this [temporary Stamina](scc.v1:mcdm.heroes.v1/rule.health/temporary-stamina) lasts until the end of your next [respite](scc.v1:mcdm.heroes.v1/rule.resource/respite).
+
+**Drawback:** While you have [temporary Stamina](scc.v1:mcdm.heroes.v1/rule.health/temporary-stamina) from this complication, you grow visible fangs, you take a [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) on [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence) [tests](scc.v1:mcdm.heroes.v1/rule.test/test) made to interact with humanoids, and your vampire progenitor can sense your location.

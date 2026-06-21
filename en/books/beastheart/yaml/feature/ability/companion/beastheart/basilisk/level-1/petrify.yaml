@@ -1,0 +1,40 @@
+ability_type: Signature
+distance: Melee 1 or ranged 5
+effects:
+    - effect: The target takes corruption damage equal to 3 + the basilisk's Might score and is stoned (save ends) (see [Stoned](scc.v1:mcdm.beastheart.v1/feature.companion.beastheart.basilisk.level-1/stoned)).
+      name: Effect
+    - cost: Spend 1 Ferocity
+      effect: While stoned this way, the target is also [slowed](scc.v1:mcdm.heroes.v1/condition/slowed).
+feature_type: ability
+flavor: Transfixed by the basilisk's magical gaze or struck by their poisoned claws, the foe's body begins to calcify.
+keywords:
+    - Companion
+    - Magic
+    - Melee
+    - Ranged
+    - Weapon
+metadata:
+    ability_type: Signature
+    action_type: Maneuver
+    class: beastheart
+    content: "*Transfixed by the basilisk's magical gaze or struck by their poisoned claws, the foe's body begins to calcify.*\n\n| **Companion, Magic, Melee, Ranged, Weapon** |     **Maneuver** |\n|---------------------------------------------|-----------------:|\n| **\U0001F4CF Melee 1 or ranged 5**                  | **\U0001F3AF One enemy** |\n\n**Effect:** The target takes corruption damage equal to 3 + the basilisk's Might score and is stoned (save ends) (see [Stoned](scc.v1:mcdm.beastheart.v1/feature.companion.beastheart.basilisk.level-1/stoned)).\n\n**Spend 1 Ferocity:** While stoned this way, the target is also [slowed](scc.v1:mcdm.heroes.v1/condition/slowed)."
+    distance: Melee 1 or ranged 5
+    feature_type: ability
+    flavor: Transfixed by the basilisk's magical gaze or struck by their poisoned claws, the foe's body begins to calcify.
+    item_id: petrify
+    item_name: Petrify
+    keywords:
+        - Companion
+        - Magic
+        - Melee
+        - Ranged
+        - Weapon
+    level: 1
+    scc:
+        - mcdm.beastheart.v1/feature.ability.companion.beastheart.basilisk.level-1/petrify
+    target: One enemy
+    type: feature/ability/companion/beastheart/basilisk/level-1
+name: Petrify
+target: One enemy
+type: feature
+usage: Maneuver

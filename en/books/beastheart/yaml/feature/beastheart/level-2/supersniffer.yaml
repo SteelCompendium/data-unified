@@ -1,0 +1,16 @@
+effects:
+    - effect: While a creature is adjacent to your companion, that creature can't be hidden or have concealment from your companion.
+feature_type: feature
+metadata:
+    action_type: feature
+    class: beastheart
+    feature_type: feature
+    item_id: supersniffer
+    item_name: Supersniffer
+    level: 2
+    scc:
+        - mcdm.beastheart.v1/feature.beastheart.level-2/supersniffer
+    subclass: prowler
+    type: feature/beastheart/level-2
+name: Supersniffer
+type: feature

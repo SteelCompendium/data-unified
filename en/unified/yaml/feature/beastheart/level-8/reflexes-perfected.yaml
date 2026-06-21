@@ -1,0 +1,16 @@
+effects:
+    - effect: Your and your companion's free strikes deal extra damage equal to your Intuition score. Whenever an adjacent enemy moves to a space that isn't adjacent, you or your companion can make an opportunity attack, even if the enemy [shifted](scc.v1:mcdm.heroes.v1/movement/shifting), [teleported](scc.v1:mcdm.heroes.v1/movement/teleport), was [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement), or another feature that doesn't provoke opportunity attacks.
+feature_type: feature
+metadata:
+    action_type: feature
+    class: beastheart
+    feature_type: feature
+    item_id: reflexes-perfected
+    item_name: Reflexes Perfected
+    level: 8
+    scc:
+        - mcdm.beastheart.v1/feature.beastheart.level-8/reflexes-perfected
+    subclass: guardian
+    type: feature/beastheart/level-8
+name: Reflexes Perfected
+type: feature

@@ -1,0 +1,48 @@
+{
+  "cost": "11 Insight",
+  "distance": "[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1",
+  "effects": [
+    {
+      "roll": "Power Roll + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)",
+      "tier1": "12 + A damage",
+      "tier2": "18 + A damage",
+      "tier3": "24 + A damage"
+    },
+    {
+      "effect": "A target who is not a minion, leader, or solo creature and who is [winded](scc.v1:mcdm.heroes.v1/rule.health/winded) after taking this damage is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).",
+      "name": "Effect"
+    }
+  ],
+  "feature_type": "ability",
+  "flavor": "A practiced attack will instantly kill an already weakened foe.",
+  "keywords": [
+    "[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)",
+    "[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)",
+    "Weapon"
+  ],
+  "metadata": {
+    "action_type": "Main action",
+    "class": "shadow",
+    "content": "\n*A practiced attack will instantly kill an already weakened foe.*\n\n| **[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), Weapon** |               **Main action** |\n|---------------------------|------------------------------:|\n| **📏 [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1**            | **🎯 One creature or object** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility):**\n\n- **≤11:** 12 + A damage\n- **12-16:** 18 + A damage\n- **17+:** 24 + A damage\n\n**Effect:** A target who is not a minion, leader, or solo creature and who is [winded](scc.v1:mcdm.heroes.v1/rule.health/winded) after taking this damage is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).",
+    "distance": "[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1",
+    "feature_type": "ability",
+    "flavor": "A practiced attack will instantly kill an already weakened foe.",
+    "item_id": "assassinate",
+    "item_name": "Assassinate",
+    "keywords": [
+      "[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)",
+      "[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)",
+      "Weapon"
+    ],
+    "level": 8,
+    "scc": [
+      "mcdm.heroes.v1/feature.ability.shadow.level-8/assassinate"
+    ],
+    "target": "One creature or object",
+    "type": "feature/ability/shadow/level-8"
+  },
+  "name": "Assassinate",
+  "target": "One creature or object",
+  "type": "feature",
+  "usage": "Main action"
+}

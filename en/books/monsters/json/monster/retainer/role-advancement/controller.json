@@ -1,0 +1,98 @@
+{
+  "features": [
+    {
+      "cost": "Encounter",
+      "distance": "3 cube within 10",
+      "icon": "🔳",
+      "keywords": [
+        "Area",
+        "Magic",
+        "Ranged"
+      ],
+      "level": 4,
+      "name": "Elemental Blast",
+      "power_roll": {
+        "formula": "+ highest characteristic",
+        "tiers": {
+          "high": "10 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5",
+          "low": "4 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2",
+          "mid": "6 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3"
+        }
+      },
+      "sections": [
+        {
+          "label": "Effect",
+          "text": "When the retainer uses this ability, they can choose for it to deal one of the following damage types: acid, cold, fire, lightning, poison, or sonic."
+        }
+      ],
+      "target": "Each creature in the area",
+      "usage": "Main action"
+    },
+    {
+      "cost": "Encounter",
+      "distance": "3 cube within 10",
+      "icon": "🔳",
+      "keywords": [
+        "Area",
+        "Ranged",
+        "Weapon"
+      ],
+      "level": 7,
+      "name": "Oil Slick",
+      "power_roll": {
+        "formula": "+ highest characteristic",
+        "tiers": {
+          "high": "11 poison damage; M \u003c STRONG [prone](scc.v1:mcdm.heroes.v1/condition/prone)",
+          "low": "5 poison damage; M \u003c WEAK [prone](scc.v1:mcdm.heroes.v1/condition/prone)",
+          "mid": "8 poison damage; M \u003c AVERAGE [prone](scc.v1:mcdm.heroes.v1/condition/prone)"
+        }
+      },
+      "sections": [
+        {
+          "label": "Effect",
+          "text": "The area is [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain) for enemies. Any enemy has fire weakness 5 while in the area, and any enemy who ends their turn in the area and has no movement remaining falls [prone](scc.v1:mcdm.heroes.v1/condition/prone)."
+        }
+      ],
+      "target": "Each enemy in the area",
+      "usage": "Main action"
+    },
+    {
+      "cost": "Encounter",
+      "distance": "Ranged 10",
+      "icon": "🏹",
+      "keywords": [
+        "Ranged",
+        "Strike",
+        "Weapon"
+      ],
+      "level": 10,
+      "name": "Shattering Shards",
+      "power_roll": {
+        "formula": "+ highest characteristic",
+        "tiers": {
+          "high": "16 damage",
+          "low": "7 damage",
+          "mid": "11 damage"
+        }
+      },
+      "sections": [
+        {
+          "label": "Special",
+          "text": "The target must be size 1M or smaller."
+        },
+        {
+          "label": "Effect",
+          "text": "The area within 2 squares of the target is [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain), and each enemy in the area takes the same damage the object took."
+        }
+      ],
+      "target": "One Object",
+      "usage": "Main action"
+    }
+  ],
+  "metadata": {
+    "scc": "mcdm.monsters.v1/monster.retainer.role-advancement/controller",
+    "source": "mcdm.monsters.v1"
+  },
+  "name": "Controller Abilities",
+  "type": "featureblock"
+}

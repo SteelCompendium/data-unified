@@ -1,0 +1,66 @@
+{
+  "agility": 1,
+  "ev": "7 for four minions",
+  "features": [
+    {
+      "ability_type": "Signature Ability",
+      "distance": "Melee 1",
+      "effects": [
+        {
+          "roll": "Power Roll + 3",
+          "tier1": "3 damage; A \u003c 2 [prone](scc.v1:mcdm.heroes.v1/condition/prone)",
+          "tier2": "5 damage; A \u003c 3 [prone](scc.v1:mcdm.heroes.v1/condition/prone)",
+          "tier3": "6 damage; [prone](scc.v1:mcdm.heroes.v1/condition/prone)"
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "🗡",
+      "keywords": [
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "name": "Arm and a Leg",
+      "target": "One creature or object per minion",
+      "type": "feature",
+      "usage": "Main action"
+    },
+    {
+      "effects": [
+        {
+          "effect": "At the start of each of the limbjumble's [squad](scc.v1:mcdm.monsters.v1/rule.monster/squad)'s turns, the squad's [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) pool increases as if each limbjumble were at full [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina)."
+        }
+      ],
+      "feature_type": "trait",
+      "icon": "⭐️",
+      "name": "Hyper-Regeneration",
+      "type": "feature"
+    }
+  ],
+  "free_strike": 3,
+  "intuition": -1,
+  "keywords": [
+    "Troll"
+  ],
+  "level": 5,
+  "metadata": {
+    "scc": "mcdm.monsters.v1/monster.troll.statblock/troll-limbjumble",
+    "source": "mcdm.monsters.v1"
+  },
+  "might": 3,
+  "name": "Troll Limbjumble",
+  "organization": "Minion",
+  "presence": -1,
+  "reason": -2,
+  "role": "Hexer",
+  "size": "1S",
+  "speed": 5,
+  "stability": 0,
+  "stamina": "8",
+  "type": "statblock",
+  "weaknesses": [
+    "Acid 8",
+    "fire"
+  ],
+  "with_captain": "Gain an edge on strikes"
+}

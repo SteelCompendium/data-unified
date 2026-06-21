@@ -1,0 +1,33 @@
+ability_type: Triggered
+distance: Self
+effects:
+    - effect: You take half the damage.
+      name: Effect
+    - cost: Spend 1 Discipline
+      effect: The [potency](scc.v1:mcdm.heroes.v1/rule.character/potency) of one effect associated with the damage is reduced by 1 for you.
+feature_type: ability
+flavor: You intuit the course of an incoming attack, reducing its effects.
+keywords:
+    - Psionic
+metadata:
+    ability_type: Triggered
+    action_type: Triggered
+    class: "null"
+    content: "\n*You intuit the course of an incoming attack, reducing its effects.*\n\n| **Psionic** | **Triggered** |\n|-------------|--------------:|\n| **\U0001F4CF Self** |   **\U0001F3AF Self** |\n\n**Trigger:** You take damage.\n\n**Effect:** You take half the damage.\n\n**Spend 1 Discipline:** The [potency](scc.v1:mcdm.heroes.v1/rule.character/potency) of one effect associated with the damage is reduced by 1 for you."
+    distance: Self
+    feature_type: ability
+    flavor: You intuit the course of an incoming attack, reducing its effects.
+    item_id: inertial-shield
+    item_name: Inertial Shield
+    keywords:
+        - Psionic
+    level: 1
+    scc:
+        - mcdm.heroes.v1/feature.ability.null.level-1/inertial-shield
+    target: Self
+    type: feature/ability/null/level-1
+name: Inertial Shield
+target: Self
+trigger: You take damage.
+type: feature
+usage: Triggered

@@ -1,0 +1,42 @@
+ability_type: Signature
+distance: Melee 1
+effects:
+    - roll: Power Roll + Intuition
+      tier1: 3 + I damage
+      tier2: 5 + I damage
+      tier3: 7 + I damage
+    - effect: If you and a willing ally are standing on the ground within 10 squares of each other, you can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) to swap places. If you do, you gain an edge on this ability.
+      name: Effect
+feature_type: ability
+flavor: You and your ally morph into each other, magically switching places.
+keywords:
+    - Beastheart
+    - Magic
+    - Melee
+    - Strike
+    - Weapon
+metadata:
+    ability_type: Signature
+    action_type: Main action
+    class: beastheart
+    content: "*You and your ally morph into each other, magically switching places.*\n\n| **Beastheart, Magic, Melee, Strike, Weapon** |               **Main action** |\n|----------------------------------------------|------------------------------:|\n| **\U0001F4CF Melee 1**                               | **\U0001F3AF One creature or object** |\n\n**Effect:** If you and a willing ally are standing on the ground within 10 squares of each other, you can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) to swap places. If you do, you gain an edge on this ability.\n\n**Power Roll + Intuition:**\n\n- **≤11:** 3 + I damage\n- **12-16:** 5 + I damage\n- **17+:** 7 + I damage"
+    distance: Melee 1
+    feature_type: ability
+    flavor: You and your ally morph into each other, magically switching places.
+    item_id: bodyswap
+    item_name: Bodyswap
+    keywords:
+        - Beastheart
+        - Magic
+        - Melee
+        - Strike
+        - Weapon
+    level: 1
+    scc:
+        - mcdm.beastheart.v1/feature.ability.beastheart.level-1/bodyswap
+    target: One creature or object
+    type: feature/ability/beastheart/level-1
+name: Bodyswap
+target: One creature or object
+type: feature
+usage: Main action

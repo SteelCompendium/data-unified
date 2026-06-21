@@ -1,0 +1,22 @@
+{
+  "effects": [
+    {
+      "effect": "Choose one heroic ability from the following options, each of which costs 11 ferocity to use."
+    }
+  ],
+  "feature_type": "feature",
+  "metadata": {
+    "action_type": "feature",
+    "class": "beastheart",
+    "feature_type": "feature",
+    "item_id": "11-ferocity-ability",
+    "item_name": "11-Ferocity Ability",
+    "level": 8,
+    "scc": [
+      "mcdm.beastheart.v1/feature.beastheart.level-8/11-ferocity-ability"
+    ],
+    "type": "feature/beastheart/level-8"
+  },
+  "name": "11-Ferocity Ability",
+  "type": "feature"
+}

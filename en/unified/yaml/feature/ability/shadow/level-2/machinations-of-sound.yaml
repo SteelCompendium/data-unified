@@ -1,0 +1,37 @@
+cost: 5 Insight
+distance: 3 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 10
+effects:
+    - roll: Power Roll + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)
+      tier1: '[Slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 4'
+      tier2: '[Slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5'
+      tier3: '[Slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 7'
+    - effect: This [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) ignores [stability](scc.v1:mcdm.heroes.v1/rule.character/stability). Instead, the [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) is reduced by a number equal to the target's [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition) score.
+      name: Effect
+feature_type: ability
+flavor: Illusory sounds make your foes reposition themselves as they cower or investigate the disturbance.
+keywords:
+    - Area
+    - Magic
+    - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'
+metadata:
+    action_type: Maneuver
+    class: shadow
+    content: "\n*Illusory sounds make your foes reposition themselves as they cower or investigate the disturbance.*\n\n| **Area, Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)** |                     **Maneuver** |\n|-------------------------|---------------------------------:|\n| **\U0001F4CF 3 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 10** | **\U0001F3AF Each creature in the area** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility):**\n\n- **≤11:** [Slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 4\n- **12-16:** [Slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5\n- **17+:** [Slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 7\n\n**Effect:** This [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) ignores [stability](scc.v1:mcdm.heroes.v1/rule.character/stability). Instead, the [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) is reduced by a number equal to the target's [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition) score."
+    distance: 3 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 10
+    feature_type: ability
+    flavor: Illusory sounds make your foes reposition themselves as they cower or investigate the disturbance.
+    item_id: machinations-of-sound
+    item_name: Machinations of Sound
+    keywords:
+        - Area
+        - Magic
+        - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'
+    level: 2
+    scc:
+        - mcdm.heroes.v1/feature.ability.shadow.level-2/machinations-of-sound
+    target: Each creature in the area
+    type: feature/ability/shadow/level-2
+name: Machinations of Sound
+target: Each creature in the area
+type: feature
+usage: Maneuver

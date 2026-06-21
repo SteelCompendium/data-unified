@@ -1,0 +1,51 @@
+{
+  "ability_type": "Signature",
+  "distance": "[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1",
+  "effects": [
+    {
+      "roll": "Power Roll + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)",
+      "tier1": "4 damage",
+      "tier2": "5 damage",
+      "tier3": "7 damage"
+    },
+    {
+      "effect": "You can deal damage equal to your [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility) score to one creature or object [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to you.",
+      "name": "Effect"
+    }
+  ],
+  "feature_type": "ability",
+  "flavor": "You strike so quickly that your hands become a blur.",
+  "keywords": [
+    "[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)",
+    "Psionic",
+    "[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)",
+    "Weapon"
+  ],
+  "metadata": {
+    "ability_type": "Signature",
+    "action_type": "Main action",
+    "class": "null",
+    "content": "\n*You strike so quickly that your hands become a blur.*\n\n| **[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), Psionic, [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), Weapon** |                 **Main action** |\n|------------------------------------|--------------------------------:|\n| **📏 [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1**                     | **🎯 Two creatures or objects** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility):**\n\n- **≤11:** 4 damage\n- **12-16:** 5 damage\n- **17+:** 7 damage\n\n**Effect:** You can deal damage equal to your [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility) score to one creature or object [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to you.",
+    "distance": "[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1",
+    "feature_type": "ability",
+    "flavor": "You strike so quickly that your hands become a blur.",
+    "item_id": "faster-than-the-eye",
+    "item_name": "Faster Than the Eye",
+    "keywords": [
+      "[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)",
+      "Psionic",
+      "[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)",
+      "Weapon"
+    ],
+    "level": 1,
+    "scc": [
+      "mcdm.heroes.v1/feature.ability.null.level-1/faster-than-the-eye"
+    ],
+    "target": "Two creatures or objects",
+    "type": "feature/ability/null/level-1"
+  },
+  "name": "Faster Than the Eye",
+  "target": "Two creatures or objects",
+  "type": "feature",
+  "usage": "Main action"
+}

@@ -1,0 +1,124 @@
+{
+  "agility": 1,
+  "ev": "20",
+  "features": [
+    {
+      "ability_type": "Signature Ability",
+      "distance": "Melee 2",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "tier1": "7 damage",
+          "tier2": "11 damage; A \u003c 1 [prone](scc.v1:mcdm.heroes.v1/condition/prone)",
+          "tier3": "14 damage; A \u003c 2 [prone](scc.v1:mcdm.heroes.v1/condition/prone)"
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "🗡",
+      "keywords": [
+        "Charge",
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "name": "Pounce",
+      "target": "Two creatures or objects",
+      "type": "feature",
+      "usage": "Main action"
+    },
+    {
+      "distance": "2 burst",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "tier1": "4 damage",
+          "tier2": "7 damage; A \u003c 1 the target is dazzled (save ends)",
+          "tier3": "10 damage; A \u003c 2 the target is dazzled (save ends)"
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "❇️",
+      "keywords": [
+        "Area",
+        "Magic"
+      ],
+      "name": "Sparkling Tail Whip",
+      "target": "Each enemy and object in the area",
+      "type": "feature",
+      "usage": "Main action"
+    },
+    {
+      "cost": "5 Malice",
+      "distance": "3 cube within 10",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "tier1": "I \u003c 0 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)",
+          "tier2": "I \u003c 1 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)",
+          "tier3": "I \u003c 2 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)"
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "🔳",
+      "keywords": [
+        "Area",
+        "Magic",
+        "Ranged"
+      ],
+      "name": "Illusory Feint",
+      "target": "Each enemy in the area",
+      "type": "feature",
+      "usage": "Maneuver"
+    },
+    {
+      "distance": "Self",
+      "effects": [
+        {
+          "effect": "**Trigger:** The pouncer takes damage from a strike.\n**Effect:** The pouncer halves the damage, ignores any nondamaging effects associated with it, and can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) up to 5 squares. If they [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) into concealment or cover, the pouncer can immediately attempt to hide as a free maneuver."
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "❗️",
+      "keywords": [
+        "Magic"
+      ],
+      "name": "Striking Afterimage",
+      "target": "Self",
+      "type": "feature",
+      "usage": "Triggered action"
+    },
+    {
+      "effects": [
+        {
+          "effect": "Any effect on the pouncer that would be ended by a [saving throw](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) instead ends automatically at the end of their next turn."
+        }
+      ],
+      "feature_type": "trait",
+      "icon": "⭐️",
+      "name": "Avoidance",
+      "type": "feature"
+    }
+  ],
+  "free_strike": 5,
+  "intuition": 1,
+  "keywords": [
+    "Beast",
+    "Lightbender"
+  ],
+  "level": 3,
+  "metadata": {
+    "scc": "mcdm.monsters.v1/monster.lightbender.statblock/lightbender-pouncer",
+    "source": "mcdm.monsters.v1"
+  },
+  "might": 2,
+  "name": "Lightbender Pouncer",
+  "organization": "Elite",
+  "presence": -1,
+  "reason": -3,
+  "role": "Harrier",
+  "size": "2",
+  "speed": 10,
+  "stability": 1,
+  "stamina": "100",
+  "type": "statblock"
+}

@@ -1,0 +1,50 @@
+{
+  "cost": "3 Ferocity",
+  "distance": "Melee 1",
+  "effects": [
+    {
+      "roll": "Power Roll + Might",
+      "tier1": "5 + M damage; push 2",
+      "tier2": "8 + M damage; push 4",
+      "tier3": "11 + M damage; push 6"
+    },
+    {
+      "effect": "This forced movement can pass through your space but not end there. If the target passes through your space, they fall [prone](scc.v1:mcdm.heroes.v1/condition/prone) and take extra damage equal to your Intuition score.",
+      "name": "Effect"
+    }
+  ],
+  "feature_type": "ability",
+  "flavor": "You and your companion surround your foe in order to bring them down.",
+  "keywords": [
+    "Companion",
+    "Melee",
+    "Strike",
+    "Weapon"
+  ],
+  "metadata": {
+    "action_type": "Main action",
+    "class": "beastheart",
+    "content": "*You and your companion surround your foe in order to bring them down.*\n\n| **Companion, Melee, Strike, Weapon** | **Main action** |\n|--------------------------------------|----------------:|\n| **📏 Melee 1**                       | **🎯 One creature or object** |\n\n**Power Roll + Might:**\n\n- **≤11:** 5 + M damage; push 2\n- **12-16:** 8 + M damage; push 4\n- **17+:** 11 + M damage; push 6\n\n**Effect:** This forced movement can pass through your space but not end there. If the target passes through your space, they fall [prone](scc.v1:mcdm.heroes.v1/condition/prone) and take extra damage equal to your Intuition score.",
+    "distance": "Melee 1",
+    "feature_type": "ability",
+    "flavor": "You and your companion surround your foe in order to bring them down.",
+    "item_id": "pushover",
+    "item_name": "Pushover",
+    "keywords": [
+      "Companion",
+      "Melee",
+      "Strike",
+      "Weapon"
+    ],
+    "level": 1,
+    "scc": [
+      "mcdm.beastheart.v1/feature.ability.beastheart.level-1/pushover"
+    ],
+    "target": "One creature or object",
+    "type": "feature/ability/beastheart/level-1"
+  },
+  "name": "Pushover",
+  "target": "One creature or object",
+  "type": "feature",
+  "usage": "Main action"
+}

@@ -1,0 +1,105 @@
+{
+  "agility": 2,
+  "ev": "40",
+  "features": [
+    {
+      "ability_type": "Signature Ability",
+      "distance": "Ranged 10",
+      "effects": [
+        {
+          "roll": "Power Roll + 4",
+          "tier1": "12 damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2; M \u003c 2 4 acid damage",
+          "tier2": "17 damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3; M \u003c 3 6 acid damage",
+          "tier3": "21 damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 4; M \u003c 4 8 acid damage"
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "🏹",
+      "keywords": [
+        "Green",
+        "Magic",
+        "Ranged",
+        "Strike"
+      ],
+      "name": "Verdant Rains",
+      "target": "Two creatures or objects",
+      "type": "feature",
+      "usage": "Main action"
+    },
+    {
+      "cost": "4 Malice",
+      "distance": "5 cube within 10",
+      "effects": [
+        {
+          "roll": "Power Roll + 4",
+          "tier1": "6 damage",
+          "tier2": "10 damage; [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (EoT)",
+          "tier3": "14 damage; [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)"
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "🔳",
+      "keywords": [
+        "Area",
+        "Green",
+        "Magic",
+        "Ranged"
+      ],
+      "name": "The Chasm Engulfs",
+      "target": "Each enemy in the area",
+      "type": "feature",
+      "usage": "Main action"
+    },
+    {
+      "distance": "Self",
+      "effects": [
+        {
+          "effect": "**Trigger:** The elementalist takes damage.\n**Effect:** The elementalist can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) up to 4 squares. Each creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the space they leave or appear in takes 4 corruption damage."
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "❗️",
+      "keywords": [
+        "Magic",
+        "Void"
+      ],
+      "name": "Maw of the Abyss",
+      "target": "Self",
+      "type": "feature",
+      "usage": "Triggered action"
+    },
+    {
+      "effects": [
+        {
+          "effect": "At the start of an encounter, the elementalist chooses one creature within their [line of effect](scc.v1:mcdm.heroes.v1/rule.combat/line-of-effect). Both the elementalist and the creature can add a d3 roll to power rolls they make against each other."
+        }
+      ],
+      "feature_type": "trait",
+      "icon": "⭐️",
+      "name": "Rivalry",
+      "type": "feature"
+    }
+  ],
+  "free_strike": 8,
+  "intuition": 3,
+  "keywords": [
+    "Humanoid",
+    "Rival"
+  ],
+  "level": 8,
+  "metadata": {
+    "scc": "mcdm.monsters.v1/monster.rival.3rd-echelon.statblock/rival-elementalist",
+    "source": "mcdm.monsters.v1"
+  },
+  "might": 0,
+  "name": "Rival Elementalist",
+  "organization": "Elite",
+  "presence": 0,
+  "reason": 4,
+  "role": "Controller",
+  "size": "1M",
+  "speed": 5,
+  "stability": 1,
+  "stamina": "180",
+  "type": "statblock"
+}

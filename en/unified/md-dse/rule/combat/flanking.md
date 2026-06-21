@@ -1,0 +1,16 @@
+---
+file_basename: flanking
+file_dpath: rule/combat
+item_id: flanking
+item_name: Flanking
+name: Flanking
+scc: mcdm.heroes.v1/rule.combat/flanking
+source: mcdm.heroes.v1
+type: rule
+---
+
+When you and one or more allies are [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the same enemy and on opposite sides of the enemy, you are flanking that enemy. While flanking an enemy, you gain an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on [melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) [strikes](scc.v1:mcdm.heroes.v1/rule.combat/strike) against them.
+
+If you're unsure whether your hero and an ally are flanking a foe, imagine a line extending from the center of your space to the center of your ally's space. If that line passes through opposite sides or corners of the enemy's space, then you and your ally are flanking the enemy.
+
+You must have [line of effect](scc.v1:mcdm.heroes.v1/rule.combat/line-of-effect) to the enemy and be able to take [triggered actions](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action) to gain or grant the flanking benefit.

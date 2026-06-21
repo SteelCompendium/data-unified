@@ -1,0 +1,20 @@
+{
+  "effects": [
+    {
+      "effect": "You can push your body to move at incredible [speeds](scc.v1:mcdm.heroes.v1/rule.character/speed). Your [speed](scc.v1:mcdm.heroes.v1/rule.character/speed) is 7."
+    }
+  ],
+  "feature_type": "trait",
+  "metadata": {
+    "action_type": "feature",
+    "feature_type": "trait",
+    "item_id": "lightning-nimbleness",
+    "item_name": "Lightning Nimbleness",
+    "scc": [
+      "mcdm.heroes.v1/feature.trait.memonek/lightning-nimbleness"
+    ],
+    "type": "feature/trait/memonek"
+  },
+  "name": "Lightning Nimbleness",
+  "type": "feature"
+}

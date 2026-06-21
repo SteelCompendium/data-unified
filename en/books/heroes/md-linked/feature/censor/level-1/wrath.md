@@ -1,0 +1,23 @@
+---
+class: censor
+level: "1"
+name: Wrath
+scc: mcdm.heroes.v1/feature.censor.level-1/wrath
+type: feature
+---
+
+The power you serve grants you a [Heroic Resource](../../../rule/resource/heroic-resource.md) called wrath, fueling your abilities as you [censor](../../../class/censor.md) those your church deems to be heretics.
+
+## Wrath in Combat
+
+At the start of a combat encounter or some other stressful situation tracked in [combat rounds](../../../rule/combat/combat-round.md) (as determined by the Director), you gain wrath equal to your [Victories](../../../rule/resource/victories.md). At the start of each of your [turns](../../../rule/combat/turn.md) during combat, you gain 2 wrath.
+
+Additionally, the first time each [combat round](../../../rule/combat/combat-round.md) that a creature judged by you (see [Judgment](../../ability/censor/level-1/judgment.md) below) deals damage to you, you gain 1 wrath. The first time each [combat round](../../../rule/combat/combat-round.md) that you deal damage to a creature judged by you, you gain 1 wrath.
+
+You lose any remaining wrath at the end of the encounter.
+
+## Wrath Outside of Combat
+
+Though you can't gain wrath outside of combat, you can use your [heroic abilities](../../../rule/general/heroic-ability.md) and effects that cost wrath without spending it. Whenever you use an ability or effect outside of combat that costs wrath, you can't use that same ability or effect outside of combat again until you earn 1 or more [Victories](../../../rule/resource/victories.md) or finish a [respite](../../../rule/resource/respite.md).
+
+When you use an ability outside of combat that lets you spend unlimited wrath on its effect, you can use it as if you had spent an amount of wrath equal to your [Victories](../../../rule/resource/victories.md). (Such abilities aren't part of the core rules for the [censor](../../../class/censor.md), but they might appear in future products.)

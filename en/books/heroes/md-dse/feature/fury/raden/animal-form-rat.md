@@ -1,0 +1,28 @@
+---
+action_type: feature
+class: fury
+feature_type: feature
+file_basename: animal-form-rat
+file_dpath: feature/fury/raden
+item_id: animal-form-rat
+item_name: 'Animal Form: Rat'
+kit: raden
+name: 'Animal Form: Rat'
+scc: mcdm.heroes.v1/feature.fury.raden/animal-form-rat
+source: mcdm.heroes.v1
+type: feature
+---
+
+```ds-feature
+effects:
+    - effect: While you are in your rat form, your [size](scc.v1:mcdm.heroes.v1/rule.character/size) is 1T and you can automatically climb at full [speed](scc.v1:mcdm.heroes.v1/rule.character/speed) while moving. You can use the [Hide](scc.v1:mcdm.heroes.v1/feature.common.maneuvers/hide) maneuver as a [free maneuver](scc.v1:mcdm.heroes.v1/rule.combat/free-maneuver), you can use your allies as [cover](scc.v1:mcdm.heroes.v1/rule.combat/cover) when you hide, and you can stay hidden while you move through squares occupied by any creature. Additionally, you gain an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on [tests](scc.v1:mcdm.heroes.v1/rule.test/test) made to climb other creatures. You can't use any abilities while in this form except for [Aspect of the Wild](scc.v1:mcdm.heroes.v1/feature.ability.fury.stormwight-kits/aspect-of-the-wild).
+feature_type: feature
+metadata:
+    class: fury
+    kit: raden
+    name: 'Animal Form: Rat'
+    scc: mcdm.heroes.v1/feature.fury.raden/animal-form-rat
+    type: feature
+name: 'Animal Form: Rat'
+type: feature
+```

@@ -1,0 +1,15 @@
+effects:
+    - effect: You can ask the Director for two clues regarding an upcoming encounter or negotiation. One of the clues can be false.
+feature_type: feature
+metadata:
+    action_type: feature
+    class: troubadour
+    feature_type: feature
+    item_id: foreshadowing
+    item_name: Foreshadowing
+    level: 4
+    scc:
+        - mcdm.heroes.v1/feature.troubadour.level-4/foreshadowing
+    type: feature/troubadour/level-4
+name: Foreshadowing
+type: feature

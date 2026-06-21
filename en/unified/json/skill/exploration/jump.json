@@ -1,0 +1,6 @@
+{
+  "content": "Leap vertical and horizontal [distances](scc.v1:mcdm.heroes.v1/rule.combat/distance).",
+  "name": "Jump",
+  "scc": "mcdm.heroes.v1/skill.exploration/jump",
+  "type": "skill"
+}

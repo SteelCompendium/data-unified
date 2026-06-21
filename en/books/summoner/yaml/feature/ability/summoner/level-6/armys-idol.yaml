@@ -1,0 +1,33 @@
+distance: 4 burst
+effects:
+    - effect: You can use this ability as if in the space of one of your minions within your Summoner's Range.
+      name: Effect
+feature_type: ability
+flavor: Your champion's appearance has an enchanting impact on you and your allies.
+keywords:
+    - Area
+    - Champion
+    - Magic
+metadata:
+    action_type: Maneuver
+    class: summoner
+    content: "*Your champion's appearance has an enchanting impact on you and your allies.*\n\n| **Area, Champion, Magic** | **Maneuver** |\n|---------------------------|-------------:|\n| **\U0001F4CF 4 burst** | **\U0001F3AF Self and each ally in the area** |\n\n**Effect:** You can use this ability as if in the space of one of your minions within your Summoner's Range.\n\nUntil the end of the encounter or you become [dying](scc.v1:mcdm.heroes.v1/rule.health/dying), each target has a +2 [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to [saving throws](scc.v1:mcdm.heroes.v1/rule.general/saving-throw).\n\nEach target can immediately make each of their [saving throws](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) and stand up from [prone](scc.v1:mcdm.heroes.v1/condition/prone)."
+    distance: 4 burst
+    feature_source: summoner
+    feature_type: ability
+    flavor: Your champion's appearance has an enchanting impact on you and your allies.
+    item_id: armys-idol
+    item_name: Army's Idol
+    keywords:
+        - Area
+        - Champion
+        - Magic
+    level: 6
+    scc:
+        - mcdm.summoner.v1/feature.ability.summoner.level-6/armys-idol
+    target: Self and each ally in the area
+    type: feature/ability/summoner/level-6
+name: Army's Idol
+target: Self and each ally in the area
+type: feature
+usage: Maneuver

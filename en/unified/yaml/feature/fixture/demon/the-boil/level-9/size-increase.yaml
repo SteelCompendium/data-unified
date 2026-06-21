@@ -1,0 +1,13 @@
+effects:
+    - effect: The boil is now size 3.
+feature_type: feature
+metadata:
+    action_type: feature
+    feature_type: feature
+    item_id: size-increase
+    item_name: Size Increase
+    scc:
+        - mcdm.summoner.v1/feature.fixture.demon.the-boil.level-9/size-increase
+    type: feature/fixture/demon/the-boil/level-9
+name: Size Increase
+type: feature

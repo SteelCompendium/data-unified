@@ -1,0 +1,29 @@
+cost: 11 Focus
+distance: 3 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)
+effects:
+    - effect: Each target can make a [ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) that gains an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) against any enemy marked by you within [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance) of their [ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike). A target ignores [banes](scc.v1:mcdm.heroes.v1/rule.dice/bane) and double [banes](scc.v1:mcdm.heroes.v1/rule.dice/bane) when making this [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike).
+      name: Effect
+feature_type: ability
+flavor: What makes a good soldier? The ability to fire four shots a minute in any weather.
+keywords:
+    - Area
+metadata:
+    action_type: Main action
+    class: tactician
+    content: "\n*What makes a good soldier? The ability to fire four shots a minute in any weather.*\n\n| **Area**       |                       **Main action** |\n|----------------|--------------------------------------:|\n| **\U0001F4CF 3 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)** | **\U0001F3AF Self and each ally in the area** |\n\n**Effect:** Each target can make a [ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) that gains an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) against any enemy marked by you within [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance) of their [ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike). A target ignores [banes](scc.v1:mcdm.heroes.v1/rule.dice/bane) and double [banes](scc.v1:mcdm.heroes.v1/rule.dice/bane) when making this [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)."
+    distance: 3 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)
+    feature_type: ability
+    flavor: What makes a good soldier? The ability to fire four shots a minute in any weather.
+    item_id: blot-out-the-sun
+    item_name: Blot Out the Sun!
+    keywords:
+        - Area
+    level: 9
+    scc:
+        - mcdm.heroes.v1/feature.ability.tactician.level-9/blot-out-the-sun
+    target: Self and each ally in the area
+    type: feature/ability/tactician/level-9
+name: Blot Out the Sun!
+target: Self and each ally in the area
+type: feature
+usage: Main action

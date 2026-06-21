@@ -1,0 +1,39 @@
+cost: 9 Insight
+distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
+effects:
+    - roll: Power Roll + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)
+      tier1: 3 + A damage; vertical [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5
+      tier2: 6 + A damage; vertical [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 10
+      tier3: 9 + A damage; vertical [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 15
+    - effect: A creature [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement) by this ability must be moved straight upward.
+      name: Effect
+feature_type: ability
+flavor: Your attack produces a cloud of black ash that launches an enemy into the air.
+keywords:
+    - Magic
+    - '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)'
+    - '[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)'
+    - Weapon
+metadata:
+    action_type: Main action
+    class: shadow
+    content: "\n*Your attack produces a cloud of black ash that launches an enemy into the air.*\n\n| **Magic, [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), Weapon** |     **Main action** |\n|----------------------------------|--------------------:|\n| **\U0001F4CF [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1**                   | **\U0001F3AF One creature** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility):**\n\n- **≤11:** 3 + A damage; vertical [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5\n- **12-16:** 6 + A damage; vertical [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 10\n- **17+:** 9 + A damage; vertical [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 15\n\n**Effect:** A creature [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement) by this ability must be moved straight upward."
+    distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
+    feature_type: ability
+    flavor: Your attack produces a cloud of black ash that launches an enemy into the air.
+    item_id: black-ash-eruption
+    item_name: Black Ash Eruption
+    keywords:
+        - Magic
+        - '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)'
+        - '[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)'
+        - Weapon
+    level: 6
+    scc:
+        - mcdm.heroes.v1/feature.ability.shadow.level-6/black-ash-eruption
+    target: One creature
+    type: feature/ability/shadow/level-6
+name: Black Ash Eruption
+target: One creature
+type: feature
+usage: Main action

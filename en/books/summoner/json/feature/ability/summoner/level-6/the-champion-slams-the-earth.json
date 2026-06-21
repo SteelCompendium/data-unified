@@ -1,0 +1,50 @@
+{
+  "distance": "4 cube within 1",
+  "effects": [
+    {
+      "roll": "Power Roll + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason)",
+      "tier1": "5 [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage); M \u003c WEAK [prone](scc.v1:mcdm.heroes.v1/condition/prone) and can't stand ([save ends](scc.v1:mcdm.heroes.v1/rule.general/saving-throw))",
+      "tier2": "8 [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage); M \u003c AVERAGE [prone](scc.v1:mcdm.heroes.v1/condition/prone) and can't stand ([save ends](scc.v1:mcdm.heroes.v1/rule.general/saving-throw))",
+      "tier3": "11 [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage); M \u003c STRONG [prone](scc.v1:mcdm.heroes.v1/condition/prone) and can't stand ([save ends](scc.v1:mcdm.heroes.v1/rule.general/saving-throw))"
+    },
+    {
+      "effect": "You can use this ability as if in the space of one of your minions within your Summoner's Range.",
+      "name": "Effect"
+    }
+  ],
+  "feature_type": "ability",
+  "flavor": "Your champion lays their fury upon those unfortunate enough to be in their wake.",
+  "keywords": [
+    "Area",
+    "Champion",
+    "Magic",
+    "Weapon"
+  ],
+  "metadata": {
+    "action_type": "Main action",
+    "class": "summoner",
+    "content": "*Your champion lays their fury upon those unfortunate enough to be in their wake.*\n\n| **Area, Champion, Magic, Weapon** | **Main action** |\n|-----------------------------------|----------------:|\n| **📏 4 cube within 1** | **🎯 Each enemy and object in the area** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason):**\n\n- **≤11:** 5 [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage); M \u003c WEAK [prone](scc.v1:mcdm.heroes.v1/condition/prone) and can't stand ([save ends](scc.v1:mcdm.heroes.v1/rule.general/saving-throw))\n- **12-16:** 8 [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage); M \u003c AVERAGE [prone](scc.v1:mcdm.heroes.v1/condition/prone) and can't stand ([save ends](scc.v1:mcdm.heroes.v1/rule.general/saving-throw))\n- **17+:** 11 [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage); M \u003c STRONG [prone](scc.v1:mcdm.heroes.v1/condition/prone) and can't stand ([save ends](scc.v1:mcdm.heroes.v1/rule.general/saving-throw))\n\n**Effect:** You can use this ability as if in the space of one of your minions within your Summoner's Range.\n\n**Special:** You can change the [damage type](scc.v1:mcdm.heroes.v1/rule.damage/damage-type) to be a type that your champion deals on their stat block (see [Portfolio Champion](scc.v1:mcdm.summoner.v1/feature.summoner.level-8/portfolio-champion)).",
+    "distance": "4 cube within 1",
+    "feature_source": "summoner",
+    "feature_type": "ability",
+    "flavor": "Your champion lays their fury upon those unfortunate enough to be in their wake.",
+    "item_id": "the-champion-slams-the-earth",
+    "item_name": "The Champion Slams the Earth",
+    "keywords": [
+      "Area",
+      "Champion",
+      "Magic",
+      "Weapon"
+    ],
+    "level": 6,
+    "scc": [
+      "mcdm.summoner.v1/feature.ability.summoner.level-6/the-champion-slams-the-earth"
+    ],
+    "target": "Each enemy and object in the area",
+    "type": "feature/ability/summoner/level-6"
+  },
+  "name": "The Champion Slams the Earth",
+  "target": "Each enemy and object in the area",
+  "type": "feature",
+  "usage": "Main action"
+}

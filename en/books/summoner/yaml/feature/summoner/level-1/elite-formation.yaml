@@ -1,0 +1,16 @@
+effects:
+    - effect: Each of your minions have their [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) increased by 3 and their [stability](scc.v1:mcdm.heroes.v1/rule.character/stability) increased by 1.
+feature_type: feature
+metadata:
+    action_type: feature
+    class: summoner
+    feature_source: summoner
+    feature_type: feature
+    item_id: elite-formation
+    item_name: Elite Formation
+    level: 1
+    scc:
+        - mcdm.summoner.v1/feature.summoner.level-1/elite-formation
+    type: feature/summoner/level-1
+name: Elite Formation
+type: feature

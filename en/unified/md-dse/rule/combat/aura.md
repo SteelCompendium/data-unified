@@ -1,0 +1,12 @@
+---
+file_basename: aura
+file_dpath: rule/combat
+item_id: aura
+item_name: Aura
+name: Aura
+scc: mcdm.heroes.v1/rule.combat/aura
+source: mcdm.heroes.v1
+type: rule
+---
+
+When an ability creates an aura, that area is expressed as "X aura." The number X is the radius of the aura, which always originates from you and moves with you for the duration of the ability that created it. A creature or object must be within X squares of you to be targeted by an aura ability.

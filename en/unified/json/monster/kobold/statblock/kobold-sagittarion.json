@@ -1,0 +1,63 @@
+{
+  "agility": 2,
+  "ev": "3 for four minions",
+  "features": [
+    {
+      "ability_type": "Signature Ability",
+      "distance": "Ranged 10",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "tier1": "2 damage",
+          "tier2": "4 damage",
+          "tier3": "5 damage"
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "🏹",
+      "keywords": [
+        "Ranged",
+        "Strike",
+        "Weapon"
+      ],
+      "name": "Composite Bow",
+      "target": "One creature or object per minion",
+      "type": "feature",
+      "usage": "Main action"
+    },
+    {
+      "effects": [
+        {
+          "effect": "While [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to an ally who also has this trait, the sagittarion has stability 1, has cover, and grants cover to allies."
+        }
+      ],
+      "feature_type": "trait",
+      "icon": "⭐️",
+      "name": "Shield? Shield!",
+      "type": "feature"
+    }
+  ],
+  "free_strike": 2,
+  "intuition": 0,
+  "keywords": [
+    "Humanoid",
+    "Kobold"
+  ],
+  "level": 1,
+  "metadata": {
+    "scc": "mcdm.monsters.v1/monster.kobold.statblock/kobold-sagittarion",
+    "source": "mcdm.monsters.v1"
+  },
+  "might": 0,
+  "name": "Kobold Sagittarion",
+  "organization": "Minion",
+  "presence": 0,
+  "reason": 0,
+  "role": "Artillery",
+  "size": "1S",
+  "speed": 5,
+  "stability": 0,
+  "stamina": "3",
+  "type": "statblock",
+  "with_captain": "+5 bonus to ranged distance"
+}

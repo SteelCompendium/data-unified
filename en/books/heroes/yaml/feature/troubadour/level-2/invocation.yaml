@@ -1,0 +1,15 @@
+effects:
+    - effect: You have a specific manner that helps define your presence on the battlefield. Choose one of the following features.
+feature_type: feature
+metadata:
+    action_type: feature
+    class: troubadour
+    feature_type: feature
+    item_id: invocation
+    item_name: Invocation
+    level: 2
+    scc:
+        - mcdm.heroes.v1/feature.troubadour.level-2/invocation
+    type: feature/troubadour/level-2
+name: Invocation
+type: feature

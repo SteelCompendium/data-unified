@@ -1,0 +1,27 @@
+alignment: good
+content: |-
+    **Domains:** Life, Nature, Storm, Sun
+
+    Salorna believes that nature is a moral good. That to behave in a manner not in accord with the natural balance (she would never use the word "order") is to commit offense against the gods.
+
+    Salorna teaches that [humans](scc.v1:mcdm.heroes.v1/ancestry/human) are a product of nature, so then a tilled farm is as much a natural phenomenon as a forest. Indeed, tilling the land is a form of caring for it. But she also teaches balance in all things. A land of farms and no trees would be just as unnatural to her as a land of all trees and no people.
+
+    Felling a tree for lumber is natural. People need lumber to make homes for shelter. This is proper and good. Felling a tree because it's in the way of a road is mere convenience and therefore a moral wrong. Salorna curses a straight road.
+
+    Killing for food is likewise natural. People need to eat and the pig knows this as well as the person. Killing for sport is a moral wrong, however. It is unnatural, Salorna says.
+
+    A wheel that harnesses the power of the river is a beautiful thing. [Humans](scc.v1:mcdm.heroes.v1/ancestry/human) and river physically connected. A dam that blocks the river is a desecration.
+
+    Some of Salorna's priests are [conduits](scc.v1:mcdm.heroes.v1/class/conduit); some are mages of the green. Both seek to preserve the balance and respect for nature. Because much of [Vasloria](scc.v1:mcdm.heroes.v1/rule.world/vasloria) is covered in elven forest, Salorna's druids are also often diplomats to the elves.
+
+    Salorna has few [censors](scc.v1:mcdm.heroes.v1/class/censor), but not none! Favoring light armor and [ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) weapons, her [censors](scc.v1:mcdm.heroes.v1/class/censor) are often mistaken for rangers. They seek to punish those who hunt for sport, or those who would defile the natural order.
+domains:
+    - Life
+    - Nature
+    - Storm
+    - Sun
+god_class: younger
+name: Salorna
+pantheon: vasloria
+scc: mcdm.heroes.v1/religion.god/salorna
+type: god

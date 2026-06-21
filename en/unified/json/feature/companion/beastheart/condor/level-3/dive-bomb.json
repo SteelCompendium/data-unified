@@ -1,0 +1,22 @@
+{
+  "effects": [
+    {
+      "effect": "Whenever the condor makes a strike while rampaging, they deal extra damage equal to the number of squares they've moved on their turn (to a maximum of 5)."
+    }
+  ],
+  "feature_type": "feature",
+  "metadata": {
+    "action_type": "feature",
+    "class": "beastheart",
+    "feature_type": "feature",
+    "item_id": "dive-bomb",
+    "item_name": "Dive Bomb",
+    "level": 3,
+    "scc": [
+      "mcdm.beastheart.v1/feature.companion.beastheart.condor.level-3/dive-bomb"
+    ],
+    "type": "feature/companion/beastheart/condor/level-3"
+  },
+  "name": "Dive Bomb",
+  "type": "feature"
+}

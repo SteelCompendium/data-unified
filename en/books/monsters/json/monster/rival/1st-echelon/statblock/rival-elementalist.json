@@ -1,0 +1,105 @@
+{
+  "agility": 0,
+  "ev": "16",
+  "features": [
+    {
+      "ability_type": "Signature Ability",
+      "distance": "Ranged 10",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "tier1": "7 damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1",
+          "tier2": "10 damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2",
+          "tier3": "13 damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3"
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "🏹",
+      "keywords": [
+        "Green",
+        "Magic",
+        "Ranged",
+        "Strike"
+      ],
+      "name": "The Writhing Green",
+      "target": "Two creatures or objects",
+      "type": "feature",
+      "usage": "Main action"
+    },
+    {
+      "cost": "3 Malice",
+      "distance": "3 cube within 10",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "tier1": "3 damage",
+          "tier2": "5 damage; [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (EoT)",
+          "tier3": "8 damage; [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)"
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "🔳",
+      "keywords": [
+        "Area",
+        "Green",
+        "Magic",
+        "Ranged"
+      ],
+      "name": "The Earth Devours",
+      "target": "Each enemy in the area",
+      "type": "feature",
+      "usage": "Main action"
+    },
+    {
+      "distance": "Self",
+      "effects": [
+        {
+          "effect": "**Trigger:** The elementalist takes damage.\n**Effect:** The elementalist can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) up to 2 squares. Each creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the space they leave takes 2 corruption damage."
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "❗️",
+      "keywords": [
+        "Magic",
+        "Void"
+      ],
+      "name": "Jaws of the Void",
+      "target": "Self",
+      "type": "feature",
+      "usage": "Triggered action"
+    },
+    {
+      "effects": [
+        {
+          "effect": "At the start of an encounter, the elementalist chooses one creature within their [line of effect](scc.v1:mcdm.heroes.v1/rule.combat/line-of-effect). Both the elementalist and the creature can add a d3 roll to power rolls they make against each other."
+        }
+      ],
+      "feature_type": "trait",
+      "icon": "⭐️",
+      "name": "Rivalry",
+      "type": "feature"
+    }
+  ],
+  "free_strike": 5,
+  "intuition": 1,
+  "keywords": [
+    "Humanoid",
+    "Rival"
+  ],
+  "level": 2,
+  "metadata": {
+    "scc": "mcdm.monsters.v1/monster.rival.1st-echelon.statblock/rival-elementalist",
+    "source": "mcdm.monsters.v1"
+  },
+  "might": 0,
+  "name": "Rival Elementalist",
+  "organization": "Elite",
+  "presence": 0,
+  "reason": 2,
+  "role": "Controller",
+  "size": "1M",
+  "speed": 5,
+  "stability": 1,
+  "stamina": "60",
+  "type": "statblock"
+}

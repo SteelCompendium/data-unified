@@ -1,0 +1,22 @@
+{
+  "effects": [
+    {
+      "effect": "The first time each [combat round](scc.v1:mcdm.heroes.v1/rule.combat/combat-round) that a creature is [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement), you gain 3 clarity instead of 2."
+    }
+  ],
+  "feature_type": "feature",
+  "metadata": {
+    "action_type": "feature",
+    "class": "talent",
+    "feature_type": "feature",
+    "item_id": "clear-mind",
+    "item_name": "Clear Mind",
+    "level": 10,
+    "scc": [
+      "mcdm.heroes.v1/feature.talent.level-10/clear-mind"
+    ],
+    "type": "feature/talent/level-10"
+  },
+  "name": "Clear Mind",
+  "type": "feature"
+}

@@ -1,0 +1,15 @@
+effects:
+    - effect: You have learned to be more preemptive on the battlefield, thinking more steps ahead than your opponents. You can target two creatures with your Mark ability.
+feature_type: feature
+metadata:
+    action_type: feature
+    class: tactician
+    feature_type: feature
+    item_id: anticipation
+    item_name: Anticipation
+    level: 5
+    scc:
+        - mcdm.heroes.v1/feature.tactician.level-5/anticipation
+    type: feature/tactician/level-5
+name: Anticipation
+type: feature

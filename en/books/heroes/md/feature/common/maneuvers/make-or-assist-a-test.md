@@ -1,0 +1,9 @@
+---
+name: Make or Assist a Test
+scc: mcdm.heroes.v1/feature.common.maneuvers/make-or-assist-a-test
+type: feature
+---
+
+Many [tests](scc.v1:mcdm.heroes.v1/rule.test/test) are maneuvers if made in combat. Searching a chest with a [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) [test](scc.v1:mcdm.heroes.v1/rule.test/test), picking a door's lock with an [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility) [test](scc.v1:mcdm.heroes.v1/rule.test/test), or lifting a portcullis with a [Might](scc.v1:mcdm.heroes.v1/rule.character/might) [test](scc.v1:mcdm.heroes.v1/rule.test/test) would all be maneuvers. Assisting a [test](scc.v1:mcdm.heroes.v1/rule.test/test) is also a maneuver in combat (see Assist a [Test](scc.v1:mcdm.heroes.v1/rule.test/test) in Chapter 9: [Tests](scc.v1:mcdm.heroes.v1/chapter/tests)).
+
+Complex or time-consuming [tests](scc.v1:mcdm.heroes.v1/rule.test/test) might require a main action if made in combat—or could take so long that they can't be made during combat at all. Other [tests](scc.v1:mcdm.heroes.v1/rule.test/test) that take no time at all, such as a [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) [test](scc.v1:mcdm.heroes.v1/rule.test/test) to recall lore about mummies, are usually [free maneuvers](scc.v1:mcdm.heroes.v1/rule.combat/free-maneuver) in combat. The Director has the final say regarding which [tests](scc.v1:mcdm.heroes.v1/rule.test/test) can be made as maneuvers.

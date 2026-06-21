@@ -1,0 +1,41 @@
+{
+  "ability_type": "Triggered",
+  "cost": "11 Focus",
+  "distance": "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10",
+  "effects": [
+    {
+      "effect": "The target is killed. Additionally, the creature who caused the target to be [winded](scc.v1:mcdm.heroes.v1/rule.health/winded) can spend a [Recovery](scc.v1:mcdm.heroes.v1/rule.health/recoveries).",
+      "name": "Effect"
+    }
+  ],
+  "feature_type": "ability",
+  "flavor": "You point out an opening to your ally so they can land a killing blow.",
+  "keywords": [
+    "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)"
+  ],
+  "metadata": {
+    "ability_type": "Triggered",
+    "action_type": "Free triggered",
+    "class": "tactician",
+    "content": "\n*You point out an opening to your ally so they can land a killing blow.*\n\n| **[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)**       |  **Free triggered** |\n|------------------|--------------------:|\n| **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10** | **🎯 One creature** |\n\n**Trigger:** The target is not a leader or solo creature, and becomes [winded](scc.v1:mcdm.heroes.v1/rule.health/winded).\n\n**Effect:** The target is killed. Additionally, the creature who caused the target to be [winded](scc.v1:mcdm.heroes.v1/rule.health/winded) can spend a [Recovery](scc.v1:mcdm.heroes.v1/rule.health/recoveries).",
+    "distance": "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10",
+    "feature_type": "ability",
+    "flavor": "You point out an opening to your ally so they can land a killing blow.",
+    "item_id": "finish-them",
+    "item_name": "Finish Them!",
+    "keywords": [
+      "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)"
+    ],
+    "level": 8,
+    "scc": [
+      "mcdm.heroes.v1/feature.ability.tactician.level-8/finish-them"
+    ],
+    "target": "One creature",
+    "type": "feature/ability/tactician/level-8"
+  },
+  "name": "Finish Them!",
+  "target": "One creature",
+  "trigger": "The target is not a leader or solo creature, and becomes [winded](scc.v1:mcdm.heroes.v1/rule.health/winded).",
+  "type": "feature",
+  "usage": "Free triggered"
+}

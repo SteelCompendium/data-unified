@@ -1,0 +1,104 @@
+---
+features:
+    - cost: Encounter
+      distance: Melee 1
+      icon: "\U0001F5E1"
+      keywords:
+        - Melee
+        - Strike
+        - Weapon
+      level: 4
+      name: Leaping Attack
+      power_roll:
+        formula: + highest characteristic
+        tiers:
+            high: 12 damage; M < STRONG, [prone](scc.v1:mcdm.heroes.v1/condition/prone)
+            low: 5 damage; M < WEAK, [prone](scc.v1:mcdm.heroes.v1/condition/prone)
+            mid: 9 damage; M < AVERAGE, [prone](scc.v1:mcdm.heroes.v1/condition/prone)
+      sections:
+        - label: Effect
+          text: The hopper can jump up to their speed in a straight line before the [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) without provoking [opportunity attacks](scc.v1:mcdm.heroes.v1/rule.combat/opportunity-attack). If they jump 2 or more squares this way, they gain 1 [surge](scc.v1:mcdm.heroes.v1/rule.resource/surge).
+      target: One creature or object
+      usage: Main action
+    - cost: Encounter
+      distance: Ranged 5
+      icon: "\U0001F3F9"
+      keywords:
+        - Ranged
+        - Strike
+        - Weapon
+      level: 7
+      name: Three-Poison Dart
+      power_roll:
+        formula: + highest characteristic
+        tiers:
+            high: 12 poison damage; M < STRONG, [dazed](scc.v1:mcdm.heroes.v1/condition/dazed), [slowed](scc.v1:mcdm.heroes.v1/condition/slowed), and [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
+            low: 5 poison damage; M < WEAK, [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
+            mid: 9 poison damage; M < AVERAGE, [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) and [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
+      target: One creature
+      usage: Main action
+    - cost: Encounter
+      distance: Melee 5
+      icon: ❗️
+      keywords:
+        - Melee
+      level: 10
+      name: Trip of the Tongue
+      sections:
+        - label: Trigger
+          text: A creature moves within distance.
+        - label: Effect
+          text: If the target has M < AVERAGE, their movement ends, they are knocked [prone](scc.v1:mcdm.heroes.v1/condition/prone), and one ally within distance gains 2 [surges](scc.v1:mcdm.heroes.v1/rule.resource/surge).
+      target: One creature or object
+      usage: Triggered action
+file_basename: angulotl-hopper
+file_dpath: monster/retainer/advancement-features
+item_id: angulotl-hopper
+item_name: Angulotl Hopper Advancement Features
+name: Angulotl Hopper Advancement Features
+scc: mcdm.monsters.v1/monster.retainer.advancement-features/angulotl-hopper
+source: mcdm.monsters.v1
+type: featureblock
+---
+
+> **Level 4 Retainer Advancement Ability**
+
+> 🗡 **Leaping Attack (Encounter)**
+>
+> | **Melee, Strike, Weapon** |               **Main action** |
+> |---------------------------|------------------------------:|
+> | **📏 Melee 1**            | **🎯 One creature or object** |
+>
+> **Power Roll + highest characteristic:**
+>
+> - **≤11:** 5 damage; M < WEAK, [prone](scc.v1:mcdm.heroes.v1/condition/prone)
+> - **12-16:** 9 damage; M < AVERAGE, [prone](scc.v1:mcdm.heroes.v1/condition/prone)
+> - **17+:** 12 damage; M < STRONG, [prone](scc.v1:mcdm.heroes.v1/condition/prone)
+>
+> **Effect:** The hopper can jump up to their speed in a straight line before the [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) without provoking [opportunity attacks](scc.v1:mcdm.heroes.v1/rule.combat/opportunity-attack). If they jump 2 or more squares this way, they gain 1 [surge](scc.v1:mcdm.heroes.v1/rule.resource/surge).
+
+> **Level 7 Retainer Advancement Ability**
+
+> 🏹 **Three-Poison Dart (Encounter)**
+>
+> | **Ranged, Strike, Weapon** |     **Main action** |
+> |----------------------------|--------------------:|
+> | **📏 Ranged 5**            | **🎯 One creature** |
+>
+> **Power Roll + highest characteristic:**
+>
+> - **≤11:** 5 poison damage; M < WEAK, [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
+> - **12-16:** 9 poison damage; M < AVERAGE, [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) and [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
+> - **17+:** 12 poison damage; M < STRONG, [dazed](scc.v1:mcdm.heroes.v1/condition/dazed), [slowed](scc.v1:mcdm.heroes.v1/condition/slowed), and [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
+
+> **Level 10 Retainer Advancement Ability**
+
+> ❗️ **Trip of the Tongue (Encounter)**
+>
+> | **Melee**      |          **Triggered action** |
+> |----------------|------------------------------:|
+> | **📏 Melee 5** | **🎯 One creature or object** |
+>
+> **Trigger:** A creature moves within distance.
+>
+> **Effect:** If the target has M < AVERAGE, their movement ends, they are knocked [prone](scc.v1:mcdm.heroes.v1/condition/prone), and one ally within distance gains 2 [surges](scc.v1:mcdm.heroes.v1/rule.resource/surge).

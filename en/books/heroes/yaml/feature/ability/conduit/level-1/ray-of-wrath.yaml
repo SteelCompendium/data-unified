@@ -1,0 +1,36 @@
+distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
+effects:
+    - roll: Power Roll + [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)
+      tier1: 2 + I damage
+      tier2: 4 + I damage
+      tier3: 6 + I damage
+    - effect: You can have this ability deal holy damage.
+      name: Effect
+feature_type: ability
+flavor: You unleash a blast of holy light upon your foe.
+keywords:
+    - Magic
+    - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'
+    - '[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)'
+metadata:
+    action_type: Main action
+    class: conduit
+    content: "\n*You unleash a blast of holy light upon your foe.*\n\n| **Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)**  |               **Main action** |\n|----------------------------|------------------------------:|\n| **\U0001F4CF [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**           | **\U0001F3AF One creature or object** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition):**\n\n- **≤11:** 2 + I damage\n- **12-16:** 4 + I damage\n- **17+:** 6 + I damage\n\n**Effect:** You can have this ability deal holy damage."
+    distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
+    feature_type: ability
+    flavor: You unleash a blast of holy light upon your foe.
+    item_id: ray-of-wrath
+    item_name: Ray of Wrath
+    keywords:
+        - Magic
+        - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'
+        - '[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)'
+    level: 1
+    scc:
+        - mcdm.heroes.v1/feature.ability.conduit.level-1/ray-of-wrath
+    target: One creature or object
+    type: feature/ability/conduit/level-1
+name: Ray of Wrath
+target: One creature or object
+type: feature
+usage: Main action

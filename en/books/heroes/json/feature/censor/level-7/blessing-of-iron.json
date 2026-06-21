@@ -1,0 +1,22 @@
+{
+  "effects": [
+    {
+      "effect": "The gods send divine favor to you and your allies. While you are not [dying](scc.v1:mcdm.heroes.v1/rule.health/dying), enemies take a [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) on [strikes](scc.v1:mcdm.heroes.v1/rule.combat/strike) against you or any ally within 3 squares of you."
+    }
+  ],
+  "feature_type": "feature",
+  "metadata": {
+    "action_type": "feature",
+    "class": "censor",
+    "feature_type": "feature",
+    "item_id": "blessing-of-iron",
+    "item_name": "Blessing of Iron",
+    "level": 7,
+    "scc": [
+      "mcdm.heroes.v1/feature.censor.level-7/blessing-of-iron"
+    ],
+    "type": "feature/censor/level-7"
+  },
+  "name": "Blessing of Iron",
+  "type": "feature"
+}

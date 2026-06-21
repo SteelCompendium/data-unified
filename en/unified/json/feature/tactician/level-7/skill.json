@@ -1,0 +1,22 @@
+{
+  "effects": [
+    {
+      "effect": "You gain one skill of your choice."
+    }
+  ],
+  "feature_type": "feature",
+  "metadata": {
+    "action_type": "feature",
+    "class": "tactician",
+    "feature_type": "feature",
+    "item_id": "skill",
+    "item_name": "Skill",
+    "level": 7,
+    "scc": [
+      "mcdm.heroes.v1/feature.tactician.level-7/skill"
+    ],
+    "type": "feature/tactician/level-7"
+  },
+  "name": "Skill",
+  "type": "feature"
+}

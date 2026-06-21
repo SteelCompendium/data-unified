@@ -1,0 +1,15 @@
+---
+file_basename: self-taught
+file_dpath: complication
+flavor: While your peers were learning their trades in fancy schools, you honed your capabilities on the mean streets with nothing but your own instinct as a guide. What you lost in polish and tactical acumen, you now make up for in raw power.
+item_id: self-taught
+item_name: Self-Taught
+name: Self-Taught
+scc: mcdm.heroes.v1/complication/self-taught
+source: mcdm.heroes.v1
+type: complication
+---
+
+While your peers were learning their trades in fancy schools, you honed your capabilities on the mean streets with nothing but your own instinct as a [guide](scc.v1:mcdm.heroes.v1/rule.downtime/guide). What you lost in polish and tactical acumen, you now make up for in raw power.
+
+**Benefit and Drawback:** At the start of each of your [turns](scc.v1:mcdm.heroes.v1/rule.combat/turn) during combat, you can forgo gaining your [Heroic Resource](scc.v1:mcdm.heroes.v1/rule.resource/heroic-resource) until the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn). If you do, your [strikes](scc.v1:mcdm.heroes.v1/rule.combat/strike) gain a damage [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) equal to your highest [characteristic](scc.v1:mcdm.heroes.v1/rule.character/characteristic) score until the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn).

@@ -1,0 +1,35 @@
+cost: 5 Piety
+distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
+effects:
+    - roll: Power Roll + [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)
+      tier1: 4 + I holy damage; P < WEAK, before taking damage, the target makes a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against a target you choose
+      tier2: 7 + I holy damage; P < AVERAGE, before taking damage, the target uses an ability of your choice and you choose any targets for that ability
+      tier3: 11 + I holy damage; P < STRONG, before taking damage, the target shifts up to their [speed](scc.v1:mcdm.heroes.v1/rule.character/speed) to a location you choose, uses an ability of your choice, and you choose any targets for that ability
+feature_type: ability
+flavor: You speak with the voice of your [saint](scc.v1:mcdm.heroes.v1/rule.world/saint), commanding your enemies.
+keywords:
+    - Magic
+    - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'
+    - '[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)'
+metadata:
+    action_type: Main action
+    class: conduit
+    content: "\n*You speak with the voice of your [saint](scc.v1:mcdm.heroes.v1/rule.world/saint), commanding your enemies.*\n\n| **Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)** |     **Main action** |\n|---------------------------|--------------------:|\n| **\U0001F4CF [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**          | **\U0001F3AF One creature** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition):**\n\n- **≤11:** 4 + I holy damage; P < WEAK, before taking damage, the target makes a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against a target you choose\n- **12-16:** 7 + I holy damage; P < AVERAGE, before taking damage, the target uses an ability of your choice and you choose any targets for that ability\n- **17+:** 11 + I holy damage; P < STRONG, before taking damage, the target shifts up to their [speed](scc.v1:mcdm.heroes.v1/rule.character/speed) to a location you choose, uses an ability of your choice, and you choose any targets for that ability"
+    distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
+    feature_type: ability
+    flavor: You speak with the voice of your [saint](scc.v1:mcdm.heroes.v1/rule.world/saint), commanding your enemies.
+    item_id: the-gods-command-you-obey
+    item_name: The Gods Command You Obey
+    keywords:
+        - Magic
+        - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'
+        - '[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)'
+    level: 2
+    scc:
+        - mcdm.heroes.v1/feature.ability.conduit.level-2/the-gods-command-you-obey
+    target: One creature
+    type: feature/ability/conduit/level-2
+name: The Gods Command You Obey
+target: One creature
+type: feature
+usage: Main action

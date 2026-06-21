@@ -1,0 +1,77 @@
+agility: 1
+ev: "6"
+features:
+    - ability_type: Signature Ability
+      distance: Melee 1
+      effects:
+        - roll: Power Roll + 2
+          tier1: 6 damage
+          tier2: 9 damage
+          tier3: 12 damage; [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)
+      feature_type: ability
+      icon: "\U0001F5E1"
+      keywords:
+        - Melee
+        - Strike
+        - Weapon
+      name: Lockjaw
+      target: One creature or object
+      type: feature
+      usage: Main action
+    - cost: 3 Malice
+      distance: 1 burst
+      effects:
+        - roll: Power Roll + 2
+          tier1: 3 damage; A < 0 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
+          tier2: 5 damage; A < 1 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
+          tier3: 8 damage; A < 2 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
+      feature_type: ability
+      icon: ❇️
+      keywords:
+        - Area
+        - Weapon
+      name: Flurry of Bites
+      target: Each enemy in the area
+      type: feature
+      usage: Main action
+    - distance: Melee 1
+      effects:
+        - effect: |-
+            **Trigger:** An ally deals damage to the target.
+            **Effect:** The bruxer makes a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against the target.
+      feature_type: ability
+      icon: ❗️
+      keywords:
+        - Melee
+        - Weapon
+      name: Ready Rodent
+      target: One creature
+      type: feature
+      usage: Triggered action
+    - effects:
+        - effect: Any enemy who [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the bruxer has that shift end. Additionally, any enemy [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the bruxer can't [shift](scc.v1:mcdm.heroes.v1/movement/shifting).
+      feature_type: trait
+      icon: ⭐️
+      name: Lockdown
+      type: feature
+free_strike: 4
+intuition: 0
+keywords:
+    - Humanoid
+    - Radenwight
+level: 1
+metadata:
+    scc: mcdm.monsters.v1/monster.radenwight.statblock/radenwight-bruxer
+    source: mcdm.monsters.v1
+might: 2
+movement: Climb
+name: Radenwight Bruxer
+organization: Platoon
+presence: 1
+reason: -1
+role: Brute
+size: 1L
+speed: 5
+stability: 2
+stamina: "40"
+type: statblock

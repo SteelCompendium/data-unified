@@ -1,0 +1,61 @@
+agility: 1
+ev: "8"
+features:
+    - ability_type: Signature Ability
+      distance: 3 cube within 10
+      effects:
+        - roll: Power Roll + 2
+          tier1: 5 damage; [pull](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1
+          tier2: 8 damage; [pull](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3; M < 1 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
+          tier3: 10 damage; [pull](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5; M < 2 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
+      feature_type: ability
+      icon: "\U0001F533"
+      keywords:
+        - Area
+        - Magic
+        - Ranged
+      name: Entangling Vines
+      target: Each enemy in the area
+      type: feature
+      usage: Main action
+    - cost: 3 Malice
+      distance: Ranged 5
+      effects:
+        - effect: '**Effect:** Each target can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) up to 10 squares to a space that has cover or concealment.'
+      feature_type: ability
+      icon: "\U0001F3F9"
+      keywords:
+        - Magic
+        - Ranged
+      name: The Wode Protects Us
+      target: Self and three allies
+      type: feature
+      usage: Maneuver
+    - effects:
+        - effect: Abilities targeting the druid that would take a bane from cover or concealment have a double bane instead.
+      feature_type: trait
+      icon: ⭐️
+      name: Masking Glamor
+      type: feature
+free_strike: 3
+intuition: 0
+keywords:
+    - Fey
+    - Humanoid
+    - Wode Elf
+level: 2
+metadata:
+    scc: mcdm.monsters.v1/monster.elf-wode.statblock/wode-elf-druid
+    source: mcdm.monsters.v1
+might: 0
+movement: Climb
+name: Wode Elf Druid
+organization: Platoon
+presence: 2
+reason: 0
+role: Controller
+size: 1M
+speed: 7
+stability: 0
+stamina: "30"
+type: statblock

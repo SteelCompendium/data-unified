@@ -1,0 +1,32 @@
+---
+echelon: "3"
+effect: Once per [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), you can use a maneuver to [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) up to 3 squares. Additionally, when targeted by any other effect that causes you to [teleport](scc.v1:mcdm.heroes.v1/movement/teleport), you can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) up to 3 additional squares.
+file_basename: shifting-ring
+file_dpath: treasure/3rd-echelon/trinket
+flavor: This silvery metal ring seems to momentarily vanish when observed from certain angles.
+item_id: shifting-ring
+item_name: Shifting Ring
+keywords:
+    - Psionic
+    - Ring
+name: Shifting Ring
+project_goal: "450"
+scc: mcdm.heroes.v1/treasure.3rd-echelon.trinket/shifting-ring
+source: mcdm.heroes.v1
+treasure_type: trinket
+type: treasure
+---
+
+*This silvery metal ring seems to momentarily vanish when observed from certain angles.*
+
+**Keywords:** Psionic, Ring
+
+**[Item Prerequisite](scc.v1:mcdm.heroes.v1/rule.downtime/item-prerequisite):** One-third of a pound of diamond dust, one nugget of pure silver
+
+**[Project Source](scc.v1:mcdm.heroes.v1/rule.downtime/project-source):** Texts or lore in Khelt
+
+**[Project Roll](scc.v1:mcdm.heroes.v1/rule.downtime/project-roll) [Characteristic](scc.v1:mcdm.heroes.v1/rule.character/characteristic):** [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility) or [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)
+
+**Project Goal:** 450
+
+**Effect:** Once per [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), you can use a maneuver to [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) up to 3 squares. Additionally, when targeted by any other effect that causes you to [teleport](scc.v1:mcdm.heroes.v1/movement/teleport), you can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) up to 3 additional squares.

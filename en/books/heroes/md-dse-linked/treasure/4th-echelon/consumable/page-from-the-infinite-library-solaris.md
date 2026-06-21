@@ -1,0 +1,33 @@
+---
+echelon: "4"
+effect: As a maneuver, you spend 1 [Heroic Resource](../../../rule/resource/heroic-resource.md) to destroy this page and create a 4-[cube](../../../rule/combat/cube.md) area within 20 squares. The area is filled with the energy of a tiny sun that lasts until the end of the encounter. Any creature who enters the area for the first time in a [combat round](../../../rule/combat/combat-round.md) or starts their turn there takes 20 fire damage and is [dazed](../../../condition/dazed.md) until the end of their [turn](../../../rule/combat/turn.md).
+file_basename: page-from-the-infinite-library-solaris
+file_dpath: treasure/4th-echelon/consumable
+flavor: This page is covered with writing and diagrams detailing the release of limitless energy—and the dangers of that process.
+item_id: page-from-the-infinite-library-solaris
+item_name: 'Page From the Infinite Library: Solaris'
+keywords:
+    - Magic
+name: 'Page From the Infinite Library: Solaris'
+project_goal: "360"
+scc: mcdm.heroes.v1/treasure.4th-echelon.consumable/page-from-the-infinite-library-solaris
+source: mcdm.heroes.v1
+treasure_type: consumable
+type: treasure
+---
+
+*This page is covered with writing and diagrams detailing the release of limitless energy—and the dangers of that process.*
+
+**Keywords:** Magic
+
+**[Item Prerequisite](../../../rule/downtime/item-prerequisite.md):** One vial of sacred ink, blessed parchment
+
+**[Project Source](../../../rule/downtime/project-source.md):** Reference materials in the First Language from the
+
+Infinite Library detailing incomplete instructions for building a sun
+
+**[Project Roll](../../../rule/downtime/project-roll.md) [Characteristic](../../../rule/character/characteristic.md):** [Reason](../../../rule/character/reason.md) or [Intuition](../../../rule/character/intuition.md)
+
+**Project Goal:** 360
+
+**Effect:** As a maneuver, you spend 1 [Heroic Resource](../../../rule/resource/heroic-resource.md) to destroy this page and create a 4-[cube](../../../rule/combat/cube.md) area within 20 squares. The area is filled with the energy of a tiny sun that lasts until the end of the encounter. Any creature who enters the area for the first time in a [combat round](../../../rule/combat/combat-round.md) or starts their turn there takes 20 fire damage and is [dazed](../../../condition/dazed.md) until the end of their [turn](../../../rule/combat/turn.md).

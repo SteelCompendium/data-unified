@@ -1,0 +1,32 @@
+effects:
+    - effect: |-
+        Your wild nature grants your choice of one of two heroic abilities.
+
+        ##### 9th-Level Guardian Abilities
+
+        Choose one of the following abilities.
+
+        ##### 9th-Level Prowler Abilities
+
+        Choose one of the following abilities.
+
+        ##### 9th-Level Punisher Abilities
+
+        Choose one of the following abilities.
+
+        ##### 9th-Level Spark Abilities
+
+        Choose one of the following abilities.
+feature_type: feature
+metadata:
+    action_type: feature
+    class: beastheart
+    feature_type: feature
+    item_id: 9th-level-wild-nature-ability
+    item_name: 9th-Level Wild Nature Ability
+    level: 9
+    scc:
+        - mcdm.beastheart.v1/feature.beastheart.level-9/9th-level-wild-nature-ability
+    type: feature/beastheart/level-9
+name: 9th-Level Wild Nature Ability
+type: feature

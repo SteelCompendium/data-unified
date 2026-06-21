@@ -1,0 +1,44 @@
+{
+  "cost": "7 Insight",
+  "distance": "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 5",
+  "effects": [
+    {
+      "roll": "Power Roll + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)",
+      "tier1": "8 + A damage; A \u003c WEAK, [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)",
+      "tier2": "12 + A damage; A \u003c AVERAGE, [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)",
+      "tier3": "16 + A damage; A \u003c STRONG, [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)"
+    }
+  ],
+  "feature_type": "ability",
+  "flavor": "One missile—placed well and placed hard.",
+  "keywords": [
+    "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)",
+    "[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)",
+    "Weapon"
+  ],
+  "metadata": {
+    "action_type": "Main action",
+    "class": "shadow",
+    "content": "\n*One missile—placed well and placed hard.*\n\n| **[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), Weapon** |     **Main action** |\n|----------------------------|--------------------:|\n| **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 5**            | **🎯 One creature** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility):**\n\n- **≤11:** 8 + A damage; A \u003c WEAK, [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)\n- **12-16:** 12 + A damage; A \u003c AVERAGE, [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)\n- **17+:** 16 + A damage; A \u003c STRONG, [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)",
+    "distance": "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 5",
+    "feature_type": "ability",
+    "flavor": "One missile—placed well and placed hard.",
+    "item_id": "pinning-shot",
+    "item_name": "Pinning Shot",
+    "keywords": [
+      "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)",
+      "[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)",
+      "Weapon"
+    ],
+    "level": 3,
+    "scc": [
+      "mcdm.heroes.v1/feature.ability.shadow.level-3/pinning-shot"
+    ],
+    "target": "One creature",
+    "type": "feature/ability/shadow/level-3"
+  },
+  "name": "Pinning Shot",
+  "target": "One creature",
+  "type": "feature",
+  "usage": "Main action"
+}

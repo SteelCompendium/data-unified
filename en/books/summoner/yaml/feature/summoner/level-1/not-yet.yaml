@@ -1,0 +1,16 @@
+effects:
+    - effect: You have the following triggered action.
+feature_type: feature
+metadata:
+    action_type: feature
+    class: summoner
+    feature_source: summoner
+    feature_type: feature
+    item_id: not-yet
+    item_name: Not Yet!
+    level: 1
+    scc:
+        - mcdm.summoner.v1/feature.summoner.level-1/not-yet
+    type: feature/summoner/level-1
+name: Not Yet!
+type: feature

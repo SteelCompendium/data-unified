@@ -1,0 +1,46 @@
+{
+  "distance": "Melee 1",
+  "effects": [
+    {
+      "effect": "The target takes damage equal to 3 + your Might score, and if they have M \u003c AVERAGE, they are knocked [prone](scc.v1:mcdm.heroes.v1/condition/prone).",
+      "name": "Effect"
+    },
+    {
+      "cost": "Spend 1 Ferocity",
+      "effect": "If the target has M \u003c STRONG, they are knocked [prone](scc.v1:mcdm.heroes.v1/condition/prone)."
+    }
+  ],
+  "feature_type": "ability",
+  "flavor": "You ride a cascade of ice over your foes.",
+  "keywords": [
+    "Beastheart",
+    "Melee",
+    "Weapon"
+  ],
+  "metadata": {
+    "action_type": "Maneuver",
+    "class": "beastheart",
+    "content": "*You ride a cascade of ice over your foes.*\n\n| **Beastheart, Melee, Weapon** |        **Maneuver** |\n|-------------------------------|--------------------:|\n| **📏 Melee 1**                | **🎯 One creature** |\n\n**Effect:** The target takes damage equal to 3 + your Might score, and if they have M \u003c AVERAGE, they are knocked [prone](scc.v1:mcdm.heroes.v1/condition/prone).\n\nYou can move up to 3 squares before and after you use this ability. During this movement, a [prone](scc.v1:mcdm.heroes.v1/condition/prone) enemy's space doesn't count as difficult terrain, and the first time you enter a [prone](scc.v1:mcdm.heroes.v1/condition/prone) enemy's space, that enemy takes cold damage equal to your Might score.\n\n**Spend 1 Ferocity:** If the target has M \u003c STRONG, they are knocked [prone](scc.v1:mcdm.heroes.v1/condition/prone).",
+    "distance": "Melee 1",
+    "feature_type": "ability",
+    "flavor": "You ride a cascade of ice over your foes.",
+    "item_id": "avalanche-rush",
+    "item_name": "Avalanche Rush",
+    "keywords": [
+      "Beastheart",
+      "Melee",
+      "Weapon"
+    ],
+    "level": 1,
+    "scc": [
+      "mcdm.beastheart.v1/feature.ability.beastheart.level-1/avalanche-rush"
+    ],
+    "subclass": "punisher",
+    "target": "One creature",
+    "type": "feature/ability/beastheart/level-1"
+  },
+  "name": "Avalanche Rush",
+  "target": "One creature",
+  "type": "feature",
+  "usage": "Maneuver"
+}

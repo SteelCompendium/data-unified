@@ -1,0 +1,18 @@
+effects:
+    - effect: |-
+        [Hakaan](scc.v1:mcdm.heroes.v1/ancestry/hakaan) heroes have access to the following traits.
+
+        #### Purchased Hakaan Traits
+
+        You have 3 ancestry points to spend on the following traits. (*Quick Build:* Doomsight, Forceful.)
+feature_type: trait
+metadata:
+    action_type: feature
+    feature_type: trait
+    item_id: hakaan-traits
+    item_name: Hakaan Traits
+    scc:
+        - mcdm.heroes.v1/feature.trait.hakaan/hakaan-traits
+    type: feature/trait/hakaan
+name: Hakaan Traits
+type: feature

@@ -1,0 +1,48 @@
+{
+  "cost": "9 Wrath",
+  "distance": "[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1",
+  "effects": [
+    {
+      "roll": "Power Roll + [Might](scc.v1:mcdm.heroes.v1/rule.character/might)",
+      "tier1": "10 + M damage",
+      "tier2": "14 + M damage",
+      "tier3": "20 + M damage"
+    },
+    {
+      "effect": "Until the end of the encounter, whenever any ally deals damage to a target judged by you, that ally gains 1 [surge](scc.v1:mcdm.heroes.v1/rule.resource/surge).",
+      "name": "Effect"
+    }
+  ],
+  "feature_type": "ability",
+  "flavor": "You amplify the power of your [judgment](scc.v1:mcdm.heroes.v1/feature.ability.censor.level-1/judgment).",
+  "keywords": [
+    "[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)",
+    "[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)",
+    "Weapon"
+  ],
+  "metadata": {
+    "action_type": "Main action",
+    "class": "censor",
+    "content": "\n*You amplify the power of your [judgment](scc.v1:mcdm.heroes.v1/feature.ability.censor.level-1/judgment).*\n\n| **[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), Weapon**   |          **Main action** |\n|----------------------------|-------------------------:|\n| **📏 [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1**             |      **🎯 One creature** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc.v1:mcdm.heroes.v1/rule.character/might):**\n\n- **≤11:** 10 + M damage\n- **12-16:** 14 + M damage\n- **17+:** 20 + M damage\n\n**Effect:** Until the end of the encounter, whenever any ally deals damage to a target judged by you, that ally gains 1 [surge](scc.v1:mcdm.heroes.v1/rule.resource/surge).",
+    "distance": "[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1",
+    "feature_type": "ability",
+    "flavor": "You amplify the power of your [judgment](scc.v1:mcdm.heroes.v1/feature.ability.censor.level-1/judgment).",
+    "item_id": "righteous-judgment",
+    "item_name": "Righteous Judgment",
+    "keywords": [
+      "[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)",
+      "[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)",
+      "Weapon"
+    ],
+    "level": 5,
+    "scc": [
+      "mcdm.heroes.v1/feature.ability.censor.level-5/righteous-judgment"
+    ],
+    "target": "One creature",
+    "type": "feature/ability/censor/level-5"
+  },
+  "name": "Righteous Judgment",
+  "target": "One creature",
+  "type": "feature",
+  "usage": "Main action"
+}

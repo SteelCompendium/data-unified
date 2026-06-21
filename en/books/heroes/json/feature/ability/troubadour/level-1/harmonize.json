@@ -1,0 +1,45 @@
+{
+  "ability_type": "Triggered",
+  "cost": "3 Drama",
+  "distance": "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 5",
+  "effects": [
+    {
+      "effect": "The target can choose one additional target for the triggering ability. Any damage dealt to the additional target is sonic damage.",
+      "name": "Effect"
+    },
+    {
+      "cost": "Spend 1+ Drama",
+      "effect": "You can trigger this ability when a target uses an ability that has a [Heroic Resource](scc.v1:mcdm.heroes.v1/rule.resource/heroic-resource) cost of 3 + each additional drama spent."
+    }
+  ],
+  "feature_type": "ability",
+  "flavor": "Give the chorus a little punch.",
+  "keywords": [
+    "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)"
+  ],
+  "metadata": {
+    "ability_type": "Triggered",
+    "action_type": "Triggered",
+    "class": "troubadour",
+    "content": "\n*Give the chorus a little punch.*\n\n| **[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)**      |   **Triggered** |\n|-----------------|----------------:|\n| **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 5** | **🎯 One ally** |\n\n**Trigger:** The target uses an ability that targets only one enemy and costs 3 or fewer of their [Heroic Resource](scc.v1:mcdm.heroes.v1/rule.resource/heroic-resource).\n\n**Effect:** The target can choose one additional target for the triggering ability. Any damage dealt to the additional target is sonic damage.\n\n**Spend 1+ Drama:** You can trigger this ability when a target uses an ability that has a [Heroic Resource](scc.v1:mcdm.heroes.v1/rule.resource/heroic-resource) cost of 3 + each additional drama spent.",
+    "distance": "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 5",
+    "feature_type": "ability",
+    "flavor": "Give the chorus a little punch.",
+    "item_id": "harmonize",
+    "item_name": "Harmonize",
+    "keywords": [
+      "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)"
+    ],
+    "level": 1,
+    "scc": [
+      "mcdm.heroes.v1/feature.ability.troubadour.level-1/harmonize"
+    ],
+    "target": "One ally",
+    "type": "feature/ability/troubadour/level-1"
+  },
+  "name": "Harmonize",
+  "target": "One ally",
+  "trigger": "The target uses an ability that targets only one enemy and costs 3 or fewer of their [Heroic Resource](scc.v1:mcdm.heroes.v1/rule.resource/heroic-resource).",
+  "type": "feature",
+  "usage": "Triggered"
+}

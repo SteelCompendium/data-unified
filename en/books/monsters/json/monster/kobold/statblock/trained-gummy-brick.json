@@ -1,0 +1,83 @@
+{
+  "agility": -1,
+  "ev": "12",
+  "features": [
+    {
+      "ability_type": "Signature Ability",
+      "distance": "Melee 1",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "tier1": "7 acid damage; A \u003c 0 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)",
+          "tier2": "10 acid damage; A \u003c 1 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)",
+          "tier3": "14 acid damage; A \u003c 2 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)"
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "🗡",
+      "keywords": [
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "name": "Engulf",
+      "target": "One creature or object",
+      "type": "feature",
+      "usage": "Main action"
+    },
+    {
+      "distance": "Self",
+      "effects": [
+        {
+          "effect": "**Trigger:** A creature moves or is [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement) [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the brick.\n**Effect:** The brick uses Engulf against the triggering creature and has a double edge."
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "❗️",
+      "keywords": [
+        "-"
+      ],
+      "name": "You Didn't Pay Attention!",
+      "target": "One creature or object",
+      "type": "feature",
+      "usage": "Free triggered action"
+    },
+    {
+      "effects": [
+        {
+          "effect": "The brick completely occupies their space, blocking line of effect for enemies. The brick is hidden until they act."
+        }
+      ],
+      "feature_type": "trait",
+      "icon": "⭐️",
+      "name": "Translucent Brick",
+      "type": "feature"
+    }
+  ],
+  "free_strike": 4,
+  "immunities": [
+    "Acid 3"
+  ],
+  "intuition": 0,
+  "keywords": [
+    "Kobold",
+    "Ooze",
+    "Soulless"
+  ],
+  "level": 1,
+  "metadata": {
+    "scc": "mcdm.monsters.v1/monster.kobold.statblock/trained-gummy-brick",
+    "source": "mcdm.monsters.v1"
+  },
+  "might": 2,
+  "name": "Trained Gummy Brick",
+  "organization": "Elite",
+  "presence": -2,
+  "reason": -3,
+  "role": "Hexer",
+  "size": "2",
+  "speed": 5,
+  "stability": 2,
+  "stamina": "40",
+  "type": "statblock"
+}

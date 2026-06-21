@@ -1,0 +1,89 @@
+{
+  "agility": 0,
+  "ev": "3",
+  "features": [
+    {
+      "ability_type": "Signature Ability",
+      "distance": "Ranged 8",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "tier1": "3 holy damage",
+          "tier2": "4 holy damage; R \u003c 1 the target is illuminated (save ends)",
+          "tier3": "5 holy damage; R \u003c 2 the target is illuminated (save ends)"
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "🏹",
+      "keywords": [
+        "Magic",
+        "Ranged",
+        "Strike"
+      ],
+      "name": "Refulgent Beams",
+      "target": "Two creatures or objects",
+      "type": "feature",
+      "usage": "Main action"
+    },
+    {
+      "cost": "2 Malice",
+      "distance": "2 cube of unoccupied space within 10",
+      "effects": [
+        {
+          "roll": "",
+          "tier1": "3 poison damage; the target is wet and [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)",
+          "tier2": "2 poison damage; the target is wet (save ends)",
+          "tier3": "1 poison damage; the target is wet ([EoT](scc.v1:mcdm.heroes.v1/rule.combat/end-of-turn))"
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "🔳",
+      "keywords": [
+        "Area",
+        "Magic",
+        "Ranged"
+      ],
+      "name": "Noxious Bubble",
+      "target": "Special",
+      "type": "feature",
+      "usage": "Main action"
+    },
+    {
+      "effects": [
+        {
+          "effect": "Whenever an adjacent enemy [grabs](scc.v1:mcdm.heroes.v1/feature.common.maneuvers/grab) the wave or uses a melee ability against them, that enemy takes 2 poison damage."
+        }
+      ],
+      "feature_type": "trait",
+      "icon": "⭐️",
+      "name": "Toxiferous",
+      "type": "feature"
+    }
+  ],
+  "free_strike": 1,
+  "immunities": [
+    "Poison 2"
+  ],
+  "intuition": 2,
+  "keywords": [
+    "Angulotl",
+    "Humanoid"
+  ],
+  "level": 1,
+  "metadata": {
+    "scc": "mcdm.monsters.v1/monster.angulotl.statblock/angulotl-wave",
+    "source": "mcdm.monsters.v1"
+  },
+  "might": 0,
+  "movement": "Climb, swim",
+  "name": "Angulotl Wave",
+  "organization": "Horde",
+  "presence": 2,
+  "reason": 0,
+  "role": "Controller",
+  "size": "1S",
+  "speed": 5,
+  "stability": 0,
+  "stamina": "10",
+  "type": "statblock"
+}

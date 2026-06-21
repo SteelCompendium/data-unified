@@ -1,0 +1,41 @@
+cost: 5 Ferocity
+distance: Melee 1
+effects:
+    - roll: Power Roll + Might
+      tier1: 8 + M damage; M < WEAK [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)
+      tier2: 12 + M damage; M < AVERAGE [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)
+      tier3: 16 + M damage; M < STRONG [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)
+    - effect: If you grab the target while your companion is adjacent to them, your companion can make a melee free strike against the target.
+      name: Effect
+feature_type: ability
+flavor: The wilderness has no concept of fair play.
+keywords:
+    - Beastheart
+    - Charge
+    - Melee
+    - Strike
+    - Weapon
+metadata:
+    action_type: Main action
+    class: beastheart
+    content: "*The wilderness has no concept of fair play.*\n\n| **Beastheart, Charge, Melee, Strike, Weapon** | **Main action** |\n|-----------------------------------------------|----------------:|\n| **\U0001F4CF Melee 1**                                | **\U0001F3AF One creature** |\n\n**Power Roll + Might:**\n\n- **≤11:** 8 + M damage; M < WEAK [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)\n- **12-16:** 12 + M damage; M < AVERAGE [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)\n- **17+:** 16 + M damage; M < STRONG [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)\n\n**Effect:** If you grab the target while your companion is adjacent to them, your companion can make a melee free strike against the target."
+    distance: Melee 1
+    feature_type: ability
+    flavor: The wilderness has no concept of fair play.
+    item_id: you-let-me-get-too-close
+    item_name: You Let Me Get Too Close
+    keywords:
+        - Beastheart
+        - Charge
+        - Melee
+        - Strike
+        - Weapon
+    level: 1
+    scc:
+        - mcdm.beastheart.v1/feature.ability.beastheart.level-1/you-let-me-get-too-close
+    target: One creature
+    type: feature/ability/beastheart/level-1
+name: You Let Me Get Too Close
+target: One creature
+type: feature
+usage: Main action

@@ -1,0 +1,38 @@
+ability_type: Signature
+distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
+effects:
+    - roll: Power Roll + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason)
+      tier1: 2 + R cold damage; M < WEAK, [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) ([EoT](scc.v1:mcdm.heroes.v1/rule.combat/end-of-turn))
+      tier2: 4 + R cold damage; M < AVERAGE, [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) ([EoT](scc.v1:mcdm.heroes.v1/rule.combat/end-of-turn))
+      tier3: 6 + R cold damage; M < STRONG, [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) ([EoT](scc.v1:mcdm.heroes.v1/rule.combat/end-of-turn))
+feature_type: ability
+flavor: You blast a foe with a pulse of cold energy.
+keywords:
+    - Cryokinesis
+    - Psionic
+    - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'
+    - Strike
+metadata:
+    ability_type: Signature
+    action_type: Main action
+    class: talent
+    content: "\n*You blast a foe with a pulse of cold energy.*\n\n| **Cryokinesis, Psionic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)**, **Strike** |     **Main action** |\n|----------------------------------------------|--------------------:|\n| **\U0001F4CF [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**                             | **\U0001F3AF One creature** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason):**\n\n- **≤11:** 2 + R cold damage; M < WEAK, [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) ([EoT](scc.v1:mcdm.heroes.v1/rule.combat/end-of-turn))\n- **12-16:** 4 + R cold damage; M < AVERAGE, [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) ([EoT](scc.v1:mcdm.heroes.v1/rule.combat/end-of-turn))\n- **17+:** 6 + R cold damage; M < STRONG, [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) ([EoT](scc.v1:mcdm.heroes.v1/rule.combat/end-of-turn))\n\n**Strained:** You are [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) until the end of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn). Additionally, a target [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) by this ability is [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) instead."
+    distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
+    feature_type: ability
+    flavor: You blast a foe with a pulse of cold energy.
+    item_id: hoarfrost
+    item_name: Hoarfrost
+    keywords:
+        - Cryokinesis
+        - Psionic
+        - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'
+        - Strike
+    level: 1
+    scc:
+        - mcdm.heroes.v1/feature.ability.talent.level-1/hoarfrost
+    target: One creature
+    type: feature/ability/talent/level-1
+name: Hoarfrost
+target: One creature
+type: feature
+usage: Main action

@@ -1,0 +1,22 @@
+{
+  "effects": [
+    {
+      "effect": "Whenever you land after a fall, or if any falling creature lands within 2 squares of you, you can use a free [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action) to reduce the falling damage by an amount equal to 2 + your [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) score."
+    }
+  ],
+  "feature_type": "feature",
+  "metadata": {
+    "action_type": "feature",
+    "class": "talent",
+    "feature_type": "feature",
+    "item_id": "ease-their-fall",
+    "item_name": "Ease Their Fall",
+    "level": 2,
+    "scc": [
+      "mcdm.heroes.v1/feature.talent.level-2/ease-their-fall"
+    ],
+    "type": "feature/talent/level-2"
+  },
+  "name": "Ease Their Fall",
+  "type": "feature"
+}

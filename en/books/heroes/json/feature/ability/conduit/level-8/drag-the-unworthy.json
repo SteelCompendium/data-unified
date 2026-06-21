@@ -1,0 +1,48 @@
+{
+  "cost": "11 Piety",
+  "distance": "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10",
+  "effects": [
+    {
+      "roll": "Power Roll + [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)",
+      "tier1": "9 + I holy damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3",
+      "tier2": "13 + I holy damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 4",
+      "tier3": "18 + I holy damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 6"
+    },
+    {
+      "effect": "Each ally the target comes [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to during the [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) can spend a [Recovery](scc.v1:mcdm.heroes.v1/rule.health/recoveries).",
+      "name": "Effect"
+    }
+  ],
+  "feature_type": "ability",
+  "flavor": "You conjure an angel who moves a foe and heals your allies.",
+  "keywords": [
+    "Magic",
+    "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)",
+    "[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)"
+  ],
+  "metadata": {
+    "action_type": "Main action",
+    "class": "conduit",
+    "content": "\n*You conjure an angel who moves a foe and heals your allies.*\n\n| **Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)**  |               **Main action** |\n|----------------------------|------------------------------:|\n| **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**           | **🎯 One creature or object** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition):**\n\n- **≤11:** 9 + I holy damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3\n- **12-16:** 13 + I holy damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 4\n- **17+:** 18 + I holy damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 6\n\n**Effect:** Each ally the target comes [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to during the [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) can spend a [Recovery](scc.v1:mcdm.heroes.v1/rule.health/recoveries).",
+    "distance": "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10",
+    "feature_type": "ability",
+    "flavor": "You conjure an angel who moves a foe and heals your allies.",
+    "item_id": "drag-the-unworthy",
+    "item_name": "Drag the Unworthy",
+    "keywords": [
+      "Magic",
+      "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)",
+      "[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)"
+    ],
+    "level": 8,
+    "scc": [
+      "mcdm.heroes.v1/feature.ability.conduit.level-8/drag-the-unworthy"
+    ],
+    "target": "One creature or object",
+    "type": "feature/ability/conduit/level-8"
+  },
+  "name": "Drag the Unworthy",
+  "target": "One creature or object",
+  "type": "feature",
+  "usage": "Main action"
+}

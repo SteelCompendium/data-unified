@@ -1,0 +1,30 @@
+---
+action_type: feature
+class: summoner
+feature_source: summoner
+feature_type: feature
+file_basename: skill
+file_dpath: feature/summoner/level-4
+item_id: skill
+item_name: Skill
+level: "4"
+name: Skill
+scc: mcdm.summoner.v1/feature.summoner.level-4/skill
+source: mcdm.summoner.v1
+type: feature
+---
+
+```ds-feature
+effects:
+    - effect: You gain one skill of your choice.
+feature_type: feature
+metadata:
+    class: summoner
+    feature_source: summoner
+    level: "4"
+    name: Skill
+    scc: mcdm.summoner.v1/feature.summoner.level-4/skill
+    type: feature
+name: Skill
+type: feature
+```

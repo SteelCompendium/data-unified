@@ -1,0 +1,13 @@
+---
+file_basename: lie-detector
+file_dpath: perk
+flavor: In response to another creature communicating information to you, you can spend a hero token to determine whether that information contained any knowing lies. If so, you know what the lies are, but not what the truth is.
+item_id: lie-detector
+item_name: Lie Detector
+name: Lie Detector
+scc: mcdm.heroes.v1/perk/lie-detector
+source: mcdm.heroes.v1
+type: perk
+---
+
+In response to another creature communicating information to you, you can spend a [hero token](scc.v1:mcdm.heroes.v1/rule.resource/hero-token) to determine whether that information contained any knowing lies. If so, you know what the lies are, but not what the truth is.

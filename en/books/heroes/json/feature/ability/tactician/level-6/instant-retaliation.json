@@ -1,0 +1,49 @@
+{
+  "ability_type": "Triggered",
+  "cost": "9 Focus",
+  "distance": "[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1",
+  "effects": [
+    {
+      "roll": "Power Roll + [Might](scc.v1:mcdm.heroes.v1/rule.character/might)",
+      "tier1": "A \u003c WEAK, [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)",
+      "tier2": "A \u003c AVERAGE, [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)",
+      "tier3": "A \u003c STRONG, [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)"
+    },
+    {
+      "effect": "The target takes half the damage. You then make a [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) against the triggering creature.",
+      "name": "Effect"
+    }
+  ],
+  "feature_type": "ability",
+  "flavor": "You [parry](scc.v1:mcdm.heroes.v1/feature.ability.tactician.level-1/parry) with almost [supernatural](scc.v1:mcdm.heroes.v1/rule.general/supernatural) [speed](scc.v1:mcdm.heroes.v1/rule.character/speed).",
+  "keywords": [
+    "[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)",
+    "Weapon"
+  ],
+  "metadata": {
+    "ability_type": "Triggered",
+    "action_type": "Free triggered",
+    "class": "tactician",
+    "content": "\n*You [parry](scc.v1:mcdm.heroes.v1/feature.ability.tactician.level-1/parry) with almost [supernatural](scc.v1:mcdm.heroes.v1/rule.general/supernatural) [speed](scc.v1:mcdm.heroes.v1/rule.character/speed).*\n\n| **[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), Weapon** | **Free triggered** |\n| ------------------------------------|-------------------:|\n| **📏 [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1**                   |    **🎯 One ally** |\n\n**Trigger:** A creature deals damage to the target.\n\n**Effect:** The target takes half the damage. You then make a [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) against the triggering creature.\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc.v1:mcdm.heroes.v1/rule.character/might):**\n\n- **≤11:** A \u003c WEAK, [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)\n- **12-16:** A \u003c AVERAGE, [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)\n- **17+:** A \u003c STRONG, [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)",
+    "distance": "[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1",
+    "feature_type": "ability",
+    "flavor": "You [parry](scc.v1:mcdm.heroes.v1/feature.ability.tactician.level-1/parry) with almost [supernatural](scc.v1:mcdm.heroes.v1/rule.general/supernatural) [speed](scc.v1:mcdm.heroes.v1/rule.character/speed).",
+    "item_id": "instant-retaliation",
+    "item_name": "Instant Retaliation",
+    "keywords": [
+      "[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)",
+      "Weapon"
+    ],
+    "level": 6,
+    "scc": [
+      "mcdm.heroes.v1/feature.ability.tactician.level-6/instant-retaliation"
+    ],
+    "target": "One ally",
+    "type": "feature/ability/tactician/level-6"
+  },
+  "name": "Instant Retaliation",
+  "target": "One ally",
+  "trigger": "A creature deals damage to the target.",
+  "type": "feature",
+  "usage": "Free triggered"
+}

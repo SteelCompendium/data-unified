@@ -1,0 +1,55 @@
+{
+  "agility": 3,
+  "ev": "7 for four minions",
+  "features": [
+    {
+      "ability_type": "Signature Ability",
+      "distance": "Melee 1",
+      "effects": [
+        {
+          "roll": "Power Roll + 3",
+          "tier1": "3 damage",
+          "tier2": "6 damage",
+          "tier3": "7 damage; A \u003c 3 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)"
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "🗡",
+      "keywords": [
+        "Charge",
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "name": "Cut 'Em Low!",
+      "target": "One creature or object per minion",
+      "type": "feature",
+      "usage": "Main action"
+    }
+  ],
+  "free_strike": 3,
+  "intuition": 0,
+  "keywords": [
+    "Bugbear",
+    "Fey",
+    "Goblin",
+    "Humanoid"
+  ],
+  "level": 5,
+  "metadata": {
+    "scc": "mcdm.monsters.v1/monster.bugbear.statblock/bugbear-snare",
+    "source": "mcdm.monsters.v1"
+  },
+  "might": 2,
+  "name": "Bugbear Snare",
+  "organization": "Minion",
+  "presence": 1,
+  "reason": 0,
+  "role": "Ambusher",
+  "size": "1L",
+  "speed": 6,
+  "stability": 2,
+  "stamina": "9",
+  "type": "statblock",
+  "with_captain": "+3 bonus to speed"
+}

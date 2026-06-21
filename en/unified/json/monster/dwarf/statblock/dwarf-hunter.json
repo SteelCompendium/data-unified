@@ -1,0 +1,52 @@
+{
+  "agility": 2,
+  "ev": "3 for 4 minions",
+  "features": [
+    {
+      "ability_type": "Signature Ability",
+      "distance": "Ranged 5",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "tier1": "1 damage; [pull](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1",
+          "tier2": "2 damage; [pull](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2",
+          "tier3": "3 damage; [pull](scc.v1:mcdm.heroes.v1/movement/forced-movement) 4"
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "🏹",
+      "keywords": [
+        "Ranged",
+        "Strike",
+        "Weapon"
+      ],
+      "name": "Snaring Javelin",
+      "target": "One creature or object per minion",
+      "type": "feature",
+      "usage": "Main action"
+    }
+  ],
+  "free_strike": 1,
+  "intuition": 0,
+  "keywords": [
+    "Dwarf",
+    "Humanoid"
+  ],
+  "level": 1,
+  "metadata": {
+    "scc": "mcdm.monsters.v1/monster.dwarf.statblock/dwarf-hunter",
+    "source": "mcdm.monsters.v1"
+  },
+  "might": 1,
+  "name": "Dwarf Hunter",
+  "organization": "Minion",
+  "presence": 0,
+  "reason": 0,
+  "role": "Support",
+  "size": "1M",
+  "speed": 5,
+  "stability": 1,
+  "stamina": "6",
+  "type": "statblock",
+  "with_captain": "+2 bonus to Stamina"
+}

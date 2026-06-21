@@ -1,0 +1,44 @@
+ability:
+    distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
+    effects:
+        - effect: The next [ability roll](scc.v1:mcdm.heroes.v1/rule.dice/ability-roll) an ally makes against the target before the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) gains an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge).
+          name: Effect
+        - cost: Spend 1 Clarity
+          effect: You target one additional creature or object.
+    feature_type: ability
+    flavor: An ally gains the benefit of your intellect.
+    keywords:
+        - Psionic
+        - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'
+    metadata:
+        action_type: Maneuver
+        content: "\n*An ally gains the benefit of your intellect.*\n\n| **Psionic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)** |                  **Maneuver** |\n|---------------------|------------------------------:|\n| **\U0001F4CF [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**    | **\U0001F3AF One creature or object** |\n\n\n**Effect:** The next [ability roll](scc.v1:mcdm.heroes.v1/rule.dice/ability-roll) an ally makes against the target before the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) gains an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge).\n\n**Spend 1 Clarity:** You target one additional creature or object."
+        distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
+        feature_type: ability
+        flavor: An ally gains the benefit of your intellect.
+        item_id: remote-assistance
+        item_name: Remote Assistance
+        keywords:
+            - Psionic
+            - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'
+        target: One creature or object
+        type: feature/ability/common
+    name: Remote Assistance
+    target: One creature or object
+    type: feature
+    usage: Maneuver
+effects:
+    - effect: You have the following ability.
+feature_type: feature
+metadata:
+    action_type: feature
+    class: talent
+    feature_type: feature
+    item_id: remote-assistance
+    item_name: Remote Assistance
+    level: 1
+    scc:
+        - mcdm.heroes.v1/feature.talent.level-1/remote-assistance
+    type: feature/talent/level-1
+name: Remote Assistance
+type: feature

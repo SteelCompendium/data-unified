@@ -1,0 +1,33 @@
+cost: 3 Clarity
+distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 2'
+effects:
+    - effect: '[Ability rolls](scc.v1:mcdm.heroes.v1/rule.dice/ability-roll) made against the target take a [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) until the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn). Whenever the target takes damage while under this effect, they can use a [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action) to make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against the source of the damage.'
+      name: Effect
+feature_type: ability
+flavor: You give a target a glimpse into the future so that they're ready for what comes next.
+keywords:
+    - Chronopathy
+    - '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)'
+    - Psionic
+metadata:
+    action_type: Main action
+    class: talent
+    content: "\n*You give a target a glimpse into the future so that they're ready for what comes next.*\n\n| **Chronopathy, [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), Psionic** |         **Main action** |\n|---------------------------------|------------------------:|\n| **\U0001F4CF [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 2**                  | **\U0001F3AF Self or one ally** |\n\n**Effect:** [Ability rolls](scc.v1:mcdm.heroes.v1/rule.dice/ability-roll) made against the target take a [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) until the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn). Whenever the target takes damage while under this effect, they can use a [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action) to make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against the source of the damage."
+    distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 2'
+    feature_type: ability
+    flavor: You give a target a glimpse into the future so that they're ready for what comes next.
+    item_id: precognition
+    item_name: Precognition
+    keywords:
+        - Chronopathy
+        - '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)'
+        - Psionic
+    level: 1
+    scc:
+        - mcdm.heroes.v1/feature.ability.talent.level-1/precognition
+    target: Self or one ally
+    type: feature/ability/talent/level-1
+name: Precognition
+target: Self or one ally
+type: feature
+usage: Main action

@@ -1,0 +1,44 @@
+{
+  "cost": "9 Piety",
+  "distance": "10 x 2 line within 5",
+  "effects": [
+    {
+      "roll": "Power Roll + [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)",
+      "tier1": "5 damage; M \u003c WEAK, [prone and](scc.v1:mcdm.heroes.v1/condition/prone) can't stand (save ends)",
+      "tier2": "8 damage; M \u003c AVERAGE, [prone and](scc.v1:mcdm.heroes.v1/condition/prone) can't stand (save ends)",
+      "tier3": "11 damage; M \u003c STRONG, [prone and](scc.v1:mcdm.heroes.v1/condition/prone) can't stand (save ends)"
+    }
+  ],
+  "feature_type": "ability",
+  "flavor": "Animal spirits run through the battlefield, trampling your foes.",
+  "keywords": [
+    "Area",
+    "Magic",
+    "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)"
+  ],
+  "metadata": {
+    "action_type": "Main action",
+    "class": "conduit",
+    "content": "\n*Animal spirits run through the battlefield, trampling your foes.*\n\n| **Area, Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)**     |               **Main action** |\n|-----------------------------|------------------------------:|\n| **📏 10 x 2 line within 5** | **🎯 Each enemy in the area** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition):**\n\n- **≤11:** 5 damage; M \u003c WEAK, [prone and](scc.v1:mcdm.heroes.v1/condition/prone) can't stand (save ends)\n- **12-16:** 8 damage; M \u003c AVERAGE, [prone and](scc.v1:mcdm.heroes.v1/condition/prone) can't stand (save ends)\n- **17+:** 11 damage; M \u003c STRONG, [prone and](scc.v1:mcdm.heroes.v1/condition/prone) can't stand (save ends)",
+    "distance": "10 x 2 line within 5",
+    "feature_type": "ability",
+    "flavor": "Animal spirits run through the battlefield, trampling your foes.",
+    "item_id": "spirit-stampede",
+    "item_name": "Spirit Stampede",
+    "keywords": [
+      "Area",
+      "Magic",
+      "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)"
+    ],
+    "level": 6,
+    "scc": [
+      "mcdm.heroes.v1/feature.ability.conduit.level-6/spirit-stampede"
+    ],
+    "target": "Each enemy in the area",
+    "type": "feature/ability/conduit/level-6"
+  },
+  "name": "Spirit Stampede",
+  "target": "Each enemy in the area",
+  "type": "feature",
+  "usage": "Main action"
+}

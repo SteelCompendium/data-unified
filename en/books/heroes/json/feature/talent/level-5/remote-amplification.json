@@ -1,0 +1,22 @@
+{
+  "effects": [
+    {
+      "effect": "The [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance) of your [ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) psionic abilities increases by 5. Additionally, the range of your [Telepathic Speech](scc.v1:mcdm.heroes.v1/feature.talent.level-1/telepathic-speech) feature increases to 1 mile."
+    }
+  ],
+  "feature_type": "feature",
+  "metadata": {
+    "action_type": "feature",
+    "class": "talent",
+    "feature_type": "feature",
+    "item_id": "remote-amplification",
+    "item_name": "Remote Amplification",
+    "level": 5,
+    "scc": [
+      "mcdm.heroes.v1/feature.talent.level-5/remote-amplification"
+    ],
+    "type": "feature/talent/level-5"
+  },
+  "name": "Remote Amplification",
+  "type": "feature"
+}

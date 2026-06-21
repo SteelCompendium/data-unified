@@ -1,0 +1,15 @@
+effects:
+    - effect: Choose one [heroic ability](scc.v1:mcdm.heroes.v1/rule.general/heroic-ability) from the following options, each of which costs 9 clarity to use.
+feature_type: feature
+metadata:
+    action_type: feature
+    class: talent
+    feature_type: feature
+    item_id: 9-clarity-ability
+    item_name: 9-Clarity Ability
+    level: 5
+    scc:
+        - mcdm.heroes.v1/feature.talent.level-5/9-clarity-ability
+    type: feature/talent/level-5
+name: 9-Clarity Ability
+type: feature

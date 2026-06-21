@@ -1,0 +1,20 @@
+{
+  "effects": [
+    {
+      "effect": "[High elf](scc.v1:mcdm.heroes.v1/ancestry/high-elf) heroes have access to the following traits.\n\n#### Purchased High Elf Traits\n\nYou have 3 ancestry points to spend on the following traits. (*Quick Build:* High Senses, Otherworldly Grace.)"
+    }
+  ],
+  "feature_type": "trait",
+  "metadata": {
+    "action_type": "feature",
+    "feature_type": "trait",
+    "item_id": "high-elf-traits",
+    "item_name": "High Elf Traits",
+    "scc": [
+      "mcdm.heroes.v1/feature.trait.high-elf/high-elf-traits"
+    ],
+    "type": "feature/trait/high-elf"
+  },
+  "name": "High Elf Traits",
+  "type": "feature"
+}

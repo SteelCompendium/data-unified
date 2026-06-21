@@ -1,0 +1,15 @@
+effects:
+    - effect: Whenever the wolf makes a strike against a creature while rampaging, they can grab the target.
+feature_type: feature
+metadata:
+    action_type: feature
+    class: beastheart
+    feature_type: feature
+    item_id: my-what-big-teeth-you-have
+    item_name: My, What Big Teeth You Have
+    level: 3
+    scc:
+        - mcdm.beastheart.v1/feature.companion.beastheart.wolf.level-3/my-what-big-teeth-you-have
+    type: feature/companion/beastheart/wolf/level-3
+name: My, What Big Teeth You Have
+type: feature

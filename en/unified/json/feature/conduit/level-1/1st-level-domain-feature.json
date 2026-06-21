@@ -1,0 +1,22 @@
+{
+  "effects": [
+    {
+      "effect": "Choose one of your domains. You gain a domain feature for that domain, as shown on the 1st-Level [Conduit](scc.v1:mcdm.heroes.v1/class/conduit) Domain Features table. Additionally, you gain a skill from the chosen domain, selected from the skill group indicated on the table. (*Quick Build:* [Revitalizing Ritual](scc.v1:mcdm.heroes.v1/feature.censor.level-1/revitalizing-ritual) and the [Heal](scc.v1:mcdm.heroes.v1/skill.exploration/heal) skill from the Life domain.)\n\n###### 1st-Level Conduit Domain Features Table\n\n| Domain     | Feature                       | Skill Group   |\n|------------|-------------------------------|---------------|\n| Creation   | [Hands of the Maker](scc.v1:mcdm.heroes.v1/feature.ability.censor.level-1/hands-of-the-maker)            | Crafting      |\n| Death      | [Grave Speech](scc.v1:mcdm.heroes.v1/feature.ability.censor.level-1/grave-speech)                  | Lore          |\n| Fate       | [Oracular Visions](scc.v1:mcdm.heroes.v1/feature.censor.level-1/oracular-visions)              | Lore          |\n| Knowledge  | [Blessing of Comprehension](scc.v1:mcdm.heroes.v1/feature.censor.level-1/blessing-of-comprehension)     | Lore          |\n| Life       | [Revitalizing Ritual](scc.v1:mcdm.heroes.v1/feature.censor.level-1/revitalizing-ritual)           | Exploration   |\n| Love       | [Blessing of Compassion](scc.v1:mcdm.heroes.v1/feature.censor.level-1/blessing-of-compassion)        | Interpersonal |\n| Nature     | [Faithful Friend](scc.v1:mcdm.heroes.v1/feature.ability.censor.level-1/faithful-friend)               | Exploration   |\n| Protection | [Protective Circle](scc.v1:mcdm.heroes.v1/feature.censor.level-1/protective-circle)             | Exploration   |\n| Storm      | [Blessing of Fortunate Weather](scc.v1:mcdm.heroes.v1/feature.censor.level-1/blessing-of-fortunate-weather) | Exploration   |\n| Sun        | [Inner Light](scc.v1:mcdm.heroes.v1/feature.censor.level-1/inner-light)                   | Lore          |\n| Trickery   | [Inspired Deception](scc.v1:mcdm.heroes.v1/feature.censor.level-1/inspired-deception)            | Intrigue      |\n| War        | [Sanctified Weapon](scc.v1:mcdm.heroes.v1/feature.censor.level-1/sanctified-weapon)             | Exploration   |"
+    }
+  ],
+  "feature_type": "feature",
+  "metadata": {
+    "action_type": "feature",
+    "class": "conduit",
+    "feature_type": "feature",
+    "item_id": "1st-level-domain-feature",
+    "item_name": "1st-Level Domain Feature",
+    "level": 1,
+    "scc": [
+      "mcdm.heroes.v1/feature.conduit.level-1/1st-level-domain-feature"
+    ],
+    "type": "feature/conduit/level-1"
+  },
+  "name": "1st-Level Domain Feature",
+  "type": "feature"
+}

@@ -1,0 +1,35 @@
+cost: 5 Ferocity
+distance: 2 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)
+effects:
+    - roll: Power Roll + [Might](scc.v1:mcdm.heroes.v1/rule.character/might)
+      tier1: 2 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1; M < WEAK, [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
+      tier2: 5 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2; M < AVERAGE, [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
+      tier3: 7 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3; M < STRONG, [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
+    - effect: This ability deals your primordial [damage type](scc.v1:mcdm.heroes.v1/rule.damage/damage-type) (see [Stormwight Kits](scc.v1:mcdm.heroes.v1/feature.fury.stormwight-kits/kit-features)).
+      name: Effect
+feature_type: ability
+flavor: The sound of the storm within you staggers your opponents.
+keywords:
+    - Area
+    - Magic
+metadata:
+    action_type: Main action
+    class: fury
+    content: "\n*The sound of the storm within you staggers your opponents.*\n\n| **Area, Magic** |               **Main action** |\n|-----------------|------------------------------:|\n| **\U0001F4CF 2 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)**  | **\U0001F3AF Each enemy in the area** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc.v1:mcdm.heroes.v1/rule.character/might):**\n\n- **≤11:** 2 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1; M < WEAK, [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)\n- **12-16:** 5 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2; M < AVERAGE, [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)\n- **17+:** 7 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3; M < STRONG, [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)\n\n**Effect:** This ability deals your primordial [damage type](scc.v1:mcdm.heroes.v1/rule.damage/damage-type) (see [Stormwight Kits](scc.v1:mcdm.heroes.v1/feature.fury.stormwight-kits/kit-features))."
+    distance: 2 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)
+    feature_type: ability
+    flavor: The sound of the storm within you staggers your opponents.
+    item_id: visceral-roar
+    item_name: Visceral Roar
+    keywords:
+        - Area
+        - Magic
+    level: 2
+    scc:
+        - mcdm.heroes.v1/feature.ability.fury.level-2/visceral-roar
+    target: Each enemy in the area
+    type: feature/ability/fury/level-2
+name: Visceral Roar
+target: Each enemy in the area
+type: feature
+usage: Main action

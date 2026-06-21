@@ -1,0 +1,19 @@
+---
+benefit: You are a sapient fungus who inhabits a humanoid body. Your [host body](scc.v1:mcdm.heroes.v1/complication/host-body) follows all the usual rules for a character and is considered to be alive. At any time while your [host body](scc.v1:mcdm.heroes.v1/complication/host-body) is alive, or for 24 hours after it dies, you can use a main action to move to a dead humanoid within 10 squares of the body and use it as your new [host body](scc.v1:mcdm.heroes.v1/complication/host-body), provided the body belongs to a playable ancestry. When you do so, your original [host body](scc.v1:mcdm.heroes.v1/complication/host-body) dies if it was alive. Your new [host body](scc.v1:mcdm.heroes.v1/complication/host-body) gains all your statistics except [size](scc.v1:mcdm.heroes.v1/rule.character/size), [ancestry traits](scc.v1:mcdm.heroes.v1/chapter/ancestries), and other statistics related to your former [host body's](scc.v1:mcdm.heroes.v1/complication/host-body) ancestry, which you instead gain from your new [host body](scc.v1:mcdm.heroes.v1/complication/host-body). When you inhabit a new [host body](scc.v1:mcdm.heroes.v1/complication/host-body), you start with 1 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) and can immediately spend a [Recovery](scc.v1:mcdm.heroes.v1/rule.health/recoveries).
+drawback: You have fire weakness 5. Additionally, you take a [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) on any [test](scc.v1:mcdm.heroes.v1/rule.test/test) made to read a humanoid creature's emotions or body language.
+file_basename: host-body
+file_dpath: complication
+flavor: '"Do not be alarmed! We are not the humanoid we appear to be. We are an intelligent fungal collective, using this body as a host. No, we are doing nothing unsavory! This body was dead when we found it, and we merely gave it another chance at life. We are friendly. Please put down those torches!"'
+item_id: host-body
+item_name: Host Body
+name: Host Body
+scc: mcdm.heroes.v1/complication/host-body
+source: mcdm.heroes.v1
+type: complication
+---
+
+"Do not be alarmed! We are not the humanoid we appear to be. We are an intelligent fungal collective, using this body as a host. No, we are doing nothing unsavory! This body was dead when we found it, and we merely gave it another chance at life. We are friendly. Please put down those torches!"
+
+**Benefit:** You are a sapient fungus who inhabits a humanoid body. Your [host body](scc.v1:mcdm.heroes.v1/complication/host-body) follows all the usual rules for a character and is considered to be alive. At any time while your [host body](scc.v1:mcdm.heroes.v1/complication/host-body) is alive, or for 24 hours after it dies, you can use a main action to move to a dead humanoid within 10 squares of the body and use it as your new [host body](scc.v1:mcdm.heroes.v1/complication/host-body), provided the body belongs to a playable ancestry. When you do so, your original [host body](scc.v1:mcdm.heroes.v1/complication/host-body) dies if it was alive. Your new [host body](scc.v1:mcdm.heroes.v1/complication/host-body) gains all your statistics except [size](scc.v1:mcdm.heroes.v1/rule.character/size), [ancestry traits](scc.v1:mcdm.heroes.v1/chapter/ancestries), and other statistics related to your former [host body's](scc.v1:mcdm.heroes.v1/complication/host-body) ancestry, which you instead gain from your new [host body](scc.v1:mcdm.heroes.v1/complication/host-body). When you inhabit a new [host body](scc.v1:mcdm.heroes.v1/complication/host-body), you start with 1 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) and can immediately spend a [Recovery](scc.v1:mcdm.heroes.v1/rule.health/recoveries).
+
+**Drawback:** You have fire weakness 5. Additionally, you take a [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) on any [test](scc.v1:mcdm.heroes.v1/rule.test/test) made to read a humanoid creature's emotions or body language.

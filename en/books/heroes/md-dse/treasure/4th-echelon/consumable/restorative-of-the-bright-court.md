@@ -1,0 +1,31 @@
+---
+echelon: "4"
+effect: When opened as a maneuver, this vial [bursts](scc.v1:mcdm.heroes.v1/rule.combat/burst) into a storm of multicolored lights. You and each ally within 5 squares of you regain 1d6 [Recoveries](scc.v1:mcdm.heroes.v1/rule.health/recoveries). However, any mortal using this treasure draws the interest of a powerful fey noble.
+file_basename: restorative-of-the-bright-court
+file_dpath: treasure/4th-echelon/consumable
+flavor: An ornately decorated golden vial smells of summer rain and subtle zesty fruits.
+item_id: restorative-of-the-bright-court
+item_name: Restorative of the Bright Court
+keywords:
+    - Magic
+name: Restorative of the Bright Court
+project_goal: "360"
+scc: mcdm.heroes.v1/treasure.4th-echelon.consumable/restorative-of-the-bright-court
+source: mcdm.heroes.v1
+treasure_type: consumable
+type: treasure
+---
+
+*An ornately decorated golden vial smells of summer rain and subtle zesty fruits.*
+
+**Keywords:** Magic
+
+**[Item Prerequisite](scc.v1:mcdm.heroes.v1/rule.downtime/item-prerequisite):** A year's lifespan from the creator or another willing creature, the laughter of a young hero
+
+**[Project Source](scc.v1:mcdm.heroes.v1/rule.downtime/project-source):** Texts or lore in Khelt
+
+**[Project Roll](scc.v1:mcdm.heroes.v1/rule.downtime/project-roll) [Characteristic](scc.v1:mcdm.heroes.v1/rule.character/characteristic):** [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) or [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence)
+
+**Project Goal:** 360
+
+**Effect:** When opened as a maneuver, this vial [bursts](scc.v1:mcdm.heroes.v1/rule.combat/burst) into a storm of multicolored lights. You and each ally within 5 squares of you regain 1d6 [Recoveries](scc.v1:mcdm.heroes.v1/rule.health/recoveries). However, any mortal using this treasure draws the interest of a powerful fey noble.

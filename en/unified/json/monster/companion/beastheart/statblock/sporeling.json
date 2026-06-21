@@ -1,0 +1,8 @@
+{
+  "companion": "sporeling",
+  "content": "|     Beast, Companion     |         -         |                        Level 1                        |          -          |            -             |\n|:------------------------:|:-----------------:|:-----------------------------------------------------:|:-------------------:|:------------------------:|\n|      **1S**\u003cbr\u003eSize      |  **5**\u003cbr\u003eSpeed   |                **= yours**\u003cbr\u003eStamina                 | **0**\u003cbr\u003eStability  | **1 + M**\u003cbr\u003eFree Strike |\n| **Poison 3**\u003cbr\u003eImmunity | **—**\u003cbr\u003eMovement | **[Track](scc.v1:mcdm.heroes.v1/skill.intrigue/track)**\u003cbr\u003eSkills |                     |                          |\n|     **+2**\u003cbr\u003eMight      | **+2**\u003cbr\u003eAgility |                   **-1**\u003cbr\u003eReason                    | **+2**\u003cbr\u003eIntuition |    **+1**\u003cbr\u003ePresence    |",
+  "level": "1",
+  "name": "Sporeling",
+  "scc": "mcdm.beastheart.v1/monster.companion.beastheart.statblock/sporeling",
+  "type": "feature-group"
+}

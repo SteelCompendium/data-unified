@@ -1,0 +1,37 @@
+cost: 3 Drama
+distance: 3 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 10
+effects:
+    - roll: Power Roll + [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence)
+      tier1: 4 damage; P < WEAK, [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
+      tier2: 5 damage; P < AVERAGE, [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
+      tier3: 6 damage; P < STRONG, [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
+    - effect: The area is [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain) for enemies.
+      name: Effect
+feature_type: ability
+flavor: You write something unexpected into the scene that hinders your enemy.
+keywords:
+    - Area
+    - Magic
+    - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'
+metadata:
+    action_type: Main action
+    class: troubadour
+    content: "\n*You write something unexpected into the scene that hinders your enemy.*\n\n| **Area, Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)**     |               **Main action** |\n|-----------------------------|------------------------------:|\n| **\U0001F4CF 3 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 10**     | **\U0001F3AF Each enemy in the area** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence):**\n\n- **≤11:** 4 damage; P < WEAK, [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)\n- **12-16:** 5 damage; P < AVERAGE, [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)\n- **17+:** 6 damage; P < STRONG, [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)\n\n**Effect:** The area is [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain) for enemies."
+    distance: 3 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 10
+    feature_type: ability
+    flavor: You write something unexpected into the scene that hinders your enemy.
+    item_id: quick-rewrite
+    item_name: Quick Rewrite
+    keywords:
+        - Area
+        - Magic
+        - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'
+    level: 1
+    scc:
+        - mcdm.heroes.v1/feature.ability.troubadour.level-1/quick-rewrite
+    target: Each enemy in the area
+    type: feature/ability/troubadour/level-1
+name: Quick Rewrite
+target: Each enemy in the area
+type: feature
+usage: Main action

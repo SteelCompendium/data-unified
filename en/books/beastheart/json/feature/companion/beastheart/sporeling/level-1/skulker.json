@@ -1,0 +1,22 @@
+{
+  "effects": [
+    {
+      "effect": "The sporeling can end their movement in an ally's space. While occupying an ally's space, the sporeling has cover."
+    }
+  ],
+  "feature_type": "feature",
+  "metadata": {
+    "action_type": "feature",
+    "class": "beastheart",
+    "feature_type": "feature",
+    "item_id": "skulker",
+    "item_name": "Skulker",
+    "level": 1,
+    "scc": [
+      "mcdm.beastheart.v1/feature.companion.beastheart.sporeling.level-1/skulker"
+    ],
+    "type": "feature/companion/beastheart/sporeling/level-1"
+  },
+  "name": "Skulker",
+  "type": "feature"
+}

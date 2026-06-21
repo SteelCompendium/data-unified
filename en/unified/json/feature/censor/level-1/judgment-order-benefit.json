@@ -1,0 +1,22 @@
+{
+  "effects": [
+    {
+      "effect": "The first time on a [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) that you use your [Judgment](scc.v1:mcdm.heroes.v1/feature.ability.censor.level-1/judgment) ability to judge a creature, you gain the following benefit based on your order:\n\n- **Exorcist:** You can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) up to a number of squares equal to twice your [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence) score. This movement must take you closer to the judged creature. You do not need [line of effect](scc.v1:mcdm.heroes.v1/rule.combat/line-of-effect) to your destination.\n- **Oracle:** You can deal holy damage equal to twice your [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence) score to the judged creature.\n- **Paragon:** You can vertical [pull](scc.v1:mcdm.heroes.v1/movement/forced-movement) the judged creature up to a number of squares equal to twice your [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence) score."
+    }
+  ],
+  "feature_type": "feature",
+  "metadata": {
+    "action_type": "feature",
+    "class": "censor",
+    "feature_type": "feature",
+    "item_id": "judgment-order-benefit",
+    "item_name": "Judgment Order Benefit",
+    "level": 1,
+    "scc": [
+      "mcdm.heroes.v1/feature.censor.level-1/judgment-order-benefit"
+    ],
+    "type": "feature/censor/level-1"
+  },
+  "name": "Judgment Order Benefit",
+  "type": "feature"
+}

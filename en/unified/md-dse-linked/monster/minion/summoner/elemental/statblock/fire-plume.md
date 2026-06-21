@@ -1,0 +1,49 @@
+---
+agility: 1
+cost: 1 essence per minion summoned
+cost_amount: "1"
+cost_resource: essence per minion summoned
+file_basename: fire-plume
+file_dpath: monster/minion/summoner/elemental/statblock
+flavor: A fire plume burns so bright that their true shape is hard to discern from the flames. They sputter and spit motes of fire in high arcs.
+free_strike: 2
+immunities:
+    - Fire R
+intuition: 0
+item_id: fire-plume
+item_name: Fire Plume
+keywords:
+    - Elemental (Fire)
+might: -2
+movement: —
+name: Fire Plume
+organization: Minion
+presence: 2
+reason: 0
+role: Artillery
+scc: mcdm.summoner.v1/monster.minion.summoner.elemental.statblock/fire-plume
+size: 1T
+source: mcdm.summoner.v1
+speed: 5
+stability: 0
+stamina: "1"
+type: statblock
+weaknesses:
+    - —
+---
+
+A fire plume burns so bright that their true shape is hard to discern from the flames. They sputter and spit motes of fire in high arcs.
+
+| Elemental (Fire) | - | - | Signature Minion Artillery | 1 essence per minion summoned |
+|:----------:|:----------------:|:--------------------------:|:-:|:-----------------------------:|
+| **1T**<br>Size | **5**<br>Speed | **1**<br>Stamina | **0**<br>Stability | **2**<br>Free Strike |
+| **Fire R**<br>Immunity | **—**<br>Movement | - | **—**<br>Weakness | **Fire**<br>Free Strike Damage Type |
+| **-2**<br>Might | **+1**<br>Agility | **0**<br>Reason | **0**<br>Intuition | **+2**<br>Presence |
+
+> ⭐️ **Spitfire Strike**
+>
+> The plume's ranged [free strikes](../../../../../feature/common/main-actions/free-strike.md) have a distance of 10.
+
+> ⭐️ **Pyre**
+>
+> When the plume is reduced to 0 [Stamina](../../../../../rule/health/stamina.md), their space becomes wreathed in flames until the end of the encounter. An enemy that enters this space or starts their turn there takes 2 fire damage.

@@ -1,0 +1,58 @@
+---
+action_type: Main action
+class: troubadour
+cost: 9 Drama
+cost_amount: "9"
+cost_resource: Drama
+distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
+effect: You and the target each make a [melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) that targets each enemy within 3 squares of either of you, dividing the enemies between each of you. You choose which enemies your [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) targets and which enemies the target creature's [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) targets. You then [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) the target 5 squares, ignoring [stability](scc.v1:mcdm.heroes.v1/rule.character/stability).
+feature_type: ability
+file_basename: fight-choreography
+file_dpath: feature/ability/troubadour/level-6
+flavor: You and your partner make a flashy show of derring-do, then get back to your corners.
+item_id: fight-choreography
+item_name: Fight Choreography
+keywords:
+    - '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)'
+    - '[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)'
+    - Weapon
+level: "6"
+name: Fight Choreography
+scc: mcdm.heroes.v1/feature.ability.troubadour.level-6/fight-choreography
+source: mcdm.heroes.v1
+target: One creature
+type: ability
+---
+
+```ds-feature
+cost: 9 Drama
+distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
+effects:
+    - effect: You and the target each make a [melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) that targets each enemy within 3 squares of either of you, dividing the enemies between each of you. You choose which enemies your [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) targets and which enemies the target creature's [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) targets. You then [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) the target 5 squares, ignoring [stability](scc.v1:mcdm.heroes.v1/rule.character/stability).
+feature_type: ability
+flavor: You and your partner make a flashy show of derring-do, then get back to your corners.
+keywords:
+    - '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)'
+    - '[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)'
+    - Weapon
+metadata:
+    action_type: Main action
+    class: troubadour
+    cost: 9 Drama
+    distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
+    effect: You and the target each make a [melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) that targets each enemy within 3 squares of either of you, dividing the enemies between each of you. You choose which enemies your [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) targets and which enemies the target creature's [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) targets. You then [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) the target 5 squares, ignoring [stability](scc.v1:mcdm.heroes.v1/rule.character/stability).
+    flavor: You and your partner make a flashy show of derring-do, then get back to your corners.
+    keywords:
+        - '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)'
+        - '[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)'
+        - Weapon
+    level: "6"
+    name: Fight Choreography
+    scc: mcdm.heroes.v1/feature.ability.troubadour.level-6/fight-choreography
+    target: One creature
+    type: ability
+name: Fight Choreography
+target: One creature
+type: feature
+usage: Main action
+```

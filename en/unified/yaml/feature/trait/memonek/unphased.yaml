@@ -1,0 +1,13 @@
+effects:
+    - effect: Your ordered mind can't be caught off guard. You can't be made [surprised](scc.v1:mcdm.heroes.v1/rule.combat/surprised).
+feature_type: trait
+metadata:
+    action_type: feature
+    feature_type: trait
+    item_id: unphased
+    item_name: Unphased
+    scc:
+        - mcdm.heroes.v1/feature.trait.memonek/unphased
+    type: feature/trait/memonek
+name: Unphased
+type: feature

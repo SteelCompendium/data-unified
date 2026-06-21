@@ -1,0 +1,12 @@
+---
+file_basename: hover
+file_dpath: movement
+item_id: hover
+item_name: Hover
+name: Hover
+scc: mcdm.heroes.v1/movement/hover
+source: mcdm.heroes.v1
+type: movement
+---
+
+A creature who has "[hover](scc.v1:mcdm.heroes.v1/movement/hover)" in their [speed](scc.v1:mcdm.heroes.v1/rule.character/speed) entry (most commonly alongside "[fly](scc.v1:mcdm.heroes.v1/movement/fly)" or "[teleport](scc.v1:mcdm.heroes.v1/movement/teleport)"), or who gains the temporary ability to [hover](scc.v1:mcdm.heroes.v1/movement/hover), can remain motionless in midair. They don't fall even if they are [knocked prone](scc.v1:mcdm.heroes.v1/condition/prone) or their [speed](scc.v1:mcdm.heroes.v1/rule.character/speed) is reduced to 0.

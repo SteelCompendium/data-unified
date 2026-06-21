@@ -1,0 +1,44 @@
+{
+  "cost": "5 Piety",
+  "distance": "3 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 10",
+  "effects": [
+    {
+      "roll": "Power Roll + [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)",
+      "tier1": "2 lightning damage; vertical [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1",
+      "tier2": "5 lightning damage; vertical [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2",
+      "tier3": "7 lightning damage; vertical [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3"
+    }
+  ],
+  "feature_type": "ability",
+  "flavor": "A raging storm appears, striking your foes with lightning and throwing them around with wind.",
+  "keywords": [
+    "Area",
+    "Magic",
+    "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)"
+  ],
+  "metadata": {
+    "action_type": "Main action",
+    "class": "conduit",
+    "content": "\n*A raging storm appears, striking your foes with lightning and throwing them around with wind.*\n\n| **Area, Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)**  |               **Main action** |\n|--------------------------|------------------------------:|\n| **📏 3 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 10**  | **🎯 Each enemy in the area** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition):**\n\n- **≤11:** 2 lightning damage; vertical [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1\n- **12-16:** 5 lightning damage; vertical [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2\n- **17+:** 7 lightning damage; vertical [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3",
+    "distance": "3 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 10",
+    "feature_type": "ability",
+    "flavor": "A raging storm appears, striking your foes with lightning and throwing them around with wind.",
+    "item_id": "saints-tempest",
+    "item_name": "Saint's Tempest",
+    "keywords": [
+      "Area",
+      "Magic",
+      "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)"
+    ],
+    "level": 2,
+    "scc": [
+      "mcdm.heroes.v1/feature.ability.conduit.level-2/saints-tempest"
+    ],
+    "target": "Each enemy in the area",
+    "type": "feature/ability/conduit/level-2"
+  },
+  "name": "Saint's Tempest",
+  "target": "Each enemy in the area",
+  "type": "feature",
+  "usage": "Main action"
+}

@@ -1,0 +1,15 @@
+effects:
+    - effect: Any effect on the lightbender that would be ended by a saving throw instead ends automatically at the end of their next turn.
+feature_type: feature
+metadata:
+    action_type: feature
+    class: beastheart
+    feature_type: feature
+    item_id: avoidance
+    item_name: Avoidance
+    level: 1
+    scc:
+        - mcdm.beastheart.v1/feature.companion.beastheart.lightbender.level-1/avoidance
+    type: feature/companion/beastheart/lightbender/level-1
+name: Avoidance
+type: feature

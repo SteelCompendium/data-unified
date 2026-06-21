@@ -1,0 +1,48 @@
+{
+  "cost": "3 Insight",
+  "distance": "[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1",
+  "effects": [
+    {
+      "roll": "Power Roll + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)",
+      "tier1": "5 + A damage",
+      "tier2": "8 + A damage",
+      "tier3": "11 + A damage"
+    },
+    {
+      "effect": "You can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to your [speed](scc.v1:mcdm.heroes.v1/rule.character/speed), dividing that movement before or after your [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) as desired.",
+      "name": "Effect"
+    }
+  ],
+  "feature_type": "ability",
+  "flavor": "Move unexpectedly, strike fast, and be gone!",
+  "keywords": [
+    "[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)",
+    "[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)",
+    "Weapon"
+  ],
+  "metadata": {
+    "action_type": "Main action",
+    "class": "shadow",
+    "content": "\n*Move unexpectedly, strike fast, and be gone!*\n\n| **[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), Weapon** |     **Main action** |\n|---------------------------|--------------------:|\n| **📏 [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1**            | **🎯 One creature** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility):**\n\n- **≤11:** 5 + A damage\n- **12-16:** 8 + A damage\n- **17+:** 11 + A damage\n\n**Effect:** You can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to your [speed](scc.v1:mcdm.heroes.v1/rule.character/speed), dividing that movement before or after your [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) as desired.",
+    "distance": "[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1",
+    "feature_type": "ability",
+    "flavor": "Move unexpectedly, strike fast, and be gone!",
+    "item_id": "get-in-get-out",
+    "item_name": "Get In Get Out",
+    "keywords": [
+      "[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)",
+      "[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)",
+      "Weapon"
+    ],
+    "level": 1,
+    "scc": [
+      "mcdm.heroes.v1/feature.ability.shadow.level-1/get-in-get-out"
+    ],
+    "target": "One creature",
+    "type": "feature/ability/shadow/level-1"
+  },
+  "name": "Get In Get Out",
+  "target": "One creature",
+  "type": "feature",
+  "usage": "Main action"
+}

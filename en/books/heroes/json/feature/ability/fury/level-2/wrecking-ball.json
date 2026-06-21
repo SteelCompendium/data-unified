@@ -1,0 +1,46 @@
+{
+  "cost": "5 Ferocity",
+  "distance": "Self; see below",
+  "effects": [
+    {
+      "roll": "Power Roll + [Might](scc.v1:mcdm.heroes.v1/rule.character/might)",
+      "tier1": "[Push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1",
+      "tier2": "[Push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2",
+      "tier3": "[Push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3"
+    },
+    {
+      "effect": "You move up to your [speed](scc.v1:mcdm.heroes.v1/rule.character/speed) in a straight line. During this movement, you can move through mundane structures, including walls, which are [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain) for you. You automatically destroy each square of structure you move through and leave behind a square of [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain).",
+      "name": "Effect"
+    }
+  ],
+  "feature_type": "ability",
+  "flavor": "It's easier to destroy than to create. Much easier, in fact!",
+  "keywords": [
+    "[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)",
+    "Weapon"
+  ],
+  "metadata": {
+    "action_type": "Maneuver",
+    "class": "fury",
+    "content": "\n*It's easier to destroy than to create. Much easier, in fact!*\n\n| **[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), Weapon**      | **Maneuver** |\n|------------------------|-------------:|\n| **📏 Self; see below** |  **🎯 Self** |\n\n**Effect:** You move up to your [speed](scc.v1:mcdm.heroes.v1/rule.character/speed) in a straight line. During this movement, you can move through mundane structures, including walls, which are [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain) for you. You automatically destroy each square of structure you move through and leave behind a square of [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain).\n\nAdditionally, you make one [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) that targets each enemy you move [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to during this movement.\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc.v1:mcdm.heroes.v1/rule.character/might):**\n\n- **≤11:** [Push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1\n- **12-16:** [Push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2\n- **17+:** [Push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3",
+    "distance": "Self; see below",
+    "feature_type": "ability",
+    "flavor": "It's easier to destroy than to create. Much easier, in fact!",
+    "item_id": "wrecking-ball",
+    "item_name": "Wrecking Ball",
+    "keywords": [
+      "[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)",
+      "Weapon"
+    ],
+    "level": 2,
+    "scc": [
+      "mcdm.heroes.v1/feature.ability.fury.level-2/wrecking-ball"
+    ],
+    "target": "Self",
+    "type": "feature/ability/fury/level-2"
+  },
+  "name": "Wrecking Ball",
+  "target": "Self",
+  "type": "feature",
+  "usage": "Maneuver"
+}

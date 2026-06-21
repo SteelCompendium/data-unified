@@ -1,0 +1,7 @@
+---
+name: Mount
+scc: mcdm.monsters.v1/rule.role/mount
+type: rule
+---
+
+Mounts are mobile creatures meant to be ridden in combat, and who make their riders even more dangerous.

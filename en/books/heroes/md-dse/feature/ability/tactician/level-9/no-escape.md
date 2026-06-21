@@ -1,0 +1,73 @@
+---
+action_type: Main action
+class: tactician
+cost: 11 Focus
+cost_amount: "11"
+cost_resource: Focus
+distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
+effect: You mark the target.
+feature_type: ability
+file_basename: no-escape
+file_dpath: feature/ability/tactician/level-9
+flavor: Nothing will stop you from reaching your foe.
+item_id: no-escape
+item_name: No Escape
+keywords:
+    - Charge
+    - '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)'
+    - '[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)'
+    - Weapon
+level: "9"
+name: No Escape
+power_roll_characteristic: '[Might](scc.v1:mcdm.heroes.v1/rule.character/might)'
+scc: mcdm.heroes.v1/feature.ability.tactician.level-9/no-escape
+source: mcdm.heroes.v1
+target: One creature
+tier1: 11 + M damage
+tier2: 16 + M damage
+tier3: 21 + M damage
+type: ability
+---
+
+```ds-feature
+cost: 11 Focus
+distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
+effects:
+    - effect: You mark the target.
+    - roll: Power Roll + [Might](scc.v1:mcdm.heroes.v1/rule.character/might)
+      tier1: 11 + M damage
+      tier2: 16 + M damage
+      tier3: 21 + M damage
+feature_type: ability
+flavor: Nothing will stop you from reaching your foe.
+keywords:
+    - Charge
+    - '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)'
+    - '[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)'
+    - Weapon
+metadata:
+    action_type: Main action
+    class: tactician
+    cost: 11 Focus
+    distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
+    effect: You mark the target.
+    flavor: Nothing will stop you from reaching your foe.
+    keywords:
+        - Charge
+        - '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)'
+        - '[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)'
+        - Weapon
+    level: "9"
+    name: No Escape
+    power_roll_characteristic: '[Might](scc.v1:mcdm.heroes.v1/rule.character/might)'
+    scc: mcdm.heroes.v1/feature.ability.tactician.level-9/no-escape
+    target: One creature
+    tier1: 11 + M damage
+    tier2: 16 + M damage
+    tier3: 21 + M damage
+    type: ability
+name: No Escape
+target: One creature
+type: feature
+usage: Main action
+```

@@ -1,0 +1,49 @@
+agility: 2
+ev: '-'
+features:
+    - ability_type: Signature Ability
+      distance: Melee 1
+      effects:
+        - roll: Power Roll + highest characteristic
+          tier1: 3 damage
+          tier2: 5 damage
+          tier3: 7 damage
+      feature_type: ability
+      icon: "\U0001F5E1"
+      keywords:
+        - Melee
+        - Strike
+        - Weapon
+      name: Leapfrog
+      target: One creature or object
+      type: feature
+      usage: Main action
+    - effects:
+        - effect: Whenever an [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) enemy grabs the hopper or uses a melee ability against them, that enemy takes 3 poison damage.
+      feature_type: trait
+      icon: ⭐️
+      name: Toxiferous
+      type: feature
+free_strike: 2
+immunities:
+    - Poison 2
+intuition: 0
+keywords:
+    - Angulotl
+    - Humanoid
+level: 1
+metadata:
+    scc: mcdm.monsters.v1/monster.retainer.statblock/angulotl-hopper
+    source: mcdm.monsters.v1
+might: 1
+movement: Climb, swim
+name: Angulotl Hopper
+organization: Retainer
+presence: 0
+reason: 0
+role: Harrier
+size: 1S
+speed: 6
+stability: 0
+stamina: "21"
+type: statblock

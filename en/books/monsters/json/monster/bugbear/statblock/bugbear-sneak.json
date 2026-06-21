@@ -1,0 +1,149 @@
+{
+  "agility": 2,
+  "ev": "16",
+  "features": [
+    {
+      "ability_type": "Signature Ability",
+      "distance": "Melee 1",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "tier1": "8 damage; A \u003c 1 [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)",
+          "tier2": "13 damage; A \u003c 2 [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)",
+          "tier3": "16 damage; [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)"
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "🗡",
+      "keywords": [
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "name": "Sucker Punch",
+      "target": "One creature or object",
+      "type": "feature",
+      "usage": "Main action"
+    },
+    {
+      "cost": "3 Malice",
+      "distance": "2 burst",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "tier1": "2 damage; I \u003c 0 the sneak has concealment from the target (save ends)",
+          "tier2": "3 damage; I \u003c 1 the sneak has concealment from the target (save ends)",
+          "tier3": "4 damage; I \u003c 2 the sneak has concealment from the target (save ends)"
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "❇️",
+      "keywords": [
+        "Area"
+      ],
+      "name": "Shadow Cloak",
+      "target": "Each enemy in the area",
+      "type": "feature",
+      "usage": "Main action"
+    },
+    {
+      "distance": "Ranged 8",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "tier1": "7 damage; M \u003c 0 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)",
+          "tier2": "11 damage; M \u003c 1 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)",
+          "tier3": "14 damage; M \u003c 2 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)"
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "🏹",
+      "keywords": [
+        "Ranged",
+        "Strike",
+        "Weapon"
+      ],
+      "name": "Carving Dagger",
+      "target": "Two creatures or objects",
+      "type": "feature",
+      "usage": "Main action"
+    },
+    {
+      "distance": "Melee 1",
+      "effects": [
+        {
+          "effect": "**Special:** The target must be [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) by the sneak.\n**Effect:** The target is vertical [pushed](scc.v1:mcdm.heroes.v1/movement/forced-movement) up to 4 squares. An ally doesn't take damage from being [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement) this way."
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "🗡",
+      "keywords": [
+        "Melee",
+        "Strike"
+      ],
+      "name": "Throw",
+      "target": "One creature or object",
+      "type": "feature",
+      "usage": "Maneuver"
+    },
+    {
+      "distance": "Melee 1",
+      "effects": [
+        {
+          "effect": "**Trigger:** A size 1 creature or object is [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement) within distance, or a size 1 ally willingly moves within distance.\n**Effect:** The target is [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) by the sneak."
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "❗️",
+      "keywords": [
+        "Melee"
+      ],
+      "name": "Catcher",
+      "target": "The triggering creature or object",
+      "type": "feature",
+      "usage": "Free triggered action"
+    },
+    {
+      "cost": "1 Malice",
+      "distance": "Special",
+      "effects": [
+        {
+          "effect": "**Trigger:** The sneak is targeted by a strike.\n**Effect:** The sneak chooses one enemy within distance of the strike to become the target of the strike."
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "❗️",
+      "keywords": [
+        "-"
+      ],
+      "name": "Clever Trick",
+      "target": "One enemy",
+      "type": "feature",
+      "usage": "Triggered action"
+    }
+  ],
+  "free_strike": 5,
+  "intuition": 0,
+  "keywords": [
+    "Bugbear",
+    "Fey",
+    "Goblin",
+    "Humanoid"
+  ],
+  "level": 2,
+  "metadata": {
+    "scc": "mcdm.monsters.v1/monster.bugbear.statblock/bugbear-sneak",
+    "source": "mcdm.monsters.v1"
+  },
+  "might": 2,
+  "name": "Bugbear Sneak",
+  "organization": "Elite",
+  "presence": 0,
+  "reason": 0,
+  "role": "Ambusher",
+  "size": "1L",
+  "speed": 7,
+  "stability": 0,
+  "stamina": "80",
+  "type": "statblock"
+}

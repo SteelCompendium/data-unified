@@ -1,0 +1,22 @@
+{
+  "effects": [
+    {
+      "effect": "While you are in your hybrid form, your [size](scc.v1:mcdm.heroes.v1/rule.character/size) is 1L, you have a +2 [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to [speed](scc.v1:mcdm.heroes.v1/rule.character/speed), and you ignore [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain). At 4th level, the first time you take hybrid form in an encounter, you gain 10 [temporary Stamina](scc.v1:mcdm.heroes.v1/rule.health/temporary-stamina)."
+    }
+  ],
+  "feature_type": "feature",
+  "metadata": {
+    "action_type": "feature",
+    "class": "fury",
+    "feature_type": "feature",
+    "item_id": "hybrid-form-wolf",
+    "item_name": "Hybrid Form: Wolf",
+    "kit": "vuken",
+    "scc": [
+      "mcdm.heroes.v1/feature.fury.vuken/hybrid-form-wolf"
+    ],
+    "type": "feature/fury/vuken"
+  },
+  "name": "Hybrid Form: Wolf",
+  "type": "feature"
+}

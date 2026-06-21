@@ -1,0 +1,135 @@
+{
+  "agility": 2,
+  "ev": "16",
+  "features": [
+    {
+      "ability_type": "Signature Ability",
+      "distance": "Melee 1",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "tier1": "7 damage; the griffon can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) 1 square",
+          "tier2": "10 damage; the griffon [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to 2 squares",
+          "tier3": "13 damage; the griffon [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to 3 squares"
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "🗡",
+      "keywords": [
+        "Charge",
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "name": "Claw Swipes",
+      "target": "Two creatures or objects",
+      "type": "feature",
+      "usage": "Main action"
+    },
+    {
+      "distance": "3 cube within 8",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "tier1": "4 damage",
+          "tier2": "6 damage; A \u003c 1 [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3",
+          "tier3": "9 damage; A \u003c 2 [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 4; [prone](scc.v1:mcdm.heroes.v1/condition/prone)"
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "🔳",
+      "keywords": [
+        "Area",
+        "Ranged"
+      ],
+      "name": "Crack the Earth",
+      "target": "Each enemy in the area",
+      "type": "feature",
+      "usage": "Maneuver"
+    },
+    {
+      "cost": "3 Malice",
+      "distance": "4 x 2 line within 1",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "tier1": "[Push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3; A \u003c 0 the [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) is vertical",
+          "tier2": "[Push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 4; A \u003c 1 the [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) is vertical",
+          "tier3": "[Push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5; A \u003c 2 the [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) is vertical"
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "🔳",
+      "keywords": [
+        "Area"
+      ],
+      "name": "Wing Buffet",
+      "target": "Each creature or object in the area",
+      "type": "feature",
+      "usage": "Maneuver"
+    },
+    {
+      "cost": "1 Malice",
+      "distance": "Self",
+      "effects": [
+        {
+          "effect": "**Trigger:** The griffon takes damage.\n**Effect:** The griffon halves the damage, ignores any nondamaging effects associated with it, and [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to 2 squares."
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "❗️",
+      "keywords": [
+        "-"
+      ],
+      "name": "Zephyr Feint",
+      "target": "Self",
+      "type": "feature",
+      "usage": "Triggered action"
+    },
+    {
+      "effects": [
+        {
+          "effect": "While [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) by the griffon, a creature has a double bane on the Escape Grab maneuver."
+        }
+      ],
+      "feature_type": "trait",
+      "icon": "⭐️",
+      "name": "Beast of Prey",
+      "type": "feature"
+    },
+    {
+      "effects": [
+        {
+          "effect": "Any power roll that could knock the griffon or their rider [prone](scc.v1:mcdm.heroes.v1/condition/prone) takes a bane."
+        }
+      ],
+      "feature_type": "trait",
+      "icon": "⭐️",
+      "name": "Steady",
+      "type": "feature"
+    }
+  ],
+  "free_strike": 5,
+  "intuition": 1,
+  "keywords": [
+    "Beast",
+    "Griffon"
+  ],
+  "level": 2,
+  "metadata": {
+    "scc": "mcdm.monsters.v1/monster.griffon.statblock/griffon",
+    "source": "mcdm.monsters.v1"
+  },
+  "might": 2,
+  "movement": "Fly",
+  "name": "Griffon",
+  "organization": "Elite",
+  "presence": 2,
+  "reason": -1,
+  "role": "Mount",
+  "size": "2",
+  "speed": 9,
+  "stability": 2,
+  "stamina": "80",
+  "type": "statblock"
+}

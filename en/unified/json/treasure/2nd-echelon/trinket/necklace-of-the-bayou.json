@@ -1,0 +1,15 @@
+{
+  "content": "*A worn leather circlet bears a lizard-shaped pendant of rotting wood.*\n\n**Keywords:** Magic, Neck\n\n**[Item Prerequisite](scc.v1:mcdm.heroes.v1/rule.downtime/item-prerequisite):** A gallon of swamp water, the limbs of four different newts\n\n**[Project Source](scc.v1:mcdm.heroes.v1/rule.downtime/project-source):** Texts or lore in Yllyric\n\n**[Project Roll](scc.v1:mcdm.heroes.v1/rule.downtime/project-roll) [Characteristic](scc.v1:mcdm.heroes.v1/rule.character/characteristic):** [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) or [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)\n\n**Project Goal:** 300\n\n**Effect:** While you wear this necklace, you can breathe underwater, you can automatically swim at full [speed](scc.v1:mcdm.heroes.v1/rule.character/speed) while moving, and you ignore [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain) created by water or in marsh and similar terrain.",
+  "echelon": "2",
+  "effect": "While you wear this necklace, you can breathe underwater, you can automatically swim at full [speed](scc.v1:mcdm.heroes.v1/rule.character/speed) while moving, and you ignore [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain) created by water or in marsh and similar terrain.",
+  "flavor": "A worn leather circlet bears a lizard-shaped pendant of rotting wood.",
+  "keywords": [
+    "Magic",
+    "Neck"
+  ],
+  "name": "Necklace of the Bayou",
+  "project_goal": "300",
+  "scc": "mcdm.heroes.v1/treasure.2nd-echelon.trinket/necklace-of-the-bayou",
+  "treasure_type": "trinket",
+  "type": "treasure"
+}

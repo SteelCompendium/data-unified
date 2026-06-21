@@ -1,0 +1,96 @@
+{
+  "agility": 2,
+  "ev": "6",
+  "features": [
+    {
+      "ability_type": "Signature Ability",
+      "distance": "Melee 3",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "tier1": "5 damage; [pull](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1; M \u003c 0 the target is hooked (save ends)",
+          "tier2": "7 damage; [pull](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2; M \u003c 1 the target is hooked (save ends)",
+          "tier3": "9 damage; [pull](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3; M \u003c 2 the target is hooked (save ends)"
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "🗡",
+      "keywords": [
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "name": "Hook and Chain",
+      "target": "One creature or object",
+      "type": "feature",
+      "usage": "Main action"
+    },
+    {
+      "cost": "3 Malice",
+      "distance": "Ranged 5",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "tier1": "5 damage; A \u003c 0 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)",
+          "tier2": "7 damage; A \u003c 1 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)",
+          "tier3": "9 damage; [prone](scc.v1:mcdm.heroes.v1/condition/prone); A \u003c 2 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)"
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "🏹",
+      "keywords": [
+        "Ranged",
+        "Strike",
+        "Weapon"
+      ],
+      "name": "Heavy Crossbolt",
+      "target": "One creature or object",
+      "type": "feature",
+      "usage": "Main action"
+    },
+    {
+      "effects": [
+        {
+          "effect": "Whenever the chainlock is [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement) by a creature's melee ability, the creature is [pulled](scc.v1:mcdm.heroes.v1/movement/forced-movement) the same distance toward the chainlock after the [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) is resolved."
+        }
+      ],
+      "feature_type": "trait",
+      "icon": "⭐️",
+      "name": "Chain Link",
+      "type": "feature"
+    },
+    {
+      "effects": [
+        {
+          "effect": "If the chainlock is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), they can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) before dying. If the target of the free strike is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), the chainlock is reduced to 1 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) instead."
+        }
+      ],
+      "feature_type": "trait",
+      "icon": "⭐️",
+      "name": "Relentless",
+      "type": "feature"
+    }
+  ],
+  "free_strike": 3,
+  "intuition": 0,
+  "keywords": [
+    "Humanoid",
+    "Orc"
+  ],
+  "level": 1,
+  "metadata": {
+    "scc": "mcdm.monsters.v1/monster.orc.statblock/orc-chainlock",
+    "source": "mcdm.monsters.v1"
+  },
+  "might": 2,
+  "name": "Orc Chainlock",
+  "organization": "Platoon",
+  "presence": 0,
+  "reason": 1,
+  "role": "Hexer",
+  "size": "1L",
+  "speed": 5,
+  "stability": 2,
+  "stamina": "20",
+  "type": "statblock"
+}

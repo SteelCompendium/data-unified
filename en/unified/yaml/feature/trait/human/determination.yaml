@@ -1,0 +1,13 @@
+effects:
+    - effect: A tolerance for pain and distress allows you to push through difficult situations. If you are [frightened](scc.v1:mcdm.heroes.v1/condition/frightened), [slowed](scc.v1:mcdm.heroes.v1/condition/slowed), or [weakened](scc.v1:mcdm.heroes.v1/condition/weakened), you can use a maneuver to immediately end one of those [conditions](scc.v1:mcdm.heroes.v1/rule.combat/condition).
+feature_type: trait
+metadata:
+    action_type: feature
+    feature_type: trait
+    item_id: determination
+    item_name: Determination
+    scc:
+        - mcdm.heroes.v1/feature.trait.human/determination
+    type: feature/trait/human
+name: Determination
+type: feature

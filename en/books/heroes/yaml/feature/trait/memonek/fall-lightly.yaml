@@ -1,0 +1,13 @@
+effects:
+    - effect: Your silicone body is low in density. Whenever you fall, you reduce the [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance) of the fall by 2 squares.
+feature_type: trait
+metadata:
+    action_type: feature
+    feature_type: trait
+    item_id: fall-lightly
+    item_name: 'Signature Trait: Fall Lightly'
+    scc:
+        - mcdm.heroes.v1/feature.trait.memonek/fall-lightly
+    type: feature/trait/memonek
+name: 'Signature Trait: Fall Lightly'
+type: feature

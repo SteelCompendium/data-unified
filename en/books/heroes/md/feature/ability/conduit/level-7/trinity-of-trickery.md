@@ -1,0 +1,25 @@
+---
+action_type: Maneuver
+class: conduit
+cost: 9 Piety
+distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
+effect: You create two illusory duplicates of the target, which appear anywhere within [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance). These duplicates last until the end of the encounter. On each of their [turns](scc.v1:mcdm.heroes.v1/rule.combat/turn), the target can move each duplicate up to their [speed](scc.v1:mcdm.heroes.v1/rule.character/speed). If the target is targeted by an ability, they can use a free [triggered action](scc.v1:mcdm.heroes.v1/feature.conduit.level-1/triggered-action) to switch places with a duplicate within their [line of effect](scc.v1:mcdm.heroes.v1/rule.combat/line-of-effect), making the duplicate the target of the ability instead. When either duplicate takes damage, it is destroyed.
+flavor: Hey! I'm over here. No, here, numbskull.
+keywords:
+    - Magic
+    - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'
+level: "7"
+name: Trinity of Trickery
+scc: mcdm.heroes.v1/feature.ability.conduit.level-7/trinity-of-trickery
+target: Self or one ally
+type: ability
+---
+
+
+*Hey! I'm over here. No, here, numbskull.*
+
+| **Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)**  |            **Maneuver** |
+|--------------------|------------------------:|
+| **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**   | **🎯 Self or one ally** |
+
+**Effect:** You create two illusory duplicates of the target, which appear anywhere within [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance). These duplicates last until the end of the encounter. On each of their [turns](scc.v1:mcdm.heroes.v1/rule.combat/turn), the target can move each duplicate up to their [speed](scc.v1:mcdm.heroes.v1/rule.character/speed). If the target is targeted by an ability, they can use a free [triggered action](scc.v1:mcdm.heroes.v1/feature.conduit.level-1/triggered-action) to switch places with a duplicate within their [line of effect](scc.v1:mcdm.heroes.v1/rule.combat/line-of-effect), making the duplicate the target of the ability instead. When either duplicate takes damage, it is destroyed.

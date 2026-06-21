@@ -1,0 +1,40 @@
+---
+action_type: feature
+class: summoner
+feature_source: circle
+feature_type: feature
+file_basename: 1st-level-circle-features
+file_dpath: feature/summoner/level-1
+item_id: 1st-level-circle-features
+item_name: 1st-Level Circle Features
+level: "1"
+name: 1st-Level Circle Features
+scc: mcdm.summoner.v1/feature.summoner.level-1/1st-level-circle-features
+source: mcdm.summoner.v1
+type: feature
+---
+
+```ds-feature
+effects:
+    - effect: |-
+        Your circle grants you features as shown on the 1st-Level Summoner Circle Features table.
+
+        ###### 1st-Level Summoner Circle Features
+
+        | Circle | Feature |
+        |--------|---------|
+        | Blight | [Death Snap](scc.v1:mcdm.summoner.v1/feature.summoner.level-1/death-snap), [Soulsense](scc.v1:mcdm.summoner.v1/feature.summoner.level-1/soulsense) |
+        | Graves | [Dead Men Tell All Tales](scc.v1:mcdm.summoner.v1/feature.summoner.level-1/dead-men-tell-all-tales), [Rise!](scc.v1:mcdm.summoner.v1/feature.summoner.level-1/rise) |
+        | Spring | [Fairy Whispers](scc.v1:mcdm.summoner.v1/feature.summoner.level-1/fairy-whispers), [Pixie Dust](scc.v1:mcdm.summoner.v1/feature.summoner.level-1/pixie-dust) |
+        | Storms | [Elemental Affinity](scc.v1:mcdm.summoner.v1/feature.summoner.level-1/elemental-affinity), [Heart of Nature](scc.v1:mcdm.summoner.v1/feature.summoner.level-1/heart-of-nature) |
+feature_type: feature
+metadata:
+    class: summoner
+    feature_source: circle
+    level: "1"
+    name: 1st-Level Circle Features
+    scc: mcdm.summoner.v1/feature.summoner.level-1/1st-level-circle-features
+    type: feature
+name: 1st-Level Circle Features
+type: feature
+```

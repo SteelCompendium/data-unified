@@ -1,0 +1,15 @@
+effects:
+    - effect: A protective field of void magic absorbs violence aimed at you, then lets you hurl it back at your enemies. The first time each round that you take damage, you gain 1 [surge](scc.v1:mcdm.heroes.v1/rule.resource/surge).
+feature_type: feature
+metadata:
+    action_type: feature
+    class: elementalist
+    feature_type: feature
+    item_id: ward-of-delightful-consequences
+    item_name: Ward of Delightful Consequences
+    level: 1
+    scc:
+        - mcdm.heroes.v1/feature.elementalist.level-1/ward-of-delightful-consequences
+    type: feature/elementalist/level-1
+name: Ward of Delightful Consequences
+type: feature

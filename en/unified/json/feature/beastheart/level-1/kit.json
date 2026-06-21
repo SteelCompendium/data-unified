@@ -1,0 +1,22 @@
+{
+  "effects": [
+    {
+      "effect": "You can use and gain the benefits of a kit. See the \u003cu\u003eKits\u003c/u\u003e chapter of Draw Steel: Heroes for more information.\n\nYou and your companion both gain the benefits of the kit, with the following exceptions:\n\n- Only you can use the kit's signature ability, not your companion.\n- Your companion is always armed to the teeth. When choosing or changing a kit, your companion can choose between the melee damage bonus provided by the kit (if any) or a melee damage bonus of +0/+0/+4."
+    }
+  ],
+  "feature_type": "feature",
+  "metadata": {
+    "action_type": "feature",
+    "class": "beastheart",
+    "feature_type": "feature",
+    "item_id": "kit",
+    "item_name": "Kit",
+    "level": 1,
+    "scc": [
+      "mcdm.beastheart.v1/feature.beastheart.level-1/kit"
+    ],
+    "type": "feature/beastheart/level-1"
+  },
+  "name": "Kit",
+  "type": "feature"
+}

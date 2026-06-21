@@ -1,0 +1,25 @@
+---
+file_basename: reactive-test
+file_dpath: rule/test
+item_id: reactive-test
+item_name: Reactive Tests
+name: Reactive Tests
+scc: mcdm.heroes.v1/rule.test/reactive-test
+source: mcdm.heroes.v1
+type: rule
+---
+
+At certain times when a hero isn't engaged in overcoming a task, the Director might ask the player of the hero to make a [test](scc.v1:mcdm.heroes.v1/rule.test/test) without context, explaining the [test](scc.v1:mcdm.heroes.v1/rule.test/test) only after the [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) is made. This often happens when a hero has a chance of knowing or noticing something of significance that the player doesn't know to look for or ask about.
+
+Reactive [tests](scc.v1:mcdm.heroes.v1/rule.test/test) are typically made in the following circumstances, though the Director can call for them in any appropriate scenario:
+
+**Hidden Environmental Features:** The Director asks for an [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition) [test](scc.v1:mcdm.heroes.v1/rule.test/test) to notice a secret door, a hidden trap, or some other disguised environmental feature.
+
+- **Hidden Foes:** The Director calls for an [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition) [test](scc.v1:mcdm.heroes.v1/rule.test/test) to notice a hidden foe (or they could use the rules in [NPCs](scc.v1:mcdm.heroes.v1/rule.general/npc) Roll for Deceptive Tasks above).
+- **Hidden Motives:** The Director can ask for an [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition) [test](scc.v1:mcdm.heroes.v1/rule.test/test) during a conversation to gauge how well a hero can read an [NPC](scc.v1:mcdm.heroes.v1/rule.general/npc), judging whether they're lying, withholding information, or concealing an emotional response. (The Director could also use the rules in [NPCs](scc.v1:mcdm.heroes.v1/rule.general/npc) Roll for Deceptive Tasks.)
+- **Recall Lore:** The Director might ask a hero to make a [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) [test](scc.v1:mcdm.heroes.v1/rule.test/test) when dealing with a new object, a piece of information, or an event to determine what history or details the hero might already know about it.
+- **Creature and DTO [Tests](scc.v1:mcdm.heroes.v1/rule.test/test):** Some creatures and dynamic terrain objects in *Draw Steel: Monsters* have features and abilities that require heroes to make reactive [tests](scc.v1:mcdm.heroes.v1/rule.test/test). These [tests](scc.v1:mcdm.heroes.v1/rule.test/test) can't be modified by skills.
+
+> **Optional Rule: Secret Reactive [Tests](scc.v1:mcdm.heroes.v1/rule.test/test)**
+>
+> Some Directors prefer to make the [power rolls](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) for reactive [tests](scc.v1:mcdm.heroes.v1/rule.test/test) for the heroes rather than asking the players to do so. This allows the Director to make the rolls when appropriate for hidden objects, creatures, motivations, and information without tipping off the players that there is information to be gained. Having the Director roll requires the Director to have everyone's [characteristics](scc.v1:mcdm.heroes.v1/rule.character/characteristic) and skills recorded (whether physically or digitally) for easy reference.

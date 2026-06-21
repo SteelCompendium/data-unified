@@ -1,0 +1,67 @@
+{
+  "agility": 1,
+  "ev": "7 for four minions",
+  "features": [
+    {
+      "ability_type": "Signature Ability",
+      "distance": "Melee 1",
+      "effects": [
+        {
+          "roll": "Power Roll + 3",
+          "tier1": "3 damage",
+          "tier2": "6 damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1",
+          "tier3": "7 damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2; M \u003c 2 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)"
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "🗡",
+      "keywords": [
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "name": "Jaws and Claws",
+      "target": "One creature or object per minion",
+      "type": "feature",
+      "usage": "Main action"
+    },
+    {
+      "effects": [
+        {
+          "effect": "Whenever two or more whelps are simultaneously reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) by damage that isn't acid or fire damage, half of those whelps become troll limbjumbles with 4 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina)."
+        }
+      ],
+      "feature_type": "trait",
+      "icon": "⭐️",
+      "name": "Lingering Hunger",
+      "type": "feature"
+    }
+  ],
+  "free_strike": 3,
+  "intuition": 0,
+  "keywords": [
+    "Giant",
+    "Troll"
+  ],
+  "level": 5,
+  "metadata": {
+    "scc": "mcdm.monsters.v1/monster.troll.statblock/troll-whelp",
+    "source": "mcdm.monsters.v1"
+  },
+  "might": 3,
+  "name": "Troll Whelp",
+  "organization": "Minion",
+  "presence": 0,
+  "reason": -1,
+  "role": "Brute",
+  "size": "1L",
+  "speed": 6,
+  "stability": 3,
+  "stamina": "10",
+  "type": "statblock",
+  "weaknesses": [
+    "Acid 5",
+    "fire"
+  ],
+  "with_captain": "+2 damage bonus to strikes"
+}

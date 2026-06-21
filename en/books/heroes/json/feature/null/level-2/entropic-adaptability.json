@@ -1,0 +1,22 @@
+{
+  "effects": [
+    {
+      "effect": "You have cold immunity equal to twice your [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition) score. Additionally, you ignore [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain) related to cold and ice, and you can automatically climb at full [speed](scc.v1:mcdm.heroes.v1/rule.character/speed) while moving."
+    }
+  ],
+  "feature_type": "feature",
+  "metadata": {
+    "action_type": "feature",
+    "class": "null",
+    "feature_type": "feature",
+    "item_id": "entropic-adaptability",
+    "item_name": "Entropic Adaptability",
+    "level": 2,
+    "scc": [
+      "mcdm.heroes.v1/feature.null.level-2/entropic-adaptability"
+    ],
+    "type": "feature/null/level-2"
+  },
+  "name": "Entropic Adaptability",
+  "type": "feature"
+}

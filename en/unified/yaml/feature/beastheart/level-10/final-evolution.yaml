@@ -1,0 +1,15 @@
+effects:
+    - effect: When you gain ferocity at the start of each of your turns during combat, you gain 2d3 + 1 ferocity instead of 1d3 + 1.
+feature_type: feature
+metadata:
+    action_type: feature
+    class: beastheart
+    feature_type: feature
+    item_id: final-evolution
+    item_name: Final Evolution
+    level: 10
+    scc:
+        - mcdm.beastheart.v1/feature.beastheart.level-10/final-evolution
+    type: feature/beastheart/level-10
+name: Final Evolution
+type: feature

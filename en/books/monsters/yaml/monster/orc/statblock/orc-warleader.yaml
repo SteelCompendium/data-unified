@@ -1,0 +1,130 @@
+agility: 2
+ev: "20"
+features:
+    - ability_type: Signature Ability
+      distance: Ranged 10
+      effects:
+        - effect: |-
+            **Effect:** The target moves up to their speed and can use a main action.
+            **1 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice):** The warleader targets two allies.
+            **3 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice):** The warleader targets one ally and a [minion](scc.v1:mcdm.monsters.v1/rule.organization/minion) [squad](scc.v1:mcdm.monsters.v1/rule.monster/squad).
+      feature_type: ability
+      icon: "\U0001F3F9"
+      keywords:
+        - Ranged
+      name: Go.
+      target: One ally
+      type: feature
+      usage: Main action
+    - distance: Melee 1
+      effects:
+        - roll: Power Roll + 3
+          tier1: 7 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1; M < 1 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
+          tier2: 10 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3; M < 2 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
+          tier3: 13 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5; M < 3 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
+      feature_type: ability
+      icon: "\U0001F5E1"
+      keywords:
+        - Melee
+        - Strike
+        - Weapon
+      name: Mace Lariat
+      target: Each enemy
+      type: feature
+      usage: Main action
+    - cost: 3 Malice
+      distance: Self and ranged 10
+      effects:
+        - effect: '**Effect:** Each target moves up to their speed and can use the [Grab](scc.v1:mcdm.heroes.v1/feature.common.maneuvers/grab) maneuver, which gains an edge.'
+      feature_type: ability
+      icon: "\U0001F3F9"
+      keywords:
+        - Ranged
+      name: Lockdown
+      target: Self and three allies
+      type: feature
+      usage: Maneuver
+    - distance: Ranged 10
+      effects:
+        - effect: |-
+            **Trigger:** The target obtains a tier 1 outcome on one power roll.
+            **Effect:** The target has a double edge on their next power roll before the end of the encounter.
+      feature_type: ability
+      icon: ❗️
+      keywords:
+        - Ranged
+      name: Courtesy Call
+      target: One creature
+      type: feature
+      usage: Triggered action
+    - cost: Villain Action 1
+      distance: 10 burst
+      effects:
+        - roll: ""
+          tier1: '[Frightened](scc.v1:mcdm.heroes.v1/condition/frightened) of the warleader (save ends)'
+          tier2: '[Frightened](scc.v1:mcdm.heroes.v1/condition/frightened) of the warleader (EoT)'
+          tier3: No effect
+      feature_type: ability
+      icon: ☠️
+      keywords:
+        - Area
+      name: Close In
+      target: Each ally in the area
+      type: feature
+      usage: '-'
+    - cost: Villain Action 2
+      distance: Ranged 10
+      effects:
+        - effect: '**Effect:** The warleader [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed, and four orc blitzers appear in unoccupied spaces within distance.'
+      feature_type: ability
+      icon: ☠️
+      keywords:
+        - Ranged
+      name: Familial Reinforcements
+      target: Self
+      type: feature
+      usage: '-'
+    - cost: Villain Action 3
+      distance: Self
+      effects:
+        - effect: '**Effect:** Three times in succession, the warleader [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed and can use Mace Lariat.'
+      feature_type: ability
+      icon: ☠️
+      keywords:
+        - '-'
+      name: I'll Do This Myself
+      target: Self
+      type: feature
+      usage: '-'
+    - effects:
+        - effect: At the end of each of their turns, the warleader can take 5 damage to end one effect on them that can be ended by a [saving throw](scc.v1:mcdm.heroes.v1/rule.general/saving-throw). This damage can't be reduced in any way.
+      feature_type: trait
+      icon: ⭐️
+      name: End Effect
+      type: feature
+    - effects:
+        - effect: If the warleader is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), they can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) before dying. If the target of the free strike is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), the warleader is reduced to 1 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) instead.
+      feature_type: trait
+      icon: ⭐️
+      name: Relentless
+      type: feature
+free_strike: 5
+intuition: 2
+keywords:
+    - Humanoid
+    - Orc
+level: 3
+metadata:
+    scc: mcdm.monsters.v1/monster.orc.statblock/orc-warleader
+    source: mcdm.monsters.v1
+might: 3
+name: Orc Warleader
+organization: Leader
+presence: 2
+reason: 1
+role: ""
+size: 1M
+speed: 6
+stability: 2
+stamina: "120"
+type: statblock

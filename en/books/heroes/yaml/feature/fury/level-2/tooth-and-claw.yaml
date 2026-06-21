@@ -1,0 +1,15 @@
+effects:
+    - effect: At the end of each of your [turns](scc.v1:mcdm.heroes.v1/rule.combat/turn), each enemy [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to you takes damage equal to your [Might](scc.v1:mcdm.heroes.v1/rule.character/might) score.
+feature_type: feature
+metadata:
+    action_type: feature
+    class: fury
+    feature_type: feature
+    item_id: tooth-and-claw
+    item_name: Tooth and Claw
+    level: 2
+    scc:
+        - mcdm.heroes.v1/feature.fury.level-2/tooth-and-claw
+    type: feature/fury/level-2
+name: Tooth and Claw
+type: feature

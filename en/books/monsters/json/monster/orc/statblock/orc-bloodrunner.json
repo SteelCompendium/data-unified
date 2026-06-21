@@ -1,0 +1,73 @@
+{
+  "agility": 2,
+  "ev": "10",
+  "features": [
+    {
+      "ability_type": "Signature Ability",
+      "distance": "Melee 1",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "tier1": "7 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) special",
+          "tier2": "10 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) special",
+          "tier3": "13 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) special or [prone](scc.v1:mcdm.heroes.v1/condition/prone)"
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "🗡",
+      "keywords": [
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "name": "Shield Bash",
+      "target": "One creature or object",
+      "type": "feature",
+      "usage": "Main action"
+    },
+    {
+      "effects": [
+        {
+          "effect": "The bloodrunner can end their movement in a [prone](scc.v1:mcdm.heroes.v1/condition/prone) creature's space. The first time on a turn that a bloodrunner enters any creature's space, that creature takes 3 damage."
+        }
+      ],
+      "feature_type": "trait",
+      "icon": "⭐️",
+      "name": "Unimpeded",
+      "type": "feature"
+    },
+    {
+      "effects": [
+        {
+          "effect": "If the bloodrunner is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), they can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) before dying. If the target of the free strike is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), the bloodrunner is reduced to 1 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) instead."
+        }
+      ],
+      "feature_type": "trait",
+      "icon": "⭐️",
+      "name": "Relentless",
+      "type": "feature"
+    }
+  ],
+  "free_strike": 5,
+  "intuition": 1,
+  "keywords": [
+    "Humanoid",
+    "Orc"
+  ],
+  "level": 3,
+  "metadata": {
+    "scc": "mcdm.monsters.v1/monster.orc.statblock/orc-bloodrunner",
+    "source": "mcdm.monsters.v1"
+  },
+  "might": 2,
+  "name": "Orc Bloodrunner",
+  "organization": "Platoon",
+  "presence": 1,
+  "reason": 0,
+  "role": "Harrier",
+  "size": "1M",
+  "speed": 8,
+  "stability": 0,
+  "stamina": "50",
+  "type": "statblock"
+}

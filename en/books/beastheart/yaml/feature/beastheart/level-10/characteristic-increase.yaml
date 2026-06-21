@@ -1,0 +1,15 @@
+effects:
+    - effect: Your and your companion's Might and Intuition scores increase to 5.
+feature_type: feature
+metadata:
+    action_type: feature
+    class: beastheart
+    feature_type: feature
+    item_id: characteristic-increase
+    item_name: Characteristic Increase
+    level: 10
+    scc:
+        - mcdm.beastheart.v1/feature.beastheart.level-10/characteristic-increase
+    type: feature/beastheart/level-10
+name: Characteristic Increase
+type: feature

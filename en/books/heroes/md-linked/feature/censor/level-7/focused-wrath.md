@@ -1,0 +1,9 @@
+---
+class: censor
+level: "7"
+name: Focused Wrath
+scc: mcdm.heroes.v1/feature.censor.level-7/focused-wrath
+type: feature
+---
+
+When you gain wrath at the start of each of your [turns](../../../rule/combat/turn.md) during combat, you gain 3 wrath instead of 2.

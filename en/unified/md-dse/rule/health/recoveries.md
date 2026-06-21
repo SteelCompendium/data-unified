@@ -1,0 +1,12 @@
+---
+file_basename: recoveries
+file_dpath: rule/health
+item_id: recoveries
+item_name: Recoveries and Recovery Value
+name: Recoveries and Recovery Value
+scc: mcdm.heroes.v1/rule.health/recoveries
+source: mcdm.heroes.v1
+type: rule
+---
+
+Each hero has a number of Recoveries determined by their class. A hero also has a recovery value that equals one-third of their [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) maximum, rounded down. When you use the [Catch Breath](scc.v1:mcdm.heroes.v1/feature.common.maneuvers/catch-breath) maneuver in combat (see Maneuvers above), you spend a Recovery and regain [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) equal to your recovery value. Outside of combat, you can spend as many Recoveries as you have remaining. Some abilities, items, and other effects allow you to spend a Recovery to regain [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) equal to your recovery value plus a little extra (as described by the effect), or to regain [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) without spending a Recovery.

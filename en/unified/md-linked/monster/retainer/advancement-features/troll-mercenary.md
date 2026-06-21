@@ -1,0 +1,54 @@
+---
+features:
+    - cost: Encounter
+      distance: Melee 1
+      icon: "\U0001F5E1"
+      keywords:
+        - Melee
+      level: 7
+      name: Hangry Frenzy
+      sections:
+        - label: Effect
+          text: The mercenary must be [winded](../../../rule/health/winded.md) to use this ability. The mercenary uses Big Bite against each target.
+      target: Three creatures
+      usage: Main action
+    - cost: Encounter
+      distance: Self
+      icon: ❗️
+      keywords:
+        - '-'
+      level: 10
+      name: Fire Bad
+      sections:
+        - label: Trigger
+          text: An ability deals acid or fire damage to the mercenary.
+        - label: Effect
+          text: The mercenary moves up to their speed. If this movement takes them beyond the distance of the triggering ability, the ability has no effect on them.
+      target: Self
+      usage: Triggered action
+name: Troll Mercenary Advancement Features
+scc: mcdm.monsters.v1/monster.retainer.advancement-features/troll-mercenary
+type: featureblock
+---
+
+> **Level 7 Retainer Advancement Ability**
+
+> 🗡 **Hangry Frenzy (Encounter)**
+>
+> | **Melee**      |        **Main action** |
+> |----------------|-----------------------:|
+> | **📏 Melee 1** | **🎯 Three creatures** |
+>
+> **Effect:** The mercenary must be [winded](../../../rule/health/winded.md) to use this ability. The mercenary uses Big Bite against each target.
+
+> **Level 10 Retainer Advancement Ability**
+
+> ❗️ **Fire Bad (Encounter)**
+>
+> | **-**       | **Triggered action** |
+> |-------------|---------------------:|
+> | **📏 Self** |          **🎯 Self** |
+>
+> **Trigger:** An ability deals acid or fire damage to the mercenary.
+>
+> **Effect:** The mercenary moves up to their speed. If this movement takes them beyond the distance of the triggering ability, the ability has no effect on them.

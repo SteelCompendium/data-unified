@@ -1,0 +1,48 @@
+{
+  "cost": "11 Clarity",
+  "distance": "3 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)",
+  "effects": [
+    {
+      "roll": "Power Roll + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason)",
+      "tier1": "R \u003c WEAK, [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)",
+      "tier2": "R \u003c AVERAGE, [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)",
+      "tier3": "R \u003c STRONG, [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)"
+    },
+    {
+      "effect": "You and each target ally can't obtain lower than a tier 2 outcome on [power rolls](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) until the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn). Each target enemy is affected by the ability's [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll).",
+      "name": "Effect"
+    }
+  ],
+  "feature_type": "ability",
+  "flavor": "You project a terrifying image into the brains of your foes, and their fear psionically invigorates your allies.",
+  "keywords": [
+    "Area",
+    "Psionic",
+    "Telepathy"
+  ],
+  "metadata": {
+    "action_type": "Main action",
+    "class": "talent",
+    "content": "\n*You project a terrifying image into the brains of your foes, and their fear psionically invigorates your allies.*\n\n| **Area, Psionic, Telepathy** |                        **Main action** |\n|------------------------------|---------------------------------------:|\n| **📏 3 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)**               | **🎯 Each ally and enemy in the area** |\n\n**Effect:** You and each target ally can't obtain lower than a tier 2 outcome on [power rolls](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) until the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn). Each target enemy is affected by the ability's [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll).\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason):**\n\n- **≤11:** R \u003c WEAK, [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)\n- **12-16:** R \u003c AVERAGE, [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)\n- **17+:** R \u003c STRONG, [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)\n\n**Strained:** You can't use this ability if doing so would cause you to have negative clarity.",
+    "distance": "3 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)",
+    "feature_type": "ability",
+    "flavor": "You project a terrifying image into the brains of your foes, and their fear psionically invigorates your allies.",
+    "item_id": "synaptic-terror",
+    "item_name": "Synaptic Terror",
+    "keywords": [
+      "Area",
+      "Psionic",
+      "Telepathy"
+    ],
+    "level": 9,
+    "scc": [
+      "mcdm.heroes.v1/feature.ability.talent.level-9/synaptic-terror"
+    ],
+    "target": "Each ally and enemy in the area",
+    "type": "feature/ability/talent/level-9"
+  },
+  "name": "Synaptic Terror",
+  "target": "Each ally and enemy in the area",
+  "type": "feature",
+  "usage": "Main action"
+}

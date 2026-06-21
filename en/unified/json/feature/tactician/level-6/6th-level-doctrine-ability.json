@@ -1,0 +1,22 @@
+{
+  "effects": [
+    {
+      "effect": "Your [tactical doctrine](scc.v1:mcdm.heroes.v1/feature.tactician.level-1/tactical-doctrine) grants your choice of one of two [heroic abilities](scc.v1:mcdm.heroes.v1/rule.general/heroic-ability).\n\n##### 6th-Level Insurgent Abilities\n\nChoose one of the following abilities.\n\n##### 6th-Level Mastermind Abilities\n\nChoose one of the following abilities.\n\n##### 6th-Level Vanguard Abilities\n\nChoose one of the following abilities."
+    }
+  ],
+  "feature_type": "feature",
+  "metadata": {
+    "action_type": "feature",
+    "class": "tactician",
+    "feature_type": "feature",
+    "item_id": "6th-level-doctrine-ability",
+    "item_name": "6th-Level Doctrine Ability",
+    "level": 6,
+    "scc": [
+      "mcdm.heroes.v1/feature.tactician.level-6/6th-level-doctrine-ability"
+    ],
+    "type": "feature/tactician/level-6"
+  },
+  "name": "6th-Level Doctrine Ability",
+  "type": "feature"
+}

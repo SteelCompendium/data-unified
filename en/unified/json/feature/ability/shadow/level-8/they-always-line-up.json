@@ -1,0 +1,44 @@
+{
+  "cost": "11 Insight",
+  "distance": "5 x 1 line within 5",
+  "effects": [
+    {
+      "roll": "Power Roll + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)",
+      "tier1": "12 damage; M \u003c WEAK, [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)",
+      "tier2": "18 damage; M \u003c AVERAGE, [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)",
+      "tier3": "24 damage; M \u003c STRONG, [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)"
+    }
+  ],
+  "feature_type": "ability",
+  "flavor": "You fire a projectile so fast that it passes through a line of foes, hamstringing them.",
+  "keywords": [
+    "Area",
+    "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)",
+    "Weapon"
+  ],
+  "metadata": {
+    "action_type": "Main action",
+    "class": "shadow",
+    "content": "\n*You fire a projectile so fast that it passes through a line of foes, hamstringing them.*\n\n| **Area, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged), Weapon**   |               **Main action** |\n|----------------------------|------------------------------:|\n| **📏 5 x 1 line within 5** | **🎯 Each enemy in the area** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility):**\n\n- **≤11:** 12 damage; M \u003c WEAK, [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)\n- **12-16:** 18 damage; M \u003c AVERAGE, [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)\n- **17+:** 24 damage; M \u003c STRONG, [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)",
+    "distance": "5 x 1 line within 5",
+    "feature_type": "ability",
+    "flavor": "You fire a projectile so fast that it passes through a line of foes, hamstringing them.",
+    "item_id": "they-always-line-up",
+    "item_name": "They Always Line Up",
+    "keywords": [
+      "Area",
+      "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)",
+      "Weapon"
+    ],
+    "level": 8,
+    "scc": [
+      "mcdm.heroes.v1/feature.ability.shadow.level-8/they-always-line-up"
+    ],
+    "target": "Each enemy in the area",
+    "type": "feature/ability/shadow/level-8"
+  },
+  "name": "They Always Line Up",
+  "target": "Each enemy in the area",
+  "type": "feature",
+  "usage": "Main action"
+}

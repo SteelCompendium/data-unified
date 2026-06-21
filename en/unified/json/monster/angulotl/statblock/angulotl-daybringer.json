@@ -1,0 +1,165 @@
+{
+  "agility": 2,
+  "ev": "12",
+  "features": [
+    {
+      "ability_type": "Signature Ability",
+      "distance": "Melee 1",
+      "effects": [
+        {
+          "roll": "Power Roll + 3",
+          "tier1": "7 acid damage; A \u003c 1 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)",
+          "tier2": "10 acid damage; A \u003c 2 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)",
+          "tier3": "13 acid damage; A \u003c 3 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)"
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "🗡",
+      "keywords": [
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "name": "Acid Grasp",
+      "target": "Two creatures or objects",
+      "type": "feature",
+      "usage": "Main action"
+    },
+    {
+      "distance": "Self",
+      "effects": [
+        {
+          "effect": "**Effect:** The daybringer expands their throat to make it resemble the sun until the start of their next turn. During that time, each angulotl who starts their turn within 10 squares of the daybringer regains 5 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) and gains a +3 bonus to speed until the end of their turn."
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "👤",
+      "keywords": [
+        "-"
+      ],
+      "name": "Sun Lamp",
+      "target": "Self",
+      "type": "feature",
+      "usage": "Maneuver"
+    },
+    {
+      "distance": "Melee 5",
+      "effects": [
+        {
+          "effect": "**Trigger:** The target makes a strike against the daybringer or an ally that isn't a critical hit.\n**Effect:** The outcome of the strike's power roll is reduced by one tier.\n**2 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice):** The target is [pulled](scc.v1:mcdm.heroes.v1/movement/forced-movement) up to 4 squares after the strike resolves."
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "❗️",
+      "keywords": [
+        "Melee"
+      ],
+      "name": "Tongue Slap",
+      "target": "One creature",
+      "type": "feature",
+      "usage": "Triggered action"
+    },
+    {
+      "effects": [
+        {
+          "effect": "At the end of each of the daybringer's turns, they can either take 5 damage or end the wet effect on an adjacent creature in order to end one effect on them that can be ended by a [saving throw](scc.v1:mcdm.heroes.v1/rule.general/saving-throw). This damage can't be reduced in any way."
+        }
+      ],
+      "feature_type": "trait",
+      "icon": "⭐️",
+      "name": "Moisturizing End Effect",
+      "type": "feature"
+    },
+    {
+      "cost": "Villain Action 1",
+      "distance": "Ranged 10",
+      "effects": [
+        {
+          "effect": "**Effect:** Four **angulotl pollywogs** erupt from the daybringer's back and waddle into unoccupied spaces within distance."
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "☠️",
+      "keywords": [
+        "Ranged"
+      ],
+      "name": "New Dawn",
+      "target": "Special",
+      "type": "feature",
+      "usage": "-"
+    },
+    {
+      "cost": "Villain Action 2",
+      "distance": "8 burst",
+      "effects": [
+        {
+          "effect": "**Effect:** Each target can jump up to 4 squares. Each non-[minion](scc.v1:mcdm.monsters.v1/rule.organization/minion) target can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) at the end of the jump."
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "☠️",
+      "keywords": [
+        "Area"
+      ],
+      "name": "Plague of Frogs",
+      "target": "Self and each ally in the area",
+      "type": "feature",
+      "usage": "-"
+    },
+    {
+      "cost": "Villain Action 3",
+      "distance": "Special",
+      "effects": [
+        {
+          "effect": "**Effect:** The encounter map dries up and each enemy and object on it is illuminated until the end of the encounter. An illuminated creature or object can't hide or become invisible, and any strike made against an illuminated target gains an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge). Additionally, each enemy in the encounter who is wet has that effect end and takes 6 acid damage. Each angulotl in the encounter has a double edge on their next strike."
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "☠️",
+      "keywords": [
+        "-"
+      ],
+      "name": "It Is Day",
+      "target": "Special",
+      "type": "feature",
+      "usage": "-"
+    },
+    {
+      "effects": [
+        {
+          "effect": "Whenever an adjacent enemy [grabs](scc.v1:mcdm.heroes.v1/feature.common.maneuvers/grab) the daybringer or uses a melee ability against them, that enemy takes 3 poison damage."
+        }
+      ],
+      "feature_type": "trait",
+      "icon": "⭐️",
+      "name": "Toxiferous",
+      "type": "feature"
+    }
+  ],
+  "free_strike": 4,
+  "immunities": [
+    "Poison 3"
+  ],
+  "intuition": 2,
+  "keywords": [
+    "Angulotl",
+    "Humanoid"
+  ],
+  "level": 1,
+  "metadata": {
+    "scc": "mcdm.monsters.v1/monster.angulotl.statblock/angulotl-daybringer",
+    "source": "mcdm.monsters.v1"
+  },
+  "might": 3,
+  "movement": "Climb, swim",
+  "name": "Angulotl Daybringer",
+  "organization": "Leader",
+  "presence": 0,
+  "reason": 0,
+  "role": "",
+  "size": "1M",
+  "speed": 5,
+  "stability": 1,
+  "stamina": "80",
+  "type": "statblock"
+}

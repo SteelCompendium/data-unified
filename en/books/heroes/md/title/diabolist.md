@@ -1,0 +1,19 @@
+---
+effect: 'Choose one of the following benefits:'
+flavor: If you can't beat 'em, join 'em.
+name: Diabolist
+prerequisite: You defeat a leader or solo creature with the [Devil](scc.v1:mcdm.heroes.v1/ancestry/devil) keyword, such as an archdevil, or you make a deal with a [devil](scc.v1:mcdm.heroes.v1/ancestry/devil).
+scc: mcdm.heroes.v1/title/diabolist
+type: title
+---
+
+*If you can't beat 'em, join 'em.*
+
+**Prerequisite:** You defeat a leader or solo creature with the [Devil](scc.v1:mcdm.heroes.v1/ancestry/devil) keyword, such as an archdevil, or you make a deal with a [devil](scc.v1:mcdm.heroes.v1/ancestry/devil).
+
+**Effect:** Choose one of the following benefits:
+
+- *Devil Lore:* You know the Anjali language, and your understanding of this language helps you create irresistible [supernatural](scc.v1:mcdm.heroes.v1/rule.general/supernatural) effects. The [potencies](scc.v1:mcdm.heroes.v1/rule.character/potency) of your magic or psionic abilities that target [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason), [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition), or [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence) increase by 1.
+- *Infernal Legacy:* You gain 3 ancestry points to spend on purchased [devil](scc.v1:mcdm.heroes.v1/ancestry/devil) [ancestry traits](scc.v1:mcdm.heroes.v1/chapter/ancestries) (see Chapter 3: [Ancestries](scc.v1:mcdm.heroes.v1/chapter/ancestries)).
+- *Sly [Devil](scc.v1:mcdm.heroes.v1/ancestry/devil):* You gain the Silver Tongue signature trait from the [devil](scc.v1:mcdm.heroes.v1/ancestry/devil) ancestry.
+- *Untouched by Corruption:* Whenever you use a damage-dealing ability, that ability can deal holy damage instead of its usual [damage type](scc.v1:mcdm.heroes.v1/rule.damage/damage-type).

@@ -1,0 +1,38 @@
+cost: 11 Ferocity
+distance: 5 burst
+effects:
+    - roll: Power Roll + Might
+      tier1: P < WEAK the target is battle-frenzied
+      tier2: P < AVERAGE the target is battle-frenzied
+      tier3: The target is battle-frenzied
+    - effect: If a target resists the potency, they can choose to become battle-frenzied.
+      name: Effect
+feature_type: ability
+flavor: Your companion shatters the floodgates that keep their rampage dammed up, and it cascades into the unprepared minds of nearby creatures.
+keywords:
+    - Area
+    - Companion
+    - Magic
+metadata:
+    action_type: Main action
+    class: beastheart
+    content: "*Your companion shatters the floodgates that keep their rampage dammed up, and it cascades into the unprepared minds of nearby creatures.*\n\n| **Area, Companion, Magic** | **Main action** |\n|----------------------------|----------------:|\n| **\U0001F4CF 5 burst**             | **\U0001F3AF Special**  |\n\n**Special:** This ability targets only creatures you choose within distance.\n\n**Power Roll + Might:**\n\n- **≤11:** P < WEAK the target is battle-frenzied\n- **12-16:** P < AVERAGE the target is battle-frenzied\n- **17+:** The target is battle-frenzied\n\n**Effect:** If a target resists the potency, they can choose to become battle-frenzied.\n\nA battle-frenzied creature must use a free triggered action to make a melee free strike against themself or a creature adjacent to them. You choose each creature's target. After making this strike, they are no longer battle frenzied."
+    distance: 5 burst
+    feature_type: ability
+    flavor: Your companion shatters the floodgates that keep their rampage dammed up, and it cascades into the unprepared minds of nearby creatures.
+    item_id: battle-frenzy
+    item_name: Battle Frenzy
+    keywords:
+        - Area
+        - Companion
+        - Magic
+    level: 9
+    scc:
+        - mcdm.beastheart.v1/feature.ability.beastheart.level-9/battle-frenzy
+    subclass: punisher
+    target: Special
+    type: feature/ability/beastheart/level-9
+name: Battle Frenzy
+target: Special
+type: feature
+usage: Main action

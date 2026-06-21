@@ -1,0 +1,43 @@
+cost: 11 Ferocity
+distance: Melee 1 or ranged 5
+effects:
+    - roll: Power Roll + Might
+      tier1: 12 + M damage
+      tier2: 18 + M damage
+      tier3: 24 + M damage
+    - effect: Up to three creatures within 2 squares of the target gain temporary Stamina equal to half the damage dealt.
+      name: Effect
+feature_type: ability
+flavor: As your attack strikes home, your enemy's escaping life force drifts to your allies in crimson threads.
+keywords:
+    - Beastheart
+    - Magic
+    - Melee
+    - Ranged
+    - Strike
+    - Weapon
+metadata:
+    action_type: Main action
+    class: beastheart
+    content: "*As your attack strikes home, your enemy's escaping life force drifts to your allies in crimson threads.*\n\n| **Beastheart, Magic, Melee, Ranged, Strike, Weapon** | **Main action** |\n|------------------------------------------------------|----------------:|\n| **\U0001F4CF Melee 1 or ranged 5**                           | **\U0001F3AF One creature** |\n\n**Power Roll + Might:**\n\n- **≤11:** 12 + M damage\n- **12-16:** 18 + M damage\n- **17+:** 24 + M damage\n\n**Effect:** Up to three creatures within 2 squares of the target gain temporary Stamina equal to half the damage dealt."
+    distance: Melee 1 or ranged 5
+    feature_type: ability
+    flavor: As your attack strikes home, your enemy's escaping life force drifts to your allies in crimson threads.
+    item_id: life-drinking-wound
+    item_name: Life-Drinking Wound
+    keywords:
+        - Beastheart
+        - Magic
+        - Melee
+        - Ranged
+        - Strike
+        - Weapon
+    level: 8
+    scc:
+        - mcdm.beastheart.v1/feature.ability.beastheart.level-8/life-drinking-wound
+    target: One creature
+    type: feature/ability/beastheart/level-8
+name: Life-Drinking Wound
+target: One creature
+type: feature
+usage: Main action

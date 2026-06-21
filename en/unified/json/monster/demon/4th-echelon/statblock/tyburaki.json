@@ -1,0 +1,78 @@
+{
+  "agility": 5,
+  "ev": "12 for four minions",
+  "features": [
+    {
+      "ability_type": "Signature Ability",
+      "distance": "Melee 3",
+      "effects": [
+        {
+          "roll": "Power Roll + 5",
+          "tier1": "4 damage",
+          "tier2": "7 damage",
+          "tier3": "9 damage"
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "🗡",
+      "keywords": [
+        "Melee",
+        "Strike",
+        "Weapon"
+      ],
+      "name": "Tail Bite",
+      "target": "One creature or object per minion",
+      "type": "feature",
+      "usage": "Main action"
+    },
+    {
+      "effects": [
+        {
+          "effect": "While swimming, the tyburaki can jump 5 squares as part of their movement."
+        }
+      ],
+      "feature_type": "trait",
+      "icon": "⭐️",
+      "name": "Breacher",
+      "type": "feature"
+    },
+    {
+      "effects": [
+        {
+          "effect": "Any creature within 2 squares of the tyburaki can't be hidden from them."
+        }
+      ],
+      "feature_type": "trait",
+      "icon": "⭐️",
+      "name": "Soulsight",
+      "type": "feature"
+    }
+  ],
+  "free_strike": 4,
+  "intuition": 3,
+  "keywords": [
+    "Abyssal",
+    "Demon"
+  ],
+  "level": 10,
+  "metadata": {
+    "scc": "mcdm.monsters.v1/monster.demon.4th-echelon.statblock/tyburaki",
+    "source": "mcdm.monsters.v1"
+  },
+  "might": 2,
+  "movement": "Swim",
+  "name": "Tyburaki",
+  "organization": "Minion",
+  "presence": -1,
+  "reason": 0,
+  "role": "Harrier",
+  "size": "2",
+  "speed": 8,
+  "stability": 0,
+  "stamina": "15",
+  "type": "statblock",
+  "weaknesses": [
+    "Holy 5"
+  ],
+  "with_captain": "+4 damage bonus to strikes"
+}

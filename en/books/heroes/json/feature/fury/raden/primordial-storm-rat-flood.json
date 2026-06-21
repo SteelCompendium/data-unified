@@ -1,0 +1,22 @@
+{
+  "effects": [
+    {
+      "effect": "Your primordial [damage type](scc.v1:mcdm.heroes.v1/rule.damage/damage-type) is corruption."
+    }
+  ],
+  "feature_type": "feature",
+  "metadata": {
+    "action_type": "feature",
+    "class": "fury",
+    "feature_type": "feature",
+    "item_id": "primordial-storm-rat-flood",
+    "item_name": "Primordial Storm: Rat Flood",
+    "kit": "raden",
+    "scc": [
+      "mcdm.heroes.v1/feature.fury.raden/primordial-storm-rat-flood"
+    ],
+    "type": "feature/fury/raden"
+  },
+  "name": "Primordial Storm: Rat Flood",
+  "type": "feature"
+}

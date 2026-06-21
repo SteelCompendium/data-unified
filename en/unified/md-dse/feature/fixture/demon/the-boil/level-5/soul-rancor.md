@@ -1,0 +1,26 @@
+---
+action_type: feature
+feature_type: feature
+file_basename: soul-rancor
+file_dpath: feature/fixture/demon/the-boil/level-5
+item_id: soul-rancor
+item_name: Soul Rancor
+level: 5
+name: Soul Rancor
+scc: mcdm.summoner.v1/feature.fixture.demon.the-boil.level-5/soul-rancor
+source: mcdm.summoner.v1
+type: feature
+---
+
+```ds-feature
+effects:
+    - effect: You gain a [surge](scc.v1:mcdm.heroes.v1/rule.resource/surge) the first time in a [round](scc.v1:mcdm.heroes.v1/rule.combat/combat-round) that your demon [minions](scc.v1:mcdm.summoner.v1/feature.summoner.level-1/minions) deal 3 or more [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage) to a creature while you have [line of effect](scc.v1:mcdm.heroes.v1/rule.combat/line-of-effect) to the boil. You can choose to give the [surge](scc.v1:mcdm.heroes.v1/rule.resource/surge) to an ally who also has [line of effect](scc.v1:mcdm.heroes.v1/rule.combat/line-of-effect) to the boil.
+feature_type: feature
+metadata:
+    level: 5
+    name: Soul Rancor
+    scc: mcdm.summoner.v1/feature.fixture.demon.the-boil.level-5/soul-rancor
+    type: feature
+name: Soul Rancor
+type: feature
+```

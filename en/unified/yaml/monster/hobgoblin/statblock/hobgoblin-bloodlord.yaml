@@ -1,0 +1,124 @@
+agility: 2
+ev: "32"
+features:
+    - ability_type: Signature Ability
+      distance: Melee 1
+      effects:
+        - roll: Power Roll + 4
+          tier1: 11 corruption damage; P < 2 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
+          tier2: 16 corruption damage; P < 3 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
+          tier3: 19 corruption damage; P < 4 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
+      feature_type: ability
+      icon: "\U0001F5E1"
+      keywords:
+        - Magic
+        - Melee
+        - Strike
+        - Weapon
+      name: Soul Sword
+      target: Two creatures or objects
+      type: feature
+      usage: Main action
+    - distance: Ranged 10
+      effects:
+        - effect: '**Effect:** The target moves up to their speed and can use a signature ability.'
+      feature_type: ability
+      icon: "\U0001F3F9"
+      keywords:
+        - Ranged
+      name: Take Point!
+      target: One ally
+      type: feature
+      usage: Maneuver
+    - cost: 3 Malice
+      distance: Ranged 10
+      effects:
+        - effect: |-
+            **Trigger:** A non-[minion](scc.v1:mcdm.monsters.v1/rule.organization/minion) hobgoblin within distance takes damage.
+            **Effect:** Three hobgoblin recruits manifest from the target's blood into unoccupied spaces [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the target.
+      feature_type: ability
+      icon: ❗️
+      keywords:
+        - Ranged
+      name: An Army From Blood
+      target: The triggering creature
+      type: feature
+      usage: Triggered action
+    - effects:
+        - effect: When the bloodlord is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), they spray burning blood. Each creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the bloodlord takes 3 fire damage.
+      feature_type: trait
+      icon: ⭐️
+      name: Infernal Ichor
+      type: feature
+    - effects:
+        - effect: At the end of each of their turns, the bloodlord can take 10 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way.
+      feature_type: trait
+      icon: ⭐️
+      name: End Effect
+      type: feature
+    - cost: Villain Action 1
+      distance: 10 burst
+      effects:
+        - effect: '**Effect:** Each target gains 10 temporary [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) and can move up to their speed. Then each non-[minion](scc.v1:mcdm.monsters.v1/rule.organization/minion) target can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike).'
+      feature_type: ability
+      icon: ☠️
+      keywords:
+        - Area
+      name: Advance!
+      target: Self and each ally in the area
+      type: feature
+      usage: '-'
+    - cost: Villain Action 2
+      distance: 3 aura
+      effects:
+        - effect: '**Effect:** Until the end of the encounter, the bloodlord surrounds themself with a storm of flying skulls. Any enemy who enters the area for the first time in a round or starts their turn there takes 8 corruption damage and takes a bane on their next power roll until the start of their next turn.'
+      feature_type: ability
+      icon: ☠️
+      keywords:
+        - Area
+        - Magic
+      name: Skulls Abound
+      target: Self
+      type: feature
+      usage: '-'
+    - cost: Villain Action 3
+      distance: 5 burst
+      effects:
+        - roll: Power Roll + 4
+          tier1: 5 fire damage; P < 2 2 fire damage, [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2, [prone](scc.v1:mcdm.heroes.v1/condition/prone)
+          tier2: 5 fire damage; P < 3 7 fire damage, [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3, [prone](scc.v1:mcdm.heroes.v1/condition/prone)
+          tier3: 5 fire damage; P < 4 10 fire damage, [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5, [prone](scc.v1:mcdm.heroes.v1/condition/prone)
+      feature_type: ability
+      icon: ☠️
+      keywords:
+        - Area
+        - Magic
+      name: I Am Fire! I Am Death!
+      target: Each enemy in the area
+      type: feature
+      usage: '-'
+free_strike: 7
+immunities:
+    - Fire 6
+intuition: 3
+keywords:
+    - Goblin
+    - Hobgoblin
+    - Humanoid
+    - Infernal
+level: 6
+metadata:
+    scc: mcdm.monsters.v1/monster.hobgoblin.statblock/hobgoblin-bloodlord
+    source: mcdm.monsters.v1
+might: 4
+movement: Teleport
+name: Hobgoblin Bloodlord
+organization: Leader
+presence: 3
+reason: 2
+role: ""
+size: 1M
+speed: 6
+stability: 2
+stamina: "180"
+type: statblock

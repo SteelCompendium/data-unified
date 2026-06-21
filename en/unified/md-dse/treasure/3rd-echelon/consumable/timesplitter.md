@@ -1,0 +1,35 @@
+---
+echelon: "3"
+effect: 'As a maneuver, you make a [ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) using the Timesplitter, which shatters upon impact. The [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) deals an extra 1d6 psychic damage and adds the following effects to the [tier outcomes](scc.v1:mcdm.heroes.v1/rule.dice/tier-outcome) of the [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll):'
+file_basename: timesplitter
+file_dpath: treasure/3rd-echelon/consumable
+flavor: This spiked crystal makes a beautiful ringing sound when first touched.
+item_id: timesplitter
+item_name: Timesplitter
+keywords:
+    - Psionic
+name: Timesplitter
+project_goal: "180"
+scc: mcdm.heroes.v1/treasure.3rd-echelon.consumable/timesplitter
+source: mcdm.heroes.v1
+treasure_type: consumable
+type: treasure
+---
+
+*This spiked crystal makes a beautiful ringing sound when first touched.*
+
+**Keywords:** Psionic
+
+**[Item Prerequisite](scc.v1:mcdm.heroes.v1/rule.downtime/item-prerequisite):** A time crystal
+
+**[Project Source](scc.v1:mcdm.heroes.v1/rule.downtime/project-source):** Texts or lore in Voll
+
+**[Project Roll](scc.v1:mcdm.heroes.v1/rule.downtime/project-roll) [Characteristic](scc.v1:mcdm.heroes.v1/rule.character/characteristic):** [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) or [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)
+
+**Project Goal:** 180
+
+**Effect:** As a maneuver, you make a [ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) using the Timesplitter, which shatters upon impact. The [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) deals an extra 1d6 psychic damage and adds the following effects to the [tier outcomes](scc.v1:mcdm.heroes.v1/rule.dice/tier-outcome) of the [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll):
+
+- **≤11:** The target and each creature within 3 squares of them a [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends).
+- **12-16:** The target and each creature within 5 squares of them is [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends).
+- **17+:** The target and each creature within 8 squares of them is [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends).

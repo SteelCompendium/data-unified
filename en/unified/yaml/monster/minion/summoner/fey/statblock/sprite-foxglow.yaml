@@ -1,0 +1,47 @@
+agility: 3
+cost: 5 essence for three minions
+ev: ""
+features:
+    - effects:
+        - effect: The foxglow's melee [strikes](scc.v1:mcdm.heroes.v1/rule.combat/strike) inflict I < STRONG [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (EoT) if they were hidden when they make the [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike).
+      feature_type: trait
+      icon: ⭐️
+      name: Flash Strike
+      type: feature
+    - effects:
+        - effect: The area within 2 squares of the foxglow is completely silent. Each enemy has a [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) on [tests](scc.v1:mcdm.heroes.v1/rule.test/test) made to search for the foxglow and allies hidden in the affected area.
+      feature_type: trait
+      icon: ⭐️
+      name: Quiet Flight
+      type: feature
+    - effects:
+        - effect: The foxglow has [cover](scc.v1:mcdm.heroes.v1/rule.combat/cover) while occupying a larger creature's space.
+      feature_type: trait
+      icon: ⭐️
+      name: Minuscule
+      type: feature
+flavor: Foxglows are masked sprites that leave behind an evanescent trail of tiny glowing orbs as they fly. They beat their wings at a frequency that completely blocks out all nearby noise.
+free_strike: 4
+immunities:
+    - Fire R
+intuition: 1
+keywords:
+    - Fey
+level: 0
+metadata:
+    scc: mcdm.summoner.v1/monster.minion.summoner.fey.statblock/sprite-foxglow
+    source: mcdm.summoner.v1
+might: -1
+movement: Fly
+name: Sprite Foxglow
+organization: Minion
+presence: 2
+reason: 0
+role: Ambusher
+size: 1T
+speed: 8
+stability: 0
+stamina: 5 | 5 | 5
+type: statblock
+weaknesses:
+    - —

@@ -1,0 +1,31 @@
+cost: 5 Drama
+distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
+effects:
+    - effect: A target who is not a leader or solo creature comes back to life with half their [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) and becomes an ally under the Director's control. The players can work with the Director to determine when the target takes their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) each [combat round](scc.v1:mcdm.heroes.v1/rule.combat/combat-round). At the end of the encounter, the target turns to dust and is blown away.
+      name: Effect
+feature_type: ability
+flavor: You didn't see that coming, did you?!
+keywords:
+    - Magic
+    - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'
+metadata:
+    action_type: Main action
+    class: troubadour
+    content: "\n*You didn't see that coming, did you?!*\n\n| **Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)** |       **Main action** |\n|-------------------|----------------------:|\n| **\U0001F4CF [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**  | **\U0001F3AF One dead enemy** |\n\n**Effect:** A target who is not a leader or solo creature comes back to life with half their [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) and becomes an ally under the Director's control. The players can work with the Director to determine when the target takes their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) each [combat round](scc.v1:mcdm.heroes.v1/rule.combat/combat-round). At the end of the encounter, the target turns to dust and is blown away."
+    distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
+    feature_type: ability
+    flavor: You didn't see that coming, did you?!
+    item_id: twist-at-the-end
+    item_name: Twist at the End
+    keywords:
+        - Magic
+        - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'
+    level: 2
+    scc:
+        - mcdm.heroes.v1/feature.ability.troubadour.level-2/twist-at-the-end
+    target: One dead enemy
+    type: feature/ability/troubadour/level-2
+name: Twist at the End
+target: One dead enemy
+type: feature
+usage: Main action

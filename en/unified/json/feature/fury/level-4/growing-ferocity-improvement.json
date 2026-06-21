@@ -1,0 +1,22 @@
+{
+  "effects": [
+    {
+      "effect": "Your [Growing Ferocity](scc.v1:mcdm.heroes.v1/feature.fury.boren/growing-ferocity) feature provides additional benefits when you have 8 or more ferocity."
+    }
+  ],
+  "feature_type": "feature",
+  "metadata": {
+    "action_type": "feature",
+    "class": "fury",
+    "feature_type": "feature",
+    "item_id": "growing-ferocity-improvement",
+    "item_name": "Growing Ferocity Improvement",
+    "level": 4,
+    "scc": [
+      "mcdm.heroes.v1/feature.fury.level-4/growing-ferocity-improvement"
+    ],
+    "type": "feature/fury/level-4"
+  },
+  "name": "Growing Ferocity Improvement",
+  "type": "feature"
+}

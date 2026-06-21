@@ -1,0 +1,41 @@
+{
+  "ability_type": "Triggered",
+  "cost": "11 Discipline",
+  "distance": "Self; see below",
+  "effects": [
+    {
+      "effect": "The target takes half the damage, and if the triggering creature has I \u003c AVERAGE, they are [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends). While the triggering creature is [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) this way, they take psychic damage equal to your [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition) score whenever they use a main action.",
+      "name": "Effect"
+    }
+  ],
+  "feature_type": "ability",
+  "flavor": "You disrupt an enemy's strike and create a [feedback loop](scc.v1:mcdm.heroes.v1/feature.ability.talent.level-1/feedback-loop) in their mind, preventing them from focusing on future attacks.",
+  "keywords": [
+    "Psionic"
+  ],
+  "metadata": {
+    "ability_type": "Triggered",
+    "action_type": "Free triggered",
+    "class": "null",
+    "content": "\n*You disrupt an enemy's strike and create a [feedback loop](scc.v1:mcdm.heroes.v1/feature.ability.talent.level-1/feedback-loop) in their mind, preventing them from focusing on future attacks.*\n\n| **Psionic**            |           **Free triggered** |\n|------------------------|-----------------------------:|\n| **📏 Self; see below** |  **🎯 Self or one creature** |\n\n**Trigger:** The target takes damage from another creature's ability while in the area of your [Null Field](scc.v1:mcdm.heroes.v1/feature.null.level-1/null-field) ability.\n\n**Effect:** The target takes half the damage, and if the triggering creature has I \u003c AVERAGE, they are [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends). While the triggering creature is [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) this way, they take psychic damage equal to your [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition) score whenever they use a main action.",
+    "distance": "Self; see below",
+    "feature_type": "ability",
+    "flavor": "You disrupt an enemy's strike and create a [feedback loop](scc.v1:mcdm.heroes.v1/feature.ability.talent.level-1/feedback-loop) in their mind, preventing them from focusing on future attacks.",
+    "item_id": "synaptic-anchor",
+    "item_name": "Synaptic Anchor",
+    "keywords": [
+      "Psionic"
+    ],
+    "level": 8,
+    "scc": [
+      "mcdm.heroes.v1/feature.ability.null.level-8/synaptic-anchor"
+    ],
+    "target": "Self or one creature",
+    "type": "feature/ability/null/level-8"
+  },
+  "name": "Synaptic Anchor",
+  "target": "Self or one creature",
+  "trigger": "The target takes damage from another creature's ability while in the area of your [Null Field](scc.v1:mcdm.heroes.v1/feature.null.level-1/null-field) ability.",
+  "type": "feature",
+  "usage": "Free triggered"
+}

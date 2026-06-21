@@ -1,0 +1,29 @@
+cost: 7 Focus
+distance: Self
+effects:
+    - effect: Until the end of the encounter or until you are [dying](scc.v1:mcdm.heroes.v1/rule.health/dying), whenever you or any ally deals damage to a target marked by you who has R < AVERAGE, the target is [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) of the creature who dealt the damage (save ends).
+      name: Effect
+feature_type: ability
+flavor: The tide begins to [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn).
+keywords:
+    - '-'
+metadata:
+    action_type: Maneuver
+    class: tactician
+    content: "\n*The tide begins to [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn).*\n\n| **-**       | **Maneuver** |\n|-------------|-------------:|\n| **\U0001F4CF Self** |  **\U0001F3AF Self** |\n\n**Effect:** Until the end of the encounter or until you are [dying](scc.v1:mcdm.heroes.v1/rule.health/dying), whenever you or any ally deals damage to a target marked by you who has R < AVERAGE, the target is [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) of the creature who dealt the damage (save ends)."
+    distance: Self
+    feature_type: ability
+    flavor: The tide begins to [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn).
+    item_id: rout
+    item_name: Rout
+    keywords:
+        - '-'
+    level: 3
+    scc:
+        - mcdm.heroes.v1/feature.ability.tactician.level-3/rout
+    target: Self
+    type: feature/ability/tactician/level-3
+name: Rout
+target: Self
+type: feature
+usage: Maneuver

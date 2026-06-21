@@ -1,0 +1,20 @@
+{
+  "effects": [
+    {
+      "effect": "Your stature reflects your giant forebears. Your [size](scc.v1:mcdm.heroes.v1/rule.character/size) is 1L."
+    }
+  ],
+  "feature_type": "trait",
+  "metadata": {
+    "action_type": "feature",
+    "feature_type": "trait",
+    "item_id": "big",
+    "item_name": "Signature Trait: Big!",
+    "scc": [
+      "mcdm.heroes.v1/feature.trait.hakaan/big"
+    ],
+    "type": "feature/trait/hakaan"
+  },
+  "name": "Signature Trait: Big!",
+  "type": "feature"
+}

@@ -1,0 +1,37 @@
+ability_type: Triggered
+distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
+effects:
+    - effect: The target takes half the damage.
+      name: Effect
+    - cost: Spend 1 Essence
+      effect: If the damage has any [potency](scc.v1:mcdm.heroes.v1/rule.character/potency) effects associated with it, the [potency](scc.v1:mcdm.heroes.v1/rule.character/potency) is reduced by 1 for the target.
+feature_type: ability
+flavor: You cover yourself or an ally in protective stone.
+keywords:
+    - Earth
+    - Magic
+    - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'
+metadata:
+    ability_type: Triggered
+    action_type: Triggered
+    class: elementalist
+    content: "\n*You cover yourself or an ally in protective stone.*\n\n| **Earth, Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)**  |           **Triggered** |\n|---------------------------|------------------------:|\n| **\U0001F4CF [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**          | **\U0001F3AF Self or one ally** |\n\n**Trigger:** The target takes damage.\n\n**Effect:** The target takes half the damage.\n\n**Spend 1 Essence:** If the damage has any [potency](scc.v1:mcdm.heroes.v1/rule.character/potency) effects associated with it, the [potency](scc.v1:mcdm.heroes.v1/rule.character/potency) is reduced by 1 for the target."
+    distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
+    feature_type: ability
+    flavor: You cover yourself or an ally in protective stone.
+    item_id: skin-like-castle-walls
+    item_name: Skin Like Castle Walls
+    keywords:
+        - Earth
+        - Magic
+        - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'
+    level: 1
+    scc:
+        - mcdm.heroes.v1/feature.ability.elementalist.level-1/skin-like-castle-walls
+    target: Self or one ally
+    type: feature/ability/elementalist/level-1
+name: Skin Like Castle Walls
+target: Self or one ally
+trigger: The target takes damage.
+type: feature
+usage: Triggered

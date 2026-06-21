@@ -1,0 +1,50 @@
+{
+  "cost": "7 Clarity",
+  "distance": "Self; see below",
+  "effects": [
+    {
+      "roll": "Power Roll + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason)",
+      "tier1": "2 damage",
+      "tier2": "3 damage",
+      "tier3": "5 damage"
+    },
+    {
+      "effect": "You create three [size](scc.v1:mcdm.heroes.v1/rule.character/size) 1T orbs that orbit your body. Each orb gives you a cumulative [damage immunity](scc.v1:mcdm.heroes.v1/rule.damage/damage-immunity) 1. Each time you take damage, you lose 1 orb.",
+      "name": "Effect"
+    }
+  ],
+  "feature_type": "ability",
+  "flavor": "Spheres of solid psionic energy float around you.",
+  "keywords": [
+    "Psionic",
+    "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)",
+    "[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)",
+    "Telekinesis"
+  ],
+  "metadata": {
+    "action_type": "Main action",
+    "class": "talent",
+    "content": "\n*Spheres of solid psionic energy float around you.*\n\n| **Psionic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), Telekinesis** | **Main action** |\n|------------------------------------------|----------------:|\n| **📏 Self; see below**                   |     **🎯 Self** |\n\n**Effect:** You create three [size](scc.v1:mcdm.heroes.v1/rule.character/size) 1T orbs that orbit your body. Each orb gives you a cumulative [damage immunity](scc.v1:mcdm.heroes.v1/rule.damage/damage-immunity) 1. Each time you take damage, you lose 1 orb.\n\nOnce on each of your [turns](scc.v1:mcdm.heroes.v1/rule.combat/turn), you can use a [free maneuver](scc.v1:mcdm.heroes.v1/rule.combat/free-maneuver) to fire an orb at a creature or object within 5 squares as a [ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), losing the orb after the [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike).\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason):**\n\n- **≤11:** 2 damage\n- **12-16:** 3 damage\n- **17+:** 5 damage\n\n**Strained:** You create five orbs, and you are [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) while you have any orbs active.",
+    "distance": "Self; see below",
+    "feature_type": "ability",
+    "flavor": "Spheres of solid psionic energy float around you.",
+    "item_id": "force-orbs",
+    "item_name": "Force Orbs",
+    "keywords": [
+      "Psionic",
+      "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)",
+      "[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)",
+      "Telekinesis"
+    ],
+    "level": 3,
+    "scc": [
+      "mcdm.heroes.v1/feature.ability.talent.level-3/force-orbs"
+    ],
+    "target": "Self",
+    "type": "feature/ability/talent/level-3"
+  },
+  "name": "Force Orbs",
+  "target": "Self",
+  "type": "feature",
+  "usage": "Main action"
+}

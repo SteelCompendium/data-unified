@@ -1,0 +1,13 @@
+effects:
+    - effect: Your senses are especially keen and perceptive. You gain an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on [tests](scc.v1:mcdm.heroes.v1/rule.test/test) made to notice threats.
+feature_type: trait
+metadata:
+    action_type: feature
+    feature_type: trait
+    item_id: high-senses
+    item_name: High Senses
+    scc:
+        - mcdm.heroes.v1/feature.trait.high-elf/high-senses
+    type: feature/trait/high-elf
+name: High Senses
+type: feature

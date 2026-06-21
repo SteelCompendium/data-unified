@@ -1,0 +1,50 @@
+{
+  "cost": "3 Ferocity",
+  "distance": "Melee 1",
+  "effects": [
+    {
+      "roll": "Power Roll + Might",
+      "tier1": "5 + M damage; slide 1; I \u003c WEAK [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)",
+      "tier2": "8 + M damage; slide 2; I \u003c AVERAGE [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)",
+      "tier3": "11 + M damage; slide 4; I \u003c STRONG [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)"
+    },
+    {
+      "effect": "You and your companion can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to a number of squares equal to the number of squares the target was [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement).",
+      "name": "Effect"
+    }
+  ],
+  "feature_type": "ability",
+  "flavor": "Your companion circles your foe, luring them out of position with fake openings and unpredictable attacks.",
+  "keywords": [
+    "Companion",
+    "Melee",
+    "Strike",
+    "Weapon"
+  ],
+  "metadata": {
+    "action_type": "Main action",
+    "class": "beastheart",
+    "content": "*Your companion circles your foe, luring them out of position with fake openings and unpredictable attacks.*\n\n| **Companion, Melee, Strike, Weapon** | **Main action** |\n|--------------------------------------|----------------:|\n| **📏 Melee 1**                       | **🎯 One creature** |\n\n**Power Roll + Might:**\n\n- **≤11:** 5 + M damage; slide 1; I \u003c WEAK [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)\n- **12-16:** 8 + M damage; slide 2; I \u003c AVERAGE [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)\n- **17+:** 11 + M damage; slide 4; I \u003c STRONG [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)\n\n**Effect:** You and your companion can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to a number of squares equal to the number of squares the target was [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement).",
+    "distance": "Melee 1",
+    "feature_type": "ability",
+    "flavor": "Your companion circles your foe, luring them out of position with fake openings and unpredictable attacks.",
+    "item_id": "herd-the-sheep",
+    "item_name": "Herd the Sheep",
+    "keywords": [
+      "Companion",
+      "Melee",
+      "Strike",
+      "Weapon"
+    ],
+    "level": 1,
+    "scc": [
+      "mcdm.beastheart.v1/feature.ability.beastheart.level-1/herd-the-sheep"
+    ],
+    "target": "One creature",
+    "type": "feature/ability/beastheart/level-1"
+  },
+  "name": "Herd the Sheep",
+  "target": "One creature",
+  "type": "feature",
+  "usage": "Main action"
+}

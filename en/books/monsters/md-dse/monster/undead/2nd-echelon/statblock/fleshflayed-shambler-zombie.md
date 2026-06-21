@@ -1,0 +1,55 @@
+---
+agility: -1
+ev: 6 for four minions
+file_basename: fleshflayed-shambler-zombie
+file_dpath: monster/undead/2nd-echelon/statblock
+free_strike: 3
+immunities:
+    - Corruption 4
+    - poison 4
+intuition: 0
+item_id: fleshflayed-shambler-zombie
+item_name: Fleshflayed Shambler Zombie
+keywords:
+    - Undead
+    - Soulless
+level: 4
+might: 3
+name: Fleshflayed Shambler Zombie
+organization: Minion
+presence: 0
+reason: 0
+role: Brute
+scc: mcdm.monsters.v1/monster.undead.2nd-echelon.statblock/fleshflayed-shambler-zombie
+size: 1M
+source: mcdm.monsters.v1
+speed: 5
+stability: 0
+stamina: "9"
+type: statblock
+with_captain: +2 damage bonus to strikes
+---
+
+|            Undead, Soulless            |         -         |     Level 4      |                  Minion Brute                  | EV 6 for four minions |
+|:--------------------------------------:|:-----------------:|:----------------:|:----------------------------------------------:|:---------------------:|
+|             **1M**<br>Size             |  **5**<br>Speed   | **9**<br>Stamina |               **0**<br>Stability               | **3**<br>Free Strike  |
+| **Corruption 4, poison 4**<br>Immunity | **-**<br>Movement |        -         | **+2 damage bonus to strikes**<br>With Captain |   **-**<br>Weakness   |
+|            **+3**<br>Might             | **-1**<br>Agility | **0**<br>Reason  |               **0**<br>Intuition               |   **0**<br>Presence   |
+
+> 🗡 **Bone Carvers ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
+>
+> | **Melee, Strike, Weapon** |                          **Main action** |
+> |---------------------------|-----------------------------------------:|
+> | **📏 Melee 1**            | **🎯 One creature or object per minion** |
+>
+> **Power Roll + 3:**
+>
+> - **≤11:** 3 damage
+> - **12-16:** 5 damage
+> - **17+:** 7 damage
+>
+> **Effect:** If this ability gains an edge or has a double edge, the target is [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends).
+
+> ⭐️ **Fleshfused Spines**
+>
+> Any [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) enemy who [grabs](scc.v1:mcdm.heroes.v1/condition/grabbed) the fleshflayed shambler or uses melee ability against them takes 2 damage.

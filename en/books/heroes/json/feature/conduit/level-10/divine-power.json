@@ -1,0 +1,22 @@
+{
+  "effects": [
+    {
+      "effect": "You have an epic resource called [divine power](scc.v1:mcdm.heroes.v1/feature.conduit.level-10/divine-power). Each time you finish a [respite](scc.v1:mcdm.heroes.v1/rule.resource/respite), you gain [divine power](scc.v1:mcdm.heroes.v1/feature.conduit.level-10/divine-power) equal to the [XP](scc.v1:mcdm.heroes.v1/rule.resource/experience) you gain. You can spend [divine power](scc.v1:mcdm.heroes.v1/feature.conduit.level-10/divine-power) on your abilities as if it were piety.\n\nAdditionally, you can spend [divine power](scc.v1:mcdm.heroes.v1/feature.conduit.level-10/divine-power) as if it were piety to use any [conduit](scc.v1:mcdm.heroes.v1/class/conduit) abilities you don't have, as the gods answer your prayers with temporary and unique gifts. If you use a [conduit](scc.v1:mcdm.heroes.v1/class/conduit) ability you don't have that usually costs no piety, you must spend 1 [divine power](scc.v1:mcdm.heroes.v1/feature.conduit.level-10/divine-power) to use it.\n\n[Divine power](scc.v1:mcdm.heroes.v1/feature.conduit.level-10/divine-power) remains until you spend it."
+    }
+  ],
+  "feature_type": "feature",
+  "metadata": {
+    "action_type": "feature",
+    "class": "conduit",
+    "feature_type": "feature",
+    "item_id": "divine-power",
+    "item_name": "Divine Power",
+    "level": 10,
+    "scc": [
+      "mcdm.heroes.v1/feature.conduit.level-10/divine-power"
+    ],
+    "type": "feature/conduit/level-10"
+  },
+  "name": "Divine Power",
+  "type": "feature"
+}

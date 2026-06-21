@@ -1,0 +1,30 @@
+---
+echelon: "1"
+effect: 'As a maneuver, you make a [ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) using a black ash dart. The [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) deals an extra 1 damage and adds the following effects to the [tier outcomes](scc.v1:mcdm.heroes.v1/rule.dice/tier-outcome) of the [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll):'
+flavor: A diamond-shaped dart holds a shimmering black vial at its core.
+keywords:
+    - Magic
+name: Black Ash Dart
+project_goal: 45 (yields 1d3 darts, or three darts if crafted by a shadow)
+scc: mcdm.heroes.v1/treasure.1st-echelon.consumable/black-ash-dart
+treasure_type: consumable
+type: treasure
+---
+
+*A diamond-shaped dart holds a shimmering black vial at its core.*
+
+**Keywords:** Magic
+
+**[Item Prerequisite](scc.v1:mcdm.heroes.v1/rule.downtime/item-prerequisite):** Three vials of black ash from the College of Black Ash
+
+**[Project Source](scc.v1:mcdm.heroes.v1/rule.downtime/project-source):** Texts or lore in Szetch
+
+**[Project Roll](scc.v1:mcdm.heroes.v1/rule.downtime/project-roll) [Characteristic](scc.v1:mcdm.heroes.v1/rule.character/characteristic):** [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility) or [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)
+
+**Project Goal:** 45 (yields 1d3 darts, or three darts if crafted by a shadow)
+
+**Effect:** As a maneuver, you make a [ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) using a black ash dart. The [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) deals an extra 1 damage and adds the following effects to the [tier outcomes](scc.v1:mcdm.heroes.v1/rule.dice/tier-outcome) of the [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll):
+
+- **≤11:** You can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) the target up to 2 squares.
+- **12-16:** You can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) the target up to 4 squares.
+- **17+:** You can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) the target up to 6 squares.

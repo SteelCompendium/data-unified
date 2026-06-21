@@ -1,0 +1,36 @@
+ability_type: Signature
+distance: Melee 1
+effects:
+    - effect: The target takes damage equal to 4 + the bear's Might score and is pushed up to 2 squares.
+      name: Effect
+    - cost: Spend 1 Ferocity
+      effect: The target is [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement) up to a number of additional squares equal to the bear's Might score.
+feature_type: ability
+flavor: The bear casually swats the pesky foe into next week.
+keywords:
+    - Companion
+    - Melee
+    - Weapon
+metadata:
+    ability_type: Signature
+    action_type: Maneuver
+    class: beastheart
+    content: "*The bear casually swats the pesky foe into next week.*\n\n| **Companion, Melee, Weapon** |                  **Maneuver** |\n|------------------------------|------------------------------:|\n| **\U0001F4CF Melee 1**               | **\U0001F3AF One creature or object** |\n\n**Effect:** The target takes damage equal to 4 + the bear's Might score and is pushed up to 2 squares.\n\n**Spend 1 Ferocity:** The target is [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement) up to a number of additional squares equal to the bear's Might score."
+    distance: Melee 1
+    feature_type: ability
+    flavor: The bear casually swats the pesky foe into next week.
+    item_id: backhand
+    item_name: Backhand
+    keywords:
+        - Companion
+        - Melee
+        - Weapon
+    level: 1
+    scc:
+        - mcdm.beastheart.v1/feature.ability.companion.beastheart.bear.level-1/backhand
+    target: One creature or object
+    type: feature/ability/companion/beastheart/bear/level-1
+name: Backhand
+target: One creature or object
+type: feature
+usage: Maneuver

@@ -1,0 +1,40 @@
+{
+  "cost": "9 Piety",
+  "distance": "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10",
+  "effects": [
+    {
+      "effect": "The first time the target is [dying](scc.v1:mcdm.heroes.v1/rule.health/dying) or [winded](scc.v1:mcdm.heroes.v1/rule.health/winded) before the end of the encounter, each enemy within 5 squares of them takes 15 holy damage.",
+      "name": "Effect"
+    }
+  ],
+  "feature_type": "ability",
+  "flavor": "You infuse yourself or an ally with the retributive energy of the gods, waiting to be unleashed.",
+  "keywords": [
+    "Magic",
+    "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)"
+  ],
+  "metadata": {
+    "action_type": "Maneuver",
+    "class": "conduit",
+    "content": "\n*You infuse yourself or an ally with the retributive energy of the gods, waiting to be unleashed.*\n\n| **Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)**  | **Maneuver**            |\n|--------------------|-------------------------|\n| **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**   | **🎯 Self or one ally** |\n\n**Effect:** The first time the target is [dying](scc.v1:mcdm.heroes.v1/rule.health/dying) or [winded](scc.v1:mcdm.heroes.v1/rule.health/winded) before the end of the encounter, each enemy within 5 squares of them takes 15 holy damage.",
+    "distance": "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10",
+    "feature_type": "ability",
+    "flavor": "You infuse yourself or an ally with the retributive energy of the gods, waiting to be unleashed.",
+    "item_id": "vessel-of-retribution",
+    "item_name": "Vessel of Retribution",
+    "keywords": [
+      "Magic",
+      "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)"
+    ],
+    "level": 5,
+    "scc": [
+      "mcdm.heroes.v1/feature.ability.conduit.level-5/vessel-of-retribution"
+    ],
+    "target": "Self or one ally",
+    "type": "feature/ability/conduit/level-5"
+  },
+  "name": "Vessel of Retribution",
+  "target": "Self or one ally",
+  "type": "feature",
+  "usage": "Maneuver"
+}

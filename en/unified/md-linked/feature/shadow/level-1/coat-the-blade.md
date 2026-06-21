@@ -1,0 +1,22 @@
+---
+class: shadow
+level: "1"
+name: Coat the Blade
+scc: mcdm.heroes.v1/feature.shadow.level-1/coat-the-blade
+type: feature
+---
+
+You have the following ability.
+
+## Coat the Blade {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-1/coat-the-blade"}
+
+
+*A little poison goes a long way.*
+
+| **-**       | **Maneuver** |
+|-------------|-------------:|
+| **📏 Self** |  **🎯 Self** |
+
+**Effect:** You gain 2 [surges](../../../rule/resource/surge.md). Additionally, whenever you use a [surge](../../../rule/resource/surge.md) before the end of the encounter, you can choose to have it deal poison damage.
+
+**Spend 1+ Insight:** For each insight you spend, you gain 1 additional [surge](../../../rule/resource/surge.md).

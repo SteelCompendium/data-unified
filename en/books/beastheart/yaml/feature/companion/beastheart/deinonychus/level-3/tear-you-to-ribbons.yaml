@@ -1,0 +1,15 @@
+effects:
+    - effect: Whenever the deinonychus makes a strike against a creature while rampaging, the target is [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) until the end of their next turn.
+feature_type: feature
+metadata:
+    action_type: feature
+    class: beastheart
+    feature_type: feature
+    item_id: tear-you-to-ribbons
+    item_name: Tear You to Ribbons
+    level: 3
+    scc:
+        - mcdm.beastheart.v1/feature.companion.beastheart.deinonychus.level-3/tear-you-to-ribbons
+    type: feature/companion/beastheart/deinonychus/level-3
+name: Tear You to Ribbons
+type: feature

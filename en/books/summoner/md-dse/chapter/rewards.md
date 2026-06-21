@@ -1,0 +1,25 @@
+---
+file_basename: rewards
+file_dpath: chapter
+item_id: rewards
+item_name: Rewards
+name: Rewards
+order: 2
+scc: mcdm.summoner.v1/chapter/rewards
+source: mcdm.summoner.v1
+type: chapter
+---
+
+Unless otherwise stated, the following treasures and titles can be wielded by a [summoner](scc.v1:mcdm.summoner.v1/class/summoner) or any hero who comes upon one.
+
+## New Trinkets
+
+The following new [trinkets](scc.v1:mcdm.heroes.v1/rule.treasure/trinket) are available to add to your game.
+
+## New Leveled Treasures
+
+The following new [leveled treasures](scc.v1:mcdm.heroes.v1/rule.treasure/leveled-treasure) are available to add to your game.
+
+## New Titles
+
+The following titles are available to add to your game.

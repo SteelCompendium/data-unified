@@ -1,0 +1,84 @@
+{
+  "agility": 0,
+  "ev": "4",
+  "features": [
+    {
+      "ability_type": "Signature Ability",
+      "distance": "Ranged 8",
+      "effects": [
+        {
+          "roll": "Power Roll + 2",
+          "tier1": "4 psychic damage; I \u003c 0 the target makes a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against a creature of the cackler's choice",
+          "tier2": "5 psychic damage; I \u003c 1 the target makes a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against a creature of the cackler's choice",
+          "tier3": "7 psychic damage; I \u003c 2 the target uses a signature ability against a creature of the cackler's choice"
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "🏹",
+      "keywords": [
+        "Magic",
+        "Ranged",
+        "Strike"
+      ],
+      "name": "Moment of Brutality",
+      "target": "One creature",
+      "type": "feature",
+      "usage": "Main action"
+    },
+    {
+      "cost": "4 Malice",
+      "distance": "2 burst",
+      "effects": [
+        {
+          "roll": "",
+          "tier1": "[Frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)",
+          "tier2": "[Frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (EoT)",
+          "tier3": "No effect"
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "❇️",
+      "keywords": [
+        "Area",
+        "Magic"
+      ],
+      "name": "Cackler's Cackletongue",
+      "target": "Each creature in the area",
+      "type": "feature",
+      "usage": "Maneuver"
+    },
+    {
+      "effects": [
+        {
+          "effect": "Whenever a non-[minion](scc.v1:mcdm.monsters.v1/rule.organization/minion) ally within 5 squares of the cackler is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), the cackler moves up to their speed and can make a melee [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike)."
+        }
+      ],
+      "feature_type": "trait",
+      "icon": "⭐️",
+      "name": "Death Frenzy",
+      "type": "feature"
+    }
+  ],
+  "free_strike": 2,
+  "intuition": 2,
+  "keywords": [
+    "Abyssal",
+    "Gnoll"
+  ],
+  "level": 2,
+  "metadata": {
+    "scc": "mcdm.monsters.v1/monster.gnoll.statblock/gnoll-cackler",
+    "source": "mcdm.monsters.v1"
+  },
+  "might": 0,
+  "name": "Gnoll Cackler",
+  "organization": "Horde",
+  "presence": 2,
+  "reason": 2,
+  "role": "Hexer",
+  "size": "1S",
+  "speed": 5,
+  "stability": 1,
+  "stamina": "15",
+  "type": "statblock"
+}

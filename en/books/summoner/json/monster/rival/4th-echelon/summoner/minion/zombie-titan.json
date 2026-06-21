@@ -1,0 +1,69 @@
+{
+  "agility": -1,
+  "cost": "6 Malice for one minion",
+  "ev": "",
+  "features": [
+    {
+      "effects": [
+        {
+          "effect": "The titan's melee [free strikes](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) M \u003c 5 knock the target [prone](scc.v1:mcdm.heroes.v1/condition/prone)."
+        }
+      ],
+      "feature_type": "trait",
+      "icon": "⭐️",
+      "name": "Big Stomp",
+      "type": "feature"
+    },
+    {
+      "effects": [
+        {
+          "effect": "The titan can move through enemies at normal [speed](scc.v1:mcdm.heroes.v1/rule.character/speed). If the titan ends their turn in a [prone](scc.v1:mcdm.heroes.v1/condition/prone) [size](scc.v1:mcdm.heroes.v1/rule.character/size) 2 or smaller creature's space, the creature can't stand."
+        }
+      ],
+      "feature_type": "trait",
+      "icon": "⭐️",
+      "name": "Overwhelming Size",
+      "type": "feature"
+    },
+    {
+      "effects": [
+        {
+          "effect": "When the titan is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), their space becomes [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain). If a creature was [prone](scc.v1:mcdm.heroes.v1/condition/prone) underneath the titan when the titan is killed, they take 10 damage and are [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)."
+        }
+      ],
+      "feature_type": "trait",
+      "icon": "⭐️",
+      "name": "Flesh to Mountains",
+      "type": "feature"
+    }
+  ],
+  "free_strike": 7,
+  "immunities": [
+    "Corruption 5",
+    "poison 5"
+  ],
+  "intuition": 4,
+  "keywords": [
+    "Undead"
+  ],
+  "level": 0,
+  "metadata": {
+    "scc": "mcdm.summoner.v1/monster.rival.4th-echelon.summoner.minion/zombie-titan",
+    "source": "mcdm.summoner.v1"
+  },
+  "might": 5,
+  "movement": "—",
+  "name": "Zombie Titan",
+  "organization": "Minion",
+  "presence": 5,
+  "reason": 2,
+  "role": "Defender",
+  "size": "4",
+  "speed": 4,
+  "stability": 5,
+  "stamina": "50",
+  "type": "statblock",
+  "weaknesses": [
+    "—"
+  ]
+}

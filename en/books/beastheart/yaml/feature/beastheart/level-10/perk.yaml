@@ -1,0 +1,15 @@
+effects:
+    - effect: You gain one exploration, interpersonal, or intrigue perk of your choice.
+feature_type: feature
+metadata:
+    action_type: feature
+    class: beastheart
+    feature_type: feature
+    item_id: perk
+    item_name: Perk
+    level: 10
+    scc:
+        - mcdm.beastheart.v1/feature.beastheart.level-10/perk
+    type: feature/beastheart/level-10
+name: Perk
+type: feature

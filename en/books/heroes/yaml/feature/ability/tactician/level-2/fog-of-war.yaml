@@ -1,0 +1,29 @@
+cost: 5 Focus
+distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
+effects:
+    - effect: Each target is marked by you, and must immediately make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against a creature of your choice within 5 squares of them.
+      name: Effect
+feature_type: ability
+flavor: Your unorthodox strategy causes enemies to lash out in fear, heedless of who they might be attacking.
+keywords:
+    - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'
+metadata:
+    action_type: Maneuver
+    class: tactician
+    content: "\n*Your unorthodox strategy causes enemies to lash out in fear, heedless of who they might be attacking.*\n\n| **[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)**       |         **Maneuver** |\n|------------------|---------------------:|\n| **\U0001F4CF [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10** | **\U0001F3AF Two creatures** |\n\n**Effect:** Each target is marked by you, and must immediately make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against a creature of your choice within 5 squares of them.\n\n**Mark Benefit:** Until the end of the encounter, whenever you or any ally makes a [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) against a creature marked by you, you can spend 2 focus to force that target to make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against a creature of your choice within 5 squares of them."
+    distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
+    feature_type: ability
+    flavor: Your unorthodox strategy causes enemies to lash out in fear, heedless of who they might be attacking.
+    item_id: fog-of-war
+    item_name: Fog of War
+    keywords:
+        - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'
+    level: 2
+    scc:
+        - mcdm.heroes.v1/feature.ability.tactician.level-2/fog-of-war
+    target: Two creatures
+    type: feature/ability/tactician/level-2
+name: Fog of War
+target: Two creatures
+type: feature
+usage: Maneuver

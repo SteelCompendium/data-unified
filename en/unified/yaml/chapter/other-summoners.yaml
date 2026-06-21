@@ -1,0 +1,12 @@
+content: |-
+    ## Retainer Summoner
+
+    Whenever the following retainer would gain a new advancement ability, the player of their mentor can either choose one of the available retainer abilities for that level or select a role advancement ability that matches their role and level.
+
+    ## Rival Summoner
+
+    Any minions that the rival can summon can be replaced with the equivalent minions available within a heroic summoner's portfolio.
+name: Other Summoners
+order: 3
+scc: mcdm.summoner.v1/chapter/other-summoners
+type: chapter

@@ -1,0 +1,48 @@
+{
+  "cost": "11 Drama",
+  "distance": "[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1 or [ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10",
+  "effects": [
+    {
+      "roll": "Power Roll + [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence)",
+      "tier1": "The target takes a [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) on [ability rolls](scc.v1:mcdm.heroes.v1/rule.dice/ability-roll) (save ends).",
+      "tier2": "The target has a double [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) on [ability rolls](scc.v1:mcdm.heroes.v1/rule.dice/ability-roll) (save ends).",
+      "tier3": "The target has a double [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) on [power rolls](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) (save ends)."
+    },
+    {
+      "effect": "Choose one ally within [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance). While the target is affected by this ability, each time they use an ability, that ally can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against them after the ability is resolved.",
+      "name": "Effect"
+    }
+  ],
+  "feature_type": "ability",
+  "flavor": "Your story tells a tale of the villain's waning power and how the heroes rose to the occasion to stop them.",
+  "keywords": [
+    "Magic",
+    "[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)",
+    "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)"
+  ],
+  "metadata": {
+    "action_type": "Maneuver",
+    "class": "troubadour",
+    "content": "\n*Your story tells a tale of the villain's waning power and how the heroes rose to the occasion to stop them.*\n\n| **Magic, [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)**    |        **Maneuver** |\n|-----------------------------|--------------------:|\n| **📏 [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1 or [ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10** | **🎯 One creature** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence):**\n\n- **≤11:** The target takes a [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) on [ability rolls](scc.v1:mcdm.heroes.v1/rule.dice/ability-roll) (save ends).\n- **12-16:** The target has a double [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) on [ability rolls](scc.v1:mcdm.heroes.v1/rule.dice/ability-roll) (save ends).\n- **17+:** The target has a double [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) on [power rolls](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) (save ends).\n\n**Effect:** Choose one ally within [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance). While the target is affected by this ability, each time they use an ability, that ally can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against them after the ability is resolved.",
+    "distance": "[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1 or [ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10",
+    "feature_type": "ability",
+    "flavor": "Your story tells a tale of the villain's waning power and how the heroes rose to the occasion to stop them.",
+    "item_id": "epic",
+    "item_name": "Epic",
+    "keywords": [
+      "Magic",
+      "[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)",
+      "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)"
+    ],
+    "level": 9,
+    "scc": [
+      "mcdm.heroes.v1/feature.ability.troubadour.level-9/epic"
+    ],
+    "target": "One creature",
+    "type": "feature/ability/troubadour/level-9"
+  },
+  "name": "Epic",
+  "target": "One creature",
+  "type": "feature",
+  "usage": "Maneuver"
+}

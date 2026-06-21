@@ -1,0 +1,7 @@
+---
+name: Use Consumable
+scc: mcdm.heroes.v1/feature.common.maneuvers/use-consumable
+type: feature
+---
+
+Unless otherwise noted in its description, a creature can activate a [consumable](scc.v1:mcdm.heroes.v1/rule.treasure/consumable) treasure such as a potion with the [Use Consumable](scc.v1:mcdm.heroes.v1/feature.common.maneuvers/use-consumable) maneuver. A creature can use this maneuver to administer a [consumable](scc.v1:mcdm.heroes.v1/rule.treasure/consumable) treasure that benefits the user either to themself or to a willing [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) creature. See [Consumables](scc.v1:mcdm.heroes.v1/rule.treasure/consumable) in Chapter 13: [Rewards](scc.v1:mcdm.heroes.v1/chapter/rewards).

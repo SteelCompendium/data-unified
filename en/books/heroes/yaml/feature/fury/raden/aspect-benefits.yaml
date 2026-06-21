@@ -1,0 +1,15 @@
+effects:
+    - effect: You gain an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on [tests](scc.v1:mcdm.heroes.v1/rule.test/test) made to hide and sneak. Additionally, you ignore [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain).
+feature_type: feature
+metadata:
+    action_type: feature
+    class: fury
+    feature_type: feature
+    item_id: aspect-benefits
+    item_name: Aspect Benefits
+    kit: raden
+    scc:
+        - mcdm.heroes.v1/feature.fury.raden/aspect-benefits
+    type: feature/fury/raden
+name: Aspect Benefits
+type: feature

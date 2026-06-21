@@ -1,0 +1,40 @@
+{
+  "cost": "5 Piety",
+  "distance": "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10",
+  "effects": [
+    {
+      "effect": "A [size](scc.v1:mcdm.heroes.v1/rule.character/size) 2 statue rises out of the ground in an unoccupied space within [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance) and lasts until the end of the encounter. While within 3 squares of the statue, you gain 1 [surge](scc.v1:mcdm.heroes.v1/rule.resource/surge) at the start of each of your [turns](scc.v1:mcdm.heroes.v1/rule.combat/turn). Each ally within 3 squares of the statue gains this same benefit. The statue is destroyed if it takes 20 or more damage. It has immunity all to poison and psychic damage.",
+      "name": "Effect"
+    }
+  ],
+  "feature_type": "ability",
+  "flavor": "A marble statue of your deity rises from the earth.",
+  "keywords": [
+    "Magic",
+    "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)"
+  ],
+  "metadata": {
+    "action_type": "Maneuver",
+    "class": "conduit",
+    "content": "\n*A marble statue of your deity rises from the earth.*\n\n| **Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)**  |   **Maneuver** |\n|--------------------|---------------:|\n| **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**   | **🎯 Special** |\n\n**Effect:** A [size](scc.v1:mcdm.heroes.v1/rule.character/size) 2 statue rises out of the ground in an unoccupied space within [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance) and lasts until the end of the encounter. While within 3 squares of the statue, you gain 1 [surge](scc.v1:mcdm.heroes.v1/rule.resource/surge) at the start of each of your [turns](scc.v1:mcdm.heroes.v1/rule.combat/turn). Each ally within 3 squares of the statue gains this same benefit. The statue is destroyed if it takes 20 or more damage. It has immunity all to poison and psychic damage.",
+    "distance": "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10",
+    "feature_type": "ability",
+    "flavor": "A marble statue of your deity rises from the earth.",
+    "item_id": "statue-of-power",
+    "item_name": "Statue of Power",
+    "keywords": [
+      "Magic",
+      "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)"
+    ],
+    "level": 2,
+    "scc": [
+      "mcdm.heroes.v1/feature.ability.conduit.level-2/statue-of-power"
+    ],
+    "target": "Special",
+    "type": "feature/ability/conduit/level-2"
+  },
+  "name": "Statue of Power",
+  "target": "Special",
+  "type": "feature",
+  "usage": "Maneuver"
+}

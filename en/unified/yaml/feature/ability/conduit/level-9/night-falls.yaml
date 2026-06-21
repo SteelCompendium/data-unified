@@ -1,0 +1,33 @@
+cost: 11 Piety
+distance: 5 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 10
+effects:
+    - effect: Until the end of the encounter or until you are [dying](scc.v1:mcdm.heroes.v1/rule.health/dying), the area is filled with magic darkness that your enemies can't see through, but you and your allies can.
+      name: Effect
+feature_type: ability
+flavor: You summon darkness that thwarts only your foes.
+keywords:
+    - Area
+    - Magic
+    - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'
+metadata:
+    action_type: Main action
+    class: conduit
+    content: "\n*You summon darkness that thwarts only your foes.*\n\n| **Area, Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)** |  **Main action** |\n|-------------------------|-----------------:|\n| **\U0001F4CF 5 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 10** |   **\U0001F3AF Special** |\n\n**Effect:** Until the end of the encounter or until you are [dying](scc.v1:mcdm.heroes.v1/rule.health/dying), the area is filled with magic darkness that your enemies can't see through, but you and your allies can."
+    distance: 5 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 10
+    feature_type: ability
+    flavor: You summon darkness that thwarts only your foes.
+    item_id: night-falls
+    item_name: Night Falls
+    keywords:
+        - Area
+        - Magic
+        - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'
+    level: 9
+    scc:
+        - mcdm.heroes.v1/feature.ability.conduit.level-9/night-falls
+    target: Special
+    type: feature/ability/conduit/level-9
+name: Night Falls
+target: Special
+type: feature
+usage: Main action

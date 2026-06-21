@@ -1,0 +1,47 @@
+ability:
+    distance: Melee 1 or Ranged 5
+    effects:
+        - effect: R [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage). If the target has R < WEAK, they are [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends).
+          name: Effect
+    feature_type: ability
+    flavor: A sudden burst of energy erupts from your implement and shocks your foes' nerves.
+    keywords:
+        - Magic
+        - Melee
+        - Ranged
+        - Strike
+    metadata:
+        action_type: Main action
+        content: "*A sudden burst of energy erupts from your implement and shocks your foes' nerves.*\n\n| **Magic, Melee, Ranged, Strike** |          **Main action** |\n|----------------------------------|--------------------------:|\n| **\U0001F4CF Melee 1 or Ranged 5**      | **\U0001F3AF One creature or object** |\n\n**Effect:** R [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage). If the target has R < WEAK, they are [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends).\n\n**Special:** This ability has the Charge keyword when it's used as a melee [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)."
+        distance: Melee 1 or Ranged 5
+        feature_type: ability
+        flavor: A sudden burst of energy erupts from your implement and shocks your foes' nerves.
+        item_id: summoner-strike
+        item_name: Summoner Strike
+        keywords:
+            - Magic
+            - Melee
+            - Ranged
+            - Strike
+        target: One creature or object
+        type: feature/ability/common
+    name: Summoner Strike
+    target: One creature or object
+    type: feature
+    usage: Main action
+effects:
+    - effect: You have the following ability, which replaces both your melee and ranged [free strikes](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike).
+feature_type: feature
+metadata:
+    action_type: feature
+    class: summoner
+    feature_source: summoner
+    feature_type: feature
+    item_id: summoner-strike
+    item_name: Summoner Strike
+    level: 1
+    scc:
+        - mcdm.summoner.v1/feature.summoner.level-1/summoner-strike
+    type: feature/summoner/level-1
+name: Summoner Strike
+type: feature

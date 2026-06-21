@@ -1,0 +1,16 @@
+{
+  "alignment": "good",
+  "content": "**Domains:** Knowledge, Life, Sun, Trickery, War\n\nKul, Father of Flames, Lord of the Forge, the Cleansing Fire who put fire and magma within the world at its creation.\n\nHe saw his sibling gods creating their own children and placing them within the world, and so followed suit, creating the [orcs](scc.v1:mcdm.heroes.v1/ancestry/orc), the last of the original five speaking peoples.\n\nKul's fire is the fire that destroys, but it is also the fire that creates, the fire of the forge, the fire that makes meat safe to eat, the fire that cauterizes wounds. Kul teaches that action is the defining [characteristic](scc.v1:mcdm.heroes.v1/rule.character/characteristic) of being. Kul's heroes are not philosophers or poets, but warriors and hunters.\n\nUniquely among the Elder Creator Gods, Kul does not desire worship finds it distasteful. [Orcs](scc.v1:mcdm.heroes.v1/ancestry/orc) still call out to Kul in desperate times as \"Kul Who Once Spoke.\" But in those moments, they do not call out for aid—only that Kul witness them, and that they might prove worthy of his attention.\n\n#### Heroes of the Orcs\n\nThe following heroes are venerated by many [orcs](scc.v1:mcdm.heroes.v1/ancestry/orc) and others who follow Kul.\n\n#### Heroes of the Hakaan\n\nMost [hakaan](scc.v1:mcdm.heroes.v1/ancestry/hakaan) in [Orden](scc.v1:mcdm.heroes.v1/rule.world/orden) are animists. They know and respect the four Elder Gods who created the world and believe these gods watch the world and see what happens within it. But the [Hakaan](scc.v1:mcdm.heroes.v1/ancestry/hakaan) do not create churches or formal belief systems around this attitude.\n\nInstead they believe the world is filled with innumerable nature spirits. Each river, tree, stone, has their own spirit, which the [hakaan](scc.v1:mcdm.heroes.v1/ancestry/hakaan) revere. They have no organized religion in the way the other ancestries in this chapter do, though a [hakaan](scc.v1:mcdm.heroes.v1/ancestry/hakaan) brought up in a city, or among another people, would naturally venerate in whatever gods and [saints](scc.v1:mcdm.heroes.v1/rule.world/saint) are worshiped by the folk who raised them.\n\nThe [hakaan](scc.v1:mcdm.heroes.v1/ancestry/hakaan) know they are descended from stone giants, but they do not think of themselves as stone giants. They know their ancestors were tricked by Holkatya, one of the gods of Vanigar, into trading some of their great strength for the doomsight. But while they respect Holkatya, they do not worship her. Nor do they resent her. She's merely a detail of their history.\n\n[Hakaan](scc.v1:mcdm.heroes.v1/ancestry/hakaan) [conduits](scc.v1:mcdm.heroes.v1/class/conduit) and [censors](scc.v1:mcdm.heroes.v1/class/censor) venerate [hakaan](scc.v1:mcdm.heroes.v1/ancestry/hakaan) heroes who, after doing great deeds in life, were chosen by the gods to take their place among the stars, becoming constellations. They see the stars at night as a complex map of legendary [hakaan](scc.v1:mcdm.heroes.v1/ancestry/hakaan) heroes, and their own ancestors who watch from above.",
+  "domains": [
+    "Knowledge",
+    "Life",
+    "Sun",
+    "Trickery",
+    "War"
+  ],
+  "god_class": "elder",
+  "name": "Kul",
+  "pantheon": "orc",
+  "scc": "mcdm.heroes.v1/religion.god/kul",
+  "type": "god"
+}

@@ -1,0 +1,20 @@
+{
+  "effects": [
+    {
+      "effect": "Your connection to Axiom allows you to regulate your movement. You can't be made [slowed](scc.v1:mcdm.heroes.v1/condition/slowed)."
+    }
+  ],
+  "feature_type": "trait",
+  "metadata": {
+    "action_type": "feature",
+    "feature_type": "trait",
+    "item_id": "nonstop",
+    "item_name": "Nonstop",
+    "scc": [
+      "mcdm.heroes.v1/feature.trait.memonek/nonstop"
+    ],
+    "type": "feature/trait/memonek"
+  },
+  "name": "Nonstop",
+  "type": "feature"
+}

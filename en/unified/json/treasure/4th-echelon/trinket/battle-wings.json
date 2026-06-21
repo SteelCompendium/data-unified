@@ -1,0 +1,15 @@
+{
+  "content": "*These gently undulating wings affix themselves to a creature's shoulders.*\n\n**Keywords:** Magic, Neck\n\n**Item Prerequisite:** A creature's feather given as a gift by the creature\n\n**Project Source:** Texts or lore in Khelt and Yllric **Project Roll Characteristic:** Agility or Intuition\n\n**Project Goal:** 600\n\n**Effect:** Only a beastheart's companion or an animal can wear this item. While wearing it, the creature grows feathered wings if they don't already have wings and can [fly](scc.v1:mcdm.heroes.v1/movement/fly). If the creature can already fly, they gain a +3 bonus to their speed while flying.",
+  "echelon": "4",
+  "effect": "Only a beastheart's companion or an animal can wear this item. While wearing it, the creature grows feathered wings if they don't already have wings and can [fly](scc.v1:mcdm.heroes.v1/movement/fly). If the creature can already fly, they gain a +3 bonus to their speed while flying.",
+  "flavor": "These gently undulating wings affix themselves to a creature's shoulders.",
+  "keywords": [
+    "Magic",
+    "Neck"
+  ],
+  "name": "Battle Wings",
+  "project_goal": "600",
+  "scc": "mcdm.beastheart.v1/treasure.4th-echelon.trinket/battle-wings",
+  "treasure_type": "trinket",
+  "type": "treasure"
+}

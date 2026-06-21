@@ -1,0 +1,42 @@
+{
+  "cost": "11 Insight",
+  "distance": "2 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)",
+  "effects": [
+    {
+      "roll": "Power Roll + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)",
+      "tier1": "11 corruption damage; A \u003c WEAK, [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)",
+      "tier2": "16 corruption damage; A \u003c AVERAGE, [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)",
+      "tier3": "21 corruption damage; A \u003c STRONG, [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)"
+    }
+  ],
+  "feature_type": "ability",
+  "flavor": "The shadows around you give way, allowing the shadow creature within you to grasp at your foes.",
+  "keywords": [
+    "Area",
+    "Magic"
+  ],
+  "metadata": {
+    "action_type": "Main action",
+    "class": "shadow",
+    "content": "\n*The shadows around you give way, allowing the shadow creature within you to grasp at your foes.*\n\n| **Area, Magic** |               **Main action** |\n|-----------------|------------------------------:|\n| **📏 2 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)**  | **🎯 Each enemy in the area** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility):**\n\n- **≤11:** 11 corruption damage; A \u003c WEAK, [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)\n- **12-16:** 16 corruption damage; A \u003c AVERAGE, [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)\n- **17+:** 21 corruption damage; A \u003c STRONG, [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)",
+    "distance": "2 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)",
+    "feature_type": "ability",
+    "flavor": "The shadows around you give way, allowing the shadow creature within you to grasp at your foes.",
+    "item_id": "shadowgrasp",
+    "item_name": "Shadowgrasp",
+    "keywords": [
+      "Area",
+      "Magic"
+    ],
+    "level": 8,
+    "scc": [
+      "mcdm.heroes.v1/feature.ability.shadow.level-8/shadowgrasp"
+    ],
+    "target": "Each enemy in the area",
+    "type": "feature/ability/shadow/level-8"
+  },
+  "name": "Shadowgrasp",
+  "target": "Each enemy in the area",
+  "type": "feature",
+  "usage": "Main action"
+}

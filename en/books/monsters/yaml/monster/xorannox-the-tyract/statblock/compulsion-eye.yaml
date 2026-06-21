@@ -1,0 +1,48 @@
+agility: 1
+ev: '-'
+features:
+    - ability_type: Signature Ability
+      distance: Ranged 6
+      effects:
+        - roll: Power Roll + 4
+          tier1: I < 2 the target is charmed
+          tier2: I < 3 the target is charmed
+          tier3: I < 4 the target is charmed
+      feature_type: ability
+      icon: "\U0001F3F9"
+      keywords:
+        - Psionic
+        - Ranged
+        - Strike
+      name: Compulsion Beam
+      target: One creature
+      type: feature
+      usage: Main action
+    - effects:
+        - effect: The compulsion eye has damage immunity 15. When they use a main action, they lose this immunity until the end of the round.
+      feature_type: trait
+      icon: ⭐️
+      name: Psionic Barrier
+      type: feature
+free_strike: 3
+intuition: 1
+keywords:
+    - Eyestalk
+    - Horror
+    - Overmind
+level: 6
+metadata:
+    scc: mcdm.monsters.v1/monster.xorannox-the-tyract.statblock/compulsion-eye
+    source: mcdm.monsters.v1
+might: -1
+movement: Fly, hover
+name: Compulsion Eye
+organization: ""
+presence: -1
+reason: 4
+role: Controller
+size: 1M
+speed: 5
+stability: 0
+stamina: "30"
+type: statblock

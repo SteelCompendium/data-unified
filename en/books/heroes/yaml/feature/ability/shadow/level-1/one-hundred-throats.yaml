@@ -1,0 +1,35 @@
+cost: 5 Insight
+distance: Self; see below
+effects:
+    - roll: Power Roll + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)
+      tier1: 3 damage
+      tier2: 6 damage
+      tier3: 9 damage
+    - effect: You [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to your [speed](scc.v1:mcdm.heroes.v1/rule.character/speed) and make one [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) that targets up to three enemies who came [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to you during the move.
+      name: Effect
+feature_type: ability
+flavor: As you move across the battlefield, every foe within reach feels your wrath.
+keywords:
+    - '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)'
+    - Weapon
+metadata:
+    action_type: Main action
+    class: shadow
+    content: "\n*As you move across the battlefield, every foe within reach feels your wrath.*\n\n| **[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), Weapon**      | **Main action** |\n|------------------------|----------------:|\n| **\U0001F4CF Self; see below** |     **\U0001F3AF Self** |\n\n**Effect:** You [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to your [speed](scc.v1:mcdm.heroes.v1/rule.character/speed) and make one [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) that targets up to three enemies who came [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to you during the move.\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility):**\n\n- **≤11:** 3 damage\n- **12-16:** 6 damage\n- **17+:** 9 damage"
+    distance: Self; see below
+    feature_type: ability
+    flavor: As you move across the battlefield, every foe within reach feels your wrath.
+    item_id: one-hundred-throats
+    item_name: One Hundred Throats
+    keywords:
+        - '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)'
+        - Weapon
+    level: 1
+    scc:
+        - mcdm.heroes.v1/feature.ability.shadow.level-1/one-hundred-throats
+    target: Self
+    type: feature/ability/shadow/level-1
+name: One Hundred Throats
+target: Self
+type: feature
+usage: Main action

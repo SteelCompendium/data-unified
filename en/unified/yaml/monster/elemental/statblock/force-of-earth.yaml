@@ -1,0 +1,86 @@
+agility: -1
+ev: "20"
+features:
+    - ability_type: Signature Ability
+      distance: Melee 2
+      effects:
+        - roll: Power Roll + 2
+          tier1: 8 damage
+          tier2: 12 damage; M < 1 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
+          tier3: 15 damage; M < 2 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
+      feature_type: ability
+      icon: "\U0001F5E1"
+      keywords:
+        - Melee
+        - Strike
+        - Weapon
+      name: Slam Into Dirt
+      target: Two creatures or objects
+      type: feature
+      usage: Main action
+    - distance: Ranged 5
+      effects:
+        - effect: |-
+            **Effect:** Until the start of the force's next turn, any melee strike made against the target takes a bane if it doesn't already have a bane or double bane.
+            **3 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice):** Until the end of the encounter, the target grows a carapace of stone. They have a +3 bonus to stability and gain 15 temporary Stamina.
+      feature_type: ability
+      icon: "\U0001F3F9"
+      keywords:
+        - Magic
+        - Ranged
+      name: Convocation of Quartz
+      target: Self or one elemental
+      type: feature
+      usage: Maneuver
+    - cost: 1 Malice
+      distance: Self
+      effects:
+        - effect: |-
+            **Trigger:** The force takes damage.
+            **Effect:** The force halves the damage, and has damage weakness 3 and a +3 bonus to speed until the end of the encounter. This damage weakness increases by 3 each time the force uses this ability in the same encounter.
+      feature_type: ability
+      icon: ❗️
+      keywords:
+        - '-'
+      name: Break Armor
+      target: Self
+      type: feature
+      usage: Triggered action
+    - effects:
+        - effect: The force can't be [restrained](scc.v1:mcdm.heroes.v1/condition/restrained), [slowed](scc.v1:mcdm.heroes.v1/condition/slowed), or knocked [prone](scc.v1:mcdm.heroes.v1/condition/prone), and they ignore [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain).
+      feature_type: trait
+      icon: ⭐️
+      name: Fickle and Free
+      type: feature
+    - effects:
+        - effect: The force's strikes gain a +6 damage bonus against objects.
+      feature_type: trait
+      icon: ⭐️
+      name: Primordial Strength
+      type: feature
+    - effects:
+        - effect: The force can burrow through stone, but can't drag other creatures underground when they do so.
+      feature_type: trait
+      icon: ⭐️
+      name: Stone Swim
+      type: feature
+free_strike: 6
+intuition: 1
+keywords:
+    - Elemental
+level: 3
+metadata:
+    scc: mcdm.monsters.v1/monster.elemental.statblock/force-of-earth
+    source: mcdm.monsters.v1
+might: 2
+movement: Burrow
+name: Force of Earth
+organization: Elite
+presence: 2
+reason: 0
+role: Brute
+size: "2"
+speed: 5
+stability: 2
+stamina: "132"
+type: statblock

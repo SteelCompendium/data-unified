@@ -1,0 +1,55 @@
+---
+action_type: Triggered
+class: talent
+distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
+effect: You can use this ability after seeing the result of the triggering roll. The target must reroll the [power roll](../../../../rule/dice/power-roll.md) and use the new roll.
+feature_type: ability
+file_basename: again
+file_dpath: feature/ability/talent/level-1
+flavor: You step back a split second to see if things play out a little differently.
+item_id: again
+item_name: Again
+keywords:
+    - Psionic
+    - '[Ranged](../../../../rule/combat/ranged.md)'
+level: "1"
+name: Again
+scc: mcdm.heroes.v1/feature.ability.talent.level-1/again
+source: mcdm.heroes.v1
+subtype: triggered
+target: Self or one creature
+trigger: The target makes an [ability roll](../../../../rule/dice/ability-roll.md).
+type: ability
+---
+
+```ds-feature
+distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
+effects:
+    - effect: You can use this ability after seeing the result of the triggering roll. The target must reroll the [power roll](../../../../rule/dice/power-roll.md) and use the new roll.
+feature_type: ability
+flavor: You step back a split second to see if things play out a little differently.
+keywords:
+    - Psionic
+    - '[Ranged](../../../../rule/combat/ranged.md)'
+metadata:
+    action_type: Triggered
+    class: talent
+    distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
+    effect: You can use this ability after seeing the result of the triggering roll. The target must reroll the [power roll](../../../../rule/dice/power-roll.md) and use the new roll.
+    flavor: You step back a split second to see if things play out a little differently.
+    keywords:
+        - Psionic
+        - '[Ranged](../../../../rule/combat/ranged.md)'
+    level: "1"
+    name: Again
+    scc: mcdm.heroes.v1/feature.ability.talent.level-1/again
+    subtype: triggered
+    target: Self or one creature
+    trigger: The target makes an [ability roll](../../../../rule/dice/ability-roll.md).
+    type: ability
+name: Again
+target: Self or one creature
+trigger: The target makes an [ability roll](../../../../rule/dice/ability-roll.md).
+type: feature
+usage: Triggered
+```

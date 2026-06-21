@@ -1,0 +1,33 @@
+---
+action_type: feature
+class: censor
+feature_type: feature
+file_basename: improved-implement-of-wrath
+file_dpath: feature/censor/level-9
+item_id: improved-implement-of-wrath
+item_name: Improved Implement of Wrath
+level: "9"
+name: Improved Implement of Wrath
+scc: mcdm.heroes.v1/feature.censor.level-9/improved-implement-of-wrath
+source: mcdm.heroes.v1
+type: feature
+---
+
+```ds-feature
+effects:
+    - effect: |-
+        The weapon you target with your [Implement of Wrath](scc.v1:mcdm.heroes.v1/feature.censor.level-6/implement-of-wrath) feature gains the following additional benefits:
+
+        - The weapon's wielder and each ally [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to them gain a +2 [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to [saving throws](scc.v1:mcdm.heroes.v1/rule.general/saving-throw).
+        - At the end of each of the weapon wielder's [turns](scc.v1:mcdm.heroes.v1/rule.combat/turn), each ally [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the wielder makes a [saving throw](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) against each effect on them that is ended by a [saving throw](scc.v1:mcdm.heroes.v1/rule.general/saving-throw).
+        - The weapon's wielder has corruption immunity 10.
+feature_type: feature
+metadata:
+    class: censor
+    level: "9"
+    name: Improved Implement of Wrath
+    scc: mcdm.heroes.v1/feature.censor.level-9/improved-implement-of-wrath
+    type: feature
+name: Improved Implement of Wrath
+type: feature
+```

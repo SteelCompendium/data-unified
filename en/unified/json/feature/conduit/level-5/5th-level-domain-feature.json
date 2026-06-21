@@ -1,0 +1,22 @@
+{
+  "effects": [
+    {
+      "effect": "You gain the 4th-level domain feature for the domain whose feature you didn't select at that level (see 4th-Level Domain Feature)."
+    }
+  ],
+  "feature_type": "feature",
+  "metadata": {
+    "action_type": "feature",
+    "class": "conduit",
+    "feature_type": "feature",
+    "item_id": "5th-level-domain-feature",
+    "item_name": "5th-Level Domain Feature",
+    "level": 5,
+    "scc": [
+      "mcdm.heroes.v1/feature.conduit.level-5/5th-level-domain-feature"
+    ],
+    "type": "feature/conduit/level-5"
+  },
+  "name": "5th-Level Domain Feature",
+  "type": "feature"
+}

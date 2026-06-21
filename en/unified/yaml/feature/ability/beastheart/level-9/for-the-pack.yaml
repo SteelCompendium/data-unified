@@ -1,0 +1,39 @@
+cost: 11 Ferocity
+distance: Self
+effects:
+    - roll: Power Roll + Intuition
+      tier1: 20 cold, fire, lightning, or sonic damage
+      tier2: 25 cold, fire, lightning, or sonic damage
+      tier3: 30 cold, fire, lightning, or sonic damage
+    - effect: Your companion makes a power roll, which targets each enemy in a 5 burst.
+      name: Effect
+feature_type: ability
+flavor: They'd tell stories in hushed tones of your companion's last stand—if any of them lived to tell the tale.
+keywords:
+    - Area
+    - Companion
+    - Magic
+metadata:
+    action_type: Free Triggered Action
+    class: beastheart
+    content: "*They'd tell stories in hushed tones of your companion's last stand—if any of them lived to tell the tale.*\n\n| **Area, Companion, Magic** | **Free Triggered Action** |\n|----------------------------|--------------------------:|\n| **\U0001F4CF Self**                | **\U0001F3AF Self**               |\n\n**Trigger:** After taking damage, your companion is dead or dying.\n\n**Effect:** Your companion makes a power roll, which targets each enemy in a 5 burst.\n\n**Power Roll + Intuition:**\n\n- **≤11:** 20 cold, fire, lightning, or sonic damage\n- **12-16:** 25 cold, fire, lightning, or sonic damage\n- **17+:** 30 cold, fire, lightning, or sonic damage\n\n**Effect:** Your companion dies. If you are dead and in the area, you are restored to life with 1 Stamina. You and each ally in the area can spend up to 2 Recoveries."
+    distance: Self
+    feature_type: ability
+    flavor: They'd tell stories in hushed tones of your companion's last stand—if any of them lived to tell the tale.
+    item_id: for-the-pack
+    item_name: For the Pack!
+    keywords:
+        - Area
+        - Companion
+        - Magic
+    level: 9
+    scc:
+        - mcdm.beastheart.v1/feature.ability.beastheart.level-9/for-the-pack
+    subclass: spark
+    target: Self
+    type: feature/ability/beastheart/level-9
+name: For the Pack!
+target: Self
+trigger: After taking damage, your companion is dead or dying.
+type: feature
+usage: Free Triggered Action

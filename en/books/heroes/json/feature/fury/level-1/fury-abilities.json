@@ -1,0 +1,22 @@
+{
+  "effects": [
+    {
+      "effect": "You specialize in dealing massive damage on the battlefield, and have mastered unique martial abilities that allow you to strike hard and keep moving.\n\n##### Signature Ability\n\nChoose one [signature ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability) from the following options. [Signature abilities](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability) can be used at will. (*Quick Build:* [To the Death](scc.v1:mcdm.heroes.v1/feature.ability.fury.level-1/to-the-death)!)\n\n##### Heroic Abilities\n\nYou fight with an array of [heroic abilities](scc.v1:mcdm.heroes.v1/rule.general/heroic-ability), all of which cost ferocity to fuel them.\n\n###### 3-Ferocity Ability\n\nChoose one [heroic ability](scc.v1:mcdm.heroes.v1/rule.general/heroic-ability) from the following options, each of which costs 3 ferocity to use. (*Quick Build:* Back!)\n\n###### 5-Ferocity Ability\n\nChoose one [heroic ability](scc.v1:mcdm.heroes.v1/rule.general/heroic-ability) from the following options, each of which costs 5 ferocity to use. (*Quick Build:* [Blood for Blood](scc.v1:mcdm.heroes.v1/feature.ability.fury.level-1/blood-for-blood)!)"
+    }
+  ],
+  "feature_type": "feature",
+  "metadata": {
+    "action_type": "feature",
+    "class": "fury",
+    "feature_type": "feature",
+    "item_id": "fury-abilities",
+    "item_name": "Fury Abilities",
+    "level": 1,
+    "scc": [
+      "mcdm.heroes.v1/feature.fury.level-1/fury-abilities"
+    ],
+    "type": "feature/fury/level-1"
+  },
+  "name": "Fury Abilities",
+  "type": "feature"
+}

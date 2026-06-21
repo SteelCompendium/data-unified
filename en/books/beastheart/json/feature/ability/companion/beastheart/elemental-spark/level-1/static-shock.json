@@ -1,0 +1,47 @@
+{
+  "ability_type": "Signature",
+  "distance": "Melee 1",
+  "effects": [
+    {
+      "effect": "The target takes lightning damage equal to 2 + the spark's Might score.",
+      "name": "Effect"
+    },
+    {
+      "cost": "Spend 1 Ferocity",
+      "effect": "The distance increases to melee 5."
+    }
+  ],
+  "feature_type": "ability",
+  "flavor": "An arc of lightning crackles from the spark.",
+  "keywords": [
+    "Companion",
+    "Magic",
+    "Melee"
+  ],
+  "metadata": {
+    "ability_type": "Signature",
+    "action_type": "Maneuver",
+    "class": "beastheart",
+    "content": "*An arc of lightning crackles from the spark.*\n\n| **Companion, Magic, Melee** |                  **Maneuver** |\n|-----------------------------|------------------------------:|\n| **📏 Melee 1**              | **🎯 One creature or object** |\n\n**Effect:** The target takes lightning damage equal to 2 + the spark's Might score.\n\n**Spend 1 Ferocity:** The distance increases to melee 5.",
+    "distance": "Melee 1",
+    "feature_type": "ability",
+    "flavor": "An arc of lightning crackles from the spark.",
+    "item_id": "static-shock",
+    "item_name": "Static Shock",
+    "keywords": [
+      "Companion",
+      "Magic",
+      "Melee"
+    ],
+    "level": 1,
+    "scc": [
+      "mcdm.beastheart.v1/feature.ability.companion.beastheart.elemental-spark.level-1/static-shock"
+    ],
+    "target": "One creature or object",
+    "type": "feature/ability/companion/beastheart/elemental-spark/level-1"
+  },
+  "name": "Static Shock",
+  "target": "One creature or object",
+  "type": "feature",
+  "usage": "Maneuver"
+}

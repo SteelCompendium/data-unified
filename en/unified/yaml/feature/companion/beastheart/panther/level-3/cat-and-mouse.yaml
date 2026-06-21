@@ -1,0 +1,15 @@
+effects:
+    - effect: Whenever the panther makes a strike against a creature while rampaging, the panther can knock the target [prone](scc.v1:mcdm.heroes.v1/condition/prone).
+feature_type: feature
+metadata:
+    action_type: feature
+    class: beastheart
+    feature_type: feature
+    item_id: cat-and-mouse
+    item_name: Cat and Mouse
+    level: 3
+    scc:
+        - mcdm.beastheart.v1/feature.companion.beastheart.panther.level-3/cat-and-mouse
+    type: feature/companion/beastheart/panther/level-3
+name: Cat and Mouse
+type: feature

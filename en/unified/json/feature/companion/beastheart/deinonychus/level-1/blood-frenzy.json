@@ -1,0 +1,22 @@
+{
+  "effects": [
+    {
+      "effect": "Whenever the deinonychus deals damage to a [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) creature, they gain 1 surge."
+    }
+  ],
+  "feature_type": "feature",
+  "metadata": {
+    "action_type": "feature",
+    "class": "beastheart",
+    "feature_type": "feature",
+    "item_id": "blood-frenzy",
+    "item_name": "Blood Frenzy",
+    "level": 1,
+    "scc": [
+      "mcdm.beastheart.v1/feature.companion.beastheart.deinonychus.level-1/blood-frenzy"
+    ],
+    "type": "feature/companion/beastheart/deinonychus/level-1"
+  },
+  "name": "Blood Frenzy",
+  "type": "feature"
+}

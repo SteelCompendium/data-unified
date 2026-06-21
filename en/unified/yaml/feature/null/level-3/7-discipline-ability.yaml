@@ -1,0 +1,15 @@
+effects:
+    - effect: Choose one [heroic ability](scc.v1:mcdm.heroes.v1/rule.general/heroic-ability) from the following options, each of which costs 7 discipline to use.
+feature_type: feature
+metadata:
+    action_type: feature
+    class: "null"
+    feature_type: feature
+    item_id: 7-discipline-ability
+    item_name: 7-Discipline Ability
+    level: 3
+    scc:
+        - mcdm.heroes.v1/feature.null.level-3/7-discipline-ability
+    type: feature/null/level-3
+name: 7-Discipline Ability
+type: feature

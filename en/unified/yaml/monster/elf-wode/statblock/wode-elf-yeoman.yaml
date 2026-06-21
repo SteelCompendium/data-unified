@@ -1,0 +1,48 @@
+agility: 2
+ev: 3 for four minions
+features:
+    - ability_type: Signature Ability
+      distance: Ranged 12
+      effects:
+        - roll: Power Roll + 2
+          tier1: 2 damage; push 1
+          tier2: 4 damage; push 2
+          tier3: 5 damage; push 3
+      feature_type: ability
+      icon: "\U0001F3F9"
+      keywords:
+        - Ranged
+        - Strike
+        - Weapon
+      name: Heavy Longbow
+      target: One creature or object per minion
+      type: feature
+      usage: Main action
+    - effects:
+        - effect: Abilities targeting the yeoman that would take a bane from cover or concealment have a double bane instead.
+      feature_type: trait
+      icon: ⭐️
+      name: Masking Glamor
+      type: feature
+free_strike: 2
+intuition: 0
+keywords:
+    - Fey
+    - Humanoid
+    - Wode Elf
+level: 1
+metadata:
+    scc: mcdm.monsters.v1/monster.elf-wode.statblock/wode-elf-yeoman
+    source: mcdm.monsters.v1
+might: 0
+name: Wode Elf Yeoman
+organization: Minion
+presence: 1
+reason: 0
+role: Artillery
+size: 1M
+speed: 7
+stability: 0
+stamina: "3"
+type: statblock
+with_captain: +1 damage bonus to strikes

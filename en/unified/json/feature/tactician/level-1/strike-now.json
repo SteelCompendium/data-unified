@@ -1,0 +1,58 @@
+{
+  "ability": {
+    "distance": "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10",
+    "effects": [
+      {
+        "effect": "The target can use a [signature ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability) as a free [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action).",
+        "name": "Effect"
+      },
+      {
+        "cost": "Spend 5 Focus",
+        "effect": "You target two allies instead of one."
+      }
+    ],
+    "feature_type": "ability",
+    "flavor": "Your foe left an opening. You point this out to an ally!",
+    "keywords": [
+      "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)"
+    ],
+    "metadata": {
+      "action_type": "Main action",
+      "content": "\n*Your foe left an opening. You point this out to an ally!*\n\n| **[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)** | **Main action** |\n| ---------------------------------------|----------------:|\n| **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**  | **🎯 One ally** |\n\n**Effect:** The target can use a [signature ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability) as a free [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action).\n\n**Spend 5 Focus:** You target two allies instead of one.",
+      "distance": "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10",
+      "feature_type": "ability",
+      "flavor": "Your foe left an opening. You point this out to an ally!",
+      "item_id": "strike-now",
+      "item_name": "\"Strike Now!\"",
+      "keywords": [
+        "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)"
+      ],
+      "target": "One ally",
+      "type": "feature/ability/common"
+    },
+    "name": "\"Strike Now!\"",
+    "target": "One ally",
+    "type": "feature",
+    "usage": "Main action"
+  },
+  "effects": [
+    {
+      "effect": "You have the following ability."
+    }
+  ],
+  "feature_type": "feature",
+  "metadata": {
+    "action_type": "feature",
+    "class": "tactician",
+    "feature_type": "feature",
+    "item_id": "strike-now",
+    "item_name": "Strike Now",
+    "level": 1,
+    "scc": [
+      "mcdm.heroes.v1/feature.tactician.level-1/strike-now"
+    ],
+    "type": "feature/tactician/level-1"
+  },
+  "name": "Strike Now",
+  "type": "feature"
+}

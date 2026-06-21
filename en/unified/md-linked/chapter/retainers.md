@@ -1,0 +1,1981 @@
+---
+name: Retainers
+order: 3
+scc: mcdm.monsters.v1/chapter/retainers
+type: chapter
+---
+
+A retainer is a type of NPC follower who fights alongside the heroes. Retainer creatures can gain levels just as heroes do, so their battlefield contributions remain relevant as the heroes grow in status and power. A lowly level 1 goblin guide can advance up to level 10 if they adventure with a heroic party for long enough!
+
+The stat blocks in this chapter have the Retainer type next to their level and role. For example, a goblin guide is a level 1 [harrier](../rule/role/harrier.md) retainer. Some retainers, such as the human warrior or the time raider mind healer, are members of playable ancestries. Others, such as the minotaur gorer, are more monstrous in nature. Additionally, the rules in this chapter allow for the creation of new retainers using nearly any monster as a base creature.
+
+A retainer is a follower of a specific hero. This hero is called the retainer's mentor, and their player controls that retainer in battle. Each player can control only one retainer at a time. If a hero ever acquires more than one retainer, all but one of those are considered to be working at the party's stronghold or performing some function at the periphery of any battle, not contributing meaningfully to its outcome.
+
+#### Sidekicks, Not Stars
+
+Retainers are useful allies, but the heroes are always the stars of the show! Retainers are simply there to pitch in and make the heroes look good.
+
+Retainers are simpler to run than heroes. They have fewer abilities and fewer resources to manage. Usually, a retainer makes one power roll per turn and then gets out of the way. But while a retainer's turn is quick, it can be tactically interesting! Besides dealing damage, a retainer's abilities often benefit their mentor or allow the mentor to do interesting things.
+
+Because a retainer acts on their mentor's turn, they allow the heroes' side of an encounter to have two characters act in sequence without having to use any special abilities, providing a significant tactical advantage.
+
+#### Gaining Retainers
+
+In many cases, heroes gain retainers as they acquire character features. For instance, a hero might gain a retainer from a title, a complication, or some other element of the game. When a player earns Renown, they might be able to choose a retainer as a new follower.
+
+At other times, the events of the story can dictate that a retainer joins the party. When the heroes rescue a prisoner or befriend a former rival, you might decide that the NPC joins the party, becoming a retainer of one of the characters.
+
+Any hero gaining a retainer is always at your discretion. If something in the rules grants a specific retainer, you can always substitute another retainer who works better for your campaign.
+
+#### Retainers Leaving the Party
+
+A retainer doesn't need to always travel with the heroes. When they're not called on to adventure, they can remain behind at the party's stronghold or otherwise live their own life. Even when they're not present, they're still considered to be a retainer and a member of the party.
+
+However, there might be cases when a retainer leaves the party permanently. Retainers aren't invulnerable, so they can be killed in battle. But they can leave under less extreme circumstances as well. If the events of an adventure set a retainer against their mentor, or if the retainer's story naturally comes to an end, you and the players can decide it's time for the retainer to ride off into the sunset. The characters might meet their former adventuring buddy again as a friendly NPC, though—or perhaps as a foe!
+
+#### Retainers in Combat
+
+When using retainers in combat, a number of special rules should be kept in mind.
+
+- **Another Hero:** A retainer counts as an additional hero of their current level for the purpose of encounter building (see Step-by-Step Encounter Building).
+- **Part of a Mentor's Turn:** A retainer takes their turn as part of their mentor's turn. For the purpose of effects that end at the end of the retainer's turn, or any other rules elements that depend on the start or end of a creature's turn, the start and end of the mentor's turn is also the start and end of the retainer's turn.
+- **Hero Can't Act:** If a hero can't act on their turn (because they are unconscious, for example), their player can still control the hero's retainer.
+- **Retainer Action Economy:** On their turn, a retainer can take a move action, a maneuver, and a main action, just like a hero.
+
+Recoveries: A retainer has 6 [Recoveries](../rule/health/recoveries.md).
+
+- **Death:** A retainer can become dying at 0 [Stamina](../rule/health/stamina.md) and die at negative half their [Stamina](../rule/health/stamina.md), just like a hero.
+- **Surges:** Whenever a retainer gains [surges](../rule/resource/surge.md), those [surges](../rule/resource/surge.md) are gained by their mentor, with the mentor and retainer sharing [surges](../rule/resource/surge.md). The retainer spends [surges](../rule/resource/surge.md) the same way a hero can, but the extra damage granted to them by spending a [surge](../rule/resource/surge.md) is equal to their mentor's highest characteristic score.
+
+#### Retainer Advancement
+
+A retainer doesn't earn Victories or gain XP. Instead, they usually have the same level as their mentor. When a character acquires a retainer, the retainer starts out at that mentor character's level. Thereafter, each time a mentor gains a level, all their retainers attain the same level, whether they are actively adventuring with the hero or not.
+
+If a character somehow acquires a retainer with a level higher than their own, the retainer doesn't lose levels, but they don't gain any new levels until their mentor's level exceeds their own.
+
+#### Advancement Features
+
+A retainer creature's stat block includes characteristics, a level, a role, one or more abilities including a [signature ability](../rule/combat/signature-ability.md), and other standard monster features. This stat block represents the retainer's statistics at their lowest level. The retainer's statistics improve as they gain levels, as shown on the Retainer Advancement table.
+
+The number of levels a retainer can gain depends on their starting level. For instance, a devil defector starts at level 5, and so can gain only 5 levels before reaching level 10. If the level noted in a retainer's stat block is higher than 1, they don't gain advancement benefits for any levels up to and including their starting level. As a higher-level creature, similar bonuses are already baked into their statistics.
+
+Retainer advancement benefits are broken out as follows:
+
+- **Characteristic Increase:** At level 2, a retainer increases one of their characteristic scores by 1 (to a maximum of 2). At level 5, they increase each of their characteristic scores by 1 (to a maximum of 3), and at level 8, they increase one characteristic score by 1 (to a maximum of 4). For each single-characteristic increase, the player of the retainer's mentor chooses which characteristic to use.
+- **Free Strike Damage Bonus:** The retainer gains a +2 damage bonus to [free strikes](../feature/common/main-actions/free-strike.md) at level 3, at level 6, and at level 9.
+- **Advancement Abilities:** A retainer gains new abilities at levels 4, 7, and 10 (unless the retainer's starting level is that level or higher). Each retainer stat block is accompanied by retainer advancement abilities specific to that retainer. Whenever a retainer would gain a new advancement ability, instead of choosing their retainer ability, the player of their mentor can instead choose a role advancement ability that matches their role and level. (Advancement abilities for each type of creature role are detailed in the next section.)
+- **Stamina Bonus:** At each level, a retainer gains a +9 bonus to [Stamina](../rule/health/stamina.md).
+- **Signature Ability Damage Increase:** A retainer's [signature ability](../rule/combat/signature-ability.md) is unique in that it grows stronger as the retainer advances in level. Only the retainer's [signature ability](../rule/combat/signature-ability.md) improves this way! The table features two columns for a retainer's [signature ability](../rule/combat/signature-ability.md) damage bonus—one for a tier 1 power roll outcome and one for a tier 2 or tier 3 outcome. A retainer's [signature ability](../rule/combat/signature-ability.md) gains a +1 damage bonus every second level for a tier 1 outcome, and every level for a tier 2 or tier 3 outcome.
+
+##### Advancement Example
+
+A 4th-level hero convinces a goblin guide, a level 1 [harrier](../rule/role/harrier.md) retainer, to join the party. The goblin guide immediately jumps to level 4. For level 2, the guide increases their Agility by 1. For level 3, the guide gains a +2 damage bonus to their [free strikes](../feature/common/main-actions/free-strike.md). For level 4, the guide chooses between the level 4 retainer advancement ability Weaving Knives or the level 4 [harrier](../rule/role/harrier.md) advancement ability Tackle (see below).
+
+Additionally, for jumping from level 1 to level 4, the guide gains a +27 bonus to [Stamina](../rule/health/stamina.md), giving them [Stamina](../rule/health/stamina.md) 48. Their [signature ability](../rule/combat/signature-ability.md) gains a +2 damage bonus on a tier 1 outcome (for a total of 5 damage), and a +3 bonus on a tier 2 outcome (8 damage) or a tier 3 outcome (10 damage).
+
+#### Encounter Abilities
+
+Some retainer abilities have the Encounter keyword. Once a retainer uses an encounter ability, they can't use that ability again until their mentor earns a Victory.
+
+#### Custom Retainers
+
+This book includes more than a dozen retainer stat blocks with advancement information. But most creature stat blocks can be turned into retainers, provided a creature isn't a [minion](../rule/organization/minion.md), a [leader](../rule/organization/leader.md), or a [solo](../rule/organization/solo.md). You have the final say over whether a player can choose a specific creature as a custom retainer.
+
+To turn a creature into a custom retainer, start with the creature's stat block. Instead of the [Stamina](../rule/health/stamina.md) noted in the stat block, a custom retainer has 21 [Stamina](../rule/health/stamina.md) at level 1. Then use the Retainer Advancement table as a guide to adjusting the creature's statistics as they increase in level, including starting at higher than level 1.
+
+If the creature's [signature ability](../rule/combat/signature-ability.md) affects an area or targets more than one creature or object, the ability now only affects one target within distance. A custom retainer has no retainer advancement abilities, so they must take the role advancement ability specific to their level and role. Custom retainers can't use any abilities or effects that require [Malice](../rule/monster/malice.md).
+
+##### Advancement Example
+
+A 4th-level hero trains a striped condor griffon, a level 2 [elite](../rule/organization/elite.md) [brute](../rule/role/brute.md), gaining that noble creature as a retainer. The griffon starts as a level 2 retainer. They have [Stamina](../rule/health/stamina.md) 30 (21 for level 1 and a +9 bonus for being level 2). Because they started at level 2, they don't gain any level 2 benefits or advancement features from the Retainer Advancement table.
+
+At level 3, the griffon gains a +2 damage bonus to their [free strikes](../feature/common/main-actions/free-strike.md), a +9 bonus to [Stamina](../rule/health/stamina.md) (giving them [Stamina](../rule/health/stamina.md) 39), and a +1 damage bonus to their [signature ability](../rule/combat/signature-ability.md) for a tier 2 or tier 3 outcome. At level 4, the griffon gains the level 4 [brute](../rule/role/brute.md) ability Big Windup (see Big Windup), another + 9 bonus to [Stamina](../rule/health/stamina.md) (for [Stamina](../rule/health/stamina.md) 48), and a +1 damage bonus to their [signature ability](../rule/combat/signature-ability.md) for all tier outcomes. This gives them a total damage bonus to their [signature ability](../rule/combat/signature-ability.md) of +1 for tier 1 outcomes and +2 for tier 2 and tier 3 outcomes.
+
+#### Role Advancement Abilities
+
+When a retainer reaches level 4, 7, or 10, they can gain one of the following abilities based on their role, rather than gaining the retainer advancement ability presented alongside their stat block. A retainer qualifies only for the role advancement ability that matches their role and level.
+
+If a role advancement ability has the Magic or Psionic keyword, a retainer can swap the Magic keyword for Psionic or vice versa. They can also lose the keyword if they can achieve the ability's effects through gadgetry, martial prowess, or other nonsupernatural means.
+
+###### Retainer Advancement Table
+
+| Level | Advancement Feature                                                        | Stamina Bonus | Signature Ability<br/>Damage Bonus<br/>Tier 1 | Signature Ability<br/>Damage Bonus<br/>Tier 2 & 3 |
+|-------|----------------------------------------------------------------------------|---------------|-----------------------------------------------|---------------------------------------------------|
+| 2     | Increase one characteristic score by 1                                     | +9            | +1                                            | +1                                                |
+| 3     | +2 damage bonus to free strikes                                            | +9            | -                                             | +1                                                |
+| 4     | Level 4 retainer advancement ability or level 4 role advancement ability   | +9            | +1                                            | +1                                                |
+| 5     | Increase each characteristic score by 1                                    | +9            | -                                             | +1                                                |
+| 6     | +2 damage bonus to free strikes                                            | +9            | +1                                            | +1                                                |
+| 7     | Level 7 retainer advancement ability or level 7 role advancement ability   | +9            | -                                             | +1                                                |
+| 8     | Increase one characteristic score by 1                                     | +9            | +1                                            | +1                                                |
+| 9     | +2 damage bonus to free strikes                                            | +9            | -                                             | +1                                                |
+| 10    | Level 10 retainer advancement ability or level 10 role advancement ability | +9            | +1                                            | +1                                                |
+
+##### Ambusher Abilities {data-scc="mcdm.monsters.v1/monster.retainer.role-advancement/ambusher"}
+
+> **Level 4 Role Advancement Ability**
+
+> 🗡 **Go for the Jugular (Encounter)**
+>
+> | **Melee, Strike, Weapon** |     **Main action** |
+> |---------------------------|--------------------:|
+> | **📏 Melee 1**            | **🎯 One creature** |
+>
+> **Power Roll + highest characteristic:**
+>
+> - **≤11:** 5 damage; M < WEAK [bleeding](../condition/bleeding.md) ([save](../rule/general/saving-throw.md) ends)
+> - **12-16:** 9 damage; M < AVERAGE [bleeding](../condition/bleeding.md) ([save](../rule/general/saving-throw.md) ends)
+> - **17+:** 12 damage; M < STRONG [bleeding](../condition/bleeding.md) ([save](../rule/general/saving-throw.md) ends)
+>
+> **Effect:** If the target is [grabbed](../condition/grabbed.md) or the retainer had an edge on the power roll, the retainer gains 2 [surges](../rule/resource/surge.md).
+
+> **Level 7 Role Advancement Ability**
+
+> ⚔️ **Hamstring Slice (Encounter)**
+>
+> | **Melee, Ranged, Strike, Weapon** |     **Main Action** |
+> |-----------------------------------|--------------------:|
+> | **📏 Melee 1 or ranged 5**        | **🎯 One creature** |
+>
+> **Power Roll + highest characteristic:**
+>
+> - **≤11:** 7 damage; M < WEAK [slowed](../condition/slowed.md) (EoT)
+> - **12-16:** 10 damage; M < AVERAGE [slowed](../condition/slowed.md) ([save](../rule/general/saving-throw.md) ends)
+> - **17+:** 15 damage; M < STRONG [slowed](../condition/slowed.md) and the target can't used triggered actions ([save](../rule/general/saving-throw.md) ends)
+>
+> **Effect:** The retainer and their mentor can each move up to their speed.
+
+> **Level 10 Role Advancement Ability**
+
+> ⚔️ **Hold 'Em Down (Encounter)**
+>
+> | **Melee, Ranged, Strike, Weapon** |     **Main Action** |
+> |-----------------------------------|--------------------:|
+> | **📏 Melee 1 or ranged 5**        | **🎯 One creature** |
+>
+> **Power Roll + highest characteristic:**
+>
+> - **≤11:** 11 damage; a size 1 or smaller target who has M < WEAK is [grabbed](../condition/grabbed.md)
+> - **12-16:** 16 damage; a size 1 or smaller target who has M < AVERAGE is [grabbed](../condition/grabbed.md)
+> - **17+:** 21 damage; a size 1 or smaller target who has M < STRONG is [grabbed](../condition/grabbed.md)
+>
+> **Effect:** The retainer gains 2 [surges](../rule/resource/surge.md) when any creature makes a strike against a target [grabbed](../condition/grabbed.md) this way.
+
+##### Artillery Abilities {data-scc="mcdm.monsters.v1/monster.retainer.role-advancement/artillery"}
+
+> **Level 4 Role Advancement Ability**
+
+> ❗️ **Supporting Volley**
+>
+> | **Ranged, Weapon** |           **Triggered action** |
+> |--------------------|-------------------------------:|
+> | **📏 Ranged 5**    | **🎯 The triggering creature** |
+>
+> **Trigger:** The retainer's mentor makes a strike against a creature within distance.
+>
+> **Effect:** The retainer makes a ranged [free strike](../feature/common/main-actions/free-strike.md) against the target.
+
+> **Level 7 Role Advancement Ability**
+
+> 🔳 **Line 'Em Up (Encounter)**
+>
+> | **Area, Weapon**            |               **Main action** |
+> |-----------------------------|------------------------------:|
+> | **📏 10 x 1 line within 1** | **🎯 Each enemy in the area** |
+>
+> **Power Roll + highest characteristic:**
+>
+> - **≤11:** 7 damage; M < WEAK [prone](../condition/prone.md)
+> - **12-16:** 11 damage; M < AVERAGE [prone](../condition/prone.md)
+> - **17+:** 16 damage; M < STRONG [prone](../condition/prone.md)
+
+> **Level 10 Role Advancement Ability**
+
+> 🏹 **Ricochet Shot (Encounter)**
+>
+> | **Ranged, Strike, Weapon** | **Main action** |
+> | --- | ---:|
+> | **📏 Ranged 5** | **🎯 One creature or object** |
+>
+> **Power Roll + highest characteristic:**
+>
+> - **≤11:** 9 damage
+> - **12-16:** 14 damage
+> - **17+:** 19 damage
+>
+> **Effect:** The retainer can target a second creature or object within 5 squares of the original target and that has line of effect to the original target. The retainer doesn't need line of effect to the second target but must be aware of their location.
+
+##### Brute Abilities {data-scc="mcdm.monsters.v1/monster.retainer.role-advancement/brute"}
+
+> **Level 4 Role Advancement Ability**
+
+> 👤 **Big Windup**
+>
+> | **-**       | **Maneuver** |
+> |-------------|-------------:|
+> | **📏 Self** |  **🎯 Self** |
+>
+> **Effect:** Until the start of the retainer's next turn, strikes made against the retainer gain an edge. At the start of the retainer's next turn, they gain 2 [surges](../rule/resource/surge.md), and any ability they use before the end of their turn that [force moves](../movement/forced-movement.md) a creature can move that creature 2 additional squares.
+
+> **Level 7 Role Advancement Ability**
+
+> 🗡 **Overhand Swat (Encounter)**
+>
+> | **Melee, Strike, Weapon** |     **Main action** |
+> |---------------------------|--------------------:|
+> | **📏 Melee 1**            | **🎯 One creature** |
+>
+> **Power Roll + highest characteristic:**
+>
+> - **≤11:** 8 damage
+> - **12-16:** 13 damage; [push](../movement/forced-movement.md) 2
+> - **17+:** 16 damage; [push](../movement/forced-movement.md) 3; M < STRONG [prone](../condition/prone.md)
+>
+> **Effect:** If the target ends any [forced movement](../movement/forced-movement.md) from this ability in a square [adjacent](../rule/combat/adjacent.md) to the retainer's mentor, the mentor can make a melee [free strike](../feature/common/main-actions/free-strike.md) against them.
+
+> **Level 10 Role Advancement Ability**
+
+> ❇️ **Dizzying Sweep (Encounter)**
+>
+> | **Area, Weapon** |                  **Main action** |
+> |------------------|---------------------------------:|
+> | **📏 1 burst**   | **🎯 Each creature in the area** |
+>
+> **Power Roll + highest characteristic:**
+>
+> - **≤11:** 10 damage; [push](../movement/forced-movement.md) 1
+> - **12-16:** 14 damage; [push](../movement/forced-movement.md) 2
+> - **17+:** 20 damage; [push](../movement/forced-movement.md) 4
+>
+> **Effect:** The retainer is [dazed](../condition/dazed.md) until the end of their next turn.
+
+##### Controller Abilities {data-scc="mcdm.monsters.v1/monster.retainer.role-advancement/controller"}
+
+> **Level 4 Role Advancement Ability**
+
+> 🔳 **Elemental Blast (Encounter)**
+>
+> | **Area, Magic, Ranged** |                  **Main action** |
+> |-------------------------|---------------------------------:|
+> | **📏 3 cube within 10** | **🎯 Each creature in the area** |
+>
+> **Power Roll + highest characteristic:**
+>
+> - **≤11:** 4 damage; [push](../movement/forced-movement.md) 2
+> - **12-16:** 6 damage; [push](../movement/forced-movement.md) 3
+> - **17+:** 10 damage; [push](../movement/forced-movement.md) 5
+>
+> **Effect:** When the retainer uses this ability, they can choose for it to deal one of the following damage types: acid, cold, fire, lightning, poison, or sonic.
+
+> **Level 7 Role Advancement Ability**
+
+> 🔳 **Oil Slick (Encounter)**
+>
+> | **Area, Ranged, Weapon** |               **Main action** |
+> |--------------------------|------------------------------:|
+> | **📏 3 cube within 10**  | **🎯 Each enemy in the area** |
+>
+> **Power Roll + highest characteristic:**
+>
+> - **≤11:** 5 poison damage; M < WEAK [prone](../condition/prone.md)
+> - **12-16:** 8 poison damage; M < AVERAGE [prone](../condition/prone.md)
+> - **17+:** 11 poison damage; M < STRONG [prone](../condition/prone.md)
+>
+> **Effect:** The area is [difficult terrain](../movement/difficult-terrain.md) for enemies. Any enemy has fire weakness 5 while in the area, and any enemy who ends their turn in the area and has no movement remaining falls [prone](../condition/prone.md).
+
+> **Level 10 Role Advancement Ability**
+
+> 🏹 **Shattering Shards (Encounter)**
+>
+> | **Ranged, Strike, Weapon** |   **Main action** |
+> |----------------------------|------------------:|
+> | **📏 Ranged 10**           | **🎯 One Object** |
+>
+> **Special:** The target must be size 1M or smaller.
+>
+> **Power Roll + highest characteristic:**
+>
+> - **≤11:** 7 damage
+> - **12-16:** 11 damage
+> - **17+:** 16 damage
+>
+> **Effect:** The area within 2 squares of the target is [difficult terrain](../movement/difficult-terrain.md), and each enemy in the area takes the same damage the object took.
+
+##### Defender Abilities {data-scc="mcdm.monsters.v1/monster.retainer.role-advancement/defender"}
+
+> **Level 4 Role Advancement Ability**
+
+> ❗️ **Watch Out! (Encounter)**
+>
+> | **Melee**      |         **Triggered action** |
+> |----------------|-----------------------------:|
+> | **📏 Melee 1** | **🎯 The retainer's mentor** |
+>
+> **Trigger:** The target takes damage from a strike.
+>
+> **Effect:** The retainer [pushes](../movement/forced-movement.md) the target or the attacking creature up to 2 squares. If that moves the mentor out of distance of the strike, the strike has no effect.
+
+> **Level 7 Role Advancement Ability**
+
+> 🗡 **It's Me You Want! (Encounter)**
+>
+> | **Melee, Strike, Weapon** |      **Main action** |
+> |---------------------------|---------------------:|
+> | **📏 Melee 1**            | **🎯 Two creatures** |
+>
+> **Power Roll + highest characteristic:**
+>
+> - **≤11:** 7 damage; [taunted](../condition/taunted.md) (EoT)
+> - **12-16:** 11 damage; [taunted](../condition/taunted.md) ([save](../rule/general/saving-throw.md) ends)
+> - **17+:** 16 damage; [taunted](../condition/taunted.md) ([save](../rule/general/saving-throw.md) ends)
+
+> **Level 10 Role Advancement Ability**
+
+> 🗡 **Last Stand (Encounter)**
+>
+> | **Melee, Weapon** |  **Main action** |
+> |-------------------|-----------------:|
+> | **📏 Melee 1**    | **🎯 One enemy** |
+>
+> **Power Roll + highest characteristic:**
+>
+> - **≤11:** 8 damage
+> - **12-16:** 13 damage
+> - **17+:** 17 damage
+>
+> **Effect:** The retainer and their mentor each gain 10 [temporary Stamina](../rule/health/temporary-stamina.md). Additionally, each [winded](../rule/health/winded.md) ally within 2 squares of the retainer can spend a [Recovery](../rule/health/recoveries.md).
+
+##### Harrier Abilities {data-scc="mcdm.monsters.v1/monster.retainer.role-advancement/harrier"}
+
+> **Level 4 Role Advancement Ability**
+
+> 🗡 **Tackle (Encounter)**
+>
+> **Power Roll + highest characteristic:**
+>
+> | **Charge, Melee, Strike, Weapon** |  **Main action** |
+> |-----------------------------------|-----------------:|
+> | **📏 Melee 1**                    | **🎯 One enemy** |
+>
+> - **≤11:** 5 damage; [push](../movement/forced-movement.md) 1
+> - **12-16:** 9 damage; [push](../movement/forced-movement.md) 2
+> - **17+:** 12 damage; [push](../movement/forced-movement.md) 4
+
+> **Level 7 Role Advancement Ability**
+
+> 🗡 **Meet You There (Encounter)**
+>
+> | **Melee, Strike, Weapon** |     **Main action** |
+> |---------------------------|--------------------:|
+> | **📏 Melee 1**            | **🎯 One creature** |
+>
+> **Power Roll + highest characteristic:**
+>
+> - **≤11:** 7 damage
+> - **12-16:** 10 damage
+> - **17+:** 15 damage
+>
+> **Effect:** Before or after the strike, the retainer and their mentor can each [shift](../movement/shifting.md) up to their speed.
+
+> **Level 10 Role Advancement Ability**
+
+> ❇️ **Nab and Stab (Encounter)**
+>
+> | **Area, Weapon** |                  **Main action** |
+> |------------------|---------------------------------:|
+> | **📏 1 burst**   | **🎯 Each creature in the area** |
+>
+> **Power Roll + highest characteristic:**
+>
+> - **≤11:** 11 damage; one target who has M < WEAK is [grabbed](../condition/grabbed.md)
+> - **12-16:** 16 damage; one target who has M < AVERAGE is [grabbed](../condition/grabbed.md)
+> - **17+:** 21 damage; one target who has M < STRONG is [grabbed](../condition/grabbed.md)
+>
+> **Effect:** The retainer [shifts](../movement/shifting.md) up to 2 squares, and can move a creature [grabbed](../condition/grabbed.md) using this ability with them.
+
+##### Hexer Abilities {data-scc="mcdm.monsters.v1/monster.retainer.role-advancement/hexer"}
+
+> **Level 4 Role Advancement Ability**
+
+> 🏹 **Backfire Curse (Encounter)**
+>
+> | **Magic, Ranged, Strike** |  **Main action** |
+> |---------------------------|-----------------:|
+> | **📏 Ranged 10**          | **🎯 One enemy** |
+>
+> **Power Roll + highest characteristic:**
+>
+> - **≤11:** 2 corruption damage; the target is cursed (EoT)
+> - **12-16:** 5 corruption damage; the target is cursed (EoT)
+> - **17+:** 7 corruption damage; the target is cursed (EoT)
+>
+> **Effect:** While the target is cursed this way, whenever they make a strike that targets only one creature, the retainer can use a free triggered action to choose a second target for the strike within its distance.
+
+###### Level 7 Role Advancement Ability
+
+>
+> 🏹 **Take Root (Encounter)**
+>
+> | **Magic, Ranged, Strike** |     **Main action** |
+> |---------------------------|--------------------:|
+> | **📏 Ranged 10**          | **🎯 One creature** |
+>
+> **Power Roll + highest characteristic:**
+>
+> - **≤11:** 5 damage; M < WEAK [slowed](../condition/slowed.md) ([save](../rule/general/saving-throw.md) ends)
+> - **12-16:** 9 damage; M < AVERAGE [slowed](../condition/slowed.md) ([save](../rule/general/saving-throw.md) ends)
+> - **17+:** 12 damage; M < STRONG [slowed](../condition/slowed.md) ([save](../rule/general/saving-throw.md) ends)
+>
+> **Effect:** While the target is [slowed](../condition/slowed.md) this way, if they end their turn without moving on that turn, they are no longer [slowed](../condition/slowed.md) and are [restrained](../condition/restrained.md) ([save](../rule/general/saving-throw.md) ends).
+
+> **Level 10 Role Advancement Ability**
+
+> 🏹 **Mazed (Encounter)**
+>
+> | **Magic, Ranged, Strike** |     **Main action** |
+> |---------------------------|--------------------:|
+> | **📏 Ranged 10**          | **🎯 One creature** |
+>
+> **Power Roll + highest characteristic:**
+>
+> - **≤11:** 7 damage; if the target has M < WEAK they are mazed (save ends)
+> - **12-16:** 11 damage; if the target has M < AVERAGE they are mazed (save ends)
+> - **17+:** 16 damage; if the target has M < STRONG they are mazed (save ends)
+>
+> **Effect:** While mazed, the target is [dazed](../condition/dazed.md). Additionally, at the end of each of the mazed target's turns, the retainer can cause the target to move up to their speed in a straight line in a direction of the retainer's choice. This is not [forced movement](../movement/forced-movement.md), and the movement ends if it would cause the target to enter [difficult](../movement/difficult-terrain.md) or damaging terrain.
+
+##### Mount Abilities {data-scc="mcdm.monsters.v1/monster.retainer.role-advancement/mount"}
+
+> **Level 4 Role Advancement Ability**
+
+> 🗡 **Cavalry Charge (Encounter)**
+>
+> | **Charge, Melee, Strike, Weapon** |  **Main action** |
+> |-----------------------------------|-----------------:|
+> | **📏 Melee 1**                    | **🎯 One enemy** |
+>
+> **Power Roll + highest characteristic:**
+>
+> - **≤11:** 6 damage
+> - **12-16:** 8 damage
+> - **17+:** 11 damage
+>
+> **Effect:** If this ability is used as part of the [Charge](../feature/common/main-actions/charge.md) main action, the mount's rider can use a free triggered action to make a melee [free strike](../feature/common/main-actions/free-strike.md) against the same target.
+
+> **Level 7 Role Advancement Ability**
+
+> 👤 **Giddyup! (Encounter)**
+>
+> | **-**          | **Move action** |
+> |----------------|----------------:|
+> | **📏 Range 5** |     **🎯 Self** |
+>
+> **Effect:** The mount [shifts](../movement/shifting.md) twice their speed. They can jump as part of this movement.
+
+> **Level 10 Role Advancement Ability**
+
+> ❇️ **Rearing Trample (Encounter)**
+>
+> | **Area, Weapon** |               **Main action** |
+> |------------------|------------------------------:|
+> | **📏 1 burst**   | **🎯 Each enemy in the area** |
+>
+> **Power Roll + highest characteristic:**
+>
+> - **≤11:** 10 damage; M < WEAK [prone](../condition/prone.md)
+> - **12-16:** 15 damage; M < AVERAGE [prone](../condition/prone.md)
+> - **17+:** 21 damage; M < STRONG [prone](../condition/prone.md)
+>
+> **Effect:** A target knocked [prone](../condition/prone.md) this way or who is already [prone](../condition/prone.md) takes an extra 5 damage.
+
+##### Support Abilities {data-scc="mcdm.monsters.v1/monster.retainer.role-advancement/support"}
+
+> **Level 4 Role Advancement Ability**
+
+> 🗡 **Battlefield Medic**
+>
+> | **Melee**      |            **Maneuver** |
+> |----------------|------------------------:|
+> | **📏 Melee 1** | **🎯 Self or one ally** |
+>
+> **Effect:** The target spends a [Recovery](../rule/health/recoveries.md), and ability rolls against the target take a bane until the start of the retainer's next turn.
+
+> **Level 7 Role Advancement Ability**
+
+> 🏹 **Focus Fire (Encounter)**
+>
+> | **Ranged, Strike, Weapon** |     **Main action** |
+> |----------------------------|--------------------:|
+> | **📏 Ranged 5**            | **🎯 One creature** |
+>
+> **Power Roll + highest characteristic:**
+>
+> - **≤11:** 9 damage
+> - **12-16:** 13 damage
+> - **17+:** 18 damage
+>
+> **Effect:** One ally within distance gains 2 [surges](../rule/resource/surge.md).
+
+> **Level 10 Role Advancement Ability**
+
+> 🗡 **Back from the Dead (Encounter)**
+>
+> | **Melee**      | **Main action** |
+> |----------------|----------------:|
+> | **📏 Melee 1** | **🎯 One ally** |
+>
+> **Effect:** If the target is at or below 0 [Stamina](../rule/health/stamina.md), or if they have died due to [Stamina](../rule/health/stamina.md) loss since the end of the retainer's last turn, the target is alive with 1 [Stamina](../rule/health/stamina.md) and can spend a [Recovery](../rule/health/recoveries.md).
+
+#### Retainer Statblocks
+
+###### Angulotl Hopper {data-scc="mcdm.monsters.v1/monster.retainer.statblock/angulotl-hopper"}
+
+|    Angulotl, Humanoid    |              -               |      Level 1      |   Harrier Retainer    |         EV -         |
+|:------------------------:|:----------------------------:|:-----------------:|:---------------------:|:--------------------:|
+|      **1S**<br>Size      |        **6**<br>Speed        | **21**<br>Stamina |  **0**<br>Stability   | **2**<br>Free Strike |
+| **Poison 2**<br>Immunity | **Climb, swim **<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
+|     **+1**<br>Might      |      **+2**<br>Agility       |  **0**<br>Reason  |  **0**<br>Intuition   |  **0**<br>Presence   |
+
+> 🗡 **Leapfrog  (Signature Ability)**
+>
+> | **Melee, Strike, Weapon** |               **Main action** |
+> |---------------------------|------------------------------:|
+> | **📏 Melee 1**            | **🎯 One creature or object** |
+>
+> **Power Roll + highest characteristic:**
+>
+> - **≤11:** 3 damage
+> - **12-16:** 5 damage
+> - **17+:** 7 damage
+>
+> **Effect:** Before or after making this [strike](../rule/combat/strike.md), the hopper jumps up to 2 squares, or up to 4 squares if they jump over their mentor's space.
+
+> ⭐️ **Toxiferous**
+>
+> Whenever an [adjacent](../rule/combat/adjacent.md) enemy grabs the hopper or uses a melee ability against them, that enemy takes 3 poison damage.
+
+###### Angulotl Hopper Advancement Features {data-scc="mcdm.monsters.v1/monster.retainer.advancement-features/angulotl-hopper"}
+
+> **Level 4 Retainer Advancement Ability**
+
+> 🗡 **Leaping Attack (Encounter)**
+>
+> | **Melee, Strike, Weapon** |               **Main action** |
+> |---------------------------|------------------------------:|
+> | **📏 Melee 1**            | **🎯 One creature or object** |
+>
+> **Power Roll + highest characteristic:**
+>
+> - **≤11:** 5 damage; M < WEAK, [prone](../condition/prone.md)
+> - **12-16:** 9 damage; M < AVERAGE, [prone](../condition/prone.md)
+> - **17+:** 12 damage; M < STRONG, [prone](../condition/prone.md)
+>
+> **Effect:** The hopper can jump up to their speed in a straight line before the [strike](../rule/combat/strike.md) without provoking [opportunity attacks](../rule/combat/opportunity-attack.md). If they jump 2 or more squares this way, they gain 1 [surge](../rule/resource/surge.md).
+
+> **Level 7 Retainer Advancement Ability**
+
+> 🏹 **Three-Poison Dart (Encounter)**
+>
+> | **Ranged, Strike, Weapon** |     **Main action** |
+> |----------------------------|--------------------:|
+> | **📏 Ranged 5**            | **🎯 One creature** |
+>
+> **Power Roll + highest characteristic:**
+>
+> - **≤11:** 5 poison damage; M < WEAK, [weakened](../condition/weakened.md) ([save](../rule/general/saving-throw.md) ends)
+> - **12-16:** 9 poison damage; M < AVERAGE, [slowed](../condition/slowed.md) and [weakened](../condition/weakened.md) ([save](../rule/general/saving-throw.md) ends)
+> - **17+:** 12 poison damage; M < STRONG, [dazed](../condition/dazed.md), [slowed](../condition/slowed.md), and [weakened](../condition/weakened.md) ([save](../rule/general/saving-throw.md) ends)
+
+> **Level 10 Retainer Advancement Ability**
+
+> ❗️ **Trip of the Tongue (Encounter)**
+>
+> | **Melee**      |          **Triggered action** |
+> |----------------|------------------------------:|
+> | **📏 Melee 5** | **🎯 One creature or object** |
+>
+> **Trigger:** A creature moves within distance.
+>
+> **Effect:** If the target has M < AVERAGE, their movement ends, they are knocked [prone](../condition/prone.md), and one ally within distance gains 2 [surges](../rule/resource/surge.md).
+
+###### Bugbear Commando {data-scc="mcdm.monsters.v1/monster.retainer.statblock/bugbear-commando"}
+
+| Bugbear, Fey, Goblin, Humanoid |         -         |      Level 2      |   Ambusher Retainer   |         EV -         |
+|:------------------------------:|:-----------------:|:-----------------:|:---------------------:|:--------------------:|
+|         **1L**<br>Size         |  **5**<br>Speed   | **30**<br>Stamina |  **0**<br>Stability   | **2**<br>Free Strike |
+|       **-**<br>Immunity        | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
+|        **+2**<br>Might         | **+2**<br>Agility |  **0**<br>Reason  |  **+1**<br>Intuition  |  **0**<br>Presence   |
+
+> 🗡 **Bear Hug (Signature Ability)**
+>
+> | **Melee, Strike, Weapon** |               **Main action** |
+> |---------------------------|------------------------------:|
+> | **📏 Melee 1**            | **🎯 One creature or object** |
+>
+> **Power Roll + highest characteristic:**
+>
+> - **≤11:** 5 damage
+> - **12-16:** 6 damage
+> - **17+:** 11 damage
+>
+> **Effect:** If the commando started their turn with concealment from the target or hidden from them, they gain 1 [surge](../rule/resource/surge.md) that can be used immediately.
+
+> 🗡 **Throw**
+>
+> | **Melee, Strike** |                  **Maneuver** |
+> |-------------------|------------------------------:|
+> | **📏 Melee 1**    | **🎯 One creature or object** |
+>
+> **Special:** The target must be [grabbed](../condition/grabbed.md) by the commando.
+>
+> **Effect:** The target is vertical pushed up to 5 squares. An ally doesn't take damage from being [force moved](../movement/forced-movement.md) this way.
+
+> ❗️ **Catcher**
+>
+> | **Melee**      |                **Free triggered action** |
+> |----------------|-----------------------------------------:|
+> | **📏 Melee 1** | **🎯 The triggering creature or object** |
+>
+> **Trigger:** A size 1 creature or object is [force moved](../movement/forced-movement.md) within distance, or a size 1 ally willingly moves within distance.
+>
+> **Effect:** The target is [grabbed](../condition/grabbed.md) by the commando.
+
+###### Bugbear Commando Advancement Features {data-scc="mcdm.monsters.v1/monster.retainer.advancement-features/bugbear-commando"}
+
+> **Level 4 Retainer Advancement Ability**
+
+> 🗡 **Face Grab (Encounter)**
+>
+> | **Melee, Strike, Weapon** |     **Main action** |
+> |---------------------------|--------------------:|
+> | **📏 Melee 1**            | **🎯 One creature** |
+>
+> **Power Roll + highest characteristic:**
+>
+> - **≤11:** 6 damage; M < WEAK [grabbed](../condition/grabbed.md)
+> - **12-16:** 9 damage; M < AVERAGE [grabbed](../condition/grabbed.md)
+> - **17+:** 13 damage; M < STRONG [grabbed](../condition/grabbed.md)
+>
+> **Effect:** While the target is [grabbed](../condition/grabbed.md) this way, they can't communicate and all creatures and objects have concealment from them.
+
+> **Level 7 Retainer Advancement Ability**
+
+> 🏹 **Shadow Drag (Encounter)**
+>
+>
+> | **Magic, Ranged, Strike** |               **Main action** |
+> |---------------------------|------------------------------:|
+> | **📏 Ranged 10**          | **🎯 One creature or object** |
+>
+> **Power Roll + highest characteristic:**
+>
+> - **≤11:** Pull 8
+> - **12-16:** Pull 10
+> - **17+:** Pull 12
+>
+> **Effect:** The target takes 1 damage for each square they are [pulled](../movement/forced-movement.md).
+
+> **Level 10 Retainer Advancement Ability**
+
+> 🗡 **Neck Snap (Encounter)**
+>
+> | **Melee**      |                             **Main action** |
+> |----------------|--------------------------------------------:|
+> | **📏 Melee 1** | **🎯 One creature grabbed by the commando** |
+>
+> **Power Roll + highest characteristic:**
+>
+> - **≤11:** 12 damage
+> - **12-16:** 18 damage
+> - **17+:** 24 damage
+>
+> **Effect:** The target takes 15 damage, they are no longer [grabbed](../condition/grabbed.md), and they fall [prone](../condition/prone.md).
+
+###### Devil Defector {data-scc="mcdm.monsters.v1/monster.retainer.statblock/devil-defector"}
+
+|    Devil, Infernal     |          -          |      Level 5      |    Hexer Retainer     |         EV -         |
+|:----------------------:|:-------------------:|:-----------------:|:---------------------:|:--------------------:|
+|     **1M**<br>Size     |   **6**<br>Speed    | **57**<br>Stamina |  **0**<br>Stability   | **5**<br>Free Strike |
+| **Fire 5**<br>Immunity | **Fly**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
+|    **+3**<br>Might     |  **+2**<br>Agility  | **+3**<br>Reason  |  **+1**<br>Intuition  |  **+2**<br>Presence  |
+
+> 🏹 **Black Flame (Signature Ability)**
+>
+> | **Magic, Ranged, Strike** |               **Main action** |
+> |---------------------------|------------------------------:|
+> | **📏 Ranged 10**          | **🎯 One creature or object** |
+>
+> **Power Roll + highest characteristic:**
+>
+> - **≤11:** 6 corruption or fire damage
+> - **12-16:** 10 corruption or fire damage
+> - **17+:** 13 corruption or fire damage
+
+> ❗️ **Tempting Offer (Encounter)**
+>
+> | **Ranged, Strike** |      **Free triggered action** |
+> |--------------------|-------------------------------:|
+> | **📏 Ranged 10**   | **🎯 The triggering creature** |
+>
+> **Trigger:** A sapient enemy is reduced to 0 [Stamina](../rule/health/stamina.md).
+>
+> **Effect:** The defector makes an offer to keep the target alive. If the target accepts, they are reduced to 1 [Stamina](../rule/health/stamina.md) instead. On the target's next turn, the defector controls their move action and the target must use a [signature ability](../rule/combat/signature-ability.md) against a creature of the defector's choice or immediately die. To have the target turn down the offer, the Diretor must spend 3 [Malice](../rule/monster/malice.md).
+
+> ⭐️ **True Name**
+>
+> If a creature within 10 squares speaks the defector's true name, the defector loses their damage immunities and their Tempting Offer triggered action until the end of the encounter.
+
+###### Devil Defector Advancement Features {data-scc="mcdm.monsters.v1/monster.retainer.advancement-features/devil-defector"}
+
+> **Level 7 Retainer Advancement Ability**
+
+> 🔳 **Flames of Revenge (Encounter)**
+>
+> | **Area, Magic, Ranged** |               **Main action** |
+> |-------------------------|------------------------------:|
+> | **📏 3 cube within 10** | **🎯 Each enemy in the area** |
+>
+> **Power Roll + highest characteristic:**
+>
+> - **≤11:** 6 corruption damage
+> - **12-16:** 10 corruption damage
+> - **17+:** 14 corruption damage
+>
+> **Effect:** If the defector's mentor is in the area, the mentor burns with flame until the end of the defector's next turn. While this fire burns the mentor has fire immunity 10, and any creature who targets the mentor with a strike takes 10 fire damage.
+
+> **Level 10 Retainer Advancement Ability**
+
+> 🔳 **Hell On Earth (Encounter)**
+>
+> | **Area, Magic, Ranged** | **Main action** |
+> |-------------------------|----------------:|
+> | **📏 5 cube within 10** |  **🎯 Special** |
+>
+> **Effect:** The area burns with infernal fire until the end of the devil's next turn. Any enemy of the defector who ends their turn in the area takes 10 fire damage, and if they have P < AVERAGE they are [frightened](../condition/frightened.md) ([save](../rule/general/saving-throw.md) ends).
+
+###### The Nameless {data-scc="mcdm.monsters.v1/monster.retainer.statblock/the-nameless"}
+
+| Draconian, Dragon, Humanoid  |          -          |      Level 6      |   Defender Retainer   |         EV -         |
+|:----------------------------:|:-------------------:|:-----------------:|:---------------------:|:--------------------:|
+|        **1M**<br>Size        |   **5**<br>Speed    | **66**<br>Stamina |  **4**<br>Stability   | **6**<br>Free Strike |
+| **Corruption 6**<br>Immunity | **Fly**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
+|       **+3**<br>Might        |  **+2**<br>Agility  | **+1**<br>Reason  |  **+1**<br>Intuition  |  **+2**<br>Presence  |
+
+> 🗡 **Baneful Blade  (Signature Ability)**
+>
+> | **Charge, Melee, Strike, Weapon** |               **Main action** |
+> |-----------------------------------|------------------------------:|
+> | **📏 Melee 1**                    | **🎯 One creature or object** |
+>
+> **Power Roll + highest characteristic:**
+>
+> - **≤11:** 6 damage
+> - **12-16:** 11 damage
+> - **17+:** 14 damage; [push](../movement/forced-movement.md) 2
+
+> 🗡 **I'm Not a Steed, You're Equipment (Encounter)**
+>
+> | **Melee**      |              **Main action** |
+> |----------------|-----------------------------:|
+> | **📏 Melee 1** | **🎯 The Nameless's mentor** |
+>
+> **Effect:** The Nameless's mentor enters the Nameless's space and rides on their back. The Nameless or the mentor can move the mentor to an [adjacent](../rule/combat/adjacent.md) space as a free maneuver. While in the Nameless's space, the mentor moves with them and can't use their move action, and ability rolls against the mentor take a bane.
+
+> ⭐️ **Wing Block**
+>
+> Ranged strikes against the Nameless take a bane.
+
+###### The Nameless Advancement Features {data-scc="mcdm.monsters.v1/monster.retainer.advancement-features/the-nameless"}
+
+> **Level 7 Retainer Advancement Ability**
+
+> ❇️ **Looming Wings (Encounter)**
+>
+> | **Area, Weapon** |               **Main action** |
+> |------------------|------------------------------:|
+> | **📏 1 burst**   | **🎯 Each enemy in the area** |
+>
+> **Power Roll + highest characteristic:**
+>
+> - **≤11:** 5 corruption damage; I < WEAK [weakened](../condition/weakened.md) ([save](../rule/general/saving-throw.md) ends)
+> - **12-16:** 9 corruption damage; I < AVERAGE [weakened](../condition/weakened.md) ([save](../rule/general/saving-throw.md) ends)
+> - **17+:** 12 corruption damage; I < STRONG [weakened](../condition/weakened.md) ([save](../rule/general/saving-throw.md) ends)
+>
+> **Effect:** If the Nameless's mentor is in the area, ability rolls against the mentor have a double bane until the start of their next turn.
+
+> **Level 10 Retainer Advancement Ability**
+
+> ❇️ **Spew Death (Encounter)**
+>
+> | **Area, Magic** |               **Main action** |
+> |-----------------|------------------------------:|
+> | **📏 5 burst**  | **🎯 Each enemy in the area** |
+>
+> **Power Roll + highest characteristic:**
+>
+> **Special:** The Nameless must be [winded](../rule/health/winded.md) to use this ability.
+>
+> - **≤11:** 11 corruption damage
+> - **12-16:** 16 corruption damage
+> - **17+:** 21 corruption damage
+>
+> **Effect:** Any living [minions](../rule/organization/minion.md) reduced to 0 [Stamina](../rule/health/stamina.md) by this ability regain all their [Stamina](../rule/health/stamina.md) and become corporeal [undead](../rule/keyword/undead.md) under the Nameless's control until the end of the Nameless's next turn, after which they are destroyed.
+
+###### Dwarf Mortar {data-scc="mcdm.monsters.v1/monster.retainer.statblock/dwarf-mortar"}
+
+|  Dwarf, Humanoid  |         -         |      Level 1      |    Hexer Retainer     |         EV -         |
+|:-----------------:|:-----------------:|:-----------------:|:---------------------:|:--------------------:|
+|  **1M**<br>Size   |  **5**<br>Speed   | **21**<br>Stamina |  **3**<br>Stability   | **3**<br>Free Strike |
+| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
+|  **+2**<br>Might  | **0**<br>Agility  |  **0**<br>Reason  |  **+1**<br>Intuition  |  **0**<br>Presence   |
+
+> 🏹 **Armor-Piercing Shell (Signature Ability)**
+>
+> | **Ranged, Strike, Weapon** |               **Main action** |
+> |----------------------------|------------------------------:|
+> | **📏 Ranged 15**           | **🎯 One creature or object** |
+>
+> **Power Roll + highest characteristic:**
+>
+> - **≤11:** 3 damage
+> - **12-16:** 5 damage
+> - **17+:** 7 damage
+>
+> **Effect:** This ability ignores [cover](../rule/combat/cover.md) and bypasses [temporary Stamina](../rule/health/temporary-stamina.md).
+
+> ⭐️ **Voice Rune**
+>
+> The mortar can use a magical rune inscribed on their skin to talk to their mentor over any distance as long as both are in the same world.
+
+###### Dwarf Mortar Advancement Features {data-scc="mcdm.monsters.v1/monster.retainer.advancement-features/dwarf-mortar"}
+
+> **Level 4 Retainer Advancement Ability**
+
+> 🔳 **Signal Shell (Encounter)**
+>
+> | **Area, Ranged, Weapon**  |               **Main action** |
+> |---------------------------|------------------------------:|
+> | **📏 Special; see below** | **🎯 Each enemy in the area** |
+>
+> **Effect:** The mortar fires a shell straight upward, which hovers 3 squares up in the air and sheds light below it in a 3 cube. Enemies illuminated by this light can't [hide](../feature/common/maneuvers/hide.md) or turn invisible and can't benefit from concealment or cover. At the start of the mortar's next turn, the shell explodes to deal damage to enemies in the area.
+>
+> **Power Roll + highest characteristic:**
+>
+> - **≤11:** 5 fire damage
+> - **12-16:** 8 fire damage
+> - **17+:** 11 fire damage
+
+> **Level 10 Retainer Advancement Ability**
+
+> 🔳 **Pacifier Shell (Encounter)**
+>
+> | **Area, Ranged, Weapon** |               **Main action** |
+> |--------------------------|------------------------------:|
+> | **📏 3 cube within 15**  | **🎯 Each enemy in the area** |
+>
+> **Power Roll + highest characteristic:**
+>
+> - **≤11:** 8 damage; I < WEAK [dazed](../condition/dazed.md) ([save](../rule/general/saving-throw.md) ends
+> - **12-16:** 12 damage; I < AVERAGE [dazed](../condition/dazed.md) ([save](../rule/general/saving-throw.md) ends)
+> - **17+:** 16 damage; I < STRONG [dazed](../condition/dazed.md) ([save](../rule/general/saving-throw.md) ends) and [prone](../condition/prone.md)
+
+> **Level 7 Retainer Advancement Ability**
+
+> 🔳 **Screaming Shell (Encounter)**
+>
+> | **Area, Weapon**            |               **Main action** |
+> |-----------------------------|------------------------------:|
+> | **📏 10 x 1 line within 1** | **🎯 Each enemy in the area** |
+>
+> **Power Roll + highest characteristic:**
+>
+> - **≤11:** 6 damage; P < WEAK [frightened](../condition/frightened.md)
+> - **12-16:** 9 damage; P < AVERAGE [frightened](../condition/frightened.md)
+> - **17+:** 13 damage; P < STRONG [frightened](../condition/frightened.md)
+>
+> **Effect:** Until the start of the mortar's next turn, [strikes](../rule/combat/strike.md) made against the mortar or any ally [adjacent](../rule/combat/adjacent.md) to them take a bane.
+
+###### High Elf Weatherwise {data-scc="mcdm.monsters.v1/monster.retainer.statblock/high-elf-weatherwise"}
+
+| Fey, High Elf, Humanoid |         -         |     Level 1      |  Controller Retainer  |         EV -         |
+|:-----------------------:|:-----------------:|:----------------:|:---------------------:|:--------------------:|
+|     **1M**<br>Size      |  **5**<br>Speed   | **21**<br>Stamina |  **0**<br>Stability   | **2**<br>Free Strike |
+|    **-**<br>Immunity    | **-**<br>Movement |        -         | **-**<br>With Captain |  **-**<br>Weakness   |
+|     **-1**<br>Might     | **+1**<br>Agility | **+2**<br>Reason |  **0**<br>Intuition   |  **+1**<br>Presence  |
+
+> 🏹 **Summer's Bolt (Signature Ability)**
+>
+> | **Magic, Ranged, Strike** |               **Main action** |
+> |---------------------------|------------------------------:|
+> | **📏 Ranged 10**          | **🎯 One creature or object** |
+>
+> **Power Roll + highest characteristic:**
+>
+> - **≤11:** 3 fire damage
+> - **12-16:** 5 fire damage
+> - **17+:** 7 fire damage
+>
+> **Effect:** If the weatherwise targets their mentor, the mentor ignores the damage and instead gains [temporary Stamina](../rule/health/temporary-stamina.md) equal to the damage dealt.
+
+> ⭐️ **Otherworldly Grace**
+>
+> At the start of each of their turns, the weatherwise can choose one effect on them that can be ended by a [saving throw](../rule/general/saving-throw.md). That effect instead ends at the end of their turn.
+
+###### High Elf Weatherwise Advancement Features {data-scc="mcdm.monsters.v1/monster.retainer.advancement-features/high-elf-weatherwise"}
+
+> **Level 4 Retainer Advancement Ability**
+
+> 🔳 **Winter's Breath (Encounter)**
+>
+> | **Area, Magic**        |               **Main action** |
+> |------------------------|------------------------------:|
+> | **📏 3 cube within 1** | **🎯 Each enemy in the area** |
+>
+> **Power Roll + highest characteristic:**
+>
+> - **≤11:** 3 cold damage; [push](../movement/forced-movement.md) 2
+> - **12-16:** 5 cold damage; [push](../movement/forced-movement.md) 3
+> - **17+:** 8 cold damage; [push](../movement/forced-movement.md) 5
+>
+> **Effect:** The weatherwise can [teleport](../movement/teleport.md) up to 5 squares before or after using this ability.
+
+> **Level 7 Retainer Advancement Ability**
+
+> ❇️ **Spring's Rebirth (Encounter)**
+>
+> | **Area, Magic** |              **Main action** |
+> |-----------------|-----------------------------:|
+> | **📏 3 burst**  | **🎯 Each ally in the area** |
+>
+> **Effect:** Each target can spend a [Recovery](../rule/health/recoveries.md), and can choose one effect on them that can be ended by a [saving throw](../rule/general/saving-throw.md). That effect instead ends at the end of their turn.
+
+> **Level 10 Retainer Advancement Ability**
+
+> 🔳 **Autumn's Decay (Encounter)**
+>
+> | **Area, Magic**        |               **Main action** |
+> |------------------------|------------------------------:|
+> | **📏 3 cube within 1** | **🎯 Each enemy in the area** |
+>
+> **Power Roll + highest characteristic:**
+>
+> - **≤11:** 6 corruption damage; P < WEAK [prone](../condition/prone.md) and can't stand ([save](../rule/general/saving-throw.md) ends)
+> - **12-16:** 10 corruption damage; P < AVERAGE [prone](../condition/prone.md) and can't stand ([save](../rule/general/saving-throw.md) ends)
+> - **17+:** 14 corruption damage; P < STRONG [prone](../condition/prone.md) and can't stand ([save](../rule/general/saving-throw.md) ends)
+
+###### Shadow Elf Shade {data-scc="mcdm.monsters.v1/monster.retainer.statblock/shadow-elf-shade"}
+
+| Fey, Humanoid, Shadow Elf |           -           |      Level 4      |   Ambusher Retainer   |         EV -         |
+|:-------------------------:|:---------------------:|:-----------------:|:---------------------:|:--------------------:|
+|      **1M**<br>Size       |    **5**<br>Speed     | **48**<br>Stamina |  **0**<br>Stability   | **5**<br>Free Strike |
+|     **-**<br>Immunity     | **Climb**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
+|      **+1**<br>Might      |   **+3**<br>Agility   |  **0**<br>Reason  |  **+2**<br>Intuition  |  **+1**<br>Presence  |
+
+> ⚔️ **Gloom Dagger (Signature Ability)**
+>
+> | **Melee, Ranged, Strike, Weapon** |               **Main action** |
+> |-----------------------------------|------------------------------:|
+> | **📏 Melee 1 or ranged 3**        | **🎯 One creature or object** |
+>
+> **Power Roll + highest characteristic:**
+>
+> - **≤11:** 6 damage
+> - **12-16:** 10 damage
+> - **17+:** 13 damage
+>
+> **Effect:** Whenever the shade starts their turn with concealment from the target, they gain 1 [surge](../rule/resource/surge.md).
+
+> 🔳 **Duskfall (Encounter)**
+>
+> | **Area, Magic**        |   **Maneuver** |
+> |------------------------|---------------:|
+> | **📏 3 cube within 1** | **🎯 Special** |
+>
+> **Effect:** Until the end of the next turn, the area is filled with darkness. The shade's mentor ignores concealment created by this darkness.
+
+> ⭐️ **Of the Umbra**
+>
+> The shade ignores concealment created by darkness. While the shade is in direct sunlight, they have [damage weakness](../rule/damage/damage-weakness.md) 3. While the shade has concealment, they have [damage immunity](../rule/damage/damage-immunity.md) 3.
+
+###### Shadow Elf Shade Advancement Features {data-scc="mcdm.monsters.v1/monster.retainer.advancement-features/shadow-elf-shade"}
+
+> **Level 7 Retainer Advancement Ability**
+
+> 🏹 **Slow-Poison Needle (Encounter)**
+>
+> | **Ranged, Strike, Weapon** |     **Main action** |
+> |----------------------------|--------------------:|
+> | **📏 Ranged 5**            | **🎯 One creature** |
+>
+> **Power Roll + highest characteristic:**
+>
+> - **≤11:** 8 poison damage; [weakened](../condition/weakened.md) ([save](../rule/general/saving-throw.md) ends)
+> - **12-16:** 12 poison damage; [weakened](../condition/weakened.md) ([save](../rule/general/saving-throw.md) ends)
+> - **17+:** 16 poison damage; [weakened](../condition/weakened.md) ([save](../rule/general/saving-throw.md) ends)
+>
+> **Effect:** The slow-poison needle is initially painless, with the damage and effect delayed until the start of the target's next turn. If the shade is hidden, using this ability doesn't cause them to be revealed.
+
+> **Level 10 Retainer Advancement Ability**
+
+> 🗡 **Shadow Dagger (Encounter)**
+>
+> | **Melee, Strike, Weapon** |     **Main action** |
+> |---------------------------|--------------------:|
+> | **📏 Melee 1**            | **🎯 One creature** |
+>
+> **Power Roll + highest characteristic:**
+>
+> - **≤11:** 12 poison damage; the target has shadowed vision (save ends)
+> - **12-16:** 17 poison damage; the target has shadowed vision (save ends)
+> - **17+:** 23 poison damage; the target has shadowed vision (save ends)
+>
+> **Effect:** While a creature has shadowed vision, all creatures have concealment from them.
+
+###### Wode Elf Arrowswift {data-scc="mcdm.monsters.v1/monster.retainer.statblock/wode-elf-arrowswift"}
+
+| Fey, Humanoid, Wode Elf |         -         |      Level 1      |  Artillery Retainer   |         EV -         |
+|:-----------------------:|:-----------------:|:-----------------:|:---------------------:|:--------------------:|
+|     **1M**<br>Size      |  **7**<br>Speed   | **21**<br>Stamina |  **1**<br>Stability   | **2**<br>Free Strike |
+|    **-**<br>Immunity    | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
+|     **0**<br>Might      | **+2**<br>Agility |  **0**<br>Reason  |  **+1**<br>Intuition  |  **0**<br>Presence   |
+
+> 🏹 **Longshot (Signature Ability)**
+>
+> | **Ranged, Strike, Weapon** |               **Main action** |
+> |----------------------------|------------------------------:|
+> | **📏 Ranged 15**           | **🎯 One creature or object** |
+>
+> **Power Roll + highest characteristic:**
+>
+> - **≤11:** 4 damage
+> - **12-16:** 7 damage
+> - **17+:** 10 damage
+>
+> **Effect:** The arrowswift can take a bane on this ability to gain a +5 bonus to ranged distance.
+
+> ⭐️ **Masking Glamor**
+>
+> Abilities targeting the arrowswift that would take a bane from cover or concealment have a double bane instead.
+
+###### Wode Elf Arrowswift Advancement Features {data-scc="mcdm.monsters.v1/monster.retainer.advancement-features/wode-elf-arrowswift"}
+
+> **Level 4 Retainer Advancement Ability**
+
+> 🏹 **Snipe (Encounter)**
+>
+> | **Ranged, Strike, Weapon** |     **Main action** |
+> |----------------------------|--------------------:|
+> | **📏 Ranged 15**           | **🎯 One creature** |
+>
+> **Power Roll + highest characteristic:**
+>
+> - **≤11:** 7 damage
+> - **12-16:** 11 damage
+> - **17+:** 16 damage
+>
+> **Effect:** If the arrowswift is hidden when they use this ability, they gain 2 [surges](../rule/resource/surge.md) that can be used immediately.
+
+> **Level 7 Retainer Advancement Ability**
+
+> 👤 **Magic Arrows (Encounter)**
+>
+> | **-**       | **Maneuver** |
+> |-------------|-------------:|
+> | **📏 Self** |  **🎯 Self** |
+>
+> **Effect:** Until the end of the encounter, whenever the arrowswift makes a ranged [strike](../rule/combat/strike.md), the [strike](../rule/combat/strike.md) gains an edge and the arrowswift gains 1 [surge](../rule/resource/surge.md) that must be used immediately. While the arrowswift's mentor is [adjacent](../rule/combat/adjacent.md) to them, the mentor also gains this benefit.
+
+> **Level 10 Retainer Advancement Ability**
+
+> 🏹 **Double Shot (Encounter)**
+>
+> | **Ranged, Strike, Weapon** |                 **Main action** |
+> |----------------------------|--------------------------------:|
+> | **📏 Ranged 15**           | **🎯 Two creatures or objects** |
+>
+> **Power Roll + highest characteristic:**
+>
+> - **≤11:** 12 damage
+> - **12-16:** 17 damage
+> - **17+:** 23 damage
+
+###### Gnoll Gnasher {data-scc="mcdm.monsters.v1/monster.retainer.statblock/gnoll-gnasher"}
+
+|  Abyssal, Gnoll   |         -         |      Level 2      |   Harrier Retainer    |        EV 60         |
+|:-----------------:|:-----------------:|:-----------------:|:---------------------:|:--------------------:|
+|  **1M**<br>Size   |  **7**<br>Speed   | **30**<br>Stamina |  **1**<br>Stability   | **3**<br>Free Strike |
+| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
+|  **+1**<br>Might  | **+2**<br>Agility |  **0**<br>Reason  |  **0**<br>Intuition   |  **+1**<br>Presence  |
+
+> 🗡 **Gnash  (Signature Ability)**
+>
+> | **Melee, Strike, Weapon** |               **Main action** |
+> |---------------------------|------------------------------:|
+> | **📏 Melee 1**            | **🎯 One creature or object** |
+>
+> **Power Roll + highest characteristic:**
+>
+> - **≤11:** 4 damage
+> - **12-16:** 7 damage
+> - **17+:** 10 damage; M < STRONG [bleeding](../condition/bleeding.md) ([save](../rule/general/saving-throw.md) ends)
+
+> ⭐️ **Death Frenzy**
+>
+> Whenever a non-[minion](../rule/organization/minion.md) ally within 7 squares of the gnasher is reduced to 0 [Stamina](../rule/health/stamina.md), the gnasher moves up to their speed and can make a melee [free strike](../feature/common/main-actions/free-strike.md).
+
+###### Gnoll Gnasher Advancement Features {data-scc="mcdm.monsters.v1/monster.retainer.advancement-features/gnoll-gnasher"}
+
+> **Level 4 Retainer Advancement Ability**
+
+> ❗️ **Frenzied Bite (Encounter)**
+>
+> | **-**       | **Triggered action** |
+> |-------------|---------------------:|
+> | **📏 Self** |          **🎯 Self** |
+>
+> **Trigger:** An enemy within 5 squares is reduced to 0 [Stamina](../rule/health/stamina.md).
+>
+> **Effect:** The gnasher moves up to their speed and can use their [signature ability](../rule/combat/signature-ability.md).
+
+> **Level 7 Retainer Advancement Ability**
+
+> 🗡 **Flurry of Fangs (Encounter)**
+>
+> | **Melee, Strike, Weapon** |                   **Main action** |
+> |---------------------------|----------------------------------:|
+> | **📏 Melee 1**            | **🎯 Three creatures or objects** |
+>
+> **Power Roll + highest characteristic:**
+>
+> - **≤11:** 7 damage
+> - **12-16:** 11 damage
+> - **17+:** 16 damage
+
+> **Level 10 Retainer Advancement Ability**
+
+> 👤 **Horrific Feas (Encounter)**
+>
+> | **-**       | **Main action** |
+> |-------------|----------------:|
+> | **📏 Self** |     **🎯 Self** |
+>
+> **Trigger:** The gnasher reduces a creature to 0 [Stamina](../rule/health/stamina.md).
+>
+> **Effect:** The gnasher consumes part of the target's body. The gnasher can spend a [Recovery](../rule/health/recoveries.md), and each enemy within 5 squares of the gnasher who has I < AVERAGE is [frightened](../condition/frightened.md) ([save](../rule/general/saving-throw.md) ends).
+
+###### Goblin Guide {data-scc="mcdm.monsters.v1/monster.retainer.statblock/goblin-guide"}
+
+| Goblin, Humanoid  |           -           |      Level 1      |   Harrier Retainer    |         EV -         |
+|:-----------------:|:---------------------:|:-----------------:|:---------------------:|:--------------------:|
+|  **1S**<br>Size   |    **5**<br>Speed     | **21**<br>Stamina |  **0**<br>Stability   | **2**<br>Free Strike |
+| **-**<br>Immunity | **Climb**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
+|  **-1**<br>Might  |   **+1**<br>Agility   |  **0**<br>Reason  |  **0**<br>Intuition   |  **+1**<br>Presence  |
+
+> 🗡 **Stabbity Stab (Signature Ability)**
+>
+> | **Melee, Strike, Weapon** |               **Main action** |
+> |---------------------------|------------------------------:|
+> | **📏 Melee 1**            | **🎯 One creature or object** |
+>
+> **Power Roll + highest characteristic:**
+>
+> - **≤11:** 3 damage
+> - **12-16:** 5 damage
+> - **17+:** 7 damage
+>
+> **Effect:** The target can't make opportunity attacks until the end of the guide's turn.
+
+> ⭐️ **Crafty**
+>
+> The guide doesn't provoke opportunity attacks by moving.
+
+###### Goblin Guide Advancement Features {data-scc="mcdm.monsters.v1/monster.retainer.advancement-features/goblin-guide"}
+
+> **Level 4 Retainer Advancement Ability**
+
+> 🗡 **Weaving Knives (Encounter)**
+>
+> | **Melee, Strike, Weapon** |               **Main action** |
+> |---------------------------|------------------------------:|
+> | **📏 Melee 1**            | **🎯 One creature or object** |
+>
+> **Power Roll + highest characteristic:**
+>
+> - **≤11:** 5 damage
+> - **12-16:** 9 damage
+> - **17+:** 12 damage
+>
+> **Effect:** The guide [shifts](../movement/shifting.md) up to their speed before and after the [strike](../rule/combat/strike.md).
+
+> **Level 7 Retainer Advancement Ability**
+
+> 🗡 **Sneak and Stab (Encounter)**
+>
+> | **Melee, Strike, Weapon** |     **Main action** |
+> |---------------------------|--------------------:|
+> | **📏 Melee 1**            | **🎯 One creature** |
+>
+> **Power Roll + highest characteristic:**
+>
+> - **≤11:** 8 damage
+> - **12-16:** 12 damage; the guide and their mentor can each move up to their speed
+> - **17+:** 16 damage; the guide and their mentor can each move up to their speed, then attempt to [hide](../feature/common/maneuvers/hide.md)
+>
+> **Effect:** If the guide is hidden from the target, this ability has a double edge.
+
+> **Level 10 Retainer Advancement Ability**
+
+> 🌀 **Poison Blade (Encounter)**
+>
+> | **-**          | **Main action** |
+> |----------------|----------------:|
+> | **📏 Special** |  **🎯 Special** |
+>
+> **Effect:** The guide applies poison to their weapon. The next time the guide obtains a tier 2 or tier 3 outcome on a weapon [strike](../rule/combat/strike.md), the [strike](../rule/combat/strike.md) deals an extra 10 poison damage, and if the target has M < AVERAGE, they are [weakened](../condition/weakened.md) ([save](../rule/general/saving-throw.md) ends). If the guide is [adjacent](../rule/combat/adjacent.md) to their mentor when they use Poison Blade, they apply poison to the mentor's weapon in the same way.
+
+###### Hobgoblin Flameslinger {data-scc="mcdm.monsters.v1/monster.retainer.statblock/hobgoblin-flameslinger"}
+
+| Goblin, Hobgoblin, Humanoid, Infernal |         -          |      Level 4      |  Controller Retainer  |         EV -         |
+|:-------------------------------------:|:------------------:|:-----------------:|:---------------------:|:--------------------:|
+|            **1M**<br>Size             |   **5**<br>Speed   | **48**<br>Stamina |  **0**<br>Stability   | **5**<br>Free Strike |
+|            **1M**<br>Size             |   **5**<br>Speed   | **48**<br>Stamina |  **0**<br>Stability   | **5**<br>Free Strike |
+|        **Fire 4**<br>Immunity         | **- **<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
+|            **+1**<br>Might            |  **0**<br>Agility  | **+2**<br>Reason  |  **+1**<br>Intuition  |  **+3**<br>Presence  |
+
+> 🏹 **Fire Curse (Signature Ability)**
+>
+> | **Magic, Ranged, Strike** |               **Main action** |
+> |---------------------------|------------------------------:|
+> | **📏 Ranged 10**          | **🎯 One creature or object** |
+>
+> **Power Roll + highest characteristic:**
+>
+> - **≤11:** 5 fire damage
+> - **12-16:** 9 fire damage
+> - **17+:** 12 fire damage; A < STRONG the target is burning (save ends)
+>
+> **Effect:** A burning creature takes 1d6 fire damage at the start of each of their turns. A burning object takes 1d6 fire damage at the end of each round.
+
+> 🏹 **Fuel for the Fire**
+>
+> | **Magic, Ranged** |     **Main action** |
+> |-------------------|--------------------:|
+> | **📏 Ranged 10**  | **🎯 One creature** |
+>
+> **Effect:** Until the end of the flameslinger's next turn, the target has fire weakness equal to the flameslinger's level. If the target is the flameslinger's mentor, they instead have fire immunity equal to the flameslinger's level.
+
+> ⭐️ **Infernal Ichor**
+>
+> When the flameslinger is reduced to 0 [Stamina](../rule/health/stamina.md), they spray buring blood. Each creature [adjacent](../rule/combat/adjacent.md) to the flameslinger takes 3 fire damage.
+
+###### Hobgoblin Flameslinger Advancement Features {data-scc="mcdm.monsters.v1/monster.retainer.advancement-features/hobgoblin-flameslinger"}
+
+> **Level 7 Retainer Advancement Ability**
+
+> 🔳 **Unholy Attraction (Encounter)**
+>
+> | **Area, Magic, Ranged** |               **Main action** |
+> |-------------------------|------------------------------:|
+> | **📏 3 cube within 10** | **🎯 Each enemy in the area** |
+>
+> **Power Roll + highest characteristic:**
+>
+> - **≤11:** 8 damage; pull 1
+> - **12-16:** 12 damage; pull 2
+> - **17+:** 16 damage, pull 4
+>
+> **Effect:** A target who is pulled [adjacent](../rule/combat/adjacent.md) to the flameslinger and who has P < AVERAGE is knocked [prone](../condition/prone.md).
+
+> **Level 10 Retainer Advancement Ability**
+
+> ❇️ **Fire Spiral (Encounter)**
+>
+> | **Area, Magic** |               **Main action** |
+> |-----------------|------------------------------:|
+> | **📏 3 burst**  | **🎯 Each enemy in the area** |
+>
+> **Power Roll + highest characteristic:**
+>
+> - **≤11:** 8 damage; [push](../movement/forced-movement.md) 2
+> - **12-16:** 12 damage; [push](../movement/forced-movement.md) 3
+> - **17+:** 16 damage; [push](../movement/forced-movement.md) 5
+>
+> **Effect:** If the flameslinger's mentor is within 10 squares of the flameslinger, the mentor can be the source of the burst instead of the flameslinger.
+
+###### Human Warrior {data-scc="mcdm.monsters.v1/monster.retainer.statblock/human-warrior"}
+
+|  Human, Humanoid  |         -         |      Level 1      |   Defender Retainer   |         EV -         |
+|:-----------------:|:-----------------:|:-----------------:|:---------------------:|:--------------------:|
+|  **1M**<br>Size   |  **5**<br>Speed   | **21**<br>Stamina |  **0**<br>Stability   | **2**<br>Free Strike |
+| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
+|  **+2**<br>Might  | **0**<br>Agility  |  **0**<br>Reason  |  **0**<br>Intuition   |  **+1**<br>Presence  |
+
+> 🗡 **Chop  (Signature Ability)**
+>
+> | **Melee, Strike, Weapon** |               **Main action** |
+> |---------------------------|------------------------------:|
+> | **📏 Melee 1**            | **🎯 One creature or object** |
+>
+> **Power Roll + highest characteristic:**
+>
+> - **≤11:** 3 damage
+> - **12-16:** 5 damage
+> - **17+:** 7 damage
+>
+> **Effect:** If the warrior is [adjacent](../rule/combat/adjacent.md) to their mentor, this ability gains an edge.
+
+> ⭐️ **Supernatural Insight**
+>
+> The warrior ignores concealment if it's granted by a supernatural effect.
+
+###### Human Warrior Advancement Features {data-scc="mcdm.monsters.v1/monster.retainer.advancement-features/human-warrior"}
+
+> **Level 4 Retainer Advancement Ability**
+
+> ❗️ **'Scuse Me, Boss (Encounter)**
+>
+> | **Melee**      |          **Triggered action** |
+> |----------------|------------------------------:|
+> | **📏 Melee 1** |   **🎯 The warrior's mentor** |
+>
+> **Trigger:** The warrior's mentor is targeted by a strike while within distance.
+>
+> **Effect:** The warrior and the mentor switch places. The warrior is the strike's new target and the strike has a double bane.
+
+> **Level 7 Retainer Advancement Ability**
+
+> 🗡 **Defensive Fighting (Encounter)**
+>
+> | **Melee, Strike, Weapon** |     **Main action** |
+> |---------------------------|--------------------:|
+> | **📏 Melee 1**            | **🎯 One creature** |
+>
+> **Power Roll + highest characteristic:**
+>
+> - **≤11:** 7 damage
+> - **12-16:** 11 damage
+> - **17+:** 16 damage
+>
+> **Effect:** Until the start of the warrior's next turn, ability rolls against the warrior or any ally [adjacent](../rule/combat/adjacent.md) to the warrior have a double bane.
+
+> **Level 10 Retainer Advancement Ability**
+
+> ❇️ **Whirlwind of Steel (Encounter)**
+>
+> | **Area, Charge, Weapon** |               **Main action** |
+> |--------------------------|------------------------------:|
+> | **📏 1 burst**           | **🎯 Each enemy in the area** |
+>
+> **Power Roll + highest characteristic:**
+>
+> - **≤11:** 12 damage
+> - **12-16:** 18 damage
+> - **17+:** 24 damage
+
+###### Kobold Shieldbearer {data-scc="mcdm.monsters.v1/monster.retainer.statblock/kobold-shieldbearer"}
+
+| Humanoid, Kobold  |         -         |      Level 1       |   Defender Retainer   |         EV -         |
+|:-----------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
+|   **2**<br>Size   |  **5**<br>Speed   | **21**<br>Stamina  |  **4**<br>Stability   | **6**<br>Free Strike |
+| **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
+|  **+2**<br>Might  | **+1**<br>Agility |  **0**<br>Reason   |  **0**<br>Intuition   |  **0**<br>Presence   |
+
+> 🗡 **Gladius (Signature Ability)**
+>
+> | **Melee, Strike, Weapon** |               **Main action** |
+> |---------------------------|------------------------------:|
+> | **📏 Melee 1**            | **🎯 One creature or object** |
+>
+> **Power Roll + highest characteristic:**
+>
+> - **≤11:** 3 damage
+> - **12-16:** 5 damage
+> - **17+:** 7 damage; [taunted](../condition/taunted.md) (EoT)
+
+> ⭐️ **Shield, Boss?**
+>
+> While the shieldbearer is [adjacent](../rule/combat/adjacent.md) to their mentor, both have a +1 bonus to [stability](../rule/character/stability.md), have [cover](../rule/combat/cover.md), and grant [cover](../rule/combat/cover.md) to allies.
+
+###### Kobold Shieldbearer Advancement Features {data-scc="mcdm.monsters.v1/monster.retainer.advancement-features/kobold-shieldbearer"}
+
+> **Level 4 Retainer Advancement Ability**
+
+> ❗️ **Shield Block (Encounter)**
+>
+> | **Ranged**      |             **Triggered action** |
+> |-----------------|---------------------------------:|
+> | **📏 Ranged 5** | **🎯 The shieldbearer's mentor** |
+>
+> **Trigger:** The mentor takes damage from a strike while within distance.
+>
+> **Effect:** The shieldbearer blocks the [strike](../rule/combat/strike.md) (if [adjacent](../rule/combat/adjacent.md) to the mentor) or throws their shield into the mentor's space. The triggering [strike](../rule/combat/strike.md)'s damage is halved and the [potency](../rule/character/potency.md) of any [potency](../rule/character/potency.md) effects is reduced by 1. If the shieldbearer threw their shield, it bounces back to their hand.
+
+> **Level 7 Retainer Advancement Ability**
+
+> 🗡 **Living Backpack**
+>
+> | **Melee**      |                  **Main action** |
+> |----------------|---------------------------------:|
+> | **📏 Melee 1** | **🎯 The shieldbearer's mentor** |
+>
+> **Effect:** The shieldbearer straps their shield on their back and climbs onto their mentor's back, entering the mentor's space. While the shieldbearer is on their mentor's back, each of them gains 10 [temporary Stamina](../rule/health/temporary-stamina.md) and can use Shield Block as a triggered action targeting an ally instead of the shieldbearer's mentor. Additionally, the shieldbearer moves with the mentor, and they can't use main actions, maneuvers, or move actions except to end this effect as a maneuver. The effect also ends if the shieldbearer is [force moved](../movement/forced-movement.md) away from their mentor or knocked [prone](../condition/prone.md). If the shieldbearer is still in their mentor's space when the effect ends, they move into an [adjacent](../rule/combat/adjacent.md) unoccupied space of their choice.
+
+> **Level 10 Retainer Advancement Ability**
+
+> 🗡 **Let's Go Sledding (Encounter)**
+>
+> | **Charge, Melee, Strike, Weapon** |      **Main action** |
+> |-----------------------------------|---------------------:|
+> | **📏 Melee 1**                    | **🎯 Three enemies** |
+>
+> **Power Roll + highest characteristic:**
+>
+> - **≤11:** 6 damage; M < WEAK [prone](../condition/prone.md)
+> - **12-16:** 10 damage; M < AVERAGE [prone](../condition/prone.md)
+> - **17+:** 14 damage; M < STRONG [prone](../condition/prone.md)
+>
+> **Effect:** If this ability is used as part of the [Charge](../feature/common/main-actions/charge.md) main action, the shieldbearer gains 2 [surges](../rule/resource/surge.md) that can be used immediately.
+
+###### Minotaur Gorer {data-scc="mcdm.monsters.v1/monster.retainer.statblock/minotaur-gorer"}
+
+| Accursed, Humanoid, Minotaur |         -         |      Level 3      |    Brute Retainer     |         EV -         |
+|:----------------------------:|:-----------------:|:-----------------:|:---------------------:|:--------------------:|
+|        **2**<br>Size         |  **6**<br>Speed   | **39**<br>Stamina |  **2**<br>Stability   | **6**<br>Free Strike |
+|      **-**<br>Immunity       | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
+|       **+2**<br>Might        | **+1**<br>Agility |  **0**<br>Reason  |  **+1**<br>Intuition  |  **0**<br>Presence   |
+
+> 🗡 **Gore (Signature Ability)**
+>
+> | **Charge, Melee, Strike, Weapon** |               **Main action** |
+> |-----------------------------------|------------------------------:|
+> | **📏 Melee 1**                    | **🎯 One creature or object** |
+>
+> **Power Roll + highest characteristic:**
+>
+> - **≤11:** 5 damage
+> - **12-16:** 9 damage
+> - **17+:** 12 damage; M < STRONG [prone](../condition/prone.md)
+
+> ❗️ **Retaliatory Strike**
+>
+> | **Ranged**      |           **Triggered action** |
+> |-----------------|-------------------------------:|
+> | **📏 Ranged 6** | **🎯 The triggering creature** |
+>
+> **Trigger:** A creature within distance deals damage to the gorer.
+>
+> **Effect:** The gorer uses the [Charge](../feature/common/main-actions/charge.md) main action and Gore against the target.
+
+> ⭐️ **Minotaur Sense**
+>
+> The gorer can't obtain less than a tier 2 outcome when making tests to navigate, search, or seek.
+
+###### Minotaur Gorer Advancement Features {data-scc="mcdm.monsters.v1/monster.retainer.advancement-features/minotaur-gorer"}
+
+> **Level 4 Retainer Advancement Ability**
+
+> ❗️ **Horn Toss**
+>
+> | **Melee**      |      **Free triggered action** |
+> |----------------|-------------------------------:|
+> | **📏 Melee 1** | **🎯 The triggering creature** |
+>
+> **Trigger:** The gorer damages a creature within distance using Gore.
+>
+> **Effect:** The target is pushed up to 3 squares. If the target has [stability](../rule/character/stability.md) 0, they are also knocked [prone](../condition/prone.md).
+
+> **Level 7 Retainer Advancement Ability**
+
+> 👤 **Triumphant Bay (Encounter)**
+>
+> | **-**       | **Maneuver** |
+> |-------------|-------------:|
+> | **📏 Self** |  **🎯 Self** |
+>
+> **Effect:** The gorer gains 3 [surges](../rule/resource/surge.md), and until the start of the gorer's next turn, [strikes](../rule/combat/strike.md) made against them and their mentor take a bane.
+
+> **Level 10 Retainer Advancement Ability**
+
+> ❇️ **Horn Rake (Encounter)**
+>
+> | **Area, Weapon** |               **Main action** |
+> |------------------|------------------------------:|
+> | **📏 1 burst**   | **🎯 Each enemy in the area** |
+>
+> **Power Roll + highest characteristic:**
+>
+> - **≤11:** 11 damage; M < WEAK [bleeding](../condition/bleeding.md) ([save](../rule/general/saving-throw.md) ends)
+> - **12-16:** 16 damage; M < AVERAGE [bleeding](../condition/bleeding.md) ([save](../rule/general/saving-throw.md) ends)
+> - **17+:** 21 damage; M < STRONG [prone](../condition/prone.md) and can't stand ([save](../rule/general/saving-throw.md) ends).
+
+###### Orc Charger {data-scc="mcdm.monsters.v1/monster.retainer.statblock/orc-charger"}
+
+|   Humanoid, Orc   |         -         |      Level 1      |   Harrier Retainer    |         EV -         |
+|:-----------------:|:-----------------:|:-----------------:|:---------------------:|:--------------------:|
+|  **1M**<br>Size   |  **8**<br>Speed   | **21**<br>Stamina |  **0**<br>Stability   | **3**<br>Free Strike |
+| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
+|  **+2**<br>Might  | **+2**<br>Agility |  **0**<br>Reason  |  **0**<br>Intuition   |  **0**<br>Presence   |
+
+> ⚔️ **Notched Axe (Signature Ability)**
+>
+> | **Charge, Melee, Ranged, Strike, Weapon** |               **Main action** |
+> |-------------------------------------------|------------------------------:|
+> | **📏 Melee 1 or ranged 5**                | **🎯 One creature or object** |
+>
+> **Power Roll + highest characteristic:**
+>
+> - **≤11:** 3 damage
+> - **12-16:** 5 damage
+> - **17+:** 7 damage
+
+> ⭐️ **Relentless**
+>
+> If the charger is reduced to 0 [Stamina](../rule/health/stamina.md), they can make a [free strike](../feature/common/main-actions/free-strike.md) before dying. If the target of the [free strike](../feature/common/main-actions/free-strike.md) is reduced to 0 [Stamina](../rule/health/stamina.md), the charger is reduced to 1 [Stamina](../rule/health/stamina.md) instead.
+
+###### Orc Charger Advancement Features {data-scc="mcdm.monsters.v1/monster.retainer.advancement-features/orc-charger"}
+
+> **Level 4 Retainer Advancement Ability**
+
+> 👤 **Blood Oath (Encounter)**
+>
+> | **Self**    | **Maneuver** |
+> |-------------|-------------:|
+> | **📏 Self** |  **🎯 Self** |
+>
+> **Effect:** Until the start of the charger's next turn, the charger and their mentor each have [temporary Stamina](../rule/health/temporary-stamina.md) equal to their Recovery value and a +2 bonus to speed, and they each gain an edge on reactive tests.
+
+> **Level 7 Retainer Advancement Ability**
+
+> 👤 **Mow 'Em Down (Encounter)**
+>
+> | **-**                  | **Main action** |
+> |------------------------|----------------:|
+> | **📏 Self; See below** |     **🎯 Self** |
+>
+> **Effect:** The charger moves in a straight line up to their speed. During this move, they ignore enemy [free strikes](../feature/common/main-actions/free-strike.md), and they can make a melee [free strike](../feature/common/main-actions/free-strike.md) against any creature they move [adjacent](../rule/combat/adjacent.md) to.
+
+> **Level 10 Retainer Advancement Ability**
+
+> ❇️ **Vein Burst (Encounter)**
+>
+> | **Area, Psionic** |               **Main action** |
+> |-------------------|------------------------------:|
+> | **📏 2 burst**    | **🎯 Each enemy in the area** |
+>
+> **Power Roll + highest characteristic:**
+>
+> - **≤11:** 12 psychic damage
+> - **12-16:** 18 psychic damage
+> - **17+:** 24 psychic damage
+>
+> **Effect:** The charger takes psychic damage equal to the number of enemies affected. This damage can't be reducetd in any way.
+
+###### Radenwight Sidekick {data-scc="mcdm.monsters.v1/monster.retainer.statblock/radenwight-sidekick"}
+
+| Humanoid, Radenwight |           -           |      Level 1      |   Support Retainer    |         EV -         |
+|:--------------------:|:---------------------:|:-----------------:|:---------------------:|:--------------------:|
+|    **1S**<br>Size    |    **5**<br>Speed     | **21**<br>Stamina |  **0**<br>Stability   | **2**<br>Free Strike |
+|  **-**<br>Immunity   | **Climb**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
+|    **0**<br>Might    |   **+2**<br>Agility   |  **0**<br>Reason  |  **+1**<br>Intuition  |  **0**<br>Presence   |
+
+> ⚔️ **Dagger's Bite (Signature Ability)**
+>
+> | **Melee, Ranged, Strike, Weapon** |               **Main action** |
+> |-----------------------------------|------------------------------:|
+> | **📏 Melee 1 or ranged 5**        | **🎯 One creature or object** |
+>
+> **Power Roll + highest characteristic:**
+>
+> - **≤11:** 3 damage
+> - **12-16:** 5 damage
+> - **17+:** 7 damage
+
+> ❗️ **Ready Rodent**
+>
+> | **Melee, Weapon** | **Triggered action** |
+> |-------------------|---------------------:|
+> | **📏 Melee 1**    |  **🎯 One creature** |
+>
+> **Trigger:** An ally deals damage to the target.
+>
+> **Effect:** The sidekick makes a [free strike](../feature/common/main-actions/free-strike.md) against the target.
+
+###### Radenwight Sidekick Advancement Features {data-scc="mcdm.monsters.v1/monster.retainer.advancement-features/radenwight-sidekick"}
+
+> **Level 4 Retainer Advancement Ability**
+
+> 👤 **Boost**
+>
+> | **-**       | **Maneuver** |
+> |-------------|-------------:|
+> | **📏 Self** |  **🎯 Self** |
+>
+> **Effect:** If the sidekick's mentor moves [adjacent](../rule/combat/adjacent.md) to the sidekick at any point during the mentor's turn, the mentor gains a +1 bonus to speed and can automatically climb at full speed while moving until the end of their turn.
+
+> **Level 7 Retainer Advancement Ability**
+
+> 🔳 **Bug Bag (Encounter)**
+>
+> | **Area, Ranged**       |                  **Main action** |
+> |------------------------|---------------------------------:|
+> | **📏 3 cube within 3** | **🎯 Each creature in the area** |
+>
+> **Power Roll + highest characteristic:**
+>
+> - **≤11:** 6 poison damage; M < WEAK [weakened](../condition/weakened.md) ([save](../rule/general/saving-throw.md) ends)
+> - **12-16:** 9 poison damage; M < AVERAGE [weakened](../condition/weakened.md) ([save](../rule/general/saving-throw.md) ends)
+> - **17+:** 13 poison damage; M < STRONG [weakened](../condition/weakened.md) ([save](../rule/general/saving-throw.md) ends)
+
+> **Level 10 Retainer Advancement Ability**
+
+> 🏹 **Triumphant Squeak (Encounter)**
+>
+> | **Ranged** | **Maneuver** |
+> | --- | ---:|
+> | **📏 Ranged 10** | **🎯 Self and each ally** |
+>
+> **Effect:** Each target can spend a [Recovery](../rule/health/recoveries.md), and ends the [dazed](../condition/dazed.md), [frightened](../condition/frightened.md), and [weakened](../condition/weakened.md) conditions on themself.
+
+###### Time Raider Mind Healer {data-scc="mcdm.monsters.v1/monster.retainer.statblock/time-raider-mind-healer"}
+
+|   Humanoid, Time Raider   |         -         |      Level 3      |   Support Retainer    |         EV -         |
+|:-------------------------:|:-----------------:|:-----------------:|:---------------------:|:--------------------:|
+|      **1M**<br>Size       |  **5**<br>Speed   | **39**<br>Stamina |  **0**<br>Stability   | **4**<br>Free Strike |
+| **Psychic 5**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
+|      **0**<br>Might       | **+2**<br>Agility | **+2**<br>Reason  |  **+2**<br>Intuition  |  **0**<br>Presence   |
+
+> 🏹 **Laser Lancet (Signature Ability)**
+>
+> | **Ranged, Strike, Weapon** |               **Main action** |
+> |----------------------------|------------------------------:|
+> | **📏 Ranged 3**            | **🎯 One creature or object** |
+>
+> **2d10 + highest characteristic:**
+>
+> - **≤11:** 5 fire damage
+> - **12-16:** 8 fire damage
+> - **17+:** 11 fire damage
+>
+> **Effect:** If the mind healer targets an ally, the ability deals no damage. Additionally, the target can end one effect on them that can be ended by a [saving throw](../rule/general/saving-throw.md) or that ends at the end of their turn.
+
+> ⭐️ **Foresight**
+>
+> The mind healer doesn't take a bane on strikes against creatures with concealment.
+
+###### Time Raider Mind Healer Advancement Features {data-scc="mcdm.monsters.v1/monster.retainer.advancement-features/time-raider-mind-healer"}
+
+> **Level 4 Retainer Advancement Ability**
+
+> 🏹 **Stim Charge (Encounter)**
+>
+> | **Ranged**      |     **Main action** |
+> |-----------------|--------------------:|
+> | **📏 Ranged 3** | **🎯 One creature** |
+>
+> **Effect:** The target can spend 1 [Recovery](../rule/health/recoveries.md), and has their speed doubled until the end of their next turn.
+
+> **Level 7 Retainer Advancement Ability**
+
+> 🏹 **Mind Whelm (Encounter)**
+>
+> | **Psionic, Ranged, Strike** |     **Main action** |
+> |-----------------------------|--------------------:|
+> | **📏 Ranged 3**             | **🎯 One creature** |
+>
+> **Power Roll + highest characteristic:**
+>
+> - **≤11:** 8 psychic damage; R < WEAK [frightened](../condition/frightened.md) ([save](../rule/general/saving-throw.md) ends)
+> - **12-16:** 13 psychic damage; R < AVERAGE [frightened](../condition/frightened.md) ([save](../rule/general/saving-throw.md) ends)
+> - **17+:** 17 psychic damage; R < STRONG [frightened](../condition/frightened.md) ([save](../rule/general/saving-throw.md) ends)
+
+> **Level 10 Retainer Advancement Ability**
+
+> ❇️ **Psychic Short Circuit (Encounter)**
+>
+> | **Area, Psionic** |               **Main action** |
+> |-------------------|------------------------------:|
+> | **📏 2 burst**    | **🎯 Each enemy in the area** |
+>
+> **Power Roll + highest characteristic:**
+>
+> - **≤11:** 11 psychic damage
+> - **12-16:** 16 psychic damage
+> - **17+:** 21 psychic damage
+>
+> **Effect:** If the mind healer is [dazed](../condition/dazed.md), [frightened](../condition/frightened.md), or [taunted](../condition/taunted.md), they can end one of those conditions and impose the same condition on one enemy in the area. Additionally, they can do the same for their mentor if the mentor is in the area and is [dazed](../condition/dazed.md), [frightened](../condition/frightened.md), or [taunted](../condition/taunted.md).
+
+###### Troll Mercenary {data-scc="mcdm.monsters.v1/monster.retainer.statblock/troll-mercenary"}
+
+|   Giant, Troll    |         -          |      Level 5      |    Brute Retainer     |              EV -               |
+|:-----------------:|:------------------:|:-----------------:|:---------------------:|:-------------------------------:|
+|   **2**<br>Size   |   **6**<br>Speed   | **57**<br>Stamina |  **4**<br>Stability   |      **6**<br>Free Strike       |
+| **-**<br>Immunity | **- **<br>Movement |         -         | **-**<br>With Captain |  **Acid 5, fire **<br>Weakness  |
+|  **+3**<br>Might  | **+1**<br>Agility  | **-1**<br>Reason  |  **0**<br>Intuition   |       **+1**<br>Presence        |
+
+> 🗡 **Big Bite (Signature Ability)**
+>
+> | **Charge, Melee, Strike, Weapon** |               **Main action** |
+> |-----------------------------------|------------------------------:|
+> | **📏 Melee 1**                    | **🎯 One creature or object** |
+>
+> **Power Roll + highest characteristic:**
+>
+> - **≤11:** 6 damage
+> - **12-16:** 11 damage
+> - **17+:** 14 damage
+>
+> **Effect:** The mercenary regains [Stamina](../rule/health/stamina.md) equal to half the damage dealt.
+
+> ❇️ **Troll Roar (Encounter)**
+>
+> | **Area**       |                  **Maneuver** |
+> |----------------|------------------------------:|
+> | **📏 3 burst** | **🎯 Each enemy in the area** |
+>
+> **Power Roll + highest characteristic:**
+>
+> - **≤11:** P < WEAK [frightened](../condition/frightened.md) ([save](../rule/general/saving-throw.md) ends)
+> - **12-16:** P < AVERAGE [frightened](../condition/frightened.md) ([save](../rule/general/saving-throw.md) ends)
+> - **17+:** P < STRONG [frightened](../condition/frightened.md) ([save](../rule/general/saving-throw.md) ends), push 3, [prone](../condition/prone.md)
+
+> ⭐️ **Relentless Hunger**
+>
+> The mercenary dies only if they are reduced to 0 [Stamina](../rule/health/stamina.md) by acid or fire damage, if they end their turn with 0 [Stamina](../rule/health/stamina.md), or if they take acid or fire damage while at 0 [Stamina](../rule/health/stamina.md).
+
+###### Troll Mercenary Advancement Features {data-scc="mcdm.monsters.v1/monster.retainer.advancement-features/troll-mercenary"}
+
+> **Level 7 Retainer Advancement Ability**
+
+> 🗡 **Hangry Frenzy (Encounter)**
+>
+> | **Melee**      |        **Main action** |
+> |----------------|-----------------------:|
+> | **📏 Melee 1** | **🎯 Three creatures** |
+>
+> **Effect:** The mercenary must be [winded](../rule/health/winded.md) to use this ability. The mercenary uses Big Bite against each target.
+
+> **Level 10 Retainer Advancement Ability**
+
+> ❗️ **Fire Bad (Encounter)**
+>
+> | **-**       | **Triggered action** |
+> |-------------|---------------------:|
+> | **📏 Self** |          **🎯 Self** |
+>
+> **Trigger:** An ability deals acid or fire damage to the mercenary.
+>
+> **Effect:** The mercenary moves up to their speed. If this movement takes them beyond the distance of the triggering ability, the ability has no effect on them.
+
+###### Undead Servitor {data-scc="mcdm.monsters.v1/monster.retainer.statblock/undead-servitor"}
+
+| Undead, Soulless  |         -         |      Level 1      |    Brute Retainer     |         EV -         |
+|:-----------------:|:-----------------:|:-----------------:|:---------------------:|:--------------------:|
+|  **1M**<br>Size   |  **5**<br>Speed   | **21**<br>Stamina |  **0**<br>Stability   | **3**<br>Free Strike |
+| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
+|  **+2**<br>Might  | **-1**<br>Agility | **-3**<br>Reason  |  **-1**<br>Intuition  |  **0**<br>Presence   |
+
+> 🗡 **Lurching Swipe (Signature Ability)**
+>
+> | **Melee, Strike, Weapon** |               **Main action** |
+> |---------------------------|------------------------------:|
+> | **📏 Melee 1**            | **🎯 One creature or object** |
+>
+> **Power Roll + highest characteristic:**
+>
+> - **≤11:** 4 damage
+> - **12-16:** 7 damage
+> - **17+:** 10 damage
+
+> ⭐️ **Arise**
+>
+> The first time in an encounter that the servitor is reduced to 0 [Stamina](../rule/health/stamina.md) by damage that isn't fire damage or holy damage and their body isn't destroyed, they regain half their [Stamina](../rule/health/stamina.md) maximum and fall [prone](../condition/prone.md).
+
+###### Undead Servitor Advancement Features {data-scc="mcdm.monsters.v1/monster.retainer.advancement-features/undead-servitor"}
+
+> **Level 4 Retainer Advancement Ability**
+
+> 🗡 **Grab and Bite (Encounter)**
+>
+> | **Melee, Strike, Weapon** |     **Main action** |
+> |---------------------------|--------------------:|
+> | **📏 Melee 1**            | **🎯 One creature** |
+>
+> **Power Roll + highest characteristic:**
+>
+> - **≤11:** 7 damage; M < WEAK [grabbed](../condition/grabbed.md)
+> - **12-16:** 11 damage; M < AVERAGE [grabbed](../condition/grabbed.md)
+> - **17+:** 16 damage; M < STRONG [grabbed](../condition/grabbed.md)
+
+########Level 7 Retainer Advancement Ability
+
+> 🏹 **Death to Death (Encounter)**
+>
+> | **Magic, Ranged, Strike** |        **Maneuver** |
+> |---------------------------|--------------------:|
+> | **📏 Ranged 10**          | **🎯 One creature** |
+>
+> **Power Roll + highest characteristic:**
+>
+> - **≤11:** 8 corruption damage; P < WEAK [weakened](../condition/weakened.md) ([save](../rule/general/saving-throw.md) ends)
+> - **12-16:** 13 corruption damage; P < AVERAGE [weakened](../condition/weakened.md) ([save](../rule/general/saving-throw.md) ends)
+> - **17+:** 17 corruption damage; P < STRONG [weakened](../condition/weakened.md) ([save](../rule/general/saving-throw.md) ends)
+>
+> **Effect:** Before making the [strike](../rule/combat/strike.md), the servitor can [teleport](../movement/teleport.md) up to 10 squares to a space containing a dead creature, then burst out of the creature's body.
+
+> **Level 10 Retainer Advancement Ability**
+
+> ❗️ **Death Miasma (Encounter)**
+>
+> | **Area, Magic** |     **Free triggered action** |
+> |-----------------|------------------------------:|
+> | **📏 2 burst**  | **🎯 Each enemy in the area** |
+>
+> **Trigger:** The servitor is reduced to 0 [Stamina](../rule/health/stamina.md).
+>
+> **Effect:** The servitor explodes.
+>
+> **Power Roll + highest characteristic:**
+>
+> - **≤11:** 6 corruption damage
+> - **12-16:** 10 corruption damage
+> - **17+:** 14 corruption damage
+
+###### Unquiet Spirit {data-scc="mcdm.monsters.v1/monster.retainer.statblock/unquiet-spirit"}
+
+|            Undead, Soulless            |             -              |      Level 1      |    Hexer Retainer     |         EV -         |
+|:--------------------------------------:|:--------------------------:|:-----------------:|:---------------------:|:--------------------:|
+|             **1M**<br>Size             |       **5**<br>Speed       | **21**<br>Stamina |  **1**<br>Stability   | **2**<br>Free Strike |
+| **Corruption 3, poison 3**<br>Immunity | **Fly, hover**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
+|            **-4**<br>Might             |     **+1**<br>Agility      |  **0**<br>Reason  |  **0**<br>Intuition   |  **+2**<br>Presence  |
+
+> 🏹 **Chill of Death (Signature Ability)**
+>
+> | **Magic, Ranged, Strike** |               **Main action** |
+> |---------------------------|------------------------------:|
+> | **📏 Ranged 10**          | **🎯 One creature or object** |
+>
+> **Power Roll + highest characteristic:**
+>
+> - **≤11:** 3 cold damage
+> - **12-16:** 5 cold damage
+> - **17+:** 7 cold damage; P < STRONG [slowed](../condition/slowed.md) (EoT)
+
+> 👤 **Spirit Meld**
+>
+> | **-**       | **Main action** |
+> |-------------|----------------:|
+> | **📏 Self** |     **🎯 Self** |
+>
+> **Effect:** While [adjacent](../rule/combat/adjacent.md) to their mentor, the unquiet spirit enters the mentor's space. A spirit who enters their mentor's space this way moves with the mentor, can't be sensed, and can't affect or be affected by other creatures or objects. They can't take main actions, maneuvers, or move actions, except to use this ability to leave their mentor's space and appear in an [adjacent](../rule/combat/adjacent.md) space.
+
+> ⭐️ **Corruptive Phasing**
+>
+> The unquiet spirit can move through creatures and objects at their usual speed, but can't end their turn inside a creature or object. The first time in a round that the spirit moves through a creature other than their mentor, that creature takes 2 corruption damage.
+
+###### Unquiet Spirit Advancement Features {data-scc="mcdm.monsters.v1/monster.retainer.advancement-features/unquiet-spirit"}
+
+> **Level 4 Retainer Advancement Ability**
+
+> 🏹 **Enervating Curse (Encounter)**
+>
+> | **Magic, Ranged, Strike** |     **Main action** |
+> |---------------------------|--------------------:|
+> | **📏 Ranged 10**          | **🎯 One creature** |
+>
+> **Power Roll + highest characteristic:**
+>
+> - **≤11:** 6 corruption damage; the target has 1 level of drain
+> - **12-16:** 10 corruption damage; the target has 2 levels of drain
+> - **17+:** 14 corruption damage; the target has 3 levels of drain
+>
+> **Effect:** The next creature to make a [strike](../rule/combat/strike.md) against the target gains 1 [surge](../rule/resource/surge.md) for each level of drain, which must be used on that [strike](../rule/combat/strike.md).
+
+> **Level 7 Retainer Advancement Ability**
+
+> 🔳 **Ectoplasm (Encounter)**
+>
+> | **Area, Magic**        |               **Main action** |
+> |------------------------|------------------------------:|
+> | **📏 3 cube within 1** | **🎯 Each enemy in the area** |
+>
+> **Power Roll + highest characteristic:**
+>
+> - **≤11:** A < WEAK [slowed](../condition/slowed.md) and [weakened](../condition/weakened.md) ([save](../rule/general/saving-throw.md) ends)
+> - **12-16:** A < AVERAGE [slowed](../condition/slowed.md) and [weakened](../condition/weakened.md) ([save](../rule/general/saving-throw.md) ends)
+> - **17+:** A < STRONG [slowed](../condition/slowed.md) and [weakened](../condition/weakened.md) ([save](../rule/general/saving-throw.md) ends)
+
+> **Level 10 Retainer Advancement Ability**
+
+> 🏹 **Death Phase (Encounter)**
+>
+> | **Magic, Ranged, Strike** |     **Main action** |
+> |---------------------------|--------------------:|
+> | **📏 Ranged 5**           | **🎯 One creature** |
+>
+> **Effect:** If the target has P < STRONG, they are phased until the end of their next turn. A phased target gains the unquiet spirit's Corruptive Phasing trait and can [fly](../movement/fly.md). They are visible but can't affect or be affed by other creatures or objects. A willing creature not subject to the ability's [potency](../rule/character/potency.md) can choose to automatically be affected.
+
+###### Vampire Rebel {data-scc="mcdm.monsters.v1/monster.retainer.statblock/vampire-rebel"}
+
+|  Undead, Vampire  |           -           |      Level 4      |   Harrier Retainer    |         EV -         |
+|:-----------------:|:---------------------:|:-----------------:|:---------------------:|:--------------------:|
+|  **1M**<br>Size   |    **5**<br>Speed     | **48**<br>Stamina |  **0**<br>Stability   | **4**<br>Free Strike |
+| **-**<br>Immunity | **Climb**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
+|  **+2**<br>Might  |   **+3**<br>Agility   |  **0**<br>Reason  |  **0**<br>Intuition   |  **+3**<br>Presence  |
+
+> 🗡 **Flashing Fangs (Signature Ability)**
+>
+> | **Melee, Strike, Weapon** |               **Main action** |
+> |---------------------------|------------------------------:|
+> | **📏 Melee 1**            | **🎯 One creature or object** |
+>
+> **2d10 + highest characteristic:**
+>
+> - **≤11:** 5 damage
+> - **12-16:** 5 damage, 3 corruption damage
+> - **17+:** 5 damage, 6 corruption damage; M < STRONG [bleeding](../condition/bleeding.md) ([save](../rule/general/saving-throw.md) ends)
+>
+> **Effect:** The vampire rebel gains [temporary Stamina](../rule/health/temporary-stamina.md) equal to any corruption damage dealt.
+
+> 👤 **Bat Form (Encounter)**
+>
+> | **-**       | **Move Action** |
+> |-------------|----------------:|
+> | **📏 Self** |     **🎯 Self** |
+>
+> **Effect:** The vampire rebel changes their form into a bat. In bat form, their size is 1T and they can [fly](../movement/fly.md). The vampire rebel then [shifts](../movement/shifting.md) up to their speed, then regains their true form. If they can't fit in their current space when they return to their true form, they take 10 damage and are pushed to the nearest unoccupied space.
+
+> ⭐️ **Agonizing Bloodthirst**
+>
+> The vampire rebel has speed 10 while any creature within 10 squares of them is [bleeding](../condition/bleeding.md). If the vampire rebel is able to deal damage to a [bleeding](../condition/bleeding.md) creature on their turn and does not do so, they take 5 corruption damage at the end of their turn.
+
+###### Vampire Rebel Advancement Features {data-scc="mcdm.monsters.v1/monster.retainer.advancement-features/vampire-rebel"}
+
+> **Level 7 Retainer Advancement Ability**
+
+> 🗡 **Blood Surge (Encounter)**
+>
+> | **Melee, Strike, Weapon** |     **Main action** |
+> |---------------------------|--------------------:|
+> | **📏 Melee 1**            | **🎯 One creature** |
+>
+> **Power Roll + highest characteristic:**
+>
+> - **≤11:** 7 damage; M < WEAK [bleeding](../condition/bleeding.md) ([save](../rule/general/saving-throw.md) ends)
+> - **12-16:** 11 damage; M < AVERAGE [bleeding](../condition/bleeding.md) ([save](../rule/general/saving-throw.md) ends)
+> - **17+:** 16 damage; M < STRONG [bleeding](../condition/bleeding.md) ([save](../rule/general/saving-throw.md) ends)
+>
+> **Effect:** Before the [strike](../rule/combat/strike.md), the vampire rebel [shifts](../movement/shifting.md) up to their speed. If the vampire rebel has [temporary Stamina](../rule/health/temporary-stamina.md), they can expend it, dealing an extra 2 corruption damage for each point of [temporary Stamina](../rule/health/temporary-stamina.md) expended this way.
+
+> **Level 10 Retainer Advancement Ability**
+
+> 🔳 **Exsanguination (Encounter)**
+>
+> | **Area, Magic**        |               **Main action** |
+> |------------------------|------------------------------:|
+> | **📏 3 cube within 1** | **🎯 Each enemy in the area** |
+>
+> **Power Roll + highest characteristic:**
+>
+> - **≤11:** 7 corruption damage; M < WEAK [bleeding](../condition/bleeding.md) ([save](../rule/general/saving-throw.md) ends)
+> - **12-16:** 11 corruption damage; M < AVERAGE [bleeding](../condition/bleeding.md) ([save](../rule/general/saving-throw.md) ends)
+> - **17+:** 16 corruption damage; M < STRONG [bleeding](../condition/bleeding.md) ([save](../rule/general/saving-throw.md) ends)

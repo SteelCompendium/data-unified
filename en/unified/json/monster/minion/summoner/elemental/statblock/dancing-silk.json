@@ -1,0 +1,49 @@
+{
+  "agility": 2,
+  "cost": "5 essence for three minions",
+  "ev": "",
+  "features": [
+    {
+      "effects": [
+        {
+          "effect": "The silk's ranged [free strikes](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) inflict A \u003c AVERAGE [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (EoT). Each creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the target is A \u003c WEAK [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (EoT)."
+        }
+      ],
+      "feature_type": "trait",
+      "icon": "⭐️",
+      "name": "Entangling Strike",
+      "type": "feature"
+    }
+  ],
+  "flavor": "The silks are akin to baby spiders ballooning through the air on strands of webbing. They spin silk from their legs as they fly, eventually turning huge swaths of the environment into tangled web mazes.",
+  "free_strike": 3,
+  "immunities": [
+    "Poison R"
+  ],
+  "intuition": 0,
+  "keywords": [
+    "Elemental (Earth",
+    "Air",
+    "Green)"
+  ],
+  "level": 0,
+  "metadata": {
+    "scc": "mcdm.summoner.v1/monster.minion.summoner.elemental.statblock/dancing-silk",
+    "source": "mcdm.summoner.v1"
+  },
+  "might": -1,
+  "movement": "Fly",
+  "name": "Dancing Silk",
+  "organization": "Minion",
+  "presence": -1,
+  "reason": 3,
+  "role": "Controller",
+  "size": "1T",
+  "speed": 5,
+  "stability": 0,
+  "stamina": "4 | 4 | 4",
+  "type": "statblock",
+  "weaknesses": [
+    "—"
+  ]
+}

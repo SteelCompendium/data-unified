@@ -1,0 +1,49 @@
+{
+  "cost": "5 Ferocity",
+  "distance": "2 burst",
+  "effects": [
+    {
+      "roll": "Power Roll + Intuition",
+      "tier1": "4 damage; P \u003c WEAK [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)",
+      "tier2": "6 damage; P \u003c AVERAGE [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)",
+      "tier3": "10 damage; P \u003c STRONG [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)"
+    },
+    {
+      "effect": "Your companion [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to a number of squares equal to their Intuition score. During this movement, they are invisible. They then make a power roll.",
+      "name": "Effect"
+    }
+  ],
+  "feature_type": "ability",
+  "flavor": "Surprised to see me?",
+  "keywords": [
+    "Area",
+    "Companion",
+    "Magic"
+  ],
+  "metadata": {
+    "action_type": "Main action",
+    "class": "beastheart",
+    "content": "*Surprised to see me?*\n\n| **Area, Companion, Magic** | **Main action** |\n|----------------------------|----------------:|\n| **📏 2 burst**             | **🎯 Each enemy in the area** |\n\n**Special:** This ability targets only enemies with line of effect to your companion.\n\n**Effect:** Your companion [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to a number of squares equal to their Intuition score. During this movement, they are invisible. They then make a power roll.\n\n**Power Roll + Intuition:**\n\n- **≤11:** 4 damage; P \u003c WEAK [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)\n- **12-16:** 6 damage; P \u003c AVERAGE [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)\n- **17+:** 10 damage; P \u003c STRONG [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)",
+    "distance": "2 burst",
+    "feature_type": "ability",
+    "flavor": "Surprised to see me?",
+    "item_id": "jump-scare",
+    "item_name": "Jump Scare",
+    "keywords": [
+      "Area",
+      "Companion",
+      "Magic"
+    ],
+    "level": 2,
+    "scc": [
+      "mcdm.beastheart.v1/feature.ability.beastheart.level-2/jump-scare"
+    ],
+    "subclass": "prowler",
+    "target": "Each enemy in the area",
+    "type": "feature/ability/beastheart/level-2"
+  },
+  "name": "Jump Scare",
+  "target": "Each enemy in the area",
+  "type": "feature",
+  "usage": "Main action"
+}

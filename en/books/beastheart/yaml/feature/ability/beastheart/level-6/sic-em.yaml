@@ -1,0 +1,42 @@
+cost: 9 Ferocity
+distance: Melee 1
+effects:
+    - roll: Power Roll + Might
+      tier1: 11 + M damage; [taunted](scc.v1:mcdm.heroes.v1/condition/taunted) (save ends); M < WEAK [prone](scc.v1:mcdm.heroes.v1/condition/prone)
+      tier2: 16 + M damage; [taunted](scc.v1:mcdm.heroes.v1/condition/taunted) (save ends); M < AVERAGE [prone](scc.v1:mcdm.heroes.v1/condition/prone)
+      tier3: 21 + M damage; [taunted](scc.v1:mcdm.heroes.v1/condition/taunted) (save ends); M < STRONG [prone](scc.v1:mcdm.heroes.v1/condition/prone) and can't stand (EoT)
+    - cost: Spend 2 Ferocity
+      effect: Your companion can use this ability as a triggered action against an enemy who damages you.
+feature_type: ability
+flavor: Your companion rushes forward to protect you from a dangerous foe.
+keywords:
+    - Charge
+    - Companion
+    - Melee
+    - Strike
+    - Weapon
+metadata:
+    action_type: Main action
+    class: beastheart
+    content: "*Your companion rushes forward to protect you from a dangerous foe.*\n\n| **Charge, Companion, Melee, Strike, Weapon** | **Main action** |\n|----------------------------------------------|----------------:|\n| **\U0001F4CF Melee 1**                               | **\U0001F3AF One creature** |\n\n**Power Roll + Might:**\n\n- **≤11:** 11 + M damage; [taunted](scc.v1:mcdm.heroes.v1/condition/taunted) (save ends); M < WEAK [prone](scc.v1:mcdm.heroes.v1/condition/prone)\n- **12-16:** 16 + M damage; [taunted](scc.v1:mcdm.heroes.v1/condition/taunted) (save ends); M < AVERAGE [prone](scc.v1:mcdm.heroes.v1/condition/prone)\n- **17+:** 21 + M damage; [taunted](scc.v1:mcdm.heroes.v1/condition/taunted) (save ends); M < STRONG [prone](scc.v1:mcdm.heroes.v1/condition/prone) and can't stand (EoT)\n\n**Spend 2 Ferocity:** Your companion can use this ability as a triggered action against an enemy who damages you."
+    distance: Melee 1
+    feature_type: ability
+    flavor: Your companion rushes forward to protect you from a dangerous foe.
+    item_id: sic-em
+    item_name: Sic 'Em!
+    keywords:
+        - Charge
+        - Companion
+        - Melee
+        - Strike
+        - Weapon
+    level: 6
+    scc:
+        - mcdm.beastheart.v1/feature.ability.beastheart.level-6/sic-em
+    subclass: guardian
+    target: One creature
+    type: feature/ability/beastheart/level-6
+name: Sic 'Em!
+target: One creature
+type: feature
+usage: Main action

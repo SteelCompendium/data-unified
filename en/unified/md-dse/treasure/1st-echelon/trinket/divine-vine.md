@@ -1,0 +1,31 @@
+---
+echelon: "1"
+effect: As a maneuver, you call upon the Divine Vine in Yllyric, causing it to extend up to 5 squares from you and attach its jaws to a creature or object, allowing you to use the [Grab](scc.v1:mcdm.heroes.v1/feature.common.maneuvers/grab) maneuver at a distance. If the target is [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed), you can choose to keep the divine vine extended, [pull](scc.v1:mcdm.heroes.v1/movement/forced-movement) the target [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to you, or [pull](scc.v1:mcdm.heroes.v1/movement/forced-movement) yourself [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the target. The divine vine stays attached to the target until it takes damage from a [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), the target escapes your grab, or you call upon the vine to release the target (no action required).
+file_basename: divine-vine
+file_dpath: treasure/1st-echelon/trinket
+flavor: A coil of emerald-green vines is topped with the jaws of an enormous Venus flytrap.
+item_id: divine-vine
+item_name: Divine Vine
+keywords:
+    - Magic
+name: Divine Vine
+project_goal: "150"
+scc: mcdm.heroes.v1/treasure.1st-echelon.trinket/divine-vine
+source: mcdm.heroes.v1
+treasure_type: trinket
+type: treasure
+---
+
+*A coil of emerald-green vines is topped with the jaws of an enormous Venus flytrap.*
+
+**Keywords:** Magic
+
+**[Item Prerequisite](scc.v1:mcdm.heroes.v1/rule.downtime/item-prerequisite):** Three withered mundane vines, a tree's blessing
+
+**[Project Source](scc.v1:mcdm.heroes.v1/rule.downtime/project-source):** Songs in Yllyric
+
+**[Project Roll](scc.v1:mcdm.heroes.v1/rule.downtime/project-roll) [Characteristic](scc.v1:mcdm.heroes.v1/rule.character/characteristic):** [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) or [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence)
+
+**Project Goal:** 150
+
+**Effect:** As a maneuver, you call upon the Divine Vine in Yllyric, causing it to extend up to 5 squares from you and attach its jaws to a creature or object, allowing you to use the [Grab](scc.v1:mcdm.heroes.v1/feature.common.maneuvers/grab) maneuver at a distance. If the target is [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed), you can choose to keep the divine vine extended, [pull](scc.v1:mcdm.heroes.v1/movement/forced-movement) the target [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to you, or [pull](scc.v1:mcdm.heroes.v1/movement/forced-movement) yourself [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the target. The divine vine stays attached to the target until it takes damage from a [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), the target escapes your grab, or you call upon the vine to release the target (no action required).

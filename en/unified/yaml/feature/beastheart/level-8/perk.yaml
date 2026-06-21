@@ -1,0 +1,15 @@
+effects:
+    - effect: You gain one perk of your choice.
+feature_type: feature
+metadata:
+    action_type: feature
+    class: beastheart
+    feature_type: feature
+    item_id: perk
+    item_name: Perk
+    level: 8
+    scc:
+        - mcdm.beastheart.v1/feature.beastheart.level-8/perk
+    type: feature/beastheart/level-8
+name: Perk
+type: feature

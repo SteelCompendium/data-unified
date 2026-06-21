@@ -1,0 +1,85 @@
+{
+  "agility": 0,
+  "ev": "-",
+  "features": [
+    {
+      "ability_type": "Signature Ability",
+      "distance": "Ranged 10",
+      "effects": [
+        {
+          "roll": "Power Roll + highest characteristic",
+          "tier1": "5 fire damage",
+          "tier2": "9 fire damage",
+          "tier3": "12 fire damage; A \u003c STRONG the target is burning (save ends)"
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "🏹",
+      "keywords": [
+        "Magic",
+        "Ranged",
+        "Strike"
+      ],
+      "name": "Fire Curse",
+      "target": "One creature or object",
+      "type": "feature",
+      "usage": "Main action"
+    },
+    {
+      "distance": "Ranged 10",
+      "effects": [
+        {
+          "effect": "**Effect:** Until the end of the flameslinger's next turn, the target has fire weakness equal to the flameslinger's level. If the target is the flameslinger's mentor, they instead have fire immunity equal to the flameslinger's level."
+        }
+      ],
+      "feature_type": "ability",
+      "icon": "🏹",
+      "keywords": [
+        "Magic",
+        "Ranged"
+      ],
+      "name": "Fuel for the Fire",
+      "target": "One creature",
+      "type": "feature",
+      "usage": "Main action"
+    },
+    {
+      "effects": [
+        {
+          "effect": "When the flameslinger is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), they spray buring blood. Each creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the flameslinger takes 3 fire damage."
+        }
+      ],
+      "feature_type": "trait",
+      "icon": "⭐️",
+      "name": "Infernal Ichor",
+      "type": "feature"
+    }
+  ],
+  "free_strike": 5,
+  "immunities": [
+    "Fire 4"
+  ],
+  "intuition": 1,
+  "keywords": [
+    "Goblin",
+    "Hobgoblin",
+    "Humanoid",
+    "Infernal"
+  ],
+  "level": 4,
+  "metadata": {
+    "scc": "mcdm.monsters.v1/monster.retainer.statblock/hobgoblin-flameslinger",
+    "source": "mcdm.monsters.v1"
+  },
+  "might": 1,
+  "name": "Hobgoblin Flameslinger",
+  "organization": "Retainer",
+  "presence": 3,
+  "reason": 2,
+  "role": "Controller",
+  "size": "1M",
+  "speed": 5,
+  "stability": 0,
+  "stamina": "48",
+  "type": "statblock"
+}

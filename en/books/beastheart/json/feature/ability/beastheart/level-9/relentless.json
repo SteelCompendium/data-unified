@@ -1,0 +1,53 @@
+{
+  "cost": "11 Ferocity",
+  "distance": "Melee 1",
+  "effects": [
+    {
+      "roll": "Power Roll + Might",
+      "tier1": "11 + M damage; P \u003c WEAK [taunted](scc.v1:mcdm.heroes.v1/condition/taunted) (save ends)",
+      "tier2": "17 + M damage; P \u003c AVERAGE [taunted](scc.v1:mcdm.heroes.v1/condition/taunted) (save ends)",
+      "tier3": "22 + M damage; P \u003c STRONG [taunted](scc.v1:mcdm.heroes.v1/condition/taunted) (save ends)"
+    },
+    {
+      "effect": "While the target is [taunted](scc.v1:mcdm.heroes.v1/condition/taunted) this way, all creatures except your companion have immunity 10 to damage dealt by the target.",
+      "name": "Effect"
+    }
+  ],
+  "feature_type": "ability",
+  "flavor": "Your companion launches at your foe, shielding allies with their body.",
+  "keywords": [
+    "Charge",
+    "Companion",
+    "Melee",
+    "Strike",
+    "Weapon"
+  ],
+  "metadata": {
+    "action_type": "Main action",
+    "class": "beastheart",
+    "content": "*Your companion launches at your foe, shielding allies with their body.*\n\n| **Charge, Companion, Melee, Strike, Weapon** | **Main action** |\n|----------------------------------------------|----------------:|\n| **📏 Melee 1**                               | **🎯 One enemy** |\n\n**Power Roll + Might:**\n\n- **≤11:** 11 + M damage; P \u003c WEAK [taunted](scc.v1:mcdm.heroes.v1/condition/taunted) (save ends)\n- **12-16:** 17 + M damage; P \u003c AVERAGE [taunted](scc.v1:mcdm.heroes.v1/condition/taunted) (save ends)\n- **17+:** 22 + M damage; P \u003c STRONG [taunted](scc.v1:mcdm.heroes.v1/condition/taunted) (save ends)\n\n**Effect:** While the target is [taunted](scc.v1:mcdm.heroes.v1/condition/taunted) this way, all creatures except your companion have immunity 10 to damage dealt by the target.",
+    "distance": "Melee 1",
+    "feature_type": "ability",
+    "flavor": "Your companion launches at your foe, shielding allies with their body.",
+    "item_id": "relentless",
+    "item_name": "Relentless",
+    "keywords": [
+      "Charge",
+      "Companion",
+      "Melee",
+      "Strike",
+      "Weapon"
+    ],
+    "level": 9,
+    "scc": [
+      "mcdm.beastheart.v1/feature.ability.beastheart.level-9/relentless"
+    ],
+    "subclass": "guardian",
+    "target": "One enemy",
+    "type": "feature/ability/beastheart/level-9"
+  },
+  "name": "Relentless",
+  "target": "One enemy",
+  "type": "feature",
+  "usage": "Main action"
+}

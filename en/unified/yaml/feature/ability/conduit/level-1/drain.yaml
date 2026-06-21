@@ -1,0 +1,38 @@
+ability_type: Signature
+distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
+effects:
+    - roll: Power Roll + [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)
+      tier1: 2 + I corruption damage
+      tier2: 5 + I corruption damage
+      tier3: 7 + I corruption damage
+    - effect: You or one ally within [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance) can spend a [Recovery](scc.v1:mcdm.heroes.v1/rule.health/recoveries).
+      name: Effect
+feature_type: ability
+flavor: You drain the energy from your target to revitalize yourself or an ally.
+keywords:
+    - Magic
+    - '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)'
+    - '[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)'
+metadata:
+    ability_type: Signature
+    action_type: Main action
+    class: conduit
+    content: "\n*You drain the energy from your target to revitalize yourself or an ally.*\n\n| **Magic, [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)** |     **Main action** |\n|--------------------------|--------------------:|\n| **\U0001F4CF [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1**           | **\U0001F3AF One creature** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition):**\n\n- **≤11:** 2 + I corruption damage\n- **12-16:** 5 + I corruption damage\n- **17+:** 7 + I corruption damage\n\n**Effect:** You or one ally within [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance) can spend a [Recovery](scc.v1:mcdm.heroes.v1/rule.health/recoveries)."
+    distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
+    feature_type: ability
+    flavor: You drain the energy from your target to revitalize yourself or an ally.
+    item_id: drain
+    item_name: Drain
+    keywords:
+        - Magic
+        - '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)'
+        - '[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)'
+    level: 1
+    scc:
+        - mcdm.heroes.v1/feature.ability.conduit.level-1/drain
+    target: One creature
+    type: feature/ability/conduit/level-1
+name: Drain
+target: One creature
+type: feature
+usage: Main action
