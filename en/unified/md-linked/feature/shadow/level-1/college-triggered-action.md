@@ -16,7 +16,7 @@ Your [shadow college](shadow-college.md) grants you a [triggered action](../../.
 | Caustic Alchemy | [Defensive Roll](../../ability/shadow/level-1/defensive-roll.md)        |
 | Harlequin Mask  | [Clever Trick](../../ability/shadow/level-1/clever-trick.md)          |
 
-### Clever Trick {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-1/clever-trick"}
+### Clever Trick {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-1/clever-trick" data-cost="1 Insight"}
 
 
 *You sow a moment of confusion in combat, to your enemy's peril.*

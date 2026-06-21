@@ -1,5 +1,6 @@
 ---
 ancestry: dragon-knight
+cost: 1 Point
 name: Prismatic Scales
 scc: mcdm.heroes.v1/feature.trait.dragon-knight/prismatic-scales
 type: trait

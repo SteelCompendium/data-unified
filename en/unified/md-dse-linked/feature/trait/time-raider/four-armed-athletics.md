@@ -1,6 +1,9 @@
 ---
 action_type: feature
 ancestry: time-raider
+cost: 1 Point
+cost_amount: "1"
+cost_resource: Point
 feature_type: trait
 file_basename: four-armed-athletics
 file_dpath: feature/trait/time-raider
@@ -13,11 +16,13 @@ type: trait
 ---
 
 ```ds-feature
+cost: 1 Point
 effects:
     - effect: Your unique physiology enhances your movement. You gain an [edge](../../../rule/dice/edge.md) on [tests](../../../rule/test/test.md) that use the [Climb](../../../skill/exploration/climb.md), [Gymnastics](../../../skill/exploration/gymnastics.md), or [Swim](../../../skill/exploration/swim.md) skills when you can use all your arms in the attempt.
 feature_type: trait
 metadata:
     ancestry: time-raider
+    cost: 1 Point
     name: Four-Armed Athletics
     scc: mcdm.heroes.v1/feature.trait.time-raider/four-armed-athletics
     type: trait

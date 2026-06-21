@@ -8,9 +8,9 @@ immunities:
     - Cold R
 intuition: 0
 keywords:
-    - Elemental (Air
-    - Rot
-    - Water)
+    - Elemental (Air)
+    - Elemental (Rot)
+    - Elemental (Water)
 might: -1
 movement: Fly, hover
 name: Quiet of Snow

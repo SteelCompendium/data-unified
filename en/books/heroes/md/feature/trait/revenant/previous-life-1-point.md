@@ -1,5 +1,6 @@
 ---
 ancestry: revenant
+cost: 1 Point
 name: 'Previous Life: 1 Point'
 scc: mcdm.heroes.v1/feature.trait.revenant/previous-life-1-point
 type: trait

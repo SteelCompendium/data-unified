@@ -7,8 +7,8 @@ immunities:
     - Fire R
 intuition: 0
 keywords:
-    - Elemental (Fire
-    - Earth)
+    - Elemental (Fire)
+    - Elemental (Earth)
 might: 2
 movement: Climb
 name: Flow of Magma

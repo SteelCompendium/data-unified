@@ -1,5 +1,6 @@
 ---
 ancestry: memonek
+cost: 1 Point
 name: Unphased
 scc: mcdm.heroes.v1/feature.trait.memonek/unphased
 type: trait

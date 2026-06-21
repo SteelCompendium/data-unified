@@ -1,5 +1,6 @@
 ---
 ancestry: orc
+cost: 1 Point
 name: Passionate Artisan
 scc: mcdm.heroes.v1/feature.trait.orc/passionate-artisan
 type: trait

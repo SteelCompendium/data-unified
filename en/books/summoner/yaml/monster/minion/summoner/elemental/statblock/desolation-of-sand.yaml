@@ -20,8 +20,8 @@ immunities:
     - Sonic R
 intuition: 0
 keywords:
-    - Elemental (Air
-    - Earth)
+    - Elemental (Air)
+    - Elemental (Earth)
 level: 0
 metadata:
     scc: mcdm.summoner.v1/monster.minion.summoner.elemental.statblock/desolation-of-sand

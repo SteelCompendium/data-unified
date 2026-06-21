@@ -1,5 +1,6 @@
 ---
 ancestry: memonek
+cost: 1 Point
 name: Systematic Mind
 scc: mcdm.heroes.v1/feature.trait.memonek/systematic-mind
 type: trait

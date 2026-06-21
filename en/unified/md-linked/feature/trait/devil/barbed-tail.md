@@ -1,5 +1,6 @@
 ---
 ancestry: devil
+cost: 1 Point
 name: Barbed Tail
 scc: mcdm.heroes.v1/feature.trait.devil/barbed-tail
 type: trait

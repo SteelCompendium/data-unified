@@ -8,7 +8,7 @@ type: feature
 
 You have the following ability.
 
-## Stasis Shield {data-scc="mcdm.heroes.v1/feature.ability.talent.level-8/stasis-shield"}
+## Stasis Shield {data-scc="mcdm.heroes.v1/feature.ability.talent.level-8/stasis-shield" data-cost="3 Clarity"}
 
 
 *You freeze time just long enough to bring the victim to safety!*

@@ -17,7 +17,7 @@ Breaking down your [essence](essence.md) into pure power can lead to devastating
 
 Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the following options, each of which costs 5 [essence](essence.md) to use. (Quick Build: [Rallying Cry](../../ability/summoner/level-1/rallying-cry.md).)
 
-#### Essence Transfer {data-scc="mcdm.summoner.v1/feature.ability.summoner.level-1/essence-transfer"}
+#### Essence Transfer {data-scc="mcdm.summoner.v1/feature.ability.summoner.level-1/essence-transfer" data-cost="5 Essence"}
 
 *You pierce your foe and repurpose some of that 'fiber of their being' they weren't using.*
 
@@ -37,7 +37,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 - 1 charge: You or an ally within your Summoner's Range gain a [surge](../../../rule/resource/surge.md).
 - 2 charges: You call forth a signature [minion](minions.md) into an unoccupied space within your Summoner's Range.
 
-#### Explosive Parade {data-scc="mcdm.summoner.v1/feature.ability.summoner.level-1/explosive-parade"}
+#### Explosive Parade {data-scc="mcdm.summoner.v1/feature.ability.summoner.level-1/explosive-parade" data-cost="5 Essence"}
 
 *Your minions swell with energy until they can no longer exist in this realm.*
 
@@ -57,7 +57,7 @@ If they move adjacent to their target, become targeted by an [opportunity attack
 
 **Special:** In addition to the [minions](minions.md) summoned as a part of this ability, you can choose to command any number of your [minions](minions.md) within distance, provided they haven't used a main action or maneuver during the [turn](../../../rule/combat/turn.md).
 
-#### Distraction Tactics {data-scc="mcdm.summoner.v1/feature.ability.summoner.level-1/distraction-tactics"}
+#### Distraction Tactics {data-scc="mcdm.summoner.v1/feature.ability.summoner.level-1/distraction-tactics" data-cost="5 Essence"}
 
 *Your minions do the work to draw the heat away from your allies.*
 
@@ -69,7 +69,7 @@ If they move adjacent to their target, become targeted by an [opportunity attack
 
 The target's [strikes](../../../rule/combat/strike.md) can inflict I < WEAK [taunted](../../../condition/taunted.md) (EoT) to enemies. The [potency](../../../rule/character/potency.md) increases by 1 for each [minion](minions.md) that joined the [strike](../../../rule/combat/strike.md).
 
-#### Rallying Cry {data-scc="mcdm.summoner.v1/feature.ability.summoner.level-1/rallying-cry"}
+#### Rallying Cry {data-scc="mcdm.summoner.v1/feature.ability.summoner.level-1/rallying-cry" data-cost="5 Essence"}
 
 *"Show them what you're made of!"*
 
@@ -79,7 +79,7 @@ The target's [strikes](../../../rule/combat/strike.md) can inflict I < WEAK [tau
 
 **Effect:** Each target chooses between gaining 2 [surges](../../../rule/resource/surge.md) or dealing additional [damage](../../../rule/damage/damage.md) equal to your [Reason](../../../rule/character/reason.md) on their next [strike](../../../rule/combat/strike.md).
 
-#### Shields of Essence {data-scc="mcdm.summoner.v1/feature.ability.summoner.level-1/shields-of-essence"}
+#### Shields of Essence {data-scc="mcdm.summoner.v1/feature.ability.summoner.level-1/shields-of-essence" data-cost="5 Essence"}
 
 *You call forth protective forces to keep you all from harm.*
 
@@ -95,7 +95,7 @@ The target's [strikes](../../../rule/combat/strike.md) can inflict I < WEAK [tau
 
 **Effect:** Until the end of the encounter, each target can use a [free triggered action](../../../rule/combat/triggered-action.md) whenever they take [damage](../../../rule/damage/damage.md) to reduce the incoming [damage](../../../rule/damage/damage.md) by half and then lose this effect.
 
-#### Summoner's Sword {data-scc="mcdm.summoner.v1/feature.ability.summoner.level-1/summoners-sword"}
+#### Summoner's Sword {data-scc="mcdm.summoner.v1/feature.ability.summoner.level-1/summoners-sword" data-cost="5 Essence"}
 
 *You draw your strength from the army you surround yourself with and summon a hot blade of energy and fervor.*
 

@@ -1,6 +1,9 @@
 ---
 action_type: feature
 ancestry: dragon-knight
+cost: 2 Points
+cost_amount: "2"
+cost_resource: Points
 feature_type: trait
 file_basename: draconian-pride
 file_dpath: feature/trait/dragon-knight
@@ -13,11 +16,13 @@ type: trait
 ---
 
 ```ds-feature
+cost: 2 Points
 effects:
     - effect: You have the following [signature ability](../../../rule/combat/signature-ability.md).
 feature_type: trait
 metadata:
     ancestry: dragon-knight
+    cost: 2 Points
     name: Draconian Pride
     scc: mcdm.heroes.v1/feature.trait.dragon-knight/draconian-pride
     type: trait

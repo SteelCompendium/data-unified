@@ -1,5 +1,6 @@
 ---
 ancestry: orc
+cost: 1 Point
 name: Bloodfire Rush
 scc: mcdm.heroes.v1/feature.trait.orc/bloodfire-rush
 type: trait

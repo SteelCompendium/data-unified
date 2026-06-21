@@ -354,7 +354,7 @@ You have mastered a range of [heroic abilities](../rule/general/heroic-ability.m
 
 Choose one [heroic ability](../rule/general/heroic-ability.md) from the following options, each of which costs 3 discipline to use. (*Quick Build:* [Chronal Spike](../feature/ability/null/level-1/chronal-spike.md).)
 
-##### Chronal Spike {data-scc="mcdm.heroes.v1/feature.ability.null.level-1/chronal-spike"}
+##### Chronal Spike {data-scc="mcdm.heroes.v1/feature.ability.null.level-1/chronal-spike" data-cost="3 Discipline"}
 
 
 *You foresee the best moment to strike, then exploit it.*
@@ -371,7 +371,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 **Effect:** You can [shift](../movement/shifting.md) up to half your [speed](../rule/character/speed.md) before or after you make this [strike](../rule/combat/strike.md). Additionally, whenever an effect lets you make a [free strike](../feature/common/main-actions/free-strike.md) or use a [signature ability](../rule/combat/signature-ability.md), you can use this ability instead, paying its discipline cost as usual.
 
-##### Psychic Pulse {data-scc="mcdm.heroes.v1/feature.ability.null.level-1/psychic-pulse"}
+##### Psychic Pulse {data-scc="mcdm.heroes.v1/feature.ability.null.level-1/psychic-pulse" data-cost="3 Discipline"}
 
 
 *A burst of psionic energy interferes with your enemy's synapses.*
@@ -382,7 +382,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 **Effect:** Each target takes psychic damage equal to twice your [Intuition](../rule/character/intuition.md) score. Until the start of your next [turn](../rule/combat/turn.md), the size of your [Null Field](../feature/null/level-1/null-field.md) ability increases by 1. At the end of your current [turn](../rule/combat/turn.md), each enemy in the area of your [Null Field](../feature/null/level-1/null-field.md) ability takes psychic damage equal to your [Intuition](../rule/character/intuition.md) score.
 
-##### Relentless Nemesis {data-scc="mcdm.heroes.v1/feature.ability.null.level-1/relentless-nemesis"}
+##### Relentless Nemesis {data-scc="mcdm.heroes.v1/feature.ability.null.level-1/relentless-nemesis" data-cost="3 Discipline"}
 
 
 *You strike, and for the next few moments, your enemy can't escape you.*
@@ -399,7 +399,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 **Effect:** Until the start of your next [turn](../rule/combat/turn.md), whenever the target finishes moving or being [force moved](../movement/forced-movement.md), you can use a free [triggered action](../rule/combat/triggered-action.md) to [shift](../movement/shifting.md) up to your [speed](../rule/character/speed.md). You must end this [shift](../movement/shifting.md) [adjacent](../rule/combat/adjacent.md) to the target.
 
-##### Stunning Blow {data-scc="mcdm.heroes.v1/feature.ability.null.level-1/stunning-blow"}
+##### Stunning Blow {data-scc="mcdm.heroes.v1/feature.ability.null.level-1/stunning-blow" data-cost="3 Discipline"}
 
 
 *You focus your psionic technique into a concussive punch.*
@@ -418,7 +418,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 Choose one [heroic ability](../rule/general/heroic-ability.md) from the following options, each of which costs 5 discipline to use. (*Quick Build:* [A Squad Unto Myself](../feature/ability/null/level-1/a-squad-unto-myself.md).)
 
-##### Arcane Disruptor {data-scc="mcdm.heroes.v1/feature.ability.null.level-1/arcane-disruptor"}
+##### Arcane Disruptor {data-scc="mcdm.heroes.v1/feature.ability.null.level-1/arcane-disruptor" data-cost="5 Discipline"}
 
 
 *Your blow reorders a foe's body, causing pain if they attempt to channel sorcery.*
@@ -435,7 +435,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 **Effect:** While [weakened](../condition/weakened.md) this way, the target takes damage equal to your [Intuition](../rule/character/intuition.md) score whenever they use a [supernatural](../rule/general/supernatural.md) ability that costs Malice.
 
-##### Impart Force {data-scc="mcdm.heroes.v1/feature.ability.null.level-1/impart-force"}
+##### Impart Force {data-scc="mcdm.heroes.v1/feature.ability.null.level-1/impart-force" data-cost="5 Discipline"}
 
 
 *A single touch from you, and your enemy flies backward.*
@@ -452,7 +452,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 **Effect:** An object you target must be your [size](../rule/character/size.md) or smaller. You gain an [edge](../rule/dice/edge.md) on this ability. Additionally, for each square you [push](../movement/forced-movement.md) the target, they take 1 psychic damage.
 
-##### Phase Strike {data-scc="mcdm.heroes.v1/feature.ability.null.level-1/phase-strike"}
+##### Phase Strike {data-scc="mcdm.heroes.v1/feature.ability.null.level-1/phase-strike" data-cost="5 Discipline"}
 
 
 *For a moment, your foe slips out of phase with this manifold.*
@@ -469,7 +469,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 **Effect:** A target who goes out of phase is [slowed](../condition/slowed.md), has their [stability](../rule/character/stability.md) reduced by 2, and can't obtain a tier 3 outcome on [ability rolls](../rule/dice/ability-roll.md).
 
-##### A Squad Unto Myself {data-scc="mcdm.heroes.v1/feature.ability.null.level-1/a-squad-unto-myself"}
+##### A Squad Unto Myself {data-scc="mcdm.heroes.v1/feature.ability.null.level-1/a-squad-unto-myself" data-cost="5 Discipline"}
 
 
 *You move so quickly, it seems as though an army assaulted your foes.*
@@ -528,7 +528,7 @@ Your [null tradition](../feature/null/level-1/null-tradition.md) grants your cho
 
 Choose one of the following abilities.
 
-##### Blur {data-scc="mcdm.heroes.v1/feature.ability.null.level-2/blur"}
+##### Blur {data-scc="mcdm.heroes.v1/feature.ability.null.level-2/blur" data-cost="5 Discipline"}
 
 
 *You release stored time, allowing you to act twice.*
@@ -539,7 +539,7 @@ Choose one of the following abilities.
 
 **Effect:** You can use a signature or [heroic ability](../rule/general/heroic-ability.md). You gain an [edge](../rule/dice/edge.md) on that ability's [power rolls](../rule/dice/power-roll.md).
 
-##### Force Redirected {data-scc="mcdm.heroes.v1/feature.ability.null.level-2/force-redirected"}
+##### Force Redirected {data-scc="mcdm.heroes.v1/feature.ability.null.level-2/force-redirected" data-cost="5 Discipline"}
 
 
 *The force of your [strike](../rule/combat/strike.md) moves your target in a surprising direction.*
@@ -558,7 +558,7 @@ Choose one of the following abilities.
 
 Choose one of the following [heroic abilities](../rule/general/heroic-ability.md).
 
-##### Entropic Field {data-scc="mcdm.heroes.v1/feature.ability.null.level-2/entropic-field"}
+##### Entropic Field {data-scc="mcdm.heroes.v1/feature.ability.null.level-2/entropic-field" data-cost="5 Discipline"}
 
 
 *You drastically increase the local entropy.*
@@ -573,7 +573,7 @@ Choose one of the following [heroic abilities](../rule/general/heroic-ability.md
 - **12-16:** 9 cold damage; A < AVERAGE, [slowed](../condition/slowed.md) (save ends)
 - **17+:** 13 cold damage; A < STRONG, [slowed](../condition/slowed.md) (save ends)
 
-##### Heat Sink {data-scc="mcdm.heroes.v1/feature.ability.null.level-2/heat-sink"}
+##### Heat Sink {data-scc="mcdm.heroes.v1/feature.ability.null.level-2/heat-sink" data-cost="5 Discipline"}
 
 
 *You absorb ambient heat, coating the ground in frost and precipitating snow from the air.*
@@ -588,7 +588,7 @@ Choose one of the following [heroic abilities](../rule/general/heroic-ability.md
 
 Choose one of the following abilities.
 
-##### Gravitic Strike {data-scc="mcdm.heroes.v1/feature.ability.null.level-2/gravitic-strike"}
+##### Gravitic Strike {data-scc="mcdm.heroes.v1/feature.ability.null.level-2/gravitic-strike" data-cost="5 Discipline"}
 
 
 *Your fist emanates gravitic force that pulls a distant enemy closer.*
@@ -603,7 +603,7 @@ Choose one of the following abilities.
 - **12-16:** 12 + A psychic damage; vertical [pull](../movement/forced-movement.md) 5
 - **17+:** 16 + A psychic damage; vertical [pull](../movement/forced-movement.md) 7
 
-##### Kinetic Shield {data-scc="mcdm.heroes.v1/feature.ability.null.level-2/kinetic-shield"}
+##### Kinetic Shield {data-scc="mcdm.heroes.v1/feature.ability.null.level-2/kinetic-shield" data-cost="5 Discipline"}
 
 
 *You manifest a force barrier that absorbs incoming kinetic energy.*
@@ -636,7 +636,7 @@ At the start of each of your [turns](../rule/combat/turn.md), you can use a free
 
 Choose one [heroic ability](../rule/general/heroic-ability.md) from the following options, each of which costs 7 discipline to use.
 
-#### Absorption Field {data-scc="mcdm.heroes.v1/feature.ability.null.level-3/absorption-field"}
+#### Absorption Field {data-scc="mcdm.heroes.v1/feature.ability.null.level-3/absorption-field" data-cost="7 Discipline"}
 
 
 *Your [null field](../feature/null/level-1/null-field.md) absorbs kinetic energy.*
@@ -647,7 +647,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 **Effect:** Until the end of the encounter, the size of your [Null Field](../feature/null/level-1/null-field.md) ability increases by 1. While the area of that ability is enlarged this way, each enemy in the area takes a [bane](../rule/dice/bane.md) on [ability rolls](../rule/dice/ability-roll.md).
 
-#### Molecular Rearrangement Field {data-scc="mcdm.heroes.v1/feature.ability.null.level-3/molecular-rearrangement-field"}
+#### Molecular Rearrangement Field {data-scc="mcdm.heroes.v1/feature.ability.null.level-3/molecular-rearrangement-field" data-cost="7 Discipline"}
 
 
 *Your enemies' wounds open, your allies' wounds close.*
@@ -658,7 +658,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 **Effect:** Until the end of the encounter, the size of your [Null Field](../feature/null/level-1/null-field.md) ability increases by 1. While the area of that ability is enlarged this way, each enemy who has I < AVERAGE and enters the area for the first time in a [combat round](../rule/combat/combat-round.md) or starts their turn there is [bleeding](../condition/bleeding.md) (save ends). Each ally who enters the area for the first time in a [combat round](../rule/combat/combat-round.md) or starts their turn there gains [temporary Stamina](../rule/health/temporary-stamina.md) equal to your [Intuition](../rule/character/intuition.md) score.
 
-#### Stabilizing Field {data-scc="mcdm.heroes.v1/feature.ability.null.level-3/stabilizing-field"}
+#### Stabilizing Field {data-scc="mcdm.heroes.v1/feature.ability.null.level-3/stabilizing-field" data-cost="7 Discipline"}
 
 
 *You project order, making it harder for your enemies to interfere with you and your allies.*
@@ -669,7 +669,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 **Effect:** Until the end of the encounter, the size of your [Null Field](../feature/null/level-1/null-field.md) ability increases by 1. While the area of that ability is enlarged this way, you ignore [difficult terrain](../movement/difficult-terrain.md) and reduce the [potency](../rule/character/potency.md) of enemy effects targeting you by 1 for you. You can also use a free [triggered action](../rule/combat/triggered-action.md) at the start of each of your turns to end one effect on you that is ended by a [saving throw](../rule/general/saving-throw.md) or that ends at the end of your [turn](../rule/combat/turn.md). Each ally in the area also gains these benefits.
 
-#### Synapse Field {data-scc="mcdm.heroes.v1/feature.ability.null.level-3/synapse-field"}
+#### Synapse Field {data-scc="mcdm.heroes.v1/feature.ability.null.level-3/synapse-field" data-cost="7 Discipline"}
 
 
 *Attacks made by allies in your [null field](../feature/null/level-1/null-field.md) disrupt your enemies' thoughts, causing psychic pain.*
@@ -740,7 +740,7 @@ If you're not [surprised](../rule/combat/surprised.md) at the start of your firs
 
 Choose one [heroic ability](../rule/general/heroic-ability.md) from the following options, each of which costs 9 discipline to use.
 
-#### Anticipating Strike {data-scc="mcdm.heroes.v1/feature.ability.null.level-5/anticipating-strike"}
+#### Anticipating Strike {data-scc="mcdm.heroes.v1/feature.ability.null.level-5/anticipating-strike" data-cost="9 Discipline"}
 
 
 *You suddenly strike an enemy, then grab them in a psionically enhanced grip.*
@@ -759,7 +759,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 **Effect:** This [strike](../rule/combat/strike.md) resolves before the triggering movement or main action.
 
-#### Iron Grip {data-scc="mcdm.heroes.v1/feature.ability.null.level-5/iron-grip"}
+#### Iron Grip {data-scc="mcdm.heroes.v1/feature.ability.null.level-5/iron-grip" data-cost="9 Discipline"}
 
 
 *You grab the target with [supernatural](../rule/general/supernatural.md) force.*
@@ -776,7 +776,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 **Effect:** While [grabbed](../condition/grabbed.md) this way, the target takes a [bane](../rule/dice/bane.md) on the [Escape Grab](../feature/common/maneuvers/escape-grab.md) maneuver. Each time they use that maneuver, they take damage equal to twice your [Agility](../rule/character/agility.md) score.
 
-#### Phase Leap {data-scc="mcdm.heroes.v1/feature.ability.null.level-5/phase-leap"}
+#### Phase Leap {data-scc="mcdm.heroes.v1/feature.ability.null.level-5/phase-leap" data-cost="9 Discipline"}
 
 
 *You leap beyond reality, leaving an afterimage of yourself.*
@@ -787,7 +787,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 **Effect:** You jump up to your [speed](../rule/character/speed.md) without provoking [opportunity attacks](../rule/combat/opportunity-attack.md). Until the end of your next [turn](../rule/combat/turn.md), a static afterimage of you remains in the space you left, and any enemy [adjacent](../rule/combat/adjacent.md) to your afterimage takes a [bane](../rule/dice/bane.md) on [ability rolls](../rule/dice/ability-roll.md). You can use your abilities from your own space or from the space of your afterimage as if you were still there. Additionally, if your [Null Field](../feature/null/level-1/null-field.md) ability is active, your afterimage also projects the [aura](../rule/combat/aura.md) from that ability, which you control as if you were in the afterimage's space.
 
-#### Synaptic Reset {data-scc="mcdm.heroes.v1/feature.ability.null.level-5/synaptic-reset"}
+#### Synaptic Reset {data-scc="mcdm.heroes.v1/feature.ability.null.level-5/synaptic-reset" data-cost="9 Discipline"}
 
 
 *You expand your nullifying power to mitigate harmful effects.*
@@ -822,7 +822,7 @@ Your [null tradition](../feature/null/level-1/null-tradition.md) grants your cho
 
 Choose one of the following abilities.
 
-##### Interphase {data-scc="mcdm.heroes.v1/feature.ability.null.level-6/interphase"}
+##### Interphase {data-scc="mcdm.heroes.v1/feature.ability.null.level-6/interphase" data-cost="9 Discipline"}
 
 
 *You slip into a faster timestream to act more quickly.*
@@ -833,7 +833,7 @@ Choose one of the following abilities.
 
 **Effect:** You can use up to three [signature abilities](../rule/combat/signature-ability.md), each of which gains an [edge](../rule/dice/edge.md).
 
-##### Phase Step {data-scc="mcdm.heroes.v1/feature.ability.null.level-6/phase-step"}
+##### Phase Step {data-scc="mcdm.heroes.v1/feature.ability.null.level-6/phase-step" data-cost="9 Discipline"}
 
 
 *You weaken your connection to this manifold, allowing you to move through and damage enemies.*
@@ -854,7 +854,7 @@ Choose one of the following abilities.
 
 Choose one of the following abilities.
 
-##### Ice Pillars {data-scc="mcdm.heroes.v1/feature.ability.null.level-6/ice-pillars"}
+##### Ice Pillars {data-scc="mcdm.heroes.v1/feature.ability.null.level-6/ice-pillars" data-cost="9 Discipline"}
 
 
 *Pillars of ice erupt from the ground and launch your foes into the air.*
@@ -871,7 +871,7 @@ Choose one of the following abilities.
 
 **Effect:** The pillars vanish as soon as the effects of the [forced movement](../movement/forced-movement.md) are resolved.
 
-##### Wall of Ice {data-scc="mcdm.heroes.v1/feature.ability.null.level-6/wall-of-ice"}
+##### Wall of Ice {data-scc="mcdm.heroes.v1/feature.ability.null.level-6/wall-of-ice" data-cost="9 Discipline"}
 
 
 *You create a [wall of ice](../feature/ability/null/level-6/wall-of-ice.md).*
@@ -886,7 +886,7 @@ Choose one of the following abilities.
 
 Choose one of the following abilities.
 
-##### Gravitic Charge {data-scc="mcdm.heroes.v1/feature.ability.null.level-6/gravitic-charge"}
+##### Gravitic Charge {data-scc="mcdm.heroes.v1/feature.ability.null.level-6/gravitic-charge" data-cost="9 Discipline"}
 
 
 *You channel your discipline into momentum that defies gravity.*
@@ -903,7 +903,7 @@ Choose one of the following abilities.
 
 **Effect:** This movement ignores [stability](../rule/character/stability.md). If you [slide](../movement/forced-movement.md) into another creature, you resolve damage to both of you as if your [force move](../movement/forced-movement.md)ment had ended, but you keep moving through that creature's space.
 
-##### Iron Body {data-scc="mcdm.heroes.v1/feature.ability.null.level-6/iron-body"}
+##### Iron Body {data-scc="mcdm.heroes.v1/feature.ability.null.level-6/iron-body" data-cost="9 Discipline"}
 
 
 *You focus until your body becomes as hard as iron.*
@@ -930,31 +930,31 @@ Your [Discipline Mastery](../feature/null/level-1/discipline-mastery.md) feature
 
 Whenever you use an ability that is a main action or a maneuver with the Psionic keyword, you can spend additional discipline to apply a [psi boost](../feature/null/level-7/psi-boost.md) to it and enhance its effects. A [psi boost](../feature/null/level-7/psi-boost.md)'s effects only last until the end of the [turn](../rule/combat/turn.md) which the ability is first used. You can apply multiple psi boosts to an ability, but only one instance of each specific boost. You can use the following psi boosts.
 
-#### Dynamic Power {data-scc="mcdm.heroes.v1/feature.null.level-7/dynamic-power"}
+#### Dynamic Power {data-scc="mcdm.heroes.v1/feature.null.level-7/dynamic-power" data-cost="1 Discipline"}
 
 If the ability force moves a target, the [forced movement](../movement/forced-movement.md) [distance](../rule/combat/distance.md) gains a [bonus](../rule/dice/bonuses-and-penalties.md) equal to your [Intuition](../rule/character/intuition.md) score.
 
-#### Expanded Power {data-scc="mcdm.heroes.v1/feature.null.level-7/expanded-power"}
+#### Expanded Power {data-scc="mcdm.heroes.v1/feature.null.level-7/expanded-power" data-cost="3 Discipline"}
 
 If the ability targets an area, you increase the size of the area by 1. If the area is a line, you increase the size of one dimension, not both.
 
-#### Extended Power {data-scc="mcdm.heroes.v1/feature.null.level-7/extended-power"}
+#### Extended Power {data-scc="mcdm.heroes.v1/feature.null.level-7/extended-power" data-cost="1 Discipline"}
 
 If the ability is [ranged](../rule/combat/ranged.md), the [distance](../rule/combat/distance.md) gains a [bonus](../rule/dice/bonuses-and-penalties.md) equal to your [Intuition](../rule/character/intuition.md) score. If the ability is [melee](../rule/combat/melee.md), the [distance](../rule/combat/distance.md) gains a +2 [bonus](../rule/dice/bonuses-and-penalties.md).
 
-#### Heightened Power {data-scc="mcdm.heroes.v1/feature.null.level-7/heightened-power"}
+#### Heightened Power {data-scc="mcdm.heroes.v1/feature.null.level-7/heightened-power" data-cost="1 Discipline"}
 
 If the ability deals [rolled damage](../rule/damage/rolled-damage.md), it deals extra damage equal to your [Intuition](../rule/character/intuition.md) score.
 
-#### Magnified Power {data-scc="mcdm.heroes.v1/feature.null.level-7/magnified-power"}
+#### Magnified Power {data-scc="mcdm.heroes.v1/feature.null.level-7/magnified-power" data-cost="5 Discipline"}
 
 If the ability has a [potency](../rule/character/potency.md), you increase that [potency](../rule/character/potency.md) by an amount equal to your [Intuition](../rule/character/intuition.md) score.
 
-#### Shared Power {data-scc="mcdm.heroes.v1/feature.null.level-7/shared-power"}
+#### Shared Power {data-scc="mcdm.heroes.v1/feature.null.level-7/shared-power" data-cost="5 Discipline"}
 
 If the ability targets individual creatures or objects, you target one additional creature or object within [distance](../rule/combat/distance.md).
 
-#### Sharpened Power {data-scc="mcdm.heroes.v1/feature.null.level-7/sharpened-power"}
+#### Sharpened Power {data-scc="mcdm.heroes.v1/feature.null.level-7/sharpened-power" data-cost="1 Discipline"}
 
 If the ability has any [power roll](../rule/dice/power-roll.md), that roll gains an [edge](../rule/dice/edge.md).
 
@@ -1002,7 +1002,7 @@ As a [free maneuver](../rule/combat/free-maneuver.md), you can spend 1d6 [Stamin
 
 Choose one [heroic ability](../rule/general/heroic-ability.md) from the following options, each of which costs 11 discipline to use.
 
-#### Arcane Purge {data-scc="mcdm.heroes.v1/feature.ability.null.level-8/arcane-purge"}
+#### Arcane Purge {data-scc="mcdm.heroes.v1/feature.ability.null.level-8/arcane-purge" data-cost="11 Discipline"}
 
 
 *You focus your [null field](../feature/null/level-1/null-field.md) into a pressure point strike that prevents your foe from channeling sorcery.*
@@ -1019,7 +1019,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 **Effect:** While suppressed, a target takes psychic damage equal to twice your [Intuition](../rule/character/intuition.md) score at the start of their [turns](../rule/combat/turn.md), whenever they use a [supernatural](../rule/general/supernatural.md) ability, or whenever they use an ability that costs Malice.
 
-#### Phase Hurl {data-scc="mcdm.heroes.v1/feature.ability.null.level-8/phase-hurl"}
+#### Phase Hurl {data-scc="mcdm.heroes.v1/feature.ability.null.level-8/phase-hurl" data-cost="11 Discipline"}
 
 
 *You throw your foe out of phase with this manifold, causing them to harm other enemies as they return.*
@@ -1036,7 +1036,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 **Effect:** The target and each creature or object they collide with from this [forced movement](../movement/forced-movement.md) takes psychic damage equal to the total number of squares the target was force moved. While the target is [dazed](../condition/dazed.md) this way, they see glimpses of creatures from other parts of the timescape.
 
-#### Scalar Assault {data-scc="mcdm.heroes.v1/feature.ability.null.level-8/scalar-assault"}
+#### Scalar Assault {data-scc="mcdm.heroes.v1/feature.ability.null.level-8/scalar-assault" data-cost="11 Discipline"}
 
 
 *You warp reality to grow a limb for just a moment and make a single devastating attack.*
@@ -1051,7 +1051,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 - **12-16:** 17 psychic damage; [push](../movement/forced-movement.md) 5
 - **17+:** 23 psychic damage; [push](../movement/forced-movement.md) 7
 
-#### Synaptic Anchor {data-scc="mcdm.heroes.v1/feature.ability.null.level-8/synaptic-anchor"}
+#### Synaptic Anchor {data-scc="mcdm.heroes.v1/feature.ability.null.level-8/synaptic-anchor" data-cost="11 Discipline"}
 
 
 *You disrupt an enemy's strike and create a [feedback loop](../feature/ability/talent/level-1/feedback-loop.md) in their mind, preventing them from focusing on future attacks.*
@@ -1080,7 +1080,7 @@ Your [null tradition](../feature/null/level-1/null-tradition.md) grants your cho
 
 Choose one of the following abilities.
 
-##### Arrestor Cycle {data-scc="mcdm.heroes.v1/feature.ability.null.level-9/arrestor-cycle"}
+##### Arrestor Cycle {data-scc="mcdm.heroes.v1/feature.ability.null.level-9/arrestor-cycle" data-cost="11 Discipline"}
 
 
 *You trap your foe in a looping cycle of time, where they relive the last few seconds over and over again.*
@@ -1099,7 +1099,7 @@ Choose one of the following abilities.
 
 **Effect:** If the target loses their [turn](../rule/combat/turn.md), the round continues as if they had acted. A target who doesn't lose their [turn](../rule/combat/turn.md) takes psychic damage equal to twice your [Intuition](../rule/character/intuition.md) score for each main action they take until the end of their next [turn](../rule/combat/turn.md).
 
-##### Time Loop {data-scc="mcdm.heroes.v1/feature.ability.null.level-9/time-loop"}
+##### Time Loop {data-scc="mcdm.heroes.v1/feature.ability.null.level-9/time-loop" data-cost="11 Discipline"}
 
 
 *You show shadows what true [speed](../rule/character/speed.md) is.*
@@ -1116,7 +1116,7 @@ Choose one of the following abilities.
 
 Choose one of the following abilities.
 
-##### Absolute Zero {data-scc="mcdm.heroes.v1/feature.ability.null.level-9/absolute-zero"}
+##### Absolute Zero {data-scc="mcdm.heroes.v1/feature.ability.null.level-9/absolute-zero" data-cost="11 Discipline"}
 
 
 *You become the coldest thing in the timescape.*
@@ -1133,7 +1133,7 @@ Choose one of the following abilities.
 
 **Effect:** Until the end of the encounter or until you are dead, you become an avatar of uttermost cold. You gain immunity to all damage equal to the cold [damage immunity](../rule/damage/damage-immunity.md) granted by your [Entropic Adaptability](../feature/null/level-2/entropic-adaptability.md) trait, you ignore the negative effects of [dying](../rule/health/dying.md), and you have a +2 [bonus](../rule/dice/bonuses-and-penalties.md) to [potencies](../rule/character/potency.md).
 
-##### Heat Drain {data-scc="mcdm.heroes.v1/feature.ability.null.level-9/heat-drain"}
+##### Heat Drain {data-scc="mcdm.heroes.v1/feature.ability.null.level-9/heat-drain" data-cost="11 Discipline"}
 
 
 *You drain all the heat from the target.*
@@ -1154,7 +1154,7 @@ Choose one of the following abilities.
 
 Choose one of the following abilities.
 
-##### Inertial Absorption {data-scc="mcdm.heroes.v1/feature.ability.null.level-9/inertial-absorption"}
+##### Inertial Absorption {data-scc="mcdm.heroes.v1/feature.ability.null.level-9/inertial-absorption" data-cost="11 Discipline"}
 
 
 *You absorb an attack to empower your body.*
@@ -1167,7 +1167,7 @@ Choose one of the following abilities.
 
 **Effect:** You take half the damage, negate any effects associated with the damage for you, and gain 3 [surges](../rule/resource/surge.md).
 
-##### Realitas {data-scc="mcdm.heroes.v1/feature.ability.null.level-9/realitas"}
+##### Realitas {data-scc="mcdm.heroes.v1/feature.ability.null.level-9/realitas" data-cost="11 Discipline"}
 
 
 *Your essential hyperreality disrupts your enemy's connection to existence.*

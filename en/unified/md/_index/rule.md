@@ -1,6 +1,6 @@
 # Rule Index
 
-Total: 150
+Total: 151
 
 - [Ability Keywords](../rule/general/ability.md)
 - [Ability Roll](../rule/dice/ability-roll.md)
@@ -57,6 +57,7 @@ Total: 150
 - [Falling](../rule/health/falling.md)
 - [Fey](../rule/keyword/fey.md)
 - [Flanking](../rule/combat/flanking.md)
+- [Follower Types](../rule/general/follower-types.md)
 - [For the Director: Project Events](../rule/downtime/project-event.md)
 - [Free Maneuvers](../rule/combat/free-maneuver.md)
 - [Giant](../rule/keyword/giant.md)

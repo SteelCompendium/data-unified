@@ -1,5 +1,6 @@
 ---
 ancestry: dwarf
+cost: 1 Point
 name: Stand Tough
 scc: mcdm.heroes.v1/feature.trait.dwarf/stand-tough
 type: trait

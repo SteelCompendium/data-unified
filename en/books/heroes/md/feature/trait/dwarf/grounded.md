@@ -1,5 +1,6 @@
 ---
 ancestry: dwarf
+cost: 1 Point
 name: Grounded
 scc: mcdm.heroes.v1/feature.trait.dwarf/grounded
 type: trait

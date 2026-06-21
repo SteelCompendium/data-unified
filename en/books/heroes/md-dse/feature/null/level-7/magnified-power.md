@@ -1,6 +1,9 @@
 ---
 action_type: feature
 class: "null"
+cost: 5 Discipline
+cost_amount: "5"
+cost_resource: Discipline
 feature_type: feature
 file_basename: magnified-power
 file_dpath: feature/null/level-7
@@ -14,11 +17,13 @@ type: feature
 ---
 
 ```ds-feature
+cost: 5 Discipline
 effects:
     - effect: If the ability has a [potency](scc.v1:mcdm.heroes.v1/rule.character/potency), you increase that [potency](scc.v1:mcdm.heroes.v1/rule.character/potency) by an amount equal to your [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition) score.
 feature_type: feature
 metadata:
     class: "null"
+    cost: 5 Discipline
     level: "7"
     name: Magnified Power
     scc: mcdm.heroes.v1/feature.null.level-7/magnified-power

@@ -1,6 +1,6 @@
 # Featureblock Index
 
-Total: 116
+Total: 117
 
 - [Ajax's Malice](../monster/ajax-the-invincible/ajaxs-malice.md)
 - [Ambusher Abilities](../monster/retainer/role-advancement/ambusher.md)
@@ -30,6 +30,7 @@ Total: 116
 - [Demon Malice (Level 4+ Malice Features)](../monster/demon/2nd-echelon/demon-malice-level-4-malice-features.md)
 - [Demon Malice (Level 7+ Malice Features)](../monster/demon/3rd-echelon/demon-malice-level-7-malice-features.md)
 - [Devil Defector Advancement Features](../monster/retainer/advancement-features/devil-defector.md)
+- [Devil Detective Advancement Features](../monster/retainer/advancement-features/devil-detective.md)
 - [Devil Malice](../monster/devil/devil-malice.md)
 - [Draconian Malice](../monster/draconian/draconian-malice.md)
 - [Drake Advancement Features](../monster/companion/beastheart/advancement-features/drake.md)

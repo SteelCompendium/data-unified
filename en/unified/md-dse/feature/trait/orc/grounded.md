@@ -1,6 +1,9 @@
 ---
 action_type: feature
 ancestry: orc
+cost: 1 Point
+cost_amount: "1"
+cost_resource: Point
 feature_type: trait
 file_basename: grounded
 file_dpath: feature/trait/orc
@@ -13,11 +16,13 @@ type: trait
 ---
 
 ```ds-feature
+cost: 1 Point
 effects:
     - effect: The magic in your blood makes it difficult for others to move you. You have a +1 [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to [stability](scc.v1:mcdm.heroes.v1/rule.character/stability).
 feature_type: trait
 metadata:
     ancestry: orc
+    cost: 1 Point
     name: Grounded
     scc: mcdm.heroes.v1/feature.trait.orc/grounded
     type: trait

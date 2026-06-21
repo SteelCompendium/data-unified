@@ -1,6 +1,9 @@
 ---
 action_type: feature
 ancestry: hakaan
+cost: 2 Points
+cost_amount: "2"
+cost_resource: Points
 feature_type: trait
 file_basename: doomsight
 file_dpath: feature/trait/hakaan
@@ -13,6 +16,7 @@ type: trait
 ---
 
 ```ds-feature
+cost: 2 Points
 effects:
     - effect: |-
         Working with your Director, you can predetermine an encounter in which you will die. When that encounter begins, you become doomed. While doomed, you automatically obtain a tier 3 outcome on [tests](scc.v1:mcdm.heroes.v1/rule.test/test) and [ability rolls](scc.v1:mcdm.heroes.v1/rule.dice/ability-roll), and you don't die no matter how low your [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) falls. You then die immediately at the end of the encounter, and can't be returned to life by any means.
@@ -23,6 +27,7 @@ effects:
 feature_type: trait
 metadata:
     ancestry: hakaan
+    cost: 2 Points
     name: Doomsight
     scc: mcdm.heroes.v1/feature.trait.hakaan/doomsight
     type: trait

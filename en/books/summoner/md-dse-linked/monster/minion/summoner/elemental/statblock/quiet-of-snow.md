@@ -14,9 +14,9 @@ intuition: 0
 item_id: quiet-of-snow
 item_name: Quiet of Snow
 keywords:
-    - Elemental (Air
-    - Rot
-    - Water)
+    - Elemental (Air)
+    - Elemental (Rot)
+    - Elemental (Water)
 might: -1
 movement: Fly, hover
 name: Quiet of Snow

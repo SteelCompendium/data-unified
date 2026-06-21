@@ -1,6 +1,9 @@
 ---
 action_type: feature
 ancestry: hakaan
+cost: 1 Point
+cost_amount: "1"
+cost_resource: Point
 feature_type: trait
 file_basename: forceful
 file_dpath: feature/trait/hakaan
@@ -13,11 +16,13 @@ type: trait
 ---
 
 ```ds-feature
+cost: 1 Point
 effects:
     - effect: Whenever you [force move](scc.v1:mcdm.heroes.v1/movement/forced-movement) a creature or object, the [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance) gains a +1 [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties).
 feature_type: trait
 metadata:
     ancestry: hakaan
+    cost: 1 Point
     name: Forceful
     scc: mcdm.heroes.v1/feature.trait.hakaan/forceful
     type: trait

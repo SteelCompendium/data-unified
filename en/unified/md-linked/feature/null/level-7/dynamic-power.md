@@ -1,5 +1,6 @@
 ---
 class: "null"
+cost: 1 Discipline
 level: "7"
 name: Dynamic Power
 scc: mcdm.heroes.v1/feature.null.level-7/dynamic-power

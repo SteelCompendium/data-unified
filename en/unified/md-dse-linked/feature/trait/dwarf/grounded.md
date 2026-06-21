@@ -1,6 +1,9 @@
 ---
 action_type: feature
 ancestry: dwarf
+cost: 1 Point
+cost_amount: "1"
+cost_resource: Point
 feature_type: trait
 file_basename: grounded
 file_dpath: feature/trait/dwarf
@@ -13,11 +16,13 @@ type: trait
 ---
 
 ```ds-feature
+cost: 1 Point
 effects:
     - effect: Your heavy stone body and connection to the earth make it difficult for others to move you. You have a +1 [bonus](../../../rule/dice/bonuses-and-penalties.md) to [stability](../../../rule/character/stability.md).
 feature_type: trait
 metadata:
     ancestry: dwarf
+    cost: 1 Point
     name: Grounded
     scc: mcdm.heroes.v1/feature.trait.dwarf/grounded
     type: trait

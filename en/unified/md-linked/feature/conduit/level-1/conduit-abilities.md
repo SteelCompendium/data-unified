@@ -150,7 +150,7 @@ You make use of a number of [heroic abilities](../../../rule/general/heroic-abil
 
 Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the following options, each of which costs 3 piety to use. (*Quick Build:* [Violence Will Not Aid Thee](../../ability/conduit/level-1/violence-will-not-aid-thee.md).)
 
-### Call the Thunder Down {data-scc="mcdm.heroes.v1/feature.ability.conduit.level-1/call-the-thunder-down"}
+### Call the Thunder Down {data-scc="mcdm.heroes.v1/feature.ability.conduit.level-1/call-the-thunder-down" data-cost="3 Piety"}
 
 
 *You ask your [saint](../../../rule/world/saint.md) for thunder and your prayer is answered.*
@@ -167,7 +167,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 **Effect:** You can [push](../../../movement/forced-movement.md) each willing ally in the area the same [distance](../../../rule/combat/distance.md), ignoring [stability](../../../rule/character/stability.md).
 
-### Font of Wrath {data-scc="mcdm.heroes.v1/feature.ability.conduit.level-1/font-of-wrath"}
+### Font of Wrath {data-scc="mcdm.heroes.v1/feature.ability.conduit.level-1/font-of-wrath" data-cost="3 Piety"}
 
 
 *A brilliant column of holy light appears on the battlefield, striking out at nearby enemies.*
@@ -178,7 +178,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 **Effect:** You summon a spirit of [size](../../../rule/character/size.md) 2 who can't be harmed, and who appears in an unoccupied space within [distance](../../../rule/combat/distance.md). The spirit lasts until the end of your next [turn](../../../rule/combat/turn.md). You and your allies can move through the spirit's space, but enemies can't. Any enemy who moves within 2 squares of the spirit for the first time in a [combat round](../../../rule/combat/combat-round.md) or starts their turn there takes holy damage equal to your [Intuition](../../../rule/character/intuition.md) score.
 
-### Judgment's Hammer {data-scc="mcdm.heroes.v1/feature.ability.conduit.level-1/judgments-hammer"}
+### Judgment's Hammer {data-scc="mcdm.heroes.v1/feature.ability.conduit.level-1/judgments-hammer" data-cost="3 Piety"}
 
 
 *Your divine [fury](../../../class/fury.md) is a hammer that crashes down upon the unrighteous.*
@@ -193,7 +193,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 - **12-16:** 6 + I holy damage; A < AVERAGE[, prone](../../../condition/prone.md)
 - **17+:** 9 + I holy damage; A < STRONG, [prone and](../../../condition/prone.md) can't stand (save ends)
 
-### Violence Will Not Aid Thee {data-scc="mcdm.heroes.v1/feature.ability.conduit.level-1/violence-will-not-aid-thee"}
+### Violence Will Not Aid Thee {data-scc="mcdm.heroes.v1/feature.ability.conduit.level-1/violence-will-not-aid-thee" data-cost="3 Piety"}
 
 
 *After some holy lightning, your enemy will think twice about their next attack.*
@@ -214,7 +214,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the following options, each of which costs 5 piety to use. (*Quick Build:* [Curse of Terror](../../ability/conduit/level-1/curse-of-terror.md).)
 
-### Corruption's Curse {data-scc="mcdm.heroes.v1/feature.ability.conduit.level-1/corruptions-curse"}
+### Corruption's Curse {data-scc="mcdm.heroes.v1/feature.ability.conduit.level-1/corruptions-curse" data-cost="5 Piety"}
 
 
 *Cursed by you, your enemy takes more damage from your allies.*
@@ -229,7 +229,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 - **12-16:** 6 + I corruption damage; M < AVERAGE, [damage weakness](../../../rule/damage/damage-weakness.md) 5 (save ends)
 - **17+:** 9 + I corruption damage; M < STRONG, [damage weakness](../../../rule/damage/damage-weakness.md) 5 (save ends)
 
-### Curse of Terror {data-scc="mcdm.heroes.v1/feature.ability.conduit.level-1/curse-of-terror"}
+### Curse of Terror {data-scc="mcdm.heroes.v1/feature.ability.conduit.level-1/curse-of-terror" data-cost="5 Piety"}
 
 
 *Fear of divine judgment overwhelms your foe.*
@@ -244,7 +244,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 - **12-16:** 9 + I holy damage; I < AVERAGE, [frightened](../../../condition/frightened.md) (save ends)
 - **17+:** 13 + I holy damage; I < STRONG, [frightened](../../../condition/frightened.md) (save ends)
 
-### Faith Is Our Armor {data-scc="mcdm.heroes.v1/feature.ability.conduit.level-1/faith-is-our-armor"}
+### Faith Is Our Armor {data-scc="mcdm.heroes.v1/feature.ability.conduit.level-1/faith-is-our-armor" data-cost="5 Piety"}
 
 
 *The heroes' armor glows with golden light, granting divine protection.*
@@ -261,7 +261,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 - **12-16:** The target gains 10 [temporary Stamina](../../../rule/health/temporary-stamina.md).
 - **17+:** The target gains 15 [temporary Stamina](../../../rule/health/temporary-stamina.md).
 
-### Sermon of Grace {data-scc="mcdm.heroes.v1/feature.ability.conduit.level-1/sermon-of-grace"}
+### Sermon of Grace {data-scc="mcdm.heroes.v1/feature.ability.conduit.level-1/sermon-of-grace" data-cost="5 Piety"}
 
 
 *You inspire your allies with tales of your [saint](../../../rule/world/saint.md)'s great deeds.*

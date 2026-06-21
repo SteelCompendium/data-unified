@@ -1,0 +1,58 @@
+---
+agility: -1
+cost: 3 Malice for three minions
+cost_amount: "3"
+cost_resource: Malice for three minions
+file_basename: accursed-mummy
+file_dpath: monster/rival/1st-echelon/summoner/minion/statblock
+free_strike: 3
+immunities:
+    - Corruption 2
+    - poison 2
+intuition: 3
+item_id: accursed-mummy
+item_name: Accursed Mummy
+keywords:
+    - Mummy
+    - Undead
+might: 2
+movement: —
+name: Accursed Mummy
+organization: Minion
+presence: -1
+reason: 1
+role: Hexer
+scc: mcdm.summoner.v1/monster.rival.1st-echelon.summoner.minion.statblock/accursed-mummy
+size: 1M
+source: mcdm.summoner.v1
+speed: 5
+stability: 2
+stamina: 4 | 4 | 4
+type: statblock
+weaknesses:
+    - Fire 1
+---
+
+| Mummy, Undead | - | - | Minion Hexer | 3 Malice for three minions |
+|:-:|:-------------:|:------------:|:-:|:--------------------------:|
+| **1M**<br>Size | **5**<br>Speed | **4 \| 4 \| 4**<br>Stamina | **2**<br>Stability | **3**<br>Free Strike |
+| **Corruption 2, poison 2**<br>Immunity | **—**<br>Movement | - | **Fire 1**<br>Weakness | **Poison**<br>Free Strike Damage Type |
+| **+2**<br>Might | **-1**<br>Agility | **+1**<br>Reason | **+3**<br>Intuition | **-1**<br>Presence |
+
+> 🗡 **Fetid Bindings 2d10 + 3 (Signature Ability)**
+>
+> | **Melee, Strike, Weapon** | **Main action** |
+> |---------------------------|----------------:|
+> | **📏 Melee 2** | **🎯 One creature or object per minion** |
+>
+> 3 poison damage; [pull](../../../../../../movement/forced-movement.md) 2
+>
+> 4 poison damage; [pull](../../../../../../movement/forced-movement.md) 3
+>
+> 6 poison damage; [pull](../../../../../../movement/forced-movement.md) 4
+>
+> **Effect:** A target pulled [adjacent](../../../../../../rule/combat/adjacent.md) to the mummy is M < 2 [weakened](../../../../../../condition/weakened.md) ([EoT](../../../../../../rule/combat/end-of-turn.md)).
+
+> ⭐️ **Mummy Dust**
+>
+> Whenever the mummy takes damage, each enemy [adjacent](../../../../../../rule/combat/adjacent.md) to the mummy takes 2 poison damage.

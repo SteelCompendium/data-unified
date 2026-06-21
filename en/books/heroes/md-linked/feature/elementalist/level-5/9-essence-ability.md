@@ -8,7 +8,7 @@ type: feature
 
 Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the following options, each of which costs 9 essence to use.
 
-## Combustion Deferred {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-5/combustion-deferred"}
+## Combustion Deferred {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-5/combustion-deferred" data-cost="9 Essence"}
 
 
 *Your flames dance from kindling to kindling to kindling.*
@@ -25,7 +25,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 **Effect:** When the target ends their next [turn](../../../rule/combat/turn.md), or if they drop to 0 [Stamina](../../../rule/health/stamina.md) before then, each enemy [adjacent](../../../rule/combat/adjacent.md) to them takes fire damage equal to twice your [Reason](../../../rule/character/reason.md) score. Each affected enemy then gains this same effect.
 
-## Storm of Sands {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-5/storm-of-sands"}
+## Storm of Sands {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-5/storm-of-sands" data-cost="9 Essence"}
 
 
 *Dirt and debris swirl into a dark, pulsing hurricane.*
@@ -44,7 +44,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 **Persistent 1:** The area remains until the start of your next [turn](../../../rule/combat/turn.md), and you can move it up to 5 squares (no action required). As a maneuver, you can make the [power roll](../../../rule/dice/power-roll.md) again without spending essence.
 
-## Subverted Perception of Space {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-5/subverted-perception-of-space"}
+## Subverted Perception of Space {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-5/subverted-perception-of-space" data-cost="9 Essence"}
 
 
 *You rip an enemy's world in twain.*
@@ -59,7 +59,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 - **12-16:** 10 + R corruption damage; the target has [line of effect](../../../rule/combat/line-of-effect.md) only to creatures and objects within 4 squares of them until the start of your next [turn](../../../rule/combat/turn.md)
 - **17+:** 15 + R corruption damage; the target has [line of effect](../../../rule/combat/line-of-effect.md) only to [adjacent](../../../rule/combat/adjacent.md) creatures and objects until the start of your next [turn](../../../rule/combat/turn.md)
 
-## Web of All That's Come Before {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-5/web-of-all-thats-come-before"}
+## Web of All That's Come Before {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-5/web-of-all-thats-come-before" data-cost="9 Essence"}
 
 
 *Threads you've been weaving through your adventures create a vibrant, pearlescent web.*

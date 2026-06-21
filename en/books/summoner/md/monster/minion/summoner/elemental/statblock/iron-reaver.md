@@ -7,9 +7,9 @@ immunities:
     - Poison R
 intuition: 0
 keywords:
-    - Elemental (Earth
-    - Fire
-    - Void)
+    - Elemental (Earth)
+    - Elemental (Fire)
+    - Elemental (Void)
 might: 3
 movement: Burrow
 name: Iron Reaver

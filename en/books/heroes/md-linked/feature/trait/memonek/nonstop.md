@@ -1,5 +1,6 @@
 ---
 ancestry: memonek
+cost: 2 Points
 name: Nonstop
 scc: mcdm.heroes.v1/feature.trait.memonek/nonstop
 type: trait

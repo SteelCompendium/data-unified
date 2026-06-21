@@ -1,5 +1,6 @@
 ---
 ancestry: dwarf
+cost: 2 Points
 name: Great Fortitude
 scc: mcdm.heroes.v1/feature.trait.dwarf/great-fortitude
 type: trait

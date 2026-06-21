@@ -12,7 +12,7 @@ Your [null tradition](../level-1/null-tradition.md) grants your choice of one of
 
 Choose one of the following abilities.
 
-### Blur {data-scc="mcdm.heroes.v1/feature.ability.null.level-2/blur"}
+### Blur {data-scc="mcdm.heroes.v1/feature.ability.null.level-2/blur" data-cost="5 Discipline"}
 
 
 *You release stored time, allowing you to act twice.*
@@ -23,7 +23,7 @@ Choose one of the following abilities.
 
 **Effect:** You can use a signature or [heroic ability](../../../rule/general/heroic-ability.md). You gain an [edge](../../../rule/dice/edge.md) on that ability's [power rolls](../../../rule/dice/power-roll.md).
 
-### Force Redirected {data-scc="mcdm.heroes.v1/feature.ability.null.level-2/force-redirected"}
+### Force Redirected {data-scc="mcdm.heroes.v1/feature.ability.null.level-2/force-redirected" data-cost="5 Discipline"}
 
 
 *The force of your [strike](../../../rule/combat/strike.md) moves your target in a surprising direction.*
@@ -42,7 +42,7 @@ Choose one of the following abilities.
 
 Choose one of the following [heroic abilities](../../../rule/general/heroic-ability.md).
 
-### Entropic Field {data-scc="mcdm.heroes.v1/feature.ability.null.level-2/entropic-field"}
+### Entropic Field {data-scc="mcdm.heroes.v1/feature.ability.null.level-2/entropic-field" data-cost="5 Discipline"}
 
 
 *You drastically increase the local entropy.*
@@ -57,7 +57,7 @@ Choose one of the following [heroic abilities](../../../rule/general/heroic-abil
 - **12-16:** 9 cold damage; A < AVERAGE, [slowed](../../../condition/slowed.md) (save ends)
 - **17+:** 13 cold damage; A < STRONG, [slowed](../../../condition/slowed.md) (save ends)
 
-### Heat Sink {data-scc="mcdm.heroes.v1/feature.ability.null.level-2/heat-sink"}
+### Heat Sink {data-scc="mcdm.heroes.v1/feature.ability.null.level-2/heat-sink" data-cost="5 Discipline"}
 
 
 *You absorb ambient heat, coating the ground in frost and precipitating snow from the air.*
@@ -72,7 +72,7 @@ Choose one of the following [heroic abilities](../../../rule/general/heroic-abil
 
 Choose one of the following abilities.
 
-### Gravitic Strike {data-scc="mcdm.heroes.v1/feature.ability.null.level-2/gravitic-strike"}
+### Gravitic Strike {data-scc="mcdm.heroes.v1/feature.ability.null.level-2/gravitic-strike" data-cost="5 Discipline"}
 
 
 *Your fist emanates gravitic force that pulls a distant enemy closer.*
@@ -87,7 +87,7 @@ Choose one of the following abilities.
 - **12-16:** 12 + A psychic damage; vertical [pull](../../../movement/forced-movement.md) 5
 - **17+:** 16 + A psychic damage; vertical [pull](../../../movement/forced-movement.md) 7
 
-### Kinetic Shield {data-scc="mcdm.heroes.v1/feature.ability.null.level-2/kinetic-shield"}
+### Kinetic Shield {data-scc="mcdm.heroes.v1/feature.ability.null.level-2/kinetic-shield" data-cost="5 Discipline"}
 
 
 *You manifest a force barrier that absorbs incoming kinetic energy.*

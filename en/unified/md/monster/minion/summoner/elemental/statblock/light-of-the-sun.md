@@ -8,10 +8,10 @@ immunities:
     - fire R
 intuition: 0
 keywords:
-    - Elemental (Air
-    - Green
-    - Fire
-    - Void)
+    - Elemental (Air)
+    - Elemental (Green)
+    - Elemental (Fire)
+    - Elemental (Void)
 might: 0
 movement: Fly
 name: Light of the Sun

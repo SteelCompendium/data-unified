@@ -32,9 +32,9 @@ immunities:
     - Cold R
 intuition: 0
 keywords:
-    - Elemental (Air
-    - Rot
-    - Water)
+    - Elemental (Air)
+    - Elemental (Rot)
+    - Elemental (Water)
 level: 0
 metadata:
     scc: mcdm.summoner.v1/monster.minion.summoner.elemental.statblock/quiet-of-snow

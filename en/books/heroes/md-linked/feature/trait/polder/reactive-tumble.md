@@ -1,5 +1,6 @@
 ---
 ancestry: polder
+cost: 1 Point
 name: Reactive Tumble
 scc: mcdm.heroes.v1/feature.trait.polder/reactive-tumble
 type: trait

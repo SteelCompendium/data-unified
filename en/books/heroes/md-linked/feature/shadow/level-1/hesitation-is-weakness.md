@@ -8,7 +8,7 @@ type: feature
 
 You have the following ability.
 
-## Hesitation Is Weakness {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-1/hesitation-is-weakness"}
+## Hesitation Is Weakness {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-1/hesitation-is-weakness" data-cost="1 Insight"}
 
 
 *Keep up the attack. Never give them a moment's grace.*

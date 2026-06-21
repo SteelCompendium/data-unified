@@ -1,5 +1,6 @@
 ---
 ancestry: wode-elf
+cost: 1 Point
 name: Revisit Memory
 scc: mcdm.heroes.v1/feature.trait.wode-elf/revisit-memory
 type: trait

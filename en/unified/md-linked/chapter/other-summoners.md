@@ -11,7 +11,7 @@ Whenever the following retainer would gain a new advancement ability, the player
 
 ##### —
 
-###### Devil Detective {data-scc="mcdm.summoner.v1/retainer.summoner.statblock/devil-detective"}
+###### Devil Detective {data-scc="mcdm.summoner.v1/monster.retainer.statblock/devil-detective"}
 
 | Devil, Infernal | - | Level 1 | Controller Retainer | - |
 |:-:|:---------------:|:---------------------------:|:-:|:-:|
@@ -43,23 +43,9 @@ Whenever the following retainer would gain a new advancement ability, the player
 >
 > If a creature within 10 squares speaks the detective's true name, the detective loses their [damage immunities](../rule/damage/damage-immunity.md) and can't summon any **razors** until the end of the encounter.
 
-###### Razor {data-scc="mcdm.summoner.v1/retainer.summoner.statblock/razor"}
+###### Devil Detective Advancement Features {data-scc="mcdm.summoner.v1/monster.retainer.advancement-features/devil-detective"}
 
-| Abyssal, Demon | - | - | Signature Minion Harrier | - |
-|:-:|:--------------:|:------------------------:|:-:|:-:|
-| **1M**<br>Size | **6**<br>Speed | **2**<br>Stamina | **0**<br>Stability | **1**<br>Free Strike |
-| **—**<br>Immunity | **—**<br>Movement | - | **Holy 1**<br>Weakness | **—**<br>Free Strike Damage Type |
-| **0**<br>Might | **+2**<br>Agility | **-1**<br>Reason | **-1**<br>Intuition | **-1**<br>Presence |
-
-> ⭐️ **Teeth!**
->
-> Once per turn, whenever an [adjacent](../rule/combat/adjacent.md) enemy [grabs](../feature/common/maneuvers/grab.md) the razor or uses a melee ability against them, that enemy takes 1 damage for each razor [adjacent](../rule/combat/adjacent.md) to them.
-
-> ⭐️ **Soulsight**
->
-> Each creature [adjacent](../rule/combat/adjacent.md) to the razor can't be hidden from them.
-
-**Level 4 Retainer Advancement Ability**
+> **Level 4 Retainer Advancement Ability**
 
 > 🏹 **Soul Sleuth 2d10 + highest characteristic (Encounter)**
 >
@@ -77,8 +63,6 @@ Whenever the following retainer would gain a new advancement ability, the player
 >
 > **Effect:** Any enemy that was hiding in the area is revealed. The area is now [difficult terrain](../movement/difficult-terrain.md) for enemies.
 
-**Level 4 Retainer Advancement Ability**
-
 > 🏹 **Summon Violents (Encounter)**
 >
 > | **Magic, Ranged** | **Main action** |
@@ -87,7 +71,61 @@ Whenever the following retainer would gain a new advancement ability, the player
 >
 > **Effect:** The detective summons 3 violents into unoccupied spaces within distance. On each of the detective's turns, they direct the squad of **violents** to move and use a main action.
 
-###### Violent {data-scc="mcdm.summoner.v1/retainer.summoner.statblock/violent"}
+> **Level 7 Retainer Advancement Ability**
+
+> 🌀 **Cleansing Flense (Encounter)**
+>
+> | **Area, Magic** | **Maneuver** |
+> |-----------------|-------------:|
+> | **📏 5 burst** | **🎯 Each of the detective's minions in the area** |
+>
+> **Effect:** Each target moves up to their [speed](../rule/character/speed.md) toward an ally. Each ally within [line of effect](../rule/combat/line-of-effect.md) of the detective can give one [EoT](../rule/combat/end-of-turn.md) or save ends effect they're affected by to an [adjacent](../rule/combat/adjacent.md) minion and end that effect on themself.
+>
+> Until the end of the encounter, whenever an enemy kills a target and has P < STRONG, they receive all EoT or save ends effects the target was affected by.
+
+> **Level 10 Retainer Advancement Ability**
+
+> 🏹 **Blightwash 2d10 + highest characteristic (Encounter)**
+>
+> | **Area, Magic** | **Main action** |
+> |-----------------|----------------:|
+> | **📏 Ranged 5** | **🎯 One of the detective's minions** |
+>
+> **Effect:** The minion explodes. Make a power roll, targeting each enemy within 2 squares of the target.
+>
+> 5 corruption damage; M < WEAK [weakened](../condition/weakened.md) (save ends)
+>
+> 8 corruption damage; M < AVERAGE [weakened](../condition/weakened.md) (save ends)
+>
+> 10 corruption damage; M < STRONG [weakened](../condition/weakened.md) (save ends)
+>
+> The area within 2 squares of the exploded minion is covered in blight until the end of the encounter. Abilities used against an enemy in the area have an [edge](../rule/dice/edge.md).
+
+> 🏹 **Summon Gorrres (Encounter)**
+>
+> | **Magic, Ranged** | **Main action** |
+> |-------------------|----------------:|
+> | **📏 Ranged 10** | **🎯 Special** |
+>
+> **Effect:** The detective summons two gorrres into unoccupied spaces within distance. On each of the detective's turns, they direct the squad of **gorrres** to move and use a main action.
+
+###### Razor {data-scc="mcdm.summoner.v1/monster.retainer.summoner.minion.statblock/razor"}
+
+| Abyssal, Demon | - | - | Signature Minion Harrier | - |
+|:-:|:--------------:|:------------------------:|:-:|:-:|
+| **1M**<br>Size | **6**<br>Speed | **2**<br>Stamina | **0**<br>Stability | **1**<br>Free Strike |
+| **—**<br>Immunity | **—**<br>Movement | - | **Holy 1**<br>Weakness | **—**<br>Free Strike Damage Type |
+| **0**<br>Might | **+2**<br>Agility | **-1**<br>Reason | **-1**<br>Intuition | **-1**<br>Presence |
+
+> ⭐️ **Teeth!**
+>
+> Once per turn, whenever an [adjacent](../rule/combat/adjacent.md) enemy [grabs](../feature/common/maneuvers/grab.md) the razor or uses a melee ability against them, that enemy takes 1 damage for each razor [adjacent](../rule/combat/adjacent.md) to them.
+
+> ⭐️ **Soulsight**
+>
+> Each creature [adjacent](../rule/combat/adjacent.md) to the razor can't be hidden from them.
+
+###### Violent {data-scc="mcdm.summoner.v1/monster.retainer.summoner.minion.statblock/violent"}
 
 | Abyssal, Demon | - | - | Minion Ambusher | - |
 |:-:|:--------------:|:---------------:|:-:|:-:|
@@ -107,47 +145,7 @@ Whenever the following retainer would gain a new advancement ability, the player
 >
 > Each creature [adjacent](../rule/combat/adjacent.md) to the violent can't be hidden from them.
 
-**Level 7 Retainer Advancement Ability**
-
-> 🌀 **Cleansing Flense (Encounter)**
->
-> | **Area, Magic** | **Maneuver** |
-> |-----------------|-------------:|
-> | **📏 5 burst** | **🎯 Each of the detective's minions in the area** |
->
-> **Effect:** Each target moves up to their [speed](../rule/character/speed.md) toward an ally. Each ally within [line of effect](../rule/combat/line-of-effect.md) of the detective can give one [EoT](../rule/combat/end-of-turn.md) or save ends effect they're affected by to an [adjacent](../rule/combat/adjacent.md) minion and end that effect on themself.
->
-> Until the end of the encounter, whenever an enemy kills a target and has P < STRONG, they receive all EoT or save ends effects the target was affected by.
-
-**Level 10 Retainer Advancement Ability**
-
-> 🏹 **Blightwash 2d10 + highest characteristic (Encounter)**
->
-> | **Area, Magic** | **Main action** |
-> |-----------------|----------------:|
-> | **📏 Ranged 5** | **🎯 One of the detective's minions** |
->
-> **Effect:** The minion explodes. Make a power roll, targeting each enemy within 2 squares of the target.
->
-> 5 corruption damage; M < WEAK [weakened](../condition/weakened.md) (save ends)
->
-> 8 corruption damage; M < AVERAGE [weakened](../condition/weakened.md) (save ends)
->
-> 10 corruption damage; M < STRONG [weakened](../condition/weakened.md) (save ends)
->
-> The area within 2 squares of the exploded minion is covered in blight until the end of the encounter. Abilities used against an enemy in the area have an [edge](../rule/dice/edge.md).
-
-**Level 10 Retainer Advancement Ability**
-
-> 🏹 **Summon Gorrres (Encounter)**
->
-> | **Magic, Ranged** | **Main action** |
-> |-------------------|----------------:|
-> | **📏 Ranged 10** | **🎯 Special** |
->
-> **Effect:** The detective summons two gorrres into unoccupied spaces within distance. On each of the detective's turns, they direct the squad of **gorrres** to move and use a main action.
-
-###### Gorrre {data-scc="mcdm.summoner.v1/retainer.summoner.statblock/gorrre"}
+###### Gorrre {data-scc="mcdm.summoner.v1/monster.retainer.summoner.minion.statblock/gorrre"}
 
 | Abyssal, Demon | - | - | Minion Brute | - |
 |:-:|:--------------:|:------------:|:-:|:-:|
@@ -223,7 +221,7 @@ Any minions that the rival can summon can be replaced with the equivalent minion
 >
 > At the start of an encounter, the summoner chooses one creature within their [line of effect](../rule/combat/line-of-effect.md). Both the summoner and the creature can add a d3 roll to [power rolls](../rule/dice/power-roll.md) they make against each other. Whenever one of the summoner's squads uses a damaging ability against the creature, the creature takes an additional 2 damage.
 
-###### Skeleton {data-scc="mcdm.summoner.v1/monster.rival.1st-echelon.summoner.minion/skeleton"}
+###### Skeleton {data-scc="mcdm.summoner.v1/monster.rival.1st-echelon.summoner.minion.statblock/skeleton"}
 
 | Undead | - | - | Signature Minion Harrier | 1 Malice per minion summoned |
 |:-:|:------:|:------------------------:|:-:|:----------------------------:|
@@ -235,7 +233,7 @@ Any minions that the rival can summon can be replaced with the equivalent minion
 >
 > When the skeleton is reduced to 0 [Stamina](../rule/health/stamina.md), their square becomes [difficult terrain](../movement/difficult-terrain.md) for enemies. The first time any enemy enters this space, they take 2 damage and end this effect.
 
-###### Zombie Lumberer {data-scc="mcdm.summoner.v1/monster.rival.1st-echelon.summoner.minion/zombie-lumberer"}
+###### Zombie Lumberer {data-scc="mcdm.summoner.v1/monster.rival.1st-echelon.summoner.minion.statblock/zombie-lumberer"}
 
 | Undead | - | - | Minion Defender | 2 Malice for two minions |
 |:-:|:------:|:---------------:|:-:|:------------------------:|
@@ -251,7 +249,7 @@ Any minions that the rival can summon can be replaced with the equivalent minion
 >
 > When the lumberer is reduced to 0 [Stamina](../rule/health/stamina.md), they can latch onto an [adjacent](../rule/combat/adjacent.md) enemy before being destroyed. The enemy is M < 2 [restrained](../condition/restrained.md) ([EoT](../rule/combat/end-of-turn.md)).
 
-###### Accursed Mummy {data-scc="mcdm.summoner.v1/monster.rival.1st-echelon.summoner.minion/accursed-mummy"}
+###### Accursed Mummy {data-scc="mcdm.summoner.v1/monster.rival.1st-echelon.summoner.minion.statblock/accursed-mummy"}
 
 | Mummy, Undead | - | - | Minion Hexer | 3 Malice for three minions |
 |:-:|:-------------:|:------------:|:-:|:--------------------------:|
@@ -331,7 +329,7 @@ Any minions that the rival can summon can be replaced with the equivalent minion
 >
 > At the start of an encounter, the summoner chooses one creature within their [line of effect](../rule/combat/line-of-effect.md). Both the summoner and the creature can add a d3 roll to [power rolls](../rule/dice/power-roll.md) they make against each other. Whenever one of the summoner's squads uses a damaging ability against the creature, the creature takes an additional 3 damage.
 
-###### Skeleton {data-scc="mcdm.summoner.v1/monster.rival.2nd-echelon.summoner.minion/skeleton"}
+###### Skeleton {data-scc="mcdm.summoner.v1/monster.rival.2nd-echelon.summoner.minion.statblock/skeleton"}
 
 | Undead | - | - | Signature Minion Harrier | 1 Malice per minion summoned |
 |:-:|:------:|:------------------------:|:-:|:----------------------------:|
@@ -343,7 +341,7 @@ Any minions that the rival can summon can be replaced with the equivalent minion
 >
 > When the skeleton is reduced to 0 [Stamina](../rule/health/stamina.md), their square becomes [difficult terrain](../movement/difficult-terrain.md) for enemies. The first time any enemy enters this space, they take 2 damage and end this effect.
 
-###### Grave Knight {data-scc="mcdm.summoner.v1/monster.rival.2nd-echelon.summoner.minion/grave-knight"}
+###### Grave Knight {data-scc="mcdm.summoner.v1/monster.rival.2nd-echelon.summoner.minion.statblock/grave-knight"}
 
 | Undead | - | - | Minion Brute | 2 Malice for two minions |
 |:-:|:------:|:------------:|:-:|:------------------------:|
@@ -367,7 +365,7 @@ Any minions that the rival can summon can be replaced with the equivalent minion
 >
 > When the grave knight is reduced to 0 [Stamina](../rule/health/stamina.md), they can make a melee [free strike](../feature/common/main-actions/free-strike.md) before being destroyed.
 
-###### Ceaseless Mournling {data-scc="mcdm.summoner.v1/monster.rival.2nd-echelon.summoner.minion/ceaseless-mournling"}
+###### Ceaseless Mournling {data-scc="mcdm.summoner.v1/monster.rival.2nd-echelon.summoner.minion.statblock/ceaseless-mournling"}
 
 | Undead | - | - | Minion Controller | 4 Malice for three minions |
 |:-:|:------:|:-----------------:|:-:|:--------------------------:|
@@ -439,7 +437,7 @@ Any minions that the rival can summon can be replaced with the equivalent minion
 >
 > At the start of an encounter, the summoner chooses one creature within their [line of effect](../rule/combat/line-of-effect.md). Both the summoner and the creature can add a d3 roll to [power rolls](../rule/dice/power-roll.md) they make against each other. Whenever one of the summoner's squads uses a damaging ability against the creature, the creature takes an additional 4 damage.
 
-###### Skeleton {data-scc="mcdm.summoner.v1/monster.rival.3rd-echelon.summoner.minion/skeleton"}
+###### Skeleton {data-scc="mcdm.summoner.v1/monster.rival.3rd-echelon.summoner.minion.statblock/skeleton"}
 
 | Undead | - | - | Signature Minion Harrier | 1 Malice per minion summoned |
 |:-:|:------:|:------------------------:|:-:|:----------------------------:|
@@ -451,7 +449,7 @@ Any minions that the rival can summon can be replaced with the equivalent minion
 >
 > When the skeleton is reduced to 0 [Stamina](../rule/health/stamina.md), their square becomes [difficult terrain](../movement/difficult-terrain.md) for enemies. The first time any enemy enters this space, they take 2 damage and end this effect.
 
-###### Zombie Lumberer {data-scc="mcdm.summoner.v1/monster.rival.3rd-echelon.summoner.minion/zombie-lumberer"}
+###### Zombie Lumberer {data-scc="mcdm.summoner.v1/monster.rival.3rd-echelon.summoner.minion.statblock/zombie-lumberer"}
 
 | Undead | - | - | Minion Defender | 2 Malice for two minions |
 |:-:|:------:|:---------------:|:-:|:------------------------:|
@@ -467,7 +465,7 @@ Any minions that the rival can summon can be replaced with the equivalent minion
 >
 > When the lumberer is reduced to 0 [Stamina](../rule/health/stamina.md), they can latch onto an [adjacent](../rule/combat/adjacent.md) enemy before being destroyed. The enemy is M < 4 [restrained](../condition/restrained.md) ([EoT](../rule/combat/end-of-turn.md)).
 
-###### Ceaseless Mournling {data-scc="mcdm.summoner.v1/monster.rival.3rd-echelon.summoner.minion/ceaseless-mournling"}
+###### Ceaseless Mournling {data-scc="mcdm.summoner.v1/monster.rival.3rd-echelon.summoner.minion.statblock/ceaseless-mournling"}
 
 | Undead | - | - | Minion Controller | 4 Malice for three minions |
 |:-:|:------:|:-----------------:|:-:|:--------------------------:|
@@ -487,7 +485,7 @@ Any minions that the rival can summon can be replaced with the equivalent minion
 >
 > The first time the mournling [burrows](../movement/burrow.md) out of the ground on their turn, they can make a [free strike](../feature/common/main-actions/free-strike.md) against each [adjacent](../rule/combat/adjacent.md) enemy.
 
-###### False Vampire {data-scc="mcdm.summoner.v1/monster.rival.3rd-echelon.summoner.minion/false-vampire"}
+###### False Vampire {data-scc="mcdm.summoner.v1/monster.rival.3rd-echelon.summoner.minion.statblock/false-vampire"}
 
 | Undead | - | - | Minion Brute | 6 Malice for two minions |
 |:-:|:------:|:------------:|:-:|:------------------------:|
@@ -549,7 +547,7 @@ Any minions that the rival can summon can be replaced with the equivalent minion
 >
 > At the start of an encounter, the summoner chooses one creature within their [line of effect](../rule/combat/line-of-effect.md). Both the summoner and the creature can add a d3 roll to [power rolls](../rule/dice/power-roll.md) they make against each other. Whenever one of the summoner's squads uses a damaging ability against the creature, the creature takes an additional 5 damage.
 
-###### Skeleton {data-scc="mcdm.summoner.v1/monster.rival.4th-echelon.summoner.minion/skeleton"}
+###### Skeleton {data-scc="mcdm.summoner.v1/monster.rival.4th-echelon.summoner.minion.statblock/skeleton"}
 
 | Undead | - | - | Signature Minion Harrier | 1 Malice per minion summoned |
 |:-:|:------:|:------------------------:|:-:|:----------------------------:|
@@ -561,7 +559,7 @@ Any minions that the rival can summon can be replaced with the equivalent minion
 >
 > When the skeleton is reduced to 0 [Stamina](../rule/health/stamina.md), their square becomes [difficult terrain](../movement/difficult-terrain.md) for enemies. The first time any enemy enters this space, they take 2 damage and end this effect.
 
-###### Grave Knight {data-scc="mcdm.summoner.v1/monster.rival.4th-echelon.summoner.minion/grave-knight"}
+###### Grave Knight {data-scc="mcdm.summoner.v1/monster.rival.4th-echelon.summoner.minion.statblock/grave-knight"}
 
 | Undead | - | - | Minion Brute | 2 Malice for two minions |
 |:-:|:------:|:------------:|:-:|:------------------------:|
@@ -585,7 +583,7 @@ Any minions that the rival can summon can be replaced with the equivalent minion
 >
 > When the grave knight is reduced to 0 [Stamina](../rule/health/stamina.md), they can make a melee [free strike](../feature/common/main-actions/free-strike.md) before being destroyed.
 
-###### Ceaseless Mournling {data-scc="mcdm.summoner.v1/monster.rival.4th-echelon.summoner.minion/ceaseless-mournling"}
+###### Ceaseless Mournling {data-scc="mcdm.summoner.v1/monster.rival.4th-echelon.summoner.minion.statblock/ceaseless-mournling"}
 
 | Undead | - | - | Minion Controller | 4 Malice for three minions |
 |:-:|:------:|:-----------------:|:-:|:--------------------------:|
@@ -605,7 +603,7 @@ Any minions that the rival can summon can be replaced with the equivalent minion
 >
 > The first time the mournling [burrows](../movement/burrow.md) out of the ground on their turn, they can make a [free strike](../feature/common/main-actions/free-strike.md) against each [adjacent](../rule/combat/adjacent.md) enemy.
 
-###### Zombie Titan {data-scc="mcdm.summoner.v1/monster.rival.4th-echelon.summoner.minion/zombie-titan"}
+###### Zombie Titan {data-scc="mcdm.summoner.v1/monster.rival.4th-echelon.summoner.minion.statblock/zombie-titan"}
 
 | Undead | - | - | Minion Defender | 6 Malice for one minion |
 |:-:|:------:|:---------------:|:-:|:-----------------------:|

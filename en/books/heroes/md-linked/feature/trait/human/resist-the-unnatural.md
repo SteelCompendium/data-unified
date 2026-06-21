@@ -1,5 +1,6 @@
 ---
 ancestry: human
+cost: 1 Point
 name: Resist the Unnatural
 scc: mcdm.heroes.v1/feature.trait.human/resist-the-unnatural
 type: trait

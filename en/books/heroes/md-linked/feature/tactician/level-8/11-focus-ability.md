@@ -8,7 +8,7 @@ type: feature
 
 Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the following options, each of which costs 11 focus to use.
 
-## Go Now and Speed Well {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-8/go-now-and-speed-well"}
+## Go Now and Speed Well {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-8/go-now-and-speed-well" data-cost="11 Focus"}
 
 
 *You direct an attack to strike true.*
@@ -19,7 +19,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 **Effect:** The target gains 2 [surges](../../../rule/resource/surge.md) and can use a signature or [heroic ability](../../../rule/general/heroic-ability.md) as a free [triggered action](../../../rule/combat/triggered-action.md). The ability has a double [edge](../../../rule/dice/edge.md) on the [power roll](../../../rule/dice/power-roll.md), ignores [damage immunity](../../../rule/damage/damage-immunity.md), and increases the [potency](../../../rule/character/potency.md) of any [potency](../../../rule/character/potency.md) effects by 1.
 
-## Finish Them! {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-8/finish-them"}
+## Finish Them! {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-8/finish-them" data-cost="11 Focus"}
 
 
 *You point out an opening to your ally so they can land a killing blow.*
@@ -32,7 +32,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 **Effect:** The target is killed. Additionally, the creature who caused the target to be [winded](../../../rule/health/winded.md) can spend a [Recovery](../../../rule/health/recoveries.md).
 
-## Floodgates Open {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-8/floodgates-open"}
+## Floodgates Open {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-8/floodgates-open" data-cost="11 Focus"}
 
 
 *You direct your squad to strike in unison and with devastating effect.*
@@ -43,7 +43,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 **Effect:** Each target gains 1 [surge](../../../rule/resource/surge.md) and can use a [signature ability](../../../rule/combat/signature-ability.md) as a free [triggered action](../../../rule/combat/triggered-action.md). That ability gains an [edge](../../../rule/dice/edge.md) on the [power roll](../../../rule/dice/power-roll.md) and increases the [potency](../../../rule/character/potency.md) of any [potency](../../../rule/character/potency.md) effects by 1.
 
-## I'll Open and You'll Close {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-8/ill-open-and-youll-close"}
+## I'll Open and You'll Close {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-8/ill-open-and-youll-close" data-cost="11 Focus"}
 
 
 *You create an opening for an ally.*

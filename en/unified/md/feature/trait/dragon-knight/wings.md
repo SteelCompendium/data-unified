@@ -1,5 +1,6 @@
 ---
 ancestry: dragon-knight
+cost: 2 Points
 name: Wings
 scc: mcdm.heroes.v1/feature.trait.dragon-knight/wings
 type: trait

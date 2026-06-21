@@ -1,5 +1,6 @@
 ---
 ancestry: memonek
+cost: 2 Points
 name: Lightning Nimbleness
 scc: mcdm.heroes.v1/feature.trait.memonek/lightning-nimbleness
 type: trait

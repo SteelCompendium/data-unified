@@ -1,5 +1,6 @@
 ---
 ancestry: time-raider
+cost: 1 Point
 name: Beyondsight
 scc: mcdm.heroes.v1/feature.trait.time-raider/beyondsight
 type: trait

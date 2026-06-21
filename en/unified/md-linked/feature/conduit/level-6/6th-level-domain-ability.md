@@ -25,7 +25,7 @@ Choose one of your domains. You gain a [heroic ability](../../../rule/general/he
 | Trickery   | [Invocation of Mystery](../../ability/conduit/level-6/invocation-of-mystery.md)      |
 | War        | [Blade of the Heavens](../../ability/conduit/level-6/blade-of-the-heavens.md)       |
 
-### Aura of Souls {data-scc="mcdm.heroes.v1/feature.ability.conduit.level-6/aura-of-souls"}
+### Aura of Souls {data-scc="mcdm.heroes.v1/feature.ability.conduit.level-6/aura-of-souls" data-cost="9 Piety"}
 
 
 *A whirlwind of souls of the dead flies around you at your command.*
@@ -36,7 +36,7 @@ Choose one of your domains. You gain a [heroic ability](../../../rule/general/he
 
 **Effect:** Until the end of the encounter or until you are [dying](../../../rule/health/dying.md), at the end of each of your [turns](../../../rule/combat/turn.md), you can [slide](../../../movement/forced-movement.md) each creature in the area up to a number of squares equal to your [Intuition](../../../rule/character/intuition.md) score. This [forced movement](../../../movement/forced-movement.md) ignores [stability](../../../rule/character/stability.md) for your allies.
 
-### Blade of the Heavens {data-scc="mcdm.heroes.v1/feature.ability.conduit.level-6/blade-of-the-heavens"}
+### Blade of the Heavens {data-scc="mcdm.heroes.v1/feature.ability.conduit.level-6/blade-of-the-heavens" data-cost="9 Piety"}
 
 
 *A greatsword streams down from the sky, threatening to pin your foe.*
@@ -51,7 +51,7 @@ Choose one of your domains. You gain a [heroic ability](../../../rule/general/he
 - **12-16:** 12 + I damage; A < AVERAGE, [prone and](../../../condition/prone.md) [restrained](../../../condition/restrained.md) (save ends)
 - **17+:** 16 + I damage; A < STRONG, [prone and](../../../condition/prone.md) [restrained](../../../condition/restrained.md) (save ends)
 
-### Blessing of the Midday Sun {data-scc="mcdm.heroes.v1/feature.ability.conduit.level-6/blessing-of-the-midday-sun"}
+### Blessing of the Midday Sun {data-scc="mcdm.heroes.v1/feature.ability.conduit.level-6/blessing-of-the-midday-sun" data-cost="9 Piety"}
 
 
 *Your body emits a heat that bakes your enemies and inspires your allies.*
@@ -62,7 +62,7 @@ Choose one of your domains. You gain a [heroic ability](../../../rule/general/he
 
 **Effect:** Until the end of the encounter or until you are [dying](../../../rule/health/dying.md), each enemy in the area takes a [bane](../../../rule/dice/bane.md) on [power rolls](../../../rule/dice/power-roll.md), and you and each ally in the area gain 1 [surge](../../../rule/resource/surge.md) at the end of each of your [turns](../../../rule/combat/turn.md).
 
-### Cuirass of the Gods {data-scc="mcdm.heroes.v1/feature.ability.conduit.level-6/cuirass-of-the-gods"}
+### Cuirass of the Gods {data-scc="mcdm.heroes.v1/feature.ability.conduit.level-6/cuirass-of-the-gods" data-cost="9 Piety"}
 
 
 *Your allies are covered in spiritual armor.*
@@ -73,7 +73,7 @@ Choose one of your domains. You gain a [heroic ability](../../../rule/general/he
 
 **Effect:** You can target yourself instead of one creature with this ability. Each target has [damage immunity](../../../rule/damage/damage-immunity.md) 5 until the start of your next [turn](../../../rule/combat/turn.md).
 
-### Gods' Machine {data-scc="mcdm.heroes.v1/feature.ability.conduit.level-6/gods-machine"}
+### Gods' Machine {data-scc="mcdm.heroes.v1/feature.ability.conduit.level-6/gods-machine" data-cost="9 Piety"}
 
 
 *You conjure a whirring tank made of blades and metal.*
@@ -92,7 +92,7 @@ Choose one of your domains. You gain a [heroic ability](../../../rule/general/he
 
 Once on each subsequent [turn](../../../rule/combat/turn.md), you can use a [free maneuver](../../../rule/combat/free-maneuver.md) to move the machine a number of squares up to your [Intuition](../../../rule/character/intuition.md) score then repeat the [power roll](../../../rule/dice/power-roll.md).
 
-### Invocation of Mystery {data-scc="mcdm.heroes.v1/feature.ability.conduit.level-6/invocation-of-mystery"}
+### Invocation of Mystery {data-scc="mcdm.heroes.v1/feature.ability.conduit.level-6/invocation-of-mystery" data-cost="9 Piety"}
 
 
 *"Now you see us..."*
@@ -103,7 +103,7 @@ Once on each subsequent [turn](../../../rule/combat/turn.md), you can use a [fre
 
 **Effect:** Each target is invisible until the start of your next [turn](../../../rule/combat/turn.md).
 
-### Invocation of Undoing {data-scc="mcdm.heroes.v1/feature.ability.conduit.level-6/invocation-of-undoing"}
+### Invocation of Undoing {data-scc="mcdm.heroes.v1/feature.ability.conduit.level-6/invocation-of-undoing" data-cost="9 Piety"}
 
 
 *You utter a secret word of destruction known only to deities.*
@@ -120,7 +120,7 @@ Once on each subsequent [turn](../../../rule/combat/turn.md), you can use a [fre
 
 **Special:** You can choose to have this ability deal damage to and [push](../../../movement/forced-movement.md) objects, and to deal damage to buildings.
 
-### Lauded by God {data-scc="mcdm.heroes.v1/feature.ability.conduit.level-6/lauded-by-god"}
+### Lauded by God {data-scc="mcdm.heroes.v1/feature.ability.conduit.level-6/lauded-by-god" data-cost="9 Piety"}
 
 
 *You beseech the gods to give your allies what they need to win the day, and the gods answer.*
@@ -131,7 +131,7 @@ Once on each subsequent [turn](../../../rule/combat/turn.md), you can use a [fre
 
 **Effect:** Each target gains 3 of their [Heroic Resource](../../../rule/resource/heroic-resource.md).
 
-### Lightning Lord {data-scc="mcdm.heroes.v1/feature.ability.conduit.level-6/lightning-lord"}
+### Lightning Lord {data-scc="mcdm.heroes.v1/feature.ability.conduit.level-6/lightning-lord" data-cost="9 Piety"}
 
 
 *Lightning [bursts](../../../rule/combat/burst.md) forth from your body in several directions.*
@@ -148,7 +148,7 @@ Once on each subsequent [turn](../../../rule/combat/turn.md), you can use a [fre
 
 **Effect:** The targets are [force moved](../../../movement/forced-movement.md) one at a time, starting with the target nearest to you, and can be [pushed](../../../movement/forced-movement.md) into other targets in the same line.
 
-### Revitalizing Grace {data-scc="mcdm.heroes.v1/feature.ability.conduit.level-6/revitalizing-grace"}
+### Revitalizing Grace {data-scc="mcdm.heroes.v1/feature.ability.conduit.level-6/revitalizing-grace" data-cost="9 Piety"}
 
 
 *With a gesture, you restore your health and that of your allies.*
@@ -159,7 +159,7 @@ Once on each subsequent [turn](../../../rule/combat/turn.md), you can use a [fre
 
 **Effect:** Each target can spend any number of [Recoveries](../../../rule/health/recoveries.md). Additionally, each target can end one effect on themself that is ended by a [saving throw](../../../rule/general/saving-throw.md) or that ends at the end of their [turn](../../../rule/combat/turn.md), or they can stand up if [prone](../../../condition/prone.md).
 
-### Spirit Stampede {data-scc="mcdm.heroes.v1/feature.ability.conduit.level-6/spirit-stampede"}
+### Spirit Stampede {data-scc="mcdm.heroes.v1/feature.ability.conduit.level-6/spirit-stampede" data-cost="9 Piety"}
 
 
 *Animal spirits run through the battlefield, trampling your foes.*
@@ -174,7 +174,7 @@ Once on each subsequent [turn](../../../rule/combat/turn.md), you can use a [fre
 - **12-16:** 8 damage; M < AVERAGE, [prone and](../../../condition/prone.md) can't stand (save ends)
 - **17+:** 11 damage; M < STRONG, [prone and](../../../condition/prone.md) can't stand (save ends)
 
-### Your Story Ends Here {data-scc="mcdm.heroes.v1/feature.ability.conduit.level-6/your-story-ends-here"}
+### Your Story Ends Here {data-scc="mcdm.heroes.v1/feature.ability.conduit.level-6/your-story-ends-here" data-cost="9 Piety"}
 
 
 *You bend the fate of a foe, willing them to die.*

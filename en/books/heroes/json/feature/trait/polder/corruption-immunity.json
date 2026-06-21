@@ -1,4 +1,5 @@
 {
+  "cost": "1 Point",
   "effects": [
     {
       "effect": "Your innate [shadow](scc.v1:mcdm.heroes.v1/class/shadow) magic grants you resilience against the unnatural. You have corruption immunity equal to your level + 2."

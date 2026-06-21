@@ -1,5 +1,6 @@
 ---
 ancestry: memonek
+cost: 2 Points
 name: Keeper of Order
 scc: mcdm.heroes.v1/feature.trait.memonek/keeper-of-order
 type: trait
