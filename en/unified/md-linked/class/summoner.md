@@ -153,6 +153,7 @@ You lose any remaining essence at the end of the encounter.
 
 Though you can't gain essence outside of combat, you can use your [heroic abilities](../rule/general/heroic-ability.md) and effects that cost essence without spending it. Whenever you use an ability or effect outside of combat that costs essence, you can't use that same ability or effect outside of combat again until you gain at least 1 [Victory](../rule/resource/victories.md) or finish a [respite](../rule/resource/respite.md).
 
+<!-- @type: callout | @owner: loose -->
 > **More Wielders of Quintessence**
 >
 > Essence is the "stuff of creation." Just as the elementalist uses essence to conjure fire, lightning, or warp space and time, the summoner uses essence to manifest skeletons, conjure pixies, and call forth demons from the Abyssal Waste.
