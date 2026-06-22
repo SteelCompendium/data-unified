@@ -13585,9 +13585,9 @@ At the start of a medusa's turn, you can spend Malice to activate one of the fol
 
 > 🏹 **Weakening Glare (4 [Malice](../rule/monster/malice.md))**
 >
-> | **- Magic, Ranged, Strike** |     **Main action** |
-> |-----------------------------|--------------------:|
-> | **📏 Ranged 10**            | **🎯 One creature** |
+> | **Magic, Ranged, Strike** |     **Main action** |
+> |---------------------------|--------------------:|
+> | **📏 Ranged 10**          | **🎯 One creature** |
 >
 > **Power Roll + 4:**
 >

@@ -3,7 +3,7 @@ features:
       distance: Ranged 10
       icon: "\U0001F3F9"
       keywords:
-        - '- Magic'
+        - Magic
         - Ranged
         - Strike
       name: Weakening Glare
