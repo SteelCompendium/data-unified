@@ -10,6 +10,7 @@ level: "1"
 name: Beast Shape
 scc: mcdm.heroes.v1/feature.fury.level-1/beast-shape
 source: mcdm.heroes.v1
+subclass: stormwight
 type: feature
 ---
 
@@ -22,6 +23,7 @@ metadata:
     level: "1"
     name: Beast Shape
     scc: mcdm.heroes.v1/feature.fury.level-1/beast-shape
+    subclass: stormwight
     type: feature
 name: Beast Shape
 type: feature

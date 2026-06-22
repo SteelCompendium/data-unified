@@ -20,6 +20,7 @@ name: The Gods Command You Obey
 power_roll_characteristic: '[Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)'
 scc: mcdm.heroes.v1/feature.ability.conduit.level-2/the-gods-command-you-obey
 source: mcdm.heroes.v1
+subclass: knowledge
 target: One creature
 tier1: 4 + I holy damage; P < WEAK, before taking damage, the target makes a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against a target you choose
 tier2: 7 + I holy damage; P < AVERAGE, before taking damage, the target uses an ability of your choice and you choose any targets for that ability
@@ -55,6 +56,7 @@ metadata:
     name: The Gods Command You Obey
     power_roll_characteristic: '[Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)'
     scc: mcdm.heroes.v1/feature.ability.conduit.level-2/the-gods-command-you-obey
+    subclass: knowledge
     target: One creature
     tier1: 4 + I holy damage; P < WEAK, before taking damage, the target makes a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against a target you choose
     tier2: 7 + I holy damage; P < AVERAGE, before taking damage, the target uses an ability of your choice and you choose any targets for that ability

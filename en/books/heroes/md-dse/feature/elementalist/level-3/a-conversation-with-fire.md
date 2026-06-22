@@ -10,6 +10,7 @@ level: "3"
 name: A Conversation With Fire
 scc: mcdm.heroes.v1/feature.elementalist.level-3/a-conversation-with-fire
 source: mcdm.heroes.v1
+subclass: fire
 type: feature
 ---
 
@@ -22,6 +23,7 @@ metadata:
     level: "3"
     name: A Conversation With Fire
     scc: mcdm.heroes.v1/feature.elementalist.level-3/a-conversation-with-fire
+    subclass: fire
     type: feature
 name: A Conversation With Fire
 type: feature

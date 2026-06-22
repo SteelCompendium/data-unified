@@ -21,6 +21,7 @@ ability:
             - Earth
             - Magic
             - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'
+        subclass: earth
         target: Special
         type: feature/ability/common
     name: Summon Source of Earth

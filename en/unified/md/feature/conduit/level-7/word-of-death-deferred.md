@@ -3,6 +3,7 @@ class: conduit
 level: "7"
 name: Word of Death Deferred
 scc: mcdm.heroes.v1/feature.conduit.level-7/word-of-death-deferred
+subclass: death
 type: feature
 ---
 

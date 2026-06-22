@@ -10,6 +10,7 @@ level: "5"
 name: Anticipation
 scc: mcdm.heroes.v1/feature.tactician.level-5/anticipation
 source: mcdm.heroes.v1
+subclass: mastermind
 type: feature
 ---
 
@@ -22,6 +23,7 @@ metadata:
     level: "5"
     name: Anticipation
     scc: mcdm.heroes.v1/feature.tactician.level-5/anticipation
+    subclass: mastermind
     type: feature
 name: Anticipation
 type: feature

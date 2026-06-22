@@ -18,6 +18,7 @@ level: "6"
 name: One Vial Makes You Better
 scc: mcdm.heroes.v1/feature.ability.shadow.level-6/one-vial-makes-you-better
 source: mcdm.heroes.v1
+subclass: caustic-alchemy
 target: Three creatures
 type: ability
 ---
@@ -43,6 +44,7 @@ metadata:
     level: "6"
     name: One Vial Makes You Better
     scc: mcdm.heroes.v1/feature.ability.shadow.level-6/one-vial-makes-you-better
+    subclass: caustic-alchemy
     target: Three creatures
     type: ability
 name: One Vial Makes You Better

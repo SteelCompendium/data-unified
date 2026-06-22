@@ -3,6 +3,7 @@ class: tactician
 level: "2"
 name: Melee Superiority
 scc: mcdm.heroes.v1/feature.tactician.level-2/melee-superiority
+subclass: vanguard
 type: feature
 ---
 

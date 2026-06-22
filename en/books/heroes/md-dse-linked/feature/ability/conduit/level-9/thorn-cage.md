@@ -21,6 +21,7 @@ name: Thorn Cage
 power_roll_characteristic: '[Intuition](../../../../rule/character/intuition.md)'
 scc: mcdm.heroes.v1/feature.ability.conduit.level-9/thorn-cage
 source: mcdm.heroes.v1
+subclass: nature
 target: One creature
 tier1: 10 + I damage; A < WEAK, [restrained](../../../../condition/restrained.md) (save ends)
 tier2: 15 + I damage; A < AVERAGE, [restrained](../../../../condition/restrained.md) (save ends)
@@ -58,6 +59,7 @@ metadata:
     name: Thorn Cage
     power_roll_characteristic: '[Intuition](../../../../rule/character/intuition.md)'
     scc: mcdm.heroes.v1/feature.ability.conduit.level-9/thorn-cage
+    subclass: nature
     target: One creature
     tier1: 10 + I damage; A < WEAK, [restrained](../../../../condition/restrained.md) (save ends)
     tier2: 15 + I damage; A < AVERAGE, [restrained](../../../../condition/restrained.md) (save ends)

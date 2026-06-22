@@ -21,6 +21,7 @@ metadata:
     level: 6
     scc:
         - mcdm.heroes.v1/feature.ability.null.level-6/interphase
+    subclass: chronokinetic
     target: Self
     type: feature/ability/null/level-6
 name: Interphase

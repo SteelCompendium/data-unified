@@ -20,6 +20,7 @@ name: Instant Retaliation
 power_roll_characteristic: '[Might](../../../../rule/character/might.md)'
 scc: mcdm.heroes.v1/feature.ability.tactician.level-6/instant-retaliation
 source: mcdm.heroes.v1
+subclass: vanguard
 subtype: triggered
 target: One ally
 tier1: A < WEAK, [dazed](../../../../condition/dazed.md) (save ends)
@@ -57,6 +58,7 @@ metadata:
     name: Instant Retaliation
     power_roll_characteristic: '[Might](../../../../rule/character/might.md)'
     scc: mcdm.heroes.v1/feature.ability.tactician.level-6/instant-retaliation
+    subclass: vanguard
     subtype: triggered
     target: One ally
     tier1: A < WEAK, [dazed](../../../../condition/dazed.md) (save ends)

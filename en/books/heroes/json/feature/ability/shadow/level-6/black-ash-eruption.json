@@ -40,6 +40,7 @@
     "scc": [
       "mcdm.heroes.v1/feature.ability.shadow.level-6/black-ash-eruption"
     ],
+    "subclass": "black-ash",
     "target": "One creature",
     "type": "feature/ability/shadow/level-6"
   },

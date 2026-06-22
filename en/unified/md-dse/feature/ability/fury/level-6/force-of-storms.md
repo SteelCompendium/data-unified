@@ -21,6 +21,7 @@ name: Force of Storms
 power_roll_characteristic: '[Might](scc.v1:mcdm.heroes.v1/rule.character/might)'
 scc: mcdm.heroes.v1/feature.ability.fury.level-6/force-of-storms
 source: mcdm.heroes.v1
+subclass: berserker
 target: One creature
 tier1: 7 + M damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3
 tier2: 11 + M damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5
@@ -58,6 +59,7 @@ metadata:
     name: Force of Storms
     power_roll_characteristic: '[Might](scc.v1:mcdm.heroes.v1/rule.character/might)'
     scc: mcdm.heroes.v1/feature.ability.fury.level-6/force-of-storms
+    subclass: berserker
     target: One creature
     tier1: 7 + M damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3
     tier2: 11 + M damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5

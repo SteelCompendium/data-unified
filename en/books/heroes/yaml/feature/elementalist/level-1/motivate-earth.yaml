@@ -21,6 +21,7 @@ ability:
             - Earth
             - Magic
             - '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)'
+        subclass: earth
         target: Special
         type: feature/ability/common
     name: Motivate Earth

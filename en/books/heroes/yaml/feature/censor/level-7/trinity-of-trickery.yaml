@@ -20,6 +20,7 @@ ability:
         keywords:
             - Magic
             - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'
+        subclass: trickery
         target: Self or one ally
         type: feature/ability/common
     name: Trinity of Trickery
@@ -38,6 +39,7 @@ metadata:
     level: 7
     scc:
         - mcdm.heroes.v1/feature.censor.level-7/trinity-of-trickery
+    subclass: trickery
     type: feature/censor/level-7
 name: Trinity of Trickery
 type: feature

@@ -3,6 +3,7 @@ class: tactician
 level: "5"
 name: Tactical Offensive
 scc: mcdm.heroes.v1/feature.tactician.level-5/tactical-offensive
+subclass: vanguard
 type: feature
 ---
 

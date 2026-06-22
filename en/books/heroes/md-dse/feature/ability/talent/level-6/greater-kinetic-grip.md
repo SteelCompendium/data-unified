@@ -21,6 +21,7 @@ name: Greater Kinetic Grip
 power_roll_characteristic: '[Reason](scc.v1:mcdm.heroes.v1/rule.character/reason)'
 scc: mcdm.heroes.v1/feature.ability.talent.level-6/greater-kinetic-grip
 source: mcdm.heroes.v1
+subclass: telekinesis
 target: One creature or object
 tier1: '[Slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 4 + R; M < WEAK, the [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) is vertical'
 tier2: '[Slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 8 + R; M < AVERAGE, the [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) is vertical'
@@ -58,6 +59,7 @@ metadata:
     name: Greater Kinetic Grip
     power_roll_characteristic: '[Reason](scc.v1:mcdm.heroes.v1/rule.character/reason)'
     scc: mcdm.heroes.v1/feature.ability.talent.level-6/greater-kinetic-grip
+    subclass: telekinesis
     target: One creature or object
     tier1: '[Slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 4 + R; M < WEAK, the [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) is vertical'
     tier2: '[Slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 8 + R; M < AVERAGE, the [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) is vertical'

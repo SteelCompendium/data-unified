@@ -3,6 +3,7 @@ class: tactician
 level: "5"
 name: I Predicted That
 scc: mcdm.heroes.v1/feature.tactician.level-5/i-predicted-that
+subclass: mastermind
 type: feature
 ---
 

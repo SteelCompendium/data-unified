@@ -10,6 +10,7 @@ level: "7"
 name: Your Triumphs Are Remembered
 scc: mcdm.heroes.v1/feature.censor.level-7/your-triumphs-are-remembered
 source: mcdm.heroes.v1
+subclass: war
 type: feature
 ---
 
@@ -22,6 +23,7 @@ metadata:
     level: "7"
     name: Your Triumphs Are Remembered
     scc: mcdm.heroes.v1/feature.censor.level-7/your-triumphs-are-remembered
+    subclass: war
     type: feature
 name: Your Triumphs Are Remembered
 type: feature

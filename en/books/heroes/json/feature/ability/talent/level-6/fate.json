@@ -38,6 +38,7 @@
     "scc": [
       "mcdm.heroes.v1/feature.ability.talent.level-6/fate"
     ],
+    "subclass": "chronopathy",
     "target": "One enemy",
     "type": "feature/ability/talent/level-6"
   },

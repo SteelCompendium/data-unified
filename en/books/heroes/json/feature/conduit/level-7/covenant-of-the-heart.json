@@ -25,6 +25,7 @@
         "Magic",
         "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)"
       ],
+      "subclass": "love",
       "target": "Self and each ally",
       "type": "feature/ability/common"
     },
@@ -49,6 +50,7 @@
     "scc": [
       "mcdm.heroes.v1/feature.conduit.level-7/covenant-of-the-heart"
     ],
+    "subclass": "love",
     "type": "feature/conduit/level-7"
   },
   "name": "Covenant of the Heart",

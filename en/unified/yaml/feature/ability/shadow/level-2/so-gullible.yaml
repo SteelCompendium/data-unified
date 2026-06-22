@@ -23,6 +23,7 @@ metadata:
     level: 2
     scc:
         - mcdm.heroes.v1/feature.ability.shadow.level-2/so-gullible
+    subclass: harlequin-mask
     target: Self
     type: feature/ability/shadow/level-2
 name: So Gullible

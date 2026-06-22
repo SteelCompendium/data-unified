@@ -31,6 +31,7 @@ metadata:
     level: 9
     scc:
         - mcdm.heroes.v1/feature.ability.null.level-9/realitas
+    subclass: metakinetic
     target: One creature
     type: feature/ability/null/level-9
 name: Realitas

@@ -3,6 +3,7 @@ class: censor
 level: "7"
 name: Light of the Burning Sun
 scc: mcdm.heroes.v1/feature.censor.level-7/light-of-the-burning-sun
+subclass: sun
 type: feature
 ---
 

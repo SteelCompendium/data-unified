@@ -10,6 +10,7 @@ level: "2"
 name: Ease the Mind
 scc: mcdm.heroes.v1/feature.talent.level-2/ease-the-mind
 source: mcdm.heroes.v1
+subclass: telepathy
 type: feature
 ---
 
@@ -22,6 +23,7 @@ metadata:
     level: "2"
     name: Ease the Mind
     scc: mcdm.heroes.v1/feature.talent.level-2/ease-the-mind
+    subclass: telepathy
     type: feature
 name: Ease the Mind
 type: feature

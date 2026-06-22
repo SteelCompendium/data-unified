@@ -19,6 +19,7 @@ ability:
         item_name: Black Ash Teleport
         keywords:
             - Magic
+        subclass: black-ash
         target: Self
         type: feature/ability/common
     name: Black Ash Teleport

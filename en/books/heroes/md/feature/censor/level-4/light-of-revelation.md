@@ -3,6 +3,7 @@ class: censor
 level: "4"
 name: Light of Revelation
 scc: mcdm.heroes.v1/feature.censor.level-4/light-of-revelation
+subclass: sun
 type: feature
 ---
 

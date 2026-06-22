@@ -22,6 +22,7 @@ name: Pounce
 power_roll_characteristic: '[Might](scc.v1:mcdm.heroes.v1/rule.character/might)'
 scc: mcdm.heroes.v1/feature.ability.fury.level-6/pounce
 source: mcdm.heroes.v1
+subclass: stormwight
 target: One creature
 tier1: 8 damage; M < WEAK, [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)
 tier2: 13 damage; M < AVERAGE, [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)
@@ -61,6 +62,7 @@ metadata:
     name: Pounce
     power_roll_characteristic: '[Might](scc.v1:mcdm.heroes.v1/rule.character/might)'
     scc: mcdm.heroes.v1/feature.ability.fury.level-6/pounce
+    subclass: stormwight
     target: One creature
     tier1: 8 damage; M < WEAK, [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)
     tier2: 13 damage; M < AVERAGE, [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)

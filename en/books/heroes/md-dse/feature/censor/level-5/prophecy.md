@@ -10,6 +10,7 @@ level: "5"
 name: Prophecy
 scc: mcdm.heroes.v1/feature.censor.level-5/prophecy
 source: mcdm.heroes.v1
+subclass: oracle
 type: feature
 ---
 
@@ -25,6 +26,7 @@ metadata:
     level: "5"
     name: Prophecy
     scc: mcdm.heroes.v1/feature.censor.level-5/prophecy
+    subclass: oracle
     type: feature
 name: Prophecy
 type: feature

@@ -10,6 +10,7 @@ level: "1"
 name: I'm No Threat
 scc: mcdm.heroes.v1/feature.ability.shadow.level-1/im-no-threat
 spend: '1 Insight: Choose a creature whose [size](scc.v1:mcdm.heroes.v1/rule.character/size) is no more than 1 greater than yours and who is within 10 squares. This ability''s illusion makes you appear as that creature. This illusion covers your entire body, including clothing and armor, and alters your voice to sound like that of the creature. You gain an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on [tests](scc.v1:mcdm.heroes.v1/rule.test/test) made to convince the creature''s allies that you are the creature.'
+subclass: harlequin-mask
 target: Self
 type: ability
 ---

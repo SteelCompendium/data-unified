@@ -10,6 +10,7 @@ level: "1"
 name: 'Void: Acolyte of the Mystery'
 scc: mcdm.heroes.v1/feature.elementalist.level-1/void-acolyte-of-the-mystery
 source: mcdm.heroes.v1
+subclass: void
 type: feature
 ---
 
@@ -22,6 +23,7 @@ metadata:
     level: "1"
     name: 'Void: Acolyte of the Mystery'
     scc: mcdm.heroes.v1/feature.elementalist.level-1/void-acolyte-of-the-mystery
+    subclass: void
     type: feature
 name: 'Void: Acolyte of the Mystery'
 type: feature

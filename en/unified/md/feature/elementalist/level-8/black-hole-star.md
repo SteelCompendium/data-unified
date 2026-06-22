@@ -3,6 +3,7 @@ class: elementalist
 level: "8"
 name: Black Hole Star
 scc: mcdm.heroes.v1/feature.elementalist.level-8/black-hole-star
+subclass: void
 type: feature
 ---
 

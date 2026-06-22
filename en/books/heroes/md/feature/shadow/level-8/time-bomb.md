@@ -3,6 +3,7 @@ class: shadow
 level: "8"
 name: Time Bomb
 scc: mcdm.heroes.v1/feature.shadow.level-8/time-bomb
+subclass: caustic-alchemy
 type: feature
 ---
 

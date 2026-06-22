@@ -23,6 +23,7 @@ metadata:
     level: 6
     scc:
         - mcdm.heroes.v1/feature.ability.fury.level-6/riders-on-the-storm
+    subclass: stormwight
     target: Each creature in the area
     type: feature/ability/fury/level-6
 name: Riders on the Storm

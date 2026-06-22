@@ -3,6 +3,7 @@ class: censor
 level: "8"
 name: Vow
 scc: mcdm.heroes.v1/feature.censor.level-8/vow
+subclass: paragon
 type: feature
 ---
 

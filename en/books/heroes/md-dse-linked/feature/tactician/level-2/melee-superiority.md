@@ -10,6 +10,7 @@ level: "2"
 name: Melee Superiority
 scc: mcdm.heroes.v1/feature.tactician.level-2/melee-superiority
 source: mcdm.heroes.v1
+subclass: vanguard
 type: feature
 ---
 
@@ -25,6 +26,7 @@ metadata:
     level: "2"
     name: Melee Superiority
     scc: mcdm.heroes.v1/feature.tactician.level-2/melee-superiority
+    subclass: vanguard
     type: feature
 name: Melee Superiority
 type: feature

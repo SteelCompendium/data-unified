@@ -22,6 +22,7 @@ name: Primordial Vortex
 power_roll_characteristic: '[Might](scc.v1:mcdm.heroes.v1/rule.character/might)'
 scc: mcdm.heroes.v1/feature.ability.fury.level-9/primordial-vortex
 source: mcdm.heroes.v1
+subclass: berserker
 target: Each enemy in the area
 tier1: 3 damage; vertical [pull](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3
 tier2: 5 damage; vertical [pull](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5
@@ -61,6 +62,7 @@ metadata:
     name: Primordial Vortex
     power_roll_characteristic: '[Might](scc.v1:mcdm.heroes.v1/rule.character/might)'
     scc: mcdm.heroes.v1/feature.ability.fury.level-9/primordial-vortex
+    subclass: berserker
     target: Each enemy in the area
     tier1: 3 damage; vertical [pull](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3
     tier2: 5 damage; vertical [pull](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5

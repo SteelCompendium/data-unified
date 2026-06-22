@@ -19,6 +19,7 @@ level: "2"
 name: Twist at the End
 scc: mcdm.heroes.v1/feature.ability.troubadour.level-2/twist-at-the-end
 source: mcdm.heroes.v1
+subclass: auteur
 target: One dead enemy
 type: ability
 ---
@@ -46,6 +47,7 @@ metadata:
     level: "2"
     name: Twist at the End
     scc: mcdm.heroes.v1/feature.ability.troubadour.level-2/twist-at-the-end
+    subclass: auteur
     target: One dead enemy
     type: ability
 name: Twist at the End

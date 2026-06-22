@@ -3,6 +3,7 @@ class: censor
 level: "4"
 name: Improved Sanctified Weapon
 scc: mcdm.heroes.v1/feature.censor.level-4/improved-sanctified-weapon
+subclass: war
 type: feature
 ---
 

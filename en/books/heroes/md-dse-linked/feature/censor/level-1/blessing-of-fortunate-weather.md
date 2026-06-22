@@ -10,6 +10,7 @@ level: "1"
 name: Blessing of Fortunate Weather
 scc: mcdm.heroes.v1/feature.censor.level-1/blessing-of-fortunate-weather
 source: mcdm.heroes.v1
+subclass: storm
 type: feature
 ---
 
@@ -33,6 +34,7 @@ metadata:
     level: "1"
     name: Blessing of Fortunate Weather
     scc: mcdm.heroes.v1/feature.censor.level-1/blessing-of-fortunate-weather
+    subclass: storm
     type: feature
 name: Blessing of Fortunate Weather
 type: feature

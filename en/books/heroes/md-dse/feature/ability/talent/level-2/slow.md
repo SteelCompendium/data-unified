@@ -21,6 +21,7 @@ name: Slow
 power_roll_characteristic: '[Presence](scc.v1:mcdm.heroes.v1/rule.character/presence)'
 scc: mcdm.heroes.v1/feature.ability.talent.level-2/slow
 source: mcdm.heroes.v1
+subclass: chronopathy
 target: Three creatures or objects
 tier1: The target's [speed](scc.v1:mcdm.heroes.v1/rule.character/speed) is halved (save ends), or if P < WEAK, the target is [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends).
 tier2: The target is [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends), or if P < AVERAGE, the target's [speed](scc.v1:mcdm.heroes.v1/rule.character/speed) is 0 (save ends).
@@ -58,6 +59,7 @@ metadata:
     name: Slow
     power_roll_characteristic: '[Presence](scc.v1:mcdm.heroes.v1/rule.character/presence)'
     scc: mcdm.heroes.v1/feature.ability.talent.level-2/slow
+    subclass: chronopathy
     target: Three creatures or objects
     tier1: The target's [speed](scc.v1:mcdm.heroes.v1/rule.character/speed) is halved (save ends), or if P < WEAK, the target is [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends).
     tier2: The target is [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends), or if P < AVERAGE, the target's [speed](scc.v1:mcdm.heroes.v1/rule.character/speed) is 0 (save ends).

@@ -19,6 +19,7 @@ level: "9"
 name: Bend Fate
 scc: mcdm.heroes.v1/feature.ability.conduit.level-9/bend-fate
 source: mcdm.heroes.v1
+subclass: fate
 target: Self or one ally
 type: ability
 ---
@@ -46,6 +47,7 @@ metadata:
     level: "9"
     name: Bend Fate
     scc: mcdm.heroes.v1/feature.ability.conduit.level-9/bend-fate
+    subclass: fate
     target: Self or one ally
     type: ability
 name: Bend Fate

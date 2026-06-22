@@ -3,6 +3,7 @@ class: tactician
 level: "8"
 name: See Your Enemies Driven Before You
 scc: mcdm.heroes.v1/feature.tactician.level-8/see-your-enemies-driven-before-you
+subclass: vanguard
 type: feature
 ---
 

@@ -3,6 +3,7 @@ class: censor
 level: "4"
 name: Improved Hands of the Maker
 scc: mcdm.heroes.v1/feature.censor.level-4/improved-hands-of-the-maker
+subclass: creation
 type: feature
 ---
 

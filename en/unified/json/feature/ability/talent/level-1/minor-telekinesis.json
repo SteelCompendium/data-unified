@@ -33,6 +33,7 @@
     "scc": [
       "mcdm.heroes.v1/feature.ability.talent.level-1/minor-telekinesis"
     ],
+    "subclass": "telekinesis",
     "target": "Self or one [size](scc.v1:mcdm.heroes.v1/rule.character/size) 1 creature or object",
     "type": "feature/ability/talent/level-1"
   },

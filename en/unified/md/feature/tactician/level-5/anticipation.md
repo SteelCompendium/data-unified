@@ -3,6 +3,7 @@ class: tactician
 level: "5"
 name: Anticipation
 scc: mcdm.heroes.v1/feature.tactician.level-5/anticipation
+subclass: mastermind
 type: feature
 ---
 

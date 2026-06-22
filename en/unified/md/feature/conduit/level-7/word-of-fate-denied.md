@@ -3,6 +3,7 @@ class: conduit
 level: "7"
 name: Word of Fate Denied
 scc: mcdm.heroes.v1/feature.conduit.level-7/word-of-fate-denied
+subclass: fate
 type: feature
 ---
 

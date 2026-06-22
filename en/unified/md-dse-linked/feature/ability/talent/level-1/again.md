@@ -16,6 +16,7 @@ level: "1"
 name: Again
 scc: mcdm.heroes.v1/feature.ability.talent.level-1/again
 source: mcdm.heroes.v1
+subclass: chronopathy
 subtype: triggered
 target: Self or one creature
 trigger: The target makes an [ability roll](../../../../rule/dice/ability-roll.md).
@@ -43,6 +44,7 @@ metadata:
     level: "1"
     name: Again
     scc: mcdm.heroes.v1/feature.ability.talent.level-1/again
+    subclass: chronopathy
     subtype: triggered
     target: Self or one creature
     trigger: The target makes an [ability roll](../../../../rule/dice/ability-roll.md).

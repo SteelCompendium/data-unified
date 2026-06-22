@@ -18,6 +18,7 @@ level: "6"
 name: Coordinated Execution
 scc: mcdm.heroes.v1/feature.ability.tactician.level-6/coordinated-execution
 source: mcdm.heroes.v1
+subclass: insurgent
 subtype: triggered
 target: One ally
 trigger: The target uses an ability to deal [rolled damage](scc.v1:mcdm.heroes.v1/rule.damage/rolled-damage) to a creature while hidden.
@@ -45,6 +46,7 @@ metadata:
     level: "6"
     name: Coordinated Execution
     scc: mcdm.heroes.v1/feature.ability.tactician.level-6/coordinated-execution
+    subclass: insurgent
     subtype: triggered
     target: One ally
     trigger: The target uses an ability to deal [rolled damage](scc.v1:mcdm.heroes.v1/rule.damage/rolled-damage) to a creature while hidden.

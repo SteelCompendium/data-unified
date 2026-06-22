@@ -3,6 +3,7 @@ class: censor
 level: "7"
 name: Divine Quartermaster
 scc: mcdm.heroes.v1/feature.censor.level-7/divine-quartermaster
+subclass: creation
 type: feature
 ---
 

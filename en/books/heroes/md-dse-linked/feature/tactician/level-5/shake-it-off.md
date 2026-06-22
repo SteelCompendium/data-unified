@@ -10,6 +10,7 @@ level: "5"
 name: Shake It Off
 scc: mcdm.heroes.v1/feature.tactician.level-5/shake-it-off
 source: mcdm.heroes.v1
+subclass: vanguard
 type: feature
 ---
 
@@ -22,6 +23,7 @@ metadata:
     level: "5"
     name: Shake It Off
     scc: mcdm.heroes.v1/feature.tactician.level-5/shake-it-off
+    subclass: vanguard
     type: feature
 name: Shake It Off
 type: feature

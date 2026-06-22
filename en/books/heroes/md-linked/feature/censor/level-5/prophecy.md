@@ -3,6 +3,7 @@ class: censor
 level: "5"
 name: Prophecy
 scc: mcdm.heroes.v1/feature.censor.level-5/prophecy
+subclass: oracle
 type: feature
 ---
 

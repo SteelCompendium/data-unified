@@ -20,6 +20,7 @@ level: "2"
 name: Classic Chandelier Stunt
 scc: mcdm.heroes.v1/feature.ability.troubadour.level-2/classic-chandelier-stunt
 source: mcdm.heroes.v1
+subclass: duelist
 target: Self and one willing ally
 type: ability
 ---
@@ -49,6 +50,7 @@ metadata:
     level: "2"
     name: Classic Chandelier Stunt
     scc: mcdm.heroes.v1/feature.ability.troubadour.level-2/classic-chandelier-stunt
+    subclass: duelist
     target: Self and one willing ally
     type: ability
 name: Classic Chandelier Stunt

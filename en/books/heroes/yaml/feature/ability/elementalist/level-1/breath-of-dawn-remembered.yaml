@@ -28,6 +28,7 @@ metadata:
     level: 1
     scc:
         - mcdm.heroes.v1/feature.ability.elementalist.level-1/breath-of-dawn-remembered
+    subclass: green
     target: Self or one ally
     type: feature/ability/elementalist/level-1
 name: Breath of Dawn Remembered

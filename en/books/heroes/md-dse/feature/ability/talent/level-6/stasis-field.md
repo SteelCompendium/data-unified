@@ -22,6 +22,7 @@ name: Stasis Field
 power_roll_characteristic: '[Presence](scc.v1:mcdm.heroes.v1/rule.character/presence)'
 scc: mcdm.heroes.v1/feature.ability.talent.level-6/stasis-field
 source: mcdm.heroes.v1
+subclass: chronopathy
 target: Each creature and object in the area
 tier1: P < WEAK, the target is [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) until the effect ends
 tier2: P < AVERAGE, the target's [speed](scc.v1:mcdm.heroes.v1/rule.character/speed) is 0 until the effect ends
@@ -61,6 +62,7 @@ metadata:
     name: Stasis Field
     power_roll_characteristic: '[Presence](scc.v1:mcdm.heroes.v1/rule.character/presence)'
     scc: mcdm.heroes.v1/feature.ability.talent.level-6/stasis-field
+    subclass: chronopathy
     target: Each creature and object in the area
     tier1: P < WEAK, the target is [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) until the effect ends
     tier2: P < AVERAGE, the target's [speed](scc.v1:mcdm.heroes.v1/rule.character/speed) is 0 until the effect ends

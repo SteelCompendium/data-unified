@@ -15,6 +15,7 @@ level: "1"
 name: Grave Speech
 scc: mcdm.heroes.v1/feature.ability.conduit.level-1/grave-speech
 source: mcdm.heroes.v1
+subclass: death
 target: One dead creature
 type: ability
 ---
@@ -38,6 +39,7 @@ metadata:
     level: "1"
     name: Grave Speech
     scc: mcdm.heroes.v1/feature.ability.conduit.level-1/grave-speech
+    subclass: death
     target: One dead creature
     type: ability
 name: Grave Speech

@@ -3,6 +3,7 @@ class: talent
 level: "5"
 name: Kinetic Amplifier
 scc: mcdm.heroes.v1/feature.talent.level-5/kinetic-amplifier
+subclass: telekinesis
 type: feature
 ---
 

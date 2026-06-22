@@ -38,6 +38,7 @@
     "scc": [
       "mcdm.heroes.v1/feature.ability.talent.level-9/acceleration-field"
     ],
+    "subclass": "chronopathy",
     "target": "Three allies",
     "type": "feature/ability/talent/level-9"
   },

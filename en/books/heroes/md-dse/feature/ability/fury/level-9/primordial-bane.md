@@ -22,6 +22,7 @@ name: Primordial Bane
 power_roll_characteristic: '[Might](scc.v1:mcdm.heroes.v1/rule.character/might)'
 scc: mcdm.heroes.v1/feature.ability.fury.level-9/primordial-bane
 source: mcdm.heroes.v1
+subclass: reaver
 target: One creature
 tier1: 11 + M damage
 tier2: 16 + M damage
@@ -61,6 +62,7 @@ metadata:
     name: Primordial Bane
     power_roll_characteristic: '[Might](scc.v1:mcdm.heroes.v1/rule.character/might)'
     scc: mcdm.heroes.v1/feature.ability.fury.level-9/primordial-bane
+    subclass: reaver
     target: One creature
     tier1: 11 + M damage
     tier2: 16 + M damage

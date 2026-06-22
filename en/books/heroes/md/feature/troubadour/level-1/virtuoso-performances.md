@@ -3,6 +3,7 @@ class: troubadour
 level: "1"
 name: Virtuoso Performances
 scc: mcdm.heroes.v1/feature.troubadour.level-1/virtuoso-performances
+subclass: virtuoso
 type: feature
 ---
 

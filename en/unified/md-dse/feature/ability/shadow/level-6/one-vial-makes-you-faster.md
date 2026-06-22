@@ -19,6 +19,7 @@ name: One Vial Makes You Faster
 power_roll_characteristic: '[Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)'
 scc: mcdm.heroes.v1/feature.ability.shadow.level-6/one-vial-makes-you-faster
 source: mcdm.heroes.v1
+subclass: caustic-alchemy
 target: Three creatures
 tier1: The creature's [speed](scc.v1:mcdm.heroes.v1/rule.character/speed) is increased by 2 until the end of the encounter.
 tier2: The creature can [fly](scc.v1:mcdm.heroes.v1/movement/fly) until the end of the encounter.
@@ -52,6 +53,7 @@ metadata:
     name: One Vial Makes You Faster
     power_roll_characteristic: '[Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)'
     scc: mcdm.heroes.v1/feature.ability.shadow.level-6/one-vial-makes-you-faster
+    subclass: caustic-alchemy
     target: Three creatures
     tier1: The creature's [speed](scc.v1:mcdm.heroes.v1/rule.character/speed) is increased by 2 until the end of the encounter.
     tier2: The creature can [fly](scc.v1:mcdm.heroes.v1/movement/fly) until the end of the encounter.

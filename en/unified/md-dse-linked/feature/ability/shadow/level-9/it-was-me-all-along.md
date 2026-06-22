@@ -21,6 +21,7 @@ name: It Was Me All Along
 power_roll_characteristic: '[Agility](../../../../rule/character/agility.md)'
 scc: mcdm.heroes.v1/feature.ability.shadow.level-9/it-was-me-all-along
 source: mcdm.heroes.v1
+subclass: harlequin-mask
 target: One creature or object
 tier1: 15 + A damage
 tier2: 21 + A damage
@@ -58,6 +59,7 @@ metadata:
     name: It Was Me All Along
     power_roll_characteristic: '[Agility](../../../../rule/character/agility.md)'
     scc: mcdm.heroes.v1/feature.ability.shadow.level-9/it-was-me-all-along
+    subclass: harlequin-mask
     target: One creature or object
     tier1: 15 + A damage
     tier2: 21 + A damage

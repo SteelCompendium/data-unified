@@ -21,6 +21,7 @@ name: Heat Drain
 power_roll_characteristic: '[Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)'
 scc: mcdm.heroes.v1/feature.ability.null.level-9/heat-drain
 source: mcdm.heroes.v1
+subclass: cryokinetic
 target: One creature
 tier1: 8 + I cold damage; M < WEAK, [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
 tier2: 11 + I cold damage; M < AVERAGE, [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
@@ -58,6 +59,7 @@ metadata:
     name: Heat Drain
     power_roll_characteristic: '[Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)'
     scc: mcdm.heroes.v1/feature.ability.null.level-9/heat-drain
+    subclass: cryokinetic
     target: One creature
     tier1: 8 + I cold damage; M < WEAK, [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
     tier2: 11 + I cold damage; M < AVERAGE, [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)

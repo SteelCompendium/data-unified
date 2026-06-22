@@ -17,6 +17,7 @@ level: "8"
 name: Radical Fantasia
 scc: mcdm.heroes.v1/feature.ability.troubadour.level-8/radical-fantasia
 source: mcdm.heroes.v1
+subclass: virtuoso
 target: Self and each ally in the area
 type: ability
 ---
@@ -44,6 +45,7 @@ metadata:
     level: "8"
     name: Radical Fantasia
     scc: mcdm.heroes.v1/feature.ability.troubadour.level-8/radical-fantasia
+    subclass: virtuoso
     target: Self and each ally in the area
     type: ability
 name: Radical Fantasia

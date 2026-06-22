@@ -16,6 +16,7 @@ level: "7"
 name: Guided to Your Side
 scc: mcdm.heroes.v1/feature.ability.conduit.level-7/guided-to-your-side
 source: mcdm.heroes.v1
+subclass: love
 target: Self and each ally
 type: ability
 ---
@@ -41,6 +42,7 @@ metadata:
     level: "7"
     name: Guided to Your Side
     scc: mcdm.heroes.v1/feature.ability.conduit.level-7/guided-to-your-side
+    subclass: love
     target: Self and each ally
     type: ability
 name: Guided to Your Side

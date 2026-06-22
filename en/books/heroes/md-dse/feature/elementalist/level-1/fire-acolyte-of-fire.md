@@ -10,6 +10,7 @@ level: "1"
 name: 'Fire: Acolyte of Fire'
 scc: mcdm.heroes.v1/feature.elementalist.level-1/fire-acolyte-of-fire
 source: mcdm.heroes.v1
+subclass: fire
 type: feature
 ---
 
@@ -22,6 +23,7 @@ metadata:
     level: "1"
     name: 'Fire: Acolyte of Fire'
     scc: mcdm.heroes.v1/feature.elementalist.level-1/fire-acolyte-of-fire
+    subclass: fire
     type: feature
 name: 'Fire: Acolyte of Fire'
 type: feature

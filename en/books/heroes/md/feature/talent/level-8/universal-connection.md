@@ -3,6 +3,7 @@ class: talent
 level: "8"
 name: Universal Connection
 scc: mcdm.heroes.v1/feature.talent.level-8/universal-connection
+subclass: telepathy
 type: feature
 ---
 

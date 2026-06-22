@@ -15,6 +15,7 @@
     "scc": [
       "mcdm.heroes.v1/feature.null.level-5/instant-action"
     ],
+    "subclass": "chronokinetic",
     "type": "feature/null/level-5"
   },
   "name": "Instant Action",

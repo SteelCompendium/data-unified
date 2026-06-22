@@ -40,6 +40,7 @@
     "scc": [
       "mcdm.heroes.v1/feature.ability.tactician.level-2/no-dying-on-my-watch"
     ],
+    "subclass": "vanguard",
     "target": "One enemy",
     "type": "feature/ability/tactician/level-2"
   },

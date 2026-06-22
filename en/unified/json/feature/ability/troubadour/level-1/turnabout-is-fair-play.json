@@ -33,6 +33,7 @@
     "scc": [
       "mcdm.heroes.v1/feature.ability.troubadour.level-1/turnabout-is-fair-play"
     ],
+    "subclass": "auteur",
     "target": "One creature",
     "type": "feature/ability/troubadour/level-1"
   },

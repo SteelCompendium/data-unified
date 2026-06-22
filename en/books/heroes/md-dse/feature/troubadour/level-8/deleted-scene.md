@@ -10,6 +10,7 @@ level: "8"
 name: Deleted Scene
 scc: mcdm.heroes.v1/feature.troubadour.level-8/deleted-scene
 source: mcdm.heroes.v1
+subclass: auteur
 type: feature
 ---
 
@@ -22,6 +23,7 @@ metadata:
     level: "8"
     name: Deleted Scene
     scc: mcdm.heroes.v1/feature.troubadour.level-8/deleted-scene
+    subclass: auteur
     type: feature
 name: Deleted Scene
 type: feature

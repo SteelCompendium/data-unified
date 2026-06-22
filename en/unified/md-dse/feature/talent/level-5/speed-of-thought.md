@@ -10,6 +10,7 @@ level: "5"
 name: Speed of Thought
 scc: mcdm.heroes.v1/feature.talent.level-5/speed-of-thought
 source: mcdm.heroes.v1
+subclass: chronopathy
 type: feature
 ---
 
@@ -22,6 +23,7 @@ metadata:
     level: "5"
     name: Speed of Thought
     scc: mcdm.heroes.v1/feature.talent.level-5/speed-of-thought
+    subclass: chronopathy
     type: feature
 name: Speed of Thought
 type: feature

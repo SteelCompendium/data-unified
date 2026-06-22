@@ -30,6 +30,7 @@
     "scc": [
       "mcdm.heroes.v1/feature.ability.shadow.level-1/clever-trick"
     ],
+    "subclass": "harlequin-mask",
     "target": "Self",
     "type": "feature/ability/shadow/level-1"
   },

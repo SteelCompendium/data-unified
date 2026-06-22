@@ -15,6 +15,7 @@
     "scc": [
       "mcdm.heroes.v1/feature.tactician.level-5/i-predicted-that"
     ],
+    "subclass": "mastermind",
     "type": "feature/tactician/level-5"
   },
   "name": "I Predicted That",

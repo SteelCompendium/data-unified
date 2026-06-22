@@ -27,6 +27,7 @@
       "keywords": [
         "-"
       ],
+      "subclass": "caustic-alchemy",
       "target": "Self",
       "type": "feature/ability/common"
     },

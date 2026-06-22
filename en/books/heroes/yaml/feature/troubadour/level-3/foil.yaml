@@ -10,6 +10,7 @@ metadata:
     level: 3
     scc:
         - mcdm.heroes.v1/feature.troubadour.level-3/foil
+    subclass: duelist
     type: feature/troubadour/level-3
 name: Foil
 type: feature

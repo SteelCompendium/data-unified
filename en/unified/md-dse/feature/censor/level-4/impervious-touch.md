@@ -10,6 +10,7 @@ level: "4"
 name: Impervious Touch
 scc: mcdm.heroes.v1/feature.censor.level-4/impervious-touch
 source: mcdm.heroes.v1
+subclass: protection
 type: feature
 ---
 
@@ -25,6 +26,7 @@ metadata:
     level: "4"
     name: Impervious Touch
     scc: mcdm.heroes.v1/feature.censor.level-4/impervious-touch
+    subclass: protection
     type: feature
 name: Impervious Touch
 type: feature

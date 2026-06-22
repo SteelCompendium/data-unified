@@ -11,6 +11,7 @@ keywords:
 level: "2"
 name: Sacred Bond
 scc: mcdm.heroes.v1/feature.ability.conduit.level-2/sacred-bond
+subclass: protection
 target: Self and one ally
 type: ability
 ---

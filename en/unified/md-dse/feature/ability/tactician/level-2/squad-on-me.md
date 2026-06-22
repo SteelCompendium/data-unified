@@ -18,6 +18,7 @@ level: "2"
 name: Squad! On Me!
 scc: mcdm.heroes.v1/feature.ability.tactician.level-2/squad-on-me
 source: mcdm.heroes.v1
+subclass: vanguard
 target: Self and each ally in the area
 type: ability
 ---
@@ -43,6 +44,7 @@ metadata:
     level: "2"
     name: Squad! On Me!
     scc: mcdm.heroes.v1/feature.ability.tactician.level-2/squad-on-me
+    subclass: vanguard
     target: Self and each ally in the area
     type: ability
 name: Squad! On Me!

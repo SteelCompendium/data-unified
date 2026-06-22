@@ -10,6 +10,7 @@ level: "1"
 name: Blessing of Compassion
 scc: mcdm.heroes.v1/feature.conduit.level-1/blessing-of-compassion
 source: mcdm.heroes.v1
+subclass: love
 type: feature
 ---
 
@@ -25,6 +26,7 @@ metadata:
     level: "1"
     name: Blessing of Compassion
     scc: mcdm.heroes.v1/feature.conduit.level-1/blessing-of-compassion
+    subclass: love
     type: feature
 name: Blessing of Compassion
 type: feature

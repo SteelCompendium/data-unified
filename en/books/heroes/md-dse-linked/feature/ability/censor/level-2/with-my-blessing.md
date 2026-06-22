@@ -19,6 +19,7 @@ level: "2"
 name: With My Blessing
 scc: mcdm.heroes.v1/feature.ability.censor.level-2/with-my-blessing
 source: mcdm.heroes.v1
+subclass: oracle
 target: Self or one ally
 type: ability
 ---
@@ -46,6 +47,7 @@ metadata:
     level: "2"
     name: With My Blessing
     scc: mcdm.heroes.v1/feature.ability.censor.level-2/with-my-blessing
+    subclass: oracle
     target: Self or one ally
     type: ability
 name: With My Blessing

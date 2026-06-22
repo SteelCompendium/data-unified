@@ -21,6 +21,7 @@ name: Synaptic Conditioning
 power_roll_characteristic: '[Reason](../../../../rule/character/reason.md)'
 scc: mcdm.heroes.v1/feature.ability.talent.level-6/synaptic-conditioning
 source: mcdm.heroes.v1
+subclass: telepathy
 target: One creature
 tier1: 10 psychic damage; the target takes a [bane](../../../../rule/dice/bane.md) on [ability rolls](../../../../rule/dice/ability-roll.md) made to harm you or your allies (save ends)
 tier2: 14 psychic damage; the target has a double [bane](../../../../rule/dice/bane.md) on [ability rolls](../../../../rule/dice/ability-roll.md) made to harm you or your allies (save ends)
@@ -58,6 +59,7 @@ metadata:
     name: Synaptic Conditioning
     power_roll_characteristic: '[Reason](../../../../rule/character/reason.md)'
     scc: mcdm.heroes.v1/feature.ability.talent.level-6/synaptic-conditioning
+    subclass: telepathy
     target: One creature
     tier1: 10 psychic damage; the target takes a [bane](../../../../rule/dice/bane.md) on [ability rolls](../../../../rule/dice/ability-roll.md) made to harm you or your allies (save ends)
     tier2: 14 psychic damage; the target has a double [bane](../../../../rule/dice/bane.md) on [ability rolls](../../../../rule/dice/ability-roll.md) made to harm you or your allies (save ends)

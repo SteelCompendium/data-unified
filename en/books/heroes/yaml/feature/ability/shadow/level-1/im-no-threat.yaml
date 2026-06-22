@@ -22,6 +22,7 @@ metadata:
     level: 1
     scc:
         - mcdm.heroes.v1/feature.ability.shadow.level-1/im-no-threat
+    subclass: harlequin-mask
     target: Self
     type: feature/ability/shadow/level-1
 name: I'm No Threat

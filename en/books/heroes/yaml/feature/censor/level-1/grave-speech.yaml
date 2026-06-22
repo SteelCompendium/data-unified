@@ -17,6 +17,7 @@ ability:
         item_name: Grave Speech
         keywords:
             - Magic
+        subclass: death
         target: One dead creature
         type: feature/ability/common
     name: Grave Speech

@@ -34,6 +34,7 @@
     "scc": [
       "mcdm.heroes.v1/feature.ability.shadow.level-6/one-vial-makes-you-faster"
     ],
+    "subclass": "caustic-alchemy",
     "target": "Three creatures",
     "type": "feature/ability/shadow/level-6"
   },

@@ -3,6 +3,7 @@ class: elementalist
 level: "1"
 name: It Is the Soul Which Hears
 scc: mcdm.heroes.v1/feature.elementalist.level-1/it-is-the-soul-which-hears
+subclass: green
 type: feature
 ---
 

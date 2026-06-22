@@ -10,6 +10,7 @@ level: "4"
 name: Saint's Epiphany
 scc: mcdm.heroes.v1/feature.censor.level-4/saints-epiphany
 source: mcdm.heroes.v1
+subclass: knowledge
 type: feature
 ---
 
@@ -22,6 +23,7 @@ metadata:
     level: "4"
     name: Saint's Epiphany
     scc: mcdm.heroes.v1/feature.censor.level-4/saints-epiphany
+    subclass: knowledge
     type: feature
 name: Saint's Epiphany
 type: feature

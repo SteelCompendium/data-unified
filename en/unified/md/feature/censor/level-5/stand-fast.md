@@ -3,6 +3,7 @@ class: censor
 level: "5"
 name: Stand Fast!
 scc: mcdm.heroes.v1/feature.censor.level-5/stand-fast
+subclass: paragon
 type: feature
 ---
 

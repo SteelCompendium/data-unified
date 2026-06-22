@@ -29,6 +29,7 @@ metadata:
     level: 6
     scc:
         - mcdm.heroes.v1/feature.ability.fury.level-6/seek-and-destroy
+    subclass: reaver
     target: One creature
     type: feature/ability/fury/level-6
 name: Seek and Destroy

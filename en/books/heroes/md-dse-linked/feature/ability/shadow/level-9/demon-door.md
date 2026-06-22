@@ -22,6 +22,7 @@ name: Demon Door
 power_roll_characteristic: '[Agility](../../../../rule/character/agility.md)'
 scc: mcdm.heroes.v1/feature.ability.shadow.level-9/demon-door
 source: mcdm.heroes.v1
+subclass: black-ash
 target: One creature
 tier1: 13 + A corruption damage; [push](../../../../movement/forced-movement.md) 3
 tier2: 18 + A corruption damage; [push](../../../../movement/forced-movement.md) 5
@@ -61,6 +62,7 @@ metadata:
     name: Demon Door
     power_roll_characteristic: '[Agility](../../../../rule/character/agility.md)'
     scc: mcdm.heroes.v1/feature.ability.shadow.level-9/demon-door
+    subclass: black-ash
     target: One creature
     tier1: 13 + A corruption damage; [push](../../../../movement/forced-movement.md) 3
     tier2: 18 + A corruption damage; [push](../../../../movement/forced-movement.md) 5

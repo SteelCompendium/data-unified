@@ -38,6 +38,7 @@
     "scc": [
       "mcdm.heroes.v1/feature.ability.conduit.level-9/thorn-cage"
     ],
+    "subclass": "nature",
     "target": "One creature",
     "type": "feature/ability/conduit/level-9"
   },

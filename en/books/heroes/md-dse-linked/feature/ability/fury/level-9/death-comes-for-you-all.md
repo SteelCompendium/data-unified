@@ -22,6 +22,7 @@ name: Death Comes for You All!
 power_roll_characteristic: '[Might](../../../../rule/character/might.md)'
 scc: mcdm.heroes.v1/feature.ability.fury.level-9/death-comes-for-you-all
 source: mcdm.heroes.v1
+subclass: berserker
 target: Each enemy in the area
 tier1: 7 damage; [push](../../../../movement/forced-movement.md) 3
 tier2: 10 damage; [push](../../../../movement/forced-movement.md) 5
@@ -61,6 +62,7 @@ metadata:
     name: Death Comes for You All!
     power_roll_characteristic: '[Might](../../../../rule/character/might.md)'
     scc: mcdm.heroes.v1/feature.ability.fury.level-9/death-comes-for-you-all
+    subclass: berserker
     target: Each enemy in the area
     tier1: 7 damage; [push](../../../../movement/forced-movement.md) 3
     tier2: 10 damage; [push](../../../../movement/forced-movement.md) 5

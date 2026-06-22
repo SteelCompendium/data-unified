@@ -10,6 +10,7 @@ metadata:
     level: 1
     scc:
         - mcdm.heroes.v1/feature.censor.level-1/protective-circle
+    subclass: protection
     type: feature/censor/level-1
 name: Protective Circle
 type: feature

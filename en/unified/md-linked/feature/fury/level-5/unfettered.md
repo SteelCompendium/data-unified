@@ -3,6 +3,7 @@ class: fury
 level: "5"
 name: Unfettered
 scc: mcdm.heroes.v1/feature.fury.level-5/unfettered
+subclass: reaver
 type: feature
 ---
 

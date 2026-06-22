@@ -21,6 +21,7 @@ ability:
             - Magic
             - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'
             - Void
+        subclass: void
         target: Special
         type: feature/ability/common
     name: Shared Void Sense
@@ -42,6 +43,7 @@ metadata:
     level: 1
     scc:
         - mcdm.heroes.v1/feature.elementalist.level-1/a-beyonding-of-vision
+    subclass: void
     type: feature/elementalist/level-1
 name: A Beyonding of Vision
 type: feature

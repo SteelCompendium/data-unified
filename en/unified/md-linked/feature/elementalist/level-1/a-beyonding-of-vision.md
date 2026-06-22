@@ -3,6 +3,7 @@ class: elementalist
 level: "1"
 name: A Beyonding of Vision
 scc: mcdm.heroes.v1/feature.elementalist.level-1/a-beyonding-of-vision
+subclass: void
 type: feature
 ---
 

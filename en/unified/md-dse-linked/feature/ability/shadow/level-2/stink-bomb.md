@@ -20,6 +20,7 @@ name: Stink Bomb
 power_roll_characteristic: '[Agility](../../../../rule/character/agility.md)'
 scc: mcdm.heroes.v1/feature.ability.shadow.level-2/stink-bomb
 source: mcdm.heroes.v1
+subclass: caustic-alchemy
 target: Each creature in the area
 tier1: 2 poison damage
 tier2: 5 poison damage
@@ -55,6 +56,7 @@ metadata:
     name: Stink Bomb
     power_roll_characteristic: '[Agility](../../../../rule/character/agility.md)'
     scc: mcdm.heroes.v1/feature.ability.shadow.level-2/stink-bomb
+    subclass: caustic-alchemy
     target: Each creature in the area
     tier1: 2 poison damage
     tier2: 5 poison damage

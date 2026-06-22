@@ -10,6 +10,7 @@ level: "1"
 name: Dramatic Monologue
 scc: mcdm.heroes.v1/feature.troubadour.level-1/dramatic-monologue
 source: mcdm.heroes.v1
+subclass: auteur
 type: feature
 ---
 
@@ -22,6 +23,7 @@ metadata:
     level: "1"
     name: Dramatic Monologue
     scc: mcdm.heroes.v1/feature.troubadour.level-1/dramatic-monologue
+    subclass: auteur
     type: feature
 name: Dramatic Monologue
 type: feature

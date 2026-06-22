@@ -38,6 +38,7 @@
     "scc": [
       "mcdm.heroes.v1/feature.ability.talent.level-9/fulcrum"
     ],
+    "subclass": "telekinesis",
     "target": "Each enemy and object in the area",
     "type": "feature/ability/talent/level-9"
   },

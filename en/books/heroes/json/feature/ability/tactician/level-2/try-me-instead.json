@@ -38,6 +38,7 @@
     "scc": [
       "mcdm.heroes.v1/feature.ability.tactician.level-2/try-me-instead"
     ],
+    "subclass": "insurgent",
     "target": "Self",
     "type": "feature/ability/tactician/level-2"
   },

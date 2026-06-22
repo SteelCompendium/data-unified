@@ -27,6 +27,7 @@
         "Psionic",
         "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)"
       ],
+      "subclass": "telepathy",
       "target": "One creature",
       "type": "feature/ability/common"
     },

@@ -3,6 +3,7 @@ class: censor
 level: "4"
 name: Wode Road
 scc: mcdm.heroes.v1/feature.censor.level-4/wode-road
+subclass: nature
 type: feature
 ---
 

@@ -10,6 +10,7 @@ level: "5"
 name: Instant Action
 scc: mcdm.heroes.v1/feature.null.level-5/instant-action
 source: mcdm.heroes.v1
+subclass: chronokinetic
 type: feature
 ---
 
@@ -22,6 +23,7 @@ metadata:
     level: "5"
     name: Instant Action
     scc: mcdm.heroes.v1/feature.null.level-5/instant-action
+    subclass: chronokinetic
     type: feature
 name: Instant Action
 type: feature

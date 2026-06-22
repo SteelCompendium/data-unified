@@ -10,6 +10,7 @@ metadata:
     level: 7
     scc:
         - mcdm.heroes.v1/feature.conduit.level-7/your-triumphs-are-remembered
+    subclass: war
     type: feature/conduit/level-7
 name: Your Triumphs Are Remembered
 type: feature

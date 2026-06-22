@@ -10,6 +10,7 @@ metadata:
     level: 5
     scc:
         - mcdm.heroes.v1/feature.censor.level-5/stand-fast
+    subclass: paragon
     type: feature/censor/level-5
 name: Stand Fast!
 type: feature

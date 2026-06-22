@@ -10,6 +10,7 @@ level: "8"
 name: Time Bomb
 scc: mcdm.heroes.v1/feature.shadow.level-8/time-bomb
 source: mcdm.heroes.v1
+subclass: caustic-alchemy
 type: feature
 ---
 
@@ -22,6 +23,7 @@ metadata:
     level: "8"
     name: Time Bomb
     scc: mcdm.heroes.v1/feature.shadow.level-8/time-bomb
+    subclass: caustic-alchemy
     type: feature
 name: Time Bomb
 type: feature

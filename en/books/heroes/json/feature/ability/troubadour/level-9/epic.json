@@ -38,6 +38,7 @@
     "scc": [
       "mcdm.heroes.v1/feature.ability.troubadour.level-9/epic"
     ],
+    "subclass": "auteur",
     "target": "One creature",
     "type": "feature/ability/troubadour/level-9"
   },

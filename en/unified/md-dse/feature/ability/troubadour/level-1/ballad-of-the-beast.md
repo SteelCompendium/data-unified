@@ -17,6 +17,7 @@ level: "1"
 name: '"Ballad of the Beast"'
 scc: mcdm.heroes.v1/feature.ability.troubadour.level-1/ballad-of-the-beast
 source: mcdm.heroes.v1
+subclass: virtuoso
 target: Self and each ally in the area
 type: ability
 ---
@@ -44,6 +45,7 @@ metadata:
     level: "1"
     name: '"Ballad of the Beast"'
     scc: mcdm.heroes.v1/feature.ability.troubadour.level-1/ballad-of-the-beast
+    subclass: virtuoso
     target: Self and each ally in the area
     type: ability
 name: '"Ballad of the Beast"'

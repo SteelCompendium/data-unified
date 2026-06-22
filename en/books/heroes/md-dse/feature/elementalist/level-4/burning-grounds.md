@@ -10,6 +10,7 @@ level: "4"
 name: Burning Grounds
 scc: mcdm.heroes.v1/feature.elementalist.level-4/burning-grounds
 source: mcdm.heroes.v1
+subclass: fire
 type: feature
 ---
 
@@ -22,6 +23,7 @@ metadata:
     level: "4"
     name: Burning Grounds
     scc: mcdm.heroes.v1/feature.elementalist.level-4/burning-grounds
+    subclass: fire
     type: feature
 name: Burning Grounds
 type: feature

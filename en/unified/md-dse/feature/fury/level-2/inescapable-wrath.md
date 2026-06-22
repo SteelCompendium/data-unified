@@ -10,6 +10,7 @@ level: "2"
 name: Inescapable Wrath
 scc: mcdm.heroes.v1/feature.fury.level-2/inescapable-wrath
 source: mcdm.heroes.v1
+subclass: reaver
 type: feature
 ---
 
@@ -22,6 +23,7 @@ metadata:
     level: "2"
     name: Inescapable Wrath
     scc: mcdm.heroes.v1/feature.fury.level-2/inescapable-wrath
+    subclass: reaver
     type: feature
 name: Inescapable Wrath
 type: feature

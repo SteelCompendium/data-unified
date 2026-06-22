@@ -10,6 +10,7 @@ level: "5"
 name: Kinetic Amplifier
 scc: mcdm.heroes.v1/feature.talent.level-5/kinetic-amplifier
 source: mcdm.heroes.v1
+subclass: telekinesis
 type: feature
 ---
 
@@ -22,6 +23,7 @@ metadata:
     level: "5"
     name: Kinetic Amplifier
     scc: mcdm.heroes.v1/feature.talent.level-5/kinetic-amplifier
+    subclass: telekinesis
     type: feature
 name: Kinetic Amplifier
 type: feature

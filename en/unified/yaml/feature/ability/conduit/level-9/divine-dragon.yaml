@@ -27,6 +27,7 @@ metadata:
     level: 9
     scc:
         - mcdm.heroes.v1/feature.ability.conduit.level-9/divine-dragon
+    subclass: creation
     target: Special
     type: feature/ability/conduit/level-9
 name: Divine Dragon

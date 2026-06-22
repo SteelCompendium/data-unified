@@ -3,6 +3,7 @@ class: conduit
 level: "7"
 name: Divine Quartermaster
 scc: mcdm.heroes.v1/feature.conduit.level-7/divine-quartermaster
+subclass: creation
 type: feature
 ---
 

@@ -10,6 +10,7 @@ level: "2"
 name: Goaded
 scc: mcdm.heroes.v1/feature.tactician.level-2/goaded
 source: mcdm.heroes.v1
+subclass: mastermind
 type: feature
 ---
 
@@ -22,6 +23,7 @@ metadata:
     level: "2"
     name: Goaded
     scc: mcdm.heroes.v1/feature.tactician.level-2/goaded
+    subclass: mastermind
     type: feature
 name: Goaded
 type: feature

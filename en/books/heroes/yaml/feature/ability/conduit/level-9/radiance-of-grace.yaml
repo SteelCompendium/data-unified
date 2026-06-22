@@ -23,6 +23,7 @@ metadata:
     level: 9
     scc:
         - mcdm.heroes.v1/feature.ability.conduit.level-9/radiance-of-grace
+    subclass: life
     target: Four allies
     type: feature/ability/conduit/level-9
 name: Radiance of Grace

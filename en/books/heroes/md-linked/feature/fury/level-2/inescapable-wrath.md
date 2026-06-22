@@ -3,6 +3,7 @@ class: fury
 level: "2"
 name: Inescapable Wrath
 scc: mcdm.heroes.v1/feature.fury.level-2/inescapable-wrath
+subclass: reaver
 type: feature
 ---
 

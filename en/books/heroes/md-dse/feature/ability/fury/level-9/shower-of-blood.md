@@ -21,6 +21,7 @@ name: Shower of Blood
 power_roll_characteristic: '[Might](scc.v1:mcdm.heroes.v1/rule.character/might)'
 scc: mcdm.heroes.v1/feature.ability.fury.level-9/shower-of-blood
 source: mcdm.heroes.v1
+subclass: reaver
 target: One creature
 tier1: 12 + M damage
 tier2: 18 + M damage
@@ -58,6 +59,7 @@ metadata:
     name: Shower of Blood
     power_roll_characteristic: '[Might](scc.v1:mcdm.heroes.v1/rule.character/might)'
     scc: mcdm.heroes.v1/feature.ability.fury.level-9/shower-of-blood
+    subclass: reaver
     target: One creature
     tier1: 12 + M damage
     tier2: 18 + M damage

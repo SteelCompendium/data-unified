@@ -3,6 +3,7 @@ class: fury
 level: "2"
 name: Tooth and Claw
 scc: mcdm.heroes.v1/feature.fury.level-2/tooth-and-claw
+subclass: stormwight
 type: feature
 ---
 

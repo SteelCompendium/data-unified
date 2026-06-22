@@ -32,6 +32,7 @@
     "scc": [
       "mcdm.heroes.v1/feature.ability.censor.level-6/pain-of-your-own-making"
     ],
+    "subclass": "exorcist",
     "target": "Self or one ally",
     "type": "feature/ability/censor/level-6"
   },

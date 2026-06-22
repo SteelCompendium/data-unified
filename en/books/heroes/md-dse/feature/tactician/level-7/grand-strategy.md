@@ -10,6 +10,7 @@ level: "7"
 name: Grand Strategy
 scc: mcdm.heroes.v1/feature.tactician.level-7/grand-strategy
 source: mcdm.heroes.v1
+subclass: mastermind
 type: feature
 ---
 
@@ -22,6 +23,7 @@ metadata:
     level: "7"
     name: Grand Strategy
     scc: mcdm.heroes.v1/feature.tactician.level-7/grand-strategy
+    subclass: mastermind
     type: feature
 name: Grand Strategy
 type: feature

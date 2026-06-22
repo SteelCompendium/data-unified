@@ -10,6 +10,7 @@ level: "2"
 name: Ease the Hours
 scc: mcdm.heroes.v1/feature.talent.level-2/ease-the-hours
 source: mcdm.heroes.v1
+subclass: chronopathy
 type: feature
 ---
 
@@ -22,6 +23,7 @@ metadata:
     level: "2"
     name: Ease the Hours
     scc: mcdm.heroes.v1/feature.talent.level-2/ease-the-hours
+    subclass: chronopathy
     type: feature
 name: Ease the Hours
 type: feature

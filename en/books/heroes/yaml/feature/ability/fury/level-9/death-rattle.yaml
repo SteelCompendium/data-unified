@@ -25,6 +25,7 @@ metadata:
     level: 9
     scc:
         - mcdm.heroes.v1/feature.ability.fury.level-9/death-rattle
+    subclass: stormwight
     target: Each enemy in the area
     type: feature/ability/fury/level-9
 name: Death Rattle

@@ -40,6 +40,7 @@
     "scc": [
       "mcdm.heroes.v1/feature.ability.troubadour.level-9/melt-their-faces"
     ],
+    "subclass": "virtuoso",
     "target": "One creature or object",
     "type": "feature/ability/troubadour/level-9"
   },

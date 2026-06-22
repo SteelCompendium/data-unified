@@ -27,6 +27,7 @@
         "Magic",
         "[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)"
       ],
+      "subclass": "fire",
       "target": "One mundane object",
       "type": "feature/ability/common"
     },

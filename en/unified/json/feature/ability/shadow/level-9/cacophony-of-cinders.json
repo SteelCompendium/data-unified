@@ -38,6 +38,7 @@
     "scc": [
       "mcdm.heroes.v1/feature.ability.shadow.level-9/cacophony-of-cinders"
     ],
+    "subclass": "black-ash",
     "target": "Self",
     "type": "feature/ability/shadow/level-9"
   },

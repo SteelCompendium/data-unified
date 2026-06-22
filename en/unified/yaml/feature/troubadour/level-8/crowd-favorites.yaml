@@ -10,6 +10,7 @@ metadata:
     level: 8
     scc:
         - mcdm.heroes.v1/feature.troubadour.level-8/crowd-favorites
+    subclass: virtuoso
     type: feature/troubadour/level-8
 name: Crowd Favorites
 type: feature

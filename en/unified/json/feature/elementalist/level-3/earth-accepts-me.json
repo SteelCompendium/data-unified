@@ -25,6 +25,7 @@
         "Earth",
         "Magic"
       ],
+      "subclass": "earth",
       "target": "Self",
       "type": "feature/ability/common"
     },
@@ -49,6 +50,7 @@
     "scc": [
       "mcdm.heroes.v1/feature.elementalist.level-3/earth-accepts-me"
     ],
+    "subclass": "earth",
     "type": "feature/elementalist/level-3"
   },
   "name": "Earth Accepts Me",

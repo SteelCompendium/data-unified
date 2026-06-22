@@ -23,6 +23,7 @@ metadata:
     level: 2
     scc:
         - mcdm.heroes.v1/feature.ability.conduit.level-2/sacred-bond
+    subclass: protection
     target: Self and one ally
     type: feature/ability/conduit/level-2
 name: Sacred Bond

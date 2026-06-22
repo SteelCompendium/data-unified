@@ -3,6 +3,7 @@ class: elementalist
 level: "10"
 name: Master of Green
 scc: mcdm.heroes.v1/feature.elementalist.level-10/master-of-green
+subclass: green
 type: feature
 ---
 

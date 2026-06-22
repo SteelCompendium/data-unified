@@ -21,6 +21,7 @@ name: It Is Justice You Fear
 power_roll_characteristic: '[Might](scc.v1:mcdm.heroes.v1/rule.character/might)'
 scc: mcdm.heroes.v1/feature.ability.censor.level-2/it-is-justice-you-fear
 source: mcdm.heroes.v1
+subclass: exorcist
 target: One creature
 tier1: 8 + M holy damage; P < WEAK, [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
 tier2: 12 + M holy damage; P < AVERAGE, [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
@@ -58,6 +59,7 @@ metadata:
     name: It Is Justice You Fear
     power_roll_characteristic: '[Might](scc.v1:mcdm.heroes.v1/rule.character/might)'
     scc: mcdm.heroes.v1/feature.ability.censor.level-2/it-is-justice-you-fear
+    subclass: exorcist
     target: One creature
     tier1: 8 + M holy damage; P < WEAK, [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
     tier2: 12 + M holy damage; P < AVERAGE, [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)

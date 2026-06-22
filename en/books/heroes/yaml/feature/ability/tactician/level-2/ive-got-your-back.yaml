@@ -29,6 +29,7 @@ metadata:
     level: 2
     scc:
         - mcdm.heroes.v1/feature.ability.tactician.level-2/ive-got-your-back
+    subclass: mastermind
     target: One creature
     type: feature/ability/tactician/level-2
 name: I've Got Your Back

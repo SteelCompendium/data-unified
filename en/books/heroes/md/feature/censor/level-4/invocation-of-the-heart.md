@@ -3,6 +3,7 @@ class: censor
 level: "4"
 name: Invocation of the Heart
 scc: mcdm.heroes.v1/feature.censor.level-4/invocation-of-the-heart
+subclass: love
 type: feature
 ---
 

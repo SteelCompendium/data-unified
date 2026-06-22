@@ -19,6 +19,7 @@ ability:
         keywords:
             - Earth
             - Magic
+        subclass: earth
         target: Self
         type: feature/ability/common
     name: Earth Accepts Me
@@ -37,6 +38,7 @@ metadata:
     level: 3
     scc:
         - mcdm.heroes.v1/feature.elementalist.level-3/earth-accepts-me
+    subclass: earth
     type: feature/elementalist/level-3
 name: Earth Accepts Me
 type: feature

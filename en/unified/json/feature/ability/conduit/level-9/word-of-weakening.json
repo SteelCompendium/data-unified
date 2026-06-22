@@ -38,6 +38,7 @@
     "scc": [
       "mcdm.heroes.v1/feature.ability.conduit.level-9/word-of-weakening"
     ],
+    "subclass": "knowledge",
     "target": "One creature or object",
     "type": "feature/ability/conduit/level-9"
   },

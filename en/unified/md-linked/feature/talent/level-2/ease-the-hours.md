@@ -3,6 +3,7 @@ class: talent
 level: "2"
 name: Ease the Hours
 scc: mcdm.heroes.v1/feature.talent.level-2/ease-the-hours
+subclass: chronopathy
 type: feature
 ---
 

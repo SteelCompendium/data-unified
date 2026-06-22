@@ -3,6 +3,7 @@ class: fury
 level: "1"
 name: Primordial Strength
 scc: mcdm.heroes.v1/feature.fury.level-1/primordial-strength
+subclass: berserker
 type: feature
 ---
 

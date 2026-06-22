@@ -3,6 +3,7 @@ class: "null"
 level: "2"
 name: Entropic Adaptability
 scc: mcdm.heroes.v1/feature.null.level-2/entropic-adaptability
+subclass: cryokinetic
 type: feature
 ---
 

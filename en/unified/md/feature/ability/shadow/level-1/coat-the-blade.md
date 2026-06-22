@@ -10,6 +10,7 @@ level: "1"
 name: Coat the Blade
 scc: mcdm.heroes.v1/feature.ability.shadow.level-1/coat-the-blade
 spend: '1+ Insight: For each insight you spend, you gain 1 additional [surge](scc.v1:mcdm.heroes.v1/rule.resource/surge).'
+subclass: caustic-alchemy
 target: Self
 type: ability
 ---

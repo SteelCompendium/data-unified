@@ -19,6 +19,7 @@ level: "6"
 name: Edict of Peace
 scc: mcdm.heroes.v1/feature.ability.censor.level-6/edict-of-peace
 source: mcdm.heroes.v1
+subclass: oracle
 target: Each enemy in the area
 type: ability
 ---
@@ -46,6 +47,7 @@ metadata:
     level: "6"
     name: Edict of Peace
     scc: mcdm.heroes.v1/feature.ability.censor.level-6/edict-of-peace
+    subclass: oracle
     target: Each enemy in the area
     type: ability
 name: Edict of Peace

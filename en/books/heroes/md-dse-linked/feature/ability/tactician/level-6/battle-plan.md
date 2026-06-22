@@ -18,6 +18,7 @@ level: "6"
 name: Battle Plan
 scc: mcdm.heroes.v1/feature.ability.tactician.level-6/battle-plan
 source: mcdm.heroes.v1
+subclass: mastermind
 target: Three creatures
 type: ability
 ---
@@ -43,6 +44,7 @@ metadata:
     level: "6"
     name: Battle Plan
     scc: mcdm.heroes.v1/feature.ability.tactician.level-6/battle-plan
+    subclass: mastermind
     target: Three creatures
     type: ability
 name: Battle Plan

@@ -10,6 +10,7 @@ level: "2"
 name: It Was Foretold
 scc: mcdm.heroes.v1/feature.censor.level-2/it-was-foretold
 source: mcdm.heroes.v1
+subclass: oracle
 type: feature
 ---
 
@@ -22,6 +23,7 @@ metadata:
     level: "2"
     name: It Was Foretold
     scc: mcdm.heroes.v1/feature.censor.level-2/it-was-foretold
+    subclass: oracle
     type: feature
 name: It Was Foretold
 type: feature

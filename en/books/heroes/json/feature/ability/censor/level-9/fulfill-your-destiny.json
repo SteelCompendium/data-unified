@@ -32,6 +32,7 @@
     "scc": [
       "mcdm.heroes.v1/feature.ability.censor.level-9/fulfill-your-destiny"
     ],
+    "subclass": "oracle",
     "target": "One ally",
     "type": "feature/ability/censor/level-9"
   },

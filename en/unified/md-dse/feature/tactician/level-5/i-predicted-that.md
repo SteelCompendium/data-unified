@@ -10,6 +10,7 @@ level: "5"
 name: I Predicted That
 scc: mcdm.heroes.v1/feature.tactician.level-5/i-predicted-that
 source: mcdm.heroes.v1
+subclass: mastermind
 type: feature
 ---
 
@@ -22,6 +23,7 @@ metadata:
     level: "5"
     name: I Predicted That
     scc: mcdm.heroes.v1/feature.tactician.level-5/i-predicted-that
+    subclass: mastermind
     type: feature
 name: I Predicted That
 type: feature

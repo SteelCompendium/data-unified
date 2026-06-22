@@ -21,6 +21,7 @@ name: Seek and Destroy
 power_roll_characteristic: '[Might](scc.v1:mcdm.heroes.v1/rule.character/might)'
 scc: mcdm.heroes.v1/feature.ability.fury.level-6/seek-and-destroy
 source: mcdm.heroes.v1
+subclass: reaver
 target: One creature
 tier1: 4 + M damage; P < WEAK, [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
 tier2: 6 + M damage; P < AVERAGE, [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
@@ -58,6 +59,7 @@ metadata:
     name: Seek and Destroy
     power_roll_characteristic: '[Might](scc.v1:mcdm.heroes.v1/rule.character/might)'
     scc: mcdm.heroes.v1/feature.ability.fury.level-6/seek-and-destroy
+    subclass: reaver
     target: One creature
     tier1: 4 + M damage; P < WEAK, [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
     tier2: 6 + M damage; P < AVERAGE, [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)

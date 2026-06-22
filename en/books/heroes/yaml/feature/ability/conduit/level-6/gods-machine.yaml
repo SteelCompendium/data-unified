@@ -27,6 +27,7 @@ metadata:
     level: 6
     scc:
         - mcdm.heroes.v1/feature.ability.conduit.level-6/gods-machine
+    subclass: creation
     target: Special
     type: feature/ability/conduit/level-6
 name: Gods' Machine

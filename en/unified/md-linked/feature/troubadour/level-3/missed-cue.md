@@ -3,6 +3,7 @@ class: troubadour
 level: "3"
 name: Missed Cue
 scc: mcdm.heroes.v1/feature.troubadour.level-3/missed-cue
+subclass: auteur
 type: feature
 ---
 

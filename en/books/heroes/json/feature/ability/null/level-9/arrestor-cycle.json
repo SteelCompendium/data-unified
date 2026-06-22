@@ -38,6 +38,7 @@
     "scc": [
       "mcdm.heroes.v1/feature.ability.null.level-9/arrestor-cycle"
     ],
+    "subclass": "chronokinetic",
     "target": "One creature",
     "type": "feature/ability/null/level-9"
   },

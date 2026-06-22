@@ -3,6 +3,7 @@ class: elementalist
 level: "4"
 name: Burning Grounds
 scc: mcdm.heroes.v1/feature.elementalist.level-4/burning-grounds
+subclass: fire
 type: feature
 ---
 

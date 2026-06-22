@@ -3,6 +3,7 @@ class: conduit
 level: "7"
 name: Gods' Library
 scc: mcdm.heroes.v1/feature.conduit.level-7/gods-library
+subclass: knowledge
 type: feature
 ---
 

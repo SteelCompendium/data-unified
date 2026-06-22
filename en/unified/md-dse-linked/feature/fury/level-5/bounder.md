@@ -10,6 +10,7 @@ level: "5"
 name: Bounder
 scc: mcdm.heroes.v1/feature.fury.level-5/bounder
 source: mcdm.heroes.v1
+subclass: berserker
 type: feature
 ---
 
@@ -22,6 +23,7 @@ metadata:
     level: "5"
     name: Bounder
     scc: mcdm.heroes.v1/feature.fury.level-5/bounder
+    subclass: berserker
     type: feature
 name: Bounder
 type: feature

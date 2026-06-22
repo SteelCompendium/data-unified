@@ -29,6 +29,7 @@ metadata:
     level: 2
     scc:
         - mcdm.heroes.v1/feature.ability.talent.level-2/overwhelm
+    subclass: telepathy
     target: One creature
     type: feature/ability/talent/level-2
 name: Overwhelm

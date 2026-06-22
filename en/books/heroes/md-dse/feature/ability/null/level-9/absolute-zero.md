@@ -19,6 +19,7 @@ name: Absolute Zero
 power_roll_characteristic: '[Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)'
 scc: mcdm.heroes.v1/feature.ability.null.level-9/absolute-zero
 source: mcdm.heroes.v1
+subclass: cryokinetic
 target: Self
 tier1: You gain 20 [temporary Stamina](scc.v1:mcdm.heroes.v1/rule.health/temporary-stamina).
 tier2: You gain 30 [temporary Stamina](scc.v1:mcdm.heroes.v1/rule.health/temporary-stamina).
@@ -52,6 +53,7 @@ metadata:
     name: Absolute Zero
     power_roll_characteristic: '[Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)'
     scc: mcdm.heroes.v1/feature.ability.null.level-9/absolute-zero
+    subclass: cryokinetic
     target: Self
     tier1: You gain 20 [temporary Stamina](scc.v1:mcdm.heroes.v1/rule.health/temporary-stamina).
     tier2: You gain 30 [temporary Stamina](scc.v1:mcdm.heroes.v1/rule.health/temporary-stamina).

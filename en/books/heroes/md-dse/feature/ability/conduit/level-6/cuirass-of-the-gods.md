@@ -20,6 +20,7 @@ level: "6"
 name: Cuirass of the Gods
 scc: mcdm.heroes.v1/feature.ability.conduit.level-6/cuirass-of-the-gods
 source: mcdm.heroes.v1
+subclass: protection
 target: Three creatures
 type: ability
 ---
@@ -49,6 +50,7 @@ metadata:
     level: "6"
     name: Cuirass of the Gods
     scc: mcdm.heroes.v1/feature.ability.conduit.level-6/cuirass-of-the-gods
+    subclass: protection
     target: Three creatures
     type: ability
 name: Cuirass of the Gods

@@ -19,6 +19,7 @@ name: Chain Reaction
 power_roll_characteristic: '[Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)'
 scc: mcdm.heroes.v1/feature.ability.shadow.level-9/chain-reaction
 source: mcdm.heroes.v1
+subclass: caustic-alchemy
 target: One creature or object
 tier1: 7 damage
 tier2: 10 damage
@@ -52,6 +53,7 @@ metadata:
     name: Chain Reaction
     power_roll_characteristic: '[Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)'
     scc: mcdm.heroes.v1/feature.ability.shadow.level-9/chain-reaction
+    subclass: caustic-alchemy
     target: One creature or object
     tier1: 7 damage
     tier2: 10 damage

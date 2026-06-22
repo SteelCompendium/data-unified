@@ -13,6 +13,7 @@ level: "6"
 name: Fate
 power_roll_characteristic: '[Presence](scc.v1:mcdm.heroes.v1/rule.character/presence)'
 scc: mcdm.heroes.v1/feature.ability.talent.level-6/fate
+subclass: chronopathy
 target: One enemy
 tier1: 8 + P psychic damage
 tier2: 13 + P psychic damage

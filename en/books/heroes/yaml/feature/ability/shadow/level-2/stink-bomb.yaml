@@ -27,6 +27,7 @@ metadata:
     level: 2
     scc:
         - mcdm.heroes.v1/feature.ability.shadow.level-2/stink-bomb
+    subclass: caustic-alchemy
     target: Each creature in the area
     type: feature/ability/shadow/level-2
 name: Stink Bomb

@@ -17,6 +17,7 @@ level: "2"
 name: There Is No Space Between
 scc: mcdm.heroes.v1/feature.ability.elementalist.level-2/there-is-no-space-between
 source: mcdm.heroes.v1
+subclass: void
 target: Special
 type: ability
 ---
@@ -44,6 +45,7 @@ metadata:
     level: "2"
     name: There Is No Space Between
     scc: mcdm.heroes.v1/feature.ability.elementalist.level-2/there-is-no-space-between
+    subclass: void
     target: Special
     type: ability
 name: There Is No Space Between

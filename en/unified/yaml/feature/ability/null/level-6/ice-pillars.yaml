@@ -27,6 +27,7 @@ metadata:
     level: 6
     scc:
         - mcdm.heroes.v1/feature.ability.null.level-6/ice-pillars
+    subclass: cryokinetic
     target: Three creatures or objects
     type: feature/ability/null/level-6
 name: Ice Pillars

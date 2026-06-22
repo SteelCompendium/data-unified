@@ -10,6 +10,7 @@ level: "1"
 name: Covert Operations
 scc: mcdm.heroes.v1/feature.tactician.level-1/covert-operations
 source: mcdm.heroes.v1
+subclass: insurgent
 type: feature
 ---
 
@@ -25,6 +26,7 @@ metadata:
     level: "1"
     name: Covert Operations
     scc: mcdm.heroes.v1/feature.tactician.level-1/covert-operations
+    subclass: insurgent
     type: feature
 name: Covert Operations
 type: feature

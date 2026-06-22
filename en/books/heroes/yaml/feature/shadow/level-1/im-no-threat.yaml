@@ -19,6 +19,7 @@ ability:
         item_name: I'm No Threat
         keywords:
             - Magic
+        subclass: harlequin-mask
         target: Self
         type: feature/ability/common
     name: I'm No Threat

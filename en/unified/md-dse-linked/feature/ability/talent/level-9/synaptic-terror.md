@@ -21,6 +21,7 @@ name: Synaptic Terror
 power_roll_characteristic: '[Reason](../../../../rule/character/reason.md)'
 scc: mcdm.heroes.v1/feature.ability.talent.level-9/synaptic-terror
 source: mcdm.heroes.v1
+subclass: telepathy
 target: Each ally and enemy in the area
 tier1: R < WEAK, [frightened](../../../../condition/frightened.md) (save ends)
 tier2: R < AVERAGE, [frightened](../../../../condition/frightened.md) (save ends)
@@ -58,6 +59,7 @@ metadata:
     name: Synaptic Terror
     power_roll_characteristic: '[Reason](../../../../rule/character/reason.md)'
     scc: mcdm.heroes.v1/feature.ability.talent.level-9/synaptic-terror
+    subclass: telepathy
     target: Each ally and enemy in the area
     tier1: R < WEAK, [frightened](../../../../condition/frightened.md) (save ends)
     tier2: R < AVERAGE, [frightened](../../../../condition/frightened.md) (save ends)

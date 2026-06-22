@@ -13,6 +13,7 @@ level: "2"
 name: Force Redirected
 power_roll_characteristic: '[Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)'
 scc: mcdm.heroes.v1/feature.ability.null.level-2/force-redirected
+subclass: chronokinetic
 target: One creature
 tier1: 8 + A damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1
 tier2: 12 + A damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3

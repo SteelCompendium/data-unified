@@ -23,6 +23,7 @@ metadata:
     level: 2
     scc:
         - mcdm.heroes.v1/feature.ability.troubadour.level-2/encore
+    subclass: virtuoso
     target: Special
     type: feature/ability/troubadour/level-2
 name: Encore

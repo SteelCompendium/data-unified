@@ -19,6 +19,7 @@ level: "9"
 name: Rising Tension
 scc: mcdm.heroes.v1/feature.ability.troubadour.level-9/rising-tension
 source: mcdm.heroes.v1
+subclass: auteur
 target: One ally
 type: ability
 ---
@@ -46,6 +47,7 @@ metadata:
     level: "9"
     name: Rising Tension
     scc: mcdm.heroes.v1/feature.ability.troubadour.level-9/rising-tension
+    subclass: auteur
     target: One ally
     type: ability
 name: Rising Tension

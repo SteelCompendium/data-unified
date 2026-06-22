@@ -23,6 +23,7 @@
       "keywords": [
         "Magic"
       ],
+      "subclass": "creation",
       "target": "Self",
       "type": "feature/ability/common"
     },

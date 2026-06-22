@@ -17,6 +17,7 @@ level: "8"
 name: Moonlight Sonata
 scc: mcdm.heroes.v1/feature.ability.troubadour.level-8/moonlight-sonata
 source: mcdm.heroes.v1
+subclass: virtuoso
 target: Each ally in the area
 type: ability
 ---
@@ -44,6 +45,7 @@ metadata:
     level: "8"
     name: Moonlight Sonata
     scc: mcdm.heroes.v1/feature.ability.troubadour.level-8/moonlight-sonata
+    subclass: virtuoso
     target: Each ally in the area
     type: ability
 name: Moonlight Sonata

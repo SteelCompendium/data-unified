@@ -10,6 +10,7 @@ level: "8"
 name: Doubling the Hours
 scc: mcdm.heroes.v1/feature.talent.level-8/doubling-the-hours
 source: mcdm.heroes.v1
+subclass: chronopathy
 type: feature
 ---
 
@@ -22,6 +23,7 @@ metadata:
     level: "8"
     name: Doubling the Hours
     scc: mcdm.heroes.v1/feature.talent.level-8/doubling-the-hours
+    subclass: chronopathy
     type: feature
 name: Doubling the Hours
 type: feature

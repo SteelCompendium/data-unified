@@ -10,6 +10,7 @@ level: "8"
 name: Vow
 scc: mcdm.heroes.v1/feature.censor.level-8/vow
 source: mcdm.heroes.v1
+subclass: paragon
 type: feature
 ---
 
@@ -22,6 +23,7 @@ metadata:
     level: "8"
     name: Vow
     scc: mcdm.heroes.v1/feature.censor.level-8/vow
+    subclass: paragon
     type: feature
 name: Vow
 type: feature

@@ -29,6 +29,7 @@
         "Area",
         "Psionic"
       ],
+      "subclass": "telekinesis",
       "target": "Each ally in the area",
       "type": "feature/ability/common"
     },

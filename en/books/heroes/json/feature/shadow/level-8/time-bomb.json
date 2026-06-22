@@ -29,6 +29,7 @@
         "Area",
         "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)"
       ],
+      "subclass": "caustic-alchemy",
       "target": "Each enemy in the area",
       "type": "feature/ability/common"
     },
@@ -53,6 +54,7 @@
     "scc": [
       "mcdm.heroes.v1/feature.shadow.level-8/time-bomb"
     ],
+    "subclass": "caustic-alchemy",
     "type": "feature/shadow/level-8"
   },
   "name": "Time Bomb",

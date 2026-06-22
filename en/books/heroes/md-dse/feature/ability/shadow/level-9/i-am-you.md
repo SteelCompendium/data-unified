@@ -19,6 +19,7 @@ level: "9"
 name: I Am You
 scc: mcdm.heroes.v1/feature.ability.shadow.level-9/i-am-you
 source: mcdm.heroes.v1
+subclass: harlequin-mask
 target: One creature
 type: ability
 ---
@@ -46,6 +47,7 @@ metadata:
     level: "9"
     name: I Am You
     scc: mcdm.heroes.v1/feature.ability.shadow.level-9/i-am-you
+    subclass: harlequin-mask
     target: One creature
     type: ability
 name: I Am You

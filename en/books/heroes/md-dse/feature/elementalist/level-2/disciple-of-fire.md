@@ -10,6 +10,7 @@ level: "2"
 name: Disciple of Fire
 scc: mcdm.heroes.v1/feature.elementalist.level-2/disciple-of-fire
 source: mcdm.heroes.v1
+subclass: fire
 type: feature
 ---
 
@@ -25,6 +26,7 @@ metadata:
     level: "2"
     name: Disciple of Fire
     scc: mcdm.heroes.v1/feature.elementalist.level-2/disciple-of-fire
+    subclass: fire
     type: feature
 name: Disciple of Fire
 type: feature

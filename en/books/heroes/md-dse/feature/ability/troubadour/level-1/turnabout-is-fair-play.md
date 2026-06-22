@@ -16,6 +16,7 @@ name: Turnabout Is Fair Play
 scc: mcdm.heroes.v1/feature.ability.troubadour.level-1/turnabout-is-fair-play
 source: mcdm.heroes.v1
 spend: '3 Drama: An [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on the triggering roll becomes a double [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane), or a double [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) is negated. A [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) becomes a double [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge), or a double [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) is negated.'
+subclass: auteur
 subtype: triggered
 target: One creature
 trigger: The target makes an [ability roll](scc.v1:mcdm.heroes.v1/rule.dice/ability-roll) that has an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge), a double [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge), a [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane), or a double [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane).
@@ -44,6 +45,7 @@ metadata:
     name: Turnabout Is Fair Play
     scc: mcdm.heroes.v1/feature.ability.troubadour.level-1/turnabout-is-fair-play
     spend: '3 Drama: An [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on the triggering roll becomes a double [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane), or a double [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) is negated. A [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) becomes a double [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge), or a double [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) is negated.'
+    subclass: auteur
     subtype: triggered
     target: One creature
     trigger: The target makes an [ability roll](scc.v1:mcdm.heroes.v1/rule.dice/ability-roll) that has an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge), a double [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge), a [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane), or a double [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane).

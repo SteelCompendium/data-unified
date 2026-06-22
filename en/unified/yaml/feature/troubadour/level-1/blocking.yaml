@@ -21,6 +21,7 @@ ability:
             - Area
             - Magic
             - Performance
+        subclass: auteur
         target: Each creature in the area
         type: feature/ability/common
     name: Blocking
@@ -39,6 +40,7 @@ metadata:
     level: 1
     scc:
         - mcdm.heroes.v1/feature.troubadour.level-1/blocking
+    subclass: auteur
     type: feature/troubadour/level-1
 name: Blocking
 type: feature

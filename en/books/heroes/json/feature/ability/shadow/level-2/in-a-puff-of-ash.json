@@ -38,6 +38,7 @@
     "scc": [
       "mcdm.heroes.v1/feature.ability.shadow.level-2/in-a-puff-of-ash"
     ],
+    "subclass": "black-ash",
     "target": "One creature",
     "type": "feature/ability/shadow/level-2"
   },

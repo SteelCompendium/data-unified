@@ -13,6 +13,7 @@ level: "9"
 name: Deluge
 power_roll_characteristic: '[Might](scc.v1:mcdm.heroes.v1/rule.character/might)'
 scc: mcdm.heroes.v1/feature.ability.fury.level-9/deluge
+subclass: stormwight
 target: Each enemy in the area
 tier1: 7 damage
 tier2: 10 damage

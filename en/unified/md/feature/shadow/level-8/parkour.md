@@ -3,6 +3,7 @@ class: shadow
 level: "8"
 name: Parkour
 scc: mcdm.heroes.v1/feature.shadow.level-8/parkour
+subclass: harlequin-mask
 type: feature
 ---
 

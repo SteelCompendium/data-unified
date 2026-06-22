@@ -24,6 +24,7 @@ metadata:
     level: 1
     scc:
         - mcdm.heroes.v1/feature.ability.tactician.level-1/overwatch
+    subclass: mastermind
     target: One creature
     type: feature/ability/tactician/level-1
 name: Overwatch

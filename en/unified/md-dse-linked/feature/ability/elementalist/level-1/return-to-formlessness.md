@@ -17,6 +17,7 @@ level: "1"
 name: Return to Formlessness
 scc: mcdm.heroes.v1/feature.ability.elementalist.level-1/return-to-formlessness
 source: mcdm.heroes.v1
+subclass: fire
 target: One mundane object
 type: ability
 ---
@@ -44,6 +45,7 @@ metadata:
     level: "1"
     name: Return to Formlessness
     scc: mcdm.heroes.v1/feature.ability.elementalist.level-1/return-to-formlessness
+    subclass: fire
     target: One mundane object
     type: ability
 name: Return to Formlessness

@@ -13,6 +13,7 @@ level: "9"
 name: Epic
 power_roll_characteristic: '[Presence](scc.v1:mcdm.heroes.v1/rule.character/presence)'
 scc: mcdm.heroes.v1/feature.ability.troubadour.level-9/epic
+subclass: auteur
 target: One creature
 tier1: The target takes a [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) on [ability rolls](scc.v1:mcdm.heroes.v1/rule.dice/ability-roll) (save ends).
 tier2: The target has a double [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) on [ability rolls](scc.v1:mcdm.heroes.v1/rule.dice/ability-roll) (save ends).

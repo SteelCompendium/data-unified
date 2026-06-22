@@ -27,6 +27,7 @@ metadata:
     level: 2
     scc:
         - mcdm.heroes.v1/feature.ability.talent.level-2/gravitic-burst
+    subclass: telekinesis
     target: Each enemy in the area
     type: feature/ability/talent/level-2
 name: Gravitic Burst

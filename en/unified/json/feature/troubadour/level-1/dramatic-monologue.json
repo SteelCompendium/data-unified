@@ -29,6 +29,7 @@
         "Magic",
         "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)"
       ],
+      "subclass": "auteur",
       "target": "Special",
       "type": "feature/ability/common"
     },
@@ -53,6 +54,7 @@
     "scc": [
       "mcdm.heroes.v1/feature.troubadour.level-1/dramatic-monologue"
     ],
+    "subclass": "auteur",
     "type": "feature/troubadour/level-1"
   },
   "name": "Dramatic Monologue",

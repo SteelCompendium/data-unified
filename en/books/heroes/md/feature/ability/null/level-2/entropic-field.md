@@ -12,6 +12,7 @@ level: "2"
 name: Entropic Field
 power_roll_characteristic: '[Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)'
 scc: mcdm.heroes.v1/feature.ability.null.level-2/entropic-field
+subclass: cryokinetic
 target: Each enemy in the area
 tier1: 6 cold damage; A < WEAK, [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
 tier2: 9 cold damage; A < AVERAGE, [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)

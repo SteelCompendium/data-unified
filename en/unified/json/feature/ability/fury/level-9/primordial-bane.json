@@ -40,6 +40,7 @@
     "scc": [
       "mcdm.heroes.v1/feature.ability.fury.level-9/primordial-bane"
     ],
+    "subclass": "reaver",
     "target": "One creature",
     "type": "feature/ability/fury/level-9"
   },

@@ -12,6 +12,7 @@ level: "9"
 name: Jam Session
 power_roll_characteristic: '[Presence](scc.v1:mcdm.heroes.v1/rule.character/presence)'
 scc: mcdm.heroes.v1/feature.ability.troubadour.level-9/jam-session
+subclass: virtuoso
 target: Each enemy in the area
 tier1: 8 sonic damage
 tier2: 11 sonic damage

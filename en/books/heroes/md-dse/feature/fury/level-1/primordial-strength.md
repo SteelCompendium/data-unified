@@ -10,6 +10,7 @@ level: "1"
 name: Primordial Strength
 scc: mcdm.heroes.v1/feature.fury.level-1/primordial-strength
 source: mcdm.heroes.v1
+subclass: berserker
 type: feature
 ---
 
@@ -25,6 +26,7 @@ metadata:
     level: "1"
     name: Primordial Strength
     scc: mcdm.heroes.v1/feature.fury.level-1/primordial-strength
+    subclass: berserker
     type: feature
 name: Primordial Strength
 type: feature

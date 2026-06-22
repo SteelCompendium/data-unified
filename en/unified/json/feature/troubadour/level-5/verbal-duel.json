@@ -1,0 +1,23 @@
+{
+  "effects": [
+    {
+      "effect": "Once on each of your [turns](scc.v1:mcdm.heroes.v1/rule.combat/turn) while the target of your Foil feature is [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to you, you can use a [free maneuver](scc.v1:mcdm.heroes.v1/rule.combat/free-maneuver) to exchange words with them. Make an opposed [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence) [test](scc.v1:mcdm.heroes.v1/rule.test/test) with the target. Whoever gets the higher result can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike), which deals psychic damage instead of its usual damage."
+    }
+  ],
+  "feature_type": "feature",
+  "metadata": {
+    "action_type": "feature",
+    "class": "troubadour",
+    "feature_type": "feature",
+    "item_id": "verbal-duel",
+    "item_name": "Verbal Duel",
+    "level": 5,
+    "scc": [
+      "mcdm.heroes.v1/feature.troubadour.level-5/verbal-duel"
+    ],
+    "subclass": "duelist",
+    "type": "feature/troubadour/level-5"
+  },
+  "name": "Verbal Duel",
+  "type": "feature"
+}

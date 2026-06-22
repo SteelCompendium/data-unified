@@ -11,6 +11,7 @@ level: "8"
 name: Time Bomb
 scc: mcdm.heroes.v1/feature.ability.shadow.level-8/time-bomb
 spend: '2+ Insight: For every 2 insight spent, you increase the [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube)''s [size](scc.v1:mcdm.heroes.v1/rule.character/size) by 1 and gain 1 [surge](scc.v1:mcdm.heroes.v1/rule.resource/surge) that can be used only with this ability.'
+subclass: caustic-alchemy
 target: Each enemy in the area
 type: ability
 ---

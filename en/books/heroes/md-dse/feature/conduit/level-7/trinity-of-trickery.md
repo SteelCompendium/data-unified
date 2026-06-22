@@ -10,6 +10,7 @@ level: "7"
 name: Trinity of Trickery
 scc: mcdm.heroes.v1/feature.conduit.level-7/trinity-of-trickery
 source: mcdm.heroes.v1
+subclass: trickery
 type: feature
 ---
 
@@ -22,6 +23,7 @@ metadata:
     level: "7"
     name: Trinity of Trickery
     scc: mcdm.heroes.v1/feature.conduit.level-7/trinity-of-trickery
+    subclass: trickery
     type: feature
 name: Trinity of Trickery
 type: feature

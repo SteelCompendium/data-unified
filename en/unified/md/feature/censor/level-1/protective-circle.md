@@ -3,6 +3,7 @@ class: censor
 level: "1"
 name: Protective Circle
 scc: mcdm.heroes.v1/feature.censor.level-1/protective-circle
+subclass: protection
 type: feature
 ---
 

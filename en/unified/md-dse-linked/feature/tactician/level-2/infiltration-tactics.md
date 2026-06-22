@@ -10,6 +10,7 @@ level: "2"
 name: Infiltration Tactics
 scc: mcdm.heroes.v1/feature.tactician.level-2/infiltration-tactics
 source: mcdm.heroes.v1
+subclass: insurgent
 type: feature
 ---
 
@@ -22,6 +23,7 @@ metadata:
     level: "2"
     name: Infiltration Tactics
     scc: mcdm.heroes.v1/feature.tactician.level-2/infiltration-tactics
+    subclass: insurgent
     type: feature
 name: Infiltration Tactics
 type: feature

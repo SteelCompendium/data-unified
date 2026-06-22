@@ -31,6 +31,7 @@
     "scc": [
       "mcdm.heroes.v1/feature.ability.elementalist.level-3/remember-growth-and-sun-and-rain"
     ],
+    "subclass": "green",
     "target": "One mundane wooden object",
     "type": "feature/ability/elementalist/level-3"
   },

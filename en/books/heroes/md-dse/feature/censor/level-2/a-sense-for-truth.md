@@ -10,6 +10,7 @@ level: "2"
 name: A Sense for Truth
 scc: mcdm.heroes.v1/feature.censor.level-2/a-sense-for-truth
 source: mcdm.heroes.v1
+subclass: exorcist
 type: feature
 ---
 
@@ -22,6 +23,7 @@ metadata:
     level: "2"
     name: A Sense for Truth
     scc: mcdm.heroes.v1/feature.censor.level-2/a-sense-for-truth
+    subclass: exorcist
     type: feature
 name: A Sense for Truth
 type: feature

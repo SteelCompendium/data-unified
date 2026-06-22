@@ -19,6 +19,7 @@ level: "6"
 name: Invocation of Mystery
 scc: mcdm.heroes.v1/feature.ability.conduit.level-6/invocation-of-mystery
 source: mcdm.heroes.v1
+subclass: trickery
 target: Self and each ally in the area
 type: ability
 ---
@@ -46,6 +47,7 @@ metadata:
     level: "6"
     name: Invocation of Mystery
     scc: mcdm.heroes.v1/feature.ability.conduit.level-6/invocation-of-mystery
+    subclass: trickery
     target: Self and each ally in the area
     type: ability
 name: Invocation of Mystery

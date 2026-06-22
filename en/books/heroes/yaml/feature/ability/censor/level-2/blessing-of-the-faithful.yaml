@@ -23,6 +23,7 @@ metadata:
     level: 2
     scc:
         - mcdm.heroes.v1/feature.ability.censor.level-2/blessing-of-the-faithful
+    subclass: paragon
     target: Self and each ally in the area
     type: feature/ability/censor/level-2
 name: Blessing of the Faithful

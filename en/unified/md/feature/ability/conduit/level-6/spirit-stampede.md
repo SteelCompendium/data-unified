@@ -12,6 +12,7 @@ level: "6"
 name: Spirit Stampede
 power_roll_characteristic: '[Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)'
 scc: mcdm.heroes.v1/feature.ability.conduit.level-6/spirit-stampede
+subclass: nature
 target: Each enemy in the area
 tier1: 5 damage; M < WEAK, [prone and](scc.v1:mcdm.heroes.v1/condition/prone) can't stand (save ends)
 tier2: 8 damage; M < AVERAGE, [prone and](scc.v1:mcdm.heroes.v1/condition/prone) can't stand (save ends)

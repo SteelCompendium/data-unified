@@ -23,6 +23,7 @@ metadata:
     level: 2
     scc:
         - mcdm.heroes.v1/feature.ability.shadow.level-2/too-slow
+    subclass: black-ash
     target: Self
     type: feature/ability/shadow/level-2
 name: Too Slow

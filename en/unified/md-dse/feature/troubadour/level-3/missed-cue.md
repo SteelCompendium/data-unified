@@ -10,6 +10,7 @@ level: "3"
 name: Missed Cue
 scc: mcdm.heroes.v1/feature.troubadour.level-3/missed-cue
 source: mcdm.heroes.v1
+subclass: auteur
 type: feature
 ---
 
@@ -22,6 +23,7 @@ metadata:
     level: "3"
     name: Missed Cue
     scc: mcdm.heroes.v1/feature.troubadour.level-3/missed-cue
+    subclass: auteur
     type: feature
 name: Missed Cue
 type: feature

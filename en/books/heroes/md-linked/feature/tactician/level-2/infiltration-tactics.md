@@ -3,6 +3,7 @@ class: tactician
 level: "2"
 name: Infiltration Tactics
 scc: mcdm.heroes.v1/feature.tactician.level-2/infiltration-tactics
+subclass: insurgent
 type: feature
 ---
 

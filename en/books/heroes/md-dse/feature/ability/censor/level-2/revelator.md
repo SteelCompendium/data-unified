@@ -19,6 +19,7 @@ level: "2"
 name: Revelator
 scc: mcdm.heroes.v1/feature.ability.censor.level-2/revelator
 source: mcdm.heroes.v1
+subclass: exorcist
 target: Each enemy in the area
 type: ability
 ---
@@ -46,6 +47,7 @@ metadata:
     level: "2"
     name: Revelator
     scc: mcdm.heroes.v1/feature.ability.censor.level-2/revelator
+    subclass: exorcist
     target: Each enemy in the area
     type: ability
 name: Revelator

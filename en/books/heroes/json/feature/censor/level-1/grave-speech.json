@@ -23,6 +23,7 @@
       "keywords": [
         "Magic"
       ],
+      "subclass": "death",
       "target": "One dead creature",
       "type": "feature/ability/common"
     },

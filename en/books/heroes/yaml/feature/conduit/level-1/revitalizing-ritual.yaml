@@ -10,6 +10,7 @@ metadata:
     level: 1
     scc:
         - mcdm.heroes.v1/feature.conduit.level-1/revitalizing-ritual
+    subclass: life
     type: feature/conduit/level-1
 name: Revitalizing Ritual
 type: feature

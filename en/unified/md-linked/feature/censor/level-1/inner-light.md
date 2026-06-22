@@ -3,6 +3,7 @@ class: censor
 level: "1"
 name: Inner Light
 scc: mcdm.heroes.v1/feature.censor.level-1/inner-light
+subclass: sun
 type: feature
 ---
 

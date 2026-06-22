@@ -10,6 +10,7 @@ level: "2"
 name: Entropic Adaptability
 scc: mcdm.heroes.v1/feature.null.level-2/entropic-adaptability
 source: mcdm.heroes.v1
+subclass: cryokinetic
 type: feature
 ---
 
@@ -22,6 +23,7 @@ metadata:
     level: "2"
     name: Entropic Adaptability
     scc: mcdm.heroes.v1/feature.null.level-2/entropic-adaptability
+    subclass: cryokinetic
     type: feature
 name: Entropic Adaptability
 type: feature

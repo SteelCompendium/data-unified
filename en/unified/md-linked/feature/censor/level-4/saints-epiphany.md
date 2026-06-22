@@ -3,6 +3,7 @@ class: censor
 level: "4"
 name: Saint's Epiphany
 scc: mcdm.heroes.v1/feature.censor.level-4/saints-epiphany
+subclass: knowledge
 type: feature
 ---
 

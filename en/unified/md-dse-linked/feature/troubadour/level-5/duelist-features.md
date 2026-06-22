@@ -18,10 +18,6 @@ effects:
     - effect: |-
         Choose one of the following features.
 
-        ###### Verbal Duel
-
-        Once on each of your [turns](../../../rule/combat/turn.md) while the target of your Foil feature is [adjacent](../../../rule/combat/adjacent.md) to you, you can use a [free maneuver](../../../rule/combat/free-maneuver.md) to exchange words with them. Make an opposed [Presence](../../../rule/character/presence.md) [test](../../../rule/test/test.md) with the target. Whoever gets the higher result can make a [free strike](../../common/main-actions/free-strike.md), which deals psychic damage instead of its usual damage.
-
         ###### We Can't Be Upstaged!
 
         You have the following performance ability, which is usable with your [Routines](../level-1/routines.md) feature.

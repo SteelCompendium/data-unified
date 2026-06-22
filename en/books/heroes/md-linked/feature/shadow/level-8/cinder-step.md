@@ -3,6 +3,7 @@ class: shadow
 level: "8"
 name: Cinder Step
 scc: mcdm.heroes.v1/feature.shadow.level-8/cinder-step
+subclass: black-ash
 type: feature
 ---
 

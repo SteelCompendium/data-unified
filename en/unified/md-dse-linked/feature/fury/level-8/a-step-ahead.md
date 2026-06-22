@@ -10,6 +10,7 @@ level: "8"
 name: A Step Ahead
 scc: mcdm.heroes.v1/feature.fury.level-8/a-step-ahead
 source: mcdm.heroes.v1
+subclass: reaver
 type: feature
 ---
 
@@ -22,6 +23,7 @@ metadata:
     level: "8"
     name: A Step Ahead
     scc: mcdm.heroes.v1/feature.fury.level-8/a-step-ahead
+    subclass: reaver
     type: feature
 name: A Step Ahead
 type: feature

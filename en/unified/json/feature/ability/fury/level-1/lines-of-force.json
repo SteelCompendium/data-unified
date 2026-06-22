@@ -35,6 +35,7 @@
     "scc": [
       "mcdm.heroes.v1/feature.ability.fury.level-1/lines-of-force"
     ],
+    "subclass": "berserker",
     "target": "Self or one creature",
     "type": "feature/ability/fury/level-1"
   },

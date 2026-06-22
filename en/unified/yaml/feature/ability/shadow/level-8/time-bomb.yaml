@@ -24,6 +24,7 @@ metadata:
     level: 8
     scc:
         - mcdm.heroes.v1/feature.ability.shadow.level-8/time-bomb
+    subclass: caustic-alchemy
     target: Each enemy in the area
     type: feature/ability/shadow/level-8
 name: Time Bomb

@@ -10,6 +10,7 @@ level: "1"
 name: Advanced Tactics
 scc: mcdm.heroes.v1/feature.ability.tactician.level-1/advanced-tactics
 spend: '1 Focus: If the damage has any [potency](scc.v1:mcdm.heroes.v1/rule.character/potency) effect associated with it, the [potency](scc.v1:mcdm.heroes.v1/rule.character/potency) is increased by 1.'
+subclass: insurgent
 subtype: triggered
 target: One ally
 trigger: The target deals damage to another creature.

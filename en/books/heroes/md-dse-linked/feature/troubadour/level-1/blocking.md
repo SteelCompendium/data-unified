@@ -10,6 +10,7 @@ level: "1"
 name: Blocking
 scc: mcdm.heroes.v1/feature.troubadour.level-1/blocking
 source: mcdm.heroes.v1
+subclass: auteur
 type: feature
 ---
 
@@ -22,6 +23,7 @@ metadata:
     level: "1"
     name: Blocking
     scc: mcdm.heroes.v1/feature.troubadour.level-1/blocking
+    subclass: auteur
     type: feature
 name: Blocking
 type: feature

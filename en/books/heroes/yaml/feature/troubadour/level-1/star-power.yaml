@@ -20,6 +20,7 @@ ability:
         item_name: Star Power
         keywords:
             - '-'
+        subclass: duelist
         target: Self
         type: feature/ability/common
     name: Star Power
@@ -38,6 +39,7 @@ metadata:
     level: 1
     scc:
         - mcdm.heroes.v1/feature.troubadour.level-1/star-power
+    subclass: duelist
     type: feature/troubadour/level-1
 name: Star Power
 type: feature

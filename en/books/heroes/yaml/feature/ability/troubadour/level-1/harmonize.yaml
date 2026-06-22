@@ -25,6 +25,7 @@ metadata:
     level: 1
     scc:
         - mcdm.heroes.v1/feature.ability.troubadour.level-1/harmonize
+    subclass: virtuoso
     target: One ally
     type: feature/ability/troubadour/level-1
 name: Harmonize

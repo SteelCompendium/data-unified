@@ -3,6 +3,7 @@ class: tactician
 level: "5"
 name: Distracted
 scc: mcdm.heroes.v1/feature.tactician.level-5/distracted
+subclass: insurgent
 type: feature
 ---
 

@@ -10,6 +10,7 @@ level: "8"
 name: Black Hole Star
 scc: mcdm.heroes.v1/feature.elementalist.level-8/black-hole-star
 source: mcdm.heroes.v1
+subclass: void
 type: feature
 ---
 
@@ -25,6 +26,7 @@ metadata:
     level: "8"
     name: Black Hole Star
     scc: mcdm.heroes.v1/feature.elementalist.level-8/black-hole-star
+    subclass: void
     type: feature
 name: Black Hole Star
 type: feature

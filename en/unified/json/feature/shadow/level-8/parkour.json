@@ -15,6 +15,7 @@
     "scc": [
       "mcdm.heroes.v1/feature.shadow.level-8/parkour"
     ],
+    "subclass": "harlequin-mask",
     "type": "feature/shadow/level-8"
   },
   "name": "Parkour",

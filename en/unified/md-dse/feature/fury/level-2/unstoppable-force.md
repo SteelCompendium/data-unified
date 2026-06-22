@@ -10,6 +10,7 @@ level: "2"
 name: Unstoppable Force
 scc: mcdm.heroes.v1/feature.fury.level-2/unstoppable-force
 source: mcdm.heroes.v1
+subclass: berserker
 type: feature
 ---
 
@@ -22,6 +23,7 @@ metadata:
     level: "2"
     name: Unstoppable Force
     scc: mcdm.heroes.v1/feature.fury.level-2/unstoppable-force
+    subclass: berserker
     type: feature
 name: Unstoppable Force
 type: feature

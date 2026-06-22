@@ -23,6 +23,7 @@ metadata:
     level: 2
     scc:
         - mcdm.heroes.v1/feature.ability.censor.level-2/revelator
+    subclass: exorcist
     target: Each enemy in the area
     type: feature/ability/censor/level-2
 name: Revelator

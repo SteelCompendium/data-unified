@@ -17,6 +17,7 @@ name: Accelerate
 scc: mcdm.heroes.v1/feature.ability.talent.level-1/accelerate
 source: mcdm.heroes.v1
 spend: '2 Clarity: The target can use a maneuver.'
+subclass: chronopathy
 target: Self or one creature
 type: ability
 ---
@@ -45,6 +46,7 @@ metadata:
     name: Accelerate
     scc: mcdm.heroes.v1/feature.ability.talent.level-1/accelerate
     spend: '2 Clarity: The target can use a maneuver.'
+    subclass: chronopathy
     target: Self or one creature
     type: ability
 name: Accelerate

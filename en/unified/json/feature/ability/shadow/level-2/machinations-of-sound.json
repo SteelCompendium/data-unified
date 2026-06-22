@@ -38,6 +38,7 @@
     "scc": [
       "mcdm.heroes.v1/feature.ability.shadow.level-2/machinations-of-sound"
     ],
+    "subclass": "harlequin-mask",
     "target": "Each creature in the area",
     "type": "feature/ability/shadow/level-2"
   },

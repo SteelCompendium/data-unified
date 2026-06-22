@@ -27,6 +27,7 @@
       "keywords": [
         "Magic"
       ],
+      "subclass": "black-ash",
       "target": "Self",
       "type": "feature/ability/common"
     },

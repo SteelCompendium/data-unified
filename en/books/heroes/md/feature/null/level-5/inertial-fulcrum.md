@@ -3,6 +3,7 @@ class: "null"
 level: "5"
 name: Inertial Fulcrum
 scc: mcdm.heroes.v1/feature.null.level-5/inertial-fulcrum
+subclass: metakinetic
 type: feature
 ---
 

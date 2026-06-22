@@ -3,6 +3,7 @@ class: censor
 level: "2"
 name: Stalwart Icon
 scc: mcdm.heroes.v1/feature.censor.level-2/stalwart-icon
+subclass: paragon
 type: feature
 ---
 

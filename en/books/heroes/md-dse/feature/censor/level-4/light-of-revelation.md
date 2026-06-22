@@ -10,6 +10,7 @@ level: "4"
 name: Light of Revelation
 scc: mcdm.heroes.v1/feature.censor.level-4/light-of-revelation
 source: mcdm.heroes.v1
+subclass: sun
 type: feature
 ---
 
@@ -22,6 +23,7 @@ metadata:
     level: "4"
     name: Light of Revelation
     scc: mcdm.heroes.v1/feature.censor.level-4/light-of-revelation
+    subclass: sun
     type: feature
 name: Light of Revelation
 type: feature

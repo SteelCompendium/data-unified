@@ -10,6 +10,7 @@ level: "7"
 name: Gods' Library
 scc: mcdm.heroes.v1/feature.censor.level-7/gods-library
 source: mcdm.heroes.v1
+subclass: knowledge
 type: feature
 ---
 
@@ -22,6 +23,7 @@ metadata:
     level: "7"
     name: Gods' Library
     scc: mcdm.heroes.v1/feature.censor.level-7/gods-library
+    subclass: knowledge
     type: feature
 name: Gods' Library
 type: feature

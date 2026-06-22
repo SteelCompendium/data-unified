@@ -18,6 +18,7 @@ name: Breath of Dawn Remembered
 scc: mcdm.heroes.v1/feature.ability.elementalist.level-1/breath-of-dawn-remembered
 source: mcdm.heroes.v1
 spend: '1+ Essence: The target can spend an additional [Recovery](../../../../rule/health/recoveries.md) for each essence spent.'
+subclass: green
 subtype: triggered
 target: Self or one ally
 trigger: The target starts their [turn](../../../../rule/combat/turn.md) or takes damage.
@@ -50,6 +51,7 @@ metadata:
     name: Breath of Dawn Remembered
     scc: mcdm.heroes.v1/feature.ability.elementalist.level-1/breath-of-dawn-remembered
     spend: '1+ Essence: The target can spend an additional [Recovery](../../../../rule/health/recoveries.md) for each essence spent.'
+    subclass: green
     subtype: triggered
     target: Self or one ally
     trigger: The target starts their [turn](../../../../rule/combat/turn.md) or takes damage.

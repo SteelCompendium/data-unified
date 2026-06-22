@@ -9,7 +9,7 @@
 - [Condition](condition.md) (9 items)
 - [Culture](culture.md) (13 items)
 - [Dynamic-terrain](dynamic-terrain.md) (35 items)
-- [Feature](feature.md) (874 items)
+- [Feature](feature.md) (878 items)
 - [Feature-group](feature-group.md) (14 items)
 - [Featureblock](featureblock.md) (117 items)
 - [God](god.md) (11 items)
@@ -28,4 +28,4 @@
 - [Trait](trait.md) (94 items)
 - [Treasure](treasure.md) (127 items)
 
-Total items: 3076
+Total items: 3080

@@ -31,6 +31,7 @@ metadata:
     level: 6
     scc:
         - mcdm.heroes.v1/feature.ability.talent.level-6/synaptic-dissipation
+    subclass: telepathy
     target: Special
     type: feature/ability/talent/level-6
 name: Synaptic Dissipation

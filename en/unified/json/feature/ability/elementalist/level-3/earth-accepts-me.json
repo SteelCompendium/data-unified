@@ -29,6 +29,7 @@
     "scc": [
       "mcdm.heroes.v1/feature.ability.elementalist.level-3/earth-accepts-me"
     ],
+    "subclass": "earth",
     "target": "Self",
     "type": "feature/ability/elementalist/level-3"
   },

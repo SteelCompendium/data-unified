@@ -39,6 +39,7 @@
     "scc": [
       "mcdm.heroes.v1/feature.ability.troubadour.level-1/thunder-mother"
     ],
+    "subclass": "virtuoso",
     "target": "One creature",
     "type": "feature/ability/troubadour/level-1"
   },

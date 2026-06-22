@@ -10,6 +10,7 @@ level: "8"
 name: Cinder Step
 scc: mcdm.heroes.v1/feature.shadow.level-8/cinder-step
 source: mcdm.heroes.v1
+subclass: black-ash
 type: feature
 ---
 
@@ -22,6 +23,7 @@ metadata:
     level: "8"
     name: Cinder Step
     scc: mcdm.heroes.v1/feature.shadow.level-8/cinder-step
+    subclass: black-ash
     type: feature
 name: Cinder Step
 type: feature

@@ -3,6 +3,7 @@ class: tactician
 level: "7"
 name: Asymmetric Warfare
 scc: mcdm.heroes.v1/feature.tactician.level-7/asymmetric-warfare
+subclass: insurgent
 type: feature
 ---
 

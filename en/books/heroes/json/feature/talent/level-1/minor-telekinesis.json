@@ -29,6 +29,7 @@
         "Psionic",
         "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)"
       ],
+      "subclass": "telekinesis",
       "target": "Self or one [size](scc.v1:mcdm.heroes.v1/rule.character/size) 1 creature or object",
       "type": "feature/ability/common"
     },

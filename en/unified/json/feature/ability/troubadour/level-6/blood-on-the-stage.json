@@ -34,6 +34,7 @@
     "scc": [
       "mcdm.heroes.v1/feature.ability.troubadour.level-6/blood-on-the-stage"
     ],
+    "subclass": "duelist",
     "target": "One creature or object",
     "type": "feature/ability/troubadour/level-6"
   },

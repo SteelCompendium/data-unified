@@ -22,6 +22,7 @@ name: In a Puff of Ash
 power_roll_characteristic: '[Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)'
 scc: mcdm.heroes.v1/feature.ability.shadow.level-2/in-a-puff-of-ash
 source: mcdm.heroes.v1
+subclass: black-ash
 target: One creature
 tier1: 6 + A damage; you can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) the target 1 square
 tier2: 10 + A damage; you can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) the target up to 3 squares
@@ -61,6 +62,7 @@ metadata:
     name: In a Puff of Ash
     power_roll_characteristic: '[Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)'
     scc: mcdm.heroes.v1/feature.ability.shadow.level-2/in-a-puff-of-ash
+    subclass: black-ash
     target: One creature
     tier1: 6 + A damage; you can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) the target 1 square
     tier2: 10 + A damage; you can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) the target up to 3 squares

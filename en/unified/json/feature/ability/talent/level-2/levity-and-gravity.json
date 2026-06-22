@@ -36,6 +36,7 @@
     "scc": [
       "mcdm.heroes.v1/feature.ability.talent.level-2/levity-and-gravity"
     ],
+    "subclass": "telekinesis",
     "target": "One creature or object",
     "type": "feature/ability/talent/level-2"
   },

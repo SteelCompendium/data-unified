@@ -3,6 +3,7 @@ class: fury
 level: "8"
 name: Strongest There Is
 scc: mcdm.heroes.v1/feature.fury.level-8/strongest-there-is
+subclass: berserker
 type: feature
 ---
 

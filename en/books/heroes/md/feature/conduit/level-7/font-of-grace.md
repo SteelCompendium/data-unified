@@ -3,6 +3,7 @@ class: conduit
 level: "7"
 name: Font of Grace
 scc: mcdm.heroes.v1/feature.conduit.level-7/font-of-grace
+subclass: life
 type: feature
 ---
 

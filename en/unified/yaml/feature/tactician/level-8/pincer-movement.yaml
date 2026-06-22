@@ -13,6 +13,7 @@ metadata:
     level: 8
     scc:
         - mcdm.heroes.v1/feature.tactician.level-8/pincer-movement
+    subclass: mastermind
     type: feature/tactician/level-8
 name: Pincer Movement
 type: feature

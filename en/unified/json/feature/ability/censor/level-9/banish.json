@@ -38,6 +38,7 @@
     "scc": [
       "mcdm.heroes.v1/feature.ability.censor.level-9/banish"
     ],
+    "subclass": "exorcist",
     "target": "One creature",
     "type": "feature/ability/censor/level-9"
   },

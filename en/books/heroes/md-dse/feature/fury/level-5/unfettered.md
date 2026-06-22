@@ -10,6 +10,7 @@ level: "5"
 name: Unfettered
 scc: mcdm.heroes.v1/feature.fury.level-5/unfettered
 source: mcdm.heroes.v1
+subclass: reaver
 type: feature
 ---
 
@@ -22,6 +23,7 @@ metadata:
     level: "5"
     name: Unfettered
     scc: mcdm.heroes.v1/feature.fury.level-5/unfettered
+    subclass: reaver
     type: feature
 name: Unfettered
 type: feature

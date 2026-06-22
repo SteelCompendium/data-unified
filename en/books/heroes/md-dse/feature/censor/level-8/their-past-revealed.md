@@ -10,6 +10,7 @@ level: "8"
 name: Their Past Revealed
 scc: mcdm.heroes.v1/feature.censor.level-8/their-past-revealed
 source: mcdm.heroes.v1
+subclass: oracle
 type: feature
 ---
 
@@ -22,6 +23,7 @@ metadata:
     level: "8"
     name: Their Past Revealed
     scc: mcdm.heroes.v1/feature.censor.level-8/their-past-revealed
+    subclass: oracle
     type: feature
 name: Their Past Revealed
 type: feature

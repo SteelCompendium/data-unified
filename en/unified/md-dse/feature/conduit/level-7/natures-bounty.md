@@ -10,6 +10,7 @@ level: "7"
 name: Nature's Bounty
 scc: mcdm.heroes.v1/feature.conduit.level-7/natures-bounty
 source: mcdm.heroes.v1
+subclass: nature
 type: feature
 ---
 
@@ -31,6 +32,7 @@ metadata:
     level: "7"
     name: Nature's Bounty
     scc: mcdm.heroes.v1/feature.conduit.level-7/natures-bounty
+    subclass: nature
     type: feature
 name: Nature's Bounty
 type: feature

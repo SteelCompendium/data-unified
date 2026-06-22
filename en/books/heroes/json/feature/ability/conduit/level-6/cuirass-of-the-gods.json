@@ -32,6 +32,7 @@
     "scc": [
       "mcdm.heroes.v1/feature.ability.conduit.level-6/cuirass-of-the-gods"
     ],
+    "subclass": "protection",
     "target": "Three creatures",
     "type": "feature/ability/conduit/level-6"
   },

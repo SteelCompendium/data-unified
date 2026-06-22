@@ -10,6 +10,7 @@ level: "5"
 name: Tactical Offensive
 scc: mcdm.heroes.v1/feature.tactician.level-5/tactical-offensive
 source: mcdm.heroes.v1
+subclass: vanguard
 type: feature
 ---
 
@@ -22,6 +23,7 @@ metadata:
     level: "5"
     name: Tactical Offensive
     scc: mcdm.heroes.v1/feature.tactician.level-5/tactical-offensive
+    subclass: vanguard
     type: feature
 name: Tactical Offensive
 type: feature

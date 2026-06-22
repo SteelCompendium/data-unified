@@ -3,6 +3,7 @@ class: talent
 level: "8"
 name: Mindlink
 scc: mcdm.heroes.v1/feature.talent.level-8/mindlink
+subclass: telepathy
 type: feature
 ---
 

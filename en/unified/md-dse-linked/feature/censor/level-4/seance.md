@@ -10,6 +10,7 @@ level: "4"
 name: Seance
 scc: mcdm.heroes.v1/feature.censor.level-4/seance
 source: mcdm.heroes.v1
+subclass: death
 type: feature
 ---
 
@@ -22,6 +23,7 @@ metadata:
     level: "4"
     name: Seance
     scc: mcdm.heroes.v1/feature.censor.level-4/seance
+    subclass: death
     type: feature
 name: Seance
 type: feature

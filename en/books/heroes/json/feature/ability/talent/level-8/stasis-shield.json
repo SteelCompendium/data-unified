@@ -32,6 +32,7 @@
     "scc": [
       "mcdm.heroes.v1/feature.ability.talent.level-8/stasis-shield"
     ],
+    "subclass": "chronopathy",
     "target": "Self, or one creature or object",
     "type": "feature/ability/talent/level-8"
   },

@@ -33,6 +33,7 @@
     "scc": [
       "mcdm.heroes.v1/feature.ability.shadow.level-1/in-all-this-confusion"
     ],
+    "subclass": "black-ash",
     "target": "Self",
     "type": "feature/ability/shadow/level-1"
   },

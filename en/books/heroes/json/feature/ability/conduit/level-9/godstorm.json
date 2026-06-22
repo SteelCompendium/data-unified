@@ -38,6 +38,7 @@
     "scc": [
       "mcdm.heroes.v1/feature.ability.conduit.level-9/godstorm"
     ],
+    "subclass": "storm",
     "target": "Each enemy in the area",
     "type": "feature/ability/conduit/level-9"
   },

@@ -19,6 +19,7 @@ level: "6"
 name: Lauded by God
 scc: mcdm.heroes.v1/feature.ability.conduit.level-6/lauded-by-god
 source: mcdm.heroes.v1
+subclass: love
 target: Two allies
 type: ability
 ---
@@ -46,6 +47,7 @@ metadata:
     level: "6"
     name: Lauded by God
     scc: mcdm.heroes.v1/feature.ability.conduit.level-6/lauded-by-god
+    subclass: love
     target: Two allies
     type: ability
 name: Lauded by God

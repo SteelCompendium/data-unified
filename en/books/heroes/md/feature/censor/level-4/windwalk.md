@@ -3,6 +3,7 @@ class: censor
 level: "4"
 name: Windwalk
 scc: mcdm.heroes.v1/feature.censor.level-4/windwalk
+subclass: storm
 type: feature
 ---
 

@@ -12,6 +12,7 @@ level: "6"
 name: Burden of Evil
 power_roll_characteristic: '[Presence](scc.v1:mcdm.heroes.v1/rule.character/presence)'
 scc: mcdm.heroes.v1/feature.ability.censor.level-6/burden-of-evil
+subclass: oracle
 target: Three enemies
 tier1: '[Slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3; I < WEAK, [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)'
 tier2: '[Slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5; I < AVERAGE, [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)'

@@ -19,6 +19,7 @@ level: "2"
 name: Reap
 scc: mcdm.heroes.v1/feature.ability.conduit.level-2/reap
 source: mcdm.heroes.v1
+subclass: death
 target: Each ally
 type: ability
 ---
@@ -46,6 +47,7 @@ metadata:
     level: "2"
     name: Reap
     scc: mcdm.heroes.v1/feature.ability.conduit.level-2/reap
+    subclass: death
     target: Each ally
     type: ability
 name: Reap

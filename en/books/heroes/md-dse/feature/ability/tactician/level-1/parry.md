@@ -17,6 +17,7 @@ name: Parry
 scc: mcdm.heroes.v1/feature.ability.tactician.level-1/parry
 source: mcdm.heroes.v1
 spend: '1 Focus: This ability''s [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance) becomes [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1 + your [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) score, and you can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to a number of squares equal to your [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) score instead of 1 square.'
+subclass: vanguard
 subtype: triggered
 target: Self or one ally
 trigger: A creature deals damage to the target.
@@ -47,6 +48,7 @@ metadata:
     name: Parry
     scc: mcdm.heroes.v1/feature.ability.tactician.level-1/parry
     spend: '1 Focus: This ability''s [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance) becomes [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1 + your [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) score, and you can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to a number of squares equal to your [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) score instead of 1 square.'
+    subclass: vanguard
     subtype: triggered
     target: Self or one ally
     trigger: A creature deals damage to the target.

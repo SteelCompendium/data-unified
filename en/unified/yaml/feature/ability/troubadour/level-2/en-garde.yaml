@@ -29,6 +29,7 @@ metadata:
     level: 2
     scc:
         - mcdm.heroes.v1/feature.ability.troubadour.level-2/en-garde
+    subclass: duelist
     target: One creature
     type: feature/ability/troubadour/level-2
 name: En Garde!

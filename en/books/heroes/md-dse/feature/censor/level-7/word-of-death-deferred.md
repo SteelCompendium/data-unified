@@ -10,6 +10,7 @@ level: "7"
 name: Word of Death Deferred
 scc: mcdm.heroes.v1/feature.censor.level-7/word-of-death-deferred
 source: mcdm.heroes.v1
+subclass: death
 type: feature
 ---
 
@@ -25,6 +26,7 @@ metadata:
     level: "7"
     name: Word of Death Deferred
     scc: mcdm.heroes.v1/feature.censor.level-7/word-of-death-deferred
+    subclass: death
     type: feature
 name: Word of Death Deferred
 type: feature

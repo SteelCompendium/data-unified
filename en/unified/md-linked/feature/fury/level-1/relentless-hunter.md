@@ -3,6 +3,7 @@ class: fury
 level: "1"
 name: Relentless Hunter
 scc: mcdm.heroes.v1/feature.fury.level-1/relentless-hunter
+subclass: stormwight
 type: feature
 ---
 

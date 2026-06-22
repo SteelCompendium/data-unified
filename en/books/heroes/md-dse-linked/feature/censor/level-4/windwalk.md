@@ -10,6 +10,7 @@ level: "4"
 name: Windwalk
 scc: mcdm.heroes.v1/feature.censor.level-4/windwalk
 source: mcdm.heroes.v1
+subclass: storm
 type: feature
 ---
 
@@ -22,6 +23,7 @@ metadata:
     level: "4"
     name: Windwalk
     scc: mcdm.heroes.v1/feature.censor.level-4/windwalk
+    subclass: storm
     type: feature
 name: Windwalk
 type: feature

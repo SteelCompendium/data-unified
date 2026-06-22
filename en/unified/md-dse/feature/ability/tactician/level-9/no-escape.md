@@ -22,6 +22,7 @@ name: No Escape
 power_roll_characteristic: '[Might](scc.v1:mcdm.heroes.v1/rule.character/might)'
 scc: mcdm.heroes.v1/feature.ability.tactician.level-9/no-escape
 source: mcdm.heroes.v1
+subclass: vanguard
 target: One creature
 tier1: 11 + M damage
 tier2: 16 + M damage
@@ -61,6 +62,7 @@ metadata:
     name: No Escape
     power_roll_characteristic: '[Might](scc.v1:mcdm.heroes.v1/rule.character/might)'
     scc: mcdm.heroes.v1/feature.ability.tactician.level-9/no-escape
+    subclass: vanguard
     target: One creature
     tier1: 11 + M damage
     tier2: 16 + M damage

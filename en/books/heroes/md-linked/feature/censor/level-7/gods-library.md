@@ -3,6 +3,7 @@ class: censor
 level: "7"
 name: Gods' Library
 scc: mcdm.heroes.v1/feature.censor.level-7/gods-library
+subclass: knowledge
 type: feature
 ---
 

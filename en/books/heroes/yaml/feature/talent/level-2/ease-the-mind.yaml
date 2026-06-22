@@ -10,6 +10,7 @@ metadata:
     level: 2
     scc:
         - mcdm.heroes.v1/feature.talent.level-2/ease-the-mind
+    subclass: telepathy
     type: feature/talent/level-2
 name: Ease the Mind
 type: feature

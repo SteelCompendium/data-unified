@@ -16,6 +16,7 @@ name: In All This Confusion
 scc: mcdm.heroes.v1/feature.ability.shadow.level-1/in-all-this-confusion
 source: mcdm.heroes.v1
 spend: '1+ Insight: You [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) 1 additional square for each insight spent.'
+subclass: black-ash
 subtype: triggered
 target: Self
 trigger: You take damage.
@@ -44,6 +45,7 @@ metadata:
     name: In All This Confusion
     scc: mcdm.heroes.v1/feature.ability.shadow.level-1/in-all-this-confusion
     spend: '1+ Insight: You [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) 1 additional square for each insight spent.'
+    subclass: black-ash
     subtype: triggered
     target: Self
     trigger: You take damage.

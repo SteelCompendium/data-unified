@@ -19,6 +19,7 @@ ability:
         item_name: Coat the Blade
         keywords:
             - '-'
+        subclass: caustic-alchemy
         target: Self
         type: feature/ability/common
     name: Coat the Blade

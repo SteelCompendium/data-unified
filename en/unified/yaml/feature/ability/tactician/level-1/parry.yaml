@@ -26,6 +26,7 @@ metadata:
     level: 1
     scc:
         - mcdm.heroes.v1/feature.ability.tactician.level-1/parry
+    subclass: vanguard
     target: Self or one ally
     type: feature/ability/tactician/level-1
 name: Parry

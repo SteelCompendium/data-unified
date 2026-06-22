@@ -37,6 +37,7 @@
     "scc": [
       "mcdm.heroes.v1/feature.ability.elementalist.level-1/explosive-assistance"
     ],
+    "subclass": "fire",
     "target": "Self or one ally",
     "type": "feature/ability/elementalist/level-1"
   },

@@ -10,6 +10,7 @@ level: "4"
 name: Veiling Bed
 scc: mcdm.heroes.v1/feature.elementalist.level-4/veiling-bed
 source: mcdm.heroes.v1
+subclass: void
 type: feature
 ---
 
@@ -22,6 +23,7 @@ metadata:
     level: "4"
     name: Veiling Bed
     scc: mcdm.heroes.v1/feature.elementalist.level-4/veiling-bed
+    subclass: void
     type: feature
 name: Veiling Bed
 type: feature

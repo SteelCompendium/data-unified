@@ -3,6 +3,7 @@ class: shadow
 level: "5"
 name: Trail of Cinders
 scc: mcdm.heroes.v1/feature.shadow.level-5/trail-of-cinders
+subclass: black-ash
 type: feature
 ---
 

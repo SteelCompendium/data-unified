@@ -38,6 +38,7 @@
     "scc": [
       "mcdm.heroes.v1/feature.ability.talent.level-9/synaptic-terror"
     ],
+    "subclass": "telepathy",
     "target": "Each ally and enemy in the area",
     "type": "feature/ability/talent/level-9"
   },

@@ -10,6 +10,7 @@ level: "8"
 name: Synaptic Triage
 scc: mcdm.heroes.v1/feature.null.level-8/synaptic-triage
 source: mcdm.heroes.v1
+subclass: cryokinetic
 type: feature
 ---
 
@@ -22,6 +23,7 @@ metadata:
     level: "8"
     name: Synaptic Triage
     scc: mcdm.heroes.v1/feature.null.level-8/synaptic-triage
+    subclass: cryokinetic
     type: feature
 name: Synaptic Triage
 type: feature

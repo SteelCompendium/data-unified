@@ -3,6 +3,7 @@ class: fury
 level: "5"
 name: Stormborn
 scc: mcdm.heroes.v1/feature.fury.level-5/stormborn
+subclass: stormwight
 type: feature
 ---
 

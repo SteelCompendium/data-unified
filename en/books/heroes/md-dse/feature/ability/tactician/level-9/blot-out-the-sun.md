@@ -18,6 +18,7 @@ level: "9"
 name: Blot Out the Sun!
 scc: mcdm.heroes.v1/feature.ability.tactician.level-9/blot-out-the-sun
 source: mcdm.heroes.v1
+subclass: mastermind
 target: Self and each ally in the area
 type: ability
 ---
@@ -43,6 +44,7 @@ metadata:
     level: "9"
     name: Blot Out the Sun!
     scc: mcdm.heroes.v1/feature.ability.tactician.level-9/blot-out-the-sun
+    subclass: mastermind
     target: Self and each ally in the area
     type: ability
 name: Blot Out the Sun!

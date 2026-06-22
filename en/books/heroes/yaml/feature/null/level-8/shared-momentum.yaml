@@ -10,6 +10,7 @@ metadata:
     level: 8
     scc:
         - mcdm.heroes.v1/feature.null.level-8/shared-momentum
+    subclass: chronokinetic
     type: feature/null/level-8
 name: Shared Momentum
 type: feature

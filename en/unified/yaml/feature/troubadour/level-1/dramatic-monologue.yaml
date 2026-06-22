@@ -21,6 +21,7 @@ ability:
         keywords:
             - Magic
             - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'
+        subclass: auteur
         target: Special
         type: feature/ability/common
     name: Dramatic Monologue
@@ -39,6 +40,7 @@ metadata:
     level: 1
     scc:
         - mcdm.heroes.v1/feature.troubadour.level-1/dramatic-monologue
+    subclass: auteur
     type: feature/troubadour/level-1
 name: Dramatic Monologue
 type: feature

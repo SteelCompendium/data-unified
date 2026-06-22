@@ -10,6 +10,7 @@ level: "1"
 name: Primordial Cunning
 scc: mcdm.heroes.v1/feature.fury.level-1/primordial-cunning
 source: mcdm.heroes.v1
+subclass: reaver
 type: feature
 ---
 
@@ -25,6 +26,7 @@ metadata:
     level: "1"
     name: Primordial Cunning
     scc: mcdm.heroes.v1/feature.fury.level-1/primordial-cunning
+    subclass: reaver
     type: feature
 name: Primordial Cunning
 type: feature

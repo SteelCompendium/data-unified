@@ -3,6 +3,7 @@ class: shadow
 level: "5"
 name: Harlequin Gambit
 scc: mcdm.heroes.v1/feature.shadow.level-5/harlequin-gambit
+subclass: harlequin-mask
 type: feature
 ---
 

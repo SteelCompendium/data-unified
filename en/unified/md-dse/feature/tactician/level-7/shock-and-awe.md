@@ -10,6 +10,7 @@ level: "7"
 name: Shock and Awe
 scc: mcdm.heroes.v1/feature.tactician.level-7/shock-and-awe
 source: mcdm.heroes.v1
+subclass: vanguard
 type: feature
 ---
 
@@ -22,6 +23,7 @@ metadata:
     level: "7"
     name: Shock and Awe
     scc: mcdm.heroes.v1/feature.tactician.level-7/shock-and-awe
+    subclass: vanguard
     type: feature
 name: Shock and Awe
 type: feature

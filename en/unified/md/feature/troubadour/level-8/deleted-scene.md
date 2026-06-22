@@ -3,6 +3,7 @@ class: troubadour
 level: "8"
 name: Deleted Scene
 scc: mcdm.heroes.v1/feature.troubadour.level-8/deleted-scene
+subclass: auteur
 type: feature
 ---
 

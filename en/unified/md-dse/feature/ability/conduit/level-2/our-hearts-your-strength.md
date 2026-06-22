@@ -19,6 +19,7 @@ level: "2"
 name: Our Hearts Your Strength
 scc: mcdm.heroes.v1/feature.ability.conduit.level-2/our-hearts-your-strength
 source: mcdm.heroes.v1
+subclass: love
 target: Self and one ally
 type: ability
 ---
@@ -46,6 +47,7 @@ metadata:
     level: "2"
     name: Our Hearts Your Strength
     scc: mcdm.heroes.v1/feature.ability.conduit.level-2/our-hearts-your-strength
+    subclass: love
     target: Self and one ally
     type: ability
 name: Our Hearts Your Strength

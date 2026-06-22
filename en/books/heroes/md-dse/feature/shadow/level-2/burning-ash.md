@@ -10,6 +10,7 @@ level: "2"
 name: Burning Ash
 scc: mcdm.heroes.v1/feature.shadow.level-2/burning-ash
 source: mcdm.heroes.v1
+subclass: black-ash
 type: feature
 ---
 
@@ -22,6 +23,7 @@ metadata:
     level: "2"
     name: Burning Ash
     scc: mcdm.heroes.v1/feature.shadow.level-2/burning-ash
+    subclass: black-ash
     type: feature
 name: Burning Ash
 type: feature

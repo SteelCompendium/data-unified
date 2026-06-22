@@ -22,6 +22,7 @@ ability:
         keywords:
             - Psionic
             - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'
+        subclass: chronopathy
         target: Self, or one creature or object
         type: feature/ability/common
     name: Stasis Shield

@@ -25,6 +25,7 @@ metadata:
     level: 2
     scc:
         - mcdm.heroes.v1/feature.ability.null.level-2/kinetic-shield
+    subclass: metakinetic
     target: Self
     type: feature/ability/null/level-2
 name: Kinetic Shield

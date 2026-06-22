@@ -3,6 +3,7 @@ class: troubadour
 level: "1"
 name: Blocking
 scc: mcdm.heroes.v1/feature.troubadour.level-1/blocking
+subclass: auteur
 type: feature
 ---
 

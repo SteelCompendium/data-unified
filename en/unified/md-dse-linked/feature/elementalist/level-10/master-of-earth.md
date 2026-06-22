@@ -10,6 +10,7 @@ level: "10"
 name: Master of Earth
 scc: mcdm.heroes.v1/feature.elementalist.level-10/master-of-earth
 source: mcdm.heroes.v1
+subclass: earth
 type: feature
 ---
 
@@ -25,6 +26,7 @@ metadata:
     level: "10"
     name: Master of Earth
     scc: mcdm.heroes.v1/feature.elementalist.level-10/master-of-earth
+    subclass: earth
     type: feature
 name: Master of Earth
 type: feature

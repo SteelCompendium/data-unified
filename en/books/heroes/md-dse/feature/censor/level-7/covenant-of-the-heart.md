@@ -10,6 +10,7 @@ level: "7"
 name: Covenant of the Heart
 scc: mcdm.heroes.v1/feature.censor.level-7/covenant-of-the-heart
 source: mcdm.heroes.v1
+subclass: love
 type: feature
 ---
 
@@ -22,6 +23,7 @@ metadata:
     level: "7"
     name: Covenant of the Heart
     scc: mcdm.heroes.v1/feature.censor.level-7/covenant-of-the-heart
+    subclass: love
     type: feature
 name: Covenant of the Heart
 type: feature

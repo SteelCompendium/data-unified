@@ -20,6 +20,7 @@ level: "9"
 name: Night Falls
 scc: mcdm.heroes.v1/feature.ability.conduit.level-9/night-falls
 source: mcdm.heroes.v1
+subclass: trickery
 target: Special
 type: ability
 ---
@@ -49,6 +50,7 @@ metadata:
     level: "9"
     name: Night Falls
     scc: mcdm.heroes.v1/feature.ability.conduit.level-9/night-falls
+    subclass: trickery
     target: Special
     type: ability
 name: Night Falls

@@ -11,6 +11,7 @@ keywords:
 level: "5"
 name: We Can't Be Upstaged!
 scc: mcdm.heroes.v1/feature.ability.troubadour.level-5/we-cant-be-upstaged
+subclass: duelist
 target: Self and each ally in the area
 type: ability
 ---

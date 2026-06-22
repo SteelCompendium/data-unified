@@ -3,6 +3,7 @@ class: censor
 level: "4"
 name: Blessing of Life
 scc: mcdm.heroes.v1/feature.censor.level-4/blessing-of-life
+subclass: life
 type: feature
 ---
 

@@ -3,6 +3,7 @@ class: troubadour
 level: "3"
 name: Second Album
 scc: mcdm.heroes.v1/feature.troubadour.level-3/second-album
+subclass: virtuoso
 type: feature
 ---
 

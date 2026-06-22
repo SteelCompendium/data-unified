@@ -23,6 +23,7 @@ metadata:
     level: 2
     scc:
         - mcdm.heroes.v1/feature.ability.conduit.level-2/blessing-of-fate-and-destiny
+    subclass: fate
     target: Three creatures
     type: feature/ability/conduit/level-2
 name: Blessing of Fate and Destiny

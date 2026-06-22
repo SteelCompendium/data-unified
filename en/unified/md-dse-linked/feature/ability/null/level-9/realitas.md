@@ -22,6 +22,7 @@ name: Realitas
 power_roll_characteristic: '[Agility](../../../../rule/character/agility.md)'
 scc: mcdm.heroes.v1/feature.ability.null.level-9/realitas
 source: mcdm.heroes.v1
+subclass: metakinetic
 target: One creature
 tier1: 7 + A psychic damage; I < WEAK, [dazed](../../../../condition/dazed.md)
 tier2: 10 + A psychic damage; I < AVERAGE, [dazed](../../../../condition/dazed.md)
@@ -61,6 +62,7 @@ metadata:
     name: Realitas
     power_roll_characteristic: '[Agility](../../../../rule/character/agility.md)'
     scc: mcdm.heroes.v1/feature.ability.null.level-9/realitas
+    subclass: metakinetic
     target: One creature
     tier1: 7 + A psychic damage; I < WEAK, [dazed](../../../../condition/dazed.md)
     tier2: 10 + A psychic damage; I < AVERAGE, [dazed](../../../../condition/dazed.md)

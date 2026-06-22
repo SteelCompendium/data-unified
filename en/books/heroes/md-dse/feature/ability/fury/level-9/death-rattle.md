@@ -19,6 +19,7 @@ name: Death Rattle
 power_roll_characteristic: '[Might](scc.v1:mcdm.heroes.v1/rule.character/might)'
 scc: mcdm.heroes.v1/feature.ability.fury.level-9/death-rattle
 source: mcdm.heroes.v1
+subclass: stormwight
 target: Each enemy in the area
 tier1: 4 psychic damage; any target who is a minion is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina)
 tier2: 6 psychic damage; any target who is a minion is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), as does one [winded](scc.v1:mcdm.heroes.v1/rule.health/winded) target who is not a leader or solo creature
@@ -52,6 +53,7 @@ metadata:
     name: Death Rattle
     power_roll_characteristic: '[Might](scc.v1:mcdm.heroes.v1/rule.character/might)'
     scc: mcdm.heroes.v1/feature.ability.fury.level-9/death-rattle
+    subclass: stormwight
     target: Each enemy in the area
     tier1: 4 psychic damage; any target who is a minion is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina)
     tier2: 6 psychic damage; any target who is a minion is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), as does one [winded](scc.v1:mcdm.heroes.v1/rule.health/winded) target who is not a leader or solo creature

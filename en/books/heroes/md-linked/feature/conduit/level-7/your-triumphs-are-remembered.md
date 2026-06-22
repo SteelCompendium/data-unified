@@ -3,6 +3,7 @@ class: conduit
 level: "7"
 name: Your Triumphs Are Remembered
 scc: mcdm.heroes.v1/feature.conduit.level-7/your-triumphs-are-remembered
+subclass: war
 type: feature
 ---
 

@@ -3,6 +3,7 @@ class: elementalist
 level: "1"
 name: 'Fire: Acolyte of Fire'
 scc: mcdm.heroes.v1/feature.elementalist.level-1/fire-acolyte-of-fire
+subclass: fire
 type: feature
 ---
 

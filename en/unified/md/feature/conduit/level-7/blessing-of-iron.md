@@ -3,6 +3,7 @@ class: conduit
 level: "7"
 name: Blessing of Iron
 scc: mcdm.heroes.v1/feature.conduit.level-7/blessing-of-iron
+subclass: protection
 type: feature
 ---
 

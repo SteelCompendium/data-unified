@@ -10,6 +10,7 @@ level: "1"
 name: A Beyonding of Vision
 scc: mcdm.heroes.v1/feature.elementalist.level-1/a-beyonding-of-vision
 source: mcdm.heroes.v1
+subclass: void
 type: feature
 ---
 
@@ -25,6 +26,7 @@ metadata:
     level: "1"
     name: A Beyonding of Vision
     scc: mcdm.heroes.v1/feature.elementalist.level-1/a-beyonding-of-vision
+    subclass: void
     type: feature
 name: A Beyonding of Vision
 type: feature

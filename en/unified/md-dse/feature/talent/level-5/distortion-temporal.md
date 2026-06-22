@@ -10,6 +10,7 @@ level: "5"
 name: Distortion Temporal
 scc: mcdm.heroes.v1/feature.talent.level-5/distortion-temporal
 source: mcdm.heroes.v1
+subclass: chronopathy
 type: feature
 ---
 
@@ -22,6 +23,7 @@ metadata:
     level: "5"
     name: Distortion Temporal
     scc: mcdm.heroes.v1/feature.talent.level-5/distortion-temporal
+    subclass: chronopathy
     type: feature
 name: Distortion Temporal
 type: feature

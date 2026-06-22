@@ -18,6 +18,7 @@ name: Skin Like Castle Walls
 scc: mcdm.heroes.v1/feature.ability.elementalist.level-1/skin-like-castle-walls
 source: mcdm.heroes.v1
 spend: '1 Essence: If the damage has any [potency](../../../../rule/character/potency.md) effects associated with it, the [potency](../../../../rule/character/potency.md) is reduced by 1 for the target.'
+subclass: earth
 subtype: triggered
 target: Self or one ally
 trigger: The target takes damage.
@@ -50,6 +51,7 @@ metadata:
     name: Skin Like Castle Walls
     scc: mcdm.heroes.v1/feature.ability.elementalist.level-1/skin-like-castle-walls
     spend: '1 Essence: If the damage has any [potency](../../../../rule/character/potency.md) effects associated with it, the [potency](../../../../rule/character/potency.md) is reduced by 1 for the target.'
+    subclass: earth
     subtype: triggered
     target: Self or one ally
     trigger: The target takes damage.

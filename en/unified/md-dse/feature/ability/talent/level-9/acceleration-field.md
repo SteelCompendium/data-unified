@@ -21,6 +21,7 @@ name: Acceleration Field
 power_roll_characteristic: '[Presence](scc.v1:mcdm.heroes.v1/rule.character/presence)'
 scc: mcdm.heroes.v1/feature.ability.talent.level-9/acceleration-field
 source: mcdm.heroes.v1
+subclass: chronopathy
 target: Three allies
 tier1: 4 corruption damage; [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
 tier2: 6 corruption damage; [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
@@ -58,6 +59,7 @@ metadata:
     name: Acceleration Field
     power_roll_characteristic: '[Presence](scc.v1:mcdm.heroes.v1/rule.character/presence)'
     scc: mcdm.heroes.v1/feature.ability.talent.level-9/acceleration-field
+    subclass: chronopathy
     target: Three allies
     tier1: 4 corruption damage; [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
     tier2: 6 corruption damage; [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)

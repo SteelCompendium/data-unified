@@ -29,6 +29,7 @@ metadata:
     level: 9
     scc:
         - mcdm.heroes.v1/feature.ability.shadow.level-9/to-the-stars
+    subclass: caustic-alchemy
     target: One creature or object
     type: feature/ability/shadow/level-9
 name: To the Stars

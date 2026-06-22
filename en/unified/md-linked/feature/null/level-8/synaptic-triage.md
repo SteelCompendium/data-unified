@@ -3,6 +3,7 @@ class: "null"
 level: "8"
 name: Synaptic Triage
 scc: mcdm.heroes.v1/feature.null.level-8/synaptic-triage
+subclass: cryokinetic
 type: feature
 ---
 

@@ -11,6 +11,7 @@ keywords:
 level: "6"
 name: You're All My Understudies
 scc: mcdm.heroes.v1/feature.ability.troubadour.level-6/youre-all-my-understudies
+subclass: auteur
 target: Each ally in the area
 type: ability
 ---

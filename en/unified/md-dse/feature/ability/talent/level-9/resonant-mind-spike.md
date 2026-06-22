@@ -22,6 +22,7 @@ name: Resonant Mind Spike
 power_roll_characteristic: '[Reason](scc.v1:mcdm.heroes.v1/rule.character/reason)'
 scc: mcdm.heroes.v1/feature.ability.talent.level-9/resonant-mind-spike
 source: mcdm.heroes.v1
+subclass: telepathy
 target: One creature
 tier1: 15 + R psychic damage
 tier2: 24 + R psychic damage
@@ -61,6 +62,7 @@ metadata:
     name: Resonant Mind Spike
     power_roll_characteristic: '[Reason](scc.v1:mcdm.heroes.v1/rule.character/reason)'
     scc: mcdm.heroes.v1/feature.ability.talent.level-9/resonant-mind-spike
+    subclass: telepathy
     target: One creature
     tier1: 15 + R psychic damage
     tier2: 24 + R psychic damage

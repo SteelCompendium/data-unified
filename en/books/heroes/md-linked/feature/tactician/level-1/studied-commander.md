@@ -3,6 +3,7 @@ class: tactician
 level: "1"
 name: Studied Commander
 scc: mcdm.heroes.v1/feature.tactician.level-1/studied-commander
+subclass: mastermind
 type: feature
 ---
 

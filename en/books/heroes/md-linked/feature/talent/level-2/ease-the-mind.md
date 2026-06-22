@@ -3,6 +3,7 @@ class: talent
 level: "2"
 name: Ease the Mind
 scc: mcdm.heroes.v1/feature.talent.level-2/ease-the-mind
+subclass: telepathy
 type: feature
 ---
 

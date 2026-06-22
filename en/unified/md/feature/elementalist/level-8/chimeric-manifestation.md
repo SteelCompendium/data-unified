@@ -3,6 +3,7 @@ class: elementalist
 level: "8"
 name: Chimeric Manifestation
 scc: mcdm.heroes.v1/feature.elementalist.level-8/chimeric-manifestation
+subclass: green
 type: feature
 ---
 

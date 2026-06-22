@@ -21,6 +21,7 @@ name: I've Got Your Back
 power_roll_characteristic: '[Reason](scc.v1:mcdm.heroes.v1/rule.character/reason)'
 scc: mcdm.heroes.v1/feature.ability.tactician.level-2/ive-got-your-back
 source: mcdm.heroes.v1
+subclass: mastermind
 target: One creature
 tier1: 5 + R damage; [taunted](scc.v1:mcdm.heroes.v1/condition/taunted) ([EoT](scc.v1:mcdm.heroes.v1/rule.combat/end-of-turn))
 tier2: 9 + R damage; [taunted](scc.v1:mcdm.heroes.v1/condition/taunted) ([EoT](scc.v1:mcdm.heroes.v1/rule.combat/end-of-turn))
@@ -58,6 +59,7 @@ metadata:
     name: I've Got Your Back
     power_roll_characteristic: '[Reason](scc.v1:mcdm.heroes.v1/rule.character/reason)'
     scc: mcdm.heroes.v1/feature.ability.tactician.level-2/ive-got-your-back
+    subclass: mastermind
     target: One creature
     tier1: 5 + R damage; [taunted](scc.v1:mcdm.heroes.v1/condition/taunted) ([EoT](scc.v1:mcdm.heroes.v1/rule.combat/end-of-turn))
     tier2: 9 + R damage; [taunted](scc.v1:mcdm.heroes.v1/condition/taunted) ([EoT](scc.v1:mcdm.heroes.v1/rule.combat/end-of-turn))

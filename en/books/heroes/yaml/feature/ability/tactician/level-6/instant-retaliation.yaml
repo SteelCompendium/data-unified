@@ -29,6 +29,7 @@ metadata:
     level: 6
     scc:
         - mcdm.heroes.v1/feature.ability.tactician.level-6/instant-retaliation
+    subclass: vanguard
     target: One ally
     type: feature/ability/tactician/level-6
 name: Instant Retaliation

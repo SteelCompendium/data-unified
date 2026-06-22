@@ -16,6 +16,7 @@ name: Defensive Roll
 scc: mcdm.heroes.v1/feature.ability.shadow.level-1/defensive-roll
 source: mcdm.heroes.v1
 spend: '1 Insight: The [potency](scc.v1:mcdm.heroes.v1/rule.character/potency) of any effects associated with the damage are reduced by 1 for you.'
+subclass: caustic-alchemy
 subtype: triggered
 target: Self
 trigger: Another creature damages you.
@@ -44,6 +45,7 @@ metadata:
     name: Defensive Roll
     scc: mcdm.heroes.v1/feature.ability.shadow.level-1/defensive-roll
     spend: '1 Insight: The [potency](scc.v1:mcdm.heroes.v1/rule.character/potency) of any effects associated with the damage are reduced by 1 for you.'
+    subclass: caustic-alchemy
     subtype: triggered
     target: Self
     trigger: Another creature damages you.

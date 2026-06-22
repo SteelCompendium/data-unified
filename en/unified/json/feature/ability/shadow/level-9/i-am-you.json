@@ -30,6 +30,7 @@
     "scc": [
       "mcdm.heroes.v1/feature.ability.shadow.level-9/i-am-you"
     ],
+    "subclass": "harlequin-mask",
     "target": "One creature",
     "type": "feature/ability/shadow/level-9"
   },

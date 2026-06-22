@@ -23,6 +23,7 @@ metadata:
     level: 1
     scc:
         - mcdm.heroes.v1/feature.ability.troubadour.level-1/star-power
+    subclass: duelist
     target: Self
     type: feature/ability/troubadour/level-1
 name: Star Power

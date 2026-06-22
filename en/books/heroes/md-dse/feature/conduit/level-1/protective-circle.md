@@ -10,6 +10,7 @@ level: "1"
 name: Protective Circle
 scc: mcdm.heroes.v1/feature.conduit.level-1/protective-circle
 source: mcdm.heroes.v1
+subclass: protection
 type: feature
 ---
 
@@ -22,6 +23,7 @@ metadata:
     level: "1"
     name: Protective Circle
     scc: mcdm.heroes.v1/feature.conduit.level-1/protective-circle
+    subclass: protection
     type: feature
 name: Protective Circle
 type: feature

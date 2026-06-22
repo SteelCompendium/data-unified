@@ -24,6 +24,7 @@ metadata:
     level: 1
     scc:
         - mcdm.heroes.v1/feature.ability.shadow.level-1/defensive-roll
+    subclass: caustic-alchemy
     target: Self
     type: feature/ability/shadow/level-1
 name: Defensive Roll

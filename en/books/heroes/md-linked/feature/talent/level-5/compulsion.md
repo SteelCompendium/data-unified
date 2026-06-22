@@ -3,6 +3,7 @@ class: talent
 level: "5"
 name: Compulsion
 scc: mcdm.heroes.v1/feature.talent.level-5/compulsion
+subclass: telepathy
 type: feature
 ---
 

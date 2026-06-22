@@ -10,6 +10,7 @@ level: "2"
 name: Tooth and Claw
 scc: mcdm.heroes.v1/feature.fury.level-2/tooth-and-claw
 source: mcdm.heroes.v1
+subclass: stormwight
 type: feature
 ---
 
@@ -22,6 +23,7 @@ metadata:
     level: "2"
     name: Tooth and Claw
     scc: mcdm.heroes.v1/feature.fury.level-2/tooth-and-claw
+    subclass: stormwight
     type: feature
 name: Tooth and Claw
 type: feature

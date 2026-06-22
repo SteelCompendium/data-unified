@@ -29,6 +29,7 @@ metadata:
     level: 2
     scc:
         - mcdm.heroes.v1/feature.ability.censor.level-2/it-is-justice-you-fear
+    subclass: exorcist
     target: One creature
     type: feature/ability/censor/level-2
 name: It Is Justice You Fear

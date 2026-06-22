@@ -20,6 +20,7 @@ level: "9"
 name: Borrow From the Future
 scc: mcdm.heroes.v1/feature.ability.talent.level-9/borrow-from-the-future
 source: mcdm.heroes.v1
+subclass: chronopathy
 target: Each ally in the area
 type: ability
 ---
@@ -49,6 +50,7 @@ metadata:
     level: "9"
     name: Borrow From the Future
     scc: mcdm.heroes.v1/feature.ability.talent.level-9/borrow-from-the-future
+    subclass: chronopathy
     target: Each ally in the area
     type: ability
 name: Borrow From the Future

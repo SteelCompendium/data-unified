@@ -10,6 +10,7 @@ level: "8"
 name: Low Gravity
 scc: mcdm.heroes.v1/feature.talent.level-8/low-gravity
 source: mcdm.heroes.v1
+subclass: telekinesis
 type: feature
 ---
 
@@ -22,6 +23,7 @@ metadata:
     level: "8"
     name: Low Gravity
     scc: mcdm.heroes.v1/feature.talent.level-8/low-gravity
+    subclass: telekinesis
     type: feature
 name: Low Gravity
 type: feature

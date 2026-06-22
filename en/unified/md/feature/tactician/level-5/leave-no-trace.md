@@ -3,6 +3,7 @@ class: tactician
 level: "5"
 name: Leave No Trace
 scc: mcdm.heroes.v1/feature.tactician.level-5/leave-no-trace
+subclass: insurgent
 type: feature
 ---
 

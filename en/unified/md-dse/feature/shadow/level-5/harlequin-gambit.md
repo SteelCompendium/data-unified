@@ -10,6 +10,7 @@ level: "5"
 name: Harlequin Gambit
 scc: mcdm.heroes.v1/feature.shadow.level-5/harlequin-gambit
 source: mcdm.heroes.v1
+subclass: harlequin-mask
 type: feature
 ---
 
@@ -25,6 +26,7 @@ metadata:
     level: "5"
     name: Harlequin Gambit
     scc: mcdm.heroes.v1/feature.shadow.level-5/harlequin-gambit
+    subclass: harlequin-mask
     type: feature
 name: Harlequin Gambit
 type: feature

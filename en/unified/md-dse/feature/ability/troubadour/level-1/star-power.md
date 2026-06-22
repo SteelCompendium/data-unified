@@ -19,6 +19,7 @@ name: Star Power
 scc: mcdm.heroes.v1/feature.ability.troubadour.level-1/star-power
 source: mcdm.heroes.v1
 spend: '1 Drama: You gain a +4 [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to [speed](scc.v1:mcdm.heroes.v1/rule.character/speed) instead.'
+subclass: duelist
 target: Self
 type: ability
 ---
@@ -47,6 +48,7 @@ metadata:
     name: Star Power
     scc: mcdm.heroes.v1/feature.ability.troubadour.level-1/star-power
     spend: '1 Drama: You gain a +4 [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to [speed](scc.v1:mcdm.heroes.v1/rule.character/speed) instead.'
+    subclass: duelist
     target: Self
     type: ability
 name: Star Power

@@ -20,6 +20,7 @@ name: Feedback
 power_roll_characteristic: '[Presence](../../../../rule/character/presence.md)'
 scc: mcdm.heroes.v1/feature.ability.troubadour.level-6/feedback
 source: mcdm.heroes.v1
+subclass: virtuoso
 target: Each enemy in the area
 tier1: 7 sonic damage; P < WEAK[, prone](../../../../condition/prone.md)
 tier2: 10 sonic damage; P < AVERAGE[, prone](../../../../condition/prone.md)
@@ -55,6 +56,7 @@ metadata:
     name: Feedback
     power_roll_characteristic: '[Presence](../../../../rule/character/presence.md)'
     scc: mcdm.heroes.v1/feature.ability.troubadour.level-6/feedback
+    subclass: virtuoso
     target: Each enemy in the area
     tier1: 7 sonic damage; P < WEAK[, prone](../../../../condition/prone.md)
     tier2: 10 sonic damage; P < AVERAGE[, prone](../../../../condition/prone.md)

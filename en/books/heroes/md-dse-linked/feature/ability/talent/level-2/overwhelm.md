@@ -21,6 +21,7 @@ name: Overwhelm
 power_roll_characteristic: '[Reason](../../../../rule/character/reason.md)'
 scc: mcdm.heroes.v1/feature.ability.talent.level-2/overwhelm
 source: mcdm.heroes.v1
+subclass: telepathy
 target: One creature
 tier1: 6 + R psychic damage; I < WEAK, [slowed](../../../../condition/slowed.md) (save ends)
 tier2: 10 + R psychic damage; I < AVERAGE, [weakened](../../../../condition/weakened.md) (save ends)
@@ -58,6 +59,7 @@ metadata:
     name: Overwhelm
     power_roll_characteristic: '[Reason](../../../../rule/character/reason.md)'
     scc: mcdm.heroes.v1/feature.ability.talent.level-2/overwhelm
+    subclass: telepathy
     target: One creature
     tier1: 6 + R psychic damage; I < WEAK, [slowed](../../../../condition/slowed.md) (save ends)
     tier2: 10 + R psychic damage; I < AVERAGE, [weakened](../../../../condition/weakened.md) (save ends)

@@ -3,6 +3,7 @@ class: elementalist
 level: "1"
 name: 'Earth: Acolyte of Earth'
 scc: mcdm.heroes.v1/feature.elementalist.level-1/earth-acolyte-of-earth
+subclass: earth
 type: feature
 ---
 

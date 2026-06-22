@@ -3,6 +3,7 @@ class: censor
 level: "5"
 name: Evil Revealed
 scc: mcdm.heroes.v1/feature.censor.level-5/evil-revealed
+subclass: exorcist
 type: feature
 ---
 

@@ -22,6 +22,7 @@ name: That One Is Mine!
 power_roll_characteristic: '[Might](scc.v1:mcdm.heroes.v1/rule.character/might)'
 scc: mcdm.heroes.v1/feature.ability.tactician.level-9/that-one-is-mine
 source: mcdm.heroes.v1
+subclass: vanguard
 target: One creature
 tier1: 8 + M damage
 tier2: 13 + M damage
@@ -61,6 +62,7 @@ metadata:
     name: That One Is Mine!
     power_roll_characteristic: '[Might](scc.v1:mcdm.heroes.v1/rule.character/might)'
     scc: mcdm.heroes.v1/feature.ability.tactician.level-9/that-one-is-mine
+    subclass: vanguard
     target: One creature
     tier1: 8 + M damage
     tier2: 13 + M damage

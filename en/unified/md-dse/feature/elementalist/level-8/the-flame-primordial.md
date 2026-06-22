@@ -10,6 +10,7 @@ level: "8"
 name: The Flame Primordial
 scc: mcdm.heroes.v1/feature.elementalist.level-8/the-flame-primordial
 source: mcdm.heroes.v1
+subclass: fire
 type: feature
 ---
 
@@ -25,6 +26,7 @@ metadata:
     level: "8"
     name: The Flame Primordial
     scc: mcdm.heroes.v1/feature.elementalist.level-8/the-flame-primordial
+    subclass: fire
     type: feature
 name: The Flame Primordial
 type: feature

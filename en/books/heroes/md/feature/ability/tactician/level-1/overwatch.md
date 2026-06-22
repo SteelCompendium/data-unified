@@ -10,6 +10,7 @@ level: "1"
 name: Overwatch
 scc: mcdm.heroes.v1/feature.ability.tactician.level-1/overwatch
 spend: '1 Focus: If the target has R < AVERAGE, they are [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) ([EoT](scc.v1:mcdm.heroes.v1/rule.combat/end-of-turn)).'
+subclass: mastermind
 subtype: triggered
 target: One creature
 trigger: The target moves.

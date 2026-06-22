@@ -20,6 +20,7 @@ level: "6"
 name: Death Strike
 scc: mcdm.heroes.v1/feature.ability.fury.level-6/death-strike
 source: mcdm.heroes.v1
+subclass: reaver
 subtype: triggered
 target: Self
 trigger: You reduce a creature to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) with a [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike).
@@ -51,6 +52,7 @@ metadata:
     level: "6"
     name: Death Strike
     scc: mcdm.heroes.v1/feature.ability.fury.level-6/death-strike
+    subclass: reaver
     subtype: triggered
     target: Self
     trigger: You reduce a creature to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) with a [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike).

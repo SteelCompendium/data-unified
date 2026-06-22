@@ -20,6 +20,7 @@ name: Arrestor Cycle
 power_roll_characteristic: '[Intuition](../../../../rule/character/intuition.md)'
 scc: mcdm.heroes.v1/feature.ability.null.level-9/arrestor-cycle
 source: mcdm.heroes.v1
+subclass: chronokinetic
 subtype: triggered
 target: One creature
 tier1: I < WEAK, the target loses their [turn](../../../../rule/combat/turn.md)
@@ -57,6 +58,7 @@ metadata:
     name: Arrestor Cycle
     power_roll_characteristic: '[Intuition](../../../../rule/character/intuition.md)'
     scc: mcdm.heroes.v1/feature.ability.null.level-9/arrestor-cycle
+    subclass: chronokinetic
     subtype: triggered
     target: One creature
     tier1: I < WEAK, the target loses their [turn](../../../../rule/combat/turn.md)

@@ -10,6 +10,7 @@ level: "2"
 name: Ease Their Fall
 scc: mcdm.heroes.v1/feature.talent.level-2/ease-their-fall
 source: mcdm.heroes.v1
+subclass: telekinesis
 type: feature
 ---
 
@@ -22,6 +23,7 @@ metadata:
     level: "2"
     name: Ease Their Fall
     scc: mcdm.heroes.v1/feature.talent.level-2/ease-their-fall
+    subclass: telekinesis
     type: feature
 name: Ease Their Fall
 type: feature

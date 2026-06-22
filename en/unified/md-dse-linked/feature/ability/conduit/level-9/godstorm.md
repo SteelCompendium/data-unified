@@ -21,6 +21,7 @@ name: Godstorm
 power_roll_characteristic: '[Intuition](../../../../rule/character/intuition.md)'
 scc: mcdm.heroes.v1/feature.ability.conduit.level-9/godstorm
 source: mcdm.heroes.v1
+subclass: storm
 target: Each enemy in the area
 tier1: 2 lightning damage, 2 sonic damage
 tier2: 3 lightning damage, 3 sonic damage
@@ -58,6 +59,7 @@ metadata:
     name: Godstorm
     power_roll_characteristic: '[Intuition](../../../../rule/character/intuition.md)'
     scc: mcdm.heroes.v1/feature.ability.conduit.level-9/godstorm
+    subclass: storm
     target: Each enemy in the area
     tier1: 2 lightning damage, 2 sonic damage
     tier2: 3 lightning damage, 3 sonic damage

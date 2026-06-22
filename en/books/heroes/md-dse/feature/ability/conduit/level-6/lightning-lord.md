@@ -20,6 +20,7 @@ name: Lightning Lord
 power_roll_characteristic: '[Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)'
 scc: mcdm.heroes.v1/feature.ability.conduit.level-6/lightning-lord
 source: mcdm.heroes.v1
+subclass: storm
 target: Each enemy in the area
 tier1: 6 lightning damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1
 tier2: 9 lightning damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2
@@ -55,6 +56,7 @@ metadata:
     name: Lightning Lord
     power_roll_characteristic: '[Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)'
     scc: mcdm.heroes.v1/feature.ability.conduit.level-6/lightning-lord
+    subclass: storm
     target: Each enemy in the area
     tier1: 6 lightning damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1
     tier2: 9 lightning damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2

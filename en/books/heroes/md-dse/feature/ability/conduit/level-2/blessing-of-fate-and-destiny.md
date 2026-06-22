@@ -19,6 +19,7 @@ level: "2"
 name: Blessing of Fate and Destiny
 scc: mcdm.heroes.v1/feature.ability.conduit.level-2/blessing-of-fate-and-destiny
 source: mcdm.heroes.v1
+subclass: fate
 target: Three creatures
 type: ability
 ---
@@ -46,6 +47,7 @@ metadata:
     level: "2"
     name: Blessing of Fate and Destiny
     scc: mcdm.heroes.v1/feature.ability.conduit.level-2/blessing-of-fate-and-destiny
+    subclass: fate
     target: Three creatures
     type: ability
 name: Blessing of Fate and Destiny

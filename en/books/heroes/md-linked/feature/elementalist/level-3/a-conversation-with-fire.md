@@ -3,6 +3,7 @@ class: elementalist
 level: "3"
 name: A Conversation With Fire
 scc: mcdm.heroes.v1/feature.elementalist.level-3/a-conversation-with-fire
+subclass: fire
 type: feature
 ---
 

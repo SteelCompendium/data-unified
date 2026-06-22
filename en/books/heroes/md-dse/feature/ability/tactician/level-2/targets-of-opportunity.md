@@ -18,6 +18,7 @@ level: "2"
 name: Targets of Opportunity
 scc: mcdm.heroes.v1/feature.ability.tactician.level-2/targets-of-opportunity
 source: mcdm.heroes.v1
+subclass: mastermind
 target: Two creatures
 type: ability
 ---
@@ -43,6 +44,7 @@ metadata:
     level: "2"
     name: Targets of Opportunity
     scc: mcdm.heroes.v1/feature.ability.tactician.level-2/targets-of-opportunity
+    subclass: mastermind
     target: Two creatures
     type: ability
 name: Targets of Opportunity

@@ -24,6 +24,7 @@ metadata:
     level: 8
     scc:
         - mcdm.heroes.v1/feature.ability.talent.level-8/levitation-field
+    subclass: telekinesis
     target: Each ally in the area
     type: feature/ability/talent/level-8
 name: Levitation Field

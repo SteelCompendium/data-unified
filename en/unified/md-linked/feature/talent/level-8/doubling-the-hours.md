@@ -3,6 +3,7 @@ class: talent
 level: "8"
 name: Doubling the Hours
 scc: mcdm.heroes.v1/feature.talent.level-8/doubling-the-hours
+subclass: chronopathy
 type: feature
 ---
 

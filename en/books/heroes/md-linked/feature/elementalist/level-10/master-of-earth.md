@@ -3,6 +3,7 @@ class: elementalist
 level: "10"
 name: Master of Earth
 scc: mcdm.heroes.v1/feature.elementalist.level-10/master-of-earth
+subclass: earth
 type: feature
 ---
 

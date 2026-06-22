@@ -24,6 +24,7 @@ metadata:
     level: 1
     scc:
         - mcdm.heroes.v1/feature.ability.talent.level-1/repel
+    subclass: telekinesis
     target: Self or one ally
     type: feature/ability/talent/level-1
 name: Repel

@@ -10,6 +10,7 @@ level: "1"
 name: 'Earth: Acolyte of Earth'
 scc: mcdm.heroes.v1/feature.elementalist.level-1/earth-acolyte-of-earth
 source: mcdm.heroes.v1
+subclass: earth
 type: feature
 ---
 
@@ -22,6 +23,7 @@ metadata:
     level: "1"
     name: 'Earth: Acolyte of Earth'
     scc: mcdm.heroes.v1/feature.elementalist.level-1/earth-acolyte-of-earth
+    subclass: earth
     type: feature
 name: 'Earth: Acolyte of Earth'
 type: feature

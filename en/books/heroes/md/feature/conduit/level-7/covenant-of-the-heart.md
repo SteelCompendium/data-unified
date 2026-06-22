@@ -3,6 +3,7 @@ class: conduit
 level: "7"
 name: Covenant of the Heart
 scc: mcdm.heroes.v1/feature.conduit.level-7/covenant-of-the-heart
+subclass: love
 type: feature
 ---
 

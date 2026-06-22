@@ -10,6 +10,7 @@ level: "5"
 name: Compulsion
 scc: mcdm.heroes.v1/feature.talent.level-5/compulsion
 source: mcdm.heroes.v1
+subclass: telepathy
 type: feature
 ---
 
@@ -22,6 +23,7 @@ metadata:
     level: "5"
     name: Compulsion
     scc: mcdm.heroes.v1/feature.talent.level-5/compulsion
+    subclass: telepathy
     type: feature
 name: Compulsion
 type: feature

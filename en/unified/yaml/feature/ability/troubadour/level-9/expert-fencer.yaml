@@ -31,6 +31,7 @@ metadata:
     level: 9
     scc:
         - mcdm.heroes.v1/feature.ability.troubadour.level-9/expert-fencer
+    subclass: duelist
     target: One creature or object
     type: feature/ability/troubadour/level-9
 name: Expert Fencer

@@ -10,6 +10,7 @@ level: "8"
 name: See Your Enemies Driven Before You
 scc: mcdm.heroes.v1/feature.tactician.level-8/see-your-enemies-driven-before-you
 source: mcdm.heroes.v1
+subclass: vanguard
 type: feature
 ---
 
@@ -25,6 +26,7 @@ metadata:
     level: "8"
     name: See Your Enemies Driven Before You
     scc: mcdm.heroes.v1/feature.tactician.level-8/see-your-enemies-driven-before-you
+    subclass: vanguard
     type: feature
 name: See Your Enemies Driven Before You
 type: feature

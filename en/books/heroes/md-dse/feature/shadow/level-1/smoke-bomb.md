@@ -10,6 +10,7 @@ level: "1"
 name: Smoke Bomb
 scc: mcdm.heroes.v1/feature.shadow.level-1/smoke-bomb
 source: mcdm.heroes.v1
+subclass: caustic-alchemy
 type: feature
 ---
 
@@ -22,6 +23,7 @@ metadata:
     level: "1"
     name: Smoke Bomb
     scc: mcdm.heroes.v1/feature.shadow.level-1/smoke-bomb
+    subclass: caustic-alchemy
     type: feature
 name: Smoke Bomb
 type: feature

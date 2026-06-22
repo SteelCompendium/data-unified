@@ -24,6 +24,7 @@ metadata:
     level: 1
     scc:
         - mcdm.heroes.v1/feature.ability.fury.level-1/furious-change
+    subclass: stormwight
     target: Self
     type: feature/ability/fury/level-1
 name: Furious Change

@@ -21,6 +21,7 @@ name: Your Story Ends Here
 power_roll_characteristic: '[Intuition](../../../../rule/character/intuition.md)'
 scc: mcdm.heroes.v1/feature.ability.conduit.level-6/your-story-ends-here
 source: mcdm.heroes.v1
+subclass: fate
 target: One creature
 tier1: 9 + I corruption damage; R < WEAK, [weakened](../../../../condition/weakened.md) (save ends)
 tier2: 14 + I corruption damage; R < AVERAGE, [weakened](../../../../condition/weakened.md) (save ends)
@@ -58,6 +59,7 @@ metadata:
     name: Your Story Ends Here
     power_roll_characteristic: '[Intuition](../../../../rule/character/intuition.md)'
     scc: mcdm.heroes.v1/feature.ability.conduit.level-6/your-story-ends-here
+    subclass: fate
     target: One creature
     tier1: 9 + I corruption damage; R < WEAK, [weakened](../../../../condition/weakened.md) (save ends)
     tier2: 14 + I corruption damage; R < AVERAGE, [weakened](../../../../condition/weakened.md) (save ends)

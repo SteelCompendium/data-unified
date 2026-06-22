@@ -29,6 +29,7 @@
     "scc": [
       "mcdm.heroes.v1/feature.ability.troubadour.level-1/riposte"
     ],
+    "subclass": "duelist",
     "target": "Self or one ally",
     "type": "feature/ability/troubadour/level-1"
   },

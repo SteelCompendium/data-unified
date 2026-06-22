@@ -10,6 +10,7 @@ level: "4"
 name: Invocation of the Heart
 scc: mcdm.heroes.v1/feature.censor.level-4/invocation-of-the-heart
 source: mcdm.heroes.v1
+subclass: love
 type: feature
 ---
 
@@ -22,6 +23,7 @@ metadata:
     level: "4"
     name: Invocation of the Heart
     scc: mcdm.heroes.v1/feature.censor.level-4/invocation-of-the-heart
+    subclass: love
     type: feature
 name: Invocation of the Heart
 type: feature

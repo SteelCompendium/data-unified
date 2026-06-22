@@ -33,6 +33,7 @@
     "scc": [
       "mcdm.heroes.v1/feature.ability.talent.level-1/remote-assistance"
     ],
+    "subclass": "telepathy",
     "target": "One creature or object",
     "type": "feature/ability/talent/level-1"
   },

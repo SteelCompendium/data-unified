@@ -19,6 +19,7 @@ name: Gravitic Charge
 power_roll_characteristic: '[Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)'
 scc: mcdm.heroes.v1/feature.ability.null.level-6/gravitic-charge
 source: mcdm.heroes.v1
+subclass: metakinetic
 target: Self
 tier1: Vertical [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5
 tier2: Vertical [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 7
@@ -52,6 +53,7 @@ metadata:
     name: Gravitic Charge
     power_roll_characteristic: '[Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)'
     scc: mcdm.heroes.v1/feature.ability.null.level-6/gravitic-charge
+    subclass: metakinetic
     target: Self
     tier1: Vertical [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5
     tier2: Vertical [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 7

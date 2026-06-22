@@ -3,6 +3,7 @@ class: censor
 level: "4"
 name: Oracular Warning
 scc: mcdm.heroes.v1/feature.censor.level-4/oracular-warning
+subclass: fate
 type: feature
 ---
 

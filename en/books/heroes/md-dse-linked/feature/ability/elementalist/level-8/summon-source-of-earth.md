@@ -17,6 +17,7 @@ level: "8"
 name: Summon Source of Earth
 scc: mcdm.heroes.v1/feature.ability.elementalist.level-8/summon-source-of-earth
 source: mcdm.heroes.v1
+subclass: earth
 target: Special
 type: ability
 ---
@@ -44,6 +45,7 @@ metadata:
     level: "8"
     name: Summon Source of Earth
     scc: mcdm.heroes.v1/feature.ability.elementalist.level-8/summon-source-of-earth
+    subclass: earth
     target: Special
     type: ability
 name: Summon Source of Earth

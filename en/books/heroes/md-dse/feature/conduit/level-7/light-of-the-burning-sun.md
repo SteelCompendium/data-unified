@@ -10,6 +10,7 @@ level: "7"
 name: Light of the Burning Sun
 scc: mcdm.heroes.v1/feature.conduit.level-7/light-of-the-burning-sun
 source: mcdm.heroes.v1
+subclass: sun
 type: feature
 ---
 
@@ -22,6 +23,7 @@ metadata:
     level: "7"
     name: Light of the Burning Sun
     scc: mcdm.heroes.v1/feature.conduit.level-7/light-of-the-burning-sun
+    subclass: sun
     type: feature
 name: Light of the Burning Sun
 type: feature

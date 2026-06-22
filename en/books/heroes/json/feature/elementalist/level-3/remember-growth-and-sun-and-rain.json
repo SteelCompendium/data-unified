@@ -27,6 +27,7 @@
         "Magic",
         "[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)"
       ],
+      "subclass": "green",
       "target": "One mundane wooden object",
       "type": "feature/ability/common"
     },
@@ -51,6 +52,7 @@
     "scc": [
       "mcdm.heroes.v1/feature.elementalist.level-3/remember-growth-and-sun-and-rain"
     ],
+    "subclass": "green",
     "type": "feature/elementalist/level-3"
   },
   "name": "Remember Growth and Sun and Rain",

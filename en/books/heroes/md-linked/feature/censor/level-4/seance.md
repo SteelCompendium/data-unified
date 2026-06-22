@@ -3,6 +3,7 @@ class: censor
 level: "4"
 name: Seance
 scc: mcdm.heroes.v1/feature.censor.level-4/seance
+subclass: death
 type: feature
 ---
 

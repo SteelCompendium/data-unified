@@ -10,6 +10,7 @@ level: "2"
 name: Disciple of Earth
 scc: mcdm.heroes.v1/feature.elementalist.level-2/disciple-of-earth
 source: mcdm.heroes.v1
+subclass: earth
 type: feature
 ---
 
@@ -22,6 +23,7 @@ metadata:
     level: "2"
     name: Disciple of Earth
     scc: mcdm.heroes.v1/feature.elementalist.level-2/disciple-of-earth
+    subclass: earth
     type: feature
 name: Disciple of Earth
 type: feature

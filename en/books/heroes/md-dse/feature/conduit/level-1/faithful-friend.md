@@ -10,6 +10,7 @@ level: "1"
 name: Faithful Friend
 scc: mcdm.heroes.v1/feature.conduit.level-1/faithful-friend
 source: mcdm.heroes.v1
+subclass: nature
 type: feature
 ---
 
@@ -22,6 +23,7 @@ metadata:
     level: "1"
     name: Faithful Friend
     scc: mcdm.heroes.v1/feature.conduit.level-1/faithful-friend
+    subclass: nature
     type: feature
 name: Faithful Friend
 type: feature

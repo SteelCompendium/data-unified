@@ -38,6 +38,7 @@
     "scc": [
       "mcdm.heroes.v1/feature.ability.talent.level-2/applied-chronometrics"
     ],
+    "subclass": "chronopathy",
     "target": "Special",
     "type": "feature/ability/talent/level-2"
   },

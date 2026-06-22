@@ -3,6 +3,7 @@ class: shadow
 level: "1"
 name: Smoke Bomb
 scc: mcdm.heroes.v1/feature.shadow.level-1/smoke-bomb
+subclass: caustic-alchemy
 type: feature
 ---
 

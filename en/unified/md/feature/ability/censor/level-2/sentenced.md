@@ -14,6 +14,7 @@ level: "2"
 name: Sentenced
 power_roll_characteristic: '[Presence](scc.v1:mcdm.heroes.v1/rule.character/presence)'
 scc: mcdm.heroes.v1/feature.ability.censor.level-2/sentenced
+subclass: paragon
 target: One creature
 tier1: 5 + P damage; P < WEAK, [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
 tier2: 9 + P damage; P < AVERAGE, [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)

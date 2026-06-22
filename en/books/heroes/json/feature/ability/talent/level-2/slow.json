@@ -38,6 +38,7 @@
     "scc": [
       "mcdm.heroes.v1/feature.ability.talent.level-2/slow"
     ],
+    "subclass": "chronopathy",
     "target": "Three creatures or objects",
     "type": "feature/ability/talent/level-2"
   },

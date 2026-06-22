@@ -17,6 +17,7 @@ level: "3"
 name: '"Fire Up the Night"'
 scc: mcdm.heroes.v1/feature.ability.troubadour.level-3/fire-up-the-night
 source: mcdm.heroes.v1
+subclass: virtuoso
 target: Self and each ally in the area
 type: ability
 ---
@@ -44,6 +45,7 @@ metadata:
     level: "3"
     name: '"Fire Up the Night"'
     scc: mcdm.heroes.v1/feature.ability.troubadour.level-3/fire-up-the-night
+    subclass: virtuoso
     target: Self and each ally in the area
     type: ability
 name: '"Fire Up the Night"'

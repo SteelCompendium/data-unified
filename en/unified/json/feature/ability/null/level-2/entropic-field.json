@@ -34,6 +34,7 @@
     "scc": [
       "mcdm.heroes.v1/feature.ability.null.level-2/entropic-field"
     ],
+    "subclass": "cryokinetic",
     "target": "Each enemy in the area",
     "type": "feature/ability/null/level-2"
   },

@@ -3,6 +3,7 @@ class: elementalist
 level: "5"
 name: The Mountain Does Not Move
 scc: mcdm.heroes.v1/feature.elementalist.level-5/the-mountain-does-not-move
+subclass: earth
 type: feature
 ---
 

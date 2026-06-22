@@ -10,6 +10,7 @@ level: "1"
 name: Revitalizing Ritual
 scc: mcdm.heroes.v1/feature.conduit.level-1/revitalizing-ritual
 source: mcdm.heroes.v1
+subclass: life
 type: feature
 ---
 
@@ -22,6 +23,7 @@ metadata:
     level: "1"
     name: Revitalizing Ritual
     scc: mcdm.heroes.v1/feature.conduit.level-1/revitalizing-ritual
+    subclass: life
     type: feature
 name: Revitalizing Ritual
 type: feature

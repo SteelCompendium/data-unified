@@ -3,6 +3,7 @@ class: censor
 level: "2"
 name: It Was Foretold
 scc: mcdm.heroes.v1/feature.censor.level-2/it-was-foretold
+subclass: oracle
 type: feature
 ---
 

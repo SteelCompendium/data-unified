@@ -11,6 +11,7 @@ keywords:
 level: "3"
 name: '"Never-Ending Hero"'
 scc: mcdm.heroes.v1/feature.ability.troubadour.level-3/never-ending-hero
+subclass: virtuoso
 target: Self and each ally in the area
 type: ability
 ---

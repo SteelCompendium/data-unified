@@ -11,6 +11,7 @@ keywords:
 level: "3"
 name: Remember Growth and Sun and Rain
 scc: mcdm.heroes.v1/feature.ability.elementalist.level-3/remember-growth-and-sun-and-rain
+subclass: green
 target: One mundane wooden object
 type: ability
 ---

@@ -38,6 +38,7 @@
     "scc": [
       "mcdm.heroes.v1/feature.ability.tactician.level-2/ive-got-your-back"
     ],
+    "subclass": "mastermind",
     "target": "One creature",
     "type": "feature/ability/tactician/level-2"
   },

@@ -10,6 +10,7 @@ level: "3"
 name: Second Album
 scc: mcdm.heroes.v1/feature.troubadour.level-3/second-album
 source: mcdm.heroes.v1
+subclass: virtuoso
 type: feature
 ---
 
@@ -22,6 +23,7 @@ metadata:
     level: "3"
     name: Second Album
     scc: mcdm.heroes.v1/feature.troubadour.level-3/second-album
+    subclass: virtuoso
     type: feature
 name: Second Album
 type: feature

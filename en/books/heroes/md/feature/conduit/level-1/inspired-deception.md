@@ -3,6 +3,7 @@ class: conduit
 level: "1"
 name: Inspired Deception
 scc: mcdm.heroes.v1/feature.conduit.level-1/inspired-deception
+subclass: trickery
 type: feature
 ---
 

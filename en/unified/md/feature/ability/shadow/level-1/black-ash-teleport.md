@@ -10,6 +10,7 @@ level: "1"
 name: Black Ash Teleport
 scc: mcdm.heroes.v1/feature.ability.shadow.level-1/black-ash-teleport
 spend: '1+ Insight: You [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) 1 additional square for each insight spent.'
+subclass: black-ash
 target: Self
 type: ability
 ---

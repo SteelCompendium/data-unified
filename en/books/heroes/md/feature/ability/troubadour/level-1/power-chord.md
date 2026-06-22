@@ -10,6 +10,7 @@ level: "1"
 name: Power Chord
 power_roll_characteristic: '[Presence](scc.v1:mcdm.heroes.v1/rule.character/presence)'
 scc: mcdm.heroes.v1/feature.ability.troubadour.level-1/power-chord
+subclass: virtuoso
 target: Each enemy in the area
 tier1: '[Push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1'
 tier2: '[Push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2'

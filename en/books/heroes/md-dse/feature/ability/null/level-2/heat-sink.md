@@ -18,6 +18,7 @@ level: "2"
 name: Heat Sink
 scc: mcdm.heroes.v1/feature.ability.null.level-2/heat-sink
 source: mcdm.heroes.v1
+subclass: cryokinetic
 target: Self
 type: ability
 ---
@@ -43,6 +44,7 @@ metadata:
     level: "2"
     name: Heat Sink
     scc: mcdm.heroes.v1/feature.ability.null.level-2/heat-sink
+    subclass: cryokinetic
     target: Self
     type: ability
 name: Heat Sink

@@ -17,6 +17,7 @@ level: "1"
 name: Blocking
 scc: mcdm.heroes.v1/feature.ability.troubadour.level-1/blocking
 source: mcdm.heroes.v1
+subclass: auteur
 target: Each creature in the area
 type: ability
 ---
@@ -44,6 +45,7 @@ metadata:
     level: "1"
     name: Blocking
     scc: mcdm.heroes.v1/feature.ability.troubadour.level-1/blocking
+    subclass: auteur
     target: Each creature in the area
     type: ability
 name: Blocking

@@ -3,6 +3,7 @@ class: conduit
 level: "1"
 name: Blessing of Fortunate Weather
 scc: mcdm.heroes.v1/feature.conduit.level-1/blessing-of-fortunate-weather
+subclass: storm
 type: feature
 ---
 

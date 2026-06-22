@@ -19,6 +19,7 @@ metadata:
     level: 7
     scc:
         - mcdm.heroes.v1/feature.censor.level-7/natures-bounty
+    subclass: nature
     type: feature/censor/level-7
 name: Nature's Bounty
 type: feature

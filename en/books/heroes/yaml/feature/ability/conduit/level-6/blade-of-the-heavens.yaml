@@ -27,6 +27,7 @@ metadata:
     level: 6
     scc:
         - mcdm.heroes.v1/feature.ability.conduit.level-6/blade-of-the-heavens
+    subclass: war
     target: One creature
     type: feature/ability/conduit/level-6
 name: Blade of the Heavens

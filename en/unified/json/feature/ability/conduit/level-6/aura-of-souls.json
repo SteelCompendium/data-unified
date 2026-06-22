@@ -30,6 +30,7 @@
     "scc": [
       "mcdm.heroes.v1/feature.ability.conduit.level-6/aura-of-souls"
     ],
+    "subclass": "death",
     "target": "Each creature in the area",
     "type": "feature/ability/conduit/level-6"
   },

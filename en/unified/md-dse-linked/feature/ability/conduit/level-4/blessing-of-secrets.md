@@ -16,6 +16,7 @@ level: "4"
 name: Blessing of Secrets
 scc: mcdm.heroes.v1/feature.ability.conduit.level-4/blessing-of-secrets
 source: mcdm.heroes.v1
+subclass: trickery
 target: Self and each ally in the area
 type: ability
 ---
@@ -41,6 +42,7 @@ metadata:
     level: "4"
     name: Blessing of Secrets
     scc: mcdm.heroes.v1/feature.ability.conduit.level-4/blessing-of-secrets
+    subclass: trickery
     target: Self and each ally in the area
     type: ability
 name: Blessing of Secrets

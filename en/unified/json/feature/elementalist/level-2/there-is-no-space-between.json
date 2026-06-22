@@ -27,6 +27,7 @@
         "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)",
         "Void"
       ],
+      "subclass": "void",
       "target": "Special",
       "type": "feature/ability/common"
     },

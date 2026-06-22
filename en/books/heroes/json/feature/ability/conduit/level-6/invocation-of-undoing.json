@@ -32,6 +32,7 @@
     "scc": [
       "mcdm.heroes.v1/feature.ability.conduit.level-6/invocation-of-undoing"
     ],
+    "subclass": "knowledge",
     "target": "Each enemy in the area",
     "type": "feature/ability/conduit/level-6"
   },

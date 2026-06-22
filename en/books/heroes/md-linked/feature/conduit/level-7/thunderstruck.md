@@ -3,6 +3,7 @@ class: conduit
 level: "7"
 name: Thunderstruck
 scc: mcdm.heroes.v1/feature.conduit.level-7/thunderstruck
+subclass: storm
 type: feature
 ---
 

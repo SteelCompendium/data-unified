@@ -27,6 +27,7 @@ metadata:
     level: 6
     scc:
         - mcdm.heroes.v1/feature.ability.troubadour.level-6/feedback
+    subclass: virtuoso
     target: Each enemy in the area
     type: feature/ability/troubadour/level-6
 name: Feedback

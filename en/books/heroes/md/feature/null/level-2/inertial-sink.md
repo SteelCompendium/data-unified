@@ -3,6 +3,7 @@ class: "null"
 level: "2"
 name: Inertial Sink
 scc: mcdm.heroes.v1/feature.null.level-2/inertial-sink
+subclass: metakinetic
 type: feature
 ---
 

@@ -3,6 +3,7 @@ class: fury
 level: "5"
 name: Bounder
 scc: mcdm.heroes.v1/feature.fury.level-5/bounder
+subclass: berserker
 type: feature
 ---
 

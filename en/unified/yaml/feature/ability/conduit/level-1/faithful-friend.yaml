@@ -20,6 +20,7 @@ metadata:
     level: 1
     scc:
         - mcdm.heroes.v1/feature.ability.conduit.level-1/faithful-friend
+    subclass: nature
     target: Self
     type: feature/ability/conduit/level-1
 name: Faithful Friend

@@ -3,6 +3,7 @@ class: censor
 level: "7"
 name: Trinity of Trickery
 scc: mcdm.heroes.v1/feature.censor.level-7/trinity-of-trickery
+subclass: trickery
 type: feature
 ---
 

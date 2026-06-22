@@ -19,6 +19,7 @@ name: Kinetic Shield
 power_roll_characteristic: '[Intuition](../../../../rule/character/intuition.md)'
 scc: mcdm.heroes.v1/feature.ability.null.level-2/kinetic-shield
 source: mcdm.heroes.v1
+subclass: metakinetic
 target: Self
 tier1: You gain 10 [temporary Stamina](../../../../rule/health/temporary-stamina.md).
 tier2: You gain 15 [temporary Stamina](../../../../rule/health/temporary-stamina.md).
@@ -52,6 +53,7 @@ metadata:
     name: Kinetic Shield
     power_roll_characteristic: '[Intuition](../../../../rule/character/intuition.md)'
     scc: mcdm.heroes.v1/feature.ability.null.level-2/kinetic-shield
+    subclass: metakinetic
     target: Self
     tier1: You gain 10 [temporary Stamina](../../../../rule/health/temporary-stamina.md).
     tier2: You gain 15 [temporary Stamina](../../../../rule/health/temporary-stamina.md).

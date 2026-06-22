@@ -10,6 +10,7 @@ level: "7"
 name: Ride the Lightning
 scc: mcdm.heroes.v1/feature.censor.level-7/ride-the-lightning
 source: mcdm.heroes.v1
+subclass: storm
 type: feature
 ---
 
@@ -22,6 +23,7 @@ metadata:
     level: "7"
     name: Ride the Lightning
     scc: mcdm.heroes.v1/feature.censor.level-7/ride-the-lightning
+    subclass: storm
     type: feature
 name: Ride the Lightning
 type: feature

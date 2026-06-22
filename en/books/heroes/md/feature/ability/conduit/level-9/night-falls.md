@@ -12,6 +12,7 @@ keywords:
 level: "9"
 name: Night Falls
 scc: mcdm.heroes.v1/feature.ability.conduit.level-9/night-falls
+subclass: trickery
 target: Special
 type: ability
 ---

@@ -21,6 +21,7 @@ name: Machinations of Sound
 power_roll_characteristic: '[Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)'
 scc: mcdm.heroes.v1/feature.ability.shadow.level-2/machinations-of-sound
 source: mcdm.heroes.v1
+subclass: harlequin-mask
 target: Each creature in the area
 tier1: '[Slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 4'
 tier2: '[Slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5'
@@ -58,6 +59,7 @@ metadata:
     name: Machinations of Sound
     power_roll_characteristic: '[Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)'
     scc: mcdm.heroes.v1/feature.ability.shadow.level-2/machinations-of-sound
+    subclass: harlequin-mask
     target: Each creature in the area
     tier1: '[Slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 4'
     tier2: '[Slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5'

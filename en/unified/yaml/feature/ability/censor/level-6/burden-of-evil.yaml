@@ -27,6 +27,7 @@ metadata:
     level: 6
     scc:
         - mcdm.heroes.v1/feature.ability.censor.level-6/burden-of-evil
+    subclass: oracle
     target: Three enemies
     type: feature/ability/censor/level-6
 name: Burden of Evil

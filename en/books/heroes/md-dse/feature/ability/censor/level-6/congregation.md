@@ -21,6 +21,7 @@ name: Congregation
 power_roll_characteristic: '[Might](scc.v1:mcdm.heroes.v1/rule.character/might)'
 scc: mcdm.heroes.v1/feature.ability.censor.level-6/congregation
 source: mcdm.heroes.v1
+subclass: paragon
 target: One creature
 tier1: 8 + M damage; as a free [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action), one ally within 10 squares of the target can use a [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) [signature ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability) against the target
 tier2: 12 + M damage; as a free [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action), one ally within 10 squares of the target can use a [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) [signature ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability) that gains an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) against the target
@@ -58,6 +59,7 @@ metadata:
     name: Congregation
     power_roll_characteristic: '[Might](scc.v1:mcdm.heroes.v1/rule.character/might)'
     scc: mcdm.heroes.v1/feature.ability.censor.level-6/congregation
+    subclass: paragon
     target: One creature
     tier1: 8 + M damage; as a free [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action), one ally within 10 squares of the target can use a [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) [signature ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability) against the target
     tier2: 12 + M damage; as a free [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action), one ally within 10 squares of the target can use a [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) [signature ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability) that gains an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) against the target

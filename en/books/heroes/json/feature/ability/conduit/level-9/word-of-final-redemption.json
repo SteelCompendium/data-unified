@@ -32,6 +32,7 @@
     "scc": [
       "mcdm.heroes.v1/feature.ability.conduit.level-9/word-of-final-redemption"
     ],
+    "subclass": "death",
     "target": "One creature",
     "type": "feature/ability/conduit/level-9"
   },

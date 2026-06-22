@@ -18,6 +18,7 @@ level: "9"
 name: Inertial Absorption
 scc: mcdm.heroes.v1/feature.ability.null.level-9/inertial-absorption
 source: mcdm.heroes.v1
+subclass: metakinetic
 subtype: triggered
 target: Self
 trigger: Another creature damages you using an ability.
@@ -45,6 +46,7 @@ metadata:
     level: "9"
     name: Inertial Absorption
     scc: mcdm.heroes.v1/feature.ability.null.level-9/inertial-absorption
+    subclass: metakinetic
     subtype: triggered
     target: Self
     trigger: Another creature damages you using an ability.

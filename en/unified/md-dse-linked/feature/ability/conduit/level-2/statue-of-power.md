@@ -19,6 +19,7 @@ level: "2"
 name: Statue of Power
 scc: mcdm.heroes.v1/feature.ability.conduit.level-2/statue-of-power
 source: mcdm.heroes.v1
+subclass: creation
 target: Special
 type: ability
 ---
@@ -46,6 +47,7 @@ metadata:
     level: "2"
     name: Statue of Power
     scc: mcdm.heroes.v1/feature.ability.conduit.level-2/statue-of-power
+    subclass: creation
     target: Special
     type: ability
 name: Statue of Power

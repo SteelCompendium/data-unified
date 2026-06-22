@@ -10,6 +10,7 @@ level: "4"
 name: Oracular Warning
 scc: mcdm.heroes.v1/feature.censor.level-4/oracular-warning
 source: mcdm.heroes.v1
+subclass: fate
 type: feature
 ---
 
@@ -22,6 +23,7 @@ metadata:
     level: "4"
     name: Oracular Warning
     scc: mcdm.heroes.v1/feature.censor.level-4/oracular-warning
+    subclass: fate
     type: feature
 name: Oracular Warning
 type: feature

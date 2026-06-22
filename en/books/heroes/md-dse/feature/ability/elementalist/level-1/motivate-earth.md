@@ -17,6 +17,7 @@ level: "1"
 name: Motivate Earth
 scc: mcdm.heroes.v1/feature.ability.elementalist.level-1/motivate-earth
 source: mcdm.heroes.v1
+subclass: earth
 target: Special
 type: ability
 ---
@@ -44,6 +45,7 @@ metadata:
     level: "1"
     name: Motivate Earth
     scc: mcdm.heroes.v1/feature.ability.elementalist.level-1/motivate-earth
+    subclass: earth
     target: Special
     type: ability
 name: Motivate Earth

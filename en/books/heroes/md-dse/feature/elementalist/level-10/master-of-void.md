@@ -10,6 +10,7 @@ level: "10"
 name: Master of Void
 scc: mcdm.heroes.v1/feature.elementalist.level-10/master-of-void
 source: mcdm.heroes.v1
+subclass: void
 type: feature
 ---
 
@@ -25,6 +26,7 @@ metadata:
     level: "10"
     name: Master of Void
     scc: mcdm.heroes.v1/feature.elementalist.level-10/master-of-void
+    subclass: void
     type: feature
 name: Master of Void
 type: feature

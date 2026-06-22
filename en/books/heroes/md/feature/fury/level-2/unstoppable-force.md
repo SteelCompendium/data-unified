@@ -3,6 +3,7 @@ class: fury
 level: "2"
 name: Unstoppable Force
 scc: mcdm.heroes.v1/feature.fury.level-2/unstoppable-force
+subclass: berserker
 type: feature
 ---
 

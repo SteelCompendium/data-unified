@@ -22,6 +22,7 @@ name: To Me Squad!
 power_roll_characteristic: '[Might](scc.v1:mcdm.heroes.v1/rule.character/might)'
 scc: mcdm.heroes.v1/feature.ability.tactician.level-6/to-me-squad
 source: mcdm.heroes.v1
+subclass: vanguard
 target: One creature
 tier1: 6 + M damage; one ally within 10 squares can use the [Charge](scc.v1:mcdm.heroes.v1/feature.common.main-actions/charge) main action as a free [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action), and can use a [melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) [signature ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability) instead of a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) for the charge
 tier2: 9 + M damage; one ally within 10 squares can use the [Charge](scc.v1:mcdm.heroes.v1/feature.common.main-actions/charge) main action as a free [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action), and can use a [melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) [signature ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability) that gains an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) instead of a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) for the charge
@@ -61,6 +62,7 @@ metadata:
     name: To Me Squad!
     power_roll_characteristic: '[Might](scc.v1:mcdm.heroes.v1/rule.character/might)'
     scc: mcdm.heroes.v1/feature.ability.tactician.level-6/to-me-squad
+    subclass: vanguard
     target: One creature
     tier1: 6 + M damage; one ally within 10 squares can use the [Charge](scc.v1:mcdm.heroes.v1/feature.common.main-actions/charge) main action as a free [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action), and can use a [melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) [signature ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability) instead of a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) for the charge
     tier2: 9 + M damage; one ally within 10 squares can use the [Charge](scc.v1:mcdm.heroes.v1/feature.common.main-actions/charge) main action as a free [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action), and can use a [melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) [signature ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability) that gains an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) instead of a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) for the charge

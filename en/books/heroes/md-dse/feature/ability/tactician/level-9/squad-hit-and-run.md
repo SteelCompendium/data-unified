@@ -18,6 +18,7 @@ level: "9"
 name: Squad! Hit and Run!
 scc: mcdm.heroes.v1/feature.ability.tactician.level-9/squad-hit-and-run
 source: mcdm.heroes.v1
+subclass: insurgent
 target: Self and two allies
 type: ability
 ---
@@ -43,6 +44,7 @@ metadata:
     level: "9"
     name: Squad! Hit and Run!
     scc: mcdm.heroes.v1/feature.ability.tactician.level-9/squad-hit-and-run
+    subclass: insurgent
     target: Self and two allies
     type: ability
 name: Squad! Hit and Run!

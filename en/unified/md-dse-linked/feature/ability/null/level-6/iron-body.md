@@ -18,6 +18,7 @@ level: "6"
 name: Iron Body
 scc: mcdm.heroes.v1/feature.ability.null.level-6/iron-body
 source: mcdm.heroes.v1
+subclass: metakinetic
 target: Self
 type: ability
 ---
@@ -43,6 +44,7 @@ metadata:
     level: "6"
     name: Iron Body
     scc: mcdm.heroes.v1/feature.ability.null.level-6/iron-body
+    subclass: metakinetic
     target: Self
     type: ability
 name: Iron Body

@@ -19,6 +19,7 @@ level: "2"
 name: Wellspring of Grace
 scc: mcdm.heroes.v1/feature.ability.conduit.level-2/wellspring-of-grace
 source: mcdm.heroes.v1
+subclass: life
 target: Each ally in the area
 type: ability
 ---
@@ -46,6 +47,7 @@ metadata:
     level: "2"
     name: Wellspring of Grace
     scc: mcdm.heroes.v1/feature.ability.conduit.level-2/wellspring-of-grace
+    subclass: life
     target: Each ally in the area
     type: ability
 name: Wellspring of Grace

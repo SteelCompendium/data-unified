@@ -3,6 +3,7 @@ class: talent
 level: "5"
 name: Speed of Thought
 scc: mcdm.heroes.v1/feature.talent.level-5/speed-of-thought
+subclass: chronopathy
 type: feature
 ---
 

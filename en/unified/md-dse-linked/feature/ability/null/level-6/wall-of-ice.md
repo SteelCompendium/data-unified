@@ -20,6 +20,7 @@ level: "6"
 name: Wall of Ice
 scc: mcdm.heroes.v1/feature.ability.null.level-6/wall-of-ice
 source: mcdm.heroes.v1
+subclass: cryokinetic
 target: Special
 type: ability
 ---
@@ -49,6 +50,7 @@ metadata:
     level: "6"
     name: Wall of Ice
     scc: mcdm.heroes.v1/feature.ability.null.level-6/wall-of-ice
+    subclass: cryokinetic
     target: Special
     type: ability
 name: Wall of Ice

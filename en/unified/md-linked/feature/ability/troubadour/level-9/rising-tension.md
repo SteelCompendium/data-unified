@@ -11,6 +11,7 @@ keywords:
 level: "9"
 name: Rising Tension
 scc: mcdm.heroes.v1/feature.ability.troubadour.level-9/rising-tension
+subclass: auteur
 target: One ally
 type: ability
 ---

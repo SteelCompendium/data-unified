@@ -3,6 +3,7 @@ class: tactician
 level: "5"
 name: Shake It Off
 scc: mcdm.heroes.v1/feature.tactician.level-5/shake-it-off
+subclass: vanguard
 type: feature
 ---
 

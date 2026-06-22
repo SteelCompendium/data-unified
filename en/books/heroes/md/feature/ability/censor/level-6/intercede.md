@@ -11,6 +11,7 @@ keywords:
 level: "6"
 name: Intercede
 scc: mcdm.heroes.v1/feature.ability.censor.level-6/intercede
+subclass: paragon
 subtype: triggered
 target: One ally
 trigger: A creature makes a [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) against the target.

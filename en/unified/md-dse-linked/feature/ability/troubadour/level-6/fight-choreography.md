@@ -20,6 +20,7 @@ level: "6"
 name: Fight Choreography
 scc: mcdm.heroes.v1/feature.ability.troubadour.level-6/fight-choreography
 source: mcdm.heroes.v1
+subclass: duelist
 target: One creature
 type: ability
 ---
@@ -49,6 +50,7 @@ metadata:
     level: "6"
     name: Fight Choreography
     scc: mcdm.heroes.v1/feature.ability.troubadour.level-6/fight-choreography
+    subclass: duelist
     target: One creature
     type: ability
 name: Fight Choreography

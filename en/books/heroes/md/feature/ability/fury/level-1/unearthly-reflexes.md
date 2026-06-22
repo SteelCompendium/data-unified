@@ -10,6 +10,7 @@ level: "1"
 name: Unearthly Reflexes
 scc: mcdm.heroes.v1/feature.ability.fury.level-1/unearthly-reflexes
 spend: '1 Ferocity: If the damage has any [potency](scc.v1:mcdm.heroes.v1/rule.character/potency) effects associated with it, the [potency](scc.v1:mcdm.heroes.v1/rule.character/potency) is reduced by 1 for you.'
+subclass: reaver
 subtype: triggered
 target: Self
 trigger: You take damage.

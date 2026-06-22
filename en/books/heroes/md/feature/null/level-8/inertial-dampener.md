@@ -3,6 +3,7 @@ class: "null"
 level: "8"
 name: Inertial Dampener
 scc: mcdm.heroes.v1/feature.null.level-8/inertial-dampener
+subclass: metakinetic
 type: feature
 ---
 

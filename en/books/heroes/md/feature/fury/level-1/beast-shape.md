@@ -3,6 +3,7 @@ class: fury
 level: "1"
 name: Beast Shape
 scc: mcdm.heroes.v1/feature.fury.level-1/beast-shape
+subclass: stormwight
 type: feature
 ---
 

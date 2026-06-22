@@ -38,6 +38,7 @@
     "scc": [
       "mcdm.heroes.v1/feature.ability.censor.level-6/congregation"
     ],
+    "subclass": "paragon",
     "target": "One creature",
     "type": "feature/ability/censor/level-6"
   },

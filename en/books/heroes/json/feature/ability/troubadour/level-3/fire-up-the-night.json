@@ -31,6 +31,7 @@
     "scc": [
       "mcdm.heroes.v1/feature.ability.troubadour.level-3/fire-up-the-night"
     ],
+    "subclass": "virtuoso",
     "target": "Self and each ally in the area",
     "type": "feature/ability/troubadour/level-3"
   },

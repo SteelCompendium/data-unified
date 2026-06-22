@@ -3,6 +3,7 @@ class: elementalist
 level: "1"
 name: 'Green: Acolyte of the Green'
 scc: mcdm.heroes.v1/feature.elementalist.level-1/green-acolyte-of-the-green
+subclass: green
 type: feature
 ---
 

@@ -10,6 +10,7 @@ level: "6"
 name: Marauder of the Primordial Chaos
 scc: mcdm.heroes.v1/feature.fury.level-6/marauder-of-the-primordial-chaos
 source: mcdm.heroes.v1
+subclass: stormwight
 type: feature
 ---
 
@@ -25,6 +26,7 @@ metadata:
     level: "6"
     name: Marauder of the Primordial Chaos
     scc: mcdm.heroes.v1/feature.fury.level-6/marauder-of-the-primordial-chaos
+    subclass: stormwight
     type: feature
 name: Marauder of the Primordial Chaos
 type: feature

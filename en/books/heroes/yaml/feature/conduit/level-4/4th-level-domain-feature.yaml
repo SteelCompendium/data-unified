@@ -19,6 +19,7 @@ ability:
         keywords:
             - Area
             - Magic
+        subclass: trickery
         target: Self and each ally in the area
         type: feature/ability/common
     name: Blessing of Secrets

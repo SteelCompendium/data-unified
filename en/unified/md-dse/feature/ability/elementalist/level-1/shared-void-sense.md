@@ -17,6 +17,7 @@ level: "1"
 name: Shared Void Sense
 scc: mcdm.heroes.v1/feature.ability.elementalist.level-1/shared-void-sense
 source: mcdm.heroes.v1
+subclass: void
 target: Special
 type: ability
 ---
@@ -44,6 +45,7 @@ metadata:
     level: "1"
     name: Shared Void Sense
     scc: mcdm.heroes.v1/feature.ability.elementalist.level-1/shared-void-sense
+    subclass: void
     target: Special
     type: ability
 name: Shared Void Sense

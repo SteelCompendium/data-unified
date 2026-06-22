@@ -3,6 +3,7 @@ class: conduit
 level: "1"
 name: Sanctified Weapon
 scc: mcdm.heroes.v1/feature.conduit.level-1/sanctified-weapon
+subclass: war
 type: feature
 ---
 

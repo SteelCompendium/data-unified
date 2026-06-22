@@ -38,6 +38,7 @@
     "scc": [
       "mcdm.heroes.v1/feature.ability.troubadour.level-2/tough-crowd"
     ],
+    "subclass": "virtuoso",
     "target": "Special",
     "type": "feature/ability/troubadour/level-2"
   },

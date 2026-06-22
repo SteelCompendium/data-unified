@@ -16,6 +16,7 @@ name: Furious Change
 scc: mcdm.heroes.v1/feature.ability.fury.level-1/furious-change
 source: mcdm.heroes.v1
 spend: '1 Ferocity: If you are not [dying](../../../../rule/health/dying.md), you can spend a [Recovery](../../../../rule/health/recoveries.md).'
+subclass: stormwight
 subtype: triggered
 target: Self
 trigger: You lose [Stamina](../../../../rule/health/stamina.md) and are not [dying](../../../../rule/health/dying.md).
@@ -44,6 +45,7 @@ metadata:
     name: Furious Change
     scc: mcdm.heroes.v1/feature.ability.fury.level-1/furious-change
     spend: '1 Ferocity: If you are not [dying](../../../../rule/health/dying.md), you can spend a [Recovery](../../../../rule/health/recoveries.md).'
+    subclass: stormwight
     subtype: triggered
     target: Self
     trigger: You lose [Stamina](../../../../rule/health/stamina.md) and are not [dying](../../../../rule/health/dying.md).

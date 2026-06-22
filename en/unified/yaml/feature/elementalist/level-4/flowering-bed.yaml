@@ -10,6 +10,7 @@ metadata:
     level: 4
     scc:
         - mcdm.heroes.v1/feature.elementalist.level-4/flowering-bed
+    subclass: green
     type: feature/elementalist/level-4
 name: Flowering Bed
 type: feature

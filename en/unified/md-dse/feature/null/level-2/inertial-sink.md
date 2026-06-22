@@ -10,6 +10,7 @@ level: "2"
 name: Inertial Sink
 scc: mcdm.heroes.v1/feature.null.level-2/inertial-sink
 source: mcdm.heroes.v1
+subclass: metakinetic
 type: feature
 ---
 
@@ -25,6 +26,7 @@ metadata:
     level: "2"
     name: Inertial Sink
     scc: mcdm.heroes.v1/feature.null.level-2/inertial-sink
+    subclass: metakinetic
     type: feature
 name: Inertial Sink
 type: feature

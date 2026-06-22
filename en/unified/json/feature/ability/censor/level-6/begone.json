@@ -32,6 +32,7 @@
     "scc": [
       "mcdm.heroes.v1/feature.ability.censor.level-6/begone"
     ],
+    "subclass": "exorcist",
     "target": "Each enemy in the area",
     "type": "feature/ability/censor/level-6"
   },

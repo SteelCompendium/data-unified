@@ -15,6 +15,7 @@
     "scc": [
       "mcdm.heroes.v1/feature.censor.level-5/prophecy"
     ],
+    "subclass": "oracle",
     "type": "feature/censor/level-5"
   },
   "name": "Prophecy",

@@ -31,6 +31,7 @@
     "scc": [
       "mcdm.heroes.v1/feature.ability.talent.level-1/feedback-loop"
     ],
+    "subclass": "telepathy",
     "target": "One creature",
     "type": "feature/ability/talent/level-1"
   },

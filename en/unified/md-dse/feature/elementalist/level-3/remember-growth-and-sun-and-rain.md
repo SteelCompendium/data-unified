@@ -10,6 +10,7 @@ level: "3"
 name: Remember Growth and Sun and Rain
 scc: mcdm.heroes.v1/feature.elementalist.level-3/remember-growth-and-sun-and-rain
 source: mcdm.heroes.v1
+subclass: green
 type: feature
 ---
 
@@ -22,6 +23,7 @@ metadata:
     level: "3"
     name: Remember Growth and Sun and Rain
     scc: mcdm.heroes.v1/feature.elementalist.level-3/remember-growth-and-sun-and-rain
+    subclass: green
     type: feature
 name: Remember Growth and Sun and Rain
 type: feature

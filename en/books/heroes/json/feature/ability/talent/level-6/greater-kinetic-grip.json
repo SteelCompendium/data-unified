@@ -36,6 +36,7 @@
     "scc": [
       "mcdm.heroes.v1/feature.ability.talent.level-6/greater-kinetic-grip"
     ],
+    "subclass": "telekinesis",
     "target": "One creature or object",
     "type": "feature/ability/talent/level-6"
   },

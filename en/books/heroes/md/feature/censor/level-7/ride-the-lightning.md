@@ -3,6 +3,7 @@ class: censor
 level: "7"
 name: Ride the Lightning
 scc: mcdm.heroes.v1/feature.censor.level-7/ride-the-lightning
+subclass: storm
 type: feature
 ---
 

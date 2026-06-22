@@ -3,6 +3,7 @@ class: talent
 level: "5"
 name: Distortion Temporal
 scc: mcdm.heroes.v1/feature.talent.level-5/distortion-temporal
+subclass: chronopathy
 type: feature
 ---
 

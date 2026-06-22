@@ -29,6 +29,7 @@ metadata:
     level: 6
     scc:
         - mcdm.heroes.v1/feature.ability.conduit.level-6/your-story-ends-here
+    subclass: fate
     target: One creature
     type: feature/ability/conduit/level-6
 name: Your Story Ends Here

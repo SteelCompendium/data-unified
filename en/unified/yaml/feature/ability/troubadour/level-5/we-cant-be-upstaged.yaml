@@ -24,6 +24,7 @@ metadata:
     level: 5
     scc:
         - mcdm.heroes.v1/feature.ability.troubadour.level-5/we-cant-be-upstaged
+    subclass: duelist
     target: Self and each ally in the area
     type: feature/ability/troubadour/level-5
 name: We Can't Be Upstaged!

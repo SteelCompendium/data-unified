@@ -12,6 +12,7 @@ level: "9"
 name: Arrestor Cycle
 power_roll_characteristic: '[Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)'
 scc: mcdm.heroes.v1/feature.ability.null.level-9/arrestor-cycle
+subclass: chronokinetic
 subtype: triggered
 target: One creature
 tier1: I < WEAK, the target loses their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn)

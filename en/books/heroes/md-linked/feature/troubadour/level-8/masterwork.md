@@ -3,6 +3,7 @@ class: troubadour
 level: "8"
 name: Masterwork
 scc: mcdm.heroes.v1/feature.troubadour.level-8/masterwork
+subclass: duelist
 type: feature
 ---
 

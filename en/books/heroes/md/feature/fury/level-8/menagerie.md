@@ -3,6 +3,7 @@ class: fury
 level: "8"
 name: Menagerie
 scc: mcdm.heroes.v1/feature.fury.level-8/menagerie
+subclass: stormwight
 type: feature
 ---
 

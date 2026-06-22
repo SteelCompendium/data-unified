@@ -27,6 +27,7 @@ metadata:
     level: 6
     scc:
         - mcdm.heroes.v1/feature.ability.fury.level-6/death-strike
+    subclass: reaver
     target: Self
     type: feature/ability/fury/level-6
 name: Death Strike

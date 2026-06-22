@@ -28,6 +28,7 @@
     "scc": [
       "mcdm.heroes.v1/feature.ability.tactician.level-6/battle-plan"
     ],
+    "subclass": "mastermind",
     "target": "Three creatures",
     "type": "feature/ability/tactician/level-6"
   },

@@ -13,6 +13,7 @@ metadata:
     level: 2
     scc:
         - mcdm.heroes.v1/feature.tactician.level-2/melee-superiority
+    subclass: vanguard
     type: feature/tactician/level-2
 name: Melee Superiority
 type: feature

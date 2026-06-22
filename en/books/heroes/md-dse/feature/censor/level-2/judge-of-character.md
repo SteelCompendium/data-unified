@@ -10,6 +10,7 @@ level: "2"
 name: Judge of Character
 scc: mcdm.heroes.v1/feature.censor.level-2/judge-of-character
 source: mcdm.heroes.v1
+subclass: oracle
 type: feature
 ---
 
@@ -22,6 +23,7 @@ metadata:
     level: "2"
     name: Judge of Character
     scc: mcdm.heroes.v1/feature.censor.level-2/judge-of-character
+    subclass: oracle
     type: feature
 name: Judge of Character
 type: feature

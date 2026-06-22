@@ -11,6 +11,7 @@ keywords:
 level: "6"
 name: Pain of Your Own Making
 scc: mcdm.heroes.v1/feature.ability.censor.level-6/pain-of-your-own-making
+subclass: exorcist
 subtype: triggered
 target: Self or one ally
 trigger: The target gains a [condition](scc.v1:mcdm.heroes.v1/rule.combat/condition) or effect that is ended by a [saving throw](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) or that ends at the end of their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn).

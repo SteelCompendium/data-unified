@@ -13,6 +13,7 @@ level: "2"
 name: En Garde!
 power_roll_characteristic: '[Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)'
 scc: mcdm.heroes.v1/feature.ability.troubadour.level-2/en-garde
+subclass: duelist
 target: One creature
 tier1: 7 + **A** damage
 tier2: 11 + **A** damage

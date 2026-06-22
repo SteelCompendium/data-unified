@@ -21,6 +21,7 @@ name: Levity and Gravity
 power_roll_characteristic: '[Reason](../../../../rule/character/reason.md)'
 scc: mcdm.heroes.v1/feature.ability.talent.level-2/levity-and-gravity
 source: mcdm.heroes.v1
+subclass: telekinesis
 target: One creature or object
 tier1: 6 + R damage; M < WEAK[, prone](../../../../condition/prone.md)
 tier2: 10 + R damage; M < AVERAGE[, prone](../../../../condition/prone.md)
@@ -58,6 +59,7 @@ metadata:
     name: Levity and Gravity
     power_roll_characteristic: '[Reason](../../../../rule/character/reason.md)'
     scc: mcdm.heroes.v1/feature.ability.talent.level-2/levity-and-gravity
+    subclass: telekinesis
     target: One creature or object
     tier1: 6 + R damage; M < WEAK[, prone](../../../../condition/prone.md)
     tier2: 10 + R damage; M < AVERAGE[, prone](../../../../condition/prone.md)

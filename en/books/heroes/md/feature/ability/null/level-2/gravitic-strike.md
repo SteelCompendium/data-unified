@@ -13,6 +13,7 @@ level: "2"
 name: Gravitic Strike
 power_roll_characteristic: '[Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)'
 scc: mcdm.heroes.v1/feature.ability.null.level-2/gravitic-strike
+subclass: metakinetic
 target: One creature
 tier1: 8 + A psychic damage; vertical [pull](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3
 tier2: 12 + A psychic damage; vertical [pull](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5

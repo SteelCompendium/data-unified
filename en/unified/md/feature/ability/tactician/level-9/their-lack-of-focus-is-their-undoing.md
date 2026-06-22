@@ -13,6 +13,7 @@ level: "9"
 name: Their Lack of Focus Is Their Undoing
 power_roll_characteristic: '[Might](scc.v1:mcdm.heroes.v1/rule.character/might)'
 scc: mcdm.heroes.v1/feature.ability.tactician.level-9/their-lack-of-focus-is-their-undoing
+subclass: insurgent
 target: Three enemies
 tier1: R < WEAK, [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
 tier2: R < AVERAGE, [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)

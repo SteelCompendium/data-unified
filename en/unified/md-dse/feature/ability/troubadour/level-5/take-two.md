@@ -17,6 +17,7 @@ level: "5"
 name: Take Two!
 scc: mcdm.heroes.v1/feature.ability.troubadour.level-5/take-two
 source: mcdm.heroes.v1
+subclass: auteur
 target: Self and each ally in the area
 type: ability
 ---
@@ -44,6 +45,7 @@ metadata:
     level: "5"
     name: Take Two!
     scc: mcdm.heroes.v1/feature.ability.troubadour.level-5/take-two
+    subclass: auteur
     target: Self and each ally in the area
     type: ability
 name: Take Two!

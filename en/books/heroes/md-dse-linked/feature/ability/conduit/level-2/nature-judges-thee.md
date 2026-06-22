@@ -20,6 +20,7 @@ name: Nature Judges Thee
 power_roll_characteristic: '[Intuition](../../../../rule/character/intuition.md)'
 scc: mcdm.heroes.v1/feature.ability.conduit.level-2/nature-judges-thee
 source: mcdm.heroes.v1
+subclass: nature
 target: Each enemy in the area
 tier1: 2 damage; A < WEAK, [restrained](../../../../condition/restrained.md) (save ends)
 tier2: 3 damage; A < AVERAGE, [restrained](../../../../condition/restrained.md) (save ends)
@@ -55,6 +56,7 @@ metadata:
     name: Nature Judges Thee
     power_roll_characteristic: '[Intuition](../../../../rule/character/intuition.md)'
     scc: mcdm.heroes.v1/feature.ability.conduit.level-2/nature-judges-thee
+    subclass: nature
     target: Each enemy in the area
     tier1: 2 damage; A < WEAK, [restrained](../../../../condition/restrained.md) (save ends)
     tier2: 3 damage; A < AVERAGE, [restrained](../../../../condition/restrained.md) (save ends)

@@ -10,6 +10,7 @@ level: "4"
 name: Quaking Earth
 scc: mcdm.heroes.v1/feature.elementalist.level-4/quaking-earth
 source: mcdm.heroes.v1
+subclass: earth
 type: feature
 ---
 
@@ -22,6 +23,7 @@ metadata:
     level: "4"
     name: Quaking Earth
     scc: mcdm.heroes.v1/feature.elementalist.level-4/quaking-earth
+    subclass: earth
     type: feature
 name: Quaking Earth
 type: feature

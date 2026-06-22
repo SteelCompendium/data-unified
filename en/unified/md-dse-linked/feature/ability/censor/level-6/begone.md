@@ -19,6 +19,7 @@ name: Begone!
 power_roll_characteristic: '[Presence](../../../../rule/character/presence.md)'
 scc: mcdm.heroes.v1/feature.ability.censor.level-6/begone
 source: mcdm.heroes.v1
+subclass: exorcist
 target: Each enemy in the area
 tier1: 4 psychic damage; [slide](../../../../movement/forced-movement.md) 3
 tier2: 6 psychic damage; [slide](../../../../movement/forced-movement.md) 5
@@ -52,6 +53,7 @@ metadata:
     name: Begone!
     power_roll_characteristic: '[Presence](../../../../rule/character/presence.md)'
     scc: mcdm.heroes.v1/feature.ability.censor.level-6/begone
+    subclass: exorcist
     target: Each enemy in the area
     tier1: 4 psychic damage; [slide](../../../../movement/forced-movement.md) 3
     tier2: 6 psychic damage; [slide](../../../../movement/forced-movement.md) 5

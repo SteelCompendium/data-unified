@@ -19,6 +19,7 @@ level: "9"
 name: Blessing of the Fortress
 scc: mcdm.heroes.v1/feature.ability.conduit.level-9/blessing-of-the-fortress
 source: mcdm.heroes.v1
+subclass: protection
 target: Self
 type: ability
 ---
@@ -46,6 +47,7 @@ metadata:
     level: "9"
     name: Blessing of the Fortress
     scc: mcdm.heroes.v1/feature.ability.conduit.level-9/blessing-of-the-fortress
+    subclass: protection
     target: Self
     type: ability
 name: Blessing of the Fortress

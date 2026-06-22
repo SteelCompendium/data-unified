@@ -24,6 +24,7 @@ metadata:
     level: 1
     scc:
         - mcdm.heroes.v1/feature.ability.troubadour.level-1/dramatic-monologue
+    subclass: auteur
     target: Special
     type: feature/ability/troubadour/level-1
 name: Dramatic Monologue

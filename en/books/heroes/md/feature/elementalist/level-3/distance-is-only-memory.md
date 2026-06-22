@@ -3,6 +3,7 @@ class: elementalist
 level: "3"
 name: Distance Is Only Memory
 scc: mcdm.heroes.v1/feature.elementalist.level-3/distance-is-only-memory
+subclass: void
 type: feature
 ---
 

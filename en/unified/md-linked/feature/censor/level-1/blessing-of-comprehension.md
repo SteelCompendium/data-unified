@@ -3,6 +3,7 @@ class: censor
 level: "1"
 name: Blessing of Comprehension
 scc: mcdm.heroes.v1/feature.censor.level-1/blessing-of-comprehension
+subclass: knowledge
 type: feature
 ---
 

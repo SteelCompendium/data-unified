@@ -3,6 +3,7 @@ class: censor
 level: "1"
 name: Blessing of Compassion
 scc: mcdm.heroes.v1/feature.censor.level-1/blessing-of-compassion
+subclass: love
 type: feature
 ---
 

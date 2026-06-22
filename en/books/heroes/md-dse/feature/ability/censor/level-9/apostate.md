@@ -21,6 +21,7 @@ name: Apostate
 power_roll_characteristic: '[Might](scc.v1:mcdm.heroes.v1/rule.character/might)'
 scc: mcdm.heroes.v1/feature.ability.censor.level-9/apostate
 source: mcdm.heroes.v1
+subclass: paragon
 target: One creature
 tier1: 13 + M holy damage
 tier2: 19 + M holy damage
@@ -58,6 +59,7 @@ metadata:
     name: Apostate
     power_roll_characteristic: '[Might](scc.v1:mcdm.heroes.v1/rule.character/might)'
     scc: mcdm.heroes.v1/feature.ability.censor.level-9/apostate
+    subclass: paragon
     target: One creature
     tier1: 13 + M holy damage
     tier2: 19 + M holy damage

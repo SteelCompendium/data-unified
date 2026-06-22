@@ -29,6 +29,7 @@ metadata:
     level: 9
     scc:
         - mcdm.heroes.v1/feature.ability.tactician.level-9/their-lack-of-focus-is-their-undoing
+    subclass: insurgent
     target: Three enemies
     type: feature/ability/tactician/level-9
 name: Their Lack of Focus Is Their Undoing

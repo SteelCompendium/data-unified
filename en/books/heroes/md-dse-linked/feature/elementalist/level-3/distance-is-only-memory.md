@@ -10,6 +10,7 @@ level: "3"
 name: Distance Is Only Memory
 scc: mcdm.heroes.v1/feature.elementalist.level-3/distance-is-only-memory
 source: mcdm.heroes.v1
+subclass: void
 type: feature
 ---
 
@@ -22,6 +23,7 @@ metadata:
     level: "3"
     name: Distance Is Only Memory
     scc: mcdm.heroes.v1/feature.elementalist.level-3/distance-is-only-memory
+    subclass: void
     type: feature
 name: Distance Is Only Memory
 type: feature

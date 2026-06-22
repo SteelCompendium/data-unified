@@ -10,6 +10,7 @@ level: "8"
 name: Demonologist
 scc: mcdm.heroes.v1/feature.censor.level-8/demonologist
 source: mcdm.heroes.v1
+subclass: exorcist
 type: feature
 ---
 
@@ -22,6 +23,7 @@ metadata:
     level: "8"
     name: Demonologist
     scc: mcdm.heroes.v1/feature.censor.level-8/demonologist
+    subclass: exorcist
     type: feature
 name: Demonologist
 type: feature

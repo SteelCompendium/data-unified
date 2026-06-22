@@ -26,6 +26,7 @@
         "Magic",
         "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)"
       ],
+      "subclass": "trickery",
       "target": "Self or one ally",
       "type": "feature/ability/common"
     },
@@ -50,6 +51,7 @@
     "scc": [
       "mcdm.heroes.v1/feature.censor.level-7/trinity-of-trickery"
     ],
+    "subclass": "trickery",
     "type": "feature/censor/level-7"
   },
   "name": "Trinity of Trickery",

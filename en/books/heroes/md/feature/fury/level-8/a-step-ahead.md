@@ -3,6 +3,7 @@ class: fury
 level: "8"
 name: A Step Ahead
 scc: mcdm.heroes.v1/feature.fury.level-8/a-step-ahead
+subclass: reaver
 type: feature
 ---
 

@@ -10,6 +10,7 @@ level: "5"
 name: Volatile Reagents
 scc: mcdm.heroes.v1/feature.shadow.level-5/volatile-reagents
 source: mcdm.heroes.v1
+subclass: caustic-alchemy
 type: feature
 ---
 
@@ -25,6 +26,7 @@ metadata:
     level: "5"
     name: Volatile Reagents
     scc: mcdm.heroes.v1/feature.shadow.level-5/volatile-reagents
+    subclass: caustic-alchemy
     type: feature
 name: Volatile Reagents
 type: feature

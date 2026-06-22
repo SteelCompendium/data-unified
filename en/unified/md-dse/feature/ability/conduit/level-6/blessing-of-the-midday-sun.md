@@ -19,6 +19,7 @@ level: "6"
 name: Blessing of the Midday Sun
 scc: mcdm.heroes.v1/feature.ability.conduit.level-6/blessing-of-the-midday-sun
 source: mcdm.heroes.v1
+subclass: sun
 target: Self and each creature in the area
 type: ability
 ---
@@ -46,6 +47,7 @@ metadata:
     level: "6"
     name: Blessing of the Midday Sun
     scc: mcdm.heroes.v1/feature.ability.conduit.level-6/blessing-of-the-midday-sun
+    subclass: sun
     target: Self and each creature in the area
     type: ability
 name: Blessing of the Midday Sun

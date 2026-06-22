@@ -19,6 +19,7 @@ name: '"Thunder Mother"'
 power_roll_characteristic: '[Presence](scc.v1:mcdm.heroes.v1/rule.character/presence)'
 scc: mcdm.heroes.v1/feature.ability.troubadour.level-1/thunder-mother
 source: mcdm.heroes.v1
+subclass: virtuoso
 target: One creature
 tier1: Lightning damage equal to your level
 tier2: Lightning damage equal to 5 + your level
@@ -56,6 +57,7 @@ metadata:
     name: '"Thunder Mother"'
     power_roll_characteristic: '[Presence](scc.v1:mcdm.heroes.v1/rule.character/presence)'
     scc: mcdm.heroes.v1/feature.ability.troubadour.level-1/thunder-mother
+    subclass: virtuoso
     target: One creature
     tier1: Lightning damage equal to your level
     tier2: Lightning damage equal to 5 + your level

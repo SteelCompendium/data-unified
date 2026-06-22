@@ -10,6 +10,7 @@ level: "8"
 name: Parkour
 scc: mcdm.heroes.v1/feature.shadow.level-8/parkour
 source: mcdm.heroes.v1
+subclass: harlequin-mask
 type: feature
 ---
 
@@ -22,6 +23,7 @@ metadata:
     level: "8"
     name: Parkour
     scc: mcdm.heroes.v1/feature.shadow.level-8/parkour
+    subclass: harlequin-mask
     type: feature
 name: Parkour
 type: feature

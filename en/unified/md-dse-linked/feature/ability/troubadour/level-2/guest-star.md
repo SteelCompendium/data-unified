@@ -19,6 +19,7 @@ level: "2"
 name: Guest Star
 scc: mcdm.heroes.v1/feature.ability.troubadour.level-2/guest-star
 source: mcdm.heroes.v1
+subclass: auteur
 target: Special
 type: ability
 ---
@@ -46,6 +47,7 @@ metadata:
     level: "2"
     name: Guest Star
     scc: mcdm.heroes.v1/feature.ability.troubadour.level-2/guest-star
+    subclass: auteur
     target: Special
     type: ability
 name: Guest Star

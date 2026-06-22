@@ -15,6 +15,7 @@ metadata:
     level: 10
     scc:
         - mcdm.heroes.v1/feature.elementalist.level-10/master-of-green
+    subclass: green
     type: feature/elementalist/level-10
 name: Master of Green
 type: feature

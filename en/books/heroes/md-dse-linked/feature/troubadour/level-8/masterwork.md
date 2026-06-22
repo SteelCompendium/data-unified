@@ -10,6 +10,7 @@ level: "8"
 name: Masterwork
 scc: mcdm.heroes.v1/feature.troubadour.level-8/masterwork
 source: mcdm.heroes.v1
+subclass: duelist
 type: feature
 ---
 
@@ -25,6 +26,7 @@ metadata:
     level: "8"
     name: Masterwork
     scc: mcdm.heroes.v1/feature.troubadour.level-8/masterwork
+    subclass: duelist
     type: feature
 name: Masterwork
 type: feature

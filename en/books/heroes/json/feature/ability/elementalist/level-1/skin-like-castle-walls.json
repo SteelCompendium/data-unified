@@ -37,6 +37,7 @@
     "scc": [
       "mcdm.heroes.v1/feature.ability.elementalist.level-1/skin-like-castle-walls"
     ],
+    "subclass": "earth",
     "target": "Self or one ally",
     "type": "feature/ability/elementalist/level-1"
   },

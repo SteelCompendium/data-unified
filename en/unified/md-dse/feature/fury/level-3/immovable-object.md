@@ -10,6 +10,7 @@ level: "3"
 name: Immovable Object
 scc: mcdm.heroes.v1/feature.fury.level-3/immovable-object
 source: mcdm.heroes.v1
+subclass: berserker
 type: feature
 ---
 
@@ -25,6 +26,7 @@ metadata:
     level: "3"
     name: Immovable Object
     scc: mcdm.heroes.v1/feature.fury.level-3/immovable-object
+    subclass: berserker
     type: feature
 name: Immovable Object
 type: feature

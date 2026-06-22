@@ -10,6 +10,7 @@ level: "1"
 name: Virtuoso Performances
 scc: mcdm.heroes.v1/feature.troubadour.level-1/virtuoso-performances
 source: mcdm.heroes.v1
+subclass: virtuoso
 type: feature
 ---
 
@@ -22,6 +23,7 @@ metadata:
     level: "1"
     name: Virtuoso Performances
     scc: mcdm.heroes.v1/feature.troubadour.level-1/virtuoso-performances
+    subclass: virtuoso
     type: feature
 name: Virtuoso Performances
 type: feature

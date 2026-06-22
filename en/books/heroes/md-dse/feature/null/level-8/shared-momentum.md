@@ -10,6 +10,7 @@ level: "8"
 name: Shared Momentum
 scc: mcdm.heroes.v1/feature.null.level-8/shared-momentum
 source: mcdm.heroes.v1
+subclass: chronokinetic
 type: feature
 ---
 
@@ -22,6 +23,7 @@ metadata:
     level: "8"
     name: Shared Momentum
     scc: mcdm.heroes.v1/feature.null.level-8/shared-momentum
+    subclass: chronokinetic
     type: feature
 name: Shared Momentum
 type: feature

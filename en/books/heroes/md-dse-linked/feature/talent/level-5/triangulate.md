@@ -10,6 +10,7 @@ level: "5"
 name: Triangulate
 scc: mcdm.heroes.v1/feature.talent.level-5/triangulate
 source: mcdm.heroes.v1
+subclass: telekinesis
 type: feature
 ---
 
@@ -22,6 +23,7 @@ metadata:
     level: "5"
     name: Triangulate
     scc: mcdm.heroes.v1/feature.talent.level-5/triangulate
+    subclass: telekinesis
     type: feature
 name: Triangulate
 type: feature

@@ -19,6 +19,7 @@ level: "6"
 name: Look!
 scc: mcdm.heroes.v1/feature.ability.shadow.level-6/look
 source: mcdm.heroes.v1
+subclass: harlequin-mask
 target: Each enemy in the area
 type: ability
 ---
@@ -46,6 +47,7 @@ metadata:
     level: "6"
     name: Look!
     scc: mcdm.heroes.v1/feature.ability.shadow.level-6/look
+    subclass: harlequin-mask
     target: Each enemy in the area
     type: ability
 name: Look!

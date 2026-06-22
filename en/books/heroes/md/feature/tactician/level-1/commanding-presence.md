@@ -3,6 +3,7 @@ class: tactician
 level: "1"
 name: Commanding Presence
 scc: mcdm.heroes.v1/feature.tactician.level-1/commanding-presence
+subclass: vanguard
 type: feature
 ---
 

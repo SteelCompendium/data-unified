@@ -10,6 +10,7 @@ level: "5"
 name: Chilling Readiness
 scc: mcdm.heroes.v1/feature.null.level-5/chilling-readiness
 source: mcdm.heroes.v1
+subclass: cryokinetic
 type: feature
 ---
 
@@ -22,6 +23,7 @@ metadata:
     level: "5"
     name: Chilling Readiness
     scc: mcdm.heroes.v1/feature.null.level-5/chilling-readiness
+    subclass: cryokinetic
     type: feature
 name: Chilling Readiness
 type: feature

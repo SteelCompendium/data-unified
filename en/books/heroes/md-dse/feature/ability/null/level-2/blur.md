@@ -18,6 +18,7 @@ level: "2"
 name: Blur
 scc: mcdm.heroes.v1/feature.ability.null.level-2/blur
 source: mcdm.heroes.v1
+subclass: chronokinetic
 target: Self
 type: ability
 ---
@@ -43,6 +44,7 @@ metadata:
     level: "2"
     name: Blur
     scc: mcdm.heroes.v1/feature.ability.null.level-2/blur
+    subclass: chronokinetic
     target: Self
     type: ability
 name: Blur

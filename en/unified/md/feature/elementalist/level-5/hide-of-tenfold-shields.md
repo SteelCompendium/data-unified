@@ -3,6 +3,7 @@ class: elementalist
 level: "5"
 name: Hide of Tenfold Shields
 scc: mcdm.heroes.v1/feature.elementalist.level-5/hide-of-tenfold-shields
+subclass: green
 type: feature
 ---
 

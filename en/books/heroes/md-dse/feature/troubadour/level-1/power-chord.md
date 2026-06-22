@@ -10,6 +10,7 @@ level: "1"
 name: Power Chord
 scc: mcdm.heroes.v1/feature.troubadour.level-1/power-chord
 source: mcdm.heroes.v1
+subclass: virtuoso
 type: feature
 ---
 
@@ -22,6 +23,7 @@ metadata:
     level: "1"
     name: Power Chord
     scc: mcdm.heroes.v1/feature.troubadour.level-1/power-chord
+    subclass: virtuoso
     type: feature
 name: Power Chord
 type: feature

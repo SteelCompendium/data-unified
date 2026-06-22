@@ -3,6 +3,7 @@ class: censor
 level: "2"
 name: Saint's Vigilance
 scc: mcdm.heroes.v1/feature.censor.level-2/saints-vigilance
+subclass: exorcist
 type: feature
 ---
 

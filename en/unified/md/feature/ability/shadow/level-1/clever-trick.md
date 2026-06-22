@@ -10,6 +10,7 @@ keywords:
 level: "1"
 name: Clever Trick
 scc: mcdm.heroes.v1/feature.ability.shadow.level-1/clever-trick
+subclass: harlequin-mask
 subtype: triggered
 target: Self
 trigger: An enemy targets you with a [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike).

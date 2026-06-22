@@ -10,6 +10,7 @@ level: "2"
 name: Rapid Processing
 scc: mcdm.heroes.v1/feature.null.level-2/rapid-processing
 source: mcdm.heroes.v1
+subclass: chronokinetic
 type: feature
 ---
 
@@ -22,6 +23,7 @@ metadata:
     level: "2"
     name: Rapid Processing
     scc: mcdm.heroes.v1/feature.null.level-2/rapid-processing
+    subclass: chronokinetic
     type: feature
 name: Rapid Processing
 type: feature

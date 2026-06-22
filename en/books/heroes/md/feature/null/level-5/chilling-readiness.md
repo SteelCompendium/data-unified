@@ -3,6 +3,7 @@ class: "null"
 level: "5"
 name: Chilling Readiness
 scc: mcdm.heroes.v1/feature.null.level-5/chilling-readiness
+subclass: cryokinetic
 type: feature
 ---
 

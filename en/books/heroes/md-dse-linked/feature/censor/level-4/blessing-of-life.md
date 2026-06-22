@@ -10,6 +10,7 @@ level: "4"
 name: Blessing of Life
 scc: mcdm.heroes.v1/feature.censor.level-4/blessing-of-life
 source: mcdm.heroes.v1
+subclass: life
 type: feature
 ---
 
@@ -22,6 +23,7 @@ metadata:
     level: "4"
     name: Blessing of Life
     scc: mcdm.heroes.v1/feature.censor.level-4/blessing-of-life
+    subclass: life
     type: feature
 name: Blessing of Life
 type: feature

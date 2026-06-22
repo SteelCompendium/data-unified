@@ -19,6 +19,7 @@ level: "9"
 name: Fulfill Your Destiny
 scc: mcdm.heroes.v1/feature.ability.censor.level-9/fulfill-your-destiny
 source: mcdm.heroes.v1
+subclass: oracle
 subtype: triggered
 target: One ally
 trigger: You or another hero ends their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn).
@@ -48,6 +49,7 @@ metadata:
     level: "9"
     name: Fulfill Your Destiny
     scc: mcdm.heroes.v1/feature.ability.censor.level-9/fulfill-your-destiny
+    subclass: oracle
     subtype: triggered
     target: One ally
     trigger: You or another hero ends their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn).

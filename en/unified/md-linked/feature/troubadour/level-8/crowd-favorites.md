@@ -3,6 +3,7 @@ class: troubadour
 level: "8"
 name: Crowd Favorites
 scc: mcdm.heroes.v1/feature.troubadour.level-8/crowd-favorites
+subclass: virtuoso
 type: feature
 ---
 

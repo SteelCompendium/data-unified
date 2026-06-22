@@ -3,6 +3,7 @@ class: troubadour
 level: "3"
 name: Foil
 scc: mcdm.heroes.v1/feature.troubadour.level-3/foil
+subclass: duelist
 type: feature
 ---
 

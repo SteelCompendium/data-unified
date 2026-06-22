@@ -3,6 +3,7 @@ class: conduit
 level: "1"
 name: Revitalizing Ritual
 scc: mcdm.heroes.v1/feature.conduit.level-1/revitalizing-ritual
+subclass: life
 type: feature
 ---
 

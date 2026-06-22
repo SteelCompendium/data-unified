@@ -3,6 +3,7 @@ class: conduit
 level: "1"
 name: Blessing of Compassion
 scc: mcdm.heroes.v1/feature.conduit.level-1/blessing-of-compassion
+subclass: love
 type: feature
 ---
 

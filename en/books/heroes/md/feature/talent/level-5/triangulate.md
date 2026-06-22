@@ -3,6 +3,7 @@ class: talent
 level: "5"
 name: Triangulate
 scc: mcdm.heroes.v1/feature.talent.level-5/triangulate
+subclass: telekinesis
 type: feature
 ---
 

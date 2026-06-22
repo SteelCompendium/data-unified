@@ -10,6 +10,7 @@ level: "7"
 name: Thunderstruck
 scc: mcdm.heroes.v1/feature.conduit.level-7/thunderstruck
 source: mcdm.heroes.v1
+subclass: storm
 type: feature
 ---
 
@@ -22,6 +23,7 @@ metadata:
     level: "7"
     name: Thunderstruck
     scc: mcdm.heroes.v1/feature.conduit.level-7/thunderstruck
+    subclass: storm
     type: feature
 name: Thunderstruck
 type: feature

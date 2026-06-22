@@ -3,6 +3,7 @@ class: shadow
 level: "2"
 name: Friend!
 scc: mcdm.heroes.v1/feature.shadow.level-2/friend
+subclass: harlequin-mask
 type: feature
 ---
 

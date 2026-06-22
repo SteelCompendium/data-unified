@@ -13,6 +13,7 @@ level: "9"
 name: Word of Weakening
 power_roll_characteristic: '[Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)'
 scc: mcdm.heroes.v1/feature.ability.conduit.level-9/word-of-weakening
+subclass: knowledge
 target: One creature or object
 tier1: 10 + I corruption damage; A < WEAK, [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
 tier2: 15 + I corruption damage; A < AVERAGE, [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)

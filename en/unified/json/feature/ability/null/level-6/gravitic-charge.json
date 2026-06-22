@@ -34,6 +34,7 @@
     "scc": [
       "mcdm.heroes.v1/feature.ability.null.level-6/gravitic-charge"
     ],
+    "subclass": "metakinetic",
     "target": "Self",
     "type": "feature/ability/null/level-6"
   },

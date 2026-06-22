@@ -13,6 +13,7 @@ metadata:
     level: 8
     scc:
         - mcdm.heroes.v1/feature.troubadour.level-8/masterwork
+    subclass: duelist
     type: feature/troubadour/level-8
 name: Masterwork
 type: feature

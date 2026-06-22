@@ -3,6 +3,7 @@ class: censor
 level: "1"
 name: Revitalizing Ritual
 scc: mcdm.heroes.v1/feature.censor.level-1/revitalizing-ritual
+subclass: life
 type: feature
 ---
 

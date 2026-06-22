@@ -3,6 +3,7 @@ class: tactician
 level: "8"
 name: Bait and Ambush
 scc: mcdm.heroes.v1/feature.tactician.level-8/bait-and-ambush
+subclass: insurgent
 type: feature
 ---
 

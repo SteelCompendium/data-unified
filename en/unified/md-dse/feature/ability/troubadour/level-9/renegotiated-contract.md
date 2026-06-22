@@ -21,6 +21,7 @@ name: Renegotiated Contract
 power_roll_characteristic: '[Presence](scc.v1:mcdm.heroes.v1/rule.character/presence)'
 scc: mcdm.heroes.v1/feature.ability.troubadour.level-9/renegotiated-contract
 source: mcdm.heroes.v1
+subclass: duelist
 target: One creature
 tier1: You and the target can each end one effect on yourselves that is ended by a [saving throw](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) or that ends at the end of your [turns](scc.v1:mcdm.heroes.v1/rule.combat/turn).
 tier2: You and the target can end any effects on yourselves that are ended by a [saving throw](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) or that end at the end of your [turns](scc.v1:mcdm.heroes.v1/rule.combat/turn).
@@ -58,6 +59,7 @@ metadata:
     name: Renegotiated Contract
     power_roll_characteristic: '[Presence](scc.v1:mcdm.heroes.v1/rule.character/presence)'
     scc: mcdm.heroes.v1/feature.ability.troubadour.level-9/renegotiated-contract
+    subclass: duelist
     target: One creature
     tier1: You and the target can each end one effect on yourselves that is ended by a [saving throw](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) or that ends at the end of your [turns](scc.v1:mcdm.heroes.v1/rule.combat/turn).
     tier2: You and the target can end any effects on yourselves that are ended by a [saving throw](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) or that end at the end of your [turns](scc.v1:mcdm.heroes.v1/rule.combat/turn).

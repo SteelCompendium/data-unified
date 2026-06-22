@@ -10,6 +10,7 @@ level: "8"
 name: Universal Connection
 scc: mcdm.heroes.v1/feature.talent.level-8/universal-connection
 source: mcdm.heroes.v1
+subclass: telepathy
 type: feature
 ---
 
@@ -22,6 +23,7 @@ metadata:
     level: "8"
     name: Universal Connection
     scc: mcdm.heroes.v1/feature.talent.level-8/universal-connection
+    subclass: telepathy
     type: feature
 name: Universal Connection
 type: feature

@@ -19,6 +19,7 @@ level: "2"
 name: Blessing of the Faithful
 scc: mcdm.heroes.v1/feature.ability.censor.level-2/blessing-of-the-faithful
 source: mcdm.heroes.v1
+subclass: paragon
 target: Self and each ally in the area
 type: ability
 ---
@@ -46,6 +47,7 @@ metadata:
     level: "2"
     name: Blessing of the Faithful
     scc: mcdm.heroes.v1/feature.ability.censor.level-2/blessing-of-the-faithful
+    subclass: paragon
     target: Self and each ally in the area
     type: ability
 name: Blessing of the Faithful

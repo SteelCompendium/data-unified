@@ -25,6 +25,7 @@ metadata:
     level: 6
     scc:
         - mcdm.heroes.v1/feature.ability.censor.level-6/intercede
+    subclass: paragon
     target: One ally
     type: feature/ability/censor/level-6
 name: Intercede

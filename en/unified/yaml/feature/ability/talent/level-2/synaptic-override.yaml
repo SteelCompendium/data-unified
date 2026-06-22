@@ -29,6 +29,7 @@ metadata:
     level: 2
     scc:
         - mcdm.heroes.v1/feature.ability.talent.level-2/synaptic-override
+    subclass: telepathy
     target: One enemy
     type: feature/ability/talent/level-2
 name: Synaptic Override

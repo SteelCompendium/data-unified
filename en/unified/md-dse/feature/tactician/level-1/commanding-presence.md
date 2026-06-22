@@ -10,6 +10,7 @@ level: "1"
 name: Commanding Presence
 scc: mcdm.heroes.v1/feature.tactician.level-1/commanding-presence
 source: mcdm.heroes.v1
+subclass: vanguard
 type: feature
 ---
 
@@ -22,6 +23,7 @@ metadata:
     level: "1"
     name: Commanding Presence
     scc: mcdm.heroes.v1/feature.tactician.level-1/commanding-presence
+    subclass: vanguard
     type: feature
 name: Commanding Presence
 type: feature

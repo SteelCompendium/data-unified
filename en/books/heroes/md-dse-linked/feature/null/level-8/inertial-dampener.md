@@ -10,6 +10,7 @@ level: "8"
 name: Inertial Dampener
 scc: mcdm.heroes.v1/feature.null.level-8/inertial-dampener
 source: mcdm.heroes.v1
+subclass: metakinetic
 type: feature
 ---
 
@@ -22,6 +23,7 @@ metadata:
     level: "8"
     name: Inertial Dampener
     scc: mcdm.heroes.v1/feature.null.level-8/inertial-dampener
+    subclass: metakinetic
     type: feature
 name: Inertial Dampener
 type: feature

@@ -10,6 +10,7 @@ level: "7"
 name: Divine Quartermaster
 scc: mcdm.heroes.v1/feature.censor.level-7/divine-quartermaster
 source: mcdm.heroes.v1
+subclass: creation
 type: feature
 ---
 
@@ -22,6 +23,7 @@ metadata:
     level: "7"
     name: Divine Quartermaster
     scc: mcdm.heroes.v1/feature.censor.level-7/divine-quartermaster
+    subclass: creation
     type: feature
 name: Divine Quartermaster
 type: feature

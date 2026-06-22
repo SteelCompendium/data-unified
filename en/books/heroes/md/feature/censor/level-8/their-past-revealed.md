@@ -3,6 +3,7 @@ class: censor
 level: "8"
 name: Their Past Revealed
 scc: mcdm.heroes.v1/feature.censor.level-8/their-past-revealed
+subclass: oracle
 type: feature
 ---
 

@@ -31,6 +31,7 @@ metadata:
     level: 6
     scc:
         - mcdm.heroes.v1/feature.ability.tactician.level-6/panic-in-their-lines
+    subclass: insurgent
     target: Two creatures
     type: feature/ability/tactician/level-6
 name: Panic in Their Lines

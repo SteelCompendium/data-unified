@@ -10,6 +10,7 @@ level: "7"
 name: Font of Grace
 scc: mcdm.heroes.v1/feature.censor.level-7/font-of-grace
 source: mcdm.heroes.v1
+subclass: life
 type: feature
 ---
 
@@ -22,6 +23,7 @@ metadata:
     level: "7"
     name: Font of Grace
     scc: mcdm.heroes.v1/feature.censor.level-7/font-of-grace
+    subclass: life
     type: feature
 name: Font of Grace
 type: feature

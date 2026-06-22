@@ -3,6 +3,7 @@ class: conduit
 level: "1"
 name: Oracular Visions
 scc: mcdm.heroes.v1/feature.conduit.level-1/oracular-visions
+subclass: fate
 type: feature
 ---
 

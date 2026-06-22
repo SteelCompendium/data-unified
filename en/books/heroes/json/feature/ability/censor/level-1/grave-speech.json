@@ -27,6 +27,7 @@
     "scc": [
       "mcdm.heroes.v1/feature.ability.censor.level-1/grave-speech"
     ],
+    "subclass": "death",
     "target": "One dead creature",
     "type": "feature/ability/censor/level-1"
   },

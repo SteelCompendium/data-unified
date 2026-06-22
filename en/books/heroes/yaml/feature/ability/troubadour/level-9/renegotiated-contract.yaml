@@ -29,6 +29,7 @@ metadata:
     level: 9
     scc:
         - mcdm.heroes.v1/feature.ability.troubadour.level-9/renegotiated-contract
+    subclass: duelist
     target: One creature
     type: feature/ability/troubadour/level-9
 name: Renegotiated Contract

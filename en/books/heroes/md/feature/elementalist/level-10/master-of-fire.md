@@ -3,6 +3,7 @@ class: elementalist
 level: "10"
 name: Master of Fire
 scc: mcdm.heroes.v1/feature.elementalist.level-10/master-of-fire
+subclass: fire
 type: feature
 ---
 

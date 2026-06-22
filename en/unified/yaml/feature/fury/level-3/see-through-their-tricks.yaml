@@ -10,6 +10,7 @@ metadata:
     level: 3
     scc:
         - mcdm.heroes.v1/feature.fury.level-3/see-through-their-tricks
+    subclass: reaver
     type: feature/fury/level-3
 name: See Through Their Tricks
 type: feature

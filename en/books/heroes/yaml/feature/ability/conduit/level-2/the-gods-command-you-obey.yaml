@@ -27,6 +27,7 @@ metadata:
     level: 2
     scc:
         - mcdm.heroes.v1/feature.ability.conduit.level-2/the-gods-command-you-obey
+    subclass: knowledge
     target: One creature
     type: feature/ability/conduit/level-2
 name: The Gods Command You Obey

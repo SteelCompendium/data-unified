@@ -10,6 +10,7 @@ level: "1"
 name: Star Power
 scc: mcdm.heroes.v1/feature.troubadour.level-1/star-power
 source: mcdm.heroes.v1
+subclass: duelist
 type: feature
 ---
 
@@ -22,6 +23,7 @@ metadata:
     level: "1"
     name: Star Power
     scc: mcdm.heroes.v1/feature.troubadour.level-1/star-power
+    subclass: duelist
     type: feature
 name: Star Power
 type: feature

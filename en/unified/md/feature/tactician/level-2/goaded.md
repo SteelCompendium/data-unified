@@ -3,6 +3,7 @@ class: tactician
 level: "2"
 name: Goaded
 scc: mcdm.heroes.v1/feature.tactician.level-2/goaded
+subclass: mastermind
 type: feature
 ---
 

@@ -3,6 +3,7 @@ class: shadow
 level: "2"
 name: Trained Assassin
 scc: mcdm.heroes.v1/feature.shadow.level-2/trained-assassin
+subclass: caustic-alchemy
 type: feature
 ---
 

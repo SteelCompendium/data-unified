@@ -27,6 +27,7 @@
       "keywords": [
         "Magic"
       ],
+      "subclass": "harlequin-mask",
       "target": "Self",
       "type": "feature/ability/common"
     },

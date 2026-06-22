@@ -33,6 +33,7 @@
     "scc": [
       "mcdm.heroes.v1/feature.ability.fury.level-1/unearthly-reflexes"
     ],
+    "subclass": "reaver",
     "target": "Self",
     "type": "feature/ability/fury/level-1"
   },

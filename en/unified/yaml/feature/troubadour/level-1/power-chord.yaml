@@ -21,6 +21,7 @@ ability:
         keywords:
             - Area
             - Magic
+        subclass: virtuoso
         target: Each enemy in the area
         type: feature/ability/common
     name: Power Chord
@@ -39,6 +40,7 @@ metadata:
     level: 1
     scc:
         - mcdm.heroes.v1/feature.troubadour.level-1/power-chord
+    subclass: virtuoso
     type: feature/troubadour/level-1
 name: Power Chord
 type: feature

@@ -3,6 +3,7 @@ class: fury
 level: "3"
 name: Nature's Knight
 scc: mcdm.heroes.v1/feature.fury.level-3/natures-knight
+subclass: stormwight
 type: feature
 ---
 

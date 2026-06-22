@@ -34,6 +34,7 @@
     "scc": [
       "mcdm.heroes.v1/feature.ability.conduit.level-6/spirit-stampede"
     ],
+    "subclass": "nature",
     "target": "Each enemy in the area",
     "type": "feature/ability/conduit/level-6"
   },

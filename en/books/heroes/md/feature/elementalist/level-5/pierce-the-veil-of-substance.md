@@ -3,6 +3,7 @@ class: elementalist
 level: "5"
 name: Pierce the Veil of Substance
 scc: mcdm.heroes.v1/feature.elementalist.level-5/pierce-the-veil-of-substance
+subclass: void
 type: feature
 ---
 

@@ -25,6 +25,7 @@ metadata:
     level: 6
     scc:
         - mcdm.heroes.v1/feature.ability.troubadour.level-6/heres-how-your-story-ends
+    subclass: auteur
     target: Each enemy in the area
     type: feature/ability/troubadour/level-6
 name: Here's How Your Story Ends

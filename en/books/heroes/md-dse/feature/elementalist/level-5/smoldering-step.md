@@ -10,6 +10,7 @@ level: "5"
 name: Smoldering Step
 scc: mcdm.heroes.v1/feature.elementalist.level-5/smoldering-step
 source: mcdm.heroes.v1
+subclass: fire
 type: feature
 ---
 
@@ -25,6 +26,7 @@ metadata:
     level: "5"
     name: Smoldering Step
     scc: mcdm.heroes.v1/feature.elementalist.level-5/smoldering-step
+    subclass: fire
     type: feature
 name: Smoldering Step
 type: feature

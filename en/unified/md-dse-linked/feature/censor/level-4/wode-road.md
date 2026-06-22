@@ -10,6 +10,7 @@ level: "4"
 name: Wode Road
 scc: mcdm.heroes.v1/feature.censor.level-4/wode-road
 source: mcdm.heroes.v1
+subclass: nature
 type: feature
 ---
 
@@ -22,6 +23,7 @@ metadata:
     level: "4"
     name: Wode Road
     scc: mcdm.heroes.v1/feature.censor.level-4/wode-road
+    subclass: nature
     type: feature
 name: Wode Road
 type: feature

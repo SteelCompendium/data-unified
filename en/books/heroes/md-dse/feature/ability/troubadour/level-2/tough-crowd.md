@@ -21,6 +21,7 @@ name: Tough Crowd
 power_roll_characteristic: '[Presence](scc.v1:mcdm.heroes.v1/rule.character/presence)'
 scc: mcdm.heroes.v1/feature.ability.troubadour.level-2/tough-crowd
 source: mcdm.heroes.v1
+subclass: virtuoso
 target: Special
 tier1: 5 corruption damage; M < WEAK, [pull](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1 toward the center of the area
 tier2: 9 corruption damage; M < AVERAGE, [pull](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2 toward the center of the area
@@ -58,6 +59,7 @@ metadata:
     name: Tough Crowd
     power_roll_characteristic: '[Presence](scc.v1:mcdm.heroes.v1/rule.character/presence)'
     scc: mcdm.heroes.v1/feature.ability.troubadour.level-2/tough-crowd
+    subclass: virtuoso
     target: Special
     tier1: 5 corruption damage; M < WEAK, [pull](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1 toward the center of the area
     tier2: 9 corruption damage; M < AVERAGE, [pull](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2 toward the center of the area

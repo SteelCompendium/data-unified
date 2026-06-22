@@ -10,6 +10,7 @@ level: "5"
 name: Remote Amplification
 scc: mcdm.heroes.v1/feature.talent.level-5/remote-amplification
 source: mcdm.heroes.v1
+subclass: telepathy
 type: feature
 ---
 
@@ -22,6 +23,7 @@ metadata:
     level: "5"
     name: Remote Amplification
     scc: mcdm.heroes.v1/feature.talent.level-5/remote-amplification
+    subclass: telepathy
     type: feature
 name: Remote Amplification
 type: feature

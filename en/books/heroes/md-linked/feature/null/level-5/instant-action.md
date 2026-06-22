@@ -3,6 +3,7 @@ class: "null"
 level: "5"
 name: Instant Action
 scc: mcdm.heroes.v1/feature.null.level-5/instant-action
+subclass: chronokinetic
 type: feature
 ---
 

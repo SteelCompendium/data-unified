@@ -29,6 +29,7 @@ metadata:
     level: 6
     scc:
         - mcdm.heroes.v1/feature.ability.talent.level-6/synaptic-conditioning
+    subclass: telepathy
     target: One creature
     type: feature/ability/talent/level-6
 name: Synaptic Conditioning

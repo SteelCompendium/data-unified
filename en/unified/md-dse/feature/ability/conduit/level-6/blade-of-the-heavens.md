@@ -20,6 +20,7 @@ name: Blade of the Heavens
 power_roll_characteristic: '[Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)'
 scc: mcdm.heroes.v1/feature.ability.conduit.level-6/blade-of-the-heavens
 source: mcdm.heroes.v1
+subclass: war
 target: One creature
 tier1: 8 + I damage; A < WEAK, [prone and](scc.v1:mcdm.heroes.v1/condition/prone) [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
 tier2: 12 + I damage; A < AVERAGE, [prone and](scc.v1:mcdm.heroes.v1/condition/prone) [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
@@ -55,6 +56,7 @@ metadata:
     name: Blade of the Heavens
     power_roll_characteristic: '[Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)'
     scc: mcdm.heroes.v1/feature.ability.conduit.level-6/blade-of-the-heavens
+    subclass: war
     target: One creature
     tier1: 8 + I damage; A < WEAK, [prone and](scc.v1:mcdm.heroes.v1/condition/prone) [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
     tier2: 12 + I damage; A < AVERAGE, [prone and](scc.v1:mcdm.heroes.v1/condition/prone) [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)

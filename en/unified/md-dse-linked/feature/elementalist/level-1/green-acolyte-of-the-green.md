@@ -10,6 +10,7 @@ level: "1"
 name: 'Green: Acolyte of the Green'
 scc: mcdm.heroes.v1/feature.elementalist.level-1/green-acolyte-of-the-green
 source: mcdm.heroes.v1
+subclass: green
 type: feature
 ---
 
@@ -22,6 +23,7 @@ metadata:
     level: "1"
     name: 'Green: Acolyte of the Green'
     scc: mcdm.heroes.v1/feature.elementalist.level-1/green-acolyte-of-the-green
+    subclass: green
     type: feature
 name: 'Green: Acolyte of the Green'
 type: feature

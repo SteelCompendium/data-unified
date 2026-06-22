@@ -10,6 +10,7 @@ level: "1"
 name: Acrobatics
 scc: mcdm.heroes.v1/feature.troubadour.level-1/acrobatics
 source: mcdm.heroes.v1
+subclass: duelist
 type: feature
 ---
 
@@ -22,6 +23,7 @@ metadata:
     level: "1"
     name: Acrobatics
     scc: mcdm.heroes.v1/feature.troubadour.level-1/acrobatics
+    subclass: duelist
     type: feature
 name: Acrobatics
 type: feature

@@ -3,6 +3,7 @@ class: tactician
 level: "7"
 name: Grand Strategy
 scc: mcdm.heroes.v1/feature.tactician.level-7/grand-strategy
+subclass: mastermind
 type: feature
 ---
 

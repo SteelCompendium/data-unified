@@ -27,6 +27,7 @@
         "Magic",
         "Performance"
       ],
+      "subclass": "duelist",
       "target": "Self and each ally in the area",
       "type": "feature/ability/common"
     },
@@ -51,6 +52,7 @@
     "scc": [
       "mcdm.heroes.v1/feature.troubadour.level-1/acrobatics"
     ],
+    "subclass": "duelist",
     "type": "feature/troubadour/level-1"
   },
   "name": "Acrobatics",

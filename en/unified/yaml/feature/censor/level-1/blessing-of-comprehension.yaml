@@ -10,6 +10,7 @@ metadata:
     level: 1
     scc:
         - mcdm.heroes.v1/feature.censor.level-1/blessing-of-comprehension
+    subclass: knowledge
     type: feature/censor/level-1
 name: Blessing of Comprehension
 type: feature

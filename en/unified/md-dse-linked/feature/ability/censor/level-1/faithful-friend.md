@@ -15,6 +15,7 @@ level: "1"
 name: Faithful Friend
 scc: mcdm.heroes.v1/feature.ability.censor.level-1/faithful-friend
 source: mcdm.heroes.v1
+subclass: nature
 target: Self
 type: ability
 ---
@@ -38,6 +39,7 @@ metadata:
     level: "1"
     name: Faithful Friend
     scc: mcdm.heroes.v1/feature.ability.censor.level-1/faithful-friend
+    subclass: nature
     target: Self
     type: ability
 name: Faithful Friend

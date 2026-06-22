@@ -10,6 +10,7 @@ level: "4"
 name: Improved Sanctified Weapon
 scc: mcdm.heroes.v1/feature.censor.level-4/improved-sanctified-weapon
 source: mcdm.heroes.v1
+subclass: war
 type: feature
 ---
 
@@ -22,6 +23,7 @@ metadata:
     level: "4"
     name: Improved Sanctified Weapon
     scc: mcdm.heroes.v1/feature.censor.level-4/improved-sanctified-weapon
+    subclass: war
     type: feature
 name: Improved Sanctified Weapon
 type: feature

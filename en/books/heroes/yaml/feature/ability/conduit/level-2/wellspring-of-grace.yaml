@@ -23,6 +23,7 @@ metadata:
     level: 2
     scc:
         - mcdm.heroes.v1/feature.ability.conduit.level-2/wellspring-of-grace
+    subclass: life
     target: Each ally in the area
     type: feature/ability/conduit/level-2
 name: Wellspring of Grace

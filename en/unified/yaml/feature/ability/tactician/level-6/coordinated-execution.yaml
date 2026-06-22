@@ -23,6 +23,7 @@ metadata:
     level: 6
     scc:
         - mcdm.heroes.v1/feature.ability.tactician.level-6/coordinated-execution
+    subclass: insurgent
     target: One ally
     type: feature/ability/tactician/level-6
 name: Coordinated Execution

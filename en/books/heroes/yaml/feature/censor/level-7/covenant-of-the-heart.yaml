@@ -19,6 +19,7 @@ ability:
         keywords:
             - Magic
             - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'
+        subclass: love
         target: Self and each ally
         type: feature/ability/common
     name: Guided to Your Side
@@ -37,6 +38,7 @@ metadata:
     level: 7
     scc:
         - mcdm.heroes.v1/feature.censor.level-7/covenant-of-the-heart
+    subclass: love
     type: feature/censor/level-7
 name: Covenant of the Heart
 type: feature

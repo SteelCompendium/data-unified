@@ -28,6 +28,7 @@
     "scc": [
       "mcdm.heroes.v1/feature.ability.tactician.level-9/counterstrategy"
     ],
+    "subclass": "mastermind",
     "target": "Self",
     "type": "feature/ability/tactician/level-9"
   },

@@ -10,6 +10,7 @@ level: "8"
 name: Chimeric Manifestation
 scc: mcdm.heroes.v1/feature.elementalist.level-8/chimeric-manifestation
 source: mcdm.heroes.v1
+subclass: green
 type: feature
 ---
 
@@ -27,6 +28,7 @@ metadata:
     level: "8"
     name: Chimeric Manifestation
     scc: mcdm.heroes.v1/feature.elementalist.level-8/chimeric-manifestation
+    subclass: green
     type: feature
 name: Chimeric Manifestation
 type: feature

@@ -3,6 +3,7 @@ class: elementalist
 level: "1"
 name: 'Void: Acolyte of the Mystery'
 scc: mcdm.heroes.v1/feature.elementalist.level-1/void-acolyte-of-the-mystery
+subclass: void
 type: feature
 ---
 

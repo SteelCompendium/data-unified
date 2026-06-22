@@ -20,6 +20,7 @@ name: Ice Pillars
 power_roll_characteristic: '[Intuition](../../../../rule/character/intuition.md)'
 scc: mcdm.heroes.v1/feature.ability.null.level-6/ice-pillars
 source: mcdm.heroes.v1
+subclass: cryokinetic
 target: Three creatures or objects
 tier1: Vertical [slide](../../../../movement/forced-movement.md) 6
 tier2: Vertical [slide](../../../../movement/forced-movement.md) 8
@@ -55,6 +56,7 @@ metadata:
     name: Ice Pillars
     power_roll_characteristic: '[Intuition](../../../../rule/character/intuition.md)'
     scc: mcdm.heroes.v1/feature.ability.null.level-6/ice-pillars
+    subclass: cryokinetic
     target: Three creatures or objects
     tier1: Vertical [slide](../../../../movement/forced-movement.md) 6
     tier2: Vertical [slide](../../../../movement/forced-movement.md) 8

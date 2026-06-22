@@ -10,6 +10,7 @@ level: "1"
 name: Oracular Visions
 scc: mcdm.heroes.v1/feature.censor.level-1/oracular-visions
 source: mcdm.heroes.v1
+subclass: fate
 type: feature
 ---
 
@@ -22,6 +23,7 @@ metadata:
     level: "1"
     name: Oracular Visions
     scc: mcdm.heroes.v1/feature.censor.level-1/oracular-visions
+    subclass: fate
     type: feature
 name: Oracular Visions
 type: feature

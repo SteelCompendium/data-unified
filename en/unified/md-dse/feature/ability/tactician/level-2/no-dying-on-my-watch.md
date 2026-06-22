@@ -21,6 +21,7 @@ name: No Dying on My Watch
 power_roll_characteristic: '[Might](scc.v1:mcdm.heroes.v1/rule.character/might)'
 scc: mcdm.heroes.v1/feature.ability.tactician.level-2/no-dying-on-my-watch
 source: mcdm.heroes.v1
+subclass: vanguard
 subtype: triggered
 target: One enemy
 tier1: R < WEAK, the target is [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) of the triggering ally (save ends)
@@ -60,6 +61,7 @@ metadata:
     name: No Dying on My Watch
     power_roll_characteristic: '[Might](scc.v1:mcdm.heroes.v1/rule.character/might)'
     scc: mcdm.heroes.v1/feature.ability.tactician.level-2/no-dying-on-my-watch
+    subclass: vanguard
     subtype: triggered
     target: One enemy
     tier1: R < WEAK, the target is [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) of the triggering ally (save ends)

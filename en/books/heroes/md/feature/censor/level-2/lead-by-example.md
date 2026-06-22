@@ -3,6 +3,7 @@ class: censor
 level: "2"
 name: Lead by Example
 scc: mcdm.heroes.v1/feature.censor.level-2/lead-by-example
+subclass: paragon
 type: feature
 ---
 

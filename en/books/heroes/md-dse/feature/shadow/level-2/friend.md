@@ -10,6 +10,7 @@ level: "2"
 name: Friend!
 scc: mcdm.heroes.v1/feature.shadow.level-2/friend
 source: mcdm.heroes.v1
+subclass: harlequin-mask
 type: feature
 ---
 
@@ -25,6 +26,7 @@ metadata:
     level: "2"
     name: Friend!
     scc: mcdm.heroes.v1/feature.shadow.level-2/friend
+    subclass: harlequin-mask
     type: feature
 name: Friend!
 type: feature
