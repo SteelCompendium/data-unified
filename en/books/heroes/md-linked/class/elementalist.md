@@ -74,19 +74,19 @@ Through your studies, you know and can manipulate the seven primal elements of t
 
 You choose an [elemental specialization](../feature/elementalist/level-1/elemental-specialization.md) from the following options: earth, fire, green, or void. Your [elemental specialization](../feature/elementalist/level-1/elemental-specialization.md) is your [subclass](../rule/general/subclass.md), and your choice of specialization determines many of the features you'll gain as you gain new levels, including one of the following benefits. (Other elemental specializations will be featured in future products.) (*Quick Build:* Fire.)
 
-#### Earth: Acolyte of Earth {data-scc="mcdm.heroes.v1/feature.elementalist.level-1/earth-acolyte-of-earth"}
+#### Earth: Acolyte of Earth {data-scc="mcdm.heroes.v1/feature.elementalist.level-1/earth-acolyte-of-earth" data-subclass="earth"}
 
 You harness the flow of earth magic to become harder to move. Whenever you use an ability that has the Earth and Magic keywords, your [stability](../rule/character/stability.md) increases by 1 until the start of your next [turn](../rule/combat/turn.md). This benefit is cumulative.
 
-#### Fire: Acolyte of Fire {data-scc="mcdm.heroes.v1/feature.elementalist.level-1/fire-acolyte-of-fire"}
+#### Fire: Acolyte of Fire {data-scc="mcdm.heroes.v1/feature.elementalist.level-1/fire-acolyte-of-fire" data-subclass="fire"}
 
 You become an expert at wielding destructive flames. Your abilities that have the Fire and Magic keywords gain a +1 [bonus](../rule/dice/bonuses-and-penalties.md) to [rolled damage](../rule/damage/rolled-damage.md). Your [Hurl Element](../feature/ability/elementalist/level-1/hurl-element.md) ability (see below) also gains this [bonus](../rule/dice/bonuses-and-penalties.md) when you use it to deal fire damage.
 
-#### Green: Acolyte of the Green {data-scc="mcdm.heroes.v1/feature.elementalist.level-1/green-acolyte-of-the-green"}
+#### Green: Acolyte of the Green {data-scc="mcdm.heroes.v1/feature.elementalist.level-1/green-acolyte-of-the-green" data-subclass="green"}
 
 You harness the residual magic from your green spells to bolster yourself and your allies. Whenever you deal damage to one or more creatures using an ability that has the Green and Magic keywords and that costs essence to use (see below), you or one creature within 10 squares of you gains [temporary Stamina](../rule/health/temporary-stamina.md) equal to your [Reason](../rule/character/reason.md) score.
 
-#### Void: Acolyte of the Mystery {data-scc="mcdm.heroes.v1/feature.elementalist.level-1/void-acolyte-of-the-mystery"}
+#### Void: Acolyte of the Mystery {data-scc="mcdm.heroes.v1/feature.elementalist.level-1/void-acolyte-of-the-mystery" data-subclass="void"}
 
 You use your immersion in the mystery of void magic to expand the reach of that magic better than other mages. The [distance](../rule/combat/distance.md) of all your abilities that have the Magic, [Ranged](../rule/combat/ranged.md), and Void keywords increases by 2 squares.
 
@@ -173,13 +173,13 @@ Your [elemental specialization](../feature/elementalist/level-1/elemental-specia
 | Green          | [It Is the Soul Which Hears](../feature/elementalist/level-1/it-is-the-soul-which-hears.md) |
 | Void           | [A Beyonding of Vision](../feature/elementalist/level-1/a-beyonding-of-vision.md)      |
 
-#### A Beyonding of Vision {data-scc="mcdm.heroes.v1/feature.elementalist.level-1/a-beyonding-of-vision"}
+#### A Beyonding of Vision {data-scc="mcdm.heroes.v1/feature.elementalist.level-1/a-beyonding-of-vision" data-subclass="void"}
 
 You instantly recognize illusions for what they are, you can see invisible creatures, and [supernatural](../rule/general/supernatural.md) effects can't conceal creatures and objects from you. Additionally, you always know if an area or object you observe is magical or affected by magic, and you know the specifics of what that magic can do.
 
 You also gain the following ability.
 
-##### Shared Void Sense {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-1/shared-void-sense"}
+##### Shared Void Sense {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-1/shared-void-sense" data-subclass="void"}
 
 
 *You grant allies a taste of your unearthly vision.*
@@ -190,7 +190,7 @@ You also gain the following ability.
 
 **Effect:** For each [Victory](../rule/resource/victories.md) you have, you can target one creature. Each target gains the benefit of your [A Beyonding of Vision](../feature/elementalist/level-1/a-beyonding-of-vision.md) feature until the end of your next [turn](../rule/combat/turn.md), but doesn't gain the use of the [Shared Void Sense](../feature/ability/elementalist/level-1/shared-void-sense.md) ability.
 
-#### It Is the Soul Which Hears {data-scc="mcdm.heroes.v1/feature.elementalist.level-1/it-is-the-soul-which-hears"}
+#### It Is the Soul Which Hears {data-scc="mcdm.heroes.v1/feature.elementalist.level-1/it-is-the-soul-which-hears" data-subclass="green"}
 
 You can speak with and understand animals, beasts, and plant creatures, even if they don't share a language with you. Your ability to communicate with these creatures doesn't make them inherently more intelligent, but you can use [Reason](../rule/character/reason.md) instead of [Presence](../rule/character/presence.md) while making [tests](../rule/test/test.md) to influence them.
 
@@ -200,7 +200,7 @@ Additionally, you can touch a living plant that is not a plant creature to commu
 
 You have the following ability.
 
-##### Motivate Earth {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-1/motivate-earth"}
+##### Motivate Earth {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-1/motivate-earth" data-subclass="earth"}
 
 
 *The earth rises, falls, or opens up at your command.*
@@ -217,7 +217,7 @@ Alternatively, you touch a structure made of mundane dirt, stone, or metal that 
 
 You have the following ability.
 
-##### Return to Formlessness {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-1/return-to-formlessness"}
+##### Return to Formlessness {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-1/return-to-formlessness" data-subclass="fire"}
 
 
 *With the merest touch, you cause an object to turn to slag or ash.*
@@ -241,7 +241,7 @@ Your [elemental specialization](../feature/elementalist/level-1/elemental-specia
 | Green           | [Breath of Dawn Remembered](../feature/ability/elementalist/level-1/breath-of-dawn-remembered.md) |
 | Void            | [Subtle Relocation](../feature/ability/elementalist/level-1/subtle-relocation.md)         |
 
-##### Breath of Dawn Remembered {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-1/breath-of-dawn-remembered"}
+##### Breath of Dawn Remembered {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-1/breath-of-dawn-remembered" data-subclass="green"}
 
 
 *The power you channel grants the ability to get back in the fight.*
@@ -256,7 +256,7 @@ Your [elemental specialization](../feature/elementalist/level-1/elemental-specia
 
 **Spend 1+ Essence:** The target can spend an additional [Recovery](../rule/health/recoveries.md) for each essence spent.
 
-##### Explosive Assistance {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-1/explosive-assistance"}
+##### Explosive Assistance {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-1/explosive-assistance" data-subclass="fire"}
 
 
 *You add a little magic to an ally's aggression at just the right time.*
@@ -271,7 +271,7 @@ Your [elemental specialization](../feature/elementalist/level-1/elemental-specia
 
 **Spend 1 Essence:** The [forced movement](../movement/forced-movement.md) [distance](../rule/combat/distance.md) gains a [bonus](../rule/dice/bonuses-and-penalties.md) equal to twice your [Reason](../rule/character/reason.md) score instead.
 
-##### Skin Like Castle Walls {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-1/skin-like-castle-walls"}
+##### Skin Like Castle Walls {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-1/skin-like-castle-walls" data-subclass="earth"}
 
 
 *You cover yourself or an ally in protective stone.*
@@ -286,7 +286,7 @@ Your [elemental specialization](../feature/elementalist/level-1/elemental-specia
 
 **Spend 1 Essence:** If the damage has any [potency](../rule/character/potency.md) effects associated with it, the [potency](../rule/character/potency.md) is reduced by 1 for the target.
 
-##### Subtle Relocation {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-1/subtle-relocation"}
+##### Subtle Relocation {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-1/subtle-relocation" data-subclass="void"}
 
 
 *You call on the void to swallow and spit out an ally.*
@@ -650,11 +650,11 @@ Your [elemental specialization](../feature/elementalist/level-1/elemental-specia
 | Green          | [Disciple of the Green](../feature/elementalist/level-2/disciple-of-the-green.md)     |
 | Void           | [There Is No Space Between](../feature/ability/elementalist/level-2/there-is-no-space-between.md) |
 
-#### Disciple of Earth {data-scc="mcdm.heroes.v1/feature.elementalist.level-2/disciple-of-earth"}
+#### Disciple of Earth {data-scc="mcdm.heroes.v1/feature.elementalist.level-2/disciple-of-earth" data-subclass="earth"}
 
 Your body is strengthened by your mind's connection to the element of permanence. You have a +6 [bonus](../rule/dice/bonuses-and-penalties.md) to [Stamina](../rule/health/stamina.md), and you gain an additional +3 [bonus](../rule/dice/bonuses-and-penalties.md) to [Stamina](../rule/health/stamina.md) whenever you gain a level past 2nd.
 
-#### Disciple of Fire {data-scc="mcdm.heroes.v1/feature.elementalist.level-2/disciple-of-fire"}
+#### Disciple of Fire {data-scc="mcdm.heroes.v1/feature.elementalist.level-2/disciple-of-fire" data-subclass="fire"}
 
 Your connection to fire allows you to protect yourself from it, even as you rip away the protections of others. You have fire immunity equal to 5 plus your level. Additionally, fire damage you deal ignores a target's fire immunity.
 
@@ -699,7 +699,7 @@ You can revert back to your true form as a maneuver. You can't enter an [animal 
 
 You have the following ability.
 
-##### There Is No Space Between {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-2/there-is-no-space-between"}
+##### There Is No Space Between {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-2/there-is-no-space-between" data-subclass="void"}
 
 
 *Knowledge of the mystery reveals that two spaces are the same space.*
@@ -799,19 +799,19 @@ Your [elemental specialization](../feature/elementalist/level-1/elemental-specia
 | Green          | [Remember Growth and Sun and Rain](../feature/ability/elementalist/level-3/remember-growth-and-sun-and-rain.md) |
 | Void           | [Distance Is Only Memory](../feature/elementalist/level-3/distance-is-only-memory.md)          |
 
-#### A Conversation With Fire {data-scc="mcdm.heroes.v1/feature.elementalist.level-3/a-conversation-with-fire"}
+#### A Conversation With Fire {data-scc="mcdm.heroes.v1/feature.elementalist.level-3/a-conversation-with-fire" data-subclass="fire"}
 
 When you spend 1 uninterrupted minute in front of a fire, you can speak the name of another creature. If that creature is willing to speak to you, their image appears in the fire, and they can see you before them in a shimmering ball of light. The two of you can speak to each other through these images as if you were together in person. As a maneuver, you or the creature can end the conversation.
 
-#### Distance Is Only Memory {data-scc="mcdm.heroes.v1/feature.elementalist.level-3/distance-is-only-memory"}
+#### Distance Is Only Memory {data-scc="mcdm.heroes.v1/feature.elementalist.level-3/distance-is-only-memory" data-subclass="void"}
 
 Each time you finish a [respite](../rule/resource/respite.md), you can open a two-way portal that leads to any place you have previously been. You and your allies can pass through the portal, which remains open for 1 hour or until you dismiss it as a main action.
 
-#### Earth Accepts Me {data-scc="mcdm.heroes.v1/feature.elementalist.level-3/earth-accepts-me"}
+#### Earth Accepts Me {data-scc="mcdm.heroes.v1/feature.elementalist.level-3/earth-accepts-me" data-subclass="earth"}
 
 You have the following ability.
 
-##### Earth Accepts Me {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-3/earth-accepts-me"}
+##### Earth Accepts Me {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-3/earth-accepts-me" data-subclass="earth"}
 
 
 *You can slip into the stone.*
@@ -822,11 +822,11 @@ You have the following ability.
 
 **Effect:** You step into a mundane dirt, metal, or stone object (including a wall) that is as large as you or larger. You can remain inside the object for as long as you like. While inside the object, you can observe events and speak to creatures outside it, but you don't have [line of effect](../rule/combat/line-of-effect.md) to anything outside the object and vice versa. You can travel through the object freely until you exit it. If the object you meld with is destroyed, you take 10 damage and exit the object.
 
-#### Remember Growth and Sun and Rain {data-scc="mcdm.heroes.v1/feature.elementalist.level-3/remember-growth-and-sun-and-rain"}
+#### Remember Growth and Sun and Rain {data-scc="mcdm.heroes.v1/feature.elementalist.level-3/remember-growth-and-sun-and-rain" data-subclass="green"}
 
 You have the following ability.
 
-##### Remember Growth and Sun and Rain {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-3/remember-growth-and-sun-and-rain"}
+##### Remember Growth and Sun and Rain {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-3/remember-growth-and-sun-and-rain" data-subclass="green"}
 
 
 *You stir any wood's memory and learn what it has seen.*
@@ -934,19 +934,19 @@ While you have 3 or more essence and are not [dying](../rule/health/dying.md), y
 | Green          | [Flowering Bed](../feature/elementalist/level-4/flowering-bed.md)   |
 | Void           | [Veiling Bed](../feature/elementalist/level-4/veiling-bed.md)     |
 
-#### Burning Grounds {data-scc="mcdm.heroes.v1/feature.elementalist.level-4/burning-grounds"}
+#### Burning Grounds {data-scc="mcdm.heroes.v1/feature.elementalist.level-4/burning-grounds" data-subclass="fire"}
 
 At the end of each of your [turns](../rule/combat/turn.md), each enemy in the area takes fire damage equal to your [Reason](../rule/character/reason.md) score.
 
-#### Flowering Bed {data-scc="mcdm.heroes.v1/feature.elementalist.level-4/flowering-bed"}
+#### Flowering Bed {data-scc="mcdm.heroes.v1/feature.elementalist.level-4/flowering-bed" data-subclass="green"}
 
 At the end of each of your [turns](../rule/combat/turn.md), each ally in the area gains [temporary Stamina](../rule/health/temporary-stamina.md) equal to your [Reason](../rule/character/reason.md) score.
 
-#### Quaking Earth {data-scc="mcdm.heroes.v1/feature.elementalist.level-4/quaking-earth"}
+#### Quaking Earth {data-scc="mcdm.heroes.v1/feature.elementalist.level-4/quaking-earth" data-subclass="earth"}
 
 At the end of each of your [turns](../rule/combat/turn.md), you can [push](../movement/forced-movement.md) each enemy in the area up to a number of squares equal to your [Reason](../rule/character/reason.md) score.
 
-#### Veiling Bed {data-scc="mcdm.heroes.v1/feature.elementalist.level-4/veiling-bed"}
+#### Veiling Bed {data-scc="mcdm.heroes.v1/feature.elementalist.level-4/veiling-bed" data-subclass="void"}
 
 The area provides [concealment](../rule/combat/concealment.md) for you and your allies.
 
@@ -975,25 +975,25 @@ Your [elemental specialization](../feature/elementalist/level-1/elemental-specia
 | Green          | [Hide of Tenfold Shields](../feature/elementalist/level-5/hide-of-tenfold-shields.md)      |
 | Void           | [Pierce the Veil of Substance](../feature/elementalist/level-5/pierce-the-veil-of-substance.md) |
 
-#### Hide of Tenfold Shields {data-scc="mcdm.heroes.v1/feature.elementalist.level-5/hide-of-tenfold-shields"}
+#### Hide of Tenfold Shields {data-scc="mcdm.heroes.v1/feature.elementalist.level-5/hide-of-tenfold-shields" data-subclass="green"}
 
 Your animal forms become hardier. You gain [temporary Stamina](../rule/health/temporary-stamina.md) equal to your level when you enter an [animal form](../complication/animal-form.md) in combat, which is added to any [temporary Stamina](../rule/health/temporary-stamina.md) provided by the [animal form](../complication/animal-form.md).
 
 Additionally, an [adjacent](../rule/combat/adjacent.md) ally can use a maneuver to pet you. If they do so, you can lose [temporary Stamina](../rule/health/temporary-stamina.md) down to a minimum of 0. The ally gains [temporary Stamina](../rule/health/temporary-stamina.md) equal to the amount you lost.
 
-#### The Mountain Does Not Move {data-scc="mcdm.heroes.v1/feature.elementalist.level-5/the-mountain-does-not-move"}
+#### The Mountain Does Not Move {data-scc="mcdm.heroes.v1/feature.elementalist.level-5/the-mountain-does-not-move" data-subclass="earth"}
 
 You stand firm and magnetize your allies to stay grounded. Your [stability](../rule/character/stability.md) increases by your level.
 
 Additionally, whenever an ally within [distance](../rule/combat/distance.md) of your [Hurl Element](../feature/ability/elementalist/level-1/hurl-element.md) ability is [force moved](../movement/forced-movement.md), you can use a free [triggered action](../rule/combat/triggered-action.md) to decrease your [stability](../rule/character/stability.md) down to a minimum of 0, then increase the ally's [stability](../rule/character/stability.md) by an amount equal to the [stability](../rule/character/stability.md) you lost. This change lasts until the end of the round.
 
-#### Pierce the Veil of Substance {data-scc="mcdm.heroes.v1/feature.elementalist.level-5/pierce-the-veil-of-substance"}
+#### Pierce the Veil of Substance {data-scc="mcdm.heroes.v1/feature.elementalist.level-5/pierce-the-veil-of-substance" data-subclass="void"}
 
 Solidity is merely a suggestion to you. Mundane barriers that are 1 square thick or less do not block your senses or [line of effect](../rule/combat/line-of-effect.md). You can only sense or have [line of effect](../rule/combat/line-of-effect.md) past one such barrier at a time.
 
 Additionally, whenever you use a void ability, you or one ally within [distance](../rule/combat/distance.md) of the ability can [teleport](../movement/teleport.md) a number of squares equal to your [Reason](../rule/character/reason.md) score.
 
-#### Smoldering Step {data-scc="mcdm.heroes.v1/feature.elementalist.level-5/smoldering-step"}
+#### Smoldering Step {data-scc="mcdm.heroes.v1/feature.elementalist.level-5/smoldering-step" data-subclass="fire"}
 
 You can use 1 square of movement to walk into an area of fire your [size](../rule/character/size.md) or larger and [teleport](../movement/teleport.md) to any other area of fire your [size](../rule/character/size.md) or larger within 10 squares of the first area.
 
@@ -1201,13 +1201,13 @@ Your [elemental specialization](../feature/elementalist/level-1/elemental-specia
 | Green          | [Chimeric Manifestation](../feature/elementalist/level-8/chimeric-manifestation.md) |
 | Void           | [Black Hole Star](../feature/elementalist/level-8/black-hole-star.md)        |
 
-#### Black Hole Star {data-scc="mcdm.heroes.v1/feature.elementalist.level-8/black-hole-star"}
+#### Black Hole Star {data-scc="mcdm.heroes.v1/feature.elementalist.level-8/black-hole-star" data-subclass="void"}
 
 You warp gravity around your heavenly body and can [pull](../movement/forced-movement.md) even the sturdiest titans toward your core. At the end of each of your [turns](../rule/combat/turn.md), you target one creature or object within [distance](../rule/combat/distance.md) of your [Hurl Element](../feature/ability/elementalist/level-1/hurl-element.md) ability and vertical [pull](../movement/forced-movement.md) that target up to 5 squares. If their [stability](../rule/character/stability.md) reduces this [forced movement](../movement/forced-movement.md), they are [pulled](../movement/forced-movement.md) a minimum of 2 squares. This [forced movement](../movement/forced-movement.md) ignores [stability](../rule/character/stability.md) for your allies.
 
 Additionally, your [Mantle of Essence](../feature/elementalist/level-4/mantle-of-essence.md) improves. While in the area of the [aura](../rule/combat/aura.md), enemies and objects have their [stability](../rule/character/stability.md) reduced by an amount equal to your level.
 
-#### Chimeric Manifestation {data-scc="mcdm.heroes.v1/feature.elementalist.level-8/chimeric-manifestation"}
+#### Chimeric Manifestation {data-scc="mcdm.heroes.v1/feature.elementalist.level-8/chimeric-manifestation" data-subclass="green"}
 
 Nature isn't static and unchanging, and neither are you. You can enter or exit your [animal form](../complication/animal-form.md) as a [free maneuver](../rule/combat/free-maneuver.md) the first time you use your [Disciple of the Green](../feature/elementalist/level-2/disciple-of-the-green.md) feature on your [turn](../rule/combat/turn.md).
 
@@ -1215,7 +1215,7 @@ Additionally, whenever you use your [Disciple of the Green](../feature/elemental
 
 You can only combine animal forms whose levels add up to 12 or less. For example, you can combine a shark (8th level) with a horse (4th level), but you can't combine a shark with a bear (5th level).
 
-#### The Flame Primordial {data-scc="mcdm.heroes.v1/feature.elementalist.level-8/the-flame-primordial"}
+#### The Flame Primordial {data-scc="mcdm.heroes.v1/feature.elementalist.level-8/the-flame-primordial" data-subclass="fire"}
 
 You produce a fire that entrances the fates, distracting them from aiding your foes. Whenever you deal fire damage to a creature or object, they take an extra 1d6 fire damage. If you deal fire damage to a mundane object, you can use a free [triggered action](../rule/combat/triggered-action.md) to target it with your [Return to Formlessness](../feature/ability/elementalist/level-1/return-to-formlessness.md) ability instead.
 
@@ -1225,7 +1225,7 @@ Additionally, any enemy who starts their [turn](../rule/combat/turn.md) [adjacen
 
 You have the following ability.
 
-##### Summon Source of Earth {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-8/summon-source-of-earth"}
+##### Summon Source of Earth {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-8/summon-source-of-earth" data-subclass="earth"}
 
 
 *The ground rumbles as an elemental [bursts](../rule/combat/burst.md) forth, ready to serve.*
@@ -1441,19 +1441,19 @@ You become the embodiment of the element of your chosen specialization. Whenever
 | Green          | [Master of Green](../feature/elementalist/level-10/master-of-green.md) |
 | Void           | [Master of Void](../feature/elementalist/level-10/master-of-void.md)  |
 
-#### Master of Earth {data-scc="mcdm.heroes.v1/feature.elementalist.level-10/master-of-earth"}
+#### Master of Earth {data-scc="mcdm.heroes.v1/feature.elementalist.level-10/master-of-earth" data-subclass="earth"}
 
 You have [damage immunity](../rule/damage/damage-immunity.md) 5.
 
 Additionally, as a [respite](../rule/resource/respite.md) activity, you can shape the mundane earth around you in a 1-mile radius. You can open sinkholes, form mountains, level mundane structures or whole settlements, create canyons, raise islands or sink them in the sea, and perform similar feats. You can't use this [respite](../rule/resource/respite.md) activity if another creature within 1 mile is already using it. Once you use this [respite](../rule/resource/respite.md) activity, you can't use it again for 10 days.
 
-#### Master of Fire {data-scc="mcdm.heroes.v1/feature.elementalist.level-10/master-of-fire"}
+#### Master of Fire {data-scc="mcdm.heroes.v1/feature.elementalist.level-10/master-of-fire" data-subclass="fire"}
 
 The damage [bonus](../rule/dice/bonuses-and-penalties.md) of your Acolyte of Fire feature increases to +5 and applies to all your magic abilities.
 
 Additionally, your [Return to Formlessness](../feature/ability/elementalist/level-1/return-to-formlessness.md) ability can be used on [supernatural](../rule/general/supernatural.md) objects (but not on artifacts). When you melt a treasure (see Chapter 13: [Rewards](../chapter/rewards.md)), you gain breath equal to its [echelon](../rule/general/echelon.md).
 
-#### Master of Green {data-scc="mcdm.heroes.v1/feature.elementalist.level-10/master-of-green"}
+#### Master of Green {data-scc="mcdm.heroes.v1/feature.elementalist.level-10/master-of-green" data-subclass="green"}
 
 The number of [Recoveries](../rule/health/recoveries.md) you have increases by 2, and each time you finish a [respite](../rule/resource/respite.md), you can grant each ally who finished the [respite](../rule/resource/respite.md) with you 2 additional [Recoveries](../rule/health/recoveries.md). Your allies' additional [Recoveries](../rule/health/recoveries.md) disappear when they finish their next [respite](../rule/resource/respite.md).
 
@@ -1461,7 +1461,7 @@ Additionally, as a [respite](../rule/resource/respite.md) activity, you can perf
 
 As a maneuver, a creature can consume a Life Fruit or feed it to an [adjacent](../rule/combat/adjacent.md) willing ally. When a creature eats a Life Fruit, they restore all their [Stamina](../rule/health/stamina.md), they can end all [conditions](../rule/combat/condition.md) or effects on themself, and they can stand up if [prone](../condition/prone.md). Additionally, if the creature desires, their aging pauses for 1d10 years. If the creature eats additional Life Fruit and chooses to pause their aging, the effects don't stack. Instead, the creature gains the benefit from the Life Fruit that pauses their aging for the longest time.
 
-#### Master of Void {data-scc="mcdm.heroes.v1/feature.elementalist.level-10/master-of-void"}
+#### Master of Void {data-scc="mcdm.heroes.v1/feature.elementalist.level-10/master-of-void" data-subclass="void"}
 
 Whenever you willingly move, you can [teleport](../movement/teleport.md).
 

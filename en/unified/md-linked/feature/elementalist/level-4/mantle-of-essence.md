@@ -17,18 +17,18 @@ While you have 3 or more essence and are not [dying](../../../rule/health/dying.
 | Green          | [Flowering Bed](flowering-bed.md)   |
 | Void           | [Veiling Bed](veiling-bed.md)     |
 
-## Burning Grounds {data-scc="mcdm.heroes.v1/feature.elementalist.level-4/burning-grounds"}
+## Burning Grounds {data-scc="mcdm.heroes.v1/feature.elementalist.level-4/burning-grounds" data-subclass="fire"}
 
 At the end of each of your [turns](../../../rule/combat/turn.md), each enemy in the area takes fire damage equal to your [Reason](../../../rule/character/reason.md) score.
 
-## Flowering Bed {data-scc="mcdm.heroes.v1/feature.elementalist.level-4/flowering-bed"}
+## Flowering Bed {data-scc="mcdm.heroes.v1/feature.elementalist.level-4/flowering-bed" data-subclass="green"}
 
 At the end of each of your [turns](../../../rule/combat/turn.md), each ally in the area gains [temporary Stamina](../../../rule/health/temporary-stamina.md) equal to your [Reason](../../../rule/character/reason.md) score.
 
-## Quaking Earth {data-scc="mcdm.heroes.v1/feature.elementalist.level-4/quaking-earth"}
+## Quaking Earth {data-scc="mcdm.heroes.v1/feature.elementalist.level-4/quaking-earth" data-subclass="earth"}
 
 At the end of each of your [turns](../../../rule/combat/turn.md), you can [push](../../../movement/forced-movement.md) each enemy in the area up to a number of squares equal to your [Reason](../../../rule/character/reason.md) score.
 
-## Veiling Bed {data-scc="mcdm.heroes.v1/feature.elementalist.level-4/veiling-bed"}
+## Veiling Bed {data-scc="mcdm.heroes.v1/feature.elementalist.level-4/veiling-bed" data-subclass="void"}
 
 The area provides [concealment](../../../rule/combat/concealment.md) for you and your allies.

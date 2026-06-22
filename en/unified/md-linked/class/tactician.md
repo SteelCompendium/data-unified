@@ -103,17 +103,17 @@ Your [tactical doctrine](../feature/tactician/level-1/tactical-doctrine.md) gran
 | Mastermind | [Studied Commander](../feature/tactician/level-1/studied-commander.md)   |
 | Vanguard   | [Commanding Presence](../feature/tactician/level-1/commanding-presence.md) |
 
-#### Commanding Presence {data-scc="mcdm.heroes.v1/feature.tactician.level-1/commanding-presence"}
+#### Commanding Presence {data-scc="mcdm.heroes.v1/feature.tactician.level-1/commanding-presence" data-subclass="vanguard"}
 
 You command any room you walk into. While you are present during a negotiation, each hero with you treats their [Renown](../rule/resource/renown.md) as 2 higher than usual. Additionally, each hero with you during a combat encounter has a double [edge](../rule/dice/edge.md) on [tests](../rule/test/test.md) made to stop combat and start a negotiation.
 
-#### Covert Operations {data-scc="mcdm.heroes.v1/feature.tactician.level-1/covert-operations"}
+#### Covert Operations {data-scc="mcdm.heroes.v1/feature.tactician.level-1/covert-operations" data-subclass="insurgent"}
 
 While in your presence or working according to your plans, each of your allies gains an [edge](../rule/dice/edge.md) on [tests](../rule/test/test.md) using any skill from the [intrigue skill group](../skill/group/intrigue.md). Additionally, you can use the [Lead](../skill/interpersonal/lead.md) skill to assist another creature with any [test](../rule/test/test.md) made using a skill from the [intrigue group](../skill/group/intrigue.md).
 
 At the Director's discretion, you and your allies can use skills from the [intrigue skill group](../skill/group/intrigue.md) to attempt research or reconnaissance during a negotiation instead of outside of a negotiation.
 
-#### Studied Commander {data-scc="mcdm.heroes.v1/feature.tactician.level-1/studied-commander"}
+#### Studied Commander {data-scc="mcdm.heroes.v1/feature.tactician.level-1/studied-commander" data-subclass="mastermind"}
 
 Your encyclopedic knowledge of the history of battle lets you apply that knowledge to current challenges. While you are present, each hero with you treats the Discover Lore project related to a war or battle as one category cheaper. This makes projects seeking common lore free, but such projects still require a [respite](../rule/resource/respite.md) activity to complete. (See Chapter 12: [Downtime Projects](../chapter/downtime-projects.md) for more information.)
 
@@ -143,7 +143,7 @@ Your [tactical doctrine](../feature/tactician/level-1/tactical-doctrine.md) gran
 | Mastermind | [Overwatch](../feature/ability/tactician/level-1/overwatch.md)        |
 | Vanguard   | [Parry](../feature/ability/tactician/level-1/parry.md)            |
 
-##### Advanced Tactics {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-1/advanced-tactics"}
+##### Advanced Tactics {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-1/advanced-tactics" data-subclass="insurgent"}
 
 
 *Your leadership aids an ally.*
@@ -158,7 +158,7 @@ Your [tactical doctrine](../feature/tactician/level-1/tactical-doctrine.md) gran
 
 **Spend 1 Focus:** If the damage has any [potency](../rule/character/potency.md) effect associated with it, the [potency](../rule/character/potency.md) is increased by 1.
 
-##### Overwatch {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-1/overwatch"}
+##### Overwatch {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-1/overwatch" data-subclass="mastermind"}
 
 
 *Under your direction, an ally waits for just the right moment to strike.*
@@ -173,7 +173,7 @@ Your [tactical doctrine](../feature/tactician/level-1/tactical-doctrine.md) gran
 
 **Spend 1 Focus:** If the target has R < AVERAGE, they are [slowed](../condition/slowed.md) ([EoT](../rule/combat/end-of-turn.md)).
 
-##### Parry {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-1/parry"}
+##### Parry {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-1/parry" data-subclass="vanguard"}
 
 
 *Your quick reflexes cost an enemy the precision they seek.*
@@ -404,15 +404,15 @@ Your [tactical doctrine](../feature/tactician/level-1/tactical-doctrine.md) gran
 | Mastermind                  | Goaded               |
 | Vanguard                    | [Melee Superiority](../feature/tactician/level-2/melee-superiority.md)    |
 
-#### Goaded {data-scc="mcdm.heroes.v1/feature.tactician.level-2/goaded"}
+#### Goaded {data-scc="mcdm.heroes.v1/feature.tactician.level-2/goaded" data-subclass="mastermind"}
 
 You have learned to leverage your marked foes' psychology and goad them into acting before they're tactically ready. Whenever a creature marked by you uses a [strike](../rule/combat/strike.md) that targets you or any ally within your [line of effect](../rule/combat/line-of-effect.md), you can use a free [triggered action](../rule/combat/triggered-action.md) to change one target of the [strike](../rule/combat/strike.md) to you or another ally within your [line of effect](../rule/combat/line-of-effect.md). The new target must be within [distance](../rule/combat/distance.md) of the ability and within [line of effect](../rule/combat/line-of-effect.md) of the creature using it.
 
-#### Infiltration Tactics {data-scc="mcdm.heroes.v1/feature.tactician.level-2/infiltration-tactics"}
+#### Infiltration Tactics {data-scc="mcdm.heroes.v1/feature.tactician.level-2/infiltration-tactics" data-subclass="insurgent"}
 
 You have trained your squad to work together, stay silent, and wait for the opportune time to strike. Whenever you or any ally within 10 squares of you becomes hidden, that creature gains 1 [surge](../rule/resource/surge.md).
 
-#### Melee Superiority {data-scc="mcdm.heroes.v1/feature.tactician.level-2/melee-superiority"}
+#### Melee Superiority {data-scc="mcdm.heroes.v1/feature.tactician.level-2/melee-superiority" data-subclass="vanguard"}
 
 After constant drills, you can more accurately anticipate an enemy's plan and thwart their attempts to move across the battlefield. Whenever you make an [opportunity attack](../rule/combat/opportunity-attack.md), the target's [speed](../rule/character/speed.md) is reduced to 0 until the end of the current [turn](../rule/combat/turn.md).
 
@@ -426,7 +426,7 @@ Your [tactical doctrine](../feature/tactician/level-1/tactical-doctrine.md) gran
 
 Choose one of the following abilities.
 
-##### Fog of War {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-2/fog-of-war" data-cost="5 Focus"}
+##### Fog of War {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-2/fog-of-war" data-cost="5 Focus" data-subclass="insurgent"}
 
 
 *Your unorthodox strategy causes enemies to lash out in fear, heedless of who they might be attacking.*
@@ -439,7 +439,7 @@ Choose one of the following abilities.
 
 **Mark Benefit:** Until the end of the encounter, whenever you or any ally makes a [strike](../rule/combat/strike.md) against a creature marked by you, you can spend 2 focus to force that target to make a [free strike](../feature/common/main-actions/free-strike.md) against a creature of your choice within 5 squares of them.
 
-##### Try Me Instead {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-2/try-me-instead" data-cost="5 Focus"}
+##### Try Me Instead {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-2/try-me-instead" data-cost="5 Focus" data-subclass="insurgent"}
 
 
 *"Try picking on someone my [size](../rule/character/size.md)."*
@@ -460,7 +460,7 @@ Choose one of the following abilities.
 
 Choose one of the following abilities.
 
-##### I've Got Your Back {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-2/ive-got-your-back" data-cost="5 Focus"}
+##### I've Got Your Back {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-2/ive-got-your-back" data-cost="5 Focus" data-subclass="mastermind"}
 
 
 *Your enemy will think twice about attacking your friend.*
@@ -477,7 +477,7 @@ Choose one of the following abilities.
 
 **Effect:** One ally [adjacent](../rule/combat/adjacent.md) to the target can spend a [Recovery](../rule/health/recoveries.md).
 
-##### Targets of Opportunity {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-2/targets-of-opportunity" data-cost="5 Focus"}
+##### Targets of Opportunity {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-2/targets-of-opportunity" data-cost="5 Focus" data-subclass="mastermind"}
 
 
 *You point out easy targets to your friends, allowing them to include more enemies in their attacks.*
@@ -494,7 +494,7 @@ Choose one of the following abilities.
 
 Choose one of the following abilities.
 
-##### No Dying on My Watch {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-2/no-dying-on-my-watch" data-cost="5 Focus"}
+##### No Dying on My Watch {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-2/no-dying-on-my-watch" data-cost="5 Focus" data-subclass="vanguard"}
 
 
 *You prioritize saving an ally over your own safety.*
@@ -513,7 +513,7 @@ Choose one of the following abilities.
 - **12-16:** R < AVERAGE, the target is [frightened](../condition/frightened.md) of the triggering ally (save ends)
 - **17+:** R < STRONG, the target is [frightened](../condition/frightened.md) of the triggering ally (save ends)
 
-##### Squad! On Me! {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-2/squad-on-me" data-cost="5 Focus"}
+##### Squad! On Me! {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-2/squad-on-me" data-cost="5 Focus" data-subclass="vanguard"}
 
 
 *Together we are invincible!*
@@ -620,27 +620,27 @@ Your [tactical doctrine](../feature/tactician/level-1/tactical-doctrine.md) gran
 | Mastermind | [Anticipation](../feature/tactician/level-5/anticipation.md), [I Predicted That](../feature/tactician/level-5/i-predicted-that.md)   |
 | Vanguard   | [Shake It Off](../feature/tactician/level-5/shake-it-off.md), [Tactical Offensive](../feature/tactician/level-5/tactical-offensive.md) |
 
-#### Anticipation {data-scc="mcdm.heroes.v1/feature.tactician.level-5/anticipation"}
+#### Anticipation {data-scc="mcdm.heroes.v1/feature.tactician.level-5/anticipation" data-subclass="mastermind"}
 
 You have learned to be more preemptive on the battlefield, thinking more steps ahead than your opponents. You can target two creatures with your Mark ability.
 
-#### Distracted {data-scc="mcdm.heroes.v1/feature.tactician.level-5/distracted"}
+#### Distracted {data-scc="mcdm.heroes.v1/feature.tactician.level-5/distracted" data-subclass="insurgent"}
 
 You have mastered the ability to distract your foes, allowing you and your allies to take advantage of their gaps in attention. Whenever you or any ally attempts to hide, any creature marked by you doesn't count as an observer. Additionally, you and your allies can use other allies as [cover](../rule/combat/cover.md) for the purpose of hiding.
 
-#### I Predicted That {data-scc="mcdm.heroes.v1/feature.tactician.level-5/i-predicted-that"}
+#### I Predicted That {data-scc="mcdm.heroes.v1/feature.tactician.level-5/i-predicted-that" data-subclass="mastermind"}
 
 Your expertise in history and lore allows you and your allies to outthink rivals in the present day. You and any ally within 10 squares of you gain an [edge](../rule/dice/edge.md) on [Reason](../rule/character/reason.md) [tests](../rule/test/test.md).
 
-#### Leave No Trace {data-scc="mcdm.heroes.v1/feature.tactician.level-5/leave-no-trace"}
+#### Leave No Trace {data-scc="mcdm.heroes.v1/feature.tactician.level-5/leave-no-trace" data-subclass="insurgent"}
 
 You and any ally within 10 squares of you can move at full [speed](../rule/character/speed.md) while sneaking. Additionally, enemies within 10 squares of you take a [bane](../rule/dice/bane.md) on [tests](../rule/test/test.md) made to search for you or your allies while any of you are hidden.
 
-#### Shake It Off {data-scc="mcdm.heroes.v1/feature.tactician.level-5/shake-it-off"}
+#### Shake It Off {data-scc="mcdm.heroes.v1/feature.tactician.level-5/shake-it-off" data-subclass="vanguard"}
 
 As a [free maneuver](../rule/combat/free-maneuver.md), you can spend 1d6 [Stamina](../rule/health/stamina.md) to ignore a consequence from a [test](../rule/test/test.md), or to end one effect on you that is ended by a [saving throw](../rule/general/saving-throw.md) or that ends at the end of your [turn](../rule/combat/turn.md). Any ally [adjacent](../rule/combat/adjacent.md) to you can also spend [Stamina](../rule/health/stamina.md) as a [free maneuver](../rule/combat/free-maneuver.md) to gain this benefit.
 
-#### Tactical Offensive {data-scc="mcdm.heroes.v1/feature.tactician.level-5/tactical-offensive"}
+#### Tactical Offensive {data-scc="mcdm.heroes.v1/feature.tactician.level-5/tactical-offensive" data-subclass="vanguard"}
 
 When you use the [Charge](../feature/common/main-actions/charge.md) main action to attack a creature marked by you, you can use a signature or [heroic ability](../rule/general/heroic-ability.md) with the [Melee](../rule/combat/melee.md) and Strike keywords instead of a [melee](../rule/combat/melee.md) [free strike](../feature/common/main-actions/free-strike.md).
 
@@ -718,7 +718,7 @@ Your [tactical doctrine](../feature/tactician/level-1/tactical-doctrine.md) gran
 
 Choose one of the following abilities.
 
-##### Coordinated Execution {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-6/coordinated-execution" data-cost="9 Focus"}
+##### Coordinated Execution {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-6/coordinated-execution" data-cost="9 Focus" data-subclass="insurgent"}
 
 
 *You direct your ally to make a killing blow.*
@@ -731,7 +731,7 @@ Choose one of the following abilities.
 
 **Effect:** If the target of the triggering ability is not a leader or solo creature, they are reduced to 0 [Stamina](../rule/health/stamina.md). If the target of the triggering ability is a minion, the entire squad is killed. If the target of the triggering ability is a leader or solo creature, the triggering ability's [power roll](../rule/dice/power-roll.md) automatically obtains a tier 3 outcome.
 
-##### Panic in Their Lines {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-6/panic-in-their-lines" data-cost="9 Focus"}
+##### Panic in Their Lines {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-6/panic-in-their-lines" data-cost="9 Focus" data-subclass="insurgent"}
 
 
 *You confuse your foes, causing them to turn on each other.*
@@ -752,7 +752,7 @@ Choose one of the following abilities.
 
 Choose one of the following abilities.
 
-##### Battle Plan {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-6/battle-plan" data-cost="9 Focus"}
+##### Battle Plan {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-6/battle-plan" data-cost="9 Focus" data-subclass="mastermind"}
 
 
 *With new understanding of your foes, you create the perfect plan to win the battle.*
@@ -765,7 +765,7 @@ Choose one of the following abilities.
 
 **Mark Benefit:** Until the end of the encounter, whenever you or any ally makes a [strike](../rule/combat/strike.md) against a creature marked by you, you can spend 2 focus to make the [strike](../rule/combat/strike.md) ignore [damage immunity](../rule/damage/damage-immunity.md) and deal extra damage equal to three times your [Reason](../rule/character/reason.md) score.
 
-##### Hustle! {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-6/hustle" data-cost="9 Focus"}
+##### Hustle! {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-6/hustle" data-cost="9 Focus" data-subclass="mastermind"}
 
 
 *You and your allies coordinate to form a new battle line.*
@@ -780,7 +780,7 @@ Choose one of the following abilities.
 
 Choose one of the following abilities.
 
-##### Instant Retaliation {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-6/instant-retaliation" data-cost="9 Focus"}
+##### Instant Retaliation {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-6/instant-retaliation" data-cost="9 Focus" data-subclass="vanguard"}
 
 
 *You [parry](../feature/ability/tactician/level-1/parry.md) with almost [supernatural](../rule/general/supernatural.md) [speed](../rule/character/speed.md).*
@@ -799,7 +799,7 @@ Choose one of the following abilities.
 - **12-16:** A < AVERAGE, [dazed](../condition/dazed.md) (save ends)
 - **17+:** A < STRONG, [dazed](../condition/dazed.md) (save ends)
 
-##### To Me Squad! {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-6/to-me-squad" data-cost="9 Focus"}
+##### To Me Squad! {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-6/to-me-squad" data-cost="9 Focus" data-subclass="vanguard"}
 
 
 *You lead your allies in a charge.*
@@ -848,15 +848,15 @@ Your [tactical doctrine](../feature/tactician/level-1/tactical-doctrine.md) gran
 | Mastermind | [Grand Strategy](../feature/tactician/level-7/grand-strategy.md)     |
 | Vanguard   | [Shock and Awe](../feature/tactician/level-7/shock-and-awe.md)      |
 
-#### Asymmetric Warfare {data-scc="mcdm.heroes.v1/feature.tactician.level-7/asymmetric-warfare"}
+#### Asymmetric Warfare {data-scc="mcdm.heroes.v1/feature.tactician.level-7/asymmetric-warfare" data-subclass="insurgent"}
 
 You have advanced your skills in subterfuge, now directing full battlefield strategy and logistics. During a [montage test](../rule/test/montage-test.md) or negotiation, you can obtain one automatic success on a [test](../rule/test/test.md) made using a skill from the [intrigue skill group](../skill/group/intrigue.md). Additionally, you can use skills from the [intrigue skill group](../skill/group/intrigue.md) to conceal large groups of people, such as escaping civilians and groups of guerilla warriors.
 
-#### Grand Strategy {data-scc="mcdm.heroes.v1/feature.tactician.level-7/grand-strategy"}
+#### Grand Strategy {data-scc="mcdm.heroes.v1/feature.tactician.level-7/grand-strategy" data-subclass="mastermind"}
 
 You have grown your skills in strategy, wielding intricate battlefield tactics and plans. During a [montage test](../rule/test/montage-test.md) or negotiation, you can obtain one automatic success on a [test](../rule/test/test.md) made using a skill from the [lore skill group](../skill/group/lore.md). Additionally, when you take a [respite](../rule/resource/respite.md), you can make a [project roll](../rule/downtime/project-roll.md) for a [research project](../rule/downtime/research-project.md) in addition to undertaking another [respite](../rule/resource/respite.md) activity.
 
-#### Shock and Awe {data-scc="mcdm.heroes.v1/feature.tactician.level-7/shock-and-awe"}
+#### Shock and Awe {data-scc="mcdm.heroes.v1/feature.tactician.level-7/shock-and-awe" data-subclass="vanguard"}
 
 You have expanded your leadership skills, strengthening your [followers](../rule/general/follower.md)' morale and providing logistical support. During a [montage test](../rule/test/montage-test.md) or negotiation, you can obtain one automatic success on a [test](../rule/test/test.md) made using a skill from the [interpersonal skill group](../skill/group/interpersonal.md). Additionally, you can convince a group of people to help you with a [crafting project](../rule/downtime/crafting-project.md) during a [respite](../rule/resource/respite.md). If these people are available when you take a [respite](../rule/resource/respite.md), you can make a [project roll](../rule/downtime/project-roll.md) for a [crafting project](../rule/downtime/crafting-project.md) in addition to undertaking another [respite](../rule/resource/respite.md) activity.
 
@@ -880,19 +880,19 @@ Your [tactical doctrine](../feature/tactician/level-1/tactical-doctrine.md) gran
 | Mastermind | [Pincer Movement](../feature/tactician/level-8/pincer-movement.md)                    |
 | Vanguard   | [See Your Enemies Driven Before You](../feature/tactician/level-8/see-your-enemies-driven-before-you.md) |
 
-#### Bait and Ambush {data-scc="mcdm.heroes.v1/feature.tactician.level-8/bait-and-ambush"}
+#### Bait and Ambush {data-scc="mcdm.heroes.v1/feature.tactician.level-8/bait-and-ambush" data-subclass="insurgent"}
 
 You have trained your squad to be silent ambushers.
 
 **Mark Benefit:** When you or any ally makes a [strike](../rule/combat/strike.md) against a creature marked by you, you can spend 2 focus to let the character making the [strike](../rule/combat/strike.md) [shift](../movement/shifting.md) up to a number of squares equal to your [Reason](../rule/character/reason.md) score and use the [Hide](../feature/common/maneuvers/hide.md) maneuver as a [free maneuver](../rule/combat/free-maneuver.md) once during the [shift](../movement/shifting.md). The creature can [shift](../movement/shifting.md) before or after the [strike](../rule/combat/strike.md) is resolved.
 
-#### Pincer Movement {data-scc="mcdm.heroes.v1/feature.tactician.level-8/pincer-movement"}
+#### Pincer Movement {data-scc="mcdm.heroes.v1/feature.tactician.level-8/pincer-movement" data-subclass="mastermind"}
 
 You have trained your squad to coordinate their movements to maximize combat impact.
 
 **Mark Benefit:** When you or any ally makes a [strike](../rule/combat/strike.md) against a creature marked by you, you can spend 2 focus to have the character making the [strike](../rule/combat/strike.md) [shift](../movement/shifting.md) up to a number of squares equal to your [Reason](../rule/character/reason.md) score before the [strike](../rule/combat/strike.md) is resolved. If you didn't make the [strike](../rule/combat/strike.md), you can make this [shift](../movement/shifting.md) as well. If you did make the [strike](../rule/combat/strike.md), one ally within 10 squares of you can make this [shift](../movement/shifting.md) as well.
 
-#### See Your Enemies Driven Before You {data-scc="mcdm.heroes.v1/feature.tactician.level-8/see-your-enemies-driven-before-you"}
+#### See Your Enemies Driven Before You {data-scc="mcdm.heroes.v1/feature.tactician.level-8/see-your-enemies-driven-before-you" data-subclass="vanguard"}
 
 You have trained your squad to maximize impact and break enemy lines when they attack.
 
@@ -970,7 +970,7 @@ Your [tactical doctrine](../feature/tactician/level-1/tactical-doctrine.md) gran
 
 Choose one of the following abilities.
 
-##### Squad! Hit and Run! {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-9/squad-hit-and-run" data-cost="11 Focus"}
+##### Squad! Hit and Run! {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-9/squad-hit-and-run" data-cost="11 Focus" data-subclass="insurgent"}
 
 
 *I had to pry this secret from the [shadow college](../feature/shadow/level-1/shadow-college.md)s.*
@@ -981,7 +981,7 @@ Choose one of the following abilities.
 
 **Effect:** Each target gains 2 [surges](../rule/resource/surge.md), and can use a free [triggered action](../rule/combat/triggered-action.md) to use a [signature ability](../rule/combat/signature-ability.md) that gains an [edge](../rule/dice/edge.md). After resolving their ability, each target can [shift](../movement/shifting.md) up to 2 squares and become hidden even if they have no [cover](../rule/combat/cover.md) or [concealment](../rule/combat/concealment.md), or if they are observed.
 
-##### Their Lack of Focus Is Their Undoing {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-9/their-lack-of-focus-is-their-undoing" data-cost="11 Focus"}
+##### Their Lack of Focus Is Their Undoing {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-9/their-lack-of-focus-is-their-undoing" data-cost="11 Focus" data-subclass="insurgent"}
 
 
 *You trick your enemies into attacking each other and leave them confused by the aftermath.*
@@ -1002,7 +1002,7 @@ Choose one of the following abilities.
 
 Choose one of the following abilities.
 
-##### Blot Out the Sun! {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-9/blot-out-the-sun" data-cost="11 Focus"}
+##### Blot Out the Sun! {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-9/blot-out-the-sun" data-cost="11 Focus" data-subclass="mastermind"}
 
 
 *What makes a good soldier? The ability to fire four shots a minute in any weather.*
@@ -1013,7 +1013,7 @@ Choose one of the following abilities.
 
 **Effect:** Each target can make a [ranged](../rule/combat/ranged.md) [free strike](../feature/common/main-actions/free-strike.md) that gains an [edge](../rule/dice/edge.md) against any enemy marked by you within [distance](../rule/combat/distance.md) of their [ranged](../rule/combat/ranged.md) [free strike](../feature/common/main-actions/free-strike.md). A target ignores [banes](../rule/dice/bane.md) and double [banes](../rule/dice/bane.md) when making this [strike](../rule/combat/strike.md).
 
-##### Counterstrategy {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-9/counterstrategy" data-cost="11 Focus"}
+##### Counterstrategy {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-9/counterstrategy" data-cost="11 Focus" data-subclass="mastermind"}
 
 
 *I've identified a way to negate their strengths.*
@@ -1028,7 +1028,7 @@ Choose one of the following abilities.
 
 Choose one of the following abilities.
 
-##### No Escape {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-9/no-escape" data-cost="11 Focus"}
+##### No Escape {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-9/no-escape" data-cost="11 Focus" data-subclass="vanguard"}
 
 
 *Nothing will stop you from reaching your foe.*
@@ -1047,7 +1047,7 @@ Choose one of the following abilities.
 
 **Effect:** If you use this ability as part of the [Charge](../feature/common/main-actions/charge.md) main action, enemies' spaces don't count as [difficult terrain](../movement/difficult-terrain.md) for your movement. Additionally, if you move through any creature's space, you can [slide](../movement/forced-movement.md) that creature 1 square out of the path of your charge.
 
-##### That One Is Mine! {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-9/that-one-is-mine" data-cost="11 Focus"}
+##### That One Is Mine! {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-9/that-one-is-mine" data-cost="11 Focus" data-subclass="vanguard"}
 
 
 *You focus on making an enemy irrelevant.*

@@ -33,7 +33,7 @@ Your divine presence causes those you deem worthy to recover quickly from a figh
 
 You have the following ability.
 
-### Blessing of Secrets {data-scc="mcdm.heroes.v1/feature.ability.conduit.level-4/blessing-of-secrets"}
+### Blessing of Secrets {data-scc="mcdm.heroes.v1/feature.ability.conduit.level-4/blessing-of-secrets" data-subclass="trickery"}
 
 
 *You project an illusory [aura](../../../rule/combat/aura.md) that makes you and allies harder to notice.*

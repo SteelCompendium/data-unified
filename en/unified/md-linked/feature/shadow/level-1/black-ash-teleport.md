@@ -8,7 +8,7 @@ type: feature
 
 You have the following ability.
 
-## Black Ash Teleport {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-1/black-ash-teleport"}
+## Black Ash Teleport {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-1/black-ash-teleport" data-subclass="black-ash"}
 
 
 *In a swirl of black ash, you step from one place to another.*

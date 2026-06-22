@@ -17,13 +17,13 @@ Your [elemental specialization](../level-1/elemental-specialization.md) grants y
 | Green          | [Chimeric Manifestation](chimeric-manifestation.md) |
 | Void           | [Black Hole Star](black-hole-star.md)        |
 
-## Black Hole Star {data-scc="mcdm.heroes.v1/feature.elementalist.level-8/black-hole-star"}
+## Black Hole Star {data-scc="mcdm.heroes.v1/feature.elementalist.level-8/black-hole-star" data-subclass="void"}
 
 You warp gravity around your heavenly body and can [pull](../../../movement/forced-movement.md) even the sturdiest titans toward your core. At the end of each of your [turns](../../../rule/combat/turn.md), you target one creature or object within [distance](../../../rule/combat/distance.md) of your [Hurl Element](../../ability/elementalist/level-1/hurl-element.md) ability and vertical [pull](../../../movement/forced-movement.md) that target up to 5 squares. If their [stability](../../../rule/character/stability.md) reduces this [forced movement](../../../movement/forced-movement.md), they are [pulled](../../../movement/forced-movement.md) a minimum of 2 squares. This [forced movement](../../../movement/forced-movement.md) ignores [stability](../../../rule/character/stability.md) for your allies.
 
 Additionally, your [Mantle of Essence](../level-4/mantle-of-essence.md) improves. While in the area of the [aura](../../../rule/combat/aura.md), enemies and objects have their [stability](../../../rule/character/stability.md) reduced by an amount equal to your level.
 
-## Chimeric Manifestation {data-scc="mcdm.heroes.v1/feature.elementalist.level-8/chimeric-manifestation"}
+## Chimeric Manifestation {data-scc="mcdm.heroes.v1/feature.elementalist.level-8/chimeric-manifestation" data-subclass="green"}
 
 Nature isn't static and unchanging, and neither are you. You can enter or exit your [animal form](../../../complication/animal-form.md) as a [free maneuver](../../../rule/combat/free-maneuver.md) the first time you use your [Disciple of the Green](../level-2/disciple-of-the-green.md) feature on your [turn](../../../rule/combat/turn.md).
 
@@ -31,7 +31,7 @@ Additionally, whenever you use your [Disciple of the Green](../level-2/disciple-
 
 You can only combine animal forms whose levels add up to 12 or less. For example, you can combine a shark (8th level) with a horse (4th level), but you can't combine a shark with a bear (5th level).
 
-## The Flame Primordial {data-scc="mcdm.heroes.v1/feature.elementalist.level-8/the-flame-primordial"}
+## The Flame Primordial {data-scc="mcdm.heroes.v1/feature.elementalist.level-8/the-flame-primordial" data-subclass="fire"}
 
 You produce a fire that entrances the fates, distracting them from aiding your foes. Whenever you deal fire damage to a creature or object, they take an extra 1d6 fire damage. If you deal fire damage to a mundane object, you can use a free [triggered action](../../../rule/combat/triggered-action.md) to target it with your [Return to Formlessness](../../ability/elementalist/level-1/return-to-formlessness.md) ability instead.
 
@@ -41,7 +41,7 @@ Additionally, any enemy who starts their [turn](../../../rule/combat/turn.md) [a
 
 You have the following ability.
 
-### Summon Source of Earth {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-8/summon-source-of-earth"}
+### Summon Source of Earth {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-8/summon-source-of-earth" data-subclass="earth"}
 
 
 *The ground rumbles as an elemental [bursts](../../../rule/combat/burst.md) forth, ready to serve.*

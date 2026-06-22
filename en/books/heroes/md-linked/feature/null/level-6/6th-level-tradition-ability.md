@@ -12,7 +12,7 @@ Your [null tradition](../level-1/null-tradition.md) grants your choice of one of
 
 Choose one of the following abilities.
 
-### Interphase {data-scc="mcdm.heroes.v1/feature.ability.null.level-6/interphase" data-cost="9 Discipline"}
+### Interphase {data-scc="mcdm.heroes.v1/feature.ability.null.level-6/interphase" data-cost="9 Discipline" data-subclass="chronokinetic"}
 
 
 *You slip into a faster timestream to act more quickly.*
@@ -23,7 +23,7 @@ Choose one of the following abilities.
 
 **Effect:** You can use up to three [signature abilities](../../../rule/combat/signature-ability.md), each of which gains an [edge](../../../rule/dice/edge.md).
 
-### Phase Step {data-scc="mcdm.heroes.v1/feature.ability.null.level-6/phase-step" data-cost="9 Discipline"}
+### Phase Step {data-scc="mcdm.heroes.v1/feature.ability.null.level-6/phase-step" data-cost="9 Discipline" data-subclass="chronokinetic"}
 
 
 *You weaken your connection to this manifold, allowing you to move through and damage enemies.*
@@ -44,7 +44,7 @@ Choose one of the following abilities.
 
 Choose one of the following abilities.
 
-### Ice Pillars {data-scc="mcdm.heroes.v1/feature.ability.null.level-6/ice-pillars" data-cost="9 Discipline"}
+### Ice Pillars {data-scc="mcdm.heroes.v1/feature.ability.null.level-6/ice-pillars" data-cost="9 Discipline" data-subclass="cryokinetic"}
 
 
 *Pillars of ice erupt from the ground and launch your foes into the air.*
@@ -61,7 +61,7 @@ Choose one of the following abilities.
 
 **Effect:** The pillars vanish as soon as the effects of the [forced movement](../../../movement/forced-movement.md) are resolved.
 
-### Wall of Ice {data-scc="mcdm.heroes.v1/feature.ability.null.level-6/wall-of-ice" data-cost="9 Discipline"}
+### Wall of Ice {data-scc="mcdm.heroes.v1/feature.ability.null.level-6/wall-of-ice" data-cost="9 Discipline" data-subclass="cryokinetic"}
 
 
 *You create a [wall of ice](../../ability/null/level-6/wall-of-ice.md).*
@@ -76,7 +76,7 @@ Choose one of the following abilities.
 
 Choose one of the following abilities.
 
-### Gravitic Charge {data-scc="mcdm.heroes.v1/feature.ability.null.level-6/gravitic-charge" data-cost="9 Discipline"}
+### Gravitic Charge {data-scc="mcdm.heroes.v1/feature.ability.null.level-6/gravitic-charge" data-cost="9 Discipline" data-subclass="metakinetic"}
 
 
 *You channel your discipline into momentum that defies gravity.*
@@ -93,7 +93,7 @@ Choose one of the following abilities.
 
 **Effect:** This movement ignores [stability](../../../rule/character/stability.md). If you [slide](../../../movement/forced-movement.md) into another creature, you resolve damage to both of you as if your [force move](../../../movement/forced-movement.md)ment had ended, but you keep moving through that creature's space.
 
-### Iron Body {data-scc="mcdm.heroes.v1/feature.ability.null.level-6/iron-body" data-cost="9 Discipline"}
+### Iron Body {data-scc="mcdm.heroes.v1/feature.ability.null.level-6/iron-body" data-cost="9 Discipline" data-subclass="metakinetic"}
 
 
 *You focus until your body becomes as hard as iron.*

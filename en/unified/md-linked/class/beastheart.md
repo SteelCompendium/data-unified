@@ -737,7 +737,7 @@ Your wild nature grants you a maneuver, as shown on the Wild Nature Maneuvers ta
 | Punisher    | [Avalanche Rush](../feature/ability/beastheart/level-1/avalanche-rush.md)       |
 | Spark       | [Jaws of the Storm](../feature/ability/beastheart/level-1/jaws-of-the-storm.md) |
 
-#### Avalanche Rush {data-scc="mcdm.beastheart.v1/feature.ability.beastheart.level-1/avalanche-rush"}
+#### Avalanche Rush {data-scc="mcdm.beastheart.v1/feature.ability.beastheart.level-1/avalanche-rush" data-subclass="punisher"}
 
 *You ride a cascade of ice over your foes.*
 
@@ -751,7 +751,7 @@ You can move up to 3 squares before and after you use this ability. During this 
 
 **Spend 1 Ferocity:** If the target has M < STRONG, they are knocked [prone](../condition/prone.md).
 
-#### Jaws of the Storm {data-scc="mcdm.beastheart.v1/feature.ability.beastheart.level-1/jaws-of-the-storm"}
+#### Jaws of the Storm {data-scc="mcdm.beastheart.v1/feature.ability.beastheart.level-1/jaws-of-the-storm" data-subclass="spark"}
 
 *Your foes are torn by a tempest of primordial teeth and claws.*
 
@@ -763,7 +763,7 @@ You can move up to 3 squares before and after you use this ability. During this 
 
 **Spend 1 Ferocity:** The size of the cube increases by 1.
 
-#### Lightning Leap {data-scc="mcdm.beastheart.v1/feature.ability.beastheart.level-1/lightning-leap"}
+#### Lightning Leap {data-scc="mcdm.beastheart.v1/feature.ability.beastheart.level-1/lightning-leap" data-subclass="prowler"}
 
 *You summon a lightning bolt and ride it into battle.*
 
@@ -775,7 +775,7 @@ You can move up to 3 squares before and after you use this ability. During this 
 
 **Spend 1 Ferocity:** Your jump doesn't provoke opportunity attacks.
 
-#### Living Arrow {data-scc="mcdm.beastheart.v1/feature.ability.beastheart.level-1/living-arrow"}
+#### Living Arrow {data-scc="mcdm.beastheart.v1/feature.ability.beastheart.level-1/living-arrow" data-subclass="guardian"}
 
 *You point, and your companion appears.*
 
@@ -798,7 +798,7 @@ Your wild nature grants you a triggered action, as shown on the Wild Nature Trig
 | Punisher    | [Thunderclap](../feature/ability/beastheart/level-1/thunderclap.md)               |
 | Spark       | [Pyre](../feature/ability/beastheart/level-1/pyre.md)                             |
 
-#### Pyre {data-scc="mcdm.beastheart.v1/feature.ability.beastheart.level-1/pyre"}
+#### Pyre {data-scc="mcdm.beastheart.v1/feature.ability.beastheart.level-1/pyre" data-subclass="spark"}
 
 *You burn to ash before your foes' eyes.*
 
@@ -812,7 +812,7 @@ Your wild nature grants you a triggered action, as shown on the Wild Nature Trig
 
 **Spend 1 Ferocity:** When you [teleport](../movement/teleport.md) this way, each enemy adjacent to your original space takes lightning or fire damage (your choice) equal to your Intuition score.
 
-#### Shadow in the Mist {data-scc="mcdm.beastheart.v1/feature.ability.beastheart.level-1/shadow-in-the-mist"}
+#### Shadow in the Mist {data-scc="mcdm.beastheart.v1/feature.ability.beastheart.level-1/shadow-in-the-mist" data-subclass="prowler"}
 
 *While everyone's eyes are drawn to your foe, you wreathe yourself in obscuring mist.*
 
@@ -826,7 +826,7 @@ Your wild nature grants you a triggered action, as shown on the Wild Nature Trig
 
 **Spend 1 Ferocity:** You can move up to a number of squares equal to twice your Intuition score and ignore [difficult terrain](../movement/difficult-terrain.md) during this movement.
 
-#### The Pack Defends {data-scc="mcdm.beastheart.v1/feature.ability.beastheart.level-1/the-pack-defends"}
+#### The Pack Defends {data-scc="mcdm.beastheart.v1/feature.ability.beastheart.level-1/the-pack-defends" data-subclass="guardian"}
 
 *You siphon away the pain and endure it yourself.*
 
@@ -840,7 +840,7 @@ Your wild nature grants you a triggered action, as shown on the Wild Nature Trig
 
 **Spend 1 Ferocity:** You spend a Recovery without regaining Stamina, and the target regains Stamina equal to your recovery value.
 
-#### Thunderclap {data-scc="mcdm.beastheart.v1/feature.ability.beastheart.level-1/thunderclap"}
+#### Thunderclap {data-scc="mcdm.beastheart.v1/feature.ability.beastheart.level-1/thunderclap" data-subclass="punisher"}
 
 *The force of your counterattack cracks the air.*
 
@@ -1110,19 +1110,19 @@ Your wild nature grants you a feature, as shown on the 2nd-Level Wild Nature Fea
 | Punisher | [This One’s Yours](../feature/beastheart/level-2/this-ones-yours.md) |
 | Spark | [Stormheart](../feature/beastheart/level-2/stormheart.md) |
 
-#### Stormheart {data-scc="mcdm.beastheart.v1/feature.beastheart.level-2/stormheart"}
+#### Stormheart {data-scc="mcdm.beastheart.v1/feature.beastheart.level-2/stormheart" data-subclass="spark"}
 
 Whenever you or your companion deals cold, fire, lightning, sonic, or untyped damage, you can change the damage type to cold, fire, lightning, or sonic damage.
 
-#### Supersniffer {data-scc="mcdm.beastheart.v1/feature.beastheart.level-2/supersniffer"}
+#### Supersniffer {data-scc="mcdm.beastheart.v1/feature.beastheart.level-2/supersniffer" data-subclass="prowler"}
 
 While a creature is adjacent to your companion, that creature can't be hidden or have concealment from your companion.
 
-#### This One's Yours {data-scc="mcdm.beastheart.v1/feature.beastheart.level-2/this-ones-yours"}
+#### This One's Yours {data-scc="mcdm.beastheart.v1/feature.beastheart.level-2/this-ones-yours" data-subclass="punisher"}
 
 Once per turn, you or your companion can use the following free triggered action.
 
-##### This One's Yours {data-scc="mcdm.beastheart.v1/feature.ability.beastheart.level-2/this-ones-yours"}
+##### This One's Yours {data-scc="mcdm.beastheart.v1/feature.ability.beastheart.level-2/this-ones-yours" data-subclass="punisher"}
 
 When someone is pushed into you, you reach out to steady an ally or send a foe careening off in another direction.
 
@@ -1132,7 +1132,7 @@ When someone is pushed into you, you reach out to steady an ally or send a foe c
 
 **Spend 1 Ferocity:** You and your companions can each use this free triggered action on the same turn.
 
-#### Watchdog {data-scc="mcdm.beastheart.v1/feature.beastheart.level-2/watchdog"}
+#### Watchdog {data-scc="mcdm.beastheart.v1/feature.beastheart.level-2/watchdog" data-subclass="guardian"}
 
 You and your companion can't be surprised.
 
@@ -1144,7 +1144,7 @@ Your wild nature grants your choice of one of two heroic abilities.
 
 Choose one of the following abilities.
 
-#### Fetch! {data-scc="mcdm.beastheart.v1/feature.ability.beastheart.level-2/fetch"}
+#### Fetch! {data-scc="mcdm.beastheart.v1/feature.ability.beastheart.level-2/fetch" data-subclass="guardian"}
 
 *Your companion blinks out of existence, returning with a visitor you were particularly hoping to meet.*
 
@@ -1162,7 +1162,7 @@ Choose one of the following abilities.
 
 After making the power roll, your companion can teleport with a [grabbed](../condition/grabbed.md) creature or held object, provided the creature or object can fit in the destination. You choose which squares adjacent to your companion the [grabbed](../condition/grabbed.md) creature or held object is teleported to.
 
-#### Omnomnom {data-scc="mcdm.beastheart.v1/feature.ability.beastheart.level-2/omnomnom"}
+#### Omnomnom {data-scc="mcdm.beastheart.v1/feature.ability.beastheart.level-2/omnomnom" data-subclass="guardian"}
 
 *What do you have in your mouth? No! Bad boy!*
 
@@ -1186,7 +1186,7 @@ Once per round at the start of your turn, the swallowed creature takes acid dama
 
 Choose one of the following abilities.
 
-#### Jump Scare {data-scc="mcdm.beastheart.v1/feature.ability.beastheart.level-2/jump-scare"}
+#### Jump Scare {data-scc="mcdm.beastheart.v1/feature.ability.beastheart.level-2/jump-scare" data-subclass="prowler"}
 
 *Surprised to see me?*
 
@@ -1204,7 +1204,7 @@ Choose one of the following abilities.
 - **12-16:** 6 damage; P < AVERAGE [frightened](../condition/frightened.md) (save ends)
 - **17+:** 10 damage; P < STRONG [frightened](../condition/frightened.md) (save ends)
 
-#### On You Like Your Shadow {data-scc="mcdm.beastheart.v1/feature.ability.beastheart.level-2/on-you-like-your-shadow"}
+#### On You Like Your Shadow {data-scc="mcdm.beastheart.v1/feature.ability.beastheart.level-2/on-you-like-your-shadow" data-subclass="prowler"}
 
 *Your companion darts around their target, staying out of reach and using them as a shield.*
 
@@ -1224,7 +1224,7 @@ Choose one of the following abilities.
 
 Choose one of the following abilities.
 
-#### Foe Bowling {data-scc="mcdm.beastheart.v1/feature.ability.beastheart.level-2/foe-bowling"}
+#### Foe Bowling {data-scc="mcdm.beastheart.v1/feature.ability.beastheart.level-2/foe-bowling" data-subclass="punisher"}
 
 *Your companion sends one enemy tumbling into another, taking them both out.*
 
@@ -1240,7 +1240,7 @@ Choose one of the following abilities.
 
 **Effect:** If the target is [force moved](../movement/forced-movement.md) at least 1 square, an enemy adjacent to the target at the end of this forced movement is also targeted by this ability's power roll, but they don't trigger this effect.
 
-#### One Roar and We're Back In the Fight {data-scc="mcdm.beastheart.v1/feature.ability.beastheart.level-2/one-roar-and-were-back-in-the-fight"}
+#### One Roar and We're Back In the Fight {data-scc="mcdm.beastheart.v1/feature.ability.beastheart.level-2/one-roar-and-were-back-in-the-fight" data-subclass="punisher"}
 
 *Your companion builds up courage with a roar, growl, or aggressive display.*
 
@@ -1254,7 +1254,7 @@ Choose one of the following abilities.
 
 Choose one of the following abilities.
 
-#### Burning Lash {data-scc="mcdm.beastheart.v1/feature.ability.beastheart.level-2/burning-lash"}
+#### Burning Lash {data-scc="mcdm.beastheart.v1/feature.ability.beastheart.level-2/burning-lash" data-subclass="spark"}
 
 *A blazing tongue of energy entangles a foe.*
 
@@ -1270,7 +1270,7 @@ Choose one of the following abilities.
 
 **Spend 1 Ferocity:** If you are within distance of the target, you can use a free maneuver to wield a second whip, dealing extra fire or lightning damage equal to your Intuition score.
 
-#### Howling Gale {data-scc="mcdm.beastheart.v1/feature.ability.beastheart.level-2/howling-gale"}
+#### Howling Gale {data-scc="mcdm.beastheart.v1/feature.ability.beastheart.level-2/howling-gale" data-subclass="spark"}
 
 *A blizzard or thunderstorm sends foes flying and lifts you like a feather.*
 
@@ -1404,19 +1404,19 @@ Your wild nature grants you a feature, as shown on the 5th-Level Wild Nature Fea
 | Punisher                           | [I Can Take It](../feature/beastheart/level-5/i-can-take-it.md)               |
 | Spark                              | [Wildfire Pyre](../feature/beastheart/level-5/wildfire-pyre.md)               |
 
-#### I Can Take It {data-scc="mcdm.beastheart.v1/feature.beastheart.level-5/i-can-take-it"}
+#### I Can Take It {data-scc="mcdm.beastheart.v1/feature.beastheart.level-5/i-can-take-it" data-subclass="punisher"}
 
 When you or your companion uses your [Thunderclap](../feature/ability/beastheart/level-1/thunderclap.md) ability and halves the triggering damage, whoever uses the ability can take the remaining damage instead of the original target. The damage is transferred before immunity and weakness are applied.
 
-#### Melt Away {data-scc="mcdm.beastheart.v1/feature.beastheart.level-5/melt-away"}
+#### Melt Away {data-scc="mcdm.beastheart.v1/feature.beastheart.level-5/melt-away" data-subclass="prowler"}
 
 You or your companion can use your [Shadow in the Mist](../feature/ability/beastheart/level-1/shadow-in-the-mist.md) ability even when targeted by the triggering ability.
 
-#### There For Each Other {data-scc="mcdm.beastheart.v1/feature.beastheart.level-5/there-for-each-other"}
+#### There For Each Other {data-scc="mcdm.beastheart.v1/feature.beastheart.level-5/there-for-each-other" data-subclass="guardian"}
 
 When you or your companion uses your [The Pack Defends](../feature/ability/beastheart/level-1/the-pack-defends.md) ability to spend a Recovery, you and the target both regain Stamina.
 
-#### Wildfire Pyre {data-scc="mcdm.beastheart.v1/feature.beastheart.level-5/wildfire-pyre"}
+#### Wildfire Pyre {data-scc="mcdm.beastheart.v1/feature.beastheart.level-5/wildfire-pyre" data-subclass="spark"}
 
 When you or your companion deals damage with your [Pyre](../feature/ability/beastheart/level-1/pyre.md) ability, each enemy adjacent to either of you takes the damage.
 
@@ -1508,7 +1508,7 @@ Your wild nature grants your choice of one of two heroic abilities.
 
 Choose one of the following abilities.
 
-#### Sic 'Em! {data-scc="mcdm.beastheart.v1/feature.ability.beastheart.level-6/sic-em"}
+#### Sic 'Em! {data-scc="mcdm.beastheart.v1/feature.ability.beastheart.level-6/sic-em" data-subclass="guardian"}
 
 *Your companion rushes forward to protect you from a dangerous foe.*
 
@@ -1524,7 +1524,7 @@ Choose one of the following abilities.
 
 **Spend 2 Ferocity:** Your companion can use this ability as a triggered action against an enemy who damages you.
 
-#### Stare Down {data-scc="mcdm.beastheart.v1/feature.ability.beastheart.level-6/stare-down"}
+#### Stare Down {data-scc="mcdm.beastheart.v1/feature.ability.beastheart.level-6/stare-down" data-subclass="guardian"}
 
 *Your companion locks eyes with an enemy, imposing their will upon the enemy and daring them to move a muscle.*
 
@@ -1544,7 +1544,7 @@ Choose one of the following abilities.
 
 Choose one of the following abilities.
 
-#### Soft Underbelly {data-scc="mcdm.beastheart.v1/feature.ability.beastheart.level-6/soft-underbelly"}
+#### Soft Underbelly {data-scc="mcdm.beastheart.v1/feature.ability.beastheart.level-6/soft-underbelly" data-subclass="prowler"}
 
 *Your companion ducks under your enemy's guard and rakes open their soft vitals, leaving them vulnerable.*
 
@@ -1560,7 +1560,7 @@ Choose one of the following abilities.
 
 **Effect:** While [bleeding](../condition/bleeding.md) this way, the target has damage weakness 5.
 
-#### Wraith Heart {data-scc="mcdm.beastheart.v1/feature.ability.beastheart.level-6/wraith-heart"}
+#### Wraith Heart {data-scc="mcdm.beastheart.v1/feature.ability.beastheart.level-6/wraith-heart" data-subclass="prowler"}
 
 *You and your companion become soul-freezing wraiths.*
 
@@ -1574,7 +1574,7 @@ Choose one of the following abilities.
 
 Choose one of the following abilities.
 
-#### Lead the Pack {data-scc="mcdm.beastheart.v1/feature.ability.beastheart.level-6/lead-the-pack"}
+#### Lead the Pack {data-scc="mcdm.beastheart.v1/feature.ability.beastheart.level-6/lead-the-pack" data-subclass="punisher"}
 
 *Roaring like wild beasts, your companion and your allies rush toward the foe.*
 
@@ -1584,7 +1584,7 @@ Choose one of the following abilities.
 
 **Effect:** Your companion [shifts](../movement/shifting.md) up to their speed and can make a melee free strike. As a free triggered action, you and up to 10 allies within 10 squares of your companion's starting position can shift up to their speed and make free strikes.
 
-#### Rolling Thunder {data-scc="mcdm.beastheart.v1/feature.ability.beastheart.level-6/rolling-thunder"}
+#### Rolling Thunder {data-scc="mcdm.beastheart.v1/feature.ability.beastheart.level-6/rolling-thunder" data-subclass="punisher"}
 
 *The rumble of your companion's dash is a rolling thunderclap, their impact an earthquake.*
 
@@ -1606,7 +1606,7 @@ Choose one of the following abilities.
 
 Choose one of the following abilities.
 
-#### Elements Unleashed {data-scc="mcdm.beastheart.v1/feature.ability.beastheart.level-6/elements-unleashed"}
+#### Elements Unleashed {data-scc="mcdm.beastheart.v1/feature.ability.beastheart.level-6/elements-unleashed" data-subclass="spark"}
 
 *Your companion's body becomes a bank of glowing coals, a web of arcing lightning, a cloud of rumbling thunder, or a flurry of dancing ice crystals.*
 
@@ -1624,7 +1624,7 @@ Your companion's transformation lasts until the start of your next turn. At the 
 
 **Spend 2 Ferocity:** You also transform.
 
-#### Killing Frost {data-scc="mcdm.beastheart.v1/feature.ability.beastheart.level-6/killing-frost"}
+#### Killing Frost {data-scc="mcdm.beastheart.v1/feature.ability.beastheart.level-6/killing-frost" data-subclass="spark"}
 
 *Black frost freezes boots to the floor and creeps up trapped victims until they're completely encased in ice.*
 
@@ -1676,19 +1676,19 @@ Your wild nature grants you a feature, as shown on the 8th-Level Wild Nature Fea
 | Punisher                           | [Built for Violence](../feature/beastheart/level-8/built-for-violence.md)           |
 | Spark                              | [Nature Will Not Harm Us](../feature/beastheart/level-8/nature-will-not-harm-us.md) |
 
-#### Born to Run {data-scc="mcdm.beastheart.v1/feature.beastheart.level-8/born-to-run"}
+#### Born to Run {data-scc="mcdm.beastheart.v1/feature.beastheart.level-8/born-to-run" data-subclass="prowler"}
 
 You and your companion gain a +2 bonus to speed.
 
-#### Built for Violence {data-scc="mcdm.beastheart.v1/feature.beastheart.level-8/built-for-violence"}
+#### Built for Violence {data-scc="mcdm.beastheart.v1/feature.beastheart.level-8/built-for-violence" data-subclass="punisher"}
 
 You and your companion gain a +2 damage bonus to maneuvers that deal damage. When you or your companion pushes a creature, you can vertical push that creature.
 
-#### Nature Will Not Harm Us {data-scc="mcdm.beastheart.v1/feature.beastheart.level-8/nature-will-not-harm-us"}
+#### Nature Will Not Harm Us {data-scc="mcdm.beastheart.v1/feature.beastheart.level-8/nature-will-not-harm-us" data-subclass="spark"}
 
 You and your companion have damage immunity 10 to cold, fire, lightning, and sonic damage.
 
-#### Reflexes Perfected {data-scc="mcdm.beastheart.v1/feature.beastheart.level-8/reflexes-perfected"}
+#### Reflexes Perfected {data-scc="mcdm.beastheart.v1/feature.beastheart.level-8/reflexes-perfected" data-subclass="guardian"}
 
 Your and your companion's free strikes deal extra damage equal to your Intuition score. Whenever an adjacent enemy moves to a space that isn't adjacent, you or your companion can make an opportunity attack, even if the enemy [shifted](../movement/shifting.md), [teleported](../movement/teleport.md), was [force moved](../movement/forced-movement.md), or another feature that doesn't provoke opportunity attacks.
 
@@ -1774,7 +1774,7 @@ Your wild nature grants your choice of one of two heroic abilities.
 
 Choose one of the following abilities.
 
-#### Banshee Howl {data-scc="mcdm.beastheart.v1/feature.ability.beastheart.level-9/banshee-howl"}
+#### Banshee Howl {data-scc="mcdm.beastheart.v1/feature.ability.beastheart.level-9/banshee-howl" data-subclass="guardian"}
 
 *Your companion's howl, screech, roar, or psychic emanation presages death to those who hear it.*
 
@@ -1792,7 +1792,7 @@ Choose one of the following abilities.
 
 **Spend 1 Ferocity:** This ability also affects a 3 burst originating from you. An enemy in both areas is only affected once.
 
-#### Relentless {data-scc="mcdm.beastheart.v1/feature.ability.beastheart.level-9/relentless"}
+#### Relentless {data-scc="mcdm.beastheart.v1/feature.ability.beastheart.level-9/relentless" data-subclass="guardian"}
 
 *Your companion launches at your foe, shielding allies with their body.*
 
@@ -1812,7 +1812,7 @@ Choose one of the following abilities.
 
 Choose one of the following abilities.
 
-#### Behold the Face of Chaos {data-scc="mcdm.beastheart.v1/feature.ability.beastheart.level-9/behold-the-face-of-chaos"}
+#### Behold the Face of Chaos {data-scc="mcdm.beastheart.v1/feature.ability.beastheart.level-9/behold-the-face-of-chaos" data-subclass="prowler"}
 
 *Your companion appears next to their victim in the guise of a heart-stopping nightmare.*
 
@@ -1828,7 +1828,7 @@ Choose one of the following abilities.
 - **12-16:** 20 + I psychic damage; P < AVERAGE [frightened](../condition/frightened.md) (save ends)
 - **17+:** 27 + I psychic damage; P < STRONG [frightened](../condition/frightened.md) (save ends)
 
-#### Let's Take This Outside {data-scc="mcdm.beastheart.v1/feature.ability.beastheart.level-9/lets-take-this-outside"}
+#### Let's Take This Outside {data-scc="mcdm.beastheart.v1/feature.ability.beastheart.level-9/lets-take-this-outside" data-subclass="prowler"}
 
 *Your companion drags your chosen foe into storms of the Primordial Plane.*
 
@@ -1846,7 +1846,7 @@ The effect ends when one of you dies or you end it as a free maneuver. The targe
 
 Choose one of the following abilities.
 
-#### Battle Frenzy {data-scc="mcdm.beastheart.v1/feature.ability.beastheart.level-9/battle-frenzy"}
+#### Battle Frenzy {data-scc="mcdm.beastheart.v1/feature.ability.beastheart.level-9/battle-frenzy" data-subclass="punisher"}
 
 *Your companion shatters the floodgates that keep their rampage dammed up, and it cascades into the unprepared minds of nearby creatures.*
 
@@ -1866,7 +1866,7 @@ Choose one of the following abilities.
 
 A battle-frenzied creature must use a free triggered action to make a melee free strike against themself or a creature adjacent to them. You choose each creature's target. After making this strike, they are no longer battle frenzied.
 
-#### Juggernaut {data-scc="mcdm.beastheart.v1/feature.ability.beastheart.level-9/juggernaut"}
+#### Juggernaut {data-scc="mcdm.beastheart.v1/feature.ability.beastheart.level-9/juggernaut" data-subclass="punisher"}
 
 *Your companion plows through the front lines, tossing enemies—and allies—this way and that.*
 
@@ -1886,7 +1886,7 @@ A battle-frenzied creature must use a free triggered action to make a melee free
 
 Choose one of the following abilities.
 
-#### For the Pack! {data-scc="mcdm.beastheart.v1/feature.ability.beastheart.level-9/for-the-pack"}
+#### For the Pack! {data-scc="mcdm.beastheart.v1/feature.ability.beastheart.level-9/for-the-pack" data-subclass="spark"}
 
 *They'd tell stories in hushed tones of your companion's last stand—if any of them lived to tell the tale.*
 
@@ -1906,7 +1906,7 @@ Choose one of the following abilities.
 
 **Effect:** Your companion dies. If you are dead and in the area, you are restored to life with 1 Stamina. You and each ally in the area can spend up to 2 Recoveries.
 
-#### Wild Hunt {data-scc="mcdm.beastheart.v1/feature.ability.beastheart.level-9/wild-hunt"}
+#### Wild Hunt {data-scc="mcdm.beastheart.v1/feature.ability.beastheart.level-9/wild-hunt" data-subclass="spark"}
 
 *Your companion summons a ravening pack of spectral ancestors to devour your foes.*
 

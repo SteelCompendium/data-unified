@@ -506,17 +506,17 @@ Your [null tradition](../feature/null/level-1/null-tradition.md) grants you a fe
 | Cryokinetic   | [Entropic Adaptability](../feature/null/level-2/entropic-adaptability.md) |
 | Metakinetic   | [Inertial Sink](../feature/null/level-2/inertial-sink.md)         |
 
-#### Entropic Adaptability {data-scc="mcdm.heroes.v1/feature.null.level-2/entropic-adaptability"}
+#### Entropic Adaptability {data-scc="mcdm.heroes.v1/feature.null.level-2/entropic-adaptability" data-subclass="cryokinetic"}
 
 You have cold immunity equal to twice your [Intuition](../rule/character/intuition.md) score. Additionally, you ignore [difficult terrain](../movement/difficult-terrain.md) related to cold and ice, and you can automatically climb at full [speed](../rule/character/speed.md) while moving.
 
-#### Inertial Sink {data-scc="mcdm.heroes.v1/feature.null.level-2/inertial-sink"}
+#### Inertial Sink {data-scc="mcdm.heroes.v1/feature.null.level-2/inertial-sink" data-subclass="metakinetic"}
 
 You add your [Intuition](../rule/character/intuition.md) score to your effective [size](../rule/character/size.md) for the purpose of interacting with creatures and objects, such as for determining whether you can lift an object, whether you are affected by [forced movement](../movement/forced-movement.md), and so forth. This has no effect on whether you can be [grabbed](../condition/grabbed.md).
 
 Additionally, when you fall, you reduce the effective height of the fall by 5 squares in addition to any other reductions. Whenever you take damage from being [force moved](../movement/forced-movement.md), you reduce that damage by an amount equal to your level.
 
-#### Rapid Processing {data-scc="mcdm.heroes.v1/feature.null.level-2/rapid-processing"}
+#### Rapid Processing {data-scc="mcdm.heroes.v1/feature.null.level-2/rapid-processing" data-subclass="chronokinetic"}
 
 As a maneuver, you can read an entire book or process a similar amount of information. Additionally, during any [respite](../rule/resource/respite.md), you can take an additional [respite](../rule/resource/respite.md) activity.
 
@@ -528,7 +528,7 @@ Your [null tradition](../feature/null/level-1/null-tradition.md) grants your cho
 
 Choose one of the following abilities.
 
-##### Blur {data-scc="mcdm.heroes.v1/feature.ability.null.level-2/blur" data-cost="5 Discipline"}
+##### Blur {data-scc="mcdm.heroes.v1/feature.ability.null.level-2/blur" data-cost="5 Discipline" data-subclass="chronokinetic"}
 
 
 *You release stored time, allowing you to act twice.*
@@ -539,7 +539,7 @@ Choose one of the following abilities.
 
 **Effect:** You can use a signature or [heroic ability](../rule/general/heroic-ability.md). You gain an [edge](../rule/dice/edge.md) on that ability's [power rolls](../rule/dice/power-roll.md).
 
-##### Force Redirected {data-scc="mcdm.heroes.v1/feature.ability.null.level-2/force-redirected" data-cost="5 Discipline"}
+##### Force Redirected {data-scc="mcdm.heroes.v1/feature.ability.null.level-2/force-redirected" data-cost="5 Discipline" data-subclass="chronokinetic"}
 
 
 *The force of your [strike](../rule/combat/strike.md) moves your target in a surprising direction.*
@@ -558,7 +558,7 @@ Choose one of the following abilities.
 
 Choose one of the following [heroic abilities](../rule/general/heroic-ability.md).
 
-##### Entropic Field {data-scc="mcdm.heroes.v1/feature.ability.null.level-2/entropic-field" data-cost="5 Discipline"}
+##### Entropic Field {data-scc="mcdm.heroes.v1/feature.ability.null.level-2/entropic-field" data-cost="5 Discipline" data-subclass="cryokinetic"}
 
 
 *You drastically increase the local entropy.*
@@ -573,7 +573,7 @@ Choose one of the following [heroic abilities](../rule/general/heroic-ability.md
 - **12-16:** 9 cold damage; A < AVERAGE, [slowed](../condition/slowed.md) (save ends)
 - **17+:** 13 cold damage; A < STRONG, [slowed](../condition/slowed.md) (save ends)
 
-##### Heat Sink {data-scc="mcdm.heroes.v1/feature.ability.null.level-2/heat-sink" data-cost="5 Discipline"}
+##### Heat Sink {data-scc="mcdm.heroes.v1/feature.ability.null.level-2/heat-sink" data-cost="5 Discipline" data-subclass="cryokinetic"}
 
 
 *You absorb ambient heat, coating the ground in frost and precipitating snow from the air.*
@@ -588,7 +588,7 @@ Choose one of the following [heroic abilities](../rule/general/heroic-ability.md
 
 Choose one of the following abilities.
 
-##### Gravitic Strike {data-scc="mcdm.heroes.v1/feature.ability.null.level-2/gravitic-strike" data-cost="5 Discipline"}
+##### Gravitic Strike {data-scc="mcdm.heroes.v1/feature.ability.null.level-2/gravitic-strike" data-cost="5 Discipline" data-subclass="metakinetic"}
 
 
 *Your fist emanates gravitic force that pulls a distant enemy closer.*
@@ -603,7 +603,7 @@ Choose one of the following abilities.
 - **12-16:** 12 + A psychic damage; vertical [pull](../movement/forced-movement.md) 5
 - **17+:** 16 + A psychic damage; vertical [pull](../movement/forced-movement.md) 7
 
-##### Kinetic Shield {data-scc="mcdm.heroes.v1/feature.ability.null.level-2/kinetic-shield" data-cost="5 Discipline"}
+##### Kinetic Shield {data-scc="mcdm.heroes.v1/feature.ability.null.level-2/kinetic-shield" data-cost="5 Discipline" data-subclass="metakinetic"}
 
 
 *You manifest a force barrier that absorbs incoming kinetic energy.*
@@ -724,15 +724,15 @@ Your [null tradition](../feature/null/level-1/null-tradition.md) grants you a fe
 | Cryokinetic   | [Chilling Readiness](../feature/null/level-5/chilling-readiness.md) |
 | Metakinetic   | [Inertial Fulcrum](../feature/null/level-5/inertial-fulcrum.md)   |
 
-### Chilling Readiness {data-scc="mcdm.heroes.v1/feature.null.level-5/chilling-readiness"}
+### Chilling Readiness {data-scc="mcdm.heroes.v1/feature.null.level-5/chilling-readiness" data-subclass="cryokinetic"}
 
 You steel yourself for imminent danger by tapping into your body's cold energy. At the start of any combat, you gain a number of [surges](../rule/resource/surge.md) equal to your [Victories](../rule/resource/victories.md).
 
-### Inertial Fulcrum {data-scc="mcdm.heroes.v1/feature.null.level-5/inertial-fulcrum"}
+### Inertial Fulcrum {data-scc="mcdm.heroes.v1/feature.null.level-5/inertial-fulcrum" data-subclass="metakinetic"}
 
 Whenever you use an ability to reduce damage dealt to you or to reduce the [distance](../rule/combat/distance.md) of [forced movement](../movement/forced-movement.md) imposed upon you, you can deal damage to one enemy in the area of your [Null Field](../feature/null/level-1/null-field.md) ability equal to your [Intuition](../rule/character/intuition.md) score.
 
-### Instant Action {data-scc="mcdm.heroes.v1/feature.null.level-5/instant-action"}
+### Instant Action {data-scc="mcdm.heroes.v1/feature.null.level-5/instant-action" data-subclass="chronokinetic"}
 
 If you're not [surprised](../rule/combat/surprised.md) at the start of your first [turn](../rule/combat/turn.md) in combat, you gain an [edge](../rule/dice/edge.md) on [ability rolls](../rule/dice/ability-roll.md) and gain 2 [surges](../rule/resource/surge.md). If you are [surprised](../rule/combat/surprised.md), you can spend 3 discipline to no longer be [surprised](../rule/combat/surprised.md) and gain the benefits of this feature.
 
@@ -822,7 +822,7 @@ Your [null tradition](../feature/null/level-1/null-tradition.md) grants your cho
 
 Choose one of the following abilities.
 
-##### Interphase {data-scc="mcdm.heroes.v1/feature.ability.null.level-6/interphase" data-cost="9 Discipline"}
+##### Interphase {data-scc="mcdm.heroes.v1/feature.ability.null.level-6/interphase" data-cost="9 Discipline" data-subclass="chronokinetic"}
 
 
 *You slip into a faster timestream to act more quickly.*
@@ -833,7 +833,7 @@ Choose one of the following abilities.
 
 **Effect:** You can use up to three [signature abilities](../rule/combat/signature-ability.md), each of which gains an [edge](../rule/dice/edge.md).
 
-##### Phase Step {data-scc="mcdm.heroes.v1/feature.ability.null.level-6/phase-step" data-cost="9 Discipline"}
+##### Phase Step {data-scc="mcdm.heroes.v1/feature.ability.null.level-6/phase-step" data-cost="9 Discipline" data-subclass="chronokinetic"}
 
 
 *You weaken your connection to this manifold, allowing you to move through and damage enemies.*
@@ -854,7 +854,7 @@ Choose one of the following abilities.
 
 Choose one of the following abilities.
 
-##### Ice Pillars {data-scc="mcdm.heroes.v1/feature.ability.null.level-6/ice-pillars" data-cost="9 Discipline"}
+##### Ice Pillars {data-scc="mcdm.heroes.v1/feature.ability.null.level-6/ice-pillars" data-cost="9 Discipline" data-subclass="cryokinetic"}
 
 
 *Pillars of ice erupt from the ground and launch your foes into the air.*
@@ -871,7 +871,7 @@ Choose one of the following abilities.
 
 **Effect:** The pillars vanish as soon as the effects of the [forced movement](../movement/forced-movement.md) are resolved.
 
-##### Wall of Ice {data-scc="mcdm.heroes.v1/feature.ability.null.level-6/wall-of-ice" data-cost="9 Discipline"}
+##### Wall of Ice {data-scc="mcdm.heroes.v1/feature.ability.null.level-6/wall-of-ice" data-cost="9 Discipline" data-subclass="cryokinetic"}
 
 
 *You create a [wall of ice](../feature/ability/null/level-6/wall-of-ice.md).*
@@ -886,7 +886,7 @@ Choose one of the following abilities.
 
 Choose one of the following abilities.
 
-##### Gravitic Charge {data-scc="mcdm.heroes.v1/feature.ability.null.level-6/gravitic-charge" data-cost="9 Discipline"}
+##### Gravitic Charge {data-scc="mcdm.heroes.v1/feature.ability.null.level-6/gravitic-charge" data-cost="9 Discipline" data-subclass="metakinetic"}
 
 
 *You channel your discipline into momentum that defies gravity.*
@@ -903,7 +903,7 @@ Choose one of the following abilities.
 
 **Effect:** This movement ignores [stability](../rule/character/stability.md). If you [slide](../movement/forced-movement.md) into another creature, you resolve damage to both of you as if your [force move](../movement/forced-movement.md)ment had ended, but you keep moving through that creature's space.
 
-##### Iron Body {data-scc="mcdm.heroes.v1/feature.ability.null.level-6/iron-body" data-cost="9 Discipline"}
+##### Iron Body {data-scc="mcdm.heroes.v1/feature.ability.null.level-6/iron-body" data-cost="9 Discipline" data-subclass="metakinetic"}
 
 
 *You focus until your body becomes as hard as iron.*
@@ -986,15 +986,15 @@ Your [null tradition](../feature/null/level-1/null-tradition.md) grants you a fe
 | Cryokinetic   | [Synaptic Triage](../feature/null/level-8/synaptic-triage.md)   |
 | Metakinetic   | [Inertial Dampener](../feature/null/level-8/inertial-dampener.md) |
 
-#### Inertial Dampener {data-scc="mcdm.heroes.v1/feature.null.level-8/inertial-dampener"}
+#### Inertial Dampener {data-scc="mcdm.heroes.v1/feature.null.level-8/inertial-dampener" data-subclass="metakinetic"}
 
 You and each creature or object of your choice in the area of your [Null Field](../feature/null/level-1/null-field.md) ability gain a [bonus](../rule/dice/bonuses-and-penalties.md) to [stability](../rule/character/stability.md) equal to your [Intuition](../rule/character/intuition.md) score. A creature who attempts to [force move](../movement/forced-movement.md) a target with this [bonus](../rule/dice/bonuses-and-penalties.md) takes psychic damage equal to your [Intuition](../rule/character/intuition.md) score.
 
-#### Shared Momentum {data-scc="mcdm.heroes.v1/feature.null.level-8/shared-momentum"}
+#### Shared Momentum {data-scc="mcdm.heroes.v1/feature.null.level-8/shared-momentum" data-subclass="chronokinetic"}
 
 When you take the [Disengage](../feature/common/move-actions/disengage.md) move action, one ally in the area of your [Null Field](../feature/null/level-1/null-field.md) ability can also take the [Disengage](../feature/common/move-actions/disengage.md) move action as a free [triggered action](../rule/combat/triggered-action.md), using your [distance](../rule/combat/distance.md) for that move action.
 
-#### Synaptic Triage {data-scc="mcdm.heroes.v1/feature.null.level-8/synaptic-triage"}
+#### Synaptic Triage {data-scc="mcdm.heroes.v1/feature.null.level-8/synaptic-triage" data-subclass="cryokinetic"}
 
 As a [free maneuver](../rule/combat/free-maneuver.md), you can spend 1d6 [Stamina](../rule/health/stamina.md) to remove one effect on you. Each creature of your choice in the area of your [Null Field](../feature/null/level-1/null-field.md) ability also gains this benefit.
 
@@ -1080,7 +1080,7 @@ Your [null tradition](../feature/null/level-1/null-tradition.md) grants your cho
 
 Choose one of the following abilities.
 
-##### Arrestor Cycle {data-scc="mcdm.heroes.v1/feature.ability.null.level-9/arrestor-cycle" data-cost="11 Discipline"}
+##### Arrestor Cycle {data-scc="mcdm.heroes.v1/feature.ability.null.level-9/arrestor-cycle" data-cost="11 Discipline" data-subclass="chronokinetic"}
 
 
 *You trap your foe in a looping cycle of time, where they relive the last few seconds over and over again.*
@@ -1099,7 +1099,7 @@ Choose one of the following abilities.
 
 **Effect:** If the target loses their [turn](../rule/combat/turn.md), the round continues as if they had acted. A target who doesn't lose their [turn](../rule/combat/turn.md) takes psychic damage equal to twice your [Intuition](../rule/character/intuition.md) score for each main action they take until the end of their next [turn](../rule/combat/turn.md).
 
-##### Time Loop {data-scc="mcdm.heroes.v1/feature.ability.null.level-9/time-loop" data-cost="11 Discipline"}
+##### Time Loop {data-scc="mcdm.heroes.v1/feature.ability.null.level-9/time-loop" data-cost="11 Discipline" data-subclass="chronokinetic"}
 
 
 *You show shadows what true [speed](../rule/character/speed.md) is.*
@@ -1116,7 +1116,7 @@ Choose one of the following abilities.
 
 Choose one of the following abilities.
 
-##### Absolute Zero {data-scc="mcdm.heroes.v1/feature.ability.null.level-9/absolute-zero" data-cost="11 Discipline"}
+##### Absolute Zero {data-scc="mcdm.heroes.v1/feature.ability.null.level-9/absolute-zero" data-cost="11 Discipline" data-subclass="cryokinetic"}
 
 
 *You become the coldest thing in the timescape.*
@@ -1133,7 +1133,7 @@ Choose one of the following abilities.
 
 **Effect:** Until the end of the encounter or until you are dead, you become an avatar of uttermost cold. You gain immunity to all damage equal to the cold [damage immunity](../rule/damage/damage-immunity.md) granted by your [Entropic Adaptability](../feature/null/level-2/entropic-adaptability.md) trait, you ignore the negative effects of [dying](../rule/health/dying.md), and you have a +2 [bonus](../rule/dice/bonuses-and-penalties.md) to [potencies](../rule/character/potency.md).
 
-##### Heat Drain {data-scc="mcdm.heroes.v1/feature.ability.null.level-9/heat-drain" data-cost="11 Discipline"}
+##### Heat Drain {data-scc="mcdm.heroes.v1/feature.ability.null.level-9/heat-drain" data-cost="11 Discipline" data-subclass="cryokinetic"}
 
 
 *You drain all the heat from the target.*
@@ -1154,7 +1154,7 @@ Choose one of the following abilities.
 
 Choose one of the following abilities.
 
-##### Inertial Absorption {data-scc="mcdm.heroes.v1/feature.ability.null.level-9/inertial-absorption" data-cost="11 Discipline"}
+##### Inertial Absorption {data-scc="mcdm.heroes.v1/feature.ability.null.level-9/inertial-absorption" data-cost="11 Discipline" data-subclass="metakinetic"}
 
 
 *You absorb an attack to empower your body.*
@@ -1167,7 +1167,7 @@ Choose one of the following abilities.
 
 **Effect:** You take half the damage, negate any effects associated with the damage for you, and gain 3 [surges](../rule/resource/surge.md).
 
-##### Realitas {data-scc="mcdm.heroes.v1/feature.ability.null.level-9/realitas" data-cost="11 Discipline"}
+##### Realitas {data-scc="mcdm.heroes.v1/feature.ability.null.level-9/realitas" data-cost="11 Discipline" data-subclass="metakinetic"}
 
 
 *Your essential hyperreality disrupts your enemy's connection to existence.*

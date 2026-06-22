@@ -9,7 +9,7 @@ type: feature
 
 You have the following ability.
 
-## Faithful Friend {data-scc="mcdm.heroes.v1/feature.ability.conduit.level-1/faithful-friend"}
+## Faithful Friend {data-scc="mcdm.heroes.v1/feature.ability.conduit.level-1/faithful-friend" data-subclass="nature"}
 
 
 *An animal spirit is drawn to you, sharing their senses with you and serving you faithfully.*

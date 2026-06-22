@@ -12,7 +12,7 @@ Your [tactical doctrine](../level-1/tactical-doctrine.md) grants your choice of 
 
 Choose one of the following abilities.
 
-### Fog of War {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-2/fog-of-war" data-cost="5 Focus"}
+### Fog of War {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-2/fog-of-war" data-cost="5 Focus" data-subclass="insurgent"}
 
 
 *Your unorthodox strategy causes enemies to lash out in fear, heedless of who they might be attacking.*
@@ -25,7 +25,7 @@ Choose one of the following abilities.
 
 **Mark Benefit:** Until the end of the encounter, whenever you or any ally makes a [strike](../../../rule/combat/strike.md) against a creature marked by you, you can spend 2 focus to force that target to make a [free strike](../../common/main-actions/free-strike.md) against a creature of your choice within 5 squares of them.
 
-### Try Me Instead {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-2/try-me-instead" data-cost="5 Focus"}
+### Try Me Instead {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-2/try-me-instead" data-cost="5 Focus" data-subclass="insurgent"}
 
 
 *"Try picking on someone my [size](../../../rule/character/size.md)."*
@@ -46,7 +46,7 @@ Choose one of the following abilities.
 
 Choose one of the following abilities.
 
-### I've Got Your Back {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-2/ive-got-your-back" data-cost="5 Focus"}
+### I've Got Your Back {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-2/ive-got-your-back" data-cost="5 Focus" data-subclass="mastermind"}
 
 
 *Your enemy will think twice about attacking your friend.*
@@ -63,7 +63,7 @@ Choose one of the following abilities.
 
 **Effect:** One ally [adjacent](../../../rule/combat/adjacent.md) to the target can spend a [Recovery](../../../rule/health/recoveries.md).
 
-### Targets of Opportunity {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-2/targets-of-opportunity" data-cost="5 Focus"}
+### Targets of Opportunity {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-2/targets-of-opportunity" data-cost="5 Focus" data-subclass="mastermind"}
 
 
 *You point out easy targets to your friends, allowing them to include more enemies in their attacks.*
@@ -80,7 +80,7 @@ Choose one of the following abilities.
 
 Choose one of the following abilities.
 
-### No Dying on My Watch {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-2/no-dying-on-my-watch" data-cost="5 Focus"}
+### No Dying on My Watch {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-2/no-dying-on-my-watch" data-cost="5 Focus" data-subclass="vanguard"}
 
 
 *You prioritize saving an ally over your own safety.*
@@ -99,7 +99,7 @@ Choose one of the following abilities.
 - **12-16:** R < AVERAGE, the target is [frightened](../../../condition/frightened.md) of the triggering ally (save ends)
 - **17+:** R < STRONG, the target is [frightened](../../../condition/frightened.md) of the triggering ally (save ends)
 
-### Squad! On Me! {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-2/squad-on-me" data-cost="5 Focus"}
+### Squad! On Me! {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-2/squad-on-me" data-cost="5 Focus" data-subclass="vanguard"}
 
 
 *Together we are invincible!*

@@ -20,7 +20,7 @@ Your [talent tradition](talent-tradition.md) grants you two features, as shown o
 
 You have the following ability.
 
-### Accelerate {data-scc="mcdm.heroes.v1/feature.ability.talent.level-1/accelerate"}
+### Accelerate {data-scc="mcdm.heroes.v1/feature.ability.talent.level-1/accelerate" data-subclass="chronopathy"}
 
 
 *To your ally, it seems as though the world has slowed down.*
@@ -37,7 +37,7 @@ You have the following ability.
 
 You have the following ability.
 
-### Again {data-scc="mcdm.heroes.v1/feature.ability.talent.level-1/again"}
+### Again {data-scc="mcdm.heroes.v1/feature.ability.talent.level-1/again" data-subclass="chronopathy"}
 
 
 *You step back a split second to see if things play out a little differently.*
@@ -54,7 +54,7 @@ You have the following ability.
 
 You have the following ability.
 
-### Feedback Loop {data-scc="mcdm.heroes.v1/feature.ability.talent.level-1/feedback-loop"}
+### Feedback Loop {data-scc="mcdm.heroes.v1/feature.ability.talent.level-1/feedback-loop" data-subclass="telepathy"}
 
 
 *Creating a brief psychic link between an enemy and their target gives that foe a taste of their own medicine.*
@@ -71,7 +71,7 @@ You have the following ability.
 
 You have the following ability.
 
-### Minor Telekinesis {data-scc="mcdm.heroes.v1/feature.ability.talent.level-1/minor-telekinesis"}
+### Minor Telekinesis {data-scc="mcdm.heroes.v1/feature.ability.talent.level-1/minor-telekinesis" data-subclass="telekinesis"}
 
 
 *Wisps of psychic energy ripple visibly from your brain as you force the target to move using only your mind.*
@@ -90,7 +90,7 @@ You have the following ability.
 
 You have the following ability.
 
-### Remote Assistance {data-scc="mcdm.heroes.v1/feature.ability.talent.level-1/remote-assistance"}
+### Remote Assistance {data-scc="mcdm.heroes.v1/feature.ability.talent.level-1/remote-assistance" data-subclass="telepathy"}
 
 
 *An ally gains the benefit of your intellect.*

@@ -8,7 +8,7 @@ type: feature
 
 You have the following ability.
 
-## Again {data-scc="mcdm.heroes.v1/feature.ability.talent.level-1/again"}
+## Again {data-scc="mcdm.heroes.v1/feature.ability.talent.level-1/again" data-subclass="chronopathy"}
 
 
 *You step back a split second to see if things play out a little differently.*

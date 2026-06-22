@@ -16,19 +16,19 @@ Your [shadow college](../level-1/shadow-college.md) grants you a feature, as sho
 | Caustic Alchemy | [Time Bomb](../../ability/shadow/level-8/time-bomb.md)   |
 | Harlequin Mask  | [Parkour](parkour.md)     |
 
-## Cinder Step {data-scc="mcdm.heroes.v1/feature.shadow.level-8/cinder-step"}
+## Cinder Step {data-scc="mcdm.heroes.v1/feature.shadow.level-8/cinder-step" data-subclass="black-ash"}
 
 Whenever you willingly move, you can [teleport](../../../movement/teleport.md). When you [teleport](../../../movement/teleport.md) this way, it counts as using a shadow ability for the purpose of using your [Burning Ash](../level-2/burning-ash.md) and [Trail of Cinders](../level-5/trail-of-cinders.md) features.
 
-## Parkour {data-scc="mcdm.heroes.v1/feature.shadow.level-8/parkour"}
+## Parkour {data-scc="mcdm.heroes.v1/feature.shadow.level-8/parkour" data-subclass="harlequin-mask"}
 
 Your movement no longer provokes [opportunity attacks](../../../rule/combat/opportunity-attack.md). Additionally, you can use your [Harlequin Gambit](../level-5/harlequin-gambit.md) feature as a free [triggered action](../../../rule/combat/triggered-action.md) when a creature is reduced to 0 [Stamina](../../../rule/health/stamina.md) by your [Clever Trick](../../ability/shadow/level-1/clever-trick.md) ability.
 
-## Time Bomb {data-scc="mcdm.heroes.v1/feature.shadow.level-8/time-bomb"}
+## Time Bomb {data-scc="mcdm.heroes.v1/feature.shadow.level-8/time-bomb" data-subclass="caustic-alchemy"}
 
 You have [damage immunity](../../../rule/damage/damage-immunity.md) against area abilities and effects equal to your [Agility](../../../rule/character/agility.md) score. You also have the following ability, which you can use once per round on your [turn](../../../rule/combat/turn.md).
 
-### Time Bomb {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-8/time-bomb"}
+### Time Bomb {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-8/time-bomb" data-subclass="caustic-alchemy"}
 
 
 *The longer it cooks, the bigger the boom.*

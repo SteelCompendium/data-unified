@@ -9,7 +9,7 @@ type: feature
 
 You have the following performance ability, which is usable with your [Routines](routines.md) feature.
 
-## Blocking {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-1/blocking"}
+## Blocking {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-1/blocking" data-subclass="auteur"}
 
 
 *No, no, no, you lose the audience that way. Try it like this...*

@@ -8,7 +8,7 @@ type: feature
 
 You have the following ability.
 
-## Coat the Blade {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-1/coat-the-blade"}
+## Coat the Blade {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-1/coat-the-blade" data-subclass="caustic-alchemy"}
 
 
 *A little poison goes a long way.*

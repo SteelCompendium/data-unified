@@ -20,7 +20,7 @@ Your [shadow college](shadow-college.md) grants you one or two features, as show
 
 You have the following ability.
 
-### Black Ash Teleport {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-1/black-ash-teleport"}
+### Black Ash Teleport {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-1/black-ash-teleport" data-subclass="black-ash"}
 
 
 *In a swirl of black ash, you step from one place to another.*
@@ -37,7 +37,7 @@ You have the following ability.
 
 You have the following ability.
 
-### Coat the Blade {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-1/coat-the-blade"}
+### Coat the Blade {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-1/coat-the-blade" data-subclass="caustic-alchemy"}
 
 
 *A little poison goes a long way.*
@@ -54,7 +54,7 @@ You have the following ability.
 
 You have the following ability.
 
-### I'm No Threat {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-1/im-no-threat"}
+### I'm No Threat {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-1/im-no-threat" data-subclass="harlequin-mask"}
 
 
 *Taking on an illusory countenance gives you an advantage on [subterfuge](../level-10/subterfuge.md).*
@@ -69,6 +69,6 @@ The illusion ends when you harm another creature, when you physically interact w
 
 **Spend 1 Insight:** Choose a creature whose [size](../../../rule/character/size.md) is no more than 1 greater than yours and who is within 10 squares. This ability's illusion makes you appear as that creature. This illusion covers your entire body, including clothing and armor, and alters your voice to sound like that of the creature. You gain an [edge](../../../rule/dice/edge.md) on [tests](../../../rule/test/test.md) made to convince the creature's allies that you are the creature.
 
-## Smoke Bomb {data-scc="mcdm.heroes.v1/feature.shadow.level-1/smoke-bomb"}
+## Smoke Bomb {data-scc="mcdm.heroes.v1/feature.shadow.level-1/smoke-bomb" data-subclass="caustic-alchemy"}
 
 You always carry a supply of smoke bombs to use for distractions and easy getaways. You can use the [Hide](../../common/maneuvers/hide.md) maneuver even if you are observed and don't initially have [cover](../../../rule/combat/cover.md) or [concealment](../../../rule/combat/concealment.md). When you do so, you can [shift](../../../movement/shifting.md) a number of squares equal to your [Agility](../../../rule/character/agility.md) score. If you end this movement with [cover](../../../rule/combat/cover.md) or [concealment](../../../rule/combat/concealment.md), you are automatically hidden.

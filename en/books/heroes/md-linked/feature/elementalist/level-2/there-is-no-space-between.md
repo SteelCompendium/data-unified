@@ -8,7 +8,7 @@ type: feature
 
 You have the following ability.
 
-## There Is No Space Between {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-2/there-is-no-space-between"}
+## There Is No Space Between {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-2/there-is-no-space-between" data-subclass="void"}
 
 
 *Knowledge of the mystery reveals that two spaces are the same space.*

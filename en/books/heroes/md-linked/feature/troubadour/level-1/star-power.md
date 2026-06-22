@@ -9,7 +9,7 @@ type: feature
 
 You have the following ability.
 
-## Star Power {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-1/star-power" data-cost="1 Drama"}
+## Star Power {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-1/star-power" data-cost="1 Drama" data-subclass="duelist"}
 
 
 *Your years of practicing fencing and dancing pay off on the battlefield.*

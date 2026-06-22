@@ -9,7 +9,7 @@ type: feature
 
 You have the following ability.
 
-## Trinity of Trickery {data-scc="mcdm.heroes.v1/feature.ability.conduit.level-7/trinity-of-trickery" data-cost="9 Piety"}
+## Trinity of Trickery {data-scc="mcdm.heroes.v1/feature.ability.conduit.level-7/trinity-of-trickery" data-cost="9 Piety" data-subclass="trickery"}
 
 
 *Hey! I'm over here. No, here, numbskull.*

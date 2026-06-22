@@ -16,14 +16,14 @@ Your [primordial aspect](../level-1/primordial-aspect.md) grants you a feature, 
 | Reaver     | [Inescapable Wrath](inescapable-wrath.md) |
 | Stormwight | [Tooth and Claw](tooth-and-claw.md)    |
 
-## Inescapable Wrath {data-scc="mcdm.heroes.v1/feature.fury.level-2/inescapable-wrath"}
+## Inescapable Wrath {data-scc="mcdm.heroes.v1/feature.fury.level-2/inescapable-wrath" data-subclass="reaver"}
 
 You have a [bonus](../../../rule/dice/bonuses-and-penalties.md) to [speed](../../../rule/character/speed.md) equal to your [Agility](../../../rule/character/agility.md) score, and you ignore [difficult terrain](../../../movement/difficult-terrain.md).
 
-## Tooth and Claw {data-scc="mcdm.heroes.v1/feature.fury.level-2/tooth-and-claw"}
+## Tooth and Claw {data-scc="mcdm.heroes.v1/feature.fury.level-2/tooth-and-claw" data-subclass="stormwight"}
 
 At the end of each of your [turns](../../../rule/combat/turn.md), each enemy [adjacent](../../../rule/combat/adjacent.md) to you takes damage equal to your [Might](../../../rule/character/might.md) score.
 
-## Unstoppable Force {data-scc="mcdm.heroes.v1/feature.fury.level-2/unstoppable-force"}
+## Unstoppable Force {data-scc="mcdm.heroes.v1/feature.fury.level-2/unstoppable-force" data-subclass="berserker"}
 
 Whenever you use the [Charge](../../common/main-actions/charge.md) main action, you can use a [strike](../../../rule/combat/strike.md) [signature ability](../../../rule/combat/signature-ability.md) or a [strike](../../../rule/combat/strike.md) [heroic ability](../../../rule/general/heroic-ability.md) instead of a [free strike](../../common/main-actions/free-strike.md). Additionally, you can jump as part of your charge.

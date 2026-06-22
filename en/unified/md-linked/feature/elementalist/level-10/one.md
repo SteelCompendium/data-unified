@@ -17,19 +17,19 @@ You become the embodiment of the element of your chosen specialization. Whenever
 | Green          | [Master of Green](master-of-green.md) |
 | Void           | [Master of Void](master-of-void.md)  |
 
-## Master of Earth {data-scc="mcdm.heroes.v1/feature.elementalist.level-10/master-of-earth"}
+## Master of Earth {data-scc="mcdm.heroes.v1/feature.elementalist.level-10/master-of-earth" data-subclass="earth"}
 
 You have [damage immunity](../../../rule/damage/damage-immunity.md) 5.
 
 Additionally, as a [respite](../../../rule/resource/respite.md) activity, you can shape the mundane earth around you in a 1-mile radius. You can open sinkholes, form mountains, level mundane structures or whole settlements, create canyons, raise islands or sink them in the sea, and perform similar feats. You can't use this [respite](../../../rule/resource/respite.md) activity if another creature within 1 mile is already using it. Once you use this [respite](../../../rule/resource/respite.md) activity, you can't use it again for 10 days.
 
-## Master of Fire {data-scc="mcdm.heroes.v1/feature.elementalist.level-10/master-of-fire"}
+## Master of Fire {data-scc="mcdm.heroes.v1/feature.elementalist.level-10/master-of-fire" data-subclass="fire"}
 
 The damage [bonus](../../../rule/dice/bonuses-and-penalties.md) of your Acolyte of Fire feature increases to +5 and applies to all your magic abilities.
 
 Additionally, your [Return to Formlessness](../../ability/elementalist/level-1/return-to-formlessness.md) ability can be used on [supernatural](../../../rule/general/supernatural.md) objects (but not on artifacts). When you melt a treasure (see Chapter 13: [Rewards](../../../chapter/rewards.md)), you gain breath equal to its [echelon](../../../rule/general/echelon.md).
 
-## Master of Green {data-scc="mcdm.heroes.v1/feature.elementalist.level-10/master-of-green"}
+## Master of Green {data-scc="mcdm.heroes.v1/feature.elementalist.level-10/master-of-green" data-subclass="green"}
 
 The number of [Recoveries](../../../rule/health/recoveries.md) you have increases by 2, and each time you finish a [respite](../../../rule/resource/respite.md), you can grant each ally who finished the [respite](../../../rule/resource/respite.md) with you 2 additional [Recoveries](../../../rule/health/recoveries.md). Your allies' additional [Recoveries](../../../rule/health/recoveries.md) disappear when they finish their next [respite](../../../rule/resource/respite.md).
 
@@ -37,7 +37,7 @@ Additionally, as a [respite](../../../rule/resource/respite.md) activity, you ca
 
 As a maneuver, a creature can consume a Life Fruit or feed it to an [adjacent](../../../rule/combat/adjacent.md) willing ally. When a creature eats a Life Fruit, they restore all their [Stamina](../../../rule/health/stamina.md), they can end all [conditions](../../../rule/combat/condition.md) or effects on themself, and they can stand up if [prone](../../../condition/prone.md). Additionally, if the creature desires, their aging pauses for 1d10 years. If the creature eats additional Life Fruit and chooses to pause their aging, the effects don't stack. Instead, the creature gains the benefit from the Life Fruit that pauses their aging for the longest time.
 
-## Master of Void {data-scc="mcdm.heroes.v1/feature.elementalist.level-10/master-of-void"}
+## Master of Void {data-scc="mcdm.heroes.v1/feature.elementalist.level-10/master-of-void" data-subclass="void"}
 
 Whenever you willingly move, you can [teleport](../../../movement/teleport.md).
 

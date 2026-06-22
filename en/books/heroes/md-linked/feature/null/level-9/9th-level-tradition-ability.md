@@ -12,7 +12,7 @@ Your [null tradition](../level-1/null-tradition.md) grants your choice of one of
 
 Choose one of the following abilities.
 
-### Arrestor Cycle {data-scc="mcdm.heroes.v1/feature.ability.null.level-9/arrestor-cycle" data-cost="11 Discipline"}
+### Arrestor Cycle {data-scc="mcdm.heroes.v1/feature.ability.null.level-9/arrestor-cycle" data-cost="11 Discipline" data-subclass="chronokinetic"}
 
 
 *You trap your foe in a looping cycle of time, where they relive the last few seconds over and over again.*
@@ -31,7 +31,7 @@ Choose one of the following abilities.
 
 **Effect:** If the target loses their [turn](../../../rule/combat/turn.md), the round continues as if they had acted. A target who doesn't lose their [turn](../../../rule/combat/turn.md) takes psychic damage equal to twice your [Intuition](../../../rule/character/intuition.md) score for each main action they take until the end of their next [turn](../../../rule/combat/turn.md).
 
-### Time Loop {data-scc="mcdm.heroes.v1/feature.ability.null.level-9/time-loop" data-cost="11 Discipline"}
+### Time Loop {data-scc="mcdm.heroes.v1/feature.ability.null.level-9/time-loop" data-cost="11 Discipline" data-subclass="chronokinetic"}
 
 
 *You show shadows what true [speed](../../../rule/character/speed.md) is.*
@@ -48,7 +48,7 @@ Choose one of the following abilities.
 
 Choose one of the following abilities.
 
-### Absolute Zero {data-scc="mcdm.heroes.v1/feature.ability.null.level-9/absolute-zero" data-cost="11 Discipline"}
+### Absolute Zero {data-scc="mcdm.heroes.v1/feature.ability.null.level-9/absolute-zero" data-cost="11 Discipline" data-subclass="cryokinetic"}
 
 
 *You become the coldest thing in the timescape.*
@@ -65,7 +65,7 @@ Choose one of the following abilities.
 
 **Effect:** Until the end of the encounter or until you are dead, you become an avatar of uttermost cold. You gain immunity to all damage equal to the cold [damage immunity](../../../rule/damage/damage-immunity.md) granted by your [Entropic Adaptability](../level-2/entropic-adaptability.md) trait, you ignore the negative effects of [dying](../../../rule/health/dying.md), and you have a +2 [bonus](../../../rule/dice/bonuses-and-penalties.md) to [potencies](../../../rule/character/potency.md).
 
-### Heat Drain {data-scc="mcdm.heroes.v1/feature.ability.null.level-9/heat-drain" data-cost="11 Discipline"}
+### Heat Drain {data-scc="mcdm.heroes.v1/feature.ability.null.level-9/heat-drain" data-cost="11 Discipline" data-subclass="cryokinetic"}
 
 
 *You drain all the heat from the target.*
@@ -86,7 +86,7 @@ Choose one of the following abilities.
 
 Choose one of the following abilities.
 
-### Inertial Absorption {data-scc="mcdm.heroes.v1/feature.ability.null.level-9/inertial-absorption" data-cost="11 Discipline"}
+### Inertial Absorption {data-scc="mcdm.heroes.v1/feature.ability.null.level-9/inertial-absorption" data-cost="11 Discipline" data-subclass="metakinetic"}
 
 
 *You absorb an attack to empower your body.*
@@ -99,7 +99,7 @@ Choose one of the following abilities.
 
 **Effect:** You take half the damage, negate any effects associated with the damage for you, and gain 3 [surges](../../../rule/resource/surge.md).
 
-### Realitas {data-scc="mcdm.heroes.v1/feature.ability.null.level-9/realitas" data-cost="11 Discipline"}
+### Realitas {data-scc="mcdm.heroes.v1/feature.ability.null.level-9/realitas" data-cost="11 Discipline" data-subclass="metakinetic"}
 
 
 *Your essential hyperreality disrupts your enemy's connection to existence.*

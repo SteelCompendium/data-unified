@@ -8,7 +8,7 @@ type: feature
 
 You have the following ability.
 
-## Summon Source of Earth {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-8/summon-source-of-earth"}
+## Summon Source of Earth {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-8/summon-source-of-earth" data-subclass="earth"}
 
 
 *The ground rumbles as an elemental [bursts](../../../rule/combat/burst.md) forth, ready to serve.*

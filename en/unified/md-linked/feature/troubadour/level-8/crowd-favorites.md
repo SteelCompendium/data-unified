@@ -9,7 +9,7 @@ type: feature
 
 You have the following performance abilities, which are usable with your [Routines](../level-1/routines.md) feature.
 
-## Moonlight Sonata {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-8/moonlight-sonata"}
+## Moonlight Sonata {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-8/moonlight-sonata" data-subclass="virtuoso"}
 
 
 *Music pours out of your heart, filling the area with the utmost delicacy and without damper.*
@@ -20,7 +20,7 @@ You have the following performance abilities, which are usable with your [Routin
 
 **Effect:** While this performance is active, each target who is dead can choose to continue taking [turns](../../../rule/combat/turn.md) after death. On each of their [turns](../../../rule/combat/turn.md), a target can move and use either a main action or a maneuver, but can't spend [Recoveries](../../../rule/health/recoveries.md) or use [triggered actions](../../../rule/combat/triggered-action.md). At the end of the encounter, each target who chose to take [turns](../../../rule/combat/turn.md) this way turns to dust and blows away.
 
-## Radical Fantasia {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-8/radical-fantasia"}
+## Radical Fantasia {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-8/radical-fantasia" data-subclass="virtuoso"}
 
 
 *𝅘𝅥𝅮♪Viras, my Viras, will you hold their hands as they cryyy—aaaiigh?♪*

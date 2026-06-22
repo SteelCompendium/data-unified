@@ -9,7 +9,7 @@ type: feature
 
 You have the following performance ability, which is usable with your [Routines](routines.md) feature.
 
-## Acrobatics {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-1/acrobatics"}
+## Acrobatics {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-1/acrobatics" data-subclass="duelist"}
 
 
 *Folks love a good tumble.*

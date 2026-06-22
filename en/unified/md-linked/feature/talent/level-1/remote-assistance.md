@@ -8,7 +8,7 @@ type: feature
 
 You have the following ability.
 
-## Remote Assistance {data-scc="mcdm.heroes.v1/feature.ability.talent.level-1/remote-assistance"}
+## Remote Assistance {data-scc="mcdm.heroes.v1/feature.ability.talent.level-1/remote-assistance" data-subclass="telepathy"}
 
 
 *An ally gains the benefit of your intellect.*

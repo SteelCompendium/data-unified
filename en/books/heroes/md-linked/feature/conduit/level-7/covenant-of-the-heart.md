@@ -9,7 +9,7 @@ type: feature
 
 You can maintain bonds with up to three willing creatures using your Invocation of the Heart feature. Additionally, you have the following ability.
 
-## Guided to Your Side {data-scc="mcdm.heroes.v1/feature.ability.conduit.level-7/guided-to-your-side"}
+## Guided to Your Side {data-scc="mcdm.heroes.v1/feature.ability.conduit.level-7/guided-to-your-side" data-subclass="love"}
 
 
 *You concentrate on a friend and [teleport](../../../movement/teleport.md) to them.*

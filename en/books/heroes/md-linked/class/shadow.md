@@ -108,7 +108,7 @@ Your [shadow college](../feature/shadow/level-1/shadow-college.md) grants you on
 
 You have the following ability.
 
-##### Black Ash Teleport {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-1/black-ash-teleport"}
+##### Black Ash Teleport {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-1/black-ash-teleport" data-subclass="black-ash"}
 
 
 *In a swirl of black ash, you step from one place to another.*
@@ -125,7 +125,7 @@ You have the following ability.
 
 You have the following ability.
 
-##### Coat the Blade {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-1/coat-the-blade"}
+##### Coat the Blade {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-1/coat-the-blade" data-subclass="caustic-alchemy"}
 
 
 *A little poison goes a long way.*
@@ -142,7 +142,7 @@ You have the following ability.
 
 You have the following ability.
 
-##### I'm No Threat {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-1/im-no-threat"}
+##### I'm No Threat {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-1/im-no-threat" data-subclass="harlequin-mask"}
 
 
 *Taking on an illusory countenance gives you an advantage on [subterfuge](../feature/shadow/level-10/subterfuge.md).*
@@ -157,7 +157,7 @@ The illusion ends when you harm another creature, when you physically interact w
 
 **Spend 1 Insight:** Choose a creature whose [size](../rule/character/size.md) is no more than 1 greater than yours and who is within 10 squares. This ability's illusion makes you appear as that creature. This illusion covers your entire body, including clothing and armor, and alters your voice to sound like that of the creature. You gain an [edge](../rule/dice/edge.md) on [tests](../rule/test/test.md) made to convince the creature's allies that you are the creature.
 
-#### Smoke Bomb {data-scc="mcdm.heroes.v1/feature.shadow.level-1/smoke-bomb"}
+#### Smoke Bomb {data-scc="mcdm.heroes.v1/feature.shadow.level-1/smoke-bomb" data-subclass="caustic-alchemy"}
 
 You always carry a supply of smoke bombs to use for distractions and easy getaways. You can use the [Hide](../feature/common/maneuvers/hide.md) maneuver even if you are observed and don't initially have [cover](../rule/combat/cover.md) or [concealment](../rule/combat/concealment.md). When you do so, you can [shift](../movement/shifting.md) a number of squares equal to your [Agility](../rule/character/agility.md) score. If you end this movement with [cover](../rule/combat/cover.md) or [concealment](../rule/combat/concealment.md), you are automatically hidden.
 
@@ -173,7 +173,7 @@ Your [shadow college](../feature/shadow/level-1/shadow-college.md) grants you a 
 | Caustic Alchemy | [Defensive Roll](../feature/ability/shadow/level-1/defensive-roll.md)        |
 | Harlequin Mask  | [Clever Trick](../feature/ability/shadow/level-1/clever-trick.md)          |
 
-##### Clever Trick {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-1/clever-trick" data-cost="1 Insight"}
+##### Clever Trick {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-1/clever-trick" data-cost="1 Insight" data-subclass="harlequin-mask"}
 
 
 *You sow a moment of confusion in combat, to your enemy's peril.*
@@ -186,7 +186,7 @@ Your [shadow college](../feature/shadow/level-1/shadow-college.md) grants you a 
 
 **Effect:** Choose an enemy within [distance](../rule/combat/distance.md) of the triggering strike, including the enemy who targeted you. The [strike](../rule/combat/strike.md) targets that enemy instead.
 
-##### Defensive Roll {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-1/defensive-roll"}
+##### Defensive Roll {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-1/defensive-roll" data-subclass="caustic-alchemy"}
 
 
 *When an enemy attacks, you roll with the impact to reduce the harm.*
@@ -201,7 +201,7 @@ Your [shadow college](../feature/shadow/level-1/shadow-college.md) grants you a 
 
 **Spend 1 Insight:** The [potency](../rule/character/potency.md) of any effects associated with the damage are reduced by 1 for you.
 
-##### In All This Confusion {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-1/in-all-this-confusion"}
+##### In All This Confusion {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-1/in-all-this-confusion" data-subclass="black-ash"}
 
 
 *You vanish in a plume of black smoke to avoid danger.*
@@ -467,17 +467,17 @@ Your [shadow college](../feature/shadow/level-1/shadow-college.md) grants you a 
 | Caustic Alchemy            | [Trained Assassin](../feature/shadow/level-2/trained-assassin.md) |
 | Harlequin Mask             | Friend!          |
 
-#### Burning Ash {data-scc="mcdm.heroes.v1/feature.shadow.level-2/burning-ash"}
+#### Burning Ash {data-scc="mcdm.heroes.v1/feature.shadow.level-2/burning-ash" data-subclass="black-ash"}
 
 The ash you leave behind burns your foes. The first time on a [turn](../rule/combat/turn.md) that you use a shadow ability to [teleport](../movement/teleport.md) away from or into a space [adjacent](../rule/combat/adjacent.md) to an enemy, that enemy takes fire damage equal to your [Agility](../rule/character/agility.md) score.
 
-#### Friend! {data-scc="mcdm.heroes.v1/feature.shadow.level-2/friend"}
+#### Friend! {data-scc="mcdm.heroes.v1/feature.shadow.level-2/friend" data-subclass="harlequin-mask"}
 
 Your illusions make your enemies believe you are their friend in critical moments. Whenever an enemy uses an ability or trait that targets multiple allies and you are within [distance](../rule/combat/distance.md) of the effect, you can choose to be a target of the effect as well.
 
 Additionally, when you use your [I'm No Threat](../feature/ability/shadow/level-1/im-no-threat.md) ability, you can take the [Disengage](../feature/common/move-actions/disengage.md) move action as part of that ability.
 
-#### Trained Assassin {data-scc="mcdm.heroes.v1/feature.shadow.level-2/trained-assassin"}
+#### Trained Assassin {data-scc="mcdm.heroes.v1/feature.shadow.level-2/trained-assassin" data-subclass="caustic-alchemy"}
 
 You know just where to cut your enemies. Whenever you make a [strike](../rule/combat/strike.md) that has no [bane](../rule/dice/bane.md) or double [bane](../rule/dice/bane.md), and that incorporates 1 or more [surges](../rule/resource/surge.md), you gain 1 additional [surge](../rule/resource/surge.md) that you can use only on that [strike](../rule/combat/strike.md).
 
@@ -489,7 +489,7 @@ Your [shadow college](../feature/shadow/level-1/shadow-college.md) grants your c
 
 Choose one of the following abilities.
 
-##### In a Puff of Ash {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-2/in-a-puff-of-ash" data-cost="5 Insight"}
+##### In a Puff of Ash {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-2/in-a-puff-of-ash" data-cost="5 Insight" data-subclass="black-ash"}
 
 
 *You enchant a [strike](../rule/combat/strike.md) with your [teleport](../movement/teleport.md)ation magic.*
@@ -504,7 +504,7 @@ Choose one of the following abilities.
 - **12-16:** 10 + A damage; you can [teleport](../movement/teleport.md) the target up to 3 squares
 - **17+:** 14 + A damage; you can [teleport](../movement/teleport.md) the target up to 5 squares
 
-##### Too Slow {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-2/too-slow" data-cost="5 Insight"}
+##### Too Slow {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-2/too-slow" data-cost="5 Insight" data-subclass="black-ash"}
 
 
 *Your foe made a big mistake.*
@@ -521,7 +521,7 @@ Choose one of the following abilities.
 
 Choose one of the following abilities.
 
-##### Sticky Bomb {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-2/sticky-bomb" data-cost="5 Insight"}
+##### Sticky Bomb {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-2/sticky-bomb" data-cost="5 Insight" data-subclass="caustic-alchemy"}
 
 
 *Explosives are best when they're attached to an enemy.*
@@ -538,7 +538,7 @@ Choose one of the following abilities.
 - **12-16:** 7 + A fire damage
 - **17+:** 11 + A fire damage
 
-##### Stink Bomb {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-2/stink-bomb" data-cost="5 Insight"}
+##### Stink Bomb {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-2/stink-bomb" data-cost="5 Insight" data-subclass="caustic-alchemy"}
 
 
 *Putrid yellow gas explodes from a bomb you toss.*
@@ -559,7 +559,7 @@ Choose one of the following abilities.
 
 Choose one of the following abilities.
 
-##### Machinations of Sound {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-2/machinations-of-sound" data-cost="5 Insight"}
+##### Machinations of Sound {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-2/machinations-of-sound" data-cost="5 Insight" data-subclass="harlequin-mask"}
 
 
 *Illusory sounds make your foes reposition themselves as they cower or investigate the disturbance.*
@@ -576,7 +576,7 @@ Choose one of the following abilities.
 
 **Effect:** This [forced movement](../movement/forced-movement.md) ignores [stability](../rule/character/stability.md). Instead, the [forced movement](../movement/forced-movement.md) is reduced by a number equal to the target's [Intuition](../rule/character/intuition.md) score.
 
-##### So Gullible {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-2/so-gullible" data-cost="5 Insight"}
+##### So Gullible {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-2/so-gullible" data-cost="5 Insight" data-subclass="harlequin-mask"}
 
 
 *When your enemy strikes, you reveal you were in a different place all along.*
@@ -729,19 +729,19 @@ Your [shadow college](../feature/shadow/level-1/shadow-college.md) grants you a 
 | Caustic Alchemy | [Volatile Reagents](../feature/shadow/level-5/volatile-reagents.md) |
 | Harlequin Mask  | [Harlequin Gambit](../feature/shadow/level-5/harlequin-gambit.md)  |
 
-#### Harlequin Gambit {data-scc="mcdm.heroes.v1/feature.shadow.level-5/harlequin-gambit"}
+#### Harlequin Gambit {data-scc="mcdm.heroes.v1/feature.shadow.level-5/harlequin-gambit" data-subclass="harlequin-mask"}
 
 Whenever you reduce an [adjacent](../rule/combat/adjacent.md) non-minion creature to 0 [Stamina](../rule/health/stamina.md), you can immediately use a [free maneuver](../rule/combat/free-maneuver.md) to use your [I'm No Threat](../feature/ability/shadow/level-1/im-no-threat.md) ability and then move up to your [speed](../rule/character/speed.md).
 
 If the creature is the same [size](../rule/character/size.md) as you, you can disguise yourself as them using [I'm No Threat](../feature/ability/shadow/level-1/im-no-threat.md) without spending insight. If you do, while [I'm No Threat](../feature/ability/shadow/level-1/im-no-threat.md) is active, the creature's body is disguised to look like your body. The illusion ends on their body if another creature physically interacts with it. When the illusion would end for either you or the creature's body, it ends for both.
 
-#### Trail of Cinders {data-scc="mcdm.heroes.v1/feature.shadow.level-5/trail-of-cinders"}
+#### Trail of Cinders {data-scc="mcdm.heroes.v1/feature.shadow.level-5/trail-of-cinders" data-subclass="black-ash"}
 
 Whenever you reduce a non-minion creature to 0 [Stamina](../rule/health/stamina.md), you can immediately use a [free maneuver](../rule/combat/free-maneuver.md) to use your [Black Ash Teleport](../feature/ability/shadow/level-1/black-ash-teleport.md) ability.
 
 Additionally, you can now bring an [adjacent](../rule/combat/adjacent.md) willing creature along with you whenever you use a shadow ability to [teleport](../movement/teleport.md). The creature appears in an unoccupied space [adjacent](../rule/combat/adjacent.md) to the space into which you [teleport](../movement/teleport.md)ed. If no such space exists, they can't [teleport](../movement/teleport.md) with you.
 
-#### Volatile Reagents {data-scc="mcdm.heroes.v1/feature.shadow.level-5/volatile-reagents"}
+#### Volatile Reagents {data-scc="mcdm.heroes.v1/feature.shadow.level-5/volatile-reagents" data-subclass="caustic-alchemy"}
 
 Whenever you take damage, each enemy [adjacent](../rule/combat/adjacent.md) to you takes fire, acid, or poison damage (your choice) equal to your [Agility](../rule/character/agility.md) score.
 
@@ -841,7 +841,7 @@ Your [shadow college](../feature/shadow/level-1/shadow-college.md) grants your c
 
 Choose one of the following abilities.
 
-##### Black Ash Eruption {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-6/black-ash-eruption" data-cost="9 Insight"}
+##### Black Ash Eruption {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-6/black-ash-eruption" data-cost="9 Insight" data-subclass="black-ash"}
 
 
 *Your attack produces a cloud of black ash that launches an enemy into the air.*
@@ -858,7 +858,7 @@ Choose one of the following abilities.
 
 **Effect:** A creature [force moved](../movement/forced-movement.md) by this ability must be moved straight upward.
 
-##### Cinderstorm {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-6/cinderstorm" data-cost="9 Insight"}
+##### Cinderstorm {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-6/cinderstorm" data-cost="9 Insight" data-subclass="black-ash"}
 
 
 *You [teleport](../movement/teleport.md) your friends in a burst of ash and fire.*
@@ -873,7 +873,7 @@ Choose one of the following abilities.
 
 Choose one of the following abilities.
 
-##### One Vial Makes You Better {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-6/one-vial-makes-you-better" data-cost="9 Insight"}
+##### One Vial Makes You Better {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-6/one-vial-makes-you-better" data-cost="9 Insight" data-subclass="caustic-alchemy"}
 
 
 *A well-timed throw of a potion will keep your allies in the fight.*
@@ -886,7 +886,7 @@ Choose one of the following abilities.
 
 A creature who drinks the potion can spend up to 2 [Recoveries](../rule/health/recoveries.md), and has acid immunity, fire immunity, or poison immunity (their choice) equal to your level until the end of the encounter.
 
-##### One Vial Makes You Faster {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-6/one-vial-makes-you-faster" data-cost="9 Insight"}
+##### One Vial Makes You Faster {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-6/one-vial-makes-you-faster" data-cost="9 Insight" data-subclass="caustic-alchemy"}
 
 
 *Each ally who catches a potion you throw can take the battle to the next level.*
@@ -909,7 +909,7 @@ A creature who drinks the potion receives benefits based on your [power roll](..
 
 Choose one of the following abilities.
 
-##### Look! {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-6/look" data-cost="9 Insight"}
+##### Look! {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-6/look" data-cost="9 Insight" data-subclass="harlequin-mask"}
 
 
 *You distract your foes, allowing your allies to take advantage of that distraction.*
@@ -920,7 +920,7 @@ Choose one of the following abilities.
 
 **Effect:** Until the start of your next [turn](../rule/combat/turn.md), any [ability roll](../rule/dice/ability-roll.md) made against a target gains an [edge](../rule/dice/edge.md).
 
-##### Puppet Strings {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-6/puppet-strings" data-cost="9 Insight"}
+##### Puppet Strings {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-6/puppet-strings" data-cost="9 Insight" data-subclass="harlequin-mask"}
 
 
 *You prick little needles on the tips of your fingers into the nerves of your enemies and cause them to lose control.*
@@ -981,19 +981,19 @@ Your [shadow college](../feature/shadow/level-1/shadow-college.md) grants you a 
 | Caustic Alchemy | [Time Bomb](../feature/ability/shadow/level-8/time-bomb.md)   |
 | Harlequin Mask  | [Parkour](../feature/shadow/level-8/parkour.md)     |
 
-#### Cinder Step {data-scc="mcdm.heroes.v1/feature.shadow.level-8/cinder-step"}
+#### Cinder Step {data-scc="mcdm.heroes.v1/feature.shadow.level-8/cinder-step" data-subclass="black-ash"}
 
 Whenever you willingly move, you can [teleport](../movement/teleport.md). When you [teleport](../movement/teleport.md) this way, it counts as using a shadow ability for the purpose of using your [Burning Ash](../feature/shadow/level-2/burning-ash.md) and [Trail of Cinders](../feature/shadow/level-5/trail-of-cinders.md) features.
 
-#### Parkour {data-scc="mcdm.heroes.v1/feature.shadow.level-8/parkour"}
+#### Parkour {data-scc="mcdm.heroes.v1/feature.shadow.level-8/parkour" data-subclass="harlequin-mask"}
 
 Your movement no longer provokes [opportunity attacks](../rule/combat/opportunity-attack.md). Additionally, you can use your [Harlequin Gambit](../feature/shadow/level-5/harlequin-gambit.md) feature as a free [triggered action](../rule/combat/triggered-action.md) when a creature is reduced to 0 [Stamina](../rule/health/stamina.md) by your [Clever Trick](../feature/ability/shadow/level-1/clever-trick.md) ability.
 
-#### Time Bomb {data-scc="mcdm.heroes.v1/feature.shadow.level-8/time-bomb"}
+#### Time Bomb {data-scc="mcdm.heroes.v1/feature.shadow.level-8/time-bomb" data-subclass="caustic-alchemy"}
 
 You have [damage immunity](../rule/damage/damage-immunity.md) against area abilities and effects equal to your [Agility](../rule/character/agility.md) score. You also have the following ability, which you can use once per round on your [turn](../rule/combat/turn.md).
 
-##### Time Bomb {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-8/time-bomb"}
+##### Time Bomb {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-8/time-bomb" data-subclass="caustic-alchemy"}
 
 
 *The longer it cooks, the bigger the boom.*
@@ -1088,7 +1088,7 @@ Your [shadow college](../feature/shadow/level-1/shadow-college.md) grants your c
 
 Choose one of the following abilities.
 
-##### Cacophony of Cinders {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-9/cacophony-of-cinders" data-cost="11 Insight"}
+##### Cacophony of Cinders {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-9/cacophony-of-cinders" data-cost="11 Insight" data-subclass="black-ash"}
 
 
 *You tumble through the battle, stabbing foes and [teleporting](../movement/teleport.md) allies.*
@@ -1105,7 +1105,7 @@ Choose one of the following abilities.
 - **12-16:** An enemy takes 10 damage; an ally can [teleport](../movement/teleport.md) up to 5 squares.
 - **17+:** An enemy takes 14 damage; an ally can [teleport](../movement/teleport.md) up to 7 squares.
 
-##### Demon Door {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-9/demon-door" data-cost="11 Insight"}
+##### Demon Door {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-9/demon-door" data-cost="11 Insight" data-subclass="black-ash"}
 
 
 *You create a temporary portal to allow a massive demonic hand to reach through.*
@@ -1126,7 +1126,7 @@ Choose one of the following abilities.
 
 Choose one of the following abilities.
 
-##### Chain Reaction {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-9/chain-reaction" data-cost="11 Insight"}
+##### Chain Reaction {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-9/chain-reaction" data-cost="11 Insight" data-subclass="caustic-alchemy"}
 
 
 *One explosion, an offense. Three explosions, an assault. Nine explosions, a celebration.*
@@ -1143,7 +1143,7 @@ Choose one of the following abilities.
 - **12-16:** 10 damage
 - **17+:** 15 damage
 
-##### To the Stars {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-9/to-the-stars" data-cost="11 Insight"}
+##### To the Stars {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-9/to-the-stars" data-cost="11 Insight" data-subclass="caustic-alchemy"}
 
 
 *You attach your most potent explosive to your foe. Under less pressing circumstances, you're sure you could launch them into orbit.*
@@ -1164,7 +1164,7 @@ Choose one of the following abilities.
 
 Choose one of the following abilities.
 
-##### I Am You {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-9/i-am-you" data-cost="11 Insight"}
+##### I Am You {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-9/i-am-you" data-cost="11 Insight" data-subclass="harlequin-mask"}
 
 
 *Your mask reflects your foe's face. Surely they won't need it much longer.*
@@ -1175,7 +1175,7 @@ Choose one of the following abilities.
 
 **Effect:** Until the end of the encounter, you gain the target's damage immunities and [speed](../rule/character/speed.md) (if they are better than yours), and can use any types of movement they can use. You can also use the target's [signature ability](../rule/combat/signature-ability.md), using their [bonus](../rule/dice/bonuses-and-penalties.md) for the [power roll](../rule/dice/power-roll.md).
 
-##### It Was Me All Along {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-9/it-was-me-all-along" data-cost="11 Insight"}
+##### It Was Me All Along {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-9/it-was-me-all-along" data-cost="11 Insight" data-subclass="harlequin-mask"}
 
 
 *After everything you've been through together, you twist the blade and make the pain extra personal.*

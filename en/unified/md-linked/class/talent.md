@@ -185,7 +185,7 @@ Your [talent tradition](../feature/talent/level-1/talent-tradition.md) grants yo
 
 You have the following ability.
 
-##### Accelerate {data-scc="mcdm.heroes.v1/feature.ability.talent.level-1/accelerate"}
+##### Accelerate {data-scc="mcdm.heroes.v1/feature.ability.talent.level-1/accelerate" data-subclass="chronopathy"}
 
 
 *To your ally, it seems as though the world has slowed down.*
@@ -202,7 +202,7 @@ You have the following ability.
 
 You have the following ability.
 
-##### Again {data-scc="mcdm.heroes.v1/feature.ability.talent.level-1/again"}
+##### Again {data-scc="mcdm.heroes.v1/feature.ability.talent.level-1/again" data-subclass="chronopathy"}
 
 
 *You step back a split second to see if things play out a little differently.*
@@ -219,7 +219,7 @@ You have the following ability.
 
 You have the following ability.
 
-##### Feedback Loop {data-scc="mcdm.heroes.v1/feature.ability.talent.level-1/feedback-loop"}
+##### Feedback Loop {data-scc="mcdm.heroes.v1/feature.ability.talent.level-1/feedback-loop" data-subclass="telepathy"}
 
 
 *Creating a brief psychic link between an enemy and their target gives that foe a taste of their own medicine.*
@@ -236,7 +236,7 @@ You have the following ability.
 
 You have the following ability.
 
-##### Minor Telekinesis {data-scc="mcdm.heroes.v1/feature.ability.talent.level-1/minor-telekinesis"}
+##### Minor Telekinesis {data-scc="mcdm.heroes.v1/feature.ability.talent.level-1/minor-telekinesis" data-subclass="telekinesis"}
 
 
 *Wisps of psychic energy ripple visibly from your brain as you force the target to move using only your mind.*
@@ -255,7 +255,7 @@ You have the following ability.
 
 You have the following ability.
 
-##### Remote Assistance {data-scc="mcdm.heroes.v1/feature.ability.talent.level-1/remote-assistance"}
+##### Remote Assistance {data-scc="mcdm.heroes.v1/feature.ability.talent.level-1/remote-assistance" data-subclass="telepathy"}
 
 
 *An ally gains the benefit of your intellect.*
@@ -273,7 +273,7 @@ You have the following ability.
 
 You have the following ability.
 
-#### Repel {data-scc="mcdm.heroes.v1/feature.ability.talent.level-1/repel"}
+#### Repel {data-scc="mcdm.heroes.v1/feature.ability.talent.level-1/repel" data-subclass="telekinesis"}
 
 
 *They aren't going anywhere, but you might!*
@@ -586,15 +586,15 @@ Your [talent tradition](../feature/talent/level-1/talent-tradition.md) grants yo
 | Telekinesis                  | [Ease Their Fall](../feature/talent/level-2/ease-their-fall.md) |
 | Telepathy                    | [Ease the Mind](../feature/talent/level-2/ease-the-mind.md)   |
 
-#### Ease the Hours {data-scc="mcdm.heroes.v1/feature.talent.level-2/ease-the-hours"}
+#### Ease the Hours {data-scc="mcdm.heroes.v1/feature.talent.level-2/ease-the-hours" data-subclass="chronopathy"}
 
 You can increase the number of rounds in a [montage test](../rule/test/montage-test.md) by 1 if the [test](../rule/test/test.md) would end before the heroes hit the success limit.
 
-#### Ease the Mind {data-scc="mcdm.heroes.v1/feature.talent.level-2/ease-the-mind"}
+#### Ease the Mind {data-scc="mcdm.heroes.v1/feature.talent.level-2/ease-the-mind" data-subclass="telepathy"}
 
 You gain an [edge](../rule/dice/edge.md) on [tests](../rule/test/test.md) made to stop combat and start a negotiation. Additionally, if you are present during a negotiation, any [NPC](../rule/general/npc.md) who has a hostile or suspicious starting attitude has their patience increased by 1 (to a maximum of 5).
 
-#### Ease Their Fall {data-scc="mcdm.heroes.v1/feature.talent.level-2/ease-their-fall"}
+#### Ease Their Fall {data-scc="mcdm.heroes.v1/feature.talent.level-2/ease-their-fall" data-subclass="telekinesis"}
 
 Whenever you land after a fall, or if any falling creature lands within 2 squares of you, you can use a free [triggered action](../rule/combat/triggered-action.md) to reduce the falling damage by an amount equal to 2 + your [Reason](../rule/character/reason.md) score.
 
@@ -606,7 +606,7 @@ Your [talent tradition](../feature/talent/level-1/talent-tradition.md) grants yo
 
 Choose one of the following abilities.
 
-##### Applied Chronometrics {data-scc="mcdm.heroes.v1/feature.ability.talent.level-2/applied-chronometrics" data-cost="5 Clarity"}
+##### Applied Chronometrics {data-scc="mcdm.heroes.v1/feature.ability.talent.level-2/applied-chronometrics" data-cost="5 Clarity" data-subclass="chronopathy"}
 
 
 *Time slows down around you. Your heartbeat is the only gauge of the extra moments you've gained.*
@@ -625,7 +625,7 @@ Choose one of the following abilities.
 
 **Strained:** Your [speed](../rule/character/speed.md) is halved until the end of the encounter.
 
-##### Slow {data-scc="mcdm.heroes.v1/feature.ability.talent.level-2/slow" data-cost="5 Clarity"}
+##### Slow {data-scc="mcdm.heroes.v1/feature.ability.talent.level-2/slow" data-cost="5 Clarity" data-subclass="chronopathy"}
 
 
 *Perhaps they wonder why everyone else is moving so quickly?*
@@ -648,7 +648,7 @@ Choose one of the following abilities.
 
 Choose one of the following abilities.
 
-##### Gravitic Burst {data-scc="mcdm.heroes.v1/feature.ability.talent.level-2/gravitic-burst" data-cost="5 Clarity"}
+##### Gravitic Burst {data-scc="mcdm.heroes.v1/feature.ability.talent.level-2/gravitic-burst" data-cost="5 Clarity" data-subclass="telekinesis"}
 
 
 *Everyone get away from me!*
@@ -665,7 +665,7 @@ Choose one of the following abilities.
 
 **Strained:** The size of the [burst](../rule/combat/burst.md) increases by 1, and you are [weakened](../condition/weakened.md) until the end of your [turn](../rule/combat/turn.md).
 
-##### Levity and Gravity {data-scc="mcdm.heroes.v1/feature.ability.talent.level-2/levity-and-gravity" data-cost="5 Clarity"}
+##### Levity and Gravity {data-scc="mcdm.heroes.v1/feature.ability.talent.level-2/levity-and-gravity" data-cost="5 Clarity" data-subclass="telekinesis"}
 
 
 *You raise the target slightly into the air, then smother them against the ground.*
@@ -686,7 +686,7 @@ Choose one of the following abilities.
 
 Choose one of the following abilities.
 
-##### Overwhelm {data-scc="mcdm.heroes.v1/feature.ability.talent.level-2/overwhelm" data-cost="5 Clarity"}
+##### Overwhelm {data-scc="mcdm.heroes.v1/feature.ability.talent.level-2/overwhelm" data-cost="5 Clarity" data-subclass="telepathy"}
 
 
 *You overload their senses, turning all their subconscious thoughts into conscious ones.*
@@ -703,7 +703,7 @@ Choose one of the following abilities.
 
 **Strained:** You start crying, and you can't use [triggered actions](../rule/combat/triggered-action.md) or make [free strikes](../feature/common/main-actions/free-strike.md) until the end of the target's next [turn](../rule/combat/turn.md).
 
-##### Synaptic Override {data-scc="mcdm.heroes.v1/feature.ability.talent.level-2/synaptic-override" data-cost="5 Clarity"}
+##### Synaptic Override {data-scc="mcdm.heroes.v1/feature.ability.talent.level-2/synaptic-override" data-cost="5 Clarity" data-subclass="telepathy"}
 
 
 *You control an enemy's nervous system. How pleasant for them.*
@@ -856,27 +856,27 @@ Your [talent tradition](../feature/talent/level-1/talent-tradition.md) grants yo
 | Telekinesis | [Kinetic Amplifier](../feature/talent/level-5/kinetic-amplifier.md), [Triangulate](../feature/talent/level-5/triangulate.md)        |
 | Telepathy   | [Compulsion](../feature/talent/level-5/compulsion.md), [Remote Amplification](../feature/talent/level-5/remote-amplification.md)      |
 
-#### Compulsion {data-scc="mcdm.heroes.v1/feature.talent.level-5/compulsion"}
+#### Compulsion {data-scc="mcdm.heroes.v1/feature.talent.level-5/compulsion" data-subclass="telepathy"}
 
 Whenever you obtain a success on a [test](../rule/test/test.md) using a skill from the [interpersonal skill group](../skill/group/interpersonal.md) while interacting with an [NPC](../rule/general/npc.md), you can ask them a question using your [Telepathic Speech](../feature/talent/level-1/telepathic-speech.md) feature. The [NPC](../rule/general/npc.md) must answer the question truthfully to the best of their ability.
 
-#### Distortion Temporal {data-scc="mcdm.heroes.v1/feature.talent.level-5/distortion-temporal"}
+#### Distortion Temporal {data-scc="mcdm.heroes.v1/feature.talent.level-5/distortion-temporal" data-subclass="chronopathy"}
 
 While you are not [dying](../rule/health/dying.md), time behaves irregularly around you in a 3 [aura](../rule/combat/aura.md). That area is [difficult terrain](../movement/difficult-terrain.md) for enemies. Additionally, when an ally enters the area for the first time in a [combat round](../rule/combat/combat-round.md) or starts their turn there, they gain a +2 [bonus](../rule/dice/bonuses-and-penalties.md) to [speed](../rule/character/speed.md) until the end of the [turn](../rule/combat/turn.md).
 
-#### Kinetic Amplifier {data-scc="mcdm.heroes.v1/feature.talent.level-5/kinetic-amplifier"}
+#### Kinetic Amplifier {data-scc="mcdm.heroes.v1/feature.talent.level-5/kinetic-amplifier" data-subclass="telekinesis"}
 
 Whenever you force move a creature, you can spend up to 2 [surges](../rule/resource/surge.md). For each [surge](../rule/resource/surge.md) spent, the [forced movement](../movement/forced-movement.md) [distance](../rule/combat/distance.md) gains a [bonus](../rule/dice/bonuses-and-penalties.md) equal to your [Reason](../rule/character/reason.md) score.
 
-#### Remote Amplification {data-scc="mcdm.heroes.v1/feature.talent.level-5/remote-amplification"}
+#### Remote Amplification {data-scc="mcdm.heroes.v1/feature.talent.level-5/remote-amplification" data-subclass="telepathy"}
 
 The [distance](../rule/combat/distance.md) of your [ranged](../rule/combat/ranged.md) psionic abilities increases by 5. Additionally, the range of your [Telepathic Speech](../feature/talent/level-1/telepathic-speech.md) feature increases to 1 mile.
 
-#### Speed of Thought {data-scc="mcdm.heroes.v1/feature.talent.level-5/speed-of-thought"}
+#### Speed of Thought {data-scc="mcdm.heroes.v1/feature.talent.level-5/speed-of-thought" data-subclass="chronopathy"}
 
 Once per [combat round](../rule/combat/combat-round.md) while you are not [dying](../rule/health/dying.md), you can spend 2 clarity when you use a [triggered action](../rule/combat/triggered-action.md) to [turn](../rule/combat/turn.md) it into a free [triggered action](../rule/combat/triggered-action.md).
 
-#### Triangulate {data-scc="mcdm.heroes.v1/feature.talent.level-5/triangulate"}
+#### Triangulate {data-scc="mcdm.heroes.v1/feature.talent.level-5/triangulate" data-subclass="telekinesis"}
 
 Whenever an ally uses a [ranged](../rule/combat/ranged.md) ability while you are within the ability's [distance](../rule/combat/distance.md), you can spend 1 clarity as a free [triggered action](../rule/combat/triggered-action.md) to allow them to use the ability as if they were in your space.
 
@@ -1002,7 +1002,7 @@ Your [talent tradition](../feature/talent/level-1/talent-tradition.md) grants yo
 
 Choose one of the following abilities.
 
-##### Fate {data-scc="mcdm.heroes.v1/feature.ability.talent.level-6/fate" data-cost="9 Clarity"}
+##### Fate {data-scc="mcdm.heroes.v1/feature.ability.talent.level-6/fate" data-cost="9 Clarity" data-subclass="chronopathy"}
 
 
 *Your foe gets a glimpse of how it will end for them.*
@@ -1021,7 +1021,7 @@ Choose one of the following abilities.
 - **12-16:** 13 + P psychic damage
 - **17+:** 17 + P psychic damage
 
-##### Stasis Field {data-scc="mcdm.heroes.v1/feature.ability.talent.level-6/stasis-field" data-cost="9 Clarity"}
+##### Stasis Field {data-scc="mcdm.heroes.v1/feature.ability.talent.level-6/stasis-field" data-cost="9 Clarity" data-subclass="chronopathy"}
 
 
 *Keep everything as it was. Ignore everything that will be.*
@@ -1046,7 +1046,7 @@ Make a [power roll](../rule/dice/power-roll.md) that targets each enemy in the a
 
 Choose one of the following abilities.
 
-##### Gravitic Well {data-scc="mcdm.heroes.v1/feature.ability.talent.level-6/gravitic-well" data-cost="9 Clarity"}
+##### Gravitic Well {data-scc="mcdm.heroes.v1/feature.ability.talent.level-6/gravitic-well" data-cost="9 Clarity" data-subclass="telekinesis"}
 
 
 *You bend gravity into a fine point and pull your foes toward it.*
@@ -1065,7 +1065,7 @@ Choose one of the following abilities.
 
 **Strained:** The size of the area increases by 2. You also target yourself and each ally within [distance](../rule/combat/distance.md).
 
-##### Greater Kinetic Grip {data-scc="mcdm.heroes.v1/feature.ability.talent.level-6/greater-kinetic-grip" data-cost="9 Clarity"}
+##### Greater Kinetic Grip {data-scc="mcdm.heroes.v1/feature.ability.talent.level-6/greater-kinetic-grip" data-cost="9 Clarity" data-subclass="telekinesis"}
 
 
 *You raise the target into the air without breaking a sweat.*
@@ -1086,7 +1086,7 @@ Choose one of the following abilities.
 
 Choose one of the following abilities.
 
-##### Synaptic Conditioning {data-scc="mcdm.heroes.v1/feature.ability.talent.level-6/synaptic-conditioning" data-cost="9 Clarity"}
+##### Synaptic Conditioning {data-scc="mcdm.heroes.v1/feature.ability.talent.level-6/synaptic-conditioning" data-cost="9 Clarity" data-subclass="telepathy"}
 
 
 *It's a subtle mindset shift. It's not that they're your enemy—you just don't like them!*
@@ -1103,7 +1103,7 @@ Choose one of the following abilities.
 
 **Strained:** While the target is under this effect, you no longer consider your enemies to be your enemies when using your abilities and features.
 
-##### Synaptic Dissipation {data-scc="mcdm.heroes.v1/feature.ability.talent.level-6/synaptic-dissipation" data-cost="9 Clarity"}
+##### Synaptic Dissipation {data-scc="mcdm.heroes.v1/feature.ability.talent.level-6/synaptic-dissipation" data-cost="9 Clarity" data-subclass="telepathy"}
 
 
 *You manipulate your enemies' minds and make them wonder if you were ever really there in the first place.*
@@ -1166,7 +1166,7 @@ Your [talent tradition](../feature/talent/level-1/talent-tradition.md) grants yo
 | Telekinesis | [Levitation Field](../feature/ability/talent/level-8/levitation-field.md), [Low Gravity](../feature/talent/level-8/low-gravity.md)     |
 | Telepathy   | [Mindlink](../feature/talent/level-8/mindlink.md), [Universal Connection](../feature/talent/level-8/universal-connection.md)    |
 
-#### Doubling the Hours {data-scc="mcdm.heroes.v1/feature.talent.level-8/doubling-the-hours"}
+#### Doubling the Hours {data-scc="mcdm.heroes.v1/feature.talent.level-8/doubling-the-hours" data-subclass="chronopathy"}
 
 While you have 5 or more [Victories](../rule/resource/victories.md), you can undertake an additional [respite](../rule/resource/respite.md) activity during a [respite](../rule/resource/respite.md).
 
@@ -1174,7 +1174,7 @@ While you have 5 or more [Victories](../rule/resource/victories.md), you can und
 
 You have the following ability.
 
-##### Levitation Field {data-scc="mcdm.heroes.v1/feature.ability.talent.level-8/levitation-field"}
+##### Levitation Field {data-scc="mcdm.heroes.v1/feature.ability.talent.level-8/levitation-field" data-subclass="telekinesis"}
 
 
 *You manipulate the air around your allies so they can move as freely through the sky as you can.*
@@ -1187,11 +1187,11 @@ You have the following ability.
 
 **Spend 5 Clarity:** The effects last for 1 hour instead.
 
-#### Low Gravity {data-scc="mcdm.heroes.v1/feature.talent.level-8/low-gravity"}
+#### Low Gravity {data-scc="mcdm.heroes.v1/feature.talent.level-8/low-gravity" data-subclass="telekinesis"}
 
 Your mind can carry your body through tough times. You ignore [difficult terrain](../movement/difficult-terrain.md) and don't need to spend additional movement [while prone](../condition/prone.md).
 
-#### Mindlink {data-scc="mcdm.heroes.v1/feature.talent.level-8/mindlink"}
+#### Mindlink {data-scc="mcdm.heroes.v1/feature.talent.level-8/mindlink" data-subclass="telepathy"}
 
 During a [respite](../rule/resource/respite.md), you can choose a number of creatures up to your [Reason](../rule/character/reason.md) score who you have communicated with using your [Telepathic Speech](../feature/talent/level-1/telepathic-speech.md) feature, creating a telepathic link among all of you. Whenever a linked creature spends one or more [Recoveries](../rule/health/recoveries.md), each other linked creature can spend a [Recovery](../rule/health/recoveries.md).
 
@@ -1199,7 +1199,7 @@ During a [respite](../rule/resource/respite.md), you can choose a number of crea
 
 You have the following ability.
 
-#### Stasis Shield {data-scc="mcdm.heroes.v1/feature.ability.talent.level-8/stasis-shield" data-cost="3 Clarity"}
+#### Stasis Shield {data-scc="mcdm.heroes.v1/feature.ability.talent.level-8/stasis-shield" data-cost="3 Clarity" data-subclass="chronopathy"}
 
 
 *You freeze time just long enough to bring the victim to safety!*
@@ -1214,7 +1214,7 @@ You have the following ability.
 
 **Strained:** You can't target yourself, and you take the damage and any additional effects instead of the target.
 
-### Universal Connection {data-scc="mcdm.heroes.v1/feature.talent.level-8/universal-connection"}
+### Universal Connection {data-scc="mcdm.heroes.v1/feature.talent.level-8/universal-connection" data-subclass="telepathy"}
 
 The range of your [Telepathic Speech](../feature/talent/level-1/telepathic-speech.md) feature increases to anywhere on the same world.
 
@@ -1312,7 +1312,7 @@ Your [talent tradition](../feature/talent/level-1/talent-tradition.md) grants yo
 
 Choose one of the following abilities.
 
-##### Acceleration Field {data-scc="mcdm.heroes.v1/feature.ability.talent.level-9/acceleration-field" data-cost="11 Clarity"}
+##### Acceleration Field {data-scc="mcdm.heroes.v1/feature.ability.talent.level-9/acceleration-field" data-cost="11 Clarity" data-subclass="chronopathy"}
 
 
 *You forcibly stuff more moments into a critical point in time, knowing full well you might need to steal some of your own.*
@@ -1331,7 +1331,7 @@ Choose one of the following abilities.
 - **12-16:** 6 corruption damage; [slowed](../condition/slowed.md) (save ends)
 - **17+:** 10 corruption damage; [slowed](../condition/slowed.md) (save ends)
 
-##### Borrow From the Future {data-scc="mcdm.heroes.v1/feature.ability.talent.level-9/borrow-from-the-future" data-cost="11 Clarity"}
+##### Borrow From the Future {data-scc="mcdm.heroes.v1/feature.ability.talent.level-9/borrow-from-the-future" data-cost="11 Clarity" data-subclass="chronopathy"}
 
 
 *You lean on future heroism to assist you in the now.*
@@ -1346,7 +1346,7 @@ Choose one of the following abilities.
 
 Choose one of the following abilities.
 
-##### Fulcrum {data-scc="mcdm.heroes.v1/feature.ability.talent.level-9/fulcrum" data-cost="11 Clarity"}
+##### Fulcrum {data-scc="mcdm.heroes.v1/feature.ability.talent.level-9/fulcrum" data-cost="11 Clarity" data-subclass="telekinesis"}
 
 
 *You precisely manipulate the creatures around you.*
@@ -1365,7 +1365,7 @@ Choose one of the following abilities.
 
 **Strained:** You can choose to reduce the size of the [burst](../rule/combat/burst.md) by 2 (to a minimum of 1 [burst](../rule/combat/burst.md)) to give the [forced movement](../movement/forced-movement.md) [distance](../rule/combat/distance.md) a +2 [bonus](../rule/dice/bonuses-and-penalties.md). You take half the total damage all targets take from [forced movement](../movement/forced-movement.md).
 
-##### Gravitic Nova {data-scc="mcdm.heroes.v1/feature.ability.talent.level-9/gravitic-nova" data-cost="11 Clarity"}
+##### Gravitic Nova {data-scc="mcdm.heroes.v1/feature.ability.talent.level-9/gravitic-nova" data-cost="11 Clarity" data-subclass="telekinesis"}
 
 
 *Unbridled psionic energy erupts from your body and flashes outward, hurling your foes back.*
@@ -1388,7 +1388,7 @@ Choose one of the following abilities.
 
 Choose one of the following abilities.
 
-##### Resonant Mind Spike {data-scc="mcdm.heroes.v1/feature.ability.talent.level-9/resonant-mind-spike" data-cost="11 Clarity"}
+##### Resonant Mind Spike {data-scc="mcdm.heroes.v1/feature.ability.talent.level-9/resonant-mind-spike" data-cost="11 Clarity" data-subclass="telepathy"}
 
 
 *You fire a telepathic bolt empowered by every consciousness within reach directly into your foe's mind.*
@@ -1407,7 +1407,7 @@ Choose one of the following abilities.
 
 **Strained:** The [ability roll](../rule/dice/ability-roll.md) scores a [critical hit](../rule/combat/critical-hit.md) on a natural 17 or higher. You take half the damage the target takes, and you can't reduce this damage in any way.
 
-##### Synaptic Terror {data-scc="mcdm.heroes.v1/feature.ability.talent.level-9/synaptic-terror" data-cost="11 Clarity"}
+##### Synaptic Terror {data-scc="mcdm.heroes.v1/feature.ability.talent.level-9/synaptic-terror" data-cost="11 Clarity" data-subclass="telepathy"}
 
 
 *You project a terrifying image into the brains of your foes, and their fear psionically invigorates your allies.*

@@ -25,7 +25,7 @@ Choose one of your domains. You gain a [heroic ability](../../../rule/general/he
 | Trickery   | [Night Falls](../../ability/conduit/level-9/night-falls.md)              |
 | War        | [Righteous Phalanx](../../ability/conduit/level-9/righteous-phalanx.md)        |
 
-### Alacrity of the Heart {data-scc="mcdm.heroes.v1/feature.ability.conduit.level-9/alacrity-of-the-heart" data-cost="11 Piety"}
+### Alacrity of the Heart {data-scc="mcdm.heroes.v1/feature.ability.conduit.level-9/alacrity-of-the-heart" data-cost="11 Piety" data-subclass="love"}
 
 
 *You speak inspiring words to a friend and spur them to incredible feats.*
@@ -36,7 +36,7 @@ Choose one of your domains. You gain a [heroic ability](../../../rule/general/he
 
 **Effect:** The target has an additional main action they can use on their next [turn](../../../rule/combat/turn.md), and gains 3 of their [Heroic Resource](../../../rule/resource/heroic-resource.md).
 
-### Bend Fate {data-scc="mcdm.heroes.v1/feature.ability.conduit.level-9/bend-fate" data-cost="11 Piety"}
+### Bend Fate {data-scc="mcdm.heroes.v1/feature.ability.conduit.level-9/bend-fate" data-cost="11 Piety" data-subclass="fate"}
 
 
 *The gods know you must prevail, and they bless your fate.*
@@ -47,7 +47,7 @@ Choose one of your domains. You gain a [heroic ability](../../../rule/general/he
 
 **Effect:** Until the end of the encounter or until you are [dying](../../../rule/health/dying.md), each of the target's [power rolls](../../../rule/dice/power-roll.md) has its outcome improved by one tier.
 
-### Blessing of the Fortress {data-scc="mcdm.heroes.v1/feature.ability.conduit.level-9/blessing-of-the-fortress" data-cost="11 Piety"}
+### Blessing of the Fortress {data-scc="mcdm.heroes.v1/feature.ability.conduit.level-9/blessing-of-the-fortress" data-cost="11 Piety" data-subclass="protection"}
 
 
 *A magic circle extends out from you, barring foes from getting close.*
@@ -58,7 +58,7 @@ Choose one of your domains. You gain a [heroic ability](../../../rule/general/he
 
 **Effect:** Until the end of the encounter or until you are [dying](../../../rule/health/dying.md), no enemy can approach within 5 squares of you by moving or by being [force moved](../../../movement/forced-movement.md) by any enemy. Targets can be [force moved](../../../movement/forced-movement.md) closer to you by you or your allies, or can move closer because of your movement.
 
-### Divine Dragon {data-scc="mcdm.heroes.v1/feature.ability.conduit.level-9/divine-dragon" data-cost="11 Piety"}
+### Divine Dragon {data-scc="mcdm.heroes.v1/feature.ability.conduit.level-9/divine-dragon" data-cost="11 Piety" data-subclass="creation"}
 
 
 *From nothing but divine will, you create a powerful ally.*
@@ -85,7 +85,7 @@ Additionally, you can use a maneuver to move the dragon up to their [speed](../.
 - **12-16:** 5 + I damage
 - **17+:** 8 + I damage
 
-### Godstorm {data-scc="mcdm.heroes.v1/feature.ability.conduit.level-9/godstorm" data-cost="11 Piety"}
+### Godstorm {data-scc="mcdm.heroes.v1/feature.ability.conduit.level-9/godstorm" data-cost="11 Piety" data-subclass="storm"}
 
 
 *You summon a divine storm that remains under your control.*
@@ -102,7 +102,7 @@ Additionally, you can use a maneuver to move the dragon up to their [speed](../.
 
 **Effect:** A raging storm fills the area until the end of the encounter or until you are [dying](../../../rule/health/dying.md). At the start of each of your [turns](../../../rule/combat/turn.md), you can move the storm up to 5 squares (no action required). On subsequent [turns](../../../rule/combat/turn.md) while the storm is active, you can use a maneuver to make its [power roll](../../../rule/dice/power-roll.md).
 
-### Night Falls {data-scc="mcdm.heroes.v1/feature.ability.conduit.level-9/night-falls" data-cost="11 Piety"}
+### Night Falls {data-scc="mcdm.heroes.v1/feature.ability.conduit.level-9/night-falls" data-cost="11 Piety" data-subclass="trickery"}
 
 
 *You summon darkness that thwarts only your foes.*
@@ -113,7 +113,7 @@ Additionally, you can use a maneuver to move the dragon up to their [speed](../.
 
 **Effect:** Until the end of the encounter or until you are [dying](../../../rule/health/dying.md), the area is filled with magic darkness that your enemies can't see through, but you and your allies can.
 
-### Radiance of Grace {data-scc="mcdm.heroes.v1/feature.ability.conduit.level-9/radiance-of-grace" data-cost="11 Piety"}
+### Radiance of Grace {data-scc="mcdm.heroes.v1/feature.ability.conduit.level-9/radiance-of-grace" data-cost="11 Piety" data-subclass="life"}
 
 
 *Intense light is emitted from your body, healing your allies.*
@@ -124,7 +124,7 @@ Additionally, you can use a maneuver to move the dragon up to their [speed](../.
 
 **Effect:** You can target yourself instead of one ally with this ability. Each target can spend any number of [Recoveries](../../../rule/health/recoveries.md), can end any effects on them that are ended by a [saving throw](../../../rule/general/saving-throw.md) or that end at the end of their [turn](../../../rule/combat/turn.md), and can stand up if they [are prone](../../../condition/prone.md).
 
-### Righteous Phalanx {data-scc="mcdm.heroes.v1/feature.ability.conduit.level-9/righteous-phalanx" data-cost="11 Piety"}
+### Righteous Phalanx {data-scc="mcdm.heroes.v1/feature.ability.conduit.level-9/righteous-phalanx" data-cost="11 Piety" data-subclass="war"}
 
 
 *A wall of spinning swords and knives appears where you wish.*
@@ -135,7 +135,7 @@ Additionally, you can use a maneuver to move the dragon up to their [speed](../.
 
 **Effect:** The wall lasts until the end of the encounter or until you are [dying](../../../rule/health/dying.md), and can be placed in occupied squares. Creatures can enter and pass through the wall. Each enemy who enters the area for the first time in a [combat round](../../../rule/combat/combat-round.md) or starts their turn there takes 15 damage.
 
-### Solar Flare {data-scc="mcdm.heroes.v1/feature.ability.conduit.level-9/solar-flare" data-cost="11 Piety"}
+### Solar Flare {data-scc="mcdm.heroes.v1/feature.ability.conduit.level-9/solar-flare" data-cost="11 Piety" data-subclass="sun"}
 
 
 *You call down a sphere of fire that burns your foes to ash.*
@@ -150,7 +150,7 @@ Additionally, you can use a maneuver to move the dragon up to their [speed](../.
 - **12-16:** 14 fire damage
 - **17+:** 19 fire damage
 
-### Thorn Cage {data-scc="mcdm.heroes.v1/feature.ability.conduit.level-9/thorn-cage" data-cost="11 Piety"}
+### Thorn Cage {data-scc="mcdm.heroes.v1/feature.ability.conduit.level-9/thorn-cage" data-cost="11 Piety" data-subclass="nature"}
 
 
 *Vines [burst](../../../rule/combat/burst.md) forth from the ground and bind your foe, slowly closing around them.*
@@ -167,7 +167,7 @@ Additionally, you can use a maneuver to move the dragon up to their [speed](../.
 
 **Effect:** While [restrained](../../../condition/restrained.md) this way, the target takes 10 damage at the start of each of your [turns](../../../rule/combat/turn.md).
 
-### Word of Final Redemption {data-scc="mcdm.heroes.v1/feature.ability.conduit.level-9/word-of-final-redemption" data-cost="11 Piety"}
+### Word of Final Redemption {data-scc="mcdm.heroes.v1/feature.ability.conduit.level-9/word-of-final-redemption" data-cost="11 Piety" data-subclass="death"}
 
 
 *Your death will fuel our [victory](../../../rule/resource/victories.md).*
@@ -180,7 +180,7 @@ Additionally, you can use a maneuver to move the dragon up to their [speed](../.
 
 **Effect:** Before the target dies, you can look at their stat block and force them to use one ability that is a main action or a maneuver. If the ability costs a [Heroic Resource](../../../rule/resource/heroic-resource.md) or Malice, the creature can use it without any cost. For the purpose of using this ability, your allies and enemies are the target's allies and enemies, and you decide who the ability targets.
 
-### Word of Weakening {data-scc="mcdm.heroes.v1/feature.ability.conduit.level-9/word-of-weakening" data-cost="11 Piety"}
+### Word of Weakening {data-scc="mcdm.heroes.v1/feature.ability.conduit.level-9/word-of-weakening" data-cost="11 Piety" data-subclass="knowledge"}
 
 
 *You utter a divine word that makes a foe brittle.*

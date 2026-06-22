@@ -16,7 +16,7 @@ Your [troubadour class act](troubadour-class-act.md) grants you a [triggered act
 | Duelist   | [Riposte](../../ability/troubadour/level-1/riposte.md)                |
 | Virtuoso  | [Harmonize](../../ability/troubadour/level-1/harmonize.md)              |
 
-### Harmonize {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-1/harmonize" data-cost="3 Drama"}
+### Harmonize {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-1/harmonize" data-cost="3 Drama" data-subclass="virtuoso"}
 
 
 *Give the chorus a little punch.*
@@ -31,7 +31,7 @@ Your [troubadour class act](troubadour-class-act.md) grants you a [triggered act
 
 **Spend 1+ Drama:** You can trigger this ability when a target uses an ability that has a [Heroic Resource](../../../rule/resource/heroic-resource.md) cost of 3 + each additional drama spent.
 
-### Riposte {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-1/riposte"}
+### Riposte {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-1/riposte" data-subclass="duelist"}
 
 
 *"I'd have brought treats had I known I'd be fighting a dog."*
@@ -44,7 +44,7 @@ Your [troubadour class act](troubadour-class-act.md) grants you a [triggered act
 
 **Effect:** The target makes a [free strike](../../common/main-actions/free-strike.md) against the creature who made the triggering strike.
 
-### Turnabout Is Fair Play {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-1/turnabout-is-fair-play"}
+### Turnabout Is Fair Play {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-1/turnabout-is-fair-play" data-subclass="auteur"}
 
 
 *All's fair in love and whatever.*

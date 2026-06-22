@@ -9,7 +9,7 @@ type: feature
 
 You have the following ability.
 
-## Power Chord {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-1/power-chord"}
+## Power Chord {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-1/power-chord" data-subclass="virtuoso"}
 
 
 *Your instrument rings true and your music blows everyone away.*

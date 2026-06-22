@@ -16,11 +16,11 @@ Your [troubadour class act](troubadour-class-act.md) grants you two features, as
 | Duelist    | [Acrobatics](../../ability/troubadour/level-1/acrobatics.md), [Star Power](../../ability/troubadour/level-1/star-power.md)             |
 | Virtuoso   | [Power Chord](../../ability/troubadour/level-1/power-chord.md), [Virtuoso Performances](virtuoso-performances.md) |
 
-## Acrobatics {data-scc="mcdm.heroes.v1/feature.troubadour.level-1/acrobatics"}
+## Acrobatics {data-scc="mcdm.heroes.v1/feature.troubadour.level-1/acrobatics" data-subclass="duelist"}
 
 You have the following performance ability, which is usable with your [Routines](routines.md) feature.
 
-### Acrobatics {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-1/acrobatics"}
+### Acrobatics {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-1/acrobatics" data-subclass="duelist"}
 
 
 *Folks love a good tumble.*
@@ -31,11 +31,11 @@ You have the following performance ability, which is usable with your [Routines]
 
 **Effect:** While this performance is active, each target who starts their [turn](../../../rule/combat/turn.md) in the area can automatically obtain a tier 3 outcome on one [test](../../../rule/test/test.md) made to jump, tumble, or climb as part of their movement before the end of their [turn](../../../rule/combat/turn.md).
 
-## Blocking {data-scc="mcdm.heroes.v1/feature.troubadour.level-1/blocking"}
+## Blocking {data-scc="mcdm.heroes.v1/feature.troubadour.level-1/blocking" data-subclass="auteur"}
 
 You have the following performance ability, which is usable with your [Routines](routines.md) feature.
 
-### Blocking {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-1/blocking"}
+### Blocking {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-1/blocking" data-subclass="auteur"}
 
 
 *No, no, no, you lose the audience that way. Try it like this...*
@@ -46,11 +46,11 @@ You have the following performance ability, which is usable with your [Routines]
 
 **Effect:** At the end of each of your [turns](../../../rule/combat/turn.md) while this performance is active, you can choose up to a number of targets equal to your [Presence](../../../rule/character/presence.md) score and [teleport](../../../movement/teleport.md) those targets to unoccupied spaces in the area. A target can't be [teleport](../../../movement/teleport.md)ed in a way that would harm them (such as over a cliff), leave them [dying](../../../rule/health/dying.md), or result in them suffering a [condition](../../../rule/combat/condition.md) or other negative effect.
 
-## Dramatic Monologue {data-scc="mcdm.heroes.v1/feature.troubadour.level-1/dramatic-monologue"}
+## Dramatic Monologue {data-scc="mcdm.heroes.v1/feature.troubadour.level-1/dramatic-monologue" data-subclass="auteur"}
 
 You have the following ability.
 
-### Dramatic Monologue {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-1/dramatic-monologue"}
+### Dramatic Monologue {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-1/dramatic-monologue" data-subclass="auteur"}
 
 
 *It doesn't need to make sense. Just say it with emotion.*
@@ -67,11 +67,11 @@ You have the following ability.
 
 **Spend 1 Drama:** You can choose two targets for the chosen effect.
 
-## Power Chord {data-scc="mcdm.heroes.v1/feature.troubadour.level-1/power-chord"}
+## Power Chord {data-scc="mcdm.heroes.v1/feature.troubadour.level-1/power-chord" data-subclass="virtuoso"}
 
 You have the following ability.
 
-### Power Chord {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-1/power-chord"}
+### Power Chord {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-1/power-chord" data-subclass="virtuoso"}
 
 
 *Your instrument rings true and your music blows everyone away.*
@@ -86,11 +86,11 @@ You have the following ability.
 - **12-16:** [Push](../../../movement/forced-movement.md) 2
 - **17+:** [Push](../../../movement/forced-movement.md) 3
 
-## Star Power {data-scc="mcdm.heroes.v1/feature.troubadour.level-1/star-power"}
+## Star Power {data-scc="mcdm.heroes.v1/feature.troubadour.level-1/star-power" data-subclass="duelist"}
 
 You have the following ability.
 
-### Star Power {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-1/star-power" data-cost="1 Drama"}
+### Star Power {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-1/star-power" data-cost="1 Drama" data-subclass="duelist"}
 
 
 *Your years of practicing fencing and dancing pay off on the battlefield.*
@@ -103,11 +103,11 @@ You have the following ability.
 
 **Spend 1 Drama:** You gain a +4 [bonus](../../../rule/dice/bonuses-and-penalties.md) to [speed](../../../rule/character/speed.md) instead.
 
-## Virtuoso Performances {data-scc="mcdm.heroes.v1/feature.troubadour.level-1/virtuoso-performances"}
+## Virtuoso Performances {data-scc="mcdm.heroes.v1/feature.troubadour.level-1/virtuoso-performances" data-subclass="virtuoso"}
 
 You have the following performance abilities, which are usable with your [Routines](routines.md) feature.
 
-### "Thunder Mother" {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-1/thunder-mother"}
+### "Thunder Mother" {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-1/thunder-mother" data-subclass="virtuoso"}
 
 
 *All for thunder motherrr! ♪ Run and hide for coverrr!♪*
@@ -124,7 +124,7 @@ You have the following performance abilities, which are usable with your [Routin
 - **12-16:** Lightning damage equal to 5 + your level
 - **17+:** Lightning damage equal to 10 + your level
 
-### "Ballad of the Beast" {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-1/ballad-of-the-beast"}
+### "Ballad of the Beast" {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-1/ballad-of-the-beast" data-subclass="virtuoso"}
 
 
 *Teeth are bare! ♪ Eyes black! ♪ No escaping the beast!♪*

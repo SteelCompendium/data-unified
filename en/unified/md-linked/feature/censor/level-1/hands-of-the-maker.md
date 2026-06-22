@@ -8,7 +8,7 @@ type: feature
 
 You have the following ability.
 
-## Hands of the Maker {data-scc="mcdm.heroes.v1/feature.ability.censor.level-1/hands-of-the-maker"}
+## Hands of the Maker {data-scc="mcdm.heroes.v1/feature.ability.censor.level-1/hands-of-the-maker" data-subclass="creation"}
 
 
 *You craft objects with the power of your mind.*

@@ -16,16 +16,16 @@ Your [null tradition](../level-1/null-tradition.md) grants you a feature, as sho
 | Cryokinetic   | [Entropic Adaptability](entropic-adaptability.md) |
 | Metakinetic   | [Inertial Sink](inertial-sink.md)         |
 
-## Entropic Adaptability {data-scc="mcdm.heroes.v1/feature.null.level-2/entropic-adaptability"}
+## Entropic Adaptability {data-scc="mcdm.heroes.v1/feature.null.level-2/entropic-adaptability" data-subclass="cryokinetic"}
 
 You have cold immunity equal to twice your [Intuition](../../../rule/character/intuition.md) score. Additionally, you ignore [difficult terrain](../../../movement/difficult-terrain.md) related to cold and ice, and you can automatically climb at full [speed](../../../rule/character/speed.md) while moving.
 
-## Inertial Sink {data-scc="mcdm.heroes.v1/feature.null.level-2/inertial-sink"}
+## Inertial Sink {data-scc="mcdm.heroes.v1/feature.null.level-2/inertial-sink" data-subclass="metakinetic"}
 
 You add your [Intuition](../../../rule/character/intuition.md) score to your effective [size](../../../rule/character/size.md) for the purpose of interacting with creatures and objects, such as for determining whether you can lift an object, whether you are affected by [forced movement](../../../movement/forced-movement.md), and so forth. This has no effect on whether you can be [grabbed](../../../condition/grabbed.md).
 
 Additionally, when you fall, you reduce the effective height of the fall by 5 squares in addition to any other reductions. Whenever you take damage from being [force moved](../../../movement/forced-movement.md), you reduce that damage by an amount equal to your level.
 
-## Rapid Processing {data-scc="mcdm.heroes.v1/feature.null.level-2/rapid-processing"}
+## Rapid Processing {data-scc="mcdm.heroes.v1/feature.null.level-2/rapid-processing" data-subclass="chronokinetic"}
 
 As a maneuver, you can read an entire book or process a similar amount of information. Additionally, during any [respite](../../../rule/resource/respite.md), you can take an additional [respite](../../../rule/resource/respite.md) activity.

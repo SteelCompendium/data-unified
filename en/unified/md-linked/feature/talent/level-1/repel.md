@@ -8,7 +8,7 @@ type: feature
 
 You have the following ability.
 
-## Repel {data-scc="mcdm.heroes.v1/feature.ability.talent.level-1/repel"}
+## Repel {data-scc="mcdm.heroes.v1/feature.ability.talent.level-1/repel" data-subclass="telekinesis"}
 
 
 *They aren't going anywhere, but you might!*

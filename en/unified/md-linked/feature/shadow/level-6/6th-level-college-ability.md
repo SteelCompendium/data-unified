@@ -12,7 +12,7 @@ Your [shadow college](../level-1/shadow-college.md) grants your choice of one of
 
 Choose one of the following abilities.
 
-### Black Ash Eruption {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-6/black-ash-eruption" data-cost="9 Insight"}
+### Black Ash Eruption {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-6/black-ash-eruption" data-cost="9 Insight" data-subclass="black-ash"}
 
 
 *Your attack produces a cloud of black ash that launches an enemy into the air.*
@@ -29,7 +29,7 @@ Choose one of the following abilities.
 
 **Effect:** A creature [force moved](../../../movement/forced-movement.md) by this ability must be moved straight upward.
 
-### Cinderstorm {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-6/cinderstorm" data-cost="9 Insight"}
+### Cinderstorm {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-6/cinderstorm" data-cost="9 Insight" data-subclass="black-ash"}
 
 
 *You [teleport](../../../movement/teleport.md) your friends in a burst of ash and fire.*
@@ -44,7 +44,7 @@ Choose one of the following abilities.
 
 Choose one of the following abilities.
 
-### One Vial Makes You Better {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-6/one-vial-makes-you-better" data-cost="9 Insight"}
+### One Vial Makes You Better {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-6/one-vial-makes-you-better" data-cost="9 Insight" data-subclass="caustic-alchemy"}
 
 
 *A well-timed throw of a potion will keep your allies in the fight.*
@@ -57,7 +57,7 @@ Choose one of the following abilities.
 
 A creature who drinks the potion can spend up to 2 [Recoveries](../../../rule/health/recoveries.md), and has acid immunity, fire immunity, or poison immunity (their choice) equal to your level until the end of the encounter.
 
-### One Vial Makes You Faster {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-6/one-vial-makes-you-faster" data-cost="9 Insight"}
+### One Vial Makes You Faster {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-6/one-vial-makes-you-faster" data-cost="9 Insight" data-subclass="caustic-alchemy"}
 
 
 *Each ally who catches a potion you throw can take the battle to the next level.*
@@ -80,7 +80,7 @@ A creature who drinks the potion receives benefits based on your [power roll](..
 
 Choose one of the following abilities.
 
-### Look! {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-6/look" data-cost="9 Insight"}
+### Look! {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-6/look" data-cost="9 Insight" data-subclass="harlequin-mask"}
 
 
 *You distract your foes, allowing your allies to take advantage of that distraction.*
@@ -91,7 +91,7 @@ Choose one of the following abilities.
 
 **Effect:** Until the start of your next [turn](../../../rule/combat/turn.md), any [ability roll](../../../rule/dice/ability-roll.md) made against a target gains an [edge](../../../rule/dice/edge.md).
 
-### Puppet Strings {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-6/puppet-strings" data-cost="9 Insight"}
+### Puppet Strings {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-6/puppet-strings" data-cost="9 Insight" data-subclass="harlequin-mask"}
 
 
 *You prick little needles on the tips of your fingers into the nerves of your enemies and cause them to lose control.*

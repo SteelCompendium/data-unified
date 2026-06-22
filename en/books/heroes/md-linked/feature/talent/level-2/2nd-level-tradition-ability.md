@@ -12,7 +12,7 @@ Your [talent tradition](../level-1/talent-tradition.md) grants your choice of on
 
 Choose one of the following abilities.
 
-### Applied Chronometrics {data-scc="mcdm.heroes.v1/feature.ability.talent.level-2/applied-chronometrics" data-cost="5 Clarity"}
+### Applied Chronometrics {data-scc="mcdm.heroes.v1/feature.ability.talent.level-2/applied-chronometrics" data-cost="5 Clarity" data-subclass="chronopathy"}
 
 
 *Time slows down around you. Your heartbeat is the only gauge of the extra moments you've gained.*
@@ -31,7 +31,7 @@ Choose one of the following abilities.
 
 **Strained:** Your [speed](../../../rule/character/speed.md) is halved until the end of the encounter.
 
-### Slow {data-scc="mcdm.heroes.v1/feature.ability.talent.level-2/slow" data-cost="5 Clarity"}
+### Slow {data-scc="mcdm.heroes.v1/feature.ability.talent.level-2/slow" data-cost="5 Clarity" data-subclass="chronopathy"}
 
 
 *Perhaps they wonder why everyone else is moving so quickly?*
@@ -54,7 +54,7 @@ Choose one of the following abilities.
 
 Choose one of the following abilities.
 
-### Gravitic Burst {data-scc="mcdm.heroes.v1/feature.ability.talent.level-2/gravitic-burst" data-cost="5 Clarity"}
+### Gravitic Burst {data-scc="mcdm.heroes.v1/feature.ability.talent.level-2/gravitic-burst" data-cost="5 Clarity" data-subclass="telekinesis"}
 
 
 *Everyone get away from me!*
@@ -71,7 +71,7 @@ Choose one of the following abilities.
 
 **Strained:** The size of the [burst](../../../rule/combat/burst.md) increases by 1, and you are [weakened](../../../condition/weakened.md) until the end of your [turn](../../../rule/combat/turn.md).
 
-### Levity and Gravity {data-scc="mcdm.heroes.v1/feature.ability.talent.level-2/levity-and-gravity" data-cost="5 Clarity"}
+### Levity and Gravity {data-scc="mcdm.heroes.v1/feature.ability.talent.level-2/levity-and-gravity" data-cost="5 Clarity" data-subclass="telekinesis"}
 
 
 *You raise the target slightly into the air, then smother them against the ground.*
@@ -92,7 +92,7 @@ Choose one of the following abilities.
 
 Choose one of the following abilities.
 
-### Overwhelm {data-scc="mcdm.heroes.v1/feature.ability.talent.level-2/overwhelm" data-cost="5 Clarity"}
+### Overwhelm {data-scc="mcdm.heroes.v1/feature.ability.talent.level-2/overwhelm" data-cost="5 Clarity" data-subclass="telepathy"}
 
 
 *You overload their senses, turning all their subconscious thoughts into conscious ones.*
@@ -109,7 +109,7 @@ Choose one of the following abilities.
 
 **Strained:** You start crying, and you can't use [triggered actions](../../../rule/combat/triggered-action.md) or make [free strikes](../../common/main-actions/free-strike.md) until the end of the target's next [turn](../../../rule/combat/turn.md).
 
-### Synaptic Override {data-scc="mcdm.heroes.v1/feature.ability.talent.level-2/synaptic-override" data-cost="5 Clarity"}
+### Synaptic Override {data-scc="mcdm.heroes.v1/feature.ability.talent.level-2/synaptic-override" data-cost="5 Clarity" data-subclass="telepathy"}
 
 
 *You control an enemy's nervous system. How pleasant for them.*

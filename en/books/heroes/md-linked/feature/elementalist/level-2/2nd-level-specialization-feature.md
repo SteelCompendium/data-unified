@@ -17,11 +17,11 @@ Your [elemental specialization](../level-1/elemental-specialization.md) grants y
 | Green          | [Disciple of the Green](disciple-of-the-green.md)     |
 | Void           | [There Is No Space Between](../../ability/elementalist/level-2/there-is-no-space-between.md) |
 
-## Disciple of Earth {data-scc="mcdm.heroes.v1/feature.elementalist.level-2/disciple-of-earth"}
+## Disciple of Earth {data-scc="mcdm.heroes.v1/feature.elementalist.level-2/disciple-of-earth" data-subclass="earth"}
 
 Your body is strengthened by your mind's connection to the element of permanence. You have a +6 [bonus](../../../rule/dice/bonuses-and-penalties.md) to [Stamina](../../../rule/health/stamina.md), and you gain an additional +3 [bonus](../../../rule/dice/bonuses-and-penalties.md) to [Stamina](../../../rule/health/stamina.md) whenever you gain a level past 2nd.
 
-## Disciple of Fire {data-scc="mcdm.heroes.v1/feature.elementalist.level-2/disciple-of-fire"}
+## Disciple of Fire {data-scc="mcdm.heroes.v1/feature.elementalist.level-2/disciple-of-fire" data-subclass="fire"}
 
 Your connection to fire allows you to protect yourself from it, even as you rip away the protections of others. You have fire immunity equal to 5 plus your level. Additionally, fire damage you deal ignores a target's fire immunity.
 
@@ -66,7 +66,7 @@ You can revert back to your true form as a maneuver. You can't enter an [animal 
 
 You have the following ability.
 
-### There Is No Space Between {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-2/there-is-no-space-between"}
+### There Is No Space Between {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-2/there-is-no-space-between" data-subclass="void"}
 
 
 *Knowledge of the mystery reveals that two spaces are the same space.*

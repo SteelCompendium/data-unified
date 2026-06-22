@@ -16,7 +16,7 @@ Your [primordial aspect](primordial-aspect.md) grants you a [triggered action](.
 | Reaver                   | [Unearthly Reflexes](../../ability/fury/level-1/unearthly-reflexes.md) |
 | Stormwight               | [Furious Change](../../ability/fury/level-1/furious-change.md)     |
 
-### Furious Change {data-scc="mcdm.heroes.v1/feature.ability.fury.level-1/furious-change"}
+### Furious Change {data-scc="mcdm.heroes.v1/feature.ability.fury.level-1/furious-change" data-subclass="stormwight"}
 
 
 *In your anger, you revert to a more bestial form.*
@@ -31,7 +31,7 @@ Your [primordial aspect](primordial-aspect.md) grants you a [triggered action](.
 
 **Spend 1 Ferocity:** If you are not [dying](../../../rule/health/dying.md), you can spend a [Recovery](../../../rule/health/recoveries.md).
 
-### Lines of Force {data-scc="mcdm.heroes.v1/feature.ability.fury.level-1/lines-of-force"}
+### Lines of Force {data-scc="mcdm.heroes.v1/feature.ability.fury.level-1/lines-of-force" data-subclass="berserker"}
 
 
 *You redirect the energy of motion.*
@@ -46,7 +46,7 @@ Your [primordial aspect](primordial-aspect.md) grants you a [triggered action](.
 
 **Spend 1 Ferocity:** The [forced movement](../../../movement/forced-movement.md) [distance](../../../rule/combat/distance.md) gains a [bonus](../../../rule/dice/bonuses-and-penalties.md) equal to twice your [Might](../../../rule/character/might.md) score instead.
 
-### Unearthly Reflexes {data-scc="mcdm.heroes.v1/feature.ability.fury.level-1/unearthly-reflexes"}
+### Unearthly Reflexes {data-scc="mcdm.heroes.v1/feature.ability.fury.level-1/unearthly-reflexes" data-subclass="reaver"}
 
 
 *You are as elusive as a hummingbird.*

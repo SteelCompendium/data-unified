@@ -8,7 +8,7 @@ type: feature
 
 You have the following ability.
 
-## Return to Formlessness {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-1/return-to-formlessness"}
+## Return to Formlessness {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-1/return-to-formlessness" data-subclass="fire"}
 
 
 *With the merest touch, you cause an object to turn to slag or ash.*

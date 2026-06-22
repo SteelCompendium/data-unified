@@ -12,7 +12,7 @@ Your [tactical doctrine](../level-1/tactical-doctrine.md) grants your choice of 
 
 Choose one of the following abilities.
 
-### Squad! Hit and Run! {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-9/squad-hit-and-run" data-cost="11 Focus"}
+### Squad! Hit and Run! {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-9/squad-hit-and-run" data-cost="11 Focus" data-subclass="insurgent"}
 
 
 *I had to pry this secret from the [shadow college](../../shadow/level-1/shadow-college.md)s.*
@@ -23,7 +23,7 @@ Choose one of the following abilities.
 
 **Effect:** Each target gains 2 [surges](../../../rule/resource/surge.md), and can use a free [triggered action](../../../rule/combat/triggered-action.md) to use a [signature ability](../../../rule/combat/signature-ability.md) that gains an [edge](../../../rule/dice/edge.md). After resolving their ability, each target can [shift](../../../movement/shifting.md) up to 2 squares and become hidden even if they have no [cover](../../../rule/combat/cover.md) or [concealment](../../../rule/combat/concealment.md), or if they are observed.
 
-### Their Lack of Focus Is Their Undoing {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-9/their-lack-of-focus-is-their-undoing" data-cost="11 Focus"}
+### Their Lack of Focus Is Their Undoing {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-9/their-lack-of-focus-is-their-undoing" data-cost="11 Focus" data-subclass="insurgent"}
 
 
 *You trick your enemies into attacking each other and leave them confused by the aftermath.*
@@ -44,7 +44,7 @@ Choose one of the following abilities.
 
 Choose one of the following abilities.
 
-### Blot Out the Sun! {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-9/blot-out-the-sun" data-cost="11 Focus"}
+### Blot Out the Sun! {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-9/blot-out-the-sun" data-cost="11 Focus" data-subclass="mastermind"}
 
 
 *What makes a good soldier? The ability to fire four shots a minute in any weather.*
@@ -55,7 +55,7 @@ Choose one of the following abilities.
 
 **Effect:** Each target can make a [ranged](../../../rule/combat/ranged.md) [free strike](../../common/main-actions/free-strike.md) that gains an [edge](../../../rule/dice/edge.md) against any enemy marked by you within [distance](../../../rule/combat/distance.md) of their [ranged](../../../rule/combat/ranged.md) [free strike](../../common/main-actions/free-strike.md). A target ignores [banes](../../../rule/dice/bane.md) and double [banes](../../../rule/dice/bane.md) when making this [strike](../../../rule/combat/strike.md).
 
-### Counterstrategy {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-9/counterstrategy" data-cost="11 Focus"}
+### Counterstrategy {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-9/counterstrategy" data-cost="11 Focus" data-subclass="mastermind"}
 
 
 *I've identified a way to negate their strengths.*
@@ -70,7 +70,7 @@ Choose one of the following abilities.
 
 Choose one of the following abilities.
 
-### No Escape {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-9/no-escape" data-cost="11 Focus"}
+### No Escape {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-9/no-escape" data-cost="11 Focus" data-subclass="vanguard"}
 
 
 *Nothing will stop you from reaching your foe.*
@@ -89,7 +89,7 @@ Choose one of the following abilities.
 
 **Effect:** If you use this ability as part of the [Charge](../../common/main-actions/charge.md) main action, enemies' spaces don't count as [difficult terrain](../../../movement/difficult-terrain.md) for your movement. Additionally, if you move through any creature's space, you can [slide](../../../movement/forced-movement.md) that creature 1 square out of the path of your charge.
 
-### That One Is Mine! {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-9/that-one-is-mine" data-cost="11 Focus"}
+### That One Is Mine! {data-scc="mcdm.heroes.v1/feature.ability.tactician.level-9/that-one-is-mine" data-cost="11 Focus" data-subclass="vanguard"}
 
 
 *You focus on making an enemy irrelevant.*

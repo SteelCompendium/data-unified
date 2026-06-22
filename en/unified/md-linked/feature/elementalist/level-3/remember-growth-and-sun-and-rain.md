@@ -9,7 +9,7 @@ type: feature
 
 You have the following ability.
 
-## Remember Growth and Sun and Rain {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-3/remember-growth-and-sun-and-rain"}
+## Remember Growth and Sun and Rain {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-3/remember-growth-and-sun-and-rain" data-subclass="green"}
 
 
 *You stir any wood's memory and learn what it has seen.*

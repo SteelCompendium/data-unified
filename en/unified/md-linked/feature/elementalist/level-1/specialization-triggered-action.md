@@ -17,7 +17,7 @@ Your [elemental specialization](elemental-specialization.md) grants you a [trigg
 | Green           | [Breath of Dawn Remembered](../../ability/elementalist/level-1/breath-of-dawn-remembered.md) |
 | Void            | [Subtle Relocation](../../ability/elementalist/level-1/subtle-relocation.md)         |
 
-### Breath of Dawn Remembered {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-1/breath-of-dawn-remembered"}
+### Breath of Dawn Remembered {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-1/breath-of-dawn-remembered" data-subclass="green"}
 
 
 *The power you channel grants the ability to get back in the fight.*
@@ -32,7 +32,7 @@ Your [elemental specialization](elemental-specialization.md) grants you a [trigg
 
 **Spend 1+ Essence:** The target can spend an additional [Recovery](../../../rule/health/recoveries.md) for each essence spent.
 
-### Explosive Assistance {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-1/explosive-assistance"}
+### Explosive Assistance {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-1/explosive-assistance" data-subclass="fire"}
 
 
 *You add a little magic to an ally's aggression at just the right time.*
@@ -47,7 +47,7 @@ Your [elemental specialization](elemental-specialization.md) grants you a [trigg
 
 **Spend 1 Essence:** The [forced movement](../../../movement/forced-movement.md) [distance](../../../rule/combat/distance.md) gains a [bonus](../../../rule/dice/bonuses-and-penalties.md) equal to twice your [Reason](../../../rule/character/reason.md) score instead.
 
-### Skin Like Castle Walls {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-1/skin-like-castle-walls"}
+### Skin Like Castle Walls {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-1/skin-like-castle-walls" data-subclass="earth"}
 
 
 *You cover yourself or an ally in protective stone.*
@@ -62,7 +62,7 @@ Your [elemental specialization](elemental-specialization.md) grants you a [trigg
 
 **Spend 1 Essence:** If the damage has any [potency](../../../rule/character/potency.md) effects associated with it, the [potency](../../../rule/character/potency.md) is reduced by 1 for the target.
 
-### Subtle Relocation {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-1/subtle-relocation"}
+### Subtle Relocation {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-1/subtle-relocation" data-subclass="void"}
 
 
 *You call on the void to swallow and spit out an ally.*

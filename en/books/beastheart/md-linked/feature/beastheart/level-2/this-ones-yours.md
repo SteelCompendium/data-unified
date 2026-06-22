@@ -9,7 +9,7 @@ type: feature
 
 Once per turn, you or your companion can use the following free triggered action.
 
-## This One's Yours {data-scc="mcdm.beastheart.v1/feature.ability.beastheart.level-2/this-ones-yours"}
+## This One's Yours {data-scc="mcdm.beastheart.v1/feature.ability.beastheart.level-2/this-ones-yours" data-subclass="punisher"}
 
 When someone is pushed into you, you reach out to steady an ally or send a foe careening off in another direction.
 

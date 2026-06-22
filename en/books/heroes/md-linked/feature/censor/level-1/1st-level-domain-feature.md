@@ -25,17 +25,17 @@ You gain a domain feature from your domain, as shown on the 1st-Level [Censor](.
 | Trickery                         | [Inspired Deception](inspired-deception.md)            | Intrigue      |
 | War                              | [Sanctified Weapon](sanctified-weapon.md)             | Exploration   |
 
-## Blessing of Compassion {data-scc="mcdm.heroes.v1/feature.censor.level-1/blessing-of-compassion"}
+## Blessing of Compassion {data-scc="mcdm.heroes.v1/feature.censor.level-1/blessing-of-compassion" data-subclass="love"}
 
 You exude a magic presence that can soothe those willing to socially engage with you. You gain an [edge](../../../rule/dice/edge.md) on any [test](../../../rule/test/test.md) made to assist another creature with a [test](../../../rule/test/test.md).
 
 Additionally, when you are present at the start of a negotiation, one [NPC](../../../rule/general/npc.md) of your choice has their patience increased by 1 (to a maximum of 5), and the first [test](../../../rule/test/test.md) made to influence them gains an [edge](../../../rule/dice/edge.md).
 
-## Blessing of Comprehension {data-scc="mcdm.heroes.v1/feature.censor.level-1/blessing-of-comprehension"}
+## Blessing of Comprehension {data-scc="mcdm.heroes.v1/feature.censor.level-1/blessing-of-comprehension" data-subclass="knowledge"}
 
 You can interpret diagrams and charts even if you don't understand the language associated with them. You are considered fluent in all languages for the purpose of understanding the [project source](../../../rule/downtime/project-source.md) for any crafting or [research project](../../../rule/downtime/research-project.md) (see Chapter 12: [Downtime Projects](../../../chapter/downtime-projects.md)).
 
-## Blessing of Fortunate Weather {data-scc="mcdm.heroes.v1/feature.censor.level-1/blessing-of-fortunate-weather"}
+## Blessing of Fortunate Weather {data-scc="mcdm.heroes.v1/feature.censor.level-1/blessing-of-fortunate-weather" data-subclass="storm"}
 
 Each time you finish a [respite](../../../rule/resource/respite.md), you can decide the weather conditions within 100 squares. Until you finish another [respite](../../../rule/resource/respite.md), the weather conditions you establish follow you through any mundane outdoor locations. Choose one of the following types of weather, each of which grants a benefit to you and your allies:
 
@@ -49,11 +49,11 @@ Each time you finish a [respite](../../../rule/resource/respite.md), you can dec
 
 If you are in the same area as a creature using this or a similar feature who has chosen a different weather effect, the features negate each other where their areas overlap.
 
-## Faithful Friend {data-scc="mcdm.heroes.v1/feature.censor.level-1/faithful-friend"}
+## Faithful Friend {data-scc="mcdm.heroes.v1/feature.censor.level-1/faithful-friend" data-subclass="nature"}
 
 You have the following ability.
 
-### Faithful Friend {data-scc="mcdm.heroes.v1/feature.ability.censor.level-1/faithful-friend"}
+### Faithful Friend {data-scc="mcdm.heroes.v1/feature.ability.censor.level-1/faithful-friend" data-subclass="nature"}
 
 
 *An animal spirit is drawn to you, sharing their senses with you and serving you faithfully.*
@@ -68,7 +68,7 @@ You have the following ability.
 
 You have the following ability.
 
-### Grave Speech {data-scc="mcdm.heroes.v1/feature.ability.censor.level-1/grave-speech"}
+### Grave Speech {data-scc="mcdm.heroes.v1/feature.ability.censor.level-1/grave-speech" data-subclass="death"}
 
 
 *You commune with the lingering soul of the recently dead.*
@@ -83,7 +83,7 @@ You have the following ability.
 
 You have the following ability.
 
-### Hands of the Maker {data-scc="mcdm.heroes.v1/feature.ability.censor.level-1/hands-of-the-maker"}
+### Hands of the Maker {data-scc="mcdm.heroes.v1/feature.ability.censor.level-1/hands-of-the-maker" data-subclass="creation"}
 
 
 *You craft objects with the power of your mind.*
@@ -94,26 +94,26 @@ You have the following ability.
 
 **Effect:** You create a mundane object of [size](../../../rule/character/size.md) 1S or smaller. You can maintain a number of objects created this way equal to your [Presence](../../../rule/character/presence.md) score. You can destroy an object created this way with a thought, no matter how far you are from it (no action required).
 
-## Inner Light {data-scc="mcdm.heroes.v1/feature.censor.level-1/inner-light"}
+## Inner Light {data-scc="mcdm.heroes.v1/feature.censor.level-1/inner-light" data-subclass="sun"}
 
 Each time you finish a [respite](../../../rule/resource/respite.md), you can choose yourself or one ally who is also finishing a [respite](../../../rule/resource/respite.md) to gain the benefit of a divine ritual. You place a ray of [morning light](../../ability/conduit/level-2/morning-light.md) into the chosen character's soul, granting them a +1 [bonus](../../../rule/dice/bonuses-and-penalties.md) to [saving throws](../../../rule/general/saving-throw.md) that lasts until you finish another [respite](../../../rule/resource/respite.md).
 
-## Inspired Deception {data-scc="mcdm.heroes.v1/feature.censor.level-1/inspired-deception"}
+## Inspired Deception {data-scc="mcdm.heroes.v1/feature.censor.level-1/inspired-deception" data-subclass="trickery"}
 
 The gods favor your thievery with magic. Whenever you make a [test](../../../rule/test/test.md) that uses a skill you have from the [intrigue skill group](../../../skill/group/intrigue.md), you can use [Presence](../../../rule/character/presence.md) on the [test](../../../rule/test/test.md) instead of another [characteristic](../../../rule/character/characteristic.md).
 
-## Oracular Visions {data-scc="mcdm.heroes.v1/feature.censor.level-1/oracular-visions"}
+## Oracular Visions {data-scc="mcdm.heroes.v1/feature.censor.level-1/oracular-visions" data-subclass="fate"}
 
 Your deity rewards you with hazy visions of things to come. Each time you earn 1 or more [Victories](../../../rule/resource/victories.md), you earn an equal number of fate points. Whenever you or a creature within 10 squares makes a [test](../../../rule/test/test.md), you can spend 1 fate point to tap into a vision of the outcome, granting that creature an [edge](../../../rule/dice/edge.md) on the [test](../../../rule/test/test.md). You lose any remaining fate points when you finish a [respite](../../../rule/resource/respite.md).
 
-## Protective Circle {data-scc="mcdm.heroes.v1/feature.censor.level-1/protective-circle"}
+## Protective Circle {data-scc="mcdm.heroes.v1/feature.censor.level-1/protective-circle" data-subclass="protection"}
 
 You can spend 10 uninterrupted minutes to create a [protective circle](protective-circle.md) on the ground large enough to hold one [size](../../../rule/character/size.md) 1 creature. The circle lasts for 24 hours, until you create another, or until you dismiss it (no action required). Only creatures you designate at the time of drawing the circle can enter and exit the area. While in the [protective circle](protective-circle.md), a creature can't be targeted by strikes.
 
-## Revitalizing Ritual {data-scc="mcdm.heroes.v1/feature.censor.level-1/revitalizing-ritual"}
+## Revitalizing Ritual {data-scc="mcdm.heroes.v1/feature.censor.level-1/revitalizing-ritual" data-subclass="life"}
 
 Each time you finish a [respite](../../../rule/resource/respite.md), you can choose yourself or one ally who is also finishing a [respite](../../../rule/resource/respite.md) to gain the benefit of a divine ritual. The chosen character gains a [bonus](../../../rule/dice/bonuses-and-penalties.md) to their [recovery value](../../../rule/health/recoveries.md) equal to your level that lasts until you finish another [respite](../../../rule/resource/respite.md).
 
-## Sanctified Weapon {data-scc="mcdm.heroes.v1/feature.censor.level-1/sanctified-weapon"}
+## Sanctified Weapon {data-scc="mcdm.heroes.v1/feature.censor.level-1/sanctified-weapon" data-subclass="war"}
 
 As a [respite](../../../rule/resource/respite.md) activity, you can bless a weapon. Any creature who wields the weapon gains a +1 [bonus](../../../rule/dice/bonuses-and-penalties.md) to [rolled damage](../../../rule/damage/rolled-damage.md) with abilities that use the weapon. This benefit lasts until you finish another [respite](../../../rule/resource/respite.md).

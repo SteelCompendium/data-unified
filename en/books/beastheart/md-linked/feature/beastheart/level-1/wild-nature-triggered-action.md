@@ -15,7 +15,7 @@ Your wild nature grants you a triggered action, as shown on the Wild Nature Trig
 | Punisher    | [Thunderclap](../../ability/beastheart/level-1/thunderclap.md)               |
 | Spark       | [Pyre](../../ability/beastheart/level-1/pyre.md)                             |
 
-### Pyre {data-scc="mcdm.beastheart.v1/feature.ability.beastheart.level-1/pyre"}
+### Pyre {data-scc="mcdm.beastheart.v1/feature.ability.beastheart.level-1/pyre" data-subclass="spark"}
 
 *You burn to ash before your foes' eyes.*
 
@@ -29,7 +29,7 @@ Your wild nature grants you a triggered action, as shown on the Wild Nature Trig
 
 **Spend 1 Ferocity:** When you [teleport](../../../movement/teleport.md) this way, each enemy adjacent to your original space takes lightning or fire damage (your choice) equal to your Intuition score.
 
-### Shadow in the Mist {data-scc="mcdm.beastheart.v1/feature.ability.beastheart.level-1/shadow-in-the-mist"}
+### Shadow in the Mist {data-scc="mcdm.beastheart.v1/feature.ability.beastheart.level-1/shadow-in-the-mist" data-subclass="prowler"}
 
 *While everyone's eyes are drawn to your foe, you wreathe yourself in obscuring mist.*
 
@@ -43,7 +43,7 @@ Your wild nature grants you a triggered action, as shown on the Wild Nature Trig
 
 **Spend 1 Ferocity:** You can move up to a number of squares equal to twice your Intuition score and ignore [difficult terrain](../../../movement/difficult-terrain.md) during this movement.
 
-### The Pack Defends {data-scc="mcdm.beastheart.v1/feature.ability.beastheart.level-1/the-pack-defends"}
+### The Pack Defends {data-scc="mcdm.beastheart.v1/feature.ability.beastheart.level-1/the-pack-defends" data-subclass="guardian"}
 
 *You siphon away the pain and endure it yourself.*
 
@@ -57,7 +57,7 @@ Your wild nature grants you a triggered action, as shown on the Wild Nature Trig
 
 **Spend 1 Ferocity:** You spend a Recovery without regaining Stamina, and the target regains Stamina equal to your recovery value.
 
-### Thunderclap {data-scc="mcdm.beastheart.v1/feature.ability.beastheart.level-1/thunderclap"}
+### Thunderclap {data-scc="mcdm.beastheart.v1/feature.ability.beastheart.level-1/thunderclap" data-subclass="punisher"}
 
 *The force of your counterattack cracks the air.*
 

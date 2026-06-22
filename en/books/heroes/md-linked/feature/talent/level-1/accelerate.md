@@ -8,7 +8,7 @@ type: feature
 
 You have the following ability.
 
-## Accelerate {data-scc="mcdm.heroes.v1/feature.ability.talent.level-1/accelerate"}
+## Accelerate {data-scc="mcdm.heroes.v1/feature.ability.talent.level-1/accelerate" data-subclass="chronopathy"}
 
 
 *To your ally, it seems as though the world has slowed down.*

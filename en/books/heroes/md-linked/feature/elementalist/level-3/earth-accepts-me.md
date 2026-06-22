@@ -9,7 +9,7 @@ type: feature
 
 You have the following ability.
 
-## Earth Accepts Me {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-3/earth-accepts-me"}
+## Earth Accepts Me {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-3/earth-accepts-me" data-subclass="earth"}
 
 
 *You can slip into the stone.*

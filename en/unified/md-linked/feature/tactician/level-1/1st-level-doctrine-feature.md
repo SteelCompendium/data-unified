@@ -16,17 +16,17 @@ Your [tactical doctrine](tactical-doctrine.md) grants you a feature, as shown on
 | Mastermind | [Studied Commander](studied-commander.md)   |
 | Vanguard   | [Commanding Presence](commanding-presence.md) |
 
-## Commanding Presence {data-scc="mcdm.heroes.v1/feature.tactician.level-1/commanding-presence"}
+## Commanding Presence {data-scc="mcdm.heroes.v1/feature.tactician.level-1/commanding-presence" data-subclass="vanguard"}
 
 You command any room you walk into. While you are present during a negotiation, each hero with you treats their [Renown](../../../rule/resource/renown.md) as 2 higher than usual. Additionally, each hero with you during a combat encounter has a double [edge](../../../rule/dice/edge.md) on [tests](../../../rule/test/test.md) made to stop combat and start a negotiation.
 
-## Covert Operations {data-scc="mcdm.heroes.v1/feature.tactician.level-1/covert-operations"}
+## Covert Operations {data-scc="mcdm.heroes.v1/feature.tactician.level-1/covert-operations" data-subclass="insurgent"}
 
 While in your presence or working according to your plans, each of your allies gains an [edge](../../../rule/dice/edge.md) on [tests](../../../rule/test/test.md) using any skill from the [intrigue skill group](../../../skill/group/intrigue.md). Additionally, you can use the [Lead](../../../skill/interpersonal/lead.md) skill to assist another creature with any [test](../../../rule/test/test.md) made using a skill from the [intrigue group](../../../skill/group/intrigue.md).
 
 At the Director's discretion, you and your allies can use skills from the [intrigue skill group](../../../skill/group/intrigue.md) to attempt research or reconnaissance during a negotiation instead of outside of a negotiation.
 
-## Studied Commander {data-scc="mcdm.heroes.v1/feature.tactician.level-1/studied-commander"}
+## Studied Commander {data-scc="mcdm.heroes.v1/feature.tactician.level-1/studied-commander" data-subclass="mastermind"}
 
 Your encyclopedic knowledge of the history of battle lets you apply that knowledge to current challenges. While you are present, each hero with you treats the Discover Lore project related to a war or battle as one category cheaper. This makes projects seeking common lore free, but such projects still require a [respite](../../../rule/resource/respite.md) activity to complete. (See Chapter 12: [Downtime Projects](../../../chapter/downtime-projects.md) for more information.)
 

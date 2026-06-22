@@ -9,7 +9,7 @@ type: feature
 
 You have the following ability.
 
-## Dramatic Monologue {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-1/dramatic-monologue"}
+## Dramatic Monologue {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-1/dramatic-monologue" data-subclass="auteur"}
 
 
 *It doesn't need to make sense. Just say it with emotion.*

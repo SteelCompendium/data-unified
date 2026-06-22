@@ -177,17 +177,17 @@ You gain a domain feature from your domain, as shown on the 1st-Level [Censor](c
 | Trickery                         | [Inspired Deception](../feature/censor/level-1/inspired-deception.md)            | Intrigue      |
 | War                              | [Sanctified Weapon](../feature/censor/level-1/sanctified-weapon.md)             | Exploration   |
 
-#### Blessing of Compassion {data-scc="mcdm.heroes.v1/feature.censor.level-1/blessing-of-compassion"}
+#### Blessing of Compassion {data-scc="mcdm.heroes.v1/feature.censor.level-1/blessing-of-compassion" data-subclass="love"}
 
 You exude a magic presence that can soothe those willing to socially engage with you. You gain an [edge](../rule/dice/edge.md) on any [test](../rule/test/test.md) made to assist another creature with a [test](../rule/test/test.md).
 
 Additionally, when you are present at the start of a negotiation, one [NPC](../rule/general/npc.md) of your choice has their patience increased by 1 (to a maximum of 5), and the first [test](../rule/test/test.md) made to influence them gains an [edge](../rule/dice/edge.md).
 
-#### Blessing of Comprehension {data-scc="mcdm.heroes.v1/feature.censor.level-1/blessing-of-comprehension"}
+#### Blessing of Comprehension {data-scc="mcdm.heroes.v1/feature.censor.level-1/blessing-of-comprehension" data-subclass="knowledge"}
 
 You can interpret diagrams and charts even if you don't understand the language associated with them. You are considered fluent in all languages for the purpose of understanding the [project source](../rule/downtime/project-source.md) for any crafting or [research project](../rule/downtime/research-project.md) (see Chapter 12: [Downtime Projects](../chapter/downtime-projects.md)).
 
-#### Blessing of Fortunate Weather {data-scc="mcdm.heroes.v1/feature.censor.level-1/blessing-of-fortunate-weather"}
+#### Blessing of Fortunate Weather {data-scc="mcdm.heroes.v1/feature.censor.level-1/blessing-of-fortunate-weather" data-subclass="storm"}
 
 Each time you finish a [respite](../rule/resource/respite.md), you can decide the weather conditions within 100 squares. Until you finish another [respite](../rule/resource/respite.md), the weather conditions you establish follow you through any mundane outdoor locations. Choose one of the following types of weather, each of which grants a benefit to you and your allies:
 
@@ -201,11 +201,11 @@ Each time you finish a [respite](../rule/resource/respite.md), you can decide th
 
 If you are in the same area as a creature using this or a similar feature who has chosen a different weather effect, the features negate each other where their areas overlap.
 
-#### Faithful Friend {data-scc="mcdm.heroes.v1/feature.censor.level-1/faithful-friend"}
+#### Faithful Friend {data-scc="mcdm.heroes.v1/feature.censor.level-1/faithful-friend" data-subclass="nature"}
 
 You have the following ability.
 
-##### Faithful Friend {data-scc="mcdm.heroes.v1/feature.ability.censor.level-1/faithful-friend"}
+##### Faithful Friend {data-scc="mcdm.heroes.v1/feature.ability.censor.level-1/faithful-friend" data-subclass="nature"}
 
 
 *An animal spirit is drawn to you, sharing their senses with you and serving you faithfully.*
@@ -220,7 +220,7 @@ You have the following ability.
 
 You have the following ability.
 
-##### Grave Speech {data-scc="mcdm.heroes.v1/feature.ability.censor.level-1/grave-speech"}
+##### Grave Speech {data-scc="mcdm.heroes.v1/feature.ability.censor.level-1/grave-speech" data-subclass="death"}
 
 
 *You commune with the lingering soul of the recently dead.*
@@ -235,7 +235,7 @@ You have the following ability.
 
 You have the following ability.
 
-##### Hands of the Maker {data-scc="mcdm.heroes.v1/feature.ability.censor.level-1/hands-of-the-maker"}
+##### Hands of the Maker {data-scc="mcdm.heroes.v1/feature.ability.censor.level-1/hands-of-the-maker" data-subclass="creation"}
 
 
 *You craft objects with the power of your mind.*
@@ -246,27 +246,27 @@ You have the following ability.
 
 **Effect:** You create a mundane object of [size](../rule/character/size.md) 1S or smaller. You can maintain a number of objects created this way equal to your [Presence](../rule/character/presence.md) score. You can destroy an object created this way with a thought, no matter how far you are from it (no action required).
 
-#### Inner Light {data-scc="mcdm.heroes.v1/feature.censor.level-1/inner-light"}
+#### Inner Light {data-scc="mcdm.heroes.v1/feature.censor.level-1/inner-light" data-subclass="sun"}
 
 Each time you finish a [respite](../rule/resource/respite.md), you can choose yourself or one ally who is also finishing a [respite](../rule/resource/respite.md) to gain the benefit of a divine ritual. You place a ray of [morning light](../feature/ability/conduit/level-2/morning-light.md) into the chosen character's soul, granting them a +1 [bonus](../rule/dice/bonuses-and-penalties.md) to [saving throws](../rule/general/saving-throw.md) that lasts until you finish another [respite](../rule/resource/respite.md).
 
-#### Inspired Deception {data-scc="mcdm.heroes.v1/feature.censor.level-1/inspired-deception"}
+#### Inspired Deception {data-scc="mcdm.heroes.v1/feature.censor.level-1/inspired-deception" data-subclass="trickery"}
 
 The gods favor your thievery with magic. Whenever you make a [test](../rule/test/test.md) that uses a skill you have from the [intrigue skill group](../skill/group/intrigue.md), you can use [Presence](../rule/character/presence.md) on the [test](../rule/test/test.md) instead of another [characteristic](../rule/character/characteristic.md).
 
-#### Oracular Visions {data-scc="mcdm.heroes.v1/feature.censor.level-1/oracular-visions"}
+#### Oracular Visions {data-scc="mcdm.heroes.v1/feature.censor.level-1/oracular-visions" data-subclass="fate"}
 
 Your deity rewards you with hazy visions of things to come. Each time you earn 1 or more [Victories](../rule/resource/victories.md), you earn an equal number of fate points. Whenever you or a creature within 10 squares makes a [test](../rule/test/test.md), you can spend 1 fate point to tap into a vision of the outcome, granting that creature an [edge](../rule/dice/edge.md) on the [test](../rule/test/test.md). You lose any remaining fate points when you finish a [respite](../rule/resource/respite.md).
 
-#### Protective Circle {data-scc="mcdm.heroes.v1/feature.censor.level-1/protective-circle"}
+#### Protective Circle {data-scc="mcdm.heroes.v1/feature.censor.level-1/protective-circle" data-subclass="protection"}
 
 You can spend 10 uninterrupted minutes to create a [protective circle](../feature/censor/level-1/protective-circle.md) on the ground large enough to hold one [size](../rule/character/size.md) 1 creature. The circle lasts for 24 hours, until you create another, or until you dismiss it (no action required). Only creatures you designate at the time of drawing the circle can enter and exit the area. While in the [protective circle](../feature/censor/level-1/protective-circle.md), a creature can't be targeted by strikes.
 
-#### Revitalizing Ritual {data-scc="mcdm.heroes.v1/feature.censor.level-1/revitalizing-ritual"}
+#### Revitalizing Ritual {data-scc="mcdm.heroes.v1/feature.censor.level-1/revitalizing-ritual" data-subclass="life"}
 
 Each time you finish a [respite](../rule/resource/respite.md), you can choose yourself or one ally who is also finishing a [respite](../rule/resource/respite.md) to gain the benefit of a divine ritual. The chosen character gains a [bonus](../rule/dice/bonuses-and-penalties.md) to their [recovery value](../rule/health/recoveries.md) equal to your level that lasts until you finish another [respite](../rule/resource/respite.md).
 
-#### Sanctified Weapon {data-scc="mcdm.heroes.v1/feature.censor.level-1/sanctified-weapon"}
+#### Sanctified Weapon {data-scc="mcdm.heroes.v1/feature.censor.level-1/sanctified-weapon" data-subclass="war"}
 
 As a [respite](../rule/resource/respite.md) activity, you can bless a weapon. Any creature who wields the weapon gains a +1 [bonus](../rule/dice/bonuses-and-penalties.md) to [rolled damage](../rule/damage/rolled-damage.md) with abilities that use the weapon. This benefit lasts until you finish another [respite](../rule/resource/respite.md).
 
@@ -508,27 +508,27 @@ Your [censor order](../feature/censor/level-1/censor-order.md) grants you two fe
 | Oracle                   | [It Was Foretold](../feature/censor/level-2/it-was-foretold.md), [Judge of Character](../feature/censor/level-2/judge-of-character.md)  |
 | Paragon                  | [Lead by Example](../feature/censor/level-2/lead-by-example.md), [Stalwart Icon](../feature/censor/level-2/stalwart-icon.md)       |
 
-#### It Was Foretold {data-scc="mcdm.heroes.v1/feature.censor.level-2/it-was-foretold"}
+#### It Was Foretold {data-scc="mcdm.heroes.v1/feature.censor.level-2/it-was-foretold" data-subclass="oracle"}
 
 Your order has trained you to understand fragments of the visions granted to you by your deity, giving you a momentary advantage in challenging situations. At the start of an encounter, you can take one main action before any other creature and before your first [turn](../rule/combat/turn.md). Additionally, whenever the Director calls for a [montage test](../rule/test/montage-test.md), you can make one free [test](../rule/test/test.md) before the montage begins, which counts as an earned success or failure as usual.
 
-#### Judge of Character {data-scc="mcdm.heroes.v1/feature.censor.level-2/judge-of-character"}
+#### Judge of Character {data-scc="mcdm.heroes.v1/feature.censor.level-2/judge-of-character" data-subclass="oracle"}
 
 Your focus on your fragmentary visions grants divine insight into the world and its creatures beyond your usual senses. Whenever you would make an [Intuition](../rule/character/intuition.md) [test](../rule/test/test.md), you can make a [Presence](../rule/character/presence.md) [test](../rule/test/test.md) instead.
 
-#### Lead by Example {data-scc="mcdm.heroes.v1/feature.censor.level-2/lead-by-example"}
+#### Lead by Example {data-scc="mcdm.heroes.v1/feature.censor.level-2/lead-by-example" data-subclass="paragon"}
 
 Your devotion to your deity allows you to take command of the battlefield, letting your allies benefit from your wisdom. While you are [adjacent](../rule/combat/adjacent.md) to a creature, your allies gain the benefits of [flanking](../rule/combat/flanking.md) against that creature. Additionally, your allies gain an [edge](../rule/dice/edge.md) on [tests](../rule/test/test.md) made to aid other creatures with their [tests](../rule/test/test.md).
 
-#### Saint's Vigilance {data-scc="mcdm.heroes.v1/feature.censor.level-2/saints-vigilance"}
+#### Saint's Vigilance {data-scc="mcdm.heroes.v1/feature.censor.level-2/saints-vigilance" data-subclass="exorcist"}
 
 You have honed your ability to detect sin and can use it to find those who hide from justice. Any creature judged by you can't use the [Hide](../feature/common/maneuvers/hide.md) maneuver. Additionally, you gain an [edge](../rule/dice/edge.md) when searching for hidden creatures. If you find a hidden creature, you can use your [Judgment](../feature/ability/censor/level-1/judgment.md) ability against them as a free [triggered action](../rule/combat/triggered-action.md).
 
-#### A Sense for Truth {data-scc="mcdm.heroes.v1/feature.censor.level-2/a-sense-for-truth"}
+#### A Sense for Truth {data-scc="mcdm.heroes.v1/feature.censor.level-2/a-sense-for-truth" data-subclass="exorcist"}
 
 You are trained in secret techniques from your order that allow you to discern the truth with [supernatural](../rule/general/supernatural.md) precision. If a creature is of a lower level than you, you automatically know when they are lying, though you don't necessarily know the actual truth behind their lie. Additionally, you gain an [edge](../rule/dice/edge.md) on [tests](../rule/test/test.md) made to detect lies or hidden motives.
 
-#### Stalwart Icon {data-scc="mcdm.heroes.v1/feature.censor.level-2/stalwart-icon"}
+#### Stalwart Icon {data-scc="mcdm.heroes.v1/feature.censor.level-2/stalwart-icon" data-subclass="paragon"}
 
 You exhibit a small spark of your deity's power, causing creatures to trust or fear you, depending on what you need. You gain an [edge](../rule/dice/edge.md) on [tests](../rule/test/test.md) made to intimidate or persuade others.
 
@@ -540,7 +540,7 @@ Your [censor order](../feature/censor/level-1/censor-order.md) grants your choic
 
 Choose one of the following abilities.
 
-##### It Is Justice You Fear {data-scc="mcdm.heroes.v1/feature.ability.censor.level-2/it-is-justice-you-fear" data-cost="5 Wrath"}
+##### It Is Justice You Fear {data-scc="mcdm.heroes.v1/feature.ability.censor.level-2/it-is-justice-you-fear" data-cost="5 Wrath" data-subclass="exorcist"}
 
 
 *I am but a vessel. Your own deeds weigh upon you.*
@@ -557,7 +557,7 @@ Choose one of the following abilities.
 
 **Effect:** If the target is already [frightened](../condition/frightened.md) of you or another creature and this ability would frighten them again, they instead take psychic damage equal to twice your [Presence](../rule/character/presence.md) score.
 
-##### Revelator {data-scc="mcdm.heroes.v1/feature.ability.censor.level-2/revelator" data-cost="5 Wrath"}
+##### Revelator {data-scc="mcdm.heroes.v1/feature.ability.censor.level-2/revelator" data-cost="5 Wrath" data-subclass="exorcist"}
 
 
 *You channel holy energy to harm unbelievers and reveal those hidden from your [judgment](../feature/ability/censor/level-1/judgment.md).*
@@ -572,7 +572,7 @@ Choose one of the following abilities.
 
 Choose one of the following abilities.
 
-##### Prescient Grace {data-scc="mcdm.heroes.v1/feature.ability.censor.level-2/prescient-grace" data-cost="5 Wrath"}
+##### Prescient Grace {data-scc="mcdm.heroes.v1/feature.ability.censor.level-2/prescient-grace" data-cost="5 Wrath" data-subclass="oracle"}
 
 
 *Gifted by a prescient vision, you warn an ally of an impending attack.*
@@ -585,7 +585,7 @@ Choose one of the following abilities.
 
 **Effect:** You can spend a [Recovery](../rule/health/recoveries.md) to allow the target to regain [Stamina](../rule/health/stamina.md) equal to your [recovery value](../rule/health/recoveries.md). The target can then take their [turn](../rule/combat/turn.md) immediately before the triggering enemy.
 
-##### With My Blessing {data-scc="mcdm.heroes.v1/feature.ability.censor.level-2/with-my-blessing" data-cost="5 Wrath"}
+##### With My Blessing {data-scc="mcdm.heroes.v1/feature.ability.censor.level-2/with-my-blessing" data-cost="5 Wrath" data-subclass="oracle"}
 
 
 *A word in prayer, and the gods show the way.*
@@ -600,7 +600,7 @@ Choose one of the following abilities.
 
 Choose one of the following abilities.
 
-##### Blessing of the Faithful {data-scc="mcdm.heroes.v1/feature.ability.censor.level-2/blessing-of-the-faithful" data-cost="5 Wrath"}
+##### Blessing of the Faithful {data-scc="mcdm.heroes.v1/feature.ability.censor.level-2/blessing-of-the-faithful" data-cost="5 Wrath" data-subclass="paragon"}
 
 
 *The gods reward your faith.*
@@ -611,7 +611,7 @@ Choose one of the following abilities.
 
 **Effect:** Until the end of the encounter or until you are [dying](../rule/health/dying.md), each target gains 1 [surge](../rule/resource/surge.md) at the end of each of your [turns](../rule/combat/turn.md).
 
-##### Sentenced {data-scc="mcdm.heroes.v1/feature.ability.censor.level-2/sentenced" data-cost="5 Wrath"}
+##### Sentenced {data-scc="mcdm.heroes.v1/feature.ability.censor.level-2/sentenced" data-cost="5 Wrath" data-subclass="paragon"}
 
 
 *The shock of your condemnation freezes your enemy in their boots.*
@@ -725,7 +725,7 @@ You gain a domain feature from your domain, as shown on the 4th-Level [Censor](c
 | Trickery                         | [Blessing of Secrets](../feature/ability/censor/level-4/blessing-of-secrets.md)         |
 | War                              | [Improved Sanctified Weapon](../feature/censor/level-4/improved-sanctified-weapon.md)  |
 
-#### Blessing of Life {data-scc="mcdm.heroes.v1/feature.censor.level-4/blessing-of-life"}
+#### Blessing of Life {data-scc="mcdm.heroes.v1/feature.censor.level-4/blessing-of-life" data-subclass="life"}
 
 Your divine presence causes those you deem worthy to recover quickly from a fight. Whenever an ally within [distance](../rule/combat/distance.md) of your [My Life for Yours](../feature/ability/censor/level-1/my-life-for-yours.md) ability regains [Stamina](../rule/health/stamina.md), they regain additional [Stamina](../rule/health/stamina.md) equal to your [Presence](../rule/character/presence.md) score.
 
@@ -733,7 +733,7 @@ Your divine presence causes those you deem worthy to recover quickly from a figh
 
 You have the following ability.
 
-##### Blessing of Secrets {data-scc="mcdm.heroes.v1/feature.ability.censor.level-4/blessing-of-secrets"}
+##### Blessing of Secrets {data-scc="mcdm.heroes.v1/feature.ability.censor.level-4/blessing-of-secrets" data-subclass="trickery"}
 
 
 *You project an illusory [aura](../rule/combat/aura.md) that makes you and allies harder to notice.*
@@ -744,45 +744,45 @@ You have the following ability.
 
 **Effect:** Each creature in the area has a double [edge](../rule/dice/edge.md) on [tests](../rule/test/test.md) made to [hide](../skill/intrigue/hide.md) or [sneak](../skill/intrigue/sneak.md). The [aura](../rule/combat/aura.md) lasts until you end it (no action required) or until a target harms or deals damage to a creature or object.
 
-#### Impervious Touch {data-scc="mcdm.heroes.v1/feature.censor.level-4/impervious-touch"}
+#### Impervious Touch {data-scc="mcdm.heroes.v1/feature.censor.level-4/impervious-touch" data-subclass="protection"}
 
 As a maneuver, you can touch an object with a [size](../rule/character/size.md) equal to your [Presence](../rule/character/presence.md) score or smaller and place a protective spell on it. The object has immunity all to untyped damage. You can maintain this spell on a number of objects equal to your [Presence](../rule/character/presence.md) score, and you can end the spell on any object at any time (no action required).
 
 Additionally, you can place this spell on a building or vehicle (or a similar structure with the Director's approval) that is of a [size](../rule/character/size.md) larger than your [Presence](../rule/character/presence.md) score. You can place the spell on only one such target at a time, and you can maintain the spell on a larger target and a number of objects equal to your [Presence](../rule/character/presence.md) score simultaneously.
 
-#### Improved Hands of the Maker {data-scc="mcdm.heroes.v1/feature.censor.level-4/improved-hands-of-the-maker"}
+#### Improved Hands of the Maker {data-scc="mcdm.heroes.v1/feature.censor.level-4/improved-hands-of-the-maker" data-subclass="creation"}
 
 When you use your [Hands of the Maker](../feature/ability/censor/level-1/hands-of-the-maker.md) ability, you can create a mundane object that is [size](../rule/character/size.md) 2 or smaller.
 
-#### Improved Sanctified Weapon {data-scc="mcdm.heroes.v1/feature.censor.level-4/improved-sanctified-weapon"}
+#### Improved Sanctified Weapon {data-scc="mcdm.heroes.v1/feature.censor.level-4/improved-sanctified-weapon" data-subclass="war"}
 
 The weapon improved by your [Sanctified Weapon](../feature/censor/level-1/sanctified-weapon.md) feature grants a +3 [bonus](../rule/dice/bonuses-and-penalties.md) to [rolled damage](../rule/damage/rolled-damage.md) instead of +1.
 
-#### Invocation of the Heart {data-scc="mcdm.heroes.v1/feature.censor.level-4/invocation-of-the-heart"}
+#### Invocation of the Heart {data-scc="mcdm.heroes.v1/feature.censor.level-4/invocation-of-the-heart" data-subclass="love"}
 
 As a main action, you forge a bond of love and friendship with one willing creature you touch. While this bond is active, you can telepathically speak with the creature over any [distance](../rule/combat/distance.md), including across different worlds. Additionally, while this bond is active, you can attempt to assist the creature with any [test](../rule/test/test.md) they make regardless of their proximity to you. You can maintain only one bond at a time, and you can end a bond at any time (no action required).
 
-#### Light of Revelation {data-scc="mcdm.heroes.v1/feature.censor.level-4/light-of-revelation"}
+#### Light of Revelation {data-scc="mcdm.heroes.v1/feature.censor.level-4/light-of-revelation" data-subclass="sun"}
 
 As a maneuver, you make your body shine brightly, illuminating your space and each square within 5 squares until you dismiss the light (no action required). This light shines through any darkness. Hidden creatures in the area are automatically revealed, and creatures in the light, including you, can't hide. While this feature is active, you gain an [edge](../rule/dice/edge.md) on [tests](../rule/test/test.md) made to notice hidden objects and entrances and to detect [supernatural](../rule/general/supernatural.md) illusions.
 
-#### Oracular Warning {data-scc="mcdm.heroes.v1/feature.censor.level-4/oracular-warning"}
+#### Oracular Warning {data-scc="mcdm.heroes.v1/feature.censor.level-4/oracular-warning" data-subclass="fate"}
 
 Each time you finish a [respite](../rule/resource/respite.md), you can share the vague dreams of the future granted to you by the gods with allies who finished the [respite](../rule/resource/respite.md) with you. These premonitions help you and your allies stay alive, granting each of you [temporary Stamina](../rule/health/temporary-stamina.md) equal to 10 + your level that lasts until you finish another [respite](../rule/resource/respite.md).
 
-#### Seance {data-scc="mcdm.heroes.v1/feature.censor.level-4/seance"}
+#### Seance {data-scc="mcdm.heroes.v1/feature.censor.level-4/seance" data-subclass="death"}
 
 You can commune with a network of spirits. As a [respite](../rule/resource/respite.md) activity, you speak the name of a creature who died and isn't undead. If the creature's spirit is free and willing to speak with you, they appear and you can have a conversation with them. During this time, the creature responds to you as they would have in life. If the creature isn't free or willing to appear, you can speak another name or choose another [respite](../rule/resource/respite.md) activity.
 
-#### Saint's Epiphany {data-scc="mcdm.heroes.v1/feature.censor.level-4/saints-epiphany"}
+#### Saint's Epiphany {data-scc="mcdm.heroes.v1/feature.censor.level-4/saints-epiphany" data-subclass="knowledge"}
 
 At the start of a [respite](../rule/resource/respite.md), you can inspire yourself or another creature taking the same [respite](../rule/resource/respite.md) with divine knowledge. If the target makes a [project roll](../rule/downtime/project-roll.md) during this [respite](../rule/resource/respite.md), they can add 1d10 plus your [Presence](../rule/character/presence.md) score to the roll.
 
-#### Windwalk {data-scc="mcdm.heroes.v1/feature.censor.level-4/windwalk"}
+#### Windwalk {data-scc="mcdm.heroes.v1/feature.censor.level-4/windwalk" data-subclass="storm"}
 
 While you have 5 or more [Victories](../rule/resource/victories.md), you can [fly](../movement/fly.md). If you can already [fly](../movement/fly.md), you have a +2 [bonus](../rule/dice/bonuses-and-penalties.md) to [speed](../rule/character/speed.md) while [flying](../movement/fly.md) instead.
 
-#### Wode Road {data-scc="mcdm.heroes.v1/feature.censor.level-4/wode-road"}
+#### Wode Road {data-scc="mcdm.heroes.v1/feature.censor.level-4/wode-road" data-subclass="nature"}
 
 As a main action, you touch a living tree and make it part of a divine transportation network. You can maintain a number of trees in your network equal to your [Presence](../rule/character/presence.md) score. Whenever you touch any tree in your network, you can use a main action to [teleport](../movement/teleport.md) yourself and any willing creatures within 10 squares of you to a tree in your network on the same world. If a tree in your network dies, it is no longer part of the network. You can remove a tree from your network no matter your [distance](../rule/combat/distance.md) from it, including across different worlds (no action required).
 
@@ -802,17 +802,17 @@ Your [censor order](../feature/censor/level-1/censor-order.md) grants you a feat
 | Oracle                   | [Prophecy](../feature/censor/level-5/prophecy.md)      |
 | Paragon                  | [Stand Fast](../feature/censor/level-5/stand-fast.md)!   |
 
-#### Evil Revealed {data-scc="mcdm.heroes.v1/feature.censor.level-5/evil-revealed"}
+#### Evil Revealed {data-scc="mcdm.heroes.v1/feature.censor.level-5/evil-revealed" data-subclass="exorcist"}
 
 Your order has taught you methods to discern the disguises of both mortals and monsters. You automatically see through disguises and illusions created by creatures of your level or lower, and you gain an [edge](../rule/dice/edge.md) on [tests](../rule/test/test.md) made to see through the disguises and illusions of more powerful creatures. Whenever you see through a creature's disguise or illusion, you can use your [Judgment](../feature/ability/censor/level-1/judgment.md) ability against them as a free [triggered action](../rule/combat/triggered-action.md).
 
-#### Prophecy {data-scc="mcdm.heroes.v1/feature.censor.level-5/prophecy"}
+#### Prophecy {data-scc="mcdm.heroes.v1/feature.censor.level-5/prophecy" data-subclass="oracle"}
 
 You can better sift through the constant fragmentary visions from your deity and act to make them manifest. Each time you earn 1 or more [Victories](../rule/resource/victories.md), you can make a number of 2d10 rolls equal to the number of [Victories](../rule/resource/victories.md) you earned. Record each roll in order. Then whenever you or a creature within 10 squares makes a [power roll](../rule/dice/power-roll.md), you can use a free [triggered action](../rule/combat/triggered-action.md) to replace the total on the dice with your first recorded roll.
 
 You discard each roll as it is used, and each time you earn [Victories](../rule/resource/victories.md), you add new rolls to the bottom of the list. Any unused rolls are discarded when you finish a [respite](../rule/resource/respite.md).
 
-#### Stand Fast! {data-scc="mcdm.heroes.v1/feature.censor.level-5/stand-fast"}
+#### Stand Fast! {data-scc="mcdm.heroes.v1/feature.censor.level-5/stand-fast" data-subclass="paragon"}
 
 Your divine spark grows in power, allowing you and your allies to focus and endure. At the start of each of your [turns](../rule/combat/turn.md), you can spend 1d6 [Stamina](../rule/health/stamina.md) to end one effect on you that is ended by a [saving throw](../rule/general/saving-throw.md) or that ends at the end of your [turn](../rule/combat/turn.md). Any ally who starts their [turn](../rule/combat/turn.md) within 5 squares of you can also spend [Stamina](../rule/health/stamina.md) to gain this benefit.
 
@@ -905,7 +905,7 @@ Your [censor order](../feature/censor/level-1/censor-order.md) grants your choic
 
 Choose one of the following abilities.
 
-##### Begone! {data-scc="mcdm.heroes.v1/feature.ability.censor.level-6/begone" data-cost="9 Wrath"}
+##### Begone! {data-scc="mcdm.heroes.v1/feature.ability.censor.level-6/begone" data-cost="9 Wrath" data-subclass="exorcist"}
 
 
 *You terrify your enemies into retreating, creating chaos in their ranks.*
@@ -920,7 +920,7 @@ Choose one of the following abilities.
 - **12-16:** 6 psychic damage; [slide](../movement/forced-movement.md) 5
 - **17+:** 8 psychic damage; [slide](../movement/forced-movement.md) 7
 
-##### Pain of Your Own Making {data-scc="mcdm.heroes.v1/feature.ability.censor.level-6/pain-of-your-own-making" data-cost="9 Wrath"}
+##### Pain of Your Own Making {data-scc="mcdm.heroes.v1/feature.ability.censor.level-6/pain-of-your-own-making" data-cost="9 Wrath" data-subclass="exorcist"}
 
 
 *You reverse the effects from an evildoer.*
@@ -937,7 +937,7 @@ Choose one of the following abilities.
 
 Choose one of the following abilities.
 
-##### Burden of Evil {data-scc="mcdm.heroes.v1/feature.ability.censor.level-6/burden-of-evil" data-cost="9 Wrath"}
+##### Burden of Evil {data-scc="mcdm.heroes.v1/feature.ability.censor.level-6/burden-of-evil" data-cost="9 Wrath" data-subclass="oracle"}
 
 
 *You reveal a vision of your enemies' fate that causes them to scramble as it staggers them.*
@@ -952,7 +952,7 @@ Choose one of the following abilities.
 - **12-16:** [Slide](../movement/forced-movement.md) 5; I < AVERAGE, [dazed](../condition/dazed.md) (save ends)
 - **17+:** [Slide](../movement/forced-movement.md) 7; I < STRONG, [dazed](../condition/dazed.md) (save ends)
 
-##### Edict of Peace {data-scc="mcdm.heroes.v1/feature.ability.censor.level-6/edict-of-peace" data-cost="9 Wrath"}
+##### Edict of Peace {data-scc="mcdm.heroes.v1/feature.ability.censor.level-6/edict-of-peace" data-cost="9 Wrath" data-subclass="oracle"}
 
 
 *You anticipate your foes' moves and deny them.*
@@ -967,7 +967,7 @@ Choose one of the following abilities.
 
 Choose one of the following abilities.
 
-##### Congregation {data-scc="mcdm.heroes.v1/feature.ability.censor.level-6/congregation" data-cost="9 Wrath"}
+##### Congregation {data-scc="mcdm.heroes.v1/feature.ability.censor.level-6/congregation" data-cost="9 Wrath" data-subclass="paragon"}
 
 
 *You focus your allies' wrath on a chosen foe.*
@@ -984,7 +984,7 @@ Choose one of the following abilities.
 
 **Effect:** Each ally can [shift](../movement/shifting.md) up to 2 squares and gains 2 [surges](../rule/resource/surge.md) before making the [strike](../rule/combat/strike.md).
 
-##### Intercede {data-scc="mcdm.heroes.v1/feature.ability.censor.level-6/intercede" data-cost="9 Wrath"}
+##### Intercede {data-scc="mcdm.heroes.v1/feature.ability.censor.level-6/intercede" data-cost="9 Wrath" data-subclass="paragon"}
 
 
 *You take your ally's place.*
@@ -1026,15 +1026,15 @@ You gain a domain feature from your domain, as shown on the 7th-Level [Censor](c
 | Trickery   | [Trinity of Trickery](../feature/ability/censor/level-7/trinity-of-trickery.md)          |
 | War        | [Your Triumphs Are Remembered](../feature/censor/level-7/your-triumphs-are-remembered.md) |
 
-#### Blessing of Iron {data-scc="mcdm.heroes.v1/feature.censor.level-7/blessing-of-iron"}
+#### Blessing of Iron {data-scc="mcdm.heroes.v1/feature.censor.level-7/blessing-of-iron" data-subclass="protection"}
 
 The gods send divine favor to you and your allies. While you are not [dying](../rule/health/dying.md), enemies take a [bane](../rule/dice/bane.md) on [strikes](../rule/combat/strike.md) against you or any ally within 3 squares of you.
 
-#### Covenant of the Heart {data-scc="mcdm.heroes.v1/feature.censor.level-7/covenant-of-the-heart"}
+#### Covenant of the Heart {data-scc="mcdm.heroes.v1/feature.censor.level-7/covenant-of-the-heart" data-subclass="love"}
 
 You can maintain bonds with up to three willing creatures using your [Invocation of the Heart](../feature/censor/level-4/invocation-of-the-heart.md) feature. Additionally, you have the following ability.
 
-##### Guided to Your Side {data-scc="mcdm.heroes.v1/feature.ability.censor.level-7/guided-to-your-side"}
+##### Guided to Your Side {data-scc="mcdm.heroes.v1/feature.ability.censor.level-7/guided-to-your-side" data-subclass="love"}
 
 
 *You concentrate on a friend and [teleport](../movement/teleport.md) to them.*
@@ -1045,23 +1045,23 @@ You can maintain bonds with up to three willing creatures using your [Invocation
 
 **Effect:** Each target is [teleport](../movement/teleport.md)ed to unoccupied spaces within 5 squares of a willing creature who you are bonded to with your [Invocation of the Heart](../feature/censor/level-4/invocation-of-the-heart.md) feature. You don't need [line of effect](../rule/combat/line-of-effect.md) to the bonded creature but you must be on the same world.
 
-#### Divine Quartermaster {data-scc="mcdm.heroes.v1/feature.censor.level-7/divine-quartermaster"}
+#### Divine Quartermaster {data-scc="mcdm.heroes.v1/feature.censor.level-7/divine-quartermaster" data-subclass="creation"}
 
 Each time you finish a [respite](../rule/resource/respite.md), you can choose a treasure with a project goal equal to 50 times your level or less. You gain a divine version of this treasure that lasts until you finish another [respite](../rule/resource/respite.md) or it is consumed.
 
-#### Font of Grace {data-scc="mcdm.heroes.v1/feature.censor.level-7/font-of-grace"}
+#### Font of Grace {data-scc="mcdm.heroes.v1/feature.censor.level-7/font-of-grace" data-subclass="life"}
 
 Each time you use your [My Life for Yours](../feature/ability/censor/level-1/my-life-for-yours.md) ability, you gain 1 wrath that can be spent only on that ability during the same [turn](../rule/combat/turn.md). If you don't use this wrath, it is lost. Additionally, the target of [My Life for Yours](../feature/ability/censor/level-1/my-life-for-yours.md) gains 10 [temporary Stamina](../rule/health/temporary-stamina.md).
 
-#### Gods' Library {data-scc="mcdm.heroes.v1/feature.censor.level-7/gods-library"}
+#### Gods' Library {data-scc="mcdm.heroes.v1/feature.censor.level-7/gods-library" data-subclass="knowledge"}
 
 You can gain access to information you need through prayer, so that you no longer require research materials for crafting and [research projects](../rule/downtime/research-project.md) (see Chapter 12: [Downtime Projects](../chapter/downtime-projects.md)). Additionally, you add your level to [project rolls](../rule/downtime/project-roll.md) you make for crafting and [research projects](../rule/downtime/research-project.md). You also have any skills in the [lore skill group](../skill/group/lore.md) you don't already have, and you gain a number of skills from any other skill groups equal to the number of skills you had in the [lore skill group](../skill/group/lore.md) before you gained this feature.
 
-#### Light of the Burning Sun {data-scc="mcdm.heroes.v1/feature.censor.level-7/light-of-the-burning-sun"}
+#### Light of the Burning Sun {data-scc="mcdm.heroes.v1/feature.censor.level-7/light-of-the-burning-sun" data-subclass="sun"}
 
 Sun infuses your body. Whenever you use an ability to deal [rolled damage](../rule/damage/rolled-damage.md) to another creature, that ability deals an extra 5 fire damage, or an extra 15 fire damage if the creature is undead. Additionally, you have fire immunity equal to your level, which is added to any other fire immunity you have.
 
-#### Nature's Bounty {data-scc="mcdm.heroes.v1/feature.censor.level-7/natures-bounty"}
+#### Nature's Bounty {data-scc="mcdm.heroes.v1/feature.censor.level-7/natures-bounty" data-subclass="nature"}
 
 When you finish a [respite](../rule/resource/respite.md), you can prepare a magic meal using local flora for any companions who rested with you. Choose two of the following benefits for creatures who consume the meal:
 
@@ -1073,15 +1073,15 @@ When you finish a [respite](../rule/resource/respite.md), you can prepare a magi
 
 Each benefit lasts until the creature who gains it finishes another [respite](../rule/resource/respite.md).
 
-#### Ride the Lightning {data-scc="mcdm.heroes.v1/feature.censor.level-7/ride-the-lightning"}
+#### Ride the Lightning {data-scc="mcdm.heroes.v1/feature.censor.level-7/ride-the-lightning" data-subclass="storm"}
 
 Lightning and thunder infuse your body. Whenever you use an ability to deal [rolled damage](../rule/damage/rolled-damage.md) to another creature, the ability deals extra lightning damage equal to your [Presence](../rule/character/presence.md) score. Additionally, if you use an ability that force moves a creature, the [forced movement](../movement/forced-movement.md) [distance](../rule/combat/distance.md) gains a [bonus](../rule/dice/bonuses-and-penalties.md) equal to your [Presence](../rule/character/presence.md) score. While you are under the effect of your [Windwalk](../feature/censor/level-4/windwalk.md) feature, lightning enhances your locomotion to grant you a [bonus](../rule/dice/bonuses-and-penalties.md) to [speed](../rule/character/speed.md) equal to your [Might](../rule/character/might.md) score. If [Windwalk](../feature/censor/level-4/windwalk.md) already grants you a [bonus](../rule/dice/bonuses-and-penalties.md) to [speed](../rule/character/speed.md), this [bonus](../rule/dice/bonuses-and-penalties.md) adds to that.
 
-#### Trinity of Trickery {data-scc="mcdm.heroes.v1/feature.censor.level-7/trinity-of-trickery"}
+#### Trinity of Trickery {data-scc="mcdm.heroes.v1/feature.censor.level-7/trinity-of-trickery" data-subclass="trickery"}
 
 You have the following ability.
 
-##### Trinity of Trickery {data-scc="mcdm.heroes.v1/feature.ability.censor.level-7/trinity-of-trickery" data-cost="9 Wrath"}
+##### Trinity of Trickery {data-scc="mcdm.heroes.v1/feature.ability.censor.level-7/trinity-of-trickery" data-cost="9 Wrath" data-subclass="trickery"}
 
 
 *Hey! I'm over here. No, here, numbskull.*
@@ -1092,17 +1092,17 @@ You have the following ability.
 
 **Effect:** You create two illusory duplicates of the target, which appear anywhere within [distance](../rule/combat/distance.md). These duplicates last until the end of the encounter. On each of their [turns](../rule/combat/turn.md), the target can move each duplicate up to their [speed](../rule/character/speed.md). If the target is targeted by an ability, they can use a free [triggered action](../rule/combat/triggered-action.md) to switch places with a duplicate within their [line of effect](../rule/combat/line-of-effect.md), making the duplicate the target of the ability instead. When either duplicate takes damage, it is destroyed.
 
-#### Word of Death Deferred {data-scc="mcdm.heroes.v1/feature.censor.level-7/word-of-death-deferred"}
+#### Word of Death Deferred {data-scc="mcdm.heroes.v1/feature.censor.level-7/word-of-death-deferred" data-subclass="death"}
 
 You can stop death from taking your allies. When an ally within [distance](../rule/combat/distance.md) of your [My Life for Yours](../feature/ability/censor/level-1/my-life-for-yours.md) ability dies and you are not [dying](../rule/health/dying.md), you can use a free [triggered action](../rule/combat/triggered-action.md) to instead have that ally fall unconscious until they regain [Stamina](../rule/health/stamina.md).
 
 Additionally, your abilities deal an extra 5 damage to [winded](../rule/health/winded.md) creatures.
 
-#### Word of Fate Denied {data-scc="mcdm.heroes.v1/feature.censor.level-7/word-of-fate-denied"}
+#### Word of Fate Denied {data-scc="mcdm.heroes.v1/feature.censor.level-7/word-of-fate-denied" data-subclass="fate"}
 
 When an ally within 10 squares takes damage that would leave them [dying](../rule/health/dying.md), you can use a free [triggered action](../rule/combat/triggered-action.md) to make yourself or another willing creature within 10 squares of you the target of the triggering damage instead. The creature you choose takes the damage and suffers any effects associated with it, and that damage can't be reduced in any way.
 
-#### Your Triumphs Are Remembered {data-scc="mcdm.heroes.v1/feature.censor.level-7/your-triumphs-are-remembered"}
+#### Your Triumphs Are Remembered {data-scc="mcdm.heroes.v1/feature.censor.level-7/your-triumphs-are-remembered" data-subclass="war"}
 
 The gods allow you and your companions to bask in the glory of past successes. Whenever you finish a [respite](../rule/resource/respite.md), you and any other heroes who rested with you regain 1 [Victory](../rule/resource/victories.md) after your [Victories](../rule/resource/victories.md) are converted to [XP](../rule/resource/experience.md). This [Victory](../rule/resource/victories.md) isn't converted into [XP](../rule/resource/experience.md) at the end of a subsequent [respite](../rule/resource/respite.md).
 
@@ -1134,15 +1134,15 @@ Your [censor order](../feature/censor/level-1/censor-order.md) grants you a feat
 | Oracle                   | [Their Past Revealed](../feature/censor/level-8/their-past-revealed.md) |
 | Paragon                  | Vow                 |
 
-#### Demonologist {data-scc="mcdm.heroes.v1/feature.censor.level-8/demonologist"}
+#### Demonologist {data-scc="mcdm.heroes.v1/feature.censor.level-8/demonologist" data-subclass="exorcist"}
 
 The most esoteric secrets of your order teach you that to defeat your enemy, you must understand them. You treat your [Renown](../rule/resource/renown.md) as 2 higher than usual when dealing with demons, [devils](../ancestry/devil.md), and other agents of chaos. If you successfully complete a negotiation with one of these creatures, you gain an [edge](../rule/dice/edge.md) on [power rolls](../rule/dice/power-roll.md) made against them and can use your [Judgment](../feature/ability/censor/level-1/judgment.md) ability against them as a free [triggered action](../rule/combat/triggered-action.md) before an encounter begins.
 
-#### Their Past Revealed {data-scc="mcdm.heroes.v1/feature.censor.level-8/their-past-revealed"}
+#### Their Past Revealed {data-scc="mcdm.heroes.v1/feature.censor.level-8/their-past-revealed" data-subclass="oracle"}
 
 Your constant fragmentary visions become clearer, and can be honed to understand the past of creatures you interact with. While speaking with any creature, you can make a medium [Presence](../rule/character/presence.md) [test](../rule/test/test.md) to see visions from their past. On a success, you see a clear view of any subject related to the creature's past that you wish to understand. On a success with a consequence, you see two visions, one false and one true. On a failure, you lose 2d6 [Stamina](../rule/health/stamina.md).
 
-#### Vow {data-scc="mcdm.heroes.v1/feature.censor.level-8/vow"}
+#### Vow {data-scc="mcdm.heroes.v1/feature.censor.level-8/vow" data-subclass="paragon"}
 
 Your words take on the power of your deity, with all the authority that entails. If you convince a creature to take an oath, they can't break it for 7 days. If you take an oath, you can't break it for 7 days.
 
@@ -1238,7 +1238,7 @@ Your [censor order](../feature/censor/level-1/censor-order.md) grants your choic
 
 Choose one of the following abilities.
 
-##### Banish {data-scc="mcdm.heroes.v1/feature.ability.censor.level-9/banish" data-cost="11 Wrath"}
+##### Banish {data-scc="mcdm.heroes.v1/feature.ability.censor.level-9/banish" data-cost="11 Wrath" data-subclass="exorcist"}
 
 
 *You sever the target's tenuous connection to the world.*
@@ -1255,7 +1255,7 @@ Choose one of the following abilities.
 
 **Effect:** This ability gains an [edge](../rule/dice/edge.md) against demons, [devils](../ancestry/devil.md), undead, and creatures not native to your current world. If you know the target's true name, this ability has a double [edge](../rule/dice/edge.md). While banished, the target is sent to another manifold in the timescape and removed from the encounter map. A banished target can do nothing but make [saving throws](../rule/general/saving-throw.md), and takes 10 holy damage each time they do so. If the target is reduced to 0 [Stamina](../rule/health/stamina.md) while banished, they are lost to the timescape.
 
-##### Terror Manifest {data-scc="mcdm.heroes.v1/feature.ability.censor.level-9/terror-manifest" data-cost="11 Wrath"}
+##### Terror Manifest {data-scc="mcdm.heroes.v1/feature.ability.censor.level-9/terror-manifest" data-cost="11 Wrath" data-subclass="exorcist"}
 
 
 *"I know what you fear."*
@@ -1276,7 +1276,7 @@ Choose one of the following abilities.
 
 Choose one of the following abilities.
 
-##### Blessing and a Curse {data-scc="mcdm.heroes.v1/feature.ability.censor.level-9/blessing-and-a-curse" data-cost="11 Wrath"}
+##### Blessing and a Curse {data-scc="mcdm.heroes.v1/feature.ability.censor.level-9/blessing-and-a-curse" data-cost="11 Wrath" data-subclass="oracle"}
 
 
 *The gods bless and damn in equal measure.*
@@ -1289,7 +1289,7 @@ Choose one of the following abilities.
 
 **Effect:** The target obtains a tier 1 or tier 3 outcome on their [power roll](../rule/dice/power-roll.md) (your choice). You can then choose another target within [distance](../rule/combat/distance.md), who obtains the opposite outcome on their next [power roll](../rule/dice/power-roll.md).
 
-##### Fulfill Your Destiny {data-scc="mcdm.heroes.v1/feature.ability.censor.level-9/fulfill-your-destiny" data-cost="11 Wrath"}
+##### Fulfill Your Destiny {data-scc="mcdm.heroes.v1/feature.ability.censor.level-9/fulfill-your-destiny" data-cost="11 Wrath" data-subclass="oracle"}
 
 
 *You have looked at various futures, and only this one works.*
@@ -1306,7 +1306,7 @@ Choose one of the following abilities.
 
 Choose one of the following abilities.
 
-##### Apostate {data-scc="mcdm.heroes.v1/feature.ability.censor.level-9/apostate" data-cost="11 Wrath"}
+##### Apostate {data-scc="mcdm.heroes.v1/feature.ability.censor.level-9/apostate" data-cost="11 Wrath" data-subclass="paragon"}
 
 
 *You channel holy energy to seal an enemy's fate.*
@@ -1323,7 +1323,7 @@ Choose one of the following abilities.
 
 **Effect:** Until the end of the encounter or until you are [dying](../rule/health/dying.md), the target has [damage weakness](../rule/damage/damage-weakness.md) 10.
 
-##### Edict of Unyielding Resolve {data-scc="mcdm.heroes.v1/feature.ability.censor.level-9/edict-of-unyielding-resolve" data-cost="11 Wrath"}
+##### Edict of Unyielding Resolve {data-scc="mcdm.heroes.v1/feature.ability.censor.level-9/edict-of-unyielding-resolve" data-cost="11 Wrath" data-subclass="paragon"}
 
 
 *You and your allies are clad in shimmering armor.*

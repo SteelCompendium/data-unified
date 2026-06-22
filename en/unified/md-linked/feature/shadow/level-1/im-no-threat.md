@@ -8,7 +8,7 @@ type: feature
 
 You have the following ability.
 
-## I'm No Threat {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-1/im-no-threat"}
+## I'm No Threat {data-scc="mcdm.heroes.v1/feature.ability.shadow.level-1/im-no-threat" data-subclass="harlequin-mask"}
 
 
 *Taking on an illusory countenance gives you an advantage on [subterfuge](../level-10/subterfuge.md).*

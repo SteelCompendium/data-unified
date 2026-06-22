@@ -11,7 +11,7 @@ You instantly recognize illusions for what they are, you can see invisible creat
 
 You also gain the following ability.
 
-## Shared Void Sense {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-1/shared-void-sense"}
+## Shared Void Sense {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-1/shared-void-sense" data-subclass="void"}
 
 
 *You grant allies a taste of your unearthly vision.*

@@ -8,7 +8,7 @@ type: feature
 
 You have the following ability.
 
-## Grave Speech {data-scc="mcdm.heroes.v1/feature.ability.censor.level-1/grave-speech"}
+## Grave Speech {data-scc="mcdm.heroes.v1/feature.ability.censor.level-1/grave-speech" data-subclass="death"}
 
 
 *You commune with the lingering soul of the recently dead.*

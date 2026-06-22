@@ -8,7 +8,7 @@ type: feature
 
 You have the following ability.
 
-## Minor Telekinesis {data-scc="mcdm.heroes.v1/feature.ability.talent.level-1/minor-telekinesis"}
+## Minor Telekinesis {data-scc="mcdm.heroes.v1/feature.ability.talent.level-1/minor-telekinesis" data-subclass="telekinesis"}
 
 
 *Wisps of psychic energy ripple visibly from your brain as you force the target to move using only your mind.*

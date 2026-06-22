@@ -131,7 +131,7 @@ Your [primordial aspect](../feature/fury/level-1/primordial-aspect.md) grants yo
 | Reaver     | Kit, [Primordial Cunning](../feature/fury/level-1/primordial-cunning.md)        |
 | Stormwight | [Beast Shape](../feature/fury/level-1/beast-shape.md), [Relentless Hunter](../feature/fury/level-1/relentless-hunter.md) |
 
-#### Beast Shape {data-scc="mcdm.heroes.v1/feature.fury.level-1/beast-shape"}
+#### Beast Shape {data-scc="mcdm.heroes.v1/feature.fury.level-1/beast-shape" data-subclass="stormwight"}
 
 You can use and gain the benefits of a stormwight kit (see [Stormwight Kits](../feature/fury/stormwight-kits/kit-features.md)). Your stormwight kit grants you a number of benefits, including benefits tied to your [Growing Ferocity](../feature/fury/boren/growing-ferocity.md) feature.
 
@@ -139,19 +139,19 @@ You can use and gain the benefits of a stormwight kit (see [Stormwight Kits](../
 
 You can use and gain the benefits of a kit. See Chapter 6: [Kits](../chapter/kits.md) for more information. (*Quick Build:* [Panther](../kit/panther.md).)
 
-#### Primordial Cunning {data-scc="mcdm.heroes.v1/feature.fury.level-1/primordial-cunning"}
+#### Primordial Cunning {data-scc="mcdm.heroes.v1/feature.fury.level-1/primordial-cunning" data-subclass="reaver"}
 
 You are never [surprised](../rule/combat/surprised.md). Additionally, whenever you would [push](../movement/forced-movement.md) a target with [forced movement](../movement/forced-movement.md), you can [slide](../movement/forced-movement.md) them instead.
 
 As your ferocity grows, you gain benefits as noted on the Reaver [Growing Ferocity](../feature/fury/boren/growing-ferocity.md) table. Benefits are cumulative except where an improved benefit replaces a lesser benefit.
 
-#### Primordial Strength {data-scc="mcdm.heroes.v1/feature.fury.level-1/primordial-strength"}
+#### Primordial Strength {data-scc="mcdm.heroes.v1/feature.fury.level-1/primordial-strength" data-subclass="berserker"}
 
 Whenever you damage an object with a weapon [strike](../rule/combat/strike.md), the [strike](../rule/combat/strike.md) deals extra damage equal to your [Might](../rule/character/might.md) score. Additionally, whenever you [push](../movement/forced-movement.md) another creature into an object, the creature takes extra damage equal to your [Might](../rule/character/might.md) score.
 
 As your ferocity grows, you gain benefits as noted on the Berserker [Growing Ferocity](../feature/fury/boren/growing-ferocity.md) table. Benefits are cumulative except where an improved benefit replaces a lesser benefit.
 
-#### Relentless Hunter {data-scc="mcdm.heroes.v1/feature.fury.level-1/relentless-hunter"}
+#### Relentless Hunter {data-scc="mcdm.heroes.v1/feature.fury.level-1/relentless-hunter" data-subclass="stormwight"}
 
 You gain an [edge](../rule/dice/edge.md) on [tests](../rule/test/test.md) made using the [Track](../skill/intrigue/track.md) skill.
 
@@ -167,7 +167,7 @@ Your [primordial aspect](../feature/fury/level-1/primordial-aspect.md) grants yo
 | Reaver                   | [Unearthly Reflexes](../feature/ability/fury/level-1/unearthly-reflexes.md) |
 | Stormwight               | [Furious Change](../feature/ability/fury/level-1/furious-change.md)     |
 
-##### Furious Change {data-scc="mcdm.heroes.v1/feature.ability.fury.level-1/furious-change"}
+##### Furious Change {data-scc="mcdm.heroes.v1/feature.ability.fury.level-1/furious-change" data-subclass="stormwight"}
 
 
 *In your anger, you revert to a more bestial form.*
@@ -182,7 +182,7 @@ Your [primordial aspect](../feature/fury/level-1/primordial-aspect.md) grants yo
 
 **Spend 1 Ferocity:** If you are not [dying](../rule/health/dying.md), you can spend a [Recovery](../rule/health/recoveries.md).
 
-##### Lines of Force {data-scc="mcdm.heroes.v1/feature.ability.fury.level-1/lines-of-force"}
+##### Lines of Force {data-scc="mcdm.heroes.v1/feature.ability.fury.level-1/lines-of-force" data-subclass="berserker"}
 
 
 *You redirect the energy of motion.*
@@ -197,7 +197,7 @@ Your [primordial aspect](../feature/fury/level-1/primordial-aspect.md) grants yo
 
 **Spend 1 Ferocity:** The [forced movement](../movement/forced-movement.md) [distance](../rule/combat/distance.md) gains a [bonus](../rule/dice/bonuses-and-penalties.md) equal to twice your [Might](../rule/character/might.md) score instead.
 
-##### Unearthly Reflexes {data-scc="mcdm.heroes.v1/feature.ability.fury.level-1/unearthly-reflexes"}
+##### Unearthly Reflexes {data-scc="mcdm.heroes.v1/feature.ability.fury.level-1/unearthly-reflexes" data-subclass="reaver"}
 
 
 *You are as elusive as a hummingbird.*
@@ -450,15 +450,15 @@ Your [primordial aspect](../feature/fury/level-1/primordial-aspect.md) grants yo
 | Reaver     | [Inescapable Wrath](../feature/fury/level-2/inescapable-wrath.md) |
 | Stormwight | [Tooth and Claw](../feature/fury/level-2/tooth-and-claw.md)    |
 
-#### Inescapable Wrath {data-scc="mcdm.heroes.v1/feature.fury.level-2/inescapable-wrath"}
+#### Inescapable Wrath {data-scc="mcdm.heroes.v1/feature.fury.level-2/inescapable-wrath" data-subclass="reaver"}
 
 You have a [bonus](../rule/dice/bonuses-and-penalties.md) to [speed](../rule/character/speed.md) equal to your [Agility](../rule/character/agility.md) score, and you ignore [difficult terrain](../movement/difficult-terrain.md).
 
-#### Tooth and Claw {data-scc="mcdm.heroes.v1/feature.fury.level-2/tooth-and-claw"}
+#### Tooth and Claw {data-scc="mcdm.heroes.v1/feature.fury.level-2/tooth-and-claw" data-subclass="stormwight"}
 
 At the end of each of your [turns](../rule/combat/turn.md), each enemy [adjacent](../rule/combat/adjacent.md) to you takes damage equal to your [Might](../rule/character/might.md) score.
 
-#### Unstoppable Force {data-scc="mcdm.heroes.v1/feature.fury.level-2/unstoppable-force"}
+#### Unstoppable Force {data-scc="mcdm.heroes.v1/feature.fury.level-2/unstoppable-force" data-subclass="berserker"}
 
 Whenever you use the [Charge](../feature/common/main-actions/charge.md) main action, you can use a [strike](../rule/combat/strike.md) [signature ability](../rule/combat/signature-ability.md) or a [strike](../rule/combat/strike.md) [heroic ability](../rule/general/heroic-ability.md) instead of a [free strike](../feature/common/main-actions/free-strike.md). Additionally, you can jump as part of your charge.
 
@@ -590,19 +590,19 @@ Your [primordial aspect](../feature/fury/level-1/primordial-aspect.md) grants yo
 | Reaver                    | [See Through Their Tricks](../feature/fury/level-3/see-through-their-tricks.md) |
 | Stormwight                | Nature's Knight          |
 
-#### Immovable Object {data-scc="mcdm.heroes.v1/feature.fury.level-3/immovable-object"}
+#### Immovable Object {data-scc="mcdm.heroes.v1/feature.fury.level-3/immovable-object" data-subclass="berserker"}
 
 You add your level to your effective [size](../rule/character/size.md) for the purpose of interacting with creatures and objects, including determining whether you can lift an object, are affected by [forced movement](../movement/forced-movement.md), and so forth. This has no effect on whether you can be [grabbed](../condition/grabbed.md).
 
 Additionally, you have a [bonus](../rule/dice/bonuses-and-penalties.md) to [stability](../rule/character/stability.md) equal to your [Might](../rule/character/might.md) score.
 
-#### Nature's Knight {data-scc="mcdm.heroes.v1/feature.fury.level-3/natures-knight"}
+#### Nature's Knight {data-scc="mcdm.heroes.v1/feature.fury.level-3/natures-knight" data-subclass="stormwight"}
 
 You can speak with animals and elementals. Additionally, you automatically sense the presence of animals and elementals within 10 squares of you, even if they are hidden.
 
 When you are in a negotiation with an animal or elemental, you treat your [Renown](../rule/resource/renown.md) as 1 higher than usual. This stacks with the increase to your effective [Renown](../rule/resource/renown.md) in a negotiation with an animal of your type while in [animal form](../complication/animal-form.md) (see [Stormwight Kits](../feature/fury/stormwight-kits/kit-features.md)).
 
-#### See Through Their Tricks {data-scc="mcdm.heroes.v1/feature.fury.level-3/see-through-their-tricks"}
+#### See Through Their Tricks {data-scc="mcdm.heroes.v1/feature.fury.level-3/see-through-their-tricks" data-subclass="reaver"}
 
 You have a double [edge](../rule/dice/edge.md) on [tests](../rule/test/test.md) made to search for hidden creatures, discern hidden motives, or detect lies. You also have a double [edge](../rule/dice/edge.md) on [tests](../rule/test/test.md) made to gamble!
 
@@ -702,15 +702,15 @@ Your [primordial aspect](../feature/fury/level-1/primordial-aspect.md) grants yo
 | Reaver     | [Unfettered](../feature/fury/level-5/unfettered.md) |
 | Stormwight | [Stormborn](../feature/fury/level-5/stormborn.md)  |
 
-#### Bounder {data-scc="mcdm.heroes.v1/feature.fury.level-5/bounder"}
+#### Bounder {data-scc="mcdm.heroes.v1/feature.fury.level-5/bounder" data-subclass="berserker"}
 
 Your jump [distance](../rule/combat/distance.md) and height double (see Movement Types in Chapter 10: [Combat](../chapter/combat.md)). Additionally, when you fall, you reduce the effective height of your fall by a number of squares equal to your jump [distance](../rule/combat/distance.md) for the purpose of determining damage and whether you [land prone](../condition/prone.md) (see Falling in Chapter 10). You [are not prone](../condition/prone.md) after falling and landing on another creature.
 
-#### Stormborn {data-scc="mcdm.heroes.v1/feature.fury.level-5/stormborn"}
+#### Stormborn {data-scc="mcdm.heroes.v1/feature.fury.level-5/stormborn" data-subclass="stormwight"}
 
 You and each ally within 5 squares of you ignore negative effects from inclement weather, such as [banes](../rule/dice/bane.md) or environmental damage. Additionally, you can use the Blessing of Fortunate Weather feature as if you were a 1st-level [conduit](conduit.md) (see 1st-Level Domain Feature in the [Conduit](conduit.md) section).
 
-#### Unfettered {data-scc="mcdm.heroes.v1/feature.fury.level-5/unfettered"}
+#### Unfettered {data-scc="mcdm.heroes.v1/feature.fury.level-5/unfettered" data-subclass="reaver"}
 
 At the start of your [turn](../rule/combat/turn.md), you can end any [restrained](../condition/restrained.md) [condition](../rule/combat/condition.md) on you. Additionally, you have a double [edge](../rule/dice/edge.md) on [tests](../rule/test/test.md) made to escape being confined or imprisoned.
 
@@ -792,7 +792,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 As a 6th-level [fury](fury.md), you gain the following features.
 
-### Marauder of the Primordial Chaos {data-scc="mcdm.heroes.v1/feature.fury.level-6/marauder-of-the-primordial-chaos"}
+### Marauder of the Primordial Chaos {data-scc="mcdm.heroes.v1/feature.fury.level-6/marauder-of-the-primordial-chaos" data-subclass="stormwight"}
 
 As your connection to the power of the Primordial Chaos grows ever stronger, you automatically sense any elemental creatures or magic sources of elemental power, such as a lava pool or a lake overlapping with Quintessence, within 1 mile of you.
 
@@ -816,7 +816,7 @@ Your [primordial aspect](../feature/fury/level-1/primordial-aspect.md) grants yo
 
 Choose one of the following abilities.
 
-##### Avalanche Impact {data-scc="mcdm.heroes.v1/feature.ability.fury.level-6/avalanche-impact" data-cost="9 Ferocity"}
+##### Avalanche Impact {data-scc="mcdm.heroes.v1/feature.ability.fury.level-6/avalanche-impact" data-cost="9 Ferocity" data-subclass="berserker"}
 
 
 *You leap and crash down, causing a shockwave that devastates foes.*
@@ -833,7 +833,7 @@ Choose one of the following abilities.
 - **12-16:** 7 damage; [push](../movement/forced-movement.md) 2
 - **17+:** 11 damage; [push](../movement/forced-movement.md) 3
 
-##### Force of Storms {data-scc="mcdm.heroes.v1/feature.ability.fury.level-6/force-of-storms" data-cost="9 Ferocity"}
+##### Force of Storms {data-scc="mcdm.heroes.v1/feature.ability.fury.level-6/force-of-storms" data-cost="9 Ferocity" data-subclass="berserker"}
 
 
 *You strike an enemy hard enough to be a projectile that knocks a crowd of creatures around.*
@@ -854,7 +854,7 @@ Choose one of the following abilities.
 
 Choose one of the following abilities.
 
-##### Death Strike {data-scc="mcdm.heroes.v1/feature.ability.fury.level-6/death-strike" data-cost="9 Ferocity"}
+##### Death Strike {data-scc="mcdm.heroes.v1/feature.ability.fury.level-6/death-strike" data-cost="9 Ferocity" data-subclass="reaver"}
 
 
 *Once you taste your foe's blood, you become more efficient and [turn](../rule/combat/turn.md) every killing blow into an opportunity.*
@@ -867,7 +867,7 @@ Choose one of the following abilities.
 
 **Effect:** You target a creature [adjacent](../rule/combat/adjacent.md) to you with the same strike, using the same [power roll](../rule/dice/power-roll.md) as the triggering strike.
 
-##### Seek and Destroy {data-scc="mcdm.heroes.v1/feature.ability.fury.level-6/seek-and-destroy" data-cost="9 Ferocity"}
+##### Seek and Destroy {data-scc="mcdm.heroes.v1/feature.ability.fury.level-6/seek-and-destroy" data-cost="9 Ferocity" data-subclass="reaver"}
 
 
 *You break through the enemy lines to make an example.*
@@ -890,7 +890,7 @@ Choose one of the following abilities.
 
 Choose one of the following abilities.
 
-##### Pounce {data-scc="mcdm.heroes.v1/feature.ability.fury.level-6/pounce" data-cost="9 Ferocity"}
+##### Pounce {data-scc="mcdm.heroes.v1/feature.ability.fury.level-6/pounce" data-cost="9 Ferocity" data-subclass="stormwight"}
 
 
 *You strike at the target like the ultimate predator you are.*
@@ -907,7 +907,7 @@ Choose one of the following abilities.
 
 **Effect:** You can [shift](../movement/shifting.md) up to 4 squares, bringing the target with you. While [grabbed](../condition/grabbed.md) this way, the target takes damage equal to twice your [Might](../rule/character/might.md) score at the start of each of your [turns](../rule/combat/turn.md).
 
-##### Riders on the Storm {data-scc="mcdm.heroes.v1/feature.ability.fury.level-6/riders-on-the-storm" data-cost="9 Ferocity"}
+##### Riders on the Storm {data-scc="mcdm.heroes.v1/feature.ability.fury.level-6/riders-on-the-storm" data-cost="9 Ferocity" data-subclass="stormwight"}
 
 
 *You focus your connection to the Primordial Chaos into a seething storm.*
@@ -966,15 +966,15 @@ Your [primordial aspect](../feature/fury/level-1/primordial-aspect.md) grants yo
 | Reaver     | [A Step Ahead](../feature/fury/level-8/a-step-ahead.md)       |
 | Stormwight | [Menagerie](../feature/fury/level-8/menagerie.md)          |
 
-#### Menagerie {data-scc="mcdm.heroes.v1/feature.fury.level-8/menagerie"}
+#### Menagerie {data-scc="mcdm.heroes.v1/feature.fury.level-8/menagerie" data-subclass="stormwight"}
 
 You can use all [stormwight kits](../feature/fury/stormwight-kits/kit-features.md). During a [respite](../rule/resource/respite.md), you can choose to swap your stormwight kit and still take another [respite](../rule/resource/respite.md) activity. Your Nature's Knight feature now lets you automatically sense the presence of animals within 1 mile of you. Additionally, whenever you make a [test](../rule/test/test.md) to track another creature, you can roll three dice and choose which two to use.
 
-#### A Step Ahead {data-scc="mcdm.heroes.v1/feature.fury.level-8/a-step-ahead"}
+#### A Step Ahead {data-scc="mcdm.heroes.v1/feature.fury.level-8/a-step-ahead" data-subclass="reaver"}
 
 You move with legendary grace. Whenever you make an [Agility](../rule/character/agility.md) [test](../rule/test/test.md), you can roll three dice and choose which two to use. Additionally, whenever you use the [Disengage](../feature/common/move-actions/disengage.md) move action, the [distance](../rule/combat/distance.md) you can [shift](../movement/shifting.md) gains a [bonus](../rule/dice/bonuses-and-penalties.md) equal to your [Agility](../rule/character/agility.md) score.
 
-#### Strongest There Is {data-scc="mcdm.heroes.v1/feature.fury.level-8/strongest-there-is"}
+#### Strongest There Is {data-scc="mcdm.heroes.v1/feature.fury.level-8/strongest-there-is" data-subclass="berserker"}
 
 Your strength is unmatched. Whenever you make a [Might](../rule/character/might.md) [test](../rule/test/test.md), you can roll three dice and choose which two to use. Additionally, whenever you use the [Knockback](../feature/common/maneuvers/knockback.md) maneuver, the [forced movement](../movement/forced-movement.md) [distance](../rule/combat/distance.md) gains a [bonus](../rule/dice/bonuses-and-penalties.md) equal to your [Might](../rule/character/might.md) score.
 
@@ -1054,7 +1054,7 @@ Your [primordial aspect](../feature/fury/level-1/primordial-aspect.md) grants yo
 
 Choose one of the following abilities.
 
-##### Death Comes for You All! {data-scc="mcdm.heroes.v1/feature.ability.fury.level-9/death-comes-for-you-all" data-cost="11 Ferocity"}
+##### Death Comes for You All! {data-scc="mcdm.heroes.v1/feature.ability.fury.level-9/death-comes-for-you-all" data-cost="11 Ferocity" data-subclass="berserker"}
 
 
 *You use your weapon to create a destructive shockwave.*
@@ -1071,7 +1071,7 @@ Choose one of the following abilities.
 
 **Effect:** If this [forced movement](../movement/forced-movement.md) causes a target to be hurled through an object, that target takes an extra 10 damage.
 
-##### Primordial Vortex {data-scc="mcdm.heroes.v1/feature.ability.fury.level-9/primordial-vortex" data-cost="11 Ferocity"}
+##### Primordial Vortex {data-scc="mcdm.heroes.v1/feature.ability.fury.level-9/primordial-vortex" data-cost="11 Ferocity" data-subclass="berserker"}
 
 
 *You channel the power of the Primordial Chaos to pull foes to you.*
@@ -1092,7 +1092,7 @@ Choose one of the following abilities.
 
 Choose one of the following abilities.
 
-##### Primordial Bane {data-scc="mcdm.heroes.v1/feature.ability.fury.level-9/primordial-bane" data-cost="11 Ferocity"}
+##### Primordial Bane {data-scc="mcdm.heroes.v1/feature.ability.fury.level-9/primordial-bane" data-cost="11 Ferocity" data-subclass="reaver"}
 
 
 *You attune the target to be weaker to a specific element.*
@@ -1109,7 +1109,7 @@ Choose one of the following abilities.
 
 **Effect:** Choose acid, cold, corruption, fire, lightning, poison, or sonic damage. The target loses any [damage immunity](../rule/damage/damage-immunity.md) to the chosen type and gains weakness 10 to the chosen type (save ends).
 
-##### Shower of Blood {data-scc="mcdm.heroes.v1/feature.ability.fury.level-9/shower-of-blood" data-cost="11 Ferocity"}
+##### Shower of Blood {data-scc="mcdm.heroes.v1/feature.ability.fury.level-9/shower-of-blood" data-cost="11 Ferocity" data-subclass="reaver"}
 
 
 *You shock your foes with the brutality of your [strike](../rule/combat/strike.md), resetting the balance of combat.*
@@ -1130,7 +1130,7 @@ Choose one of the following abilities.
 
 Choose one of the following abilities.
 
-##### Death Rattle {data-scc="mcdm.heroes.v1/feature.ability.fury.level-9/death-rattle" data-cost="11 Ferocity"}
+##### Death Rattle {data-scc="mcdm.heroes.v1/feature.ability.fury.level-9/death-rattle" data-cost="11 Ferocity" data-subclass="stormwight"}
 
 
 *You unleash an otherworldly cry that rips through your enemies, killing the weakest of them.*
@@ -1145,7 +1145,7 @@ Choose one of the following abilities.
 - **12-16:** 6 psychic damage; any target who is a minion is reduced to 0 [Stamina](../rule/health/stamina.md), as does one [winded](../rule/health/winded.md) target who is not a leader or solo creature
 - **17+:** 10 psychic damage; each target who is not a leader or solo creature is [winded](../rule/health/winded.md); any target who is a minion is reduced to 0 [Stamina](../rule/health/stamina.md), as does one [winded](../rule/health/winded.md) target who is not a leader or solo creature
 
-##### Deluge {data-scc="mcdm.heroes.v1/feature.ability.fury.level-9/deluge" data-cost="11 Ferocity"}
+##### Deluge {data-scc="mcdm.heroes.v1/feature.ability.fury.level-9/deluge" data-cost="11 Ferocity" data-subclass="stormwight"}
 
 
 *You summon your [primordial storm](../feature/fury/stormwight-kits/primordial-storm.md).*

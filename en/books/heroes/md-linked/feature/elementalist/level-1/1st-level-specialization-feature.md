@@ -17,13 +17,13 @@ Your [elemental specialization](elemental-specialization.md) grants you a featur
 | Green          | [It Is the Soul Which Hears](it-is-the-soul-which-hears.md) |
 | Void           | [A Beyonding of Vision](a-beyonding-of-vision.md)      |
 
-## A Beyonding of Vision {data-scc="mcdm.heroes.v1/feature.elementalist.level-1/a-beyonding-of-vision"}
+## A Beyonding of Vision {data-scc="mcdm.heroes.v1/feature.elementalist.level-1/a-beyonding-of-vision" data-subclass="void"}
 
 You instantly recognize illusions for what they are, you can see invisible creatures, and [supernatural](../../../rule/general/supernatural.md) effects can't conceal creatures and objects from you. Additionally, you always know if an area or object you observe is magical or affected by magic, and you know the specifics of what that magic can do.
 
 You also gain the following ability.
 
-### Shared Void Sense {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-1/shared-void-sense"}
+### Shared Void Sense {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-1/shared-void-sense" data-subclass="void"}
 
 
 *You grant allies a taste of your unearthly vision.*
@@ -34,7 +34,7 @@ You also gain the following ability.
 
 **Effect:** For each [Victory](../../../rule/resource/victories.md) you have, you can target one creature. Each target gains the benefit of your [A Beyonding of Vision](a-beyonding-of-vision.md) feature until the end of your next [turn](../../../rule/combat/turn.md), but doesn't gain the use of the [Shared Void Sense](../../ability/elementalist/level-1/shared-void-sense.md) ability.
 
-## It Is the Soul Which Hears {data-scc="mcdm.heroes.v1/feature.elementalist.level-1/it-is-the-soul-which-hears"}
+## It Is the Soul Which Hears {data-scc="mcdm.heroes.v1/feature.elementalist.level-1/it-is-the-soul-which-hears" data-subclass="green"}
 
 You can speak with and understand animals, beasts, and plant creatures, even if they don't share a language with you. Your ability to communicate with these creatures doesn't make them inherently more intelligent, but you can use [Reason](../../../rule/character/reason.md) instead of [Presence](../../../rule/character/presence.md) while making [tests](../../../rule/test/test.md) to influence them.
 
@@ -44,7 +44,7 @@ Additionally, you can touch a living plant that is not a plant creature to commu
 
 You have the following ability.
 
-### Motivate Earth {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-1/motivate-earth"}
+### Motivate Earth {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-1/motivate-earth" data-subclass="earth"}
 
 
 *The earth rises, falls, or opens up at your command.*
@@ -61,7 +61,7 @@ Alternatively, you touch a structure made of mundane dirt, stone, or metal that 
 
 You have the following ability.
 
-### Return to Formlessness {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-1/return-to-formlessness"}
+### Return to Formlessness {data-scc="mcdm.heroes.v1/feature.ability.elementalist.level-1/return-to-formlessness" data-subclass="fire"}
 
 
 *With the merest touch, you cause an object to turn to slag or ash.*

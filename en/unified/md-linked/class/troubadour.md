@@ -154,11 +154,11 @@ Your [troubadour class act](../feature/troubadour/level-1/troubadour-class-act.m
 | Duelist    | [Acrobatics](../feature/ability/troubadour/level-1/acrobatics.md), [Star Power](../feature/ability/troubadour/level-1/star-power.md)             |
 | Virtuoso   | [Power Chord](../feature/ability/troubadour/level-1/power-chord.md), [Virtuoso Performances](../feature/troubadour/level-1/virtuoso-performances.md) |
 
-#### Acrobatics {data-scc="mcdm.heroes.v1/feature.troubadour.level-1/acrobatics"}
+#### Acrobatics {data-scc="mcdm.heroes.v1/feature.troubadour.level-1/acrobatics" data-subclass="duelist"}
 
 You have the following performance ability, which is usable with your [Routines](../feature/troubadour/level-1/routines.md) feature.
 
-##### Acrobatics {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-1/acrobatics"}
+##### Acrobatics {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-1/acrobatics" data-subclass="duelist"}
 
 
 *Folks love a good tumble.*
@@ -169,11 +169,11 @@ You have the following performance ability, which is usable with your [Routines]
 
 **Effect:** While this performance is active, each target who starts their [turn](../rule/combat/turn.md) in the area can automatically obtain a tier 3 outcome on one [test](../rule/test/test.md) made to jump, tumble, or climb as part of their movement before the end of their [turn](../rule/combat/turn.md).
 
-#### Blocking {data-scc="mcdm.heroes.v1/feature.troubadour.level-1/blocking"}
+#### Blocking {data-scc="mcdm.heroes.v1/feature.troubadour.level-1/blocking" data-subclass="auteur"}
 
 You have the following performance ability, which is usable with your [Routines](../feature/troubadour/level-1/routines.md) feature.
 
-##### Blocking {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-1/blocking"}
+##### Blocking {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-1/blocking" data-subclass="auteur"}
 
 
 *No, no, no, you lose the audience that way. Try it like this...*
@@ -184,11 +184,11 @@ You have the following performance ability, which is usable with your [Routines]
 
 **Effect:** At the end of each of your [turns](../rule/combat/turn.md) while this performance is active, you can choose up to a number of targets equal to your [Presence](../rule/character/presence.md) score and [teleport](../movement/teleport.md) those targets to unoccupied spaces in the area. A target can't be [teleport](../movement/teleport.md)ed in a way that would harm them (such as over a cliff), leave them [dying](../rule/health/dying.md), or result in them suffering a [condition](../rule/combat/condition.md) or other negative effect.
 
-#### Dramatic Monologue {data-scc="mcdm.heroes.v1/feature.troubadour.level-1/dramatic-monologue"}
+#### Dramatic Monologue {data-scc="mcdm.heroes.v1/feature.troubadour.level-1/dramatic-monologue" data-subclass="auteur"}
 
 You have the following ability.
 
-##### Dramatic Monologue {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-1/dramatic-monologue"}
+##### Dramatic Monologue {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-1/dramatic-monologue" data-subclass="auteur"}
 
 
 *It doesn't need to make sense. Just say it with emotion.*
@@ -205,11 +205,11 @@ You have the following ability.
 
 **Spend 1 Drama:** You can choose two targets for the chosen effect.
 
-#### Power Chord {data-scc="mcdm.heroes.v1/feature.troubadour.level-1/power-chord"}
+#### Power Chord {data-scc="mcdm.heroes.v1/feature.troubadour.level-1/power-chord" data-subclass="virtuoso"}
 
 You have the following ability.
 
-##### Power Chord {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-1/power-chord"}
+##### Power Chord {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-1/power-chord" data-subclass="virtuoso"}
 
 
 *Your instrument rings true and your music blows everyone away.*
@@ -224,11 +224,11 @@ You have the following ability.
 - **12-16:** [Push](../movement/forced-movement.md) 2
 - **17+:** [Push](../movement/forced-movement.md) 3
 
-#### Star Power {data-scc="mcdm.heroes.v1/feature.troubadour.level-1/star-power"}
+#### Star Power {data-scc="mcdm.heroes.v1/feature.troubadour.level-1/star-power" data-subclass="duelist"}
 
 You have the following ability.
 
-##### Star Power {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-1/star-power" data-cost="1 Drama"}
+##### Star Power {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-1/star-power" data-cost="1 Drama" data-subclass="duelist"}
 
 
 *Your years of practicing fencing and dancing pay off on the battlefield.*
@@ -241,11 +241,11 @@ You have the following ability.
 
 **Spend 1 Drama:** You gain a +4 [bonus](../rule/dice/bonuses-and-penalties.md) to [speed](../rule/character/speed.md) instead.
 
-#### Virtuoso Performances {data-scc="mcdm.heroes.v1/feature.troubadour.level-1/virtuoso-performances"}
+#### Virtuoso Performances {data-scc="mcdm.heroes.v1/feature.troubadour.level-1/virtuoso-performances" data-subclass="virtuoso"}
 
 You have the following performance abilities, which are usable with your [Routines](../feature/troubadour/level-1/routines.md) feature.
 
-##### "Thunder Mother" {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-1/thunder-mother"}
+##### "Thunder Mother" {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-1/thunder-mother" data-subclass="virtuoso"}
 
 
 *All for thunder motherrr! ♪ Run and hide for coverrr!♪*
@@ -262,7 +262,7 @@ You have the following performance abilities, which are usable with your [Routin
 - **12-16:** Lightning damage equal to 5 + your level
 - **17+:** Lightning damage equal to 10 + your level
 
-##### "Ballad of the Beast" {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-1/ballad-of-the-beast"}
+##### "Ballad of the Beast" {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-1/ballad-of-the-beast" data-subclass="virtuoso"}
 
 
 *Teeth are bare! ♪ Eyes black! ♪ No escaping the beast!♪*
@@ -285,7 +285,7 @@ Your [troubadour class act](../feature/troubadour/level-1/troubadour-class-act.m
 | Duelist   | [Riposte](../feature/ability/troubadour/level-1/riposte.md)                |
 | Virtuoso  | [Harmonize](../feature/ability/troubadour/level-1/harmonize.md)              |
 
-##### Harmonize {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-1/harmonize" data-cost="3 Drama"}
+##### Harmonize {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-1/harmonize" data-cost="3 Drama" data-subclass="virtuoso"}
 
 
 *Give the chorus a little punch.*
@@ -300,7 +300,7 @@ Your [troubadour class act](../feature/troubadour/level-1/troubadour-class-act.m
 
 **Spend 1+ Drama:** You can trigger this ability when a target uses an ability that has a [Heroic Resource](../rule/resource/heroic-resource.md) cost of 3 + each additional drama spent.
 
-##### Riposte {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-1/riposte"}
+##### Riposte {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-1/riposte" data-subclass="duelist"}
 
 
 *"I'd have brought treats had I known I'd be fighting a dog."*
@@ -313,7 +313,7 @@ Your [troubadour class act](../feature/troubadour/level-1/troubadour-class-act.m
 
 **Effect:** The target makes a [free strike](../feature/common/main-actions/free-strike.md) against the creature who made the triggering strike.
 
-##### Turnabout Is Fair Play {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-1/turnabout-is-fair-play"}
+##### Turnabout Is Fair Play {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-1/turnabout-is-fair-play" data-subclass="auteur"}
 
 
 *All's fair in love and whatever.*
@@ -586,7 +586,7 @@ Your [troubadour class act](../feature/troubadour/level-1/troubadour-class-act.m
 
 Choose one of the following abilities.
 
-##### Guest Star {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-2/guest-star" data-cost="5 Drama"}
+##### Guest Star {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-2/guest-star" data-cost="5 Drama" data-subclass="auteur"}
 
 
 *We offered them a percentage of the gross. So they're working for free!*
@@ -597,7 +597,7 @@ Choose one of the following abilities.
 
 **Effect:** A [guest star](../feature/ability/troubadour/level-2/guest-star.md) appears to help you during the encounter: either a bystander within [distance](../rule/combat/distance.md) uplifted by your magic, or a mysterious new hero who appears in an unoccupied space within [distance](../rule/combat/distance.md). This [guest star](../feature/ability/troubadour/level-2/guest-star.md) is controlled by you, has their own [turn](../rule/combat/turn.md), and shares your [characteristics](../rule/character/characteristic.md). Their [Stamina](../rule/health/stamina.md) maximum is half yours. They have no abilities other than your [melee](../rule/combat/melee.md) and [ranged](../rule/combat/ranged.md) [free strikes](../feature/common/main-actions/free-strike.md). At the end of the encounter, or when the [guest star](../feature/ability/troubadour/level-2/guest-star.md) is reduced to 0 [Stamina](../rule/health/stamina.md), they retreat or revert to a bystander. The same bystander can't be uplifted this way more than once during an encounter.
 
-##### Twist at the End {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-2/twist-at-the-end" data-cost="5 Drama"}
+##### Twist at the End {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-2/twist-at-the-end" data-cost="5 Drama" data-subclass="auteur"}
 
 
 *You didn't see that coming, did you?!*
@@ -612,7 +612,7 @@ Choose one of the following abilities.
 
 Choose one of the following abilities.
 
-##### Classic Chandelier Stunt {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-2/classic-chandelier-stunt" data-cost="5 Drama"}
+##### Classic Chandelier Stunt {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-2/classic-chandelier-stunt" data-cost="5 Drama" data-subclass="duelist"}
 
 
 *Audiences love this bit.*
@@ -623,7 +623,7 @@ Choose one of the following abilities.
 
 **Effect:** Each target can [shift](../movement/shifting.md) up to 5 squares, including vertically, but must end this movement [adjacent](../rule/combat/adjacent.md) to the other target and on solid ground. Each target can then make a [melee](../rule/combat/melee.md) [free strike](../feature/common/main-actions/free-strike.md) that deals extra damage equal to twice their highest [characteristic](../rule/character/characteristic.md) score.
 
-##### En Garde! {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-2/en-garde" data-cost="5 Drama"}
+##### En Garde! {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-2/en-garde" data-cost="5 Drama" data-subclass="duelist"}
 
 
 *Wait, it's... Guard! [Turn](../rule/combat/turn.md)! Parry! Dodge! Spin! Thrust! Ha!*
@@ -644,7 +644,7 @@ Choose one of the following abilities.
 
 Choose one of the following abilities.
 
-##### Encore {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-2/encore" data-cost="5 Drama"}
+##### Encore {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-2/encore" data-cost="5 Drama" data-subclass="virtuoso"}
 
 
 *Again! Again!*
@@ -655,7 +655,7 @@ Choose one of the following abilities.
 
 **Effect:** You use an ability that you have observed being used this [combat round](../rule/combat/combat-round.md). The ability must have the [Strike](../rule/combat/strike.md) keyword, cost 5 or fewer of a [Heroic Resource](../rule/resource/heroic-resource.md), and cost no Malice. When you make the [strike](../rule/combat/strike.md), you use your [Presence](../rule/character/presence.md) score for any [power rolls](../rule/dice/power-roll.md), and any damage you deal is sonic damage.
 
-##### Tough Crowd {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-2/tough-crowd" data-cost="5 Drama"}
+##### Tough Crowd {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-2/tough-crowd" data-cost="5 Drama" data-subclass="virtuoso"}
 
 
 *Your fans don't seem to like the opening act...*
@@ -688,19 +688,19 @@ Your [troubadour class act](../feature/troubadour/level-1/troubadour-class-act.m
 | Duelist    | Foil         |
 | Virtuoso   | [Second Album](../feature/troubadour/level-3/second-album.md) |
 
-#### Foil {data-scc="mcdm.heroes.v1/feature.troubadour.level-3/foil"}
+#### Foil {data-scc="mcdm.heroes.v1/feature.troubadour.level-3/foil" data-subclass="duelist"}
 
 At the start of an encounter, choose one creature within your [line of effect](../rule/combat/line-of-effect.md). You have a double [edge](../rule/dice/edge.md) on [power rolls](../rule/dice/power-roll.md) made against or in competition with that creature. The chosen creature also has a double [edge](../rule/dice/edge.md) on [power rolls](../rule/dice/power-roll.md) made against or in competition with you. If the chosen creature is reduced to 0 [Stamina](../rule/health/stamina.md), you can choose a new foil at the start of the next [combat round](../rule/combat/combat-round.md).
 
-#### Missed Cue {data-scc="mcdm.heroes.v1/feature.troubadour.level-3/missed-cue"}
+#### Missed Cue {data-scc="mcdm.heroes.v1/feature.troubadour.level-3/missed-cue" data-subclass="auteur"}
 
 If you aren't [surprised](../rule/combat/surprised.md) at the start of an encounter, you can choose one enemy within your [line of effect](../rule/combat/line-of-effect.md) who is not a leader or solo creature. The Director temporarily removes the chosen creature from the encounter. The chosen creature enters the encounter at the start of the second [combat round](../rule/combat/combat-round.md). You must earn 3 [Victories](../rule/resource/victories.md) before you can use this feature again.
 
-#### Second Album {data-scc="mcdm.heroes.v1/feature.troubadour.level-3/second-album"}
+#### Second Album {data-scc="mcdm.heroes.v1/feature.troubadour.level-3/second-album" data-subclass="virtuoso"}
 
 You have the following performance abilities, which are usable with your [Routines](../feature/troubadour/level-1/routines.md) feature.
 
-##### "Fire Up the Night" {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-3/fire-up-the-night"}
+##### "Fire Up the Night" {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-3/fire-up-the-night" data-subclass="virtuoso"}
 
 
 *Maybe you and I ♪ We can still bring the light!♪*
@@ -711,7 +711,7 @@ You have the following performance abilities, which are usable with your [Routin
 
 **Effect:** While this performance is active, each target who starts their [turn](../rule/combat/turn.md) in the area doesn't take a [bane](../rule/dice/bane.md) on [strikes](../rule/combat/strike.md) against creatures with [concealment](../rule/combat/concealment.md). Once during their [turn](../rule/combat/turn.md), they can search for hidden creatures as a [free maneuver](../rule/combat/free-maneuver.md) (see Hide and Sneak in Chapter 9: [Tests](../chapter/tests.md)).
 
-##### "Never-Ending Hero" {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-3/never-ending-hero"}
+##### "Never-Ending Hero" {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-3/never-ending-hero" data-subclass="virtuoso"}
 
 
 *And toniiight we can truly say ♪ They will alllways find a way!♪*
@@ -850,7 +850,7 @@ Your [troubadour class act](../feature/troubadour/level-1/troubadour-class-act.m
 
 Choose one of the following features.
 
-##### Fix It in Post {data-scc="mcdm.heroes.v1/feature.troubadour.level-5/fix-it-in-post"}
+##### Fix It in Post {data-scc="mcdm.heroes.v1/feature.troubadour.level-5/fix-it-in-post" data-subclass="auteur"}
 
 Once on each of your [turns](../rule/combat/turn.md), you can use a [free maneuver](../rule/combat/free-maneuver.md) to change one [condition](../rule/combat/condition.md) affecting a creature within [distance](../rule/combat/distance.md) of your [Dramatic Monologue](../feature/ability/troubadour/level-1/dramatic-monologue.md) ability. Choose one of the following [conditions](../rule/combat/condition.md) on the target: [bleeding](../condition/bleeding.md), [frightened](../condition/frightened.md)[, prone](../condition/prone.md), [slowed](../condition/slowed.md), or [taunted](../condition/taunted.md). You change that [condition](../rule/combat/condition.md) to another of those [conditions](../rule/combat/condition.md), maintaining the duration and origin of the original [condition](../rule/combat/condition.md). A target who is no longer prone can stand up.
 
@@ -858,7 +858,7 @@ Once on each of your [turns](../rule/combat/turn.md), you can use a [free maneuv
 
 You have the following performance ability, which is usable with your [Routines](../feature/troubadour/level-1/routines.md) feature.
 
-##### Take Two! {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-5/take-two"}
+##### Take Two! {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-5/take-two" data-subclass="auteur"}
 
 
 *One more, and this time make it interesting.*
@@ -873,7 +873,7 @@ You have the following performance ability, which is usable with your [Routines]
 
 Choose one of the following features.
 
-##### Verbal Duel {data-scc="mcdm.heroes.v1/feature.troubadour.level-5/verbal-duel"}
+##### Verbal Duel {data-scc="mcdm.heroes.v1/feature.troubadour.level-5/verbal-duel" data-subclass="duelist"}
 
 Once on each of your [turns](../rule/combat/turn.md) while the target of your Foil feature is [adjacent](../rule/combat/adjacent.md) to you, you can use a [free maneuver](../rule/combat/free-maneuver.md) to exchange words with them. Make an opposed [Presence](../rule/character/presence.md) [test](../rule/test/test.md) with the target. Whoever gets the higher result can make a [free strike](../feature/common/main-actions/free-strike.md), which deals psychic damage instead of its usual damage.
 
@@ -881,7 +881,7 @@ Once on each of your [turns](../rule/combat/turn.md) while the target of your Fo
 
 You have the following performance ability, which is usable with your [Routines](../feature/troubadour/level-1/routines.md) feature.
 
-##### We Can't Be Upstaged! {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-5/we-cant-be-upstaged"}
+##### We Can't Be Upstaged! {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-5/we-cant-be-upstaged" data-subclass="duelist"}
 
 
 *Swordplay so graceful it looks like you all practiced this.*
@@ -896,11 +896,11 @@ You have the following performance ability, which is usable with your [Routines]
 
 Choose one of the following features.
 
-##### Bolstering Banter {data-scc="mcdm.heroes.v1/feature.troubadour.level-5/bolstering-banter"}
+##### Bolstering Banter {data-scc="mcdm.heroes.v1/feature.troubadour.level-5/bolstering-banter" data-subclass="virtuoso"}
 
 Once on each of your [turns](../rule/combat/turn.md), you can use a [free maneuver](../rule/combat/free-maneuver.md) to exchange words with a target of your current performance, other than yourself. The target can spend a [Recovery](../rule/health/recoveries.md) to gain [temporary Stamina](../rule/health/temporary-stamina.md) equal to their [recovery value](../rule/health/recoveries.md).
 
-##### Medley {data-scc="mcdm.heroes.v1/feature.troubadour.level-5/medley"}
+##### Medley {data-scc="mcdm.heroes.v1/feature.troubadour.level-5/medley" data-subclass="virtuoso"}
 
 You can maintain two performances at a time using your [Routines](../feature/troubadour/level-1/routines.md) feature.
 
@@ -993,7 +993,7 @@ Your [troubadour class act](../feature/troubadour/level-1/troubadour-class-act.m
 
 Choose one of the following abilities.
 
-##### Here's How Your Story Ends {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-6/heres-how-your-story-ends" data-cost="9 Drama"}
+##### Here's How Your Story Ends {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-6/heres-how-your-story-ends" data-cost="9 Drama" data-subclass="auteur"}
 
 
 *You give away the ending of this battle, and it's not great for them.*
@@ -1008,7 +1008,7 @@ Choose one of the following abilities.
 - **12-16:** 5 psychic damage; P < AVERAGE, [frightened](../condition/frightened.md) (save ends)
 - **17+:** 7 psychic damage; P < STRONG, [frightened](../condition/frightened.md) (save ends)
 
-##### You're All My Understudies {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-6/youre-all-my-understudies" data-cost="9 Drama"}
+##### You're All My Understudies {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-6/youre-all-my-understudies" data-cost="9 Drama" data-subclass="auteur"}
 
 
 *It's important for everyone to know each other's lines, just in case...*
@@ -1023,7 +1023,7 @@ Choose one of the following abilities.
 
 Choose one of the following abilities.
 
-##### Blood on the Stage {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-6/blood-on-the-stage" data-cost="9 Drama"}
+##### Blood on the Stage {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-6/blood-on-the-stage" data-cost="9 Drama" data-subclass="duelist"}
 
 
 *It's love and blood or drama and blood. Either way, there's always blood.*
@@ -1038,7 +1038,7 @@ Choose one of the following abilities.
 - **12-16:** 18 + A damage; M < AVERAGE, [bleeding](../condition/bleeding.md) (save ends)
 - **17+:** 24 + A damage; [bleeding](../condition/bleeding.md) ([EoT](../rule/combat/end-of-turn.md)), or if M < STRONG, [bleeding](../condition/bleeding.md) (save ends)
 
-##### Fight Choreography {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-6/fight-choreography" data-cost="9 Drama"}
+##### Fight Choreography {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-6/fight-choreography" data-cost="9 Drama" data-subclass="duelist"}
 
 
 *You and your partner make a flashy show of derring-do, then get back to your corners.*
@@ -1053,7 +1053,7 @@ Choose one of the following abilities.
 
 Choose one of the following abilities.
 
-##### Feedback {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-6/feedback" data-cost="9 Drama"}
+##### Feedback {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-6/feedback" data-cost="9 Drama" data-subclass="virtuoso"}
 
 
 *Your music pounds the crowd to the beat until their hearts can't stand it anymore.*
@@ -1070,7 +1070,7 @@ Choose one of the following abilities.
 - **12-16:** 10 sonic damage; P < AVERAGE[, prone](../condition/prone.md)
 - **17+:** 13 sonic damage; P < STRONG[, prone](../condition/prone.md)
 
-##### Legendary Drum Fill {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-6/legendary-drum-fill" data-cost="9 Drama"}
+##### Legendary Drum Fill {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-6/legendary-drum-fill" data-cost="9 Drama" data-subclass="virtuoso"}
 
 
 *You start a drumroll that roars like thunder with every impact the heroes make.*
@@ -1123,11 +1123,11 @@ Your [troubadour class act](../feature/troubadour/level-1/troubadour-class-act.m
 | Duelist   | Masterwork      |
 | Virtuoso  | [Crowd Favorites](../feature/troubadour/level-8/crowd-favorites.md) |
 
-#### Crowd Favorites {data-scc="mcdm.heroes.v1/feature.troubadour.level-8/crowd-favorites"}
+#### Crowd Favorites {data-scc="mcdm.heroes.v1/feature.troubadour.level-8/crowd-favorites" data-subclass="virtuoso"}
 
 You have the following performance abilities, which are usable with your [Routines](../feature/troubadour/level-1/routines.md) feature.
 
-##### Moonlight Sonata {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-8/moonlight-sonata"}
+##### Moonlight Sonata {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-8/moonlight-sonata" data-subclass="virtuoso"}
 
 
 *Music pours out of your heart, filling the area with the utmost delicacy and without damper.*
@@ -1138,7 +1138,7 @@ You have the following performance abilities, which are usable with your [Routin
 
 **Effect:** While this performance is active, each target who is dead can choose to continue taking [turns](../rule/combat/turn.md) after death. On each of their [turns](../rule/combat/turn.md), a target can move and use either a main action or a maneuver, but can't spend [Recoveries](../rule/health/recoveries.md) or use [triggered actions](../rule/combat/triggered-action.md). At the end of the encounter, each target who chose to take [turns](../rule/combat/turn.md) this way turns to dust and blows away.
 
-##### Radical Fantasia {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-8/radical-fantasia"}
+##### Radical Fantasia {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-8/radical-fantasia" data-subclass="virtuoso"}
 
 
 *𝅘𝅥𝅮♪Viras, my Viras, will you hold their hands as they cryyy—aaaiigh?♪*
@@ -1149,11 +1149,11 @@ You have the following performance abilities, which are usable with your [Routin
 
 **Effect:** While this performance is active, each target who starts their [turn](../rule/combat/turn.md) in the area ignores [difficult terrain](../movement/difficult-terrain.md), and any ability they use that imposes [forced movement](../movement/forced-movement.md) gains a +2 [bonus](../rule/dice/bonuses-and-penalties.md) to the [forced movement](../movement/forced-movement.md) [distance](../rule/combat/distance.md) until the end of their [turn](../rule/combat/turn.md). Additionally, once per [combat round](../rule/combat/combat-round.md), each target can use a [triggered action](../rule/combat/triggered-action.md) as a free [triggered action](../rule/combat/triggered-action.md).
 
-#### Deleted Scene {data-scc="mcdm.heroes.v1/feature.troubadour.level-8/deleted-scene"}
+#### Deleted Scene {data-scc="mcdm.heroes.v1/feature.troubadour.level-8/deleted-scene" data-subclass="auteur"}
 
 Whenever a creature within [distance](../rule/combat/distance.md) of your [Dramatic Monologue](../feature/ability/troubadour/level-1/dramatic-monologue.md) ability makes a [power roll](../rule/dice/power-roll.md), you can spend 1 drama as a free [triggered action](../rule/combat/triggered-action.md) to use [Dramatic Monologue](../feature/ability/troubadour/level-1/dramatic-monologue.md), targeting only one creature.
 
-#### Masterwork {data-scc="mcdm.heroes.v1/feature.troubadour.level-8/masterwork"}
+#### Masterwork {data-scc="mcdm.heroes.v1/feature.troubadour.level-8/masterwork" data-subclass="duelist"}
 
 Choose one of your [signature abilities](../rule/combat/signature-ability.md) and name it after yourself. You always have this ability available, even if it is sourced from a kit you switch out. Whenever you use this ability, you gain an [edge](../rule/dice/edge.md) and 1 [surge](../rule/resource/surge.md) that you can use only on this ability.
 
@@ -1236,7 +1236,7 @@ Your [troubadour class act](../feature/troubadour/level-1/troubadour-class-act.m
 
 Choose one of the following abilities.
 
-##### Epic {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-9/epic" data-cost="11 Drama"}
+##### Epic {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-9/epic" data-cost="11 Drama" data-subclass="auteur"}
 
 
 *Your story tells a tale of the villain's waning power and how the heroes rose to the occasion to stop them.*
@@ -1253,7 +1253,7 @@ Choose one of the following abilities.
 
 **Effect:** Choose one ally within [distance](../rule/combat/distance.md). While the target is affected by this ability, each time they use an ability, that ally can make a [free strike](../feature/common/main-actions/free-strike.md) against them after the ability is resolved.
 
-##### Rising Tension {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-9/rising-tension" data-cost="11 Drama"}
+##### Rising Tension {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-9/rising-tension" data-cost="11 Drama" data-subclass="auteur"}
 
 
 *You narrate the tension of the scene and put all hope into your protagonist to [turn](../rule/combat/turn.md) things around.*
@@ -1268,7 +1268,7 @@ Choose one of the following abilities.
 
 Choose one of the following abilities.
 
-##### Expert Fencer {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-9/expert-fencer" data-cost="11 Drama"}
+##### Expert Fencer {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-9/expert-fencer" data-cost="11 Drama" data-subclass="duelist"}
 
 
 *If you can land the [strike](../rule/combat/strike.md), the crowd goes wild.*
@@ -1285,7 +1285,7 @@ Choose one of the following abilities.
 
 **Effect:** This ability can't obtain better than a tier 2 outcome unless the target is at maximum [distance](../rule/combat/distance.md). If you obtain a tier 3 outcome with a natural 17 or higher, you gain 3 [surges](../rule/resource/surge.md) that you can use immediately.
 
-##### Renegotiated Contract {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-9/renegotiated-contract" data-cost="11 Drama"}
+##### Renegotiated Contract {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-9/renegotiated-contract" data-cost="11 Drama" data-subclass="duelist"}
 
 
 *No, no. You don't die until the sequel.*
@@ -1306,7 +1306,7 @@ Choose one of the following abilities.
 
 Choose one of the following abilities.
 
-##### Jam Session {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-9/jam-session" data-cost="11 Drama"}
+##### Jam Session {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-9/jam-session" data-cost="11 Drama" data-subclass="virtuoso"}
 
 
 *Your [jam session](../feature/ability/troubadour/level-9/jam-session.md) creates new genres that compel everyone to get up and move.*
@@ -1323,7 +1323,7 @@ Choose one of the following abilities.
 
 **Effect:** Each creature within [distance](../rule/combat/distance.md) gains a +5 [bonus](../rule/dice/bonuses-and-penalties.md) to [speed](../rule/character/speed.md) until the end of their next [turn](../rule/combat/turn.md). While under this effect, each target must use their full movement during their [turn](../rule/combat/turn.md).
 
-##### Melt Their Faces {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-9/melt-their-faces" data-cost="11 Drama"}
+##### Melt Their Faces {data-scc="mcdm.heroes.v1/feature.ability.troubadour.level-9/melt-their-faces" data-cost="11 Drama" data-subclass="virtuoso"}
 
 
 *The power of music rips through the reality around the target and blows them away.*

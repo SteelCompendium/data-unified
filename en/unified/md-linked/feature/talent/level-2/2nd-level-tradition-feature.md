@@ -16,14 +16,14 @@ Your [talent tradition](../level-1/talent-tradition.md) grants you a feature, as
 | Telekinesis                  | [Ease Their Fall](ease-their-fall.md) |
 | Telepathy                    | [Ease the Mind](ease-the-mind.md)   |
 
-## Ease the Hours {data-scc="mcdm.heroes.v1/feature.talent.level-2/ease-the-hours"}
+## Ease the Hours {data-scc="mcdm.heroes.v1/feature.talent.level-2/ease-the-hours" data-subclass="chronopathy"}
 
 You can increase the number of rounds in a [montage test](../../../rule/test/montage-test.md) by 1 if the [test](../../../rule/test/test.md) would end before the heroes hit the success limit.
 
-## Ease the Mind {data-scc="mcdm.heroes.v1/feature.talent.level-2/ease-the-mind"}
+## Ease the Mind {data-scc="mcdm.heroes.v1/feature.talent.level-2/ease-the-mind" data-subclass="telepathy"}
 
 You gain an [edge](../../../rule/dice/edge.md) on [tests](../../../rule/test/test.md) made to stop combat and start a negotiation. Additionally, if you are present during a negotiation, any [NPC](../../../rule/general/npc.md) who has a hostile or suspicious starting attitude has their patience increased by 1 (to a maximum of 5).
 
-## Ease Their Fall {data-scc="mcdm.heroes.v1/feature.talent.level-2/ease-their-fall"}
+## Ease Their Fall {data-scc="mcdm.heroes.v1/feature.talent.level-2/ease-their-fall" data-subclass="telekinesis"}
 
 Whenever you land after a fall, or if any falling creature lands within 2 squares of you, you can use a free [triggered action](../../../rule/combat/triggered-action.md) to reduce the falling damage by an amount equal to 2 + your [Reason](../../../rule/character/reason.md) score.
