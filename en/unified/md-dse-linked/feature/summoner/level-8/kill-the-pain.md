@@ -11,6 +11,7 @@ level: "8"
 name: Kill the Pain
 scc: mcdm.summoner.v1/feature.summoner.level-8/kill-the-pain
 source: mcdm.summoner.v1
+subclass: graves
 type: feature
 ---
 
@@ -27,6 +28,7 @@ metadata:
     level: "8"
     name: Kill the Pain
     scc: mcdm.summoner.v1/feature.summoner.level-8/kill-the-pain
+    subclass: graves
     type: feature
 name: Kill the Pain
 type: feature

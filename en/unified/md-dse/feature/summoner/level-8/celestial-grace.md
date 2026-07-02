@@ -11,6 +11,7 @@ level: "8"
 name: Celestial Grace
 scc: mcdm.summoner.v1/feature.summoner.level-8/celestial-grace
 source: mcdm.summoner.v1
+subclass: spring
 type: feature
 ---
 
@@ -27,6 +28,7 @@ metadata:
     level: "8"
     name: Celestial Grace
     scc: mcdm.summoner.v1/feature.summoner.level-8/celestial-grace
+    subclass: spring
     type: feature
 name: Celestial Grace
 type: feature

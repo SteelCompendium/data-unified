@@ -10,6 +10,7 @@ level: "2"
 name: There Is No Space Between
 scc: mcdm.heroes.v1/feature.elementalist.level-2/there-is-no-space-between
 source: mcdm.heroes.v1
+subclass: void
 type: feature
 ---
 
@@ -22,6 +23,7 @@ metadata:
     level: "2"
     name: There Is No Space Between
     scc: mcdm.heroes.v1/feature.elementalist.level-2/there-is-no-space-between
+    subclass: void
     type: feature
 name: There Is No Space Between
 type: feature

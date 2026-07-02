@@ -11,6 +11,7 @@ level: "5"
 name: Nature Watch
 scc: mcdm.summoner.v1/feature.summoner.level-5/nature-watch
 source: mcdm.summoner.v1
+subclass: storms
 type: feature
 ---
 
@@ -24,6 +25,7 @@ metadata:
     level: "5"
     name: Nature Watch
     scc: mcdm.summoner.v1/feature.summoner.level-5/nature-watch
+    subclass: storms
     type: feature
 name: Nature Watch
 type: feature

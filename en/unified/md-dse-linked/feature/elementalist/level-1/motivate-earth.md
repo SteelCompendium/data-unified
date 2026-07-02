@@ -10,6 +10,7 @@ level: "1"
 name: Motivate Earth
 scc: mcdm.heroes.v1/feature.elementalist.level-1/motivate-earth
 source: mcdm.heroes.v1
+subclass: earth
 type: feature
 ---
 
@@ -22,6 +23,7 @@ metadata:
     level: "1"
     name: Motivate Earth
     scc: mcdm.heroes.v1/feature.elementalist.level-1/motivate-earth
+    subclass: earth
     type: feature
 name: Motivate Earth
 type: feature

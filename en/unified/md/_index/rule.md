@@ -1,6 +1,6 @@
 # Rule Index
 
-Total: 151
+Total: 152
 
 - [Ability Keywords](../rule/general/ability.md)
 - [Ability Roll](../rule/dice/ability-roll.md)
@@ -9,6 +9,7 @@ Total: 151
 - [Adjacent](../rule/combat/adjacent.md)
 - [Agility](../rule/character/agility.md)
 - [Ally](../rule/combat/ally.md)
+- [Always Round Down](../rule/general/always-round-down.md)
 - [Ambusher](../rule/role/ambusher.md)
 - [Animal](../rule/keyword/animal.md)
 - [Area Abilities](../rule/combat/area-of-effect.md)

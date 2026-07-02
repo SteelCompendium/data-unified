@@ -11,6 +11,7 @@ level: "5"
 name: Dread March
 scc: mcdm.summoner.v1/feature.summoner.level-5/dread-march
 source: mcdm.summoner.v1
+subclass: graves
 type: feature
 ---
 
@@ -24,6 +25,7 @@ metadata:
     level: "5"
     name: Dread March
     scc: mcdm.summoner.v1/feature.summoner.level-5/dread-march
+    subclass: graves
     type: feature
 name: Dread March
 type: feature

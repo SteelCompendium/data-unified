@@ -40,7 +40,7 @@ You can speak with and understand animals, beasts, and plant creatures, even if 
 
 Additionally, you can touch a living plant that is not a plant creature to communicate with it telepathically. You can use words to communicate with the plant, but it communicates with you only by transmitting feelings and sensations that can't be overly specific.
 
-## Motivate Earth {data-scc="mcdm.heroes.v1/feature.elementalist.level-1/motivate-earth"}
+## Motivate Earth {data-scc="mcdm.heroes.v1/feature.elementalist.level-1/motivate-earth" data-subclass="earth"}
 
 You have the following ability.
 
@@ -57,7 +57,7 @@ You have the following ability.
 
 Alternatively, you touch a structure made of mundane dirt, stone, or metal that occupies 2 or more squares. You can open a 1-square opening in the structure where you touched it. You can instead touch an existing doorway or other opening that is 1 square or smaller in a mundane dirt, stone, or metal surface. The opening is sealed by the same material that makes up the surface.
 
-## Return to Formlessness {data-scc="mcdm.heroes.v1/feature.elementalist.level-1/return-to-formlessness"}
+## Return to Formlessness {data-scc="mcdm.heroes.v1/feature.elementalist.level-1/return-to-formlessness" data-subclass="fire"}
 
 You have the following ability.
 

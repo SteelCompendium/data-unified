@@ -4,6 +4,7 @@ feature_source: circle
 level: "1"
 name: Fairy Whispers
 scc: mcdm.summoner.v1/feature.summoner.level-1/fairy-whispers
+subclass: spring
 type: feature
 ---
 

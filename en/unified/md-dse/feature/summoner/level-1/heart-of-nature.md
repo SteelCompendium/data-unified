@@ -11,6 +11,7 @@ level: "1"
 name: Heart of Nature
 scc: mcdm.summoner.v1/feature.summoner.level-1/heart-of-nature
 source: mcdm.summoner.v1
+subclass: storms
 type: feature
 ---
 
@@ -24,6 +25,7 @@ metadata:
     level: "1"
     name: Heart of Nature
     scc: mcdm.summoner.v1/feature.summoner.level-1/heart-of-nature
+    subclass: storms
     type: feature
 name: Heart of Nature
 type: feature

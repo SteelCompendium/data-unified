@@ -37,7 +37,7 @@ You produce a fire that entrances the fates, distracting them from aiding your f
 
 Additionally, any enemy who starts their [turn](../../../rule/combat/turn.md) [adjacent](../../../rule/combat/adjacent.md) to you has fire weakness equal to your [Reason](../../../rule/character/reason.md) score until the start of their next [turn](../../../rule/combat/turn.md). This increases to twice your [Reason](../../../rule/character/reason.md) score if the enemy is made of or is wearing mostly metal.
 
-## Summon Source of Earth {data-scc="mcdm.heroes.v1/feature.elementalist.level-8/summon-source-of-earth"}
+## Summon Source of Earth {data-scc="mcdm.heroes.v1/feature.elementalist.level-8/summon-source-of-earth" data-subclass="earth"}
 
 You have the following ability.
 

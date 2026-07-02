@@ -11,6 +11,7 @@ level: "5"
 name: Flash Powder
 scc: mcdm.summoner.v1/feature.summoner.level-5/flash-powder
 source: mcdm.summoner.v1
+subclass: spring
 type: feature
 ---
 
@@ -30,6 +31,7 @@ metadata:
     level: "5"
     name: Flash Powder
     scc: mcdm.summoner.v1/feature.summoner.level-5/flash-powder
+    subclass: spring
     type: feature
 name: Flash Powder
 type: feature

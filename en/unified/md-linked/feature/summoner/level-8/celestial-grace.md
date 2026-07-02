@@ -4,6 +4,7 @@ feature_source: summoner
 level: "8"
 name: Celestial Grace
 scc: mcdm.summoner.v1/feature.summoner.level-8/celestial-grace
+subclass: spring
 type: feature
 ---
 

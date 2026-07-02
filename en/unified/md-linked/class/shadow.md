@@ -2,9 +2,14 @@
 average_potency: '[Agility](../rule/character/agility.md) − 1'
 flavor: Subtlety is your art, the tip of the blade your brush. You studied at a secret college, specializing in alchemy, illusion, or shadow-magics. Your training and knowledge place you among the elite ranks of assassins, spies, and commandos. But more potent than any weapon or sorcery is your insight into your enemies' weaknesses.
 name: Shadow
+primary_characteristics:
+    - Agility
+recoveries: 8
 scc: mcdm.heroes.v1/class/shadow
 skills:
     - 'You gain the Hide and Sneak skills (see Skills in Chapter 9: [Tests](../chapter/tests.md)). Then choose any five skills from Criminal Underworld or the skills of the [exploration](../skill/group/exploration.md), [interpersonal](../skill/group/interpersonal.md), or [intrigue](../skill/group/intrigue.md) skill groups. (*Quick Build:*  Criminal Underworld, Hide, Lie, Pick Lock, Pick Pocket, Sabotage, Sneak.)'
+stamina_per_level: 6
+starting_stamina: 18
 strong_potency: '[Agility](../rule/character/agility.md)'
 type: class
 weak_potency: '[Agility](../rule/character/agility.md) − 2'
@@ -104,7 +109,7 @@ Your [shadow college](../feature/shadow/level-1/shadow-college.md) grants you on
 | Caustic Alchemy | [Coat the Blade](../feature/ability/shadow/level-1/coat-the-blade.md), [Smoke Bomb](../feature/shadow/level-1/smoke-bomb.md) |
 | Harlequin Mask  | [I'm No Threat](../feature/ability/shadow/level-1/im-no-threat.md)              |
 
-#### Black Ash Teleport {data-scc="mcdm.heroes.v1/feature.shadow.level-1/black-ash-teleport"}
+#### Black Ash Teleport {data-scc="mcdm.heroes.v1/feature.shadow.level-1/black-ash-teleport" data-subclass="black-ash"}
 
 You have the following ability.
 
@@ -121,7 +126,7 @@ You have the following ability.
 
 **Spend 1+ Insight:** You [teleport](../movement/teleport.md) 1 additional square for each insight spent.
 
-#### Coat the Blade {data-scc="mcdm.heroes.v1/feature.shadow.level-1/coat-the-blade"}
+#### Coat the Blade {data-scc="mcdm.heroes.v1/feature.shadow.level-1/coat-the-blade" data-subclass="caustic-alchemy"}
 
 You have the following ability.
 
@@ -138,7 +143,7 @@ You have the following ability.
 
 **Spend 1+ Insight:** For each insight you spend, you gain 1 additional [surge](../rule/resource/surge.md).
 
-#### I'm No Threat {data-scc="mcdm.heroes.v1/feature.shadow.level-1/im-no-threat"}
+#### I'm No Threat {data-scc="mcdm.heroes.v1/feature.shadow.level-1/im-no-threat" data-subclass="harlequin-mask"}
 
 You have the following ability.
 

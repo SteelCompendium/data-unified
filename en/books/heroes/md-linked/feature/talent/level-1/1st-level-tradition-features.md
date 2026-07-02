@@ -16,7 +16,7 @@ Your [talent tradition](talent-tradition.md) grants you two features, as shown o
 | Telekinesis | [Minor Telekinesis](../../ability/talent/level-1/minor-telekinesis.md), [Repel](../../ability/talent/level-1/repel.md)         |
 | Telepathy   | [Feedback Loop](../../ability/talent/level-1/feedback-loop.md), [Remote Assistance](../../ability/talent/level-1/remote-assistance.md) |
 
-## Accelerate {data-scc="mcdm.heroes.v1/feature.talent.level-1/accelerate"}
+## Accelerate {data-scc="mcdm.heroes.v1/feature.talent.level-1/accelerate" data-subclass="chronopathy"}
 
 You have the following ability.
 
@@ -33,7 +33,7 @@ You have the following ability.
 
 **Spend 2 Clarity:** The target can use a maneuver.
 
-## Again {data-scc="mcdm.heroes.v1/feature.talent.level-1/again"}
+## Again {data-scc="mcdm.heroes.v1/feature.talent.level-1/again" data-subclass="chronopathy"}
 
 You have the following ability.
 
@@ -50,7 +50,7 @@ You have the following ability.
 
 **Effect:** You can use this ability after seeing the result of the triggering roll. The target must reroll the [power roll](../../../rule/dice/power-roll.md) and use the new roll.
 
-## Feedback Loop {data-scc="mcdm.heroes.v1/feature.talent.level-1/feedback-loop"}
+## Feedback Loop {data-scc="mcdm.heroes.v1/feature.talent.level-1/feedback-loop" data-subclass="telepathy"}
 
 You have the following ability.
 
@@ -67,7 +67,7 @@ You have the following ability.
 
 **Effect:** The target takes psychic damage equal to half the triggering damage.
 
-## Minor Telekinesis {data-scc="mcdm.heroes.v1/feature.talent.level-1/minor-telekinesis"}
+## Minor Telekinesis {data-scc="mcdm.heroes.v1/feature.talent.level-1/minor-telekinesis" data-subclass="telekinesis"}
 
 You have the following ability.
 
@@ -86,7 +86,7 @@ You have the following ability.
 
 **Spend 3 Clarity:** You can vertical [slide](../../../movement/forced-movement.md) the target.
 
-## Remote Assistance {data-scc="mcdm.heroes.v1/feature.talent.level-1/remote-assistance"}
+## Remote Assistance {data-scc="mcdm.heroes.v1/feature.talent.level-1/remote-assistance" data-subclass="telepathy"}
 
 You have the following ability.
 

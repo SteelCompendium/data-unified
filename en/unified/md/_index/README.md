@@ -19,7 +19,7 @@
 - [Negotiation](negotiation.md) (12 items)
 - [Perk](perk.md) (55 items)
 - [Project](project.md) (16 items)
-- [Rule](rule.md) (151 items)
+- [Rule](rule.md) (152 items)
 - [Saint](saint.md) (28 items)
 - [Skill](skill.md) (57 items)
 - [Skill-group](skill-group.md) (5 items)
@@ -28,4 +28,4 @@
 - [Trait](trait.md) (94 items)
 - [Treasure](treasure.md) (127 items)
 
-Total items: 3080
+Total items: 3081

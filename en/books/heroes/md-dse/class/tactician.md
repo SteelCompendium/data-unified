@@ -6,10 +6,16 @@ flavor: Strategist. Defender. Leader. With weapon in hand, you lead allies into 
 item_id: tactician
 item_name: Tactician
 name: Tactician
+primary_characteristics:
+    - Might
+    - Reason
+recoveries: 10
 scc: mcdm.heroes.v1/class/tactician
 skills:
     - 'You gain the [Lead](scc.v1:mcdm.heroes.v1/skill.interpersonal/lead) skill (see Skills in Chapter 9: [Tests](scc.v1:mcdm.heroes.v1/chapter/tests)). Then choose any two skills from Alertness, Architecture, Blacksmithing, Brag, Culture, Empathize, Fletching, Mechanics, Monsters, Search, Strategy, or the skills of the [exploration skill group](scc.v1:mcdm.heroes.v1/skill.group/exploration). (*Quick Build:* Lead, Monsters, Strategy.)'
 source: mcdm.heroes.v1
+stamina_per_level: 9
+starting_stamina: 21
 strong_potency: '[Reason](scc.v1:mcdm.heroes.v1/rule.character/reason)'
 type: class
 weak_potency: '[Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) − 2'

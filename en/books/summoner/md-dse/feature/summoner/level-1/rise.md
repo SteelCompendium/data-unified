@@ -11,6 +11,7 @@ level: "1"
 name: Rise!
 scc: mcdm.summoner.v1/feature.summoner.level-1/rise
 source: mcdm.summoner.v1
+subclass: graves
 type: feature
 ---
 
@@ -27,6 +28,7 @@ metadata:
     level: "1"
     name: Rise!
     scc: mcdm.summoner.v1/feature.summoner.level-1/rise
+    subclass: graves
     type: feature
 name: Rise!
 type: feature

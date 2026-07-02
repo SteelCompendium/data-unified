@@ -11,6 +11,7 @@ level: "1"
 name: Fairy Whispers
 scc: mcdm.summoner.v1/feature.summoner.level-1/fairy-whispers
 source: mcdm.summoner.v1
+subclass: spring
 type: feature
 ---
 
@@ -31,6 +32,7 @@ metadata:
     level: "1"
     name: Fairy Whispers
     scc: mcdm.summoner.v1/feature.summoner.level-1/fairy-whispers
+    subclass: spring
     type: feature
 name: Fairy Whispers
 type: feature

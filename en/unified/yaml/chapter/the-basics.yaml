@@ -67,10 +67,6 @@ content: |-
 
     If you're not sure what to do when two rules come into conflict with each other, remember that a specific exception always beats a more general rule. The Director has the final say in how rules are adjudicated.
 
-    ### Always Round Down
-
-    Sometimes the rules tell you to divide a number in half. Whenever you divide an odd number in half and it results in a decimal, round the result down to the nearest whole number. For instance, if a [tactician](scc.v1:mcdm.heroes.v1/class/tactician) takes 7 damage and uses the Parry ability in response—a [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action) that halves the damage—then the damage is reduced to 3.
-
     ### Building a Heroic Narrative
 
     The game takes place in a series of scenes with the heroes as the main characters. An adventure is a collection of scenes that make up a story, with a beginning, middle, and end, and a campaign is a collection of adventures that tell the entire epic tale of a group of heroes. You can think of each adventure as a movie in a saga of films, a book in a series of novels, or a season of a television show. While many heroes have their stories told over the course of a campaign, some wrap up their careers in a single adventure that takes place in one game session, called a one-shot. You can think of a one-shot as a great stand-alone novella or movie.

@@ -16,6 +16,7 @@
     "scc": [
       "mcdm.summoner.v1/feature.summoner.level-1/dead-men-tell-all-tales"
     ],
+    "subclass": "graves",
     "type": "feature/summoner/level-1"
   },
   "name": "Dead Men Tell All Tales",

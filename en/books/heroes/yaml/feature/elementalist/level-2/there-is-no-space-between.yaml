@@ -40,6 +40,7 @@ metadata:
     level: 2
     scc:
         - mcdm.heroes.v1/feature.elementalist.level-2/there-is-no-space-between
+    subclass: void
     type: feature/elementalist/level-2
 name: There Is No Space Between
 type: feature

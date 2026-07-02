@@ -16,6 +16,7 @@ metadata:
     level: 5
     scc:
         - mcdm.summoner.v1/feature.summoner.level-5/channel
+    subclass: graves
     type: feature/summoner/level-5
 name: Channel
 type: feature

@@ -696,7 +696,7 @@ You have the following ability.
 
 **Effect:** You conjure a spirit that takes the form of any animal you have seen. The incorporeal animal has [speed](../rule/character/speed.md) 5 and can [fly](../movement/fly.md), but can't physically interact with the world. While you are within 10 squares of the spirit, you automatically sense everything that type of animal would sense, in addition to sensing your own surroundings. You can dismiss the spirit at any time (no action required). If the spirit takes any damage, they are dismissed and you take 1d10 psychic damage that can't be reduced in any way.
 
-##### Grave Speech {data-scc="mcdm.heroes.v1/feature.censor.level-1/grave-speech"}
+##### Grave Speech {data-scc="mcdm.heroes.v1/feature.censor.level-1/grave-speech" data-subclass="death"}
 
 You have the following ability.
 
@@ -711,7 +711,7 @@ You have the following ability.
 
 **Effect:** You can speak to the target if they are a creature who has died within the last 24 hours and who can speak a language you know, even if they are just a head. The target regards you as they would have in life, and you might need to make [tests](../rule/test/test.md) to influence them and convince them to speak with you. The trauma of [dying](../rule/health/dying.md) can make a creature's memory of that event hazy, but the target otherwise knows all they knew in life. After 1 minute, the effect ends. You can't use this ability on the same creature twice.
 
-##### Hands of the Maker {data-scc="mcdm.heroes.v1/feature.censor.level-1/hands-of-the-maker"}
+##### Hands of the Maker {data-scc="mcdm.heroes.v1/feature.censor.level-1/hands-of-the-maker" data-subclass="creation"}
 
 You have the following ability.
 
@@ -1209,7 +1209,7 @@ You gain a domain feature from your domain, as shown on the 4th-Level [Censor](.
 
 Your divine presence causes those you deem worthy to recover quickly from a fight. Whenever an ally within [distance](../rule/combat/distance.md) of your [My Life for Yours](../feature/ability/censor/level-1/my-life-for-yours.md) ability regains [Stamina](../rule/health/stamina.md), they regain additional [Stamina](../rule/health/stamina.md) equal to your [Presence](../rule/character/presence.md) score.
 
-##### Blessing of Secrets {data-scc="mcdm.heroes.v1/feature.censor.level-4/blessing-of-secrets"}
+##### Blessing of Secrets {data-scc="mcdm.heroes.v1/feature.censor.level-4/blessing-of-secrets" data-subclass="trickery"}
 
 You have the following ability.
 
@@ -3747,7 +3747,7 @@ You can speak with and understand animals, beasts, and plant creatures, even if 
 
 Additionally, you can touch a living plant that is not a plant creature to communicate with it telepathically. You can use words to communicate with the plant, but it communicates with you only by transmitting feelings and sensations that can't be overly specific.
 
-##### Motivate Earth {data-scc="mcdm.heroes.v1/feature.elementalist.level-1/motivate-earth"}
+##### Motivate Earth {data-scc="mcdm.heroes.v1/feature.elementalist.level-1/motivate-earth" data-subclass="earth"}
 
 You have the following ability.
 
@@ -3764,7 +3764,7 @@ You have the following ability.
 
 Alternatively, you touch a structure made of mundane dirt, stone, or metal that occupies 2 or more squares. You can open a 1-square opening in the structure where you touched it. You can instead touch an existing doorway or other opening that is 1 square or smaller in a mundane dirt, stone, or metal surface. The opening is sealed by the same material that makes up the surface.
 
-##### Return to Formlessness {data-scc="mcdm.heroes.v1/feature.elementalist.level-1/return-to-formlessness"}
+##### Return to Formlessness {data-scc="mcdm.heroes.v1/feature.elementalist.level-1/return-to-formlessness" data-subclass="fire"}
 
 You have the following ability.
 
@@ -4246,7 +4246,7 @@ You can revert back to your true form as a maneuver. You can't enter an [animal 
 | Rhinoceros          | 9th   | 10                | 8             | 2    | +5              | +2/+2/+2           | Whenever you make a [melee](../rule/combat/melee.md) [free strike](../feature/common/main-actions/free-strike.md) as part of the Charge action, that<br>strike gains an [edge](../rule/dice/edge.md).                                                                                                                                                                               |
 | King terror lizard  | 10th  | 20                | 5             | 4    | +3              | +2/+2/+2           | Your [melee](../rule/combat/melee.md) [free strike](../feature/common/main-actions/free-strike.md) is a 1 [burst](../rule/combat/burst.md) with the Area and Strike keywords.                                                                                                                                                                                                          |
 
-##### There Is No Space Between {data-scc="mcdm.heroes.v1/feature.elementalist.level-2/there-is-no-space-between"}
+##### There Is No Space Between {data-scc="mcdm.heroes.v1/feature.elementalist.level-2/there-is-no-space-between" data-subclass="void"}
 
 You have the following ability.
 
@@ -4772,7 +4772,7 @@ You produce a fire that entrances the fates, distracting them from aiding your f
 
 Additionally, any enemy who starts their [turn](../rule/combat/turn.md) [adjacent](../rule/combat/adjacent.md) to you has fire weakness equal to your [Reason](../rule/character/reason.md) score until the start of their next [turn](../rule/combat/turn.md). This increases to twice your [Reason](../rule/character/reason.md) score if the enemy is made of or is wearing mostly metal.
 
-##### Summon Source of Earth {data-scc="mcdm.heroes.v1/feature.elementalist.level-8/summon-source-of-earth"}
+##### Summon Source of Earth {data-scc="mcdm.heroes.v1/feature.elementalist.level-8/summon-source-of-earth" data-subclass="earth"}
 
 You have the following ability.
 
@@ -7816,7 +7816,7 @@ Your [shadow college](../feature/shadow/level-1/shadow-college.md) grants you on
 | Caustic Alchemy | [Coat the Blade](../feature/ability/shadow/level-1/coat-the-blade.md), [Smoke Bomb](../feature/shadow/level-1/smoke-bomb.md) |
 | Harlequin Mask  | [I'm No Threat](../feature/ability/shadow/level-1/im-no-threat.md)              |
 
-##### Black Ash Teleport {data-scc="mcdm.heroes.v1/feature.shadow.level-1/black-ash-teleport"}
+##### Black Ash Teleport {data-scc="mcdm.heroes.v1/feature.shadow.level-1/black-ash-teleport" data-subclass="black-ash"}
 
 You have the following ability.
 
@@ -7833,7 +7833,7 @@ You have the following ability.
 
 **Spend 1+ Insight:** You [teleport](../movement/teleport.md) 1 additional square for each insight spent.
 
-##### Coat the Blade {data-scc="mcdm.heroes.v1/feature.shadow.level-1/coat-the-blade"}
+##### Coat the Blade {data-scc="mcdm.heroes.v1/feature.shadow.level-1/coat-the-blade" data-subclass="caustic-alchemy"}
 
 You have the following ability.
 
@@ -7850,7 +7850,7 @@ You have the following ability.
 
 **Spend 1+ Insight:** For each insight you spend, you gain 1 additional [surge](../rule/resource/surge.md).
 
-##### I'm No Threat {data-scc="mcdm.heroes.v1/feature.shadow.level-1/im-no-threat"}
+##### I'm No Threat {data-scc="mcdm.heroes.v1/feature.shadow.level-1/im-no-threat" data-subclass="harlequin-mask"}
 
 You have the following ability.
 
@@ -10207,7 +10207,7 @@ Your [talent tradition](../feature/talent/level-1/talent-tradition.md) grants yo
 | Telekinesis | [Minor Telekinesis](../feature/ability/talent/level-1/minor-telekinesis.md), [Repel](../feature/ability/talent/level-1/repel.md)         |
 | Telepathy   | [Feedback Loop](../feature/ability/talent/level-1/feedback-loop.md), [Remote Assistance](../feature/ability/talent/level-1/remote-assistance.md) |
 
-##### Accelerate {data-scc="mcdm.heroes.v1/feature.talent.level-1/accelerate"}
+##### Accelerate {data-scc="mcdm.heroes.v1/feature.talent.level-1/accelerate" data-subclass="chronopathy"}
 
 You have the following ability.
 
@@ -10224,7 +10224,7 @@ You have the following ability.
 
 **Spend 2 Clarity:** The target can use a maneuver.
 
-##### Again {data-scc="mcdm.heroes.v1/feature.talent.level-1/again"}
+##### Again {data-scc="mcdm.heroes.v1/feature.talent.level-1/again" data-subclass="chronopathy"}
 
 You have the following ability.
 
@@ -10241,7 +10241,7 @@ You have the following ability.
 
 **Effect:** You can use this ability after seeing the result of the triggering roll. The target must reroll the [power roll](../rule/dice/power-roll.md) and use the new roll.
 
-##### Feedback Loop {data-scc="mcdm.heroes.v1/feature.talent.level-1/feedback-loop"}
+##### Feedback Loop {data-scc="mcdm.heroes.v1/feature.talent.level-1/feedback-loop" data-subclass="telepathy"}
 
 You have the following ability.
 
@@ -10258,7 +10258,7 @@ You have the following ability.
 
 **Effect:** The target takes psychic damage equal to half the triggering damage.
 
-##### Minor Telekinesis {data-scc="mcdm.heroes.v1/feature.talent.level-1/minor-telekinesis"}
+##### Minor Telekinesis {data-scc="mcdm.heroes.v1/feature.talent.level-1/minor-telekinesis" data-subclass="telekinesis"}
 
 You have the following ability.
 
@@ -10277,7 +10277,7 @@ You have the following ability.
 
 **Spend 3 Clarity:** You can vertical [slide](../movement/forced-movement.md) the target.
 
-##### Remote Assistance {data-scc="mcdm.heroes.v1/feature.talent.level-1/remote-assistance"}
+##### Remote Assistance {data-scc="mcdm.heroes.v1/feature.talent.level-1/remote-assistance" data-subclass="telepathy"}
 
 You have the following ability.
 
@@ -10295,7 +10295,7 @@ You have the following ability.
 
 **Spend 1 Clarity:** You target one additional creature or object.
 
-#### Repel {data-scc="mcdm.heroes.v1/feature.talent.level-1/repel"}
+#### Repel {data-scc="mcdm.heroes.v1/feature.talent.level-1/repel" data-subclass="telekinesis"}
 
 You have the following ability.
 
@@ -11196,7 +11196,7 @@ Your [talent tradition](../feature/talent/level-1/talent-tradition.md) grants yo
 
 While you have 5 or more [Victories](../rule/resource/victories.md), you can undertake an additional [respite](../rule/resource/respite.md) activity during a [respite](../rule/resource/respite.md).
 
-##### Levitation Field {data-scc="mcdm.heroes.v1/feature.talent.level-8/levitation-field"}
+##### Levitation Field {data-scc="mcdm.heroes.v1/feature.talent.level-8/levitation-field" data-subclass="telekinesis"}
 
 You have the following ability.
 
@@ -11221,7 +11221,7 @@ Your mind can carry your body through tough times. You ignore [difficult terrain
 
 During a [respite](../rule/resource/respite.md), you can choose a number of creatures up to your [Reason](../rule/character/reason.md) score who you have communicated with using your [Telepathic Speech](../feature/talent/level-1/telepathic-speech.md) feature, creating a telepathic link among all of you. Whenever a linked creature spends one or more [Recoveries](../rule/health/recoveries.md), each other linked creature can spend a [Recovery](../rule/health/recoveries.md).
 
-#### Stasis Shield {data-scc="mcdm.heroes.v1/feature.talent.level-8/stasis-shield"}
+#### Stasis Shield {data-scc="mcdm.heroes.v1/feature.talent.level-8/stasis-shield" data-subclass="chronopathy"}
 
 You have the following ability.
 

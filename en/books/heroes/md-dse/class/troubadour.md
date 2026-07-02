@@ -6,10 +6,16 @@ flavor: The whole world's a stage, and everyone on it, an actor. No one knows th
 item_id: troubadour
 item_name: Troubadour
 name: Troubadour
+primary_characteristics:
+    - Agility
+    - Presence
+recoveries: 8
 scc: mcdm.heroes.v1/class/troubadour
 skills:
     - 'You gain the [Read Person](scc.v1:mcdm.heroes.v1/skill.interpersonal/read-person) skill (see Skills in Chapter 9: [Tests](scc.v1:mcdm.heroes.v1/chapter/tests)). Then choose two skills from the [interpersonal skill group](scc.v1:mcdm.heroes.v1/skill.group/interpersonal) and one skill from the [intrigue](scc.v1:mcdm.heroes.v1/skill.group/intrigue) or [lore](scc.v1:mcdm.heroes.v1/skill.group/lore) skill groups. (*Quick Build:* Brag, Flirt, [Read Person](scc.v1:mcdm.heroes.v1/skill.interpersonal/read-person), Rumors.)'
 source: mcdm.heroes.v1
+stamina_per_level: 6
+starting_stamina: 18
 strong_potency: '[Presence](scc.v1:mcdm.heroes.v1/rule.character/presence)'
 type: class
 weak_potency: '[Presence](scc.v1:mcdm.heroes.v1/rule.character/presence) − 2'

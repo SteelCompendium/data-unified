@@ -6,10 +6,16 @@ flavor: Demons and deathless fear you. Criminals run from the sight of your shad
 item_id: censor
 item_name: Censor
 name: Censor
+primary_characteristics:
+    - Might
+    - Presence
+recoveries: 12
 scc: mcdm.heroes.v1/class/censor
 skills:
     - 'Choose any two skills from the [interpersonal](scc.v1:mcdm.heroes.v1/skill.group/interpersonal) or [lore](scc.v1:mcdm.heroes.v1/skill.group/lore) skill groups (see Skills in Chapter 9: [Tests](scc.v1:mcdm.heroes.v1/chapter/tests)). (*Quick Build:* [Intimidate](scc.v1:mcdm.heroes.v1/skill.interpersonal/intimidate), [Religion](scc.v1:mcdm.heroes.v1/skill.lore/religion).)'
 source: mcdm.heroes.v1
+stamina_per_level: 9
+starting_stamina: 21
 strong_potency: '[Presence](scc.v1:mcdm.heroes.v1/rule.character/presence)'
 type: class
 weak_potency: '[Presence](scc.v1:mcdm.heroes.v1/rule.character/presence) − 2'

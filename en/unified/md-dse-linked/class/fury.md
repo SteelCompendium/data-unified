@@ -6,10 +6,16 @@ flavor: You do not temper the heat of battle within you. You unleash it! Your ex
 item_id: fury
 item_name: Fury
 name: Fury
+primary_characteristics:
+    - Might
+    - Agility
+recoveries: 10
 scc: mcdm.heroes.v1/class/fury
 skills:
     - 'You gain the [Nature](../skill/lore/nature.md) skill (see Skills in Chapter 9: [Tests](../chapter/tests.md)). Then choose any two skills from the [exploration](../skill/group/exploration.md) or [intrigue](../skill/group/intrigue.md) skill groups. (*Quick Build:* Alertness, Jump, Nature.)'
 source: mcdm.heroes.v1
+stamina_per_level: 9
+starting_stamina: 21
 strong_potency: '[Might](../rule/character/might.md)'
 type: class
 weak_potency: '[Might](../rule/character/might.md) − 2'

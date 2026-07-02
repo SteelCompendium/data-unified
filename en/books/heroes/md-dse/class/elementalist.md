@@ -6,10 +6,15 @@ flavor: Air for movement. Earth for permanence. Fire for destruction. Water for 
 item_id: elementalist
 item_name: Elementalist
 name: Elementalist
+primary_characteristics:
+    - Reason
+recoveries: 8
 scc: mcdm.heroes.v1/class/elementalist
 skills:
     - 'You gain the Magic skill (see Skills in Chapter 9: [Tests](scc.v1:mcdm.heroes.v1/chapter/tests)). Then choose any three skills from the [crafting](scc.v1:mcdm.heroes.v1/skill.group/crafting) or [lore](scc.v1:mcdm.heroes.v1/skill.group/lore) skill groups. (*Quick Build:* Alchemy, Blacksmithing, History, Magic.)'
 source: mcdm.heroes.v1
+stamina_per_level: 6
+starting_stamina: 18
 strong_potency: '[Reason](scc.v1:mcdm.heroes.v1/rule.character/reason)'
 type: class
 weak_potency: '[Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) − 2'

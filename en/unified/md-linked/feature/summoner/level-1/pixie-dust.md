@@ -4,6 +4,7 @@ feature_source: circle
 level: "1"
 name: Pixie Dust
 scc: mcdm.summoner.v1/feature.summoner.level-1/pixie-dust
+subclass: spring
 type: feature
 ---
 

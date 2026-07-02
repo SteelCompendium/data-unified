@@ -10,6 +10,7 @@ level: "1"
 name: Accelerate
 scc: mcdm.heroes.v1/feature.talent.level-1/accelerate
 source: mcdm.heroes.v1
+subclass: chronopathy
 type: feature
 ---
 
@@ -22,6 +23,7 @@ metadata:
     level: "1"
     name: Accelerate
     scc: mcdm.heroes.v1/feature.talent.level-1/accelerate
+    subclass: chronopathy
     type: feature
 name: Accelerate
 type: feature

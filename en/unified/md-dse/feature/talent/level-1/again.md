@@ -10,6 +10,7 @@ level: "1"
 name: Again
 scc: mcdm.heroes.v1/feature.talent.level-1/again
 source: mcdm.heroes.v1
+subclass: chronopathy
 type: feature
 ---
 
@@ -22,6 +23,7 @@ metadata:
     level: "1"
     name: Again
     scc: mcdm.heroes.v1/feature.talent.level-1/again
+    subclass: chronopathy
     type: feature
 name: Again
 type: feature

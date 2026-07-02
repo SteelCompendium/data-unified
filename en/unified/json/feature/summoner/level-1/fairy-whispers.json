@@ -16,6 +16,7 @@
     "scc": [
       "mcdm.summoner.v1/feature.summoner.level-1/fairy-whispers"
     ],
+    "subclass": "spring",
     "type": "feature/summoner/level-1"
   },
   "name": "Fairy Whispers",

@@ -18,7 +18,7 @@ Your circle grants you a feature as shown on the 5th-Level Summoner Circle Featu
 | Spring | Flash Powder, Pixie Lift |
 | Storms | Nature Watch, Split |
 
-## Channel {data-scc="mcdm.summoner.v1/feature.summoner.level-5/channel"}
+## Channel {data-scc="mcdm.summoner.v1/feature.summoner.level-5/channel" data-subclass="graves"}
 
 You can spend 1 uninterrupted minute to perform a ritual and use your body as a host for a willing spirit of a creature who died in the area. While hosting the spirit, you have access to their memories of the 24 hours leading up to their death and any skills they knew in life. You can also magically change your appearance to look like them while they were alive.
 
@@ -26,11 +26,11 @@ You can attempt to stop channeling the spirit at any time. If the spirit is host
 
 After you stop channeling their spirit, you can't use this feature to channel the same creature again.
 
-## Dread March {data-scc="mcdm.summoner.v1/feature.summoner.level-5/dread-march"}
+## Dread March {data-scc="mcdm.summoner.v1/feature.summoner.level-5/dread-march" data-subclass="graves"}
 
 You and your undead [minions](../level-1/minions.md) don't spend additional [speed](../../../rule/character/speed.md) to move through [difficult terrain](../../../movement/difficult-terrain.md). If one or more of your undead [minions](../level-1/minions.md) would die while using their move action, they can choose to not die until the end of your [turn](../../../rule/combat/turn.md).
 
-## Flash Powder {data-scc="mcdm.summoner.v1/feature.summoner.level-5/flash-powder"}
+## Flash Powder {data-scc="mcdm.summoner.v1/feature.summoner.level-5/flash-powder" data-subclass="spring"}
 
 Each ally that gains [temporary Stamina](../../../rule/health/temporary-stamina.md) from your [Pixie Dust](../level-1/pixie-dust.md) feature also gains one of the following effects until the end of their next [turn](../../../rule/combat/turn.md) (or for 10 minutes if used outside of combat):
 
@@ -39,25 +39,25 @@ Each ally that gains [temporary Stamina](../../../rule/health/temporary-stamina.
 - **Water Weird:** As a [free maneuver](../../../rule/combat/free-maneuver.md) once per [turn](../../../rule/combat/turn.md), they can [teleport](../../../movement/teleport.md) to a body of water within 5 squares of them.
 - **Panacea:** They can end one [condition](../../../rule/combat/condition.md) affecting them or stand up.
 
-## Nature Watch {data-scc="mcdm.summoner.v1/feature.summoner.level-5/nature-watch"}
+## Nature Watch {data-scc="mcdm.summoner.v1/feature.summoner.level-5/nature-watch" data-subclass="storms"}
 
 You can spend 1 uninterrupted minute each day to perform a ritual and summon a special elemental mote called a beacon to patrol the area. This mote telepathically communicates any hostile creatures, hazards, or traps within 20 squares of them to you no matter how far away you are. You know the number of nearby hazards and which direction they're in relative to where the beacon is, but not their exact position. You can have a number of beacons active equal to your level.
 
-## Pixie Lift {data-scc="mcdm.summoner.v1/feature.summoner.level-5/pixie-lift"}
+## Pixie Lift {data-scc="mcdm.summoner.v1/feature.summoner.level-5/pixie-lift" data-subclass="spring"}
 
 Your [speed](../../../rule/character/speed.md) gains the [Fly](../../../movement/fly.md) and [Hover](../../../movement/hover.md) keywords. You lose the [Hover](../../../movement/hover.md) keyword from this feature while you are [dazed](../../../condition/dazed.md), [dying](../../../rule/health/dying.md), or you fly more than 1 square above the surface of the ground.
 
 If your [speed](../../../rule/character/speed.md) previously had the [Fly](../../../movement/fly.md) keyword, you can now [fly](../../../movement/fly.md) while sneaking an additional number of squares equal to your [Reason](../../../rule/character/reason.md).
 
-## Shaping {data-scc="mcdm.summoner.v1/feature.summoner.level-5/shaping"}
+## Shaping {data-scc="mcdm.summoner.v1/feature.summoner.level-5/shaping" data-subclass="blight"}
 
 You can spend 1 uninterrupted minute to perform a ritual that causes one of your [minions](../level-1/minions.md) to fold their shape and disguise themself to look like a duplicate of you, including speaking basic Caelian, allowing them to (potentially) freely move through civilization while completing their tasks. You can have a number of [minions](../level-1/minions.md) disguised at the same time equal to your [Reason](../../../rule/character/reason.md) score.
 
-## Split {data-scc="mcdm.summoner.v1/feature.summoner.level-5/split"}
+## Split {data-scc="mcdm.summoner.v1/feature.summoner.level-5/split" data-subclass="storms"}
 
 Once during your [turn](../../../rule/combat/turn.md), you can use a [free maneuver](../../../rule/combat/free-maneuver.md) to deal [damage](../../../rule/damage/damage.md) to one of your elemental [minions](../level-1/minions.md) equal to half their maximum [Stamina](../../../rule/health/stamina.md) in order to create one additional copy of that [minion](../level-1/minions.md) in an [adjacent](../../../rule/combat/adjacent.md) unoccupied space and add them to their squad, even if you're at your minion maximum. You can't use this feature if it would kill one or more of the [minions](../level-1/minions.md) in the squad.
 
-## Soul Flense {data-scc="mcdm.summoner.v1/feature.summoner.level-5/soul-flense"}
+## Soul Flense {data-scc="mcdm.summoner.v1/feature.summoner.level-5/soul-flense" data-subclass="blight"}
 
 As a maneuver, you can command one or more of your demon [minions](../level-1/minions.md) to each deal [damage](../../../rule/damage/damage.md) equal to their [free strike](../../common/main-actions/free-strike.md) value to an [adjacent](../../../rule/combat/adjacent.md) ally. This [damage](../../../rule/damage/damage.md) can't be reduced. The ally then ends a [condition](../../../rule/combat/condition.md) affecting them and confers it to the demon that attacked them.
 

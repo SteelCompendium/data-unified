@@ -4,6 +4,7 @@ feature_source: circle
 level: "5"
 name: Channel
 scc: mcdm.summoner.v1/feature.summoner.level-5/channel
+subclass: graves
 type: feature
 ---
 

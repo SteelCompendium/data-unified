@@ -2,9 +2,14 @@
 average_potency: '[Intuition](../rule/character/intuition.md) - 1'
 flavor: The power of the gods flows through you! As a vessel for divine power, you don't just keep your allies in the fight. You make those allies more effective, even as you rain divine energy down upon your foes. Though the deity or saint you serve might have other faithful and clergy, you are special among worshippers, receiving your abilities from the highest source.
 name: Conduit
+primary_characteristics:
+    - Intuition
+recoveries: 8
 scc: mcdm.heroes.v1/class/conduit
 skills:
     - 'Choose any two skills from the [interpersonal](../skill/group/interpersonal.md) or [lore](../skill/group/lore.md) skill groups (see Skills in Chapter 9: [Tests](../chapter/tests.md)). (*Quick Build:* [Read Person](../skill/interpersonal/read-person.md), Religion.)'
+stamina_per_level: 6
+starting_stamina: 18
 strong_potency: '[Intuition](../rule/character/intuition.md)'
 type: class
 weak_potency: '[Intuition](../rule/character/intuition.md) - 2'

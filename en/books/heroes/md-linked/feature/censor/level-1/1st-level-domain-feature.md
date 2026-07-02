@@ -64,7 +64,7 @@ You have the following ability.
 
 **Effect:** You conjure a spirit that takes the form of any animal you have seen. The incorporeal animal has [speed](../../../rule/character/speed.md) 5 and can [fly](../../../movement/fly.md), but can't physically interact with the world. While you are within 10 squares of the spirit, you automatically sense everything that type of animal would sense, in addition to sensing your own surroundings. You can dismiss the spirit at any time (no action required). If the spirit takes any damage, they are dismissed and you take 1d10 psychic damage that can't be reduced in any way.
 
-## Grave Speech {data-scc="mcdm.heroes.v1/feature.censor.level-1/grave-speech"}
+## Grave Speech {data-scc="mcdm.heroes.v1/feature.censor.level-1/grave-speech" data-subclass="death"}
 
 You have the following ability.
 
@@ -79,7 +79,7 @@ You have the following ability.
 
 **Effect:** You can speak to the target if they are a creature who has died within the last 24 hours and who can speak a language you know, even if they are just a head. The target regards you as they would have in life, and you might need to make [tests](../../../rule/test/test.md) to influence them and convince them to speak with you. The trauma of [dying](../../../rule/health/dying.md) can make a creature's memory of that event hazy, but the target otherwise knows all they knew in life. After 1 minute, the effect ends. You can't use this ability on the same creature twice.
 
-## Hands of the Maker {data-scc="mcdm.heroes.v1/feature.censor.level-1/hands-of-the-maker"}
+## Hands of the Maker {data-scc="mcdm.heroes.v1/feature.censor.level-1/hands-of-the-maker" data-subclass="creation"}
 
 You have the following ability.
 

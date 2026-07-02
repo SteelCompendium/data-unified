@@ -10,6 +10,7 @@ level: "1"
 name: Remote Assistance
 scc: mcdm.heroes.v1/feature.talent.level-1/remote-assistance
 source: mcdm.heroes.v1
+subclass: telepathy
 type: feature
 ---
 
@@ -22,6 +23,7 @@ metadata:
     level: "1"
     name: Remote Assistance
     scc: mcdm.heroes.v1/feature.talent.level-1/remote-assistance
+    subclass: telepathy
     type: feature
 name: Remote Assistance
 type: feature

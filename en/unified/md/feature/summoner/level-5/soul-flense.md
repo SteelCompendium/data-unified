@@ -4,6 +4,7 @@ feature_source: circle
 level: "5"
 name: Soul Flense
 scc: mcdm.summoner.v1/feature.summoner.level-5/soul-flense
+subclass: blight
 type: feature
 ---
 

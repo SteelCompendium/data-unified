@@ -6,10 +6,15 @@ flavor: The power of the gods flows through you! As a vessel for divine power, y
 item_id: conduit
 item_name: Conduit
 name: Conduit
+primary_characteristics:
+    - Intuition
+recoveries: 8
 scc: mcdm.heroes.v1/class/conduit
 skills:
     - 'Choose any two skills from the [interpersonal](scc.v1:mcdm.heroes.v1/skill.group/interpersonal) or [lore](scc.v1:mcdm.heroes.v1/skill.group/lore) skill groups (see Skills in Chapter 9: [Tests](scc.v1:mcdm.heroes.v1/chapter/tests)). (*Quick Build:* [Read Person](scc.v1:mcdm.heroes.v1/skill.interpersonal/read-person), Religion.)'
 source: mcdm.heroes.v1
+stamina_per_level: 6
+starting_stamina: 18
 strong_potency: '[Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)'
 type: class
 weak_potency: '[Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition) - 2'

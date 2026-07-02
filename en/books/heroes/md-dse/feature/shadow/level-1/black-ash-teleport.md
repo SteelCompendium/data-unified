@@ -10,6 +10,7 @@ level: "1"
 name: Black Ash Teleport
 scc: mcdm.heroes.v1/feature.shadow.level-1/black-ash-teleport
 source: mcdm.heroes.v1
+subclass: black-ash
 type: feature
 ---
 
@@ -22,6 +23,7 @@ metadata:
     level: "1"
     name: Black Ash Teleport
     scc: mcdm.heroes.v1/feature.shadow.level-1/black-ash-teleport
+    subclass: black-ash
     type: feature
 name: Black Ash Teleport
 type: feature

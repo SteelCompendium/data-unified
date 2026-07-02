@@ -29,7 +29,7 @@ You gain a domain feature from your domain, as shown on the 4th-Level [Censor](.
 
 Your divine presence causes those you deem worthy to recover quickly from a fight. Whenever an ally within [distance](../../../rule/combat/distance.md) of your [My Life for Yours](../../ability/censor/level-1/my-life-for-yours.md) ability regains [Stamina](../../../rule/health/stamina.md), they regain additional [Stamina](../../../rule/health/stamina.md) equal to your [Presence](../../../rule/character/presence.md) score.
 
-## Blessing of Secrets {data-scc="mcdm.heroes.v1/feature.censor.level-4/blessing-of-secrets"}
+## Blessing of Secrets {data-scc="mcdm.heroes.v1/feature.censor.level-4/blessing-of-secrets" data-subclass="trickery"}
 
 You have the following ability.
 

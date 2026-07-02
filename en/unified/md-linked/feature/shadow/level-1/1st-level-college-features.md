@@ -16,7 +16,7 @@ Your [shadow college](shadow-college.md) grants you one or two features, as show
 | Caustic Alchemy | [Coat the Blade](../../ability/shadow/level-1/coat-the-blade.md), [Smoke Bomb](smoke-bomb.md) |
 | Harlequin Mask  | [I'm No Threat](../../ability/shadow/level-1/im-no-threat.md)              |
 
-## Black Ash Teleport {data-scc="mcdm.heroes.v1/feature.shadow.level-1/black-ash-teleport"}
+## Black Ash Teleport {data-scc="mcdm.heroes.v1/feature.shadow.level-1/black-ash-teleport" data-subclass="black-ash"}
 
 You have the following ability.
 
@@ -33,7 +33,7 @@ You have the following ability.
 
 **Spend 1+ Insight:** You [teleport](../../../movement/teleport.md) 1 additional square for each insight spent.
 
-## Coat the Blade {data-scc="mcdm.heroes.v1/feature.shadow.level-1/coat-the-blade"}
+## Coat the Blade {data-scc="mcdm.heroes.v1/feature.shadow.level-1/coat-the-blade" data-subclass="caustic-alchemy"}
 
 You have the following ability.
 
@@ -50,7 +50,7 @@ You have the following ability.
 
 **Spend 1+ Insight:** For each insight you spend, you gain 1 additional [surge](../../../rule/resource/surge.md).
 
-## I'm No Threat {data-scc="mcdm.heroes.v1/feature.shadow.level-1/im-no-threat"}
+## I'm No Threat {data-scc="mcdm.heroes.v1/feature.shadow.level-1/im-no-threat" data-subclass="harlequin-mask"}
 
 You have the following ability.
 

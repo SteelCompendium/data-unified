@@ -20,7 +20,7 @@ Your [talent tradition](../level-1/talent-tradition.md) grants you two features,
 
 While you have 5 or more [Victories](../../../rule/resource/victories.md), you can undertake an additional [respite](../../../rule/resource/respite.md) activity during a [respite](../../../rule/resource/respite.md).
 
-## Levitation Field {data-scc="mcdm.heroes.v1/feature.talent.level-8/levitation-field"}
+## Levitation Field {data-scc="mcdm.heroes.v1/feature.talent.level-8/levitation-field" data-subclass="telekinesis"}
 
 You have the following ability.
 

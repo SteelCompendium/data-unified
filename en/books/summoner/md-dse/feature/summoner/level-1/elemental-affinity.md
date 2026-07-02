@@ -11,6 +11,7 @@ level: "1"
 name: Elemental Affinity
 scc: mcdm.summoner.v1/feature.summoner.level-1/elemental-affinity
 source: mcdm.summoner.v1
+subclass: storms
 type: feature
 ---
 
@@ -24,6 +25,7 @@ metadata:
     level: "1"
     name: Elemental Affinity
     scc: mcdm.summoner.v1/feature.summoner.level-1/elemental-affinity
+    subclass: storms
     type: feature
 name: Elemental Affinity
 type: feature

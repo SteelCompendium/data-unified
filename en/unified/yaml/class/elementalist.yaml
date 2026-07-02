@@ -47,9 +47,14 @@ content: |-
     | 10th   | [Characteristic Increase](scc.v1:mcdm.heroes.v1/feature.elementalist.level-10/characteristic-increase), [Breath](scc.v1:mcdm.heroes.v1/feature.elementalist.level-10/breath), [Essential Being](scc.v1:mcdm.heroes.v1/feature.elementalist.level-10/essential-being), [One](scc.v1:mcdm.heroes.v1/feature.elementalist.level-10/one), [Perk](scc.v1:mcdm.heroes.v1/feature.elementalist.level-10/perk), [Skill Increase](scc.v1:mcdm.heroes.v1/feature.elementalist.level-10/skill)                                                                                                                         | Two signature, 3, 5, 5, 7, 9, 9, 11 |
 flavor: Air for movement. Earth for permanence. Fire for destruction. Water for change. Green for growth. Rot for death. Void for the mystery that which cannot be known. Years of study and practice and poring over tomes brought you the revelations that allow you to manipulate these building blocks of reality. Now you use your mastery of the seven elements to destroy, create, and warp the world with magic.
 name: Elementalist
+primary_characteristics:
+    - Reason
+recoveries: 8
 scc: mcdm.heroes.v1/class/elementalist
 skills:
     - 'You gain the Magic skill (see Skills in Chapter 9: [Tests](scc.v1:mcdm.heroes.v1/chapter/tests)). Then choose any three skills from the [crafting](scc.v1:mcdm.heroes.v1/skill.group/crafting) or [lore](scc.v1:mcdm.heroes.v1/skill.group/lore) skill groups. (*Quick Build:* Alchemy, Blacksmithing, History, Magic.)'
+stamina_per_level: 6
+starting_stamina: 18
 strong_potency: '[Reason](scc.v1:mcdm.heroes.v1/rule.character/reason)'
 type: class
 weak_potency: '[Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) − 2'

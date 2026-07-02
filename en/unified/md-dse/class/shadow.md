@@ -6,10 +6,15 @@ flavor: Subtlety is your art, the tip of the blade your brush. You studied at a 
 item_id: shadow
 item_name: Shadow
 name: Shadow
+primary_characteristics:
+    - Agility
+recoveries: 8
 scc: mcdm.heroes.v1/class/shadow
 skills:
     - 'You gain the Hide and Sneak skills (see Skills in Chapter 9: [Tests](scc.v1:mcdm.heroes.v1/chapter/tests)). Then choose any five skills from Criminal Underworld or the skills of the [exploration](scc.v1:mcdm.heroes.v1/skill.group/exploration), [interpersonal](scc.v1:mcdm.heroes.v1/skill.group/interpersonal), or [intrigue](scc.v1:mcdm.heroes.v1/skill.group/intrigue) skill groups. (*Quick Build:*  Criminal Underworld, Hide, Lie, Pick Lock, Pick Pocket, Sabotage, Sneak.)'
 source: mcdm.heroes.v1
+stamina_per_level: 6
+starting_stamina: 18
 strong_potency: '[Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)'
 type: class
 weak_potency: '[Agility](scc.v1:mcdm.heroes.v1/rule.character/agility) − 2'

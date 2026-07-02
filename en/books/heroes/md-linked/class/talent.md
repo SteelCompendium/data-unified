@@ -2,9 +2,15 @@
 average_potency: '[Reason](../rule/character/reason.md) − 1'
 flavor: A rare few people are born with the potential to harness psionic power, but only those who experience an awakening, a significant event that activates a talent's abilities, can tap into the mind's full potential. You are one of those people—a master of psionics and a source of incredible power created through sheer force of will. You can move and change matter, time, gravity, the laws of physics, or another creature's mind.
 name: Talent
+primary_characteristics:
+    - Reason
+    - Presence
+recoveries: 8
 scc: mcdm.heroes.v1/class/talent
 skills:
     - 'You gain the Psionics and [Read Person](../skill/interpersonal/read-person.md) skills (see Skills in Chapter 9: [Tests](../chapter/tests.md)). Then choose any two skills from the [interpersonal](../skill/group/interpersonal.md) or [lore](../skill/group/lore.md) skill groups. (*Quick Build:* Empathize, Psionics, [Read Person](../skill/interpersonal/read-person.md), Timescape.)'
+stamina_per_level: 6
+starting_stamina: 18
 strong_potency: '[Reason](../rule/character/reason.md)'
 type: class
 weak_potency: '[Reason](../rule/character/reason.md) − 2'
@@ -181,7 +187,7 @@ Your [talent tradition](../feature/talent/level-1/talent-tradition.md) grants yo
 | Telekinesis | [Minor Telekinesis](../feature/ability/talent/level-1/minor-telekinesis.md), [Repel](../feature/ability/talent/level-1/repel.md)         |
 | Telepathy   | [Feedback Loop](../feature/ability/talent/level-1/feedback-loop.md), [Remote Assistance](../feature/ability/talent/level-1/remote-assistance.md) |
 
-#### Accelerate {data-scc="mcdm.heroes.v1/feature.talent.level-1/accelerate"}
+#### Accelerate {data-scc="mcdm.heroes.v1/feature.talent.level-1/accelerate" data-subclass="chronopathy"}
 
 You have the following ability.
 
@@ -198,7 +204,7 @@ You have the following ability.
 
 **Spend 2 Clarity:** The target can use a maneuver.
 
-#### Again {data-scc="mcdm.heroes.v1/feature.talent.level-1/again"}
+#### Again {data-scc="mcdm.heroes.v1/feature.talent.level-1/again" data-subclass="chronopathy"}
 
 You have the following ability.
 
@@ -215,7 +221,7 @@ You have the following ability.
 
 **Effect:** You can use this ability after seeing the result of the triggering roll. The target must reroll the [power roll](../rule/dice/power-roll.md) and use the new roll.
 
-#### Feedback Loop {data-scc="mcdm.heroes.v1/feature.talent.level-1/feedback-loop"}
+#### Feedback Loop {data-scc="mcdm.heroes.v1/feature.talent.level-1/feedback-loop" data-subclass="telepathy"}
 
 You have the following ability.
 
@@ -232,7 +238,7 @@ You have the following ability.
 
 **Effect:** The target takes psychic damage equal to half the triggering damage.
 
-#### Minor Telekinesis {data-scc="mcdm.heroes.v1/feature.talent.level-1/minor-telekinesis"}
+#### Minor Telekinesis {data-scc="mcdm.heroes.v1/feature.talent.level-1/minor-telekinesis" data-subclass="telekinesis"}
 
 You have the following ability.
 
@@ -251,7 +257,7 @@ You have the following ability.
 
 **Spend 3 Clarity:** You can vertical [slide](../movement/forced-movement.md) the target.
 
-#### Remote Assistance {data-scc="mcdm.heroes.v1/feature.talent.level-1/remote-assistance"}
+#### Remote Assistance {data-scc="mcdm.heroes.v1/feature.talent.level-1/remote-assistance" data-subclass="telepathy"}
 
 You have the following ability.
 
@@ -269,7 +275,7 @@ You have the following ability.
 
 **Spend 1 Clarity:** You target one additional creature or object.
 
-### Repel {data-scc="mcdm.heroes.v1/feature.talent.level-1/repel"}
+### Repel {data-scc="mcdm.heroes.v1/feature.talent.level-1/repel" data-subclass="telekinesis"}
 
 You have the following ability.
 
@@ -1170,7 +1176,7 @@ Your [talent tradition](../feature/talent/level-1/talent-tradition.md) grants yo
 
 While you have 5 or more [Victories](../rule/resource/victories.md), you can undertake an additional [respite](../rule/resource/respite.md) activity during a [respite](../rule/resource/respite.md).
 
-#### Levitation Field {data-scc="mcdm.heroes.v1/feature.talent.level-8/levitation-field"}
+#### Levitation Field {data-scc="mcdm.heroes.v1/feature.talent.level-8/levitation-field" data-subclass="telekinesis"}
 
 You have the following ability.
 
@@ -1195,7 +1201,7 @@ Your mind can carry your body through tough times. You ignore [difficult terrain
 
 During a [respite](../rule/resource/respite.md), you can choose a number of creatures up to your [Reason](../rule/character/reason.md) score who you have communicated with using your [Telepathic Speech](../feature/talent/level-1/telepathic-speech.md) feature, creating a telepathic link among all of you. Whenever a linked creature spends one or more [Recoveries](../rule/health/recoveries.md), each other linked creature can spend a [Recovery](../rule/health/recoveries.md).
 
-### Stasis Shield {data-scc="mcdm.heroes.v1/feature.talent.level-8/stasis-shield"}
+### Stasis Shield {data-scc="mcdm.heroes.v1/feature.talent.level-8/stasis-shield" data-subclass="chronopathy"}
 
 You have the following ability.
 

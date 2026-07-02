@@ -10,6 +10,7 @@ level: "1"
 name: I'm No Threat
 scc: mcdm.heroes.v1/feature.shadow.level-1/im-no-threat
 source: mcdm.heroes.v1
+subclass: harlequin-mask
 type: feature
 ---
 
@@ -22,6 +23,7 @@ metadata:
     level: "1"
     name: I'm No Threat
     scc: mcdm.heroes.v1/feature.shadow.level-1/im-no-threat
+    subclass: harlequin-mask
     type: feature
 name: I'm No Threat
 type: feature

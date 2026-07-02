@@ -11,6 +11,7 @@ level: "1"
 name: Soulsense
 scc: mcdm.summoner.v1/feature.summoner.level-1/soulsense
 source: mcdm.summoner.v1
+subclass: blight
 type: feature
 ---
 
@@ -27,6 +28,7 @@ metadata:
     level: "1"
     name: Soulsense
     scc: mcdm.summoner.v1/feature.summoner.level-1/soulsense
+    subclass: blight
     type: feature
 name: Soulsense
 type: feature

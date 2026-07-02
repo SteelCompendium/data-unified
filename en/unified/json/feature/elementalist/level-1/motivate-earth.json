@@ -52,6 +52,7 @@
     "scc": [
       "mcdm.heroes.v1/feature.elementalist.level-1/motivate-earth"
     ],
+    "subclass": "earth",
     "type": "feature/elementalist/level-1"
   },
   "name": "Motivate Earth",

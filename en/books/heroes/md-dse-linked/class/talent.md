@@ -6,10 +6,16 @@ flavor: A rare few people are born with the potential to harness psionic power, 
 item_id: talent
 item_name: Talent
 name: Talent
+primary_characteristics:
+    - Reason
+    - Presence
+recoveries: 8
 scc: mcdm.heroes.v1/class/talent
 skills:
     - 'You gain the Psionics and [Read Person](../skill/interpersonal/read-person.md) skills (see Skills in Chapter 9: [Tests](../chapter/tests.md)). Then choose any two skills from the [interpersonal](../skill/group/interpersonal.md) or [lore](../skill/group/lore.md) skill groups. (*Quick Build:* Empathize, Psionics, [Read Person](../skill/interpersonal/read-person.md), Timescape.)'
 source: mcdm.heroes.v1
+stamina_per_level: 6
+starting_stamina: 18
 strong_potency: '[Reason](../rule/character/reason.md)'
 type: class
 weak_potency: '[Reason](../rule/character/reason.md) − 2'

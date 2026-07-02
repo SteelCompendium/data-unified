@@ -2,9 +2,15 @@
 average_potency: '[Presence](../rule/character/presence.md) − 1'
 flavor: Demons and deathless fear you. Criminals run from the sight of your shadow. Agents of chaos, blasphemers, and heretics tremble at the sound of your voice. You carry the power of the gods, armed with wrath and sent out into the world first to seek, then censor those whose actions—or even existence—are anathema to your church.
 name: Censor
+primary_characteristics:
+    - Might
+    - Presence
+recoveries: 12
 scc: mcdm.heroes.v1/class/censor
 skills:
     - 'Choose any two skills from the [interpersonal](../skill/group/interpersonal.md) or [lore](../skill/group/lore.md) skill groups (see Skills in Chapter 9: [Tests](../chapter/tests.md)). (*Quick Build:* [Intimidate](../skill/interpersonal/intimidate.md), [Religion](../skill/lore/religion.md).)'
+stamina_per_level: 9
+starting_stamina: 21
 strong_potency: '[Presence](../rule/character/presence.md)'
 type: class
 weak_potency: '[Presence](../rule/character/presence.md) − 2'
@@ -216,7 +222,7 @@ You have the following ability.
 
 **Effect:** You conjure a spirit that takes the form of any animal you have seen. The incorporeal animal has [speed](../rule/character/speed.md) 5 and can [fly](../movement/fly.md), but can't physically interact with the world. While you are within 10 squares of the spirit, you automatically sense everything that type of animal would sense, in addition to sensing your own surroundings. You can dismiss the spirit at any time (no action required). If the spirit takes any damage, they are dismissed and you take 1d10 psychic damage that can't be reduced in any way.
 
-#### Grave Speech {data-scc="mcdm.heroes.v1/feature.censor.level-1/grave-speech"}
+#### Grave Speech {data-scc="mcdm.heroes.v1/feature.censor.level-1/grave-speech" data-subclass="death"}
 
 You have the following ability.
 
@@ -231,7 +237,7 @@ You have the following ability.
 
 **Effect:** You can speak to the target if they are a creature who has died within the last 24 hours and who can speak a language you know, even if they are just a head. The target regards you as they would have in life, and you might need to make [tests](../rule/test/test.md) to influence them and convince them to speak with you. The trauma of [dying](../rule/health/dying.md) can make a creature's memory of that event hazy, but the target otherwise knows all they knew in life. After 1 minute, the effect ends. You can't use this ability on the same creature twice.
 
-#### Hands of the Maker {data-scc="mcdm.heroes.v1/feature.censor.level-1/hands-of-the-maker"}
+#### Hands of the Maker {data-scc="mcdm.heroes.v1/feature.censor.level-1/hands-of-the-maker" data-subclass="creation"}
 
 You have the following ability.
 
@@ -729,7 +735,7 @@ You gain a domain feature from your domain, as shown on the 4th-Level [Censor](c
 
 Your divine presence causes those you deem worthy to recover quickly from a fight. Whenever an ally within [distance](../rule/combat/distance.md) of your [My Life for Yours](../feature/ability/censor/level-1/my-life-for-yours.md) ability regains [Stamina](../rule/health/stamina.md), they regain additional [Stamina](../rule/health/stamina.md) equal to your [Presence](../rule/character/presence.md) score.
 
-#### Blessing of Secrets {data-scc="mcdm.heroes.v1/feature.censor.level-4/blessing-of-secrets"}
+#### Blessing of Secrets {data-scc="mcdm.heroes.v1/feature.censor.level-4/blessing-of-secrets" data-subclass="trickery"}
 
 You have the following ability.
 

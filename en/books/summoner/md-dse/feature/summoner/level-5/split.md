@@ -11,6 +11,7 @@ level: "5"
 name: Split
 scc: mcdm.summoner.v1/feature.summoner.level-5/split
 source: mcdm.summoner.v1
+subclass: storms
 type: feature
 ---
 
@@ -24,6 +25,7 @@ metadata:
     level: "5"
     name: Split
     scc: mcdm.summoner.v1/feature.summoner.level-5/split
+    subclass: storms
     type: feature
 name: Split
 type: feature

@@ -11,6 +11,7 @@ level: "8"
 name: Control the Elements
 scc: mcdm.summoner.v1/feature.summoner.level-8/control-the-elements
 source: mcdm.summoner.v1
+subclass: storms
 type: feature
 ---
 
@@ -33,6 +34,7 @@ metadata:
     level: "8"
     name: Control the Elements
     scc: mcdm.summoner.v1/feature.summoner.level-8/control-the-elements
+    subclass: storms
     type: feature
 name: Control the Elements
 type: feature

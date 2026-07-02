@@ -11,6 +11,7 @@ level: "5"
 name: Shaping
 scc: mcdm.summoner.v1/feature.summoner.level-5/shaping
 source: mcdm.summoner.v1
+subclass: blight
 type: feature
 ---
 
@@ -24,6 +25,7 @@ metadata:
     level: "5"
     name: Shaping
     scc: mcdm.summoner.v1/feature.summoner.level-5/shaping
+    subclass: blight
     type: feature
 name: Shaping
 type: feature

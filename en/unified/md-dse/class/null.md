@@ -6,10 +6,16 @@ flavor: The mind is not separate from the body. Perfection of one requires perfe
 item_id: "null"
 item_name: "Null"
 name: "Null"
+primary_characteristics:
+    - Agility
+    - Intuition
+recoveries: 8
 scc: mcdm.heroes.v1/class/null
 skills:
     - 'You gain the [Psionics](scc.v1:mcdm.heroes.v1/skill.lore/psionics) skill (see Skills in Chapter 9: [Tests](scc.v1:mcdm.heroes.v1/chapter/tests)). Then choose any two skills from the [interpersonal](scc.v1:mcdm.heroes.v1/skill.group/interpersonal) or [lore](scc.v1:mcdm.heroes.v1/skill.group/lore) skill groups. (*Quick Build:* Psionics, [Read Person](scc.v1:mcdm.heroes.v1/skill.interpersonal/read-person), Timescape.)'
 source: mcdm.heroes.v1
+stamina_per_level: 9
+starting_stamina: 21
 strong_potency: '[Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)'
 type: class
 weak_potency: '[Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition) − 2'

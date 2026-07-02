@@ -62,7 +62,7 @@ You can revert back to your true form as a maneuver. You can't enter an [animal 
 | Rhinoceros          | 9th   | 10                | 8             | 2    | +5              | +2/+2/+2           | Whenever you make a [melee](../../../rule/combat/melee.md) [free strike](../../common/main-actions/free-strike.md) as part of the Charge action, that<br>strike gains an [edge](../../../rule/dice/edge.md).                                                                                                                                                                               |
 | King terror lizard  | 10th  | 20                | 5             | 4    | +3              | +2/+2/+2           | Your [melee](../../../rule/combat/melee.md) [free strike](../../common/main-actions/free-strike.md) is a 1 [burst](../../../rule/combat/burst.md) with the Area and Strike keywords.                                                                                                                                                                                                          |
 
-## There Is No Space Between {data-scc="mcdm.heroes.v1/feature.elementalist.level-2/there-is-no-space-between"}
+## There Is No Space Between {data-scc="mcdm.heroes.v1/feature.elementalist.level-2/there-is-no-space-between" data-subclass="void"}
 
 You have the following ability.
 

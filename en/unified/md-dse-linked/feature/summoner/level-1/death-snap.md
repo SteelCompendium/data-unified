@@ -11,6 +11,7 @@ level: "1"
 name: Death Snap
 scc: mcdm.summoner.v1/feature.summoner.level-1/death-snap
 source: mcdm.summoner.v1
+subclass: blight
 type: feature
 ---
 
@@ -24,6 +25,7 @@ metadata:
     level: "1"
     name: Death Snap
     scc: mcdm.summoner.v1/feature.summoner.level-1/death-snap
+    subclass: blight
     type: feature
 name: Death Snap
 type: feature

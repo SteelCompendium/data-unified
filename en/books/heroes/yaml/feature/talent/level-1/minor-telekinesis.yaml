@@ -40,6 +40,7 @@ metadata:
     level: 1
     scc:
         - mcdm.heroes.v1/feature.talent.level-1/minor-telekinesis
+    subclass: telekinesis
     type: feature/talent/level-1
 name: Minor Telekinesis
 type: feature

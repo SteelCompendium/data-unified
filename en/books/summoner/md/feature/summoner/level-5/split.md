@@ -4,6 +4,7 @@ feature_source: circle
 level: "5"
 name: Split
 scc: mcdm.summoner.v1/feature.summoner.level-5/split
+subclass: storms
 type: feature
 ---
 

@@ -11,6 +11,7 @@ level: "1"
 name: Dead Men Tell All Tales
 scc: mcdm.summoner.v1/feature.summoner.level-1/dead-men-tell-all-tales
 source: mcdm.summoner.v1
+subclass: graves
 type: feature
 ---
 
@@ -27,6 +28,7 @@ metadata:
     level: "1"
     name: Dead Men Tell All Tales
     scc: mcdm.summoner.v1/feature.summoner.level-1/dead-men-tell-all-tales
+    subclass: graves
     type: feature
 name: Dead Men Tell All Tales
 type: feature

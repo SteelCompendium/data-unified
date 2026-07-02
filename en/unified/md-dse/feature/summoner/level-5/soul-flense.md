@@ -11,6 +11,7 @@ level: "5"
 name: Soul Flense
 scc: mcdm.summoner.v1/feature.summoner.level-5/soul-flense
 source: mcdm.summoner.v1
+subclass: blight
 type: feature
 ---
 
@@ -27,6 +28,7 @@ metadata:
     level: "5"
     name: Soul Flense
     scc: mcdm.summoner.v1/feature.summoner.level-5/soul-flense
+    subclass: blight
     type: feature
 name: Soul Flense
 type: feature

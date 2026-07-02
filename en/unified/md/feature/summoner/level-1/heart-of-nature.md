@@ -4,6 +4,7 @@ feature_source: circle
 level: "1"
 name: Heart of Nature
 scc: mcdm.summoner.v1/feature.summoner.level-1/heart-of-nature
+subclass: storms
 type: feature
 ---
 

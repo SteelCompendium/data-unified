@@ -10,6 +10,7 @@ level: "8"
 name: Levitation Field
 scc: mcdm.heroes.v1/feature.talent.level-8/levitation-field
 source: mcdm.heroes.v1
+subclass: telekinesis
 type: feature
 ---
 
@@ -22,6 +23,7 @@ metadata:
     level: "8"
     name: Levitation Field
     scc: mcdm.heroes.v1/feature.talent.level-8/levitation-field
+    subclass: telekinesis
     type: feature
 name: Levitation Field
 type: feature
