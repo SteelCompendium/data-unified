@@ -1,8 +1,18 @@
 ---
+average_potency: '[Reason](../rule/character/reason.md) - 1'
 flavor: You are the armada. The kings of old would trade armies for your abilities. You've undertaken the tradition that conjures an endless supply of warriors. You are the summoner, the mage who takes their dreams and makes them manifest.
 name: Summoner
+primary_characteristics:
+    - Reason
+recoveries: 8
 scc: mcdm.summoner.v1/class/summoner
+skills:
+    - You gain the [Magic](../skill/lore/magic.md) and [Strategy](../skill/lore/strategy.md) skills and can choose any two skills from the [intrigue](../skill/group/intrigue.md) or [lore](../skill/group/lore.md) skill groups. (*Quick Build:* [Eavesdrop](../skill/intrigue/eavesdrop.md), [Magic](../skill/lore/magic.md), [Monsters](../skill/lore/monsters.md), [Strategy](../skill/lore/strategy.md).)
+stamina_per_level: 6
+starting_stamina: 15
+strong_potency: '[Reason](../rule/character/reason.md)'
 type: class
+weak_potency: '[Reason](../rule/character/reason.md) - 2'
 ---
 
 You are the armada. The kings of old would trade armies for your abilities. You've undertaken the tradition that conjures an endless supply of warriors. You are the summoner, the mage who takes their dreams and makes them manifest.
@@ -11,7 +21,7 @@ You call forth minions to trudge fearlessly into the fray and provide support, h
 
 You can also take advantage of powerful magic to buff your allies, whittle down your enemies, or enlist the fallen into your ranks. And when push comes to shove, you can call upon your champion to finish the fight.
 
-## Basics {data-scc="mcdm.summoner.v1/feature.summoner.level-1/basics"}
+## Basics
 
 **Starting Characteristics:** You start with a [Reason](../rule/character/reason.md) of 2, and you can choose one of the following arrays for your other [characteristics](../rule/character/characteristic.md) scores:
 

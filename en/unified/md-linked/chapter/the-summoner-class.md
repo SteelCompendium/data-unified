@@ -13,7 +13,7 @@ You call forth minions to trudge fearlessly into the fray and provide support, h
 
 You can also take advantage of powerful magic to buff your allies, whittle down your enemies, or enlist the fallen into your ranks. And when push comes to shove, you can call upon your champion to finish the fight.
 
-### Basics {data-scc="mcdm.summoner.v1/feature.summoner.level-1/basics"}
+### Basics
 
 **Starting Characteristics:** You start with a [Reason](../rule/character/reason.md) of 2, and you can choose one of the following arrays for your other [characteristics](../rule/character/characteristic.md) scores:
 

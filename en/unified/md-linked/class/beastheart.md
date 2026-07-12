@@ -1,15 +1,26 @@
 ---
+average_potency: Might - 1
 flavor: A beastheart never fights alone! You travel with a ferocious beast by your side—no trained pet, but an untamed creature such as a wolf, a basilisk, or even a young dragon. Bound to you by a primordial connection, your companion honors your wishes just as you are guided by their instincts. But beware! As battle rages on, your companion may succumb to a blood-soaked rampage, lashing out at enemies and friends alike.
 name: Beastheart
+primary_characteristics:
+    - Might
+    - Intuition
+recoveries: 12
 scc: mcdm.beastheart.v1/class/beastheart
+skills:
+    - You gain the [Animal Handling](../skill/interpersonal/handle-animals.md) skill. Then choose any two skills from the exploration or intrigue skill groups. (*Quick Build:* [Animal Handling](../skill/interpersonal/handle-animals.md), [Navigate](../skill/exploration/navigate.md), [Track](../skill/intrigue/track.md).)
+stamina_per_level: 12
+starting_stamina: 21
+strong_potency: Might
 type: class
+weak_potency: Might - 2
 ---
 
 A beastheart never fights alone! You travel with a ferocious beast by your side—no trained pet, but an untamed creature such as a [wolf](../monster/companion/beastheart/statblock/wolf.md), a [basilisk](../monster/companion/beastheart/statblock/basilisk.md), or even a young dragon. Bound to you by a primordial connection, your companion honors your wishes just as you are guided by their instincts. But beware! As battle rages on, your companion may succumb to a blood-soaked rampage, lashing out at enemies and friends alike.
 
 As a beastheart, you face the world's dangers alongside your wild companion. With your combined might, you rush into the thick of combat to challenge enemy champions or prowl around the outskirts to pick off vulnerable foes.
 
-## Basics {data-scc="mcdm.beastheart.v1/feature.beastheart.level-1/basics"}
+## Basics
 
 **Starting Characteristics:** You start with a Might of 2 and an Intuition of 2, and can choose one of the following arrays for your other characteristic scores:
 
