@@ -1,6 +1,6 @@
 # Trait Index
 
-Total: 94
+Total: 95
 
 - [All Is a Feather](../feature/trait/hakaan/all-is-a-feather.md)
 - [Barbed Tail](../feature/trait/devil/barbed-tail.md)
@@ -74,6 +74,7 @@ Total: 94
 - [Signature Trait: Psychic Scar](../feature/trait/time-raider/psychic-scar.md)
 - [Signature Trait: Relentless](../feature/trait/orc/relentless.md)
 - [Signature Trait: Runic Carving](../feature/trait/dwarf/runic-carving.md)
+- [Signature Trait: Shadowmeld](../feature/trait/polder/shadowmeld.md)
 - [Signature Trait: Silver Tongue](../feature/trait/devil/silver-tongue.md)
 - [Signature Trait: Small!](../feature/trait/polder/small.md)
 - [Signature Trait: Tough But Withered](../feature/trait/revenant/tough-but-withered.md)

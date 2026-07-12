@@ -53,8 +53,7 @@ features:
             **Effect:** The marble stone giant halves the damage, and has damage weakness 3 and a +3 bonus to speed until the end of the encounter. The damage weakness increases by 3 each time the marble stone giant uses this ability in the same encounter.
       feature_type: ability
       icon: ❗️
-      keywords:
-        - '-'
+      keywords: []
       name: Break Armor
       target: Self
       type: feature

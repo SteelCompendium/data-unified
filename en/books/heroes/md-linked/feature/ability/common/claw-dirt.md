@@ -1,8 +1,7 @@
 ---
 action_type: Maneuver
 distance: Self
-keywords:
-    - '-'
+keywords: []
 name: Claw Dirt
 power_roll_characteristic: '[Might](../../../rule/character/might.md)'
 scc: mcdm.heroes.v1/feature.ability.common/claw-dirt

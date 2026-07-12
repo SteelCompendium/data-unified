@@ -77,9 +77,7 @@
       ],
       "feature_type": "ability",
       "icon": "👤",
-      "keywords": [
-        "-"
-      ],
+      "keywords": null,
       "name": "Optical Collusion",
       "target": "Self",
       "type": "feature",
@@ -176,9 +174,7 @@
       ],
       "feature_type": "ability",
       "icon": "☠️",
-      "keywords": [
-        "-"
-      ],
+      "keywords": null,
       "name": "All Eyes, All Rise",
       "target": "Self",
       "type": "feature",

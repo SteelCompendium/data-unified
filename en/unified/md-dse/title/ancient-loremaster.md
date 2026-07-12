@@ -1,4 +1,5 @@
 ---
+echelon: "1"
 effect: 'Choose one of the following benefits:'
 file_basename: ancient-loremaster
 file_dpath: title

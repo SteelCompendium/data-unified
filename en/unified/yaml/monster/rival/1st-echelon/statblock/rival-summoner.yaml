@@ -47,8 +47,7 @@ features:
             **2 Malice:** Instead of commanding an existing minion, the summoner summons a **skeleton** into an unoccupied space [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the target to take the strike.
       feature_type: ability
       icon: ❗️
-      keywords:
-        - —
+      keywords: []
       name: Corpse Shield
       target: Self or one ally
       type: feature
@@ -61,8 +60,7 @@ features:
       name: Rivalry
       type: feature
 free_strike: 5
-immunities:
-    - —
+immunities: []
 intuition: 1
 keywords:
     - Humanoid
@@ -83,5 +81,4 @@ speed: 5
 stability: 0
 stamina: "60"
 type: statblock
-weaknesses:
-    - —
+weaknesses: []

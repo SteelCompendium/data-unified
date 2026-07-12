@@ -40,8 +40,7 @@ features:
         - effect: '**Effect:** The deathrex moves up to their speed. They can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against each creature who makes an opportunity attack against them during this movement.'
       feature_type: ability
       icon: "\U0001F464"
-      keywords:
-        - '-'
+      keywords: []
       name: Trundle
       target: Self
       type: feature
@@ -83,8 +82,7 @@ features:
         - effect: '**Effect:** The deathrex [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed, leaving behind a shed skin duplicate in the space they started in. The duplicate acts on the deathrex''s turn and has the deathrex''s characteristics, but has 10 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) and no [villain actions](scc.v1:mcdm.monsters.v1/rule.monster/villain-action).'
       feature_type: ability
       icon: ☠️
-      keywords:
-        - '-'
+      keywords: []
       name: Shed Some Skin
       target: Self
       type: feature

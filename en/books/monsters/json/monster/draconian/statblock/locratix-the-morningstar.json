@@ -56,9 +56,7 @@
       ],
       "feature_type": "ability",
       "icon": "👤",
-      "keywords": [
-        "-"
-      ],
+      "keywords": null,
       "name": "Takeoff",
       "target": "Self",
       "type": "feature",

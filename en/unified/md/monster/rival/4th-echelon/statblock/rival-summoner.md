@@ -22,8 +22,7 @@ speed: 5
 stability: 0
 stamina: "220"
 type: statblock
-weaknesses:
-    - —
+weaknesses: []
 ---
 
 | Humanoid, Rival | - | Level 10 | Elite Controller | EV 48 |

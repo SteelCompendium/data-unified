@@ -1,4 +1,5 @@
 ---
+echelon: "4"
 effect: 'Your choice of your [Might](scc.v1:mcdm.heroes.v1/rule.character/might) or [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility) increases by 1 (to a maximum of 6). Additionally, choose one of the following benefits:'
 flavor: To reach Giant's Foot by dawn, we'll have to run every step of the way. Let's get moving.
 name: Tireless

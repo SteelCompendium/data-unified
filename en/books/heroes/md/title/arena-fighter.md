@@ -1,4 +1,5 @@
 ---
+echelon: "2"
 effect: 'Choose one of the following benefits:'
 flavor: You've never seen the showstopper? The move so brutal it was banned in the arena? Come closer and I'll show it to you.
 name: Arena Fighter

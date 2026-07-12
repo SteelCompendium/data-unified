@@ -25,8 +25,7 @@ features:
         - effect: '**Effect:** The worg moves up to their speed.'
       feature_type: ability
       icon: "\U0001F464"
-      keywords:
-        - '-'
+      keywords: []
       name: Sprint
       target: Self
       type: feature

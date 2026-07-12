@@ -1,4 +1,5 @@
 ---
+echelon: "4"
 effect: 'You are considered a master that can be learned from using the [Learn from a Master](scc.v1:mcdm.heroes.v1/project/learn-from-a-master) downtime project in Draw Steel: Heroes. Anyone that makes a [project roll](scc.v1:mcdm.heroes.v1/rule.downtime/project-roll) using you as the source gains a bonus to their roll equal to your [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason). Additionally, choose one of the following benefits:'
 flavor: As I was taught, so I pass on to you.
 name: High Summoner of the Circle

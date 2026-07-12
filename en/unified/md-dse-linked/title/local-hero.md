@@ -1,4 +1,5 @@
 ---
+echelon: "1"
 effect: 'Choose one of the following benefits:'
 file_basename: local-hero
 file_dpath: title

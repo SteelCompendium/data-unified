@@ -35,9 +35,7 @@
       ],
       "feature_type": "ability",
       "icon": "❗️",
-      "keywords": [
-        "-"
-      ],
+      "keywords": null,
       "name": "Hrraaaaaagh!",
       "target": "Self",
       "type": "feature",

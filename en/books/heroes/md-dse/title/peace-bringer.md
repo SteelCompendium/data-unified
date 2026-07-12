@@ -1,4 +1,5 @@
 ---
+echelon: "4"
 effect: 'Your choice of your [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) or [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence) increases by 1 (to a maximum of 6). Additionally, choose one of the following benefits:'
 file_basename: peace-bringer
 file_dpath: title

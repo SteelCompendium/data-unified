@@ -1,4 +1,5 @@
 ---
+echelon: "1"
 effect: 'Choose one of the following benefits:'
 flavor: Up anchor, shipmates! 'Tisn't gold but glory we seek!
 name: Ship Captain

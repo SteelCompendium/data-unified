@@ -57,9 +57,7 @@
       ],
       "feature_type": "ability",
       "icon": "❗️",
-      "keywords": [
-        "—"
-      ],
+      "keywords": null,
       "name": "Celestial Bell",
       "target": "Self",
       "type": "feature",
@@ -96,9 +94,7 @@
       ],
       "feature_type": "ability",
       "icon": "❗️",
-      "keywords": [
-        "—"
-      ],
+      "keywords": null,
       "name": "A Shower of Dust",
       "target": "Self and each non-minion ally in the area",
       "type": "feature",
@@ -131,7 +127,5 @@
   "stability": 0,
   "stamina": "SPECIAL",
   "type": "statblock",
-  "weaknesses": [
-    "—"
-  ]
+  "weaknesses": null
 }

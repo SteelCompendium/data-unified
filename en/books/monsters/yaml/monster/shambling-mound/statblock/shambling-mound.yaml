@@ -66,8 +66,7 @@ features:
         - effect: '**Effect:** Each creature engulfed by the shambling mound takes 5 poison damage. The shambling mound gains 5 temporary [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) for each creature who takes damage this way.'
       feature_type: ability
       icon: "\U0001F464"
-      keywords:
-        - '-'
+      keywords: []
       name: Leech
       target: Self
       type: feature

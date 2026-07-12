@@ -1,4 +1,5 @@
 ---
+echelon: "4"
 effect: 'You gain the following benefits:'
 file_basename: monarch
 file_dpath: title

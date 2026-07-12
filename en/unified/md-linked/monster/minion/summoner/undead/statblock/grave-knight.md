@@ -22,8 +22,7 @@ speed: 6
 stability: 1
 stamina: 6 | 6
 type: statblock
-weaknesses:
-    - —
+weaknesses: []
 ---
 
 The grave knights are zombie warriors that continue to fight after death. Any blood spilled at a grave knight's hand runs pitch black.

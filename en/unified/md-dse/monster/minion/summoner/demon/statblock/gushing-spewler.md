@@ -7,8 +7,7 @@ file_basename: gushing-spewler
 file_dpath: monster/minion/summoner/demon/statblock
 flavor: A spewler's mouth makes up most of its size. They unleash torrents of acid and bile from their pitless stomachs before consuming their prey with bag-like maws.
 free_strike: 3
-immunities:
-    - —
+immunities: []
 intuition: 3
 item_id: gushing-spewler
 item_name: Gushing Spewler

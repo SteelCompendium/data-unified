@@ -40,8 +40,7 @@ features:
         - effect: '**Effect:** The lurker [flies](scc.v1:mcdm.heroes.v1/movement/fly) up to their speed, then can attempt to hide. Each enemy the lurker moves [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to during this movement can choose to take 3 sonic damage or fall [prone](scc.v1:mcdm.heroes.v1/condition/prone).'
       feature_type: ability
       icon: "\U0001F464"
-      keywords:
-        - '-'
+      keywords: []
       name: Swooping Torment
       target: Self
       type: feature

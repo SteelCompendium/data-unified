@@ -63,8 +63,7 @@ features:
         - effect: '**Effect:** The ashen hoarder moves up to twice their speed in a straight line. Each creature or object in the path of this movement is either [pushed](scc.v1:mcdm.heroes.v1/movement/forced-movement) into the nearest unoccupied space outside the path, or if they have M < 3 is pushed forward until the movement ends. Any creature who is [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement) forward into an obstacle is [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends).'
       feature_type: ability
       icon: "\U0001F464"
-      keywords:
-        - '-'
+      keywords: []
       name: Bone Dozer
       target: Self
       type: feature
@@ -77,8 +76,7 @@ features:
             **Effect:** The ashen hoarder halves the damage. If the ashen hoarder has one or more creatures impaled, the [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice) cost of this feature is reduced by 1 and one impaled creature takes the other half of the damage.
       feature_type: ability
       icon: ❗️
-      keywords:
-        - '-'
+      keywords: []
       name: Armor of Corpses
       target: Self
       type: feature

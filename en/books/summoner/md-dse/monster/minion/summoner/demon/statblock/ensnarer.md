@@ -7,8 +7,7 @@ file_basename: ensnarer
 file_dpath: monster/minion/summoner/demon/statblock
 flavor: This vaguely humanoid form is warped and distorted by a demon nestled inside them. They extend long tongues from multiple orifices to drag victims in close.
 free_strike: 2
-immunities:
-    - —
+immunities: []
 intuition: -1
 item_id: ensnarer
 item_name: Ensnarer

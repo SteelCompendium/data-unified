@@ -28,8 +28,7 @@ speed: 5
 stability: 2
 stamina: SPECIAL
 type: statblock
-weaknesses:
-    - —
+weaknesses: []
 ---
 
 | Abyssal, Demon | - | - | Champion | 9 essence for one champion |

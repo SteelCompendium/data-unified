@@ -23,8 +23,7 @@ speed: 5
 stability: 1
 stamina: "3"
 type: statblock
-weaknesses:
-    - —
+weaknesses: []
 ---
 
 Husks have stiff corpses that snap and crackle with each sudden movement. Corrosive breath endlessly billows from their slackjawed faces.

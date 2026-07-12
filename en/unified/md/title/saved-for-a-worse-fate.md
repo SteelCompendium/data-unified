@@ -1,4 +1,5 @@
 ---
+echelon: "1"
 effect: After being defeated, each character awakes, alive and with full [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) and [Recoveries](scc.v1:mcdm.heroes.v1/rule.health/recoveries). You are all captives of the creatures who defeated you, and a gruesome end awaits you—unless you can escape or overcome the nefarious challenge your captors have planned.
 flavor: Drink this. You'll need all your strength for what lies ahead!
 name: Saved for a Worse Fate

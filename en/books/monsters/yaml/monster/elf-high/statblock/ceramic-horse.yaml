@@ -40,8 +40,7 @@ features:
         - effect: '**Effect:** The horse vertical [slides](scc.v1:mcdm.heroes.v1/movement/forced-movement) the target up to 3 squares, ignoring stability. The target can use a ranged ability at any point during this forced movement, and takes no damage if they then fall.'
       feature_type: ability
       icon: "\U0001F464"
-      keywords:
-        - '-'
+      keywords: []
       name: Buck
       target: The horse's rider
       type: feature

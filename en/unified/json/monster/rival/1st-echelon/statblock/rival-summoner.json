@@ -64,9 +64,7 @@
       ],
       "feature_type": "ability",
       "icon": "❗️",
-      "keywords": [
-        "—"
-      ],
+      "keywords": null,
       "name": "Corpse Shield",
       "target": "Self or one ally",
       "type": "feature",
@@ -86,9 +84,7 @@
     }
   ],
   "free_strike": 5,
-  "immunities": [
-    "—"
-  ],
+  "immunities": null,
   "intuition": 1,
   "keywords": [
     "Humanoid",
@@ -111,7 +107,5 @@
   "stability": 0,
   "stamina": "60",
   "type": "statblock",
-  "weaknesses": [
-    "—"
-  ]
+  "weaknesses": null
 }

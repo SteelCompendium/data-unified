@@ -40,8 +40,7 @@ features:
         - effect: '**Effect:** The spider [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed and uses Leg Blade against each creature who comes [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to them during the shift. The spider makes one power roll against all targets.'
       feature_type: ability
       icon: "\U0001F464"
-      keywords:
-        - '-'
+      keywords: []
       name: Trample
       target: Self
       type: feature
@@ -68,8 +67,7 @@ features:
             **Effect:** The damage is halved, and the spider [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to 2 squares after the triggering effect resolves.
       feature_type: ability
       icon: ❗️
-      keywords:
-        - '-'
+      keywords: []
       name: Skitter
       target: Self
       type: feature

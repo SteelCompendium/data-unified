@@ -1,4 +1,5 @@
 ---
+echelon: "3"
 effect: 'You no longer need [line of effect](scc.v1:mcdm.heroes.v1/rule.combat/line-of-effect) to give commands to any minions you can summon. Additionally, choose one of the following benefits:'
 file_basename: ringleader
 file_dpath: title

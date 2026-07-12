@@ -76,8 +76,7 @@ features:
             **Effect:** The dragon moves two existing cubes of magical darkness they created up to 10 squares each.
       feature_type: ability
       icon: ❗️
-      keywords:
-        - '-'
+      keywords: []
       name: Encroaching Darkness
       target: Self
       type: feature
@@ -120,8 +119,7 @@ features:
         - effect: '**Effect:** The dragon disappears from the encounter map. The dragon and three hallucinatory illusions of themself then immediately reappear in unoccupied spaces on the encounter map, and the dragon and each illusion uses Breath of Brume. Each illusion is indistinguishable from the dragon except by supernatural means, has 1 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), and has the dragon''s speed. An illusion acts on the dragon''s turns but can take only move actions. Once per round before or after using an ability, the dragon can trade places with any duplicate.'
       feature_type: ability
       icon: ☠️
-      keywords:
-        - '-'
+      keywords: []
       name: Absence of All Light
       target: Special
       type: feature

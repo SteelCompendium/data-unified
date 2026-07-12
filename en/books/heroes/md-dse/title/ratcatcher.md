@@ -1,4 +1,5 @@
 ---
+echelon: "1"
 effect: 'Choose one of the following benefits:'
 file_basename: ratcatcher
 file_dpath: title

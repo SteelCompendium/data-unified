@@ -15,8 +15,6 @@ features:
     - cost: Encounter
       distance: Self
       icon: ❗️
-      keywords:
-        - '-'
       level: 10
       name: Fire Bad
       sections:

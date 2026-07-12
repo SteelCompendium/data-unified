@@ -73,8 +73,7 @@ features:
             **Effect:** The dragon drops to the ground and uses Forge Hammer Tail Slam, which deals an extra 4 damage for each square they descended.
       feature_type: ability
       icon: ❗️
-      keywords:
-        - '-'
+      keywords: []
       name: Hammer and Anvil
       target: Self
       type: feature
@@ -117,8 +116,7 @@ features:
         - effect: '**Effect:** Shields embedded under the dragon''s scales emerge, and the dragon gains damage immunity 6 at the start of each round until the end of the encounter. If the dragon takes any damage, they lose this immunity until the end of the current round.'
       feature_type: ability
       icon: ☠️
-      keywords:
-        - '-'
+      keywords: []
       name: Subdermal Shielding
       target: Self
       type: feature
@@ -132,8 +130,7 @@ features:
           tier3: 7 damage; pull 5 or push 5.
       feature_type: ability
       icon: ☠️
-      keywords:
-        - '-'
+      keywords: []
       name: Polarity Chaos
       target: Each creature and object in the area
       type: feature

@@ -7,8 +7,7 @@ effects:
       effect: The [potency](scc.v1:mcdm.heroes.v1/rule.character/potency) of any effects associated with the damage are reduced by 1 for you.
 feature_type: ability
 flavor: When an enemy attacks, you roll with the impact to reduce the harm.
-keywords:
-    - '-'
+keywords: []
 metadata:
     ability_type: Triggered
     action_type: Triggered
@@ -19,8 +18,7 @@ metadata:
     flavor: When an enemy attacks, you roll with the impact to reduce the harm.
     item_id: defensive-roll
     item_name: Defensive Roll
-    keywords:
-        - '-'
+    keywords: []
     level: 1
     scc:
         - mcdm.heroes.v1/feature.ability.shadow.level-1/defensive-roll

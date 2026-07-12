@@ -29,8 +29,7 @@ speed: 5
 stability: 0
 stamina: 5 | 5 | 5
 type: statblock
-weaknesses:
-    - —
+weaknesses: []
 ---
 
 Phase ghouls are bilocated undead caught between two different manifolds, rapidly flickering between them. They almost appear transparent save for their long, bright blue tongues that appears to lag behind their movements by a full second.

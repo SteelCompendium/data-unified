@@ -3,8 +3,7 @@ agility: 3
 file_basename: violent
 file_dpath: monster/retainer/summoner/minion/statblock
 free_strike: 4
-immunities:
-    - —
+immunities: []
 intuition: -1
 item_id: violent
 item_name: Violent

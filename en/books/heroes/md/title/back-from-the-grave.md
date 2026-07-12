@@ -1,4 +1,5 @@
 ---
+echelon: "3"
 effect: You are restored to life. You gain the Tough But Withered signature trait from the [revenant](scc.v1:mcdm.heroes.v1/ancestry/revenant) ancestry.
 flavor: Hi! Remember me?
 name: Back From the Grave

@@ -3,8 +3,7 @@ agility: 2
 file_basename: razor
 file_dpath: monster/retainer/summoner/minion/statblock
 free_strike: 1
-immunities:
-    - —
+immunities: []
 intuition: -1
 item_id: razor
 item_name: Razor

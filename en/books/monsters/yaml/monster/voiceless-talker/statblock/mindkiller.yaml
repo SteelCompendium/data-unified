@@ -62,8 +62,7 @@ features:
             **3 Malice:** A [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) creature takes the damage instead of the mindkiller.
       feature_type: ability
       icon: ❗️
-      keywords:
-        - '-'
+      keywords: []
       name: Meat Shield
       target: Self
       type: feature

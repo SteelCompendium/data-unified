@@ -1,4 +1,5 @@
 ---
+echelon: "4"
 effect: 'You gain the following benefits:'
 file_basename: demigod
 file_dpath: title

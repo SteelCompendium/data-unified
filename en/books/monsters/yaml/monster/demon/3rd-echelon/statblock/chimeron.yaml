@@ -26,8 +26,7 @@ features:
             **Effect:** The chimeron halves the damage.
       feature_type: ability
       icon: ❗️
-      keywords:
-        - '-'
+      keywords: []
       name: Pain Absorption
       target: Self
       type: feature

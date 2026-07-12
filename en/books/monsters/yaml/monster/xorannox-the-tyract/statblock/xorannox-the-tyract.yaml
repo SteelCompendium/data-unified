@@ -52,8 +52,7 @@ features:
         - effect: '**Effect:** Xorannox commands all his eyestalks to move up to their speed.'
       feature_type: ability
       icon: "\U0001F464"
-      keywords:
-        - '-'
+      keywords: []
       name: Optical Collusion
       target: Self
       type: feature
@@ -119,8 +118,7 @@ features:
         - effect: '**Effect:** Xorannox recreates any destroyed eyestalks, which return in unoccupied spaces on the encounter map with full [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).'
       feature_type: ability
       icon: ☠️
-      keywords:
-        - '-'
+      keywords: []
       name: All Eyes, All Rise
       target: Self
       type: feature

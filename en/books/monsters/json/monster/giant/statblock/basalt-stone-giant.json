@@ -59,9 +59,7 @@
       ],
       "feature_type": "ability",
       "icon": "👤",
-      "keywords": [
-        "-"
-      ],
+      "keywords": null,
       "name": "Cobblestone Shape",
       "target": "Self",
       "type": "feature",

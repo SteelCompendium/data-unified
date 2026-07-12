@@ -39,8 +39,7 @@ features:
         - effect: '**Effect:** Locratix [flies](scc.v1:mcdm.heroes.v1/movement/fly) up to her speed. Any creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the space on the ground she took off from who has A < 2 is knocked [prone](scc.v1:mcdm.heroes.v1/condition/prone).'
       feature_type: ability
       icon: "\U0001F464"
-      keywords:
-        - '-'
+      keywords: []
       name: Takeoff
       target: Self
       type: feature

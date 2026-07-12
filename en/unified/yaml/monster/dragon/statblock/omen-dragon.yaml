@@ -81,8 +81,7 @@ features:
             **Effect:** The dragon [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed, and the Deathcount of each dragonsealed creature who comes [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the dragon during this shift is reduced by 1.
       feature_type: ability
       icon: ❗️
-      keywords:
-        - '-'
+      keywords: []
       name: Don't Turn Away
       target: Self
       type: feature

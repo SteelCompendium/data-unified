@@ -1,4 +1,5 @@
 ---
+echelon: "4"
 effect: 'You gain the following benefits:'
 flavor: The tyrant is dead! Long live the new king!
 name: Monarch

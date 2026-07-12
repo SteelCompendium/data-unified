@@ -110,9 +110,7 @@
       ],
       "feature_type": "ability",
       "icon": "❗️",
-      "keywords": [
-        "-"
-      ],
+      "keywords": null,
       "name": "Encroaching Darkness",
       "target": "Self",
       "type": "feature",
@@ -172,9 +170,7 @@
       ],
       "feature_type": "ability",
       "icon": "☠️",
-      "keywords": [
-        "-"
-      ],
+      "keywords": null,
       "name": "Absence of All Light",
       "target": "Special",
       "type": "feature",

@@ -9,9 +9,7 @@
   ],
   "feature_type": "ability",
   "flavor": "The purpose of a charge is to break their morale and force a retreat.",
-  "keywords": [
-    "-"
-  ],
+  "keywords": null,
   "metadata": {
     "action_type": "Maneuver",
     "class": "tactician",
@@ -21,9 +19,7 @@
     "flavor": "The purpose of a charge is to break their morale and force a retreat.",
     "item_id": "frontal-assault",
     "item_name": "Frontal Assault",
-    "keywords": [
-      "-"
-    ],
+    "keywords": null,
     "level": 3,
     "scc": [
       "mcdm.heroes.v1/feature.ability.tactician.level-3/frontal-assault"

@@ -1,4 +1,5 @@
 ---
+echelon: "4"
 effect: 'A [characteristic](scc.v1:mcdm.heroes.v1/rule.character/characteristic) of your choice increases by 1 (to a maximum of 6). Additionally, choose one of the following benefits:'
 file_basename: forsaken
 file_dpath: title

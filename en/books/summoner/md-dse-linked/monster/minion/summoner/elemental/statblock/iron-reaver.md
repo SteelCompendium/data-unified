@@ -29,8 +29,7 @@ source: mcdm.summoner.v1
 speed: 6
 stamina: 10 | 10 | 10
 type: statblock
-weaknesses:
-    - —
+weaknesses: []
 ---
 
 Iron reavers are long, gnashing lines of centipede-like bladed legs. Their bodies endlessly shed metal shavings and hard sheets of iron as they move.

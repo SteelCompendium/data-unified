@@ -7,8 +7,7 @@ file_basename: sprite-olyender
 file_dpath: monster/minion/summoner/fey/statblock
 flavor: These brawny sprites wear heavy beetle armor and have a halo hovering away from their backs where their wings used to be. The faster the halo spins, the more power the olyender generates, enabling them to stand toe to toe with giants.
 free_strike: 8
-immunities:
-    - —
+immunities: []
 intuition: 1
 item_id: sprite-olyender
 item_name: Sprite Olyender
@@ -27,8 +26,7 @@ source: mcdm.summoner.v1
 speed: 6
 stamina: 17 | 17
 type: statblock
-weaknesses:
-    - —
+weaknesses: []
 ---
 
 These brawny sprites wear heavy beetle armor and have a halo hovering away from their backs where their wings used to be. The faster the halo spins, the more power the olyender generates, enabling them to stand toe to toe with giants.

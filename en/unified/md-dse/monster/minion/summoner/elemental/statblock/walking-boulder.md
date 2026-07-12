@@ -7,8 +7,7 @@ file_basename: walking-boulder
 file_dpath: monster/minion/summoner/elemental/statblock
 flavor: These massive clods of animated stone roll upon smaller piles of rocks that could be perceived as limbs. Walking boulders are useful for taking up space and forming barricades.
 free_strike: 1
-immunities:
-    - —
+immunities: []
 intuition: 0
 item_id: walking-boulder
 item_name: Walking Boulder
@@ -27,8 +26,7 @@ source: mcdm.summoner.v1
 speed: 4
 stamina: "3"
 type: statblock
-weaknesses:
-    - —
+weaknesses: []
 ---
 
 These massive clods of animated stone roll upon smaller piles of rocks that could be perceived as limbs. Walking boulders are useful for taking up space and forming barricades.

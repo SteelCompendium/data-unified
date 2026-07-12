@@ -1,4 +1,5 @@
 ---
+echelon: "2"
 effect: 'Choose one of the following benefits:'
 file_basename: arena-fighter
 file_dpath: title

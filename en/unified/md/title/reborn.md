@@ -1,4 +1,5 @@
 ---
+echelon: "4"
 effect: A god or other powerful being has determined that it is not yet your time to die. Your body fades away, but you reappear alive 24 hours later in a location of your choice. You regain all your [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) and [Recoveries](scc.v1:mcdm.heroes.v1/rule.health/recoveries), and your choice of your [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition) or [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence) increases by 1 (to a maximum of 6).
 flavor: I remember this world. I suppose my task is not yet complete.
 name: Reborn

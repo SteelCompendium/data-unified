@@ -7,8 +7,7 @@ ability:
           name: Effect
     feature_type: ability
     flavor: Keep up the attack. Never give them a moment's grace.
-    keywords:
-        - '-'
+    keywords: []
     metadata:
         ability_type: Triggered
         action_type: Free triggered
@@ -18,8 +17,7 @@ ability:
         flavor: Keep up the attack. Never give them a moment's grace.
         item_id: hesitation-is-weakness
         item_name: Hesitation Is Weakness
-        keywords:
-            - '-'
+        keywords: []
         target: Self
         type: feature/ability/common
     name: Hesitation Is Weakness

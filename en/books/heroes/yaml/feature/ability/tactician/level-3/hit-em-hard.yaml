@@ -5,8 +5,7 @@ effects:
       name: Effect
 feature_type: ability
 flavor: Your allies see the advantages in attacking the targets you select.
-keywords:
-    - '-'
+keywords: []
 metadata:
     action_type: Maneuver
     class: tactician
@@ -16,8 +15,7 @@ metadata:
     flavor: Your allies see the advantages in attacking the targets you select.
     item_id: hit-em-hard
     item_name: Hit 'Em Hard!
-    keywords:
-        - '-'
+    keywords: []
     level: 3
     scc:
         - mcdm.heroes.v1/feature.ability.tactician.level-3/hit-em-hard

@@ -134,7 +134,5 @@
   "stability": 3,
   "stamina": "SPECIAL",
   "type": "statblock",
-  "weaknesses": [
-    "—"
-  ]
+  "weaknesses": null
 }

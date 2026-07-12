@@ -12,6 +12,7 @@ content: |-
     - *Soulsight:* Any creature within 2 squares can't be hidden from you.
 
     **Special:** When you make a [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence) [test](scc.v1:mcdm.heroes.v1/rule.test/test) and roll a natural 5 or lower, you are cursed to communicate in only Proto-Ctholl for 1 minute, whether you know that language or not.
+echelon: "3"
 effect: 'Choose one of the following benefits:'
 flavor: F'lath v'korr en zaratha g'rrack.
 name: Demon Slayer

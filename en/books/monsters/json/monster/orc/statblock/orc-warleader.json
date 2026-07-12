@@ -126,9 +126,7 @@
       ],
       "feature_type": "ability",
       "icon": "☠️",
-      "keywords": [
-        "-"
-      ],
+      "keywords": null,
       "name": "I'll Do This Myself",
       "target": "Self",
       "type": "feature",

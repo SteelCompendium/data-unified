@@ -5,8 +5,7 @@ effects:
       name: Effect
 feature_type: ability
 flavor: You enter a flow state that makes you nearly impossible to pin down.
-keywords:
-    - '-'
+keywords: []
 metadata:
     action_type: Maneuver
     class: shadow
@@ -16,8 +15,7 @@ metadata:
     flavor: You enter a flow state that makes you nearly impossible to pin down.
     item_id: dancer
     item_name: Dancer
-    keywords:
-        - '-'
+    keywords: []
     level: 3
     scc:
         - mcdm.heroes.v1/feature.ability.shadow.level-3/dancer

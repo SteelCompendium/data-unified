@@ -9,9 +9,7 @@
   ],
   "feature_type": "ability",
   "flavor": "You enter a flow state that makes you nearly impossible to pin down.",
-  "keywords": [
-    "-"
-  ],
+  "keywords": null,
   "metadata": {
     "action_type": "Maneuver",
     "class": "shadow",
@@ -21,9 +19,7 @@
     "flavor": "You enter a flow state that makes you nearly impossible to pin down.",
     "item_id": "dancer",
     "item_name": "Dancer",
-    "keywords": [
-      "-"
-    ],
+    "keywords": null,
     "level": 3,
     "scc": [
       "mcdm.heroes.v1/feature.ability.shadow.level-3/dancer"

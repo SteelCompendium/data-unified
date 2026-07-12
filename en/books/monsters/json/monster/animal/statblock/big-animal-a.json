@@ -51,9 +51,7 @@
       ],
       "feature_type": "ability",
       "icon": "❗️",
-      "keywords": [
-        "-"
-      ],
+      "keywords": null,
       "name": "Juke",
       "target": "Self",
       "type": "feature",

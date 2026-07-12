@@ -1,4 +1,5 @@
 ---
+echelon: "1"
 effect: You aren't destined for a meaningful death, but you still might achieve one. When you're reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) but remain conscious, you can become [doomed](scc.v1:mcdm.heroes.v1/title/doomed). If you do, you can't regain [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), you automatically obtain a tier 3 outcome on [tests](scc.v1:mcdm.heroes.v1/rule.test/test) and [power rolls](scc.v1:mcdm.heroes.v1/rule.dice/power-roll), and you don't die until your [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) reaches the negative of your [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) maximum. At the end of the encounter, you die.
 file_basename: doomed
 file_dpath: title

@@ -23,8 +23,7 @@ features:
         - effect: '**Effect:** The rampart moves or [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the target, then can swap places with the target.'
       feature_type: ability
       icon: "\U0001F464"
-      keywords:
-        - '-'
+      keywords: []
       name: Castling
       target: One ally
       type: feature
@@ -36,8 +35,7 @@ features:
             **Effect:** The rampart becomes the target of the triggering ability instead.
       feature_type: ability
       icon: ❗️
-      keywords:
-        - '-'
+      keywords: []
       name: No.
       target: Self
       type: feature

@@ -3,8 +3,7 @@ agility: 1
 cost: 1 essence per minion summoned
 flavor: The bellringers are glowing pixies that jingle as they fly. Historically, these pixies worked alongside bowman to ensure their arrows struck true.
 free_strike: 1
-immunities:
-    - —
+immunities: []
 intuition: 0
 keywords:
     - Fey
@@ -21,8 +20,7 @@ speed: 5
 stability: 0
 stamina: "2"
 type: statblock
-weaknesses:
-    - —
+weaknesses: []
 ---
 
 The bellringers are glowing pixies that jingle as they fly. Historically, these pixies worked alongside bowman to ensure their arrows struck true.

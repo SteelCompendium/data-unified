@@ -36,9 +36,7 @@
       ],
       "feature_type": "ability",
       "icon": "👤",
-      "keywords": [
-        "-"
-      ],
+      "keywords": null,
       "name": "Sprint",
       "target": "Self",
       "type": "feature",

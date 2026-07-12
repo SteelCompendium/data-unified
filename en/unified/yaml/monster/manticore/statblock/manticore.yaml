@@ -100,8 +100,7 @@ features:
         - effect: '**Effect:** The manticore [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed, then can use Tail Spike against each enemy within distance of that ability.'
       feature_type: ability
       icon: ☠️
-      keywords:
-        - '-'
+      keywords: []
       name: Cornered Predator
       target: Self
       type: feature
@@ -112,8 +111,7 @@ features:
         - effect: '**Effect:** The manticore sours their poison with enmity. Until the end of the encounter, the manticore has a double edge on power rolls against [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) creatures. Additionally, any creature [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) by the manticore''s Tail Spike ability has their speed halved and takes an extra 3 poison damage at the start of each of their turns.'
       feature_type: ability
       icon: ☠️
-      keywords:
-        - '-'
+      keywords: []
       name: Debilitating Poison
       target: Self
       type: feature

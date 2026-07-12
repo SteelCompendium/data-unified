@@ -12,8 +12,7 @@ file_dpath: feature/ability/shadow/level-1
 flavor: Keep up the attack. Never give them a moment's grace.
 item_id: hesitation-is-weakness
 item_name: Hesitation Is Weakness
-keywords:
-    - '-'
+keywords: []
 level: "1"
 name: Hesitation Is Weakness
 scc: mcdm.heroes.v1/feature.ability.shadow.level-1/hesitation-is-weakness
@@ -31,8 +30,7 @@ effects:
     - effect: You take your [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) after the triggering hero.
 feature_type: ability
 flavor: Keep up the attack. Never give them a moment's grace.
-keywords:
-    - '-'
+keywords: []
 metadata:
     action_type: Free triggered
     class: shadow
@@ -40,8 +38,7 @@ metadata:
     distance: Self
     effect: You take your [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) after the triggering hero.
     flavor: Keep up the attack. Never give them a moment's grace.
-    keywords:
-        - '-'
+    keywords: []
     level: "1"
     name: Hesitation Is Weakness
     scc: mcdm.heroes.v1/feature.ability.shadow.level-1/hesitation-is-weakness

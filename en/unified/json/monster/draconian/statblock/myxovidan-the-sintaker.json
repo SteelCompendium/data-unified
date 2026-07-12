@@ -73,9 +73,7 @@
       ],
       "feature_type": "ability",
       "icon": "❗️",
-      "keywords": [
-        "-"
-      ],
+      "keywords": null,
       "name": "Anyone Can Do That",
       "target": "Self",
       "type": "feature",

@@ -1,4 +1,5 @@
 ---
+echelon: "3"
 effect: 'Choose one of the following benefits:'
 file_basename: dragon-blooded
 file_dpath: title

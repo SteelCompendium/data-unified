@@ -29,8 +29,7 @@ speed: 5
 stability: 2
 stamina: 6 | 6
 type: statblock
-weaknesses:
-    - —
+weaknesses: []
 ---
 
 This elemental is a long, serpentine creature of heated rock. Flows of magma drool trails of lava from their fangs after biting their prey.

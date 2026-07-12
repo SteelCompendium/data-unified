@@ -40,8 +40,7 @@ features:
         - effect: The umbral stalker [teleports](scc.v1:mcdm.heroes.v1/movement/teleport) to an unoccupied space in an area of concealment within 10 squares.
       feature_type: ability
       icon: "\U0001F464"
-      keywords:
-        - '-'
+      keywords: []
       name: Shadow Jump
       target: Self
       type: feature

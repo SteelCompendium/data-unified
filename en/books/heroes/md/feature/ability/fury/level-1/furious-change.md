@@ -4,8 +4,7 @@ class: fury
 distance: Self
 effect: You gain [temporary Stamina](scc.v1:mcdm.heroes.v1/rule.health/temporary-stamina) equal to your [Might](scc.v1:mcdm.heroes.v1/rule.character/might) score and can enter your [animal form](scc.v1:mcdm.heroes.v1/complication/animal-form) or hybrid form.
 flavor: In your anger, you revert to a more bestial form.
-keywords:
-    - '-'
+keywords: []
 level: "1"
 name: Furious Change
 scc: mcdm.heroes.v1/feature.ability.fury.level-1/furious-change

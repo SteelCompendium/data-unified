@@ -9,6 +9,7 @@ content: |-
     - *I Have Just the Book:* If you start a Discover Lore project in your hero's [stronghold](scc.v1:mcdm.heroes.v1/title/stronghold) or other a permanent base of operations you immediately gain 60 [project points](scc.v1:mcdm.heroes.v1/rule.downtime/project-points) toward the completion of that project. If the project costs 60 or fewer points, you complete it in 10 uninterrupted minutes without needing to use a [respite](scc.v1:mcdm.heroes.v1/rule.resource/respite) activity.
     - *Picked Up a Few Things:* You know a skill from the [lore skill group](scc.v1:mcdm.heroes.v1/skill.group/lore).
     - *Polyglot:* You know two languages. Additionally, the project goal for the Learn New Language project is halved for you.
+echelon: "2"
 effect: 'Choose one of the following benefits:'
 flavor: You want to know the exact coordinates of the Gem of the Waves shipwreck? I came across that just the other day in an unpublished memoir of its second mate. Let me get that for you.
 name: Master Librarian

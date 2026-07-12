@@ -1,4 +1,5 @@
 ---
+echelon: "3"
 effect: You can use and gain the benefits of kits.
 file_basename: armed-and-dangerous
 file_dpath: title

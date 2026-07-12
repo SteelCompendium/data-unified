@@ -2,8 +2,7 @@
 agility: 0
 ev: "16"
 free_strike: 5
-immunities:
-    - —
+immunities: []
 intuition: 1
 keywords:
     - Humanoid
@@ -22,8 +21,7 @@ speed: 5
 stability: 0
 stamina: "60"
 type: statblock
-weaknesses:
-    - —
+weaknesses: []
 ---
 
 | Humanoid, Rival | - | Level 2 | Elite Controller | EV 16 |

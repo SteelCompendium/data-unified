@@ -7,8 +7,7 @@ file_basename: vicisittante
 file_dpath: monster/minion/summoner/demon/statblock
 flavor: It's difficult to identify the base nature of a vicisittante apart from an ever-changing mass of burning flesh. Any surface they touch immediately scars as the demon leaves parts of themselves behind.
 free_strike: 7
-immunities:
-    - —
+immunities: []
 intuition: 0
 item_id: vicisittante
 item_name: Vicisittante

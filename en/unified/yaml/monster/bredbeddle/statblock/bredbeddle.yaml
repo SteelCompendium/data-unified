@@ -62,8 +62,7 @@ features:
         - effect: '**Effect:** While the bredbeddle is headless, they [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed. Each time a creature comes adjacent to the bredbeddle during the shift, the bredbeddle can [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) that creature 1 square. Each square the bredbeddle exits during the shift is difficult terrain.'
       feature_type: ability
       icon: "\U0001F464"
-      keywords:
-        - '-'
+      keywords: []
       name: Scramble
       target: Self
       type: feature

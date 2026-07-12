@@ -1,4 +1,5 @@
 ---
+echelon: "1"
 effect: 'Choose one of the following benefits:'
 flavor: We won't kill you. But you might wish we had.
 name: Brawler

@@ -22,8 +22,7 @@ speed: 5
 stability: 1
 stamina: 5 | 5
 type: statblock
-weaknesses:
-    - —
+weaknesses: []
 ---
 
 The desolations have vaguely humanoid sand forms with no legs. Their glass hose “arms” shift and bristle before firing high pressure streams of sand at their foes.

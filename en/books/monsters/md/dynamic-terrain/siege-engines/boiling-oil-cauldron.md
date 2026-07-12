@@ -27,8 +27,6 @@ features:
       usage: Main action (Adjacent creature)
     - distance: '-'
       icon: ⭐️
-      keywords:
-        - '-'
       name: Reload
       sections:
         - label: Effect

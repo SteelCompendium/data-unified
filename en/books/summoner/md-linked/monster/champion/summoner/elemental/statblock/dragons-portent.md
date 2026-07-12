@@ -21,8 +21,7 @@ speed: 6
 stability: 4
 stamina: SPECIAL
 type: statblock
-weaknesses:
-    - —
+weaknesses: []
 ---
 
 | Dragon, Elemental | - | - | Champion | 9 essence for one champion |

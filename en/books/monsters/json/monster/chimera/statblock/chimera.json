@@ -163,9 +163,7 @@
       ],
       "feature_type": "ability",
       "icon": "☠️",
-      "keywords": [
-        "-"
-      ],
+      "keywords": null,
       "name": "Fire Solo",
       "target": "Self",
       "type": "feature",
@@ -181,9 +179,7 @@
       ],
       "feature_type": "ability",
       "icon": "☠️",
-      "keywords": [
-        "-"
-      ],
+      "keywords": null,
       "name": "Chorus of Destruction",
       "target": "Self",
       "type": "feature",

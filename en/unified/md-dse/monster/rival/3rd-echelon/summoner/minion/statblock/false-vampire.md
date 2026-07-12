@@ -28,8 +28,7 @@ speed: 6
 stability: 2
 stamina: 22 | 22
 type: statblock
-weaknesses:
-    - —
+weaknesses: []
 ---
 
 | Undead | - | - | Minion Brute | 6 Malice for two minions |

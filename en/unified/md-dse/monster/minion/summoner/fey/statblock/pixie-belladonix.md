@@ -28,8 +28,7 @@ speed: 6
 stability: 0
 stamina: 16 | 16
 type: statblock
-weaknesses:
-    - —
+weaknesses: []
 ---
 
 The belladonix are found among the elite guard of fey monarchs and carry themselves like royalty. Their moth-like wings ooze with vibrant colors and are barbed; the poison within threatening to completely shift the reality of their victims.

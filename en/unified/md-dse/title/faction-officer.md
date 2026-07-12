@@ -1,4 +1,5 @@
 ---
+echelon: "2"
 effect: 'You are given a position of great authority in your faction. Additionally, you gain the following benefits:'
 file_basename: faction-officer
 file_dpath: title

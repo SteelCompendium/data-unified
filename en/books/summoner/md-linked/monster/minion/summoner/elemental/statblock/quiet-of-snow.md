@@ -24,8 +24,7 @@ speed: 5
 stability: 1
 stamina: 4 | 4 | 4
 type: statblock
-weaknesses:
-    - —
+weaknesses: []
 ---
 
 This elemental is a pure-white vulpine with six legs that freely sprints through the air. Their howls are telepathic, washing over the receivers with a strong chill and a wave of goosebumps.

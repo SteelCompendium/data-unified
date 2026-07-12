@@ -31,8 +31,7 @@ features:
         - effect: '**Effect:** The wodenelg and their rider become invisible until the start of the wodenelg''s next turn.'
       feature_type: ability
       icon: "\U0001F464"
-      keywords:
-        - '-'
+      keywords: []
       name: Where I End the Woods Begin
       target: Self
       type: feature

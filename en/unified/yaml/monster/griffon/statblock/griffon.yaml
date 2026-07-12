@@ -57,8 +57,7 @@ features:
             **Effect:** The griffon halves the damage, ignores any nondamaging effects associated with it, and [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to 2 squares.
       feature_type: ability
       icon: ❗️
-      keywords:
-        - '-'
+      keywords: []
       name: Zephyr Feint
       target: Self
       type: feature

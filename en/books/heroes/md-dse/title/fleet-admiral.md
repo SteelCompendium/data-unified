@@ -1,4 +1,5 @@
 ---
+echelon: "3"
 effect: 'Choose one of the following benefits:'
 file_basename: fleet-admiral
 file_dpath: title

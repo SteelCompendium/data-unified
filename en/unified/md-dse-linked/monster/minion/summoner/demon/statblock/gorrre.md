@@ -7,8 +7,7 @@ file_basename: gorrre
 file_dpath: monster/minion/summoner/demon/statblock
 flavor: The gorrre demons evoke features of rhino and orangutan while clad in heavy armor. They've been utilized as jail guards by devils, as few prisoners can ever hope to outrun a monster with unlimited endurance.
 free_strike: 8
-immunities:
-    - —
+immunities: []
 intuition: -1
 item_id: gorrre
 item_name: Gorrre

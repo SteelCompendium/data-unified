@@ -7,8 +7,7 @@ file_basename: sprite-orchiguard
 file_dpath: monster/minion/summoner/fey/statblock
 flavor: The orchiguard is a sprite surrounded by a wheel of shields. They are usually crushed by the pressures of their own impenetrable defenses before ever being felled by enemy hands.
 free_strike: 4
-immunities:
-    - —
+immunities: []
 intuition: -1
 item_id: sprite-orchiguard
 item_name: Sprite Orchiguard
@@ -28,8 +27,7 @@ speed: 6
 stability: 2
 stamina: 8 | 8
 type: statblock
-weaknesses:
-    - —
+weaknesses: []
 ---
 
 The orchiguard is a sprite surrounded by a wheel of shields. They are usually crushed by the pressures of their own impenetrable defenses before ever being felled by enemy hands.

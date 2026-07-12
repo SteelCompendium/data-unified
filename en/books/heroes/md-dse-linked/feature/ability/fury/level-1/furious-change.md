@@ -9,8 +9,7 @@ file_dpath: feature/ability/fury/level-1
 flavor: In your anger, you revert to a more bestial form.
 item_id: furious-change
 item_name: Furious Change
-keywords:
-    - '-'
+keywords: []
 level: "1"
 name: Furious Change
 scc: mcdm.heroes.v1/feature.ability.fury.level-1/furious-change
@@ -31,16 +30,14 @@ effects:
       name: Spend
 feature_type: ability
 flavor: In your anger, you revert to a more bestial form.
-keywords:
-    - '-'
+keywords: []
 metadata:
     action_type: Triggered
     class: fury
     distance: Self
     effect: You gain [temporary Stamina](../../../../rule/health/temporary-stamina.md) equal to your [Might](../../../../rule/character/might.md) score and can enter your [animal form](../../../../complication/animal-form.md) or hybrid form.
     flavor: In your anger, you revert to a more bestial form.
-    keywords:
-        - '-'
+    keywords: []
     level: "1"
     name: Furious Change
     scc: mcdm.heroes.v1/feature.ability.fury.level-1/furious-change

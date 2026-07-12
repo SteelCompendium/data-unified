@@ -35,9 +35,7 @@
       ],
       "feature_type": "ability",
       "icon": "👤",
-      "keywords": [
-        "-"
-      ],
+      "keywords": null,
       "name": "Crash Through",
       "target": "Self",
       "type": "feature",
@@ -52,9 +50,7 @@
       ],
       "feature_type": "ability",
       "icon": "👤",
-      "keywords": [
-        "-"
-      ],
+      "keywords": null,
       "name": "Food Frenzy",
       "target": "Self",
       "type": "feature",

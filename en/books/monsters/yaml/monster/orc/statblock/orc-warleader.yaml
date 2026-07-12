@@ -90,8 +90,7 @@ features:
         - effect: '**Effect:** Three times in succession, the warleader [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed and can use Mace Lariat.'
       feature_type: ability
       icon: ☠️
-      keywords:
-        - '-'
+      keywords: []
       name: I'll Do This Myself
       target: Self
       type: feature

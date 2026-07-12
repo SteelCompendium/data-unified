@@ -39,9 +39,7 @@
   ],
   "flavor": "The bellringers are glowing pixies that jingle as they fly. Historically, these pixies worked alongside bowman to ensure their arrows struck true.",
   "free_strike": 1,
-  "immunities": [
-    "—"
-  ],
+  "immunities": null,
   "intuition": 0,
   "keywords": [
     "Fey"
@@ -63,7 +61,5 @@
   "stability": 0,
   "stamina": "2",
   "type": "statblock",
-  "weaknesses": [
-    "—"
-  ]
+  "weaknesses": null
 }

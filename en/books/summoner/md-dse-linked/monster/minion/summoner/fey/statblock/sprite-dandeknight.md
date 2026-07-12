@@ -7,8 +7,7 @@ file_basename: sprite-dandeknight
 file_dpath: monster/minion/summoner/fey/statblock
 flavor: Dandeknights are sprite warriors whose dragonfly wingbeats emit a tonal drone. They're usually clad in tassels that shift color as they swing their weapons.
 free_strike: 1
-immunities:
-    - —
+immunities: []
 intuition: -1
 item_id: sprite-dandeknight
 item_name: Sprite Dandeknight
@@ -28,8 +27,7 @@ speed: 6
 stability: 0
 stamina: "2"
 type: statblock
-weaknesses:
-    - —
+weaknesses: []
 ---
 
 Dandeknights are sprite warriors whose dragonfly wingbeats emit a tonal drone. They're usually clad in tassels that shift color as they swing their weapons.

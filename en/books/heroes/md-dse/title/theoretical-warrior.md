@@ -1,4 +1,5 @@
 ---
+echelon: "4"
 effect: Your choice of your [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) or [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition) increases by 1 (to a maximum of 6).
 file_basename: theoretical-warrior
 file_dpath: title

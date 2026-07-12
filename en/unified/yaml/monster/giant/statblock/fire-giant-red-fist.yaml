@@ -38,8 +38,7 @@ features:
         - effect: '**Effect:** The red fist jumps up to 5 squares. Each creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to them when they land takes 5 fire damage.'
       feature_type: ability
       icon: "\U0001F464"
-      keywords:
-        - '-'
+      keywords: []
       name: Blazing Leap
       target: Self
       type: feature

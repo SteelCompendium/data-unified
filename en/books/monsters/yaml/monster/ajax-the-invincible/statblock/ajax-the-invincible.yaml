@@ -114,8 +114,7 @@ features:
             **Effect:** Ajax [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to his speed and can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike). If the target has R < 4, this free strike also makes them [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) until the end of their next turn.
       feature_type: ability
       icon: ❗️
-      keywords:
-        - '-'
+      keywords: []
       name: Who's Hesitating?
       target: Self
       type: feature

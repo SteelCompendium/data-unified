@@ -27,8 +27,7 @@ speed: 7
 stability: 0
 stamina: SPECIAL
 type: statblock
-weaknesses:
-    - —
+weaknesses: []
 ---
 
 | Fey | - | - | Champion | 9 essence for one champion |

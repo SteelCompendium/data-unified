@@ -21,8 +21,7 @@ speed: 5
 stability: 2
 stamina: 8 | 8
 type: statblock
-weaknesses:
-    - —
+weaknesses: []
 ---
 
 | Undead | - | - | Minion Defender | 2 Malice for two minions |

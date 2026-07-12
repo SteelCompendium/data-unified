@@ -6,8 +6,7 @@ effects:
       name: Effect
 feature_type: ability
 flavor: Your foe made a big mistake.
-keywords:
-    - '-'
+keywords: []
 metadata:
     ability_type: Triggered
     action_type: Free triggered
@@ -18,8 +17,7 @@ metadata:
     flavor: Your foe made a big mistake.
     item_id: too-slow
     item_name: Too Slow
-    keywords:
-        - '-'
+    keywords: []
     level: 2
     scc:
         - mcdm.heroes.v1/feature.ability.shadow.level-2/too-slow

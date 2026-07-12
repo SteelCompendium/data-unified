@@ -7,8 +7,7 @@ file_basename: archer-spittlich
 file_dpath: monster/minion/summoner/demon/statblock
 flavor: These minor demons resemble larger pitlings. They can spit a nerve-numbing phlegm at long distance that makes it easy to catch their next meal.
 free_strike: 5
-immunities:
-    - —
+immunities: []
 intuition: -1
 item_id: archer-spittlich
 item_name: Archer Spittlich

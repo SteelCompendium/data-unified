@@ -90,9 +90,7 @@
       ],
       "feature_type": "ability",
       "icon": "👤",
-      "keywords": [
-        "-"
-      ],
+      "keywords": null,
       "name": "Nimble Escape",
       "target": "Self",
       "type": "feature",
@@ -170,9 +168,7 @@
       ],
       "feature_type": "ability",
       "icon": "☠️",
-      "keywords": [
-        "-"
-      ],
+      "keywords": null,
       "name": "Serpent Wings",
       "target": "Self",
       "type": "feature",

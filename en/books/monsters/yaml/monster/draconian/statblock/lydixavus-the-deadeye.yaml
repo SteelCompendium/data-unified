@@ -39,8 +39,7 @@ features:
         - effect: '**Effect:** Lydixavus [flies](scc.v1:mcdm.heroes.v1/movement/fly) up to their speed, leaving a size 1S ice mine in the space they took off from. The ice mine explodes when an enemy enters its space, using the power roll for the Ice Lob ability, and targeting the triggering creature and each creature and object [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the ice mine.'
       feature_type: ability
       icon: "\U0001F464"
-      keywords:
-        - '-'
+      keywords: []
       name: Parting Gift
       target: Self
       type: feature
@@ -52,8 +51,7 @@ features:
             **Effect:** Lydixavus uses their [signature ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability) again, targeting a creature within 5 squares of the original target.
       feature_type: ability
       icon: ❗️
-      keywords:
-        - '-'
+      keywords: []
       name: Wasn't Aiming For You
       target: Self
       type: feature

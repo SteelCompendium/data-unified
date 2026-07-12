@@ -7,8 +7,7 @@ file_basename: rasquine
 file_dpath: monster/minion/summoner/demon/statblock
 flavor: The rasquine are skulking demons that shimmer in the light. They teleport into position before biting the necks of their prey.
 free_strike: 2
-immunities:
-    - —
+immunities: []
 intuition: -1
 item_id: rasquine
 item_name: Rasquine

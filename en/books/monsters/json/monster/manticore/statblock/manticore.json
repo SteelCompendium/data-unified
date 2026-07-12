@@ -141,9 +141,7 @@
       ],
       "feature_type": "ability",
       "icon": "☠️",
-      "keywords": [
-        "-"
-      ],
+      "keywords": null,
       "name": "Cornered Predator",
       "target": "Self",
       "type": "feature",
@@ -159,9 +157,7 @@
       ],
       "feature_type": "ability",
       "icon": "☠️",
-      "keywords": [
-        "-"
-      ],
+      "keywords": null,
       "name": "Debilitating Poison",
       "target": "Self",
       "type": "feature",

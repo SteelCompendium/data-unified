@@ -1,4 +1,5 @@
 ---
+echelon: "1"
 effect: While it might appear that you died, you did not. Instead, you regain 1 [Stamina](../rule/health/stamina.md) and can spend 1 or more [Recoveries](../rule/health/recoveries.md). Additionally, you gain a 1st-[echelon](../rule/general/echelon.md) [trinket](../rule/treasure/trinket.md) of the Director's choice (see Treasures earlier in this chapter).
 file_basename: presumed-dead
 file_dpath: title

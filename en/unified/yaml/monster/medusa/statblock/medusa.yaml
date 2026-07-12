@@ -64,8 +64,7 @@ features:
         - effect: '**Effect:** The medusa [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to 3 squares and can attempt to hide even if observed.'
       feature_type: ability
       icon: "\U0001F464"
-      keywords:
-        - '-'
+      keywords: []
       name: Nimble Escape
       target: Self
       type: feature
@@ -116,8 +115,7 @@ features:
         - effect: '**Effect:** The medusa temporarily manifests wings and [flies](scc.v1:mcdm.heroes.v1/movement/fly) up to their speed without provoking opportunity attacks. During or after this movement, they can use Snake Bites and Damning Gaze once each.'
       feature_type: ability
       icon: ☠️
-      keywords:
-        - '-'
+      keywords: []
       name: Serpent Wings
       target: Self
       type: feature

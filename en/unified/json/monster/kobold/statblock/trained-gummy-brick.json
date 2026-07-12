@@ -34,9 +34,7 @@
       ],
       "feature_type": "ability",
       "icon": "❗️",
-      "keywords": [
-        "-"
-      ],
+      "keywords": null,
       "name": "You Didn't Pay Attention!",
       "target": "One creature or object",
       "type": "feature",

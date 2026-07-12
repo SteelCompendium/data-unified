@@ -55,9 +55,7 @@
       ],
       "feature_type": "ability",
       "icon": "👤",
-      "keywords": [
-        "-"
-      ],
+      "keywords": null,
       "name": "Blazing Leap",
       "target": "Self",
       "type": "feature",

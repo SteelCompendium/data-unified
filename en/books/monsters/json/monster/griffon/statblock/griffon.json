@@ -78,9 +78,7 @@
       ],
       "feature_type": "ability",
       "icon": "❗️",
-      "keywords": [
-        "-"
-      ],
+      "keywords": null,
       "name": "Zephyr Feint",
       "target": "Self",
       "type": "feature",

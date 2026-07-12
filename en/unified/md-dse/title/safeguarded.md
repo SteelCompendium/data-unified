@@ -1,4 +1,5 @@
 ---
+echelon: "1"
 effect: You start combat encounters with a squad of three minions from the specific monster band or people you earned this title from. The squad takes their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) as a part of your turn. On the squad's turn, they can take a move action and either a main action or a maneuver.
 file_basename: safeguarded
 file_dpath: title

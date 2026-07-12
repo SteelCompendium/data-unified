@@ -23,8 +23,7 @@ features:
         - effect: '**Effect:** The zephyr [flies](scc.v1:mcdm.heroes.v1/movement/fly) up to their speed. If they don''t end this movment on solid ground, they are [prone](scc.v1:mcdm.heroes.v1/condition/prone).'
       feature_type: ability
       icon: "\U0001F464"
-      keywords:
-        - '-'
+      keywords: []
       name: Windwalk
       target: Self
       type: feature

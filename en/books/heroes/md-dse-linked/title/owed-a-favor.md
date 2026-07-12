@@ -1,4 +1,5 @@
 ---
+echelon: "1"
 effect: The faction will perform one favor for the party, provided it doesn't interfere with the faction's goals.
 file_basename: owed-a-favor
 file_dpath: title

@@ -24,8 +24,7 @@ features:
         - effect: The scoundrel uses Rapier and Dagger against up to three targets. They [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to 2 squares before or after each strike.
       feature_type: ability
       icon: "\U0001F300"
-      keywords:
-        - '-'
+      keywords: []
       name: Dagger Storm
       target: '-'
       type: feature

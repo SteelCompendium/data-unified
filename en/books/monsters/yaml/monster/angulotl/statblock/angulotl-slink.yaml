@@ -24,8 +24,7 @@ features:
         - effect: '**Effect:** The slink jumps up to 3 squares. If they have [cover](scc.v1:mcdm.heroes.v1/rule.combat/cover) or [concealment](scc.v1:mcdm.heroes.v1/rule.combat/concealment) when they land, they can attempt to hide.'
       feature_type: ability
       icon: "\U0001F464"
-      keywords:
-        - '-'
+      keywords: []
       name: Hop To It
       target: Self
       type: feature

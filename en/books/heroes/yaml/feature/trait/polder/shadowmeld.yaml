@@ -1,0 +1,40 @@
+ability:
+    ability_type: Signature
+    distance: Self
+    effects:
+        - effect: You flatten yourself into a shadow against a wall or floor you are touching, and become hidden from any creature you have [cover](scc.v1:mcdm.heroes.v1/rule.combat/cover) or [concealment](scc.v1:mcdm.heroes.v1/rule.combat/concealment) from or who isn't observing you. While in shadow form, you have full awareness of your surroundings, and [strikes](scc.v1:mcdm.heroes.v1/rule.combat/strike) made against you and [tests](scc.v1:mcdm.heroes.v1/rule.test/test) made to search for you take a [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane). You can't move or be [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement), and you can't take main actions or maneuvers except to exit this form or to direct creatures under your control, such as one you summon using an ability. Any ability or effect that targets more than 1 square affects you in this form only if it explicitly affects the surface you are flattened against. You can exit this form as a maneuver.
+          name: Effect
+    feature_type: ability
+    flavor: You become an actual shadow.
+    keywords:
+        - Magic
+    metadata:
+        ability_type: Signature
+        action_type: Maneuver
+        content: "*You become an actual shadow.*\n\n| **Magic**   |    **Maneuver** |\n|-------------|----------------:|\n| **\U0001F4CF Self** |     **\U0001F3AF Self** |\n\n**Effect:** You flatten yourself into a shadow against a wall or floor you are touching, and become hidden from any creature you have [cover](scc.v1:mcdm.heroes.v1/rule.combat/cover) or [concealment](scc.v1:mcdm.heroes.v1/rule.combat/concealment) from or who isn't observing you. While in shadow form, you have full awareness of your surroundings, and [strikes](scc.v1:mcdm.heroes.v1/rule.combat/strike) made against you and [tests](scc.v1:mcdm.heroes.v1/rule.test/test) made to search for you take a [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane). You can't move or be [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement), and you can't take main actions or maneuvers except to exit this form or to direct creatures under your control, such as one you summon using an ability. Any ability or effect that targets more than 1 square affects you in this form only if it explicitly affects the surface you are flattened against. You can exit this form as a maneuver.\n\nIf the surface you are flattened against is destroyed, this ability ends and you take 1d6 damage that can't be reduced in any way."
+        distance: Self
+        feature_type: ability
+        flavor: You become an actual shadow.
+        item_id: shadowmeld
+        item_name: Shadowmeld
+        keywords:
+            - Magic
+        target: Self
+        type: feature/ability/common
+    name: Shadowmeld
+    target: Self
+    type: feature
+    usage: Maneuver
+effects:
+    - effect: You have the following ability.
+feature_type: trait
+metadata:
+    action_type: feature
+    feature_type: trait
+    item_id: shadowmeld
+    item_name: 'Signature Trait: Shadowmeld'
+    scc:
+        - mcdm.heroes.v1/feature.trait.polder/shadowmeld
+    type: feature/trait/polder
+name: 'Signature Trait: Shadowmeld'
+type: feature

@@ -5,8 +5,7 @@ effects:
       name: Effect
 feature_type: ability
 flavor: I've identified a way to negate their strengths.
-keywords:
-    - '-'
+keywords: []
 metadata:
     action_type: Main action
     class: tactician
@@ -16,8 +15,7 @@ metadata:
     flavor: I've identified a way to negate their strengths.
     item_id: counterstrategy
     item_name: Counterstrategy
-    keywords:
-        - '-'
+    keywords: []
     level: 9
     scc:
         - mcdm.heroes.v1/feature.ability.tactician.level-9/counterstrategy

@@ -11,9 +11,7 @@
     ],
     "feature_type": "ability",
     "flavor": "Keep up the attack. Never give them a moment's grace.",
-    "keywords": [
-      "-"
-    ],
+    "keywords": null,
     "metadata": {
       "ability_type": "Triggered",
       "action_type": "Free triggered",
@@ -23,9 +21,7 @@
       "flavor": "Keep up the attack. Never give them a moment's grace.",
       "item_id": "hesitation-is-weakness",
       "item_name": "Hesitation Is Weakness",
-      "keywords": [
-        "-"
-      ],
+      "keywords": null,
       "target": "Self",
       "type": "feature/ability/common"
     },

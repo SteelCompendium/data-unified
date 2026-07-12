@@ -17,9 +17,7 @@
   ],
   "flavor": "These massive clods of animated stone roll upon smaller piles of rocks that could be perceived as limbs. Walking boulders are useful for taking up space and forming barricades.",
   "free_strike": 1,
-  "immunities": [
-    "—"
-  ],
+  "immunities": null,
   "intuition": 0,
   "keywords": [
     "Elemental (Earth)"
@@ -41,7 +39,5 @@
   "stability": 0,
   "stamina": "3",
   "type": "statblock",
-  "weaknesses": [
-    "—"
-  ]
+  "weaknesses": null
 }

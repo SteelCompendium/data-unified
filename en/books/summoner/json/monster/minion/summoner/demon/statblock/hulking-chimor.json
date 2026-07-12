@@ -39,9 +39,7 @@
   ],
   "flavor": "Chimors have no true shape; their bodies restructure and change endlessly. Pieces of the chimor demon snap off inside their prey, causing their bodies to also restructure from the inside out.",
   "free_strike": 3,
-  "immunities": [
-    "—"
-  ],
+  "immunities": null,
   "intuition": 1,
   "keywords": [
     "Abyssal",

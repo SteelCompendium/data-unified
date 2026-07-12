@@ -21,8 +21,7 @@ size: "4"
 speed: 4
 stamina: "40"
 type: statblock
-weaknesses:
-    - —
+weaknesses: []
 ---
 
 Zombie titan is a catchall for undead giants, patchwork ogres and mournlings, or amalgamations of a graveyard's entire population. The titan lumbers and slumps across battlefields, wanting desperately to collapse and crash into the earth like a sea of flesh and bone.

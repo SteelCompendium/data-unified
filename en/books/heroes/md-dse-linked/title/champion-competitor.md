@@ -1,4 +1,5 @@
 ---
+echelon: "4"
 effect: 'A [characteristic](../rule/character/characteristic.md) used during the competition increases by 1 (to a maximum of 6). Additionally, choose one of the following benefits:'
 file_basename: champion-competitor
 file_dpath: title

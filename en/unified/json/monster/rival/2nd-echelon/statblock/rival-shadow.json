@@ -34,9 +34,7 @@
       ],
       "feature_type": "ability",
       "icon": "👤",
-      "keywords": [
-        "-"
-      ],
+      "keywords": null,
       "name": "Poison the Blade",
       "target": "Self",
       "type": "feature",

@@ -75,9 +75,7 @@
       ],
       "feature_type": "ability",
       "icon": "❗️",
-      "keywords": [
-        "-"
-      ],
+      "keywords": null,
       "name": "Emergency Beacon",
       "target": "Self",
       "type": "feature",

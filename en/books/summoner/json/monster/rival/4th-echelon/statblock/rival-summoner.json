@@ -62,9 +62,7 @@
       ],
       "feature_type": "ability",
       "icon": "❗️",
-      "keywords": [
-        "—"
-      ],
+      "keywords": null,
       "name": "Death Strikes Back",
       "target": "Self or one ally",
       "type": "feature",
@@ -109,7 +107,5 @@
   "stability": 0,
   "stamina": "220",
   "type": "statblock",
-  "weaknesses": [
-    "—"
-  ]
+  "weaknesses": null
 }

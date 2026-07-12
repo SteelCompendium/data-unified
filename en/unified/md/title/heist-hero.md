@@ -1,4 +1,5 @@
 ---
+echelon: "2"
 effect: 'Choose one of the following benefits:'
 flavor: Everybody know their assignments? All right, let's go.
 name: Heist Hero

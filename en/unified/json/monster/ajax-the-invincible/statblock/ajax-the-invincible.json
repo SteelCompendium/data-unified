@@ -157,9 +157,7 @@
       ],
       "feature_type": "ability",
       "icon": "❗️",
-      "keywords": [
-        "-"
-      ],
+      "keywords": null,
       "name": "Who's Hesitating?",
       "target": "Self",
       "type": "feature",

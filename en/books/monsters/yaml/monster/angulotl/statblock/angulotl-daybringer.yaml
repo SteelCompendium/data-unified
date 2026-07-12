@@ -23,8 +23,7 @@ features:
         - effect: '**Effect:** The daybringer expands their throat to make it resemble the sun until the start of their next turn. During that time, each angulotl who starts their turn within 10 squares of the daybringer regains 5 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) and gains a +3 bonus to speed until the end of their turn.'
       feature_type: ability
       icon: "\U0001F464"
-      keywords:
-        - '-'
+      keywords: []
       name: Sun Lamp
       target: Self
       type: feature
@@ -79,8 +78,7 @@ features:
         - effect: '**Effect:** The encounter map dries up and each enemy and object on it is illuminated until the end of the encounter. An illuminated creature or object can''t hide or become invisible, and any strike made against an illuminated target gains an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge). Additionally, each enemy in the encounter who is wet has that effect end and takes 6 acid damage. Each angulotl in the encounter has a double edge on their next strike.'
       feature_type: ability
       icon: ☠️
-      keywords:
-        - '-'
+      keywords: []
       name: It Is Day
       target: Special
       type: feature

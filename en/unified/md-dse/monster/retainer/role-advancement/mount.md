@@ -24,8 +24,6 @@ features:
     - cost: Encounter
       distance: Range 5
       icon: "\U0001F464"
-      keywords:
-        - '-'
       level: 7
       name: Giddyup!
       sections:

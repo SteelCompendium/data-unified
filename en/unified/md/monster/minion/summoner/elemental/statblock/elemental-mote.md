@@ -3,8 +3,7 @@ agility: 0
 cost: 1 essence per minion summoned
 flavor: This near-pure form of autonomous essence just barely maintains their form. They can shift their nature to match their surroundings.
 free_strike: 1
-immunities:
-    - —
+immunities: []
 intuition: 0
 keywords:
     - Elemental
@@ -21,8 +20,7 @@ speed: 5
 stability: 0
 stamina: "1"
 type: statblock
-weaknesses:
-    - —
+weaknesses: []
 ---
 
 This near-pure form of autonomous essence just barely maintains their form. They can shift their nature to match their surroundings.

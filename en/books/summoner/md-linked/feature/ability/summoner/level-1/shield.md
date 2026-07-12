@@ -5,8 +5,7 @@ distance: Summoner's Range
 effect: If one of your minions is [adjacent](../../../../rule/combat/adjacent.md) to the target and is within [distance](../../../../rule/combat/distance.md) of the strike, they become the new target of the strike.
 feature_source: summoner
 flavor: You call upon a minion to use their body to dampen the blow.
-keywords:
-    - —
+keywords: []
 level: "1"
 name: Shield!
 scc: mcdm.summoner.v1/feature.ability.summoner.level-1/shield

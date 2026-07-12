@@ -5,8 +5,7 @@ cost: 5 Ferocity
 distance: Self
 effect: You gain 1 [surge](scc.v1:mcdm.heroes.v1/rule.resource/surge), and the next [ability roll](scc.v1:mcdm.heroes.v1/rule.dice/ability-roll) you make this [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) automatically obtains a tier 3 outcome.
 flavor: Anger is your energy.
-keywords:
-    - '-'
+keywords: []
 level: "1"
 name: Make Peace With Your God!
 scc: mcdm.heroes.v1/feature.ability.fury.level-1/make-peace-with-your-god

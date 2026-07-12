@@ -21,8 +21,7 @@ speed: 5
 stability: 0
 stamina: "1"
 type: statblock
-weaknesses:
-    - —
+weaknesses: []
 ---
 
 A fire plume burns so bright that their true shape is hard to discern from the flames. They sputter and spit motes of fire in high arcs.

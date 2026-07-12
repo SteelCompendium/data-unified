@@ -32,8 +32,7 @@ speed: 6
 stability: 0
 stamina: 17 | 17
 type: statblock
-weaknesses:
-    - —
+weaknesses: []
 ---
 
 These elementals are blazing white avian-shaped beings that are nearly impossible to perceive directly. Between a light of the sun's talons is a massive glowing sword that can split the heaviest of defenses asunder.

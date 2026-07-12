@@ -1,4 +1,5 @@
 ---
+echelon: "3"
 effect: 'Choose one of the following benefits:'
 file_basename: siege-breaker
 file_dpath: title

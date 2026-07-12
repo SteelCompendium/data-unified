@@ -34,9 +34,7 @@
       ],
       "feature_type": "ability",
       "icon": "👤",
-      "keywords": [
-        "-"
-      ],
+      "keywords": null,
       "name": "Windwalk",
       "target": "Self",
       "type": "feature",

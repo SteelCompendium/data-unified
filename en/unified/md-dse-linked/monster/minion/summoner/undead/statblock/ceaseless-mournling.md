@@ -28,8 +28,7 @@ source: mcdm.summoner.v1
 speed: 4
 stamina: 4 | 4 | 4
 type: statblock
-weaknesses:
-    - —
+weaknesses: []
 ---
 
 Mournlings are hulking amalgams of mismatched cadavers with tear-stained trenches where their cheeks used to be. Their crying shakes enemies to their bone and renders them struggling to move.

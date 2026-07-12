@@ -26,8 +26,7 @@ features:
             **Effect:** The gunge vomits with great force, letting them [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed and ignore any additional effects from the strike. The space the gunge occupied before the shift is covered in slime that is [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain) for enemies. Additionally, any enemy is [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) while in the slime.
       feature_type: ability
       icon: ❗️
-      keywords:
-        - '-'
+      keywords: []
       name: Spew Slide
       target: Self
       type: feature

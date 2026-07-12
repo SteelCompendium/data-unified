@@ -7,8 +7,7 @@ file_basename: razor
 file_dpath: monster/minion/summoner/demon/statblock
 flavor: Razors appear to be a diminutive variant of the ruinant demon. Their bodies are swift, tumbling mounds of scarred flesh and deadly claws.
 free_strike: 1
-immunities:
-    - —
+immunities: []
 intuition: -1
 item_id: razor
 item_name: Razor

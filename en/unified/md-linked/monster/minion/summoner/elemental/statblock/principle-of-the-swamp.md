@@ -23,8 +23,7 @@ size: "2"
 speed: 4
 stamina: 5 | 5 | 5
 type: statblock
-weaknesses:
-    - —
+weaknesses: []
 ---
 
 The manes of these equine sludge dwellers extend and hook into things like strong, fraying arms. This allows the principle of the swamp to either pull themselves onto dry land, or pull their prey into the dank depths.

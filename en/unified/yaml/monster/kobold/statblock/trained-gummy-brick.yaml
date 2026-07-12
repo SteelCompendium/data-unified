@@ -25,8 +25,7 @@ features:
             **Effect:** The brick uses Engulf against the triggering creature and has a double edge.
       feature_type: ability
       icon: ❗️
-      keywords:
-        - '-'
+      keywords: []
       name: You Didn't Pay Attention!
       target: One creature or object
       type: feature

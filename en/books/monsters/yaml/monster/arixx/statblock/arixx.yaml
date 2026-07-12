@@ -103,8 +103,7 @@ features:
             **Effect:** The arixx halves the damage and [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to 3 squares after the triggering effect resolves.
       feature_type: ability
       icon: ❗️
-      keywords:
-        - '-'
+      keywords: []
       name: Skitter
       target: Self
       type: feature
@@ -131,8 +130,7 @@ features:
         - effect: '**Effect:** The arixx [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed. If they end this shift above ground and within 2 squares of a creature, they use Bite against the creature and can then use the Dig maneuver.'
       feature_type: ability
       icon: ☠️
-      keywords:
-        - '-'
+      keywords: []
       name: Sinkhole
       target: Self
       type: feature

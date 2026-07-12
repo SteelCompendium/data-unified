@@ -12,8 +12,7 @@ file_dpath: feature/ability/shadow/level-3
 flavor: You enter a flow state that makes you nearly impossible to pin down.
 item_id: dancer
 item_name: Dancer
-keywords:
-    - '-'
+keywords: []
 level: "3"
 name: Dancer
 scc: mcdm.heroes.v1/feature.ability.shadow.level-3/dancer
@@ -29,8 +28,7 @@ effects:
     - effect: Until the end of the encounter, whenever an enemy moves or is [force moved](../../../../movement/forced-movement.md) [adjacent](../../../../rule/combat/adjacent.md) to you or damages you, you can take the [Disengage](../../../common/move-actions/disengage.md) move action as a free [triggered action](../../../../rule/combat/triggered-action.md).
 feature_type: ability
 flavor: You enter a flow state that makes you nearly impossible to pin down.
-keywords:
-    - '-'
+keywords: []
 metadata:
     action_type: Maneuver
     class: shadow
@@ -38,8 +36,7 @@ metadata:
     distance: Self
     effect: Until the end of the encounter, whenever an enemy moves or is [force moved](../../../../movement/forced-movement.md) [adjacent](../../../../rule/combat/adjacent.md) to you or damages you, you can take the [Disengage](../../../common/move-actions/disengage.md) move action as a free [triggered action](../../../../rule/combat/triggered-action.md).
     flavor: You enter a flow state that makes you nearly impossible to pin down.
-    keywords:
-        - '-'
+    keywords: []
     level: "3"
     name: Dancer
     scc: mcdm.heroes.v1/feature.ability.shadow.level-3/dancer

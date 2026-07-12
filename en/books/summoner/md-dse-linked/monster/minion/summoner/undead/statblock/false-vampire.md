@@ -29,8 +29,7 @@ speed: 6
 stability: 2
 stamina: 17 | 17
 type: statblock
-weaknesses:
-    - —
+weaknesses: []
 ---
 
 A false vampire is a bestial, bipedal ghoul that draws life from liquified remains. In death, their hands curl into thick hooks, their bodies turn a putrid red-green as if wearing a dress suit, and their mouth twists and extends into a large feeding needle that can pierce steel.

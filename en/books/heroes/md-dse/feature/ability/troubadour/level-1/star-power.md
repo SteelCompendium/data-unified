@@ -12,8 +12,7 @@ file_dpath: feature/ability/troubadour/level-1
 flavor: Your years of practicing fencing and dancing pay off on the battlefield.
 item_id: star-power
 item_name: Star Power
-keywords:
-    - '-'
+keywords: []
 level: "1"
 name: Star Power
 scc: mcdm.heroes.v1/feature.ability.troubadour.level-1/star-power
@@ -33,8 +32,7 @@ effects:
       name: Spend
 feature_type: ability
 flavor: Your years of practicing fencing and dancing pay off on the battlefield.
-keywords:
-    - '-'
+keywords: []
 metadata:
     action_type: Maneuver
     class: troubadour
@@ -42,8 +40,7 @@ metadata:
     distance: Self
     effect: You gain a +2 [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to [speed](scc.v1:mcdm.heroes.v1/rule.character/speed) until the end of your [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn). Additionally, the next [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) you make this [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) can't have an outcome lower than tier 2.
     flavor: Your years of practicing fencing and dancing pay off on the battlefield.
-    keywords:
-        - '-'
+    keywords: []
     level: "1"
     name: Star Power
     scc: mcdm.heroes.v1/feature.ability.troubadour.level-1/star-power

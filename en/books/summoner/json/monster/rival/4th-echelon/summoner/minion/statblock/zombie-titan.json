@@ -63,7 +63,5 @@
   "stability": 5,
   "stamina": "50",
   "type": "statblock",
-  "weaknesses": [
-    "—"
-  ]
+  "weaknesses": null
 }

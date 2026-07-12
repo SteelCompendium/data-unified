@@ -53,8 +53,7 @@ features:
             **Effect:** Phrrygalax takes no damage and instead regains the same amount of [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina). He then swaps his current damage immunity with the triggering damage type.
       feature_type: ability
       icon: ❗️
-      keywords:
-        - '-'
+      keywords: []
       name: Armor of the Ancients
       target: Self
       type: feature
@@ -66,8 +65,7 @@ features:
             **Effect:** Phrrygalax [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to his speed and uses Baneful Blade against the triggering creature. That ability deals an extra 7 damage.
       feature_type: ability
       icon: ❗️
-      keywords:
-        - '-'
+      keywords: []
       name: Still Your Tongue!
       target: Self
       type: feature

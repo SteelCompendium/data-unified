@@ -25,8 +25,7 @@ features:
         - effect: '**Effect:** The wind sprinter [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed and uses Cold Axe against each enemy who comes within 2 squares of them during the move. The wind sprinter makes one power roll against all targets.'
       feature_type: ability
       icon: "\U0001F464"
-      keywords:
-        - '-'
+      keywords: []
       name: Blizzard Surge
       target: Self
       type: feature
@@ -49,8 +48,7 @@ features:
             **Effect:** The wind sprinter moves up to their speed and uses Cold Axe against one target.
       feature_type: ability
       icon: ❗️
-      keywords:
-        - '-'
+      keywords: []
       name: Begone, Smallfolk!
       target: Self
       type: feature

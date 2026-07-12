@@ -10,6 +10,7 @@ content: |-
     *Networker:* Your maximum [follower](scc.v1:mcdm.heroes.v1/rule.general/follower) count increases by 1.
 
     *Stringpuller:* While occupying a civilized area (such as a village, town, district, or city), you always have access to a follower native to the location. If the area is otherwise hostile to you, this follower is a spy in hiding who has any project points they earn halved.
+echelon: "3"
 effect: 'You no longer need [line of effect](scc.v1:mcdm.heroes.v1/rule.combat/line-of-effect) to give commands to any minions you can summon. Additionally, choose one of the following benefits:'
 flavor: Don't worry. I've got a guy.
 name: Ringleader

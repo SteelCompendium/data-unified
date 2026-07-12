@@ -124,11 +124,3 @@ Sir Vaantikalisax loomed just inside the doorway, his scales and armor glowing i
 The [dragon knight](scc.v1:mcdm.heroes.v1/ancestry/dragon-knight) stared at them for a moment, then turned back to his friend.
 
 "Maybe you're right," he said.
-
-### Signature Trait: Shadowmeld
-
-You have the following ability.
-
-#### Purchased Polder Traits
-
-You have 4 ancestry points to spend on the following traits. (*Quick Build:* Corruption Immunity, Fearless, Graceful Retreat.)

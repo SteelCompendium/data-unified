@@ -1,4 +1,5 @@
 ---
+echelon: "1"
 effect: 'Choose one of the following benefits:'
 flavor: Their power is dangerous. Unnatural. Someone needs to do something.
 name: Mage Hunter

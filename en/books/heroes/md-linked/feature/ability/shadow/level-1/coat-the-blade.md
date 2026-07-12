@@ -4,8 +4,7 @@ class: shadow
 distance: Self
 effect: You gain 2 [surges](../../../../rule/resource/surge.md). Additionally, whenever you use a [surge](../../../../rule/resource/surge.md) before the end of the encounter, you can choose to have it deal poison damage.
 flavor: A little poison goes a long way.
-keywords:
-    - '-'
+keywords: []
 level: "1"
 name: Coat the Blade
 scc: mcdm.heroes.v1/feature.ability.shadow.level-1/coat-the-blade

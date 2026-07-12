@@ -7,8 +7,7 @@ file_basename: nixie-hemloche
 file_dpath: monster/minion/summoner/fey/statblock
 flavor: Hemloches are spotted nixies whose long, wavy hair endlessly bobs and flows into the water surrounding them. Any sailor caught in a whirlpool created by hemloches knows that their ship won't survive the encounter.
 free_strike: 3
-immunities:
-    - —
+immunities: []
 intuition: 3
 item_id: nixie-hemloche
 item_name: Nixie Hemloche
@@ -28,8 +27,7 @@ speed: 6
 stability: 0
 stamina: 4 | 4 | 4
 type: statblock
-weaknesses:
-    - —
+weaknesses: []
 ---
 
 Hemloches are spotted nixies whose long, wavy hair endlessly bobs and flows into the water surrounding them. Any sailor caught in a whirlpool created by hemloches knows that their ship won't survive the encounter.

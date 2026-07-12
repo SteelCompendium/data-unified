@@ -36,9 +36,7 @@
       ],
       "feature_type": "ability",
       "icon": "👤",
-      "keywords": [
-        "-"
-      ],
+      "keywords": null,
       "name": "Blizzard Surge",
       "target": "Self",
       "type": "feature",
@@ -70,9 +68,7 @@
       ],
       "feature_type": "ability",
       "icon": "❗️",
-      "keywords": [
-        "-"
-      ],
+      "keywords": null,
       "name": "Begone, Smallfolk!",
       "target": "Self",
       "type": "feature",

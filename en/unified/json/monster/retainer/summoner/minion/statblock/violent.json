@@ -37,9 +37,7 @@
     }
   ],
   "free_strike": 4,
-  "immunities": [
-    "—"
-  ],
+  "immunities": null,
   "intuition": -1,
   "keywords": [
     "Abyssal",

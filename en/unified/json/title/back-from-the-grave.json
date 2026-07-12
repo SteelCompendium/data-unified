@@ -1,5 +1,6 @@
 {
   "content": "*Hi! Remember me?*\n\n**Prerequisite:** You die at the hands of your greatest foe, that foe still lives, and you aren't a [revenant](scc.v1:mcdm.heroes.v1/ancestry/revenant).\n\n**Effect:** You are restored to life. You gain the Tough But Withered signature trait from the [revenant](scc.v1:mcdm.heroes.v1/ancestry/revenant) ancestry.",
+  "echelon": "3",
   "effect": "You are restored to life. You gain the Tough But Withered signature trait from the [revenant](scc.v1:mcdm.heroes.v1/ancestry/revenant) ancestry.",
   "flavor": "Hi! Remember me?",
   "name": "Back From the Grave",

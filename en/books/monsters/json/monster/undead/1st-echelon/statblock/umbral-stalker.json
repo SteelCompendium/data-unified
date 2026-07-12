@@ -57,9 +57,7 @@
       ],
       "feature_type": "ability",
       "icon": "👤",
-      "keywords": [
-        "-"
-      ],
+      "keywords": null,
       "name": "Shadow Jump",
       "target": "Self",
       "type": "feature",

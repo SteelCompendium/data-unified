@@ -1,4 +1,5 @@
 ---
+echelon: "3"
 effect: You gain a visible scar in a location of your choice. Additionally, your [Stamina](../rule/health/stamina.md) maximum increases by 20, and the creature who [scarred](scarred.md) you takes a [bane](../rule/dice/bane.md) on abilities against you.
 file_basename: scarred
 file_dpath: title

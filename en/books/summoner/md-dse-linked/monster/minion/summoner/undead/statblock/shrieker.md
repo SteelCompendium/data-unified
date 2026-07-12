@@ -29,8 +29,7 @@ speed: 4
 stability: 0
 stamina: "1"
 type: statblock
-weaknesses:
-    - —
+weaknesses: []
 ---
 
 The shrieker expresses their unending pain in a way that can be heard and felt for miles. A white-hot fire smolders within each of their sunken eye sockets.

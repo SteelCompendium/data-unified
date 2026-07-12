@@ -1,4 +1,5 @@
 ---
+echelon: "1"
 effect: 'Choose a [damage type](scc.v1:mcdm.heroes.v1/rule.damage/damage-type) to which the defeated creature had an immunity (such as fire). Then choose one of the following benefits:'
 file_basename: elemental-dabbler
 file_dpath: title

@@ -39,8 +39,7 @@ features:
         - effect: '**Effect:** The magistrate turns invisible until the start of their next turn, and can attempt to hide as a [free maneuver](scc.v1:mcdm.heroes.v1/rule.combat/free-maneuver) before the end of the current turn.'
       feature_type: ability
       icon: "\U0001F464"
-      keywords:
-        - '-'
+      keywords: []
       name: Justice Turns Its Gaze
       target: Self
       type: feature

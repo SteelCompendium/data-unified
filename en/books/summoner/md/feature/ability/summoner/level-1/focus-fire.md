@@ -5,8 +5,7 @@ distance: Summoner's Range
 effect: The target gains a [surge](scc.v1:mcdm.heroes.v1/rule.resource/surge) for each of your minions [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to them (up to a maximum of 3 surges), which they can use on the triggering damage.
 feature_source: summoner
 flavor: You ensure the enemy can't escape the incoming attack.
-keywords:
-    - —
+keywords: []
 level: "1"
 name: Focus Fire!
 scc: mcdm.summoner.v1/feature.ability.summoner.level-1/focus-fire

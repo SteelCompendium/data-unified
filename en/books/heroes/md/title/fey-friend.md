@@ -1,4 +1,5 @@
 ---
+echelon: "2"
 effect: 'You know the Khelt language. Additionally, choose one of the following benefits:'
 flavor: Do you enjoy the vintage? Yes, you can understand my tongue now. One does not drink at my table and leave unchanged.
 name: Fey Friend

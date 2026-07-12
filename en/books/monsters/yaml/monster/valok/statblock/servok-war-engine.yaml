@@ -39,8 +39,7 @@ features:
         - effect: '**Effect:** The war engine moves up to their speed in a straight line, automatically destroying mundane size 1 objects or walls in their path. The first time the war engine moves through a creature''s space during this movement, that creature can choose to either fall [prone](scc.v1:mcdm.heroes.v1/condition/prone) or take 10 damage.'
       feature_type: ability
       icon: "\U0001F464"
-      keywords:
-        - '-'
+      keywords: []
       name: Destructive Rollout
       target: Self
       type: feature

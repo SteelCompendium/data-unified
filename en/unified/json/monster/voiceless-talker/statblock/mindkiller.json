@@ -87,9 +87,7 @@
       ],
       "feature_type": "ability",
       "icon": "❗️",
-      "keywords": [
-        "-"
-      ],
+      "keywords": null,
       "name": "Meat Shield",
       "target": "Self",
       "type": "feature",

@@ -28,8 +28,7 @@ speed: 5
 stability: 0
 stamina: 5 | 5
 type: statblock
-weaknesses:
-    - —
+weaknesses: []
 ---
 
 This pixie flies on a delicate array of vibrant flower petals for wings. The color drains from their wings as they call forth acid rain showers.

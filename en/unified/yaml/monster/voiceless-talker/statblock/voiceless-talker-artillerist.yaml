@@ -53,8 +53,7 @@ features:
             **Effect:** The artillerist can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) up to 5 squares and ignores any effects associated with the damage.
       feature_type: ability
       icon: ❗️
-      keywords:
-        - '-'
+      keywords: []
       name: Tactical Reposition
       target: Self
       type: feature

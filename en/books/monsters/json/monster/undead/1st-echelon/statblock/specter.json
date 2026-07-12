@@ -34,9 +34,7 @@
       ],
       "feature_type": "ability",
       "icon": "👤",
-      "keywords": [
-        "-"
-      ],
+      "keywords": null,
       "name": "Hidden Movement",
       "target": "Self",
       "type": "feature",

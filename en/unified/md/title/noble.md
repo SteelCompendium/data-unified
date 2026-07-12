@@ -1,4 +1,5 @@
 ---
+echelon: "3"
 effect: 'Choose one of the following benefits:'
 flavor: Technically, I'm called Lord Morninghill these days. I did a little favor for Duke Kenway at the Battle of Black Forest.
 name: Noble

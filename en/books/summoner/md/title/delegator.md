@@ -1,4 +1,5 @@
 ---
+echelon: "4"
 effect: At the start of a combat encounter, you can choose to translate yourself into your circle's source manifold while your champion fights and summons monsters in your place. The champion uses your [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), [Recoveries](scc.v1:mcdm.heroes.v1/rule.health/recoveries), abilities, and features (except for your [Summoner Strike](scc.v1:mcdm.summoner.v1/feature.summoner.level-1/summoner-strike) and [Summoner's Kit](scc.v1:mcdm.summoner.v1/feature.summoner.level-3/summoners-kit)). You can dismiss the champion and summon yourself back into the place you left at the end of an encounter.
 flavor: They're all yours, buddy.
 name: Delegator

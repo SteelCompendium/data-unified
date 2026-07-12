@@ -9,8 +9,7 @@ file_dpath: feature/ability/shadow/level-1
 flavor: A little poison goes a long way.
 item_id: coat-the-blade
 item_name: Coat the Blade
-keywords:
-    - '-'
+keywords: []
 level: "1"
 name: Coat the Blade
 scc: mcdm.heroes.v1/feature.ability.shadow.level-1/coat-the-blade
@@ -29,16 +28,14 @@ effects:
       name: Spend
 feature_type: ability
 flavor: A little poison goes a long way.
-keywords:
-    - '-'
+keywords: []
 metadata:
     action_type: Maneuver
     class: shadow
     distance: Self
     effect: You gain 2 [surges](scc.v1:mcdm.heroes.v1/rule.resource/surge). Additionally, whenever you use a [surge](scc.v1:mcdm.heroes.v1/rule.resource/surge) before the end of the encounter, you can choose to have it deal poison damage.
     flavor: A little poison goes a long way.
-    keywords:
-        - '-'
+    keywords: []
     level: "1"
     name: Coat the Blade
     scc: mcdm.heroes.v1/feature.ability.shadow.level-1/coat-the-blade

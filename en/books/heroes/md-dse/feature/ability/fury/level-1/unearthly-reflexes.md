@@ -9,8 +9,7 @@ file_dpath: feature/ability/fury/level-1
 flavor: You are as elusive as a hummingbird.
 item_id: unearthly-reflexes
 item_name: Unearthly Reflexes
-keywords:
-    - '-'
+keywords: []
 level: "1"
 name: Unearthly Reflexes
 scc: mcdm.heroes.v1/feature.ability.fury.level-1/unearthly-reflexes
@@ -31,16 +30,14 @@ effects:
       name: Spend
 feature_type: ability
 flavor: You are as elusive as a hummingbird.
-keywords:
-    - '-'
+keywords: []
 metadata:
     action_type: Triggered
     class: fury
     distance: Self
     effect: You take half the damage from the triggering effect and can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to a number of squares equal to your [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility) score.
     flavor: You are as elusive as a hummingbird.
-    keywords:
-        - '-'
+    keywords: []
     level: "1"
     name: Unearthly Reflexes
     scc: mcdm.heroes.v1/feature.ability.fury.level-1/unearthly-reflexes

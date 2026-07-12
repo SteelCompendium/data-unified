@@ -9,9 +9,7 @@
   ],
   "feature_type": "ability",
   "flavor": "Anger is your energy.",
-  "keywords": [
-    "-"
-  ],
+  "keywords": null,
   "metadata": {
     "action_type": "[Free maneuver](scc.v1:mcdm.heroes.v1/rule.combat/free-maneuver)",
     "class": "fury",
@@ -21,9 +19,7 @@
     "flavor": "Anger is your energy.",
     "item_id": "make-peace-with-your-god",
     "item_name": "Make Peace With Your God!",
-    "keywords": [
-      "-"
-    ],
+    "keywords": null,
     "level": 1,
     "scc": [
       "mcdm.heroes.v1/feature.ability.fury.level-1/make-peace-with-your-god"

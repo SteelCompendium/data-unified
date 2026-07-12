@@ -90,9 +90,7 @@
       ],
       "feature_type": "ability",
       "icon": "☠️",
-      "keywords": [
-        "-"
-      ],
+      "keywords": null,
       "name": "Advance!",
       "target": "Self",
       "type": "feature",

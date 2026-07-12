@@ -23,8 +23,7 @@ features:
         - effect: '**Effect:** The vampire spawn can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) 1 square, then move up to their speed. The next ability the vampire uses before the start of their next turn gains an edge.'
       feature_type: ability
       icon: "\U0001F464"
-      keywords:
-        - '-'
+      keywords: []
       name: Vampiric Celerity
       target: Self
       type: feature

@@ -75,9 +75,7 @@
       ],
       "feature_type": "ability",
       "icon": "❗️",
-      "keywords": [
-        "-"
-      ],
+      "keywords": null,
       "name": "Spirit Form",
       "target": "Self",
       "type": "feature",

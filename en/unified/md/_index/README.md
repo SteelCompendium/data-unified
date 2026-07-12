@@ -25,7 +25,7 @@
 - [Skill-group](skill-group.md) (5 items)
 - [Statblock](statblock.md) (512 items)
 - [Title](title.md) (66 items)
-- [Trait](trait.md) (94 items)
+- [Trait](trait.md) (95 items)
 - [Treasure](treasure.md) (127 items)
 
-Total items: 3081
+Total items: 3082

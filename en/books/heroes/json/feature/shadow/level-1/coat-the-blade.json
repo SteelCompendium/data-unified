@@ -13,9 +13,7 @@
     ],
     "feature_type": "ability",
     "flavor": "A little poison goes a long way.",
-    "keywords": [
-      "-"
-    ],
+    "keywords": null,
     "metadata": {
       "action_type": "Maneuver",
       "content": "\n*A little poison goes a long way.*\n\n| **-**       | **Maneuver** |\n|-------------|-------------:|\n| **📏 Self** |  **🎯 Self** |\n\n**Effect:** You gain 2 [surges](scc.v1:mcdm.heroes.v1/rule.resource/surge). Additionally, whenever you use a [surge](scc.v1:mcdm.heroes.v1/rule.resource/surge) before the end of the encounter, you can choose to have it deal poison damage.\n\n**Spend 1+ Insight:** For each insight you spend, you gain 1 additional [surge](scc.v1:mcdm.heroes.v1/rule.resource/surge).",
@@ -24,9 +22,7 @@
       "flavor": "A little poison goes a long way.",
       "item_id": "coat-the-blade",
       "item_name": "Coat the Blade",
-      "keywords": [
-        "-"
-      ],
+      "keywords": null,
       "subclass": "caustic-alchemy",
       "target": "Self",
       "type": "feature/ability/common"

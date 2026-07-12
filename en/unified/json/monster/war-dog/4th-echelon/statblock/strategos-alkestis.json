@@ -98,9 +98,7 @@
       ],
       "feature_type": "ability",
       "icon": "☠️",
-      "keywords": [
-        "-"
-      ],
+      "keywords": null,
       "name": "Fog of War",
       "target": "Each ally in the encounter",
       "type": "feature",

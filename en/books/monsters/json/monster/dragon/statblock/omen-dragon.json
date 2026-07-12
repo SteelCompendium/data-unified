@@ -120,9 +120,7 @@
       ],
       "feature_type": "ability",
       "icon": "❗️",
-      "keywords": [
-        "-"
-      ],
+      "keywords": null,
       "name": "Don't Turn Away",
       "target": "Self",
       "type": "feature",

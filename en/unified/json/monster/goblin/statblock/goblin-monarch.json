@@ -129,9 +129,7 @@
       ],
       "feature_type": "ability",
       "icon": "☠️",
-      "keywords": [
-        "-"
-      ],
+      "keywords": null,
       "name": "Kill!",
       "target": "Special",
       "type": "feature",

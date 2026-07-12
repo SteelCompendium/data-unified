@@ -12,8 +12,7 @@ file_dpath: feature/ability/tactician/level-9
 flavor: I've identified a way to negate their strengths.
 item_id: counterstrategy
 item_name: Counterstrategy
-keywords:
-    - '-'
+keywords: []
 level: "9"
 name: Counterstrategy
 scc: mcdm.heroes.v1/feature.ability.tactician.level-9/counterstrategy
@@ -30,8 +29,7 @@ effects:
     - effect: 'You gain 6 [surges](../../../../rule/resource/surge.md). Until the end of the encounter or until you are [dying](../../../../rule/health/dying.md), whenever the Director spends Malice (see *Draw Steel: Monsters*), choose yourself or one ally within 10 squares. The chosen character gains 2 of their [Heroic Resource](../../../../rule/resource/heroic-resource.md).'
 feature_type: ability
 flavor: I've identified a way to negate their strengths.
-keywords:
-    - '-'
+keywords: []
 metadata:
     action_type: Main action
     class: tactician
@@ -39,8 +37,7 @@ metadata:
     distance: Self
     effect: 'You gain 6 [surges](../../../../rule/resource/surge.md). Until the end of the encounter or until you are [dying](../../../../rule/health/dying.md), whenever the Director spends Malice (see *Draw Steel: Monsters*), choose yourself or one ally within 10 squares. The chosen character gains 2 of their [Heroic Resource](../../../../rule/resource/heroic-resource.md).'
     flavor: I've identified a way to negate their strengths.
-    keywords:
-        - '-'
+    keywords: []
     level: "9"
     name: Counterstrategy
     scc: mcdm.heroes.v1/feature.ability.tactician.level-9/counterstrategy

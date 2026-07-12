@@ -38,8 +38,7 @@ features:
         - effect: '**Effect:** The hulking brain [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to 4 squares, ignoring difficu terrain.'
       feature_type: ability
       icon: "\U0001F464"
-      keywords:
-        - '-'
+      keywords: []
       name: Lumber
       target: Self
       type: feature
@@ -53,8 +52,7 @@ features:
             **2 Malice:** The enemy is knocked [prone](scc.v1:mcdm.heroes.v1/condition/prone).
       feature_type: ability
       icon: ❗️
-      keywords:
-        - '-'
+      keywords: []
       name: Brawny Buffe
       target: Self
       type: feature

@@ -55,9 +55,7 @@
       ],
       "feature_type": "ability",
       "icon": "👤",
-      "keywords": [
-        "-"
-      ],
+      "keywords": null,
       "name": "Lumber",
       "target": "Self",
       "type": "feature",
@@ -73,9 +71,7 @@
       ],
       "feature_type": "ability",
       "icon": "❗️",
-      "keywords": [
-        "-"
-      ],
+      "keywords": null,
       "name": "Brawny Buffe",
       "target": "Self",
       "type": "feature",

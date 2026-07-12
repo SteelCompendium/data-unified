@@ -3,8 +3,6 @@ features:
     - cost: 3 Malice
       distance: Self
       icon: "\U0001F464"
-      keywords:
-        - '-'
       name: Swoop
       sections:
         - label: Effect

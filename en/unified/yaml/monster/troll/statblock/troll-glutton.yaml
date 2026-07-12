@@ -24,8 +24,7 @@ features:
         - effect: '**Effect:** The glutton [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed in a straight line, ignoring [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain). The first time during this movement that the glutton moves through the space of a creature or object their size or smaller, that creature or object takes 10 damage, or a creature can choose to fall [prone](scc.v1:mcdm.heroes.v1/condition/prone) instead. If the glutton moves into a creature or object larger than them and doesn''t knock the creature [prone](scc.v1:mcdm.heroes.v1/condition/prone) or destroy the object, the glutton''s movement ends and they are [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) until the end of their next turn.'
       feature_type: ability
       icon: "\U0001F464"
-      keywords:
-        - '-'
+      keywords: []
       name: Crash Through
       target: Self
       type: feature
@@ -35,8 +34,7 @@ features:
         - effect: '**Effect:** Until the start of their next turn, the glutton has a double edge on strikes, and strikes made against them gain an edge.'
       feature_type: ability
       icon: "\U0001F464"
-      keywords:
-        - '-'
+      keywords: []
       name: Food Frenzy
       target: Self
       type: feature

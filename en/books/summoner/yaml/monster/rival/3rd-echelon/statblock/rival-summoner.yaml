@@ -48,8 +48,7 @@ features:
             **1 Malice:** Instead, the summoner summons a **zombie lumberer** into an unoccupied space [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the target to take the strike.
       feature_type: ability
       icon: ❗️
-      keywords:
-        - —
+      keywords: []
       name: Death Ward
       target: Self or one ally
       type: feature
@@ -62,8 +61,7 @@ features:
       name: Rivalry
       type: feature
 free_strike: 8
-immunities:
-    - —
+immunities: []
 intuition: 3
 keywords:
     - Humanoid
@@ -84,5 +82,4 @@ speed: 5
 stability: 0
 stamina: "180"
 type: statblock
-weaknesses:
-    - —
+weaknesses: []

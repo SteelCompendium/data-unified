@@ -65,9 +65,7 @@
       ],
       "feature_type": "ability",
       "icon": "❗️",
-      "keywords": [
-        "—"
-      ],
+      "keywords": null,
       "name": "Death Ward",
       "target": "Self or one ally",
       "type": "feature",
@@ -87,9 +85,7 @@
     }
   ],
   "free_strike": 8,
-  "immunities": [
-    "—"
-  ],
+  "immunities": null,
   "intuition": 3,
   "keywords": [
     "Humanoid",
@@ -112,7 +108,5 @@
   "stability": 0,
   "stamina": "180",
   "type": "statblock",
-  "weaknesses": [
-    "—"
-  ]
+  "weaknesses": null
 }

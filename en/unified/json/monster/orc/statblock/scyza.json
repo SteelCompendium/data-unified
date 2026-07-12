@@ -100,9 +100,7 @@
       ],
       "feature_type": "ability",
       "icon": "❗️",
-      "keywords": [
-        "-"
-      ],
+      "keywords": null,
       "name": "Brace and Break",
       "target": "Self",
       "type": "feature",

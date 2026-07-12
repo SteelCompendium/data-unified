@@ -39,8 +39,7 @@ features:
         - effect: '**Effect:** The butcher enhances their next use of Savoring Bite, changing the damage type and condition imposed to one of the following pairs: corruption damage and [dazed](scc.v1:mcdm.heroes.v1/condition/dazed), acid damage and [restrained](scc.v1:mcdm.heroes.v1/condition/restrained), or lightning damage and [frightened](scc.v1:mcdm.heroes.v1/condition/frightened).'
       feature_type: ability
       icon: "\U0001F464"
-      keywords:
-        - '-'
+      keywords: []
       name: Gourmet Flesh
       target: Self
       type: feature

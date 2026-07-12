@@ -38,8 +38,7 @@ features:
             **Effect:** The animal [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to 2 squares before the ability resolves.
       feature_type: ability
       icon: ❗️
-      keywords:
-        - '-'
+      keywords: []
       name: Juke
       target: Self
       type: feature

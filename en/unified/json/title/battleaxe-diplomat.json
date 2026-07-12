@@ -1,5 +1,6 @@
 {
   "content": "*We seem to be equals in might and combat prowess. Perhaps we should bandy words awhile instead.*\n\n**Prerequisite:** You gain the friendship or alliance of a creature you once battled.\n\n**Effect:** Choose one of the following benefits:\n\n- *Iron Hand in Velvet Glove:* The first time during a negotiation that you make a [test](scc.v1:mcdm.heroes.v1/rule.test/test) using the [Intimidate](scc.v1:mcdm.heroes.v1/skill.interpersonal/intimidate) skill and don't make an argument that appeals to an [NPC](scc.v1:mcdm.heroes.v1/rule.general/npc)'s motivation, you don't lower the [NPC](scc.v1:mcdm.heroes.v1/rule.general/npc)'s patience or interest no matter the outcome of the roll.\n- *Truce!:* You have a double [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on [tests](scc.v1:mcdm.heroes.v1/rule.test/test) made to stop combat and start a negotiation.\n- *Warriors' Understanding:* You gain an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence) [tests](scc.v1:mcdm.heroes.v1/rule.test/test) made to interact with creatures you have fought against in combat encounters.",
+  "echelon": "1",
   "effect": "Choose one of the following benefits:",
   "flavor": "We seem to be equals in might and combat prowess. Perhaps we should bandy words awhile instead.",
   "name": "Battleaxe Diplomat",

@@ -38,8 +38,7 @@ features:
         - effect: '**Effect:** The granite stone giant moves up to their speed and creates a 14 wall of stone in squares [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the path of their movement.'
       feature_type: ability
       icon: "\U0001F464"
-      keywords:
-        - '-'
+      keywords: []
       name: Castle Stone Shape
       target: Self
       type: feature

@@ -44,8 +44,7 @@ features:
             **Effect:** The summoner summons a **grave knight** into an unoccupied space [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the target. They become the new target of the strike. The target can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) into any square [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the minion.
       feature_type: ability
       icon: ❗️
-      keywords:
-        - —
+      keywords: []
       name: Death Strikes Back
       target: Self or one ally
       type: feature
@@ -80,5 +79,4 @@ speed: 5
 stability: 0
 stamina: "220"
 type: statblock
-weaknesses:
-    - —
+weaknesses: []

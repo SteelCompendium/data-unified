@@ -34,9 +34,7 @@
       ],
       "feature_type": "ability",
       "icon": "👤",
-      "keywords": [
-        "-"
-      ],
+      "keywords": null,
       "name": "Sun Lamp",
       "target": "Self",
       "type": "feature",
@@ -116,9 +114,7 @@
       ],
       "feature_type": "ability",
       "icon": "☠️",
-      "keywords": [
-        "-"
-      ],
+      "keywords": null,
       "name": "It Is Day",
       "target": "Special",
       "type": "feature",

@@ -54,8 +54,7 @@ features:
             **Effect:** Psyche moves up to 5 squares, and has damage immunity 5 and ignores [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain) during this movement. The first time she moves through any creature during this movement, that creature takes 5 corruption damage.
       feature_type: ability
       icon: ❗️
-      keywords:
-        - '-'
+      keywords: []
       name: Spirit Form
       target: Self
       type: feature

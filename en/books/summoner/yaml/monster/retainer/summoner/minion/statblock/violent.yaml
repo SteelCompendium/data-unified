@@ -20,8 +20,7 @@ features:
       name: Soulsight
       type: feature
 free_strike: 4
-immunities:
-    - —
+immunities: []
 intuition: -1
 keywords:
     - Abyssal

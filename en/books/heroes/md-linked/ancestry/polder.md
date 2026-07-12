@@ -124,7 +124,7 @@ The [dragon knight](dragon-knight.md) stared at them for a moment, then turned b
 
 [Polder](polder.md) heroes have access to the following traits.
 
-## Signature Trait: Shadowmeld
+### Signature Trait: Shadowmeld {data-scc="mcdm.heroes.v1/feature.trait.polder/shadowmeld"}
 
 You have the following ability.
 

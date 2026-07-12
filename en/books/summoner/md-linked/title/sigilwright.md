@@ -1,4 +1,5 @@
 ---
+echelon: "2"
 effect: 'Choose one of the following benefits:'
 flavor: Let's find out who's on the other side of the circle.
 name: Sigilwright

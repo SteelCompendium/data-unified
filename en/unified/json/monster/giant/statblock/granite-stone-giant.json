@@ -55,9 +55,7 @@
       ],
       "feature_type": "ability",
       "icon": "👤",
-      "keywords": [
-        "-"
-      ],
+      "keywords": null,
       "name": "Castle Stone Shape",
       "target": "Self",
       "type": "feature",

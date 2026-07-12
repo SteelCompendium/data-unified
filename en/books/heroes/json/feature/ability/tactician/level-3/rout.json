@@ -9,9 +9,7 @@
   ],
   "feature_type": "ability",
   "flavor": "The tide begins to [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn).",
-  "keywords": [
-    "-"
-  ],
+  "keywords": null,
   "metadata": {
     "action_type": "Maneuver",
     "class": "tactician",
@@ -21,9 +19,7 @@
     "flavor": "The tide begins to [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn).",
     "item_id": "rout",
     "item_name": "Rout",
-    "keywords": [
-      "-"
-    ],
+    "keywords": null,
     "level": 3,
     "scc": [
       "mcdm.heroes.v1/feature.ability.tactician.level-3/rout"

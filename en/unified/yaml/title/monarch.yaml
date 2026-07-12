@@ -16,6 +16,7 @@ content: |-
     - *Royal [Wealth](scc.v1:mcdm.heroes.v1/rule.resource/wealth):* You earn 2 [Wealth](scc.v1:mcdm.heroes.v1/rule.resource/wealth).
 
     **Special:** If you take this title, you might be called upon to perform duties for your nation.
+echelon: "4"
 effect: 'You gain the following benefits:'
 flavor: The tyrant is dead! Long live the new king!
 name: Monarch

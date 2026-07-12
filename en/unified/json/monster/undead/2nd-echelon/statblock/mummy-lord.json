@@ -111,9 +111,7 @@
       ],
       "feature_type": "ability",
       "icon": "☠️",
-      "keywords": [
-        "-"
-      ],
+      "keywords": null,
       "name": "Land's Guardian",
       "target": "Self",
       "type": "feature",

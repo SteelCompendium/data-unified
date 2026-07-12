@@ -57,9 +57,7 @@
       ],
       "feature_type": "ability",
       "icon": "👤",
-      "keywords": [
-        "-"
-      ],
+      "keywords": null,
       "name": "Swooping Torment",
       "target": "Self",
       "type": "feature",

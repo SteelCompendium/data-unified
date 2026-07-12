@@ -28,8 +28,7 @@ speed: 6
 stability: 0
 stamina: "3"
 type: statblock
-weaknesses:
-    - —
+weaknesses: []
 ---
 
 | Undead | - | - | Signature Minion Harrier | 1 Malice per minion summoned |

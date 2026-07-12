@@ -13,9 +13,7 @@
   ],
   "feature_type": "ability",
   "flavor": "Your years of practicing fencing and dancing pay off on the battlefield.",
-  "keywords": [
-    "-"
-  ],
+  "keywords": null,
   "metadata": {
     "action_type": "Maneuver",
     "class": "troubadour",
@@ -25,9 +23,7 @@
     "flavor": "Your years of practicing fencing and dancing pay off on the battlefield.",
     "item_id": "star-power",
     "item_name": "Star Power",
-    "keywords": [
-      "-"
-    ],
+    "keywords": null,
     "level": 1,
     "scc": [
       "mcdm.heroes.v1/feature.ability.troubadour.level-1/star-power"

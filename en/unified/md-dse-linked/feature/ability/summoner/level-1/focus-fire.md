@@ -10,8 +10,7 @@ file_dpath: feature/ability/summoner/level-1
 flavor: You ensure the enemy can't escape the incoming attack.
 item_id: focus-fire
 item_name: Focus Fire!
-keywords:
-    - —
+keywords: []
 level: "1"
 name: Focus Fire!
 scc: mcdm.summoner.v1/feature.ability.summoner.level-1/focus-fire
@@ -30,8 +29,7 @@ effects:
       name: Spend
 feature_type: ability
 flavor: You ensure the enemy can't escape the incoming attack.
-keywords:
-    - —
+keywords: []
 metadata:
     action_type: Triggered
     class: summoner
@@ -39,8 +37,7 @@ metadata:
     effect: The target gains a [surge](../../../../rule/resource/surge.md) for each of your minions [adjacent](../../../../rule/combat/adjacent.md) to them (up to a maximum of 3 surges), which they can use on the triggering damage.
     feature_source: summoner
     flavor: You ensure the enemy can't escape the incoming attack.
-    keywords:
-        - —
+    keywords: []
     level: "1"
     name: Focus Fire!
     scc: mcdm.summoner.v1/feature.ability.summoner.level-1/focus-fire

@@ -56,9 +56,7 @@
       ],
       "feature_type": "ability",
       "icon": "👤",
-      "keywords": [
-        "-"
-      ],
+      "keywords": null,
       "name": "Parting Gift",
       "target": "Self",
       "type": "feature",
@@ -73,9 +71,7 @@
       ],
       "feature_type": "ability",
       "icon": "❗️",
-      "keywords": [
-        "-"
-      ],
+      "keywords": null,
       "name": "Wasn't Aiming For You",
       "target": "Self",
       "type": "feature",

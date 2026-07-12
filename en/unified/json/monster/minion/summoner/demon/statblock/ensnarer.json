@@ -28,9 +28,7 @@
   ],
   "flavor": "This vaguely humanoid form is warped and distorted by a demon nestled inside them. They extend long tongues from multiple orifices to drag victims in close.",
   "free_strike": 2,
-  "immunities": [
-    "—"
-  ],
+  "immunities": null,
   "intuition": -1,
   "keywords": [
     "Abyssal",

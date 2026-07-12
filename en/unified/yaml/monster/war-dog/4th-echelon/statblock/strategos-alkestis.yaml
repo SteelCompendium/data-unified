@@ -65,8 +65,7 @@ features:
         - effect: '**Effect:** Each target can disappear, then reappear anywhere on the encounter map 3 or more squares away from any enemy. Additionally, each target has a double edge on their next power roll.'
       feature_type: ability
       icon: ☠️
-      keywords:
-        - '-'
+      keywords: []
       name: Fog of War
       target: Each ally in the encounter
       type: feature

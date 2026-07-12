@@ -35,9 +35,7 @@
       ],
       "feature_type": "ability",
       "icon": "👤",
-      "keywords": [
-        "-"
-      ],
+      "keywords": null,
       "name": "Leap",
       "target": "Self",
       "type": "feature",

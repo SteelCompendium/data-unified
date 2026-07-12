@@ -7,8 +7,7 @@ file_basename: fanged-musilex
 file_dpath: monster/minion/summoner/demon/statblock
 flavor: Ensnarers knot and twist their bodies together to form heaving, heavy musilexes. They're compelled to drag everything in toward their body.
 free_strike: 5
-immunities:
-    - —
+immunities: []
 intuition: -1
 item_id: fanged-musilex
 item_name: Fanged Musilex

@@ -39,5 +39,4 @@ speed: 6
 stability: 0
 stamina: 10 | 10 | 10
 type: statblock
-weaknesses:
-    - —
+weaknesses: []

@@ -10,6 +10,7 @@ content: |-
     - *Retinue:* The number of [followers](scc.v1:mcdm.heroes.v1/rule.general/follower) you can recruit increases by two.
 
     **Special:** If you take this title, you might occasionally be called upon to perform duties for the person who granted your [noble](scc.v1:mcdm.heroes.v1/title/noble) rank.
+echelon: "3"
 effect: 'Choose one of the following benefits:'
 flavor: Technically, I'm called Lord Morninghill these days. I did a little favor for Duke Kenway at the Battle of Black Forest.
 name: Noble

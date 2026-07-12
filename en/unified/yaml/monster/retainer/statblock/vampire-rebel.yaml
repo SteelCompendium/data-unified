@@ -24,8 +24,7 @@ features:
         - effect: '**Effect:** The vampire rebel changes their form into a bat. In bat form, their size is 1T and they can [fly](scc.v1:mcdm.heroes.v1/movement/fly). The vampire rebel then [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed, then regains their true form. If they can''t fit in their current space when they return to their true form, they take 10 damage and are pushed to the nearest unoccupied space.'
       feature_type: ability
       icon: "\U0001F464"
-      keywords:
-        - '-'
+      keywords: []
       name: Bat Form
       target: Self
       type: feature

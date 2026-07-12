@@ -1,4 +1,5 @@
 ---
+echelon: "2"
 effect: 'You know the Khelt language. Additionally, choose one of the following benefits:'
 file_basename: fey-friend
 file_dpath: title

@@ -14,6 +14,7 @@ content: |-
       - *High Winds:* The [speed](scc.v1:mcdm.heroes.v1/rule.character/speed) of wind-powered vessels is doubled.
       - *Light Winds:* No effects due to weather.
       - *Storm:* The crew of an unsheltered wind-powered vessel must make a medium group [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) [test](scc.v1:mcdm.heroes.v1/rule.test/test). On a failure, the vessel needs repairs and moves at half [speed](scc.v1:mcdm.heroes.v1/rule.character/speed) until those repairs are made.
+echelon: "3"
 effect: 'Choose one of the following benefits:'
 flavor: All hail the Pirate Queen!
 name: Fleet Admiral

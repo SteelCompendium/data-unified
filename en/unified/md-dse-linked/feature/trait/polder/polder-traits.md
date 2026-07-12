@@ -14,7 +14,12 @@ type: trait
 
 ```ds-feature
 effects:
-    - effect: '[Polder](../../../ancestry/polder.md) heroes have access to the following traits.'
+    - effect: |-
+        [Polder](../../../ancestry/polder.md) heroes have access to the following traits.
+
+        #### Purchased Polder Traits
+
+        You have 4 ancestry points to spend on the following traits. (*Quick Build:* Corruption Immunity, Fearless, Graceful Retreat.)
 feature_type: trait
 metadata:
     ancestry: polder

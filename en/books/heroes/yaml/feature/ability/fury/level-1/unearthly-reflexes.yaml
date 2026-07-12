@@ -7,8 +7,7 @@ effects:
       effect: If the damage has any [potency](scc.v1:mcdm.heroes.v1/rule.character/potency) effects associated with it, the [potency](scc.v1:mcdm.heroes.v1/rule.character/potency) is reduced by 1 for you.
 feature_type: ability
 flavor: You are as elusive as a hummingbird.
-keywords:
-    - '-'
+keywords: []
 metadata:
     ability_type: Triggered
     action_type: Triggered
@@ -19,8 +18,7 @@ metadata:
     flavor: You are as elusive as a hummingbird.
     item_id: unearthly-reflexes
     item_name: Unearthly Reflexes
-    keywords:
-        - '-'
+    keywords: []
     level: 1
     scc:
         - mcdm.heroes.v1/feature.ability.fury.level-1/unearthly-reflexes

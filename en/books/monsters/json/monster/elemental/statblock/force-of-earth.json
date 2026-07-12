@@ -53,9 +53,7 @@
       ],
       "feature_type": "ability",
       "icon": "❗️",
-      "keywords": [
-        "-"
-      ],
+      "keywords": null,
       "name": "Break Armor",
       "target": "Self",
       "type": "feature",

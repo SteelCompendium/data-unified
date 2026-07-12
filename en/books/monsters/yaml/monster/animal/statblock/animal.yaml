@@ -23,8 +23,7 @@ features:
         - effect: '**Effect:** The animal moves up to their speed.'
       feature_type: ability
       icon: "\U0001F464"
-      keywords:
-        - '-'
+      keywords: []
       name: Rush
       target: Self
       type: feature

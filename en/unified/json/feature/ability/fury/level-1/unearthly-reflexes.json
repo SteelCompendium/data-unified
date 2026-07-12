@@ -13,9 +13,7 @@
   ],
   "feature_type": "ability",
   "flavor": "You are as elusive as a hummingbird.",
-  "keywords": [
-    "-"
-  ],
+  "keywords": null,
   "metadata": {
     "ability_type": "Triggered",
     "action_type": "Triggered",
@@ -26,9 +24,7 @@
     "flavor": "You are as elusive as a hummingbird.",
     "item_id": "unearthly-reflexes",
     "item_name": "Unearthly Reflexes",
-    "keywords": [
-      "-"
-    ],
+    "keywords": null,
     "level": 1,
     "scc": [
       "mcdm.heroes.v1/feature.ability.fury.level-1/unearthly-reflexes"

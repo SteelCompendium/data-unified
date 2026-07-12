@@ -81,8 +81,7 @@ features:
           tier3: No effect
       feature_type: ability
       icon: ☠️
-      keywords:
-        - '-'
+      keywords: []
       name: Land's Guardian
       target: Self
       type: feature

@@ -26,8 +26,7 @@ features:
             **Effect:** The shieldwall becomes the target of the triggering strike and halves the damage.
       feature_type: ability
       icon: ❗️
-      keywords:
-        - '-'
+      keywords: []
       name: Intercepting Shield
       target: Self
       type: feature

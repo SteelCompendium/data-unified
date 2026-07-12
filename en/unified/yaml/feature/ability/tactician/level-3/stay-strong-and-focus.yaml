@@ -5,8 +5,7 @@ effects:
       name: Effect
 feature_type: ability
 flavor: '"We can do this! Keep faith and hold fast!"'
-keywords:
-    - '-'
+keywords: []
 metadata:
     action_type: Maneuver
     class: tactician
@@ -16,8 +15,7 @@ metadata:
     flavor: '"We can do this! Keep faith and hold fast!"'
     item_id: stay-strong-and-focus
     item_name: Stay Strong and Focus!
-    keywords:
-        - '-'
+    keywords: []
     level: 3
     scc:
         - mcdm.heroes.v1/feature.ability.tactician.level-3/stay-strong-and-focus

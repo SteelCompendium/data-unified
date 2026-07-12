@@ -27,8 +27,6 @@ features:
       usage: Main action (Adjacent creature)
     - distance: '-'
       icon: ⭐️
-      keywords:
-        - '-'
       name: Reload
       sections:
         - label: Effect
@@ -37,8 +35,6 @@ features:
       usage: Main action (Adjacent creature)
     - distance: '-'
       icon: ⭐️
-      keywords:
-        - '-'
       name: Spot
       sections:
         - label: Effect
@@ -47,8 +43,6 @@ features:
       usage: Main action (Adjacent creature)
     - distance: '-'
       icon: ⭐️
-      keywords:
-        - '-'
       name: Move
       sections:
         - label: Effect

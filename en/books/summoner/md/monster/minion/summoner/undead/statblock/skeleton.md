@@ -22,8 +22,7 @@ speed: 6
 stability: 0
 stamina: "2"
 type: statblock
-weaknesses:
-    - —
+weaknesses: []
 ---
 
 These autonomous bone networks fall just short of replicating the structure they had in life. Skeleton bones are especially brittle and can splinter into huge shards when met with enough force.

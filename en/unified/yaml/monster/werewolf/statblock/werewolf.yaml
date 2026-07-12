@@ -82,8 +82,7 @@ features:
         - effect: '**Effect:** The werewolf jumps up to 4 squares. If they end this jump at a wall, the werewolf jumps off the wall up to 4 squares and can make a melee [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike). If the target of the [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) has M < 2, they are knocked [prone](scc.v1:mcdm.heroes.v1/condition/prone).'
       feature_type: ability
       icon: "\U0001F464"
-      keywords:
-        - '-'
+      keywords: []
       name: Wall Leap
       target: Self
       type: feature
@@ -123,8 +122,7 @@ features:
         - effect: '**Effect:** The werewolf transforms into a massive wolf of size 3 until they die or until the end of the encounter. They move to a space that can accommodate their new size and [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) creatures out of their way. While in wolf form, they have speed 10 and stability 2, their strikes gain a +2 damage bonus and bestow an additional 1 rage, and the [potency](scc.v1:mcdm.heroes.v1/rule.character/potency) of Accursed Bite increases by 1.'
       feature_type: ability
       icon: ☠️
-      keywords:
-        - '-'
+      keywords: []
       name: Full Wolf
       target: Self
       type: feature

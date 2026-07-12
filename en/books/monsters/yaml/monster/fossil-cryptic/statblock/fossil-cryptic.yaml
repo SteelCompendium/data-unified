@@ -73,8 +73,7 @@ features:
             **Effect:** The cryptic halves the damage, ignores any nondamaging effects associated with it, and [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to 3 squares.
       feature_type: ability
       icon: ❗️
-      keywords:
-        - '-'
+      keywords: []
       name: Dissipate
       target: Self
       type: feature

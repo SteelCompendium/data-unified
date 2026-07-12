@@ -21,8 +21,7 @@ size: "2"
 speed: 5
 stamina: 8 | 8
 type: statblock
-weaknesses:
-    - —
+weaknesses: []
 ---
 
 These massive, animated ogre corpses still maintain their incredible grip strength. When a lumberer falls, they'll take anything within reach down with them.

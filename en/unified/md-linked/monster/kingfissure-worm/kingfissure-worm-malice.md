@@ -3,8 +3,6 @@ features:
     - cost: 3 Malice
       distance: Self
       icon: ❗️
-      keywords:
-        - '-'
       name: Aftershock
       sections:
         - label: Trigger

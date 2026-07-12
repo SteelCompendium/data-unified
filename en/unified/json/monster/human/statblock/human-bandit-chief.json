@@ -131,9 +131,7 @@
       ],
       "feature_type": "ability",
       "icon": "☠️",
-      "keywords": [
-        "-"
-      ],
+      "keywords": null,
       "name": "Lead From the Front",
       "target": "Self",
       "type": "feature",

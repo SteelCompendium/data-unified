@@ -10,8 +10,7 @@ file_dpath: feature/ability/summoner/level-1
 flavor: I command you to not die.
 item_id: not-yet
 item_name: Not Yet!
-keywords:
-    - —
+keywords: []
 level: "1"
 name: Not Yet!
 scc: mcdm.summoner.v1/feature.ability.summoner.level-1/not-yet
@@ -27,8 +26,7 @@ effects:
     - effect: The [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage) the target receives is reduced by an amount that leaves the target alive with 1 point of [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).
 feature_type: ability
 flavor: I command you to not die.
-keywords:
-    - —
+keywords: []
 metadata:
     action_type: Triggered
     class: summoner
@@ -36,8 +34,7 @@ metadata:
     effect: The [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage) the target receives is reduced by an amount that leaves the target alive with 1 point of [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).
     feature_source: summoner
     flavor: I command you to not die.
-    keywords:
-        - —
+    keywords: []
     level: "1"
     name: Not Yet!
     scc: mcdm.summoner.v1/feature.ability.summoner.level-1/not-yet

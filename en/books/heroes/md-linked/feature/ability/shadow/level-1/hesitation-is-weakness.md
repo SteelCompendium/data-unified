@@ -5,8 +5,7 @@ cost: 1 Insight
 distance: Self
 effect: You take your [turn](../../../../rule/combat/turn.md) after the triggering hero.
 flavor: Keep up the attack. Never give them a moment's grace.
-keywords:
-    - '-'
+keywords: []
 level: "1"
 name: Hesitation Is Weakness
 scc: mcdm.heroes.v1/feature.ability.shadow.level-1/hesitation-is-weakness

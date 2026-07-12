@@ -26,8 +26,7 @@ features:
             **Effect:** The creatures or objects are smashed together using Rotten Smash, which has a double edge.
       feature_type: ability
       icon: ❗️
-      keywords:
-        - '-'
+      keywords: []
       name: Knocking Heads
       target: Self; see below
       type: feature

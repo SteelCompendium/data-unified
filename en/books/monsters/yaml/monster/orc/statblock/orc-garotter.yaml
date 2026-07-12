@@ -40,8 +40,7 @@ features:
         - effect: The garroter turns invisible until the end of their turn. This invisibility ends early if they take damage or use an ability.
       feature_type: ability
       icon: "\U0001F464"
-      keywords:
-        - '-'
+      keywords: []
       name: Chroma Cloak
       target: '-'
       type: feature

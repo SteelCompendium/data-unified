@@ -5,8 +5,7 @@ distance: Summoner's Range
 effect: The [damage](../../../../rule/damage/damage.md) the target receives is reduced by an amount that leaves the target alive with 1 point of [Stamina](../../../../rule/health/stamina.md).
 feature_source: summoner
 flavor: I command you to not die.
-keywords:
-    - —
+keywords: []
 level: "1"
 name: Not Yet!
 scc: mcdm.summoner.v1/feature.ability.summoner.level-1/not-yet

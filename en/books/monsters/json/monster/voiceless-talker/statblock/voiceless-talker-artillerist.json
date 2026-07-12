@@ -74,9 +74,7 @@
       ],
       "feature_type": "ability",
       "icon": "❗️",
-      "keywords": [
-        "-"
-      ],
+      "keywords": null,
       "name": "Tactical Reposition",
       "target": "Self",
       "type": "feature",

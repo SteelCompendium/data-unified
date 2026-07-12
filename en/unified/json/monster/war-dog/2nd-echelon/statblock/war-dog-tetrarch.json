@@ -127,9 +127,7 @@
       ],
       "feature_type": "ability",
       "icon": "☠️",
-      "keywords": [
-        "-"
-      ],
+      "keywords": null,
       "name": "You Would Dare?!",
       "target": "Self",
       "type": "feature",

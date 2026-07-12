@@ -3,8 +3,7 @@ agility: 3
 file_basename: gorrre
 file_dpath: monster/retainer/summoner/minion/statblock
 free_strike: 8
-immunities:
-    - —
+immunities: []
 intuition: -1
 item_id: gorrre
 item_name: Gorrre

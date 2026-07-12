@@ -29,8 +29,7 @@ speed: 5
 stability: 1
 stamina: 6 | 6
 type: statblock
-weaknesses:
-    - —
+weaknesses: []
 ---
 
 Shades are a form of umbral stalker that float free from any floor or surface. They can bend their appearance to completely vanish in the light.

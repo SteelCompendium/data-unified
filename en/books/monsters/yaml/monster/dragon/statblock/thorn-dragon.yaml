@@ -116,8 +116,7 @@ features:
         - effect: '**Effect:** The thorns upon the dragon''s scales grow longer and sharper. Until the end of the encounter, any [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) creature who targets the dragon with a melee strike takes 3 damage. The dragon then uses their Provoking Nettles ability.'
       feature_type: ability
       icon: ☠️
-      keywords:
-        - '-'
+      keywords: []
       name: Thorned Armor
       target: Self
       type: feature
@@ -130,8 +129,7 @@ features:
             **Special:** If the Thorn Dragon's Domain [trait](scc.v1:mcdm.monsters.v1/rule.monster/monster-trait) is in effect, any creature other than the dragon who starts their turn on the encounter map takes 1d3 poison damage.
       feature_type: ability
       icon: ☠️
-      keywords:
-        - '-'
+      keywords: []
       name: Malign Thicket
       target: Special
       type: feature

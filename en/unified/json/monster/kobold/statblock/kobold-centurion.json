@@ -81,9 +81,7 @@
       ],
       "feature_type": "ability",
       "icon": "☠️",
-      "keywords": [
-        "-"
-      ],
+      "keywords": null,
       "name": "Firetail Pilum",
       "target": "Special",
       "type": "feature",

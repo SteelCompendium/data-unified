@@ -24,8 +24,7 @@ features:
         - effect: '**Effect:** The wraith turns invisible, moves up to their speed, and is visible again.'
       feature_type: ability
       icon: "\U0001F464"
-      keywords:
-        - '-'
+      keywords: []
       name: Hidden Movement
       target: Self
       type: feature

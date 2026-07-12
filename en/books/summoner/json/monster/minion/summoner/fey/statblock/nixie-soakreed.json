@@ -39,9 +39,7 @@
   ],
   "flavor": "These nixies are especially tiny. Their hair grows longer than their bodies and curls into reeds. The water soakreeds swim in tends to turn thick and cling to surfaces.",
   "free_strike": 1,
-  "immunities": [
-    "—"
-  ],
+  "immunities": null,
   "intuition": 2,
   "keywords": [
     "Fey"
@@ -63,7 +61,5 @@
   "stability": 0,
   "stamina": "1",
   "type": "statblock",
-  "weaknesses": [
-    "—"
-  ]
+  "weaknesses": null
 }

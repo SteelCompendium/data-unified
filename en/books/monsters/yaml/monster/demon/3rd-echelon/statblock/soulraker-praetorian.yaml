@@ -26,8 +26,7 @@ features:
             **Effect:** The praetorian makes a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against the target, breaks off part of their stinger in the target, and [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to half their speed. The target is [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) until they remove the stinger fragment as a [free maneuver](scc.v1:mcdm.heroes.v1/rule.combat/free-maneuver), taking 6 damage in the process.
       feature_type: ability
       icon: ❗️
-      keywords:
-        - '-'
+      keywords: []
       name: Stinging Departure
       target: The triggering creature
       type: feature

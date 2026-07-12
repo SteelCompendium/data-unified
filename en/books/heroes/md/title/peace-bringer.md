@@ -1,4 +1,5 @@
 ---
+echelon: "4"
 effect: 'Your choice of your [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) or [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence) increases by 1 (to a maximum of 6). Additionally, choose one of the following benefits:'
 flavor: There goes Diana, peace bringer. She has won many a victory with her sword, but her greatest deed was convincing two nations to stop fighting.
 name: Peace Bringer

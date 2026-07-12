@@ -30,8 +30,7 @@ speed: 5
 stability: 0
 stamina: 6 | 6
 type: statblock
-weaknesses:
-    - —
+weaknesses: []
 ---
 
 The crux is a curtain of billowing hot ash with an avian head. They cover their victims in a burning cloak of charcoal and soot.

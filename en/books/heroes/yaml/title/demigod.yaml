@@ -14,6 +14,7 @@ content: |-
     - *Acolytes:* The number of [followers](scc.v1:mcdm.heroes.v1/rule.general/follower) you can recruit increases by two
     - *Divine Weapons:* Whenever you use a damage-dealing weapon ability, that ability can deal corruption or holy damage instead of its usual [damage type](scc.v1:mcdm.heroes.v1/rule.damage/damage-type).
     - *Missionaries:* You earn 2 [Renown](scc.v1:mcdm.heroes.v1/rule.resource/renown).
+echelon: "4"
 effect: 'You gain the following benefits:'
 flavor: The ritual is complete. I feel your power flow through me. I am become a god! Ah-ha-ha-ha-ha!
 name: Demigod

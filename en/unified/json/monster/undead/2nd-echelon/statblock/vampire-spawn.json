@@ -34,9 +34,7 @@
       ],
       "feature_type": "ability",
       "icon": "👤",
-      "keywords": [
-        "-"
-      ],
+      "keywords": null,
       "name": "Vampiric Celerity",
       "target": "Self",
       "type": "feature",

@@ -29,8 +29,7 @@ features:
         - effect: '**Effect:** The doomthief has damage immunity 4 and the size of the aura from their Doom Magnet trait increases by 3, both until the start of their next turn.'
       feature_type: ability
       icon: "\U0001F464"
-      keywords:
-        - '-'
+      keywords: []
       name: Expanding Doom
       target: Self
       type: feature

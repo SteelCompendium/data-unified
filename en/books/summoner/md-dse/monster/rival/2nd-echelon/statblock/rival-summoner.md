@@ -4,8 +4,7 @@ ev: "28"
 file_basename: rival-summoner
 file_dpath: monster/rival/2nd-echelon/statblock
 free_strike: 6
-immunities:
-    - —
+immunities: []
 intuition: 2
 item_id: rival-summoner
 item_name: Rival Summoner
@@ -27,8 +26,7 @@ speed: 5
 stability: 0
 stamina: "120"
 type: statblock
-weaknesses:
-    - —
+weaknesses: []
 ---
 
 | Humanoid, Rival | - | Level 5 | Elite Controller | EV 28 |

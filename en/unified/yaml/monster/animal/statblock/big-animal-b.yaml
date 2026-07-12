@@ -23,8 +23,7 @@ features:
         - effect: '**Effect:** The animal moves up to their speed. They can make a free strike against each creature who makes an opportunity attack against them during this movement.'
       feature_type: ability
       icon: "\U0001F464"
-      keywords:
-        - '-'
+      keywords: []
       name: Trundle
       target: Self
       type: feature
@@ -36,8 +35,7 @@ features:
             **Effect:** The animal moves up to their speed. If they end their turn adjacent to the target, they can use the [Stand Up](scc.v1:mcdm.heroes.v1/feature.common.maneuvers/stand-up) maneuver to let the target stand, then get on to ride them.
       feature_type: ability
       icon: ❗️
-      keywords:
-        - '-'
+      keywords: []
       name: Animal Rally
       target: One ally
       type: feature

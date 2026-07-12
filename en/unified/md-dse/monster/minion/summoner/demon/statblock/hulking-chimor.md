@@ -7,8 +7,7 @@ file_basename: hulking-chimor
 file_dpath: monster/minion/summoner/demon/statblock
 flavor: Chimors have no true shape; their bodies restructure and change endlessly. Pieces of the chimor demon snap off inside their prey, causing their bodies to also restructure from the inside out.
 free_strike: 3
-immunities:
-    - —
+immunities: []
 intuition: 1
 item_id: hulking-chimor
 item_name: Hulking Chimor

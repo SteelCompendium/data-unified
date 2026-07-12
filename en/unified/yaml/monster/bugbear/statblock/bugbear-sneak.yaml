@@ -84,8 +84,7 @@ features:
             **Effect:** The sneak chooses one enemy within distance of the strike to become the target of the strike.
       feature_type: ability
       icon: ❗️
-      keywords:
-        - '-'
+      keywords: []
       name: Clever Trick
       target: One enemy
       type: feature

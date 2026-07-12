@@ -1,4 +1,5 @@
 ---
+echelon: "4"
 effect: 'Your choice of your [Might](../rule/character/might.md) or [Agility](../rule/character/agility.md) increases by 1 (to a maximum of 6). Additionally, choose one of the following benefits:'
 file_basename: unchained
 file_dpath: title

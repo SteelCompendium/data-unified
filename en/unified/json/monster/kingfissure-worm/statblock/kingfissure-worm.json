@@ -117,9 +117,7 @@
       ],
       "feature_type": "ability",
       "icon": "❗️",
-      "keywords": [
-        "-"
-      ],
+      "keywords": null,
       "name": "Tearing Recoil",
       "target": "Special",
       "type": "feature",

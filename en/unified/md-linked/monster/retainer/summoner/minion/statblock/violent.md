@@ -1,8 +1,7 @@
 ---
 agility: 3
 free_strike: 4
-immunities:
-    - —
+immunities: []
 intuition: -1
 keywords:
     - Abyssal

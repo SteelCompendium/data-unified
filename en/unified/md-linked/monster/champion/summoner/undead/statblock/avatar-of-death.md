@@ -21,8 +21,7 @@ speed: 6
 stability: 3
 stamina: SPECIAL
 type: statblock
-weaknesses:
-    - —
+weaknesses: []
 ---
 
 | Undead | - | - | Champion | 9 essence for one champion |

@@ -90,9 +90,7 @@
       ],
       "feature_type": "ability",
       "icon": "👤",
-      "keywords": [
-        "-"
-      ],
+      "keywords": null,
       "name": "Scramble",
       "target": "Self",
       "type": "feature",

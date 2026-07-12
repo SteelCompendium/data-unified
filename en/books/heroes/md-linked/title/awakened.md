@@ -1,4 +1,5 @@
 ---
+echelon: "2"
 effect: 'Choose one of the following benefits:'
 flavor: I was grappling with them, and when they died... I felt something happen. To me.
 name: Awakened

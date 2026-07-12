@@ -123,9 +123,7 @@
       ],
       "feature_type": "ability",
       "icon": "👤",
-      "keywords": [
-        "-"
-      ],
+      "keywords": null,
       "name": "Wall Leap",
       "target": "Self",
       "type": "feature",
@@ -180,9 +178,7 @@
       ],
       "feature_type": "ability",
       "icon": "☠️",
-      "keywords": [
-        "-"
-      ],
+      "keywords": null,
       "name": "Full Wolf",
       "target": "Self",
       "type": "feature",

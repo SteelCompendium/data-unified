@@ -1,4 +1,5 @@
 ---
+echelon: "3"
 effect: 'Choose one of the following benefits:'
 flavor: All hail the Pirate Queen!
 name: Fleet Admiral

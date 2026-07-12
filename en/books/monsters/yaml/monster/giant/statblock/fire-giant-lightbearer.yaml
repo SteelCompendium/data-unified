@@ -54,8 +54,7 @@ features:
             **Effect:** The lightbearer emits a beacon of light until the start of their next turn. Each fire giant who has line of effect to the lightbearer has a double edge on abilities.
       feature_type: ability
       icon: ❗️
-      keywords:
-        - '-'
+      keywords: []
       name: Emergency Beacon
       target: Self
       type: feature

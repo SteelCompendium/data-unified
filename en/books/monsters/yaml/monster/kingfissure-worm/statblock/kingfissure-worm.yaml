@@ -82,8 +82,7 @@ features:
             **Effect:** The kingfissure worm deals 5 damage to the creature or object the tongue had [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed), releases that creature or object, then pulls the damaged tongue back into their mouth.
       feature_type: ability
       icon: ❗️
-      keywords:
-        - '-'
+      keywords: []
       name: Tearing Recoil
       target: Special
       type: feature

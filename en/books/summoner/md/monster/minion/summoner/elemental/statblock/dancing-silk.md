@@ -23,8 +23,7 @@ speed: 5
 stability: 0
 stamina: 4 | 4 | 4
 type: statblock
-weaknesses:
-    - —
+weaknesses: []
 ---
 
 The silks are akin to baby spiders ballooning through the air on strands of webbing. They spin silk from their legs as they fly, eventually turning huge swaths of the environment into tangled web mazes.

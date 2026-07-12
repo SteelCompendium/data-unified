@@ -45,9 +45,7 @@
       ],
       "feature_type": "ability",
       "icon": "👤",
-      "keywords": [
-        "-"
-      ],
+      "keywords": null,
       "name": "Expanding Doom",
       "target": "Self",
       "type": "feature",

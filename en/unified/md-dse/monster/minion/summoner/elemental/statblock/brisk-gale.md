@@ -28,8 +28,7 @@ speed: 5
 stability: 0
 stamina: "2"
 type: statblock
-weaknesses:
-    - —
+weaknesses: []
 ---
 
 The gales are twisting ribbons of cloud and debris endlessly dancing in place. They disrupt the air and allow their allies to move freely.

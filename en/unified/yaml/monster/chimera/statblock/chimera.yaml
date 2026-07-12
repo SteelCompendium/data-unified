@@ -114,8 +114,7 @@ features:
         - effect: '**Effect:** The chimera uses Dragon''s Eruption and Roar without spending [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice).'
       feature_type: ability
       icon: ☠️
-      keywords:
-        - '-'
+      keywords: []
       name: Fire Solo
       target: Self
       type: feature
@@ -126,8 +125,7 @@ features:
         - effect: '**Effect:** The chimera uses Roar, then [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed and can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against each enemy who comes [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to them during the shift. When the chimera ends this shift, they use Dragon''s Eruption. The use of these abilities as part of this [villain action](scc.v1:mcdm.monsters.v1/rule.monster/villain-action) costs no [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice).'
       feature_type: ability
       icon: ☠️
-      keywords:
-        - '-'
+      keywords: []
       name: Chorus of Destruction
       target: Self
       type: feature

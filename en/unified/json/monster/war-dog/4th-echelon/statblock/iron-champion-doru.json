@@ -73,9 +73,7 @@
       ],
       "feature_type": "ability",
       "icon": "❗️",
-      "keywords": [
-        "-"
-      ],
+      "keywords": null,
       "name": "Laugh It Off",
       "target": "Self",
       "type": "feature",

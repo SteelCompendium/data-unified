@@ -23,8 +23,7 @@ features:
         - effect: '**Effect:** The shadow coats their weapon with poison. They gain an edge on their next [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), and any [potency](scc.v1:mcdm.heroes.v1/rule.character/potency) for that strike increases by 1.'
       feature_type: ability
       icon: "\U0001F464"
-      keywords:
-        - '-'
+      keywords: []
       name: Poison the Blade
       target: Self
       type: feature

@@ -89,8 +89,7 @@ features:
         - effect: '**Effect:** Until the end of the encounter, the tetrarch has damage immunity 2, and their Houndblade ability targets three creatures or objects.'
       feature_type: ability
       icon: ☠️
-      keywords:
-        - '-'
+      keywords: []
       name: You Would Dare?!
       target: Self
       type: feature

@@ -2,8 +2,7 @@
 action_type: Maneuver
 distance: Self
 effect: You take a [bane](../../../rule/dice/bane.md) on this maneuver if your [size](../../../rule/character/size.md) is smaller than the size of the creature, object, or effect that has you [grabbed](../../../condition/grabbed.md).
-keywords:
-    - '-'
+keywords: []
 name: Escape Grab
 power_roll_characteristic: '[Might](../../../rule/character/might.md) or [Agility](../../../rule/character/agility.md)'
 scc: mcdm.heroes.v1/feature.ability.common/escape-grab

@@ -109,9 +109,7 @@
       ],
       "feature_type": "ability",
       "icon": "❗️",
-      "keywords": [
-        "-"
-      ],
+      "keywords": null,
       "name": "Field Collapse",
       "target": "Self",
       "type": "feature",
@@ -168,9 +166,7 @@
       ],
       "feature_type": "ability",
       "icon": "☠️",
-      "keywords": [
-        "-"
-      ],
+      "keywords": null,
       "name": "Burning Aurora",
       "target": "Self",
       "type": "feature",

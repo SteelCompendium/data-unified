@@ -23,8 +23,7 @@ features:
         - effect: '**Effect:** The predator assesses their environment or lets loose a threatening roar and gains an edge on their next strike.'
       feature_type: ability
       icon: "\U0001F464"
-      keywords:
-        - '-'
+      keywords: []
       name: Ready to Strike
       target: Self
       type: feature

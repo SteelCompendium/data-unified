@@ -22,8 +22,7 @@ speed: 6
 stability: 1
 stamina: 17 | 17
 type: statblock
-weaknesses:
-    - —
+weaknesses: []
 ---
 
 These phantoms puppet the remnants of their corporeal forms. Unlike other spirits, the ripper tears the reality around them and leaves behind distorted or uneven "bumps" in the air, which can affect stone, metal, and flesh.

@@ -1,4 +1,5 @@
 ---
+echelon: "3"
 effect: 'Choose one of the following benefits:'
 flavor: If you can't beat 'em, join 'em.
 name: Diabolist

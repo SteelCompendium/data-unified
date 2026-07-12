@@ -86,8 +86,7 @@ features:
         - effect: '**Effect:** Each enemy in the encounter takes 2 damage for each goblin [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to them.'
       feature_type: ability
       icon: ☠️
-      keywords:
-        - '-'
+      keywords: []
       name: Kill!
       target: Special
       type: feature

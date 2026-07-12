@@ -1,4 +1,5 @@
 ---
+echelon: "3"
 effect: You are restored to life. You gain the Tough But Withered signature trait from the [revenant](../ancestry/revenant.md) ancestry.
 file_basename: back-from-the-grave
 file_dpath: title

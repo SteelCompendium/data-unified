@@ -41,9 +41,6 @@
     {
       "distance": "-",
       "icon": "⭐️",
-      "keywords": [
-        "-"
-      ],
       "name": "Reload",
       "sections": [
         {
@@ -57,9 +54,6 @@
     {
       "distance": "-",
       "icon": "⭐️",
-      "keywords": [
-        "-"
-      ],
       "name": "Spot",
       "sections": [
         {
@@ -73,9 +67,6 @@
     {
       "distance": "-",
       "icon": "⭐️",
-      "keywords": [
-        "-"
-      ],
       "name": "Move",
       "sections": [
         {

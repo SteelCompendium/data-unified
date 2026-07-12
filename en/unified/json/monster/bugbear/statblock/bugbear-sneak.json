@@ -113,9 +113,7 @@
       ],
       "feature_type": "ability",
       "icon": "❗️",
-      "keywords": [
-        "-"
-      ],
+      "keywords": null,
       "name": "Clever Trick",
       "target": "One enemy",
       "type": "feature",

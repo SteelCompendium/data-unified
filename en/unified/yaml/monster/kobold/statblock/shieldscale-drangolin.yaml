@@ -24,8 +24,7 @@ features:
         - effect: '**Effect:** The drangolin [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed and uses Fiery Claws against each creature who comes [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to them during the shift. The drangolin makes one power roll against all targets.'
       feature_type: ability
       icon: "\U0001F464"
-      keywords:
-        - '-'
+      keywords: []
       name: Drangolin Plume
       target: Self
       type: feature

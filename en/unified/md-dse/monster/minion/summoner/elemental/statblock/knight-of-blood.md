@@ -30,8 +30,7 @@ source: mcdm.summoner.v1
 speed: 6
 stamina: 16 | 16
 type: statblock
-weaknesses:
-    - —
+weaknesses: []
 ---
 
 These faceless suits of armor have visible rivers of deep red blood flowing throughout their being. Their blood has a powerful pull to it, causing any open wounds nearby to rip deeper and leak toward the knight.

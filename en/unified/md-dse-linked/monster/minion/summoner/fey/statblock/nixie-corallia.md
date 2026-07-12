@@ -28,8 +28,7 @@ speed: 6
 stability: 0
 stamina: 17 | 17
 type: statblock
-weaknesses:
-    - —
+weaknesses: []
 ---
 
 Corallias are saltwater nixies with coarse, coral-like skin and curly hair with hooked ends. Their salty tears are used to hallow places of worship and ward off demons.

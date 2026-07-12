@@ -149,9 +149,7 @@
       ],
       "feature_type": "ability",
       "icon": "❗️",
-      "keywords": [
-        "-"
-      ],
+      "keywords": null,
       "name": "Skitter",
       "target": "Self",
       "type": "feature",
@@ -189,9 +187,7 @@
       ],
       "feature_type": "ability",
       "icon": "☠️",
-      "keywords": [
-        "-"
-      ],
+      "keywords": null,
       "name": "Sinkhole",
       "target": "Self",
       "type": "feature",
