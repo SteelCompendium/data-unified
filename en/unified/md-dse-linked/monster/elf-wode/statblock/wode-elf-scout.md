@@ -28,28 +28,60 @@ type: statblock
 with_captain: Gain an edge on strikes
 ---
 
-| Fey, Humanoid, Wode Elf |         -         |     Level 1      |               Minion Ambusher               | EV 3 for four minions |
-|:-----------------------:|:-----------------:|:----------------:|:-------------------------------------------:|:---------------------:|
-|     **1M**<br>Size      |  **10**<br>Speed  | **4**<br>Stamina |             **0**<br>Stability              | **2**<br>Free Strike  |
-|    **-**<br>Immunity    | **-**<br>Movement |        -         | **Gain an edge on strikes**<br>With Captain |   **-**<br>Weakness   |
-|     **0**<br>Might      | **+2**<br>Agility | **0**<br>Reason  |             **0**<br>Intuition              |  **+1**<br>Presence   |
-
-> ⚔️ **Daggers (Signature Ability)**
->
-> | **Melee, Ranged, Strike, Weapon** |                          **Main action** |
-> |-----------------------------------|-----------------------------------------:|
-> | **📏 Melee 1 or ranged 5**        | **🎯 One creature or object per minion** |
->
-> **Power Roll + 2:**
->
-> - **≤11:** 2 damage
-> - **12-16:** 4 damage
-> - **17+:** 5 damage
-
-> ⭐️ **Into the Green**
->
-> The scout can attempt to hide at the end of each of their turns.
-
-> ⭐️ **Masking Glamor**
->
-> Abilities targeting the scout that would take a bane from cover or concealment have a double bane instead.
+```ds-sb
+agility: 2
+ev: 3 for four minions
+features:
+    - ability_type: Signature Ability
+      distance: Melee 1 or ranged 5
+      effects:
+        - roll: Power Roll + 2
+          tier1: 2 damage
+          tier2: 4 damage
+          tier3: 5 damage
+      feature_type: ability
+      icon: ⚔️
+      keywords:
+        - Melee
+        - Ranged
+        - Strike
+        - Weapon
+      name: Daggers
+      target: One creature or object per minion
+      type: feature
+      usage: Main action
+    - effects:
+        - effect: The scout can attempt to hide at the end of each of their turns.
+      feature_type: trait
+      icon: ⭐️
+      name: Into the Green
+      type: feature
+    - effects:
+        - effect: Abilities targeting the scout that would take a bane from cover or concealment have a double bane instead.
+      feature_type: trait
+      icon: ⭐️
+      name: Masking Glamor
+      type: feature
+free_strike: 2
+intuition: 0
+keywords:
+    - Fey
+    - Humanoid
+    - Wode Elf
+level: 1
+metadata:
+    scc: mcdm.monsters.v1/monster.elf-wode.statblock/wode-elf-scout
+    source: mcdm.monsters.v1
+might: 0
+name: Wode Elf Scout
+organization: Minion
+presence: 1
+reason: 0
+role: Ambusher
+size: 1M
+speed: 10
+stability: 0
+stamina: "4"
+type: statblock
+with_captain: Gain an edge on strikes
+```

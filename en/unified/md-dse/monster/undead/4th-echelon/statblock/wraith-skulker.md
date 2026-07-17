@@ -30,26 +30,55 @@ type: statblock
 with_captain: +3 bonus to speed
 ---
 
-|                  Undead                  |             -              |     Level 10      |            Minion Harrier             | EV 12 for four minions |
-|:----------------------------------------:|:--------------------------:|:-----------------:|:-------------------------------------:|:----------------------:|
-|              **1M**<br>Size              |       **7**<br>Speed       | **15**<br>Stamina |          **1**<br>Stability           |  **4**<br>Free Strike  |
-| **Corruption 10, poison 10**<br>Immunity | **Fly, hover**<br>Movement |         -         | **+3 bonus to speed**<br>With Captain |   **-**<br>Weakness    |
-|             **-2**<br>Might              |     **+3**<br>Agility      | **+1**<br>Reason  |          **+1**<br>Intuition          |   **+5**<br>Presence   |
-
-> 🗡 **Draining Rake ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
->
-> | **Melee, Strike, Weapon** |                          **Main action** |
-> |---------------------------|-----------------------------------------:|
-> | **📏 Melee 1**            | **🎯 One creature or object per minion** |
->
-> **Power Roll + 5:**
->
-> - **≤11:** 4 cold damage; the wraith can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) 1 square
-> - **12-16:** 7 cold damage; the wraith [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to 2 square
-> - **17+:** 9 cold damage; P < 5 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends); the wraith [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to 3 squares
->
-> **Effect:** The wraith turns invisible until the start of their next turn.
-
-> ⭐️ **Corruptive Phasing**
->
-> The wraith can move through creatures and objects at their usual speed, but can't end their turn inside a creature or object. The first time in a round that the wraith moves through a creature, that creature takes 5 corruption damage. The wraith doesn't take damage from being [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement) into objects.
+```ds-sb
+agility: 3
+ev: 12 for four minions
+features:
+    - ability_type: Signature Ability
+      distance: Melee 1
+      effects:
+        - roll: Power Roll + 5
+          tier1: 4 cold damage; the wraith can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) 1 square
+          tier2: 7 cold damage; the wraith [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to 2 square
+          tier3: 9 cold damage; P < 5 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends); the wraith [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to 3 squares
+      feature_type: ability
+      icon: "\U0001F5E1"
+      keywords:
+        - Melee
+        - Strike
+        - Weapon
+      name: Draining Rake
+      target: One creature or object per minion
+      type: feature
+      usage: Main action
+    - effects:
+        - effect: The wraith can move through creatures and objects at their usual speed, but can't end their turn inside a creature or object. The first time in a round that the wraith moves through a creature, that creature takes 5 corruption damage. The wraith doesn't take damage from being [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement) into objects.
+      feature_type: trait
+      icon: ⭐️
+      name: Corruptive Phasing
+      type: feature
+free_strike: 4
+immunities:
+    - Corruption 10
+    - poison 10
+intuition: 1
+keywords:
+    - Undead
+level: 10
+metadata:
+    scc: mcdm.monsters.v1/monster.undead.4th-echelon.statblock/wraith-skulker
+    source: mcdm.monsters.v1
+might: -2
+movement: Fly, hover
+name: Wraith Skulker
+organization: Minion
+presence: 5
+reason: 1
+role: Harrier
+size: 1M
+speed: 7
+stability: 1
+stamina: "15"
+type: statblock
+with_captain: +3 bonus to speed
+```

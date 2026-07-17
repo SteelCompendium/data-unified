@@ -29,84 +29,133 @@ weaknesses:
     - Holy 5
 ---
 
-| Abyssal, Demon, Soulraker |          -          |      Level 9       |        Leader         |          EV 44           |
-|:-------------------------:|:-------------------:|:------------------:|:---------------------:|:------------------------:|
-|       **5**<br>Size       |   **6**<br>Speed    | **240**<br>Stamina |  **2**<br>Stability   |   **9**<br>Free Strike   |
-|     **-**<br>Immunity     | **Fly**<br>Movement |         -          | **-**<br>With Captain |  **Holy 5**<br>Weakness  |
-|      **+5**<br>Might      |  **-1**<br>Agility  |  **+3**<br>Reason  |  **+3**<br>Intuition  |    **+2**<br>Presence    |
-
-> ⚔️ **Stinging Ovipositor (Signature Ability)**
->
-> | **Magic, Melee, Ranged, Strike** |      **Main action** | 
-> |----------------------------------|---------------------:|
-> | **📏 Melee 1 or ranged 10**      | **🎯 Two creatures** |
->
-> **Power Roll + 5:**
->
-> - **≤11:** 14 poison damage; M < 3 [bleeding](../../../../condition/bleeding.md) (save ends)
-> - **12-16:** 19 poison damage; M < 4 [bleeding](../../../../condition/bleeding.md) (save ends)
-> - **17+:** 23 poison damage; M < 5 the target is implanted
->
-> **Effect:** An implanted target has a soulraker handmaiden parasite gestating in them (see the handmaiden's Implanted Parasite trait).
-
-> ❇️ **Forced Gestation (3 [Malice](../../../../rule/monster/malice.md))**
->
-> | **Area**        |                                          **Maneuver** |
-> |-----------------|------------------------------------------------------:|
-> | **📏 10 burst** | **🎯 Each implanted handmaiden parasite in the area** |
->
-> **Effect:** The hivequeen lets loose a subsonic call to each target, forcing them to immediately emerge from their host's body as a mature soulraker handmaiden and make a [free strike](../../../../feature/common/main-actions/free-strike.md).
-
-> ❗️ **For the Queen! (2 [Malice](../../../../rule/monster/malice.md))**
->
-> | **Area**       | **Triggered action** |
-> |----------------|---------------------:|
-> | **📏 5 burst** |       **🎯 Special** |
->
-> **Trigger:** The hivequeen is targeted by a strike for the second time on an attacker's turn, whether by the attacker or another creature acting on the attacker's turn.
->
-> **Effect:** Two soulraker [minions](../../../../rule/organization/minion.md) appear within distance.
->
-> **2 [Malice](../../../../rule/monster/malice.md):** A soulraker praetorian also appears within distance.
-
-> ⭐️ **Cannibal Queen**
->
-> At the end of their turn, the hivequeen can consume an [adjacent](../../../../rule/combat/adjacent.md) soulraker demon to end one effect on them that can be ended by a [saving throw](../../../../rule/general/saving-throw.md) (no action required).
-
-> ⭐️ **Hive Soulsight**
->
-> Any creature within 2 squares of a soulraker demon within 100 miles of the hivequeen can't be hidden from the hivequeen. The hivequeen has [line of effect](../../../../rule/combat/line-of-effect.md) to such creatures.
-
-> ☠️ **Kicking the Nest (Villain Action 1)**
->
-> | **Area**        |                                    **-** |
-> |-----------------|-----------------------------------------:|
-> | **📏 10 burst** | **🎯 Each soulraker minion in the area** |
->
-> **Effect:** Each target can move their speed and make a [free strike](../../../../feature/common/main-actions/free-strike.md). If no [minions](../../../../rule/organization/minion.md) are present, four soulraker [minions](../../../../rule/organization/minion.md) are summoned into unoccupied spaces within distance before the hivequeen uses this [villain action](../../../../rule/monster/villain-action.md).
-
-> ☠️ **Buzz Off! (Villain Action 2)**
->
-> | **Area**       |                         **-** |
-> |----------------|------------------------------:|
-> | **📏 5 burst** | **🎯 Each enemy in the area** |
->
-> **Power Roll + 5:**
->
-> - **≤11:** Push 3; I < 3 [dazed](../../../../condition/dazed.md) (save ends)
-> - **12-16:** Push 3; I < 4 [dazed](../../../../condition/dazed.md) (save ends)
-> - **17+:** 11 sonic damage; push 3; I < 5 [dazed](../../../../condition/dazed.md) (save ends)
->
-> **Effect:** The hivequeen [shifts](../../../../movement/shifting.md) up to her speed.
-
-> ☠️ **Bomber Wasp Warfare (Villain Action 3)**
->
-> | **Area, Magic, Ranged**       |                         **-** |
-> |-------------------------------|------------------------------:|
-> | **📏 Four 2 cubes within 10** | **🎯 Each enemy in the area** |
->
-> **Power Roll + 4:**
->
-> - **≤11:** 7 poison damage; M < 3 [bleeding](../../../../condition/bleeding.md) (save ends)
-> - **12-16:** 11 poison damage; M < 4 [bleeding](../../../../condition/bleeding.md) (save ends)
-> - **17+:** 14 poison damage; M < 5 [bleeding](../../../../condition/bleeding.md) (save ends)
+```ds-sb
+agility: -1
+ev: "44"
+features:
+    - ability_type: Signature Ability
+      distance: Melee 1 or ranged 10
+      effects:
+        - roll: Power Roll + 5
+          tier1: 14 poison damage; M < 3 [bleeding](../../../../condition/bleeding.md) (save ends)
+          tier2: 19 poison damage; M < 4 [bleeding](../../../../condition/bleeding.md) (save ends)
+          tier3: 23 poison damage; M < 5 the target is implanted
+      feature_type: ability
+      icon: ⚔️
+      keywords:
+        - Magic
+        - Melee
+        - Ranged
+        - Strike
+      name: Stinging Ovipositor
+      target: Two creatures
+      type: feature
+      usage: Main action
+    - cost: 3 Malice
+      distance: 10 burst
+      effects:
+        - effect: '**Effect:** The hivequeen lets loose a subsonic call to each target, forcing them to immediately emerge from their host''s body as a mature soulraker handmaiden and make a [free strike](../../../../feature/common/main-actions/free-strike.md).'
+      feature_type: ability
+      icon: ❇️
+      keywords:
+        - Area
+      name: Forced Gestation
+      target: Each implanted handmaiden parasite in the area
+      type: feature
+      usage: Maneuver
+    - cost: 2 Malice
+      distance: 5 burst
+      effects:
+        - effect: |-
+            **Trigger:** The hivequeen is targeted by a strike for the second time on an attacker's turn, whether by the attacker or another creature acting on the attacker's turn.
+            **Effect:** Two soulraker [minions](../../../../rule/organization/minion.md) appear within distance.
+            **2 [Malice](../../../../rule/monster/malice.md):** A soulraker praetorian also appears within distance.
+      feature_type: ability
+      icon: ❗️
+      keywords:
+        - Area
+      name: For the Queen!
+      target: Special
+      type: feature
+      usage: Triggered action
+    - effects:
+        - effect: At the end of their turn, the hivequeen can consume an [adjacent](../../../../rule/combat/adjacent.md) soulraker demon to end one effect on them that can be ended by a [saving throw](../../../../rule/general/saving-throw.md) (no action required).
+      feature_type: trait
+      icon: ⭐️
+      name: Cannibal Queen
+      type: feature
+    - effects:
+        - effect: Any creature within 2 squares of a soulraker demon within 100 miles of the hivequeen can't be hidden from the hivequeen. The hivequeen has [line of effect](../../../../rule/combat/line-of-effect.md) to such creatures.
+      feature_type: trait
+      icon: ⭐️
+      name: Hive Soulsight
+      type: feature
+    - cost: Villain Action 1
+      distance: 10 burst
+      effects:
+        - effect: '**Effect:** Each target can move their speed and make a [free strike](../../../../feature/common/main-actions/free-strike.md). If no [minions](../../../../rule/organization/minion.md) are present, four soulraker [minions](../../../../rule/organization/minion.md) are summoned into unoccupied spaces within distance before the hivequeen uses this [villain action](../../../../rule/monster/villain-action.md).'
+      feature_type: ability
+      icon: ☠️
+      keywords:
+        - Area
+      name: Kicking the Nest
+      target: Each soulraker minion in the area
+      type: feature
+      usage: '-'
+    - cost: Villain Action 2
+      distance: 5 burst
+      effects:
+        - roll: Power Roll + 5
+          tier1: Push 3; I < 3 [dazed](../../../../condition/dazed.md) (save ends)
+          tier2: Push 3; I < 4 [dazed](../../../../condition/dazed.md) (save ends)
+          tier3: 11 sonic damage; push 3; I < 5 [dazed](../../../../condition/dazed.md) (save ends)
+      feature_type: ability
+      icon: ☠️
+      keywords:
+        - Area
+      name: Buzz Off!
+      target: Each enemy in the area
+      type: feature
+      usage: '-'
+    - cost: Villain Action 3
+      distance: Four 2 cubes within 10
+      effects:
+        - roll: Power Roll + 4
+          tier1: 7 poison damage; M < 3 [bleeding](../../../../condition/bleeding.md) (save ends)
+          tier2: 11 poison damage; M < 4 [bleeding](../../../../condition/bleeding.md) (save ends)
+          tier3: 14 poison damage; M < 5 [bleeding](../../../../condition/bleeding.md) (save ends)
+      feature_type: ability
+      icon: ☠️
+      keywords:
+        - Area
+        - Magic
+        - Ranged
+      name: Bomber Wasp Warfare
+      target: Each enemy in the area
+      type: feature
+      usage: '-'
+free_strike: 9
+intuition: 3
+keywords:
+    - Abyssal
+    - Demon
+    - Soulraker
+level: 9
+metadata:
+    scc: mcdm.monsters.v1/monster.demon.3rd-echelon.statblock/soulraker-hivequeen
+    source: mcdm.monsters.v1
+might: 5
+movement: Fly
+name: Soulraker Hivequeen
+organization: Leader
+presence: 2
+reason: 3
+role: ""
+size: "5"
+speed: 6
+stability: 2
+stamina: "240"
+type: statblock
+weaknesses:
+    - Holy 5
+```

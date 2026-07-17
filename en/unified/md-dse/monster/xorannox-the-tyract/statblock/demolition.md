@@ -27,24 +27,53 @@ stamina: "30"
 type: statblock
 ---
 
-| Eyestalk, Horror, Overmind |             -              |      Level 6      |       Artillery       |          EV -        |
-|:--------------------------:|:--------------------------:|:-----------------:|:---------------------:|:--------------------:|
-|       **1M**<br>Size       |       **5**<br>Speed       | **30**<br>Stamina |  **0**<br>Stability   | **3**<br>Free Strike |
-|     **-**<br>Immunity      | **Fly, hover**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
-|      **-1**<br>Might       |     **+1**<br>Agility      | **+4**<br>Reason  |  **+1**<br>Intuition  |  **-1**<br>Presence  |
-
-> 🔳 **Explosion ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
->
-> | **Psionic, Ranged, Strike** |               **Main action** |
-> |-----------------------------|------------------------------:|
-> | **📏 4 cube within 10**     | **🎯 Each enemy in the area** |
->
-> **Power Roll + 4:**
->
-> - **≤11:** 6 fire damage
-> - **12-16:** 10 fire damage; M < 3 [prone](scc.v1:mcdm.heroes.v1/condition/prone)
-> - **17+:** 13 fire damage; M < 4 [prone](scc.v1:mcdm.heroes.v1/condition/prone)
-
-> ⭐️ **Psionic Barrier**
->
-> The demolition eye has damage immunity 15. When they use a main action, they lose this immunity until the end of the round.
+```ds-sb
+agility: 1
+ev: '-'
+features:
+    - ability_type: Signature Ability
+      distance: 4 cube within 10
+      effects:
+        - roll: Power Roll + 4
+          tier1: 6 fire damage
+          tier2: 10 fire damage; M < 3 [prone](scc.v1:mcdm.heroes.v1/condition/prone)
+          tier3: 13 fire damage; M < 4 [prone](scc.v1:mcdm.heroes.v1/condition/prone)
+      feature_type: ability
+      icon: "\U0001F533"
+      keywords:
+        - Psionic
+        - Ranged
+        - Strike
+      name: Explosion
+      target: Each enemy in the area
+      type: feature
+      usage: Main action
+    - effects:
+        - effect: The demolition eye has damage immunity 15. When they use a main action, they lose this immunity until the end of the round.
+      feature_type: trait
+      icon: ⭐️
+      name: Psionic Barrier
+      type: feature
+free_strike: 3
+intuition: 1
+keywords:
+    - Eyestalk
+    - Horror
+    - Overmind
+level: 6
+metadata:
+    scc: mcdm.monsters.v1/monster.xorannox-the-tyract.statblock/demolition
+    source: mcdm.monsters.v1
+might: -1
+movement: Fly, hover
+name: Demolition
+organization: ""
+presence: -1
+reason: 4
+role: Artillery
+size: 1M
+speed: 5
+stability: 0
+stamina: "30"
+type: statblock
+```

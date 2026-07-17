@@ -27,74 +27,112 @@ stamina: "60"
 type: statblock
 ---
 
-|  Animal, Goblin   |           -           |      Level 1      |      Elite Mount      |        EV 12         |
-|:-----------------:|:---------------------:|:-----------------:|:---------------------:|:--------------------:|
-|   **3**<br>Size   |    **7**<br>Speed     | **60**<br>Stamina |  **2**<br>Stability   | **4**<br>Free Strike |
-| **-**<br>Immunity | **Climb**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
-|  **+2**<br>Might  |   **+1**<br>Agility   | **-4**<br>Reason  |  **0**<br>Intuition   |  **-3**<br>Presence  |
-
-> 🗡 **Bite (Signature Ability)**
->
-> | **Melee, Strike, Weapon** |     **Main action** |
-> |---------------------------|--------------------:|
-> | **📏 Melee 1**            | **🎯 One creature** |
->
-> **Power Roll + 2:**
->
-> - **≤11:** 7 poison damage
-> - **12-16:** 11 poison damage
-> - **17+:** 14 poison damage; M < 2 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
->
-> **2 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice):** For any tier outcome, if the target has M < 3, they are [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends).
-
-> 🗡 **Leg Blade**
->
-> | **Melee, Strike, Weapon** |                 **Main action** |
-> |---------------------------|--------------------------------:|
-> | **📏 Melee 1**            | **🎯 Two creatures or objects** |
->
-> **Power Roll + 2:**
->
-> - **≤11:** 6 damage
-> - **12-16:** 9 damage
-> - **17+:** 12 damage
-
-> 👤 **Trample (5 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
->
-> | **-** | **Main action** |
-> | --- | ---:|
-> | **📏 Self** | **🎯 Self** |
->
-> **Effect:** The spider [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed and uses Leg Blade against each creature who comes [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to them during the shift. The spider makes one power roll against all targets.
-
-> 🔳 **Web**
->
-> | **Area, Weapon**       |                     **Maneuver** |
-> |------------------------|---------------------------------:|
-> | **📏 3 cube within 1** | **🎯 Each creature in the area** |
->
-> **Power Roll + 2:**
->
-> - **≤11:** A < 0 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
-> - **12-16:** A < 1 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
-> - **17+:** A < 2 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
->
-> **Effect:** The area is [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain) for enemies.
-
-> ❗️ **Skitter**
->
-> | **-**       | **Triggered action** |
-> |-------------|---------------------:|
-> | **📏 Self** |          **🎯 Self** |
->
-> **Trigger:** The spider or any ally riding the spider takes damage.
->
-> **Effect:** The damage is halved, and the spider [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to 2 squares after the triggering effect resolves.
-
-> ⭐️ **Ride Launcher**
->
-> Any ally who leaps off the back of the spider can jump up to 6 squares without making a test, and takes no damage if they fall during the jump. After any ally jumps, the first melee strike the make on the same turn gains an edge.
-
-> ⭐️ **Wide Back**
->
-> While riding the spider, two size 1 allies can occupy the same space.
+```ds-sb
+agility: 1
+ev: "12"
+features:
+    - ability_type: Signature Ability
+      distance: Melee 1
+      effects:
+        - roll: Power Roll + 2
+          tier1: 7 poison damage
+          tier2: 11 poison damage
+          tier3: 14 poison damage; M < 2 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+      feature_type: ability
+      icon: "\U0001F5E1"
+      keywords:
+        - Melee
+        - Strike
+        - Weapon
+      name: Bite
+      target: One creature
+      type: feature
+      usage: Main action
+    - distance: Melee 1
+      effects:
+        - roll: Power Roll + 2
+          tier1: 6 damage
+          tier2: 9 damage
+          tier3: 12 damage
+      feature_type: ability
+      icon: "\U0001F5E1"
+      keywords:
+        - Melee
+        - Strike
+        - Weapon
+      name: Leg Blade
+      target: Two creatures or objects
+      type: feature
+      usage: Main action
+    - cost: 5 Malice
+      distance: Self
+      effects:
+        - effect: '**Effect:** The spider [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed and uses Leg Blade against each creature who comes [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to them during the shift. The spider makes one power roll against all targets.'
+      feature_type: ability
+      icon: "\U0001F464"
+      keywords: []
+      name: Trample
+      target: Self
+      type: feature
+      usage: Main action
+    - distance: 3 cube within 1
+      effects:
+        - roll: Power Roll + 2
+          tier1: A < 0 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
+          tier2: A < 1 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
+          tier3: A < 2 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
+      feature_type: ability
+      icon: "\U0001F533"
+      keywords:
+        - Area
+        - Weapon
+      name: Web
+      target: Each creature in the area
+      type: feature
+      usage: Maneuver
+    - distance: Self
+      effects:
+        - effect: |-
+            **Trigger:** The spider or any ally riding the spider takes damage.
+            **Effect:** The damage is halved, and the spider [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to 2 squares after the triggering effect resolves.
+      feature_type: ability
+      icon: ❗️
+      keywords: []
+      name: Skitter
+      target: Self
+      type: feature
+      usage: Triggered action
+    - effects:
+        - effect: Any ally who leaps off the back of the spider can jump up to 6 squares without making a test, and takes no damage if they fall during the jump. After any ally jumps, the first melee strike the make on the same turn gains an edge.
+      feature_type: trait
+      icon: ⭐️
+      name: Ride Launcher
+      type: feature
+    - effects:
+        - effect: While riding the spider, two size 1 allies can occupy the same space.
+      feature_type: trait
+      icon: ⭐️
+      name: Wide Back
+      type: feature
+free_strike: 4
+intuition: 0
+keywords:
+    - Animal
+    - Goblin
+level: 1
+metadata:
+    scc: mcdm.monsters.v1/monster.goblin.statblock/war-spider
+    source: mcdm.monsters.v1
+might: 2
+movement: Climb
+name: War Spider
+organization: Elite
+presence: -3
+reason: -4
+role: Mount
+size: "3"
+speed: 7
+stability: 2
+stamina: "60"
+type: statblock
+```

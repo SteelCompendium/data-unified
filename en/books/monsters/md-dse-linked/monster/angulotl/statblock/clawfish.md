@@ -31,26 +31,56 @@ type: statblock
 with_captain: Gain an edge on strikes
 ---
 
-|           Angulotl, Animal            |              -              |     Level 1      |                Minion Brute                 |  EV 3 for 4 minions  |
-|:-------------------------------------:|:---------------------------:|:----------------:|:-------------------------------------------:|:--------------------:|
-|            **1S**<br>Size             |       **5**<br>Speed        | **5**<br>Stamina |             **0**<br>Stability              | **2**<br>Free Strike |
-| **Lightning 3, Poison 2**<br>Immunity | **Climb, swim**<br>Movement |        -         | **Gain an edge on strikes**<br>With Captain |  **-**<br>Weakness   |
-|            **+0**<br>Might            |      **+2**<br>Agility      | **-3**<br>Reason |             **-2**<br>Intuition             |  **+1**<br>Presence  |
-
-> 🗡 **Hookclaw (Signature Ability)**
->
-> | **Melee, Strike, Weapon** |                          **Main action** |
-> |---------------------------|-----------------------------------------:|
-> | **📏 Melee 1**            | **🎯 One creature or object per minion** |
->
-> **Power Roll + 2:**
->
-> - **≤11:** 2 damage
-> - **12-16:** 4 damage
-> - **17+:** 5 damage; [grabbed](../../../condition/grabbed.md)
->
-> **Effect:** Any target [grabbed](../../../condition/grabbed.md) this way takes 2 lightning damage at the start of each of their turns.
-
-> ⭐️ **Shocking**
->
-> At the start of each of their turns, the clawfish deals 2 lightning damage to each wet enemy within 2 squares.
+```ds-sb
+agility: 2
+ev: 3 for 4 minions
+features:
+    - ability_type: Signature Ability
+      distance: Melee 1
+      effects:
+        - roll: Power Roll + 2
+          tier1: 2 damage
+          tier2: 4 damage
+          tier3: 5 damage; [grabbed](../../../condition/grabbed.md)
+      feature_type: ability
+      icon: "\U0001F5E1"
+      keywords:
+        - Melee
+        - Strike
+        - Weapon
+      name: Hookclaw
+      target: One creature or object per minion
+      type: feature
+      usage: Main action
+    - effects:
+        - effect: At the start of each of their turns, the clawfish deals 2 lightning damage to each wet enemy within 2 squares.
+      feature_type: trait
+      icon: ⭐️
+      name: Shocking
+      type: feature
+free_strike: 2
+immunities:
+    - Lightning 3
+    - Poison 2
+intuition: -2
+keywords:
+    - Angulotl
+    - Animal
+level: 1
+metadata:
+    scc: mcdm.monsters.v1/monster.angulotl.statblock/clawfish
+    source: mcdm.monsters.v1
+might: 0
+movement: Climb, swim
+name: Clawfish
+organization: Minion
+presence: 1
+reason: -3
+role: Brute
+size: 1S
+speed: 5
+stability: 0
+stamina: "5"
+type: statblock
+with_captain: Gain an edge on strikes
+```

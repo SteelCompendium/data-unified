@@ -34,28 +34,59 @@ weaknesses:
     - Fire 1
 ---
 
-The preserved dead, bound for eternal rest, know only violence when robbed of their future. Accursed mummies use their wrappings to bind others to the same fate.
-
-| Mummy, Undead | - | - | Minion Hexer | 5 essence for three minions |
-|:--------------:|:-------------:|:------------:|:-:|:---------------------------:|
-| **1M**<br>Size | **5**<br>Speed | **4 \| 4 \| 4**<br>Stamina | **2**<br>Stability | **3**<br>Free Strike |
-| **Corruption R, Poison R**<br>Immunity | **—**<br>Movement | - | **Fire 1**<br>Weakness | **Poison**<br>Free Strike Damage Type |
-| **+2**<br>Might | **-1**<br>Agility | **+1**<br>Reason | **+3**<br>Intuition | **-1**<br>Presence |
-
-> 🏹 **Fetid Bindings 2d10 + R (Signature Ability)**
->
-> | **Melee, Strike, Weapon** | **Main action** |
-> |---------------------------|----------------:|
-> | **📏 Melee R** | **🎯 One creature or object per minion** |
->
-> 3 poison [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage); pull R
->
-> 4 poison [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage); pull R + 1
->
-> 6 poison [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage); pull R + 2
->
-> **Effect:** A target pulled [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the mummy is M < STRONG [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (EoT).
-
-> ⭐️ **Mummy Dust**
->
-> Whenever the mummy takes [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage), each enemy [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the mummy takes 2 poison [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage).
+```ds-sb
+agility: -1
+cost: 5 essence for three minions
+ev: ""
+features:
+    - ability_type: Signature Ability
+      distance: Melee R
+      effects:
+        - roll: 2d10 + R
+          tier1: 3 poison [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage); pull R
+          tier2: 4 poison [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage); pull R + 1
+          tier3: 6 poison [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage); pull R + 2
+      feature_type: ability
+      icon: "\U0001F3F9"
+      keywords:
+        - Melee
+        - Strike
+        - Weapon
+      name: Fetid Bindings
+      target: One creature or object per minion
+      type: feature
+      usage: Main action
+    - effects:
+        - effect: Whenever the mummy takes [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage), each enemy [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the mummy takes 2 poison [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage).
+      feature_type: trait
+      icon: ⭐️
+      name: Mummy Dust
+      type: feature
+flavor: The preserved dead, bound for eternal rest, know only violence when robbed of their future. Accursed mummies use their wrappings to bind others to the same fate.
+free_strike: 3
+immunities:
+    - Corruption R
+    - Poison R
+intuition: 3
+keywords:
+    - Mummy
+    - Undead
+level: 0
+metadata:
+    scc: mcdm.summoner.v1/monster.minion.summoner.undead.statblock/accursed-mummy
+    source: mcdm.summoner.v1
+might: 2
+movement: —
+name: Accursed Mummy
+organization: Minion
+presence: -1
+reason: 1
+role: Hexer
+size: 1M
+speed: 5
+stability: 2
+stamina: 4 | 4 | 4
+type: statblock
+weaknesses:
+    - Fire 1
+```

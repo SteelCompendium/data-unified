@@ -30,40 +30,73 @@ stamina: "35"
 type: statblock
 ---
 
-| Humanoid, Soulless, War Dog |           -           |      Level 6      |    Horde Artillery    |         EV 8         |
-|:---------------------------:|:---------------------:|:-----------------:|:---------------------:|:--------------------:|
-|       **1L**<br>Size        |    **5**<br>Speed     | **35**<br>Stamina |  **0**<br>Stability   | **4**<br>Free Strike |
-|  **Psychic 6**<br>Immunity  | **Climb**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
-|       **0**<br>Might        |   **+3**<br>Agility   | **+2**<br>Reason  |  **+2**<br>Intuition  |  **+1**<br>Presence  |
-
-> 🏹 **Longarm Shrikegun ([Signature Ability](../../../../rule/combat/signature-ability.md))**
->
-> | **Ranged, Strike, Weapon** |               **Main action** |
-> |----------------------------|------------------------------:|
-> | **📏 Ranged 15**           | **🎯 One creature or object** |
->
-> **Power Roll + 3:**
->
-> - **≤11:** 7 damage
-> - **12-16:** 9 damage
-> - **17+:** 11 damage; A < 3 [bleeding](../../../../condition/bleeding.md) (save ends)
->
-> **Effect:** This ability ignores cover and concealment. The arachnite chooses one of the following damage types when making the strike: acid, cold, fire, lightning, poison, psychic, or sonic.
->
-> **2 [Malice](../../../../rule/monster/malice.md):** The arachnite can use this ability as if they were in the space of any ally within distance.
-
-> 🔳 **Web Vial**
->
-> | **Area, Ranged**        |   **Maneuver** |
-> |-------------------------|---------------:|
-> | **📏 2 cube within 10** | **🎯 Special** |
->
-> **Effect:** The area is [difficult terrain](../../../../movement/difficult-terrain.md) until the end of the encounter.
-
-> ⭐️ **Eight-Eyed Sight**
->
-> At the start of each of their turns, the arachnite automatically knows the location of each hidden creature within 10 squares of them.
-
-> ⭐️ **Loyalty Collar**
->
-> When the arachnite is reduced to 0 [Stamina](../../../../rule/health/stamina.md), their loyalty collar explodes, dealing 2d6 damage to each [adjacent](../../../../rule/combat/adjacent.md) enemy and object.
+```ds-sb
+agility: 3
+ev: "8"
+features:
+    - ability_type: Signature Ability
+      distance: Ranged 15
+      effects:
+        - roll: Power Roll + 3
+          tier1: 7 damage
+          tier2: 9 damage
+          tier3: 11 damage; A < 3 [bleeding](../../../../condition/bleeding.md) (save ends)
+      feature_type: ability
+      icon: "\U0001F3F9"
+      keywords:
+        - Ranged
+        - Strike
+        - Weapon
+      name: Longarm Shrikegun
+      target: One creature or object
+      type: feature
+      usage: Main action
+    - distance: 2 cube within 10
+      effects:
+        - effect: '**Effect:** The area is [difficult terrain](../../../../movement/difficult-terrain.md) until the end of the encounter.'
+      feature_type: ability
+      icon: "\U0001F533"
+      keywords:
+        - Area
+        - Ranged
+      name: Web Vial
+      target: Special
+      type: feature
+      usage: Maneuver
+    - effects:
+        - effect: At the start of each of their turns, the arachnite automatically knows the location of each hidden creature within 10 squares of them.
+      feature_type: trait
+      icon: ⭐️
+      name: Eight-Eyed Sight
+      type: feature
+    - effects:
+        - effect: When the arachnite is reduced to 0 [Stamina](../../../../rule/health/stamina.md), their loyalty collar explodes, dealing 2d6 damage to each [adjacent](../../../../rule/combat/adjacent.md) enemy and object.
+      feature_type: trait
+      icon: ⭐️
+      name: Loyalty Collar
+      type: feature
+free_strike: 4
+immunities:
+    - Psychic 6
+intuition: 2
+keywords:
+    - Humanoid
+    - Soulless
+    - War Dog
+level: 6
+metadata:
+    scc: mcdm.monsters.v1/monster.war-dog.2nd-echelon.statblock/war-dog-arachnite
+    source: mcdm.monsters.v1
+might: 0
+movement: Climb
+name: War Dog Arachnite
+organization: Horde
+presence: 1
+reason: 2
+role: Artillery
+size: 1L
+speed: 5
+stability: 0
+stamina: "35"
+type: statblock
+```

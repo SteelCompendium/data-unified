@@ -27,40 +27,72 @@ stamina: "100"
 type: statblock
 ---
 
-| Abyssal, Demon, Gnoll |         -         |      Level 2       |      Elite Brute      |        EV 16         | 
-|:---------------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
-|     **3**<br>Size     |  **7**<br>Speed   | **100**<br>Stamina |  **3**<br>Stability   | **5**<br>Free Strike |
-|   **-**<br>Immunity   | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
-|    **+2**<br>Might    | **-1**<br>Agility |  **-3**<br>Reason  |  **0**<br>Intuition   |  **-1**<br>Presence  |
-
-> 🗡 **Gore (Signature Ability)**
->
-> | **Charge, Melee, Strike, Weapon** |                 **Main action** |
-> |-----------------------------------|--------------------------------:|
-> | **📏 Melee 2**                    | **🎯 Two creatures or objects** |
->
-> **Power Roll + 2:**
->
-> - **≤11:** 7 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1
-> - **12-16:** 11 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2
-> - **17+:** 14 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3, [prone](scc.v1:mcdm.heroes.v1/condition/prone)
->
-> **Effect:** If this ability is used as part of the Charge main action, it deals an extra 4 damage.
-
-> ❗️ **Vengeful Tusker**
->
-> | **Ranged**      |        **Triggered action** |
-> |-----------------|----------------------------:|
-> | **📏 Ranged 7** | **🎯 The triggering enemy** |
->
-> **Trigger:** An enemy within distance deals damage to the tusker.
->
-> **Effect:** The tusker demon uses the Charge main action and Gore against the target.
-
-> ⭐️ **Trample**
->
-> The tusker demon can move through enemies' spaces at their usual speed. When the tusker enters a creature's space for the first time on a turn, that creature takes 5 damage. The tusker demon can end their turn in a [prone](scc.v1:mcdm.heroes.v1/condition/prone) size 1 creature's space, preventing the creature from standing up.
-
-> ⭐️ **Lethe**
->
-> While the tusker demon is [winded](scc.v1:mcdm.heroes.v1/rule.health/winded), they gain an edge on strikes, and any strike made against them gains an edge.
+```ds-sb
+agility: -1
+ev: "16"
+features:
+    - ability_type: Signature Ability
+      distance: Melee 2
+      effects:
+        - roll: Power Roll + 2
+          tier1: 7 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1
+          tier2: 11 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2
+          tier3: 14 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3, [prone](scc.v1:mcdm.heroes.v1/condition/prone)
+      feature_type: ability
+      icon: "\U0001F5E1"
+      keywords:
+        - Charge
+        - Melee
+        - Strike
+        - Weapon
+      name: Gore
+      target: Two creatures or objects
+      type: feature
+      usage: Main action
+    - distance: Ranged 7
+      effects:
+        - effect: |-
+            **Trigger:** An enemy within distance deals damage to the tusker.
+            **Effect:** The tusker demon uses the Charge main action and Gore against the target.
+      feature_type: ability
+      icon: ❗️
+      keywords:
+        - Ranged
+      name: Vengeful Tusker
+      target: The triggering enemy
+      type: feature
+      usage: Triggered action
+    - effects:
+        - effect: The tusker demon can move through enemies' spaces at their usual speed. When the tusker enters a creature's space for the first time on a turn, that creature takes 5 damage. The tusker demon can end their turn in a [prone](scc.v1:mcdm.heroes.v1/condition/prone) size 1 creature's space, preventing the creature from standing up.
+      feature_type: trait
+      icon: ⭐️
+      name: Trample
+      type: feature
+    - effects:
+        - effect: While the tusker demon is [winded](scc.v1:mcdm.heroes.v1/rule.health/winded), they gain an edge on strikes, and any strike made against them gains an edge.
+      feature_type: trait
+      icon: ⭐️
+      name: Lethe
+      type: feature
+free_strike: 5
+intuition: 0
+keywords:
+    - Abyssal
+    - Demon
+    - Gnoll
+level: 2
+metadata:
+    scc: mcdm.monsters.v1/monster.gnoll.statblock/tusker-demon
+    source: mcdm.monsters.v1
+might: 2
+name: Tusker Demon
+organization: Elite
+presence: -1
+reason: -3
+role: Brute
+size: "3"
+speed: 7
+stability: 3
+stamina: "100"
+type: statblock
+```

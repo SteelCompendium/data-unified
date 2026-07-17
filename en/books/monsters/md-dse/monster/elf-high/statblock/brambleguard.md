@@ -26,32 +26,62 @@ stamina: "59"
 type: statblock
 ---
 
-| Elemental, High Elf |         -         |      Level 2      |   Platoon Defender    |         EV 8         |
-|:-------------------:|:-----------------:|:-----------------:|:---------------------:|:--------------------:|
-|    **2**<br>Size    |  **4**<br>Speed   | **59**<br>Stamina |  **3**<br>Stability   | **4**<br>Free Strike |
-|  **-**<br>Immunity  | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
-|   **+2**<br>Might   | **0**<br>Agility  |  **0**<br>Reason  |  **0**<br>Intuition   |  **+2**<br>Presence  |
-
-> 🔳 **Wall of Roses (Signature Ability)**
->
-> | **Area, Magic**           | **Main action** |
-> |---------------------------|----------------:|
-> | **📏 Special; see below** |     **🎯 Self** |
->
-> **Effect:** Until the start of the brambleguard's next turn, their speed is 0 and they extend themself into a 5 wall. Each ally who starts their turn adjacent to the brambleguard regains 5 Stamina and can apply the Magic keyword to their weapon abilities until the end of their turn.
-
-> ❇️ **Whip Frenzy**
->
-> | **Area, Weapon** |               **Main action** |
-> |------------------|------------------------------:|
-> | **📏 2 burst**   | **🎯 Each enemy in the area** |
->
-> **Power Roll + 2:**
->
-> - **≤11:** 4 damage
-> - **12-16:** 7 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3
-> - **17+:** 10 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3; A < 2 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
-
-> ⭐️ **Thicket and Thorns**
->
-> The brambleguard blocks line of effect for enemies. Each enemy who starts their turn adjacent to a brambleguard takes 4 damage.
+```ds-sb
+agility: 0
+ev: "8"
+features:
+    - ability_type: Signature Ability
+      distance: Special; see below
+      effects:
+        - effect: '**Effect:** Until the start of the brambleguard''s next turn, their speed is 0 and they extend themself into a 5 wall. Each ally who starts their turn adjacent to the brambleguard regains 5 Stamina and can apply the Magic keyword to their weapon abilities until the end of their turn.'
+      feature_type: ability
+      icon: "\U0001F533"
+      keywords:
+        - Area
+        - Magic
+      name: Wall of Roses
+      target: Self
+      type: feature
+      usage: Main action
+    - distance: 2 burst
+      effects:
+        - roll: Power Roll + 2
+          tier1: 4 damage
+          tier2: 7 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3
+          tier3: 10 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3; A < 2 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
+      feature_type: ability
+      icon: ❇️
+      keywords:
+        - Area
+        - Weapon
+      name: Whip Frenzy
+      target: Each enemy in the area
+      type: feature
+      usage: Main action
+    - effects:
+        - effect: The brambleguard blocks line of effect for enemies. Each enemy who starts their turn adjacent to a brambleguard takes 4 damage.
+      feature_type: trait
+      icon: ⭐️
+      name: Thicket and Thorns
+      type: feature
+free_strike: 4
+intuition: 0
+keywords:
+    - Elemental
+    - High Elf
+level: 2
+metadata:
+    scc: mcdm.monsters.v1/monster.elf-high.statblock/brambleguard
+    source: mcdm.monsters.v1
+might: 2
+name: Brambleguard
+organization: Platoon
+presence: 2
+reason: 0
+role: Defender
+size: "2"
+speed: 4
+stability: 3
+stamina: "59"
+type: statblock
+```

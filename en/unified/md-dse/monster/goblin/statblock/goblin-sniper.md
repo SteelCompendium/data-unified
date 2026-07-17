@@ -28,26 +28,53 @@ type: statblock
 with_captain: +5 bonus to ranged distance
 ---
 
-| Goblin, Humanoid  |           -           |     Level 1      |                Minion Artillery                 | EV 3 for four minions |
-|:-----------------:|:---------------------:|:----------------:|:-----------------------------------------------:|:---------------------:|
-|  **1S**<br>Size   |    **5**<br>Speed     | **3**<br>Stamina |               **0**<br>Stability                | **2**<br>Free Strike  |
-| **-**<br>Immunity | **Climb**<br>Movement |        -         | **+5 bonus to ranged distance**<br>With Captain |   **-**<br>Weakness   |
-|  **-2**<br>Might  |   **+2**<br>Agility   | **0**<br>Reason  |               **0**<br>Intuition                |  **-1**<br>Presence   |
-
-> 🏹 **Bow (Signature Ability)**
->
-> | **Ranged, Strike, Weapon** |                          **Main action** |
-> |----------------------------|-----------------------------------------:|
-> | **📏 Ranged 10**           | **🎯 One creature or object per minion** |
->
-> **Power Roll + 2:**
->
-> - **≤11:** 2 damage
-> - **12-16:** 4 damage
-> - **17+:** 5 damage
->
-> **Effect:** If the sniper doesn't use a move action this turn, this ability gains an edge.
-
-> ⭐️ **Crafty**
->
-> The sniper doesn't provoke [opportunity attacks](scc.v1:mcdm.heroes.v1/rule.combat/opportunity-attack) by moving.
+```ds-sb
+agility: 2
+ev: 3 for four minions
+features:
+    - ability_type: Signature Ability
+      distance: Ranged 10
+      effects:
+        - roll: Power Roll + 2
+          tier1: 2 damage
+          tier2: 4 damage
+          tier3: 5 damage
+      feature_type: ability
+      icon: "\U0001F3F9"
+      keywords:
+        - Ranged
+        - Strike
+        - Weapon
+      name: Bow
+      target: One creature or object per minion
+      type: feature
+      usage: Main action
+    - effects:
+        - effect: The sniper doesn't provoke [opportunity attacks](scc.v1:mcdm.heroes.v1/rule.combat/opportunity-attack) by moving.
+      feature_type: trait
+      icon: ⭐️
+      name: Crafty
+      type: feature
+free_strike: 2
+intuition: 0
+keywords:
+    - Goblin
+    - Humanoid
+level: 1
+metadata:
+    scc: mcdm.monsters.v1/monster.goblin.statblock/goblin-sniper
+    source: mcdm.monsters.v1
+might: -2
+movement: Climb
+name: Goblin Sniper
+organization: Minion
+presence: -1
+reason: 0
+role: Artillery
+size: 1S
+speed: 5
+stability: 0
+stamina: "3"
+type: statblock
+with_captain: +5 bonus to ranged distance
+```

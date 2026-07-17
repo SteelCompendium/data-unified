@@ -26,106 +26,163 @@ stamina: "450"
 type: statblock
 ---
 
-| Horror, Overmind  |             -              |      Level 6       |         Solo          |        EV 96         |
-|:-----------------:|:--------------------------:|:------------------:|:---------------------:|:--------------------:|
-|   **3**<br>Size   |       **5**<br>Speed       | **450**<br>Stamina |  **2**<br>Stability   | **7**<br>Free Strike |
-| **-**<br>Immunity | **Fly, hover**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
-|  **+4**<br>Might  |     **+2**<br>Agility      |  **+4**<br>Reason  |  **+3**<br>Intuition  |  **+3**<br>Presence  |
-
-> ☠️ **Solo Monster**
->
-> **[End Effect](scc.v1:mcdm.monsters.v1/rule.monster/end-effect):** At the end of each of his turns, Xorannox can take 10 damage to end one effect on him that can be ended by a [saving throw](scc.v1:mcdm.heroes.v1/rule.general/saving-throw). This damage can't be reduced in any way.
->
-> **Solo Turns:** Xorannox can take two turns each round. He can't take turns consecutively.
-
-> 🌀 **Eyes of the Tyract**
->
-> Six unique eyestalks float around Xorannox, acting on his turn at his command until they are reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina). On each of Xorannox's turns, he directs one eyestalk to move and use a [signature ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability).
-
-> 🗡 **Toothful Thrashing ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
->
-> | **Melee, Strike, Weapon** |                **Main action** |
-> |---------------------------|-------------------------------:|
-> | **📏 Melee 1**            |  **🎯 One creature or object** |
->
-> **Power Roll + 4:**
->
-> - **≤11:** 12 damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2; M < 2 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (EoT)
-> - **12-16:** 20 damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3; M < 3 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (EoT)
-> - **17+:** 23 damage; vertical [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3; M < 4 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (EoT)
-
-> ❇️ **Grav Spike**
->
-> | **Area, Psionic** |               **Main action** |
-> |-------------------|------------------------------:|
-> | **📏 2 burst**    | **🎯 Each enemy in the area** |
->
-> **Power Roll + 4:**
->
-> - **≤11:** Vertical [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3
-> - **12-16:** Vertical [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5
-> - **17+:** Vertical [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 7
->
-> **Effect:** Xorannox [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to his speed before or after using this ability.
-
-> 👤 **Optical Collusion**
->
-> | **-**       | **Maneuver** |
-> |-------------|-------------:|
-> | **📏 Self** |  **🎯 Self** |
->
-> **Effect:** Xorannox commands all his eyestalks to move up to their speed.
-
-> 🔳 **Shutout (2 Malice)**
->
-> | **Area**                   |   **Maneuver** |
-> |----------------------------|---------------:|
-> | **📏 5 x 2 line within 1** | **🎯 Special** |
->
-> **Effect:** Xorannox ends all ongoing supernatural effects and suppresses supernatural effects from treasures in the area. New supernatural effects can't be activated in the area until the end of Xorannox's next turn.
-
-> ❗️ **Cower!**
->
-> | **Psionic, Ranged** |           **Triggered action** |
-> |---------------------|-------------------------------:|
-> | **📏 Ranged 10**    | **🎯 The triggering creature** |
->
-> **Trigger:** A creature within distance deals damage to Xorannox.
->
-> **Effect:** If the target has I < 3 they are [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
-
-> ⭐️ **Above It All**
->
-> Xorannox can't be made [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) or knocked [prone](scc.v1:mcdm.heroes.v1/condition/prone), and he can't be flanked.
-
-> ⭐️ **Natural Enemies**
->
-> If Xorannox perceives another overmind or a [voiceless talker](scc.v1:mcdm.monsters.v1/monster.group/voiceless-talker) on the encounter map, he targets that threat one or more times on each of his turns.
-
-> ☠️ **Disruption Beam ([Villain Action](scc.v1:mcdm.monsters.v1/rule.monster/villain-action) 1)**
->
-> | **Psionic, Ranged, Strike** |                  **-** |
-> |-----------------------------|-----------------------:|
-> | **📏 Ranged 10**            | **🎯 Three creatures** |
->
-> **Power Roll + 4:**
->
-> - **≤11:** 11 psychic damage; R < 2 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
-> - **12-16:** 17 psychic damage; R < 3 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
-> - **17+:** 20 psychic damage; R < 4 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
-
-> ☠️ **All Eyes, All Rise ([Villain Action](scc.v1:mcdm.monsters.v1/rule.monster/villain-action) 2)**
->
-> | **-**       |       **-** |
-> |-------------|------------:|
-> | **📏 Self** | **🎯 Self** |
->
-> **Effect:** Xorannox recreates any destroyed eyestalks, which return in unoccupied spaces on the encounter map with full [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).
-
-> ☠️ **Panoptibeam ([Villain Action](scc.v1:mcdm.monsters.v1/rule.monster/villain-action) 3)**
->
-> | **Area**       |                         **-** |
-> |----------------|------------------------------:|
-> | **📏 2 burst** | **🎯 Each enemy in the area** |
->
-> **Effect:** Xorannox directs each of his eyestalks to use a [signature ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability) against any target.
+```ds-sb
+agility: 2
+ev: "96"
+features:
+    - effects:
+        - effect: |-
+            **[End Effect](scc.v1:mcdm.monsters.v1/rule.monster/end-effect):** At the end of each of his turns, Xorannox can take 10 damage to end one effect on him that can be ended by a [saving throw](scc.v1:mcdm.heroes.v1/rule.general/saving-throw). This damage can't be reduced in any way.
+            **Solo Turns:** Xorannox can take two turns each round. He can't take turns consecutively.
+      feature_type: trait
+      icon: ☠️
+      name: Solo Monster
+      type: feature
+    - effects:
+        - effect: Six unique eyestalks float around Xorannox, acting on his turn at his command until they are reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina). On each of Xorannox's turns, he directs one eyestalk to move and use a [signature ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability).
+      feature_type: trait
+      icon: "\U0001F300"
+      name: Eyes of the Tyract
+      type: feature
+    - ability_type: Signature Ability
+      distance: Melee 1
+      effects:
+        - roll: Power Roll + 4
+          tier1: 12 damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2; M < 2 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (EoT)
+          tier2: 20 damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3; M < 3 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (EoT)
+          tier3: 23 damage; vertical [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3; M < 4 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (EoT)
+      feature_type: ability
+      icon: "\U0001F5E1"
+      keywords:
+        - Melee
+        - Strike
+        - Weapon
+      name: Toothful Thrashing
+      target: One creature or object
+      type: feature
+      usage: Main action
+    - distance: 2 burst
+      effects:
+        - roll: Power Roll + 4
+          tier1: Vertical [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3
+          tier2: Vertical [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5
+          tier3: Vertical [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 7
+      feature_type: ability
+      icon: ❇️
+      keywords:
+        - Area
+        - Psionic
+      name: Grav Spike
+      target: Each enemy in the area
+      type: feature
+      usage: Main action
+    - distance: Self
+      effects:
+        - effect: '**Effect:** Xorannox commands all his eyestalks to move up to their speed.'
+      feature_type: ability
+      icon: "\U0001F464"
+      keywords: []
+      name: Optical Collusion
+      target: Self
+      type: feature
+      usage: Maneuver
+    - cost: 2 Malice
+      distance: 5 x 2 line within 1
+      effects:
+        - effect: '**Effect:** Xorannox ends all ongoing supernatural effects and suppresses supernatural effects from treasures in the area. New supernatural effects can''t be activated in the area until the end of Xorannox''s next turn.'
+      feature_type: ability
+      icon: "\U0001F533"
+      keywords:
+        - Area
+      name: Shutout
+      target: Special
+      type: feature
+      usage: Maneuver
+    - distance: Ranged 10
+      effects:
+        - effect: |-
+            **Trigger:** A creature within distance deals damage to Xorannox.
+            **Effect:** If the target has I < 3 they are [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
+      feature_type: ability
+      icon: ❗️
+      keywords:
+        - Psionic
+        - Ranged
+      name: Cower!
+      target: The triggering creature
+      type: feature
+      usage: Triggered action
+    - effects:
+        - effect: Xorannox can't be made [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) or knocked [prone](scc.v1:mcdm.heroes.v1/condition/prone), and he can't be flanked.
+      feature_type: trait
+      icon: ⭐️
+      name: Above It All
+      type: feature
+    - effects:
+        - effect: If Xorannox perceives another overmind or a [voiceless talker](scc.v1:mcdm.monsters.v1/monster.group/voiceless-talker) on the encounter map, he targets that threat one or more times on each of his turns.
+      feature_type: trait
+      icon: ⭐️
+      name: Natural Enemies
+      type: feature
+    - cost: Villain Action 1
+      distance: Ranged 10
+      effects:
+        - roll: Power Roll + 4
+          tier1: 11 psychic damage; R < 2 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
+          tier2: 17 psychic damage; R < 3 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
+          tier3: 20 psychic damage; R < 4 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
+      feature_type: ability
+      icon: ☠️
+      keywords:
+        - Psionic
+        - Ranged
+        - Strike
+      name: Disruption Beam
+      target: Three creatures
+      type: feature
+      usage: '-'
+    - cost: Villain Action 2
+      distance: Self
+      effects:
+        - effect: '**Effect:** Xorannox recreates any destroyed eyestalks, which return in unoccupied spaces on the encounter map with full [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).'
+      feature_type: ability
+      icon: ☠️
+      keywords: []
+      name: All Eyes, All Rise
+      target: Self
+      type: feature
+      usage: '-'
+    - cost: Villain Action 3
+      distance: 2 burst
+      effects:
+        - effect: '**Effect:** Xorannox directs each of his eyestalks to use a [signature ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability) against any target.'
+      feature_type: ability
+      icon: ☠️
+      keywords:
+        - Area
+      name: Panoptibeam
+      target: Each enemy in the area
+      type: feature
+      usage: '-'
+free_strike: 7
+intuition: 3
+keywords:
+    - Horror
+    - Overmind
+level: 6
+metadata:
+    scc: mcdm.monsters.v1/monster.xorannox-the-tyract.statblock/xorannox-the-tyract
+    source: mcdm.monsters.v1
+might: 4
+movement: Fly, hover
+name: Xorannox the Tyract
+organization: Solo
+presence: 3
+reason: 4
+role: ""
+size: "3"
+speed: 5
+stability: 2
+stamina: "450"
+type: statblock
+```

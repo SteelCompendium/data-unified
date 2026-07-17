@@ -30,44 +30,78 @@ stamina: "111"
 type: statblock
 ---
 
-| Goblin, Hobgoblin, Humanoid, Infernal |         -         |      Level 6       |   Platoon Defender    |        EV 16         |
-|:-------------------------------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
-|             **2**<br>Size             |  **4**<br>Speed   | **111**<br>Stamina |  **4**<br>Stability   | **6**<br>Free Strike |
-|        **Fire 6**<br>Immunity         | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
-|            **+3**<br>Might            | **+2**<br>Agility |  **+3**<br>Reason  |  **0**<br>Intuition   |  **+2**<br>Presence  |
-
-> 🗡 **Tower Shield Smash (Signature Ability)**
->
-> | **Melee, Strike, Weapon** |               **Main action** |
-> |---------------------------|------------------------------:|
-> | **📏 Melee 2**            | **🎯 One creature or object** |
->
-> **Power Roll + 3:**
->
-> - **≤11:** 9 damage
-> - **12-16:** 14 damage
-> - **17+:** 17 damage; [prone](../../../condition/prone.md)
->
-> **3 [Malice](../../../rule/monster/malice.md):** Each ally [adjacent](../../../rule/combat/adjacent.md) to a [prone](../../../condition/prone.md) target can make a [free strike](../../../feature/common/main-actions/free-strike.md) against that target.
-
-> 🔳 **Thunder Rush (3 [Malice](../../../rule/monster/malice.md))**
->
-> | **Area, Charge, Weapon**   |                         **Main action** |
-> |----------------------------|----------------------------------------:|
-> | **📏 1 x 2 line within 1** | **🎯 Each enemy or object in the area** |
->
-> **Power Roll + 3:**
->
-> - **≤11:** 6 damage
-> - **12-16:** 11 damage
-> - **17+:** 14 damage
->
-> **Effect:** Each target is [pushed](../../../movement/forced-movement.md) up to 10 squares in the same direction, and the grandguard [shifts](../../../movement/shifting.md) into the area left behind by the targets.
-
-> ⭐️ **Wide Guard**
->
-> Any strike made against an ally within 2 squares of the grandguard takes a bane.
-
-> ⭐️ **Infernal Ichor**
->
-> When the grandguard is reduced to 0 [Stamina](../../../rule/health/stamina.md), they spray burning blood. Each creature [adjacent](../../../rule/combat/adjacent.md) to the grandguard takes 3 fire damage.
+```ds-sb
+agility: 2
+ev: "16"
+features:
+    - ability_type: Signature Ability
+      distance: Melee 2
+      effects:
+        - roll: Power Roll + 3
+          tier1: 9 damage
+          tier2: 14 damage
+          tier3: 17 damage; [prone](../../../condition/prone.md)
+      feature_type: ability
+      icon: "\U0001F5E1"
+      keywords:
+        - Melee
+        - Strike
+        - Weapon
+      name: Tower Shield Smash
+      target: One creature or object
+      type: feature
+      usage: Main action
+    - cost: 3 Malice
+      distance: 1 x 2 line within 1
+      effects:
+        - roll: Power Roll + 3
+          tier1: 6 damage
+          tier2: 11 damage
+          tier3: 14 damage
+      feature_type: ability
+      icon: "\U0001F533"
+      keywords:
+        - Area
+        - Charge
+        - Weapon
+      name: Thunder Rush
+      target: Each enemy or object in the area
+      type: feature
+      usage: Main action
+    - effects:
+        - effect: Any strike made against an ally within 2 squares of the grandguard takes a bane.
+      feature_type: trait
+      icon: ⭐️
+      name: Wide Guard
+      type: feature
+    - effects:
+        - effect: When the grandguard is reduced to 0 [Stamina](../../../rule/health/stamina.md), they spray burning blood. Each creature [adjacent](../../../rule/combat/adjacent.md) to the grandguard takes 3 fire damage.
+      feature_type: trait
+      icon: ⭐️
+      name: Infernal Ichor
+      type: feature
+free_strike: 6
+immunities:
+    - Fire 6
+intuition: 0
+keywords:
+    - Goblin
+    - Hobgoblin
+    - Humanoid
+    - Infernal
+level: 6
+metadata:
+    scc: mcdm.monsters.v1/monster.hobgoblin.statblock/hobgoblin-grandguard
+    source: mcdm.monsters.v1
+might: 3
+name: Hobgoblin Grandguard
+organization: Platoon
+presence: 2
+reason: 3
+role: Defender
+size: "2"
+speed: 4
+stability: 4
+stamina: "111"
+type: statblock
+```

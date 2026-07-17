@@ -28,80 +28,123 @@ stamina: "240"
 type: statblock
 ---
 
-| Construct, Servok, Soulless, Valok |         -         |       Level 9       |      Elite Brute      |        EV 44          |
-|:----------------------------------:|:-----------------:|:-------------------:|:---------------------:|:---------------------:|
-|           **3**<br>Size            |  **5**<br>Speed   | **240**<br>Stamina  |  **8**<br>Stability   | **10**<br>Free Strike |
-|         **-**<br>Immunity          | **-**<br>Movement |          -          | **-**<br>With Captain |   **-**<br>Weakness   |
-|          **+4**<br>Might           | **-2**<br>Agility |  **-4**<br>Reason   |  **-1**<br>Intuition  |   **-5**<br>Presence  |
-
-> 🔳 **Wrecking Ball ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
->
-> | **Area, Ranged, Weapon** |                          **Main action** |
-> |--------------------------|-----------------------------------------:|
-> | **📏 3 cube within 5**   | **🎯 Each enemy and object in the area** |
->
-> **Effect:** Each target must make either an Agility test or an **Intuition test**.
->
-> - **≤11:** 15 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5, [prone](scc.v1:mcdm.heroes.v1/condition/prone)
-> - **12-16:** 12 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3
-> - **17+:** 8 damage
-
-> 🗡 **Construction Arm**
->
-> | **Melee, Strike, Weapon** |               **Main action** |
-> |---------------------------|------------------------------:|
-> | **📏 Melee 3**            | **🎯 One creature or object** |
->
-> **Power Roll + 4:**
->
-> - **≤11:** 16 damage
-> - **12-16:** 23 damage; [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)
-> - **17+:** 28 damage; [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed); M < 4 vertical [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5
-
-> 🔳 **Lay the Foundation (3 Malice)**
->
-> | **Area**                   | **Main action** |
-> |----------------------------|----------------:|
-> | **📏 6 x 3 line within 1** |  **🎯 Special** |
->
-> **Effect:** The area is covered in wet concrete and is [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain). An enemy who starts their turn in the concrete makes a **Might test**.
->
-> - **≤11:** [Restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (EoT)
-> - **12-16:** [Slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (EoT)
-> - **17+:** No effect
-
-> 🔳 **Build Wall**
->
-> | **Area, Ranged**       |   **Maneuver** |
-> |------------------------|---------------:|
-> | **📏 6 wall within 3** | **🎯 Special** |
->
-> **Effect:** The builder creates a concrete wall. They can also remove any unoccupied squares of wet concrete within 3 squares of them, creating two additional squares of wall for each square of concrete removed.
-
-> ❗️ **Sputter (1 Malice)**
->
-> | **Melee**      |                **Free triggered action** |
-> |----------------|-----------------------------------------:|
-> | **📏 Melee 3** | **🎯 The triggering creature or object** |
->
-> **Trigger:** A creature or object within distance deals damage to the builder.
->
-> **Power Roll + 4:**
->
-> - **≤11:** A < 2 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
-> - **12-16:** A < 3 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
-> - **17+:** A < 4 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
->
-> **Effect:** While a creature is [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) this way, or if the target is an object, the target and their space are encased in wet concrete. A creature no longer [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) leaves squares of wet concrete behind.
-
-> ⭐️ **Servok Siege Machine**
->
-> The builder ignores [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain), and their abilities deal an extra 15 damage to objects.
-
-> ⭐️ **Crafted to Perfection**
->
-> The builder's shape can't be changed by any external effect.
-
-> ⭐️ **Valiar Might**
->
-> While the builder isn't [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding), [weakened](scc.v1:mcdm.heroes.v1/condition/weakened), or [winded](scc.v1:mcdm.heroes.v1/rule.health/winded), any power roll made against them is automatically a tier 1 outcome. A critical hit still grants its additional main action.
+```ds-sb
+agility: -2
+ev: "44"
+features:
+    - ability_type: Signature Ability
+      distance: 3 cube within 5
+      effects:
+        - roll: ""
+          tier1: 15 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5, [prone](scc.v1:mcdm.heroes.v1/condition/prone)
+          tier2: 12 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3
+          tier3: 8 damage
+      feature_type: ability
+      icon: "\U0001F533"
+      keywords:
+        - Area
+        - Ranged
+        - Weapon
+      name: Wrecking Ball
+      target: Each enemy and object in the area
+      type: feature
+      usage: Main action
+    - distance: Melee 3
+      effects:
+        - roll: Power Roll + 4
+          tier1: 16 damage
+          tier2: 23 damage; [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)
+          tier3: 28 damage; [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed); M < 4 vertical [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5
+      feature_type: ability
+      icon: "\U0001F5E1"
+      keywords:
+        - Melee
+        - Strike
+        - Weapon
+      name: Construction Arm
+      target: One creature or object
+      type: feature
+      usage: Main action
+    - cost: 3 Malice
+      distance: 6 x 3 line within 1
+      effects:
+        - roll: ""
+          tier1: '[Restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (EoT)'
+          tier2: '[Slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (EoT)'
+          tier3: No effect
+      feature_type: ability
+      icon: "\U0001F533"
+      keywords:
+        - Area
+      name: Lay the Foundation
+      target: Special
+      type: feature
+      usage: Main action
+    - distance: 6 wall within 3
+      effects:
+        - effect: '**Effect:** The builder creates a concrete wall. They can also remove any unoccupied squares of wet concrete within 3 squares of them, creating two additional squares of wall for each square of concrete removed.'
+      feature_type: ability
+      icon: "\U0001F533"
+      keywords:
+        - Area
+        - Ranged
+      name: Build Wall
+      target: Special
+      type: feature
+      usage: Maneuver
+    - cost: 1 Malice
+      distance: Melee 3
+      effects:
+        - roll: Power Roll + 4
+          tier1: A < 2 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
+          tier2: A < 3 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
+          tier3: A < 4 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
+      feature_type: ability
+      icon: ❗️
+      keywords:
+        - Melee
+      name: Sputter
+      target: The triggering creature or object
+      type: feature
+      usage: Free triggered action
+    - effects:
+        - effect: The builder ignores [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain), and their abilities deal an extra 15 damage to objects.
+      feature_type: trait
+      icon: ⭐️
+      name: Servok Siege Machine
+      type: feature
+    - effects:
+        - effect: The builder's shape can't be changed by any external effect.
+      feature_type: trait
+      icon: ⭐️
+      name: Crafted to Perfection
+      type: feature
+    - effects:
+        - effect: While the builder isn't [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding), [weakened](scc.v1:mcdm.heroes.v1/condition/weakened), or [winded](scc.v1:mcdm.heroes.v1/rule.health/winded), any power roll made against them is automatically a tier 1 outcome. A critical hit still grants its additional main action.
+      feature_type: trait
+      icon: ⭐️
+      name: Valiar Might
+      type: feature
+free_strike: 10
+intuition: -1
+keywords:
+    - Construct
+    - Servok
+    - Soulless
+    - Valok
+level: 9
+metadata:
+    scc: mcdm.monsters.v1/monster.valok.statblock/servok-builder
+    source: mcdm.monsters.v1
+might: 4
+name: Servok Builder
+organization: Elite
+presence: -5
+reason: -4
+role: Brute
+size: "3"
+speed: 5
+stability: 8
+stamina: "240"
+type: statblock
+```

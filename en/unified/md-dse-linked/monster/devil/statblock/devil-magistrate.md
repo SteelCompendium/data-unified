@@ -28,66 +28,101 @@ stamina: "160"
 type: statblock
 ---
 
-|    Devil, Infernal     |         -         |      Level 6       |     Elite Harrier     |        EV 32         |
-|:----------------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
-|     **1M**<br>Size     |  **7**<br>Speed   | **160**<br>Stamina |  **0**<br>Stability   | **7**<br>Free Strike |
-| **Fire 5**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
-|    **+1**<br>Might     | **+3**<br>Agility |  **+0**<br>Reason  |  **+1**<br>Intuition  |  **+2**<br>Presence  |
-
-> 🗡 **Edge of the Law (Signature Ability)**
->
-> | **Melee, Strike, Weapon** |                 **Main action** |
-> | ------------------------- |--------------------------------:|
-> | **📏 Melee 1**            | **🎯 Two creatures or objects** |
->
-> **Power Roll + 3:**
->
-> - **≤11:** 10 damage
-> - **12-16:** 15 damage
-> - **17+:** 18 fire damage; R < 3 [dazed](../../../condition/dazed.md) (save ends)
->
-> **Effect:** The magistrate [shifts](../../../movement/shifting.md) up to 3 squares before or after using this ability, or between each strike.
-
-> 🗡 **Verdict**
->
-> | **Melee, Strike, Weapon** |     **Main action** |
-> |---------------------------|--------------------:|
-> | **📏 Melee 1**            | **🎯 One creature** |
->
-> **Power Roll + 3:**
->
-> - **≤11:** 11 damage
-> - **12-16:** 17 damage
-> - **17+:** 21 damage
->
-> **Effect:** This ability has a double [edge](../../../rule/dice/edge.md) if the magistrate was hidden from the target, and deals an extra 5 damage if the target is [dazed](../../../condition/dazed.md).
-
-> 👤 **Justice Turns Its Gaze**
->
-> | **-**       | **Maneuver** | 
-> |-------------|-------------:|
-> | **📏 Self** |  **🎯 Self** |
->
-> **Effect:** The magistrate turns invisible until the start of their next turn, and can attempt to hide as a [free maneuver](../../../rule/combat/free-maneuver.md) before the end of the current turn.
-
-> ❗️ **Devilish Charm (2 [Malice](../../../rule/monster/malice.md))**
->
-> | **Magic, Ranged** |           **Triggered action** |
-> |-------------------|-------------------------------:|
-> | **📏 Ranged 5**   | **🎯 The triggering creature** |
->
-> **Trigger:** A creature targets the magistrate with a strike.
->
-> **Effect:** The target makes a Presence test.
->
-> - **≤11:** The magistrate chooses a new target for the strike.
-> - **12-16:** The magistrate halves the triggering damage.
-> - **17+:** The target takes a [bane](../../../rule/dice/bane.md) on the strike.
-
-> ⭐️ **Leading**
->
-> Whenever the magistrate moves away from an enemy who is [adjacent](../../../rule/combat/adjacent.md) to one of the magistrate's allies, they can [shift](../../../movement/shifting.md) instead.
-
-> ⭐️ **True Name**
->
-> If a creature within 10 squares speaks the magistrate's true name, the magistrate loses their damage immunities, any nondamaging effects of their [signature ability](../../../rule/combat/signature-ability.md), and their Devilish Charm ability until the end of the encounter.
+```ds-sb
+agility: 3
+ev: "32"
+features:
+    - ability_type: Signature Ability
+      distance: Melee 1
+      effects:
+        - roll: Power Roll + 3
+          tier1: 10 damage
+          tier2: 15 damage
+          tier3: 18 fire damage; R < 3 [dazed](../../../condition/dazed.md) (save ends)
+      feature_type: ability
+      icon: "\U0001F5E1"
+      keywords:
+        - Melee
+        - Strike
+        - Weapon
+      name: Edge of the Law
+      target: Two creatures or objects
+      type: feature
+      usage: Main action
+    - distance: Melee 1
+      effects:
+        - roll: Power Roll + 3
+          tier1: 11 damage
+          tier2: 17 damage
+          tier3: 21 damage
+      feature_type: ability
+      icon: "\U0001F5E1"
+      keywords:
+        - Melee
+        - Strike
+        - Weapon
+      name: Verdict
+      target: One creature
+      type: feature
+      usage: Main action
+    - distance: Self
+      effects:
+        - effect: '**Effect:** The magistrate turns invisible until the start of their next turn, and can attempt to hide as a [free maneuver](../../../rule/combat/free-maneuver.md) before the end of the current turn.'
+      feature_type: ability
+      icon: "\U0001F464"
+      keywords: []
+      name: Justice Turns Its Gaze
+      target: Self
+      type: feature
+      usage: Maneuver
+    - cost: 2 Malice
+      distance: Ranged 5
+      effects:
+        - roll: ""
+          tier1: The magistrate chooses a new target for the strike.
+          tier2: The magistrate halves the triggering damage.
+          tier3: The target takes a [bane](../../../rule/dice/bane.md) on the strike.
+      feature_type: ability
+      icon: ❗️
+      keywords:
+        - Magic
+        - Ranged
+      name: Devilish Charm
+      target: The triggering creature
+      type: feature
+      usage: Triggered action
+    - effects:
+        - effect: Whenever the magistrate moves away from an enemy who is [adjacent](../../../rule/combat/adjacent.md) to one of the magistrate's allies, they can [shift](../../../movement/shifting.md) instead.
+      feature_type: trait
+      icon: ⭐️
+      name: Leading
+      type: feature
+    - effects:
+        - effect: If a creature within 10 squares speaks the magistrate's true name, the magistrate loses their damage immunities, any nondamaging effects of their [signature ability](../../../rule/combat/signature-ability.md), and their Devilish Charm ability until the end of the encounter.
+      feature_type: trait
+      icon: ⭐️
+      name: True Name
+      type: feature
+free_strike: 7
+immunities:
+    - Fire 5
+intuition: 1
+keywords:
+    - Devil
+    - Infernal
+level: 6
+metadata:
+    scc: mcdm.monsters.v1/monster.devil.statblock/devil-magistrate
+    source: mcdm.monsters.v1
+might: 1
+name: Devil Magistrate
+organization: Elite
+presence: 2
+reason: 0
+role: Harrier
+size: 1M
+speed: 7
+stability: 0
+stamina: "160"
+type: statblock
+```

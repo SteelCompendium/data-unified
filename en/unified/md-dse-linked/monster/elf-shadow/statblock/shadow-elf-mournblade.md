@@ -28,34 +28,64 @@ stamina: "80"
 type: statblock
 ---
 
-| Fey, Humanoid, Shadow Elf |           -           |      Level 6      |   Platoon Ambusher    |        EV 16         |
-|:-------------------------:|:---------------------:|:-----------------:|:---------------------:|:--------------------:|
-|      **1M**<br>Size       |    **5**<br>Speed     | **80**<br>Stamina |  **0**<br>Stability   | **7**<br>Free Strike |
-|     **-**<br>Immunity     | **Climb**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
-|      **+2**<br>Might      |   **+3**<br>Agility   | **+1**<br>Reason  |  **+2**<br>Intuition  |  **0**<br>Presence   |
-
-> 🗡 **Knife in the Dark (Signature Ability)**
->
-> | **Melee, Strike, Weapon** |               **Main action** |
-> |---------------------------|------------------------------:|
-> | **📏 Melee 1**            | **🎯 One creature or object** |
->
-> **Power Roll + 3:**
->
-> - **≤11:** 10 damage
-> - **12-16:** 15 damage
-> - **17+:** 18 damage
->
-> **Effect:** The mournblade is invisible to the target until the start of the mournblade's next turn.
-
-> 👤 **Shadow Step**
->
-> | **Magic**   | **Maneuver** |
-> |-------------|-------------:|
-> | **📏 Self** |  **🎯 Self** |
->
-> **Effect:** If the mournblade has concealment, they can [teleport](../../../movement/teleport.md) up to 10 squares to a space with concealment created by darkness.
-
-> ⭐️ **Of the Umbra**
->
-> The mournblade ignores concealment created by darkness. While the mournblade is in direct sunlight, they have damage weakness 3. While the mournblade has concealment, they have damage immunity 3.
+```ds-sb
+agility: 3
+ev: "16"
+features:
+    - ability_type: Signature Ability
+      distance: Melee 1
+      effects:
+        - roll: Power Roll + 3
+          tier1: 10 damage
+          tier2: 15 damage
+          tier3: 18 damage
+      feature_type: ability
+      icon: "\U0001F5E1"
+      keywords:
+        - Melee
+        - Strike
+        - Weapon
+      name: Knife in the Dark
+      target: One creature or object
+      type: feature
+      usage: Main action
+    - distance: Self
+      effects:
+        - effect: '**Effect:** If the mournblade has concealment, they can [teleport](../../../movement/teleport.md) up to 10 squares to a space with concealment created by darkness.'
+      feature_type: ability
+      icon: "\U0001F464"
+      keywords:
+        - Magic
+      name: Shadow Step
+      target: Self
+      type: feature
+      usage: Maneuver
+    - effects:
+        - effect: The mournblade ignores concealment created by darkness. While the mournblade is in direct sunlight, they have damage weakness 3. While the mournblade has concealment, they have damage immunity 3.
+      feature_type: trait
+      icon: ⭐️
+      name: Of the Umbra
+      type: feature
+free_strike: 7
+intuition: 2
+keywords:
+    - Fey
+    - Humanoid
+    - Shadow Elf
+level: 6
+metadata:
+    scc: mcdm.monsters.v1/monster.elf-shadow.statblock/shadow-elf-mournblade
+    source: mcdm.monsters.v1
+might: 2
+movement: Climb
+name: Shadow Elf Mournblade
+organization: Platoon
+presence: 0
+reason: 1
+role: Ambusher
+size: 1M
+speed: 5
+stability: 0
+stamina: "80"
+type: statblock
+```

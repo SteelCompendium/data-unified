@@ -31,24 +31,56 @@ type: statblock
 weaknesses: []
 ---
 
-| Undead | - | - | Minion Brute | 2 Malice for two minions |
-|:-:|:------:|:------------:|:-:|:------------------------:|
-| **1M**<br>Size | **6**<br>Speed | **9 \| 9**<br>Stamina | **1**<br>Stability | **5**<br>Free Strike |
-| **Corruption 3, poison 3**<br>Immunity | **—**<br>Movement | - | **—**<br>Weakness | **—**<br>Free Strike Damage Type |
-| **+3**<br>Might | **+2**<br>Agility | **+1**<br>Reason | **+1**<br>Intuition | **+2**<br>Presence |
-
-> 🗡 **Knight Strike 2d10 + 3 (Signature Ability)**
->
-> | **Melee, Strike, Weapon** | **Main action** |
-> |---------------------------|----------------:|
-> | **📏 Melee 1** | **🎯 One creature or object per minion** |
->
-> 5 corruption damage; M < 1 [bleeding](../../../../../../condition/bleeding.md) ([EoT](../../../../../../rule/combat/end-of-turn.md))
->
-> 7 corruption damage; M < 2 [bleeding](../../../../../../condition/bleeding.md) ([EoT](../../../../../../rule/combat/end-of-turn.md))
->
-> 9 corruption damage; M < 3 [bleeding](../../../../../../condition/bleeding.md) (save ends)
-
-> ⭐️ **To the Grave**
->
-> When the grave knight is reduced to 0 [Stamina](../../../../../../rule/health/stamina.md), they can make a melee [free strike](../../../../../../feature/common/main-actions/free-strike.md) before being destroyed.
+```ds-sb
+agility: 2
+cost: 2 Malice for two minions
+ev: ""
+features:
+    - ability_type: Signature Ability
+      distance: Melee 1
+      effects:
+        - roll: 2d10 + 3
+          tier1: 5 corruption damage; M < 1 [bleeding](../../../../../../condition/bleeding.md) ([EoT](../../../../../../rule/combat/end-of-turn.md))
+          tier2: 7 corruption damage; M < 2 [bleeding](../../../../../../condition/bleeding.md) ([EoT](../../../../../../rule/combat/end-of-turn.md))
+          tier3: 9 corruption damage; M < 3 [bleeding](../../../../../../condition/bleeding.md) (save ends)
+      feature_type: ability
+      icon: "\U0001F5E1"
+      keywords:
+        - Melee
+        - Strike
+        - Weapon
+      name: Knight Strike
+      target: One creature or object per minion
+      type: feature
+      usage: Main action
+    - effects:
+        - effect: When the grave knight is reduced to 0 [Stamina](../../../../../../rule/health/stamina.md), they can make a melee [free strike](../../../../../../feature/common/main-actions/free-strike.md) before being destroyed.
+      feature_type: trait
+      icon: ⭐️
+      name: To the Grave
+      type: feature
+free_strike: 5
+immunities:
+    - Corruption 3
+    - poison 3
+intuition: 1
+keywords:
+    - Undead
+level: 0
+metadata:
+    scc: mcdm.summoner.v1/monster.rival.2nd-echelon.summoner.minion.statblock/grave-knight
+    source: mcdm.summoner.v1
+might: 3
+movement: —
+name: Grave Knight
+organization: Minion
+presence: 2
+reason: 1
+role: Brute
+size: 1M
+speed: 6
+stability: 1
+stamina: 9 | 9
+type: statblock
+weaknesses: []
+```

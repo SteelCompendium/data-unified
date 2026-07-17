@@ -29,62 +29,100 @@ stamina: "120"
 type: statblock
 ---
 
-|     Beast, Wyvern      |          -          |      Level 4       |    Elite Ambusher     |        EV 24         |
-|:----------------------:|:-------------------:|:------------------:|:---------------------:|:--------------------:|
-|     **2**<br>Size      |   **9**<br>Speed    | **120**<br>Stamina |  **2**<br>Stability   | **6**<br>Free Strike |
-| **Acid 5**<br>Immunity | **Fly**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
-|    **+2**<br>Might     |  **+3**<br>Agility  |  **-1**<br>Reason  |  **+1**<br>Intuition  |  **0**<br>Presence   |
-
-> 🗡 **Agonizing Stinger ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
->
-> | **Magic, Strike, Weapon** |                 **Main action** |
-> |---------------------------|--------------------------------:|
-> | **📏 Melee 2**            | **🎯 Two creatures or objects** |
->
-> **Power Roll + 3:**
->
-> - **≤11:** 9 damage
-> - **12-16:** 14 damage; M < 2 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
-> - **17+:** 17 damage; M < 3 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
->
-> **1 Malice:** One target hidden from the lurker takes an extra 6 acid damage.
-
-> 🗡 **Acidic Anguish (3 Malice)**
->
-> | **Magic, Strike, Weapon** |               **Main action** |
-> |---------------------------|------------------------------:|
-> | **📏 Melee 2**            | **🎯 One creature or object** |
->
-> **Power Roll + 3:**
->
-> - **≤11:** 10 acid damage; M < 1 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
-> - **12-16:** 16 acid damage; M < 2 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
-> - **17+:** 20 acid damage; M < 3 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
->
-> **Effect:** A target [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) this way takes 1d4 acid damage at the start of each of their turns.
-
-> 👤 **Swooping Torment**
->
-> | **-**       | **Maneuver** |
-> |-------------|-------------:|
-> | **📏 Self** |  **🎯 Self** |
->
-> **Effect:** The lurker [flies](scc.v1:mcdm.heroes.v1/movement/fly) up to their speed, then can attempt to hide. Each enemy the lurker moves [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to during this movement can choose to take 3 sonic damage or fall [prone](scc.v1:mcdm.heroes.v1/condition/prone).
-
-> ❗️ **Retaliatory Dive**
->
-> | **Ranged**      |           **Triggered action** |
-> |-----------------|-------------------------------:|
-> | **📏 Ranged 5** | **🎯 The triggering creature** |
->
-> **Trigger:** A creature within distance deals damage to the lurker with a ranged ability.
->
-> **Effect:** The lurker [flies](scc.v1:mcdm.heroes.v1/movement/fly) [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the target and can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against them.
-
-> ⭐️ **Ruthless Rage**
->
-> While within 10 squares of another wyvern, the lurker deals an extra 3 damage with strikes.
-
-> ⭐️ **Tenacious Hunter**
->
-> Any creature affected by a condition imposed by a wyvern can't be hidden from the lurker.
+```ds-sb
+agility: 3
+ev: "24"
+features:
+    - ability_type: Signature Ability
+      distance: Melee 2
+      effects:
+        - roll: Power Roll + 3
+          tier1: 9 damage
+          tier2: 14 damage; M < 2 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
+          tier3: 17 damage; M < 3 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
+      feature_type: ability
+      icon: "\U0001F5E1"
+      keywords:
+        - Magic
+        - Strike
+        - Weapon
+      name: Agonizing Stinger
+      target: Two creatures or objects
+      type: feature
+      usage: Main action
+    - cost: 3 Malice
+      distance: Melee 2
+      effects:
+        - roll: Power Roll + 3
+          tier1: 10 acid damage; M < 1 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+          tier2: 16 acid damage; M < 2 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+          tier3: 20 acid damage; M < 3 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+      feature_type: ability
+      icon: "\U0001F5E1"
+      keywords:
+        - Magic
+        - Strike
+        - Weapon
+      name: Acidic Anguish
+      target: One creature or object
+      type: feature
+      usage: Main action
+    - distance: Self
+      effects:
+        - effect: '**Effect:** The lurker [flies](scc.v1:mcdm.heroes.v1/movement/fly) up to their speed, then can attempt to hide. Each enemy the lurker moves [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to during this movement can choose to take 3 sonic damage or fall [prone](scc.v1:mcdm.heroes.v1/condition/prone).'
+      feature_type: ability
+      icon: "\U0001F464"
+      keywords: []
+      name: Swooping Torment
+      target: Self
+      type: feature
+      usage: Maneuver
+    - distance: Ranged 5
+      effects:
+        - effect: |-
+            **Trigger:** A creature within distance deals damage to the lurker with a ranged ability.
+            **Effect:** The lurker [flies](scc.v1:mcdm.heroes.v1/movement/fly) [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the target and can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against them.
+      feature_type: ability
+      icon: ❗️
+      keywords:
+        - Ranged
+      name: Retaliatory Dive
+      target: The triggering creature
+      type: feature
+      usage: Triggered action
+    - effects:
+        - effect: While within 10 squares of another wyvern, the lurker deals an extra 3 damage with strikes.
+      feature_type: trait
+      icon: ⭐️
+      name: Ruthless Rage
+      type: feature
+    - effects:
+        - effect: Any creature affected by a condition imposed by a wyvern can't be hidden from the lurker.
+      feature_type: trait
+      icon: ⭐️
+      name: Tenacious Hunter
+      type: feature
+free_strike: 6
+immunities:
+    - Acid 5
+intuition: 1
+keywords:
+    - Beast
+    - Wyvern
+level: 4
+metadata:
+    scc: mcdm.monsters.v1/monster.wyvern.statblock/wyvern-lurker
+    source: mcdm.monsters.v1
+might: 2
+movement: Fly
+name: Wyvern Lurker
+organization: Elite
+presence: 0
+reason: -1
+role: Ambusher
+size: "2"
+speed: 9
+stability: 2
+stamina: "120"
+type: statblock
+```

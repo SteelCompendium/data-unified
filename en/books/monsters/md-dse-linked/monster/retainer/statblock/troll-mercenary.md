@@ -29,38 +29,70 @@ weaknesses:
     - fire
 ---
 
-|   Giant, Troll    |         -          |      Level 5      |    Brute Retainer     |              EV -               |
-|:-----------------:|:------------------:|:-----------------:|:---------------------:|:-------------------------------:|
-|   **2**<br>Size   |   **6**<br>Speed   | **57**<br>Stamina |  **4**<br>Stability   |      **6**<br>Free Strike       |
-| **-**<br>Immunity | **- **<br>Movement |         -         | **-**<br>With Captain |  **Acid 5, fire **<br>Weakness  |
-|  **+3**<br>Might  | **+1**<br>Agility  | **-1**<br>Reason  |  **0**<br>Intuition   |       **+1**<br>Presence        |
-
-> 🗡 **Big Bite (Signature Ability)**
->
-> | **Charge, Melee, Strike, Weapon** |               **Main action** |
-> |-----------------------------------|------------------------------:|
-> | **📏 Melee 1**                    | **🎯 One creature or object** |
->
-> **Power Roll + highest characteristic:**
->
-> - **≤11:** 6 damage
-> - **12-16:** 11 damage
-> - **17+:** 14 damage
->
-> **Effect:** The mercenary regains [Stamina](../../../rule/health/stamina.md) equal to half the damage dealt.
-
-> ❇️ **Troll Roar (Encounter)**
->
-> | **Area**       |                  **Maneuver** |
-> |----------------|------------------------------:|
-> | **📏 3 burst** | **🎯 Each enemy in the area** |
->
-> **Power Roll + highest characteristic:**
->
-> - **≤11:** P < WEAK [frightened](../../../condition/frightened.md) ([save](../../../rule/general/saving-throw.md) ends)
-> - **12-16:** P < AVERAGE [frightened](../../../condition/frightened.md) ([save](../../../rule/general/saving-throw.md) ends)
-> - **17+:** P < STRONG [frightened](../../../condition/frightened.md) ([save](../../../rule/general/saving-throw.md) ends), push 3, [prone](../../../condition/prone.md)
-
-> ⭐️ **Relentless Hunger**
->
-> The mercenary dies only if they are reduced to 0 [Stamina](../../../rule/health/stamina.md) by acid or fire damage, if they end their turn with 0 [Stamina](../../../rule/health/stamina.md), or if they take acid or fire damage while at 0 [Stamina](../../../rule/health/stamina.md).
+```ds-sb
+agility: 1
+ev: '-'
+features:
+    - ability_type: Signature Ability
+      distance: Melee 1
+      effects:
+        - roll: Power Roll + highest characteristic
+          tier1: 6 damage
+          tier2: 11 damage
+          tier3: 14 damage
+      feature_type: ability
+      icon: "\U0001F5E1"
+      keywords:
+        - Charge
+        - Melee
+        - Strike
+        - Weapon
+      name: Big Bite
+      target: One creature or object
+      type: feature
+      usage: Main action
+    - cost: Encounter
+      distance: 3 burst
+      effects:
+        - roll: Power Roll + highest characteristic
+          tier1: P < WEAK [frightened](../../../condition/frightened.md) ([save](../../../rule/general/saving-throw.md) ends)
+          tier2: P < AVERAGE [frightened](../../../condition/frightened.md) ([save](../../../rule/general/saving-throw.md) ends)
+          tier3: P < STRONG [frightened](../../../condition/frightened.md) ([save](../../../rule/general/saving-throw.md) ends), push 3, [prone](../../../condition/prone.md)
+      feature_type: ability
+      icon: ❇️
+      keywords:
+        - Area
+      name: Troll Roar
+      target: Each enemy in the area
+      type: feature
+      usage: Maneuver
+    - effects:
+        - effect: The mercenary dies only if they are reduced to 0 [Stamina](../../../rule/health/stamina.md) by acid or fire damage, if they end their turn with 0 [Stamina](../../../rule/health/stamina.md), or if they take acid or fire damage while at 0 [Stamina](../../../rule/health/stamina.md).
+      feature_type: trait
+      icon: ⭐️
+      name: Relentless Hunger
+      type: feature
+free_strike: 6
+intuition: 0
+keywords:
+    - Giant
+    - Troll
+level: 5
+metadata:
+    scc: mcdm.monsters.v1/monster.retainer.statblock/troll-mercenary
+    source: mcdm.monsters.v1
+might: 3
+name: Troll Mercenary
+organization: Retainer
+presence: 1
+reason: -1
+role: Brute
+size: "2"
+speed: 6
+stability: 4
+stamina: "57"
+type: statblock
+weaknesses:
+    - Acid 5
+    - fire
+```

@@ -27,26 +27,52 @@ type: statblock
 with_captain: +2 bonus to speed
 ---
 
-|   Humanoid, Orc   |         -         |     Level 1      |            Minion Harrier             | EV 3 for four minions |
-|:-----------------:|:-----------------:|:----------------:|:-------------------------------------:|:---------------------:|
-|  **1M**<br>Size   |  **7**<br>Speed   | **4**<br>Stamina |          **0**<br>Stability           | **1**<br>Free Strike  |
-| **-**<br>Immunity | **-**<br>Movement |        -         | **+2 bonus to speed**<br>With Captain |   **-**<br>Weakness   |
-|  **+1**<br>Might  | **+2**<br>Agility | **0**<br>Reason  |          **0**<br>Intuition           |   **0**<br>Presence   |
-
-> 🗡 **Lugged Spear ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
->
-> | **Melee, Strike, Weapon** |                          **Main action** |
-> |---------------------------|-----------------------------------------:|
-> | **📏 Melee 1**            | **🎯 One creature or object per minion** |
->
-> **Power Roll + 2:**
->
-> - **≤11:** 1 damage
-> - **12-16:** 2 damage
-> - **17+:** 3 damage
->
-> **Effect:** A target who starts their next turn [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to three or more blitzers takes 3 damage.
-
-> ⭐️ **Bloodfire Bur**
->
-> If the blitzer is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), they can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) before dying.
+```ds-sb
+agility: 2
+ev: 3 for four minions
+features:
+    - ability_type: Signature Ability
+      distance: Melee 1
+      effects:
+        - roll: Power Roll + 2
+          tier1: 1 damage
+          tier2: 2 damage
+          tier3: 3 damage
+      feature_type: ability
+      icon: "\U0001F5E1"
+      keywords:
+        - Melee
+        - Strike
+        - Weapon
+      name: Lugged Spear
+      target: One creature or object per minion
+      type: feature
+      usage: Main action
+    - effects:
+        - effect: If the blitzer is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), they can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) before dying.
+      feature_type: trait
+      icon: ⭐️
+      name: Bloodfire Bur
+      type: feature
+free_strike: 1
+intuition: 0
+keywords:
+    - Humanoid
+    - Orc
+level: 1
+metadata:
+    scc: mcdm.monsters.v1/monster.orc.statblock/orc-blitzer
+    source: mcdm.monsters.v1
+might: 1
+name: Orc Blitzer
+organization: Minion
+presence: 0
+reason: 0
+role: Harrier
+size: 1M
+speed: 7
+stability: 0
+stamina: "4"
+type: statblock
+with_captain: +2 bonus to speed
+```

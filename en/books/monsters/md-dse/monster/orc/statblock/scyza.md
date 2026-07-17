@@ -26,78 +26,117 @@ stamina: "100"
 type: statblock
 ---
 
-|    Animal, Orc    |         -         |      Level 3       |      Elite Mount      |        EV 20         |
-|:-----------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
-|   **4**<br>Size   |  **6**<br>Speed   | **100**<br>Stamina |  **3**<br>Stability   | **5**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
-|  **+2**<br>Might  | **-1**<br>Agility |  **-4**<br>Reason  |  **+0**<br>Intuition  |  **-1**<br>Presence  |
-
-> 🗡 **Clawed Kick ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
->
-> | **Melee, Strike, Weapon** |                 **Main action** |
-> |---------------------------|--------------------------------:|
-> | **📏 Melee 2**            | **🎯 Two creatures or objects** |
->
-> **Power Roll + 2:**
->
-> - **≤11:** 7 damage
-> - **12-16:** 11 damage; [prone](scc.v1:mcdm.heroes.v1/condition/prone)
-> - **17+:** 14 damage; [prone](scc.v1:mcdm.heroes.v1/condition/prone)
->
-> **Effect:** The scyza roars, and if the target has I < 2, they are [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends).
-
-> 🗡 **Whiptail**
->
-> | **Melee, Strike, Weapon** |               **Main action** |
-> |---------------------------|------------------------------:|
-> | **📏 Melee 3**            | **🎯 One creature or object** |
->
-> **Power Roll + 2:**
->
-> - **≤11:** 8 damage
-> - **12-16:** 13 damage; [prone](scc.v1:mcdm.heroes.v1/condition/prone)
-> - **17+:** 16 damage; A < 2 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
->
-> **Effect:** Against a target on top of the scyza, this ability gains an edge, and the target is [pushed](scc.v1:mcdm.heroes.v1/movement/forced-movement) into an unoccupied [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) square and knocked [prone](scc.v1:mcdm.heroes.v1/condition/prone).
-
-> 🔳 **Crestfall (2 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
->
-> | **Area, Ranged, Weapon** |               **Main action** |
-> |--------------------------|------------------------------:|
-> | **📏 3 cube within 2**   | **🎯 Each enemy in the area** |
->
-> **Power Roll + 2:**
->
-> - **≤11:** 4 damage, 1 sonic damage; R < 0 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
-> - **12-16:** 7 damage, 2 sonic damage; R < 1 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
-> - **17+:** 9 damage, 3 sonic damage; R < 2 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
-
-> ❇️ **Sandstorm (3 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
->
-> | **Area**       |   **Maneuver** |
-> |----------------|---------------:|
-> | **📏 3 burst** | **🎯 Special** |
->
-> **Effect:** The scyza kicks up a sandstorm, granting [concealment](scc.v1:mcdm.heroes.v1/rule.combat/concealment) to themself and any ally in the area until the end of the scyza's next turn. Each enemy in the area makes an Intuition test.
->
-> - **≤11:** 10 damage; [prone](scc.v1:mcdm.heroes.v1/condition/prone); [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (EoT)
-> - **12-16:** 7 damage; [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (EoT)
-> - **17+:** 4 damage
-
-> ❗️ **Brace and Break**
->
-> | **-**       | **Triggered action** |
-> |-------------|---------------------:|
-> | **📏 Self** |          **🎯 Self** |
->
-> **Trigger:** The scyza or an ally riding the scyza is targeted by an ability.
->
-> **Effect:** Any damage dealt by the triggering ability is halved. If the creature or object who used the ability is within 3 squares of the scyza, the scyza can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against them.
-
-> ⭐️ **Terrible Beast**
->
-> The scyza deals an extra 6 damage with abilities used against objects.
-
-> ⭐️ **War Harness**
->
-> While riding the scyza, three size 1 allies can occupy the same space.
+```ds-sb
+agility: -1
+ev: "20"
+features:
+    - ability_type: Signature Ability
+      distance: Melee 2
+      effects:
+        - roll: Power Roll + 2
+          tier1: 7 damage
+          tier2: 11 damage; [prone](scc.v1:mcdm.heroes.v1/condition/prone)
+          tier3: 14 damage; [prone](scc.v1:mcdm.heroes.v1/condition/prone)
+      feature_type: ability
+      icon: "\U0001F5E1"
+      keywords:
+        - Melee
+        - Strike
+        - Weapon
+      name: Clawed Kick
+      target: Two creatures or objects
+      type: feature
+      usage: Main action
+    - distance: Melee 3
+      effects:
+        - roll: Power Roll + 2
+          tier1: 8 damage
+          tier2: 13 damage; [prone](scc.v1:mcdm.heroes.v1/condition/prone)
+          tier3: 16 damage; A < 2 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
+      feature_type: ability
+      icon: "\U0001F5E1"
+      keywords:
+        - Melee
+        - Strike
+        - Weapon
+      name: Whiptail
+      target: One creature or object
+      type: feature
+      usage: Main action
+    - cost: 2 Malice
+      distance: 3 cube within 2
+      effects:
+        - roll: Power Roll + 2
+          tier1: 4 damage, 1 sonic damage; R < 0 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
+          tier2: 7 damage, 2 sonic damage; R < 1 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
+          tier3: 9 damage, 3 sonic damage; R < 2 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
+      feature_type: ability
+      icon: "\U0001F533"
+      keywords:
+        - Area
+        - Ranged
+        - Weapon
+      name: Crestfall
+      target: Each enemy in the area
+      type: feature
+      usage: Main action
+    - cost: 3 Malice
+      distance: 3 burst
+      effects:
+        - roll: ""
+          tier1: 10 damage; [prone](scc.v1:mcdm.heroes.v1/condition/prone); [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (EoT)
+          tier2: 7 damage; [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (EoT)
+          tier3: 4 damage
+      feature_type: ability
+      icon: ❇️
+      keywords:
+        - Area
+      name: Sandstorm
+      target: Special
+      type: feature
+      usage: Maneuver
+    - distance: Self
+      effects:
+        - effect: |-
+            **Trigger:** The scyza or an ally riding the scyza is targeted by an ability.
+            **Effect:** Any damage dealt by the triggering ability is halved. If the creature or object who used the ability is within 3 squares of the scyza, the scyza can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against them.
+      feature_type: ability
+      icon: ❗️
+      keywords: []
+      name: Brace and Break
+      target: Self
+      type: feature
+      usage: Triggered action
+    - effects:
+        - effect: The scyza deals an extra 6 damage with abilities used against objects.
+      feature_type: trait
+      icon: ⭐️
+      name: Terrible Beast
+      type: feature
+    - effects:
+        - effect: While riding the scyza, three size 1 allies can occupy the same space.
+      feature_type: trait
+      icon: ⭐️
+      name: War Harness
+      type: feature
+free_strike: 5
+intuition: 0
+keywords:
+    - Animal
+    - Orc
+level: 3
+metadata:
+    scc: mcdm.monsters.v1/monster.orc.statblock/scyza
+    source: mcdm.monsters.v1
+might: 2
+name: Scyza
+organization: Elite
+presence: -1
+reason: -4
+role: Mount
+size: "4"
+speed: 6
+stability: 3
+stamina: "100"
+type: statblock
+```

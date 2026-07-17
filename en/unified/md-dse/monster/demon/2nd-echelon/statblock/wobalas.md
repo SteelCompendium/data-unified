@@ -29,22 +29,49 @@ weaknesses:
 with_captain: +2 damage bonus to strikes
 ---
 
-|  Abyssal, Demon   |         -         |     Level 4      |                Minion Artillery                |  EV 6 for four minions   |
-|:-----------------:|:-----------------:|:----------------:|:----------------------------------------------:|:------------------------:|
-|  **1M**<br>Size   |  **6**<br>Speed   | **7**<br>Stamina |               **0**<br>Stability               |   **3**<br>Free Strike   |
-| **-**<br>Immunity | **-**<br>Movement |        -         | **+2 damage bonus to strikes**<br>With Captain |  **Holy 5**<br>Weakness  |
-|  **+1**<br>Might  | **+3**<br>Agility | **+1**<br>Reason |              **+2**<br>Intuition               |    **+1**<br>Presence    |
-
-> 🏹 **Despair Bolt (Signature Ability)**
->
-> | **Magic, Ranged, Strike, Weapon** |                **Main action** |
-> |-----------------------------------|-------------------------------:|
-> | **📏 Ranged 20**                  | **🎯 One creature per minion** |
->
-> **Power Roll + 2:**
->
-> - **≤11:** 3 psychic damage
-> - **12-16:** 5 psychic damage
-> - **17+:** 7 psychic damage
->
-> **Effect:** The target takes a [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) on their next strike. If the target is [winded](scc.v1:mcdm.heroes.v1/rule.health/winded), they have a double bane on their next strike instead.
+```ds-sb
+agility: 3
+ev: 6 for four minions
+features:
+    - ability_type: Signature Ability
+      distance: Ranged 20
+      effects:
+        - roll: Power Roll + 2
+          tier1: 3 psychic damage
+          tier2: 5 psychic damage
+          tier3: 7 psychic damage
+      feature_type: ability
+      icon: "\U0001F3F9"
+      keywords:
+        - Magic
+        - Ranged
+        - Strike
+        - Weapon
+      name: Despair Bolt
+      target: One creature per minion
+      type: feature
+      usage: Main action
+free_strike: 3
+intuition: 2
+keywords:
+    - Abyssal
+    - Demon
+level: 4
+metadata:
+    scc: mcdm.monsters.v1/monster.demon.2nd-echelon.statblock/wobalas
+    source: mcdm.monsters.v1
+might: 1
+name: Wobalas
+organization: Minion
+presence: 1
+reason: 1
+role: Artillery
+size: 1M
+speed: 6
+stability: 0
+stamina: "7"
+type: statblock
+weaknesses:
+    - Holy 5
+with_captain: +2 damage bonus to strikes
+```

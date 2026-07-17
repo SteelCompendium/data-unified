@@ -26,40 +26,68 @@ stamina: "10"
 type: statblock
 ---
 
-| Humanoid, Kobold  |         -         |      Level 1      |    Horde Artillery    |         EV 3         |
-|:-----------------:|:-----------------:|:-----------------:|:---------------------:|:--------------------:|
-|  **1S**<br>Size   |  **5**<br>Speed   | **10**<br>Stamina |  **0**<br>Stability   | **2**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
-|  **0**<br>Might   | **+1**<br>Agility | **+2**<br>Reason  |  **0**<br>Intuition   |  **0**<br>Presence   |
-
-> 🏹 **Shocking Bolt (Signature Ability)**
->
-> | **Magic, Ranged, Strike** |               **Main action** |
-> |---------------------------|------------------------------:|
-> | **📏 Ranged 15**          | **🎯 One creature or object** |
->
-> **Power Roll + 2:**
->
-> - **≤11:** 4 lightning damage
-> - **12-16:** 6 lightning damage
-> - **17+:** 7 lightning damage
->
-> **Effect:** While the target is adjacent to any enemy, the adeptus gains an edge on this ability. Each enemy adjacent to the target takes 2 lighting damage.
-
-> 🏹 **Arcane Telum (3 Malice)**
->
-> | **Magic, Ranged, Strike** |                      **Maneuver** |
-> |---------------------------|----------------------------------:|
-> | **📏 Ranged 15**          | **🎯 Three creatures or objects** |
->
-> **Power Roll + 2:**
->
-> - **≤11:** 3 damage
-> - **12-16:** 5 damage
-> - **17+:** 6 damage
->
-> **Effect:** This ability ignores banes, double banes, and damage immunity.
-
-> ⭐️ **Shield? Shield!**
->
-> While [adjacent](../../../rule/combat/adjacent.md) to an ally who also has this trait, the adeptus has stability 1, has cover, and grants cover to allies.
+```ds-sb
+agility: 1
+ev: "3"
+features:
+    - ability_type: Signature Ability
+      distance: Ranged 15
+      effects:
+        - roll: Power Roll + 2
+          tier1: 4 lightning damage
+          tier2: 6 lightning damage
+          tier3: 7 lightning damage
+      feature_type: ability
+      icon: "\U0001F3F9"
+      keywords:
+        - Magic
+        - Ranged
+        - Strike
+      name: Shocking Bolt
+      target: One creature or object
+      type: feature
+      usage: Main action
+    - cost: 3 Malice
+      distance: Ranged 15
+      effects:
+        - roll: Power Roll + 2
+          tier1: 3 damage
+          tier2: 5 damage
+          tier3: 6 damage
+      feature_type: ability
+      icon: "\U0001F3F9"
+      keywords:
+        - Magic
+        - Ranged
+        - Strike
+      name: Arcane Telum
+      target: Three creatures or objects
+      type: feature
+      usage: Maneuver
+    - effects:
+        - effect: While [adjacent](../../../rule/combat/adjacent.md) to an ally who also has this trait, the adeptus has stability 1, has cover, and grants cover to allies.
+      feature_type: trait
+      icon: ⭐️
+      name: Shield? Shield!
+      type: feature
+free_strike: 2
+intuition: 0
+keywords:
+    - Humanoid
+    - Kobold
+level: 1
+metadata:
+    scc: mcdm.monsters.v1/monster.kobold.statblock/kobold-adeptus
+    source: mcdm.monsters.v1
+might: 0
+name: Kobold Adeptus
+organization: Horde
+presence: 0
+reason: 2
+role: Artillery
+size: 1S
+speed: 5
+stability: 0
+stamina: "10"
+type: statblock
+```

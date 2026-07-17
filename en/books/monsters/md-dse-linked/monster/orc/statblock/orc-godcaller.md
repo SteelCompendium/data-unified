@@ -26,42 +26,79 @@ stamina: "30"
 type: statblock
 ---
 
-|   Humanoid, Orc   |         -         |      Level 1      |    Platoon Support    |         EV 6         |
-|:-----------------:|:-----------------:|:-----------------:|:---------------------:|:--------------------:|
-|  **1M**<br>Size   |  **6**<br>Speed   | **30**<br>Stamina |  **0**<br>Stability   | **3**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
-|  **+1**<br>Might  | **+0**<br>Agility | **+0**<br>Reason  |  **+1**<br>Intuition  |  **+2**<br>Presence  |
-
-> ⚔️ **Power Chord ([Signature Ability](../../../rule/combat/signature-ability.md))**
->
-> | **Magic, Melee, Ranged, Strike** |               **Main action** |
-> |----------------------------------|------------------------------:|
-> | **📏 Melee 1 or ranged 10**      | **🎯 One creature or object** |
->
-> **Power Roll + 2:**
->
-> - **≤11:** 5 sonic damage
-> - **12-16:** 7 sonic damage
-> - **17+:** 9 sonic damage; P < 2 [weakened](../../../condition/weakened.md) (save ends)
-
-> 🏹 **Cadenza**
->
-> | **Magic, Ranged** | **Main action** |
-> |-------------------|----------------:|
-> | **📏 Ranged 10**  | **🎯 One ally** |
->
-> **Effect:** The target moves up to their speed and can use a main action.
->
-> **3 [Malice](../../../rule/monster/malice.md):** The godcaller targets a second ally.
-
-> 🏹 **Rallying Ostinato (2 [Malice](../../../rule/monster/malice.md))**
->
-> | **Magic, Ranged** |                 **Maneuver** |
-> |-------------------|-----------------------------:|
-> | **📏 Ranged 10**  | **🎯 Self and three allies** |
->
-> **Effect:** Each target regains 15 [Stamina](../../../rule/health/stamina.md) and ignores [difficult terrain](../../../movement/difficult-terrain.md) until the end of the encounter.
-
-> ⭐️ **Relentless**
->
-> If the godcaller is reduced to 0 [Stamina](../../../rule/health/stamina.md), they can make a [free strike](../../../feature/common/main-actions/free-strike.md) before dying. If the target of the free strike is reduced to 0 [Stamina](../../../rule/health/stamina.md), the godcaller is reduced to 1 [Stamina](../../../rule/health/stamina.md) instead.
+```ds-sb
+agility: 0
+ev: "6"
+features:
+    - ability_type: Signature Ability
+      distance: Melee 1 or ranged 10
+      effects:
+        - roll: Power Roll + 2
+          tier1: 5 sonic damage
+          tier2: 7 sonic damage
+          tier3: 9 sonic damage; P < 2 [weakened](../../../condition/weakened.md) (save ends)
+      feature_type: ability
+      icon: ⚔️
+      keywords:
+        - Magic
+        - Melee
+        - Ranged
+        - Strike
+      name: Power Chord
+      target: One creature or object
+      type: feature
+      usage: Main action
+    - distance: Ranged 10
+      effects:
+        - effect: |-
+            **Effect:** The target moves up to their speed and can use a main action.
+            **3 [Malice](../../../rule/monster/malice.md):** The godcaller targets a second ally.
+      feature_type: ability
+      icon: "\U0001F3F9"
+      keywords:
+        - Magic
+        - Ranged
+      name: Cadenza
+      target: One ally
+      type: feature
+      usage: Main action
+    - cost: 2 Malice
+      distance: Ranged 10
+      effects:
+        - effect: '**Effect:** Each target regains 15 [Stamina](../../../rule/health/stamina.md) and ignores [difficult terrain](../../../movement/difficult-terrain.md) until the end of the encounter.'
+      feature_type: ability
+      icon: "\U0001F3F9"
+      keywords:
+        - Magic
+        - Ranged
+      name: Rallying Ostinato
+      target: Self and three allies
+      type: feature
+      usage: Maneuver
+    - effects:
+        - effect: If the godcaller is reduced to 0 [Stamina](../../../rule/health/stamina.md), they can make a [free strike](../../../feature/common/main-actions/free-strike.md) before dying. If the target of the free strike is reduced to 0 [Stamina](../../../rule/health/stamina.md), the godcaller is reduced to 1 [Stamina](../../../rule/health/stamina.md) instead.
+      feature_type: trait
+      icon: ⭐️
+      name: Relentless
+      type: feature
+free_strike: 3
+intuition: 1
+keywords:
+    - Humanoid
+    - Orc
+level: 1
+metadata:
+    scc: mcdm.monsters.v1/monster.orc.statblock/orc-godcaller
+    source: mcdm.monsters.v1
+might: 1
+name: Orc Godcaller
+organization: Platoon
+presence: 2
+reason: 0
+role: Support
+size: 1M
+speed: 6
+stability: 0
+stamina: "30"
+type: statblock
+```

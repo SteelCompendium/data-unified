@@ -30,24 +30,55 @@ type: statblock
 with_captain: +4 damage bonus to strikes
 ---
 
-|             Undead, Soulless             |         -         |     Level 10      |                  Minion Brute                  | EV 12 for four minions |
-|:----------------------------------------:|:-----------------:|:-----------------:|:----------------------------------------------:|:----------------------:|
-|              **3**<br>Size               |  **4**<br>Speed   | **17**<br>Stamina |               **5**<br>Stability               |  **5**<br>Free Strike  |
-| **Corruption 10, poison 10**<br>Immunity | **-**<br>Movement |         -         | **+4 damage bonus to strikes**<br>With Captain |   **-**<br>Weakness    |
-|             **+5**<br>Might              | **-3**<br>Agility | **-3**<br>Reason  |              **+1**<br>Intuition               |   **-2**<br>Presence   |
-
-> 🗡 **Rotten Kick ([Signature Ability](../../../../rule/combat/signature-ability.md))**
->
-> | **Melee, Strike, Weapon** |                          **Main action** |
-> |---------------------------|-----------------------------------------:|
-> | **📏 Melee 2**            | **🎯 One creature or object per minion** |
->
-> **Power Roll + 5:**
->
-> - **≤11:** 5 damage; [push](../../../../movement/forced-movement.md) 2
-> - **12-16:** 8 damage; [push](../../../../movement/forced-movement.md) 4
-> - **17+:** 10 damage; [push](../../../../movement/forced-movement.md) 6
-
-> ⭐️ **Meat Shield**
->
-> Each ally [adjacent](../../../../rule/combat/adjacent.md) to the shambler has [damage immunity](../../../../rule/damage/damage-immunity.md) 3.
+```ds-sb
+agility: -3
+ev: 12 for four minions
+features:
+    - ability_type: Signature Ability
+      distance: Melee 2
+      effects:
+        - roll: Power Roll + 5
+          tier1: 5 damage; [push](../../../../movement/forced-movement.md) 2
+          tier2: 8 damage; [push](../../../../movement/forced-movement.md) 4
+          tier3: 10 damage; [push](../../../../movement/forced-movement.md) 6
+      feature_type: ability
+      icon: "\U0001F5E1"
+      keywords:
+        - Melee
+        - Strike
+        - Weapon
+      name: Rotten Kick
+      target: One creature or object per minion
+      type: feature
+      usage: Main action
+    - effects:
+        - effect: Each ally [adjacent](../../../../rule/combat/adjacent.md) to the shambler has [damage immunity](../../../../rule/damage/damage-immunity.md) 3.
+      feature_type: trait
+      icon: ⭐️
+      name: Meat Shield
+      type: feature
+free_strike: 5
+immunities:
+    - Corruption 10
+    - poison 10
+intuition: 1
+keywords:
+    - Undead
+    - Soulless
+level: 10
+metadata:
+    scc: mcdm.monsters.v1/monster.undead.4th-echelon.statblock/giant-shambler-zombie
+    source: mcdm.monsters.v1
+might: 5
+name: Giant Shambler Zombie
+organization: Minion
+presence: -2
+reason: -3
+role: Brute
+size: "3"
+speed: 4
+stability: 5
+stamina: "17"
+type: statblock
+with_captain: +4 damage bonus to strikes
+```

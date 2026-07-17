@@ -29,34 +29,66 @@ stamina: "20"
 type: statblock
 ---
 
-| Humanoid, Soulless, War Dog |         -         |      Level 3      |   Horde Controller    |         EV 5         |
-|:---------------------------:|:-----------------:|:-----------------:|:---------------------:|:--------------------:|
-|       **1M**<br>Size        |  **5**<br>Speed   | **20**<br>Stamina |  **0**<br>Stability   | **2**<br>Free Strike |
-|  **Poison 3**<br>Immunity   | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
-|       **0**<br>Might        | **+1**<br>Agility |  **0**<br>Reason  |  **0**<br>Intuition   |  **+2**<br>Presence  |
-
-> 🔳 **Plaguecaster ([Signature Ability](../../../../rule/combat/signature-ability.md))**
->
-> | **Area, Magic, Ranged** |                  **Main action** |
-> |-------------------------|---------------------------------:|
-> | **📏 3 cube within 10** | **🎯 Each creature in the area** |
->
-> **Power Roll + 2:**
->
-> - **≤11:** 2 poison damage; I < 0 [frightened](../../../../condition/frightened.md) (save ends)
-> - **12-16:** 4 poison damage; I < 1 [frightened](../../../../condition/frightened.md) (save ends)
-> - **17+:** 5 poison damage; I < 2 [frightened](../../../../condition/frightened.md) (save ends)
->
-> **Effect:** The area is filled with a cloud of pestilence that lasts until the start of the pestilite's next turn. Any creature who enters the area for the first time in a round or starts their turn there takes 2 poison damage.
-
-> 🏹 **Posthumous Promotion**
->
-> | **Magic, Ranged** |       **Maneuver** |
-> |-------------------|-------------------:|
-> | **📏 Ranged 10**  | **🎯 One war dog** |
->
-> **Effect:** If the target has a loyalty collar, they are reduced to 0 [Stamina](../../../../rule/health/stamina.md).
-
-> ⭐️ **Loyalty Collar**
->
-> When the pestilite is reduced to 0 [Stamina](../../../../rule/health/stamina.md), their loyalty collar explodes, dealing 1d6 damage to each [adjacent](../../../../rule/combat/adjacent.md) enemy and object.
+```ds-sb
+agility: 1
+ev: "5"
+features:
+    - ability_type: Signature Ability
+      distance: 3 cube within 10
+      effects:
+        - roll: Power Roll + 2
+          tier1: 2 poison damage; I < 0 [frightened](../../../../condition/frightened.md) (save ends)
+          tier2: 4 poison damage; I < 1 [frightened](../../../../condition/frightened.md) (save ends)
+          tier3: 5 poison damage; I < 2 [frightened](../../../../condition/frightened.md) (save ends)
+      feature_type: ability
+      icon: "\U0001F533"
+      keywords:
+        - Area
+        - Magic
+        - Ranged
+      name: Plaguecaster
+      target: Each creature in the area
+      type: feature
+      usage: Main action
+    - distance: Ranged 10
+      effects:
+        - effect: '**Effect:** If the target has a loyalty collar, they are reduced to 0 [Stamina](../../../../rule/health/stamina.md).'
+      feature_type: ability
+      icon: "\U0001F3F9"
+      keywords:
+        - Magic
+        - Ranged
+      name: Posthumous Promotion
+      target: One war dog
+      type: feature
+      usage: Maneuver
+    - effects:
+        - effect: When the pestilite is reduced to 0 [Stamina](../../../../rule/health/stamina.md), their loyalty collar explodes, dealing 1d6 damage to each [adjacent](../../../../rule/combat/adjacent.md) enemy and object.
+      feature_type: trait
+      icon: ⭐️
+      name: Loyalty Collar
+      type: feature
+free_strike: 2
+immunities:
+    - Poison 3
+intuition: 0
+keywords:
+    - Humanoid
+    - Soulless
+    - War Dog
+level: 3
+metadata:
+    scc: mcdm.monsters.v1/monster.war-dog.1st-echelon.statblock/war-dog-pestilite
+    source: mcdm.monsters.v1
+might: 0
+name: War Dog Pestilite
+organization: Horde
+presence: 2
+reason: 0
+role: Controller
+size: 1M
+speed: 5
+stability: 0
+stamina: "20"
+type: statblock
+```

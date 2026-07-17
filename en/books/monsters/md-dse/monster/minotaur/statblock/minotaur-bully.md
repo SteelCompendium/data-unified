@@ -28,24 +28,55 @@ type: statblock
 with_captain: +3 damage bonus to strikes
 ---
 
-| Accursed, Humanoid, Minotaur |         -         |      Level 8      |                  Minion Brute                  | EV 10 for four minions |
-|:----------------------------:|:-----------------:|:-----------------:|:----------------------------------------------:|:----------------------:|
-|        **2**<br>Size         |  **6**<br>Speed   | **14**<br>Stamina |               **2**<br>Stability               |  **4**<br>Free Strike  |
-|      **-**<br>Immunity       | **-**<br>Movement |         -         | **+3 damage bonus to strikes**<br>With Captain |   **-**<br>Weakness    |
-|       **+4**<br>Might        | **+2**<br>Agility |  **0**<br>Reason  |              **+3**<br>Intuition               |   **-1**<br>Presence   |
-
-> ⚔️ **Javelin and Bellow ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
->
-> | **Charge, Melee, Ranged, Strike, Weapon** |                          **Main action** |
-> |-------------------------------------------|-----------------------------------------:|
-> | **📏 Melee 2 or ranged 5**                | **🎯 One creature or object per minion** |
->
-> **Power Roll + 4:**
->
-> - **≤11:** 4 damage
-> - **12-16:** 7 damage
-> - **17+:** 9 damage; I < 4 [taunted](scc.v1:mcdm.heroes.v1/condition/taunted) (EoT) or [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) of all minotaurs (save ends)
-
-> ⭐️ **Minotaur Sense**
->
-> The bully can't obtain less than a tier 2 outcome when making tests to navigate, search, or seek.
+```ds-sb
+agility: 2
+ev: 10 for four minions
+features:
+    - ability_type: Signature Ability
+      distance: Melee 2 or ranged 5
+      effects:
+        - roll: Power Roll + 4
+          tier1: 4 damage
+          tier2: 7 damage
+          tier3: 9 damage; I < 4 [taunted](scc.v1:mcdm.heroes.v1/condition/taunted) (EoT) or [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) of all minotaurs (save ends)
+      feature_type: ability
+      icon: ⚔️
+      keywords:
+        - Charge
+        - Melee
+        - Ranged
+        - Strike
+        - Weapon
+      name: Javelin and Bellow
+      target: One creature or object per minion
+      type: feature
+      usage: Main action
+    - effects:
+        - effect: The bully can't obtain less than a tier 2 outcome when making tests to navigate, search, or seek.
+      feature_type: trait
+      icon: ⭐️
+      name: Minotaur Sense
+      type: feature
+free_strike: 4
+intuition: 3
+keywords:
+    - Accursed
+    - Humanoid
+    - Minotaur
+level: 8
+metadata:
+    scc: mcdm.monsters.v1/monster.minotaur.statblock/minotaur-bully
+    source: mcdm.monsters.v1
+might: 4
+name: Minotaur Bully
+organization: Minion
+presence: -1
+reason: 0
+role: Brute
+size: "2"
+speed: 6
+stability: 2
+stamina: "14"
+type: statblock
+with_captain: +3 damage bonus to strikes
+```

@@ -30,40 +30,73 @@ stamina: "60"
 type: statblock
 ---
 
-| Goblin, Hobgoblin, Humanoid, Infernal |         -          |      Level 4      |    Platoon Support    |        EV 12         |
-|:-------------------------------------:|:------------------:|:-----------------:|:---------------------:|:--------------------:|
-|            **1M**<br>Size             |   **5**<br>Speed   | **60**<br>Stamina |  **2**<br>Stability   | **5**<br>Free Strike |
-|        **Fire 4**<br>Immunity         | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
-|            **+3**<br>Might            |  **0**<br>Agility  | **+1**<br>Reason  |  **0**<br>Intuition   |  **+2**<br>Presence  |
-
-> 🗡 **Blightblade (Signature Ability)**
->
-> | **Magic, Melee, Strike, Weapon** |               **Main action** |
-> |----------------------------------|------------------------------:|
-> | **📏 Melee 1**                   | **🎯 One creature or object** |
->
-> **Power Roll + 3:**
->
-> - **≤11:** 8 damage
-> - **12-16:** 8 damage, 4 corruption damage
-> - **17+:** 8 damage, 7 corruption damage
->
-> **Effect:** The next strike made against the target has a double edge.
->
-> **3 [Malice](../../../rule/monster/malice.md):** One ally [adjacent](../../../rule/combat/adjacent.md) to the target can use their signature ability.
-
-> 🏹 **On My Mark!**
->
-> | **Ranged**      |    **Maneuver** |
-> |-----------------|----------------:|
-> | **📏 Ranged 5** | **🎯 One ally** |
->
-> **Effect:** The target moves up to their speed and can make a [free strike](../../../feature/common/main-actions/free-strike.md).
-
-> ⭐️ **Battle Ready**
->
-> Any hidden creature who makes a strike against the death captain or any ally within 2 squares of the death captain takes a bane on the strike.
-
-> ⭐️ **Infernal Ichor**
->
-> When the death captain is reduced to 0 [Stamina](../../../rule/health/stamina.md), they spray burning blood. Each creature [adjacent](../../../rule/combat/adjacent.md) to the death captain takes 3 fire damage.
+```ds-sb
+agility: 0
+ev: "12"
+features:
+    - ability_type: Signature Ability
+      distance: Melee 1
+      effects:
+        - roll: Power Roll + 3
+          tier1: 8 damage
+          tier2: 8 damage, 4 corruption damage
+          tier3: 8 damage, 7 corruption damage
+      feature_type: ability
+      icon: "\U0001F5E1"
+      keywords:
+        - Magic
+        - Melee
+        - Strike
+        - Weapon
+      name: Blightblade
+      target: One creature or object
+      type: feature
+      usage: Main action
+    - distance: Ranged 5
+      effects:
+        - effect: '**Effect:** The target moves up to their speed and can make a [free strike](../../../feature/common/main-actions/free-strike.md).'
+      feature_type: ability
+      icon: "\U0001F3F9"
+      keywords:
+        - Ranged
+      name: On My Mark!
+      target: One ally
+      type: feature
+      usage: Maneuver
+    - effects:
+        - effect: Any hidden creature who makes a strike against the death captain or any ally within 2 squares of the death captain takes a bane on the strike.
+      feature_type: trait
+      icon: ⭐️
+      name: Battle Ready
+      type: feature
+    - effects:
+        - effect: When the death captain is reduced to 0 [Stamina](../../../rule/health/stamina.md), they spray burning blood. Each creature [adjacent](../../../rule/combat/adjacent.md) to the death captain takes 3 fire damage.
+      feature_type: trait
+      icon: ⭐️
+      name: Infernal Ichor
+      type: feature
+free_strike: 5
+immunities:
+    - Fire 4
+intuition: 0
+keywords:
+    - Goblin
+    - Hobgoblin
+    - Humanoid
+    - Infernal
+level: 4
+metadata:
+    scc: mcdm.monsters.v1/monster.hobgoblin.statblock/hobgoblin-death-captain
+    source: mcdm.monsters.v1
+might: 3
+name: Hobgoblin Death Captain
+organization: Platoon
+presence: 2
+reason: 1
+role: Support
+size: 1M
+speed: 5
+stability: 2
+stamina: "60"
+type: statblock
+```

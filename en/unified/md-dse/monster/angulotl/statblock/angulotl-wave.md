@@ -29,38 +29,71 @@ stamina: "10"
 type: statblock
 ---
 
-|    Angulotl, Humanoid    |              -              |      Level 1      |   Horde Controller    |         EV 3         |
-|:------------------------:|:---------------------------:|:-----------------:|:---------------------:|:--------------------:|
-|      **1S**<br>Size      |       **5**<br>Speed        | **10**<br>Stamina |  **0**<br>Stability   | **1**<br>Free Strike |
-| **Poison 2**<br>Immunity | **Climb, swim**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
-|     **+0**<br>Might      |      **+0**<br>Agility      | **+0**<br>Reason  |  **+2**<br>Intuition  |  **+2**<br>Presence  |
-
-> 🏹 **Refulgent Beams (Signature Ability)**
->
-> | **Magic, Ranged, Strike** |                 **Main action** |
-> |---------------------------|--------------------------------:|
-> | **📏 Ranged 8**           | **🎯 Two creatures or objects** |
->
-> **Power Roll + 2:**
->
-> - **≤11:** 3 holy damage
-> - **12-16:** 4 holy damage; R < 1 the target is illuminated (save ends)
-> - **17+:** 5 holy damage; R < 2 the target is illuminated (save ends)
->
-> **Effect:** An illuminated creature or object can't hide or become invisible, and any strike made against an illuminated target gains an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge).
-
-> 🔳 **Noxious Bubble (2 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
->
-> | **Area, Magic, Ranged**                     | **Main action** |
-> |---------------------------------------------|----------------:|
-> | **📏 2 cube of unoccupied space within 10** |  **🎯 Special** |
->
-> **Effect:** A bubble of toxic gas fills the area, ready to pop. If any creature or object touches the bubble or if the bubble takes damage, it bursts. Each angulotl adjacent to the bubble is wet until the end of the encounter, and each enemy adjacent to the bubble makes a **[Might](scc.v1:mcdm.heroes.v1/rule.character/might) test**.
->
-> - **≤11:** 3 poison damage; the target is wet and [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
-> - **12-16:** 2 poison damage; the target is wet (save ends)
-> - **17+:** 1 poison damage; the target is wet ([EoT](scc.v1:mcdm.heroes.v1/rule.combat/end-of-turn))
-
-> ⭐️ **Toxiferous**
->
-> Whenever an adjacent enemy [grabs](scc.v1:mcdm.heroes.v1/feature.common.maneuvers/grab) the wave or uses a melee ability against them, that enemy takes 2 poison damage.
+```ds-sb
+agility: 0
+ev: "3"
+features:
+    - ability_type: Signature Ability
+      distance: Ranged 8
+      effects:
+        - roll: Power Roll + 2
+          tier1: 3 holy damage
+          tier2: 4 holy damage; R < 1 the target is illuminated (save ends)
+          tier3: 5 holy damage; R < 2 the target is illuminated (save ends)
+      feature_type: ability
+      icon: "\U0001F3F9"
+      keywords:
+        - Magic
+        - Ranged
+        - Strike
+      name: Refulgent Beams
+      target: Two creatures or objects
+      type: feature
+      usage: Main action
+    - cost: 2 Malice
+      distance: 2 cube of unoccupied space within 10
+      effects:
+        - roll: ""
+          tier1: 3 poison damage; the target is wet and [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+          tier2: 2 poison damage; the target is wet (save ends)
+          tier3: 1 poison damage; the target is wet ([EoT](scc.v1:mcdm.heroes.v1/rule.combat/end-of-turn))
+      feature_type: ability
+      icon: "\U0001F533"
+      keywords:
+        - Area
+        - Magic
+        - Ranged
+      name: Noxious Bubble
+      target: Special
+      type: feature
+      usage: Main action
+    - effects:
+        - effect: Whenever an adjacent enemy [grabs](scc.v1:mcdm.heroes.v1/feature.common.maneuvers/grab) the wave or uses a melee ability against them, that enemy takes 2 poison damage.
+      feature_type: trait
+      icon: ⭐️
+      name: Toxiferous
+      type: feature
+free_strike: 1
+immunities:
+    - Poison 2
+intuition: 2
+keywords:
+    - Angulotl
+    - Humanoid
+level: 1
+metadata:
+    scc: mcdm.monsters.v1/monster.angulotl.statblock/angulotl-wave
+    source: mcdm.monsters.v1
+might: 0
+movement: Climb, swim
+name: Angulotl Wave
+organization: Horde
+presence: 2
+reason: 0
+role: Controller
+size: 1S
+speed: 5
+stability: 0
+stamina: "10"
+type: statblock
+```

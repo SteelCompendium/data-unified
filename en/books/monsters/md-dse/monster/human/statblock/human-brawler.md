@@ -29,38 +29,72 @@ stamina: "40"
 type: statblock
 ---
 
-|             Human, Humanoid             |         -         |      Level 1      |     Platoon Brute     |         EV 6         |
-|:---------------------------------------:|:-----------------:|:-----------------:|:---------------------:|:--------------------:|
-|             **1M**<br>Size              |  **5**<br>Speed   | **40**<br>Stamina |  **0**<br>Stability   | **4**<br>Free Strike |
-| **Corruption 1, psychic 1**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
-|             **+2**<br>Might             | **+1**<br>Agility |  **0**<br>Reason  |  **0**<br>Intuition   |  **0**<br>Presence   |
-
-> 🗡 **Haymaker (Signature Ability)**
->
-> | **Melee, Strike, Weapon** |               **Main action** |
-> |---------------------------|------------------------------:|
-> | **📏 Melee 1**            | **🎯 One creature or object** |
->
-> **Power Roll + 2:**
->
-> - **≤11:** 6 damage
-> - **12-16:** 9 damage
-> - **17+:** 12 damage; M < 2 [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) and the target takes a bane on the Escape Grab maneuver
->
-> **Effect:** A target who is already [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) takes an extra 2 damage.
-
-> 🗡 **Throw (1 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
->
-> | **Melee**      |                               **Maneuver** |
-> |----------------|-------------------------------------------:|
-> | **📏 Melee 1** | **🎯 One creature grabbed by the brawler** |
->
-> **Effect:** The brawler [pushes](scc.v1:mcdm.heroes.v1/movement/forced-movement) the target up to 5 squares.
-
-> ⭐️ **Shoot the Hostage**
->
-> The brawler halves the damage from any strike if they have a creature or object [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) of size 1S or larger. The [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) creature or object takes the remaining damage.
-
-> ⭐️ **Supernatural Insight**
->
-> The brawler ignores concealment if it's granted by a supernatural effect.
+```ds-sb
+agility: 1
+ev: "6"
+features:
+    - ability_type: Signature Ability
+      distance: Melee 1
+      effects:
+        - roll: Power Roll + 2
+          tier1: 6 damage
+          tier2: 9 damage
+          tier3: 12 damage; M < 2 [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) and the target takes a bane on the Escape Grab maneuver
+      feature_type: ability
+      icon: "\U0001F5E1"
+      keywords:
+        - Melee
+        - Strike
+        - Weapon
+      name: Haymaker
+      target: One creature or object
+      type: feature
+      usage: Main action
+    - cost: 1 Malice
+      distance: Melee 1
+      effects:
+        - effect: '**Effect:** The brawler [pushes](scc.v1:mcdm.heroes.v1/movement/forced-movement) the target up to 5 squares.'
+      feature_type: ability
+      icon: "\U0001F5E1"
+      keywords:
+        - Melee
+      name: Throw
+      target: One creature grabbed by the brawler
+      type: feature
+      usage: Maneuver
+    - effects:
+        - effect: The brawler halves the damage from any strike if they have a creature or object [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) of size 1S or larger. The [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) creature or object takes the remaining damage.
+      feature_type: trait
+      icon: ⭐️
+      name: Shoot the Hostage
+      type: feature
+    - effects:
+        - effect: The brawler ignores concealment if it's granted by a supernatural effect.
+      feature_type: trait
+      icon: ⭐️
+      name: Supernatural Insight
+      type: feature
+free_strike: 4
+immunities:
+    - Corruption 1
+    - psychic 1
+intuition: 0
+keywords:
+    - Human
+    - Humanoid
+level: 1
+metadata:
+    scc: mcdm.monsters.v1/monster.human.statblock/human-brawler
+    source: mcdm.monsters.v1
+might: 2
+name: Human Brawler
+organization: Platoon
+presence: 0
+reason: 0
+role: Brute
+size: 1M
+speed: 5
+stability: 0
+stamina: "40"
+type: statblock
+```

@@ -28,40 +28,72 @@ weaknesses:
     - Holy 5
 ---
 
-|  Abyssal, Demon   |         -         |      Level 4      |   Horde Controller    |           EV 6           |
-|:-----------------:|:-----------------:|:-----------------:|:---------------------:|:------------------------:|
-|   **3**<br>Size   |  **6**<br>Speed   | **25**<br>Stamina |  **0**<br>Stability   |   **2**<br>Free Strike   |
-| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **Holy 5**<br>Weakness  |
-|  **+3**<br>Might  | **+2**<br>Agility | **+1**<br>Reason  |  **+2**<br>Intuition  |    **-1**<br>Presence    |
-
-> 🔳 **Bilious Expulsion (Signature Ability)**
->
-> | **Area, Ranged, Weapon**           |                           **Main action** |
-> |------------------------------------|------------------------------------------:|
-> | **📏 1 burst, or 3 cube within 5** | **🎯 One creature or object in the area** |
->
-> **Power Roll + 3:**
->
-> - **≤11:** 5 acid damage; M < 1 [slowed](../../../../condition/slowed.md) (save ends)
-> - **12-16:** 7 acid damage; M < 2 [slowed](../../../../condition/slowed.md) (save ends)
-> - **17+:** 9 acid damage; M < 3 [restrained](../../../../condition/restrained.md) (save ends)
->
-> **Effect:** The ground and any surfaces in the area pool with slime. The slime is [difficult terrain](../../../../movement/difficult-terrain.md) for enemies, and any enemy is [bleeding](../../../../condition/bleeding.md) while in the area.
-
-> ❗️ **Spew Slide (1 [Malice](../../../../rule/monster/malice.md))**
->
-> | **-**       | **Free triggered action** |
-> |-------------|--------------------------:|
-> | **📏 Self** |               **🎯 Self** |
->
-> **Trigger:** The gunge takes damage from a melee strike.
->
-> **Effect:** The gunge vomits with great force, letting them [shift](../../../../movement/shifting.md) up to their speed and ignore any additional effects from the strike. The space the gunge occupied before the shift is covered in slime that is [difficult terrain](../../../../movement/difficult-terrain.md) for enemies. Additionally, any enemy is [bleeding](../../../../condition/bleeding.md) while in the slime.
-
-> ⭐️ **Lethe**
->
-> While the gunge is [winded](../../../../rule/health/winded.md), they gain an [edge](../../../../rule/dice/edge.md) on strikes, and any strike made against them gains an edge.
-
-> ⭐️ **Soulsight**
->
-> Any creature within 2 squares of the gunge can't be hidden from them.
+```ds-sb
+agility: 2
+ev: "6"
+features:
+    - ability_type: Signature Ability
+      distance: 1 burst, or 3 cube within 5
+      effects:
+        - roll: Power Roll + 3
+          tier1: 5 acid damage; M < 1 [slowed](../../../../condition/slowed.md) (save ends)
+          tier2: 7 acid damage; M < 2 [slowed](../../../../condition/slowed.md) (save ends)
+          tier3: 9 acid damage; M < 3 [restrained](../../../../condition/restrained.md) (save ends)
+      feature_type: ability
+      icon: "\U0001F533"
+      keywords:
+        - Area
+        - Ranged
+        - Weapon
+      name: Bilious Expulsion
+      target: One creature or object in the area
+      type: feature
+      usage: Main action
+    - cost: 1 Malice
+      distance: Self
+      effects:
+        - effect: |-
+            **Trigger:** The gunge takes damage from a melee strike.
+            **Effect:** The gunge vomits with great force, letting them [shift](../../../../movement/shifting.md) up to their speed and ignore any additional effects from the strike. The space the gunge occupied before the shift is covered in slime that is [difficult terrain](../../../../movement/difficult-terrain.md) for enemies. Additionally, any enemy is [bleeding](../../../../condition/bleeding.md) while in the slime.
+      feature_type: ability
+      icon: ❗️
+      keywords: []
+      name: Spew Slide
+      target: Self
+      type: feature
+      usage: Free triggered action
+    - effects:
+        - effect: While the gunge is [winded](../../../../rule/health/winded.md), they gain an [edge](../../../../rule/dice/edge.md) on strikes, and any strike made against them gains an edge.
+      feature_type: trait
+      icon: ⭐️
+      name: Lethe
+      type: feature
+    - effects:
+        - effect: Any creature within 2 squares of the gunge can't be hidden from them.
+      feature_type: trait
+      icon: ⭐️
+      name: Soulsight
+      type: feature
+free_strike: 2
+intuition: 2
+keywords:
+    - Abyssal
+    - Demon
+level: 4
+metadata:
+    scc: mcdm.monsters.v1/monster.demon.2nd-echelon.statblock/gunge
+    source: mcdm.monsters.v1
+might: 3
+name: Gunge
+organization: Horde
+presence: -1
+reason: 1
+role: Controller
+size: "3"
+speed: 6
+stability: 0
+stamina: "25"
+type: statblock
+weaknesses:
+    - Holy 5
+```

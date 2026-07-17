@@ -29,26 +29,55 @@ weaknesses:
 with_captain: +2 damage bonus to strikes
 ---
 
-|  Abyssal, Demon   |         -         |     Level 4      |                  Minion Brute                  |  EV 6 for four minions   |
-|:-----------------:|:-----------------:|:----------------:|:----------------------------------------------:|:------------------------:|
-|  **1L**<br>Size   |  **8**<br>Speed   | **9**<br>Stamina |               **1**<br>Stability               |   **3**<br>Free Strike   |
-| **-**<br>Immunity | **-**<br>Movement |        -         | **+2 damage bonus to strikes**<br>With Captain |  **Holy 5**<br>Weakness  |
-|  **+3**<br>Might  | **+2**<br>Agility | **-1**<br>Reason |              **-1**<br>Intuition               |    **-1**<br>Presence    |
-
-> 🗡 **Spinning Bone Blade (Signature Ability)**
->
-> | **Charge, Melee, Strike, Weapon** |                          **Main action** |
-> |-----------------------------------|-----------------------------------------:|
-> | **📏 Melee 1**                    | **🎯 One creature or object per minion** |
->
-> **Power Roll + 3:**
->
-> - **≤11:** 3 damage
-> - **12-16:** 5 damage
-> - **17+:** 7 damage
->
-> **Effect:** The grulqin gains an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on this ability if they previously moved 3 or more squares in a straight line on their turn.
-
-> ⭐️ **Soulsight**
->
-> Any creature within 2 squares of the grulqin can't be hidden from them.
+```ds-sb
+agility: 2
+ev: 6 for four minions
+features:
+    - ability_type: Signature Ability
+      distance: Melee 1
+      effects:
+        - roll: Power Roll + 3
+          tier1: 3 damage
+          tier2: 5 damage
+          tier3: 7 damage
+      feature_type: ability
+      icon: "\U0001F5E1"
+      keywords:
+        - Charge
+        - Melee
+        - Strike
+        - Weapon
+      name: Spinning Bone Blade
+      target: One creature or object per minion
+      type: feature
+      usage: Main action
+    - effects:
+        - effect: Any creature within 2 squares of the grulqin can't be hidden from them.
+      feature_type: trait
+      icon: ⭐️
+      name: Soulsight
+      type: feature
+free_strike: 3
+intuition: -1
+keywords:
+    - Abyssal
+    - Demon
+level: 4
+metadata:
+    scc: mcdm.monsters.v1/monster.demon.2nd-echelon.statblock/grulqin
+    source: mcdm.monsters.v1
+might: 3
+name: Grulqin
+organization: Minion
+presence: -1
+reason: -1
+role: Brute
+size: 1L
+speed: 8
+stability: 1
+stamina: "9"
+type: statblock
+weaknesses:
+    - Holy 5
+with_captain: +2 damage bonus to strikes
+```

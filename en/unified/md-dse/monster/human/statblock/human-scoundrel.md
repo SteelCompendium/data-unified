@@ -29,34 +29,65 @@ stamina: "30"
 type: statblock
 ---
 
-|             Human, Humanoid             |         -         |      Level 1      |   Platoon Ambusher    |         EV 6         |
-|:---------------------------------------:|:-----------------:|:-----------------:|:---------------------:|:--------------------:|
-|             **1M**<br>Size              |  **5**<br>Speed   | **30**<br>Stamina |  **0**<br>Stability   | **4**<br>Free Strike |
-| **Corruption 1, psychic 1**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
-|             **0**<br>Might              | **+2**<br>Agility |  **0**<br>Reason  |  **0**<br>Intuition   |  **+1**<br>Presence  |
-
-> 🗡 **Rapier and Dagger (Signature Ability)**
->
-> | **Melee, Strike, Weapon** |               **Main action** |
-> |---------------------------|------------------------------:|
-> | **📏 Melee 1**            | **🎯 One creature or object** |
->
-> **Power Roll + 2:**
->
-> - **≤11:** 6 damage
-> - **12-16:** 9 damage
-> - **17+:** 12 damage
->
-> **2 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice):** If this ability gains an edge or has a double edge, it deals an extra 2 damage.
-
-> 🌀 **Dagger Storm (5 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
->
-> | **-**    | **Main action** |
-> |----------|----------------:|
-> | **📏 -** |        **🎯 -** |
->
-> The scoundrel uses Rapier and Dagger against up to three targets. They [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to 2 squares before or after each strike.
-
-> ⭐️ **Supernatural Insight**
->
-> The scoundrel ignores concealment if it's granted by a supernatural effect.
+```ds-sb
+agility: 2
+ev: "6"
+features:
+    - ability_type: Signature Ability
+      distance: Melee 1
+      effects:
+        - roll: Power Roll + 2
+          tier1: 6 damage
+          tier2: 9 damage
+          tier3: 12 damage
+      feature_type: ability
+      icon: "\U0001F5E1"
+      keywords:
+        - Melee
+        - Strike
+        - Weapon
+      name: Rapier and Dagger
+      target: One creature or object
+      type: feature
+      usage: Main action
+    - cost: 5 Malice
+      distance: '-'
+      effects:
+        - effect: The scoundrel uses Rapier and Dagger against up to three targets. They [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to 2 squares before or after each strike.
+      feature_type: ability
+      icon: "\U0001F300"
+      keywords: []
+      name: Dagger Storm
+      target: '-'
+      type: feature
+      usage: Main action
+    - effects:
+        - effect: The scoundrel ignores concealment if it's granted by a supernatural effect.
+      feature_type: trait
+      icon: ⭐️
+      name: Supernatural Insight
+      type: feature
+free_strike: 4
+immunities:
+    - Corruption 1
+    - psychic 1
+intuition: 0
+keywords:
+    - Human
+    - Humanoid
+level: 1
+metadata:
+    scc: mcdm.monsters.v1/monster.human.statblock/human-scoundrel
+    source: mcdm.monsters.v1
+might: 0
+name: Human Scoundrel
+organization: Platoon
+presence: 1
+reason: 0
+role: Ambusher
+size: 1M
+speed: 5
+stability: 0
+stamina: "30"
+type: statblock
+```

@@ -29,40 +29,69 @@ stamina: "20"
 type: statblock
 ---
 
-|            Undead, Soulless            |         -         |      Level 1      |      Horde Brute      |         EV 3         |
-|:--------------------------------------:|:-----------------:|:-----------------:|:---------------------:|:--------------------:|
-|             **1M**<br>Size             |  **5**<br>Speed   | **20**<br>Stamina |  **1**<br>Stability   | **2**<br>Free Strike |
-| **Corruption 1, poison 1**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
-|            **+2**<br>Might             | **+1**<br>Agility | **-5**<br>Reason  |  **-2**<br>Intuition  |  **+1**<br>Presence  |
-
-> 🗡 **Clobber and Clutch ([Signature Ability](../../../../rule/combat/signature-ability.md))**
->
-> | **Melee, Strike, Weapon** |               **Main action** |
-> |---------------------------|------------------------------:|
-> | **📏 Melee 1**            | **🎯 One creature or object** |
->
-> **Power Roll + 2:**
->
-> - **≤11:** 4 damage
-> - **12-16:** 6 damage
-> - **17+:** 7 damage; [grabbed](../../../../condition/grabbed.md)
->
-> **Effect:** A target who starts their turn [grabbed](../../../../condition/grabbed.md) by the zombie takes 2 corruption damage. A creature who takes 5 or more corruption damage this way becomes insatiably hungry for flesh, and must complete the Find a Cure downtime project in Draw Steel: Heroes to end this effect.
-
-> ❇️ **Zombie Dust (3 [Malice](../../../../rule/monster/malice.md))**
->
-> | **Area**       |                  **Maneuver** |
-> |----------------|------------------------------:|
-> | **📏 2 burst** | **🎯 Each enemy in the area** |
->
-> **Effect:** The zombie falls [prone](../../../../condition/prone.md), expelling a wave of rot and dust.
->
-> **Power Roll + 2:**
->
-> - **≤11:** 2 corruption damage
-> - **12-16:** 3 corruption damage; M < 1 [weakened](../../../../condition/weakened.md) (save ends)
-> - **17+:** 4 corruption damage; M < 2 [dazed](../../../../condition/dazed.md) (save ends)
-
-> ⭐️ **Endless Knight**
->
-> The first time the zombie is reduced to 0 [Stamina](../../../../rule/health/stamina.md) by damage that isn't fire damage or holy damage and their body isn't destroyed, they instead have 10 [Stamina](../../../../rule/health/stamina.md) and fall [prone](../../../../condition/prone.md).
+```ds-sb
+agility: 1
+ev: "3"
+features:
+    - ability_type: Signature Ability
+      distance: Melee 1
+      effects:
+        - roll: Power Roll + 2
+          tier1: 4 damage
+          tier2: 6 damage
+          tier3: 7 damage; [grabbed](../../../../condition/grabbed.md)
+      feature_type: ability
+      icon: "\U0001F5E1"
+      keywords:
+        - Melee
+        - Strike
+        - Weapon
+      name: Clobber and Clutch
+      target: One creature or object
+      type: feature
+      usage: Main action
+    - cost: 3 Malice
+      distance: 2 burst
+      effects:
+        - roll: Power Roll + 2
+          tier1: 2 corruption damage
+          tier2: 3 corruption damage; M < 1 [weakened](../../../../condition/weakened.md) (save ends)
+          tier3: 4 corruption damage; M < 2 [dazed](../../../../condition/dazed.md) (save ends)
+      feature_type: ability
+      icon: ❇️
+      keywords:
+        - Area
+      name: Zombie Dust
+      target: Each enemy in the area
+      type: feature
+      usage: Maneuver
+    - effects:
+        - effect: The first time the zombie is reduced to 0 [Stamina](../../../../rule/health/stamina.md) by damage that isn't fire damage or holy damage and their body isn't destroyed, they instead have 10 [Stamina](../../../../rule/health/stamina.md) and fall [prone](../../../../condition/prone.md).
+      feature_type: trait
+      icon: ⭐️
+      name: Endless Knight
+      type: feature
+free_strike: 2
+immunities:
+    - Corruption 1
+    - poison 1
+intuition: -2
+keywords:
+    - Undead
+    - Soulless
+level: 1
+metadata:
+    scc: mcdm.monsters.v1/monster.undead.1st-echelon.statblock/zombie
+    source: mcdm.monsters.v1
+might: 2
+name: Zombie
+organization: Horde
+presence: 1
+reason: -5
+role: Brute
+size: 1M
+speed: 5
+stability: 1
+stamina: "20"
+type: statblock
+```

@@ -26,44 +26,81 @@ stamina: "220"
 type: statblock
 ---
 
-|  Humanoid, Rival  |         -         |      Level 10      |   Elite Controller    |         EV 48         |
-|:-----------------:|:-----------------:|:------------------:|:---------------------:|:---------------------:|
-|  **1M**<br>Size   |  **5**<br>Speed   | **220**<br>Stamina |  **1**<br>Stability   | **10**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |   **-**<br>Weakness   |
-|  **+1**<br>Might  | **+3**<br>Agility |  **+5**<br>Reason  |  **+4**<br>Intuition  |  **+1**<br>Presence   |
-
-> 🏹 **Viridescent Storm ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
->
-> | **Green, Magic, Ranged, Strike** |                 **Main action** |
-> |----------------------------------|--------------------------------:|
-> | **📏 Ranged 10**                 | **🎯 Two creatures or objects** |
->
-> **Power Roll + 5:**
->
-> - **≤11:** 15 damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3; M < 3 5 acid damage
-> - **12-16:** 20 damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 4; M < 4 7 acid damage
-> - **17+:** 24 damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5; M < 5 9 acid damage
->
-> **Effect:** One ally within distance ends all [conditions](scc.v1:mcdm.heroes.v1/rule.combat/condition) on themself.
-
-> 🔳 **The World Consumes (5 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
->
-> | **Area, Green, Magic, Ranged** |               **Main action** |
-> |--------------------------------|------------------------------:|
-> | **📏 3 cube within 10**        | **🎯 Each enemy in the area** |
->
-> **Effect:** The area becomes overgrown with caustic vines until the end of the encounter. While in the area, any enemy has acid [weakness](scc.v1:mcdm.heroes.v1/rule.damage/damage-weakness) 5 and is [slowed](scc.v1:mcdm.heroes.v1/condition/slowed). Any enemy who ends their turn in the area and has M < 4 is [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends).
-
-> ❗️ **Breach of Nihility**
->
-> | **Magic, Void** | **Triggered action** |
-> |-----------------|---------------------:|
-> | **📏 Self**     |          **🎯 Self** |
->
-> **Trigger:** The elementalist takes damage.
->
-> **Effect:** The elementalist can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) up to 5 squares. Each creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the space they leave or appear in takes 5 corruption damage.
-
-> ⭐️ **Rivalry**
->
-> At the start of an encounter, the elementalist chooses one creature within their [line of effect](scc.v1:mcdm.heroes.v1/rule.combat/line-of-effect). Both the elementalist and the creature can add a d3 roll to power rolls they make against each other.
+```ds-sb
+agility: 3
+ev: "48"
+features:
+    - ability_type: Signature Ability
+      distance: Ranged 10
+      effects:
+        - roll: Power Roll + 5
+          tier1: 15 damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3; M < 3 5 acid damage
+          tier2: 20 damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 4; M < 4 7 acid damage
+          tier3: 24 damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5; M < 5 9 acid damage
+      feature_type: ability
+      icon: "\U0001F3F9"
+      keywords:
+        - Green
+        - Magic
+        - Ranged
+        - Strike
+      name: Viridescent Storm
+      target: Two creatures or objects
+      type: feature
+      usage: Main action
+    - cost: 5 Malice
+      distance: 3 cube within 10
+      effects:
+        - effect: '**Effect:** The area becomes overgrown with caustic vines until the end of the encounter. While in the area, any enemy has acid [weakness](scc.v1:mcdm.heroes.v1/rule.damage/damage-weakness) 5 and is [slowed](scc.v1:mcdm.heroes.v1/condition/slowed). Any enemy who ends their turn in the area and has M < 4 is [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends).'
+      feature_type: ability
+      icon: "\U0001F533"
+      keywords:
+        - Area
+        - Green
+        - Magic
+        - Ranged
+      name: The World Consumes
+      target: Each enemy in the area
+      type: feature
+      usage: Main action
+    - distance: Self
+      effects:
+        - effect: |-
+            **Trigger:** The elementalist takes damage.
+            **Effect:** The elementalist can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) up to 5 squares. Each creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the space they leave or appear in takes 5 corruption damage.
+      feature_type: ability
+      icon: ❗️
+      keywords:
+        - Magic
+        - Void
+      name: Breach of Nihility
+      target: Self
+      type: feature
+      usage: Triggered action
+    - effects:
+        - effect: At the start of an encounter, the elementalist chooses one creature within their [line of effect](scc.v1:mcdm.heroes.v1/rule.combat/line-of-effect). Both the elementalist and the creature can add a d3 roll to power rolls they make against each other.
+      feature_type: trait
+      icon: ⭐️
+      name: Rivalry
+      type: feature
+free_strike: 10
+intuition: 4
+keywords:
+    - Humanoid
+    - Rival
+level: 10
+metadata:
+    scc: mcdm.monsters.v1/monster.rival.4th-echelon.statblock/rival-elementalist
+    source: mcdm.monsters.v1
+might: 1
+name: Rival Elementalist
+organization: Elite
+presence: 1
+reason: 5
+role: Controller
+size: 1M
+speed: 5
+stability: 1
+stamina: "220"
+type: statblock
+```

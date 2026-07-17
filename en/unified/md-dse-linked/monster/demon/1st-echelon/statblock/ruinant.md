@@ -28,42 +28,76 @@ weaknesses:
     - Holy 3
 ---
 
-|  Abyssal, Demon   |         -         |      Level 1      |     Horde Harrier     |           EV 3           |
-|:-----------------:|:-----------------:|:-----------------:|:---------------------:|:------------------------:|
-|  **1M**<br>Size   |  **6**<br>Speed   | **15**<br>Stamina |  **0**<br>Stability   |   **1**<br>Free Strike   |
-| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **Holy 3**<br>Weakness  |
-|  **+0**<br>Might  | **+2**<br>Agility | **+0**<br>Reason  |  **+0**<br>Intuition  |    **+1**<br>Presence    |
-
-> 🗡 **Bloodletting Claws (Signature Ability)**
->
-> | **Melee, Strike, Weapon** |                 **Main action** |
-> |---------------------------|--------------------------------:|
-> | **📏 Melee 1**            | **🎯 Two creatures or objects** |
->
-> **Power Roll + 2:**
->
-> - **≤11:** 3 damage
-> - **12-16:** 4 damage
-> - **17+:** 5 damage; M < 2 [bleeding](../../../../condition/bleeding.md) (save ends)
-
-> 🏹 **Salt Wounds (3 [Malice](../../../../rule/monster/malice.md))**
->
-> | **Magic, Ranged, Strike** |           **Maneuver** |
-> |---------------------------|-----------------------:|
-> | **📏 Ranged 10**          | **🎯 Three creatures** |
->
-> **Special:** Each target must be at less than full [Stamina](../../../../rule/health/stamina.md).
->
-> **Power Roll + 2:**
->
-> - **≤11:** 1 corruption damage
-> - **12-16:** 2 corruption damage
-> - **17+:** 3 corruption damage
-
-> ⭐️ **Lethe**
->
-> While the ruinant is [winded](../../../../rule/health/winded.md), they gain an [edge](../../../../rule/dice/edge.md) on strikes, and any strike made against them gains an edge.
-
-> ⭐️ **Soulsight**
->
-> Any creature within 2 squares of the ruinant can't be hidden from them.
+```ds-sb
+agility: 2
+ev: "3"
+features:
+    - ability_type: Signature Ability
+      distance: Melee 1
+      effects:
+        - roll: Power Roll + 2
+          tier1: 3 damage
+          tier2: 4 damage
+          tier3: 5 damage; M < 2 [bleeding](../../../../condition/bleeding.md) (save ends)
+      feature_type: ability
+      icon: "\U0001F5E1"
+      keywords:
+        - Melee
+        - Strike
+        - Weapon
+      name: Bloodletting Claws
+      target: Two creatures or objects
+      type: feature
+      usage: Main action
+    - cost: 3 Malice
+      distance: Ranged 10
+      effects:
+        - roll: Power Roll + 2
+          tier1: 1 corruption damage
+          tier2: 2 corruption damage
+          tier3: 3 corruption damage
+      feature_type: ability
+      icon: "\U0001F3F9"
+      keywords:
+        - Magic
+        - Ranged
+        - Strike
+      name: Salt Wounds
+      target: Three creatures
+      type: feature
+      usage: Maneuver
+    - effects:
+        - effect: While the ruinant is [winded](../../../../rule/health/winded.md), they gain an [edge](../../../../rule/dice/edge.md) on strikes, and any strike made against them gains an edge.
+      feature_type: trait
+      icon: ⭐️
+      name: Lethe
+      type: feature
+    - effects:
+        - effect: Any creature within 2 squares of the ruinant can't be hidden from them.
+      feature_type: trait
+      icon: ⭐️
+      name: Soulsight
+      type: feature
+free_strike: 1
+intuition: 0
+keywords:
+    - Abyssal
+    - Demon
+level: 1
+metadata:
+    scc: mcdm.monsters.v1/monster.demon.1st-echelon.statblock/ruinant
+    source: mcdm.monsters.v1
+might: 0
+name: Ruinant
+organization: Horde
+presence: 1
+reason: 0
+role: Harrier
+size: 1M
+speed: 6
+stability: 0
+stamina: "15"
+type: statblock
+weaknesses:
+    - Holy 3
+```

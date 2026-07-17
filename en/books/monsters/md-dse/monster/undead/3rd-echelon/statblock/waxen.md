@@ -29,40 +29,70 @@ stamina: "40"
 type: statblock
 ---
 
-|            Undead, Soulless            |         -         |      Level 7      |    Horde Artillery    |         EV 9         |
-|:--------------------------------------:|:-----------------:|:-----------------:|:---------------------:|:--------------------:|
-|             **1M**<br>Size             |  **4**<br>Speed   | **40**<br>Stamina |  **2**<br>Stability   | **4**<br>Free Strike |
-| **Corruption 7, poison 7**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
-|            **+4**<br>Might             | **-2**<br>Agility | **-4**<br>Reason  |  **+1**<br>Intuition  |  **-2**<br>Presence  |
-
-> 🏹 **Wax Fling ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
->
-> | **Ranged, Strike, Weapon** |               **Main action** |
-> |----------------------------|------------------------------:|
-> | **📏 Ranged 15**           | **🎯 One creature or object** |
->
-> **Power Roll + 4:**
->
-> - **≤11:** 8 damage
-> - **12-16:** 11 damage
-> - **17+:** 12 damage; A < 4 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
->
-> **Effect:** If a target made [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) this way is already [slowed](scc.v1:mcdm.heroes.v1/condition/slowed), they are instead [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends).
-
-> ❇️ **Erupt (3 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
->
-> | **Area, Magic** |               **Main action** |
-> |-----------------|------------------------------:|
-> | **📏 2 burst**  | **🎯 Each enemy in the area** |
->
-> **Effect:** If the waxen is ignited (see Burn Bright), they [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed before using this ability. Each target makes an **Agility test**.
->
-> - **≤11:** 10 damage
-> - **12-16:** 8 damage
-> - **17+:** 5 damage
->
-> The waxen is then destroyed and the area is [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain) for enemies.
-
-> ⭐️ **Burn Bright**
->
-> If the waxen takes fire damage, they ignite. While ignited, the waxen takes 4 fire damage at the start of each of their turns and their [strikes](scc.v1:mcdm.heroes.v1/rule.combat/strike) deal an extra 4 fire damage.
+```ds-sb
+agility: -2
+ev: "9"
+features:
+    - ability_type: Signature Ability
+      distance: Ranged 15
+      effects:
+        - roll: Power Roll + 4
+          tier1: 8 damage
+          tier2: 11 damage
+          tier3: 12 damage; A < 4 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
+      feature_type: ability
+      icon: "\U0001F3F9"
+      keywords:
+        - Ranged
+        - Strike
+        - Weapon
+      name: Wax Fling
+      target: One creature or object
+      type: feature
+      usage: Main action
+    - cost: 3 Malice
+      distance: 2 burst
+      effects:
+        - roll: ""
+          tier1: 10 damage
+          tier2: 8 damage
+          tier3: 5 damage
+      feature_type: ability
+      icon: ❇️
+      keywords:
+        - Area
+        - Magic
+      name: Erupt
+      target: Each enemy in the area
+      type: feature
+      usage: Main action
+    - effects:
+        - effect: If the waxen takes fire damage, they ignite. While ignited, the waxen takes 4 fire damage at the start of each of their turns and their [strikes](scc.v1:mcdm.heroes.v1/rule.combat/strike) deal an extra 4 fire damage.
+      feature_type: trait
+      icon: ⭐️
+      name: Burn Bright
+      type: feature
+free_strike: 4
+immunities:
+    - Corruption 7
+    - poison 7
+intuition: 1
+keywords:
+    - Undead
+    - Soulless
+level: 7
+metadata:
+    scc: mcdm.monsters.v1/monster.undead.3rd-echelon.statblock/waxen
+    source: mcdm.monsters.v1
+might: 4
+name: Waxen
+organization: Horde
+presence: -2
+reason: -4
+role: Artillery
+size: 1M
+speed: 4
+stability: 2
+stamina: "40"
+type: statblock
+```

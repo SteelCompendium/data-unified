@@ -25,34 +25,60 @@ stamina: "60"
 type: statblock
 ---
 
-|      Animal       |         -         |      Level 1      |     Elite Harrier     |        EV 12         |
-|:-----------------:|:-----------------:|:-----------------:|:---------------------:|:--------------------:|
-|  **1M**<br>Size   |  **6**<br>Speed   | **60**<br>Stamina |  **0**<br>Stability   | **4**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
-|  **+0**<br>Might  | **+2**<br>Agility | **-2**<br>Reason  |  **+1**<br>Intuition  |  **-2**<br>Presence  |
-
-> 🗡 **Natural Weapon (Signature Ability)**
->
-> | **Melee, Strike, Weapon** |                 **Main action** |
-> |---------------------------|--------------------------------:|
-> | **📏 Melee 1**            | **🎯 Two creatures or objects** |
->
-> **Power Roll + 2:**
->
-> - **≤11:** 6 damage
-> - **12-16:** 9 damage
-> - **17+:** 12 damage
->
-> **Effect:** The animal [shifts](../../../movement/shifting.md) up to 2 squares between strikes.
-
-> 👤 **Rush**
->
-> | **-**       | **Maneuver** |
-> |-------------|-------------:|
-> | **📏 Self** |  **🎯 Self** |
->
-> **Effect:** The animal moves up to their speed.
-
-> ⭐️ **Nature's Spirit**
->
-> While outdoors or in a natural environment, the animal can negate a bane on their abilities or turn a double bane into a bane.
+```ds-sb
+agility: 2
+ev: "12"
+features:
+    - ability_type: Signature Ability
+      distance: Melee 1
+      effects:
+        - roll: Power Roll + 2
+          tier1: 6 damage
+          tier2: 9 damage
+          tier3: 12 damage
+      feature_type: ability
+      icon: "\U0001F5E1"
+      keywords:
+        - Melee
+        - Strike
+        - Weapon
+      name: Natural Weapon
+      target: Two creatures or objects
+      type: feature
+      usage: Main action
+    - distance: Self
+      effects:
+        - effect: '**Effect:** The animal moves up to their speed.'
+      feature_type: ability
+      icon: "\U0001F464"
+      keywords: []
+      name: Rush
+      target: Self
+      type: feature
+      usage: Maneuver
+    - effects:
+        - effect: While outdoors or in a natural environment, the animal can negate a bane on their abilities or turn a double bane into a bane.
+      feature_type: trait
+      icon: ⭐️
+      name: Nature's Spirit
+      type: feature
+free_strike: 4
+intuition: 1
+keywords:
+    - Animal
+level: 1
+metadata:
+    scc: mcdm.monsters.v1/monster.animal.statblock/animal
+    source: mcdm.monsters.v1
+might: 0
+name: Animal
+organization: Elite
+presence: -2
+reason: -2
+role: Harrier
+size: 1M
+speed: 6
+stability: 0
+stamina: "60"
+type: statblock
+```

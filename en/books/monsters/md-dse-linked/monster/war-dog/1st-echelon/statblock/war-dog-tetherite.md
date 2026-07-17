@@ -28,28 +28,59 @@ type: statblock
 with_captain: Gain an edge on strikes
 ---
 
-| Humanoid, Soulless, War Dog |         -         |     Level 1      |                Minion Brute                 | EV 3 for four minions |
-|:---------------------------:|:-----------------:|:----------------:|:-------------------------------------------:|:---------------------:|
-|       **1M**<br>Size        |  **5**<br>Speed   | **5**<br>Stamina |             **1**<br>Stability              | **2**<br>Free Strike  |
-|      **-**<br>Immunity      | **-**<br>Movement |        -         | **Gain an edge on strikes**<br>With Captain |   **-**<br>Weakness   |
-|       **+2**<br>Might       | **0**<br>Agility  | **0**<br>Reason  |             **0**<br>Intuition              |   **0**<br>Presence   |
-
-> 🗡 **Banded Dagger ([Signature Ability](../../../../rule/combat/signature-ability.md))**
->
-> | **Melee, Strike, Weapon** |                          **Main action** |
-> |---------------------------|-----------------------------------------:|
-> | **📏 Melee 2**            | **🎯 One creature or object per minion** |
->
-> **Power Roll + 2:**
->
-> - **≤11:** 2 damage
-> - **12-16:** 4 damage
-> - **17+:** 5 damage
-
-> ⭐️ **Tethered**
->
-> A captain attached to a tetherite squad has their stability increased by the number of tetherites within 2 squares of them.
-
-> ⭐️ **Loyalty Collar**
->
-> When the tetherite is reduced to 0 [Stamina](../../../../rule/health/stamina.md), their loyalty collar explodes, dealing 1d3 damage to each [adjacent](../../../../rule/combat/adjacent.md) enemy and object.
+```ds-sb
+agility: 0
+ev: 3 for four minions
+features:
+    - ability_type: Signature Ability
+      distance: Melee 2
+      effects:
+        - roll: Power Roll + 2
+          tier1: 2 damage
+          tier2: 4 damage
+          tier3: 5 damage
+      feature_type: ability
+      icon: "\U0001F5E1"
+      keywords:
+        - Melee
+        - Strike
+        - Weapon
+      name: Banded Dagger
+      target: One creature or object per minion
+      type: feature
+      usage: Main action
+    - effects:
+        - effect: A captain attached to a tetherite squad has their stability increased by the number of tetherites within 2 squares of them.
+      feature_type: trait
+      icon: ⭐️
+      name: Tethered
+      type: feature
+    - effects:
+        - effect: When the tetherite is reduced to 0 [Stamina](../../../../rule/health/stamina.md), their loyalty collar explodes, dealing 1d3 damage to each [adjacent](../../../../rule/combat/adjacent.md) enemy and object.
+      feature_type: trait
+      icon: ⭐️
+      name: Loyalty Collar
+      type: feature
+free_strike: 2
+intuition: 0
+keywords:
+    - Humanoid
+    - Soulless
+    - War Dog
+level: 1
+metadata:
+    scc: mcdm.monsters.v1/monster.war-dog.1st-echelon.statblock/war-dog-tetherite
+    source: mcdm.monsters.v1
+might: 2
+name: War Dog Tetherite
+organization: Minion
+presence: 0
+reason: 0
+role: Brute
+size: 1M
+speed: 5
+stability: 1
+stamina: "5"
+type: statblock
+with_captain: Gain an edge on strikes
+```

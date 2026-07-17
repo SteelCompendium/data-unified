@@ -29,36 +29,65 @@ stamina: "10"
 type: statblock
 ---
 
-| Humanoid, Soulless, War Dog |         -         |      Level 1      |    Horde Artillery    |         EV 3         |
-|:---------------------------:|:-----------------:|:-----------------:|:---------------------:|:--------------------:|
-|       **1M**<br>Size        |  **5**<br>Speed   | **10**<br>Stamina |  **0**<br>Stability   | **2**<br>Free Strike |
-|   **Fire 2**<br>Immunity    | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
-|       **0**<br>Might        | **+2**<br>Agility |  **0**<br>Reason  |  **0**<br>Intuition   |  **0**<br>Presence   |
-
-> 🔳 **Flamebelcher ([Signature Ability](../../../../rule/combat/signature-ability.md))**
->
-> | **Area, Weapon**           |                             **Main action** |
-> |----------------------------|--------------------------------------------:|
-> | **📏 5 x 1 line within 1** | **🎯 Each creature and object in the area** |
->
-> **Power Roll + 2:**
->
-> - **≤11:** 2 fire damage
-> - **12-16:** 4 fire damage
-> - **17+:** 5 fire damage
->
-> **Effect:** The area is covered in sticky fire until the start of the crucibite's next turn. Any creature who enters the area for the first time in a round or starts their turn there takes 2 fire damage.
->
-> **3 [Malice](../../../../rule/monster/malice.md):** The area becomes a 10 x 1 line, and if any ally of the crucibite is in the area when it is created, the ability deals an extra 2 damage to each target.
-
-> 🏹 **Posthumous Promotion**
->
-> | **Magic, Ranged** |       **Maneuver** |
-> |-------------------|-------------------:|
-> | **📏 Ranged 10**  | **🎯 One war dog** |
->
-> **Effect:** If the target has a loyalty collar, they are reduced to 0 [Stamina](../../../../rule/health/stamina.md).
-
-> ⭐️ **Loyalty Collar**
->
-> When the crucibite is reduced to 0 [Stamina](../../../../rule/health/stamina.md), their loyalty collar explodes, dealing 1d6 damage to each [adjacent](../../../../rule/combat/adjacent.md) enemy and object.
+```ds-sb
+agility: 2
+ev: "3"
+features:
+    - ability_type: Signature Ability
+      distance: 5 x 1 line within 1
+      effects:
+        - roll: Power Roll + 2
+          tier1: 2 fire damage
+          tier2: 4 fire damage
+          tier3: 5 fire damage
+      feature_type: ability
+      icon: "\U0001F533"
+      keywords:
+        - Area
+        - Weapon
+      name: Flamebelcher
+      target: Each creature and object in the area
+      type: feature
+      usage: Main action
+    - distance: Ranged 10
+      effects:
+        - effect: '**Effect:** If the target has a loyalty collar, they are reduced to 0 [Stamina](../../../../rule/health/stamina.md).'
+      feature_type: ability
+      icon: "\U0001F3F9"
+      keywords:
+        - Magic
+        - Ranged
+      name: Posthumous Promotion
+      target: One war dog
+      type: feature
+      usage: Maneuver
+    - effects:
+        - effect: When the crucibite is reduced to 0 [Stamina](../../../../rule/health/stamina.md), their loyalty collar explodes, dealing 1d6 damage to each [adjacent](../../../../rule/combat/adjacent.md) enemy and object.
+      feature_type: trait
+      icon: ⭐️
+      name: Loyalty Collar
+      type: feature
+free_strike: 2
+immunities:
+    - Fire 2
+intuition: 0
+keywords:
+    - Humanoid
+    - Soulless
+    - War Dog
+level: 1
+metadata:
+    scc: mcdm.monsters.v1/monster.war-dog.1st-echelon.statblock/war-dog-crucibite
+    source: mcdm.monsters.v1
+might: 0
+name: War Dog Crucibite
+organization: Horde
+presence: 0
+reason: 0
+role: Artillery
+size: 1M
+speed: 5
+stability: 0
+stamina: "10"
+type: statblock
+```

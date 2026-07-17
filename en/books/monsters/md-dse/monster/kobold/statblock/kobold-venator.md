@@ -26,34 +26,63 @@ stamina: "15"
 type: statblock
 ---
 
-| Humanoid, Kobold  |         -         |      Level 1      |    Horde Ambusher     |         EV 3         |
-|:-----------------:|:-----------------:|:-----------------:|:---------------------:|:--------------------:|
-|  **1S**<br>Size   |  **5**<br>Speed   | **15**<br>Stamina |  **0**<br>Stability   | **2**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
-|  **0**<br>Might   | **+2**<br>Agility |  **0**<br>Reason  |  **0**<br>Intuition   |  **+1**<br>Presence  |
-
-> 🗡 **Dolabra and Net (Signature Ability)**
->
-> | **Melee, Strike, Weapon** |               **Main action** |
-> |---------------------------|------------------------------:|
-> | **📏 Melee 1**            | **🎯 One creature or object** |
->
-> **Power Roll + 2:**
->
-> - **≤11:** 4 damage
-> - **12-16:** 6 damage; M < 1 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
-> - **17+:** 7 damage; M < 2 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
->
-> **3 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice):** The venator lights their net on fire, and a target [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) this way takes 2 fire damage at the start of each of their turns.
-
-> ⭐️ **Lost in the Crowd**
->
-> While the venator is [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to any ally who is not hiding, the venator can attempt to hide as if they had concealment, even if observed.
-
-> ⭐️ **Not What I Seem**
->
-> The venator starts the encounter disguised as a [minion](scc.v1:mcdm.monsters.v1/rule.organization/minion). They have a double edge on their first main action of the encounter, after which they reveal themself.
-
-> ⭐️ **Shield? Shield!**
->
-> While [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to an ally who also has this trait, the venator has stability 1, has cover, and grants cover to allies.
+```ds-sb
+agility: 2
+ev: "3"
+features:
+    - ability_type: Signature Ability
+      distance: Melee 1
+      effects:
+        - roll: Power Roll + 2
+          tier1: 4 damage
+          tier2: 6 damage; M < 1 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
+          tier3: 7 damage; M < 2 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
+      feature_type: ability
+      icon: "\U0001F5E1"
+      keywords:
+        - Melee
+        - Strike
+        - Weapon
+      name: Dolabra and Net
+      target: One creature or object
+      type: feature
+      usage: Main action
+    - effects:
+        - effect: While the venator is [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to any ally who is not hiding, the venator can attempt to hide as if they had concealment, even if observed.
+      feature_type: trait
+      icon: ⭐️
+      name: Lost in the Crowd
+      type: feature
+    - effects:
+        - effect: The venator starts the encounter disguised as a [minion](scc.v1:mcdm.monsters.v1/rule.organization/minion). They have a double edge on their first main action of the encounter, after which they reveal themself.
+      feature_type: trait
+      icon: ⭐️
+      name: Not What I Seem
+      type: feature
+    - effects:
+        - effect: While [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to an ally who also has this trait, the venator has stability 1, has cover, and grants cover to allies.
+      feature_type: trait
+      icon: ⭐️
+      name: Shield? Shield!
+      type: feature
+free_strike: 2
+intuition: 0
+keywords:
+    - Humanoid
+    - Kobold
+level: 1
+metadata:
+    scc: mcdm.monsters.v1/monster.kobold.statblock/kobold-venator
+    source: mcdm.monsters.v1
+might: 0
+name: Kobold Venator
+organization: Horde
+presence: 1
+reason: 0
+role: Ambusher
+size: 1S
+speed: 5
+stability: 0
+stamina: "15"
+type: statblock
+```

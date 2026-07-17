@@ -30,64 +30,107 @@ stamina: "180"
 type: statblock
 ---
 
-| Draconian, Dragon, Humanoid |          -          |      Level 6       |      Elite Brute      |        EV 32         |       
-|:---------------------------:|:-------------------:|:------------------:|:---------------------:|:--------------------:|       
-|       **1L**<br>Size        |   **5**<br>Speed    | **180**<br>Stamina |  **3**<br>Stability   | **7**<br>Free Strike |       
-|   **Fire 6**<br>Immunity    | **Fly**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
-|       **+3**<br>Might       |  **+2**<br>Agility  |  **+0**<br>Reason  |  **+0**<br>Intuition  |  **+3**<br>Presence  |
-
-> 🗡 **Baneful Blade (Signature Ability)**
->
-> | **Melee, Strike, Weapon** |                 **Main action** |
-> |---------------------------|--------------------------------:|
-> | **📏 Melee 1**            | **🎯 Two creatures or objects** |
->
-> **Power Roll + 3:**
->
-> - **≤11:** 10 damage
-> - **12-16:** 16 damage; M < 1 [bleeding](../../../condition/bleeding.md) (save ends)
-> - **17+:** 19 damage; M < 2 3 damage, [bleeding](../../../condition/bleeding.md) (save ends)
-
-> ❇️ **Spinning Spit (2 [Malice](../../../rule/monster/malice.md))**
->
-> | **Area, Magic** |               **Main action** |
-> |-----------------|------------------------------:|
-> | **📏 1 burst**  | **🎯 Each enemy in the area** |
->
-> **Power Roll + 3:**
->
-> - **≤11:** 7 fire damage
-> - **12-16:** 13 fire damage
-> - **17+:** 16 fire damage
-
-> 👤 **Heavy Landing**
->
-> | **Area**    | **Maneuver** |
-> |-------------|-------------:|
-> | **📏 Self** |  **🎯 Self** |
->
-> **Effect:** Phrrygalax [flies](../../../movement/fly.md) up to his speed and lands in an unoccupied space on the ground. Each creature [adjacent](../../../rule/combat/adjacent.md) to where he lands who has A < 2 is knocked [prone](../../../condition/prone.md).
-
-> ❗️ **Armor of the Ancients (2 [Malice](../../../rule/monster/malice.md))**
->
-> | **-**       | **Triggered action** |
-> |-------------|---------------------:|
-> | **📏 Self** |          **🎯 Self** |
->
-> **Trigger:** Phrrygalax takes acid, cold, corruption, fire, lightning, or poison damage.
->
-> **Effect:** Phrrygalax takes no damage and instead regains the same amount of [Stamina](../../../rule/health/stamina.md). He then swaps his current damage immunity with the triggering damage type.
-
-> ❗️ **Still Your Tongue!**
->
-> | **-**       | **Free triggered action** |
-> |-------------|--------------------------:|
-> | **📏 Self** |               **🎯 Self** |
->
-> **Trigger:** Phrrygalax hears a creature within 5 squares reciting the oath of Good King Omund's Dragon Phalanx.
->
-> **Effect:** Phrrygalax [shifts](../../../movement/shifting.md) up to his speed and uses Baneful Blade against the triggering creature. That ability deals an extra 7 damage.
-
-> ⭐️ **Oathbreaker's Vengeance**
->
-> Whenever Phrrygalax fails a saving throw, he deals an additional 7 damage on his next strike.
+```ds-sb
+agility: 2
+ev: "32"
+features:
+    - ability_type: Signature Ability
+      distance: Melee 1
+      effects:
+        - roll: Power Roll + 3
+          tier1: 10 damage
+          tier2: 16 damage; M < 1 [bleeding](../../../condition/bleeding.md) (save ends)
+          tier3: 19 damage; M < 2 3 damage, [bleeding](../../../condition/bleeding.md) (save ends)
+      feature_type: ability
+      icon: "\U0001F5E1"
+      keywords:
+        - Melee
+        - Strike
+        - Weapon
+      name: Baneful Blade
+      target: Two creatures or objects
+      type: feature
+      usage: Main action
+    - cost: 2 Malice
+      distance: 1 burst
+      effects:
+        - roll: Power Roll + 3
+          tier1: 7 fire damage
+          tier2: 13 fire damage
+          tier3: 16 fire damage
+      feature_type: ability
+      icon: ❇️
+      keywords:
+        - Area
+        - Magic
+      name: Spinning Spit
+      target: Each enemy in the area
+      type: feature
+      usage: Main action
+    - distance: Self
+      effects:
+        - effect: '**Effect:** Phrrygalax [flies](../../../movement/fly.md) up to his speed and lands in an unoccupied space on the ground. Each creature [adjacent](../../../rule/combat/adjacent.md) to where he lands who has A < 2 is knocked [prone](../../../condition/prone.md).'
+      feature_type: ability
+      icon: "\U0001F464"
+      keywords:
+        - Area
+      name: Heavy Landing
+      target: Self
+      type: feature
+      usage: Maneuver
+    - cost: 2 Malice
+      distance: Self
+      effects:
+        - effect: |-
+            **Trigger:** Phrrygalax takes acid, cold, corruption, fire, lightning, or poison damage.
+            **Effect:** Phrrygalax takes no damage and instead regains the same amount of [Stamina](../../../rule/health/stamina.md). He then swaps his current damage immunity with the triggering damage type.
+      feature_type: ability
+      icon: ❗️
+      keywords: []
+      name: Armor of the Ancients
+      target: Self
+      type: feature
+      usage: Triggered action
+    - distance: Self
+      effects:
+        - effect: |-
+            **Trigger:** Phrrygalax hears a creature within 5 squares reciting the oath of Good King Omund's Dragon Phalanx.
+            **Effect:** Phrrygalax [shifts](../../../movement/shifting.md) up to his speed and uses Baneful Blade against the triggering creature. That ability deals an extra 7 damage.
+      feature_type: ability
+      icon: ❗️
+      keywords: []
+      name: Still Your Tongue!
+      target: Self
+      type: feature
+      usage: Free triggered action
+    - effects:
+        - effect: Whenever Phrrygalax fails a saving throw, he deals an additional 7 damage on his next strike.
+      feature_type: trait
+      icon: ⭐️
+      name: Oathbreaker's Vengeance
+      type: feature
+free_strike: 7
+immunities:
+    - Fire 6
+intuition: 0
+keywords:
+    - Draconian
+    - Dragon
+    - Humanoid
+level: 6
+metadata:
+    scc: mcdm.monsters.v1/monster.draconian.statblock/phrrygalax-the-subduer
+    source: mcdm.monsters.v1
+might: 3
+movement: Fly
+name: Phrrygalax the Subduer
+organization: Elite
+presence: 3
+reason: 0
+role: Brute
+size: 1L
+speed: 5
+stability: 3
+stamina: "180"
+type: statblock
+```

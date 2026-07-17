@@ -28,76 +28,117 @@ stamina: "109"
 type: statblock
 ---
 
-| Bugbear, Fey, Goblin, Humanoid |         -         |      Level 2       |      Elite Brute      |        EV 16         |
-|:------------------------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
-|         **1L**<br>Size         |  **6**<br>Speed   | **109**<br>Stamina |  **0**<br>Stability   | **5**<br>Free Strike |
-|       **-**<br>Immunity        | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
-|        **+2**<br>Might         | **+2**<br>Agility |  **+0**<br>Reason  |  **+0**<br>Intuition  |  **+0**<br>Presence  |
-
-> 🗡 **Haymaker (Signature Ability)**
->
-> | **Melee, Strike, Weapon** |                 **Main action** |
-> |---------------------------|--------------------------------:|
-> | **📏 Melee 1**            | **🎯 Two creatures or objects** |
->
-> **Power Roll + 2:**
->
-> - **≤11:** 7 damage
-> - **12-16:** 11 damage; one target is [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed); one target is [pushed](scc.v1:mcdm.heroes.v1/movement/forced-movement) up to 2 squares
-> - **17+:** 14 damage; one target is [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed); one target is vertical [pushed](scc.v1:mcdm.heroes.v1/movement/forced-movement) up to 3 squares
->
-> **5 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice):** The ability takes the Area keyword and loses the Strike keyword, its distance becomes a 1 burst, and it targets each enemy in the area.
-
-> 🗡 **Leaping Fury**
->
-> | **Melee, Strike, Weapon** |               **Main action** |
-> |---------------------------|------------------------------:|
-> | **📏 Melee 1**            | **🎯 One creature or object** |
->
-> **Power Roll + 2:**
->
-> - **≤11:** 8 damage; M < 1 [prone](scc.v1:mcdm.heroes.v1/condition/prone)
-> - **12-16:** 13 damage; M < 2 [prone](scc.v1:mcdm.heroes.v1/condition/prone)
-> - **17+:** 16 damage; M < 3 [prone](scc.v1:mcdm.heroes.v1/condition/prone)
->
-> **Effect:** The roughneck can jump up to 5 squares to an unoccupied space within distance of the target before making this strike.
-
-> 🗡 **Drag Through Hell (3 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
->
-> | **Melee**      |                  **Maneuver** |
-> |----------------|------------------------------:|
-> | **📏 Melee 1** | **🎯 One creature or object** |
->
-> **Special:** The target must be [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) by the roughneck.
->
-> **Effect:** The roughneck moves up to their speed across the ground, dragging the target with them. The target takes 2 damage for each square they were dragged through. When this movement ends, the target is no longer [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) and falls [prone](scc.v1:mcdm.heroes.v1/condition/prone). Each square the target was dragged through is difficult terrain for enemies.
-
-> 🗡 **Throw**
->
-> | **Melee, Strike** | **Maneuver** |
-> | --- | ---:|
-> | **📏 Melee 1** | **🎯 One creature or object** |
->
-> **Special:** The target must be [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) by the roughneck.
->
-> **Effect:** The target is vertical [pushed](scc.v1:mcdm.heroes.v1/movement/forced-movement) up to 5 squares. An ally doesn't take damage from being [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement) this way.
-
-> ❗️ **Catcher**
->
-> | **Melee**      |                **Free triggered action** |
-> |----------------|-----------------------------------------:|
-> | **📏 Melee 1** | **🎯 The triggering creature or object** |
->
-> **Trigger:** A size 1 creature or object is [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement) within distance, or a size 1 ally willingly moves within distance.
->
-> **Effect:** The target is [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) by the roughneck.
-
-> ❗️ **Flying Sawblade**
->
-> | **Melee** | **Triggered action** |
-> | --- | ---:|
-> | **📏 Self** | **🎯 Self** |
->
-> **Trigger:** The roughneck is vertical force moved by another creature.
->
-> **Effect:** The roughneck uses Haymaker against a creature or object at any point during the forced movement, or after falling as a result of it.
+```ds-sb
+agility: 2
+ev: "16"
+features:
+    - ability_type: Signature Ability
+      distance: Melee 1
+      effects:
+        - roll: Power Roll + 2
+          tier1: 7 damage
+          tier2: 11 damage; one target is [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed); one target is [pushed](scc.v1:mcdm.heroes.v1/movement/forced-movement) up to 2 squares
+          tier3: 14 damage; one target is [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed); one target is vertical [pushed](scc.v1:mcdm.heroes.v1/movement/forced-movement) up to 3 squares
+      feature_type: ability
+      icon: "\U0001F5E1"
+      keywords:
+        - Melee
+        - Strike
+        - Weapon
+      name: Haymaker
+      target: Two creatures or objects
+      type: feature
+      usage: Main action
+    - distance: Melee 1
+      effects:
+        - roll: Power Roll + 2
+          tier1: 8 damage; M < 1 [prone](scc.v1:mcdm.heroes.v1/condition/prone)
+          tier2: 13 damage; M < 2 [prone](scc.v1:mcdm.heroes.v1/condition/prone)
+          tier3: 16 damage; M < 3 [prone](scc.v1:mcdm.heroes.v1/condition/prone)
+      feature_type: ability
+      icon: "\U0001F5E1"
+      keywords:
+        - Melee
+        - Strike
+        - Weapon
+      name: Leaping Fury
+      target: One creature or object
+      type: feature
+      usage: Main action
+    - cost: 3 Malice
+      distance: Melee 1
+      effects:
+        - effect: |-
+            **Special:** The target must be [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) by the roughneck.
+            **Effect:** The roughneck moves up to their speed across the ground, dragging the target with them. The target takes 2 damage for each square they were dragged through. When this movement ends, the target is no longer [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) and falls [prone](scc.v1:mcdm.heroes.v1/condition/prone). Each square the target was dragged through is difficult terrain for enemies.
+      feature_type: ability
+      icon: "\U0001F5E1"
+      keywords:
+        - Melee
+      name: Drag Through Hell
+      target: One creature or object
+      type: feature
+      usage: Maneuver
+    - distance: Melee 1
+      effects:
+        - effect: |-
+            **Special:** The target must be [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) by the roughneck.
+            **Effect:** The target is vertical [pushed](scc.v1:mcdm.heroes.v1/movement/forced-movement) up to 5 squares. An ally doesn't take damage from being [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement) this way.
+      feature_type: ability
+      icon: "\U0001F5E1"
+      keywords:
+        - Melee
+        - Strike
+      name: Throw
+      target: One creature or object
+      type: feature
+      usage: Maneuver
+    - distance: Melee 1
+      effects:
+        - effect: |-
+            **Trigger:** A size 1 creature or object is [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement) within distance, or a size 1 ally willingly moves within distance.
+            **Effect:** The target is [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) by the roughneck.
+      feature_type: ability
+      icon: ❗️
+      keywords:
+        - Melee
+      name: Catcher
+      target: The triggering creature or object
+      type: feature
+      usage: Free triggered action
+    - distance: Self
+      effects:
+        - effect: |-
+            **Trigger:** The roughneck is vertical force moved by another creature.
+            **Effect:** The roughneck uses Haymaker against a creature or object at any point during the forced movement, or after falling as a result of it.
+      feature_type: ability
+      icon: ❗️
+      keywords:
+        - Melee
+      name: Flying Sawblade
+      target: Self
+      type: feature
+      usage: Triggered action
+free_strike: 5
+intuition: 0
+keywords:
+    - Bugbear
+    - Fey
+    - Goblin
+    - Humanoid
+level: 2
+metadata:
+    scc: mcdm.monsters.v1/monster.bugbear.statblock/bugbear-roughneck
+    source: mcdm.monsters.v1
+might: 2
+name: Bugbear Roughneck
+organization: Elite
+presence: 0
+reason: 0
+role: Brute
+size: 1L
+speed: 6
+stability: 0
+stamina: "109"
+type: statblock
+```

@@ -30,26 +30,55 @@ type: statblock
 with_captain: +5 bonus to ranged distance
 ---
 
-|             Human, Humanoid             |         -         |     Level 2      |                Minion Controller                | EV 4 for four minions |
-|:---------------------------------------:|:-----------------:|:----------------:|:-----------------------------------------------:|:---------------------:|
-|             **1M**<br>Size              |  **5**<br>Speed   | **4**<br>Stamina |               **0**<br>Stability                | **2**<br>Free Strike  |
-| **Corruption 2, psychic 2**<br>Immunity | **-**<br>Movement |        -         | **+5 bonus to ranged distance**<br>With Captain |   **-**<br>Weakness   |
-|             **0**<br>Might              | **+1**<br>Agility | **0**<br>Reason  |               **0**<br>Intuition                |  **+2**<br>Presence   |
-
-> 🏹 **Lightning Strike (Signature Ability)**
->
-> | **Magic, Ranged, Strike** |                          **Main action** |
-> |---------------------------|-----------------------------------------:|
-> | **📏 Ranged 10**          | **🎯 One creature or object per minion** |
->
-> **Power Roll + 2:**
->
-> - **≤11:** 2 lightning damage
-> - **12-16:** 3 lightning damage
-> - **17+:** 5 lightning damage
->
-> **Effect:** If the apprentice mage doesn't use a maneuver or a move action this turn, the target is also [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (EoT).
-
-> ⭐️ **Supernatural Insight**
->
-> The apprentice mage ignores concealment if it's granted by a supernatural effect.
+```ds-sb
+agility: 1
+ev: 4 for four minions
+features:
+    - ability_type: Signature Ability
+      distance: Ranged 10
+      effects:
+        - roll: Power Roll + 2
+          tier1: 2 lightning damage
+          tier2: 3 lightning damage
+          tier3: 5 lightning damage
+      feature_type: ability
+      icon: "\U0001F3F9"
+      keywords:
+        - Magic
+        - Ranged
+        - Strike
+      name: Lightning Strike
+      target: One creature or object per minion
+      type: feature
+      usage: Main action
+    - effects:
+        - effect: The apprentice mage ignores concealment if it's granted by a supernatural effect.
+      feature_type: trait
+      icon: ⭐️
+      name: Supernatural Insight
+      type: feature
+free_strike: 2
+immunities:
+    - Corruption 2
+    - psychic 2
+intuition: 0
+keywords:
+    - Human
+    - Humanoid
+level: 2
+metadata:
+    scc: mcdm.monsters.v1/monster.human.statblock/human-apprentice-mage
+    source: mcdm.monsters.v1
+might: 0
+name: Human Apprentice Mage
+organization: Minion
+presence: 2
+reason: 0
+role: Controller
+size: 1M
+speed: 5
+stability: 0
+stamina: "4"
+type: statblock
+with_captain: +5 bonus to ranged distance
+```

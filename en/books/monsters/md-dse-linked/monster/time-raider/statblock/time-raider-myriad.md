@@ -29,24 +29,55 @@ type: statblock
 with_captain: +1 damage bonus to strikes
 ---
 
-|   Humanoid, Time Raider   |         -         |     Level 3      |                  Minion Brute                  | EV 5 for four minions |
-|:-------------------------:|:-----------------:|:----------------:|:----------------------------------------------:|:---------------------:|
-|      **1M**<br>Size       |  **5**<br>Speed   | **8**<br>Stamina |               **0**<br>Stability               | **3**<br>Free Strike  |
-| **Psychic 3**<br>Immunity | **-**<br>Movement |        -         | **+1 damage bonus to strikes**<br>With Captain |   **-**<br>Weakness   |
-|      **+2**<br>Might      | **+1**<br>Agility | **+2**<br>Reason |              **+1**<br>Intuition               |  **+1**<br>Presence   |
-
-> 🗡 **Fifth Fist ([Signature Ability](../../../rule/combat/signature-ability.md))**
->
-> | **Melee, Psionic, Strike, Weapon** |                          **Main action** |
-> |------------------------------------|-----------------------------------------:|
-> | **📏 Melee 2**                     | **🎯 One creature or object per minion** |
->
-> **Power Roll + 2:**
->
-> - **≤11:** 3 damage; [slide](../../../movement/forced-movement.md) 1
-> - **12-16:** 5 damage; [slide](../../../movement/forced-movement.md) 2
-> - **17+:** 6 damage; [slide](../../../movement/forced-movement.md) 3, [prone](../../../condition/prone.md)
-
-> ⭐️ **Foresight**
->
-> The myriad doesn't take a bane on strikes against creatures with concealment.
+```ds-sb
+agility: 1
+ev: 5 for four minions
+features:
+    - ability_type: Signature Ability
+      distance: Melee 2
+      effects:
+        - roll: Power Roll + 2
+          tier1: 3 damage; [slide](../../../movement/forced-movement.md) 1
+          tier2: 5 damage; [slide](../../../movement/forced-movement.md) 2
+          tier3: 6 damage; [slide](../../../movement/forced-movement.md) 3, [prone](../../../condition/prone.md)
+      feature_type: ability
+      icon: "\U0001F5E1"
+      keywords:
+        - Melee
+        - Psionic
+        - Strike
+        - Weapon
+      name: Fifth Fist
+      target: One creature or object per minion
+      type: feature
+      usage: Main action
+    - effects:
+        - effect: The myriad doesn't take a bane on strikes against creatures with concealment.
+      feature_type: trait
+      icon: ⭐️
+      name: Foresight
+      type: feature
+free_strike: 3
+immunities:
+    - Psychic 3
+intuition: 1
+keywords:
+    - Humanoid
+    - Time Raider
+level: 3
+metadata:
+    scc: mcdm.monsters.v1/monster.time-raider.statblock/time-raider-myriad
+    source: mcdm.monsters.v1
+might: 2
+name: Time Raider Myriad
+organization: Minion
+presence: 1
+reason: 2
+role: Brute
+size: 1M
+speed: 5
+stability: 0
+stamina: "8"
+type: statblock
+with_captain: +1 damage bonus to strikes
+```

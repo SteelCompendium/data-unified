@@ -26,24 +26,51 @@ stamina: "30"
 type: statblock
 ---
 
-|  Abyssal, Gnoll   |         -         |      Level 2      |   Harrier Retainer    |        EV 60         |
-|:-----------------:|:-----------------:|:-----------------:|:---------------------:|:--------------------:|
-|  **1M**<br>Size   |  **7**<br>Speed   | **30**<br>Stamina |  **1**<br>Stability   | **3**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
-|  **+1**<br>Might  | **+2**<br>Agility |  **0**<br>Reason  |  **0**<br>Intuition   |  **+1**<br>Presence  |
-
-> 🗡 **Gnash  (Signature Ability)**
->
-> | **Melee, Strike, Weapon** |               **Main action** |
-> |---------------------------|------------------------------:|
-> | **📏 Melee 1**            | **🎯 One creature or object** |
->
-> **Power Roll + highest characteristic:**
->
-> - **≤11:** 4 damage
-> - **12-16:** 7 damage
-> - **17+:** 10 damage; M < STRONG [bleeding](../../../condition/bleeding.md) ([save](../../../rule/general/saving-throw.md) ends)
-
-> ⭐️ **Death Frenzy**
->
-> Whenever a non-[minion](../../../rule/organization/minion.md) ally within 7 squares of the gnasher is reduced to 0 [Stamina](../../../rule/health/stamina.md), the gnasher moves up to their speed and can make a melee [free strike](../../../feature/common/main-actions/free-strike.md).
+```ds-sb
+agility: 2
+ev: "60"
+features:
+    - ability_type: Signature Ability
+      distance: Melee 1
+      effects:
+        - roll: Power Roll + highest characteristic
+          tier1: 4 damage
+          tier2: 7 damage
+          tier3: 10 damage; M < STRONG [bleeding](../../../condition/bleeding.md) ([save](../../../rule/general/saving-throw.md) ends)
+      feature_type: ability
+      icon: "\U0001F5E1"
+      keywords:
+        - Melee
+        - Strike
+        - Weapon
+      name: Gnash
+      target: One creature or object
+      type: feature
+      usage: Main action
+    - effects:
+        - effect: Whenever a non-[minion](../../../rule/organization/minion.md) ally within 7 squares of the gnasher is reduced to 0 [Stamina](../../../rule/health/stamina.md), the gnasher moves up to their speed and can make a melee [free strike](../../../feature/common/main-actions/free-strike.md).
+      feature_type: trait
+      icon: ⭐️
+      name: Death Frenzy
+      type: feature
+free_strike: 3
+intuition: 0
+keywords:
+    - Abyssal
+    - Gnoll
+level: 2
+metadata:
+    scc: mcdm.monsters.v1/monster.retainer.statblock/gnoll-gnasher
+    source: mcdm.monsters.v1
+might: 1
+name: Gnoll Gnasher
+organization: Retainer
+presence: 1
+reason: 0
+role: Harrier
+size: 1M
+speed: 7
+stability: 1
+stamina: "30"
+type: statblock
+```

@@ -30,92 +30,134 @@ weaknesses:
     - Fire 5
 ---
 
-|             Mummy, Undead              |         -         |      Level 4       |        Leader         |          EV 24           |
-|:--------------------------------------:|:-----------------:|:------------------:|:---------------------:|:------------------------:|
-|             **1M**<br>Size             |  **6**<br>Speed   | **155**<br>Stamina |  **4**<br>Stability   |   **6**<br>Free Strike   |
-| **Corruption 6, poison 6**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |  **Fire 5**<br>Weakness  |
-|            **+4**<br>Might             | **0**<br>Agility  |  **+2**<br>Reason  |  **+4**<br>Intuition  |    **+2**<br>Presence    |
-
-> 🗡 **Accursed Slam ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
->
-> | **Melee, Strike, Weapon** |                 **Main action** |
-> |---------------------------|--------------------------------:|
-> | **📏 Melee 1**            | **🎯 Two creatures or objects** |
->
-> **Power Roll + 4:**
->
-> - **≤11:** 10 corruption damage; I < 2 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
-> - **12-16:** 14 corruption damage; I < 3 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
-> - **17+:** 17 corruption damage; I < 4 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
->
-> **Effect:** While the target is [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) this way, the [potency](scc.v1:mcdm.heroes.v1/rule.character/potency) of any ability used against them increases by 1 for the target.
-
-> 🏹 **Binding Curse (1 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
->
-> | **Magic, Ranged** |     **Main action** |
-> |-------------------|--------------------:|
-> | **📏 Ranged 20**  | **🎯 One creature** |
->
-> **Power Roll + 4:**
->
-> - **≤11:** 7 corruption damage; I < 2 [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
-> - **12-16:** 12 corruption damage; I < 3 [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
-> - **17+:** 16 corruption damage; I < 4 [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
->
-> **Effect:** While [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) this way, a target takes 4 psychic damage whenever they use a move action.
->
-> **2+ [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice):** This ability targets one additional target for each 2 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice) spent.
-
-> ❗️ **Summon My Guard (2 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
->
-> | **Ranged**       | **Triggered action** |
-> |------------------|---------------------:|
-> | **📏 Ranged 10** |       **🎯 Special** |
->
-> **Trigger:** The mummy lord is made [winded](scc.v1:mcdm.heroes.v1/rule.health/winded) for the first time in the encounter.
->
-> **Effect:** One mummy or four ghoul cravers appear within distance.
-
-> ⭐️ **Cursed Transference**
->
-> At the end of each of their turns, the mummy lord can take 10 damage to end one effect on them that can be ended by a [saving throw](scc.v1:mcdm.heroes.v1/rule.general/saving-throw). This damage can't be reduced in any way.
->
-> **5 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice):** The effect that is ended is transferred to another creature within 10 squares.
-
-> ☠️ **Plague of Flies ([Villain Action](scc.v1:mcdm.monsters.v1/rule.monster/villain-action) 1)**
->
-> | **Area, Magic** |                         **-** |
-> |-----------------|------------------------------:|
-> | **📏 5 burst**  | **🎯 Each enemy in the area** |
->
-> **Power Roll + 4:**
->
-> - **≤11:** 5 poison damage
-> - **12-16:** 8 poison damage
-> - **17+:** 10 poison damage
->
-> **Effect:** Each target takes a bane on their next strike.
-
-> ☠️ **Land's Guardian ([Villain Action](scc.v1:mcdm.monsters.v1/rule.monster/villain-action) 2)**
->
-> | **-**       |       **-** |
-> |-------------|------------:|
-> | **📏 Self** | **🎯 Self** |
->
-> **Effect:** The mummy lord gains a +2 bonus to speed and can automatically burrow at full speed while moving. They can then use the Dig maneuver. The next time the mummy lord breaches the surface, each enemy within 2 squares of the mummy lord makes an **Agility test**.
->
-> - **≤11:** [Prone](scc.v1:mcdm.heroes.v1/condition/prone) and can't stand (EoT)
-> - **12-16:** [Prone](scc.v1:mcdm.heroes.v1/condition/prone)
-> - **17+:** No effect
-
-> ☠️ **Unbound Horrors ([Villain Action](scc.v1:mcdm.monsters.v1/rule.monster/villain-action) 3)**
->
-> | **Area, Magic** |                         **-** |
-> |-----------------|------------------------------:|
-> | **📏 5 burst**  | **🎯 Each enemy in the area** |
->
-> **Power Roll + 4:**
->
-> - **≤11:** 5 corruption damage; I < 2 [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
-> - **12-16:** 8 corruption damage; I < 3 [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
-> - **17+:** 10 corruption damage; I < 4 [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) and [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
+```ds-sb
+agility: 0
+ev: "24"
+features:
+    - ability_type: Signature Ability
+      distance: Melee 1
+      effects:
+        - roll: Power Roll + 4
+          tier1: 10 corruption damage; I < 2 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
+          tier2: 14 corruption damage; I < 3 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
+          tier3: 17 corruption damage; I < 4 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
+      feature_type: ability
+      icon: "\U0001F5E1"
+      keywords:
+        - Melee
+        - Strike
+        - Weapon
+      name: Accursed Slam
+      target: Two creatures or objects
+      type: feature
+      usage: Main action
+    - cost: 1 Malice
+      distance: Ranged 20
+      effects:
+        - roll: Power Roll + 4
+          tier1: 7 corruption damage; I < 2 [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
+          tier2: 12 corruption damage; I < 3 [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
+          tier3: 16 corruption damage; I < 4 [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
+      feature_type: ability
+      icon: "\U0001F3F9"
+      keywords:
+        - Magic
+        - Ranged
+      name: Binding Curse
+      target: One creature
+      type: feature
+      usage: Main action
+    - cost: 2 Malice
+      distance: Ranged 10
+      effects:
+        - effect: |-
+            **Trigger:** The mummy lord is made [winded](scc.v1:mcdm.heroes.v1/rule.health/winded) for the first time in the encounter.
+            **Effect:** One mummy or four ghoul cravers appear within distance.
+      feature_type: ability
+      icon: ❗️
+      keywords:
+        - Ranged
+      name: Summon My Guard
+      target: Special
+      type: feature
+      usage: Triggered action
+    - effects:
+        - effect: |-
+            At the end of each of their turns, the mummy lord can take 10 damage to end one effect on them that can be ended by a [saving throw](scc.v1:mcdm.heroes.v1/rule.general/saving-throw). This damage can't be reduced in any way.
+            **5 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice):** The effect that is ended is transferred to another creature within 10 squares.
+      feature_type: trait
+      icon: ⭐️
+      name: Cursed Transference
+      type: feature
+    - cost: Villain Action 1
+      distance: 5 burst
+      effects:
+        - roll: Power Roll + 4
+          tier1: 5 poison damage
+          tier2: 8 poison damage
+          tier3: 10 poison damage
+      feature_type: ability
+      icon: ☠️
+      keywords:
+        - Area
+        - Magic
+      name: Plague of Flies
+      target: Each enemy in the area
+      type: feature
+      usage: '-'
+    - cost: Villain Action 2
+      distance: Self
+      effects:
+        - roll: ""
+          tier1: '[Prone](scc.v1:mcdm.heroes.v1/condition/prone) and can''t stand (EoT)'
+          tier2: '[Prone](scc.v1:mcdm.heroes.v1/condition/prone)'
+          tier3: No effect
+      feature_type: ability
+      icon: ☠️
+      keywords: []
+      name: Land's Guardian
+      target: Self
+      type: feature
+      usage: '-'
+    - cost: Villain Action 3
+      distance: 5 burst
+      effects:
+        - roll: Power Roll + 4
+          tier1: 5 corruption damage; I < 2 [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
+          tier2: 8 corruption damage; I < 3 [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
+          tier3: 10 corruption damage; I < 4 [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) and [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
+      feature_type: ability
+      icon: ☠️
+      keywords:
+        - Area
+        - Magic
+      name: Unbound Horrors
+      target: Each enemy in the area
+      type: feature
+      usage: '-'
+free_strike: 6
+immunities:
+    - Corruption 6
+    - poison 6
+intuition: 4
+keywords:
+    - Mummy
+    - Undead
+level: 4
+metadata:
+    scc: mcdm.monsters.v1/monster.undead.2nd-echelon.statblock/mummy-lord
+    source: mcdm.monsters.v1
+might: 4
+name: Mummy Lord
+organization: Leader
+presence: 2
+reason: 2
+role: ""
+size: 1M
+speed: 6
+stability: 4
+stamina: "155"
+type: statblock
+weaknesses:
+    - Fire 5
+```

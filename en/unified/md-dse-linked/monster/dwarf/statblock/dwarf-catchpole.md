@@ -27,22 +27,47 @@ type: statblock
 with_captain: +2 bonus to Stamina
 ---
 
-|  Dwarf, Humanoid  |         -         |     Level 1      |              Minion Brute               |  EV 3 for 4 minions  | 
-|:-----------------:|:-----------------:|:----------------:|:---------------------------------------:|:--------------------:| 
-|  **1M**<br>Size   |  **5**<br>Speed   | **7**<br>Stamina |           **2**<br>Stability            | **2**<br>Free Strike | 
-| **-**<br>Immunity | **-**<br>Movement |        -         | **+2 bonus to Stamina**<br>With Captain |  **-**<br>Weakness   | 
-|  **+2**<br>Might  | **+0**<br>Agility | **+0**<br>Reason |           **+0**<br>Intuition           |  **+0**<br>Presence  |
-
-> 🗡 **Maul (Signature Ability)**
->
-> | **Charge, Melee, Strike, Weapon** |                          **Main action** |
-> |-----------------------------------|-----------------------------------------:|
-> | **📏 Melee 1**                    | **🎯 One creature or object per minion** |
->
-> **Power Roll + 2:**
->
-> - **≤11:** 2 damage
-> - **12-16:** 4 damage
-> - **17+:** 5 damage; [grabbed](../../../condition/grabbed.md) or [prone](../../../condition/prone.md)
->
-> **Effect:** If the target is [restrained](../../../condition/restrained.md), they take an extra 2 damage.
+```ds-sb
+agility: 0
+ev: 3 for 4 minions
+features:
+    - ability_type: Signature Ability
+      distance: Melee 1
+      effects:
+        - roll: Power Roll + 2
+          tier1: 2 damage
+          tier2: 4 damage
+          tier3: 5 damage; [grabbed](../../../condition/grabbed.md) or [prone](../../../condition/prone.md)
+      feature_type: ability
+      icon: "\U0001F5E1"
+      keywords:
+        - Charge
+        - Melee
+        - Strike
+        - Weapon
+      name: Maul
+      target: One creature or object per minion
+      type: feature
+      usage: Main action
+free_strike: 2
+intuition: 0
+keywords:
+    - Dwarf
+    - Humanoid
+level: 1
+metadata:
+    scc: mcdm.monsters.v1/monster.dwarf.statblock/dwarf-catchpole
+    source: mcdm.monsters.v1
+might: 2
+name: Dwarf Catchpole
+organization: Minion
+presence: 0
+reason: 0
+role: Brute
+size: 1M
+speed: 5
+stability: 2
+stamina: "7"
+type: statblock
+with_captain: +2 bonus to Stamina
+```

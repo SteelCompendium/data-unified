@@ -29,50 +29,90 @@ type: statblock
 weaknesses: []
 ---
 
-| Humanoid, Rival | - | Level 8 | Elite Controller | EV 40 |
-|:-:|:---------------:|:------------------------:|:-:|:-----:|
-| **1M**<br>Size | **5**<br>Speed | **180**<br>Stamina | **0**<br>Stability | **8**<br>Free Strike |
-| **—**<br>Immunity | **—**<br>Movement | - | **—**<br>Weakness | **—**<br>Free Strike Damage Type |
-| **0**<br>Might | **0**<br>Agility | **+4**<br>Reason | **+3**<br>Intuition | **+2**<br>Presence |
-
-> ⭐️ **Undead Summoner**
->
-> The summoner can command up to two squads of minions with a maximum of 8 minions per squad. They can only have one squad of [signature minions](scc.v1:mcdm.summoner.v1/feature.summoner.level-1/minions) active at any time.
->
-> At the start of each of the summoner's turns, up to four **skeletons** appear in unoccupied spaces within 5 squares of the summoner. On each of the summoner's turns, they direct the squad of skeletons to move and use a main action.
-
-> 🏹 **Glimpse of the Grave 2d10 + 4 (Signature Ability)**
->
-> | **Magic, Ranged, Strike** | **Main action** |
-> |---------------------------|----------------:|
-> | **📏 Ranged 10** | **🎯 One creature or object** |
->
-> 8 psychic damage; R < 2 [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) ([EoT](scc.v1:mcdm.heroes.v1/rule.combat/end-of-turn))
->
-> 13 psychic damage; R < 3 [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) ([EoT](scc.v1:mcdm.heroes.v1/rule.combat/end-of-turn))
->
-> 17 psychic damage; R < 4 [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) ([EoT](scc.v1:mcdm.heroes.v1/rule.combat/end-of-turn))
-
-> 🏹 **Call Forth (1+ Malice)**
->
-> | **Magic, Ranged** | **Main action** |
-> |-------------------|----------------:|
-> | **📏 Ranged 10** | **🎯 Special** |
->
-> **Effect:** The summoner summons the listed number of minions for their Malice cost into unoccupied spaces within distance. If the minions are a part of a new squad, the summoner directs the squad to move and use a main action on each of their turns.
-
-> ❗️ **Death Ward (2 Malice)**
->
-> | **—** | **Triggered action** |
-> |-------|---------------------:|
-> | **📏 Ranged 10** | **🎯 Self or one ally** |
->
-> **Trigger:** The target is targeted by a [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike).
->
-> **Effect:** The summoner summons a **skeleton** into an unoccupied space [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the target. They become the new target of the strike. The original target can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) into any square [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the minion.
->
-> **1 Malice:** Instead, the summoner summons a **zombie lumberer** into an unoccupied space [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the target to take the strike.
-
-> ⭐️ **Rivalry (With All of Us)**
->
-> At the start of an encounter, the summoner chooses one creature within their [line of effect](scc.v1:mcdm.heroes.v1/rule.combat/line-of-effect). Both the summoner and the creature can add a d3 roll to [power rolls](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) they make against each other. Whenever one of the summoner's squads uses a damaging ability against the creature, the creature takes an additional 4 damage.
+```ds-sb
+agility: 0
+ev: "40"
+features:
+    - effects:
+        - effect: |-
+            The summoner can command up to two squads of minions with a maximum of 8 minions per squad. They can only have one squad of [signature minions](scc.v1:mcdm.summoner.v1/feature.summoner.level-1/minions) active at any time.
+            At the start of each of the summoner's turns, up to four **skeletons** appear in unoccupied spaces within 5 squares of the summoner. On each of the summoner's turns, they direct the squad of skeletons to move and use a main action.
+      feature_type: trait
+      icon: ⭐️
+      name: Undead Summoner
+      type: feature
+    - ability_type: Signature Ability
+      distance: Ranged 10
+      effects:
+        - roll: 2d10 + 4
+          tier1: 8 psychic damage; R < 2 [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) ([EoT](scc.v1:mcdm.heroes.v1/rule.combat/end-of-turn))
+          tier2: 13 psychic damage; R < 3 [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) ([EoT](scc.v1:mcdm.heroes.v1/rule.combat/end-of-turn))
+          tier3: 17 psychic damage; R < 4 [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) ([EoT](scc.v1:mcdm.heroes.v1/rule.combat/end-of-turn))
+      feature_type: ability
+      icon: "\U0001F3F9"
+      keywords:
+        - Magic
+        - Ranged
+        - Strike
+      name: Glimpse of the Grave
+      target: One creature or object
+      type: feature
+      usage: Main action
+    - cost: 1+ Malice
+      distance: Ranged 10
+      effects:
+        - effect: '**Effect:** The summoner summons the listed number of minions for their Malice cost into unoccupied spaces within distance. If the minions are a part of a new squad, the summoner directs the squad to move and use a main action on each of their turns.'
+      feature_type: ability
+      icon: "\U0001F3F9"
+      keywords:
+        - Magic
+        - Ranged
+      name: Call Forth
+      target: Special
+      type: feature
+      usage: Main action
+    - cost: 2 Malice
+      distance: Ranged 10
+      effects:
+        - effect: |-
+            **Trigger:** The target is targeted by a [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike).
+            **Effect:** The summoner summons a **skeleton** into an unoccupied space [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the target. They become the new target of the strike. The original target can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) into any square [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the minion.
+            **1 Malice:** Instead, the summoner summons a **zombie lumberer** into an unoccupied space [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the target to take the strike.
+      feature_type: ability
+      icon: ❗️
+      keywords: []
+      name: Death Ward
+      target: Self or one ally
+      type: feature
+      usage: Triggered action
+    - cost: With All of Us
+      effects:
+        - effect: At the start of an encounter, the summoner chooses one creature within their [line of effect](scc.v1:mcdm.heroes.v1/rule.combat/line-of-effect). Both the summoner and the creature can add a d3 roll to [power rolls](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) they make against each other. Whenever one of the summoner's squads uses a damaging ability against the creature, the creature takes an additional 4 damage.
+      feature_type: trait
+      icon: ⭐️
+      name: Rivalry
+      type: feature
+free_strike: 8
+immunities: []
+intuition: 3
+keywords:
+    - Humanoid
+    - Rival
+level: 8
+metadata:
+    scc: mcdm.summoner.v1/monster.rival.3rd-echelon.statblock/rival-summoner
+    source: mcdm.summoner.v1
+might: 0
+movement: —
+name: Rival Summoner
+organization: Elite
+presence: 2
+reason: 4
+role: Controller
+size: 1M
+speed: 5
+stability: 0
+stamina: "180"
+type: statblock
+weaknesses: []
+```

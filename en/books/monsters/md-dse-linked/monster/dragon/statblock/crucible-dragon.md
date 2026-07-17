@@ -27,118 +27,164 @@ stamina: "450"
 type: statblock
 ---
 
-|   Dragon, Elemental    |         -         |      Level 6       |         Solo          |        EV 96         |   
-|:----------------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|   
-|     **4**<br>Size      |  **8**<br>Speed   | **450**<br>Stamina |  **6**<br>Stability   | **7**<br>Free Strike |   
-| **Fire 6**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |   
-|    **+4**<br>Might     | **-1**<br>Agility |  **+3**<br>Reason  |  **+3**<br>Intuition  |  **+2**<br>Presence  |
-
-> ☠️ **[Solo](../../../rule/organization/solo.md) Monster**
->
-> **[End Effect](../../../rule/monster/end-effect.md):** At the end of each of their turns, the dragon can take 10 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way.
->
-> **Solo Turns:** The dragon can take two turns each round. They can't take turns consecutively.
-
-> ❇️ **Magnetized Wyrmscale Aura**
->
-> The dragon's scales create a 3 aura of magnetism around them that affects large masses of metal. Any creature who enters the area for the first time in a round or starts their turn there while wearing metal or while slagged (see Slag Spew) is pulled up to 2 squares toward the dragon. A creature pulled this way who has M < 3 is unable to willingly move away from the dragon.
-
-> 🔳 **Slag Spew (Signature Ability)**
->
-> | **Area, Magic**             |                             **Main action** |
-> |-----------------------------|--------------------------------------------:|
-> | **📏 10 x 2 line within 1** | **🎯 Each creature and object in the area** |
->
-> **Effect:** Each target makes an Agility test.
->
-> - **≤11:** 13 fire damage; the target is slagged (save ends)
-> - **12-16:** 10 fire damage; the target is slagged (save ends)
-> - **17+:** 6 fire damage
->
-> A slagged target is coated in molten metal and takes 2d6 fire damage at the start of each of their turns. If a slagged target has M < 3 they are [restrained](../../../condition/restrained.md) (save ends) whenever they take cold damage.
-
-> 🗡 **Forge Hammer Tail Slam**
->
-> | **Melee, Strike, Weapon** |                 **Main action** |
-> |---------------------------|--------------------------------:|
-> | **📏 Melee 3**            | **🎯 Two creatures or objects** |
->
-> **Power Roll + 4:**
->
-> - **≤11:** 11 damage; M < 2 [prone](../../../condition/prone.md)
-> - **12-16:** 17 damage; M < 3 [prone](../../../condition/prone.md)
-> - **17+:** 20 damage; M < 4 [prone](../../../condition/prone.md)
->
-> **Effect:** The dragon can make a [free strike](../../../feature/common/main-actions/free-strike.md) against each slagged target knocked [prone](../../../condition/prone.md) this way.
->
-> **1 [Malice](../../../rule/monster/malice.md):** The strike deals 1d6 cold damage.
-
-> ⭐️ **Heat Buffer**
->
-> Once per round while the dragon is [flying](../../../movement/fly.md) using their Thermodynamic Flight ability, they give off a blast of steam to extend the duration of their flight until the end of the next round. Each creature in a 4 cube within 1 underneath the dragon when they use this ability takes 7 fire damage.
-
-> ❇️ **Thermodynamic Flight (1 [Malice](../../../rule/monster/malice.md))**
->
-> | **Area**       |                  **Maneuver** |
-> |----------------|------------------------------:|
-> | **📏 2 burst** | **🎯 Each enemy in the area** |
->
-> **Effect:** The dragon expels blistering steam, dealing 7 fire damage to each target in the area. The dragon then [shifts](../../../movement/shifting.md) up to their speed vertically and can [fly](../../../movement/fly.md) until the end of the round.
-
-> ❗️ **Hammer and Anvil (1 [Malice](../../../rule/monster/malice.md))**
->
-> | **-**       | **Free triggered action** |
-> |-------------|--------------------------:|
-> | **📏 Self** |               **🎯 Self** |
->
-> **Trigger:** While [flying](../../../movement/fly.md), the dragon starts their turn or moves.
->
-> **Effect:** The dragon drops to the ground and uses Forge Hammer Tail Slam, which deals an extra 4 damage for each square they descended.
-
-> ❗️ **Polarize Aura (1 [Malice](../../../rule/monster/malice.md))**
->
-> | **Area, Magic** |                        **Triggered action** |
-> |-----------------|--------------------------------------------:|
-> | **📏 3 burst**  | **🎯 Each creature and object in the area** |
->
-> **Trigger:** The dragon is targeted by two melee strikes in the current turn.
->
-> **Special:** The target must be size 2 or smaller.
->
-> **Power Roll + 4:**
->
-> - **≤11:** Push 5
-> - **12-16:** Push 7
-> - **17+:** Push 10, ignoring [stability](../../../rule/character/stability.md)
-
-> ☠️ **Heart of the Forge ([Villain Action](../../../rule/monster/villain-action.md) 1)**
->
-> | **Area, Magic** |                         **-** |
-> |-----------------|------------------------------:|
-> | **📏 6 burst**  | **🎯 Each enemy in the area** |
->
-> **Power Roll + 4:**
->
-> - **≤11:** 4 fire damage; I < 2 [frightened](../../../condition/frightened.md) (save ends)
-> - **12-16:** 6 fire damage; I < 3 [frightened](../../../condition/frightened.md) (save ends)
-> - **17+:** 8 fire damage; I < 4 [frightened](../../../condition/frightened.md) (save ends)
-
-> ☠️ **Subdermal Shielding ([Villain Action](../../../rule/monster/villain-action.md) 2)**
->
-> | **-**       |       **-** |
-> |-------------|------------:|
-> | **📏 Self** | **🎯 Self** |
->
-> **Effect:** Shields embedded under the dragon's scales emerge, and the dragon gains damage immunity 6 at the start of each round until the end of the encounter. If the dragon takes any damage, they lose this immunity until the end of the current round.
-
-> ☠️ **Polarity Chaos ([Villain Action](../../../rule/monster/villain-action.md) 3)**
->
-> | **-**           |                                       **-** |
-> |-----------------|--------------------------------------------:|
-> | **📏 10 burst** | **🎯 Each creature and object in the area** |
->
-> **Effect:** Each target makes a **Might test**.
->
-> - **≤11:** 16 damage; pull 10 or push 10
-> - **12-16:** 13 damage; pull 8 or push 8
-> - **17+:** 7 damage; pull 5 or push 5.
+```ds-sb
+agility: -1
+ev: "96"
+features:
+    - effects:
+        - effect: |-
+            **[End Effect](../../../rule/monster/end-effect.md):** At the end of each of their turns, the dragon can take 10 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way.
+            **Solo Turns:** The dragon can take two turns each round. They can't take turns consecutively.
+      feature_type: trait
+      icon: ☠️
+      name: Solo Monster
+      type: feature
+    - effects:
+        - effect: The dragon's scales create a 3 aura of magnetism around them that affects large masses of metal. Any creature who enters the area for the first time in a round or starts their turn there while wearing metal or while slagged (see Slag Spew) is pulled up to 2 squares toward the dragon. A creature pulled this way who has M < 3 is unable to willingly move away from the dragon.
+      feature_type: trait
+      icon: ❇️
+      name: Magnetized Wyrmscale Aura
+      type: feature
+    - ability_type: Signature Ability
+      distance: 10 x 2 line within 1
+      effects:
+        - roll: ""
+          tier1: 13 fire damage; the target is slagged (save ends)
+          tier2: 10 fire damage; the target is slagged (save ends)
+          tier3: 6 fire damage
+      feature_type: ability
+      icon: "\U0001F533"
+      keywords:
+        - Area
+        - Magic
+      name: Slag Spew
+      target: Each creature and object in the area
+      type: feature
+      usage: Main action
+    - distance: Melee 3
+      effects:
+        - roll: Power Roll + 4
+          tier1: 11 damage; M < 2 [prone](../../../condition/prone.md)
+          tier2: 17 damage; M < 3 [prone](../../../condition/prone.md)
+          tier3: 20 damage; M < 4 [prone](../../../condition/prone.md)
+      feature_type: ability
+      icon: "\U0001F5E1"
+      keywords:
+        - Melee
+        - Strike
+        - Weapon
+      name: Forge Hammer Tail Slam
+      target: Two creatures or objects
+      type: feature
+      usage: Main action
+    - effects:
+        - effect: Once per round while the dragon is [flying](../../../movement/fly.md) using their Thermodynamic Flight ability, they give off a blast of steam to extend the duration of their flight until the end of the next round. Each creature in a 4 cube within 1 underneath the dragon when they use this ability takes 7 fire damage.
+      feature_type: trait
+      icon: ⭐️
+      name: Heat Buffer
+      type: feature
+    - cost: 1 Malice
+      distance: 2 burst
+      effects:
+        - effect: '**Effect:** The dragon expels blistering steam, dealing 7 fire damage to each target in the area. The dragon then [shifts](../../../movement/shifting.md) up to their speed vertically and can [fly](../../../movement/fly.md) until the end of the round.'
+      feature_type: ability
+      icon: ❇️
+      keywords:
+        - Area
+      name: Thermodynamic Flight
+      target: Each enemy in the area
+      type: feature
+      usage: Maneuver
+    - cost: 1 Malice
+      distance: Self
+      effects:
+        - effect: |-
+            **Trigger:** While [flying](../../../movement/fly.md), the dragon starts their turn or moves.
+            **Effect:** The dragon drops to the ground and uses Forge Hammer Tail Slam, which deals an extra 4 damage for each square they descended.
+      feature_type: ability
+      icon: ❗️
+      keywords: []
+      name: Hammer and Anvil
+      target: Self
+      type: feature
+      usage: Free triggered action
+    - cost: 1 Malice
+      distance: 3 burst
+      effects:
+        - roll: Power Roll + 4
+          tier1: Push 5
+          tier2: Push 7
+          tier3: Push 10, ignoring [stability](../../../rule/character/stability.md)
+      feature_type: ability
+      icon: ❗️
+      keywords:
+        - Area
+        - Magic
+      name: Polarize Aura
+      target: Each creature and object in the area
+      type: feature
+      usage: Triggered action
+    - cost: Villain Action 1
+      distance: 6 burst
+      effects:
+        - roll: Power Roll + 4
+          tier1: 4 fire damage; I < 2 [frightened](../../../condition/frightened.md) (save ends)
+          tier2: 6 fire damage; I < 3 [frightened](../../../condition/frightened.md) (save ends)
+          tier3: 8 fire damage; I < 4 [frightened](../../../condition/frightened.md) (save ends)
+      feature_type: ability
+      icon: ☠️
+      keywords:
+        - Area
+        - Magic
+      name: Heart of the Forge
+      target: Each enemy in the area
+      type: feature
+      usage: '-'
+    - cost: Villain Action 2
+      distance: Self
+      effects:
+        - effect: '**Effect:** Shields embedded under the dragon''s scales emerge, and the dragon gains damage immunity 6 at the start of each round until the end of the encounter. If the dragon takes any damage, they lose this immunity until the end of the current round.'
+      feature_type: ability
+      icon: ☠️
+      keywords: []
+      name: Subdermal Shielding
+      target: Self
+      type: feature
+      usage: '-'
+    - cost: Villain Action 3
+      distance: 10 burst
+      effects:
+        - roll: ""
+          tier1: 16 damage; pull 10 or push 10
+          tier2: 13 damage; pull 8 or push 8
+          tier3: 7 damage; pull 5 or push 5.
+      feature_type: ability
+      icon: ☠️
+      keywords: []
+      name: Polarity Chaos
+      target: Each creature and object in the area
+      type: feature
+      usage: '-'
+free_strike: 7
+immunities:
+    - Fire 6
+intuition: 3
+keywords:
+    - Dragon
+    - Elemental
+level: 6
+metadata:
+    scc: mcdm.monsters.v1/monster.dragon.statblock/crucible-dragon
+    source: mcdm.monsters.v1
+might: 4
+name: Crucible Dragon
+organization: Solo
+presence: 2
+reason: 3
+role: ""
+size: "4"
+speed: 8
+stability: 6
+stamina: "450"
+type: statblock
+```

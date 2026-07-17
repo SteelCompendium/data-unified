@@ -26,40 +26,67 @@ stamina: "39"
 type: statblock
 ---
 
-|  Dwarf, Humanoid  |         -         |      Level 1      |     Platoon Hexer     |         EV 8         | 
-|:-----------------:|:-----------------:|:-----------------:|:---------------------:|:--------------------:| 
-|  **1M**<br>Size   |  **5**<br>Speed   | **39**<br>Stamina |  **3**<br>Stability   | **4**<br>Free Strike | 
-| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   | 
-|  **+1**<br>Might  | **+0**<br>Agility | **+0**<br>Reason  |  **+2**<br>Intuition  |  **+0**<br>Presence  |
-
-> 🔳 **Concussive Grenade (Signature Ability)**
->
-> | **Area, Ranged, Weapon** | **Main action** |
-> |--------------------------|------------------------------:|
-> | **📏 3 cube within 5**   | **🎯 Each enemy in the area** |
->
-> **Power Roll + 2:**
->
-> - **≤11:** 3 damage; [push](../../../movement/forced-movement.md) 1
-> - **12-16:** 6 damage; [push](../../../movement/forced-movement.md) 3; M < 1 [slowed](../../../condition/slowed.md) (save ends)
-> - **17+:** 8 damage; [push](../../../movement/forced-movement.md) 3; M < 2 [slowed](../../../condition/slowed.md) (save ends)
->
-> **Effect:** A target [restrained](../../../condition/restrained.md) by a dwarf can be force moved by this ability. This forced movement doesn't end the [restrained](../../../condition/restrained.md) condition unless the Director determines otherwise.
-
-> 🔳 **Sleep Grenade (3 [Malice](../../../rule/monster/malice.md))**
->
-> | **Ranged, Weapon**     |               **Main action** |
-> |------------------------|------------------------------:| 
-> | **📏 3 cube within 5** | **🎯 Each enemy in the area** |   
->
-> **Power Roll + 2:**
->
-> - **≤11:** 3 poison damage; I < 0 [dazed](../../../condition/dazed.md) (save ends)
-> - **12-16:** 6 poison damage; I < 1 [dazed](../../../condition/dazed.md) (save ends)
-> - **17+:** 8 poison damage; I < 2 [dazed](../../../condition/dazed.md) (save ends)
->
-> **Effect:** A target [dazed](../../../condition/dazed.md) this way treats their characteristic scores as 1 lower for the purpose of resisting [potencies](../../../rule/character/potency.md).
-
-> ⭐️ **Indirect Fire**
->
-> The launcher ignores concealment and cover, and doesn't need line of effect to use their abilities as long as a size 1 opening exists between the dwarf and the target.
+```ds-sb
+agility: 0
+ev: "8"
+features:
+    - ability_type: Signature Ability
+      distance: 3 cube within 5
+      effects:
+        - roll: Power Roll + 2
+          tier1: 3 damage; [push](../../../movement/forced-movement.md) 1
+          tier2: 6 damage; [push](../../../movement/forced-movement.md) 3; M < 1 [slowed](../../../condition/slowed.md) (save ends)
+          tier3: 8 damage; [push](../../../movement/forced-movement.md) 3; M < 2 [slowed](../../../condition/slowed.md) (save ends)
+      feature_type: ability
+      icon: "\U0001F533"
+      keywords:
+        - Area
+        - Ranged
+        - Weapon
+      name: Concussive Grenade
+      target: Each enemy in the area
+      type: feature
+      usage: Main action
+    - cost: 3 Malice
+      distance: 3 cube within 5
+      effects:
+        - roll: Power Roll + 2
+          tier1: 3 poison damage; I < 0 [dazed](../../../condition/dazed.md) (save ends)
+          tier2: 6 poison damage; I < 1 [dazed](../../../condition/dazed.md) (save ends)
+          tier3: 8 poison damage; I < 2 [dazed](../../../condition/dazed.md) (save ends)
+      feature_type: ability
+      icon: "\U0001F533"
+      keywords:
+        - Ranged
+        - Weapon
+      name: Sleep Grenade
+      target: Each enemy in the area
+      type: feature
+      usage: Main action
+    - effects:
+        - effect: The launcher ignores concealment and cover, and doesn't need line of effect to use their abilities as long as a size 1 opening exists between the dwarf and the target.
+      feature_type: trait
+      icon: ⭐️
+      name: Indirect Fire
+      type: feature
+free_strike: 4
+intuition: 2
+keywords:
+    - Dwarf
+    - Humanoid
+level: 1
+metadata:
+    scc: mcdm.monsters.v1/monster.dwarf.statblock/dwarf-launcher
+    source: mcdm.monsters.v1
+might: 1
+name: Dwarf Launcher
+organization: Platoon
+presence: 0
+reason: 0
+role: Hexer
+size: 1M
+speed: 5
+stability: 3
+stamina: "39"
+type: statblock
+```

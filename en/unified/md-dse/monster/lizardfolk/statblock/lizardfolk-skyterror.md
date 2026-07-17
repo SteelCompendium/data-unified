@@ -27,44 +27,74 @@ stamina: "30"
 type: statblock
 ---
 
-| Humanoid, Lizardfolk |          -           |      Level 1      |    Platoon Harrier    |         EV 6         |
-|:--------------------:|:--------------------:|:-----------------:|:---------------------:|:--------------------:|
-|    **1S**<br>Size    |    **7**<br>Speed    | **30**<br>Stamina |  **0**<br>Stability   | **3**<br>Free Strike |
-|  **-**<br>Immunity   | **Swim**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
-|   **+1**<br>Might    |  **+2**<br>Agility   |  **0**<br>Reason  |  **0**<br>Intuition   |  **+1**<br>Presence  |
-
-> 🗡 **Glaive Rush (Signature Ability)**
->
-> | **Melee, Strike, Weapon** |               **Main action** |
-> |---------------------------|------------------------------:|
-> | **📏 Melee 1**            | **🎯 One creature or object** |
->
-> **Power Roll + 2:**
->
-> - **≤11:** 5 damage
-> - **12-16:** 7 damage
-> - **17+:** 9 damage; [prone](scc.v1:mcdm.heroes.v1/condition/prone)
->
-> **Effect:** If the skyterror is [flying](scc.v1:mcdm.heroes.v1/movement/fly), they [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to 4 squares.
-
-> 🏹 **Poison Blow Dart**
->
-> | **Ranged, Strike, Weapon** |               **Main action** |
-> |----------------------------|------------------------------:|
-> | **📏 Ranged 5**            | **🎯 One creature or object** |
->
-> **Power Roll + 2:**
->
-> - **≤11:** 3 damage; M < 0 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
-> - **12-16:** 5 damage; M < 1 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
-> - **17+:** 7 damage; M < 2 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
->
-> **Effect:** Any creature who ends their turn [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to a target [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) this way is [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) until the end of their next turn.
-
-> ⭐️ **Glider**
->
-> Whenever the skyterror moves 2 or more squares along the ground or falls 2 or more squares, they can [fly](scc.v1:mcdm.heroes.v1/movement/fly) until the end of their next turn.
-
-> ⭐️ **Reptilian Escape**
->
-> While the skyterror has a tail, whenever they are [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed), [prone](scc.v1:mcdm.heroes.v1/condition/prone), [slowed](scc.v1:mcdm.heroes.v1/condition/slowed), or [weakened](scc.v1:mcdm.heroes.v1/condition/weakened), they can lose their tail to immediately end that condition, then [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to 2 squares.
+```ds-sb
+agility: 2
+ev: "6"
+features:
+    - ability_type: Signature Ability
+      distance: Melee 1
+      effects:
+        - roll: Power Roll + 2
+          tier1: 5 damage
+          tier2: 7 damage
+          tier3: 9 damage; [prone](scc.v1:mcdm.heroes.v1/condition/prone)
+      feature_type: ability
+      icon: "\U0001F5E1"
+      keywords:
+        - Melee
+        - Strike
+        - Weapon
+      name: Glaive Rush
+      target: One creature or object
+      type: feature
+      usage: Main action
+    - distance: Ranged 5
+      effects:
+        - roll: Power Roll + 2
+          tier1: 3 damage; M < 0 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+          tier2: 5 damage; M < 1 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+          tier3: 7 damage; M < 2 [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+      feature_type: ability
+      icon: "\U0001F3F9"
+      keywords:
+        - Ranged
+        - Strike
+        - Weapon
+      name: Poison Blow Dart
+      target: One creature or object
+      type: feature
+      usage: Main action
+    - effects:
+        - effect: Whenever the skyterror moves 2 or more squares along the ground or falls 2 or more squares, they can [fly](scc.v1:mcdm.heroes.v1/movement/fly) until the end of their next turn.
+      feature_type: trait
+      icon: ⭐️
+      name: Glider
+      type: feature
+    - effects:
+        - effect: While the skyterror has a tail, whenever they are [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed), [prone](scc.v1:mcdm.heroes.v1/condition/prone), [slowed](scc.v1:mcdm.heroes.v1/condition/slowed), or [weakened](scc.v1:mcdm.heroes.v1/condition/weakened), they can lose their tail to immediately end that condition, then [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to 2 squares.
+      feature_type: trait
+      icon: ⭐️
+      name: Reptilian Escape
+      type: feature
+free_strike: 3
+intuition: 0
+keywords:
+    - Humanoid
+    - Lizardfolk
+level: 1
+metadata:
+    scc: mcdm.monsters.v1/monster.lizardfolk.statblock/lizardfolk-skyterror
+    source: mcdm.monsters.v1
+might: 1
+movement: Swim
+name: Lizardfolk Skyterror
+organization: Platoon
+presence: 1
+reason: 0
+role: Harrier
+size: 1S
+speed: 7
+stability: 0
+stamina: "30"
+type: statblock
+```

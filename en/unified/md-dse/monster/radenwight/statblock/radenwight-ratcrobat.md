@@ -27,44 +27,77 @@ stamina: "30"
 type: statblock
 ---
 
-| Humanoid, Radenwight |           -           |      Level 1      |    Platoon Harrier    |         EV 6         |
-|:--------------------:|:---------------------:|:-----------------:|:---------------------:|:--------------------:|
-|    **1S**<br>Size    |    **7**<br>Speed     | **30**<br>Stamina |  **0**<br>Stability   | **3**<br>Free Strike |
-|  **-**<br>Immunity   | **Climb**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
-|   **-1**<br>Might    |   **+2**<br>Agility   |  **0**<br>Reason  |  **0**<br>Intuition   |  **+1**<br>Presence  |
-
-> 🗡 **En Garde ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
->
-> | **Melee, Strike, Weapon** |                 **Main action** |
-> |---------------------------|--------------------------------:|
-> | **📏 Melee 1**            | **🎯 Two creatures or objects** |
->
-> **Power Roll + 2:**
->
-> - **≤11:** 4 damage
-> - **12-16:** 6 damage
-> - **17+:** 8 damage
->
-> **Effect:** The ratcrobat [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to 2 squares after striking the first target, then can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) 1 square after striking the second target.
-
-> 🗡 **Over Here, Thanks**
->
-> | **Melee**      |     **Maneuver** |
-> |----------------|-----------------:|
-> | **📏 Melee 1** | **🎯 One enemy** |
->
-> **Effect:** The ratcrobat [slides](scc.v1:mcdm.heroes.v1/movement/forced-movement) the target up to 3 squares, then can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) into any square the target left.
-
-> ❗️ **Ready Rodent**
->
-> | **Melee, Weapon** | **Triggered action** |
-> |-------------------|---------------------:|
-> | **📏 Melee 1**    |  **🎯 One creature** |
->
-> **Trigger:** An ally deals damage to the target.
->
-> **Effect:** The ratcrobat makes a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against the target.
-
-> ⭐️ **Gymratstics**
->
-> The ratcrobat gains an edge on [strikes](scc.v1:mcdm.heroes.v1/rule.combat/strike) against larger creatures.
+```ds-sb
+agility: 2
+ev: "6"
+features:
+    - ability_type: Signature Ability
+      distance: Melee 1
+      effects:
+        - roll: Power Roll + 2
+          tier1: 4 damage
+          tier2: 6 damage
+          tier3: 8 damage
+      feature_type: ability
+      icon: "\U0001F5E1"
+      keywords:
+        - Melee
+        - Strike
+        - Weapon
+      name: En Garde
+      target: Two creatures or objects
+      type: feature
+      usage: Main action
+    - distance: Melee 1
+      effects:
+        - effect: '**Effect:** The ratcrobat [slides](scc.v1:mcdm.heroes.v1/movement/forced-movement) the target up to 3 squares, then can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) into any square the target left.'
+      feature_type: ability
+      icon: "\U0001F5E1"
+      keywords:
+        - Melee
+      name: Over Here, Thanks
+      target: One enemy
+      type: feature
+      usage: Maneuver
+    - distance: Melee 1
+      effects:
+        - effect: |-
+            **Trigger:** An ally deals damage to the target.
+            **Effect:** The ratcrobat makes a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against the target.
+      feature_type: ability
+      icon: ❗️
+      keywords:
+        - Melee
+        - Weapon
+      name: Ready Rodent
+      target: One creature
+      type: feature
+      usage: Triggered action
+    - effects:
+        - effect: The ratcrobat gains an edge on [strikes](scc.v1:mcdm.heroes.v1/rule.combat/strike) against larger creatures.
+      feature_type: trait
+      icon: ⭐️
+      name: Gymratstics
+      type: feature
+free_strike: 3
+intuition: 0
+keywords:
+    - Humanoid
+    - Radenwight
+level: 1
+metadata:
+    scc: mcdm.monsters.v1/monster.radenwight.statblock/radenwight-ratcrobat
+    source: mcdm.monsters.v1
+might: -1
+movement: Climb
+name: Radenwight Ratcrobat
+organization: Platoon
+presence: 1
+reason: 0
+role: Harrier
+size: 1S
+speed: 7
+stability: 0
+stamina: "30"
+type: statblock
+```

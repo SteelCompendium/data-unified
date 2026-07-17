@@ -28,22 +28,47 @@ type: statblock
 with_captain: +3 bonus to speed
 ---
 
-|  Animal, Goblin   |          -          |     Level 1      |             Minion Hexer              | EV 3 for four minions |
-|:-----------------:|:-------------------:|:----------------:|:-------------------------------------:|:---------------------:|
-|  **1T**<br>Size   |   **5**<br>Speed    | **3**<br>Stamina |          **0**<br>Stability           | **1**<br>Free Strike  |
-| **-**<br>Immunity | **Fly**<br>Movement |        -         | **+3 bonus to speed**<br>With Captain |   **-**<br>Weakness   |
-|  **-5**<br>Might  |  **+2**<br>Agility  | **-4**<br>Reason |          **0**<br>Intuition           |  **-2**<br>Presence   |
-
-> 🗡 **Claws (Signature Ability)**
->
-> | **Melee, Strike, Weapon** |                **Main action** |
-> |---------------------------|-------------------------------:|
-> | **📏 Melee 1**            | **🎯 One creature per minion** |
->
-> **Power Roll + 2:**
->
-> - **≤11:** 1 poison damage
-> - **12-16:** 2 poison damage
-> - **17+:** 3 poison damage
->
-> **Effect:** The target takes a bane on their next strike.
+```ds-sb
+agility: 2
+ev: 3 for four minions
+features:
+    - ability_type: Signature Ability
+      distance: Melee 1
+      effects:
+        - roll: Power Roll + 2
+          tier1: 1 poison damage
+          tier2: 2 poison damage
+          tier3: 3 poison damage
+      feature_type: ability
+      icon: "\U0001F5E1"
+      keywords:
+        - Melee
+        - Strike
+        - Weapon
+      name: Claws
+      target: One creature per minion
+      type: feature
+      usage: Main action
+free_strike: 1
+intuition: 0
+keywords:
+    - Animal
+    - Goblin
+level: 1
+metadata:
+    scc: mcdm.monsters.v1/monster.goblin.statblock/skitterling
+    source: mcdm.monsters.v1
+might: -5
+movement: Fly
+name: Skitterling
+organization: Minion
+presence: -2
+reason: -4
+role: Hexer
+size: 1T
+speed: 5
+stability: 0
+stamina: "3"
+type: statblock
+with_captain: +3 bonus to speed
+```

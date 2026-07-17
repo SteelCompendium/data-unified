@@ -31,22 +31,52 @@ type: statblock
 weaknesses: []
 ---
 
-Zombie titan is a catchall for undead giants, patchwork ogres and mournlings, or amalgamations of a graveyard's entire population. The titan lumbers and slumps across battlefields, wanting desperately to collapse and crash into the earth like a sea of flesh and bone.
-
-| Undead | - | - | Minion Defender | 7 essence for one minion |
-|:------------:|:------:|:---------------:|:-:|:------------------------:|
-| **4**<br>Size | **4**<br>Speed | **40**<br>Stamina | **R**<br>Stability | **7**<br>Free Strike |
-| **Corruption R, poison R**<br>Immunity | **—**<br>Movement | - | **—**<br>Weakness | **—**<br>Free Strike Damage Type |
-| **+4**<br>Might | **-3**<br>Agility | **0**<br>Reason | **+2**<br>Intuition | **+3**<br>Presence |
-
-> ⭐️ **Big Stomp**
->
-> The titan's melee [free strikes](../../../../../feature/common/main-actions/free-strike.md) M < STRONG knock the target [prone](../../../../../condition/prone.md).
-
-> ⭐️ **Overwhelming Size**
->
-> The titan can move through enemies at normal speed. If the titan ends their [turn](../../../../../rule/combat/turn.md) in a [prone](../../../../../condition/prone.md) [size](../../../../../rule/character/size.md) 2 or smaller creature's space, the creature can't stand.
-
-> ⭐️ **Flesh to Mountains**
->
-> When the titan is reduced to 0 [Stamina](../../../../../rule/health/stamina.md), their space becomes [difficult terrain](../../../../../movement/difficult-terrain.md). If a creature was [prone](../../../../../condition/prone.md) underneath the titan when the titan is killed, they take 10 [damage](../../../../../rule/damage/damage.md) and are [restrained](../../../../../condition/restrained.md) (save ends).
+```ds-sb
+agility: -3
+cost: 7 essence for one minion
+ev: ""
+features:
+    - effects:
+        - effect: The titan's melee [free strikes](../../../../../feature/common/main-actions/free-strike.md) M < STRONG knock the target [prone](../../../../../condition/prone.md).
+      feature_type: trait
+      icon: ⭐️
+      name: Big Stomp
+      type: feature
+    - effects:
+        - effect: The titan can move through enemies at normal speed. If the titan ends their [turn](../../../../../rule/combat/turn.md) in a [prone](../../../../../condition/prone.md) [size](../../../../../rule/character/size.md) 2 or smaller creature's space, the creature can't stand.
+      feature_type: trait
+      icon: ⭐️
+      name: Overwhelming Size
+      type: feature
+    - effects:
+        - effect: When the titan is reduced to 0 [Stamina](../../../../../rule/health/stamina.md), their space becomes [difficult terrain](../../../../../movement/difficult-terrain.md). If a creature was [prone](../../../../../condition/prone.md) underneath the titan when the titan is killed, they take 10 [damage](../../../../../rule/damage/damage.md) and are [restrained](../../../../../condition/restrained.md) (save ends).
+      feature_type: trait
+      icon: ⭐️
+      name: Flesh to Mountains
+      type: feature
+flavor: Zombie titan is a catchall for undead giants, patchwork ogres and mournlings, or amalgamations of a graveyard's entire population. The titan lumbers and slumps across battlefields, wanting desperately to collapse and crash into the earth like a sea of flesh and bone.
+free_strike: 7
+immunities:
+    - Corruption R
+    - poison R
+intuition: 2
+keywords:
+    - Undead
+level: 0
+metadata:
+    scc: mcdm.summoner.v1/monster.minion.summoner.undead.statblock/zombie-titan
+    source: mcdm.summoner.v1
+might: 4
+movement: —
+name: Zombie Titan
+organization: Minion
+presence: 3
+reason: 0
+role: Defender
+size: "4"
+speed: 4
+stability: 0
+stamina: "40"
+type: statblock
+weaknesses: []
+```

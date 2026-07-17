@@ -28,24 +28,53 @@ type: statblock
 with_captain: +1 damage bonus to strikes
 ---
 
-| Goblin, Humanoid  |           -           |     Level 1      |                  Minion Brute                  | EV 3 for four minions |
-|:-----------------:|:---------------------:|:----------------:|:----------------------------------------------:|:---------------------:|
-|  **1S**<br>Size   |    **5**<br>Speed     | **5**<br>Stamina |               **0**<br>Stability               | **2**<br>Free Strike  |
-| **-**<br>Immunity | **Climb**<br>Movement |        -         | **+1 damage bonus to strikes**<br>With Captain |   **-**<br>Weakness   |
-|  **+2**<br>Might  |   **0**<br>Agility    | **0**<br>Reason  |               **0**<br>Intuition               |  **-1**<br>Presence   |
-
-> 🗡 **Axe (Signature Ability)**
->
-> | **Melee, Strike, Weapon** |                          **Main action** |
-> |---------------------------|-----------------------------------------:|
-> | **📏 Melee 1**            | **🎯 One creature or object per minion** |
->
-> **Power Roll + 2:**
->
-> - **≤11:** 2 damage; [push](../../../movement/forced-movement.md) 1
-> - **12-16:** 4 damage; [push](../../../movement/forced-movement.md) 3
-> - **17+:** 5 damage; [push](../../../movement/forced-movement.md) 4
-
-> ⭐️ **Crafty**
->
-> The spinecleaver doesn't provoke [opportunity attacks](../../../rule/combat/opportunity-attack.md) by moving.
+```ds-sb
+agility: 0
+ev: 3 for four minions
+features:
+    - ability_type: Signature Ability
+      distance: Melee 1
+      effects:
+        - roll: Power Roll + 2
+          tier1: 2 damage; [push](../../../movement/forced-movement.md) 1
+          tier2: 4 damage; [push](../../../movement/forced-movement.md) 3
+          tier3: 5 damage; [push](../../../movement/forced-movement.md) 4
+      feature_type: ability
+      icon: "\U0001F5E1"
+      keywords:
+        - Melee
+        - Strike
+        - Weapon
+      name: Axe
+      target: One creature or object per minion
+      type: feature
+      usage: Main action
+    - effects:
+        - effect: The spinecleaver doesn't provoke [opportunity attacks](../../../rule/combat/opportunity-attack.md) by moving.
+      feature_type: trait
+      icon: ⭐️
+      name: Crafty
+      type: feature
+free_strike: 2
+intuition: 0
+keywords:
+    - Goblin
+    - Humanoid
+level: 1
+metadata:
+    scc: mcdm.monsters.v1/monster.goblin.statblock/goblin-spinecleaver
+    source: mcdm.monsters.v1
+might: 2
+movement: Climb
+name: Goblin Spinecleaver
+organization: Minion
+presence: -1
+reason: 0
+role: Brute
+size: 1S
+speed: 5
+stability: 0
+stamina: "5"
+type: statblock
+with_captain: +1 damage bonus to strikes
+```

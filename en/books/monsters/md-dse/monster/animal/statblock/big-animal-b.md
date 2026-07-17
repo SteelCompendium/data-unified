@@ -25,46 +25,78 @@ stamina: "80"
 type: statblock
 ---
 
-|      Animal       |         -         |      Level 2      |      Elite Mount      |        EV 16         |
-|:-----------------:|:-----------------:|:-----------------:|:---------------------:|:--------------------:| 
-|   **3**<br>Size   |  **6**<br>Speed   | **80**<br>Stamina |  **3**<br>Stability   | **5**<br>Free Strike | 
-| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   | 
-|  **+2**<br>Might  | **+1**<br>Agility | **-1**<br>Reason  |  **+1**<br>Intuition  |  **+0**<br>Presence  | 
-
-> 🗡 **Natural Weapon (Signature Ability)**
->
-> | **Melee, Strike, Weapon** |                 **Main action** |
-> |---------------------------|--------------------------------:|
-> | **📏 Melee 2**            | **🎯 Two creatures or objects** |
->
-> **Power Roll + 2:**
->
-> - **≤11:** 7 damage
-> - **12-16:** 10 damage; push 1
-> - **17+:** 13 damage; push 2
-
-> 👤 **Trundle**
->
-> | **-**       | **Maneuver** |
-> |-------------|-------------:|
-> | **📏 Self** |  **🎯 Self** |
->
-> **Effect:** The animal moves up to their speed. They can make a free strike against each creature who makes an opportunity attack against them during this movement.
-
-> ❗️ **Animal Rally**
->
-> | **-**            | **Triggered action** |
-> |------------------|---------------------:|
-> | **📏 Ranged 20** |      **🎯 One ally** |
->
-> **Trigger:** The target is knocked prone.
->
-> **Effect:** The animal moves up to their speed. If they end their turn adjacent to the target, they can use the [Stand Up](scc.v1:mcdm.heroes.v1/feature.common.maneuvers/stand-up) maneuver to let the target stand, then get on to ride them.
-
-> ⭐️ **Beast of Burden**
->
-> While riding the animal, two size 1 allies can occupy the same space.
-
-> ⭐️ **Nature's Spirit**
->
-> While outdoors or in a natural environment, the animal can negate a bane on their abilities or turn a double bane into a bane.
+```ds-sb
+agility: 1
+ev: "16"
+features:
+    - ability_type: Signature Ability
+      distance: Melee 2
+      effects:
+        - roll: Power Roll + 2
+          tier1: 7 damage
+          tier2: 10 damage; push 1
+          tier3: 13 damage; push 2
+      feature_type: ability
+      icon: "\U0001F5E1"
+      keywords:
+        - Melee
+        - Strike
+        - Weapon
+      name: Natural Weapon
+      target: Two creatures or objects
+      type: feature
+      usage: Main action
+    - distance: Self
+      effects:
+        - effect: '**Effect:** The animal moves up to their speed. They can make a free strike against each creature who makes an opportunity attack against them during this movement.'
+      feature_type: ability
+      icon: "\U0001F464"
+      keywords: []
+      name: Trundle
+      target: Self
+      type: feature
+      usage: Maneuver
+    - distance: Ranged 20
+      effects:
+        - effect: |-
+            **Trigger:** The target is knocked prone.
+            **Effect:** The animal moves up to their speed. If they end their turn adjacent to the target, they can use the [Stand Up](scc.v1:mcdm.heroes.v1/feature.common.maneuvers/stand-up) maneuver to let the target stand, then get on to ride them.
+      feature_type: ability
+      icon: ❗️
+      keywords: []
+      name: Animal Rally
+      target: One ally
+      type: feature
+      usage: Triggered action
+    - effects:
+        - effect: While riding the animal, two size 1 allies can occupy the same space.
+      feature_type: trait
+      icon: ⭐️
+      name: Beast of Burden
+      type: feature
+    - effects:
+        - effect: While outdoors or in a natural environment, the animal can negate a bane on their abilities or turn a double bane into a bane.
+      feature_type: trait
+      icon: ⭐️
+      name: Nature's Spirit
+      type: feature
+free_strike: 5
+intuition: 1
+keywords:
+    - Animal
+level: 2
+metadata:
+    scc: mcdm.monsters.v1/monster.animal.statblock/big-animal-b
+    source: mcdm.monsters.v1
+might: 2
+name: Big Animal B
+organization: Elite
+presence: 0
+reason: -1
+role: Mount
+size: "3"
+speed: 6
+stability: 3
+stamina: "80"
+type: statblock
+```

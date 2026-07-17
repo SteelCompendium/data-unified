@@ -27,36 +27,65 @@ stamina: "30"
 type: statblock
 ---
 
-| Fey, Humanoid, Wode Elf |         -         |      Level 1      |    Platoon Support    |         EV 6         |
-|:-----------------------:|:-----------------:|:-----------------:|:---------------------:|:--------------------:|
-|     **1M**<br>Size      |  **7**<br>Speed   | **30**<br>Stamina |  **0**<br>Stability   | **3**<br>Free Strike |
-|    **-**<br>Immunity    | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
-|     **0**<br>Might      | **+2**<br>Agility |  **0**<br>Reason  |  **0**<br>Intuition   |  **+1**<br>Presence  |
-
-> 🏹 **Tracer Longbow (Signature Ability)**
->
-> | **Ranged, Strike, Weapon** |               **Main action** |
-> |----------------------------|------------------------------:|
-> | **📏 Ranged 10**           | **🎯 One creature or object** |
->
-> **Power Roll + 2:**
->
-> - **≤11:** 5 damage
-> - **12-16:** 7 damage
-> - **17+:** 9 damage; the target is marked (save ends)
->
-> **Effect:** Allies gain an edge on abilities against a target marked by any wode elf.
->
-> **3 Malice:** The sentry targets two additional creatures or objects.
-
-> ❇️ **Death Blossom (2 Malice)**
->
-> | **Area, Weapon** |             **Maneuver** |
-> |------------------|-------------------------:|
-> | **📏 5 burst**   | **🎯 Each marked enemy** |
->
-> **Effect:** Each target takes 3 damage.
-
-> ⭐️ **Masking Glamor**
->
-> Abilities targeting the sentry that would take a bane from cover or concealment have a double bane instead.
+```ds-sb
+agility: 2
+ev: "6"
+features:
+    - ability_type: Signature Ability
+      distance: Ranged 10
+      effects:
+        - roll: Power Roll + 2
+          tier1: 5 damage
+          tier2: 7 damage
+          tier3: 9 damage; the target is marked (save ends)
+      feature_type: ability
+      icon: "\U0001F3F9"
+      keywords:
+        - Ranged
+        - Strike
+        - Weapon
+      name: Tracer Longbow
+      target: One creature or object
+      type: feature
+      usage: Main action
+    - cost: 2 Malice
+      distance: 5 burst
+      effects:
+        - effect: '**Effect:** Each target takes 3 damage.'
+      feature_type: ability
+      icon: ❇️
+      keywords:
+        - Area
+        - Weapon
+      name: Death Blossom
+      target: Each marked enemy
+      type: feature
+      usage: Maneuver
+    - effects:
+        - effect: Abilities targeting the sentry that would take a bane from cover or concealment have a double bane instead.
+      feature_type: trait
+      icon: ⭐️
+      name: Masking Glamor
+      type: feature
+free_strike: 3
+intuition: 0
+keywords:
+    - Fey
+    - Humanoid
+    - Wode Elf
+level: 1
+metadata:
+    scc: mcdm.monsters.v1/monster.elf-wode.statblock/wode-elf-sentry
+    source: mcdm.monsters.v1
+might: 0
+name: Wode Elf Sentry
+organization: Platoon
+presence: 1
+reason: 0
+role: Support
+size: 1M
+speed: 7
+stability: 0
+stamina: "30"
+type: statblock
+```

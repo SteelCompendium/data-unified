@@ -30,35 +30,67 @@ stamina: "48"
 type: statblock
 ---
 
-| Goblin, Hobgoblin, Humanoid, Infernal |         -          |      Level 4      |  Controller Retainer  |         EV -         |
-|:-------------------------------------:|:------------------:|:-----------------:|:---------------------:|:--------------------:|
-|            **1M**<br>Size             |   **5**<br>Speed   | **48**<br>Stamina |  **0**<br>Stability   | **5**<br>Free Strike |
-|            **1M**<br>Size             |   **5**<br>Speed   | **48**<br>Stamina |  **0**<br>Stability   | **5**<br>Free Strike |
-|        **Fire 4**<br>Immunity         | **- **<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
-|            **+1**<br>Might            |  **0**<br>Agility  | **+2**<br>Reason  |  **+1**<br>Intuition  |  **+3**<br>Presence  |
-
-> 🏹 **Fire Curse (Signature Ability)**
->
-> | **Magic, Ranged, Strike** |               **Main action** |
-> |---------------------------|------------------------------:|
-> | **📏 Ranged 10**          | **🎯 One creature or object** |
->
-> **Power Roll + highest characteristic:**
->
-> - **≤11:** 5 fire damage
-> - **12-16:** 9 fire damage
-> - **17+:** 12 fire damage; A < STRONG the target is burning (save ends)
->
-> **Effect:** A burning creature takes 1d6 fire damage at the start of each of their turns. A burning object takes 1d6 fire damage at the end of each round.
-
-> 🏹 **Fuel for the Fire**
->
-> | **Magic, Ranged** |     **Main action** |
-> |-------------------|--------------------:|
-> | **📏 Ranged 10**  | **🎯 One creature** |
->
-> **Effect:** Until the end of the flameslinger's next turn, the target has fire weakness equal to the flameslinger's level. If the target is the flameslinger's mentor, they instead have fire immunity equal to the flameslinger's level.
-
-> ⭐️ **Infernal Ichor**
->
-> When the flameslinger is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), they spray buring blood. Each creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the flameslinger takes 3 fire damage.
+```ds-sb
+agility: 0
+ev: '-'
+features:
+    - ability_type: Signature Ability
+      distance: Ranged 10
+      effects:
+        - roll: Power Roll + highest characteristic
+          tier1: 5 fire damage
+          tier2: 9 fire damage
+          tier3: 12 fire damage; A < STRONG the target is burning (save ends)
+      feature_type: ability
+      icon: "\U0001F3F9"
+      keywords:
+        - Magic
+        - Ranged
+        - Strike
+      name: Fire Curse
+      target: One creature or object
+      type: feature
+      usage: Main action
+    - distance: Ranged 10
+      effects:
+        - effect: '**Effect:** Until the end of the flameslinger''s next turn, the target has fire weakness equal to the flameslinger''s level. If the target is the flameslinger''s mentor, they instead have fire immunity equal to the flameslinger''s level.'
+      feature_type: ability
+      icon: "\U0001F3F9"
+      keywords:
+        - Magic
+        - Ranged
+      name: Fuel for the Fire
+      target: One creature
+      type: feature
+      usage: Main action
+    - effects:
+        - effect: When the flameslinger is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), they spray buring blood. Each creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the flameslinger takes 3 fire damage.
+      feature_type: trait
+      icon: ⭐️
+      name: Infernal Ichor
+      type: feature
+free_strike: 5
+immunities:
+    - Fire 4
+intuition: 1
+keywords:
+    - Goblin
+    - Hobgoblin
+    - Humanoid
+    - Infernal
+level: 4
+metadata:
+    scc: mcdm.monsters.v1/monster.retainer.statblock/hobgoblin-flameslinger
+    source: mcdm.monsters.v1
+might: 1
+name: Hobgoblin Flameslinger
+organization: Retainer
+presence: 3
+reason: 2
+role: Controller
+size: 1M
+speed: 5
+stability: 0
+stamina: "48"
+type: statblock
+```

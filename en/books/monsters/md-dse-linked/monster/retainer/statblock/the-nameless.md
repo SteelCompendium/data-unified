@@ -30,32 +30,68 @@ stamina: "66"
 type: statblock
 ---
 
-| Draconian, Dragon, Humanoid  |          -          |      Level 6      |   Defender Retainer   |         EV -         |
-|:----------------------------:|:-------------------:|:-----------------:|:---------------------:|:--------------------:|
-|        **1M**<br>Size        |   **5**<br>Speed    | **66**<br>Stamina |  **4**<br>Stability   | **6**<br>Free Strike |
-| **Corruption 6**<br>Immunity | **Fly**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
-|       **+3**<br>Might        |  **+2**<br>Agility  | **+1**<br>Reason  |  **+1**<br>Intuition  |  **+2**<br>Presence  |
-
-> 🗡 **Baneful Blade  (Signature Ability)**
->
-> | **Charge, Melee, Strike, Weapon** |               **Main action** |
-> |-----------------------------------|------------------------------:|
-> | **📏 Melee 1**                    | **🎯 One creature or object** |
->
-> **Power Roll + highest characteristic:**
->
-> - **≤11:** 6 damage
-> - **12-16:** 11 damage
-> - **17+:** 14 damage; [push](../../../movement/forced-movement.md) 2
-
-> 🗡 **I'm Not a Steed, You're Equipment (Encounter)**
->
-> | **Melee**      |              **Main action** |
-> |----------------|-----------------------------:|
-> | **📏 Melee 1** | **🎯 The Nameless's mentor** |
->
-> **Effect:** The Nameless's mentor enters the Nameless's space and rides on their back. The Nameless or the mentor can move the mentor to an [adjacent](../../../rule/combat/adjacent.md) space as a free maneuver. While in the Nameless's space, the mentor moves with them and can't use their move action, and ability rolls against the mentor take a bane.
-
-> ⭐️ **Wing Block**
->
-> Ranged strikes against the Nameless take a bane.
+```ds-sb
+agility: 2
+ev: '-'
+features:
+    - ability_type: Signature Ability
+      distance: Melee 1
+      effects:
+        - roll: Power Roll + highest characteristic
+          tier1: 6 damage
+          tier2: 11 damage
+          tier3: 14 damage; [push](../../../movement/forced-movement.md) 2
+      feature_type: ability
+      icon: "\U0001F5E1"
+      keywords:
+        - Charge
+        - Melee
+        - Strike
+        - Weapon
+      name: Baneful Blade
+      target: One creature or object
+      type: feature
+      usage: Main action
+    - cost: Encounter
+      distance: Melee 1
+      effects:
+        - effect: '**Effect:** The Nameless''s mentor enters the Nameless''s space and rides on their back. The Nameless or the mentor can move the mentor to an [adjacent](../../../rule/combat/adjacent.md) space as a free maneuver. While in the Nameless''s space, the mentor moves with them and can''t use their move action, and ability rolls against the mentor take a bane.'
+      feature_type: ability
+      icon: "\U0001F5E1"
+      keywords:
+        - Melee
+      name: I'm Not a Steed, You're Equipment
+      target: The Nameless's mentor
+      type: feature
+      usage: Main action
+    - effects:
+        - effect: Ranged strikes against the Nameless take a bane.
+      feature_type: trait
+      icon: ⭐️
+      name: Wing Block
+      type: feature
+free_strike: 6
+immunities:
+    - Corruption 6
+intuition: 1
+keywords:
+    - Draconian
+    - Dragon
+    - Humanoid
+level: 6
+metadata:
+    scc: mcdm.monsters.v1/monster.retainer.statblock/the-nameless
+    source: mcdm.monsters.v1
+might: 3
+movement: Fly
+name: The Nameless
+organization: Retainer
+presence: 2
+reason: 1
+role: Defender
+size: 1M
+speed: 5
+stability: 4
+stamina: "66"
+type: statblock
+```

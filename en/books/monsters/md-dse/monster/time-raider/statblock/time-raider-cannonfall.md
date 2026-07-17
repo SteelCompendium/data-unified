@@ -28,36 +28,69 @@ stamina: "40"
 type: statblock
 ---
 
-|   Humanoid, Time Raider   |         -         |      Level 3      |   Platoon Artillery   |        EV 10         |
-|:-------------------------:|:-----------------:|:-----------------:|:---------------------:|:--------------------:|
-|      **1L**<br>Size       |  **5**<br>Speed   | **40**<br>Stamina |  **3**<br>Stability   | **5**<br>Free Strike |
-| **Psychic 3**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
-|      **0**<br>Might       | **+2**<br>Agility | **+2**<br>Reason  |  **+2**<br>Intuition  |  **0**<br>Presence   |
-
-> 🔳 **Sunderbuss ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
->
-> | **Area, Psionic, Ranged, Weapon** |               **Main action** |
-> |-----------------------------------|------------------------------:|
-> | **📏 3 cube within 10**           | **🎯 Each enemy in the area** |
->
-> **Power Roll + 2:**
->
-> - **≤11:** 4 sonic damage
-> - **12-16:** 7 sonic damage
-> - **17+:** 10 sonic damage; [prone](scc.v1:mcdm.heroes.v1/condition/prone); M < 2 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
->
-> **Effect:** A layer of ground beneath the area that is 1 square deep is destroyed.
-
-> ❗️ **Buss Buffe (1 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
->
-> | **Area, Psionic** |             **Free triggered action** |
-> |-------------------|--------------------------------------:|
-> | **📏 5 burst**    | **🎯 Self and each ally in the area** |
->
-> **Trigger:** A creature damages the cannonfall with a ranged or area ability.
->
-> **Effect:** The damage is halved for the cannonfall and each target also affected by the triggering ability.
-
-> ⭐️ **Foresight Squared**
->
-> The cannonfall doesn't take a bane on strikes against creatures with concealment or cover.
+```ds-sb
+agility: 2
+ev: "10"
+features:
+    - ability_type: Signature Ability
+      distance: 3 cube within 10
+      effects:
+        - roll: Power Roll + 2
+          tier1: 4 sonic damage
+          tier2: 7 sonic damage
+          tier3: 10 sonic damage; [prone](scc.v1:mcdm.heroes.v1/condition/prone); M < 2 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
+      feature_type: ability
+      icon: "\U0001F533"
+      keywords:
+        - Area
+        - Psionic
+        - Ranged
+        - Weapon
+      name: Sunderbuss
+      target: Each enemy in the area
+      type: feature
+      usage: Main action
+    - cost: 1 Malice
+      distance: 5 burst
+      effects:
+        - effect: |-
+            **Trigger:** A creature damages the cannonfall with a ranged or area ability.
+            **Effect:** The damage is halved for the cannonfall and each target also affected by the triggering ability.
+      feature_type: ability
+      icon: ❗️
+      keywords:
+        - Area
+        - Psionic
+      name: Buss Buffe
+      target: Self and each ally in the area
+      type: feature
+      usage: Free triggered action
+    - effects:
+        - effect: The cannonfall doesn't take a bane on strikes against creatures with concealment or cover.
+      feature_type: trait
+      icon: ⭐️
+      name: Foresight Squared
+      type: feature
+free_strike: 5
+immunities:
+    - Psychic 3
+intuition: 2
+keywords:
+    - Humanoid
+    - Time Raider
+level: 3
+metadata:
+    scc: mcdm.monsters.v1/monster.time-raider.statblock/time-raider-cannonfall
+    source: mcdm.monsters.v1
+might: 0
+name: Time Raider Cannonfall
+organization: Platoon
+presence: 0
+reason: 2
+role: Artillery
+size: 1L
+speed: 5
+stability: 3
+stamina: "40"
+type: statblock
+```

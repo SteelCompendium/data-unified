@@ -31,24 +31,56 @@ weaknesses:
 with_captain: Gain an edge on strikes
 ---
 
-| Abyssal, Demon, Soulraker |          -          |      Level 7      |               Minion Harrier                |  EV 9 for four minions   |
-|:-------------------------:|:-------------------:|:-----------------:|:-------------------------------------------:|:------------------------:|
-|      **1M**<br>Size       |   **7**<br>Speed    | **12**<br>Stamina |             **0**<br>Stability              |   **3**<br>Free Strike   |
-|     **-**<br>Immunity     | **Fly**<br>Movement |         -         | **Gain an edge on strikes**<br>With Captain |  **Holy 5**<br>Weakness  |
-|      **+2**<br>Might      |  **+4**<br>Agility  | **+1**<br>Reason  |             **+0**<br>Intuition             |    **-1**<br>Presence    |
-
-> 🗡 **Soul Stinger (Signature Ability)**
->
-> | **Melee, Strike, Weapon** |                **Main action** |
-> |---------------------------|-------------------------------:|
-> | **📏 Melee 1**            | **🎯 One creature per minion** |
->
-> **Power Roll + 4:**
->
-> - **≤11:** 3 poison damage
-> - **12-16:** 6 poison damage; the scout can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) 1 square
-> - **17+:** 7 poison damage; the scout [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to 3 squares
-
-> ⭐️ **Abyssal Buzzing**
->
-> Any enemy who starts their turn with two or more soulraker [minions](scc.v1:mcdm.monsters.v1/rule.organization/minion) [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to them takes 3 sonic damage.
+```ds-sb
+agility: 4
+ev: 9 for four minions
+features:
+    - ability_type: Signature Ability
+      distance: Melee 1
+      effects:
+        - roll: Power Roll + 4
+          tier1: 3 poison damage
+          tier2: 6 poison damage; the scout can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) 1 square
+          tier3: 7 poison damage; the scout [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to 3 squares
+      feature_type: ability
+      icon: "\U0001F5E1"
+      keywords:
+        - Melee
+        - Strike
+        - Weapon
+      name: Soul Stinger
+      target: One creature per minion
+      type: feature
+      usage: Main action
+    - effects:
+        - effect: Any enemy who starts their turn with two or more soulraker [minions](scc.v1:mcdm.monsters.v1/rule.organization/minion) [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to them takes 3 sonic damage.
+      feature_type: trait
+      icon: ⭐️
+      name: Abyssal Buzzing
+      type: feature
+free_strike: 3
+intuition: 0
+keywords:
+    - Abyssal
+    - Demon
+    - Soulraker
+level: 7
+metadata:
+    scc: mcdm.monsters.v1/monster.demon.3rd-echelon.statblock/soulraker-scout
+    source: mcdm.monsters.v1
+might: 2
+movement: Fly
+name: Soulraker Scout
+organization: Minion
+presence: -1
+reason: 1
+role: Harrier
+size: 1M
+speed: 7
+stability: 0
+stamina: "12"
+type: statblock
+weaknesses:
+    - Holy 5
+with_captain: Gain an edge on strikes
+```

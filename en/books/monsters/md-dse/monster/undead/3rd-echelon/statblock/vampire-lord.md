@@ -29,88 +29,126 @@ stamina: "200"
 type: statblock
 ---
 
-|            Undead, Vampire             |                   -                    |       Level 7       |        Leader         |        EV 36         |
-|:--------------------------------------:|:--------------------------------------:|:-------------------:|:---------------------:|:--------------------:|
-|             **1M**<br>Size             |             **12**<br>Speed            | **200**<br>Stamina  |  **3**<br>Stability   | **7**<br>Free Strike |
-| **Corruption 9, poison 9**<br>Immunity | **Climb, hover, teleport**<br>Movement |          -          | **-**<br>With Captain |  **-**<br>Weakness   |
-|            **+2**<br>Might             |           **+5**<br>Agility            |  **+1**<br>Reason   |  **+1**<br>Intuition  |  **+2**<br>Presence  |
-
-> 🗡 **Crimson Embrace ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
->
-> | **Melee, Strike, Weapon** |     **Main action** |
-> |---------------------------|--------------------:|
-> | **📏 Melee 1**            | **🎯 One creature** |
->
-> **Power Roll + 5:**
->
-> - **≤11:** 13 corruption damage; M < 3 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
-> - **12-16:** 21 corruption damage; M < 4 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
-> - **17+:** 24 corruption damage; M < 5 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
->
-> **Effect:** The vampire regains [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) equal to half the damage dealt, and can end one effect on them that can be ended by a [saving throw](scc.v1:mcdm.heroes.v1/rule.general/saving-throw).
->
-> **2+ [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice):** The vampire [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) 3 after striking the last target, and can target one additional creature for every 2 malice spent.
-
-> 🏹 **Arise, My Children (2 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
->
-> | **Ranged**       |   **Maneuver** |
-> |------------------|---------------:|
-> | **📏 Ranged 10** | **🎯 Special** |
->
-> **Effect:** Two blood-starved vampires appear in unoccupied spaces within distance.
-
-> ❗️ **Redirected Charm (3 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
->
-> | **Magic, Ranged** | **Free [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |
-> |-------------------|--------------------------:|
-> | **📏 Ranged 5**   |          **🎯 One enemy** |
->
-> **Trigger:** A creature makes a [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) against the vampire.
->
-> **Effect:** The target becomes the new target of the [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike).
-
-> ⭐️ **Lord's Bloodthirst**
->
-> The vampire has speed 15 and an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on power rolls while any creature within 20 squares of them is [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding). Any [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) creature within 5 squares of the vampire can't hide.
-
-> ☠️ **Let Us Feast! ([Villain Action](scc.v1:mcdm.monsters.v1/rule.monster/villain-action) 1)**
->
-> | **Ranged**      |                         **-** |
-> |-----------------|------------------------------:|
-> | **📏 20 burst** | **🎯 Each enemy in the area** |
->
-> **Effect:** Each target who has P < 4 is now [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends).
-
-> ☠️ **Red Mist Rising ([Villain Action](scc.v1:mcdm.monsters.v1/rule.monster/villain-action) 2)**
->
-> | **Area, Magic** |                         **-** |
-> |-----------------|------------------------------:|
-> | **📏 5 burst**  | **🎯 Each enemy in the area** |
->
-> **Power Roll + 5:**
->
-> - **≤11:** 2 damage; M < 3 6 corruption damage
-> - **12-16:** 7 damage; M < 4 6 corruption damage
-> - **17+:** 10 damage; M < 5 6 corruption damage
->
-> **Effect:** The vampire turns to mist, filling the area. Until the end of the round, the vampire can't move or be targeted by abilities, but they can use Crimson Embrace against a target in the area. The vampire reforms in an unoccupied space in the area at the end of the round.
-
-> ☠️ **Sacrifice ([Villain Action](scc.v1:mcdm.monsters.v1/rule.monster/villain-action) 3)**
->
-> | **Magic, Ranged** |                   **-** |
-> |-------------------|------------------------:|
-> | **📏 Ranged 20**  | **🎯 Each chosen ally** |
->
-> **Effect:** Each target is marked for sacrifice. At the end of the round, each target who isn't dead or destroyed takes 50 corruption damage. The vampire then uses the following ability.
->
-> **Wave of Blood:**
->
-> | **Area, Magic** |                         **-** |
-> |-----------------|------------------------------:|
-> | **📏 20 burst** | **🎯 Each enemy in the area** |
->
-> **Effect:** Each target makes a **Might test**. This ability deals an extra 5 damage for each creature killed by the Sacrifice [villain action](scc.v1:mcdm.monsters.v1/rule.monster/villain-action).
->
-> - **≤11:** 11 corruption damage
-> - **12-16:** 8 corruption damage
-> - **17+:** 2 corruption damage
+```ds-sb
+agility: 5
+ev: "36"
+features:
+    - ability_type: Signature Ability
+      distance: Melee 1
+      effects:
+        - roll: Power Roll + 5
+          tier1: 13 corruption damage; M < 3 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
+          tier2: 21 corruption damage; M < 4 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
+          tier3: 24 corruption damage; M < 5 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
+      feature_type: ability
+      icon: "\U0001F5E1"
+      keywords:
+        - Melee
+        - Strike
+        - Weapon
+      name: Crimson Embrace
+      target: One creature
+      type: feature
+      usage: Main action
+    - cost: 2 Malice
+      distance: Ranged 10
+      effects:
+        - effect: '**Effect:** Two blood-starved vampires appear in unoccupied spaces within distance.'
+      feature_type: ability
+      icon: "\U0001F3F9"
+      keywords:
+        - Ranged
+      name: Arise, My Children
+      target: Special
+      type: feature
+      usage: Maneuver
+    - cost: 3 Malice
+      distance: Ranged 5
+      effects:
+        - effect: |-
+            **Trigger:** A creature makes a [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) against the vampire.
+            **Effect:** The target becomes the new target of the [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike).
+      feature_type: ability
+      icon: ❗️
+      keywords:
+        - Magic
+        - Ranged
+      name: Redirected Charm
+      target: One enemy
+      type: feature
+      usage: Free triggered action
+    - effects:
+        - effect: The vampire has speed 15 and an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on power rolls while any creature within 20 squares of them is [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding). Any [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) creature within 5 squares of the vampire can't hide.
+      feature_type: trait
+      icon: ⭐️
+      name: Lord's Bloodthirst
+      type: feature
+    - cost: Villain Action 1
+      distance: 20 burst
+      effects:
+        - effect: '**Effect:** Each target who has P < 4 is now [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends).'
+      feature_type: ability
+      icon: ☠️
+      keywords:
+        - Ranged
+      name: Let Us Feast!
+      target: Each enemy in the area
+      type: feature
+      usage: '-'
+    - cost: Villain Action 2
+      distance: 5 burst
+      effects:
+        - roll: Power Roll + 5
+          tier1: 2 damage; M < 3 6 corruption damage
+          tier2: 7 damage; M < 4 6 corruption damage
+          tier3: 10 damage; M < 5 6 corruption damage
+      feature_type: ability
+      icon: ☠️
+      keywords:
+        - Area
+        - Magic
+      name: Red Mist Rising
+      target: Each enemy in the area
+      type: feature
+      usage: '-'
+    - cost: Villain Action 3
+      distance: Ranged 20
+      effects:
+        - roll: ""
+          tier1: 11 corruption damage
+          tier2: 8 corruption damage
+          tier3: 2 corruption damage
+      feature_type: ability
+      icon: ☠️
+      keywords:
+        - Magic
+        - Ranged
+      name: Sacrifice
+      target: Each chosen ally
+      type: feature
+      usage: '-'
+free_strike: 7
+immunities:
+    - Corruption 9
+    - poison 9
+intuition: 1
+keywords:
+    - Undead
+    - Vampire
+level: 7
+metadata:
+    scc: mcdm.monsters.v1/monster.undead.3rd-echelon.statblock/vampire-lord
+    source: mcdm.monsters.v1
+might: 2
+movement: Climb, hover, teleport
+name: Vampire Lord
+organization: Leader
+presence: 2
+reason: 1
+role: ""
+size: 1M
+speed: 12
+stability: 3
+stamina: "200"
+type: statblock
+```

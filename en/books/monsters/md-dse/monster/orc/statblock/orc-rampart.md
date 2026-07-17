@@ -26,44 +26,73 @@ stamina: "59"
 type: statblock
 ---
 
-|   Humanoid, Orc   |         -         |      Level 2      |   Platoon Defender    |         EV 8         |
-|:-----------------:|:-----------------:|:-----------------:|:---------------------:|:--------------------:|
-|  **1L**<br>Size   |  **6**<br>Speed   | **59**<br>Stamina |  **2**<br>Stability   | **4**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
-|  **+2**<br>Might  | **+2**<br>Agility | **+2**<br>Reason  |  **+2**<br>Intuition  |  **+2**<br>Presence  |
-
-> 🗡 **My Spear, My Foe ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
->
-> | **Melee, Strike, Weapon** |               **Main action** |
-> |---------------------------|------------------------------:|
-> | **📏 Melee 1**            | **🎯 One creature or object** |
->
-> **Power Roll + 2:**
->
-> - **≤11:** 6 damage
-> - **12-16:** 9 damage; [taunted](scc.v1:mcdm.heroes.v1/condition/taunted) (EoT)
-> - **17+:** 12 damage; [taunted](scc.v1:mcdm.heroes.v1/condition/taunted) (EoT)
->
-> **Effect:** This ability has a double edge against any target who dealt damage to the rampart this round.
-
-> 👤 **Castling**
->
-> | **-**                  |    **Maneuver** |
-> |------------------------|----------------:|
-> | **📏 Self; see below** | **🎯 One ally** |
->
-> **Effect:** The rampart moves or [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the target, then can swap places with the target.
-
-> ❗️ **No.**
->
-> | **-**       | **Triggered action** |
-> |-------------|---------------------:|
-> | **📏 Self** |          **🎯 Self** |
->
-> **Trigger:** A creature targets an ally [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the rampart with an ability that doesn't also target the rampart.
->
-> **Effect:** The rampart becomes the target of the triggering ability instead.
-
-> ⭐️ **Relentless**
->
-> If the rampart is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), they can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) before dying. If the target of the free strike is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), the rampart is reduced to 1 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) instead.
+```ds-sb
+agility: 2
+ev: "8"
+features:
+    - ability_type: Signature Ability
+      distance: Melee 1
+      effects:
+        - roll: Power Roll + 2
+          tier1: 6 damage
+          tier2: 9 damage; [taunted](scc.v1:mcdm.heroes.v1/condition/taunted) (EoT)
+          tier3: 12 damage; [taunted](scc.v1:mcdm.heroes.v1/condition/taunted) (EoT)
+      feature_type: ability
+      icon: "\U0001F5E1"
+      keywords:
+        - Melee
+        - Strike
+        - Weapon
+      name: My Spear, My Foe
+      target: One creature or object
+      type: feature
+      usage: Main action
+    - distance: Self; see below
+      effects:
+        - effect: '**Effect:** The rampart moves or [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the target, then can swap places with the target.'
+      feature_type: ability
+      icon: "\U0001F464"
+      keywords: []
+      name: Castling
+      target: One ally
+      type: feature
+      usage: Maneuver
+    - distance: Self
+      effects:
+        - effect: |-
+            **Trigger:** A creature targets an ally [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the rampart with an ability that doesn't also target the rampart.
+            **Effect:** The rampart becomes the target of the triggering ability instead.
+      feature_type: ability
+      icon: ❗️
+      keywords: []
+      name: No.
+      target: Self
+      type: feature
+      usage: Triggered action
+    - effects:
+        - effect: If the rampart is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), they can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) before dying. If the target of the free strike is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), the rampart is reduced to 1 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) instead.
+      feature_type: trait
+      icon: ⭐️
+      name: Relentless
+      type: feature
+free_strike: 4
+intuition: 2
+keywords:
+    - Humanoid
+    - Orc
+level: 2
+metadata:
+    scc: mcdm.monsters.v1/monster.orc.statblock/orc-rampart
+    source: mcdm.monsters.v1
+might: 2
+name: Orc Rampart
+organization: Platoon
+presence: 2
+reason: 2
+role: Defender
+size: 1L
+speed: 6
+stability: 2
+stamina: "59"
+type: statblock
+```

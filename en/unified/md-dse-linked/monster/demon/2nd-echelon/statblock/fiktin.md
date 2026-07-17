@@ -28,38 +28,70 @@ weaknesses:
     - Holy 5
 ---
 
-|  Abyssal, Demon   |         -         |      Level 5      |    Horde Ambusher     |           EV 7           |
-|:-----------------:|:-----------------:|:-----------------:|:---------------------:|:------------------------:|
-|  **1M**<br>Size   |  **6**<br>Speed   | **35**<br>Stamina |  **0**<br>Stability   |   **3**<br>Free Strike   |
-| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **Holy 5**<br>Weakness  |
-|  **+2**<br>Might  | **+2**<br>Agility | **+2**<br>Reason  |  **+1**<br>Intuition  |    **+3**<br>Presence    |
-
-> ❇️ **Violent Transformation (Signature Ability)**
->
-> | **Area, Magic** |               **Main action** |
-> |-----------------|------------------------------:|
-> | **📏 2 burst**  | **🎯 Each enemy in the area** |
->
-> **Power Roll + 3:**
->
-> - **≤11:** 3 corruption damage
-> - **12-16:** 6 corruption damage
-> - **17+:** 7 corruption damage; I < 3 [dazed](../../../../condition/dazed.md) (save ends)
->
-> **Effect:** The fiktin violently changes shape, dealing an extra 6 damage to any target they were hidden from with their Aggressive Mimicry ability.
-
-> 👤 **Aggressive Mimicry (1 [Malice](../../../../rule/monster/malice.md))**
->
-> | **Magic**   | **Maneuver** |
-> |-------------|-------------:|
-> | **📏 Self** |  **🎯 Self** |
->
-> **Effect:** The fiktin transforms into a mundane object of their size or smaller and is automatically hidden. They can revert to their true form as a [free maneuver](../../../../rule/combat/free-maneuver.md).
-
-> ⭐️ **Lethe**
->
-> While the fiktin is [winded](../../../../rule/health/winded.md), they gain an [edge](../../../../rule/dice/edge.md) on strikes, and any strike made against them gains an edge.
-
-> ⭐️ **Soulsight**
->
-> Any creature within 2 squares of the fiktin can't be hidden from them.
+```ds-sb
+agility: 2
+ev: "7"
+features:
+    - ability_type: Signature Ability
+      distance: 2 burst
+      effects:
+        - roll: Power Roll + 3
+          tier1: 3 corruption damage
+          tier2: 6 corruption damage
+          tier3: 7 corruption damage; I < 3 [dazed](../../../../condition/dazed.md) (save ends)
+      feature_type: ability
+      icon: ❇️
+      keywords:
+        - Area
+        - Magic
+      name: Violent Transformation
+      target: Each enemy in the area
+      type: feature
+      usage: Main action
+    - cost: 1 Malice
+      distance: Self
+      effects:
+        - effect: '**Effect:** The fiktin transforms into a mundane object of their size or smaller and is automatically hidden. They can revert to their true form as a [free maneuver](../../../../rule/combat/free-maneuver.md).'
+      feature_type: ability
+      icon: "\U0001F464"
+      keywords:
+        - Magic
+      name: Aggressive Mimicry
+      target: Self
+      type: feature
+      usage: Maneuver
+    - effects:
+        - effect: While the fiktin is [winded](../../../../rule/health/winded.md), they gain an [edge](../../../../rule/dice/edge.md) on strikes, and any strike made against them gains an edge.
+      feature_type: trait
+      icon: ⭐️
+      name: Lethe
+      type: feature
+    - effects:
+        - effect: Any creature within 2 squares of the fiktin can't be hidden from them.
+      feature_type: trait
+      icon: ⭐️
+      name: Soulsight
+      type: feature
+free_strike: 3
+intuition: 1
+keywords:
+    - Abyssal
+    - Demon
+level: 5
+metadata:
+    scc: mcdm.monsters.v1/monster.demon.2nd-echelon.statblock/fiktin
+    source: mcdm.monsters.v1
+might: 2
+name: Fiktin
+organization: Horde
+presence: 3
+reason: 2
+role: Ambusher
+size: 1M
+speed: 6
+stability: 0
+stamina: "35"
+type: statblock
+weaknesses:
+    - Holy 5
+```

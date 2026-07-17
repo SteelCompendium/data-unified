@@ -27,24 +27,52 @@ type: statblock
 with_captain: +2 bonus to Stamina
 ---
 
-| Horror, Voiceless Talker |         -         |     Level 6      |            Minion Controller            | EV 8 for four minions |
-|:------------------------:|:-----------------:|:----------------:|:---------------------------------------:|:---------------------:|
-|      **1M**<br>Size      |  **5**<br>Speed   | **9**<br>Stamina |           **0**<br>Stability            | **3**<br>Free Strike  |
-|    **-**<br>Immunity     | **-**<br>Movement |        -         | **+2 bonus to Stamina**<br>With Captain |   **-**<br>Weakness   |
-|     **-1**<br>Might      | **0**<br>Agility  | **+3**<br>Reason |           **+1**<br>Intuition           |  **+1**<br>Presence   |
-
-> 🏹 **Phase Chant ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
->
-> | **Psionic, Ranged, Strike** |                          **Main action** |
-> |-----------------------------|-----------------------------------------:|
-> | **📏 Ranged 8**             | **🎯 One creature or object per minion** |
->
-> **Power Roll + 3:**
->
-> - **≤11:** 3 psychic damage
-> - **12-16:** 5 psychic damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2
-> - **17+:** 7 psychic damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 4
-
-> ⭐️ **Psionic Conductor**
->
-> Whenever a non-[minion](scc.v1:mcdm.monsters.v1/rule.organization/minion) voiceless talker within 5 squares of the graywarper uses a psionic ability, they can do so as if they were in the graywarper's space.
+```ds-sb
+agility: 0
+ev: 8 for four minions
+features:
+    - ability_type: Signature Ability
+      distance: Ranged 8
+      effects:
+        - roll: Power Roll + 3
+          tier1: 3 psychic damage
+          tier2: 5 psychic damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2
+          tier3: 7 psychic damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 4
+      feature_type: ability
+      icon: "\U0001F3F9"
+      keywords:
+        - Psionic
+        - Ranged
+        - Strike
+      name: Phase Chant
+      target: One creature or object per minion
+      type: feature
+      usage: Main action
+    - effects:
+        - effect: Whenever a non-[minion](scc.v1:mcdm.monsters.v1/rule.organization/minion) voiceless talker within 5 squares of the graywarper uses a psionic ability, they can do so as if they were in the graywarper's space.
+      feature_type: trait
+      icon: ⭐️
+      name: Psionic Conductor
+      type: feature
+free_strike: 3
+intuition: 1
+keywords:
+    - Horror
+    - Voiceless Talker
+level: 6
+metadata:
+    scc: mcdm.monsters.v1/monster.voiceless-talker.statblock/voiceless-talker-graywarper
+    source: mcdm.monsters.v1
+might: -1
+name: Voiceless Talker Graywarper
+organization: Minion
+presence: 1
+reason: 3
+role: Controller
+size: 1M
+speed: 5
+stability: 0
+stamina: "9"
+type: statblock
+with_captain: +2 bonus to Stamina
+```

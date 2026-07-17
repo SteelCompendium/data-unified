@@ -31,26 +31,58 @@ type: statblock
 with_captain: +2 damage bonus to strikes
 ---
 
-| Goblin, Hobgoblin, Humanoid, Infernal |         -         |     Level 4      |                 Minion Harrier                 | EV 6 for four minions |
-|:-------------------------------------:|:-----------------:|:----------------:|:----------------------------------------------:|:---------------------:|
-|            **1M**<br>Size             |  **7**<br>Speed   | **8**<br>Stamina |               **0**<br>Stability               | **2**<br>Free Strike  |
-|        **Fire 2**<br>Immunity         | **-**<br>Movement |        -         | **+2 damage bonus to strikes**<br>With Captain |   **-**<br>Weakness   |
-|            **+1**<br>Might            | **+3**<br>Agility | **0**<br>Reason  |              **+2**<br>Intuition               |   **0**<br>Presence   |
-
-> ⚔️ **Grim Thrust (Signature Ability)**
->
-> | **Magic, Melee, Ranged, Strike, Weapon** |                          **Main action** |
-> |------------------------------------------|-----------------------------------------:|
-> | **📏 Melee 2 or ranged 5**               | **🎯 One creature or object per minion** |
->
-> **Power Roll + 3:**
->
-> - **≤11:** 2 corruption damage
-> - **12-16:** 4 corruption damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1
-> - **17+:** 6 corruption damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2
->
-> **Effect:** The lancer deals an extra 2 damage if they have high ground against the target.
-
-> ⭐️ **Infernal Ichor**
->
-> When the lancer is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), they spray burning blood. Each creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the lancer takes 2 fire damage.
+```ds-sb
+agility: 3
+ev: 6 for four minions
+features:
+    - ability_type: Signature Ability
+      distance: Melee 2 or ranged 5
+      effects:
+        - roll: Power Roll + 3
+          tier1: 2 corruption damage
+          tier2: 4 corruption damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1
+          tier3: 6 corruption damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2
+      feature_type: ability
+      icon: ⚔️
+      keywords:
+        - Magic
+        - Melee
+        - Ranged
+        - Strike
+        - Weapon
+      name: Grim Thrust
+      target: One creature or object per minion
+      type: feature
+      usage: Main action
+    - effects:
+        - effect: When the lancer is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), they spray burning blood. Each creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the lancer takes 2 fire damage.
+      feature_type: trait
+      icon: ⭐️
+      name: Infernal Ichor
+      type: feature
+free_strike: 2
+immunities:
+    - Fire 2
+intuition: 2
+keywords:
+    - Goblin
+    - Hobgoblin
+    - Humanoid
+    - Infernal
+level: 4
+metadata:
+    scc: mcdm.monsters.v1/monster.hobgoblin.statblock/hobgoblin-lancer
+    source: mcdm.monsters.v1
+might: 1
+name: Hobgoblin Lancer
+organization: Minion
+presence: 0
+reason: 0
+role: Harrier
+size: 1M
+speed: 7
+stability: 0
+stamina: "8"
+type: statblock
+with_captain: +2 damage bonus to strikes
+```

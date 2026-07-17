@@ -29,64 +29,103 @@ stamina: "140"
 type: statblock
 ---
 
-|    Devil, Infernal     |          -          |      Level 6       |   Elite Controller    |        EV 32         |
-|:----------------------:|:-------------------:|:------------------:|:---------------------:|:--------------------:|
-|     **1M**<br>Size     |   **6**<br>Speed    | **140**<br>Stamina |  **1**<br>Stability   | **7**<br>Free Strike |
-| **Fire 5**<br>Immunity | **Fly**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
-|    **+0**<br>Might     |  **+1**<br>Agility  |  **+2**<br>Reason  |  **+1**<br>Intuition  |  **+3**<br>Presence  |
-
-> 🏹 **Infernal Injunction (Signature Ability)**
->
-> | **Magic, Ranged, Strike** |                 **Main action** | 
-> |---------------------------|--------------------------------:|
-> | **📏 Ranged 10**          | **🎯 Two creatures or objects** |
->
-> **Power Roll + 3:**
->
-> - **≤11:** 10 fire damage; I < 1 [frightened](../../../condition/frightened.md) (save ends)
-> - **12-16:** 15 fire damage; I < 1 [frightened](../../../condition/frightened.md) (save ends)
-> - **17+:** 18 fire damage; I < 1 [frightened](../../../condition/frightened.md) (save ends)
->
-> **Effect:** The adjudicator can slide a target [frightened](../../../condition/frightened.md) by this ability up to 2 squares.
-
-> 🏹 **Adjudicator's Interdiction**
->
-> | **Magic, Ranged** |     **Main action** | 
-> |-------------------|--------------------:|
-> | **📏 Ranged 10**  | **🎯 One creature** |
->
-> **Effect:** The target makes a Presence test.
->
-> - **≤11:** The target is [slowed](../../../condition/slowed.md), takes a [bane](../../../rule/dice/bane.md) on power rolls, and can't regain [Stamina](../../../rule/health/stamina.md) (save ends).
-> - **12-16:** The target is [slowed](../../../condition/slowed.md) and takes a [bane](../../../rule/dice/bane.md) on power rolls (save ends).
-> - **17+:** [Slowed](../../../condition/slowed.md) (save ends)
-
-> 🏹 **Quid Pro Quo**
->
-> | **Magic, Ranged** |                           **Maneuver** |
-> |-------------------|---------------------------------------:|
-> | **📏 Ranged 10**  | **🎯 One ally or [frightened](../../../condition/frightened.md) creature** |
->
-> **Effect:** The adjudicator and the target [teleport](../../../movement/teleport.md) to switch places.
-
-> ❗️ **Devilish Charm (2 [Malice](../../../rule/monster/malice.md))**
->
-> | **Magic, Ranged** |           **Triggered action** |
-> |-------------------|-------------------------------:|
-> | **📏 Ranged 5**   | **🎯 The triggering creature** |
->
-> **Trigger:** A creature targets the adjudicator with a strike.
->
-> **Effect:** The target makes a Presence test.
->
-> - **≤11:** The adjudicator chooses a new target for the strike.
-> - **12-16:** The adjudicator halves the triggering damage.
-> - **17+:** The target takes a [bane](../../../rule/dice/bane.md) on the strike.
-
-> ⭐️ **Vexatious Litigation**
->
-> Any creature within 10 squares of the adjudicator who has P < 3 takes a −2 penalty to saving throws.
-
-> ⭐️ **True Name**
->
-> If a creature within 10 squares speaks the adjudicator's true name, the adjudicator loses their damage immunities, any nondamaging effects of their [signature ability](../../../rule/combat/signature-ability.md), and their Devilish Charm ability until the end of the encounter.
+```ds-sb
+agility: 1
+ev: "32"
+features:
+    - ability_type: Signature Ability
+      distance: Ranged 10
+      effects:
+        - roll: Power Roll + 3
+          tier1: 10 fire damage; I < 1 [frightened](../../../condition/frightened.md) (save ends)
+          tier2: 15 fire damage; I < 1 [frightened](../../../condition/frightened.md) (save ends)
+          tier3: 18 fire damage; I < 1 [frightened](../../../condition/frightened.md) (save ends)
+      feature_type: ability
+      icon: "\U0001F3F9"
+      keywords:
+        - Magic
+        - Ranged
+        - Strike
+      name: Infernal Injunction
+      target: Two creatures or objects
+      type: feature
+      usage: Main action
+    - distance: Ranged 10
+      effects:
+        - roll: ""
+          tier1: The target is [slowed](../../../condition/slowed.md), takes a [bane](../../../rule/dice/bane.md) on power rolls, and can't regain [Stamina](../../../rule/health/stamina.md) (save ends).
+          tier2: The target is [slowed](../../../condition/slowed.md) and takes a [bane](../../../rule/dice/bane.md) on power rolls (save ends).
+          tier3: '[Slowed](../../../condition/slowed.md) (save ends)'
+      feature_type: ability
+      icon: "\U0001F3F9"
+      keywords:
+        - Magic
+        - Ranged
+      name: Adjudicator's Interdiction
+      target: One creature
+      type: feature
+      usage: Main action
+    - distance: Ranged 10
+      effects:
+        - effect: '**Effect:** The adjudicator and the target [teleport](../../../movement/teleport.md) to switch places.'
+      feature_type: ability
+      icon: "\U0001F3F9"
+      keywords:
+        - Magic
+        - Ranged
+      name: Quid Pro Quo
+      target: One ally or frightened creature
+      type: feature
+      usage: Maneuver
+    - cost: 2 Malice
+      distance: Ranged 5
+      effects:
+        - roll: ""
+          tier1: The adjudicator chooses a new target for the strike.
+          tier2: The adjudicator halves the triggering damage.
+          tier3: The target takes a [bane](../../../rule/dice/bane.md) on the strike.
+      feature_type: ability
+      icon: ❗️
+      keywords:
+        - Magic
+        - Ranged
+      name: Devilish Charm
+      target: The triggering creature
+      type: feature
+      usage: Triggered action
+    - effects:
+        - effect: Any creature within 10 squares of the adjudicator who has P < 3 takes a −2 penalty to saving throws.
+      feature_type: trait
+      icon: ⭐️
+      name: Vexatious Litigation
+      type: feature
+    - effects:
+        - effect: If a creature within 10 squares speaks the adjudicator's true name, the adjudicator loses their damage immunities, any nondamaging effects of their [signature ability](../../../rule/combat/signature-ability.md), and their Devilish Charm ability until the end of the encounter.
+      feature_type: trait
+      icon: ⭐️
+      name: True Name
+      type: feature
+free_strike: 7
+immunities:
+    - Fire 5
+intuition: 1
+keywords:
+    - Devil
+    - Infernal
+level: 6
+metadata:
+    scc: mcdm.monsters.v1/monster.devil.statblock/devil-adjudicator
+    source: mcdm.monsters.v1
+might: 0
+movement: Fly
+name: Devil Adjudicator
+organization: Elite
+presence: 3
+reason: 2
+role: Controller
+size: 1M
+speed: 6
+stability: 1
+stamina: "140"
+type: statblock
+```

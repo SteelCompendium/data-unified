@@ -29,40 +29,71 @@ stamina: "10"
 type: statblock
 ---
 
-|            Undead, Soulless            |         -         |      Level 1      |    Horde Artillery    |         EV 3         |
-|:--------------------------------------:|:-----------------:|:-----------------:|:---------------------:|:--------------------:|
-|             **1M**<br>Size             |  **5**<br>Speed   | **10**<br>Stamina |  **0**<br>Stability   | **2**<br>Free Strike |
-| **Corruption 1, poison 1**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
-|             **0**<br>Might             | **+2**<br>Agility | **+1**<br>Reason  |  **0**<br>Intuition   |  **-1**<br>Presence  |
-
-> ⚔️ **Bone Shards ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
->
-> | **Melee, Ranged, Strike, Weapon** |               **Main action** |
-> |-----------------------------------|------------------------------:|
-> | **📏 Melee 1 or ranged 10**       | **🎯 One creature or object** |
->
-> **Power Roll + 2:**
->
-> - **≤11:** 4 damage
-> - **12-16:** 6 damage
-> - **17+:** 7 damage
->
-> **Effect:** Until the start of the skeleton's next turn, the target takes 2 damage the first time they willingly move on their turn.
-
-> ❇️ **Bone Spur (2 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
->
-> | **Area, Weapon** |                  **Maneuver** |
-> |------------------|------------------------------:|
-> | **📏 1 burst**   | **🎯 Each enemy in the area** |
->
-> **Power Roll + 2:**
->
-> - **≤11:** 1 damage; M < 0 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
-> - **12-16:** 2 damage; M < 1 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
-> - **17+:** 3 damage; M < 2 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
->
-> **Effect:** Each target takes a bane on their next strike.
-
-> ⭐️ **Arise**
->
-> The first time the skeleton is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) by damage that isn't fire damage or holy damage and their body isn't destroyed, they instead have 1 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) and fall [prone](scc.v1:mcdm.heroes.v1/condition/prone).
+```ds-sb
+agility: 2
+ev: "3"
+features:
+    - ability_type: Signature Ability
+      distance: Melee 1 or ranged 10
+      effects:
+        - roll: Power Roll + 2
+          tier1: 4 damage
+          tier2: 6 damage
+          tier3: 7 damage
+      feature_type: ability
+      icon: ⚔️
+      keywords:
+        - Melee
+        - Ranged
+        - Strike
+        - Weapon
+      name: Bone Shards
+      target: One creature or object
+      type: feature
+      usage: Main action
+    - cost: 2 Malice
+      distance: 1 burst
+      effects:
+        - roll: Power Roll + 2
+          tier1: 1 damage; M < 0 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
+          tier2: 2 damage; M < 1 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
+          tier3: 3 damage; M < 2 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
+      feature_type: ability
+      icon: ❇️
+      keywords:
+        - Area
+        - Weapon
+      name: Bone Spur
+      target: Each enemy in the area
+      type: feature
+      usage: Maneuver
+    - effects:
+        - effect: The first time the skeleton is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) by damage that isn't fire damage or holy damage and their body isn't destroyed, they instead have 1 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) and fall [prone](scc.v1:mcdm.heroes.v1/condition/prone).
+      feature_type: trait
+      icon: ⭐️
+      name: Arise
+      type: feature
+free_strike: 2
+immunities:
+    - Corruption 1
+    - poison 1
+intuition: 0
+keywords:
+    - Undead
+    - Soulless
+level: 1
+metadata:
+    scc: mcdm.monsters.v1/monster.undead.1st-echelon.statblock/skeleton
+    source: mcdm.monsters.v1
+might: 0
+name: Skeleton
+organization: Horde
+presence: -1
+reason: 1
+role: Artillery
+size: 1M
+speed: 5
+stability: 0
+stamina: "10"
+type: statblock
+```

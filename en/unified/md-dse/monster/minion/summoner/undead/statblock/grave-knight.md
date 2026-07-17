@@ -32,26 +32,57 @@ type: statblock
 weaknesses: []
 ---
 
-The grave knights are zombie warriors that continue to fight after death. Any blood spilled at a grave knight's hand runs pitch black.
-
-| Undead | - | - | Minion Brute | 3 essence for two minions |
-|:------------:|:------:|:------------:|:-:|:-------------------------:|
-| **1M**<br>Size | **6**<br>Speed | **6 \| 6**<br>Stamina | **1**<br>Stability | **5**<br>Free Strike |
-| **Corruption R, Poison R**<br>Immunity | **—**<br>Movement | - | **—**<br>Weakness | **—**<br>Free Strike Damage Type |
-| **+2**<br>Might | **+1**<br>Agility | **0**<br>Reason | **0**<br>Intuition | **+1**<br>Presence |
-
-> 🏹 **Knight Strike 2d10 + R (Signature Ability)**
->
-> | **Melee, Strike, Weapon** | **Main action** |
-> |---------------------------|----------------:|
-> | **📏 Melee 1** | **🎯 One creature or object per minion** |
->
-> 5 corruption damage; M < WEAK [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) ([EoT](scc.v1:mcdm.heroes.v1/rule.combat/end-of-turn))
->
-> 7 corruption damage; M < AVERAGE [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) ([EoT](scc.v1:mcdm.heroes.v1/rule.combat/end-of-turn))
->
-> 9 corruption damage; M < STRONG [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
-
-> ⭐️ **To the Grave**
->
-> When the grave knight is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), they can make a melee [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) before being destroyed.
+```ds-sb
+agility: 1
+cost: 3 essence for two minions
+ev: ""
+features:
+    - ability_type: Signature Ability
+      distance: Melee 1
+      effects:
+        - roll: 2d10 + R
+          tier1: 5 corruption damage; M < WEAK [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) ([EoT](scc.v1:mcdm.heroes.v1/rule.combat/end-of-turn))
+          tier2: 7 corruption damage; M < AVERAGE [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) ([EoT](scc.v1:mcdm.heroes.v1/rule.combat/end-of-turn))
+          tier3: 9 corruption damage; M < STRONG [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
+      feature_type: ability
+      icon: "\U0001F3F9"
+      keywords:
+        - Melee
+        - Strike
+        - Weapon
+      name: Knight Strike
+      target: One creature or object per minion
+      type: feature
+      usage: Main action
+    - effects:
+        - effect: When the grave knight is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), they can make a melee [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) before being destroyed.
+      feature_type: trait
+      icon: ⭐️
+      name: To the Grave
+      type: feature
+flavor: The grave knights are zombie warriors that continue to fight after death. Any blood spilled at a grave knight's hand runs pitch black.
+free_strike: 5
+immunities:
+    - Corruption R
+    - Poison R
+intuition: 0
+keywords:
+    - Undead
+level: 0
+metadata:
+    scc: mcdm.summoner.v1/monster.minion.summoner.undead.statblock/grave-knight
+    source: mcdm.summoner.v1
+might: 2
+movement: —
+name: Grave Knight
+organization: Minion
+presence: 1
+reason: 0
+role: Brute
+size: 1M
+speed: 6
+stability: 1
+stamina: 6 | 6
+type: statblock
+weaknesses: []
+```

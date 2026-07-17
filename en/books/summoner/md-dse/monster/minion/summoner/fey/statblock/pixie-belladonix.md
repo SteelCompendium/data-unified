@@ -31,28 +31,56 @@ type: statblock
 weaknesses: []
 ---
 
-The belladonix are found among the elite guard of fey monarchs and carry themselves like royalty. Their moth-like wings ooze with vibrant colors and are barbed; the poison within threatening to completely shift the reality of their victims.
-
-| Fey | - | - | Minion Artillery | 7 essence for two minions |
-|:----------------:|:---:|:----------------:|:-:|:-------------------------:|
-| **1T**<br>Size | **6**<br>Speed | **16 \| 16**<br>Stamina | **0**<br>Stability | **8**<br>Free Strike |
-| **Poison R**<br>Immunity | **Fly, hover**<br>Movement | - | **—**<br>Weakness | **Poison**<br>Free Strike Damage Type |
-| **-2**<br>Might | **+2**<br>Agility | **+4**<br>Reason | **0**<br>Intuition | **+4**<br>Presence |
-
-> 🏹 **A Thorn, Woe to the Pricked 2d10 + R (Signature Ability)**
->
-> | **Magic, Ranged, Strike** | **Main action** |
-> |---------------------------|----------------:|
-> | **📏 Ranged 15** | **🎯 One creature or object per minion** |
->
-> 8 poison [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage); M < WEAK [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
->
-> 12 poison [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage); M < AVERAGE [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
->
-> 17 poison [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage); M < STRONG [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
->
-> **Effect:** A target [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) by this ability is trapped in a poison-fueled haze and considers each creature within 1 square of them to be an enemy until the [condition](scc.v1:mcdm.heroes.v1/rule.combat/condition) ends.
-
-> ⭐️ **Minuscule**
->
-> The belladonix has [cover](scc.v1:mcdm.heroes.v1/rule.combat/cover) while occupying a larger creature's space.
+```ds-sb
+agility: 2
+cost: 7 essence for two minions
+ev: ""
+features:
+    - ability_type: Signature Ability
+      distance: Ranged 15
+      effects:
+        - roll: 2d10 + R
+          tier1: 8 poison [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage); M < WEAK [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
+          tier2: 12 poison [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage); M < AVERAGE [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
+          tier3: 17 poison [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage); M < STRONG [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
+      feature_type: ability
+      icon: "\U0001F3F9"
+      keywords:
+        - Magic
+        - Ranged
+        - Strike
+      name: A Thorn, Woe to the Pricked
+      target: One creature or object per minion
+      type: feature
+      usage: Main action
+    - effects:
+        - effect: The belladonix has [cover](scc.v1:mcdm.heroes.v1/rule.combat/cover) while occupying a larger creature's space.
+      feature_type: trait
+      icon: ⭐️
+      name: Minuscule
+      type: feature
+flavor: The belladonix are found among the elite guard of fey monarchs and carry themselves like royalty. Their moth-like wings ooze with vibrant colors and are barbed; the poison within threatening to completely shift the reality of their victims.
+free_strike: 8
+immunities:
+    - Poison R
+intuition: 0
+keywords:
+    - Fey
+level: 0
+metadata:
+    scc: mcdm.summoner.v1/monster.minion.summoner.fey.statblock/pixie-belladonix
+    source: mcdm.summoner.v1
+might: -2
+movement: Fly, hover
+name: Pixie Belladonix
+organization: Minion
+presence: 4
+reason: 4
+role: Artillery
+size: 1T
+speed: 6
+stability: 0
+stamina: 16 | 16
+type: statblock
+weaknesses: []
+```

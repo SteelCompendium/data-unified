@@ -28,38 +28,73 @@ weaknesses:
     - Holy 3
 ---
 
-|  Abyssal, Demon   |         -         |      Level 3      |      Horde Brute      |           EV 5           |
-|:-----------------:|:-----------------:|:-----------------:|:---------------------:|:------------------------:|
-|  **1M**<br>Size   |  **5**<br>Speed   | **30**<br>Stamina |  **0**<br>Stability   |   **3**<br>Free Strike   |
-| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **Holy 3**<br>Weakness  |
-|  **+2**<br>Might  | **+2**<br>Agility | **+0**<br>Reason  |  **+0**<br>Intuition  |    **+1**<br>Presence    |
-
-> 🗡 **Barbed Tongues (Signature Ability)**
->
-> | **Melee, Strike, Weapon** |               **Main action** |
-> |---------------------------|------------------------------:|
-> | **📏 Melee 2**            | **🎯 One creature or object** |
->
-> **Power Roll + 2:**
->
-> - **≤11:** 5 damage; pull 2
-> - **12-16:** 7 damage; pull 3
-> - **17+:** 8 damage; pull 4
->
-> **Effect:** If the target is pulled [adjacent](../../../../rule/combat/adjacent.md) to the muceron, the muceron can either make a [free strike](../../../../feature/common/main-actions/free-strike.md) or use the [Grab](../../../../feature/common/maneuvers/grab.md) maneuver against them.
-
-> 🏹 **Tongue Pull (2 [Malice](../../../../rule/monster/malice.md))**
->
-> | **Ranged, Strike, Weapon** |                      **Maneuver** |
-> |----------------------------|----------------------------------:|
-> | **📏 Ranged 5**            | **🎯 Three creatures or objects** |
->
-> **Effect:** The muceron pulls each target up to 5 squares.
-
-> ⭐️ **Lethe**
->
-> While the muceron is [winded](../../../../rule/health/winded.md), they gain an [edge](../../../../rule/dice/edge.md) on strikes, and any strike made against them gains an edge.
-
-> ⭐️ **Soulsight**
->
-> Any creature within 2 squares of the muceron can't be hidden from them.
+```ds-sb
+agility: 2
+ev: "5"
+features:
+    - ability_type: Signature Ability
+      distance: Melee 2
+      effects:
+        - roll: Power Roll + 2
+          tier1: 5 damage; pull 2
+          tier2: 7 damage; pull 3
+          tier3: 8 damage; pull 4
+      feature_type: ability
+      icon: "\U0001F5E1"
+      keywords:
+        - Melee
+        - Strike
+        - Weapon
+      name: Barbed Tongues
+      target: One creature or object
+      type: feature
+      usage: Main action
+    - cost: 2 Malice
+      distance: Ranged 5
+      effects:
+        - effect: '**Effect:** The muceron pulls each target up to 5 squares.'
+      feature_type: ability
+      icon: "\U0001F3F9"
+      keywords:
+        - Ranged
+        - Strike
+        - Weapon
+      name: Tongue Pull
+      target: Three creatures or objects
+      type: feature
+      usage: Maneuver
+    - effects:
+        - effect: While the muceron is [winded](../../../../rule/health/winded.md), they gain an [edge](../../../../rule/dice/edge.md) on strikes, and any strike made against them gains an edge.
+      feature_type: trait
+      icon: ⭐️
+      name: Lethe
+      type: feature
+    - effects:
+        - effect: Any creature within 2 squares of the muceron can't be hidden from them.
+      feature_type: trait
+      icon: ⭐️
+      name: Soulsight
+      type: feature
+free_strike: 3
+intuition: 0
+keywords:
+    - Abyssal
+    - Demon
+level: 3
+metadata:
+    scc: mcdm.monsters.v1/monster.demon.1st-echelon.statblock/muceron
+    source: mcdm.monsters.v1
+might: 2
+name: Muceron
+organization: Horde
+presence: 1
+reason: 0
+role: Brute
+size: 1M
+speed: 5
+stability: 0
+stamina: "30"
+type: statblock
+weaknesses:
+    - Holy 3
+```

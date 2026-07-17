@@ -27,34 +27,63 @@ stamina: "48"
 type: statblock
 ---
 
-|  Undead, Vampire  |           -           |      Level 4      |   Harrier Retainer    |         EV -         |
-|:-----------------:|:---------------------:|:-----------------:|:---------------------:|:--------------------:|
-|  **1M**<br>Size   |    **5**<br>Speed     | **48**<br>Stamina |  **0**<br>Stability   | **4**<br>Free Strike |
-| **-**<br>Immunity | **Climb**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
-|  **+2**<br>Might  |   **+3**<br>Agility   |  **0**<br>Reason  |  **0**<br>Intuition   |  **+3**<br>Presence  |
-
-> 🗡 **Flashing Fangs (Signature Ability)**
->
-> | **Melee, Strike, Weapon** |               **Main action** |
-> |---------------------------|------------------------------:|
-> | **📏 Melee 1**            | **🎯 One creature or object** |
->
-> **2d10 + highest characteristic:**
->
-> - **≤11:** 5 damage
-> - **12-16:** 5 damage, 3 corruption damage
-> - **17+:** 5 damage, 6 corruption damage; M < STRONG [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
->
-> **Effect:** The vampire rebel gains [temporary Stamina](scc.v1:mcdm.heroes.v1/rule.health/temporary-stamina) equal to any corruption damage dealt.
-
-> 👤 **Bat Form (Encounter)**
->
-> | **-**       | **Move Action** |
-> |-------------|----------------:|
-> | **📏 Self** |     **🎯 Self** |
->
-> **Effect:** The vampire rebel changes their form into a bat. In bat form, their size is 1T and they can [fly](scc.v1:mcdm.heroes.v1/movement/fly). The vampire rebel then [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed, then regains their true form. If they can't fit in their current space when they return to their true form, they take 10 damage and are pushed to the nearest unoccupied space.
-
-> ⭐️ **Agonizing Bloodthirst**
->
-> The vampire rebel has speed 10 while any creature within 10 squares of them is [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding). If the vampire rebel is able to deal damage to a [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) creature on their turn and does not do so, they take 5 corruption damage at the end of their turn.
+```ds-sb
+agility: 3
+ev: '-'
+features:
+    - ability_type: Signature Ability
+      distance: Melee 1
+      effects:
+        - roll: ""
+          tier1: 5 damage
+          tier2: 5 damage, 3 corruption damage
+          tier3: 5 damage, 6 corruption damage; M < STRONG [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) ([save](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) ends)
+      feature_type: ability
+      icon: "\U0001F5E1"
+      keywords:
+        - Melee
+        - Strike
+        - Weapon
+      name: Flashing Fangs
+      target: One creature or object
+      type: feature
+      usage: Main action
+    - cost: Encounter
+      distance: Self
+      effects:
+        - effect: '**Effect:** The vampire rebel changes their form into a bat. In bat form, their size is 1T and they can [fly](scc.v1:mcdm.heroes.v1/movement/fly). The vampire rebel then [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed, then regains their true form. If they can''t fit in their current space when they return to their true form, they take 10 damage and are pushed to the nearest unoccupied space.'
+      feature_type: ability
+      icon: "\U0001F464"
+      keywords: []
+      name: Bat Form
+      target: Self
+      type: feature
+      usage: Move Action
+    - effects:
+        - effect: The vampire rebel has speed 10 while any creature within 10 squares of them is [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding). If the vampire rebel is able to deal damage to a [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) creature on their turn and does not do so, they take 5 corruption damage at the end of their turn.
+      feature_type: trait
+      icon: ⭐️
+      name: Agonizing Bloodthirst
+      type: feature
+free_strike: 4
+intuition: 0
+keywords:
+    - Undead
+    - Vampire
+level: 4
+metadata:
+    scc: mcdm.monsters.v1/monster.retainer.statblock/vampire-rebel
+    source: mcdm.monsters.v1
+might: 2
+movement: Climb
+name: Vampire Rebel
+organization: Retainer
+presence: 3
+reason: 0
+role: Harrier
+size: 1M
+speed: 5
+stability: 0
+stamina: "48"
+type: statblock
+```

@@ -29,26 +29,54 @@ weaknesses:
 with_captain: +2 bonus to melee distance
 ---
 
-|  Abyssal, Demon   |         -         |     Level 1      |                  Minion Brute                  |  EV 3 for four minions   |
-|:-----------------:|:-----------------:|:----------------:|:----------------------------------------------:|:------------------------:|
-|  **1M**<br>Size   |  **5**<br>Speed   | **5**<br>Stamina |               **0**<br>Stability               |   **2**<br>Free Strike   |
-| **-**<br>Immunity | **-**<br>Movement |        -         | **+2 bonus to melee distance**<br>With Captain |  **Holy 3**<br>Weakness  |
-|  **+2**<br>Might  | **+0**<br>Agility | **-1**<br>Reason |              **-1**<br>Intuition               |    **-1**<br>Presence    |
-
-> 🗡 **Barbed Tongues (Signature Ability)**
->
-> | **Melee, Strike, Weapon** |                          **Main action** |
-> |---------------------------|-----------------------------------------:|
-> | **📏 Melee 3**            | **🎯 One creature or object per minion** |
->
-> **Power Roll + 2:**
->
-> - **≤11:** 2 damage; pull 1
-> - **12-16:** 4 damage; pull 2
-> - **17+:** 5 damage; pull 3
->
-> **Effect:** If the target is pulled [adjacent](../../../../rule/combat/adjacent.md) to the ensnarer, the ensnarer can make a [free strike](../../../../feature/common/main-actions/free-strike.md) against them.
-
-> ⭐️ **Soulsight**
->
-> Any creature within 2 squares of the ensnarer can't be hidden from them.
+```ds-sb
+agility: 0
+ev: 3 for four minions
+features:
+    - ability_type: Signature Ability
+      distance: Melee 3
+      effects:
+        - roll: Power Roll + 2
+          tier1: 2 damage; pull 1
+          tier2: 4 damage; pull 2
+          tier3: 5 damage; pull 3
+      feature_type: ability
+      icon: "\U0001F5E1"
+      keywords:
+        - Melee
+        - Strike
+        - Weapon
+      name: Barbed Tongues
+      target: One creature or object per minion
+      type: feature
+      usage: Main action
+    - effects:
+        - effect: Any creature within 2 squares of the ensnarer can't be hidden from them.
+      feature_type: trait
+      icon: ⭐️
+      name: Soulsight
+      type: feature
+free_strike: 2
+intuition: -1
+keywords:
+    - Abyssal
+    - Demon
+level: 1
+metadata:
+    scc: mcdm.monsters.v1/monster.demon.1st-echelon.statblock/ensnarer
+    source: mcdm.monsters.v1
+might: 2
+name: Ensnarer
+organization: Minion
+presence: -1
+reason: -1
+role: Brute
+size: 1M
+speed: 5
+stability: 0
+stamina: "5"
+type: statblock
+weaknesses:
+    - Holy 3
+with_captain: +2 bonus to melee distance
+```

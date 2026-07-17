@@ -28,42 +28,70 @@ stamina: "70"
 type: statblock
 ---
 
-| Fey, Humanoid, Shadow Elf |           -           |      Level 6      |   Platoon Artillery   |        EV 16         |
-|:-------------------------:|:---------------------:|:-----------------:|:---------------------:|:--------------------:|
-|      **1M**<br>Size       |    **5**<br>Speed     | **70**<br>Stamina |  **0**<br>Stability   | **7**<br>Free Strike |
-|     **-**<br>Immunity     | **Climb**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
-|      **0**<br>Might       |   **+3**<br>Agility   | **+2**<br>Reason  |  **+1**<br>Intuition  |  **+1**<br>Presence  |
-
-> 🏹 **Lumina Assault (Signature Ability)**
->
-> | **Ranged, Strike, Weapon** |               **Main action** |
-> |----------------------------|------------------------------:|
-> | **📏 Ranged 15**           | **🎯 One creature or object** |
->
-> **Power Roll + 3:**
->
-> - **≤11:** 10 damage
-> - **12-16:** 15 damage
-> - **17+:** 18 damage
->
-> **Effect:** The next ability used against the target has a double edge.
->
-> **5 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice):** Each non-[minion](scc.v1:mcdm.monsters.v1/rule.organization/minion) ally within 3 squares of the target can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against them.
-
-> 🔳 **Splitbow (2 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
->
-> | **Area, Ranged, Weapon**    |               **Main action** |
-> |-----------------------------|------------------------------:|
-> | **📏 4 x 1 line within 10** | **🎯 Each enemy in the area** |
->
-> **Power Roll + 3:**
->
-> - **≤11:** 5 damage; I < 1 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
-> - **12-16:** 10 damage; I < 2 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
-> - **17+:** 12 damage; I < 3 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
->
-> **Effect:** Each target is [pushed](scc.v1:mcdm.heroes.v1/movement/forced-movement) up to 4 squares.
-
-> ⭐️ **Of the Umbra**
->
-> The assassin ignores concealment created by darkness. While the assassin is in direct sunlight, they have damage weakness 3. While the assassin has concealment, they have damage immunity 3.
+```ds-sb
+agility: 3
+ev: "16"
+features:
+    - ability_type: Signature Ability
+      distance: Ranged 15
+      effects:
+        - roll: Power Roll + 3
+          tier1: 10 damage
+          tier2: 15 damage
+          tier3: 18 damage
+      feature_type: ability
+      icon: "\U0001F3F9"
+      keywords:
+        - Ranged
+        - Strike
+        - Weapon
+      name: Lumina Assault
+      target: One creature or object
+      type: feature
+      usage: Main action
+    - cost: 2 Malice
+      distance: 4 x 1 line within 10
+      effects:
+        - roll: Power Roll + 3
+          tier1: 5 damage; I < 1 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
+          tier2: 10 damage; I < 2 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
+          tier3: 12 damage; I < 3 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
+      feature_type: ability
+      icon: "\U0001F533"
+      keywords:
+        - Area
+        - Ranged
+        - Weapon
+      name: Splitbow
+      target: Each enemy in the area
+      type: feature
+      usage: Main action
+    - effects:
+        - effect: The assassin ignores concealment created by darkness. While the assassin is in direct sunlight, they have damage weakness 3. While the assassin has concealment, they have damage immunity 3.
+      feature_type: trait
+      icon: ⭐️
+      name: Of the Umbra
+      type: feature
+free_strike: 7
+intuition: 1
+keywords:
+    - Fey
+    - Humanoid
+    - Shadow Elf
+level: 6
+metadata:
+    scc: mcdm.monsters.v1/monster.elf-shadow.statblock/shadow-elf-assassin
+    source: mcdm.monsters.v1
+might: 0
+movement: Climb
+name: Shadow Elf Assassin
+organization: Platoon
+presence: 1
+reason: 2
+role: Artillery
+size: 1M
+speed: 5
+stability: 0
+stamina: "70"
+type: statblock
+```

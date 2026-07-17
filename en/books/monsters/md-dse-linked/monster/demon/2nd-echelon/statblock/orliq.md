@@ -30,28 +30,62 @@ weaknesses:
 with_captain: +2 bonus to speed
 ---
 
-|  Abyssal, Demon   |          -          |     Level 4      |            Minion Harrier             |  EV 6 for four minions   |
-|:-----------------:|:-------------------:|:----------------:|:-------------------------------------:|:------------------------:|
-|  **1T**<br>Size   |   **6**<br>Speed    | **8**<br>Stamina |          **0**<br>Stability           |   **2**<br>Free Strike   |
-| **-**<br>Immunity | **Fly**<br>Movement |        -         | **+2 bonus to speed**<br>With Captain |  **Holy 5**<br>Weakness  |
-|  **-1**<br>Might  |  **+3**<br>Agility  | **+1**<br>Reason |          **+0**<br>Intuition          |    **-1**<br>Presence    |
-
-> 🗡 **Soul Prism (Signature Ability)**
->
-> | **Magic, Melee, Strike, Weapon** |                          **Main action** |
-> |----------------------------------|-----------------------------------------:|
-> | **📏 Melee 1**                   | **🎯 One creature or object per minion** |
->
-> **Power Roll + 3:**
->
-> - **≤11:** 2 corruption damage; slide 2
-> - **12-16:** 4 corruption damage; vertical slide 2
-> - **17+:** 6 corruption damage; vertical slide 2
-
-> ⭐️ **Imposing Energy**
->
-> Any enemy who starts their turn with two or more orliq [adjacent](../../../../rule/combat/adjacent.md) to them is [slowed](../../../../condition/slowed.md) (EoT).
-
-> ⭐️ **Soulsight**
->
-> Any creature within 2 squares of the orliq can't be hidden from them.
+```ds-sb
+agility: 3
+ev: 6 for four minions
+features:
+    - ability_type: Signature Ability
+      distance: Melee 1
+      effects:
+        - roll: Power Roll + 3
+          tier1: 2 corruption damage; slide 2
+          tier2: 4 corruption damage; vertical slide 2
+          tier3: 6 corruption damage; vertical slide 2
+      feature_type: ability
+      icon: "\U0001F5E1"
+      keywords:
+        - Magic
+        - Melee
+        - Strike
+        - Weapon
+      name: Soul Prism
+      target: One creature or object per minion
+      type: feature
+      usage: Main action
+    - effects:
+        - effect: Any enemy who starts their turn with two or more orliq [adjacent](../../../../rule/combat/adjacent.md) to them is [slowed](../../../../condition/slowed.md) (EoT).
+      feature_type: trait
+      icon: ⭐️
+      name: Imposing Energy
+      type: feature
+    - effects:
+        - effect: Any creature within 2 squares of the orliq can't be hidden from them.
+      feature_type: trait
+      icon: ⭐️
+      name: Soulsight
+      type: feature
+free_strike: 2
+intuition: 0
+keywords:
+    - Abyssal
+    - Demon
+level: 4
+metadata:
+    scc: mcdm.monsters.v1/monster.demon.2nd-echelon.statblock/orliq
+    source: mcdm.monsters.v1
+might: -1
+movement: Fly
+name: Orliq
+organization: Minion
+presence: -1
+reason: 1
+role: Harrier
+size: 1T
+speed: 6
+stability: 0
+stamina: "8"
+type: statblock
+weaknesses:
+    - Holy 5
+with_captain: +2 bonus to speed
+```

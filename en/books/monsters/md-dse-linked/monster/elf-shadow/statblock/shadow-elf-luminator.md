@@ -28,40 +28,69 @@ stamina: "60"
 type: statblock
 ---
 
-| Fey, Humanoid, Shadow Elf |           -           |      Level 4      |    Platoon Support    |        EV 12         |
-|:-------------------------:|:---------------------:|:-----------------:|:---------------------:|:--------------------:|
-|      **1M**<br>Size       |    **5**<br>Speed     | **60**<br>Stamina |  **0**<br>Stability   | **5**<br>Free Strike |
-|     **-**<br>Immunity     | **Climb**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
-|      **0**<br>Might       |   **+1**<br>Agility   | **+1**<br>Reason  |  **+3**<br>Intuition  |  **+2**<br>Presence  |
-
-> 🏹 **Lumina Mark (Signature Ability)**
->
-> | **Magic, Ranged, Strike** |               **Main action** |
-> |---------------------------|------------------------------:|
-> | **📏 Ranged 3**           | **🎯 One creature or object** |
->
-> **Power Roll + 3:**
->
-> - **≤11:** 8 lightning damage
-> - **12-16:** 12 lightning damage
-> - **17+:** 15 lightning damage
->
-> **Effect:** The next strike made against the target deals an extra 5 damage.
-
-> ❇️ **Mourning Till Dusk (3 [Malice](../../../rule/monster/malice.md))**
->
-> | **Area, Magic** |              **Main action** |
-> |-----------------|-----------------------------:|
-> | **📏 2 burst**  | **🎯 Each ally in the area** |
->
-> **Power Roll + 3:**
->
-> - **≤11:** The target regains 6 Stamina.
-> - **12-16:** The target regains 9 Stamina.
-> - **17+:** The target regains 12 Stamina and the Director gains 3 [Malice](../../../rule/monster/malice.md).
->
-> **Effect:** Each target gains an edge on their next strike.
-
-> ⭐️ **Of the Umbra**
->
-> The luminator ignores concealment created by darkness. While the luminator is in direct sunlight, they have damage weakness 3. While the luminator has concealment, they have damage immunity 3.
+```ds-sb
+agility: 1
+ev: "12"
+features:
+    - ability_type: Signature Ability
+      distance: Ranged 3
+      effects:
+        - roll: Power Roll + 3
+          tier1: 8 lightning damage
+          tier2: 12 lightning damage
+          tier3: 15 lightning damage
+      feature_type: ability
+      icon: "\U0001F3F9"
+      keywords:
+        - Magic
+        - Ranged
+        - Strike
+      name: Lumina Mark
+      target: One creature or object
+      type: feature
+      usage: Main action
+    - cost: 3 Malice
+      distance: 2 burst
+      effects:
+        - roll: Power Roll + 3
+          tier1: The target regains 6 Stamina.
+          tier2: The target regains 9 Stamina.
+          tier3: The target regains 12 Stamina and the Director gains 3 [Malice](../../../rule/monster/malice.md).
+      feature_type: ability
+      icon: ❇️
+      keywords:
+        - Area
+        - Magic
+      name: Mourning Till Dusk
+      target: Each ally in the area
+      type: feature
+      usage: Main action
+    - effects:
+        - effect: The luminator ignores concealment created by darkness. While the luminator is in direct sunlight, they have damage weakness 3. While the luminator has concealment, they have damage immunity 3.
+      feature_type: trait
+      icon: ⭐️
+      name: Of the Umbra
+      type: feature
+free_strike: 5
+intuition: 3
+keywords:
+    - Fey
+    - Humanoid
+    - Shadow Elf
+level: 4
+metadata:
+    scc: mcdm.monsters.v1/monster.elf-shadow.statblock/shadow-elf-luminator
+    source: mcdm.monsters.v1
+might: 0
+movement: Climb
+name: Shadow Elf Luminator
+organization: Platoon
+presence: 2
+reason: 1
+role: Support
+size: 1M
+speed: 5
+stability: 0
+stamina: "60"
+type: statblock
+```

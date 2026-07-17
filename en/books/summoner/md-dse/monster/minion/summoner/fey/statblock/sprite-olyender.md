@@ -29,22 +29,50 @@ type: statblock
 weaknesses: []
 ---
 
-These brawny sprites wear heavy beetle armor and have a halo hovering away from their backs where their wings used to be. The faster the halo spins, the more power the olyender generates, enabling them to stand toe to toe with giants.
-
-| Fey | - | - | Minion Brute | 7 essence for two minions |
-|:---------------:|:---:|:------------:|:-:|:-------------------------:|
-| **1T**<br>Size | **6**<br>Speed | **17 \| 17**<br>Stamina | **R**<br>Stability | **8**<br>Free Strike |
-| **—**<br>Immunity | **Fly**<br>Movement | - | **—**<br>Weakness | **—**<br>Free Strike Damage Type |
-| **+4**<br>Might | **+3**<br>Agility | **0**<br>Reason | **+1**<br>Intuition | **+2**<br>Presence |
-
-> ⭐️ **Warrior's Toss**
->
-> The olyender's melee [strikes](scc.v1:mcdm.heroes.v1/rule.combat/strike) inflict [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 4. If the target is [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement) into an object, they are M < AVERAGE knocked [prone](scc.v1:mcdm.heroes.v1/condition/prone) and can't stand (save ends).
-
-> ⭐️ **Use Their Might**
->
-> When targeting a creature with a [grab](scc.v1:mcdm.heroes.v1/feature.common.maneuvers/grab) or [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement), the olyender's [size](scc.v1:mcdm.heroes.v1/rule.character/size) is considered one larger than the target.
-
-> ⭐️ **Minuscule**
->
-> The olyender has [cover](scc.v1:mcdm.heroes.v1/rule.combat/cover) while occupying a larger creature's space.
+```ds-sb
+agility: 3
+cost: 7 essence for two minions
+ev: ""
+features:
+    - effects:
+        - effect: The olyender's melee [strikes](scc.v1:mcdm.heroes.v1/rule.combat/strike) inflict [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 4. If the target is [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement) into an object, they are M < AVERAGE knocked [prone](scc.v1:mcdm.heroes.v1/condition/prone) and can't stand (save ends).
+      feature_type: trait
+      icon: ⭐️
+      name: Warrior's Toss
+      type: feature
+    - effects:
+        - effect: When targeting a creature with a [grab](scc.v1:mcdm.heroes.v1/feature.common.maneuvers/grab) or [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement), the olyender's [size](scc.v1:mcdm.heroes.v1/rule.character/size) is considered one larger than the target.
+      feature_type: trait
+      icon: ⭐️
+      name: Use Their Might
+      type: feature
+    - effects:
+        - effect: The olyender has [cover](scc.v1:mcdm.heroes.v1/rule.combat/cover) while occupying a larger creature's space.
+      feature_type: trait
+      icon: ⭐️
+      name: Minuscule
+      type: feature
+flavor: These brawny sprites wear heavy beetle armor and have a halo hovering away from their backs where their wings used to be. The faster the halo spins, the more power the olyender generates, enabling them to stand toe to toe with giants.
+free_strike: 8
+immunities: []
+intuition: 1
+keywords:
+    - Fey
+level: 0
+metadata:
+    scc: mcdm.summoner.v1/monster.minion.summoner.fey.statblock/sprite-olyender
+    source: mcdm.summoner.v1
+might: 4
+movement: Fly
+name: Sprite Olyender
+organization: Minion
+presence: 2
+reason: 0
+role: Brute
+size: 1T
+speed: 6
+stability: 0
+stamina: 17 | 17
+type: statblock
+weaknesses: []
+```

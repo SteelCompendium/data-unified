@@ -28,80 +28,120 @@ stamina: "60"
 type: statblock
 ---
 
-| Bugbear, Fey, Goblin, Humanoid |         -         |      Level 2      |   Elite Controller    |        EV 16         |
-|:------------------------------:|:-----------------:|:-----------------:|:---------------------:|:--------------------:|
-|         **1L**<br>Size         |  **5**<br>Speed   | **60**<br>Stamina |  **0**<br>Stability   | **5**<br>Free Strike |
-|       **-**<br>Immunity        | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
-|        **+1**<br>Might         | **+1**<br>Agility | **+2**<br>Reason  |  **+2**<br>Intuition  |  **+2**<br>Presence  |
-
-> 🏹 **Shadow Drag (Signature Ability)**
->
-> | **Magic, Ranged, Strike** |                 **Main Action** |
-> |---------------------------|--------------------------------:|
-> | **📏 Ranged 8**           | **🎯 Two creatures or objects** |
->
-> **Power Roll + 2:**
->
-> - **≤11:** 7 damage; pull 2
-> - **12-16:** 10 damage; pull 3
-> - **17+:** 13 damage; pull 4
->
-> **Effect:** Each target must be on the ground, and each square a target is pulled through is difficult terrain for enemies.
-
-> ❇️ **Blistering Element**
->
-> | **Area, Magic** |               **Main Action** |
-> |-----------------|------------------------------:|
-> | **📏 3 burst**  | **🎯 Each enemy in the area** |
->
-> **Effect:** The channeler chooses one of the following damage types: acid, cold, corruption, fire, or poison.
->
-> **Power Roll + 2:**
->
-> - **≤11:** 2 damage; M < 0 [bleeding](../../../condition/bleeding.md) (save ends)
-> - **12-16:** 3 damage; M < 1 [bleeding](../../../condition/bleeding.md) (save ends)
-> - **17+:** 4 damage; M < 2 [bleeding](../../../condition/bleeding.md) (save ends)
-
-> 🏹 **Twist Shape (5 [Malice](../../../rule/monster/malice.md))**
->
-> | **Magic, Ranged, Strike** |     **Main Action** |
-> |---------------------------|--------------------:|
-> | **📏 Ranged 5**           | **🎯 One creature** |
->
-> **Power Roll + 2:**
->
-> - **≤11:** 5 corruption damage; P < 0 [slowed](../../../condition/slowed.md) (save ends)
-> - **12-16:** 8 corruption damage; P < 1 the target is shapechanged (save ends)
-> - **17+:** 11 corruption damage; P < 2 the target is shapechanged (save ends)
->
-> **Effect:** A shapechanged creature is [slowed](../../../condition/slowed.md) and has fire weakness 10 as their limbs stretch and their skin becomes paper thin.
-
-> 🗡 **Throw**
->
-> | **Melee, Strike** |                  **Maneuver** |
-> |-------------------|------------------------------:|
-> | **📏 Melee 1**    | **🎯 One creature or object** |
->
-> **Special:** The target must be [grabbed](../../../condition/grabbed.md) by the channeler.
->
-> **Effect:** The target is vertical [pushed](../../../movement/forced-movement.md) up to 3 squares. An ally doesn't take damage from being [force moved](../../../movement/forced-movement.md) this way.
-
-> ❗️ **Catcher**
->
-> | **Melee**      |                **Free triggered action** |
-> |----------------|-----------------------------------------:|
-> | **📏 Melee 1** | **🎯 The triggering creature or object** |
->
-> **Trigger:** A size 1 creature or object is [force moved](../../../movement/forced-movement.md) within distance, or a size 1 ally willingly moves within distance.
->
-> **Effect:** The target is [grabbed](../../../condition/grabbed.md) by the channeler.
-
-> ❗️ **Shadow Veil**
->
-> | **Magic, Ranged** |       **Triggered action** |
-> |-------------------|---------------------------:|
-> | **📏 Ranged 5**   | **🎯 The triggering ally** |
->
-> **Trigger:** An ally within distance takes damage.
->
-> **Effect:** The target is wrapped in shadow and halves the damage. The target can't be targeted by strikes until the start of their next turn.
+```ds-sb
+agility: 1
+ev: "16"
+features:
+    - ability_type: Signature Ability
+      distance: Ranged 8
+      effects:
+        - roll: Power Roll + 2
+          tier1: 7 damage; pull 2
+          tier2: 10 damage; pull 3
+          tier3: 13 damage; pull 4
+      feature_type: ability
+      icon: "\U0001F3F9"
+      keywords:
+        - Magic
+        - Ranged
+        - Strike
+      name: Shadow Drag
+      target: Two creatures or objects
+      type: feature
+      usage: Main Action
+    - distance: 3 burst
+      effects:
+        - roll: Power Roll + 2
+          tier1: 2 damage; M < 0 [bleeding](../../../condition/bleeding.md) (save ends)
+          tier2: 3 damage; M < 1 [bleeding](../../../condition/bleeding.md) (save ends)
+          tier3: 4 damage; M < 2 [bleeding](../../../condition/bleeding.md) (save ends)
+      feature_type: ability
+      icon: ❇️
+      keywords:
+        - Area
+        - Magic
+      name: Blistering Element
+      target: Each enemy in the area
+      type: feature
+      usage: Main Action
+    - cost: 5 Malice
+      distance: Ranged 5
+      effects:
+        - roll: Power Roll + 2
+          tier1: 5 corruption damage; P < 0 [slowed](../../../condition/slowed.md) (save ends)
+          tier2: 8 corruption damage; P < 1 the target is shapechanged (save ends)
+          tier3: 11 corruption damage; P < 2 the target is shapechanged (save ends)
+      feature_type: ability
+      icon: "\U0001F3F9"
+      keywords:
+        - Magic
+        - Ranged
+        - Strike
+      name: Twist Shape
+      target: One creature
+      type: feature
+      usage: Main Action
+    - distance: Melee 1
+      effects:
+        - effect: |-
+            **Special:** The target must be [grabbed](../../../condition/grabbed.md) by the channeler.
+            **Effect:** The target is vertical [pushed](../../../movement/forced-movement.md) up to 3 squares. An ally doesn't take damage from being [force moved](../../../movement/forced-movement.md) this way.
+      feature_type: ability
+      icon: "\U0001F5E1"
+      keywords:
+        - Melee
+        - Strike
+      name: Throw
+      target: One creature or object
+      type: feature
+      usage: Maneuver
+    - distance: Melee 1
+      effects:
+        - effect: |-
+            **Trigger:** A size 1 creature or object is [force moved](../../../movement/forced-movement.md) within distance, or a size 1 ally willingly moves within distance.
+            **Effect:** The target is [grabbed](../../../condition/grabbed.md) by the channeler.
+      feature_type: ability
+      icon: ❗️
+      keywords:
+        - Melee
+      name: Catcher
+      target: The triggering creature or object
+      type: feature
+      usage: Free triggered action
+    - distance: Ranged 5
+      effects:
+        - effect: |-
+            **Trigger:** An ally within distance takes damage.
+            **Effect:** The target is wrapped in shadow and halves the damage. The target can't be targeted by strikes until the start of their next turn.
+      feature_type: ability
+      icon: ❗️
+      keywords:
+        - Magic
+        - Ranged
+      name: Shadow Veil
+      target: The triggering ally
+      type: feature
+      usage: Triggered action
+free_strike: 5
+intuition: 2
+keywords:
+    - Bugbear
+    - Fey
+    - Goblin
+    - Humanoid
+level: 2
+metadata:
+    scc: mcdm.monsters.v1/monster.bugbear.statblock/bugbear-channeler
+    source: mcdm.monsters.v1
+might: 1
+name: Bugbear Channeler
+organization: Elite
+presence: 2
+reason: 2
+role: Controller
+size: 1L
+speed: 5
+stability: 0
+stamina: "60"
+type: statblock
+```

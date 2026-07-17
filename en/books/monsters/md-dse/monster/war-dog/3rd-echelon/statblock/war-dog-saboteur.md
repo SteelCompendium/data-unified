@@ -28,26 +28,52 @@ type: statblock
 with_captain: +5 bonus to ranged distance
 ---
 
-| Humanoid, Soulless, War Dog |         -         |      Level 7      |                 Minion Ambusher                 | EV 9 for four minions |
-|:---------------------------:|:-----------------:|:-----------------:|:-----------------------------------------------:|:---------------------:|
-|       **1S**<br>Size        |  **6**<br>Speed   | **12**<br>Stamina |               **0**<br>Stability                | **4**<br>Free Strike  |
-|      **-**<br>Immunity      | **-**<br>Movement |         -         | **+5 bonus to ranged distance**<br>With Captain |   **-**<br>Weakness   |
-|       **-1**<br>Might       | **+2**<br>Agility | **+4**<br>Reason  |               **+3**<br>Intuition               |  **+1**<br>Presence   |
-
-> 🏹 **Fuse-Iron Bomb ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
->
-> | **Ranged, Weapon** |                          **Main action** |
-> |--------------------|-----------------------------------------:|
-> | **📏 Ranged 5**    | **🎯 One creature or object per minion** |
->
-> **Power Roll + 4:**
->
-> - **≤11:** 4 fire damage
-> - **12-16:** 7 fire damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1
-> - **17+:** 8 fire damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3
->
-> **Effect:** The space the target occupies fills with dark smoke and blocks line of effect until the start of the saboteur's next turn.
-
-> ⭐️ **Loyalty Collar**
->
-> When the saboteur is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), their loyalty collar explodes, dealing 2d6 damage to each [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) enemy and object.
+```ds-sb
+agility: 2
+ev: 9 for four minions
+features:
+    - ability_type: Signature Ability
+      distance: Ranged 5
+      effects:
+        - roll: Power Roll + 4
+          tier1: 4 fire damage
+          tier2: 7 fire damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1
+          tier3: 8 fire damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3
+      feature_type: ability
+      icon: "\U0001F3F9"
+      keywords:
+        - Ranged
+        - Weapon
+      name: Fuse-Iron Bomb
+      target: One creature or object per minion
+      type: feature
+      usage: Main action
+    - effects:
+        - effect: When the saboteur is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), their loyalty collar explodes, dealing 2d6 damage to each [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) enemy and object.
+      feature_type: trait
+      icon: ⭐️
+      name: Loyalty Collar
+      type: feature
+free_strike: 4
+intuition: 3
+keywords:
+    - Humanoid
+    - Soulless
+    - War Dog
+level: 7
+metadata:
+    scc: mcdm.monsters.v1/monster.war-dog.3rd-echelon.statblock/war-dog-saboteur
+    source: mcdm.monsters.v1
+might: -1
+name: War Dog Saboteur
+organization: Minion
+presence: 1
+reason: 4
+role: Ambusher
+size: 1S
+speed: 6
+stability: 0
+stamina: "12"
+type: statblock
+with_captain: +5 bonus to ranged distance
+```

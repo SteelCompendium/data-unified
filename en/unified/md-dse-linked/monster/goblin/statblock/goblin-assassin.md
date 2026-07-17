@@ -27,42 +27,75 @@ stamina: "15"
 type: statblock
 ---
 
-| Goblin, Humanoid  |           -           |      Level 1      |    Horde Ambusher     |         EV 3         |
-|:-----------------:|:---------------------:|:-----------------:|:---------------------:|:--------------------:|
-|  **1S**<br>Size   |    **6**<br>Speed     | **15**<br>Stamina |  **0**<br>Stability   | **2**<br>Free Strike |
-| **-**<br>Immunity | **Climb**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
-|  **-2**<br>Might  |   **+2**<br>Agility   |  **0**<br>Reason  |  **0**<br>Intuition   |  **-2**<br>Presence  |
-
-> 🗡 **Sword Stab (Signature Ability)**
->
-> | **Melee, Strike, Weapon** |               **Main action** |
-> |---------------------------|------------------------------:|
-> | **📏 Melee 1**            | **🎯 One creature or object** |
->
-> **Power Roll + 2:**
->
-> - **≤11:** 4 damage
-> - **12-16:** 6 damage
-> - **17+:** 7 damage
->
-> **Effect:** If this ability gains an edge or has a double edge, it deals an extra 2 damage.
-
-> 🏹 **Shadow Chains (3 [Malice](../../../rule/monster/malice.md))**
->
-> | **Magic, Ranged, Strike** |        **Main action** |
-> |---------------------------|-----------------------:|
-> | **📏 Ranged 10**          | **🎯 Three creatures** |
->
-> **Power Roll + 2:**
->
-> - **≤11:** 2 corruption damage; A < 0 [restrained](../../../condition/restrained.md) (save ends)
-> - **12-16:** 4 corruption damage; A < 1 [restrained](../../../condition/restrained.md) (save ends)
-> - **17+:** 5 corruption damage; A < 2 [restrained](../../../condition/restrained.md) (save ends)
-
-> ⭐️ **Crafty**
->
-> The assassin doesn't provoke [opportunity attacks](../../../rule/combat/opportunity-attack.md) by moving.
-
-> ⭐️ **Slip Away**
->
-> The assassin can attempt to hide even while observed.
+```ds-sb
+agility: 2
+ev: "3"
+features:
+    - ability_type: Signature Ability
+      distance: Melee 1
+      effects:
+        - roll: Power Roll + 2
+          tier1: 4 damage
+          tier2: 6 damage
+          tier3: 7 damage
+      feature_type: ability
+      icon: "\U0001F5E1"
+      keywords:
+        - Melee
+        - Strike
+        - Weapon
+      name: Sword Stab
+      target: One creature or object
+      type: feature
+      usage: Main action
+    - cost: 3 Malice
+      distance: Ranged 10
+      effects:
+        - roll: Power Roll + 2
+          tier1: 2 corruption damage; A < 0 [restrained](../../../condition/restrained.md) (save ends)
+          tier2: 4 corruption damage; A < 1 [restrained](../../../condition/restrained.md) (save ends)
+          tier3: 5 corruption damage; A < 2 [restrained](../../../condition/restrained.md) (save ends)
+      feature_type: ability
+      icon: "\U0001F3F9"
+      keywords:
+        - Magic
+        - Ranged
+        - Strike
+      name: Shadow Chains
+      target: Three creatures
+      type: feature
+      usage: Main action
+    - effects:
+        - effect: The assassin doesn't provoke [opportunity attacks](../../../rule/combat/opportunity-attack.md) by moving.
+      feature_type: trait
+      icon: ⭐️
+      name: Crafty
+      type: feature
+    - effects:
+        - effect: The assassin can attempt to hide even while observed.
+      feature_type: trait
+      icon: ⭐️
+      name: Slip Away
+      type: feature
+free_strike: 2
+intuition: 0
+keywords:
+    - Goblin
+    - Humanoid
+level: 1
+metadata:
+    scc: mcdm.monsters.v1/monster.goblin.statblock/goblin-assassin
+    source: mcdm.monsters.v1
+might: -2
+movement: Climb
+name: Goblin Assassin
+organization: Horde
+presence: -2
+reason: 0
+role: Ambusher
+size: 1S
+speed: 6
+stability: 0
+stamina: "15"
+type: statblock
+```

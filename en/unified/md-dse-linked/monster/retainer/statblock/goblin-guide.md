@@ -27,26 +27,52 @@ stamina: "21"
 type: statblock
 ---
 
-| Goblin, Humanoid  |           -           |      Level 1      |   Harrier Retainer    |         EV -         |
-|:-----------------:|:---------------------:|:-----------------:|:---------------------:|:--------------------:|
-|  **1S**<br>Size   |    **5**<br>Speed     | **21**<br>Stamina |  **0**<br>Stability   | **2**<br>Free Strike |
-| **-**<br>Immunity | **Climb**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
-|  **-1**<br>Might  |   **+1**<br>Agility   |  **0**<br>Reason  |  **0**<br>Intuition   |  **+1**<br>Presence  |
-
-> 🗡 **Stabbity Stab (Signature Ability)**
->
-> | **Melee, Strike, Weapon** |               **Main action** |
-> |---------------------------|------------------------------:|
-> | **📏 Melee 1**            | **🎯 One creature or object** |
->
-> **Power Roll + highest characteristic:**
->
-> - **≤11:** 3 damage
-> - **12-16:** 5 damage
-> - **17+:** 7 damage
->
-> **Effect:** The target can't make opportunity attacks until the end of the guide's turn.
-
-> ⭐️ **Crafty**
->
-> The guide doesn't provoke opportunity attacks by moving.
+```ds-sb
+agility: 1
+ev: '-'
+features:
+    - ability_type: Signature Ability
+      distance: Melee 1
+      effects:
+        - roll: Power Roll + highest characteristic
+          tier1: 3 damage
+          tier2: 5 damage
+          tier3: 7 damage
+      feature_type: ability
+      icon: "\U0001F5E1"
+      keywords:
+        - Melee
+        - Strike
+        - Weapon
+      name: Stabbity Stab
+      target: One creature or object
+      type: feature
+      usage: Main action
+    - effects:
+        - effect: The guide doesn't provoke opportunity attacks by moving.
+      feature_type: trait
+      icon: ⭐️
+      name: Crafty
+      type: feature
+free_strike: 2
+intuition: 0
+keywords:
+    - Goblin
+    - Humanoid
+level: 1
+metadata:
+    scc: mcdm.monsters.v1/monster.retainer.statblock/goblin-guide
+    source: mcdm.monsters.v1
+might: -1
+movement: Climb
+name: Goblin Guide
+organization: Retainer
+presence: 1
+reason: 0
+role: Harrier
+size: 1S
+speed: 5
+stability: 0
+stamina: "21"
+type: statblock
+```

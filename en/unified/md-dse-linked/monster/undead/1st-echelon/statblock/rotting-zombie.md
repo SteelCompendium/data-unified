@@ -30,24 +30,55 @@ type: statblock
 with_captain: +1 damage bonus to strikes
 ---
 
-|            Undead, Soulless            |         -         |     Level 1      |                  Minion Brute                  | EV 3 for four minions |
-|:--------------------------------------:|:-----------------:|:----------------:|:----------------------------------------------:|:---------------------:|
-|             **1M**<br>Size             |  **4**<br>Speed   | **5**<br>Stamina |               **0**<br>Stability               | **2**<br>Free Strike  |
-| **Corruption 1, poison 1**<br>Immunity | **-**<br>Movement |        -         | **+1 damage bonus to strikes**<br>With Captain |   **-**<br>Weakness   |
-|            **+2**<br>Might             | **-2**<br>Agility | **-5**<br>Reason |              **-2**<br>Intuition               |  **-3**<br>Presence   |
-
-> 🗡 **Rotting Fist ([Signature Ability](../../../../rule/combat/signature-ability.md))**
->
-> | **Melee, Strike, Weapon** |                          **Main action** |
-> |---------------------------|-----------------------------------------:|
-> | **📏 Melee 1**            | **🎯 One creature or object per minion** |
->
-> **Power Roll + 2:**
->
-> - **≤11:** 2 damage
-> - **12-16:** 4 damage
-> - **17+:** 5 damage; M < 2 [prone](../../../../condition/prone.md) if size 1, or [slowed](../../../../condition/slowed.md) (save ends) otherwise
-
-> ⭐️ **Death Grasp**
->
-> When the rotting zombie is reduced to 0 [Stamina](../../../../rule/health/stamina.md), their space is [difficult terrain](../../../../movement/difficult-terrain.md). The first time any enemy who has M < 2 enters this space, they are [slowed](../../../../condition/slowed.md) (save ends) and the effect ends.
+```ds-sb
+agility: -2
+ev: 3 for four minions
+features:
+    - ability_type: Signature Ability
+      distance: Melee 1
+      effects:
+        - roll: Power Roll + 2
+          tier1: 2 damage
+          tier2: 4 damage
+          tier3: 5 damage; M < 2 [prone](../../../../condition/prone.md) if size 1, or [slowed](../../../../condition/slowed.md) (save ends) otherwise
+      feature_type: ability
+      icon: "\U0001F5E1"
+      keywords:
+        - Melee
+        - Strike
+        - Weapon
+      name: Rotting Fist
+      target: One creature or object per minion
+      type: feature
+      usage: Main action
+    - effects:
+        - effect: When the rotting zombie is reduced to 0 [Stamina](../../../../rule/health/stamina.md), their space is [difficult terrain](../../../../movement/difficult-terrain.md). The first time any enemy who has M < 2 enters this space, they are [slowed](../../../../condition/slowed.md) (save ends) and the effect ends.
+      feature_type: trait
+      icon: ⭐️
+      name: Death Grasp
+      type: feature
+free_strike: 2
+immunities:
+    - Corruption 1
+    - poison 1
+intuition: -2
+keywords:
+    - Undead
+    - Soulless
+level: 1
+metadata:
+    scc: mcdm.monsters.v1/monster.undead.1st-echelon.statblock/rotting-zombie
+    source: mcdm.monsters.v1
+might: 2
+name: Rotting Zombie
+organization: Minion
+presence: -3
+reason: -5
+role: Brute
+size: 1M
+speed: 4
+stability: 0
+stamina: "5"
+type: statblock
+with_captain: +1 damage bonus to strikes
+```

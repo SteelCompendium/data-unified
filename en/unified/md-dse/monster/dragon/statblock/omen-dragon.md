@@ -28,118 +28,176 @@ stamina: "550"
 type: statblock
 ---
 
-|      Dragon, Elemental       |          -          |      Level 8       |         Solo          |        EV 120        |   
-|:----------------------------:|:-------------------:|:------------------:|:---------------------:|:--------------------:|   
-|        **5**<br>Size         |   **10**<br>Speed   | **550**<br>Stamina |  **6**<br>Stability   | **9**<br>Free Strike |   
-| **Corruption 6**<br>Immunity | **Fly**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |   
-|       **+3**<br>Might        |  **+4**<br>Agility  |  **+2**<br>Reason  |  **+3**<br>Intuition  |  **+5**<br>Presence  |
-
-> ☠️ **[Solo](scc.v1:mcdm.monsters.v1/rule.organization/solo) Monster**
->
-> **[End Effect](scc.v1:mcdm.monsters.v1/rule.monster/end-effect):** At the end of each of their turns, the dragon can take 15 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way.
->
-> **Solo Turns:** The dragon can take two turns each round. They can't take turns consecutively.
-
-> ⭐️ **Deathcount**
->
-> Several of the dragon's abilities impose a Deathcount on a target. At the end of every turn, a creature with a Deathcount who is within the area of the dragon's Stagnant Wyrmscale Aura has that Deathcount reduced by 1. When a creature's Deathcount hits 0, they die. If multiple Deathcounts are imposed on a creature, they don't stack. Only the lowest Deathcount takes effect. All Deathcounts are lost when the dragon is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).
-
-> ❇️ **Stagnant Wyrmscale Aura**
->
-> The dragon's scales create a 4 aura of supernatural stagnancy around them. The area is [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain) for enemies, and no creature except the omen dragon can regain [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) while in the area. Any creature dragonsealed by the omen dragon who starts their turn in the dragon's aura and doesn't have a Deathcount gains a Deathcount of 12.
-
-> 🔳 **Corroding Breath (Signature Ability)**
->
-> | **Area, Magic, Ranged** | **Main action** |
-> |-------------------------|------------------------------:|
-> | **📏 5 cube within 10** | **🎯 Each creature and object in the area** |
->
-> **Effect:** Each target makes an **Agility test**.
->
-> - **≤11:** 18 corruption damage; the target is dragonsealed (save ends)
-> - **12-16:** 14 corruption damage; the target is dragonsealed (save ends)
-> - **17+:** 9 corruption damage
->
-> Only creatures with souls can be dragonsealed by the omen dragon. A dragonsealed creature appears ghastly and pale, their Presence score is treated as 1 lower for the purpose of resisting [potencies](scc.v1:mcdm.heroes.v1/rule.character/potency), and they can't treat other creatures as allies.
-
-> 🗡 **Barbed Tail Swing**
->
-> | **Charge, Melee, Strike, Weapon** |                 **Main action** |
-> |-----------------------------------|--------------------------------:|
-> | **📏 Melee 4**                    | **🎯 Two creatures or objects** |
->
-> **Power Roll + 5:**
->
-> - **≤11:** 14 damage; M < 3 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
-> - **12-16:** 19 damage; M < 4 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
-> - **17+:** 23 damage; M < 5 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
->
-> **3 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice):** The [potency](scc.v1:mcdm.heroes.v1/rule.character/potency) increases by 2, and each target is also pulled up to 5 squares.
-
-> ⭐️ **Death or Victory**
->
-> Once per turn, the dragon chooses one creature with a Deathcount within [line of effect](scc.v1:mcdm.heroes.v1/rule.combat/line-of-effect). That creature can choose to take 1d6 damage and lose a [recovery](scc.v1:mcdm.heroes.v1/rule.health/recoveries) to increase their Deathcount by 5.
-
-> ❇️ **Detonation (5 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
->
-> | **Area**        |                  **Maneuver** |
-> |-----------------|------------------------------:|
-> | **📏 10 burst** | **🎯 Each enemy in the area** |
->
-> **Effect:** Each target must be dragonsealed. Each target takes 9 corruption damage, and the omen dragon regains [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) equal to half the total damage dealt. The target then loses their dragonseal.
-
-> ❗️ **Don't Turn Away (1 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
->
-> | **-**       | **Free triggered action** |
-> |-------------|--------------------------:|
-> | **📏 Self** |               **🎯 Self** |
->
-> **Trigger:** A creature leaves the area of the dragon's Stagnant Wyrmscale Aura [trait](scc.v1:mcdm.monsters.v1/rule.monster/monster-trait).
->
-> **Effect:** The dragon [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed, and the Deathcount of each dragonsealed creature who comes [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the dragon during this shift is reduced by 1.
-
-> ❗️ **Repent! (2 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
->
-> | **Ranged**      |      **Free triggered action** |
-> |-----------------|-------------------------------:|
-> | **📏 Ranged 5** | **🎯 The triggering creature** |
->
-> **Trigger:** A dragonsealed creature within distance deals damage to the dragon.
->
-> **Effect:** The target must choose between making a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against themself or gaining a Deathcount of 5.
-
-> ☠️ **What You Deserve ([Villain Action](scc.v1:mcdm.monsters.v1/rule.monster/villain-action) 1)**
->
-> | **Area, Magic** |                         **-** | 
-> |-----------------|------------------------------:|
-> | **📏 5 burst**  | **🎯 Each enemy in the area** |
->
-> **Power Roll + 5:**
->
-> - **≤11:** Pull 1; the target has a Deathcount of 10
-> - **12-16:** Pull 2; the target has a Deathcount of 8
-> - **17+:** Pull 3; the target has a Deathcount of 6
->
-> **Effect:** Each target receives a premonition of their imminent death.
-
-> ☠️ **Souls of the Broken ([Villain Action](scc.v1:mcdm.monsters.v1/rule.monster/villain-action) 2)**
->
-> | **Magic, Ranged, Strike** |                 **-** |
-> |---------------------------|----------------------:|
-> | **📏 Ranged 10**          | **🎯 Five creatures** |
->
-> **Effect:** The dragon spits fragments of souls to attempt to possess the targets, making a separate power roll for each target.
->
-> **Power Roll + 5:**
->
-> - **≤11:** P < 5 [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
-> - **12-16:** P < 5 the target moves up to their speed toward the dragon
-> - **17+:** P < 5 the target makes a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against the nearest ally
-
-> ☠️ **So Long and Goodnight ([Villain Action](scc.v1:mcdm.monsters.v1/rule.monster/villain-action) 3)**
->
-> | **Area, Magic** |                            **-** |
-> |-----------------|---------------------------------:|
-> | **📏 6 burst**  | **🎯 Each creature in the area** |
->
-> **Effect:** Each target must be dragonsealed. The dragon's eyes glow with unequalled malevolence, and any target who has a Deathcount has that Deathcount reduced to 1.
+```ds-sb
+agility: 4
+ev: "120"
+features:
+    - effects:
+        - effect: |-
+            **[End Effect](scc.v1:mcdm.monsters.v1/rule.monster/end-effect):** At the end of each of their turns, the dragon can take 15 damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way.
+            **Solo Turns:** The dragon can take two turns each round. They can't take turns consecutively.
+      feature_type: trait
+      icon: ☠️
+      name: Solo Monster
+      type: feature
+    - effects:
+        - effect: Several of the dragon's abilities impose a Deathcount on a target. At the end of every turn, a creature with a Deathcount who is within the area of the dragon's Stagnant Wyrmscale Aura has that Deathcount reduced by 1. When a creature's Deathcount hits 0, they die. If multiple Deathcounts are imposed on a creature, they don't stack. Only the lowest Deathcount takes effect. All Deathcounts are lost when the dragon is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).
+      feature_type: trait
+      icon: ⭐️
+      name: Deathcount
+      type: feature
+    - effects:
+        - effect: The dragon's scales create a 4 aura of supernatural stagnancy around them. The area is [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain) for enemies, and no creature except the omen dragon can regain [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) while in the area. Any creature dragonsealed by the omen dragon who starts their turn in the dragon's aura and doesn't have a Deathcount gains a Deathcount of 12.
+      feature_type: trait
+      icon: ❇️
+      name: Stagnant Wyrmscale Aura
+      type: feature
+    - ability_type: Signature Ability
+      distance: 5 cube within 10
+      effects:
+        - roll: ""
+          tier1: 18 corruption damage; the target is dragonsealed (save ends)
+          tier2: 14 corruption damage; the target is dragonsealed (save ends)
+          tier3: 9 corruption damage
+      feature_type: ability
+      icon: "\U0001F533"
+      keywords:
+        - Area
+        - Magic
+        - Ranged
+      name: Corroding Breath
+      target: Each creature and object in the area
+      type: feature
+      usage: Main action
+    - distance: Melee 4
+      effects:
+        - roll: Power Roll + 5
+          tier1: 14 damage; M < 3 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
+          tier2: 19 damage; M < 4 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
+          tier3: 23 damage; M < 5 [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
+      feature_type: ability
+      icon: "\U0001F5E1"
+      keywords:
+        - Charge
+        - Melee
+        - Strike
+        - Weapon
+      name: Barbed Tail Swing
+      target: Two creatures or objects
+      type: feature
+      usage: Main action
+    - effects:
+        - effect: Once per turn, the dragon chooses one creature with a Deathcount within [line of effect](scc.v1:mcdm.heroes.v1/rule.combat/line-of-effect). That creature can choose to take 1d6 damage and lose a [recovery](scc.v1:mcdm.heroes.v1/rule.health/recoveries) to increase their Deathcount by 5.
+      feature_type: trait
+      icon: ⭐️
+      name: Death or Victory
+      type: feature
+    - cost: 5 Malice
+      distance: 10 burst
+      effects:
+        - effect: '**Effect:** Each target must be dragonsealed. Each target takes 9 corruption damage, and the omen dragon regains [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) equal to half the total damage dealt. The target then loses their dragonseal.'
+      feature_type: ability
+      icon: ❇️
+      keywords:
+        - Area
+      name: Detonation
+      target: Each enemy in the area
+      type: feature
+      usage: Maneuver
+    - cost: 1 Malice
+      distance: Self
+      effects:
+        - effect: |-
+            **Trigger:** A creature leaves the area of the dragon's Stagnant Wyrmscale Aura [trait](scc.v1:mcdm.monsters.v1/rule.monster/monster-trait).
+            **Effect:** The dragon [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed, and the Deathcount of each dragonsealed creature who comes [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the dragon during this shift is reduced by 1.
+      feature_type: ability
+      icon: ❗️
+      keywords: []
+      name: Don't Turn Away
+      target: Self
+      type: feature
+      usage: Free triggered action
+    - cost: 2 Malice
+      distance: Ranged 5
+      effects:
+        - effect: |-
+            **Trigger:** A dragonsealed creature within distance deals damage to the dragon.
+            **Effect:** The target must choose between making a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against themself or gaining a Deathcount of 5.
+      feature_type: ability
+      icon: ❗️
+      keywords:
+        - Ranged
+      name: Repent!
+      target: The triggering creature
+      type: feature
+      usage: Free triggered action
+    - cost: Villain Action 1
+      distance: 5 burst
+      effects:
+        - roll: Power Roll + 5
+          tier1: Pull 1; the target has a Deathcount of 10
+          tier2: Pull 2; the target has a Deathcount of 8
+          tier3: Pull 3; the target has a Deathcount of 6
+      feature_type: ability
+      icon: ☠️
+      keywords:
+        - Area
+        - Magic
+      name: What You Deserve
+      target: Each enemy in the area
+      type: feature
+      usage: '-'
+    - cost: Villain Action 2
+      distance: Ranged 10
+      effects:
+        - roll: Power Roll + 5
+          tier1: P < 5 [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
+          tier2: P < 5 the target moves up to their speed toward the dragon
+          tier3: P < 5 the target makes a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against the nearest ally
+      feature_type: ability
+      icon: ☠️
+      keywords:
+        - Magic
+        - Ranged
+        - Strike
+      name: Souls of the Broken
+      target: Five creatures
+      type: feature
+      usage: '-'
+    - cost: Villain Action 3
+      distance: 6 burst
+      effects:
+        - effect: '**Effect:** Each target must be dragonsealed. The dragon''s eyes glow with unequalled malevolence, and any target who has a Deathcount has that Deathcount reduced to 1.'
+      feature_type: ability
+      icon: ☠️
+      keywords:
+        - Area
+        - Magic
+      name: So Long and Goodnight
+      target: Each creature in the area
+      type: feature
+      usage: '-'
+free_strike: 9
+immunities:
+    - Corruption 6
+intuition: 3
+keywords:
+    - Dragon
+    - Elemental
+level: 8
+metadata:
+    scc: mcdm.monsters.v1/monster.dragon.statblock/omen-dragon
+    source: mcdm.monsters.v1
+might: 3
+movement: Fly
+name: Omen Dragon
+organization: Solo
+presence: 5
+reason: 2
+role: ""
+size: "5"
+speed: 10
+stability: 6
+stamina: "550"
+type: statblock
+```

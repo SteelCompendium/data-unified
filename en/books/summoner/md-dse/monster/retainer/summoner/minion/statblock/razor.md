@@ -28,16 +28,44 @@ weaknesses:
     - Holy 1
 ---
 
-| Abyssal, Demon | - | - | Signature Minion Harrier | - |
-|:-:|:--------------:|:------------------------:|:-:|:-:|
-| **1M**<br>Size | **6**<br>Speed | **2**<br>Stamina | **0**<br>Stability | **1**<br>Free Strike |
-| **—**<br>Immunity | **—**<br>Movement | - | **Holy 1**<br>Weakness | **—**<br>Free Strike Damage Type |
-| **0**<br>Might | **+2**<br>Agility | **-1**<br>Reason | **-1**<br>Intuition | **-1**<br>Presence |
-
-> ⭐️ **Teeth!**
->
-> Once per turn, whenever an [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) enemy [grabs](scc.v1:mcdm.heroes.v1/feature.common.maneuvers/grab) the razor or uses a melee ability against them, that enemy takes 1 damage for each razor [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to them.
-
-> ⭐️ **Soulsight**
->
-> Each creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the razor can't be hidden from them.
+```ds-sb
+agility: 2
+ev: ""
+features:
+    - effects:
+        - effect: Once per turn, whenever an [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) enemy [grabs](scc.v1:mcdm.heroes.v1/feature.common.maneuvers/grab) the razor or uses a melee ability against them, that enemy takes 1 damage for each razor [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to them.
+      feature_type: trait
+      icon: ⭐️
+      name: Teeth!
+      type: feature
+    - effects:
+        - effect: Each creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the razor can't be hidden from them.
+      feature_type: trait
+      icon: ⭐️
+      name: Soulsight
+      type: feature
+free_strike: 1
+immunities: []
+intuition: -1
+keywords:
+    - Abyssal
+    - Demon
+level: 0
+metadata:
+    scc: mcdm.summoner.v1/monster.retainer.summoner.minion.statblock/razor
+    source: mcdm.summoner.v1
+might: 0
+movement: —
+name: Razor
+organization: Minion
+presence: -1
+reason: -1
+role: Harrier
+size: 1M
+speed: 6
+stability: 0
+stamina: "2"
+type: statblock
+weaknesses:
+    - Holy 1
+```

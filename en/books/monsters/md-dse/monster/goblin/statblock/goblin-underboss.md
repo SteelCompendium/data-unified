@@ -27,36 +27,65 @@ stamina: "15"
 type: statblock
 ---
 
-| Goblin, Humanoid  |           -           |      Level 1      |     Horde Support     |         EV 3         |
-|:-----------------:|:---------------------:|:-----------------:|:---------------------:|:--------------------:|
-|  **1S**<br>Size   |    **5**<br>Speed     | **15**<br>Stamina |  **0**<br>Stability   | **1**<br>Free Strike |
-| **-**<br>Immunity | **Climb**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
-|  **-1**<br>Might  |   **+2**<br>Agility   |  **0**<br>Reason  |  **0**<br>Intuition   |  **+1**<br>Presence  |
-
-> 🗡 **Swordplay (Signature Ability)**
->
-> | **Melee, Strike, Weapon** |               **Main action** |
-> |---------------------------|------------------------------:|
-> | **📏 Melee 1**            | **🎯 One creature or object** |
->
-> **Power Roll + 2:**
->
-> - **≤11:** 3 damage
-> - **12-16:** 4 damage
-> - **17+:** 5 damage
->
-> **Effect:** One ally [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the target can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against them.
-
-> ❇️ **Get Reckless!**
->
-> | **Area**       |                 **Maneuver** |
-> |----------------|-----------------------------:|
-> | **📏 5 burst** | **🎯 Each ally in the area** |
->
-> **Effect:** Until the start of the underboss's next turn, each target gains an edge on strikes, and any strike made against a target gains an edge.
->
-> **2 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice):** Strikes made against targets no longer gain an edge.
-
-> ⭐️ **Crafty**
->
-> The underboss doesn't provoke [opportunity attacks](scc.v1:mcdm.heroes.v1/rule.combat/opportunity-attack) by moving.
+```ds-sb
+agility: 2
+ev: "3"
+features:
+    - ability_type: Signature Ability
+      distance: Melee 1
+      effects:
+        - roll: Power Roll + 2
+          tier1: 3 damage
+          tier2: 4 damage
+          tier3: 5 damage
+      feature_type: ability
+      icon: "\U0001F5E1"
+      keywords:
+        - Melee
+        - Strike
+        - Weapon
+      name: Swordplay
+      target: One creature or object
+      type: feature
+      usage: Main action
+    - distance: 5 burst
+      effects:
+        - effect: |-
+            **Effect:** Until the start of the underboss's next turn, each target gains an edge on strikes, and any strike made against a target gains an edge.
+            **2 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice):** Strikes made against targets no longer gain an edge.
+      feature_type: ability
+      icon: ❇️
+      keywords:
+        - Area
+      name: Get Reckless!
+      target: Each ally in the area
+      type: feature
+      usage: Maneuver
+    - effects:
+        - effect: The underboss doesn't provoke [opportunity attacks](scc.v1:mcdm.heroes.v1/rule.combat/opportunity-attack) by moving.
+      feature_type: trait
+      icon: ⭐️
+      name: Crafty
+      type: feature
+free_strike: 1
+intuition: 0
+keywords:
+    - Goblin
+    - Humanoid
+level: 1
+metadata:
+    scc: mcdm.monsters.v1/monster.goblin.statblock/goblin-underboss
+    source: mcdm.monsters.v1
+might: -1
+movement: Climb
+name: Goblin Underboss
+organization: Horde
+presence: 1
+reason: 0
+role: Support
+size: 1S
+speed: 5
+stability: 0
+stamina: "15"
+type: statblock
+```

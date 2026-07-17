@@ -29,68 +29,103 @@ stamina: "120"
 type: statblock
 ---
 
-|    Devil, Infernal     |          -          |      Level 5       |    Elite Artillery    |        EV 28         |
-|:----------------------:|:-------------------:|:------------------:|:---------------------:|:--------------------:|
-|     **1M**<br>Size     |   **6**<br>Speed    | **120**<br>Stamina |  **0**<br>Stability   | **7**<br>Free Strike |
-| **Fire 5**<br>Immunity | **Fly**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
-|    **+0**<br>Might     |  **+2**<br>Agility  |  **+1**<br>Reason  |  **+1**<br>Intuition  |  **+3**<br>Presence  |
-
-> ⭐️ **Hellfire**
->
-> Fire damage dealt by the jurist ignores damage immunity.
-
-> 🏹 **Fire and Brimstone (Signature Ability)**
->
-> | **Magic, Ranged, Strike** |                   **Main action** |
-> |---------------------------|----------------------------------:|
-> | **📏 Ranged 12**          |   **🎯 Two creatures or objects** |
->
-> **Power Roll + 3:**
->
-> - **≤11:** 10 fire damage
-> - **12-16:** 15 fire damage; A < 2 burning (save ends)
-> - **17+:** 18 fire damage; A < 3 burning (save ends)
->
-> **Effect:** A burning creature takes 1d6 fire damage at the start of each of their turns. A burning object takes 1d6 fire damage at the end of each round.
->
-> **1+ [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice):** The jurist can target one additional creature or object for each [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice) spent.
-
-> ❇️ **Dismissal with Prejudice**
->
-> | **Area, Magic** |               **Main action** |
-> |-----------------|------------------------------:|
-> | **📏 2 burst**  | **🎯 Each enemy in the area** |
->
-> **Power Roll + 3:**
->
-> - **≤11:** 6 damage; slide 1
-> - **12-16:** 10 damage; slide 3
-> - **17+:** 12 damage; slide 5
->
-> **Effect:** If the target has M < 2, the [forced](scc.v1:mcdm.heroes.v1/movement/forced-movement) distance movement gains a +3 bonus.
-
-> 🏹 **Ashes to Ashes**
->
-> | **Magic, Ranged** |        **Maneuver** |
-> |-------------------|--------------------:|
-> | **📏 Ranged 12**  | **🎯 One creature** |
->
-> **Effect:** If the target is burning (see Fire and Brimstone), they take 6 fire damage.
-
-> ❗️ **Devilish Charm (2 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
->
-> | **Magic, Ranged** |           **Triggered action** |
-> |-------------------|-------------------------------:|
-> | **📏 Ranged 5**   | **🎯 The triggering creature** |
->
-> **Trigger:** A creature targets the jurist with a strike.
->
-> **Effect:** The target makes a Presence test.
->
-> - **≤11:** The jurist chooses a new target for the strike.
-> - **12-16:** The jurist halves the triggering damage.
-> - **17+:** The target takes a [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) on the strike.
-
-> ⭐️ **True Name**
->
-> If a creature within 10 squares speaks the jurist's true name, the jurist loses their fire immunity, any nondamaging effects of their [signature ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability), and their Devilish Charm ability until the end of the encounter.
+```ds-sb
+agility: 2
+ev: "28"
+features:
+    - effects:
+        - effect: Fire damage dealt by the jurist ignores damage immunity.
+      feature_type: trait
+      icon: ⭐️
+      name: Hellfire
+      type: feature
+    - ability_type: Signature Ability
+      distance: Ranged 12
+      effects:
+        - roll: Power Roll + 3
+          tier1: 10 fire damage
+          tier2: 15 fire damage; A < 2 burning (save ends)
+          tier3: 18 fire damage; A < 3 burning (save ends)
+      feature_type: ability
+      icon: "\U0001F3F9"
+      keywords:
+        - Magic
+        - Ranged
+        - Strike
+      name: Fire and Brimstone
+      target: Two creatures or objects
+      type: feature
+      usage: Main action
+    - distance: 2 burst
+      effects:
+        - roll: Power Roll + 3
+          tier1: 6 damage; slide 1
+          tier2: 10 damage; slide 3
+          tier3: 12 damage; slide 5
+      feature_type: ability
+      icon: ❇️
+      keywords:
+        - Area
+        - Magic
+      name: Dismissal with Prejudice
+      target: Each enemy in the area
+      type: feature
+      usage: Main action
+    - distance: Ranged 12
+      effects:
+        - effect: '**Effect:** If the target is burning (see Fire and Brimstone), they take 6 fire damage.'
+      feature_type: ability
+      icon: "\U0001F3F9"
+      keywords:
+        - Magic
+        - Ranged
+      name: Ashes to Ashes
+      target: One creature
+      type: feature
+      usage: Maneuver
+    - cost: 2 Malice
+      distance: Ranged 5
+      effects:
+        - roll: ""
+          tier1: The jurist chooses a new target for the strike.
+          tier2: The jurist halves the triggering damage.
+          tier3: The target takes a [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) on the strike.
+      feature_type: ability
+      icon: ❗️
+      keywords:
+        - Magic
+        - Ranged
+      name: Devilish Charm
+      target: The triggering creature
+      type: feature
+      usage: Triggered action
+    - effects:
+        - effect: If a creature within 10 squares speaks the jurist's true name, the jurist loses their fire immunity, any nondamaging effects of their [signature ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability), and their Devilish Charm ability until the end of the encounter.
+      feature_type: trait
+      icon: ⭐️
+      name: True Name
+      type: feature
+free_strike: 7
+immunities:
+    - Fire 5
+intuition: 1
+keywords:
+    - Devil
+    - Infernal
+level: 5
+metadata:
+    scc: mcdm.monsters.v1/monster.devil.statblock/devil-jurist
+    source: mcdm.monsters.v1
+might: 0
+movement: Fly
+name: Devil Jurist
+organization: Elite
+presence: 3
+reason: 1
+role: Artillery
+size: 1M
+speed: 6
+stability: 0
+stamina: "120"
+type: statblock
+```

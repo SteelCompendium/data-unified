@@ -28,26 +28,54 @@ type: statblock
 with_captain: +1 damage bonus to strikes
 ---
 
-| Humanoid, Soulless, War Dog |         -         |     Level 1      |                Minion Ambusher                 | EV 3 for four minions |
-|:---------------------------:|:-----------------:|:----------------:|:----------------------------------------------:|:---------------------:|
-|       **1M**<br>Size        |  **5**<br>Speed   | **4**<br>Stamina |               **0**<br>Stability               | **2**<br>Free Strike  |
-|      **-**<br>Immunity      | **-**<br>Movement |        -         | **+1 damage bonus to strikes**<br>With Captain |   **-**<br>Weakness   |
-|       **0**<br>Might        | **+2**<br>Agility | **0**<br>Reason  |               **0**<br>Intuition               |   **0**<br>Presence   |
-
-> ⚔️ **Daggers ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
->
-> | **Melee, Ranged, Strike, Weapon** |                          **Main action** |
-> |-----------------------------------|-----------------------------------------:|
-> | **📏 Melee 1 or ranged 5**        | **🎯 One creature or object per minion** |
->
-> **Power Roll + 2:**
->
-> - **≤11:** 2 damage
-> - **12-16:** 4 damage
-> - **17+:** 5 damage
->
-> **Effect:** After using this ability, the commando can attempt to hide even if observed.
-
-> ⭐️ **Loyalty Collar**
->
-> When the commando is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), their loyalty collar explodes, dealing 1d3 damage to each [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) enemy and object.
+```ds-sb
+agility: 2
+ev: 3 for four minions
+features:
+    - ability_type: Signature Ability
+      distance: Melee 1 or ranged 5
+      effects:
+        - roll: Power Roll + 2
+          tier1: 2 damage
+          tier2: 4 damage
+          tier3: 5 damage
+      feature_type: ability
+      icon: ⚔️
+      keywords:
+        - Melee
+        - Ranged
+        - Strike
+        - Weapon
+      name: Daggers
+      target: One creature or object per minion
+      type: feature
+      usage: Main action
+    - effects:
+        - effect: When the commando is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), their loyalty collar explodes, dealing 1d3 damage to each [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) enemy and object.
+      feature_type: trait
+      icon: ⭐️
+      name: Loyalty Collar
+      type: feature
+free_strike: 2
+intuition: 0
+keywords:
+    - Humanoid
+    - Soulless
+    - War Dog
+level: 1
+metadata:
+    scc: mcdm.monsters.v1/monster.war-dog.1st-echelon.statblock/war-dog-commando
+    source: mcdm.monsters.v1
+might: 0
+name: War Dog Commando
+organization: Minion
+presence: 0
+reason: 0
+role: Ambusher
+size: 1M
+speed: 5
+stability: 0
+stamina: "4"
+type: statblock
+with_captain: +1 damage bonus to strikes
+```

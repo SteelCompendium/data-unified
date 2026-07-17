@@ -31,18 +31,45 @@ type: statblock
 weaknesses: []
 ---
 
-Loftlillies lazily drift through the air in flower cups. They sip on toxic nectar to emit a powerful haze from their skin.
-
-| Fey | - | - | Minion Controller | 3 essence for two minions |
-|:---------------:|:---:|:-----------------:|:-:|:-------------------------:|
-| **1T**<br>Size | **5**<br>Speed | **5 \| 5**<br>Stamina | **0**<br>Stability | **4**<br>Free Strike |
-| **Poison R**<br>Immunity | **Fly, hover**<br>Movement | - | **—**<br>Weakness | **Poison**<br>Free Strike Damage Type |
-| **-2**<br>Might | **+1**<br>Agility | **0**<br>Reason | **0**<br>Intuition | **+2**<br>Presence |
-
-> ⭐️ **Floating Toxins**
->
-> The area within 1 square of the loftlilly causes each enemy and object with a size equal to your [Reason](../../../../../rule/character/reason.md) or smaller to float 1 square off the ground until they leave the area. A floating enemy that can't [fly](../../../../../movement/fly.md) is unable to [shift](../../../../../movement/shifting.md), moves 2 additional squares from [forced movement](../../../../../movement/forced-movement.md), and has a [bane](../../../../../rule/dice/bane.md) on [strikes](../../../../../rule/combat/strike.md).
-
-> ⭐️ **Minuscule**
->
-> The loftlilly has [cover](../../../../../rule/combat/cover.md) while occupying a larger creature's space.
+```ds-sb
+agility: 1
+cost: 3 essence for two minions
+ev: ""
+features:
+    - effects:
+        - effect: The area within 1 square of the loftlilly causes each enemy and object with a size equal to your [Reason](../../../../../rule/character/reason.md) or smaller to float 1 square off the ground until they leave the area. A floating enemy that can't [fly](../../../../../movement/fly.md) is unable to [shift](../../../../../movement/shifting.md), moves 2 additional squares from [forced movement](../../../../../movement/forced-movement.md), and has a [bane](../../../../../rule/dice/bane.md) on [strikes](../../../../../rule/combat/strike.md).
+      feature_type: trait
+      icon: ⭐️
+      name: Floating Toxins
+      type: feature
+    - effects:
+        - effect: The loftlilly has [cover](../../../../../rule/combat/cover.md) while occupying a larger creature's space.
+      feature_type: trait
+      icon: ⭐️
+      name: Minuscule
+      type: feature
+flavor: Loftlillies lazily drift through the air in flower cups. They sip on toxic nectar to emit a powerful haze from their skin.
+free_strike: 4
+immunities:
+    - Poison R
+intuition: 0
+keywords:
+    - Fey
+level: 0
+metadata:
+    scc: mcdm.summoner.v1/monster.minion.summoner.fey.statblock/pixie-loftlilly
+    source: mcdm.summoner.v1
+might: -2
+movement: Fly, hover
+name: Pixie Loftlilly
+organization: Minion
+presence: 2
+reason: 0
+role: Controller
+size: 1T
+speed: 5
+stability: 0
+stamina: 5 | 5
+type: statblock
+weaknesses: []
+```

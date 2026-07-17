@@ -28,80 +28,120 @@ stamina: "220"
 type: statblock
 ---
 
-| Humanoid, Soulless, War Dog |             -              |      Level 10      |      Elite Hexer      |         EV 48         |
-|:---------------------------:|:--------------------------:|:------------------:|:---------------------:|:---------------------:|
-|       **1M**<br>Size        |       **5**<br>Speed       | **220**<br>Stamina |  **1**<br>Stability   | **10**<br>Free Strike |
-|      **-**<br>Immunity      | **Fly, hover**<br>Movement |         -          | **-**<br>With Captain |   **-**<br>Weakness   |
-|       **+1**<br>Might       |     **+3**<br>Agility      |  **+3**<br>Reason  |  **+4**<br>Intuition  |  **+5**<br>Presence   |
-
-> 🏹 **Soulbind ([Signature Ability](../../../../rule/combat/signature-ability.md))**
->
-> | **Magic, Ranged, Strike** |                 **Main action** |
-> |---------------------------|--------------------------------:|
-> | **📏 Ranged 10**          | **🎯 Two creatures or objects** |
->
-> **Power Roll + 5:**
->
-> - **≤11:** 15 holy damage; R < 3 the target is soulbound (save ends)
-> - **12-16:** 20 holy damage; R < 4 the target is soulbound (save ends)
-> - **17+:** 24 holy damage; R < 5 the target is soulbound (save ends)
->
-> **Effect:** A soulbound creature can't benefit from edges or double edges, and can't gain or use [surges](../../../../rule/resource/surge.md).
-
-> 🔳 **Soulstorm (2 [Malice](../../../../rule/monster/malice.md))**
->
-> | **Area, Magic, Ranged** |               **Main action** |
-> |-------------------------|------------------------------:|
-> | **📏 3 cube within 10** | **🎯 Each enemy in the area** |
->
-> **Power Roll + 5:**
->
-> - **≤11:** 8 corruption damage; P < 3 [weakened](../../../../condition/weakened.md) (EoT)
-> - **12-16:** 12 corruption damage; P < 4 [weakened](../../../../condition/weakened.md) (EoT)
-> - **17+:** 15 corruption damage; P < 5 [weakened](../../../../condition/weakened.md) (EoT)
->
-> **Effect:** The area is [difficult terrain](../../../../movement/difficult-terrain.md) until the start of Psyche's next turn At the start of each of her turns, Psyche can use a maneuver to maintain this effect, move the area up to 5 squares, and make the power roll against each creature in the area's new location.
->
-> **1 [Malice](../../../../rule/monster/malice.md):** Until the start of Psyche's next turn, if this ability makes a creature [weakened](../../../../condition/weakened.md), that creature is also soulbound (save ends; see Soulbind above).
-
-> ❇️ **Command the Awakened**
->
-> | **Magic, Ranged** |                            **Maneuver** |
-> |-------------------|----------------------------------------:|
-> | **📏 5 burst**    | **🎯 Each soulbound enemy in the area** |
->
-> **Effect:** Each target takes 5 damage from a self-inflicted wound, and if they have M < 4 Psyche [slides](../../../../movement/forced-movement.md) them up to 5 squares.
-
-> ❗️ **Spirit Form**
->
-> | **-**       | **Triggered action** |
-> |-------------|---------------------:|
-> | **📏 Self** |          **🎯 Self** |
->
-> **Trigger:** An enemy moves within 2 squares of Psyche.
->
-> **Effect:** Psyche moves up to 5 squares, and has damage immunity 5 and ignores [difficult terrain](../../../../movement/difficult-terrain.md) during this movement. The first time she moves through any creature during this movement, that creature takes 5 corruption damage.
-
-> ❗️ **Vengeance for the Slain**
->
-> | **Ranged**       | **Free triggered action** |
-> |------------------|--------------------------:|
-> | **📏 Ranged 10** |          **🎯 One enemy** |
->
-> **Trigger:** A war dog within distance is made [winded](../../../../rule/health/winded.md) or reduced to 0 [Stamina](../../../../rule/health/stamina.md).
->
-> **Effect:** The target loses all their [surges](../../../../rule/resource/surge.md) and takes 5 corruption damage.
->
-> **1 [Malice](../../../../rule/monster/malice.md):** The target also takes a bane on their next strike.
-
-> ⭐️ **Immortal Soul**
->
-> When Psyche is reduced to 0 [Stamina](../../../../rule/health/stamina.md), her spirit surrounds the nearest war dog, who has damage immunity 2, deals an extra 5 damage on strikes, and can use the following Immortal Flare maneuver until the end of the encounter. That war dog also gains the Immortal Soul trait, and transfers this effect to the nearest war dog when they die.
-
-> 🏹 **Immortal Flare**
->
-> | **Magic, Ranged** |                  **Maneuver** |
-> |-------------------|------------------------------:|
-> | **📏 Ranged 10**  | **🎯 One creature or object** |
->
-> **Effect:** The target takes 10 psychic damage.
+```ds-sb
+agility: 3
+ev: "48"
+features:
+    - ability_type: Signature Ability
+      distance: Ranged 10
+      effects:
+        - roll: Power Roll + 5
+          tier1: 15 holy damage; R < 3 the target is soulbound (save ends)
+          tier2: 20 holy damage; R < 4 the target is soulbound (save ends)
+          tier3: 24 holy damage; R < 5 the target is soulbound (save ends)
+      feature_type: ability
+      icon: "\U0001F3F9"
+      keywords:
+        - Magic
+        - Ranged
+        - Strike
+      name: Soulbind
+      target: Two creatures or objects
+      type: feature
+      usage: Main action
+    - cost: 2 Malice
+      distance: 3 cube within 10
+      effects:
+        - roll: Power Roll + 5
+          tier1: 8 corruption damage; P < 3 [weakened](../../../../condition/weakened.md) (EoT)
+          tier2: 12 corruption damage; P < 4 [weakened](../../../../condition/weakened.md) (EoT)
+          tier3: 15 corruption damage; P < 5 [weakened](../../../../condition/weakened.md) (EoT)
+      feature_type: ability
+      icon: "\U0001F533"
+      keywords:
+        - Area
+        - Magic
+        - Ranged
+      name: Soulstorm
+      target: Each enemy in the area
+      type: feature
+      usage: Main action
+    - distance: 5 burst
+      effects:
+        - effect: '**Effect:** Each target takes 5 damage from a self-inflicted wound, and if they have M < 4 Psyche [slides](../../../../movement/forced-movement.md) them up to 5 squares.'
+      feature_type: ability
+      icon: ❇️
+      keywords:
+        - Magic
+        - Ranged
+      name: Command the Awakened
+      target: Each soulbound enemy in the area
+      type: feature
+      usage: Maneuver
+    - distance: Self
+      effects:
+        - effect: |-
+            **Trigger:** An enemy moves within 2 squares of Psyche.
+            **Effect:** Psyche moves up to 5 squares, and has damage immunity 5 and ignores [difficult terrain](../../../../movement/difficult-terrain.md) during this movement. The first time she moves through any creature during this movement, that creature takes 5 corruption damage.
+      feature_type: ability
+      icon: ❗️
+      keywords: []
+      name: Spirit Form
+      target: Self
+      type: feature
+      usage: Triggered action
+    - distance: Ranged 10
+      effects:
+        - effect: |-
+            **Trigger:** A war dog within distance is made [winded](../../../../rule/health/winded.md) or reduced to 0 [Stamina](../../../../rule/health/stamina.md).
+            **Effect:** The target loses all their [surges](../../../../rule/resource/surge.md) and takes 5 corruption damage.
+            **1 [Malice](../../../../rule/monster/malice.md):** The target also takes a bane on their next strike.
+      feature_type: ability
+      icon: ❗️
+      keywords:
+        - Ranged
+      name: Vengeance for the Slain
+      target: One enemy
+      type: feature
+      usage: Free triggered action
+    - effects:
+        - effect: When Psyche is reduced to 0 [Stamina](../../../../rule/health/stamina.md), her spirit surrounds the nearest war dog, who has damage immunity 2, deals an extra 5 damage on strikes, and can use the following Immortal Flare maneuver until the end of the encounter. That war dog also gains the Immortal Soul trait, and transfers this effect to the nearest war dog when they die.
+      feature_type: trait
+      icon: ⭐️
+      name: Immortal Soul
+      type: feature
+    - distance: Ranged 10
+      effects:
+        - effect: '**Effect:** The target takes 10 psychic damage.'
+      feature_type: ability
+      icon: "\U0001F3F9"
+      keywords:
+        - Magic
+        - Ranged
+      name: Immortal Flare
+      target: One creature or object
+      type: feature
+      usage: Maneuver
+free_strike: 10
+intuition: 4
+keywords:
+    - Humanoid
+    - Soulless
+    - War Dog
+level: 10
+metadata:
+    scc: mcdm.monsters.v1/monster.war-dog.4th-echelon.statblock/soulbinder-psyche
+    source: mcdm.monsters.v1
+might: 1
+movement: Fly, hover
+name: Soulbinder Psyche
+organization: Elite
+presence: 5
+reason: 3
+role: Hexer
+size: 1M
+speed: 5
+stability: 1
+stamina: "220"
+type: statblock
+```

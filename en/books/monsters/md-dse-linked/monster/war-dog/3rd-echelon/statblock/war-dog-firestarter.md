@@ -29,40 +29,68 @@ stamina: "45"
 type: statblock
 ---
 
-| Humanoid, Soulless, War Dog |         -         |      Level 8      |      Horde Hexer      |        EV 10         |
-|:---------------------------:|:-----------------:|:-----------------:|:---------------------:|:--------------------:|
-|       **1M**<br>Size        |  **5**<br>Speed   | **45**<br>Stamina |  **0**<br>Stability   | **3**<br>Free Strike |
-|   **Fire 8**<br>Immunity    | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
-|       **0**<br>Might        | **+2**<br>Agility | **+3**<br>Reason  |  **+4**<br>Intuition  |  **+1**<br>Presence  |
-
-> 🔳 **Twin Flamebelchers ([Signature Ability](../../../../rule/combat/signature-ability.md))**
->
-> | **Area, Weapon**            |                             **Main action** |
-> |-----------------------------|--------------------------------------------:|
-> | **📏 10 x 1 line within 1** | **🎯 Each creature and object in the area** |
->
-> **Power Roll + 4:**
->
-> - **≤11:** 3 fire damage; A < 2 the target is seared (save ends)
-> - **12-16:** 6 fire damage; A < 3 the target is seared (save ends)
-> - **17+:** 8 fire damage; A < 4 the target is seared (save ends)
->
-> **Effect:** A seared creature takes a bane on strikes and has damage weakness 5. If this ability obtains a tier 3 outcome against one or more creatures who are already seared, the firestarter can use Enflame as a free [triggered action](../../../../rule/combat/triggered-action.md).
-
-> 🏹 **Enflame**
->
-> | **Magic, Ranged** |   **Maneuver** |
-> |-------------------|---------------:|
-> | **📏 Ranged 10**  | **🎯 Special** |
->
-> **Effect:** This ability targets each enemy within 2 squares of any seared creature within distance.
->
-> **Power Roll + 4:**
->
-> - **≤11:** 2 fire damage
-> - **12-16:** 4 fire damage; A < 3 the target is seared (save ends)
-> - **17+:** 6 fire damage; A < 4 the target is seared (save ends)
-
-> ⭐️ **Loyalty Collar**
->
-> When the firestarter is reduced to 0 [Stamina](../../../../rule/health/stamina.md), their loyalty collar explodes, dealing 3d6 damage to each [adjacent](../../../../rule/combat/adjacent.md) enemy and object.
+```ds-sb
+agility: 2
+ev: "10"
+features:
+    - ability_type: Signature Ability
+      distance: 10 x 1 line within 1
+      effects:
+        - roll: Power Roll + 4
+          tier1: 3 fire damage; A < 2 the target is seared (save ends)
+          tier2: 6 fire damage; A < 3 the target is seared (save ends)
+          tier3: 8 fire damage; A < 4 the target is seared (save ends)
+      feature_type: ability
+      icon: "\U0001F533"
+      keywords:
+        - Area
+        - Weapon
+      name: Twin Flamebelchers
+      target: Each creature and object in the area
+      type: feature
+      usage: Main action
+    - distance: Ranged 10
+      effects:
+        - roll: Power Roll + 4
+          tier1: 2 fire damage
+          tier2: 4 fire damage; A < 3 the target is seared (save ends)
+          tier3: 6 fire damage; A < 4 the target is seared (save ends)
+      feature_type: ability
+      icon: "\U0001F3F9"
+      keywords:
+        - Magic
+        - Ranged
+      name: Enflame
+      target: Special
+      type: feature
+      usage: Maneuver
+    - effects:
+        - effect: When the firestarter is reduced to 0 [Stamina](../../../../rule/health/stamina.md), their loyalty collar explodes, dealing 3d6 damage to each [adjacent](../../../../rule/combat/adjacent.md) enemy and object.
+      feature_type: trait
+      icon: ⭐️
+      name: Loyalty Collar
+      type: feature
+free_strike: 3
+immunities:
+    - Fire 8
+intuition: 4
+keywords:
+    - Humanoid
+    - Soulless
+    - War Dog
+level: 8
+metadata:
+    scc: mcdm.monsters.v1/monster.war-dog.3rd-echelon.statblock/war-dog-firestarter
+    source: mcdm.monsters.v1
+might: 0
+name: War Dog Firestarter
+organization: Horde
+presence: 1
+reason: 3
+role: Hexer
+size: 1M
+speed: 5
+stability: 0
+stamina: "45"
+type: statblock
+```

@@ -28,44 +28,76 @@ stamina: "50"
 type: statblock
 ---
 
-| Fey, Humanoid, Wode Elf |            -             |      Level 3      |   Platoon Ambusher    |        EV 10         |
-|:-----------------------:|:------------------------:|:-----------------:|:---------------------:|:--------------------:|
-|     **1M**<br>Size      |      **7**<br>Speed      | **50**<br>Stamina |  **0**<br>Stability   | **5**<br>Free Strike |
-|    **-**<br>Immunity    | **Teleport**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
-|     **0**<br>Might      |    **+2**<br>Agility     |  **0**<br>Reason  |  **0**<br>Intuition   |  **+1**<br>Presence  |
-
-> ⚔️ **Splinter Dagger (Signature Ability)**
->
-> | **Magic, Melee, Ranged, Strike, Weapon** |               **Main action** |
-> |------------------------------------------|------------------------------:|
-> | **📏 Melee 1 or ranged 5**               | **🎯 One creature or object** |
->
-> **Power Roll + 2:**
->
-> - **≤11:** 7 damage
-> - **12-16:** 11 damage
-> - **17+:** 14 damage; M < 2 [bleeding](../../../condition/bleeding.md) (save ends)
->
-> **Effect:** The guerrilla can [teleport](../../../movement/teleport.md) up to 3 squares.
->
-> **3 [Malice](../../../rule/monster/malice.md):** This ability targets one additional target, and deals an additional 3 damage if both targets are [adjacent](../../../rule/combat/adjacent.md) to each other.
-
-> ❗️ **Do Not Hesitate in the Wode (3 Malice)**
->
-> | **Ranged**       | **Free triggered action** |
-> |------------------|--------------------------:|
-> | **📏 Ranged 20** | **🎯 Self and each ally** |
->
-> **Special:** The guerrilla must be acting as a captain.
->
-> **Trigger:** An ally ends their turn while the guerrilla hasn't acted this round.
->
-> **Effect:** The targets take their turn immediately. Each target gains an edge on abilities until the end of their turn.
-
-> ⭐️ **Into the Green**
->
-> The guerrilla can attempt to hide at the end of each of their turns.
-
-> ⭐️ **Masking Glamor**
->
-> Abilities targeting the guerrilla that would take a bane from cover or concealment have a double bane instead.
+```ds-sb
+agility: 2
+ev: "10"
+features:
+    - ability_type: Signature Ability
+      distance: Melee 1 or ranged 5
+      effects:
+        - roll: Power Roll + 2
+          tier1: 7 damage
+          tier2: 11 damage
+          tier3: 14 damage; M < 2 [bleeding](../../../condition/bleeding.md) (save ends)
+      feature_type: ability
+      icon: ⚔️
+      keywords:
+        - Magic
+        - Melee
+        - Ranged
+        - Strike
+        - Weapon
+      name: Splinter Dagger
+      target: One creature or object
+      type: feature
+      usage: Main action
+    - cost: 3 Malice
+      distance: Ranged 20
+      effects:
+        - effect: |-
+            **Special:** The guerrilla must be acting as a captain.
+            **Trigger:** An ally ends their turn while the guerrilla hasn't acted this round.
+            **Effect:** The targets take their turn immediately. Each target gains an edge on abilities until the end of their turn.
+      feature_type: ability
+      icon: ❗️
+      keywords:
+        - Ranged
+      name: Do Not Hesitate in the Wode
+      target: Self and each ally
+      type: feature
+      usage: Free triggered action
+    - effects:
+        - effect: The guerrilla can attempt to hide at the end of each of their turns.
+      feature_type: trait
+      icon: ⭐️
+      name: Into the Green
+      type: feature
+    - effects:
+        - effect: Abilities targeting the guerrilla that would take a bane from cover or concealment have a double bane instead.
+      feature_type: trait
+      icon: ⭐️
+      name: Masking Glamor
+      type: feature
+free_strike: 5
+intuition: 0
+keywords:
+    - Fey
+    - Humanoid
+    - Wode Elf
+level: 3
+metadata:
+    scc: mcdm.monsters.v1/monster.elf-wode.statblock/wode-elf-guerrilla
+    source: mcdm.monsters.v1
+might: 0
+movement: Teleport
+name: Wode Elf Guerrilla
+organization: Platoon
+presence: 1
+reason: 0
+role: Ambusher
+size: 1M
+speed: 7
+stability: 0
+stamina: "50"
+type: statblock
+```

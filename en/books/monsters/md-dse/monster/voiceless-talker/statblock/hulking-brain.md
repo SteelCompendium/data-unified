@@ -26,66 +26,96 @@ stamina: "180"
 type: statblock
 ---
 
-| Horror, Voiceless Talker |         -         |      Level 6       |      Elite Brute      |        EV 32         |
-|:------------------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
-|      **1L**<br>Size      |  **5**<br>Speed   | **180**<br>Stamina |  **4**<br>Stability   | **7**<br>Free Strike |
-|    **-**<br>Immunity     | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
-|     **+3**<br>Might      | **+1**<br>Agility |  **-2**<br>Reason  |  **-2**<br>Intuition  |  **0**<br>Presence   |
-
-> 🗡 **Four-Way Grasp ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
->
-> | **Melee, Strike, Weapon** |                  **Main action** |
-> |---------------------------|---------------------------------:|
-> | **📏 Melee 1**            | **🎯 Four creatures or objects** |
->
-> **Power Roll + 3:**
->
-> - **≤11:** 7 damage
-> - **12-16:** 10 damage; A < 2 [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)
-> - **17+:** 11 damage; A < 3 [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)
->
-> **Special:** The hulking brain can have up to four size 1 creatures [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed).
->
-> **2 Malice:** The [potency](scc.v1:mcdm.heroes.v1/rule.character/potency) increases by 1.
-
-> 🗡 **Cerebral Suplex**
->
-> | **Melee, Strike** |   **Main action** |
-> |-------------------|------------------:|
-> | **📏 Melee 1**    | **🎯 Each enemy** |
->
-> **Effect:** A target must be [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) by the hulking brain, and is no longer [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) after the power roll is resolved.
->
-> **Power Roll + 3:**
->
-> - **≤11:** 7 damage; M < 1 3 damage
-> - **12-16:** 10 damage; M < 2 3 damage
-> - **17+:** 13 damage; M < 3 6 damage
-
-> 👤 **Lumber**
->
-> | **-**       | **Maneuver** |
-> |-------------|-------------:|
-> | **📏 Self** |  **🎯 Self** |
->
-> **Effect:** The hulking brain [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to 4 squares, ignoring difficu terrain.
-
-> ❗️ **Brawny Buffe (1 Malice)**
->
-> | **-**       | **Free triggered action** |
-> |-------------|--------------------------:|
-> | **📏 Self** |               **🎯 Self** |
->
-> **Trigger:** An ally voiceless talker within 5 squares takes damage from an enemy ability.
->
-> **Effect:** The hulking brain [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the ally and becomes the new target of the ability.
->
-> **2 Malice:** The enemy is knocked [prone](scc.v1:mcdm.heroes.v1/condition/prone).
-
-> ⭐️ **Biceps to Spare**
->
-> The hulking brain can carry up to four size 1 creatures they have [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed), and takes no penalty to their speed while doing so.
-
-> ⭐️ **Psionic Conductor**
->
-> Whenever a non-[minion](scc.v1:mcdm.monsters.v1/rule.organization/minion) voiceless talker within 5 squares of the hulking brain uses a psionic ability, they can do so as if they were in the hulking brain's space.
+```ds-sb
+agility: 1
+ev: "32"
+features:
+    - ability_type: Signature Ability
+      distance: Melee 1
+      effects:
+        - roll: Power Roll + 3
+          tier1: 7 damage
+          tier2: 10 damage; A < 2 [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)
+          tier3: 11 damage; A < 3 [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)
+      feature_type: ability
+      icon: "\U0001F5E1"
+      keywords:
+        - Melee
+        - Strike
+        - Weapon
+      name: Four-Way Grasp
+      target: Four creatures or objects
+      type: feature
+      usage: Main action
+    - distance: Melee 1
+      effects:
+        - roll: Power Roll + 3
+          tier1: 7 damage; M < 1 3 damage
+          tier2: 10 damage; M < 2 3 damage
+          tier3: 13 damage; M < 3 6 damage
+      feature_type: ability
+      icon: "\U0001F5E1"
+      keywords:
+        - Melee
+        - Strike
+      name: Cerebral Suplex
+      target: Each enemy
+      type: feature
+      usage: Main action
+    - distance: Self
+      effects:
+        - effect: '**Effect:** The hulking brain [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to 4 squares, ignoring difficu terrain.'
+      feature_type: ability
+      icon: "\U0001F464"
+      keywords: []
+      name: Lumber
+      target: Self
+      type: feature
+      usage: Maneuver
+    - cost: 1 Malice
+      distance: Self
+      effects:
+        - effect: |-
+            **Trigger:** An ally voiceless talker within 5 squares takes damage from an enemy ability.
+            **Effect:** The hulking brain [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the ally and becomes the new target of the ability.
+            **2 Malice:** The enemy is knocked [prone](scc.v1:mcdm.heroes.v1/condition/prone).
+      feature_type: ability
+      icon: ❗️
+      keywords: []
+      name: Brawny Buffe
+      target: Self
+      type: feature
+      usage: Free triggered action
+    - effects:
+        - effect: The hulking brain can carry up to four size 1 creatures they have [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed), and takes no penalty to their speed while doing so.
+      feature_type: trait
+      icon: ⭐️
+      name: Biceps to Spare
+      type: feature
+    - effects:
+        - effect: Whenever a non-[minion](scc.v1:mcdm.monsters.v1/rule.organization/minion) voiceless talker within 5 squares of the hulking brain uses a psionic ability, they can do so as if they were in the hulking brain's space.
+      feature_type: trait
+      icon: ⭐️
+      name: Psionic Conductor
+      type: feature
+free_strike: 7
+intuition: -2
+keywords:
+    - Horror
+    - Voiceless Talker
+level: 6
+metadata:
+    scc: mcdm.monsters.v1/monster.voiceless-talker.statblock/hulking-brain
+    source: mcdm.monsters.v1
+might: 3
+name: Hulking Brain
+organization: Elite
+presence: 0
+reason: -2
+role: Brute
+size: 1L
+speed: 5
+stability: 4
+stamina: "180"
+type: statblock
+```

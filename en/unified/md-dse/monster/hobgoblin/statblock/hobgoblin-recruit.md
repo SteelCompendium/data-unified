@@ -31,28 +31,62 @@ type: statblock
 with_captain: +4 bonus to Stamina
 ---
 
-| Goblin, Hobgoblin, Humanoid, Infernal |         -         |     Level 4      |              Minion Brute               | EV 6 for four minions |
-|:-------------------------------------:|:-----------------:|:----------------:|:---------------------------------------:|:---------------------:|
-|            **1M**<br>Size             |  **5**<br>Speed   | **9**<br>Stamina |           **0**<br>Stability            | **3**<br>Free Strike  |
-|        **Fire 2**<br>Immunity         | **-**<br>Movement |        -         | **+4 bonus to Stamina**<br>With Captain |   **-**<br>Weakness   |
-|            **+3**<br>Might            | **+2**<br>Agility | **0**<br>Reason  |           **0**<br>Intuition            |  **+1**<br>Presence   |
-
-> 🗡 **Sword Lunge (Signature Ability)**
->
-> | **Melee, Strike, Weapon** |                          **Main action** |
-> |---------------------------|-----------------------------------------:|
-> | **📏 Melee 1**            | **🎯 One creature or object per minion** |
->
-> **Power Roll + 3:**
->
-> - **≤11:** 3 damage
-> - **12-16:** 5 damage
-> - **17+:** 7 damage; [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) or [prone](scc.v1:mcdm.heroes.v1/condition/prone)
-
-> ⭐️ **Tactical Positioning**
->
-> Any non-[minion](scc.v1:mcdm.monsters.v1/rule.organization/minion) ally deals 1 extra damage for each recruit [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to them.
-
-> ⭐️ **Infernal Ichor**
->
-> When the recruit is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), they spray burning blood. Each creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the recruit takes 2 fire damage.
+```ds-sb
+agility: 2
+ev: 6 for four minions
+features:
+    - ability_type: Signature Ability
+      distance: Melee 1
+      effects:
+        - roll: Power Roll + 3
+          tier1: 3 damage
+          tier2: 5 damage
+          tier3: 7 damage; [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) or [prone](scc.v1:mcdm.heroes.v1/condition/prone)
+      feature_type: ability
+      icon: "\U0001F5E1"
+      keywords:
+        - Melee
+        - Strike
+        - Weapon
+      name: Sword Lunge
+      target: One creature or object per minion
+      type: feature
+      usage: Main action
+    - effects:
+        - effect: Any non-[minion](scc.v1:mcdm.monsters.v1/rule.organization/minion) ally deals 1 extra damage for each recruit [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to them.
+      feature_type: trait
+      icon: ⭐️
+      name: Tactical Positioning
+      type: feature
+    - effects:
+        - effect: When the recruit is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), they spray burning blood. Each creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the recruit takes 2 fire damage.
+      feature_type: trait
+      icon: ⭐️
+      name: Infernal Ichor
+      type: feature
+free_strike: 3
+immunities:
+    - Fire 2
+intuition: 0
+keywords:
+    - Goblin
+    - Hobgoblin
+    - Humanoid
+    - Infernal
+level: 4
+metadata:
+    scc: mcdm.monsters.v1/monster.hobgoblin.statblock/hobgoblin-recruit
+    source: mcdm.monsters.v1
+might: 3
+name: Hobgoblin Recruit
+organization: Minion
+presence: 1
+reason: 0
+role: Brute
+size: 1M
+speed: 5
+stability: 0
+stamina: "9"
+type: statblock
+with_captain: +4 bonus to Stamina
+```

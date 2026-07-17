@@ -27,26 +27,52 @@ stamina: "21"
 type: statblock
 ---
 
-| Fey, Humanoid, Wode Elf |         -         |      Level 1      |  Artillery Retainer   |         EV -         |
-|:-----------------------:|:-----------------:|:-----------------:|:---------------------:|:--------------------:|
-|     **1M**<br>Size      |  **7**<br>Speed   | **21**<br>Stamina |  **1**<br>Stability   | **2**<br>Free Strike |
-|    **-**<br>Immunity    | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
-|     **0**<br>Might      | **+2**<br>Agility |  **0**<br>Reason  |  **+1**<br>Intuition  |  **0**<br>Presence   |
-
-> 🏹 **Longshot (Signature Ability)**
->
-> | **Ranged, Strike, Weapon** |               **Main action** |
-> |----------------------------|------------------------------:|
-> | **📏 Ranged 15**           | **🎯 One creature or object** |
->
-> **Power Roll + highest characteristic:**
->
-> - **≤11:** 4 damage
-> - **12-16:** 7 damage
-> - **17+:** 10 damage
->
-> **Effect:** The arrowswift can take a bane on this ability to gain a +5 bonus to ranged distance.
-
-> ⭐️ **Masking Glamor**
->
-> Abilities targeting the arrowswift that would take a bane from cover or concealment have a double bane instead.
+```ds-sb
+agility: 2
+ev: '-'
+features:
+    - ability_type: Signature Ability
+      distance: Ranged 15
+      effects:
+        - roll: Power Roll + highest characteristic
+          tier1: 4 damage
+          tier2: 7 damage
+          tier3: 10 damage
+      feature_type: ability
+      icon: "\U0001F3F9"
+      keywords:
+        - Ranged
+        - Strike
+        - Weapon
+      name: Longshot
+      target: One creature or object
+      type: feature
+      usage: Main action
+    - effects:
+        - effect: Abilities targeting the arrowswift that would take a bane from cover or concealment have a double bane instead.
+      feature_type: trait
+      icon: ⭐️
+      name: Masking Glamor
+      type: feature
+free_strike: 2
+intuition: 1
+keywords:
+    - Fey
+    - Humanoid
+    - Wode Elf
+level: 1
+metadata:
+    scc: mcdm.monsters.v1/monster.retainer.statblock/wode-elf-arrowswift
+    source: mcdm.monsters.v1
+might: 0
+name: Wode Elf Arrowswift
+organization: Retainer
+presence: 0
+reason: 0
+role: Artillery
+size: 1M
+speed: 7
+stability: 1
+stamina: "21"
+type: statblock
+```

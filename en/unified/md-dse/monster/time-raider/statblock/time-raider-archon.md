@@ -29,24 +29,55 @@ type: statblock
 with_captain: +1 damage bonus to strikes
 ---
 
-|   Humanoid, Time Raider   |         -         |     Level 3      |                 Minion Harrier                 | EV 5 for four minions |
-|:-------------------------:|:-----------------:|:----------------:|:----------------------------------------------:|:---------------------:|
-|      **1M**<br>Size       |  **7**<br>Speed   | **7**<br>Stamina |               **0**<br>Stability               | **2**<br>Free Strike  |
-| **Psychic 3**<br>Immunity | **-**<br>Movement |        -         | **+1 damage bonus to strikes**<br>With Captain |   **-**<br>Weakness   |
-|      **+2**<br>Might      | **+2**<br>Agility | **+2**<br>Reason |              **+1**<br>Intuition               |  **-1**<br>Presence   |
-
-> 🗡 **Brutal Flail ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
->
-> | **Melee, Psionic, Strike, Weapon** |                          **Main action** |
-> |------------------------------------|-----------------------------------------:|
-> | **📏 Melee 1**                     | **🎯 One creature or object per minion** |
->
-> **Power Roll + 2:**
->
-> - **≤11:** 2 damage
-> - **12-16:** 4 damage
-> - **17+:** 5 damage; one ally can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against the target
-
-> ⭐️ **Foresight**
->
-> The archon doesn't take a bane on strikes against creatures with concealment.
+```ds-sb
+agility: 2
+ev: 5 for four minions
+features:
+    - ability_type: Signature Ability
+      distance: Melee 1
+      effects:
+        - roll: Power Roll + 2
+          tier1: 2 damage
+          tier2: 4 damage
+          tier3: 5 damage; one ally can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against the target
+      feature_type: ability
+      icon: "\U0001F5E1"
+      keywords:
+        - Melee
+        - Psionic
+        - Strike
+        - Weapon
+      name: Brutal Flail
+      target: One creature or object per minion
+      type: feature
+      usage: Main action
+    - effects:
+        - effect: The archon doesn't take a bane on strikes against creatures with concealment.
+      feature_type: trait
+      icon: ⭐️
+      name: Foresight
+      type: feature
+free_strike: 2
+immunities:
+    - Psychic 3
+intuition: 1
+keywords:
+    - Humanoid
+    - Time Raider
+level: 3
+metadata:
+    scc: mcdm.monsters.v1/monster.time-raider.statblock/time-raider-archon
+    source: mcdm.monsters.v1
+might: 2
+name: Time Raider Archon
+organization: Minion
+presence: -1
+reason: 2
+role: Harrier
+size: 1M
+speed: 7
+stability: 0
+stamina: "7"
+type: statblock
+with_captain: +1 damage bonus to strikes
+```

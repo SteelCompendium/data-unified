@@ -28,34 +28,66 @@ stamina: "10"
 type: statblock
 ---
 
-|                 Undead                 |         -         |      Level 1      |      Horde Hexer      |         EV 3         |
-|:--------------------------------------:|:-----------------:|:-----------------:|:---------------------:|:--------------------:|
-|             **1M**<br>Size             |  **5**<br>Speed   | **10**<br>Stamina |  **0**<br>Stability   | **1**<br>Free Strike |
-| **Corruption 1, poison 1**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
-|            **+2**<br>Might             | **+1**<br>Agility |  **0**<br>Reason  |  **0**<br>Intuition   |  **+1**<br>Presence  |
-
-> 🗡 **Soulstealer Longsword ([Signature Ability](../../../../rule/combat/signature-ability.md))**
->
-> | **Melee, Strike, Weapon** |               **Main action** |
-> |---------------------------|------------------------------:|
-> | **📏 Melee 1**            | **🎯 One creature or object** |
->
-> **Power Roll + 2:**
->
-> - **≤11:** 3 corruption damage
-> - **12-16:** 4 corruption damage; M < 1 [slowed](../../../../condition/slowed.md) (save ends)
-> - **17+:** 5 corruption damage; M < 2 [slowed](../../../../condition/slowed.md) and [weakened](../../../../condition/weakened.md) (save ends)
->
-> **Effect:** The target appears to rapidly age each time they take damage from this ability. The target regains their former appearance when the soulwight is destroyed.
-
-> 🏹 **Stolen Vitality (3 [Malice](../../../../rule/monster/malice.md))**
->
-> | **Magic, Ranged** |    **Maneuver** |
-> |-------------------|----------------:|
-> | **📏 Ranged 5**   | **🎯 One ally** |
->
-> **Effect:** The target regains 10 [Stamina](../../../../rule/health/stamina.md). The soulwight can't use this maneuver again until after they strike a creature with their Soulstealer Longsword.
-
-> ⭐️ **Arise**
->
-> The first time the soulwight is reduced to 0 [Stamina](../../../../rule/health/stamina.md) by damage that isn't fire damage or holy damage and their body isn't destroyed, they instead have 1 [Stamina](../../../../rule/health/stamina.md) and fall [prone](../../../../condition/prone.md).
+```ds-sb
+agility: 1
+ev: "3"
+features:
+    - ability_type: Signature Ability
+      distance: Melee 1
+      effects:
+        - roll: Power Roll + 2
+          tier1: 3 corruption damage
+          tier2: 4 corruption damage; M < 1 [slowed](../../../../condition/slowed.md) (save ends)
+          tier3: 5 corruption damage; M < 2 [slowed](../../../../condition/slowed.md) and [weakened](../../../../condition/weakened.md) (save ends)
+      feature_type: ability
+      icon: "\U0001F5E1"
+      keywords:
+        - Melee
+        - Strike
+        - Weapon
+      name: Soulstealer Longsword
+      target: One creature or object
+      type: feature
+      usage: Main action
+    - cost: 3 Malice
+      distance: Ranged 5
+      effects:
+        - effect: '**Effect:** The target regains 10 [Stamina](../../../../rule/health/stamina.md). The soulwight can''t use this maneuver again until after they strike a creature with their Soulstealer Longsword.'
+      feature_type: ability
+      icon: "\U0001F3F9"
+      keywords:
+        - Magic
+        - Ranged
+      name: Stolen Vitality
+      target: One ally
+      type: feature
+      usage: Maneuver
+    - effects:
+        - effect: The first time the soulwight is reduced to 0 [Stamina](../../../../rule/health/stamina.md) by damage that isn't fire damage or holy damage and their body isn't destroyed, they instead have 1 [Stamina](../../../../rule/health/stamina.md) and fall [prone](../../../../condition/prone.md).
+      feature_type: trait
+      icon: ⭐️
+      name: Arise
+      type: feature
+free_strike: 1
+immunities:
+    - Corruption 1
+    - poison 1
+intuition: 0
+keywords:
+    - Undead
+level: 1
+metadata:
+    scc: mcdm.monsters.v1/monster.undead.1st-echelon.statblock/soulwight
+    source: mcdm.monsters.v1
+might: 2
+name: Soulwight
+organization: Horde
+presence: 1
+reason: 0
+role: Hexer
+size: 1M
+speed: 5
+stability: 0
+stamina: "10"
+type: statblock
+```

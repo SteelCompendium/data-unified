@@ -28,38 +28,70 @@ stamina: "40"
 type: statblock
 ---
 
-|   Humanoid, Time Raider   |         -         |      Level 3      |     Platoon Hexer     |        EV 10         |
-|:-------------------------:|:-----------------:|:-----------------:|:---------------------:|:--------------------:|
-|       **2**<br>Size       |  **5**<br>Speed   | **40**<br>Stamina |  **2**<br>Stability   | **5**<br>Free Strike |
-| **Psychic 3**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
-|      **+2**<br>Might      | **0**<br>Agility  | **+2**<br>Reason  |  **+2**<br>Intuition  |  **+1**<br>Presence  |
-
-> 🗡 **Repelling Psihander ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
->
-> | **Melee, Psionic, Strike, Weapon** |                             **Main action** |
-> |------------------------------------|--------------------------------------------:|
-> | **📏 Melee 1**                     | **🎯 Two creatures adjacent to each other** |
->
-> **Power Roll + 2:**
->
-> - **≤11:** 6 damage
-> - **12-16:** 8 damage; M < 1 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
-> - **17+:** 11 damage; M < 2 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
->
-> **Effect:** A target who ends their next turn [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the other target falls [prone](scc.v1:mcdm.heroes.v1/condition/prone).
-
-> ❇️ **Mindpunk (2 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
->
-> | **Area, Psionic** |               **Main action** |
-> |-------------------|------------------------------:|
-> | **📏 3 burst**    | **🎯 Each enemy in the area** |
->
-> **Power Roll + 2:**
->
-> - **≤11:** 4 psychic damage; R < 0 [prone](scc.v1:mcdm.heroes.v1/condition/prone)
-> - **12-16:** 6 psychic damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1; R < 1 [prone](scc.v1:mcdm.heroes.v1/condition/prone) and can't stand (save ends)
-> - **17+:** 9 psychic damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2; R < 2 [prone](scc.v1:mcdm.heroes.v1/condition/prone) and can't stand (save ends)
-
-> ⭐️ **Foresight**
->
-> The mind punk doesn't take a bane on strikes against creatures with concealment.
+```ds-sb
+agility: 0
+ev: "10"
+features:
+    - ability_type: Signature Ability
+      distance: Melee 1
+      effects:
+        - roll: Power Roll + 2
+          tier1: 6 damage
+          tier2: 8 damage; M < 1 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
+          tier3: 11 damage; M < 2 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
+      feature_type: ability
+      icon: "\U0001F5E1"
+      keywords:
+        - Melee
+        - Psionic
+        - Strike
+        - Weapon
+      name: Repelling Psihander
+      target: Two creatures adjacent to each other
+      type: feature
+      usage: Main action
+    - cost: 2 Malice
+      distance: 3 burst
+      effects:
+        - roll: Power Roll + 2
+          tier1: 4 psychic damage; R < 0 [prone](scc.v1:mcdm.heroes.v1/condition/prone)
+          tier2: 6 psychic damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1; R < 1 [prone](scc.v1:mcdm.heroes.v1/condition/prone) and can't stand (save ends)
+          tier3: 9 psychic damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2; R < 2 [prone](scc.v1:mcdm.heroes.v1/condition/prone) and can't stand (save ends)
+      feature_type: ability
+      icon: ❇️
+      keywords:
+        - Area
+        - Psionic
+      name: Mindpunk
+      target: Each enemy in the area
+      type: feature
+      usage: Main action
+    - effects:
+        - effect: The mind punk doesn't take a bane on strikes against creatures with concealment.
+      feature_type: trait
+      icon: ⭐️
+      name: Foresight
+      type: feature
+free_strike: 5
+immunities:
+    - Psychic 3
+intuition: 2
+keywords:
+    - Humanoid
+    - Time Raider
+level: 3
+metadata:
+    scc: mcdm.monsters.v1/monster.time-raider.statblock/time-raider-mind-punk
+    source: mcdm.monsters.v1
+might: 2
+name: Time Raider Mind Punk
+organization: Platoon
+presence: 1
+reason: 2
+role: Hexer
+size: "2"
+speed: 5
+stability: 2
+stamina: "40"
+type: statblock
+```

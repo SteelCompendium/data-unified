@@ -26,48 +26,83 @@ stamina: "180"
 type: statblock
 ---
 
-|  Humanoid, Rival  |         -         |      Level 8       |      Elite Hexer      |        EV 40         |
-|:-----------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
-|  **1M**<br>Size   |  **5**<br>Speed   | **180**<br>Stamina |  **2**<br>Stability   | **8**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
-|  **0**<br>Might   | **0**<br>Agility  |  **+4**<br>Reason  |  **0**<br>Intuition   |  **+1**<br>Presence  |
-
-> 🏹 **Control Synapses ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
->
-> | **Psionic, Ranged, Strike, Telekinesis** |                 **Main action** |
-> |------------------------------------------|--------------------------------:|
-> | **📏 Ranged 10**                         | **🎯 Two creatures or objects** |
->
-> **Power Roll + 4:**
->
-> - **≤11:** 12 psychic damage
-> - **12-16:** 17 psychic damage
-> - **17+:** 21 psychic damage
->
-> **3 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice):** Each target [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed and can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against one enemy of the talent's choice. The target can't be moved in a way that would harm them.
-
-> 🏹 **Disorientate (2 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
->
-> | **Psionic, Ranged, Telepathy** |                  **Maneuver** |
-> |--------------------------------|------------------------------:|
-> | **📏 Ranged 10**               | **🎯 One creature or object** |
->
-> **Power Roll + 4:**
->
-> - **≤11:** 8 psychic damage; R < 2 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
-> - **12-16:** 8 psychic damage; R < 3 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) and [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
-> - **17+:** 8 psychic damage; R < 4 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) and [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
-
-> ❗️ **Mind Requital (2 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
->
-> | **Psionic** | **Triggered action** |
-> |-------------|---------------------:|
-> | **📏 Self** |          **🎯 Self** |
->
-> **Trigger:** A creature deals damage to the talent.
->
-> **Effect:** The talent halves the damage and [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to 2 squares. The triggering creature takes psychic damage equal to half the damage dealt.
-
-> ⭐️ **Rivalry**
->
-> At the start of an encounter, the talent chooses one creature within their [line of effect](scc.v1:mcdm.heroes.v1/rule.combat/line-of-effect). Both the talent and the creature can add a d3 roll to power rolls they make against each other.
+```ds-sb
+agility: 0
+ev: "40"
+features:
+    - ability_type: Signature Ability
+      distance: Ranged 10
+      effects:
+        - roll: Power Roll + 4
+          tier1: 12 psychic damage
+          tier2: 17 psychic damage
+          tier3: 21 psychic damage
+      feature_type: ability
+      icon: "\U0001F3F9"
+      keywords:
+        - Psionic
+        - Ranged
+        - Strike
+        - Telekinesis
+      name: Control Synapses
+      target: Two creatures or objects
+      type: feature
+      usage: Main action
+    - cost: 2 Malice
+      distance: Ranged 10
+      effects:
+        - roll: Power Roll + 4
+          tier1: 8 psychic damage; R < 2 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
+          tier2: 8 psychic damage; R < 3 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) and [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
+          tier3: 8 psychic damage; R < 4 [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) and [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
+      feature_type: ability
+      icon: "\U0001F3F9"
+      keywords:
+        - Psionic
+        - Ranged
+        - Telepathy
+      name: Disorientate
+      target: One creature or object
+      type: feature
+      usage: Maneuver
+    - cost: 2 Malice
+      distance: Self
+      effects:
+        - effect: |-
+            **Trigger:** A creature deals damage to the talent.
+            **Effect:** The talent halves the damage and [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to 2 squares. The triggering creature takes psychic damage equal to half the damage dealt.
+      feature_type: ability
+      icon: ❗️
+      keywords:
+        - Psionic
+      name: Mind Requital
+      target: Self
+      type: feature
+      usage: Triggered action
+    - effects:
+        - effect: At the start of an encounter, the talent chooses one creature within their [line of effect](scc.v1:mcdm.heroes.v1/rule.combat/line-of-effect). Both the talent and the creature can add a d3 roll to power rolls they make against each other.
+      feature_type: trait
+      icon: ⭐️
+      name: Rivalry
+      type: feature
+free_strike: 8
+intuition: 0
+keywords:
+    - Humanoid
+    - Rival
+level: 8
+metadata:
+    scc: mcdm.monsters.v1/monster.rival.3rd-echelon.statblock/rival-talent
+    source: mcdm.monsters.v1
+might: 0
+name: Rival Talent
+organization: Elite
+presence: 1
+reason: 4
+role: Hexer
+size: 1M
+speed: 5
+stability: 2
+stamina: "180"
+type: statblock
+```

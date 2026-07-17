@@ -25,42 +25,75 @@ stamina: "80"
 type: statblock
 ---
 
-|      Animal       |         -         |      Level 1      |      Elite Brute      |        EV 12         |
-|:-----------------:|:-----------------:|:-----------------:|:---------------------:|:--------------------:|
-|   **2**<br>Size   |  **5**<br>Speed   | **80**<br>Stamina |  **0**<br>Stability   | **5**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
-|  **+1**<br>Might  | **+2**<br>Agility | **-2**<br>Reason  |  **+1**<br>Intuition  |  **+1**<br>Presence  |
-
-> 🗡 **Natural Weapon (Signature Ability)**
->
-> | **Melee, Strike, Weapon** |                 **Main action** |
-> |---------------------------|--------------------------------:|
-> | **📏 Melee 1**            | **🎯 Two creatures or objects** |
->
-> **Power Roll + 2:**
->
-> - **≤11:** 7 damage
-> - **12-16:** 10 damage; M < 1 [prone](../../../condition/prone.md)
-> - **17+:** 13 damage; M < 1 [prone](../../../condition/prone.md)
-
-> 👤 **Ready to Strike**
->
-> | **-**       | **Maneuver** |
-> |-------------|-------------:|
-> | **📏 Self** |  **🎯 Self** |
->
-> **Effect:** The predator assesses their environment or lets loose a threatening roar and gains an edge on their next strike.
-
-> ❗️ **Quick Strike**
->
-> | **Melee, Strike, Weapon** |                     **Triggered action** |
-> |---------------------------|-----------------------------------------:|
-> | **📏 Melee 1**            | **🎯 The triggering creature or object** |  
->
-> **Trigger:** A creature or object comes within distance.
->
-> **Effect:** The predator makes a [free strike](../../../feature/common/main-actions/free-strike.md) against the target. If the predator was hidden from the target, the strike deals an extra 3 damage.
-
-> ⭐️ **Nature's Spirit**
->
-> While outdoors or in a natural environment, the predator can negate a bane on their abilities or turn a double bane into a bane.
+```ds-sb
+agility: 2
+ev: "12"
+features:
+    - ability_type: Signature Ability
+      distance: Melee 1
+      effects:
+        - roll: Power Roll + 2
+          tier1: 7 damage
+          tier2: 10 damage; M < 1 [prone](../../../condition/prone.md)
+          tier3: 13 damage; M < 1 [prone](../../../condition/prone.md)
+      feature_type: ability
+      icon: "\U0001F5E1"
+      keywords:
+        - Melee
+        - Strike
+        - Weapon
+      name: Natural Weapon
+      target: Two creatures or objects
+      type: feature
+      usage: Main action
+    - distance: Self
+      effects:
+        - effect: '**Effect:** The predator assesses their environment or lets loose a threatening roar and gains an edge on their next strike.'
+      feature_type: ability
+      icon: "\U0001F464"
+      keywords: []
+      name: Ready to Strike
+      target: Self
+      type: feature
+      usage: Maneuver
+    - distance: Melee 1
+      effects:
+        - effect: |-
+            **Trigger:** A creature or object comes within distance.
+            **Effect:** The predator makes a [free strike](../../../feature/common/main-actions/free-strike.md) against the target. If the predator was hidden from the target, the strike deals an extra 3 damage.
+      feature_type: ability
+      icon: ❗️
+      keywords:
+        - Melee
+        - Strike
+        - Weapon
+      name: Quick Strike
+      target: The triggering creature or object
+      type: feature
+      usage: Triggered action
+    - effects:
+        - effect: While outdoors or in a natural environment, the predator can negate a bane on their abilities or turn a double bane into a bane.
+      feature_type: trait
+      icon: ⭐️
+      name: Nature's Spirit
+      type: feature
+free_strike: 5
+intuition: 1
+keywords:
+    - Animal
+level: 1
+metadata:
+    scc: mcdm.monsters.v1/monster.animal.statblock/predator-a
+    source: mcdm.monsters.v1
+might: 1
+name: Predator A
+organization: Elite
+presence: 1
+reason: -2
+role: Brute
+size: "2"
+speed: 5
+stability: 0
+stamina: "80"
+type: statblock
+```

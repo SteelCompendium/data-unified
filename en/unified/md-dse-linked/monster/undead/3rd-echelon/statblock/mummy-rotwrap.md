@@ -32,22 +32,51 @@ weaknesses:
 with_captain: +3 bonus to melee distance
 ---
 
-|             Mummy, Undead              |         -         |      Level 7      |                  Minion Brute                  |  EV 9 for four minions   |
-|:--------------------------------------:|:-----------------:|:-----------------:|:----------------------------------------------:|:------------------------:|
-|             **1M**<br>Size             |  **5**<br>Speed   | **15**<br>Stamina |               **1**<br>Stability               |   **4**<br>Free Strike   |
-| **Corruption 7, poison 7**<br>Immunity | **-**<br>Movement |         -         | **+3 bonus to melee distance**<br>With Captain |  **Fire 5**<br>Weakness  |
-|            **+4**<br>Might             | **-2**<br>Agility | **-2**<br>Reason  |              **+1**<br>Intuition               |    **-2**<br>Presence    |
-
-> 🗡 **Fetid Wrappings ([Signature Ability](../../../../rule/combat/signature-ability.md))**
->
-> | **Melee, Strike, Weapon** |                          **Main action** |
-> |---------------------------|-----------------------------------------:|
-> | **📏 Melee 2**            | **🎯 One creature or object per minion** |
->
-> **Power Roll + 4:**
->
-> - **≤11:** 4 damage
-> - **12-16:** 7 damage; [pull](../../../../movement/forced-movement.md) 1
-> - **17+:** 8 damage; [pull](../../../../movement/forced-movement.md) 3
->
-> **Effect:** Each ally gains an [edge](../../../../rule/dice/edge.md) on [strikes](../../../../rule/combat/strike.md) made against the target until the end of the round.
+```ds-sb
+agility: -2
+ev: 9 for four minions
+features:
+    - ability_type: Signature Ability
+      distance: Melee 2
+      effects:
+        - roll: Power Roll + 4
+          tier1: 4 damage
+          tier2: 7 damage; [pull](../../../../movement/forced-movement.md) 1
+          tier3: 8 damage; [pull](../../../../movement/forced-movement.md) 3
+      feature_type: ability
+      icon: "\U0001F5E1"
+      keywords:
+        - Melee
+        - Strike
+        - Weapon
+      name: Fetid Wrappings
+      target: One creature or object per minion
+      type: feature
+      usage: Main action
+free_strike: 4
+immunities:
+    - Corruption 7
+    - poison 7
+intuition: 1
+keywords:
+    - Mummy
+    - Undead
+level: 7
+metadata:
+    scc: mcdm.monsters.v1/monster.undead.3rd-echelon.statblock/mummy-rotwrap
+    source: mcdm.monsters.v1
+might: 4
+name: Mummy Rotwrap
+organization: Minion
+presence: -2
+reason: -2
+role: Brute
+size: 1M
+speed: 5
+stability: 1
+stamina: "15"
+type: statblock
+weaknesses:
+    - Fire 5
+with_captain: +3 bonus to melee distance
+```

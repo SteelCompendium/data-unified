@@ -26,36 +26,69 @@ stamina: "15"
 type: statblock
 ---
 
-|  Animal, Goblin   |         -         |      Level 1      |      Horde Mount      |         EV 3         |
-|:-----------------:|:-----------------:|:-----------------:|:---------------------:|:--------------------:|
-|  **1L**<br>Size   |  **5**<br>Speed   | **15**<br>Stamina |  **1**<br>Stability   | **1**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
-|  **+1**<br>Might  | **+2**<br>Agility | **-1**<br>Reason  |  **0**<br>Intuition   |  **-1**<br>Presence  |
-
-> 🗡 **Bite (Signature Ability)**
->
-> | **Charge, Melee, Strike, Weapon** |               **Main action** |
-> |-----------------------------------|------------------------------:|
-> | **📏 Melee 1**                    | **🎯 One creature or object** |
->
-> **Power Roll + 2:**
->
-> - **≤11:** 3 damage
-> - **12-16:** 4 damage
-> - **17+:** 5 damage
-
-> 👤 **Sprint (1 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
->
-> | **-**       | **Maneuver** |
-> |-------------|-------------:|
-> | **📏 Self** |  **🎯 Self** |
->
-> **Effect:** The worg moves up to their speed.
-
-> ⭐️ **Mounted Charger**
->
-> If a worg used as a mount charges, their rider gains an edge on melee strikes until the end of the rider's turn.
-
-> ⭐️ **Shared Craft**
->
-> If the worg's rider has the Crafty trait, the worg also has that trait.
+```ds-sb
+agility: 2
+ev: "3"
+features:
+    - ability_type: Signature Ability
+      distance: Melee 1
+      effects:
+        - roll: Power Roll + 2
+          tier1: 3 damage
+          tier2: 4 damage
+          tier3: 5 damage
+      feature_type: ability
+      icon: "\U0001F5E1"
+      keywords:
+        - Charge
+        - Melee
+        - Strike
+        - Weapon
+      name: Bite
+      target: One creature or object
+      type: feature
+      usage: Main action
+    - cost: 1 Malice
+      distance: Self
+      effects:
+        - effect: '**Effect:** The worg moves up to their speed.'
+      feature_type: ability
+      icon: "\U0001F464"
+      keywords: []
+      name: Sprint
+      target: Self
+      type: feature
+      usage: Maneuver
+    - effects:
+        - effect: If a worg used as a mount charges, their rider gains an edge on melee strikes until the end of the rider's turn.
+      feature_type: trait
+      icon: ⭐️
+      name: Mounted Charger
+      type: feature
+    - effects:
+        - effect: If the worg's rider has the Crafty trait, the worg also has that trait.
+      feature_type: trait
+      icon: ⭐️
+      name: Shared Craft
+      type: feature
+free_strike: 1
+intuition: 0
+keywords:
+    - Animal
+    - Goblin
+level: 1
+metadata:
+    scc: mcdm.monsters.v1/monster.goblin.statblock/worg
+    source: mcdm.monsters.v1
+might: 1
+name: Worg
+organization: Horde
+presence: -1
+reason: -1
+role: Mount
+size: 1L
+speed: 5
+stability: 1
+stamina: "15"
+type: statblock
+```

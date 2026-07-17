@@ -30,26 +30,55 @@ type: statblock
 with_captain: +2 damage bonus to strikes
 ---
 
-|            Undead, Soulless            |         -         |     Level 4      |                  Minion Brute                  | EV 6 for four minions |
-|:--------------------------------------:|:-----------------:|:----------------:|:----------------------------------------------:|:---------------------:|
-|             **1M**<br>Size             |  **5**<br>Speed   | **9**<br>Stamina |               **0**<br>Stability               | **3**<br>Free Strike  |
-| **Corruption 4, poison 4**<br>Immunity | **-**<br>Movement |        -         | **+2 damage bonus to strikes**<br>With Captain |   **-**<br>Weakness   |
-|            **+3**<br>Might             | **-1**<br>Agility | **0**<br>Reason  |               **0**<br>Intuition               |   **0**<br>Presence   |
-
-> 🗡 **Bone Carvers ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
->
-> | **Melee, Strike, Weapon** |                          **Main action** |
-> |---------------------------|-----------------------------------------:|
-> | **📏 Melee 1**            | **🎯 One creature or object per minion** |
->
-> **Power Roll + 3:**
->
-> - **≤11:** 3 damage
-> - **12-16:** 5 damage
-> - **17+:** 7 damage
->
-> **Effect:** If this ability gains an edge or has a double edge, the target is [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends).
-
-> ⭐️ **Fleshfused Spines**
->
-> Any [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) enemy who [grabs](scc.v1:mcdm.heroes.v1/condition/grabbed) the fleshflayed shambler or uses melee ability against them takes 2 damage.
+```ds-sb
+agility: -1
+ev: 6 for four minions
+features:
+    - ability_type: Signature Ability
+      distance: Melee 1
+      effects:
+        - roll: Power Roll + 3
+          tier1: 3 damage
+          tier2: 5 damage
+          tier3: 7 damage
+      feature_type: ability
+      icon: "\U0001F5E1"
+      keywords:
+        - Melee
+        - Strike
+        - Weapon
+      name: Bone Carvers
+      target: One creature or object per minion
+      type: feature
+      usage: Main action
+    - effects:
+        - effect: Any [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) enemy who [grabs](scc.v1:mcdm.heroes.v1/condition/grabbed) the fleshflayed shambler or uses melee ability against them takes 2 damage.
+      feature_type: trait
+      icon: ⭐️
+      name: Fleshfused Spines
+      type: feature
+free_strike: 3
+immunities:
+    - Corruption 4
+    - poison 4
+intuition: 0
+keywords:
+    - Undead
+    - Soulless
+level: 4
+metadata:
+    scc: mcdm.monsters.v1/monster.undead.2nd-echelon.statblock/fleshflayed-shambler-zombie
+    source: mcdm.monsters.v1
+might: 3
+name: Fleshflayed Shambler Zombie
+organization: Minion
+presence: 0
+reason: 0
+role: Brute
+size: 1M
+speed: 5
+stability: 0
+stamina: "9"
+type: statblock
+with_captain: +2 damage bonus to strikes
+```

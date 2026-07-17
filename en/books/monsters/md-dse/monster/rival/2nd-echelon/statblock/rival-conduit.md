@@ -26,38 +26,71 @@ stamina: "140"
 type: statblock
 ---
 
-|  Humanoid, Rival  |         -         |      Level 5       |     Elite Support     |        EV 28         |
-|:-----------------:|:-----------------:|:------------------:|:---------------------:|:--------------------:|
-|  **1M**<br>Size   |  **5**<br>Speed   | **140**<br>Stamina |  **1**<br>Stability   | **6**<br>Free Strike |
-| **-**<br>Immunity | **-**<br>Movement |         -          | **-**<br>With Captain |  **-**<br>Weakness   |
-|  **+2**<br>Might  | **0**<br>Agility  |  **0**<br>Reason   |  **+3**<br>Intuition  |  **+1**<br>Presence  |
-
-> ⚔️ **Raging Tempest ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
->
-> | **Magic, Melee, Ranged, Strike** |                 **Main action** |
-> |----------------------------------|--------------------------------:|
-> | **📏 Melee 1 or ranged 10**      | **🎯 Two creatures or objects** |
->
-> **Power Roll + 3:**
->
-> - **≤11:** 9 holy damage; vertical [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1
-> - **12-16:** 14 holy damage; vertical [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2
-> - **17+:** 17 holy damage; vertical [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3
->
-> **Effect:** The conduit or one ally within distance regains [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) equal to half the damage dealt.
-
-> 🏹 **Imbue with Power (3 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
->
-> | **Magic, Ranged** |                **Maneuver** |
-> |-------------------|----------------------------:|
-> | **📏 Ranged 10**  | **🎯 Self and five allies** |
->
-> **Effect:** Each target has a double edge on their next [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike).
-
-> ⭐️ **Stalwart Guardian**
->
-> [Strikes](scc.v1:mcdm.heroes.v1/rule.combat/strike) made against allies [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the conduit take a bane.
-
-> ⭐️ **Rivalry**
->
-> At the start of an encounter, the conduit chooses one creature within their [line of effect](scc.v1:mcdm.heroes.v1/rule.combat/line-of-effect). Both the conduit and the creature can add a d3 roll to power rolls they make against each other.
+```ds-sb
+agility: 0
+ev: "28"
+features:
+    - ability_type: Signature Ability
+      distance: Melee 1 or ranged 10
+      effects:
+        - roll: Power Roll + 3
+          tier1: 9 holy damage; vertical [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1
+          tier2: 14 holy damage; vertical [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2
+          tier3: 17 holy damage; vertical [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3
+      feature_type: ability
+      icon: ⚔️
+      keywords:
+        - Magic
+        - Melee
+        - Ranged
+        - Strike
+      name: Raging Tempest
+      target: Two creatures or objects
+      type: feature
+      usage: Main action
+    - cost: 3 Malice
+      distance: Ranged 10
+      effects:
+        - effect: '**Effect:** Each target has a double edge on their next [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike).'
+      feature_type: ability
+      icon: "\U0001F3F9"
+      keywords:
+        - Magic
+        - Ranged
+      name: Imbue with Power
+      target: Self and five allies
+      type: feature
+      usage: Maneuver
+    - effects:
+        - effect: '[Strikes](scc.v1:mcdm.heroes.v1/rule.combat/strike) made against allies [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the conduit take a bane.'
+      feature_type: trait
+      icon: ⭐️
+      name: Stalwart Guardian
+      type: feature
+    - effects:
+        - effect: At the start of an encounter, the conduit chooses one creature within their [line of effect](scc.v1:mcdm.heroes.v1/rule.combat/line-of-effect). Both the conduit and the creature can add a d3 roll to power rolls they make against each other.
+      feature_type: trait
+      icon: ⭐️
+      name: Rivalry
+      type: feature
+free_strike: 6
+intuition: 3
+keywords:
+    - Humanoid
+    - Rival
+level: 5
+metadata:
+    scc: mcdm.monsters.v1/monster.rival.2nd-echelon.statblock/rival-conduit
+    source: mcdm.monsters.v1
+might: 2
+name: Rival Conduit
+organization: Elite
+presence: 1
+reason: 0
+role: Support
+size: 1M
+speed: 5
+stability: 1
+stamina: "140"
+type: statblock
+```

@@ -32,14 +32,40 @@ type: statblock
 weaknesses: []
 ---
 
-These autonomous bone networks fall just short of replicating the structure they had in life. Skeleton bones are especially brittle and can splinter into huge shards when met with enough force.
-
-| Undead | - | - | Signature Minion Harrier | 1 essence per minion summoned |
-|:--------:|:------:|:-------------------------:|:-:|:-----------------------------:|
-| **1M**<br>Size | **6**<br>Speed | **2**<br>Stamina | **0**<br>Stability | **1**<br>Free Strike |
-| **Corruption R, Poison R**<br>Immunity | **—**<br>Movement | - | **—**<br>Weakness | **—**<br>Free Strike Damage Type |
-| **+2**<br>Might | **0**<br>Agility | **-1**<br>Reason | **-1**<br>Intuition | **-1**<br>Presence |
-
-> ⭐️ **Bonetrops**
->
-> When the skeleton is reduced to 0 [Stamina](../../../../../rule/health/stamina.md), their square becomes [difficult terrain](../../../../../movement/difficult-terrain.md) for enemies. The first time any enemy enters this space, they take 2 damage and end this effect.
+```ds-sb
+agility: 0
+cost: 1 essence per minion summoned
+ev: ""
+features:
+    - effects:
+        - effect: When the skeleton is reduced to 0 [Stamina](../../../../../rule/health/stamina.md), their square becomes [difficult terrain](../../../../../movement/difficult-terrain.md) for enemies. The first time any enemy enters this space, they take 2 damage and end this effect.
+      feature_type: trait
+      icon: ⭐️
+      name: Bonetrops
+      type: feature
+flavor: These autonomous bone networks fall just short of replicating the structure they had in life. Skeleton bones are especially brittle and can splinter into huge shards when met with enough force.
+free_strike: 1
+immunities:
+    - Corruption R
+    - Poison R
+intuition: -1
+keywords:
+    - Undead
+level: 0
+metadata:
+    scc: mcdm.summoner.v1/monster.minion.summoner.undead.statblock/skeleton
+    source: mcdm.summoner.v1
+might: 2
+movement: —
+name: Skeleton
+organization: Minion
+presence: -1
+reason: -1
+role: Harrier
+size: 1M
+speed: 6
+stability: 0
+stamina: "2"
+type: statblock
+weaknesses: []
+```

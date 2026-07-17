@@ -32,22 +32,52 @@ weaknesses:
     - Holy 1
 ---
 
-Chimors have no true shape; their bodies restructure and change endlessly. Pieces of the chimor demon snap off inside their prey, causing their bodies to also restructure from the inside out.
-
-| Abyssal, Demon | - | - | Minion Defender | 5 essence for three minions |
-|:--------------:|:--------------:|:---------------:|:-:|:---------------------------:|
-| **2**<br>Size | **5**<br>Speed | **7 \| 7 \| 7**<br>Stamina | **3**<br>Stability | **3**<br>Free Strike |
-| **—**<br>Immunity | **—**<br>Movement | - | **Holy 1**<br>Weakness | **—**<br>Free Strike Damage Type |
-| **+3**<br>Might | **0**<br>Agility | **+2**<br>Reason | **+1**<br>Intuition | **+1**<br>Presence |
-
-> ⭐️ **Mercurial Strike**
->
-> The chimor's melee [free strikes](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) inflict M < WEAK [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (EoT). The [potency](scc.v1:mcdm.heroes.v1/rule.character/potency) is increased by the current [round](scc.v1:mcdm.heroes.v1/rule.combat/combat-round) number.
-
-> ⭐️ **Evershifting**
->
-> The chimor doesn't provoke [opportunity attacks](scc.v1:mcdm.heroes.v1/rule.combat/opportunity-attack) by moving.
-
-> ⭐️ **Soulsight**
->
-> Each creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the chimor can't be hidden from them.
+```ds-sb
+agility: 0
+cost: 5 essence for three minions
+ev: ""
+features:
+    - effects:
+        - effect: The chimor's melee [free strikes](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) inflict M < WEAK [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (EoT). The [potency](scc.v1:mcdm.heroes.v1/rule.character/potency) is increased by the current [round](scc.v1:mcdm.heroes.v1/rule.combat/combat-round) number.
+      feature_type: trait
+      icon: ⭐️
+      name: Mercurial Strike
+      type: feature
+    - effects:
+        - effect: The chimor doesn't provoke [opportunity attacks](scc.v1:mcdm.heroes.v1/rule.combat/opportunity-attack) by moving.
+      feature_type: trait
+      icon: ⭐️
+      name: Evershifting
+      type: feature
+    - effects:
+        - effect: Each creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the chimor can't be hidden from them.
+      feature_type: trait
+      icon: ⭐️
+      name: Soulsight
+      type: feature
+flavor: Chimors have no true shape; their bodies restructure and change endlessly. Pieces of the chimor demon snap off inside their prey, causing their bodies to also restructure from the inside out.
+free_strike: 3
+immunities: []
+intuition: 1
+keywords:
+    - Abyssal
+    - Demon
+level: 0
+metadata:
+    scc: mcdm.summoner.v1/monster.minion.summoner.demon.statblock/hulking-chimor
+    source: mcdm.summoner.v1
+might: 3
+movement: —
+name: Hulking Chimor
+organization: Minion
+presence: 1
+reason: 2
+role: Defender
+size: "2"
+speed: 5
+stability: 3
+stamina: 7 | 7 | 7
+type: statblock
+weaknesses:
+    - Holy 1
+```

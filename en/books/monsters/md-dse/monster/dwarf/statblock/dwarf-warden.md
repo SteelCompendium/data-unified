@@ -26,40 +26,67 @@ stamina: "59"
 type: statblock
 ---
 
-|  Dwarf, Humanoid  |         -         |      Level 2      |     Platoon Brute     |         EV 8         | 
-|:-----------------:|:-----------------:|:-----------------:|:---------------------:|:--------------------:| 
-|  **1M**<br>Size   |  **5**<br>Speed   | **59**<br>Stamina |  **3**<br>Stability   | **5**<br>Free Strike | 
-| **-**<br>Immunity | **-**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   | 
-|  **+2**<br>Might  | **+0**<br>Agility | **+0**<br>Reason  |  **+1**<br>Intuition  |  **+0**<br>Presence  |
-
-> 🗡 **Concussive Maul (Signature Ability)**
->
-> | **Melee, Strike, Weapon** |               **Main action** |
-> |---------------------------|------------------------------:|
-> | **📏 Melee 1**            | **🎯 One creature or object** |
->
-> **Power Roll + 2:**
->
-> - **≤11:** 7 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1
-> - **12-16:** 10 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3
-> - **17+:** 13 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5; M < 2 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
->
-> **Effect:** A target [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) by a dwarf can be force moved by this ability. This forced movement doesn't end the [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) condition unless the Director determines otherwise.
-
-> 🔳 **Concussive Shockwave (5 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
->
-> | **Area, Weapon**       |               **Main action** |
-> |------------------------|------------------------------:|
-> | **📏 3 cube within 1** | **🎯 Each enemy in the area** |
->
-> **Power Roll + 2:**
->
-> - **≤11:** 5 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2; A < 0 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
-> - **12-16:** 8 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2; A < 1 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
-> - **17+:** 11 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2; A < 2 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
->
-> **Effect:** A target [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) by a dwarf can be force moved by this ability. This forced movement doesn't end the [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) condition unless the Director determines otherwise.
-
-> ⭐️ **Escort the Prisoners**
->
-> Whenever the warden moves, they can carry an [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) enemy as if the enemy were [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) by them.
+```ds-sb
+agility: 0
+ev: "8"
+features:
+    - ability_type: Signature Ability
+      distance: Melee 1
+      effects:
+        - roll: Power Roll + 2
+          tier1: 7 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1
+          tier2: 10 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3
+          tier3: 13 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5; M < 2 [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
+      feature_type: ability
+      icon: "\U0001F5E1"
+      keywords:
+        - Melee
+        - Strike
+        - Weapon
+      name: Concussive Maul
+      target: One creature or object
+      type: feature
+      usage: Main action
+    - cost: 5 Malice
+      distance: 3 cube within 1
+      effects:
+        - roll: Power Roll + 2
+          tier1: 5 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2; A < 0 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
+          tier2: 8 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2; A < 1 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
+          tier3: 11 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2; A < 2 [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
+      feature_type: ability
+      icon: "\U0001F533"
+      keywords:
+        - Area
+        - Weapon
+      name: Concussive Shockwave
+      target: Each enemy in the area
+      type: feature
+      usage: Main action
+    - effects:
+        - effect: Whenever the warden moves, they can carry an [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) enemy as if the enemy were [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) by them.
+      feature_type: trait
+      icon: ⭐️
+      name: Escort the Prisoners
+      type: feature
+free_strike: 5
+intuition: 1
+keywords:
+    - Dwarf
+    - Humanoid
+level: 2
+metadata:
+    scc: mcdm.monsters.v1/monster.dwarf.statblock/dwarf-warden
+    source: mcdm.monsters.v1
+might: 2
+name: Dwarf Warden
+organization: Platoon
+presence: 0
+reason: 0
+role: Brute
+size: 1M
+speed: 5
+stability: 3
+stamina: "59"
+type: statblock
+```
