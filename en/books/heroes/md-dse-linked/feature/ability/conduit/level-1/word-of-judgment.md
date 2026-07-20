@@ -1,5 +1,5 @@
 ---
-action_type: Triggered
+action_type: '[Triggered](../../../../rule/combat/triggered-action.md)'
 class: conduit
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
 effect: The [power roll](../../../../rule/dice/power-roll.md) takes a [bane](../../../../rule/dice/bane.md) against the target.
@@ -35,7 +35,7 @@ keywords:
     - Magic
     - '[Ranged](../../../../rule/combat/ranged.md)'
 metadata:
-    action_type: Triggered
+    action_type: '[Triggered](../../../../rule/combat/triggered-action.md)'
     class: conduit
     distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
     effect: The [power roll](../../../../rule/dice/power-roll.md) takes a [bane](../../../../rule/dice/bane.md) against the target.
@@ -55,5 +55,5 @@ name: Word of Judgment
 target: One ally
 trigger: The target would take damage from an ability that uses a [power roll](../../../../rule/dice/power-roll.md).
 type: feature
-usage: Triggered
+usage: '[Triggered](../../../../rule/combat/triggered-action.md)'
 ```

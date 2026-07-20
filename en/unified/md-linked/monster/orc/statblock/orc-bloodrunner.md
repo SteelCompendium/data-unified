@@ -29,7 +29,7 @@ type: statblock
 
 > 🗡 **Shield Bash ([Signature Ability](../../../rule/combat/signature-ability.md))**
 >
-> | **Melee, Strike, Weapon** |               **Main action** |
+> | **Melee, Strike, Weapon** |               **[Main action](../../../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Melee 1**            | **🎯 One creature or object** |
 >

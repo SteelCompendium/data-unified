@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: talent
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
 effect: The target takes an extra 1 corruption damage for each additional time they are targeted by this ability during the encounter.
@@ -24,7 +24,7 @@ type: ability
 
 *You advance an enemy's age for a moment.*
 
-| **Chronopathy, Psionic, [Ranged](../../../../rule/combat/ranged.md), [Strike](../../../../rule/combat/strike.md)** |               **Main action** |
+| **Chronopathy, Psionic, [Ranged](../../../../rule/combat/ranged.md), [Strike](../../../../rule/combat/strike.md)** |               **[Main action](../../../../rule/combat/turn.md)** |
 |------------------------------------------|------------------------------:|
 | **📏 [Ranged](../../../../rule/combat/ranged.md) 10**                         | **🎯 One creature or object** |
 

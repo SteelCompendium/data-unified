@@ -30,7 +30,7 @@ type: statblock
 
 > 🔳 **Awash (Signature Ability)**
 >
-> | **Area, Magic**        |                  **Main action** |
+> | **Area, Magic**        |                  **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |------------------------|---------------------------------:|
 > | **📏 3 cube within 1** | **🎯 Each creature in the area** |
 >
@@ -42,7 +42,7 @@ type: statblock
 
 > 🏹 **Aetherweb**
 >
-> | **Magic, Ranged, Strike** |               **Main action** |
+> | **Magic, Ranged, Strike** |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |---------------------------|------------------------------:|
 > | **📏 Ranged 8**           | **🎯 Two enemies or objects** |
 >

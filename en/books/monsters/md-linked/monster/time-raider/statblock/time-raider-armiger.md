@@ -31,7 +31,7 @@ type: statblock
 
 > 🗡 **Serrated Saber ([Signature Ability](../../../rule/combat/signature-ability.md))**
 >
-> | **Melee, Psionic, Strike, Weapon** |               **Main action** |
+> | **Melee, Psionic, Strike, Weapon** |               **[Main action](../../../rule/combat/turn.md)** |
 > |------------------------------------|------------------------------:|
 > | **📏 Melee 1**                     | **🎯 One creature or object** |
 >
@@ -45,7 +45,7 @@ type: statblock
 
 > ❗️ **Shared Sickness**
 >
-> | **Psionic, Ranged** |           **Triggered action** |
+> | **Psionic, Ranged** |           **[Triggered action](../../../rule/combat/triggered-action.md)** |
 > |---------------------|-------------------------------:|
 > | **📏 Ranged 20**    | **🎯 The triggering creature** |
 >

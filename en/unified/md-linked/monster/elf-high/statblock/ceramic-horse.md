@@ -29,7 +29,7 @@ type: statblock
 
 > 🗡 **Elemental Charge (Signature Ability)**
 >
-> | **Charge, Melee, Strike, Weapon** |               **Main action** |
+> | **Charge, Melee, Strike, Weapon** |               **[Main action](../../../rule/combat/turn.md)** |
 > |-----------------------------------|------------------------------:|
 > | **📏 Melee 1**                    | **🎯 One creature or object** |
 >
@@ -41,7 +41,7 @@ type: statblock
 
 > ❇️ **Stomp**
 >
-> | **Area, Weapon** |               **Main action** |
+> | **Area, Weapon** |               **[Main action](../../../rule/combat/turn.md)** |
 > |------------------|------------------------------:|
 > | **📏 1 burst**   | **🎯 Each enemy in the area** |
 >
@@ -55,7 +55,7 @@ type: statblock
 
 > 👤 **Buck (2 [Malice](../../../rule/monster/malice.md))**
 >
-> | **-**       |              **Maneuver** |
+> | **-**       |              **[Maneuver](../../../rule/combat/turn.md)** |
 > |-------------|--------------------------:|
 > | **📏 Self** |  **🎯 The horse's rider** |
 >

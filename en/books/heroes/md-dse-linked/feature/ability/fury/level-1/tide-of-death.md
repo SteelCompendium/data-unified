@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: fury
 cost: 3 Ferocity
 cost_amount: "3"
@@ -42,7 +42,7 @@ keywords:
     - '[Melee](../../../../rule/combat/melee.md)'
     - Weapon
 metadata:
-    action_type: Main action
+    action_type: '[Main action](../../../../rule/combat/turn.md)'
     class: fury
     cost: 3 Ferocity
     distance: Self; see below
@@ -63,5 +63,5 @@ metadata:
 name: Tide of Death
 target: Self
 type: feature
-usage: Main action
+usage: '[Main action](../../../../rule/combat/turn.md)'
 ```

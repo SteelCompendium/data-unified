@@ -6,12 +6,14 @@ file_dpath: treasure/1st-echelon/trinket
 flavor: These scaled gloves have palms and fingers covered in near-invisible sticky hairs.
 item_id: gecko-gloves
 item_name: Gecko Gloves
+item_prerequisite: Ten gecko tails
 keywords:
     - Hands
     - Magic
 name: Gecko Gloves
 project_goal: "150"
 project_roll_characteristic: '[Reason](../../../rule/character/reason.md) or [Intuition](../../../rule/character/intuition.md)'
+project_source: Texts or lore in Caelian
 scc: mcdm.heroes.v1/treasure.1st-echelon.trinket/gecko-gloves
 source: mcdm.heroes.v1
 treasure_type: trinket

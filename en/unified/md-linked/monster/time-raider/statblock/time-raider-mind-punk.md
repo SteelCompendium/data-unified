@@ -31,7 +31,7 @@ type: statblock
 
 > 🗡 **Repelling Psihander ([Signature Ability](../../../rule/combat/signature-ability.md))**
 >
-> | **Melee, Psionic, Strike, Weapon** |                             **Main action** |
+> | **Melee, Psionic, Strike, Weapon** |                             **[Main action](../../../rule/combat/turn.md)** |
 > |------------------------------------|--------------------------------------------:|
 > | **📏 Melee 1**                     | **🎯 Two creatures adjacent to each other** |
 >
@@ -45,7 +45,7 @@ type: statblock
 
 > ❇️ **Mindpunk (2 [Malice](../../../rule/monster/malice.md))**
 >
-> | **Area, Psionic** |               **Main action** |
+> | **Area, Psionic** |               **[Main action](../../../rule/combat/turn.md)** |
 > |-------------------|------------------------------:|
 > | **📏 3 burst**    | **🎯 Each enemy in the area** |
 >

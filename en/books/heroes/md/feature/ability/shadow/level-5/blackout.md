@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: shadow
 cost: 9 Insight
 distance: 3 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)
@@ -18,7 +18,7 @@ type: ability
 
 *You cause a plume of shadow to erupt from your eyes and create a cloud of darkness.*
 
-| **Area, Magic** |   **Maneuver** |
+| **Area, Magic** |   **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 |-----------------|---------------:|
 | **📏 3 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)**  | **🎯 Special** |
 

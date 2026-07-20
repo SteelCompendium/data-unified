@@ -19,9 +19,9 @@
   ],
   "metadata": {
     "ability_type": "Signature",
-    "action_type": "Main action",
+    "action_type": "[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)",
     "class": "talent",
-    "content": "\n*You blast a foe with a pulse of cold energy.*\n\n| **Cryokinesis, Psionic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)**, **Strike** |     **Main action** |\n|----------------------------------------------|--------------------:|\n| **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**                             | **🎯 One creature** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason):**\n\n- **≤11:** 2 + R cold damage; M \u003c WEAK, [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) ([EoT](scc.v1:mcdm.heroes.v1/rule.combat/end-of-turn))\n- **12-16:** 4 + R cold damage; M \u003c AVERAGE, [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) ([EoT](scc.v1:mcdm.heroes.v1/rule.combat/end-of-turn))\n- **17+:** 6 + R cold damage; M \u003c STRONG, [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) ([EoT](scc.v1:mcdm.heroes.v1/rule.combat/end-of-turn))\n\n**Strained:** You are [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) until the end of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn). Additionally, a target [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) by this ability is [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) instead.",
+    "content": "\n*You blast a foe with a pulse of cold energy.*\n\n| **Cryokinesis, Psionic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)**, **Strike** |     **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|----------------------------------------------|--------------------:|\n| **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**                             | **🎯 One creature** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason):**\n\n- **≤11:** 2 + R cold damage; M \u003c WEAK, [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) ([EoT](scc.v1:mcdm.heroes.v1/rule.combat/end-of-turn))\n- **12-16:** 4 + R cold damage; M \u003c AVERAGE, [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) ([EoT](scc.v1:mcdm.heroes.v1/rule.combat/end-of-turn))\n- **17+:** 6 + R cold damage; M \u003c STRONG, [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) ([EoT](scc.v1:mcdm.heroes.v1/rule.combat/end-of-turn))\n\n**Strained:** You are [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) until the end of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn). Additionally, a target [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) by this ability is [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) instead.",
     "distance": "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10",
     "feature_type": "ability",
     "flavor": "You blast a foe with a pulse of cold energy.",
@@ -43,5 +43,5 @@
   "name": "Hoarfrost",
   "target": "One creature",
   "type": "feature",
-  "usage": "Main action"
+  "usage": "[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)"
 }

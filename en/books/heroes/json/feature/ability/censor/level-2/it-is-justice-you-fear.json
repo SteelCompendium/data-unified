@@ -21,9 +21,9 @@
     "[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)"
   ],
   "metadata": {
-    "action_type": "Main action",
+    "action_type": "[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)",
     "class": "censor",
-    "content": "\n*I am but a vessel. Your own deeds weigh upon you.*\n\n| **Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)** |     **Main action** |\n|---------------------------|--------------------:|\n| **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**          | **🎯 One creature** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc.v1:mcdm.heroes.v1/rule.character/might):**\n\n- **≤11:** 8 + M holy damage; P \u003c WEAK, [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)\n- **12-16:** 12 + M holy damage; P \u003c AVERAGE, [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)\n- **17+:** 15 + M holy damage; P \u003c STRONG, [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)\n\n**Effect:** If the target is already [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) of you or another creature and this ability would frighten them again, they instead take psychic damage equal to twice your [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence) score.",
+    "content": "\n*I am but a vessel. Your own deeds weigh upon you.*\n\n| **Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)** |     **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|---------------------------|--------------------:|\n| **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**          | **🎯 One creature** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc.v1:mcdm.heroes.v1/rule.character/might):**\n\n- **≤11:** 8 + M holy damage; P \u003c WEAK, [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)\n- **12-16:** 12 + M holy damage; P \u003c AVERAGE, [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)\n- **17+:** 15 + M holy damage; P \u003c STRONG, [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)\n\n**Effect:** If the target is already [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) of you or another creature and this ability would frighten them again, they instead take psychic damage equal to twice your [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence) score.",
     "distance": "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10",
     "feature_type": "ability",
     "flavor": "I am but a vessel. Your own deeds weigh upon you.",
@@ -45,5 +45,5 @@
   "name": "It Is Justice You Fear",
   "target": "One creature",
   "type": "feature",
-  "usage": "Main action"
+  "usage": "[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)"
 }

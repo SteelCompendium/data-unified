@@ -33,7 +33,7 @@ type: statblock
 
 > 🗡 **Baneful Blade  (Signature Ability)**
 >
-> | **Charge, Melee, Strike, Weapon** |               **Main action** |
+> | **Charge, Melee, Strike, Weapon** |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-----------------------------------|------------------------------:|
 > | **📏 Melee 1**                    | **🎯 One creature or object** |
 >
@@ -45,7 +45,7 @@ type: statblock
 
 > 🗡 **I'm Not a Steed, You're Equipment (Encounter)**
 >
-> | **Melee**      |              **Main action** |
+> | **Melee**      |              **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |----------------|-----------------------------:|
 > | **📏 Melee 1** | **🎯 The Nameless's mentor** |
 >

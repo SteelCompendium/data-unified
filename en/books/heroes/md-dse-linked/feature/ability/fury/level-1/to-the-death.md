@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: fury
 distance: '[Melee](../../../../rule/combat/melee.md) 1'
 effect: You gain 2 [surges](../../../../rule/resource/surge.md), and the target can make an [opportunity attack](../../../../rule/combat/opportunity-attack.md) against you as a free [triggered action](../../../../rule/combat/triggered-action.md).
@@ -41,7 +41,7 @@ keywords:
     - '[Strike](../../../../rule/combat/strike.md)'
     - Weapon
 metadata:
-    action_type: Main action
+    action_type: '[Main action](../../../../rule/combat/turn.md)'
     class: fury
     distance: '[Melee](../../../../rule/combat/melee.md) 1'
     effect: You gain 2 [surges](../../../../rule/resource/surge.md), and the target can make an [opportunity attack](../../../../rule/combat/opportunity-attack.md) against you as a free [triggered action](../../../../rule/combat/triggered-action.md).
@@ -63,5 +63,5 @@ metadata:
 name: To the Death!
 target: One creature or object
 type: feature
-usage: Main action
+usage: '[Main action](../../../../rule/combat/turn.md)'
 ```

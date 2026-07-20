@@ -43,7 +43,7 @@ type: featureblock
 
 > 🔳 **Flames of Revenge (Encounter)**
 >
-> | **Area, Magic, Ranged** |               **Main action** |
+> | **Area, Magic, Ranged** |               **[Main action](../../../rule/combat/turn.md)** |
 > |-------------------------|------------------------------:|
 > | **📏 3 cube within 10** | **🎯 Each enemy in the area** |
 >
@@ -59,7 +59,7 @@ type: featureblock
 
 > 🔳 **Hell On Earth (Encounter)**
 >
-> | **Area, Magic, Ranged** | **Main action** |
+> | **Area, Magic, Ranged** | **[Main action](../../../rule/combat/turn.md)** |
 > |-------------------------|----------------:|
 > | **📏 5 cube within 10** |  **🎯 Special** |
 >

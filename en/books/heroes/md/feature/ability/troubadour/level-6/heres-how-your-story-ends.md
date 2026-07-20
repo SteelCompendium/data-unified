@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: troubadour
 cost: 9 Drama
 distance: 5 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)
@@ -22,7 +22,7 @@ type: ability
 
 *You give away the ending of this battle, and it's not great for them.*
 
-| **Area, Magic** |               **Main action** |
+| **Area, Magic** |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 |-----------------|------------------------------:|
 | **📏 5 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)**  | **🎯 Each enemy in the area** |
 

@@ -1,5 +1,5 @@
 ---
-action_type: Triggered
+action_type: '[Triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)'
 class: "null"
 distance: Self
 effect: You take half the damage.
@@ -33,7 +33,7 @@ flavor: You intuit the course of an incoming attack, reducing its effects.
 keywords:
     - Psionic
 metadata:
-    action_type: Triggered
+    action_type: '[Triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)'
     class: "null"
     distance: Self
     effect: You take half the damage.
@@ -52,5 +52,5 @@ name: Inertial Shield
 target: Self
 trigger: You take damage.
 type: feature
-usage: Triggered
+usage: '[Triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)'
 ```

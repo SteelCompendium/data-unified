@@ -31,7 +31,7 @@ type: statblock
 
 > 🔳 **Sunderbuss ([Signature Ability](../../../rule/combat/signature-ability.md))**
 >
-> | **Area, Psionic, Ranged, Weapon** |               **Main action** |
+> | **Area, Psionic, Ranged, Weapon** |               **[Main action](../../../rule/combat/turn.md)** |
 > |-----------------------------------|------------------------------:|
 > | **📏 3 cube within 10**           | **🎯 Each enemy in the area** |
 >
@@ -45,7 +45,7 @@ type: statblock
 
 > ❗️ **Buss Buffe (1 [Malice](../../../rule/monster/malice.md))**
 >
-> | **Area, Psionic** |             **Free triggered action** |
+> | **Area, Psionic** |             **Free [triggered action](../../../rule/combat/triggered-action.md)** |
 > |-------------------|--------------------------------------:|
 > | **📏 5 burst**    | **🎯 Self and each ally in the area** |
 >

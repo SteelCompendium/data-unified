@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: "null"
 cost: 9 Discipline
 cost_amount: "9"
@@ -37,7 +37,7 @@ keywords:
     - Psionic
     - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'
 metadata:
-    action_type: Main action
+    action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: "null"
     cost: 9 Discipline
     distance: 10 wall within 10
@@ -56,5 +56,5 @@ metadata:
 name: Wall of Ice
 target: Special
 type: feature
-usage: Main action
+usage: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 ```

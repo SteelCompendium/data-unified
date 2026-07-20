@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: censor
 distance: '[Melee](../../../../rule/combat/melee.md) 1'
 effect: Each enemy [adjacent](../../../../rule/combat/adjacent.md) to the target is [pushed](../../../../movement/forced-movement.md) away from the target up to a number of squares equal to your [Presence](../../../../rule/character/presence.md) score.
@@ -41,7 +41,7 @@ keywords:
     - '[Strike](../../../../rule/combat/strike.md)'
     - Weapon
 metadata:
-    action_type: Main action
+    action_type: '[Main action](../../../../rule/combat/turn.md)'
     class: censor
     distance: '[Melee](../../../../rule/combat/melee.md) 1'
     effect: Each enemy [adjacent](../../../../rule/combat/adjacent.md) to the target is [pushed](../../../../movement/forced-movement.md) away from the target up to a number of squares equal to your [Presence](../../../../rule/character/presence.md) score.
@@ -63,5 +63,5 @@ metadata:
 name: Your Allies Cannot Save You!
 target: One creature or object
 type: feature
-usage: Main action
+usage: '[Main action](../../../../rule/combat/turn.md)'
 ```

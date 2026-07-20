@@ -1,5 +1,5 @@
 ---
-action_type: Free triggered
+action_type: Free [triggered](../../../../rule/combat/triggered-action.md)
 class: conduit
 cost: 11 Piety
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
@@ -21,7 +21,7 @@ type: ability
 
 *Your death will fuel our [victory](../../../../rule/resource/victories.md).*
 
-| **Magic, [Ranged](../../../../rule/combat/ranged.md)**  |  **Free triggered** |
+| **Magic, [Ranged](../../../../rule/combat/ranged.md)**  |  **Free [triggered](../../../../rule/combat/triggered-action.md)** |
 |--------------------|--------------------:|
 | **📏 [Ranged](../../../../rule/combat/ranged.md) 10**   | **🎯 One creature** |
 

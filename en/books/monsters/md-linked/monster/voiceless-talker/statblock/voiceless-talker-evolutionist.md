@@ -31,7 +31,7 @@ type: statblock
 
 > ⚔️ **Psionic Intrusion ([Signature Ability](../../../rule/combat/signature-ability.md))**
 >
-> | **Melee, Psionic, Ranged, Strike** |                 **Main action** |
+> | **Melee, Psionic, Ranged, Strike** |                 **[Main action](../../../rule/combat/turn.md)** |
 > |------------------------------------|--------------------------------:|
 > | **📏 Melee 1 or ranged 5**         | **🎯 Two creatures or objects** |
 >
@@ -43,7 +43,7 @@ type: statblock
 
 > 🏹 **Carpe Quadratum**
 >
-> | **Psionic, Ranged** |        **Maneuver** |
+> | **Psionic, Ranged** |        **[Maneuver](../../../rule/combat/turn.md)** |
 > |---------------------|--------------------:|
 > | **📏 Ranged 5**     | **🎯 One creature** |
 >

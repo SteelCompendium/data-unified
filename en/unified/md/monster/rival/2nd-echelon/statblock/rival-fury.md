@@ -29,7 +29,7 @@ type: statblock
 
 > 🗡 **Thunderous Slam ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 1**            | **🎯 Two creatures or objects** |
 >
@@ -43,7 +43,7 @@ type: statblock
 
 > 🗡 **Roughed Up (3 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
-> | **Melee, Strike, Weapon** |     **Main action** |
+> | **Melee, Strike, Weapon** |     **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |---------------------------|--------------------:|
 > | **📏 Melee 1**            | **🎯 One creature** |
 >

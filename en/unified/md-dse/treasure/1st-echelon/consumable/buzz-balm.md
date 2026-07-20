@@ -6,12 +6,14 @@ file_dpath: treasure/1st-echelon/consumable
 flavor: This cooling orange salve crackles and pops when exposed to the air.
 item_id: buzz-balm
 item_name: Buzz Balm
+item_prerequisite: An ounce of demon honey
 keywords:
     - Magic
     - Oil
 name: Buzz Balm
 project_goal: "45"
 project_roll_characteristic: '[Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) or [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)'
+project_source: Texts or lore in Kalliak
 scc: mcdm.heroes.v1/treasure.1st-echelon.consumable/buzz-balm
 source: mcdm.heroes.v1
 treasure_type: consumable

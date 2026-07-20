@@ -12,9 +12,9 @@ keywords:
     - '[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)'
     - Weapon
 metadata:
-    action_type: Main action
+    action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: censor
-    content: "\n*You strike a foe and create a fleet of divine shields that protect your allies.*\n\n| **[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), Weapon** |          **Main action** |\n|---------------------------|-------------------------:|\n| **\U0001F4CF [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1**            |      **\U0001F3AF One creature** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc.v1:mcdm.heroes.v1/rule.character/might):**\n\n- **≤11:** 10 + M damage; you and each ally [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to you gain 10 [temporary Stamina](scc.v1:mcdm.heroes.v1/rule.health/temporary-stamina)\n- **12-16:** 14 + M damage; you and each ally [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to you gain 15 [temporary Stamina](scc.v1:mcdm.heroes.v1/rule.health/temporary-stamina)\n- **17+:** 20 + M damage; you and each ally [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to you gain 20 [temporary Stamina](scc.v1:mcdm.heroes.v1/rule.health/temporary-stamina)"
+    content: "\n*You strike a foe and create a fleet of divine shields that protect your allies.*\n\n| **[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), Weapon** |          **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|---------------------------|-------------------------:|\n| **\U0001F4CF [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1**            |      **\U0001F3AF One creature** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc.v1:mcdm.heroes.v1/rule.character/might):**\n\n- **≤11:** 10 + M damage; you and each ally [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to you gain 10 [temporary Stamina](scc.v1:mcdm.heroes.v1/rule.health/temporary-stamina)\n- **12-16:** 14 + M damage; you and each ally [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to you gain 15 [temporary Stamina](scc.v1:mcdm.heroes.v1/rule.health/temporary-stamina)\n- **17+:** 20 + M damage; you and each ally [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to you gain 20 [temporary Stamina](scc.v1:mcdm.heroes.v1/rule.health/temporary-stamina)"
     distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
     feature_type: ability
     flavor: You strike a foe and create a fleet of divine shields that protect your allies.
@@ -32,4 +32,4 @@ metadata:
 name: Shield of the Righteous
 target: One creature
 type: feature
-usage: Main action
+usage: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'

@@ -30,7 +30,7 @@ type: statblock
 
 > 🏹 **Necro Beam ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
-> | **Psionic, Ranged, Strike** |               **Main action** |
+> | **Psionic, Ranged, Strike** |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-----------------------------|------------------------------:|
 > | **📏 Ranged 10**            | **🎯 One creature or object** |
 >

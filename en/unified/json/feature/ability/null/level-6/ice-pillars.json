@@ -20,9 +20,9 @@
     "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)"
   ],
   "metadata": {
-    "action_type": "Main action",
+    "action_type": "[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)",
     "class": "null",
-    "content": "\n*Pillars of ice erupt from the ground and launch your foes into the air.*\n\n| **Psionic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)** |                   **Main action** |\n|---------------------|----------------------------------:|\n| **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**    | **🎯 Three creatures or objects** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition):**\n\n- **≤11:** Vertical [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 6\n- **12-16:** Vertical [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 8\n- **17+:** Vertical [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 10\n\n**Effect:** The pillars vanish as soon as the effects of the [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) are resolved.",
+    "content": "\n*Pillars of ice erupt from the ground and launch your foes into the air.*\n\n| **Psionic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)** |                   **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|---------------------|----------------------------------:|\n| **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**    | **🎯 Three creatures or objects** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition):**\n\n- **≤11:** Vertical [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 6\n- **12-16:** Vertical [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 8\n- **17+:** Vertical [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 10\n\n**Effect:** The pillars vanish as soon as the effects of the [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) are resolved.",
     "distance": "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10",
     "feature_type": "ability",
     "flavor": "Pillars of ice erupt from the ground and launch your foes into the air.",
@@ -43,5 +43,5 @@
   "name": "Ice Pillars",
   "target": "Three creatures or objects",
   "type": "feature",
-  "usage": "Main action"
+  "usage": "[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)"
 }

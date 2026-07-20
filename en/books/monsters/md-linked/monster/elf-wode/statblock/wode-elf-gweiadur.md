@@ -31,7 +31,7 @@ type: statblock
 
 > 🏹 **Snare Bow (Signature Ability)**
 >
-> | **Ranged, Strike, Weapon** |               **Main action** |
+> | **Ranged, Strike, Weapon** |               **[Main action](../../../rule/combat/turn.md)** |
 > |----------------------------|------------------------------:|
 > | **📏 Ranged 15**           | **🎯 One creature or object** |
 >
@@ -47,7 +47,7 @@ type: statblock
 
 > 🔳 **You Activated My Trap! (3 [Malice](../../../rule/monster/malice.md))**
 >
-> | **Area, Magic, Ranged** |                  **Maneuver** |
+> | **Area, Magic, Ranged** |                  **[Maneuver](../../../rule/combat/turn.md)** |
 > |-------------------------|------------------------------:|
 > | **📏 3 cube within 10** | **🎯 Each enemy in the area** |
 >

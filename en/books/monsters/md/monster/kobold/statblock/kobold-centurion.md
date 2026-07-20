@@ -28,7 +28,7 @@ type: statblock
 
 > ⚔️ **Pilum (Signature Ability)**
 >
-> | **Melee, Ranged, Strike, Weapon** |                 **Main action** |
+> | **Melee, Ranged, Strike, Weapon** |                 **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-----------------------------------|--------------------------------:|
 > | **📏 Melee 1 or ranged 10**       | **🎯 Two creatures or objects** |
 >
@@ -44,7 +44,7 @@ type: statblock
 
 > 🏹 **Concentrate All Fire on That Hero!**
 >
-> | **Ranged**       |     **Maneuver** |
+> | **Ranged**       |     **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |------------------|-----------------:|
 > | **📏 Ranged 10** | **🎯 One enemy** |
 >
@@ -52,7 +52,7 @@ type: statblock
 
 > ❗️ **Testudo!**
 >
-> | **Area**       |         **Triggered action** |
+> | **Area**       |         **[Triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |
 > |----------------|-----------------------------:|
 > | **📏 5 burst** | **🎯 Each ally in the area** |
 >

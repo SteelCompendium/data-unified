@@ -1,5 +1,5 @@
 ---
-action_type: Free triggered
+action_type: Free [triggered](../../../../rule/combat/triggered-action.md)
 class: "null"
 cost: 9 Discipline
 distance: '[Melee](../../../../rule/combat/melee.md) 1'
@@ -26,7 +26,7 @@ type: ability
 
 *You suddenly strike an enemy, then grab them in a psionically enhanced grip.*
 
-| **[Melee](../../../../rule/combat/melee.md), Psionic, [Strike](../../../../rule/combat/strike.md), Weapon** |  **Free triggered** |
+| **[Melee](../../../../rule/combat/melee.md), Psionic, [Strike](../../../../rule/combat/strike.md), Weapon** |  **Free [triggered](../../../../rule/combat/triggered-action.md)** |
 |------------------------------------|--------------------:|
 | **📏 [Melee](../../../../rule/combat/melee.md) 1**                     | **🎯 One creature** |
 

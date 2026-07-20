@@ -13,7 +13,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *You focus your [null field](../level-1/null-field.md) into a pressure point strike that prevents your foe from channeling sorcery.*
 
-| **[Melee](../../../rule/combat/melee.md), Psionic, [Strike](../../../rule/combat/strike.md), Weapon** |     **Main action** |
+| **[Melee](../../../rule/combat/melee.md), Psionic, [Strike](../../../rule/combat/strike.md), Weapon** |     **[Main action](../../../rule/combat/turn.md)** |
 |------------------------------------|--------------------:|
 | **📏 [Melee](../../../rule/combat/melee.md) 1**                     | **🎯 One creature** |
 
@@ -30,7 +30,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *You throw your foe out of phase with this manifold, causing them to harm other enemies as they return.*
 
-| **[Melee](../../../rule/combat/melee.md), Psionic, [Strike](../../../rule/combat/strike.md), Weapon** |     **Main action** |
+| **[Melee](../../../rule/combat/melee.md), Psionic, [Strike](../../../rule/combat/strike.md), Weapon** |     **[Main action](../../../rule/combat/turn.md)** |
 |------------------------------------|--------------------:|
 | **📏 [Melee](../../../rule/combat/melee.md) 1**                     | **🎯 One creature** |
 
@@ -47,7 +47,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *You warp reality to grow a limb for just a moment and make a single devastating attack.*
 
-| **Area, Psionic**      |               **Main action** |
+| **Area, Psionic**      |               **[Main action](../../../rule/combat/turn.md)** |
 |------------------------|------------------------------:|
 | **📏 3 [cube](../../../rule/combat/cube.md) within 1** | **🎯 Each enemy in the area** |
 
@@ -62,7 +62,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *You disrupt an enemy's strike and create a [feedback loop](../../ability/talent/level-1/feedback-loop.md) in their mind, preventing them from focusing on future attacks.*
 
-| **Psionic**            |           **Free triggered** |
+| **Psionic**            |           **Free [triggered](../../../rule/combat/triggered-action.md)** |
 |------------------------|-----------------------------:|
 | **📏 Self; see below** |  **🎯 Self or one creature** |
 

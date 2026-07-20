@@ -7,6 +7,7 @@ file_basename: violent
 file_dpath: monster/minion/summoner/demon/statblock
 flavor: The violents are lanky, oily bipeds with bright red flesh that contort and snap their bodies into unassuming objects. Their mimicry is particularly precise, to the point where it's unclear whether their victims die from the surprise or the violent transformation process first.
 free_strike: 4
+free_strike_damage_type: Corruption
 immunities: []
 intuition: -1
 item_id: violent

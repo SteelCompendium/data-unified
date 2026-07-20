@@ -14,9 +14,9 @@ keywords:
     - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'
     - '[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)'
 metadata:
-    action_type: Main action
+    action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: conduit
-    content: "\n*You bend the fate of a foe, willing them to die.*\n\n| **Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)** |     **Main action** |\n|---------------------------|--------------------:|\n| **\U0001F4CF [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**          | **\U0001F3AF One creature** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition):**\n\n- **≤11:** 9 + I corruption damage; R < WEAK, [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)\n- **12-16:** 14 + I corruption damage; R < AVERAGE, [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)\n- **17+:** 19 + I corruption damage; R < STRONG, [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)\n\n**Effect:** If this damage kills the target, you and each ally within [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance) can spend a [Recovery](scc.v1:mcdm.heroes.v1/rule.health/recoveries)."
+    content: "\n*You bend the fate of a foe, willing them to die.*\n\n| **Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)** |     **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|---------------------------|--------------------:|\n| **\U0001F4CF [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**          | **\U0001F3AF One creature** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition):**\n\n- **≤11:** 9 + I corruption damage; R < WEAK, [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)\n- **12-16:** 14 + I corruption damage; R < AVERAGE, [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)\n- **17+:** 19 + I corruption damage; R < STRONG, [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)\n\n**Effect:** If this damage kills the target, you and each ally within [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance) can spend a [Recovery](scc.v1:mcdm.heroes.v1/rule.health/recoveries)."
     distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
     feature_type: ability
     flavor: You bend the fate of a foe, willing them to die.
@@ -35,4 +35,4 @@ metadata:
 name: Your Story Ends Here
 target: One creature
 type: feature
-usage: Main action
+usage: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'

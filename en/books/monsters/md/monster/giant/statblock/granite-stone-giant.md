@@ -30,7 +30,7 @@ type: statblock
 
 > 🗡 **Jagged Stone Club (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 3**            | **🎯 Two creatures or objects** |
 >
@@ -44,7 +44,7 @@ type: statblock
 
 > ❇️ **Crag Burst (3 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
-> | **Area**       |                          **Main action** |
+> | **Area**       |                          **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |----------------|-----------------------------------------:|
 > | **📏 2 burst** | **🎯 Each enemy and object in the area** |
 >
@@ -58,7 +58,7 @@ type: statblock
 
 > 👤 **Castle Stone Shape**
 >
-> | **-**       | **Maneuver** |
+> | **-**       | **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
@@ -66,7 +66,7 @@ type: statblock
 
 > ❗️ **Pillar**
 >
-> | **Melee**      |                     **Triggered action** |
+> | **Melee**      |                     **[Triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |
 > |----------------|-----------------------------------------:|
 > | **📏 Melee 3** | **🎯 The triggering creature or object** |
 >

@@ -29,7 +29,7 @@ type: statblock
 
 > 🗡 **Gore (Signature Ability)**
 >
-> | **Charge, Melee, Strike, Weapon** |               **Main action** |
+> | **Charge, Melee, Strike, Weapon** |               **[Main action](../../../rule/combat/turn.md)** |
 > |-----------------------------------|------------------------------:|
 > | **📏 Melee 1**                    | **🎯 One creature or object** |
 >
@@ -47,7 +47,7 @@ type: statblock
 
 > 👤 **Where I End the Woods Begin (3 [Malice](../../../rule/monster/malice.md))**
 >
-> | **-**       | **Maneuver** |
+> | **-**       | **[Maneuver](../../../rule/combat/turn.md)** |
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >

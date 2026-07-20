@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: shadow
 distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1 or [ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 5'
 effect: If the target has none of your allies [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to them, you gain 1 [surge](scc.v1:mcdm.heroes.v1/rule.resource/surge) before making the [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll).
@@ -43,7 +43,7 @@ keywords:
     - '[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)'
     - Weapon
 metadata:
-    action_type: Main action
+    action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: shadow
     distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1 or [ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 5'
     effect: If the target has none of your allies [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to them, you gain 1 [surge](scc.v1:mcdm.heroes.v1/rule.resource/surge) before making the [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll).
@@ -66,5 +66,5 @@ metadata:
 name: I Work Better Alone
 target: One creature
 type: feature
-usage: Main action
+usage: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 ```

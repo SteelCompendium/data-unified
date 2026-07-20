@@ -33,7 +33,7 @@ weaknesses:
 
 > 🗡 **Accursed Slam ([Signature Ability](../../../../rule/combat/signature-ability.md))**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](../../../../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 1**            | **🎯 Two creatures or objects** |
 >
@@ -47,7 +47,7 @@ weaknesses:
 
 > 🏹 **Binding Curse (1 [Malice](../../../../rule/monster/malice.md))**
 >
-> | **Magic, Ranged** |     **Main action** |
+> | **Magic, Ranged** |     **[Main action](../../../../rule/combat/turn.md)** |
 > |-------------------|--------------------:|
 > | **📏 Ranged 20**  | **🎯 One creature** |
 >
@@ -63,7 +63,7 @@ weaknesses:
 
 > ❗️ **Summon My Guard (2 [Malice](../../../../rule/monster/malice.md))**
 >
-> | **Ranged**       | **Triggered action** |
+> | **Ranged**       | **[Triggered action](../../../../rule/combat/triggered-action.md)** |
 > |------------------|---------------------:|
 > | **📏 Ranged 10** |       **🎯 Special** |
 >

@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: fury
 cost: 11 Ferocity
 distance: 5 [cube](../../../../rule/combat/cube.md) within 10
@@ -24,7 +24,7 @@ type: ability
 
 *You summon your [primordial storm](../../../fury/stormwight-kits/primordial-storm.md).*
 
-| **Area, Magic, [Ranged](../../../../rule/combat/ranged.md)** |               **Main action** |
+| **Area, Magic, [Ranged](../../../../rule/combat/ranged.md)** |               **[Main action](../../../../rule/combat/turn.md)** |
 |-------------------------|------------------------------:|
 | **📏 5 [cube](../../../../rule/combat/cube.md) within 10** | **🎯 Each enemy in the area** |
 

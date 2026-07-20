@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: troubadour
 cost: 7 Drama
 cost_amount: "7"
@@ -48,7 +48,7 @@ keywords:
     - '[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)'
     - Weapon
 metadata:
-    action_type: Main action
+    action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: troubadour
     cost: 7 Drama
     distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1 or [ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
@@ -72,5 +72,5 @@ metadata:
 name: Star Solo
 target: One creature or object
 type: feature
-usage: Main action
+usage: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 ```

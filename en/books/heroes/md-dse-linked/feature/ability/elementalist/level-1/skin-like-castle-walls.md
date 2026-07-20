@@ -1,5 +1,5 @@
 ---
-action_type: Triggered
+action_type: '[Triggered](../../../../rule/combat/triggered-action.md)'
 class: elementalist
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
 effect: The target takes half the damage.
@@ -38,7 +38,7 @@ keywords:
     - Magic
     - '[Ranged](../../../../rule/combat/ranged.md)'
 metadata:
-    action_type: Triggered
+    action_type: '[Triggered](../../../../rule/combat/triggered-action.md)'
     class: elementalist
     distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
     effect: The target takes half the damage.
@@ -60,5 +60,5 @@ name: Skin Like Castle Walls
 target: Self or one ally
 trigger: The target takes damage.
 type: feature
-usage: Triggered
+usage: '[Triggered](../../../../rule/combat/triggered-action.md)'
 ```

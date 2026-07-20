@@ -3,6 +3,7 @@ agility: 0
 cost: 3 essence for two minions
 flavor: This pixie flies on a delicate array of vibrant flower petals for wings. The color drains from their wings as they call forth acid rain showers.
 free_strike: 5
+free_strike_damage_type: Acid
 immunities:
     - Acid R
 intuition: 0
@@ -34,7 +35,7 @@ This pixie flies on a delicate array of vibrant flower petals for wings. The col
 
 > 🏹 **Burning/Healing Rain 2d10 + R (Signature Ability)**
 >
-> | **Magic, Ranged, Strike** | **Main action** |
+> | **Magic, Ranged, Strike** | **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |---------------------------|----------------:|
 > | **📏 Ranged 5** | **🎯 One creature or object per minion** |
 >

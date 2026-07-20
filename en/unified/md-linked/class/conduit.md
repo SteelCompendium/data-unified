@@ -211,7 +211,7 @@ You have the following ability.
 
 *An animal spirit is drawn to you, sharing their senses with you and serving you faithfully.*
 
-| **Magic**   |  **Main action** |
+| **Magic**   |  **[Main action](../rule/combat/turn.md)** |
 |-------------|-----------------:|
 | **📏 Self** |      **🎯 Self** |
 
@@ -226,7 +226,7 @@ You have the following ability.
 
 *You commune with the lingering soul of the recently dead.*
 
-| **Magic**      |            **Maneuver**  |
+| **Magic**      |            **[Maneuver](../rule/combat/turn.md)**  |
 |----------------|-------------------------:|
 | **📏 [Melee](../rule/combat/melee.md) 1** | **🎯 One dead creature** |
 
@@ -241,7 +241,7 @@ You have the following ability.
 
 *You craft objects with the power of your mind.*
 
-| **Magic**                |  **Maneuver** |
+| **Magic**                |  **[Maneuver](../rule/combat/turn.md)** |
 |--------------------------|--------------:|
 | **📏 Self**              |   **🎯 Self** |
 
@@ -280,7 +280,7 @@ You have the following ability, which you can use once on your [turn](../rule/co
 
 *Your divine energy restores the righteous.*
 
-| **Magic, [Ranged](../rule/combat/ranged.md)**          |            **Maneuver** |
+| **Magic, [Ranged](../rule/combat/ranged.md)**          |            **[Maneuver](../rule/combat/turn.md)** |
 |----------------------------|------------------------:|
 | **📏 [Ranged](../rule/combat/ranged.md) 10**           | **🎯 Self or one ally** |
 
@@ -302,7 +302,7 @@ You have the following ability, which can be used as a [ranged](../rule/combat/r
 
 *You unleash a blast of holy light upon your foe.*
 
-| **Magic, [Ranged](../rule/combat/ranged.md), [Strike](../rule/combat/strike.md)**  |               **Main action** |
+| **Magic, [Ranged](../rule/combat/ranged.md), [Strike](../rule/combat/strike.md)**  |               **[Main action](../rule/combat/turn.md)** |
 |----------------------------|------------------------------:|
 | **📏 [Ranged](../rule/combat/ranged.md) 10**           | **🎯 One creature or object** |
 
@@ -323,7 +323,7 @@ Choose one of the following [triggered actions](../rule/combat/triggered-action.
 
 *You invigorate an attacking ally with divine energy.*
 
-| **Magic, [Ranged](../rule/combat/ranged.md)**      |        **Triggered** |
+| **Magic, [Ranged](../rule/combat/ranged.md)**      |        **[Triggered](../rule/combat/triggered-action.md)** |
 |------------------------|---------------------:|
 | **📏 [Ranged](../rule/combat/ranged.md) 10**       |      **🎯 One ally** |
 
@@ -338,7 +338,7 @@ Choose one of the following [triggered actions](../rule/combat/triggered-action.
 
 *Your holy word saps an attacking enemy's strength.*
 
-| **Magic, [Ranged](../rule/combat/ranged.md)**  |     **Triggered** |
+| **Magic, [Ranged](../rule/combat/ranged.md)**  |     **[Triggered](../rule/combat/triggered-action.md)** |
 |--------------------|------------------:|
 | **📏 [Ranged](../rule/combat/ranged.md) 10**   |   **🎯 One ally** |
 
@@ -407,7 +407,7 @@ Choose two [signature abilities](../rule/combat/signature-ability.md) from the f
 
 *Burning radiance falls upon your foe, transferring some of their energy to a nearby ally.*
 
-| **Magic, [Ranged](../rule/combat/ranged.md), [Strike](../rule/combat/strike.md)** |               **Main action** |
+| **Magic, [Ranged](../rule/combat/ranged.md), [Strike](../rule/combat/strike.md)** |               **[Main action](../rule/combat/turn.md)** |
 |---------------------------|------------------------------:|
 | **📏 [Ranged](../rule/combat/ranged.md) 10**          | **🎯 One creature or object** |
 
@@ -424,7 +424,7 @@ Choose two [signature abilities](../rule/combat/signature-ability.md) from the f
 
 *You drain the energy from your target to revitalize yourself or an ally.*
 
-| **Magic, [Melee](../rule/combat/melee.md), [Strike](../rule/combat/strike.md)** |     **Main action** |
+| **Magic, [Melee](../rule/combat/melee.md), [Strike](../rule/combat/strike.md)** |     **[Main action](../rule/combat/turn.md)** |
 |--------------------------|--------------------:|
 | **📏 [Melee](../rule/combat/melee.md) 1**           | **🎯 One creature** |
 
@@ -441,7 +441,7 @@ Choose two [signature abilities](../rule/combat/signature-ability.md) from the f
 
 *A tendril of divine energy shoots forth to draw in your foe.*
 
-| **Magic, [Ranged](../rule/combat/ranged.md), [Strike](../rule/combat/strike.md)**  |               **Main action** |
+| **Magic, [Ranged](../rule/combat/ranged.md), [Strike](../rule/combat/strike.md)**  |               **[Main action](../rule/combat/turn.md)** |
 |----------------------------|------------------------------:|
 | **📏 [Ranged](../rule/combat/ranged.md) 10**           | **🎯 One creature or object** |
 
@@ -456,7 +456,7 @@ Choose two [signature abilities](../rule/combat/signature-ability.md) from the f
 
 *A rain of holy light scours your enemies and repositions your allies.*
 
-| **Area, Magic**  |               **Main action** |
+| **Area, Magic**  |               **[Main action](../rule/combat/turn.md)** |
 |------------------|------------------------------:|
 | **📏 2 [burst](../rule/combat/burst.md)**   | **🎯 Each enemy in the area** |
 
@@ -473,7 +473,7 @@ Choose two [signature abilities](../rule/combat/signature-ability.md) from the f
 
 *Divine magic tears at your foe and defends a nearby friend.*
 
-| **Magic, [Ranged](../rule/combat/ranged.md), [Strike](../rule/combat/strike.md)**  |     **Main action** |
+| **Magic, [Ranged](../rule/combat/ranged.md), [Strike](../rule/combat/strike.md)**  |     **[Main action](../rule/combat/turn.md)** |
 |----------------------------|--------------------:|
 | **📏 [Ranged](../rule/combat/ranged.md) 10**           | **🎯 One creature** |
 
@@ -490,7 +490,7 @@ Choose two [signature abilities](../rule/combat/signature-ability.md) from the f
 
 *A blast of judgment disorients your foe.*
 
-| **Magic, [Melee](../rule/combat/melee.md), [Strike](../rule/combat/strike.md)**  |               **Main action** |
+| **Magic, [Melee](../rule/combat/melee.md), [Strike](../rule/combat/strike.md)**  |               **[Main action](../rule/combat/turn.md)** |
 |---------------------------|------------------------------:|
 | **📏 [Melee](../rule/combat/melee.md) 1**            | **🎯 One creature or object** |
 
@@ -505,7 +505,7 @@ Choose two [signature abilities](../rule/combat/signature-ability.md) from the f
 
 *Your quickly uttered prayer lends aggressive divine energy to a friend engaged in [melee](../rule/combat/melee.md).*
 
-| **Magic, [Ranged](../rule/combat/ranged.md), [Strike](../rule/combat/strike.md)**  |     **Main action** |
+| **Magic, [Ranged](../rule/combat/ranged.md), [Strike](../rule/combat/strike.md)**  |     **[Main action](../rule/combat/turn.md)** |
 |----------------------------|--------------------:|
 | **📏 [Ranged](../rule/combat/ranged.md) 10**           | **🎯 One creature** |
 
@@ -522,7 +522,7 @@ Choose two [signature abilities](../rule/combat/signature-ability.md) from the f
 
 *A bolt of holy energy saps the life from a foe.*
 
-| **Magic, [Ranged](../rule/combat/ranged.md), [Strike](../rule/combat/strike.md)**  |               **Main action** |
+| **Magic, [Ranged](../rule/combat/ranged.md), [Strike](../rule/combat/strike.md)**  |               **[Main action](../rule/combat/turn.md)** |
 |----------------------------|------------------------------:|
 | **📏 [Ranged](../rule/combat/ranged.md) 10**           | **🎯 One creature or object** |
 
@@ -545,7 +545,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 *You ask your [saint](../rule/world/saint.md) for thunder and your prayer is answered.*
 
-| **Area, Magic, [Ranged](../rule/combat/ranged.md)** |               **Main action** |
+| **Area, Magic, [Ranged](../rule/combat/ranged.md)** |               **[Main action](../rule/combat/turn.md)** |
 |-------------------------|------------------------------:|
 | **📏 3 [cube](../rule/combat/cube.md) within 10** | **🎯 Each enemy in the area** |
 
@@ -562,7 +562,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 *A brilliant column of holy light appears on the battlefield, striking out at nearby enemies.*
 
-| **Magic, [Ranged](../rule/combat/ranged.md)**  | **Main action** |
+| **Magic, [Ranged](../rule/combat/ranged.md)**  | **[Main action](../rule/combat/turn.md)** |
 |--------------------|----------------:|
 | **📏 [Ranged](../rule/combat/ranged.md) 10**   |  **🎯 Special** |
 
@@ -573,7 +573,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 *Your divine [fury](fury.md) is a hammer that crashes down upon the unrighteous.*
 
-| **Magic, [Ranged](../rule/combat/ranged.md), [Strike](../rule/combat/strike.md)**  |               **Main action** |
+| **Magic, [Ranged](../rule/combat/ranged.md), [Strike](../rule/combat/strike.md)**  |               **[Main action](../rule/combat/turn.md)** |
 |----------------------------|------------------------------:|
 | **📏 [Ranged](../rule/combat/ranged.md) 10**           | **🎯 One creature or object** |
 
@@ -588,7 +588,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 *After some holy lightning, your enemy will think twice about their next attack.*
 
-| **Magic, [Ranged](../rule/combat/ranged.md), [Strike](../rule/combat/strike.md)**  |     **Main action** |
+| **Magic, [Ranged](../rule/combat/ranged.md), [Strike](../rule/combat/strike.md)**  |     **[Main action](../rule/combat/turn.md)** |
 |----------------------------|--------------------:|
 | **📏 [Ranged](../rule/combat/ranged.md) 10**           | **🎯 One creature** |
 
@@ -609,7 +609,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 *Cursed by you, your enemy takes more damage from your allies.*
 
-| **Magic, [Ranged](../rule/combat/ranged.md), [Strike](../rule/combat/strike.md)**  |               **Main action** |
+| **Magic, [Ranged](../rule/combat/ranged.md), [Strike](../rule/combat/strike.md)**  |               **[Main action](../rule/combat/turn.md)** |
 |----------------------------|------------------------------:|
 | **📏 [Ranged](../rule/combat/ranged.md) 10**           | **🎯 One creature or object** |
 
@@ -624,7 +624,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 *Fear of divine judgment overwhelms your foe.*
 
-| **Magic, [Ranged](../rule/combat/ranged.md), [Strike](../rule/combat/strike.md)**  |                      **Main action** |
+| **Magic, [Ranged](../rule/combat/ranged.md), [Strike](../rule/combat/strike.md)**  |                      **[Main action](../rule/combat/turn.md)** |
 |----------------------------|-------------------------------------:|
 | **📏 [Ranged](../rule/combat/ranged.md) 10**           |                  **🎯 One creature** |
 
@@ -639,7 +639,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 *The heroes' armor glows with golden light, granting divine protection.*
 
-| **Magic, [Ranged](../rule/combat/ranged.md)**        |       **Maneuver** |
+| **Magic, [Ranged](../rule/combat/ranged.md)**        |       **[Maneuver](../rule/combat/turn.md)** |
 |--------------------------|-------------------:|
 | **📏 [Ranged](../rule/combat/ranged.md) 10**         | **🎯 Four allies** |
 
@@ -656,7 +656,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 *You inspire your allies with tales of your [saint](../rule/world/saint.md)'s great deeds.*
 
-| **Area, Magic** |              **Main action** |
+| **Area, Magic** |              **[Main action](../rule/combat/turn.md)** |
 |-----------------|-----------------------------:|
 | **📏 4 [burst](../rule/combat/burst.md)**  | **🎯 Each ally in the area** |
 
@@ -704,7 +704,7 @@ Choose one of your domains. You gain a [heroic ability](../rule/general/heroic-a
 
 *Your enemies suffer their fate; your allies embrace their destiny!*
 
-| **Magic, [Ranged](../rule/combat/ranged.md)**  |        **Main action** |
+| **Magic, [Ranged](../rule/combat/ranged.md)**  |        **[Main action](../rule/combat/turn.md)** |
 |--------------------|-----------------------:|
 | **📏 [Ranged](../rule/combat/ranged.md) 10**   | **🎯 Three creatures** |
 
@@ -718,7 +718,7 @@ Choose one of your domains. You gain a [heroic ability](../rule/general/heroic-a
 
 *The gods grant insight revealing where best to strike your enemies.*
 
-| **Magic, [Ranged](../rule/combat/ranged.md)**  |              **Maneuver** |
+| **Magic, [Ranged](../rule/combat/ranged.md)**  |              **[Maneuver](../rule/combat/turn.md)** |
 |--------------------|--------------------------:|
 | **📏 [Ranged](../rule/combat/ranged.md) 10**   | **🎯 Self and each ally** |
 
@@ -729,7 +729,7 @@ Choose one of your domains. You gain a [heroic ability](../rule/general/heroic-a
 
 *You and your allies swap places to confound your foes.*
 
-| **Area, Magic**  |                          **Maneuver** |
+| **Area, Magic**  |                          **[Maneuver](../rule/combat/turn.md)** |
 |------------------|--------------------------------------:|
 | **📏 5 [burst](../rule/combat/burst.md)**   | **🎯 Self and each ally in the area** |
 
@@ -740,7 +740,7 @@ Choose one of your domains. You gain a [heroic ability](../rule/general/heroic-a
 
 *You speak with the voice of your [saint](../rule/world/saint.md), commanding your enemies.*
 
-| **Magic, [Ranged](../rule/combat/ranged.md), [Strike](../rule/combat/strike.md)** |     **Main action** |
+| **Magic, [Ranged](../rule/combat/ranged.md), [Strike](../rule/combat/strike.md)** |     **[Main action](../rule/combat/turn.md)** |
 |---------------------------|--------------------:|
 | **📏 [Ranged](../rule/combat/ranged.md) 10**          | **🎯 One creature** |
 
@@ -755,7 +755,7 @@ Choose one of your domains. You gain a [heroic ability](../rule/general/heroic-a
 
 *Light shines at your command, burning your foes and blessing your allies.*
 
-| **Area, Magic**  |               **Main action** |
+| **Area, Magic**  |               **[Main action](../rule/combat/turn.md)** |
 |------------------|------------------------------:|
 | **📏 3 [burst](../rule/combat/burst.md)**   | **🎯 Each enemy in the area** |
 
@@ -772,7 +772,7 @@ Choose one of your domains. You gain a [heroic ability](../rule/general/heroic-a
 
 *Mystical thorned vines appear at your bidding and bind your foes.*
 
-| **Area, Magic, [Ranged](../rule/combat/ranged.md)**  |               **Main action** |
+| **Area, Magic, [Ranged](../rule/combat/ranged.md)**  |               **[Main action](../rule/combat/turn.md)** |
 |--------------------------|------------------------------:|
 | **📏 3 [cube](../rule/combat/cube.md) within 10**  | **🎯 Each enemy in the area** |
 
@@ -787,7 +787,7 @@ Choose one of your domains. You gain a [heroic ability](../rule/general/heroic-a
 
 *An ally gains strength from their friends.*
 
-| **Magic, [Ranged](../rule/combat/ranged.md)**  |             **Maneuver** |
+| **Magic, [Ranged](../rule/combat/ranged.md)**  |             **[Maneuver](../rule/combat/turn.md)** |
 |--------------------|-------------------------:|
 | **📏 [Ranged](../rule/combat/ranged.md) 10**   | **🎯 Self and one ally** |
 
@@ -798,7 +798,7 @@ Choose one of your domains. You gain a [heroic ability](../rule/general/heroic-a
 
 *The gods reward those who smite their foes.*
 
-| **Magic, [Ranged](../rule/combat/ranged.md)**  |     **Maneuver** |
+| **Magic, [Ranged](../rule/combat/ranged.md)**  |     **[Maneuver](../rule/combat/turn.md)** |
 |--------------------|-----------------:|
 | **📏 [Ranged](../rule/combat/ranged.md) 10**   | **🎯 Each ally** |
 
@@ -809,7 +809,7 @@ Choose one of your domains. You gain a [heroic ability](../rule/general/heroic-a
 
 *You forge a divine connection between two creatures.*
 
-| **Magic, [Ranged](../rule/combat/ranged.md)**  |             **Maneuver** |
+| **Magic, [Ranged](../rule/combat/ranged.md)**  |             **[Maneuver](../rule/combat/turn.md)** |
 |--------------------|-------------------------:|
 | **📏 [Ranged](../rule/combat/ranged.md) 10**   | **🎯 Self and one ally** |
 
@@ -820,7 +820,7 @@ Choose one of your domains. You gain a [heroic ability](../rule/general/heroic-a
 
 *A raging storm appears, striking your foes with lightning and throwing them around with wind.*
 
-| **Area, Magic, [Ranged](../rule/combat/ranged.md)**  |               **Main action** |
+| **Area, Magic, [Ranged](../rule/combat/ranged.md)**  |               **[Main action](../rule/combat/turn.md)** |
 |--------------------------|------------------------------:|
 | **📏 3 [cube](../rule/combat/cube.md) within 10**  | **🎯 Each enemy in the area** |
 
@@ -835,7 +835,7 @@ Choose one of your domains. You gain a [heroic ability](../rule/general/heroic-a
 
 *A marble statue of your deity rises from the earth.*
 
-| **Magic, [Ranged](../rule/combat/ranged.md)**  |   **Maneuver** |
+| **Magic, [Ranged](../rule/combat/ranged.md)**  |   **[Maneuver](../rule/combat/turn.md)** |
 |--------------------|---------------:|
 | **📏 [Ranged](../rule/combat/ranged.md) 10**   | **🎯 Special** |
 
@@ -846,7 +846,7 @@ Choose one of your domains. You gain a [heroic ability](../rule/general/heroic-a
 
 *A holy light is emitted from your body, healing your allies.*
 
-| **Area, Magic**  |              **Main action** |
+| **Area, Magic**  |              **[Main action](../rule/combat/turn.md)** |
 |------------------|-----------------------------:|
 | **📏 3 [aura](../rule/combat/aura.md)**    | **🎯 Each ally in the area** |
 
@@ -871,7 +871,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 *Your divine magic makes a creature appear as what your enemies fear most.*
 
-| **Area, Magic, [Ranged](../rule/combat/ranged.md)**  |               **Main action** |
+| **Area, Magic, [Ranged](../rule/combat/ranged.md)**  |               **[Main action](../rule/combat/turn.md)** |
 |--------------------------|------------------------------:|
 | **📏 5 [cube](../rule/combat/cube.md) within 10**  | **🎯 Each enemy in the area** |
 
@@ -888,7 +888,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 *An ally becomes the wearer of an empowered golden cloak.*
 
-| **Magic, [Ranged](../rule/combat/ranged.md)**         |    **Maneuver** |
+| **Magic, [Ranged](../rule/combat/ranged.md)**         |    **[Maneuver](../rule/combat/turn.md)** |
 |---------------------------|----------------:|
 | **📏 [Ranged](../rule/combat/ranged.md) 10**          | **🎯 One ally** |
 
@@ -899,7 +899,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 *A beam of energy connects a foe to a friend, draining life from one to heal the other.*
 
-| **Magic, [Ranged](../rule/combat/ranged.md), [Strike](../rule/combat/strike.md)** |  **Main action** |
+| **Magic, [Ranged](../rule/combat/ranged.md), [Strike](../rule/combat/strike.md)** |  **[Main action](../rule/combat/turn.md)** |
 |---------------------------|-----------------:|
 | **📏 [Ranged](../rule/combat/ranged.md) 10**          | **🎯 One enemy** |
 
@@ -916,7 +916,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 *Your [saint](../rule/world/saint.md) grants your enemies a vision of pain and fills your allies with healing energy.*
 
-| **Area, Magic**  |               **Main action** |
+| **Area, Magic**  |               **[Main action](../rule/combat/turn.md)** |
 |------------------|------------------------------:|
 | **📏 5 [burst](../rule/combat/burst.md)**   | **🎯 Each enemy in the area** |
 
@@ -982,7 +982,7 @@ You have the following ability.
 
 *You project an illusory [aura](../rule/combat/aura.md) that makes you and allies harder to notice.*
 
-| **Area, Magic** |                         **Maneuver**  |
+| **Area, Magic** |                         **[Maneuver](../rule/combat/turn.md)**  |
 |-----------------|--------------------------------------:|
 | **📏 3 [aura](../rule/combat/aura.md)**   | **🎯 Self and each ally in the area** |
 
@@ -1047,7 +1047,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 *You ignite a foe with holy radiance, rewarding allies who attack them.*
 
-| **Magic, [Ranged](../rule/combat/ranged.md), [Strike](../rule/combat/strike.md)** |     **Main action** |
+| **Magic, [Ranged](../rule/combat/ranged.md), [Strike](../rule/combat/strike.md)** |     **[Main action](../rule/combat/turn.md)** |
 |---------------------------|--------------------:|
 | **📏 [Ranged](../rule/combat/ranged.md) 10**          | **🎯 One creature** |
 
@@ -1064,7 +1064,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 *"If you won't kneel, the gods will make you."*
 
-| **Area, Magic, [Ranged](../rule/combat/ranged.md)**  |               **Main action** |
+| **Area, Magic, [Ranged](../rule/combat/ranged.md)**  |               **[Main action](../rule/combat/turn.md)** |
 |--------------------------|------------------------------:|
 | **📏 4 [cube](../rule/combat/cube.md) within 10**  | **🎯 Each enemy in the area** |
 
@@ -1079,7 +1079,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 *You send yourself or an ally to a divine manifold to instantaneously regain health.*
 
-| **Magic, [Ranged](../rule/combat/ranged.md)**  |            **Maneuver** |
+| **Magic, [Ranged](../rule/combat/ranged.md)**  |            **[Maneuver](../rule/combat/turn.md)** |
 |--------------------|------------------------:|
 | **📏 [Ranged](../rule/combat/ranged.md) 10**   | **🎯 Self or one ally** |
 
@@ -1090,7 +1090,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 *You infuse yourself or an ally with the retributive energy of the gods, waiting to be unleashed.*
 
-| **Magic, [Ranged](../rule/combat/ranged.md)**  | **Maneuver**            |
+| **Magic, [Ranged](../rule/combat/ranged.md)**  | **[Maneuver](../rule/combat/turn.md)**            |
 |--------------------|-------------------------|
 | **📏 [Ranged](../rule/combat/ranged.md) 10**   | **🎯 Self or one ally** |
 
@@ -1139,7 +1139,7 @@ Choose one of your domains. You gain a [heroic ability](../rule/general/heroic-a
 
 *A whirlwind of souls of the dead flies around you at your command.*
 
-| **Area, Magic**  |                     **Maneuver** |
+| **Area, Magic**  |                     **[Maneuver](../rule/combat/turn.md)** |
 |------------------|---------------------------------:|
 | **📏 4 [aura](../rule/combat/aura.md)**    | **🎯 Each creature in the area** |
 
@@ -1150,7 +1150,7 @@ Choose one of your domains. You gain a [heroic ability](../rule/general/heroic-a
 
 *A greatsword streams down from the sky, threatening to pin your foe.*
 
-| **Magic, [Ranged](../rule/combat/ranged.md), [Strike](../rule/combat/strike.md)**  |     **Main action** |
+| **Magic, [Ranged](../rule/combat/ranged.md), [Strike](../rule/combat/strike.md)**  |     **[Main action](../rule/combat/turn.md)** |
 |----------------------------|--------------------:|
 | **📏 [Ranged](../rule/combat/ranged.md) 5**            | **🎯 One creature** |
 
@@ -1165,7 +1165,7 @@ Choose one of your domains. You gain a [heroic ability](../rule/general/heroic-a
 
 *Your body emits a heat that bakes your enemies and inspires your allies.*
 
-| **Area, Magic**  |                              **Maneuver** |
+| **Area, Magic**  |                              **[Maneuver](../rule/combat/turn.md)** |
 |------------------|------------------------------------------:|
 | **📏 4 [aura](../rule/combat/aura.md)**    | **🎯 Self and each creature in the area** |
 
@@ -1176,7 +1176,7 @@ Choose one of your domains. You gain a [heroic ability](../rule/general/heroic-a
 
 *Your allies are covered in spiritual armor.*
 
-| **Area, Magic, [Ranged](../rule/combat/ranged.md)**  |           **Maneuver** | 
+| **Area, Magic, [Ranged](../rule/combat/ranged.md)**  |           **[Maneuver](../rule/combat/turn.md)** |
 |--------------------------|-----------------------:|
 | **📏 [Ranged](../rule/combat/ranged.md) 10**         | **🎯 Three creatures** |
 
@@ -1187,7 +1187,7 @@ Choose one of your domains. You gain a [heroic ability](../rule/general/heroic-a
 
 *You conjure a whirring tank made of blades and metal.*
 
-| **Magic, [Ranged](../rule/combat/ranged.md)** | **Main action** |
+| **Magic, [Ranged](../rule/combat/ranged.md)** | **[Main action](../rule/combat/turn.md)** |
 |-------------------|-----------------|
 | **📏 [Ranged](../rule/combat/ranged.md) 10**  | **🎯 Special**  |
 
@@ -1206,7 +1206,7 @@ Once on each subsequent [turn](../rule/combat/turn.md), you can use a [free mane
 
 *"Now you see us..."*
 
-| **Area, Magic**  |                          **Maneuver** |
+| **Area, Magic**  |                          **[Maneuver](../rule/combat/turn.md)** |
 |------------------|--------------------------------------:|
 | **📏 4 [burst](../rule/combat/burst.md)**   | **🎯 Self and each ally in the area** |
 
@@ -1217,7 +1217,7 @@ Once on each subsequent [turn](../rule/combat/turn.md), you can use a [free mane
 
 *You utter a secret word of destruction known only to deities.*
 
-| **Area, Magic**  |               **Main action** |
+| **Area, Magic**  |               **[Main action](../rule/combat/turn.md)** |
 |------------------|------------------------------:|
 | **📏 4 [burst](../rule/combat/burst.md)**   | **🎯 Each enemy in the area** |
 
@@ -1234,7 +1234,7 @@ Once on each subsequent [turn](../rule/combat/turn.md), you can use a [free mane
 
 *You beseech the gods to give your allies what they need to win the day, and the gods answer.*
 
-| **Magic, [Ranged](../rule/combat/ranged.md)**  |      **Maneuver** |
+| **Magic, [Ranged](../rule/combat/ranged.md)**  |      **[Maneuver](../rule/combat/turn.md)** |
 |--------------------|------------------:|
 | **📏 [Ranged](../rule/combat/ranged.md) 10**   | **🎯 Two allies** |
 
@@ -1245,7 +1245,7 @@ Once on each subsequent [turn](../rule/combat/turn.md), you can use a [free mane
 
 *Lightning [bursts](../rule/combat/burst.md) forth from your body in several directions.*
 
-| **Area, Magic**                    |               **Main action** |
+| **Area, Magic**                    |               **[Main action](../rule/combat/turn.md)** |
 |------------------------------------|------------------------------:|
 | **📏 Three 10 x 1 lines within 1** | **🎯 Each enemy in the area** |
 
@@ -1262,7 +1262,7 @@ Once on each subsequent [turn](../rule/combat/turn.md), you can use a [free mane
 
 *With a gesture, you restore your health and that of your allies.*
 
-| **Area, Magic**  |                       **Main action** |
+| **Area, Magic**  |                       **[Main action](../rule/combat/turn.md)** |
 |------------------|--------------------------------------:|
 | **📏 4 [burst](../rule/combat/burst.md)**   | **🎯 Self and each ally in the area** |
 
@@ -1273,7 +1273,7 @@ Once on each subsequent [turn](../rule/combat/turn.md), you can use a [free mane
 
 *Animal spirits run through the battlefield, trampling your foes.*
 
-| **Area, Magic, [Ranged](../rule/combat/ranged.md)**     |               **Main action** |
+| **Area, Magic, [Ranged](../rule/combat/ranged.md)**     |               **[Main action](../rule/combat/turn.md)** |
 |-----------------------------|------------------------------:|
 | **📏 10 x 2 line within 5** | **🎯 Each enemy in the area** |
 
@@ -1288,7 +1288,7 @@ Once on each subsequent [turn](../rule/combat/turn.md), you can use a [free mane
 
 *You bend the fate of a foe, willing them to die.*
 
-| **Magic, [Ranged](../rule/combat/ranged.md), [Strike](../rule/combat/strike.md)** |     **Main action** |
+| **Magic, [Ranged](../rule/combat/ranged.md), [Strike](../rule/combat/strike.md)** |     **[Main action](../rule/combat/turn.md)** |
 |---------------------------|--------------------:|
 | **📏 [Ranged](../rule/combat/ranged.md) 10**          | **🎯 One creature** |
 
@@ -1350,7 +1350,7 @@ You can maintain bonds with up to three willing creatures using your Invocation 
 
 *You concentrate on a friend and [teleport](../movement/teleport.md) to them.*
 
-| **Magic, [Ranged](../rule/combat/ranged.md)**  |           **Main action** |
+| **Magic, [Ranged](../rule/combat/ranged.md)**  |           **[Main action](../rule/combat/turn.md)** |
 |--------------------|--------------------------:|
 | **📏 [Ranged](../rule/combat/ranged.md) 10**   | **🎯 Self and each ally** |
 
@@ -1397,7 +1397,7 @@ You have the following ability.
 
 *Hey! I'm over here. No, here, numbskull.*
 
-| **Magic, [Ranged](../rule/combat/ranged.md)**  |            **Maneuver** |
+| **Magic, [Ranged](../rule/combat/ranged.md)**  |            **[Maneuver](../rule/combat/turn.md)** |
 |--------------------|------------------------:|
 | **📏 [Ranged](../rule/combat/ranged.md) 10**   | **🎯 Self or one ally** |
 
@@ -1438,7 +1438,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 *Your deity rewards you or an ally on the verge of defeat with a miracle burst of strength and resolve.*
 
-| **Magic, [Ranged](../rule/combat/ranged.md)**  |         **Main action** |
+| **Magic, [Ranged](../rule/combat/ranged.md)**  |         **[Main action](../rule/combat/turn.md)** |
 |--------------------|------------------------:|
 | **📏 [Ranged](../rule/combat/ranged.md) 10**   | **🎯 Self or one ally** |
 
@@ -1449,7 +1449,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 *A protective [aura](../rule/combat/aura.md) defends your allies from harm.*
 
-| **Area, Magic**   |                          **Maneuver** |
+| **Area, Magic**   |                          **[Maneuver](../rule/combat/turn.md)** |
 |-------------------|--------------------------------------:|
 | **📏 5 [aura](../rule/combat/aura.md)**     | **🎯 Self and each ally in the area** |
 
@@ -1460,7 +1460,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 *"The power of the gods is within you, friends. Allow me to unleash it."*
 
-| **Area, Magic**   |                          **Maneuver** |
+| **Area, Magic**   |                          **[Maneuver](../rule/combat/turn.md)** |
 |-------------------|--------------------------------------:|
 | **📏 5 [aura](../rule/combat/aura.md)**     | **🎯 Self and each ally in the area** |
 
@@ -1471,7 +1471,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 *You conjure an angel who moves a foe and heals your allies.*
 
-| **Magic, [Ranged](../rule/combat/ranged.md), [Strike](../rule/combat/strike.md)**  |               **Main action** |
+| **Magic, [Ranged](../rule/combat/ranged.md), [Strike](../rule/combat/strike.md)**  |               **[Main action](../rule/combat/turn.md)** |
 |----------------------------|------------------------------:|
 | **📏 [Ranged](../rule/combat/ranged.md) 10**           | **🎯 One creature or object** |
 
@@ -1521,7 +1521,7 @@ Choose one of your domains. You gain a [heroic ability](../rule/general/heroic-a
 
 *You speak inspiring words to a friend and spur them to incredible feats.*
 
-| **Magic, [Ranged](../rule/combat/ranged.md)**  |    **Maneuver** |
+| **Magic, [Ranged](../rule/combat/ranged.md)**  |    **[Maneuver](../rule/combat/turn.md)** |
 |--------------------|----------------:|
 | **📏 [Ranged](../rule/combat/ranged.md) 10** | **🎯 One ally** |
 
@@ -1532,7 +1532,7 @@ Choose one of your domains. You gain a [heroic ability](../rule/general/heroic-a
 
 *The gods know you must prevail, and they bless your fate.*
 
-| **Magic, [Ranged](../rule/combat/ranged.md)**  |         **Main action** |
+| **Magic, [Ranged](../rule/combat/ranged.md)**  |         **[Main action](../rule/combat/turn.md)** |
 |--------------------|------------------------:|
 | **📏 [Ranged](../rule/combat/ranged.md) 10**   | **🎯 Self or one ally** |
 
@@ -1543,7 +1543,7 @@ Choose one of your domains. You gain a [heroic ability](../rule/general/heroic-a
 
 *A magic circle extends out from you, barring foes from getting close.*
 
-| **Area, Magic**        | **Maneuver** |
+| **Area, Magic**        | **[Maneuver](../rule/combat/turn.md)** |
 |------------------------|-------------:|
 | **📏 Self; see below** |  **🎯 Self** |
 
@@ -1554,7 +1554,7 @@ Choose one of your domains. You gain a [heroic ability](../rule/general/heroic-a
 
 *From nothing but divine will, you create a powerful ally.*
 
-| **Magic, [Ranged](../rule/combat/ranged.md)**  | **Main action** |
+| **Magic, [Ranged](../rule/combat/ranged.md)**  | **[Main action](../rule/combat/turn.md)** |
 |--------------------|----------------:|
 | **📏 [Ranged](../rule/combat/ranged.md) 10**   |  **🎯 Special** |
 
@@ -1581,7 +1581,7 @@ Additionally, you can use a maneuver to move the dragon up to their [speed](../r
 
 *You summon a divine storm that remains under your control.*
 
-| **Area, Magic, [Ranged](../rule/combat/ranged.md)** |               **Main action** |
+| **Area, Magic, [Ranged](../rule/combat/ranged.md)** |               **[Main action](../rule/combat/turn.md)** |
 |-------------------------|------------------------------:|
 | **📏 5 [cube](../rule/combat/cube.md) within 5**  | **🎯 Each enemy in the area** |
 
@@ -1598,7 +1598,7 @@ Additionally, you can use a maneuver to move the dragon up to their [speed](../r
 
 *You summon darkness that thwarts only your foes.*
 
-| **Area, Magic, [Ranged](../rule/combat/ranged.md)** |  **Main action** |
+| **Area, Magic, [Ranged](../rule/combat/ranged.md)** |  **[Main action](../rule/combat/turn.md)** |
 |-------------------------|-----------------:|
 | **📏 5 [cube](../rule/combat/cube.md) within 10** |   **🎯 Special** |
 
@@ -1609,7 +1609,7 @@ Additionally, you can use a maneuver to move the dragon up to their [speed](../r
 
 *Intense light is emitted from your body, healing your allies.*
 
-| **Magic, [Ranged](../rule/combat/ranged.md)**  |    **Main action** |
+| **Magic, [Ranged](../rule/combat/ranged.md)**  |    **[Main action](../rule/combat/turn.md)** |
 |--------------------|-------------------:|
 | **📏 [Ranged](../rule/combat/ranged.md) 10**   | **🎯 Four allies** |
 
@@ -1620,7 +1620,7 @@ Additionally, you can use a maneuver to move the dragon up to their [speed](../r
 
 *A wall of spinning swords and knives appears where you wish.*
 
-| **Area, Magic, [Ranged](../rule/combat/ranged.md)**  | **Main action** |
+| **Area, Magic, [Ranged](../rule/combat/ranged.md)**  | **[Main action](../rule/combat/turn.md)** |
 |--------------------------|----------------:|
 | **📏 15 wall within 10** |  **🎯 Special** |
 
@@ -1631,7 +1631,7 @@ Additionally, you can use a maneuver to move the dragon up to their [speed](../r
 
 *You call down a sphere of fire that burns your foes to ash.*
 
-| **Area, Magic, [Ranged](../rule/combat/ranged.md)** |               **Main action** |
+| **Area, Magic, [Ranged](../rule/combat/ranged.md)** |               **[Main action](../rule/combat/turn.md)** |
 |-------------------------|------------------------------:|
 | **📏 5 [cube](../rule/combat/cube.md) within 10** | **🎯 Each enemy in the area** |
 
@@ -1646,7 +1646,7 @@ Additionally, you can use a maneuver to move the dragon up to their [speed](../r
 
 *Vines [burst](../rule/combat/burst.md) forth from the ground and bind your foe, slowly closing around them.*
 
-| **Magic, [Ranged](../rule/combat/ranged.md), [Strike](../rule/combat/strike.md)**  |     **Main action** |
+| **Magic, [Ranged](../rule/combat/ranged.md), [Strike](../rule/combat/strike.md)**  |     **[Main action](../rule/combat/turn.md)** |
 |----------------------------|--------------------:|
 | **📏 [Ranged](../rule/combat/ranged.md) 10**           | **🎯 One creature** |
 
@@ -1663,7 +1663,7 @@ Additionally, you can use a maneuver to move the dragon up to their [speed](../r
 
 *Your death will fuel our [victory](../rule/resource/victories.md).*
 
-| **Magic, [Ranged](../rule/combat/ranged.md)**  |  **Free triggered** |
+| **Magic, [Ranged](../rule/combat/ranged.md)**  |  **Free [triggered](../rule/combat/triggered-action.md)** |
 |--------------------|--------------------:|
 | **📏 [Ranged](../rule/combat/ranged.md) 10**   | **🎯 One creature** |
 
@@ -1676,7 +1676,7 @@ Additionally, you can use a maneuver to move the dragon up to their [speed](../r
 
 *You utter a divine word that makes a foe brittle.*
 
-| **Magic, [Ranged](../rule/combat/ranged.md), [Strike](../rule/combat/strike.md)** |               **Main action** |
+| **Magic, [Ranged](../rule/combat/ranged.md), [Strike](../rule/combat/strike.md)** |               **[Main action](../rule/combat/turn.md)** |
 |---------------------------|------------------------------:|
 | **📏 [Ranged](../rule/combat/ranged.md) 10**          | **🎯 One creature or object** |
 

@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](../../../../rule/combat/turn.md)'
 class: fury
 distance: Self
 effect: You can shapeshift into the animal defined by your stormwight kit, into a hybrid form, or back into your true form. While in [animal form](../../../../complication/animal-form.md) or hybrid form, you can speak as you usually do, and you can also speak to animals who share your form. If you are in a negotiation with an animal while in [animal form](../../../../complication/animal-form.md), you treat your [Renown](../../../../rule/resource/renown.md) as 2 higher than usual.
@@ -16,7 +16,7 @@ type: ability
 
 *You assume the form of the animal who channels your ferocity.*
 
-| **Magic**   | **Maneuver** |
+| **Magic**   | **[Maneuver](../../../../rule/combat/turn.md)** |
 |-------------|-------------:|
 | **📏 Self** |  **🎯 Self** |
 

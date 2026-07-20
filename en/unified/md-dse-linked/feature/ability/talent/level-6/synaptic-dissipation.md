@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](../../../../rule/combat/turn.md)'
 class: talent
 cost: 9 Clarity
 cost_amount: "9"
@@ -47,7 +47,7 @@ keywords:
     - '[Strike](../../../../rule/combat/strike.md)'
     - Telepathy
 metadata:
-    action_type: Maneuver
+    action_type: '[Maneuver](../../../../rule/combat/turn.md)'
     class: talent
     cost: 9 Clarity
     distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
@@ -71,5 +71,5 @@ metadata:
 name: Synaptic Dissipation
 target: Special
 type: feature
-usage: Maneuver
+usage: '[Maneuver](../../../../rule/combat/turn.md)'
 ```

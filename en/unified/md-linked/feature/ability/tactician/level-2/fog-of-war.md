@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](../../../../rule/combat/turn.md)'
 class: tactician
 cost: 5 Focus
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
@@ -18,7 +18,7 @@ type: ability
 
 *Your unorthodox strategy causes enemies to lash out in fear, heedless of who they might be attacking.*
 
-| **[Ranged](../../../../rule/combat/ranged.md)**       |         **Maneuver** |
+| **[Ranged](../../../../rule/combat/ranged.md)**       |         **[Maneuver](../../../../rule/combat/turn.md)** |
 |------------------|---------------------:|
 | **📏 [Ranged](../../../../rule/combat/ranged.md) 10** | **🎯 Two creatures** |
 

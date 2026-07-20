@@ -30,7 +30,7 @@ type: statblock
 
 > 🔳 **Marble From a Great Sling (Signature Ability)**
 >
-> | **Area, Ranged, Weapon** |                          **Main action** |
+> | **Area, Ranged, Weapon** |                          **[Main action](../../../rule/combat/turn.md)** |
 > |--------------------------|-----------------------------------------:|
 > | **📏 3 cube within 15**  | **🎯 Each enemy and object in the area** |
 >
@@ -44,7 +44,7 @@ type: statblock
 
 > 🗡 **Far Flung (3 [Malice](../../../rule/monster/malice.md))**
 >
-> | **Melee, Weapon** |               **Main action** |
+> | **Melee, Weapon** |               **[Main action](../../../rule/combat/turn.md)** |
 > |-------------------|------------------------------:|
 > | **📏 Melee 1**    | **🎯 One creature or object** |
 >
@@ -58,7 +58,7 @@ type: statblock
 
 > 🔳 **Polish Stone Shape**
 >
-> | **Area**                    |   **Maneuver** |
+> | **Area**                    |   **[Maneuver](../../../rule/combat/turn.md)** |
 > |-----------------------------|---------------:|
 > | **📏 10 x 2 line within 1** | **🎯 Special** |
 >
@@ -66,7 +66,7 @@ type: statblock
 
 > ❗️ **Break Armor (1 [Malice](../../../rule/monster/malice.md))**
 >
-> | **-**       | **Triggered action** |
+> | **-**       | **[Triggered action](../../../rule/combat/triggered-action.md)** |
 > |-------------|---------------------:|
 > | **📏 Self** |          **🎯 Self** |
 >

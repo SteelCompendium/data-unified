@@ -32,7 +32,7 @@ type: statblock
 
 > 🏹 **Black Flame (Signature Ability)**
 >
-> | **Magic, Ranged, Strike** |               **Main action** |
+> | **Magic, Ranged, Strike** |               **[Main action](../../../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Ranged 10**          | **🎯 One creature or object** |
 >
@@ -44,7 +44,7 @@ type: statblock
 
 > ❗️ **Tempting Offer (Encounter)**
 >
-> | **Ranged, Strike** |      **Free triggered action** |
+> | **Ranged, Strike** |      **Free [triggered action](../../../rule/combat/triggered-action.md)** |
 > |--------------------|-------------------------------:|
 > | **📏 Ranged 10**   | **🎯 The triggering creature** |
 >

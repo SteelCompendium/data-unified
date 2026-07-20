@@ -4,12 +4,18 @@ file_dpath: treasure/leveled/other
 flavor: These rough hand wraps are stained with blood that never comes clean.
 item_id: bloody-hand-wraps
 item_name: Bloody Hand Wraps
+item_prerequisite: One cotton bolt soaked in the blood of six adventurers
 keywords:
     - Hands
     - Psionic
+level_effects:
+    1st: While you wear these hand wraps, any weapon ability that deals [rolled damage](scc.v1:mcdm.heroes.v1/rule.damage/rolled-damage) using your unarmed [strikes](scc.v1:mcdm.heroes.v1/rule.combat/strike) gains a +1 damage [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties). Additionally, once per [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), you can take 5 damage that can't be reduced in any way to use the [Grab](scc.v1:mcdm.heroes.v1/feature.common.maneuvers/grab) maneuver (no action required).
+    5th: The damage [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) granted by the hand wraps increases to +2. Additionally, once per [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), you can take 10 damage that can't be reduced in any way to make a [melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) (no action required). On your [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), you can use the wraps' [melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) option or [Grab](scc.v1:mcdm.heroes.v1/feature.common.maneuvers/grab) maneuver option, but only one.
+    9th: The damage [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) granted by the hand wraps increases to +3. Additionally, once per [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), you can take 15 damage that can't be reduced in any way to use a [signature ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability) (no action required). On your [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), you can use the wraps' [signature ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability) option, [melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) option, or [Grab](scc.v1:mcdm.heroes.v1/feature.common.maneuvers/grab) maneuver option, but only one.
 name: Bloody Hand Wraps
 project_goal: "450"
 project_roll_characteristic: '[Might](scc.v1:mcdm.heroes.v1/rule.character/might), [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility), or [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)'
+project_source: Texts or lore in Caelian
 scc: mcdm.heroes.v1/treasure.leveled.other/bloody-hand-wraps
 source: mcdm.heroes.v1
 treasure_type: other

@@ -33,7 +33,7 @@ with_captain: +3 bonus to speed
 
 > 🗡 **Litigation (Signature Ability)**
 >
-> | **Charge, Magic, Melee, Strike** |                          **Main action** |
+> | **Charge, Magic, Melee, Strike** |                          **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |----------------------------------|-----------------------------------------:|
 > | **📏 Melee 1**                   | **🎯 One creature or object per minion** |
 >

@@ -9,9 +9,9 @@ keywords:
     - Magic
     - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'
 metadata:
-    action_type: Maneuver
+    action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: conduit
-    content: "\n*You infuse yourself or an ally with the retributive energy of the gods, waiting to be unleashed.*\n\n| **Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)**  | **Maneuver**            |\n|--------------------|-------------------------|\n| **\U0001F4CF [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**   | **\U0001F3AF Self or one ally** |\n\n**Effect:** The first time the target is [dying](scc.v1:mcdm.heroes.v1/rule.health/dying) or [winded](scc.v1:mcdm.heroes.v1/rule.health/winded) before the end of the encounter, each enemy within 5 squares of them takes 15 holy damage."
+    content: "\n*You infuse yourself or an ally with the retributive energy of the gods, waiting to be unleashed.*\n\n| **Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)**  | **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)**            |\n|--------------------|-------------------------|\n| **\U0001F4CF [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**   | **\U0001F3AF Self or one ally** |\n\n**Effect:** The first time the target is [dying](scc.v1:mcdm.heroes.v1/rule.health/dying) or [winded](scc.v1:mcdm.heroes.v1/rule.health/winded) before the end of the encounter, each enemy within 5 squares of them takes 15 holy damage."
     distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
     feature_type: ability
     flavor: You infuse yourself or an ally with the retributive energy of the gods, waiting to be unleashed.
@@ -28,4 +28,4 @@ metadata:
 name: Vessel of Retribution
 target: Self or one ally
 type: feature
-usage: Maneuver
+usage: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'

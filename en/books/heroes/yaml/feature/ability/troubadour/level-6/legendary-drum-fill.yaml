@@ -9,9 +9,9 @@ keywords:
     - Area
     - Magic
 metadata:
-    action_type: Maneuver
+    action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: troubadour
-    content: "\n*You start a drumroll that roars like thunder with every impact the heroes make.*\n\n| **Area, Magic** |                          **Maneuver** |\n|-----------------|--------------------------------------:|\n| **\U0001F4CF 4 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)**  | **\U0001F3AF Self and each ally in the area** |\n\n**Effect:** Each target gains 1 [surge](scc.v1:mcdm.heroes.v1/rule.resource/surge), then gains 1 [surge](scc.v1:mcdm.heroes.v1/rule.resource/surge) at the start of each [combat round](scc.v1:mcdm.heroes.v1/rule.combat/combat-round) until the end of the encounter."
+    content: "\n*You start a drumroll that roars like thunder with every impact the heroes make.*\n\n| **Area, Magic** |                          **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|-----------------|--------------------------------------:|\n| **\U0001F4CF 4 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)**  | **\U0001F3AF Self and each ally in the area** |\n\n**Effect:** Each target gains 1 [surge](scc.v1:mcdm.heroes.v1/rule.resource/surge), then gains 1 [surge](scc.v1:mcdm.heroes.v1/rule.resource/surge) at the start of each [combat round](scc.v1:mcdm.heroes.v1/rule.combat/combat-round) until the end of the encounter."
     distance: 4 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)
     feature_type: ability
     flavor: You start a drumroll that roars like thunder with every impact the heroes make.
@@ -29,4 +29,4 @@ metadata:
 name: Legendary Drum Fill
 target: Self and each ally in the area
 type: feature
-usage: Maneuver
+usage: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'

@@ -14,7 +14,7 @@ You have the following performance ability, which is usable with your [Routines]
 
 *No, no, no, you lose the audience that way. Try it like this...*
 
-| **Area, Magic, Performance** |                    **No action** |
+| **Area, Magic, Performance** |                    **[No action](../../../rule/combat/turn.md)** |
 |------------------------------|---------------------------------:|
 | **📏 2 [aura](../../../rule/combat/aura.md)**                | **🎯 Each creature in the area** |
 

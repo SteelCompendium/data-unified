@@ -31,7 +31,7 @@ type: statblock
 
 > 🏹 **Ice Javelins (Signature Ability)**
 >
-> | **Magic, Ranged, Strike** |                 **Main action** |
+> | **Magic, Ranged, Strike** |                 **[Main action](../../../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Ranged 15**          | **🎯 Two creatures or objects** |
 >
@@ -45,7 +45,7 @@ type: statblock
 
 > 🏹 **Flower of Frost (3 [Malice](../../../rule/monster/malice.md))**
 >
-> | **Magic, Ranged** | **Main action** |
+> | **Magic, Ranged** | **[Main action](../../../rule/combat/turn.md)** |
 > |-------------------|----------------:|
 > | **📏 Ranged 15**  |  **🎯 Special** |
 >
@@ -57,7 +57,7 @@ type: statblock
 
 > 🗡 **Ice Dance**
 >
-> | **Melee**      |          **Maneuver** |
+> | **Melee**      |          **[Maneuver](../../../rule/combat/turn.md)** |
 > |----------------|----------------------:|
 > | **📏 Melee 1** | **🎯 One giant ally** |
 >
@@ -65,7 +65,7 @@ type: statblock
 
 > ❗️ **Frozen Retribution**
 >
-> | **-**       | **Triggered action** |
+> | **-**       | **[Triggered action](../../../rule/combat/triggered-action.md)** |
 > |-------------|---------------------:|
 > | **📏 Self** |          **🎯 Self** |
 >

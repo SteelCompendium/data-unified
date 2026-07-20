@@ -57,7 +57,7 @@ type: featureblock
 
 > 🏹 **Stim Charge (Encounter)**
 >
-> | **Ranged**      |     **Main action** |
+> | **Ranged**      |     **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-----------------|--------------------:|
 > | **📏 Ranged 3** | **🎯 One creature** |
 >
@@ -67,7 +67,7 @@ type: featureblock
 
 > 🏹 **Mind Whelm (Encounter)**
 >
-> | **Psionic, Ranged, Strike** |     **Main action** |
+> | **Psionic, Ranged, Strike** |     **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-----------------------------|--------------------:|
 > | **📏 Ranged 3**             | **🎯 One creature** |
 >
@@ -81,7 +81,7 @@ type: featureblock
 
 > ❇️ **Psychic Short Circuit (Encounter)**
 >
-> | **Area, Psionic** |               **Main action** |
+> | **Area, Psionic** |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-------------------|------------------------------:|
 > | **📏 2 burst**    | **🎯 Each enemy in the area** |
 >

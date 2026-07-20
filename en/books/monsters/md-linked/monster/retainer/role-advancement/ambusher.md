@@ -71,7 +71,7 @@ type: featureblock
 
 > 🗡 **Go for the Jugular (Encounter)**
 >
-> | **Melee, Strike, Weapon** |     **Main action** |
+> | **Melee, Strike, Weapon** |     **[Main action](../../../rule/combat/turn.md)** |
 > |---------------------------|--------------------:|
 > | **📏 Melee 1**            | **🎯 One creature** |
 >
@@ -87,7 +87,7 @@ type: featureblock
 
 > ⚔️ **Hamstring Slice (Encounter)**
 >
-> | **Melee, Ranged, Strike, Weapon** |     **Main Action** |
+> | **Melee, Ranged, Strike, Weapon** |     **[Main Action](../../../rule/combat/turn.md)** |
 > |-----------------------------------|--------------------:|
 > | **📏 Melee 1 or ranged 5**        | **🎯 One creature** |
 >
@@ -103,7 +103,7 @@ type: featureblock
 
 > ⚔️ **Hold 'Em Down (Encounter)**
 >
-> | **Melee, Ranged, Strike, Weapon** |     **Main Action** |
+> | **Melee, Ranged, Strike, Weapon** |     **[Main Action](../../../rule/combat/turn.md)** |
 > |-----------------------------------|--------------------:|
 > | **📏 Melee 1 or ranged 5**        | **🎯 One creature** |
 >

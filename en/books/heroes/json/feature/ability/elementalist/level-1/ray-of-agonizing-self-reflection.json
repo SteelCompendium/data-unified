@@ -19,9 +19,9 @@
   ],
   "metadata": {
     "ability_type": "Signature",
-    "action_type": "Main action",
+    "action_type": "[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)",
     "class": "elementalist",
-    "content": "\n*You inflict pain and doubt in equal measure.*\n\n| **Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), Void** |               **Main action** | \n|---------------------------------|------------------------------:|\n| **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**                | **🎯 One creature or object** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason):**\n\n- **≤11:** 2 + R corruption damage; R \u003c WEAK, [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)\n- **12-16:** 4 + R corruption damage; R \u003c AVERAGE, [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)\n- **17+:** 6 + R corruption damage; R \u003c STRONG, [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)",
+    "content": "\n*You inflict pain and doubt in equal measure.*\n\n| **Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), Void** |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|---------------------------------|------------------------------:|\n| **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**                | **🎯 One creature or object** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason):**\n\n- **≤11:** 2 + R corruption damage; R \u003c WEAK, [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)\n- **12-16:** 4 + R corruption damage; R \u003c AVERAGE, [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)\n- **17+:** 6 + R corruption damage; R \u003c STRONG, [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)",
     "distance": "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10",
     "feature_type": "ability",
     "flavor": "You inflict pain and doubt in equal measure.",
@@ -43,5 +43,5 @@
   "name": "Ray of Agonizing Self-Reflection",
   "target": "One creature or object",
   "type": "feature",
-  "usage": "Main action"
+  "usage": "[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)"
 }

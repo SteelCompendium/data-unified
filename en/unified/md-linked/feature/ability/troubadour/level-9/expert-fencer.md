@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: troubadour
 cost: 11 Drama
 distance: '[Melee](../../../../rule/combat/melee.md) 3'
@@ -25,7 +25,7 @@ type: ability
 
 *If you can land the [strike](../../../../rule/combat/strike.md), the crowd goes wild.*
 
-| **Charge, [Melee](../../../../rule/combat/melee.md), [Strike](../../../../rule/combat/strike.md), Weapon** |               **Main action** |
+| **Charge, [Melee](../../../../rule/combat/melee.md), [Strike](../../../../rule/combat/strike.md), Weapon** |               **[Main action](../../../../rule/combat/turn.md)** |
 |-----------------------------------|------------------------------:|
 | **📏 [Melee](../../../../rule/combat/melee.md) 3**                    | **🎯 One creature or object** |
 

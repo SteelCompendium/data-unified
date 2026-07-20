@@ -1,5 +1,5 @@
 ---
-action_type: Triggered
+action_type: '[Triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)'
 class: conduit
 distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
 effect: The [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) takes a [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) against the target.
@@ -20,7 +20,7 @@ type: ability
 
 *Your holy word saps an attacking enemy's strength.*
 
-| **Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)**  |     **Triggered** |
+| **Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)**  |     **[Triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |
 |--------------------|------------------:|
 | **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**   |   **🎯 One ally** |
 

@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](../../../../rule/combat/turn.md)'
 class: censor
 cost: 5 Wrath
 distance: 3 [aura](../../../../rule/combat/aura.md)
@@ -19,7 +19,7 @@ type: ability
 
 *The gods reward your faith.*
 
-| **Area, Magic** |                          **Maneuver** |
+| **Area, Magic** |                          **[Maneuver](../../../../rule/combat/turn.md)** |
 |-----------------|--------------------------------------:|
 | **📏 3 [aura](../../../../rule/combat/aura.md)**   | **🎯 Self and each ally in the area** |
 

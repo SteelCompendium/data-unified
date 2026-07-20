@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](../../../../rule/combat/turn.md)'
 class: talent
 cost: 9 Clarity
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
@@ -19,7 +19,7 @@ type: ability
 
 *You encase the target in psionic flame and allow them to flicker without fear of burning out.*
 
-| **Pyrokinesis, Psionic, [Ranged](../../../../rule/combat/ranged.md)** |            **Maneuver** |
+| **Pyrokinesis, Psionic, [Ranged](../../../../rule/combat/ranged.md)** |            **[Maneuver](../../../../rule/combat/turn.md)** |
 |----------------------------------|------------------------:|
 | **📏 [Ranged](../../../../rule/combat/ranged.md) 10**                 | **🎯 Self or one ally** |
 

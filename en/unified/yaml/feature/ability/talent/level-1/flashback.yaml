@@ -10,9 +10,9 @@ keywords:
     - Psionic
     - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'
 metadata:
-    action_type: Maneuver
+    action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: talent
-    content: "\n*The target is thrown several seconds back through time and gets to do it all again.*\n\n| **Chronopathy, Psionic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)** |            **Maneuver** |\n|----------------------------------|------------------------:|\n| **\U0001F4CF [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**                 | **\U0001F3AF Self or one ally** |\n\n**Effect:** The target uses an ability with a base [Heroic Resource](scc.v1:mcdm.heroes.v1/rule.resource/heroic-resource) cost of 7 or lower that they've previously used this round, without needing to spend the base cost. Augmentations to the ability can be paid for as usual.\n\n**Strained:** You take 1d6 damage and are [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)."
+    content: "\n*The target is thrown several seconds back through time and gets to do it all again.*\n\n| **Chronopathy, Psionic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)** |            **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|----------------------------------|------------------------:|\n| **\U0001F4CF [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**                 | **\U0001F3AF Self or one ally** |\n\n**Effect:** The target uses an ability with a base [Heroic Resource](scc.v1:mcdm.heroes.v1/rule.resource/heroic-resource) cost of 7 or lower that they've previously used this round, without needing to spend the base cost. Augmentations to the ability can be paid for as usual.\n\n**Strained:** You take 1d6 damage and are [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)."
     distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
     feature_type: ability
     flavor: The target is thrown several seconds back through time and gets to do it all again.
@@ -30,4 +30,4 @@ metadata:
 name: Flashback
 target: Self or one ally
 type: feature
-usage: Maneuver
+usage: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'

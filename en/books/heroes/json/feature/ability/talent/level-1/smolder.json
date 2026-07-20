@@ -22,9 +22,9 @@
     "[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)"
   ],
   "metadata": {
-    "action_type": "Main action",
+    "action_type": "[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)",
     "class": "talent",
-    "content": "\n*Smoke flows from your enemy like tears as their skin begins to blacken and flake.*\n\n| **Psionic, Pyrokinesis, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)** |     **Main action** |\n|------------------------------------------|--------------------:|\n| **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**                         | **🎯 One creature** |\n\n**Effect:** Choose the [damage type](scc.v1:mcdm.heroes.v1/rule.damage/damage-type) and the weakness for this ability from one of the following: acid, corruption, or fire. The target takes damage before this ability imposes any weakness.\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason):**\n\n- **≤11:** 3 + R damage; R \u003c WEAK, the target has weakness 5 (save ends)\n- **12-16:** 6 + R damage; R \u003c AVERAGE, the target has weakness 5 (save ends)\n- **17+:** 9 + R damage; R \u003c STRONG, the target has weakness equal to 5 + your [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) score (save ends)",
+    "content": "\n*Smoke flows from your enemy like tears as their skin begins to blacken and flake.*\n\n| **Psionic, Pyrokinesis, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)** |     **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|------------------------------------------|--------------------:|\n| **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**                         | **🎯 One creature** |\n\n**Effect:** Choose the [damage type](scc.v1:mcdm.heroes.v1/rule.damage/damage-type) and the weakness for this ability from one of the following: acid, corruption, or fire. The target takes damage before this ability imposes any weakness.\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason):**\n\n- **≤11:** 3 + R damage; R \u003c WEAK, the target has weakness 5 (save ends)\n- **12-16:** 6 + R damage; R \u003c AVERAGE, the target has weakness 5 (save ends)\n- **17+:** 9 + R damage; R \u003c STRONG, the target has weakness equal to 5 + your [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) score (save ends)",
     "distance": "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10",
     "feature_type": "ability",
     "flavor": "Smoke flows from your enemy like tears as their skin begins to blacken and flake.",
@@ -46,5 +46,5 @@
   "name": "Smolder",
   "target": "One creature",
   "type": "feature",
-  "usage": "Main action"
+  "usage": "[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)"
 }

@@ -14,9 +14,9 @@ keywords:
     - '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)'
     - Weapon
 metadata:
-    action_type: Main action
+    action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: shadow
-    content: "\n*You vanish. They fall. You reappear.*\n\n| **Area, [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), Weapon**     |               **Main action** |\n|-----------------------------|------------------------------:|\n| **\U0001F4CF 10 x 1 line within 1** | **\U0001F3AF Each enemy in the area** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility):**\n\n- **≤11:** 10 damage\n- **12-16:** 14 damage\n- **17+:** 20 damage\n\n**Effect:** You disappear before making the [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll). After the [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) is resolved, you appear in the first unoccupied space at the far end of the line."
+    content: "\n*You vanish. They fall. You reappear.*\n\n| **Area, [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), Weapon**     |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|-----------------------------|------------------------------:|\n| **\U0001F4CF 10 x 1 line within 1** | **\U0001F3AF Each enemy in the area** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility):**\n\n- **≤11:** 10 damage\n- **12-16:** 14 damage\n- **17+:** 20 damage\n\n**Effect:** You disappear before making the [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll). After the [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) is resolved, you appear in the first unoccupied space at the far end of the line."
     distance: 10 x 1 line within 1
     feature_type: ability
     flavor: You vanish. They fall. You reappear.
@@ -34,4 +34,4 @@ metadata:
 name: Shadowfall
 target: Each enemy in the area
 type: feature
-usage: Main action
+usage: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'

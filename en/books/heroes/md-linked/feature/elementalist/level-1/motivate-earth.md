@@ -14,7 +14,7 @@ You have the following ability.
 
 *The earth rises, falls, or opens up at your command.*
 
-| **Earth, Magic, [Melee](../../../rule/combat/melee.md)** | **Main action** |
+| **Earth, Magic, [Melee](../../../rule/combat/melee.md)** | **[Main action](../../../rule/combat/turn.md)** |
 |-------------------------|----------------:|
 | **📏 [Melee](../../../rule/combat/melee.md) 1**          |  **🎯 Special** |
 

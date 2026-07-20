@@ -31,7 +31,7 @@ type: statblock
 
 > 🔳 **Entangling Vines (Signature Ability)**
 >
-> | **Area, Magic, Ranged** |               **Main action** |
+> | **Area, Magic, Ranged** |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-------------------------|------------------------------:|
 > | **📏 3 cube within 10** | **🎯 Each enemy in the area** |
 >
@@ -47,7 +47,7 @@ type: statblock
 
 > 🏹 **The Wode Protects Us (3 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
-> | **Magic, Ranged** |                 **Maneuver** |
+> | **Magic, Ranged** |                 **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-------------------|-----------------------------:|
 > | **📏 Ranged 5**   | **🎯 Self and three allies** |
 >

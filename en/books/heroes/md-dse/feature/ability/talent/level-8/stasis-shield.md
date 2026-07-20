@@ -1,5 +1,5 @@
 ---
-action_type: Triggered
+action_type: '[Triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)'
 class: talent
 cost: 3 Clarity
 cost_amount: "3"
@@ -37,7 +37,7 @@ keywords:
     - Psionic
     - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'
 metadata:
-    action_type: Triggered
+    action_type: '[Triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)'
     class: talent
     cost: 3 Clarity
     distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
@@ -58,5 +58,5 @@ name: Stasis Shield
 target: Self, or one creature or object
 trigger: The target takes damage.
 type: feature
-usage: Triggered
+usage: '[Triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)'
 ```

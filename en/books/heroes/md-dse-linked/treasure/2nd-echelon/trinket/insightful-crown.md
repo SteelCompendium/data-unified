@@ -6,12 +6,14 @@ file_dpath: treasure/2nd-echelon/trinket
 flavor: Shaped of polished crystal, this shimmering circlet shifts through myriad colors in the presence of strong emotions.
 item_id: insightful-crown
 item_name: Insightful Crown
+item_prerequisite: One measure of pure crystal, a jarred memory of true joy
 keywords:
     - Head
     - Psionic
 name: Insightful Crown
 project_goal: "300"
 project_roll_characteristic: '[Reason](../../../rule/character/reason.md) or [Intuition](../../../rule/character/intuition.md)'
+project_source: Texts or lore in Variac
 scc: mcdm.heroes.v1/treasure.2nd-echelon.trinket/insightful-crown
 source: mcdm.heroes.v1
 treasure_type: trinket

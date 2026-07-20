@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: censor
 cost: 3 Wrath
 distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
@@ -22,7 +22,7 @@ type: ability
 
 *You conjure memories of their sins to harry your foes.*
 
-| **Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)**  |    **Main action**  |
+| **Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)**  |    **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)**  |
 |----------------------------|--------------------:|
 | **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**           | **🎯 One creature** |
 

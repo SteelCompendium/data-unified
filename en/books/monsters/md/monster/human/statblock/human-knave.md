@@ -32,7 +32,7 @@ type: statblock
 
 > ⚔️ **Morningstar and Javelin (Signature Ability)**
 >
-> | **Melee, Ranged, Strike, Weapon** |               **Main action** |
+> | **Melee, Ranged, Strike, Weapon** |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-----------------------------------|------------------------------:|
 > | **📏 Melee 1 or ranged 5**        | **🎯 One creature or object** |
 >

@@ -32,7 +32,7 @@ with_captain: +3 damage bonus to strikes
 
 > 🏹 **Slushfall (Signature Ability)**
 >
-> | **Magic, Ranged, Strike** |                          **Main action** |
+> | **Magic, Ranged, Strike** |                          **[Main action](../../../rule/combat/turn.md)** |
 > |---------------------------|-----------------------------------------:|
 > | **📏 Ranged 12**          | **🎯 One creature or object per minion** |
 >

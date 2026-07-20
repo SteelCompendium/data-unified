@@ -6,12 +6,14 @@ file_dpath: treasure/1st-echelon/trinket
 flavor: This black leather necklace is set with a golden representation of a scarab beetle.
 item_id: speaking-scarab
 item_name: Speaking Scarab
+item_prerequisite: Jewelry worn by a voiceless talker
 keywords:
     - Neck
     - Psionic
 name: Speaking Scarab
 project_goal: "150"
 project_roll_characteristic: Reason, Intuition, or Presence
+project_source: Texts or lore in Variac
 scc: mcdm.beastheart.v1/treasure.1st-echelon.trinket/speaking-scarab
 source: mcdm.beastheart.v1
 treasure_type: trinket

@@ -6,11 +6,13 @@ file_dpath: treasure/2nd-echelon/trinket
 flavor: A foot-long platinum key is set with three opals.
 item_id: key-of-inquiry
 item_name: Key of Inquiry
+item_prerequisite: The finger bone of a creature with telepathy, three black opals
 keywords:
     - Psionic
 name: Key of Inquiry
 project_goal: "300"
 project_roll_characteristic: '[Reason](../../../rule/character/reason.md) or [Intuition](../../../rule/character/intuition.md)'
+project_source: Texts or lore in Ullorvic
 scc: mcdm.heroes.v1/treasure.2nd-echelon.trinket/key-of-inquiry
 source: mcdm.heroes.v1
 treasure_type: trinket

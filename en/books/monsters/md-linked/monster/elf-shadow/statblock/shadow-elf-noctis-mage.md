@@ -31,7 +31,7 @@ type: statblock
 
 > 🏹 **Blotting Bolt (Signature Ability)**
 >
-> | **Magic, Ranged, Strike** |               **Main action** |
+> | **Magic, Ranged, Strike** |               **[Main action](../../../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Ranged 5**           | **🎯 One creature or object** |
 >
@@ -47,7 +47,7 @@ type: statblock
 
 > 🏹 **Enemies in the Dark (3 [Malice](../../../rule/monster/malice.md))**
 >
-> | **Magic, Ranged, Strike** |    **Main action** |
+> | **Magic, Ranged, Strike** |    **[Main action](../../../rule/combat/turn.md)** |
 > |---------------------------|-------------------:|
 > | **📏 Ranged 5**           | **🎯 Two enemies** |
 >

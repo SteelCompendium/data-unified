@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: conduit
 cost: 11 Piety
 cost_amount: "11"
@@ -43,7 +43,7 @@ keywords:
     - Magic
     - '[Ranged](../../../../rule/combat/ranged.md)'
 metadata:
-    action_type: Main action
+    action_type: '[Main action](../../../../rule/combat/turn.md)'
     class: conduit
     cost: 11 Piety
     distance: 5 [cube](../../../../rule/combat/cube.md) within 10
@@ -65,5 +65,5 @@ metadata:
 name: Solar Flare
 target: Each enemy in the area
 type: feature
-usage: Main action
+usage: '[Main action](../../../../rule/combat/turn.md)'
 ```

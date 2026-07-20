@@ -3,6 +3,7 @@ agility: 5
 cost: 9 essence for one champion
 flavor: 'Stamina: Your maximum Stamina'
 free_strike: 9
+free_strike_damage_type: Corruption
 immunities:
     - Corruption 5
 intuition: 2
@@ -34,7 +35,7 @@ Stamina: Your maximum Stamina
 
 > 🏹 **Grasping Appendages 2d10 + 5 ([Signature Ability](../../../../../rule/combat/signature-ability.md))**
 >
-> | **Melee, Strike, Weapon** | **Main action** |
+> | **Melee, Strike, Weapon** | **[Main action](../../../../../rule/combat/turn.md)** |
 > |---------------------------|----------------:|
 > | **📏 Melee 5** | **🎯 Two creatures or objects** |
 >

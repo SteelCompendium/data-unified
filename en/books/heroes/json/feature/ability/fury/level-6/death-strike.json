@@ -17,9 +17,9 @@
   ],
   "metadata": {
     "ability_type": "Triggered",
-    "action_type": "Free triggered",
+    "action_type": "Free [triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)",
     "class": "fury",
-    "content": "\n*Once you taste your foe's blood, you become more efficient and [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) every killing blow into an opportunity.*\n\n| **[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), Weapon** | **Free triggered** |\n|---------------------------|-------------------:|\n| **📏 [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1**            |        **🎯 Self** |\n\n**Trigger:** You reduce a creature to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) with a [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike).\n\n**Effect:** You target a creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to you with the same strike, using the same [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) as the triggering strike.",
+    "content": "\n*Once you taste your foe's blood, you become more efficient and [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) every killing blow into an opportunity.*\n\n| **[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), Weapon** | **Free [triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |\n|---------------------------|-------------------:|\n| **📏 [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1**            |        **🎯 Self** |\n\n**Trigger:** You reduce a creature to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) with a [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike).\n\n**Effect:** You target a creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to you with the same strike, using the same [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) as the triggering strike.",
     "distance": "[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1",
     "feature_type": "ability",
     "flavor": "Once you taste your foe's blood, you become more efficient and [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) every killing blow into an opportunity.",
@@ -42,5 +42,5 @@
   "target": "Self",
   "trigger": "You reduce a creature to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) with a [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike).",
   "type": "feature",
-  "usage": "Free triggered"
+  "usage": "Free [triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)"
 }

@@ -32,7 +32,7 @@ with_captain: Gain an edge on strikes
 
 > 🗡 **Corrosive Blade (Signature Ability)**
 >
-> | **Magic, Melee, Strike, Weapon** |                          **Main action** |
+> | **Magic, Melee, Strike, Weapon** |                          **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |----------------------------------|-----------------------------------------:|
 > | **📏 Melee 1**                   | **🎯 One creature or object per minion** |
 >

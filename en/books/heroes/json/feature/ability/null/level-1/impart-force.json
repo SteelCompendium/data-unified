@@ -22,9 +22,9 @@
     "Weapon"
   ],
   "metadata": {
-    "action_type": "Maneuver",
+    "action_type": "[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)",
     "class": "null",
-    "content": "\n*A single touch from you, and your enemy flies backward.*\n\n| **[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), Psionic, [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), Weapon** |                  **Maneuver** |\n|------------------------------------|------------------------------:|\n| **📏 [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1**                     | **🎯 One creature or object** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition):**\n\n- **≤11:** [Push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3\n- **12-16:** [Push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5\n- **17+:** [Push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 7\n\n**Effect:** An object you target must be your [size](scc.v1:mcdm.heroes.v1/rule.character/size) or smaller. You gain an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on this ability. Additionally, for each square you [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) the target, they take 1 psychic damage.",
+    "content": "\n*A single touch from you, and your enemy flies backward.*\n\n| **[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), Psionic, [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), Weapon** |                  **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|------------------------------------|------------------------------:|\n| **📏 [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1**                     | **🎯 One creature or object** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition):**\n\n- **≤11:** [Push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3\n- **12-16:** [Push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5\n- **17+:** [Push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 7\n\n**Effect:** An object you target must be your [size](scc.v1:mcdm.heroes.v1/rule.character/size) or smaller. You gain an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on this ability. Additionally, for each square you [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) the target, they take 1 psychic damage.",
     "distance": "[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1",
     "feature_type": "ability",
     "flavor": "A single touch from you, and your enemy flies backward.",
@@ -46,5 +46,5 @@
   "name": "Impart Force",
   "target": "One creature or object",
   "type": "feature",
-  "usage": "Maneuver"
+  "usage": "[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)"
 }

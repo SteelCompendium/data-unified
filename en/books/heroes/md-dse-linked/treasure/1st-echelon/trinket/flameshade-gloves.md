@@ -6,12 +6,14 @@ file_dpath: treasure/1st-echelon/trinket
 flavor: These finely stitched gloves appear to flicker in and out of reality when first handled.
 item_id: flameshade-gloves
 item_name: Flameshade Gloves
+item_prerequisite: A humanoid's shadow disconnected from its source
 keywords:
     - Hands
     - Psionic
 name: Flameshade Gloves
 project_goal: "150"
 project_roll_characteristic: '[Reason](../../../rule/character/reason.md)'
+project_source: Texts or lore in Khelt
 scc: mcdm.heroes.v1/treasure.1st-echelon.trinket/flameshade-gloves
 source: mcdm.heroes.v1
 treasure_type: trinket

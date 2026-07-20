@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](../../../../rule/combat/turn.md)'
 class: shadow
 distance: Self
 effect: You gain 2 [surges](../../../../rule/resource/surge.md). Additionally, whenever you use a [surge](../../../../rule/resource/surge.md) before the end of the encounter, you can choose to have it deal poison damage.
@@ -30,7 +30,7 @@ feature_type: ability
 flavor: A little poison goes a long way.
 keywords: []
 metadata:
-    action_type: Maneuver
+    action_type: '[Maneuver](../../../../rule/combat/turn.md)'
     class: shadow
     distance: Self
     effect: You gain 2 [surges](../../../../rule/resource/surge.md). Additionally, whenever you use a [surge](../../../../rule/resource/surge.md) before the end of the encounter, you can choose to have it deal poison damage.
@@ -46,5 +46,5 @@ metadata:
 name: Coat the Blade
 target: Self
 type: feature
-usage: Maneuver
+usage: '[Maneuver](../../../../rule/combat/turn.md)'
 ```

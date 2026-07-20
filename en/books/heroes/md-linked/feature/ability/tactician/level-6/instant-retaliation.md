@@ -1,5 +1,5 @@
 ---
-action_type: Free triggered
+action_type: Free [triggered](../../../../rule/combat/triggered-action.md)
 class: tactician
 cost: 9 Focus
 distance: '[Melee](../../../../rule/combat/melee.md) 1'
@@ -25,7 +25,7 @@ type: ability
 
 *You [parry](../level-1/parry.md) with almost [supernatural](../../../../rule/general/supernatural.md) [speed](../../../../rule/character/speed.md).*
 
-| **[Melee](../../../../rule/combat/melee.md), Weapon** | **Free triggered** |
+| **[Melee](../../../../rule/combat/melee.md), Weapon** | **Free [triggered](../../../../rule/combat/triggered-action.md)** |
 | ------------------------------------|-------------------:|
 | **📏 [Melee](../../../../rule/combat/melee.md) 1**                   |    **🎯 One ally** |
 

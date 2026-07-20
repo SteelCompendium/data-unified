@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: troubadour
 cost: 5 Drama
 distance: 3 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 10
@@ -24,7 +24,7 @@ type: ability
 
 *Your fans don't seem to like the opening act...*
 
-| **Area, Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)** | **Main action** |
+| **Area, Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)** | **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 |-------------------------|----------------:|
 | **📏 3 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 10** |  **🎯 Special** |
 

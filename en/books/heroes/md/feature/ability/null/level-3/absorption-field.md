@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: "null"
 cost: 7 Discipline
 distance: Self
@@ -17,7 +17,7 @@ type: ability
 
 *Your [null field](scc.v1:mcdm.heroes.v1/feature.null.level-1/null-field) absorbs kinetic energy.*
 
-| **Psionic** | **Maneuver** |
+| **Psionic** | **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 |-------------|-------------:|
 | **📏 Self** |  **🎯 Self** |
 

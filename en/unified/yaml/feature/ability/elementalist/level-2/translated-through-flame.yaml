@@ -15,9 +15,9 @@ keywords:
     - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'
     - Void
 metadata:
-    action_type: Main action
+    action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: elementalist
-    content: "\n*Your ally disappears, then reappears in a burst of fire.*\n\n| **Fire, Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged), Void** |         **Main action** |\n|-------------------------------|------------------------:|\n| **\U0001F4CF [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**              | **\U0001F3AF Self or one ally** |\n\n**Effect:** The target is [teleport](scc.v1:mcdm.heroes.v1/movement/teleport)ed to another space within [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance). Make a [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) that affects each enemy [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the target's new space.\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason):**\n\n- **≤11:** 3 fire damage\n- **12-16:** 5 fire damage\n- **17+:** 8 fire damage"
+    content: "\n*Your ally disappears, then reappears in a burst of fire.*\n\n| **Fire, Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged), Void** |         **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|-------------------------------|------------------------:|\n| **\U0001F4CF [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**              | **\U0001F3AF Self or one ally** |\n\n**Effect:** The target is [teleport](scc.v1:mcdm.heroes.v1/movement/teleport)ed to another space within [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance). Make a [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) that affects each enemy [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the target's new space.\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason):**\n\n- **≤11:** 3 fire damage\n- **12-16:** 5 fire damage\n- **17+:** 8 fire damage"
     distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
     feature_type: ability
     flavor: Your ally disappears, then reappears in a burst of fire.
@@ -36,4 +36,4 @@ metadata:
 name: Translated Through Flame
 target: Self or one ally
 type: feature
-usage: Main action
+usage: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'

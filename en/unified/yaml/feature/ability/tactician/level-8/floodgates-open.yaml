@@ -8,9 +8,9 @@ flavor: You direct your squad to strike in unison and with devastating effect.
 keywords:
     - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'
 metadata:
-    action_type: Main action
+    action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: tactician
-    content: "\n*You direct your squad to strike in unison and with devastating effect.*\n\n| **[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)**       |     **Main action** |\n|------------------|--------------------:|\n| **\U0001F4CF [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10** | **\U0001F3AF Three allies** |\n\n**Effect:** Each target gains 1 [surge](scc.v1:mcdm.heroes.v1/rule.resource/surge) and can use a [signature ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability) as a free [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action). That ability gains an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on the [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) and increases the [potency](scc.v1:mcdm.heroes.v1/rule.character/potency) of any [potency](scc.v1:mcdm.heroes.v1/rule.character/potency) effects by 1."
+    content: "\n*You direct your squad to strike in unison and with devastating effect.*\n\n| **[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)**       |     **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|------------------|--------------------:|\n| **\U0001F4CF [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10** | **\U0001F3AF Three allies** |\n\n**Effect:** Each target gains 1 [surge](scc.v1:mcdm.heroes.v1/rule.resource/surge) and can use a [signature ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability) as a free [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action). That ability gains an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on the [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) and increases the [potency](scc.v1:mcdm.heroes.v1/rule.character/potency) of any [potency](scc.v1:mcdm.heroes.v1/rule.character/potency) effects by 1."
     distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
     feature_type: ability
     flavor: You direct your squad to strike in unison and with devastating effect.
@@ -26,4 +26,4 @@ metadata:
 name: Floodgates Open
 target: Three allies
 type: feature
-usage: Main action
+usage: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'

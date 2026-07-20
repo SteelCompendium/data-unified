@@ -20,9 +20,9 @@
     "Magic"
   ],
   "metadata": {
-    "action_type": "Maneuver",
+    "action_type": "[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)",
     "class": "troubadour",
-    "content": "\n*No, this isn't right. That foe was over there!*\n\n| **Area, Magic** |                  **Maneuver** |\n|-----------------|------------------------------:|\n| **📏 4 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)**  | **🎯 Each enemy in the area** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence):**\n\n- **≤11:** [Slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3; P \u003c WEAK, this [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) ignores the target's [stability](scc.v1:mcdm.heroes.v1/rule.character/stability)\n- **12-16:** [Slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5; P \u003c AVERAGE, this [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) ignores the target's [stability](scc.v1:mcdm.heroes.v1/rule.character/stability)\n- **17+:** [Slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 7; P \u003c STRONG, this [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) ignores the target's [stability](scc.v1:mcdm.heroes.v1/rule.character/stability)\n\n**Effect:** Instead of [sliding](scc.v1:mcdm.heroes.v1/movement/forced-movement) a target, you can swap their location with another target as long as each can fit into the other's space. You can't [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) targets into other creatures or objects using this ability.",
+    "content": "\n*No, this isn't right. That foe was over there!*\n\n| **Area, Magic** |                  **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|-----------------|------------------------------:|\n| **📏 4 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)**  | **🎯 Each enemy in the area** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence):**\n\n- **≤11:** [Slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3; P \u003c WEAK, this [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) ignores the target's [stability](scc.v1:mcdm.heroes.v1/rule.character/stability)\n- **12-16:** [Slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5; P \u003c AVERAGE, this [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) ignores the target's [stability](scc.v1:mcdm.heroes.v1/rule.character/stability)\n- **17+:** [Slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 7; P \u003c STRONG, this [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) ignores the target's [stability](scc.v1:mcdm.heroes.v1/rule.character/stability)\n\n**Effect:** Instead of [sliding](scc.v1:mcdm.heroes.v1/movement/forced-movement) a target, you can swap their location with another target as long as each can fit into the other's space. You can't [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) targets into other creatures or objects using this ability.",
     "distance": "4 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)",
     "feature_type": "ability",
     "flavor": "No, this isn't right. That foe was over there!",
@@ -42,5 +42,5 @@
   "name": "Extensive Rewrites",
   "target": "Each enemy in the area",
   "type": "feature",
-  "usage": "Maneuver"
+  "usage": "[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)"
 }

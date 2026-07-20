@@ -13,9 +13,9 @@
     "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)"
   ],
   "metadata": {
-    "action_type": "Main action",
+    "action_type": "[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)",
     "class": "conduit",
-    "content": "\n*You concentrate on a friend and [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) to them.*\n\n| **Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)**  |           **Main action** |\n|--------------------|--------------------------:|\n| **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**   | **🎯 Self and each ally** |\n\n**Effect:** Each target is [teleport](scc.v1:mcdm.heroes.v1/movement/teleport)ed to unoccupied spaces within 5 squares of a willing creature who you are bonded to with your Invocation of the Heart feature. You don't need [line of effect](scc.v1:mcdm.heroes.v1/rule.combat/line-of-effect) to the bonded creature but you must be on the same world.",
+    "content": "\n*You concentrate on a friend and [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) to them.*\n\n| **Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)**  |           **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|--------------------|--------------------------:|\n| **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**   | **🎯 Self and each ally** |\n\n**Effect:** Each target is [teleport](scc.v1:mcdm.heroes.v1/movement/teleport)ed to unoccupied spaces within 5 squares of a willing creature who you are bonded to with your Invocation of the Heart feature. You don't need [line of effect](scc.v1:mcdm.heroes.v1/rule.combat/line-of-effect) to the bonded creature but you must be on the same world.",
     "distance": "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10",
     "feature_type": "ability",
     "flavor": "You concentrate on a friend and [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) to them.",
@@ -36,5 +36,5 @@
   "name": "Guided to Your Side",
   "target": "Self and each ally",
   "type": "feature",
-  "usage": "Main action"
+  "usage": "[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)"
 }

@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: shadow
 distance: Self
 effect: You gain 2 [surges](scc.v1:mcdm.heroes.v1/rule.resource/surge). Additionally, whenever you use a [surge](scc.v1:mcdm.heroes.v1/rule.resource/surge) before the end of the encounter, you can choose to have it deal poison damage.
@@ -17,7 +17,7 @@ type: ability
 
 *A little poison goes a long way.*
 
-| **-**       | **Maneuver** |
+| **-**       | **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 |-------------|-------------:|
 | **📏 Self** |  **🎯 Self** |
 

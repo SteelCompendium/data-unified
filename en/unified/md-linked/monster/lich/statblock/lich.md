@@ -39,7 +39,7 @@ weaknesses:
 
 > 🏹 **Conflagration ([Signature Ability](../../../rule/combat/signature-ability.md))**
 >
-> | **Magic, Ranged, Strike** |                 **Main action** |
+> | **Magic, Ranged, Strike** |                 **[Main action](../../../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Ranged 20**          | **🎯 Two creatures or objects** |
 >
@@ -53,7 +53,7 @@ weaknesses:
 
 > ❇️ **Hopeless Place**
 >
-> | **Area, Magic** |               **Main action** |
+> | **Area, Magic** |               **[Main action](../../../rule/combat/turn.md)** |
 > |-----------------|------------------------------:|
 > | **📏 10 burst** | **🎯 Each enemy in the area** |
 >
@@ -69,7 +69,7 @@ weaknesses:
 
 > 🏹 **Pain Unending (2 Malice)**
 >
-> | **Magic, Ranged, Strike** |               **Main action** |
+> | **Magic, Ranged, Strike** |               **[Main action](../../../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Ranged 20**          | **🎯 One creature or object** |
 >
@@ -87,7 +87,7 @@ weaknesses:
 
 > 👤 **Necrotic Form**
 >
-> | **-**       | **Maneuver** |
+> | **-**       | **[Maneuver](../../../rule/combat/turn.md)** |
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 > 

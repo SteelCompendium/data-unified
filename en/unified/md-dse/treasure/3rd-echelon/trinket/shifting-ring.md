@@ -6,12 +6,14 @@ file_dpath: treasure/3rd-echelon/trinket
 flavor: This silvery metal ring seems to momentarily vanish when observed from certain angles.
 item_id: shifting-ring
 item_name: Shifting Ring
+item_prerequisite: One-third of a pound of diamond dust, one nugget of pure silver
 keywords:
     - Psionic
     - Ring
 name: Shifting Ring
 project_goal: "450"
 project_roll_characteristic: '[Agility](scc.v1:mcdm.heroes.v1/rule.character/agility) or [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)'
+project_source: Texts or lore in Khelt
 scc: mcdm.heroes.v1/treasure.3rd-echelon.trinket/shifting-ring
 source: mcdm.heroes.v1
 treasure_type: trinket

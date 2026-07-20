@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: elementalist
 distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
 effect: You heat the target and cause it to melt or combust, destroying it. If the object is larger than 1 square, then only the square of the object you touch is destroyed.
@@ -19,7 +19,7 @@ type: ability
 
 *With the merest touch, you cause an object to turn to slag or ash.*
 
-| **Fire, Magic, [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)**  |           **Main action** |
+| **Fire, Magic, [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)**  |           **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 |-------------------------|--------------------------:|
 | **📏 [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1**          | **🎯 One mundane object** |
 

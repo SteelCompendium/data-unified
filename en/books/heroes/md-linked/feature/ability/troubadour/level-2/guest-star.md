@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: troubadour
 cost: 5 Drama
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
@@ -19,7 +19,7 @@ type: ability
 
 *We offered them a percentage of the gross. So they're working for free!*
 
-| **Magic, [Ranged](../../../../rule/combat/ranged.md)** | **Main action** |
+| **Magic, [Ranged](../../../../rule/combat/ranged.md)** | **[Main action](../../../../rule/combat/turn.md)** |
 |-------------------|----------------:|
 | **📏 [Ranged](../../../../rule/combat/ranged.md) 10**  |  **🎯 Special** |
 

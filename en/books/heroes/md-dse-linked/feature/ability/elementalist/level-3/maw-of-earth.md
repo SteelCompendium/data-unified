@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: elementalist
 cost: 7 Essence
 cost_amount: "7"
@@ -46,7 +46,7 @@ keywords:
     - Magic
     - '[Ranged](../../../../rule/combat/ranged.md)'
 metadata:
-    action_type: Main action
+    action_type: '[Main action](../../../../rule/combat/turn.md)'
     class: elementalist
     cost: 7 Essence
     distance: 3 [cube](../../../../rule/combat/cube.md) within 10
@@ -69,5 +69,5 @@ metadata:
 name: Maw of Earth
 target: Each enemy in the area
 type: feature
-usage: Main action
+usage: '[Main action](../../../../rule/combat/turn.md)'
 ```

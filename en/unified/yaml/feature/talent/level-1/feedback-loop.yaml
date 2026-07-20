@@ -11,8 +11,8 @@ ability:
         - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'
     metadata:
         ability_type: Triggered
-        action_type: Triggered
-        content: "\n*Creating a brief psychic link between an enemy and their target gives that foe a taste of their own medicine.*\n\n| **Psionic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)** |       **Triggered** |\n|---------------------|--------------------:|\n| **\U0001F4CF [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**    | **\U0001F3AF One creature** |\n\n**Trigger:** The target deals damage to an ally.\n\n**Effect:** The target takes psychic damage equal to half the triggering damage."
+        action_type: '[Triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)'
+        content: "\n*Creating a brief psychic link between an enemy and their target gives that foe a taste of their own medicine.*\n\n| **Psionic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)** |       **[Triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |\n|---------------------|--------------------:|\n| **\U0001F4CF [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**    | **\U0001F3AF One creature** |\n\n**Trigger:** The target deals damage to an ally.\n\n**Effect:** The target takes psychic damage equal to half the triggering damage."
         distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
         feature_type: ability
         flavor: Creating a brief psychic link between an enemy and their target gives that foe a taste of their own medicine.
@@ -28,7 +28,7 @@ ability:
     target: One creature
     trigger: The target deals damage to an ally.
     type: feature
-    usage: Triggered
+    usage: '[Triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)'
 effects:
     - effect: You have the following ability.
 feature_type: feature

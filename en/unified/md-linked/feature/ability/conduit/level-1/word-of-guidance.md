@@ -1,5 +1,5 @@
 ---
-action_type: Triggered
+action_type: '[Triggered](../../../../rule/combat/triggered-action.md)'
 class: conduit
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
 effect: The [power roll](../../../../rule/dice/power-roll.md) gains an [edge](../../../../rule/dice/edge.md).
@@ -20,7 +20,7 @@ type: ability
 
 *You invigorate an attacking ally with divine energy.*
 
-| **Magic, [Ranged](../../../../rule/combat/ranged.md)**      |        **Triggered** |
+| **Magic, [Ranged](../../../../rule/combat/ranged.md)**      |        **[Triggered](../../../../rule/combat/triggered-action.md)** |
 |------------------------|---------------------:|
 | **📏 [Ranged](../../../../rule/combat/ranged.md) 10**       |      **🎯 One ally** |
 

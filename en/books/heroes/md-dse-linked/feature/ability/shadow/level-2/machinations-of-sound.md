@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](../../../../rule/combat/turn.md)'
 class: shadow
 cost: 5 Insight
 cost_amount: "5"
@@ -45,7 +45,7 @@ keywords:
     - Magic
     - '[Ranged](../../../../rule/combat/ranged.md)'
 metadata:
-    action_type: Maneuver
+    action_type: '[Maneuver](../../../../rule/combat/turn.md)'
     class: shadow
     cost: 5 Insight
     distance: 3 [cube](../../../../rule/combat/cube.md) within 10
@@ -68,5 +68,5 @@ metadata:
 name: Machinations of Sound
 target: Each creature in the area
 type: feature
-usage: Maneuver
+usage: '[Maneuver](../../../../rule/combat/turn.md)'
 ```

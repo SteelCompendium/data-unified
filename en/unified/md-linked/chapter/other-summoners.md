@@ -27,7 +27,7 @@ Whenever the following retainer would gain a new advancement ability, the player
 
 > 🏹 **Diabolic Probe 2d10 + highest characteristic (Signature Ability)**
 >
-> | **Magic, Ranged, Strike** | **Main action** |
+> | **Magic, Ranged, Strike** | **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|----------------:|
 > | **📏 Ranged 10** | **🎯 One creature or object** |
 >
@@ -49,7 +49,7 @@ Whenever the following retainer would gain a new advancement ability, the player
 
 > 🏹 **Soul Sleuth 2d10 + highest characteristic (Encounter)**
 >
-> | **Area, Magic** | **Main action** |
+> | **Area, Magic** | **[Main action](../rule/combat/turn.md)** |
 > |-----------------|----------------:|
 > | **📏 4 cube within 5** | **🎯 Each enemy or object in the area** |
 >
@@ -65,7 +65,7 @@ Whenever the following retainer would gain a new advancement ability, the player
 
 > 🏹 **Summon Violents (Encounter)**
 >
-> | **Magic, Ranged** | **Main action** |
+> | **Magic, Ranged** | **[Main action](../rule/combat/turn.md)** |
 > |-------------------|----------------:|
 > | **📏 Ranged 10** | **🎯 Special** |
 >
@@ -75,7 +75,7 @@ Whenever the following retainer would gain a new advancement ability, the player
 
 > 🌀 **Cleansing Flense (Encounter)**
 >
-> | **Area, Magic** | **Maneuver** |
+> | **Area, Magic** | **[Maneuver](../rule/combat/turn.md)** |
 > |-----------------|-------------:|
 > | **📏 5 burst** | **🎯 Each of the detective's minions in the area** |
 >
@@ -87,7 +87,7 @@ Whenever the following retainer would gain a new advancement ability, the player
 
 > 🏹 **Blightwash 2d10 + highest characteristic (Encounter)**
 >
-> | **Area, Magic** | **Main action** |
+> | **Area, Magic** | **[Main action](../rule/combat/turn.md)** |
 > |-----------------|----------------:|
 > | **📏 Ranged 5** | **🎯 One of the detective's minions** |
 >
@@ -103,7 +103,7 @@ Whenever the following retainer would gain a new advancement ability, the player
 
 > 🏹 **Summon Gorrres (Encounter)**
 >
-> | **Magic, Ranged** | **Main action** |
+> | **Magic, Ranged** | **[Main action](../rule/combat/turn.md)** |
 > |-------------------|----------------:|
 > | **📏 Ranged 10** | **🎯 Special** |
 >
@@ -187,7 +187,7 @@ Any minions that the rival can summon can be replaced with the equivalent minion
 
 > 🏹 **Necro Beam 2d10 + 2 (Signature Ability)**
 >
-> | **Magic, Ranged, Strike** | **Main action** |
+> | **Magic, Ranged, Strike** | **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|----------------:|
 > | **📏 Ranged 10** | **🎯 One creature or object** |
 >
@@ -199,7 +199,7 @@ Any minions that the rival can summon can be replaced with the equivalent minion
 
 > 🏹 **Call Forth (1+ Malice)**
 >
-> | **Magic, Ranged** | **Main action** |
+> | **Magic, Ranged** | **[Main action](../rule/combat/turn.md)** |
 > |-------------------|----------------:|
 > | **📏 Ranged 10** | **🎯 Special** |
 >
@@ -207,7 +207,7 @@ Any minions that the rival can summon can be replaced with the equivalent minion
 
 > ❗️ **Corpse Shield**
 >
-> | **—** | **Triggered action** |
+> | **—** | **[Triggered action](../rule/combat/triggered-action.md)** |
 > |-------|---------------------:|
 > | **📏 Ranged 10** | **🎯 Self or one ally** |
 >
@@ -259,7 +259,7 @@ Any minions that the rival can summon can be replaced with the equivalent minion
 
 > 🗡 **Fetid Bindings 2d10 + 3 (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** | **Main action** |
+> | **Melee, Strike, Weapon** | **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|----------------:|
 > | **📏 Melee 2** | **🎯 One creature or object per minion** |
 >
@@ -293,7 +293,7 @@ Any minions that the rival can summon can be replaced with the equivalent minion
 
 > 🏹 **Essence Steal 2d10 + 3 (Signature Ability)**
 >
-> | **Magic, Ranged, Strike** | **Main action** |
+> | **Magic, Ranged, Strike** | **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|----------------:|
 > | **📏 Ranged 10** | **🎯 One creature or object** |
 >
@@ -307,7 +307,7 @@ Any minions that the rival can summon can be replaced with the equivalent minion
 
 > 🏹 **Call Forth (1+ Malice)**
 >
-> | **Magic, Ranged** | **Main action** |
+> | **Magic, Ranged** | **[Main action](../rule/combat/turn.md)** |
 > |-------------------|----------------:|
 > | **📏 Ranged 10** | **🎯 Special** |
 >
@@ -315,7 +315,7 @@ Any minions that the rival can summon can be replaced with the equivalent minion
 
 > ❗️ **Corpse Carry**
 >
-> | **—** | **Triggered action** |
+> | **—** | **[Triggered action](../rule/combat/triggered-action.md)** |
 > |-------|---------------------:|
 > | **📏 Ranged 10** | **🎯 Self or one ally** |
 >
@@ -351,7 +351,7 @@ Any minions that the rival can summon can be replaced with the equivalent minion
 
 > 🗡 **Knight Strike 2d10 + 3 (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** | **Main action** |
+> | **Melee, Strike, Weapon** | **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|----------------:|
 > | **📏 Melee 1** | **🎯 One creature or object per minion** |
 >
@@ -403,7 +403,7 @@ Any minions that the rival can summon can be replaced with the equivalent minion
 
 > 🏹 **Glimpse of the Grave 2d10 + 4 (Signature Ability)**
 >
-> | **Magic, Ranged, Strike** | **Main action** |
+> | **Magic, Ranged, Strike** | **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|----------------:|
 > | **📏 Ranged 10** | **🎯 One creature or object** |
 >
@@ -415,7 +415,7 @@ Any minions that the rival can summon can be replaced with the equivalent minion
 
 > 🏹 **Call Forth (1+ Malice)**
 >
-> | **Magic, Ranged** | **Main action** |
+> | **Magic, Ranged** | **[Main action](../rule/combat/turn.md)** |
 > |-------------------|----------------:|
 > | **📏 Ranged 10** | **🎯 Special** |
 >
@@ -423,7 +423,7 @@ Any minions that the rival can summon can be replaced with the equivalent minion
 
 > ❗️ **Death Ward (2 Malice)**
 >
-> | **—** | **Triggered action** |
+> | **—** | **[Triggered action](../rule/combat/triggered-action.md)** |
 > |-------|---------------------:|
 > | **📏 Ranged 10** | **🎯 Self or one ally** |
 >
@@ -519,7 +519,7 @@ Any minions that the rival can summon can be replaced with the equivalent minion
 
 > 🏹 **Strike for Me (Signature Ability)**
 >
-> | **Magic, Ranged, Strike** | **Main action** |
+> | **Magic, Ranged, Strike** | **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|----------------:|
 > | **📏 Ranged 10** | **🎯 One creature or object** |
 >
@@ -527,7 +527,7 @@ Any minions that the rival can summon can be replaced with the equivalent minion
 
 > 🏹 **Call Forth (1+ Malice)**
 >
-> | **Magic, Ranged** | **Main action** |
+> | **Magic, Ranged** | **[Main action](../rule/combat/turn.md)** |
 > |-------------------|----------------:|
 > | **📏 Ranged 10** | **🎯 Special** |
 >
@@ -535,7 +535,7 @@ Any minions that the rival can summon can be replaced with the equivalent minion
 
 > ❗️ **Death Strikes Back (2 Malice)**
 >
-> | **—** | **Triggered action** |
+> | **—** | **[Triggered action](../rule/combat/triggered-action.md)** |
 > |-------|---------------------:|
 > | **📏 Ranged 10** | **🎯 Self or one ally** |
 >
@@ -569,7 +569,7 @@ Any minions that the rival can summon can be replaced with the equivalent minion
 
 > 🗡 **Knight Strike 2d10 + 5 (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** | **Main action** |
+> | **Melee, Strike, Weapon** | **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|----------------:|
 > | **📏 Melee 1** | **🎯 One creature or object per minion** |
 >

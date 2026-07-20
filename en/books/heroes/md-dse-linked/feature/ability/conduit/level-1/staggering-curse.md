@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: conduit
 distance: '[Melee](../../../../rule/combat/melee.md) 1'
 feature_type: ability
@@ -39,7 +39,7 @@ keywords:
     - '[Melee](../../../../rule/combat/melee.md)'
     - '[Strike](../../../../rule/combat/strike.md)'
 metadata:
-    action_type: Main action
+    action_type: '[Main action](../../../../rule/combat/turn.md)'
     class: conduit
     distance: '[Melee](../../../../rule/combat/melee.md) 1'
     flavor: A blast of judgment disorients your foe.
@@ -60,5 +60,5 @@ metadata:
 name: Staggering Curse
 target: One creature or object
 type: feature
-usage: Main action
+usage: '[Main action](../../../../rule/combat/turn.md)'
 ```

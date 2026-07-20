@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: conduit
 cost: 3 Piety
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
@@ -22,7 +22,7 @@ type: ability
 
 *Your divine [fury](../../../../class/fury.md) is a hammer that crashes down upon the unrighteous.*
 
-| **Magic, [Ranged](../../../../rule/combat/ranged.md), [Strike](../../../../rule/combat/strike.md)**  |               **Main action** |
+| **Magic, [Ranged](../../../../rule/combat/ranged.md), [Strike](../../../../rule/combat/strike.md)**  |               **[Main action](../../../../rule/combat/turn.md)** |
 |----------------------------|------------------------------:|
 | **📏 [Ranged](../../../../rule/combat/ranged.md) 10**           | **🎯 One creature or object** |
 

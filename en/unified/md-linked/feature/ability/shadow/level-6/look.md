@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](../../../../rule/combat/turn.md)'
 class: shadow
 cost: 9 Insight
 distance: 5 [burst](../../../../rule/combat/burst.md)
@@ -19,7 +19,7 @@ type: ability
 
 *You distract your foes, allowing your allies to take advantage of that distraction.*
 
-| **Area, Magic** |                  **Maneuver** |
+| **Area, Magic** |                  **[Maneuver](../../../../rule/combat/turn.md)** |
 |-----------------|------------------------------:|
 | **📏 5 [burst](../../../../rule/combat/burst.md)**  | **🎯 Each enemy in the area** |
 

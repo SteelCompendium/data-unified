@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: elementalist
 cost: 11 Essence
 distance: Self
@@ -18,7 +18,7 @@ type: ability
 
 *You split your essence, allowing you to cast multiple effects at once.*
 
-| **Magic, Void** | **Main action** |
+| **Magic, Void** | **[Main action](../../../../rule/combat/turn.md)** |
 |-----------------|----------------:|
 | **📏 Self**     |     **🎯 Self** |
 

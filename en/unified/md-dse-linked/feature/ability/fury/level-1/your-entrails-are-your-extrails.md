@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: fury
 cost: 3 Ferocity
 cost_amount: "3"
@@ -44,7 +44,7 @@ keywords:
     - '[Strike](../../../../rule/combat/strike.md)'
     - Weapon
 metadata:
-    action_type: Main action
+    action_type: '[Main action](../../../../rule/combat/turn.md)'
     class: fury
     cost: 3 Ferocity
     distance: '[Melee](../../../../rule/combat/melee.md) 1'
@@ -66,5 +66,5 @@ metadata:
 name: Your Entrails Are Your Extrails!
 target: One creature or object
 type: feature
-usage: Main action
+usage: '[Main action](../../../../rule/combat/turn.md)'
 ```

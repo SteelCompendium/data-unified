@@ -31,7 +31,7 @@ type: statblock
 
 > ⚔️ **Gloom Dagger (Signature Ability)**
 >
-> | **Melee, Ranged, Strike, Weapon** |               **Main action** |
+> | **Melee, Ranged, Strike, Weapon** |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-----------------------------------|------------------------------:|
 > | **📏 Melee 1 or ranged 3**        | **🎯 One creature or object** |
 >
@@ -45,7 +45,7 @@ type: statblock
 
 > 🔳 **Duskfall (Encounter)**
 >
-> | **Area, Magic**        |   **Maneuver** |
+> | **Area, Magic**        |   **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |------------------------|---------------:|
 > | **📏 3 cube within 1** | **🎯 Special** |
 >

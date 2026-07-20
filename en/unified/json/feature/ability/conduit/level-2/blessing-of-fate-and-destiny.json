@@ -14,9 +14,9 @@
     "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)"
   ],
   "metadata": {
-    "action_type": "Main action",
+    "action_type": "[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)",
     "class": "conduit",
-    "content": "\n*Your enemies suffer their fate; your allies embrace their destiny!*\n\n| **Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)**  |        **Main action** |\n|--------------------|-----------------------:|\n| **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**   | **🎯 Three creatures** |\n\n**Effect:** You can target yourself instead of one creature with this ability. Choose one of the following effects, which lasts until the end of the encounter or until you are [dying](scc.v1:mcdm.heroes.v1/rule.health/dying):\n\n- Whenever a target makes a [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll), they can roll three dice and choose which two rolls to use.\n- Whenever a target makes a [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll), they must roll three dice and use the lowest two rolls.",
+    "content": "\n*Your enemies suffer their fate; your allies embrace their destiny!*\n\n| **Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)**  |        **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|--------------------|-----------------------:|\n| **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**   | **🎯 Three creatures** |\n\n**Effect:** You can target yourself instead of one creature with this ability. Choose one of the following effects, which lasts until the end of the encounter or until you are [dying](scc.v1:mcdm.heroes.v1/rule.health/dying):\n\n- Whenever a target makes a [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll), they can roll three dice and choose which two rolls to use.\n- Whenever a target makes a [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll), they must roll three dice and use the lowest two rolls.",
     "distance": "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10",
     "feature_type": "ability",
     "flavor": "Your enemies suffer their fate; your allies embrace their destiny!",
@@ -37,5 +37,5 @@
   "name": "Blessing of Fate and Destiny",
   "target": "Three creatures",
   "type": "feature",
-  "usage": "Main action"
+  "usage": "[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)"
 }

@@ -1,11 +1,17 @@
 ---
 flavor: This midnight-dark leather coat is embossed with fractal patterns that appear different each time they are observed.
+item_prerequisite: The will of a deceased person with no heirs
 keywords:
     - Light Armor
     - Psionic
+level_effects:
+    1st: You gain a +6 [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) while you wear this armor. Additionally, you gain an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on [tests](scc.v1:mcdm.heroes.v1/rule.test/test) made to lie about or conceal your identity.
+    5th: The armor's [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) increases to +12. Additionally, whenever you take damage, you can use a [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action) to [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) up to 5 squares. If you do, you create an illusion of you [dying](scc.v1:mcdm.heroes.v1/rule.health/dying) in your previous space, which fades at the end of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn).
+    9th: The armor's [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) increases to +21. Whenever you use the armor's [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action) to [teleport](scc.v1:mcdm.heroes.v1/movement/teleport), you can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) up to a number of squares equal to the damage taken (minimum 5 squares). Additionally, if a creature dealt you the triggering damage, you become invisible to that creature until the end of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn).
 name: Shrouded Memory
 project_goal: "450"
 project_roll_characteristic: '[Agility](scc.v1:mcdm.heroes.v1/rule.character/agility) or [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence)'
+project_source: Texts or lore in Khelt
 scc: mcdm.heroes.v1/treasure.leveled.armor/shrouded-memory
 treasure_type: armor
 type: treasure

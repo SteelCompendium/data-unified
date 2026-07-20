@@ -10,9 +10,9 @@ keywords:
     - Weapon
 metadata:
     ability_type: Triggered
-    action_type: Triggered
+    action_type: '[Triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)'
     class: shadow
-    content: "\n*A steely dagger from out of the blue knocks another weapon off course.*\n\n| **[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged), Weapon** |   **Triggered** |\n|--------------------|----------------:|\n| **\U0001F4CF [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 5**    | **\U0001F3AF One ally** |\n\n**Trigger:** The target takes damage from another creature's ability while you are hidden.\n\n**Effect:** The target takes half the damage. You remain hidden."
+    content: "\n*A steely dagger from out of the blue knocks another weapon off course.*\n\n| **[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged), Weapon** |   **[Triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |\n|--------------------|----------------:|\n| **\U0001F4CF [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 5**    | **\U0001F3AF One ally** |\n\n**Trigger:** The target takes damage from another creature's ability while you are hidden.\n\n**Effect:** The target takes half the damage. You remain hidden."
     distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 5'
     feature_type: ability
     flavor: A steely dagger from out of the blue knocks another weapon off course.
@@ -30,4 +30,4 @@ name: Night Watch
 target: One ally
 trigger: The target takes damage from another creature's ability while you are hidden.
 type: feature
-usage: Triggered
+usage: '[Triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)'

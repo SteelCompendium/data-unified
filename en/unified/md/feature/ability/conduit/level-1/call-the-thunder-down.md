@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: conduit
 cost: 3 Piety
 distance: 3 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 10
@@ -23,7 +23,7 @@ type: ability
 
 *You ask your [saint](scc.v1:mcdm.heroes.v1/rule.world/saint) for thunder and your prayer is answered.*
 
-| **Area, Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)** |               **Main action** |
+| **Area, Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)** |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 |-------------------------|------------------------------:|
 | **📏 3 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 10** | **🎯 Each enemy in the area** |
 

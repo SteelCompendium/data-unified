@@ -6,12 +6,14 @@ file_dpath: treasure/1st-echelon/consumable
 flavor: A small pot is filled with a viscous, ochre oil that smells of sulfur and burnt hair.
 item_id: giants-blood-flame
 item_name: Giant's-Blood Flame
+item_prerequisite: One vial of fire giant blood
 keywords:
     - Magic
     - Oil
 name: Giant's-Blood Flame
 project_goal: "45"
 project_roll_characteristic: '[Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) or [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)'
+project_source: Texts or lore in Caelian
 scc: mcdm.heroes.v1/treasure.1st-echelon.consumable/giants-blood-flame
 source: mcdm.heroes.v1
 treasure_type: consumable

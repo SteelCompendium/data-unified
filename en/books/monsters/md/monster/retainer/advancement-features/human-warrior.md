@@ -60,7 +60,7 @@ type: featureblock
 
 > ❗️ **'Scuse Me, Boss (Encounter)**
 >
-> | **Melee**      |          **Triggered action** |
+> | **Melee**      |          **[Triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |
 > |----------------|------------------------------:|
 > | **📏 Melee 1** |   **🎯 The warrior's mentor** |
 >
@@ -72,7 +72,7 @@ type: featureblock
 
 > 🗡 **Defensive Fighting (Encounter)**
 >
-> | **Melee, Strike, Weapon** |     **Main action** |
+> | **Melee, Strike, Weapon** |     **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |---------------------------|--------------------:|
 > | **📏 Melee 1**            | **🎯 One creature** |
 >
@@ -88,7 +88,7 @@ type: featureblock
 
 > ❇️ **Whirlwind of Steel (Encounter)**
 >
-> | **Area, Charge, Weapon** |               **Main action** |
+> | **Area, Charge, Weapon** |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |--------------------------|------------------------------:|
 > | **📏 1 burst**           | **🎯 Each enemy in the area** |
 >

@@ -31,7 +31,7 @@ type: statblock
 
 > 🏹 **Lumina Mark (Signature Ability)**
 >
-> | **Magic, Ranged, Strike** |               **Main action** |
+> | **Magic, Ranged, Strike** |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |---------------------------|------------------------------:|
 > | **📏 Ranged 3**           | **🎯 One creature or object** |
 >
@@ -45,7 +45,7 @@ type: statblock
 
 > ❇️ **Mourning Till Dusk (3 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
-> | **Area, Magic** |              **Main action** |
+> | **Area, Magic** |              **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-----------------|-----------------------------:|
 > | **📏 2 burst**  | **🎯 Each ally in the area** |
 >

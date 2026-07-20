@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: talent
 distance: 3 [cube](../../../../rule/combat/cube.md) within 10
 effect: A column of fire remains in the area until the start of your next [turn](../../../../rule/combat/turn.md). Each enemy who enters the area for the first time in a [combat round](../../../../rule/combat/combat-round.md) or starts their turn there takes 2 fire damage.
@@ -25,7 +25,7 @@ type: ability
 
 *The air erupts into a column of smokeless flame.*
 
-| **Area, Fire, Psionic, Pyrokinesis, [Ranged](../../../../rule/combat/ranged.md)** |               **Main action** |
+| **Area, Fire, Psionic, Pyrokinesis, [Ranged](../../../../rule/combat/ranged.md)** |               **[Main action](../../../../rule/combat/turn.md)** |
 |----------------------------------------------|------------------------------:|
 | **📏 3 [cube](../../../../rule/combat/cube.md) within 10**                      | **🎯 Each enemy in the area** |
 

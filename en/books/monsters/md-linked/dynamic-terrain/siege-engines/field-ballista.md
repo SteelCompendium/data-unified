@@ -126,7 +126,7 @@ A massive crossbow fires thick metal bolts with devastating effect.
 
 > 🏹 **Release Bolt**
 >
-> | **Ranged, Strike, Weapon** | **Main action (Adjacent creature)** |
+> | **Ranged, Strike, Weapon** | **[Main action](../../rule/combat/turn.md) (Adjacent creature)** |
 > |----------------------------|------------------------------------:|
 > | **📏 Ranged 20**           |       **🎯 One creature or object** |
 >
@@ -140,7 +140,7 @@ A massive crossbow fires thick metal bolts with devastating effect.
 
 > ⭐️ **Reload**
 >
-> | **-**    | **Main action (Adjacent creature)** |
+> | **-**    | **[Main action](../../rule/combat/turn.md) (Adjacent creature)** |
 > |----------|------------------------------------:|
 > | **📏 -** |                            **🎯 -** |
 >
@@ -148,7 +148,7 @@ A massive crossbow fires thick metal bolts with devastating effect.
 
 > ⭐️ **Spot**
 >
-> | **-**    | **Main action (Adjacent creature)** |
+> | **-**    | **[Main action](../../rule/combat/turn.md) (Adjacent creature)** |
 > |----------|------------------------------------:|
 > | **📏 -** |                            **🎯 -** |
 > 
@@ -156,7 +156,7 @@ A massive crossbow fires thick metal bolts with devastating effect.
 
 > ⭐️ **Move**
 >
-> | **-**    | **Main action (Adjacent creature)** |
+> | **-**    | **[Main action](../../rule/combat/turn.md) (Adjacent creature)** |
 > |----------|------------------------------------:|
 > | **📏 -** |                            **🎯 -** |
 >
@@ -170,7 +170,7 @@ A massive crossbow fires thick metal bolts with devastating effect.
 >
 > 🏹 **Chain Bolt**
 >
-> | **Ranged, Strike, Weapon** | **Main action (Adjacent creature)** |
+> | **Ranged, Strike, Weapon** | **[Main action](../../rule/combat/turn.md) (Adjacent creature)** |
 > |----------------------------|------------------------------------:|
 > | **📏 Ranged 20**           |       **🎯 One creature or object** |
 >
@@ -184,7 +184,7 @@ A massive crossbow fires thick metal bolts with devastating effect.
 >
 > 🏹 **Crank the Chain**
 >
-> | **Ranged, Strike, Weapon** | **Main action (Adjacent creature)** |
+> | **Ranged, Strike, Weapon** | **[Main action](../../rule/combat/turn.md) (Adjacent creature)** |
 > |----------------------------|------------------------------------:|
 > | **📏 Ranged 20**           |                 **🎯 One creature** |
 >

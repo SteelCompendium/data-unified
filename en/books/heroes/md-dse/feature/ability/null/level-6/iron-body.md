@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: "null"
 cost: 9 Discipline
 cost_amount: "9"
@@ -33,7 +33,7 @@ flavor: You focus until your body becomes as hard as iron.
 keywords:
     - Psionic
 metadata:
-    action_type: Maneuver
+    action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: "null"
     cost: 9 Discipline
     distance: Self
@@ -50,5 +50,5 @@ metadata:
 name: Iron Body
 target: Self
 type: feature
-usage: Maneuver
+usage: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 ```

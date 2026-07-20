@@ -4,12 +4,18 @@ file_dpath: treasure/leveled/other
 flavor: This burnished copper torque thrums with a sense of judgment.
 item_id: thief-of-joy
 item_name: Thief of Joy
+item_prerequisite: A pound of feathers, a pound of bricks from the Seven Cities of Hell
 keywords:
     - Neck
     - Psionic
+level_effects:
+    1st: While you wear this torque, you gain a [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) equal to twice your highest [characteristic](scc.v1:mcdm.heroes.v1/rule.character/characteristic) score. Additionally, you can use a maneuver to choose a creature in your [line of effect](scc.v1:mcdm.heroes.v1/rule.combat/line-of-effect) and learn their level. If their level is higher than yours, the torque grants you envy. If their level is equal to or lower than yours, the torque grants you disdain. You can have both envy and disdain from different creatures, but not more than one instance of either.
+    5th: The torque's [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) increases to three times your highest [characteristic](scc.v1:mcdm.heroes.v1/rule.character/characteristic) score. Additionally, when you use the torque's maneuver and the target creature is the same level as you, you gain your choice of envy or disdain.
+    9th: The torque's [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) increases to five times your highest [characteristic](scc.v1:mcdm.heroes.v1/rule.character/characteristic) score. Additionally, you can have multiple instances of envy and disdain, with no limit on either.
 name: Thief of Joy
 project_goal: "450"
 project_roll_characteristic: '[Might](scc.v1:mcdm.heroes.v1/rule.character/might), [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason), or [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence)'
+project_source: Texts or lore in Anjali
 scc: mcdm.heroes.v1/treasure.leveled.other/thief-of-joy
 source: mcdm.heroes.v1
 treasure_type: other

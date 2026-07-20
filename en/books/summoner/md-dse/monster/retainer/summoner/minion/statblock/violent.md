@@ -3,6 +3,7 @@ agility: 3
 file_basename: violent
 file_dpath: monster/retainer/summoner/minion/statblock
 free_strike: 4
+free_strike_damage_type: Corruption
 immunities: []
 intuition: -1
 item_id: violent

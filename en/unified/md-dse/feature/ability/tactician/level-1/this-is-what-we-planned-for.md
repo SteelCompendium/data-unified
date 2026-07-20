@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: tactician
 cost: 5 Focus
 cost_amount: "5"
@@ -32,7 +32,7 @@ flavor: All those coordination drills you made them do finally pay off.
 keywords:
     - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'
 metadata:
-    action_type: Maneuver
+    action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: tactician
     cost: 5 Focus
     distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
@@ -48,5 +48,5 @@ metadata:
 name: This Is What We Planned For
 target: Two allies
 type: feature
-usage: Maneuver
+usage: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 ```

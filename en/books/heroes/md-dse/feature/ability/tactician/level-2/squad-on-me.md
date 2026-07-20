@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: tactician
 cost: 5 Focus
 cost_amount: "5"
@@ -33,7 +33,7 @@ flavor: Together we are invincible!
 keywords:
     - Area
 metadata:
-    action_type: Maneuver
+    action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: tactician
     cost: 5 Focus
     distance: 1 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)
@@ -50,5 +50,5 @@ metadata:
 name: Squad! On Me!
 target: Self and each ally in the area
 type: feature
-usage: Maneuver
+usage: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 ```

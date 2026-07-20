@@ -12,9 +12,9 @@ flavor: You leap and crash down, causing a shockwave that devastates foes.
 keywords:
     - Magic
 metadata:
-    action_type: Maneuver
+    action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: fury
-    content: "\n*You leap and crash down, causing a shockwave that devastates foes.*\n\n| **Magic**   | **Maneuver** |\n|-------------|-------------:|\n| **\U0001F4CF Self** |  **\U0001F3AF Self** |\n\n**Effect:** You jump up to your maximum jump [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance) and make one [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) that targets each creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the space where you land.\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc.v1:mcdm.heroes.v1/rule.character/might):**\n\n- **≤11:** 4 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1\n- **12-16:** 7 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2\n- **17+:** 11 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3"
+    content: "\n*You leap and crash down, causing a shockwave that devastates foes.*\n\n| **Magic**   | **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|-------------|-------------:|\n| **\U0001F4CF Self** |  **\U0001F3AF Self** |\n\n**Effect:** You jump up to your maximum jump [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance) and make one [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) that targets each creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the space where you land.\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc.v1:mcdm.heroes.v1/rule.character/might):**\n\n- **≤11:** 4 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1\n- **12-16:** 7 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2\n- **17+:** 11 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3"
     distance: Self
     feature_type: ability
     flavor: You leap and crash down, causing a shockwave that devastates foes.
@@ -31,4 +31,4 @@ metadata:
 name: Avalanche Impact
 target: Self
 type: feature
-usage: Maneuver
+usage: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'

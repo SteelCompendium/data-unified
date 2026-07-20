@@ -33,7 +33,7 @@ with_captain: +5 bonus to ranged distance
 
 > 🏹 **Necrotic Bolt (Signature Ability)**
 >
-> | **Ranged, Strike, Weapon** |                          **Main action** |
+> | **Ranged, Strike, Weapon** |                          **[Main action](../../../rule/combat/turn.md)** |
 > |----------------------------|-----------------------------------------:|
 > | **📏 Ranged 10**           | **🎯 One creature or object per minion** |
 >

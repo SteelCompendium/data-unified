@@ -30,7 +30,7 @@ type: statblock
 
 > 🔳 **Explosion ([Signature Ability](../../../rule/combat/signature-ability.md))**
 >
-> | **Psionic, Ranged, Strike** |               **Main action** |
+> | **Psionic, Ranged, Strike** |               **[Main action](../../../rule/combat/turn.md)** |
 > |-----------------------------|------------------------------:|
 > | **📏 4 cube within 10**     | **🎯 Each enemy in the area** |
 >

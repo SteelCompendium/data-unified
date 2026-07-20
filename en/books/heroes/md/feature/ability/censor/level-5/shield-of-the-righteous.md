@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: censor
 cost: 9 Wrath
 distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
@@ -22,7 +22,7 @@ type: ability
 
 *You strike a foe and create a fleet of divine shields that protect your allies.*
 
-| **[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), Weapon** |          **Main action** |
+| **[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), Weapon** |          **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 |---------------------------|-------------------------:|
 | **📏 [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1**            |      **🎯 One creature** |
 

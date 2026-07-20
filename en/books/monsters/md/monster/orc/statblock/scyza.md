@@ -29,7 +29,7 @@ type: statblock
 
 > 🗡 **Clawed Kick ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 2**            | **🎯 Two creatures or objects** |
 >
@@ -43,7 +43,7 @@ type: statblock
 
 > 🗡 **Whiptail**
 >
-> | **Melee, Strike, Weapon** |               **Main action** |
+> | **Melee, Strike, Weapon** |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |---------------------------|------------------------------:|
 > | **📏 Melee 3**            | **🎯 One creature or object** |
 >
@@ -57,7 +57,7 @@ type: statblock
 
 > 🔳 **Crestfall (2 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
-> | **Area, Ranged, Weapon** |               **Main action** |
+> | **Area, Ranged, Weapon** |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |--------------------------|------------------------------:|
 > | **📏 3 cube within 2**   | **🎯 Each enemy in the area** |
 >
@@ -69,7 +69,7 @@ type: statblock
 
 > ❇️ **Sandstorm (3 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
-> | **Area**       |   **Maneuver** |
+> | **Area**       |   **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |----------------|---------------:|
 > | **📏 3 burst** | **🎯 Special** |
 >
@@ -81,7 +81,7 @@ type: statblock
 
 > ❗️ **Brace and Break**
 >
-> | **-**       | **Triggered action** |
+> | **-**       | **[Triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |
 > |-------------|---------------------:|
 > | **📏 Self** |          **🎯 Self** |
 >

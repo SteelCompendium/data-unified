@@ -1,5 +1,5 @@
 ---
-action_type: No action
+action_type: '[No action](../../../../rule/combat/turn.md)'
 class: troubadour
 distance: 5 [aura](../../../../rule/combat/aura.md)
 effect: 'While this performance is active, each target who starts their [turn](../../../../rule/combat/turn.md) in the area doesn''t take a [bane](../../../../rule/dice/bane.md) on [strikes](../../../../rule/combat/strike.md) against creatures with [concealment](../../../../rule/combat/concealment.md). Once during their [turn](../../../../rule/combat/turn.md), they can search for hidden creatures as a [free maneuver](../../../../rule/combat/free-maneuver.md) (see Hide and Sneak in Chapter 9: [Tests](../../../../chapter/tests.md)).'
@@ -19,7 +19,7 @@ type: ability
 
 *Maybe you and I ♪ We can still bring the light!♪*
 
-| **Area, Magic, Performance** |                         **No action** |
+| **Area, Magic, Performance** |                         **[No action](../../../../rule/combat/turn.md)** |
 |------------------------------|--------------------------------------:|
 | **📏 5 [aura](../../../../rule/combat/aura.md)**                | **🎯 Self and each ally in the area** |
 

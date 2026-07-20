@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: fury
 cost: 5 Ferocity
 distance: 2 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)
@@ -22,7 +22,7 @@ type: ability
 
 *The sound of the storm within you staggers your opponents.*
 
-| **Area, Magic** |               **Main action** |
+| **Area, Magic** |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 |-----------------|------------------------------:|
 | **📏 2 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)**  | **🎯 Each enemy in the area** |
 

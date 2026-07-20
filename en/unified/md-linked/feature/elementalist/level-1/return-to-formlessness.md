@@ -14,7 +14,7 @@ You have the following ability.
 
 *With the merest touch, you cause an object to turn to slag or ash.*
 
-| **Fire, Magic, [Melee](../../../rule/combat/melee.md)**  |           **Main action** |
+| **Fire, Magic, [Melee](../../../rule/combat/melee.md)**  |           **[Main action](../../../rule/combat/turn.md)** |
 |-------------------------|--------------------------:|
 | **📏 [Melee](../../../rule/combat/melee.md) 1**          | **🎯 One mundane object** |
 

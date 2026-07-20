@@ -39,7 +39,7 @@ type: statblock
 
 > 🗡 **Corrosive Claws (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 1**            | **🎯 Two creatures or objects** |
 >
@@ -51,7 +51,7 @@ type: statblock
 
 > 🔳 **Soul Steal**
 >
-> | **Area, Magic**        |               **Main action** |
+> | **Area, Magic**        |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |------------------------|------------------------------:|
 > | **📏 4 cube within 1** | **🎯 Each enemy in the area** |
 >
@@ -67,7 +67,7 @@ type: statblock
 
 > 👤 **Shapeshifter**
 >
-> | **Magic**   | **Maneuver** |
+> | **Magic**   | **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
@@ -77,7 +77,7 @@ type: statblock
 
 > ❗️ **Turned Upside Down (2 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
-> | **Area, Magic** |          **Triggered action** |
+> | **Area, Magic** |          **[Triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |
 > |-----------------|------------------------------:|
 > | **📏 1 burst**  | **🎯 Each enemy in the area** |
 >

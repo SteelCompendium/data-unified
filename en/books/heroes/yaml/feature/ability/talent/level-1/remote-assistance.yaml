@@ -10,9 +10,9 @@ keywords:
     - Psionic
     - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'
 metadata:
-    action_type: Maneuver
+    action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: talent
-    content: "\n*An ally gains the benefit of your intellect.*\n\n| **Psionic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)** |                  **Maneuver** |\n|---------------------|------------------------------:|\n| **\U0001F4CF [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**    | **\U0001F3AF One creature or object** |\n\n\n**Effect:** The next [ability roll](scc.v1:mcdm.heroes.v1/rule.dice/ability-roll) an ally makes against the target before the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) gains an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge).\n\n**Spend 1 Clarity:** You target one additional creature or object."
+    content: "\n*An ally gains the benefit of your intellect.*\n\n| **Psionic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)** |                  **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|---------------------|------------------------------:|\n| **\U0001F4CF [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**    | **\U0001F3AF One creature or object** |\n\n\n**Effect:** The next [ability roll](scc.v1:mcdm.heroes.v1/rule.dice/ability-roll) an ally makes against the target before the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) gains an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge).\n\n**Spend 1 Clarity:** You target one additional creature or object."
     distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
     feature_type: ability
     flavor: An ally gains the benefit of your intellect.
@@ -30,4 +30,4 @@ metadata:
 name: Remote Assistance
 target: One creature or object
 type: feature
-usage: Maneuver
+usage: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'

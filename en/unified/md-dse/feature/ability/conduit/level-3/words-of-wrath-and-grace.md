@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: conduit
 cost: 7 Piety
 cost_amount: "7"
@@ -42,7 +42,7 @@ keywords:
     - Area
     - Magic
 metadata:
-    action_type: Main action
+    action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: conduit
     cost: 7 Piety
     distance: 5 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)
@@ -63,5 +63,5 @@ metadata:
 name: Words of Wrath and Grace
 target: Each enemy in the area
 type: feature
-usage: Main action
+usage: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 ```

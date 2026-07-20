@@ -32,7 +32,7 @@ weaknesses:
 
 > 🗡 **Savoring Bite ([Signature Ability](../../../rule/combat/signature-ability.md))**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](../../../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 1**            | **🎯 Two creatures or objects** |
 >
@@ -46,7 +46,7 @@ weaknesses:
 
 > 🔳 **Rotten Scraps**
 >
-> | **Area, Ranged**        |                  **Main action** |
+> | **Area, Ranged**        |                  **[Main action](../../../rule/combat/turn.md)** |
 > |-------------------------|---------------------------------:|
 > | **📏 3 cube within 10** | **🎯 Each creature in the area** |
 >
@@ -60,7 +60,7 @@ weaknesses:
 
 > 👤 **Gourmet Flesh (2 [Malice](../../../rule/monster/malice.md))**
 >
-> | **-**       | **Maneuver** |
+> | **-**       | **[Maneuver](../../../rule/combat/turn.md)** |
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
@@ -68,7 +68,7 @@ weaknesses:
 
 > ❗️ **Acquired Taste**
 >
-> | **Melee**      |           **Triggered action** |
+> | **Melee**      |           **[Triggered action](../../../rule/combat/triggered-action.md)** |
 > |----------------|-------------------------------:|
 > | **📏 Melee 1** | **🎯 The triggering creature** |
 >

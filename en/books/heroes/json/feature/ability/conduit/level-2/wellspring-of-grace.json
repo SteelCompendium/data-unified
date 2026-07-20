@@ -14,9 +14,9 @@
     "Magic"
   ],
   "metadata": {
-    "action_type": "Main action",
+    "action_type": "[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)",
     "class": "conduit",
-    "content": "\n*A holy light is emitted from your body, healing your allies.*\n\n| **Area, Magic**  |              **Main action** |\n|------------------|-----------------------------:|\n| **📏 3 [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura)**    | **🎯 Each ally in the area** |\n\n**Effect:** Until the end of the encounter or until you are [dying](scc.v1:mcdm.heroes.v1/rule.health/dying), whenever a target starts their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) in the area, they can spend a [Recovery](scc.v1:mcdm.heroes.v1/rule.health/recoveries).",
+    "content": "\n*A holy light is emitted from your body, healing your allies.*\n\n| **Area, Magic**  |              **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|------------------|-----------------------------:|\n| **📏 3 [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura)**    | **🎯 Each ally in the area** |\n\n**Effect:** Until the end of the encounter or until you are [dying](scc.v1:mcdm.heroes.v1/rule.health/dying), whenever a target starts their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) in the area, they can spend a [Recovery](scc.v1:mcdm.heroes.v1/rule.health/recoveries).",
     "distance": "3 [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura)",
     "feature_type": "ability",
     "flavor": "A holy light is emitted from your body, healing your allies.",
@@ -37,5 +37,5 @@
   "name": "Wellspring of Grace",
   "target": "Each ally in the area",
   "type": "feature",
-  "usage": "Main action"
+  "usage": "[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)"
 }

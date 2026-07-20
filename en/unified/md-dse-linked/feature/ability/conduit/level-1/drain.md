@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: conduit
 distance: '[Melee](../../../../rule/combat/melee.md) 1'
 effect: You or one ally within [distance](../../../../rule/combat/distance.md) can spend a [Recovery](../../../../rule/health/recoveries.md).
@@ -41,7 +41,7 @@ keywords:
     - '[Melee](../../../../rule/combat/melee.md)'
     - '[Strike](../../../../rule/combat/strike.md)'
 metadata:
-    action_type: Main action
+    action_type: '[Main action](../../../../rule/combat/turn.md)'
     class: conduit
     distance: '[Melee](../../../../rule/combat/melee.md) 1'
     effect: You or one ally within [distance](../../../../rule/combat/distance.md) can spend a [Recovery](../../../../rule/health/recoveries.md).
@@ -63,5 +63,5 @@ metadata:
 name: Drain
 target: One creature
 type: feature
-usage: Main action
+usage: '[Main action](../../../../rule/combat/turn.md)'
 ```

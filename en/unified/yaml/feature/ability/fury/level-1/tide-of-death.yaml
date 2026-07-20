@@ -13,9 +13,9 @@ keywords:
     - '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)'
     - Weapon
 metadata:
-    action_type: Main action
+    action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: fury
-    content: "\n*Teach them the folly of lining up for you.*\n\n| **[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), Weapon**      | **Main action** |\n|------------------------|----------------:|\n| **\U0001F4CF Self; see below** |     **\U0001F3AF Self** |\n\n**Effect:** You move up to your [speed](scc.v1:mcdm.heroes.v1/rule.character/speed) in a straight line, and enemy squares are not [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain) for this movement. You can end this movement in a creature's space and move them to an [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) unoccupied space. You make one [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) that targets each enemy whose space you move through.\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc.v1:mcdm.heroes.v1/rule.character/might):**\n\n- **≤11:** 2 damage\n- **12-16:** 3 damage\n- **17+:** 5 damage\n\n**Effect:** The last target you damage takes extra damage equal to your [Might](scc.v1:mcdm.heroes.v1/rule.character/might) score for each [opportunity attack](scc.v1:mcdm.heroes.v1/rule.combat/opportunity-attack) you trigger during your move."
+    content: "\n*Teach them the folly of lining up for you.*\n\n| **[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), Weapon**      | **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|------------------------|----------------:|\n| **\U0001F4CF Self; see below** |     **\U0001F3AF Self** |\n\n**Effect:** You move up to your [speed](scc.v1:mcdm.heroes.v1/rule.character/speed) in a straight line, and enemy squares are not [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain) for this movement. You can end this movement in a creature's space and move them to an [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) unoccupied space. You make one [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) that targets each enemy whose space you move through.\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc.v1:mcdm.heroes.v1/rule.character/might):**\n\n- **≤11:** 2 damage\n- **12-16:** 3 damage\n- **17+:** 5 damage\n\n**Effect:** The last target you damage takes extra damage equal to your [Might](scc.v1:mcdm.heroes.v1/rule.character/might) score for each [opportunity attack](scc.v1:mcdm.heroes.v1/rule.combat/opportunity-attack) you trigger during your move."
     distance: Self; see below
     feature_type: ability
     flavor: Teach them the folly of lining up for you.
@@ -32,4 +32,4 @@ metadata:
 name: Tide of Death
 target: Self
 type: feature
-usage: Main action
+usage: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'

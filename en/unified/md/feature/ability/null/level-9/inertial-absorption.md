@@ -1,5 +1,5 @@
 ---
-action_type: Free triggered
+action_type: Free [triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)
 class: "null"
 cost: 11 Discipline
 distance: Self
@@ -20,7 +20,7 @@ type: ability
 
 *You absorb an attack to empower your body.*
 
-| **Psionic** |                  **Free triggered** |
+| **Psionic** |                  **Free [triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |
 | -----------------------------|------------------------------------:|
 | **📏 Self** |  **🎯 Self** |
 

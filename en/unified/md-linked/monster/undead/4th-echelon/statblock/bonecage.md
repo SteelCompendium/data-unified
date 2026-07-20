@@ -33,7 +33,7 @@ type: statblock
 
 > 🗡 **Ribcage Chomp ([Signature Ability](../../../../rule/combat/signature-ability.md))**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](../../../../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 2**            | **🎯 Two creatures or objects** |
 >
@@ -49,7 +49,7 @@ type: statblock
 
 > 🔳 **Labyrinth of Bone (5 [Malice](../../../../rule/monster/malice.md))**
 >
-> | **Area, Magic, Ranged**           |               **Main action** |
+> | **Area, Magic, Ranged**           |               **[Main action](../../../../rule/combat/turn.md)** |
 > |-----------------------------------|------------------------------:|
 > | **📏 Four 10 x 1 lines within 3** | **🎯 Each enemy in the area** |
 >

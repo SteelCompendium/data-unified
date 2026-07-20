@@ -1,5 +1,5 @@
 ---
-action_type: Triggered
+action_type: '[Triggered](../../../../rule/combat/triggered-action.md)'
 class: elementalist
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
 effect: The target can spend a [Recovery](../../../../rule/health/recoveries.md).
@@ -22,7 +22,7 @@ type: ability
 
 *The power you channel grants the ability to get back in the fight.*
 
-| **Green, Magic, [Ranged](../../../../rule/combat/ranged.md)**          |           **Triggered** |
+| **Green, Magic, [Ranged](../../../../rule/combat/ranged.md)**          |           **[Triggered](../../../../rule/combat/triggered-action.md)** |
 |-----------------------------------|------------------------:|
 | **📏 [Ranged](../../../../rule/combat/ranged.md) 10**                  | **🎯 Self or one ally** |
 

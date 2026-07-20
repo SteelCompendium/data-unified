@@ -29,7 +29,7 @@ type: statblock
 
 > 🏹 **Shocking Bolt (Signature Ability)**
 >
-> | **Magic, Ranged, Strike** |               **Main action** |
+> | **Magic, Ranged, Strike** |               **[Main action](../../../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Ranged 15**          | **🎯 One creature or object** |
 >
@@ -43,7 +43,7 @@ type: statblock
 
 > 🏹 **Arcane Telum (3 Malice)**
 >
-> | **Magic, Ranged, Strike** |                      **Maneuver** |
+> | **Magic, Ranged, Strike** |                      **[Maneuver](../../../rule/combat/turn.md)** |
 > |---------------------------|----------------------------------:|
 > | **📏 Ranged 15**          | **🎯 Three creatures or objects** |
 >

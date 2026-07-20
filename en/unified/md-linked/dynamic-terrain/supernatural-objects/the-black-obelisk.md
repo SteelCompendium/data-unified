@@ -71,7 +71,7 @@ A foreboding obelisk shaped of dark stone harrows the minds and spirits of those
 
 > ❗️ **Your Fears Become Manifest**
 >
-> | **Area, Magic** |     **Free triggered action** |
+> | **Area, Magic** |     **Free [triggered action](../../rule/combat/triggered-action.md)** |
 > |-----------------|------------------------------:|
 > | **📏 10 burst** | **🎯 Each enemy in the area** |
 >

@@ -28,7 +28,7 @@ type: statblock
 
 > 🗡 **Natural Weapon (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](../../../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 1**            | **🎯 Two creatures or objects** |
 >
@@ -40,7 +40,7 @@ type: statblock
 
 > 👤 **Ready to Strike**
 >
-> | **-**       | **Maneuver** |
+> | **-**       | **[Maneuver](../../../rule/combat/turn.md)** |
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
@@ -48,7 +48,7 @@ type: statblock
 
 > ❗️ **Quick Strike**
 >
-> | **Melee, Strike, Weapon** |                     **Triggered action** |
+> | **Melee, Strike, Weapon** |                     **[Triggered action](../../../rule/combat/triggered-action.md)** |
 > |---------------------------|-----------------------------------------:|
 > | **📏 Melee 1**            | **🎯 The triggering creature or object** |  
 >

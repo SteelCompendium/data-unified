@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: troubadour
 cost: 5 Drama
 distance: 3 [burst](../../../../rule/combat/burst.md)
@@ -21,7 +21,7 @@ type: ability
 
 *Give the audience a surprise.*
 
-| **Area, Magic** |                       **Main action** |
+| **Area, Magic** |                       **[Main action](../../../../rule/combat/turn.md)** |
 |-----------------|--------------------------------------:|
 | **📏 3 [burst](../../../../rule/combat/burst.md)**  | **🎯 Self and each ally in the area** |
 

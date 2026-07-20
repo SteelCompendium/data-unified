@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: "null"
 cost: 9 Discipline
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
@@ -23,7 +23,7 @@ type: ability
 
 *Pillars of ice erupt from the ground and launch your foes into the air.*
 
-| **Psionic, [Ranged](../../../../rule/combat/ranged.md)** |                   **Main action** |
+| **Psionic, [Ranged](../../../../rule/combat/ranged.md)** |                   **[Main action](../../../../rule/combat/turn.md)** |
 |---------------------|----------------------------------:|
 | **📏 [Ranged](../../../../rule/combat/ranged.md) 10**    | **🎯 Three creatures or objects** |
 

@@ -31,7 +31,7 @@ type: statblock
 
 > ⚔️ **Corrupted Ash Daggers ([Signature Ability](../../../../rule/combat/signature-ability.md))**
 >
-> | **Melee, Ranged, Strike, Weapon** |               **Main action** |
+> | **Melee, Ranged, Strike, Weapon** |               **[Main action](../../../../rule/combat/turn.md)** |
 > |-----------------------------------|------------------------------:|
 > | **📏 Melee 1 or ranged 10**       | **🎯 One creature or object** |
 >
@@ -47,7 +47,7 @@ type: statblock
 
 > 🏹 **Posthumous Promotion**
 >
-> | **Magic, Ranged** |       **Maneuver** |
+> | **Magic, Ranged** |       **[Maneuver](../../../../rule/combat/turn.md)** |
 > |-------------------|-------------------:|
 > | **📏 Ranged 10**  | **🎯 One war dog** |
 >
@@ -55,7 +55,7 @@ type: statblock
 
 > 👤 **Corrupted Ash Teleport (1 [Malice](../../../../rule/monster/malice.md))**
 >
-> | **Magic**   | **Maneuver** |
+> | **Magic**   | **[Maneuver](../../../../rule/combat/turn.md)** |
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >

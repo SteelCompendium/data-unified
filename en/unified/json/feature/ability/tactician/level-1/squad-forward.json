@@ -13,9 +13,9 @@
     "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)"
   ],
   "metadata": {
-    "action_type": "Maneuver",
+    "action_type": "[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)",
     "class": "tactician",
-    "content": "\n*On your command, you and your allies force back the enemy line.*\n\n| **[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)**       |               **Maneuver** |\n|------------------|---------------------------:|\n| **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10** | **🎯 Self and two allies** |\n\n**Effect:** Each target can move up to their [speed](scc.v1:mcdm.heroes.v1/rule.character/speed).",
+    "content": "\n*On your command, you and your allies force back the enemy line.*\n\n| **[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)**       |               **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|------------------|---------------------------:|\n| **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10** | **🎯 Self and two allies** |\n\n**Effect:** Each target can move up to their [speed](scc.v1:mcdm.heroes.v1/rule.character/speed).",
     "distance": "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10",
     "feature_type": "ability",
     "flavor": "On your command, you and your allies force back the enemy line.",
@@ -34,5 +34,5 @@
   "name": "Squad! Forward!",
   "target": "Self and two allies",
   "type": "feature",
-  "usage": "Maneuver"
+  "usage": "[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)"
 }

@@ -25,7 +25,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *You shout a phrase that galvanizes your team.*
 
-| **[Ranged](../../../rule/combat/ranged.md)**       |        **Maneuver** |
+| **[Ranged](../../../rule/combat/ranged.md)**       |        **[Maneuver](../../../rule/combat/turn.md)** |
 |------------------|--------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10** | **🎯 Three allies** |
 
@@ -40,7 +40,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *Your precise strike leaves your foe struggling to respond.*
 
-| **[Melee](../../../rule/combat/melee.md), [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md), Weapon** |               **Main action** |
+| **[Melee](../../../rule/combat/melee.md), [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md), Weapon** |               **[Main action](../../../rule/combat/turn.md)** |
 |-----------------------------------|------------------------------:|
 | **📏 [Melee](../../../rule/combat/melee.md) 1 or [ranged](../../../rule/combat/ranged.md) 5**        | **🎯 One creature or object** |
 
@@ -55,7 +55,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *Your attack gives an ally hope.*
 
-| **[Melee](../../../rule/combat/melee.md), [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md), Weapon** |               **Main action** |
+| **[Melee](../../../rule/combat/melee.md), [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md), Weapon** |               **[Main action](../../../rule/combat/turn.md)** |
 |-----------------------------------|------------------------------:|
 | **📏 [Melee](../../../rule/combat/melee.md) 1 or [ranged](../../../rule/combat/ranged.md) 5**        | **🎯 One creature or object** |
 
@@ -70,7 +70,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *On your command, you and your allies force back the enemy line.*
 
-| **[Ranged](../../../rule/combat/ranged.md)**       |               **Maneuver** |
+| **[Ranged](../../../rule/combat/ranged.md)**       |               **[Maneuver](../../../rule/combat/turn.md)** |
 |------------------|---------------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10** | **🎯 Self and two allies** |
 

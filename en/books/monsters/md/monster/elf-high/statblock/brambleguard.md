@@ -29,7 +29,7 @@ type: statblock
 
 > 🔳 **Wall of Roses (Signature Ability)**
 >
-> | **Area, Magic**           | **Main action** |
+> | **Area, Magic**           | **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |---------------------------|----------------:|
 > | **📏 Special; see below** |     **🎯 Self** |
 >
@@ -37,7 +37,7 @@ type: statblock
 
 > ❇️ **Whip Frenzy**
 >
-> | **Area, Weapon** |               **Main action** |
+> | **Area, Weapon** |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |------------------|------------------------------:|
 > | **📏 2 burst**   | **🎯 Each enemy in the area** |
 >

@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: conduit
 cost: 9 Piety
 cost_amount: "9"
@@ -35,7 +35,7 @@ keywords:
     - Area
     - Magic
 metadata:
-    action_type: Main action
+    action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: conduit
     cost: 9 Piety
     distance: 4 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)
@@ -53,5 +53,5 @@ metadata:
 name: Revitalizing Grace
 target: Self and each ally in the area
 type: feature
-usage: Main action
+usage: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 ```

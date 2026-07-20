@@ -6,11 +6,13 @@ file_dpath: treasure/1st-echelon/consumable
 flavor: A densely interlocking sphere of clockwork gears features facets that show the countenance of the item's wielder.
 item_id: pocket-homunculus
 item_name: Pocket Homunculus
+item_prerequisite: A strip of starmetal coated in the blood of the item's crafter
 keywords:
     - Psionic
 name: Pocket Homunculus
 project_goal: "45"
 project_roll_characteristic: '[Reason](scc.v1:mcdm.heroes.v1/rule.character/reason)'
+project_source: Texts or lore in Zaliac
 scc: mcdm.heroes.v1/treasure.1st-echelon.consumable/pocket-homunculus
 source: mcdm.heroes.v1
 treasure_type: consumable

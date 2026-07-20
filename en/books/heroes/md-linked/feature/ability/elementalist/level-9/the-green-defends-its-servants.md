@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](../../../../rule/combat/turn.md)'
 class: elementalist
 cost: 11 Essence
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
@@ -19,7 +19,7 @@ type: ability
 
 *A luminous green shield shows its true beauty the more it cracks.*
 
-| **Green, Magic, [Ranged](../../../../rule/combat/ranged.md)** |            **Maneuver** |
+| **Green, Magic, [Ranged](../../../../rule/combat/ranged.md)** |            **[Maneuver](../../../../rule/combat/turn.md)** |
 |--------------------------|------------------------:|
 | **📏 [Ranged](../../../../rule/combat/ranged.md) 10**         | **🎯 Self or one ally** |
 

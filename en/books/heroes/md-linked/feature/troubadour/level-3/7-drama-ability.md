@@ -13,7 +13,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *No, this isn't right. That foe was over there!*
 
-| **Area, Magic** |                  **Maneuver** |
+| **Area, Magic** |                  **[Maneuver](../../../rule/combat/turn.md)** |
 |-----------------|------------------------------:|
 | **📏 4 [burst](../../../rule/combat/burst.md)**  | **🎯 Each enemy in the area** |
 
@@ -30,7 +30,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *A spicy performance lights a fire under your allies' feet.*
 
-| **Area, Magic, [Melee](../../../rule/combat/melee.md), Weapon** |               **Main action** |
+| **Area, Magic, [Melee](../../../rule/combat/melee.md), Weapon** |               **[Main action](../../../rule/combat/turn.md)** |
 |--------------------------------|------------------------------:|
 | **📏 3 [burst](../../../rule/combat/burst.md)**                 | **🎯 Each enemy in the area** |
 
@@ -47,7 +47,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *Your performance travels and doesn't stop moving until your audience is completely rocked.*
 
-| **Magic, [Melee](../../../rule/combat/melee.md), [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md), Weapon** |               **Main action** |
+| **Magic, [Melee](../../../rule/combat/melee.md), [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md), Weapon** |               **[Main action](../../../rule/combat/turn.md)** |
 |------------------------------------------|------------------------------:|
 | **📏 [Melee](../../../rule/combat/melee.md) 1 or [ranged](../../../rule/combat/ranged.md) 10**              | **🎯 One creature or object** |
 
@@ -64,7 +64,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *You magically intertwine your fate with another creature—for better or worse.*
 
-| **Magic, [Ranged](../../../rule/combat/ranged.md)** |        **Maneuver** |
+| **Magic, [Ranged](../../../rule/combat/ranged.md)** |        **[Maneuver](../../../rule/combat/turn.md)** |
 |-------------------|--------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**  | **🎯 One creature** |
 

@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: elementalist
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
 effect: Choose yourself or one ally within [distance](../../../../rule/combat/distance.md). That character can end one effect on them that is ended by a [saving throw](../../../../rule/general/saving-throw.md) or that ends at the end of their [turn](../../../../rule/combat/turn.md).
@@ -25,7 +25,7 @@ type: ability
 
 *Your curse causes your foe's flesh to rot off as spores that aid your allies.*
 
-| **Green, Magic, [Ranged](../../../../rule/combat/ranged.md), Rot, [Strike](../../../../rule/combat/strike.md)**  |     **Main action** |
+| **Green, Magic, [Ranged](../../../../rule/combat/ranged.md), Rot, [Strike](../../../../rule/combat/strike.md)**  |     **[Main action](../../../../rule/combat/turn.md)** |
 |----------------------------------------|--------------------:|
 | **📏 [Ranged](../../../../rule/combat/ranged.md) 10**                       | **🎯 One creature** |
 

@@ -13,9 +13,9 @@ keywords:
     - '[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)'
     - Weapon
 metadata:
-    action_type: Main action
+    action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: "null"
-    content: "\n*The force of your [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) moves your target in a surprising direction.*\n\n| **[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), Psionic, [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), Weapon** |     **Main action** |\n|------------------------------------|--------------------:|\n| **\U0001F4CF [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 3**                     | **\U0001F3AF One creature** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility):**\n\n- **≤11:** 8 + A damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1\n- **12-16:** 12 + A damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3\n- **17+:** 16 + A damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5"
+    content: "\n*The force of your [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) moves your target in a surprising direction.*\n\n| **[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), Psionic, [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), Weapon** |     **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|------------------------------------|--------------------:|\n| **\U0001F4CF [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 3**                     | **\U0001F3AF One creature** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility):**\n\n- **≤11:** 8 + A damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1\n- **12-16:** 12 + A damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3\n- **17+:** 16 + A damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5"
     distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 3'
     feature_type: ability
     flavor: The force of your [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) moves your target in a surprising direction.
@@ -35,4 +35,4 @@ metadata:
 name: Force Redirected
 target: One creature
 type: feature
-usage: Main action
+usage: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'

@@ -33,7 +33,7 @@ with_captain: +2 bonus to speed
 
 > 🗡 **Soul Prism (Signature Ability)**
 >
-> | **Magic, Melee, Strike, Weapon** |                          **Main action** |
+> | **Magic, Melee, Strike, Weapon** |                          **[Main action](../../../../rule/combat/turn.md)** |
 > |----------------------------------|-----------------------------------------:|
 > | **📏 Melee 1**                   | **🎯 One creature or object per minion** |
 >

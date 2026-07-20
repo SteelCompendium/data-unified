@@ -30,7 +30,7 @@ type: statblock
 
 > 🗡 **Razor Bite (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |               **Main action** |
+> | **Melee, Strike, Weapon** |               **[Main action](../../../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Melee 1**            | **🎯 One creature or object** |
 >
@@ -44,7 +44,7 @@ type: statblock
 
 > 🗡 **Tail Whip (2 [Malice](../../../rule/monster/malice.md))**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](../../../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 2**            | **🎯 Two creatures or objects** |
 >

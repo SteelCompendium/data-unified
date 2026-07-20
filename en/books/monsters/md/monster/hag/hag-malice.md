@@ -57,7 +57,7 @@ The hag utters terrible words that [push](scc.v1:mcdm.heroes.v1/movement/forced-
 
 > 🔳 **Hag Wyrd (5 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
-> | **Area, Magic**             |               **Main action** |
+> | **Area, Magic**             |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-----------------------------|------------------------------:|
 > | **📏 10 x 1 line within 1** | **🎯 Each enemy in the area** |
 >
@@ -79,7 +79,7 @@ The hag utters terrible words that [push](scc.v1:mcdm.heroes.v1/movement/forced-
 
 > 🔳 **Kick (Signature Ability)**
 >
-> | **Area, Ranged, Weapon** |               **Main action** |
+> | **Area, Ranged, Weapon** |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |--------------------------|------------------------------:|
 > | **📏 2 cube within 2**   | **🎯 Each enemy in the area** |
 >

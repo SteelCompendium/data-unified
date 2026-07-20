@@ -41,7 +41,7 @@ type: statblock
 
 > 🗡 **Devolving Tentacles ([Signature Ability](../../../rule/combat/signature-ability.md))**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](../../../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 3**            | **🎯 Two creatures or objects** |
 >
@@ -55,7 +55,7 @@ type: statblock
 
 > 🔳 **Slime Spew**
 >
-> | **Area, Weapon**           |                             **Main action** |
+> | **Area, Weapon**           |                             **[Main action](../../../rule/combat/turn.md)** |
 > |----------------------------|--------------------------------------------:|
 > | **📏 7 x 2 line within 1** | **🎯 Each creature and object in the area** |
 >
@@ -71,7 +71,7 @@ type: statblock
 
 > 🏹 **Oozing Transformation (2 [Malice](../../../rule/monster/malice.md))**
 >
-> | **Psionic, Ranged, Strike** |     **Main action** |
+> | **Psionic, Ranged, Strike** |     **[Main action](../../../rule/combat/turn.md)** |
 > |-----------------------------|--------------------:|
 > | **📏 Ranged 10**            | **🎯 One creature** |
 >
@@ -91,7 +91,7 @@ type: statblock
 
 > 👤 **Jaunt**
 >
-> | **Psionic** | **Maneuver** |
+> | **Psionic** | **[Maneuver](../../../rule/combat/turn.md)** |
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
@@ -99,7 +99,7 @@ type: statblock
 
 > ❗️ **Liquify**
 >
-> | **Psionic, Ranged** | **Triggered action** |
+> | **Psionic, Ranged** | **[Triggered action](../../../rule/combat/triggered-action.md)** |
 > |---------------------|---------------------:|
 > | **📏 Ranged 5**     |    **🎯 Each enemy** |
 >

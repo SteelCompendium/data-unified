@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: troubadour
 cost: 3 Drama
 cost_amount: "3"
@@ -43,7 +43,7 @@ keywords:
     - Area
     - Magic
 metadata:
-    action_type: Main action
+    action_type: '[Main action](../../../../rule/combat/turn.md)'
     class: troubadour
     cost: 3 Drama
     distance: 2 [burst](../../../../rule/combat/burst.md)
@@ -64,5 +64,5 @@ metadata:
 name: Hypnotic Overtones
 target: Each enemy in the area
 type: feature
-usage: Main action
+usage: '[Main action](../../../../rule/combat/turn.md)'
 ```

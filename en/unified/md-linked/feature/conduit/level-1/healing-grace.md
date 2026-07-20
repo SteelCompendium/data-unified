@@ -13,7 +13,7 @@ You have the following ability, which you can use once on your [turn](../../../r
 
 *Your divine energy restores the righteous.*
 
-| **Magic, [Ranged](../../../rule/combat/ranged.md)**          |            **Maneuver** |
+| **Magic, [Ranged](../../../rule/combat/ranged.md)**          |            **[Maneuver](../../../rule/combat/turn.md)** |
 |----------------------------|------------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**           | **🎯 Self or one ally** |
 

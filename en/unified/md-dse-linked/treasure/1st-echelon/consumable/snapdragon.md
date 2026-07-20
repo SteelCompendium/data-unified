@@ -6,11 +6,13 @@ file_dpath: treasure/1st-echelon/consumable
 flavor: This delicate orange blossom has a sickly-sweet smell.
 item_id: snapdragon
 item_name: Snapdragon
+item_prerequisite: Fifty snapdragon seeds
 keywords:
     - Magic
 name: Snapdragon
 project_goal: 45 (yields 1d6 + 1 snapdragons)
 project_roll_characteristic: '[Reason](../../../rule/character/reason.md) or [Intuition](../../../rule/character/intuition.md)'
+project_source: Texts or lore in Yllyric
 scc: mcdm.heroes.v1/treasure.1st-echelon.consumable/snapdragon
 source: mcdm.heroes.v1
 treasure_type: consumable

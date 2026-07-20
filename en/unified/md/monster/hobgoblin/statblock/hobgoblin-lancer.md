@@ -34,7 +34,7 @@ with_captain: +2 damage bonus to strikes
 
 > ⚔️ **Grim Thrust (Signature Ability)**
 >
-> | **Magic, Melee, Ranged, Strike, Weapon** |                          **Main action** |
+> | **Magic, Melee, Ranged, Strike, Weapon** |                          **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |------------------------------------------|-----------------------------------------:|
 > | **📏 Melee 2 or ranged 5**               | **🎯 One creature or object per minion** |
 >

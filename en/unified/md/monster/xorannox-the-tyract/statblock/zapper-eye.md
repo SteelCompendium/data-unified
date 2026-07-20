@@ -30,7 +30,7 @@ type: statblock
 
 > 🔳 **Lightning Beam ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
-> | **Area, Psionic**           |               **Main action** |
+> | **Area, Psionic**           |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-----------------------------|------------------------------:|
 > | **📏 10 x 1 line within 1** | **🎯 Each enemy in the area** |
 >

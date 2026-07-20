@@ -1,5 +1,5 @@
 ---
-action_type: Triggered
+action_type: '[Triggered](../../../../rule/combat/triggered-action.md)'
 class: censor
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
 effect: You spend a [Recovery](../../../../rule/health/recoveries.md) and the target regains [Stamina](../../../../rule/health/stamina.md) equal to your [recovery value](../../../../rule/health/recoveries.md).
@@ -20,7 +20,7 @@ type: ability
 
 *You channel some of your vitality into more resilience for you or an ally.*
 
-| **Magic, [Ranged](../../../../rule/combat/ranged.md)** |           **Triggered** |
+| **Magic, [Ranged](../../../../rule/combat/ranged.md)** |           **[Triggered](../../../../rule/combat/triggered-action.md)** |
 |-------------------|------------------------:|
 | **📏 [Ranged](../../../../rule/combat/ranged.md) 10**  | **🎯 Self or one ally** |
 

@@ -1,5 +1,5 @@
 ---
-action_type: Triggered
+action_type: '[Triggered](../../../../rule/combat/triggered-action.md)'
 class: censor
 cost: 11 Wrath
 cost_amount: "11"
@@ -37,7 +37,7 @@ keywords:
     - Magic
     - '[Ranged](../../../../rule/combat/ranged.md)'
 metadata:
-    action_type: Triggered
+    action_type: '[Triggered](../../../../rule/combat/triggered-action.md)'
     class: censor
     cost: 11 Wrath
     distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
@@ -58,5 +58,5 @@ name: Blessing and a Curse
 target: One creature
 trigger: The target makes a [power roll](../../../../rule/dice/power-roll.md).
 type: feature
-usage: Triggered
+usage: '[Triggered](../../../../rule/combat/triggered-action.md)'
 ```

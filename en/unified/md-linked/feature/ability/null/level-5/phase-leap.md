@@ -1,5 +1,5 @@
 ---
-action_type: Move
+action_type: '[Move](../../../../rule/combat/turn.md)'
 class: "null"
 cost: 9 Discipline
 distance: Self
@@ -17,7 +17,7 @@ type: ability
 
 *You leap beyond reality, leaving an afterimage of yourself.*
 
-| **Psionic** |    **Move** |
+| **Psionic** |    **[Move](../../../../rule/combat/turn.md)** |
 |-------------|------------:|
 | **📏 Self** | **🎯 Self** |
 

@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: talent
 cost: 5 Clarity
 distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
@@ -24,7 +24,7 @@ type: ability
 
 *You raise the target slightly into the air, then smother them against the ground.*
 
-| **Psionic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), Telekinesis** |               **Main action** |
+| **Psionic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), Telekinesis** |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 |------------------------------------------|------------------------------:|
 | **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**                         | **🎯 One creature or object** |
 

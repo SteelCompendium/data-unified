@@ -59,7 +59,7 @@ type: featureblock
 
 > 🏹 **Enervating Curse (Encounter)**
 >
-> | **Magic, Ranged, Strike** |     **Main action** |
+> | **Magic, Ranged, Strike** |     **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |---------------------------|--------------------:|
 > | **📏 Ranged 10**          | **🎯 One creature** |
 >
@@ -75,7 +75,7 @@ type: featureblock
 
 > 🔳 **Ectoplasm (Encounter)**
 >
-> | **Area, Magic**        |               **Main action** |
+> | **Area, Magic**        |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |------------------------|------------------------------:|
 > | **📏 3 cube within 1** | **🎯 Each enemy in the area** |
 >
@@ -89,7 +89,7 @@ type: featureblock
 
 > 🏹 **Death Phase (Encounter)**
 >
-> | **Magic, Ranged, Strike** |     **Main action** |
+> | **Magic, Ranged, Strike** |     **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |---------------------------|--------------------:|
 > | **📏 Ranged 5**           | **🎯 One creature** |
 >

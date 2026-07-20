@@ -13,7 +13,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *Everyone and everything gets blown away in an eruption of rocks and debris.*
 
-| **Area, Earth, Magic, [Ranged](../../../rule/combat/ranged.md)** |                          **Main action** |
+| **Area, Earth, Magic, [Ranged](../../../rule/combat/ranged.md)** |                          **[Main action](../../../rule/combat/turn.md)** |
 |--------------------------------|-----------------------------------------:|
 | **📏 5 [cube](../../../rule/combat/cube.md) within 10**        | **🎯 Each enemy and object in the area** |
 
@@ -30,7 +30,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *A luminous green shield shows its true beauty the more it cracks.*
 
-| **Green, Magic, [Ranged](../../../rule/combat/ranged.md)** |            **Maneuver** |
+| **Green, Magic, [Ranged](../../../rule/combat/ranged.md)** |            **[Maneuver](../../../rule/combat/turn.md)** |
 |--------------------------|------------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**         | **🎯 Self or one ally** |
 
@@ -43,7 +43,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *You split your essence, allowing you to cast multiple effects at once.*
 
-| **Magic, Void** | **Main action** |
+| **Magic, Void** | **[Main action](../../../rule/combat/turn.md)** |
 |-----------------|----------------:|
 | **📏 Self**     |     **🎯 Self** |
 
@@ -54,7 +54,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *You let fly a fiery missile braided with pure primal energy.*
 
-| **Fire, Magic, [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md)** |            **Main action** |
+| **Fire, Magic, [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md)** |            **[Main action](../../../rule/combat/turn.md)** |
 |---------------------------------|---------------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**                | **🎯 One enemy or object** |
 

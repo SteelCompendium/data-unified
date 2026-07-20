@@ -1,5 +1,5 @@
 ---
-action_type: Triggered
+action_type: '[Triggered](../../../../rule/combat/triggered-action.md)'
 class: fury
 distance: Self
 effect: You take half the damage from the triggering effect and can [shift](../../../../movement/shifting.md) up to a number of squares equal to your [Agility](../../../../rule/character/agility.md) score.
@@ -32,7 +32,7 @@ feature_type: ability
 flavor: You are as elusive as a hummingbird.
 keywords: []
 metadata:
-    action_type: Triggered
+    action_type: '[Triggered](../../../../rule/combat/triggered-action.md)'
     class: fury
     distance: Self
     effect: You take half the damage from the triggering effect and can [shift](../../../../movement/shifting.md) up to a number of squares equal to your [Agility](../../../../rule/character/agility.md) score.
@@ -51,5 +51,5 @@ name: Unearthly Reflexes
 target: Self
 trigger: You take damage.
 type: feature
-usage: Triggered
+usage: '[Triggered](../../../../rule/combat/triggered-action.md)'
 ```

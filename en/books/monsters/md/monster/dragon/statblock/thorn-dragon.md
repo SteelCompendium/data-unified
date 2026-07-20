@@ -41,7 +41,7 @@ type: statblock
 
 > 🔳 **Virulent Breath (Signature Ability)**
 >
-> | **Area, Magic**             |                          **Main action** |
+> | **Area, Magic**             |                          **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-----------------------------|-----------------------------------------:|
 > | **📏 10 x 1 line within 1** | **🎯 Each enemy and object in the area** |
 >
@@ -55,7 +55,7 @@ type: statblock
 
 > 🗡 **Spinous Tail Swing**
 >
-> | **Charge, Melee, Strike, Weapon** |               **Main action** |
+> | **Charge, Melee, Strike, Weapon** |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-----------------------------------|------------------------------:|
 > | **📏 Melee 2**                    | **🎯 Two enemies or objects** |
 >
@@ -73,7 +73,7 @@ type: statblock
 
 > ❇️ **Investiture of Verdure (5 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
-> | **Area**        |                  **Maneuver** |
+> | **Area**        |                  **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-----------------|------------------------------:|
 > | **📏 10 burst** | **🎯 Each enemy in the area** |
 >
@@ -81,7 +81,7 @@ type: statblock
 
 > ❗️ **Prickly Situation**
 >
-> | **Magic, Ranged** |      **Free triggered action** |
+> | **Magic, Ranged** |      **Free [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |
 > |-------------------|-------------------------------:|
 > | **📏 Ranged 10**  | **🎯 The triggering creature** |
 >
@@ -91,7 +91,7 @@ type: statblock
 
 > ❗️ **Thorny Scales (1 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
-> | **Melee**      |      **Free triggered action** |
+> | **Melee**      |      **Free [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |
 > |----------------|-------------------------------:|
 > | **📏 Melee 1** | **🎯 The triggering creature** |
 >

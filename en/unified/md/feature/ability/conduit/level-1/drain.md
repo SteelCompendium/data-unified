@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: conduit
 distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
 effect: You or one ally within [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance) can spend a [Recovery](scc.v1:mcdm.heroes.v1/rule.health/recoveries).
@@ -23,7 +23,7 @@ type: ability
 
 *You drain the energy from your target to revitalize yourself or an ally.*
 
-| **Magic, [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)** |     **Main action** |
+| **Magic, [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)** |     **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 |--------------------------|--------------------:|
 | **📏 [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1**           | **🎯 One creature** |
 

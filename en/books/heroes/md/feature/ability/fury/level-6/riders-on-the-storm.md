@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: fury
 cost: 9 Ferocity
 distance: 3 [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura)
@@ -19,7 +19,7 @@ type: ability
 
 *You focus your connection to the Primordial Chaos into a seething storm.*
 
-| **Area, Magic** |                     **Maneuver** |
+| **Area, Magic** |                     **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 |-----------------|---------------------------------:|
 | **📏 3 [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura)**   | **🎯 Each creature in the area** |
 

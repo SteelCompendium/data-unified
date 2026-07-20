@@ -6,12 +6,14 @@ file_dpath: treasure/1st-echelon/trinket
 flavor: A pair of ornately embroidered leather boots are covered in images of broken chains.
 item_id: unbinder-boots
 item_name: Unbinder Boots
+item_prerequisite: One battered gold chain of at least fifty links
 keywords:
     - Feet
     - Magic
 name: Unbinder Boots
 project_goal: "150"
 project_roll_characteristic: '[Reason](../../../rule/character/reason.md) or [Intuition](../../../rule/character/intuition.md)'
+project_source: Texts or lore in Caelian
 scc: mcdm.heroes.v1/treasure.1st-echelon.trinket/unbinder-boots
 source: mcdm.heroes.v1
 treasure_type: trinket

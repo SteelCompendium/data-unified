@@ -31,7 +31,7 @@ type: statblock
 
 > ⚔️ **Wild Ax (Signature Ability)**
 >
-> | **Charge, Melee, Ranged, Strike, Weapon** |               **Main action** |
+> | **Charge, Melee, Ranged, Strike, Weapon** |               **[Main action](../../../rule/combat/turn.md)** |
 > |-------------------------------------------|------------------------------:|
 > | **📏 Melee 1 or ranged 5**                | **🎯 One creature or object** |
 >
@@ -47,7 +47,7 @@ type: statblock
 
 > 🏹 **The Wode Protects Us (3 [Malice](../../../rule/monster/malice.md))**
 >
-> | **Magic, Ranged** |                 **Maneuver** |
+> | **Magic, Ranged** |                 **[Maneuver](../../../rule/combat/turn.md)** |
 > |-------------------|-----------------------------:|
 > | **📏 Ranged 5**   | **🎯 Self and three allies** |
 >

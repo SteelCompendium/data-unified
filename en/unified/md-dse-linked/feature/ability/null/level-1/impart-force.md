@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](../../../../rule/combat/turn.md)'
 class: "null"
 cost: 5 Discipline
 cost_amount: "5"
@@ -46,7 +46,7 @@ keywords:
     - '[Strike](../../../../rule/combat/strike.md)'
     - Weapon
 metadata:
-    action_type: Maneuver
+    action_type: '[Maneuver](../../../../rule/combat/turn.md)'
     class: "null"
     cost: 5 Discipline
     distance: '[Melee](../../../../rule/combat/melee.md) 1'
@@ -69,5 +69,5 @@ metadata:
 name: Impart Force
 target: One creature or object
 type: feature
-usage: Maneuver
+usage: '[Maneuver](../../../../rule/combat/turn.md)'
 ```

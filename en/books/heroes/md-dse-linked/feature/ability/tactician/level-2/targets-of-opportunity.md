@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](../../../../rule/combat/turn.md)'
 class: tactician
 cost: 5 Focus
 cost_amount: "5"
@@ -33,7 +33,7 @@ flavor: You point out easy targets to your friends, allowing them to include mor
 keywords:
     - '[Ranged](../../../../rule/combat/ranged.md)'
 metadata:
-    action_type: Maneuver
+    action_type: '[Maneuver](../../../../rule/combat/turn.md)'
     class: tactician
     cost: 5 Focus
     distance: '[Ranged](../../../../rule/combat/ranged.md) 5'
@@ -50,5 +50,5 @@ metadata:
 name: Targets of Opportunity
 target: Two creatures
 type: feature
-usage: Maneuver
+usage: '[Maneuver](../../../../rule/combat/turn.md)'
 ```

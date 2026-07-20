@@ -17,7 +17,7 @@ Choose one of the following abilities.
 
 *I am but a vessel. Your own deeds weigh upon you.*
 
-| **Magic, [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md)** |     **Main action** |
+| **Magic, [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md)** |     **[Main action](../../../rule/combat/turn.md)** |
 |---------------------------|--------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**          | **🎯 One creature** |
 
@@ -34,7 +34,7 @@ Choose one of the following abilities.
 
 *You channel holy energy to harm unbelievers and reveal those hidden from your [judgment](../../ability/censor/level-1/judgment.md).*
 
-| **Area, Magic** |                  **Maneuver** |
+| **Area, Magic** |                  **[Maneuver](../../../rule/combat/turn.md)** |
 |-----------------|------------------------------:|
 | **📏 3 [burst](../../../rule/combat/burst.md)**  | **🎯 Each enemy in the area** |
 
@@ -49,7 +49,7 @@ Choose one of the following abilities.
 
 *Gifted by a prescient vision, you warn an ally of an impending attack.*
 
-| **Magic, [Ranged](../../../rule/combat/ranged.md)** |          **Triggered** |
+| **Magic, [Ranged](../../../rule/combat/ranged.md)** |          **[Triggered](../../../rule/combat/triggered-action.md)** |
 |-------------------|-----------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**  | **🎯 Self or one ally** |
 
@@ -62,7 +62,7 @@ Choose one of the following abilities.
 
 *A word in prayer, and the gods show the way.*
 
-| **Magic, [Ranged](../../../rule/combat/ranged.md)** |         **Main action** |
+| **Magic, [Ranged](../../../rule/combat/ranged.md)** |         **[Main action](../../../rule/combat/turn.md)** |
 |-------------------|------------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**  | **🎯 Self or one ally** |
 
@@ -77,7 +77,7 @@ Choose one of the following abilities.
 
 *The gods reward your faith.*
 
-| **Area, Magic** |                          **Maneuver** |
+| **Area, Magic** |                          **[Maneuver](../../../rule/combat/turn.md)** |
 |-----------------|--------------------------------------:|
 | **📏 3 [aura](../../../rule/combat/aura.md)**   | **🎯 Self and each ally in the area** |
 
@@ -88,7 +88,7 @@ Choose one of the following abilities.
 
 *The shock of your condemnation freezes your enemy in their boots.*
 
-| **Magic, [Melee](../../../rule/combat/melee.md), [Strike](../../../rule/combat/strike.md), Weapon** |               **Main action** |
+| **Magic, [Melee](../../../rule/combat/melee.md), [Strike](../../../rule/combat/strike.md), Weapon** |               **[Main action](../../../rule/combat/turn.md)** |
 |----------------------------------|------------------------------:|
 | **📏 [Melee](../../../rule/combat/melee.md) 1**                   |           **🎯 One creature** |
 

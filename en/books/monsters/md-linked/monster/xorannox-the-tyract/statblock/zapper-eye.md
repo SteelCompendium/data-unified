@@ -30,7 +30,7 @@ type: statblock
 
 > 🔳 **Lightning Beam ([Signature Ability](../../../rule/combat/signature-ability.md))**
 >
-> | **Area, Psionic**           |               **Main action** |
+> | **Area, Psionic**           |               **[Main action](../../../rule/combat/turn.md)** |
 > |-----------------------------|------------------------------:|
 > | **📏 10 x 1 line within 1** | **🎯 Each enemy in the area** |
 >

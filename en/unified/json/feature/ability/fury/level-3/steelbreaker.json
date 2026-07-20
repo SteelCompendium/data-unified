@@ -13,9 +13,9 @@
     "Magic"
   ],
   "metadata": {
-    "action_type": "Maneuver",
+    "action_type": "[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)",
     "class": "fury",
-    "content": "\n*See how useless their weapons are!*\n\n| **Magic**   | **Maneuver** |\n|-------------|-------------:|\n| **📏 Self** |  **🎯 Self** |\n\n**Effect:** You gain 20 [temporary Stamina](scc.v1:mcdm.heroes.v1/rule.health/temporary-stamina).",
+    "content": "\n*See how useless their weapons are!*\n\n| **Magic**   | **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|-------------|-------------:|\n| **📏 Self** |  **🎯 Self** |\n\n**Effect:** You gain 20 [temporary Stamina](scc.v1:mcdm.heroes.v1/rule.health/temporary-stamina).",
     "distance": "Self",
     "feature_type": "ability",
     "flavor": "See how useless their weapons are!",
@@ -34,5 +34,5 @@
   "name": "Steelbreaker",
   "target": "Self",
   "type": "feature",
-  "usage": "Maneuver"
+  "usage": "[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)"
 }

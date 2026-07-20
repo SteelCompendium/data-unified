@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: fury
 cost: 3 Ferocity
 distance: 1 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)
@@ -22,7 +22,7 @@ type: ability
 
 *You hew about you with your mighty weapon, hurling enemies backward.*
 
-| **Area, [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), Weapon** |               **Main action** |
+| **Area, [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), Weapon** |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 |-------------------------|------------------------------:|
 | **📏 1 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)**          | **🎯 Each enemy in the area** |
 

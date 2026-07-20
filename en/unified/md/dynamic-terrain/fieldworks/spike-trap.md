@@ -77,7 +77,7 @@ A pit dug into the ground is filled with spikes, and camouflaged to avoid detect
 
 > ❗️ **Spike Trap**
 >
-> | **Area, Weapon** |                **Free triggered action** |
+> | **Area, Weapon** |                **Free [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |
 > |------------------|-----------------------------------------:|
 > | **📏 Melee 0**   | **🎯 The triggering creature or object** |
 >

@@ -32,7 +32,7 @@ type: statblock
 
 > ⚔️ **Death Scythe (Signature Ability)**
 >
-> | **Magic, Melee, Ranged, Strike, Weapon** |               **Main action** |
+> | **Magic, Melee, Ranged, Strike, Weapon** |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |------------------------------------------|------------------------------:|
 > | **📏 Melee 1 or ranged 10**              | **🎯 One creature or object** |
 >
@@ -46,7 +46,7 @@ type: statblock
 
 > ❇️ **Rise, My Minions (1 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice) per [minion](scc.v1:mcdm.monsters.v1/rule.organization/minion))**
 >
-> | **Area**       |                        **Maneuver** |
+> | **Area**       |                        **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |----------------|------------------------------------:|
 > | **📏 5 burst** | **🎯 Each dead [minion](scc.v1:mcdm.monsters.v1/rule.organization/minion) in the area** |
 >

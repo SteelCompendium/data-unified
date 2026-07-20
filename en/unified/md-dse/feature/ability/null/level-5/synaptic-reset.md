@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: "null"
 cost: 9 Discipline
 cost_amount: "9"
@@ -34,7 +34,7 @@ keywords:
     - Area
     - Psionic
 metadata:
-    action_type: Maneuver
+    action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: "null"
     cost: 9 Discipline
     distance: 3 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)
@@ -51,5 +51,5 @@ metadata:
 name: Synaptic Reset
 target: Self and each ally in the area
 type: feature
-usage: Maneuver
+usage: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 ```

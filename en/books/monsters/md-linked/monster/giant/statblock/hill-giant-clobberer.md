@@ -32,7 +32,7 @@ type: statblock
 
 > 🗡 **Clobberin' Club (Signature Ability)**
 >
-> | **Charge, Melee, Strike, Weapon** |                 **Main action** |
+> | **Charge, Melee, Strike, Weapon** |                 **[Main action](../../../rule/combat/turn.md)** |
 > |-----------------------------------|--------------------------------:|
 > | **📏 Melee 3**                    | **🎯 Two creatures or objects** |
 >
@@ -46,7 +46,7 @@ type: statblock
 
 > 🗡 **Stomp (3 [Malice](../../../rule/monster/malice.md))**
 >
-> | **Melee, Strike, Weapon** |               **Main action** |
+> | **Melee, Strike, Weapon** |               **[Main action](../../../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Melee 1**            | **🎯 One creature or object** |
 >
@@ -60,7 +60,7 @@ type: statblock
 
 > ❇️ **Hill Quake**
 >
-> | **Area**       |                  **Maneuver** |
+> | **Area**       |                  **[Maneuver](../../../rule/combat/turn.md)** |
 > |----------------|------------------------------:|
 > | **📏 3 burst** | **🎯 Each enemy in the area** |
 >
@@ -74,7 +74,7 @@ type: statblock
 
 > ❗️ **You Ain't Getting Away**
 >
-> | **Melee**      |           **Triggered action** |
+> | **Melee**      |           **[Triggered action](../../../rule/combat/triggered-action.md)** |
 > |----------------|-------------------------------:|
 > | **📏 Melee 3** | **🎯 The triggering creature** |
 >

@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](../../../../rule/combat/turn.md)'
 class: shadow
 cost: 11 Insight
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
@@ -19,7 +19,7 @@ type: ability
 
 *Your mask reflects your foe's face. Surely they won't need it much longer.*
 
-| **Magic, [Ranged](../../../../rule/combat/ranged.md)** |            **Maneuver** |
+| **Magic, [Ranged](../../../../rule/combat/ranged.md)** |            **[Maneuver](../../../../rule/combat/turn.md)** |
 |-------------------|------------------------:|
 | **📏 [Ranged](../../../../rule/combat/ranged.md) 10**  |     **🎯 One creature** |
 

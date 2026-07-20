@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](../../../../rule/combat/turn.md)'
 class: troubadour
 cost: 11 Drama
 distance: 5 [cube](../../../../rule/combat/cube.md) within 10
@@ -23,7 +23,7 @@ type: ability
 
 *You shine a bright light on the players on the stage and compel them to finish the performance.*
 
-| **Area, Magic, [Ranged](../../../../rule/combat/ranged.md)** | **Maneuver**                  |
+| **Area, Magic, [Ranged](../../../../rule/combat/ranged.md)** | **[Maneuver](../../../../rule/combat/turn.md)**                  |
 |-------------------------|-------------------------------|
 | **📏 5 [cube](../../../../rule/combat/cube.md) within 10** | **🎯 Each enemy in the area** |
 

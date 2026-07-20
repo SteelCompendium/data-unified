@@ -14,9 +14,9 @@ keywords:
     - Magic
     - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'
 metadata:
-    action_type: Main action
+    action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: fury
-    content: "\n*You summon your [primordial storm](scc.v1:mcdm.heroes.v1/feature.fury.stormwight-kits/primordial-storm).*\n\n| **Area, Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)** |               **Main action** |\n|-------------------------|------------------------------:|\n| **\U0001F4CF 5 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 10** | **\U0001F3AF Each enemy in the area** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc.v1:mcdm.heroes.v1/rule.character/might):**\n\n- **≤11:** 7 damage\n- **12-16:** 10 damage\n- **17+:** 15 damage\n\n**Effect:** This ability deals your primordial [damage type](scc.v1:mcdm.heroes.v1/rule.damage/damage-type) and ignores [damage immunity](scc.v1:mcdm.heroes.v1/rule.damage/damage-immunity)."
+    content: "\n*You summon your [primordial storm](scc.v1:mcdm.heroes.v1/feature.fury.stormwight-kits/primordial-storm).*\n\n| **Area, Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)** |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|-------------------------|------------------------------:|\n| **\U0001F4CF 5 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 10** | **\U0001F3AF Each enemy in the area** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc.v1:mcdm.heroes.v1/rule.character/might):**\n\n- **≤11:** 7 damage\n- **12-16:** 10 damage\n- **17+:** 15 damage\n\n**Effect:** This ability deals your primordial [damage type](scc.v1:mcdm.heroes.v1/rule.damage/damage-type) and ignores [damage immunity](scc.v1:mcdm.heroes.v1/rule.damage/damage-immunity)."
     distance: 5 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 10
     feature_type: ability
     flavor: You summon your [primordial storm](scc.v1:mcdm.heroes.v1/feature.fury.stormwight-kits/primordial-storm).
@@ -35,4 +35,4 @@ metadata:
 name: Deluge
 target: Each enemy in the area
 type: feature
-usage: Main action
+usage: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'

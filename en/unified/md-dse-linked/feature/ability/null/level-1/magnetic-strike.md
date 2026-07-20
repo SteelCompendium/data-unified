@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: "null"
 distance: '[Melee](../../../../rule/combat/melee.md) 2'
 feature_type: ability
@@ -41,7 +41,7 @@ keywords:
     - '[Strike](../../../../rule/combat/strike.md)'
     - Weapon
 metadata:
-    action_type: Main action
+    action_type: '[Main action](../../../../rule/combat/turn.md)'
     class: "null"
     distance: '[Melee](../../../../rule/combat/melee.md) 2'
     flavor: The force of your blow extends past the limits of your body, pulling your enemy closer.
@@ -63,5 +63,5 @@ metadata:
 name: Magnetic Strike
 target: One creature
 type: feature
-usage: Main action
+usage: '[Main action](../../../../rule/combat/turn.md)'
 ```

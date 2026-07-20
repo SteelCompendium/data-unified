@@ -24,9 +24,9 @@
   ],
   "metadata": {
     "ability_type": "Signature",
-    "action_type": "Main action",
+    "action_type": "[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)",
     "class": "talent",
-    "content": "\n*The air erupts into a column of smokeless flame.*\n\n| **Area, Fire, Psionic, Pyrokinesis, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)** |               **Main action** |\n|----------------------------------------------|------------------------------:|\n| **📏 3 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 10**                      | **🎯 Each enemy in the area** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason):**\n\n- **≤11:** 2 fire damage\n- **12-16:** 4 fire damage\n- **17+:** 6 fire damage\n\n**Effect:** A column of fire remains in the area until the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn). Each enemy who enters the area for the first time in a [combat round](scc.v1:mcdm.heroes.v1/rule.combat/combat-round) or starts their turn there takes 2 fire damage.\n\n**Strained:** The size of the [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) increases by 2, but the fire disappears at the end of your [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn).",
+    "content": "\n*The air erupts into a column of smokeless flame.*\n\n| **Area, Fire, Psionic, Pyrokinesis, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)** |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|----------------------------------------------|------------------------------:|\n| **📏 3 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 10**                      | **🎯 Each enemy in the area** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason):**\n\n- **≤11:** 2 fire damage\n- **12-16:** 4 fire damage\n- **17+:** 6 fire damage\n\n**Effect:** A column of fire remains in the area until the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn). Each enemy who enters the area for the first time in a [combat round](scc.v1:mcdm.heroes.v1/rule.combat/combat-round) or starts their turn there takes 2 fire damage.\n\n**Strained:** The size of the [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) increases by 2, but the fire disappears at the end of your [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn).",
     "distance": "3 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 10",
     "feature_type": "ability",
     "flavor": "The air erupts into a column of smokeless flame.",
@@ -49,5 +49,5 @@
   "name": "Incinerate",
   "target": "Each enemy in the area",
   "type": "feature",
-  "usage": "Main action"
+  "usage": "[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)"
 }

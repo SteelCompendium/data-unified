@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: "null"
 cost: 5 Discipline
 distance: 2 [burst](../../../../rule/combat/burst.md)
@@ -23,7 +23,7 @@ type: ability
 
 *You move so quickly, it seems as though an army assaulted your foes.*
 
-| **Area, Psionic, Weapon** |               **Main action** |
+| **Area, Psionic, Weapon** |               **[Main action](../../../../rule/combat/turn.md)** |
 |---------------------------|------------------------------:|
 | **📏 2 [burst](../../../../rule/combat/burst.md)**            | **🎯 Each enemy in the area** |
 

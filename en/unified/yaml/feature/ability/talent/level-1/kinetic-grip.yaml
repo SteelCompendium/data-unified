@@ -13,9 +13,9 @@ keywords:
     - Telekinesis
 metadata:
     ability_type: Signature
-    action_type: Main action
+    action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: talent
-    content: "\n*You lift and hurl your foe away from you.*\n\n| **Psionic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged), Telekinesis** |               **Main action** |\n|----------------------------------|------------------------------:|\n| **\U0001F4CF [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**                 | **\U0001F3AF One creature or object** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason):**\n\n- **≤11:** [Slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2 + R\n- **12-16:** [Slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 4 + R\n- **17+:** [Slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 6 + R; [prone](scc.v1:mcdm.heroes.v1/condition/prone)\n\n**Strained:** You must vertical [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) the target instead of [sliding](scc.v1:mcdm.heroes.v1/movement/forced-movement) them."
+    content: "\n*You lift and hurl your foe away from you.*\n\n| **Psionic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged), Telekinesis** |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|----------------------------------|------------------------------:|\n| **\U0001F4CF [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**                 | **\U0001F3AF One creature or object** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason):**\n\n- **≤11:** [Slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2 + R\n- **12-16:** [Slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 4 + R\n- **17+:** [Slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 6 + R; [prone](scc.v1:mcdm.heroes.v1/condition/prone)\n\n**Strained:** You must vertical [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) the target instead of [sliding](scc.v1:mcdm.heroes.v1/movement/forced-movement) them."
     distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
     feature_type: ability
     flavor: You lift and hurl your foe away from you.
@@ -33,4 +33,4 @@ metadata:
 name: Kinetic Grip
 target: One creature or object
 type: feature
-usage: Main action
+usage: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'

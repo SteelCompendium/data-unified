@@ -6,11 +6,13 @@ file_dpath: treasure/2nd-echelon/consumable
 flavor: Clear liquid seems to constantly churn within an obsidian vial, even when at rest.
 item_id: vial-of-ethereal-attack
 item_name: Vial of Ethereal Attack
+item_prerequisite: A signed agreement with a ghost, a large obsidian disk
 keywords:
     - Psionic
 name: Vial of Ethereal Attack
 project_goal: "90"
 project_roll_characteristic: '[Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) or [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)'
+project_source: Texts or lore in Anjali
 scc: mcdm.heroes.v1/treasure.2nd-echelon.consumable/vial-of-ethereal-attack
 source: mcdm.heroes.v1
 treasure_type: consumable

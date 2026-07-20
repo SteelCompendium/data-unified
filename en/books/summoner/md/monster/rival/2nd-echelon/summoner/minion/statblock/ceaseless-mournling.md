@@ -2,6 +2,7 @@
 agility: 3
 cost: 4 Malice for three minions
 free_strike: 3
+free_strike_damage_type: Sonic
 immunities:
     - Corruption 3
     - poison 3

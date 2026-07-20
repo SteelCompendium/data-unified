@@ -31,7 +31,7 @@ type: statblock
 
 > 🏹 **Soulbind ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
-> | **Magic, Ranged, Strike** |                 **Main action** |
+> | **Magic, Ranged, Strike** |                 **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Ranged 10**          | **🎯 Two creatures or objects** |
 >
@@ -45,7 +45,7 @@ type: statblock
 
 > 🔳 **Soulstorm (2 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
-> | **Area, Magic, Ranged** |               **Main action** |
+> | **Area, Magic, Ranged** |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-------------------------|------------------------------:|
 > | **📏 3 cube within 10** | **🎯 Each enemy in the area** |
 >
@@ -61,7 +61,7 @@ type: statblock
 
 > ❇️ **Command the Awakened**
 >
-> | **Magic, Ranged** |                            **Maneuver** |
+> | **Magic, Ranged** |                            **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-------------------|----------------------------------------:|
 > | **📏 5 burst**    | **🎯 Each soulbound enemy in the area** |
 >
@@ -69,7 +69,7 @@ type: statblock
 
 > ❗️ **Spirit Form**
 >
-> | **-**       | **Triggered action** |
+> | **-**       | **[Triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |
 > |-------------|---------------------:|
 > | **📏 Self** |          **🎯 Self** |
 >
@@ -79,7 +79,7 @@ type: statblock
 
 > ❗️ **Vengeance for the Slain**
 >
-> | **Ranged**       | **Free triggered action** |
+> | **Ranged**       | **Free [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |
 > |------------------|--------------------------:|
 > | **📏 Ranged 10** |          **🎯 One enemy** |
 >
@@ -95,7 +95,7 @@ type: statblock
 
 > 🏹 **Immortal Flare**
 >
-> | **Magic, Ranged** |                  **Maneuver** |
+> | **Magic, Ranged** |                  **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-------------------|------------------------------:|
 > | **📏 Ranged 10**  | **🎯 One creature or object** |
 >

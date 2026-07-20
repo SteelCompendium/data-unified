@@ -31,7 +31,7 @@ weaknesses:
 
 > 🏹 **Warp Perceptions (Signature Ability)**
 >
-> | **Magic, Ranged, Strike** |     **Main action** |
+> | **Magic, Ranged, Strike** |     **[Main action](../../../../rule/combat/turn.md)** |
 > |---------------------------|--------------------:|
 > | **📏 Ranged 10**          | **🎯 One creature** |
 >
@@ -45,7 +45,7 @@ weaknesses:
 
 > 🏹 **Vanish (1 [Malice](../../../../rule/monster/malice.md))**
 >
-> | **Magic, Ranged** |            **Maneuver** |
+> | **Magic, Ranged** |            **[Maneuver](../../../../rule/combat/turn.md)** |
 > |-------------------|------------------------:|
 > | **📏 Ranged 10**  | **🎯 Self or one ally** |
 >

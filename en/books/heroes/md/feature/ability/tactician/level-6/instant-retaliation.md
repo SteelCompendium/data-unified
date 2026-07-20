@@ -1,5 +1,5 @@
 ---
-action_type: Free triggered
+action_type: Free [triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)
 class: tactician
 cost: 9 Focus
 distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
@@ -25,7 +25,7 @@ type: ability
 
 *You [parry](scc.v1:mcdm.heroes.v1/feature.ability.tactician.level-1/parry) with almost [supernatural](scc.v1:mcdm.heroes.v1/rule.general/supernatural) [speed](scc.v1:mcdm.heroes.v1/rule.character/speed).*
 
-| **[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), Weapon** | **Free triggered** |
+| **[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), Weapon** | **Free [triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |
 | ------------------------------------|-------------------:|
 | **📏 [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1**                   |    **🎯 One ally** |
 

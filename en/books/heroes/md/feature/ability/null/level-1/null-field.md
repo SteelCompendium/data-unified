@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: "null"
 distance: 1 [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura)
 effect: Each target reduces their [potencies](scc.v1:mcdm.heroes.v1/rule.character/potency) by 1.
@@ -17,7 +17,7 @@ type: ability
 
 *You project an [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura) that dampens the power of your foes.*
 
-| **Area, Psionic** |                  **Maneuver** |
+| **Area, Psionic** |                  **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 |-------------------|------------------------------:|
 | **📏 1 [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura)**     | **🎯 Each enemy in the area** |
 

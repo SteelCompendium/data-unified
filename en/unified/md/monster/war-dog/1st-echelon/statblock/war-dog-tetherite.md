@@ -31,7 +31,7 @@ with_captain: Gain an edge on strikes
 
 > 🗡 **Banded Dagger ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
-> | **Melee, Strike, Weapon** |                          **Main action** |
+> | **Melee, Strike, Weapon** |                          **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |---------------------------|-----------------------------------------:|
 > | **📏 Melee 2**            | **🎯 One creature or object per minion** |
 >

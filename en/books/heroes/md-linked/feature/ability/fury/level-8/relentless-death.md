@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: fury
 cost: 11 Ferocity
 distance: Self; see below
@@ -24,7 +24,7 @@ type: ability
 
 *You won't escape your fate.*
 
-| **Magic, [Melee](../../../../rule/combat/melee.md), [Strike](../../../../rule/combat/strike.md), Weapon** | **Main action** |
+| **Magic, [Melee](../../../../rule/combat/melee.md), [Strike](../../../../rule/combat/strike.md), Weapon** | **[Main action](../../../../rule/combat/turn.md)** |
 |----------------------------------|----------------:|
 | **📏 Self; see below**           |     **🎯 Self** |
 

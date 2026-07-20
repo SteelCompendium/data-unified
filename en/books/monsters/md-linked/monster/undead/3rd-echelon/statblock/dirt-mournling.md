@@ -32,7 +32,7 @@ type: statblock
 
 > 🗡 **Mudslide ([Signature Ability](../../../../rule/combat/signature-ability.md))**
 >
-> | **Melee, Strike, Weapon** |               **Main action** |
+> | **Melee, Strike, Weapon** |               **[Main action](../../../../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Melee 2**            | **🎯 One creature or object** |
 >
@@ -46,7 +46,7 @@ type: statblock
 
 > ❇️ **Mourning Cry (3 [Malice](../../../../rule/monster/malice.md))**
 >
-> | **Area, Magic** |               **Main action** |
+> | **Area, Magic** |               **[Main action](../../../../rule/combat/turn.md)** |
 > |-----------------|------------------------------:|
 > | **📏 3 burst**  | **🎯 Each enemy in the area** |
 >

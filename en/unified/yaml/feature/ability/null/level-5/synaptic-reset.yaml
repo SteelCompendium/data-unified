@@ -9,9 +9,9 @@ keywords:
     - Area
     - Psionic
 metadata:
-    action_type: Maneuver
+    action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: "null"
-    content: "\n*You expand your nullifying power to mitigate harmful effects.*\n\n| **Area, Psionic** |                          **Maneuver** |\n|-------------------|--------------------------------------:|\n| **\U0001F4CF 3 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)**    | **\U0001F3AF Self and each ally in the area** |\n\n**Effect:** Each target can end any [conditions](scc.v1:mcdm.heroes.v1/rule.combat/condition) or effects on themself, and gains 5 [temporary Stamina](scc.v1:mcdm.heroes.v1/rule.health/temporary-stamina) for each [condition](scc.v1:mcdm.heroes.v1/rule.combat/condition) or effect removed."
+    content: "\n*You expand your nullifying power to mitigate harmful effects.*\n\n| **Area, Psionic** |                          **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|-------------------|--------------------------------------:|\n| **\U0001F4CF 3 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)**    | **\U0001F3AF Self and each ally in the area** |\n\n**Effect:** Each target can end any [conditions](scc.v1:mcdm.heroes.v1/rule.combat/condition) or effects on themself, and gains 5 [temporary Stamina](scc.v1:mcdm.heroes.v1/rule.health/temporary-stamina) for each [condition](scc.v1:mcdm.heroes.v1/rule.combat/condition) or effect removed."
     distance: 3 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)
     feature_type: ability
     flavor: You expand your nullifying power to mitigate harmful effects.
@@ -28,4 +28,4 @@ metadata:
 name: Synaptic Reset
 target: Self and each ally in the area
 type: feature
-usage: Maneuver
+usage: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'

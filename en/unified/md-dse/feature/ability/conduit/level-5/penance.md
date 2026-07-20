@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: conduit
 cost: 9 Piety
 cost_amount: "9"
@@ -42,7 +42,7 @@ keywords:
     - Magic
     - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'
 metadata:
-    action_type: Main action
+    action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: conduit
     cost: 9 Piety
     distance: 4 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 10
@@ -63,5 +63,5 @@ metadata:
 name: Penance
 target: Each enemy in the area
 type: feature
-usage: Main action
+usage: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 ```

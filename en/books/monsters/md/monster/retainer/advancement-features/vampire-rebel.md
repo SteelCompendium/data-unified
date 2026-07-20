@@ -45,7 +45,7 @@ type: featureblock
 
 > 🗡 **Blood Surge (Encounter)**
 >
-> | **Melee, Strike, Weapon** |     **Main action** |
+> | **Melee, Strike, Weapon** |     **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |---------------------------|--------------------:|
 > | **📏 Melee 1**            | **🎯 One creature** |
 >
@@ -61,7 +61,7 @@ type: featureblock
 
 > 🔳 **Exsanguination (Encounter)**
 >
-> | **Area, Magic**        |               **Main action** |
+> | **Area, Magic**        |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |------------------------|------------------------------:|
 > | **📏 3 cube within 1** | **🎯 Each enemy in the area** |
 >

@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: talent
 cost: 11 Clarity
 distance: 2 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)
@@ -20,7 +20,7 @@ type: ability
 
 *You lean on future heroism to assist you in the now.*
 
-| **Area, Chronopathy, Psionic** |                 **Maneuver** |
+| **Area, Chronopathy, Psionic** |                 **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 |--------------------------------|-----------------------------:|
 | **📏 2 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)**                 | **🎯 Each ally in the area** |
 

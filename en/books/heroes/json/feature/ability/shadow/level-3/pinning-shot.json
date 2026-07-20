@@ -17,9 +17,9 @@
     "Weapon"
   ],
   "metadata": {
-    "action_type": "Main action",
+    "action_type": "[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)",
     "class": "shadow",
-    "content": "\n*One missile—placed well and placed hard.*\n\n| **[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), Weapon** |     **Main action** |\n|----------------------------|--------------------:|\n| **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 5**            | **🎯 One creature** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility):**\n\n- **≤11:** 8 + A damage; A \u003c WEAK, [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)\n- **12-16:** 12 + A damage; A \u003c AVERAGE, [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)\n- **17+:** 16 + A damage; A \u003c STRONG, [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)",
+    "content": "\n*One missile—placed well and placed hard.*\n\n| **[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), Weapon** |     **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|----------------------------|--------------------:|\n| **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 5**            | **🎯 One creature** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility):**\n\n- **≤11:** 8 + A damage; A \u003c WEAK, [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)\n- **12-16:** 12 + A damage; A \u003c AVERAGE, [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)\n- **17+:** 16 + A damage; A \u003c STRONG, [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)",
     "distance": "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 5",
     "feature_type": "ability",
     "flavor": "One missile—placed well and placed hard.",
@@ -40,5 +40,5 @@
   "name": "Pinning Shot",
   "target": "One creature",
   "type": "feature",
-  "usage": "Main action"
+  "usage": "[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)"
 }

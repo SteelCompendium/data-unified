@@ -13,7 +13,7 @@ You have the following performance ability, which is usable with your [Routines]
 
 *The audience is watching, so you'd better give them a show.*
 
-| **Area, Magic, Performance** |                         **No action** |
+| **Area, Magic, Performance** |                         **[No action](../../../rule/combat/turn.md)** |
 |------------------------------|--------------------------------------:|
 | **📏 5 [aura](../../../rule/combat/aura.md)**                | **🎯 Self and each ally in the area** |
 

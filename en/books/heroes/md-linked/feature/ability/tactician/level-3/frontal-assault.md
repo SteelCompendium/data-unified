@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](../../../../rule/combat/turn.md)'
 class: tactician
 cost: 7 Focus
 distance: Self
@@ -16,7 +16,7 @@ type: ability
 
 *The purpose of a charge is to break their morale and force a retreat.*
 
-| **-**       | **Maneuver** |
+| **-**       | **[Maneuver](../../../../rule/combat/turn.md)** |
 |-------------|-------------:|
 | **📏 Self** |  **🎯 Self** |
 

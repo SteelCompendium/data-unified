@@ -38,7 +38,7 @@ type: statblock
 
 > 🗡 **Vine Lash ([Signature Ability](../../../rule/combat/signature-ability.md))**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](../../../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 6**            | **🎯 Two creatures or objects** |
 >
@@ -54,7 +54,7 @@ type: statblock
 
 > ❇️ **Seismic Slam**
 >
-> | **Area, Weapon** |               **Main action** |
+> | **Area, Weapon** |               **[Main action](../../../rule/combat/turn.md)** |
 > |------------------|------------------------------:|
 > | **📏 6 burst**   | **🎯 Each enemy in the area** |
 >
@@ -66,7 +66,7 @@ type: statblock
 
 > 🗡 **Engulf (2 [Malice](../../../rule/monster/malice.md))**
 >
-> | **Melee**      |               **Main action** |
+> | **Melee**      |               **[Main action](../../../rule/combat/turn.md)** |
 > |----------------|------------------------------:|
 > | **📏 Melee 6** | **🎯 One creature or object** |
 >
@@ -76,7 +76,7 @@ type: statblock
 
 > 👤 **Leech**
 >
-> | **-**       | **Maneuver** |
+> | **-**       | **[Maneuver](../../../rule/combat/turn.md)** |
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
@@ -84,7 +84,7 @@ type: statblock
 
 > ❗️ **Tether Down**
 >
-> | **Melee**      |           **Triggered action** |
+> | **Melee**      |           **[Triggered action](../../../rule/combat/triggered-action.md)** |
 > |----------------|-------------------------------:|
 > | **📏 Melee 6** | **🎯 The triggering creature** |
 >

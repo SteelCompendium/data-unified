@@ -1,5 +1,5 @@
 ---
-action_type: No action
+action_type: '[No action](../../../../rule/combat/turn.md)'
 class: troubadour
 distance: 5 [aura](../../../../rule/combat/aura.md)
 effect: While this performance is active, each target who starts their [turn](../../../../rule/combat/turn.md) in the area can reroll the first [power roll](../../../../rule/dice/power-roll.md) that [turn](../../../../rule/combat/turn.md) that obtains a tier 2 outcome. They must use the new roll.
@@ -33,7 +33,7 @@ keywords:
     - Magic
     - Performance
 metadata:
-    action_type: No action
+    action_type: '[No action](../../../../rule/combat/turn.md)'
     class: troubadour
     distance: 5 [aura](../../../../rule/combat/aura.md)
     effect: While this performance is active, each target who starts their [turn](../../../../rule/combat/turn.md) in the area can reroll the first [power roll](../../../../rule/dice/power-roll.md) that [turn](../../../../rule/combat/turn.md) that obtains a tier 2 outcome. They must use the new roll.
@@ -51,5 +51,5 @@ metadata:
 name: Take Two!
 target: Self and each ally in the area
 type: feature
-usage: No action
+usage: '[No action](../../../../rule/combat/turn.md)'
 ```

@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: elementalist
 cost: 9 Essence
 cost_amount: "9"
@@ -44,7 +44,7 @@ keywords:
     - '[Strike](../../../../rule/combat/strike.md)'
     - Void
 metadata:
-    action_type: Main action
+    action_type: '[Main action](../../../../rule/combat/turn.md)'
     class: elementalist
     cost: 9 Essence
     distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
@@ -66,5 +66,5 @@ metadata:
 name: Subverted Perception of Space
 target: One creature or object
 type: feature
-usage: Main action
+usage: '[Main action](../../../../rule/combat/turn.md)'
 ```

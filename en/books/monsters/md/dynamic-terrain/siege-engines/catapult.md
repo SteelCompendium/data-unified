@@ -88,7 +88,7 @@ This massive counterweighted engine hurls a heavy projectile for a devastating a
 
 > 🔳 **Arcing Shot**
 >
-> | **- Area, Ranged, Weapon** |         **Main action (Adjacent creature)** |
+> | **- Area, Ranged, Weapon** |         **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn) (Adjacent creature)** |
 > |----------------------------|--------------------------------------------:|
 > | **📏 3 cube within 20**    | **🎯 Each creature and object in the area** |
 >
@@ -102,7 +102,7 @@ This massive counterweighted engine hurls a heavy projectile for a devastating a
 
 > ⭐️ **Reload**
 >
-> | **-**    | **Main action (Adjacent creature)** |
+> | **-**    | **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn) (Adjacent creature)** |
 > |----------|-------------------------------------:|
 > | **📏 -** |                             **🎯 -** |
 >
@@ -110,7 +110,7 @@ This massive counterweighted engine hurls a heavy projectile for a devastating a
 
 > ⭐️ **Spot**
 >
-> | **-**    | **Main action (Adjacent creature)** |
+> | **-**    | **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn) (Adjacent creature)** |
 > |----------|------------------------------------:|
 > | **📏 -** |                            **🎯 -** |
 >
@@ -118,7 +118,7 @@ This massive counterweighted engine hurls a heavy projectile for a devastating a
 
 > ⭐️ **Move**
 >
-> | **-**    | **Main action (Adjacent creature)** |
+> | **-**    | **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn) (Adjacent creature)** |
 > |----------|------------------------------------:|
 > | **📏 -** |                            **🎯 -** |
 >

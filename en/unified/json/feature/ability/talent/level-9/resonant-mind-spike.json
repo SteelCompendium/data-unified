@@ -22,9 +22,9 @@
     "Telepathy"
   ],
   "metadata": {
-    "action_type": "Main action",
+    "action_type": "[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)",
     "class": "talent",
-    "content": "\n*You fire a telepathic bolt empowered by every consciousness within reach directly into your foe's mind.*\n\n| **Psionic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), Telepathy** |     **Main action** |\n| ------------------------------------|--------------------:|\n| **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**  | **🎯 One creature** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason):**\n\n- **≤11:** 15 + R psychic damage\n- **12-16:** 24 + R psychic damage\n- **17+:** 28 + R psychic damage\n\n**Effect:** This ability ignores [cover](scc.v1:mcdm.heroes.v1/rule.combat/cover) and [concealment](scc.v1:mcdm.heroes.v1/rule.combat/concealment).\n\n**Strained:** The [ability roll](scc.v1:mcdm.heroes.v1/rule.dice/ability-roll) scores a [critical hit](scc.v1:mcdm.heroes.v1/rule.combat/critical-hit) on a natural 17 or higher. You take half the damage the target takes, and you can't reduce this damage in any way.",
+    "content": "\n*You fire a telepathic bolt empowered by every consciousness within reach directly into your foe's mind.*\n\n| **Psionic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), Telepathy** |     **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n| ------------------------------------|--------------------:|\n| **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**  | **🎯 One creature** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason):**\n\n- **≤11:** 15 + R psychic damage\n- **12-16:** 24 + R psychic damage\n- **17+:** 28 + R psychic damage\n\n**Effect:** This ability ignores [cover](scc.v1:mcdm.heroes.v1/rule.combat/cover) and [concealment](scc.v1:mcdm.heroes.v1/rule.combat/concealment).\n\n**Strained:** The [ability roll](scc.v1:mcdm.heroes.v1/rule.dice/ability-roll) scores a [critical hit](scc.v1:mcdm.heroes.v1/rule.combat/critical-hit) on a natural 17 or higher. You take half the damage the target takes, and you can't reduce this damage in any way.",
     "distance": "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10",
     "feature_type": "ability",
     "flavor": "You fire a telepathic bolt empowered by every consciousness within reach directly into your foe's mind.",
@@ -47,5 +47,5 @@
   "name": "Resonant Mind Spike",
   "target": "One creature",
   "type": "feature",
-  "usage": "Main action"
+  "usage": "[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)"
 }

@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: elementalist
 cost: 9 Essence
 distance: 4 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)
@@ -21,7 +21,7 @@ type: ability
 
 *You create a terrarium that spans from canopy above to underbrush below.*
 
-| **Area, Earth, Green, Magic, Void** | **Main action** |
+| **Area, Earth, Green, Magic, Void** | **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 |-------------------------------------|----------------:|
 | **📏 4 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)**                      |  **🎯 Special** |
 

@@ -33,7 +33,7 @@ with_captain: +4 damage bonus to strikes
 
 > 🗡 **Tail Bite (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |                          **Main action** |
+> | **Melee, Strike, Weapon** |                          **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |---------------------------|-----------------------------------------:|
 > | **📏 Melee 3**            | **🎯 One creature or object per minion** |
 >

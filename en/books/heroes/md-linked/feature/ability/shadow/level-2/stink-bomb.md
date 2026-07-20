@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: shadow
 cost: 5 Insight
 distance: 3 [cube](../../../../rule/combat/cube.md) within 10
@@ -23,7 +23,7 @@ type: ability
 
 *Putrid yellow gas explodes from a bomb you toss.*
 
-| **Area, [Ranged](../../../../rule/combat/ranged.md)**        |                  **Main action** |
+| **Area, [Ranged](../../../../rule/combat/ranged.md)**        |                  **[Main action](../../../../rule/combat/turn.md)** |
 |-------------------------|---------------------------------:|
 | **📏 3 [cube](../../../../rule/combat/cube.md) within 10** | **🎯 Each creature in the area** |
 

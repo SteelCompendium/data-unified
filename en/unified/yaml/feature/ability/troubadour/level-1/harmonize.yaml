@@ -12,9 +12,9 @@ keywords:
     - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'
 metadata:
     ability_type: Triggered
-    action_type: Triggered
+    action_type: '[Triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)'
     class: troubadour
-    content: "\n*Give the chorus a little punch.*\n\n| **[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)**      |   **Triggered** |\n|-----------------|----------------:|\n| **\U0001F4CF [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 5** | **\U0001F3AF One ally** |\n\n**Trigger:** The target uses an ability that targets only one enemy and costs 3 or fewer of their [Heroic Resource](scc.v1:mcdm.heroes.v1/rule.resource/heroic-resource).\n\n**Effect:** The target can choose one additional target for the triggering ability. Any damage dealt to the additional target is sonic damage.\n\n**Spend 1+ Drama:** You can trigger this ability when a target uses an ability that has a [Heroic Resource](scc.v1:mcdm.heroes.v1/rule.resource/heroic-resource) cost of 3 + each additional drama spent."
+    content: "\n*Give the chorus a little punch.*\n\n| **[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)**      |   **[Triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |\n|-----------------|----------------:|\n| **\U0001F4CF [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 5** | **\U0001F3AF One ally** |\n\n**Trigger:** The target uses an ability that targets only one enemy and costs 3 or fewer of their [Heroic Resource](scc.v1:mcdm.heroes.v1/rule.resource/heroic-resource).\n\n**Effect:** The target can choose one additional target for the triggering ability. Any damage dealt to the additional target is sonic damage.\n\n**Spend 1+ Drama:** You can trigger this ability when a target uses an ability that has a [Heroic Resource](scc.v1:mcdm.heroes.v1/rule.resource/heroic-resource) cost of 3 + each additional drama spent."
     distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 5'
     feature_type: ability
     flavor: Give the chorus a little punch.
@@ -32,4 +32,4 @@ name: Harmonize
 target: One ally
 trigger: The target uses an ability that targets only one enemy and costs 3 or fewer of their [Heroic Resource](scc.v1:mcdm.heroes.v1/rule.resource/heroic-resource).
 type: feature
-usage: Triggered
+usage: '[Triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)'

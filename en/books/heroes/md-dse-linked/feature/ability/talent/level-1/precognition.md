@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: talent
 cost: 3 Clarity
 cost_amount: "3"
@@ -36,7 +36,7 @@ keywords:
     - '[Melee](../../../../rule/combat/melee.md)'
     - Psionic
 metadata:
-    action_type: Main action
+    action_type: '[Main action](../../../../rule/combat/turn.md)'
     class: talent
     cost: 3 Clarity
     distance: '[Melee](../../../../rule/combat/melee.md) 2'
@@ -54,5 +54,5 @@ metadata:
 name: Precognition
 target: Self or one ally
 type: feature
-usage: Main action
+usage: '[Main action](../../../../rule/combat/turn.md)'
 ```

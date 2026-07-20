@@ -13,7 +13,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *You tug at the strings of the foe's anima and unravel them, allowing someone else to take advantage of their drive.*
 
-| **Animapathy, Psionic, [Ranged](../../../rule/combat/ranged.md)**, **Strike** |               **Main action** |
+| **Animapathy, Psionic, [Ranged](../../../rule/combat/ranged.md)**, **Strike** |               **[Main action](../../../rule/combat/turn.md)** |
 |---------------------------------------------|------------------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**                            | **🎯 One creature or object** |
 
@@ -32,7 +32,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *You attempt to make them forget all their training.*
 
-| **[Melee](../../../rule/combat/melee.md), Psionic, [Strike](../../../rule/combat/strike.md), Telepathy** |     **Main action** |
+| **[Melee](../../../rule/combat/melee.md), Psionic, [Strike](../../../rule/combat/strike.md), Telepathy** |     **[Main action](../../../rule/combat/turn.md)** |
 |---------------------------------------|--------------------:|
 | **📏 [Melee](../../../rule/combat/melee.md) 2**                        | **🎯 One creature** |
 
@@ -51,7 +51,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *You reshape the flow of time in the target's body to return it to an earlier state.*
 
-| **Chronopathy, Psionic, [Ranged](../../../rule/combat/ranged.md)** |            **Maneuver** |
+| **Chronopathy, Psionic, [Ranged](../../../rule/combat/ranged.md)** |            **[Maneuver](../../../rule/combat/turn.md)** |
 |----------------------------------|------------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**                 | **🎯 Self or one ally** |
 
@@ -68,7 +68,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *The target's skin becomes covered in tough metal.*
 
-| **Metamorphosis, Psionic, [Ranged](../../../rule/combat/ranged.md)** |            **Maneuver** |
+| **Metamorphosis, Psionic, [Ranged](../../../rule/combat/ranged.md)** |            **[Maneuver](../../../rule/combat/turn.md)** |
 |------------------------------------|------------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**                   | **🎯 Self or one ally** |
 

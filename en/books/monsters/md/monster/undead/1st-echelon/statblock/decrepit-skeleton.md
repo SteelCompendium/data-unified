@@ -33,7 +33,7 @@ with_captain: Gain an edge on strikes
 
 > 🏹 **Bone Bow ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
-> | **Ranged, Strike, Weapon** |                          **Main action** |
+> | **Ranged, Strike, Weapon** |                          **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |----------------------------|-----------------------------------------:|
 > | **📏 Ranged 10**           | **🎯 One creature or object per minion** |
 >

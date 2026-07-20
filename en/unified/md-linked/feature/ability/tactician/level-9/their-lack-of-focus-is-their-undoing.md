@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: tactician
 cost: 11 Focus
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
@@ -24,7 +24,7 @@ type: ability
 
 *You trick your enemies into attacking each other and leave them confused by the aftermath.*
 
-| **Magic, [Ranged](../../../../rule/combat/ranged.md), Weapon** |      **Main action** |
+| **Magic, [Ranged](../../../../rule/combat/ranged.md), Weapon** |      **[Main action](../../../../rule/combat/turn.md)** |
 |---------------------------|---------------------:|
 | **📏 [Ranged](../../../../rule/combat/ranged.md) 10**          | **🎯 Three enemies** |
 

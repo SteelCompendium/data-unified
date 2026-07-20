@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](../../../../rule/combat/turn.md)'
 class: tactician
 cost: 7 Focus
 distance: Self
@@ -16,7 +16,7 @@ type: ability
 
 *Your allies see the advantages in attacking the targets you select.*
 
-| **-**       | **Maneuver** |
+| **-**       | **[Maneuver](../../../../rule/combat/turn.md)** |
 |-------------|-------------:|
 | **📏 Self** |  **🎯 Self** |
 

@@ -19,9 +19,9 @@
   ],
   "metadata": {
     "ability_type": "Triggered",
-    "action_type": "Triggered",
+    "action_type": "[Triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)",
     "class": "conduit",
-    "content": "\n*Your holy word saps an attacking enemy's strength.*\n\n| **Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)**  |     **Triggered** |\n|--------------------|------------------:|\n| **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**   |   **🎯 One ally** |\n\n**Trigger:** The target would take damage from an ability that uses a [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll).\n\n**Effect:** The [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) takes a [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) against the target.\n\n**Spend 1 Piety:** The [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) has a double [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) against the target.",
+    "content": "\n*Your holy word saps an attacking enemy's strength.*\n\n| **Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)**  |     **[Triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |\n|--------------------|------------------:|\n| **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**   |   **🎯 One ally** |\n\n**Trigger:** The target would take damage from an ability that uses a [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll).\n\n**Effect:** The [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) takes a [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) against the target.\n\n**Spend 1 Piety:** The [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) has a double [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) against the target.",
     "distance": "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10",
     "feature_type": "ability",
     "flavor": "Your holy word saps an attacking enemy's strength.",
@@ -42,5 +42,5 @@
   "target": "One ally",
   "trigger": "The target would take damage from an ability that uses a [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll).",
   "type": "feature",
-  "usage": "Triggered"
+  "usage": "[Triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)"
 }

@@ -3,6 +3,7 @@ agility: -2
 cost: 3 essence for two minions
 flavor: This elemental is a long, serpentine creature of heated rock. Flows of magma drool trails of lava from their fangs after biting their prey.
 free_strike: 4
+free_strike_damage_type: Fire
 immunities:
     - Fire R
 intuition: 0
@@ -35,7 +36,7 @@ This elemental is a long, serpentine creature of heated rock. Flows of magma dro
 
 > 🏹 **Molten Strike 2d10 + R (Signature Ability)**
 >
-> | **Magic, Melee, Strike** | **Main action** |
+> | **Magic, Melee, Strike** | **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |--------------------------|----------------:|
 > | **📏 Melee 2** | **🎯 One creature or object per minion** |
 >

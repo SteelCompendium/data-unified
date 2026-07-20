@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: conduit
 cost: 11 Piety
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
@@ -18,7 +18,7 @@ type: ability
 
 *Your deity rewards you or an ally on the verge of defeat with a miracle burst of strength and resolve.*
 
-| **Magic, [Ranged](../../../../rule/combat/ranged.md)**  |         **Main action** |
+| **Magic, [Ranged](../../../../rule/combat/ranged.md)**  |         **[Main action](../../../../rule/combat/turn.md)** |
 |--------------------|------------------------:|
 | **📏 [Ranged](../../../../rule/combat/ranged.md) 10**   | **🎯 Self or one ally** |
 

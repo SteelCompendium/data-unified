@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](../../../../rule/combat/turn.md)'
 class: tactician
 cost: 9 Focus
 cost_amount: "9"
@@ -33,7 +33,7 @@ flavor: With new understanding of your foes, you create the perfect plan to win 
 keywords:
     - '[Ranged](../../../../rule/combat/ranged.md)'
 metadata:
-    action_type: Maneuver
+    action_type: '[Maneuver](../../../../rule/combat/turn.md)'
     class: tactician
     cost: 9 Focus
     distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
@@ -50,5 +50,5 @@ metadata:
 name: Battle Plan
 target: Three creatures
 type: feature
-usage: Maneuver
+usage: '[Maneuver](../../../../rule/combat/turn.md)'
 ```

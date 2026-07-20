@@ -12,9 +12,9 @@ flavor: You become the coldest thing in the timescape.
 keywords:
     - Psionic
 metadata:
-    action_type: Maneuver
+    action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: "null"
-    content: "\n*You become the coldest thing in the timescape.*\n\n| **Psionic** | **Maneuver** |\n|-------------|-------------:|\n| **\U0001F4CF Self** |  **\U0001F3AF Self** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition):**\n\n- **≤11:** You gain 20 [temporary Stamina](scc.v1:mcdm.heroes.v1/rule.health/temporary-stamina).\n- **12-16:** You gain 30 [temporary Stamina](scc.v1:mcdm.heroes.v1/rule.health/temporary-stamina).\n- **17+:** You gain 40 [temporary Stamina](scc.v1:mcdm.heroes.v1/rule.health/temporary-stamina).\n\n**Effect:** Until the end of the encounter or until you are dead, you become an avatar of uttermost cold. You gain immunity to all damage equal to the cold [damage immunity](scc.v1:mcdm.heroes.v1/rule.damage/damage-immunity) granted by your [Entropic Adaptability](scc.v1:mcdm.heroes.v1/feature.null.level-2/entropic-adaptability) trait, you ignore the negative effects of [dying](scc.v1:mcdm.heroes.v1/rule.health/dying), and you have a +2 [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to [potencies](scc.v1:mcdm.heroes.v1/rule.character/potency)."
+    content: "\n*You become the coldest thing in the timescape.*\n\n| **Psionic** | **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|-------------|-------------:|\n| **\U0001F4CF Self** |  **\U0001F3AF Self** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition):**\n\n- **≤11:** You gain 20 [temporary Stamina](scc.v1:mcdm.heroes.v1/rule.health/temporary-stamina).\n- **12-16:** You gain 30 [temporary Stamina](scc.v1:mcdm.heroes.v1/rule.health/temporary-stamina).\n- **17+:** You gain 40 [temporary Stamina](scc.v1:mcdm.heroes.v1/rule.health/temporary-stamina).\n\n**Effect:** Until the end of the encounter or until you are dead, you become an avatar of uttermost cold. You gain immunity to all damage equal to the cold [damage immunity](scc.v1:mcdm.heroes.v1/rule.damage/damage-immunity) granted by your [Entropic Adaptability](scc.v1:mcdm.heroes.v1/feature.null.level-2/entropic-adaptability) trait, you ignore the negative effects of [dying](scc.v1:mcdm.heroes.v1/rule.health/dying), and you have a +2 [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to [potencies](scc.v1:mcdm.heroes.v1/rule.character/potency)."
     distance: Self
     feature_type: ability
     flavor: You become the coldest thing in the timescape.
@@ -31,4 +31,4 @@ metadata:
 name: Absolute Zero
 target: Self
 type: feature
-usage: Maneuver
+usage: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'

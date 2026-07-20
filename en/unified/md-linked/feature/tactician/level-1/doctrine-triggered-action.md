@@ -21,7 +21,7 @@ Your [tactical doctrine](tactical-doctrine.md) grants you a [triggered action](.
 
 *Your leadership aids an ally.*
 
-| **[Ranged](../../../rule/combat/ranged.md)**       |   **Triggered** |
+| **[Ranged](../../../rule/combat/ranged.md)**       |   **[Triggered](../../../rule/combat/triggered-action.md)** |
 |------------------|----------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10** | **🎯 One ally** |
 
@@ -36,7 +36,7 @@ Your [tactical doctrine](tactical-doctrine.md) grants you a [triggered action](.
 
 *Under your direction, an ally waits for just the right moment to strike.*
 
-| **[Ranged](../../../rule/combat/ranged.md)**       |       **Triggered** |
+| **[Ranged](../../../rule/combat/ranged.md)**       |       **[Triggered](../../../rule/combat/triggered-action.md)** |
 |------------------|--------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10** | **🎯 One creature** |
 
@@ -51,7 +51,7 @@ Your [tactical doctrine](tactical-doctrine.md) grants you a [triggered action](.
 
 *Your quick reflexes cost an enemy the precision they seek.*
 
-| **[Melee](../../../rule/combat/melee.md), Weapon** |            **Triggered** |
+| **[Melee](../../../rule/combat/melee.md), Weapon** |            **[Triggered](../../../rule/combat/triggered-action.md)** |
 |-------------------|-------------------------:|
 | **📏 [Melee](../../../rule/combat/melee.md) 2**    |  **🎯 Self or one ally** |
 

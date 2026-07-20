@@ -1,5 +1,5 @@
 ---
-action_type: Triggered
+action_type: '[Triggered](../../../../rule/combat/triggered-action.md)'
 class: tactician
 cost: 5 Focus
 cost_amount: "5"
@@ -47,7 +47,7 @@ keywords:
     - '[Strike](../../../../rule/combat/strike.md)'
     - Weapon
 metadata:
-    action_type: Triggered
+    action_type: '[Triggered](../../../../rule/combat/triggered-action.md)'
     class: tactician
     cost: 5 Focus
     distance: '[Ranged](../../../../rule/combat/ranged.md) 5'
@@ -73,5 +73,5 @@ name: No Dying on My Watch
 target: One enemy
 trigger: The target deals damage to an ally.
 type: feature
-usage: Triggered
+usage: '[Triggered](../../../../rule/combat/triggered-action.md)'
 ```

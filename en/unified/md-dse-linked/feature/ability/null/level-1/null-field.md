@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](../../../../rule/combat/turn.md)'
 class: "null"
 distance: 1 [aura](../../../../rule/combat/aura.md)
 effect: Each target reduces their [potencies](../../../../rule/character/potency.md) by 1.
@@ -30,7 +30,7 @@ keywords:
     - Area
     - Psionic
 metadata:
-    action_type: Maneuver
+    action_type: '[Maneuver](../../../../rule/combat/turn.md)'
     class: "null"
     distance: 1 [aura](../../../../rule/combat/aura.md)
     effect: Each target reduces their [potencies](../../../../rule/character/potency.md) by 1.
@@ -46,5 +46,5 @@ metadata:
 name: Null Field
 target: Each enemy in the area
 type: feature
-usage: Maneuver
+usage: '[Maneuver](../../../../rule/combat/turn.md)'
 ```

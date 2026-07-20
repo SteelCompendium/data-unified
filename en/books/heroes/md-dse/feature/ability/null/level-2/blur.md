@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: "null"
 cost: 5 Discipline
 cost_amount: "5"
@@ -33,7 +33,7 @@ flavor: You release stored time, allowing you to act twice.
 keywords:
     - Psionic
 metadata:
-    action_type: Maneuver
+    action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: "null"
     cost: 5 Discipline
     distance: Self
@@ -50,5 +50,5 @@ metadata:
 name: Blur
 target: Self
 type: feature
-usage: Maneuver
+usage: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 ```

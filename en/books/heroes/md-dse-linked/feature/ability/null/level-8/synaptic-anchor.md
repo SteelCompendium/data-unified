@@ -1,5 +1,5 @@
 ---
-action_type: Free triggered
+action_type: Free [triggered](../../../../rule/combat/triggered-action.md)
 class: "null"
 cost: 11 Discipline
 cost_amount: "11"
@@ -34,7 +34,7 @@ flavor: You disrupt an enemy's strike and create a [feedback loop](../../talent/
 keywords:
     - Psionic
 metadata:
-    action_type: Free triggered
+    action_type: Free [triggered](../../../../rule/combat/triggered-action.md)
     class: "null"
     cost: 11 Discipline
     distance: Self; see below
@@ -53,5 +53,5 @@ name: Synaptic Anchor
 target: Self or one creature
 trigger: The target takes damage from another creature's ability while in the area of your [Null Field](../../../null/level-1/null-field.md) ability.
 type: feature
-usage: Free triggered
+usage: Free [triggered](../../../../rule/combat/triggered-action.md)
 ```

@@ -16,9 +16,9 @@ keywords:
     - Weapon
 metadata:
     ability_type: Triggered
-    action_type: Free triggered
+    action_type: Free [triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)
     class: fury
-    content: "\n*You quickly strike back at a foe.*\n\n| **[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), Weapon** |             **Free triggered** |\n|---------------------------|-------------------------------:|\n| **\U0001F4CF [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1**            | **\U0001F3AF The triggering creature** |\n\n**Trigger:** A creature causes you to be [winded](scc.v1:mcdm.heroes.v1/rule.health/winded) or [dying](scc.v1:mcdm.heroes.v1/rule.health/dying), or damages you while you are [winded](scc.v1:mcdm.heroes.v1/rule.health/winded) or [dying](scc.v1:mcdm.heroes.v1/rule.health/dying).\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc.v1:mcdm.heroes.v1/rule.character/might):**\n\n- **≤11:** 6 + M damage\n- **12-16:** 9 + M damage\n- **17+:** 13 + M damage\n\n**Effect:** You can spend a [Recovery](scc.v1:mcdm.heroes.v1/rule.health/recoveries)."
+    content: "\n*You quickly strike back at a foe.*\n\n| **[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), Weapon** |             **Free [triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |\n|---------------------------|-------------------------------:|\n| **\U0001F4CF [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1**            | **\U0001F3AF The triggering creature** |\n\n**Trigger:** A creature causes you to be [winded](scc.v1:mcdm.heroes.v1/rule.health/winded) or [dying](scc.v1:mcdm.heroes.v1/rule.health/dying), or damages you while you are [winded](scc.v1:mcdm.heroes.v1/rule.health/winded) or [dying](scc.v1:mcdm.heroes.v1/rule.health/dying).\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc.v1:mcdm.heroes.v1/rule.character/might):**\n\n- **≤11:** 6 + M damage\n- **12-16:** 9 + M damage\n- **17+:** 13 + M damage\n\n**Effect:** You can spend a [Recovery](scc.v1:mcdm.heroes.v1/rule.health/recoveries)."
     distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
     feature_type: ability
     flavor: You quickly strike back at a foe.
@@ -37,4 +37,4 @@ name: My Turn!
 target: The triggering creature
 trigger: A creature causes you to be [winded](scc.v1:mcdm.heroes.v1/rule.health/winded) or [dying](scc.v1:mcdm.heroes.v1/rule.health/dying), or damages you while you are [winded](scc.v1:mcdm.heroes.v1/rule.health/winded) or [dying](scc.v1:mcdm.heroes.v1/rule.health/dying).
 type: feature
-usage: Free triggered
+usage: Free [triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)

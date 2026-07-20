@@ -28,7 +28,7 @@ type: statblock
 
 > ⚔️ **Levitating Axes (Signature Ability)**
 >
-> | **Melee, Psionic, Ranged, Strike, Weapon** |                 **Main action** |
+> | **Melee, Psionic, Ranged, Strike, Weapon** |                 **[Main action](../../../rule/combat/turn.md)** |
 > |--------------------------------------------|--------------------------------:|
 > | **📏 Melee 1 or ranged 10**                | **🎯 Two creatures or objects** |
 >
@@ -44,7 +44,7 @@ type: statblock
 
 > 🏹 **Magnetomancy**
 >
-> | **Psionic, Ranged** |                  **Maneuver** |
+> | **Psionic, Ranged** |                  **[Maneuver](../../../rule/combat/turn.md)** |
 > |---------------------|------------------------------:|
 > | **📏 Ranged 10**    | **🎯 One creature or object** |
 >
@@ -54,7 +54,7 @@ type: statblock
 
 > ❗️ **Your Weapon Is Useless**
 >
-> | **Psionic, Ranged** |    **Triggered action** |
+> | **Psionic, Ranged** |    **[Triggered action](../../../rule/combat/triggered-action.md)** |
 > |---------------------|------------------------:|
 > | **📏 Ranged 10**    | **🎯 Self or one ally** |
 >

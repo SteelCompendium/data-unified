@@ -31,7 +31,7 @@ type: statblock
 
 > 🏹 **Suffusing Strike (Signature Ability)**
 >
-> | **Magic, Ranged, Strike** |               **Main action** |
+> | **Magic, Ranged, Strike** |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |---------------------------|------------------------------:|
 > | **📏 Ranged 3**           | **🎯 One creature or object** |
 >
@@ -43,7 +43,7 @@ type: statblock
 
 > ❗️ **Trick of the Eye**
 >
-> | **Magic, Melee** | **Triggered action** |
+> | **Magic, Melee** | **[Triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |
 > |------------------|---------------------:|
 > | **📏 Melee 2**   |      **🎯 One ally** |
 >

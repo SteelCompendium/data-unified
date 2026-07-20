@@ -17,7 +17,7 @@ Choose one of the following abilities.
 
 *You direct your ally to make a killing blow.*
 
-| **[Ranged](../../../rule/combat/ranged.md)**       | **Free triggered** |
+| **[Ranged](../../../rule/combat/ranged.md)**       | **Free [triggered](../../../rule/combat/triggered-action.md)** |
 |------------------|-------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10** |    **🎯 One ally** |
 
@@ -30,7 +30,7 @@ Choose one of the following abilities.
 
 *You confuse your foes, causing them to turn on each other.*
 
-| **[Melee](../../../rule/combat/melee.md), [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md), Weapon** |      **Main action** |
+| **[Melee](../../../rule/combat/melee.md), [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md), Weapon** |      **[Main action](../../../rule/combat/turn.md)** |
 |-----------------------------------|---------------------:|
 | **📏 [Melee](../../../rule/combat/melee.md) 1 or [ranged](../../../rule/combat/ranged.md) 5**        | **🎯 Two creatures** |
 
@@ -51,7 +51,7 @@ Choose one of the following abilities.
 
 *With new understanding of your foes, you create the perfect plan to win the battle.*
 
-| **[Ranged](../../../rule/combat/ranged.md)**       |           **Maneuver** |
+| **[Ranged](../../../rule/combat/ranged.md)**       |           **[Maneuver](../../../rule/combat/turn.md)** |
 |------------------|-----------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10** | **🎯 Three creatures** |
 
@@ -64,7 +64,7 @@ Choose one of the following abilities.
 
 *You and your allies coordinate to form a new battle line.*
 
-| **Area**       |                          **Maneuver** |
+| **Area**       |                          **[Maneuver](../../../rule/combat/turn.md)** |
 |----------------|--------------------------------------:|
 | **📏 2 [burst](../../../rule/combat/burst.md)** | **🎯 Self and each ally in the area** |
 
@@ -79,7 +79,7 @@ Choose one of the following abilities.
 
 *You [parry](../../ability/tactician/level-1/parry.md) with almost [supernatural](../../../rule/general/supernatural.md) [speed](../../../rule/character/speed.md).*
 
-| **[Melee](../../../rule/combat/melee.md), Weapon** | **Free triggered** |
+| **[Melee](../../../rule/combat/melee.md), Weapon** | **Free [triggered](../../../rule/combat/triggered-action.md)** |
 | ------------------------------------|-------------------:|
 | **📏 [Melee](../../../rule/combat/melee.md) 1**                   |    **🎯 One ally** |
 
@@ -98,7 +98,7 @@ Choose one of the following abilities.
 
 *You lead your allies in a charge.*
 
-| **Charge, [Melee](../../../rule/combat/melee.md), [Strike](../../../rule/combat/strike.md), Weapon** |     **Main action** |
+| **Charge, [Melee](../../../rule/combat/melee.md), [Strike](../../../rule/combat/strike.md), Weapon** |     **[Main action](../../../rule/combat/turn.md)** |
 |-----------------------------------|--------------------:|
 | **📏 [Melee](../../../rule/combat/melee.md) 1**                    | **🎯 One creature** |
 

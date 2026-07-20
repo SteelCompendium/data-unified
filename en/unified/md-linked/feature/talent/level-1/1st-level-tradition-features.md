@@ -25,7 +25,7 @@ You have the following ability.
 
 *To your ally, it seems as though the world has slowed down.*
 
-| **Psionic, [Ranged](../../../rule/combat/ranged.md)** |                **Maneuver** |
+| **Psionic, [Ranged](../../../rule/combat/ranged.md)** |                **[Maneuver](../../../rule/combat/turn.md)** |
 |---------------------|----------------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**    | **🎯 Self or one creature** |
 
@@ -42,7 +42,7 @@ You have the following ability.
 
 *You step back a split second to see if things play out a little differently.*
 
-| **Psionic, [Ranged](../../../rule/combat/ranged.md)** |               **Triggered** |
+| **Psionic, [Ranged](../../../rule/combat/ranged.md)** |               **[Triggered](../../../rule/combat/triggered-action.md)** |
 |---------------------|----------------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**    | **🎯 Self or one creature** |
 
@@ -59,7 +59,7 @@ You have the following ability.
 
 *Creating a brief psychic link between an enemy and their target gives that foe a taste of their own medicine.*
 
-| **Psionic, [Ranged](../../../rule/combat/ranged.md)** |       **Triggered** |
+| **Psionic, [Ranged](../../../rule/combat/ranged.md)** |       **[Triggered](../../../rule/combat/triggered-action.md)** |
 |---------------------|--------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**    | **🎯 One creature** |
 
@@ -76,7 +76,7 @@ You have the following ability.
 
 *Wisps of psychic energy ripple visibly from your brain as you force the target to move using only your mind.*
 
-| **Psionic, [Ranged](../../../rule/combat/ranged.md)** |                                 **Maneuver** |
+| **Psionic, [Ranged](../../../rule/combat/ranged.md)** |                                 **[Maneuver](../../../rule/combat/turn.md)** |
 |---------------------|---------------------------------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**    | **🎯 Self or one [size](../../../rule/character/size.md) 1 creature or object** |
 
@@ -95,7 +95,7 @@ You have the following ability.
 
 *An ally gains the benefit of your intellect.*
 
-| **Psionic, [Ranged](../../../rule/combat/ranged.md)** |                  **Maneuver** |
+| **Psionic, [Ranged](../../../rule/combat/ranged.md)** |                  **[Maneuver](../../../rule/combat/turn.md)** |
 |---------------------|------------------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**    | **🎯 One creature or object** |
 

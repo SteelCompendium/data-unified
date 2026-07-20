@@ -29,7 +29,7 @@ type: statblock
 
 > ⚔️ **Handaxe (Signature Ability)**
 >
-> | **Melee, Ranged, Strike, Weapon** |                 **Main action** |
+> | **Melee, Ranged, Strike, Weapon** |                 **[Main action](../../../rule/combat/turn.md)** |
 > |-----------------------------------|--------------------------------:|
 > | **📏 Melee 1 or ranged 5**        | **🎯 Two creatures or objects** |
 >
@@ -43,7 +43,7 @@ type: statblock
 
 > 🏹 **Get in Here! (1 [Malice](../../../rule/monster/malice.md))**
 >
-> | **Ranged**       |   **Maneuver** |
+> | **Ranged**       |   **[Maneuver](../../../rule/combat/turn.md)** |
 > |------------------|---------------:|
 > | **📏 Ranged 20** | **🎯 Special** |
 >
@@ -51,7 +51,7 @@ type: statblock
 
 > ❗️ **Meat Shield**
 >
-> | **Melee**      | **Triggered action** |
+> | **Melee**      | **[Triggered action](../../../rule/combat/triggered-action.md)** |
 > |----------------|---------------------:|
 > | **📏 Melee 1** |      **🎯 One ally** |
 >

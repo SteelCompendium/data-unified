@@ -48,7 +48,7 @@ A massive humming crystal makes the air around it feel thick.
 
 > ❗️ **Psionic Pulse**
 >
-> | **-**          | **Free triggered action** |
+> | **-**          | **Free [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |
 > |----------------|--------------------------:|
 > | **📏 Special** |            **🎯 Special** |
 >

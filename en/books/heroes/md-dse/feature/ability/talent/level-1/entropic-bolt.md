@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: talent
 distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
 effect: The target takes an extra 1 corruption damage for each additional time they are targeted by this ability during the encounter.
@@ -43,7 +43,7 @@ keywords:
     - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'
     - '[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)'
 metadata:
-    action_type: Main action
+    action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: talent
     distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
     effect: The target takes an extra 1 corruption damage for each additional time they are targeted by this ability during the encounter.
@@ -66,5 +66,5 @@ metadata:
 name: Entropic Bolt
 target: One creature or object
 type: feature
-usage: Main action
+usage: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 ```

@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: conduit
 cost: 7 Piety
 cost_amount: "7"
@@ -44,7 +44,7 @@ keywords:
     - Magic
     - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'
 metadata:
-    action_type: Main action
+    action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: conduit
     cost: 7 Piety
     distance: 5 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 10
@@ -66,5 +66,5 @@ metadata:
 name: Fear of the Gods
 target: Each enemy in the area
 type: feature
-usage: Main action
+usage: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 ```

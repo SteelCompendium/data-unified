@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](../../../../rule/combat/turn.md)'
 class: troubadour
 distance: 2 [burst](../../../../rule/combat/burst.md)
 feature_type: ability
@@ -37,7 +37,7 @@ keywords:
     - Area
     - Magic
 metadata:
-    action_type: Maneuver
+    action_type: '[Maneuver](../../../../rule/combat/turn.md)'
     class: troubadour
     distance: 2 [burst](../../../../rule/combat/burst.md)
     flavor: Your instrument rings true and your music blows everyone away.
@@ -57,5 +57,5 @@ metadata:
 name: Power Chord
 target: Each enemy in the area
 type: feature
-usage: Maneuver
+usage: '[Maneuver](../../../../rule/combat/turn.md)'
 ```

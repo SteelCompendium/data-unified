@@ -32,7 +32,7 @@ type: statblock
 
 > 🔳 **Plaguecaster ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
-> | **Area, Magic, Ranged** |                  **Main action** |
+> | **Area, Magic, Ranged** |                  **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-------------------------|---------------------------------:|
 > | **📏 3 cube within 10** | **🎯 Each creature in the area** |
 >
@@ -46,7 +46,7 @@ type: statblock
 
 > 🏹 **Posthumous Promotion**
 >
-> | **Magic, Ranged** |       **Maneuver** |
+> | **Magic, Ranged** |       **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-------------------|-------------------:|
 > | **📏 Ranged 10**  | **🎯 One war dog** |
 >

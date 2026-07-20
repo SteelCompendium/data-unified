@@ -17,7 +17,7 @@ Choose two [signature abilities](../../../rule/combat/signature-ability.md) from
 
 *You advance an enemy's age for a moment.*
 
-| **Chronopathy, Psionic, [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md)** |               **Main action** |
+| **Chronopathy, Psionic, [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md)** |               **[Main action](../../../rule/combat/turn.md)** |
 |------------------------------------------|------------------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**                         | **🎯 One creature or object** |
 
@@ -36,7 +36,7 @@ Choose two [signature abilities](../../../rule/combat/signature-ability.md) from
 
 *You blast a foe with a pulse of cold energy.*
 
-| **Cryokinesis, Psionic, [Ranged](../../../rule/combat/ranged.md)**, **Strike** |     **Main action** |
+| **Cryokinesis, Psionic, [Ranged](../../../rule/combat/ranged.md)**, **Strike** |     **[Main action](../../../rule/combat/turn.md)** |
 |----------------------------------------------|--------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**                             | **🎯 One creature** |
 
@@ -53,7 +53,7 @@ Choose two [signature abilities](../../../rule/combat/signature-ability.md) from
 
 *The air erupts into a column of smokeless flame.*
 
-| **Area, Fire, Psionic, Pyrokinesis, [Ranged](../../../rule/combat/ranged.md)** |               **Main action** |
+| **Area, Fire, Psionic, Pyrokinesis, [Ranged](../../../rule/combat/ranged.md)** |               **[Main action](../../../rule/combat/turn.md)** |
 |----------------------------------------------|------------------------------:|
 | **📏 3 [cube](../../../rule/combat/cube.md) within 10**                      | **🎯 Each enemy in the area** |
 
@@ -72,7 +72,7 @@ Choose two [signature abilities](../../../rule/combat/signature-ability.md) from
 
 *You lift and hurl your foe away from you.*
 
-| **Psionic, [Ranged](../../../rule/combat/ranged.md), Telekinesis** |               **Main action** |
+| **Psionic, [Ranged](../../../rule/combat/ranged.md), Telekinesis** |               **[Main action](../../../rule/combat/turn.md)** |
 |----------------------------------|------------------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**                 | **🎯 One creature or object** |
 
@@ -89,7 +89,7 @@ Choose two [signature abilities](../../../rule/combat/signature-ability.md) from
 
 *The force of your mind hurls enemies backward.*
 
-| **Area, Psionic, Telepathy** |               **Main action** |
+| **Area, Psionic, Telepathy** |               **[Main action](../../../rule/combat/turn.md)** |
 |------------------------------|------------------------------:|
 | **📏 1 [burst](../../../rule/combat/burst.md)**               | **🎯 Each enemy in the area** |
 
@@ -106,7 +106,7 @@ Choose two [signature abilities](../../../rule/combat/signature-ability.md) from
 
 *You picture an object in your mind and give it form—directly above your opponent's head.*
 
-| **Psionic, [Ranged](../../../rule/combat/ranged.md), Resopathy, [Strike](../../../rule/combat/strike.md)** |               **Main action** |
+| **Psionic, [Ranged](../../../rule/combat/ranged.md), Resopathy, [Strike](../../../rule/combat/strike.md)** |               **[Main action](../../../rule/combat/turn.md)** |
 |----------------------------------------|------------------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**                       | **🎯 One creature or object** |
 
@@ -125,7 +125,7 @@ Choose two [signature abilities](../../../rule/combat/signature-ability.md) from
 
 *Your eyes emit rays of powerful enervating force.*
 
-| **Metamorphosis, Psionic, [Ranged](../../../rule/combat/ranged.md)**, **Strike** |               **Main action** |
+| **Metamorphosis, Psionic, [Ranged](../../../rule/combat/ranged.md)**, **Strike** |               **[Main action](../../../rule/combat/turn.md)** |
 |------------------------------------------------|------------------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**                               | **🎯 One creature or object** |
 
@@ -144,7 +144,7 @@ Choose two [signature abilities](../../../rule/combat/signature-ability.md) from
 
 *You form a blade of mind energy and stab your target, invigorating yourself.*
 
-| **Animapathy, [Melee](../../../rule/combat/melee.md), Psionic, [Strike](../../../rule/combat/strike.md)** |               **Main action** |
+| **Animapathy, [Melee](../../../rule/combat/melee.md), Psionic, [Strike](../../../rule/combat/strike.md)** |               **[Main action](../../../rule/combat/turn.md)** |
 |----------------------------------------|------------------------------:|
 | **📏 [Melee](../../../rule/combat/melee.md) 2**                         | **🎯 One creature or object** |
 
@@ -171,7 +171,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *You project psionic energy out to a creature and take on a new visage in their mind.*
 
-| **Psionic, [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md), Telepathy** |     **Main action** |
+| **Psionic, [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md), Telepathy** |     **[Main action](../../../rule/combat/turn.md)** |
 |----------------------------------------|--------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**                       | **🎯 One creature** |
 
@@ -188,7 +188,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *You crush a foe in a telekinetic grip.*
 
-| **Psionic, [Ranged](../../../rule/combat/ranged.md)**, **Strike, Telekinesis** |     **Main action** |
+| **Psionic, [Ranged](../../../rule/combat/ranged.md)**, **Strike, Telekinesis** |     **[Main action](../../../rule/combat/turn.md)** |
 |----------------------------------------------|--------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**                             | **🎯 One creature** |
 
@@ -205,7 +205,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *You give a target a glimpse into the future so that they're ready for what comes next.*
 
-| **Chronopathy, [Melee](../../../rule/combat/melee.md), Psionic** |         **Main action** |
+| **Chronopathy, [Melee](../../../rule/combat/melee.md), Psionic** |         **[Main action](../../../rule/combat/turn.md)** |
 |---------------------------------|------------------------:|
 | **📏 [Melee](../../../rule/combat/melee.md) 2**                  | **🎯 Self or one ally** |
 
@@ -216,7 +216,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *Smoke flows from your enemy like tears as their skin begins to blacken and flake.*
 
-| **Psionic, Pyrokinesis, [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md)** |     **Main action** |
+| **Psionic, Pyrokinesis, [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md)** |     **[Main action](../../../rule/combat/turn.md)** |
 |------------------------------------------|--------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**                         | **🎯 One creature** |
 
@@ -237,7 +237,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *The target is thrown several seconds back through time and gets to do it all again.*
 
-| **Chronopathy, Psionic, [Ranged](../../../rule/combat/ranged.md)** |            **Maneuver** |
+| **Chronopathy, Psionic, [Ranged](../../../rule/combat/ranged.md)** |            **[Maneuver](../../../rule/combat/turn.md)** |
 |----------------------------------|------------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**                 | **🎯 Self or one ally** |
 
@@ -250,7 +250,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *Your psionic energy surrounds the target and pushes everything else away from them.*
 
-| **Psionic, [Ranged](../../../rule/combat/ranged.md), Telekinesis** |            **Maneuver** |
+| **Psionic, [Ranged](../../../rule/combat/ranged.md), Telekinesis** |            **[Maneuver](../../../rule/combat/turn.md)** |
 |----------------------------------|------------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**                 | **🎯 Self or one ally** |
 
@@ -263,7 +263,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *The target's skin turns to hard, dark metal, impenetrable and dense.*
 
-| **Metamorphosis, Psionic, [Ranged](../../../rule/combat/ranged.md)** |            **Maneuver** |
+| **Metamorphosis, Psionic, [Ranged](../../../rule/combat/ranged.md)** |            **[Maneuver](../../../rule/combat/turn.md)** |
 |------------------------------------|------------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**                   | **🎯 Self or one ally** |
 
@@ -276,7 +276,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *You clear the mind of nothing but the goal.*
 
-| **Psionic, [Ranged](../../../rule/combat/ranged.md), Telepathy** |            **Maneuver** |
+| **Psionic, [Ranged](../../../rule/combat/ranged.md), Telepathy** |            **[Maneuver](../../../rule/combat/turn.md)** |
 |--------------------------------|------------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**               | **🎯 Self or one ally** |
 

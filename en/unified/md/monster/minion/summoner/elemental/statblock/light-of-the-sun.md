@@ -3,6 +3,7 @@ agility: 2
 cost: 7 essence for two minions
 flavor: These elementals are blazing white avian-shaped beings that are nearly impossible to perceive directly. Between a light of the sun's talons is a massive glowing sword that can split the heaviest of defenses asunder.
 free_strike: 7
+free_strike_damage_type: Fire
 immunities:
     - Corruption R
     - fire R
@@ -38,7 +39,7 @@ These elementals are blazing white avian-shaped beings that are nearly impossibl
 
 > 🏹 **Solar Blade 2d10 + R (Signature Ability)**
 >
-> | **Magic, Melee, Strike** | **Main action** |
+> | **Magic, Melee, Strike** | **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |--------------------------|----------------:|
 > | **📏 Melee 1** | **🎯 One creature or object per minion** |
 >

@@ -6,12 +6,14 @@ file_dpath: treasure/3rd-echelon/consumable
 flavor: This thick purple liquid has a bitter scent that lingers.
 item_id: wellness-tonic
 item_name: Wellness Tonic
+item_prerequisite: An ounce of troll's blood, raw honey
 keywords:
     - Potion
     - Psionic
 name: Wellness Tonic
 project_goal: "180"
 project_roll_characteristic: '[Might](scc.v1:mcdm.heroes.v1/rule.character/might) or [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)'
+project_source: Texts or lore in Variac
 scc: mcdm.heroes.v1/treasure.3rd-echelon.consumable/wellness-tonic
 source: mcdm.heroes.v1
 treasure_type: consumable

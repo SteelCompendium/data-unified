@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: talent
 cost: 11 Clarity
 cost_amount: "11"
@@ -37,7 +37,7 @@ keywords:
     - Chronopathy
     - Psionic
 metadata:
-    action_type: Maneuver
+    action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: talent
     cost: 11 Clarity
     distance: 2 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)
@@ -56,5 +56,5 @@ metadata:
 name: Borrow From the Future
 target: Each ally in the area
 type: feature
-usage: Maneuver
+usage: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 ```

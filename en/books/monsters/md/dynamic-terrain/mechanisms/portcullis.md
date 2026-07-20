@@ -79,7 +79,7 @@ A portcullis is hidden in the ceiling of a passage or choke point, waiting to dr
 
 > ❗️ **Heavy Gate**
 >
-> | **Area, Weapon** |                   **Free triggered action** |
+> | **Area, Weapon** |                   **Free [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |
 > |------------------|--------------------------------------------:|
 > | **📏 Special**   | **🎯 Each creature and object in the area** |
 >

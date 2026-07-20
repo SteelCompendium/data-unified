@@ -20,9 +20,9 @@
     "Magic"
   ],
   "metadata": {
-    "action_type": "Main action",
+    "action_type": "[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)",
     "class": "conduit",
-    "content": "\n*Light shines at your command, burning your foes and blessing your allies.*\n\n| **Area, Magic**  |               **Main action** |\n|------------------|------------------------------:|\n| **📏 3 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)**   | **🎯 Each enemy in the area** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition):**\n\n- **≤11:** 4 fire damage\n- **12-16:** 6 fire damage\n- **17+:** 10 fire damage\n\n**Effect:** Each ally in the area deals fire damage equal to your [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition) score with their next strike made before the end of their next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn).",
+    "content": "\n*Light shines at your command, burning your foes and blessing your allies.*\n\n| **Area, Magic**  |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|------------------|------------------------------:|\n| **📏 3 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)**   | **🎯 Each enemy in the area** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition):**\n\n- **≤11:** 4 fire damage\n- **12-16:** 6 fire damage\n- **17+:** 10 fire damage\n\n**Effect:** Each ally in the area deals fire damage equal to your [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition) score with their next strike made before the end of their next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn).",
     "distance": "3 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)",
     "feature_type": "ability",
     "flavor": "Light shines at your command, burning your foes and blessing your allies.",
@@ -43,5 +43,5 @@
   "name": "Morning Light",
   "target": "Each enemy in the area",
   "type": "feature",
-  "usage": "Main action"
+  "usage": "[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)"
 }

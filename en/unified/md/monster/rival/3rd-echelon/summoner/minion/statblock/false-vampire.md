@@ -2,6 +2,7 @@
 agility: 2
 cost: 6 Malice for two minions
 free_strike: 8
+free_strike_damage_type: Acid
 immunities:
     - Corruption 4
     - poison 4

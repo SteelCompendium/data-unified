@@ -13,7 +13,7 @@ Your instincts for danger let you predict attacks before they happen.
 
 *You intuit the course of an incoming attack, reducing its effects.*
 
-| **Psionic** | **Triggered** |
+| **Psionic** | **[Triggered](../../../rule/combat/triggered-action.md)** |
 |-------------|--------------:|
 | **📏 Self** |   **🎯 Self** |
 

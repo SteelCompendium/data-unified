@@ -14,7 +14,7 @@ You have the following ability.
 
 *It doesn't need to make sense. Just say it with emotion.*
 
-| **Magic, [Ranged](../../../rule/combat/ranged.md)** |   **Maneuver** |
+| **Magic, [Ranged](../../../rule/combat/ranged.md)** |   **[Maneuver](../../../rule/combat/turn.md)** |
 |-------------------|---------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**  | **🎯 Special** |
 

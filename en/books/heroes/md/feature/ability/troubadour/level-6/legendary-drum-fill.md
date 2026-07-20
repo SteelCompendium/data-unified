@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: troubadour
 cost: 9 Drama
 distance: 4 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)
@@ -19,7 +19,7 @@ type: ability
 
 *You start a drumroll that roars like thunder with every impact the heroes make.*
 
-| **Area, Magic** |                          **Maneuver** |
+| **Area, Magic** |                          **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 |-----------------|--------------------------------------:|
 | **📏 4 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)**  | **🎯 Self and each ally in the area** |
 

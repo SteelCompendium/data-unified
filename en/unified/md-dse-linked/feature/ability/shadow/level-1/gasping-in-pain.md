@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: shadow
 distance: '[Melee](../../../../rule/combat/melee.md) 1'
 effect: One ally within 5 squares of the target gains 1 [surge](../../../../rule/resource/surge.md).
@@ -41,7 +41,7 @@ keywords:
     - '[Strike](../../../../rule/combat/strike.md)'
     - Weapon
 metadata:
-    action_type: Main action
+    action_type: '[Main action](../../../../rule/combat/turn.md)'
     class: shadow
     distance: '[Melee](../../../../rule/combat/melee.md) 1'
     effect: One ally within 5 squares of the target gains 1 [surge](../../../../rule/resource/surge.md).
@@ -63,5 +63,5 @@ metadata:
 name: Gasping in Pain
 target: One creature
 type: feature
-usage: Main action
+usage: '[Main action](../../../../rule/combat/turn.md)'
 ```

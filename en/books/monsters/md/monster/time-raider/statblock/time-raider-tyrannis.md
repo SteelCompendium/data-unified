@@ -31,7 +31,7 @@ type: statblock
 
 > ⚔️ **Gatling Blaster ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
-> | **Melee, Psionic, Ranged, Strike, Weapon** |                 **Main action** |
+> | **Melee, Psionic, Ranged, Strike, Weapon** |                 **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |--------------------------------------------|--------------------------------:|
 > | **📏 Melee 2 or ranged 10**                | **🎯 Two creatures or objects** |
 >
@@ -45,7 +45,7 @@ type: statblock
 
 > 🏹 **Air Raid! (3 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
-> | **Psionic, Ranged** |              **Maneuver** |
+> | **Psionic, Ranged** |              **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |---------------------|--------------------------:|
 > | **📏 Ranged 10**    | **🎯 Three time raiders** |
 >
@@ -53,7 +53,7 @@ type: statblock
 
 > ❗️ **Precog Reflexes**
 >
-> | **Psionic, Ranged** |           **Triggered action** |
+> | **Psionic, Ranged** |           **[Triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |
 > |---------------------|-------------------------------:|
 > | **📏 Ranged 10**    | **🎯 The triggering creature** |
 >

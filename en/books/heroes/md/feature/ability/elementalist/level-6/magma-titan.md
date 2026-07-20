@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: elementalist
 cost: 9 Essence
 distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
@@ -21,7 +21,7 @@ type: ability
 
 *Their body swells with lava, mud, and might, towering over their enemies.*
 
-| **Earth, Fire, Green, Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)** |            **Maneuver** |
+| **Earth, Fire, Green, Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)** |            **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 |---------------------------------------|------------------------:|
 | **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**                      | **🎯 Self or one ally** |
 

@@ -30,7 +30,7 @@ with_captain: +1 damage bonus to strikes
 
 > 🏹 **Chain Shotput (Signature Ability)**
 >
-> | **Ranged, Strike, Weapon** |                          **Main action** |
+> | **Ranged, Strike, Weapon** |                          **[Main action](../../../rule/combat/turn.md)** |
 > |----------------------------|-----------------------------------------:|
 > | **📏 Ranged 8**            | **🎯 One creature or object per minion** |
 >

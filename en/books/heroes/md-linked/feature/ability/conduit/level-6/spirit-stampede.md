@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: conduit
 cost: 9 Piety
 distance: 10 x 2 line within 5
@@ -23,7 +23,7 @@ type: ability
 
 *Animal spirits run through the battlefield, trampling your foes.*
 
-| **Area, Magic, [Ranged](../../../../rule/combat/ranged.md)**     |               **Main action** |
+| **Area, Magic, [Ranged](../../../../rule/combat/ranged.md)**     |               **[Main action](../../../../rule/combat/turn.md)** |
 |-----------------------------|------------------------------:|
 | **📏 10 x 2 line within 5** | **🎯 Each enemy in the area** |
 

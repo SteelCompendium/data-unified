@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: shadow
 cost: 11 Insight
 distance: 2 [burst](../../../../rule/combat/burst.md)
@@ -21,7 +21,7 @@ type: ability
 
 *The shadows around you give way, allowing the shadow creature within you to grasp at your foes.*
 
-| **Area, Magic** |               **Main action** |
+| **Area, Magic** |               **[Main action](../../../../rule/combat/turn.md)** |
 |-----------------|------------------------------:|
 | **📏 2 [burst](../../../../rule/combat/burst.md)**  | **🎯 Each enemy in the area** |
 

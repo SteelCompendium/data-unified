@@ -32,7 +32,7 @@ weaknesses:
 
 > 🗡 **Voracious Mastication ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 1**            | **🎯 Two creatures or objects** |
 >
@@ -46,7 +46,7 @@ weaknesses:
 
 > 👤 **Crash Through (3 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
-> | **-**       | **Main action** |
+> | **-**       | **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-------------|----------------:|
 > | **📏 Self** |     **🎯 Self** |
 >
@@ -54,7 +54,7 @@ weaknesses:
 
 > 👤 **Food Frenzy**
 >
-> | **-**       | **Maneuver** |
+> | **-**       | **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
@@ -62,7 +62,7 @@ weaknesses:
 
 > ❗️ **Spiteful Retort (1 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
-> | **Melee**      |      **Free triggered action** |
+> | **Melee**      |      **Free [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |
 > |----------------|-------------------------------:|
 > | **📏 Melee 1** | **🎯 The triggering creature** |
 >

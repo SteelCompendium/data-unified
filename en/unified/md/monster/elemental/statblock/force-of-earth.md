@@ -29,7 +29,7 @@ type: statblock
 
 > 🗡 **Slam Into Dirt (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 2**            | **🎯 Two creatures or objects** |
 >
@@ -43,7 +43,7 @@ type: statblock
 
 > 🏹 **Convocation of Quartz**
 >
-> | **Magic, Ranged** |                 **Maneuver** |
+> | **Magic, Ranged** |                 **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-------------------|-----------------------------:|
 > | **📏 Ranged 5**   | **🎯 Self or one elemental** |
 >
@@ -53,7 +53,7 @@ type: statblock
 
 > ❗️ **Break Armor (1 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
-> | **-**       | **Triggered action** |
+> | **-**       | **[Triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |
 > |-------------|---------------------:|
 > | **📏 Self** |          **🎯 Self** |
 >

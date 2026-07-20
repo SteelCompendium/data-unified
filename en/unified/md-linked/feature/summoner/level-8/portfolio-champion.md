@@ -40,7 +40,7 @@ Stamina: Your maximum Stamina
 
 > 🏹 **Grasping Appendages 2d10 + 5 ([Signature Ability](../../../rule/combat/signature-ability.md))**
 >
-> | **Melee, Strike, Weapon** | **Main action** |
+> | **Melee, Strike, Weapon** | **[Main action](../../../rule/combat/turn.md)** |
 > |---------------------------|----------------:|
 > | **📏 Melee 5** | **🎯 Two creatures or objects** |
 >
@@ -112,7 +112,7 @@ Stamina: Your maximum Stamina
 
 > 🏹 **Elemental Tail Swing 2d10 + 5 ([Signature Ability](../../../rule/combat/signature-ability.md))**
 >
-> | **Charge, Melee, Strike, Weapon** | **Main action** |
+> | **Charge, Melee, Strike, Weapon** | **[Main action](../../../rule/combat/turn.md)** |
 > |-----------------------------------|----------------:|
 > | **📏 Melee 2** | **🎯 Two creatures or objects** |
 >
@@ -172,7 +172,7 @@ Stamina: Your maximum Stamina
 
 > 🏹 **Pixie Swarm 2d10 + 5 ([Signature Ability](../../../rule/combat/signature-ability.md))**
 >
-> | **Magic, Ranged, Strike** | **Main action** |
+> | **Magic, Ranged, Strike** | **[Main action](../../../rule/combat/turn.md)** |
 > |---------------------------|----------------:|
 > | **📏 Ranged 10** | **🎯 Two creatures or objects** |
 >
@@ -240,7 +240,7 @@ Stamina: Your maximum Stamina
 
 > 🏹 **Culling Scythe 2d10 + 5 ([Signature Ability](../../../rule/combat/signature-ability.md))**
 >
-> | **Melee, Strike, Weapon** | **Main action** |
+> | **Melee, Strike, Weapon** | **[Main action](../../../rule/combat/turn.md)** |
 > |---------------------------|----------------:|
 > | **📏 Melee 2** | **🎯 Two creatures or objects** |
 >

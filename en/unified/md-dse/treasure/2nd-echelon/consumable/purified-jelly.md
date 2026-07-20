@@ -6,12 +6,14 @@ file_dpath: treasure/2nd-echelon/consumable
 flavor: This clear, pasty substance has a bitter aroma.
 item_id: purified-jelly
 item_name: Purified Jelly
+item_prerequisite: A cup of algae from glacial water
 keywords:
     - Potion
     - Psionic
 name: Purified Jelly
 project_goal: 90 (yields 1d3 doses)
 project_roll_characteristic: '[Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) or [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)'
+project_source: Texts or lore in Yllyric
 scc: mcdm.heroes.v1/treasure.2nd-echelon.consumable/purified-jelly
 source: mcdm.heroes.v1
 treasure_type: consumable

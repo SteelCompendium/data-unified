@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: shadow
 distance: Self
 effect: You envelop yourself in an illusion that makes you appear nonthreatening and harmless to your enemies. You might take on the appearance of a harmless animal of your [size](scc.v1:mcdm.heroes.v1/rule.character/size), such as a sheep or capybara, or you might appear as a less heroic and unarmed version of yourself. While this illusion lasts, your [strikes](scc.v1:mcdm.heroes.v1/rule.combat/strike) gain an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge), and when you take the [Disengage](scc.v1:mcdm.heroes.v1/feature.common.move-actions/disengage) move action, you gain a +1 [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to the [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance) you can [shift](scc.v1:mcdm.heroes.v1/movement/shifting).
@@ -18,7 +18,7 @@ type: ability
 
 *Taking on an illusory countenance gives you an advantage on [subterfuge](scc.v1:mcdm.heroes.v1/feature.shadow.level-10/subterfuge).*
 
-| **Magic**   | **Maneuver** |
+| **Magic**   | **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 |-------------|-------------:|
 | **📏 Self** |    **🎯 Self** |
 

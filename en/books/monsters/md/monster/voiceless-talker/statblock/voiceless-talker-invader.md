@@ -32,7 +32,7 @@ type: statblock
 
 > 🗡 **Tentacle ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 2**            | **🎯 Two creatures or objects** |
 >
@@ -44,7 +44,7 @@ type: statblock
 
 > ❇️ **Psionic Boom (3 Malice)**
 >
-> | **Area, Psionic** |               **Main action** |
+> | **Area, Psionic** |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-------------------|------------------------------:|
 > | **📏 3 burst**    | **🎯 Each enemy in the area** |
 >
@@ -58,7 +58,7 @@ type: statblock
 
 > 🗡 **Tentacle Toss**
 >
-> | **Melee, Psionic** |        **Maneuver** |
+> | **Melee, Psionic** |        **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |--------------------|--------------------:|
 > | **📏 Melee 1**     | **🎯 One creature** |
 >

@@ -17,7 +17,7 @@ Choose one of the following abilities.
 
 *You give away the ending of this battle, and it's not great for them.*
 
-| **Area, Magic** |               **Main action** |
+| **Area, Magic** |               **[Main action](../../../rule/combat/turn.md)** |
 |-----------------|------------------------------:|
 | **📏 5 [burst](../../../rule/combat/burst.md)**  | **🎯 Each enemy in the area** |
 
@@ -32,7 +32,7 @@ Choose one of the following abilities.
 
 *It's important for everyone to know each other's lines, just in case...*
 
-| **Area, Magic** |                 **Maneuver** |
+| **Area, Magic** |                 **[Maneuver](../../../rule/combat/turn.md)** |
 |-----------------|-----------------------------:|
 | **📏 5 [burst](../../../rule/combat/burst.md)**  | **🎯 Each ally in the area** |
 
@@ -47,7 +47,7 @@ Choose one of the following abilities.
 
 *It's love and blood or drama and blood. Either way, there's always blood.*
 
-| **[Melee](../../../rule/combat/melee.md), [Strike](../../../rule/combat/strike.md), Weapon** |               **Main action** |
+| **[Melee](../../../rule/combat/melee.md), [Strike](../../../rule/combat/strike.md), Weapon** |               **[Main action](../../../rule/combat/turn.md)** |
 |---------------------------|------------------------------:|
 | **📏 [Melee](../../../rule/combat/melee.md) 1**            | **🎯 One creature or object** |
 
@@ -62,7 +62,7 @@ Choose one of the following abilities.
 
 *You and your partner make a flashy show of derring-do, then get back to your corners.*
 
-| **[Melee](../../../rule/combat/melee.md), [Strike](../../../rule/combat/strike.md), Weapon** |     **Main action** |
+| **[Melee](../../../rule/combat/melee.md), [Strike](../../../rule/combat/strike.md), Weapon** |     **[Main action](../../../rule/combat/turn.md)** |
 |---------------------------|--------------------:|
 | **📏 [Melee](../../../rule/combat/melee.md) 1**            | **🎯 One creature** |
 
@@ -77,7 +77,7 @@ Choose one of the following abilities.
 
 *Your music pounds the crowd to the beat until their hearts can't stand it anymore.*
 
-| **Area, Magic**               |               **Main action** |
+| **Area, Magic**               |               **[Main action](../../../rule/combat/turn.md)** |
 |-------------------------------|------------------------------:|
 | **📏 Three 3 [cubes](../../../rule/combat/cube.md) within 1** | **🎯 Each enemy in the area** |
 
@@ -94,7 +94,7 @@ Choose one of the following abilities.
 
 *You start a drumroll that roars like thunder with every impact the heroes make.*
 
-| **Area, Magic** |                          **Maneuver** |
+| **Area, Magic** |                          **[Maneuver](../../../rule/combat/turn.md)** |
 |-----------------|--------------------------------------:|
 | **📏 4 [burst](../../../rule/combat/burst.md)**  | **🎯 Self and each ally in the area** |
 

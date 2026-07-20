@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](../../../../rule/combat/turn.md)'
 class: shadow
 distance: Self
 effect: You [teleport](../../../../movement/teleport.md) up to 5 squares. If you have [concealment](../../../../rule/combat/concealment.md) or [cover](../../../../rule/combat/cover.md) at your destination, you can use the [Hide](../../../common/maneuvers/hide.md) maneuver even if you are observed. If you successfully hide using this maneuver, you gain 1 [surge](../../../../rule/resource/surge.md).
@@ -32,7 +32,7 @@ flavor: In a swirl of black ash, you step from one place to another.
 keywords:
     - Magic
 metadata:
-    action_type: Maneuver
+    action_type: '[Maneuver](../../../../rule/combat/turn.md)'
     class: shadow
     distance: Self
     effect: You [teleport](../../../../movement/teleport.md) up to 5 squares. If you have [concealment](../../../../rule/combat/concealment.md) or [cover](../../../../rule/combat/cover.md) at your destination, you can use the [Hide](../../../common/maneuvers/hide.md) maneuver even if you are observed. If you successfully hide using this maneuver, you gain 1 [surge](../../../../rule/resource/surge.md).
@@ -49,5 +49,5 @@ metadata:
 name: Black Ash Teleport
 target: Self
 type: feature
-usage: Maneuver
+usage: '[Maneuver](../../../../rule/combat/turn.md)'
 ```

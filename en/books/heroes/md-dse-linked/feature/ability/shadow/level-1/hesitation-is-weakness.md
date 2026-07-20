@@ -1,5 +1,5 @@
 ---
-action_type: Free triggered
+action_type: Free [triggered](../../../../rule/combat/triggered-action.md)
 class: shadow
 cost: 1 Insight
 cost_amount: "1"
@@ -32,7 +32,7 @@ feature_type: ability
 flavor: Keep up the attack. Never give them a moment's grace.
 keywords: []
 metadata:
-    action_type: Free triggered
+    action_type: Free [triggered](../../../../rule/combat/triggered-action.md)
     class: shadow
     cost: 1 Insight
     distance: Self
@@ -50,5 +50,5 @@ name: Hesitation Is Weakness
 target: Self
 trigger: Another hero ends their [turn](../../../../rule/combat/turn.md). That hero can't have used this ability to start their [turn](../../../../rule/combat/turn.md).
 type: feature
-usage: Free triggered
+usage: Free [triggered](../../../../rule/combat/triggered-action.md)
 ```

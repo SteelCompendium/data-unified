@@ -30,7 +30,7 @@ with_captain: +2 bonus to forced movement distance
 
 > 🏹 **Explosive Mote ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
-> | **Magic, Ranged, Strike** |                          **Main action** |
+> | **Magic, Ranged, Strike** |                          **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |---------------------------|-----------------------------------------:|
 > | **📏 Ranged 10**          | **🎯 One creature or object per minion** |
 >

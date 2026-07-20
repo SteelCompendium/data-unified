@@ -29,7 +29,7 @@ type: statblock
 
 > 🗡 **Signum (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |               **Main action** |
+> | **Melee, Strike, Weapon** |               **[Main action](../../../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Melee 1**            | **🎯 One creature or object** |
 >
@@ -45,7 +45,7 @@ type: statblock
 
 > ❇️ **Glory to the Legion (5 [Malice](../../../rule/monster/malice.md))**
 >
-> | **Area**       |                 **Maneuver** |
+> | **Area**       |                 **[Maneuver](../../../rule/combat/turn.md)** |
 > |----------------|-----------------------------:|
 > | **📏 5 burst** | **🎯 Each ally in the area** |
 >

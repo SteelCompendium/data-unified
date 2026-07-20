@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: conduit
 cost: 9 Piety
 distance: 4 [burst](../../../../rule/combat/burst.md)
@@ -19,7 +19,7 @@ type: ability
 
 *With a gesture, you restore your health and that of your allies.*
 
-| **Area, Magic**  |                       **Main action** |
+| **Area, Magic**  |                       **[Main action](../../../../rule/combat/turn.md)** |
 |------------------|--------------------------------------:|
 | **📏 4 [burst](../../../../rule/combat/burst.md)**   | **🎯 Self and each ally in the area** |
 

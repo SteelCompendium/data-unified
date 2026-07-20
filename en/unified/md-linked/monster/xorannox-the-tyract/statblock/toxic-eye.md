@@ -30,7 +30,7 @@ type: statblock
 
 > 🔳 **Toxic Vapors ([Signature Ability](../../../rule/combat/signature-ability.md))**
 >
-> | **Area, Psionic, Ranged** |               **Main action** |
+> | **Area, Psionic, Ranged** |               **[Main action](../../../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 4 cube within 10**   | **🎯 Each enemy in the area** |
 >

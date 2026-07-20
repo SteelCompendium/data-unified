@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](../../../../rule/combat/turn.md)'
 class: troubadour
 cost: 9 Drama
 cost_amount: "9"
@@ -35,7 +35,7 @@ keywords:
     - Area
     - Magic
 metadata:
-    action_type: Maneuver
+    action_type: '[Maneuver](../../../../rule/combat/turn.md)'
     class: troubadour
     cost: 9 Drama
     distance: 5 [burst](../../../../rule/combat/burst.md)
@@ -53,5 +53,5 @@ metadata:
 name: You're All My Understudies
 target: Each ally in the area
 type: feature
-usage: Maneuver
+usage: '[Maneuver](../../../../rule/combat/turn.md)'
 ```

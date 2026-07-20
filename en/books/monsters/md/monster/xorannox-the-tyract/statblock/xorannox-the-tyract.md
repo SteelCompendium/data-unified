@@ -39,7 +39,7 @@ type: statblock
 
 > 🗡 **Toothful Thrashing ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
-> | **Melee, Strike, Weapon** |                **Main action** |
+> | **Melee, Strike, Weapon** |                **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |---------------------------|-------------------------------:|
 > | **📏 Melee 1**            |  **🎯 One creature or object** |
 >
@@ -51,7 +51,7 @@ type: statblock
 
 > ❇️ **Grav Spike**
 >
-> | **Area, Psionic** |               **Main action** |
+> | **Area, Psionic** |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-------------------|------------------------------:|
 > | **📏 2 burst**    | **🎯 Each enemy in the area** |
 >
@@ -65,7 +65,7 @@ type: statblock
 
 > 👤 **Optical Collusion**
 >
-> | **-**       | **Maneuver** |
+> | **-**       | **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
@@ -73,7 +73,7 @@ type: statblock
 
 > 🔳 **Shutout (2 Malice)**
 >
-> | **Area**                   |   **Maneuver** |
+> | **Area**                   |   **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |----------------------------|---------------:|
 > | **📏 5 x 2 line within 1** | **🎯 Special** |
 >
@@ -81,7 +81,7 @@ type: statblock
 
 > ❗️ **Cower!**
 >
-> | **Psionic, Ranged** |           **Triggered action** |
+> | **Psionic, Ranged** |           **[Triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |
 > |---------------------|-------------------------------:|
 > | **📏 Ranged 10**    | **🎯 The triggering creature** |
 >

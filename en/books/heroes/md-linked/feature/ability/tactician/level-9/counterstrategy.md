@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: tactician
 cost: 11 Focus
 distance: Self
@@ -17,7 +17,7 @@ type: ability
 
 *I've identified a way to negate their strengths.*
 
-| **-**       | **Main action** |
+| **-**       | **[Main action](../../../../rule/combat/turn.md)** |
 |-------------|----------------:|
 | **📏 Self** |     **🎯 Self** |
 

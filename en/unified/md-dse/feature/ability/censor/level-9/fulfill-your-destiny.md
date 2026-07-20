@@ -1,5 +1,5 @@
 ---
-action_type: Triggered
+action_type: '[Triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)'
 class: censor
 cost: 11 Wrath
 cost_amount: "11"
@@ -37,7 +37,7 @@ keywords:
     - Magic
     - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'
 metadata:
-    action_type: Triggered
+    action_type: '[Triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)'
     class: censor
     cost: 11 Wrath
     distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
@@ -58,5 +58,5 @@ name: Fulfill Your Destiny
 target: One ally
 trigger: You or another hero ends their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn).
 type: feature
-usage: Triggered
+usage: '[Triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)'
 ```

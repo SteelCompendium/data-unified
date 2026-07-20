@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: tactician
 cost: 5 Focus
 distance: 1 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)
@@ -18,7 +18,7 @@ type: ability
 
 *Together we are invincible!*
 
-| **Area**       |                          **Maneuver** |
+| **Area**       |                          **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 |----------------|--------------------------------------:|
 | **📏 1 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)** | **🎯 Self and each ally in the area** |
 

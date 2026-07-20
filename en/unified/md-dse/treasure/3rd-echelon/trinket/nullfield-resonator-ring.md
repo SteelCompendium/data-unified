@@ -6,12 +6,14 @@ file_dpath: treasure/3rd-echelon/trinket
 flavor: This simple band of copper vibrates slightly when handled.
 item_id: nullfield-resonator-ring
 item_name: Nullfield Resonator Ring
+item_prerequisite: A wafer of gallium arsenide
 keywords:
     - Psionic
     - Ring
 name: Nullfield Resonator Ring
 project_goal: "450"
 project_roll_characteristic: '[Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) or [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)'
+project_source: Texts or lore in Mindspeech
 scc: mcdm.heroes.v1/treasure.3rd-echelon.trinket/nullfield-resonator-ring
 source: mcdm.heroes.v1
 treasure_type: trinket
@@ -39,7 +41,7 @@ Additionally, you have the following ability.
 >
 > *Your punch delivers a devastating burst of psionic energy.*
 >
-> | **[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), Psionic**, **Strike, Weapon** |               **Main action** |
+> | **[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), Psionic**, **Strike, Weapon** |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |----------------------------------------|------------------------------:|
 > | **📏 [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1**                         | **🎯 One creature or object** |
 >

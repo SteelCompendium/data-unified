@@ -18,9 +18,9 @@
   ],
   "metadata": {
     "ability_type": "Triggered",
-    "action_type": "Triggered",
+    "action_type": "[Triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)",
     "class": "shadow",
-    "content": "\n*You vanish in a plume of black smoke to avoid danger.*\n\n| **Magic**   | **Triggered** |\n|-------------|--------------:|\n| **📏 Self** |     **🎯 Self** |\n\n**Trigger:** You take damage.\n\n**Effect:** You take half the damage, then can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) up to 4 squares after the triggering effect resolves.\n\n**Spend 1+ Insight:** You [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) 1 additional square for each insight spent.",
+    "content": "\n*You vanish in a plume of black smoke to avoid danger.*\n\n| **Magic**   | **[Triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |\n|-------------|--------------:|\n| **📏 Self** |     **🎯 Self** |\n\n**Trigger:** You take damage.\n\n**Effect:** You take half the damage, then can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) up to 4 squares after the triggering effect resolves.\n\n**Spend 1+ Insight:** You [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) 1 additional square for each insight spent.",
     "distance": "Self",
     "feature_type": "ability",
     "flavor": "You vanish in a plume of black smoke to avoid danger.",
@@ -41,5 +41,5 @@
   "target": "Self",
   "trigger": "You take damage.",
   "type": "feature",
-  "usage": "Triggered"
+  "usage": "[Triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)"
 }

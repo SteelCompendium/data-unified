@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: fury
 cost: 5 Ferocity
 cost_amount: "5"
@@ -42,7 +42,7 @@ keywords:
     - Area
     - Magic
 metadata:
-    action_type: Main action
+    action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: fury
     cost: 5 Ferocity
     distance: 2 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)
@@ -63,5 +63,5 @@ metadata:
 name: Visceral Roar
 target: Each enemy in the area
 type: feature
-usage: Main action
+usage: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 ```

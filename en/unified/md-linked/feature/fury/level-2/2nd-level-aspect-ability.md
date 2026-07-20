@@ -17,7 +17,7 @@ Choose one of the following abilities.
 
 *You ready?*
 
-| **[Melee](../../../rule/combat/melee.md), Weapon** |            **Maneuver** |
+| **[Melee](../../../rule/combat/melee.md), Weapon** |            **[Maneuver](../../../rule/combat/turn.md)** |
 |-------------------|------------------------:|
 | **📏 [Melee](../../../rule/combat/melee.md) 1**    | **🎯 One willing ally** |
 
@@ -28,7 +28,7 @@ Choose one of the following abilities.
 
 *It's easier to destroy than to create. Much easier, in fact!*
 
-| **[Melee](../../../rule/combat/melee.md), Weapon**      | **Maneuver** |
+| **[Melee](../../../rule/combat/melee.md), Weapon**      | **[Maneuver](../../../rule/combat/turn.md)** |
 |------------------------|-------------:|
 | **📏 Self; see below** |  **🎯 Self** |
 
@@ -51,7 +51,7 @@ Choose one of the following abilities.
 
 *Your unbridled rage strikes terror in their hearts.*
 
-| **[Melee](../../../rule/combat/melee.md), [Strike](../../../rule/combat/strike.md), Weapon** |     **Main action** |
+| **[Melee](../../../rule/combat/melee.md), [Strike](../../../rule/combat/strike.md), Weapon** |     **[Main action](../../../rule/combat/turn.md)** |
 |---------------------------|--------------------:|
 | **📏 [Melee](../../../rule/combat/melee.md) 1**            | **🎯 One creature** |
 
@@ -66,7 +66,7 @@ Choose one of the following abilities.
 
 *Organizing your forces like feckless creatures of Law. Pitiful.*
 
-| **[Melee](../../../rule/combat/melee.md), Weapon**      | **Main action** |
+| **[Melee](../../../rule/combat/melee.md), Weapon**      | **[Main action](../../../rule/combat/turn.md)** |
 |------------------------|----------------:|
 | **📏 Self; see below** |     **🎯 Self** |
 
@@ -87,7 +87,7 @@ Choose one of the following abilities.
 
 *I will hunt you down.*
 
-| **[Melee](../../../rule/combat/melee.md), [Strike](../../../rule/combat/strike.md), Weapon** |     **Main action** |
+| **[Melee](../../../rule/combat/melee.md), [Strike](../../../rule/combat/strike.md), Weapon** |     **[Main action](../../../rule/combat/turn.md)** |
 |---------------------------|--------------------:|
 | **📏 [Melee](../../../rule/combat/melee.md) 1**            | **🎯 One creature** |
 
@@ -104,7 +104,7 @@ Choose one of the following abilities.
 
 *The sound of the storm within you staggers your opponents.*
 
-| **Area, Magic** |               **Main action** |
+| **Area, Magic** |               **[Main action](../../../rule/combat/turn.md)** |
 |-----------------|------------------------------:|
 | **📏 2 [burst](../../../rule/combat/burst.md)**  | **🎯 Each enemy in the area** |
 

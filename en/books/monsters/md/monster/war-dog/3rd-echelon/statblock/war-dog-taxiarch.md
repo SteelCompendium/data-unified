@@ -30,7 +30,7 @@ type: statblock
 
 > 🏹 **Stunning Surge ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
-> | **Magic, Ranged, Strike** |                 **Main action** |
+> | **Magic, Ranged, Strike** |                 **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Ranged 10**          | **🎯 Two creatures or objects** |
 >
@@ -46,7 +46,7 @@ type: statblock
 
 > 🔳 **Overcharge (2 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
-> | **Area, Magic, Ranged** |                    **Maneuver** |
+> | **Area, Magic, Ranged** |                    **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-------------------------|--------------------------------:|
 > | **📏 4 cube within 10** | **🎯 Each war dog in the area** |
 >
@@ -54,7 +54,7 @@ type: statblock
 
 > ❗️ **Thunderstruck**
 >
-> | **Magic, Melee** |        **Triggered action** |
+> | **Magic, Melee** |        **[Triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |
 > |------------------|----------------------------:|
 > | **📏 Melee 1**   | **🎯 The triggering enemy** |
 >

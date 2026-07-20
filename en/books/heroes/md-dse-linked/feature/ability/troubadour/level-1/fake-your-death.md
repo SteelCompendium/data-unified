@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](../../../../rule/combat/turn.md)'
 class: troubadour
 cost: 5 Drama
 cost_amount: "5"
@@ -32,7 +32,7 @@ flavor: O happy dagger, this is thy sheath!
 keywords:
     - Magic
 metadata:
-    action_type: Maneuver
+    action_type: '[Maneuver](../../../../rule/combat/turn.md)'
     class: troubadour
     cost: 5 Drama
     distance: Self
@@ -48,5 +48,5 @@ metadata:
 name: Fake Your Death
 target: Self
 type: feature
-usage: Maneuver
+usage: '[Maneuver](../../../../rule/combat/turn.md)'
 ```

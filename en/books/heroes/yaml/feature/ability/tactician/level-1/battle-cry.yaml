@@ -10,9 +10,9 @@ flavor: You shout a phrase that galvanizes your team.
 keywords:
     - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'
 metadata:
-    action_type: Maneuver
+    action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: tactician
-    content: "\n*You shout a phrase that galvanizes your team.*\n\n| **[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)**       |        **Maneuver** |\n|------------------|--------------------:|\n| **\U0001F4CF [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10** | **\U0001F3AF Three allies** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason):**\n\n- **≤11:** Each target gains 1 [surge](scc.v1:mcdm.heroes.v1/rule.resource/surge).\n- **12-16:** Each target gains 2 [surges](scc.v1:mcdm.heroes.v1/rule.resource/surge).\n- **17+:** Each target gains 3 [surges](scc.v1:mcdm.heroes.v1/rule.resource/surge)."
+    content: "\n*You shout a phrase that galvanizes your team.*\n\n| **[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)**       |        **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|------------------|--------------------:|\n| **\U0001F4CF [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10** | **\U0001F3AF Three allies** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason):**\n\n- **≤11:** Each target gains 1 [surge](scc.v1:mcdm.heroes.v1/rule.resource/surge).\n- **12-16:** Each target gains 2 [surges](scc.v1:mcdm.heroes.v1/rule.resource/surge).\n- **17+:** Each target gains 3 [surges](scc.v1:mcdm.heroes.v1/rule.resource/surge)."
     distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
     feature_type: ability
     flavor: You shout a phrase that galvanizes your team.
@@ -28,4 +28,4 @@ metadata:
 name: Battle Cry
 target: Three allies
 type: feature
-usage: Maneuver
+usage: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'

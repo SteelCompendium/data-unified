@@ -6,11 +6,13 @@ file_dpath: treasure/1st-echelon/consumable
 flavor: A diamond-shaped dart holds a shimmering black vial at its core.
 item_id: black-ash-dart
 item_name: Black Ash Dart
+item_prerequisite: Three vials of black ash from the College of Black Ash
 keywords:
     - Magic
 name: Black Ash Dart
 project_goal: 45 (yields 1d3 darts, or three darts if crafted by a shadow)
 project_roll_characteristic: '[Agility](scc.v1:mcdm.heroes.v1/rule.character/agility) or [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)'
+project_source: Texts or lore in Szetch
 scc: mcdm.heroes.v1/treasure.1st-echelon.consumable/black-ash-dart
 source: mcdm.heroes.v1
 treasure_type: consumable

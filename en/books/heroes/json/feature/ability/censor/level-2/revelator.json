@@ -14,9 +14,9 @@
     "Magic"
   ],
   "metadata": {
-    "action_type": "Maneuver",
+    "action_type": "[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)",
     "class": "censor",
-    "content": "\n*You channel holy energy to harm unbelievers and reveal those hidden from your [judgment](scc.v1:mcdm.heroes.v1/feature.ability.censor.level-1/judgment).*\n\n| **Area, Magic** |                  **Maneuver** |\n|-----------------|------------------------------:|\n| **📏 3 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)**  | **🎯 Each enemy in the area** |\n\n**Effect:** Each target takes holy damage equal to twice your [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence) score. Additionally, each hidden target is automatically revealed and can't become hidden again until the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn). You can then use your [Judgment](scc.v1:mcdm.heroes.v1/feature.ability.censor.level-1/judgment) ability against one target as a free [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action).",
+    "content": "\n*You channel holy energy to harm unbelievers and reveal those hidden from your [judgment](scc.v1:mcdm.heroes.v1/feature.ability.censor.level-1/judgment).*\n\n| **Area, Magic** |                  **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|-----------------|------------------------------:|\n| **📏 3 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)**  | **🎯 Each enemy in the area** |\n\n**Effect:** Each target takes holy damage equal to twice your [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence) score. Additionally, each hidden target is automatically revealed and can't become hidden again until the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn). You can then use your [Judgment](scc.v1:mcdm.heroes.v1/feature.ability.censor.level-1/judgment) ability against one target as a free [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action).",
     "distance": "3 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)",
     "feature_type": "ability",
     "flavor": "You channel holy energy to harm unbelievers and reveal those hidden from your [judgment](scc.v1:mcdm.heroes.v1/feature.ability.censor.level-1/judgment).",
@@ -37,5 +37,5 @@
   "name": "Revelator",
   "target": "Each enemy in the area",
   "type": "feature",
-  "usage": "Maneuver"
+  "usage": "[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)"
 }

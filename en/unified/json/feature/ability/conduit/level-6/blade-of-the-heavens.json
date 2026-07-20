@@ -17,9 +17,9 @@
     "[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)"
   ],
   "metadata": {
-    "action_type": "Main action",
+    "action_type": "[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)",
     "class": "conduit",
-    "content": "\n*A greatsword streams down from the sky, threatening to pin your foe.*\n\n| **Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)**  |     **Main action** |\n|----------------------------|--------------------:|\n| **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 5**            | **🎯 One creature** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition):**\n\n- **≤11:** 8 + I damage; A \u003c WEAK, [prone and](scc.v1:mcdm.heroes.v1/condition/prone) [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)\n- **12-16:** 12 + I damage; A \u003c AVERAGE, [prone and](scc.v1:mcdm.heroes.v1/condition/prone) [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)\n- **17+:** 16 + I damage; A \u003c STRONG, [prone and](scc.v1:mcdm.heroes.v1/condition/prone) [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)",
+    "content": "\n*A greatsword streams down from the sky, threatening to pin your foe.*\n\n| **Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)**  |     **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|----------------------------|--------------------:|\n| **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 5**            | **🎯 One creature** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition):**\n\n- **≤11:** 8 + I damage; A \u003c WEAK, [prone and](scc.v1:mcdm.heroes.v1/condition/prone) [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)\n- **12-16:** 12 + I damage; A \u003c AVERAGE, [prone and](scc.v1:mcdm.heroes.v1/condition/prone) [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)\n- **17+:** 16 + I damage; A \u003c STRONG, [prone and](scc.v1:mcdm.heroes.v1/condition/prone) [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)",
     "distance": "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 5",
     "feature_type": "ability",
     "flavor": "A greatsword streams down from the sky, threatening to pin your foe.",
@@ -41,5 +41,5 @@
   "name": "Blade of the Heavens",
   "target": "One creature",
   "type": "feature",
-  "usage": "Main action"
+  "usage": "[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)"
 }

@@ -31,7 +31,7 @@ with_captain: +6 bonus to Stamina
 
 > 🗡 **Buried in Sand (Signature Ability)**
 >
-> | **Magic, Melee, Strike** |                          **Main action** |
+> | **Magic, Melee, Strike** |                          **[Main action](../../../rule/combat/turn.md)** |
 > |--------------------------|-----------------------------------------:|
 > | **📏 Melee 3**           | **🎯 One creature or object per minion** |
 >

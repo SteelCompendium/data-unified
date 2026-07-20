@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: troubadour
 cost: 3 Drama
 distance: Self; see below
@@ -23,7 +23,7 @@ type: ability
 
 *As you bob and weave through the crowd, you can't help but leave the audience wanting more.*
 
-| **[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), Weapon** | **Maneuver** |
+| **[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), Weapon** | **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 |---------------------------|-------------:|
 | **📏 Self; see below**    |  **🎯 Self** |
 

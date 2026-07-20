@@ -33,7 +33,7 @@ type: statblock
 
 > 🗡 **Skewer (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](../../../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 1**            | **🎯 Two creatures or objects** | 
 >
@@ -47,7 +47,7 @@ type: statblock
 
 > 🔳 **Acidic Stun (2 [Malice](../../../rule/monster/malice.md))**
 >
-> | **Area, Magic**            |               **Main action** |
+> | **Area, Magic**            |               **[Main action](../../../rule/combat/turn.md)** |
 > |----------------------------|------------------------------:|
 > | **📏 3 x 1 line within 1** | **🎯 Each enemy in the area** |
 >
@@ -61,7 +61,7 @@ type: statblock
 
 > 👤 **Takeoff**
 >
-> | **-**       | **Maneuver** |
+> | **-**       | **[Maneuver](../../../rule/combat/turn.md)** |
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
@@ -69,7 +69,7 @@ type: statblock
 
 > ❗️ **Stay Back!**
 >
-> | **Melee**      |           **Triggered action** |
+> | **Melee**      |           **[Triggered action](../../../rule/combat/triggered-action.md)** |
 > |----------------|-------------------------------:|
 > | **📏 Melee 2** | **🎯 The triggering creature** |
 >

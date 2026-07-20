@@ -84,7 +84,7 @@ A concealed dart thrower hurls missiles at short range.
 
 > ❗️ **Dart**
 >
-> | **Ranged, Strike, Weapon** |     **Free triggered action** |
+> | **Ranged, Strike, Weapon** |     **Free [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |
 > |----------------------------|------------------------------:|
 > | **📏 Ranged 5**            | **🎯 One creature or object** |
 >

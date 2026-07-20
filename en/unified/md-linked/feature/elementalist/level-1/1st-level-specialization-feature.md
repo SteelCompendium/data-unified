@@ -28,7 +28,7 @@ You also gain the following ability.
 
 *You grant allies a taste of your unearthly vision.*
 
-| **Magic, [Ranged](../../../rule/combat/ranged.md), Void** |    **Maneuver** |
+| **Magic, [Ranged](../../../rule/combat/ranged.md), Void** |    **[Maneuver](../../../rule/combat/turn.md)** |
 |-------------------------|----------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**        |  **🎯 Special** |
 
@@ -49,7 +49,7 @@ You have the following ability.
 
 *The earth rises, falls, or opens up at your command.*
 
-| **Earth, Magic, [Melee](../../../rule/combat/melee.md)** | **Main action** |
+| **Earth, Magic, [Melee](../../../rule/combat/melee.md)** | **[Main action](../../../rule/combat/turn.md)** |
 |-------------------------|----------------:|
 | **📏 [Melee](../../../rule/combat/melee.md) 1**          |  **🎯 Special** |
 
@@ -66,7 +66,7 @@ You have the following ability.
 
 *With the merest touch, you cause an object to turn to slag or ash.*
 
-| **Fire, Magic, [Melee](../../../rule/combat/melee.md)**  |           **Main action** |
+| **Fire, Magic, [Melee](../../../rule/combat/melee.md)**  |           **[Main action](../../../rule/combat/turn.md)** |
 |-------------------------|--------------------------:|
 | **📏 [Melee](../../../rule/combat/melee.md) 1**          | **🎯 One mundane object** |
 

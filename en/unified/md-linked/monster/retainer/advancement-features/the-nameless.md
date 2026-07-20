@@ -49,7 +49,7 @@ type: featureblock
 
 > ❇️ **Looming Wings (Encounter)**
 >
-> | **Area, Weapon** |               **Main action** |
+> | **Area, Weapon** |               **[Main action](../../../rule/combat/turn.md)** |
 > |------------------|------------------------------:|
 > | **📏 1 burst**   | **🎯 Each enemy in the area** |
 >
@@ -65,7 +65,7 @@ type: featureblock
 
 > ❇️ **Spew Death (Encounter)**
 >
-> | **Area, Magic** |               **Main action** |
+> | **Area, Magic** |               **[Main action](../../../rule/combat/turn.md)** |
 > |-----------------|------------------------------:|
 > | **📏 5 burst**  | **🎯 Each enemy in the area** |
 >

@@ -17,7 +17,7 @@ Choose one of the following abilities.
 
 *You slip into a faster timestream to act more quickly.*
 
-| **Psionic** | **Main action** |
+| **Psionic** | **[Main action](../../../rule/combat/turn.md)** |
 |-------------|----------------:|
 | **📏 Self** |     **🎯 Self** |
 
@@ -28,7 +28,7 @@ Choose one of the following abilities.
 
 *You weaken your connection to this manifold, allowing you to move through and damage enemies.*
 
-| **[Melee](../../../rule/combat/melee.md), Psionic, Weapon** | **Main action** |
+| **[Melee](../../../rule/combat/melee.md), Psionic, Weapon** | **[Main action](../../../rule/combat/turn.md)** |
 |----------------------------|----------------:|
 | **📏 Self; see below**     |     **🎯 Self** |
 
@@ -49,7 +49,7 @@ Choose one of the following abilities.
 
 *Pillars of ice erupt from the ground and launch your foes into the air.*
 
-| **Psionic, [Ranged](../../../rule/combat/ranged.md)** |                   **Main action** |
+| **Psionic, [Ranged](../../../rule/combat/ranged.md)** |                   **[Main action](../../../rule/combat/turn.md)** |
 |---------------------|----------------------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**    | **🎯 Three creatures or objects** |
 
@@ -66,7 +66,7 @@ Choose one of the following abilities.
 
 *You create a [wall of ice](../../ability/null/level-6/wall-of-ice.md).*
 
-| **Area, Psionic, [Ranged](../../../rule/combat/ranged.md)** | **Main action** |
+| **Area, Psionic, [Ranged](../../../rule/combat/ranged.md)** | **[Main action](../../../rule/combat/turn.md)** |
 |---------------------------|----------------:|
 | **📏 10 wall within 10**  |  **🎯 Special** |
 
@@ -81,7 +81,7 @@ Choose one of the following abilities.
 
 *You channel your discipline into momentum that defies gravity.*
 
-| **Psionic** | **Maneuver** |
+| **Psionic** | **[Maneuver](../../../rule/combat/turn.md)** |
 |-------------|-------------:|
 | **📏 Self** |  **🎯 Self** |
 
@@ -98,7 +98,7 @@ Choose one of the following abilities.
 
 *You focus until your body becomes as hard as iron.*
 
-| **Psionic** | **Maneuver** |
+| **Psionic** | **[Maneuver](../../../rule/combat/turn.md)** |
 |-------------|-------------:|
 | **📏 Self** |  **🎯 Self** |
 

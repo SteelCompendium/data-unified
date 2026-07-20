@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](../../../../rule/combat/turn.md)'
 class: elementalist
 cost: 5 Essence
 cost_amount: "5"
@@ -40,7 +40,7 @@ keywords:
     - Magic
     - '[Ranged](../../../../rule/combat/ranged.md)'
 metadata:
-    action_type: Maneuver
+    action_type: '[Maneuver](../../../../rule/combat/turn.md)'
     class: elementalist
     cost: 5 Essence
     distance: 3 [cube](../../../../rule/combat/cube.md) within 10
@@ -60,5 +60,5 @@ metadata:
 name: O Flower Aid, O Earth Defend
 target: Special
 type: feature
-usage: Maneuver
+usage: '[Maneuver](../../../../rule/combat/turn.md)'
 ```

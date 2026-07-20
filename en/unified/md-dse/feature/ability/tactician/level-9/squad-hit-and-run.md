@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: tactician
 cost: 11 Focus
 cost_amount: "11"
@@ -33,7 +33,7 @@ flavor: I had to pry this secret from the [shadow college](scc.v1:mcdm.heroes.v1
 keywords:
     - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'
 metadata:
-    action_type: Main action
+    action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: tactician
     cost: 11 Focus
     distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
@@ -50,5 +50,5 @@ metadata:
 name: Squad! Hit and Run!
 target: Self and two allies
 type: feature
-usage: Main action
+usage: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 ```

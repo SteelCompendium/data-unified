@@ -14,7 +14,7 @@ You have the following ability.
 
 *You commune with the lingering soul of the recently dead.*
 
-| **Magic**      |             **Maneuver** |
+| **Magic**      |             **[Maneuver](../../../rule/combat/turn.md)** |
 |----------------|-------------------------:|
 | **📏 [Melee](../../../rule/combat/melee.md) 1** | **🎯 One dead creature** |
 

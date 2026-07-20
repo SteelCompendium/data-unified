@@ -6,12 +6,14 @@ file_dpath: treasure/2nd-echelon/trinket
 flavor: A fancy gold earring is set with a small ruby.
 item_id: mediators-charm
 item_name: Mediator's Charm
+item_prerequisite: The gold nib of a fountain pen used to sign a major treaty or compact, a ruby once worn by a [devil](scc.v1:mcdm.heroes.v1/ancestry/devil)
 keywords:
     - Head
     - Psionic
 name: Mediator's Charm
 project_goal: "300"
 project_roll_characteristic: '[Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) or [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence)'
+project_source: Texts or lore in Hyrallic
 scc: mcdm.heroes.v1/treasure.2nd-echelon.trinket/mediators-charm
 source: mcdm.heroes.v1
 treasure_type: trinket

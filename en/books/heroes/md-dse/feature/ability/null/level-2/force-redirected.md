@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: "null"
 cost: 5 Discipline
 cost_amount: "5"
@@ -45,7 +45,7 @@ keywords:
     - '[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)'
     - Weapon
 metadata:
-    action_type: Main action
+    action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: "null"
     cost: 5 Discipline
     distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 3'
@@ -68,5 +68,5 @@ metadata:
 name: Force Redirected
 target: One creature
 type: feature
-usage: Main action
+usage: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 ```

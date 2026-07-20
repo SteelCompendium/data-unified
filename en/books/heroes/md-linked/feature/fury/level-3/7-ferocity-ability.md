@@ -13,7 +13,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *Foes tremble at the sight of you.*
 
-| **Magic**   | **Maneuver** |
+| **Magic**   | **[Maneuver](../../../rule/combat/turn.md)** |
 |-------------|-------------:|
 | **📏 Self** |  **🎯 Self** |
 
@@ -24,7 +24,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *Shocked in the face of your naked brutality, your enemy's instincts take over.*
 
-| **Magic**   | **Maneuver** |
+| **Magic**   | **[Maneuver](../../../rule/combat/turn.md)** |
 |-------------|-------------:|
 | **📏 Self** |  **🎯 Self** |
 
@@ -35,7 +35,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *See how useless their weapons are!*
 
-| **Magic**   | **Maneuver** |
+| **Magic**   | **[Maneuver](../../../rule/combat/turn.md)** |
 |-------------|-------------:|
 | **📏 Self** |  **🎯 Self** |
 
@@ -46,7 +46,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *Slash. Walk away.*
 
-| **[Melee](../../../rule/combat/melee.md), [Strike](../../../rule/combat/strike.md), Weapon** |     **Main action** |
+| **[Melee](../../../rule/combat/melee.md), [Strike](../../../rule/combat/strike.md), Weapon** |     **[Main action](../../../rule/combat/turn.md)** |
 |---------------------------|--------------------:|
 | **📏 [Melee](../../../rule/combat/melee.md) 1**            | **🎯 One creature** |
 

@@ -23,32 +23,39 @@ Providing throwable light weapons and light armor easily concealed by a cloak to
 
 You wear light armor and wield one or two light weapons.
 
-##### Kit Bonuses
-
-**[Stamina](../rule/health/stamina.md) [Bonus](../rule/dice/bonuses-and-penalties.md):** +3 per [echelon](../rule/general/echelon.md)
-
-**[Speed](../rule/character/speed.md) [Bonus](../rule/dice/bonuses-and-penalties.md):** +2
-
-**[Melee](../rule/combat/melee.md) Damage [Bonus](../rule/dice/bonuses-and-penalties.md):** +1/+1/+1
-
-**[Ranged](../rule/combat/ranged.md) Damage [Bonus](../rule/dice/bonuses-and-penalties.md):** +1/+1/+1
-
-**[Ranged](../rule/combat/ranged.md) [Distance](../rule/combat/distance.md) [Bonus](../rule/dice/bonuses-and-penalties.md):** +5
-
-**Disengage [Bonus](../rule/dice/bonuses-and-penalties.md):** +1
-
-##### Signature Ability
-
-###### Fade
-
-*A stab, and a few quick, careful steps back.*
-
-| **[Melee](../rule/combat/melee.md), [Ranged](../rule/combat/ranged.md), [Strike](../rule/combat/strike.md), Weapon** |     **Main action** |
-|-----------------------------------|--------------------:|
-| **📏 [Melee](../rule/combat/melee.md) 1 or [ranged](../rule/combat/ranged.md) 10**       | **🎯 One creature** |
-
-**[Power Roll](../rule/dice/power-roll.md) + [Might](../rule/character/might.md) or [Agility](../rule/character/agility.md):**
-
-- **≤11:** 3 + M or A damage; you can [shift](../movement/shifting.md) 1 square
-- **12-16:** 6 + M or A damage; you can [shift](../movement/shifting.md) up to 2 squares
-- **17+:** 8 + M or A damage; you can [shift](../movement/shifting.md) up to 3 squares
+```ds-feature
+distance: '[Melee](../rule/combat/melee.md) 1 or [ranged](../rule/combat/ranged.md) 10'
+effects:
+    - roll: Power Roll + [Might](../rule/character/might.md) or [Agility](../rule/character/agility.md)
+      tier1: 3 + M or A damage; you can [shift](../movement/shifting.md) 1 square
+      tier2: 6 + M or A damage; you can [shift](../movement/shifting.md) up to 2 squares
+      tier3: 8 + M or A damage; you can [shift](../movement/shifting.md) up to 3 squares
+feature_type: ability
+flavor: A stab, and a few quick, careful steps back.
+keywords:
+    - '[Melee](../rule/combat/melee.md)'
+    - '[Ranged](../rule/combat/ranged.md)'
+    - '[Strike](../rule/combat/strike.md)'
+    - Weapon
+metadata:
+    action_type: Main action
+    distance: '[Melee](../rule/combat/melee.md) 1 or [ranged](../rule/combat/ranged.md) 10'
+    flavor: A stab, and a few quick, careful steps back.
+    keywords:
+        - '[Melee](../rule/combat/melee.md)'
+        - '[Ranged](../rule/combat/ranged.md)'
+        - '[Strike](../rule/combat/strike.md)'
+        - Weapon
+    name: Fade
+    power_roll_characteristic: '[Might](../rule/character/might.md) or [Agility](../rule/character/agility.md)'
+    subtype: signature
+    target: One creature
+    tier1: 3 + M or A damage; you can [shift](../movement/shifting.md) 1 square
+    tier2: 6 + M or A damage; you can [shift](../movement/shifting.md) up to 2 squares
+    tier3: 8 + M or A damage; you can [shift](../movement/shifting.md) up to 3 squares
+    type: ability
+name: Fade
+target: One creature
+type: feature
+usage: Main action
+```

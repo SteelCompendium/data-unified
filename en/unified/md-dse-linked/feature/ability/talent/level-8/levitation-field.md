@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](../../../../rule/combat/turn.md)'
 class: talent
 distance: 3 [burst](../../../../rule/combat/burst.md)
 effect: Each target can [fly](../../../../movement/fly.md) until the start of your next [turn](../../../../rule/combat/turn.md), and can immediately [shift](../../../../movement/shifting.md) up to their [speed](../../../../rule/character/speed.md). You can also [shift](../../../../movement/shifting.md) up to your [speed](../../../../rule/character/speed.md). While [flying](../../../../movement/fly.md), a target's [stability](../../../../rule/character/stability.md) is reduced to 0 and can't be increased.
@@ -34,7 +34,7 @@ keywords:
     - Area
     - Psionic
 metadata:
-    action_type: Maneuver
+    action_type: '[Maneuver](../../../../rule/combat/turn.md)'
     class: talent
     distance: 3 [burst](../../../../rule/combat/burst.md)
     effect: Each target can [fly](../../../../movement/fly.md) until the start of your next [turn](../../../../rule/combat/turn.md), and can immediately [shift](../../../../movement/shifting.md) up to their [speed](../../../../rule/character/speed.md). You can also [shift](../../../../movement/shifting.md) up to your [speed](../../../../rule/character/speed.md). While [flying](../../../../movement/fly.md), a target's [stability](../../../../rule/character/stability.md) is reduced to 0 and can't be increased.
@@ -52,5 +52,5 @@ metadata:
 name: Levitation Field
 target: Each ally in the area
 type: feature
-usage: Maneuver
+usage: '[Maneuver](../../../../rule/combat/turn.md)'
 ```

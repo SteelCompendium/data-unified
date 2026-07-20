@@ -11,9 +11,9 @@ keywords:
     - Magic
     - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'
 metadata:
-    action_type: Maneuver
+    action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: elementalist
-    content: "\n*A blazing, beautifully organized inferno erupts at your command.*\n\n| **Area, Fire, Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)** |   **Maneuver** |\n|-------------------------------|---------------:|\n| **\U0001F4CF 10 wall within 10**      | **\U0001F3AF Special** |\n\n**Effect:** The wall lasts until the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), and can be placed in occupied squares. Creatures can enter and pass through the wall. Each enemy who enters the area for the first time in a [combat round](scc.v1:mcdm.heroes.v1/rule.combat/combat-round) or starts their turn there takes fire damage equal to your [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) score for each square of the area they start their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) in or enter.\n\n**Persistent 1:** The wall lasts until the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), and you can add a number of squares to the wall equal to your [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) score."
+    content: "\n*A blazing, beautifully organized inferno erupts at your command.*\n\n| **Area, Fire, Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)** |   **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|-------------------------------|---------------:|\n| **\U0001F4CF 10 wall within 10**      | **\U0001F3AF Special** |\n\n**Effect:** The wall lasts until the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), and can be placed in occupied squares. Creatures can enter and pass through the wall. Each enemy who enters the area for the first time in a [combat round](scc.v1:mcdm.heroes.v1/rule.combat/combat-round) or starts their turn there takes fire damage equal to your [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) score for each square of the area they start their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) in or enter.\n\n**Persistent 1:** The wall lasts until the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), and you can add a number of squares to the wall equal to your [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) score."
     distance: 10 wall within 10
     feature_type: ability
     flavor: A blazing, beautifully organized inferno erupts at your command.
@@ -32,4 +32,4 @@ metadata:
 name: Wall of Fire
 target: Special
 type: feature
-usage: Maneuver
+usage: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'

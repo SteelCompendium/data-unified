@@ -29,7 +29,7 @@ type: statblock
 
 > 🗡 **Flurry (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](../../../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 1**            | **🎯 Two creatures or objects** |
 >
@@ -47,7 +47,7 @@ type: statblock
 
 > ❇️ **Impede**
 >
-> | **Area**      |   **Maneuver** |
+> | **Area**      |   **[Maneuver](../../../rule/combat/turn.md)** |
 > |---------------|---------------:|
 > | **📏 1 aura** | **🎯 Special** |
 >

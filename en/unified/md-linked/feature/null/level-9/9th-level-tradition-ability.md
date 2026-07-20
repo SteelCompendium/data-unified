@@ -17,7 +17,7 @@ Choose one of the following abilities.
 
 *You trap your foe in a looping cycle of time, where they relive the last few seconds over and over again.*
 
-| **Psionic, [Ranged](../../../rule/combat/ranged.md)** |  **Free triggered** |
+| **Psionic, [Ranged](../../../rule/combat/ranged.md)** |  **Free [triggered](../../../rule/combat/triggered-action.md)** |
 |---------------------|--------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**    | **🎯 One creature** |
 
@@ -36,7 +36,7 @@ Choose one of the following abilities.
 
 *You show shadows what true [speed](../../../rule/character/speed.md) is.*
 
-| **Psionic** | **Free triggered** |
+| **Psionic** | **Free [triggered](../../../rule/combat/triggered-action.md)** |
 |-------------|-------------------:|
 | **📏 Self** |        **🎯 Self** |
 
@@ -53,7 +53,7 @@ Choose one of the following abilities.
 
 *You become the coldest thing in the timescape.*
 
-| **Psionic** | **Maneuver** |
+| **Psionic** | **[Maneuver](../../../rule/combat/turn.md)** |
 |-------------|-------------:|
 | **📏 Self** |  **🎯 Self** |
 
@@ -70,7 +70,7 @@ Choose one of the following abilities.
 
 *You drain all the heat from the target.*
 
-| **[Melee](../../../rule/combat/melee.md), Psionic, [Strike](../../../rule/combat/strike.md)** |        **Maneuver** |
+| **[Melee](../../../rule/combat/melee.md), Psionic, [Strike](../../../rule/combat/strike.md)** |        **[Maneuver](../../../rule/combat/turn.md)** |
 |----------------------------|--------------------:|
 | **📏 [Melee](../../../rule/combat/melee.md) 1**             | **🎯 One creature** |
 
@@ -91,7 +91,7 @@ Choose one of the following abilities.
 
 *You absorb an attack to empower your body.*
 
-| **Psionic** |                  **Free triggered** |
+| **Psionic** |                  **Free [triggered](../../../rule/combat/triggered-action.md)** |
 | -----------------------------|------------------------------------:|
 | **📏 Self** |  **🎯 Self** |
 
@@ -104,7 +104,7 @@ Choose one of the following abilities.
 
 *Your essential hyperreality disrupts your enemy's connection to existence.*
 
-| **[Melee](../../../rule/combat/melee.md), Psionic, [Strike](../../../rule/combat/strike.md), Weapon** |     **Main action** |
+| **[Melee](../../../rule/combat/melee.md), Psionic, [Strike](../../../rule/combat/strike.md), Weapon** |     **[Main action](../../../rule/combat/turn.md)** |
 |------------------------------------|--------------------:|
 | **📏 [Melee](../../../rule/combat/melee.md) 1**                     | **🎯 One creature** |
 

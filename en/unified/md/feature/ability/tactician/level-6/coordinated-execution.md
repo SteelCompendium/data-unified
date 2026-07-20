@@ -1,5 +1,5 @@
 ---
-action_type: Free triggered
+action_type: Free [triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)
 class: tactician
 cost: 9 Focus
 distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
@@ -20,7 +20,7 @@ type: ability
 
 *You direct your ally to make a killing blow.*
 
-| **[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)**       | **Free triggered** |
+| **[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)**       | **Free [triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |
 |------------------|-------------------:|
 | **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10** |    **🎯 One ally** |
 

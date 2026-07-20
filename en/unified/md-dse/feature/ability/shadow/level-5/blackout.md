@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: shadow
 cost: 9 Insight
 cost_amount: "9"
@@ -34,7 +34,7 @@ keywords:
     - Area
     - Magic
 metadata:
-    action_type: Maneuver
+    action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: shadow
     cost: 9 Insight
     distance: 3 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)
@@ -51,5 +51,5 @@ metadata:
 name: Blackout
 target: Special
 type: feature
-usage: Maneuver
+usage: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 ```

@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: censor
 distance: '[Melee](../../../../rule/combat/melee.md) 1'
 effect: Each enemy [adjacent](../../../../rule/combat/adjacent.md) to the target is [pushed](../../../../movement/forced-movement.md) away from the target up to a number of squares equal to your [Presence](../../../../rule/character/presence.md) score.
@@ -23,7 +23,7 @@ type: ability
 
 *Your magic [strike](../../../../rule/combat/strike.md) [turns](../../../../rule/combat/turn.md) your foe's guilt into a burst of holy power.*
 
-| **[Melee](../../../../rule/combat/melee.md), [Strike](../../../../rule/combat/strike.md), Weapon**  |               **Main action** |
+| **[Melee](../../../../rule/combat/melee.md), [Strike](../../../../rule/combat/strike.md), Weapon**  |               **[Main action](../../../../rule/combat/turn.md)** |
 |----------------------------|------------------------------:|
 | **📏 [Melee](../../../../rule/combat/melee.md) 1**             | **🎯 One creature or object** |
 

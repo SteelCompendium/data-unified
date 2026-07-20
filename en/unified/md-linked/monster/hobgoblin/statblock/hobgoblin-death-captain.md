@@ -33,7 +33,7 @@ type: statblock
 
 > 🗡 **Blightblade (Signature Ability)**
 >
-> | **Magic, Melee, Strike, Weapon** |               **Main action** |
+> | **Magic, Melee, Strike, Weapon** |               **[Main action](../../../rule/combat/turn.md)** |
 > |----------------------------------|------------------------------:|
 > | **📏 Melee 1**                   | **🎯 One creature or object** |
 >
@@ -49,7 +49,7 @@ type: statblock
 
 > 🏹 **On My Mark!**
 >
-> | **Ranged**      |    **Maneuver** |
+> | **Ranged**      |    **[Maneuver](../../../rule/combat/turn.md)** |
 > |-----------------|----------------:|
 > | **📏 Ranged 5** | **🎯 One ally** |
 >

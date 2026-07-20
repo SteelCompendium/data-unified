@@ -14,7 +14,7 @@ You have the following ability.
 
 *To your ally, it seems as though the world has slowed down.*
 
-| **Psionic, [Ranged](../../../rule/combat/ranged.md)** |                **Maneuver** |
+| **Psionic, [Ranged](../../../rule/combat/ranged.md)** |                **[Maneuver](../../../rule/combat/turn.md)** |
 |---------------------|----------------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**    | **🎯 Self or one creature** |
 

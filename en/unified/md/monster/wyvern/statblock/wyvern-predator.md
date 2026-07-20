@@ -32,7 +32,7 @@ type: statblock
 
 > 🗡 **Sedating Stinger ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
-> | **Magic, Strike, Weapon** |                 **Main action** |
+> | **Magic, Strike, Weapon** |                 **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 3**            | **🎯 Two creatures or objects** |
 >
@@ -46,7 +46,7 @@ type: statblock
 
 > 🔳 **Tail Sweep**
 >
-> | **Area, Weapon**           |                          **Main action** |
+> | **Area, Weapon**           |                          **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |----------------------------|-----------------------------------------:|
 > | **📏 6 x 3 line within 1** | **🎯 Each enemy and object in the area** |
 >
@@ -60,7 +60,7 @@ type: statblock
 
 > 🗡 **Grasping Jaws (2 Malice)**
 >
-> | **Magic, Strike, Weapon** |                  **Maneuver** |
+> | **Magic, Strike, Weapon** |                  **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |---------------------------|------------------------------:|
 > | **📏 Melee 2**            | **🎯 One creature or object** |
 >
@@ -72,7 +72,7 @@ type: statblock
 
 > ❗️ **Deterring Sting (1 Malice)**
 >
-> | **Melee**      |           **Triggered action** |
+> | **Melee**      |           **[Triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |
 > |----------------|-------------------------------:|
 > | **📏 Melee 3** | **🎯 The triggering creature** |
 >

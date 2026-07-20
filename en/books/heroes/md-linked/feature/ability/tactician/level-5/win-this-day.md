@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: tactician
 cost: 9 Focus
 distance: 3 [burst](../../../../rule/combat/burst.md)
@@ -17,7 +17,7 @@ type: ability
 
 *You inspire your allies to recover and gather their strength.*
 
-| **Area**       |                       **Main action** |
+| **Area**       |                       **[Main action](../../../../rule/combat/turn.md)** |
 |----------------|--------------------------------------:|
 | **📏 3 [burst](../../../../rule/combat/burst.md)** | **🎯 Self and each ally in the area** |
 

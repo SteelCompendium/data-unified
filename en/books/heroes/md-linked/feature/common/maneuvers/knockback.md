@@ -9,7 +9,7 @@ A creature wanting to [push](../../../movement/forced-movement.md) an [adjacent]
 ## Knockback {data-scc="mcdm.heroes.v1/feature.ability.common/knockback"}
 
 
-| **[Melee](../../../rule/combat/melee.md), Weapon** |        **Maneuver** |
+| **[Melee](../../../rule/combat/melee.md), Weapon** |        **[Maneuver](../../../rule/combat/turn.md)** |
 |-------------------|--------------------:|
 | **📏 [Melee](../../../rule/combat/melee.md) 1**    | **🎯 One creature** |
 

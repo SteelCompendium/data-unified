@@ -29,7 +29,7 @@ type: statblock
 
 > 🗡 **Dagger Feint ([Signature Ability](../../../rule/combat/signature-ability.md))**
 >
-> | **Melee, Strike, Weapon** |               **Main action** |
+> | **Melee, Strike, Weapon** |               **[Main action](../../../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Melee 1**            | **🎯 One creature or object** |
 >
@@ -43,7 +43,7 @@ type: statblock
 
 > 🗡 **Strangle**
 >
-> | **Melee, Strike, Weapon** |     **Main action** |
+> | **Melee, Strike, Weapon** |     **[Main action](../../../rule/combat/turn.md)** |
 > |---------------------------|--------------------:|
 > | **📏 Melee 1**            | **🎯 One creature** |
 >
@@ -57,7 +57,7 @@ type: statblock
 
 > 👤 **Chroma Cloak (1 [Malice](../../../rule/monster/malice.md))**
 >
-> | **-**          |        **Maneuver** |
+> | **-**          |        **[Maneuver](../../../rule/combat/turn.md)** |
 > |----------------|--------------------:|
 > | **📏 -**       |            **🎯 -** |
 >

@@ -22,30 +22,37 @@ Armed with a simple reach weapon, often a quarterstaff, a character using the [S
 
 You wear light armor and wield a polearm.
 
-##### Kit Bonuses
-
-**[Stamina](../rule/health/stamina.md) [Bonus](../rule/dice/bonuses-and-penalties.md):** +3 per [echelon](../rule/general/echelon.md)
-
-**[Speed](../rule/character/speed.md) [Bonus](../rule/dice/bonuses-and-penalties.md):** +2
-
-**[Melee](../rule/combat/melee.md) Damage [Bonus](../rule/dice/bonuses-and-penalties.md):** +1/+1/+1
-
-**[Melee](../rule/combat/melee.md) [Distance](../rule/combat/distance.md) [Bonus](../rule/dice/bonuses-and-penalties.md):** +1
-
-**Disengage [Bonus](../rule/dice/bonuses-and-penalties.md):** +1
-
-##### Signature Ability
-
-###### Where I Want You
-
-*When your stick speaks, your enemy moves.*
-
-| **[Melee](../rule/combat/melee.md), [Strike](../rule/combat/strike.md), Weapon** |     **Main action** |
-|---------------------------|--------------------:|
-| **📏 [Melee](../rule/combat/melee.md) 2**            | **🎯 One creature** |
-
-**[Power Roll](../rule/dice/power-roll.md) + [Might](../rule/character/might.md) or [Agility](../rule/character/agility.md):**
-
-- **≤11:** 4 + M or A damage
-- **12-16:** 7 + M or A damage; [slide](../movement/forced-movement.md) 1
-- **17+:** 10 + M or A damage; [slide](../movement/forced-movement.md) 3
+```ds-feature
+distance: '[Melee](../rule/combat/melee.md) 2'
+effects:
+    - roll: Power Roll + [Might](../rule/character/might.md) or [Agility](../rule/character/agility.md)
+      tier1: 4 + M or A damage
+      tier2: 7 + M or A damage; [slide](../movement/forced-movement.md) 1
+      tier3: 10 + M or A damage; [slide](../movement/forced-movement.md) 3
+feature_type: ability
+flavor: When your stick speaks, your enemy moves.
+keywords:
+    - '[Melee](../rule/combat/melee.md)'
+    - '[Strike](../rule/combat/strike.md)'
+    - Weapon
+metadata:
+    action_type: Main action
+    distance: '[Melee](../rule/combat/melee.md) 2'
+    flavor: When your stick speaks, your enemy moves.
+    keywords:
+        - '[Melee](../rule/combat/melee.md)'
+        - '[Strike](../rule/combat/strike.md)'
+        - Weapon
+    name: Where I Want You
+    power_roll_characteristic: '[Might](../rule/character/might.md) or [Agility](../rule/character/agility.md)'
+    subtype: signature
+    target: One creature
+    tier1: 4 + M or A damage
+    tier2: 7 + M or A damage; [slide](../movement/forced-movement.md) 1
+    tier3: 10 + M or A damage; [slide](../movement/forced-movement.md) 3
+    type: ability
+name: Where I Want You
+target: One creature
+type: feature
+usage: Main action
+```

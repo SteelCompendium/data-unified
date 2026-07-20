@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: conduit
 cost: 9 Piety
 cost_amount: "9"
@@ -43,7 +43,7 @@ keywords:
     - Area
     - Magic
 metadata:
-    action_type: Main action
+    action_type: '[Main action](../../../../rule/combat/turn.md)'
     class: conduit
     cost: 9 Piety
     distance: Three 10 x 1 lines within 1
@@ -65,5 +65,5 @@ metadata:
 name: Lightning Lord
 target: Each enemy in the area
 type: feature
-usage: Main action
+usage: '[Main action](../../../../rule/combat/turn.md)'
 ```

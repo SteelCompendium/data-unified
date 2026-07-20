@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: shadow
 cost: 5 Insight
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
@@ -22,7 +22,7 @@ type: ability
 
 *Explosives are best when they're attached to an enemy.*
 
-| **[Ranged](../../../../rule/combat/ranged.md)**       |     **Main action** |
+| **[Ranged](../../../../rule/combat/ranged.md)**       |     **[Main action](../../../../rule/combat/turn.md)** |
 |------------------|--------------------:|
 | **📏 [Ranged](../../../../rule/combat/ranged.md) 10** | **🎯 One creature** |
 

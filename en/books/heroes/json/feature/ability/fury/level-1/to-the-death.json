@@ -22,9 +22,9 @@
   ],
   "metadata": {
     "ability_type": "Signature",
-    "action_type": "Main action",
+    "action_type": "[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)",
     "class": "fury",
-    "content": "\n*Your reckless assault leaves you tactically vulnerable.*\n\n| **[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), Weapon** |               **Main action** |\n|---------------------------|------------------------------:|\n| **📏 [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1**            | **🎯 One creature or object** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc.v1:mcdm.heroes.v1/rule.character/might):**\n\n- **≤11:** 3 + M damage\n- **12-16:** 6 + M damage\n- **17+:** 9 + M damage\n\n**Effect:** You gain 2 [surges](scc.v1:mcdm.heroes.v1/rule.resource/surge), and the target can make an [opportunity attack](scc.v1:mcdm.heroes.v1/rule.combat/opportunity-attack) against you as a free [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action).",
+    "content": "\n*Your reckless assault leaves you tactically vulnerable.*\n\n| **[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), Weapon** |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|---------------------------|------------------------------:|\n| **📏 [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1**            | **🎯 One creature or object** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc.v1:mcdm.heroes.v1/rule.character/might):**\n\n- **≤11:** 3 + M damage\n- **12-16:** 6 + M damage\n- **17+:** 9 + M damage\n\n**Effect:** You gain 2 [surges](scc.v1:mcdm.heroes.v1/rule.resource/surge), and the target can make an [opportunity attack](scc.v1:mcdm.heroes.v1/rule.combat/opportunity-attack) against you as a free [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action).",
     "distance": "[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1",
     "feature_type": "ability",
     "flavor": "Your reckless assault leaves you tactically vulnerable.",
@@ -45,5 +45,5 @@
   "name": "To the Death!",
   "target": "One creature or object",
   "type": "feature",
-  "usage": "Main action"
+  "usage": "[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)"
 }

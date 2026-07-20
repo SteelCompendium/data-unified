@@ -48,7 +48,7 @@ At the start of a kingfissure worm's turn or when an action's trigger occurs, yo
 
 > ❗️ **Aftershock (3 [Malice](../../rule/monster/malice.md))**
 >
-> | **-**       | **Free triggered action** |
+> | **-**       | **Free [triggered action](../../rule/combat/triggered-action.md)** |
 > |-------------|--------------------------:|
 > | **📏 Self** |               **🎯 Self** |
 >
@@ -66,7 +66,7 @@ At the start of a kingfissure worm's turn or when an action's trigger occurs, yo
 
 > ❇️ **Megaquake (7 [Malice](../../rule/monster/malice.md))**
 >
-> | **Area, Weapon** |                          **Main action** |
+> | **Area, Weapon** |                          **[Main action](../../rule/combat/turn.md)** |
 > |------------------|-----------------------------------------:|
 > | **📏 5 burst**   | **🎯 Each enemy and object in the area** |
 >

@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](../../../../rule/combat/turn.md)'
 class: talent
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
 effect: The next [ability roll](../../../../rule/dice/ability-roll.md) an ally makes against the target before the start of your next [turn](../../../../rule/combat/turn.md) gains an [edge](../../../../rule/dice/edge.md).
@@ -19,7 +19,7 @@ type: ability
 
 *An ally gains the benefit of your intellect.*
 
-| **Psionic, [Ranged](../../../../rule/combat/ranged.md)** |                  **Maneuver** |
+| **Psionic, [Ranged](../../../../rule/combat/ranged.md)** |                  **[Maneuver](../../../../rule/combat/turn.md)** |
 |---------------------|------------------------------:|
 | **📏 [Ranged](../../../../rule/combat/ranged.md) 10**    | **🎯 One creature or object** |
 

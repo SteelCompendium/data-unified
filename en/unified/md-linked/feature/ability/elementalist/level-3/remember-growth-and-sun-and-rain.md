@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: elementalist
 distance: '[Melee](../../../../rule/combat/melee.md) 1'
 effect: You see and hear any events that have occurred within 10 squares of the object within the last 12 hours, perceiving those events from the object's location as if you were there.
@@ -19,7 +19,7 @@ type: ability
 
 *You stir any wood's memory and learn what it has seen.*
 
-| **Green, Magic, [Melee](../../../../rule/combat/melee.md)** |                  **Main action** |
+| **Green, Magic, [Melee](../../../../rule/combat/melee.md)** |                  **[Main action](../../../../rule/combat/turn.md)** |
 |-------------------------|---------------------------------:|
 | **📏 [Melee](../../../../rule/combat/melee.md) 1**          | **🎯 One mundane wooden object** |
 

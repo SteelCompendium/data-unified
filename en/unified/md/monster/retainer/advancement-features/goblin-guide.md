@@ -59,7 +59,7 @@ type: featureblock
 
 > 🗡 **Weaving Knives (Encounter)**
 >
-> | **Melee, Strike, Weapon** |               **Main action** |
+> | **Melee, Strike, Weapon** |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |---------------------------|------------------------------:|
 > | **📏 Melee 1**            | **🎯 One creature or object** |
 >
@@ -75,7 +75,7 @@ type: featureblock
 
 > 🗡 **Sneak and Stab (Encounter)**
 >
-> | **Melee, Strike, Weapon** |     **Main action** |
+> | **Melee, Strike, Weapon** |     **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |---------------------------|--------------------:|
 > | **📏 Melee 1**            | **🎯 One creature** |
 >
@@ -91,7 +91,7 @@ type: featureblock
 
 > 🌀 **Poison Blade (Encounter)**
 >
-> | **-**          | **Main action** |
+> | **-**          | **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |----------------|----------------:|
 > | **📏 Special** |  **🎯 Special** |
 >

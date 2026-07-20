@@ -17,7 +17,7 @@ Choose one of the following abilities.
 
 *You terrify your enemies into retreating, creating chaos in their ranks.*
 
-| **Area, Magic** |               **Main action** |
+| **Area, Magic** |               **[Main action](../../../rule/combat/turn.md)** |
 |-----------------|------------------------------:|
 | **📏 3 [burst](../../../rule/combat/burst.md)**  | **🎯 Each enemy in the area** |
 
@@ -32,7 +32,7 @@ Choose one of the following abilities.
 
 *You reverse the effects from an evildoer.*
 
-| **Magic, [Ranged](../../../rule/combat/ranged.md)** |      **Free triggered** |
+| **Magic, [Ranged](../../../rule/combat/ranged.md)** |      **Free [triggered](../../../rule/combat/triggered-action.md)** |
 |-------------------|------------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**  | **🎯 Self or one ally** |
 
@@ -49,7 +49,7 @@ Choose one of the following abilities.
 
 *You reveal a vision of your enemies' fate that causes them to scramble as it staggers them.*
 
-| **Magic, [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md)** |         **Maneuver** |
+| **Magic, [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md)** |         **[Maneuver](../../../rule/combat/turn.md)** |
 |---------------------------|---------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**          | **🎯 Three enemies** |
 
@@ -64,7 +64,7 @@ Choose one of the following abilities.
 
 *You anticipate your foes' moves and deny them.*
 
-| **Area, Magic** |                  **Maneuver** |
+| **Area, Magic** |                  **[Maneuver](../../../rule/combat/turn.md)** |
 |-----------------|------------------------------:|
 | **📏 3 [aura](../../../rule/combat/aura.md)**   | **🎯 Each enemy in the area** |
 
@@ -79,7 +79,7 @@ Choose one of the following abilities.
 
 *You focus your allies' wrath on a chosen foe.*
 
-| **[Melee](../../../rule/combat/melee.md), [Strike](../../../rule/combat/strike.md), Weapon** |   **Main action** |
+| **[Melee](../../../rule/combat/melee.md), [Strike](../../../rule/combat/strike.md), Weapon** |   **[Main action](../../../rule/combat/turn.md)** |
 |---------------------------|------------------:|
 | **📏 [Melee](../../../rule/combat/melee.md) 1**            | **🎯 One creature** |
 
@@ -96,7 +96,7 @@ Choose one of the following abilities.
 
 *You take your ally's place.*
 
-| **Magic, [Ranged](../../../rule/combat/ranged.md)** | **Free triggered** |
+| **Magic, [Ranged](../../../rule/combat/ranged.md)** | **Free [triggered](../../../rule/combat/triggered-action.md)** |
 |-------------------|-------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**  |    **🎯 One ally** |
 

@@ -15,9 +15,9 @@
   ],
   "metadata": {
     "ability_type": "Triggered",
-    "action_type": "Free triggered",
+    "action_type": "Free [triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)",
     "class": "shadow",
-    "content": "\n*When your enemy strikes, you reveal you were in a different place all along.*\n\n| **Magic**            | **Free triggered** |\n|----------------------|-------------------:|\n| **📏 Self**          |        **🎯 Self** |\n\n**Trigger:** Another creature targets you with a [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike).\n\n**Effect:** You use your [Clever Trick](scc.v1:mcdm.heroes.v1/feature.ability.shadow.level-1/clever-trick) ability with no insight cost against the triggering creature and strike. You can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) to an unoccupied space within 3 squares of that creature and can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against them. You can then spend a [Recovery](scc.v1:mcdm.heroes.v1/rule.health/recoveries).",
+    "content": "\n*When your enemy strikes, you reveal you were in a different place all along.*\n\n| **Magic**            | **Free [triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |\n|----------------------|-------------------:|\n| **📏 Self**          |        **🎯 Self** |\n\n**Trigger:** Another creature targets you with a [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike).\n\n**Effect:** You use your [Clever Trick](scc.v1:mcdm.heroes.v1/feature.ability.shadow.level-1/clever-trick) ability with no insight cost against the triggering creature and strike. You can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) to an unoccupied space within 3 squares of that creature and can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against them. You can then spend a [Recovery](scc.v1:mcdm.heroes.v1/rule.health/recoveries).",
     "distance": "Self",
     "feature_type": "ability",
     "flavor": "When your enemy strikes, you reveal you were in a different place all along.",
@@ -38,5 +38,5 @@
   "target": "Self",
   "trigger": "Another creature targets you with a [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike).",
   "type": "feature",
-  "usage": "Free triggered"
+  "usage": "Free [triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)"
 }

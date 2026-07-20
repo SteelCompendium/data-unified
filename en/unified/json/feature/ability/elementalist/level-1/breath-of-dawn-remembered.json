@@ -20,9 +20,9 @@
   ],
   "metadata": {
     "ability_type": "Triggered",
-    "action_type": "Triggered",
+    "action_type": "[Triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)",
     "class": "elementalist",
-    "content": "\n*The power you channel grants the ability to get back in the fight.*\n\n| **Green, Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)**          |           **Triggered** |\n|-----------------------------------|------------------------:|\n| **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**                  | **🎯 Self or one ally** |\n\n**Trigger:** The target starts their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) or takes damage.\n\n**Effect:** The target can spend a [Recovery](scc.v1:mcdm.heroes.v1/rule.health/recoveries).\n\n**Spend 1+ Essence:** The target can spend an additional [Recovery](scc.v1:mcdm.heroes.v1/rule.health/recoveries) for each essence spent.",
+    "content": "\n*The power you channel grants the ability to get back in the fight.*\n\n| **Green, Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)**          |           **[Triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |\n|-----------------------------------|------------------------:|\n| **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**                  | **🎯 Self or one ally** |\n\n**Trigger:** The target starts their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) or takes damage.\n\n**Effect:** The target can spend a [Recovery](scc.v1:mcdm.heroes.v1/rule.health/recoveries).\n\n**Spend 1+ Essence:** The target can spend an additional [Recovery](scc.v1:mcdm.heroes.v1/rule.health/recoveries) for each essence spent.",
     "distance": "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10",
     "feature_type": "ability",
     "flavor": "The power you channel grants the ability to get back in the fight.",
@@ -45,5 +45,5 @@
   "target": "Self or one ally",
   "trigger": "The target starts their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) or takes damage.",
   "type": "feature",
-  "usage": "Triggered"
+  "usage": "[Triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)"
 }

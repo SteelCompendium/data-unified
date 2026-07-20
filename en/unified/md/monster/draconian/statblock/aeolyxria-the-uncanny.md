@@ -33,7 +33,7 @@ type: statblock
 
 > 🏹 **Spittlesplash (Signature Ability)**
 >
-> | **Ranged, Strike, Weapon** |     **Main action** |
+> | **Ranged, Strike, Weapon** |     **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |----------------------------|--------------------:|
 > | **📏 Ranged 10**           |  **🎯 Two enemies** |
 >
@@ -45,7 +45,7 @@ type: statblock
 
 > 🏹 **Experimental Treasure**
 >
-> | **Magic, Ranged, Strike** |                **Main action** |
+> | **Magic, Ranged, Strike** |                **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |---------------------------|-------------------------------:|
 > | **📏 Ranged 10**          | **🎯 Two creatures or objects** |
 >
@@ -61,7 +61,7 @@ type: statblock
 
 > 🔳 **Elevate (2 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
-> | **Area, Ranged**       |   **Maneuver** |
+> | **Area, Ranged**       |   **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |------------------------|---------------:|
 > | **📏 1 cube within 5** | **🎯 Special** |
 >
@@ -71,7 +71,7 @@ type: statblock
 
 > ❗️ **Blood For Blood**
 >
-> | **Ranged, Weapon** | **Triggered action** |
+> | **Ranged, Weapon** | **[Triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |
 > |--------------------|---------------------:|
 > | **📏 Ranged 5**    |  **🎯 One creature** |
 >

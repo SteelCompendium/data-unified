@@ -94,7 +94,7 @@ A heavy wooden ram drops down or swings into the fray, crushing all in its path.
 
 > ❗️ **Ram**
 >
-> | **Area, Weapon** |                   **Free triggered action** |
+> | **Area, Weapon** |                   **Free [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |
 > |------------------|--------------------------------------------:|
 > | **📏 Special**   | **🎯 Each creature and object in the area** |
 >

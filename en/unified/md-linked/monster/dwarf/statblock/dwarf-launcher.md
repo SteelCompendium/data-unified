@@ -29,7 +29,7 @@ type: statblock
 
 > 🔳 **Concussive Grenade (Signature Ability)**
 >
-> | **Area, Ranged, Weapon** | **Main action** |
+> | **Area, Ranged, Weapon** | **[Main action](../../../rule/combat/turn.md)** |
 > |--------------------------|------------------------------:|
 > | **📏 3 cube within 5**   | **🎯 Each enemy in the area** |
 >
@@ -43,7 +43,7 @@ type: statblock
 
 > 🔳 **Sleep Grenade (3 [Malice](../../../rule/monster/malice.md))**
 >
-> | **Ranged, Weapon**     |               **Main action** |
+> | **Ranged, Weapon**     |               **[Main action](../../../rule/combat/turn.md)** |
 > |------------------------|------------------------------:| 
 > | **📏 3 cube within 5** | **🎯 Each enemy in the area** |   
 >

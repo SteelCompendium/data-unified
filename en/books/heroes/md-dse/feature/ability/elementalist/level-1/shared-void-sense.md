@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: elementalist
 distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
 effect: For each [Victory](scc.v1:mcdm.heroes.v1/rule.resource/victories) you have, you can target one creature. Each target gains the benefit of your [A Beyonding of Vision](scc.v1:mcdm.heroes.v1/feature.elementalist.level-1/a-beyonding-of-vision) feature until the end of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), but doesn't gain the use of the [Shared Void Sense](scc.v1:mcdm.heroes.v1/feature.ability.elementalist.level-1/shared-void-sense) ability.
@@ -33,7 +33,7 @@ keywords:
     - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'
     - Void
 metadata:
-    action_type: Maneuver
+    action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: elementalist
     distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
     effect: For each [Victory](scc.v1:mcdm.heroes.v1/rule.resource/victories) you have, you can target one creature. Each target gains the benefit of your [A Beyonding of Vision](scc.v1:mcdm.heroes.v1/feature.elementalist.level-1/a-beyonding-of-vision) feature until the end of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), but doesn't gain the use of the [Shared Void Sense](scc.v1:mcdm.heroes.v1/feature.ability.elementalist.level-1/shared-void-sense) ability.
@@ -51,5 +51,5 @@ metadata:
 name: Shared Void Sense
 target: Special
 type: feature
-usage: Maneuver
+usage: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 ```

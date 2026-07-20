@@ -30,7 +30,7 @@ type: statblock
 
 > 🏹 **Snaking Entrails ([Signature Ability](../../../../rule/combat/signature-ability.md))**
 >
-> | **Magic, Ranged** | **Main action** |
+> | **Magic, Ranged** | **[Main action](../../../../rule/combat/turn.md)** |
 > |-------------------|----------------:|
 > | **📏 Ranged 10**  | **🎯 One ally** |
 >
@@ -46,7 +46,7 @@ type: statblock
 
 > 🔳 **Wall of Flesh**
 >
-> | **Area, Magic, Ranged**  |      **Maneuver** |
+> | **Area, Magic, Ranged**  |      **[Maneuver](../../../../rule/combat/turn.md)** |
 > |--------------------------|------------------:|
 > | **📏 10 wall within 10** | **🎯 One corpse** |
 >

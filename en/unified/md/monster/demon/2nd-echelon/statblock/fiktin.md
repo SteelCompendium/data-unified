@@ -31,7 +31,7 @@ weaknesses:
 
 > ❇️ **Violent Transformation (Signature Ability)**
 >
-> | **Area, Magic** |               **Main action** |
+> | **Area, Magic** |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-----------------|------------------------------:|
 > | **📏 2 burst**  | **🎯 Each enemy in the area** |
 >
@@ -45,7 +45,7 @@ weaknesses:
 
 > 👤 **Aggressive Mimicry (1 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
-> | **Magic**   | **Maneuver** |
+> | **Magic**   | **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >

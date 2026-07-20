@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: shadow
 distance: '[Melee](../../../../rule/combat/melee.md) 1 or [ranged](../../../../rule/combat/ranged.md) 5'
 effect: If any ally is [adjacent](../../../../rule/combat/adjacent.md) to the target, you gain 1 [surge](../../../../rule/resource/surge.md) before making the [power roll](../../../../rule/dice/power-roll.md).
@@ -43,7 +43,7 @@ keywords:
     - '[Strike](../../../../rule/combat/strike.md)'
     - Weapon
 metadata:
-    action_type: Main action
+    action_type: '[Main action](../../../../rule/combat/turn.md)'
     class: shadow
     distance: '[Melee](../../../../rule/combat/melee.md) 1 or [ranged](../../../../rule/combat/ranged.md) 5'
     effect: If any ally is [adjacent](../../../../rule/combat/adjacent.md) to the target, you gain 1 [surge](../../../../rule/resource/surge.md) before making the [power roll](../../../../rule/dice/power-roll.md).
@@ -66,5 +66,5 @@ metadata:
 name: Teamwork Has Its Place
 target: One creature or object
 type: feature
-usage: Main action
+usage: '[Main action](../../../../rule/combat/turn.md)'
 ```

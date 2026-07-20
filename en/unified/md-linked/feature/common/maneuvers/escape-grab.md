@@ -9,7 +9,7 @@ A creature who is [grabbed](../../../condition/grabbed.md) by another creature, 
 ## Escape Grab {data-scc="mcdm.heroes.v1/feature.ability.common/escape-grab"}
 
 
-| **-**       | **Maneuver** |
+| **-**       | **[Maneuver](../../../rule/combat/turn.md)** |
 |-------------|-------------:|
 | **📏 Self** |  **🎯 Self** |
 

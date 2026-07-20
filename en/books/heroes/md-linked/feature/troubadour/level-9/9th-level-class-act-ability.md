@@ -17,7 +17,7 @@ Choose one of the following abilities.
 
 *Your story tells a tale of the villain's waning power and how the heroes rose to the occasion to stop them.*
 
-| **Magic, [Melee](../../../rule/combat/melee.md), [Ranged](../../../rule/combat/ranged.md)**    |        **Maneuver** |
+| **Magic, [Melee](../../../rule/combat/melee.md), [Ranged](../../../rule/combat/ranged.md)**    |        **[Maneuver](../../../rule/combat/turn.md)** |
 |-----------------------------|--------------------:|
 | **📏 [Melee](../../../rule/combat/melee.md) 1 or [ranged](../../../rule/combat/ranged.md) 10** | **🎯 One creature** |
 
@@ -34,7 +34,7 @@ Choose one of the following abilities.
 
 *You narrate the tension of the scene and put all hope into your protagonist to [turn](../../../rule/combat/turn.md) things around.*
 
-| **Magic, [Ranged](../../../rule/combat/ranged.md)** |    **Maneuver** |
+| **Magic, [Ranged](../../../rule/combat/ranged.md)** |    **[Maneuver](../../../rule/combat/turn.md)** |
 |-------------------|----------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**  | **🎯 One ally** |
 
@@ -49,7 +49,7 @@ Choose one of the following abilities.
 
 *If you can land the [strike](../../../rule/combat/strike.md), the crowd goes wild.*
 
-| **Charge, [Melee](../../../rule/combat/melee.md), [Strike](../../../rule/combat/strike.md), Weapon** |               **Main action** |
+| **Charge, [Melee](../../../rule/combat/melee.md), [Strike](../../../rule/combat/strike.md), Weapon** |               **[Main action](../../../rule/combat/turn.md)** |
 |-----------------------------------|------------------------------:|
 | **📏 [Melee](../../../rule/combat/melee.md) 3**                    | **🎯 One creature or object** |
 
@@ -66,7 +66,7 @@ Choose one of the following abilities.
 
 *No, no. You don't die until the sequel.*
 
-| **[Melee](../../../rule/combat/melee.md), [Strike](../../../rule/combat/strike.md), Weapon** |     **Main action** |
+| **[Melee](../../../rule/combat/melee.md), [Strike](../../../rule/combat/strike.md), Weapon** |     **[Main action](../../../rule/combat/turn.md)** |
 |---------------------------|--------------------:|
 | **📏 [Melee](../../../rule/combat/melee.md) 1**            | **🎯 One creature** |
 
@@ -87,7 +87,7 @@ Choose one of the following abilities.
 
 *Your [jam session](../../ability/troubadour/level-9/jam-session.md) creates new genres that compel everyone to get up and move.*
 
-| **Area, Magic** |               **Main action** |
+| **Area, Magic** |               **[Main action](../../../rule/combat/turn.md)** |
 |-----------------|------------------------------:|
 | **📏 5 [burst](../../../rule/combat/burst.md)**  | **🎯 Each enemy in the area** |
 
@@ -104,7 +104,7 @@ Choose one of the following abilities.
 
 *The power of music rips through the reality around the target and blows them away.*
 
-| **Magic, [Melee](../../../rule/combat/melee.md), [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md)** |               **Main action** |
+| **Magic, [Melee](../../../rule/combat/melee.md), [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md)** |               **[Main action](../../../rule/combat/turn.md)** |
 |----------------------------------|------------------------------:|
 | **📏 [Melee](../../../rule/combat/melee.md) 1 or [ranged](../../../rule/combat/ranged.md) 10**      | **🎯 One creature or object** |
 

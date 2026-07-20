@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: censor
 cost: 5 Wrath
 distance: '[Melee](../../../../rule/combat/melee.md) 1 or [ranged](../../../../rule/combat/ranged.md) 5'
@@ -25,7 +25,7 @@ type: ability
 
 *The gods judge, fire cleanses.*
 
-| **Magic, [Melee](../../../../rule/combat/melee.md), [Ranged](../../../../rule/combat/ranged.md), [Strike](../../../../rule/combat/strike.md), Weapon**  |               **Main action** |
+| **Magic, [Melee](../../../../rule/combat/melee.md), [Ranged](../../../../rule/combat/ranged.md), [Strike](../../../../rule/combat/strike.md), Weapon**  |               **[Main action](../../../../rule/combat/turn.md)** |
 |-------------------------------------------|------------------------------:|
 | **📏 [Melee](../../../../rule/combat/melee.md) 1 or [ranged](../../../../rule/combat/ranged.md) 5**                |           **🎯 One creature** |
 

@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: talent
 cost: 9 Clarity
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
@@ -24,7 +24,7 @@ type: ability
 
 *You latch onto your prey's brain and don't let go, like a song they can't get out of their head.*
 
-| **Psionic, [Ranged](../../../../rule/combat/ranged.md), [Strike](../../../../rule/combat/strike.md), Telepathy** |     **Main action** |
+| **Psionic, [Ranged](../../../../rule/combat/ranged.md), [Strike](../../../../rule/combat/strike.md), Telepathy** |     **[Main action](../../../../rule/combat/turn.md)** |
 |----------------------------------------|--------------------:|
 | **📏 [Ranged](../../../../rule/combat/ranged.md) 10**                       | **🎯 One creature** |
 

@@ -48,7 +48,7 @@ At the start of any dwarf's turn, you can spend [Malice](scc.v1:mcdm.monsters.v1
 
 > 🔳 **Snaring Line (7 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
-> | **Area, Magic, Ranged**      |               **Main action** |
+> | **Area, Magic, Ranged**      |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |------------------------------|------------------------------:|              
 > | **📏 10 x 1 line within 10** | **🎯 Each enemy in the area** |
 >

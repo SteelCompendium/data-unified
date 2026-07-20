@@ -22,9 +22,9 @@
     "Weapon"
   ],
   "metadata": {
-    "action_type": "Main action",
+    "action_type": "[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)",
     "class": "null",
-    "content": "\n*You throw your foe out of phase with this manifold, causing them to harm other enemies as they return.*\n\n| **[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), Psionic, [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), Weapon** |     **Main action** |\n|------------------------------------|--------------------:|\n| **📏 [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1**                     | **🎯 One creature** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility):**\n\n- **≤11:** 9 + A damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5; I \u003c WEAK, [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)\n- **12-16:** 13 + A damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 7; I \u003c AVERAGE, [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)\n- **17+:** 18 + A damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 10; I \u003c STRONG, [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)\n\n**Effect:** The target and each creature or object they collide with from this [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) takes psychic damage equal to the total number of squares the target was force moved. While the target is [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) this way, they see glimpses of creatures from other parts of the timescape.",
+    "content": "\n*You throw your foe out of phase with this manifold, causing them to harm other enemies as they return.*\n\n| **[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), Psionic, [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), Weapon** |     **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|------------------------------------|--------------------:|\n| **📏 [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1**                     | **🎯 One creature** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility):**\n\n- **≤11:** 9 + A damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5; I \u003c WEAK, [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)\n- **12-16:** 13 + A damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 7; I \u003c AVERAGE, [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)\n- **17+:** 18 + A damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 10; I \u003c STRONG, [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)\n\n**Effect:** The target and each creature or object they collide with from this [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) takes psychic damage equal to the total number of squares the target was force moved. While the target is [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) this way, they see glimpses of creatures from other parts of the timescape.",
     "distance": "[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1",
     "feature_type": "ability",
     "flavor": "You throw your foe out of phase with this manifold, causing them to harm other enemies as they return.",
@@ -46,5 +46,5 @@
   "name": "Phase Hurl",
   "target": "One creature",
   "type": "feature",
-  "usage": "Main action"
+  "usage": "[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)"
 }

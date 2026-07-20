@@ -29,7 +29,7 @@ type: statblock
 
 > 🏹 **Override ([Signature Ability](../../../../rule/combat/signature-ability.md))**
 >
-> | **Psionic, Ranged, Strike, Telekinesis** |                 **Main action** |
+> | **Psionic, Ranged, Strike, Telekinesis** |                 **[Main action](../../../../rule/combat/turn.md)** |
 > |------------------------------------------|--------------------------------:|
 > | **📏 Ranged 10**                         | **🎯 Two creatures or objects** |
 >
@@ -43,7 +43,7 @@ type: statblock
 
 > 🏹 **Steal Time (3 [Malice](../../../../rule/monster/malice.md))**
 >
-> | **Chronopathy, Psionic, Ranged** |                  **Maneuver** |
+> | **Chronopathy, Psionic, Ranged** |                  **[Maneuver](../../../../rule/combat/turn.md)** |
 > |----------------------------------|------------------------------:|
 > | **📏 Ranged 10**                 | **🎯 One creature or object** |
 >
@@ -57,7 +57,7 @@ type: statblock
 
 > ❗️ **Psionic Retribution (2 [Malice](../../../../rule/monster/malice.md))**
 >
-> | **Psionic**            | **Triggered action** |
+> | **Psionic**            | **[Triggered action](../../../../rule/combat/triggered-action.md)** |
 > |------------------------|---------------------:|
 > | **📏 Self; see below** |          **🎯 Self** |
 >

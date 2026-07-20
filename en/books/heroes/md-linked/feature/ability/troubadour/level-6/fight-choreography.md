@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: troubadour
 cost: 9 Drama
 distance: '[Melee](../../../../rule/combat/melee.md) 1'
@@ -20,7 +20,7 @@ type: ability
 
 *You and your partner make a flashy show of derring-do, then get back to your corners.*
 
-| **[Melee](../../../../rule/combat/melee.md), [Strike](../../../../rule/combat/strike.md), Weapon** |     **Main action** |
+| **[Melee](../../../../rule/combat/melee.md), [Strike](../../../../rule/combat/strike.md), Weapon** |     **[Main action](../../../../rule/combat/turn.md)** |
 |---------------------------|--------------------:|
 | **📏 [Melee](../../../../rule/combat/melee.md) 1**            | **🎯 One creature** |
 

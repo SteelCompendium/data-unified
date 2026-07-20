@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: censor
 distance: 2 [cube](../../../../rule/combat/cube.md) within 1
 flavor: You channel power through your weapon to repel foes.
@@ -23,7 +23,7 @@ type: ability
 
 *You channel power through your weapon to repel foes.*
 
-| **Area, Magic, [Melee](../../../../rule/combat/melee.md), Weapon** |               **Main action** |
+| **Area, Magic, [Melee](../../../../rule/combat/melee.md), Weapon** |               **[Main action](../../../../rule/combat/turn.md)** |
 |--------------------------------|------------------------------:|
 | **📏 2 [cube](../../../../rule/combat/cube.md) within 1**         | **🎯 Each enemy in the area** |
 

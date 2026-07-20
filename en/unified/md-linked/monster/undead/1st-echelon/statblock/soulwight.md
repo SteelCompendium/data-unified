@@ -31,7 +31,7 @@ type: statblock
 
 > 🗡 **Soulstealer Longsword ([Signature Ability](../../../../rule/combat/signature-ability.md))**
 >
-> | **Melee, Strike, Weapon** |               **Main action** |
+> | **Melee, Strike, Weapon** |               **[Main action](../../../../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Melee 1**            | **🎯 One creature or object** |
 >
@@ -45,7 +45,7 @@ type: statblock
 
 > 🏹 **Stolen Vitality (3 [Malice](../../../../rule/monster/malice.md))**
 >
-> | **Magic, Ranged** |    **Maneuver** |
+> | **Magic, Ranged** |    **[Maneuver](../../../../rule/combat/turn.md)** |
 > |-------------------|----------------:|
 > | **📏 Ranged 5**   | **🎯 One ally** |
 >

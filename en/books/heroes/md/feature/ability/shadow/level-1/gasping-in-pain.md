@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: shadow
 distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
 effect: One ally within 5 squares of the target gains 1 [surge](scc.v1:mcdm.heroes.v1/rule.resource/surge).
@@ -23,7 +23,7 @@ type: ability
 
 *Your precise strikes let your allies take advantage of a target's agony.*
 
-| **[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), Weapon** |     **Main action** |
+| **[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), Weapon** |     **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 |---------------------------|--------------------:|
 | **📏 [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1**            | **🎯 One creature** |
 

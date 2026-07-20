@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](../../../../rule/combat/turn.md)'
 class: talent
 cost: 11 Clarity
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
@@ -19,7 +19,7 @@ type: ability
 
 *The target's skin becomes covered in tough metal.*
 
-| **Metamorphosis, Psionic, [Ranged](../../../../rule/combat/ranged.md)** |            **Maneuver** |
+| **Metamorphosis, Psionic, [Ranged](../../../../rule/combat/ranged.md)** |            **[Maneuver](../../../../rule/combat/turn.md)** |
 |------------------------------------|------------------------:|
 | **📏 [Ranged](../../../../rule/combat/ranged.md) 10**                   | **🎯 Self or one ally** |
 

@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: conduit
 cost: 9 Piety
 distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
@@ -18,7 +18,7 @@ type: ability
 
 *You send yourself or an ally to a divine manifold to instantaneously regain health.*
 
-| **Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)**  |            **Maneuver** |
+| **Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)**  |            **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 |--------------------|------------------------:|
 | **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**   | **🎯 Self or one ally** |
 

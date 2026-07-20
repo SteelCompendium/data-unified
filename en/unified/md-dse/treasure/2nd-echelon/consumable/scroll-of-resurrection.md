@@ -6,12 +6,14 @@ file_dpath: treasure/2nd-echelon/consumable
 flavor: This scroll is marked by sigils of power, death, and life.
 item_id: scroll-of-resurrection
 item_name: Scroll of Resurrection
+item_prerequisite: A sheet of paper infused with the dust of a painite
 keywords:
     - Magic
     - Scroll
 name: Scroll of Resurrection
 project_goal: "90"
 project_roll_characteristic: '[Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition) or [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence)'
+project_source: Texts or lore in the First Language
 scc: mcdm.heroes.v1/treasure.2nd-echelon.consumable/scroll-of-resurrection
 source: mcdm.heroes.v1
 treasure_type: consumable

@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: elementalist
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
 flavor: Two jets of flame lance out at your command.
@@ -23,7 +23,7 @@ type: ability
 
 *Two jets of flame lance out at your command.*
 
-| **Fire, Magic, [Ranged](../../../../rule/combat/ranged.md), [Strike](../../../../rule/combat/strike.md)** |                 **Main action** |
+| **Fire, Magic, [Ranged](../../../../rule/combat/ranged.md), [Strike](../../../../rule/combat/strike.md)** |                 **[Main action](../../../../rule/combat/turn.md)** |
 |---------------------------------|--------------------------------:|
 | **📏 [Ranged](../../../../rule/combat/ranged.md) 10**                | **🎯 Two creatures or objects** |
 

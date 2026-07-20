@@ -31,7 +31,7 @@ with_captain: +4 damage bonus to strikes
 
 > 🏹 **Fuse-Iron Rocket ([Signature Ability](../../../../rule/combat/signature-ability.md))**
 >
-> | **Ranged, Strike, Weapon** |                          **Main action** |
+> | **Ranged, Strike, Weapon** |                          **[Main action](../../../../rule/combat/turn.md)** |
 > |----------------------------|-----------------------------------------:|
 > | **📏 Ranged 10**           | **🎯 One creature or object per minion** |
 >

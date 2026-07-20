@@ -29,7 +29,7 @@ type: statblock
 
 > ⚔️ **Concussive Bolts (Signature Ability)**
 >
-> | **Charge, Melee, Ranged, Strike, Weapon** |               **Main action** |
+> | **Charge, Melee, Ranged, Strike, Weapon** |               **[Main action](../../../rule/combat/turn.md)** |
 > |-------------------------------------------|------------------------------:|
 > | **📏 Melee 1 or ranged 10**               | **🎯 One creature or object** |
 >
@@ -43,7 +43,7 @@ type: statblock
 
 > 🔳 **Steam-Powered Snare (3 [Malice](../../../rule/monster/malice.md))**
 >
-> | **Area, Ranged, Weapon** |                  **Maneuver** |
+> | **Area, Ranged, Weapon** |                  **[Maneuver](../../../rule/combat/turn.md)** |
 > |--------------------------|------------------------------:|
 > | **📏 3 cube within 5**   | **🎯 Each enemy in the area** |
 >

@@ -29,7 +29,7 @@ type: statblock
 
 > ⚔️ **Houndgun and Houndblade ([Signature Ability](../../../../rule/combat/signature-ability.md))**
 >
-> | **Melee, Ranged, Strike, Weapon** |                 **Main action** |
+> | **Melee, Ranged, Strike, Weapon** |                 **[Main action](../../../../rule/combat/turn.md)** |
 > |-----------------------------------|--------------------------------:|
 > | **📏 Melee 1 or ranged 10**       | **🎯 Two creatures or objects** |
 >
@@ -45,7 +45,7 @@ type: statblock
 
 > 🏹 **Focus Fire**
 >
-> | **Ranged**       |                  **Maneuver** |
+> | **Ranged**       |                  **[Maneuver](../../../../rule/combat/turn.md)** |
 > |------------------|------------------------------:|
 > | **📏 Ranged 15** | **🎯 One creature or object** |
 >
@@ -53,7 +53,7 @@ type: statblock
 
 > ❗️ **Artillery Enfilade (2 [Malice](../../../../rule/monster/malice.md))**
 >
-> | **Area, Ranged, Weapon**    |                        **Triggered action** |
+> | **Area, Ranged, Weapon**    |                        **[Triggered action](../../../../rule/combat/triggered-action.md)** |
 > |-----------------------------|--------------------------------------------:|
 > | **📏 7 x 3 line within 10** | **🎯 Each creature and object in the area** |
 >

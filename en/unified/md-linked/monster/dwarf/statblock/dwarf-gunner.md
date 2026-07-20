@@ -29,7 +29,7 @@ type: statblock
 
 > 🏹 **Portable Ballista (Signature Ability)**
 >
-> | **Ranged, Strike, Weapon** |               **Main action** |
+> | **Ranged, Strike, Weapon** |               **[Main action](../../../rule/combat/turn.md)** |
 > |----------------------------|------------------------------:|
 > | **📏 Ranged 10**           | **🎯 One creature or object** |
 >
@@ -45,7 +45,7 @@ type: statblock
 
 > 🏹 **Ensnaring Chains (5 [Malice](../../../rule/monster/malice.md))**
 >
-> | **Ranged, Weapon** |                                     **Maneuver** |
+> | **Ranged, Weapon** |                                     **[Maneuver](../../../rule/combat/turn.md)** |
 > |--------------------|-------------------------------------------------:|
 > | **📏 Ranged 10**   | **🎯 One [prone](../../../condition/prone.md), [restrained](../../../condition/restrained.md), or [slowed](../../../condition/slowed.md) creature** |
 >

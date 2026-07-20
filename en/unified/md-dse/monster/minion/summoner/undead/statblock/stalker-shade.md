@@ -7,6 +7,7 @@ file_basename: stalker-shade
 file_dpath: monster/minion/summoner/undead/statblock
 flavor: Shades are a form of umbral stalker that float free from any floor or surface. They can bend their appearance to completely vanish in the light.
 free_strike: 5
+free_strike_damage_type: Corruption
 immunities:
     - Corruption R
     - Poison R

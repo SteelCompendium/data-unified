@@ -13,7 +13,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *You enter a flow state that makes you nearly impossible to pin down.*
 
-| **-**       | **Maneuver** |
+| **-**       | **[Maneuver](../../../rule/combat/turn.md)** |
 |-------------|-------------:|
 | **📏 Self** |  **🎯 Self** |
 
@@ -24,7 +24,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *"Why are you looking at ME?!"*
 
-| **[Melee](../../../rule/combat/melee.md), [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md), Weapon** |     **Main action** |
+| **[Melee](../../../rule/combat/melee.md), [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md), Weapon** |     **[Main action](../../../rule/combat/turn.md)** |
 |-----------------------------------|--------------------:|
 | **📏 [Melee](../../../rule/combat/melee.md) 1 or [ranged](../../../rule/combat/ranged.md) 5**        | **🎯 One creature** |
 
@@ -41,7 +41,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *One missile—placed well and placed hard.*
 
-| **[Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md), Weapon** |     **Main action** |
+| **[Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md), Weapon** |     **[Main action](../../../rule/combat/turn.md)** |
 |----------------------------|--------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 5**            | **🎯 One creature** |
 
@@ -56,7 +56,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *There's no recovering from this.*
 
-| **[Melee](../../../rule/combat/melee.md), [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md), Weapon** |     **Main action** |
+| **[Melee](../../../rule/combat/melee.md), [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md), Weapon** |     **[Main action](../../../rule/combat/turn.md)** |
 |-----------------------------------|--------------------:|
 | **📏 [Melee](../../../rule/combat/melee.md) 1 or [ranged](../../../rule/combat/ranged.md) 5**        | **🎯 One creature** |
 

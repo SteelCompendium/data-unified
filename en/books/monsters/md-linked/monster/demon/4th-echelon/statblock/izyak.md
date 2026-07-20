@@ -32,7 +32,7 @@ weaknesses:
 
 > 🏹 **Nostalgic Wanderlust (Signature Ability)**
 >
-> | **Psionic, Ranged, Strike** |     **Main action** |
+> | **Psionic, Ranged, Strike** |     **[Main action](../../../../rule/combat/turn.md)** |
 > |-----------------------------|--------------------:|
 > | **📏 Ranged 10**            | **🎯 One creature** |
 >
@@ -48,7 +48,7 @@ weaknesses:
 
 > 🔳 **Ruinous Temptation (3 [Malice](../../../../rule/monster/malice.md))**
 >
-> | **Area, Psionic, Ranged** | **Main action** |
+> | **Area, Psionic, Ranged** | **[Main action](../../../../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 4 cube within 10**   | **🎯 Each enemy in the area** |
 >

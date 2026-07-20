@@ -30,7 +30,7 @@ type: statblock
 
 > 🗡 **Spiked Maul ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
-> | **Charge, Melee, Strike, Weapon** |                 **Main action** |
+> | **Charge, Melee, Strike, Weapon** |                 **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-----------------------------------|--------------------------------:|
 > | **📏 Melee 2**                    | **🎯 Two creatures or objects** |
 >
@@ -44,7 +44,7 @@ type: statblock
 
 > ❇️ **Fearsome Bay (5 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
-> | **Area**       |               **Main action** |
+> | **Area**       |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |----------------|------------------------------:|
 > | **📏 3 burst** | **🎯 Each enemy in the area** |
 >
@@ -58,7 +58,7 @@ type: statblock
 
 > 🗡 **Disemboweling Horns (3 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
-> | **Charge, Melee, Strike, Weapon** |        **Maneuver** |
+> | **Charge, Melee, Strike, Weapon** |        **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-----------------------------------|--------------------:|
 > | **📏 Melee 2**                    | **🎯 One creature** |
 >
@@ -74,7 +74,7 @@ type: statblock
 
 > ❗️ **Retaliatory Strike**
 >
-> | **Ranged**      |           **Triggered action** |
+> | **Ranged**      |           **[Triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |
 > |-----------------|-------------------------------:|
 > | **📏 Ranged 6** | **🎯 The triggering creature** |
 >

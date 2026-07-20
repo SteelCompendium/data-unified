@@ -15,9 +15,9 @@
   ],
   "metadata": {
     "ability_type": "Triggered",
-    "action_type": "Triggered",
+    "action_type": "[Triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)",
     "class": "talent",
-    "content": "\n*You step back a split second to see if things play out a little differently.*\n\n| **Psionic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)** |               **Triggered** |\n|---------------------|----------------------------:|\n| **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**    | **🎯 Self or one creature** |\n\n**Trigger:** The target makes an [ability roll](scc.v1:mcdm.heroes.v1/rule.dice/ability-roll).\n\n**Effect:** You can use this ability after seeing the result of the triggering roll. The target must reroll the [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) and use the new roll.",
+    "content": "\n*You step back a split second to see if things play out a little differently.*\n\n| **Psionic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)** |               **[Triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |\n|---------------------|----------------------------:|\n| **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**    | **🎯 Self or one creature** |\n\n**Trigger:** The target makes an [ability roll](scc.v1:mcdm.heroes.v1/rule.dice/ability-roll).\n\n**Effect:** You can use this ability after seeing the result of the triggering roll. The target must reroll the [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) and use the new roll.",
     "distance": "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10",
     "feature_type": "ability",
     "flavor": "You step back a split second to see if things play out a little differently.",
@@ -39,5 +39,5 @@
   "target": "Self or one creature",
   "trigger": "The target makes an [ability roll](scc.v1:mcdm.heroes.v1/rule.dice/ability-roll).",
   "type": "feature",
-  "usage": "Triggered"
+  "usage": "[Triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)"
 }

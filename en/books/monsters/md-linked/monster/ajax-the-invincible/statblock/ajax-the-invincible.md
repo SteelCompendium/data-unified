@@ -35,7 +35,7 @@ type: statblock
 
 > 🗡 **Blade of the Gol King ([Signature Ability](../../../rule/combat/signature-ability.md))**
 >
-> | **Charge, Magic, Melee, Strike, Weapon** |                 **Main Action** |
+> | **Charge, Magic, Melee, Strike, Weapon** |                 **[Main Action](../../../rule/combat/turn.md)** |
 > |------------------------------------------|--------------------------------:|
 > | **📏 Melee 1**                           | **🎯 Two creatures or objects** |
 >
@@ -51,7 +51,7 @@ type: statblock
 
 > 🔳 **Decree by the Jade Hand**
 >
-> | **Area, Magic, Ranged**     |                          **Main Action** |
+> | **Area, Magic, Ranged**     |                          **[Main Action](../../../rule/combat/turn.md)** |
 > |-----------------------------|-----------------------------------------:|
 > | **📏 3 cube within 10**     | **🎯 Each enemy and object in the area** |
 >
@@ -67,7 +67,7 @@ type: statblock
 
 > 🏹 **Divine Vine**
 >
-> | **Magic, Ranged, Weapon**  |                    **Maneuver** |
+> | **Magic, Ranged, Weapon**  |                    **[Maneuver](../../../rule/combat/turn.md)** |
 > |----------------------------|--------------------------------:|
 > | **📏 Ranged 5**            | **🎯 One creature or object** |
 >
@@ -83,7 +83,7 @@ type: statblock
 
 > 🔳 **Bead of Hell (2 Malice)**
 >
-> | **Area, Magic, Ranged** |    **Maneuver** |
+> | **Area, Magic, Ranged** |    **[Maneuver](../../../rule/combat/turn.md)** |
 > |-------------------------|----------------:|
 > | **📏 5 cube within 20** |  **🎯 Special** |
 >
@@ -95,7 +95,7 @@ type: statblock
 
 > ❗️ **Is This What They Taught You?**
 >
-> | **Ranged**       |           **Triggered action** |
+> | **Ranged**       |           **[Triggered action](../../../rule/combat/triggered-action.md)** |
 > |------------------|-------------------------------:|
 > | **📏 Ranged 10** | **🎯 The triggering creature** |
 >
@@ -105,7 +105,7 @@ type: statblock
 
 > ❗️ **Shieldbreaker Talisman**
 >
-> | **Magic, Melee** |           **Triggered action** |
+> | **Magic, Melee** |           **[Triggered action](../../../rule/combat/triggered-action.md)** |
 > |------------------|-------------------------------:|
 > | **📏 Melee 5**   | **🎯 The triggering creature** |
 >
@@ -115,7 +115,7 @@ type: statblock
 
 > ❗️ **Who's Hesitating?**
 >
-> | **-**       | **Triggered action** |
+> | **-**       | **[Triggered action](../../../rule/combat/triggered-action.md)** |
 > |-------------|---------------------:|
 > | **📏 Self** |          **🎯 Self** |
 >
@@ -125,7 +125,7 @@ type: statblock
 
 > ❗️ **Your Obsession With Me Betrays You**
 >
-> | **Magic, Ranged**  |           **Triggered action** |
+> | **Magic, Ranged**  |           **[Triggered action](../../../rule/combat/triggered-action.md)** |
 > |--------------------|-------------------------------:|
 > | **📏 Ranged 10**   | **🎯 The triggering creature** |
 >
@@ -135,7 +135,7 @@ type: statblock
 
 > ❗️ **You Would Flounder Your Assault? (2 Malice)**
 >
-> | **Magic**   | **Triggered action** |
+> | **Magic**   | **[Triggered action](../../../rule/combat/triggered-action.md)** |
 > |-------------|---------------------:|
 > | **📏 Self** |          **🎯 Self** |
 >

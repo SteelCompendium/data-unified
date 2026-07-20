@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](../../../../rule/combat/turn.md)'
 class: "null"
 cost: 3 Discipline
 distance: 2 [burst](../../../../rule/combat/burst.md)
@@ -18,7 +18,7 @@ type: ability
 
 *A burst of psionic energy interferes with your enemy's synapses.*
 
-| **Area, Psionic** |                  **Maneuver** |
+| **Area, Psionic** |                  **[Maneuver](../../../../rule/combat/turn.md)** |
 |-------------------|------------------------------:|
 | **📏 2 [burst](../../../../rule/combat/burst.md)**    | **🎯 Each enemy in the area** |
 

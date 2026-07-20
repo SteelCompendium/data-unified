@@ -42,7 +42,7 @@ At the start of any basilisk's turn, you can spend Malice to activate one of the
 > 🔳 **Upchuck (5 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
 >
-> | **Area, Weapon**        |               **Main action** |
+> | **Area, Weapon**        |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-------------------------|------------------------------:|
 > | **📏 3 cube within 10** | **🎯 Each enemy in the area** |
 >

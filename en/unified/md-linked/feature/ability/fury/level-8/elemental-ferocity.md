@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](../../../../rule/combat/turn.md)'
 class: fury
 cost: 11 Ferocity
 distance: Self
@@ -17,7 +17,7 @@ type: ability
 
 *Your primordial energy makes for instant retribution.*
 
-| **Magic**   | **Maneuver** |
+| **Magic**   | **[Maneuver](../../../../rule/combat/turn.md)** |
 |-------------|-------------:|
 | **📏 Self** |  **🎯 Self** |
 

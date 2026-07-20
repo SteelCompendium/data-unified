@@ -1,5 +1,5 @@
 ---
-action_type: Free triggered
+action_type: Free [triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)
 class: shadow
 cost: 1 Insight
 distance: Self
@@ -18,7 +18,7 @@ type: ability
 
 *Keep up the attack. Never give them a moment's grace.*
 
-| **-**       | **Free triggered** |
+| **-**       | **Free [triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |
 |-------------|-------------------:|
 | **📏 Self** |        **🎯 Self** |
 

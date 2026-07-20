@@ -14,7 +14,7 @@ You have the following ability.
 
 *You craft objects with the power of your mind.*
 
-| **Magic**   | **Maneuver** |
+| **Magic**   | **[Maneuver](../../../rule/combat/turn.md)** |
 |-------------|------------:|
 | **📏 Self** | **🎯 Self** |
 

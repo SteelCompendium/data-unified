@@ -32,7 +32,7 @@ with_captain: +5 bonus to ranged distance
 
 > 🏹 **Importunity (Signature Ability)**
 >
-> | **Magic, Ranged, Strike** |                          **Main action** |
+> | **Magic, Ranged, Strike** |                          **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |---------------------------|-----------------------------------------:|
 > | **📏 Ranged 5**           | **🎯 One creature or object per minion** |
 >

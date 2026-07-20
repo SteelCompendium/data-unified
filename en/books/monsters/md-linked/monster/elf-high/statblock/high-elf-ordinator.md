@@ -30,7 +30,7 @@ type: statblock
 
 > 🏹 **Lightning Rod (Signature Ability)**
 >
-> | **Magic, Ranged, Strike** |               **Main action** |
+> | **Magic, Ranged, Strike** |               **[Main action](../../../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Ranged 10**          | **🎯 One creature or object** |
 >
@@ -44,7 +44,7 @@ type: statblock
 
 > ❇️ **Elemental Uproar**
 >
-> | **Area, Magic** |                           **Maneuver** |
+> | **Area, Magic** |                           **[Maneuver](../../../rule/combat/turn.md)** |
 > |-----------------|---------------------------------------:|
 > | **📏 10 burst** | **🎯 Each elemental ally in the area** |
 >
@@ -52,7 +52,7 @@ type: statblock
 
 > 🏹 **Summon Elemental (2 [Malice](../../../rule/monster/malice.md))**
 >
-> | **Ranged**       |   **Maneuver** |
+> | **Ranged**       |   **[Maneuver](../../../rule/combat/turn.md)** |
 > |------------------|---------------:|
 > | **📏 Ranged 10** | **🎯 Special** |
 >
@@ -62,7 +62,7 @@ type: statblock
 
 > ❗️ **Enough!**
 >
-> | **Ranged**       |        **Triggered action** |
+> | **Ranged**       |        **[Triggered action](../../../rule/combat/triggered-action.md)** |
 > |------------------|----------------------------:|
 > | **📏 Ranged 10** | **🎯 The triggering enemy** |
 >

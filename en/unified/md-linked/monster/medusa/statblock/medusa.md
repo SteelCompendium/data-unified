@@ -35,7 +35,7 @@ type: statblock
 
 > 🗡 **Snake Bites ([Signature Ability](../../../rule/combat/signature-ability.md))**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](../../../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 1**            | **🎯 Two creatures or objects** |
 >
@@ -47,7 +47,7 @@ type: statblock
 
 > 🏹 **Damning Gaze ([Signature Ability](../../../rule/combat/signature-ability.md))**
 >
-> | **Magic, Ranged, Strike** |                 **Main action** |
+> | **Magic, Ranged, Strike** |                 **[Main action](../../../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Ranged 10**          | **🎯 Two creatures or objects** |
 >
@@ -61,7 +61,7 @@ type: statblock
 
 > ❇️ **Petrify (5 [Malice](../../../rule/monster/malice.md))**
 >
-> | **Area, Magic** |               **Main action** |
+> | **Area, Magic** |               **[Main action](../../../rule/combat/turn.md)** |
 > |-----------------|------------------------------:|
 > | **📏 3 burst**  | **🎯 Each enemy in the area** |
 >
@@ -75,7 +75,7 @@ type: statblock
 
 > 👤 **Nimble Escape**
 >
-> | **-**       | **Maneuver** |
+> | **-**       | **[Maneuver](../../../rule/combat/turn.md)** |
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
@@ -83,7 +83,7 @@ type: statblock
 
 > ❗️ **Venomous Spit (2 [Malice](../../../rule/monster/malice.md))**
 >
-> | **Melee**      |           **Triggered action** |
+> | **Melee**      |           **[Triggered action](../../../rule/combat/triggered-action.md)** |
 > |----------------|-------------------------------:|
 > | **📏 Melee 1** | **🎯 The triggering creature** |
 >

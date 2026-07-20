@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: troubadour
 cost: 9 Drama
 distance: 3 [burst](../../../../rule/combat/burst.md)
@@ -23,7 +23,7 @@ type: ability
 
 *You wield your weapon at blistering [speed](../../../../rule/character/speed.md), leaving everyone around you fighting for their lives.*
 
-| **Area, [Melee](../../../../rule/combat/melee.md), Weapon** |               **Main action** |
+| **Area, [Melee](../../../../rule/combat/melee.md), Weapon** |               **[Main action](../../../../rule/combat/turn.md)** |
 |-------------------------|------------------------------:|
 | **📏 3 [burst](../../../../rule/combat/burst.md)**          | **🎯 Each enemy in the area** |
 

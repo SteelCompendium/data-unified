@@ -2,11 +2,13 @@
 echelon: "3"
 effect: While holding the banner, you have a +1 bonus to [saving throws](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) and resisting [potencies](scc.v1:mcdm.heroes.v1/rule.character/potency).
 flavor: A large banner billows from this tall flagpole. Its heraldry depicts a three-headed lion covered in wounds but still standing.
+item_prerequisite: A king's cape and a solid gold flagpole
 keywords:
     - Magic
 name: Warbanner of Pride
 project_goal: "450"
 project_roll_characteristic: '[Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) or [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)'
+project_source: Texts or lore in Caelian
 scc: mcdm.summoner.v1/treasure.3rd-echelon.trinket/warbanner-of-pride
 treasure_type: trinket
 type: treasure

@@ -59,7 +59,7 @@ type: featureblock
 
 > 🗡 **Cavalry Charge (Encounter)**
 >
-> | **Charge, Melee, Strike, Weapon** |  **Main action** |
+> | **Charge, Melee, Strike, Weapon** |  **[Main action](../../../rule/combat/turn.md)** |
 > |-----------------------------------|-----------------:|
 > | **📏 Melee 1**                    | **🎯 One enemy** |
 >
@@ -75,7 +75,7 @@ type: featureblock
 
 > 👤 **Giddyup! (Encounter)**
 >
-> | **-**          | **Move action** |
+> | **-**          | **[Move action](../../../rule/combat/turn.md)** |
 > |----------------|----------------:|
 > | **📏 Range 5** |     **🎯 Self** |
 >
@@ -85,7 +85,7 @@ type: featureblock
 
 > ❇️ **Rearing Trample (Encounter)**
 >
-> | **Area, Weapon** |               **Main action** |
+> | **Area, Weapon** |               **[Main action](../../../rule/combat/turn.md)** |
 > |------------------|------------------------------:|
 > | **📏 1 burst**   | **🎯 Each enemy in the area** |
 >

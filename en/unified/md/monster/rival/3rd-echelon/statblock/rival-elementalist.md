@@ -29,7 +29,7 @@ type: statblock
 
 > 🏹 **Verdant Rains ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
-> | **Green, Magic, Ranged, Strike** |                 **Main action** |
+> | **Green, Magic, Ranged, Strike** |                 **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |----------------------------------|--------------------------------:|
 > | **📏 Ranged 10**                 | **🎯 Two creatures or objects** |
 >
@@ -43,7 +43,7 @@ type: statblock
 
 > 🔳 **The Chasm Engulfs (4 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
-> | **Area, Green, Magic, Ranged** |               **Main action** |
+> | **Area, Green, Magic, Ranged** |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |--------------------------------|------------------------------:|
 > | **📏 5 cube within 10**        | **🎯 Each enemy in the area** |
 >
@@ -57,7 +57,7 @@ type: statblock
 
 > ❗️ **Maw of the Abyss**
 >
-> | **Magic, Void** | **Triggered action** |
+> | **Magic, Void** | **[Triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |
 > |-----------------|---------------------:|
 > | **📏 Self**     |          **🎯 Self** |
 >

@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: talent
 distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 2'
 effect: You gain 1 [surge](scc.v1:mcdm.heroes.v1/rule.resource/surge).
@@ -24,7 +24,7 @@ type: ability
 
 *You form a blade of mind energy and stab your target, invigorating yourself.*
 
-| **Animapathy, [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), Psionic, [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)** |               **Main action** |
+| **Animapathy, [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), Psionic, [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)** |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 |----------------------------------------|------------------------------:|
 | **📏 [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 2**                         | **🎯 One creature or object** |
 

@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: talent
 cost: 7 Clarity
 distance: 3 [aura](../../../../rule/combat/aura.md)
@@ -19,7 +19,7 @@ type: ability
 
 *A protective field reverses the momentum of incoming attacks.*
 
-| **Area, Psionic, Telepathy** | **Main action** |
+| **Area, Psionic, Telepathy** | **[Main action](../../../../rule/combat/turn.md)** |
 |------------------------------|----------------:|
 | **📏 3 [aura](../../../../rule/combat/aura.md)**                |  **🎯 Special** |
 

@@ -13,7 +13,7 @@ Choose one [signature ability](../../../rule/combat/signature-ability.md) from t
 
 *And they said practicing fencing was a waste!*
 
-| **[Melee](../../../rule/combat/melee.md), [Strike](../../../rule/combat/strike.md), Weapon** |                 **Main action** |
+| **[Melee](../../../rule/combat/melee.md), [Strike](../../../rule/combat/strike.md), Weapon** |                 **[Main action](../../../rule/combat/turn.md)** |
 |---------------------------|--------------------------------:|
 | **📏 [Melee](../../../rule/combat/melee.md) 1**            | **🎯 Two creatures or objects** |
 
@@ -32,7 +32,7 @@ Choose one [signature ability](../../../rule/combat/signature-ability.md) from t
 
 *There you are, radiating your usual charisma.*
 
-| **Magic, [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md), Weapon** |     **Main action** |
+| **Magic, [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md), Weapon** |     **[Main action](../../../rule/combat/turn.md)** |
 |-----------------------------------|--------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**                  | **🎯 One creature** |
 
@@ -47,7 +47,7 @@ Choose one [signature ability](../../../rule/combat/signature-ability.md) from t
 
 *I didn't do it! What?*
 
-| **[Melee](../../../rule/combat/melee.md), [Strike](../../../rule/combat/strike.md), Weapon**             | **Main action** |
+| **[Melee](../../../rule/combat/melee.md), [Strike](../../../rule/combat/strike.md), Weapon**             | **[Main action](../../../rule/combat/turn.md)** |
 |---------------------------------------|----------------:|
 | **📏 [Melee](../../../rule/combat/melee.md) 1**                        | **🎯 One creature** |
 
@@ -64,7 +64,7 @@ Choose one [signature ability](../../../rule/combat/signature-ability.md) from t
 
 *A lyrical (and physical) jab insults an enemy and inspires an ally.*
 
-| **Magic, [Melee](../../../rule/combat/melee.md), [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md)** |     **Main action** |
+| **Magic, [Melee](../../../rule/combat/melee.md), [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md)** |     **[Main action](../../../rule/combat/turn.md)** |
 |----------------------------------|--------------------:|
 | **📏 [Melee](../../../rule/combat/melee.md) 1 or [ranged](../../../rule/combat/ranged.md) 5**       | **🎯 One creature** |
 
@@ -91,7 +91,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *Just one bad review will ruin their day.*
 
-| **Magic, [Melee](../../../rule/combat/melee.md), [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md)** |               **Main action** |
+| **Magic, [Melee](../../../rule/combat/melee.md), [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md)** |               **[Main action](../../../rule/combat/turn.md)** |
 |----------------------------------|------------------------------:|
 | **📏 [Melee](../../../rule/combat/melee.md) 1 or [ranged](../../../rule/combat/ranged.md) 10**      | **🎯 One creature or object** |
 
@@ -108,7 +108,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *You produce an entrancing note that twists the senses in a spectacular fashion.*
 
-| **Area, Magic** |               **Main action** |
+| **Area, Magic** |               **[Main action](../../../rule/combat/turn.md)** |
 |-----------------|------------------------------:|
 | **📏 2 [burst](../../../rule/combat/burst.md)**  | **🎯 Each enemy in the area** |
 
@@ -125,7 +125,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *You write something unexpected into the scene that hinders your enemy.*
 
-| **Area, Magic, [Ranged](../../../rule/combat/ranged.md)**     |               **Main action** |
+| **Area, Magic, [Ranged](../../../rule/combat/ranged.md)**     |               **[Main action](../../../rule/combat/turn.md)** |
 |-----------------------------|------------------------------:|
 | **📏 3 [cube](../../../rule/combat/cube.md) within 10**     | **🎯 Each enemy in the area** |
 
@@ -142,7 +142,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *As you bob and weave through the crowd, you can't help but leave the audience wanting more.*
 
-| **[Melee](../../../rule/combat/melee.md), [Strike](../../../rule/combat/strike.md), Weapon** | **Maneuver** |
+| **[Melee](../../../rule/combat/melee.md), [Strike](../../../rule/combat/strike.md), Weapon** | **[Maneuver](../../../rule/combat/turn.md)** |
 |---------------------------|-------------:|
 | **📏 Self; see below**    |  **🎯 Self** |
 
@@ -163,7 +163,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *Give the audience a surprise.*
 
-| **Area, Magic** |                       **Main action** |
+| **Area, Magic** |                       **[Main action](../../../rule/combat/turn.md)** |
 |-----------------|--------------------------------------:|
 | **📏 3 [burst](../../../rule/combat/burst.md)**  | **🎯 Self and each ally in the area** |
 
@@ -178,7 +178,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *O happy dagger, this is thy sheath!*
 
-| **Magic**   | **Maneuver** |
+| **Magic**   | **[Maneuver](../../../rule/combat/turn.md)** |
 |-------------|-------------:|
 | **📏 Self** |  **🎯 Self** |
 
@@ -189,7 +189,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *You try a different take on events, justifying the new locations everyone ended up in.*
 
-| **Area, Magic** |                       **Main action** |
+| **Area, Magic** |                       **[Main action](../../../rule/combat/turn.md)** |
 |-----------------|--------------------------------------:|
 | **📏 3 [burst](../../../rule/combat/burst.md)**  | **🎯 Self and each ally in the area** |
 
@@ -200,7 +200,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *They're so hurt by your performance, you start to believe it yourself.*
 
-| **[Melee](../../../rule/combat/melee.md), [Strike](../../../rule/combat/strike.md), Weapon** |     **Main action** |
+| **[Melee](../../../rule/combat/melee.md), [Strike](../../../rule/combat/strike.md), Weapon** |     **[Main action](../../../rule/combat/turn.md)** |
 |---------------------------|--------------------:|
 | **📏 [Melee](../../../rule/combat/melee.md) 1**            | **🎯 One creature** |
 

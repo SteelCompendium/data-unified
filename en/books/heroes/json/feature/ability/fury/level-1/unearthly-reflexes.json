@@ -16,9 +16,9 @@
   "keywords": null,
   "metadata": {
     "ability_type": "Triggered",
-    "action_type": "Triggered",
+    "action_type": "[Triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)",
     "class": "fury",
-    "content": "\n*You are as elusive as a hummingbird.*\n\n| **-**       | **Triggered** |\n|-------------|--------------:|\n| **📏 Self** |    **🎯 Self** |\n\n**Trigger:** You take damage.\n\n**Effect:** You take half the damage from the triggering effect and can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to a number of squares equal to your [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility) score.\n\n**Spend 1 Ferocity:** If the damage has any [potency](scc.v1:mcdm.heroes.v1/rule.character/potency) effects associated with it, the [potency](scc.v1:mcdm.heroes.v1/rule.character/potency) is reduced by 1 for you.",
+    "content": "\n*You are as elusive as a hummingbird.*\n\n| **-**       | **[Triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |\n|-------------|--------------:|\n| **📏 Self** |    **🎯 Self** |\n\n**Trigger:** You take damage.\n\n**Effect:** You take half the damage from the triggering effect and can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to a number of squares equal to your [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility) score.\n\n**Spend 1 Ferocity:** If the damage has any [potency](scc.v1:mcdm.heroes.v1/rule.character/potency) effects associated with it, the [potency](scc.v1:mcdm.heroes.v1/rule.character/potency) is reduced by 1 for you.",
     "distance": "Self",
     "feature_type": "ability",
     "flavor": "You are as elusive as a hummingbird.",
@@ -37,5 +37,5 @@
   "target": "Self",
   "trigger": "You take damage.",
   "type": "feature",
-  "usage": "Triggered"
+  "usage": "[Triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)"
 }

@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: troubadour
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
 flavor: There you are, radiating your usual charisma.
@@ -23,7 +23,7 @@ type: ability
 
 *There you are, radiating your usual charisma.*
 
-| **Magic, [Ranged](../../../../rule/combat/ranged.md), [Strike](../../../../rule/combat/strike.md), Weapon** |     **Main action** |
+| **Magic, [Ranged](../../../../rule/combat/ranged.md), [Strike](../../../../rule/combat/strike.md), Weapon** |     **[Main action](../../../../rule/combat/turn.md)** |
 |-----------------------------------|--------------------:|
 | **📏 [Ranged](../../../../rule/combat/ranged.md) 10**                  | **🎯 One creature** |
 

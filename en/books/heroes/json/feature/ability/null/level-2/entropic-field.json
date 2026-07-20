@@ -17,9 +17,9 @@
     "Weapon"
   ],
   "metadata": {
-    "action_type": "Main action",
+    "action_type": "[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)",
     "class": "null",
-    "content": "\n*You drastically increase the local entropy.*\n\n| **Area, Psionic, Weapon** |               **Main action** |\n|---------------------------|------------------------------:|\n| **📏 3 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 1**    | **🎯 Each enemy in the area** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility):**\n\n- **≤11:** 6 cold damage; A \u003c WEAK, [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)\n- **12-16:** 9 cold damage; A \u003c AVERAGE, [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)\n- **17+:** 13 cold damage; A \u003c STRONG, [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)",
+    "content": "\n*You drastically increase the local entropy.*\n\n| **Area, Psionic, Weapon** |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|---------------------------|------------------------------:|\n| **📏 3 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 1**    | **🎯 Each enemy in the area** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility):**\n\n- **≤11:** 6 cold damage; A \u003c WEAK, [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)\n- **12-16:** 9 cold damage; A \u003c AVERAGE, [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)\n- **17+:** 13 cold damage; A \u003c STRONG, [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)",
     "distance": "3 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 1",
     "feature_type": "ability",
     "flavor": "You drastically increase the local entropy.",
@@ -41,5 +41,5 @@
   "name": "Entropic Field",
   "target": "Each enemy in the area",
   "type": "feature",
-  "usage": "Main action"
+  "usage": "[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)"
 }

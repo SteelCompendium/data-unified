@@ -13,7 +13,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *You distract a foe while your allies secure their defensive gear.*
 
-| **[Melee](../../../rule/combat/melee.md), [Strike](../../../rule/combat/strike.md), Weapon** | **Main action**     |
+| **[Melee](../../../rule/combat/melee.md), [Strike](../../../rule/combat/strike.md), Weapon** | **[Main action](../../../rule/combat/turn.md)**     |
 |---------------------------|---------------------|
 | **📏 [Melee](../../../rule/combat/melee.md) 1**            | **🎯 One creature** |
 
@@ -30,7 +30,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *You remind your allies how to best use their gear.*
 
-| **[Ranged](../../../rule/combat/ranged.md)**                |                         **Main action** |
+| **[Ranged](../../../rule/combat/ranged.md)**                |                         **[Main action](../../../rule/combat/turn.md)** |
 |------------------------------|----------------------------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**  | **🎯 Self and two allies** |
 
@@ -41,7 +41,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *You inspire your allies to recover and gather their strength.*
 
-| **Area**       |                       **Main action** |
+| **Area**       |                       **[Main action](../../../rule/combat/turn.md)** |
 |----------------|--------------------------------------:|
 | **📏 3 [burst](../../../rule/combat/burst.md)** | **🎯 Self and each ally in the area** |
 
@@ -52,7 +52,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *You push an ally to use a [heroic ability](../../../rule/general/heroic-ability.md) sooner than they otherwise would.*
 
-| **[Ranged](../../../rule/combat/ranged.md)**       | **Main action** |
+| **[Ranged](../../../rule/combat/ranged.md)**       | **[Main action](../../../rule/combat/turn.md)** |
 |------------------|----------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10** | **🎯 One ally** |
 

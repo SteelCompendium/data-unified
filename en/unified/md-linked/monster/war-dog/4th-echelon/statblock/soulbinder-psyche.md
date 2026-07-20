@@ -31,7 +31,7 @@ type: statblock
 
 > 🏹 **Soulbind ([Signature Ability](../../../../rule/combat/signature-ability.md))**
 >
-> | **Magic, Ranged, Strike** |                 **Main action** |
+> | **Magic, Ranged, Strike** |                 **[Main action](../../../../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Ranged 10**          | **🎯 Two creatures or objects** |
 >
@@ -45,7 +45,7 @@ type: statblock
 
 > 🔳 **Soulstorm (2 [Malice](../../../../rule/monster/malice.md))**
 >
-> | **Area, Magic, Ranged** |               **Main action** |
+> | **Area, Magic, Ranged** |               **[Main action](../../../../rule/combat/turn.md)** |
 > |-------------------------|------------------------------:|
 > | **📏 3 cube within 10** | **🎯 Each enemy in the area** |
 >
@@ -61,7 +61,7 @@ type: statblock
 
 > ❇️ **Command the Awakened**
 >
-> | **Magic, Ranged** |                            **Maneuver** |
+> | **Magic, Ranged** |                            **[Maneuver](../../../../rule/combat/turn.md)** |
 > |-------------------|----------------------------------------:|
 > | **📏 5 burst**    | **🎯 Each soulbound enemy in the area** |
 >
@@ -69,7 +69,7 @@ type: statblock
 
 > ❗️ **Spirit Form**
 >
-> | **-**       | **Triggered action** |
+> | **-**       | **[Triggered action](../../../../rule/combat/triggered-action.md)** |
 > |-------------|---------------------:|
 > | **📏 Self** |          **🎯 Self** |
 >
@@ -79,7 +79,7 @@ type: statblock
 
 > ❗️ **Vengeance for the Slain**
 >
-> | **Ranged**       | **Free triggered action** |
+> | **Ranged**       | **Free [triggered action](../../../../rule/combat/triggered-action.md)** |
 > |------------------|--------------------------:|
 > | **📏 Ranged 10** |          **🎯 One enemy** |
 >
@@ -95,7 +95,7 @@ type: statblock
 
 > 🏹 **Immortal Flare**
 >
-> | **Magic, Ranged** |                  **Maneuver** |
+> | **Magic, Ranged** |                  **[Maneuver](../../../../rule/combat/turn.md)** |
 > |-------------------|------------------------------:|
 > | **📏 Ranged 10**  | **🎯 One creature or object** |
 >

@@ -30,7 +30,7 @@ type: statblock
 
 > 🗡 **Flail and Blade ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
-> | **Charge, Melee, Strike, Weapon** |                 **Main action** |
+> | **Charge, Melee, Strike, Weapon** |                 **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-----------------------------------|--------------------------------:|
 > | **📏 Melee 2**                    | **🎯 Two creatures or objects** |
 >
@@ -44,7 +44,7 @@ type: statblock
 
 > 👤 **Primal Bay (3 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
-> | **-**       | **Main action** |
+> | **-**       | **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-------------|----------------:|
 > | **📏 Self** |     **🎯 Self** |
 >
@@ -52,7 +52,7 @@ type: statblock
 
 > 🗡 **Goring Horns (5 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
-> | **Charge, Melee, Strike, Weapon** |                  **Maneuver** |
+> | **Charge, Melee, Strike, Weapon** |                  **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-----------------------------------|------------------------------:|
 > | **📏 Melee 2**                    | **🎯 One creature or object** |
 >
@@ -66,7 +66,7 @@ type: statblock
 
 > ❗️ **Retaliatory Strike**
 >
-> | **Ranged**      |           **Triggered action** |
+> | **Ranged**      |           **[Triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |
 > |-----------------|-------------------------------:|
 > | **📏 Ranged 8** | **🎯 The triggering creature** |
 >

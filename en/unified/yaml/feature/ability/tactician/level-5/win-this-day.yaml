@@ -8,9 +8,9 @@ flavor: You inspire your allies to recover and gather their strength.
 keywords:
     - Area
 metadata:
-    action_type: Main action
+    action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: tactician
-    content: "\n*You inspire your allies to recover and gather their strength.*\n\n| **Area**       |                       **Main action** |\n|----------------|--------------------------------------:|\n| **\U0001F4CF 3 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)** | **\U0001F3AF Self and each ally in the area** |\n\n**Effect:** Each target gains 2 [surges](scc.v1:mcdm.heroes.v1/rule.resource/surge). Additionally, they can spend a [Recovery](scc.v1:mcdm.heroes.v1/rule.health/recoveries), remove any [conditions](scc.v1:mcdm.heroes.v1/rule.combat/condition) or effects on them, and stand up if they [are prone](scc.v1:mcdm.heroes.v1/condition/prone)."
+    content: "\n*You inspire your allies to recover and gather their strength.*\n\n| **Area**       |                       **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|----------------|--------------------------------------:|\n| **\U0001F4CF 3 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)** | **\U0001F3AF Self and each ally in the area** |\n\n**Effect:** Each target gains 2 [surges](scc.v1:mcdm.heroes.v1/rule.resource/surge). Additionally, they can spend a [Recovery](scc.v1:mcdm.heroes.v1/rule.health/recoveries), remove any [conditions](scc.v1:mcdm.heroes.v1/rule.combat/condition) or effects on them, and stand up if they [are prone](scc.v1:mcdm.heroes.v1/condition/prone)."
     distance: 3 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)
     feature_type: ability
     flavor: You inspire your allies to recover and gather their strength.
@@ -26,4 +26,4 @@ metadata:
 name: Win This Day!
 target: Self and each ally in the area
 type: feature
-usage: Main action
+usage: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'

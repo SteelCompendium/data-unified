@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: "null"
 cost: 5 Discipline
 cost_amount: "5"
@@ -43,7 +43,7 @@ keywords:
     - Psionic
     - Weapon
 metadata:
-    action_type: Main action
+    action_type: '[Main action](../../../../rule/combat/turn.md)'
     class: "null"
     cost: 5 Discipline
     distance: 3 [cube](../../../../rule/combat/cube.md) within 1
@@ -65,5 +65,5 @@ metadata:
 name: Entropic Field
 target: Each enemy in the area
 type: feature
-usage: Main action
+usage: '[Main action](../../../../rule/combat/turn.md)'
 ```

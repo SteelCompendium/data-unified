@@ -1,5 +1,5 @@
 ---
-action_type: Triggered
+action_type: '[Triggered](../../../../rule/combat/triggered-action.md)'
 class: talent
 cost: 3 Clarity
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
@@ -21,7 +21,7 @@ type: ability
 
 *You freeze time just long enough to bring the victim to safety!*
 
-| **Psionic, [Ranged](../../../../rule/combat/ranged.md)** |                          **Triggered** |
+| **Psionic, [Ranged](../../../../rule/combat/ranged.md)** |                          **[Triggered](../../../../rule/combat/triggered-action.md)** |
 |---------------------|---------------------------------------:|
 | **📏 [Ranged](../../../../rule/combat/ranged.md) 10**    | **🎯 Self, or one creature or object** |
 

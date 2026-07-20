@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: troubadour
 cost: 5 Drama
 cost_amount: "5"
@@ -35,7 +35,7 @@ keywords:
     - Magic
     - '[Strike](../../../../rule/combat/strike.md)'
 metadata:
-    action_type: Main action
+    action_type: '[Main action](../../../../rule/combat/turn.md)'
     class: troubadour
     cost: 5 Drama
     distance: Special
@@ -53,5 +53,5 @@ metadata:
 name: Encore
 target: Special
 type: feature
-usage: Main action
+usage: '[Main action](../../../../rule/combat/turn.md)'
 ```

@@ -7,6 +7,7 @@ file_basename: demon-lords-aspect
 file_dpath: monster/champion/summoner/demon/statblock
 flavor: 'Stamina: Your maximum Stamina'
 free_strike: 9
+free_strike_damage_type: Corruption
 immunities:
     - Corruption 5
 intuition: 2

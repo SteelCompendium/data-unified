@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](../../../../rule/combat/turn.md)'
 class: tactician
 cost: 5 Focus
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
@@ -17,7 +17,7 @@ type: ability
 
 *Your allies wait for your command—then unleash death!*
 
-| **[Ranged](../../../../rule/combat/ranged.md)**       |        **Maneuver** |
+| **[Ranged](../../../../rule/combat/ranged.md)**       |        **[Maneuver](../../../../rule/combat/turn.md)** |
 |------------------|--------------------:|
 | **📏 [Ranged](../../../../rule/combat/ranged.md) 10** | **🎯 Three allies** |
 

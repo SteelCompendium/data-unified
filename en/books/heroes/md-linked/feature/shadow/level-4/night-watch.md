@@ -15,7 +15,7 @@ Additionally, you have the following ability.
 
 *A steely dagger from out of the blue knocks another weapon off course.*
 
-| **[Ranged](../../../rule/combat/ranged.md), Weapon** |   **Triggered** |
+| **[Ranged](../../../rule/combat/ranged.md), Weapon** |   **[Triggered](../../../rule/combat/triggered-action.md)** |
 |--------------------|----------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 5**    | **🎯 One ally** |
 

@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: conduit
 cost: 11 Piety
 distance: 5 [cube](../../../../rule/combat/cube.md) within 5
@@ -24,7 +24,7 @@ type: ability
 
 *You summon a divine storm that remains under your control.*
 
-| **Area, Magic, [Ranged](../../../../rule/combat/ranged.md)** |               **Main action** |
+| **Area, Magic, [Ranged](../../../../rule/combat/ranged.md)** |               **[Main action](../../../../rule/combat/turn.md)** |
 |-------------------------|------------------------------:|
 | **📏 5 [cube](../../../../rule/combat/cube.md) within 5**  | **🎯 Each enemy in the area** |
 

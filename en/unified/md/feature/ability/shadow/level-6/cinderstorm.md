@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: shadow
 cost: 9 Insight
 distance: 4 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)
@@ -18,7 +18,7 @@ type: ability
 
 *You [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) your friends in a burst of ash and fire.*
 
-| **Magic**      |                          **Maneuver** |
+| **Magic**      |                          **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 |----------------|--------------------------------------:|
 | **📏 4 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)** | **🎯 Self and each ally in the area** |
 

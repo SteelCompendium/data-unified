@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: elementalist
 cost: 9 Essence
 cost_amount: "9"
@@ -40,7 +40,7 @@ keywords:
     - Magic
     - Void
 metadata:
-    action_type: Main action
+    action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: elementalist
     cost: 9 Essence
     distance: 4 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)
@@ -60,5 +60,5 @@ metadata:
 name: The Wode Remembers and Returns
 target: Special
 type: feature
-usage: Main action
+usage: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 ```

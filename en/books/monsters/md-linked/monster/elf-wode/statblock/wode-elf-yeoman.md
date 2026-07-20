@@ -31,7 +31,7 @@ with_captain: +1 damage bonus to strikes
 
 > 🏹 **Heavy Longbow (Signature Ability)**
 >
-> | **Ranged, Strike, Weapon** |                          **Main action** |
+> | **Ranged, Strike, Weapon** |                          **[Main action](../../../rule/combat/turn.md)** |
 > |----------------------------|-----------------------------------------:|
 > | **📏 Ranged 12**           | **🎯 One creature or object per minion** |
 >

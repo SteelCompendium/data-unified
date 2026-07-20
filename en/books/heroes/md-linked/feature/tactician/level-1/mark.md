@@ -13,7 +13,7 @@ You know how to focus the attention of your allies as you push them toward [vict
 
 *You draw your allies' attention to a specific foe—with devastating effect.*
 
-| **[Ranged](../../../rule/combat/ranged.md)**       |        **Maneuver** |
+| **[Ranged](../../../rule/combat/ranged.md)**       |        **[Maneuver](../../../rule/combat/turn.md)** |
 |------------------|--------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10** | **🎯 One creature** |
 

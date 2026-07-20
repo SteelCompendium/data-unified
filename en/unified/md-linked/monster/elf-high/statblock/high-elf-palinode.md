@@ -32,7 +32,7 @@ type: statblock
 
 > 🏹 **Instill Regret (Signature Ability)**
 >
-> | **Magic, Ranged, Strike** |     **Main action** |
+> | **Magic, Ranged, Strike** |     **[Main action](../../../rule/combat/turn.md)** |
 > |---------------------------|--------------------:|
 > | **📏 Ranged 8**           | **🎯 One creature** |
 >
@@ -46,7 +46,7 @@ type: statblock
 
 > 🏹 **Recall**
 >
-> | **Magic, Ranged** |      **Maneuver** |
+> | **Magic, Ranged** |      **[Maneuver](../../../rule/combat/turn.md)** |
 > |-------------------|------------------:|
 > | **📏 Ranged 5**   | **🎯 Two allies** |
 >

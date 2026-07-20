@@ -31,7 +31,7 @@ with_captain: +1 damage bonus to strikes
 
 > ⚔️ **Daggers ([Signature Ability](../../../../rule/combat/signature-ability.md))**
 >
-> | **Melee, Ranged, Strike, Weapon** |                          **Main action** |
+> | **Melee, Ranged, Strike, Weapon** |                          **[Main action](../../../../rule/combat/turn.md)** |
 > |-----------------------------------|-----------------------------------------:|
 > | **📏 Melee 1 or ranged 5**        | **🎯 One creature or object per minion** |
 >

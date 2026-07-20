@@ -13,7 +13,7 @@ You have the following ability, which can be used as a [ranged](../../../rule/co
 
 *You unleash a blast of holy light upon your foe.*
 
-| **Magic, [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md)**  |               **Main action** |
+| **Magic, [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md)**  |               **[Main action](../../../rule/combat/turn.md)** |
 |----------------------------|------------------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**           | **🎯 One creature or object** |
 

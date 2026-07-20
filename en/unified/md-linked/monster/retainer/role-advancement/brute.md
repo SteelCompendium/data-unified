@@ -57,7 +57,7 @@ type: featureblock
 
 > 👤 **Big Windup**
 >
-> | **-**       | **Maneuver** |
+> | **-**       | **[Maneuver](../../../rule/combat/turn.md)** |
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
@@ -67,7 +67,7 @@ type: featureblock
 
 > 🗡 **Overhand Swat (Encounter)**
 >
-> | **Melee, Strike, Weapon** |     **Main action** |
+> | **Melee, Strike, Weapon** |     **[Main action](../../../rule/combat/turn.md)** |
 > |---------------------------|--------------------:|
 > | **📏 Melee 1**            | **🎯 One creature** |
 >
@@ -83,7 +83,7 @@ type: featureblock
 
 > ❇️ **Dizzying Sweep (Encounter)**
 >
-> | **Area, Weapon** |                  **Main action** |
+> | **Area, Weapon** |                  **[Main action](../../../rule/combat/turn.md)** |
 > |------------------|---------------------------------:|
 > | **📏 1 burst**   | **🎯 Each creature in the area** |
 >

@@ -13,7 +13,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *You curse your foe to become a bane to their allies.*
 
-| **[Melee](../../../rule/combat/melee.md), [Strike](../../../rule/combat/strike.md), Weapon** |     **Main action** |
+| **[Melee](../../../rule/combat/melee.md), [Strike](../../../rule/combat/strike.md), Weapon** |     **[Main action](../../../rule/combat/turn.md)** |
 |---------------------------|--------------------:|
 | **📏 [Melee](../../../rule/combat/melee.md) 1**            | **🎯 One creature** |
 
@@ -30,7 +30,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *You use your foe as a tool against your enemies.*
 
-| **[Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md), Weapon** |               **Main action** |
+| **[Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md), Weapon** |               **[Main action](../../../rule/combat/turn.md)** |
 |----------------------------|------------------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**           |           **🎯 One creature** |
 
@@ -47,7 +47,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *Your enemy's guilt fuels a holy flame that burns your foes.*
 
-| **[Melee](../../../rule/combat/melee.md), [Strike](../../../rule/combat/strike.md), Weapon**  |     **Main action** |
+| **[Melee](../../../rule/combat/melee.md), [Strike](../../../rule/combat/strike.md), Weapon**  |     **[Main action](../../../rule/combat/turn.md)** |
 |----------------------------|--------------------:|
 | **📏 [Melee](../../../rule/combat/melee.md) 1**             | **🎯 One creature** |
 
@@ -64,7 +64,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *You [turn](../../../rule/combat/turn.md) your enemies' ire to the target.*
 
-| **[Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md), Weapon** |               **Main action** |
+| **[Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md), Weapon** |               **[Main action](../../../rule/combat/turn.md)** |
 |----------------------------|------------------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**           |           **🎯 One creature** |
 

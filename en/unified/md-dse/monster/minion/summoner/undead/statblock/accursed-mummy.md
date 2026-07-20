@@ -7,6 +7,7 @@ file_basename: accursed-mummy
 file_dpath: monster/minion/summoner/undead/statblock
 flavor: The preserved dead, bound for eternal rest, know only violence when robbed of their future. Accursed mummies use their wrappings to bind others to the same fate.
 free_strike: 3
+free_strike_damage_type: Poison
 immunities:
     - Corruption R
     - Poison R

@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: troubadour
 cost: 1 Drama
 distance: Self
@@ -18,7 +18,7 @@ type: ability
 
 *Your years of practicing fencing and dancing pay off on the battlefield.*
 
-| **-**       | **Maneuver** |
+| **-**       | **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 |-------------|-------------:|
 | **📏 Self** |  **🎯 Self** |
 

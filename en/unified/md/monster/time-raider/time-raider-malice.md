@@ -38,7 +38,7 @@ At the start of any time raider's turn, you can spend [Malice](scc.v1:mcdm.monst
 
 > 🔳 **Gravity Well (3 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
-> | **Area, Psionic, Ranged, Weapon** |   **Maneuver** |
+> | **Area, Psionic, Ranged, Weapon** |   **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-----------------------------------|---------------:|
 > | **📏 5 cube within 3**            | **🎯 Special** |
 >

@@ -7,6 +7,7 @@ file_basename: flow-of-magma
 file_dpath: monster/minion/summoner/elemental/statblock
 flavor: This elemental is a long, serpentine creature of heated rock. Flows of magma drool trails of lava from their fangs after biting their prey.
 free_strike: 4
+free_strike_damage_type: Fire
 immunities:
     - Fire R
 intuition: 0

@@ -59,7 +59,7 @@ type: featureblock
 
 > ❗️ **Watch Out! (Encounter)**
 >
-> | **Melee**      |         **Triggered action** |
+> | **Melee**      |         **[Triggered action](../../../rule/combat/triggered-action.md)** |
 > |----------------|-----------------------------:|
 > | **📏 Melee 1** | **🎯 The retainer's mentor** |
 >
@@ -71,7 +71,7 @@ type: featureblock
 
 > 🗡 **It's Me You Want! (Encounter)**
 >
-> | **Melee, Strike, Weapon** |      **Main action** |
+> | **Melee, Strike, Weapon** |      **[Main action](../../../rule/combat/turn.md)** |
 > |---------------------------|---------------------:|
 > | **📏 Melee 1**            | **🎯 Two creatures** |
 >
@@ -85,7 +85,7 @@ type: featureblock
 
 > 🗡 **Last Stand (Encounter)**
 >
-> | **Melee, Weapon** |  **Main action** |
+> | **Melee, Weapon** |  **[Main action](../../../rule/combat/turn.md)** |
 > |-------------------|-----------------:|
 > | **📏 Melee 1**    | **🎯 One enemy** |
 >

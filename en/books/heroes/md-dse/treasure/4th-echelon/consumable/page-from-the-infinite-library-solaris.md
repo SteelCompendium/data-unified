@@ -6,11 +6,13 @@ file_dpath: treasure/4th-echelon/consumable
 flavor: This page is covered with writing and diagrams detailing the release of limitless energy—and the dangers of that process.
 item_id: page-from-the-infinite-library-solaris
 item_name: 'Page From the Infinite Library: Solaris'
+item_prerequisite: One vial of sacred ink, blessed parchment
 keywords:
     - Magic
 name: 'Page From the Infinite Library: Solaris'
 project_goal: "360"
 project_roll_characteristic: '[Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) or [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)'
+project_source: Reference materials in the First Language from the
 scc: mcdm.heroes.v1/treasure.4th-echelon.consumable/page-from-the-infinite-library-solaris
 source: mcdm.heroes.v1
 treasure_type: consumable

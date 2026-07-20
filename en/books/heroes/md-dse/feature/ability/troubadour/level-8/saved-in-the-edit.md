@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: troubadour
 cost: 11 Drama
 cost_amount: "11"
@@ -32,7 +32,7 @@ flavor: You shout a word of power that allows you to rewrite reality to your whi
 keywords:
     - Magic
 metadata:
-    action_type: Maneuver
+    action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: troubadour
     cost: 11 Drama
     distance: Self
@@ -48,5 +48,5 @@ metadata:
 name: Saved in the Edit
 target: Self
 type: feature
-usage: Maneuver
+usage: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 ```

@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: talent
 cost: 11 Clarity
 distance: Special
@@ -24,7 +24,7 @@ type: ability
 
 *You precisely manipulate the creatures around you.*
 
-| **Area, Psionic, Telekinesis** |                          **Main action** |
+| **Area, Psionic, Telekinesis** |                          **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 |--------------------------------|-----------------------------------------:|
 | **📏 Special**                 | **🎯 Each enemy and object in the area** |
 

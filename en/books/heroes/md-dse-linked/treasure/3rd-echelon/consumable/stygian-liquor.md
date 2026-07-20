@@ -6,12 +6,14 @@ file_dpath: treasure/3rd-echelon/consumable
 flavor: This muddy brown whiskey tastes of peat and death.
 item_id: stygian-liquor
 item_name: Stygian Liquor
+item_prerequisite: An ounce of scrapings from a coven's used cauldron
 keywords:
     - Magic
     - Potion
 name: Stygian Liquor
 project_goal: "180"
 project_roll_characteristic: '[Reason](../../../rule/character/reason.md) or [Intuition](../../../rule/character/intuition.md)'
+project_source: Texts in Anjali
 scc: mcdm.heroes.v1/treasure.3rd-echelon.consumable/stygian-liquor
 source: mcdm.heroes.v1
 treasure_type: consumable

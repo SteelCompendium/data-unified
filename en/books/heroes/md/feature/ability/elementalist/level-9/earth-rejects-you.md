@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: elementalist
 cost: 11 Essence
 distance: 5 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 10
@@ -23,7 +23,7 @@ type: ability
 
 *Everyone and everything gets blown away in an eruption of rocks and debris.*
 
-| **Area, Earth, Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)** |                          **Main action** |
+| **Area, Earth, Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)** |                          **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 |--------------------------------|-----------------------------------------:|
 | **📏 5 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 10**        | **🎯 Each enemy and object in the area** |
 

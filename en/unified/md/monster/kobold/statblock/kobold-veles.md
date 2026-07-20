@@ -30,7 +30,7 @@ with_captain: +1 bonus to speed
 
 > ⚔️ **Pilium (Signature Ability)**
 >
-> | **Melee, Ranged, Strike, Weapon** |                          **Main action** |
+> | **Melee, Ranged, Strike, Weapon** |                          **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-----------------------------------|-----------------------------------------:|
 > | **📏 Melee 1 or Ranged 5**        | **🎯 One creature or object per minion** |
 >

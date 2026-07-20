@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: tactician
 cost: 7 Focus
 distance: Self
@@ -16,7 +16,7 @@ type: ability
 
 *The tide begins to [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn).*
 
-| **-**       | **Maneuver** |
+| **-**       | **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 |-------------|-------------:|
 | **📏 Self** |  **🎯 Self** |
 

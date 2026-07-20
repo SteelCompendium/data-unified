@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](../../../../rule/combat/turn.md)'
 class: troubadour
 cost: 9 Drama
 cost_amount: "9"
@@ -40,7 +40,7 @@ keywords:
     - Magic
     - '[Ranged](../../../../rule/combat/ranged.md)'
 metadata:
-    action_type: Maneuver
+    action_type: '[Maneuver](../../../../rule/combat/turn.md)'
     class: troubadour
     cost: 9 Drama
     distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
@@ -60,5 +60,5 @@ metadata:
 name: Patter Song
 target: Special
 type: feature
-usage: Maneuver
+usage: '[Maneuver](../../../../rule/combat/turn.md)'
 ```

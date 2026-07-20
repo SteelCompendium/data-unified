@@ -29,7 +29,7 @@ type: statblock
 
 > ⚔️ **Sunder the Very Skies ([Signature Ability](../../../../rule/combat/signature-ability.md))**
 >
-> | **Magic, Melee, Ranged, Strike** |                 **Main action** |
+> | **Magic, Melee, Ranged, Strike** |                 **[Main action](../../../../rule/combat/turn.md)** |
 > |----------------------------------|--------------------------------:|
 > | **📏 Melee 1 or ranged 10**      | **🎯 Two creatures or objects** |
 >
@@ -45,7 +45,7 @@ type: statblock
 
 > 🏹 **Empyrean Boon (5 [Malice](../../../../rule/monster/malice.md))**
 >
-> | **Magic, Ranged** |                **Maneuver** |
+> | **Magic, Ranged** |                **[Maneuver](../../../../rule/combat/turn.md)** |
 > |-------------------|----------------------------:|
 > | **📏 Ranged 10**  | **🎯 Self and five allies** |
 >

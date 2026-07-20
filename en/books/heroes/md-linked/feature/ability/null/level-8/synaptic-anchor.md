@@ -1,5 +1,5 @@
 ---
-action_type: Free triggered
+action_type: Free [triggered](../../../../rule/combat/triggered-action.md)
 class: "null"
 cost: 11 Discipline
 distance: Self; see below
@@ -19,7 +19,7 @@ type: ability
 
 *You disrupt an enemy's strike and create a [feedback loop](../../talent/level-1/feedback-loop.md) in their mind, preventing them from focusing on future attacks.*
 
-| **Psionic**            |           **Free triggered** |
+| **Psionic**            |           **Free [triggered](../../../../rule/combat/triggered-action.md)** |
 |------------------------|-----------------------------:|
 | **📏 Self; see below** |  **🎯 Self or one creature** |
 

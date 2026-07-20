@@ -21,9 +21,9 @@
     "Weapon"
   ],
   "metadata": {
-    "action_type": "Main action",
+    "action_type": "[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)",
     "class": "tactician",
-    "content": "\n*You trick your enemies into attacking each other and leave them confused by the aftermath.*\n\n| **Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged), Weapon** |      **Main action** |\n|---------------------------|---------------------:|\n| **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**          | **🎯 Three enemies** |\n\n**Effect:** Each target uses a [signature ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability) against one or more targets of your choosing, with each ability automatically obtaining a tier 3 outcome on the [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll). After resolving the targets' abilities, you make a [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) against each original target.\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc.v1:mcdm.heroes.v1/rule.character/might):**\n\n- **≤11:** R \u003c WEAK, [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)\n- **12-16:** R \u003c AVERAGE, [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)\n- **17+:** R \u003c STRONG, [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)",
+    "content": "\n*You trick your enemies into attacking each other and leave them confused by the aftermath.*\n\n| **Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged), Weapon** |      **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|---------------------------|---------------------:|\n| **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**          | **🎯 Three enemies** |\n\n**Effect:** Each target uses a [signature ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability) against one or more targets of your choosing, with each ability automatically obtaining a tier 3 outcome on the [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll). After resolving the targets' abilities, you make a [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) against each original target.\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc.v1:mcdm.heroes.v1/rule.character/might):**\n\n- **≤11:** R \u003c WEAK, [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)\n- **12-16:** R \u003c AVERAGE, [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)\n- **17+:** R \u003c STRONG, [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)",
     "distance": "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10",
     "feature_type": "ability",
     "flavor": "You trick your enemies into attacking each other and leave them confused by the aftermath.",
@@ -45,5 +45,5 @@
   "name": "Their Lack of Focus Is Their Undoing",
   "target": "Three enemies",
   "type": "feature",
-  "usage": "Main action"
+  "usage": "[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)"
 }

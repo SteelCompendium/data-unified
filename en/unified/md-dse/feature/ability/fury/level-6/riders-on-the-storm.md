@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: fury
 cost: 9 Ferocity
 cost_amount: "9"
@@ -35,7 +35,7 @@ keywords:
     - Area
     - Magic
 metadata:
-    action_type: Maneuver
+    action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: fury
     cost: 9 Ferocity
     distance: 3 [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura)
@@ -53,5 +53,5 @@ metadata:
 name: Riders on the Storm
 target: Each creature in the area
 type: feature
-usage: Maneuver
+usage: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 ```

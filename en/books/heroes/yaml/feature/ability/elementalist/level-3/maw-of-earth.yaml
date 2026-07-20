@@ -15,9 +15,9 @@ keywords:
     - Magic
     - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'
 metadata:
-    action_type: Main action
+    action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: elementalist
-    content: "\n*You open up the ground, spewing out shrapnel of stone and debris.*\n\n| **Area, Earth, Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)** |                **Main action** |\n|--------------------------------|-------------------------------:|\n| **\U0001F4CF 3 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 10**        |  **\U0001F3AF Each enemy in the area** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason):**\n\n- **≤11:** 5 damage\n- **12-16:** 9 damage\n- **17+:** 12 damage\n\n**Effect:** The ground in or directly beneath the area drops 3 squares."
+    content: "\n*You open up the ground, spewing out shrapnel of stone and debris.*\n\n| **Area, Earth, Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)** |                **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|--------------------------------|-------------------------------:|\n| **\U0001F4CF 3 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 10**        |  **\U0001F3AF Each enemy in the area** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason):**\n\n- **≤11:** 5 damage\n- **12-16:** 9 damage\n- **17+:** 12 damage\n\n**Effect:** The ground in or directly beneath the area drops 3 squares."
     distance: 3 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 10
     feature_type: ability
     flavor: You open up the ground, spewing out shrapnel of stone and debris.
@@ -36,4 +36,4 @@ metadata:
 name: Maw of Earth
 target: Each enemy in the area
 type: feature
-usage: Main action
+usage: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'

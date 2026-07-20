@@ -28,7 +28,7 @@ type: statblock
 
 > 🗡 **Natural Weapon (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 1**            | **🎯 Two creatures or objects** |
 >
@@ -40,7 +40,7 @@ type: statblock
 
 > 🗡 **Toss**
 >
-> | **Melee**      |                  **Maneuver** |
+> | **Melee**      |                  **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |----------------|------------------------------:|
 > | **📏 Melee 1** | **🎯 One creature or object** |
 >
@@ -50,7 +50,7 @@ type: statblock
 
 > ❗️ **Juke**
 >
-> | **-**       | **Triggered action** |
+> | **-**       | **[Triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |
 > |-------------|---------------------:|
 > | **📏 Self** |          **🎯 Self** |
 >

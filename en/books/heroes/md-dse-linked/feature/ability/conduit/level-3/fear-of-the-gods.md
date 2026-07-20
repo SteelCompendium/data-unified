@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: conduit
 cost: 7 Piety
 cost_amount: "7"
@@ -44,7 +44,7 @@ keywords:
     - Magic
     - '[Ranged](../../../../rule/combat/ranged.md)'
 metadata:
-    action_type: Main action
+    action_type: '[Main action](../../../../rule/combat/turn.md)'
     class: conduit
     cost: 7 Piety
     distance: 5 [cube](../../../../rule/combat/cube.md) within 10
@@ -66,5 +66,5 @@ metadata:
 name: Fear of the Gods
 target: Each enemy in the area
 type: feature
-usage: Main action
+usage: '[Main action](../../../../rule/combat/turn.md)'
 ```

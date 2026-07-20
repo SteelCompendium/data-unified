@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: elementalist
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
 feature_type: ability
@@ -41,7 +41,7 @@ keywords:
     - '[Ranged](../../../../rule/combat/ranged.md)'
     - '[Strike](../../../../rule/combat/strike.md)'
 metadata:
-    action_type: Main action
+    action_type: '[Main action](../../../../rule/combat/turn.md)'
     class: elementalist
     distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
     flavor: A jet of heavy fire erupts where you strike.
@@ -63,5 +63,5 @@ metadata:
 name: Viscous Fire
 target: One creature or object
 type: feature
-usage: Main action
+usage: '[Main action](../../../../rule/combat/turn.md)'
 ```

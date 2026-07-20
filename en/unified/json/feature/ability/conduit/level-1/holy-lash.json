@@ -18,9 +18,9 @@
   ],
   "metadata": {
     "ability_type": "Signature",
-    "action_type": "Main action",
+    "action_type": "[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)",
     "class": "conduit",
-    "content": "\n*A tendril of divine energy shoots forth to draw in your foe.*\n\n| **Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)**  |               **Main action** |\n|----------------------------|------------------------------:|\n| **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**           | **🎯 One creature or object** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition):**\n\n- **≤11:** 3 + I holy damage; vertical [pull](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2\n- **12-16:** 5 + I holy damage; vertical [pull](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3\n- **17+:** 8 + I holy damage; vertical [pull](scc.v1:mcdm.heroes.v1/movement/forced-movement) 4",
+    "content": "\n*A tendril of divine energy shoots forth to draw in your foe.*\n\n| **Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)**  |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|----------------------------|------------------------------:|\n| **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**           | **🎯 One creature or object** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition):**\n\n- **≤11:** 3 + I holy damage; vertical [pull](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2\n- **12-16:** 5 + I holy damage; vertical [pull](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3\n- **17+:** 8 + I holy damage; vertical [pull](scc.v1:mcdm.heroes.v1/movement/forced-movement) 4",
     "distance": "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10",
     "feature_type": "ability",
     "flavor": "A tendril of divine energy shoots forth to draw in your foe.",
@@ -41,5 +41,5 @@
   "name": "Holy Lash",
   "target": "One creature or object",
   "type": "feature",
-  "usage": "Main action"
+  "usage": "[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)"
 }

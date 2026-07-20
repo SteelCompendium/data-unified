@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](../../../../rule/combat/turn.md)'
 class: "null"
 cost: 5 Discipline
 distance: Self
@@ -18,7 +18,7 @@ type: ability
 
 *You release stored time, allowing you to act twice.*
 
-| **Psionic** | **Maneuver** |
+| **Psionic** | **[Maneuver](../../../../rule/combat/turn.md)** |
 |-------------|-------------:|
 | **📏 Self** |  **🎯 Self** |
 

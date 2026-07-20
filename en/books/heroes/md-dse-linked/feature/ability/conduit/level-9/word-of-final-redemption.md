@@ -1,5 +1,5 @@
 ---
-action_type: Free triggered
+action_type: Free [triggered](../../../../rule/combat/triggered-action.md)
 class: conduit
 cost: 11 Piety
 cost_amount: "11"
@@ -37,7 +37,7 @@ keywords:
     - Magic
     - '[Ranged](../../../../rule/combat/ranged.md)'
 metadata:
-    action_type: Free triggered
+    action_type: Free [triggered](../../../../rule/combat/triggered-action.md)
     class: conduit
     cost: 11 Piety
     distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
@@ -58,5 +58,5 @@ name: Word of Final Redemption
 target: One creature
 trigger: The target dies.
 type: feature
-usage: Free triggered
+usage: Free [triggered](../../../../rule/combat/triggered-action.md)
 ```

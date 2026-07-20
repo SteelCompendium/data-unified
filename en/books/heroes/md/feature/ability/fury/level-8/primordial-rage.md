@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: fury
 cost: 11 Ferocity
 distance: Self
@@ -17,7 +17,7 @@ type: ability
 
 *Your ferocity manifests into [primordial power](scc.v1:mcdm.heroes.v1/feature.fury.level-10/primordial-power).*
 
-| **Magic**   | **Maneuver** |
+| **Magic**   | **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 |-------------|-------------:|
 | **📏 Self** |  **🎯 Self** |
 

@@ -32,7 +32,7 @@ weaknesses:
 
 > 🗡 **Abyssal Strike (Signature Ability)**
 >
-> | **Magic, Melee, Strike, Weapon** |               **Main action** |
+> | **Magic, Melee, Strike, Weapon** |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |----------------------------------|------------------------------:|
 > | **📏 Melee 1**                   | **🎯 One creature or object** |
 >
@@ -46,7 +46,7 @@ weaknesses:
 
 > 👤 **Grasping Shadow (3 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
-> | **Magic**   | **Maneuver** |
+> | **Magic**   | **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >

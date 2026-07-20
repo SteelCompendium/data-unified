@@ -68,7 +68,7 @@ At the start of Ajax's turn, you can spend Malice to activate one of the followi
 
 > 🔳 **Draw Steel (10 Malice)**
 >
-> | **Area, Magic, Ranged, Weapon**  |                          **Main Action** |
+> | **Area, Magic, Ranged, Weapon**  |                          **[Main Action](../../rule/combat/turn.md)** |
 > |----------------------------------|-----------------------------------------:|
 > | **📏 Four 3 cubes within 10**    | **🎯 Each enemy and object in the area** |
 >

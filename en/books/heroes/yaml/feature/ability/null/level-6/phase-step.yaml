@@ -14,9 +14,9 @@ keywords:
     - Psionic
     - Weapon
 metadata:
-    action_type: Main action
+    action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: "null"
-    content: "\n*You weaken your connection to this manifold, allowing you to move through and damage enemies.*\n\n| **[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), Psionic, Weapon** | **Main action** |\n|----------------------------|----------------:|\n| **\U0001F4CF Self; see below**     |     **\U0001F3AF Self** |\n\n**Effect:** You can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to your [speed](scc.v1:mcdm.heroes.v1/rule.character/speed), and squares occupied by enemies or objects are not [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain) for this [shift](scc.v1:mcdm.heroes.v1/movement/shifting). You make one [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) that targets each enemy you moved through during this [shift](scc.v1:mcdm.heroes.v1/movement/shifting).\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility):**\n\n- **≤11:** 6 damage; M < WEAK, [dazed](scc.v1:mcdm.heroes.v1/condition/dazed)\n- **12-16:** 8 damage; M < AVERAGE, [dazed](scc.v1:mcdm.heroes.v1/condition/dazed)\n- **17+:** 12 damage; M < STRONG, [dazed](scc.v1:mcdm.heroes.v1/condition/dazed)"
+    content: "\n*You weaken your connection to this manifold, allowing you to move through and damage enemies.*\n\n| **[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), Psionic, Weapon** | **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|----------------------------|----------------:|\n| **\U0001F4CF Self; see below**     |     **\U0001F3AF Self** |\n\n**Effect:** You can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to your [speed](scc.v1:mcdm.heroes.v1/rule.character/speed), and squares occupied by enemies or objects are not [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain) for this [shift](scc.v1:mcdm.heroes.v1/movement/shifting). You make one [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) that targets each enemy you moved through during this [shift](scc.v1:mcdm.heroes.v1/movement/shifting).\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility):**\n\n- **≤11:** 6 damage; M < WEAK, [dazed](scc.v1:mcdm.heroes.v1/condition/dazed)\n- **12-16:** 8 damage; M < AVERAGE, [dazed](scc.v1:mcdm.heroes.v1/condition/dazed)\n- **17+:** 12 damage; M < STRONG, [dazed](scc.v1:mcdm.heroes.v1/condition/dazed)"
     distance: Self; see below
     feature_type: ability
     flavor: You weaken your connection to this manifold, allowing you to move through and damage enemies.
@@ -35,4 +35,4 @@ metadata:
 name: Phase Step
 target: Self
 type: feature
-usage: Main action
+usage: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'

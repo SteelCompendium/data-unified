@@ -9,9 +9,9 @@ keywords:
     - Magic
     - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'
 metadata:
-    action_type: Main action
+    action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: conduit
-    content: "\n*Intense light is emitted from your body, healing your allies.*\n\n| **Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)**  |    **Main action** |\n|--------------------|-------------------:|\n| **\U0001F4CF [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**   | **\U0001F3AF Four allies** |\n\n**Effect:** You can target yourself instead of one ally with this ability. Each target can spend any number of [Recoveries](scc.v1:mcdm.heroes.v1/rule.health/recoveries), can end any effects on them that are ended by a [saving throw](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) or that end at the end of their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), and can stand up if they [are prone](scc.v1:mcdm.heroes.v1/condition/prone)."
+    content: "\n*Intense light is emitted from your body, healing your allies.*\n\n| **Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)**  |    **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|--------------------|-------------------:|\n| **\U0001F4CF [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**   | **\U0001F3AF Four allies** |\n\n**Effect:** You can target yourself instead of one ally with this ability. Each target can spend any number of [Recoveries](scc.v1:mcdm.heroes.v1/rule.health/recoveries), can end any effects on them that are ended by a [saving throw](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) or that end at the end of their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), and can stand up if they [are prone](scc.v1:mcdm.heroes.v1/condition/prone)."
     distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
     feature_type: ability
     flavor: Intense light is emitted from your body, healing your allies.
@@ -29,4 +29,4 @@ metadata:
 name: Radiance of Grace
 target: Four allies
 type: feature
-usage: Main action
+usage: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'

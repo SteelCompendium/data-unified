@@ -1,5 +1,5 @@
 ---
-action_type: Triggered
+action_type: '[Triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)'
 class: fury
 distance: Self
 effect: You gain [temporary Stamina](scc.v1:mcdm.heroes.v1/rule.health/temporary-stamina) equal to your [Might](scc.v1:mcdm.heroes.v1/rule.character/might) score and can enter your [animal form](scc.v1:mcdm.heroes.v1/complication/animal-form) or hybrid form.
@@ -19,7 +19,7 @@ type: ability
 
 *In your anger, you revert to a more bestial form.*
 
-| **-**       | **Triggered** |
+| **-**       | **[Triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |
 |-------------|--------------:|
 | **📏 Self** |   **🎯 Self** |
 

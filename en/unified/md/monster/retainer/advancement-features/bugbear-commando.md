@@ -67,7 +67,7 @@ type: featureblock
 
 > 🗡 **Face Grab (Encounter)**
 >
-> | **Melee, Strike, Weapon** |     **Main action** |
+> | **Melee, Strike, Weapon** |     **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |---------------------------|--------------------:|
 > | **📏 Melee 1**            | **🎯 One creature** |
 >
@@ -84,7 +84,7 @@ type: featureblock
 > 🏹 **Shadow Drag (Encounter)**
 >
 >
-> | **Magic, Ranged, Strike** |               **Main action** |
+> | **Magic, Ranged, Strike** |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |---------------------------|------------------------------:|
 > | **📏 Ranged 10**          | **🎯 One creature or object** |
 >
@@ -100,7 +100,7 @@ type: featureblock
 
 > 🗡 **Neck Snap (Encounter)**
 >
-> | **Melee**      |                             **Main action** |
+> | **Melee**      |                             **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |----------------|--------------------------------------------:|
 > | **📏 Melee 1** | **🎯 One creature grabbed by the commando** |
 >

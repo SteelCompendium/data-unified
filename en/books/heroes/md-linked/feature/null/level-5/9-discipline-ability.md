@@ -13,7 +13,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *You suddenly strike an enemy, then grab them in a psionically enhanced grip.*
 
-| **[Melee](../../../rule/combat/melee.md), Psionic, [Strike](../../../rule/combat/strike.md), Weapon** |  **Free triggered** |
+| **[Melee](../../../rule/combat/melee.md), Psionic, [Strike](../../../rule/combat/strike.md), Weapon** |  **Free [triggered](../../../rule/combat/triggered-action.md)** |
 |------------------------------------|--------------------:|
 | **📏 [Melee](../../../rule/combat/melee.md) 1**                     | **🎯 One creature** |
 
@@ -32,7 +32,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *You grab the target with [supernatural](../../../rule/general/supernatural.md) force.*
 
-| **[Melee](../../../rule/combat/melee.md), Psionic, [Strike](../../../rule/combat/strike.md), Weapon** |     **Main action** |
+| **[Melee](../../../rule/combat/melee.md), Psionic, [Strike](../../../rule/combat/strike.md), Weapon** |     **[Main action](../../../rule/combat/turn.md)** |
 |------------------------------------|--------------------:|
 | **📏 [Melee](../../../rule/combat/melee.md) 1**                     | **🎯 One creature** |
 
@@ -49,7 +49,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *You leap beyond reality, leaving an afterimage of yourself.*
 
-| **Psionic** |    **Move** |
+| **Psionic** |    **[Move](../../../rule/combat/turn.md)** |
 |-------------|------------:|
 | **📏 Self** | **🎯 Self** |
 
@@ -60,7 +60,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *You expand your nullifying power to mitigate harmful effects.*
 
-| **Area, Psionic** |                          **Maneuver** |
+| **Area, Psionic** |                          **[Maneuver](../../../rule/combat/turn.md)** |
 |-------------------|--------------------------------------:|
 | **📏 3 [burst](../../../rule/combat/burst.md)**    | **🎯 Self and each ally in the area** |
 

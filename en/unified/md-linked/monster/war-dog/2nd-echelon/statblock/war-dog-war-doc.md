@@ -30,7 +30,7 @@ type: statblock
 
 > 🏹 **Syringe Crossbow ([Signature Ability](../../../../rule/combat/signature-ability.md))**
 >
-> | **Ranged, Strike, Weapon** |     **Main action** |
+> | **Ranged, Strike, Weapon** |     **[Main action](../../../../rule/combat/turn.md)** |
 > |----------------------------|--------------------:|
 > | **📏 Ranged 10**           | **🎯 One creature** |
 >
@@ -44,7 +44,7 @@ type: statblock
 
 > 🏹 **Posthumous Promotion**
 >
-> | **Magic, Ranged** |       **Maneuver** |
+> | **Magic, Ranged** |       **[Maneuver](../../../../rule/combat/turn.md)** |
 > |-------------------|-------------------:|
 > | **📏 Ranged 10**  | **🎯 One war dog** |
 >
@@ -52,7 +52,7 @@ type: statblock
 
 > ❗️ **Sanguine Stimulants (1 [Malice](../../../../rule/monster/malice.md))**
 >
-> | **Magic, Ranged** | **Triggered action** |
+> | **Magic, Ranged** | **[Triggered action](../../../../rule/combat/triggered-action.md)** |
 > |-------------------|---------------------:|
 > | **📏 Ranged 15**  |       **🎯 Special** |
 >

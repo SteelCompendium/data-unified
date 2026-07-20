@@ -69,7 +69,7 @@ type: featureblock
 
 > 🏹 **Backfire Curse (Encounter)**
 >
-> | **Magic, Ranged, Strike** |  **Main action** |
+> | **Magic, Ranged, Strike** |  **[Main action](../../../rule/combat/turn.md)** |
 > |---------------------------|-----------------:|
 > | **📏 Ranged 10**          | **🎯 One enemy** |
 >
@@ -86,7 +86,7 @@ type: featureblock
 >
 > 🏹 **Take Root (Encounter)**
 >
-> | **Magic, Ranged, Strike** |     **Main action** |
+> | **Magic, Ranged, Strike** |     **[Main action](../../../rule/combat/turn.md)** |
 > |---------------------------|--------------------:|
 > | **📏 Ranged 10**          | **🎯 One creature** |
 >
@@ -102,7 +102,7 @@ type: featureblock
 
 > 🏹 **Mazed (Encounter)**
 >
-> | **Magic, Ranged, Strike** |     **Main action** |
+> | **Magic, Ranged, Strike** |     **[Main action](../../../rule/combat/turn.md)** |
 > |---------------------------|--------------------:|
 > | **📏 Ranged 10**          | **🎯 One creature** |
 >

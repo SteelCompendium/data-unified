@@ -25,7 +25,7 @@ You have the following performance ability, which is usable with your [Routines]
 
 *Folks love a good tumble.*
 
-| **Area, Magic, Performance** |                         **No action** |
+| **Area, Magic, Performance** |                         **[No action](../../../rule/combat/turn.md)** |
 |------------------------------|--------------------------------------:|
 | **📏 5 [aura](../../../rule/combat/aura.md)**                | **🎯 Self and each ally in the area** |
 
@@ -40,7 +40,7 @@ You have the following performance ability, which is usable with your [Routines]
 
 *No, no, no, you lose the audience that way. Try it like this...*
 
-| **Area, Magic, Performance** |                    **No action** |
+| **Area, Magic, Performance** |                    **[No action](../../../rule/combat/turn.md)** |
 |------------------------------|---------------------------------:|
 | **📏 2 [aura](../../../rule/combat/aura.md)**                | **🎯 Each creature in the area** |
 
@@ -55,7 +55,7 @@ You have the following ability.
 
 *It doesn't need to make sense. Just say it with emotion.*
 
-| **Magic, [Ranged](../../../rule/combat/ranged.md)** |   **Maneuver** |
+| **Magic, [Ranged](../../../rule/combat/ranged.md)** |   **[Maneuver](../../../rule/combat/turn.md)** |
 |-------------------|---------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**  | **🎯 Special** |
 
@@ -76,7 +76,7 @@ You have the following ability.
 
 *Your instrument rings true and your music blows everyone away.*
 
-| **Area, Magic** |                  **Maneuver** |
+| **Area, Magic** |                  **[Maneuver](../../../rule/combat/turn.md)** |
 |-----------------|------------------------------:|
 | **📏 2 [burst](../../../rule/combat/burst.md)**  | **🎯 Each enemy in the area** |
 
@@ -95,7 +95,7 @@ You have the following ability.
 
 *Your years of practicing fencing and dancing pay off on the battlefield.*
 
-| **-**       | **Maneuver** |
+| **-**       | **[Maneuver](../../../rule/combat/turn.md)** |
 |-------------|-------------:|
 | **📏 Self** |  **🎯 Self** |
 
@@ -112,7 +112,7 @@ You have the following performance abilities, which are usable with your [Routin
 
 *All for thunder motherrr! ♪ Run and hide for coverrr!♪*
 
-| **Magic, Performance, [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md)** |       **No action** |
+| **Magic, Performance, [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md)** |       **[No action](../../../rule/combat/turn.md)** |
 |----------------------------------------|--------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**                       | **🎯 One creature** |
 
@@ -129,7 +129,7 @@ You have the following performance abilities, which are usable with your [Routin
 
 *Teeth are bare! ♪ Eyes black! ♪ No escaping the beast!♪*
 
-| **Area, Magic, Performance** |                         **No action** |
+| **Area, Magic, Performance** |                         **[No action](../../../rule/combat/turn.md)** |
 |------------------------------|--------------------------------------:|
 | **📏 5 [aura](../../../rule/combat/aura.md)**                | **🎯 Self and each ally in the area** |
 

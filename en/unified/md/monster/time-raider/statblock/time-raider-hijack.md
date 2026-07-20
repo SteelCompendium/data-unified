@@ -31,7 +31,7 @@ type: statblock
 
 > 🗡 **Golden Sickles ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
-> | **Melee, Psionic, Strike, Weapon** |     **Main action** |
+> | **Melee, Psionic, Strike, Weapon** |     **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |------------------------------------|--------------------:|
 > | **📏 Melee 1**                     | **🎯 One creature** |
 >
@@ -45,7 +45,7 @@ type: statblock
 
 > 🏹 **Psi-Sickle**
 >
-> | **Psionic, Ranged, Weapon** |                  **Maneuver** |
+> | **Psionic, Ranged, Weapon** |                  **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-----------------------------|------------------------------:|
 > | **📏 Ranged 5**             | **🎯 One creature or object** |
 >

@@ -14,7 +14,7 @@ You have the following ability.
 
 *Wisps of psychic energy ripple visibly from your brain as you force the target to move using only your mind.*
 
-| **Psionic, [Ranged](../../../rule/combat/ranged.md)** |                                 **Maneuver** |
+| **Psionic, [Ranged](../../../rule/combat/ranged.md)** |                                 **[Maneuver](../../../rule/combat/turn.md)** |
 |---------------------|---------------------------------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**    | **🎯 Self or one [size](../../../rule/character/size.md) 1 creature or object** |
 

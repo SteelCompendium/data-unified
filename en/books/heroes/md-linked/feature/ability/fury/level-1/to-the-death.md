@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: fury
 distance: '[Melee](../../../../rule/combat/melee.md) 1'
 effect: You gain 2 [surges](../../../../rule/resource/surge.md), and the target can make an [opportunity attack](../../../../rule/combat/opportunity-attack.md) against you as a free [triggered action](../../../../rule/combat/triggered-action.md).
@@ -23,7 +23,7 @@ type: ability
 
 *Your reckless assault leaves you tactically vulnerable.*
 
-| **[Melee](../../../../rule/combat/melee.md), [Strike](../../../../rule/combat/strike.md), Weapon** |               **Main action** |
+| **[Melee](../../../../rule/combat/melee.md), [Strike](../../../../rule/combat/strike.md), Weapon** |               **[Main action](../../../../rule/combat/turn.md)** |
 |---------------------------|------------------------------:|
 | **📏 [Melee](../../../../rule/combat/melee.md) 1**            | **🎯 One creature or object** |
 

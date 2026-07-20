@@ -6,6 +6,7 @@ cost_resource: Malice for two minions
 file_basename: false-vampire
 file_dpath: monster/rival/3rd-echelon/summoner/minion/statblock
 free_strike: 8
+free_strike_damage_type: Acid
 immunities:
     - Corruption 4
     - poison 4

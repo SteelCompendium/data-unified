@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: censor
 cost: 11 Wrath
 cost_amount: "11"
@@ -44,7 +44,7 @@ keywords:
     - '[Strike](../../../../rule/combat/strike.md)'
     - Weapon
 metadata:
-    action_type: Main action
+    action_type: '[Main action](../../../../rule/combat/turn.md)'
     class: censor
     cost: 11 Wrath
     distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
@@ -66,5 +66,5 @@ metadata:
 name: Your Allies Turn on You!
 target: One creature
 type: feature
-usage: Main action
+usage: '[Main action](../../../../rule/combat/turn.md)'
 ```

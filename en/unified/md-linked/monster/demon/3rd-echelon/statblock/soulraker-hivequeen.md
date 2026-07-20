@@ -32,7 +32,7 @@ weaknesses:
 
 > ⚔️ **Stinging Ovipositor (Signature Ability)**
 >
-> | **Magic, Melee, Ranged, Strike** |      **Main action** | 
+> | **Magic, Melee, Ranged, Strike** |      **[Main action](../../../../rule/combat/turn.md)** |
 > |----------------------------------|---------------------:|
 > | **📏 Melee 1 or ranged 10**      | **🎯 Two creatures** |
 >
@@ -46,7 +46,7 @@ weaknesses:
 
 > ❇️ **Forced Gestation (3 [Malice](../../../../rule/monster/malice.md))**
 >
-> | **Area**        |                                          **Maneuver** |
+> | **Area**        |                                          **[Maneuver](../../../../rule/combat/turn.md)** |
 > |-----------------|------------------------------------------------------:|
 > | **📏 10 burst** | **🎯 Each implanted handmaiden parasite in the area** |
 >
@@ -54,7 +54,7 @@ weaknesses:
 
 > ❗️ **For the Queen! (2 [Malice](../../../../rule/monster/malice.md))**
 >
-> | **Area**       | **Triggered action** |
+> | **Area**       | **[Triggered action](../../../../rule/combat/triggered-action.md)** |
 > |----------------|---------------------:|
 > | **📏 5 burst** |       **🎯 Special** |
 >

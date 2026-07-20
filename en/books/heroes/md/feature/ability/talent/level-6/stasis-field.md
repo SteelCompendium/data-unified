@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: talent
 cost: 9 Clarity
 distance: 4 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 10
@@ -25,7 +25,7 @@ type: ability
 
 *Keep everything as it was. Ignore everything that will be.*
 
-| **Area, Chronopathy, Psionic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)** |                             **Main action** |
+| **Area, Chronopathy, Psionic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)** |                             **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 |----------------------------------------|--------------------------------------------:|
 | **📏 4 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 10**                | **🎯 Each creature and object in the area** |
 

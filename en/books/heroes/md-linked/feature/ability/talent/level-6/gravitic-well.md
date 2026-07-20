@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: talent
 cost: 9 Clarity
 distance: 4 [cube](../../../../rule/combat/cube.md) within 10
@@ -25,7 +25,7 @@ type: ability
 
 *You bend gravity into a fine point and pull your foes toward it.*
 
-| **Area, Psionic, [Ranged](../../../../rule/combat/ranged.md), Telekinesis** |                             **Main action** |
+| **Area, Psionic, [Ranged](../../../../rule/combat/ranged.md), Telekinesis** |                             **[Main action](../../../../rule/combat/turn.md)** |
 |----------------------------------------|--------------------------------------------:|
 | **📏 4 [cube](../../../../rule/combat/cube.md) within 10**                | **🎯 Each creature and object in the area** |
 

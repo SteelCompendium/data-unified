@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: elementalist
 cost: 5 Essence
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
@@ -24,7 +24,7 @@ type: ability
 
 *Your ally disappears, then reappears in a burst of fire.*
 
-| **Fire, Magic, [Ranged](../../../../rule/combat/ranged.md), Void** |         **Main action** |
+| **Fire, Magic, [Ranged](../../../../rule/combat/ranged.md), Void** |         **[Main action](../../../../rule/combat/turn.md)** |
 |-------------------------------|------------------------:|
 | **📏 [Ranged](../../../../rule/combat/ranged.md) 10**              | **🎯 Self or one ally** |
 

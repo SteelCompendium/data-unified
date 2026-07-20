@@ -31,7 +31,7 @@ weaknesses:
 
 > 🔳 **Floor to Flesh (Signature Ability)**
 >
-> | **Area, Magic, Ranged** |               **Main action** |
+> | **Area, Magic, Ranged** |               **[Main action](../../../../rule/combat/turn.md)** |
 > |-------------------------|------------------------------:|
 > | **📏 3 cube within 10** | **🎯 Each enemy in the area** |
 >
@@ -45,7 +45,7 @@ weaknesses:
 
 > 🏹 **Grasping Tendons**
 >
-> | **Magic, Ranged** |           **Maneuver** |
+> | **Magic, Ranged** |           **[Maneuver](../../../../rule/combat/turn.md)** |
 > |-------------------|-----------------------:|
 > | **📏 Ranged 10**  | **🎯 Three creatures** |
 >

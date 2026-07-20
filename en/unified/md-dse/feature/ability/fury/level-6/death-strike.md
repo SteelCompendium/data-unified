@@ -1,5 +1,5 @@
 ---
-action_type: Free triggered
+action_type: Free [triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)
 class: fury
 cost: 9 Ferocity
 cost_amount: "9"
@@ -39,7 +39,7 @@ keywords:
     - '[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)'
     - Weapon
 metadata:
-    action_type: Free triggered
+    action_type: Free [triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)
     class: fury
     cost: 9 Ferocity
     distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
@@ -61,5 +61,5 @@ name: Death Strike
 target: Self
 trigger: You reduce a creature to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) with a [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike).
 type: feature
-usage: Free triggered
+usage: Free [triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)
 ```

@@ -22,7 +22,7 @@ Your [elemental specialization](elemental-specialization.md) grants you a [trigg
 
 *The power you channel grants the ability to get back in the fight.*
 
-| **Green, Magic, [Ranged](../../../rule/combat/ranged.md)**          |           **Triggered** |
+| **Green, Magic, [Ranged](../../../rule/combat/ranged.md)**          |           **[Triggered](../../../rule/combat/triggered-action.md)** |
 |-----------------------------------|------------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**                  | **🎯 Self or one ally** |
 
@@ -37,7 +37,7 @@ Your [elemental specialization](elemental-specialization.md) grants you a [trigg
 
 *You add a little magic to an ally's aggression at just the right time.*
 
-| **Fire, Magic, [Ranged](../../../rule/combat/ranged.md)**  |           **Triggered** |
+| **Fire, Magic, [Ranged](../../../rule/combat/ranged.md)**  |           **[Triggered](../../../rule/combat/triggered-action.md)** |
 |--------------------------|------------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**         | **🎯 Self or one ally** |
 
@@ -52,7 +52,7 @@ Your [elemental specialization](elemental-specialization.md) grants you a [trigg
 
 *You cover yourself or an ally in protective stone.*
 
-| **Earth, Magic, [Ranged](../../../rule/combat/ranged.md)**  |           **Triggered** |
+| **Earth, Magic, [Ranged](../../../rule/combat/ranged.md)**  |           **[Triggered](../../../rule/combat/triggered-action.md)** |
 |---------------------------|------------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**          | **🎯 Self or one ally** |
 
@@ -67,7 +67,7 @@ Your [elemental specialization](elemental-specialization.md) grants you a [trigg
 
 *You call on the void to swallow and spit out an ally.*
 
-| **Magic, [Ranged](../../../rule/combat/ranged.md), Void**  |           **Triggered** |
+| **Magic, [Ranged](../../../rule/combat/ranged.md), Void**  |           **[Triggered](../../../rule/combat/triggered-action.md)** |
 |--------------------------|------------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**         | **🎯 Self or one ally** |
 

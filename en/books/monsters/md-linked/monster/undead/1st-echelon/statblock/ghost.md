@@ -31,7 +31,7 @@ type: statblock
 
 > 🏹 **Heat Death ([Signature Ability](../../../../rule/combat/signature-ability.md))**
 >
-> | **Magic, Ranged, Strike** |      **Main action** |
+> | **Magic, Ranged, Strike** |      **[Main action](../../../../rule/combat/turn.md)** |
 > |---------------------------|---------------------:|
 > | **📏 Ranged 5**           | **🎯 Two creatures** |
 >
@@ -45,7 +45,7 @@ type: statblock
 
 > 🏹 **Haunt**
 >
-> | **Ranged**      |                                 **Maneuver** |
+> | **Ranged**      |                                 **[Maneuver](../../../../rule/combat/turn.md)** |
 > |-----------------|---------------------------------------------:|
 > | **📏 Ranged 8** | **🎯 Self or one ally with a Phasing trait** |
 >
@@ -55,7 +55,7 @@ type: statblock
 
 > ❗️ **Shriek (1 [Malice](../../../../rule/monster/malice.md))**
 >
-> | **Magic, Melee** |           **Triggered action** |
+> | **Magic, Melee** |           **[Triggered action](../../../../rule/combat/triggered-action.md)** |
 > |------------------|-------------------------------:|
 > | **📏 Melee 1**   | **🎯 The triggering creature** |
 >

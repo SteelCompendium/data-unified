@@ -30,7 +30,7 @@ type: statblock
 
 > 🗡 **Wodeblade (Signature Ability)**
 >
-> | **Magic, Melee, Strike, Weapon** |                 **Main action** |
+> | **Magic, Melee, Strike, Weapon** |                 **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |----------------------------------|--------------------------------:|
 > | **📏 Melee 1**                   | **🎯 Two creatures or objects** |
 >
@@ -46,7 +46,7 @@ type: statblock
 
 > ❇️ **Fairness Is a Human Concept (5 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
-> | **Area**        |                 **Maneuver** |
+> | **Area**        |                 **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-----------------|-----------------------------:|
 > | **📏 10 burst** | **🎯 Each ally in the area** |
 >
@@ -54,7 +54,7 @@ type: statblock
 
 > ❗️ **Wode Sickness**
 >
-> | **Ranged**       | **Triggered action** |
+> | **Ranged**       | **[Triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |
 > |------------------|---------------------:|
 > | **📏 Ranged 10** |     **🎯 One enemy** |
 >

@@ -44,7 +44,7 @@ type: statblock
 
 > ❇️ **Executioner's Swing (Signature Ability)**
 >
-> | **Area, Weapon** |               **Main action** |
+> | **Area, Weapon** |               **[Main action](../../../rule/combat/turn.md)** |
 > |------------------|------------------------------:|
 > | **📏 2 burst**   | **🎯 Each enemy in the area** |
 >
@@ -58,7 +58,7 @@ type: statblock
 
 > 🗡 **Lop (3 Malice)**
 >
-> | **Magic, Melee, Strike, Weapon** |     **Main action** |
+> | **Magic, Melee, Strike, Weapon** |     **[Main action](../../../rule/combat/turn.md)** |
 > |----------------------------------|--------------------:|
 > | **📏 Melee 2**                   | **🎯 One creature** |
 >
@@ -72,7 +72,7 @@ type: statblock
 
 > 👤 **Scramble**
 >
-> | **-**       | **Maneuver** |
+> | **-**       | **[Maneuver](../../../rule/combat/turn.md)** |
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
@@ -80,7 +80,7 @@ type: statblock
 
 > 🏹 **Headway (5 Malice)**
 >
-> | **Ranged, Strike, Weapon** |                  **Maneuver** |
+> | **Ranged, Strike, Weapon** |                  **[Maneuver](../../../rule/combat/turn.md)** |
 > |----------------------------|------------------------------:|
 > | **📏 Ranged 20**           | **🎯 One creature or object** |
 >
@@ -94,7 +94,7 @@ type: statblock
 
 > ❗️ **Envious Imitation (2 [Malice](../../../rule/monster/malice.md))**
 >
-> | **Magic**   | **Triggered action** |
+> | **Magic**   | **[Triggered action](../../../rule/combat/triggered-action.md)** |
 > |-------------|---------------------:|
 > | **📏 Self** |          **🎯 Self** |
 >

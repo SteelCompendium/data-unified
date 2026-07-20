@@ -12,7 +12,7 @@ You have the following ability.
 
 *You assume the form of the animal who channels your ferocity.*
 
-| **Magic**   | **Maneuver** |
+| **Magic**   | **[Maneuver](../../../rule/combat/turn.md)** |
 |-------------|-------------:|
 | **📏 Self** |  **🎯 Self** |
 

@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: censor
 distance: 3 [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura)
 effect: Each creature in the area has a double [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on [tests](scc.v1:mcdm.heroes.v1/rule.test/test) made to [hide](scc.v1:mcdm.heroes.v1/skill.intrigue/hide) or [sneak](scc.v1:mcdm.heroes.v1/skill.intrigue/sneak). The [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura) lasts until you end it (no action required) or until a target harms or deals damage to a creature or object.
@@ -31,7 +31,7 @@ keywords:
     - Area
     - Magic
 metadata:
-    action_type: Maneuver
+    action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: censor
     distance: 3 [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura)
     effect: Each creature in the area has a double [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on [tests](scc.v1:mcdm.heroes.v1/rule.test/test) made to [hide](scc.v1:mcdm.heroes.v1/skill.intrigue/hide) or [sneak](scc.v1:mcdm.heroes.v1/skill.intrigue/sneak). The [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura) lasts until you end it (no action required) or until a target harms or deals damage to a creature or object.
@@ -48,5 +48,5 @@ metadata:
 name: Blessing of Secrets
 target: Self and each ally in the area
 type: feature
-usage: Maneuver
+usage: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 ```

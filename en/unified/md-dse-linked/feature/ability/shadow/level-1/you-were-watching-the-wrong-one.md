@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: shadow
 distance: '[Melee](../../../../rule/combat/melee.md) 1'
 effect: As long as you have one or more allies within 5 squares of the target, you gain 1 [surge](../../../../rule/resource/surge.md). If you are [flanking](../../../../rule/combat/flanking.md) the target when you use this ability, choose one ally who is [flanking](../../../../rule/combat/flanking.md) with you. That ally also gains 1 [surge](../../../../rule/resource/surge.md).
@@ -41,7 +41,7 @@ keywords:
     - '[Strike](../../../../rule/combat/strike.md)'
     - Weapon
 metadata:
-    action_type: Main action
+    action_type: '[Main action](../../../../rule/combat/turn.md)'
     class: shadow
     distance: '[Melee](../../../../rule/combat/melee.md) 1'
     effect: As long as you have one or more allies within 5 squares of the target, you gain 1 [surge](../../../../rule/resource/surge.md). If you are [flanking](../../../../rule/combat/flanking.md) the target when you use this ability, choose one ally who is [flanking](../../../../rule/combat/flanking.md) with you. That ally also gains 1 [surge](../../../../rule/resource/surge.md).
@@ -63,5 +63,5 @@ metadata:
 name: You Were Watching the Wrong One
 target: One creature
 type: feature
-usage: Main action
+usage: '[Main action](../../../../rule/combat/turn.md)'
 ```

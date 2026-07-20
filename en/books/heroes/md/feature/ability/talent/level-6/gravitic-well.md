@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: talent
 cost: 9 Clarity
 distance: 4 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 10
@@ -25,7 +25,7 @@ type: ability
 
 *You bend gravity into a fine point and pull your foes toward it.*
 
-| **Area, Psionic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged), Telekinesis** |                             **Main action** |
+| **Area, Psionic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged), Telekinesis** |                             **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 |----------------------------------------|--------------------------------------------:|
 | **📏 4 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 10**                | **🎯 Each creature and object in the area** |
 

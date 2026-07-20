@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: conduit
 cost: 5 Piety
 distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
@@ -19,7 +19,7 @@ type: ability
 
 *The gods reward those who smite their foes.*
 
-| **Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)**  |     **Maneuver** |
+| **Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)**  |     **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 |--------------------|-----------------:|
 | **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**   | **🎯 Each ally** |
 

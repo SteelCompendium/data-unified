@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: talent
 cost: 11 Clarity
 distance: 3 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)
@@ -24,7 +24,7 @@ type: ability
 
 *Unbridled psionic energy erupts from your body and flashes outward, hurling your foes back.*
 
-| **Area, Psionic, Telekinesis** |                          **Main action** |
+| **Area, Psionic, Telekinesis** |                          **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 |--------------------------------|-----------------------------------------:|
 | **📏 3 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)**                 | **🎯 Each enemy and object in the area** |
 

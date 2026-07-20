@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: troubadour
 cost: 5 Drama
 cost_amount: "5"
@@ -34,7 +34,7 @@ keywords:
     - Area
     - Magic
 metadata:
-    action_type: Main action
+    action_type: '[Main action](../../../../rule/combat/turn.md)'
     class: troubadour
     cost: 5 Drama
     distance: 3 [burst](../../../../rule/combat/burst.md)
@@ -51,5 +51,5 @@ metadata:
 name: Flip the Script
 target: Self and each ally in the area
 type: feature
-usage: Main action
+usage: '[Main action](../../../../rule/combat/turn.md)'
 ```

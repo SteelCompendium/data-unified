@@ -1,5 +1,5 @@
 ---
-action_type: Triggered
+action_type: '[Triggered](../../../../rule/combat/triggered-action.md)'
 class: fury
 distance: Self
 effect: You gain [temporary Stamina](../../../../rule/health/temporary-stamina.md) equal to your [Might](../../../../rule/character/might.md) score and can enter your [animal form](../../../../complication/animal-form.md) or hybrid form.
@@ -19,7 +19,7 @@ type: ability
 
 *In your anger, you revert to a more bestial form.*
 
-| **-**       | **Triggered** |
+| **-**       | **[Triggered](../../../../rule/combat/triggered-action.md)** |
 |-------------|--------------:|
 | **📏 Self** |   **🎯 Self** |
 

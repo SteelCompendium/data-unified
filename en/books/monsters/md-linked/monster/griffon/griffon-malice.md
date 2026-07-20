@@ -33,7 +33,7 @@ At the start of any griffon's turn, you can spend [Malice](../../rule/monster/ma
 
 > 👤 **Swoop (3 [Malice](../../rule/monster/malice.md))**
 >
-> | **-**       | **Maneuver** |
+> | **-**       | **[Maneuver](../../rule/combat/turn.md)** |
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >

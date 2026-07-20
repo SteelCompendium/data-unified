@@ -32,7 +32,7 @@ with_captain: +1 damage bonus to strikes
 
 > 🗡 **Brutal Flail ([Signature Ability](../../../rule/combat/signature-ability.md))**
 >
-> | **Melee, Psionic, Strike, Weapon** |                          **Main action** |
+> | **Melee, Psionic, Strike, Weapon** |                          **[Main action](../../../rule/combat/turn.md)** |
 > |------------------------------------|-----------------------------------------:|
 > | **📏 Melee 1**                     | **🎯 One creature or object per minion** |
 >

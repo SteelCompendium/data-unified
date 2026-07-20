@@ -31,7 +31,7 @@ type: statblock
 
 > 🗡 **Noxious Bite (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |                 **Main Action** |
+> | **Melee, Strike, Weapon** |                 **[Main Action](../../../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 1**            | **🎯 Two creatures or objects** |
 >
@@ -45,7 +45,7 @@ type: statblock
 
 > 🔳 **Petrifying Eye Beams**
 >
-> | **Area, Magic**            |   **Maneuver** |
+> | **Area, Magic**            |   **[Maneuver](../../../rule/combat/turn.md)** |
 > |----------------------------|---------------:|
 > | **📏 5 x 2 line within 1** | **🎯 Special** |
 >
@@ -61,7 +61,7 @@ type: statblock
 
 > 🔳 **Poison Fumes (5 [Malice](../../../rule/monster/malice.md))**
 >
-> | **Area, Magic**        |               **Main action** |
+> | **Area, Magic**        |               **[Main action](../../../rule/combat/turn.md)** |
 > |------------------------|------------------------------:|
 > | **📏 3 cube within 1** | **🎯 Each enemy in the area** |
 >
@@ -73,7 +73,7 @@ type: statblock
 
 > ❗️ **Lash Out**
 >
-> | **Area** | **Triggered action** |
+> | **Area** | **[Triggered action](../../../rule/combat/triggered-action.md)** |
 > |-----------------------------|------------------------------:|
 > | **📏 1 burst**     | **🎯 Each enemy in the area** |
 >

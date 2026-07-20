@@ -32,7 +32,7 @@ type: statblock
 
 > 🗡 **Golden Scythe ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
-> | **Melee, Psionic, Strike, Weapon** |               **Main action** |
+> | **Melee, Psionic, Strike, Weapon** |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |------------------------------------|------------------------------:|
 > | **📏 Melee 2**                     | **🎯 One creature or object** |
 >
@@ -46,7 +46,7 @@ type: statblock
 
 > 🏹 **Kinetic Crush (2 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
-> | **Psionic, Ranged, Strike** |     **Main action** |
+> | **Psionic, Ranged, Strike** |     **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-----------------------------|--------------------:|
 > | **📏 Ranged 10**            | **🎯 One creature** |
 >

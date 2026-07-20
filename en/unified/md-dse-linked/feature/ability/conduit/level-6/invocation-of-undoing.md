@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: conduit
 cost: 9 Piety
 cost_amount: "9"
@@ -41,7 +41,7 @@ keywords:
     - Area
     - Magic
 metadata:
-    action_type: Main action
+    action_type: '[Main action](../../../../rule/combat/turn.md)'
     class: conduit
     cost: 9 Piety
     distance: 4 [burst](../../../../rule/combat/burst.md)
@@ -62,5 +62,5 @@ metadata:
 name: Invocation of Undoing
 target: Each enemy in the area
 type: feature
-usage: Main action
+usage: '[Main action](../../../../rule/combat/turn.md)'
 ```

@@ -14,9 +14,9 @@ keywords:
     - '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)'
     - Weapon
 metadata:
-    action_type: Main action
+    action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: fury
-    content: "\n*You unleash a howl that hurls your enemies back.*\n\n| **Area, [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), Weapon**    |               **Main action** |\n|----------------------------|------------------------------:|\n| **\U0001F4CF 5 x 1 line within 1** | **\U0001F3AF Each enemy in the area** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc.v1:mcdm.heroes.v1/rule.character/might):**\n\n- **≤11:** 6 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2\n- **12-16:** 9 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 4\n- **17+:** 13 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 6\n\n**Effect:** The targets are [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement) one at a time, starting with the target nearest to you, and can be [pushed](scc.v1:mcdm.heroes.v1/movement/forced-movement) into other targets in the same line."
+    content: "\n*You unleash a howl that hurls your enemies back.*\n\n| **Area, [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), Weapon**    |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|----------------------------|------------------------------:|\n| **\U0001F4CF 5 x 1 line within 1** | **\U0001F3AF Each enemy in the area** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc.v1:mcdm.heroes.v1/rule.character/might):**\n\n- **≤11:** 6 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2\n- **12-16:** 9 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 4\n- **17+:** 13 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 6\n\n**Effect:** The targets are [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement) one at a time, starting with the target nearest to you, and can be [pushed](scc.v1:mcdm.heroes.v1/movement/forced-movement) into other targets in the same line."
     distance: 5 x 1 line within 1
     feature_type: ability
     flavor: You unleash a howl that hurls your enemies back.
@@ -34,4 +34,4 @@ metadata:
 name: Thunder Roar
 target: Each enemy in the area
 type: feature
-usage: Main action
+usage: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'

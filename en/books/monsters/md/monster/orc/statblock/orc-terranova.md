@@ -30,7 +30,7 @@ type: statblock
 
 > 🏹 **Earth Pillar ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
-> | **Magic, Ranged, Strike** |                   **Main action** |
+> | **Magic, Ranged, Strike** |                   **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |---------------------------|----------------------------------:|
 > | **📏 Ranged 10**          | **🎯 Three creatures or objects** |
 >
@@ -44,7 +44,7 @@ type: statblock
 
 > ❇️ **Sinkhole (3 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
-> | **Area, Weapon** |                          **Main action** |
+> | **Area, Weapon** |                          **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |------------------|-----------------------------------------:|
 > | **📏 3 burst**   | **🎯 Each enemy and object in the area** |
 >

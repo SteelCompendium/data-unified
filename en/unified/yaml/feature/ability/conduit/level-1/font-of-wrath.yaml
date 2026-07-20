@@ -9,9 +9,9 @@ keywords:
     - Magic
     - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'
 metadata:
-    action_type: Main action
+    action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: conduit
-    content: "\n*A brilliant column of holy light appears on the battlefield, striking out at nearby enemies.*\n\n| **Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)**  | **Main action** |\n|--------------------|----------------:|\n| **\U0001F4CF [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**   |  **\U0001F3AF Special** |\n\n**Effect:** You summon a spirit of [size](scc.v1:mcdm.heroes.v1/rule.character/size) 2 who can't be harmed, and who appears in an unoccupied space within [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance). The spirit lasts until the end of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn). You and your allies can move through the spirit's space, but enemies can't. Any enemy who moves within 2 squares of the spirit for the first time in a [combat round](scc.v1:mcdm.heroes.v1/rule.combat/combat-round) or starts their turn there takes holy damage equal to your [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition) score."
+    content: "\n*A brilliant column of holy light appears on the battlefield, striking out at nearby enemies.*\n\n| **Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)**  | **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|--------------------|----------------:|\n| **\U0001F4CF [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**   |  **\U0001F3AF Special** |\n\n**Effect:** You summon a spirit of [size](scc.v1:mcdm.heroes.v1/rule.character/size) 2 who can't be harmed, and who appears in an unoccupied space within [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance). The spirit lasts until the end of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn). You and your allies can move through the spirit's space, but enemies can't. Any enemy who moves within 2 squares of the spirit for the first time in a [combat round](scc.v1:mcdm.heroes.v1/rule.combat/combat-round) or starts their turn there takes holy damage equal to your [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition) score."
     distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
     feature_type: ability
     flavor: A brilliant column of holy light appears on the battlefield, striking out at nearby enemies.
@@ -28,4 +28,4 @@ metadata:
 name: Font of Wrath
 target: Special
 type: feature
-usage: Main action
+usage: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'

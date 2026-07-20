@@ -33,7 +33,7 @@ type: statblock
 
 > 🏹 **Chill of Death (Signature Ability)**
 >
-> | **Magic, Ranged, Strike** |               **Main action** |
+> | **Magic, Ranged, Strike** |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |---------------------------|------------------------------:|
 > | **📏 Ranged 10**          | **🎯 One creature or object** |
 >
@@ -45,7 +45,7 @@ type: statblock
 
 > 👤 **Spirit Meld**
 >
-> | **-**       | **Main action** |
+> | **-**       | **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-------------|----------------:|
 > | **📏 Self** |     **🎯 Self** |
 >

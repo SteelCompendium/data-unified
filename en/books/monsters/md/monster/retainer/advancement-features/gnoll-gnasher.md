@@ -50,7 +50,7 @@ type: featureblock
 
 > ❗️ **Frenzied Bite (Encounter)**
 >
-> | **-**       | **Triggered action** |
+> | **-**       | **[Triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |
 > |-------------|---------------------:|
 > | **📏 Self** |          **🎯 Self** |
 >
@@ -62,7 +62,7 @@ type: featureblock
 
 > 🗡 **Flurry of Fangs (Encounter)**
 >
-> | **Melee, Strike, Weapon** |                   **Main action** |
+> | **Melee, Strike, Weapon** |                   **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |---------------------------|----------------------------------:|
 > | **📏 Melee 1**            | **🎯 Three creatures or objects** |
 >
@@ -76,7 +76,7 @@ type: featureblock
 
 > 👤 **Horrific Feas (Encounter)**
 >
-> | **-**       | **Main action** |
+> | **-**       | **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-------------|----------------:|
 > | **📏 Self** |     **🎯 Self** |
 >

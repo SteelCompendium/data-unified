@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: censor
 cost: 3 Wrath
 distance: '[Melee](../../../../rule/combat/melee.md) 1'
@@ -23,7 +23,7 @@ type: ability
 
 *A mighty blow [turns](../../../../rule/combat/turn.md) your foe's vitality into a holy light that envelops you and an ally, discouraging enemies who might attack you.*
 
-| **[Melee](../../../../rule/combat/melee.md), [Strike](../../../../rule/combat/strike.md), Weapon**  |               **Main action** |
+| **[Melee](../../../../rule/combat/melee.md), [Strike](../../../../rule/combat/strike.md), Weapon**  |               **[Main action](../../../../rule/combat/turn.md)** |
 |----------------------------|------------------------------:|
 | **📏 [Melee](../../../../rule/combat/melee.md) 1**             | **🎯 One creature or object** |
 

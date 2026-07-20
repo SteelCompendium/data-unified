@@ -58,7 +58,7 @@ You have the following ability.
 
 *An animal spirit is drawn to you, sharing their senses with you and serving you faithfully.*
 
-| **Magic**   | **Main action** |
+| **Magic**   | **[Main action](../../../rule/combat/turn.md)** |
 |-------------|----------------:|
 | **📏 Self** |     **🎯 Self** |
 
@@ -73,7 +73,7 @@ You have the following ability.
 
 *You commune with the lingering soul of the recently dead.*
 
-| **Magic**      |             **Maneuver** |
+| **Magic**      |             **[Maneuver](../../../rule/combat/turn.md)** |
 |----------------|-------------------------:|
 | **📏 [Melee](../../../rule/combat/melee.md) 1** | **🎯 One dead creature** |
 
@@ -88,7 +88,7 @@ You have the following ability.
 
 *You craft objects with the power of your mind.*
 
-| **Magic**   | **Maneuver** |
+| **Magic**   | **[Maneuver](../../../rule/combat/turn.md)** |
 |-------------|------------:|
 | **📏 Self** | **🎯 Self** |
 

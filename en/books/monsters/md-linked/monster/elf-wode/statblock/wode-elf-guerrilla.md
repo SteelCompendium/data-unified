@@ -31,7 +31,7 @@ type: statblock
 
 > ⚔️ **Splinter Dagger (Signature Ability)**
 >
-> | **Magic, Melee, Ranged, Strike, Weapon** |               **Main action** |
+> | **Magic, Melee, Ranged, Strike, Weapon** |               **[Main action](../../../rule/combat/turn.md)** |
 > |------------------------------------------|------------------------------:|
 > | **📏 Melee 1 or ranged 5**               | **🎯 One creature or object** |
 >
@@ -47,7 +47,7 @@ type: statblock
 
 > ❗️ **Do Not Hesitate in the Wode (3 Malice)**
 >
-> | **Ranged**       | **Free triggered action** |
+> | **Ranged**       | **Free [triggered action](../../../rule/combat/triggered-action.md)** |
 > |------------------|--------------------------:|
 > | **📏 Ranged 20** | **🎯 Self and each ally** |
 >

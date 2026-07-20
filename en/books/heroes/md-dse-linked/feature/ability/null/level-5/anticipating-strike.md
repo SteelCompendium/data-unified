@@ -1,5 +1,5 @@
 ---
-action_type: Free triggered
+action_type: Free [triggered](../../../../rule/combat/triggered-action.md)
 class: "null"
 cost: 9 Discipline
 cost_amount: "9"
@@ -48,7 +48,7 @@ keywords:
     - '[Strike](../../../../rule/combat/strike.md)'
     - Weapon
 metadata:
-    action_type: Free triggered
+    action_type: Free [triggered](../../../../rule/combat/triggered-action.md)
     class: "null"
     cost: 9 Discipline
     distance: '[Melee](../../../../rule/combat/melee.md) 1'
@@ -74,5 +74,5 @@ name: Anticipating Strike
 target: One creature
 trigger: The target moves or uses a main action.
 type: feature
-usage: Free triggered
+usage: Free [triggered](../../../../rule/combat/triggered-action.md)
 ```

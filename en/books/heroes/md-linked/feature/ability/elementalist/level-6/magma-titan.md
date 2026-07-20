@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](../../../../rule/combat/turn.md)'
 class: elementalist
 cost: 9 Essence
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
@@ -21,7 +21,7 @@ type: ability
 
 *Their body swells with lava, mud, and might, towering over their enemies.*
 
-| **Earth, Fire, Green, Magic, [Ranged](../../../../rule/combat/ranged.md)** |            **Maneuver** |
+| **Earth, Fire, Green, Magic, [Ranged](../../../../rule/combat/ranged.md)** |            **[Maneuver](../../../../rule/combat/turn.md)** |
 |---------------------------------------|------------------------:|
 | **📏 [Ranged](../../../../rule/combat/ranged.md) 10**                      | **🎯 Self or one ally** |
 

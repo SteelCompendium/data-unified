@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: talent
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
 feature_type: ability
@@ -39,7 +39,7 @@ keywords:
     - '[Ranged](../../../../rule/combat/ranged.md)'
     - Telekinesis
 metadata:
-    action_type: Main action
+    action_type: '[Main action](../../../../rule/combat/turn.md)'
     class: talent
     distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
     flavor: You lift and hurl your foe away from you.
@@ -60,5 +60,5 @@ metadata:
 name: Kinetic Grip
 target: One creature or object
 type: feature
-usage: Main action
+usage: '[Main action](../../../../rule/combat/turn.md)'
 ```

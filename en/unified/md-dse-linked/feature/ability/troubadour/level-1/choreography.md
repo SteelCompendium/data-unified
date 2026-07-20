@@ -1,5 +1,5 @@
 ---
-action_type: No action
+action_type: '[No action](../../../../rule/combat/turn.md)'
 class: troubadour
 distance: 5 [aura](../../../../rule/combat/aura.md)
 effect: While this performance is active, each target who starts their [turn](../../../../rule/combat/turn.md) in the area gains a +2 [bonus](../../../../rule/dice/bonuses-and-penalties.md) to [speed](../../../../rule/character/speed.md) until the end of their [turn](../../../../rule/combat/turn.md).
@@ -32,7 +32,7 @@ keywords:
     - Magic
     - Performance
 metadata:
-    action_type: No action
+    action_type: '[No action](../../../../rule/combat/turn.md)'
     class: troubadour
     distance: 5 [aura](../../../../rule/combat/aura.md)
     effect: While this performance is active, each target who starts their [turn](../../../../rule/combat/turn.md) in the area gains a +2 [bonus](../../../../rule/dice/bonuses-and-penalties.md) to [speed](../../../../rule/character/speed.md) until the end of their [turn](../../../../rule/combat/turn.md).
@@ -49,5 +49,5 @@ metadata:
 name: Choreography
 target: Self and each ally in the area
 type: feature
-usage: No action
+usage: '[No action](../../../../rule/combat/turn.md)'
 ```

@@ -28,7 +28,7 @@ type: title
 >
 > *Return to your grave!*
 >
-> | **Area, Magic** |                         **Maneuver** |
+> | **Area, Magic** |                         **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-----------------|-------------------------------------:|
 > | **📏 3 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)**  | **🎯 Each undead enemy in the area** |
 >

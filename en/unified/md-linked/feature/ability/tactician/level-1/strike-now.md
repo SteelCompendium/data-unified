@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: tactician
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
 effect: The target can use a [signature ability](../../../../rule/combat/signature-ability.md) as a free [triggered action](../../../../rule/combat/triggered-action.md).
@@ -17,7 +17,7 @@ type: ability
 
 *Your foe left an opening. You point this out to an ally!*
 
-| **[Ranged](../../../../rule/combat/ranged.md)** | **Main action** |
+| **[Ranged](../../../../rule/combat/ranged.md)** | **[Main action](../../../../rule/combat/turn.md)** |
 | ---------------------------------------|----------------:|
 | **📏 [Ranged](../../../../rule/combat/ranged.md) 10**  | **🎯 One ally** |
 

@@ -30,7 +30,7 @@ type: statblock
 
 > 🏹 **Heartpiercer (Signature Ability)**
 >
-> | **Ranged, Strike, Weapon** |     **Main action** |
+> | **Ranged, Strike, Weapon** |     **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |----------------------------|--------------------:|
 > | **📏 Ranged 15**           | **🎯 One creature** |
 >
@@ -44,7 +44,7 @@ type: statblock
 
 > 🗡 **Kiss of Death**
 >
-> | **Magic, Melee** |            **Maneuver** |
+> | **Magic, Melee** |            **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |------------------|------------------------:|
 > | **📏 Melee 1**   | **🎯 One willing ally** |
 >

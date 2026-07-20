@@ -29,7 +29,7 @@ type: statblock
 
 >  🗡 **Inertial Flow ([Signature Ability](../../../../rule/combat/signature-ability.md))**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](../../../../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 1**            | **🎯 Two creatures or objects** |
 >
@@ -41,7 +41,7 @@ type: statblock
 
 > 🗡 **Stun (3 [Malice](../../../../rule/monster/malice.md))**
 >
-> | **Melee, Psionic, Strike, Weapon** |                  **Maneuver** |
+> | **Melee, Psionic, Strike, Weapon** |                  **[Maneuver](../../../../rule/combat/turn.md)** |
 > |------------------------------------|------------------------------:|
 > | **📏 Melee 1**                     | **🎯 One creature or object** |
 >

@@ -38,7 +38,7 @@ weaknesses: []
 
 > 🏹 **Essence Steal 2d10 + 3 (Signature Ability)**
 >
-> | **Magic, Ranged, Strike** | **Main action** |
+> | **Magic, Ranged, Strike** | **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |---------------------------|----------------:|
 > | **📏 Ranged 10** | **🎯 One creature or object** |
 >
@@ -52,7 +52,7 @@ weaknesses: []
 
 > 🏹 **Call Forth (1+ Malice)**
 >
-> | **Magic, Ranged** | **Main action** |
+> | **Magic, Ranged** | **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-------------------|----------------:|
 > | **📏 Ranged 10** | **🎯 Special** |
 >
@@ -60,7 +60,7 @@ weaknesses: []
 
 > ❗️ **Corpse Carry**
 >
-> | **—** | **Triggered action** |
+> | **—** | **[Triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |
 > |-------|---------------------:|
 > | **📏 Ranged 10** | **🎯 Self or one ally** |
 >

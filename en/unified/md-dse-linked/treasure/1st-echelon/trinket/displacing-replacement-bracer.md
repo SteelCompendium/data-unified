@@ -6,12 +6,14 @@ file_dpath: treasure/1st-echelon/trinket
 flavor: A wooden bangle is etched with an ambigram sigil of the Zaliac word for "transfer."
 item_id: displacing-replacement-bracer
 item_name: Displacing Replacement Bracer
+item_prerequisite: Petrified wood from a tree that has not been observed since falling
 keywords:
     - Arms
     - Psionic
 name: Displacing Replacement Bracer
 project_goal: "150"
 project_roll_characteristic: '[Reason](../../../rule/character/reason.md)'
+project_source: Texts or lore in Zaliac
 scc: mcdm.heroes.v1/treasure.1st-echelon.trinket/displacing-replacement-bracer
 source: mcdm.heroes.v1
 treasure_type: trinket

@@ -13,7 +13,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *Your primordial energy makes for instant retribution.*
 
-| **Magic**   | **Maneuver** |
+| **Magic**   | **[Maneuver](../../../rule/combat/turn.md)** |
 |-------------|-------------:|
 | **📏 Self** |  **🎯 Self** |
 
@@ -24,7 +24,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *You strike so no damage is wasted.*
 
-| **Magic, [Melee](../../../rule/combat/melee.md), [Strike](../../../rule/combat/strike.md), Weapon** |     **Main action** |
+| **Magic, [Melee](../../../rule/combat/melee.md), [Strike](../../../rule/combat/strike.md), Weapon** |     **[Main action](../../../rule/combat/turn.md)** |
 |----------------------------------|--------------------:|
 | **📏 [Melee](../../../rule/combat/melee.md) 1**                   | **🎯 One creature** |
 
@@ -41,7 +41,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *Your ferocity manifests into [primordial power](../level-10/primordial-power.md).*
 
-| **Magic**   | **Maneuver** |
+| **Magic**   | **[Maneuver](../../../rule/combat/turn.md)** |
 |-------------|-------------:|
 | **📏 Self** |  **🎯 Self** |
 
@@ -52,7 +52,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *You won't escape your fate.*
 
-| **Magic, [Melee](../../../rule/combat/melee.md), [Strike](../../../rule/combat/strike.md), Weapon** | **Main action** |
+| **Magic, [Melee](../../../rule/combat/melee.md), [Strike](../../../rule/combat/strike.md), Weapon** | **[Main action](../../../rule/combat/turn.md)** |
 |----------------------------------|----------------:|
 | **📏 Self; see below**           |     **🎯 Self** |
 

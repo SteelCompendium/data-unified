@@ -14,7 +14,7 @@ You have the following ability.
 
 *Hey! I'm over here. No, here, numbskull.*
 
-| **Magic, [Ranged](../../../rule/combat/ranged.md)**  |            **Maneuver** |
+| **Magic, [Ranged](../../../rule/combat/ranged.md)**  |            **[Maneuver](../../../rule/combat/turn.md)** |
 |--------------------|------------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**   | **🎯 Self or one ally** |
 

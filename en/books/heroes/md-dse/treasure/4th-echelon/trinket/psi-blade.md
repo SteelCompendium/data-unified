@@ -6,12 +6,14 @@ file_dpath: treasure/4th-echelon/trinket
 flavor: This wide metal bracer is set with a glowing gemstone.
 item_id: psi-blade
 item_name: Psi Blade
+item_prerequisite: Steel alloy, one fine-cut topaz
 keywords:
     - Arms
     - Psionic
 name: Psi Blade
 project_goal: "600"
 project_roll_characteristic: '[Agility](scc.v1:mcdm.heroes.v1/rule.character/agility) or [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence)'
+project_source: Texts or lore in Mindspeech
 scc: mcdm.heroes.v1/treasure.4th-echelon.trinket/psi-blade
 source: mcdm.heroes.v1
 treasure_type: trinket

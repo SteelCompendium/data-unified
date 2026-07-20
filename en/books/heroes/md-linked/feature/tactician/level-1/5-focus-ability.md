@@ -13,7 +13,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *"Let's not argue about who's the hammer and who's the anvil!"*
 
-| **[Melee](../../../rule/combat/melee.md), [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md), Weapon** |               **Main action** |
+| **[Melee](../../../rule/combat/melee.md), [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md), Weapon** |               **[Main action](../../../rule/combat/turn.md)** |
 |-----------------------------------|------------------------------:|
 | **📏 [Melee](../../../rule/combat/melee.md) 1 or [ranged](../../../rule/combat/ranged.md) 5**        | **🎯 One creature or object** |
 
@@ -30,7 +30,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *Your attack demoralizes your foe. Your allies begin to think you can win.*
 
-| **[Melee](../../../rule/combat/melee.md), [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md), Weapon** |               **Main action** |
+| **[Melee](../../../rule/combat/melee.md), [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md), Weapon** |               **[Main action](../../../rule/combat/turn.md)** |
 |-----------------------------------|------------------------------:|
 | **📏 [Melee](../../../rule/combat/melee.md) 1 or [ranged](../../../rule/combat/ranged.md) 5**        | **🎯 One creature or object** |
 
@@ -49,7 +49,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *Your allies wait for your command—then unleash death!*
 
-| **[Ranged](../../../rule/combat/ranged.md)**       |        **Maneuver** |
+| **[Ranged](../../../rule/combat/ranged.md)**       |        **[Maneuver](../../../rule/combat/turn.md)** |
 |------------------|--------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10** | **🎯 Three allies** |
 
@@ -60,7 +60,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *All those coordination drills you made them do finally pay off.*
 
-| **[Ranged](../../../rule/combat/ranged.md)**       |      **Maneuver** |
+| **[Ranged](../../../rule/combat/ranged.md)**       |      **[Maneuver](../../../rule/combat/turn.md)** |
 |------------------|------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10** | **🎯 Two allies** |
 

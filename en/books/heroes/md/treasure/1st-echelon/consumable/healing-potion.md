@@ -2,12 +2,14 @@
 echelon: "1"
 effect: When you drink this potion as a maneuver, you regain [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) equal to your [recovery value](scc.v1:mcdm.heroes.v1/rule.health/recoveries) without spending a [Recovery](scc.v1:mcdm.heroes.v1/rule.health/recoveries).
 flavor: Thick and red, this liquid tastes of sour beer.
+item_prerequisite: An ounce of costmary leaves
 keywords:
     - Magic
     - Potion
 name: Healing Potion
 project_goal: "45"
 project_roll_characteristic: '[Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) or [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)'
+project_source: Texts or lore in Caelian
 scc: mcdm.heroes.v1/treasure.1st-echelon.consumable/healing-potion
 treasure_type: consumable
 type: treasure

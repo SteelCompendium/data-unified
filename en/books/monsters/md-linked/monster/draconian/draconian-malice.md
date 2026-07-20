@@ -55,7 +55,7 @@ At the start of any draconian's turn, you can spend [Malice](../../rule/monster/
 
 > 🔳 **Breath Weapon (5 [Malice](../../rule/monster/malice.md))**
 >
-> | **Area, Magic**            |               **Main action** |
+> | **Area, Magic**            |               **[Main action](../../rule/combat/turn.md)** |
 > |----------------------------|------------------------------:|
 > | **📏 4 x 2 line within 1** | **🎯 Each enemy in the area** |
 >
@@ -69,7 +69,7 @@ At the start of any draconian's turn, you can spend [Malice](../../rule/monster/
 
 > ❇️ **Scaleshatter Burst (7 [Malice](../../rule/monster/malice.md))**
 >
-> | **Area, Magic** |             **Free maneuver** |
+> | **Area, Magic** |             **[Free maneuver](../../rule/combat/free-maneuver.md)** |
 > |-----------------|------------------------------:|
 > | **📏 2 burst**  | **🎯 Each enemy in the area** |
 >

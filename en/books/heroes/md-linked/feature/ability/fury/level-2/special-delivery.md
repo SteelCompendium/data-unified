@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](../../../../rule/combat/turn.md)'
 class: fury
 cost: 5 Ferocity
 distance: '[Melee](../../../../rule/combat/melee.md) 1'
@@ -18,7 +18,7 @@ type: ability
 
 *You ready?*
 
-| **[Melee](../../../../rule/combat/melee.md), Weapon** |            **Maneuver** |
+| **[Melee](../../../../rule/combat/melee.md), Weapon** |            **[Maneuver](../../../../rule/combat/turn.md)** |
 |-------------------|------------------------:|
 | **📏 [Melee](../../../../rule/combat/melee.md) 1**    | **🎯 One willing ally** |
 

@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](../../../../rule/combat/turn.md)'
 class: tactician
 cost: 7 Focus
 cost_amount: "7"
@@ -30,7 +30,7 @@ feature_type: ability
 flavor: The purpose of a charge is to break their morale and force a retreat.
 keywords: []
 metadata:
-    action_type: Maneuver
+    action_type: '[Maneuver](../../../../rule/combat/turn.md)'
     class: tactician
     cost: 7 Focus
     distance: Self
@@ -45,5 +45,5 @@ metadata:
 name: Frontal Assault
 target: Self
 type: feature
-usage: Maneuver
+usage: '[Maneuver](../../../../rule/combat/turn.md)'
 ```

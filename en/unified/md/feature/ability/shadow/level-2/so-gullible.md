@@ -1,5 +1,5 @@
 ---
-action_type: Free triggered
+action_type: Free [triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)
 class: shadow
 cost: 5 Insight
 distance: Self
@@ -20,7 +20,7 @@ type: ability
 
 *When your enemy strikes, you reveal you were in a different place all along.*
 
-| **Magic**            | **Free triggered** |
+| **Magic**            | **Free [triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |
 |----------------------|-------------------:|
 | **📏 Self**          |        **🎯 Self** |
 

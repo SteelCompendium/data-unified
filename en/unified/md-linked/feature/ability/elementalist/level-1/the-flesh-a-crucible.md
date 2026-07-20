@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: elementalist
 cost: 3 Essence
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
@@ -23,7 +23,7 @@ type: ability
 
 *Fire engulfs your target and continues to churn.*
 
-| **Fire, Magic, [Ranged](../../../../rule/combat/ranged.md), [Strike](../../../../rule/combat/strike.md)** |               **Main action** |
+| **Fire, Magic, [Ranged](../../../../rule/combat/ranged.md), [Strike](../../../../rule/combat/strike.md)** |               **[Main action](../../../../rule/combat/turn.md)** |
 |---------------------------------|------------------------------:|
 | **📏 [Ranged](../../../../rule/combat/ranged.md) 10**                | **🎯 One creature or object** |
 

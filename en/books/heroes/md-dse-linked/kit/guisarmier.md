@@ -21,28 +21,37 @@ The [Guisarmier](guisarmier.md) kit is for those who want to use a polearm for e
 
 You wear medium armor and wield a polearm.
 
-##### Kit Bonuses
-
-**[Stamina](../rule/health/stamina.md) [Bonus](../rule/dice/bonuses-and-penalties.md):** +6 per [echelon](../rule/general/echelon.md)
-
-**[Stability](../rule/character/stability.md) [Bonus](../rule/dice/bonuses-and-penalties.md):** +1
-
-**[Melee](../rule/combat/melee.md) Damage [Bonus](../rule/dice/bonuses-and-penalties.md):** +2/+2/+2
-
-**[Melee](../rule/combat/melee.md) [Distance](../rule/combat/distance.md) [Bonus](../rule/dice/bonuses-and-penalties.md):** +1
-
-##### Signature Ability
-
-###### Forward Thrust, Backward Smash
-
-*In your hands, the haft is as good as the head.*
-
-| **[Melee](../rule/combat/melee.md), [Strike](../rule/combat/strike.md), Weapon** |                 **Main action** |
-|---------------------------|--------------------------------:|
-| **📏 [Melee](../rule/combat/melee.md) 2**            | **🎯 Two creatures or objects** |
-
-**[Power Roll](../rule/dice/power-roll.md) + [Might](../rule/character/might.md) or [Agility](../rule/character/agility.md):**
-
-- **≤11:** 4 damage
-- **12-16:** 7 damage
-- **17+:** 9 damage
+```ds-feature
+distance: '[Melee](../rule/combat/melee.md) 2'
+effects:
+    - roll: Power Roll + [Might](../rule/character/might.md) or [Agility](../rule/character/agility.md)
+      tier1: 4 damage
+      tier2: 7 damage
+      tier3: 9 damage
+feature_type: ability
+flavor: In your hands, the haft is as good as the head.
+keywords:
+    - '[Melee](../rule/combat/melee.md)'
+    - '[Strike](../rule/combat/strike.md)'
+    - Weapon
+metadata:
+    action_type: Main action
+    distance: '[Melee](../rule/combat/melee.md) 2'
+    flavor: In your hands, the haft is as good as the head.
+    keywords:
+        - '[Melee](../rule/combat/melee.md)'
+        - '[Strike](../rule/combat/strike.md)'
+        - Weapon
+    name: Forward Thrust, Backward Smash
+    power_roll_characteristic: '[Might](../rule/character/might.md) or [Agility](../rule/character/agility.md)'
+    subtype: signature
+    target: Two creatures or objects
+    tier1: 4 damage
+    tier2: 7 damage
+    tier3: 9 damage
+    type: ability
+name: Forward Thrust, Backward Smash
+target: Two creatures or objects
+type: feature
+usage: Main action
+```

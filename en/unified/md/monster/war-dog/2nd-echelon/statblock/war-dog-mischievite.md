@@ -30,7 +30,7 @@ type: statblock
 
 > ⚔️ **Fuse-Iron Knives ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
-> | **Melee, Ranged, Strike, Weapon** |      **Main action** |
+> | **Melee, Ranged, Strike, Weapon** |      **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-----------------------------------|---------------------:|
 > | **📏 Melee 1 or ranged 5**        | **🎯 Two creatures** |
 >
@@ -44,7 +44,7 @@ type: statblock
 
 > 🏹 **Misdirection**
 >
-> | **Ranged**      |                        **Maneuver** |
+> | **Ranged**      |                        **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-----------------|------------------------------------:|
 > | **📏 Ranged 3** | **🎯 One ally or dazzled creature** |
 >

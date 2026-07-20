@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: tactician
 cost: 9 Focus
 distance: 2 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)
@@ -18,7 +18,7 @@ type: ability
 
 *You and your allies coordinate to form a new battle line.*
 
-| **Area**       |                          **Maneuver** |
+| **Area**       |                          **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 |----------------|--------------------------------------:|
 | **📏 2 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)** | **🎯 Self and each ally in the area** |
 

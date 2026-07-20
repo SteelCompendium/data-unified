@@ -29,7 +29,7 @@ type: statblock
 
 > ❇️ **Cacophony ([Signature Ability](../../../rule/combat/signature-ability.md))**
 >
-> | **Area, Magic** |               **Main action** |
+> | **Area, Magic** |               **[Main action](../../../rule/combat/turn.md)** |
 > |-----------------|------------------------------:|
 > | **📏 5 burst**  | **🎯 Each enemy in the area** |
 >
@@ -43,7 +43,7 @@ type: statblock
 
 > 🏹 **Tempo Changer**
 >
-> | **Magic, Ranged, Strike** |       **Maneuver** |
+> | **Magic, Ranged, Strike** |       **[Maneuver](../../../rule/combat/turn.md)** |
 > |---------------------------|-------------------:|
 > | **📏 Ranged 10**          | **🎯 Two enemies** |
 >
@@ -57,7 +57,7 @@ type: statblock
 
 > ❗️ **Ever-Ready Rodent (2 [Malice](../../../rule/monster/malice.md))**
 >
-> | **Magic, Ranged** |      **Free triggered action** |
+> | **Magic, Ranged** |      **Free [triggered action](../../../rule/combat/triggered-action.md)** |
 > |-------------------|-------------------------------:|
 > | **📏 Ranged 5**   | **🎯 The triggering creature** |
 >

@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: tactician
 cost: 9 Focus
 cost_amount: "9"
@@ -32,7 +32,7 @@ flavor: You inspire your allies to recover and gather their strength.
 keywords:
     - Area
 metadata:
-    action_type: Main action
+    action_type: '[Main action](../../../../rule/combat/turn.md)'
     class: tactician
     cost: 9 Focus
     distance: 3 [burst](../../../../rule/combat/burst.md)
@@ -48,5 +48,5 @@ metadata:
 name: Win This Day!
 target: Self and each ally in the area
 type: feature
-usage: Main action
+usage: '[Main action](../../../../rule/combat/turn.md)'
 ```

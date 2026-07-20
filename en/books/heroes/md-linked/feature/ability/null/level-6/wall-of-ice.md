@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: "null"
 cost: 9 Discipline
 distance: 10 wall within 10
@@ -20,7 +20,7 @@ type: ability
 
 *You create a [wall of ice](wall-of-ice.md).*
 
-| **Area, Psionic, [Ranged](../../../../rule/combat/ranged.md)** | **Main action** |
+| **Area, Psionic, [Ranged](../../../../rule/combat/ranged.md)** | **[Main action](../../../../rule/combat/turn.md)** |
 |---------------------------|----------------:|
 | **📏 10 wall within 10**  |  **🎯 Special** |
 

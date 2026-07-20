@@ -32,7 +32,7 @@ type: statblock
 
 > 🗡 **Chilling Gravetouch ([Signature Ability](../../../../rule/combat/signature-ability.md))**
 >
-> | **Magic, Melee, Strike, Weapon** |               **Main action** |
+> | **Magic, Melee, Strike, Weapon** |               **[Main action](../../../../rule/combat/turn.md)** |
 > |----------------------------------|------------------------------:|
 > | **📏 Melee 1**                   | **🎯 One creature or object** |
 >
@@ -46,7 +46,7 @@ type: statblock
 
 > 👤 **Hidden Movement**
 >
-> | **-**       | **Maneuver** |
+> | **-**       | **[Maneuver](../../../../rule/combat/turn.md)** |
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
@@ -54,7 +54,7 @@ type: statblock
 
 > ❗️ **Stolen Vitality (1 [Malice](../../../../rule/monster/malice.md))**
 >
-> | **Magic, Ranged** |      **Free triggered action** |
+> | **Magic, Ranged** |      **Free [triggered action](../../../../rule/combat/triggered-action.md)** |
 > |-------------------|-------------------------------:|
 > | **📏 Ranged 5**   | **🎯 The triggering creature** |
 >

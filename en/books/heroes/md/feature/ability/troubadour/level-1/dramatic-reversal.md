@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: troubadour
 cost: 5 Drama
 distance: 3 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)
@@ -21,7 +21,7 @@ type: ability
 
 *Give the audience a surprise.*
 
-| **Area, Magic** |                       **Main action** |
+| **Area, Magic** |                       **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 |-----------------|--------------------------------------:|
 | **📏 3 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)**  | **🎯 Self and each ally in the area** |
 

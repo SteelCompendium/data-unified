@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: "null"
 cost: 11 Discipline
 distance: Self
@@ -22,7 +22,7 @@ type: ability
 
 *You become the coldest thing in the timescape.*
 
-| **Psionic** | **Maneuver** |
+| **Psionic** | **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 |-------------|-------------:|
 | **📏 Self** |  **🎯 Self** |
 

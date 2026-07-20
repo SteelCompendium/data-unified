@@ -1,5 +1,5 @@
 ---
-action_type: Triggered
+action_type: '[Triggered](../../../../rule/combat/triggered-action.md)'
 class: talent
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
 effect: The target takes psychic damage equal to half the triggering damage.
@@ -33,7 +33,7 @@ keywords:
     - Psionic
     - '[Ranged](../../../../rule/combat/ranged.md)'
 metadata:
-    action_type: Triggered
+    action_type: '[Triggered](../../../../rule/combat/triggered-action.md)'
     class: talent
     distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
     effect: The target takes psychic damage equal to half the triggering damage.
@@ -53,5 +53,5 @@ name: Feedback Loop
 target: One creature
 trigger: The target deals damage to an ally.
 type: feature
-usage: Triggered
+usage: '[Triggered](../../../../rule/combat/triggered-action.md)'
 ```

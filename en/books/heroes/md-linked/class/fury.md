@@ -178,7 +178,7 @@ Your [primordial aspect](../feature/fury/level-1/primordial-aspect.md) grants yo
 
 *In your anger, you revert to a more bestial form.*
 
-| **-**       | **Triggered** |
+| **-**       | **[Triggered](../rule/combat/triggered-action.md)** |
 |-------------|--------------:|
 | **📏 Self** |   **🎯 Self** |
 
@@ -193,7 +193,7 @@ Your [primordial aspect](../feature/fury/level-1/primordial-aspect.md) grants yo
 
 *You redirect the energy of motion.*
 
-| **Magic, [Melee](../rule/combat/melee.md)** |               **Triggered** |
+| **Magic, [Melee](../rule/combat/melee.md)** |               **[Triggered](../rule/combat/triggered-action.md)** |
 |------------------|----------------------------:|
 | **📏 [Melee](../rule/combat/melee.md) 1**   | **🎯 Self or one creature** |
 
@@ -208,7 +208,7 @@ Your [primordial aspect](../feature/fury/level-1/primordial-aspect.md) grants yo
 
 *You are as elusive as a hummingbird.*
 
-| **-**       | **Triggered** |
+| **-**       | **[Triggered](../rule/combat/triggered-action.md)** |
 |-------------|--------------:|
 | **📏 Self** |    **🎯 Self** |
 
@@ -235,7 +235,7 @@ Choose one [signature ability](../rule/combat/signature-ability.md) from the fol
 
 *The heavy impact of your weapon attacks drives your foes ever back.*
 
-| **[Melee](../rule/combat/melee.md), [Strike](../rule/combat/strike.md), Weapon** |                **Main action** |
+| **[Melee](../rule/combat/melee.md), [Strike](../rule/combat/strike.md), Weapon** |                **[Main action](../rule/combat/turn.md)** |
 |---------------------------|-------------------------------:|
 | **📏 [Melee](../rule/combat/melee.md) 1**            |  **🎯 One creature or object** |
 
@@ -250,7 +250,7 @@ Choose one [signature ability](../rule/combat/signature-ability.md) from the fol
 
 *Staying in constant motion helps you slip out of reach after a brutal assault.*
 
-| **[Melee](../rule/combat/melee.md), [Strike](../rule/combat/strike.md), Weapon** |               **Main action** |
+| **[Melee](../rule/combat/melee.md), [Strike](../rule/combat/strike.md), Weapon** |               **[Main action](../rule/combat/turn.md)** |
 |---------------------------|------------------------------:|
 | **📏 [Melee](../rule/combat/melee.md) 1**            | **🎯 One creature or object** |
 
@@ -267,7 +267,7 @@ Choose one [signature ability](../rule/combat/signature-ability.md) from the fol
 
 *You skewer your enemy like a boar upon a spit.*
 
-| **[Melee](../rule/combat/melee.md), [Strike](../rule/combat/strike.md), Weapon** |                             **Main action** |
+| **[Melee](../rule/combat/melee.md), [Strike](../rule/combat/strike.md), Weapon** |                             **[Main action](../rule/combat/turn.md)** |
 |---------------------------|--------------------------------------------:|
 | **📏 [Melee](../rule/combat/melee.md) 1**            | **🎯 One creature of your [size](../rule/character/size.md) or smaller** |
 
@@ -282,7 +282,7 @@ Choose one [signature ability](../rule/combat/signature-ability.md) from the fol
 
 *Your reckless assault leaves you tactically vulnerable.*
 
-| **[Melee](../rule/combat/melee.md), [Strike](../rule/combat/strike.md), Weapon** |               **Main action** |
+| **[Melee](../rule/combat/melee.md), [Strike](../rule/combat/strike.md), Weapon** |               **[Main action](../rule/combat/turn.md)** |
 |---------------------------|------------------------------:|
 | **📏 [Melee](../rule/combat/melee.md) 1**            | **🎯 One creature or object** |
 
@@ -307,7 +307,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 *You hew about you with your mighty weapon, hurling enemies backward.*
 
-| **Area, [Melee](../rule/combat/melee.md), Weapon** |               **Main action** |
+| **Area, [Melee](../rule/combat/melee.md), Weapon** |               **[Main action](../rule/combat/turn.md)** |
 |-------------------------|------------------------------:|
 | **📏 1 [burst](../rule/combat/burst.md)**          | **🎯 Each enemy in the area** |
 
@@ -322,7 +322,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 *Your enemies will clear your path—whether they want to or not.*
 
-| **[Melee](../rule/combat/melee.md), [Strike](../rule/combat/strike.md), Weapon** |     **Main action** |
+| **[Melee](../rule/combat/melee.md), [Strike](../rule/combat/strike.md), Weapon** |     **[Main action](../rule/combat/turn.md)** |
 |---------------------------|--------------------:|
 | **📏 [Melee](../rule/combat/melee.md) 1**            | **🎯 One creature** |
 
@@ -339,7 +339,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 *Teach them the folly of lining up for you.*
 
-| **[Melee](../rule/combat/melee.md), Weapon**      | **Main action** |
+| **[Melee](../rule/combat/melee.md), Weapon**      | **[Main action](../rule/combat/turn.md)** |
 |------------------------|----------------:|
 | **📏 Self; see below** |     **🎯 Self** |
 
@@ -358,7 +358,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 *Hard for them to fight when they're busy holding in their giblets.*
 
-| **[Melee](../rule/combat/melee.md), [Strike](../rule/combat/strike.md), Weapon** |               **Main action** |
+| **[Melee](../rule/combat/melee.md), [Strike](../rule/combat/strike.md), Weapon** |               **[Main action](../rule/combat/turn.md)** |
 |---------------------------|------------------------------:|
 | **📏 [Melee](../rule/combat/melee.md) 1**            | **🎯 One creature or object** |
 
@@ -379,7 +379,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 *See how well they fight after you've bled them dry.*
 
-| **[Melee](../rule/combat/melee.md), [Strike](../rule/combat/strike.md), Weapon**   |               **Main action** |
+| **[Melee](../rule/combat/melee.md), [Strike](../rule/combat/strike.md), Weapon**   |               **[Main action](../rule/combat/turn.md)** |
 |-----------------------------|------------------------------:|
 | **📏 [Melee](../rule/combat/melee.md) 1**              | **🎯 One creature or object** |
 
@@ -407,7 +407,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 *You unleash a howl that hurls your enemies back.*
 
-| **Area, [Melee](../rule/combat/melee.md), Weapon**    |               **Main action** |
+| **Area, [Melee](../rule/combat/melee.md), Weapon**    |               **[Main action](../rule/combat/turn.md)** |
 |----------------------------|------------------------------:|
 | **📏 5 x 1 line within 1** | **🎯 Each enemy in the area** |
 
@@ -424,7 +424,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 *You gut your life force to ensure a foe's demise.*
 
-| **[Melee](../rule/combat/melee.md), [Strike](../rule/combat/strike.md), Weapon** |     **Main action** |
+| **[Melee](../rule/combat/melee.md), [Strike](../rule/combat/strike.md), Weapon** |     **[Main action](../rule/combat/turn.md)** |
 |---------------------------|--------------------:|
 | **📏 [Melee](../rule/combat/melee.md) 1**            | **🎯 One creature** |
 
@@ -481,7 +481,7 @@ Choose one of the following abilities.
 
 *You ready?*
 
-| **[Melee](../rule/combat/melee.md), Weapon** |            **Maneuver** |
+| **[Melee](../rule/combat/melee.md), Weapon** |            **[Maneuver](../rule/combat/turn.md)** |
 |-------------------|------------------------:|
 | **📏 [Melee](../rule/combat/melee.md) 1**    | **🎯 One willing ally** |
 
@@ -492,7 +492,7 @@ Choose one of the following abilities.
 
 *It's easier to destroy than to create. Much easier, in fact!*
 
-| **[Melee](../rule/combat/melee.md), Weapon**      | **Maneuver** |
+| **[Melee](../rule/combat/melee.md), Weapon**      | **[Maneuver](../rule/combat/turn.md)** |
 |------------------------|-------------:|
 | **📏 Self; see below** |  **🎯 Self** |
 
@@ -515,7 +515,7 @@ Choose one of the following abilities.
 
 *Your unbridled rage strikes terror in their hearts.*
 
-| **[Melee](../rule/combat/melee.md), [Strike](../rule/combat/strike.md), Weapon** |     **Main action** |
+| **[Melee](../rule/combat/melee.md), [Strike](../rule/combat/strike.md), Weapon** |     **[Main action](../rule/combat/turn.md)** |
 |---------------------------|--------------------:|
 | **📏 [Melee](../rule/combat/melee.md) 1**            | **🎯 One creature** |
 
@@ -530,7 +530,7 @@ Choose one of the following abilities.
 
 *Organizing your forces like feckless creatures of Law. Pitiful.*
 
-| **[Melee](../rule/combat/melee.md), Weapon**      | **Main action** |
+| **[Melee](../rule/combat/melee.md), Weapon**      | **[Main action](../rule/combat/turn.md)** |
 |------------------------|----------------:|
 | **📏 Self; see below** |     **🎯 Self** |
 
@@ -551,7 +551,7 @@ Choose one of the following abilities.
 
 *I will hunt you down.*
 
-| **[Melee](../rule/combat/melee.md), [Strike](../rule/combat/strike.md), Weapon** |     **Main action** |
+| **[Melee](../rule/combat/melee.md), [Strike](../rule/combat/strike.md), Weapon** |     **[Main action](../rule/combat/turn.md)** |
 |---------------------------|--------------------:|
 | **📏 [Melee](../rule/combat/melee.md) 1**            | **🎯 One creature** |
 
@@ -568,7 +568,7 @@ Choose one of the following abilities.
 
 *The sound of the storm within you staggers your opponents.*
 
-| **Area, Magic** |               **Main action** |
+| **Area, Magic** |               **[Main action](../rule/combat/turn.md)** |
 |-----------------|------------------------------:|
 | **📏 2 [burst](../rule/combat/burst.md)**  | **🎯 Each enemy in the area** |
 
@@ -621,7 +621,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 *Foes tremble at the sight of you.*
 
-| **Magic**   | **Maneuver** |
+| **Magic**   | **[Maneuver](../rule/combat/turn.md)** |
 |-------------|-------------:|
 | **📏 Self** |  **🎯 Self** |
 
@@ -632,7 +632,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 *Shocked in the face of your naked brutality, your enemy's instincts take over.*
 
-| **Magic**   | **Maneuver** |
+| **Magic**   | **[Maneuver](../rule/combat/turn.md)** |
 |-------------|-------------:|
 | **📏 Self** |  **🎯 Self** |
 
@@ -643,7 +643,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 *See how useless their weapons are!*
 
-| **Magic**   | **Maneuver** |
+| **Magic**   | **[Maneuver](../rule/combat/turn.md)** |
 |-------------|-------------:|
 | **📏 Self** |  **🎯 Self** |
 
@@ -654,7 +654,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 *Slash. Walk away.*
 
-| **[Melee](../rule/combat/melee.md), [Strike](../rule/combat/strike.md), Weapon** |     **Main action** |
+| **[Melee](../rule/combat/melee.md), [Strike](../rule/combat/strike.md), Weapon** |     **[Main action](../rule/combat/turn.md)** |
 |---------------------------|--------------------:|
 | **📏 [Melee](../rule/combat/melee.md) 1**            | **🎯 One creature** |
 
@@ -729,7 +729,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 *You need just one blow to sabotage your target.*
 
-| **[Melee](../rule/combat/melee.md), [Strike](../rule/combat/strike.md), Weapon** |     **Main action** |
+| **[Melee](../rule/combat/melee.md), [Strike](../rule/combat/strike.md), Weapon** |     **[Main action](../rule/combat/turn.md)** |
 |---------------------------|--------------------:|
 | **📏 [Melee](../rule/combat/melee.md) 1**            | **🎯 One creature** |
 
@@ -746,7 +746,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 *You quickly strike back at a foe.*
 
-| **[Melee](../rule/combat/melee.md), [Strike](../rule/combat/strike.md), Weapon** |             **Free triggered** |
+| **[Melee](../rule/combat/melee.md), [Strike](../rule/combat/strike.md), Weapon** |             **Free [triggered](../rule/combat/triggered-action.md)** |
 |---------------------------|-------------------------------:|
 | **📏 [Melee](../rule/combat/melee.md) 1**            | **🎯 The triggering creature** |
 
@@ -765,7 +765,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 *You knock around enemies like playthings.*
 
-| **[Melee](../rule/combat/melee.md), [Strike](../rule/combat/strike.md), Weapon** |                 **Main action** |
+| **[Melee](../rule/combat/melee.md), [Strike](../rule/combat/strike.md), Weapon** |                 **[Main action](../rule/combat/turn.md)** |
 |---------------------------|--------------------------------:|
 | **📏 [Melee](../rule/combat/melee.md) 1**            | **🎯 Two creatures or objects** |
 
@@ -782,7 +782,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 *You channel the Primordial Chaos into blows that petrify your foe... literally.*
 
-| **Magic, [Melee](../rule/combat/melee.md), [Strike](../rule/combat/strike.md), Weapon** |     **Main action** |
+| **Magic, [Melee](../rule/combat/melee.md), [Strike](../rule/combat/strike.md), Weapon** |     **[Main action](../rule/combat/turn.md)** |
 |----------------------------------|--------------------:|
 | **📏 [Melee](../rule/combat/melee.md) 1**                   | **🎯 One creature** |
 
@@ -827,7 +827,7 @@ Choose one of the following abilities.
 
 *You leap and crash down, causing a shockwave that devastates foes.*
 
-| **Magic**   | **Maneuver** |
+| **Magic**   | **[Maneuver](../rule/combat/turn.md)** |
 |-------------|-------------:|
 | **📏 Self** |  **🎯 Self** |
 
@@ -844,7 +844,7 @@ Choose one of the following abilities.
 
 *You strike an enemy hard enough to be a projectile that knocks a crowd of creatures around.*
 
-| **[Melee](../rule/combat/melee.md), [Strike](../rule/combat/strike.md), Weapon** |     **Main action** |
+| **[Melee](../rule/combat/melee.md), [Strike](../rule/combat/strike.md), Weapon** |     **[Main action](../rule/combat/turn.md)** |
 |---------------------------|--------------------:|
 | **📏 [Melee](../rule/combat/melee.md) 1**            | **🎯 One creature** |
 
@@ -865,7 +865,7 @@ Choose one of the following abilities.
 
 *Once you taste your foe's blood, you become more efficient and [turn](../rule/combat/turn.md) every killing blow into an opportunity.*
 
-| **[Melee](../rule/combat/melee.md), [Strike](../rule/combat/strike.md), Weapon** | **Free triggered** |
+| **[Melee](../rule/combat/melee.md), [Strike](../rule/combat/strike.md), Weapon** | **Free [triggered](../rule/combat/triggered-action.md)** |
 |---------------------------|-------------------:|
 | **📏 [Melee](../rule/combat/melee.md) 1**            |        **🎯 Self** |
 
@@ -878,7 +878,7 @@ Choose one of the following abilities.
 
 *You break through the enemy lines to make an example.*
 
-| **[Melee](../rule/combat/melee.md), [Strike](../rule/combat/strike.md), Weapon** |     **Main action** |
+| **[Melee](../rule/combat/melee.md), [Strike](../rule/combat/strike.md), Weapon** |     **[Main action](../rule/combat/turn.md)** |
 |---------------------------|--------------------:|
 | **📏 [Melee](../rule/combat/melee.md) 1**            | **🎯 One creature** |
 
@@ -901,7 +901,7 @@ Choose one of the following abilities.
 
 *You strike at the target like the ultimate predator you are.*
 
-| **Magic, [Melee](../rule/combat/melee.md), [Strike](../rule/combat/strike.md), Weapon** |     **Main action** |
+| **Magic, [Melee](../rule/combat/melee.md), [Strike](../rule/combat/strike.md), Weapon** |     **[Main action](../rule/combat/turn.md)** |
 |----------------------------------|--------------------:|
 | **📏 [Melee](../rule/combat/melee.md) 1**                   | **🎯 One creature** |
 
@@ -918,7 +918,7 @@ Choose one of the following abilities.
 
 *You focus your connection to the Primordial Chaos into a seething storm.*
 
-| **Area, Magic** |                     **Maneuver** |
+| **Area, Magic** |                     **[Maneuver](../rule/combat/turn.md)** |
 |-----------------|---------------------------------:|
 | **📏 3 [aura](../rule/combat/aura.md)**   | **🎯 Each creature in the area** |
 
@@ -993,7 +993,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 *Your primordial energy makes for instant retribution.*
 
-| **Magic**   | **Maneuver** |
+| **Magic**   | **[Maneuver](../rule/combat/turn.md)** |
 |-------------|-------------:|
 | **📏 Self** |  **🎯 Self** |
 
@@ -1004,7 +1004,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 *You strike so no damage is wasted.*
 
-| **Magic, [Melee](../rule/combat/melee.md), [Strike](../rule/combat/strike.md), Weapon** |     **Main action** |
+| **Magic, [Melee](../rule/combat/melee.md), [Strike](../rule/combat/strike.md), Weapon** |     **[Main action](../rule/combat/turn.md)** |
 |----------------------------------|--------------------:|
 | **📏 [Melee](../rule/combat/melee.md) 1**                   | **🎯 One creature** |
 
@@ -1021,7 +1021,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 *Your ferocity manifests into [primordial power](../feature/fury/level-10/primordial-power.md).*
 
-| **Magic**   | **Maneuver** |
+| **Magic**   | **[Maneuver](../rule/combat/turn.md)** |
 |-------------|-------------:|
 | **📏 Self** |  **🎯 Self** |
 
@@ -1032,7 +1032,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 *You won't escape your fate.*
 
-| **Magic, [Melee](../rule/combat/melee.md), [Strike](../rule/combat/strike.md), Weapon** | **Main action** |
+| **Magic, [Melee](../rule/combat/melee.md), [Strike](../rule/combat/strike.md), Weapon** | **[Main action](../rule/combat/turn.md)** |
 |----------------------------------|----------------:|
 | **📏 Self; see below**           |     **🎯 Self** |
 
@@ -1065,7 +1065,7 @@ Choose one of the following abilities.
 
 *You use your weapon to create a destructive shockwave.*
 
-| **Area, Magic, [Melee](../rule/combat/melee.md), Weapon** |               **Main action** |
+| **Area, Magic, [Melee](../rule/combat/melee.md), Weapon** |               **[Main action](../rule/combat/turn.md)** |
 |--------------------------------|------------------------------:|
 | **📏 3 [burst](../rule/combat/burst.md)**                 | **🎯 Each enemy in the area** |
 
@@ -1082,7 +1082,7 @@ Choose one of the following abilities.
 
 *You channel the power of the Primordial Chaos to pull foes to you.*
 
-| **Area, Magic, [Melee](../rule/combat/melee.md), Weapon** |               **Main action** |
+| **Area, Magic, [Melee](../rule/combat/melee.md), Weapon** |               **[Main action](../rule/combat/turn.md)** |
 |--------------------------------|------------------------------:|
 | **📏 3 [burst](../rule/combat/burst.md)**                 | **🎯 Each enemy in the area** |
 
@@ -1103,7 +1103,7 @@ Choose one of the following abilities.
 
 *You attune the target to be weaker to a specific element.*
 
-| **Magic, [Melee](../rule/combat/melee.md), [Strike](../rule/combat/strike.md), Weapon** |     **Main action** |
+| **Magic, [Melee](../rule/combat/melee.md), [Strike](../rule/combat/strike.md), Weapon** |     **[Main action](../rule/combat/turn.md)** |
 |----------------------------------|--------------------:|
 | **📏 [Melee](../rule/combat/melee.md) 1**                   | **🎯 One creature** |
 
@@ -1120,7 +1120,7 @@ Choose one of the following abilities.
 
 *You shock your foes with the brutality of your [strike](../rule/combat/strike.md), resetting the balance of combat.*
 
-| **[Melee](../rule/combat/melee.md), [Strike](../rule/combat/strike.md), Weapon** |     **Main action** |
+| **[Melee](../rule/combat/melee.md), [Strike](../rule/combat/strike.md), Weapon** |     **[Main action](../rule/combat/turn.md)** |
 |---------------------------|--------------------:|
 | **📏 [Melee](../rule/combat/melee.md) 1**            | **🎯 One creature** |
 
@@ -1141,7 +1141,7 @@ Choose one of the following abilities.
 
 *You unleash an otherworldly cry that rips through your enemies, killing the weakest of them.*
 
-| **Area, Magic** |               **Main action** |
+| **Area, Magic** |               **[Main action](../rule/combat/turn.md)** |
 |-----------------|------------------------------:|
 | **📏 3 [burst](../rule/combat/burst.md)**  | **🎯 Each enemy in the area** |
 
@@ -1156,7 +1156,7 @@ Choose one of the following abilities.
 
 *You summon your [primordial storm](../feature/fury/stormwight-kits/primordial-storm.md).*
 
-| **Area, Magic, [Ranged](../rule/combat/ranged.md)** |               **Main action** |
+| **Area, Magic, [Ranged](../rule/combat/ranged.md)** |               **[Main action](../rule/combat/turn.md)** |
 |-------------------------|------------------------------:|
 | **📏 5 [cube](../rule/combat/cube.md) within 10** | **🎯 Each enemy in the area** |
 
@@ -1231,7 +1231,7 @@ You have the following ability.
 
 *You assume the form of the animal who channels your ferocity.*
 
-| **Magic**   | **Maneuver** |
+| **Magic**   | **[Maneuver](../rule/combat/turn.md)** |
 |-------------|-------------:|
 | **📏 Self** |  **🎯 Self** |
 

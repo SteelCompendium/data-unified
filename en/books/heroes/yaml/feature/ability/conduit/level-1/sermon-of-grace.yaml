@@ -9,9 +9,9 @@ keywords:
     - Area
     - Magic
 metadata:
-    action_type: Main action
+    action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: conduit
-    content: "\n*You inspire your allies with tales of your [saint](scc.v1:mcdm.heroes.v1/rule.world/saint)'s great deeds.*\n\n| **Area, Magic** |              **Main action** |\n|-----------------|-----------------------------:|\n| **\U0001F4CF 4 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)**  | **\U0001F3AF Each ally in the area** |\n\n**Effect:** Each target can spend a [Recovery](scc.v1:mcdm.heroes.v1/rule.health/recoveries). Additionally, each target can use a free [triggered action](scc.v1:mcdm.heroes.v1/feature.conduit.level-1/triggered-action) to end one effect on them that is ended by a [saving throw](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) or that ends at the end of their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), or to stand up if [prone](scc.v1:mcdm.heroes.v1/condition/prone)."
+    content: "\n*You inspire your allies with tales of your [saint](scc.v1:mcdm.heroes.v1/rule.world/saint)'s great deeds.*\n\n| **Area, Magic** |              **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|-----------------|-----------------------------:|\n| **\U0001F4CF 4 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)**  | **\U0001F3AF Each ally in the area** |\n\n**Effect:** Each target can spend a [Recovery](scc.v1:mcdm.heroes.v1/rule.health/recoveries). Additionally, each target can use a free [triggered action](scc.v1:mcdm.heroes.v1/feature.conduit.level-1/triggered-action) to end one effect on them that is ended by a [saving throw](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) or that ends at the end of their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), or to stand up if [prone](scc.v1:mcdm.heroes.v1/condition/prone)."
     distance: 4 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)
     feature_type: ability
     flavor: You inspire your allies with tales of your [saint](scc.v1:mcdm.heroes.v1/rule.world/saint)'s great deeds.
@@ -28,4 +28,4 @@ metadata:
 name: Sermon of Grace
 target: Each ally in the area
 type: feature
-usage: Main action
+usage: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'

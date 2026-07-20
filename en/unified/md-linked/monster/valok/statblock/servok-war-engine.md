@@ -31,7 +31,7 @@ type: statblock
 
 > 🗡 **Blade Rake ([Signature Ability](../../../rule/combat/signature-ability.md))**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](../../../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 3**            | **🎯 Two creatures or objects** |
 >
@@ -43,7 +43,7 @@ type: statblock
 
 > 🏹 **Prismacore Cannon**
 >
-> | **Ranged, Strike, Weapon** |               **Main action** |
+> | **Ranged, Strike, Weapon** |               **[Main action](../../../rule/combat/turn.md)** |
 > |----------------------------|------------------------------:|
 > | **📏 Ranged 20**           | **🎯 One creature or object** |
 >
@@ -57,7 +57,7 @@ type: statblock
 
 > 👤 **Destructive Rollout**
 >
-> | **-**       | **Maneuver** |
+> | **-**       | **[Maneuver](../../../rule/combat/turn.md)** |
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
@@ -65,7 +65,7 @@ type: statblock
 
 > 🔳 **Burning Oil (3 Malice)**
 >
-> | **Area**                    |                             **Maneuver** |
+> | **Area**                    |                             **[Maneuver](../../../rule/combat/turn.md)** |
 > |-----------------------------|-----------------------------------------:|
 > | **📏 20 x 1 line within 1** | **🎯 Each enemy and object in the area** |
 >
@@ -79,7 +79,7 @@ type: statblock
 
 > ❗️ **Quick Blast (1 Malice)**
 >
-> | **Ranged, Strike, Weapon** |     **Free triggered action** |
+> | **Ranged, Strike, Weapon** |     **Free [triggered action](../../../rule/combat/triggered-action.md)** |
 > |----------------------------|------------------------------:|
 > | **📏 Ranged 20**           | **🎯 One creature or object** |
 >

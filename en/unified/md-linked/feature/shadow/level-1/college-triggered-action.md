@@ -21,7 +21,7 @@ Your [shadow college](shadow-college.md) grants you a [triggered action](../../.
 
 *You sow a moment of confusion in combat, to your enemy's peril.*
 
-| **Magic**   | **Triggered** |
+| **Magic**   | **[Triggered](../../../rule/combat/triggered-action.md)** |
 |-------------|--------------:|
 | **📏 Self** |     **🎯 Self** |
 
@@ -34,7 +34,7 @@ Your [shadow college](shadow-college.md) grants you a [triggered action](../../.
 
 *When an enemy attacks, you roll with the impact to reduce the harm.*
 
-| **-**       | **Triggered** |
+| **-**       | **[Triggered](../../../rule/combat/triggered-action.md)** |
 |-------------|--------------:|
 | **📏 Self** |   **🎯 Self** |
 
@@ -49,7 +49,7 @@ Your [shadow college](shadow-college.md) grants you a [triggered action](../../.
 
 *You vanish in a plume of black smoke to avoid danger.*
 
-| **Magic**   | **Triggered** |
+| **Magic**   | **[Triggered](../../../rule/combat/triggered-action.md)** |
 |-------------|--------------:|
 | **📏 Self** |     **🎯 Self** |
 

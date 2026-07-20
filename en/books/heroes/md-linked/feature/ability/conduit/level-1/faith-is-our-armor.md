@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](../../../../rule/combat/turn.md)'
 class: conduit
 cost: 5 Piety
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
@@ -22,7 +22,7 @@ type: ability
 
 *The heroes' armor glows with golden light, granting divine protection.*
 
-| **Magic, [Ranged](../../../../rule/combat/ranged.md)**        |       **Maneuver** |
+| **Magic, [Ranged](../../../../rule/combat/ranged.md)**        |       **[Maneuver](../../../../rule/combat/turn.md)** |
 |--------------------------|-------------------:|
 | **📏 [Ranged](../../../../rule/combat/ranged.md) 10**         | **🎯 Four allies** |
 

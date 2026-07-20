@@ -1,5 +1,5 @@
 ---
-action_type: Triggered
+action_type: '[Triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)'
 class: shadow
 cost: 1 Insight
 cost_amount: "1"
@@ -35,7 +35,7 @@ flavor: You sow a moment of confusion in combat, to your enemy's peril.
 keywords:
     - Magic
 metadata:
-    action_type: Triggered
+    action_type: '[Triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)'
     class: shadow
     cost: 1 Insight
     distance: Self
@@ -55,5 +55,5 @@ name: Clever Trick
 target: Self
 trigger: An enemy targets you with a [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike).
 type: feature
-usage: Triggered
+usage: '[Triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)'
 ```

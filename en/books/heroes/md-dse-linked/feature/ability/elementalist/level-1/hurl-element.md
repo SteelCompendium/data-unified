@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: elementalist
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
 effect: 'When you make this [strike](../../../../rule/combat/strike.md), choose the [damage type](../../../../rule/damage/damage-type.md) from one of the following options: acid, cold, corruption, fire, lightning, poison, or sonic.'
@@ -40,7 +40,7 @@ keywords:
     - '[Ranged](../../../../rule/combat/ranged.md)'
     - '[Strike](../../../../rule/combat/strike.md)'
 metadata:
-    action_type: Main action
+    action_type: '[Main action](../../../../rule/combat/turn.md)'
     class: elementalist
     distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
     effect: 'When you make this [strike](../../../../rule/combat/strike.md), choose the [damage type](../../../../rule/damage/damage-type.md) from one of the following options: acid, cold, corruption, fire, lightning, poison, or sonic.'
@@ -61,5 +61,5 @@ metadata:
 name: Hurl Element
 target: One creature or object
 type: feature
-usage: Main action
+usage: '[Main action](../../../../rule/combat/turn.md)'
 ```

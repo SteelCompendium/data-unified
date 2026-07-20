@@ -21,7 +21,7 @@ Your [troubadour class act](troubadour-class-act.md) grants you a [triggered act
 
 *Give the chorus a little punch.*
 
-| **[Ranged](../../../rule/combat/ranged.md)**      |   **Triggered** |
+| **[Ranged](../../../rule/combat/ranged.md)**      |   **[Triggered](../../../rule/combat/triggered-action.md)** |
 |-----------------|----------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 5** | **🎯 One ally** |
 
@@ -36,7 +36,7 @@ Your [troubadour class act](troubadour-class-act.md) grants you a [triggered act
 
 *"I'd have brought treats had I known I'd be fighting a dog."*
 
-| **[Melee](../../../rule/combat/melee.md)**      |           **Triggered** |
+| **[Melee](../../../rule/combat/melee.md)**      |           **[Triggered](../../../rule/combat/triggered-action.md)** |
 |----------------|------------------------:|
 | **📏 [Melee](../../../rule/combat/melee.md) 1** | **🎯 Self or one ally** |
 
@@ -49,7 +49,7 @@ Your [troubadour class act](troubadour-class-act.md) grants you a [triggered act
 
 *All's fair in love and whatever.*
 
-| **[Ranged](../../../rule/combat/ranged.md)**       |       **Triggered** |
+| **[Ranged](../../../rule/combat/ranged.md)**       |       **[Triggered](../../../rule/combat/triggered-action.md)** |
 |------------------|--------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10** | **🎯 One creature** |
 

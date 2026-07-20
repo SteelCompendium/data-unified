@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: elementalist
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
 flavor: You inflict pain and doubt in equal measure.
@@ -23,7 +23,7 @@ type: ability
 
 *You inflict pain and doubt in equal measure.*
 
-| **Magic, [Ranged](../../../../rule/combat/ranged.md), [Strike](../../../../rule/combat/strike.md), Void** |               **Main action** | 
+| **Magic, [Ranged](../../../../rule/combat/ranged.md), [Strike](../../../../rule/combat/strike.md), Void** |               **[Main action](../../../../rule/combat/turn.md)** |
 |---------------------------------|------------------------------:|
 | **📏 [Ranged](../../../../rule/combat/ranged.md) 10**                | **🎯 One creature or object** |
 

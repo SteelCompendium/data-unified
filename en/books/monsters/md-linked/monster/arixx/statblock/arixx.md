@@ -43,7 +43,7 @@ type: statblock
 
 > 🗡 **Bite (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |               **Main action** |
+> | **Melee, Strike, Weapon** |               **[Main action](../../../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Melee 2**            | **🎯 One creature or object** |
 >
@@ -57,7 +57,7 @@ type: statblock
 
 > 🗡 **Claw Swing**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](../../../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 2**            | **🎯 Two creatures or objects** |
 >
@@ -71,7 +71,7 @@ type: statblock
 
 > 🏹 **Spitfire**
 >
-> | **Ranged, Strike, Weapon** |                 **Main action** |
+> | **Ranged, Strike, Weapon** |                 **[Main action](../../../rule/combat/turn.md)** |
 > |----------------------------|--------------------------------:|
 > | **📏 Ranged 10**           | **🎯 Two creatures or objects** |
 >
@@ -85,7 +85,7 @@ type: statblock
 
 > ❇️ **Dirt Devil (3 Malice)**
 >
-> | **Area**       |               **Main action** |
+> | **Area**       |               **[Main action](../../../rule/combat/turn.md)** |
 > |----------------|------------------------------:|
 > | **📏 3 burst** | **🎯 Each enemy in the area** |
 >
@@ -99,7 +99,7 @@ type: statblock
 
 > ❇️ **Dust Cloud**
 >
-> | **Area**       |   **Maneuver** |
+> | **Area**       |   **[Maneuver](../../../rule/combat/turn.md)** |
 > |----------------|---------------:|
 > | **📏 1 burst** | **🎯 Special** |
 >
@@ -107,7 +107,7 @@ type: statblock
 
 > ❗️ **Skitter**
 >
-> | **-**       | **Triggered action** |
+> | **-**       | **[Triggered action](../../../rule/combat/triggered-action.md)** |
 > |-------------|---------------------:|
 > | **📏 Self** |          **🎯 Self** |
 >

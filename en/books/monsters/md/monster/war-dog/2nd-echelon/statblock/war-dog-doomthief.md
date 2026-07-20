@@ -30,7 +30,7 @@ type: statblock
 
 > 🔳 **Ripper Shrikegun ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
-> | **Area, Weapon**            |               **Main action** |
+> | **Area, Weapon**            |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-----------------------------|------------------------------:|
 > | **📏 10 x 3 line within 1** | **🎯 Each enemy in the area** |
 >
@@ -48,7 +48,7 @@ type: statblock
 
 > 👤 **Expanding Doom (4 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
-> | **-**       | **Maneuver** |
+> | **-**       | **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >

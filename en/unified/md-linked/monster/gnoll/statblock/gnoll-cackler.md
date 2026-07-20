@@ -29,7 +29,7 @@ type: statblock
 
 > 🏹 **Moment of Brutality (Signature Ability)**
 >
-> | **Magic, Ranged, Strike** |     **Main action** |
+> | **Magic, Ranged, Strike** |     **[Main action](../../../rule/combat/turn.md)** |
 > |---------------------------|--------------------:|
 > | **📏 Ranged 8**           | **🎯 One creature** |
 >
@@ -43,7 +43,7 @@ type: statblock
 
 > ❇️ **Cackler's Cackletongue (4 [Malice](../../../rule/monster/malice.md))**
 >
-> | **Area, Magic** |                     **Maneuver** |
+> | **Area, Magic** |                     **[Maneuver](../../../rule/combat/turn.md)** |
 > |-----------------|---------------------------------:|
 > | **📏 2 burst**  | **🎯 Each creature in the area** |
 >

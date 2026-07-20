@@ -15,9 +15,9 @@
   ],
   "metadata": {
     "ability_type": "Triggered",
-    "action_type": "Free triggered",
+    "action_type": "Free [triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)",
     "class": "null",
-    "content": "\n*You show shadows what true [speed](scc.v1:mcdm.heroes.v1/rule.character/speed) is.*\n\n| **Psionic** | **Free triggered** |\n|-------------|-------------------:|\n| **📏 Self** |        **🎯 Self** |\n\n**Trigger:** Another creature on the encounter map ends their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn).\n\n**Effect:** You take a [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) immediately after the triggering creature. This ability can be used only once per [combat round](scc.v1:mcdm.heroes.v1/rule.combat/combat-round).",
+    "content": "\n*You show shadows what true [speed](scc.v1:mcdm.heroes.v1/rule.character/speed) is.*\n\n| **Psionic** | **Free [triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |\n|-------------|-------------------:|\n| **📏 Self** |        **🎯 Self** |\n\n**Trigger:** Another creature on the encounter map ends their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn).\n\n**Effect:** You take a [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) immediately after the triggering creature. This ability can be used only once per [combat round](scc.v1:mcdm.heroes.v1/rule.combat/combat-round).",
     "distance": "Self",
     "feature_type": "ability",
     "flavor": "You show shadows what true [speed](scc.v1:mcdm.heroes.v1/rule.character/speed) is.",
@@ -38,5 +38,5 @@
   "target": "Self",
   "trigger": "Another creature on the encounter map ends their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn).",
   "type": "feature",
-  "usage": "Free triggered"
+  "usage": "Free [triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)"
 }

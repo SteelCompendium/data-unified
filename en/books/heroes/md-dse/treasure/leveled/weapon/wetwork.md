@@ -4,12 +4,18 @@ file_dpath: treasure/leveled/weapon
 flavor: When first held, this naginata whispers the names of its past victims.
 item_id: wetwork
 item_name: Wetwork
+item_prerequisite: A folded metal blade infused with blood
 keywords:
     - Polearm
     - Psionic
+level_effects:
+    1st: Any weapon ability that deals [rolled damage](scc.v1:mcdm.heroes.v1/rule.damage/rolled-damage) using this weapon deals an extra 1 psychic damage. Additionally, if you reduce a creature to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) using this weapon, you can immediately use a maneuver to make a [melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike).
+    5th: The weapon's extra psychic damage increases to 2. Additionally, if you reduce a creature to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) using the weapon, you can use a maneuver to make a [melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) and can move up to 2 squares before or after the [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike).
+    9th: The weapon's extra psychic damage increases to 3. Additionally, if you reduce a creature to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) using the weapon, you can use a maneuver to move up to your [speed](scc.v1:mcdm.heroes.v1/rule.character/speed) and make either a [signature ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability) strike or a [melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike).
 name: Wetwork
 project_goal: "450"
 project_roll_characteristic: '[Might](scc.v1:mcdm.heroes.v1/rule.character/might), [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason), or [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)'
+project_source: Texts or lore in Higaran
 scc: mcdm.heroes.v1/treasure.leveled.weapon/wetwork
 source: mcdm.heroes.v1
 treasure_type: weapon

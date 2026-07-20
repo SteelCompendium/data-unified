@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: tactician
 cost: 9 Focus
 cost_amount: "9"
@@ -47,7 +47,7 @@ keywords:
     - '[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)'
     - Weapon
 metadata:
-    action_type: Main action
+    action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: tactician
     cost: 9 Focus
     distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
@@ -71,5 +71,5 @@ metadata:
 name: To Me Squad!
 target: One creature
 type: feature
-usage: Main action
+usage: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 ```

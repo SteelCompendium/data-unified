@@ -31,7 +31,7 @@ with_captain: Gain an edge on strikes
 
 > 🏹 **Eyes-On-Me-Shot ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
-> | **Ranged, Strike, Weapon** |                          **Main action** |
+> | **Ranged, Strike, Weapon** |                          **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |----------------------------|-----------------------------------------:|
 > | **📏 Ranged 10**           | **🎯 One creature or object per minion** |
 >
@@ -45,7 +45,7 @@ with_captain: Gain an edge on strikes
 
 > ❗️ **Ready Rodent**
 >
-> | **Melee, Weapon** | **Triggered action** |
+> | **Melee, Weapon** | **[Triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |
 > |-------------------|---------------------:|
 > | **📏 Melee 1**    |  **🎯 One creature** |
 >

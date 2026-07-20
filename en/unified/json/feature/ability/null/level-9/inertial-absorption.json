@@ -15,9 +15,9 @@
   ],
   "metadata": {
     "ability_type": "Triggered",
-    "action_type": "Free triggered",
+    "action_type": "Free [triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)",
     "class": "null",
-    "content": "\n*You absorb an attack to empower your body.*\n\n| **Psionic** |                  **Free triggered** |\n| -----------------------------|------------------------------------:|\n| **📏 Self** |  **🎯 Self** |\n\n**Trigger:** Another creature damages you using an ability.\n\n**Effect:** You take half the damage, negate any effects associated with the damage for you, and gain 3 [surges](scc.v1:mcdm.heroes.v1/rule.resource/surge).",
+    "content": "\n*You absorb an attack to empower your body.*\n\n| **Psionic** |                  **Free [triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |\n| -----------------------------|------------------------------------:|\n| **📏 Self** |  **🎯 Self** |\n\n**Trigger:** Another creature damages you using an ability.\n\n**Effect:** You take half the damage, negate any effects associated with the damage for you, and gain 3 [surges](scc.v1:mcdm.heroes.v1/rule.resource/surge).",
     "distance": "Self",
     "feature_type": "ability",
     "flavor": "You absorb an attack to empower your body.",
@@ -38,5 +38,5 @@
   "target": "Self",
   "trigger": "Another creature damages you using an ability.",
   "type": "feature",
-  "usage": "Free triggered"
+  "usage": "Free [triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)"
 }

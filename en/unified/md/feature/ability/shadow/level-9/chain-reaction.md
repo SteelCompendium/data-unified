@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: shadow
 cost: 11 Insight
 distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
@@ -22,7 +22,7 @@ type: ability
 
 *One explosion, an offense. Three explosions, an assault. Nine explosions, a celebration.*
 
-| **[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)**       |               **Main action** |
+| **[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)**       |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 |------------------|------------------------------:|
 | **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10** | **🎯 One creature or object** |
 

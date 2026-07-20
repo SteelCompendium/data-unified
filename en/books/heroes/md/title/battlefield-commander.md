@@ -21,7 +21,7 @@ type: title
 >
 > *Follow me!*
 >
-> | **Area**       |                       **Main action** |
+> | **Area**       |                       **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |----------------|--------------------------------------:|
 > | **📏 3 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)** | **🎯 Self and each ally in the area** |
 >

@@ -17,7 +17,7 @@ Choose one of the following abilities.
 
 *You tumble through the battle, stabbing foes and [teleporting](../../../movement/teleport.md) allies.*
 
-| **Magic, [Melee](../../../rule/combat/melee.md), Weapon** | **Main action** |
+| **Magic, [Melee](../../../rule/combat/melee.md), Weapon** | **[Main action](../../../rule/combat/turn.md)** |
 |--------------------------|----------------:|
 | **📏 Self; see below**   |     **🎯 Self** |
 
@@ -34,7 +34,7 @@ Choose one of the following abilities.
 
 *You create a temporary portal to allow a massive demonic hand to reach through.*
 
-| **Magic, [Melee](../../../rule/combat/melee.md), [Strike](../../../rule/combat/strike.md), Weapon** |     **Main action** |
+| **Magic, [Melee](../../../rule/combat/melee.md), [Strike](../../../rule/combat/strike.md), Weapon** |     **[Main action](../../../rule/combat/turn.md)** |
 |----------------------------------|--------------------:|
 | **📏 [Melee](../../../rule/combat/melee.md) 3**                   | **🎯 One creature** |
 
@@ -55,7 +55,7 @@ Choose one of the following abilities.
 
 *One explosion, an offense. Three explosions, an assault. Nine explosions, a celebration.*
 
-| **[Ranged](../../../rule/combat/ranged.md)**       |               **Main action** |
+| **[Ranged](../../../rule/combat/ranged.md)**       |               **[Main action](../../../rule/combat/turn.md)** |
 |------------------|------------------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10** | **🎯 One creature or object** |
 
@@ -72,7 +72,7 @@ Choose one of the following abilities.
 
 *You attach your most potent explosive to your foe. Under less pressing circumstances, you're sure you could launch them into orbit.*
 
-| **[Melee](../../../rule/combat/melee.md), [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md)**   |               **Main action** |
+| **[Melee](../../../rule/combat/melee.md), [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md)**   |               **[Main action](../../../rule/combat/turn.md)** |
 |-----------------------------|------------------------------:|
 | **📏 [Melee](../../../rule/combat/melee.md) 1 or [ranged](../../../rule/combat/ranged.md) 10** | **🎯 One creature or object** |
 
@@ -93,7 +93,7 @@ Choose one of the following abilities.
 
 *Your mask reflects your foe's face. Surely they won't need it much longer.*
 
-| **Magic, [Ranged](../../../rule/combat/ranged.md)** |            **Maneuver** |
+| **Magic, [Ranged](../../../rule/combat/ranged.md)** |            **[Maneuver](../../../rule/combat/turn.md)** |
 |-------------------|------------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**  |     **🎯 One creature** |
 
@@ -104,7 +104,7 @@ Choose one of the following abilities.
 
 *After everything you've been through together, you twist the blade and make the pain extra personal.*
 
-| **[Melee](../../../rule/combat/melee.md), [Strike](../../../rule/combat/strike.md), Weapon** |               **Main action** |
+| **[Melee](../../../rule/combat/melee.md), [Strike](../../../rule/combat/strike.md), Weapon** |               **[Main action](../../../rule/combat/turn.md)** |
 |---------------------------|------------------------------:|
 | **📏 [Melee](../../../rule/combat/melee.md) 1**            | **🎯 One creature or object** |
 

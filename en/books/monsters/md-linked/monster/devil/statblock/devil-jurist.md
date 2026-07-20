@@ -36,7 +36,7 @@ type: statblock
 
 > 🏹 **Fire and Brimstone (Signature Ability)**
 >
-> | **Magic, Ranged, Strike** |                   **Main action** |
+> | **Magic, Ranged, Strike** |                   **[Main action](../../../rule/combat/turn.md)** |
 > |---------------------------|----------------------------------:|
 > | **📏 Ranged 12**          |   **🎯 Two creatures or objects** |
 >
@@ -52,7 +52,7 @@ type: statblock
 
 > ❇️ **Dismissal with Prejudice**
 >
-> | **Area, Magic** |               **Main action** |
+> | **Area, Magic** |               **[Main action](../../../rule/combat/turn.md)** |
 > |-----------------|------------------------------:|
 > | **📏 2 burst**  | **🎯 Each enemy in the area** |
 >
@@ -66,7 +66,7 @@ type: statblock
 
 > 🏹 **Ashes to Ashes**
 >
-> | **Magic, Ranged** |        **Maneuver** |
+> | **Magic, Ranged** |        **[Maneuver](../../../rule/combat/turn.md)** |
 > |-------------------|--------------------:|
 > | **📏 Ranged 12**  | **🎯 One creature** |
 >
@@ -74,7 +74,7 @@ type: statblock
 
 > ❗️ **Devilish Charm (2 [Malice](../../../rule/monster/malice.md))**
 >
-> | **Magic, Ranged** |           **Triggered action** |
+> | **Magic, Ranged** |           **[Triggered action](../../../rule/combat/triggered-action.md)** |
 > |-------------------|-------------------------------:|
 > | **📏 Ranged 5**   | **🎯 The triggering creature** |
 >

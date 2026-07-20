@@ -1,5 +1,5 @@
 ---
-action_type: Triggered
+action_type: '[Triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)'
 class: elementalist
 distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
 effect: The [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance) gains a [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) equal to your [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) score.
@@ -22,7 +22,7 @@ type: ability
 
 *You add a little magic to an ally's aggression at just the right time.*
 
-| **Fire, Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)**  |           **Triggered** |
+| **Fire, Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)**  |           **[Triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |
 |--------------------------|------------------------:|
 | **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**         | **🎯 Self or one ally** |
 

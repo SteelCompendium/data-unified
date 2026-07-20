@@ -3,6 +3,7 @@ agility: 2
 cost: 9 essence for one champion
 flavor: 'Stamina: Your maximum Stamina'
 free_strike: 9
+free_strike_damage_type: Affinity
 immunities:
     - Affinity 5
 intuition: 5
@@ -38,7 +39,7 @@ Stamina: Your maximum Stamina
 
 > 🏹 **Elemental Tail Swing 2d10 + 5 ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
-> | **Charge, Melee, Strike, Weapon** | **Main action** |
+> | **Charge, Melee, Strike, Weapon** | **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-----------------------------------|----------------:|
 > | **📏 Melee 2** | **🎯 Two creatures or objects** |
 >

@@ -31,7 +31,7 @@ type: statblock
 
 > 🏹 **Hampering Roots (Signature Ability)**
 >
-> | **Magic, Ranged, Strike** |                 **Main action** |
+> | **Magic, Ranged, Strike** |                 **[Main action](../../../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Ranged 8**           | **🎯 Two creatures or objects** |
 >
@@ -45,7 +45,7 @@ type: statblock
 
 > 🏹 **Convocation of Verdure**
 >
-> | **Magic, Ranged** |                 **Maneuver** |
+> | **Magic, Ranged** |                 **[Maneuver](../../../rule/combat/turn.md)** |
 > |-------------------|-----------------------------:|
 > | **📏 Ranged 5**   | **🎯 Self or one elemental** |
 >
@@ -55,7 +55,7 @@ type: statblock
 
 > ❗️ **Rose Thorn Lash (1 [Malice](../../../rule/monster/malice.md))**
 >
-> | **Magic, Melee** |                     **Triggered action** |
+> | **Magic, Melee** |                     **[Triggered action](../../../rule/combat/triggered-action.md)** |
 > |------------------|-----------------------------------------:|
 > | **📏 Melee 3**   | **🎯 The triggering creature or object** |
 >

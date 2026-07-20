@@ -8,9 +8,9 @@ flavor: You absorb ambient heat, coating the ground in frost and precipitating s
 keywords:
     - Psionic
 metadata:
-    action_type: Maneuver
+    action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: "null"
-    content: "\n*You absorb ambient heat, coating the ground in frost and precipitating snow from the air.*\n\n| **Psionic** | **Maneuver** |\n|-------------|-------------:|\n| **\U0001F4CF Self** |  **\U0001F3AF Self** |\n\n**Effect:** Until the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), the size of your [Null Field](scc.v1:mcdm.heroes.v1/feature.null.level-1/null-field) ability increases by 1, and you and any ally benefit from [concealment](scc.v1:mcdm.heroes.v1/rule.combat/concealment) while in the area. At the end of this [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), each enemy in the area takes cold damage equal to your [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition) score."
+    content: "\n*You absorb ambient heat, coating the ground in frost and precipitating snow from the air.*\n\n| **Psionic** | **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|-------------|-------------:|\n| **\U0001F4CF Self** |  **\U0001F3AF Self** |\n\n**Effect:** Until the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), the size of your [Null Field](scc.v1:mcdm.heroes.v1/feature.null.level-1/null-field) ability increases by 1, and you and any ally benefit from [concealment](scc.v1:mcdm.heroes.v1/rule.combat/concealment) while in the area. At the end of this [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), each enemy in the area takes cold damage equal to your [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition) score."
     distance: Self
     feature_type: ability
     flavor: You absorb ambient heat, coating the ground in frost and precipitating snow from the air.
@@ -27,4 +27,4 @@ metadata:
 name: Heat Sink
 target: Self
 type: feature
-usage: Maneuver
+usage: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'

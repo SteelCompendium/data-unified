@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: talent
 cost: 9 Clarity
 distance: '[Melee](../../../../rule/combat/melee.md) 2'
@@ -24,7 +24,7 @@ type: ability
 
 *Your foe gets a glimpse of how it will end for them.*
 
-| **Chronopathy, Psionic, [Melee](../../../../rule/combat/melee.md)** |  **Main action** |
+| **Chronopathy, Psionic, [Melee](../../../../rule/combat/melee.md)** |  **[Main action](../../../../rule/combat/turn.md)** |
 |---------------------------------|-----------------:|
 | **📏 [Melee](../../../../rule/combat/melee.md) 2**                  | **🎯 One enemy** |
 

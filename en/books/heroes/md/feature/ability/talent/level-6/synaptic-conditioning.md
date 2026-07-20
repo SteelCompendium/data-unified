@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: talent
 cost: 9 Clarity
 distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 2'
@@ -24,7 +24,7 @@ type: ability
 
 *It's a subtle mindset shift. It's not that they're your enemy—you just don't like them!*
 
-| **Psionic, [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)**, **Strike, Telepathy** |     **Main action** |
+| **Psionic, [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)**, **Strike, Telepathy** |     **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 |-------------------------------------------|--------------------:|
 | **📏 [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 2**                            | **🎯 One creature** |
 

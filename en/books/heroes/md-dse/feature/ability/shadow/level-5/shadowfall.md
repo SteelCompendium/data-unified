@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: shadow
 cost: 9 Insight
 cost_amount: "9"
@@ -44,7 +44,7 @@ keywords:
     - '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)'
     - Weapon
 metadata:
-    action_type: Main action
+    action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: shadow
     cost: 9 Insight
     distance: 10 x 1 line within 1
@@ -66,5 +66,5 @@ metadata:
 name: Shadowfall
 target: Each enemy in the area
 type: feature
-usage: Main action
+usage: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 ```

@@ -29,7 +29,7 @@ type: statblock
 
 > 🗡 **Three-Tail Flail (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |               **Main action** |
+> | **Melee, Strike, Weapon** |               **[Main action](../../../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Melee 1**            | **🎯 One creature or object** |
 >
@@ -43,7 +43,7 @@ type: statblock
 
 > ❇️ **Bonesplitter's Cackletongue (4 [Malice](../../../rule/monster/malice.md))**
 >
-> | **Area**       |                          **Maneuver** |
+> | **Area**       |                          **[Maneuver](../../../rule/combat/turn.md)** |
 > |----------------|--------------------------------------:|
 > | **📏 2 burst** | **🎯 Self and each ally in the area** |
 >

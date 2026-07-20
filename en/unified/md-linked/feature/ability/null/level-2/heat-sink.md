@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](../../../../rule/combat/turn.md)'
 class: "null"
 cost: 5 Discipline
 distance: Self
@@ -18,7 +18,7 @@ type: ability
 
 *You absorb ambient heat, coating the ground in frost and precipitating snow from the air.*
 
-| **Psionic** | **Maneuver** |
+| **Psionic** | **[Maneuver](../../../../rule/combat/turn.md)** |
 |-------------|-------------:|
 | **📏 Self** |  **🎯 Self** |
 

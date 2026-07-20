@@ -14,9 +14,9 @@ keywords:
     - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'
     - '[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)'
 metadata:
-    action_type: Main action
+    action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: conduit
-    content: "\n*You conjure an angel who moves a foe and heals your allies.*\n\n| **Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)**  |               **Main action** |\n|----------------------------|------------------------------:|\n| **\U0001F4CF [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**           | **\U0001F3AF One creature or object** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition):**\n\n- **≤11:** 9 + I holy damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3\n- **12-16:** 13 + I holy damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 4\n- **17+:** 18 + I holy damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 6\n\n**Effect:** Each ally the target comes [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to during the [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) can spend a [Recovery](scc.v1:mcdm.heroes.v1/rule.health/recoveries)."
+    content: "\n*You conjure an angel who moves a foe and heals your allies.*\n\n| **Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)**  |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|----------------------------|------------------------------:|\n| **\U0001F4CF [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**           | **\U0001F3AF One creature or object** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition):**\n\n- **≤11:** 9 + I holy damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3\n- **12-16:** 13 + I holy damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 4\n- **17+:** 18 + I holy damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 6\n\n**Effect:** Each ally the target comes [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to during the [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) can spend a [Recovery](scc.v1:mcdm.heroes.v1/rule.health/recoveries)."
     distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
     feature_type: ability
     flavor: You conjure an angel who moves a foe and heals your allies.
@@ -34,4 +34,4 @@ metadata:
 name: Drag the Unworthy
 target: One creature or object
 type: feature
-usage: Main action
+usage: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'

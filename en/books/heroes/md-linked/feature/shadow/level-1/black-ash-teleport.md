@@ -14,7 +14,7 @@ You have the following ability.
 
 *In a swirl of black ash, you step from one place to another.*
 
-| **Magic**   | **Maneuver** |
+| **Magic**   | **[Maneuver](../../../rule/combat/turn.md)** |
 |-------------|-------------:|
 | **📏 Self** |  **🎯 Self** |
 

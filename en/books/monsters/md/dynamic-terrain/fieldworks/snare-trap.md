@@ -78,7 +78,7 @@ A rope snare is set to grab a target, leaving them hanging upside down.
 
 > ❗️ **Snare**
 >
-> | **Melee, Strike, Weapon** |                **Free triggered action** |
+> | **Melee, Strike, Weapon** |                **Free [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |
 > |---------------------------|-----------------------------------------:|
 > | **📏 Melee 0**            | **🎯 The triggering creature or object** |
 >

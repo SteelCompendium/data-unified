@@ -30,7 +30,7 @@ type: statblock
 
 > ⚔️ **Piercing Trill ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
-> | **Magic, Melee, Ranged, Strike** |               **Main action** |
+> | **Magic, Melee, Ranged, Strike** |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |----------------------------------|------------------------------:|
 > | **📏 Melee 1 or ranged 10**      | **🎯 One creature or object** |
 >
@@ -44,7 +44,7 @@ type: statblock
 
 > ❇️ **Vivace Vivace!**
 >
-> | **Area, Magic** |                 **Maneuver** |
+> | **Area, Magic** |                 **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-----------------|-----------------------------:|
 > | **📏 3 burst**  | **🎯 Each ally in the area** |
 >
@@ -54,7 +54,7 @@ type: statblock
 
 > ❗️ **Ready Rodent**
 >
-> | **Melee, Weapon** | **Triggered action** |
+> | **Melee, Weapon** | **[Triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |
 > |-------------------|---------------------:|
 > | **📏 Melee 1**    |  **🎯 One creature** |
 >

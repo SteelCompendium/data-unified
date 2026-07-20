@@ -6,12 +6,14 @@ file_dpath: treasure/4th-echelon/consumable
 flavor: This thick red liquid smells of cinnamon.
 item_id: elixir-of-saint-elspeth
 item_name: Elixir of Saint Elspeth
+item_prerequisite: An ounce of the blood of Saint Elspeth
 keywords:
     - Magic
     - Potion
 name: Elixir of Saint Elspeth
 project_goal: "360"
 project_roll_characteristic: '[Presence](../../../rule/character/presence.md)'
+project_source: Texts or lore in Caelian
 scc: mcdm.heroes.v1/treasure.4th-echelon.consumable/elixir-of-saint-elspeth
 source: mcdm.heroes.v1
 treasure_type: consumable

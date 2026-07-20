@@ -41,7 +41,7 @@ type: statblock
 
 > 🗡 **Devolving Tentacles ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 3**            | **🎯 Two creatures or objects** |
 >
@@ -55,7 +55,7 @@ type: statblock
 
 > 🔳 **Slime Spew**
 >
-> | **Area, Weapon**           |                             **Main action** |
+> | **Area, Weapon**           |                             **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |----------------------------|--------------------------------------------:|
 > | **📏 7 x 2 line within 1** | **🎯 Each creature and object in the area** |
 >
@@ -71,7 +71,7 @@ type: statblock
 
 > 🏹 **Oozing Transformation (2 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
-> | **Psionic, Ranged, Strike** |     **Main action** |
+> | **Psionic, Ranged, Strike** |     **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-----------------------------|--------------------:|
 > | **📏 Ranged 10**            | **🎯 One creature** |
 >
@@ -91,7 +91,7 @@ type: statblock
 
 > 👤 **Jaunt**
 >
-> | **Psionic** | **Maneuver** |
+> | **Psionic** | **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
@@ -99,7 +99,7 @@ type: statblock
 
 > ❗️ **Liquify**
 >
-> | **Psionic, Ranged** | **Triggered action** |
+> | **Psionic, Ranged** | **[Triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |
 > |---------------------|---------------------:|
 > | **📏 Ranged 5**     |    **🎯 Each enemy** |
 >

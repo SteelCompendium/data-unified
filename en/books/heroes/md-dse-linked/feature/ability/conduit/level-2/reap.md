@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](../../../../rule/combat/turn.md)'
 class: conduit
 cost: 5 Piety
 cost_amount: "5"
@@ -35,7 +35,7 @@ keywords:
     - Magic
     - '[Ranged](../../../../rule/combat/ranged.md)'
 metadata:
-    action_type: Maneuver
+    action_type: '[Maneuver](../../../../rule/combat/turn.md)'
     class: conduit
     cost: 5 Piety
     distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
@@ -53,5 +53,5 @@ metadata:
 name: Reap
 target: Each ally
 type: feature
-usage: Maneuver
+usage: '[Maneuver](../../../../rule/combat/turn.md)'
 ```

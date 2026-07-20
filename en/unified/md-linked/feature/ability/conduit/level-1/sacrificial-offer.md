@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: conduit
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
 effect: Choose yourself or one ally within [distance](../../../../rule/combat/distance.md). That character can impose a [bane](../../../../rule/dice/bane.md) on one [power roll](../../../../rule/dice/power-roll.md) made against them before the end of their next [turn](../../../../rule/combat/turn.md).
@@ -23,7 +23,7 @@ type: ability
 
 *Divine magic tears at your foe and defends a nearby friend.*
 
-| **Magic, [Ranged](../../../../rule/combat/ranged.md), [Strike](../../../../rule/combat/strike.md)**  |     **Main action** |
+| **Magic, [Ranged](../../../../rule/combat/ranged.md), [Strike](../../../../rule/combat/strike.md)**  |     **[Main action](../../../../rule/combat/turn.md)** |
 |----------------------------|--------------------:|
 | **📏 [Ranged](../../../../rule/combat/ranged.md) 10**           | **🎯 One creature** |
 

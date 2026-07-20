@@ -33,7 +33,7 @@ type: statblock
 
 > 🏹 **Longarm Shrikegun ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
-> | **Ranged, Strike, Weapon** |               **Main action** |
+> | **Ranged, Strike, Weapon** |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |----------------------------|------------------------------:|
 > | **📏 Ranged 15**           | **🎯 One creature or object** |
 >
@@ -49,7 +49,7 @@ type: statblock
 
 > 🔳 **Web Vial**
 >
-> | **Area, Ranged**        |   **Maneuver** |
+> | **Area, Ranged**        |   **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-------------------------|---------------:|
 > | **📏 2 cube within 10** | **🎯 Special** |
 >

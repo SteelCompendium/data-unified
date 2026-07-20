@@ -6,6 +6,7 @@ cost_resource: Malice for three minions
 file_basename: ceaseless-mournling
 file_dpath: monster/rival/2nd-echelon/summoner/minion/statblock
 free_strike: 3
+free_strike_damage_type: Sonic
 immunities:
     - Corruption 3
     - poison 3

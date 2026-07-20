@@ -6,12 +6,14 @@ file_dpath: treasure/2nd-echelon/trinket
 flavor: This thick leather belt features a bone clasp and feels unusually heavy when handled.
 item_id: bastion-belt
 item_name: Bastion Belt
+item_prerequisite: A giant's tooth
 keywords:
     - Magic
     - Waist
 name: Bastion Belt
 project_goal: "300"
 project_roll_characteristic: '[Might](scc.v1:mcdm.heroes.v1/rule.character/might) or [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)'
+project_source: Texts or lore in High Kuric
 scc: mcdm.heroes.v1/treasure.2nd-echelon.trinket/bastion-belt
 source: mcdm.heroes.v1
 treasure_type: trinket

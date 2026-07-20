@@ -11,8 +11,8 @@ ability:
         - Weapon
     metadata:
         ability_type: Triggered
-        action_type: Triggered
-        content: "\n*A steely dagger from out of the blue knocks another weapon off course.*\n\n| **[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged), Weapon** |   **Triggered** |\n|--------------------|----------------:|\n| **\U0001F4CF [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 5**    | **\U0001F3AF One ally** |\n\n**Trigger:** The target takes damage from another creature's ability while you are hidden.\n\n**Effect:** The target takes half the damage. You remain hidden."
+        action_type: '[Triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)'
+        content: "\n*A steely dagger from out of the blue knocks another weapon off course.*\n\n| **[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged), Weapon** |   **[Triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |\n|--------------------|----------------:|\n| **\U0001F4CF [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 5**    | **\U0001F3AF One ally** |\n\n**Trigger:** The target takes damage from another creature's ability while you are hidden.\n\n**Effect:** The target takes half the damage. You remain hidden."
         distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 5'
         feature_type: ability
         flavor: A steely dagger from out of the blue knocks another weapon off course.
@@ -27,7 +27,7 @@ ability:
     target: One ally
     trigger: The target takes damage from another creature's ability while you are hidden.
     type: feature
-    usage: Triggered
+    usage: '[Triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)'
 effects:
     - effect: |-
         Your sense for stealth shows those around you how to evade notice. While you are hidden, enemies take a [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) on [tests](scc.v1:mcdm.heroes.v1/rule.test/test) made to search for you or other hidden creatures within 10 squares of you.

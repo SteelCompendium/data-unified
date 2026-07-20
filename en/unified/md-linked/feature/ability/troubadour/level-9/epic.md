@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](../../../../rule/combat/turn.md)'
 class: troubadour
 cost: 11 Drama
 distance: '[Melee](../../../../rule/combat/melee.md) 1 or [ranged](../../../../rule/combat/ranged.md) 10'
@@ -24,7 +24,7 @@ type: ability
 
 *Your story tells a tale of the villain's waning power and how the heroes rose to the occasion to stop them.*
 
-| **Magic, [Melee](../../../../rule/combat/melee.md), [Ranged](../../../../rule/combat/ranged.md)**    |        **Maneuver** |
+| **Magic, [Melee](../../../../rule/combat/melee.md), [Ranged](../../../../rule/combat/ranged.md)**    |        **[Maneuver](../../../../rule/combat/turn.md)** |
 |-----------------------------|--------------------:|
 | **📏 [Melee](../../../../rule/combat/melee.md) 1 or [ranged](../../../../rule/combat/ranged.md) 10** | **🎯 One creature** |
 

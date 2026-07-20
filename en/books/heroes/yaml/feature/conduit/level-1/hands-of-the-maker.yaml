@@ -8,8 +8,8 @@ ability:
     keywords:
         - Magic
     metadata:
-        action_type: Maneuver
-        content: "\n*You craft objects with the power of your mind.*\n\n| **Magic**                |  **Maneuver** |\n|--------------------------|--------------:|\n| **\U0001F4CF Self**              |   **\U0001F3AF Self** |\n\n**Effect:** You create a mundane object of [size](scc.v1:mcdm.heroes.v1/rule.character/size) 1S or smaller. You can maintain a number of objects created this way equal to your [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition) score. You can destroy an object created this way with a thought, no matter how far you are from it (no action required)."
+        action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
+        content: "\n*You craft objects with the power of your mind.*\n\n| **Magic**                |  **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|--------------------------|--------------:|\n| **\U0001F4CF Self**              |   **\U0001F3AF Self** |\n\n**Effect:** You create a mundane object of [size](scc.v1:mcdm.heroes.v1/rule.character/size) 1S or smaller. You can maintain a number of objects created this way equal to your [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition) score. You can destroy an object created this way with a thought, no matter how far you are from it (no action required)."
         distance: Self
         feature_type: ability
         flavor: You craft objects with the power of your mind.
@@ -23,7 +23,7 @@ ability:
     name: Hands of the Maker
     target: Self
     type: feature
-    usage: Maneuver
+    usage: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 effects:
     - effect: You have the following ability.
 feature_type: feature

@@ -8,9 +8,9 @@ flavor: You focus until your body becomes as hard as iron.
 keywords:
     - Psionic
 metadata:
-    action_type: Maneuver
+    action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: "null"
-    content: "\n*You focus until your body becomes as hard as iron.*\n\n| **Psionic** | **Maneuver** |\n|-------------|-------------:|\n| **\U0001F4CF Self** |  **\U0001F3AF Self** |\n\n**Effect:** You gain 20 [temporary Stamina](scc.v1:mcdm.heroes.v1/rule.health/temporary-stamina). Additionally, until the end of the encounter, your [stability](scc.v1:mcdm.heroes.v1/rule.character/stability) gains a [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) equal to your [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition) score."
+    content: "\n*You focus until your body becomes as hard as iron.*\n\n| **Psionic** | **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|-------------|-------------:|\n| **\U0001F4CF Self** |  **\U0001F3AF Self** |\n\n**Effect:** You gain 20 [temporary Stamina](scc.v1:mcdm.heroes.v1/rule.health/temporary-stamina). Additionally, until the end of the encounter, your [stability](scc.v1:mcdm.heroes.v1/rule.character/stability) gains a [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) equal to your [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition) score."
     distance: Self
     feature_type: ability
     flavor: You focus until your body becomes as hard as iron.
@@ -27,4 +27,4 @@ metadata:
 name: Iron Body
 target: Self
 type: feature
-usage: Maneuver
+usage: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'

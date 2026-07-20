@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: tactician
 cost: 11 Focus
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
@@ -17,7 +17,7 @@ type: ability
 
 *You direct an attack to strike true.*
 
-| **[Ranged](../../../../rule/combat/ranged.md)**       |         **Main action** |
+| **[Ranged](../../../../rule/combat/ranged.md)**       |         **[Main action](../../../../rule/combat/turn.md)** |
 |------------------|------------------------:|
 | **📏 [Ranged](../../../../rule/combat/ranged.md) 10** | **🎯 Self or one ally** |
 

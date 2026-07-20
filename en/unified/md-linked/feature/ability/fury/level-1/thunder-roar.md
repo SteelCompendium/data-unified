@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: fury
 cost: 5 Ferocity
 distance: 5 x 1 line within 1
@@ -23,7 +23,7 @@ type: ability
 
 *You unleash a howl that hurls your enemies back.*
 
-| **Area, [Melee](../../../../rule/combat/melee.md), Weapon**    |               **Main action** |
+| **Area, [Melee](../../../../rule/combat/melee.md), Weapon**    |               **[Main action](../../../../rule/combat/turn.md)** |
 |----------------------------|------------------------------:|
 | **📏 5 x 1 line within 1** | **🎯 Each enemy in the area** |
 

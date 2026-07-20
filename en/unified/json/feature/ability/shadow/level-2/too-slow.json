@@ -13,9 +13,9 @@
   "keywords": null,
   "metadata": {
     "ability_type": "Triggered",
-    "action_type": "Free triggered",
+    "action_type": "Free [triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)",
     "class": "shadow",
-    "content": "\n*Your foe made a big mistake.*\n\n| **-**                  | **Free triggered** |\n|------------------------|-------------------:|\n| **📏 Self; see below** |        **🎯 Self** |\n\n**Trigger:** You use your [In All This Confusion](scc.v1:mcdm.heroes.v1/feature.ability.shadow.level-1/in-all-this-confusion) ability.\n\n**Effect:** You ignore any effects associated with the damage that triggered your [In All This Confusion](scc.v1:mcdm.heroes.v1/feature.ability.shadow.level-1/in-all-this-confusion) ability. Before you [teleport](scc.v1:mcdm.heroes.v1/movement/teleport), you can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against a creature who damaged you to trigger [In All This Confusion](scc.v1:mcdm.heroes.v1/feature.ability.shadow.level-1/in-all-this-confusion). After you [teleport](scc.v1:mcdm.heroes.v1/movement/teleport), you can spend a [Recovery](scc.v1:mcdm.heroes.v1/rule.health/recoveries).",
+    "content": "\n*Your foe made a big mistake.*\n\n| **-**                  | **Free [triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |\n|------------------------|-------------------:|\n| **📏 Self; see below** |        **🎯 Self** |\n\n**Trigger:** You use your [In All This Confusion](scc.v1:mcdm.heroes.v1/feature.ability.shadow.level-1/in-all-this-confusion) ability.\n\n**Effect:** You ignore any effects associated with the damage that triggered your [In All This Confusion](scc.v1:mcdm.heroes.v1/feature.ability.shadow.level-1/in-all-this-confusion) ability. Before you [teleport](scc.v1:mcdm.heroes.v1/movement/teleport), you can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against a creature who damaged you to trigger [In All This Confusion](scc.v1:mcdm.heroes.v1/feature.ability.shadow.level-1/in-all-this-confusion). After you [teleport](scc.v1:mcdm.heroes.v1/movement/teleport), you can spend a [Recovery](scc.v1:mcdm.heroes.v1/rule.health/recoveries).",
     "distance": "Self; see below",
     "feature_type": "ability",
     "flavor": "Your foe made a big mistake.",
@@ -34,5 +34,5 @@
   "target": "Self",
   "trigger": "You use your [In All This Confusion](scc.v1:mcdm.heroes.v1/feature.ability.shadow.level-1/in-all-this-confusion) ability.",
   "type": "feature",
-  "usage": "Free triggered"
+  "usage": "Free [triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)"
 }

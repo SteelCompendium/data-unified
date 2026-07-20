@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: troubadour
 cost: 5 Drama
 distance: Special
@@ -19,7 +19,7 @@ type: ability
 
 *Again! Again!*
 
-| **Magic, [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)** | **Main action** |
+| **Magic, [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)** | **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 |-------------------|----------------:|
 | **📏 Special**    |  **🎯 Special** |
 

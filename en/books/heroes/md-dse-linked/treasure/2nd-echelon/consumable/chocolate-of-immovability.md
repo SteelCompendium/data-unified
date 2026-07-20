@@ -6,11 +6,13 @@ file_dpath: treasure/2nd-echelon/consumable
 flavor: This decadent-looking treat feels strangely heavy in the hand.
 item_id: chocolate-of-immovability
 item_name: Chocolate of Immovability
+item_prerequisite: A chocolate made by a gnome confectioner
 keywords:
     - Magic
 name: Chocolate of Immovability
 project_goal: "90"
 project_roll_characteristic: '[Reason](../../../rule/character/reason.md) or [Intuition](../../../rule/character/intuition.md)'
+project_source: Texts or lore in Caelian
 scc: mcdm.heroes.v1/treasure.2nd-echelon.consumable/chocolate-of-immovability
 source: mcdm.heroes.v1
 treasure_type: consumable

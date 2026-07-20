@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](../../../../rule/combat/turn.md)'
 class: conduit
 cost: 11 Piety
 distance: 5 [aura](../../../../rule/combat/aura.md)
@@ -18,7 +18,7 @@ type: ability
 
 *"The power of the gods is within you, friends. Allow me to unleash it."*
 
-| **Area, Magic**   |                          **Maneuver** |
+| **Area, Magic**   |                          **[Maneuver](../../../../rule/combat/turn.md)** |
 |-------------------|--------------------------------------:|
 | **📏 5 [aura](../../../../rule/combat/aura.md)**     | **🎯 Self and each ally in the area** |
 

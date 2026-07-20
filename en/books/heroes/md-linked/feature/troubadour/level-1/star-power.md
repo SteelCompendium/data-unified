@@ -14,7 +14,7 @@ You have the following ability.
 
 *Your years of practicing fencing and dancing pay off on the battlefield.*
 
-| **-**       | **Maneuver** |
+| **-**       | **[Maneuver](../../../rule/combat/turn.md)** |
 |-------------|-------------:|
 | **📏 Self** |  **🎯 Self** |
 

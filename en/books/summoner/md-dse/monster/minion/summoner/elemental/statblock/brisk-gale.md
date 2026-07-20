@@ -7,6 +7,7 @@ file_basename: brisk-gale
 file_dpath: monster/minion/summoner/elemental/statblock
 flavor: The gales are twisting ribbons of cloud and debris endlessly dancing in place. They disrupt the air and allow their allies to move freely.
 free_strike: 1
+free_strike_damage_type: Sonic
 immunities:
     - Sonic R
 intuition: 0

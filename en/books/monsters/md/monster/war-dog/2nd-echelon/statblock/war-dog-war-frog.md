@@ -34,7 +34,7 @@ with_captain: +2 bonus to speed
 
 > ⚔️ **Poisoned Dagger ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
-> | **Melee, Ranged, Strike, Weapon** |                **Main action** |
+> | **Melee, Ranged, Strike, Weapon** |                **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-----------------------------------|-------------------------------:|
 > | **📏 Melee 1 or ranged 4**        | **🎯 One creature per minion** |
 >

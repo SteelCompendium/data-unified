@@ -68,7 +68,7 @@ type: featureblock
 >
 > **Power Roll + highest characteristic:**
 >
-> | **Charge, Melee, Strike, Weapon** |  **Main action** |
+> | **Charge, Melee, Strike, Weapon** |  **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-----------------------------------|-----------------:|
 > | **📏 Melee 1**                    | **🎯 One enemy** |
 >
@@ -80,7 +80,7 @@ type: featureblock
 
 > 🗡 **Meet You There (Encounter)**
 >
-> | **Melee, Strike, Weapon** |     **Main action** |
+> | **Melee, Strike, Weapon** |     **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |---------------------------|--------------------:|
 > | **📏 Melee 1**            | **🎯 One creature** |
 >
@@ -96,7 +96,7 @@ type: featureblock
 
 > ❇️ **Nab and Stab (Encounter)**
 >
-> | **Area, Weapon** |                  **Main action** |
+> | **Area, Weapon** |                  **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |------------------|---------------------------------:|
 > | **📏 1 burst**   | **🎯 Each creature in the area** |
 >

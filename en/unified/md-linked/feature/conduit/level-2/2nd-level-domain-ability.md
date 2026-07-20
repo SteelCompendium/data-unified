@@ -30,7 +30,7 @@ Choose one of your domains. You gain a [heroic ability](../../../rule/general/he
 
 *Your enemies suffer their fate; your allies embrace their destiny!*
 
-| **Magic, [Ranged](../../../rule/combat/ranged.md)**  |        **Main action** |
+| **Magic, [Ranged](../../../rule/combat/ranged.md)**  |        **[Main action](../../../rule/combat/turn.md)** |
 |--------------------|-----------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**   | **🎯 Three creatures** |
 
@@ -44,7 +44,7 @@ Choose one of your domains. You gain a [heroic ability](../../../rule/general/he
 
 *The gods grant insight revealing where best to strike your enemies.*
 
-| **Magic, [Ranged](../../../rule/combat/ranged.md)**  |              **Maneuver** |
+| **Magic, [Ranged](../../../rule/combat/ranged.md)**  |              **[Maneuver](../../../rule/combat/turn.md)** |
 |--------------------|--------------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**   | **🎯 Self and each ally** |
 
@@ -55,7 +55,7 @@ Choose one of your domains. You gain a [heroic ability](../../../rule/general/he
 
 *You and your allies swap places to confound your foes.*
 
-| **Area, Magic**  |                          **Maneuver** |
+| **Area, Magic**  |                          **[Maneuver](../../../rule/combat/turn.md)** |
 |------------------|--------------------------------------:|
 | **📏 5 [burst](../../../rule/combat/burst.md)**   | **🎯 Self and each ally in the area** |
 
@@ -66,7 +66,7 @@ Choose one of your domains. You gain a [heroic ability](../../../rule/general/he
 
 *You speak with the voice of your [saint](../../../rule/world/saint.md), commanding your enemies.*
 
-| **Magic, [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md)** |     **Main action** |
+| **Magic, [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md)** |     **[Main action](../../../rule/combat/turn.md)** |
 |---------------------------|--------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**          | **🎯 One creature** |
 
@@ -81,7 +81,7 @@ Choose one of your domains. You gain a [heroic ability](../../../rule/general/he
 
 *Light shines at your command, burning your foes and blessing your allies.*
 
-| **Area, Magic**  |               **Main action** |
+| **Area, Magic**  |               **[Main action](../../../rule/combat/turn.md)** |
 |------------------|------------------------------:|
 | **📏 3 [burst](../../../rule/combat/burst.md)**   | **🎯 Each enemy in the area** |
 
@@ -98,7 +98,7 @@ Choose one of your domains. You gain a [heroic ability](../../../rule/general/he
 
 *Mystical thorned vines appear at your bidding and bind your foes.*
 
-| **Area, Magic, [Ranged](../../../rule/combat/ranged.md)**  |               **Main action** |
+| **Area, Magic, [Ranged](../../../rule/combat/ranged.md)**  |               **[Main action](../../../rule/combat/turn.md)** |
 |--------------------------|------------------------------:|
 | **📏 3 [cube](../../../rule/combat/cube.md) within 10**  | **🎯 Each enemy in the area** |
 
@@ -113,7 +113,7 @@ Choose one of your domains. You gain a [heroic ability](../../../rule/general/he
 
 *An ally gains strength from their friends.*
 
-| **Magic, [Ranged](../../../rule/combat/ranged.md)**  |             **Maneuver** |
+| **Magic, [Ranged](../../../rule/combat/ranged.md)**  |             **[Maneuver](../../../rule/combat/turn.md)** |
 |--------------------|-------------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**   | **🎯 Self and one ally** |
 
@@ -124,7 +124,7 @@ Choose one of your domains. You gain a [heroic ability](../../../rule/general/he
 
 *The gods reward those who smite their foes.*
 
-| **Magic, [Ranged](../../../rule/combat/ranged.md)**  |     **Maneuver** |
+| **Magic, [Ranged](../../../rule/combat/ranged.md)**  |     **[Maneuver](../../../rule/combat/turn.md)** |
 |--------------------|-----------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**   | **🎯 Each ally** |
 
@@ -135,7 +135,7 @@ Choose one of your domains. You gain a [heroic ability](../../../rule/general/he
 
 *You forge a divine connection between two creatures.*
 
-| **Magic, [Ranged](../../../rule/combat/ranged.md)**  |             **Maneuver** |
+| **Magic, [Ranged](../../../rule/combat/ranged.md)**  |             **[Maneuver](../../../rule/combat/turn.md)** |
 |--------------------|-------------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**   | **🎯 Self and one ally** |
 
@@ -146,7 +146,7 @@ Choose one of your domains. You gain a [heroic ability](../../../rule/general/he
 
 *A raging storm appears, striking your foes with lightning and throwing them around with wind.*
 
-| **Area, Magic, [Ranged](../../../rule/combat/ranged.md)**  |               **Main action** |
+| **Area, Magic, [Ranged](../../../rule/combat/ranged.md)**  |               **[Main action](../../../rule/combat/turn.md)** |
 |--------------------------|------------------------------:|
 | **📏 3 [cube](../../../rule/combat/cube.md) within 10**  | **🎯 Each enemy in the area** |
 
@@ -161,7 +161,7 @@ Choose one of your domains. You gain a [heroic ability](../../../rule/general/he
 
 *A marble statue of your deity rises from the earth.*
 
-| **Magic, [Ranged](../../../rule/combat/ranged.md)**  |   **Maneuver** |
+| **Magic, [Ranged](../../../rule/combat/ranged.md)**  |   **[Maneuver](../../../rule/combat/turn.md)** |
 |--------------------|---------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**   | **🎯 Special** |
 
@@ -172,7 +172,7 @@ Choose one of your domains. You gain a [heroic ability](../../../rule/general/he
 
 *A holy light is emitted from your body, healing your allies.*
 
-| **Area, Magic**  |              **Main action** |
+| **Area, Magic**  |              **[Main action](../../../rule/combat/turn.md)** |
 |------------------|-----------------------------:|
 | **📏 3 [aura](../../../rule/combat/aura.md)**    | **🎯 Each ally in the area** |
 

@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: conduit
 distance: Self
 effect: You create a mundane object of [size](scc.v1:mcdm.heroes.v1/rule.character/size) 1S or smaller. You can maintain a number of objects created this way equal to your [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition) score. You can destroy an object created this way with a thought, no matter how far you are from it (no action required).
@@ -29,7 +29,7 @@ flavor: You craft objects with the power of your mind.
 keywords:
     - Magic
 metadata:
-    action_type: Maneuver
+    action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: conduit
     distance: Self
     effect: You create a mundane object of [size](scc.v1:mcdm.heroes.v1/rule.character/size) 1S or smaller. You can maintain a number of objects created this way equal to your [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition) score. You can destroy an object created this way with a thought, no matter how far you are from it (no action required).
@@ -45,5 +45,5 @@ metadata:
 name: Hands of the Maker
 target: Self
 type: feature
-usage: Maneuver
+usage: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 ```

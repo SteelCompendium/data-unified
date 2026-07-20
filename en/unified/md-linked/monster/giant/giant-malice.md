@@ -42,7 +42,7 @@ At the start of any giant's turn, you can spend [Malice](../../rule/monster/mali
 
 > 🔳 **Hurl Landscape (3 [Malice](../../rule/monster/malice.md))**
 >
-> | **Area, Ranged, Weapon** |               **Main action** |
+> | **Area, Ranged, Weapon** |               **[Main action](../../rule/combat/turn.md)** |
 > |--------------------------|------------------------------:|
 > | **📏 4 cube within 10**  | **🎯 Each enemy in the area** |
 >

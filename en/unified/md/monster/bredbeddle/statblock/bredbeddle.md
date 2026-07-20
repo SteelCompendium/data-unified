@@ -44,7 +44,7 @@ type: statblock
 
 > ❇️ **Executioner's Swing (Signature Ability)**
 >
-> | **Area, Weapon** |               **Main action** |
+> | **Area, Weapon** |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |------------------|------------------------------:|
 > | **📏 2 burst**   | **🎯 Each enemy in the area** |
 >
@@ -58,7 +58,7 @@ type: statblock
 
 > 🗡 **Lop (3 Malice)**
 >
-> | **Magic, Melee, Strike, Weapon** |     **Main action** |
+> | **Magic, Melee, Strike, Weapon** |     **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |----------------------------------|--------------------:|
 > | **📏 Melee 2**                   | **🎯 One creature** |
 >
@@ -72,7 +72,7 @@ type: statblock
 
 > 👤 **Scramble**
 >
-> | **-**       | **Maneuver** |
+> | **-**       | **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
@@ -80,7 +80,7 @@ type: statblock
 
 > 🏹 **Headway (5 Malice)**
 >
-> | **Ranged, Strike, Weapon** |                  **Maneuver** |
+> | **Ranged, Strike, Weapon** |                  **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |----------------------------|------------------------------:|
 > | **📏 Ranged 20**           | **🎯 One creature or object** |
 >
@@ -94,7 +94,7 @@ type: statblock
 
 > ❗️ **Envious Imitation (2 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
-> | **Magic**   | **Triggered action** |
+> | **Magic**   | **[Triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |
 > |-------------|---------------------:|
 > | **📏 Self** |          **🎯 Self** |
 >

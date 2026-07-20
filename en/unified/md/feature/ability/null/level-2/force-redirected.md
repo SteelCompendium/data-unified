@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: "null"
 cost: 5 Discipline
 distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 3'
@@ -24,7 +24,7 @@ type: ability
 
 *The force of your [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) moves your target in a surprising direction.*
 
-| **[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), Psionic, [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), Weapon** |     **Main action** |
+| **[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), Psionic, [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), Weapon** |     **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 |------------------------------------|--------------------:|
 | **📏 [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 3**                     | **🎯 One creature** |
 

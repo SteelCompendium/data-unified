@@ -30,7 +30,7 @@ type: statblock
 
 > 🗡 **Rune-Signed Blade (Signature Ability)**
 >
-> | **Magic, Melee, Strike, Weapon** |                 **Main action** |
+> | **Magic, Melee, Strike, Weapon** |                 **[Main action](../../../rule/combat/turn.md)** |
 > |----------------------------------|--------------------------------:|
 > | **📏 Melee 3**                   | **🎯 Two creatures or objects** |
 >
@@ -44,7 +44,7 @@ type: statblock
 
 > ⚔️ **Forked Knife (3 [Malice](../../../rule/monster/malice.md))**
 >
-> | **Melee, Ranged, Strike, Weapon** |               **Main action** |
+> | **Melee, Ranged, Strike, Weapon** |               **[Main action](../../../rule/combat/turn.md)** |
 > |-----------------------------------|------------------------------:|
 > | **📏 Melee 3 or ranged 12**       | **🎯 One creature or object** |
 >
@@ -58,7 +58,7 @@ type: statblock
 
 > 👤 **Cobblestone Shape**
 >
-> | **-**       | **Maneuver** |
+> | **-**       | **[Maneuver](../../../rule/combat/turn.md)** |
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
@@ -66,7 +66,7 @@ type: statblock
 
 > ❗️ **Resonate Rune**
 >
-> | **Area, Magic** |          **Triggered action** |
+> | **Area, Magic** |          **[Triggered action](../../../rule/combat/triggered-action.md)** |
 > |-----------------|------------------------------:|
 > | **📏 2 burst**  | **🎯 Each enemy in the area** |
 >

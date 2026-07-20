@@ -31,7 +31,7 @@ with_captain: +5 bonus to ranged distance
 
 > 🏹 **Bolt Launcher ([Signature Ability](../../../../rule/combat/signature-ability.md))**
 >
-> | **Ranged, Strike, Weapon** |                          **Main action** |
+> | **Ranged, Strike, Weapon** |                          **[Main action](../../../../rule/combat/turn.md)** |
 > |----------------------------|-----------------------------------------:|
 > | **📏 Ranged 5**            | **🎯 One creature or object per minion** |
 >

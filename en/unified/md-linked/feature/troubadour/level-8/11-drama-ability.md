@@ -13,7 +13,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *A little stage trickery, and where once stood a foe, now stands a friend!*
 
-| **Magic**   | **Maneuver** |
+| **Magic**   | **[Maneuver](../../../rule/combat/turn.md)** |
 |-------------|-------------:|
 | **📏 Self** |  **🎯 Self** |
 
@@ -24,7 +24,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *A song for the brokenhearted wraps itself around the target and blossoms into a ward of thorns.*
 
-| **Magic, [Ranged](../../../rule/combat/ranged.md)** |            **Maneuver** |
+| **Magic, [Ranged](../../../rule/combat/ranged.md)** |            **[Maneuver](../../../rule/combat/turn.md)** |
 |-------------------|------------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**  | **🎯 Self or one ally** |
 
@@ -35,7 +35,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *You shout a word of power that allows you to rewrite reality to your whims.*
 
-| **Magic**   | **Maneuver** |
+| **Magic**   | **[Maneuver](../../../rule/combat/turn.md)** |
 |-------------|-------------:|
 | **📏 Self** |  **🎯 Self** |
 
@@ -51,7 +51,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *You shine a bright light on the players on the stage and compel them to finish the performance.*
 
-| **Area, Magic, [Ranged](../../../rule/combat/ranged.md)** | **Maneuver**                  |
+| **Area, Magic, [Ranged](../../../rule/combat/ranged.md)** | **[Maneuver](../../../rule/combat/turn.md)**                  |
 |-------------------------|-------------------------------|
 | **📏 5 [cube](../../../rule/combat/cube.md) within 10** | **🎯 Each enemy in the area** |
 

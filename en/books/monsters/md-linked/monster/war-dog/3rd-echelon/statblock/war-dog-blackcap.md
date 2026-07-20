@@ -31,7 +31,7 @@ type: statblock
 
 > ⚔️ **Flesh-Eater Knife ([Signature Ability](../../../../rule/combat/signature-ability.md))**
 >
-> | **Magic, Melee, Ranged, Strike, Weapon** |               **Main action** |
+> | **Magic, Melee, Ranged, Strike, Weapon** |               **[Main action](../../../../rule/combat/turn.md)** |
 > |------------------------------------------|------------------------------:|
 > | **📏 Melee 1 or ranged 5**               | **🎯 One creature or object** |
 >
@@ -45,7 +45,7 @@ type: statblock
 
 > 🏹 **Ashes to Ashes**
 >
-> | **Ranged**       |                  **Maneuver** |
+> | **Ranged**       |                  **[Maneuver](../../../../rule/combat/turn.md)** |
 > |------------------|------------------------------:|
 > | **📏 Ranged 20** | **🎯 Up to three ash clones** |
 >

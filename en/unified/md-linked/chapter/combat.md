@@ -420,7 +420,7 @@ A creature who is [grabbed](../condition/grabbed.md) by another creature, an obj
 ##### Escape Grab {data-scc="mcdm.heroes.v1/feature.ability.common/escape-grab"}
 
 
-| **-**       | **Maneuver** |
+| **-**       | **[Maneuver](../rule/combat/turn.md)** |
 |-------------|-------------:|
 | **📏 Self** |  **🎯 Self** |
 
@@ -441,7 +441,7 @@ A creature seeking to keep a foe close and locked down can attempt to grab a cre
 ##### Grab {data-scc="mcdm.heroes.v1/feature.ability.common/grab"}
 
 
-| **[Melee](../rule/combat/melee.md), Weapon** |        **Maneuver** |
+| **[Melee](../rule/combat/melee.md), Weapon** |        **[Maneuver](../rule/combat/turn.md)** |
 |-------------------|--------------------:|
 | **📏 [Melee](../rule/combat/melee.md) 1**    | **🎯 One creature** |
 
@@ -468,7 +468,7 @@ A creature wanting to [push](../movement/forced-movement.md) an [adjacent](../ru
 ##### Knockback {data-scc="mcdm.heroes.v1/feature.ability.common/knockback"}
 
 
-| **[Melee](../rule/combat/melee.md), Weapon** |        **Maneuver** |
+| **[Melee](../rule/combat/melee.md), Weapon** |        **[Maneuver](../rule/combat/turn.md)** |
 |-------------------|--------------------:|
 | **📏 [Melee](../rule/combat/melee.md) 1**    | **🎯 One creature** |
 

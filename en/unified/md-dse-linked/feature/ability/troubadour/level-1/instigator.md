@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: troubadour
 distance: '[Melee](../../../../rule/combat/melee.md) 1'
 effect: The target is [taunted](../../../../condition/taunted.md) by you or a willing ally [adjacent](../../../../rule/combat/adjacent.md) to you until the end of the target's next [turn](../../../../rule/combat/turn.md).
@@ -41,7 +41,7 @@ keywords:
     - '[Strike](../../../../rule/combat/strike.md)'
     - Weapon
 metadata:
-    action_type: Main action
+    action_type: '[Main action](../../../../rule/combat/turn.md)'
     class: troubadour
     distance: '[Melee](../../../../rule/combat/melee.md) 1'
     effect: The target is [taunted](../../../../condition/taunted.md) by you or a willing ally [adjacent](../../../../rule/combat/adjacent.md) to you until the end of the target's next [turn](../../../../rule/combat/turn.md).
@@ -63,5 +63,5 @@ metadata:
 name: Instigator
 target: One creature
 type: feature
-usage: Main action
+usage: '[Main action](../../../../rule/combat/turn.md)'
 ```

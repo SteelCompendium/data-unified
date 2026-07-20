@@ -57,7 +57,7 @@ type: featureblock
 
 > 🔳 **Winter's Breath (Encounter)**
 >
-> | **Area, Magic**        |               **Main action** |
+> | **Area, Magic**        |               **[Main action](../../../rule/combat/turn.md)** |
 > |------------------------|------------------------------:|
 > | **📏 3 cube within 1** | **🎯 Each enemy in the area** |
 >
@@ -73,7 +73,7 @@ type: featureblock
 
 > ❇️ **Spring's Rebirth (Encounter)**
 >
-> | **Area, Magic** |              **Main action** |
+> | **Area, Magic** |              **[Main action](../../../rule/combat/turn.md)** |
 > |-----------------|-----------------------------:|
 > | **📏 3 burst**  | **🎯 Each ally in the area** |
 >
@@ -83,7 +83,7 @@ type: featureblock
 
 > 🔳 **Autumn's Decay (Encounter)**
 >
-> | **Area, Magic**        |               **Main action** |
+> | **Area, Magic**        |               **[Main action](../../../rule/combat/turn.md)** |
 > |------------------------|------------------------------:|
 > | **📏 3 cube within 1** | **🎯 Each enemy in the area** |
 >

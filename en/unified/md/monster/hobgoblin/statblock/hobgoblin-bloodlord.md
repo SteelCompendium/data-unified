@@ -33,7 +33,7 @@ type: statblock
 
 > 🗡 **Soul Sword (Signature Ability)**
 >
-> | **Magic, Melee, Strike, Weapon** |                 **Main action** |
+> | **Magic, Melee, Strike, Weapon** |                 **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |----------------------------------|--------------------------------:|
 > | **📏 Melee 1**                   | **🎯 Two creatures or objects** |
 >
@@ -47,7 +47,7 @@ type: statblock
 
 > 🏹 **Take Point!**
 >
-> | **Ranged**       |    **Maneuver** |
+> | **Ranged**       |    **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |------------------|----------------:|
 > | **📏 Ranged 10** | **🎯 One ally** |
 >
@@ -55,7 +55,7 @@ type: statblock
 
 > ❗️ **An Army From Blood (3 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
-> | **Ranged**       |           **Triggered action** |
+> | **Ranged**       |           **[Triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |
 > |------------------|-------------------------------:|
 > | **📏 Ranged 10** | **🎯 The triggering creature** |
 >

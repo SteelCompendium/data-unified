@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](../../../../rule/combat/turn.md)'
 class: "null"
 cost: 9 Discipline
 distance: Self
@@ -18,7 +18,7 @@ type: ability
 
 *You focus until your body becomes as hard as iron.*
 
-| **Psionic** | **Maneuver** |
+| **Psionic** | **[Maneuver](../../../../rule/combat/turn.md)** |
 |-------------|-------------:|
 | **📏 Self** |  **🎯 Self** |
 

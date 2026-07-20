@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](../../../../rule/combat/turn.md)'
 class: elementalist
 cost: 7 Essence
 distance: 10 wall within 10
@@ -20,7 +20,7 @@ type: ability
 
 *A blazing, beautifully organized inferno erupts at your command.*
 
-| **Area, Fire, Magic, [Ranged](../../../../rule/combat/ranged.md)** |   **Maneuver** |
+| **Area, Fire, Magic, [Ranged](../../../../rule/combat/ranged.md)** |   **[Maneuver](../../../../rule/combat/turn.md)** |
 |-------------------------------|---------------:|
 | **📏 10 wall within 10**      | **🎯 Special** |
 

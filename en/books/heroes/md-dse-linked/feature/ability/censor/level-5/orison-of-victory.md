@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](../../../../rule/combat/turn.md)'
 class: censor
 cost: 9 Wrath
 cost_amount: "9"
@@ -40,7 +40,7 @@ flavor: You channel your god's will to overcome hardship and inflict pain.
 keywords:
     - Area
 metadata:
-    action_type: Maneuver
+    action_type: '[Maneuver](../../../../rule/combat/turn.md)'
     class: censor
     cost: 9 Wrath
     distance: 1 [burst](../../../../rule/combat/burst.md)
@@ -60,5 +60,5 @@ metadata:
 name: Orison of Victory
 target: Self and each ally in the area
 type: feature
-usage: Maneuver
+usage: '[Maneuver](../../../../rule/combat/turn.md)'
 ```

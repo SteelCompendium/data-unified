@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: fury
 cost: 9 Ferocity
 cost_amount: "9"
@@ -45,7 +45,7 @@ keywords:
     - '[Strike](../../../../rule/combat/strike.md)'
     - Weapon
 metadata:
-    action_type: Main action
+    action_type: '[Main action](../../../../rule/combat/turn.md)'
     class: fury
     cost: 9 Ferocity
     distance: '[Melee](../../../../rule/combat/melee.md) 1'
@@ -68,5 +68,5 @@ metadata:
 name: Force of Storms
 target: One creature
 type: feature
-usage: Main action
+usage: '[Main action](../../../../rule/combat/turn.md)'
 ```

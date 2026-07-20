@@ -35,7 +35,7 @@ weaknesses:
 
 > 🗡 **Greedy Hands (Signature Ability)**
 >
-> | **Magic, Melee, Strike** |                 **Main action** |
+> | **Magic, Melee, Strike** |                 **[Main action](../../../../rule/combat/turn.md)** |
 > |--------------------------|--------------------------------:|
 > | **📏 Melee 2**           | **🎯 Two creatures or objects** |
 >
@@ -49,7 +49,7 @@ weaknesses:
 
 > 🏹 **Covetous Bolts (3 [Malice](../../../../rule/monster/malice.md))**
 >
-> | **Magic, Ranged, Strike** |      **Main action** |
+> | **Magic, Ranged, Strike** |      **[Main action](../../../../rule/combat/turn.md)** |
 > |---------------------------|---------------------:|
 > | **📏 Ranged 20**          | **🎯 Two creatures** |
 >
@@ -63,7 +63,7 @@ weaknesses:
 
 > 🏹 **Greed Is Good (2 [Malice](../../../../rule/monster/malice.md))**
 >
-> | **Ranged**       |   **Maneuver** |
+> | **Ranged**       |   **[Maneuver](../../../../rule/combat/turn.md)** |
 > |------------------|---------------:|
 > | **📏 Ranged 10** | **🎯 Special** |
 >

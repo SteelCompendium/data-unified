@@ -29,7 +29,7 @@ type: statblock
 
 > 🏹 **Control Synapses ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
-> | **Psionic, Ranged, Strike, Telekinesis** |                 **Main action** |
+> | **Psionic, Ranged, Strike, Telekinesis** |                 **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |------------------------------------------|--------------------------------:|
 > | **📏 Ranged 10**                         | **🎯 Two creatures or objects** |
 >
@@ -43,7 +43,7 @@ type: statblock
 
 > 🏹 **Disorientate (2 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
-> | **Psionic, Ranged, Telepathy** |                  **Maneuver** |
+> | **Psionic, Ranged, Telepathy** |                  **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |--------------------------------|------------------------------:|
 > | **📏 Ranged 10**               | **🎯 One creature or object** |
 >
@@ -55,7 +55,7 @@ type: statblock
 
 > ❗️ **Mind Requital (2 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
-> | **Psionic** | **Triggered action** |
+> | **Psionic** | **[Triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |
 > |-------------|---------------------:|
 > | **📏 Self** |          **🎯 Self** |
 >

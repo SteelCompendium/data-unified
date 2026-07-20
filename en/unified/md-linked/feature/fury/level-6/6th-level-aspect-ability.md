@@ -17,7 +17,7 @@ Choose one of the following abilities.
 
 *You leap and crash down, causing a shockwave that devastates foes.*
 
-| **Magic**   | **Maneuver** |
+| **Magic**   | **[Maneuver](../../../rule/combat/turn.md)** |
 |-------------|-------------:|
 | **📏 Self** |  **🎯 Self** |
 
@@ -34,7 +34,7 @@ Choose one of the following abilities.
 
 *You strike an enemy hard enough to be a projectile that knocks a crowd of creatures around.*
 
-| **[Melee](../../../rule/combat/melee.md), [Strike](../../../rule/combat/strike.md), Weapon** |     **Main action** |
+| **[Melee](../../../rule/combat/melee.md), [Strike](../../../rule/combat/strike.md), Weapon** |     **[Main action](../../../rule/combat/turn.md)** |
 |---------------------------|--------------------:|
 | **📏 [Melee](../../../rule/combat/melee.md) 1**            | **🎯 One creature** |
 
@@ -55,7 +55,7 @@ Choose one of the following abilities.
 
 *Once you taste your foe's blood, you become more efficient and [turn](../../../rule/combat/turn.md) every killing blow into an opportunity.*
 
-| **[Melee](../../../rule/combat/melee.md), [Strike](../../../rule/combat/strike.md), Weapon** | **Free triggered** |
+| **[Melee](../../../rule/combat/melee.md), [Strike](../../../rule/combat/strike.md), Weapon** | **Free [triggered](../../../rule/combat/triggered-action.md)** |
 |---------------------------|-------------------:|
 | **📏 [Melee](../../../rule/combat/melee.md) 1**            |        **🎯 Self** |
 
@@ -68,7 +68,7 @@ Choose one of the following abilities.
 
 *You break through the enemy lines to make an example.*
 
-| **[Melee](../../../rule/combat/melee.md), [Strike](../../../rule/combat/strike.md), Weapon** |     **Main action** |
+| **[Melee](../../../rule/combat/melee.md), [Strike](../../../rule/combat/strike.md), Weapon** |     **[Main action](../../../rule/combat/turn.md)** |
 |---------------------------|--------------------:|
 | **📏 [Melee](../../../rule/combat/melee.md) 1**            | **🎯 One creature** |
 
@@ -91,7 +91,7 @@ Choose one of the following abilities.
 
 *You strike at the target like the ultimate predator you are.*
 
-| **Magic, [Melee](../../../rule/combat/melee.md), [Strike](../../../rule/combat/strike.md), Weapon** |     **Main action** |
+| **Magic, [Melee](../../../rule/combat/melee.md), [Strike](../../../rule/combat/strike.md), Weapon** |     **[Main action](../../../rule/combat/turn.md)** |
 |----------------------------------|--------------------:|
 | **📏 [Melee](../../../rule/combat/melee.md) 1**                   | **🎯 One creature** |
 
@@ -108,7 +108,7 @@ Choose one of the following abilities.
 
 *You focus your connection to the Primordial Chaos into a seething storm.*
 
-| **Area, Magic** |                     **Maneuver** |
+| **Area, Magic** |                     **[Maneuver](../../../rule/combat/turn.md)** |
 |-----------------|---------------------------------:|
 | **📏 3 [aura](../../../rule/combat/aura.md)**   | **🎯 Each creature in the area** |
 

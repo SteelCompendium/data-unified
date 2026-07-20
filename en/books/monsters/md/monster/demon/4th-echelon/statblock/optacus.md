@@ -33,7 +33,7 @@ with_captain: +4 bonus to speed
 
 > 🏹 **Optical Flare (Signature Ability)**
 >
-> | **Magic, Ranged, Strike, Weapon** |                          **Main action** |
+> | **Magic, Ranged, Strike, Weapon** |                          **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-----------------------------------|-----------------------------------------:|
 > | **📏 Ranged 20**                  | **🎯 One creature or object per minion** |
 >

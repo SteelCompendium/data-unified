@@ -17,7 +17,7 @@ You have the following ability.
 >
 > *You manipulate a tiny object with your mind.*
 >
-> | **Psionic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)** |              **Maneuver** |
+> | **Psionic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)** |              **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |---------------------|--------------------------:|
 > | **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**    | **🎯 One [size](scc.v1:mcdm.heroes.v1/rule.character/size) 1T object** |
 >

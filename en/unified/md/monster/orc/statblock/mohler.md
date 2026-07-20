@@ -31,7 +31,7 @@ with_captain: +2 bonus to speed
 
 > 🗡 **Earth Bump ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
-> | **Melee, Strike, Weapon** |                          **Main action** |
+> | **Melee, Strike, Weapon** |                          **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |---------------------------|-----------------------------------------:|
 > | **📏 Melee 1**            | **🎯 One creature or object per minion** |
 >

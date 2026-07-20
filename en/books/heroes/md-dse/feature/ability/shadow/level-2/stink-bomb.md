@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: shadow
 cost: 5 Insight
 cost_amount: "5"
@@ -43,7 +43,7 @@ keywords:
     - Area
     - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'
 metadata:
-    action_type: Main action
+    action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: shadow
     cost: 5 Insight
     distance: 3 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 10
@@ -65,5 +65,5 @@ metadata:
 name: Stink Bomb
 target: Each creature in the area
 type: feature
-usage: Main action
+usage: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 ```

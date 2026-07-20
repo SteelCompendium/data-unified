@@ -15,9 +15,9 @@
   ],
   "metadata": {
     "ability_type": "Triggered",
-    "action_type": "Triggered",
+    "action_type": "[Triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)",
     "class": "shadow",
-    "content": "\n*You sow a moment of confusion in combat, to your enemy's peril.*\n\n| **Magic**   | **Triggered** |\n|-------------|--------------:|\n| **📏 Self** |     **🎯 Self** |\n\n**Trigger:** An enemy targets you with a [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike).\n\n**Effect:** Choose an enemy within [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance) of the triggering strike, including the enemy who targeted you. The [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) targets that enemy instead.",
+    "content": "\n*You sow a moment of confusion in combat, to your enemy's peril.*\n\n| **Magic**   | **[Triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |\n|-------------|--------------:|\n| **📏 Self** |     **🎯 Self** |\n\n**Trigger:** An enemy targets you with a [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike).\n\n**Effect:** Choose an enemy within [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance) of the triggering strike, including the enemy who targeted you. The [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) targets that enemy instead.",
     "distance": "Self",
     "feature_type": "ability",
     "flavor": "You sow a moment of confusion in combat, to your enemy's peril.",
@@ -38,5 +38,5 @@
   "target": "Self",
   "trigger": "An enemy targets you with a [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike).",
   "type": "feature",
-  "usage": "Triggered"
+  "usage": "[Triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)"
 }

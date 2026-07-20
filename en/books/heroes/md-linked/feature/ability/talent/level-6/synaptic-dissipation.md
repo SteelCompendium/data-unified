@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](../../../../rule/combat/turn.md)'
 class: talent
 cost: 9 Clarity
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
@@ -25,7 +25,7 @@ type: ability
 
 *You manipulate your enemies' minds and make them wonder if you were ever really there in the first place.*
 
-| **Psionic, [Ranged](../../../../rule/combat/ranged.md), [Strike](../../../../rule/combat/strike.md), Telepathy** |   **Maneuver** |
+| **Psionic, [Ranged](../../../../rule/combat/ranged.md), [Strike](../../../../rule/combat/strike.md), Telepathy** |   **[Maneuver](../../../../rule/combat/turn.md)** |
 |----------------------------------------|---------------:|
 | **📏 [Ranged](../../../../rule/combat/ranged.md) 10**                       | **🎯 Special** |
 

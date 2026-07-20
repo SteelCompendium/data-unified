@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](../../../../rule/combat/turn.md)'
 class: "null"
 cost: 7 Discipline
 distance: Self
@@ -17,7 +17,7 @@ type: ability
 
 *You project order, making it harder for your enemies to interfere with you and your allies.*
 
-| **Psionic** | **Maneuver** |
+| **Psionic** | **[Maneuver](../../../../rule/combat/turn.md)** |
 |-------------|-------------:|
 | **📏 Self** |  **🎯 Self** |
 

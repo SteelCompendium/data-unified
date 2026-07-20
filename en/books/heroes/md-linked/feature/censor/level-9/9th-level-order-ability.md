@@ -17,7 +17,7 @@ Choose one of the following abilities.
 
 *You sever the target's tenuous connection to the world.*
 
-| **[Melee](../../../rule/combat/melee.md), [Strike](../../../rule/combat/strike.md), Weapon**  |     **Main action** |
+| **[Melee](../../../rule/combat/melee.md), [Strike](../../../rule/combat/strike.md), Weapon**  |     **[Main action](../../../rule/combat/turn.md)** |
 |----------------------------|--------------------:|
 | **📏 [Melee](../../../rule/combat/melee.md) 1**             | **🎯 One creature** |
 
@@ -34,7 +34,7 @@ Choose one of the following abilities.
 
 *"I know what you fear."*
 
-| **Magic, [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md)**  |     **Main action** |
+| **Magic, [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md)**  |     **[Main action](../../../rule/combat/turn.md)** |
 |----------------------------|--------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**           | **🎯 One creature** |
 
@@ -55,7 +55,7 @@ Choose one of the following abilities.
 
 *The gods bless and damn in equal measure.*
 
-| **Magic, [Ranged](../../../rule/combat/ranged.md)**  |       **Triggered** |
+| **Magic, [Ranged](../../../rule/combat/ranged.md)**  |       **[Triggered](../../../rule/combat/triggered-action.md)** |
 |--------------------|--------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**   | **🎯 One creature** |
 
@@ -68,7 +68,7 @@ Choose one of the following abilities.
 
 *You have looked at various futures, and only this one works.*
 
-| **Magic, [Ranged](../../../rule/combat/ranged.md)**  |   **Triggered** |
+| **Magic, [Ranged](../../../rule/combat/ranged.md)**  |   **[Triggered](../../../rule/combat/triggered-action.md)** |
 |--------------------|----------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**   | **🎯 One ally** |
 
@@ -85,7 +85,7 @@ Choose one of the following abilities.
 
 *You channel holy energy to seal an enemy's fate.*
 
-| **[Melee](../../../rule/combat/melee.md), [Strike](../../../rule/combat/strike.md), Weapon** |     **Main action** |
+| **[Melee](../../../rule/combat/melee.md), [Strike](../../../rule/combat/strike.md), Weapon** |     **[Main action](../../../rule/combat/turn.md)** |
 |---------------------------|--------------------:|
 | **📏 [Melee](../../../rule/combat/melee.md) 1**            | **🎯 One creature** |
 
@@ -102,7 +102,7 @@ Choose one of the following abilities.
 
 *You and your allies are clad in shimmering armor.*
 
-| **Area, Magic** |                          **Maneuver** |
+| **Area, Magic** |                          **[Maneuver](../../../rule/combat/turn.md)** |
 |-----------------|--------------------------------------:|
 | **📏 2 [aura](../../../rule/combat/aura.md)**   | **🎯 Self and each ally in the area** |
 

@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](../../../../rule/combat/turn.md)'
 class: "null"
 cost: 7 Discipline
 distance: Self
@@ -17,7 +17,7 @@ type: ability
 
 *Your enemies' wounds open, your allies' wounds close.*
 
-| **Psionic** | **Maneuver** |
+| **Psionic** | **[Maneuver](../../../../rule/combat/turn.md)** |
 |-------------|-------------:|
 | **📏 Self** |  **🎯 Self** |
 

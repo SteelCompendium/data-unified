@@ -31,7 +31,7 @@ weaknesses:
 
 > 🔳 **Bilious Expulsion (Signature Ability)**
 >
-> | **Area, Ranged, Weapon**           |                           **Main action** |
+> | **Area, Ranged, Weapon**           |                           **[Main action](../../../../rule/combat/turn.md)** |
 > |------------------------------------|------------------------------------------:|
 > | **📏 1 burst, or 3 cube within 5** | **🎯 One creature or object in the area** |
 >
@@ -45,7 +45,7 @@ weaknesses:
 
 > ❗️ **Spew Slide (1 [Malice](../../../../rule/monster/malice.md))**
 >
-> | **-**       | **Free triggered action** |
+> | **-**       | **Free [triggered action](../../../../rule/combat/triggered-action.md)** |
 > |-------------|--------------------------:|
 > | **📏 Self** |               **🎯 Self** |
 >

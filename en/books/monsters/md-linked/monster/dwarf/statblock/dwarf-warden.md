@@ -29,7 +29,7 @@ type: statblock
 
 > 🗡 **Concussive Maul (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |               **Main action** |
+> | **Melee, Strike, Weapon** |               **[Main action](../../../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Melee 1**            | **🎯 One creature or object** |
 >
@@ -43,7 +43,7 @@ type: statblock
 
 > 🔳 **Concussive Shockwave (5 [Malice](../../../rule/monster/malice.md))**
 >
-> | **Area, Weapon**       |               **Main action** |
+> | **Area, Weapon**       |               **[Main action](../../../rule/combat/turn.md)** |
 > |------------------------|------------------------------:|
 > | **📏 3 cube within 1** | **🎯 Each enemy in the area** |
 >

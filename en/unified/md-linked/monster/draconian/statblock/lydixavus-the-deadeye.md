@@ -33,7 +33,7 @@ type: statblock
 
 > 🏹 **Breathsnipe (Signature Ability)**
 >
-> | **Ranged, Strike, Weapon** |  **Main action** |
+> | **Ranged, Strike, Weapon** |  **[Main action](../../../rule/combat/turn.md)** |
 > |----------------------------|-----------------:|
 > | **📏 Ranged 15**           | **🎯 One enemy** |
 >
@@ -45,7 +45,7 @@ type: statblock
 
 > 🔳 **Ice Lob**
 >
-> | **Area, Magic, Ranged** |                          **Main action** |
+> | **Area, Magic, Ranged** |                          **[Main action](../../../rule/combat/turn.md)** |
 > |-------------------------|-----------------------------------------:|
 > | **📏 2 cube within 10** | **🎯 Each enemy and object in the area** |
 >
@@ -57,7 +57,7 @@ type: statblock
 
 > 👤 **Parting Gift**
 >
-> | **-**       | **Maneuver** |
+> | **-**       | **[Maneuver](../../../rule/combat/turn.md)** |
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
@@ -65,7 +65,7 @@ type: statblock
 
 > ❗️ **Wasn't Aiming For You**
 >
-> | **-**       | **Triggered action** |
+> | **-**       | **[Triggered action](../../../rule/combat/triggered-action.md)** |
 > |-------------|---------------------:|
 > | **📏 Self** |          **🎯 Self** |
 >

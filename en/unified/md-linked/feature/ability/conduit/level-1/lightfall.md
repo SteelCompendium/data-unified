@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: conduit
 distance: 2 [burst](../../../../rule/combat/burst.md)
 effect: You can [teleport](../../../../movement/teleport.md) yourself and each ally in the area to unoccupied spaces in the area.
@@ -22,7 +22,7 @@ type: ability
 
 *A rain of holy light scours your enemies and repositions your allies.*
 
-| **Area, Magic**  |               **Main action** |
+| **Area, Magic**  |               **[Main action](../../../../rule/combat/turn.md)** |
 |------------------|------------------------------:|
 | **📏 2 [burst](../../../../rule/combat/burst.md)**   | **🎯 Each enemy in the area** |
 

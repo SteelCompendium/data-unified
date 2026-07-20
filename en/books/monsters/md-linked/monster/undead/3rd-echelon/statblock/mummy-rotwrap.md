@@ -35,7 +35,7 @@ with_captain: +3 bonus to melee distance
 
 > 🗡 **Fetid Wrappings ([Signature Ability](../../../../rule/combat/signature-ability.md))**
 >
-> | **Melee, Strike, Weapon** |                          **Main action** |
+> | **Melee, Strike, Weapon** |                          **[Main action](../../../../rule/combat/turn.md)** |
 > |---------------------------|-----------------------------------------:|
 > | **📏 Melee 2**            | **🎯 One creature or object per minion** |
 >

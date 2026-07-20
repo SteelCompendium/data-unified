@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: "null"
 distance: '[Melee](../../../../rule/combat/melee.md) 1'
 flavor: You strike at key nerve clusters to leave your foe staggered.
@@ -23,7 +23,7 @@ type: ability
 
 *You strike at key nerve clusters to leave your foe staggered.*
 
-| **[Melee](../../../../rule/combat/melee.md), Psionic, [Strike](../../../../rule/combat/strike.md), Weapon** |               **Main action** |
+| **[Melee](../../../../rule/combat/melee.md), Psionic, [Strike](../../../../rule/combat/strike.md), Weapon** |               **[Main action](../../../../rule/combat/turn.md)** |
 |------------------------------------|------------------------------:|
 | **📏 [Melee](../../../../rule/combat/melee.md) 1**                     | **🎯 One creature or object** |
 

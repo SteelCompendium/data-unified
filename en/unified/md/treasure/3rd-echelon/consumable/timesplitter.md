@@ -2,11 +2,13 @@
 echelon: "3"
 effect: 'As a maneuver, you make a [ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) using the Timesplitter, which shatters upon impact. The [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) deals an extra 1d6 psychic damage and adds the following effects to the [tier outcomes](scc.v1:mcdm.heroes.v1/rule.dice/tier-outcome) of the [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll):'
 flavor: This spiked crystal makes a beautiful ringing sound when first touched.
+item_prerequisite: A time crystal
 keywords:
     - Psionic
 name: Timesplitter
 project_goal: "180"
 project_roll_characteristic: '[Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) or [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)'
+project_source: Texts or lore in Voll
 scc: mcdm.heroes.v1/treasure.3rd-echelon.consumable/timesplitter
 treasure_type: consumable
 type: treasure

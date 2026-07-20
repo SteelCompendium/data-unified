@@ -1,5 +1,5 @@
 ---
-action_type: Free triggered
+action_type: Free [triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)
 class: "null"
 cost: 11 Discipline
 cost_amount: "11"
@@ -34,7 +34,7 @@ flavor: You disrupt an enemy's strike and create a [feedback loop](scc.v1:mcdm.h
 keywords:
     - Psionic
 metadata:
-    action_type: Free triggered
+    action_type: Free [triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)
     class: "null"
     cost: 11 Discipline
     distance: Self; see below
@@ -53,5 +53,5 @@ name: Synaptic Anchor
 target: Self or one creature
 trigger: The target takes damage from another creature's ability while in the area of your [Null Field](scc.v1:mcdm.heroes.v1/feature.null.level-1/null-field) ability.
 type: feature
-usage: Free triggered
+usage: Free [triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)
 ```

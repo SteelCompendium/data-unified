@@ -31,7 +31,7 @@ with_captain: +3 damage bonus to strikes
 
 > 🗡 **Greatsword and Roar ([Signature Ability](../../../../rule/combat/signature-ability.md))**
 >
-> | **Charge, Melee, Strike, Weapon** |                          **Main action** |
+> | **Charge, Melee, Strike, Weapon** |                          **[Main action](../../../../rule/combat/turn.md)** |
 > |-----------------------------------|-----------------------------------------:|
 > | **📏 Melee 2**                    | **🎯 One creature or object per minion** |
 >

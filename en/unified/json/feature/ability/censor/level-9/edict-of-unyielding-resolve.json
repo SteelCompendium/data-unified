@@ -14,9 +14,9 @@
     "Magic"
   ],
   "metadata": {
-    "action_type": "Maneuver",
+    "action_type": "[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)",
     "class": "censor",
-    "content": "\n*You and your allies are clad in shimmering armor.*\n\n| **Area, Magic** |                          **Maneuver** |\n|-----------------|--------------------------------------:|\n| **📏 2 [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura)**   | **🎯 Self and each ally in the area** |\n\n**Effect:** Until the end of the encounter or until you are [dying](scc.v1:mcdm.heroes.v1/rule.health/dying), each target who starts their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) in the area gains 10 [temporary Stamina](scc.v1:mcdm.heroes.v1/rule.health/temporary-stamina).",
+    "content": "\n*You and your allies are clad in shimmering armor.*\n\n| **Area, Magic** |                          **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|-----------------|--------------------------------------:|\n| **📏 2 [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura)**   | **🎯 Self and each ally in the area** |\n\n**Effect:** Until the end of the encounter or until you are [dying](scc.v1:mcdm.heroes.v1/rule.health/dying), each target who starts their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) in the area gains 10 [temporary Stamina](scc.v1:mcdm.heroes.v1/rule.health/temporary-stamina).",
     "distance": "2 [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura)",
     "feature_type": "ability",
     "flavor": "You and your allies are clad in shimmering armor.",
@@ -37,5 +37,5 @@
   "name": "Edict of Unyielding Resolve",
   "target": "Self and each ally in the area",
   "type": "feature",
-  "usage": "Maneuver"
+  "usage": "[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)"
 }

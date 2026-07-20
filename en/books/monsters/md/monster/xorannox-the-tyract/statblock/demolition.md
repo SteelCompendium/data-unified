@@ -30,7 +30,7 @@ type: statblock
 
 > 🔳 **Explosion ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
-> | **Psionic, Ranged, Strike** |               **Main action** |
+> | **Psionic, Ranged, Strike** |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-----------------------------|------------------------------:|
 > | **📏 4 cube within 10**     | **🎯 Each enemy in the area** |
 >

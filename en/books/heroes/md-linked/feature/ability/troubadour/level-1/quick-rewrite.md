@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: troubadour
 cost: 3 Drama
 distance: 3 [cube](../../../../rule/combat/cube.md) within 10
@@ -23,7 +23,7 @@ type: ability
 
 *You write something unexpected into the scene that hinders your enemy.*
 
-| **Area, Magic, [Ranged](../../../../rule/combat/ranged.md)**     |               **Main action** |
+| **Area, Magic, [Ranged](../../../../rule/combat/ranged.md)**     |               **[Main action](../../../../rule/combat/turn.md)** |
 |-----------------------------|------------------------------:|
 | **📏 3 [cube](../../../../rule/combat/cube.md) within 10**     | **🎯 Each enemy in the area** |
 

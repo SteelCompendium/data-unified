@@ -31,7 +31,7 @@ type: statblock
 
 > 🗡 **Night Knife (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |               **Main action** |
+> | **Melee, Strike, Weapon** |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |---------------------------|------------------------------:|
 > | **📏 Melee 1**            | **🎯 One creature or object** |
 >
@@ -45,7 +45,7 @@ type: statblock
 
 > 🔳 **The Lay of Cor'thoroth**
 >
-> | **Area, Magic, Ranged** |   **Maneuver** |
+> | **Area, Magic, Ranged** |   **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-------------------------|---------------:|
 > | **📏 2 cube within 3**  | **🎯 Special** |
 >

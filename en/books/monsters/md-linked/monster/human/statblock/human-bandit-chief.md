@@ -31,7 +31,7 @@ type: statblock
 
 > 🗡 **Whip and Magic Longsword (Signature Ability)**
 >
-> | **Magic, Melee, Strike, Weapon** |               **Main action** |
+> | **Magic, Melee, Strike, Weapon** |               **[Main action](../../../rule/combat/turn.md)** |
 > |----------------------------------|------------------------------:|
 > | **📏 Melee 2**                   | **🎯 Two enemies or objects** |
 >
@@ -47,7 +47,7 @@ type: statblock
 
 > 🗡 **Kneel, Peasant!**
 >
-> | **Melee**      |     **Maneuver** |
+> | **Melee**      |     **[Maneuver](../../../rule/combat/turn.md)** |
 > |----------------|-----------------:|
 > | **📏 Melee 1** | **🎯 One enemy** |
 >
@@ -61,7 +61,7 @@ type: statblock
 
 > ❗️ **Bloodstones**
 >
-> | **Magic**   | **Triggered action** |
+> | **Magic**   | **[Triggered action](../../../rule/combat/triggered-action.md)** |
 > |-------------|---------------------:|
 > | **📏 Self** |          **🎯 Self** |
 >

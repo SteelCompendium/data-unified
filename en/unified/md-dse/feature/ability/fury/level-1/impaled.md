@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: fury
 distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
 feature_type: ability
@@ -39,7 +39,7 @@ keywords:
     - '[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)'
     - Weapon
 metadata:
-    action_type: Main action
+    action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: fury
     distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
     flavor: You skewer your enemy like a boar upon a spit.
@@ -60,5 +60,5 @@ metadata:
 name: Impaled!
 target: One creature of your [size](scc.v1:mcdm.heroes.v1/rule.character/size) or smaller
 type: feature
-usage: Main action
+usage: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 ```

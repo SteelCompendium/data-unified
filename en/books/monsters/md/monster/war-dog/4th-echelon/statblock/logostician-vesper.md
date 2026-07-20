@@ -29,7 +29,7 @@ type: statblock
 
 > 🔳 **Portal to the Firing Line ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
-> | **Area, Ranged, Weapon**    |                             **Main action** |
+> | **Area, Ranged, Weapon**    |                             **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-----------------------------|--------------------------------------------:|
 > | **📏 5 x 3 line within 15** | **🎯 Each creature and object in the area** |
 >
@@ -47,7 +47,7 @@ type: statblock
 
 > 🔳 **Portal to the Mantle (3 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
-> | **Area, Magic, Ranged** |                             **Main action** |
+> | **Area, Magic, Ranged** |                             **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-------------------------|--------------------------------------------:|
 > | **📏 3 cube within 15** | **🎯 Each creature and object in the area** |
 >
@@ -61,7 +61,7 @@ type: statblock
 
 > 🔳 **Portal to the Void**
 >
-> | **Area, Magic, Ranged** |                                **Maneuver** |
+> | **Area, Magic, Ranged** |                                **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-------------------------|--------------------------------------------:|
 > | **📏 5 cube within 15** | **🎯 Each creature and object in the area** |
 >
@@ -77,7 +77,7 @@ type: statblock
 
 > ❗️ **Portal to the Sky**
 >
-> | **Ranged**      | **Triggered action** |
+> | **Ranged**      | **[Triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |
 > |-----------------|---------------------:|
 > | **📏 Ranged 3** |     **🎯 One enemy** |
 >

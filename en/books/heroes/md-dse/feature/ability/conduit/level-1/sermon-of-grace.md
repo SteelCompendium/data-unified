@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: conduit
 cost: 5 Piety
 cost_amount: "5"
@@ -34,7 +34,7 @@ keywords:
     - Area
     - Magic
 metadata:
-    action_type: Main action
+    action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: conduit
     cost: 5 Piety
     distance: 4 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)
@@ -51,5 +51,5 @@ metadata:
 name: Sermon of Grace
 target: Each ally in the area
 type: feature
-usage: Main action
+usage: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 ```

@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](../../../../rule/combat/turn.md)'
 class: "null"
 cost: 5 Discipline
 cost_amount: "5"
@@ -33,7 +33,7 @@ flavor: You absorb ambient heat, coating the ground in frost and precipitating s
 keywords:
     - Psionic
 metadata:
-    action_type: Maneuver
+    action_type: '[Maneuver](../../../../rule/combat/turn.md)'
     class: "null"
     cost: 5 Discipline
     distance: Self
@@ -50,5 +50,5 @@ metadata:
 name: Heat Sink
 target: Self
 type: feature
-usage: Maneuver
+usage: '[Maneuver](../../../../rule/combat/turn.md)'
 ```

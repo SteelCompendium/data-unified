@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: conduit
 cost: 7 Piety
 distance: 5 [burst](../../../../rule/combat/burst.md)
@@ -22,7 +22,7 @@ type: ability
 
 *Your [saint](../../../../rule/world/saint.md) grants your enemies a vision of pain and fills your allies with healing energy.*
 
-| **Area, Magic**  |               **Main action** |
+| **Area, Magic**  |               **[Main action](../../../../rule/combat/turn.md)** |
 |------------------|------------------------------:|
 | **📏 5 [burst](../../../../rule/combat/burst.md)**   | **🎯 Each enemy in the area** |
 

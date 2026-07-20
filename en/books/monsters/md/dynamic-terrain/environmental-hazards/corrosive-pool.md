@@ -67,7 +67,7 @@ This shallow pool bubbles with acid or some other corrosive liquid.
 
 > ❗️ **Explosive Reaction**
 >
-> | **Area**       |                   **Free triggered action** |
+> | **Area**       |                   **Free [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |
 > |----------------|--------------------------------------------:|
 > | **📏 3 burst** | **🎯 Each creature and object in the area** |
 >

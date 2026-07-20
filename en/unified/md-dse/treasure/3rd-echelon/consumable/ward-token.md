@@ -6,11 +6,13 @@ file_dpath: treasure/3rd-echelon/consumable
 flavor: This smoothly polished quartz stone feels strangely warm to the touch.
 item_id: ward-token
 item_name: Ward Token
+item_prerequisite: A small quartz
 keywords:
     - Psionic
 name: Ward Token
 project_goal: "180"
 project_roll_characteristic: '[Might](scc.v1:mcdm.heroes.v1/rule.character/might) or [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)'
+project_source: Texts or lore in Zaliac
 scc: mcdm.heroes.v1/treasure.3rd-echelon.consumable/ward-token
 source: mcdm.heroes.v1
 treasure_type: consumable

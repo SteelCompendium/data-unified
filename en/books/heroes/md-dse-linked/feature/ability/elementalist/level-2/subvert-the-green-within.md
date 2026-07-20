@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: elementalist
 cost: 5 Essence
 cost_amount: "5"
@@ -48,7 +48,7 @@ keywords:
     - '[Strike](../../../../rule/combat/strike.md)'
     - Void
 metadata:
-    action_type: Main action
+    action_type: '[Main action](../../../../rule/combat/turn.md)'
     class: elementalist
     cost: 5 Essence
     distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
@@ -72,5 +72,5 @@ metadata:
 name: Subvert the Green Within
 target: One creature
 type: feature
-usage: Main action
+usage: '[Main action](../../../../rule/combat/turn.md)'
 ```

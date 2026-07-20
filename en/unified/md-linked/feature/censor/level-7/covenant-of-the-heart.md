@@ -14,7 +14,7 @@ You can maintain bonds with up to three willing creatures using your [Invocation
 
 *You concentrate on a friend and [teleport](../../../movement/teleport.md) to them.*
 
-| **Magic, [Ranged](../../../rule/combat/ranged.md)** |           **Main action** |
+| **Magic, [Ranged](../../../rule/combat/ranged.md)** |           **[Main action](../../../rule/combat/turn.md)** |
 |-------------------|--------------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**  | **🎯 Self and each ally** |
 

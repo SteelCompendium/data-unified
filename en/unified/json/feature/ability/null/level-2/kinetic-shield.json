@@ -19,9 +19,9 @@
     "Psionic"
   ],
   "metadata": {
-    "action_type": "Maneuver",
+    "action_type": "[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)",
     "class": "null",
-    "content": "\n*You manifest a force barrier that absorbs incoming kinetic energy.*\n\n| **Psionic** | **Maneuver** |\n|-------------|-------------:|\n| **📏 Self** |  **🎯 Self** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition):**\n\n- **≤11:** You gain 10 [temporary Stamina](scc.v1:mcdm.heroes.v1/rule.health/temporary-stamina).\n- **12-16:** You gain 15 [temporary Stamina](scc.v1:mcdm.heroes.v1/rule.health/temporary-stamina).\n- **17+:** You gain 20 [temporary Stamina](scc.v1:mcdm.heroes.v1/rule.health/temporary-stamina).\n\n**Effect:** While you have [temporary Stamina](scc.v1:mcdm.heroes.v1/rule.health/temporary-stamina) from this ability, you can't be made [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) even while [dying](scc.v1:mcdm.heroes.v1/rule.health/dying).",
+    "content": "\n*You manifest a force barrier that absorbs incoming kinetic energy.*\n\n| **Psionic** | **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|-------------|-------------:|\n| **📏 Self** |  **🎯 Self** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition):**\n\n- **≤11:** You gain 10 [temporary Stamina](scc.v1:mcdm.heroes.v1/rule.health/temporary-stamina).\n- **12-16:** You gain 15 [temporary Stamina](scc.v1:mcdm.heroes.v1/rule.health/temporary-stamina).\n- **17+:** You gain 20 [temporary Stamina](scc.v1:mcdm.heroes.v1/rule.health/temporary-stamina).\n\n**Effect:** While you have [temporary Stamina](scc.v1:mcdm.heroes.v1/rule.health/temporary-stamina) from this ability, you can't be made [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) even while [dying](scc.v1:mcdm.heroes.v1/rule.health/dying).",
     "distance": "Self",
     "feature_type": "ability",
     "flavor": "You manifest a force barrier that absorbs incoming kinetic energy.",
@@ -41,5 +41,5 @@
   "name": "Kinetic Shield",
   "target": "Self",
   "type": "feature",
-  "usage": "Maneuver"
+  "usage": "[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)"
 }

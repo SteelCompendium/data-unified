@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: tactician
 cost: 9 Focus
 distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
@@ -18,7 +18,7 @@ type: ability
 
 *With new understanding of your foes, you create the perfect plan to win the battle.*
 
-| **[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)**       |           **Maneuver** |
+| **[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)**       |           **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 |------------------|-----------------------:|
 | **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10** | **🎯 Three creatures** |
 

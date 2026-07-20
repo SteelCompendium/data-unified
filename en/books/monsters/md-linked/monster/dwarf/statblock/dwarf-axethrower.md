@@ -30,7 +30,7 @@ with_captain: +2 bonus to Stamina
 
 > ⚔️ **Whistling Axes (Signature Ability)**
 >
-> | **Melee, Ranged, Strike, Weapon** |                          **Main action** |
+> | **Melee, Ranged, Strike, Weapon** |                          **[Main action](../../../rule/combat/turn.md)** |
 > |-----------------------------------|-----------------------------------------:|
 > | **📏 Melee 1 or ranged 5**        | **🎯 One creature or object per minion** |
 >

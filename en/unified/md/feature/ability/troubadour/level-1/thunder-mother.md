@@ -1,5 +1,5 @@
 ---
-action_type: No action
+action_type: '[No action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: troubadour
 distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
 effect: At the end of each [combat round](scc.v1:mcdm.heroes.v1/rule.combat/combat-round) while this performance is active, you can make a [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) against the target that ignores [cover](scc.v1:mcdm.heroes.v1/rule.combat/cover). You can't target the same creature twice with this effect.
@@ -24,7 +24,7 @@ type: ability
 
 *All for thunder motherrr! ♪ Run and hide for coverrr!♪*
 
-| **Magic, Performance, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)** |       **No action** |
+| **Magic, Performance, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)** |       **[No action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 |----------------------------------------|--------------------:|
 | **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**                       | **🎯 One creature** |
 

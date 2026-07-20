@@ -4,12 +4,18 @@ file_dpath: treasure/leveled/implement
 flavor: An ornate ring is set with a large diamond that swirls with blue light, and whose inner surface is etched with protective runes.
 item_id: abjurers-bastion
 item_name: Abjurer's Bastion
+item_prerequisite: A diamond ring
 keywords:
     - '[Implement](scc.v1:mcdm.heroes.v1/rule.treasure/implement)'
     - Magic
+level_effects:
+    1st: While you wield this [implement](scc.v1:mcdm.heroes.v1/rule.treasure/implement), your magic or psionic abilities that deal [rolled damage](scc.v1:mcdm.heroes.v1/rule.damage/rolled-damage) gain a +1 damage [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties). Additionally, whenever you deal [rolled damage](scc.v1:mcdm.heroes.v1/rule.damage/rolled-damage) to a creature using a magic or psionic ability, you gain [temporary Stamina](scc.v1:mcdm.heroes.v1/rule.health/temporary-stamina) equal to your highest [characteristic](scc.v1:mcdm.heroes.v1/rule.character/characteristic) score.
+    5th: The [implement](scc.v1:mcdm.heroes.v1/rule.treasure/implement)'s damage [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) increases to +2. Additionally, whenever you deal [rolled damage](scc.v1:mcdm.heroes.v1/rule.damage/rolled-damage) using a magic or psionic ability, you can use a maneuver to create an immobile field of protection that is a 1 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube), around yourself or around an ally within 5 squares. While in the area, you or the chosen ally has [damage immunity](scc.v1:mcdm.heroes.v1/rule.damage/damage-immunity) 5. The field disappears at the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn).
+    9th: The [implement](scc.v1:mcdm.heroes.v1/rule.treasure/implement)'s damage [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) increases to +3. Whenever you deal [rolled damage](scc.v1:mcdm.heroes.v1/rule.damage/rolled-damage) to a creature using a magic or psionic ability, you and each ally within 5 squares of you gains [temporary Stamina](scc.v1:mcdm.heroes.v1/rule.health/temporary-stamina) equal to your highest [characteristic](scc.v1:mcdm.heroes.v1/rule.character/characteristic) score. Additionally, the size of your field of protection increases to a 3 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube), and it can be placed anywhere within 10 squares of you. You and each ally in the area gain its benefits.
 name: Abjurer's Bastion
 project_goal: "450"
 project_roll_characteristic: '[Might](scc.v1:mcdm.heroes.v1/rule.character/might), [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason), or [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)'
+project_source: Texts or lore in Caelian
 scc: mcdm.heroes.v1/treasure.leveled.implement/abjurers-bastion
 source: mcdm.heroes.v1
 treasure_type: implement

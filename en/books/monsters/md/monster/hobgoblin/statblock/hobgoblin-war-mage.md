@@ -34,7 +34,7 @@ type: statblock
 
 > 🔳 **Hellfire (Signature Ability)**
 >
-> | **Area, Magic, Ranged** |               **Main action** |
+> | **Area, Magic, Ranged** |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-------------------------|------------------------------:|
 > | **📏 3 cube within 10** | **🎯 Each enemy in the area** |
 >
@@ -48,7 +48,7 @@ type: statblock
 
 > 🏹 **Enchantments of War**
 >
-> | **Magic, Ranged** |   **Main action** |
+> | **Magic, Ranged** |   **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-------------------|------------------:|
 > | **📏 Ranged 10**  | **🎯 Two allies** |
 >
@@ -56,7 +56,7 @@ type: statblock
 
 > 🔳 **Unhallowed Ground (3 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
-> | **Area, Magic, Ranged** |   **Maneuver** |
+> | **Area, Magic, Ranged** |   **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-------------------------|---------------:|
 > | **📏 5 cube within 10** | **🎯 Special** |
 >
@@ -64,7 +64,7 @@ type: statblock
 
 > ❗️ **Magic Siphon**
 >
-> | **Magic, Ranged** |           **Triggered action** |
+> | **Magic, Ranged** |           **[Triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |
 > |-------------------|-------------------------------:|
 > | **📏 Ranged 10**  | **🎯 The triggering creature** |
 >

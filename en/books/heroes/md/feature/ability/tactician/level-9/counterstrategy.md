@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: tactician
 cost: 11 Focus
 distance: Self
@@ -17,7 +17,7 @@ type: ability
 
 *I've identified a way to negate their strengths.*
 
-| **-**       | **Main action** |
+| **-**       | **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 |-------------|----------------:|
 | **📏 Self** |     **🎯 Self** |
 

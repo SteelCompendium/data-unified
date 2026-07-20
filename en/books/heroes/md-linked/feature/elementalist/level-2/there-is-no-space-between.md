@@ -14,7 +14,7 @@ You have the following ability.
 
 *Knowledge of the mystery reveals that two spaces are the same space.*
 
-| **Magic, [Ranged](../../../rule/combat/ranged.md), Void** |   **Maneuver** |
+| **Magic, [Ranged](../../../rule/combat/ranged.md), Void** |   **[Maneuver](../../../rule/combat/turn.md)** |
 |-------------------------|---------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**        | **🎯 Special** |
 

@@ -15,9 +15,9 @@ keywords:
     - '[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)'
     - Void
 metadata:
-    action_type: Main action
+    action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: elementalist
-    content: "\n*With a flick of the wrist, you phase creatures out of existence.*\n\n| **Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), Void** | **Main action** |\n|---------------------------------|----------------:|\n| **\U0001F4CF [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**                |  **\U0001F3AF Special** |\n\n**Special:** The number of creatures you target with this ability is determined by your [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll).\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason):**\n\n- **≤11:** One creature\n- **12-16:** Two creatures\n- **17+:** Three creatures\n\n**Effect:** Each target begins to fade from existence (save ends). On their first [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) while fading from existence, a target takes a [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) on [power rolls](scc.v1:mcdm.heroes.v1/rule.dice/power-roll). At the end of their first [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), they have a double [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) on [power rolls](scc.v1:mcdm.heroes.v1/rule.dice/power-roll). At the end of their second [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), they fade from existence for 1 hour, after which they reappear in their original space or the nearest unoccupied space."
+    content: "\n*With a flick of the wrist, you phase creatures out of existence.*\n\n| **Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), Void** | **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|---------------------------------|----------------:|\n| **\U0001F4CF [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**                |  **\U0001F3AF Special** |\n\n**Special:** The number of creatures you target with this ability is determined by your [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll).\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason):**\n\n- **≤11:** One creature\n- **12-16:** Two creatures\n- **17+:** Three creatures\n\n**Effect:** Each target begins to fade from existence (save ends). On their first [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) while fading from existence, a target takes a [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) on [power rolls](scc.v1:mcdm.heroes.v1/rule.dice/power-roll). At the end of their first [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), they have a double [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) on [power rolls](scc.v1:mcdm.heroes.v1/rule.dice/power-roll). At the end of their second [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), they fade from existence for 1 hour, after which they reappear in their original space or the nearest unoccupied space."
     distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
     feature_type: ability
     flavor: With a flick of the wrist, you phase creatures out of existence.
@@ -36,4 +36,4 @@ metadata:
 name: Erase
 target: Special
 type: feature
-usage: Main action
+usage: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'

@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: talent
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
 effect: A worthless [size](../../../../rule/character/size.md) 1M object drops onto the target to deal the damage, then rolls into an [adjacent](../../../../rule/combat/adjacent.md) unoccupied space of your choice. The object is made of wood, stone, or metal (your choice).
@@ -24,7 +24,7 @@ type: ability
 
 *You picture an object in your mind and give it form—directly above your opponent's head.*
 
-| **Psionic, [Ranged](../../../../rule/combat/ranged.md), Resopathy, [Strike](../../../../rule/combat/strike.md)** |               **Main action** |
+| **Psionic, [Ranged](../../../../rule/combat/ranged.md), Resopathy, [Strike](../../../../rule/combat/strike.md)** |               **[Main action](../../../../rule/combat/turn.md)** |
 |----------------------------------------|------------------------------:|
 | **📏 [Ranged](../../../../rule/combat/ranged.md) 10**                       | **🎯 One creature or object** |
 

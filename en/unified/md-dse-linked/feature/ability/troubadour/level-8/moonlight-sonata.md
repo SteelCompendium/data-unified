@@ -1,5 +1,5 @@
 ---
-action_type: No action
+action_type: '[No action](../../../../rule/combat/turn.md)'
 class: troubadour
 distance: 5 [aura](../../../../rule/combat/aura.md)
 effect: While this performance is active, each target who is dead can choose to continue taking [turns](../../../../rule/combat/turn.md) after death. On each of their [turns](../../../../rule/combat/turn.md), a target can move and use either a main action or a maneuver, but can't spend [Recoveries](../../../../rule/health/recoveries.md) or use [triggered actions](../../../../rule/combat/triggered-action.md). At the end of the encounter, each target who chose to take [turns](../../../../rule/combat/turn.md) this way turns to dust and blows away.
@@ -33,7 +33,7 @@ keywords:
     - Magic
     - Performance
 metadata:
-    action_type: No action
+    action_type: '[No action](../../../../rule/combat/turn.md)'
     class: troubadour
     distance: 5 [aura](../../../../rule/combat/aura.md)
     effect: While this performance is active, each target who is dead can choose to continue taking [turns](../../../../rule/combat/turn.md) after death. On each of their [turns](../../../../rule/combat/turn.md), a target can move and use either a main action or a maneuver, but can't spend [Recoveries](../../../../rule/health/recoveries.md) or use [triggered actions](../../../../rule/combat/triggered-action.md). At the end of the encounter, each target who chose to take [turns](../../../../rule/combat/turn.md) this way turns to dust and blows away.
@@ -51,5 +51,5 @@ metadata:
 name: Moonlight Sonata
 target: Each ally in the area
 type: feature
-usage: No action
+usage: '[No action](../../../../rule/combat/turn.md)'
 ```

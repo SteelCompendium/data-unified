@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: shadow
 cost: 5 Insight
 distance: Self; see below
@@ -19,7 +19,7 @@ type: ability
 
 *They have no idea what the college taught you.*
 
-| **Magic, [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)** | **Main action** |
+| **Magic, [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)** | **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 |------------------------|----------------:|
 | **📏 Self; see below** |     **🎯 Self** |
 

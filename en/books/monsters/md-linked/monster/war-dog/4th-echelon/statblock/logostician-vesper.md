@@ -29,7 +29,7 @@ type: statblock
 
 > 🔳 **Portal to the Firing Line ([Signature Ability](../../../../rule/combat/signature-ability.md))**
 >
-> | **Area, Ranged, Weapon**    |                             **Main action** |
+> | **Area, Ranged, Weapon**    |                             **[Main action](../../../../rule/combat/turn.md)** |
 > |-----------------------------|--------------------------------------------:|
 > | **📏 5 x 3 line within 15** | **🎯 Each creature and object in the area** |
 >
@@ -47,7 +47,7 @@ type: statblock
 
 > 🔳 **Portal to the Mantle (3 [Malice](../../../../rule/monster/malice.md))**
 >
-> | **Area, Magic, Ranged** |                             **Main action** |
+> | **Area, Magic, Ranged** |                             **[Main action](../../../../rule/combat/turn.md)** |
 > |-------------------------|--------------------------------------------:|
 > | **📏 3 cube within 15** | **🎯 Each creature and object in the area** |
 >
@@ -61,7 +61,7 @@ type: statblock
 
 > 🔳 **Portal to the Void**
 >
-> | **Area, Magic, Ranged** |                                **Maneuver** |
+> | **Area, Magic, Ranged** |                                **[Maneuver](../../../../rule/combat/turn.md)** |
 > |-------------------------|--------------------------------------------:|
 > | **📏 5 cube within 15** | **🎯 Each creature and object in the area** |
 >
@@ -77,7 +77,7 @@ type: statblock
 
 > ❗️ **Portal to the Sky**
 >
-> | **Ranged**      | **Triggered action** |
+> | **Ranged**      | **[Triggered action](../../../../rule/combat/triggered-action.md)** |
 > |-----------------|---------------------:|
 > | **📏 Ranged 3** |     **🎯 One enemy** |
 >

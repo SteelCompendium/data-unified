@@ -1,5 +1,5 @@
 ---
-action_type: Free triggered
+action_type: Free [triggered](../../../../rule/combat/triggered-action.md)
 class: censor
 cost: 9 Wrath
 cost_amount: "9"
@@ -37,7 +37,7 @@ keywords:
     - Magic
     - '[Ranged](../../../../rule/combat/ranged.md)'
 metadata:
-    action_type: Free triggered
+    action_type: Free [triggered](../../../../rule/combat/triggered-action.md)
     class: censor
     cost: 9 Wrath
     distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
@@ -58,5 +58,5 @@ name: Pain of Your Own Making
 target: Self or one ally
 trigger: The target gains a [condition](../../../../rule/combat/condition.md) or effect that is ended by a [saving throw](../../../../rule/general/saving-throw.md) or that ends at the end of their [turn](../../../../rule/combat/turn.md).
 type: feature
-usage: Free triggered
+usage: Free [triggered](../../../../rule/combat/triggered-action.md)
 ```

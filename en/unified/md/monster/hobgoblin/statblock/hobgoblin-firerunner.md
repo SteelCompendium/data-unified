@@ -33,7 +33,7 @@ type: statblock
 
 > 🗡 **Flaming Kick (Signature Ability)**
 >
-> | **Charge, Magic, Melee, Strike** |               **Main action** |
+> | **Charge, Magic, Melee, Strike** |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |----------------------------------|------------------------------:|
 > | **📏 Melee 1**                   | **🎯 One creature or object** |
 >
@@ -45,7 +45,7 @@ type: statblock
 
 > 👤 **Blazing Trail**
 >
-> | **Magic**   | **Maneuver** |
+> | **Magic**   | **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >

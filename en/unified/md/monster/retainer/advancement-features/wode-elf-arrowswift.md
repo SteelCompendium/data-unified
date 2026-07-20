@@ -56,7 +56,7 @@ type: featureblock
 
 > 🏹 **Snipe (Encounter)**
 >
-> | **Ranged, Strike, Weapon** |     **Main action** |
+> | **Ranged, Strike, Weapon** |     **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |----------------------------|--------------------:|
 > | **📏 Ranged 15**           | **🎯 One creature** |
 >
@@ -72,7 +72,7 @@ type: featureblock
 
 > 👤 **Magic Arrows (Encounter)**
 >
-> | **-**       | **Maneuver** |
+> | **-**       | **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
@@ -82,7 +82,7 @@ type: featureblock
 
 > 🏹 **Double Shot (Encounter)**
 >
-> | **Ranged, Strike, Weapon** |                 **Main action** |
+> | **Ranged, Strike, Weapon** |                 **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |----------------------------|--------------------------------:|
 > | **📏 Ranged 15**           | **🎯 Two creatures or objects** |
 >

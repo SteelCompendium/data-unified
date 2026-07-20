@@ -30,7 +30,7 @@ type: statblock
 
 > 🗡 **Sword Stab (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |               **Main action** |
+> | **Melee, Strike, Weapon** |               **[Main action](../../../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Melee 1**            | **🎯 One creature or object** |
 >
@@ -44,7 +44,7 @@ type: statblock
 
 > 🏹 **Shadow Chains (3 [Malice](../../../rule/monster/malice.md))**
 >
-> | **Magic, Ranged, Strike** |        **Main action** |
+> | **Magic, Ranged, Strike** |        **[Main action](../../../rule/combat/turn.md)** |
 > |---------------------------|-----------------------:|
 > | **📏 Ranged 10**          | **🎯 Three creatures** |
 >

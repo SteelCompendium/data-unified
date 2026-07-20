@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: shadow
 cost: 9 Insight
 distance: 10 x 1 line within 1
@@ -23,7 +23,7 @@ type: ability
 
 *You vanish. They fall. You reappear.*
 
-| **Area, [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), Weapon**     |               **Main action** |
+| **Area, [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), Weapon**     |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 |-----------------------------|------------------------------:|
 | **📏 10 x 1 line within 1** | **🎯 Each enemy in the area** |
 

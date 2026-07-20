@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: fury
 cost: 11 Ferocity
 distance: '[Melee](../../../../rule/combat/melee.md) 1'
@@ -24,7 +24,7 @@ type: ability
 
 *You shock your foes with the brutality of your [strike](../../../../rule/combat/strike.md), resetting the balance of combat.*
 
-| **[Melee](../../../../rule/combat/melee.md), [Strike](../../../../rule/combat/strike.md), Weapon** |     **Main action** |
+| **[Melee](../../../../rule/combat/melee.md), [Strike](../../../../rule/combat/strike.md), Weapon** |     **[Main action](../../../../rule/combat/turn.md)** |
 |---------------------------|--------------------:|
 | **📏 [Melee](../../../../rule/combat/melee.md) 1**            | **🎯 One creature** |
 

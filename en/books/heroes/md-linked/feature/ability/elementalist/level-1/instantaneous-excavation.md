@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](../../../../rule/combat/turn.md)'
 class: elementalist
 cost: 5 Essence
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
@@ -23,7 +23,7 @@ type: ability
 
 *The surface of the world around you opens up to swallow foes.*
 
-| **Earth, Magic, [Ranged](../../../../rule/combat/ranged.md)** |    **Maneuver** |
+| **Earth, Magic, [Ranged](../../../../rule/combat/ranged.md)** |    **[Maneuver](../../../../rule/combat/turn.md)** |
 |--------------------------|----------------:|
 | **📏 [Ranged](../../../../rule/combat/ranged.md) 10**         |  **🎯 Special** |
 

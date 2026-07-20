@@ -32,7 +32,7 @@ type: statblock
 
 > 🔳 **Twin Flamebelchers ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
-> | **Area, Weapon**            |                             **Main action** |
+> | **Area, Weapon**            |                             **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-----------------------------|--------------------------------------------:|
 > | **📏 10 x 1 line within 1** | **🎯 Each creature and object in the area** |
 >
@@ -46,7 +46,7 @@ type: statblock
 
 > 🏹 **Enflame**
 >
-> | **Magic, Ranged** |   **Maneuver** |
+> | **Magic, Ranged** |   **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-------------------|---------------:|
 > | **📏 Ranged 10**  | **🎯 Special** |
 >

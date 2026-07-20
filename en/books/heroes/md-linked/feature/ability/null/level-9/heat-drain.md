@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](../../../../rule/combat/turn.md)'
 class: "null"
 cost: 11 Discipline
 distance: '[Melee](../../../../rule/combat/melee.md) 1'
@@ -24,7 +24,7 @@ type: ability
 
 *You drain all the heat from the target.*
 
-| **[Melee](../../../../rule/combat/melee.md), Psionic, [Strike](../../../../rule/combat/strike.md)** |        **Maneuver** |
+| **[Melee](../../../../rule/combat/melee.md), Psionic, [Strike](../../../../rule/combat/strike.md)** |        **[Maneuver](../../../../rule/combat/turn.md)** |
 |----------------------------|--------------------:|
 | **📏 [Melee](../../../../rule/combat/melee.md) 1**             | **🎯 One creature** |
 

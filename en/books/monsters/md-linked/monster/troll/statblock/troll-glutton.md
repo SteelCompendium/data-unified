@@ -32,7 +32,7 @@ weaknesses:
 
 > 🗡 **Voracious Mastication ([Signature Ability](../../../rule/combat/signature-ability.md))**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](../../../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 1**            | **🎯 Two creatures or objects** |
 >
@@ -46,7 +46,7 @@ weaknesses:
 
 > 👤 **Crash Through (3 [Malice](../../../rule/monster/malice.md))**
 >
-> | **-**       | **Main action** |
+> | **-**       | **[Main action](../../../rule/combat/turn.md)** |
 > |-------------|----------------:|
 > | **📏 Self** |     **🎯 Self** |
 >
@@ -54,7 +54,7 @@ weaknesses:
 
 > 👤 **Food Frenzy**
 >
-> | **-**       | **Maneuver** |
+> | **-**       | **[Maneuver](../../../rule/combat/turn.md)** |
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
@@ -62,7 +62,7 @@ weaknesses:
 
 > ❗️ **Spiteful Retort (1 [Malice](../../../rule/monster/malice.md))**
 >
-> | **Melee**      |      **Free triggered action** |
+> | **Melee**      |      **Free [triggered action](../../../rule/combat/triggered-action.md)** |
 > |----------------|-------------------------------:|
 > | **📏 Melee 1** | **🎯 The triggering creature** |
 >

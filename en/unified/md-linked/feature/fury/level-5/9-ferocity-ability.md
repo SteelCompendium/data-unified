@@ -13,7 +13,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *You need just one blow to sabotage your target.*
 
-| **[Melee](../../../rule/combat/melee.md), [Strike](../../../rule/combat/strike.md), Weapon** |     **Main action** |
+| **[Melee](../../../rule/combat/melee.md), [Strike](../../../rule/combat/strike.md), Weapon** |     **[Main action](../../../rule/combat/turn.md)** |
 |---------------------------|--------------------:|
 | **📏 [Melee](../../../rule/combat/melee.md) 1**            | **🎯 One creature** |
 
@@ -30,7 +30,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *You quickly strike back at a foe.*
 
-| **[Melee](../../../rule/combat/melee.md), [Strike](../../../rule/combat/strike.md), Weapon** |             **Free triggered** |
+| **[Melee](../../../rule/combat/melee.md), [Strike](../../../rule/combat/strike.md), Weapon** |             **Free [triggered](../../../rule/combat/triggered-action.md)** |
 |---------------------------|-------------------------------:|
 | **📏 [Melee](../../../rule/combat/melee.md) 1**            | **🎯 The triggering creature** |
 
@@ -49,7 +49,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *You knock around enemies like playthings.*
 
-| **[Melee](../../../rule/combat/melee.md), [Strike](../../../rule/combat/strike.md), Weapon** |                 **Main action** |
+| **[Melee](../../../rule/combat/melee.md), [Strike](../../../rule/combat/strike.md), Weapon** |                 **[Main action](../../../rule/combat/turn.md)** |
 |---------------------------|--------------------------------:|
 | **📏 [Melee](../../../rule/combat/melee.md) 1**            | **🎯 Two creatures or objects** |
 
@@ -66,7 +66,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *You channel the Primordial Chaos into blows that petrify your foe... literally.*
 
-| **Magic, [Melee](../../../rule/combat/melee.md), [Strike](../../../rule/combat/strike.md), Weapon** |     **Main action** |
+| **Magic, [Melee](../../../rule/combat/melee.md), [Strike](../../../rule/combat/strike.md), Weapon** |     **[Main action](../../../rule/combat/turn.md)** |
 |----------------------------------|--------------------:|
 | **📏 [Melee](../../../rule/combat/melee.md) 1**                   | **🎯 One creature** |
 

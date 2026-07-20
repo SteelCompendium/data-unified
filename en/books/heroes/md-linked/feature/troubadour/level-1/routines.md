@@ -15,7 +15,7 @@ You start off with the [Choreography](../../ability/troubadour/level-1/choreogra
 
 *Taps, kicks, steps. It's all "[choreography](../../ability/troubadour/level-1/choreography.md)."*
 
-| **Area, Magic, Performance** |                         **No action** |
+| **Area, Magic, Performance** |                         **[No action](../../../rule/combat/turn.md)** |
 |------------------------------|--------------------------------------:|
 | **📏 5 [aura](../../../rule/combat/aura.md)**                | **🎯 Self and each ally in the area** |
 
@@ -26,7 +26,7 @@ You start off with the [Choreography](../../ability/troubadour/level-1/choreogra
 
 *There once was a man from [Capital](../../../rule/world/capital.md)...*
 
-| **Area, Magic, Performance** |                         **No action** |
+| **Area, Magic, Performance** |                         **[No action](../../../rule/combat/turn.md)** |
 |------------------------------|--------------------------------------:|
 | **📏 5 [aura](../../../rule/combat/aura.md)**                | **🎯 Self and each ally in the area** |
 

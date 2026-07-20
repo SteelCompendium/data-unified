@@ -23,9 +23,9 @@
   ],
   "metadata": {
     "ability_type": "Signature",
-    "action_type": "Main action",
+    "action_type": "[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)",
     "class": "talent",
-    "content": "\n*Your eyes emit rays of powerful enervating force.*\n\n| **Metamorphosis, Psionic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)**, **Strike** |               **Main action** |\n|------------------------------------------------|------------------------------:|\n| **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**                               | **🎯 One creature or object** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason):**\n\n- **≤11:** 2 + R damage; M \u003c WEAK[, prone](scc.v1:mcdm.heroes.v1/condition/prone)\n- **12-16:** 4 + R damage; M \u003c AVERAGE[, prone](scc.v1:mcdm.heroes.v1/condition/prone)\n- **17+:** 6 + R damage; M \u003c STRONG[, prone](scc.v1:mcdm.heroes.v1/condition/prone)\n\n**Effect:** When targeting an object with a solid reflective surface or a creature carrying or wearing such an object (such as a mirror, an unpainted metal shield, or shiny metal plate armor), you can target one additional creature or object within 3 squares of the first target.\n\n**Strained:** You gain 1 [surge](scc.v1:mcdm.heroes.v1/rule.resource/surge) that you can use immediately, and you take damage equal to your [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) score that can't be reduced in any way.",
+    "content": "\n*Your eyes emit rays of powerful enervating force.*\n\n| **Metamorphosis, Psionic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)**, **Strike** |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|------------------------------------------------|------------------------------:|\n| **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**                               | **🎯 One creature or object** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason):**\n\n- **≤11:** 2 + R damage; M \u003c WEAK[, prone](scc.v1:mcdm.heroes.v1/condition/prone)\n- **12-16:** 4 + R damage; M \u003c AVERAGE[, prone](scc.v1:mcdm.heroes.v1/condition/prone)\n- **17+:** 6 + R damage; M \u003c STRONG[, prone](scc.v1:mcdm.heroes.v1/condition/prone)\n\n**Effect:** When targeting an object with a solid reflective surface or a creature carrying or wearing such an object (such as a mirror, an unpainted metal shield, or shiny metal plate armor), you can target one additional creature or object within 3 squares of the first target.\n\n**Strained:** You gain 1 [surge](scc.v1:mcdm.heroes.v1/rule.resource/surge) that you can use immediately, and you take damage equal to your [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) score that can't be reduced in any way.",
     "distance": "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10",
     "feature_type": "ability",
     "flavor": "Your eyes emit rays of powerful enervating force.",
@@ -47,5 +47,5 @@
   "name": "Optic Blast",
   "target": "One creature or object",
   "type": "feature",
-  "usage": "Main action"
+  "usage": "[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)"
 }

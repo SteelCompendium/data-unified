@@ -30,7 +30,7 @@ type: statblock
 
 > 🗡 **Violent Thrashing (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](../../../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 2**            | **🎯 Two creatures or objects** |
 >
@@ -42,7 +42,7 @@ type: statblock
 
 > 👤 **Bound Ahead (5 [Malice](../../../rule/monster/malice.md))**
 >
-> | **-**       | **Main action** |
+> | **-**       | **[Main action](../../../rule/combat/turn.md)** |
 > |-------------|----------------:|
 > | **📏 Self** |     **🎯 Self** |
 >
@@ -50,7 +50,7 @@ type: statblock
 
 > 🔳 **Power Wing Buffet (3 [Malice](../../../rule/monster/malice.md))**
 >
-> | **Area**                   |                               **Maneuver** |
+> | **Area**                   |                               **[Maneuver](../../../rule/combat/turn.md)** |
 > |----------------------------|-------------------------------------------:|
 > | **📏 5 x 3 line within 1** | **🎯 Each creature or object in the area** |
 >
@@ -62,7 +62,7 @@ type: statblock
 
 > ❗️ **Circle and Strike**
 >
-> | **Ranged**      |           **Triggered action** |
+> | **Ranged**      |           **[Triggered action](../../../rule/combat/triggered-action.md)** |
 > |-----------------|-------------------------------:|
 > | **📏 Ranged 5** | **🎯 The triggering creature** |
 >

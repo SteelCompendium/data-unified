@@ -30,7 +30,7 @@ type: statblock
 
 > 🗡 **En Garde ([Signature Ability](../../../rule/combat/signature-ability.md))**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](../../../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 1**            | **🎯 Two creatures or objects** |
 >
@@ -44,7 +44,7 @@ type: statblock
 
 > 🗡 **Over Here, Thanks**
 >
-> | **Melee**      |     **Maneuver** |
+> | **Melee**      |     **[Maneuver](../../../rule/combat/turn.md)** |
 > |----------------|-----------------:|
 > | **📏 Melee 1** | **🎯 One enemy** |
 >
@@ -52,7 +52,7 @@ type: statblock
 
 > ❗️ **Ready Rodent**
 >
-> | **Melee, Weapon** | **Triggered action** |
+> | **Melee, Weapon** | **[Triggered action](../../../rule/combat/triggered-action.md)** |
 > |-------------------|---------------------:|
 > | **📏 Melee 1**    |  **🎯 One creature** |
 >

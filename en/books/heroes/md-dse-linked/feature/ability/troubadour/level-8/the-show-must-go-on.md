@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](../../../../rule/combat/turn.md)'
 class: troubadour
 cost: 11 Drama
 cost_amount: "11"
@@ -44,7 +44,7 @@ keywords:
     - Magic
     - '[Ranged](../../../../rule/combat/ranged.md)'
 metadata:
-    action_type: Maneuver
+    action_type: '[Maneuver](../../../../rule/combat/turn.md)'
     class: troubadour
     cost: 11 Drama
     distance: 5 [cube](../../../../rule/combat/cube.md) within 10
@@ -66,5 +66,5 @@ metadata:
 name: The Show Must Go On
 target: Each enemy in the area
 type: feature
-usage: Maneuver
+usage: '[Maneuver](../../../../rule/combat/turn.md)'
 ```

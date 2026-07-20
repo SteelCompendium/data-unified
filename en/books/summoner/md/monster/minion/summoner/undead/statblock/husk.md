@@ -3,6 +3,7 @@ agility: 0
 cost: 1 essence per minion summoned
 flavor: Husks have stiff corpses that snap and crackle with each sudden movement. Corrosive breath endlessly billows from their slackjawed faces.
 free_strike: 1
+free_strike_damage_type: Corruption
 immunities:
     - Damage 2
     - Corruption R

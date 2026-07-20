@@ -14,7 +14,7 @@ You have the following performance abilities, which are usable with your [Routin
 
 *Music pours out of your heart, filling the area with the utmost delicacy and without damper.*
 
-| **Area, Magic, Performance** |                **No action** |
+| **Area, Magic, Performance** |                **[No action](../../../rule/combat/turn.md)** |
 |------------------------------|-----------------------------:|
 | **📏 5 [aura](../../../rule/combat/aura.md)**                | **🎯 Each ally in the area** |
 
@@ -25,7 +25,7 @@ You have the following performance abilities, which are usable with your [Routin
 
 *𝅘𝅥𝅮♪Viras, my Viras, will you hold their hands as they cryyy—aaaiigh?♪*
 
-| **Area, Magic, Performance** |                         **No action** |
+| **Area, Magic, Performance** |                         **[No action](../../../rule/combat/turn.md)** |
 |------------------------------|--------------------------------------:|
 | **📏 5 [aura](../../../rule/combat/aura.md)**                | **🎯 Self and each ally in the area** |
 

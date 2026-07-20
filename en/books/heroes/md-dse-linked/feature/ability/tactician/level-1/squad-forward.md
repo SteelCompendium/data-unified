@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](../../../../rule/combat/turn.md)'
 class: tactician
 cost: 3 Focus
 cost_amount: "3"
@@ -32,7 +32,7 @@ flavor: On your command, you and your allies force back the enemy line.
 keywords:
     - '[Ranged](../../../../rule/combat/ranged.md)'
 metadata:
-    action_type: Maneuver
+    action_type: '[Maneuver](../../../../rule/combat/turn.md)'
     class: tactician
     cost: 3 Focus
     distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
@@ -48,5 +48,5 @@ metadata:
 name: Squad! Forward!
 target: Self and two allies
 type: feature
-usage: Maneuver
+usage: '[Maneuver](../../../../rule/combat/turn.md)'
 ```

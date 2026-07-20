@@ -13,7 +13,7 @@ You have the following ability.
 
 *Keep up the attack. Never give them a moment's grace.*
 
-| **-**       | **Free triggered** |
+| **-**       | **Free [triggered](../../../rule/combat/triggered-action.md)** |
 |-------------|-------------------:|
 | **📏 Self** |        **🎯 Self** |
 

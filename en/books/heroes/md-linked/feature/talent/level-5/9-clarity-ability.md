@@ -13,7 +13,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *You encase the target in psionic flame and allow them to flicker without fear of burning out.*
 
-| **Pyrokinesis, Psionic, [Ranged](../../../rule/combat/ranged.md)** |            **Maneuver** |
+| **Pyrokinesis, Psionic, [Ranged](../../../rule/combat/ranged.md)** |            **[Maneuver](../../../rule/combat/turn.md)** |
 |----------------------------------|------------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**                 | **🎯 Self or one ally** |
 
@@ -26,7 +26,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *You move fast enough to [turn](../../../rule/combat/turn.md) around and watch your foes feel the aftermath.*
 
-| **Area, Charge, Psionic, Telekinesis** |               **Main action** |
+| **Area, Charge, Psionic, Telekinesis** |               **[Main action](../../../rule/combat/turn.md)** |
 |----------------------------------------|------------------------------:|
 | **📏 5 x 2 line within 1**             | **🎯 Each enemy in the area** |
 
@@ -45,7 +45,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *You latch onto your prey's brain and don't let go, like a song they can't get out of their head.*
 
-| **Psionic, [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md), Telepathy** |     **Main action** |
+| **Psionic, [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md), Telepathy** |     **[Main action](../../../rule/combat/turn.md)** |
 |----------------------------------------|--------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**                       | **🎯 One creature** |
 
@@ -64,7 +64,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *You fire a piercing bolt of psychic energy that lances through two foes and leaves a faint intangible thread between them.*
 
-| **Animapathy, Psionic, [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md)** |    **Main action** |
+| **Animapathy, Psionic, [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md)** |    **[Main action](../../../rule/combat/turn.md)** |
 |-----------------------------------------|-------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**                        | **🎯 Two enemies** |
 

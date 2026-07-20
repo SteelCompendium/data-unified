@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](../../../../rule/combat/turn.md)'
 class: censor
 cost: 5 Wrath
 distance: 3 [burst](../../../../rule/combat/burst.md)
@@ -19,7 +19,7 @@ type: ability
 
 *You channel holy energy to harm unbelievers and reveal those hidden from your [judgment](../level-1/judgment.md).*
 
-| **Area, Magic** |                  **Maneuver** |
+| **Area, Magic** |                  **[Maneuver](../../../../rule/combat/turn.md)** |
 |-----------------|------------------------------:|
 | **📏 3 [burst](../../../../rule/combat/burst.md)**  | **🎯 Each enemy in the area** |
 

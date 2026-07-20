@@ -65,7 +65,7 @@ When this patch of sand is stepped on, it is revealed to be a slurry saturated b
 
 > ❗️ **Grasping Depths**
 >
-> | **Melee, Strike** |                **Free triggered action** |
+> | **Melee, Strike** |                **Free [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |
 > |-------------------|-----------------------------------------:|
 > | **📏 Melee 0**    | **🎯 The triggering creature or object** |
 >

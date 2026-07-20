@@ -1,5 +1,5 @@
 ---
-action_type: No action
+action_type: '[No action](../../../../rule/combat/turn.md)'
 class: troubadour
 distance: 5 [aura](../../../../rule/combat/aura.md)
 effect: 'While this performance is active, each target who starts their [turn](../../../../rule/combat/turn.md) in the area doesn''t take a [bane](../../../../rule/dice/bane.md) on [strikes](../../../../rule/combat/strike.md) against creatures with [concealment](../../../../rule/combat/concealment.md). Once during their [turn](../../../../rule/combat/turn.md), they can search for hidden creatures as a [free maneuver](../../../../rule/combat/free-maneuver.md) (see Hide and Sneak in Chapter 9: [Tests](../../../../chapter/tests.md)).'
@@ -33,7 +33,7 @@ keywords:
     - Magic
     - Performance
 metadata:
-    action_type: No action
+    action_type: '[No action](../../../../rule/combat/turn.md)'
     class: troubadour
     distance: 5 [aura](../../../../rule/combat/aura.md)
     effect: 'While this performance is active, each target who starts their [turn](../../../../rule/combat/turn.md) in the area doesn''t take a [bane](../../../../rule/dice/bane.md) on [strikes](../../../../rule/combat/strike.md) against creatures with [concealment](../../../../rule/combat/concealment.md). Once during their [turn](../../../../rule/combat/turn.md), they can search for hidden creatures as a [free maneuver](../../../../rule/combat/free-maneuver.md) (see Hide and Sneak in Chapter 9: [Tests](../../../../chapter/tests.md)).'
@@ -51,5 +51,5 @@ metadata:
 name: '"Fire Up the Night"'
 target: Self and each ally in the area
 type: feature
-usage: No action
+usage: '[No action](../../../../rule/combat/turn.md)'
 ```

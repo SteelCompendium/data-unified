@@ -29,7 +29,7 @@ type: statblock
 
 > 🗡 **Pounce (Signature Ability)**
 >
-> | **Charge, Melee, Strike, Weapon** |                 **Main action** |
+> | **Charge, Melee, Strike, Weapon** |                 **[Main action](../../../rule/combat/turn.md)** |
 > |-----------------------------------|--------------------------------:|
 > | **📏 Melee 2**                    | **🎯 Two creatures or objects** |
 >
@@ -43,7 +43,7 @@ type: statblock
 
 > ❇️ **Sparkling Tail Whip**
 >
-> | **Area, Magic** |                          **Main action** |
+> | **Area, Magic** |                          **[Main action](../../../rule/combat/turn.md)** |
 > |-----------------|-----------------------------------------:|
 > | **📏 2 burst**  | **🎯 Each enemy and object in the area** |
 >
@@ -57,7 +57,7 @@ type: statblock
 
 > 🔳 **Illusory Feint (5 [Malice](../../../rule/monster/malice.md))**
 >
-> | **Area, Magic, Ranged** |                  **Maneuver** |
+> | **Area, Magic, Ranged** |                  **[Maneuver](../../../rule/combat/turn.md)** |
 > |-------------------------|------------------------------:|
 > | **📏 3 cube within 10** | **🎯 Each enemy in the area** |
 >
@@ -71,7 +71,7 @@ type: statblock
 
 > ❗️ **Striking Afterimage**
 >
-> | **Magic**   | **Triggered action** |
+> | **Magic**   | **[Triggered action](../../../rule/combat/triggered-action.md)** |
 > |-------------|---------------------:|
 > | **📏 Self** |          **🎯 Self** |
 >

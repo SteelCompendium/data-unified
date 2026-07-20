@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](../../../../rule/combat/turn.md)'
 class: tactician
 cost: 9 Focus
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
@@ -18,7 +18,7 @@ type: ability
 
 *With new understanding of your foes, you create the perfect plan to win the battle.*
 
-| **[Ranged](../../../../rule/combat/ranged.md)**       |           **Maneuver** |
+| **[Ranged](../../../../rule/combat/ranged.md)**       |           **[Maneuver](../../../../rule/combat/turn.md)** |
 |------------------|-----------------------:|
 | **📏 [Ranged](../../../../rule/combat/ranged.md) 10** | **🎯 Three creatures** |
 

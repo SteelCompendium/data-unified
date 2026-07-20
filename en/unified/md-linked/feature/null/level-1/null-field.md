@@ -13,7 +13,7 @@ You project a psionic field of order around your body, dampening the effects of 
 
 *You project an [aura](../../../rule/combat/aura.md) that dampens the power of your foes.*
 
-| **Area, Psionic** |                  **Maneuver** |
+| **Area, Psionic** |                  **[Maneuver](../../../rule/combat/turn.md)** |
 |-------------------|------------------------------:|
 | **📏 1 [aura](../../../rule/combat/aura.md)**     | **🎯 Each enemy in the area** |
 

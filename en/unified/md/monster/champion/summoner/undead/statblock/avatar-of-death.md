@@ -3,6 +3,7 @@ agility: 2
 cost: 9 essence for one champion
 flavor: 'Stamina: Your maximum Stamina'
 free_strike: 9
+free_strike_damage_type: Holy
 immunities:
     - Corruption 5
     - poison 5
@@ -34,7 +35,7 @@ Stamina: Your maximum Stamina
 
 > 🏹 **Culling Scythe 2d10 + 5 ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
-> | **Melee, Strike, Weapon** | **Main action** |
+> | **Melee, Strike, Weapon** | **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |---------------------------|----------------:|
 > | **📏 Melee 2** | **🎯 Two creatures or objects** |
 >

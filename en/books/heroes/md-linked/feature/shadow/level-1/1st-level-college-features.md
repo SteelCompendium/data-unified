@@ -25,7 +25,7 @@ You have the following ability.
 
 *In a swirl of black ash, you step from one place to another.*
 
-| **Magic**   | **Maneuver** |
+| **Magic**   | **[Maneuver](../../../rule/combat/turn.md)** |
 |-------------|-------------:|
 | **📏 Self** |  **🎯 Self** |
 
@@ -42,7 +42,7 @@ You have the following ability.
 
 *A little poison goes a long way.*
 
-| **-**       | **Maneuver** |
+| **-**       | **[Maneuver](../../../rule/combat/turn.md)** |
 |-------------|-------------:|
 | **📏 Self** |  **🎯 Self** |
 
@@ -59,7 +59,7 @@ You have the following ability.
 
 *Taking on an illusory countenance gives you an advantage on [subterfuge](../level-10/subterfuge.md).*
 
-| **Magic**   | **Maneuver** |
+| **Magic**   | **[Maneuver](../../../rule/combat/turn.md)** |
 |-------------|-------------:|
 | **📏 Self** |    **🎯 Self** |
 

@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: troubadour
 cost: 11 Drama
 distance: 5 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)
@@ -23,7 +23,7 @@ type: ability
 
 *Your [jam session](scc.v1:mcdm.heroes.v1/feature.ability.troubadour.level-9/jam-session) creates new genres that compel everyone to get up and move.*
 
-| **Area, Magic** |               **Main action** |
+| **Area, Magic** |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 |-----------------|------------------------------:|
 | **📏 5 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)**  | **🎯 Each enemy in the area** |
 

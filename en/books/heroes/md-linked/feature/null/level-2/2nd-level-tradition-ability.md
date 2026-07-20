@@ -17,7 +17,7 @@ Choose one of the following abilities.
 
 *You release stored time, allowing you to act twice.*
 
-| **Psionic** | **Maneuver** |
+| **Psionic** | **[Maneuver](../../../rule/combat/turn.md)** |
 |-------------|-------------:|
 | **📏 Self** |  **🎯 Self** |
 
@@ -28,7 +28,7 @@ Choose one of the following abilities.
 
 *The force of your [strike](../../../rule/combat/strike.md) moves your target in a surprising direction.*
 
-| **[Melee](../../../rule/combat/melee.md), Psionic, [Strike](../../../rule/combat/strike.md), Weapon** |     **Main action** |
+| **[Melee](../../../rule/combat/melee.md), Psionic, [Strike](../../../rule/combat/strike.md), Weapon** |     **[Main action](../../../rule/combat/turn.md)** |
 |------------------------------------|--------------------:|
 | **📏 [Melee](../../../rule/combat/melee.md) 3**                     | **🎯 One creature** |
 
@@ -47,7 +47,7 @@ Choose one of the following [heroic abilities](../../../rule/general/heroic-abil
 
 *You drastically increase the local entropy.*
 
-| **Area, Psionic, Weapon** |               **Main action** |
+| **Area, Psionic, Weapon** |               **[Main action](../../../rule/combat/turn.md)** |
 |---------------------------|------------------------------:|
 | **📏 3 [cube](../../../rule/combat/cube.md) within 1**    | **🎯 Each enemy in the area** |
 
@@ -62,7 +62,7 @@ Choose one of the following [heroic abilities](../../../rule/general/heroic-abil
 
 *You absorb ambient heat, coating the ground in frost and precipitating snow from the air.*
 
-| **Psionic** | **Maneuver** |
+| **Psionic** | **[Maneuver](../../../rule/combat/turn.md)** |
 |-------------|-------------:|
 | **📏 Self** |  **🎯 Self** |
 
@@ -77,7 +77,7 @@ Choose one of the following abilities.
 
 *Your fist emanates gravitic force that pulls a distant enemy closer.*
 
-| **[Melee](../../../rule/combat/melee.md), Psionic, [Strike](../../../rule/combat/strike.md), Weapon** |     **Main action** |
+| **[Melee](../../../rule/combat/melee.md), Psionic, [Strike](../../../rule/combat/strike.md), Weapon** |     **[Main action](../../../rule/combat/turn.md)** |
 |------------------------------------|--------------------:|
 | **📏 [Melee](../../../rule/combat/melee.md) 3**                     | **🎯 One creature** |
 
@@ -92,7 +92,7 @@ Choose one of the following abilities.
 
 *You manifest a force barrier that absorbs incoming kinetic energy.*
 
-| **Psionic** | **Maneuver** |
+| **Psionic** | **[Maneuver](../../../rule/combat/turn.md)** |
 |-------------|-------------:|
 | **📏 Self** |  **🎯 Self** |
 

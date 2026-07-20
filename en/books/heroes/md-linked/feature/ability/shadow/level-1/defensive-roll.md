@@ -1,5 +1,5 @@
 ---
-action_type: Triggered
+action_type: '[Triggered](../../../../rule/combat/triggered-action.md)'
 class: shadow
 distance: Self
 effect: You take half the triggering damage, then can [shift](../../../../movement/shifting.md) up to 2 squares after the triggering effect resolves. If you end this [shift](../../../../movement/shifting.md) with [concealment](../../../../rule/combat/concealment.md) or [cover](../../../../rule/combat/cover.md), you can use the [Hide](../../../common/maneuvers/hide.md) maneuver even if you are observed.
@@ -19,7 +19,7 @@ type: ability
 
 *When an enemy attacks, you roll with the impact to reduce the harm.*
 
-| **-**       | **Triggered** |
+| **-**       | **[Triggered](../../../../rule/combat/triggered-action.md)** |
 |-------------|--------------:|
 | **📏 Self** |   **🎯 Self** |
 

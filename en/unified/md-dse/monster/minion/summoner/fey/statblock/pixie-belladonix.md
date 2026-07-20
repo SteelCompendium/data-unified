@@ -7,6 +7,7 @@ file_basename: pixie-belladonix
 file_dpath: monster/minion/summoner/fey/statblock
 flavor: The belladonix are found among the elite guard of fey monarchs and carry themselves like royalty. Their moth-like wings ooze with vibrant colors and are barbed; the poison within threatening to completely shift the reality of their victims.
 free_strike: 8
+free_strike_damage_type: Poison
 immunities:
     - Poison R
 intuition: 0

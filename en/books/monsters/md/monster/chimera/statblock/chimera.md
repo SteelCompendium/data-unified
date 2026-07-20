@@ -41,7 +41,7 @@ type: statblock
 
 > 🗡 **Bite (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 2**            | **🎯 Two creatures or objects** |
 >
@@ -55,7 +55,7 @@ type: statblock
 
 > 🔳 **Dragon's Eruption (5 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
-> | **Area, Magic, Ranged** |               **Main action** |
+> | **Area, Magic, Ranged** |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-------------------------|------------------------------:|
 > | **📏 3 cube within 10** | **🎯 Each enemy in the area** |
 >
@@ -67,7 +67,7 @@ type: statblock
 
 > ❇️ **Roar (5 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
-> | **Area, Magic** |               **Main action** |
+> | **Area, Magic** |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-----------------|------------------------------:|
 > | **📏 5 burst**  | **🎯 Each enemy in the area** |
 >
@@ -79,7 +79,7 @@ type: statblock
 
 > 🗡 **Lion's Toss**
 >
-> | **Melee, Weapon** |                  **Maneuver** |
+> | **Melee, Weapon** |                  **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-------------------|------------------------------:|
 > | **📏 Melee 2**    | **🎯 One creature or object** |
 >
@@ -91,7 +91,7 @@ type: statblock
 
 > ❗️ **Ram's Defiance**
 >
-> | **Melee, Strike, Weapon** |           **Triggered action** |
+> | **Melee, Strike, Weapon** |           **[Triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |
 > |---------------------------|-------------------------------:|
 > | **📏 Melee 2**            | **🎯 The triggering creature** |
 >

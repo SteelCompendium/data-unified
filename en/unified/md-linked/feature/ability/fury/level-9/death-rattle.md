@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: fury
 cost: 11 Ferocity
 distance: 3 [burst](../../../../rule/combat/burst.md)
@@ -22,7 +22,7 @@ type: ability
 
 *You unleash an otherworldly cry that rips through your enemies, killing the weakest of them.*
 
-| **Area, Magic** |               **Main action** |
+| **Area, Magic** |               **[Main action](../../../../rule/combat/turn.md)** |
 |-----------------|------------------------------:|
 | **📏 3 [burst](../../../../rule/combat/burst.md)**  | **🎯 Each enemy in the area** |
 

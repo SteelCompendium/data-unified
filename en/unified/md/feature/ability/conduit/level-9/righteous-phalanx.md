@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: conduit
 cost: 11 Piety
 distance: 15 wall within 10
@@ -20,7 +20,7 @@ type: ability
 
 *A wall of spinning swords and knives appears where you wish.*
 
-| **Area, Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)**  | **Main action** |
+| **Area, Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)**  | **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 |--------------------------|----------------:|
 | **📏 15 wall within 10** |  **🎯 Special** |
 

@@ -8,9 +8,9 @@ flavor: Shocked in the face of your naked brutality, your enemy's instincts take
 keywords:
     - Magic
 metadata:
-    action_type: Maneuver
+    action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: fury
-    content: "\n*Shocked in the face of your naked brutality, your enemy's instincts take over.*\n\n| **Magic**   | **Maneuver** |\n|-------------|-------------:|\n| **\U0001F4CF Self** |  **\U0001F3AF Self** |\n\n**Effect:** Until the end of the encounter or until you are [dying](scc.v1:mcdm.heroes.v1/rule.health/dying), each creature you make a [melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) against who has P < AVERAGE is [taunted](scc.v1:mcdm.heroes.v1/condition/taunted) until the end of their next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn). Additionally, when you use an ability that deals [rolled damage](scc.v1:mcdm.heroes.v1/rule.damage/rolled-damage) against any enemy [taunted](scc.v1:mcdm.heroes.v1/condition/taunted) by you, the ability deals extra damage equal to twice your [Might](scc.v1:mcdm.heroes.v1/rule.character/might) score and increases its [potency](scc.v1:mcdm.heroes.v1/rule.character/potency) by 1."
+    content: "\n*Shocked in the face of your naked brutality, your enemy's instincts take over.*\n\n| **Magic**   | **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|-------------|-------------:|\n| **\U0001F4CF Self** |  **\U0001F3AF Self** |\n\n**Effect:** Until the end of the encounter or until you are [dying](scc.v1:mcdm.heroes.v1/rule.health/dying), each creature you make a [melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) against who has P < AVERAGE is [taunted](scc.v1:mcdm.heroes.v1/condition/taunted) until the end of their next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn). Additionally, when you use an ability that deals [rolled damage](scc.v1:mcdm.heroes.v1/rule.damage/rolled-damage) against any enemy [taunted](scc.v1:mcdm.heroes.v1/condition/taunted) by you, the ability deals extra damage equal to twice your [Might](scc.v1:mcdm.heroes.v1/rule.character/might) score and increases its [potency](scc.v1:mcdm.heroes.v1/rule.character/potency) by 1."
     distance: Self
     feature_type: ability
     flavor: Shocked in the face of your naked brutality, your enemy's instincts take over.
@@ -26,4 +26,4 @@ metadata:
 name: Face the Storm!
 target: Self
 type: feature
-usage: Maneuver
+usage: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'

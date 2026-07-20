@@ -23,34 +23,41 @@ The [Raider](raider.md) kit keeps you protected while granting you full mobility
 
 You wear light armor and wield a shield and a light weapon.
 
-##### Kit Bonuses
-
-**[Stamina](../rule/health/stamina.md) [Bonus](../rule/dice/bonuses-and-penalties.md):** +6 per [echelon](../rule/general/echelon.md)
-
-**[Speed](../rule/character/speed.md) [Bonus](../rule/dice/bonuses-and-penalties.md):** +1
-
-**[Melee](../rule/combat/melee.md) Damage [Bonus](../rule/dice/bonuses-and-penalties.md):** +1/+1/+1
-
-**[Ranged](../rule/combat/ranged.md) Damage [Bonus](../rule/dice/bonuses-and-penalties.md):** +1/+1/+1
-
-**[Ranged](../rule/combat/ranged.md) [Distance](../rule/combat/distance.md) [Bonus](../rule/dice/bonuses-and-penalties.md):** +5
-
-**Disengage [Bonus](../rule/dice/bonuses-and-penalties.md):** +1
-
-##### Signature Ability
-
-###### Raider's Awe
-
-*You execute a brutal strike that leaves your foe reeling. (Previously known as "[Shock and Awe](../feature/tactician/level-7/shock-and-awe.md)")*
-
-| **[Melee](../rule/combat/melee.md), [Ranged](../rule/combat/ranged.md), [Strike](../rule/combat/strike.md), Weapon** |     **Main action** |
-|-----------------------------------|--------------------:|
-| **📏 [Melee](../rule/combat/melee.md) 1 or [ranged](../rule/combat/ranged.md) 10**       | **🎯 One creature** |
-
-**[Power Roll](../rule/dice/power-roll.md) + [Might](../rule/character/might.md) or [Agility](../rule/character/agility.md):**
-
-- **≤11:** 3 + M or A damage
-- **12-16:** 6 + M or A damage
-- **17+:** 8 + M or A damage
-
-**Effect:** The target takes a [bane](../rule/dice/bane.md) on their next [power roll](../rule/dice/power-roll.md) made before the end of their next [turn](../rule/combat/turn.md).
+```ds-feature
+distance: '[Melee](../rule/combat/melee.md) 1 or [ranged](../rule/combat/ranged.md) 10'
+effects:
+    - effect: The target takes a [bane](../rule/dice/bane.md) on their next [power roll](../rule/dice/power-roll.md) made before the end of their next [turn](../rule/combat/turn.md).
+    - roll: Power Roll + [Might](../rule/character/might.md) or [Agility](../rule/character/agility.md)
+      tier1: 3 + M or A damage
+      tier2: 6 + M or A damage
+      tier3: 8 + M or A damage
+feature_type: ability
+flavor: You execute a brutal strike that leaves your foe reeling. (Previously known as "[Shock and Awe](../feature/tactician/level-7/shock-and-awe.md)")
+keywords:
+    - '[Melee](../rule/combat/melee.md)'
+    - '[Ranged](../rule/combat/ranged.md)'
+    - '[Strike](../rule/combat/strike.md)'
+    - Weapon
+metadata:
+    action_type: Main action
+    distance: '[Melee](../rule/combat/melee.md) 1 or [ranged](../rule/combat/ranged.md) 10'
+    effect: The target takes a [bane](../rule/dice/bane.md) on their next [power roll](../rule/dice/power-roll.md) made before the end of their next [turn](../rule/combat/turn.md).
+    flavor: You execute a brutal strike that leaves your foe reeling. (Previously known as "[Shock and Awe](../feature/tactician/level-7/shock-and-awe.md)")
+    keywords:
+        - '[Melee](../rule/combat/melee.md)'
+        - '[Ranged](../rule/combat/ranged.md)'
+        - '[Strike](../rule/combat/strike.md)'
+        - Weapon
+    name: Raider's Awe
+    power_roll_characteristic: '[Might](../rule/character/might.md) or [Agility](../rule/character/agility.md)'
+    subtype: signature
+    target: One creature
+    tier1: 3 + M or A damage
+    tier2: 6 + M or A damage
+    tier3: 8 + M or A damage
+    type: ability
+name: Raider's Awe
+target: One creature
+type: feature
+usage: Main action
+```

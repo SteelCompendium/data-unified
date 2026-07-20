@@ -30,7 +30,7 @@ Choose one of your domains. You gain a [heroic ability](../../../rule/general/he
 
 *You speak inspiring words to a friend and spur them to incredible feats.*
 
-| **Magic, [Ranged](../../../rule/combat/ranged.md)**  |    **Maneuver** |
+| **Magic, [Ranged](../../../rule/combat/ranged.md)**  |    **[Maneuver](../../../rule/combat/turn.md)** |
 |--------------------|----------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10** | **🎯 One ally** |
 
@@ -41,7 +41,7 @@ Choose one of your domains. You gain a [heroic ability](../../../rule/general/he
 
 *The gods know you must prevail, and they bless your fate.*
 
-| **Magic, [Ranged](../../../rule/combat/ranged.md)**  |         **Main action** |
+| **Magic, [Ranged](../../../rule/combat/ranged.md)**  |         **[Main action](../../../rule/combat/turn.md)** |
 |--------------------|------------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**   | **🎯 Self or one ally** |
 
@@ -52,7 +52,7 @@ Choose one of your domains. You gain a [heroic ability](../../../rule/general/he
 
 *A magic circle extends out from you, barring foes from getting close.*
 
-| **Area, Magic**        | **Maneuver** |
+| **Area, Magic**        | **[Maneuver](../../../rule/combat/turn.md)** |
 |------------------------|-------------:|
 | **📏 Self; see below** |  **🎯 Self** |
 
@@ -63,7 +63,7 @@ Choose one of your domains. You gain a [heroic ability](../../../rule/general/he
 
 *From nothing but divine will, you create a powerful ally.*
 
-| **Magic, [Ranged](../../../rule/combat/ranged.md)**  | **Main action** |
+| **Magic, [Ranged](../../../rule/combat/ranged.md)**  | **[Main action](../../../rule/combat/turn.md)** |
 |--------------------|----------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**   |  **🎯 Special** |
 
@@ -90,7 +90,7 @@ Additionally, you can use a maneuver to move the dragon up to their [speed](../.
 
 *You summon a divine storm that remains under your control.*
 
-| **Area, Magic, [Ranged](../../../rule/combat/ranged.md)** |               **Main action** |
+| **Area, Magic, [Ranged](../../../rule/combat/ranged.md)** |               **[Main action](../../../rule/combat/turn.md)** |
 |-------------------------|------------------------------:|
 | **📏 5 [cube](../../../rule/combat/cube.md) within 5**  | **🎯 Each enemy in the area** |
 
@@ -107,7 +107,7 @@ Additionally, you can use a maneuver to move the dragon up to their [speed](../.
 
 *You summon darkness that thwarts only your foes.*
 
-| **Area, Magic, [Ranged](../../../rule/combat/ranged.md)** |  **Main action** |
+| **Area, Magic, [Ranged](../../../rule/combat/ranged.md)** |  **[Main action](../../../rule/combat/turn.md)** |
 |-------------------------|-----------------:|
 | **📏 5 [cube](../../../rule/combat/cube.md) within 10** |   **🎯 Special** |
 
@@ -118,7 +118,7 @@ Additionally, you can use a maneuver to move the dragon up to their [speed](../.
 
 *Intense light is emitted from your body, healing your allies.*
 
-| **Magic, [Ranged](../../../rule/combat/ranged.md)**  |    **Main action** |
+| **Magic, [Ranged](../../../rule/combat/ranged.md)**  |    **[Main action](../../../rule/combat/turn.md)** |
 |--------------------|-------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**   | **🎯 Four allies** |
 
@@ -129,7 +129,7 @@ Additionally, you can use a maneuver to move the dragon up to their [speed](../.
 
 *A wall of spinning swords and knives appears where you wish.*
 
-| **Area, Magic, [Ranged](../../../rule/combat/ranged.md)**  | **Main action** |
+| **Area, Magic, [Ranged](../../../rule/combat/ranged.md)**  | **[Main action](../../../rule/combat/turn.md)** |
 |--------------------------|----------------:|
 | **📏 15 wall within 10** |  **🎯 Special** |
 
@@ -140,7 +140,7 @@ Additionally, you can use a maneuver to move the dragon up to their [speed](../.
 
 *You call down a sphere of fire that burns your foes to ash.*
 
-| **Area, Magic, [Ranged](../../../rule/combat/ranged.md)** |               **Main action** |
+| **Area, Magic, [Ranged](../../../rule/combat/ranged.md)** |               **[Main action](../../../rule/combat/turn.md)** |
 |-------------------------|------------------------------:|
 | **📏 5 [cube](../../../rule/combat/cube.md) within 10** | **🎯 Each enemy in the area** |
 
@@ -155,7 +155,7 @@ Additionally, you can use a maneuver to move the dragon up to their [speed](../.
 
 *Vines [burst](../../../rule/combat/burst.md) forth from the ground and bind your foe, slowly closing around them.*
 
-| **Magic, [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md)**  |     **Main action** |
+| **Magic, [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md)**  |     **[Main action](../../../rule/combat/turn.md)** |
 |----------------------------|--------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**           | **🎯 One creature** |
 
@@ -172,7 +172,7 @@ Additionally, you can use a maneuver to move the dragon up to their [speed](../.
 
 *Your death will fuel our [victory](../../../rule/resource/victories.md).*
 
-| **Magic, [Ranged](../../../rule/combat/ranged.md)**  |  **Free triggered** |
+| **Magic, [Ranged](../../../rule/combat/ranged.md)**  |  **Free [triggered](../../../rule/combat/triggered-action.md)** |
 |--------------------|--------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**   | **🎯 One creature** |
 
@@ -185,7 +185,7 @@ Additionally, you can use a maneuver to move the dragon up to their [speed](../.
 
 *You utter a divine word that makes a foe brittle.*
 
-| **Magic, [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md)** |               **Main action** |
+| **Magic, [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md)** |               **[Main action](../../../rule/combat/turn.md)** |
 |---------------------------|------------------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**          | **🎯 One creature or object** |
 

@@ -30,7 +30,7 @@ type: statblock
 
 > 🗡 **Growing Longsword (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |               **Main action** |
+> | **Melee, Strike, Weapon** |               **[Main action](../../../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Melee 1**            | **🎯 One creature or object** |
 >
@@ -46,7 +46,7 @@ type: statblock
 
 > 🔳 **Overgrowth (3 [Malice](../../../rule/monster/malice.md))**
 >
-> | **Area, Ranged**        |   **Maneuver** |
+> | **Area, Ranged**        |   **[Maneuver](../../../rule/combat/turn.md)** |
 > |-------------------------|---------------:|
 > | **📏 3 cube within 10** | **🎯 Special** |
 >

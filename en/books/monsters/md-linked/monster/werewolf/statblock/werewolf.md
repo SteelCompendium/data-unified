@@ -47,7 +47,7 @@ type: statblock
 
 > 🗡 **Accursed Bite ([Signature Ability](../../../rule/combat/signature-ability.md))**
 >
-> | **Charge, Melee, Strike, Weapon** |               **Main action** |
+> | **Charge, Melee, Strike, Weapon** |               **[Main action](../../../rule/combat/turn.md)** |
 > |-----------------------------------|------------------------------:|
 > | **📏 Melee 1**                    | **🎯 One creature or object** |
 >
@@ -61,7 +61,7 @@ type: statblock
 
 > 🗡 **Ripping Claws**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](../../../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 1**            | **🎯 Two creatures or objects** |
 >
@@ -73,7 +73,7 @@ type: statblock
 
 > ❇️ **Berserker Slash (3 Malice)**
 >
-> | **Area, Weapon** |                          **Main action** |
+> | **Area, Weapon** |                          **[Main action](../../../rule/combat/turn.md)** |
 > |------------------|-----------------------------------------:|
 > | **📏 1 burst**   | **🎯 Each enemy and object in the area** |
 >
@@ -87,7 +87,7 @@ type: statblock
 
 > 👤 **Wall Leap**
 >
-> | **-**       | **Maneuver** |
+> | **-**       | **[Maneuver](../../../rule/combat/turn.md)** |
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
@@ -95,7 +95,7 @@ type: statblock
 
 > ❗️ **Facepalm and Head Slam (2 Malice)**
 >
-> | **Melee**      |           **Triggered action** |
+> | **Melee**      |           **[Triggered action](../../../rule/combat/triggered-action.md)** |
 > |----------------|-------------------------------:|
 > | **📏 Melee 1** | **🎯 The triggering creature** |
 >

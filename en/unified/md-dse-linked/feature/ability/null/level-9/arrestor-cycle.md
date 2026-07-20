@@ -1,5 +1,5 @@
 ---
-action_type: Free triggered
+action_type: Free [triggered](../../../../rule/combat/triggered-action.md)
 class: "null"
 cost: 11 Discipline
 cost_amount: "11"
@@ -45,7 +45,7 @@ keywords:
     - Psionic
     - '[Ranged](../../../../rule/combat/ranged.md)'
 metadata:
-    action_type: Free triggered
+    action_type: Free [triggered](../../../../rule/combat/triggered-action.md)
     class: "null"
     cost: 11 Discipline
     distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
@@ -70,5 +70,5 @@ name: Arrestor Cycle
 target: One creature
 trigger: The triggering creature starts their [turn](../../../../rule/combat/turn.md).
 type: feature
-usage: Free triggered
+usage: Free [triggered](../../../../rule/combat/triggered-action.md)
 ```

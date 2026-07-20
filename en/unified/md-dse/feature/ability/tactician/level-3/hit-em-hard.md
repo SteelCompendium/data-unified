@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: tactician
 cost: 7 Focus
 cost_amount: "7"
@@ -30,7 +30,7 @@ feature_type: ability
 flavor: Your allies see the advantages in attacking the targets you select.
 keywords: []
 metadata:
-    action_type: Maneuver
+    action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: tactician
     cost: 7 Focus
     distance: Self
@@ -45,5 +45,5 @@ metadata:
 name: Hit 'Em Hard!
 target: Self
 type: feature
-usage: Maneuver
+usage: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 ```

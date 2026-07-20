@@ -28,7 +28,7 @@ type: statblock
 
 > 🗡 **Natural Weapon (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 2**            | **🎯 Two creatures or objects** |
 >
@@ -40,7 +40,7 @@ type: statblock
 
 > ❇️ **Wild Swing**
 >
-> | **Area, Weapon** |                         **Main action** |
+> | **Area, Weapon** |                         **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |------------------|----------------------------------------:|
 > | **📏 1 burst**   | **🎯 Each enemy or object in the area** |
 >
@@ -52,7 +52,7 @@ type: statblock
 
 > ❗️ **Swat**
 >
-> | **Melee**      |                     **Triggered action** |
+> | **Melee**      |                     **[Triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |
 > |----------------|-----------------------------------------:|
 > | **📏 Melee 1** | **🎯 The triggering creature or object** |
 >

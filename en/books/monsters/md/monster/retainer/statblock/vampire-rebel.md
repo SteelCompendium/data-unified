@@ -30,7 +30,7 @@ type: statblock
 
 > 🗡 **Flashing Fangs (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |               **Main action** |
+> | **Melee, Strike, Weapon** |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |---------------------------|------------------------------:|
 > | **📏 Melee 1**            | **🎯 One creature or object** |
 >
@@ -44,7 +44,7 @@ type: statblock
 
 > 👤 **Bat Form (Encounter)**
 >
-> | **-**       | **Move Action** |
+> | **-**       | **[Move Action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-------------|----------------:|
 > | **📏 Self** |     **🎯 Self** |
 >

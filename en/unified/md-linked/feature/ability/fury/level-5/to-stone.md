@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: fury
 cost: 9 Ferocity
 distance: '[Melee](../../../../rule/combat/melee.md) 1'
@@ -24,7 +24,7 @@ type: ability
 
 *You channel the Primordial Chaos into blows that petrify your foe... literally.*
 
-| **Magic, [Melee](../../../../rule/combat/melee.md), [Strike](../../../../rule/combat/strike.md), Weapon** |     **Main action** |
+| **Magic, [Melee](../../../../rule/combat/melee.md), [Strike](../../../../rule/combat/strike.md), Weapon** |     **[Main action](../../../../rule/combat/turn.md)** |
 |----------------------------------|--------------------:|
 | **📏 [Melee](../../../../rule/combat/melee.md) 1**                   | **🎯 One creature** |
 

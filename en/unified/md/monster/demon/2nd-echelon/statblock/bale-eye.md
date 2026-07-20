@@ -32,7 +32,7 @@ weaknesses:
 
 > 🏹 **Wilting Visions (Signature Ability)**
 >
-> | **Magic, Ranged, Strike** |     **Main action** |
+> | **Magic, Ranged, Strike** |     **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |---------------------------|--------------------:|
 > | **📏 Ranged 15**          | **🎯 One creature** |
 >
@@ -48,7 +48,7 @@ weaknesses:
 
 > 🔳 **Demonwarp Tears (5 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
-> | **Area, Magic, Ranged** |               **Main action** |
+> | **Area, Magic, Ranged** |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-------------------------|------------------------------:|
 > | **📏 4 cube within 5**  | **🎯 Each enemy in the area** |
 >

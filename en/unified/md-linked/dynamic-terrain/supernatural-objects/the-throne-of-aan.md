@@ -125,7 +125,7 @@ The throne of A'An, sun god of the Antical Protectorate in what is now Vanigar, 
 
 > 🏹 **Primordial Flare**
 >
-> | **Magic, Ranged, Strike** |                  **Maneuver** |
+> | **Magic, Ranged, Strike** |                  **[Maneuver](../../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Ranged 20**          | **🎯 One creature or object** |
 >
@@ -139,7 +139,7 @@ The throne of A'An, sun god of the Antical Protectorate in what is now Vanigar, 
 
 > ❗️ **Solar Accretion**
 >
-> | **Magic, Ranged** | **Free triggered action** |
+> | **Magic, Ranged** | **Free [triggered action](../../rule/combat/triggered-action.md)** |
 > |-------------------|--------------------------:|
 > | **📏 Ranged 10**  |       **🎯 One creature** |
 >
@@ -149,7 +149,7 @@ The throne of A'An, sun god of the Antical Protectorate in what is now Vanigar, 
 
 > ❗️ **Nova**
 >
-> | **Area, Magic** |                   **Free triggered action** |
+> | **Area, Magic** |                   **Free [triggered action](../../rule/combat/triggered-action.md)** |
 > |-----------------|--------------------------------------------:|
 > | **📏 10 burst** | **🎯 Each creature and object in the area** |
 >

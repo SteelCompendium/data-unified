@@ -8,9 +8,9 @@ flavor: You make multiple [strikes](scc.v1:mcdm.heroes.v1/rule.combat/strike) ag
 keywords:
     - Magic
 metadata:
-    action_type: Main action
+    action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: shadow
-    content: "\n*You make multiple [strikes](scc.v1:mcdm.heroes.v1/rule.combat/strike) against a foe before they even notice they're dead.*\n\n| **Magic**   | **Main action** |\n|-------------|----------------:|\n| **\U0001F4CF Self** |     **\U0001F3AF Self** |\n\n**Effect:** You can use a [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) [signature ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability) four times, use a [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) [signature ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability) that gains an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) three times, or use a [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) [signature ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability) that has a double [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) twice. You can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to 2 squares between each use."
+    content: "\n*You make multiple [strikes](scc.v1:mcdm.heroes.v1/rule.combat/strike) against a foe before they even notice they're dead.*\n\n| **Magic**   | **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|-------------|----------------:|\n| **\U0001F4CF Self** |     **\U0001F3AF Self** |\n\n**Effect:** You can use a [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) [signature ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability) four times, use a [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) [signature ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability) that gains an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) three times, or use a [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) [signature ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability) that has a double [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) twice. You can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to 2 squares between each use."
     distance: Self
     feature_type: ability
     flavor: You make multiple [strikes](scc.v1:mcdm.heroes.v1/rule.combat/strike) against a foe before they even notice they're dead.
@@ -26,4 +26,4 @@ metadata:
 name: Speed of Shadows
 target: Self
 type: feature
-usage: Main action
+usage: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'

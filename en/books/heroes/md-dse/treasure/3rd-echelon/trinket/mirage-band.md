@@ -6,12 +6,14 @@ file_dpath: treasure/3rd-echelon/trinket
 flavor: A sable blue circlet shimmers with finely woven threads of sparkling white.
 item_id: mirage-band
 item_name: Mirage Band
+item_prerequisite: A spool of mindspider silk, an ingot of white gold
 keywords:
     - Head
     - Psionic
 name: Mirage Band
 project_goal: "450"
 project_roll_characteristic: '[Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) or [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)'
+project_source: Texts or lore in Higaran
 scc: mcdm.heroes.v1/treasure.3rd-echelon.trinket/mirage-band
 source: mcdm.heroes.v1
 treasure_type: trinket
@@ -39,7 +41,7 @@ Additionally, you have the following ability.
 >
 > *A blanket of illusion twists around you and your allies, making you seem as if you belong wherever you are.*
 >
-> | **Psionic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)** |             **Maneuver** |
+> | **Psionic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)** |             **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |---------------------|-------------------------:|
 > | **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**    | **🎯 Self and any ally** |
 >

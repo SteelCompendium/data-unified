@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](../../../../rule/combat/turn.md)'
 class: "null"
 cost: 11 Discipline
 cost_amount: "11"
@@ -41,7 +41,7 @@ flavor: You become the coldest thing in the timescape.
 keywords:
     - Psionic
 metadata:
-    action_type: Maneuver
+    action_type: '[Maneuver](../../../../rule/combat/turn.md)'
     class: "null"
     cost: 11 Discipline
     distance: Self
@@ -62,5 +62,5 @@ metadata:
 name: Absolute Zero
 target: Self
 type: feature
-usage: Maneuver
+usage: '[Maneuver](../../../../rule/combat/turn.md)'
 ```

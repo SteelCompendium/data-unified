@@ -33,7 +33,7 @@ with_captain: +2 damage bonus to strikes
 
 > 🗡 **Taste ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
-> | **Charge, Melee, Strike, Weapon** |                          **Main action** |
+> | **Charge, Melee, Strike, Weapon** |                          **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-----------------------------------|-----------------------------------------:|
 > | **📏 Melee 1**                    | **🎯 One creature or object per minion** |
 >

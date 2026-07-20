@@ -3,6 +3,7 @@ agility: 1
 cost: 1 essence per minion summoned
 flavor: A fire plume burns so bright that their true shape is hard to discern from the flames. They sputter and spit motes of fire in high arcs.
 free_strike: 2
+free_strike_damage_type: Fire
 immunities:
     - Fire R
 intuition: 0

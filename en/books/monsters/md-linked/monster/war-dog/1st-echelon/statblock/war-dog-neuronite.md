@@ -33,7 +33,7 @@ type: statblock
 
 > ❇️ **Synlirii Grafts ([Signature Ability](../../../../rule/combat/signature-ability.md))**
 >
-> | **Area, Psionic** |               **Main action** |
+> | **Area, Psionic** |               **[Main action](../../../../rule/combat/turn.md)** |
 > |-------------------|------------------------------:|
 > | **📏 1 burst**    | **🎯 Each enemy in the area** |
 >
@@ -45,7 +45,7 @@ type: statblock
 
 > 🏹 **Posthumous Promotion**
 >
-> | **Magic, Ranged** |       **Maneuver** |
+> | **Magic, Ranged** |       **[Maneuver](../../../../rule/combat/turn.md)** |
 > |-------------------|-------------------:|
 > | **📏 Ranged 10**  | **🎯 One war dog** |
 >
@@ -53,7 +53,7 @@ type: statblock
 
 > ❇️ **The Voice (1 [Malice](../../../../rule/monster/malice.md))**
 >
-> | **Area, Psionic** |                  **Maneuver** |
+> | **Area, Psionic** |                  **[Maneuver](../../../../rule/combat/turn.md)** |
 > |-------------------|------------------------------:|
 > | **📏 5 burst**    | **🎯 Each enemy in the area** |
 >

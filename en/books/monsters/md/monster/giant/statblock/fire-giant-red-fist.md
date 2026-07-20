@@ -31,7 +31,7 @@ type: statblock
 
 > 🗡 **Flaming Punch (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 3**            | **🎯 Two creatures or objects** |
 >
@@ -45,7 +45,7 @@ type: statblock
 
 > ❇️ **Caldera (5 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
-> | **Area**       |                          **Main action** |
+> | **Area**       |                          **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |----------------|-----------------------------------------:|
 > | **📏 Special** | **🎯 Each enemy and object in the area** |
 >
@@ -59,7 +59,7 @@ type: statblock
 
 > 👤 **Blazing Leap**
 >
-> | **-**       | **Maneuver** |
+> | **-**       | **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
@@ -67,7 +67,7 @@ type: statblock
 
 > ❗️ **Heat and Pressure**
 >
-> | **Melee**      |      **Free triggered action** |
+> | **Melee**      |      **Free [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |
 > |----------------|-------------------------------:|
 > | **📏 Melee 3** | **🎯 The triggering creature** |
 >
@@ -81,7 +81,7 @@ type: statblock
 
 > ❗️ **Guardian Block**
 >
-> | **Melee**      | **Triggered action** |
+> | **Melee**      | **[Triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |
 > |----------------|---------------------:|
 > | **📏 Melee 3** |          **🎯 Self** |
 >

@@ -30,7 +30,7 @@ type: statblock
 
 > 🏹 **Tracer Longbow (Signature Ability)**
 >
-> | **Ranged, Strike, Weapon** |               **Main action** |
+> | **Ranged, Strike, Weapon** |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |----------------------------|------------------------------:|
 > | **📏 Ranged 10**           | **🎯 One creature or object** |
 >
@@ -46,7 +46,7 @@ type: statblock
 
 > ❇️ **Death Blossom (2 Malice)**
 >
-> | **Area, Weapon** |             **Maneuver** |
+> | **Area, Weapon** |             **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |------------------|-------------------------:|
 > | **📏 5 burst**   | **🎯 Each marked enemy** |
 >

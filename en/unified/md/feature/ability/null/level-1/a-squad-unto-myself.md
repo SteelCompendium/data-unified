@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: "null"
 cost: 5 Discipline
 distance: 2 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)
@@ -23,7 +23,7 @@ type: ability
 
 *You move so quickly, it seems as though an army assaulted your foes.*
 
-| **Area, Psionic, Weapon** |               **Main action** |
+| **Area, Psionic, Weapon** |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 |---------------------------|------------------------------:|
 | **📏 2 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)**            | **🎯 Each enemy in the area** |
 

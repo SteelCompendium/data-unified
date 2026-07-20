@@ -34,7 +34,7 @@ with_captain: Gain an edge on strikes
 
 > 🏹 **Barb Launch (Signature Ability)**
 >
-> | **Magic, Ranged, Strike, Weapon** |                **Main action** |
+> | **Magic, Ranged, Strike, Weapon** |                **[Main action](../../../../rule/combat/turn.md)** |
 > |-----------------------------------|-------------------------------:|
 > | **📏 Ranged 20**                  | **🎯 One creature per minion** |
 >

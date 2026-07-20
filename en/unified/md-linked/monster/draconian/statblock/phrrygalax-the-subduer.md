@@ -33,7 +33,7 @@ type: statblock
 
 > 🗡 **Baneful Blade (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](../../../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 1**            | **🎯 Two creatures or objects** |
 >
@@ -45,7 +45,7 @@ type: statblock
 
 > ❇️ **Spinning Spit (2 [Malice](../../../rule/monster/malice.md))**
 >
-> | **Area, Magic** |               **Main action** |
+> | **Area, Magic** |               **[Main action](../../../rule/combat/turn.md)** |
 > |-----------------|------------------------------:|
 > | **📏 1 burst**  | **🎯 Each enemy in the area** |
 >
@@ -57,7 +57,7 @@ type: statblock
 
 > 👤 **Heavy Landing**
 >
-> | **Area**    | **Maneuver** |
+> | **Area**    | **[Maneuver](../../../rule/combat/turn.md)** |
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
@@ -65,7 +65,7 @@ type: statblock
 
 > ❗️ **Armor of the Ancients (2 [Malice](../../../rule/monster/malice.md))**
 >
-> | **-**       | **Triggered action** |
+> | **-**       | **[Triggered action](../../../rule/combat/triggered-action.md)** |
 > |-------------|---------------------:|
 > | **📏 Self** |          **🎯 Self** |
 >
@@ -75,7 +75,7 @@ type: statblock
 
 > ❗️ **Still Your Tongue!**
 >
-> | **-**       | **Free triggered action** |
+> | **-**       | **Free [triggered action](../../../rule/combat/triggered-action.md)** |
 > |-------------|--------------------------:|
 > | **📏 Self** |               **🎯 Self** |
 >

@@ -46,7 +46,7 @@ type: statblock
 
 > ⚔️ **Spear of the Damned ([Signature Ability](../../../rule/combat/signature-ability.md))**
 >
-> | **Magic, Melee, Ranged, Strike, Weapon** |                   **Main action** |
+> | **Magic, Melee, Ranged, Strike, Weapon** |                   **[Main action](../../../rule/combat/turn.md)** |
 > |------------------------------------------|----------------------------------:|
 > | **📏 Melee 2 or ranged 15**              | **🎯 Three creatures or objects** |
 >
@@ -60,7 +60,7 @@ type: statblock
 
 > ❇️ **Disarming Glare**
 >
-> | **Area, Magic** |               **Main action** |
+> | **Area, Magic** |               **[Main action](../../../rule/combat/turn.md)** |
 > |-----------------|------------------------------:|
 > | **📏 5 burst**  | **🎯 Each enemy in the area** |
 >
@@ -74,7 +74,7 @@ type: statblock
 
 > 🗡 **Vermilion Fangs (3 Malice)**
 >
-> | **Melee, Weapon, Strike** |     **Main action** |
+> | **Melee, Weapon, Strike** |     **[Main action](../../../rule/combat/turn.md)** |
 > |---------------------------|--------------------:|
 > | **📏 Melee 1**            | **🎯 One creature** |
 >
@@ -88,7 +88,7 @@ type: statblock
 
 > ❇️ **Sanguineous Flourish (5 Malice)**
 >
-> | **Area, Weapon** |               **Main action** |
+> | **Area, Weapon** |               **[Main action](../../../rule/combat/turn.md)** |
 > |------------------|------------------------------:|
 > | **📏 2 burst**   | **🎯 Each enemy in the area** |
 >
@@ -102,7 +102,7 @@ type: statblock
 
 > 🔳 **Vengeance of Rhöl (2 Malice)**
 >
-> | **Area, Magic, Ranged**     |   **Maneuver** |
+> | **Area, Magic, Ranged**     |   **[Maneuver](../../../rule/combat/turn.md)** |
 > |-----------------------------|---------------:|
 > | **📏 Two 3 cubes within 5** | **🎯 Special** |
 >

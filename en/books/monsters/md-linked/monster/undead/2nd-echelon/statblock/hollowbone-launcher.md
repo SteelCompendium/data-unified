@@ -33,7 +33,7 @@ with_captain: +5 bonus to ranged distance
 
 > 🏹 **Hollowbone Slug ([Signature Ability](../../../../rule/combat/signature-ability.md))**
 >
-> | **Ranged, Strike, Weapon** |                          **Main action** |
+> | **Ranged, Strike, Weapon** |                          **[Main action](../../../../rule/combat/turn.md)** |
 > |----------------------------|-----------------------------------------:|
 > | **📏 Ranged 10**           | **🎯 One creature or object per minion** |
 >

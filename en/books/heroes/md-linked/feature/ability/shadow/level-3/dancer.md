@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](../../../../rule/combat/turn.md)'
 class: shadow
 cost: 7 Insight
 distance: Self
@@ -16,7 +16,7 @@ type: ability
 
 *You enter a flow state that makes you nearly impossible to pin down.*
 
-| **-**       | **Maneuver** |
+| **-**       | **[Maneuver](../../../../rule/combat/turn.md)** |
 |-------------|-------------:|
 | **📏 Self** |  **🎯 Self** |
 

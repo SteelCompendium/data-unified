@@ -30,7 +30,7 @@ with_captain: +2 bonus to Stamina
 
 > 🏹 **Snaring Javelin (Signature Ability)**
 >
-> | **Ranged, Strike, Weapon** |                          **Main action** |
+> | **Ranged, Strike, Weapon** |                          **[Main action](../../../rule/combat/turn.md)** |
 > |----------------------------|-----------------------------------------:|
 > | **📏 Ranged 5**            | **🎯 One creature or object per minion** |
 >

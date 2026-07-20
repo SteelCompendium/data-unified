@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: talent
 cost: 11 Clarity
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
@@ -24,7 +24,7 @@ type: ability
 
 *You tug at the strings of the foe's anima and unravel them, allowing someone else to take advantage of their drive.*
 
-| **Animapathy, Psionic, [Ranged](../../../../rule/combat/ranged.md)**, **Strike** |               **Main action** |
+| **Animapathy, Psionic, [Ranged](../../../../rule/combat/ranged.md)**, **Strike** |               **[Main action](../../../../rule/combat/turn.md)** |
 |---------------------------------------------|------------------------------:|
 | **📏 [Ranged](../../../../rule/combat/ranged.md) 10**                            | **🎯 One creature or object** |
 

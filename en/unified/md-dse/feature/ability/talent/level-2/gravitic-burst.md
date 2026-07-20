@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: talent
 cost: 5 Clarity
 cost_amount: "5"
@@ -43,7 +43,7 @@ keywords:
     - Psionic
     - Telekinesis
 metadata:
-    action_type: Main action
+    action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: talent
     cost: 5 Clarity
     distance: 1 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)
@@ -65,5 +65,5 @@ metadata:
 name: Gravitic Burst
 target: Each enemy in the area
 type: feature
-usage: Main action
+usage: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 ```

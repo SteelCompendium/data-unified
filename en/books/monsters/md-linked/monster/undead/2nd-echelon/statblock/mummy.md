@@ -34,7 +34,7 @@ weaknesses:
 
 > 🗡 **Accursed Bindings ([Signature Ability](../../../../rule/combat/signature-ability.md))**
 >
-> | **Melee, Strike, Weapon** |               **Main action** |
+> | **Melee, Strike, Weapon** |               **[Main action](../../../../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Melee 3**            | **🎯 One creature or object** |
 >
@@ -48,7 +48,7 @@ weaknesses:
 
 > 🏹 **Eldritch Curse (3 [Malice](../../../../rule/monster/malice.md))**
 >
-> | **Magic, Ranged** |     **Main action** |
+> | **Magic, Ranged** |     **[Main action](../../../../rule/combat/turn.md)** |
 > |-------------------|--------------------:|
 > | **📏 Ranged 10**  | **🎯 One creature** |
 >
@@ -62,7 +62,7 @@ weaknesses:
 
 > ❗️ **Blast of Mummy Dust (1 [Malice](../../../../rule/monster/malice.md))**
 >
-> | **Area**       |           **Triggered action** |
+> | **Area**       |           **[Triggered action](../../../../rule/combat/triggered-action.md)** |
 > |----------------|-------------------------------:|
 > | **📏 1 burst** | **🎯 The triggering creature** |
 >

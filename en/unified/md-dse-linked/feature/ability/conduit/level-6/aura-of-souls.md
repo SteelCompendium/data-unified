@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](../../../../rule/combat/turn.md)'
 class: conduit
 cost: 9 Piety
 cost_amount: "9"
@@ -35,7 +35,7 @@ keywords:
     - Area
     - Magic
 metadata:
-    action_type: Maneuver
+    action_type: '[Maneuver](../../../../rule/combat/turn.md)'
     class: conduit
     cost: 9 Piety
     distance: 4 [aura](../../../../rule/combat/aura.md)
@@ -53,5 +53,5 @@ metadata:
 name: Aura of Souls
 target: Each creature in the area
 type: feature
-usage: Maneuver
+usage: '[Maneuver](../../../../rule/combat/turn.md)'
 ```

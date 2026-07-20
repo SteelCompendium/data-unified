@@ -31,7 +31,7 @@ weaknesses:
 
 > 🗡 **Bloodletting Claws (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](../../../../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 1**            | **🎯 Two creatures or objects** |
 >
@@ -43,7 +43,7 @@ weaknesses:
 
 > 🏹 **Salt Wounds (3 [Malice](../../../../rule/monster/malice.md))**
 >
-> | **Magic, Ranged, Strike** |           **Maneuver** |
+> | **Magic, Ranged, Strike** |           **[Maneuver](../../../../rule/combat/turn.md)** |
 > |---------------------------|-----------------------:|
 > | **📏 Ranged 10**          | **🎯 Three creatures** |
 >

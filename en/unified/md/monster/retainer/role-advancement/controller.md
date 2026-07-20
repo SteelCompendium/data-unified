@@ -71,7 +71,7 @@ type: featureblock
 
 > 🔳 **Elemental Blast (Encounter)**
 >
-> | **Area, Magic, Ranged** |                  **Main action** |
+> | **Area, Magic, Ranged** |                  **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-------------------------|---------------------------------:|
 > | **📏 3 cube within 10** | **🎯 Each creature in the area** |
 >
@@ -87,7 +87,7 @@ type: featureblock
 
 > 🔳 **Oil Slick (Encounter)**
 >
-> | **Area, Ranged, Weapon** |               **Main action** |
+> | **Area, Ranged, Weapon** |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |--------------------------|------------------------------:|
 > | **📏 3 cube within 10**  | **🎯 Each enemy in the area** |
 >
@@ -103,7 +103,7 @@ type: featureblock
 
 > 🏹 **Shattering Shards (Encounter)**
 >
-> | **Ranged, Strike, Weapon** |   **Main action** |
+> | **Ranged, Strike, Weapon** |   **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |----------------------------|------------------:|
 > | **📏 Ranged 10**           | **🎯 One Object** |
 >

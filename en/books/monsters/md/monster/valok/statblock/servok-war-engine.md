@@ -31,7 +31,7 @@ type: statblock
 
 > 🗡 **Blade Rake ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 3**            | **🎯 Two creatures or objects** |
 >
@@ -43,7 +43,7 @@ type: statblock
 
 > 🏹 **Prismacore Cannon**
 >
-> | **Ranged, Strike, Weapon** |               **Main action** |
+> | **Ranged, Strike, Weapon** |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |----------------------------|------------------------------:|
 > | **📏 Ranged 20**           | **🎯 One creature or object** |
 >
@@ -57,7 +57,7 @@ type: statblock
 
 > 👤 **Destructive Rollout**
 >
-> | **-**       | **Maneuver** |
+> | **-**       | **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
@@ -65,7 +65,7 @@ type: statblock
 
 > 🔳 **Burning Oil (3 Malice)**
 >
-> | **Area**                    |                             **Maneuver** |
+> | **Area**                    |                             **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-----------------------------|-----------------------------------------:|
 > | **📏 20 x 1 line within 1** | **🎯 Each enemy and object in the area** |
 >
@@ -79,7 +79,7 @@ type: statblock
 
 > ❗️ **Quick Blast (1 Malice)**
 >
-> | **Ranged, Strike, Weapon** |     **Free triggered action** |
+> | **Ranged, Strike, Weapon** |     **Free [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |
 > |----------------------------|------------------------------:|
 > | **📏 Ranged 20**           | **🎯 One creature or object** |
 >

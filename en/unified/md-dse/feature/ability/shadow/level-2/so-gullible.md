@@ -1,5 +1,5 @@
 ---
-action_type: Free triggered
+action_type: Free [triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)
 class: shadow
 cost: 5 Insight
 cost_amount: "5"
@@ -35,7 +35,7 @@ flavor: When your enemy strikes, you reveal you were in a different place all al
 keywords:
     - Magic
 metadata:
-    action_type: Free triggered
+    action_type: Free [triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)
     class: shadow
     cost: 5 Insight
     distance: Self
@@ -55,5 +55,5 @@ name: So Gullible
 target: Self
 trigger: Another creature targets you with a [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike).
 type: feature
-usage: Free triggered
+usage: Free [triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)
 ```

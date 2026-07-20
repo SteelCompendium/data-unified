@@ -32,7 +32,7 @@ type: statblock
 
 > 🗡 **Rapier and Dagger (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |               **Main action** |
+> | **Melee, Strike, Weapon** |               **[Main action](../../../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Melee 1**            | **🎯 One creature or object** |
 >
@@ -46,7 +46,7 @@ type: statblock
 
 > 🌀 **Dagger Storm (5 [Malice](../../../rule/monster/malice.md))**
 >
-> | **-**    | **Main action** |
+> | **-**    | **[Main action](../../../rule/combat/turn.md)** |
 > |----------|----------------:|
 > | **📏 -** |        **🎯 -** |
 >

@@ -35,7 +35,7 @@ type: statblock
 
 > 🗡 **Blade of the Gol King ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
-> | **Charge, Magic, Melee, Strike, Weapon** |                 **Main Action** |
+> | **Charge, Magic, Melee, Strike, Weapon** |                 **[Main Action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |------------------------------------------|--------------------------------:|
 > | **📏 Melee 1**                           | **🎯 Two creatures or objects** |
 >
@@ -51,7 +51,7 @@ type: statblock
 
 > 🔳 **Decree by the Jade Hand**
 >
-> | **Area, Magic, Ranged**     |                          **Main Action** |
+> | **Area, Magic, Ranged**     |                          **[Main Action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-----------------------------|-----------------------------------------:|
 > | **📏 3 cube within 10**     | **🎯 Each enemy and object in the area** |
 >
@@ -67,7 +67,7 @@ type: statblock
 
 > 🏹 **Divine Vine**
 >
-> | **Magic, Ranged, Weapon**  |                    **Maneuver** |
+> | **Magic, Ranged, Weapon**  |                    **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |----------------------------|--------------------------------:|
 > | **📏 Ranged 5**            | **🎯 One creature or object** |
 >
@@ -83,7 +83,7 @@ type: statblock
 
 > 🔳 **Bead of Hell (2 Malice)**
 >
-> | **Area, Magic, Ranged** |    **Maneuver** |
+> | **Area, Magic, Ranged** |    **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-------------------------|----------------:|
 > | **📏 5 cube within 20** |  **🎯 Special** |
 >
@@ -95,7 +95,7 @@ type: statblock
 
 > ❗️ **Is This What They Taught You?**
 >
-> | **Ranged**       |           **Triggered action** |
+> | **Ranged**       |           **[Triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |
 > |------------------|-------------------------------:|
 > | **📏 Ranged 10** | **🎯 The triggering creature** |
 >
@@ -105,7 +105,7 @@ type: statblock
 
 > ❗️ **Shieldbreaker Talisman**
 >
-> | **Magic, Melee** |           **Triggered action** |
+> | **Magic, Melee** |           **[Triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |
 > |------------------|-------------------------------:|
 > | **📏 Melee 5**   | **🎯 The triggering creature** |
 >
@@ -115,7 +115,7 @@ type: statblock
 
 > ❗️ **Who's Hesitating?**
 >
-> | **-**       | **Triggered action** |
+> | **-**       | **[Triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |
 > |-------------|---------------------:|
 > | **📏 Self** |          **🎯 Self** |
 >
@@ -125,7 +125,7 @@ type: statblock
 
 > ❗️ **Your Obsession With Me Betrays You**
 >
-> | **Magic, Ranged**  |           **Triggered action** |
+> | **Magic, Ranged**  |           **[Triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |
 > |--------------------|-------------------------------:|
 > | **📏 Ranged 10**   | **🎯 The triggering creature** |
 >
@@ -135,7 +135,7 @@ type: statblock
 
 > ❗️ **You Would Flounder Your Assault? (2 Malice)**
 >
-> | **Magic**   | **Triggered action** |
+> | **Magic**   | **[Triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |
 > |-------------|---------------------:|
 > | **📏 Self** |          **🎯 Self** |
 >

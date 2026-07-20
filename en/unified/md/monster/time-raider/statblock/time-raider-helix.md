@@ -32,7 +32,7 @@ type: statblock
 
 > 🏹 **Blaster Volley ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
-> | **Psionic, Ranged, Strike, Weapon** |                 **Main action** |
+> | **Psionic, Ranged, Strike, Weapon** |                 **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-------------------------------------|--------------------------------:|
 > | **📏 Ranged 10**                    | **🎯 Two creatures or objects** |
 >
@@ -44,7 +44,7 @@ type: statblock
 
 > 🔳 **Kinetic Lane**
 >
-> | **Area, Psionic, Ranged**   |   **Maneuver** |
+> | **Area, Psionic, Ranged**   |   **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-----------------------------|---------------:|
 > | **📏 4 x 2 line within 10** | **🎯 Special** |
 >

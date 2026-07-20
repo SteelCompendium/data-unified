@@ -22,9 +22,9 @@
   ],
   "metadata": {
     "ability_type": "Triggered",
-    "action_type": "Free triggered",
+    "action_type": "Free [triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)",
     "class": "tactician",
-    "content": "\n*You [parry](scc.v1:mcdm.heroes.v1/feature.ability.tactician.level-1/parry) with almost [supernatural](scc.v1:mcdm.heroes.v1/rule.general/supernatural) [speed](scc.v1:mcdm.heroes.v1/rule.character/speed).*\n\n| **[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), Weapon** | **Free triggered** |\n| ------------------------------------|-------------------:|\n| **📏 [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1**                   |    **🎯 One ally** |\n\n**Trigger:** A creature deals damage to the target.\n\n**Effect:** The target takes half the damage. You then make a [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) against the triggering creature.\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc.v1:mcdm.heroes.v1/rule.character/might):**\n\n- **≤11:** A \u003c WEAK, [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)\n- **12-16:** A \u003c AVERAGE, [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)\n- **17+:** A \u003c STRONG, [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)",
+    "content": "\n*You [parry](scc.v1:mcdm.heroes.v1/feature.ability.tactician.level-1/parry) with almost [supernatural](scc.v1:mcdm.heroes.v1/rule.general/supernatural) [speed](scc.v1:mcdm.heroes.v1/rule.character/speed).*\n\n| **[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), Weapon** | **Free [triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |\n| ------------------------------------|-------------------:|\n| **📏 [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1**                   |    **🎯 One ally** |\n\n**Trigger:** A creature deals damage to the target.\n\n**Effect:** The target takes half the damage. You then make a [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) against the triggering creature.\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc.v1:mcdm.heroes.v1/rule.character/might):**\n\n- **≤11:** A \u003c WEAK, [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)\n- **12-16:** A \u003c AVERAGE, [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)\n- **17+:** A \u003c STRONG, [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)",
     "distance": "[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1",
     "feature_type": "ability",
     "flavor": "You [parry](scc.v1:mcdm.heroes.v1/feature.ability.tactician.level-1/parry) with almost [supernatural](scc.v1:mcdm.heroes.v1/rule.general/supernatural) [speed](scc.v1:mcdm.heroes.v1/rule.character/speed).",
@@ -46,5 +46,5 @@
   "target": "One ally",
   "trigger": "A creature deals damage to the target.",
   "type": "feature",
-  "usage": "Free triggered"
+  "usage": "Free [triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)"
 }

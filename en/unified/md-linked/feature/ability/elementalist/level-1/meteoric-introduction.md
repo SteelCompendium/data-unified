@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: elementalist
 distance: '[Melee](../../../../rule/combat/melee.md) 1'
 flavor: You give your enemy a gentle tap-like an asteroid impact.
@@ -23,7 +23,7 @@ type: ability
 
 *You give your enemy a gentle tap-like an asteroid impact.*
 
-| **Earth, Magic, [Melee](../../../../rule/combat/melee.md), [Strike](../../../../rule/combat/strike.md)** |               **Main action** |
+| **Earth, Magic, [Melee](../../../../rule/combat/melee.md), [Strike](../../../../rule/combat/strike.md)** |               **[Main action](../../../../rule/combat/turn.md)** |
 |---------------------------------|------------------------------:|
 | **📏 [Melee](../../../../rule/combat/melee.md) 1**                  | **🎯 One creature or object** |
 

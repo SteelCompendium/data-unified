@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: "null"
 cost: 9 Discipline
 distance: Self; see below
@@ -24,7 +24,7 @@ type: ability
 
 *You weaken your connection to this manifold, allowing you to move through and damage enemies.*
 
-| **[Melee](../../../../rule/combat/melee.md), Psionic, Weapon** | **Main action** |
+| **[Melee](../../../../rule/combat/melee.md), Psionic, Weapon** | **[Main action](../../../../rule/combat/turn.md)** |
 |----------------------------|----------------:|
 | **📏 Self; see below**     |     **🎯 Self** |
 

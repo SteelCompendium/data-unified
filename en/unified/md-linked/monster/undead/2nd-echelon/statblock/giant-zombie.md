@@ -32,7 +32,7 @@ type: statblock
 
 > 🗡 **Rotten Smash ([Signature Ability](../../../../rule/combat/signature-ability.md))**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](../../../../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 3**            | **🎯 Two creatures or objects** |
 >
@@ -44,7 +44,7 @@ type: statblock
 
 > ❗️ **Knocking Heads (1 [Malice](../../../../rule/monster/malice.md))**
 >
-> | **-**       |   **Triggered action** |
+> | **-**       |   **[Triggered action](../../../../rule/combat/triggered-action.md)** |
 > |-------------|-----------------------:|
 > | **📏 Self** | **🎯 Self; see below** |
 >

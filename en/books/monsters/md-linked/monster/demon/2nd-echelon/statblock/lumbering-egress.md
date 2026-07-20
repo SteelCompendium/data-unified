@@ -30,7 +30,7 @@ weaknesses:
 
 > 🏹 **Ensnarer Cannon (Signature Ability)**
 >
-> | **Magic, Ranged, Strike** |                 **Main action** |
+> | **Magic, Ranged, Strike** |                 **[Main action](../../../../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Ranged 10**          | **🎯 Two creatures or objects** |
 >
@@ -44,7 +44,7 @@ weaknesses:
 
 > ❇️ **Demonic Egress (2 [Malice](../../../../rule/monster/malice.md))**
 >
-> | **Area**       |   **Maneuver** |
+> | **Area**       |   **[Maneuver](../../../../rule/combat/turn.md)** |
 > |----------------|---------------:|
 > | **📏 3 burst** | **🎯 Special** |
 >
@@ -54,7 +54,7 @@ weaknesses:
 
 > ❗️ **Abyssal Protectors (2 [Malice](../../../../rule/monster/malice.md))**
 >
-> | **Area, Magic** | **Triggered action** |
+> | **Area, Magic** | **[Triggered action](../../../../rule/combat/triggered-action.md)** |
 > |-----------------|---------------------:|
 > | **📏 5 burst**  |       **🎯 Special** |
 >

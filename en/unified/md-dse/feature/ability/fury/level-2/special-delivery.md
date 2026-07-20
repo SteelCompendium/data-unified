@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: fury
 cost: 5 Ferocity
 cost_amount: "5"
@@ -34,7 +34,7 @@ keywords:
     - '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)'
     - Weapon
 metadata:
-    action_type: Maneuver
+    action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: fury
     cost: 5 Ferocity
     distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
@@ -51,5 +51,5 @@ metadata:
 name: Special Delivery
 target: One willing ally
 type: feature
-usage: Maneuver
+usage: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 ```

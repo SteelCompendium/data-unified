@@ -6,11 +6,13 @@ file_dpath: treasure/1st-echelon/trinket
 flavor: A woven metal drawstring seals this plain-looking leather bag, which is affixed with an opal brooch.
 item_id: quantum-satchel
 item_name: Quantum Satchel
+item_prerequisite: One uncut opal
 keywords:
     - Magic
 name: Quantum Satchel
 project_goal: "150"
 project_roll_characteristic: '[Reason](../../../rule/character/reason.md) or [Intuition](../../../rule/character/intuition.md)'
+project_source: Texts or lore in Caelian
 scc: mcdm.heroes.v1/treasure.1st-echelon.trinket/quantum-satchel
 source: mcdm.heroes.v1
 treasure_type: trinket

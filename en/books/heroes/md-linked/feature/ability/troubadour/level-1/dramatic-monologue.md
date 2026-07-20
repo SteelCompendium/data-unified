@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](../../../../rule/combat/turn.md)'
 class: troubadour
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
 effect: 'Choose one of the following effects:'
@@ -19,7 +19,7 @@ type: ability
 
 *It doesn't need to make sense. Just say it with emotion.*
 
-| **Magic, [Ranged](../../../../rule/combat/ranged.md)** |   **Maneuver** |
+| **Magic, [Ranged](../../../../rule/combat/ranged.md)** |   **[Maneuver](../../../../rule/combat/turn.md)** |
 |-------------------|---------------:|
 | **📏 [Ranged](../../../../rule/combat/ranged.md) 10**  | **🎯 Special** |
 

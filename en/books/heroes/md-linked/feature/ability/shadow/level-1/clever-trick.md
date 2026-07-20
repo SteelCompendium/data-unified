@@ -1,5 +1,5 @@
 ---
-action_type: Triggered
+action_type: '[Triggered](../../../../rule/combat/triggered-action.md)'
 class: shadow
 cost: 1 Insight
 distance: Self
@@ -20,7 +20,7 @@ type: ability
 
 *You sow a moment of confusion in combat, to your enemy's peril.*
 
-| **Magic**   | **Triggered** |
+| **Magic**   | **[Triggered](../../../../rule/combat/triggered-action.md)** |
 |-------------|--------------:|
 | **📏 Self** |     **🎯 Self** |
 

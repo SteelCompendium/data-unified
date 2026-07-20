@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](../../../../rule/combat/turn.md)'
 class: fury
 cost: 7 Ferocity
 distance: Self
@@ -17,7 +17,7 @@ type: ability
 
 *Shocked in the face of your naked brutality, your enemy's instincts take over.*
 
-| **Magic**   | **Maneuver** |
+| **Magic**   | **[Maneuver](../../../../rule/combat/turn.md)** |
 |-------------|-------------:|
 | **📏 Self** |  **🎯 Self** |
 

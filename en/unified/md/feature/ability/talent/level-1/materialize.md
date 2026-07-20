@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: talent
 distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
 effect: A worthless [size](scc.v1:mcdm.heroes.v1/rule.character/size) 1M object drops onto the target to deal the damage, then rolls into an [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) unoccupied space of your choice. The object is made of wood, stone, or metal (your choice).
@@ -24,7 +24,7 @@ type: ability
 
 *You picture an object in your mind and give it form—directly above your opponent's head.*
 
-| **Psionic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged), Resopathy, [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)** |               **Main action** |
+| **Psionic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged), Resopathy, [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)** |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 |----------------------------------------|------------------------------:|
 | **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**                       | **🎯 One creature or object** |
 

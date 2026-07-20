@@ -29,7 +29,7 @@ type: statblock
 
 > 🗡 **Club Swing ([Signature Ability](../../../rule/combat/signature-ability.md))**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](../../../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 2**            | **🎯 Two creatures or objects** |
 >
@@ -43,7 +43,7 @@ type: statblock
 
 > 🗡 **Grabby Hand (1 [Malice](../../../rule/monster/malice.md))**
 >
-> | **Melee, Strike, Weapon** |                  **Maneuver** |
+> | **Melee, Strike, Weapon** |                  **[Maneuver](../../../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Melee 1**            | **🎯 One creature or object** |
 >
@@ -57,7 +57,7 @@ type: statblock
 
 > 🔳 **People Bowling (3 [Malice](../../../rule/monster/malice.md))**
 >
-> | **Area, Weapon**           |                                **Maneuver** |
+> | **Area, Weapon**           |                                **[Maneuver](../../../rule/combat/turn.md)** |
 > |----------------------------|--------------------------------------------:|
 > | **📏 6 x 1 line within 1** | **🎯 Each creature and object in the area** |
 >
@@ -71,7 +71,7 @@ type: statblock
 
 > ❗️ **Swat the Fly**
 >
-> | **Melee**      |                     **Triggered action** |
+> | **Melee**      |                     **[Triggered action](../../../rule/combat/triggered-action.md)** |
 > |----------------|-----------------------------------------:|
 > | **📏 Melee 1** | **🎯 The triggering creature or object** |
 >

@@ -42,7 +42,7 @@ At the start of an olothec's turn, you can spend Malice to activate one of the f
 
 > 🗡 **Writhing Envelopment (4 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
-> | **Melee, Strike, Weapon** |                                      **Main action** |
+> | **Melee, Strike, Weapon** |                                      **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |---------------------------|-----------------------------------------------------:|
 > | **📏 Melee 3**            | **🎯 One slimed, transformed, or devolved creature** |
 >

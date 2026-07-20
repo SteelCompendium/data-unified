@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: troubadour
 cost: 5 Drama
 distance: Self
@@ -17,7 +17,7 @@ type: ability
 
 *O happy dagger, this is thy sheath!*
 
-| **Magic**   | **Maneuver** |
+| **Magic**   | **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 |-------------|-------------:|
 | **📏 Self** |  **🎯 Self** |
 

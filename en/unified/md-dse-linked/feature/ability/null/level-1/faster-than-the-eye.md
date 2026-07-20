@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: "null"
 distance: '[Melee](../../../../rule/combat/melee.md) 1'
 effect: You can deal damage equal to your [Agility](../../../../rule/character/agility.md) score to one creature or object [adjacent](../../../../rule/combat/adjacent.md) to you.
@@ -43,7 +43,7 @@ keywords:
     - '[Strike](../../../../rule/combat/strike.md)'
     - Weapon
 metadata:
-    action_type: Main action
+    action_type: '[Main action](../../../../rule/combat/turn.md)'
     class: "null"
     distance: '[Melee](../../../../rule/combat/melee.md) 1'
     effect: You can deal damage equal to your [Agility](../../../../rule/character/agility.md) score to one creature or object [adjacent](../../../../rule/combat/adjacent.md) to you.
@@ -66,5 +66,5 @@ metadata:
 name: Faster Than the Eye
 target: Two creatures or objects
 type: feature
-usage: Main action
+usage: '[Main action](../../../../rule/combat/turn.md)'
 ```

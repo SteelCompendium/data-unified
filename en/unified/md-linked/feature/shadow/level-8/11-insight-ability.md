@@ -13,7 +13,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *A practiced attack will instantly kill an already weakened foe.*
 
-| **[Melee](../../../rule/combat/melee.md), [Strike](../../../rule/combat/strike.md), Weapon** |               **Main action** |
+| **[Melee](../../../rule/combat/melee.md), [Strike](../../../rule/combat/strike.md), Weapon** |               **[Main action](../../../rule/combat/turn.md)** |
 |---------------------------|------------------------------:|
 | **📏 [Melee](../../../rule/combat/melee.md) 1**            | **🎯 One creature or object** |
 
@@ -30,7 +30,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *The shadows around you give way, allowing the shadow creature within you to grasp at your foes.*
 
-| **Area, Magic** |               **Main action** |
+| **Area, Magic** |               **[Main action](../../../rule/combat/turn.md)** |
 |-----------------|------------------------------:|
 | **📏 2 [burst](../../../rule/combat/burst.md)**  | **🎯 Each enemy in the area** |
 
@@ -45,7 +45,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *You make multiple [strikes](../../../rule/combat/strike.md) against a foe before they even notice they're dead.*
 
-| **Magic**   | **Main action** |
+| **Magic**   | **[Main action](../../../rule/combat/turn.md)** |
 |-------------|----------------:|
 | **📏 Self** |     **🎯 Self** |
 
@@ -56,7 +56,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *You fire a projectile so fast that it passes through a line of foes, hamstringing them.*
 
-| **Area, [Ranged](../../../rule/combat/ranged.md), Weapon**   |               **Main action** |
+| **Area, [Ranged](../../../rule/combat/ranged.md), Weapon**   |               **[Main action](../../../rule/combat/turn.md)** |
 |----------------------------|------------------------------:|
 | **📏 5 x 1 line within 5** | **🎯 Each enemy in the area** |
 

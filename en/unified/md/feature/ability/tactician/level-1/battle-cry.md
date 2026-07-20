@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: tactician
 cost: 3 Focus
 distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
@@ -20,7 +20,7 @@ type: ability
 
 *You shout a phrase that galvanizes your team.*
 
-| **[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)**       |        **Maneuver** |
+| **[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)**       |        **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 |------------------|--------------------:|
 | **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10** | **🎯 Three allies** |
 

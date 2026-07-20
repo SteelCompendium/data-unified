@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](../../../../rule/combat/turn.md)'
 class: "null"
 cost: 9 Discipline
 cost_amount: "9"
@@ -34,7 +34,7 @@ keywords:
     - Area
     - Psionic
 metadata:
-    action_type: Maneuver
+    action_type: '[Maneuver](../../../../rule/combat/turn.md)'
     class: "null"
     cost: 9 Discipline
     distance: 3 [burst](../../../../rule/combat/burst.md)
@@ -51,5 +51,5 @@ metadata:
 name: Synaptic Reset
 target: Self and each ally in the area
 type: feature
-usage: Maneuver
+usage: '[Maneuver](../../../../rule/combat/turn.md)'
 ```

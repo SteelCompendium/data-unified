@@ -30,7 +30,7 @@ type: statblock
 
 > 🗡 **Houndaxe ([Signature Ability](../../../../rule/combat/signature-ability.md))**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](../../../../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 2**            | **🎯 Two creatures or objects** |
 >
@@ -46,7 +46,7 @@ type: statblock
 
 > ❇️ **Bloody Whirlwind (2 [Malice](../../../../rule/monster/malice.md))**
 >
-> | **Area, Weapon** |                             **Main action** |
+> | **Area, Weapon** |                             **[Main action](../../../../rule/combat/turn.md)** |
 > |------------------|--------------------------------------------:|
 > | **📏 3 burst**   | **🎯 Each creature and object in the area** |
 >
@@ -60,7 +60,7 @@ type: statblock
 
 > 🏹 **Hunting Leap**
 >
-> | **Ranged**      |                  **Maneuver** |
+> | **Ranged**      |                  **[Maneuver](../../../../rule/combat/turn.md)** |
 > |-----------------|------------------------------:|
 > | **📏 Ranged 5** | **🎯 One creature or object** |
 >
@@ -68,7 +68,7 @@ type: statblock
 
 > ❗️ **Laugh It Off**
 >
-> | **-**       | **Triggered action** |
+> | **-**       | **[Triggered action](../../../../rule/combat/triggered-action.md)** |
 > |-------------|---------------------:|
 > | **📏 Self** |          **🎯 Self** |
 >

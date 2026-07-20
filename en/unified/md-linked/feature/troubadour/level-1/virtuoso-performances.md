@@ -14,7 +14,7 @@ You have the following performance abilities, which are usable with your [Routin
 
 *All for thunder motherrr! ♪ Run and hide for coverrr!♪*
 
-| **Magic, Performance, [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md)** |       **No action** |
+| **Magic, Performance, [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md)** |       **[No action](../../../rule/combat/turn.md)** |
 |----------------------------------------|--------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**                       | **🎯 One creature** |
 
@@ -31,7 +31,7 @@ You have the following performance abilities, which are usable with your [Routin
 
 *Teeth are bare! ♪ Eyes black! ♪ No escaping the beast!♪*
 
-| **Area, Magic, Performance** |                         **No action** |
+| **Area, Magic, Performance** |                         **[No action](../../../rule/combat/turn.md)** |
 |------------------------------|--------------------------------------:|
 | **📏 5 [aura](../../../rule/combat/aura.md)**                | **🎯 Self and each ally in the area** |
 

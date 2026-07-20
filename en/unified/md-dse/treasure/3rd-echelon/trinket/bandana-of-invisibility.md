@@ -6,12 +6,14 @@ file_dpath: treasure/3rd-echelon/trinket
 flavor: Although you see nothing before you, your hands can discern an invisible scrap of cloth.
 item_id: bandana-of-invisibility
 item_name: Bandana of Invisibility
+item_prerequisite: Lightbender fur
 keywords:
     - Neck
     - Psionic
 name: Bandana of Invisibility
 project_goal: "450"
 project_roll_characteristic: Reason, Intuition, or Presence
+project_source: Texts or lore in Hyrallic
 scc: mcdm.beastheart.v1/treasure.3rd-echelon.trinket/bandana-of-invisibility
 source: mcdm.beastheart.v1
 treasure_type: trinket

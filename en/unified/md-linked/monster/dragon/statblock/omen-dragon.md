@@ -45,7 +45,7 @@ type: statblock
 
 > 🔳 **Corroding Breath (Signature Ability)**
 >
-> | **Area, Magic, Ranged** | **Main action** |
+> | **Area, Magic, Ranged** | **[Main action](../../../rule/combat/turn.md)** |
 > |-------------------------|------------------------------:|
 > | **📏 5 cube within 10** | **🎯 Each creature and object in the area** |
 >
@@ -59,7 +59,7 @@ type: statblock
 
 > 🗡 **Barbed Tail Swing**
 >
-> | **Charge, Melee, Strike, Weapon** |                 **Main action** |
+> | **Charge, Melee, Strike, Weapon** |                 **[Main action](../../../rule/combat/turn.md)** |
 > |-----------------------------------|--------------------------------:|
 > | **📏 Melee 4**                    | **🎯 Two creatures or objects** |
 >
@@ -77,7 +77,7 @@ type: statblock
 
 > ❇️ **Detonation (5 [Malice](../../../rule/monster/malice.md))**
 >
-> | **Area**        |                  **Maneuver** |
+> | **Area**        |                  **[Maneuver](../../../rule/combat/turn.md)** |
 > |-----------------|------------------------------:|
 > | **📏 10 burst** | **🎯 Each enemy in the area** |
 >
@@ -85,7 +85,7 @@ type: statblock
 
 > ❗️ **Don't Turn Away (1 [Malice](../../../rule/monster/malice.md))**
 >
-> | **-**       | **Free triggered action** |
+> | **-**       | **Free [triggered action](../../../rule/combat/triggered-action.md)** |
 > |-------------|--------------------------:|
 > | **📏 Self** |               **🎯 Self** |
 >
@@ -95,7 +95,7 @@ type: statblock
 
 > ❗️ **Repent! (2 [Malice](../../../rule/monster/malice.md))**
 >
-> | **Ranged**      |      **Free triggered action** |
+> | **Ranged**      |      **Free [triggered action](../../../rule/combat/triggered-action.md)** |
 > |-----------------|-------------------------------:|
 > | **📏 Ranged 5** | **🎯 The triggering creature** |
 >

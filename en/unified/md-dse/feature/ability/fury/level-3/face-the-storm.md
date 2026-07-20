@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: fury
 cost: 7 Ferocity
 cost_amount: "7"
@@ -32,7 +32,7 @@ flavor: Shocked in the face of your naked brutality, your enemy's instincts take
 keywords:
     - Magic
 metadata:
-    action_type: Maneuver
+    action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: fury
     cost: 7 Ferocity
     distance: Self
@@ -48,5 +48,5 @@ metadata:
 name: Face the Storm!
 target: Self
 type: feature
-usage: Maneuver
+usage: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 ```

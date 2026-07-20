@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: elementalist
 distance: '[Melee](../../../../rule/combat/melee.md) 1'
 effect: You see and hear any events that have occurred within 10 squares of the object within the last 12 hours, perceiving those events from the object's location as if you were there.
@@ -33,7 +33,7 @@ keywords:
     - Magic
     - '[Melee](../../../../rule/combat/melee.md)'
 metadata:
-    action_type: Main action
+    action_type: '[Main action](../../../../rule/combat/turn.md)'
     class: elementalist
     distance: '[Melee](../../../../rule/combat/melee.md) 1'
     effect: You see and hear any events that have occurred within 10 squares of the object within the last 12 hours, perceiving those events from the object's location as if you were there.
@@ -51,5 +51,5 @@ metadata:
 name: Remember Growth and Sun and Rain
 target: One mundane wooden object
 type: feature
-usage: Main action
+usage: '[Main action](../../../../rule/combat/turn.md)'
 ```

@@ -1,5 +1,5 @@
 ---
-action_type: Triggered
+action_type: '[Triggered](../../../../rule/combat/triggered-action.md)'
 class: fury
 distance: Self
 effect: You gain [temporary Stamina](../../../../rule/health/temporary-stamina.md) equal to your [Might](../../../../rule/character/might.md) score and can enter your [animal form](../../../../complication/animal-form.md) or hybrid form.
@@ -32,7 +32,7 @@ feature_type: ability
 flavor: In your anger, you revert to a more bestial form.
 keywords: []
 metadata:
-    action_type: Triggered
+    action_type: '[Triggered](../../../../rule/combat/triggered-action.md)'
     class: fury
     distance: Self
     effect: You gain [temporary Stamina](../../../../rule/health/temporary-stamina.md) equal to your [Might](../../../../rule/character/might.md) score and can enter your [animal form](../../../../complication/animal-form.md) or hybrid form.
@@ -51,5 +51,5 @@ name: Furious Change
 target: Self
 trigger: You lose [Stamina](../../../../rule/health/stamina.md) and are not [dying](../../../../rule/health/dying.md).
 type: feature
-usage: Triggered
+usage: '[Triggered](../../../../rule/combat/triggered-action.md)'
 ```

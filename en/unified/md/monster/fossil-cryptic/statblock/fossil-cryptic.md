@@ -42,7 +42,7 @@ type: statblock
 
 > 🗡 **Sand Slam (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 2**            | **🎯 Two creatures or objects** |
 >
@@ -56,7 +56,7 @@ type: statblock
 
 > 🔳 **Stone Bone Storm**
 >
-> | **Area**                   |               **Main action** |
+> | **Area**                   |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |----------------------------|------------------------------:|
 > | **📏 6 x 1 line within 1** | **🎯 Each enemy in the area** |
 >
@@ -70,7 +70,7 @@ type: statblock
 
 > 🏹 **Stoneshift**
 >
-> | **Ranged**      |                                **Maneuver** |
+> | **Ranged**      |                                **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-----------------|--------------------------------------------:|
 > | **📏 Ranged 5** | **🎯 One creature or object on the ground** |
 >
@@ -80,7 +80,7 @@ type: statblock
 
 > ❗️ **Dissipate (1 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
-> | **-**       | **Triggered action** |
+> | **-**       | **[Triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |
 > |-------------|---------------------:|
 > | **📏 Self** |          **🎯 Self** |
 >
@@ -90,7 +90,7 @@ type: statblock
 
 > ❗️ **Shatterstone (5 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
-> | **Area**       |          **Triggered action** |
+> | **Area**       |          **[Triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |
 > |----------------|------------------------------:|
 > | **📏 2 burst** | **🎯 Each enemy in the area** |
 >

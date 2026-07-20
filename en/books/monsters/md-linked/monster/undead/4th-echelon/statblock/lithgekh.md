@@ -33,7 +33,7 @@ type: statblock
 
 > 🏹 **Heartstopper ([Signature Ability](../../../../rule/combat/signature-ability.md))**
 >
-> | **Magic, Ranged, Strike** |               **Main action** |
+> | **Magic, Ranged, Strike** |               **[Main action](../../../../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Ranged 15**          | **🎯 One creature or object** |
 >

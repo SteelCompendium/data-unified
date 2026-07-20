@@ -30,7 +30,7 @@ type: statblock
 
 > 🗡 **Grasping Claws (Signature Ability)**
 >
-> | **Charge, Melee, Strike, Weapon** |                 **Main action** |
+> | **Charge, Melee, Strike, Weapon** |                 **[Main action](../../../rule/combat/turn.md)** |
 > |-----------------------------------|--------------------------------:|
 > | **📏 Melee 2**                    | **🎯 Two creatures or objects** |
 >
@@ -44,7 +44,7 @@ type: statblock
 
 > ❇️ **Stunning Blast (3 [Malice](../../../rule/monster/malice.md))**
 >
-> | **Area, Weapon** |                  **Maneuver** |
+> | **Area, Weapon** |                  **[Maneuver](../../../rule/combat/turn.md)** |
 > |------------------|------------------------------:|
 > | **📏 3 burst**   | **🎯 Each enemy in the area** |
 >

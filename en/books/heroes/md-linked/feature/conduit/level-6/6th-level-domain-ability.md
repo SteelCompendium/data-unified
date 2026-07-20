@@ -30,7 +30,7 @@ Choose one of your domains. You gain a [heroic ability](../../../rule/general/he
 
 *A whirlwind of souls of the dead flies around you at your command.*
 
-| **Area, Magic**  |                     **Maneuver** |
+| **Area, Magic**  |                     **[Maneuver](../../../rule/combat/turn.md)** |
 |------------------|---------------------------------:|
 | **📏 4 [aura](../../../rule/combat/aura.md)**    | **🎯 Each creature in the area** |
 
@@ -41,7 +41,7 @@ Choose one of your domains. You gain a [heroic ability](../../../rule/general/he
 
 *A greatsword streams down from the sky, threatening to pin your foe.*
 
-| **Magic, [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md)**  |     **Main action** |
+| **Magic, [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md)**  |     **[Main action](../../../rule/combat/turn.md)** |
 |----------------------------|--------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 5**            | **🎯 One creature** |
 
@@ -56,7 +56,7 @@ Choose one of your domains. You gain a [heroic ability](../../../rule/general/he
 
 *Your body emits a heat that bakes your enemies and inspires your allies.*
 
-| **Area, Magic**  |                              **Maneuver** |
+| **Area, Magic**  |                              **[Maneuver](../../../rule/combat/turn.md)** |
 |------------------|------------------------------------------:|
 | **📏 4 [aura](../../../rule/combat/aura.md)**    | **🎯 Self and each creature in the area** |
 
@@ -67,7 +67,7 @@ Choose one of your domains. You gain a [heroic ability](../../../rule/general/he
 
 *Your allies are covered in spiritual armor.*
 
-| **Area, Magic, [Ranged](../../../rule/combat/ranged.md)**  |           **Maneuver** | 
+| **Area, Magic, [Ranged](../../../rule/combat/ranged.md)**  |           **[Maneuver](../../../rule/combat/turn.md)** |
 |--------------------------|-----------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**         | **🎯 Three creatures** |
 
@@ -78,7 +78,7 @@ Choose one of your domains. You gain a [heroic ability](../../../rule/general/he
 
 *You conjure a whirring tank made of blades and metal.*
 
-| **Magic, [Ranged](../../../rule/combat/ranged.md)** | **Main action** |
+| **Magic, [Ranged](../../../rule/combat/ranged.md)** | **[Main action](../../../rule/combat/turn.md)** |
 |-------------------|-----------------|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**  | **🎯 Special**  |
 
@@ -97,7 +97,7 @@ Once on each subsequent [turn](../../../rule/combat/turn.md), you can use a [fre
 
 *"Now you see us..."*
 
-| **Area, Magic**  |                          **Maneuver** |
+| **Area, Magic**  |                          **[Maneuver](../../../rule/combat/turn.md)** |
 |------------------|--------------------------------------:|
 | **📏 4 [burst](../../../rule/combat/burst.md)**   | **🎯 Self and each ally in the area** |
 
@@ -108,7 +108,7 @@ Once on each subsequent [turn](../../../rule/combat/turn.md), you can use a [fre
 
 *You utter a secret word of destruction known only to deities.*
 
-| **Area, Magic**  |               **Main action** |
+| **Area, Magic**  |               **[Main action](../../../rule/combat/turn.md)** |
 |------------------|------------------------------:|
 | **📏 4 [burst](../../../rule/combat/burst.md)**   | **🎯 Each enemy in the area** |
 
@@ -125,7 +125,7 @@ Once on each subsequent [turn](../../../rule/combat/turn.md), you can use a [fre
 
 *You beseech the gods to give your allies what they need to win the day, and the gods answer.*
 
-| **Magic, [Ranged](../../../rule/combat/ranged.md)**  |      **Maneuver** |
+| **Magic, [Ranged](../../../rule/combat/ranged.md)**  |      **[Maneuver](../../../rule/combat/turn.md)** |
 |--------------------|------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**   | **🎯 Two allies** |
 
@@ -136,7 +136,7 @@ Once on each subsequent [turn](../../../rule/combat/turn.md), you can use a [fre
 
 *Lightning [bursts](../../../rule/combat/burst.md) forth from your body in several directions.*
 
-| **Area, Magic**                    |               **Main action** |
+| **Area, Magic**                    |               **[Main action](../../../rule/combat/turn.md)** |
 |------------------------------------|------------------------------:|
 | **📏 Three 10 x 1 lines within 1** | **🎯 Each enemy in the area** |
 
@@ -153,7 +153,7 @@ Once on each subsequent [turn](../../../rule/combat/turn.md), you can use a [fre
 
 *With a gesture, you restore your health and that of your allies.*
 
-| **Area, Magic**  |                       **Main action** |
+| **Area, Magic**  |                       **[Main action](../../../rule/combat/turn.md)** |
 |------------------|--------------------------------------:|
 | **📏 4 [burst](../../../rule/combat/burst.md)**   | **🎯 Self and each ally in the area** |
 
@@ -164,7 +164,7 @@ Once on each subsequent [turn](../../../rule/combat/turn.md), you can use a [fre
 
 *Animal spirits run through the battlefield, trampling your foes.*
 
-| **Area, Magic, [Ranged](../../../rule/combat/ranged.md)**     |               **Main action** |
+| **Area, Magic, [Ranged](../../../rule/combat/ranged.md)**     |               **[Main action](../../../rule/combat/turn.md)** |
 |-----------------------------|------------------------------:|
 | **📏 10 x 2 line within 5** | **🎯 Each enemy in the area** |
 
@@ -179,7 +179,7 @@ Once on each subsequent [turn](../../../rule/combat/turn.md), you can use a [fre
 
 *You bend the fate of a foe, willing them to die.*
 
-| **Magic, [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md)** |     **Main action** |
+| **Magic, [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md)** |     **[Main action](../../../rule/combat/turn.md)** |
 |---------------------------|--------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**          | **🎯 One creature** |
 

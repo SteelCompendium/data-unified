@@ -14,9 +14,9 @@
     "Magic"
   ],
   "metadata": {
-    "action_type": "Maneuver",
+    "action_type": "[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)",
     "class": "conduit",
-    "content": "\n*\"The power of the gods is within you, friends. Allow me to unleash it.\"*\n\n| **Area, Magic**   |                          **Maneuver** |\n|-------------------|--------------------------------------:|\n| **📏 5 [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura)**     | **🎯 Self and each ally in the area** |\n\n**Effect:** At the end of each of your [turns](scc.v1:mcdm.heroes.v1/rule.combat/turn) until the end of the encounter or until you are [dying](scc.v1:mcdm.heroes.v1/rule.health/dying), each target gains 3 [surges](scc.v1:mcdm.heroes.v1/rule.resource/surge).",
+    "content": "\n*\"The power of the gods is within you, friends. Allow me to unleash it.\"*\n\n| **Area, Magic**   |                          **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|-------------------|--------------------------------------:|\n| **📏 5 [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura)**     | **🎯 Self and each ally in the area** |\n\n**Effect:** At the end of each of your [turns](scc.v1:mcdm.heroes.v1/rule.combat/turn) until the end of the encounter or until you are [dying](scc.v1:mcdm.heroes.v1/rule.health/dying), each target gains 3 [surges](scc.v1:mcdm.heroes.v1/rule.resource/surge).",
     "distance": "5 [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura)",
     "feature_type": "ability",
     "flavor": "\"The power of the gods is within you, friends. Allow me to unleash it.\"",
@@ -36,5 +36,5 @@
   "name": "Blessing of the Blade",
   "target": "Self and each ally in the area",
   "type": "feature",
-  "usage": "Maneuver"
+  "usage": "[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)"
 }

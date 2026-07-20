@@ -33,7 +33,7 @@ with_captain: +3 damage bonus to strikes
 
 > 🗡 **Swing (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |                          **Main action** |
+> | **Melee, Strike, Weapon** |                          **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |---------------------------|-----------------------------------------:|
 > | **📏 Melee 3**            | **🎯 One creature or object per minion** |
 >

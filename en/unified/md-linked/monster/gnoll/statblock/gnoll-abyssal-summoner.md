@@ -29,7 +29,7 @@ type: statblock
 
 > 🏹 **Flame Wad (Signature Ability)**
 >
-> | **Magic, Ranged, Strike** |               **Main action** |
+> | **Magic, Ranged, Strike** |               **[Main action](../../../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Ranged 5**           | **🎯 One creature or object** |
 >
@@ -43,7 +43,7 @@ type: statblock
 
 > 🏹 **Call Abyssal Hyenas (3 [Malice](../../../rule/monster/malice.md))**
 >
-> | **Ranged**      |   **Maneuver** |
+> | **Ranged**      |   **[Maneuver](../../../rule/combat/turn.md)** |
 > |-----------------|---------------:|
 > | **📏 Ranged 5** | **🎯 Special** |
 >
@@ -51,7 +51,7 @@ type: statblock
 
 > ❇️ **Summoner's Cackletongue (4 [Malice](../../../rule/monster/malice.md))**
 >
-> | **Area**       |                 **Maneuver** |
+> | **Area**       |                 **[Maneuver](../../../rule/combat/turn.md)** |
 > |----------------|-----------------------------:|
 > | **📏 2 burst** | **🎯 Each ally in the area** |
 >

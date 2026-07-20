@@ -6,11 +6,13 @@ file_dpath: treasure/2nd-echelon/consumable
 flavor: A glass flask contains a whirl of gentle sunlight.
 item_id: breath-of-dawn
 item_name: Breath of Dawn
+item_prerequisite: The breath of a mystic sage captured at sunrise
 keywords:
     - Psionic
 name: Breath of Dawn
 project_goal: "90"
 project_roll_characteristic: '[Intuition](../../../rule/character/intuition.md) or [Presence](../../../rule/character/presence.md)'
+project_source: Texts or lore in Hyrallic
 scc: mcdm.heroes.v1/treasure.2nd-echelon.consumable/breath-of-dawn
 source: mcdm.heroes.v1
 treasure_type: consumable

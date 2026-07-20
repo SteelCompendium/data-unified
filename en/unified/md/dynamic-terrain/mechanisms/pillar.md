@@ -70,7 +70,7 @@ This stone pillar can be toppled onto unsuspecting foes with the right amount of
 
 > ❗️ **Toppling Pillar**
 >
-> | **Area**                   |                   **Free triggered action** |
+> | **Area**                   |                   **Free [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |
 > |----------------------------|--------------------------------------------:|
 > | **📏 4 x 1 line within 1** | **🎯 Each creature and object in the area** |
 >

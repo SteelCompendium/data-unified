@@ -4,12 +4,18 @@ file_dpath: treasure/leveled/armor
 flavor: This suit is shaped of tough leather and set with thousands of tiny barbs on the inside, all thankfully pain-free to the touch.
 item_id: adaptive-second-skin-of-toxins
 item_name: Adaptive Second Skin of Toxins
+item_prerequisite: Five rabid honey badger pelts, the quills of a hedgehog
 keywords:
     - Light Armor
     - Magic
+level_effects:
+    1st: While you wear this armor, you gain a +6 [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), and you have immunity to acid and poison damage equal to your highest [characteristic](scc.v1:mcdm.heroes.v1/rule.character/characteristic) score.
+    5th: The armor's [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) increases to +12. Additionally, whenever an [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) creature deals damage to you, they take 3 acid or poison damage (your choice).
+    9th: The armor's [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) increases to +21, and an [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) creature who deals damage to you takes 6 acid or poison damage. Additionally, you can use a maneuver to transmute a 2-[cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) area of liquid or gas [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to you into liquid acid or poison gas until the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn). Any creature who enters the area for the first time in a [combat round](scc.v1:mcdm.heroes.v1/rule.combat/combat-round) or starts their turn there takes 6 acid or poison damage, as appropriate.
 name: Adaptive Second Skin of Toxins
 project_goal: "450"
 project_roll_characteristic: '[Agility](scc.v1:mcdm.heroes.v1/rule.character/agility) or [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)'
+project_source: Texts or lore in Yllyric
 scc: mcdm.heroes.v1/treasure.leveled.armor/adaptive-second-skin-of-toxins
 source: mcdm.heroes.v1
 treasure_type: armor

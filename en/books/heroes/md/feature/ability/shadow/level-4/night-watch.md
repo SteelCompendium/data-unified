@@ -1,5 +1,5 @@
 ---
-action_type: Triggered
+action_type: '[Triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)'
 class: shadow
 distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 5'
 effect: The target takes half the damage. You remain hidden.
@@ -19,7 +19,7 @@ type: ability
 
 *A steely dagger from out of the blue knocks another weapon off course.*
 
-| **[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged), Weapon** |   **Triggered** |
+| **[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged), Weapon** |   **[Triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |
 |--------------------|----------------:|
 | **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 5**    | **🎯 One ally** |
 

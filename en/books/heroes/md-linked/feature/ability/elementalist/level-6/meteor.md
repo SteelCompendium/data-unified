@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: elementalist
 cost: 9 Essence
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
@@ -25,7 +25,7 @@ type: ability
 
 *You [teleport](../../../../movement/teleport.md) the target into the air and let the ground and the elemental force of fire do the rest.*
 
-| **Earth, Fire, Magic, [Ranged](../../../../rule/combat/ranged.md), Void** |               **Main action** |
+| **Earth, Fire, Magic, [Ranged](../../../../rule/combat/ranged.md), Void** |               **[Main action](../../../../rule/combat/turn.md)** |
 |--------------------------------------|------------------------------:|
 | **📏 [Ranged](../../../../rule/combat/ranged.md) 10**                     | **🎯 One creature or object** |
 

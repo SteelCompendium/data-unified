@@ -55,7 +55,7 @@ type: featureblock
 
 > ❗️ **Shield Block (Encounter)**
 >
-> | **Ranged**      |             **Triggered action** |
+> | **Ranged**      |             **[Triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |
 > |-----------------|---------------------------------:|
 > | **📏 Ranged 5** | **🎯 The shieldbearer's mentor** |
 >
@@ -67,7 +67,7 @@ type: featureblock
 
 > 🗡 **Living Backpack**
 >
-> | **Melee**      |                  **Main action** |
+> | **Melee**      |                  **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |----------------|---------------------------------:|
 > | **📏 Melee 1** | **🎯 The shieldbearer's mentor** |
 >
@@ -77,7 +77,7 @@ type: featureblock
 
 > 🗡 **Let's Go Sledding (Encounter)**
 >
-> | **Charge, Melee, Strike, Weapon** |      **Main action** |
+> | **Charge, Melee, Strike, Weapon** |      **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-----------------------------------|---------------------:|
 > | **📏 Melee 1**                    | **🎯 Three enemies** |
 >

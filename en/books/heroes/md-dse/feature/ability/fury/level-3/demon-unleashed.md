@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: fury
 cost: 7 Ferocity
 cost_amount: "7"
@@ -32,7 +32,7 @@ flavor: Foes tremble at the sight of you.
 keywords:
     - Magic
 metadata:
-    action_type: Maneuver
+    action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: fury
     cost: 7 Ferocity
     distance: Self
@@ -48,5 +48,5 @@ metadata:
 name: Demon Unleashed
 target: Self
 type: feature
-usage: Maneuver
+usage: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 ```

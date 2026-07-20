@@ -65,7 +65,7 @@ type: featureblock
 
 > 🔳 **Signal Shell (Encounter)**
 >
-> | **Area, Ranged, Weapon**  |               **Main action** |
+> | **Area, Ranged, Weapon**  |               **[Main action](../../../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Special; see below** | **🎯 Each enemy in the area** |
 >
@@ -81,7 +81,7 @@ type: featureblock
 
 > 🔳 **Pacifier Shell (Encounter)**
 >
-> | **Area, Ranged, Weapon** |               **Main action** |
+> | **Area, Ranged, Weapon** |               **[Main action](../../../rule/combat/turn.md)** |
 > |--------------------------|------------------------------:|
 > | **📏 3 cube within 15**  | **🎯 Each enemy in the area** |
 >
@@ -95,7 +95,7 @@ type: featureblock
 
 > 🔳 **Screaming Shell (Encounter)**
 >
-> | **Area, Weapon**            |               **Main action** |
+> | **Area, Weapon**            |               **[Main action](../../../rule/combat/turn.md)** |
 > |-----------------------------|------------------------------:|
 > | **📏 10 x 1 line within 1** | **🎯 Each enemy in the area** |
 >

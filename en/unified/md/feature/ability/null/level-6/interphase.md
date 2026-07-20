@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: "null"
 cost: 9 Discipline
 distance: Self
@@ -18,7 +18,7 @@ type: ability
 
 *You slip into a faster timestream to act more quickly.*
 
-| **Psionic** | **Main action** |
+| **Psionic** | **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 |-------------|----------------:|
 | **📏 Self** |     **🎯 Self** |
 

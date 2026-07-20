@@ -3,6 +3,7 @@ agility: 2
 cost: 7 essence for two minions
 flavor: The belladonix are found among the elite guard of fey monarchs and carry themselves like royalty. Their moth-like wings ooze with vibrant colors and are barbed; the poison within threatening to completely shift the reality of their victims.
 free_strike: 8
+free_strike_damage_type: Poison
 immunities:
     - Poison R
 intuition: 0
@@ -34,7 +35,7 @@ The belladonix are found among the elite guard of fey monarchs and carry themsel
 
 > 🏹 **A Thorn, Woe to the Pricked 2d10 + R (Signature Ability)**
 >
-> | **Magic, Ranged, Strike** | **Main action** |
+> | **Magic, Ranged, Strike** | **[Main action](../../../../../rule/combat/turn.md)** |
 > |---------------------------|----------------:|
 > | **📏 Ranged 15** | **🎯 One creature or object per minion** |
 >

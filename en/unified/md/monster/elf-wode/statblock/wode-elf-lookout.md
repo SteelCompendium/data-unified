@@ -32,7 +32,7 @@ with_captain: +2 bonus to speed
 
 > 🏹 **Longbow (Signature Ability)**
 >
-> | **Ranged, Strike, Weapon** |                          **Main action** |
+> | **Ranged, Strike, Weapon** |                          **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |----------------------------|-----------------------------------------:|
 > | **📏 Ranged 8**            | **🎯 One creature or object per minion** |
 >

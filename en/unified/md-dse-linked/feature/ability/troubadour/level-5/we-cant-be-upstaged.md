@@ -1,5 +1,5 @@
 ---
-action_type: No action
+action_type: '[No action](../../../../rule/combat/turn.md)'
 class: troubadour
 distance: 5 [aura](../../../../rule/combat/aura.md)
 effect: While this performance is active, a target who starts their [turn](../../../../rule/combat/turn.md) in the area gains a [bonus](../../../../rule/dice/bonuses-and-penalties.md) to the [distance](../../../../rule/combat/distance.md) they can [shift](../../../../movement/shifting.md) equal to your [Presence](../../../../rule/character/presence.md) score until the end of their [turn](../../../../rule/combat/turn.md).
@@ -33,7 +33,7 @@ keywords:
     - Magic
     - Performance
 metadata:
-    action_type: No action
+    action_type: '[No action](../../../../rule/combat/turn.md)'
     class: troubadour
     distance: 5 [aura](../../../../rule/combat/aura.md)
     effect: While this performance is active, a target who starts their [turn](../../../../rule/combat/turn.md) in the area gains a [bonus](../../../../rule/dice/bonuses-and-penalties.md) to the [distance](../../../../rule/combat/distance.md) they can [shift](../../../../movement/shifting.md) equal to your [Presence](../../../../rule/character/presence.md) score until the end of their [turn](../../../../rule/combat/turn.md).
@@ -51,5 +51,5 @@ metadata:
 name: We Can't Be Upstaged!
 target: Self and each ally in the area
 type: feature
-usage: No action
+usage: '[No action](../../../../rule/combat/turn.md)'
 ```

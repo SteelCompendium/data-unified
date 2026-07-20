@@ -30,7 +30,7 @@ weaknesses:
 
 > ❇️ **Agonizing Harmony (Signature Ability)**
 >
-> | **Area, Weapon** |               **Main action** |
+> | **Area, Weapon** |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |------------------|------------------------------:|
 > | **📏 5 burst**   | **🎯 Each enemy in the area** |
 >
@@ -44,7 +44,7 @@ weaknesses:
 
 > ❇️ **Chaotic Entrancing Harmony**
 >
-> | **Area**        |                  **Maneuver** |
+> | **Area**        |                  **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-----------------|------------------------------:|
 > | **📏 10 burst** | **🎯 Each enemy in the area** |
 >
@@ -52,7 +52,7 @@ weaknesses:
 
 > ❗️ **I Thrive on Pain (3 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
-> | **Magic**   | **Triggered action** |
+> | **Magic**   | **[Triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |
 > |-------------|---------------------:|
 > | **📏 Self** |          **🎯 Self** |
 >

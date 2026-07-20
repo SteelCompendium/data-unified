@@ -31,7 +31,7 @@ weaknesses:
 
 > ⚔️ **Warp Touch (Signature Ability)**
 >
-> | **Magic, Melee, Ranged, Strike, Weapon** |               **Main action** |
+> | **Magic, Melee, Ranged, Strike, Weapon** |               **[Main action](../../../../rule/combat/turn.md)** |
 > |------------------------------------------|------------------------------:|
 > | **📏 Melee 1 or ranged 10**              | **🎯 One creature or object** |
 >
@@ -45,7 +45,7 @@ weaknesses:
 
 > 🔳 **Soul Flay (5 [Malice](../../../../rule/monster/malice.md))**
 >
-> | **Area**                   |                  **Maneuver** |
+> | **Area**                   |                  **[Maneuver](../../../../rule/combat/turn.md)** |
 > |----------------------------|------------------------------:|                  
 > | **📏 6 x 3 line within 1** | **🎯 Each enemy in the area** |
 >

@@ -6,11 +6,13 @@ file_dpath: treasure/2nd-echelon/trinket
 flavor: A porcelain cart with golden filigree and wheels that crackle with electricity.
 item_id: thunder-chariot
 item_name: Thunder Chariot
+item_prerequisite: Twenty lightning bolts frozen in time
 keywords:
     - Magic
 name: Thunder Chariot
 project_goal: "300"
 project_roll_characteristic: '[Reason](../../../rule/character/reason.md) or [Intuition](../../../rule/character/intuition.md)'
+project_source: Texts or lore in the First Language
 scc: mcdm.summoner.v1/treasure.2nd-echelon.trinket/thunder-chariot
 source: mcdm.summoner.v1
 treasure_type: trinket

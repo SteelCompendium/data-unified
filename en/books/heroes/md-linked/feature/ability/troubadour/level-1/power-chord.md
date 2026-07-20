@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](../../../../rule/combat/turn.md)'
 class: troubadour
 distance: 2 [burst](../../../../rule/combat/burst.md)
 flavor: Your instrument rings true and your music blows everyone away.
@@ -21,7 +21,7 @@ type: ability
 
 *Your instrument rings true and your music blows everyone away.*
 
-| **Area, Magic** |                  **Maneuver** |
+| **Area, Magic** |                  **[Maneuver](../../../../rule/combat/turn.md)** |
 |-----------------|------------------------------:|
 | **📏 2 [burst](../../../../rule/combat/burst.md)**  | **🎯 Each enemy in the area** |
 

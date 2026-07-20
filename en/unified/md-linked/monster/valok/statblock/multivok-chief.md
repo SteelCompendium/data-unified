@@ -31,7 +31,7 @@ type: statblock
 
 > 🗡 **Pneumatic Punch ([Signature Ability](../../../rule/combat/signature-ability.md))**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](../../../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 2**            | **🎯 Two creatures or objects** |
 >
@@ -43,7 +43,7 @@ type: statblock
 
 > 🏹 **Targeting Beam (3 Malice)**
 >
-> | **Ranged, Strike, Weapon** |               **Main action** |
+> | **Ranged, Strike, Weapon** |               **[Main action](../../../rule/combat/turn.md)** |
 > |----------------------------|------------------------------:|
 > | **📏 Ranged 10**           | **🎯 One creature or object** |
 >
@@ -57,7 +57,7 @@ type: statblock
 
 > 🏹 **Chief's Command**
 >
-> | **Ranged**      |    **Maneuver** |
+> | **Ranged**      |    **[Maneuver](../../../rule/combat/turn.md)** |
 > |-----------------|----------------:|
 > | **📏 Ranged 5** | **🎯 One ally** |
 >

@@ -32,7 +32,7 @@ type: statblock
 
 > 🗡 **Prehensile Tongue (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |               **Main action** |
+> | **Melee, Strike, Weapon** |               **[Main action](../../../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Melee 3**            | **🎯 One creature or object** |
 >
@@ -48,7 +48,7 @@ type: statblock
 
 > 🔳 **Petrifying Eye Beams**
 >
-> | **Area, Magic**            |   **Maneuver** |
+> | **Area, Magic**            |   **[Maneuver](../../../rule/combat/turn.md)** |
 > |----------------------------|---------------:|
 > | **📏 5 x 2 line within 1** | **🎯 Special** |
 >
@@ -64,7 +64,7 @@ type: statblock
 
 > ⚔️ **Wink (2 Malice)**
 >
-> | **Magic, Melee, Ranged, Strike** |     **Main action** |
+> | **Magic, Melee, Ranged, Strike** |     **[Main action](../../../rule/combat/turn.md)** |
 > |----------------------------------|--------------------:|
 > | **📏 Melee 1 or ranged 10**      | **🎯 One creature** |
 >
@@ -78,7 +78,7 @@ type: statblock
 
 > ❗️ **Neurotoxin Splash**
 >
-> | **Area**       |          **Triggered action** |
+> | **Area**       |          **[Triggered action](../../../rule/combat/triggered-action.md)** |
 > |----------------|------------------------------:|
 > | **📏 2 burst** | **🎯 Each enemy in the area** |
 >

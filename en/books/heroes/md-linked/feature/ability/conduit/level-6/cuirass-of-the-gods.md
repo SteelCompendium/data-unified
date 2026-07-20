@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](../../../../rule/combat/turn.md)'
 class: conduit
 cost: 9 Piety
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
@@ -20,7 +20,7 @@ type: ability
 
 *Your allies are covered in spiritual armor.*
 
-| **Area, Magic, [Ranged](../../../../rule/combat/ranged.md)**  |           **Maneuver** | 
+| **Area, Magic, [Ranged](../../../../rule/combat/ranged.md)**  |           **[Maneuver](../../../../rule/combat/turn.md)** |
 |--------------------------|-----------------------:|
 | **📏 [Ranged](../../../../rule/combat/ranged.md) 10**         | **🎯 Three creatures** |
 

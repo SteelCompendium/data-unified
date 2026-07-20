@@ -1,5 +1,5 @@
 ---
-action_type: Triggered
+action_type: '[Triggered](../../../../rule/combat/triggered-action.md)'
 class: tactician
 cost: 5 Focus
 distance: '[Ranged](../../../../rule/combat/ranged.md) 5'
@@ -26,7 +26,7 @@ type: ability
 
 *You prioritize saving an ally over your own safety.*
 
-| **[Ranged](../../../../rule/combat/ranged.md), [Strike](../../../../rule/combat/strike.md), Weapon** |    **Triggered** |
+| **[Ranged](../../../../rule/combat/ranged.md), [Strike](../../../../rule/combat/strike.md), Weapon** |    **[Triggered](../../../../rule/combat/triggered-action.md)** |
 |----------------------------|-----------------:|
 | **📏 [Ranged](../../../../rule/combat/ranged.md) 5**            | **🎯 One enemy** |
 

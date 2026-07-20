@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](../../../../rule/combat/turn.md)'
 class: censor
 cost: 11 Wrath
 distance: 2 [aura](../../../../rule/combat/aura.md)
@@ -19,7 +19,7 @@ type: ability
 
 *You and your allies are clad in shimmering armor.*
 
-| **Area, Magic** |                          **Maneuver** |
+| **Area, Magic** |                          **[Maneuver](../../../../rule/combat/turn.md)** |
 |-----------------|--------------------------------------:|
 | **📏 2 [aura](../../../../rule/combat/aura.md)**   | **🎯 Self and each ally in the area** |
 

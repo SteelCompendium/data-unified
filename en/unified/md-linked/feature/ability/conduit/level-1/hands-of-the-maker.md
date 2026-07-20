@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](../../../../rule/combat/turn.md)'
 class: conduit
 distance: Self
 effect: You create a mundane object of [size](../../../../rule/character/size.md) 1S or smaller. You can maintain a number of objects created this way equal to your [Intuition](../../../../rule/character/intuition.md) score. You can destroy an object created this way with a thought, no matter how far you are from it (no action required).
@@ -17,7 +17,7 @@ type: ability
 
 *You craft objects with the power of your mind.*
 
-| **Magic**                |  **Maneuver** |
+| **Magic**                |  **[Maneuver](../../../../rule/combat/turn.md)** |
 |--------------------------|--------------:|
 | **📏 Self**              |   **🎯 Self** |
 

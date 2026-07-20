@@ -6,11 +6,13 @@ file_dpath: treasure/3rd-echelon/trinket
 flavor: A storm rages at the center of this color-shifting shard of rock.
 item_id: crystallized-essence
 item_name: Crystallized Essence
+item_prerequisite: The remains of an elemental
 keywords:
     - Magic
 name: Crystallized Essence
 project_goal: "450"
 project_roll_characteristic: '[Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) or [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)'
+project_source: Records in Rhorvic
 scc: mcdm.summoner.v1/treasure.3rd-echelon.trinket/crystallized-essence
 source: mcdm.summoner.v1
 treasure_type: trinket

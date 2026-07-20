@@ -31,7 +31,7 @@ type: statblock
 
 > 🏹 **Suffusing Strike (Signature Ability)**
 >
-> | **Magic, Ranged, Strike** |               **Main action** |
+> | **Magic, Ranged, Strike** |               **[Main action](../../../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Ranged 3**           | **🎯 One creature or object** |
 >
@@ -43,7 +43,7 @@ type: statblock
 
 > ❗️ **Trick of the Eye**
 >
-> | **Magic, Melee** | **Triggered action** |
+> | **Magic, Melee** | **[Triggered action](../../../rule/combat/triggered-action.md)** |
 > |------------------|---------------------:|
 > | **📏 Melee 2**   |      **🎯 One ally** |
 >

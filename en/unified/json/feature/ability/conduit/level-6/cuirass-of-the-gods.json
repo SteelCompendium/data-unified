@@ -15,9 +15,9 @@
     "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)"
   ],
   "metadata": {
-    "action_type": "Maneuver",
+    "action_type": "[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)",
     "class": "conduit",
-    "content": "\n*Your allies are covered in spiritual armor.*\n\n| **Area, Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)**  |           **Maneuver** | \n|--------------------------|-----------------------:|\n| **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**         | **🎯 Three creatures** |\n\n**Effect:** You can target yourself instead of one creature with this ability. Each target has [damage immunity](scc.v1:mcdm.heroes.v1/rule.damage/damage-immunity) 5 until the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn).",
+    "content": "\n*Your allies are covered in spiritual armor.*\n\n| **Area, Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)**  |           **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|--------------------------|-----------------------:|\n| **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**         | **🎯 Three creatures** |\n\n**Effect:** You can target yourself instead of one creature with this ability. Each target has [damage immunity](scc.v1:mcdm.heroes.v1/rule.damage/damage-immunity) 5 until the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn).",
     "distance": "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10",
     "feature_type": "ability",
     "flavor": "Your allies are covered in spiritual armor.",
@@ -39,5 +39,5 @@
   "name": "Cuirass of the Gods",
   "target": "Three creatures",
   "type": "feature",
-  "usage": "Maneuver"
+  "usage": "[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)"
 }

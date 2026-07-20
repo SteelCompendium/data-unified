@@ -18,9 +18,9 @@
   ],
   "metadata": {
     "ability_type": "Triggered",
-    "action_type": "Triggered",
+    "action_type": "[Triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)",
     "class": "null",
-    "content": "\n*You intuit the course of an incoming attack, reducing its effects.*\n\n| **Psionic** | **Triggered** |\n|-------------|--------------:|\n| **📏 Self** |   **🎯 Self** |\n\n**Trigger:** You take damage.\n\n**Effect:** You take half the damage.\n\n**Spend 1 Discipline:** The [potency](scc.v1:mcdm.heroes.v1/rule.character/potency) of one effect associated with the damage is reduced by 1 for you.",
+    "content": "\n*You intuit the course of an incoming attack, reducing its effects.*\n\n| **Psionic** | **[Triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |\n|-------------|--------------:|\n| **📏 Self** |   **🎯 Self** |\n\n**Trigger:** You take damage.\n\n**Effect:** You take half the damage.\n\n**Spend 1 Discipline:** The [potency](scc.v1:mcdm.heroes.v1/rule.character/potency) of one effect associated with the damage is reduced by 1 for you.",
     "distance": "Self",
     "feature_type": "ability",
     "flavor": "You intuit the course of an incoming attack, reducing its effects.",
@@ -40,5 +40,5 @@
   "target": "Self",
   "trigger": "You take damage.",
   "type": "feature",
-  "usage": "Triggered"
+  "usage": "[Triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)"
 }

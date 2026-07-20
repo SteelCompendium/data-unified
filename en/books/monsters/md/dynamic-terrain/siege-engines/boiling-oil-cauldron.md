@@ -65,7 +65,7 @@ A large cauldron of boiling oil stands ready to be poured onto enemies.
 
 > 🔳 **Boiling Oil**
 >
-> | **Area, Weapon**       |         **Main action (Adjacent creature)** |
+> | **Area, Weapon**       |         **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn) (Adjacent creature)** |
 > |------------------------|--------------------------------------------:|
 > | **📏 3 cube within 1** | **🎯 Each creature and object in the area** |
 >
@@ -79,7 +79,7 @@ A large cauldron of boiling oil stands ready to be poured onto enemies.
 
 > ⭐️ **Reload**
 >
-> | **-**    | **Main action (Adjacent creature)** |
+> | **-**    | **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn) (Adjacent creature)** |
 > |----------|------------------------------------:|
 > | **📏 -** |                            **🎯 -** |
 >

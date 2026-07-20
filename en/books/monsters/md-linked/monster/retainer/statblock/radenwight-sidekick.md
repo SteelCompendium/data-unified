@@ -30,7 +30,7 @@ type: statblock
 
 > ⚔️ **Dagger's Bite (Signature Ability)**
 >
-> | **Melee, Ranged, Strike, Weapon** |               **Main action** |
+> | **Melee, Ranged, Strike, Weapon** |               **[Main action](../../../rule/combat/turn.md)** |
 > |-----------------------------------|------------------------------:|
 > | **📏 Melee 1 or ranged 5**        | **🎯 One creature or object** |
 >
@@ -42,7 +42,7 @@ type: statblock
 
 > ❗️ **Ready Rodent**
 >
-> | **Melee, Weapon** | **Triggered action** |
+> | **Melee, Weapon** | **[Triggered action](../../../rule/combat/triggered-action.md)** |
 > |-------------------|---------------------:|
 > | **📏 Melee 1**    |  **🎯 One creature** |
 >

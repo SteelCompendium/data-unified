@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: troubadour
 cost: 7 Drama
 distance: 3 [burst](../../../../rule/combat/burst.md)
@@ -24,7 +24,7 @@ type: ability
 
 *A spicy performance lights a fire under your allies' feet.*
 
-| **Area, Magic, [Melee](../../../../rule/combat/melee.md), Weapon** |               **Main action** |
+| **Area, Magic, [Melee](../../../../rule/combat/melee.md), Weapon** |               **[Main action](../../../../rule/combat/turn.md)** |
 |--------------------------------|------------------------------:|
 | **📏 3 [burst](../../../../rule/combat/burst.md)**                 | **🎯 Each enemy in the area** |
 

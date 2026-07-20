@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: elementalist
 cost: 11 Essence
 cost_amount: "11"
@@ -44,7 +44,7 @@ keywords:
     - Magic
     - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'
 metadata:
-    action_type: Main action
+    action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: elementalist
     cost: 11 Essence
     distance: 5 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 10
@@ -66,5 +66,5 @@ metadata:
 name: Earth Rejects You
 target: Each enemy and object in the area
 type: feature
-usage: Main action
+usage: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 ```

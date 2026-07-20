@@ -14,7 +14,7 @@ You have the following ability.
 
 *You can slip into the stone.*
 
-| **Earth, Magic** | **Main action** |
+| **Earth, Magic** | **[Main action](../../../rule/combat/turn.md)** |
 |------------------|----------------:|
 | **📏 Self**      |     **🎯 Self** |
 

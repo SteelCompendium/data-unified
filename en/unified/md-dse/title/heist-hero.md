@@ -28,7 +28,7 @@ type: title
 >
 > *Coming through with hot soup!<br/>I better watch out for that banana peel!*
 >
-> | **[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)**       |       **Triggered** |
+> | **[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)**       |       **[Triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |
 > |------------------|--------------------:|
 > | **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10** | **🎯 One creature** |
 >

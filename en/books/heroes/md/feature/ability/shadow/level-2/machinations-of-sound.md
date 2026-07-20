@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: shadow
 cost: 5 Insight
 distance: 3 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 10
@@ -24,7 +24,7 @@ type: ability
 
 *Illusory sounds make your foes reposition themselves as they cower or investigate the disturbance.*
 
-| **Area, Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)** |                     **Maneuver** |
+| **Area, Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)** |                     **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 |-------------------------|---------------------------------:|
 | **📏 3 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 10** | **🎯 Each creature in the area** |
 

@@ -43,7 +43,7 @@ At the start of any high elf's turn, you can spend [Malice](scc.v1:mcdm.monsters
 
 > 🔳 **Gift From an Accursed Tome (5 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
-> | **Area, Magic**            |               **Main action** |
+> | **Area, Magic**            |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |----------------------------|------------------------------:|
 > | **📏 5 x 1 line within 1** | **🎯 Each enemy in the area** |
 >

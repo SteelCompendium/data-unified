@@ -1,5 +1,5 @@
 ---
-action_type: Triggered
+action_type: '[Triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)'
 class: "null"
 distance: Self
 effect: You take half the damage.
@@ -19,7 +19,7 @@ type: ability
 
 *You intuit the course of an incoming attack, reducing its effects.*
 
-| **Psionic** | **Triggered** |
+| **Psionic** | **[Triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |
 |-------------|--------------:|
 | **📏 Self** |   **🎯 Self** |
 

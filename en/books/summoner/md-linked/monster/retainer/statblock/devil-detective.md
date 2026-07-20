@@ -38,7 +38,7 @@ weaknesses: []
 
 > 🏹 **Diabolic Probe 2d10 + highest characteristic (Signature Ability)**
 >
-> | **Magic, Ranged, Strike** | **Main action** |
+> | **Magic, Ranged, Strike** | **[Main action](../../../rule/combat/turn.md)** |
 > |---------------------------|----------------:|
 > | **📏 Ranged 10** | **🎯 One creature or object** |
 >

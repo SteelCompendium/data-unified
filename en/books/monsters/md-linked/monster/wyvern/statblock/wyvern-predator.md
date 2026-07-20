@@ -32,7 +32,7 @@ type: statblock
 
 > 🗡 **Sedating Stinger ([Signature Ability](../../../rule/combat/signature-ability.md))**
 >
-> | **Magic, Strike, Weapon** |                 **Main action** |
+> | **Magic, Strike, Weapon** |                 **[Main action](../../../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 3**            | **🎯 Two creatures or objects** |
 >
@@ -46,7 +46,7 @@ type: statblock
 
 > 🔳 **Tail Sweep**
 >
-> | **Area, Weapon**           |                          **Main action** |
+> | **Area, Weapon**           |                          **[Main action](../../../rule/combat/turn.md)** |
 > |----------------------------|-----------------------------------------:|
 > | **📏 6 x 3 line within 1** | **🎯 Each enemy and object in the area** |
 >
@@ -60,7 +60,7 @@ type: statblock
 
 > 🗡 **Grasping Jaws (2 Malice)**
 >
-> | **Magic, Strike, Weapon** |                  **Maneuver** |
+> | **Magic, Strike, Weapon** |                  **[Maneuver](../../../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Melee 2**            | **🎯 One creature or object** |
 >
@@ -72,7 +72,7 @@ type: statblock
 
 > ❗️ **Deterring Sting (1 Malice)**
 >
-> | **Melee**      |           **Triggered action** |
+> | **Melee**      |           **[Triggered action](../../../rule/combat/triggered-action.md)** |
 > |----------------|-------------------------------:|
 > | **📏 Melee 3** | **🎯 The triggering creature** |
 >

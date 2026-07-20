@@ -1,5 +1,5 @@
 ---
-action_type: No action
+action_type: '[No action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: troubadour
 distance: 5 [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura)
 effect: While this performance is active, a target who starts their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) in the area gains a [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to the [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance) they can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) equal to your [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence) score until the end of their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn).
@@ -33,7 +33,7 @@ keywords:
     - Magic
     - Performance
 metadata:
-    action_type: No action
+    action_type: '[No action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: troubadour
     distance: 5 [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura)
     effect: While this performance is active, a target who starts their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) in the area gains a [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to the [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance) they can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) equal to your [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence) score until the end of their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn).
@@ -51,5 +51,5 @@ metadata:
 name: We Can't Be Upstaged!
 target: Self and each ally in the area
 type: feature
-usage: No action
+usage: '[No action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 ```

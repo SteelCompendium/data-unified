@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: censor
 cost: 9 Wrath
 distance: 1 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)
@@ -21,7 +21,7 @@ type: ability
 
 *You channel your god's will to overcome hardship and inflict pain.*
 
-| **Area**       |                          **Maneuver** |
+| **Area**       |                          **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 |----------------|--------------------------------------:|
 | **📏 1 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)** | **🎯 Self and each ally in the area** |
 

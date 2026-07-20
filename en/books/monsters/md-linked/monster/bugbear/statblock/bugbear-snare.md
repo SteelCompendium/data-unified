@@ -32,7 +32,7 @@ with_captain: +3 bonus to speed
 
 > 🗡 **Cut 'Em Low! (Signature Ability)**
 >
-> | **Charge, Melee, Strike, Weapon** |                          **Main action** |
+> | **Charge, Melee, Strike, Weapon** |                          **[Main action](../../../rule/combat/turn.md)** |
 > |-----------------------------------|-----------------------------------------:|
 > | **📏 Melee 1**                    | **🎯 One creature or object per minion** |
 >

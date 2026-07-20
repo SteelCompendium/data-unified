@@ -29,7 +29,7 @@ type: statblock
 
 > 🗡 **Ripper Spear (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](../../../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 3**            | **🎯 Two creatures or objects** |
 >
@@ -43,7 +43,7 @@ type: statblock
 
 > 🗡 **Death Roll (3 [Malice](../../../rule/monster/malice.md))**
 >
-> | **Melee, Strike, Weapon** |                       **Main action** |
+> | **Melee, Strike, Weapon** |                       **[Main action](../../../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------------:|
 > | **📏 Melee 1**            | **🎯 One grabbed creature or object** |
 >
@@ -57,7 +57,7 @@ type: statblock
 
 > 👤 **Trundle**
 >
-> | **-**       | **Maneuver** |
+> | **-**       | **[Maneuver](../../../rule/combat/turn.md)** |
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
@@ -65,7 +65,7 @@ type: statblock
 
 > ❗️ **Swat the Fly**
 >
-> | **Melee**      |                     **Triggered action** |
+> | **Melee**      |                     **[Triggered action](../../../rule/combat/triggered-action.md)** |
 > |----------------|-----------------------------------------:|
 > | **📏 Melee 1** | **🎯 The triggering creature or object** |
 >

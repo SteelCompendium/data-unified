@@ -32,7 +32,7 @@ type: statblock
 
 > 🗡 **Decaying Touch ([Signature Ability](../../../../rule/combat/signature-ability.md))**
 >
-> | **Magic, Melee, Strike** |     **Main action** |
+> | **Magic, Melee, Strike** |     **[Main action](../../../../rule/combat/turn.md)** |
 > |--------------------------|--------------------:|
 > | **📏 Melee 1**           | **🎯 One creature** |
 >
@@ -46,7 +46,7 @@ type: statblock
 
 > 👤 **Hidden Movement**
 >
-> | **-**       | **Maneuver** |
+> | **-**       | **[Maneuver](../../../../rule/combat/turn.md)** |
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >

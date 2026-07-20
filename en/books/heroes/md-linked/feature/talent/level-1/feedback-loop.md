@@ -14,7 +14,7 @@ You have the following ability.
 
 *Creating a brief psychic link between an enemy and their target gives that foe a taste of their own medicine.*
 
-| **Psionic, [Ranged](../../../rule/combat/ranged.md)** |       **Triggered** |
+| **Psionic, [Ranged](../../../rule/combat/ranged.md)** |       **[Triggered](../../../rule/combat/triggered-action.md)** |
 |---------------------|--------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**    | **🎯 One creature** |
 

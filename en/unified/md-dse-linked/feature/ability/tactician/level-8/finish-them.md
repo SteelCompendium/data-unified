@@ -1,5 +1,5 @@
 ---
-action_type: Free triggered
+action_type: Free [triggered](../../../../rule/combat/triggered-action.md)
 class: tactician
 cost: 11 Focus
 cost_amount: "11"
@@ -34,7 +34,7 @@ flavor: You point out an opening to your ally so they can land a killing blow.
 keywords:
     - '[Ranged](../../../../rule/combat/ranged.md)'
 metadata:
-    action_type: Free triggered
+    action_type: Free [triggered](../../../../rule/combat/triggered-action.md)
     class: tactician
     cost: 11 Focus
     distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
@@ -53,5 +53,5 @@ name: Finish Them!
 target: One creature
 trigger: The target is not a leader or solo creature, and becomes [winded](../../../../rule/health/winded.md).
 type: feature
-usage: Free triggered
+usage: Free [triggered](../../../../rule/combat/triggered-action.md)
 ```

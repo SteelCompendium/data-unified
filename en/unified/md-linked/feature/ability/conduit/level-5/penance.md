@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: conduit
 cost: 9 Piety
 distance: 4 [cube](../../../../rule/combat/cube.md) within 10
@@ -22,7 +22,7 @@ type: ability
 
 *"If you won't kneel, the gods will make you."*
 
-| **Area, Magic, [Ranged](../../../../rule/combat/ranged.md)**  |               **Main action** |
+| **Area, Magic, [Ranged](../../../../rule/combat/ranged.md)**  |               **[Main action](../../../../rule/combat/turn.md)** |
 |--------------------------|------------------------------:|
 | **📏 4 [cube](../../../../rule/combat/cube.md) within 10**  | **🎯 Each enemy in the area** |
 

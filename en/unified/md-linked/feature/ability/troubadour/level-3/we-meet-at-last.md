@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](../../../../rule/combat/turn.md)'
 class: troubadour
 cost: 7 Drama
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
@@ -18,7 +18,7 @@ type: ability
 
 *You magically intertwine your fate with another creature—for better or worse.*
 
-| **Magic, [Ranged](../../../../rule/combat/ranged.md)** |        **Maneuver** |
+| **Magic, [Ranged](../../../../rule/combat/ranged.md)** |        **[Maneuver](../../../../rule/combat/turn.md)** |
 |-------------------|--------------------:|
 | **📏 [Ranged](../../../../rule/combat/ranged.md) 10**  | **🎯 One creature** |
 

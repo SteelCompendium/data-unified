@@ -22,30 +22,37 @@ The Rapid-Fire kit is for archers who want to deal maximum damage by shooting as
 
 You wear light armor and wield a bow.
 
-##### Kit Bonuses
-
-**[Stamina](../rule/health/stamina.md) [Bonus](../rule/dice/bonuses-and-penalties.md):** +3 per [echelon](../rule/general/echelon.md)
-
-**[Speed](../rule/character/speed.md) [Bonus](../rule/dice/bonuses-and-penalties.md):** +1
-
-**[Ranged](../rule/combat/ranged.md) Damage [Bonus](../rule/dice/bonuses-and-penalties.md):** +2/+2/+2
-
-**[Ranged](../rule/combat/ranged.md) [Distance](../rule/combat/distance.md) [Bonus](../rule/dice/bonuses-and-penalties.md):** +7
-
-**Disengage [Bonus](../rule/dice/bonuses-and-penalties.md):** +1
-
-##### Signature Ability
-
-###### Two Shot
-
-*When you fire two arrows back-to-back, both hit their mark.*
-
-| **[Ranged](../rule/combat/ranged.md), [Strike](../rule/combat/strike.md), Weapon** |                 **Main action** |
-|----------------------------|--------------------------------:|
-| **📏 [Ranged](../rule/combat/ranged.md) 12**           | **🎯 Two creatures or objects** |
-
-**[Power Roll](../rule/dice/power-roll.md) + [Might](../rule/character/might.md) or [Agility](../rule/character/agility.md):**
-
-- **≤11:** 4 damage
-- **12-16:** 6 damage
-- **17+:** 8 damage
+```ds-feature
+distance: '[Ranged](../rule/combat/ranged.md) 12'
+effects:
+    - roll: Power Roll + [Might](../rule/character/might.md) or [Agility](../rule/character/agility.md)
+      tier1: 4 damage
+      tier2: 6 damage
+      tier3: 8 damage
+feature_type: ability
+flavor: When you fire two arrows back-to-back, both hit their mark.
+keywords:
+    - '[Ranged](../rule/combat/ranged.md)'
+    - '[Strike](../rule/combat/strike.md)'
+    - Weapon
+metadata:
+    action_type: Main action
+    distance: '[Ranged](../rule/combat/ranged.md) 12'
+    flavor: When you fire two arrows back-to-back, both hit their mark.
+    keywords:
+        - '[Ranged](../rule/combat/ranged.md)'
+        - '[Strike](../rule/combat/strike.md)'
+        - Weapon
+    name: Two Shot
+    power_roll_characteristic: '[Might](../rule/character/might.md) or [Agility](../rule/character/agility.md)'
+    subtype: signature
+    target: Two creatures or objects
+    tier1: 4 damage
+    tier2: 6 damage
+    tier3: 8 damage
+    type: ability
+name: Two Shot
+target: Two creatures or objects
+type: feature
+usage: Main action
+```

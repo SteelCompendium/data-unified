@@ -17,9 +17,9 @@
     "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)"
   ],
   "metadata": {
-    "action_type": "Main action",
+    "action_type": "[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)",
     "class": "conduit",
-    "content": "\n*Mystical thorned vines appear at your bidding and bind your foes.*\n\n| **Area, Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)**  |               **Main action** |\n|--------------------------|------------------------------:|\n| **📏 3 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 10**  | **🎯 Each enemy in the area** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition):**\n\n- **≤11:** 2 damage; A \u003c WEAK, [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)\n- **12-16:** 3 damage; A \u003c AVERAGE, [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)\n- **17+:** 7 damage; A \u003c STRONG, [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)",
+    "content": "\n*Mystical thorned vines appear at your bidding and bind your foes.*\n\n| **Area, Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)**  |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|--------------------------|------------------------------:|\n| **📏 3 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 10**  | **🎯 Each enemy in the area** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition):**\n\n- **≤11:** 2 damage; A \u003c WEAK, [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)\n- **12-16:** 3 damage; A \u003c AVERAGE, [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)\n- **17+:** 7 damage; A \u003c STRONG, [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)",
     "distance": "3 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 10",
     "feature_type": "ability",
     "flavor": "Mystical thorned vines appear at your bidding and bind your foes.",
@@ -41,5 +41,5 @@
   "name": "Nature Judges Thee",
   "target": "Each enemy in the area",
   "type": "feature",
-  "usage": "Main action"
+  "usage": "[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)"
 }

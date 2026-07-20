@@ -7,6 +7,7 @@ file_basename: twisted-bengrul
 file_dpath: monster/minion/summoner/demon/statblock
 flavor: The bengrul is an undulating heap of glass and flesh. They shatter pieces of themselves to disrupt senses and inflict grisly wounds on their prey.
 free_strike: 4
+free_strike_damage_type: Psychic
 immunities: []
 intuition: -1
 item_id: twisted-bengrul

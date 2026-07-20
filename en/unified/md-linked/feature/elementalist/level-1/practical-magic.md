@@ -13,7 +13,7 @@ You have the following ability.
 
 *Your mastery of elemental power lets you customize your conjurations.*
 
-| **Magic**              | **Maneuver** |
+| **Magic**              | **[Maneuver](../../../rule/combat/turn.md)** |
 |------------------------|-------------:|
 | **📏 Self; see below** |  **🎯 Self** |
 

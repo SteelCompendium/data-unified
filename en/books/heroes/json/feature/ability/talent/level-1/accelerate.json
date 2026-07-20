@@ -17,9 +17,9 @@
     "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)"
   ],
   "metadata": {
-    "action_type": "Maneuver",
+    "action_type": "[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)",
     "class": "talent",
-    "content": "\n*To your ally, it seems as though the world has slowed down.*\n\n| **Psionic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)** |                **Maneuver** |\n|---------------------|----------------------------:|\n| **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**    | **🎯 Self or one creature** |\n\n**Effect:** The target shifts up to a number of squares equal to your [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) score.\n\n**Spend 2 Clarity:** The target can use a maneuver.",
+    "content": "\n*To your ally, it seems as though the world has slowed down.*\n\n| **Psionic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)** |                **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|---------------------|----------------------------:|\n| **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**    | **🎯 Self or one creature** |\n\n**Effect:** The target shifts up to a number of squares equal to your [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) score.\n\n**Spend 2 Clarity:** The target can use a maneuver.",
     "distance": "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10",
     "feature_type": "ability",
     "flavor": "To your ally, it seems as though the world has slowed down.",
@@ -40,5 +40,5 @@
   "name": "Accelerate",
   "target": "Self or one creature",
   "type": "feature",
-  "usage": "Maneuver"
+  "usage": "[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)"
 }

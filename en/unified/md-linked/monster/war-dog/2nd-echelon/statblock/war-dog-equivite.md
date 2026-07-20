@@ -29,7 +29,7 @@ type: statblock
 
 > 🗡 **Fuse-Iron Lance ([Signature Ability](../../../../rule/combat/signature-ability.md))**
 >
-> | **Charge, Melee, Strike, Weapon** |               **Main action** |
+> | **Charge, Melee, Strike, Weapon** |               **[Main action](../../../../rule/combat/turn.md)** |
 > |-----------------------------------|------------------------------:|
 > | **📏 Melee 2**                    | **🎯 One creature or object** |
 >
@@ -45,7 +45,7 @@ type: statblock
 
 > 🗡 **Blazing Charge**
 >
-> | **Melee, Weapon**         |   **Maneuver** |
+> | **Melee, Weapon**         |   **[Maneuver](../../../../rule/combat/turn.md)** |
 > |---------------------------|---------------:|
 > | **📏 Special; see below** | **🎯 Special** |
 >

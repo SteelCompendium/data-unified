@@ -32,7 +32,7 @@ type: statblock
 
 > 🗡 **Tonguelash (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |               **Main action** |
+> | **Melee, Strike, Weapon** |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |---------------------------|------------------------------:|
 > | **📏 Melee 6**            | **🎯 One creature or object** |
 >
@@ -46,7 +46,7 @@ type: statblock
 
 > 👤 **Hop To It (2 Malice)**
 >
-> | **-**       | **Free maneuver** |
+> | **-**       | **[Free maneuver](scc.v1:mcdm.heroes.v1/rule.combat/free-maneuver)** |
 > |-------------|------------------:|
 > | **📏 Self** |       **🎯 Self** |
 >

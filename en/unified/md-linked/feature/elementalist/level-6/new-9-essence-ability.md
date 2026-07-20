@@ -13,7 +13,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *They shine vibrantly, a beautiful diamond in the night sky.*
 
-| **Fire, Green, Magic, [Ranged](../../../rule/combat/ranged.md), Void** |            **Maneuver** |
+| **Fire, Green, Magic, [Ranged](../../../rule/combat/ranged.md), Void** |            **[Maneuver](../../../rule/combat/turn.md)** |
 |--------------------------------------|------------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**                     | **🎯 Self or one ally** |
 
@@ -26,7 +26,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *Their body swells with lava, mud, and might, towering over their enemies.*
 
-| **Earth, Fire, Green, Magic, [Ranged](../../../rule/combat/ranged.md)** |            **Maneuver** |
+| **Earth, Fire, Green, Magic, [Ranged](../../../rule/combat/ranged.md)** |            **[Maneuver](../../../rule/combat/turn.md)** |
 |---------------------------------------|------------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**                      | **🎯 Self or one ally** |
 
@@ -45,7 +45,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *You [teleport](../../../movement/teleport.md) the target into the air and let the ground and the elemental force of fire do the rest.*
 
-| **Earth, Fire, Magic, [Ranged](../../../rule/combat/ranged.md), Void** |               **Main action** |
+| **Earth, Fire, Magic, [Ranged](../../../rule/combat/ranged.md), Void** |               **[Main action](../../../rule/combat/turn.md)** |
 |--------------------------------------|------------------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**                     | **🎯 One creature or object** |
 
@@ -62,7 +62,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *You create a terrarium that spans from canopy above to underbrush below.*
 
-| **Area, Earth, Green, Magic, Void** | **Main action** |
+| **Area, Earth, Green, Magic, Void** | **[Main action](../../../rule/combat/turn.md)** |
 |-------------------------------------|----------------:|
 | **📏 4 [burst](../../../rule/combat/burst.md)**                      |  **🎯 Special** |
 

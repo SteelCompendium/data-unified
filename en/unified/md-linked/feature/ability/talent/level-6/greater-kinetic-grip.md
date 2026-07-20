@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: talent
 cost: 9 Clarity
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
@@ -24,7 +24,7 @@ type: ability
 
 *You raise the target into the air without breaking a sweat.*
 
-| **Psionic, [Ranged](../../../../rule/combat/ranged.md)**, **Strike, Telekinesis** |               **Main action** |
+| **Psionic, [Ranged](../../../../rule/combat/ranged.md)**, **Strike, Telekinesis** |               **[Main action](../../../../rule/combat/turn.md)** |
 |----------------------------------------------|------------------------------:|
 | **📏 [Ranged](../../../../rule/combat/ranged.md) 10**                             | **🎯 One creature or object** |
 

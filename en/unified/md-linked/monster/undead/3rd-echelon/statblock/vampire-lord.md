@@ -32,7 +32,7 @@ type: statblock
 
 > 🗡 **Crimson Embrace ([Signature Ability](../../../../rule/combat/signature-ability.md))**
 >
-> | **Melee, Strike, Weapon** |     **Main action** |
+> | **Melee, Strike, Weapon** |     **[Main action](../../../../rule/combat/turn.md)** |
 > |---------------------------|--------------------:|
 > | **📏 Melee 1**            | **🎯 One creature** |
 >
@@ -48,7 +48,7 @@ type: statblock
 
 > 🏹 **Arise, My Children (2 [Malice](../../../../rule/monster/malice.md))**
 >
-> | **Ranged**       |   **Maneuver** |
+> | **Ranged**       |   **[Maneuver](../../../../rule/combat/turn.md)** |
 > |------------------|---------------:|
 > | **📏 Ranged 10** | **🎯 Special** |
 >

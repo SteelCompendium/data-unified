@@ -30,7 +30,7 @@ type: statblock
 
 > 🏹 **The Forest's Embrace (Signature Ability)**
 >
-> | **Magic, Ranged, Strike** |               **Main action** |
+> | **Magic, Ranged, Strike** |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |---------------------------|------------------------------:|
 > | **📏 Ranged 10**          | **🎯 One creature or object** |
 >
@@ -44,7 +44,7 @@ type: statblock
 
 > 🏹 **The Natural Cycle (3 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
-> | **Magic, Ranged, Strike** |         **Maneuver** |
+> | **Magic, Ranged, Strike** |         **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |---------------------------|---------------------:|
 > | **📏 Ranged 10**          | **🎯 Two creatures** |
 >
@@ -58,7 +58,7 @@ type: statblock
 
 > ❗️ **Foreseen Punishment**
 >
-> | **Ranged**      |      **Free triggered action** |
+> | **Ranged**      |      **Free [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |
 > |-----------------|-------------------------------:|
 > | **📏 Ranged 5** | **🎯 The triggering creature** |
 >

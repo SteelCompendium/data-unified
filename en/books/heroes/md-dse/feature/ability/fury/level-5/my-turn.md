@@ -1,5 +1,5 @@
 ---
-action_type: Free triggered
+action_type: Free [triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)
 class: fury
 cost: 9 Ferocity
 cost_amount: "9"
@@ -46,7 +46,7 @@ keywords:
     - '[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)'
     - Weapon
 metadata:
-    action_type: Free triggered
+    action_type: Free [triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)
     class: fury
     cost: 9 Ferocity
     distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
@@ -71,5 +71,5 @@ name: My Turn!
 target: The triggering creature
 trigger: A creature causes you to be [winded](scc.v1:mcdm.heroes.v1/rule.health/winded) or [dying](scc.v1:mcdm.heroes.v1/rule.health/dying), or damages you while you are [winded](scc.v1:mcdm.heroes.v1/rule.health/winded) or [dying](scc.v1:mcdm.heroes.v1/rule.health/dying).
 type: feature
-usage: Free triggered
+usage: Free [triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)
 ```

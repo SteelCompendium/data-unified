@@ -13,7 +13,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *Your flames dance from kindling to kindling to kindling.*
 
-| **Fire, Magic, [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md)** |               **Main action** |
+| **Fire, Magic, [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md)** |               **[Main action](../../../rule/combat/turn.md)** |
 |---------------------------------|------------------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**                | **🎯 One creature or object** |
 
@@ -30,7 +30,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *Dirt and debris swirl into a dark, pulsing hurricane.*
 
-| **Area, Earth, Magic, [Ranged](../../../rule/combat/ranged.md)** |               **Main action** |
+| **Area, Earth, Magic, [Ranged](../../../rule/combat/ranged.md)** |               **[Main action](../../../rule/combat/turn.md)** |
 |--------------------------------|------------------------------:|
 | **📏 4 [cube](../../../rule/combat/cube.md) within 10**        | **🎯 Each enemy in the area** |
 
@@ -49,7 +49,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *You rip an enemy's world in twain.*
 
-| **Magic, [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md), Void** |               **Main action** |
+| **Magic, [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md), Void** |               **[Main action](../../../rule/combat/turn.md)** |
 |---------------------------------|------------------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**                | **🎯 One creature or object** |
 
@@ -64,7 +64,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *Threads you've been weaving through your adventures create a vibrant, pearlescent web.*
 
-| **Area, Green, Magic, [Ranged](../../../rule/combat/ranged.md)** |               **Main action** |
+| **Area, Green, Magic, [Ranged](../../../rule/combat/ranged.md)** |               **[Main action](../../../rule/combat/turn.md)** |
 |--------------------------------|------------------------------:|
 | **📏 4 [cube](../../../rule/combat/cube.md) within 10**        | **🎯 Each enemy in the area** |
 

@@ -3,6 +3,7 @@
   "echelon": "3",
   "effect": "When you drink this tonic as a maneuver, you feel a surge of physical and spiritual immunity. You can immediately end up to three [conditions](scc.v1:mcdm.heroes.v1/rule.combat/condition) or effects affecting you. Additionally, until the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), you can ignore any effect that would last until the end of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) or be ended by a [saving throw](scc.v1:mcdm.heroes.v1/rule.general/saving-throw).",
   "flavor": "This thick purple liquid has a bitter scent that lingers.",
+  "item_prerequisite": "An ounce of troll's blood, raw honey",
   "keywords": [
     "Potion",
     "Psionic"
@@ -10,6 +11,7 @@
   "name": "Wellness Tonic",
   "project_goal": "180",
   "project_roll_characteristic": "[Might](scc.v1:mcdm.heroes.v1/rule.character/might) or [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)",
+  "project_source": "Texts or lore in Variac",
   "scc": "mcdm.heroes.v1/treasure.3rd-echelon.consumable/wellness-tonic",
   "treasure_type": "consumable",
   "type": "treasure"

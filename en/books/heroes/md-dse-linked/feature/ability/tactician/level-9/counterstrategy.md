@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: tactician
 cost: 11 Focus
 cost_amount: "11"
@@ -31,7 +31,7 @@ feature_type: ability
 flavor: I've identified a way to negate their strengths.
 keywords: []
 metadata:
-    action_type: Main action
+    action_type: '[Main action](../../../../rule/combat/turn.md)'
     class: tactician
     cost: 11 Focus
     distance: Self
@@ -47,5 +47,5 @@ metadata:
 name: Counterstrategy
 target: Self
 type: feature
-usage: Main action
+usage: '[Main action](../../../../rule/combat/turn.md)'
 ```

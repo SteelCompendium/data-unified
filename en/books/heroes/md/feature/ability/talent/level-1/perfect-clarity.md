@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: talent
 cost: 5 Clarity
 distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
@@ -19,7 +19,7 @@ type: ability
 
 *You clear the mind of nothing but the goal.*
 
-| **Psionic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged), Telepathy** |            **Maneuver** |
+| **Psionic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged), Telepathy** |            **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 |--------------------------------|------------------------:|
 | **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**               | **🎯 Self or one ally** |
 

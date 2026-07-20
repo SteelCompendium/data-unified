@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: censor
 cost: 9 Wrath
 distance: 3 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)
@@ -22,7 +22,7 @@ type: ability
 
 *You terrify your enemies into retreating, creating chaos in their ranks.*
 
-| **Area, Magic** |               **Main action** |
+| **Area, Magic** |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 |-----------------|------------------------------:|
 | **📏 3 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)**  | **🎯 Each enemy in the area** |
 

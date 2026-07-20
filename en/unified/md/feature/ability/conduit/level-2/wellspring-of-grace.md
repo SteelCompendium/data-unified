@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: conduit
 cost: 5 Piety
 distance: 3 [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura)
@@ -19,7 +19,7 @@ type: ability
 
 *A holy light is emitted from your body, healing your allies.*
 
-| **Area, Magic**  |              **Main action** |
+| **Area, Magic**  |              **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 |------------------|-----------------------------:|
 | **📏 3 [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura)**    | **🎯 Each ally in the area** |
 

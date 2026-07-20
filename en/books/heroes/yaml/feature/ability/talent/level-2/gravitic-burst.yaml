@@ -12,9 +12,9 @@ keywords:
     - Psionic
     - Telekinesis
 metadata:
-    action_type: Main action
+    action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: talent
-    content: "\n*Everyone get away from me!*\n\n| **Area, Psionic, Telekinesis** |               **Main action** |\n|--------------------------------|------------------------------:|\n| **\U0001F4CF 1 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)**                 | **\U0001F3AF Each enemy in the area** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason):**\n\n- **≤11:** 3 damage; vertical [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2\n- **12-16:** 6 damage; vertical [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 4\n- **17+:** 9 damage; vertical [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 6\n\n**Strained:** The size of the [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst) increases by 1, and you are [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) until the end of your [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn)."
+    content: "\n*Everyone get away from me!*\n\n| **Area, Psionic, Telekinesis** |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|--------------------------------|------------------------------:|\n| **\U0001F4CF 1 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)**                 | **\U0001F3AF Each enemy in the area** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason):**\n\n- **≤11:** 3 damage; vertical [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2\n- **12-16:** 6 damage; vertical [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 4\n- **17+:** 9 damage; vertical [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 6\n\n**Strained:** The size of the [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst) increases by 1, and you are [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) until the end of your [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn)."
     distance: 1 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)
     feature_type: ability
     flavor: Everyone get away from me!
@@ -33,4 +33,4 @@ metadata:
 name: Gravitic Burst
 target: Each enemy in the area
 type: feature
-usage: Main action
+usage: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'

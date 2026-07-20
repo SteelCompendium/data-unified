@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: talent
 cost: 7 Clarity
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
@@ -24,7 +24,7 @@ type: ability
 
 *You blast their soul out of their body, leaving it to helplessly float back to a weakened husk.*
 
-| **Animapathy, Psionic, [Ranged](../../../../rule/combat/ranged.md)**, **Strike** |     **Main action** |
+| **Animapathy, Psionic, [Ranged](../../../../rule/combat/ranged.md)**, **Strike** |     **[Main action](../../../../rule/combat/turn.md)** |
 |---------------------------------------------|--------------------:|
 | **📏 [Ranged](../../../../rule/combat/ranged.md) 10**                            | **🎯 One creature** |
 

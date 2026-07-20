@@ -33,7 +33,7 @@ type: statblock
 
 > 🗡 **Tower Shield Smash (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |               **Main action** |
+> | **Melee, Strike, Weapon** |               **[Main action](../../../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Melee 2**            | **🎯 One creature or object** |
 >
@@ -47,7 +47,7 @@ type: statblock
 
 > 🔳 **Thunder Rush (3 [Malice](../../../rule/monster/malice.md))**
 >
-> | **Area, Charge, Weapon**   |                         **Main action** |
+> | **Area, Charge, Weapon**   |                         **[Main action](../../../rule/combat/turn.md)** |
 > |----------------------------|----------------------------------------:|
 > | **📏 1 x 2 line within 1** | **🎯 Each enemy or object in the area** |
 >

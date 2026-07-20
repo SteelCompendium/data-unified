@@ -14,7 +14,7 @@ You have the following ability.
 
 *An ally gains the benefit of your intellect.*
 
-| **Psionic, [Ranged](../../../rule/combat/ranged.md)** |                  **Maneuver** |
+| **Psionic, [Ranged](../../../rule/combat/ranged.md)** |                  **[Maneuver](../../../rule/combat/turn.md)** |
 |---------------------|------------------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**    | **🎯 One creature or object** |
 

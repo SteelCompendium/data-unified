@@ -14,9 +14,9 @@
     "Magic"
   ],
   "metadata": {
-    "action_type": "Main action",
+    "action_type": "[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)",
     "class": "conduit",
-    "content": "\n*With a gesture, you restore your health and that of your allies.*\n\n| **Area, Magic**  |                       **Main action** |\n|------------------|--------------------------------------:|\n| **📏 4 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)**   | **🎯 Self and each ally in the area** |\n\n**Effect:** Each target can spend any number of [Recoveries](scc.v1:mcdm.heroes.v1/rule.health/recoveries). Additionally, each target can end one effect on themself that is ended by a [saving throw](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) or that ends at the end of their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), or they can stand up if [prone](scc.v1:mcdm.heroes.v1/condition/prone).",
+    "content": "\n*With a gesture, you restore your health and that of your allies.*\n\n| **Area, Magic**  |                       **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|------------------|--------------------------------------:|\n| **📏 4 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)**   | **🎯 Self and each ally in the area** |\n\n**Effect:** Each target can spend any number of [Recoveries](scc.v1:mcdm.heroes.v1/rule.health/recoveries). Additionally, each target can end one effect on themself that is ended by a [saving throw](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) or that ends at the end of their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), or they can stand up if [prone](scc.v1:mcdm.heroes.v1/condition/prone).",
     "distance": "4 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)",
     "feature_type": "ability",
     "flavor": "With a gesture, you restore your health and that of your allies.",
@@ -37,5 +37,5 @@
   "name": "Revitalizing Grace",
   "target": "Self and each ally in the area",
   "type": "feature",
-  "usage": "Main action"
+  "usage": "[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)"
 }

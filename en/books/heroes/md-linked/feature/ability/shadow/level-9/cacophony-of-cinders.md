@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: shadow
 cost: 11 Insight
 distance: Self; see below
@@ -24,7 +24,7 @@ type: ability
 
 *You tumble through the battle, stabbing foes and [teleporting](../../../../movement/teleport.md) allies.*
 
-| **Magic, [Melee](../../../../rule/combat/melee.md), Weapon** | **Main action** |
+| **Magic, [Melee](../../../../rule/combat/melee.md), Weapon** | **[Main action](../../../../rule/combat/turn.md)** |
 |--------------------------|----------------:|
 | **📏 Self; see below**   |     **🎯 Self** |
 

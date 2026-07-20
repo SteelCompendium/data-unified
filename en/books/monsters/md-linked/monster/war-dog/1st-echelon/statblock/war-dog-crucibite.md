@@ -32,7 +32,7 @@ type: statblock
 
 > 🔳 **Flamebelcher ([Signature Ability](../../../../rule/combat/signature-ability.md))**
 >
-> | **Area, Weapon**           |                             **Main action** |
+> | **Area, Weapon**           |                             **[Main action](../../../../rule/combat/turn.md)** |
 > |----------------------------|--------------------------------------------:|
 > | **📏 5 x 1 line within 1** | **🎯 Each creature and object in the area** |
 >
@@ -48,7 +48,7 @@ type: statblock
 
 > 🏹 **Posthumous Promotion**
 >
-> | **Magic, Ranged** |       **Maneuver** |
+> | **Magic, Ranged** |       **[Maneuver](../../../../rule/combat/turn.md)** |
 > |-------------------|-------------------:|
 > | **📏 Ranged 10**  | **🎯 One war dog** |
 >

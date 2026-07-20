@@ -6,12 +6,14 @@ file_dpath: treasure/3rd-echelon/consumable
 flavor: Liquid constantly swirls within a cut glass bottle that is ice cold to the touch.
 item_id: bottled-paradox
 item_name: Bottled Paradox
+item_prerequisite: A month's lifespan from the creator or another willing creature, ground sapphire
 keywords:
     - Magic
     - Potion
 name: Bottled Paradox
 project_goal: "180"
 project_roll_characteristic: '[Reason](../../../rule/character/reason.md) or [Intuition](../../../rule/character/intuition.md)'
+project_source: Texts or lore in Caelian
 scc: mcdm.heroes.v1/treasure.3rd-echelon.consumable/bottled-paradox
 source: mcdm.heroes.v1
 treasure_type: consumable

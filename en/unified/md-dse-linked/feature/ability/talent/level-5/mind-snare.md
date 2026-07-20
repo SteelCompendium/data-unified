@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: talent
 cost: 9 Clarity
 cost_amount: "9"
@@ -46,7 +46,7 @@ keywords:
     - '[Strike](../../../../rule/combat/strike.md)'
     - Telepathy
 metadata:
-    action_type: Main action
+    action_type: '[Main action](../../../../rule/combat/turn.md)'
     class: talent
     cost: 9 Clarity
     distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
@@ -69,5 +69,5 @@ metadata:
 name: Mind Snare
 target: One creature
 type: feature
-usage: Main action
+usage: '[Main action](../../../../rule/combat/turn.md)'
 ```

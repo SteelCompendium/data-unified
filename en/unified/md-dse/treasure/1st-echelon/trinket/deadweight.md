@@ -6,11 +6,13 @@ file_dpath: treasure/1st-echelon/trinket
 flavor: Though this humanoid femur is coated in lead, it feels impossibly heavy for its size.
 item_id: deadweight
 item_name: Deadweight
+item_prerequisite: One humanoid femur, one bar of lead laced with starmetal
 keywords:
     - Magic
 name: Deadweight
 project_goal: "150"
 project_roll_characteristic: '[Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) or [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)'
+project_source: Texts or lore in Caelian
 scc: mcdm.heroes.v1/treasure.1st-echelon.trinket/deadweight
 source: mcdm.heroes.v1
 treasure_type: trinket

@@ -31,7 +31,7 @@ with_captain: +1 damage bonus to strikes
 
 > ⚔️ **Dagger Dance ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
-> | **Melee, Ranged, Strike, Weapon** |                **Main action** |
+> | **Melee, Ranged, Strike, Weapon** |                **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-----------------------------------|-------------------------------:|
 > | **📏 Melee 1 or ranged 5**        | **🎯 One creature per minion** |
 >
@@ -45,7 +45,7 @@ with_captain: +1 damage bonus to strikes
 
 > ❗️ **Ready Rodent**
 >
-> | **Melee, Weapon** | **Triggered action** |
+> | **Melee, Weapon** | **[Triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |
 > |-------------------|---------------------:|
 > | **📏 Melee 1**    |  **🎯 One creature** |
 >

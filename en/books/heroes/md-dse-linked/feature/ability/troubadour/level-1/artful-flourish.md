@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: troubadour
 distance: '[Melee](../../../../rule/combat/melee.md) 1'
 effect: You can [shift](../../../../movement/shifting.md) up to 3 squares.
@@ -44,7 +44,7 @@ keywords:
     - '[Strike](../../../../rule/combat/strike.md)'
     - Weapon
 metadata:
-    action_type: Main action
+    action_type: '[Main action](../../../../rule/combat/turn.md)'
     class: troubadour
     distance: '[Melee](../../../../rule/combat/melee.md) 1'
     effect: You can [shift](../../../../movement/shifting.md) up to 3 squares.
@@ -67,5 +67,5 @@ metadata:
 name: Artful Flourish
 target: Two creatures or objects
 type: feature
-usage: Main action
+usage: '[Main action](../../../../rule/combat/turn.md)'
 ```

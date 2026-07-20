@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: "null"
 cost: 9 Discipline
 distance: 10 wall within 10
@@ -20,7 +20,7 @@ type: ability
 
 *You create a [wall of ice](scc.v1:mcdm.heroes.v1/feature.ability.null.level-6/wall-of-ice).*
 
-| **Area, Psionic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)** | **Main action** |
+| **Area, Psionic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)** | **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 |---------------------------|----------------:|
 | **📏 10 wall within 10**  |  **🎯 Special** |
 

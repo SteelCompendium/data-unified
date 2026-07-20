@@ -8,9 +8,9 @@ flavor: Together we are invincible!
 keywords:
     - Area
 metadata:
-    action_type: Maneuver
+    action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: tactician
-    content: "\n*Together we are invincible!*\n\n| **Area**       |                          **Maneuver** |\n|----------------|--------------------------------------:|\n| **\U0001F4CF 1 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)** | **\U0001F3AF Self and each ally in the area** |\n\n**Effect:** Until the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), each target has a [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to [stability](scc.v1:mcdm.heroes.v1/rule.character/stability) equal to your [Might](scc.v1:mcdm.heroes.v1/rule.character/might) score. Additionally, each target gains 2 [surges](scc.v1:mcdm.heroes.v1/rule.resource/surge)."
+    content: "\n*Together we are invincible!*\n\n| **Area**       |                          **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|----------------|--------------------------------------:|\n| **\U0001F4CF 1 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)** | **\U0001F3AF Self and each ally in the area** |\n\n**Effect:** Until the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), each target has a [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to [stability](scc.v1:mcdm.heroes.v1/rule.character/stability) equal to your [Might](scc.v1:mcdm.heroes.v1/rule.character/might) score. Additionally, each target gains 2 [surges](scc.v1:mcdm.heroes.v1/rule.resource/surge)."
     distance: 1 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)
     feature_type: ability
     flavor: Together we are invincible!
@@ -27,4 +27,4 @@ metadata:
 name: Squad! On Me!
 target: Self and each ally in the area
 type: feature
-usage: Maneuver
+usage: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'

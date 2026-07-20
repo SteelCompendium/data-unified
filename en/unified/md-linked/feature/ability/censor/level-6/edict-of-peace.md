@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](../../../../rule/combat/turn.md)'
 class: censor
 cost: 9 Wrath
 distance: 3 [aura](../../../../rule/combat/aura.md)
@@ -19,7 +19,7 @@ type: ability
 
 *You anticipate your foes' moves and deny them.*
 
-| **Area, Magic** |                  **Maneuver** |
+| **Area, Magic** |                  **[Maneuver](../../../../rule/combat/turn.md)** |
 |-----------------|------------------------------:|
 | **📏 3 [aura](../../../../rule/combat/aura.md)**   | **🎯 Each enemy in the area** |
 

@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](../../../../rule/combat/turn.md)'
 class: conduit
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
 effect: The target can spend a [Recovery](../../../../rule/health/recoveries.md).
@@ -33,7 +33,7 @@ keywords:
     - Magic
     - '[Ranged](../../../../rule/combat/ranged.md)'
 metadata:
-    action_type: Maneuver
+    action_type: '[Maneuver](../../../../rule/combat/turn.md)'
     class: conduit
     distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
     effect: The target can spend a [Recovery](../../../../rule/health/recoveries.md).
@@ -50,5 +50,5 @@ metadata:
 name: Healing Grace
 target: Self or one ally
 type: feature
-usage: Maneuver
+usage: '[Maneuver](../../../../rule/combat/turn.md)'
 ```

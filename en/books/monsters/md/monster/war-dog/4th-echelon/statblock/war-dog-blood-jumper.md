@@ -32,7 +32,7 @@ with_captain: +3 bonus to speed
 
 > 🗡 **Jumplance ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
-> | **Charge, Melee, Strike, Weapon** |                          **Main action** |
+> | **Charge, Melee, Strike, Weapon** |                          **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-----------------------------------|-----------------------------------------:|
 > | **📏 Melee 1**                    | **🎯 One creature or object per minion** |
 >

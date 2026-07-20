@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: troubadour
 distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
 effect: You can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to 3 squares.
@@ -44,7 +44,7 @@ keywords:
     - '[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)'
     - Weapon
 metadata:
-    action_type: Main action
+    action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: troubadour
     distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
     effect: You can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to 3 squares.
@@ -67,5 +67,5 @@ metadata:
 name: Artful Flourish
 target: Two creatures or objects
 type: feature
-usage: Main action
+usage: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 ```

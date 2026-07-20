@@ -15,9 +15,9 @@
     "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)"
   ],
   "metadata": {
-    "action_type": "Maneuver",
+    "action_type": "[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)",
     "class": "talent",
-    "content": "\n*The target's skin turns to hard, dark metal, impenetrable and dense.*\n\n| **Metamorphosis, Psionic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)** |            **Maneuver** |\n|------------------------------------|------------------------:|\n| **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**                   | **🎯 Self or one ally** |\n\n**Effect:** The target's [stability](scc.v1:mcdm.heroes.v1/rule.character/stability) increases by an amount equal to your [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) score, and they gain 10 [temporary Stamina](scc.v1:mcdm.heroes.v1/rule.health/temporary-stamina) and 2 [surges](scc.v1:mcdm.heroes.v1/rule.resource/surge). This [stability](scc.v1:mcdm.heroes.v1/rule.character/stability) increase lasts until the target no longer has [temporary Stamina](scc.v1:mcdm.heroes.v1/rule.health/temporary-stamina) from this ability.\n\n**Strained:** You can't use maneuvers (save ends).",
+    "content": "\n*The target's skin turns to hard, dark metal, impenetrable and dense.*\n\n| **Metamorphosis, Psionic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)** |            **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|------------------------------------|------------------------:|\n| **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**                   | **🎯 Self or one ally** |\n\n**Effect:** The target's [stability](scc.v1:mcdm.heroes.v1/rule.character/stability) increases by an amount equal to your [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) score, and they gain 10 [temporary Stamina](scc.v1:mcdm.heroes.v1/rule.health/temporary-stamina) and 2 [surges](scc.v1:mcdm.heroes.v1/rule.resource/surge). This [stability](scc.v1:mcdm.heroes.v1/rule.character/stability) increase lasts until the target no longer has [temporary Stamina](scc.v1:mcdm.heroes.v1/rule.health/temporary-stamina) from this ability.\n\n**Strained:** You can't use maneuvers (save ends).",
     "distance": "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10",
     "feature_type": "ability",
     "flavor": "The target's skin turns to hard, dark metal, impenetrable and dense.",
@@ -38,5 +38,5 @@
   "name": "Iron",
   "target": "Self or one ally",
   "type": "feature",
-  "usage": "Maneuver"
+  "usage": "[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)"
 }

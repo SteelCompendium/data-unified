@@ -17,7 +17,7 @@ Choose one [signature ability](../../../rule/combat/signature-ability.md) from t
 
 *Your precise strikes let your allies take advantage of a target's agony.*
 
-| **[Melee](../../../rule/combat/melee.md), [Strike](../../../rule/combat/strike.md), Weapon** |     **Main action** |
+| **[Melee](../../../rule/combat/melee.md), [Strike](../../../rule/combat/strike.md), Weapon** |     **[Main action](../../../rule/combat/turn.md)** |
 |---------------------------|--------------------:|
 | **📏 [Melee](../../../rule/combat/melee.md) 1**            | **🎯 One creature** |
 
@@ -34,7 +34,7 @@ Choose one [signature ability](../../../rule/combat/signature-ability.md) from t
 
 *"It's better, just you and me. Isn't it?"*
 
-| **[Melee](../../../rule/combat/melee.md), [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md), Weapon** |     **Main action** |
+| **[Melee](../../../rule/combat/melee.md), [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md), Weapon** |     **[Main action](../../../rule/combat/turn.md)** |
 |-----------------------------------|--------------------:|
 | **📏 [Melee](../../../rule/combat/melee.md) 1 or [ranged](../../../rule/combat/ranged.md) 5**        | **🎯 One creature** |
 
@@ -51,7 +51,7 @@ Choose one [signature ability](../../../rule/combat/signature-ability.md) from t
 
 *You attack an enemy as an ally exposes their weakness.*
 
-| **[Melee](../../../rule/combat/melee.md), [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md), Weapon** |               **Main action** |
+| **[Melee](../../../rule/combat/melee.md), [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md), Weapon** |               **[Main action](../../../rule/combat/turn.md)** |
 |-----------------------------------|------------------------------:|
 | **📏 [Melee](../../../rule/combat/melee.md) 1 or [ranged](../../../rule/combat/ranged.md) 5**        | **🎯 One creature or object** |
 
@@ -68,7 +68,7 @@ Choose one [signature ability](../../../rule/combat/signature-ability.md) from t
 
 *They can't watch both of you at once.*
 
-| **[Melee](../../../rule/combat/melee.md), [Strike](../../../rule/combat/strike.md), Weapon** |     **Main action** |
+| **[Melee](../../../rule/combat/melee.md), [Strike](../../../rule/combat/strike.md), Weapon** |     **[Main action](../../../rule/combat/turn.md)** |
 |---------------------------|--------------------:|
 | **📏 [Melee](../../../rule/combat/melee.md) 1**            | **🎯 One creature** |
 
@@ -93,7 +93,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *Your attack leaves them reeling, allowing you to follow up.*
 
-| **[Melee](../../../rule/combat/melee.md), [Strike](../../../rule/combat/strike.md), Weapon** |     **Main action** |
+| **[Melee](../../../rule/combat/melee.md), [Strike](../../../rule/combat/strike.md), Weapon** |     **[Main action](../../../rule/combat/turn.md)** |
 |---------------------------|--------------------:|
 | **📏 [Melee](../../../rule/combat/melee.md) 1**            | **🎯 One creature** |
 
@@ -110,7 +110,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *You leave your foe bleeding out after a devastating attack.*
 
-| **[Melee](../../../rule/combat/melee.md), [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md), Weapon** |     **Main action** |
+| **[Melee](../../../rule/combat/melee.md), [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md), Weapon** |     **[Main action](../../../rule/combat/turn.md)** |
 |-----------------------------------|--------------------:|
 | **📏 [Melee](../../../rule/combat/melee.md) 1 or [ranged](../../../rule/combat/ranged.md) 5**        | **🎯 One creature** |
 
@@ -125,7 +125,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *Move unexpectedly, strike fast, and be gone!*
 
-| **[Melee](../../../rule/combat/melee.md), [Strike](../../../rule/combat/strike.md), Weapon** |     **Main action** |
+| **[Melee](../../../rule/combat/melee.md), [Strike](../../../rule/combat/strike.md), Weapon** |     **[Main action](../../../rule/combat/turn.md)** |
 |---------------------------|--------------------:|
 | **📏 [Melee](../../../rule/combat/melee.md) 1**            | **🎯 One creature** |
 
@@ -142,7 +142,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *A bargain.*
 
-| **[Melee](../../../rule/combat/melee.md), [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md), Weapon** |                 **Main action** |
+| **[Melee](../../../rule/combat/melee.md), [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md), Weapon** |                 **[Main action](../../../rule/combat/turn.md)** |
 |-----------------------------------|--------------------------------:|
 | **📏 [Melee](../../../rule/combat/melee.md) 1 or [ranged](../../../rule/combat/ranged.md) 5**        | **🎯 Two creatures or objects** |
 
@@ -161,7 +161,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *Your blade might be the last thing they see.*
 
-| **[Melee](../../../rule/combat/melee.md), [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md), Weapon** |     **Main action** |
+| **[Melee](../../../rule/combat/melee.md), [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md), Weapon** |     **[Main action](../../../rule/combat/turn.md)** |
 |-----------------------------------|--------------------:|
 | **📏 [Melee](../../../rule/combat/melee.md) 1 or [ranged](../../../rule/combat/ranged.md) 5**        | **🎯 One creature** |
 
@@ -176,7 +176,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *As you move across the battlefield, every foe within reach feels your wrath.*
 
-| **[Melee](../../../rule/combat/melee.md), Weapon**      | **Main action** |
+| **[Melee](../../../rule/combat/melee.md), Weapon**      | **[Main action](../../../rule/combat/turn.md)** |
 |------------------------|----------------:|
 | **📏 Self; see below** |     **🎯 Self** |
 
@@ -193,7 +193,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *Your friends will thank you.*
 
-| **[Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md), Weapon** |     **Main action** |
+| **[Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md), Weapon** |     **[Main action](../../../rule/combat/turn.md)** |
 |----------------------------|--------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 5**            | **🎯 One creature** |
 
@@ -208,7 +208,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *They have no idea what the college taught you.*
 
-| **Magic, [Melee](../../../rule/combat/melee.md), [Ranged](../../../rule/combat/ranged.md)** | **Main action** |
+| **Magic, [Melee](../../../rule/combat/melee.md), [Ranged](../../../rule/combat/ranged.md)** | **[Main action](../../../rule/combat/turn.md)** |
 |------------------------|----------------:|
 | **📏 Self; see below** |     **🎯 Self** |
 

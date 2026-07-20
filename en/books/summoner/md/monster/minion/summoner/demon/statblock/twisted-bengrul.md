@@ -3,6 +3,7 @@ agility: 1
 cost: 3 essence for two minions
 flavor: The bengrul is an undulating heap of glass and flesh. They shatter pieces of themselves to disrupt senses and inflict grisly wounds on their prey.
 free_strike: 4
+free_strike_damage_type: Psychic
 immunities: []
 intuition: -1
 keywords:
@@ -35,7 +36,7 @@ The bengrul is an undulating heap of glass and flesh. They shatter pieces of the
 
 > 🏹 **Mind Twist 2d10 + R (Signature Ability)**
 >
-> | **Magic, Ranged, Strike** | **Main action** |
+> | **Magic, Ranged, Strike** | **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |---------------------------|----------------:|
 > | **📏 Ranged 5** | **🎯 One creature or object per minion** |
 >

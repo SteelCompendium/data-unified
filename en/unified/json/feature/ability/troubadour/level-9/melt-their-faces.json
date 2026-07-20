@@ -22,9 +22,9 @@
     "[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)"
   ],
   "metadata": {
-    "action_type": "Main action",
+    "action_type": "[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)",
     "class": "troubadour",
-    "content": "\n*The power of music rips through the reality around the target and blows them away.*\n\n| **Magic, [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)** |               **Main action** |\n|----------------------------------|------------------------------:|\n| **📏 [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1 or [ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**      | **🎯 One creature or object** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence):**\n\n- **≤11:** 12 + P sonic damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5\n- **12-16:** 16 + P sonic damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 10\n- **17+:** 22 + P sonic damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 15\n\n**Effect:** [Forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) from this ability ignores [stability](scc.v1:mcdm.heroes.v1/rule.character/stability).",
+    "content": "\n*The power of music rips through the reality around the target and blows them away.*\n\n| **Magic, [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)** |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|----------------------------------|------------------------------:|\n| **📏 [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1 or [ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**      | **🎯 One creature or object** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence):**\n\n- **≤11:** 12 + P sonic damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5\n- **12-16:** 16 + P sonic damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 10\n- **17+:** 22 + P sonic damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 15\n\n**Effect:** [Forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) from this ability ignores [stability](scc.v1:mcdm.heroes.v1/rule.character/stability).",
     "distance": "[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1 or [ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10",
     "feature_type": "ability",
     "flavor": "The power of music rips through the reality around the target and blows them away.",
@@ -47,5 +47,5 @@
   "name": "Melt Their Faces",
   "target": "One creature or object",
   "type": "feature",
-  "usage": "Main action"
+  "usage": "[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)"
 }

@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](../../../../rule/combat/turn.md)'
 class: tactician
 cost: 3 Focus
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
@@ -17,7 +17,7 @@ type: ability
 
 *On your command, you and your allies force back the enemy line.*
 
-| **[Ranged](../../../../rule/combat/ranged.md)**       |               **Maneuver** |
+| **[Ranged](../../../../rule/combat/ranged.md)**       |               **[Maneuver](../../../../rule/combat/turn.md)** |
 |------------------|---------------------------:|
 | **📏 [Ranged](../../../../rule/combat/ranged.md) 10** | **🎯 Self and two allies** |
 

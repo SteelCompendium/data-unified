@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](../../../../rule/combat/turn.md)'
 class: "null"
 cost: 3 Discipline
 cost_amount: "3"
@@ -34,7 +34,7 @@ keywords:
     - Area
     - Psionic
 metadata:
-    action_type: Maneuver
+    action_type: '[Maneuver](../../../../rule/combat/turn.md)'
     class: "null"
     cost: 3 Discipline
     distance: 2 [burst](../../../../rule/combat/burst.md)
@@ -51,5 +51,5 @@ metadata:
 name: Psychic Pulse
 target: Each enemy in the area
 type: feature
-usage: Maneuver
+usage: '[Maneuver](../../../../rule/combat/turn.md)'
 ```

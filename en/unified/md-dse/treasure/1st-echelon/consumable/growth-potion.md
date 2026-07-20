@@ -6,12 +6,14 @@ file_dpath: treasure/1st-echelon/consumable
 flavor: This thick green liquid tastes of licorice and potatoes.
 item_id: growth-potion
 item_name: Growth Potion
+item_prerequisite: A half-pound of seagrass
 keywords:
     - Magic
     - Potion
 name: Growth Potion
 project_goal: "45"
 project_roll_characteristic: '[Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) or [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)'
+project_source: Texts or lore in Caelian
 scc: mcdm.heroes.v1/treasure.1st-echelon.consumable/growth-potion
 source: mcdm.heroes.v1
 treasure_type: consumable

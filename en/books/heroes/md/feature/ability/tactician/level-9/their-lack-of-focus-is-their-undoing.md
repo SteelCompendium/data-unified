@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: tactician
 cost: 11 Focus
 distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
@@ -24,7 +24,7 @@ type: ability
 
 *You trick your enemies into attacking each other and leave them confused by the aftermath.*
 
-| **Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged), Weapon** |      **Main action** |
+| **Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged), Weapon** |      **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 |---------------------------|---------------------:|
 | **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**          | **🎯 Three enemies** |
 

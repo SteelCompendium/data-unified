@@ -8,9 +8,9 @@ flavor: You release stored time, allowing you to act twice.
 keywords:
     - Psionic
 metadata:
-    action_type: Maneuver
+    action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: "null"
-    content: "\n*You release stored time, allowing you to act twice.*\n\n| **Psionic** | **Maneuver** |\n|-------------|-------------:|\n| **\U0001F4CF Self** |  **\U0001F3AF Self** |\n\n**Effect:** You can use a signature or [heroic ability](scc.v1:mcdm.heroes.v1/rule.general/heroic-ability). You gain an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on that ability's [power rolls](scc.v1:mcdm.heroes.v1/rule.dice/power-roll)."
+    content: "\n*You release stored time, allowing you to act twice.*\n\n| **Psionic** | **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|-------------|-------------:|\n| **\U0001F4CF Self** |  **\U0001F3AF Self** |\n\n**Effect:** You can use a signature or [heroic ability](scc.v1:mcdm.heroes.v1/rule.general/heroic-ability). You gain an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on that ability's [power rolls](scc.v1:mcdm.heroes.v1/rule.dice/power-roll)."
     distance: Self
     feature_type: ability
     flavor: You release stored time, allowing you to act twice.
@@ -27,4 +27,4 @@ metadata:
 name: Blur
 target: Self
 type: feature
-usage: Maneuver
+usage: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'

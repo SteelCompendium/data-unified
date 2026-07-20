@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: elementalist
 cost: 11 Essence
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
@@ -19,7 +19,7 @@ type: ability
 
 *You call forth one of the Great Tree's many splinters to provide for your every need.*
 
-| **Green, Magic, [Ranged](../../../../rule/combat/ranged.md)** | **Main action** |
+| **Green, Magic, [Ranged](../../../../rule/combat/ranged.md)** | **[Main action](../../../../rule/combat/turn.md)** |
 |--------------------------|----------------:|
 | **📏 [Ranged](../../../../rule/combat/ranged.md) 10**         |  **🎯 Special** |
 

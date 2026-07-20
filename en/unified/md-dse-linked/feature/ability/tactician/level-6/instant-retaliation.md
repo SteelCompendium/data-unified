@@ -1,5 +1,5 @@
 ---
-action_type: Free triggered
+action_type: Free [triggered](../../../../rule/combat/triggered-action.md)
 class: tactician
 cost: 9 Focus
 cost_amount: "9"
@@ -45,7 +45,7 @@ keywords:
     - '[Melee](../../../../rule/combat/melee.md)'
     - Weapon
 metadata:
-    action_type: Free triggered
+    action_type: Free [triggered](../../../../rule/combat/triggered-action.md)
     class: tactician
     cost: 9 Focus
     distance: '[Melee](../../../../rule/combat/melee.md) 1'
@@ -70,5 +70,5 @@ name: Instant Retaliation
 target: One ally
 trigger: A creature deals damage to the target.
 type: feature
-usage: Free triggered
+usage: Free [triggered](../../../../rule/combat/triggered-action.md)
 ```

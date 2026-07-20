@@ -1,5 +1,5 @@
 ---
-action_type: Free triggered
+action_type: Free [triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)
 class: censor
 cost: 9 Wrath
 distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
@@ -21,7 +21,7 @@ type: ability
 
 *You reverse the effects from an evildoer.*
 
-| **Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)** |      **Free triggered** |
+| **Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)** |      **Free [triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |
 |-------------------|------------------------:|
 | **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**  | **🎯 Self or one ally** |
 

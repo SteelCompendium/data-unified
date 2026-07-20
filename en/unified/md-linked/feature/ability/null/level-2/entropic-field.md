@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: "null"
 cost: 5 Discipline
 distance: 3 [cube](../../../../rule/combat/cube.md) within 1
@@ -23,7 +23,7 @@ type: ability
 
 *You drastically increase the local entropy.*
 
-| **Area, Psionic, Weapon** |               **Main action** |
+| **Area, Psionic, Weapon** |               **[Main action](../../../../rule/combat/turn.md)** |
 |---------------------------|------------------------------:|
 | **📏 3 [cube](../../../../rule/combat/cube.md) within 1**    | **🎯 Each enemy in the area** |
 

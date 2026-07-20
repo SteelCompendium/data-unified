@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: elementalist
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
 effect: You [slide](../../../../movement/forced-movement.md) one creature within 10 squares of the target up to 2 squares.
@@ -24,7 +24,7 @@ type: ability
 
 *Whipping vines erupt from a foe's body to grasp at another close by.*
 
-| **Green, Magic, [Ranged](../../../../rule/combat/ranged.md), [Strike](../../../../rule/combat/strike.md)** |      **Main action** |
+| **Green, Magic, [Ranged](../../../../rule/combat/ranged.md), [Strike](../../../../rule/combat/strike.md)** |      **[Main action](../../../../rule/combat/turn.md)** |
 |----------------------------------|---------------------:|
 | **📏 [Ranged](../../../../rule/combat/ranged.md) 10**                 |  **🎯 One creature** |
 

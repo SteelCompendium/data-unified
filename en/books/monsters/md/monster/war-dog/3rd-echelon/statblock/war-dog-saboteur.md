@@ -31,7 +31,7 @@ with_captain: +5 bonus to ranged distance
 
 > 🏹 **Fuse-Iron Bomb ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
-> | **Ranged, Weapon** |                          **Main action** |
+> | **Ranged, Weapon** |                          **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |--------------------|-----------------------------------------:|
 > | **📏 Ranged 5**    | **🎯 One creature or object per minion** |
 >

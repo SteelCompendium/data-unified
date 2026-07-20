@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: shadow
 cost: 11 Insight
 distance: Self
@@ -17,7 +17,7 @@ type: ability
 
 *You make multiple [strikes](scc.v1:mcdm.heroes.v1/rule.combat/strike) against a foe before they even notice they're dead.*
 
-| **Magic**   | **Main action** |
+| **Magic**   | **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 |-------------|----------------:|
 | **📏 Self** |     **🎯 Self** |
 

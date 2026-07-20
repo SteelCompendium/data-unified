@@ -1,5 +1,5 @@
 ---
-action_type: Triggered
+action_type: '[Triggered](../../../../rule/combat/triggered-action.md)'
 class: elementalist
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
 effect: You [teleport](../../../../movement/teleport.md) the target up to a number of squares equal to your [Reason](../../../../rule/character/reason.md) score. If the target moves to trigger this ability, you can [teleport](../../../../movement/teleport.md) them at any point during the move.
@@ -38,7 +38,7 @@ keywords:
     - '[Ranged](../../../../rule/combat/ranged.md)'
     - Void
 metadata:
-    action_type: Triggered
+    action_type: '[Triggered](../../../../rule/combat/triggered-action.md)'
     class: elementalist
     distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
     effect: You [teleport](../../../../movement/teleport.md) the target up to a number of squares equal to your [Reason](../../../../rule/character/reason.md) score. If the target moves to trigger this ability, you can [teleport](../../../../movement/teleport.md) them at any point during the move.
@@ -60,5 +60,5 @@ name: Subtle Relocation
 target: Self or one ally
 trigger: The target starts their [turn](../../../../rule/combat/turn.md), moves, or is [force moved](../../../../movement/forced-movement.md).
 type: feature
-usage: Triggered
+usage: '[Triggered](../../../../rule/combat/triggered-action.md)'
 ```

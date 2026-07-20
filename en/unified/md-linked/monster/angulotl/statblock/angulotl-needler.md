@@ -32,7 +32,7 @@ type: statblock
 
 > 🏹 **Blowgun (Signature Ability)**
 >
-> | **Ranged, Strike, Weapon** |      **Main action** |
+> | **Ranged, Strike, Weapon** |      **[Main action](../../../rule/combat/turn.md)** |
 > |----------------------------|---------------------:|
 > | **📏 Ranged 15**           |  **🎯 One creature** |
 >

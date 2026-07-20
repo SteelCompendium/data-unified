@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: talent
 distance: 1 [burst](../../../../rule/combat/burst.md)
 feature_type: ability
@@ -39,7 +39,7 @@ keywords:
     - Psionic
     - Telepathy
 metadata:
-    action_type: Main action
+    action_type: '[Main action](../../../../rule/combat/turn.md)'
     class: talent
     distance: 1 [burst](../../../../rule/combat/burst.md)
     flavor: The force of your mind hurls enemies backward.
@@ -60,5 +60,5 @@ metadata:
 name: Kinetic Pulse
 target: Each enemy in the area
 type: feature
-usage: Main action
+usage: '[Main action](../../../../rule/combat/turn.md)'
 ```

@@ -17,8 +17,8 @@
       "Magic"
     ],
     "metadata": {
-      "action_type": "Maneuver",
-      "content": "\n*In a swirl of black ash, you step from one place to another.*\n\n| **Magic**   | **Maneuver** |\n|-------------|-------------:|\n| **📏 Self** |  **🎯 Self** |\n\n**Effect:** You [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) up to 5 squares. If you have [concealment](scc.v1:mcdm.heroes.v1/rule.combat/concealment) or [cover](scc.v1:mcdm.heroes.v1/rule.combat/cover) at your destination, you can use the [Hide](scc.v1:mcdm.heroes.v1/feature.common.maneuvers/hide) maneuver even if you are observed. If you successfully hide using this maneuver, you gain 1 [surge](scc.v1:mcdm.heroes.v1/rule.resource/surge).\n\n**Spend 1+ Insight:** You [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) 1 additional square for each insight spent.",
+      "action_type": "[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)",
+      "content": "\n*In a swirl of black ash, you step from one place to another.*\n\n| **Magic**   | **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|-------------|-------------:|\n| **📏 Self** |  **🎯 Self** |\n\n**Effect:** You [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) up to 5 squares. If you have [concealment](scc.v1:mcdm.heroes.v1/rule.combat/concealment) or [cover](scc.v1:mcdm.heroes.v1/rule.combat/cover) at your destination, you can use the [Hide](scc.v1:mcdm.heroes.v1/feature.common.maneuvers/hide) maneuver even if you are observed. If you successfully hide using this maneuver, you gain 1 [surge](scc.v1:mcdm.heroes.v1/rule.resource/surge).\n\n**Spend 1+ Insight:** You [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) 1 additional square for each insight spent.",
       "distance": "Self",
       "feature_type": "ability",
       "flavor": "In a swirl of black ash, you step from one place to another.",
@@ -34,7 +34,7 @@
     "name": "Black Ash Teleport",
     "target": "Self",
     "type": "feature",
-    "usage": "Maneuver"
+    "usage": "[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)"
   },
   "effects": [
     {

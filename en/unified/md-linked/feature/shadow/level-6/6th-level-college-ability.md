@@ -17,7 +17,7 @@ Choose one of the following abilities.
 
 *Your attack produces a cloud of black ash that launches an enemy into the air.*
 
-| **Magic, [Melee](../../../rule/combat/melee.md), [Strike](../../../rule/combat/strike.md), Weapon** |     **Main action** |
+| **Magic, [Melee](../../../rule/combat/melee.md), [Strike](../../../rule/combat/strike.md), Weapon** |     **[Main action](../../../rule/combat/turn.md)** |
 |----------------------------------|--------------------:|
 | **📏 [Melee](../../../rule/combat/melee.md) 1**                   | **🎯 One creature** |
 
@@ -34,7 +34,7 @@ Choose one of the following abilities.
 
 *You [teleport](../../../movement/teleport.md) your friends in a burst of ash and fire.*
 
-| **Magic**      |                          **Maneuver** |
+| **Magic**      |                          **[Maneuver](../../../rule/combat/turn.md)** |
 |----------------|--------------------------------------:|
 | **📏 4 [burst](../../../rule/combat/burst.md)** | **🎯 Self and each ally in the area** |
 
@@ -49,7 +49,7 @@ Choose one of the following abilities.
 
 *A well-timed throw of a potion will keep your allies in the fight.*
 
-| **[Ranged](../../../rule/combat/ranged.md)**       |           **Maneuver** |
+| **[Ranged](../../../rule/combat/ranged.md)**       |           **[Maneuver](../../../rule/combat/turn.md)** |
 |------------------|-----------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10** | **🎯 Three creatures** |
 
@@ -62,7 +62,7 @@ A creature who drinks the potion can spend up to 2 [Recoveries](../../../rule/he
 
 *Each ally who catches a potion you throw can take the battle to the next level.*
 
-| **[Ranged](../../../rule/combat/ranged.md)**       |        **Main action** |
+| **[Ranged](../../../rule/combat/ranged.md)**       |        **[Main action](../../../rule/combat/turn.md)** |
 |------------------|-----------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10** | **🎯 Three creatures** |
 
@@ -85,7 +85,7 @@ Choose one of the following abilities.
 
 *You distract your foes, allowing your allies to take advantage of that distraction.*
 
-| **Area, Magic** |                  **Maneuver** |
+| **Area, Magic** |                  **[Maneuver](../../../rule/combat/turn.md)** |
 |-----------------|------------------------------:|
 | **📏 5 [burst](../../../rule/combat/burst.md)**  | **🎯 Each enemy in the area** |
 
@@ -96,7 +96,7 @@ Choose one of the following abilities.
 
 *You prick little needles on the tips of your fingers into the nerves of your enemies and cause them to lose control.*
 
-| **Magic, [Melee](../../../rule/combat/melee.md)**, **Strike, Weapon** |    **Main action** |
+| **Magic, [Melee](../../../rule/combat/melee.md)**, **Strike, Weapon** |    **[Main action](../../../rule/combat/turn.md)** |
 |--------------------------------------|-------------------:|
 | **📏 [Melee](../../../rule/combat/melee.md) 1**                       | **🎯 Two enemies** |
 

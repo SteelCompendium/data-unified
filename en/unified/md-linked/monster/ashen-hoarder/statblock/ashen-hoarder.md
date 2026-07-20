@@ -37,7 +37,7 @@ weaknesses:
 
 > 🗡 **Claw and Blade (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](../../../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 2**            | **🎯 Two creatures or objects** |
 >
@@ -51,7 +51,7 @@ weaknesses:
 
 > 🔳 **Corpse Bomb**
 >
-> | **Area, Magic, Ranged** |               **Main Action** |
+> | **Area, Magic, Ranged** |               **[Main Action](../../../rule/combat/turn.md)** |
 > |-------------------------|------------------------------:|
 > | **📏 4 cube within 20** | **🎯 Each enemy in the area** |
 >
@@ -67,7 +67,7 @@ weaknesses:
 
 > 🔳 **Impale (3 Malice)**
 >
-> | **Area, Weapon**           |                  **Main action** |
+> | **Area, Weapon**           |                  **[Main action](../../../rule/combat/turn.md)** |
 > |----------------------------|---------------------------------:|
 > | **📏 4 x 1 line within 1** | **🎯 Each creature in the area** |
 >
@@ -81,7 +81,7 @@ weaknesses:
 
 > 👤 **Bone Dozer**
 >
-> | **-**       | **Maneuver** |
+> | **-**       | **[Maneuver](../../../rule/combat/turn.md)** |
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
@@ -89,7 +89,7 @@ weaknesses:
 
 > ❗️ **Armor of Corpses (2 [Malice](../../../rule/monster/malice.md))**
 >
-> | **-**       | **Triggered action** |
+> | **-**       | **[Triggered action](../../../rule/combat/triggered-action.md)** |
 > |-------------|---------------------:|
 > | **📏 Self** |          **🎯 Self** |
 >

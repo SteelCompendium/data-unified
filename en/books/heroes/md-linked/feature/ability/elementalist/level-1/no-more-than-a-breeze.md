@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](../../../../rule/combat/turn.md)'
 class: elementalist
 cost: 5 Essence
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
@@ -19,7 +19,7 @@ type: ability
 
 *The material substance of a creature shreds away at your command.*
 
-| **Magic, [Ranged](../../../../rule/combat/ranged.md), Void** |            **Maneuver** |
+| **Magic, [Ranged](../../../../rule/combat/ranged.md), Void** |            **[Maneuver](../../../../rule/combat/turn.md)** |
 |-------------------------|------------------------:|
 | **📏 [Ranged](../../../../rule/combat/ranged.md) 10**        | **🎯 Self or one ally** |
 

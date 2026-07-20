@@ -13,7 +13,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *Revitalizing plants and jagged stones grow, helping allies and hindering foes.*
 
-| **Area, Earth, Green, Magic, [Ranged](../../../rule/combat/ranged.md)** |   **Maneuver** |
+| **Area, Earth, Green, Magic, [Ranged](../../../rule/combat/ranged.md)** |   **[Maneuver](../../../rule/combat/turn.md)** |
 |---------------------------------------|---------------:|
 | **📏 3 [cube](../../../rule/combat/cube.md) within 10**               | **🎯 Special** |
 
@@ -30,7 +30,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *Fungal spores sprout inside your enemy's brain, allowing you to control their actions.*
 
-| **Green, Magic, [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md), Void** |     **Main action** |
+| **Green, Magic, [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md), Void** |     **[Main action](../../../rule/combat/turn.md)** |
 |----------------------------------------|--------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**                       | **🎯 One creature** |
 
@@ -47,7 +47,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *Your ally disappears, then reappears in a burst of fire.*
 
-| **Fire, Magic, [Ranged](../../../rule/combat/ranged.md), Void** |         **Main action** |
+| **Fire, Magic, [Ranged](../../../rule/combat/ranged.md), Void** |         **[Main action](../../../rule/combat/turn.md)** |
 |-------------------------------|------------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**              | **🎯 Self or one ally** |
 
@@ -64,7 +64,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *Wrap them up in fire and melting stone.*
 
-| **Earth, Fire, Magic, [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md)** |     **Main action** |
+| **Earth, Fire, Magic, [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md)** |     **[Main action](../../../rule/combat/turn.md)** |
 |----------------------------------------|--------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**                       | **🎯 One creature** |
 

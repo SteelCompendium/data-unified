@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: talent
 cost: 7 Clarity
 distance: Self; see below
@@ -24,7 +24,7 @@ type: ability
 
 *Spheres of solid psionic energy float around you.*
 
-| **Psionic, [Ranged](../../../../rule/combat/ranged.md), [Strike](../../../../rule/combat/strike.md), Telekinesis** | **Main action** |
+| **Psionic, [Ranged](../../../../rule/combat/ranged.md), [Strike](../../../../rule/combat/strike.md), Telekinesis** | **[Main action](../../../../rule/combat/turn.md)** |
 |------------------------------------------|----------------:|
 | **📏 Self; see below**                   |     **🎯 Self** |
 

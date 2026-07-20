@@ -7,6 +7,7 @@ file_basename: celestial-attendant
 file_dpath: monster/champion/summoner/fey/statblock
 flavor: 'Stamina: Your maximum Stamina'
 free_strike: 9
+free_strike_damage_type: Poison
 immunities:
     - Damage 2
 intuition: 2

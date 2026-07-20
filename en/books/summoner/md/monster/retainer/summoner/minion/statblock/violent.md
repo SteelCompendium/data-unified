@@ -1,6 +1,7 @@
 ---
 agility: 3
 free_strike: 4
+free_strike_damage_type: Corruption
 immunities: []
 intuition: -1
 keywords:

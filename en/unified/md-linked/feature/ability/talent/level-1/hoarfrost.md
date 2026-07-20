@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: talent
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
 flavor: You blast a foe with a pulse of cold energy.
@@ -23,7 +23,7 @@ type: ability
 
 *You blast a foe with a pulse of cold energy.*
 
-| **Cryokinesis, Psionic, [Ranged](../../../../rule/combat/ranged.md)**, **Strike** |     **Main action** |
+| **Cryokinesis, Psionic, [Ranged](../../../../rule/combat/ranged.md)**, **Strike** |     **[Main action](../../../../rule/combat/turn.md)** |
 |----------------------------------------------|--------------------:|
 | **📏 [Ranged](../../../../rule/combat/ranged.md) 10**                             | **🎯 One creature** |
 

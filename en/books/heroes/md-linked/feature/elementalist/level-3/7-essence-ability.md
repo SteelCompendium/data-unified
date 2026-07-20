@@ -13,7 +13,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *With a flick of the wrist, you phase creatures out of existence.*
 
-| **Magic, [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md), Void** | **Main action** |
+| **Magic, [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md), Void** | **[Main action](../../../rule/combat/turn.md)** |
 |---------------------------------|----------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**                |  **🎯 Special** |
 
@@ -32,7 +32,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *You open up the ground, spewing out shrapnel of stone and debris.*
 
-| **Area, Earth, Magic, [Ranged](../../../rule/combat/ranged.md)** |                **Main action** |
+| **Area, Earth, Magic, [Ranged](../../../rule/combat/ranged.md)** |                **[Main action](../../../rule/combat/turn.md)** |
 |--------------------------------|-------------------------------:|
 | **📏 3 [cube](../../../rule/combat/cube.md) within 10**        |  **🎯 Each enemy in the area** |
 
@@ -49,7 +49,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *Guardian animal spirits surround you to harry your foes and bolster your allies.*
 
-| **Area, Green, Magic** |               **Main action** |
+| **Area, Green, Magic** |               **[Main action](../../../rule/combat/turn.md)** |
 |------------------------|------------------------------:|
 | **📏 3 [aura](../../../rule/combat/aura.md)**          | **🎯 Each enemy in the area** |
 
@@ -68,7 +68,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *A blazing, beautifully organized inferno erupts at your command.*
 
-| **Area, Fire, Magic, [Ranged](../../../rule/combat/ranged.md)** |   **Maneuver** |
+| **Area, Fire, Magic, [Ranged](../../../rule/combat/ranged.md)** |   **[Maneuver](../../../rule/combat/turn.md)** |
 |-------------------------------|---------------:|
 | **📏 10 wall within 10**      | **🎯 Special** |
 

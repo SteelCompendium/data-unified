@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: tactician
 cost: 11 Focus
 distance: 3 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)
@@ -18,7 +18,7 @@ type: ability
 
 *What makes a good soldier? The ability to fire four shots a minute in any weather.*
 
-| **Area**       |                       **Main action** |
+| **Area**       |                       **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 |----------------|--------------------------------------:|
 | **📏 3 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)** | **🎯 Self and each ally in the area** |
 

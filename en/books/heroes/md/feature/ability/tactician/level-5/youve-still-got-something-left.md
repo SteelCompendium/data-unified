@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: tactician
 cost: 9 Focus
 distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
@@ -17,7 +17,7 @@ type: ability
 
 *You push an ally to use a [heroic ability](scc.v1:mcdm.heroes.v1/rule.general/heroic-ability) sooner than they otherwise would.*
 
-| **[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)**       | **Main action** |
+| **[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)**       | **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 |------------------|----------------:|
 | **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10** | **🎯 One ally** |
 

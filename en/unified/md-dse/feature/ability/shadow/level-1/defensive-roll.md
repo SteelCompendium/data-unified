@@ -1,5 +1,5 @@
 ---
-action_type: Triggered
+action_type: '[Triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)'
 class: shadow
 distance: Self
 effect: You take half the triggering damage, then can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to 2 squares after the triggering effect resolves. If you end this [shift](scc.v1:mcdm.heroes.v1/movement/shifting) with [concealment](scc.v1:mcdm.heroes.v1/rule.combat/concealment) or [cover](scc.v1:mcdm.heroes.v1/rule.combat/cover), you can use the [Hide](scc.v1:mcdm.heroes.v1/feature.common.maneuvers/hide) maneuver even if you are observed.
@@ -32,7 +32,7 @@ feature_type: ability
 flavor: When an enemy attacks, you roll with the impact to reduce the harm.
 keywords: []
 metadata:
-    action_type: Triggered
+    action_type: '[Triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)'
     class: shadow
     distance: Self
     effect: You take half the triggering damage, then can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to 2 squares after the triggering effect resolves. If you end this [shift](scc.v1:mcdm.heroes.v1/movement/shifting) with [concealment](scc.v1:mcdm.heroes.v1/rule.combat/concealment) or [cover](scc.v1:mcdm.heroes.v1/rule.combat/cover), you can use the [Hide](scc.v1:mcdm.heroes.v1/feature.common.maneuvers/hide) maneuver even if you are observed.
@@ -51,5 +51,5 @@ name: Defensive Roll
 target: Self
 trigger: Another creature damages you.
 type: feature
-usage: Triggered
+usage: '[Triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)'
 ```

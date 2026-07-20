@@ -9,9 +9,9 @@ keywords:
     - Magic
     - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'
 metadata:
-    action_type: Maneuver
+    action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: conduit
-    content: "\n*You send yourself or an ally to a divine manifold to instantaneously regain health.*\n\n| **Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)**  |            **Maneuver** |\n|--------------------|------------------------:|\n| **\U0001F4CF [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**   | **\U0001F3AF Self or one ally** |\n\n**Effect:** The target is removed from the encounter map until the start of their next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) and can spend any number of [Recoveries](scc.v1:mcdm.heroes.v1/rule.health/recoveries). At the start of their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), the target reappears in the space they left or the nearest unoccupied space of their choice."
+    content: "\n*You send yourself or an ally to a divine manifold to instantaneously regain health.*\n\n| **Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)**  |            **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|--------------------|------------------------:|\n| **\U0001F4CF [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**   | **\U0001F3AF Self or one ally** |\n\n**Effect:** The target is removed from the encounter map until the start of their next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) and can spend any number of [Recoveries](scc.v1:mcdm.heroes.v1/rule.health/recoveries). At the start of their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), the target reappears in the space they left or the nearest unoccupied space of their choice."
     distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
     feature_type: ability
     flavor: You send yourself or an ally to a divine manifold to instantaneously regain health.
@@ -28,4 +28,4 @@ metadata:
 name: Sanctuary
 target: Self or one ally
 type: feature
-usage: Maneuver
+usage: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'

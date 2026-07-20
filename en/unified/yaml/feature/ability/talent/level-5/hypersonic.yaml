@@ -15,9 +15,9 @@ keywords:
     - Psionic
     - Telekinesis
 metadata:
-    action_type: Main action
+    action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: talent
-    content: "\n*You move fast enough to [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) around and watch your foes feel the aftermath.*\n\n| **Area, Charge, Psionic, Telekinesis** |               **Main action** |\n|----------------------------------------|------------------------------:|\n| **\U0001F4CF 5 x 2 line within 1**             | **\U0001F3AF Each enemy in the area** |\n\n**Effect:** You [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) to a square on the opposite side of the area before making the [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll).\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason):**\n\n- **≤11:** 12 sonic damage\n- **12-16:** 18 sonic damage\n- **17+:** 24 sonic damage\n\n**Strained:** If you obtain a tier 2 outcome or better, you are [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) until the end of your [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) and each target is [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) until the end of their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn)."
+    content: "\n*You move fast enough to [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) around and watch your foes feel the aftermath.*\n\n| **Area, Charge, Psionic, Telekinesis** |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|----------------------------------------|------------------------------:|\n| **\U0001F4CF 5 x 2 line within 1**             | **\U0001F3AF Each enemy in the area** |\n\n**Effect:** You [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) to a square on the opposite side of the area before making the [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll).\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason):**\n\n- **≤11:** 12 sonic damage\n- **12-16:** 18 sonic damage\n- **17+:** 24 sonic damage\n\n**Strained:** If you obtain a tier 2 outcome or better, you are [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) until the end of your [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) and each target is [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) until the end of their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn)."
     distance: 5 x 2 line within 1
     feature_type: ability
     flavor: You move fast enough to [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) around and watch your foes feel the aftermath.
@@ -36,4 +36,4 @@ metadata:
 name: Hypersonic
 target: Each enemy in the area
 type: feature
-usage: Main action
+usage: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'

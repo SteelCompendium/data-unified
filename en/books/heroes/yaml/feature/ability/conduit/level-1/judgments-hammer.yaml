@@ -12,9 +12,9 @@ keywords:
     - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'
     - '[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)'
 metadata:
-    action_type: Main action
+    action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: conduit
-    content: "\n*Your divine [fury](scc.v1:mcdm.heroes.v1/class/fury) is a hammer that crashes down upon the unrighteous.*\n\n| **Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)**  |               **Main action** |\n|----------------------------|------------------------------:|\n| **\U0001F4CF [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**           | **\U0001F3AF One creature or object** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition):**\n\n- **≤11:** 3 + I holy damage; A < WEAK[, prone](scc.v1:mcdm.heroes.v1/condition/prone)\n- **12-16:** 6 + I holy damage; A < AVERAGE[, prone](scc.v1:mcdm.heroes.v1/condition/prone)\n- **17+:** 9 + I holy damage; A < STRONG, [prone and](scc.v1:mcdm.heroes.v1/condition/prone) can't stand (save ends)"
+    content: "\n*Your divine [fury](scc.v1:mcdm.heroes.v1/class/fury) is a hammer that crashes down upon the unrighteous.*\n\n| **Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)**  |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|----------------------------|------------------------------:|\n| **\U0001F4CF [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**           | **\U0001F3AF One creature or object** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition):**\n\n- **≤11:** 3 + I holy damage; A < WEAK[, prone](scc.v1:mcdm.heroes.v1/condition/prone)\n- **12-16:** 6 + I holy damage; A < AVERAGE[, prone](scc.v1:mcdm.heroes.v1/condition/prone)\n- **17+:** 9 + I holy damage; A < STRONG, [prone and](scc.v1:mcdm.heroes.v1/condition/prone) can't stand (save ends)"
     distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
     feature_type: ability
     flavor: Your divine [fury](scc.v1:mcdm.heroes.v1/class/fury) is a hammer that crashes down upon the unrighteous.
@@ -32,4 +32,4 @@ metadata:
 name: Judgment's Hammer
 target: One creature or object
 type: feature
-usage: Main action
+usage: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'

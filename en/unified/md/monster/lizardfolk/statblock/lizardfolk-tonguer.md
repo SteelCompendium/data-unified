@@ -31,7 +31,7 @@ with_captain: +1 bonus to strikes
 
 > 🗡 **Tonguelash (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |                          **Main action** |
+> | **Melee, Strike, Weapon** |                          **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |---------------------------|-----------------------------------------:|
 > | **📏 Melee 8**            | **🎯 One creature or object per minion** |
 >

@@ -7,6 +7,7 @@ file_basename: quiet-of-snow
 file_dpath: monster/minion/summoner/elemental/statblock
 flavor: This elemental is a pure-white vulpine with six legs that freely sprints through the air. Their howls are telepathic, washing over the receivers with a strong chill and a wave of goosebumps.
 free_strike: 4
+free_strike_damage_type: Cold
 immunities:
     - Sonic R
     - Cold R

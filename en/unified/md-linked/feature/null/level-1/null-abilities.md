@@ -17,7 +17,7 @@ Choose two [signature abilities](../../../rule/combat/signature-ability.md) from
 
 *You strike everywhere at once, tricking an enemy into moving out of position.*
 
-| **Area, Psionic, Weapon** |               **Main action** |
+| **Area, Psionic, Weapon** |               **[Main action](../../../rule/combat/turn.md)** |
 |---------------------------|------------------------------:|
 | **📏 1 [burst](../../../rule/combat/burst.md)**            | **🎯 Each enemy in the area** |
 
@@ -34,7 +34,7 @@ Choose two [signature abilities](../../../rule/combat/signature-ability.md) from
 
 *You strike so quickly that your hands become a blur.*
 
-| **[Melee](../../../rule/combat/melee.md), Psionic, [Strike](../../../rule/combat/strike.md), Weapon** |                 **Main action** |
+| **[Melee](../../../rule/combat/melee.md), Psionic, [Strike](../../../rule/combat/strike.md), Weapon** |                 **[Main action](../../../rule/combat/turn.md)** |
 |------------------------------------|--------------------------------:|
 | **📏 [Melee](../../../rule/combat/melee.md) 1**                     | **🎯 Two creatures or objects** |
 
@@ -51,7 +51,7 @@ Choose two [signature abilities](../../../rule/combat/signature-ability.md) from
 
 *You flit about the battlefield and take an opportunistic strike.*
 
-| **[Melee](../../../rule/combat/melee.md), Psionic, [Strike](../../../rule/combat/strike.md), Weapon** |               **Main action** |
+| **[Melee](../../../rule/combat/melee.md), Psionic, [Strike](../../../rule/combat/strike.md), Weapon** |               **[Main action](../../../rule/combat/turn.md)** |
 |------------------------------------|------------------------------:|
 | **📏 [Melee](../../../rule/combat/melee.md) 1**                     | **🎯 One creature or object** |
 
@@ -68,7 +68,7 @@ Choose two [signature abilities](../../../rule/combat/signature-ability.md) from
 
 *You contort your enemy's body into a stance they struggle to escape from.*
 
-| **[Melee](../../../rule/combat/melee.md), Psionic, [Strike](../../../rule/combat/strike.md), Weapon** |               **Main action** |
+| **[Melee](../../../rule/combat/melee.md), Psionic, [Strike](../../../rule/combat/strike.md), Weapon** |               **[Main action](../../../rule/combat/turn.md)** |
 |------------------------------------|------------------------------:|
 | **📏 [Melee](../../../rule/combat/melee.md) 1**                     | **🎯 One creature or object** |
 
@@ -83,7 +83,7 @@ Choose two [signature abilities](../../../rule/combat/signature-ability.md) from
 
 *Your opponent staggers. They cannot ignore you.*
 
-| **[Melee](../../../rule/combat/melee.md), Psionic, [Strike](../../../rule/combat/strike.md), Weapon** |               **Main action** |
+| **[Melee](../../../rule/combat/melee.md), Psionic, [Strike](../../../rule/combat/strike.md), Weapon** |               **[Main action](../../../rule/combat/turn.md)** |
 |------------------------------------|------------------------------:|
 | **📏 [Melee](../../../rule/combat/melee.md) 1**                     | **🎯 One creature or object** |
 
@@ -98,7 +98,7 @@ Choose two [signature abilities](../../../rule/combat/signature-ability.md) from
 
 *The force of your blow extends past the limits of your body, pulling your enemy closer.*
 
-| **[Melee](../../../rule/combat/melee.md), Psionic, [Strike](../../../rule/combat/strike.md), Weapon** |     **Main action** |
+| **[Melee](../../../rule/combat/melee.md), Psionic, [Strike](../../../rule/combat/strike.md), Weapon** |     **[Main action](../../../rule/combat/turn.md)** |
 |------------------------------------|--------------------:|
 | **📏 [Melee](../../../rule/combat/melee.md) 2**                     | **🎯 One creature** |
 
@@ -113,7 +113,7 @@ Choose two [signature abilities](../../../rule/combat/signature-ability.md) from
 
 *You step momentarily out of phase as you pull an enemy through you.*
 
-| **[Melee](../../../rule/combat/melee.md), Psionic, [Strike](../../../rule/combat/strike.md), Weapon** |               **Main action** |
+| **[Melee](../../../rule/combat/melee.md), Psionic, [Strike](../../../rule/combat/strike.md), Weapon** |               **[Main action](../../../rule/combat/turn.md)** |
 |------------------------------------|------------------------------:|
 | **📏 [Melee](../../../rule/combat/melee.md) 1**                     | **🎯 One creature or object** |
 
@@ -130,7 +130,7 @@ Choose two [signature abilities](../../../rule/combat/signature-ability.md) from
 
 *You strike at key nerve clusters to leave your foe staggered.*
 
-| **[Melee](../../../rule/combat/melee.md), Psionic, [Strike](../../../rule/combat/strike.md), Weapon** |               **Main action** |
+| **[Melee](../../../rule/combat/melee.md), Psionic, [Strike](../../../rule/combat/strike.md), Weapon** |               **[Main action](../../../rule/combat/turn.md)** |
 |------------------------------------|------------------------------:|
 | **📏 [Melee](../../../rule/combat/melee.md) 1**                     | **🎯 One creature or object** |
 
@@ -153,7 +153,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *You foresee the best moment to strike, then exploit it.*
 
-| **[Melee](../../../rule/combat/melee.md), Psionic, [Strike](../../../rule/combat/strike.md), Weapon** |               **Main action** |
+| **[Melee](../../../rule/combat/melee.md), Psionic, [Strike](../../../rule/combat/strike.md), Weapon** |               **[Main action](../../../rule/combat/turn.md)** |
 |------------------------------------|------------------------------:|
 | **📏 [Melee](../../../rule/combat/melee.md) 1**                     | **🎯 One creature or object** |
 
@@ -170,7 +170,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *A burst of psionic energy interferes with your enemy's synapses.*
 
-| **Area, Psionic** |                  **Maneuver** |
+| **Area, Psionic** |                  **[Maneuver](../../../rule/combat/turn.md)** |
 |-------------------|------------------------------:|
 | **📏 2 [burst](../../../rule/combat/burst.md)**    | **🎯 Each enemy in the area** |
 
@@ -181,7 +181,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *You strike, and for the next few moments, your enemy can't escape you.*
 
-| **[Melee](../../../rule/combat/melee.md), Psionic, [Strike](../../../rule/combat/strike.md), Weapon** |               **Main action** |
+| **[Melee](../../../rule/combat/melee.md), Psionic, [Strike](../../../rule/combat/strike.md), Weapon** |               **[Main action](../../../rule/combat/turn.md)** |
 |------------------------------------|------------------------------:|
 | **📏 [Melee](../../../rule/combat/melee.md) 1**                     | **🎯 One creature or object** |
 
@@ -198,7 +198,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *You focus your psionic technique into a concussive punch.*
 
-| **[Melee](../../../rule/combat/melee.md), Psionic, [Strike](../../../rule/combat/strike.md), Weapon** |               **Main action** |
+| **[Melee](../../../rule/combat/melee.md), Psionic, [Strike](../../../rule/combat/strike.md), Weapon** |               **[Main action](../../../rule/combat/turn.md)** |
 |------------------------------------|------------------------------:|
 | **📏 [Melee](../../../rule/combat/melee.md) 1**                     | **🎯 One creature or object** |
 
@@ -217,7 +217,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *Your blow reorders a foe's body, causing pain if they attempt to channel sorcery.*
 
-| **[Melee](../../../rule/combat/melee.md), Psionic, [Strike](../../../rule/combat/strike.md), Weapon** |     **Main action** |
+| **[Melee](../../../rule/combat/melee.md), Psionic, [Strike](../../../rule/combat/strike.md), Weapon** |     **[Main action](../../../rule/combat/turn.md)** |
 |------------------------------------|--------------------:|
 | **📏 [Melee](../../../rule/combat/melee.md) 1**                     | **🎯 One creature** |
 
@@ -234,7 +234,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *A single touch from you, and your enemy flies backward.*
 
-| **[Melee](../../../rule/combat/melee.md), Psionic, [Strike](../../../rule/combat/strike.md), Weapon** |                  **Maneuver** |
+| **[Melee](../../../rule/combat/melee.md), Psionic, [Strike](../../../rule/combat/strike.md), Weapon** |                  **[Maneuver](../../../rule/combat/turn.md)** |
 |------------------------------------|------------------------------:|
 | **📏 [Melee](../../../rule/combat/melee.md) 1**                     | **🎯 One creature or object** |
 
@@ -251,7 +251,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *For a moment, your foe slips out of phase with this manifold.*
 
-| **[Melee](../../../rule/combat/melee.md), Psionic, [Strike](../../../rule/combat/strike.md), Weapon** |                           **Main action** |
+| **[Melee](../../../rule/combat/melee.md), Psionic, [Strike](../../../rule/combat/strike.md), Weapon** |                           **[Main action](../../../rule/combat/turn.md)** |
 |------------------------------------|------------------------------------------:|
 | **📏 [Melee](../../../rule/combat/melee.md) 1**                     |                       **🎯 One creature** |
 
@@ -268,7 +268,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *You move so quickly, it seems as though an army assaulted your foes.*
 
-| **Area, Psionic, Weapon** |               **Main action** |
+| **Area, Psionic, Weapon** |               **[Main action](../../../rule/combat/turn.md)** |
 |---------------------------|------------------------------:|
 | **📏 2 [burst](../../../rule/combat/burst.md)**            | **🎯 Each enemy in the area** |
 

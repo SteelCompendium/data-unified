@@ -1,5 +1,5 @@
 ---
-action_type: Move
+action_type: '[Move](../../../../rule/combat/turn.md)'
 class: "null"
 cost: 9 Discipline
 cost_amount: "9"
@@ -32,7 +32,7 @@ flavor: You leap beyond reality, leaving an afterimage of yourself.
 keywords:
     - Psionic
 metadata:
-    action_type: Move
+    action_type: '[Move](../../../../rule/combat/turn.md)'
     class: "null"
     cost: 9 Discipline
     distance: Self
@@ -48,5 +48,5 @@ metadata:
 name: Phase Leap
 target: Self
 type: feature
-usage: Move
+usage: '[Move](../../../../rule/combat/turn.md)'
 ```

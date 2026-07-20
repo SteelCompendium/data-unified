@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: elementalist
 cost: 7 Essence
 cost_amount: "7"
@@ -44,7 +44,7 @@ keywords:
     - Green
     - Magic
 metadata:
-    action_type: Main action
+    action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: elementalist
     cost: 7 Essence
     distance: 3 [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura)
@@ -66,5 +66,5 @@ metadata:
 name: Swarm of Spirits
 target: Each enemy in the area
 type: feature
-usage: Main action
+usage: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 ```

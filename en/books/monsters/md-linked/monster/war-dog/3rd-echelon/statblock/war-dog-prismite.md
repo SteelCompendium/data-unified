@@ -30,7 +30,7 @@ type: statblock
 
 > ❇️ **Grasping Tonguetacles ([Signature Ability](../../../../rule/combat/signature-ability.md))**
 >
-> | **Area, Psionic, Weapon** |               **Main action** |
+> | **Area, Psionic, Weapon** |               **[Main action](../../../../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 2 burst**            | **🎯 Each enemy in the area** |
 >
@@ -42,7 +42,7 @@ type: statblock
 
 > 🔳 **Hard Light Field**
 >
-> | **Area, Psionic, Ranged** |                 **Maneuver** |
+> | **Area, Psionic, Ranged** |                 **[Maneuver](../../../../rule/combat/turn.md)** |
 > |---------------------------|-----------------------------:|
 > | **📏 4 cube within 10**   | **🎯 Each ally in the area** |
 >
@@ -50,7 +50,7 @@ type: statblock
 
 > ❗️ **Tractor Beam (1 [Malice](../../../../rule/monster/malice.md))**
 >
-> | **Psionic, Ranged** |        **Triggered action** |
+> | **Psionic, Ranged** |        **[Triggered action](../../../../rule/combat/triggered-action.md)** |
 > |---------------------|----------------------------:|
 > | **📏 Ranged 10**    | **🎯 The triggering enemy** |
 >

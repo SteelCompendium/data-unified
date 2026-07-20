@@ -13,7 +13,7 @@ You have the following ability, which can be used as a [ranged](../../../rule/co
 
 *A telepathic bolt instantly zaps a creature's brain.*
 
-| **Psionic, [Ranged](../../../rule/combat/ranged.md)**, **Strike, Telepathy** |     **Main action** |
+| **Psionic, [Ranged](../../../rule/combat/ranged.md)**, **Strike, Telepathy** |     **[Main action](../../../rule/combat/turn.md)** |
 |--------------------------------------------|--------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**                           | **🎯 One creature** |
 

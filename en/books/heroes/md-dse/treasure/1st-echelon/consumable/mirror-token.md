@@ -6,11 +6,13 @@ file_dpath: treasure/1st-echelon/consumable
 flavor: A gold-rimmed, mirror-faced coin trembles in the hand as if it were repelled by your touch.
 item_id: mirror-token
 item_name: Mirror Token
+item_prerequisite: Three sheets of glass, sunbaked gold dust
 keywords:
     - Psionic
 name: Mirror Token
 project_goal: "45"
 project_roll_characteristic: '[Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) or [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)'
+project_source: Texts or lore in Variac
 scc: mcdm.heroes.v1/treasure.1st-echelon.consumable/mirror-token
 source: mcdm.heroes.v1
 treasure_type: consumable

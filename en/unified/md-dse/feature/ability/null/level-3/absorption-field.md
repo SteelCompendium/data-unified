@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: "null"
 cost: 7 Discipline
 cost_amount: "7"
@@ -32,7 +32,7 @@ flavor: Your [null field](scc.v1:mcdm.heroes.v1/feature.null.level-1/null-field)
 keywords:
     - Psionic
 metadata:
-    action_type: Maneuver
+    action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: "null"
     cost: 7 Discipline
     distance: Self
@@ -48,5 +48,5 @@ metadata:
 name: Absorption Field
 target: Self
 type: feature
-usage: Maneuver
+usage: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 ```

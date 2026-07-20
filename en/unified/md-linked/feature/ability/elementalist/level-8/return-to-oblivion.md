@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: elementalist
 cost: 11 Essence
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
@@ -20,7 +20,7 @@ type: ability
 
 *You create a tear in reality that could consume everything.*
 
-| **Area, Magic, [Ranged](../../../../rule/combat/ranged.md), Void** | **Main action** |
+| **Area, Magic, [Ranged](../../../../rule/combat/ranged.md), Void** | **[Main action](../../../../rule/combat/turn.md)** |
 |-------------------------------|----------------:|
 | **📏 [Ranged](../../../../rule/combat/ranged.md) 10**              |  **🎯 Special** |
 

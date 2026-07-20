@@ -9,9 +9,9 @@ keywords:
     - Area
     - Magic
 metadata:
-    action_type: Maneuver
+    action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: conduit
-    content: "\n*A whirlwind of souls of the dead flies around you at your command.*\n\n| **Area, Magic**  |                     **Maneuver** |\n|------------------|---------------------------------:|\n| **\U0001F4CF 4 [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura)**    | **\U0001F3AF Each creature in the area** |\n\n**Effect:** Until the end of the encounter or until you are [dying](scc.v1:mcdm.heroes.v1/rule.health/dying), at the end of each of your [turns](scc.v1:mcdm.heroes.v1/rule.combat/turn), you can [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) each creature in the area up to a number of squares equal to your [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition) score. This [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) ignores [stability](scc.v1:mcdm.heroes.v1/rule.character/stability) for your allies."
+    content: "\n*A whirlwind of souls of the dead flies around you at your command.*\n\n| **Area, Magic**  |                     **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|------------------|---------------------------------:|\n| **\U0001F4CF 4 [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura)**    | **\U0001F3AF Each creature in the area** |\n\n**Effect:** Until the end of the encounter or until you are [dying](scc.v1:mcdm.heroes.v1/rule.health/dying), at the end of each of your [turns](scc.v1:mcdm.heroes.v1/rule.combat/turn), you can [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) each creature in the area up to a number of squares equal to your [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition) score. This [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) ignores [stability](scc.v1:mcdm.heroes.v1/rule.character/stability) for your allies."
     distance: 4 [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura)
     feature_type: ability
     flavor: A whirlwind of souls of the dead flies around you at your command.
@@ -29,4 +29,4 @@ metadata:
 name: Aura of Souls
 target: Each creature in the area
 type: feature
-usage: Maneuver
+usage: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'

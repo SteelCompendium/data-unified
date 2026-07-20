@@ -2,6 +2,7 @@
 agility: -1
 cost: 3 Malice for three minions
 free_strike: 3
+free_strike_damage_type: Poison
 immunities:
     - Corruption 2
     - poison 2
@@ -34,7 +35,7 @@ weaknesses:
 
 > 🗡 **Fetid Bindings 2d10 + 3 (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** | **Main action** |
+> | **Melee, Strike, Weapon** | **[Main action](../../../../../../rule/combat/turn.md)** |
 > |---------------------------|----------------:|
 > | **📏 Melee 2** | **🎯 One creature or object per minion** |
 >

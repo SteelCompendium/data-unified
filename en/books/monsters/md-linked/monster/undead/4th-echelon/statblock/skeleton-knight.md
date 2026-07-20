@@ -33,7 +33,7 @@ with_captain: Gain an edge on strikes
 
 > 🗡 **Four Swords Swing ([Signature Ability](../../../../rule/combat/signature-ability.md))**
 >
-> | **Melee, Strike, Weapon** |                          **Main action** |
+> | **Melee, Strike, Weapon** |                          **[Main action](../../../../rule/combat/turn.md)** |
 > |---------------------------|-----------------------------------------:|
 > | **📏 Melee 1**            | **🎯 One creature or object per minion** |
 >

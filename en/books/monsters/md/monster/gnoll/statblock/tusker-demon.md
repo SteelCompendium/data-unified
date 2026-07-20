@@ -30,7 +30,7 @@ type: statblock
 
 > 🗡 **Gore (Signature Ability)**
 >
-> | **Charge, Melee, Strike, Weapon** |                 **Main action** |
+> | **Charge, Melee, Strike, Weapon** |                 **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-----------------------------------|--------------------------------:|
 > | **📏 Melee 2**                    | **🎯 Two creatures or objects** |
 >
@@ -44,7 +44,7 @@ type: statblock
 
 > ❗️ **Vengeful Tusker**
 >
-> | **Ranged**      |        **Triggered action** |
+> | **Ranged**      |        **[Triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |
 > |-----------------|----------------------------:|
 > | **📏 Ranged 7** | **🎯 The triggering enemy** |
 >

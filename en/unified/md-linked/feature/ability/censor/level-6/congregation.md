@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: censor
 cost: 9 Wrath
 distance: '[Melee](../../../../rule/combat/melee.md) 1'
@@ -24,7 +24,7 @@ type: ability
 
 *You focus your allies' wrath on a chosen foe.*
 
-| **[Melee](../../../../rule/combat/melee.md), [Strike](../../../../rule/combat/strike.md), Weapon** |   **Main action** |
+| **[Melee](../../../../rule/combat/melee.md), [Strike](../../../../rule/combat/strike.md), Weapon** |   **[Main action](../../../../rule/combat/turn.md)** |
 |---------------------------|------------------:|
 | **📏 [Melee](../../../../rule/combat/melee.md) 1**            | **🎯 One creature** |
 

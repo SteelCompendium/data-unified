@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](../../../../rule/combat/turn.md)'
 class: troubadour
 cost: 11 Drama
 cost_amount: "11"
@@ -32,7 +32,7 @@ flavor: A little stage trickery, and where once stood a foe, now stands a friend
 keywords:
     - Magic
 metadata:
-    action_type: Maneuver
+    action_type: '[Maneuver](../../../../rule/combat/turn.md)'
     class: troubadour
     cost: 11 Drama
     distance: Self
@@ -48,5 +48,5 @@ metadata:
 name: Dramatic Reveal
 target: Self
 type: feature
-usage: Maneuver
+usage: '[Maneuver](../../../../rule/combat/turn.md)'
 ```

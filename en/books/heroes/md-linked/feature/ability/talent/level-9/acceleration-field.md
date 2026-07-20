@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: talent
 cost: 11 Clarity
 distance: '[Ranged](../../../../rule/combat/ranged.md) 5'
@@ -24,7 +24,7 @@ type: ability
 
 *You forcibly stuff more moments into a critical point in time, knowing full well you might need to steal some of your own.*
 
-| **Chronopathy, Psionic, [Ranged](../../../../rule/combat/ranged.md)** |     **Main action** |
+| **Chronopathy, Psionic, [Ranged](../../../../rule/combat/ranged.md)** |     **[Main action](../../../../rule/combat/turn.md)** |
 |----------------------------------|--------------------:|
 | **📏 [Ranged](../../../../rule/combat/ranged.md) 5**                  | **🎯 Three allies** |
 

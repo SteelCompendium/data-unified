@@ -29,7 +29,7 @@ type: statblock
 
 > 🏹 **Dark Longbow (Signature Ability)**
 >
-> | **Ranged, Strike, Weapon** |               **Main action** |
+> | **Ranged, Strike, Weapon** |               **[Main action](../../../rule/combat/turn.md)** |
 > |----------------------------|------------------------------:|
 > | **📏 Ranged 10**           | **🎯 One creature or object** |
 >
@@ -43,7 +43,7 @@ type: statblock
 
 > ❇️ **Archer's Cackletongue (2 [Malice](../../../rule/monster/malice.md))**
 >
-> | **Area**       |                          **Maneuver** |
+> | **Area**       |                          **[Maneuver](../../../rule/combat/turn.md)** |
 > |----------------|--------------------------------------:|
 > | **📏 2 burst** | **🎯 Self and each ally in the area** |
 >

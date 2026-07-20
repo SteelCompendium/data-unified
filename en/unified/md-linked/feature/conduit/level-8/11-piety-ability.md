@@ -13,7 +13,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *Your deity rewards you or an ally on the verge of defeat with a miracle burst of strength and resolve.*
 
-| **Magic, [Ranged](../../../rule/combat/ranged.md)**  |         **Main action** |
+| **Magic, [Ranged](../../../rule/combat/ranged.md)**  |         **[Main action](../../../rule/combat/turn.md)** |
 |--------------------|------------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**   | **🎯 Self or one ally** |
 
@@ -24,7 +24,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *A protective [aura](../../../rule/combat/aura.md) defends your allies from harm.*
 
-| **Area, Magic**   |                          **Maneuver** |
+| **Area, Magic**   |                          **[Maneuver](../../../rule/combat/turn.md)** |
 |-------------------|--------------------------------------:|
 | **📏 5 [aura](../../../rule/combat/aura.md)**     | **🎯 Self and each ally in the area** |
 
@@ -35,7 +35,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *"The power of the gods is within you, friends. Allow me to unleash it."*
 
-| **Area, Magic**   |                          **Maneuver** |
+| **Area, Magic**   |                          **[Maneuver](../../../rule/combat/turn.md)** |
 |-------------------|--------------------------------------:|
 | **📏 5 [aura](../../../rule/combat/aura.md)**     | **🎯 Self and each ally in the area** |
 
@@ -46,7 +46,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *You conjure an angel who moves a foe and heals your allies.*
 
-| **Magic, [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md)**  |               **Main action** |
+| **Magic, [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md)**  |               **[Main action](../../../rule/combat/turn.md)** |
 |----------------------------|------------------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**           | **🎯 One creature or object** |
 

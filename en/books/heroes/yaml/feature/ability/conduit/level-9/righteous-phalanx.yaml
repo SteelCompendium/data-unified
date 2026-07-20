@@ -10,9 +10,9 @@ keywords:
     - Magic
     - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'
 metadata:
-    action_type: Main action
+    action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: conduit
-    content: "\n*A wall of spinning swords and knives appears where you wish.*\n\n| **Area, Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)**  | **Main action** |\n|--------------------------|----------------:|\n| **\U0001F4CF 15 wall within 10** |  **\U0001F3AF Special** |\n\n**Effect:** The wall lasts until the end of the encounter or until you are [dying](scc.v1:mcdm.heroes.v1/rule.health/dying), and can be placed in occupied squares. Creatures can enter and pass through the wall. Each enemy who enters the area for the first time in a [combat round](scc.v1:mcdm.heroes.v1/rule.combat/combat-round) or starts their turn there takes 15 damage."
+    content: "\n*A wall of spinning swords and knives appears where you wish.*\n\n| **Area, Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)**  | **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|--------------------------|----------------:|\n| **\U0001F4CF 15 wall within 10** |  **\U0001F3AF Special** |\n\n**Effect:** The wall lasts until the end of the encounter or until you are [dying](scc.v1:mcdm.heroes.v1/rule.health/dying), and can be placed in occupied squares. Creatures can enter and pass through the wall. Each enemy who enters the area for the first time in a [combat round](scc.v1:mcdm.heroes.v1/rule.combat/combat-round) or starts their turn there takes 15 damage."
     distance: 15 wall within 10
     feature_type: ability
     flavor: A wall of spinning swords and knives appears where you wish.
@@ -31,4 +31,4 @@ metadata:
 name: Righteous Phalanx
 target: Special
 type: feature
-usage: Main action
+usage: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'

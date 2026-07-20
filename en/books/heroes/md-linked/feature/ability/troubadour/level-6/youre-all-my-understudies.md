@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](../../../../rule/combat/turn.md)'
 class: troubadour
 cost: 9 Drama
 distance: 5 [burst](../../../../rule/combat/burst.md)
@@ -19,7 +19,7 @@ type: ability
 
 *It's important for everyone to know each other's lines, just in case...*
 
-| **Area, Magic** |                 **Maneuver** |
+| **Area, Magic** |                 **[Maneuver](../../../../rule/combat/turn.md)** |
 |-----------------|-----------------------------:|
 | **📏 5 [burst](../../../../rule/combat/burst.md)**  | **🎯 Each ally in the area** |
 

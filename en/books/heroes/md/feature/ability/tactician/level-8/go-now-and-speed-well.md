@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: tactician
 cost: 11 Focus
 distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
@@ -17,7 +17,7 @@ type: ability
 
 *You direct an attack to strike true.*
 
-| **[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)**       |         **Main action** |
+| **[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)**       |         **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 |------------------|------------------------:|
 | **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10** | **🎯 Self or one ally** |
 

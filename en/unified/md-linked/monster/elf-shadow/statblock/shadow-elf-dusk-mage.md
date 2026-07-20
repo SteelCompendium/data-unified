@@ -32,7 +32,7 @@ with_captain: Gain an edge on strikes
 
 > 🏹 **Gloom Bolt (Signature Ability)**
 >
-> | **Magic, Ranged, Strike** |                          **Main action** |
+> | **Magic, Ranged, Strike** |                          **[Main action](../../../rule/combat/turn.md)** |
 > |---------------------------|-----------------------------------------:|
 > | **📏 Ranged 5**           | **🎯 One creature or object per minion** |
 >

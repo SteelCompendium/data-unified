@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: conduit
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
 effect: One ally within [distance](../../../../rule/combat/distance.md) gains a number of [surges](../../../../rule/resource/surge.md) equal to the [tier outcome](../../../../rule/dice/tier-outcome.md) of your [power roll](../../../../rule/dice/power-roll.md).
@@ -23,7 +23,7 @@ type: ability
 
 *Burning radiance falls upon your foe, transferring some of their energy to a nearby ally.*
 
-| **Magic, [Ranged](../../../../rule/combat/ranged.md), [Strike](../../../../rule/combat/strike.md)** |               **Main action** |
+| **Magic, [Ranged](../../../../rule/combat/ranged.md), [Strike](../../../../rule/combat/strike.md)** |               **[Main action](../../../../rule/combat/turn.md)** |
 |---------------------------|------------------------------:|
 | **📏 [Ranged](../../../../rule/combat/ranged.md) 10**          | **🎯 One creature or object** |
 

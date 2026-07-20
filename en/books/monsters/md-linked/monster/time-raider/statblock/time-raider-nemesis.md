@@ -32,7 +32,7 @@ type: statblock
 
 > 🗡 **Golden Scythe ([Signature Ability](../../../rule/combat/signature-ability.md))**
 >
-> | **Melee, Psionic, Strike, Weapon** |               **Main action** |
+> | **Melee, Psionic, Strike, Weapon** |               **[Main action](../../../rule/combat/turn.md)** |
 > |------------------------------------|------------------------------:|
 > | **📏 Melee 2**                     | **🎯 One creature or object** |
 >
@@ -46,7 +46,7 @@ type: statblock
 
 > 🏹 **Kinetic Crush (2 [Malice](../../../rule/monster/malice.md))**
 >
-> | **Psionic, Ranged, Strike** |     **Main action** |
+> | **Psionic, Ranged, Strike** |     **[Main action](../../../rule/combat/turn.md)** |
 > |-----------------------------|--------------------:|
 > | **📏 Ranged 10**            | **🎯 One creature** |
 >

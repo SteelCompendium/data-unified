@@ -31,7 +31,7 @@ with_captain: +3 damage bonus to strikes
 
 > ⚔️ **Javelin and Bellow ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
-> | **Charge, Melee, Ranged, Strike, Weapon** |                          **Main action** |
+> | **Charge, Melee, Ranged, Strike, Weapon** |                          **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-------------------------------------------|-----------------------------------------:|
 > | **📏 Melee 2 or ranged 5**                | **🎯 One creature or object per minion** |
 >

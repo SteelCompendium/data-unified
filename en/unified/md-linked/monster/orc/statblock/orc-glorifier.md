@@ -30,7 +30,7 @@ with_captain: +5 bonus to ranged distance
 
 > ⚔️ **Call to Victory ([Signature Ability](../../../rule/combat/signature-ability.md))**
 >
-> | **Magic, Melee, Ranged, Strike** |                          **Main action** |
+> | **Magic, Melee, Ranged, Strike** |                          **[Main action](../../../rule/combat/turn.md)** |
 > |----------------------------------|-----------------------------------------:|
 > | **📏 Melee 1 or ranged 5**       | **🎯 One creature or object per minion** |
 >

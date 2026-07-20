@@ -16,9 +16,9 @@
   ],
   "metadata": {
     "ability_type": "Triggered",
-    "action_type": "Triggered",
+    "action_type": "[Triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)",
     "class": "censor",
-    "content": "\n*You have looked at various futures, and only this one works.*\n\n| **Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)**  |   **Triggered** |\n|--------------------|----------------:|\n| **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**   | **🎯 One ally** |\n\n**Trigger:** You or another hero ends their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn).\n\n**Effect:** The target takes their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) after the triggering hero, and immediately removes all [conditions](scc.v1:mcdm.heroes.v1/rule.combat/condition) and negative effects on themself. During their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), the target has a double [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on [power rolls](scc.v1:mcdm.heroes.v1/rule.dice/power-roll).",
+    "content": "\n*You have looked at various futures, and only this one works.*\n\n| **Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)**  |   **[Triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |\n|--------------------|----------------:|\n| **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**   | **🎯 One ally** |\n\n**Trigger:** You or another hero ends their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn).\n\n**Effect:** The target takes their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) after the triggering hero, and immediately removes all [conditions](scc.v1:mcdm.heroes.v1/rule.combat/condition) and negative effects on themself. During their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), the target has a double [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on [power rolls](scc.v1:mcdm.heroes.v1/rule.dice/power-roll).",
     "distance": "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10",
     "feature_type": "ability",
     "flavor": "You have looked at various futures, and only this one works.",
@@ -40,5 +40,5 @@
   "target": "One ally",
   "trigger": "You or another hero ends their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn).",
   "type": "feature",
-  "usage": "Triggered"
+  "usage": "[Triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)"
 }

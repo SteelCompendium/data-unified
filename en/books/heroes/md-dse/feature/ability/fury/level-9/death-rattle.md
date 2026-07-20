@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: fury
 cost: 11 Ferocity
 cost_amount: "11"
@@ -41,7 +41,7 @@ keywords:
     - Area
     - Magic
 metadata:
-    action_type: Main action
+    action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: fury
     cost: 11 Ferocity
     distance: 3 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)
@@ -62,5 +62,5 @@ metadata:
 name: Death Rattle
 target: Each enemy in the area
 type: feature
-usage: Main action
+usage: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 ```

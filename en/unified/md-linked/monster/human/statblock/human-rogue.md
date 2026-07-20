@@ -33,7 +33,7 @@ with_captain: Gain an edge on strikes
 
 > ⚔️ **Concealed Dagger (Signature Ability)**
 >
-> | **Melee, Ranged, Strike, Weapon** |                          **Main action** |
+> | **Melee, Ranged, Strike, Weapon** |                          **[Main action](../../../rule/combat/turn.md)** |
 > |-----------------------------------|-----------------------------------------:|
 > | **📏 Melee 1 or Ranged 5**        | **🎯 One creature or object per minion** |
 >

@@ -31,7 +31,7 @@ type: statblock
 
 > 🏹 **Gatling Bolt Gun ([Signature Ability](../../../rule/combat/signature-ability.md))**
 >
-> | **Ranged, Strike, Weapon** |                 **Main action** |
+> | **Ranged, Strike, Weapon** |                 **[Main action](../../../rule/combat/turn.md)** |
 > |----------------------------|--------------------------------:|
 > | **📏 Ranged 10**           | **🎯 Two creatures or objects** |
 >
@@ -43,7 +43,7 @@ type: statblock
 
 > 🗡 **Valiar Axe (3 Malice)**
 >
-> | **Melee, Strike, Weapon** |               **Main action** |
+> | **Melee, Strike, Weapon** |               **[Main action](../../../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Melee 2**            | **🎯 One creature or object** |
 >
@@ -57,7 +57,7 @@ type: statblock
 
 > ❇️ **Magnetic Pull**
 >
-> | **Area**        |                             **Maneuver** |
+> | **Area**        |                             **[Maneuver](../../../rule/combat/turn.md)** |
 > |-----------------|-----------------------------------------:|
 > | **📏 10 burst** | **🎯 Each enemy and object in the area** |
 >

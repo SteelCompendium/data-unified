@@ -1,5 +1,5 @@
 ---
-action_type: Triggered
+action_type: '[Triggered](../../../../rule/combat/triggered-action.md)'
 class: troubadour
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
 effect: An [edge](../../../../rule/dice/edge.md) on the triggering roll becomes a [bane](../../../../rule/dice/bane.md), or a double [edge](../../../../rule/dice/edge.md) becomes an [edge](../../../../rule/dice/edge.md). A [bane](../../../../rule/dice/bane.md) becomes an [edge](../../../../rule/dice/edge.md), or a double [bane](../../../../rule/dice/bane.md) becomes a [bane](../../../../rule/dice/bane.md).
@@ -20,7 +20,7 @@ type: ability
 
 *All's fair in love and whatever.*
 
-| **[Ranged](../../../../rule/combat/ranged.md)**       |       **Triggered** |
+| **[Ranged](../../../../rule/combat/ranged.md)**       |       **[Triggered](../../../../rule/combat/triggered-action.md)** |
 |------------------|--------------------:|
 | **📏 [Ranged](../../../../rule/combat/ranged.md) 10** | **🎯 One creature** |
 

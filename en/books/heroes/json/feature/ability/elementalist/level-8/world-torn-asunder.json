@@ -21,9 +21,9 @@
     "Magic"
   ],
   "metadata": {
-    "action_type": "Main action",
+    "action_type": "[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)",
     "class": "elementalist",
-    "content": "\n*You stomp your foot and quake the whole world over.*\n\n| **Area, Earth, Magic** |               **Main action** |\n|------------------------|------------------------------:|\n| **📏 5 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)**         | **🎯 Each enemy in the area** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason):**\n\n- **≤11:** M \u003c WEAK[, prone](scc.v1:mcdm.heroes.v1/condition/prone)\n- **12-16:** M \u003c AVERAGE[, prone](scc.v1:mcdm.heroes.v1/condition/prone)\n- **17+:** M \u003c STRONG[, prone](scc.v1:mcdm.heroes.v1/condition/prone)\n\n**Effect:** You create a fissure in the ground [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to you that is a 10 x 2 line and 6 squares deep. Each creature in the area who [is prone](scc.v1:mcdm.heroes.v1/condition/prone) and [size](scc.v1:mcdm.heroes.v1/rule.character/size) 2 or smaller falls in. Other creatures can enter the fissure or can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) to the nearest unoccupied space of their choice outside it.",
+    "content": "\n*You stomp your foot and quake the whole world over.*\n\n| **Area, Earth, Magic** |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|------------------------|------------------------------:|\n| **📏 5 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)**         | **🎯 Each enemy in the area** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason):**\n\n- **≤11:** M \u003c WEAK[, prone](scc.v1:mcdm.heroes.v1/condition/prone)\n- **12-16:** M \u003c AVERAGE[, prone](scc.v1:mcdm.heroes.v1/condition/prone)\n- **17+:** M \u003c STRONG[, prone](scc.v1:mcdm.heroes.v1/condition/prone)\n\n**Effect:** You create a fissure in the ground [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to you that is a 10 x 2 line and 6 squares deep. Each creature in the area who [is prone](scc.v1:mcdm.heroes.v1/condition/prone) and [size](scc.v1:mcdm.heroes.v1/rule.character/size) 2 or smaller falls in. Other creatures can enter the fissure or can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) to the nearest unoccupied space of their choice outside it.",
     "distance": "5 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)",
     "feature_type": "ability",
     "flavor": "You stomp your foot and quake the whole world over.",
@@ -44,5 +44,5 @@
   "name": "World Torn Asunder",
   "target": "Each enemy in the area",
   "type": "feature",
-  "usage": "Main action"
+  "usage": "[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)"
 }

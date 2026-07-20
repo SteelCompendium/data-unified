@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: talent
 cost: 3 Clarity
 distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 2'
@@ -19,7 +19,7 @@ type: ability
 
 *You give a target a glimpse into the future so that they're ready for what comes next.*
 
-| **Chronopathy, [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), Psionic** |         **Main action** |
+| **Chronopathy, [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), Psionic** |         **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 |---------------------------------|------------------------:|
 | **📏 [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 2**                  | **🎯 Self or one ally** |
 

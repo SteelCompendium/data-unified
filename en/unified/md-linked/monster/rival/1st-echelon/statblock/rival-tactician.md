@@ -29,7 +29,7 @@ type: statblock
 
 > 🏹 **Dual Targeting Shot ([Signature Ability](../../../../rule/combat/signature-ability.md))**
 >
-> | **Ranged, Strike, Weapon** |                 **Main action** |
+> | **Ranged, Strike, Weapon** |                 **[Main action](../../../../rule/combat/turn.md)** |
 > |----------------------------|--------------------------------:|
 > | **📏 Ranged 10**           | **🎯 Two creatures or objects** |
 >
@@ -43,7 +43,7 @@ type: statblock
 
 > 🏹 **I'll Cover You! (3 [Malice](../../../../rule/monster/malice.md))**
 >
-> | **Ranged, Strike, Weapon** |               **Main action** |
+> | **Ranged, Strike, Weapon** |               **[Main action](../../../../rule/combat/turn.md)** |
 > |----------------------------|------------------------------:|
 > | **📏 Ranged 5**            | **🎯 One creature or object** |
 >
@@ -57,7 +57,7 @@ type: statblock
 
 > ❗️ **Overwatch**
 >
-> | **Ranged**       |        **Triggered action** |
+> | **Ranged**       |        **[Triggered action](../../../../rule/combat/triggered-action.md)** |
 > |------------------|----------------------------:|
 > | **📏 Ranged 10** | **🎯 The triggering enemy** |
 >

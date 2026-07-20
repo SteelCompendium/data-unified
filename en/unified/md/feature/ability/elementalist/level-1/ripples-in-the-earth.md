@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: elementalist
 cost: 3 Essence
 distance: 2 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)
@@ -23,7 +23,7 @@ type: ability
 
 *Like a stone was dropped into a pond, waves in the earth radiate from you.*
 
-| **Area, Earth, Magic** |               **Main action** |
+| **Area, Earth, Magic** |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 |------------------------|------------------------------:|
 | **📏 2 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)**         | **🎯 Each enemy in the area** |
 

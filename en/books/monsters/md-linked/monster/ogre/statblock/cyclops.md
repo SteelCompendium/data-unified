@@ -30,7 +30,7 @@ with_captain: +4 bonus to speed
 
 > ❇️ **Wild Slam ([Signature Ability](../../../rule/combat/signature-ability.md))**
 >
-> | **Area, Weapon** |                          **Main action** |
+> | **Area, Weapon** |                          **[Main action](../../../rule/combat/turn.md)** |
 > |------------------|-----------------------------------------:|
 > | **📏 1 burst**   | **🎯 Each enemy and object in the area** |
 >

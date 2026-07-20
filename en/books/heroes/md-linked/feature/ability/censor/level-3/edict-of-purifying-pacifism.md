@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](../../../../rule/combat/turn.md)'
 class: censor
 cost: 7 Wrath
 distance: 2 [aura](../../../../rule/combat/aura.md)
@@ -18,7 +18,7 @@ type: ability
 
 *You shed a righteous energy that punishes enemies who would harm you or your allies.*
 
-| **Area, Magic** |                  **Maneuver** |
+| **Area, Magic** |                  **[Maneuver](../../../../rule/combat/turn.md)** |
 |-----------------|------------------------------:|
 | **📏 2 [aura](../../../../rule/combat/aura.md)**   | **🎯 Each enemy in the area** |
 

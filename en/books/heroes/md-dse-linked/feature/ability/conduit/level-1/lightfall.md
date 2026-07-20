@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: conduit
 distance: 2 [burst](../../../../rule/combat/burst.md)
 effect: You can [teleport](../../../../movement/teleport.md) yourself and each ally in the area to unoccupied spaces in the area.
@@ -39,7 +39,7 @@ keywords:
     - Area
     - Magic
 metadata:
-    action_type: Main action
+    action_type: '[Main action](../../../../rule/combat/turn.md)'
     class: conduit
     distance: 2 [burst](../../../../rule/combat/burst.md)
     effect: You can [teleport](../../../../movement/teleport.md) yourself and each ally in the area to unoccupied spaces in the area.
@@ -60,5 +60,5 @@ metadata:
 name: Lightfall
 target: Each enemy in the area
 type: feature
-usage: Main action
+usage: '[Main action](../../../../rule/combat/turn.md)'
 ```

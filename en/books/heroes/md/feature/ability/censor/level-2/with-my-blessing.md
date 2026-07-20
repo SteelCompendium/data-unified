@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: censor
 cost: 5 Wrath
 distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
@@ -19,7 +19,7 @@ type: ability
 
 *A word in prayer, and the gods show the way.*
 
-| **Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)** |         **Main action** |
+| **Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)** |         **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 |-------------------|------------------------:|
 | **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**  | **🎯 Self or one ally** |
 

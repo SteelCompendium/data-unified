@@ -13,7 +13,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *You cause a plume of shadow to erupt from your eyes and create a cloud of darkness.*
 
-| **Area, Magic** |   **Maneuver** |
+| **Area, Magic** |   **[Maneuver](../../../rule/combat/turn.md)** |
 |-----------------|---------------:|
 | **📏 3 [burst](../../../rule/combat/burst.md)**  | **🎯 Special** |
 
@@ -24,7 +24,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *You sweep your foe off their feet and plunge them into absolute darkness.*
 
-| **Magic, [Melee](../../../rule/combat/melee.md), [Strike](../../../rule/combat/strike.md), Weapon** |               **Main action** |
+| **Magic, [Melee](../../../rule/combat/melee.md), [Strike](../../../rule/combat/strike.md), Weapon** |               **[Main action](../../../rule/combat/turn.md)** |
 |----------------------------------|------------------------------:|
 | **📏 [Melee](../../../rule/combat/melee.md) 1**                   | **🎯 One creature or object** |
 
@@ -41,7 +41,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *You vanish. They fall. You reappear.*
 
-| **Area, [Melee](../../../rule/combat/melee.md), Weapon**     |               **Main action** |
+| **Area, [Melee](../../../rule/combat/melee.md), Weapon**     |               **[Main action](../../../rule/combat/turn.md)** |
 |-----------------------------|------------------------------:|
 | **📏 10 x 1 line within 1** | **🎯 Each enemy in the area** |
 
@@ -58,7 +58,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *Silence is a virtue. A knife pinning their mouth shut is the next best thing.*
 
-| **[Melee](../../../rule/combat/melee.md), [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md), Weapon** |     **Main action** |
+| **[Melee](../../../rule/combat/melee.md), [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md), Weapon** |     **[Main action](../../../rule/combat/turn.md)** |
 |-----------------------------------|--------------------:|
 | **📏 [Melee](../../../rule/combat/melee.md) 1 or [ranged](../../../rule/combat/ranged.md) 5**        | **🎯 One creature** |
 

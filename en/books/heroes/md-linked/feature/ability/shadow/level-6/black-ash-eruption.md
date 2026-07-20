@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: shadow
 cost: 9 Insight
 distance: '[Melee](../../../../rule/combat/melee.md) 1'
@@ -25,7 +25,7 @@ type: ability
 
 *Your attack produces a cloud of black ash that launches an enemy into the air.*
 
-| **Magic, [Melee](../../../../rule/combat/melee.md), [Strike](../../../../rule/combat/strike.md), Weapon** |     **Main action** |
+| **Magic, [Melee](../../../../rule/combat/melee.md), [Strike](../../../../rule/combat/strike.md), Weapon** |     **[Main action](../../../../rule/combat/turn.md)** |
 |----------------------------------|--------------------:|
 | **📏 [Melee](../../../../rule/combat/melee.md) 1**                   | **🎯 One creature** |
 

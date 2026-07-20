@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](../../../../rule/combat/turn.md)'
 class: censor
 cost: 9 Wrath
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
@@ -23,7 +23,7 @@ type: ability
 
 *You reveal a vision of your enemies' fate that causes them to scramble as it staggers them.*
 
-| **Magic, [Ranged](../../../../rule/combat/ranged.md), [Strike](../../../../rule/combat/strike.md)** |         **Maneuver** |
+| **Magic, [Ranged](../../../../rule/combat/ranged.md), [Strike](../../../../rule/combat/strike.md)** |         **[Maneuver](../../../../rule/combat/turn.md)** |
 |---------------------------|---------------------:|
 | **📏 [Ranged](../../../../rule/combat/ranged.md) 10**          | **🎯 Three enemies** |
 

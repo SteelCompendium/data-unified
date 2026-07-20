@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: censor
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
 effect: Each target is [teleport](../../../../movement/teleport.md)ed to unoccupied spaces within 5 squares of a willing creature who you are bonded to with your [Invocation of the Heart](../../../censor/level-4/invocation-of-the-heart.md) feature. You don't need [line of effect](../../../../rule/combat/line-of-effect.md) to the bonded creature but you must be on the same world.
@@ -18,7 +18,7 @@ type: ability
 
 *You concentrate on a friend and [teleport](../../../../movement/teleport.md) to them.*
 
-| **Magic, [Ranged](../../../../rule/combat/ranged.md)** |           **Main action** |
+| **Magic, [Ranged](../../../../rule/combat/ranged.md)** |           **[Main action](../../../../rule/combat/turn.md)** |
 |-------------------|--------------------------:|
 | **📏 [Ranged](../../../../rule/combat/ranged.md) 10**  | **🎯 Self and each ally** |
 

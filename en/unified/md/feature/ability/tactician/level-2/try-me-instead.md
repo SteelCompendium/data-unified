@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: tactician
 cost: 5 Focus
 distance: Self; see below
@@ -24,7 +24,7 @@ type: ability
 
 *"Try picking on someone my [size](scc.v1:mcdm.heroes.v1/rule.character/size)."*
 
-| **[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), Weapon** | **Main action** |
+| **[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), Weapon** | **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 |---------------------------|----------------:|
 | **📏 Self; see below**    |     **🎯 Self** |
 

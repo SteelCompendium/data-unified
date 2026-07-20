@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: "null"
 distance: '[Melee](../../../../rule/combat/melee.md) 1'
 effect: You can deal damage equal to your [Agility](../../../../rule/character/agility.md) score to one creature or object [adjacent](../../../../rule/combat/adjacent.md) to you.
@@ -24,7 +24,7 @@ type: ability
 
 *You strike so quickly that your hands become a blur.*
 
-| **[Melee](../../../../rule/combat/melee.md), Psionic, [Strike](../../../../rule/combat/strike.md), Weapon** |                 **Main action** |
+| **[Melee](../../../../rule/combat/melee.md), Psionic, [Strike](../../../../rule/combat/strike.md), Weapon** |                 **[Main action](../../../../rule/combat/turn.md)** |
 |------------------------------------|--------------------------------:|
 | **📏 [Melee](../../../../rule/combat/melee.md) 1**                     | **🎯 Two creatures or objects** |
 

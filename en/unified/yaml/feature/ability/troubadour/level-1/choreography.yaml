@@ -9,9 +9,9 @@ keywords:
     - Magic
     - Performance
 metadata:
-    action_type: No action
+    action_type: '[No action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: troubadour
-    content: "\n*Taps, kicks, steps. It's all \"[choreography](scc.v1:mcdm.heroes.v1/feature.ability.troubadour.level-1/choreography).\"*\n\n| **Area, Magic, Performance** |                         **No action** |\n|------------------------------|--------------------------------------:|\n| **\U0001F4CF 5 [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura)**                | **\U0001F3AF Self and each ally in the area** |\n\n**Effect:** While this performance is active, each target who starts their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) in the area gains a +2 [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to [speed](scc.v1:mcdm.heroes.v1/rule.character/speed) until the end of their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn)."
+    content: "\n*Taps, kicks, steps. It's all \"[choreography](scc.v1:mcdm.heroes.v1/feature.ability.troubadour.level-1/choreography).\"*\n\n| **Area, Magic, Performance** |                         **[No action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|------------------------------|--------------------------------------:|\n| **\U0001F4CF 5 [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura)**                | **\U0001F3AF Self and each ally in the area** |\n\n**Effect:** While this performance is active, each target who starts their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) in the area gains a +2 [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to [speed](scc.v1:mcdm.heroes.v1/rule.character/speed) until the end of their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn)."
     distance: 5 [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura)
     feature_type: ability
     flavor: Taps, kicks, steps. It's all "[choreography](scc.v1:mcdm.heroes.v1/feature.ability.troubadour.level-1/choreography)."
@@ -29,4 +29,4 @@ metadata:
 name: Choreography
 target: Self and each ally in the area
 type: feature
-usage: No action
+usage: '[No action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'

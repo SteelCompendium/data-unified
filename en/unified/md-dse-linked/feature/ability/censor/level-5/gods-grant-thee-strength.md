@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: censor
 cost: 9 Wrath
 cost_amount: "9"
@@ -32,7 +32,7 @@ flavor: You channel divine force for movement that cannot be stopped.
 keywords:
     - '[Ranged](../../../../rule/combat/ranged.md)'
 metadata:
-    action_type: Main action
+    action_type: '[Main action](../../../../rule/combat/turn.md)'
     class: censor
     cost: 9 Wrath
     distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
@@ -48,5 +48,5 @@ metadata:
 name: Gods Grant Thee Strength
 target: Self or one ally
 type: feature
-usage: Main action
+usage: '[Main action](../../../../rule/combat/turn.md)'
 ```

@@ -31,7 +31,7 @@ weaknesses:
 
 > 🗡 **Hair Whip (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |               **Main action** |
+> | **Melee, Strike, Weapon** |               **[Main action](../../../../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Melee 4**            | **🎯 One creature or object** |
 >
@@ -45,7 +45,7 @@ weaknesses:
 
 > ❇️ **Tangled Nest (5 [Malice](../../../../rule/monster/malice.md))**
 >
-> | **Area**       |                  **Maneuver** |
+> | **Area**       |                  **[Maneuver](../../../../rule/combat/turn.md)** |
 > |----------------|------------------------------:|
 > | **📏 4 burst** | **🎯 Each enemy in the area** |
 >

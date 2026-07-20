@@ -30,7 +30,7 @@ type: statblock
 
 > 🔳 **Toxic Winds (Signature Ability)**
 >
-> | **Area, Magic, Ranged** |               **Main action** |
+> | **Area, Magic, Ranged** |               **[Main action](../../../rule/combat/turn.md)** |
 > |-------------------------|------------------------------:|
 > | **📏 3 cube within 15** | **🎯 Each enemy in the area** |
 >
@@ -44,7 +44,7 @@ type: statblock
 
 > 🔳 **Swamp Gas**
 >
-> | **Area, Magic, Ranged** |   **Maneuver** |
+> | **Area, Magic, Ranged** |   **[Maneuver](../../../rule/combat/turn.md)** |
 > |-------------------------|---------------:|
 > | **📏 3 cube within 10** | **🎯 Special** |
 >

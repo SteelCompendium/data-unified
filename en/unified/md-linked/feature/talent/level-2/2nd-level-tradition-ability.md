@@ -17,7 +17,7 @@ Choose one of the following abilities.
 
 *Time slows down around you. Your heartbeat is the only gauge of the extra moments you've gained.*
 
-| **Chronopathy, Psionic, [Ranged](../../../rule/combat/ranged.md)** |   **Maneuver** |
+| **Chronopathy, Psionic, [Ranged](../../../rule/combat/ranged.md)** |   **[Maneuver](../../../rule/combat/turn.md)** |
 |----------------------------------|---------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**                 | **🎯 Special** |
 
@@ -36,7 +36,7 @@ Choose one of the following abilities.
 
 *Perhaps they wonder why everyone else is moving so quickly?*
 
-| **Chronopathy, Psionic, [Ranged](../../../rule/combat/ranged.md)** |                      **Maneuver** |
+| **Chronopathy, Psionic, [Ranged](../../../rule/combat/ranged.md)** |                      **[Maneuver](../../../rule/combat/turn.md)** |
 |----------------------------------|----------------------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**                 | **🎯 Three creatures or objects** |
 
@@ -59,7 +59,7 @@ Choose one of the following abilities.
 
 *Everyone get away from me!*
 
-| **Area, Psionic, Telekinesis** |               **Main action** |
+| **Area, Psionic, Telekinesis** |               **[Main action](../../../rule/combat/turn.md)** |
 |--------------------------------|------------------------------:|
 | **📏 1 [burst](../../../rule/combat/burst.md)**                 | **🎯 Each enemy in the area** |
 
@@ -76,7 +76,7 @@ Choose one of the following abilities.
 
 *You raise the target slightly into the air, then smother them against the ground.*
 
-| **Psionic, [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md), Telekinesis** |               **Main action** |
+| **Psionic, [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md), Telekinesis** |               **[Main action](../../../rule/combat/turn.md)** |
 |------------------------------------------|------------------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**                         | **🎯 One creature or object** |
 
@@ -97,7 +97,7 @@ Choose one of the following abilities.
 
 *You overload their senses, turning all their subconscious thoughts into conscious ones.*
 
-| **Psionic, [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md), Telepathy** |     **Main action** |
+| **Psionic, [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md), Telepathy** |     **[Main action](../../../rule/combat/turn.md)** |
 |----------------------------------------|--------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**                       | **🎯 One creature** |
 
@@ -114,7 +114,7 @@ Choose one of the following abilities.
 
 *You control an enemy's nervous system. How pleasant for them.*
 
-| **Psionic, [Ranged](../../../rule/combat/ranged.md), Telepathy** |  **Main action** |
+| **Psionic, [Ranged](../../../rule/combat/ranged.md), Telepathy** |  **[Main action](../../../rule/combat/turn.md)** |
 |--------------------------------|-----------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**               | **🎯 One enemy** |
 

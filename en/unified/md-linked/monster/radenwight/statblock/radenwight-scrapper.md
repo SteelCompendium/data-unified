@@ -31,7 +31,7 @@ with_captain: +2 bonus to melee distance
 
 > 🗡 **Buckler Bash ([Signature Ability](../../../rule/combat/signature-ability.md))**
 >
-> | **Charge, Melee, Strike, Weapon** |                          **Main action** |
+> | **Charge, Melee, Strike, Weapon** |                          **[Main action](../../../rule/combat/turn.md)** |
 > |-----------------------------------|-----------------------------------------:|
 > | **📏 Melee 1**                    | **🎯 One creature or object per minion** |
 >
@@ -43,7 +43,7 @@ with_captain: +2 bonus to melee distance
 
 > ❗️ **Ready Rodent**
 >
-> | **Melee, Weapon** | **Triggered action** |
+> | **Melee, Weapon** | **[Triggered action](../../../rule/combat/triggered-action.md)** |
 > |-------------------|---------------------:|
 > | **📏 Melee 1**    |  **🎯 One creature** |
 >

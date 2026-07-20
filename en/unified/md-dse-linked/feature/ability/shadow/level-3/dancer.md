@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](../../../../rule/combat/turn.md)'
 class: shadow
 cost: 7 Insight
 cost_amount: "7"
@@ -30,7 +30,7 @@ feature_type: ability
 flavor: You enter a flow state that makes you nearly impossible to pin down.
 keywords: []
 metadata:
-    action_type: Maneuver
+    action_type: '[Maneuver](../../../../rule/combat/turn.md)'
     class: shadow
     cost: 7 Insight
     distance: Self
@@ -45,5 +45,5 @@ metadata:
 name: Dancer
 target: Self
 type: feature
-usage: Maneuver
+usage: '[Maneuver](../../../../rule/combat/turn.md)'
 ```

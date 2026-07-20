@@ -6,12 +6,14 @@ file_dpath: treasure/1st-echelon/trinket
 flavor: This loose-fitting, scaley bangle shifts and slithers while worn. It emits a bone-chilling rattle each time it hits its user's wrist.
 item_id: snakerattle-bangle
 item_name: Snakerattle Bangle
+item_prerequisite: The tail of a [size](scc.v1:mcdm.heroes.v1/rule.character/size) 3 or larger rattlesnake
 keywords:
     - Arms
     - Magic
 name: Snakerattle Bangle
 project_goal: "150"
 project_roll_characteristic: '[Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) or [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)'
+project_source: Texts or lore in Anjali
 scc: mcdm.summoner.v1/treasure.1st-echelon.trinket/snakerattle-bangle
 source: mcdm.summoner.v1
 treasure_type: trinket

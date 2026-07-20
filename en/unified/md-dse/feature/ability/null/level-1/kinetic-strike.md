@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: "null"
 distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
 feature_type: ability
@@ -41,7 +41,7 @@ keywords:
     - '[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)'
     - Weapon
 metadata:
-    action_type: Main action
+    action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: "null"
     distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
     flavor: Your opponent staggers. They cannot ignore you.
@@ -63,5 +63,5 @@ metadata:
 name: Kinetic Strike
 target: One creature or object
 type: feature
-usage: Main action
+usage: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 ```

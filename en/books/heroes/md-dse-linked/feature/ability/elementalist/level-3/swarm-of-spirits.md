@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: elementalist
 cost: 7 Essence
 cost_amount: "7"
@@ -44,7 +44,7 @@ keywords:
     - Green
     - Magic
 metadata:
-    action_type: Main action
+    action_type: '[Main action](../../../../rule/combat/turn.md)'
     class: elementalist
     cost: 7 Essence
     distance: 3 [aura](../../../../rule/combat/aura.md)
@@ -66,5 +66,5 @@ metadata:
 name: Swarm of Spirits
 target: Each enemy in the area
 type: feature
-usage: Main action
+usage: '[Main action](../../../../rule/combat/turn.md)'
 ```

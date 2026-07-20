@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: shadow
 cost: 11 Insight
 distance: 5 x 1 line within 5
@@ -22,7 +22,7 @@ type: ability
 
 *You fire a projectile so fast that it passes through a line of foes, hamstringing them.*
 
-| **Area, [Ranged](../../../../rule/combat/ranged.md), Weapon**   |               **Main action** |
+| **Area, [Ranged](../../../../rule/combat/ranged.md), Weapon**   |               **[Main action](../../../../rule/combat/turn.md)** |
 |----------------------------|------------------------------:|
 | **📏 5 x 1 line within 5** | **🎯 Each enemy in the area** |
 

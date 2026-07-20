@@ -17,7 +17,7 @@ Choose one of the following abilities.
 
 *Your foe gets a glimpse of how it will end for them.*
 
-| **Chronopathy, Psionic, [Melee](../../../rule/combat/melee.md)** |  **Main action** |
+| **Chronopathy, Psionic, [Melee](../../../rule/combat/melee.md)** |  **[Main action](../../../rule/combat/turn.md)** |
 |---------------------------------|-----------------:|
 | **📏 [Melee](../../../rule/combat/melee.md) 2**                  | **🎯 One enemy** |
 
@@ -36,7 +36,7 @@ Choose one of the following abilities.
 
 *Keep everything as it was. Ignore everything that will be.*
 
-| **Area, Chronopathy, Psionic, [Ranged](../../../rule/combat/ranged.md)** |                             **Main action** |
+| **Area, Chronopathy, Psionic, [Ranged](../../../rule/combat/ranged.md)** |                             **[Main action](../../../rule/combat/turn.md)** |
 |----------------------------------------|--------------------------------------------:|
 | **📏 4 [cube](../../../rule/combat/cube.md) within 10**                | **🎯 Each creature and object in the area** |
 
@@ -61,7 +61,7 @@ Choose one of the following abilities.
 
 *You bend gravity into a fine point and pull your foes toward it.*
 
-| **Area, Psionic, [Ranged](../../../rule/combat/ranged.md), Telekinesis** |                             **Main action** |
+| **Area, Psionic, [Ranged](../../../rule/combat/ranged.md), Telekinesis** |                             **[Main action](../../../rule/combat/turn.md)** |
 |----------------------------------------|--------------------------------------------:|
 | **📏 4 [cube](../../../rule/combat/cube.md) within 10**                | **🎯 Each creature and object in the area** |
 
@@ -80,7 +80,7 @@ Choose one of the following abilities.
 
 *You raise the target into the air without breaking a sweat.*
 
-| **Psionic, [Ranged](../../../rule/combat/ranged.md)**, **Strike, Telekinesis** |               **Main action** |
+| **Psionic, [Ranged](../../../rule/combat/ranged.md)**, **Strike, Telekinesis** |               **[Main action](../../../rule/combat/turn.md)** |
 |----------------------------------------------|------------------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**                             | **🎯 One creature or object** |
 
@@ -101,7 +101,7 @@ Choose one of the following abilities.
 
 *It's a subtle mindset shift. It's not that they're your enemy—you just don't like them!*
 
-| **Psionic, [Melee](../../../rule/combat/melee.md)**, **Strike, Telepathy** |     **Main action** |
+| **Psionic, [Melee](../../../rule/combat/melee.md)**, **Strike, Telepathy** |     **[Main action](../../../rule/combat/turn.md)** |
 |-------------------------------------------|--------------------:|
 | **📏 [Melee](../../../rule/combat/melee.md) 2**                            | **🎯 One creature** |
 
@@ -118,7 +118,7 @@ Choose one of the following abilities.
 
 *You manipulate your enemies' minds and make them wonder if you were ever really there in the first place.*
 
-| **Psionic, [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md), Telepathy** |   **Maneuver** |
+| **Psionic, [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md), Telepathy** |   **[Maneuver](../../../rule/combat/turn.md)** |
 |----------------------------------------|---------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**                       | **🎯 Special** |
 

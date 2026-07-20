@@ -37,7 +37,7 @@ At the start of any level 4 or higher war dog's turn, you can spend [Malice](../
 
 > 🏹 **Loyalty Unto Death (5 [Malice](../../../rule/monster/malice.md))**
 >
-> | **Magic, Ranged** |        **Maneuver** |
+> | **Magic, Ranged** |        **[Maneuver](../../../rule/combat/turn.md)** |
 > |-------------------|--------------------:|
 > | **📏 Ranged 10**  | **🎯 Two war dogs** |
 >

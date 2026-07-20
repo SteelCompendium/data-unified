@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: shadow
 cost: 9 Insight
 distance: '[Melee](../../../../rule/combat/melee.md) 1'
@@ -25,7 +25,7 @@ type: ability
 
 *You prick little needles on the tips of your fingers into the nerves of your enemies and cause them to lose control.*
 
-| **Magic, [Melee](../../../../rule/combat/melee.md)**, **Strike, Weapon** |    **Main action** |
+| **Magic, [Melee](../../../../rule/combat/melee.md)**, **Strike, Weapon** |    **[Main action](../../../../rule/combat/turn.md)** |
 |--------------------------------------|-------------------:|
 | **📏 [Melee](../../../../rule/combat/melee.md) 1**                       | **🎯 Two enemies** |
 

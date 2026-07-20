@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: talent
 cost: 9 Clarity
 cost_amount: "9"
@@ -45,7 +45,7 @@ keywords:
     - Psionic
     - '[Melee](../../../../rule/combat/melee.md)'
 metadata:
-    action_type: Main action
+    action_type: '[Main action](../../../../rule/combat/turn.md)'
     class: talent
     cost: 9 Clarity
     distance: '[Melee](../../../../rule/combat/melee.md) 2'
@@ -68,5 +68,5 @@ metadata:
 name: Fate
 target: One enemy
 type: feature
-usage: Main action
+usage: '[Main action](../../../../rule/combat/turn.md)'
 ```

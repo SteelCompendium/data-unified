@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: talent
 cost: 7 Clarity
 cost_amount: "7"
@@ -36,7 +36,7 @@ keywords:
     - Psionic
     - Telepathy
 metadata:
-    action_type: Main action
+    action_type: '[Main action](../../../../rule/combat/turn.md)'
     class: talent
     cost: 7 Clarity
     distance: 3 [aura](../../../../rule/combat/aura.md)
@@ -54,5 +54,5 @@ metadata:
 name: Reflector Field
 target: Special
 type: feature
-usage: Main action
+usage: '[Main action](../../../../rule/combat/turn.md)'
 ```

@@ -28,7 +28,7 @@ type: statblock
 
 > 🗡 **Natural Weapon (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](../../../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 2**            | **🎯 Two creatures or objects** |
 >
@@ -40,7 +40,7 @@ type: statblock
 
 > ❇️ **Wild Swing**
 >
-> | **Area, Weapon** |                         **Main action** |
+> | **Area, Weapon** |                         **[Main action](../../../rule/combat/turn.md)** |
 > |------------------|----------------------------------------:|
 > | **📏 1 burst**   | **🎯 Each enemy or object in the area** |
 >
@@ -52,7 +52,7 @@ type: statblock
 
 > ❗️ **Swat**
 >
-> | **Melee**      |                     **Triggered action** |
+> | **Melee**      |                     **[Triggered action](../../../rule/combat/triggered-action.md)** |
 > |----------------|-----------------------------------------:|
 > | **📏 Melee 1** | **🎯 The triggering creature or object** |
 >

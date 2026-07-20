@@ -1,5 +1,5 @@
 ---
-action_type: Triggered
+action_type: '[Triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)'
 class: tactician
 distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 2'
 effect: You can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) 1 square. If the target is you, or if you end this [shift](scc.v1:mcdm.heroes.v1/movement/shifting) [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the target, the target takes half the damage. If the damage has any [potency](scc.v1:mcdm.heroes.v1/rule.character/potency) effect associated with it, the [potency](scc.v1:mcdm.heroes.v1/rule.character/potency) is decreased by 1.
@@ -21,7 +21,7 @@ type: ability
 
 *Your quick reflexes cost an enemy the precision they seek.*
 
-| **[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), Weapon** |            **Triggered** |
+| **[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), Weapon** |            **[Triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |
 |-------------------|-------------------------:|
 | **📏 [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 2**    |  **🎯 Self or one ally** |
 

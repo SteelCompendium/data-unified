@@ -90,7 +90,7 @@ type: featureblock
 
 > 🏹 **Soul Sleuth 2d10 + highest characteristic (Encounter)**
 >
-> | **Area, Magic** | **Main action** |
+> | **Area, Magic** | **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-----------------|----------------:|
 > | **📏 4 cube within 5** | **🎯 Each enemy or object in the area** |
 >
@@ -106,7 +106,7 @@ type: featureblock
 
 > 🏹 **Summon Violents (Encounter)**
 >
-> | **Magic, Ranged** | **Main action** |
+> | **Magic, Ranged** | **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-------------------|----------------:|
 > | **📏 Ranged 10** | **🎯 Special** |
 >
@@ -116,7 +116,7 @@ type: featureblock
 
 > 🌀 **Cleansing Flense (Encounter)**
 >
-> | **Area, Magic** | **Maneuver** |
+> | **Area, Magic** | **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-----------------|-------------:|
 > | **📏 5 burst** | **🎯 Each of the detective's minions in the area** |
 >
@@ -128,7 +128,7 @@ type: featureblock
 
 > 🏹 **Blightwash 2d10 + highest characteristic (Encounter)**
 >
-> | **Area, Magic** | **Main action** |
+> | **Area, Magic** | **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-----------------|----------------:|
 > | **📏 Ranged 5** | **🎯 One of the detective's minions** |
 >
@@ -144,7 +144,7 @@ type: featureblock
 
 > 🏹 **Summon Gorrres (Encounter)**
 >
-> | **Magic, Ranged** | **Main action** |
+> | **Magic, Ranged** | **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-------------------|----------------:|
 > | **📏 Ranged 10** | **🎯 Special** |
 >

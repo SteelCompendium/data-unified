@@ -28,7 +28,7 @@ type: statblock
 
 > 🗡 **Shrapnel Whip (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](../../../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 2**            | **🎯 Two creatures or objects** |
 >
@@ -42,7 +42,7 @@ type: statblock
 
 > ❇️ **Carnage's Cackletongue (4 [Malice](../../../rule/monster/malice.md))**
 >
-> | **Area**       |                          **Maneuver** |
+> | **Area**       |                          **[Maneuver](../../../rule/combat/turn.md)** |
 > |----------------|--------------------------------------:|
 > | **📏 5 burst** | **🎯 Self and each ally in the area** |
 >

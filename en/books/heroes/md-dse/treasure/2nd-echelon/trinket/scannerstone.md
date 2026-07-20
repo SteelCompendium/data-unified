@@ -6,11 +6,13 @@ file_dpath: treasure/2nd-echelon/trinket
 flavor: This flat, palm-sized triangular stone is decorated with a starfield of tiny gems.
 item_id: scannerstone
 item_name: Scannerstone
+item_prerequisite: A piece of polished obsidian, seven flawless pea-sized diamonds
 keywords:
     - Psionic
 name: Scannerstone
 project_goal: "300"
 project_roll_characteristic: '[Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) or [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)'
+project_source: Texts or lore in Variac
 scc: mcdm.heroes.v1/treasure.2nd-echelon.trinket/scannerstone
 source: mcdm.heroes.v1
 treasure_type: trinket

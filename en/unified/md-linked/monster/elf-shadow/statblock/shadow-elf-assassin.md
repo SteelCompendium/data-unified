@@ -31,7 +31,7 @@ type: statblock
 
 > 🏹 **Lumina Assault (Signature Ability)**
 >
-> | **Ranged, Strike, Weapon** |               **Main action** |
+> | **Ranged, Strike, Weapon** |               **[Main action](../../../rule/combat/turn.md)** |
 > |----------------------------|------------------------------:|
 > | **📏 Ranged 15**           | **🎯 One creature or object** |
 >
@@ -47,7 +47,7 @@ type: statblock
 
 > 🔳 **Splitbow (2 [Malice](../../../rule/monster/malice.md))**
 >
-> | **Area, Ranged, Weapon**    |               **Main action** |
+> | **Area, Ranged, Weapon**    |               **[Main action](../../../rule/combat/turn.md)** |
 > |-----------------------------|------------------------------:|
 > | **📏 4 x 1 line within 10** | **🎯 Each enemy in the area** |
 >

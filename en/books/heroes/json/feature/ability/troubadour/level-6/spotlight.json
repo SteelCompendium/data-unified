@@ -14,9 +14,9 @@
     "Performance"
   ],
   "metadata": {
-    "action_type": "No action",
+    "action_type": "[No action](scc.v1:mcdm.heroes.v1/rule.combat/turn)",
     "class": "troubadour",
-    "content": "\n*The audience is watching, so you'd better give them a show.*\n\n| **Area, Magic, Performance** |                         **No action** |\n|------------------------------|--------------------------------------:|\n| **📏 5 [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura)**                | **🎯 Self and each ally in the area** |\n\n**Effect:** While this performance is active, each target who starts their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) in the area gains 1 of their [Heroic Resource](scc.v1:mcdm.heroes.v1/rule.resource/heroic-resource). This [Heroic Resource](scc.v1:mcdm.heroes.v1/rule.resource/heroic-resource) disappears at the end of the target's [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) if they don't spend it.",
+    "content": "\n*The audience is watching, so you'd better give them a show.*\n\n| **Area, Magic, Performance** |                         **[No action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|------------------------------|--------------------------------------:|\n| **📏 5 [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura)**                | **🎯 Self and each ally in the area** |\n\n**Effect:** While this performance is active, each target who starts their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) in the area gains 1 of their [Heroic Resource](scc.v1:mcdm.heroes.v1/rule.resource/heroic-resource). This [Heroic Resource](scc.v1:mcdm.heroes.v1/rule.resource/heroic-resource) disappears at the end of the target's [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) if they don't spend it.",
     "distance": "5 [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura)",
     "feature_type": "ability",
     "flavor": "The audience is watching, so you'd better give them a show.",
@@ -37,5 +37,5 @@
   "name": "Spotlight",
   "target": "Self and each ally in the area",
   "type": "feature",
-  "usage": "No action"
+  "usage": "[No action](scc.v1:mcdm.heroes.v1/rule.combat/turn)"
 }

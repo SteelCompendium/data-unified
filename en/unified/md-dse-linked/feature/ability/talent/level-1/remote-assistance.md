@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](../../../../rule/combat/turn.md)'
 class: talent
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
 effect: The next [ability roll](../../../../rule/dice/ability-roll.md) an ally makes against the target before the start of your next [turn](../../../../rule/combat/turn.md) gains an [edge](../../../../rule/dice/edge.md).
@@ -34,7 +34,7 @@ keywords:
     - Psionic
     - '[Ranged](../../../../rule/combat/ranged.md)'
 metadata:
-    action_type: Maneuver
+    action_type: '[Maneuver](../../../../rule/combat/turn.md)'
     class: talent
     distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
     effect: The next [ability roll](../../../../rule/dice/ability-roll.md) an ally makes against the target before the start of your next [turn](../../../../rule/combat/turn.md) gains an [edge](../../../../rule/dice/edge.md).
@@ -52,5 +52,5 @@ metadata:
 name: Remote Assistance
 target: One creature or object
 type: feature
-usage: Maneuver
+usage: '[Maneuver](../../../../rule/combat/turn.md)'
 ```

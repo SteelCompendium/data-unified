@@ -1,5 +1,5 @@
 ---
-action_type: Free triggered
+action_type: Free [triggered](../../../../rule/combat/triggered-action.md)
 class: "null"
 cost: 11 Discipline
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
@@ -25,7 +25,7 @@ type: ability
 
 *You trap your foe in a looping cycle of time, where they relive the last few seconds over and over again.*
 
-| **Psionic, [Ranged](../../../../rule/combat/ranged.md)** |  **Free triggered** |
+| **Psionic, [Ranged](../../../../rule/combat/ranged.md)** |  **Free [triggered](../../../../rule/combat/triggered-action.md)** |
 |---------------------|--------------------:|
 | **📏 [Ranged](../../../../rule/combat/ranged.md) 10**    | **🎯 One creature** |
 

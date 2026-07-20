@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](../../../../rule/combat/turn.md)'
 class: conduit
 distance: 3 [aura](../../../../rule/combat/aura.md)
 effect: Each creature in the area has a double [edge](../../../../rule/dice/edge.md) on [tests](../../../../rule/test/test.md) made to [hide](../../../../skill/intrigue/hide.md) or [sneak](../../../../skill/intrigue/sneak.md). The [aura](../../../../rule/combat/aura.md) lasts until you end it (no action required) or until a target harms or deals damage to a creature or object.
@@ -31,7 +31,7 @@ keywords:
     - Area
     - Magic
 metadata:
-    action_type: Maneuver
+    action_type: '[Maneuver](../../../../rule/combat/turn.md)'
     class: conduit
     distance: 3 [aura](../../../../rule/combat/aura.md)
     effect: Each creature in the area has a double [edge](../../../../rule/dice/edge.md) on [tests](../../../../rule/test/test.md) made to [hide](../../../../skill/intrigue/hide.md) or [sneak](../../../../skill/intrigue/sneak.md). The [aura](../../../../rule/combat/aura.md) lasts until you end it (no action required) or until a target harms or deals damage to a creature or object.
@@ -48,5 +48,5 @@ metadata:
 name: Blessing of Secrets
 target: Self and each ally in the area
 type: feature
-usage: Maneuver
+usage: '[Maneuver](../../../../rule/combat/turn.md)'
 ```

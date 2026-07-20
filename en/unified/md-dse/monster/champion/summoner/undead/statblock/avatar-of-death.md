@@ -7,6 +7,7 @@ file_basename: avatar-of-death
 file_dpath: monster/champion/summoner/undead/statblock
 flavor: 'Stamina: Your maximum Stamina'
 free_strike: 9
+free_strike_damage_type: Holy
 immunities:
     - Corruption 5
     - poison 5

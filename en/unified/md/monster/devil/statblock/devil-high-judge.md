@@ -31,7 +31,7 @@ type: statblock
 
 > 🏹 **Infernal Decree (Signature Ability)**
 >
-> | **Magic, Ranged, Strike** |                   **Main action** |
+> | **Magic, Ranged, Strike** |                   **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |---------------------------|----------------------------------:|
 > | **📏 Ranged 12**          | **🎯 Three creatures or objects** |
 >
@@ -45,7 +45,7 @@ type: statblock
 
 > 🏹 **Compel the Jury**
 >
-> | **Magic, Ranged, Strike** |         **Maneuver** |
+> | **Magic, Ranged, Strike** |         **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |---------------------------|---------------------:|
 > | **📏 Ranged 12**          | **🎯 Two creatures** |
 >
@@ -59,7 +59,7 @@ type: statblock
 
 > ❗️ **Devilish Suggestion (2 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
-> | **Magic, Ranged** |           **Triggered action** |
+> | **Magic, Ranged** |           **[Triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |
 > |-------------------|-------------------------------:|
 > | **📏 Ranged 5**   | **🎯 The triggering creature** |
 >

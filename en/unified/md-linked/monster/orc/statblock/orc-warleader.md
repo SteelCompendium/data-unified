@@ -28,7 +28,7 @@ type: statblock
 
 > 🏹 **Go. ([Signature Ability](../../../rule/combat/signature-ability.md))**
 >
-> | **Ranged**       | **Main action** |
+> | **Ranged**       | **[Main action](../../../rule/combat/turn.md)** |
 > |------------------|----------------:|
 > | **📏 Ranged 10** | **🎯 One ally** |
 >
@@ -40,7 +40,7 @@ type: statblock
 
 > 🗡 **Mace Lariat**
 >
-> | **Melee, Strike, Weapon** |   **Main action** |
+> | **Melee, Strike, Weapon** |   **[Main action](../../../rule/combat/turn.md)** |
 > |---------------------------|------------------:|
 > | **📏 Melee 1**            | **🎯 Each enemy** |
 >
@@ -52,7 +52,7 @@ type: statblock
 
 > 🏹 **Lockdown (3 [Malice](../../../rule/monster/malice.md))**
 >
-> | **Ranged**                |                 **Maneuver** |
+> | **Ranged**                |                 **[Maneuver](../../../rule/combat/turn.md)** |
 > |---------------------------|-----------------------------:|
 > | **📏 Self and ranged 10** | **🎯 Self and three allies** |
 >
@@ -60,7 +60,7 @@ type: statblock
 
 > ❗️ **Courtesy Call**
 >
-> | **Ranged**       | **Triggered action** |
+> | **Ranged**       | **[Triggered action](../../../rule/combat/triggered-action.md)** |
 > |------------------|---------------------:|
 > | **📏 Ranged 10** |  **🎯 One creature** |
 >

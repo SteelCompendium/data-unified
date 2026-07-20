@@ -1,5 +1,5 @@
 ---
-action_type: Triggered
+action_type: '[Triggered](../../../../rule/combat/triggered-action.md)'
 class: conduit
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
 effect: The [power roll](../../../../rule/dice/power-roll.md) gains an [edge](../../../../rule/dice/edge.md).
@@ -35,7 +35,7 @@ keywords:
     - Magic
     - '[Ranged](../../../../rule/combat/ranged.md)'
 metadata:
-    action_type: Triggered
+    action_type: '[Triggered](../../../../rule/combat/triggered-action.md)'
     class: conduit
     distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
     effect: The [power roll](../../../../rule/dice/power-roll.md) gains an [edge](../../../../rule/dice/edge.md).
@@ -55,5 +55,5 @@ name: Word of Guidance
 target: One ally
 trigger: The target makes an [ability roll](../../../../rule/dice/ability-roll.md) for a damage-dealing ability.
 type: feature
-usage: Triggered
+usage: '[Triggered](../../../../rule/combat/triggered-action.md)'
 ```

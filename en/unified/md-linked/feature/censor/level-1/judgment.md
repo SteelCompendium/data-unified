@@ -13,7 +13,7 @@ You pick out the enemies most worthy of your wrath and place a divine [judgment]
 
 *You utter a prayer that outlines your foe in holy energy.*
 
-| **Magic, [Ranged](../../../rule/combat/ranged.md)** |     **Maneuver** |
+| **Magic, [Ranged](../../../rule/combat/ranged.md)** |     **[Maneuver](../../../rule/combat/turn.md)** |
 |-------------------|-----------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**  | **🎯 One enemy** |
 

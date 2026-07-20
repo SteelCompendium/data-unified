@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](../../../../rule/combat/turn.md)'
 class: tactician
 cost: 5 Focus
 distance: 1 [burst](../../../../rule/combat/burst.md)
@@ -18,7 +18,7 @@ type: ability
 
 *Together we are invincible!*
 
-| **Area**       |                          **Maneuver** |
+| **Area**       |                          **[Maneuver](../../../../rule/combat/turn.md)** |
 |----------------|--------------------------------------:|
 | **📏 1 [burst](../../../../rule/combat/burst.md)** | **🎯 Self and each ally in the area** |
 

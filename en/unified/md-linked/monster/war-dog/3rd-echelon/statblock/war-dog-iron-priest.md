@@ -30,7 +30,7 @@ type: statblock
 
 > 🔳 **Houndcannon ([Signature Ability](../../../../rule/combat/signature-ability.md))**
 >
-> | **Area, Weapon**           |               **Main action** |
+> | **Area, Weapon**           |               **[Main action](../../../../rule/combat/turn.md)** |
 > |----------------------------|------------------------------:|
 > | **📏 7 x 1 line within 1** | **🎯 Each enemy in the area** |
 >
@@ -44,7 +44,7 @@ type: statblock
 
 > ❇️ **Iron Banner (2+ [Malice](../../../../rule/monster/malice.md))**
 >
-> | **Area, Magic** |                    **Maneuver** |
+> | **Area, Magic** |                    **[Maneuver](../../../../rule/combat/turn.md)** |
 > |-----------------|--------------------------------:|
 > | **📏 4 aura**   | **🎯 Each war dog in the area** |
 >

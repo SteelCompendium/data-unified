@@ -30,7 +30,7 @@ type: statblock
 
 > 🗡 **Swordplay (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |               **Main action** |
+> | **Melee, Strike, Weapon** |               **[Main action](../../../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Melee 1**            | **🎯 One creature or object** |
 >
@@ -44,7 +44,7 @@ type: statblock
 
 > ❇️ **Get Reckless!**
 >
-> | **Area**       |                 **Maneuver** |
+> | **Area**       |                 **[Maneuver](../../../rule/combat/turn.md)** |
 > |----------------|-----------------------------:|
 > | **📏 5 burst** | **🎯 Each ally in the area** |
 >

@@ -21,9 +21,9 @@
     "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)"
   ],
   "metadata": {
-    "action_type": "Main action",
+    "action_type": "[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)",
     "class": "conduit",
-    "content": "\n*Your divine magic makes a creature appear as what your enemies fear most.*\n\n| **Area, Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)**  |               **Main action** |\n|--------------------------|------------------------------:|\n| **📏 5 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 10**  | **🎯 Each enemy in the area** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition):**\n\n- **≤11:** 6 psychic damage; I \u003c WEAK, [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)\n- **12-16:** 9 psychic damage; I \u003c AVERAGE, [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)\n- **17+:** 13 psychic damage; I \u003c STRONG, [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)\n\n**Effect:** Each target is [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) of you or a creature you choose within [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance).",
+    "content": "\n*Your divine magic makes a creature appear as what your enemies fear most.*\n\n| **Area, Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)**  |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|--------------------------|------------------------------:|\n| **📏 5 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 10**  | **🎯 Each enemy in the area** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition):**\n\n- **≤11:** 6 psychic damage; I \u003c WEAK, [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)\n- **12-16:** 9 psychic damage; I \u003c AVERAGE, [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)\n- **17+:** 13 psychic damage; I \u003c STRONG, [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)\n\n**Effect:** Each target is [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) of you or a creature you choose within [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance).",
     "distance": "5 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 10",
     "feature_type": "ability",
     "flavor": "Your divine magic makes a creature appear as what your enemies fear most.",
@@ -44,5 +44,5 @@
   "name": "Fear of the Gods",
   "target": "Each enemy in the area",
   "type": "feature",
-  "usage": "Main action"
+  "usage": "[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)"
 }

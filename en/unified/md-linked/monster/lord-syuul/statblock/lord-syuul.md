@@ -37,7 +37,7 @@ type: statblock
 
 > 🗡 **Tentacle Grab ([Signature Ability](../../../rule/combat/signature-ability.md))**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](../../../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 2**            | **🎯 Two creatures or objects** |
 >
@@ -51,7 +51,7 @@ type: statblock
 
 > 🔳 **Dampening Grenade**
 >
-> | **Area, Psionic, Ranged** |               **Main action** |
+> | **Area, Psionic, Ranged** |               **[Main action](../../../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 2 cube within 5**    | **🎯 Each enemy in the area** |
 >
@@ -65,7 +65,7 @@ type: statblock
 
 > 🗡 **Mind Blown (7 Malice)**
 >
-> | **Melee, Psionic, Strike** |          **Main action** |
+> | **Melee, Psionic, Strike** |          **[Main action](../../../rule/combat/turn.md)** |
 > |----------------------------|-------------------------:|
 > | **📏 Melee 1**             | **🎯 One grabbed enemy** |
 >
@@ -79,7 +79,7 @@ type: statblock
 
 > 👤 **You Come With Me**
 >
-> | **Psionic** | **Maneuver** |
+> | **Psionic** | **[Maneuver](../../../rule/combat/turn.md)** |
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >

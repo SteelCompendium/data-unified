@@ -15,8 +15,8 @@
       "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)"
     ],
     "metadata": {
-      "action_type": "Maneuver",
-      "content": "\n*Hey! I'm over here. No, here, numbskull.*\n\n| **Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)** |            **Maneuver** |\n|-------------------|------------------------:|\n| **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**  | **🎯 Self or one ally** |\n\n**Effect:** You create two illusory duplicates of the target, which appear anywhere within [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance). These duplicates last until the end of the encounter. On each of their [turns](scc.v1:mcdm.heroes.v1/rule.combat/turn), the target can move each duplicate up to their [speed](scc.v1:mcdm.heroes.v1/rule.character/speed). If the target is targeted by an ability, they can use a free [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action) to switch places with a duplicate within their [line of effect](scc.v1:mcdm.heroes.v1/rule.combat/line-of-effect), making the duplicate the target of the ability instead. When either duplicate takes damage, it is destroyed.",
+      "action_type": "[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)",
+      "content": "\n*Hey! I'm over here. No, here, numbskull.*\n\n| **Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)** |            **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|-------------------|------------------------:|\n| **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**  | **🎯 Self or one ally** |\n\n**Effect:** You create two illusory duplicates of the target, which appear anywhere within [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance). These duplicates last until the end of the encounter. On each of their [turns](scc.v1:mcdm.heroes.v1/rule.combat/turn), the target can move each duplicate up to their [speed](scc.v1:mcdm.heroes.v1/rule.character/speed). If the target is targeted by an ability, they can use a free [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action) to switch places with a duplicate within their [line of effect](scc.v1:mcdm.heroes.v1/rule.combat/line-of-effect), making the duplicate the target of the ability instead. When either duplicate takes damage, it is destroyed.",
       "distance": "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10",
       "feature_type": "ability",
       "flavor": "Hey! I'm over here. No, here, numbskull.",
@@ -33,7 +33,7 @@
     "name": "Trinity of Trickery",
     "target": "Self or one ally",
     "type": "feature",
-    "usage": "Maneuver"
+    "usage": "[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)"
   },
   "effects": [
     {

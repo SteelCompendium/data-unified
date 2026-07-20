@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](../../../../rule/combat/turn.md)'
 class: elementalist
 cost: 9 Essence
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
@@ -21,7 +21,7 @@ type: ability
 
 *They shine vibrantly, a beautiful diamond in the night sky.*
 
-| **Fire, Green, Magic, [Ranged](../../../../rule/combat/ranged.md), Void** |            **Maneuver** |
+| **Fire, Green, Magic, [Ranged](../../../../rule/combat/ranged.md), Void** |            **[Maneuver](../../../../rule/combat/turn.md)** |
 |--------------------------------------|------------------------:|
 | **📏 [Ranged](../../../../rule/combat/ranged.md) 10**                     | **🎯 Self or one ally** |
 

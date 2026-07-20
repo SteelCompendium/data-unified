@@ -9,9 +9,9 @@ keywords:
     - Magic
     - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'
 metadata:
-    action_type: Main action
+    action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: censor
-    content: "\n*A word in prayer, and the gods show the way.*\n\n| **Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)** |         **Main action** |\n|-------------------|------------------------:|\n| **\U0001F4CF [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**  | **\U0001F3AF Self or one ally** |\n\n**Effect:** The target can use a free [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action) to use a [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) [signature ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability) or a [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) [heroic ability](scc.v1:mcdm.heroes.v1/rule.general/heroic-ability), and has a double [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on that ability. If a [heroic ability](scc.v1:mcdm.heroes.v1/rule.general/heroic-ability) is chosen, reduce its [Heroic Resource](scc.v1:mcdm.heroes.v1/rule.resource/heroic-resource) cost by 3 (to a minimum cost of 0)."
+    content: "\n*A word in prayer, and the gods show the way.*\n\n| **Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)** |         **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|-------------------|------------------------:|\n| **\U0001F4CF [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**  | **\U0001F3AF Self or one ally** |\n\n**Effect:** The target can use a free [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action) to use a [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) [signature ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability) or a [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) [heroic ability](scc.v1:mcdm.heroes.v1/rule.general/heroic-ability), and has a double [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on that ability. If a [heroic ability](scc.v1:mcdm.heroes.v1/rule.general/heroic-ability) is chosen, reduce its [Heroic Resource](scc.v1:mcdm.heroes.v1/rule.resource/heroic-resource) cost by 3 (to a minimum cost of 0)."
     distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
     feature_type: ability
     flavor: A word in prayer, and the gods show the way.
@@ -29,4 +29,4 @@ metadata:
 name: With My Blessing
 target: Self or one ally
 type: feature
-usage: Main action
+usage: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'

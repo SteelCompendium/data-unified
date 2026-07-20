@@ -32,7 +32,7 @@ type: statblock
 
 > 🗡 **Inspiring Strike ([Signature Ability](../../../../rule/combat/signature-ability.md))**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](../../../../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 1**            | **🎯 Two creatures or objects** |
 >
@@ -46,7 +46,7 @@ type: statblock
 
 > 🏹 **Summon the Onyx Tower (5 [Malice](../../../../rule/monster/malice.md))**
 >
-> | **Ranged**       |   **Maneuver** |
+> | **Ranged**       |   **[Maneuver](../../../../rule/combat/turn.md)** |
 > |------------------|---------------:|
 > | **📏 Ranged 15** | **🎯 Special** |
 >
@@ -54,7 +54,7 @@ type: statblock
 
 > ❇️ **Shield Warden (2 [Malice](../../../../rule/monster/malice.md))**
 >
-> | **Area**       |                  **Maneuver** |
+> | **Area**       |                  **[Maneuver](../../../../rule/combat/turn.md)** |
 > |----------------|------------------------------:|
 > | **📏 3 burst** | **🎯 Each enemy in the area** |
 >
@@ -68,7 +68,7 @@ type: statblock
 
 > ❗️ **Timely Intervention**
 >
-> | **Magic**   | **Triggered action** |
+> | **Magic**   | **[Triggered action](../../../../rule/combat/triggered-action.md)** |
 > |-------------|---------------------:|
 > | **📏 Self** |          **🎯 Self** |
 >

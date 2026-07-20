@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: conduit
 distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
 effect: One ally within [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance) gains a number of [surges](scc.v1:mcdm.heroes.v1/rule.resource/surge) equal to the [tier outcome](scc.v1:mcdm.heroes.v1/rule.dice/tier-outcome) of your [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll).
@@ -41,7 +41,7 @@ keywords:
     - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'
     - '[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)'
 metadata:
-    action_type: Main action
+    action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: conduit
     distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
     effect: One ally within [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance) gains a number of [surges](scc.v1:mcdm.heroes.v1/rule.resource/surge) equal to the [tier outcome](scc.v1:mcdm.heroes.v1/rule.dice/tier-outcome) of your [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll).
@@ -63,5 +63,5 @@ metadata:
 name: Blessed Light
 target: One creature or object
 type: feature
-usage: Main action
+usage: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 ```

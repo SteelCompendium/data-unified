@@ -31,7 +31,7 @@ type: statblock
 
 > 🗡 **Cold Axe (Signature Ability)**
 >
-> | **Charge, Melee, Strike, Weapon** |                 **Main action** |
+> | **Charge, Melee, Strike, Weapon** |                 **[Main action](../../../rule/combat/turn.md)** |
 > |-----------------------------------|--------------------------------:|
 > | **📏 Melee 3**                    | **🎯 Two creatures or objects** |
 >
@@ -45,7 +45,7 @@ type: statblock
 
 > 👤 **Blizzard Surge (5 [Malice](../../../rule/monster/malice.md))**
 >
-> | **-**       | **Main action** |
+> | **-**       | **[Main action](../../../rule/combat/turn.md)** |
 > |-------------|----------------:|
 > | **📏 Self** |     **🎯 Self** |
 >
@@ -53,7 +53,7 @@ type: statblock
 
 > 🗡 **Ice Dance**
 >
-> | **Melee**      |          **Maneuver** |
+> | **Melee**      |          **[Maneuver](../../../rule/combat/turn.md)** |
 > |----------------|----------------------:|
 > | **📏 Melee 1** | **🎯 One giant ally** |
 >
@@ -61,7 +61,7 @@ type: statblock
 
 > ❗️ **Begone, Smallfolk!**
 >
-> | **-**       | **Triggered action** |
+> | **-**       | **[Triggered action](../../../rule/combat/triggered-action.md)** |
 > |-------------|---------------------:|
 > | **📏 Self** |          **🎯 Self** |
 >

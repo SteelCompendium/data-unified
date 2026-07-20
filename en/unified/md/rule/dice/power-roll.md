@@ -40,7 +40,7 @@ Under certain circumstances, you might have one or more [edges](scc.v1:mcdm.hero
 
 ##### When to Use Edges and Banes
 
-The rules tell you when to modify a roll with an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) or a [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane). The Director can also modify rolls with [edges](scc.v1:mcdm.heroes.v1/rule.dice/edge) and [banes](scc.v1:mcdm.heroes.v1/rule.dice/bane) as a response to narrative or environmental circumstances. For instance, no rule specifically says that rain imposes a [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) on power rolls made to climb a stone wall. But it makes sense that rainy [conditions](scc.v1:mcdm.heroes.v1/rule.combat/condition) should make climbing that wall harder, so a Director should absolutely do so!
+The rules tell you when to modify a roll with an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) or a [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane). The Director can also modify rolls with [edges](scc.v1:mcdm.heroes.v1/rule.dice/edge) and [banes](scc.v1:mcdm.heroes.v1/rule.dice/bane) as a response to narrative or environmental circumstances. For instance, no rule specifically says that rain imposes a [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) on power rolls made to climb a stone wall. But it makes sense that rainy conditions should make climbing that wall harder, so a Director should absolutely do so!
 
 > **Why Cap?**
 >

@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: censor
 cost: 5 Wrath
 cost_amount: "5"
@@ -35,7 +35,7 @@ keywords:
     - Area
     - Magic
 metadata:
-    action_type: Maneuver
+    action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: censor
     cost: 5 Wrath
     distance: 3 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)
@@ -53,5 +53,5 @@ metadata:
 name: Revelator
 target: Each enemy in the area
 type: feature
-usage: Maneuver
+usage: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 ```

@@ -21,9 +21,9 @@
     "Weapon"
   ],
   "metadata": {
-    "action_type": "Main action",
+    "action_type": "[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)",
     "class": "fury",
-    "content": "\n*Hard for them to fight when they're busy holding in their giblets.*\n\n| **[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), Weapon** |               **Main action** |\n|---------------------------|------------------------------:|\n| **📏 [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1**            | **🎯 One creature or object** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc.v1:mcdm.heroes.v1/rule.character/might):**\n\n- **≤11:** 3 + M damage; M \u003c WEAK, [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)\n- **12-16:** 5 + M damage; M \u003c AVERAGE, [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)\n- **17+:** 8 + M damage; M \u003c STRONG, [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)\n\n**Effect:** While [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) this way, the target takes damage equal to your [Might](scc.v1:mcdm.heroes.v1/rule.character/might) score at the end of each of your [turns](scc.v1:mcdm.heroes.v1/rule.combat/turn).",
+    "content": "\n*Hard for them to fight when they're busy holding in their giblets.*\n\n| **[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), Weapon** |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|---------------------------|------------------------------:|\n| **📏 [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1**            | **🎯 One creature or object** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc.v1:mcdm.heroes.v1/rule.character/might):**\n\n- **≤11:** 3 + M damage; M \u003c WEAK, [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)\n- **12-16:** 5 + M damage; M \u003c AVERAGE, [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)\n- **17+:** 8 + M damage; M \u003c STRONG, [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)\n\n**Effect:** While [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) this way, the target takes damage equal to your [Might](scc.v1:mcdm.heroes.v1/rule.character/might) score at the end of each of your [turns](scc.v1:mcdm.heroes.v1/rule.combat/turn).",
     "distance": "[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1",
     "feature_type": "ability",
     "flavor": "Hard for them to fight when they're busy holding in their giblets.",
@@ -44,5 +44,5 @@
   "name": "Your Entrails Are Your Extrails!",
   "target": "One creature or object",
   "type": "feature",
-  "usage": "Main action"
+  "usage": "[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)"
 }

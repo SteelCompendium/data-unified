@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: conduit
 distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
 effect: The target can spend a [Recovery](scc.v1:mcdm.heroes.v1/rule.health/recoveries).
@@ -18,7 +18,7 @@ type: ability
 
 *Your divine energy restores the righteous.*
 
-| **Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)**          |            **Maneuver** |
+| **Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)**          |            **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 |----------------------------|------------------------:|
 | **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**           | **🎯 Self or one ally** |
 

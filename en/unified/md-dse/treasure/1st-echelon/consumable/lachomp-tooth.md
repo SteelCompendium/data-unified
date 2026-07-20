@@ -6,11 +6,13 @@ file_dpath: treasure/1st-echelon/consumable
 flavor: A thumb-sized serrated tooth manages to scratch your flesh in some way whenever it is handled.
 item_id: lachomp-tooth
 item_name: Lachomp Tooth
+item_prerequisite: A leftover carcass of a lachomp meal
 keywords:
     - Psionic
 name: Lachomp Tooth
 project_goal: 45 (yields 1d3 teeth)
 project_roll_characteristic: '[Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) or [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)'
+project_source: Texts or lore in Caelian
 scc: mcdm.heroes.v1/treasure.1st-echelon.consumable/lachomp-tooth
 source: mcdm.heroes.v1
 treasure_type: consumable

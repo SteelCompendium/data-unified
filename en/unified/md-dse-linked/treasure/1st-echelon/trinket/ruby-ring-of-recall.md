@@ -6,12 +6,14 @@ file_dpath: treasure/1st-echelon/trinket
 flavor: A dim light gleams in the heart of this ring's gem.
 item_id: ruby-ring-of-recall
 item_name: Ruby Ring of Recall
+item_prerequisite: A ruby retrieved from an ancient sky elf ruin
 keywords:
     - Magic
     - Ring
 name: Ruby Ring of Recall
 project_goal: "150"
 project_roll_characteristic: Reason, Intuition, or Presence
+project_source: Texts or lore in Hyrallic
 scc: mcdm.beastheart.v1/treasure.1st-echelon.trinket/ruby-ring-of-recall
 source: mcdm.beastheart.v1
 treasure_type: trinket

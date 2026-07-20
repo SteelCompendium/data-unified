@@ -6,11 +6,13 @@ file_dpath: treasure/2nd-echelon/trinket
 flavor: The puddle of living ink snarls and snaps while it feeds on parchment and smooth surfaces. It spreads itself across its meal until it resembles a flat, top-down view of its immediate surroundings, wriggling and readjusting itself wherever it goes.
 item_id: abyssal-map-ink
 item_name: Abyssal Map Ink
+item_prerequisite: A vial of pitling spit, and a jar of human blood
 keywords:
     - Magic
 name: Abyssal Map Ink
 project_goal: "300"
 project_roll_characteristic: '[Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) or [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)'
+project_source: Texts or lore in Tholl
 scc: mcdm.summoner.v1/treasure.2nd-echelon.trinket/abyssal-map-ink
 source: mcdm.summoner.v1
 treasure_type: trinket

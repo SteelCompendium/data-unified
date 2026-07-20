@@ -131,7 +131,7 @@ You start off with the [Choreography](../feature/ability/troubadour/level-1/chor
 
 *Taps, kicks, steps. It's all "[choreography](../feature/ability/troubadour/level-1/choreography.md)."*
 
-| **Area, Magic, Performance** |                         **No action** |
+| **Area, Magic, Performance** |                         **[No action](../rule/combat/turn.md)** |
 |------------------------------|--------------------------------------:|
 | **📏 5 [aura](../rule/combat/aura.md)**                | **🎯 Self and each ally in the area** |
 
@@ -142,7 +142,7 @@ You start off with the [Choreography](../feature/ability/troubadour/level-1/chor
 
 *There once was a man from [Capital](../rule/world/capital.md)...*
 
-| **Area, Magic, Performance** |                         **No action** |
+| **Area, Magic, Performance** |                         **[No action](../rule/combat/turn.md)** |
 |------------------------------|--------------------------------------:|
 | **📏 5 [aura](../rule/combat/aura.md)**                | **🎯 Self and each ally in the area** |
 
@@ -169,7 +169,7 @@ You have the following performance ability, which is usable with your [Routines]
 
 *Folks love a good tumble.*
 
-| **Area, Magic, Performance** |                         **No action** |
+| **Area, Magic, Performance** |                         **[No action](../rule/combat/turn.md)** |
 |------------------------------|--------------------------------------:|
 | **📏 5 [aura](../rule/combat/aura.md)**                | **🎯 Self and each ally in the area** |
 
@@ -184,7 +184,7 @@ You have the following performance ability, which is usable with your [Routines]
 
 *No, no, no, you lose the audience that way. Try it like this...*
 
-| **Area, Magic, Performance** |                    **No action** |
+| **Area, Magic, Performance** |                    **[No action](../rule/combat/turn.md)** |
 |------------------------------|---------------------------------:|
 | **📏 2 [aura](../rule/combat/aura.md)**                | **🎯 Each creature in the area** |
 
@@ -199,7 +199,7 @@ You have the following ability.
 
 *It doesn't need to make sense. Just say it with emotion.*
 
-| **Magic, [Ranged](../rule/combat/ranged.md)** |   **Maneuver** |
+| **Magic, [Ranged](../rule/combat/ranged.md)** |   **[Maneuver](../rule/combat/turn.md)** |
 |-------------------|---------------:|
 | **📏 [Ranged](../rule/combat/ranged.md) 10**  | **🎯 Special** |
 
@@ -220,7 +220,7 @@ You have the following ability.
 
 *Your instrument rings true and your music blows everyone away.*
 
-| **Area, Magic** |                  **Maneuver** |
+| **Area, Magic** |                  **[Maneuver](../rule/combat/turn.md)** |
 |-----------------|------------------------------:|
 | **📏 2 [burst](../rule/combat/burst.md)**  | **🎯 Each enemy in the area** |
 
@@ -239,7 +239,7 @@ You have the following ability.
 
 *Your years of practicing fencing and dancing pay off on the battlefield.*
 
-| **-**       | **Maneuver** |
+| **-**       | **[Maneuver](../rule/combat/turn.md)** |
 |-------------|-------------:|
 | **📏 Self** |  **🎯 Self** |
 
@@ -256,7 +256,7 @@ You have the following performance abilities, which are usable with your [Routin
 
 *All for thunder motherrr! ♪ Run and hide for coverrr!♪*
 
-| **Magic, Performance, [Ranged](../rule/combat/ranged.md), [Strike](../rule/combat/strike.md)** |       **No action** |
+| **Magic, Performance, [Ranged](../rule/combat/ranged.md), [Strike](../rule/combat/strike.md)** |       **[No action](../rule/combat/turn.md)** |
 |----------------------------------------|--------------------:|
 | **📏 [Ranged](../rule/combat/ranged.md) 10**                       | **🎯 One creature** |
 
@@ -273,7 +273,7 @@ You have the following performance abilities, which are usable with your [Routin
 
 *Teeth are bare! ♪ Eyes black! ♪ No escaping the beast!♪*
 
-| **Area, Magic, Performance** |                         **No action** |
+| **Area, Magic, Performance** |                         **[No action](../rule/combat/turn.md)** |
 |------------------------------|--------------------------------------:|
 | **📏 5 [aura](../rule/combat/aura.md)**                | **🎯 Self and each ally in the area** |
 
@@ -296,7 +296,7 @@ Your [troubadour class act](../feature/troubadour/level-1/troubadour-class-act.m
 
 *Give the chorus a little punch.*
 
-| **[Ranged](../rule/combat/ranged.md)**      |   **Triggered** |
+| **[Ranged](../rule/combat/ranged.md)**      |   **[Triggered](../rule/combat/triggered-action.md)** |
 |-----------------|----------------:|
 | **📏 [Ranged](../rule/combat/ranged.md) 5** | **🎯 One ally** |
 
@@ -311,7 +311,7 @@ Your [troubadour class act](../feature/troubadour/level-1/troubadour-class-act.m
 
 *"I'd have brought treats had I known I'd be fighting a dog."*
 
-| **[Melee](../rule/combat/melee.md)**      |           **Triggered** |
+| **[Melee](../rule/combat/melee.md)**      |           **[Triggered](../rule/combat/triggered-action.md)** |
 |----------------|------------------------:|
 | **📏 [Melee](../rule/combat/melee.md) 1** | **🎯 Self or one ally** |
 
@@ -324,7 +324,7 @@ Your [troubadour class act](../feature/troubadour/level-1/troubadour-class-act.m
 
 *All's fair in love and whatever.*
 
-| **[Ranged](../rule/combat/ranged.md)**       |       **Triggered** |
+| **[Ranged](../rule/combat/ranged.md)**       |       **[Triggered](../rule/combat/triggered-action.md)** |
 |------------------|--------------------:|
 | **📏 [Ranged](../rule/combat/ranged.md) 10** | **🎯 One creature** |
 
@@ -347,7 +347,7 @@ Choose one [signature ability](../rule/combat/signature-ability.md) from the fol
 
 *And they said practicing fencing was a waste!*
 
-| **[Melee](../rule/combat/melee.md), [Strike](../rule/combat/strike.md), Weapon** |                 **Main action** |
+| **[Melee](../rule/combat/melee.md), [Strike](../rule/combat/strike.md), Weapon** |                 **[Main action](../rule/combat/turn.md)** |
 |---------------------------|--------------------------------:|
 | **📏 [Melee](../rule/combat/melee.md) 1**            | **🎯 Two creatures or objects** |
 
@@ -366,7 +366,7 @@ Choose one [signature ability](../rule/combat/signature-ability.md) from the fol
 
 *There you are, radiating your usual charisma.*
 
-| **Magic, [Ranged](../rule/combat/ranged.md), [Strike](../rule/combat/strike.md), Weapon** |     **Main action** |
+| **Magic, [Ranged](../rule/combat/ranged.md), [Strike](../rule/combat/strike.md), Weapon** |     **[Main action](../rule/combat/turn.md)** |
 |-----------------------------------|--------------------:|
 | **📏 [Ranged](../rule/combat/ranged.md) 10**                  | **🎯 One creature** |
 
@@ -381,7 +381,7 @@ Choose one [signature ability](../rule/combat/signature-ability.md) from the fol
 
 *I didn't do it! What?*
 
-| **[Melee](../rule/combat/melee.md), [Strike](../rule/combat/strike.md), Weapon**             | **Main action** |
+| **[Melee](../rule/combat/melee.md), [Strike](../rule/combat/strike.md), Weapon**             | **[Main action](../rule/combat/turn.md)** |
 |---------------------------------------|----------------:|
 | **📏 [Melee](../rule/combat/melee.md) 1**                        | **🎯 One creature** |
 
@@ -398,7 +398,7 @@ Choose one [signature ability](../rule/combat/signature-ability.md) from the fol
 
 *A lyrical (and physical) jab insults an enemy and inspires an ally.*
 
-| **Magic, [Melee](../rule/combat/melee.md), [Ranged](../rule/combat/ranged.md), [Strike](../rule/combat/strike.md)** |     **Main action** |
+| **Magic, [Melee](../rule/combat/melee.md), [Ranged](../rule/combat/ranged.md), [Strike](../rule/combat/strike.md)** |     **[Main action](../rule/combat/turn.md)** |
 |----------------------------------|--------------------:|
 | **📏 [Melee](../rule/combat/melee.md) 1 or [ranged](../rule/combat/ranged.md) 5**       | **🎯 One creature** |
 
@@ -425,7 +425,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 *Just one bad review will ruin their day.*
 
-| **Magic, [Melee](../rule/combat/melee.md), [Ranged](../rule/combat/ranged.md), [Strike](../rule/combat/strike.md)** |               **Main action** |
+| **Magic, [Melee](../rule/combat/melee.md), [Ranged](../rule/combat/ranged.md), [Strike](../rule/combat/strike.md)** |               **[Main action](../rule/combat/turn.md)** |
 |----------------------------------|------------------------------:|
 | **📏 [Melee](../rule/combat/melee.md) 1 or [ranged](../rule/combat/ranged.md) 10**      | **🎯 One creature or object** |
 
@@ -442,7 +442,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 *You produce an entrancing note that twists the senses in a spectacular fashion.*
 
-| **Area, Magic** |               **Main action** |
+| **Area, Magic** |               **[Main action](../rule/combat/turn.md)** |
 |-----------------|------------------------------:|
 | **📏 2 [burst](../rule/combat/burst.md)**  | **🎯 Each enemy in the area** |
 
@@ -459,7 +459,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 *You write something unexpected into the scene that hinders your enemy.*
 
-| **Area, Magic, [Ranged](../rule/combat/ranged.md)**     |               **Main action** |
+| **Area, Magic, [Ranged](../rule/combat/ranged.md)**     |               **[Main action](../rule/combat/turn.md)** |
 |-----------------------------|------------------------------:|
 | **📏 3 [cube](../rule/combat/cube.md) within 10**     | **🎯 Each enemy in the area** |
 
@@ -476,7 +476,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 *As you bob and weave through the crowd, you can't help but leave the audience wanting more.*
 
-| **[Melee](../rule/combat/melee.md), [Strike](../rule/combat/strike.md), Weapon** | **Maneuver** |
+| **[Melee](../rule/combat/melee.md), [Strike](../rule/combat/strike.md), Weapon** | **[Maneuver](../rule/combat/turn.md)** |
 |---------------------------|-------------:|
 | **📏 Self; see below**    |  **🎯 Self** |
 
@@ -497,7 +497,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 *Give the audience a surprise.*
 
-| **Area, Magic** |                       **Main action** |
+| **Area, Magic** |                       **[Main action](../rule/combat/turn.md)** |
 |-----------------|--------------------------------------:|
 | **📏 3 [burst](../rule/combat/burst.md)**  | **🎯 Self and each ally in the area** |
 
@@ -512,7 +512,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 *O happy dagger, this is thy sheath!*
 
-| **Magic**   | **Maneuver** |
+| **Magic**   | **[Maneuver](../rule/combat/turn.md)** |
 |-------------|-------------:|
 | **📏 Self** |  **🎯 Self** |
 
@@ -523,7 +523,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 *You try a different take on events, justifying the new locations everyone ended up in.*
 
-| **Area, Magic** |                       **Main action** |
+| **Area, Magic** |                       **[Main action](../rule/combat/turn.md)** |
 |-----------------|--------------------------------------:|
 | **📏 3 [burst](../rule/combat/burst.md)**  | **🎯 Self and each ally in the area** |
 
@@ -534,7 +534,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 *They're so hurt by your performance, you start to believe it yourself.*
 
-| **[Melee](../rule/combat/melee.md), [Strike](../rule/combat/strike.md), Weapon** |     **Main action** |
+| **[Melee](../rule/combat/melee.md), [Strike](../rule/combat/strike.md), Weapon** |     **[Main action](../rule/combat/turn.md)** |
 |---------------------------|--------------------:|
 | **📏 [Melee](../rule/combat/melee.md) 1**            | **🎯 One creature** |
 
@@ -597,7 +597,7 @@ Choose one of the following abilities.
 
 *We offered them a percentage of the gross. So they're working for free!*
 
-| **Magic, [Ranged](../rule/combat/ranged.md)** | **Main action** |
+| **Magic, [Ranged](../rule/combat/ranged.md)** | **[Main action](../rule/combat/turn.md)** |
 |-------------------|----------------:|
 | **📏 [Ranged](../rule/combat/ranged.md) 10**  |  **🎯 Special** |
 
@@ -608,7 +608,7 @@ Choose one of the following abilities.
 
 *You didn't see that coming, did you?!*
 
-| **Magic, [Ranged](../rule/combat/ranged.md)** |       **Main action** |
+| **Magic, [Ranged](../rule/combat/ranged.md)** |       **[Main action](../rule/combat/turn.md)** |
 |-------------------|----------------------:|
 | **📏 [Ranged](../rule/combat/ranged.md) 10**  | **🎯 One dead enemy** |
 
@@ -623,7 +623,7 @@ Choose one of the following abilities.
 
 *Audiences love this bit.*
 
-| **[Melee](../rule/combat/melee.md), [Strike](../rule/combat/strike.md), Weapon** |                  **Main action** |
+| **[Melee](../rule/combat/melee.md), [Strike](../rule/combat/strike.md), Weapon** |                  **[Main action](../rule/combat/turn.md)** |
 |---------------------------|---------------------------------:|
 | **📏 [Melee](../rule/combat/melee.md) 1**            | **🎯 Self and one willing ally** |
 
@@ -634,7 +634,7 @@ Choose one of the following abilities.
 
 *Wait, it's... Guard! [Turn](../rule/combat/turn.md)! Parry! Dodge! Spin! Thrust! Ha!*
 
-| **[Melee](../rule/combat/melee.md), [Strike](../rule/combat/strike.md), Weapon** |     **Main action** |
+| **[Melee](../rule/combat/melee.md), [Strike](../rule/combat/strike.md), Weapon** |     **[Main action](../rule/combat/turn.md)** |
 |---------------------------|--------------------:|
 | **📏 [Melee](../rule/combat/melee.md) 1**            | **🎯 One creature** |
 
@@ -655,7 +655,7 @@ Choose one of the following abilities.
 
 *Again! Again!*
 
-| **Magic, [Strike](../rule/combat/strike.md)** | **Main action** |
+| **Magic, [Strike](../rule/combat/strike.md)** | **[Main action](../rule/combat/turn.md)** |
 |-------------------|----------------:|
 | **📏 Special**    |  **🎯 Special** |
 
@@ -666,7 +666,7 @@ Choose one of the following abilities.
 
 *Your fans don't seem to like the opening act...*
 
-| **Area, Magic, [Ranged](../rule/combat/ranged.md)** | **Main action** |
+| **Area, Magic, [Ranged](../rule/combat/ranged.md)** | **[Main action](../rule/combat/turn.md)** |
 |-------------------------|----------------:|
 | **📏 3 [cube](../rule/combat/cube.md) within 10** |  **🎯 Special** |
 
@@ -711,7 +711,7 @@ You have the following performance abilities, which are usable with your [Routin
 
 *Maybe you and I ♪ We can still bring the light!♪*
 
-| **Area, Magic, Performance** |                         **No action** |
+| **Area, Magic, Performance** |                         **[No action](../rule/combat/turn.md)** |
 |------------------------------|--------------------------------------:|
 | **📏 5 [aura](../rule/combat/aura.md)**                | **🎯 Self and each ally in the area** |
 
@@ -722,7 +722,7 @@ You have the following performance abilities, which are usable with your [Routin
 
 *And toniiight we can truly say ♪ They will alllways find a way!♪*
 
-| **Area, Magic, Performance** |                         **No action** |
+| **Area, Magic, Performance** |                         **[No action](../rule/combat/turn.md)** |
 |------------------------------|--------------------------------------:|
 | **📏 5 [aura](../rule/combat/aura.md)**                | **🎯 Self and each ally in the area** |
 
@@ -737,7 +737,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 *No, this isn't right. That foe was over there!*
 
-| **Area, Magic** |                  **Maneuver** |
+| **Area, Magic** |                  **[Maneuver](../rule/combat/turn.md)** |
 |-----------------|------------------------------:|
 | **📏 4 [burst](../rule/combat/burst.md)**  | **🎯 Each enemy in the area** |
 
@@ -754,7 +754,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 *A spicy performance lights a fire under your allies' feet.*
 
-| **Area, Magic, [Melee](../rule/combat/melee.md), Weapon** |               **Main action** |
+| **Area, Magic, [Melee](../rule/combat/melee.md), Weapon** |               **[Main action](../rule/combat/turn.md)** |
 |--------------------------------|------------------------------:|
 | **📏 3 [burst](../rule/combat/burst.md)**                 | **🎯 Each enemy in the area** |
 
@@ -771,7 +771,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 *Your performance travels and doesn't stop moving until your audience is completely rocked.*
 
-| **Magic, [Melee](../rule/combat/melee.md), [Ranged](../rule/combat/ranged.md), [Strike](../rule/combat/strike.md), Weapon** |               **Main action** |
+| **Magic, [Melee](../rule/combat/melee.md), [Ranged](../rule/combat/ranged.md), [Strike](../rule/combat/strike.md), Weapon** |               **[Main action](../rule/combat/turn.md)** |
 |------------------------------------------|------------------------------:|
 | **📏 [Melee](../rule/combat/melee.md) 1 or [ranged](../rule/combat/ranged.md) 10**              | **🎯 One creature or object** |
 
@@ -788,7 +788,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 *You magically intertwine your fate with another creature—for better or worse.*
 
-| **Magic, [Ranged](../rule/combat/ranged.md)** |        **Maneuver** |
+| **Magic, [Ranged](../rule/combat/ranged.md)** |        **[Maneuver](../rule/combat/turn.md)** |
 |-------------------|--------------------:|
 | **📏 [Ranged](../rule/combat/ranged.md) 10**  | **🎯 One creature** |
 
@@ -869,7 +869,7 @@ You have the following performance ability, which is usable with your [Routines]
 
 *One more, and this time make it interesting.*
 
-| **Area, Magic, Performance** |                         **No action** |
+| **Area, Magic, Performance** |                         **[No action](../rule/combat/turn.md)** |
 |------------------------------|--------------------------------------:|
 | **📏 5 [aura](../rule/combat/aura.md)**                | **🎯 Self and each ally in the area** |
 
@@ -892,7 +892,7 @@ You have the following performance ability, which is usable with your [Routines]
 
 *Swordplay so graceful it looks like you all practiced this.*
 
-| **Area, Magic, Performance** |                         **No action** |
+| **Area, Magic, Performance** |                         **[No action](../rule/combat/turn.md)** |
 |------------------------------|--------------------------------------:|
 | **📏 5 [aura](../rule/combat/aura.md)**                | **🎯 Self and each ally in the area** |
 
@@ -919,7 +919,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 *You wield your weapon at blistering [speed](../rule/character/speed.md), leaving everyone around you fighting for their lives.*
 
-| **Area, [Melee](../rule/combat/melee.md), Weapon** |               **Main action** |
+| **Area, [Melee](../rule/combat/melee.md), Weapon** |               **[Main action](../rule/combat/turn.md)** |
 |-------------------------|------------------------------:|
 | **📏 3 [burst](../rule/combat/burst.md)**          | **🎯 Each enemy in the area** |
 
@@ -936,7 +936,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 *Your subject is written into two places at once.*
 
-| **Magic, [Ranged](../rule/combat/ranged.md)** |               **Maneuver** |
+| **Magic, [Ranged](../rule/combat/ranged.md)** |               **[Maneuver](../rule/combat/turn.md)** |
 |-------------------|---------------------------:|
 | **📏 [Ranged](../rule/combat/ranged.md) 10**  | **🎯 One enemy or object** |
 
@@ -947,7 +947,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 *You play a small ditty that plants you inside your target's heart.*
 
-| **Magic, [Ranged](../rule/combat/ranged.md)** |                  **Maneuver** |
+| **Magic, [Ranged](../rule/combat/ranged.md)** |                  **[Maneuver](../rule/combat/turn.md)** |
 |-------------------|------------------------------:|
 | **📏 [Ranged](../rule/combat/ranged.md) 10**  | **🎯 One creature or object** |
 
@@ -958,7 +958,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 *Dazzle them with your fancy patter and they forget where they were.*
 
-| **Magic, [Ranged](../rule/combat/ranged.md)** |   **Maneuver** |
+| **Magic, [Ranged](../rule/combat/ranged.md)** |   **[Maneuver](../rule/combat/turn.md)** |
 |-------------------|---------------:|
 | **📏 [Ranged](../rule/combat/ranged.md) 10**  | **🎯 Special** |
 
@@ -985,7 +985,7 @@ You have the following performance ability, which is usable with your [Routines]
 
 *The audience is watching, so you'd better give them a show.*
 
-| **Area, Magic, Performance** |                         **No action** |
+| **Area, Magic, Performance** |                         **[No action](../rule/combat/turn.md)** |
 |------------------------------|--------------------------------------:|
 | **📏 5 [aura](../rule/combat/aura.md)**                | **🎯 Self and each ally in the area** |
 
@@ -1004,7 +1004,7 @@ Choose one of the following abilities.
 
 *You give away the ending of this battle, and it's not great for them.*
 
-| **Area, Magic** |               **Main action** |
+| **Area, Magic** |               **[Main action](../rule/combat/turn.md)** |
 |-----------------|------------------------------:|
 | **📏 5 [burst](../rule/combat/burst.md)**  | **🎯 Each enemy in the area** |
 
@@ -1019,7 +1019,7 @@ Choose one of the following abilities.
 
 *It's important for everyone to know each other's lines, just in case...*
 
-| **Area, Magic** |                 **Maneuver** |
+| **Area, Magic** |                 **[Maneuver](../rule/combat/turn.md)** |
 |-----------------|-----------------------------:|
 | **📏 5 [burst](../rule/combat/burst.md)**  | **🎯 Each ally in the area** |
 
@@ -1034,7 +1034,7 @@ Choose one of the following abilities.
 
 *It's love and blood or drama and blood. Either way, there's always blood.*
 
-| **[Melee](../rule/combat/melee.md), [Strike](../rule/combat/strike.md), Weapon** |               **Main action** |
+| **[Melee](../rule/combat/melee.md), [Strike](../rule/combat/strike.md), Weapon** |               **[Main action](../rule/combat/turn.md)** |
 |---------------------------|------------------------------:|
 | **📏 [Melee](../rule/combat/melee.md) 1**            | **🎯 One creature or object** |
 
@@ -1049,7 +1049,7 @@ Choose one of the following abilities.
 
 *You and your partner make a flashy show of derring-do, then get back to your corners.*
 
-| **[Melee](../rule/combat/melee.md), [Strike](../rule/combat/strike.md), Weapon** |     **Main action** |
+| **[Melee](../rule/combat/melee.md), [Strike](../rule/combat/strike.md), Weapon** |     **[Main action](../rule/combat/turn.md)** |
 |---------------------------|--------------------:|
 | **📏 [Melee](../rule/combat/melee.md) 1**            | **🎯 One creature** |
 
@@ -1064,7 +1064,7 @@ Choose one of the following abilities.
 
 *Your music pounds the crowd to the beat until their hearts can't stand it anymore.*
 
-| **Area, Magic**               |               **Main action** |
+| **Area, Magic**               |               **[Main action](../rule/combat/turn.md)** |
 |-------------------------------|------------------------------:|
 | **📏 Three 3 [cubes](../rule/combat/cube.md) within 1** | **🎯 Each enemy in the area** |
 
@@ -1081,7 +1081,7 @@ Choose one of the following abilities.
 
 *You start a drumroll that roars like thunder with every impact the heroes make.*
 
-| **Area, Magic** |                          **Maneuver** |
+| **Area, Magic** |                          **[Maneuver](../rule/combat/turn.md)** |
 |-----------------|--------------------------------------:|
 | **📏 4 [burst](../rule/combat/burst.md)**  | **🎯 Self and each ally in the area** |
 
@@ -1138,7 +1138,7 @@ You have the following performance abilities, which are usable with your [Routin
 
 *Music pours out of your heart, filling the area with the utmost delicacy and without damper.*
 
-| **Area, Magic, Performance** |                **No action** |
+| **Area, Magic, Performance** |                **[No action](../rule/combat/turn.md)** |
 |------------------------------|-----------------------------:|
 | **📏 5 [aura](../rule/combat/aura.md)**                | **🎯 Each ally in the area** |
 
@@ -1149,7 +1149,7 @@ You have the following performance abilities, which are usable with your [Routin
 
 *𝅘𝅥𝅮♪Viras, my Viras, will you hold their hands as they cryyy—aaaiigh?♪*
 
-| **Area, Magic, Performance** |                         **No action** |
+| **Area, Magic, Performance** |                         **[No action](../rule/combat/turn.md)** |
 |------------------------------|--------------------------------------:|
 | **📏 5 [aura](../rule/combat/aura.md)**                | **🎯 Self and each ally in the area** |
 
@@ -1174,7 +1174,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 *A little stage trickery, and where once stood a foe, now stands a friend!*
 
-| **Magic**   | **Maneuver** |
+| **Magic**   | **[Maneuver](../rule/combat/turn.md)** |
 |-------------|-------------:|
 | **📏 Self** |  **🎯 Self** |
 
@@ -1185,7 +1185,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 *A song for the brokenhearted wraps itself around the target and blossoms into a ward of thorns.*
 
-| **Magic, [Ranged](../rule/combat/ranged.md)** |            **Maneuver** |
+| **Magic, [Ranged](../rule/combat/ranged.md)** |            **[Maneuver](../rule/combat/turn.md)** |
 |-------------------|------------------------:|
 | **📏 [Ranged](../rule/combat/ranged.md) 10**  | **🎯 Self or one ally** |
 
@@ -1196,7 +1196,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 *You shout a word of power that allows you to rewrite reality to your whims.*
 
-| **Magic**   | **Maneuver** |
+| **Magic**   | **[Maneuver](../rule/combat/turn.md)** |
 |-------------|-------------:|
 | **📏 Self** |  **🎯 Self** |
 
@@ -1212,7 +1212,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 *You shine a bright light on the players on the stage and compel them to finish the performance.*
 
-| **Area, Magic, [Ranged](../rule/combat/ranged.md)** | **Maneuver**                  |
+| **Area, Magic, [Ranged](../rule/combat/ranged.md)** | **[Maneuver](../rule/combat/turn.md)**                  |
 |-------------------------|-------------------------------|
 | **📏 5 [cube](../rule/combat/cube.md) within 10** | **🎯 Each enemy in the area** |
 
@@ -1247,7 +1247,7 @@ Choose one of the following abilities.
 
 *Your story tells a tale of the villain's waning power and how the heroes rose to the occasion to stop them.*
 
-| **Magic, [Melee](../rule/combat/melee.md), [Ranged](../rule/combat/ranged.md)**    |        **Maneuver** |
+| **Magic, [Melee](../rule/combat/melee.md), [Ranged](../rule/combat/ranged.md)**    |        **[Maneuver](../rule/combat/turn.md)** |
 |-----------------------------|--------------------:|
 | **📏 [Melee](../rule/combat/melee.md) 1 or [ranged](../rule/combat/ranged.md) 10** | **🎯 One creature** |
 
@@ -1264,7 +1264,7 @@ Choose one of the following abilities.
 
 *You narrate the tension of the scene and put all hope into your protagonist to [turn](../rule/combat/turn.md) things around.*
 
-| **Magic, [Ranged](../rule/combat/ranged.md)** |    **Maneuver** |
+| **Magic, [Ranged](../rule/combat/ranged.md)** |    **[Maneuver](../rule/combat/turn.md)** |
 |-------------------|----------------:|
 | **📏 [Ranged](../rule/combat/ranged.md) 10**  | **🎯 One ally** |
 
@@ -1279,7 +1279,7 @@ Choose one of the following abilities.
 
 *If you can land the [strike](../rule/combat/strike.md), the crowd goes wild.*
 
-| **Charge, [Melee](../rule/combat/melee.md), [Strike](../rule/combat/strike.md), Weapon** |               **Main action** |
+| **Charge, [Melee](../rule/combat/melee.md), [Strike](../rule/combat/strike.md), Weapon** |               **[Main action](../rule/combat/turn.md)** |
 |-----------------------------------|------------------------------:|
 | **📏 [Melee](../rule/combat/melee.md) 3**                    | **🎯 One creature or object** |
 
@@ -1296,7 +1296,7 @@ Choose one of the following abilities.
 
 *No, no. You don't die until the sequel.*
 
-| **[Melee](../rule/combat/melee.md), [Strike](../rule/combat/strike.md), Weapon** |     **Main action** |
+| **[Melee](../rule/combat/melee.md), [Strike](../rule/combat/strike.md), Weapon** |     **[Main action](../rule/combat/turn.md)** |
 |---------------------------|--------------------:|
 | **📏 [Melee](../rule/combat/melee.md) 1**            | **🎯 One creature** |
 
@@ -1317,7 +1317,7 @@ Choose one of the following abilities.
 
 *Your [jam session](../feature/ability/troubadour/level-9/jam-session.md) creates new genres that compel everyone to get up and move.*
 
-| **Area, Magic** |               **Main action** |
+| **Area, Magic** |               **[Main action](../rule/combat/turn.md)** |
 |-----------------|------------------------------:|
 | **📏 5 [burst](../rule/combat/burst.md)**  | **🎯 Each enemy in the area** |
 
@@ -1334,7 +1334,7 @@ Choose one of the following abilities.
 
 *The power of music rips through the reality around the target and blows them away.*
 
-| **Magic, [Melee](../rule/combat/melee.md), [Ranged](../rule/combat/ranged.md), [Strike](../rule/combat/strike.md)** |               **Main action** |
+| **Magic, [Melee](../rule/combat/melee.md), [Ranged](../rule/combat/ranged.md), [Strike](../rule/combat/strike.md)** |               **[Main action](../rule/combat/turn.md)** |
 |----------------------------------|------------------------------:|
 | **📏 [Melee](../rule/combat/melee.md) 1 or [ranged](../rule/combat/ranged.md) 10**      | **🎯 One creature or object** |
 

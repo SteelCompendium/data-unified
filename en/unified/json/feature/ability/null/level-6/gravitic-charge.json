@@ -19,9 +19,9 @@
     "Psionic"
   ],
   "metadata": {
-    "action_type": "Maneuver",
+    "action_type": "[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)",
     "class": "null",
-    "content": "\n*You channel your discipline into momentum that defies gravity.*\n\n| **Psionic** | **Maneuver** |\n|-------------|-------------:|\n| **📏 Self** |  **🎯 Self** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition):**\n\n- **≤11:** Vertical [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5\n- **12-16:** Vertical [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 7\n- **17+:** Vertical [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 9\n\n**Effect:** This movement ignores [stability](scc.v1:mcdm.heroes.v1/rule.character/stability). If you [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) into another creature, you resolve damage to both of you as if your [force move](scc.v1:mcdm.heroes.v1/movement/forced-movement)ment had ended, but you keep moving through that creature's space.",
+    "content": "\n*You channel your discipline into momentum that defies gravity.*\n\n| **Psionic** | **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|-------------|-------------:|\n| **📏 Self** |  **🎯 Self** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition):**\n\n- **≤11:** Vertical [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5\n- **12-16:** Vertical [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 7\n- **17+:** Vertical [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 9\n\n**Effect:** This movement ignores [stability](scc.v1:mcdm.heroes.v1/rule.character/stability). If you [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) into another creature, you resolve damage to both of you as if your [force move](scc.v1:mcdm.heroes.v1/movement/forced-movement)ment had ended, but you keep moving through that creature's space.",
     "distance": "Self",
     "feature_type": "ability",
     "flavor": "You channel your discipline into momentum that defies gravity.",
@@ -41,5 +41,5 @@
   "name": "Gravitic Charge",
   "target": "Self",
   "type": "feature",
-  "usage": "Maneuver"
+  "usage": "[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)"
 }

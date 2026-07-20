@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: shadow
 cost: 5 Insight
 cost_amount: "5"
@@ -42,7 +42,7 @@ keywords:
     - '[Melee](../../../../rule/combat/melee.md)'
     - Weapon
 metadata:
-    action_type: Main action
+    action_type: '[Main action](../../../../rule/combat/turn.md)'
     class: shadow
     cost: 5 Insight
     distance: Self; see below
@@ -63,5 +63,5 @@ metadata:
 name: One Hundred Throats
 target: Self
 type: feature
-usage: Main action
+usage: '[Main action](../../../../rule/combat/turn.md)'
 ```

@@ -67,7 +67,7 @@ type: featureblock
 
 > 🗡 **Grab and Bite (Encounter)**
 >
-> | **Melee, Strike, Weapon** |     **Main action** |
+> | **Melee, Strike, Weapon** |     **[Main action](../../../rule/combat/turn.md)** |
 > |---------------------------|--------------------:|
 > | **📏 Melee 1**            | **🎯 One creature** |
 >
@@ -81,7 +81,7 @@ type: featureblock
 
 > 🏹 **Death to Death (Encounter)**
 >
-> | **Magic, Ranged, Strike** |        **Maneuver** |
+> | **Magic, Ranged, Strike** |        **[Maneuver](../../../rule/combat/turn.md)** |
 > |---------------------------|--------------------:|
 > | **📏 Ranged 10**          | **🎯 One creature** |
 >
@@ -97,7 +97,7 @@ type: featureblock
 
 > ❗️ **Death Miasma (Encounter)**
 >
-> | **Area, Magic** |     **Free triggered action** |
+> | **Area, Magic** |     **Free [triggered action](../../../rule/combat/triggered-action.md)** |
 > |-----------------|------------------------------:|
 > | **📏 2 burst**  | **🎯 Each enemy in the area** |
 >

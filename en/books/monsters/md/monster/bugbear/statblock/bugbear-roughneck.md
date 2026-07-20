@@ -31,7 +31,7 @@ type: statblock
 
 > 🗡 **Haymaker (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 1**            | **🎯 Two creatures or objects** |
 >
@@ -45,7 +45,7 @@ type: statblock
 
 > 🗡 **Leaping Fury**
 >
-> | **Melee, Strike, Weapon** |               **Main action** |
+> | **Melee, Strike, Weapon** |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |---------------------------|------------------------------:|
 > | **📏 Melee 1**            | **🎯 One creature or object** |
 >
@@ -59,7 +59,7 @@ type: statblock
 
 > 🗡 **Drag Through Hell (3 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
-> | **Melee**      |                  **Maneuver** |
+> | **Melee**      |                  **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |----------------|------------------------------:|
 > | **📏 Melee 1** | **🎯 One creature or object** |
 >
@@ -69,7 +69,7 @@ type: statblock
 
 > 🗡 **Throw**
 >
-> | **Melee, Strike** | **Maneuver** |
+> | **Melee, Strike** | **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > | --- | ---:|
 > | **📏 Melee 1** | **🎯 One creature or object** |
 >
@@ -79,7 +79,7 @@ type: statblock
 
 > ❗️ **Catcher**
 >
-> | **Melee**      |                **Free triggered action** |
+> | **Melee**      |                **Free [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |
 > |----------------|-----------------------------------------:|
 > | **📏 Melee 1** | **🎯 The triggering creature or object** |
 >
@@ -89,7 +89,7 @@ type: statblock
 
 > ❗️ **Flying Sawblade**
 >
-> | **Melee** | **Triggered action** |
+> | **Melee** | **[Triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |
 > | --- | ---:|
 > | **📏 Self** | **🎯 Self** |
 >

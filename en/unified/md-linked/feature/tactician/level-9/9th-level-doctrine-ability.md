@@ -17,7 +17,7 @@ Choose one of the following abilities.
 
 *I had to pry this secret from the [shadow college](../../shadow/level-1/shadow-college.md)s.*
 
-| **[Ranged](../../../rule/combat/ranged.md)**       |            **Main action** |
+| **[Ranged](../../../rule/combat/ranged.md)**       |            **[Main action](../../../rule/combat/turn.md)** |
 |------------------|---------------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10** | **🎯 Self and two allies** |
 
@@ -28,7 +28,7 @@ Choose one of the following abilities.
 
 *You trick your enemies into attacking each other and leave them confused by the aftermath.*
 
-| **Magic, [Ranged](../../../rule/combat/ranged.md), Weapon** |      **Main action** |
+| **Magic, [Ranged](../../../rule/combat/ranged.md), Weapon** |      **[Main action](../../../rule/combat/turn.md)** |
 |---------------------------|---------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**          | **🎯 Three enemies** |
 
@@ -49,7 +49,7 @@ Choose one of the following abilities.
 
 *What makes a good soldier? The ability to fire four shots a minute in any weather.*
 
-| **Area**       |                       **Main action** |
+| **Area**       |                       **[Main action](../../../rule/combat/turn.md)** |
 |----------------|--------------------------------------:|
 | **📏 3 [burst](../../../rule/combat/burst.md)** | **🎯 Self and each ally in the area** |
 
@@ -60,7 +60,7 @@ Choose one of the following abilities.
 
 *I've identified a way to negate their strengths.*
 
-| **-**       | **Main action** |
+| **-**       | **[Main action](../../../rule/combat/turn.md)** |
 |-------------|----------------:|
 | **📏 Self** |     **🎯 Self** |
 
@@ -75,7 +75,7 @@ Choose one of the following abilities.
 
 *Nothing will stop you from reaching your foe.*
 
-| **Charge, [Melee](../../../rule/combat/melee.md), [Strike](../../../rule/combat/strike.md), Weapon** |     **Main action** |
+| **Charge, [Melee](../../../rule/combat/melee.md), [Strike](../../../rule/combat/strike.md), Weapon** |     **[Main action](../../../rule/combat/turn.md)** |
 | --------------------------------- | ------------------: |
 | **📏 [Melee](../../../rule/combat/melee.md) 1**                    | **🎯 One creature** |
 
@@ -94,7 +94,7 @@ Choose one of the following abilities.
 
 *You focus on making an enemy irrelevant.*
 
-| **[Melee](../../../rule/combat/melee.md), [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md), Weapon** |     **Main action** |
+| **[Melee](../../../rule/combat/melee.md), [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md), Weapon** |     **[Main action](../../../rule/combat/turn.md)** |
 |-----------------------------------|--------------------:|
 | **📏 [Melee](../../../rule/combat/melee.md) 1 or [ranged](../../../rule/combat/ranged.md) 5**        | **🎯 One creature** |
 

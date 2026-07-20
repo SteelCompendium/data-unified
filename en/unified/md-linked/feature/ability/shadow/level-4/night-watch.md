@@ -1,5 +1,5 @@
 ---
-action_type: Triggered
+action_type: '[Triggered](../../../../rule/combat/triggered-action.md)'
 class: shadow
 distance: '[Ranged](../../../../rule/combat/ranged.md) 5'
 effect: The target takes half the damage. You remain hidden.
@@ -19,7 +19,7 @@ type: ability
 
 *A steely dagger from out of the blue knocks another weapon off course.*
 
-| **[Ranged](../../../../rule/combat/ranged.md), Weapon** |   **Triggered** |
+| **[Ranged](../../../../rule/combat/ranged.md), Weapon** |   **[Triggered](../../../../rule/combat/triggered-action.md)** |
 |--------------------|----------------:|
 | **📏 [Ranged](../../../../rule/combat/ranged.md) 5**    | **🎯 One ally** |
 

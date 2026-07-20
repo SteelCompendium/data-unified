@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: elementalist
 cost: 7 Essence
 distance: 3 [aura](../../../../rule/combat/aura.md)
@@ -23,7 +23,7 @@ type: ability
 
 *Guardian animal spirits surround you to harry your foes and bolster your allies.*
 
-| **Area, Green, Magic** |               **Main action** |
+| **Area, Green, Magic** |               **[Main action](../../../../rule/combat/turn.md)** |
 |------------------------|------------------------------:|
 | **📏 3 [aura](../../../../rule/combat/aura.md)**          | **🎯 Each enemy in the area** |
 

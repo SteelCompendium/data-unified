@@ -12,9 +12,9 @@ keywords:
     - Magic
     - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'
 metadata:
-    action_type: Main action
+    action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: conduit
-    content: "\n*A raging storm appears, striking your foes with lightning and throwing them around with wind.*\n\n| **Area, Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)**  |               **Main action** |\n|--------------------------|------------------------------:|\n| **\U0001F4CF 3 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 10**  | **\U0001F3AF Each enemy in the area** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition):**\n\n- **≤11:** 2 lightning damage; vertical [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1\n- **12-16:** 5 lightning damage; vertical [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2\n- **17+:** 7 lightning damage; vertical [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3"
+    content: "\n*A raging storm appears, striking your foes with lightning and throwing them around with wind.*\n\n| **Area, Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)**  |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|--------------------------|------------------------------:|\n| **\U0001F4CF 3 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 10**  | **\U0001F3AF Each enemy in the area** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition):**\n\n- **≤11:** 2 lightning damage; vertical [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1\n- **12-16:** 5 lightning damage; vertical [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2\n- **17+:** 7 lightning damage; vertical [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3"
     distance: 3 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 10
     feature_type: ability
     flavor: A raging storm appears, striking your foes with lightning and throwing them around with wind.
@@ -33,4 +33,4 @@ metadata:
 name: Saint's Tempest
 target: Each enemy in the area
 type: feature
-usage: Main action
+usage: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'

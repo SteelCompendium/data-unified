@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: shadow
 cost: 5 Insight
 distance: Self; see below
@@ -19,7 +19,7 @@ type: ability
 
 *They have no idea what the college taught you.*
 
-| **Magic, [Melee](../../../../rule/combat/melee.md), [Ranged](../../../../rule/combat/ranged.md)** | **Main action** |
+| **Magic, [Melee](../../../../rule/combat/melee.md), [Ranged](../../../../rule/combat/ranged.md)** | **[Main action](../../../../rule/combat/turn.md)** |
 |------------------------|----------------:|
 | **📏 Self; see below** |     **🎯 Self** |
 

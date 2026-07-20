@@ -60,7 +60,7 @@ type: featureblock
 
 > 🗡 **Leaping Attack (Encounter)**
 >
-> | **Melee, Strike, Weapon** |               **Main action** |
+> | **Melee, Strike, Weapon** |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |---------------------------|------------------------------:|
 > | **📏 Melee 1**            | **🎯 One creature or object** |
 >
@@ -76,7 +76,7 @@ type: featureblock
 
 > 🏹 **Three-Poison Dart (Encounter)**
 >
-> | **Ranged, Strike, Weapon** |     **Main action** |
+> | **Ranged, Strike, Weapon** |     **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |----------------------------|--------------------:|
 > | **📏 Ranged 5**            | **🎯 One creature** |
 >
@@ -90,7 +90,7 @@ type: featureblock
 
 > ❗️ **Trip of the Tongue (Encounter)**
 >
-> | **Melee**      |          **Triggered action** |
+> | **Melee**      |          **[Triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |
 > |----------------|------------------------------:|
 > | **📏 Melee 5** | **🎯 One creature or object** |
 >

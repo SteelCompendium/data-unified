@@ -1,5 +1,5 @@
 ---
-action_type: Triggered
+action_type: '[Triggered](../../../../rule/combat/triggered-action.md)'
 class: tactician
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
 effect: At any time during the target's movement, one ally can make a [free strike](../../../common/main-actions/free-strike.md) against them.
@@ -20,7 +20,7 @@ type: ability
 
 *Under your direction, an ally waits for just the right moment to strike.*
 
-| **[Ranged](../../../../rule/combat/ranged.md)**       |       **Triggered** |
+| **[Ranged](../../../../rule/combat/ranged.md)**       |       **[Triggered](../../../../rule/combat/triggered-action.md)** |
 |------------------|--------------------:|
 | **📏 [Ranged](../../../../rule/combat/ranged.md) 10** | **🎯 One creature** |
 

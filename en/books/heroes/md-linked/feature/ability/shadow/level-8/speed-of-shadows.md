@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: shadow
 cost: 11 Insight
 distance: Self
@@ -17,7 +17,7 @@ type: ability
 
 *You make multiple [strikes](../../../../rule/combat/strike.md) against a foe before they even notice they're dead.*
 
-| **Magic**   | **Main action** |
+| **Magic**   | **[Main action](../../../../rule/combat/turn.md)** |
 |-------------|----------------:|
 | **📏 Self** |     **🎯 Self** |
 

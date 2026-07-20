@@ -33,7 +33,7 @@ type: statblock
 
 > 🗡 **Fire Flail (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](../../../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 2**            | **🎯 Two creatures or objects** |
 >
@@ -47,7 +47,7 @@ type: statblock
 
 > 🏹 **Fight Me, Coward!**
 >
-> | **Magic, Ranged** |        **Maneuver** |
+> | **Magic, Ranged** |        **[Maneuver](../../../rule/combat/turn.md)** |
 > |-------------------|--------------------:|
 > | **📏 Ranged 5**   | **🎯 One creature** |
 >

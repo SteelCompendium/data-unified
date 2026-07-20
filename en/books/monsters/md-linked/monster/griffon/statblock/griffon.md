@@ -30,7 +30,7 @@ type: statblock
 
 > 🗡 **Claw Swipes (Signature Ability)**
 >
-> | **Charge, Melee, Strike, Weapon** |                 **Main action** |
+> | **Charge, Melee, Strike, Weapon** |                 **[Main action](../../../rule/combat/turn.md)** |
 > |-----------------------------------|--------------------------------:|
 > | **📏 Melee 1**                    | **🎯 Two creatures or objects** |
 >
@@ -44,7 +44,7 @@ type: statblock
 
 > 🔳 **Crack the Earth**
 >
-> | **Area, Ranged**       |                  **Maneuver** |
+> | **Area, Ranged**       |                  **[Maneuver](../../../rule/combat/turn.md)** |
 > |------------------------|------------------------------:|
 > | **📏 3 cube within 8** | **🎯 Each enemy in the area** |
 >
@@ -60,7 +60,7 @@ type: statblock
 
 > 🔳 **Wing Buffet (3 [Malice](../../../rule/monster/malice.md))**
 >
-> | **Area**                   |                               **Maneuver** |
+> | **Area**                   |                               **[Maneuver](../../../rule/combat/turn.md)** |
 > |----------------------------|-------------------------------------------:|
 > | **📏 4 x 2 line within 1** | **🎯 Each creature or object in the area** |
 >
@@ -74,7 +74,7 @@ type: statblock
 
 > ❗️ **Zephyr Feint (1 [Malice](../../../rule/monster/malice.md))**
 >
-> | **-**       | **Triggered action** |
+> | **-**       | **[Triggered action](../../../rule/combat/triggered-action.md)** |
 > |-------------|---------------------:|
 > | **📏 Self** |          **🎯 Self** |
 >

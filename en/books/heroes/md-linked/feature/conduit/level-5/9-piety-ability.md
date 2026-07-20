@@ -13,7 +13,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *You ignite a foe with holy radiance, rewarding allies who attack them.*
 
-| **Magic, [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md)** |     **Main action** |
+| **Magic, [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md)** |     **[Main action](../../../rule/combat/turn.md)** |
 |---------------------------|--------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**          | **🎯 One creature** |
 
@@ -30,7 +30,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *"If you won't kneel, the gods will make you."*
 
-| **Area, Magic, [Ranged](../../../rule/combat/ranged.md)**  |               **Main action** |
+| **Area, Magic, [Ranged](../../../rule/combat/ranged.md)**  |               **[Main action](../../../rule/combat/turn.md)** |
 |--------------------------|------------------------------:|
 | **📏 4 [cube](../../../rule/combat/cube.md) within 10**  | **🎯 Each enemy in the area** |
 
@@ -45,7 +45,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *You send yourself or an ally to a divine manifold to instantaneously regain health.*
 
-| **Magic, [Ranged](../../../rule/combat/ranged.md)**  |            **Maneuver** |
+| **Magic, [Ranged](../../../rule/combat/ranged.md)**  |            **[Maneuver](../../../rule/combat/turn.md)** |
 |--------------------|------------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**   | **🎯 Self or one ally** |
 
@@ -56,7 +56,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *You infuse yourself or an ally with the retributive energy of the gods, waiting to be unleashed.*
 
-| **Magic, [Ranged](../../../rule/combat/ranged.md)**  | **Maneuver**            |
+| **Magic, [Ranged](../../../rule/combat/ranged.md)**  | **[Maneuver](../../../rule/combat/turn.md)**            |
 |--------------------|-------------------------|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**   | **🎯 Self or one ally** |
 

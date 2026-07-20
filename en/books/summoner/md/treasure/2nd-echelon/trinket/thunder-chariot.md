@@ -2,11 +2,13 @@
 echelon: "2"
 effect: The thunder chariot can be used as a [size](scc.v1:mcdm.heroes.v1/rule.character/size) 2 mount. Its [speed](scc.v1:mcdm.heroes.v1/rule.character/speed) is equal to its rider's [speed](scc.v1:mcdm.heroes.v1/rule.character/speed) + 3.
 flavor: A porcelain cart with golden filigree and wheels that crackle with electricity.
+item_prerequisite: Twenty lightning bolts frozen in time
 keywords:
     - Magic
 name: Thunder Chariot
 project_goal: "300"
 project_roll_characteristic: '[Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) or [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)'
+project_source: Texts or lore in the First Language
 scc: mcdm.summoner.v1/treasure.2nd-echelon.trinket/thunder-chariot
 treasure_type: trinket
 type: treasure

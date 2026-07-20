@@ -16,7 +16,7 @@ You also gain the following ability.
 
 *You grant allies a taste of your unearthly vision.*
 
-| **Magic, [Ranged](../../../rule/combat/ranged.md), Void** |    **Maneuver** |
+| **Magic, [Ranged](../../../rule/combat/ranged.md), Void** |    **[Maneuver](../../../rule/combat/turn.md)** |
 |-------------------------|----------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**        |  **🎯 Special** |
 

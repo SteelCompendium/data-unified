@@ -13,9 +13,9 @@
     "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)"
   ],
   "metadata": {
-    "action_type": "Maneuver",
+    "action_type": "[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)",
     "class": "tactician",
-    "content": "\n*Your allies wait for your command—then unleash death!*\n\n| **[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)**       |        **Maneuver** |\n|------------------|--------------------:|\n| **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10** | **🎯 Three allies** |\n\n**Effect:** Each target can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike).",
+    "content": "\n*Your allies wait for your command—then unleash death!*\n\n| **[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)**       |        **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|------------------|--------------------:|\n| **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10** | **🎯 Three allies** |\n\n**Effect:** Each target can make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike).",
     "distance": "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10",
     "feature_type": "ability",
     "flavor": "Your allies wait for your command—then unleash death!",
@@ -34,5 +34,5 @@
   "name": "Now!",
   "target": "Three allies",
   "type": "feature",
-  "usage": "Maneuver"
+  "usage": "[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)"
 }

@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: shadow
 cost: 9 Insight
 distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
@@ -18,7 +18,7 @@ type: ability
 
 *A well-timed throw of a potion will keep your allies in the fight.*
 
-| **[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)**       |           **Maneuver** |
+| **[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)**       |           **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 |------------------|-----------------------:|
 | **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10** | **🎯 Three creatures** |
 

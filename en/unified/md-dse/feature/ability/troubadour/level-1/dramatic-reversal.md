@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: troubadour
 cost: 5 Drama
 cost_amount: "5"
@@ -40,7 +40,7 @@ keywords:
     - Area
     - Magic
 metadata:
-    action_type: Main action
+    action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: troubadour
     cost: 5 Drama
     distance: 3 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)
@@ -60,5 +60,5 @@ metadata:
 name: Dramatic Reversal
 target: Self and each ally in the area
 type: feature
-usage: Main action
+usage: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 ```

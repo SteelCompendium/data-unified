@@ -29,7 +29,7 @@ type: statblock
 
 > 🗡 **Pitchfork Catapult ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
-> | **Charge, Melee, Strike, Weapon** |                 **Main action** |
+> | **Charge, Melee, Strike, Weapon** |                 **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-----------------------------------|--------------------------------:|
 > | **📏 Melee 2**                    | **🎯 Two creatures or objects** |
 >
@@ -43,7 +43,7 @@ type: statblock
 
 > ❇️ **Earth-Breaking Jump**
 >
-> | **Area, Weapon** |                  **Main action** |
+> | **Area, Weapon** |                  **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |------------------|---------------------------------:|
 > | **📏 3 burst**   | **🎯 Each creature in the area** |
 >
@@ -57,7 +57,7 @@ type: statblock
 
 > ❇️ **Horrible Bellow (2 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
-> | **Area**       |                  **Maneuver** |
+> | **Area**       |                  **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |----------------|------------------------------:|
 > | **📏 3 burst** | **🎯 Each enemy in the area** |
 >
@@ -71,7 +71,7 @@ type: statblock
 
 > ❗️ **Hrraaaaaagh! (1 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
-> | **-**       | **Free triggered action** |
+> | **-**       | **Free [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |
 > |-------------|--------------------------:|
 > | **📏 Self** |               **🎯 Self** |
 >

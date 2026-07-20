@@ -117,7 +117,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > 🗡 **Go for the Jugular (Encounter)**
 >
-> | **Melee, Strike, Weapon** |     **Main action** |
+> | **Melee, Strike, Weapon** |     **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------:|
 > | **📏 Melee 1**            | **🎯 One creature** |
 >
@@ -133,7 +133,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > ⚔️ **Hamstring Slice (Encounter)**
 >
-> | **Melee, Ranged, Strike, Weapon** |     **Main Action** |
+> | **Melee, Ranged, Strike, Weapon** |     **[Main Action](../rule/combat/turn.md)** |
 > |-----------------------------------|--------------------:|
 > | **📏 Melee 1 or ranged 5**        | **🎯 One creature** |
 >
@@ -149,7 +149,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > ⚔️ **Hold 'Em Down (Encounter)**
 >
-> | **Melee, Ranged, Strike, Weapon** |     **Main Action** |
+> | **Melee, Ranged, Strike, Weapon** |     **[Main Action](../rule/combat/turn.md)** |
 > |-----------------------------------|--------------------:|
 > | **📏 Melee 1 or ranged 5**        | **🎯 One creature** |
 >
@@ -167,7 +167,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > ❗️ **Supporting Volley**
 >
-> | **Ranged, Weapon** |           **Triggered action** |
+> | **Ranged, Weapon** |           **[Triggered action](../rule/combat/triggered-action.md)** |
 > |--------------------|-------------------------------:|
 > | **📏 Ranged 5**    | **🎯 The triggering creature** |
 >
@@ -179,7 +179,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > 🔳 **Line 'Em Up (Encounter)**
 >
-> | **Area, Weapon**            |               **Main action** |
+> | **Area, Weapon**            |               **[Main action](../rule/combat/turn.md)** |
 > |-----------------------------|------------------------------:|
 > | **📏 10 x 1 line within 1** | **🎯 Each enemy in the area** |
 >
@@ -193,7 +193,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > 🏹 **Ricochet Shot (Encounter)**
 >
-> | **Ranged, Strike, Weapon** | **Main action** |
+> | **Ranged, Strike, Weapon** | **[Main action](../rule/combat/turn.md)** |
 > | --- | ---:|
 > | **📏 Ranged 5** | **🎯 One creature or object** |
 >
@@ -211,7 +211,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > 👤 **Big Windup**
 >
-> | **-**       | **Maneuver** |
+> | **-**       | **[Maneuver](../rule/combat/turn.md)** |
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
@@ -221,7 +221,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > 🗡 **Overhand Swat (Encounter)**
 >
-> | **Melee, Strike, Weapon** |     **Main action** |
+> | **Melee, Strike, Weapon** |     **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------:|
 > | **📏 Melee 1**            | **🎯 One creature** |
 >
@@ -237,7 +237,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > ❇️ **Dizzying Sweep (Encounter)**
 >
-> | **Area, Weapon** |                  **Main action** |
+> | **Area, Weapon** |                  **[Main action](../rule/combat/turn.md)** |
 > |------------------|---------------------------------:|
 > | **📏 1 burst**   | **🎯 Each creature in the area** |
 >
@@ -255,7 +255,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > 🔳 **Elemental Blast (Encounter)**
 >
-> | **Area, Magic, Ranged** |                  **Main action** |
+> | **Area, Magic, Ranged** |                  **[Main action](../rule/combat/turn.md)** |
 > |-------------------------|---------------------------------:|
 > | **📏 3 cube within 10** | **🎯 Each creature in the area** |
 >
@@ -271,7 +271,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > 🔳 **Oil Slick (Encounter)**
 >
-> | **Area, Ranged, Weapon** |               **Main action** |
+> | **Area, Ranged, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |--------------------------|------------------------------:|
 > | **📏 3 cube within 10**  | **🎯 Each enemy in the area** |
 >
@@ -287,7 +287,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > 🏹 **Shattering Shards (Encounter)**
 >
-> | **Ranged, Strike, Weapon** |   **Main action** |
+> | **Ranged, Strike, Weapon** |   **[Main action](../rule/combat/turn.md)** |
 > |----------------------------|------------------:|
 > | **📏 Ranged 10**           | **🎯 One Object** |
 >
@@ -307,7 +307,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > ❗️ **Watch Out! (Encounter)**
 >
-> | **Melee**      |         **Triggered action** |
+> | **Melee**      |         **[Triggered action](../rule/combat/triggered-action.md)** |
 > |----------------|-----------------------------:|
 > | **📏 Melee 1** | **🎯 The retainer's mentor** |
 >
@@ -319,7 +319,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > 🗡 **It's Me You Want! (Encounter)**
 >
-> | **Melee, Strike, Weapon** |      **Main action** |
+> | **Melee, Strike, Weapon** |      **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|---------------------:|
 > | **📏 Melee 1**            | **🎯 Two creatures** |
 >
@@ -333,7 +333,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > 🗡 **Last Stand (Encounter)**
 >
-> | **Melee, Weapon** |  **Main action** |
+> | **Melee, Weapon** |  **[Main action](../rule/combat/turn.md)** |
 > |-------------------|-----------------:|
 > | **📏 Melee 1**    | **🎯 One enemy** |
 >
@@ -353,7 +353,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 >
 > **Power Roll + highest characteristic:**
 >
-> | **Charge, Melee, Strike, Weapon** |  **Main action** |
+> | **Charge, Melee, Strike, Weapon** |  **[Main action](../rule/combat/turn.md)** |
 > |-----------------------------------|-----------------:|
 > | **📏 Melee 1**                    | **🎯 One enemy** |
 >
@@ -365,7 +365,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > 🗡 **Meet You There (Encounter)**
 >
-> | **Melee, Strike, Weapon** |     **Main action** |
+> | **Melee, Strike, Weapon** |     **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------:|
 > | **📏 Melee 1**            | **🎯 One creature** |
 >
@@ -381,7 +381,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > ❇️ **Nab and Stab (Encounter)**
 >
-> | **Area, Weapon** |                  **Main action** |
+> | **Area, Weapon** |                  **[Main action](../rule/combat/turn.md)** |
 > |------------------|---------------------------------:|
 > | **📏 1 burst**   | **🎯 Each creature in the area** |
 >
@@ -399,7 +399,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > 🏹 **Backfire Curse (Encounter)**
 >
-> | **Magic, Ranged, Strike** |  **Main action** |
+> | **Magic, Ranged, Strike** |  **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|-----------------:|
 > | **📏 Ranged 10**          | **🎯 One enemy** |
 >
@@ -416,7 +416,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 >
 > 🏹 **Take Root (Encounter)**
 >
-> | **Magic, Ranged, Strike** |     **Main action** |
+> | **Magic, Ranged, Strike** |     **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------:|
 > | **📏 Ranged 10**          | **🎯 One creature** |
 >
@@ -432,7 +432,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > 🏹 **Mazed (Encounter)**
 >
-> | **Magic, Ranged, Strike** |     **Main action** |
+> | **Magic, Ranged, Strike** |     **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------:|
 > | **📏 Ranged 10**          | **🎯 One creature** |
 >
@@ -450,7 +450,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > 🗡 **Cavalry Charge (Encounter)**
 >
-> | **Charge, Melee, Strike, Weapon** |  **Main action** |
+> | **Charge, Melee, Strike, Weapon** |  **[Main action](../rule/combat/turn.md)** |
 > |-----------------------------------|-----------------:|
 > | **📏 Melee 1**                    | **🎯 One enemy** |
 >
@@ -466,7 +466,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > 👤 **Giddyup! (Encounter)**
 >
-> | **-**          | **Move action** |
+> | **-**          | **[Move action](../rule/combat/turn.md)** |
 > |----------------|----------------:|
 > | **📏 Range 5** |     **🎯 Self** |
 >
@@ -476,7 +476,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > ❇️ **Rearing Trample (Encounter)**
 >
-> | **Area, Weapon** |               **Main action** |
+> | **Area, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |------------------|------------------------------:|
 > | **📏 1 burst**   | **🎯 Each enemy in the area** |
 >
@@ -494,7 +494,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > 🗡 **Battlefield Medic**
 >
-> | **Melee**      |            **Maneuver** |
+> | **Melee**      |            **[Maneuver](../rule/combat/turn.md)** |
 > |----------------|------------------------:|
 > | **📏 Melee 1** | **🎯 Self or one ally** |
 >
@@ -504,7 +504,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > 🏹 **Focus Fire (Encounter)**
 >
-> | **Ranged, Strike, Weapon** |     **Main action** |
+> | **Ranged, Strike, Weapon** |     **[Main action](../rule/combat/turn.md)** |
 > |----------------------------|--------------------:|
 > | **📏 Ranged 5**            | **🎯 One creature** |
 >
@@ -520,7 +520,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > 🗡 **Back from the Dead (Encounter)**
 >
-> | **Melee**      | **Main action** |
+> | **Melee**      | **[Main action](../rule/combat/turn.md)** |
 > |----------------|----------------:|
 > | **📏 Melee 1** | **🎯 One ally** |
 >
@@ -538,7 +538,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > 🗡 **Leapfrog  (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |               **Main action** |
+> | **Melee, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Melee 1**            | **🎯 One creature or object** |
 >
@@ -560,7 +560,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > 🗡 **Leaping Attack (Encounter)**
 >
-> | **Melee, Strike, Weapon** |               **Main action** |
+> | **Melee, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Melee 1**            | **🎯 One creature or object** |
 >
@@ -576,7 +576,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > 🏹 **Three-Poison Dart (Encounter)**
 >
-> | **Ranged, Strike, Weapon** |     **Main action** |
+> | **Ranged, Strike, Weapon** |     **[Main action](../rule/combat/turn.md)** |
 > |----------------------------|--------------------:|
 > | **📏 Ranged 5**            | **🎯 One creature** |
 >
@@ -590,7 +590,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > ❗️ **Trip of the Tongue (Encounter)**
 >
-> | **Melee**      |          **Triggered action** |
+> | **Melee**      |          **[Triggered action](../rule/combat/triggered-action.md)** |
 > |----------------|------------------------------:|
 > | **📏 Melee 5** | **🎯 One creature or object** |
 >
@@ -608,7 +608,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > 🗡 **Bear Hug (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |               **Main action** |
+> | **Melee, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Melee 1**            | **🎯 One creature or object** |
 >
@@ -622,7 +622,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > 🗡 **Throw**
 >
-> | **Melee, Strike** |                  **Maneuver** |
+> | **Melee, Strike** |                  **[Maneuver](../rule/combat/turn.md)** |
 > |-------------------|------------------------------:|
 > | **📏 Melee 1**    | **🎯 One creature or object** |
 >
@@ -632,7 +632,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > ❗️ **Catcher**
 >
-> | **Melee**      |                **Free triggered action** |
+> | **Melee**      |                **Free [triggered action](../rule/combat/triggered-action.md)** |
 > |----------------|-----------------------------------------:|
 > | **📏 Melee 1** | **🎯 The triggering creature or object** |
 >
@@ -646,7 +646,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > 🗡 **Face Grab (Encounter)**
 >
-> | **Melee, Strike, Weapon** |     **Main action** |
+> | **Melee, Strike, Weapon** |     **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------:|
 > | **📏 Melee 1**            | **🎯 One creature** |
 >
@@ -663,7 +663,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 > 🏹 **Shadow Drag (Encounter)**
 >
 >
-> | **Magic, Ranged, Strike** |               **Main action** |
+> | **Magic, Ranged, Strike** |               **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Ranged 10**          | **🎯 One creature or object** |
 >
@@ -679,7 +679,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > 🗡 **Neck Snap (Encounter)**
 >
-> | **Melee**      |                             **Main action** |
+> | **Melee**      |                             **[Main action](../rule/combat/turn.md)** |
 > |----------------|--------------------------------------------:|
 > | **📏 Melee 1** | **🎯 One creature grabbed by the commando** |
 >
@@ -701,7 +701,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > 🏹 **Black Flame (Signature Ability)**
 >
-> | **Magic, Ranged, Strike** |               **Main action** |
+> | **Magic, Ranged, Strike** |               **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Ranged 10**          | **🎯 One creature or object** |
 >
@@ -713,7 +713,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > ❗️ **Tempting Offer (Encounter)**
 >
-> | **Ranged, Strike** |      **Free triggered action** |
+> | **Ranged, Strike** |      **Free [triggered action](../rule/combat/triggered-action.md)** |
 > |--------------------|-------------------------------:|
 > | **📏 Ranged 10**   | **🎯 The triggering creature** |
 >
@@ -731,7 +731,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > 🔳 **Flames of Revenge (Encounter)**
 >
-> | **Area, Magic, Ranged** |               **Main action** |
+> | **Area, Magic, Ranged** |               **[Main action](../rule/combat/turn.md)** |
 > |-------------------------|------------------------------:|
 > | **📏 3 cube within 10** | **🎯 Each enemy in the area** |
 >
@@ -747,7 +747,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > 🔳 **Hell On Earth (Encounter)**
 >
-> | **Area, Magic, Ranged** | **Main action** |
+> | **Area, Magic, Ranged** | **[Main action](../rule/combat/turn.md)** |
 > |-------------------------|----------------:|
 > | **📏 5 cube within 10** |  **🎯 Special** |
 >
@@ -763,7 +763,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > 🗡 **Baneful Blade  (Signature Ability)**
 >
-> | **Charge, Melee, Strike, Weapon** |               **Main action** |
+> | **Charge, Melee, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |-----------------------------------|------------------------------:|
 > | **📏 Melee 1**                    | **🎯 One creature or object** |
 >
@@ -775,7 +775,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > 🗡 **I'm Not a Steed, You're Equipment (Encounter)**
 >
-> | **Melee**      |              **Main action** |
+> | **Melee**      |              **[Main action](../rule/combat/turn.md)** |
 > |----------------|-----------------------------:|
 > | **📏 Melee 1** | **🎯 The Nameless's mentor** |
 >
@@ -791,7 +791,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > ❇️ **Looming Wings (Encounter)**
 >
-> | **Area, Weapon** |               **Main action** |
+> | **Area, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |------------------|------------------------------:|
 > | **📏 1 burst**   | **🎯 Each enemy in the area** |
 >
@@ -807,7 +807,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > ❇️ **Spew Death (Encounter)**
 >
-> | **Area, Magic** |               **Main action** |
+> | **Area, Magic** |               **[Main action](../rule/combat/turn.md)** |
 > |-----------------|------------------------------:|
 > | **📏 5 burst**  | **🎯 Each enemy in the area** |
 >
@@ -831,7 +831,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > 🏹 **Armor-Piercing Shell (Signature Ability)**
 >
-> | **Ranged, Strike, Weapon** |               **Main action** |
+> | **Ranged, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |----------------------------|------------------------------:|
 > | **📏 Ranged 15**           | **🎯 One creature or object** |
 >
@@ -853,7 +853,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > 🔳 **Signal Shell (Encounter)**
 >
-> | **Area, Ranged, Weapon**  |               **Main action** |
+> | **Area, Ranged, Weapon**  |               **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Special; see below** | **🎯 Each enemy in the area** |
 >
@@ -869,7 +869,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > 🔳 **Pacifier Shell (Encounter)**
 >
-> | **Area, Ranged, Weapon** |               **Main action** |
+> | **Area, Ranged, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |--------------------------|------------------------------:|
 > | **📏 3 cube within 15**  | **🎯 Each enemy in the area** |
 >
@@ -883,7 +883,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > 🔳 **Screaming Shell (Encounter)**
 >
-> | **Area, Weapon**            |               **Main action** |
+> | **Area, Weapon**            |               **[Main action](../rule/combat/turn.md)** |
 > |-----------------------------|------------------------------:|
 > | **📏 10 x 1 line within 1** | **🎯 Each enemy in the area** |
 >
@@ -905,7 +905,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > 🏹 **Summer's Bolt (Signature Ability)**
 >
-> | **Magic, Ranged, Strike** |               **Main action** |
+> | **Magic, Ranged, Strike** |               **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Ranged 10**          | **🎯 One creature or object** |
 >
@@ -927,7 +927,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > 🔳 **Winter's Breath (Encounter)**
 >
-> | **Area, Magic**        |               **Main action** |
+> | **Area, Magic**        |               **[Main action](../rule/combat/turn.md)** |
 > |------------------------|------------------------------:|
 > | **📏 3 cube within 1** | **🎯 Each enemy in the area** |
 >
@@ -943,7 +943,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > ❇️ **Spring's Rebirth (Encounter)**
 >
-> | **Area, Magic** |              **Main action** |
+> | **Area, Magic** |              **[Main action](../rule/combat/turn.md)** |
 > |-----------------|-----------------------------:|
 > | **📏 3 burst**  | **🎯 Each ally in the area** |
 >
@@ -953,7 +953,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > 🔳 **Autumn's Decay (Encounter)**
 >
-> | **Area, Magic**        |               **Main action** |
+> | **Area, Magic**        |               **[Main action](../rule/combat/turn.md)** |
 > |------------------------|------------------------------:|
 > | **📏 3 cube within 1** | **🎯 Each enemy in the area** |
 >
@@ -973,7 +973,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > ⚔️ **Gloom Dagger (Signature Ability)**
 >
-> | **Melee, Ranged, Strike, Weapon** |               **Main action** |
+> | **Melee, Ranged, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |-----------------------------------|------------------------------:|
 > | **📏 Melee 1 or ranged 3**        | **🎯 One creature or object** |
 >
@@ -987,7 +987,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > 🔳 **Duskfall (Encounter)**
 >
-> | **Area, Magic**        |   **Maneuver** |
+> | **Area, Magic**        |   **[Maneuver](../rule/combat/turn.md)** |
 > |------------------------|---------------:|
 > | **📏 3 cube within 1** | **🎯 Special** |
 >
@@ -1003,7 +1003,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > 🏹 **Slow-Poison Needle (Encounter)**
 >
-> | **Ranged, Strike, Weapon** |     **Main action** |
+> | **Ranged, Strike, Weapon** |     **[Main action](../rule/combat/turn.md)** |
 > |----------------------------|--------------------:|
 > | **📏 Ranged 5**            | **🎯 One creature** |
 >
@@ -1019,7 +1019,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > 🗡 **Shadow Dagger (Encounter)**
 >
-> | **Melee, Strike, Weapon** |     **Main action** |
+> | **Melee, Strike, Weapon** |     **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------:|
 > | **📏 Melee 1**            | **🎯 One creature** |
 >
@@ -1041,7 +1041,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > 🏹 **Longshot (Signature Ability)**
 >
-> | **Ranged, Strike, Weapon** |               **Main action** |
+> | **Ranged, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |----------------------------|------------------------------:|
 > | **📏 Ranged 15**           | **🎯 One creature or object** |
 >
@@ -1063,7 +1063,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > 🏹 **Snipe (Encounter)**
 >
-> | **Ranged, Strike, Weapon** |     **Main action** |
+> | **Ranged, Strike, Weapon** |     **[Main action](../rule/combat/turn.md)** |
 > |----------------------------|--------------------:|
 > | **📏 Ranged 15**           | **🎯 One creature** |
 >
@@ -1079,7 +1079,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > 👤 **Magic Arrows (Encounter)**
 >
-> | **-**       | **Maneuver** |
+> | **-**       | **[Maneuver](../rule/combat/turn.md)** |
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
@@ -1089,7 +1089,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > 🏹 **Double Shot (Encounter)**
 >
-> | **Ranged, Strike, Weapon** |                 **Main action** |
+> | **Ranged, Strike, Weapon** |                 **[Main action](../rule/combat/turn.md)** |
 > |----------------------------|--------------------------------:|
 > | **📏 Ranged 15**           | **🎯 Two creatures or objects** |
 >
@@ -1109,7 +1109,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > 🗡 **Gnash  (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |               **Main action** |
+> | **Melee, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Melee 1**            | **🎯 One creature or object** |
 >
@@ -1129,7 +1129,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > ❗️ **Frenzied Bite (Encounter)**
 >
-> | **-**       | **Triggered action** |
+> | **-**       | **[Triggered action](../rule/combat/triggered-action.md)** |
 > |-------------|---------------------:|
 > | **📏 Self** |          **🎯 Self** |
 >
@@ -1141,7 +1141,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > 🗡 **Flurry of Fangs (Encounter)**
 >
-> | **Melee, Strike, Weapon** |                   **Main action** |
+> | **Melee, Strike, Weapon** |                   **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|----------------------------------:|
 > | **📏 Melee 1**            | **🎯 Three creatures or objects** |
 >
@@ -1155,7 +1155,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > 👤 **Horrific Feas (Encounter)**
 >
-> | **-**       | **Main action** |
+> | **-**       | **[Main action](../rule/combat/turn.md)** |
 > |-------------|----------------:|
 > | **📏 Self** |     **🎯 Self** |
 >
@@ -1173,7 +1173,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > 🗡 **Stabbity Stab (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |               **Main action** |
+> | **Melee, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Melee 1**            | **🎯 One creature or object** |
 >
@@ -1195,7 +1195,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > 🗡 **Weaving Knives (Encounter)**
 >
-> | **Melee, Strike, Weapon** |               **Main action** |
+> | **Melee, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Melee 1**            | **🎯 One creature or object** |
 >
@@ -1211,7 +1211,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > 🗡 **Sneak and Stab (Encounter)**
 >
-> | **Melee, Strike, Weapon** |     **Main action** |
+> | **Melee, Strike, Weapon** |     **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------:|
 > | **📏 Melee 1**            | **🎯 One creature** |
 >
@@ -1227,7 +1227,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > 🌀 **Poison Blade (Encounter)**
 >
-> | **-**          | **Main action** |
+> | **-**          | **[Main action](../rule/combat/turn.md)** |
 > |----------------|----------------:|
 > | **📏 Special** |  **🎯 Special** |
 >
@@ -1244,7 +1244,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > 🏹 **Fire Curse (Signature Ability)**
 >
-> | **Magic, Ranged, Strike** |               **Main action** |
+> | **Magic, Ranged, Strike** |               **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Ranged 10**          | **🎯 One creature or object** |
 >
@@ -1258,7 +1258,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > 🏹 **Fuel for the Fire**
 >
-> | **Magic, Ranged** |     **Main action** |
+> | **Magic, Ranged** |     **[Main action](../rule/combat/turn.md)** |
 > |-------------------|--------------------:|
 > | **📏 Ranged 10**  | **🎯 One creature** |
 >
@@ -1274,7 +1274,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > 🔳 **Unholy Attraction (Encounter)**
 >
-> | **Area, Magic, Ranged** |               **Main action** |
+> | **Area, Magic, Ranged** |               **[Main action](../rule/combat/turn.md)** |
 > |-------------------------|------------------------------:|
 > | **📏 3 cube within 10** | **🎯 Each enemy in the area** |
 >
@@ -1290,7 +1290,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > ❇️ **Fire Spiral (Encounter)**
 >
-> | **Area, Magic** |               **Main action** |
+> | **Area, Magic** |               **[Main action](../rule/combat/turn.md)** |
 > |-----------------|------------------------------:|
 > | **📏 3 burst**  | **🎯 Each enemy in the area** |
 >
@@ -1312,7 +1312,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > 🗡 **Chop  (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |               **Main action** |
+> | **Melee, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Melee 1**            | **🎯 One creature or object** |
 >
@@ -1334,7 +1334,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > ❗️ **'Scuse Me, Boss (Encounter)**
 >
-> | **Melee**      |          **Triggered action** |
+> | **Melee**      |          **[Triggered action](../rule/combat/triggered-action.md)** |
 > |----------------|------------------------------:|
 > | **📏 Melee 1** |   **🎯 The warrior's mentor** |
 >
@@ -1346,7 +1346,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > 🗡 **Defensive Fighting (Encounter)**
 >
-> | **Melee, Strike, Weapon** |     **Main action** |
+> | **Melee, Strike, Weapon** |     **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------:|
 > | **📏 Melee 1**            | **🎯 One creature** |
 >
@@ -1362,7 +1362,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > ❇️ **Whirlwind of Steel (Encounter)**
 >
-> | **Area, Charge, Weapon** |               **Main action** |
+> | **Area, Charge, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |--------------------------|------------------------------:|
 > | **📏 1 burst**           | **🎯 Each enemy in the area** |
 >
@@ -1382,7 +1382,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > 🗡 **Gladius (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |               **Main action** |
+> | **Melee, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Melee 1**            | **🎯 One creature or object** |
 >
@@ -1402,7 +1402,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > ❗️ **Shield Block (Encounter)**
 >
-> | **Ranged**      |             **Triggered action** |
+> | **Ranged**      |             **[Triggered action](../rule/combat/triggered-action.md)** |
 > |-----------------|---------------------------------:|
 > | **📏 Ranged 5** | **🎯 The shieldbearer's mentor** |
 >
@@ -1414,7 +1414,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > 🗡 **Living Backpack**
 >
-> | **Melee**      |                  **Main action** |
+> | **Melee**      |                  **[Main action](../rule/combat/turn.md)** |
 > |----------------|---------------------------------:|
 > | **📏 Melee 1** | **🎯 The shieldbearer's mentor** |
 >
@@ -1424,7 +1424,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > 🗡 **Let's Go Sledding (Encounter)**
 >
-> | **Charge, Melee, Strike, Weapon** |      **Main action** |
+> | **Charge, Melee, Strike, Weapon** |      **[Main action](../rule/combat/turn.md)** |
 > |-----------------------------------|---------------------:|
 > | **📏 Melee 1**                    | **🎯 Three enemies** |
 >
@@ -1446,7 +1446,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > 🗡 **Gore (Signature Ability)**
 >
-> | **Charge, Melee, Strike, Weapon** |               **Main action** |
+> | **Charge, Melee, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |-----------------------------------|------------------------------:|
 > | **📏 Melee 1**                    | **🎯 One creature or object** |
 >
@@ -1458,7 +1458,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > ❗️ **Retaliatory Strike**
 >
-> | **Ranged**      |           **Triggered action** |
+> | **Ranged**      |           **[Triggered action](../rule/combat/triggered-action.md)** |
 > |-----------------|-------------------------------:|
 > | **📏 Ranged 6** | **🎯 The triggering creature** |
 >
@@ -1476,7 +1476,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > ❗️ **Horn Toss**
 >
-> | **Melee**      |      **Free triggered action** |
+> | **Melee**      |      **Free [triggered action](../rule/combat/triggered-action.md)** |
 > |----------------|-------------------------------:|
 > | **📏 Melee 1** | **🎯 The triggering creature** |
 >
@@ -1488,7 +1488,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > 👤 **Triumphant Bay (Encounter)**
 >
-> | **-**       | **Maneuver** |
+> | **-**       | **[Maneuver](../rule/combat/turn.md)** |
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
@@ -1498,7 +1498,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > ❇️ **Horn Rake (Encounter)**
 >
-> | **Area, Weapon** |               **Main action** |
+> | **Area, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |------------------|------------------------------:|
 > | **📏 1 burst**   | **🎯 Each enemy in the area** |
 >
@@ -1518,7 +1518,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > ⚔️ **Notched Axe (Signature Ability)**
 >
-> | **Charge, Melee, Ranged, Strike, Weapon** |               **Main action** |
+> | **Charge, Melee, Ranged, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |-------------------------------------------|------------------------------:|
 > | **📏 Melee 1 or ranged 5**                | **🎯 One creature or object** |
 >
@@ -1538,7 +1538,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > 👤 **Blood Oath (Encounter)**
 >
-> | **Self**    | **Maneuver** |
+> | **Self**    | **[Maneuver](../rule/combat/turn.md)** |
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
@@ -1548,7 +1548,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > 👤 **Mow 'Em Down (Encounter)**
 >
-> | **-**                  | **Main action** |
+> | **-**                  | **[Main action](../rule/combat/turn.md)** |
 > |------------------------|----------------:|
 > | **📏 Self; See below** |     **🎯 Self** |
 >
@@ -1558,7 +1558,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > ❇️ **Vein Burst (Encounter)**
 >
-> | **Area, Psionic** |               **Main action** |
+> | **Area, Psionic** |               **[Main action](../rule/combat/turn.md)** |
 > |-------------------|------------------------------:|
 > | **📏 2 burst**    | **🎯 Each enemy in the area** |
 >
@@ -1580,7 +1580,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > ⚔️ **Dagger's Bite (Signature Ability)**
 >
-> | **Melee, Ranged, Strike, Weapon** |               **Main action** |
+> | **Melee, Ranged, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |-----------------------------------|------------------------------:|
 > | **📏 Melee 1 or ranged 5**        | **🎯 One creature or object** |
 >
@@ -1592,7 +1592,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > ❗️ **Ready Rodent**
 >
-> | **Melee, Weapon** | **Triggered action** |
+> | **Melee, Weapon** | **[Triggered action](../rule/combat/triggered-action.md)** |
 > |-------------------|---------------------:|
 > | **📏 Melee 1**    |  **🎯 One creature** |
 >
@@ -1606,7 +1606,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > 👤 **Boost**
 >
-> | **-**       | **Maneuver** |
+> | **-**       | **[Maneuver](../rule/combat/turn.md)** |
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
@@ -1616,7 +1616,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > 🔳 **Bug Bag (Encounter)**
 >
-> | **Area, Ranged**       |                  **Main action** |
+> | **Area, Ranged**       |                  **[Main action](../rule/combat/turn.md)** |
 > |------------------------|---------------------------------:|
 > | **📏 3 cube within 3** | **🎯 Each creature in the area** |
 >
@@ -1630,7 +1630,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > 🏹 **Triumphant Squeak (Encounter)**
 >
-> | **Ranged** | **Maneuver** |
+> | **Ranged** | **[Maneuver](../rule/combat/turn.md)** |
 > | --- | ---:|
 > | **📏 Ranged 10** | **🎯 Self and each ally** |
 >
@@ -1646,7 +1646,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > 🏹 **Laser Lancet (Signature Ability)**
 >
-> | **Ranged, Strike, Weapon** |               **Main action** |
+> | **Ranged, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |----------------------------|------------------------------:|
 > | **📏 Ranged 3**            | **🎯 One creature or object** |
 >
@@ -1668,7 +1668,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > 🏹 **Stim Charge (Encounter)**
 >
-> | **Ranged**      |     **Main action** |
+> | **Ranged**      |     **[Main action](../rule/combat/turn.md)** |
 > |-----------------|--------------------:|
 > | **📏 Ranged 3** | **🎯 One creature** |
 >
@@ -1678,7 +1678,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > 🏹 **Mind Whelm (Encounter)**
 >
-> | **Psionic, Ranged, Strike** |     **Main action** |
+> | **Psionic, Ranged, Strike** |     **[Main action](../rule/combat/turn.md)** |
 > |-----------------------------|--------------------:|
 > | **📏 Ranged 3**             | **🎯 One creature** |
 >
@@ -1692,7 +1692,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > ❇️ **Psychic Short Circuit (Encounter)**
 >
-> | **Area, Psionic** |               **Main action** |
+> | **Area, Psionic** |               **[Main action](../rule/combat/turn.md)** |
 > |-------------------|------------------------------:|
 > | **📏 2 burst**    | **🎯 Each enemy in the area** |
 >
@@ -1714,7 +1714,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > 🗡 **Big Bite (Signature Ability)**
 >
-> | **Charge, Melee, Strike, Weapon** |               **Main action** |
+> | **Charge, Melee, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |-----------------------------------|------------------------------:|
 > | **📏 Melee 1**                    | **🎯 One creature or object** |
 >
@@ -1728,7 +1728,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > ❇️ **Troll Roar (Encounter)**
 >
-> | **Area**       |                  **Maneuver** |
+> | **Area**       |                  **[Maneuver](../rule/combat/turn.md)** |
 > |----------------|------------------------------:|
 > | **📏 3 burst** | **🎯 Each enemy in the area** |
 >
@@ -1748,7 +1748,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > 🗡 **Hangry Frenzy (Encounter)**
 >
-> | **Melee**      |        **Main action** |
+> | **Melee**      |        **[Main action](../rule/combat/turn.md)** |
 > |----------------|-----------------------:|
 > | **📏 Melee 1** | **🎯 Three creatures** |
 >
@@ -1758,7 +1758,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > ❗️ **Fire Bad (Encounter)**
 >
-> | **-**       | **Triggered action** |
+> | **-**       | **[Triggered action](../rule/combat/triggered-action.md)** |
 > |-------------|---------------------:|
 > | **📏 Self** |          **🎯 Self** |
 >
@@ -1776,7 +1776,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > 🗡 **Lurching Swipe (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |               **Main action** |
+> | **Melee, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Melee 1**            | **🎯 One creature or object** |
 >
@@ -1796,7 +1796,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > 🗡 **Grab and Bite (Encounter)**
 >
-> | **Melee, Strike, Weapon** |     **Main action** |
+> | **Melee, Strike, Weapon** |     **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------:|
 > | **📏 Melee 1**            | **🎯 One creature** |
 >
@@ -1810,7 +1810,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > 🏹 **Death to Death (Encounter)**
 >
-> | **Magic, Ranged, Strike** |        **Maneuver** |
+> | **Magic, Ranged, Strike** |        **[Maneuver](../rule/combat/turn.md)** |
 > |---------------------------|--------------------:|
 > | **📏 Ranged 10**          | **🎯 One creature** |
 >
@@ -1826,7 +1826,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > ❗️ **Death Miasma (Encounter)**
 >
-> | **Area, Magic** |     **Free triggered action** |
+> | **Area, Magic** |     **Free [triggered action](../rule/combat/triggered-action.md)** |
 > |-----------------|------------------------------:|
 > | **📏 2 burst**  | **🎯 Each enemy in the area** |
 >
@@ -1850,7 +1850,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > 🏹 **Chill of Death (Signature Ability)**
 >
-> | **Magic, Ranged, Strike** |               **Main action** |
+> | **Magic, Ranged, Strike** |               **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Ranged 10**          | **🎯 One creature or object** |
 >
@@ -1862,7 +1862,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > 👤 **Spirit Meld**
 >
-> | **-**       | **Main action** |
+> | **-**       | **[Main action](../rule/combat/turn.md)** |
 > |-------------|----------------:|
 > | **📏 Self** |     **🎯 Self** |
 >
@@ -1878,7 +1878,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > 🏹 **Enervating Curse (Encounter)**
 >
-> | **Magic, Ranged, Strike** |     **Main action** |
+> | **Magic, Ranged, Strike** |     **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------:|
 > | **📏 Ranged 10**          | **🎯 One creature** |
 >
@@ -1894,7 +1894,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > 🔳 **Ectoplasm (Encounter)**
 >
-> | **Area, Magic**        |               **Main action** |
+> | **Area, Magic**        |               **[Main action](../rule/combat/turn.md)** |
 > |------------------------|------------------------------:|
 > | **📏 3 cube within 1** | **🎯 Each enemy in the area** |
 >
@@ -1908,7 +1908,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > 🏹 **Death Phase (Encounter)**
 >
-> | **Magic, Ranged, Strike** |     **Main action** |
+> | **Magic, Ranged, Strike** |     **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------:|
 > | **📏 Ranged 5**           | **🎯 One creature** |
 >
@@ -1924,7 +1924,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > 🗡 **Flashing Fangs (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |               **Main action** |
+> | **Melee, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Melee 1**            | **🎯 One creature or object** |
 >
@@ -1938,7 +1938,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > 👤 **Bat Form (Encounter)**
 >
-> | **-**       | **Move Action** |
+> | **-**       | **[Move Action](../rule/combat/turn.md)** |
 > |-------------|----------------:|
 > | **📏 Self** |     **🎯 Self** |
 >
@@ -1954,7 +1954,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > 🗡 **Blood Surge (Encounter)**
 >
-> | **Melee, Strike, Weapon** |     **Main action** |
+> | **Melee, Strike, Weapon** |     **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------:|
 > | **📏 Melee 1**            | **🎯 One creature** |
 >
@@ -1970,7 +1970,7 @@ If a role advancement ability has the Magic or Psionic keyword, a retainer can s
 
 > 🔳 **Exsanguination (Encounter)**
 >
-> | **Area, Magic**        |               **Main action** |
+> | **Area, Magic**        |               **[Main action](../rule/combat/turn.md)** |
 > |------------------------|------------------------------:|
 > | **📏 3 cube within 1** | **🎯 Each enemy in the area** |
 >

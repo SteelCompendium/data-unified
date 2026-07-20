@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: "null"
 cost: 9 Discipline
 distance: Self; see below
@@ -24,7 +24,7 @@ type: ability
 
 *You weaken your connection to this manifold, allowing you to move through and damage enemies.*
 
-| **[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), Psionic, Weapon** | **Main action** |
+| **[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), Psionic, Weapon** | **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 |----------------------------|----------------:|
 | **📏 Self; see below**     |     **🎯 Self** |
 

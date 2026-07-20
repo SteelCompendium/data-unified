@@ -14,9 +14,9 @@
     "Magic"
   ],
   "metadata": {
-    "action_type": "Maneuver",
+    "action_type": "[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)",
     "class": "shadow",
-    "content": "\n*You distract your foes, allowing your allies to take advantage of that distraction.*\n\n| **Area, Magic** |                  **Maneuver** |\n|-----------------|------------------------------:|\n| **📏 5 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)**  | **🎯 Each enemy in the area** |\n\n**Effect:** Until the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), any [ability roll](scc.v1:mcdm.heroes.v1/rule.dice/ability-roll) made against a target gains an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge).",
+    "content": "\n*You distract your foes, allowing your allies to take advantage of that distraction.*\n\n| **Area, Magic** |                  **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|-----------------|------------------------------:|\n| **📏 5 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)**  | **🎯 Each enemy in the area** |\n\n**Effect:** Until the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), any [ability roll](scc.v1:mcdm.heroes.v1/rule.dice/ability-roll) made against a target gains an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge).",
     "distance": "5 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)",
     "feature_type": "ability",
     "flavor": "You distract your foes, allowing your allies to take advantage of that distraction.",
@@ -37,5 +37,5 @@
   "name": "Look!",
   "target": "Each enemy in the area",
   "type": "feature",
-  "usage": "Maneuver"
+  "usage": "[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)"
 }

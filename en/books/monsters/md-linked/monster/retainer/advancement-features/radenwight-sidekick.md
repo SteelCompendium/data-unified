@@ -46,7 +46,7 @@ type: featureblock
 
 > 👤 **Boost**
 >
-> | **-**       | **Maneuver** |
+> | **-**       | **[Maneuver](../../../rule/combat/turn.md)** |
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
@@ -56,7 +56,7 @@ type: featureblock
 
 > 🔳 **Bug Bag (Encounter)**
 >
-> | **Area, Ranged**       |                  **Main action** |
+> | **Area, Ranged**       |                  **[Main action](../../../rule/combat/turn.md)** |
 > |------------------------|---------------------------------:|
 > | **📏 3 cube within 3** | **🎯 Each creature in the area** |
 >
@@ -70,7 +70,7 @@ type: featureblock
 
 > 🏹 **Triumphant Squeak (Encounter)**
 >
-> | **Ranged** | **Maneuver** |
+> | **Ranged** | **[Maneuver](../../../rule/combat/turn.md)** |
 > | --- | ---:|
 > | **📏 Ranged 10** | **🎯 Self and each ally** |
 >

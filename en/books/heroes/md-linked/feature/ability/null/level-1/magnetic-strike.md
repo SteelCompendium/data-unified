@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: "null"
 distance: '[Melee](../../../../rule/combat/melee.md) 2'
 flavor: The force of your blow extends past the limits of your body, pulling your enemy closer.
@@ -23,7 +23,7 @@ type: ability
 
 *The force of your blow extends past the limits of your body, pulling your enemy closer.*
 
-| **[Melee](../../../../rule/combat/melee.md), Psionic, [Strike](../../../../rule/combat/strike.md), Weapon** |     **Main action** |
+| **[Melee](../../../../rule/combat/melee.md), Psionic, [Strike](../../../../rule/combat/strike.md), Weapon** |     **[Main action](../../../../rule/combat/turn.md)** |
 |------------------------------------|--------------------:|
 | **📏 [Melee](../../../../rule/combat/melee.md) 2**                     | **🎯 One creature** |
 

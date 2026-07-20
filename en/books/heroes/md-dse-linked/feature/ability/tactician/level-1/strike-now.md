@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: tactician
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
 effect: The target can use a [signature ability](../../../../rule/combat/signature-ability.md) as a free [triggered action](../../../../rule/combat/triggered-action.md).
@@ -31,7 +31,7 @@ flavor: Your foe left an opening. You point this out to an ally!
 keywords:
     - '[Ranged](../../../../rule/combat/ranged.md)'
 metadata:
-    action_type: Main action
+    action_type: '[Main action](../../../../rule/combat/turn.md)'
     class: tactician
     distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
     effect: The target can use a [signature ability](../../../../rule/combat/signature-ability.md) as a free [triggered action](../../../../rule/combat/triggered-action.md).
@@ -47,5 +47,5 @@ metadata:
 name: '"Strike Now!"'
 target: One ally
 type: feature
-usage: Main action
+usage: '[Main action](../../../../rule/combat/turn.md)'
 ```

@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](../../../../rule/combat/turn.md)'
 class: talent
 cost: 11 Clarity
 cost_amount: "11"
@@ -36,7 +36,7 @@ keywords:
     - Psionic
     - '[Ranged](../../../../rule/combat/ranged.md)'
 metadata:
-    action_type: Maneuver
+    action_type: '[Maneuver](../../../../rule/combat/turn.md)'
     class: talent
     cost: 11 Clarity
     distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
@@ -54,5 +54,5 @@ metadata:
 name: Rejuvenate
 target: Self or one ally
 type: feature
-usage: Maneuver
+usage: '[Maneuver](../../../../rule/combat/turn.md)'
 ```

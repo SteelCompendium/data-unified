@@ -33,7 +33,7 @@ with_captain: Gain an edge on strikes
 
 > 🏹 **Call to Self-Sabotage ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
-> | **Psionic, Ranged, Strike** |                **Main action** |
+> | **Psionic, Ranged, Strike** |                **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-----------------------------|-------------------------------:|
 > | **📏 Ranged 5**             | **🎯 One creature per minion** |
 >

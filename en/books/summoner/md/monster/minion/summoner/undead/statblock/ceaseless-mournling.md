@@ -3,6 +3,7 @@ agility: 2
 cost: 5 essence for three minions
 flavor: Mournlings are hulking amalgams of mismatched cadavers with tear-stained trenches where their cheeks used to be. Their crying shakes enemies to their bone and renders them struggling to move.
 free_strike: 3
+free_strike_damage_type: Sonic
 immunities:
     - Corruption R
     - Poison R

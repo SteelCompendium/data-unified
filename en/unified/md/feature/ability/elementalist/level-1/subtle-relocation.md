@@ -1,5 +1,5 @@
 ---
-action_type: Triggered
+action_type: '[Triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)'
 class: elementalist
 distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
 effect: You [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) the target up to a number of squares equal to your [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) score. If the target moves to trigger this ability, you can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) them at any point during the move.
@@ -22,7 +22,7 @@ type: ability
 
 *You call on the void to swallow and spit out an ally.*
 
-| **Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged), Void**  |           **Triggered** |
+| **Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged), Void**  |           **[Triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |
 |--------------------------|------------------------:|
 | **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**         | **🎯 Self or one ally** |
 

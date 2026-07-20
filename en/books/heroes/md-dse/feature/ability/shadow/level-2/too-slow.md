@@ -1,5 +1,5 @@
 ---
-action_type: Free triggered
+action_type: Free [triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)
 class: shadow
 cost: 5 Insight
 cost_amount: "5"
@@ -33,7 +33,7 @@ feature_type: ability
 flavor: Your foe made a big mistake.
 keywords: []
 metadata:
-    action_type: Free triggered
+    action_type: Free [triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)
     class: shadow
     cost: 5 Insight
     distance: Self; see below
@@ -52,5 +52,5 @@ name: Too Slow
 target: Self
 trigger: You use your [In All This Confusion](scc.v1:mcdm.heroes.v1/feature.ability.shadow.level-1/in-all-this-confusion) ability.
 type: feature
-usage: Free triggered
+usage: Free [triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)
 ```

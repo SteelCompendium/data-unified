@@ -14,9 +14,9 @@
     "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)"
   ],
   "metadata": {
-    "action_type": "Maneuver",
+    "action_type": "[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)",
     "class": "troubadour",
-    "content": "\n*You magically intertwine your fate with another creature—for better or worse.*\n\n| **Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)** |        **Maneuver** |\n|-------------------|--------------------:|\n| **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**  | **🎯 One creature** |\n\n**Effect:** Until the end of the encounter, both you and the target can target each other with abilities even if you are beyond [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance), with the [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance) of this ability replacing those abilities' [distances](scc.v1:mcdm.heroes.v1/rule.combat/distance). The target can't be [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement) by an ability used beyond [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance) this way.\n\nAdditionally, once on each of your [turns](scc.v1:mcdm.heroes.v1/rule.combat/turn), you can use a [free maneuver](scc.v1:mcdm.heroes.v1/rule.combat/free-maneuver) to communicate a motivating or dispiriting message to the target, either granting them 2 [surges](scc.v1:mcdm.heroes.v1/rule.resource/surge) or forcing them to take a [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) on the next [ability roll](scc.v1:mcdm.heroes.v1/rule.dice/ability-roll) they make before the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn).",
+    "content": "\n*You magically intertwine your fate with another creature—for better or worse.*\n\n| **Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)** |        **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|-------------------|--------------------:|\n| **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**  | **🎯 One creature** |\n\n**Effect:** Until the end of the encounter, both you and the target can target each other with abilities even if you are beyond [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance), with the [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance) of this ability replacing those abilities' [distances](scc.v1:mcdm.heroes.v1/rule.combat/distance). The target can't be [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement) by an ability used beyond [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance) this way.\n\nAdditionally, once on each of your [turns](scc.v1:mcdm.heroes.v1/rule.combat/turn), you can use a [free maneuver](scc.v1:mcdm.heroes.v1/rule.combat/free-maneuver) to communicate a motivating or dispiriting message to the target, either granting them 2 [surges](scc.v1:mcdm.heroes.v1/rule.resource/surge) or forcing them to take a [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) on the next [ability roll](scc.v1:mcdm.heroes.v1/rule.dice/ability-roll) they make before the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn).",
     "distance": "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10",
     "feature_type": "ability",
     "flavor": "You magically intertwine your fate with another creature—for better or worse.",
@@ -36,5 +36,5 @@
   "name": "We Meet at Last",
   "target": "One creature",
   "type": "feature",
-  "usage": "Maneuver"
+  "usage": "[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)"
 }

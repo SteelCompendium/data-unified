@@ -34,7 +34,7 @@ type: statblock
 
 > 🏹 **Choking Bolt (Signature Ability)**
 >
-> | **Magic, Ranged, Strike** |               **Main action** |
+> | **Magic, Ranged, Strike** |               **[Main action](../../../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Ranged 5**           | **🎯 One creature or object** |
 >
@@ -48,7 +48,7 @@ type: statblock
 
 > ❇️ **Smoke Bomb (3 [Malice](../../../rule/monster/malice.md))**
 >
-> | **Area, Magic** |                  **Maneuver** |
+> | **Area, Magic** |                  **[Maneuver](../../../rule/combat/turn.md)** |
 > |-----------------|------------------------------:|
 > | **📏 3 burst**  | **🎯 Each enemy in the area** |
 >

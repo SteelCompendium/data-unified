@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](../../../../rule/combat/turn.md)'
 class: conduit
 cost: 7 Piety
 cost_amount: "7"
@@ -34,7 +34,7 @@ keywords:
     - Magic
     - '[Ranged](../../../../rule/combat/ranged.md)'
 metadata:
-    action_type: Maneuver
+    action_type: '[Maneuver](../../../../rule/combat/turn.md)'
     class: conduit
     cost: 7 Piety
     distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
@@ -51,5 +51,5 @@ metadata:
 name: Saint's Raiment
 target: One ally
 type: feature
-usage: Maneuver
+usage: '[Maneuver](../../../../rule/combat/turn.md)'
 ```

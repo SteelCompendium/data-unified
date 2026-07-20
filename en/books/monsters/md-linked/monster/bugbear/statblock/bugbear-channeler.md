@@ -31,7 +31,7 @@ type: statblock
 
 > 🏹 **Shadow Drag (Signature Ability)**
 >
-> | **Magic, Ranged, Strike** |                 **Main Action** |
+> | **Magic, Ranged, Strike** |                 **[Main Action](../../../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Ranged 8**           | **🎯 Two creatures or objects** |
 >
@@ -45,7 +45,7 @@ type: statblock
 
 > ❇️ **Blistering Element**
 >
-> | **Area, Magic** |               **Main Action** |
+> | **Area, Magic** |               **[Main Action](../../../rule/combat/turn.md)** |
 > |-----------------|------------------------------:|
 > | **📏 3 burst**  | **🎯 Each enemy in the area** |
 >
@@ -59,7 +59,7 @@ type: statblock
 
 > 🏹 **Twist Shape (5 [Malice](../../../rule/monster/malice.md))**
 >
-> | **Magic, Ranged, Strike** |     **Main Action** |
+> | **Magic, Ranged, Strike** |     **[Main Action](../../../rule/combat/turn.md)** |
 > |---------------------------|--------------------:|
 > | **📏 Ranged 5**           | **🎯 One creature** |
 >
@@ -73,7 +73,7 @@ type: statblock
 
 > 🗡 **Throw**
 >
-> | **Melee, Strike** |                  **Maneuver** |
+> | **Melee, Strike** |                  **[Maneuver](../../../rule/combat/turn.md)** |
 > |-------------------|------------------------------:|
 > | **📏 Melee 1**    | **🎯 One creature or object** |
 >
@@ -83,7 +83,7 @@ type: statblock
 
 > ❗️ **Catcher**
 >
-> | **Melee**      |                **Free triggered action** |
+> | **Melee**      |                **Free [triggered action](../../../rule/combat/triggered-action.md)** |
 > |----------------|-----------------------------------------:|
 > | **📏 Melee 1** | **🎯 The triggering creature or object** |
 >
@@ -93,7 +93,7 @@ type: statblock
 
 > ❗️ **Shadow Veil**
 >
-> | **Magic, Ranged** |       **Triggered action** |
+> | **Magic, Ranged** |       **[Triggered action](../../../rule/combat/triggered-action.md)** |
 > |-------------------|---------------------------:|
 > | **📏 Ranged 5**   | **🎯 The triggering ally** |
 >

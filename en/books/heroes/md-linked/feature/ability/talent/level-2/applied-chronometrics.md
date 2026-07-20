@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](../../../../rule/combat/turn.md)'
 class: talent
 cost: 5 Clarity
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
@@ -24,7 +24,7 @@ type: ability
 
 *Time slows down around you. Your heartbeat is the only gauge of the extra moments you've gained.*
 
-| **Chronopathy, Psionic, [Ranged](../../../../rule/combat/ranged.md)** |   **Maneuver** |
+| **Chronopathy, Psionic, [Ranged](../../../../rule/combat/ranged.md)** |   **[Maneuver](../../../../rule/combat/turn.md)** |
 |----------------------------------|---------------:|
 | **📏 [Ranged](../../../../rule/combat/ranged.md) 10**                 | **🎯 Special** |
 

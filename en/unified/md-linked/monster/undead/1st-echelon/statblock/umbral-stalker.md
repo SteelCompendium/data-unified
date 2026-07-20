@@ -32,7 +32,7 @@ type: statblock
 
 > 🗡 **Chilling Grasp ([Signature Ability](../../../../rule/combat/signature-ability.md))**
 >
-> | **Magic, Melee, Strike** |               **Main action** |
+> | **Magic, Melee, Strike** |               **[Main action](../../../../rule/combat/turn.md)** |
 > |--------------------------|------------------------------:|
 > | **📏 Melee 1**           | **🎯 One creature or object** |
 >
@@ -44,7 +44,7 @@ type: statblock
 
 > 🔳 **Freezing Dark (3 [Malice](../../../../rule/monster/malice.md))**
 >
-> | **Area, Magic**        |               **Main action** |
+> | **Area, Magic**        |               **[Main action](../../../../rule/combat/turn.md)** |
 > |------------------------|------------------------------:|
 > | **📏 3 cube within 1** | **🎯 Each enemy in the area** |
 >
@@ -58,7 +58,7 @@ type: statblock
 
 > 👤 **Shadow Jump (1 [Malice](../../../../rule/monster/malice.md))**
 >
-> | **-**       | **Free maneuver** |
+> | **-**       | **[Free maneuver](../../../../rule/combat/free-maneuver.md)** |
 > |-------------|------------------:|
 > | **📏 Self** |       **🎯 Self** |
 >

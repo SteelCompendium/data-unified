@@ -15,9 +15,9 @@
     "Telepathy"
   ],
   "metadata": {
-    "action_type": "Main action",
+    "action_type": "[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)",
     "class": "talent",
-    "content": "\n*A protective field reverses the momentum of incoming attacks.*\n\n| **Area, Psionic, Telepathy** | **Main action** |\n|------------------------------|----------------:|\n| **📏 3 [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura)**                |  **🎯 Special** |\n\n**Effect:** The [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura) lasts until the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn). Whenever an enemy targets an ally in the area with a [ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) ability, the ability is negated on the ally and reflected back at the enemy. The ability deals half the damage to the enemy that it would have dealt to the ally and loses any additional effects.\n\n**Strained:** The size of the [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura) increases by 1. Whenever your [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura) reflects an ability, you take 2d6 damage and forget a memory, as determined by you and the Director.",
+    "content": "\n*A protective field reverses the momentum of incoming attacks.*\n\n| **Area, Psionic, Telepathy** | **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|------------------------------|----------------:|\n| **📏 3 [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura)**                |  **🎯 Special** |\n\n**Effect:** The [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura) lasts until the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn). Whenever an enemy targets an ally in the area with a [ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) ability, the ability is negated on the ally and reflected back at the enemy. The ability deals half the damage to the enemy that it would have dealt to the ally and loses any additional effects.\n\n**Strained:** The size of the [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura) increases by 1. Whenever your [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura) reflects an ability, you take 2d6 damage and forget a memory, as determined by you and the Director.",
     "distance": "3 [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura)",
     "feature_type": "ability",
     "flavor": "A protective field reverses the momentum of incoming attacks.",
@@ -38,5 +38,5 @@
   "name": "Reflector Field",
   "target": "Special",
   "type": "feature",
-  "usage": "Main action"
+  "usage": "[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)"
 }

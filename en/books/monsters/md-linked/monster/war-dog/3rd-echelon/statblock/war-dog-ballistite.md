@@ -29,7 +29,7 @@ type: statblock
 
 > 🏹 **Biokinetic Ballista ([Signature Ability](../../../../rule/combat/signature-ability.md))**
 >
-> | **Ranged, Strike, Weapon** |                 **Main action** |
+> | **Ranged, Strike, Weapon** |                 **[Main action](../../../../rule/combat/turn.md)** |
 > |----------------------------|--------------------------------:|
 > | **📏 Ranged 15**           | **🎯 Two creatures or objects** |
 >
@@ -43,7 +43,7 @@ type: statblock
 
 > 🔳 **Kill Zone (3 [Malice](../../../../rule/monster/malice.md))**
 >
-> | **Area, Magic, Ranged** |   **Maneuver** |
+> | **Area, Magic, Ranged** |   **[Maneuver](../../../../rule/combat/turn.md)** |
 > |-------------------------|---------------:|
 > | **📏 3 cube within 12** | **🎯 Special** |
 >

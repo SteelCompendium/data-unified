@@ -50,7 +50,7 @@ type: featureblock
 
 > 👤 **Blood Oath (Encounter)**
 >
-> | **Self**    | **Maneuver** |
+> | **Self**    | **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
@@ -60,7 +60,7 @@ type: featureblock
 
 > 👤 **Mow 'Em Down (Encounter)**
 >
-> | **-**                  | **Main action** |
+> | **-**                  | **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |------------------------|----------------:|
 > | **📏 Self; See below** |     **🎯 Self** |
 >
@@ -70,7 +70,7 @@ type: featureblock
 
 > ❇️ **Vein Burst (Encounter)**
 >
-> | **Area, Psionic** |               **Main action** |
+> | **Area, Psionic** |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-------------------|------------------------------:|
 > | **📏 2 burst**    | **🎯 Each enemy in the area** |
 >

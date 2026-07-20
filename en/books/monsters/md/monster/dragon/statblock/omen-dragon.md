@@ -45,7 +45,7 @@ type: statblock
 
 > 🔳 **Corroding Breath (Signature Ability)**
 >
-> | **Area, Magic, Ranged** | **Main action** |
+> | **Area, Magic, Ranged** | **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-------------------------|------------------------------:|
 > | **📏 5 cube within 10** | **🎯 Each creature and object in the area** |
 >
@@ -59,7 +59,7 @@ type: statblock
 
 > 🗡 **Barbed Tail Swing**
 >
-> | **Charge, Melee, Strike, Weapon** |                 **Main action** |
+> | **Charge, Melee, Strike, Weapon** |                 **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-----------------------------------|--------------------------------:|
 > | **📏 Melee 4**                    | **🎯 Two creatures or objects** |
 >
@@ -77,7 +77,7 @@ type: statblock
 
 > ❇️ **Detonation (5 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
-> | **Area**        |                  **Maneuver** |
+> | **Area**        |                  **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-----------------|------------------------------:|
 > | **📏 10 burst** | **🎯 Each enemy in the area** |
 >
@@ -85,7 +85,7 @@ type: statblock
 
 > ❗️ **Don't Turn Away (1 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
-> | **-**       | **Free triggered action** |
+> | **-**       | **Free [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |
 > |-------------|--------------------------:|
 > | **📏 Self** |               **🎯 Self** |
 >
@@ -95,7 +95,7 @@ type: statblock
 
 > ❗️ **Repent! (2 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
-> | **Ranged**      |      **Free triggered action** |
+> | **Ranged**      |      **Free [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |
 > |-----------------|-------------------------------:|
 > | **📏 Ranged 5** | **🎯 The triggering creature** |
 >

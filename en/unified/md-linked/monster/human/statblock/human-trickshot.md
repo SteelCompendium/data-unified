@@ -32,7 +32,7 @@ type: statblock
 
 > ⚔️ **Trick Crossbow (Signature Ability)**
 >
-> | **Melee, Ranged, Strike, Weapon** |               **Main action** |
+> | **Melee, Ranged, Strike, Weapon** |               **[Main action](../../../rule/combat/turn.md)** |
 > |-----------------------------------|------------------------------:|
 > | **📏 Melee 1 or ranged 15**       | **🎯 One creature or object** |
 >

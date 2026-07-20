@@ -1,5 +1,5 @@
 ---
-action_type: Free triggered
+action_type: Free [triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)
 class: shadow
 cost: 5 Insight
 distance: Self; see below
@@ -19,7 +19,7 @@ type: ability
 
 *Your foe made a big mistake.*
 
-| **-**                  | **Free triggered** |
+| **-**                  | **Free [triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |
 |------------------------|-------------------:|
 | **📏 Self; see below** |        **🎯 Self** |
 

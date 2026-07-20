@@ -38,7 +38,7 @@ At the start of any human's turn, you can spend [Malice](scc.v1:mcdm.monsters.v1
 
 > 🔳 **Alchemical Device (3 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
-> | **Area, Magic, Ranged** |                             **Maneuver** |
+> | **Area, Magic, Ranged** |                             **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-------------------------|-----------------------------------------:|
 > | **📏 3 cube within 10** | **🎯 Each enemy and object in the area** |
 >

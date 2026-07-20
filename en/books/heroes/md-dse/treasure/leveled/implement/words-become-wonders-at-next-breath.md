@@ -4,12 +4,18 @@ file_dpath: treasure/leveled/implement
 flavor: This ornate high elf tome seems to sigh each time it is opened.
 item_id: words-become-wonders-at-next-breath
 item_name: Words Become Wonders at Next Breath
+item_prerequisite: Written permission from a [high elf](scc.v1:mcdm.heroes.v1/ancestry/high-elf) magistrate
 keywords:
     - '[Implement](scc.v1:mcdm.heroes.v1/rule.treasure/implement)'
     - Magic
+level_effects:
+    1st: You can open or close the tome as a maneuver while speaking or thinking its full name. While the tome is open, it floats in an [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) space and flips to specific pages at your command, you gain an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) [tests](scc.v1:mcdm.heroes.v1/rule.test/test) made to recall lore, and you gain a +3 [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance) for your [ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) magic or psionic abilities.
+    5th: While the tome is open, the [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance) for your [ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) magic or psionic abilities increases to +5. Additionally, when you or a creature you have [line of effect](scc.v1:mcdm.heroes.v1/rule.combat/line-of-effect) to uses a magic or psionic ability, you can use a [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action) to grant a +3 [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to the [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll).
+    9th: While the tome is open, you automatically obtain a tier 3 outcome on [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) [tests](scc.v1:mcdm.heroes.v1/rule.test/test) made to recall lore, and when you use a [heroic ability](scc.v1:mcdm.heroes.v1/rule.general/heroic-ability), its [Heroic Resource](scc.v1:mcdm.heroes.v1/rule.resource/heroic-resource) cost is reduced by 1 (to a minimum of 1).
 name: Words Become Wonders at Next Breath
 project_goal: "450"
 project_roll_characteristic: '[Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) or [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)'
+project_source: Texts or lore in Hyrallic
 scc: mcdm.heroes.v1/treasure.leveled.implement/words-become-wonders-at-next-breath
 source: mcdm.heroes.v1
 treasure_type: implement

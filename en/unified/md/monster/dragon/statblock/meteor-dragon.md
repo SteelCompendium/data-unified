@@ -39,7 +39,7 @@ type: statblock
 
 > 🔳 **Gravity Well (Signature Ability)**
 >
-> | **Area, Magic, Ranged** | **Main action** |
+> | **Area, Magic, Ranged** | **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-------------------------|------------------------------:|
 > | **📏 4 cube within 10** | **🎯 Each creature and object in the area** |
 >
@@ -53,7 +53,7 @@ type: statblock
 
 > ⚔️ **Cosmic Tail Ray**
 >
-> | **Magic, Melee, Ranged, Strike** |                 **Main action** |
+> | **Magic, Melee, Ranged, Strike** |                 **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |----------------------------------|--------------------------------:|
 > | **📏 Melee 2 or ranged 15**      | **🎯 Two creatures or objects** |
 >
@@ -71,7 +71,7 @@ type: statblock
 
 > ❇️ **Investiture of Gravity (5 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
-> | **Area, Magic** |                  **Maneuver** |
+> | **Area, Magic** |                  **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-----------------|------------------------------:|
 > | **📏 15 burst** | **🎯 Each enemy in the area** |
 >
@@ -79,7 +79,7 @@ type: statblock
 
 > ❗️ **Field Collapse**
 >
-> | **-**       | **Free triggered action** |
+> | **-**       | **Free [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |
 > |-------------|--------------------------:|
 > | **📏 Self** |               **🎯 Self** |
 >
@@ -89,7 +89,7 @@ type: statblock
 
 > ❗️ **A Hero Faces the Void (2 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
-> | **Magic, Ranged** |      **Free triggered action** |
+> | **Magic, Ranged** |      **Free [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |
 > |-------------------|-------------------------------:|
 > | **📏 Ranged 5**   | **🎯 The triggering creature** |
 >

@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: tactician
 cost: 9 Focus
 cost_amount: "9"
@@ -33,7 +33,7 @@ flavor: You and your allies coordinate to form a new battle line.
 keywords:
     - Area
 metadata:
-    action_type: Maneuver
+    action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: tactician
     cost: 9 Focus
     distance: 2 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)
@@ -50,5 +50,5 @@ metadata:
 name: Hustle!
 target: Self and each ally in the area
 type: feature
-usage: Maneuver
+usage: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 ```

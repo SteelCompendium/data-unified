@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: fury
 cost: 11 Ferocity
 distance: 3 [burst](../../../../rule/combat/burst.md)
@@ -25,7 +25,7 @@ type: ability
 
 *You channel the power of the Primordial Chaos to pull foes to you.*
 
-| **Area, Magic, [Melee](../../../../rule/combat/melee.md), Weapon** |               **Main action** |
+| **Area, Magic, [Melee](../../../../rule/combat/melee.md), Weapon** |               **[Main action](../../../../rule/combat/turn.md)** |
 |--------------------------------|------------------------------:|
 | **📏 3 [burst](../../../../rule/combat/burst.md)**                 | **🎯 Each enemy in the area** |
 

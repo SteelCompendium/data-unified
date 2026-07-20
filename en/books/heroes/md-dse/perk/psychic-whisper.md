@@ -17,7 +17,7 @@ You have the following ability.
 >
 > *You send a one-way telepathic message to a friend.*
 >
-> | **Psionic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)** |    **Maneuver** |
+> | **Psionic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)** |    **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |---------------------|----------------:|
 > | **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**    | **🎯 One ally** |
 >

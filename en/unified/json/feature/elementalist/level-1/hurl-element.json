@@ -21,8 +21,8 @@
       "[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)"
     ],
     "metadata": {
-      "action_type": "Main action",
-      "content": "\n*You cast a ball of elemental energy at a foe.*\n\n| **Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)** |               **Main action** |\n|---------------------------|------------------------------:|\n| **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**          | **🎯 One creature or object** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason):**\n\n- **≤11:** 2 + R damage\n- **12-16:** 4 + R damage\n- **17+:** 6 + R damage\n\n**Effect:** When you make this [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), choose the [damage type](scc.v1:mcdm.heroes.v1/rule.damage/damage-type) from one of the following options: acid, cold, corruption, fire, lightning, poison, or sonic.",
+      "action_type": "[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)",
+      "content": "\n*You cast a ball of elemental energy at a foe.*\n\n| **Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)** |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|---------------------------|------------------------------:|\n| **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**          | **🎯 One creature or object** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason):**\n\n- **≤11:** 2 + R damage\n- **12-16:** 4 + R damage\n- **17+:** 6 + R damage\n\n**Effect:** When you make this [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), choose the [damage type](scc.v1:mcdm.heroes.v1/rule.damage/damage-type) from one of the following options: acid, cold, corruption, fire, lightning, poison, or sonic.",
       "distance": "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10",
       "feature_type": "ability",
       "flavor": "You cast a ball of elemental energy at a foe.",
@@ -39,7 +39,7 @@
     "name": "Hurl Element",
     "target": "One creature or object",
     "type": "feature",
-    "usage": "Main action"
+    "usage": "[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)"
   },
   "effects": [
     {

@@ -6,11 +6,13 @@ file_dpath: treasure/4th-echelon/trinket
 flavor: This ancient wooden lantern is inscribed with eldritch runes and stained with dark blood.
 item_id: gravekeepers-lantern
 item_name: Gravekeeper's Lantern
+item_prerequisite: The powdered jawbone of a powerful spellcaster, wood from a tree marking multiple graves
 keywords:
     - Magic
 name: Gravekeeper's Lantern
 project_goal: "600"
 project_roll_characteristic: '[Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) or [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)'
+project_source: Texts or lore in Hyrallic
 scc: mcdm.heroes.v1/treasure.4th-echelon.trinket/gravekeepers-lantern
 source: mcdm.heroes.v1
 treasure_type: trinket

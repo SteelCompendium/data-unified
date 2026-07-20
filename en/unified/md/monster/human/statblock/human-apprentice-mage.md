@@ -33,7 +33,7 @@ with_captain: +5 bonus to ranged distance
 
 > 🏹 **Lightning Strike (Signature Ability)**
 >
-> | **Magic, Ranged, Strike** |                          **Main action** |
+> | **Magic, Ranged, Strike** |                          **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |---------------------------|-----------------------------------------:|
 > | **📏 Ranged 10**          | **🎯 One creature or object per minion** |
 >

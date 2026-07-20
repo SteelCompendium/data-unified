@@ -29,7 +29,7 @@ type: statblock
 
 > 🏹 **Snaring Crossbow (Signature Ability)**
 >
-> | **Ranged, Strike, Weapon** |               **Main action** |
+> | **Ranged, Strike, Weapon** |               **[Main action](../../../rule/combat/turn.md)** |
 > |----------------------------|------------------------------:|
 > | **📏 Ranged 10**           | **🎯 One creature or object** |
 >
@@ -43,7 +43,7 @@ type: statblock
 
 > 🏹 **Reel Them In (3 [Malice](../../../rule/monster/malice.md))**
 >
-> | **Ranged, Weapon** |           **Maneuver** |
+> | **Ranged, Weapon** |           **[Maneuver](../../../rule/combat/turn.md)** |
 > |--------------------|-----------------------:|
 > | **📏 Ranged 10**   | **🎯 Three creatures** |
 >

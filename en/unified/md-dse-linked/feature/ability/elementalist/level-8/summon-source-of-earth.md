@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: elementalist
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
 effect: A **source of earth** emerges from an unoccupied space within [distance](../../../../rule/combat/distance.md). The source takes their [turn](../../../../rule/combat/turn.md) immediately after you, moving up to their [speed](../../../../rule/character/speed.md) and either taking a main action or a maneuver. The source is dismissed at the start of your next [turn](../../../../rule/combat/turn.md).
@@ -33,7 +33,7 @@ keywords:
     - Magic
     - '[Ranged](../../../../rule/combat/ranged.md)'
 metadata:
-    action_type: Main action
+    action_type: '[Main action](../../../../rule/combat/turn.md)'
     class: elementalist
     distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
     effect: A **source of earth** emerges from an unoccupied space within [distance](../../../../rule/combat/distance.md). The source takes their [turn](../../../../rule/combat/turn.md) immediately after you, moving up to their [speed](../../../../rule/character/speed.md) and either taking a main action or a maneuver. The source is dismissed at the start of your next [turn](../../../../rule/combat/turn.md).
@@ -51,5 +51,5 @@ metadata:
 name: Summon Source of Earth
 target: Special
 type: feature
-usage: Main action
+usage: '[Main action](../../../../rule/combat/turn.md)'
 ```

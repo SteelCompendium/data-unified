@@ -31,7 +31,7 @@ type: statblock
 
 > 🏹 **Laser Lancet (Signature Ability)**
 >
-> | **Ranged, Strike, Weapon** |               **Main action** |
+> | **Ranged, Strike, Weapon** |               **[Main action](../../../rule/combat/turn.md)** |
 > |----------------------------|------------------------------:|
 > | **📏 Ranged 3**            | **🎯 One creature or object** |
 >

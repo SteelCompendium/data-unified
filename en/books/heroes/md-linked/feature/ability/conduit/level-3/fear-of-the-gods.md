@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: conduit
 cost: 7 Piety
 distance: 5 [cube](../../../../rule/combat/cube.md) within 10
@@ -23,7 +23,7 @@ type: ability
 
 *Your divine magic makes a creature appear as what your enemies fear most.*
 
-| **Area, Magic, [Ranged](../../../../rule/combat/ranged.md)**  |               **Main action** |
+| **Area, Magic, [Ranged](../../../../rule/combat/ranged.md)**  |               **[Main action](../../../../rule/combat/turn.md)** |
 |--------------------------|------------------------------:|
 | **📏 5 [cube](../../../../rule/combat/cube.md) within 10**  | **🎯 Each enemy in the area** |
 

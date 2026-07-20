@@ -6,11 +6,13 @@ file_dpath: treasure/3rd-echelon/consumable
 flavor: This tiny humanoid effigy appears unnervingly lifelike and is always warm to the touch.
 item_id: personal-effigy
 item_name: Personal Effigy
+item_prerequisite: A brief period of contact with the creature the effigy is tied to
 keywords:
     - Magic
 name: Personal Effigy
 project_goal: "120"
 project_roll_characteristic: '[Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) or [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)'
+project_source: Texts or lore in Khemharic
 scc: mcdm.heroes.v1/treasure.3rd-echelon.consumable/personal-effigy
 source: mcdm.heroes.v1
 treasure_type: consumable

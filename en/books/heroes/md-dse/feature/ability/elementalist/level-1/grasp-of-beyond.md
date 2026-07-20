@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: elementalist
 distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
 effect: You can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) up to a number of squares equal to your [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) score.
@@ -43,7 +43,7 @@ keywords:
     - '[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)'
     - Void
 metadata:
-    action_type: Main action
+    action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: elementalist
     distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
     effect: You can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) up to a number of squares equal to your [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) score.
@@ -66,5 +66,5 @@ metadata:
 name: Grasp of Beyond
 target: One creature
 type: feature
-usage: Main action
+usage: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 ```

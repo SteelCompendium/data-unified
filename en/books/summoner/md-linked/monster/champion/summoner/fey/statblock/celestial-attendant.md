@@ -3,6 +3,7 @@ agility: 2
 cost: 9 essence for one champion
 flavor: 'Stamina: Your maximum Stamina'
 free_strike: 9
+free_strike_damage_type: Poison
 immunities:
     - Damage 2
 intuition: 2
@@ -33,7 +34,7 @@ Stamina: Your maximum Stamina
 
 > 🏹 **Pixie Swarm 2d10 + 5 ([Signature Ability](../../../../../rule/combat/signature-ability.md))**
 >
-> | **Magic, Ranged, Strike** | **Main action** |
+> | **Magic, Ranged, Strike** | **[Main action](../../../../../rule/combat/turn.md)** |
 > |---------------------------|----------------:|
 > | **📏 Ranged 10** | **🎯 Two creatures or objects** |
 >

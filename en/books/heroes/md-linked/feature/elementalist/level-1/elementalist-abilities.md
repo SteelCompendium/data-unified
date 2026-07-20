@@ -17,7 +17,7 @@ Choose two [signature abilities](../../../rule/combat/signature-ability.md) from
 
 *Your curse causes your foe's flesh to rot off as spores that aid your allies.*
 
-| **Green, Magic, [Ranged](../../../rule/combat/ranged.md), Rot, [Strike](../../../rule/combat/strike.md)**  |     **Main action** |
+| **Green, Magic, [Ranged](../../../rule/combat/ranged.md), Rot, [Strike](../../../rule/combat/strike.md)**  |     **[Main action](../../../rule/combat/turn.md)** |
 |----------------------------------------|--------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**                       | **🎯 One creature** |
 
@@ -34,7 +34,7 @@ Choose two [signature abilities](../../../rule/combat/signature-ability.md) from
 
 *Two jets of flame lance out at your command.*
 
-| **Fire, Magic, [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md)** |                 **Main action** |
+| **Fire, Magic, [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md)** |                 **[Main action](../../../rule/combat/turn.md)** |
 |---------------------------------|--------------------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**                | **🎯 Two creatures or objects** |
 
@@ -49,7 +49,7 @@ Choose two [signature abilities](../../../rule/combat/signature-ability.md) from
 
 *You absorb the life energy of another creature and use it to [teleport](../../../movement/teleport.md).*
 
-| **Magic, [Melee](../../../rule/combat/melee.md), [Strike](../../../rule/combat/strike.md), Void** |     **Main action** |
+| **Magic, [Melee](../../../rule/combat/melee.md), [Strike](../../../rule/combat/strike.md), Void** |     **[Main action](../../../rule/combat/turn.md)** |
 |--------------------------------|--------------------:|
 | **📏 [Melee](../../../rule/combat/melee.md) 1**                 | **🎯 One creature** |
 
@@ -66,7 +66,7 @@ Choose two [signature abilities](../../../rule/combat/signature-ability.md) from
 
 *Whipping vines erupt from a foe's body to grasp at another close by.*
 
-| **Green, Magic, [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md)** |      **Main action** |
+| **Green, Magic, [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md)** |      **[Main action](../../../rule/combat/turn.md)** |
 |----------------------------------|---------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**                 |  **🎯 One creature** |
 
@@ -83,7 +83,7 @@ Choose two [signature abilities](../../../rule/combat/signature-ability.md) from
 
 *You give your enemy a gentle tap-like an asteroid impact.*
 
-| **Earth, Magic, [Melee](../../../rule/combat/melee.md), [Strike](../../../rule/combat/strike.md)** |               **Main action** |
+| **Earth, Magic, [Melee](../../../rule/combat/melee.md), [Strike](../../../rule/combat/strike.md)** |               **[Main action](../../../rule/combat/turn.md)** |
 |---------------------------------|------------------------------:|
 | **📏 [Melee](../../../rule/combat/melee.md) 1**                  | **🎯 One creature or object** |
 
@@ -98,7 +98,7 @@ Choose two [signature abilities](../../../rule/combat/signature-ability.md) from
 
 *You inflict pain and doubt in equal measure.*
 
-| **Magic, [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md), Void** |               **Main action** | 
+| **Magic, [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md), Void** |               **[Main action](../../../rule/combat/turn.md)** |
 |---------------------------------|------------------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**                | **🎯 One creature or object** |
 
@@ -113,7 +113,7 @@ Choose two [signature abilities](../../../rule/combat/signature-ability.md) from
 
 *A sudden storm of detritus assaults your foes and leaves them struggling to move.*
 
-| **Area, Earth, Magic, [Ranged](../../../rule/combat/ranged.md)** |               **Main action** |
+| **Area, Earth, Magic, [Ranged](../../../rule/combat/ranged.md)** |               **[Main action](../../../rule/combat/turn.md)** |
 |--------------------------------|------------------------------:|
 | **📏 2 [cube](../../../rule/combat/cube.md) within 10**        | **🎯 Each enemy in the area** |
 
@@ -130,7 +130,7 @@ Choose two [signature abilities](../../../rule/combat/signature-ability.md) from
 
 *A jet of heavy fire erupts where you strike.*
 
-| **Fire, Magic, [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md)** |               **Main action** | 
+| **Fire, Magic, [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md)** |               **[Main action](../../../rule/combat/turn.md)** |
 |---------------------------------|------------------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**                | **🎯 One creature or object** |
 
@@ -153,7 +153,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *You open a rift into the void to harry your foes.*
 
-| **Area, Magic, [Ranged](../../../rule/combat/ranged.md), Void** |               **Main action** |
+| **Area, Magic, [Ranged](../../../rule/combat/ranged.md), Void** |               **[Main action](../../../rule/combat/turn.md)** |
 |-------------------------------|------------------------------:|
 | **📏 3 [cube](../../../rule/combat/cube.md) within 10**       | **🎯 Each enemy in the area** |
 
@@ -170,7 +170,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *Fire engulfs your target and continues to churn.*
 
-| **Fire, Magic, [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md)** |               **Main action** |
+| **Fire, Magic, [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md)** |               **[Main action](../../../rule/combat/turn.md)** |
 |---------------------------------|------------------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**                | **🎯 One creature or object** |
 
@@ -187,7 +187,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *Mushrooms erupt from a foe, sapping their vitality to spread strengthening spores.*
 
-| **Green, Magic, [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md)** |      **Main action** |
+| **Green, Magic, [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md)** |      **[Main action](../../../rule/combat/turn.md)** |
 |----------------------------------|---------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**                 |  **🎯 One creature** |
 
@@ -204,7 +204,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *Like a stone was dropped into a pond, waves in the earth radiate from you.*
 
-| **Area, Earth, Magic** |               **Main action** |
+| **Area, Earth, Magic** |               **[Main action](../../../rule/combat/turn.md)** |
 |------------------------|------------------------------:|
 | **📏 2 [burst](../../../rule/combat/burst.md)**         | **🎯 Each enemy in the area** |
 
@@ -225,7 +225,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *A storm of fire descends upon your enemies.*
 
-| **Area, Fire, Magic, [Ranged](../../../rule/combat/ranged.md)** |               **Main action** |
+| **Area, Fire, Magic, [Ranged](../../../rule/combat/ranged.md)** |               **[Main action](../../../rule/combat/turn.md)** |
 |-------------------------------|------------------------------:|
 | **📏 3 [cube](../../../rule/combat/cube.md) within 10**       | **🎯 Each enemy in the area** |
 
@@ -242,7 +242,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *The surface of the world around you opens up to swallow foes.*
 
-| **Earth, Magic, [Ranged](../../../rule/combat/ranged.md)** |    **Maneuver** |
+| **Earth, Magic, [Ranged](../../../rule/combat/ranged.md)** |    **[Maneuver](../../../rule/combat/turn.md)** |
 |--------------------------|----------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**         |  **🎯 Special** |
 
@@ -261,7 +261,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *The material substance of a creature shreds away at your command.*
 
-| **Magic, [Ranged](../../../rule/combat/ranged.md), Void** |            **Maneuver** |
+| **Magic, [Ranged](../../../rule/combat/ranged.md), Void** |            **[Maneuver](../../../rule/combat/turn.md)** |
 |-------------------------|------------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**        | **🎯 Self or one ally** |
 
@@ -274,7 +274,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *You call down a rain that burns your enemies and restores your allies.*
 
-| **Area, Green, Magic, [Ranged](../../../rule/combat/ranged.md)** |               **Main action** |
+| **Area, Green, Magic, [Ranged](../../../rule/combat/ranged.md)** |               **[Main action](../../../rule/combat/turn.md)** |
 |--------------------------------|------------------------------:|
 | **📏 3 [cube](../../../rule/combat/cube.md) within 10**        | **🎯 Each enemy in the area** |
 

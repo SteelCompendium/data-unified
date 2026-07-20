@@ -52,7 +52,7 @@ type: featureblock
 
 > 🗡 **Battlefield Medic**
 >
-> | **Melee**      |            **Maneuver** |
+> | **Melee**      |            **[Maneuver](../../../rule/combat/turn.md)** |
 > |----------------|------------------------:|
 > | **📏 Melee 1** | **🎯 Self or one ally** |
 >
@@ -62,7 +62,7 @@ type: featureblock
 
 > 🏹 **Focus Fire (Encounter)**
 >
-> | **Ranged, Strike, Weapon** |     **Main action** |
+> | **Ranged, Strike, Weapon** |     **[Main action](../../../rule/combat/turn.md)** |
 > |----------------------------|--------------------:|
 > | **📏 Ranged 5**            | **🎯 One creature** |
 >
@@ -78,7 +78,7 @@ type: featureblock
 
 > 🗡 **Back from the Dead (Encounter)**
 >
-> | **Melee**      | **Main action** |
+> | **Melee**      | **[Main action](../../../rule/combat/turn.md)** |
 > |----------------|----------------:|
 > | **📏 Melee 1** | **🎯 One ally** |
 >

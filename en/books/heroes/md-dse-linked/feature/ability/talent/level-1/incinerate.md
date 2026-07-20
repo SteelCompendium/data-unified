@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: talent
 distance: 3 [cube](../../../../rule/combat/cube.md) within 10
 effect: A column of fire remains in the area until the start of your next [turn](../../../../rule/combat/turn.md). Each enemy who enters the area for the first time in a [combat round](../../../../rule/combat/combat-round.md) or starts their turn there takes 2 fire damage.
@@ -45,7 +45,7 @@ keywords:
     - Pyrokinesis
     - '[Ranged](../../../../rule/combat/ranged.md)'
 metadata:
-    action_type: Main action
+    action_type: '[Main action](../../../../rule/combat/turn.md)'
     class: talent
     distance: 3 [cube](../../../../rule/combat/cube.md) within 10
     effect: A column of fire remains in the area until the start of your next [turn](../../../../rule/combat/turn.md). Each enemy who enters the area for the first time in a [combat round](../../../../rule/combat/combat-round.md) or starts their turn there takes 2 fire damage.
@@ -69,5 +69,5 @@ metadata:
 name: Incinerate
 target: Each enemy in the area
 type: feature
-usage: Main action
+usage: '[Main action](../../../../rule/combat/turn.md)'
 ```

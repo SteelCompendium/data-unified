@@ -1,5 +1,5 @@
 ---
-action_type: Triggered
+action_type: '[Triggered](../../../../rule/combat/triggered-action.md)'
 class: talent
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
 effect: The target takes psychic damage equal to half the triggering damage.
@@ -20,7 +20,7 @@ type: ability
 
 *Creating a brief psychic link between an enemy and their target gives that foe a taste of their own medicine.*
 
-| **Psionic, [Ranged](../../../../rule/combat/ranged.md)** |       **Triggered** |
+| **Psionic, [Ranged](../../../../rule/combat/ranged.md)** |       **[Triggered](../../../../rule/combat/triggered-action.md)** |
 |---------------------|--------------------:|
 | **📏 [Ranged](../../../../rule/combat/ranged.md) 10**    | **🎯 One creature** |
 

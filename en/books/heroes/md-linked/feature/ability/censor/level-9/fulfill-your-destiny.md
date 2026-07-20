@@ -1,5 +1,5 @@
 ---
-action_type: Triggered
+action_type: '[Triggered](../../../../rule/combat/triggered-action.md)'
 class: censor
 cost: 11 Wrath
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
@@ -21,7 +21,7 @@ type: ability
 
 *You have looked at various futures, and only this one works.*
 
-| **Magic, [Ranged](../../../../rule/combat/ranged.md)**  |   **Triggered** |
+| **Magic, [Ranged](../../../../rule/combat/ranged.md)**  |   **[Triggered](../../../../rule/combat/triggered-action.md)** |
 |--------------------|----------------:|
 | **📏 [Ranged](../../../../rule/combat/ranged.md) 10**   | **🎯 One ally** |
 

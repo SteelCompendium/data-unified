@@ -6,6 +6,7 @@ cost_resource: Malice for three minions
 file_basename: accursed-mummy
 file_dpath: monster/rival/1st-echelon/summoner/minion/statblock
 free_strike: 3
+free_strike_damage_type: Poison
 immunities:
     - Corruption 2
     - poison 2

@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](../../../../rule/combat/turn.md)'
 class: conduit
 cost: 9 Piety
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
@@ -18,7 +18,7 @@ type: ability
 
 *You infuse yourself or an ally with the retributive energy of the gods, waiting to be unleashed.*
 
-| **Magic, [Ranged](../../../../rule/combat/ranged.md)**  | **Maneuver**            |
+| **Magic, [Ranged](../../../../rule/combat/ranged.md)**  | **[Maneuver](../../../../rule/combat/turn.md)**            |
 |--------------------|-------------------------|
 | **📏 [Ranged](../../../../rule/combat/ranged.md) 10**   | **🎯 Self or one ally** |
 

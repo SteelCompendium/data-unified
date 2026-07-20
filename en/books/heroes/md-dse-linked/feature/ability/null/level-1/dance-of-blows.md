@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: "null"
 distance: 1 [burst](../../../../rule/combat/burst.md)
 effect: You can [slide](../../../../movement/forced-movement.md) one [adjacent](../../../../rule/combat/adjacent.md) enemy up to a number of squares equal to your [Intuition](../../../../rule/character/intuition.md) score.
@@ -41,7 +41,7 @@ keywords:
     - Psionic
     - Weapon
 metadata:
-    action_type: Main action
+    action_type: '[Main action](../../../../rule/combat/turn.md)'
     class: "null"
     distance: 1 [burst](../../../../rule/combat/burst.md)
     effect: You can [slide](../../../../movement/forced-movement.md) one [adjacent](../../../../rule/combat/adjacent.md) enemy up to a number of squares equal to your [Intuition](../../../../rule/character/intuition.md) score.
@@ -63,5 +63,5 @@ metadata:
 name: Dance of Blows
 target: Each enemy in the area
 type: feature
-usage: Main action
+usage: '[Main action](../../../../rule/combat/turn.md)'
 ```

@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: conduit
 cost: 3 Piety
 cost_amount: "3"
@@ -42,7 +42,7 @@ keywords:
     - '[Ranged](../../../../rule/combat/ranged.md)'
     - '[Strike](../../../../rule/combat/strike.md)'
 metadata:
-    action_type: Main action
+    action_type: '[Main action](../../../../rule/combat/turn.md)'
     class: conduit
     cost: 3 Piety
     distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
@@ -63,5 +63,5 @@ metadata:
 name: Judgment's Hammer
 target: One creature or object
 type: feature
-usage: Main action
+usage: '[Main action](../../../../rule/combat/turn.md)'
 ```

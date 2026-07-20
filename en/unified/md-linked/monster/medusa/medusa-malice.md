@@ -58,7 +58,7 @@ At the start of a medusa's turn, you can spend Malice to activate one of the fol
 
 > 🏹 **Weakening Glare (4 [Malice](../../rule/monster/malice.md))**
 >
-> | **Magic, Ranged, Strike** |     **Main action** |
+> | **Magic, Ranged, Strike** |     **[Main action](../../rule/combat/turn.md)** |
 > |---------------------------|--------------------:|
 > | **📏 Ranged 10**          | **🎯 One creature** |
 >
@@ -74,7 +74,7 @@ At the start of a medusa's turn, you can spend Malice to activate one of the fol
 
 > 🏹 **Ssstop and Lisssten (5 [Malice](../../rule/monster/malice.md))**
 >
-> | **Magic, Ranged** |        **Main action** |
+> | **Magic, Ranged** |        **[Main action](../../rule/combat/turn.md)** |
 > |-------------------|-----------------------:|
 > | **📏 Ranged 10**  | **🎯 Three creatures** |
 >

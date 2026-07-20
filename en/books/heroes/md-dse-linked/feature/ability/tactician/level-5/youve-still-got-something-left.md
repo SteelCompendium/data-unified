@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: tactician
 cost: 9 Focus
 cost_amount: "9"
@@ -32,7 +32,7 @@ flavor: You push an ally to use a [heroic ability](../../../../rule/general/hero
 keywords:
     - '[Ranged](../../../../rule/combat/ranged.md)'
 metadata:
-    action_type: Main action
+    action_type: '[Main action](../../../../rule/combat/turn.md)'
     class: tactician
     cost: 9 Focus
     distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
@@ -48,5 +48,5 @@ metadata:
 name: You've Still Got Something Left
 target: One ally
 type: feature
-usage: Main action
+usage: '[Main action](../../../../rule/combat/turn.md)'
 ```

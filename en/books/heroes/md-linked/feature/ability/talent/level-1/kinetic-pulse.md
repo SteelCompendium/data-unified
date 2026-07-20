@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: talent
 distance: 1 [burst](../../../../rule/combat/burst.md)
 flavor: The force of your mind hurls enemies backward.
@@ -22,7 +22,7 @@ type: ability
 
 *The force of your mind hurls enemies backward.*
 
-| **Area, Psionic, Telepathy** |               **Main action** |
+| **Area, Psionic, Telepathy** |               **[Main action](../../../../rule/combat/turn.md)** |
 |------------------------------|------------------------------:|
 | **📏 1 [burst](../../../../rule/combat/burst.md)**               | **🎯 Each enemy in the area** |
 

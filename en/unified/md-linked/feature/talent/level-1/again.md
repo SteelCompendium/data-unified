@@ -14,7 +14,7 @@ You have the following ability.
 
 *You step back a split second to see if things play out a little differently.*
 
-| **Psionic, [Ranged](../../../rule/combat/ranged.md)** |               **Triggered** |
+| **Psionic, [Ranged](../../../rule/combat/ranged.md)** |               **[Triggered](../../../rule/combat/triggered-action.md)** |
 |---------------------|----------------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**    | **🎯 Self or one creature** |
 

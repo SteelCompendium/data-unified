@@ -1,5 +1,5 @@
 ---
-action_type: Free triggered
+action_type: Free [triggered](../../../../rule/combat/triggered-action.md)
 class: tactician
 cost: 9 Focus
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
@@ -20,7 +20,7 @@ type: ability
 
 *You direct your ally to make a killing blow.*
 
-| **[Ranged](../../../../rule/combat/ranged.md)**       | **Free triggered** |
+| **[Ranged](../../../../rule/combat/ranged.md)**       | **Free [triggered](../../../../rule/combat/triggered-action.md)** |
 |------------------|-------------------:|
 | **📏 [Ranged](../../../../rule/combat/ranged.md) 10** |    **🎯 One ally** |
 

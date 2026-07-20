@@ -1,5 +1,5 @@
 ---
-action_type: Free triggered
+action_type: Free [triggered](../../../../rule/combat/triggered-action.md)
 class: shadow
 cost: 5 Insight
 distance: Self; see below
@@ -19,7 +19,7 @@ type: ability
 
 *Your foe made a big mistake.*
 
-| **-**                  | **Free triggered** |
+| **-**                  | **Free [triggered](../../../../rule/combat/triggered-action.md)** |
 |------------------------|-------------------:|
 | **📏 Self; see below** |        **🎯 Self** |
 

@@ -1,5 +1,5 @@
 ---
-action_type: Free triggered
+action_type: Free [triggered](../../../../rule/combat/triggered-action.md)
 class: "null"
 cost: 11 Discipline
 cost_amount: "11"
@@ -35,7 +35,7 @@ flavor: You show shadows what true [speed](../../../../rule/character/speed.md) 
 keywords:
     - Psionic
 metadata:
-    action_type: Free triggered
+    action_type: Free [triggered](../../../../rule/combat/triggered-action.md)
     class: "null"
     cost: 11 Discipline
     distance: Self
@@ -55,5 +55,5 @@ name: Time Loop
 target: Self
 trigger: Another creature on the encounter map ends their [turn](../../../../rule/combat/turn.md).
 type: feature
-usage: Free triggered
+usage: Free [triggered](../../../../rule/combat/triggered-action.md)
 ```

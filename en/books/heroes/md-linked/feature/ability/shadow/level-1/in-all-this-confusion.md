@@ -1,5 +1,5 @@
 ---
-action_type: Triggered
+action_type: '[Triggered](../../../../rule/combat/triggered-action.md)'
 class: shadow
 distance: Self
 effect: You take half the damage, then can [teleport](../../../../movement/teleport.md) up to 4 squares after the triggering effect resolves.
@@ -20,7 +20,7 @@ type: ability
 
 *You vanish in a plume of black smoke to avoid danger.*
 
-| **Magic**   | **Triggered** |
+| **Magic**   | **[Triggered](../../../../rule/combat/triggered-action.md)** |
 |-------------|--------------:|
 | **📏 Self** |     **🎯 Self** |
 

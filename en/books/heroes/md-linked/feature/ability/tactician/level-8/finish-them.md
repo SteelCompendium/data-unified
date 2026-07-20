@@ -1,5 +1,5 @@
 ---
-action_type: Free triggered
+action_type: Free [triggered](../../../../rule/combat/triggered-action.md)
 class: tactician
 cost: 11 Focus
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
@@ -19,7 +19,7 @@ type: ability
 
 *You point out an opening to your ally so they can land a killing blow.*
 
-| **[Ranged](../../../../rule/combat/ranged.md)**       |  **Free triggered** |
+| **[Ranged](../../../../rule/combat/ranged.md)**       |  **Free [triggered](../../../../rule/combat/triggered-action.md)** |
 |------------------|--------------------:|
 | **📏 [Ranged](../../../../rule/combat/ranged.md) 10** | **🎯 One creature** |
 

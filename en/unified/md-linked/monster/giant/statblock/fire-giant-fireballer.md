@@ -32,7 +32,7 @@ with_captain: +3 bonus to speed
 
 > ❇️ **Blazing Leap (Signature Ability)**
 >
-> | **Area, Weapon** |                          **Main action** |
+> | **Area, Weapon** |                          **[Main action](../../../rule/combat/turn.md)** |
 > |------------------|-----------------------------------------:|
 > | **📏 1 burst**   | **🎯 Each enemy and object in the area** |
 >

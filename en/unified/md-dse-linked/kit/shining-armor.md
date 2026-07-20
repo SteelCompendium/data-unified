@@ -20,28 +20,39 @@ The [Shining Armor](shining-armor.md) kit provides the most protection a kit can
 
 You wear heavy armor and wield a shield and a medium weapon.
 
-##### Kit Bonuses
-
-**[Stamina](../rule/health/stamina.md) [Bonus](../rule/dice/bonuses-and-penalties.md):** +12 per [echelon](../rule/general/echelon.md)
-
-**[Stability](../rule/character/stability.md) [Bonus](../rule/dice/bonuses-and-penalties.md):** +1
-
-**[Melee](../rule/combat/melee.md) Damage [Bonus](../rule/dice/bonuses-and-penalties.md):** +2/+2/+2
-
-##### Signature Ability
-
-###### Protective Attack
-
-*The strength of your assault makes it impossible for your foe to ignore you.*
-
-| **[Melee](../rule/combat/melee.md), [Strike](../rule/combat/strike.md), Weapon** |     **Main action** |
-|---------------------------|--------------------:|
-| **📏 [Melee](../rule/combat/melee.md) 1**            | **🎯 One creature** |
-
-**[Power Roll](../rule/dice/power-roll.md) + [Might](../rule/character/might.md) or [Agility](../rule/character/agility.md):**
-
-- **≤11:** 5 + M or A damage
-- **12-16:** 8 + M or A damage
-- **17+:** 11 + M or A damage
-
-**Effect:** The target is [taunted](../condition/taunted.md) until the end of their next [turn](../rule/combat/turn.md).
+```ds-feature
+distance: '[Melee](../rule/combat/melee.md) 1'
+effects:
+    - effect: The target is [taunted](../condition/taunted.md) until the end of their next [turn](../rule/combat/turn.md).
+    - roll: Power Roll + [Might](../rule/character/might.md) or [Agility](../rule/character/agility.md)
+      tier1: 5 + M or A damage
+      tier2: 8 + M or A damage
+      tier3: 11 + M or A damage
+feature_type: ability
+flavor: The strength of your assault makes it impossible for your foe to ignore you.
+keywords:
+    - '[Melee](../rule/combat/melee.md)'
+    - '[Strike](../rule/combat/strike.md)'
+    - Weapon
+metadata:
+    action_type: Main action
+    distance: '[Melee](../rule/combat/melee.md) 1'
+    effect: The target is [taunted](../condition/taunted.md) until the end of their next [turn](../rule/combat/turn.md).
+    flavor: The strength of your assault makes it impossible for your foe to ignore you.
+    keywords:
+        - '[Melee](../rule/combat/melee.md)'
+        - '[Strike](../rule/combat/strike.md)'
+        - Weapon
+    name: Protective Attack
+    power_roll_characteristic: '[Might](../rule/character/might.md) or [Agility](../rule/character/agility.md)'
+    subtype: signature
+    target: One creature
+    tier1: 5 + M or A damage
+    tier2: 8 + M or A damage
+    tier3: 11 + M or A damage
+    type: ability
+name: Protective Attack
+target: One creature
+type: feature
+usage: Main action
+```

@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](../../../../rule/combat/turn.md)'
 class: "null"
 cost: 7 Discipline
 distance: Self
@@ -17,7 +17,7 @@ type: ability
 
 *Attacks made by allies in your [null field](../../../null/level-1/null-field.md) disrupt your enemies' thoughts, causing psychic pain.*
 
-| **Psionic** | **Maneuver** |
+| **Psionic** | **[Maneuver](../../../../rule/combat/turn.md)** |
 |-------------|-------------:|
 | **📏 Self** |  **🎯 Self** |
 

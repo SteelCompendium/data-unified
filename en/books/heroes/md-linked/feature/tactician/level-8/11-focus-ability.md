@@ -13,7 +13,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *You direct an attack to strike true.*
 
-| **[Ranged](../../../rule/combat/ranged.md)**       |         **Main action** |
+| **[Ranged](../../../rule/combat/ranged.md)**       |         **[Main action](../../../rule/combat/turn.md)** |
 |------------------|------------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10** | **🎯 Self or one ally** |
 
@@ -24,7 +24,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *You point out an opening to your ally so they can land a killing blow.*
 
-| **[Ranged](../../../rule/combat/ranged.md)**       |  **Free triggered** |
+| **[Ranged](../../../rule/combat/ranged.md)**       |  **Free [triggered](../../../rule/combat/triggered-action.md)** |
 |------------------|--------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10** | **🎯 One creature** |
 
@@ -37,7 +37,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *You direct your squad to strike in unison and with devastating effect.*
 
-| **[Ranged](../../../rule/combat/ranged.md)**       |     **Main action** |
+| **[Ranged](../../../rule/combat/ranged.md)**       |     **[Main action](../../../rule/combat/turn.md)** |
 |------------------|--------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10** | **🎯 Three allies** |
 
@@ -48,7 +48,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *You create an opening for an ally.*
 
-| **[Melee](../../../rule/combat/melee.md), [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md), Weapon** |     **Main action** |
+| **[Melee](../../../rule/combat/melee.md), [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md), Weapon** |     **[Main action](../../../rule/combat/turn.md)** |
 |-----------------------------------|--------------------:|
 | **📏 [Melee](../../../rule/combat/melee.md) 1 or [ranged](../../../rule/combat/ranged.md) 5**        | **🎯 One creature** |
 

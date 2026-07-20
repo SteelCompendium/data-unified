@@ -40,7 +40,7 @@ type: statblock
 
 > 🔳 **Slag Spew (Signature Ability)**
 >
-> | **Area, Magic**             |                             **Main action** |
+> | **Area, Magic**             |                             **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-----------------------------|--------------------------------------------:|
 > | **📏 10 x 2 line within 1** | **🎯 Each creature and object in the area** |
 >
@@ -54,7 +54,7 @@ type: statblock
 
 > 🗡 **Forge Hammer Tail Slam**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 3**            | **🎯 Two creatures or objects** |
 >
@@ -74,7 +74,7 @@ type: statblock
 
 > ❇️ **Thermodynamic Flight (1 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
-> | **Area**       |                  **Maneuver** |
+> | **Area**       |                  **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |----------------|------------------------------:|
 > | **📏 2 burst** | **🎯 Each enemy in the area** |
 >
@@ -82,7 +82,7 @@ type: statblock
 
 > ❗️ **Hammer and Anvil (1 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
-> | **-**       | **Free triggered action** |
+> | **-**       | **Free [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |
 > |-------------|--------------------------:|
 > | **📏 Self** |               **🎯 Self** |
 >
@@ -92,7 +92,7 @@ type: statblock
 
 > ❗️ **Polarize Aura (1 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
-> | **Area, Magic** |                        **Triggered action** |
+> | **Area, Magic** |                        **[Triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |
 > |-----------------|--------------------------------------------:|
 > | **📏 3 burst**  | **🎯 Each creature and object in the area** |
 >

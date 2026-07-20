@@ -13,7 +13,7 @@ Choose one of the following [triggered actions](../../../rule/combat/triggered-a
 
 *You invigorate an attacking ally with divine energy.*
 
-| **Magic, [Ranged](../../../rule/combat/ranged.md)**      |        **Triggered** |
+| **Magic, [Ranged](../../../rule/combat/ranged.md)**      |        **[Triggered](../../../rule/combat/triggered-action.md)** |
 |------------------------|---------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**       |      **🎯 One ally** |
 
@@ -28,7 +28,7 @@ Choose one of the following [triggered actions](../../../rule/combat/triggered-a
 
 *Your holy word saps an attacking enemy's strength.*
 
-| **Magic, [Ranged](../../../rule/combat/ranged.md)**  |     **Triggered** |
+| **Magic, [Ranged](../../../rule/combat/ranged.md)**  |     **[Triggered](../../../rule/combat/triggered-action.md)** |
 |--------------------|------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**   |   **🎯 One ally** |
 

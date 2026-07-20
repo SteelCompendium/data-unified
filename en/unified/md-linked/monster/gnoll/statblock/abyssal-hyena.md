@@ -31,7 +31,7 @@ with_captain: +2 bonus to speed
 
 > 🗡 **Snapjaw (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |                          **Main action** |
+> | **Melee, Strike, Weapon** |                          **[Main action](../../../rule/combat/turn.md)** |
 > |---------------------------|-----------------------------------------:|
 > | **📏 Melee 1**            | **🎯 One creature or object per minion** |
 >

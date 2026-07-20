@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: talent
 cost: 11 Clarity
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
@@ -25,7 +25,7 @@ type: ability
 
 *You fire a telepathic bolt empowered by every consciousness within reach directly into your foe's mind.*
 
-| **Psionic, [Ranged](../../../../rule/combat/ranged.md), [Strike](../../../../rule/combat/strike.md), Telepathy** |     **Main action** |
+| **Psionic, [Ranged](../../../../rule/combat/ranged.md), [Strike](../../../../rule/combat/strike.md), Telepathy** |     **[Main action](../../../../rule/combat/turn.md)** |
 | ------------------------------------|--------------------:|
 | **📏 [Ranged](../../../../rule/combat/ranged.md) 10**  | **🎯 One creature** |
 

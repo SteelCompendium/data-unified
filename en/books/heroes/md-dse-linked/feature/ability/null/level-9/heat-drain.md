@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](../../../../rule/combat/turn.md)'
 class: "null"
 cost: 11 Discipline
 cost_amount: "11"
@@ -45,7 +45,7 @@ keywords:
     - Psionic
     - '[Strike](../../../../rule/combat/strike.md)'
 metadata:
-    action_type: Maneuver
+    action_type: '[Maneuver](../../../../rule/combat/turn.md)'
     class: "null"
     cost: 11 Discipline
     distance: '[Melee](../../../../rule/combat/melee.md) 1'
@@ -68,5 +68,5 @@ metadata:
 name: Heat Drain
 target: One creature
 type: feature
-usage: Maneuver
+usage: '[Maneuver](../../../../rule/combat/turn.md)'
 ```

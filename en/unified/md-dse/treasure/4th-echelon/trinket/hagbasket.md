@@ -6,11 +6,13 @@ file_dpath: treasure/4th-echelon/trinket
 flavor: This throne woven from wood, hair, and metal floats several feet above the ground. The gentle humming it makes while it soars sounds reminiscent of a hag's cackle.
 item_id: hagbasket
 item_name: Hagbasket
+item_prerequisite: A mundane broom, a hag's hut, and a hag's kiss
 keywords:
     - Magic
 name: Hagbasket
 project_goal: "600"
 project_roll_characteristic: '[Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) or [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)'
+project_source: Texts or lore in Khelt
 scc: mcdm.summoner.v1/treasure.4th-echelon.trinket/hagbasket
 source: mcdm.summoner.v1
 treasure_type: trinket

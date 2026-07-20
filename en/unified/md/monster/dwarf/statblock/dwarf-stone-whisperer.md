@@ -30,7 +30,7 @@ type: statblock
 
 > 🔳 **Tile Slide (Signature Ability)**
 >
-> | **Area, Magic**        |                             **Main action** |
+> | **Area, Magic**        |                             **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |------------------------|--------------------------------------------:|
 > | **📏 2 cube within 1** | **🎯 Each creature and object in the area** |
 >
@@ -44,7 +44,7 @@ type: statblock
 
 > 🔳 **Stone Wave (3 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
-> | **Area, Magic, Ranged** |                  **Maneuver** |
+> | **Area, Magic, Ranged** |                  **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-------------------------|------------------------------:|
 > | **📏 3 cube within 10** | **🎯 Each enemy in the area** |
 >

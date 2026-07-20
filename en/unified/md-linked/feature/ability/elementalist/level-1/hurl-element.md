@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: elementalist
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
 effect: 'When you make this [strike](../../../../rule/combat/strike.md), choose the [damage type](../../../../rule/damage/damage-type.md) from one of the following options: acid, cold, corruption, fire, lightning, poison, or sonic.'
@@ -22,7 +22,7 @@ type: ability
 
 *You cast a ball of elemental energy at a foe.*
 
-| **Magic, [Ranged](../../../../rule/combat/ranged.md), [Strike](../../../../rule/combat/strike.md)** |               **Main action** |
+| **Magic, [Ranged](../../../../rule/combat/ranged.md), [Strike](../../../../rule/combat/strike.md)** |               **[Main action](../../../../rule/combat/turn.md)** |
 |---------------------------|------------------------------:|
 | **📏 [Ranged](../../../../rule/combat/ranged.md) 10**          | **🎯 One creature or object** |
 

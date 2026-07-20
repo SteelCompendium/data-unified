@@ -16,9 +16,9 @@
     "Magic"
   ],
   "metadata": {
-    "action_type": "Main action",
+    "action_type": "[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)",
     "class": "conduit",
-    "content": "\n*You utter a secret word of destruction known only to deities.*\n\n| **Area, Magic**  |               **Main action** |\n|------------------|------------------------------:|\n| **📏 4 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)**   | **🎯 Each enemy in the area** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition):**\n\n- **≤11:** 3 sonic damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3\n- **12-16:** 6 sonic damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5\n- **17+:** 9 sonic damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 7\n\n**Special:** You can choose to have this ability deal damage to and [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) objects, and to deal damage to buildings.",
+    "content": "\n*You utter a secret word of destruction known only to deities.*\n\n| **Area, Magic**  |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|------------------|------------------------------:|\n| **📏 4 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)**   | **🎯 Each enemy in the area** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition):**\n\n- **≤11:** 3 sonic damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3\n- **12-16:** 6 sonic damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5\n- **17+:** 9 sonic damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 7\n\n**Special:** You can choose to have this ability deal damage to and [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) objects, and to deal damage to buildings.",
     "distance": "4 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)",
     "feature_type": "ability",
     "flavor": "You utter a secret word of destruction known only to deities.",
@@ -39,5 +39,5 @@
   "name": "Invocation of Undoing",
   "target": "Each enemy in the area",
   "type": "feature",
-  "usage": "Main action"
+  "usage": "[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)"
 }

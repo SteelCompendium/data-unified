@@ -32,7 +32,7 @@ with_captain: +2 bonus to melee distance
 
 > 🗡 **Barbed Tongues (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |                          **Main action** |
+> | **Melee, Strike, Weapon** |                          **[Main action](../../../../rule/combat/turn.md)** |
 > |---------------------------|-----------------------------------------:|
 > | **📏 Melee 3**            | **🎯 One creature or object per minion** |
 >

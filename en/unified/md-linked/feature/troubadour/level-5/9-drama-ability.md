@@ -13,7 +13,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *You wield your weapon at blistering [speed](../../../rule/character/speed.md), leaving everyone around you fighting for their lives.*
 
-| **Area, [Melee](../../../rule/combat/melee.md), Weapon** |               **Main action** |
+| **Area, [Melee](../../../rule/combat/melee.md), Weapon** |               **[Main action](../../../rule/combat/turn.md)** |
 |-------------------------|------------------------------:|
 | **📏 3 [burst](../../../rule/combat/burst.md)**          | **🎯 Each enemy in the area** |
 
@@ -30,7 +30,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *Your subject is written into two places at once.*
 
-| **Magic, [Ranged](../../../rule/combat/ranged.md)** |               **Maneuver** |
+| **Magic, [Ranged](../../../rule/combat/ranged.md)** |               **[Maneuver](../../../rule/combat/turn.md)** |
 |-------------------|---------------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**  | **🎯 One enemy or object** |
 
@@ -41,7 +41,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *You play a small ditty that plants you inside your target's heart.*
 
-| **Magic, [Ranged](../../../rule/combat/ranged.md)** |                  **Maneuver** |
+| **Magic, [Ranged](../../../rule/combat/ranged.md)** |                  **[Maneuver](../../../rule/combat/turn.md)** |
 |-------------------|------------------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**  | **🎯 One creature or object** |
 
@@ -52,7 +52,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *Dazzle them with your fancy patter and they forget where they were.*
 
-| **Magic, [Ranged](../../../rule/combat/ranged.md)** |   **Maneuver** |
+| **Magic, [Ranged](../../../rule/combat/ranged.md)** |   **[Maneuver](../../../rule/combat/turn.md)** |
 |-------------------|---------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**  | **🎯 Special** |
 

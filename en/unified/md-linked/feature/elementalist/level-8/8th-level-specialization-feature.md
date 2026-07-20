@@ -46,7 +46,7 @@ You have the following ability.
 
 *The ground rumbles as an elemental [bursts](../../../rule/combat/burst.md) forth, ready to serve.*
 
-| **Earth, Magic, [Ranged](../../../rule/combat/ranged.md)** | **Main action** |
+| **Earth, Magic, [Ranged](../../../rule/combat/ranged.md)** | **[Main action](../../../rule/combat/turn.md)** |
 |--------------------------|----------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**         |  **🎯 Special** |
 

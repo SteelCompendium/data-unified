@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: fury
 cost: 9 Ferocity
 cost_amount: "9"
@@ -41,7 +41,7 @@ flavor: You leap and crash down, causing a shockwave that devastates foes.
 keywords:
     - Magic
 metadata:
-    action_type: Maneuver
+    action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: fury
     cost: 9 Ferocity
     distance: Self
@@ -62,5 +62,5 @@ metadata:
 name: Avalanche Impact
 target: Self
 type: feature
-usage: Maneuver
+usage: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 ```

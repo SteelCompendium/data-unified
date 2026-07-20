@@ -13,7 +13,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *Your divine magic makes a creature appear as what your enemies fear most.*
 
-| **Area, Magic, [Ranged](../../../rule/combat/ranged.md)**  |               **Main action** |
+| **Area, Magic, [Ranged](../../../rule/combat/ranged.md)**  |               **[Main action](../../../rule/combat/turn.md)** |
 |--------------------------|------------------------------:|
 | **📏 5 [cube](../../../rule/combat/cube.md) within 10**  | **🎯 Each enemy in the area** |
 
@@ -30,7 +30,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *An ally becomes the wearer of an empowered golden cloak.*
 
-| **Magic, [Ranged](../../../rule/combat/ranged.md)**         |    **Maneuver** |
+| **Magic, [Ranged](../../../rule/combat/ranged.md)**         |    **[Maneuver](../../../rule/combat/turn.md)** |
 |---------------------------|----------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**          | **🎯 One ally** |
 
@@ -41,7 +41,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *A beam of energy connects a foe to a friend, draining life from one to heal the other.*
 
-| **Magic, [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md)** |  **Main action** |
+| **Magic, [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md)** |  **[Main action](../../../rule/combat/turn.md)** |
 |---------------------------|-----------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**          | **🎯 One enemy** |
 
@@ -58,7 +58,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *Your [saint](../../../rule/world/saint.md) grants your enemies a vision of pain and fills your allies with healing energy.*
 
-| **Area, Magic**  |               **Main action** |
+| **Area, Magic**  |               **[Main action](../../../rule/combat/turn.md)** |
 |------------------|------------------------------:|
 | **📏 5 [burst](../../../rule/combat/burst.md)**   | **🎯 Each enemy in the area** |
 

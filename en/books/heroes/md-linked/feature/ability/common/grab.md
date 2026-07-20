@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](../../../rule/combat/turn.md)'
 distance: '[Melee](../../../rule/combat/melee.md) 1'
 effect: You can usually target only creatures of your [size](../../../rule/character/size.md) or smaller. If your [Might](../../../rule/character/might.md) score is 2 or higher, you can target any creature with a [size](../../../rule/character/size.md) equal to or less than your [Might](../../../rule/character/might.md) score.
 keywords:
@@ -16,7 +16,7 @@ type: ability
 ---
 
 
-| **[Melee](../../../rule/combat/melee.md), Weapon** |        **Maneuver** |
+| **[Melee](../../../rule/combat/melee.md), Weapon** |        **[Maneuver](../../../rule/combat/turn.md)** |
 |-------------------|--------------------:|
 | **📏 [Melee](../../../rule/combat/melee.md) 1**    | **🎯 One creature** |
 

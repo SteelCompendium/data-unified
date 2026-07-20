@@ -41,7 +41,7 @@ type: statblock
 
 > 🔳 **Breath of Brume (Signature Ability)**
 >
-> | **Area, Magic, Ranged** |                          **Main action** |
+> | **Area, Magic, Ranged** |                          **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-------------------------|-----------------------------------------:|
 > | **📏 4 cube within 10** | **🎯 Each enemy and object in the area** |
 >
@@ -55,7 +55,7 @@ type: statblock
 
 > 🗡 **Phantom Tail Swing**
 >
-> | **Charge, Magic, Melee, Strike** |                 **Main action** |
+> | **Charge, Magic, Melee, Strike** |                 **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |----------------------------------|--------------------------------:|
 > | **📏 Melee 3**                   | **🎯 Two creatures or objects** |
 >
@@ -73,7 +73,7 @@ type: statblock
 
 > ❇️ **Visions in the Dark (5 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
-> | **Area, Magic** |                  **Maneuver** |
+> | **Area, Magic** |                  **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-----------------|------------------------------:|
 > | **📏 10 burst** | **🎯 Each enemy in the area** |
 >
@@ -81,7 +81,7 @@ type: statblock
 
 > ❗️ **Encroaching Darkness (1 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
-> | **-**       | **Free triggered action** |
+> | **-**       | **Free [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |
 > |-------------|--------------------------:|
 > | **📏 Self** |               **🎯 Self** |
 >

@@ -31,7 +31,7 @@ weaknesses:
 
 > 🗡 **Tooth! Tusk! Claw! (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |               **Main action** |
+> | **Melee, Strike, Weapon** |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |---------------------------|------------------------------:|
 > | **📏 Melee 1**            | **🎯 One creature or object** |
 >
@@ -45,7 +45,7 @@ weaknesses:
 
 > 🔳 **Tumbling Gore (2 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
-> | **Area, Weapon**           |                  **Maneuver** |
+> | **Area, Weapon**           |                  **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |----------------------------|------------------------------:|
 > | **📏 8 x 3 line within 1** | **🎯 Each enemy in the area** |
 >

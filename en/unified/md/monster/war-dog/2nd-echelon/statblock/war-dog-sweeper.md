@@ -31,7 +31,7 @@ with_captain: Gain an edge on strikes
 
 > ⚔️ **Shrikegun Shot ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
-> | **Melee, Ranged, Strike, Weapon** |                          **Main action** |
+> | **Melee, Ranged, Strike, Weapon** |                          **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-----------------------------------|-----------------------------------------:|
 > | **📏 Melee 1 or ranged 3**        | **🎯 One creature or object per minion** |
 >

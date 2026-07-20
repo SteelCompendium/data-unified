@@ -21,9 +21,9 @@
     "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)"
   ],
   "metadata": {
-    "action_type": "Main action",
+    "action_type": "[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)",
     "class": "conduit",
-    "content": "\n*You ask your [saint](scc.v1:mcdm.heroes.v1/rule.world/saint) for thunder and your prayer is answered.*\n\n| **Area, Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)** |               **Main action** |\n|-------------------------|------------------------------:|\n| **📏 3 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 10** | **🎯 Each enemy in the area** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition):**\n\n- **≤11:** 2 sonic damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1\n- **12-16:** 3 sonic damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2\n- **17+:** 5 sonic damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3\n\n**Effect:** You can [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) each willing ally in the area the same [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance), ignoring [stability](scc.v1:mcdm.heroes.v1/rule.character/stability).",
+    "content": "\n*You ask your [saint](scc.v1:mcdm.heroes.v1/rule.world/saint) for thunder and your prayer is answered.*\n\n| **Area, Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)** |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|-------------------------|------------------------------:|\n| **📏 3 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 10** | **🎯 Each enemy in the area** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition):**\n\n- **≤11:** 2 sonic damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1\n- **12-16:** 3 sonic damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2\n- **17+:** 5 sonic damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3\n\n**Effect:** You can [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) each willing ally in the area the same [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance), ignoring [stability](scc.v1:mcdm.heroes.v1/rule.character/stability).",
     "distance": "3 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 10",
     "feature_type": "ability",
     "flavor": "You ask your [saint](scc.v1:mcdm.heroes.v1/rule.world/saint) for thunder and your prayer is answered.",
@@ -44,5 +44,5 @@
   "name": "Call the Thunder Down",
   "target": "Each enemy in the area",
   "type": "feature",
-  "usage": "Main action"
+  "usage": "[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)"
 }

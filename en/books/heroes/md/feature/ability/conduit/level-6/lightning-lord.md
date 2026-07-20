@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: conduit
 cost: 9 Piety
 distance: Three 10 x 1 lines within 1
@@ -23,7 +23,7 @@ type: ability
 
 *Lightning [bursts](scc.v1:mcdm.heroes.v1/rule.combat/burst) forth from your body in several directions.*
 
-| **Area, Magic**                    |               **Main action** |
+| **Area, Magic**                    |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 |------------------------------------|------------------------------:|
 | **📏 Three 10 x 1 lines within 1** | **🎯 Each enemy in the area** |
 

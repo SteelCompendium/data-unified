@@ -29,7 +29,7 @@ You have the following ability.
 
 *You manipulate the air around your allies so they can move as freely through the sky as you can.*
 
-| **Area, Psionic** |                 **Maneuver** |
+| **Area, Psionic** |                 **[Maneuver](../../../rule/combat/turn.md)** |
 |-------------------|-----------------------------:|
 | **📏 3 [burst](../../../rule/combat/burst.md)**    | **🎯 Each ally in the area** |
 

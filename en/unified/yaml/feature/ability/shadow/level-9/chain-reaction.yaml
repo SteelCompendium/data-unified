@@ -12,9 +12,9 @@ flavor: One explosion, an offense. Three explosions, an assault. Nine explosions
 keywords:
     - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'
 metadata:
-    action_type: Main action
+    action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: shadow
-    content: "\n*One explosion, an offense. Three explosions, an assault. Nine explosions, a celebration.*\n\n| **[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)**       |               **Main action** |\n|------------------|------------------------------:|\n| **\U0001F4CF [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10** | **\U0001F3AF One creature or object** |\n\n**Effect:** Each enemy within 3 squares of the target who is not currently targeted by this ability also becomes targeted by this ability. This effect continues until there are no more available targets. The ability deals acid, fire, or poison damage (your choice).\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility):**\n\n- **≤11:** 7 damage\n- **12-16:** 10 damage\n- **17+:** 15 damage"
+    content: "\n*One explosion, an offense. Three explosions, an assault. Nine explosions, a celebration.*\n\n| **[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)**       |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|------------------|------------------------------:|\n| **\U0001F4CF [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10** | **\U0001F3AF One creature or object** |\n\n**Effect:** Each enemy within 3 squares of the target who is not currently targeted by this ability also becomes targeted by this ability. This effect continues until there are no more available targets. The ability deals acid, fire, or poison damage (your choice).\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility):**\n\n- **≤11:** 7 damage\n- **12-16:** 10 damage\n- **17+:** 15 damage"
     distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
     feature_type: ability
     flavor: One explosion, an offense. Three explosions, an assault. Nine explosions, a celebration.
@@ -31,4 +31,4 @@ metadata:
 name: Chain Reaction
 target: One creature or object
 type: feature
-usage: Main action
+usage: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'

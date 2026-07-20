@@ -1,5 +1,5 @@
 ---
-action_type: Free triggered
+action_type: Free [triggered](../../../../rule/combat/triggered-action.md)
 class: tactician
 cost: 9 Focus
 cost_amount: "9"
@@ -35,7 +35,7 @@ flavor: You direct your ally to make a killing blow.
 keywords:
     - '[Ranged](../../../../rule/combat/ranged.md)'
 metadata:
-    action_type: Free triggered
+    action_type: Free [triggered](../../../../rule/combat/triggered-action.md)
     class: tactician
     cost: 9 Focus
     distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
@@ -55,5 +55,5 @@ name: Coordinated Execution
 target: One ally
 trigger: The target uses an ability to deal [rolled damage](../../../../rule/damage/rolled-damage.md) to a creature while hidden.
 type: feature
-usage: Free triggered
+usage: Free [triggered](../../../../rule/combat/triggered-action.md)
 ```

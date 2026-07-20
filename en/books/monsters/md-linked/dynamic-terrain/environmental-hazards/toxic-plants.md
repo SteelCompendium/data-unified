@@ -69,7 +69,7 @@ Colorful mushrooms or lovely flowering plants release a cloud of spores or polle
 
 > ❗️ **Sleep Spores**
 >
-> | **Magic, Melee, Strike** |      **Free triggered action** |
+> | **Magic, Melee, Strike** |      **Free [triggered action](../../rule/combat/triggered-action.md)** |
 > |--------------------------|-------------------------------:|
 > | **📏 Melee 0**           | **🎯 The triggering creature** |
 >

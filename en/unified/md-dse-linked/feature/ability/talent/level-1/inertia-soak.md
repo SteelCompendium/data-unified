@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](../../../../rule/combat/turn.md)'
 class: talent
 cost: 5 Clarity
 cost_amount: "5"
@@ -36,7 +36,7 @@ keywords:
     - '[Ranged](../../../../rule/combat/ranged.md)'
     - Telekinesis
 metadata:
-    action_type: Maneuver
+    action_type: '[Maneuver](../../../../rule/combat/turn.md)'
     class: talent
     cost: 5 Clarity
     distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
@@ -54,5 +54,5 @@ metadata:
 name: Inertia Soak
 target: Self or one ally
 type: feature
-usage: Maneuver
+usage: '[Maneuver](../../../../rule/combat/turn.md)'
 ```

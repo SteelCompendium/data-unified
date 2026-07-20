@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: fury
 cost: 5 Ferocity
 distance: Self; see below
@@ -22,7 +22,7 @@ type: ability
 
 *Organizing your forces like feckless creatures of Law. Pitiful.*
 
-| **[Melee](../../../../rule/combat/melee.md), Weapon**      | **Main action** |
+| **[Melee](../../../../rule/combat/melee.md), Weapon**      | **[Main action](../../../../rule/combat/turn.md)** |
 |------------------------|----------------:|
 | **📏 Self; see below** |     **🎯 Self** |
 

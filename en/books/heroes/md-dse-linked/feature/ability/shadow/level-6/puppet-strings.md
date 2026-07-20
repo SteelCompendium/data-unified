@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: shadow
 cost: 9 Insight
 cost_amount: "9"
@@ -47,7 +47,7 @@ keywords:
     - Strike
     - Weapon
 metadata:
-    action_type: Main action
+    action_type: '[Main action](../../../../rule/combat/turn.md)'
     class: shadow
     cost: 9 Insight
     distance: '[Melee](../../../../rule/combat/melee.md) 1'
@@ -71,5 +71,5 @@ metadata:
 name: Puppet Strings
 target: Two enemies
 type: feature
-usage: Main action
+usage: '[Main action](../../../../rule/combat/turn.md)'
 ```

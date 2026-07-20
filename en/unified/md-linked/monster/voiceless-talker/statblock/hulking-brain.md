@@ -29,7 +29,7 @@ type: statblock
 
 > 🗡 **Four-Way Grasp ([Signature Ability](../../../rule/combat/signature-ability.md))**
 >
-> | **Melee, Strike, Weapon** |                  **Main action** |
+> | **Melee, Strike, Weapon** |                  **[Main action](../../../rule/combat/turn.md)** |
 > |---------------------------|---------------------------------:|
 > | **📏 Melee 1**            | **🎯 Four creatures or objects** |
 >
@@ -45,7 +45,7 @@ type: statblock
 
 > 🗡 **Cerebral Suplex**
 >
-> | **Melee, Strike** |   **Main action** |
+> | **Melee, Strike** |   **[Main action](../../../rule/combat/turn.md)** |
 > |-------------------|------------------:|
 > | **📏 Melee 1**    | **🎯 Each enemy** |
 >
@@ -59,7 +59,7 @@ type: statblock
 
 > 👤 **Lumber**
 >
-> | **-**       | **Maneuver** |
+> | **-**       | **[Maneuver](../../../rule/combat/turn.md)** |
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
@@ -67,7 +67,7 @@ type: statblock
 
 > ❗️ **Brawny Buffe (1 Malice)**
 >
-> | **-**       | **Free triggered action** |
+> | **-**       | **Free [triggered action](../../../rule/combat/triggered-action.md)** |
 > |-------------|--------------------------:|
 > | **📏 Self** |               **🎯 Self** |
 >

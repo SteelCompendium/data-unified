@@ -13,9 +13,9 @@ keywords:
     - Strike
     - Telekinesis
 metadata:
-    action_type: Main action
+    action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: talent
-    content: "\n*You raise the target into the air without breaking a sweat.*\n\n| **Psionic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)**, **Strike, Telekinesis** |               **Main action** |\n|----------------------------------------------|------------------------------:|\n| **\U0001F4CF [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**                             | **\U0001F3AF One creature or object** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason):**\n\n- **≤11:** [Slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 4 + R; M < WEAK, the [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) is vertical\n- **12-16:** [Slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 8 + R; M < AVERAGE, the [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) is vertical\n- **17+:** [Slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 12 + R; [prone](scc.v1:mcdm.heroes.v1/condition/prone); M < STRONG, the [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) is vertical\n\n**Strained:** The [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) ignores [stability](scc.v1:mcdm.heroes.v1/rule.character/stability). You take 2d6 damage and are [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)."
+    content: "\n*You raise the target into the air without breaking a sweat.*\n\n| **Psionic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)**, **Strike, Telekinesis** |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|----------------------------------------------|------------------------------:|\n| **\U0001F4CF [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**                             | **\U0001F3AF One creature or object** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason):**\n\n- **≤11:** [Slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 4 + R; M < WEAK, the [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) is vertical\n- **12-16:** [Slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 8 + R; M < AVERAGE, the [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) is vertical\n- **17+:** [Slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 12 + R; [prone](scc.v1:mcdm.heroes.v1/condition/prone); M < STRONG, the [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) is vertical\n\n**Strained:** The [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) ignores [stability](scc.v1:mcdm.heroes.v1/rule.character/stability). You take 2d6 damage and are [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)."
     distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
     feature_type: ability
     flavor: You raise the target into the air without breaking a sweat.
@@ -35,4 +35,4 @@ metadata:
 name: Greater Kinetic Grip
 target: One creature or object
 type: feature
-usage: Main action
+usage: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'

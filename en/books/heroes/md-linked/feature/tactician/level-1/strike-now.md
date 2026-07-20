@@ -13,7 +13,7 @@ You have the following ability.
 
 *Your foe left an opening. You point this out to an ally!*
 
-| **[Ranged](../../../rule/combat/ranged.md)** | **Main action** |
+| **[Ranged](../../../rule/combat/ranged.md)** | **[Main action](../../../rule/combat/turn.md)** |
 | ---------------------------------------|----------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**  | **🎯 One ally** |
 

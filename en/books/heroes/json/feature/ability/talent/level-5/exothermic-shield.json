@@ -15,9 +15,9 @@
     "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)"
   ],
   "metadata": {
-    "action_type": "Maneuver",
+    "action_type": "[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)",
     "class": "talent",
-    "content": "\n*You encase the target in psionic flame and allow them to flicker without fear of burning out.*\n\n| **Pyrokinesis, Psionic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)** |            **Maneuver** |\n|----------------------------------|------------------------:|\n| **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**                 | **🎯 Self or one ally** |\n\n**Effect:** Until the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), the target has cold immunity 10 and fire immunity 10, and their [strikes](scc.v1:mcdm.heroes.v1/rule.combat/strike) deal extra fire damage equal to twice your [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) score. Additionally, whenever an enemy uses a [melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) ability against the target while they are under this effect, the enemy takes 5 fire damage.\n\n**Strained:** The target gains 2 [surges](scc.v1:mcdm.heroes.v1/rule.resource/surge). You are [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) and [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends).",
+    "content": "\n*You encase the target in psionic flame and allow them to flicker without fear of burning out.*\n\n| **Pyrokinesis, Psionic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)** |            **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|----------------------------------|------------------------:|\n| **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**                 | **🎯 Self or one ally** |\n\n**Effect:** Until the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), the target has cold immunity 10 and fire immunity 10, and their [strikes](scc.v1:mcdm.heroes.v1/rule.combat/strike) deal extra fire damage equal to twice your [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) score. Additionally, whenever an enemy uses a [melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) ability against the target while they are under this effect, the enemy takes 5 fire damage.\n\n**Strained:** The target gains 2 [surges](scc.v1:mcdm.heroes.v1/rule.resource/surge). You are [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) and [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends).",
     "distance": "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10",
     "feature_type": "ability",
     "flavor": "You encase the target in psionic flame and allow them to flicker without fear of burning out.",
@@ -38,5 +38,5 @@
   "name": "Exothermic Shield",
   "target": "Self or one ally",
   "type": "feature",
-  "usage": "Maneuver"
+  "usage": "[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)"
 }

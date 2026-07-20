@@ -31,7 +31,7 @@ type: statblock
 
 > 🗡 **Inspiring Swordplay (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](../../../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 1**            | **🎯 Two creatures or objects** |
 >
@@ -45,7 +45,7 @@ type: statblock
 
 > 🏹 **You Next!**
 >
-> | **Ranged**      | **Main Action** |
+> | **Ranged**      | **[Main Action](../../../rule/combat/turn.md)** |
 > |-----------------|----------------:|
 > | **📏 Ranged 8** | **🎯 One ally** |
 >
@@ -53,7 +53,7 @@ type: statblock
 
 > ❇️ **Fall Back! (5 [Malice](../../../rule/monster/malice.md))**
 >
-> | **Area**       |              **Main Action** |
+> | **Area**       |              **[Main Action](../../../rule/combat/turn.md)** |
 > |----------------|-----------------------------:|
 > | **📏 5 burst** | **🎯 Each ally in the area** |
 >
@@ -61,7 +61,7 @@ type: statblock
 
 > 🗡 **Throw**
 >
-> | **Melee, Strike** |                  **Maneuver** |
+> | **Melee, Strike** |                  **[Maneuver](../../../rule/combat/turn.md)** |
 > |-------------------|------------------------------:|
 > | **📏 Melee 1**    | **🎯 One creature or object** |
 >
@@ -71,7 +71,7 @@ type: statblock
 
 > ❗️ **Catcher**
 >
-> | **Melee**      |                **Free triggered action** |
+> | **Melee**      |                **Free [triggered action](../../../rule/combat/triggered-action.md)** |
 > |----------------|-----------------------------------------:|
 > | **📏 Melee 1** | **🎯 The triggering creature or object** |
 >

@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: tactician
 cost: 11 Focus
 cost_amount: "11"
@@ -33,7 +33,7 @@ flavor: What makes a good soldier? The ability to fire four shots a minute in an
 keywords:
     - Area
 metadata:
-    action_type: Main action
+    action_type: '[Main action](../../../../rule/combat/turn.md)'
     class: tactician
     cost: 11 Focus
     distance: 3 [burst](../../../../rule/combat/burst.md)
@@ -50,5 +50,5 @@ metadata:
 name: Blot Out the Sun!
 target: Self and each ally in the area
 type: feature
-usage: Main action
+usage: '[Main action](../../../../rule/combat/turn.md)'
 ```

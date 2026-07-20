@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: troubadour
 cost: 11 Drama
 distance: 5 [burst](../../../../rule/combat/burst.md)
@@ -23,7 +23,7 @@ type: ability
 
 *Your [jam session](jam-session.md) creates new genres that compel everyone to get up and move.*
 
-| **Area, Magic** |               **Main action** |
+| **Area, Magic** |               **[Main action](../../../../rule/combat/turn.md)** |
 |-----------------|------------------------------:|
 | **📏 5 [burst](../../../../rule/combat/burst.md)**  | **🎯 Each enemy in the area** |
 

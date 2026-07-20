@@ -30,7 +30,7 @@ type: statblock
 
 > 🗡 **Manifold Blade (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](../../../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 1**            | **🎯 Two creatures or objects** |
 >
@@ -44,7 +44,7 @@ type: statblock
 
 > 🏹 **Grasping Shadow**
 >
-> | **Magic, Ranged** |                                       **Maneuver** |
+> | **Magic, Ranged** |                                       **[Maneuver](../../../rule/combat/turn.md)** |
 > |-------------------|---------------------------------------------------:|
 > | **📏 Ranged 5**   | **🎯 Three creatures or objects casting a shadow** |
 >
@@ -56,7 +56,7 @@ type: statblock
 
 > ❗️ **Put It Out!**
 >
-> | **Ranged**       |        **Triggered action** |
+> | **Ranged**       |        **[Triggered action](../../../rule/combat/triggered-action.md)** |
 > |------------------|----------------------------:|
 > | **📏 Ranged 10** | **🎯 The triggering enemy** |
 >

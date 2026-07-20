@@ -6,12 +6,14 @@ file_dpath: treasure/1st-echelon/consumable
 flavor: A brittle glass tube has a ruby set atop it, attached by a hinge.
 item_id: blood-essence-vial
 item_name: Blood Essence Vial
+item_prerequisite: A ruby purloined from a vampire
 keywords:
     - Potion
     - Psionic
 name: Blood Essence Vial
 project_goal: "45"
 project_roll_characteristic: '[Agility](scc.v1:mcdm.heroes.v1/rule.character/agility) or [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason)'
+project_source: Texts or lore in Proto-Ctholl
 scc: mcdm.heroes.v1/treasure.1st-echelon.consumable/blood-essence-vial
 source: mcdm.heroes.v1
 treasure_type: consumable

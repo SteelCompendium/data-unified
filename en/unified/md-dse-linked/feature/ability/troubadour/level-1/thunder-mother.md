@@ -1,5 +1,5 @@
 ---
-action_type: No action
+action_type: '[No action](../../../../rule/combat/turn.md)'
 class: troubadour
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
 effect: At the end of each [combat round](../../../../rule/combat/combat-round.md) while this performance is active, you can make a [power roll](../../../../rule/dice/power-roll.md) against the target that ignores [cover](../../../../rule/combat/cover.md). You can't target the same creature twice with this effect.
@@ -43,7 +43,7 @@ keywords:
     - '[Ranged](../../../../rule/combat/ranged.md)'
     - '[Strike](../../../../rule/combat/strike.md)'
 metadata:
-    action_type: No action
+    action_type: '[No action](../../../../rule/combat/turn.md)'
     class: troubadour
     distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
     effect: At the end of each [combat round](../../../../rule/combat/combat-round.md) while this performance is active, you can make a [power roll](../../../../rule/dice/power-roll.md) against the target that ignores [cover](../../../../rule/combat/cover.md). You can't target the same creature twice with this effect.
@@ -66,5 +66,5 @@ metadata:
 name: '"Thunder Mother"'
 target: One creature
 type: feature
-usage: No action
+usage: '[No action](../../../../rule/combat/turn.md)'
 ```

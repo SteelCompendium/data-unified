@@ -1,5 +1,5 @@
 ---
-action_type: Triggered
+action_type: '[Triggered](../../../../rule/combat/triggered-action.md)'
 class: elementalist
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
 effect: The target takes half the damage.
@@ -22,7 +22,7 @@ type: ability
 
 *You cover yourself or an ally in protective stone.*
 
-| **Earth, Magic, [Ranged](../../../../rule/combat/ranged.md)**  |           **Triggered** |
+| **Earth, Magic, [Ranged](../../../../rule/combat/ranged.md)**  |           **[Triggered](../../../../rule/combat/triggered-action.md)** |
 |---------------------------|------------------------:|
 | **📏 [Ranged](../../../../rule/combat/ranged.md) 10**          | **🎯 Self or one ally** |
 

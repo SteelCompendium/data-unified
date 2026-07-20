@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: talent
 cost: 5 Clarity
 cost_amount: "5"
@@ -45,7 +45,7 @@ keywords:
     - '[Ranged](../../../../rule/combat/ranged.md)'
     - Telepathy
 metadata:
-    action_type: Main action
+    action_type: '[Main action](../../../../rule/combat/turn.md)'
     class: talent
     cost: 5 Clarity
     distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
@@ -68,5 +68,5 @@ metadata:
 name: Synaptic Override
 target: One enemy
 type: feature
-usage: Main action
+usage: '[Main action](../../../../rule/combat/turn.md)'
 ```

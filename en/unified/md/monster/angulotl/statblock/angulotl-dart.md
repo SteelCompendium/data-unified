@@ -33,7 +33,7 @@ with_captain: +4 bonus to ranged distance
 
 > 🏹 **Poison Dart (Signature Ability)**
 >
-> | **Ranged, Strike, Weapon** |                **Main action** |
+> | **Ranged, Strike, Weapon** |                **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |----------------------------|-------------------------------:|
 > | **📏 Ranged 8**            | **🎯 One creature per minion** |
 >

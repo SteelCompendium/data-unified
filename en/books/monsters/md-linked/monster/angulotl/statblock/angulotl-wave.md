@@ -32,7 +32,7 @@ type: statblock
 
 > 🏹 **Refulgent Beams (Signature Ability)**
 >
-> | **Magic, Ranged, Strike** |                 **Main action** |
+> | **Magic, Ranged, Strike** |                 **[Main action](../../../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Ranged 8**           | **🎯 Two creatures or objects** |
 >
@@ -46,7 +46,7 @@ type: statblock
 
 > 🔳 **Noxious Bubble (2 [Malice](../../../rule/monster/malice.md))**
 >
-> | **Area, Magic, Ranged**                     | **Main action** |
+> | **Area, Magic, Ranged**                     | **[Main action](../../../rule/combat/turn.md)** |
 > |---------------------------------------------|----------------:|
 > | **📏 2 cube of unoccupied space within 10** |  **🎯 Special** |
 >

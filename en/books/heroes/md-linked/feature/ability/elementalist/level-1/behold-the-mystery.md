@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: elementalist
 cost: 3 Essence
 distance: 3 [cube](../../../../rule/combat/cube.md) within 10
@@ -23,7 +23,7 @@ type: ability
 
 *You open a rift into the void to harry your foes.*
 
-| **Area, Magic, [Ranged](../../../../rule/combat/ranged.md), Void** |               **Main action** |
+| **Area, Magic, [Ranged](../../../../rule/combat/ranged.md), Void** |               **[Main action](../../../../rule/combat/turn.md)** |
 |-------------------------------|------------------------------:|
 | **📏 3 [cube](../../../../rule/combat/cube.md) within 10**       | **🎯 Each enemy in the area** |
 

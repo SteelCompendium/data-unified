@@ -32,7 +32,7 @@ with_captain: +2 damage bonus to strikes
 
 > 🏹 **Despair Bolt (Signature Ability)**
 >
-> | **Magic, Ranged, Strike, Weapon** |                **Main action** |
+> | **Magic, Ranged, Strike, Weapon** |                **[Main action](../../../../rule/combat/turn.md)** |
 > |-----------------------------------|-------------------------------:|
 > | **📏 Ranged 20**                  | **🎯 One creature per minion** |
 >

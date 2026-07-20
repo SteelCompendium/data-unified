@@ -3,6 +3,7 @@ agility: 0
 cost: 7 essence for two minions
 flavor: This cherubin creature is bloated and warped by demonic energy. The lights from their myriad eyes have all but gone out, now resembling pustules across their body.
 free_strike: 7
+free_strike_damage_type: Corruption
 immunities: []
 intuition: 4
 keywords:
@@ -35,7 +36,7 @@ This cherubin creature is bloated and warped by demonic energy. The lights from 
 
 > 🏹 **Blighted Strike 2d10 + R (Signature Ability)**
 >
-> | **Magic, Ranged, Strike** | **Main action** |
+> | **Magic, Ranged, Strike** | **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |---------------------------|----------------:|
 > | **📏 Ranged 5** | **🎯 One creature or object per minion** |
 >

@@ -36,7 +36,7 @@ type: statblock
 
 > 🗡 **Killer Claws ([Signature Ability](../../../rule/combat/signature-ability.md))**
 >
-> | **Melee, Strike, Weapon** |               **Main action** |
+> | **Melee, Strike, Weapon** |               **[Main action](../../../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Melee 1**            | **🎯 One creature or object** |
 >
@@ -48,7 +48,7 @@ type: statblock
 
 > 🏹 **Concealing Strike (2 Malice)**
 >
-> | **Psionic, Ranged, Strike** |      **Main action** |
+> | **Psionic, Ranged, Strike** |      **[Main action](../../../rule/combat/turn.md)** |
 > |-----------------------------|---------------------:|
 > | **📏 Ranged 5**             | **🎯 Two creatures** |
 >
@@ -60,7 +60,7 @@ type: statblock
 
 > 🗡 **Mindwipe**
 >
-> | **Melee, Psionic, Strike** |        **Maneuver** |
+> | **Melee, Psionic, Strike** |        **[Maneuver](../../../rule/combat/turn.md)** |
 > |----------------------------|--------------------:|
 > | **📏 Melee 1**             | **🎯 One creature** |
 >

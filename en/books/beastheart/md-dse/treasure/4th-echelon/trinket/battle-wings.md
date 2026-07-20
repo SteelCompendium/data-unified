@@ -6,11 +6,14 @@ file_dpath: treasure/4th-echelon/trinket
 flavor: These gently undulating wings affix themselves to a creature's shoulders.
 item_id: battle-wings
 item_name: Battle Wings
+item_prerequisite: A creature's feather given as a gift by the creature
 keywords:
     - Magic
     - Neck
 name: Battle Wings
 project_goal: "600"
+project_roll_characteristic: Agility or Intuition
+project_source: Texts or lore in Khelt and Yllric
 scc: mcdm.beastheart.v1/treasure.4th-echelon.trinket/battle-wings
 source: mcdm.beastheart.v1
 treasure_type: trinket

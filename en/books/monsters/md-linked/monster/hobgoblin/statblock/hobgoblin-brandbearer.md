@@ -34,7 +34,7 @@ with_captain: Gain an edge on strikes
 
 > 🗡 **Searing Grasp (Signature Ability)**
 >
-> | **Magic, Melee, Strike** |                          **Main action** |
+> | **Magic, Melee, Strike** |                          **[Main action](../../../rule/combat/turn.md)** |
 > |--------------------------|-----------------------------------------:|
 > | **📏 Melee 1**           | **🎯 One creature or object per minion** |
 >

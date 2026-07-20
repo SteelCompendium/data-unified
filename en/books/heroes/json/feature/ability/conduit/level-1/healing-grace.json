@@ -17,9 +17,9 @@
     "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)"
   ],
   "metadata": {
-    "action_type": "Maneuver",
+    "action_type": "[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)",
     "class": "conduit",
-    "content": "\n*Your divine energy restores the righteous.*\n\n| **Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)**          |            **Maneuver** |\n|----------------------------|------------------------:|\n| **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**           | **🎯 Self or one ally** |\n\n**Effect:** The target can spend a [Recovery](scc.v1:mcdm.heroes.v1/rule.health/recoveries).\n\n**Spend 1+ Piety:** For each piety spent, choose one of the following [enhancements](scc.v1:mcdm.heroes.v1/rule.treasure/enhancement):\n\n- You can target one additional ally within [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance).\n- You can end one effect on a target that is ended by a [saving throw](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) or that ends at the end of their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn).\n- A [prone target](scc.v1:mcdm.heroes.v1/condition/prone) can stand up.\n- A target can spend 1 additional [Recovery](scc.v1:mcdm.heroes.v1/rule.health/recoveries).",
+    "content": "\n*Your divine energy restores the righteous.*\n\n| **Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)**          |            **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|----------------------------|------------------------:|\n| **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**           | **🎯 Self or one ally** |\n\n**Effect:** The target can spend a [Recovery](scc.v1:mcdm.heroes.v1/rule.health/recoveries).\n\n**Spend 1+ Piety:** For each piety spent, choose one of the following [enhancements](scc.v1:mcdm.heroes.v1/rule.treasure/enhancement):\n\n- You can target one additional ally within [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance).\n- You can end one effect on a target that is ended by a [saving throw](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) or that ends at the end of their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn).\n- A [prone target](scc.v1:mcdm.heroes.v1/condition/prone) can stand up.\n- A target can spend 1 additional [Recovery](scc.v1:mcdm.heroes.v1/rule.health/recoveries).",
     "distance": "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10",
     "feature_type": "ability",
     "flavor": "Your divine energy restores the righteous.",
@@ -39,5 +39,5 @@
   "name": "Healing Grace",
   "target": "Self or one ally",
   "type": "feature",
-  "usage": "Maneuver"
+  "usage": "[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)"
 }

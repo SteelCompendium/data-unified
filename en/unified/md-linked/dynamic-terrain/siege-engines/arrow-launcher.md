@@ -106,7 +106,7 @@ A small wooden cart uses alchemical rockets to launch up to a hundred arrows at 
 
 > 🔳 **Arrow Storm**
 >
-> | **- Area, Ranged, Weapon** |         **Main action (Adjacent creature)** |
+> | **- Area, Ranged, Weapon** |         **[Main action](../../rule/combat/turn.md) (Adjacent creature)** |
 > |----------------------------|--------------------------------------------:|
 > | **📏 5 cube within 20**    | **🎯 Each creature and object in the area** |
 >
@@ -120,7 +120,7 @@ A small wooden cart uses alchemical rockets to launch up to a hundred arrows at 
 
 > ⭐️ **Reload**
 >
-> | **-**    | **Main action (Adjacent creature)** |
+> | **-**    | **[Main action](../../rule/combat/turn.md) (Adjacent creature)** |
 > |----------|------------------------------------:|
 > | **📏 -** |                            **🎯 -** |
 >
@@ -128,7 +128,7 @@ A small wooden cart uses alchemical rockets to launch up to a hundred arrows at 
 
 > ⭐️ **Spot**
 >
-> | **-**    | **Main action (Adjacent creature)** |
+> | **-**    | **[Main action](../../rule/combat/turn.md) (Adjacent creature)** |
 > |----------|------------------------------------:|
 > | **📏 -** |                            **🎯 -** |
 >
@@ -136,7 +136,7 @@ A small wooden cart uses alchemical rockets to launch up to a hundred arrows at 
 
 > ⭐️ **Move**
 >
-> | **-**    | **Main action (Adjacent creature)** |
+> | **-**    | **[Main action](../../rule/combat/turn.md) (Adjacent creature)** |
 > |----------|------------------------------------:|
 > | **📏 -** |                            **🎯 -** |
 >
@@ -150,7 +150,7 @@ A small wooden cart uses alchemical rockets to launch up to a hundred arrows at 
 
 > 🔳 **Screamers**
 >
-> | **Area, Ranged, Weapon** |         **Main action (Adjacent creature)** |
+> | **Area, Ranged, Weapon** |         **[Main action](../../rule/combat/turn.md) (Adjacent creature)** |
 > |--------------------------|--------------------------------------------:|
 > | **📏 5 cube within 20**  | **🎯 Each creature and object in the area** |
 >

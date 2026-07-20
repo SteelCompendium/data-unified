@@ -31,7 +31,7 @@ type: statblock
 
 > ❇️ **Zweihander Swing (Signature Ability)**
 >
-> | **Area, Weapon** |               **Main action** |
+> | **Area, Weapon** |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |------------------|------------------------------:|
 > | **📏 1 burst**   | **🎯 Each enemy in the area** |
 >
@@ -47,7 +47,7 @@ type: statblock
 
 > 🏹 **You!**
 >
-> | **Ranged**       |     **Maneuver** |
+> | **Ranged**       |     **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |------------------|-----------------:|
 > | **📏 Ranged 10** | **🎯 One enemy** |
 >
@@ -63,7 +63,7 @@ type: statblock
 
 > ❗️ **Parry!**
 >
-> | **Melee**      |    **Triggered action** |
+> | **Melee**      |    **[Triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |
 > |----------------|------------------------:|
 > | **📏 Melee 1** | **🎯 Self or one ally** |
 >

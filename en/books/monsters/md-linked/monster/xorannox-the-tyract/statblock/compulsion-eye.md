@@ -30,7 +30,7 @@ type: statblock
 
 > 🏹 **Compulsion Beam ([Signature Ability](../../../rule/combat/signature-ability.md))**
 >
-> | **Psionic, Ranged, Strike** |     **Main action** |
+> | **Psionic, Ranged, Strike** |     **[Main action](../../../rule/combat/turn.md)** |
 > |-----------------------------|--------------------:|
 > | **📏 Ranged 6**             | **🎯 One creature** |
 >

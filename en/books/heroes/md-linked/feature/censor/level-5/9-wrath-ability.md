@@ -13,7 +13,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *You channel divine force for movement that cannot be stopped.*
 
-| **[Ranged](../../../rule/combat/ranged.md)** |         **Main action** |
+| **[Ranged](../../../rule/combat/ranged.md)** |         **[Main action](../../../rule/combat/turn.md)** |
 |------------------|------------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10** | **🎯 Self or one ally** |
 
@@ -24,7 +24,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *You channel your god's will to overcome hardship and inflict pain.*
 
-| **Area**       |                          **Maneuver** |
+| **Area**       |                          **[Maneuver](../../../rule/combat/turn.md)** |
 |----------------|--------------------------------------:|
 | **📏 1 [burst](../../../rule/combat/burst.md)** | **🎯 Self and each ally in the area** |
 
@@ -41,7 +41,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *You amplify the power of your [judgment](../../ability/censor/level-1/judgment.md).*
 
-| **[Melee](../../../rule/combat/melee.md), [Strike](../../../rule/combat/strike.md), Weapon**   |          **Main action** |
+| **[Melee](../../../rule/combat/melee.md), [Strike](../../../rule/combat/strike.md), Weapon**   |          **[Main action](../../../rule/combat/turn.md)** |
 |----------------------------|-------------------------:|
 | **📏 [Melee](../../../rule/combat/melee.md) 1**             |      **🎯 One creature** |
 
@@ -58,7 +58,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *You strike a foe and create a fleet of divine shields that protect your allies.*
 
-| **[Melee](../../../rule/combat/melee.md), [Strike](../../../rule/combat/strike.md), Weapon** |          **Main action** |
+| **[Melee](../../../rule/combat/melee.md), [Strike](../../../rule/combat/strike.md), Weapon** |          **[Main action](../../../rule/combat/turn.md)** |
 |---------------------------|-------------------------:|
 | **📏 [Melee](../../../rule/combat/melee.md) 1**            |      **🎯 One creature** |
 

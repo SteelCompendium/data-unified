@@ -6,11 +6,13 @@ file_dpath: treasure/4th-echelon/trinket
 flavor: A large banner billows from this tall flagpole. Its heraldry depicts a dragon breathing fire with outstretched wings covered in holes and tears.
 item_id: warbanner-of-wrath
 item_name: Warbanner of Wrath
+item_prerequisite: A king's deathbed veil and a solid brass flagpole
 keywords:
     - Magic
 name: Warbanner of Wrath
 project_goal: "600"
 project_roll_characteristic: '[Reason](../../../rule/character/reason.md) or [Intuition](../../../rule/character/intuition.md)'
+project_source: Texts or lore in Caelian
 scc: mcdm.summoner.v1/treasure.4th-echelon.trinket/warbanner-of-wrath
 source: mcdm.summoner.v1
 treasure_type: trinket

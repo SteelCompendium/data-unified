@@ -26,7 +26,7 @@ type: title
 >
 > *Come out to play—yay!*
 >
-> | **Area, Magic** |                                **Maneuver** |
+> | **Area, Magic** |                                **[Maneuver](../rule/combat/turn.md)** |
 > |-----------------|--------------------------------------------:|
 > | **📏 5 [burst](../rule/combat/burst.md)**  | **🎯 Each enemy in the area hidden to you** |
 >

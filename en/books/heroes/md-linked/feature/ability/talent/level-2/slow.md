@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](../../../../rule/combat/turn.md)'
 class: talent
 cost: 5 Clarity
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
@@ -24,7 +24,7 @@ type: ability
 
 *Perhaps they wonder why everyone else is moving so quickly?*
 
-| **Chronopathy, Psionic, [Ranged](../../../../rule/combat/ranged.md)** |                      **Maneuver** |
+| **Chronopathy, Psionic, [Ranged](../../../../rule/combat/ranged.md)** |                      **[Maneuver](../../../../rule/combat/turn.md)** |
 |----------------------------------|----------------------------------:|
 | **📏 [Ranged](../../../../rule/combat/ranged.md) 10**                 | **🎯 Three creatures or objects** |
 

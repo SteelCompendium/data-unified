@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: talent
 cost: 5 Clarity
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
@@ -24,7 +24,7 @@ type: ability
 
 *You control an enemy's nervous system. How pleasant for them.*
 
-| **Psionic, [Ranged](../../../../rule/combat/ranged.md), Telepathy** |  **Main action** |
+| **Psionic, [Ranged](../../../../rule/combat/ranged.md), Telepathy** |  **[Main action](../../../../rule/combat/turn.md)** |
 |--------------------------------|-----------------:|
 | **📏 [Ranged](../../../../rule/combat/ranged.md) 10**               | **🎯 One enemy** |
 

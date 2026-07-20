@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](../../../../rule/combat/turn.md)'
 class: shadow
 cost: 9 Insight
 cost_amount: "9"
@@ -33,7 +33,7 @@ flavor: A well-timed throw of a potion will keep your allies in the fight.
 keywords:
     - '[Ranged](../../../../rule/combat/ranged.md)'
 metadata:
-    action_type: Maneuver
+    action_type: '[Maneuver](../../../../rule/combat/turn.md)'
     class: shadow
     cost: 9 Insight
     distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
@@ -50,5 +50,5 @@ metadata:
 name: One Vial Makes You Better
 target: Three creatures
 type: feature
-usage: Maneuver
+usage: '[Maneuver](../../../../rule/combat/turn.md)'
 ```

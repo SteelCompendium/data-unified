@@ -17,7 +17,7 @@ Choose one of the following abilities.
 
 *We offered them a percentage of the gross. So they're working for free!*
 
-| **Magic, [Ranged](../../../rule/combat/ranged.md)** | **Main action** |
+| **Magic, [Ranged](../../../rule/combat/ranged.md)** | **[Main action](../../../rule/combat/turn.md)** |
 |-------------------|----------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**  |  **🎯 Special** |
 
@@ -28,7 +28,7 @@ Choose one of the following abilities.
 
 *You didn't see that coming, did you?!*
 
-| **Magic, [Ranged](../../../rule/combat/ranged.md)** |       **Main action** |
+| **Magic, [Ranged](../../../rule/combat/ranged.md)** |       **[Main action](../../../rule/combat/turn.md)** |
 |-------------------|----------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**  | **🎯 One dead enemy** |
 
@@ -43,7 +43,7 @@ Choose one of the following abilities.
 
 *Audiences love this bit.*
 
-| **[Melee](../../../rule/combat/melee.md), [Strike](../../../rule/combat/strike.md), Weapon** |                  **Main action** |
+| **[Melee](../../../rule/combat/melee.md), [Strike](../../../rule/combat/strike.md), Weapon** |                  **[Main action](../../../rule/combat/turn.md)** |
 |---------------------------|---------------------------------:|
 | **📏 [Melee](../../../rule/combat/melee.md) 1**            | **🎯 Self and one willing ally** |
 
@@ -54,7 +54,7 @@ Choose one of the following abilities.
 
 *Wait, it's... Guard! [Turn](../../../rule/combat/turn.md)! Parry! Dodge! Spin! Thrust! Ha!*
 
-| **[Melee](../../../rule/combat/melee.md), [Strike](../../../rule/combat/strike.md), Weapon** |     **Main action** |
+| **[Melee](../../../rule/combat/melee.md), [Strike](../../../rule/combat/strike.md), Weapon** |     **[Main action](../../../rule/combat/turn.md)** |
 |---------------------------|--------------------:|
 | **📏 [Melee](../../../rule/combat/melee.md) 1**            | **🎯 One creature** |
 
@@ -75,7 +75,7 @@ Choose one of the following abilities.
 
 *Again! Again!*
 
-| **Magic, [Strike](../../../rule/combat/strike.md)** | **Main action** |
+| **Magic, [Strike](../../../rule/combat/strike.md)** | **[Main action](../../../rule/combat/turn.md)** |
 |-------------------|----------------:|
 | **📏 Special**    |  **🎯 Special** |
 
@@ -86,7 +86,7 @@ Choose one of the following abilities.
 
 *Your fans don't seem to like the opening act...*
 
-| **Area, Magic, [Ranged](../../../rule/combat/ranged.md)** | **Main action** |
+| **Area, Magic, [Ranged](../../../rule/combat/ranged.md)** | **[Main action](../../../rule/combat/turn.md)** |
 |-------------------------|----------------:|
 | **📏 3 [cube](../../../rule/combat/cube.md) within 10** |  **🎯 Special** |
 

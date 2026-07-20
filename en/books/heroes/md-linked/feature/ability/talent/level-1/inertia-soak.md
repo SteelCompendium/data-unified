@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](../../../../rule/combat/turn.md)'
 class: talent
 cost: 5 Clarity
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
@@ -19,7 +19,7 @@ type: ability
 
 *Your psionic energy surrounds the target and pushes everything else away from them.*
 
-| **Psionic, [Ranged](../../../../rule/combat/ranged.md), Telekinesis** |            **Maneuver** |
+| **Psionic, [Ranged](../../../../rule/combat/ranged.md), Telekinesis** |            **[Maneuver](../../../../rule/combat/turn.md)** |
 |----------------------------------|------------------------:|
 | **📏 [Ranged](../../../../rule/combat/ranged.md) 10**                 | **🎯 Self or one ally** |
 

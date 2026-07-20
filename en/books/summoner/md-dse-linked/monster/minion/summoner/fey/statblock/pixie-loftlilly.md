@@ -7,6 +7,7 @@ file_basename: pixie-loftlilly
 file_dpath: monster/minion/summoner/fey/statblock
 flavor: Loftlillies lazily drift through the air in flower cups. They sip on toxic nectar to emit a powerful haze from their skin.
 free_strike: 4
+free_strike_damage_type: Poison
 immunities:
     - Poison R
 intuition: 0

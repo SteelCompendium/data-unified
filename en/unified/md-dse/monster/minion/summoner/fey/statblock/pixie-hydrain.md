@@ -7,6 +7,7 @@ file_basename: pixie-hydrain
 file_dpath: monster/minion/summoner/fey/statblock
 flavor: This pixie flies on a delicate array of vibrant flower petals for wings. The color drains from their wings as they call forth acid rain showers.
 free_strike: 5
+free_strike_damage_type: Acid
 immunities:
     - Acid R
 intuition: 0

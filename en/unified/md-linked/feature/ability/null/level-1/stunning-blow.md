@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: "null"
 cost: 3 Discipline
 distance: '[Melee](../../../../rule/combat/melee.md) 1'
@@ -23,7 +23,7 @@ type: ability
 
 *You focus your psionic technique into a concussive punch.*
 
-| **[Melee](../../../../rule/combat/melee.md), Psionic, [Strike](../../../../rule/combat/strike.md), Weapon** |               **Main action** |
+| **[Melee](../../../../rule/combat/melee.md), Psionic, [Strike](../../../../rule/combat/strike.md), Weapon** |               **[Main action](../../../../rule/combat/turn.md)** |
 |------------------------------------|------------------------------:|
 | **📏 [Melee](../../../../rule/combat/melee.md) 1**                     | **🎯 One creature or object** |
 

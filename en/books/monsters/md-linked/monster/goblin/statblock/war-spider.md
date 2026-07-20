@@ -30,7 +30,7 @@ type: statblock
 
 > 🗡 **Bite (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |     **Main action** |
+> | **Melee, Strike, Weapon** |     **[Main action](../../../rule/combat/turn.md)** |
 > |---------------------------|--------------------:|
 > | **📏 Melee 1**            | **🎯 One creature** |
 >
@@ -44,7 +44,7 @@ type: statblock
 
 > 🗡 **Leg Blade**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](../../../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 1**            | **🎯 Two creatures or objects** |
 >
@@ -56,7 +56,7 @@ type: statblock
 
 > 👤 **Trample (5 [Malice](../../../rule/monster/malice.md))**
 >
-> | **-** | **Main action** |
+> | **-** | **[Main action](../../../rule/combat/turn.md)** |
 > | --- | ---:|
 > | **📏 Self** | **🎯 Self** |
 >
@@ -64,7 +64,7 @@ type: statblock
 
 > 🔳 **Web**
 >
-> | **Area, Weapon**       |                     **Maneuver** |
+> | **Area, Weapon**       |                     **[Maneuver](../../../rule/combat/turn.md)** |
 > |------------------------|---------------------------------:|
 > | **📏 3 cube within 1** | **🎯 Each creature in the area** |
 >
@@ -78,7 +78,7 @@ type: statblock
 
 > ❗️ **Skitter**
 >
-> | **-**       | **Triggered action** |
+> | **-**       | **[Triggered action](../../../rule/combat/triggered-action.md)** |
 > |-------------|---------------------:|
 > | **📏 Self** |          **🎯 Self** |
 >

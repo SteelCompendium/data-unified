@@ -14,9 +14,9 @@
     "Magic"
   ],
   "metadata": {
-    "action_type": "Maneuver",
+    "action_type": "[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)",
     "class": "conduit",
-    "content": "\n*You and your allies swap places to confound your foes.*\n\n| **Area, Magic**  |                          **Maneuver** |\n|------------------|--------------------------------------:|\n| **📏 5 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)**   | **🎯 Self and each ally in the area** |\n\n**Effect:** Each target can choose another creature in the area, then swap places with that creature. The creature they choose must be able to fit into the space they leave and vice versa.",
+    "content": "\n*You and your allies swap places to confound your foes.*\n\n| **Area, Magic**  |                          **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|------------------|--------------------------------------:|\n| **📏 5 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)**   | **🎯 Self and each ally in the area** |\n\n**Effect:** Each target can choose another creature in the area, then swap places with that creature. The creature they choose must be able to fit into the space they leave and vice versa.",
     "distance": "5 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)",
     "feature_type": "ability",
     "flavor": "You and your allies swap places to confound your foes.",
@@ -37,5 +37,5 @@
   "name": "Divine Comedy",
   "target": "Self and each ally in the area",
   "type": "feature",
-  "usage": "Maneuver"
+  "usage": "[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)"
 }

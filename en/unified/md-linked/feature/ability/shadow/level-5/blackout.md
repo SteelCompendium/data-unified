@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](../../../../rule/combat/turn.md)'
 class: shadow
 cost: 9 Insight
 distance: 3 [burst](../../../../rule/combat/burst.md)
@@ -18,7 +18,7 @@ type: ability
 
 *You cause a plume of shadow to erupt from your eyes and create a cloud of darkness.*
 
-| **Area, Magic** |   **Maneuver** |
+| **Area, Magic** |   **[Maneuver](../../../../rule/combat/turn.md)** |
 |-----------------|---------------:|
 | **📏 3 [burst](../../../../rule/combat/burst.md)**  | **🎯 Special** |
 

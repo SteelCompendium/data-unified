@@ -13,9 +13,9 @@ keywords:
     - Void
 metadata:
     ability_type: Triggered
-    action_type: Triggered
+    action_type: '[Triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)'
     class: elementalist
-    content: "\n*You call on the void to swallow and spit out an ally.*\n\n| **Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged), Void**  |           **Triggered** |\n|--------------------------|------------------------:|\n| **\U0001F4CF [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**         | **\U0001F3AF Self or one ally** |\n\n**Trigger:** The target starts their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), moves, or is [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement). \n\n**Effect:** You [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) the target up to a number of squares equal to your [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) score. If the target moves to trigger this ability, you can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) them at any point during the move.\n\n**Spend 1 Essence:** You [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) the target up to a number of squares equal to twice your [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) score instead."
+    content: "\n*You call on the void to swallow and spit out an ally.*\n\n| **Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged), Void**  |           **[Triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |\n|--------------------------|------------------------:|\n| **\U0001F4CF [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**         | **\U0001F3AF Self or one ally** |\n\n**Trigger:** The target starts their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), moves, or is [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement). \n\n**Effect:** You [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) the target up to a number of squares equal to your [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) score. If the target moves to trigger this ability, you can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) them at any point during the move.\n\n**Spend 1 Essence:** You [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) the target up to a number of squares equal to twice your [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) score instead."
     distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
     feature_type: ability
     flavor: You call on the void to swallow and spit out an ally.
@@ -35,4 +35,4 @@ name: Subtle Relocation
 target: Self or one ally
 trigger: The target starts their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), moves, or is [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement).
 type: feature
-usage: Triggered
+usage: '[Triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)'

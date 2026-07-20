@@ -32,7 +32,7 @@ type: statblock
 
 > 🏹 **Psionic Rifle Burst ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
-> | **Psionic, Ranged, Strike, Weapon** |               **Main action** |
+> | **Psionic, Ranged, Strike, Weapon** |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-------------------------------------|------------------------------:|
 > | **📏 Ranged 10**                    | **🎯 One creature or object** |
 >
@@ -48,7 +48,7 @@ type: statblock
 
 > 🔳 **Mind Jolt**
 >
-> | **Area, Psionic**            |               **Main action** |
+> | **Area, Psionic**            |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |------------------------------|------------------------------:|
 > | **📏 10 x 1 line within 10** | **🎯 Each enemy in the area** |
 >
@@ -60,7 +60,7 @@ type: statblock
 
 > 🏹 **In Our Sights**
 >
-> | **Ranged**       |        **Maneuver** |
+> | **Ranged**       |        **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |------------------|--------------------:|
 > | **📏 Ranged 10** | **🎯 One creature** |
 >

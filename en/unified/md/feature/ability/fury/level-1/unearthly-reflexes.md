@@ -1,5 +1,5 @@
 ---
-action_type: Triggered
+action_type: '[Triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)'
 class: fury
 distance: Self
 effect: You take half the damage from the triggering effect and can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to a number of squares equal to your [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility) score.
@@ -19,7 +19,7 @@ type: ability
 
 *You are as elusive as a hummingbird.*
 
-| **-**       | **Triggered** |
+| **-**       | **[Triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |
 |-------------|--------------:|
 | **📏 Self** |    **🎯 Self** |
 

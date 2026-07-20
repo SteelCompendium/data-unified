@@ -21,30 +21,39 @@ If you want a good balance of protection, [speed](../rule/character/speed.md), a
 
 You wear no armor and wield a heavy weapon.
 
-##### Kit Bonuses
-
-**[Stamina](../rule/health/stamina.md) [Bonus](../rule/dice/bonuses-and-penalties.md):** +6 per [echelon](../rule/general/echelon.md)
-
-**[Speed](../rule/character/speed.md) [Bonus](../rule/dice/bonuses-and-penalties.md):** +1
-
-**[Stability](../rule/character/stability.md) [Bonus](../rule/dice/bonuses-and-penalties.md):** +1
-
-**[Melee](../rule/combat/melee.md) Damage [Bonus](../rule/dice/bonuses-and-penalties.md):** +0/+0/+4
-
-##### Signature Ability
-
-###### Devastating Rush
-
-*The faster you move, the harder you hit.*
-
-| **[Melee](../rule/combat/melee.md), [Strike](../rule/combat/strike.md), Weapon** |               **Main action** |
-|---------------------------|------------------------------:|
-| **📏 [Melee](../rule/combat/melee.md) 1**            | **🎯 One creature or object** |
-
-**[Power Roll](../rule/dice/power-roll.md) + [Might](../rule/character/might.md) or [Agility](../rule/character/agility.md):**
-
-- **≤11:** 3 + M or A damage
-- **12-16:** 6 + M or A damage
-- **17+:** 13 + M or A damage
-
-**Effect:** You can move up to 3 squares straight toward the target before this [strike](../rule/combat/strike.md), which deals extra damage equal to the number of squares you move this way.
+```ds-feature
+distance: '[Melee](../rule/combat/melee.md) 1'
+effects:
+    - effect: You can move up to 3 squares straight toward the target before this [strike](../rule/combat/strike.md), which deals extra damage equal to the number of squares you move this way.
+    - roll: Power Roll + [Might](../rule/character/might.md) or [Agility](../rule/character/agility.md)
+      tier1: 3 + M or A damage
+      tier2: 6 + M or A damage
+      tier3: 13 + M or A damage
+feature_type: ability
+flavor: The faster you move, the harder you hit.
+keywords:
+    - '[Melee](../rule/combat/melee.md)'
+    - '[Strike](../rule/combat/strike.md)'
+    - Weapon
+metadata:
+    action_type: Main action
+    distance: '[Melee](../rule/combat/melee.md) 1'
+    effect: You can move up to 3 squares straight toward the target before this [strike](../rule/combat/strike.md), which deals extra damage equal to the number of squares you move this way.
+    flavor: The faster you move, the harder you hit.
+    keywords:
+        - '[Melee](../rule/combat/melee.md)'
+        - '[Strike](../rule/combat/strike.md)'
+        - Weapon
+    name: Devastating Rush
+    power_roll_characteristic: '[Might](../rule/character/might.md) or [Agility](../rule/character/agility.md)'
+    subtype: signature
+    target: One creature or object
+    tier1: 3 + M or A damage
+    tier2: 6 + M or A damage
+    tier3: 13 + M or A damage
+    type: ability
+name: Devastating Rush
+target: One creature or object
+type: feature
+usage: Main action
+```

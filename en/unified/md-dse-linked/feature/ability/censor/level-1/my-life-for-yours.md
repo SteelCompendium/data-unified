@@ -1,5 +1,5 @@
 ---
-action_type: Triggered
+action_type: '[Triggered](../../../../rule/combat/triggered-action.md)'
 class: censor
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
 effect: You spend a [Recovery](../../../../rule/health/recoveries.md) and the target regains [Stamina](../../../../rule/health/stamina.md) equal to your [recovery value](../../../../rule/health/recoveries.md).
@@ -35,7 +35,7 @@ keywords:
     - Magic
     - '[Ranged](../../../../rule/combat/ranged.md)'
 metadata:
-    action_type: Triggered
+    action_type: '[Triggered](../../../../rule/combat/triggered-action.md)'
     class: censor
     distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
     effect: You spend a [Recovery](../../../../rule/health/recoveries.md) and the target regains [Stamina](../../../../rule/health/stamina.md) equal to your [recovery value](../../../../rule/health/recoveries.md).
@@ -55,5 +55,5 @@ name: My Life for Yours
 target: Self or one ally
 trigger: The target starts their [turn](../../../../rule/combat/turn.md) or takes damage.
 type: feature
-usage: Triggered
+usage: '[Triggered](../../../../rule/combat/triggered-action.md)'
 ```

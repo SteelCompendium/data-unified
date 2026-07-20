@@ -42,7 +42,7 @@ At the start of any war dog's turn, you can spend [Malice](scc.v1:mcdm.monsters.
 
 > 🔳 **Fire for Effect (5 Malice)**
 >
-> | **Area, Magic, Ranged**     |               **Maneuver** |
+> | **Area, Magic, Ranged**     |               **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-----------------------------|------------------------------:|
 > | **📏 4 cube within 10**     | **🎯 Each creature in the area** |
 >

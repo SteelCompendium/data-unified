@@ -154,7 +154,7 @@ Your [tactical doctrine](../feature/tactician/level-1/tactical-doctrine.md) gran
 
 *Your leadership aids an ally.*
 
-| **[Ranged](../rule/combat/ranged.md)**       |   **Triggered** |
+| **[Ranged](../rule/combat/ranged.md)**       |   **[Triggered](../rule/combat/triggered-action.md)** |
 |------------------|----------------:|
 | **📏 [Ranged](../rule/combat/ranged.md) 10** | **🎯 One ally** |
 
@@ -169,7 +169,7 @@ Your [tactical doctrine](../feature/tactician/level-1/tactical-doctrine.md) gran
 
 *Under your direction, an ally waits for just the right moment to strike.*
 
-| **[Ranged](../rule/combat/ranged.md)**       |       **Triggered** |
+| **[Ranged](../rule/combat/ranged.md)**       |       **[Triggered](../rule/combat/triggered-action.md)** |
 |------------------|--------------------:|
 | **📏 [Ranged](../rule/combat/ranged.md) 10** | **🎯 One creature** |
 
@@ -184,7 +184,7 @@ Your [tactical doctrine](../feature/tactician/level-1/tactical-doctrine.md) gran
 
 *Your quick reflexes cost an enemy the precision they seek.*
 
-| **[Melee](../rule/combat/melee.md), Weapon** |            **Triggered** |
+| **[Melee](../rule/combat/melee.md), Weapon** |            **[Triggered](../rule/combat/triggered-action.md)** |
 |-------------------|-------------------------:|
 | **📏 [Melee](../rule/combat/melee.md) 2**    |  **🎯 Self or one ally** |
 
@@ -222,7 +222,7 @@ You know how to focus the attention of your allies as you push them toward [vict
 
 *You draw your allies' attention to a specific foe—with devastating effect.*
 
-| **[Ranged](../rule/combat/ranged.md)**       |        **Maneuver** |
+| **[Ranged](../rule/combat/ranged.md)**       |        **[Maneuver](../rule/combat/turn.md)** |
 |------------------|--------------------:|
 | **📏 [Ranged](../rule/combat/ranged.md) 10** | **🎯 One creature** |
 
@@ -248,7 +248,7 @@ You have the following ability.
 
 *Your foe left an opening. You point this out to an ally!*
 
-| **[Ranged](../rule/combat/ranged.md)** | **Main action** |
+| **[Ranged](../rule/combat/ranged.md)** | **[Main action](../rule/combat/turn.md)** |
 | ---------------------------------------|----------------:|
 | **📏 [Ranged](../rule/combat/ranged.md) 10**  | **🎯 One ally** |
 
@@ -277,7 +277,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 *You shout a phrase that galvanizes your team.*
 
-| **[Ranged](../rule/combat/ranged.md)**       |        **Maneuver** |
+| **[Ranged](../rule/combat/ranged.md)**       |        **[Maneuver](../rule/combat/turn.md)** |
 |------------------|--------------------:|
 | **📏 [Ranged](../rule/combat/ranged.md) 10** | **🎯 Three allies** |
 
@@ -292,7 +292,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 *Your precise strike leaves your foe struggling to respond.*
 
-| **[Melee](../rule/combat/melee.md), [Ranged](../rule/combat/ranged.md), [Strike](../rule/combat/strike.md), Weapon** |               **Main action** |
+| **[Melee](../rule/combat/melee.md), [Ranged](../rule/combat/ranged.md), [Strike](../rule/combat/strike.md), Weapon** |               **[Main action](../rule/combat/turn.md)** |
 |-----------------------------------|------------------------------:|
 | **📏 [Melee](../rule/combat/melee.md) 1 or [ranged](../rule/combat/ranged.md) 5**        | **🎯 One creature or object** |
 
@@ -307,7 +307,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 *Your attack gives an ally hope.*
 
-| **[Melee](../rule/combat/melee.md), [Ranged](../rule/combat/ranged.md), [Strike](../rule/combat/strike.md), Weapon** |               **Main action** |
+| **[Melee](../rule/combat/melee.md), [Ranged](../rule/combat/ranged.md), [Strike](../rule/combat/strike.md), Weapon** |               **[Main action](../rule/combat/turn.md)** |
 |-----------------------------------|------------------------------:|
 | **📏 [Melee](../rule/combat/melee.md) 1 or [ranged](../rule/combat/ranged.md) 5**        | **🎯 One creature or object** |
 
@@ -322,7 +322,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 *On your command, you and your allies force back the enemy line.*
 
-| **[Ranged](../rule/combat/ranged.md)**       |               **Maneuver** |
+| **[Ranged](../rule/combat/ranged.md)**       |               **[Maneuver](../rule/combat/turn.md)** |
 |------------------|---------------------------:|
 | **📏 [Ranged](../rule/combat/ranged.md) 10** | **🎯 Self and two allies** |
 
@@ -337,7 +337,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 *"Let's not argue about who's the hammer and who's the anvil!"*
 
-| **[Melee](../rule/combat/melee.md), [Ranged](../rule/combat/ranged.md), [Strike](../rule/combat/strike.md), Weapon** |               **Main action** |
+| **[Melee](../rule/combat/melee.md), [Ranged](../rule/combat/ranged.md), [Strike](../rule/combat/strike.md), Weapon** |               **[Main action](../rule/combat/turn.md)** |
 |-----------------------------------|------------------------------:|
 | **📏 [Melee](../rule/combat/melee.md) 1 or [ranged](../rule/combat/ranged.md) 5**        | **🎯 One creature or object** |
 
@@ -354,7 +354,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 *Your attack demoralizes your foe. Your allies begin to think you can win.*
 
-| **[Melee](../rule/combat/melee.md), [Ranged](../rule/combat/ranged.md), [Strike](../rule/combat/strike.md), Weapon** |               **Main action** |
+| **[Melee](../rule/combat/melee.md), [Ranged](../rule/combat/ranged.md), [Strike](../rule/combat/strike.md), Weapon** |               **[Main action](../rule/combat/turn.md)** |
 |-----------------------------------|------------------------------:|
 | **📏 [Melee](../rule/combat/melee.md) 1 or [ranged](../rule/combat/ranged.md) 5**        | **🎯 One creature or object** |
 
@@ -373,7 +373,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 *Your allies wait for your command—then unleash death!*
 
-| **[Ranged](../rule/combat/ranged.md)**       |        **Maneuver** |
+| **[Ranged](../rule/combat/ranged.md)**       |        **[Maneuver](../rule/combat/turn.md)** |
 |------------------|--------------------:|
 | **📏 [Ranged](../rule/combat/ranged.md) 10** | **🎯 Three allies** |
 
@@ -384,7 +384,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 *All those coordination drills you made them do finally pay off.*
 
-| **[Ranged](../rule/combat/ranged.md)**       |      **Maneuver** |
+| **[Ranged](../rule/combat/ranged.md)**       |      **[Maneuver](../rule/combat/turn.md)** |
 |------------------|------------------:|
 | **📏 [Ranged](../rule/combat/ranged.md) 10** | **🎯 Two allies** |
 
@@ -437,7 +437,7 @@ Choose one of the following abilities.
 
 *Your unorthodox strategy causes enemies to lash out in fear, heedless of who they might be attacking.*
 
-| **[Ranged](../rule/combat/ranged.md)**       |         **Maneuver** |
+| **[Ranged](../rule/combat/ranged.md)**       |         **[Maneuver](../rule/combat/turn.md)** |
 |------------------|---------------------:|
 | **📏 [Ranged](../rule/combat/ranged.md) 10** | **🎯 Two creatures** |
 
@@ -450,7 +450,7 @@ Choose one of the following abilities.
 
 *"Try picking on someone my [size](../rule/character/size.md)."*
 
-| **[Melee](../rule/combat/melee.md), [Strike](../rule/combat/strike.md), Weapon** | **Main action** |
+| **[Melee](../rule/combat/melee.md), [Strike](../rule/combat/strike.md), Weapon** | **[Main action](../rule/combat/turn.md)** |
 |---------------------------|----------------:|
 | **📏 Self; see below**    |     **🎯 Self** |
 
@@ -471,7 +471,7 @@ Choose one of the following abilities.
 
 *Your enemy will think twice about attacking your friend.*
 
-| **[Ranged](../rule/combat/ranged.md), [Strike](../rule/combat/strike.md), Weapon** |     **Main action** |
+| **[Ranged](../rule/combat/ranged.md), [Strike](../rule/combat/strike.md), Weapon** |     **[Main action](../rule/combat/turn.md)** |
 |----------------------------|--------------------:|
 | **📏 [Ranged](../rule/combat/ranged.md) 5**            | **🎯 One creature** |
 
@@ -488,7 +488,7 @@ Choose one of the following abilities.
 
 *You point out easy targets to your friends, allowing them to include more enemies in their attacks.*
 
-| **[Ranged](../rule/combat/ranged.md)**      |         **Maneuver** |
+| **[Ranged](../rule/combat/ranged.md)**      |         **[Maneuver](../rule/combat/turn.md)** |
 |-----------------|---------------------:|
 | **📏 [Ranged](../rule/combat/ranged.md) 5** | **🎯 Two creatures** |
 
@@ -505,7 +505,7 @@ Choose one of the following abilities.
 
 *You prioritize saving an ally over your own safety.*
 
-| **[Ranged](../rule/combat/ranged.md), [Strike](../rule/combat/strike.md), Weapon** |    **Triggered** |
+| **[Ranged](../rule/combat/ranged.md), [Strike](../rule/combat/strike.md), Weapon** |    **[Triggered](../rule/combat/triggered-action.md)** |
 |----------------------------|-----------------:|
 | **📏 [Ranged](../rule/combat/ranged.md) 5**            | **🎯 One enemy** |
 
@@ -524,7 +524,7 @@ Choose one of the following abilities.
 
 *Together we are invincible!*
 
-| **Area**       |                          **Maneuver** |
+| **Area**       |                          **[Maneuver](../rule/combat/turn.md)** |
 |----------------|--------------------------------------:|
 | **📏 1 [burst](../rule/combat/burst.md)** | **🎯 Self and each ally in the area** |
 
@@ -547,7 +547,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 *The purpose of a charge is to break their morale and force a retreat.*
 
-| **-**       | **Maneuver** |
+| **-**       | **[Maneuver](../rule/combat/turn.md)** |
 |-------------|-------------:|
 | **📏 Self** |  **🎯 Self** |
 
@@ -558,7 +558,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 *Your allies see the advantages in attacking the targets you select.*
 
-| **-**       | **Maneuver** |
+| **-**       | **[Maneuver](../rule/combat/turn.md)** |
 |-------------|-------------:|
 | **📏 Self** |  **🎯 Self** |
 
@@ -569,7 +569,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 *The tide begins to [turn](../rule/combat/turn.md).*
 
-| **-**       | **Maneuver** |
+| **-**       | **[Maneuver](../rule/combat/turn.md)** |
 |-------------|-------------:|
 | **📏 Self** |  **🎯 Self** |
 
@@ -580,7 +580,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 *"We can do this! Keep faith and hold fast!"*
 
-| **-**       | **Maneuver** |
+| **-**       | **[Maneuver](../rule/combat/turn.md)** |
 |-------------|-------------:|
 | **📏 Self** |  **🎯 Self** |
 
@@ -659,7 +659,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 *You distract a foe while your allies secure their defensive gear.*
 
-| **[Melee](../rule/combat/melee.md), [Strike](../rule/combat/strike.md), Weapon** | **Main action**     |
+| **[Melee](../rule/combat/melee.md), [Strike](../rule/combat/strike.md), Weapon** | **[Main action](../rule/combat/turn.md)**     |
 |---------------------------|---------------------|
 | **📏 [Melee](../rule/combat/melee.md) 1**            | **🎯 One creature** |
 
@@ -676,7 +676,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 *You remind your allies how to best use their gear.*
 
-| **[Ranged](../rule/combat/ranged.md)**                |                         **Main action** |
+| **[Ranged](../rule/combat/ranged.md)**                |                         **[Main action](../rule/combat/turn.md)** |
 |------------------------------|----------------------------------------:|
 | **📏 [Ranged](../rule/combat/ranged.md) 10**  | **🎯 Self and two allies** |
 
@@ -687,7 +687,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 *You inspire your allies to recover and gather their strength.*
 
-| **Area**       |                       **Main action** |
+| **Area**       |                       **[Main action](../rule/combat/turn.md)** |
 |----------------|--------------------------------------:|
 | **📏 3 [burst](../rule/combat/burst.md)** | **🎯 Self and each ally in the area** |
 
@@ -698,7 +698,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 *You push an ally to use a [heroic ability](../rule/general/heroic-ability.md) sooner than they otherwise would.*
 
-| **[Ranged](../rule/combat/ranged.md)**       | **Main action** |
+| **[Ranged](../rule/combat/ranged.md)**       | **[Main action](../rule/combat/turn.md)** |
 |------------------|----------------:|
 | **📏 [Ranged](../rule/combat/ranged.md) 10** | **🎯 One ally** |
 
@@ -729,7 +729,7 @@ Choose one of the following abilities.
 
 *You direct your ally to make a killing blow.*
 
-| **[Ranged](../rule/combat/ranged.md)**       | **Free triggered** |
+| **[Ranged](../rule/combat/ranged.md)**       | **Free [triggered](../rule/combat/triggered-action.md)** |
 |------------------|-------------------:|
 | **📏 [Ranged](../rule/combat/ranged.md) 10** |    **🎯 One ally** |
 
@@ -742,7 +742,7 @@ Choose one of the following abilities.
 
 *You confuse your foes, causing them to turn on each other.*
 
-| **[Melee](../rule/combat/melee.md), [Ranged](../rule/combat/ranged.md), [Strike](../rule/combat/strike.md), Weapon** |      **Main action** |
+| **[Melee](../rule/combat/melee.md), [Ranged](../rule/combat/ranged.md), [Strike](../rule/combat/strike.md), Weapon** |      **[Main action](../rule/combat/turn.md)** |
 |-----------------------------------|---------------------:|
 | **📏 [Melee](../rule/combat/melee.md) 1 or [ranged](../rule/combat/ranged.md) 5**        | **🎯 Two creatures** |
 
@@ -763,7 +763,7 @@ Choose one of the following abilities.
 
 *With new understanding of your foes, you create the perfect plan to win the battle.*
 
-| **[Ranged](../rule/combat/ranged.md)**       |           **Maneuver** |
+| **[Ranged](../rule/combat/ranged.md)**       |           **[Maneuver](../rule/combat/turn.md)** |
 |------------------|-----------------------:|
 | **📏 [Ranged](../rule/combat/ranged.md) 10** | **🎯 Three creatures** |
 
@@ -776,7 +776,7 @@ Choose one of the following abilities.
 
 *You and your allies coordinate to form a new battle line.*
 
-| **Area**       |                          **Maneuver** |
+| **Area**       |                          **[Maneuver](../rule/combat/turn.md)** |
 |----------------|--------------------------------------:|
 | **📏 2 [burst](../rule/combat/burst.md)** | **🎯 Self and each ally in the area** |
 
@@ -791,7 +791,7 @@ Choose one of the following abilities.
 
 *You [parry](../feature/ability/tactician/level-1/parry.md) with almost [supernatural](../rule/general/supernatural.md) [speed](../rule/character/speed.md).*
 
-| **[Melee](../rule/combat/melee.md), Weapon** | **Free triggered** |
+| **[Melee](../rule/combat/melee.md), Weapon** | **Free [triggered](../rule/combat/triggered-action.md)** |
 | ------------------------------------|-------------------:|
 | **📏 [Melee](../rule/combat/melee.md) 1**                   |    **🎯 One ally** |
 
@@ -810,7 +810,7 @@ Choose one of the following abilities.
 
 *You lead your allies in a charge.*
 
-| **Charge, [Melee](../rule/combat/melee.md), [Strike](../rule/combat/strike.md), Weapon** |     **Main action** |
+| **Charge, [Melee](../rule/combat/melee.md), [Strike](../rule/combat/strike.md), Weapon** |     **[Main action](../rule/combat/turn.md)** |
 |-----------------------------------|--------------------:|
 | **📏 [Melee](../rule/combat/melee.md) 1**                    | **🎯 One creature** |
 
@@ -913,7 +913,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 *You direct an attack to strike true.*
 
-| **[Ranged](../rule/combat/ranged.md)**       |         **Main action** |
+| **[Ranged](../rule/combat/ranged.md)**       |         **[Main action](../rule/combat/turn.md)** |
 |------------------|------------------------:|
 | **📏 [Ranged](../rule/combat/ranged.md) 10** | **🎯 Self or one ally** |
 
@@ -924,7 +924,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 *You point out an opening to your ally so they can land a killing blow.*
 
-| **[Ranged](../rule/combat/ranged.md)**       |  **Free triggered** |
+| **[Ranged](../rule/combat/ranged.md)**       |  **Free [triggered](../rule/combat/triggered-action.md)** |
 |------------------|--------------------:|
 | **📏 [Ranged](../rule/combat/ranged.md) 10** | **🎯 One creature** |
 
@@ -937,7 +937,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 *You direct your squad to strike in unison and with devastating effect.*
 
-| **[Ranged](../rule/combat/ranged.md)**       |     **Main action** |
+| **[Ranged](../rule/combat/ranged.md)**       |     **[Main action](../rule/combat/turn.md)** |
 |------------------|--------------------:|
 | **📏 [Ranged](../rule/combat/ranged.md) 10** | **🎯 Three allies** |
 
@@ -948,7 +948,7 @@ Choose one [heroic ability](../rule/general/heroic-ability.md) from the followin
 
 *You create an opening for an ally.*
 
-| **[Melee](../rule/combat/melee.md), [Ranged](../rule/combat/ranged.md), [Strike](../rule/combat/strike.md), Weapon** |     **Main action** |
+| **[Melee](../rule/combat/melee.md), [Ranged](../rule/combat/ranged.md), [Strike](../rule/combat/strike.md), Weapon** |     **[Main action](../rule/combat/turn.md)** |
 |-----------------------------------|--------------------:|
 | **📏 [Melee](../rule/combat/melee.md) 1 or [ranged](../rule/combat/ranged.md) 5**        | **🎯 One creature** |
 
@@ -981,7 +981,7 @@ Choose one of the following abilities.
 
 *I had to pry this secret from the [shadow college](../feature/shadow/level-1/shadow-college.md)s.*
 
-| **[Ranged](../rule/combat/ranged.md)**       |            **Main action** |
+| **[Ranged](../rule/combat/ranged.md)**       |            **[Main action](../rule/combat/turn.md)** |
 |------------------|---------------------------:|
 | **📏 [Ranged](../rule/combat/ranged.md) 10** | **🎯 Self and two allies** |
 
@@ -992,7 +992,7 @@ Choose one of the following abilities.
 
 *You trick your enemies into attacking each other and leave them confused by the aftermath.*
 
-| **Magic, [Ranged](../rule/combat/ranged.md), Weapon** |      **Main action** |
+| **Magic, [Ranged](../rule/combat/ranged.md), Weapon** |      **[Main action](../rule/combat/turn.md)** |
 |---------------------------|---------------------:|
 | **📏 [Ranged](../rule/combat/ranged.md) 10**          | **🎯 Three enemies** |
 
@@ -1013,7 +1013,7 @@ Choose one of the following abilities.
 
 *What makes a good soldier? The ability to fire four shots a minute in any weather.*
 
-| **Area**       |                       **Main action** |
+| **Area**       |                       **[Main action](../rule/combat/turn.md)** |
 |----------------|--------------------------------------:|
 | **📏 3 [burst](../rule/combat/burst.md)** | **🎯 Self and each ally in the area** |
 
@@ -1024,7 +1024,7 @@ Choose one of the following abilities.
 
 *I've identified a way to negate their strengths.*
 
-| **-**       | **Main action** |
+| **-**       | **[Main action](../rule/combat/turn.md)** |
 |-------------|----------------:|
 | **📏 Self** |     **🎯 Self** |
 
@@ -1039,7 +1039,7 @@ Choose one of the following abilities.
 
 *Nothing will stop you from reaching your foe.*
 
-| **Charge, [Melee](../rule/combat/melee.md), [Strike](../rule/combat/strike.md), Weapon** |     **Main action** |
+| **Charge, [Melee](../rule/combat/melee.md), [Strike](../rule/combat/strike.md), Weapon** |     **[Main action](../rule/combat/turn.md)** |
 | --------------------------------- | ------------------: |
 | **📏 [Melee](../rule/combat/melee.md) 1**                    | **🎯 One creature** |
 
@@ -1058,7 +1058,7 @@ Choose one of the following abilities.
 
 *You focus on making an enemy irrelevant.*
 
-| **[Melee](../rule/combat/melee.md), [Ranged](../rule/combat/ranged.md), [Strike](../rule/combat/strike.md), Weapon** |     **Main action** |
+| **[Melee](../rule/combat/melee.md), [Ranged](../rule/combat/ranged.md), [Strike](../rule/combat/strike.md), Weapon** |     **[Main action](../rule/combat/turn.md)** |
 |-----------------------------------|--------------------:|
 | **📏 [Melee](../rule/combat/melee.md) 1 or [ranged](../rule/combat/ranged.md) 5**        | **🎯 One creature** |
 

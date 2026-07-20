@@ -13,7 +13,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *Your [null field](../level-1/null-field.md) absorbs kinetic energy.*
 
-| **Psionic** | **Maneuver** |
+| **Psionic** | **[Maneuver](../../../rule/combat/turn.md)** |
 |-------------|-------------:|
 | **📏 Self** |  **🎯 Self** |
 
@@ -24,7 +24,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *Your enemies' wounds open, your allies' wounds close.*
 
-| **Psionic** | **Maneuver** |
+| **Psionic** | **[Maneuver](../../../rule/combat/turn.md)** |
 |-------------|-------------:|
 | **📏 Self** |  **🎯 Self** |
 
@@ -35,7 +35,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *You project order, making it harder for your enemies to interfere with you and your allies.*
 
-| **Psionic** | **Maneuver** |
+| **Psionic** | **[Maneuver](../../../rule/combat/turn.md)** |
 |-------------|-------------:|
 | **📏 Self** |  **🎯 Self** |
 
@@ -46,7 +46,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *Attacks made by allies in your [null field](../level-1/null-field.md) disrupt your enemies' thoughts, causing psychic pain.*
 
-| **Psionic** | **Maneuver** |
+| **Psionic** | **[Maneuver](../../../rule/combat/turn.md)** |
 |-------------|-------------:|
 | **📏 Self** |  **🎯 Self** |
 

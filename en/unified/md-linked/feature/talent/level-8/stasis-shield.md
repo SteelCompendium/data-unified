@@ -14,7 +14,7 @@ You have the following ability.
 
 *You freeze time just long enough to bring the victim to safety!*
 
-| **Psionic, [Ranged](../../../rule/combat/ranged.md)** |                          **Triggered** |
+| **Psionic, [Ranged](../../../rule/combat/ranged.md)** |                          **[Triggered](../../../rule/combat/triggered-action.md)** |
 |---------------------|---------------------------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**    | **🎯 Self, or one creature or object** |
 

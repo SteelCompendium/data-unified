@@ -7,6 +7,7 @@ file_basename: nixie-corallia
 file_dpath: monster/minion/summoner/fey/statblock
 flavor: Corallias are saltwater nixies with coarse, coral-like skin and curly hair with hooked ends. Their salty tears are used to hallow places of worship and ward off demons.
 free_strike: 7
+free_strike_damage_type: Lightning
 immunities:
     - Lightning R
 intuition: 4

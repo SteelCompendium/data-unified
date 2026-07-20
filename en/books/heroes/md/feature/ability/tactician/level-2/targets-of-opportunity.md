@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: tactician
 cost: 5 Focus
 distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 5'
@@ -18,7 +18,7 @@ type: ability
 
 *You point out easy targets to your friends, allowing them to include more enemies in their attacks.*
 
-| **[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)**      |         **Maneuver** |
+| **[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)**      |         **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 |-----------------|---------------------:|
 | **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 5** | **🎯 Two creatures** |
 

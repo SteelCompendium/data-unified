@@ -16,9 +16,9 @@ keywords:
     - '[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)'
 metadata:
     ability_type: Signature
-    action_type: Main action
+    action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: elementalist
-    content: "\n*Whipping vines erupt from a foe's body to grasp at another close by.*\n\n| **Green, Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)** |      **Main action** |\n|----------------------------------|---------------------:|\n| **\U0001F4CF [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**                 |  **\U0001F3AF One creature** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason):**\n\n- **≤11:** 2 + R damage\n- **12-16:** 5 + R damage\n- **17+:** 7 + R damage\n\n**Effect:** You [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) one creature within 10 squares of the target up to 2 squares."
+    content: "\n*Whipping vines erupt from a foe's body to grasp at another close by.*\n\n| **Green, Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)** |      **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|----------------------------------|---------------------:|\n| **\U0001F4CF [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**                 |  **\U0001F3AF One creature** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason):**\n\n- **≤11:** 2 + R damage\n- **12-16:** 5 + R damage\n- **17+:** 7 + R damage\n\n**Effect:** You [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) one creature within 10 squares of the target up to 2 squares."
     distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
     feature_type: ability
     flavor: Whipping vines erupt from a foe's body to grasp at another close by.
@@ -37,4 +37,4 @@ metadata:
 name: The Green Within, the Green Without
 target: One creature
 type: feature
-usage: Main action
+usage: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'

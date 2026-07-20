@@ -9,9 +9,9 @@ keywords:
     - Magic
     - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'
 metadata:
-    action_type: Maneuver
+    action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: conduit
-    content: "\n*The gods reward those who smite their foes.*\n\n| **Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)**  |     **Maneuver** |\n|--------------------|-----------------:|\n| **\U0001F4CF [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**   | **\U0001F3AF Each ally** |\n\n**Effect:** Until the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), each time a target kills an enemy, they regain [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) equal to 5 + your [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition) score."
+    content: "\n*The gods reward those who smite their foes.*\n\n| **Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)**  |     **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|--------------------|-----------------:|\n| **\U0001F4CF [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**   | **\U0001F3AF Each ally** |\n\n**Effect:** Until the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), each time a target kills an enemy, they regain [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) equal to 5 + your [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition) score."
     distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
     feature_type: ability
     flavor: The gods reward those who smite their foes.
@@ -29,4 +29,4 @@ metadata:
 name: Reap
 target: Each ally
 type: feature
-usage: Maneuver
+usage: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'

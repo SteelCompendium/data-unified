@@ -6,12 +6,14 @@ file_dpath: treasure/2nd-echelon/trinket
 flavor: The blood encrusting this tooth can never be washed off.
 item_id: werewolf-tooth-pendant
 item_name: Werewolf Tooth Pendant
+item_prerequisite: An incisor from a werewolf
 keywords:
     - Magic
     - Neck
 name: Werewolf Tooth Pendant
 project_goal: "300"
 project_roll_characteristic: Might or Intuition
+project_source: Sagas in High Kuric
 scc: mcdm.beastheart.v1/treasure.2nd-echelon.trinket/werewolf-tooth-pendant
 source: mcdm.beastheart.v1
 treasure_type: trinket

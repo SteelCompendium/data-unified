@@ -13,7 +13,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *The evil within your foes detonates with holy fire that burns only the guilty.*
 
-| **Area, Magic** |                  **Maneuver** |
+| **Area, Magic** |                  **[Maneuver](../../../rule/combat/turn.md)** |
 |-----------------|------------------------------:|
 | **📏 2 [aura](../../../rule/combat/aura.md)**   | **🎯 Each enemy in the area** |
 
@@ -24,7 +24,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *Within the area of your divine presence, your enemies will regret using their fell abilities.*
 
-| **Area, Magic** |                  **Maneuver** |
+| **Area, Magic** |                  **[Maneuver](../../../rule/combat/turn.md)** |
 |-----------------|------------------------------:|
 | **📏 2 [aura](../../../rule/combat/aura.md)**   | **🎯 Each enemy in the area** |
 
@@ -35,7 +35,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *You shed a righteous energy that punishes enemies who would harm you or your allies.*
 
-| **Area, Magic** |                  **Maneuver** |
+| **Area, Magic** |                  **[Maneuver](../../../rule/combat/turn.md)** |
 |-----------------|------------------------------:|
 | **📏 2 [aura](../../../rule/combat/aura.md)**   | **🎯 Each enemy in the area** |
 
@@ -46,7 +46,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *The holy [aura](../../../rule/combat/aura.md) you project makes it painful for evil-doers to leave your reach.*
 
-| **Area, Magic** |                  **Maneuver** |
+| **Area, Magic** |                  **[Maneuver](../../../rule/combat/turn.md)** |
 |-----------------|------------------------------:|
 | **📏 2 [aura](../../../rule/combat/aura.md)**   | **🎯 Each enemy in the area** |
 

@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](../../../../rule/combat/turn.md)'
 class: troubadour
 cost: 11 Drama
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
@@ -19,7 +19,7 @@ type: ability
 
 *You narrate the tension of the scene and put all hope into your protagonist to [turn](../../../../rule/combat/turn.md) things around.*
 
-| **Magic, [Ranged](../../../../rule/combat/ranged.md)** |    **Maneuver** |
+| **Magic, [Ranged](../../../../rule/combat/ranged.md)** |    **[Maneuver](../../../../rule/combat/turn.md)** |
 |-------------------|----------------:|
 | **📏 [Ranged](../../../../rule/combat/ranged.md) 10**  | **🎯 One ally** |
 

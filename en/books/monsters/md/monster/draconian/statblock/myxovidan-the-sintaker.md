@@ -33,7 +33,7 @@ type: statblock
 
 > 🗡 **Breaking Palm (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |    **Main action** |
+> | **Melee, Strike, Weapon** |    **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |---------------------------|-------------------:|
 > | **📏 Melee 1**            | **🎯 Two enemies** |
 >
@@ -47,7 +47,7 @@ type: statblock
 
 > ❇️ **Expunging Exhalation**
 >
-> | **Area, Magic** |               **Main action** |
+> | **Area, Magic** |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-----------------|------------------------------:|
 > | **📏 2 burst**  | **🎯 Each enemy in the area** |
 >
@@ -59,7 +59,7 @@ type: statblock
 
 > 🏹 **Step and Swap**
 >
-> | **Ranged**      |    **Maneuver** |
+> | **Ranged**      |    **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-----------------|----------------:|
 > | **📏 Ranged 3** | **🎯 One ally** |
 >
@@ -67,7 +67,7 @@ type: statblock
 
 > ❗️ **Anyone Can Do That (2 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
-> | **-**       | **Triggered action** |
+> | **-**       | **[Triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |
 > |-------------|---------------------:|
 > | **📏 Self** |          **🎯 Self** |
 >

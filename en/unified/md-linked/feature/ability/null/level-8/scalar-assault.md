@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: "null"
 cost: 11 Discipline
 distance: 3 [cube](../../../../rule/combat/cube.md) within 1
@@ -21,7 +21,7 @@ type: ability
 
 *You warp reality to grow a limb for just a moment and make a single devastating attack.*
 
-| **Area, Psionic**      |               **Main action** |
+| **Area, Psionic**      |               **[Main action](../../../../rule/combat/turn.md)** |
 |------------------------|------------------------------:|
 | **📏 3 [cube](../../../../rule/combat/cube.md) within 1** | **🎯 Each enemy in the area** |
 

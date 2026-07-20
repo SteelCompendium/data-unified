@@ -6,12 +6,14 @@ file_dpath: treasure/1st-echelon/trinket
 flavor: A plain white mask is lined with soft black velvet—which smells faintly of blood.
 item_id: mask-of-the-many
 item_name: Mask of the Many
+item_prerequisite: One used death shroud
 keywords:
     - Head
     - Magic
 name: Mask of the Many
 project_goal: "150"
 project_roll_characteristic: '[Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) or [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)'
+project_source: Texts or lore in Caelian
 scc: mcdm.heroes.v1/treasure.1st-echelon.trinket/mask-of-the-many
 source: mcdm.heroes.v1
 treasure_type: trinket

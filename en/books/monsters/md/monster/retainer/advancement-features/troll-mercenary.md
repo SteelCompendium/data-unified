@@ -33,7 +33,7 @@ type: featureblock
 
 > 🗡 **Hangry Frenzy (Encounter)**
 >
-> | **Melee**      |        **Main action** |
+> | **Melee**      |        **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |----------------|-----------------------:|
 > | **📏 Melee 1** | **🎯 Three creatures** |
 >
@@ -43,7 +43,7 @@ type: featureblock
 
 > ❗️ **Fire Bad (Encounter)**
 >
-> | **-**       | **Triggered action** |
+> | **-**       | **[Triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |
 > |-------------|---------------------:|
 > | **📏 Self** |          **🎯 Self** |
 >

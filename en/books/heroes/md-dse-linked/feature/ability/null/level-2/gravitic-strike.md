@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: "null"
 cost: 5 Discipline
 cost_amount: "5"
@@ -45,7 +45,7 @@ keywords:
     - '[Strike](../../../../rule/combat/strike.md)'
     - Weapon
 metadata:
-    action_type: Main action
+    action_type: '[Main action](../../../../rule/combat/turn.md)'
     class: "null"
     cost: 5 Discipline
     distance: '[Melee](../../../../rule/combat/melee.md) 3'
@@ -68,5 +68,5 @@ metadata:
 name: Gravitic Strike
 target: One creature
 type: feature
-usage: Main action
+usage: '[Main action](../../../../rule/combat/turn.md)'
 ```

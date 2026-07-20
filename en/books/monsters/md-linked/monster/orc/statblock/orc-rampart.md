@@ -29,7 +29,7 @@ type: statblock
 
 > 🗡 **My Spear, My Foe ([Signature Ability](../../../rule/combat/signature-ability.md))**
 >
-> | **Melee, Strike, Weapon** |               **Main action** |
+> | **Melee, Strike, Weapon** |               **[Main action](../../../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Melee 1**            | **🎯 One creature or object** |
 >
@@ -43,7 +43,7 @@ type: statblock
 
 > 👤 **Castling**
 >
-> | **-**                  |    **Maneuver** |
+> | **-**                  |    **[Maneuver](../../../rule/combat/turn.md)** |
 > |------------------------|----------------:|
 > | **📏 Self; see below** | **🎯 One ally** |
 >
@@ -51,7 +51,7 @@ type: statblock
 
 > ❗️ **No.**
 >
-> | **-**       | **Triggered action** |
+> | **-**       | **[Triggered action](../../../rule/combat/triggered-action.md)** |
 > |-------------|---------------------:|
 > | **📏 Self** |          **🎯 Self** |
 >

@@ -1,5 +1,5 @@
 ---
-action_type: Triggered
+action_type: '[Triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)'
 class: shadow
 distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 5'
 effect: The target takes half the damage. You remain hidden.
@@ -32,7 +32,7 @@ keywords:
     - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'
     - Weapon
 metadata:
-    action_type: Triggered
+    action_type: '[Triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)'
     class: shadow
     distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 5'
     effect: The target takes half the damage. You remain hidden.
@@ -51,5 +51,5 @@ name: Night Watch
 target: One ally
 trigger: The target takes damage from another creature's ability while you are hidden.
 type: feature
-usage: Triggered
+usage: '[Triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)'
 ```

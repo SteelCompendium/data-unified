@@ -9,9 +9,9 @@ keywords:
     - Magic
     - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'
 metadata:
-    action_type: Maneuver
+    action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: conduit
-    content: "\n*An ally becomes the wearer of an empowered golden cloak.*\n\n| **Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)**         |    **Maneuver** |\n|---------------------------|----------------:|\n| **\U0001F4CF [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**          | **\U0001F3AF One ally** |\n\n**Effect:** The target gains 20 [temporary Stamina](scc.v1:mcdm.heroes.v1/rule.health/temporary-stamina) and 3 [surges](scc.v1:mcdm.heroes.v1/rule.resource/surge)."
+    content: "\n*An ally becomes the wearer of an empowered golden cloak.*\n\n| **Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)**         |    **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|---------------------------|----------------:|\n| **\U0001F4CF [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**          | **\U0001F3AF One ally** |\n\n**Effect:** The target gains 20 [temporary Stamina](scc.v1:mcdm.heroes.v1/rule.health/temporary-stamina) and 3 [surges](scc.v1:mcdm.heroes.v1/rule.resource/surge)."
     distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
     feature_type: ability
     flavor: An ally becomes the wearer of an empowered golden cloak.
@@ -28,4 +28,4 @@ metadata:
 name: Saint's Raiment
 target: One ally
 type: feature
-usage: Maneuver
+usage: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'

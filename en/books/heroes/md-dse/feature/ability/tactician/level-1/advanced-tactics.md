@@ -1,5 +1,5 @@
 ---
-action_type: Triggered
+action_type: '[Triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)'
 class: tactician
 distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
 effect: The target gains 2 [surges](scc.v1:mcdm.heroes.v1/rule.resource/surge), which they can use on the triggering damage.
@@ -34,7 +34,7 @@ flavor: Your leadership aids an ally.
 keywords:
     - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'
 metadata:
-    action_type: Triggered
+    action_type: '[Triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)'
     class: tactician
     distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
     effect: The target gains 2 [surges](scc.v1:mcdm.heroes.v1/rule.resource/surge), which they can use on the triggering damage.
@@ -54,5 +54,5 @@ name: Advanced Tactics
 target: One ally
 trigger: The target deals damage to another creature.
 type: feature
-usage: Triggered
+usage: '[Triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)'
 ```

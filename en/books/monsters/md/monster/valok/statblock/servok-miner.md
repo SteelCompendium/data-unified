@@ -32,7 +32,7 @@ type: statblock
 
 > 🗡 **Drill Press ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 2**            | **🎯 Two creatures or objects** |
 >
@@ -46,7 +46,7 @@ type: statblock
 
 > 🔳 **Unload Rocks (3 Malice)**
 >
-> | **Area**               |                          **Main action** |
+> | **Area**               |                          **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |------------------------|-----------------------------------------:|
 > | **📏 4 cube within 1** | **🎯 Each enemy and object in the area** |
 >
@@ -60,7 +60,7 @@ type: statblock
 
 > 🔳 **Break Ground (5 Malice)**
 >
-> | **Area**                    |                             **Maneuver** |
+> | **Area**                    |                             **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-----------------------------|-----------------------------------------:|
 > | **📏 20 x 1 line within 1** | **🎯 Each enemy and object in the area** |
 >

@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](../../../../rule/combat/turn.md)'
 class: troubadour
 cost: 7 Drama
 cost_amount: "7"
@@ -42,7 +42,7 @@ keywords:
     - Area
     - Magic
 metadata:
-    action_type: Maneuver
+    action_type: '[Maneuver](../../../../rule/combat/turn.md)'
     class: troubadour
     cost: 7 Drama
     distance: 4 [burst](../../../../rule/combat/burst.md)
@@ -63,5 +63,5 @@ metadata:
 name: Extensive Rewrites
 target: Each enemy in the area
 type: feature
-usage: Maneuver
+usage: '[Maneuver](../../../../rule/combat/turn.md)'
 ```

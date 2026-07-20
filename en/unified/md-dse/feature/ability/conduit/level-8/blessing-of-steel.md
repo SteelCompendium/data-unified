@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: conduit
 cost: 11 Piety
 cost_amount: "11"
@@ -34,7 +34,7 @@ keywords:
     - Area
     - Magic
 metadata:
-    action_type: Maneuver
+    action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: conduit
     cost: 11 Piety
     distance: 5 [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura)
@@ -51,5 +51,5 @@ metadata:
 name: Blessing of Steel
 target: Self and each ally in the area
 type: feature
-usage: Maneuver
+usage: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 ```

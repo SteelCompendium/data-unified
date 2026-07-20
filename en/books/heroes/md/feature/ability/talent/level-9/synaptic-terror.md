@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: talent
 cost: 11 Clarity
 distance: 3 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)
@@ -24,7 +24,7 @@ type: ability
 
 *You project a terrifying image into the brains of your foes, and their fear psionically invigorates your allies.*
 
-| **Area, Psionic, Telepathy** |                        **Main action** |
+| **Area, Psionic, Telepathy** |                        **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 |------------------------------|---------------------------------------:|
 | **📏 3 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)**               | **🎯 Each ally and enemy in the area** |
 

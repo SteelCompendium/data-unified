@@ -15,9 +15,9 @@ keywords:
     - '[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)'
     - Weapon
 metadata:
-    action_type: Main action
+    action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: "null"
-    content: "\n*You focus your [null field](scc.v1:mcdm.heroes.v1/feature.null.level-1/null-field) into a pressure point strike that prevents your foe from channeling sorcery.*\n\n| **[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), Psionic, [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), Weapon** |     **Main action** |\n|------------------------------------|--------------------:|\n| **\U0001F4CF [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1**                     | **\U0001F3AF One creature** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility):**\n\n- **≤11:** 13 + A damage; M < WEAK, the target is suppressed (save ends)\n- **12-16:** 19 + A damage; M < AVERAGE, the target is suppressed (save ends)\n- **17+:** 24 + A damage; M < STRONG, the target is suppressed (save ends)\n\n**Effect:** While suppressed, a target takes psychic damage equal to twice your [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition) score at the start of their [turns](scc.v1:mcdm.heroes.v1/rule.combat/turn), whenever they use a [supernatural](scc.v1:mcdm.heroes.v1/rule.general/supernatural) ability, or whenever they use an ability that costs Malice."
+    content: "\n*You focus your [null field](scc.v1:mcdm.heroes.v1/feature.null.level-1/null-field) into a pressure point strike that prevents your foe from channeling sorcery.*\n\n| **[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), Psionic, [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), Weapon** |     **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|------------------------------------|--------------------:|\n| **\U0001F4CF [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1**                     | **\U0001F3AF One creature** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility):**\n\n- **≤11:** 13 + A damage; M < WEAK, the target is suppressed (save ends)\n- **12-16:** 19 + A damage; M < AVERAGE, the target is suppressed (save ends)\n- **17+:** 24 + A damage; M < STRONG, the target is suppressed (save ends)\n\n**Effect:** While suppressed, a target takes psychic damage equal to twice your [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition) score at the start of their [turns](scc.v1:mcdm.heroes.v1/rule.combat/turn), whenever they use a [supernatural](scc.v1:mcdm.heroes.v1/rule.general/supernatural) ability, or whenever they use an ability that costs Malice."
     distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
     feature_type: ability
     flavor: You focus your [null field](scc.v1:mcdm.heroes.v1/feature.null.level-1/null-field) into a pressure point strike that prevents your foe from channeling sorcery.
@@ -36,4 +36,4 @@ metadata:
 name: Arcane Purge
 target: One creature
 type: feature
-usage: Main action
+usage: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'

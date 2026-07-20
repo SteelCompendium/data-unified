@@ -31,7 +31,7 @@ type: statblock
 
 > 🗡 **Sucker Punch (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |               **Main action** |
+> | **Melee, Strike, Weapon** |               **[Main action](../../../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Melee 1**            | **🎯 One creature or object** |
 >
@@ -45,7 +45,7 @@ type: statblock
 
 > ❇️ **Shadow Cloak (3 [Malice](../../../rule/monster/malice.md))**
 >
-> | **Area**       |               **Main action** |
+> | **Area**       |               **[Main action](../../../rule/combat/turn.md)** |
 > |----------------|------------------------------:|
 > | **📏 2 burst** | **🎯 Each enemy in the area** |
 >
@@ -59,7 +59,7 @@ type: statblock
 
 > 🏹 **Carving Dagger**
 >
-> | **Ranged, Strike, Weapon** |                 **Main action** |
+> | **Ranged, Strike, Weapon** |                 **[Main action](../../../rule/combat/turn.md)** |
 > |----------------------------|--------------------------------:|
 > | **📏 Ranged 8**            | **🎯 Two creatures or objects** |
 >
@@ -73,7 +73,7 @@ type: statblock
 
 > 🗡 **Throw**
 >
-> | **Melee, Strike** |                  **Maneuver** |
+> | **Melee, Strike** |                  **[Maneuver](../../../rule/combat/turn.md)** |
 > |-------------------|------------------------------:|
 > | **📏 Melee 1**    | **🎯 One creature or object** |
 >
@@ -83,7 +83,7 @@ type: statblock
 
 > ❗️ **Catcher**
 >
-> | **Melee**      |                **Free triggered action** |
+> | **Melee**      |                **Free [triggered action](../../../rule/combat/triggered-action.md)** |
 > |----------------|-----------------------------------------:|
 > | **📏 Melee 1** | **🎯 The triggering creature or object** |
 >
@@ -93,7 +93,7 @@ type: statblock
 
 > ❗️ **Clever Trick (1 [Malice](../../../rule/monster/malice.md))**
 >
-> | **-**          | **Triggered action** |
+> | **-**          | **[Triggered action](../../../rule/combat/triggered-action.md)** |
 > |----------------|---------------------:|
 > | **📏 Special** |     **🎯 One enemy** |
 >

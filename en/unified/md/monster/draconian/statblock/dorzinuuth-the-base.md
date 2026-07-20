@@ -32,7 +32,7 @@ type: statblock
 
 > 🗡 **Punishing Flail (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 1**            | **🎯 Two creatures or objects** |
 >
@@ -46,7 +46,7 @@ type: statblock
 
 > 🔳 **I'll Cut A Path**
 >
-> | **Area, Weapon**           |                  **Maneuver** |
+> | **Area, Weapon**           |                  **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |----------------------------|------------------------------:|
 > | **📏 5 x 2 line within 1** | **🎯 Each enemy in the area** |
 >
@@ -60,7 +60,7 @@ type: statblock
 
 > ❗️ **Watch Your Six!**
 >
-> | **Melee**      | **Triggered action** |
+> | **Melee**      | **[Triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |
 > |----------------|---------------------:|
 > | **📏 Melee 1** |      **🎯 One ally** |
 >

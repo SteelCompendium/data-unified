@@ -32,7 +32,7 @@ with_captain: +2 bonus to speed
 
 > 🗡 **Dweomer Plume (Signature Ability)**
 >
-> | **Magic, Melee, Strike** |                          **Main action** |
+> | **Magic, Melee, Strike** |                          **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |--------------------------|-----------------------------------------:|
 > | **📏 Melee 2**           | **🎯 One creature or object per minion** |
 >

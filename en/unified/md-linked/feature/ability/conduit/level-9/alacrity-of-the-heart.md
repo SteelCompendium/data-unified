@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](../../../../rule/combat/turn.md)'
 class: conduit
 cost: 11 Piety
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
@@ -19,7 +19,7 @@ type: ability
 
 *You speak inspiring words to a friend and spur them to incredible feats.*
 
-| **Magic, [Ranged](../../../../rule/combat/ranged.md)**  |    **Maneuver** |
+| **Magic, [Ranged](../../../../rule/combat/ranged.md)**  |    **[Maneuver](../../../../rule/combat/turn.md)** |
 |--------------------|----------------:|
 | **📏 [Ranged](../../../../rule/combat/ranged.md) 10** | **🎯 One ally** |
 

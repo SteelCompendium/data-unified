@@ -17,7 +17,7 @@ Choose one of the following abilities.
 
 *You forcibly stuff more moments into a critical point in time, knowing full well you might need to steal some of your own.*
 
-| **Chronopathy, Psionic, [Ranged](../../../rule/combat/ranged.md)** |     **Main action** |
+| **Chronopathy, Psionic, [Ranged](../../../rule/combat/ranged.md)** |     **[Main action](../../../rule/combat/turn.md)** |
 |----------------------------------|--------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 5**                  | **🎯 Three allies** |
 
@@ -36,7 +36,7 @@ Choose one of the following abilities.
 
 *You lean on future heroism to assist you in the now.*
 
-| **Area, Chronopathy, Psionic** |                 **Maneuver** |
+| **Area, Chronopathy, Psionic** |                 **[Maneuver](../../../rule/combat/turn.md)** |
 |--------------------------------|-----------------------------:|
 | **📏 2 [burst](../../../rule/combat/burst.md)**                 | **🎯 Each ally in the area** |
 
@@ -51,7 +51,7 @@ Choose one of the following abilities.
 
 *You precisely manipulate the creatures around you.*
 
-| **Area, Psionic, Telekinesis** |                          **Main action** |
+| **Area, Psionic, Telekinesis** |                          **[Main action](../../../rule/combat/turn.md)** |
 |--------------------------------|-----------------------------------------:|
 | **📏 Special**                 | **🎯 Each enemy and object in the area** |
 
@@ -70,7 +70,7 @@ Choose one of the following abilities.
 
 *Unbridled psionic energy erupts from your body and flashes outward, hurling your foes back.*
 
-| **Area, Psionic, Telekinesis** |                          **Main action** |
+| **Area, Psionic, Telekinesis** |                          **[Main action](../../../rule/combat/turn.md)** |
 |--------------------------------|-----------------------------------------:|
 | **📏 3 [burst](../../../rule/combat/burst.md)**                 | **🎯 Each enemy and object in the area** |
 
@@ -93,7 +93,7 @@ Choose one of the following abilities.
 
 *You fire a telepathic bolt empowered by every consciousness within reach directly into your foe's mind.*
 
-| **Psionic, [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md), Telepathy** |     **Main action** |
+| **Psionic, [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md), Telepathy** |     **[Main action](../../../rule/combat/turn.md)** |
 | ------------------------------------|--------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**  | **🎯 One creature** |
 
@@ -112,7 +112,7 @@ Choose one of the following abilities.
 
 *You project a terrifying image into the brains of your foes, and their fear psionically invigorates your allies.*
 
-| **Area, Psionic, Telepathy** |                        **Main action** |
+| **Area, Psionic, Telepathy** |                        **[Main action](../../../rule/combat/turn.md)** |
 |------------------------------|---------------------------------------:|
 | **📏 3 [burst](../../../rule/combat/burst.md)**               | **🎯 Each ally and enemy in the area** |
 

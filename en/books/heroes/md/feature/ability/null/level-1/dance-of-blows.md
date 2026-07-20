@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: "null"
 distance: 1 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)
 effect: You can [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) one [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) enemy up to a number of squares equal to your [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition) score.
@@ -23,7 +23,7 @@ type: ability
 
 *You strike everywhere at once, tricking an enemy into moving out of position.*
 
-| **Area, Psionic, Weapon** |               **Main action** |
+| **Area, Psionic, Weapon** |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 |---------------------------|------------------------------:|
 | **📏 1 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)**            | **🎯 Each enemy in the area** |
 

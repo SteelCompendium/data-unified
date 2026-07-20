@@ -14,9 +14,9 @@
     "Magic"
   ],
   "metadata": {
-    "action_type": "Maneuver",
+    "action_type": "[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)",
     "class": "censor",
-    "content": "\n*You shed a righteous energy that punishes enemies who would harm you or your allies.*\n\n| **Area, Magic** |                  **Maneuver** |\n|-----------------|------------------------------:|\n| **📏 2 [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura)**   | **🎯 Each enemy in the area** |\n\n**Effect:** Until the end of the encounter or until you are [dying](scc.v1:mcdm.heroes.v1/rule.health/dying), whenever a target makes a [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), they take holy damage equal to twice your [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence) score. A target judged by you takes an extra 2d6 holy damage.",
+    "content": "\n*You shed a righteous energy that punishes enemies who would harm you or your allies.*\n\n| **Area, Magic** |                  **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|-----------------|------------------------------:|\n| **📏 2 [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura)**   | **🎯 Each enemy in the area** |\n\n**Effect:** Until the end of the encounter or until you are [dying](scc.v1:mcdm.heroes.v1/rule.health/dying), whenever a target makes a [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), they take holy damage equal to twice your [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence) score. A target judged by you takes an extra 2d6 holy damage.",
     "distance": "2 [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura)",
     "feature_type": "ability",
     "flavor": "You shed a righteous energy that punishes enemies who would harm you or your allies.",
@@ -36,5 +36,5 @@
   "name": "Edict of Purifying Pacifism",
   "target": "Each enemy in the area",
   "type": "feature",
-  "usage": "Maneuver"
+  "usage": "[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)"
 }

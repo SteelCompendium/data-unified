@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](../../../../rule/combat/turn.md)'
 class: shadow
 cost: 9 Insight
 distance: 4 [burst](../../../../rule/combat/burst.md)
@@ -18,7 +18,7 @@ type: ability
 
 *You [teleport](../../../../movement/teleport.md) your friends in a burst of ash and fire.*
 
-| **Magic**      |                          **Maneuver** |
+| **Magic**      |                          **[Maneuver](../../../../rule/combat/turn.md)** |
 |----------------|--------------------------------------:|
 | **📏 4 [burst](../../../../rule/combat/burst.md)** | **🎯 Self and each ally in the area** |
 

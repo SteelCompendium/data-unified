@@ -22,9 +22,9 @@
     "[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)"
   ],
   "metadata": {
-    "action_type": "Main action",
+    "action_type": "[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)",
     "class": "elementalist",
-    "content": "\n*Your flames dance from kindling to kindling to kindling.*\n\n| **Fire, Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)** |               **Main action** |\n|---------------------------------|------------------------------:|\n| **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**                | **🎯 One creature or object** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason):**\n\n- **≤11:** 8 + R fire damage\n- **12-16:** 13 + R fire damage\n- **17+:** 17 + R fire damage\n\n**Effect:** When the target ends their next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), or if they drop to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) before then, each enemy [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to them takes fire damage equal to twice your [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) score. Each affected enemy then gains this same effect.",
+    "content": "\n*Your flames dance from kindling to kindling to kindling.*\n\n| **Fire, Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)** |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|---------------------------------|------------------------------:|\n| **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**                | **🎯 One creature or object** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason):**\n\n- **≤11:** 8 + R fire damage\n- **12-16:** 13 + R fire damage\n- **17+:** 17 + R fire damage\n\n**Effect:** When the target ends their next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), or if they drop to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) before then, each enemy [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to them takes fire damage equal to twice your [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) score. Each affected enemy then gains this same effect.",
     "distance": "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10",
     "feature_type": "ability",
     "flavor": "Your flames dance from kindling to kindling to kindling.",
@@ -46,5 +46,5 @@
   "name": "Combustion Deferred",
   "target": "One creature or object",
   "type": "feature",
-  "usage": "Main action"
+  "usage": "[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)"
 }

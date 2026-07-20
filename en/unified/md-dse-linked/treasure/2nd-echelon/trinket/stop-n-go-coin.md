@@ -6,11 +6,13 @@ file_dpath: treasure/2nd-echelon/trinket
 flavor: This small, featureless coin is solid green on one side and solid red on the other.
 item_id: stop-n-go-coin
 item_name: Stop-'n-Go Coin
+item_prerequisite: A coin minted during an earthquake
 keywords:
     - Magic
 name: Stop-'n-Go Coin
 project_goal: "300"
 project_roll_characteristic: '[Reason](../../../rule/character/reason.md) or [Intuition](../../../rule/character/intuition.md)'
+project_source: Texts or lore in Caelian
 scc: mcdm.heroes.v1/treasure.2nd-echelon.trinket/stop-n-go-coin
 source: mcdm.heroes.v1
 treasure_type: trinket

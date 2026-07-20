@@ -32,7 +32,7 @@ type: statblock
 
 > 🏹 **Caustic Detonator ([Signature Ability](../../../../rule/combat/signature-ability.md))**
 >
-> | **Magic, Ranged** |               **Main action** |
+> | **Magic, Ranged** |               **[Main action](../../../../rule/combat/turn.md)** |
 > |-------------------|------------------------------:|
 > | **📏 Ranged 10**  | **🎯 One creature or object** |
 >
@@ -52,7 +52,7 @@ type: statblock
 
 > 🏹 **Posthumous Promotion**
 >
-> | **Magic, Ranged** |       **Maneuver** |
+> | **Magic, Ranged** |       **[Maneuver](../../../../rule/combat/turn.md)** |
 > |-------------------|-------------------:|
 > | **📏 Ranged 10**  | **🎯 One war dog** |
 >

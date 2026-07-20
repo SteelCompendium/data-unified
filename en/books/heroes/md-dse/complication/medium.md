@@ -19,7 +19,7 @@ You can perceive ghosts and spirits that others don't sense. These [supernatural
 >
 > *The restless dead speak to you.*
 >
-> | **Magic**   | **Main action** |
+> | **Magic**   | **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-------------|----------------:|
 > | **📏 Self** |     **🎯 Self** |
 >

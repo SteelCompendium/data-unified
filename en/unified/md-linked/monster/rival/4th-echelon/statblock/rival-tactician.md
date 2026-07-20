@@ -29,7 +29,7 @@ type: statblock
 
 > 🏹 **Forward Assault ([Signature Ability](../../../../rule/combat/signature-ability.md))**
 >
-> | **Ranged, Strike, Weapon** |                 **Main action** |
+> | **Ranged, Strike, Weapon** |                 **[Main action](../../../../rule/combat/turn.md)** |
 > |----------------------------|--------------------------------:|
 > | **📏 Ranged 10**           | **🎯 Two creatures or objects** |
 >
@@ -43,7 +43,7 @@ type: statblock
 
 > 🔳 **Guardian From Afar (3 [Malice](../../../../rule/monster/malice.md))**
 >
-> | **Area, Ranged, Weapon** |                 **Main action** |
+> | **Area, Ranged, Weapon** |                 **[Main action](../../../../rule/combat/turn.md)** |
 > |--------------------------|--------------------------------:|
 > | **📏 3 cube within 10**  | **🎯 One creature in the area** |
 >
@@ -57,7 +57,7 @@ type: statblock
 
 > ❗️ **Battlefield Control**
 >
-> | **Ranged**       |        **Triggered action** |
+> | **Ranged**       |        **[Triggered action](../../../../rule/combat/triggered-action.md)** |
 > |------------------|----------------------------:|
 > | **📏 Ranged 10** | **🎯 The triggering enemy** |
 >

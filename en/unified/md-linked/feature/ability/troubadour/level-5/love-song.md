@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](../../../../rule/combat/turn.md)'
 class: troubadour
 cost: 9 Drama
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
@@ -18,7 +18,7 @@ type: ability
 
 *You play a small ditty that plants you inside your target's heart.*
 
-| **Magic, [Ranged](../../../../rule/combat/ranged.md)** |                  **Maneuver** |
+| **Magic, [Ranged](../../../../rule/combat/ranged.md)** |                  **[Maneuver](../../../../rule/combat/turn.md)** |
 |-------------------|------------------------------:|
 | **📏 [Ranged](../../../../rule/combat/ranged.md) 10**  | **🎯 One creature or object** |
 

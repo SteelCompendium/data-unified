@@ -17,7 +17,7 @@ Choose one [signature ability](../../../rule/combat/signature-ability.md) from t
 
 *The heavy impact of your weapon attacks drives your foes ever back.*
 
-| **[Melee](../../../rule/combat/melee.md), [Strike](../../../rule/combat/strike.md), Weapon** |                **Main action** |
+| **[Melee](../../../rule/combat/melee.md), [Strike](../../../rule/combat/strike.md), Weapon** |                **[Main action](../../../rule/combat/turn.md)** |
 |---------------------------|-------------------------------:|
 | **📏 [Melee](../../../rule/combat/melee.md) 1**            |  **🎯 One creature or object** |
 
@@ -32,7 +32,7 @@ Choose one [signature ability](../../../rule/combat/signature-ability.md) from t
 
 *Staying in constant motion helps you slip out of reach after a brutal assault.*
 
-| **[Melee](../../../rule/combat/melee.md), [Strike](../../../rule/combat/strike.md), Weapon** |               **Main action** |
+| **[Melee](../../../rule/combat/melee.md), [Strike](../../../rule/combat/strike.md), Weapon** |               **[Main action](../../../rule/combat/turn.md)** |
 |---------------------------|------------------------------:|
 | **📏 [Melee](../../../rule/combat/melee.md) 1**            | **🎯 One creature or object** |
 
@@ -49,7 +49,7 @@ Choose one [signature ability](../../../rule/combat/signature-ability.md) from t
 
 *You skewer your enemy like a boar upon a spit.*
 
-| **[Melee](../../../rule/combat/melee.md), [Strike](../../../rule/combat/strike.md), Weapon** |                             **Main action** |
+| **[Melee](../../../rule/combat/melee.md), [Strike](../../../rule/combat/strike.md), Weapon** |                             **[Main action](../../../rule/combat/turn.md)** |
 |---------------------------|--------------------------------------------:|
 | **📏 [Melee](../../../rule/combat/melee.md) 1**            | **🎯 One creature of your [size](../../../rule/character/size.md) or smaller** |
 
@@ -64,7 +64,7 @@ Choose one [signature ability](../../../rule/combat/signature-ability.md) from t
 
 *Your reckless assault leaves you tactically vulnerable.*
 
-| **[Melee](../../../rule/combat/melee.md), [Strike](../../../rule/combat/strike.md), Weapon** |               **Main action** |
+| **[Melee](../../../rule/combat/melee.md), [Strike](../../../rule/combat/strike.md), Weapon** |               **[Main action](../../../rule/combat/turn.md)** |
 |---------------------------|------------------------------:|
 | **📏 [Melee](../../../rule/combat/melee.md) 1**            | **🎯 One creature or object** |
 
@@ -89,7 +89,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *You hew about you with your mighty weapon, hurling enemies backward.*
 
-| **Area, [Melee](../../../rule/combat/melee.md), Weapon** |               **Main action** |
+| **Area, [Melee](../../../rule/combat/melee.md), Weapon** |               **[Main action](../../../rule/combat/turn.md)** |
 |-------------------------|------------------------------:|
 | **📏 1 [burst](../../../rule/combat/burst.md)**          | **🎯 Each enemy in the area** |
 
@@ -104,7 +104,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *Your enemies will clear your path—whether they want to or not.*
 
-| **[Melee](../../../rule/combat/melee.md), [Strike](../../../rule/combat/strike.md), Weapon** |     **Main action** |
+| **[Melee](../../../rule/combat/melee.md), [Strike](../../../rule/combat/strike.md), Weapon** |     **[Main action](../../../rule/combat/turn.md)** |
 |---------------------------|--------------------:|
 | **📏 [Melee](../../../rule/combat/melee.md) 1**            | **🎯 One creature** |
 
@@ -121,7 +121,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *Teach them the folly of lining up for you.*
 
-| **[Melee](../../../rule/combat/melee.md), Weapon**      | **Main action** |
+| **[Melee](../../../rule/combat/melee.md), Weapon**      | **[Main action](../../../rule/combat/turn.md)** |
 |------------------------|----------------:|
 | **📏 Self; see below** |     **🎯 Self** |
 
@@ -140,7 +140,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *Hard for them to fight when they're busy holding in their giblets.*
 
-| **[Melee](../../../rule/combat/melee.md), [Strike](../../../rule/combat/strike.md), Weapon** |               **Main action** |
+| **[Melee](../../../rule/combat/melee.md), [Strike](../../../rule/combat/strike.md), Weapon** |               **[Main action](../../../rule/combat/turn.md)** |
 |---------------------------|------------------------------:|
 | **📏 [Melee](../../../rule/combat/melee.md) 1**            | **🎯 One creature or object** |
 
@@ -161,7 +161,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *See how well they fight after you've bled them dry.*
 
-| **[Melee](../../../rule/combat/melee.md), [Strike](../../../rule/combat/strike.md), Weapon**   |               **Main action** |
+| **[Melee](../../../rule/combat/melee.md), [Strike](../../../rule/combat/strike.md), Weapon**   |               **[Main action](../../../rule/combat/turn.md)** |
 |-----------------------------|------------------------------:|
 | **📏 [Melee](../../../rule/combat/melee.md) 1**              | **🎯 One creature or object** |
 
@@ -189,7 +189,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *You unleash a howl that hurls your enemies back.*
 
-| **Area, [Melee](../../../rule/combat/melee.md), Weapon**    |               **Main action** |
+| **Area, [Melee](../../../rule/combat/melee.md), Weapon**    |               **[Main action](../../../rule/combat/turn.md)** |
 |----------------------------|------------------------------:|
 | **📏 5 x 1 line within 1** | **🎯 Each enemy in the area** |
 
@@ -206,7 +206,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *You gut your life force to ensure a foe's demise.*
 
-| **[Melee](../../../rule/combat/melee.md), [Strike](../../../rule/combat/strike.md), Weapon** |     **Main action** |
+| **[Melee](../../../rule/combat/melee.md), [Strike](../../../rule/combat/strike.md), Weapon** |     **[Main action](../../../rule/combat/turn.md)** |
 |---------------------------|--------------------:|
 | **📏 [Melee](../../../rule/combat/melee.md) 1**            | **🎯 One creature** |
 

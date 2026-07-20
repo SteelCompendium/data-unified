@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: "null"
 distance: '[Melee](../../../../rule/combat/melee.md) 1'
 effect: Before the [push](../../../../movement/forced-movement.md) is resolved, you [teleport](../../../../movement/teleport.md) the target to a square [adjacent](../../../../rule/combat/adjacent.md) to you and opposite the one they started in. If the target can't be [teleport](../../../../movement/teleport.md)ed this way, you can't [push](../../../../movement/forced-movement.md) them.
@@ -24,7 +24,7 @@ type: ability
 
 *You step momentarily out of phase as you pull an enemy through you.*
 
-| **[Melee](../../../../rule/combat/melee.md), Psionic, [Strike](../../../../rule/combat/strike.md), Weapon** |               **Main action** |
+| **[Melee](../../../../rule/combat/melee.md), Psionic, [Strike](../../../../rule/combat/strike.md), Weapon** |               **[Main action](../../../../rule/combat/turn.md)** |
 |------------------------------------|------------------------------:|
 | **📏 [Melee](../../../../rule/combat/melee.md) 1**                     | **🎯 One creature or object** |
 

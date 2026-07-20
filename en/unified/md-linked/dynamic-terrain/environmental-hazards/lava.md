@@ -68,7 +68,7 @@ A patch of blisteringly hot molten rock wells up from the ground, threatening an
 
 > ❗️ **Liquid Hot Magma**
 >
-> | **Melee, Strike** |                **Free triggered action** |
+> | **Melee, Strike** |                **Free [triggered action](../../rule/combat/triggered-action.md)** |
 > |-------------------|-----------------------------------------:|
 > | **📏 Melee 1**    | **🎯 The triggering creature or object** |
 >

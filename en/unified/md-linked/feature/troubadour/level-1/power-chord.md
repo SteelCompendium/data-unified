@@ -14,7 +14,7 @@ You have the following ability.
 
 *Your instrument rings true and your music blows everyone away.*
 
-| **Area, Magic** |                  **Maneuver** |
+| **Area, Magic** |                  **[Maneuver](../../../rule/combat/turn.md)** |
 |-----------------|------------------------------:|
 | **📏 2 [burst](../../../rule/combat/burst.md)**  | **🎯 Each enemy in the area** |
 

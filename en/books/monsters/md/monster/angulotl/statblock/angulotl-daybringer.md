@@ -31,7 +31,7 @@ type: statblock
 
 > 🗡 **Acid Grasp (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |  
+> | **Melee, Strike, Weapon** |                 **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 1**            | **🎯 Two creatures or objects** |
 >
@@ -47,7 +47,7 @@ type: statblock
 
 > 👤 **Sun Lamp**
 >
-> | **-**       | **Maneuver** |
+> | **-**       | **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
@@ -55,7 +55,7 @@ type: statblock
 
 > ❗️ **Tongue Slap**
 >
-> | **Melee**      |             **Triggered action** |
+> | **Melee**      |             **[Triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |
 > |----------------|---------------------------------:|
 > | **📏 Melee 5** |              **🎯 One creature** |
 >

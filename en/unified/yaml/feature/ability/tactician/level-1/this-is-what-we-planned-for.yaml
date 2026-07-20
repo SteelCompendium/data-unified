@@ -8,9 +8,9 @@ flavor: All those coordination drills you made them do finally pay off.
 keywords:
     - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'
 metadata:
-    action_type: Maneuver
+    action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: tactician
-    content: "\n*All those coordination drills you made them do finally pay off.*\n\n| **[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)**       |      **Maneuver** |\n|------------------|------------------:|\n| **\U0001F4CF [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10** | **\U0001F3AF Two allies** |\n\n**Effect:** Each target who hasn't acted yet this [combat round](scc.v1:mcdm.heroes.v1/rule.combat/combat-round) can take their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) in any order immediately after yours."
+    content: "\n*All those coordination drills you made them do finally pay off.*\n\n| **[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)**       |      **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|------------------|------------------:|\n| **\U0001F4CF [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10** | **\U0001F3AF Two allies** |\n\n**Effect:** Each target who hasn't acted yet this [combat round](scc.v1:mcdm.heroes.v1/rule.combat/combat-round) can take their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) in any order immediately after yours."
     distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
     feature_type: ability
     flavor: All those coordination drills you made them do finally pay off.
@@ -26,4 +26,4 @@ metadata:
 name: This Is What We Planned For
 target: Two allies
 type: feature
-usage: Maneuver
+usage: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'

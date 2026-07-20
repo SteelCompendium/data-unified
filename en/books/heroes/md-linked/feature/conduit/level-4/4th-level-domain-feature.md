@@ -38,7 +38,7 @@ You have the following ability.
 
 *You project an illusory [aura](../../../rule/combat/aura.md) that makes you and allies harder to notice.*
 
-| **Area, Magic** |                         **Maneuver**  |
+| **Area, Magic** |                         **[Maneuver](../../../rule/combat/turn.md)**  |
 |-----------------|--------------------------------------:|
 | **📏 3 [aura](../../../rule/combat/aura.md)**   | **🎯 Self and each ally in the area** |
 

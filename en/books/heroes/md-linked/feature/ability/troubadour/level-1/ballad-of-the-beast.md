@@ -1,5 +1,5 @@
 ---
-action_type: No action
+action_type: '[No action](../../../../rule/combat/turn.md)'
 class: troubadour
 distance: 5 [aura](../../../../rule/combat/aura.md)
 effect: While this performance is active, each target who starts their [turn](../../../../rule/combat/turn.md) in the area gains 1 [surge](../../../../rule/resource/surge.md).
@@ -19,7 +19,7 @@ type: ability
 
 *Teeth are bare! ♪ Eyes black! ♪ No escaping the beast!♪*
 
-| **Area, Magic, Performance** |                         **No action** |
+| **Area, Magic, Performance** |                         **[No action](../../../../rule/combat/turn.md)** |
 |------------------------------|--------------------------------------:|
 | **📏 5 [aura](../../../../rule/combat/aura.md)**                | **🎯 Self and each ally in the area** |
 

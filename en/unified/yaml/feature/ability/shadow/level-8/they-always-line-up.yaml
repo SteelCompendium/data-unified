@@ -12,9 +12,9 @@ keywords:
     - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'
     - Weapon
 metadata:
-    action_type: Main action
+    action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: shadow
-    content: "\n*You fire a projectile so fast that it passes through a line of foes, hamstringing them.*\n\n| **Area, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged), Weapon**   |               **Main action** |\n|----------------------------|------------------------------:|\n| **\U0001F4CF 5 x 1 line within 5** | **\U0001F3AF Each enemy in the area** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility):**\n\n- **≤11:** 12 damage; M < WEAK, [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)\n- **12-16:** 18 damage; M < AVERAGE, [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)\n- **17+:** 24 damage; M < STRONG, [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)"
+    content: "\n*You fire a projectile so fast that it passes through a line of foes, hamstringing them.*\n\n| **Area, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged), Weapon**   |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|----------------------------|------------------------------:|\n| **\U0001F4CF 5 x 1 line within 5** | **\U0001F3AF Each enemy in the area** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility):**\n\n- **≤11:** 12 damage; M < WEAK, [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)\n- **12-16:** 18 damage; M < AVERAGE, [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)\n- **17+:** 24 damage; M < STRONG, [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)"
     distance: 5 x 1 line within 5
     feature_type: ability
     flavor: You fire a projectile so fast that it passes through a line of foes, hamstringing them.
@@ -32,4 +32,4 @@ metadata:
 name: They Always Line Up
 target: Each enemy in the area
 type: feature
-usage: Main action
+usage: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'

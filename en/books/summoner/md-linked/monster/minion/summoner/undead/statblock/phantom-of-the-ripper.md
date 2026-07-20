@@ -35,7 +35,7 @@ These phantoms puppet the remnants of their corporeal forms. Unlike other spirit
 
 > 🏹 **Plunge of the Knife 2d10 + R (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** | **Main action** |
+> | **Melee, Strike, Weapon** | **[Main action](../../../../../rule/combat/turn.md)** |
 > |---------------------------|----------------:|
 > | **📏 Melee 1** | **🎯 One creature or object per minion** |
 >

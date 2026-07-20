@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: talent
 cost: 5 Clarity
 distance: 1 [burst](../../../../rule/combat/burst.md)
@@ -23,7 +23,7 @@ type: ability
 
 *Everyone get away from me!*
 
-| **Area, Psionic, Telekinesis** |               **Main action** |
+| **Area, Psionic, Telekinesis** |               **[Main action](../../../../rule/combat/turn.md)** |
 |--------------------------------|------------------------------:|
 | **📏 1 [burst](../../../../rule/combat/burst.md)**                 | **🎯 Each enemy in the area** |
 

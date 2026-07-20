@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: censor
 distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
 feature_type: ability
@@ -39,7 +39,7 @@ keywords:
     - '[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)'
     - Weapon
 metadata:
-    action_type: Main action
+    action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: censor
     distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
     flavor: You infuse your weapon with holy magic that makes it difficult for your foe to get away.
@@ -60,5 +60,5 @@ metadata:
 name: Halt Miscreant!
 target: One creature or object
 type: feature
-usage: Main action
+usage: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 ```

@@ -57,7 +57,7 @@ type: featureblock
 
 > 👤 **Big Windup**
 >
-> | **-**       | **Maneuver** |
+> | **-**       | **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
@@ -67,7 +67,7 @@ type: featureblock
 
 > 🗡 **Overhand Swat (Encounter)**
 >
-> | **Melee, Strike, Weapon** |     **Main action** |
+> | **Melee, Strike, Weapon** |     **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |---------------------------|--------------------:|
 > | **📏 Melee 1**            | **🎯 One creature** |
 >
@@ -83,7 +83,7 @@ type: featureblock
 
 > ❇️ **Dizzying Sweep (Encounter)**
 >
-> | **Area, Weapon** |                  **Main action** |
+> | **Area, Weapon** |                  **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |------------------|---------------------------------:|
 > | **📏 1 burst**   | **🎯 Each creature in the area** |
 >

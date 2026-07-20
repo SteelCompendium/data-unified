@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: censor
 distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
 effect: Each time the target willingly moves before the end of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), they take 1 psychic damage for each square they move.
@@ -41,7 +41,7 @@ keywords:
     - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'
     - '[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)'
 metadata:
-    action_type: Main action
+    action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: censor
     distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
     effect: Each time the target willingly moves before the end of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), they take 1 psychic damage for each square they move.
@@ -63,5 +63,5 @@ metadata:
 name: Every Step... Death!
 target: One creature
 type: feature
-usage: Main action
+usage: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 ```

@@ -30,7 +30,7 @@ type: statblock
 
 > 🗡 **Fiery Claws (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](../../../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 1**            | **🎯 Two creatures or objects** |
 >
@@ -44,7 +44,7 @@ type: statblock
 
 > 👤 **Drangolin Plume (5 Malice)**
 >
-> | **-**                  | **Main action** |
+> | **-**                  | **[Main action](../../../rule/combat/turn.md)** |
 > |------------------------|----------------:|
 > | **📏 Self; see below** |     **🎯 Self** |
 >
@@ -52,7 +52,7 @@ type: statblock
 
 > ❇️ **Erupt (3 [Malice](../../../rule/monster/malice.md))**
 >
-> | **Area, Weapon** |                  **Main action** |
+> | **Area, Weapon** |                  **[Main action](../../../rule/combat/turn.md)** |
 > |------------------|---------------------------------:|
 > | **📏 2 burst**   | **🎯 Each creature in the area** |
 >

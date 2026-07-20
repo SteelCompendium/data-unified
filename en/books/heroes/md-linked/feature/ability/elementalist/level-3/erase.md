@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: elementalist
 cost: 7 Essence
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
@@ -24,7 +24,7 @@ type: ability
 
 *With a flick of the wrist, you phase creatures out of existence.*
 
-| **Magic, [Ranged](../../../../rule/combat/ranged.md), [Strike](../../../../rule/combat/strike.md), Void** | **Main action** |
+| **Magic, [Ranged](../../../../rule/combat/ranged.md), [Strike](../../../../rule/combat/strike.md), Void** | **[Main action](../../../../rule/combat/turn.md)** |
 |---------------------------------|----------------:|
 | **📏 [Ranged](../../../../rule/combat/ranged.md) 10**                |  **🎯 Special** |
 

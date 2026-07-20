@@ -278,7 +278,7 @@ Here's how the negotiation with Zola might play out.
 
 **James (playing Korvo, a [shadow](scc.v1:mcdm.heroes.v1/class/shadow)):** *I have a seat and say, "Korvo at your service, Ms. Honeycut. And these here are the finest companions a [polder](scc.v1:mcdm.heroes.v1/ancestry/polder) could ask for: Linn, Jorn, and Val."*
 
-**Director:** *Zola nods to each of you in [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), then says, "You'll excuse me if I dispense with more pleasantries. These days, no place is safe for the Clock. We keep moving. So tell me, what are you here for?"*
+**Director:** *Zola nods to each of you in turn, then says, "You'll excuse me if I dispense with more pleasantries. These days, no place is safe for the Clock. We keep moving. So tell me, what are you here for?"*
 
 **Alyssa (playing Jorn, a [tactician](scc.v1:mcdm.heroes.v1/class/tactician)):** *"We're building an army to take down Saxton once and for all."*
 

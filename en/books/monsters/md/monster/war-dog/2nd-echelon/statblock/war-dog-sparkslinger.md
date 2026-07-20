@@ -33,7 +33,7 @@ with_captain: Lightning spread increases by 1 square
 
 > 🏹 **Galvanic Arc ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
-> | **Magic, Ranged, Strike** |                          **Main action** |
+> | **Magic, Ranged, Strike** |                          **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |---------------------------|-----------------------------------------:|
 > | **📏 Ranged 7**           | **🎯 One creature or object per minion** |
 >

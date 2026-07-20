@@ -72,7 +72,7 @@ A massive wooden wheel is loaded with explosives and rolled toward enemy forces 
 
 > 🌀 **Roll the Wheel**
 >
-> | **Area**       |         **Main action (Adjacent creature)** |
+> | **Area**       |         **[Main action](../../rule/combat/turn.md) (Adjacent creature)** |
 > |----------------|--------------------------------------------:|
 > | **📏 Special** | **🎯 Each creature and object in the area** |
 >

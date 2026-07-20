@@ -6,12 +6,14 @@ file_dpath: treasure/2nd-echelon/trinket
 flavor: A perfectly preserved eyeball hangs unnervingly from a gold chain.
 item_id: evilest-eye
 item_name: Evilest Eye
+item_prerequisite: An eyeball from a pirate captain who drowned at sea
 keywords:
     - Neck
     - Psionic
 name: Evilest Eye
 project_goal: "300"
 project_roll_characteristic: '[Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) or [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)'
+project_source: Texts or lore in Caelian
 scc: mcdm.heroes.v1/treasure.2nd-echelon.trinket/evilest-eye
 source: mcdm.heroes.v1
 treasure_type: trinket

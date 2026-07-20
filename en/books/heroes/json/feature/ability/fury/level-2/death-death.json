@@ -17,9 +17,9 @@
     "Weapon"
   ],
   "metadata": {
-    "action_type": "Main action",
+    "action_type": "[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)",
     "class": "fury",
-    "content": "\n*Your unbridled rage strikes terror in their hearts.*\n\n| **[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), Weapon** |     **Main action** |\n|---------------------------|--------------------:|\n| **📏 [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1**            | **🎯 One creature** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc.v1:mcdm.heroes.v1/rule.character/might):**\n\n- **≤11:** 3 + M damage; P \u003c WEAK, [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) and [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)\n- **12-16:** 5 + M damage; P \u003c AVERAGE, [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) and [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)\n- **17+:** 8 + M damage; P \u003c STRONG, [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) and [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)",
+    "content": "\n*Your unbridled rage strikes terror in their hearts.*\n\n| **[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), Weapon** |     **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|---------------------------|--------------------:|\n| **📏 [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1**            | **🎯 One creature** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc.v1:mcdm.heroes.v1/rule.character/might):**\n\n- **≤11:** 3 + M damage; P \u003c WEAK, [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) and [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)\n- **12-16:** 5 + M damage; P \u003c AVERAGE, [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) and [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)\n- **17+:** 8 + M damage; P \u003c STRONG, [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) and [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)",
     "distance": "[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1",
     "feature_type": "ability",
     "flavor": "Your unbridled rage strikes terror in their hearts.",
@@ -40,5 +40,5 @@
   "name": "Death... Death!",
   "target": "One creature",
   "type": "feature",
-  "usage": "Main action"
+  "usage": "[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)"
 }

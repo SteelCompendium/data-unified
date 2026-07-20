@@ -31,7 +31,7 @@ type: statblock
 
 > 🔳 **Wrecking Ball ([Signature Ability](../../../rule/combat/signature-ability.md))**
 >
-> | **Area, Ranged, Weapon** |                          **Main action** |
+> | **Area, Ranged, Weapon** |                          **[Main action](../../../rule/combat/turn.md)** |
 > |--------------------------|-----------------------------------------:|
 > | **📏 3 cube within 5**   | **🎯 Each enemy and object in the area** |
 >
@@ -43,7 +43,7 @@ type: statblock
 
 > 🗡 **Construction Arm**
 >
-> | **Melee, Strike, Weapon** |               **Main action** |
+> | **Melee, Strike, Weapon** |               **[Main action](../../../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Melee 3**            | **🎯 One creature or object** |
 >
@@ -55,7 +55,7 @@ type: statblock
 
 > 🔳 **Lay the Foundation (3 Malice)**
 >
-> | **Area**                   | **Main action** |
+> | **Area**                   | **[Main action](../../../rule/combat/turn.md)** |
 > |----------------------------|----------------:|
 > | **📏 6 x 3 line within 1** |  **🎯 Special** |
 >
@@ -67,7 +67,7 @@ type: statblock
 
 > 🔳 **Build Wall**
 >
-> | **Area, Ranged**       |   **Maneuver** |
+> | **Area, Ranged**       |   **[Maneuver](../../../rule/combat/turn.md)** |
 > |------------------------|---------------:|
 > | **📏 6 wall within 3** | **🎯 Special** |
 >
@@ -75,7 +75,7 @@ type: statblock
 
 > ❗️ **Sputter (1 Malice)**
 >
-> | **Melee**      |                **Free triggered action** |
+> | **Melee**      |                **Free [triggered action](../../../rule/combat/triggered-action.md)** |
 > |----------------|-----------------------------------------:|
 > | **📏 Melee 3** | **🎯 The triggering creature or object** |
 >

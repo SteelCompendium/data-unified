@@ -16,7 +16,7 @@ Your mentor taught you everything and you trusted them completely until they wen
 >
 > *You unlock the sinister secrets of pain.*
 >
-> | **Magic**   | **Maneuver** |
+> | **Magic**   | **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >

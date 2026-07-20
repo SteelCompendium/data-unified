@@ -16,7 +16,7 @@ You were trained as an officer, but you no longer serve. Whether you fled from a
 >
 > *"Move or die, folks."*
 >
-> | **[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)**       | **Main action** |
+> | **[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)**       | **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |------------------|----------------:|
 > | **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10** | **🎯 One ally** |
 >

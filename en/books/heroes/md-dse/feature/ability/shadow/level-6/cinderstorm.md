@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: shadow
 cost: 9 Insight
 cost_amount: "9"
@@ -33,7 +33,7 @@ flavor: You [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) your friends in 
 keywords:
     - Magic
 metadata:
-    action_type: Maneuver
+    action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: shadow
     cost: 9 Insight
     distance: 4 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)
@@ -50,5 +50,5 @@ metadata:
 name: Cinderstorm
 target: Self and each ally in the area
 type: feature
-usage: Maneuver
+usage: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 ```

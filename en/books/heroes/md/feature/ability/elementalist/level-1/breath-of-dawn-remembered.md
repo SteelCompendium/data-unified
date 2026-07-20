@@ -1,5 +1,5 @@
 ---
-action_type: Triggered
+action_type: '[Triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)'
 class: elementalist
 distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
 effect: The target can spend a [Recovery](scc.v1:mcdm.heroes.v1/rule.health/recoveries).
@@ -22,7 +22,7 @@ type: ability
 
 *The power you channel grants the ability to get back in the fight.*
 
-| **Green, Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)**          |           **Triggered** |
+| **Green, Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)**          |           **[Triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |
 |-----------------------------------|------------------------:|
 | **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**                  | **🎯 Self or one ally** |
 

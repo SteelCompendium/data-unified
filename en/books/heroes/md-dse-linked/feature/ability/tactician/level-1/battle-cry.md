@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](../../../../rule/combat/turn.md)'
 class: tactician
 cost: 3 Focus
 cost_amount: "3"
@@ -38,7 +38,7 @@ flavor: You shout a phrase that galvanizes your team.
 keywords:
     - '[Ranged](../../../../rule/combat/ranged.md)'
 metadata:
-    action_type: Maneuver
+    action_type: '[Maneuver](../../../../rule/combat/turn.md)'
     class: tactician
     cost: 3 Focus
     distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
@@ -57,5 +57,5 @@ metadata:
 name: Battle Cry
 target: Three allies
 type: feature
-usage: Maneuver
+usage: '[Maneuver](../../../../rule/combat/turn.md)'
 ```

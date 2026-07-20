@@ -31,7 +31,7 @@ type: statblock
 
 > 🔳 **Earthwave ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
-> | **Area, Magic, Ranged**     |                  **Main action** |
+> | **Area, Magic, Ranged**     |                  **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-----------------------------|---------------------------------:|
 > | **📏 7 x 2 line within 10** | **🎯 Each creature in the area** |
 >
@@ -47,7 +47,7 @@ type: statblock
 
 > 🔳 **Siegeworks**
 >
-> | **Area, Magic, Ranged** |   **Maneuver** |
+> | **Area, Magic, Ranged** |   **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-------------------------|---------------:|
 > | **📏 5 wall within 10** | **🎯 Special** |
 >

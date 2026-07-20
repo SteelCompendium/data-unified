@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: conduit
 cost: 9 Piety
 distance: 4 [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura)
@@ -19,7 +19,7 @@ type: ability
 
 *A whirlwind of souls of the dead flies around you at your command.*
 
-| **Area, Magic**  |                     **Maneuver** |
+| **Area, Magic**  |                     **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 |------------------|---------------------------------:|
 | **📏 4 [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura)**    | **🎯 Each creature in the area** |
 

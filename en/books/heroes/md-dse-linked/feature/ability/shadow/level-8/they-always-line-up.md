@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: shadow
 cost: 11 Insight
 cost_amount: "11"
@@ -42,7 +42,7 @@ keywords:
     - '[Ranged](../../../../rule/combat/ranged.md)'
     - Weapon
 metadata:
-    action_type: Main action
+    action_type: '[Main action](../../../../rule/combat/turn.md)'
     class: shadow
     cost: 11 Insight
     distance: 5 x 1 line within 5
@@ -63,5 +63,5 @@ metadata:
 name: They Always Line Up
 target: Each enemy in the area
 type: feature
-usage: Main action
+usage: '[Main action](../../../../rule/combat/turn.md)'
 ```

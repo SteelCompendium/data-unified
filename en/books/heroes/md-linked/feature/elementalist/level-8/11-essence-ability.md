@@ -13,7 +13,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *You call forth one of the Great Tree's many splinters to provide for your every need.*
 
-| **Green, Magic, [Ranged](../../../rule/combat/ranged.md)** | **Main action** |
+| **Green, Magic, [Ranged](../../../rule/combat/ranged.md)** | **[Main action](../../../rule/combat/turn.md)** |
 |--------------------------|----------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**         |  **🎯 Special** |
 
@@ -26,7 +26,7 @@ Each enemy who ends their [turn](../../../rule/combat/turn.md) within 3 squares 
 
 *The fire burns hot enough to sear the face of any god watching.*
 
-| **Area, Fire, Magic, [Ranged](../../../rule/combat/ranged.md)** |               **Main action** |
+| **Area, Fire, Magic, [Ranged](../../../rule/combat/ranged.md)** |               **[Main action](../../../rule/combat/turn.md)** |
 |-------------------------------|------------------------------:|
 | **📏 5 [cube](../../../rule/combat/cube.md) within 10**       | **🎯 Each enemy in the area** |
 
@@ -43,7 +43,7 @@ Each enemy who ends their [turn](../../../rule/combat/turn.md) within 3 squares 
 
 *You create a tear in reality that could consume everything.*
 
-| **Area, Magic, [Ranged](../../../rule/combat/ranged.md), Void** | **Main action** |
+| **Area, Magic, [Ranged](../../../rule/combat/ranged.md), Void** | **[Main action](../../../rule/combat/turn.md)** |
 |-------------------------------|----------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**              |  **🎯 Special** |
 
@@ -54,7 +54,7 @@ Each enemy who ends their [turn](../../../rule/combat/turn.md) within 3 squares 
 
 *You stomp your foot and quake the whole world over.*
 
-| **Area, Earth, Magic** |               **Main action** |
+| **Area, Earth, Magic** |               **[Main action](../../../rule/combat/turn.md)** |
 |------------------------|------------------------------:|
 | **📏 5 [burst](../../../rule/combat/burst.md)**         | **🎯 Each enemy in the area** |
 

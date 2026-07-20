@@ -13,7 +13,7 @@ You have the following ability.
 
 *A moment of focus leaves a foe firmly in your sights.*
 
-| **[Ranged](../../../rule/combat/ranged.md)**       |        **Maneuver** |
+| **[Ranged](../../../rule/combat/ranged.md)**       |        **[Maneuver](../../../rule/combat/turn.md)** |
 |------------------|--------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 20** | **🎯 One creature** |
 

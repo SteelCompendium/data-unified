@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: fury
 distance: '[Melee](../../../../rule/combat/melee.md) 1'
 feature_type: ability
@@ -39,7 +39,7 @@ keywords:
     - '[Strike](../../../../rule/combat/strike.md)'
     - Weapon
 metadata:
-    action_type: Main action
+    action_type: '[Main action](../../../../rule/combat/turn.md)'
     class: fury
     distance: '[Melee](../../../../rule/combat/melee.md) 1'
     flavor: The heavy impact of your weapon attacks drives your foes ever back.
@@ -60,5 +60,5 @@ metadata:
 name: Brutal Slam
 target: One creature or object
 type: feature
-usage: Main action
+usage: '[Main action](../../../../rule/combat/turn.md)'
 ```

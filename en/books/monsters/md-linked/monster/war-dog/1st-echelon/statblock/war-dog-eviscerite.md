@@ -30,7 +30,7 @@ type: statblock
 
 > 🗡 **Chainsaw Whip ([Signature Ability](../../../../rule/combat/signature-ability.md))**
 >
-> | **Melee, Strike, Weapon** |                **Main action** |
+> | **Melee, Strike, Weapon** |                **[Main action](../../../../rule/combat/turn.md)** |
 > |---------------------------|-------------------------------:|
 > | **📏 Melee 3**            | **🎯 One creature or object** |
 >
@@ -44,7 +44,7 @@ type: statblock
 
 > 🏹 **Posthumous Promotion**
 >
-> | **Magic, Ranged** |       **Maneuver** |
+> | **Magic, Ranged** |       **[Maneuver](../../../../rule/combat/turn.md)** |
 > |-------------------|-------------------:|
 > | **📏 Ranged 10**  | **🎯 One war dog** |
 >

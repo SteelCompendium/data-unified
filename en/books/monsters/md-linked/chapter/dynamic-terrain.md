@@ -132,7 +132,7 @@ This shallow pool bubbles with acid or some other corrosive liquid.
 
 > ❗️ **Explosive Reaction**
 >
-> | **Area**       |                   **Free triggered action** |
+> | **Area**       |                   **Free [triggered action](../rule/combat/triggered-action.md)** |
 > |----------------|--------------------------------------------:|
 > | **📏 3 burst** | **🎯 Each creature and object in the area** |
 >
@@ -171,7 +171,7 @@ A shallow, frozen patch of water features ice thick enough that it won't break, 
 
 > ❗️ **Slippery Surface**
 >
-> | **Melee, Strike** |                **Free triggered action** |
+> | **Melee, Strike** |                **Free [triggered action](../rule/combat/triggered-action.md)** |
 > |-------------------|-----------------------------------------:|
 > | **📏 Melee 0**    | **🎯 The triggering creature or object** |
 >
@@ -195,7 +195,7 @@ A shallow, frozen patch of water features ice thick enough that it won't break, 
 
 > **Power Roll + 2:**
 >
-> | **Melee, Strike** |                **Free triggered action** |
+> | **Melee, Strike** |                **Free [triggered action](../rule/combat/triggered-action.md)** |
 > |-------------------|-----------------------------------------:|
 > | **📏 Melee 0**    | **🎯 The triggering creature or object** |
 >
@@ -228,7 +228,7 @@ A patch of blisteringly hot molten rock wells up from the ground, threatening an
 
 > ❗️ **Liquid Hot Magma**
 >
-> | **Melee, Strike** |                **Free triggered action** |
+> | **Melee, Strike** |                **Free [triggered action](../rule/combat/triggered-action.md)** |
 > |-------------------|-----------------------------------------:|
 > | **📏 Melee 1**    | **🎯 The triggering creature or object** |
 >
@@ -266,7 +266,7 @@ When this patch of sand is stepped on, it is revealed to be a slurry saturated b
 
 > ❗️ **Grasping Depths**
 >
-> | **Melee, Strike** |                **Free triggered action** |
+> | **Melee, Strike** |                **Free [triggered action](../rule/combat/triggered-action.md)** |
 > |-------------------|-----------------------------------------:|
 > | **📏 Melee 0**    | **🎯 The triggering creature or object** |
 >
@@ -304,7 +304,7 @@ Colorful mushrooms or lovely flowering plants release a cloud of spores or polle
 
 > ❗️ **Sleep Spores**
 >
-> | **Magic, Melee, Strike** |      **Free triggered action** |
+> | **Magic, Melee, Strike** |      **Free [triggered action](../rule/combat/triggered-action.md)** |
 > |--------------------------|-------------------------------:|
 > | **📏 Melee 0**           | **🎯 The triggering creature** |
 >
@@ -356,7 +356,7 @@ A series of sharp stakes have been placed point-out to protect defenders against
 
 > ❗️ **Sticky Stakes**
 >
-> | **Melee, Strike, Weapon** |                **Free triggered action** |
+> | **Melee, Strike, Weapon** |                **Free [triggered action](../rule/combat/triggered-action.md)** |
 > |---------------------------|-----------------------------------------:|
 > | **📏 Melee 0**            | **🎯 The triggering creature or object** |
 >
@@ -396,7 +396,7 @@ A set of spring-loaded steel jaws stands ready to snap shut when stepped on.
 
 > ❗️ **Bear Trap**
 >
-> | **Melee, Strike, Weapon** |                **Free triggered action** |
+> | **Melee, Strike, Weapon** |                **Free [triggered action](../rule/combat/triggered-action.md)** |
 > |---------------------------|-----------------------------------------:|
 > | **📏 Melee 0**            | **🎯 The triggering creature or object** |
 >
@@ -520,7 +520,7 @@ A rope snare is set to grab a target, leaving them hanging upside down.
 
 > ❗️ **Snare**
 >
-> | **Melee, Strike, Weapon** |                **Free triggered action** |
+> | **Melee, Strike, Weapon** |                **Free [triggered action](../rule/combat/triggered-action.md)** |
 > |---------------------------|-----------------------------------------:|
 > | **📏 Melee 0**            | **🎯 The triggering creature or object** |
 >
@@ -567,7 +567,7 @@ A pit dug into the ground is filled with spikes, and camouflaged to avoid detect
 
 > ❗️ **Spike Trap**
 >
-> | **Area, Weapon** |                **Free triggered action** |
+> | **Area, Weapon** |                **Free [triggered action](../rule/combat/triggered-action.md)** |
 > |------------------|-----------------------------------------:|
 > | **📏 Melee 0**   | **🎯 The triggering creature or object** |
 >
@@ -609,7 +609,7 @@ A spinning wooden column is affixed with sharp blades to slash the unwary.
 
 > ❗️ **Spinning Blades**
 >
-> | **Melee, Strike, Weapon** |                **Free triggered action** |
+> | **Melee, Strike, Weapon** |                **Free [triggered action](../rule/combat/triggered-action.md)** |
 > |---------------------------|-----------------------------------------:|
 > | **📏 Melee 1**            | **🎯 The triggering creature or object** |
 >
@@ -633,7 +633,7 @@ A spinning wooden column is affixed with sharp blades to slash the unwary.
 
 > ❗️ **Whirling Flails**
 >
-> | **Melee, Strike, Weapon** |                **Free triggered action** |
+> | **Melee, Strike, Weapon** |                **Free [triggered action](../rule/combat/triggered-action.md)** |
 > |---------------------------|-----------------------------------------:|
 > | **📏 Melee 2**            | **🎯 The triggering creature or object** |
 >
@@ -678,7 +678,7 @@ A concealed dart thrower hurls missiles at short range.
 
 > ❗️ **Dart**
 >
-> | **Ranged, Strike, Weapon** |     **Free triggered action** |
+> | **Ranged, Strike, Weapon** |     **Free [triggered action](../rule/combat/triggered-action.md)** |
 > |----------------------------|------------------------------:|
 > | **📏 Ranged 5**            | **🎯 One creature or object** |
 >
@@ -723,7 +723,7 @@ This stone pillar can be toppled onto unsuspecting foes with the right amount of
 
 > ❗️ **Toppling Pillar**
 >
-> | **Area**                   |                   **Free triggered action** |
+> | **Area**                   |                   **Free [triggered action](../rule/combat/triggered-action.md)** |
 > |----------------------------|--------------------------------------------:|
 > | **📏 4 x 1 line within 1** | **🎯 Each creature and object in the area** |
 >
@@ -768,7 +768,7 @@ A portcullis is hidden in the ceiling of a passage or choke point, waiting to dr
 
 > ❗️ **Heavy Gate**
 >
-> | **Area, Weapon** |                   **Free triggered action** |
+> | **Area, Weapon** |                   **Free [triggered action](../rule/combat/triggered-action.md)** |
 > |------------------|--------------------------------------------:|
 > | **📏 Special**   | **🎯 Each creature and object in the area** |
 >
@@ -876,7 +876,7 @@ A heavy wooden ram drops down or swings into the fray, crushing all in its path.
 
 > ❗️ **Ram**
 >
-> | **Area, Weapon** |                   **Free triggered action** |
+> | **Area, Weapon** |                   **Free [triggered action](../rule/combat/triggered-action.md)** |
 > |------------------|--------------------------------------------:|
 > | **📏 Special**   | **🎯 Each creature and object in the area** |
 >
@@ -973,7 +973,7 @@ A massive humming crystal makes the air around it feel thick.
 
 > ❗️ **Psionic Pulse**
 >
-> | **-**          | **Free triggered action** |
+> | **-**          | **Free [triggered action](../rule/combat/triggered-action.md)** |
 > |----------------|--------------------------:|
 > | **📏 Special** |            **🎯 Special** |
 >
@@ -1030,7 +1030,7 @@ A small wooden cart uses alchemical rockets to launch up to a hundred arrows at 
 
 > 🔳 **Arrow Storm**
 >
-> | **- Area, Ranged, Weapon** |         **Main action (Adjacent creature)** |
+> | **- Area, Ranged, Weapon** |         **[Main action](../rule/combat/turn.md) (Adjacent creature)** |
 > |----------------------------|--------------------------------------------:|
 > | **📏 5 cube within 20**    | **🎯 Each creature and object in the area** |
 >
@@ -1044,7 +1044,7 @@ A small wooden cart uses alchemical rockets to launch up to a hundred arrows at 
 
 > ⭐️ **Reload**
 >
-> | **-**    | **Main action (Adjacent creature)** |
+> | **-**    | **[Main action](../rule/combat/turn.md) (Adjacent creature)** |
 > |----------|------------------------------------:|
 > | **📏 -** |                            **🎯 -** |
 >
@@ -1052,7 +1052,7 @@ A small wooden cart uses alchemical rockets to launch up to a hundred arrows at 
 
 > ⭐️ **Spot**
 >
-> | **-**    | **Main action (Adjacent creature)** |
+> | **-**    | **[Main action](../rule/combat/turn.md) (Adjacent creature)** |
 > |----------|------------------------------------:|
 > | **📏 -** |                            **🎯 -** |
 >
@@ -1060,7 +1060,7 @@ A small wooden cart uses alchemical rockets to launch up to a hundred arrows at 
 
 > ⭐️ **Move**
 >
-> | **-**    | **Main action (Adjacent creature)** |
+> | **-**    | **[Main action](../rule/combat/turn.md) (Adjacent creature)** |
 > |----------|------------------------------------:|
 > | **📏 -** |                            **🎯 -** |
 >
@@ -1074,7 +1074,7 @@ A small wooden cart uses alchemical rockets to launch up to a hundred arrows at 
 
 > 🔳 **Screamers**
 >
-> | **Area, Ranged, Weapon** |         **Main action (Adjacent creature)** |
+> | **Area, Ranged, Weapon** |         **[Main action](../rule/combat/turn.md) (Adjacent creature)** |
 > |--------------------------|--------------------------------------------:|
 > | **📏 5 cube within 20**  | **🎯 Each creature and object in the area** |
 >
@@ -1104,7 +1104,7 @@ A large cauldron of boiling oil stands ready to be poured onto enemies.
 
 > 🔳 **Boiling Oil**
 >
-> | **Area, Weapon**       |         **Main action (Adjacent creature)** |
+> | **Area, Weapon**       |         **[Main action](../rule/combat/turn.md) (Adjacent creature)** |
 > |------------------------|--------------------------------------------:|
 > | **📏 3 cube within 1** | **🎯 Each creature and object in the area** |
 >
@@ -1118,7 +1118,7 @@ A large cauldron of boiling oil stands ready to be poured onto enemies.
 
 > ⭐️ **Reload**
 >
-> | **-**    | **Main action (Adjacent creature)** |
+> | **-**    | **[Main action](../rule/combat/turn.md) (Adjacent creature)** |
 > |----------|------------------------------------:|
 > | **📏 -** |                            **🎯 -** |
 >
@@ -1142,7 +1142,7 @@ This massive counterweighted engine hurls a heavy projectile for a devastating a
 
 > 🔳 **Arcing Shot**
 >
-> | **- Area, Ranged, Weapon** |         **Main action (Adjacent creature)** |
+> | **- Area, Ranged, Weapon** |         **[Main action](../rule/combat/turn.md) (Adjacent creature)** |
 > |----------------------------|--------------------------------------------:|
 > | **📏 3 cube within 20**    | **🎯 Each creature and object in the area** |
 >
@@ -1156,7 +1156,7 @@ This massive counterweighted engine hurls a heavy projectile for a devastating a
 
 > ⭐️ **Reload**
 >
-> | **-**    | **Main action (Adjacent creature)** |
+> | **-**    | **[Main action](../rule/combat/turn.md) (Adjacent creature)** |
 > |----------|-------------------------------------:|
 > | **📏 -** |                             **🎯 -** |
 >
@@ -1164,7 +1164,7 @@ This massive counterweighted engine hurls a heavy projectile for a devastating a
 
 > ⭐️ **Spot**
 >
-> | **-**    | **Main action (Adjacent creature)** |
+> | **-**    | **[Main action](../rule/combat/turn.md) (Adjacent creature)** |
 > |----------|------------------------------------:|
 > | **📏 -** |                            **🎯 -** |
 >
@@ -1172,7 +1172,7 @@ This massive counterweighted engine hurls a heavy projectile for a devastating a
 
 > ⭐️ **Move**
 >
-> | **-**    | **Main action (Adjacent creature)** |
+> | **-**    | **[Main action](../rule/combat/turn.md) (Adjacent creature)** |
 > |----------|------------------------------------:|
 > | **📏 -** |                            **🎯 -** |
 >
@@ -1204,7 +1204,7 @@ A massive wooden wheel is loaded with explosives and rolled toward enemy forces 
 
 > 🌀 **Roll the Wheel**
 >
-> | **Area**       |         **Main action (Adjacent creature)** |
+> | **Area**       |         **[Main action](../rule/combat/turn.md) (Adjacent creature)** |
 > |----------------|--------------------------------------------:|
 > | **📏 Special** | **🎯 Each creature and object in the area** |
 >
@@ -1254,7 +1254,7 @@ A massive crossbow fires thick metal bolts with devastating effect.
 
 > 🏹 **Release Bolt**
 >
-> | **Ranged, Strike, Weapon** | **Main action (Adjacent creature)** |
+> | **Ranged, Strike, Weapon** | **[Main action](../rule/combat/turn.md) (Adjacent creature)** |
 > |----------------------------|------------------------------------:|
 > | **📏 Ranged 20**           |       **🎯 One creature or object** |
 >
@@ -1268,7 +1268,7 @@ A massive crossbow fires thick metal bolts with devastating effect.
 
 > ⭐️ **Reload**
 >
-> | **-**    | **Main action (Adjacent creature)** |
+> | **-**    | **[Main action](../rule/combat/turn.md) (Adjacent creature)** |
 > |----------|------------------------------------:|
 > | **📏 -** |                            **🎯 -** |
 >
@@ -1276,7 +1276,7 @@ A massive crossbow fires thick metal bolts with devastating effect.
 
 > ⭐️ **Spot**
 >
-> | **-**    | **Main action (Adjacent creature)** |
+> | **-**    | **[Main action](../rule/combat/turn.md) (Adjacent creature)** |
 > |----------|------------------------------------:|
 > | **📏 -** |                            **🎯 -** |
 > 
@@ -1284,7 +1284,7 @@ A massive crossbow fires thick metal bolts with devastating effect.
 
 > ⭐️ **Move**
 >
-> | **-**    | **Main action (Adjacent creature)** |
+> | **-**    | **[Main action](../rule/combat/turn.md) (Adjacent creature)** |
 > |----------|------------------------------------:|
 > | **📏 -** |                            **🎯 -** |
 >
@@ -1298,7 +1298,7 @@ A massive crossbow fires thick metal bolts with devastating effect.
 >
 > 🏹 **Chain Bolt**
 >
-> | **Ranged, Strike, Weapon** | **Main action (Adjacent creature)** |
+> | **Ranged, Strike, Weapon** | **[Main action](../rule/combat/turn.md) (Adjacent creature)** |
 > |----------------------------|------------------------------------:|
 > | **📏 Ranged 20**           |       **🎯 One creature or object** |
 >
@@ -1312,7 +1312,7 @@ A massive crossbow fires thick metal bolts with devastating effect.
 >
 > 🏹 **Crank the Chain**
 >
-> | **Ranged, Strike, Weapon** | **Main action (Adjacent creature)** |
+> | **Ranged, Strike, Weapon** | **[Main action](../rule/combat/turn.md) (Adjacent creature)** |
 > |----------------------------|------------------------------------:|
 > | **📏 Ranged 20**           |                 **🎯 One creature** |
 >
@@ -1344,7 +1344,7 @@ A massive metal device uses a bellows system and liquid fuel to shoot out gouts 
 
 > 🔳 **Gout of Flame**
 >
-> | **Area, Weapon**           |         **Main action (Adjacent creature)** |
+> | **Area, Weapon**           |         **[Main action](../rule/combat/turn.md) (Adjacent creature)** |
 > |----------------------------|--------------------------------------------:|
 > | **📏 8 x 2 line within 1** | **🎯 Each creature and object in the area** |
 >
@@ -1358,7 +1358,7 @@ A massive metal device uses a bellows system and liquid fuel to shoot out gouts 
 
 > ⭐️ **Reload**
 >
-> | **-**    | **Main action (Adjacent creature)** |
+> | **-**    | **[Main action](../rule/combat/turn.md) (Adjacent creature)** |
 > |----------|------------------------------------:|
 > | **📏 -** |                            **🎯 -** |
 >
@@ -1366,7 +1366,7 @@ A massive metal device uses a bellows system and liquid fuel to shoot out gouts 
 
 > ⭐️ **Spot**
 >
-> | **-**    | **Main action (Adjacent creature)** |
+> | **-**    | **[Main action](../rule/combat/turn.md) (Adjacent creature)** |
 > |----------|------------------------------------:|
 > | **📏 -** |                            **🎯 -** |
 >
@@ -1374,7 +1374,7 @@ A massive metal device uses a bellows system and liquid fuel to shoot out gouts 
 
 > ⭐️ **Move**
 >
-> | **-**    | **Main action (Adjacent creature)** |
+> | **-**    | **[Main action](../rule/combat/turn.md) (Adjacent creature)** |
 > |----------|------------------------------------:|
 > | **📏 -** |                            **🎯 -** |
 >
@@ -1448,7 +1448,7 @@ A foreboding obelisk shaped of dark stone harrows the minds and spirits of those
 
 > ❗️ **Your Fears Become Manifest**
 >
-> | **Area, Magic** |     **Free triggered action** |
+> | **Area, Magic** |     **Free [triggered action](../rule/combat/triggered-action.md)** |
 > |-----------------|------------------------------:|
 > | **📏 10 burst** | **🎯 Each enemy in the area** |
 >
@@ -1527,7 +1527,7 @@ The throne of A'An, sun god of the Antical Protectorate in what is now Vanigar, 
 
 > 🏹 **Primordial Flare**
 >
-> | **Magic, Ranged, Strike** |                  **Maneuver** |
+> | **Magic, Ranged, Strike** |                  **[Maneuver](../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Ranged 20**          | **🎯 One creature or object** |
 >
@@ -1541,7 +1541,7 @@ The throne of A'An, sun god of the Antical Protectorate in what is now Vanigar, 
 
 > ❗️ **Solar Accretion**
 >
-> | **Magic, Ranged** | **Free triggered action** |
+> | **Magic, Ranged** | **Free [triggered action](../rule/combat/triggered-action.md)** |
 > |-------------------|--------------------------:|
 > | **📏 Ranged 10**  |       **🎯 One creature** |
 >
@@ -1551,7 +1551,7 @@ The throne of A'An, sun god of the Antical Protectorate in what is now Vanigar, 
 
 > ❗️ **Nova**
 >
-> | **Area, Magic** |                   **Free triggered action** |
+> | **Area, Magic** |                   **Free [triggered action](../rule/combat/triggered-action.md)** |
 > |-----------------|--------------------------------------------:|
 > | **📏 10 burst** | **🎯 Each creature and object in the area** |
 >

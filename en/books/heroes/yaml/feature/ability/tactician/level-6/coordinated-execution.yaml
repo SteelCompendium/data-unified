@@ -10,9 +10,9 @@ keywords:
     - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'
 metadata:
     ability_type: Triggered
-    action_type: Free triggered
+    action_type: Free [triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)
     class: tactician
-    content: "\n*You direct your ally to make a killing blow.*\n\n| **[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)**       | **Free triggered** |\n|------------------|-------------------:|\n| **\U0001F4CF [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10** |    **\U0001F3AF One ally** |\n\n**Trigger:** The target uses an ability to deal [rolled damage](scc.v1:mcdm.heroes.v1/rule.damage/rolled-damage) to a creature while hidden.\n\n**Effect:** If the target of the triggering ability is not a leader or solo creature, they are reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina). If the target of the triggering ability is a minion, the entire squad is killed. If the target of the triggering ability is a leader or solo creature, the triggering ability's [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) automatically obtains a tier 3 outcome."
+    content: "\n*You direct your ally to make a killing blow.*\n\n| **[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)**       | **Free [triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |\n|------------------|-------------------:|\n| **\U0001F4CF [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10** |    **\U0001F3AF One ally** |\n\n**Trigger:** The target uses an ability to deal [rolled damage](scc.v1:mcdm.heroes.v1/rule.damage/rolled-damage) to a creature while hidden.\n\n**Effect:** If the target of the triggering ability is not a leader or solo creature, they are reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina). If the target of the triggering ability is a minion, the entire squad is killed. If the target of the triggering ability is a leader or solo creature, the triggering ability's [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) automatically obtains a tier 3 outcome."
     distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
     feature_type: ability
     flavor: You direct your ally to make a killing blow.
@@ -30,4 +30,4 @@ name: Coordinated Execution
 target: One ally
 trigger: The target uses an ability to deal [rolled damage](scc.v1:mcdm.heroes.v1/rule.damage/rolled-damage) to a creature while hidden.
 type: feature
-usage: Free triggered
+usage: Free [triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)

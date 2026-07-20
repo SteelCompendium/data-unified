@@ -9,9 +9,9 @@ keywords:
     - Area
     - Magic
 metadata:
-    action_type: Maneuver
+    action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: censor
-    content: "\n*You anticipate your foes' moves and deny them.*\n\n| **Area, Magic** |                  **Maneuver** |\n|-----------------|------------------------------:|\n| **\U0001F4CF 3 [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura)**   | **\U0001F3AF Each enemy in the area** |\n\n**Effect:** Until the end of the encounter or until you are [dying](scc.v1:mcdm.heroes.v1/rule.health/dying), whenever any target takes a [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action) or a free [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action), that action is negated and the target takes holy damage equal to your [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence) score."
+    content: "\n*You anticipate your foes' moves and deny them.*\n\n| **Area, Magic** |                  **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|-----------------|------------------------------:|\n| **\U0001F4CF 3 [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura)**   | **\U0001F3AF Each enemy in the area** |\n\n**Effect:** Until the end of the encounter or until you are [dying](scc.v1:mcdm.heroes.v1/rule.health/dying), whenever any target takes a [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action) or a free [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action), that action is negated and the target takes holy damage equal to your [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence) score."
     distance: 3 [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura)
     feature_type: ability
     flavor: You anticipate your foes' moves and deny them.
@@ -29,4 +29,4 @@ metadata:
 name: Edict of Peace
 target: Each enemy in the area
 type: feature
-usage: Maneuver
+usage: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'

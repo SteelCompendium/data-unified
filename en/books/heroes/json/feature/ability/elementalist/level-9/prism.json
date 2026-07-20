@@ -14,9 +14,9 @@
     "Void"
   ],
   "metadata": {
-    "action_type": "Main action",
+    "action_type": "[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)",
     "class": "elementalist",
-    "content": "\n*You split your essence, allowing you to cast multiple effects at once.*\n\n| **Magic, Void** | **Main action** |\n|-----------------|----------------:|\n| **📏 Self**     |     **🎯 Self** |\n\n**Effect:** You use up to three [heroic abilities](scc.v1:mcdm.heroes.v1/rule.general/heroic-ability) whose essence costs total 11 or less, spending no additional essence beyond the cost of this ability. You can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to 2 squares between your use of each ability.",
+    "content": "\n*You split your essence, allowing you to cast multiple effects at once.*\n\n| **Magic, Void** | **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|-----------------|----------------:|\n| **📏 Self**     |     **🎯 Self** |\n\n**Effect:** You use up to three [heroic abilities](scc.v1:mcdm.heroes.v1/rule.general/heroic-ability) whose essence costs total 11 or less, spending no additional essence beyond the cost of this ability. You can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to 2 squares between your use of each ability.",
     "distance": "Self",
     "feature_type": "ability",
     "flavor": "You split your essence, allowing you to cast multiple effects at once.",
@@ -36,5 +36,5 @@
   "name": "Prism",
   "target": "Self",
   "type": "feature",
-  "usage": "Main action"
+  "usage": "[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)"
 }

@@ -14,9 +14,9 @@
     "Magic"
   ],
   "metadata": {
-    "action_type": "Maneuver",
+    "action_type": "[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)",
     "class": "conduit",
-    "content": "\n*A protective [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura) defends your allies from harm.*\n\n| **Area, Magic**   |                          **Maneuver** |\n|-------------------|--------------------------------------:|\n| **📏 5 [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura)**     | **🎯 Self and each ally in the area** |\n\n**Effect:** Until the end of the encounter, any [ability roll](scc.v1:mcdm.heroes.v1/rule.dice/ability-roll) made against a target takes a [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) and each target has [damage immunity](scc.v1:mcdm.heroes.v1/rule.damage/damage-immunity) 5.",
+    "content": "\n*A protective [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura) defends your allies from harm.*\n\n| **Area, Magic**   |                          **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|-------------------|--------------------------------------:|\n| **📏 5 [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura)**     | **🎯 Self and each ally in the area** |\n\n**Effect:** Until the end of the encounter, any [ability roll](scc.v1:mcdm.heroes.v1/rule.dice/ability-roll) made against a target takes a [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) and each target has [damage immunity](scc.v1:mcdm.heroes.v1/rule.damage/damage-immunity) 5.",
     "distance": "5 [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura)",
     "feature_type": "ability",
     "flavor": "A protective [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura) defends your allies from harm.",
@@ -36,5 +36,5 @@
   "name": "Blessing of Steel",
   "target": "Self and each ally in the area",
   "type": "feature",
-  "usage": "Maneuver"
+  "usage": "[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)"
 }

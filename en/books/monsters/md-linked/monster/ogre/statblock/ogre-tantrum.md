@@ -30,7 +30,7 @@ with_captain: +5 bonus to ranged distance
 
 > 🏹 **Throw Fit ([Signature Ability](../../../rule/combat/signature-ability.md))**
 >
-> | **Ranged, Strike, Weapon** |                          **Main action** |
+> | **Ranged, Strike, Weapon** |                          **[Main action](../../../rule/combat/turn.md)** |
 > |----------------------------|-----------------------------------------:|
 > | **📏 Ranged 8**            | **🎯 One creature or object per minion** |
 >

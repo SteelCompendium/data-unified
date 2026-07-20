@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](../../../../rule/combat/turn.md)'
 class: talent
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
 effect: You [slide](../../../../movement/forced-movement.md) the target up to a number of squares equal to your [Reason](../../../../rule/character/reason.md) score.
@@ -34,7 +34,7 @@ keywords:
     - Psionic
     - '[Ranged](../../../../rule/combat/ranged.md)'
 metadata:
-    action_type: Maneuver
+    action_type: '[Maneuver](../../../../rule/combat/turn.md)'
     class: talent
     distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
     effect: You [slide](../../../../movement/forced-movement.md) the target up to a number of squares equal to your [Reason](../../../../rule/character/reason.md) score.
@@ -52,5 +52,5 @@ metadata:
 name: Minor Telekinesis
 target: Self or one [size](../../../../rule/character/size.md) 1 creature or object
 type: feature
-usage: Maneuver
+usage: '[Maneuver](../../../../rule/combat/turn.md)'
 ```

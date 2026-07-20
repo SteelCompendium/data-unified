@@ -6,12 +6,14 @@ file_dpath: treasure/1st-echelon/trinket
 flavor: This yellow rubbery hooded cloak is emblazoned with a golden Anjali sigil meaning "lightning."
 item_id: color-cloak-yellow
 item_name: Color Cloak (Yellow)
+item_prerequisite: A pint of yellow ichor, soul chalk
 keywords:
     - Magic
     - Neck
 name: Color Cloak (Yellow)
 project_goal: "150"
 project_roll_characteristic: '[Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) or [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)'
+project_source: Licensing agreements in Anjali
 scc: mcdm.heroes.v1/treasure.1st-echelon.trinket/color-cloak-yellow
 source: mcdm.heroes.v1
 treasure_type: trinket

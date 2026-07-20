@@ -1,5 +1,5 @@
 ---
-action_type: Triggered
+action_type: '[Triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)'
 class: shadow
 distance: Self
 effect: You take half the damage, then can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) up to 4 squares after the triggering effect resolves.
@@ -34,7 +34,7 @@ flavor: You vanish in a plume of black smoke to avoid danger.
 keywords:
     - Magic
 metadata:
-    action_type: Triggered
+    action_type: '[Triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)'
     class: shadow
     distance: Self
     effect: You take half the damage, then can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) up to 4 squares after the triggering effect resolves.
@@ -54,5 +54,5 @@ name: In All This Confusion
 target: Self
 trigger: You take damage.
 type: feature
-usage: Triggered
+usage: '[Triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)'
 ```

@@ -32,7 +32,7 @@ type: statblock
 
 > 🏹 **Lightning Bolt (Signature Ability)**
 >
-> | **Magic, Ranged, Strike** |               **Main action** |
+> | **Magic, Ranged, Strike** |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |---------------------------|------------------------------:|
 > | **📏 Ranged 15**          | **🎯 One creature or object** |
 >
@@ -46,7 +46,7 @@ type: statblock
 
 > 🔳 **Gust of Wind (3 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
-> | **Area, Magic**        |                             **Maneuver** |
+> | **Area, Magic**        |                             **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |------------------------|-----------------------------------------:|
 > | **📏 5 cube within 1** | **🎯 Each enemy and object in the area** |
 >

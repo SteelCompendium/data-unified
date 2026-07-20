@@ -13,7 +13,7 @@ You channel your will to mend your wounds or the wounds of your allies. You have
 
 *You channel some of your vitality into more resilience for you or an ally.*
 
-| **Magic, [Ranged](../../../rule/combat/ranged.md)** |           **Triggered** |
+| **Magic, [Ranged](../../../rule/combat/ranged.md)** |           **[Triggered](../../../rule/combat/triggered-action.md)** |
 |-------------------|------------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**  | **🎯 Self or one ally** |
 

@@ -30,7 +30,7 @@ type: statblock
 
 > 🔳 **Ripper Shrikegun ([Signature Ability](../../../../rule/combat/signature-ability.md))**
 >
-> | **Area, Weapon**            |               **Main action** |
+> | **Area, Weapon**            |               **[Main action](../../../../rule/combat/turn.md)** |
 > |-----------------------------|------------------------------:|
 > | **📏 10 x 3 line within 1** | **🎯 Each enemy in the area** |
 >
@@ -48,7 +48,7 @@ type: statblock
 
 > 👤 **Expanding Doom (4 [Malice](../../../../rule/monster/malice.md))**
 >
-> | **-**       | **Maneuver** |
+> | **-**       | **[Maneuver](../../../../rule/combat/turn.md)** |
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >

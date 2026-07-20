@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](../../../../rule/combat/turn.md)'
 class: talent
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
 effect: The target shifts up to a number of squares equal to your [Reason](../../../../rule/character/reason.md) score.
@@ -19,7 +19,7 @@ type: ability
 
 *To your ally, it seems as though the world has slowed down.*
 
-| **Psionic, [Ranged](../../../../rule/combat/ranged.md)** |                **Maneuver** |
+| **Psionic, [Ranged](../../../../rule/combat/ranged.md)** |                **[Maneuver](../../../../rule/combat/turn.md)** |
 |---------------------|----------------------------:|
 | **📏 [Ranged](../../../../rule/combat/ranged.md) 10**    | **🎯 Self or one creature** |
 

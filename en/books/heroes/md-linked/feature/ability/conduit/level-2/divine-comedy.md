@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](../../../../rule/combat/turn.md)'
 class: conduit
 cost: 5 Piety
 distance: 5 [burst](../../../../rule/combat/burst.md)
@@ -19,7 +19,7 @@ type: ability
 
 *You and your allies swap places to confound your foes.*
 
-| **Area, Magic**  |                          **Maneuver** |
+| **Area, Magic**  |                          **[Maneuver](../../../../rule/combat/turn.md)** |
 |------------------|--------------------------------------:|
 | **📏 5 [burst](../../../../rule/combat/burst.md)**   | **🎯 Self and each ally in the area** |
 

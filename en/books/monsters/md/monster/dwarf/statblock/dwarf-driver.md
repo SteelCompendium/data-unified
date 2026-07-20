@@ -30,7 +30,7 @@ with_captain: +2 bonus to Stamina
 
 > ⚔️ **Handaxes (Signature Ability)**
 >
-> | **Charge, Melee, Ranged, Strike, Weapon** |                          **Main action** |
+> | **Charge, Melee, Ranged, Strike, Weapon** |                          **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-------------------------------------------|-----------------------------------------:|
 > | **📏 Melee 1 or ranged 5**                | **🎯 One creature or object per minion** |
 >

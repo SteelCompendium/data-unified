@@ -57,7 +57,7 @@ The hag utters terrible words that [push](../../movement/forced-movement.md) eac
 
 > 🔳 **Hag Wyrd (5 [Malice](../../rule/monster/malice.md))**
 >
-> | **Area, Magic**             |               **Main action** |
+> | **Area, Magic**             |               **[Main action](../../rule/combat/turn.md)** |
 > |-----------------------------|------------------------------:|
 > | **📏 10 x 1 line within 1** | **🎯 Each enemy in the area** |
 >
@@ -79,7 +79,7 @@ The hag utters terrible words that [push](../../movement/forced-movement.md) eac
 
 > 🔳 **Kick (Signature Ability)**
 >
-> | **Area, Ranged, Weapon** |               **Main action** |
+> | **Area, Ranged, Weapon** |               **[Main action](../../rule/combat/turn.md)** |
 > |--------------------------|------------------------------:|
 > | **📏 2 cube within 2**   | **🎯 Each enemy in the area** |
 >

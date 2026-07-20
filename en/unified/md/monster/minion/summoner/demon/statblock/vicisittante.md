@@ -3,6 +3,7 @@ agility: 4
 cost: 7 essence for two minions
 flavor: It's difficult to identify the base nature of a vicisittante apart from an ever-changing mass of burning flesh. Any surface they touch immediately scars as the demon leaves parts of themselves behind.
 free_strike: 7
+free_strike_damage_type: Psychic
 immunities: []
 intuition: 0
 keywords:
@@ -35,7 +36,7 @@ It's difficult to identify the base nature of a vicisittante apart from an ever-
 
 > 🏹 **Cerebral Flay 2d10 + R (Signature Ability)**
 >
-> | **Melee, Psionic, Strike** | **Main action** |
+> | **Melee, Psionic, Strike** | **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |----------------------------|----------------:|
 > | **📏 Melee 1** | **🎯 One creature or object per minion** |
 >

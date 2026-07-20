@@ -6,12 +6,14 @@ file_dpath: treasure/1st-echelon/consumable
 flavor: This tiny compact holds a colorless powder with the slightest astringent smell.
 item_id: professor-veratismos-quaff-n-huff-snuff
 item_name: Professor Veratismo's Quaff 'n Huff Snuff
+item_prerequisite: The roots of a just-budded nightshade
 keywords:
     - Potion
     - Psionic
 name: Professor Veratismo's Quaff 'n Huff Snuff
 project_goal: "45"
 project_roll_characteristic: '[Reason](scc.v1:mcdm.heroes.v1/rule.character/reason)'
+project_source: Texts or lore in Caelian
 scc: mcdm.heroes.v1/treasure.1st-echelon.consumable/professor-veratismos-quaff-n-huff-snuff
 source: mcdm.heroes.v1
 treasure_type: consumable

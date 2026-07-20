@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: shadow
 cost: 11 Insight
 distance: Self; see below
@@ -24,7 +24,7 @@ type: ability
 
 *You tumble through the battle, stabbing foes and [teleporting](scc.v1:mcdm.heroes.v1/movement/teleport) allies.*
 
-| **Magic, [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), Weapon** | **Main action** |
+| **Magic, [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), Weapon** | **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 |--------------------------|----------------:|
 | **📏 Self; see below**   |     **🎯 Self** |
 

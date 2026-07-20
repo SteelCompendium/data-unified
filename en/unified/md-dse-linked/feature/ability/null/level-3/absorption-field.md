@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](../../../../rule/combat/turn.md)'
 class: "null"
 cost: 7 Discipline
 cost_amount: "7"
@@ -32,7 +32,7 @@ flavor: Your [null field](../../../null/level-1/null-field.md) absorbs kinetic e
 keywords:
     - Psionic
 metadata:
-    action_type: Maneuver
+    action_type: '[Maneuver](../../../../rule/combat/turn.md)'
     class: "null"
     cost: 7 Discipline
     distance: Self
@@ -48,5 +48,5 @@ metadata:
 name: Absorption Field
 target: Self
 type: feature
-usage: Maneuver
+usage: '[Maneuver](../../../../rule/combat/turn.md)'
 ```

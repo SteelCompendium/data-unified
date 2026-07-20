@@ -21,9 +21,9 @@
     "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)"
   ],
   "metadata": {
-    "action_type": "Maneuver",
+    "action_type": "[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)",
     "class": "talent",
-    "content": "\n*Time slows down around you. Your heartbeat is the only gauge of the extra moments you've gained.*\n\n| **Chronopathy, Psionic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)** |   **Maneuver** |\n|----------------------------------|---------------:|\n| **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**                 | **🎯 Special** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence):**\n\n- **≤11:** You target two creatures, one of which can be you.\n- **12-16:** You target three creatures, one of which can be you.\n- **17+:** You target four creatures, one of which can be you.\n\n**Effect:** Until the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), each target gains a +5 [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to [speed](scc.v1:mcdm.heroes.v1/rule.character/speed), they can't be made [dazed](scc.v1:mcdm.heroes.v1/condition/dazed), and they can use an additional maneuver on their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn). If a target is already [dazed](scc.v1:mcdm.heroes.v1/condition/dazed), that [condition](scc.v1:mcdm.heroes.v1/rule.combat/condition) ends for them.\n\n**Strained:** Your [speed](scc.v1:mcdm.heroes.v1/rule.character/speed) is halved until the end of the encounter.",
+    "content": "\n*Time slows down around you. Your heartbeat is the only gauge of the extra moments you've gained.*\n\n| **Chronopathy, Psionic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)** |   **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|----------------------------------|---------------:|\n| **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**                 | **🎯 Special** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence):**\n\n- **≤11:** You target two creatures, one of which can be you.\n- **12-16:** You target three creatures, one of which can be you.\n- **17+:** You target four creatures, one of which can be you.\n\n**Effect:** Until the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), each target gains a +5 [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to [speed](scc.v1:mcdm.heroes.v1/rule.character/speed), they can't be made [dazed](scc.v1:mcdm.heroes.v1/condition/dazed), and they can use an additional maneuver on their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn). If a target is already [dazed](scc.v1:mcdm.heroes.v1/condition/dazed), that [condition](scc.v1:mcdm.heroes.v1/rule.combat/condition) ends for them.\n\n**Strained:** Your [speed](scc.v1:mcdm.heroes.v1/rule.character/speed) is halved until the end of the encounter.",
     "distance": "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10",
     "feature_type": "ability",
     "flavor": "Time slows down around you. Your heartbeat is the only gauge of the extra moments you've gained.",
@@ -45,5 +45,5 @@
   "name": "Applied Chronometrics",
   "target": "Special",
   "type": "feature",
-  "usage": "Maneuver"
+  "usage": "[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)"
 }

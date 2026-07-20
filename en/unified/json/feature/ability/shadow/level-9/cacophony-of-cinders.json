@@ -21,9 +21,9 @@
     "Weapon"
   ],
   "metadata": {
-    "action_type": "Main action",
+    "action_type": "[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)",
     "class": "shadow",
-    "content": "\n*You tumble through the battle, stabbing foes and [teleporting](scc.v1:mcdm.heroes.v1/movement/teleport) allies.*\n\n| **Magic, [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), Weapon** | **Main action** |\n|--------------------------|----------------:|\n| **📏 Self; see below**   |     **🎯 Self** |\n\n**Effect:** You [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to twice your [speed](scc.v1:mcdm.heroes.v1/rule.character/speed), making one [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) that targets each creature you come [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to during the [shift](scc.v1:mcdm.heroes.v1/movement/shifting).\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility):**\n\n- **≤11:** An enemy takes 6 damage; an ally can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) up to 3 squares.\n- **12-16:** An enemy takes 10 damage; an ally can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) up to 5 squares.\n- **17+:** An enemy takes 14 damage; an ally can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) up to 7 squares.",
+    "content": "\n*You tumble through the battle, stabbing foes and [teleporting](scc.v1:mcdm.heroes.v1/movement/teleport) allies.*\n\n| **Magic, [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), Weapon** | **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|--------------------------|----------------:|\n| **📏 Self; see below**   |     **🎯 Self** |\n\n**Effect:** You [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to twice your [speed](scc.v1:mcdm.heroes.v1/rule.character/speed), making one [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) that targets each creature you come [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to during the [shift](scc.v1:mcdm.heroes.v1/movement/shifting).\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility):**\n\n- **≤11:** An enemy takes 6 damage; an ally can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) up to 3 squares.\n- **12-16:** An enemy takes 10 damage; an ally can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) up to 5 squares.\n- **17+:** An enemy takes 14 damage; an ally can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) up to 7 squares.",
     "distance": "Self; see below",
     "feature_type": "ability",
     "flavor": "You tumble through the battle, stabbing foes and [teleporting](scc.v1:mcdm.heroes.v1/movement/teleport) allies.",
@@ -45,5 +45,5 @@
   "name": "Cacophony of Cinders",
   "target": "Self",
   "type": "feature",
-  "usage": "Main action"
+  "usage": "[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)"
 }

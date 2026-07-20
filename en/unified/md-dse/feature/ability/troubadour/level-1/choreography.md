@@ -1,5 +1,5 @@
 ---
-action_type: No action
+action_type: '[No action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: troubadour
 distance: 5 [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura)
 effect: While this performance is active, each target who starts their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) in the area gains a +2 [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to [speed](scc.v1:mcdm.heroes.v1/rule.character/speed) until the end of their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn).
@@ -32,7 +32,7 @@ keywords:
     - Magic
     - Performance
 metadata:
-    action_type: No action
+    action_type: '[No action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: troubadour
     distance: 5 [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura)
     effect: While this performance is active, each target who starts their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) in the area gains a +2 [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to [speed](scc.v1:mcdm.heroes.v1/rule.character/speed) until the end of their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn).
@@ -49,5 +49,5 @@ metadata:
 name: Choreography
 target: Self and each ally in the area
 type: feature
-usage: No action
+usage: '[No action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 ```

@@ -16,9 +16,9 @@ keywords:
     - '[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)'
     - Void
 metadata:
-    action_type: Main action
+    action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: elementalist
-    content: "\n*Fungal spores sprout inside your enemy's brain, allowing you to control their actions.*\n\n| **Green, Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), Void** |     **Main action** |\n|----------------------------------------|--------------------:|\n| **\U0001F4CF [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**                       | **\U0001F3AF One creature** |\n\n**Effect:** The target uses their [signature ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability) against a creature of your choice. This [signature ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability) can target the creature even if it usually wouldn't. You then make a [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) against the target of this ability.\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason):**\n\n- **≤11:** 5 + R poison damage\n- **12-16:** 9 + R poison damage\n- **17+:** 12 + R poison damage"
+    content: "\n*Fungal spores sprout inside your enemy's brain, allowing you to control their actions.*\n\n| **Green, Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), Void** |     **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|----------------------------------------|--------------------:|\n| **\U0001F4CF [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**                       | **\U0001F3AF One creature** |\n\n**Effect:** The target uses their [signature ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability) against a creature of your choice. This [signature ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability) can target the creature even if it usually wouldn't. You then make a [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) against the target of this ability.\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason):**\n\n- **≤11:** 5 + R poison damage\n- **12-16:** 9 + R poison damage\n- **17+:** 12 + R poison damage"
     distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
     feature_type: ability
     flavor: Fungal spores sprout inside your enemy's brain, allowing you to control their actions.
@@ -38,4 +38,4 @@ metadata:
 name: Subvert the Green Within
 target: One creature
 type: feature
-usage: Main action
+usage: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'

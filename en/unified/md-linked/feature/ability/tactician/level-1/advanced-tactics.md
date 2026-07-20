@@ -1,5 +1,5 @@
 ---
-action_type: Triggered
+action_type: '[Triggered](../../../../rule/combat/triggered-action.md)'
 class: tactician
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
 effect: The target gains 2 [surges](../../../../rule/resource/surge.md), which they can use on the triggering damage.
@@ -20,7 +20,7 @@ type: ability
 
 *Your leadership aids an ally.*
 
-| **[Ranged](../../../../rule/combat/ranged.md)**       |   **Triggered** |
+| **[Ranged](../../../../rule/combat/ranged.md)**       |   **[Triggered](../../../../rule/combat/triggered-action.md)** |
 |------------------|----------------:|
 | **📏 [Ranged](../../../../rule/combat/ranged.md) 10** | **🎯 One ally** |
 

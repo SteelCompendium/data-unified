@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: elementalist
 cost: 11 Essence
 cost_amount: "11"
@@ -34,7 +34,7 @@ keywords:
     - Magic
     - Void
 metadata:
-    action_type: Main action
+    action_type: '[Main action](../../../../rule/combat/turn.md)'
     class: elementalist
     cost: 11 Essence
     distance: Self
@@ -51,5 +51,5 @@ metadata:
 name: Prism
 target: Self
 type: feature
-usage: Main action
+usage: '[Main action](../../../../rule/combat/turn.md)'
 ```

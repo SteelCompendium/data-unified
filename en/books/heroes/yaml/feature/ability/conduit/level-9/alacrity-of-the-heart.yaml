@@ -9,9 +9,9 @@ keywords:
     - Magic
     - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'
 metadata:
-    action_type: Maneuver
+    action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: conduit
-    content: "\n*You speak inspiring words to a friend and spur them to incredible feats.*\n\n| **Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)**  |    **Maneuver** |\n|--------------------|----------------:|\n| **\U0001F4CF [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10** | **\U0001F3AF One ally** |\n\n**Effect:** The target has an additional main action they can use on their next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), and gains 3 of their [Heroic Resource](scc.v1:mcdm.heroes.v1/rule.resource/heroic-resource)."
+    content: "\n*You speak inspiring words to a friend and spur them to incredible feats.*\n\n| **Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)**  |    **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|--------------------|----------------:|\n| **\U0001F4CF [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10** | **\U0001F3AF One ally** |\n\n**Effect:** The target has an additional main action they can use on their next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), and gains 3 of their [Heroic Resource](scc.v1:mcdm.heroes.v1/rule.resource/heroic-resource)."
     distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
     feature_type: ability
     flavor: You speak inspiring words to a friend and spur them to incredible feats.
@@ -29,4 +29,4 @@ metadata:
 name: Alacrity of the Heart
 target: One ally
 type: feature
-usage: Maneuver
+usage: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'

@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: shadow
 cost: 5 Insight
 distance: '[Ranged](../../../../rule/combat/ranged.md) 5'
@@ -22,7 +22,7 @@ type: ability
 
 *Your friends will thank you.*
 
-| **[Ranged](../../../../rule/combat/ranged.md), [Strike](../../../../rule/combat/strike.md), Weapon** |     **Main action** |
+| **[Ranged](../../../../rule/combat/ranged.md), [Strike](../../../../rule/combat/strike.md), Weapon** |     **[Main action](../../../../rule/combat/turn.md)** |
 |----------------------------|--------------------:|
 | **📏 [Ranged](../../../../rule/combat/ranged.md) 5**            | **🎯 One creature** |
 

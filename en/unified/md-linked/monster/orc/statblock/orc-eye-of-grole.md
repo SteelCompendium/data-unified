@@ -37,7 +37,7 @@ type: statblock
 
 > 🏹 **Elemental Discharge ([Signature Ability](../../../rule/combat/signature-ability.md))**
 >
-> | **Magic, Ranged, Strike** |               **Main action** |
+> | **Magic, Ranged, Strike** |               **[Main action](../../../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Ranged 10**          | **🎯 One creature or object** |
 >
@@ -51,7 +51,7 @@ type: statblock
 
 > 🔳 **Power Burst (3 [Malice](../../../rule/monster/malice.md))**
 >
-> | **Area, Magic**            |               **Main action** |
+> | **Area, Magic**            |               **[Main action](../../../rule/combat/turn.md)** |
 > |----------------------------|------------------------------:|
 > | **📏 5 x 2 line within 1** | **🎯 Each enemy in the area** |
 >

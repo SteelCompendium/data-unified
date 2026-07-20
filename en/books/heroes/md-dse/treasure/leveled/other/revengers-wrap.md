@@ -4,12 +4,18 @@ file_dpath: treasure/leveled/other
 flavor: When first handled, this tattered cloak fills the mind with thoughts of revenge.
 item_id: revengers-wrap
 item_name: Revenger's Wrap
+item_prerequisite: A cloak worn by a murdered monarch
 keywords:
     - Neck
     - Magic
+level_effects:
+    1st: While you wear this cloak, any creature who damages you is marked for revenge until the end of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) or until another creature damages you. Any strike you make against a creature marked for revenge deals extra damage equal to your highest [characteristic](scc.v1:mcdm.heroes.v1/rule.character/characteristic) score, and whenever you damage a creature marked for revenge, they are also [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) until the end of their next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn).
+    5th: Each creature who damages you is marked for revenge until the end of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn). Whenever you damage a creature marked for revenge, they are also [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends).
+    9th: When you have three or more creatures marked for revenge and you target one of them with an ability that targets only one creature, you target all the creatures marked for revenge, regardless of their [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance) from you and even if you don't have [line of effect](scc.v1:mcdm.heroes.v1/rule.combat/line-of-effect) to them.
 name: Revenger's Wrap
 project_goal: "450"
 project_roll_characteristic: '[Might](scc.v1:mcdm.heroes.v1/rule.character/might), [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason), or [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)'
+project_source: Texts or lore in Caelian
 scc: mcdm.heroes.v1/treasure.leveled.other/revengers-wrap
 source: mcdm.heroes.v1
 treasure_type: other

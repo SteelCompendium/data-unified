@@ -32,7 +32,7 @@ type: statblock
 
 > 🗡 **Agonizing Stinger ([Signature Ability](../../../rule/combat/signature-ability.md))**
 >
-> | **Magic, Strike, Weapon** |                 **Main action** |
+> | **Magic, Strike, Weapon** |                 **[Main action](../../../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 2**            | **🎯 Two creatures or objects** |
 >
@@ -46,7 +46,7 @@ type: statblock
 
 > 🗡 **Acidic Anguish (3 Malice)**
 >
-> | **Magic, Strike, Weapon** |               **Main action** |
+> | **Magic, Strike, Weapon** |               **[Main action](../../../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Melee 2**            | **🎯 One creature or object** |
 >
@@ -60,7 +60,7 @@ type: statblock
 
 > 👤 **Swooping Torment**
 >
-> | **-**       | **Maneuver** |
+> | **-**       | **[Maneuver](../../../rule/combat/turn.md)** |
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
@@ -68,7 +68,7 @@ type: statblock
 
 > ❗️ **Retaliatory Dive**
 >
-> | **Ranged**      |           **Triggered action** |
+> | **Ranged**      |           **[Triggered action](../../../rule/combat/triggered-action.md)** |
 > |-----------------|-------------------------------:|
 > | **📏 Ranged 5** | **🎯 The triggering creature** |
 >

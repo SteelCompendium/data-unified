@@ -6,11 +6,13 @@ file_dpath: treasure/4th-echelon/consumable
 flavor: A glass flask holds a roiling storm of astral plasma.
 item_id: breath-of-creation
 item_name: Breath of Creation
+item_prerequisite: The captured breath of a god, an ounce of condensed dreams
 keywords:
     - Psionic
 name: Breath of Creation
 project_goal: "360"
 project_roll_characteristic: '[Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition) or [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence)'
+project_source: Texts or lore in the First Language
 scc: mcdm.heroes.v1/treasure.4th-echelon.consumable/breath-of-creation
 source: mcdm.heroes.v1
 treasure_type: consumable

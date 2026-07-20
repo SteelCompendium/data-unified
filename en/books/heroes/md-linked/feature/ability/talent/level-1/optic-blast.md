@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: talent
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
 effect: When targeting an object with a solid reflective surface or a creature carrying or wearing such an object (such as a mirror, an unpainted metal shield, or shiny metal plate armor), you can target one additional creature or object within 3 squares of the first target.
@@ -24,7 +24,7 @@ type: ability
 
 *Your eyes emit rays of powerful enervating force.*
 
-| **Metamorphosis, Psionic, [Ranged](../../../../rule/combat/ranged.md)**, **Strike** |               **Main action** |
+| **Metamorphosis, Psionic, [Ranged](../../../../rule/combat/ranged.md)**, **Strike** |               **[Main action](../../../../rule/combat/turn.md)** |
 |------------------------------------------------|------------------------------:|
 | **📏 [Ranged](../../../../rule/combat/ranged.md) 10**                               | **🎯 One creature or object** |
 

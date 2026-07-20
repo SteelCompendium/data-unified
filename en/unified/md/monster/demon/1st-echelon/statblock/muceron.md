@@ -31,7 +31,7 @@ weaknesses:
 
 > 🗡 **Barbed Tongues (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |               **Main action** |
+> | **Melee, Strike, Weapon** |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |---------------------------|------------------------------:|
 > | **📏 Melee 2**            | **🎯 One creature or object** |
 >
@@ -45,7 +45,7 @@ weaknesses:
 
 > 🏹 **Tongue Pull (2 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
-> | **Ranged, Strike, Weapon** |                      **Maneuver** |
+> | **Ranged, Strike, Weapon** |                      **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |----------------------------|----------------------------------:|
 > | **📏 Ranged 5**            | **🎯 Three creatures or objects** |
 >

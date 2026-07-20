@@ -6,12 +6,14 @@ file_dpath: treasure/1st-echelon/consumable
 flavor: Thick and red, this liquid tastes of sour beer.
 item_id: healing-potion
 item_name: Healing Potion
+item_prerequisite: An ounce of costmary leaves
 keywords:
     - Magic
     - Potion
 name: Healing Potion
 project_goal: "45"
 project_roll_characteristic: '[Reason](../../../rule/character/reason.md) or [Intuition](../../../rule/character/intuition.md)'
+project_source: Texts or lore in Caelian
 scc: mcdm.heroes.v1/treasure.1st-echelon.consumable/healing-potion
 source: mcdm.heroes.v1
 treasure_type: consumable

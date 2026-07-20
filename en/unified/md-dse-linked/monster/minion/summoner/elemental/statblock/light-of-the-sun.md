@@ -7,6 +7,7 @@ file_basename: light-of-the-sun
 file_dpath: monster/minion/summoner/elemental/statblock
 flavor: These elementals are blazing white avian-shaped beings that are nearly impossible to perceive directly. Between a light of the sun's talons is a massive glowing sword that can split the heaviest of defenses asunder.
 free_strike: 7
+free_strike_damage_type: Fire
 immunities:
     - Corruption R
     - fire R

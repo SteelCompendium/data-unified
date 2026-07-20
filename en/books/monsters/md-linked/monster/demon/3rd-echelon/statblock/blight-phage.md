@@ -31,7 +31,7 @@ weaknesses:
 
 > 🏹 **Blight Pus (Signature Ability)**
 >
-> | **Magic, Ranged, Strike** |               **Main action** |
+> | **Magic, Ranged, Strike** |               **[Main action](../../../../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Ranged 10**          | **🎯 One creature or object** |
 >
@@ -45,7 +45,7 @@ weaknesses:
 
 > 🔳 **Blight Rain (3 [Malice](../../../../rule/monster/malice.md))**
 >
-> | **Area, Magic**        |                  **Maneuver** |
+> | **Area, Magic**        |                  **[Maneuver](../../../../rule/combat/turn.md)** |
 > |------------------------|------------------------------:|
 > | **📏 5 cube within 1** | **🎯 Each enemy in the area** |
 >

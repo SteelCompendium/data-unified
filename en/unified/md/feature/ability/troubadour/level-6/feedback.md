@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: troubadour
 cost: 9 Drama
 distance: Three 3 [cubes](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 1
@@ -23,7 +23,7 @@ type: ability
 
 *Your music pounds the crowd to the beat until their hearts can't stand it anymore.*
 
-| **Area, Magic**               |               **Main action** |
+| **Area, Magic**               |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 |-------------------------------|------------------------------:|
 | **📏 Three 3 [cubes](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 1** | **🎯 Each enemy in the area** |
 

@@ -1,5 +1,5 @@
 ---
-action_type: No action
+action_type: '[No action](../../../../rule/combat/turn.md)'
 class: troubadour
 distance: 5 [aura](../../../../rule/combat/aura.md)
 effect: While this performance is active, each target who starts their [turn](../../../../rule/combat/turn.md) [dying](../../../../rule/health/dying.md) while in the area gains an [edge](../../../../rule/dice/edge.md) on [power rolls](../../../../rule/dice/power-roll.md) and ignores the effects of [bleeding](../../../../condition/bleeding.md) until the end of their [turn](../../../../rule/combat/turn.md).
@@ -33,7 +33,7 @@ keywords:
     - Magic
     - Performance
 metadata:
-    action_type: No action
+    action_type: '[No action](../../../../rule/combat/turn.md)'
     class: troubadour
     distance: 5 [aura](../../../../rule/combat/aura.md)
     effect: While this performance is active, each target who starts their [turn](../../../../rule/combat/turn.md) [dying](../../../../rule/health/dying.md) while in the area gains an [edge](../../../../rule/dice/edge.md) on [power rolls](../../../../rule/dice/power-roll.md) and ignores the effects of [bleeding](../../../../condition/bleeding.md) until the end of their [turn](../../../../rule/combat/turn.md).
@@ -51,5 +51,5 @@ metadata:
 name: '"Never-Ending Hero"'
 target: Self and each ally in the area
 type: feature
-usage: No action
+usage: '[No action](../../../../rule/combat/turn.md)'
 ```

@@ -30,7 +30,7 @@ type: statblock
 
 > 🏹 **Eye of Surlach (Signature Ability)**
 >
-> | **Magic, Ranged, Strike** |     **Main action** |
+> | **Magic, Ranged, Strike** |     **[Main action](../../../rule/combat/turn.md)** |
 > |---------------------------|--------------------:|
 > | **📏 Ranged 15**          | **🎯 One creature** |
 >
@@ -42,7 +42,7 @@ type: statblock
 
 > 🏹 **Dizzying Hex (1 [Malice](../../../rule/monster/malice.md))**
 >
-> | **Magic, Ranged, Strike** |        **Maneuver** |
+> | **Magic, Ranged, Strike** |        **[Maneuver](../../../rule/combat/turn.md)** |
 > |---------------------------|--------------------:|
 > | **📏 Ranged 10**          | **🎯 One creature** |
 >

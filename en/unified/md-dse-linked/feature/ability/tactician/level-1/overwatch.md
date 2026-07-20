@@ -1,5 +1,5 @@
 ---
-action_type: Triggered
+action_type: '[Triggered](../../../../rule/combat/triggered-action.md)'
 class: tactician
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
 effect: At any time during the target's movement, one ally can make a [free strike](../../../common/main-actions/free-strike.md) against them.
@@ -34,7 +34,7 @@ flavor: Under your direction, an ally waits for just the right moment to strike.
 keywords:
     - '[Ranged](../../../../rule/combat/ranged.md)'
 metadata:
-    action_type: Triggered
+    action_type: '[Triggered](../../../../rule/combat/triggered-action.md)'
     class: tactician
     distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
     effect: At any time during the target's movement, one ally can make a [free strike](../../../common/main-actions/free-strike.md) against them.
@@ -54,5 +54,5 @@ name: Overwatch
 target: One creature
 trigger: The target moves.
 type: feature
-usage: Triggered
+usage: '[Triggered](../../../../rule/combat/triggered-action.md)'
 ```

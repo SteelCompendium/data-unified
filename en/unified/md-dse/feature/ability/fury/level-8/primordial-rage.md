@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: fury
 cost: 11 Ferocity
 cost_amount: "11"
@@ -32,7 +32,7 @@ flavor: Your ferocity manifests into [primordial power](scc.v1:mcdm.heroes.v1/fe
 keywords:
     - Magic
 metadata:
-    action_type: Maneuver
+    action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: fury
     cost: 11 Ferocity
     distance: Self
@@ -48,5 +48,5 @@ metadata:
 name: Primordial Rage
 target: Self
 type: feature
-usage: Maneuver
+usage: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 ```

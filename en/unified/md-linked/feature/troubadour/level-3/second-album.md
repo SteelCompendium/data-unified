@@ -14,7 +14,7 @@ You have the following performance abilities, which are usable with your [Routin
 
 *Maybe you and I ♪ We can still bring the light!♪*
 
-| **Area, Magic, Performance** |                         **No action** |
+| **Area, Magic, Performance** |                         **[No action](../../../rule/combat/turn.md)** |
 |------------------------------|--------------------------------------:|
 | **📏 5 [aura](../../../rule/combat/aura.md)**                | **🎯 Self and each ally in the area** |
 
@@ -25,7 +25,7 @@ You have the following performance abilities, which are usable with your [Routin
 
 *And toniiight we can truly say ♪ They will alllways find a way!♪*
 
-| **Area, Magic, Performance** |                         **No action** |
+| **Area, Magic, Performance** |                         **[No action](../../../rule/combat/turn.md)** |
 |------------------------------|--------------------------------------:|
 | **📏 5 [aura](../../../rule/combat/aura.md)**                | **🎯 Self and each ally in the area** |
 

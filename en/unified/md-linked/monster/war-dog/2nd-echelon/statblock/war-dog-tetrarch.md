@@ -29,7 +29,7 @@ type: statblock
 
 > ⚔️ **Houndblade ([Signature Ability](../../../../rule/combat/signature-ability.md))**
 >
-> | **Charge, Melee, Ranged, Strike, Weapon** |                 **Main action** |
+> | **Charge, Melee, Ranged, Strike, Weapon** |                 **[Main action](../../../../rule/combat/turn.md)** |
 > |-------------------------------------------|--------------------------------:|
 > | **📏 Melee 1 or ranged 3**                | **🎯 Two creatures or objects** |
 >
@@ -45,7 +45,7 @@ type: statblock
 
 > 🏹 **Get Them, You Dolts! (1 [Malice](../../../../rule/monster/malice.md) per target)**
 >
-> | **Ranged**       |           **Maneuver** |
+> | **Ranged**       |           **[Maneuver](../../../../rule/combat/turn.md)** |
 > |------------------|-----------------------:|
 > | **📏 Ranged 10** | **🎯 Three creatures** |
 >
@@ -53,7 +53,7 @@ type: statblock
 
 > ❗️ **Sneering Disregard**
 >
-> | **Ranged**       |           **Triggered action** |
+> | **Ranged**       |           **[Triggered action](../../../../rule/combat/triggered-action.md)** |
 > |------------------|-------------------------------:|
 > | **📏 Ranged 10** | **🎯 The triggering creature** |
 >

@@ -33,7 +33,7 @@ with_captain: +4 damage bonus to strikes
 
 > 🗡 **Rotten Kick ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
-> | **Melee, Strike, Weapon** |                          **Main action** |
+> | **Melee, Strike, Weapon** |                          **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |---------------------------|-----------------------------------------:|
 > | **📏 Melee 2**            | **🎯 One creature or object per minion** |
 >

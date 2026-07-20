@@ -30,7 +30,7 @@ type: statblock
 
 > 🔳 **Roiling Fist (Signature Ability)**
 >
-> | **Area, Ranged, Weapon** |                          **Main action** |
+> | **Area, Ranged, Weapon** |                          **[Main action](../../../rule/combat/turn.md)** |
 > |--------------------------|-----------------------------------------:|
 > | **📏 3 cube within 4**   | **🎯 Each enemy and object in the area** |
 >
@@ -42,7 +42,7 @@ type: statblock
 
 > 🗡 **Burning Kick**
 >
-> | **Charge, Melee, Strike, Weapon** |                 **Main action** |
+> | **Charge, Melee, Strike, Weapon** |                 **[Main action](../../../rule/combat/turn.md)** |
 > |-----------------------------------|--------------------------------:|
 > | **📏 Melee 4**                    | **🎯 Two creatures or objects** |
 >
@@ -54,7 +54,7 @@ type: statblock
 
 > 🔳 **Lava Pillar (3 [Malice](../../../rule/monster/malice.md))**
 >
-> | **Area, Ranged**        |                             **Maneuver** |
+> | **Area, Ranged**        |                             **[Maneuver](../../../rule/combat/turn.md)** |
 > |-------------------------|-----------------------------------------:|
 > | **📏 3 cube within 10** | **🎯 Each enemy and object in the area** |
 >
@@ -66,7 +66,7 @@ type: statblock
 
 > ❗️ **Fuel the Fire (1 [Malice](../../../rule/monster/malice.md))**
 >
-> | **Ranged**       |       **Triggered action** |
+> | **Ranged**       |       **[Triggered action](../../../rule/combat/triggered-action.md)** |
 > |------------------|---------------------------:|
 > | **📏 Ranged 12** | **🎯 The triggering ally** |
 >

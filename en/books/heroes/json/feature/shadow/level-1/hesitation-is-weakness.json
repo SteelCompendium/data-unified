@@ -14,8 +14,8 @@
     "keywords": null,
     "metadata": {
       "ability_type": "Triggered",
-      "action_type": "Free triggered",
-      "content": "\n*Keep up the attack. Never give them a moment's grace.*\n\n| **-**       | **Free triggered** |\n|-------------|-------------------:|\n| **📏 Self** |        **🎯 Self** |\n\n**Trigger:** Another hero ends their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn). That hero can't have used this ability to start their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn).\n\n**Effect:** You take your [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) after the triggering hero.",
+      "action_type": "Free [triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)",
+      "content": "\n*Keep up the attack. Never give them a moment's grace.*\n\n| **-**       | **Free [triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |\n|-------------|-------------------:|\n| **📏 Self** |        **🎯 Self** |\n\n**Trigger:** Another hero ends their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn). That hero can't have used this ability to start their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn).\n\n**Effect:** You take your [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) after the triggering hero.",
       "distance": "Self",
       "feature_type": "ability",
       "flavor": "Keep up the attack. Never give them a moment's grace.",
@@ -29,7 +29,7 @@
     "target": "Self",
     "trigger": "Another hero ends their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn). That hero can't have used this ability to start their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn).",
     "type": "feature",
-    "usage": "Free triggered"
+    "usage": "Free [triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)"
   },
   "effects": [
     {

@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: elementalist
 cost: 11 Essence
 distance: 5 [burst](../../../../rule/combat/burst.md)
@@ -23,7 +23,7 @@ type: ability
 
 *You stomp your foot and quake the whole world over.*
 
-| **Area, Earth, Magic** |               **Main action** |
+| **Area, Earth, Magic** |               **[Main action](../../../../rule/combat/turn.md)** |
 |------------------------|------------------------------:|
 | **📏 5 [burst](../../../../rule/combat/burst.md)**         | **🎯 Each enemy in the area** |
 

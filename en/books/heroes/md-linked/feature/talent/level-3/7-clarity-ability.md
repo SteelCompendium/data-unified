@@ -13,7 +13,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *You hurl the target through the annals of time, forcing them to witness every moment of their existence all at once.*
 
-| **Chronopathy, Psionic, [Ranged](../../../rule/combat/ranged.md)**, **Strike** |               **Main action** |
+| **Chronopathy, Psionic, [Ranged](../../../rule/combat/ranged.md)**, **Strike** |               **[Main action](../../../rule/combat/turn.md)** |
 |----------------------------------------------|------------------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**                             | **🎯 One creature or object** |
 
@@ -32,7 +32,7 @@ Choose one [heroic ability](../../../rule/general/heroic-ability.md) from the fo
 
 *Spheres of solid psionic energy float around you.*
 
-| **Psionic, [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md), Telekinesis** | **Main action** |
+| **Psionic, [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md), Telekinesis** | **[Main action](../../../rule/combat/turn.md)** |
 |------------------------------------------|----------------:|
 | **📏 Self; see below**                   |     **🎯 Self** |
 
@@ -53,7 +53,7 @@ Once on each of your [turns](../../../rule/combat/turn.md), you can use a [free 
 
 *A protective field reverses the momentum of incoming attacks.*
 
-| **Area, Psionic, Telepathy** | **Main action** |
+| **Area, Psionic, Telepathy** | **[Main action](../../../rule/combat/turn.md)** |
 |------------------------------|----------------:|
 | **📏 3 [aura](../../../rule/combat/aura.md)**                |  **🎯 Special** |
 
@@ -66,7 +66,7 @@ Once on each of your [turns](../../../rule/combat/turn.md), you can use a [free 
 
 *You blast their soul out of their body, leaving it to helplessly float back to a weakened husk.*
 
-| **Animapathy, Psionic, [Ranged](../../../rule/combat/ranged.md)**, **Strike** |     **Main action** |
+| **Animapathy, Psionic, [Ranged](../../../rule/combat/ranged.md)**, **Strike** |     **[Main action](../../../rule/combat/turn.md)** |
 |---------------------------------------------|--------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10**                            | **🎯 One creature** |
 

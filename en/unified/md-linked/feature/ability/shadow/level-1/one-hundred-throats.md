@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: shadow
 cost: 5 Insight
 distance: Self; see below
@@ -22,7 +22,7 @@ type: ability
 
 *As you move across the battlefield, every foe within reach feels your wrath.*
 
-| **[Melee](../../../../rule/combat/melee.md), Weapon**      | **Main action** |
+| **[Melee](../../../../rule/combat/melee.md), Weapon**      | **[Main action](../../../../rule/combat/turn.md)** |
 |------------------------|----------------:|
 | **📏 Self; see below** |     **🎯 Self** |
 

@@ -1,5 +1,5 @@
 ---
-action_type: Triggered
+action_type: '[Triggered](../../../../rule/combat/triggered-action.md)'
 class: censor
 cost: 5 Wrath
 cost_amount: "5"
@@ -37,7 +37,7 @@ keywords:
     - Magic
     - '[Ranged](../../../../rule/combat/ranged.md)'
 metadata:
-    action_type: Triggered
+    action_type: '[Triggered](../../../../rule/combat/triggered-action.md)'
     class: censor
     cost: 5 Wrath
     distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
@@ -58,5 +58,5 @@ name: Prescient Grace
 target: Self or one ally
 trigger: An enemy within 10 squares starts their [turn](../../../../rule/combat/turn.md).
 type: feature
-usage: Triggered
+usage: '[Triggered](../../../../rule/combat/triggered-action.md)'
 ```

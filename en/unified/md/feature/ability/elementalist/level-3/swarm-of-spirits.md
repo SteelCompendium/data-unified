@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: elementalist
 cost: 7 Essence
 distance: 3 [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura)
@@ -23,7 +23,7 @@ type: ability
 
 *Guardian animal spirits surround you to harry your foes and bolster your allies.*
 
-| **Area, Green, Magic** |               **Main action** |
+| **Area, Green, Magic** |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 |------------------------|------------------------------:|
 | **📏 3 [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura)**          | **🎯 Each enemy in the area** |
 

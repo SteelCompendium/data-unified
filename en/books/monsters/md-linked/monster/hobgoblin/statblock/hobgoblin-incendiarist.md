@@ -33,7 +33,7 @@ type: statblock
 
 > 🏹 **Fire Crossbow (Signature Ability)**
 >
-> | **Ranged, Strike, Weapon** |               **Main action** |
+> | **Ranged, Strike, Weapon** |               **[Main action](../../../rule/combat/turn.md)** |
 > |----------------------------|------------------------------:|
 > | **📏 Ranged 10**           | **🎯 One creature or object** |
 >
@@ -47,7 +47,7 @@ type: statblock
 
 > 🔳 **Fireball Volley (3 [Malice](../../../rule/monster/malice.md))**
 >
-> | **Area, Magic, Ranged** |                         **Main action** |
+> | **Area, Magic, Ranged** |                         **[Main action](../../../rule/combat/turn.md)** |
 > |-------------------------|----------------------------------------:|
 > | **📏 4 cube within 10** | **🎯 Each enemy or object in the area** |
 >

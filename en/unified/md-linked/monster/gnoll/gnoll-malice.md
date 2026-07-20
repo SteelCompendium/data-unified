@@ -39,7 +39,7 @@ At the start of any gnoll's turn, you can spend [Malice](../../rule/monster/mali
 
 > 🔳 **Iron Jaws (3 [Malice](../../rule/monster/malice.md))**
 >
-> | **Area, Ranged, Weapon** |   **Maneuver** |
+> | **Area, Ranged, Weapon** |   **[Maneuver](../../rule/combat/turn.md)** |
 > |--------------------------|---------------:|
 > | **📏 1 cube within 3**   | **🎯 Special** 
 >

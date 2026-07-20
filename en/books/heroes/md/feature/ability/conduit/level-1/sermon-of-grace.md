@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: conduit
 cost: 5 Piety
 distance: 4 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)
@@ -18,7 +18,7 @@ type: ability
 
 *You inspire your allies with tales of your [saint](scc.v1:mcdm.heroes.v1/rule.world/saint)'s great deeds.*
 
-| **Area, Magic** |              **Main action** |
+| **Area, Magic** |              **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 |-----------------|-----------------------------:|
 | **📏 4 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)**  | **🎯 Each ally in the area** |
 

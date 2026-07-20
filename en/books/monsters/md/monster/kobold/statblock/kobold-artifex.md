@@ -29,7 +29,7 @@ type: statblock
 
 > 🏹 **Chain Hook (Signature Ability)**
 >
-> | **Ranged, Strike, Weapon** |               **Main action** |
+> | **Ranged, Strike, Weapon** |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |----------------------------|------------------------------:|
 > | **📏 Ranged 5**            | **🎯 One creature or object** |
 >
@@ -43,7 +43,7 @@ type: statblock
 
 > ⭐️ **Activate Trap**
 >
-> | **Ranged**       |                            **Maneuver** |
+> | **Ranged**       |                            **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |------------------|----------------------------------------:|
 > | **📏 Ranged 10** | **🎯 One trap or other terrain object** |
 >

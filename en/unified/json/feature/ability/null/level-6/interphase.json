@@ -13,9 +13,9 @@
     "Psionic"
   ],
   "metadata": {
-    "action_type": "Main action",
+    "action_type": "[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)",
     "class": "null",
-    "content": "\n*You slip into a faster timestream to act more quickly.*\n\n| **Psionic** | **Main action** |\n|-------------|----------------:|\n| **📏 Self** |     **🎯 Self** |\n\n**Effect:** You can use up to three [signature abilities](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability), each of which gains an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge).",
+    "content": "\n*You slip into a faster timestream to act more quickly.*\n\n| **Psionic** | **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|-------------|----------------:|\n| **📏 Self** |     **🎯 Self** |\n\n**Effect:** You can use up to three [signature abilities](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability), each of which gains an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge).",
     "distance": "Self",
     "feature_type": "ability",
     "flavor": "You slip into a faster timestream to act more quickly.",
@@ -35,5 +35,5 @@
   "name": "Interphase",
   "target": "Self",
   "type": "feature",
-  "usage": "Main action"
+  "usage": "[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)"
 }

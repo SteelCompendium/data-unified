@@ -83,7 +83,7 @@ This cherubin creature is bloated and warped by demonic energy. The lights from 
 
 > 🏹 **Blighted Strike 2d10 + R (Signature Ability)**
 >
-> | **Magic, Ranged, Strike** | **Main action** |
+> | **Magic, Ranged, Strike** | **[Main action](../../../rule/combat/turn.md)** |
 > |---------------------------|----------------:|
 > | **📏 Ranged 5** | **🎯 One creature or object per minion** |
 >
@@ -137,7 +137,7 @@ It's difficult to identify the base nature of a vicisittante apart from an ever-
 
 > 🏹 **Cerebral Flay 2d10 + R (Signature Ability)**
 >
-> | **Melee, Psionic, Strike** | **Main action** |
+> | **Melee, Psionic, Strike** | **[Main action](../../../rule/combat/turn.md)** |
 > |----------------------------|----------------:|
 > | **📏 Melee 1** | **🎯 One creature or object per minion** |
 >
@@ -209,7 +209,7 @@ These elementals are blazing white avian-shaped beings that are nearly impossibl
 
 > 🏹 **Solar Blade 2d10 + R (Signature Ability)**
 >
-> | **Magic, Melee, Strike** | **Main action** |
+> | **Magic, Melee, Strike** | **[Main action](../../../rule/combat/turn.md)** |
 > |--------------------------|----------------:|
 > | **📏 Melee 1** | **🎯 One creature or object per minion** |
 >
@@ -263,7 +263,7 @@ The belladonix are found among the elite guard of fey monarchs and carry themsel
 
 > 🏹 **A Thorn, Woe to the Pricked 2d10 + R (Signature Ability)**
 >
-> | **Magic, Ranged, Strike** | **Main action** |
+> | **Magic, Ranged, Strike** | **[Main action](../../../rule/combat/turn.md)** |
 > |---------------------------|----------------:|
 > | **📏 Ranged 15** | **🎯 One creature or object per minion** |
 >
@@ -335,7 +335,7 @@ These phantoms puppet the remnants of their corporeal forms. Unlike other spirit
 
 > 🏹 **Plunge of the Knife 2d10 + R (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** | **Main action** |
+> | **Melee, Strike, Weapon** | **[Main action](../../../rule/combat/turn.md)** |
 > |---------------------------|----------------:|
 > | **📏 Melee 1** | **🎯 One creature or object per minion** |
 >

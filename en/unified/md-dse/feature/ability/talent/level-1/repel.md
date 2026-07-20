@@ -1,5 +1,5 @@
 ---
-action_type: Triggered
+action_type: '[Triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)'
 class: talent
 distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
 effect: The target takes half the triggering damage, or the [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance) of the triggering [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) is reduced by a number of squares equal to your [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) score. If the target took damage and was force moved, you choose the effect. If the [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) is reduced to 0 squares, the target can [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) the source of the [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) a number of squares equal to your [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) score.
@@ -33,7 +33,7 @@ keywords:
     - Psionic
     - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'
 metadata:
-    action_type: Triggered
+    action_type: '[Triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)'
     class: talent
     distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
     effect: The target takes half the triggering damage, or the [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance) of the triggering [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) is reduced by a number of squares equal to your [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) score. If the target took damage and was force moved, you choose the effect. If the [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) is reduced to 0 squares, the target can [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) the source of the [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) a number of squares equal to your [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) score.
@@ -53,5 +53,5 @@ name: Repel
 target: Self or one ally
 trigger: The target takes damage or is [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement).
 type: feature
-usage: Triggered
+usage: '[Triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)'
 ```

@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: elementalist
 distance: '[Melee](../../../../rule/combat/melee.md) 1'
 effect: You touch a square containing mundane dirt, stone, or metal and create a 5 wall of the same material, which rises up out of the ground and must include the square you touched.
@@ -19,7 +19,7 @@ type: ability
 
 *The earth rises, falls, or opens up at your command.*
 
-| **Earth, Magic, [Melee](../../../../rule/combat/melee.md)** | **Main action** |
+| **Earth, Magic, [Melee](../../../../rule/combat/melee.md)** | **[Main action](../../../../rule/combat/turn.md)** |
 |-------------------------|----------------:|
 | **📏 [Melee](../../../../rule/combat/melee.md) 1**          |  **🎯 Special** |
 

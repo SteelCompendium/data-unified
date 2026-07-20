@@ -1,5 +1,5 @@
 ---
-action_type: Triggered
+action_type: '[Triggered](../../../../rule/combat/triggered-action.md)'
 class: troubadour
 cost: 3 Drama
 cost_amount: "3"
@@ -38,7 +38,7 @@ flavor: Give the chorus a little punch.
 keywords:
     - '[Ranged](../../../../rule/combat/ranged.md)'
 metadata:
-    action_type: Triggered
+    action_type: '[Triggered](../../../../rule/combat/triggered-action.md)'
     class: troubadour
     cost: 3 Drama
     distance: '[Ranged](../../../../rule/combat/ranged.md) 5'
@@ -59,5 +59,5 @@ name: Harmonize
 target: One ally
 trigger: The target uses an ability that targets only one enemy and costs 3 or fewer of their [Heroic Resource](../../../../rule/resource/heroic-resource.md).
 type: feature
-usage: Triggered
+usage: '[Triggered](../../../../rule/combat/triggered-action.md)'
 ```

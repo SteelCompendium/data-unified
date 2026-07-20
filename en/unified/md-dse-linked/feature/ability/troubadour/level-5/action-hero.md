@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: troubadour
 cost: 9 Drama
 cost_amount: "9"
@@ -44,7 +44,7 @@ keywords:
     - '[Melee](../../../../rule/combat/melee.md)'
     - Weapon
 metadata:
-    action_type: Main action
+    action_type: '[Main action](../../../../rule/combat/turn.md)'
     class: troubadour
     cost: 9 Drama
     distance: 3 [burst](../../../../rule/combat/burst.md)
@@ -66,5 +66,5 @@ metadata:
 name: Action Hero
 target: Each enemy in the area
 type: feature
-usage: Main action
+usage: '[Main action](../../../../rule/combat/turn.md)'
 ```

@@ -59,7 +59,7 @@ type: featureblock
 
 > ❗️ **Supporting Volley**
 >
-> | **Ranged, Weapon** |           **Triggered action** |
+> | **Ranged, Weapon** |           **[Triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |
 > |--------------------|-------------------------------:|
 > | **📏 Ranged 5**    | **🎯 The triggering creature** |
 >
@@ -71,7 +71,7 @@ type: featureblock
 
 > 🔳 **Line 'Em Up (Encounter)**
 >
-> | **Area, Weapon**            |               **Main action** |
+> | **Area, Weapon**            |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-----------------------------|------------------------------:|
 > | **📏 10 x 1 line within 1** | **🎯 Each enemy in the area** |
 >
@@ -85,7 +85,7 @@ type: featureblock
 
 > 🏹 **Ricochet Shot (Encounter)**
 >
-> | **Ranged, Strike, Weapon** | **Main action** |
+> | **Ranged, Strike, Weapon** | **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > | --- | ---:|
 > | **📏 Ranged 5** | **🎯 One creature or object** |
 >

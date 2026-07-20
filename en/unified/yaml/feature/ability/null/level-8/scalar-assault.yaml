@@ -11,9 +11,9 @@ keywords:
     - Area
     - Psionic
 metadata:
-    action_type: Main action
+    action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: "null"
-    content: "\n*You warp reality to grow a limb for just a moment and make a single devastating attack.*\n\n| **Area, Psionic**      |               **Main action** |\n|------------------------|------------------------------:|\n| **\U0001F4CF 3 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 1** | **\U0001F3AF Each enemy in the area** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility):**\n\n- **≤11:** 12 psychic damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3\n- **12-16:** 17 psychic damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5\n- **17+:** 23 psychic damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 7"
+    content: "\n*You warp reality to grow a limb for just a moment and make a single devastating attack.*\n\n| **Area, Psionic**      |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|------------------------|------------------------------:|\n| **\U0001F4CF 3 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 1** | **\U0001F3AF Each enemy in the area** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility):**\n\n- **≤11:** 12 psychic damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3\n- **12-16:** 17 psychic damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5\n- **17+:** 23 psychic damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 7"
     distance: 3 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 1
     feature_type: ability
     flavor: You warp reality to grow a limb for just a moment and make a single devastating attack.
@@ -30,4 +30,4 @@ metadata:
 name: Scalar Assault
 target: Each enemy in the area
 type: feature
-usage: Main action
+usage: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'

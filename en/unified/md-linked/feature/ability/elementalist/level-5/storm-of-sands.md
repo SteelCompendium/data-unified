@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: elementalist
 cost: 9 Essence
 distance: 4 [cube](../../../../rule/combat/cube.md) within 10
@@ -24,7 +24,7 @@ type: ability
 
 *Dirt and debris swirl into a dark, pulsing hurricane.*
 
-| **Area, Earth, Magic, [Ranged](../../../../rule/combat/ranged.md)** |               **Main action** |
+| **Area, Earth, Magic, [Ranged](../../../../rule/combat/ranged.md)** |               **[Main action](../../../../rule/combat/turn.md)** |
 |--------------------------------|------------------------------:|
 | **📏 4 [cube](../../../../rule/combat/cube.md) within 10**        | **🎯 Each enemy in the area** |
 

@@ -7,6 +7,7 @@ file_basename: faded-blightling
 file_dpath: monster/minion/summoner/demon/statblock
 flavor: This cherubin creature is bloated and warped by demonic energy. The lights from their myriad eyes have all but gone out, now resembling pustules across their body.
 free_strike: 7
+free_strike_damage_type: Corruption
 immunities: []
 intuition: 4
 item_id: faded-blightling

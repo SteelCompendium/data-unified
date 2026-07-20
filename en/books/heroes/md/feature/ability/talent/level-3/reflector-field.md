@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: talent
 cost: 7 Clarity
 distance: 3 [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura)
@@ -19,7 +19,7 @@ type: ability
 
 *A protective field reverses the momentum of incoming attacks.*
 
-| **Area, Psionic, Telepathy** | **Main action** |
+| **Area, Psionic, Telepathy** | **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 |------------------------------|----------------:|
 | **📏 3 [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura)**                |  **🎯 Special** |
 

@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](../../../../rule/combat/turn.md)'
 class: censor
 cost: 9 Wrath
 cost_amount: "9"
@@ -43,7 +43,7 @@ keywords:
     - '[Ranged](../../../../rule/combat/ranged.md)'
     - '[Strike](../../../../rule/combat/strike.md)'
 metadata:
-    action_type: Maneuver
+    action_type: '[Maneuver](../../../../rule/combat/turn.md)'
     class: censor
     cost: 9 Wrath
     distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
@@ -65,5 +65,5 @@ metadata:
 name: Burden of Evil
 target: Three enemies
 type: feature
-usage: Maneuver
+usage: '[Maneuver](../../../../rule/combat/turn.md)'
 ```

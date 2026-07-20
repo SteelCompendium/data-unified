@@ -7,6 +7,7 @@ file_basename: dragons-portent
 file_dpath: monster/champion/summoner/elemental/statblock
 flavor: 'Stamina: Your maximum Stamina'
 free_strike: 9
+free_strike_damage_type: Affinity
 immunities:
     - Affinity 5
 intuition: 5

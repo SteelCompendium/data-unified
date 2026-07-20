@@ -1,5 +1,5 @@
 ---
-action_type: No action
+action_type: '[No action](../../../../rule/combat/turn.md)'
 class: troubadour
 distance: 5 [aura](../../../../rule/combat/aura.md)
 effect: At the end of each of your [turns](../../../../rule/combat/turn.md) while this performance is active, you can choose up to a number of targets equal to your [Presence](../../../../rule/character/presence.md) score. Each chosen target can spend a [Recovery](../../../../rule/health/recoveries.md).
@@ -32,7 +32,7 @@ keywords:
     - Magic
     - Performance
 metadata:
-    action_type: No action
+    action_type: '[No action](../../../../rule/combat/turn.md)'
     class: troubadour
     distance: 5 [aura](../../../../rule/combat/aura.md)
     effect: At the end of each of your [turns](../../../../rule/combat/turn.md) while this performance is active, you can choose up to a number of targets equal to your [Presence](../../../../rule/character/presence.md) score. Each chosen target can spend a [Recovery](../../../../rule/health/recoveries.md).
@@ -49,5 +49,5 @@ metadata:
 name: Revitalizing Limerick
 target: Self and each ally in the area
 type: feature
-usage: No action
+usage: '[No action](../../../../rule/combat/turn.md)'
 ```

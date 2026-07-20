@@ -33,7 +33,7 @@ type: statblock
 
 > 🗡 **Steely Skewer (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](../../../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 3**            | **🎯 Two creatures or objects** |
 >
@@ -47,7 +47,7 @@ type: statblock
 
 > 🗡 **Tail Stinger (3 [Malice](../../../rule/monster/malice.md))**
 >
-> | **Melee, Strike, Weapon** |               **Main action** |
+> | **Melee, Strike, Weapon** |               **[Main action](../../../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Melee 5**            | **🎯 One creature or object** |
 >
@@ -65,7 +65,7 @@ type: statblock
 
 > ❗️ **Devour Soul**
 >
-> | **Area, Magic** |           **Triggered action** |
+> | **Area, Magic** |           **[Triggered action](../../../rule/combat/triggered-action.md)** |
 > |-----------------|-------------------------------:|
 > | **📏 5 burst**  | **🎯 The triggering creature** |
 >

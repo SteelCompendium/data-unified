@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](../../../../rule/combat/turn.md)'
 class: troubadour
 cost: 7 Drama
 cost_amount: "7"
@@ -34,7 +34,7 @@ keywords:
     - Magic
     - '[Ranged](../../../../rule/combat/ranged.md)'
 metadata:
-    action_type: Maneuver
+    action_type: '[Maneuver](../../../../rule/combat/turn.md)'
     class: troubadour
     cost: 7 Drama
     distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
@@ -51,5 +51,5 @@ metadata:
 name: We Meet at Last
 target: One creature
 type: feature
-usage: Maneuver
+usage: '[Maneuver](../../../../rule/combat/turn.md)'
 ```

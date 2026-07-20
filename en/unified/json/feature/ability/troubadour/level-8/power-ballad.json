@@ -14,9 +14,9 @@
     "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)"
   ],
   "metadata": {
-    "action_type": "Maneuver",
+    "action_type": "[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)",
     "class": "troubadour",
-    "content": "\n*A song for the brokenhearted wraps itself around the target and blossoms into a ward of thorns.*\n\n| **Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)** |            **Maneuver** |\n|-------------------|------------------------:|\n| **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**  | **🎯 Self or one ally** |\n\n**Effect:** Until the end of the encounter, whenever the target takes damage while [winded](scc.v1:mcdm.heroes.v1/rule.health/winded), they can use a free [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action) to deal half the damage they took to the source of the damage.",
+    "content": "\n*A song for the brokenhearted wraps itself around the target and blossoms into a ward of thorns.*\n\n| **Magic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)** |            **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|-------------------|------------------------:|\n| **📏 [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**  | **🎯 Self or one ally** |\n\n**Effect:** Until the end of the encounter, whenever the target takes damage while [winded](scc.v1:mcdm.heroes.v1/rule.health/winded), they can use a free [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action) to deal half the damage they took to the source of the damage.",
     "distance": "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10",
     "feature_type": "ability",
     "flavor": "A song for the brokenhearted wraps itself around the target and blossoms into a ward of thorns.",
@@ -36,5 +36,5 @@
   "name": "Power Ballad",
   "target": "Self or one ally",
   "type": "feature",
-  "usage": "Maneuver"
+  "usage": "[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)"
 }

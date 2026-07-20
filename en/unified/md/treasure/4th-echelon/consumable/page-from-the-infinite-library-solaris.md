@@ -2,11 +2,13 @@
 echelon: "4"
 effect: As a maneuver, you spend 1 [Heroic Resource](scc.v1:mcdm.heroes.v1/rule.resource/heroic-resource) to destroy this page and create a 4-[cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) area within 20 squares. The area is filled with the energy of a tiny sun that lasts until the end of the encounter. Any creature who enters the area for the first time in a [combat round](scc.v1:mcdm.heroes.v1/rule.combat/combat-round) or starts their turn there takes 20 fire damage and is [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) until the end of their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn).
 flavor: This page is covered with writing and diagrams detailing the release of limitless energy—and the dangers of that process.
+item_prerequisite: One vial of sacred ink, blessed parchment
 keywords:
     - Magic
 name: 'Page From the Infinite Library: Solaris'
 project_goal: "360"
 project_roll_characteristic: '[Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) or [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)'
+project_source: Reference materials in the First Language from the
 scc: mcdm.heroes.v1/treasure.4th-echelon.consumable/page-from-the-infinite-library-solaris
 treasure_type: consumable
 type: treasure

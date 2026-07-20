@@ -6,11 +6,13 @@ file_dpath: treasure/4th-echelon/consumable
 flavor: An ornately decorated golden vial smells of summer rain and subtle zesty fruits.
 item_id: restorative-of-the-bright-court
 item_name: Restorative of the Bright Court
+item_prerequisite: A year's lifespan from the creator or another willing creature, the laughter of a young hero
 keywords:
     - Magic
 name: Restorative of the Bright Court
 project_goal: "360"
 project_roll_characteristic: '[Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) or [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence)'
+project_source: Texts or lore in Khelt
 scc: mcdm.heroes.v1/treasure.4th-echelon.consumable/restorative-of-the-bright-court
 source: mcdm.heroes.v1
 treasure_type: consumable

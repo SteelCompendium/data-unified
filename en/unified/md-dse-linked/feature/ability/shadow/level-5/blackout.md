@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](../../../../rule/combat/turn.md)'
 class: shadow
 cost: 9 Insight
 cost_amount: "9"
@@ -34,7 +34,7 @@ keywords:
     - Area
     - Magic
 metadata:
-    action_type: Maneuver
+    action_type: '[Maneuver](../../../../rule/combat/turn.md)'
     class: shadow
     cost: 9 Insight
     distance: 3 [burst](../../../../rule/combat/burst.md)
@@ -51,5 +51,5 @@ metadata:
 name: Blackout
 target: Special
 type: feature
-usage: Maneuver
+usage: '[Maneuver](../../../../rule/combat/turn.md)'
 ```

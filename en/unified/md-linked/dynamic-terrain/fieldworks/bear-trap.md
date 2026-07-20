@@ -78,7 +78,7 @@ A set of spring-loaded steel jaws stands ready to snap shut when stepped on.
 
 > ❗️ **Bear Trap**
 >
-> | **Melee, Strike, Weapon** |                **Free triggered action** |
+> | **Melee, Strike, Weapon** |                **Free [triggered action](../../rule/combat/triggered-action.md)** |
 > |---------------------------|-----------------------------------------:|
 > | **📏 Melee 0**            | **🎯 The triggering creature or object** |
 >

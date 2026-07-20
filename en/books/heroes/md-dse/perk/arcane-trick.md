@@ -17,7 +17,7 @@ You have the following ability.
 >
 > *You cast an entertaining spell that creates a minor but impressive magical effect.*
 >
-> | **Magic**              | **Main action** |
+> | **Magic**              | **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |------------------------|----------------:|
 > | **📏 Self; see below** |     **🎯 Self** |
 >

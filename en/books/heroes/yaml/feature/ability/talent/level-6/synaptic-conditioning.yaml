@@ -13,9 +13,9 @@ keywords:
     - Strike
     - Telepathy
 metadata:
-    action_type: Main action
+    action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: talent
-    content: "\n*It's a subtle mindset shift. It's not that they're your enemy—you just don't like them!*\n\n| **Psionic, [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)**, **Strike, Telepathy** |     **Main action** |\n|-------------------------------------------|--------------------:|\n| **\U0001F4CF [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 2**                            | **\U0001F3AF One creature** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason):**\n\n- **≤11:** 10 psychic damage; the target takes a [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) on [ability rolls](scc.v1:mcdm.heroes.v1/rule.dice/ability-roll) made to harm you or your allies (save ends)\n- **12-16:** 14 psychic damage; the target has a double [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) on [ability rolls](scc.v1:mcdm.heroes.v1/rule.dice/ability-roll) made to harm you or your allies (save ends)\n- **17+:** 20 psychic damage; the target considers you and your allies to be their allies when using abilities and features (save ends)\n\n**Strained:** While the target is under this effect, you no longer consider your enemies to be your enemies when using your abilities and features."
+    content: "\n*It's a subtle mindset shift. It's not that they're your enemy—you just don't like them!*\n\n| **Psionic, [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)**, **Strike, Telepathy** |     **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|-------------------------------------------|--------------------:|\n| **\U0001F4CF [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 2**                            | **\U0001F3AF One creature** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason):**\n\n- **≤11:** 10 psychic damage; the target takes a [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) on [ability rolls](scc.v1:mcdm.heroes.v1/rule.dice/ability-roll) made to harm you or your allies (save ends)\n- **12-16:** 14 psychic damage; the target has a double [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) on [ability rolls](scc.v1:mcdm.heroes.v1/rule.dice/ability-roll) made to harm you or your allies (save ends)\n- **17+:** 20 psychic damage; the target considers you and your allies to be their allies when using abilities and features (save ends)\n\n**Strained:** While the target is under this effect, you no longer consider your enemies to be your enemies when using your abilities and features."
     distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 2'
     feature_type: ability
     flavor: It's a subtle mindset shift. It's not that they're your enemy—you just don't like them!
@@ -35,4 +35,4 @@ metadata:
 name: Synaptic Conditioning
 target: One creature
 type: feature
-usage: Main action
+usage: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'

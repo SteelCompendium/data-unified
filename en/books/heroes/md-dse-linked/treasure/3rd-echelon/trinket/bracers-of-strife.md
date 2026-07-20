@@ -6,12 +6,14 @@ file_dpath: treasure/3rd-echelon/trinket
 flavor: Each of these metallic blue bracers is oversized.
 item_id: bracers-of-strife
 item_name: Bracers of Strife
+item_prerequisite: The severed hand of a giant
 keywords:
     - Arms
     - Magic
 name: Bracers of Strife
 project_goal: "450"
 project_roll_characteristic: '[Reason](../../../rule/character/reason.md) or [Intuition](../../../rule/character/intuition.md)'
+project_source: Texts or lore in Yllyric
 scc: mcdm.heroes.v1/treasure.3rd-echelon.trinket/bracers-of-strife
 source: mcdm.heroes.v1
 treasure_type: trinket

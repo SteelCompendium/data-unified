@@ -21,7 +21,7 @@ Your [primordial aspect](primordial-aspect.md) grants you a [triggered action](.
 
 *In your anger, you revert to a more bestial form.*
 
-| **-**       | **Triggered** |
+| **-**       | **[Triggered](../../../rule/combat/triggered-action.md)** |
 |-------------|--------------:|
 | **📏 Self** |   **🎯 Self** |
 
@@ -36,7 +36,7 @@ Your [primordial aspect](primordial-aspect.md) grants you a [triggered action](.
 
 *You redirect the energy of motion.*
 
-| **Magic, [Melee](../../../rule/combat/melee.md)** |               **Triggered** |
+| **Magic, [Melee](../../../rule/combat/melee.md)** |               **[Triggered](../../../rule/combat/triggered-action.md)** |
 |------------------|----------------------------:|
 | **📏 [Melee](../../../rule/combat/melee.md) 1**   | **🎯 Self or one creature** |
 
@@ -51,7 +51,7 @@ Your [primordial aspect](primordial-aspect.md) grants you a [triggered action](.
 
 *You are as elusive as a hummingbird.*
 
-| **-**       | **Triggered** |
+| **-**       | **[Triggered](../../../rule/combat/triggered-action.md)** |
 |-------------|--------------:|
 | **📏 Self** |    **🎯 Self** |
 

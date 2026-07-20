@@ -210,7 +210,7 @@ The animal gains the following ability.
 
 > 🔳 **Web**
 >
-> | **Area, Weapon**       |                     **Maneuver** |
+> | **Area, Weapon**       |                     **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |------------------------|---------------------------------:|
 > | **📏 3 cube within 1** | **🎯 Each creature in the area** |
 >

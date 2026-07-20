@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: troubadour
 distance: '[Melee](../../../../rule/combat/melee.md) 1'
 effect: The target is [taunted](../../../../condition/taunted.md) by you or a willing ally [adjacent](../../../../rule/combat/adjacent.md) to you until the end of the target's next [turn](../../../../rule/combat/turn.md).
@@ -23,7 +23,7 @@ type: ability
 
 *I didn't do it! What?*
 
-| **[Melee](../../../../rule/combat/melee.md), [Strike](../../../../rule/combat/strike.md), Weapon**             | **Main action** |
+| **[Melee](../../../../rule/combat/melee.md), [Strike](../../../../rule/combat/strike.md), Weapon**             | **[Main action](../../../../rule/combat/turn.md)** |
 |---------------------------------------|----------------:|
 | **📏 [Melee](../../../../rule/combat/melee.md) 1**                        | **🎯 One creature** |
 

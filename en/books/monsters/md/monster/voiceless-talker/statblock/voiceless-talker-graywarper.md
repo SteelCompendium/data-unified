@@ -30,7 +30,7 @@ with_captain: +2 bonus to Stamina
 
 > 🏹 **Phase Chant ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
-> | **Psionic, Ranged, Strike** |                          **Main action** |
+> | **Psionic, Ranged, Strike** |                          **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-----------------------------|-----------------------------------------:|
 > | **📏 Ranged 8**             | **🎯 One creature or object per minion** |
 >

@@ -1,5 +1,5 @@
 ---
-action_type: Triggered
+action_type: '[Triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)'
 class: fury
 distance: Self
 effect: You gain [temporary Stamina](scc.v1:mcdm.heroes.v1/rule.health/temporary-stamina) equal to your [Might](scc.v1:mcdm.heroes.v1/rule.character/might) score and can enter your [animal form](scc.v1:mcdm.heroes.v1/complication/animal-form) or hybrid form.
@@ -32,7 +32,7 @@ feature_type: ability
 flavor: In your anger, you revert to a more bestial form.
 keywords: []
 metadata:
-    action_type: Triggered
+    action_type: '[Triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)'
     class: fury
     distance: Self
     effect: You gain [temporary Stamina](scc.v1:mcdm.heroes.v1/rule.health/temporary-stamina) equal to your [Might](scc.v1:mcdm.heroes.v1/rule.character/might) score and can enter your [animal form](scc.v1:mcdm.heroes.v1/complication/animal-form) or hybrid form.
@@ -51,5 +51,5 @@ name: Furious Change
 target: Self
 trigger: You lose [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) and are not [dying](scc.v1:mcdm.heroes.v1/rule.health/dying).
 type: feature
-usage: Triggered
+usage: '[Triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)'
 ```

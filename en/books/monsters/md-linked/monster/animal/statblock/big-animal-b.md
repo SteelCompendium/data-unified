@@ -28,7 +28,7 @@ type: statblock
 
 > 🗡 **Natural Weapon (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](../../../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 2**            | **🎯 Two creatures or objects** |
 >
@@ -40,7 +40,7 @@ type: statblock
 
 > 👤 **Trundle**
 >
-> | **-**       | **Maneuver** |
+> | **-**       | **[Maneuver](../../../rule/combat/turn.md)** |
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
@@ -48,7 +48,7 @@ type: statblock
 
 > ❗️ **Animal Rally**
 >
-> | **-**            | **Triggered action** |
+> | **-**            | **[Triggered action](../../../rule/combat/triggered-action.md)** |
 > |------------------|---------------------:|
 > | **📏 Ranged 20** |      **🎯 One ally** |
 >

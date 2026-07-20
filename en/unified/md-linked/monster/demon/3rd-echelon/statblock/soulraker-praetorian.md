@@ -32,7 +32,7 @@ weaknesses:
 
 > 🗡 **Barbed Stinger (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |     **Main action** |
+> | **Melee, Strike, Weapon** |     **[Main action](../../../../rule/combat/turn.md)** |
 > |---------------------------|--------------------:|
 > | **📏 Melee 2**            | **🎯 One creature** |
 >
@@ -46,7 +46,7 @@ weaknesses:
 
 > ❗️ **Stinging Departure (2 [Malice](../../../../rule/monster/malice.md))**
 >
-> | **-**       |           **Triggered action** |
+> | **-**       |           **[Triggered action](../../../../rule/combat/triggered-action.md)** |
 > |-------------|-------------------------------:|
 > | **📏 Self** | **🎯 The triggering creature** |
 >

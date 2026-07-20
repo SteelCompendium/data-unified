@@ -6,11 +6,13 @@ file_dpath: treasure/1st-echelon/trinket
 flavor: A coil of emerald-green vines is topped with the jaws of an enormous Venus flytrap.
 item_id: divine-vine
 item_name: Divine Vine
+item_prerequisite: Three withered mundane vines, a tree's blessing
 keywords:
     - Magic
 name: Divine Vine
 project_goal: "150"
 project_roll_characteristic: '[Reason](../../../rule/character/reason.md) or [Presence](../../../rule/character/presence.md)'
+project_source: Songs in Yllyric
 scc: mcdm.heroes.v1/treasure.1st-echelon.trinket/divine-vine
 source: mcdm.heroes.v1
 treasure_type: trinket

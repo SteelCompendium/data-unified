@@ -14,9 +14,9 @@
     "Magic"
   ],
   "metadata": {
-    "action_type": "Maneuver",
+    "action_type": "[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)",
     "class": "shadow",
-    "content": "\n*You cause a plume of shadow to erupt from your eyes and create a cloud of darkness.*\n\n| **Area, Magic** |   **Maneuver** |\n|-----------------|---------------:|\n| **📏 3 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)**  | **🎯 Special** |\n\n**Effect:** A black cloud fills the area until the end of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), granting you and your allies [concealment](scc.v1:mcdm.heroes.v1/rule.combat/concealment) against enemies. While you are in the area, whenever an enemy ends their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) in the area, you can use a free [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action) to [shift](scc.v1:mcdm.heroes.v1/movement/shifting) to a new location within the area and make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against them.",
+    "content": "\n*You cause a plume of shadow to erupt from your eyes and create a cloud of darkness.*\n\n| **Area, Magic** |   **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|-----------------|---------------:|\n| **📏 3 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)**  | **🎯 Special** |\n\n**Effect:** A black cloud fills the area until the end of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), granting you and your allies [concealment](scc.v1:mcdm.heroes.v1/rule.combat/concealment) against enemies. While you are in the area, whenever an enemy ends their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) in the area, you can use a free [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action) to [shift](scc.v1:mcdm.heroes.v1/movement/shifting) to a new location within the area and make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against them.",
     "distance": "3 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)",
     "feature_type": "ability",
     "flavor": "You cause a plume of shadow to erupt from your eyes and create a cloud of darkness.",
@@ -36,5 +36,5 @@
   "name": "Blackout",
   "target": "Special",
   "type": "feature",
-  "usage": "Maneuver"
+  "usage": "[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)"
 }

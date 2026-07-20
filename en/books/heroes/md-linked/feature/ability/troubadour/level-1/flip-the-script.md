@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: troubadour
 cost: 5 Drama
 distance: 3 [burst](../../../../rule/combat/burst.md)
@@ -18,7 +18,7 @@ type: ability
 
 *You try a different take on events, justifying the new locations everyone ended up in.*
 
-| **Area, Magic** |                       **Main action** |
+| **Area, Magic** |                       **[Main action](../../../../rule/combat/turn.md)** |
 |-----------------|--------------------------------------:|
 | **📏 3 [burst](../../../../rule/combat/burst.md)**  | **🎯 Self and each ally in the area** |
 

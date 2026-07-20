@@ -1,5 +1,5 @@
 ---
-action_type: Free triggered
+action_type: Free [triggered](../../../../rule/combat/triggered-action.md)
 class: fury
 cost: 9 Ferocity
 distance: '[Melee](../../../../rule/combat/melee.md) 1'
@@ -22,7 +22,7 @@ type: ability
 
 *Once you taste your foe's blood, you become more efficient and [turn](../../../../rule/combat/turn.md) every killing blow into an opportunity.*
 
-| **[Melee](../../../../rule/combat/melee.md), [Strike](../../../../rule/combat/strike.md), Weapon** | **Free triggered** |
+| **[Melee](../../../../rule/combat/melee.md), [Strike](../../../../rule/combat/strike.md), Weapon** | **Free [triggered](../../../../rule/combat/triggered-action.md)** |
 |---------------------------|-------------------:|
 | **📏 [Melee](../../../../rule/combat/melee.md) 1**            |        **🎯 Self** |
 

@@ -17,7 +17,7 @@ Choose one of the following abilities.
 
 *Your unorthodox strategy causes enemies to lash out in fear, heedless of who they might be attacking.*
 
-| **[Ranged](../../../rule/combat/ranged.md)**       |         **Maneuver** |
+| **[Ranged](../../../rule/combat/ranged.md)**       |         **[Maneuver](../../../rule/combat/turn.md)** |
 |------------------|---------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10** | **🎯 Two creatures** |
 
@@ -30,7 +30,7 @@ Choose one of the following abilities.
 
 *"Try picking on someone my [size](../../../rule/character/size.md)."*
 
-| **[Melee](../../../rule/combat/melee.md), [Strike](../../../rule/combat/strike.md), Weapon** | **Main action** |
+| **[Melee](../../../rule/combat/melee.md), [Strike](../../../rule/combat/strike.md), Weapon** | **[Main action](../../../rule/combat/turn.md)** |
 |---------------------------|----------------:|
 | **📏 Self; see below**    |     **🎯 Self** |
 
@@ -51,7 +51,7 @@ Choose one of the following abilities.
 
 *Your enemy will think twice about attacking your friend.*
 
-| **[Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md), Weapon** |     **Main action** |
+| **[Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md), Weapon** |     **[Main action](../../../rule/combat/turn.md)** |
 |----------------------------|--------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 5**            | **🎯 One creature** |
 
@@ -68,7 +68,7 @@ Choose one of the following abilities.
 
 *You point out easy targets to your friends, allowing them to include more enemies in their attacks.*
 
-| **[Ranged](../../../rule/combat/ranged.md)**      |         **Maneuver** |
+| **[Ranged](../../../rule/combat/ranged.md)**      |         **[Maneuver](../../../rule/combat/turn.md)** |
 |-----------------|---------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 5** | **🎯 Two creatures** |
 
@@ -85,7 +85,7 @@ Choose one of the following abilities.
 
 *You prioritize saving an ally over your own safety.*
 
-| **[Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md), Weapon** |    **Triggered** |
+| **[Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md), Weapon** |    **[Triggered](../../../rule/combat/triggered-action.md)** |
 |----------------------------|-----------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 5**            | **🎯 One enemy** |
 
@@ -104,7 +104,7 @@ Choose one of the following abilities.
 
 *Together we are invincible!*
 
-| **Area**       |                          **Maneuver** |
+| **Area**       |                          **[Maneuver](../../../rule/combat/turn.md)** |
 |----------------|--------------------------------------:|
 | **📏 1 [burst](../../../rule/combat/burst.md)** | **🎯 Self and each ally in the area** |
 

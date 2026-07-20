@@ -3,6 +3,7 @@ agility: -1
 cost: 5 essence for three minions
 flavor: The preserved dead, bound for eternal rest, know only violence when robbed of their future. Accursed mummies use their wrappings to bind others to the same fate.
 free_strike: 3
+free_strike_damage_type: Poison
 immunities:
     - Corruption R
     - Poison R
@@ -37,7 +38,7 @@ The preserved dead, bound for eternal rest, know only violence when robbed of th
 
 > 🏹 **Fetid Bindings 2d10 + R (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** | **Main action** |
+> | **Melee, Strike, Weapon** | **[Main action](../../../../../rule/combat/turn.md)** |
 > |---------------------------|----------------:|
 > | **📏 Melee R** | **🎯 One creature or object per minion** |
 >

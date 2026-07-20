@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: conduit
 cost: 11 Piety
 distance: Self; see below
@@ -19,7 +19,7 @@ type: ability
 
 *A magic circle extends out from you, barring foes from getting close.*
 
-| **Area, Magic**        | **Maneuver** |
+| **Area, Magic**        | **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 |------------------------|-------------:|
 | **📏 Self; see below** |  **🎯 Self** |
 

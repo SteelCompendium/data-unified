@@ -17,7 +17,7 @@ Choose one of the following abilities.
 
 *You enchant a [strike](../../../rule/combat/strike.md) with your [teleport](../../../movement/teleport.md)ation magic.*
 
-| **Magic, [Melee](../../../rule/combat/melee.md), [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md), Weapon** |     **Main action** |
+| **Magic, [Melee](../../../rule/combat/melee.md), [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md), Weapon** |     **[Main action](../../../rule/combat/turn.md)** |
 |------------------------------------------|--------------------:|
 | **📏 [Melee](../../../rule/combat/melee.md) 1 or [ranged](../../../rule/combat/ranged.md) 5**               | **🎯 One creature** |
 
@@ -32,7 +32,7 @@ Choose one of the following abilities.
 
 *Your foe made a big mistake.*
 
-| **-**                  | **Free triggered** |
+| **-**                  | **Free [triggered](../../../rule/combat/triggered-action.md)** |
 |------------------------|-------------------:|
 | **📏 Self; see below** |        **🎯 Self** |
 
@@ -49,7 +49,7 @@ Choose one of the following abilities.
 
 *Explosives are best when they're attached to an enemy.*
 
-| **[Ranged](../../../rule/combat/ranged.md)**       |     **Main action** |
+| **[Ranged](../../../rule/combat/ranged.md)**       |     **[Main action](../../../rule/combat/turn.md)** |
 |------------------|--------------------:|
 | **📏 [Ranged](../../../rule/combat/ranged.md) 10** | **🎯 One creature** |
 
@@ -66,7 +66,7 @@ Choose one of the following abilities.
 
 *Putrid yellow gas explodes from a bomb you toss.*
 
-| **Area, [Ranged](../../../rule/combat/ranged.md)**        |                  **Main action** |
+| **Area, [Ranged](../../../rule/combat/ranged.md)**        |                  **[Main action](../../../rule/combat/turn.md)** |
 |-------------------------|---------------------------------:|
 | **📏 3 [cube](../../../rule/combat/cube.md) within 10** | **🎯 Each creature in the area** |
 
@@ -87,7 +87,7 @@ Choose one of the following abilities.
 
 *Illusory sounds make your foes reposition themselves as they cower or investigate the disturbance.*
 
-| **Area, Magic, [Ranged](../../../rule/combat/ranged.md)** |                     **Maneuver** |
+| **Area, Magic, [Ranged](../../../rule/combat/ranged.md)** |                     **[Maneuver](../../../rule/combat/turn.md)** |
 |-------------------------|---------------------------------:|
 | **📏 3 [cube](../../../rule/combat/cube.md) within 10** | **🎯 Each creature in the area** |
 
@@ -104,7 +104,7 @@ Choose one of the following abilities.
 
 *When your enemy strikes, you reveal you were in a different place all along.*
 
-| **Magic**            | **Free triggered** |
+| **Magic**            | **Free [triggered](../../../rule/combat/triggered-action.md)** |
 |----------------------|-------------------:|
 | **📏 Self**          |        **🎯 Self** |
 

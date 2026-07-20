@@ -211,7 +211,7 @@ At the start of Ajax's turn, you can spend Malice to activate one of the followi
 
 > 🔳 **Draw Steel (10 Malice)**
 >
-> | **Area, Magic, Ranged, Weapon**  |                          **Main Action** |
+> | **Area, Magic, Ranged, Weapon**  |                          **[Main Action](../rule/combat/turn.md)** |
 > |----------------------------------|-----------------------------------------:|
 > | **📏 Four 3 cubes within 10**    | **🎯 Each enemy and object in the area** |
 >
@@ -239,7 +239,7 @@ At the start of Ajax's turn, you can spend Malice to activate one of the followi
 
 > 🗡 **Blade of the Gol King ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Charge, Magic, Melee, Strike, Weapon** |                 **Main Action** |
+> | **Charge, Magic, Melee, Strike, Weapon** |                 **[Main Action](../rule/combat/turn.md)** |
 > |------------------------------------------|--------------------------------:|
 > | **📏 Melee 1**                           | **🎯 Two creatures or objects** |
 >
@@ -255,7 +255,7 @@ At the start of Ajax's turn, you can spend Malice to activate one of the followi
 
 > 🔳 **Decree by the Jade Hand**
 >
-> | **Area, Magic, Ranged**     |                          **Main Action** |
+> | **Area, Magic, Ranged**     |                          **[Main Action](../rule/combat/turn.md)** |
 > |-----------------------------|-----------------------------------------:|
 > | **📏 3 cube within 10**     | **🎯 Each enemy and object in the area** |
 >
@@ -271,7 +271,7 @@ At the start of Ajax's turn, you can spend Malice to activate one of the followi
 
 > 🏹 **Divine Vine**
 >
-> | **Magic, Ranged, Weapon**  |                    **Maneuver** |
+> | **Magic, Ranged, Weapon**  |                    **[Maneuver](../rule/combat/turn.md)** |
 > |----------------------------|--------------------------------:|
 > | **📏 Ranged 5**            | **🎯 One creature or object** |
 >
@@ -287,7 +287,7 @@ At the start of Ajax's turn, you can spend Malice to activate one of the followi
 
 > 🔳 **Bead of Hell (2 Malice)**
 >
-> | **Area, Magic, Ranged** |    **Maneuver** |
+> | **Area, Magic, Ranged** |    **[Maneuver](../rule/combat/turn.md)** |
 > |-------------------------|----------------:|
 > | **📏 5 cube within 20** |  **🎯 Special** |
 >
@@ -299,7 +299,7 @@ At the start of Ajax's turn, you can spend Malice to activate one of the followi
 
 > ❗️ **Is This What They Taught You?**
 >
-> | **Ranged**       |           **Triggered action** |
+> | **Ranged**       |           **[Triggered action](../rule/combat/triggered-action.md)** |
 > |------------------|-------------------------------:|
 > | **📏 Ranged 10** | **🎯 The triggering creature** |
 >
@@ -309,7 +309,7 @@ At the start of Ajax's turn, you can spend Malice to activate one of the followi
 
 > ❗️ **Shieldbreaker Talisman**
 >
-> | **Magic, Melee** |           **Triggered action** |
+> | **Magic, Melee** |           **[Triggered action](../rule/combat/triggered-action.md)** |
 > |------------------|-------------------------------:|
 > | **📏 Melee 5**   | **🎯 The triggering creature** |
 >
@@ -319,7 +319,7 @@ At the start of Ajax's turn, you can spend Malice to activate one of the followi
 
 > ❗️ **Who's Hesitating?**
 >
-> | **-**       | **Triggered action** |
+> | **-**       | **[Triggered action](../rule/combat/triggered-action.md)** |
 > |-------------|---------------------:|
 > | **📏 Self** |          **🎯 Self** |
 >
@@ -329,7 +329,7 @@ At the start of Ajax's turn, you can spend Malice to activate one of the followi
 
 > ❗️ **Your Obsession With Me Betrays You**
 >
-> | **Magic, Ranged**  |           **Triggered action** |
+> | **Magic, Ranged**  |           **[Triggered action](../rule/combat/triggered-action.md)** |
 > |--------------------|-------------------------------:|
 > | **📏 Ranged 10**   | **🎯 The triggering creature** |
 >
@@ -339,7 +339,7 @@ At the start of Ajax's turn, you can spend Malice to activate one of the followi
 
 > ❗️ **You Would Flounder Your Assault? (2 Malice)**
 >
-> | **Magic**   | **Triggered action** |
+> | **Magic**   | **[Triggered action](../rule/combat/triggered-action.md)** |
 > |-------------|---------------------:|
 > | **📏 Self** |          **🎯 Self** |
 >
@@ -443,7 +443,7 @@ At the start of any angulotl's turn, you can spend Malice to activate one of the
 
 > 🗡 **Hop and Chop (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |                          **Main action** |
+> | **Melee, Strike, Weapon** |                          **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|-----------------------------------------:|
 > | **📏 Melee 1**            | **🎯 One creature or object per minion** |
 >
@@ -469,7 +469,7 @@ At the start of any angulotl's turn, you can spend Malice to activate one of the
 
 > 🏹 **Poison Dart (Signature Ability)**
 >
-> | **Ranged, Strike, Weapon** |                **Main action** |
+> | **Ranged, Strike, Weapon** |                **[Main action](../rule/combat/turn.md)** |
 > |----------------------------|-------------------------------:|
 > | **📏 Ranged 8**            | **🎯 One creature per minion** |
 >
@@ -495,7 +495,7 @@ At the start of any angulotl's turn, you can spend Malice to activate one of the
 
 > 🗡 **Nip (Signature Ability)**
 >
-> | **Melee, Strike, Weapon**  |                         **Main action** |
+> | **Melee, Strike, Weapon**  |                         **[Main action](../rule/combat/turn.md)** |
 > |----------------------------|----------------------------------------:|
 > | **📏 Melee 1**             |          **🎯 One creature per minion** |
 >
@@ -519,7 +519,7 @@ At the start of any angulotl's turn, you can spend Malice to activate one of the
 
 > 🗡 **Hookclaw (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |                          **Main action** |
+> | **Melee, Strike, Weapon** |                          **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|-----------------------------------------:|
 > | **📏 Melee 1**            | **🎯 One creature or object per minion** |
 >
@@ -545,7 +545,7 @@ At the start of any angulotl's turn, you can spend Malice to activate one of the
 
 > 🏹 **Blowgun (Signature Ability)**
 >
-> | **Ranged, Strike, Weapon** |      **Main action** |
+> | **Ranged, Strike, Weapon** |      **[Main action](../rule/combat/turn.md)** |
 > |----------------------------|---------------------:|
 > | **📏 Ranged 15**           |  **🎯 One creature** |
 >
@@ -571,7 +571,7 @@ At the start of any angulotl's turn, you can spend Malice to activate one of the
 
 > 🗡 **Tonguelash (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |               **Main action** |
+> | **Melee, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Melee 6**            | **🎯 One creature or object** |
 >
@@ -585,7 +585,7 @@ At the start of any angulotl's turn, you can spend Malice to activate one of the
 
 > 👤 **Hop To It (2 Malice)**
 >
-> | **-**       | **Free maneuver** |
+> | **-**       | **[Free maneuver](../rule/combat/free-maneuver.md)** |
 > |-------------|------------------:|
 > | **📏 Self** |       **🎯 Self** |
 >
@@ -609,7 +609,7 @@ At the start of any angulotl's turn, you can spend Malice to activate one of the
 
 > 🏹 **Refulgent Beams (Signature Ability)**
 >
-> | **Magic, Ranged, Strike** |                 **Main action** |
+> | **Magic, Ranged, Strike** |                 **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Ranged 8**           | **🎯 Two creatures or objects** |
 >
@@ -623,7 +623,7 @@ At the start of any angulotl's turn, you can spend Malice to activate one of the
 
 > 🔳 **Noxious Bubble (2 [Malice](../rule/monster/malice.md))**
 >
-> | **Area, Magic, Ranged**                     | **Main action** |
+> | **Area, Magic, Ranged**                     | **[Main action](../rule/combat/turn.md)** |
 > |---------------------------------------------|----------------:|
 > | **📏 2 cube of unoccupied space within 10** |  **🎯 Special** |
 >
@@ -662,7 +662,7 @@ At the start of any angulotl's turn, you can spend Malice to activate one of the
 
 > 🗡 **Acid Grasp (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |  
+> | **Melee, Strike, Weapon** |                 **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 1**            | **🎯 Two creatures or objects** |
 >
@@ -678,7 +678,7 @@ At the start of any angulotl's turn, you can spend Malice to activate one of the
 
 > 👤 **Sun Lamp**
 >
-> | **-**       | **Maneuver** |
+> | **-**       | **[Maneuver](../rule/combat/turn.md)** |
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
@@ -686,7 +686,7 @@ At the start of any angulotl's turn, you can spend Malice to activate one of the
 
 > ❗️ **Tongue Slap**
 >
-> | **Melee**      |             **Triggered action** |
+> | **Melee**      |             **[Triggered action](../rule/combat/triggered-action.md)** |
 > |----------------|---------------------------------:|
 > | **📏 Melee 5** |              **🎯 One creature** |
 >
@@ -930,7 +930,7 @@ The animal gains the following ability.
 
 > 🔳 **Web**
 >
-> | **Area, Weapon**       |                     **Maneuver** |
+> | **Area, Weapon**       |                     **[Maneuver](../rule/combat/turn.md)** |
 > |------------------------|---------------------------------:|
 > | **📏 3 cube within 1** | **🎯 Each creature in the area** |
 >
@@ -1016,7 +1016,7 @@ The Example Animals table breaks out a number of animals using this notation. Se
 
 > 🗡 **Natural Weapon (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 1**            | **🎯 Two creatures or objects** |
 >
@@ -1030,7 +1030,7 @@ The Example Animals table breaks out a number of animals using this notation. Se
 
 > 👤 **Rush**
 >
-> | **-**       | **Maneuver** |
+> | **-**       | **[Maneuver](../rule/combat/turn.md)** |
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
@@ -1050,7 +1050,7 @@ The Example Animals table breaks out a number of animals using this notation. Se
 
 > 🗡 **Flurry (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 1**            | **🎯 Two creatures or objects** |
 >
@@ -1068,7 +1068,7 @@ The Example Animals table breaks out a number of animals using this notation. Se
 
 > ❇️ **Impede**
 >
-> | **Area**      |   **Maneuver** |
+> | **Area**      |   **[Maneuver](../rule/combat/turn.md)** |
 > |---------------|---------------:|
 > | **📏 1 aura** | **🎯 Special** |
 >
@@ -1088,7 +1088,7 @@ The Example Animals table breaks out a number of animals using this notation. Se
 
 > 🗡 **Natural Weapon (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 1**            | **🎯 Two creatures or objects** |
 >
@@ -1100,7 +1100,7 @@ The Example Animals table breaks out a number of animals using this notation. Se
 
 > 🗡 **Toss**
 >
-> | **Melee**      |                  **Maneuver** |
+> | **Melee**      |                  **[Maneuver](../rule/combat/turn.md)** |
 > |----------------|------------------------------:|
 > | **📏 Melee 1** | **🎯 One creature or object** |
 >
@@ -1110,7 +1110,7 @@ The Example Animals table breaks out a number of animals using this notation. Se
 
 > ❗️ **Juke**
 >
-> | **-**       | **Triggered action** |
+> | **-**       | **[Triggered action](../rule/combat/triggered-action.md)** |
 > |-------------|---------------------:|
 > | **📏 Self** |          **🎯 Self** |
 >
@@ -1132,7 +1132,7 @@ The Example Animals table breaks out a number of animals using this notation. Se
 
 > 🗡 **Natural Weapon (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 2**            | **🎯 Two creatures or objects** |
 >
@@ -1144,7 +1144,7 @@ The Example Animals table breaks out a number of animals using this notation. Se
 
 > 👤 **Trundle**
 >
-> | **-**       | **Maneuver** |
+> | **-**       | **[Maneuver](../rule/combat/turn.md)** |
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
@@ -1152,7 +1152,7 @@ The Example Animals table breaks out a number of animals using this notation. Se
 
 > ❗️ **Animal Rally**
 >
-> | **-**            | **Triggered action** |
+> | **-**            | **[Triggered action](../rule/combat/triggered-action.md)** |
 > |------------------|---------------------:|
 > | **📏 Ranged 20** |      **🎯 One ally** |
 >
@@ -1195,7 +1195,7 @@ The Example Animals table breaks out a number of animals using this notation. Se
 
 > 🗡 **Natural Weapon (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 1**            | **🎯 Two creatures or objects** |
 >
@@ -1207,7 +1207,7 @@ The Example Animals table breaks out a number of animals using this notation. Se
 
 > 👤 **Ready to Strike**
 >
-> | **-**       | **Maneuver** |
+> | **-**       | **[Maneuver](../rule/combat/turn.md)** |
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
@@ -1215,7 +1215,7 @@ The Example Animals table breaks out a number of animals using this notation. Se
 
 > ❗️ **Quick Strike**
 >
-> | **Melee, Strike, Weapon** |                     **Triggered action** |
+> | **Melee, Strike, Weapon** |                     **[Triggered action](../rule/combat/triggered-action.md)** |
 > |---------------------------|-----------------------------------------:|
 > | **📏 Melee 1**            | **🎯 The triggering creature or object** |  
 >
@@ -1237,7 +1237,7 @@ The Example Animals table breaks out a number of animals using this notation. Se
 
 > 🗡 **Natural Weapon (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 2**            | **🎯 Two creatures or objects** |
 >
@@ -1249,7 +1249,7 @@ The Example Animals table breaks out a number of animals using this notation. Se
 
 > ❇️ **Wild Swing**
 >
-> | **Area, Weapon** |                         **Main action** |
+> | **Area, Weapon** |                         **[Main action](../rule/combat/turn.md)** |
 > |------------------|----------------------------------------:|
 > | **📏 1 burst**   | **🎯 Each enemy or object in the area** |
 >
@@ -1261,7 +1261,7 @@ The Example Animals table breaks out a number of animals using this notation. Se
 
 > ❗️ **Swat**
 >
-> | **Melee**      |                     **Triggered action** |
+> | **Melee**      |                     **[Triggered action](../rule/combat/triggered-action.md)** |
 > |----------------|-----------------------------------------:|
 > | **📏 Melee 1** | **🎯 The triggering creature or object** |
 >
@@ -1339,7 +1339,7 @@ At the start of an arixx's turn, you can spend Malice to activate one of the fol
 
 > 🗡 **Bite (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |               **Main action** |
+> | **Melee, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Melee 2**            | **🎯 One creature or object** |
 >
@@ -1353,7 +1353,7 @@ At the start of an arixx's turn, you can spend Malice to activate one of the fol
 
 > 🗡 **Claw Swing**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 2**            | **🎯 Two creatures or objects** |
 >
@@ -1367,7 +1367,7 @@ At the start of an arixx's turn, you can spend Malice to activate one of the fol
 
 > 🏹 **Spitfire**
 >
-> | **Ranged, Strike, Weapon** |                 **Main action** |
+> | **Ranged, Strike, Weapon** |                 **[Main action](../rule/combat/turn.md)** |
 > |----------------------------|--------------------------------:|
 > | **📏 Ranged 10**           | **🎯 Two creatures or objects** |
 >
@@ -1381,7 +1381,7 @@ At the start of an arixx's turn, you can spend Malice to activate one of the fol
 
 > ❇️ **Dirt Devil (3 Malice)**
 >
-> | **Area**       |               **Main action** |
+> | **Area**       |               **[Main action](../rule/combat/turn.md)** |
 > |----------------|------------------------------:|
 > | **📏 3 burst** | **🎯 Each enemy in the area** |
 >
@@ -1395,7 +1395,7 @@ At the start of an arixx's turn, you can spend Malice to activate one of the fol
 
 > ❇️ **Dust Cloud**
 >
-> | **Area**       |   **Maneuver** |
+> | **Area**       |   **[Maneuver](../rule/combat/turn.md)** |
 > |----------------|---------------:|
 > | **📏 1 burst** | **🎯 Special** |
 >
@@ -1403,7 +1403,7 @@ At the start of an arixx's turn, you can spend Malice to activate one of the fol
 
 > ❗️ **Skitter**
 >
-> | **-**       | **Triggered action** |
+> | **-**       | **[Triggered action](../rule/combat/triggered-action.md)** |
 > |-------------|---------------------:|
 > | **📏 Self** |          **🎯 Self** |
 >
@@ -1503,7 +1503,7 @@ At the start of an ashen hoarder's turn, you can spend Malice to activate one of
 
 > 🗡 **Claw and Blade (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 2**            | **🎯 Two creatures or objects** |
 >
@@ -1517,7 +1517,7 @@ At the start of an ashen hoarder's turn, you can spend Malice to activate one of
 
 > 🔳 **Corpse Bomb**
 >
-> | **Area, Magic, Ranged** |               **Main Action** |
+> | **Area, Magic, Ranged** |               **[Main Action](../rule/combat/turn.md)** |
 > |-------------------------|------------------------------:|
 > | **📏 4 cube within 20** | **🎯 Each enemy in the area** |
 >
@@ -1533,7 +1533,7 @@ At the start of an ashen hoarder's turn, you can spend Malice to activate one of
 
 > 🔳 **Impale (3 Malice)**
 >
-> | **Area, Weapon**           |                  **Main action** |
+> | **Area, Weapon**           |                  **[Main action](../rule/combat/turn.md)** |
 > |----------------------------|---------------------------------:|
 > | **📏 4 x 1 line within 1** | **🎯 Each creature in the area** |
 >
@@ -1547,7 +1547,7 @@ At the start of an ashen hoarder's turn, you can spend Malice to activate one of
 
 > 👤 **Bone Dozer**
 >
-> | **-**       | **Maneuver** |
+> | **-**       | **[Maneuver](../rule/combat/turn.md)** |
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
@@ -1555,7 +1555,7 @@ At the start of an ashen hoarder's turn, you can spend Malice to activate one of
 
 > ❗️ **Armor of Corpses (2 [Malice](../rule/monster/malice.md))**
 >
-> | **-**       | **Triggered action** |
+> | **-**       | **[Triggered action](../rule/combat/triggered-action.md)** |
 > |-------------|---------------------:|
 > | **📏 Self** |          **🎯 Self** |
 >
@@ -1638,7 +1638,7 @@ At the start of any basilisk's turn, you can spend Malice to activate one of the
 > 🔳 **Upchuck (5 [Malice](../rule/monster/malice.md))**
 >
 >
-> | **Area, Weapon**        |               **Main action** |
+> | **Area, Weapon**        |               **[Main action](../rule/combat/turn.md)** |
 > |-------------------------|------------------------------:|
 > | **📏 3 cube within 10** | **🎯 Each enemy in the area** |
 >
@@ -1664,7 +1664,7 @@ At the start of any basilisk's turn, you can spend Malice to activate one of the
 
 > 🗡 **Noxious Bite (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |                 **Main Action** |
+> | **Melee, Strike, Weapon** |                 **[Main Action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 1**            | **🎯 Two creatures or objects** |
 >
@@ -1678,7 +1678,7 @@ At the start of any basilisk's turn, you can spend Malice to activate one of the
 
 > 🔳 **Petrifying Eye Beams**
 >
-> | **Area, Magic**            |   **Maneuver** |
+> | **Area, Magic**            |   **[Maneuver](../rule/combat/turn.md)** |
 > |----------------------------|---------------:|
 > | **📏 5 x 2 line within 1** | **🎯 Special** |
 >
@@ -1694,7 +1694,7 @@ At the start of any basilisk's turn, you can spend Malice to activate one of the
 
 > 🔳 **Poison Fumes (5 [Malice](../rule/monster/malice.md))**
 >
-> | **Area, Magic**        |               **Main action** |
+> | **Area, Magic**        |               **[Main action](../rule/combat/turn.md)** |
 > |------------------------|------------------------------:|
 > | **📏 3 cube within 1** | **🎯 Each enemy in the area** |
 >
@@ -1706,7 +1706,7 @@ At the start of any basilisk's turn, you can spend Malice to activate one of the
 
 > ❗️ **Lash Out**
 >
-> | **Area** | **Triggered action** |
+> | **Area** | **[Triggered action](../rule/combat/triggered-action.md)** |
 > |-----------------------------|------------------------------:|
 > | **📏 1 burst**     | **🎯 Each enemy in the area** |
 >
@@ -1728,7 +1728,7 @@ At the start of any basilisk's turn, you can spend Malice to activate one of the
 
 > 🗡 **Prehensile Tongue (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |               **Main action** |
+> | **Melee, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Melee 3**            | **🎯 One creature or object** |
 >
@@ -1744,7 +1744,7 @@ At the start of any basilisk's turn, you can spend Malice to activate one of the
 
 > 🔳 **Petrifying Eye Beams**
 >
-> | **Area, Magic**            |   **Maneuver** |
+> | **Area, Magic**            |   **[Maneuver](../rule/combat/turn.md)** |
 > |----------------------------|---------------:|
 > | **📏 5 x 2 line within 1** | **🎯 Special** |
 >
@@ -1760,7 +1760,7 @@ At the start of any basilisk's turn, you can spend Malice to activate one of the
 
 > ⚔️ **Wink (2 Malice)**
 >
-> | **Magic, Melee, Ranged, Strike** |     **Main action** |
+> | **Magic, Melee, Ranged, Strike** |     **[Main action](../rule/combat/turn.md)** |
 > |----------------------------------|--------------------:|
 > | **📏 Melee 1 or ranged 10**      | **🎯 One creature** |
 >
@@ -1774,7 +1774,7 @@ At the start of any basilisk's turn, you can spend Malice to activate one of the
 
 > ❗️ **Neurotoxin Splash**
 >
-> | **Area**       |          **Triggered action** |
+> | **Area**       |          **[Triggered action](../rule/combat/triggered-action.md)** |
 > |----------------|------------------------------:|
 > | **📏 2 burst** | **🎯 Each enemy in the area** |
 >
@@ -1852,7 +1852,7 @@ At the start of a bredbeddle's turn, you can spend Malice to activate one of the
 
 > ❇️ **Executioner's Swing (Signature Ability)**
 >
-> | **Area, Weapon** |               **Main action** |
+> | **Area, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |------------------|------------------------------:|
 > | **📏 2 burst**   | **🎯 Each enemy in the area** |
 >
@@ -1866,7 +1866,7 @@ At the start of a bredbeddle's turn, you can spend Malice to activate one of the
 
 > 🗡 **Lop (3 Malice)**
 >
-> | **Magic, Melee, Strike, Weapon** |     **Main action** |
+> | **Magic, Melee, Strike, Weapon** |     **[Main action](../rule/combat/turn.md)** |
 > |----------------------------------|--------------------:|
 > | **📏 Melee 2**                   | **🎯 One creature** |
 >
@@ -1880,7 +1880,7 @@ At the start of a bredbeddle's turn, you can spend Malice to activate one of the
 
 > 👤 **Scramble**
 >
-> | **-**       | **Maneuver** |
+> | **-**       | **[Maneuver](../rule/combat/turn.md)** |
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
@@ -1888,7 +1888,7 @@ At the start of a bredbeddle's turn, you can spend Malice to activate one of the
 
 > 🏹 **Headway (5 Malice)**
 >
-> | **Ranged, Strike, Weapon** |                  **Maneuver** |
+> | **Ranged, Strike, Weapon** |                  **[Maneuver](../rule/combat/turn.md)** |
 > |----------------------------|------------------------------:|
 > | **📏 Ranged 20**           | **🎯 One creature or object** |
 >
@@ -1902,7 +1902,7 @@ At the start of a bredbeddle's turn, you can spend Malice to activate one of the
 
 > ❗️ **Envious Imitation (2 [Malice](../rule/monster/malice.md))**
 >
-> | **Magic**   | **Triggered action** |
+> | **Magic**   | **[Triggered action](../rule/combat/triggered-action.md)** |
 > |-------------|---------------------:|
 > | **📏 Self** |          **🎯 Self** |
 >
@@ -2002,7 +2002,7 @@ Most bugbears speak Caelian, Khelt, and Szetch.
 
 > 🏹 **Shadow Drag (Signature Ability)**
 >
-> | **Magic, Ranged, Strike** |                 **Main Action** |
+> | **Magic, Ranged, Strike** |                 **[Main Action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Ranged 8**           | **🎯 Two creatures or objects** |
 >
@@ -2016,7 +2016,7 @@ Most bugbears speak Caelian, Khelt, and Szetch.
 
 > ❇️ **Blistering Element**
 >
-> | **Area, Magic** |               **Main Action** |
+> | **Area, Magic** |               **[Main Action](../rule/combat/turn.md)** |
 > |-----------------|------------------------------:|
 > | **📏 3 burst**  | **🎯 Each enemy in the area** |
 >
@@ -2030,7 +2030,7 @@ Most bugbears speak Caelian, Khelt, and Szetch.
 
 > 🏹 **Twist Shape (5 [Malice](../rule/monster/malice.md))**
 >
-> | **Magic, Ranged, Strike** |     **Main Action** |
+> | **Magic, Ranged, Strike** |     **[Main Action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------:|
 > | **📏 Ranged 5**           | **🎯 One creature** |
 >
@@ -2044,7 +2044,7 @@ Most bugbears speak Caelian, Khelt, and Szetch.
 
 > 🗡 **Throw**
 >
-> | **Melee, Strike** |                  **Maneuver** |
+> | **Melee, Strike** |                  **[Maneuver](../rule/combat/turn.md)** |
 > |-------------------|------------------------------:|
 > | **📏 Melee 1**    | **🎯 One creature or object** |
 >
@@ -2054,7 +2054,7 @@ Most bugbears speak Caelian, Khelt, and Szetch.
 
 > ❗️ **Catcher**
 >
-> | **Melee**      |                **Free triggered action** |
+> | **Melee**      |                **Free [triggered action](../rule/combat/triggered-action.md)** |
 > |----------------|-----------------------------------------:|
 > | **📏 Melee 1** | **🎯 The triggering creature or object** |
 >
@@ -2064,7 +2064,7 @@ Most bugbears speak Caelian, Khelt, and Szetch.
 
 > ❗️ **Shadow Veil**
 >
-> | **Magic, Ranged** |       **Triggered action** |
+> | **Magic, Ranged** |       **[Triggered action](../rule/combat/triggered-action.md)** |
 > |-------------------|---------------------------:|
 > | **📏 Ranged 5**   | **🎯 The triggering ally** |
 >
@@ -2082,7 +2082,7 @@ Most bugbears speak Caelian, Khelt, and Szetch.
 
 > 🗡 **Inspiring Swordplay (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 1**            | **🎯 Two creatures or objects** |
 >
@@ -2096,7 +2096,7 @@ Most bugbears speak Caelian, Khelt, and Szetch.
 
 > 🏹 **You Next!**
 >
-> | **Ranged**      | **Main Action** |
+> | **Ranged**      | **[Main Action](../rule/combat/turn.md)** |
 > |-----------------|----------------:|
 > | **📏 Ranged 8** | **🎯 One ally** |
 >
@@ -2104,7 +2104,7 @@ Most bugbears speak Caelian, Khelt, and Szetch.
 
 > ❇️ **Fall Back! (5 [Malice](../rule/monster/malice.md))**
 >
-> | **Area**       |              **Main Action** |
+> | **Area**       |              **[Main Action](../rule/combat/turn.md)** |
 > |----------------|-----------------------------:|
 > | **📏 5 burst** | **🎯 Each ally in the area** |
 >
@@ -2112,7 +2112,7 @@ Most bugbears speak Caelian, Khelt, and Szetch.
 
 > 🗡 **Throw**
 >
-> | **Melee, Strike** |                  **Maneuver** |
+> | **Melee, Strike** |                  **[Maneuver](../rule/combat/turn.md)** |
 > |-------------------|------------------------------:|
 > | **📏 Melee 1**    | **🎯 One creature or object** |
 >
@@ -2122,7 +2122,7 @@ Most bugbears speak Caelian, Khelt, and Szetch.
 
 > ❗️ **Catcher**
 >
-> | **Melee**      |                **Free triggered action** |
+> | **Melee**      |                **Free [triggered action](../rule/combat/triggered-action.md)** |
 > |----------------|-----------------------------------------:|
 > | **📏 Melee 1** | **🎯 The triggering creature or object** |
 >
@@ -2144,7 +2144,7 @@ Most bugbears speak Caelian, Khelt, and Szetch.
 
 > 🗡 **Haymaker (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 1**            | **🎯 Two creatures or objects** |
 >
@@ -2158,7 +2158,7 @@ Most bugbears speak Caelian, Khelt, and Szetch.
 
 > 🗡 **Leaping Fury**
 >
-> | **Melee, Strike, Weapon** |               **Main action** |
+> | **Melee, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Melee 1**            | **🎯 One creature or object** |
 >
@@ -2172,7 +2172,7 @@ Most bugbears speak Caelian, Khelt, and Szetch.
 
 > 🗡 **Drag Through Hell (3 [Malice](../rule/monster/malice.md))**
 >
-> | **Melee**      |                  **Maneuver** |
+> | **Melee**      |                  **[Maneuver](../rule/combat/turn.md)** |
 > |----------------|------------------------------:|
 > | **📏 Melee 1** | **🎯 One creature or object** |
 >
@@ -2182,7 +2182,7 @@ Most bugbears speak Caelian, Khelt, and Szetch.
 
 > 🗡 **Throw**
 >
-> | **Melee, Strike** | **Maneuver** |
+> | **Melee, Strike** | **[Maneuver](../rule/combat/turn.md)** |
 > | --- | ---:|
 > | **📏 Melee 1** | **🎯 One creature or object** |
 >
@@ -2192,7 +2192,7 @@ Most bugbears speak Caelian, Khelt, and Szetch.
 
 > ❗️ **Catcher**
 >
-> | **Melee**      |                **Free triggered action** |
+> | **Melee**      |                **Free [triggered action](../rule/combat/triggered-action.md)** |
 > |----------------|-----------------------------------------:|
 > | **📏 Melee 1** | **🎯 The triggering creature or object** |
 >
@@ -2202,7 +2202,7 @@ Most bugbears speak Caelian, Khelt, and Szetch.
 
 > ❗️ **Flying Sawblade**
 >
-> | **Melee** | **Triggered action** |
+> | **Melee** | **[Triggered action](../rule/combat/triggered-action.md)** |
 > | --- | ---:|
 > | **📏 Self** | **🎯 Self** |
 >
@@ -2220,7 +2220,7 @@ Most bugbears speak Caelian, Khelt, and Szetch.
 
 > 🗡 **Sucker Punch (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |               **Main action** |
+> | **Melee, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Melee 1**            | **🎯 One creature or object** |
 >
@@ -2234,7 +2234,7 @@ Most bugbears speak Caelian, Khelt, and Szetch.
 
 > ❇️ **Shadow Cloak (3 [Malice](../rule/monster/malice.md))**
 >
-> | **Area**       |               **Main action** |
+> | **Area**       |               **[Main action](../rule/combat/turn.md)** |
 > |----------------|------------------------------:|
 > | **📏 2 burst** | **🎯 Each enemy in the area** |
 >
@@ -2248,7 +2248,7 @@ Most bugbears speak Caelian, Khelt, and Szetch.
 
 > 🏹 **Carving Dagger**
 >
-> | **Ranged, Strike, Weapon** |                 **Main action** |
+> | **Ranged, Strike, Weapon** |                 **[Main action](../rule/combat/turn.md)** |
 > |----------------------------|--------------------------------:|
 > | **📏 Ranged 8**            | **🎯 Two creatures or objects** |
 >
@@ -2262,7 +2262,7 @@ Most bugbears speak Caelian, Khelt, and Szetch.
 
 > 🗡 **Throw**
 >
-> | **Melee, Strike** |                  **Maneuver** |
+> | **Melee, Strike** |                  **[Maneuver](../rule/combat/turn.md)** |
 > |-------------------|------------------------------:|
 > | **📏 Melee 1**    | **🎯 One creature or object** |
 >
@@ -2272,7 +2272,7 @@ Most bugbears speak Caelian, Khelt, and Szetch.
 
 > ❗️ **Catcher**
 >
-> | **Melee**      |                **Free triggered action** |
+> | **Melee**      |                **Free [triggered action](../rule/combat/triggered-action.md)** |
 > |----------------|-----------------------------------------:|
 > | **📏 Melee 1** | **🎯 The triggering creature or object** |
 >
@@ -2282,7 +2282,7 @@ Most bugbears speak Caelian, Khelt, and Szetch.
 
 > ❗️ **Clever Trick (1 [Malice](../rule/monster/malice.md))**
 >
-> | **-**          | **Triggered action** |
+> | **-**          | **[Triggered action](../rule/combat/triggered-action.md)** |
 > |----------------|---------------------:|
 > | **📏 Special** |     **🎯 One enemy** |
 >
@@ -2300,7 +2300,7 @@ Most bugbears speak Caelian, Khelt, and Szetch.
 
 > 🗡 **Corrosive Blade (Signature Ability)**
 >
-> | **Magic, Melee, Strike, Weapon** |                          **Main action** |
+> | **Magic, Melee, Strike, Weapon** |                          **[Main action](../rule/combat/turn.md)** |
 > |----------------------------------|-----------------------------------------:|
 > | **📏 Melee 1**                   | **🎯 One creature or object per minion** |
 >
@@ -2330,7 +2330,7 @@ Most bugbears speak Caelian, Khelt, and Szetch.
 
 > 🗡 **Mug and Tear (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |                          **Main action** |
+> | **Melee, Strike, Weapon** |                          **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|-----------------------------------------:|
 > | **📏 Melee 1**            | **🎯 One creature or object per minion** |
 >
@@ -2356,7 +2356,7 @@ Most bugbears speak Caelian, Khelt, and Szetch.
 
 > 🗡 **Cut 'Em Low! (Signature Ability)**
 >
-> | **Charge, Melee, Strike, Weapon** |                          **Main action** |
+> | **Charge, Melee, Strike, Weapon** |                          **[Main action](../rule/combat/turn.md)** |
 > |-----------------------------------|-----------------------------------------:|
 > | **📏 Melee 1**                    | **🎯 One creature or object per minion** |
 >
@@ -2426,7 +2426,7 @@ At the start of a chimera's turn, you can spend [Malice](../rule/monster/malice.
 
 > 🗡 **Bite (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 2**            | **🎯 Two creatures or objects** |
 >
@@ -2440,7 +2440,7 @@ At the start of a chimera's turn, you can spend [Malice](../rule/monster/malice.
 
 > 🔳 **Dragon's Eruption (5 [Malice](../rule/monster/malice.md))**
 >
-> | **Area, Magic, Ranged** |               **Main action** |
+> | **Area, Magic, Ranged** |               **[Main action](../rule/combat/turn.md)** |
 > |-------------------------|------------------------------:|
 > | **📏 3 cube within 10** | **🎯 Each enemy in the area** |
 >
@@ -2452,7 +2452,7 @@ At the start of a chimera's turn, you can spend [Malice](../rule/monster/malice.
 
 > ❇️ **Roar (5 [Malice](../rule/monster/malice.md))**
 >
-> | **Area, Magic** |               **Main action** |
+> | **Area, Magic** |               **[Main action](../rule/combat/turn.md)** |
 > |-----------------|------------------------------:|
 > | **📏 5 burst**  | **🎯 Each enemy in the area** |
 >
@@ -2464,7 +2464,7 @@ At the start of a chimera's turn, you can spend [Malice](../rule/monster/malice.
 
 > 🗡 **Lion's Toss**
 >
-> | **Melee, Weapon** |                  **Maneuver** |
+> | **Melee, Weapon** |                  **[Maneuver](../rule/combat/turn.md)** |
 > |-------------------|------------------------------:|
 > | **📏 Melee 2**    | **🎯 One creature or object** |
 >
@@ -2476,7 +2476,7 @@ At the start of a chimera's turn, you can spend [Malice](../rule/monster/malice.
 
 > ❗️ **Ram's Defiance**
 >
-> | **Melee, Strike, Weapon** |           **Triggered action** |
+> | **Melee, Strike, Weapon** |           **[Triggered action](../rule/combat/triggered-action.md)** |
 > |---------------------------|-------------------------------:|
 > | **📏 Melee 2**            | **🎯 The triggering creature** |
 >
@@ -2632,7 +2632,7 @@ At the start of any demon's turn, you can spend [Malice](../rule/monster/malice.
 
 > 🗡 **Barbed Tongues (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |                          **Main action** |
+> | **Melee, Strike, Weapon** |                          **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|-----------------------------------------:|
 > | **📏 Melee 3**            | **🎯 One creature or object per minion** |
 >
@@ -2658,7 +2658,7 @@ At the start of any demon's turn, you can spend [Malice](../rule/monster/malice.
 
 > 🗡 **Rip and Tear (Signature Ability)**
 >
-> | **Charge, Melee, Strike, Weapon** |                          **Main action** |
+> | **Charge, Melee, Strike, Weapon** |                          **[Main action](../rule/combat/turn.md)** |
 > |-----------------------------------|-----------------------------------------:|
 > | **📏 Melee 1**                    | **🎯 One creature or object per minion** |
 >
@@ -2682,7 +2682,7 @@ At the start of any demon's turn, you can spend [Malice](../rule/monster/malice.
 
 > 🏹 **Spit (Signature Ability)**
 >
-> | **Ranged, Strike, Weapon** |                **Main action** |
+> | **Ranged, Strike, Weapon** |                **[Main action](../rule/combat/turn.md)** |
 > |----------------------------|-------------------------------:|
 > | **📏 Ranged 10**           | **🎯 One creature per minion** |
 >
@@ -2710,7 +2710,7 @@ At the start of any demon's turn, you can spend [Malice](../rule/monster/malice.
 
 > 🏹 **Warp Perceptions (Signature Ability)**
 >
-> | **Magic, Ranged, Strike** |     **Main action** |
+> | **Magic, Ranged, Strike** |     **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------:|
 > | **📏 Ranged 10**          | **🎯 One creature** |
 >
@@ -2724,7 +2724,7 @@ At the start of any demon's turn, you can spend [Malice](../rule/monster/malice.
 
 > 🏹 **Vanish (1 [Malice](../rule/monster/malice.md))**
 >
-> | **Magic, Ranged** |            **Maneuver** |
+> | **Magic, Ranged** |            **[Maneuver](../rule/combat/turn.md)** |
 > |-------------------|------------------------:|
 > | **📏 Ranged 10**  | **🎯 Self or one ally** |
 >
@@ -2748,7 +2748,7 @@ At the start of any demon's turn, you can spend [Malice](../rule/monster/malice.
 
 > 🗡 **Barbed Tongues (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |               **Main action** |
+> | **Melee, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Melee 2**            | **🎯 One creature or object** |
 >
@@ -2762,7 +2762,7 @@ At the start of any demon's turn, you can spend [Malice](../rule/monster/malice.
 
 > 🏹 **Tongue Pull (2 [Malice](../rule/monster/malice.md))**
 >
-> | **Ranged, Strike, Weapon** |                      **Maneuver** |
+> | **Ranged, Strike, Weapon** |                      **[Maneuver](../rule/combat/turn.md)** |
 > |----------------------------|----------------------------------:|
 > | **📏 Ranged 5**            | **🎯 Three creatures or objects** |
 >
@@ -2786,7 +2786,7 @@ At the start of any demon's turn, you can spend [Malice](../rule/monster/malice.
 
 > 🗡 **Abyssal Strike (Signature Ability)**
 >
-> | **Magic, Melee, Strike, Weapon** |               **Main action** |
+> | **Magic, Melee, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |----------------------------------|------------------------------:|
 > | **📏 Melee 1**                   | **🎯 One creature or object** |
 >
@@ -2800,7 +2800,7 @@ At the start of any demon's turn, you can spend [Malice](../rule/monster/malice.
 
 > 👤 **Grasping Shadow (3 [Malice](../rule/monster/malice.md))**
 >
-> | **Magic**   | **Maneuver** |
+> | **Magic**   | **[Maneuver](../rule/combat/turn.md)** |
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
@@ -2824,7 +2824,7 @@ At the start of any demon's turn, you can spend [Malice](../rule/monster/malice.
 
 > 🗡 **Bloodletting Claws (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 1**            | **🎯 Two creatures or objects** |
 >
@@ -2836,7 +2836,7 @@ At the start of any demon's turn, you can spend [Malice](../rule/monster/malice.
 
 > 🏹 **Salt Wounds (3 [Malice](../rule/monster/malice.md))**
 >
-> | **Magic, Ranged, Strike** |           **Maneuver** |
+> | **Magic, Ranged, Strike** |           **[Maneuver](../rule/combat/turn.md)** |
 > |---------------------------|-----------------------:|
 > | **📏 Ranged 10**          | **🎯 Three creatures** |
 >
@@ -2866,7 +2866,7 @@ At the start of any demon's turn, you can spend [Malice](../rule/monster/malice.
 
 > 🔳 **Floor to Flesh (Signature Ability)**
 >
-> | **Area, Magic, Ranged** |               **Main action** |
+> | **Area, Magic, Ranged** |               **[Main action](../rule/combat/turn.md)** |
 > |-------------------------|------------------------------:|
 > | **📏 3 cube within 10** | **🎯 Each enemy in the area** |
 >
@@ -2880,7 +2880,7 @@ At the start of any demon's turn, you can spend [Malice](../rule/monster/malice.
 
 > 🏹 **Grasping Tendons**
 >
-> | **Magic, Ranged** |           **Maneuver** |
+> | **Magic, Ranged** |           **[Maneuver](../rule/combat/turn.md)** |
 > |-------------------|-----------------------:|
 > | **📏 Ranged 10**  | **🎯 Three creatures** |
 >
@@ -2904,7 +2904,7 @@ At the start of any demon's turn, you can spend [Malice](../rule/monster/malice.
 
 > ❇️ **Agonizing Harmony (Signature Ability)**
 >
-> | **Area, Weapon** |               **Main action** |
+> | **Area, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |------------------|------------------------------:|
 > | **📏 5 burst**   | **🎯 Each enemy in the area** |
 >
@@ -2918,7 +2918,7 @@ At the start of any demon's turn, you can spend [Malice](../rule/monster/malice.
 
 > ❇️ **Chaotic Entrancing Harmony**
 >
-> | **Area**        |                  **Maneuver** |
+> | **Area**        |                  **[Maneuver](../rule/combat/turn.md)** |
 > |-----------------|------------------------------:|
 > | **📏 10 burst** | **🎯 Each enemy in the area** |
 >
@@ -2926,7 +2926,7 @@ At the start of any demon's turn, you can spend [Malice](../rule/monster/malice.
 
 > ❗️ **I Thrive on Pain (3 [Malice](../rule/monster/malice.md))**
 >
-> | **Magic**   | **Triggered action** |
+> | **Magic**   | **[Triggered action](../rule/combat/triggered-action.md)** |
 > |-------------|---------------------:|
 > | **📏 Self** |          **🎯 Self** |
 >
@@ -3014,7 +3014,7 @@ At the start of any level 4 or higher demon's turn, you can spend [Malice](../ru
 
 > 🗡 **Spinning Bone Blade (Signature Ability)**
 >
-> | **Charge, Melee, Strike, Weapon** |                          **Main action** |
+> | **Charge, Melee, Strike, Weapon** |                          **[Main action](../rule/combat/turn.md)** |
 > |-----------------------------------|-----------------------------------------:|
 > | **📏 Melee 1**                    | **🎯 One creature or object per minion** |
 >
@@ -3040,7 +3040,7 @@ At the start of any level 4 or higher demon's turn, you can spend [Malice](../ru
 
 > 🗡 **Soul Prism (Signature Ability)**
 >
-> | **Magic, Melee, Strike, Weapon** |                          **Main action** |
+> | **Magic, Melee, Strike, Weapon** |                          **[Main action](../rule/combat/turn.md)** |
 > |----------------------------------|-----------------------------------------:|
 > | **📏 Melee 1**                   | **🎯 One creature or object per minion** |
 >
@@ -3068,7 +3068,7 @@ At the start of any level 4 or higher demon's turn, you can spend [Malice](../ru
 
 > 🏹 **Despair Bolt (Signature Ability)**
 >
-> | **Magic, Ranged, Strike, Weapon** |                **Main action** |
+> | **Magic, Ranged, Strike, Weapon** |                **[Main action](../rule/combat/turn.md)** |
 > |-----------------------------------|-------------------------------:|
 > | **📏 Ranged 20**                  | **🎯 One creature per minion** |
 >
@@ -3090,7 +3090,7 @@ At the start of any level 4 or higher demon's turn, you can spend [Malice](../ru
 
 > 🏹 **Wilting Visions (Signature Ability)**
 >
-> | **Magic, Ranged, Strike** |     **Main action** |
+> | **Magic, Ranged, Strike** |     **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------:|
 > | **📏 Ranged 15**          | **🎯 One creature** |
 >
@@ -3106,7 +3106,7 @@ At the start of any level 4 or higher demon's turn, you can spend [Malice](../ru
 
 > 🔳 **Demonwarp Tears (5 [Malice](../rule/monster/malice.md))**
 >
-> | **Area, Magic, Ranged** |               **Main action** |
+> | **Area, Magic, Ranged** |               **[Main action](../rule/combat/turn.md)** |
 > |-------------------------|------------------------------:|
 > | **📏 4 cube within 5**  | **🎯 Each enemy in the area** |
 >
@@ -3138,7 +3138,7 @@ At the start of any level 4 or higher demon's turn, you can spend [Malice](../ru
 
 > 🗡 **Tooth! Tusk! Claw! (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |               **Main action** |
+> | **Melee, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Melee 1**            | **🎯 One creature or object** |
 >
@@ -3152,7 +3152,7 @@ At the start of any level 4 or higher demon's turn, you can spend [Malice](../ru
 
 > 🔳 **Tumbling Gore (2 [Malice](../rule/monster/malice.md))**
 >
-> | **Area, Weapon**           |                  **Maneuver** |
+> | **Area, Weapon**           |                  **[Maneuver](../rule/combat/turn.md)** |
 > |----------------------------|------------------------------:|
 > | **📏 8 x 3 line within 1** | **🎯 Each enemy in the area** |
 >
@@ -3184,7 +3184,7 @@ At the start of any level 4 or higher demon's turn, you can spend [Malice](../ru
 
 > ❇️ **Violent Transformation (Signature Ability)**
 >
-> | **Area, Magic** |               **Main action** |
+> | **Area, Magic** |               **[Main action](../rule/combat/turn.md)** |
 > |-----------------|------------------------------:|
 > | **📏 2 burst**  | **🎯 Each enemy in the area** |
 >
@@ -3198,7 +3198,7 @@ At the start of any level 4 or higher demon's turn, you can spend [Malice](../ru
 
 > 👤 **Aggressive Mimicry (1 [Malice](../rule/monster/malice.md))**
 >
-> | **Magic**   | **Maneuver** |
+> | **Magic**   | **[Maneuver](../rule/combat/turn.md)** |
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
@@ -3222,7 +3222,7 @@ At the start of any level 4 or higher demon's turn, you can spend [Malice](../ru
 
 > 🔳 **Bilious Expulsion (Signature Ability)**
 >
-> | **Area, Ranged, Weapon**           |                           **Main action** |
+> | **Area, Ranged, Weapon**           |                           **[Main action](../rule/combat/turn.md)** |
 > |------------------------------------|------------------------------------------:|
 > | **📏 1 burst, or 3 cube within 5** | **🎯 One creature or object in the area** |
 >
@@ -3236,7 +3236,7 @@ At the start of any level 4 or higher demon's turn, you can spend [Malice](../ru
 
 > ❗️ **Spew Slide (1 [Malice](../rule/monster/malice.md))**
 >
-> | **-**       | **Free triggered action** |
+> | **-**       | **Free [triggered action](../rule/combat/triggered-action.md)** |
 > |-------------|--------------------------:|
 > | **📏 Self** |               **🎯 Self** |
 >
@@ -3262,7 +3262,7 @@ At the start of any level 4 or higher demon's turn, you can spend [Malice](../ru
 
 > 🗡 **Many Maws (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |               **Main action** |
+> | **Melee, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Melee 1**            | **🎯 One creature or object** |
 >
@@ -3276,7 +3276,7 @@ At the start of any level 4 or higher demon's turn, you can spend [Malice](../ru
 
 > ❇️ **Agony Wail (5 [Malice](../rule/monster/malice.md))**
 >
-> | **Area, Magic** |                  **Maneuver** |
+> | **Area, Magic** |                  **[Maneuver](../rule/combat/turn.md)** |
 > |-----------------|------------------------------:|
 > | **📏 3 burst**  | **🎯 Each enemy in the area** |
 >
@@ -3306,7 +3306,7 @@ At the start of any level 4 or higher demon's turn, you can spend [Malice](../ru
 
 > 🏹 **Ensnarer Cannon (Signature Ability)**
 >
-> | **Magic, Ranged, Strike** |                 **Main action** |
+> | **Magic, Ranged, Strike** |                 **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Ranged 10**          | **🎯 Two creatures or objects** |
 >
@@ -3320,7 +3320,7 @@ At the start of any level 4 or higher demon's turn, you can spend [Malice](../ru
 
 > ❇️ **Demonic Egress (2 [Malice](../rule/monster/malice.md))**
 >
-> | **Area**       |   **Maneuver** |
+> | **Area**       |   **[Maneuver](../rule/combat/turn.md)** |
 > |----------------|---------------:|
 > | **📏 3 burst** | **🎯 Special** |
 >
@@ -3330,7 +3330,7 @@ At the start of any level 4 or higher demon's turn, you can spend [Malice](../ru
 
 > ❗️ **Abyssal Protectors (2 [Malice](../rule/monster/malice.md))**
 >
-> | **Area, Magic** | **Triggered action** |
+> | **Area, Magic** | **[Triggered action](../rule/combat/triggered-action.md)** |
 > |-----------------|---------------------:|
 > | **📏 5 burst**  |       **🎯 Special** |
 >
@@ -3420,7 +3420,7 @@ At the start of any level 7 or higher demon's turn, you can spend [Malice](../ru
 
 > 🗡 **Soul Stinger (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |                **Main action** |
+> | **Melee, Strike, Weapon** |                **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|-------------------------------:|
 > | **📏 Melee 1**            | **🎯 One creature per minion** |
 >
@@ -3444,7 +3444,7 @@ At the start of any level 7 or higher demon's turn, you can spend [Malice](../ru
 
 > 🗡 **Chitin Bash (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |                          **Main action** |
+> | **Melee, Strike, Weapon** |                          **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|-----------------------------------------:|
 > | **📏 Melee 1**            | **🎯 One creature or object per minion** |
 >
@@ -3468,7 +3468,7 @@ At the start of any level 7 or higher demon's turn, you can spend [Malice](../ru
 
 > 🏹 **Barb Launch (Signature Ability)**
 >
-> | **Magic, Ranged, Strike, Weapon** |                **Main action** |
+> | **Magic, Ranged, Strike, Weapon** |                **[Main action](../rule/combat/turn.md)** |
 > |-----------------------------------|-------------------------------:|
 > | **📏 Ranged 20**                  | **🎯 One creature per minion** |
 >
@@ -3494,7 +3494,7 @@ At the start of any level 7 or higher demon's turn, you can spend [Malice](../ru
 
 > 🏹 **Blight Pus (Signature Ability)**
 >
-> | **Magic, Ranged, Strike** |               **Main action** |
+> | **Magic, Ranged, Strike** |               **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Ranged 10**          | **🎯 One creature or object** |
 >
@@ -3508,7 +3508,7 @@ At the start of any level 7 or higher demon's turn, you can spend [Malice](../ru
 
 > 🔳 **Blight Rain (3 [Malice](../rule/monster/malice.md))**
 >
-> | **Area, Magic**        |                  **Maneuver** |
+> | **Area, Magic**        |                  **[Maneuver](../rule/combat/turn.md)** |
 > |------------------------|------------------------------:|
 > | **📏 5 cube within 1** | **🎯 Each enemy in the area** |
 >
@@ -3536,7 +3536,7 @@ At the start of any level 7 or higher demon's turn, you can spend [Malice](../ru
 
 > 🗡 **Flux Gnash (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |               **Main action** |
+> | **Melee, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Melee 2**            | **🎯 One creature or object** |
 >
@@ -3550,7 +3550,7 @@ At the start of any level 7 or higher demon's turn, you can spend [Malice](../ru
 
 > ❗️ **Pain Absorption (1 [Malice](../rule/monster/malice.md))**
 >
-> | **-**       | **Triggered action** |
+> | **-**       | **[Triggered action](../rule/combat/triggered-action.md)** |
 > |-------------|---------------------:|
 > | **📏 Self** |          **🎯 Self** |
 >
@@ -3576,7 +3576,7 @@ At the start of any level 7 or higher demon's turn, you can spend [Malice](../ru
 
 > 🗡 **Hair Whip (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |               **Main action** |
+> | **Melee, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Melee 4**            | **🎯 One creature or object** |
 >
@@ -3590,7 +3590,7 @@ At the start of any level 7 or higher demon's turn, you can spend [Malice](../ru
 
 > ❇️ **Tangled Nest (5 [Malice](../rule/monster/malice.md))**
 >
-> | **Area**       |                  **Maneuver** |
+> | **Area**       |                  **[Maneuver](../rule/combat/turn.md)** |
 > |----------------|------------------------------:|
 > | **📏 4 burst** | **🎯 Each enemy in the area** |
 >
@@ -3618,7 +3618,7 @@ At the start of any level 7 or higher demon's turn, you can spend [Malice](../ru
 
 > 🗡 **Barbed Stinger (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |     **Main action** |
+> | **Melee, Strike, Weapon** |     **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------:|
 > | **📏 Melee 2**            | **🎯 One creature** |
 >
@@ -3632,7 +3632,7 @@ At the start of any level 7 or higher demon's turn, you can spend [Malice](../ru
 
 > ❗️ **Stinging Departure (2 [Malice](../rule/monster/malice.md))**
 >
-> | **-**       |           **Triggered action** |
+> | **-**       |           **[Triggered action](../rule/combat/triggered-action.md)** |
 > |-------------|-------------------------------:|
 > | **📏 Self** | **🎯 The triggering creature** |
 >
@@ -3666,7 +3666,7 @@ At the start of any level 7 or higher demon's turn, you can spend [Malice](../ru
 
 > 🗡 **Emergent Horrors (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |               **Main action** |
+> | **Melee, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Melee 2**            | **🎯 One creature or object** |
 >
@@ -3692,7 +3692,7 @@ At the start of any level 7 or higher demon's turn, you can spend [Malice](../ru
 
 > ⚔️ **Stinging Ovipositor (Signature Ability)**
 >
-> | **Magic, Melee, Ranged, Strike** |      **Main action** | 
+> | **Magic, Melee, Ranged, Strike** |      **[Main action](../rule/combat/turn.md)** |
 > |----------------------------------|---------------------:|
 > | **📏 Melee 1 or ranged 10**      | **🎯 Two creatures** |
 >
@@ -3706,7 +3706,7 @@ At the start of any level 7 or higher demon's turn, you can spend [Malice](../ru
 
 > ❇️ **Forced Gestation (3 [Malice](../rule/monster/malice.md))**
 >
-> | **Area**        |                                          **Maneuver** |
+> | **Area**        |                                          **[Maneuver](../rule/combat/turn.md)** |
 > |-----------------|------------------------------------------------------:|
 > | **📏 10 burst** | **🎯 Each implanted handmaiden parasite in the area** |
 >
@@ -3714,7 +3714,7 @@ At the start of any level 7 or higher demon's turn, you can spend [Malice](../ru
 
 > ❗️ **For the Queen! (2 [Malice](../rule/monster/malice.md))**
 >
-> | **Area**       | **Triggered action** |
+> | **Area**       | **[Triggered action](../rule/combat/triggered-action.md)** |
 > |----------------|---------------------:|
 > | **📏 5 burst** |       **🎯 Special** |
 >
@@ -3810,7 +3810,7 @@ At the start of any level 10 or higher demon's turn, you can spend [Malice](../r
 
 > 🏹 **Optical Flare (Signature Ability)**
 >
-> | **Magic, Ranged, Strike, Weapon** |                          **Main action** |
+> | **Magic, Ranged, Strike, Weapon** |                          **[Main action](../rule/combat/turn.md)** |
 > |-----------------------------------|-----------------------------------------:|
 > | **📏 Ranged 20**                  | **🎯 One creature or object per minion** |
 >
@@ -3832,7 +3832,7 @@ At the start of any level 10 or higher demon's turn, you can spend [Malice](../r
 
 > 🗡 **Tail Bite (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |                          **Main action** |
+> | **Melee, Strike, Weapon** |                          **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|-----------------------------------------:|
 > | **📏 Melee 3**            | **🎯 One creature or object per minion** |
 >
@@ -3862,7 +3862,7 @@ At the start of any level 10 or higher demon's turn, you can spend [Malice](../r
 
 > 🗡 **Gore Horn (Signature Ability)**
 >
-> | **Charge, Melee, Strike, Weapon** |                          **Main action** |
+> | **Charge, Melee, Strike, Weapon** |                          **[Main action](../rule/combat/turn.md)** |
 > |-----------------------------------|-----------------------------------------:|
 > | **📏 Melee 1**                    | **🎯 One creature or object per minion** |
 >
@@ -3888,7 +3888,7 @@ At the start of any level 10 or higher demon's turn, you can spend [Malice](../r
 
 > 🏹 **Nostalgic Wanderlust (Signature Ability)**
 >
-> | **Psionic, Ranged, Strike** |     **Main action** |
+> | **Psionic, Ranged, Strike** |     **[Main action](../rule/combat/turn.md)** |
 > |-----------------------------|--------------------:|
 > | **📏 Ranged 10**            | **🎯 One creature** |
 >
@@ -3904,7 +3904,7 @@ At the start of any level 10 or higher demon's turn, you can spend [Malice](../r
 
 > 🔳 **Ruinous Temptation (3 [Malice](../rule/monster/malice.md))**
 >
-> | **Area, Psionic, Ranged** | **Main action** |
+> | **Area, Psionic, Ranged** | **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 4 cube within 10**   | **🎯 Each enemy in the area** |
 >
@@ -3936,7 +3936,7 @@ At the start of any level 10 or higher demon's turn, you can spend [Malice](../r
 
 > ⚔️ **Warp Touch (Signature Ability)**
 >
-> | **Magic, Melee, Ranged, Strike, Weapon** |               **Main action** |
+> | **Magic, Melee, Ranged, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |------------------------------------------|------------------------------:|
 > | **📏 Melee 1 or ranged 10**              | **🎯 One creature or object** |
 >
@@ -3950,7 +3950,7 @@ At the start of any level 10 or higher demon's turn, you can spend [Malice](../r
 
 > 🔳 **Soul Flay (5 [Malice](../rule/monster/malice.md))**
 >
-> | **Area**                   |                  **Maneuver** |
+> | **Area**                   |                  **[Maneuver](../rule/combat/turn.md)** |
 > |----------------------------|------------------------------:|                  
 > | **📏 6 x 3 line within 1** | **🎯 Each enemy in the area** |
 >
@@ -3984,7 +3984,7 @@ At the start of any level 10 or higher demon's turn, you can spend [Malice](../r
 
 > 🗡 **Greedy Hands (Signature Ability)**
 >
-> | **Magic, Melee, Strike** |                 **Main action** |
+> | **Magic, Melee, Strike** |                 **[Main action](../rule/combat/turn.md)** |
 > |--------------------------|--------------------------------:|
 > | **📏 Melee 2**           | **🎯 Two creatures or objects** |
 >
@@ -3998,7 +3998,7 @@ At the start of any level 10 or higher demon's turn, you can spend [Malice](../r
 
 > 🏹 **Covetous Bolts (3 [Malice](../rule/monster/malice.md))**
 >
-> | **Magic, Ranged, Strike** |      **Main action** |
+> | **Magic, Ranged, Strike** |      **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|---------------------:|
 > | **📏 Ranged 20**          | **🎯 Two creatures** |
 >
@@ -4012,7 +4012,7 @@ At the start of any level 10 or higher demon's turn, you can spend [Malice](../r
 
 > 🏹 **Greed Is Good (2 [Malice](../rule/monster/malice.md))**
 >
-> | **Ranged**       |   **Maneuver** |
+> | **Ranged**       |   **[Maneuver](../rule/combat/turn.md)** |
 > |------------------|---------------:|
 > | **📏 Ranged 10** | **🎯 Special** |
 >
@@ -4135,7 +4135,7 @@ At the start of any devil's turn, you can spend [Malice](../rule/monster/malice.
 
 > 🗡 **Quill Pushing (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |                          **Main action** |
+> | **Melee, Strike, Weapon** |                          **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|-----------------------------------------:|
 > | **📏 Melee 1**            | **🎯 One creature or object per minion** |
 >
@@ -4161,7 +4161,7 @@ At the start of any devil's turn, you can spend [Malice](../rule/monster/malice.
 
 > 🏹 **Importunity (Signature Ability)**
 >
-> | **Magic, Ranged, Strike** |                          **Main action** |
+> | **Magic, Ranged, Strike** |                          **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|-----------------------------------------:|
 > | **📏 Ranged 5**           | **🎯 One creature or object per minion** |
 >
@@ -4187,7 +4187,7 @@ At the start of any devil's turn, you can spend [Malice](../rule/monster/malice.
 
 > 🗡 **Litigation (Signature Ability)**
 >
-> | **Charge, Magic, Melee, Strike** |                          **Main action** |
+> | **Charge, Magic, Melee, Strike** |                          **[Main action](../rule/combat/turn.md)** |
 > |----------------------------------|-----------------------------------------:|
 > | **📏 Melee 1**                   | **🎯 One creature or object per minion** |
 >
@@ -4213,7 +4213,7 @@ At the start of any devil's turn, you can spend [Malice](../rule/monster/malice.
 
 > 🏹 **Infernal Injunction (Signature Ability)**
 >
-> | **Magic, Ranged, Strike** |                 **Main action** | 
+> | **Magic, Ranged, Strike** |                 **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Ranged 10**          | **🎯 Two creatures or objects** |
 >
@@ -4227,7 +4227,7 @@ At the start of any devil's turn, you can spend [Malice](../rule/monster/malice.
 
 > 🏹 **Adjudicator's Interdiction**
 >
-> | **Magic, Ranged** |     **Main action** | 
+> | **Magic, Ranged** |     **[Main action](../rule/combat/turn.md)** |
 > |-------------------|--------------------:|
 > | **📏 Ranged 10**  | **🎯 One creature** |
 >
@@ -4239,7 +4239,7 @@ At the start of any devil's turn, you can spend [Malice](../rule/monster/malice.
 
 > 🏹 **Quid Pro Quo**
 >
-> | **Magic, Ranged** |                           **Maneuver** |
+> | **Magic, Ranged** |                           **[Maneuver](../rule/combat/turn.md)** |
 > |-------------------|---------------------------------------:|
 > | **📏 Ranged 10**  | **🎯 One ally or [frightened](../condition/frightened.md) creature** |
 >
@@ -4247,7 +4247,7 @@ At the start of any devil's turn, you can spend [Malice](../rule/monster/malice.
 
 > ❗️ **Devilish Charm (2 [Malice](../rule/monster/malice.md))**
 >
-> | **Magic, Ranged** |           **Triggered action** |
+> | **Magic, Ranged** |           **[Triggered action](../rule/combat/triggered-action.md)** |
 > |-------------------|-------------------------------:|
 > | **📏 Ranged 5**   | **🎯 The triggering creature** |
 >
@@ -4281,7 +4281,7 @@ At the start of any devil's turn, you can spend [Malice](../rule/monster/malice.
 
 > 🏹 **Fire and Brimstone (Signature Ability)**
 >
-> | **Magic, Ranged, Strike** |                   **Main action** |
+> | **Magic, Ranged, Strike** |                   **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|----------------------------------:|
 > | **📏 Ranged 12**          |   **🎯 Two creatures or objects** |
 >
@@ -4297,7 +4297,7 @@ At the start of any devil's turn, you can spend [Malice](../rule/monster/malice.
 
 > ❇️ **Dismissal with Prejudice**
 >
-> | **Area, Magic** |               **Main action** |
+> | **Area, Magic** |               **[Main action](../rule/combat/turn.md)** |
 > |-----------------|------------------------------:|
 > | **📏 2 burst**  | **🎯 Each enemy in the area** |
 >
@@ -4311,7 +4311,7 @@ At the start of any devil's turn, you can spend [Malice](../rule/monster/malice.
 
 > 🏹 **Ashes to Ashes**
 >
-> | **Magic, Ranged** |        **Maneuver** |
+> | **Magic, Ranged** |        **[Maneuver](../rule/combat/turn.md)** |
 > |-------------------|--------------------:|
 > | **📏 Ranged 12**  | **🎯 One creature** |
 >
@@ -4319,7 +4319,7 @@ At the start of any devil's turn, you can spend [Malice](../rule/monster/malice.
 
 > ❗️ **Devilish Charm (2 [Malice](../rule/monster/malice.md))**
 >
-> | **Magic, Ranged** |           **Triggered action** |
+> | **Magic, Ranged** |           **[Triggered action](../rule/combat/triggered-action.md)** |
 > |-------------------|-------------------------------:|
 > | **📏 Ranged 5**   | **🎯 The triggering creature** |
 >
@@ -4345,7 +4345,7 @@ At the start of any devil's turn, you can spend [Malice](../rule/monster/malice.
 
 > 🗡 **Infernal Pike (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 2**            | **🎯 Two creatures or objects** |
 >
@@ -4359,7 +4359,7 @@ At the start of any devil's turn, you can spend [Malice](../rule/monster/malice.
 
 > 🗡 **Writ of Execution**
 >
-> | **Charge, Melee, Strike, Weapon** |                 **Main action** |
+> | **Charge, Melee, Strike, Weapon** |                 **[Main action](../rule/combat/turn.md)** |
 > |-----------------------------------|--------------------------------:|
 > | **📏 Melee 2**                    | **🎯 Two creatures or objects** |
 >
@@ -4373,7 +4373,7 @@ At the start of any devil's turn, you can spend [Malice](../rule/monster/malice.
 
 > 🗡 **Law and Order**
 >
-> | **Melee**      |        **Maneuver** |
+> | **Melee**      |        **[Maneuver](../rule/combat/turn.md)** |
 > |----------------|--------------------:|
 > | **📏 Melee 1** | **🎯 One creature** |
 >
@@ -4381,7 +4381,7 @@ At the start of any devil's turn, you can spend [Malice](../rule/monster/malice.
 
 > ❗️ **Devilish Charm (2 [Malice](../rule/monster/malice.md))**
 >
-> | **Magic, Ranged** |           **Triggered action** |
+> | **Magic, Ranged** |           **[Triggered action](../rule/combat/triggered-action.md)** |
 > |-------------------|-------------------------------:|
 > | **📏 Ranged 5**   | **🎯 The triggering creature** |
 >
@@ -4411,7 +4411,7 @@ At the start of any devil's turn, you can spend [Malice](../rule/monster/malice.
 
 > 🗡 **Edge of the Law (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](../rule/combat/turn.md)** |
 > | ------------------------- |--------------------------------:|
 > | **📏 Melee 1**            | **🎯 Two creatures or objects** |
 >
@@ -4425,7 +4425,7 @@ At the start of any devil's turn, you can spend [Malice](../rule/monster/malice.
 
 > 🗡 **Verdict**
 >
-> | **Melee, Strike, Weapon** |     **Main action** |
+> | **Melee, Strike, Weapon** |     **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------:|
 > | **📏 Melee 1**            | **🎯 One creature** |
 >
@@ -4439,7 +4439,7 @@ At the start of any devil's turn, you can spend [Malice](../rule/monster/malice.
 
 > 👤 **Justice Turns Its Gaze**
 >
-> | **-**       | **Maneuver** | 
+> | **-**       | **[Maneuver](../rule/combat/turn.md)** |
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
@@ -4447,7 +4447,7 @@ At the start of any devil's turn, you can spend [Malice](../rule/monster/malice.
 
 > ❗️ **Devilish Charm (2 [Malice](../rule/monster/malice.md))**
 >
-> | **Magic, Ranged** |           **Triggered action** |
+> | **Magic, Ranged** |           **[Triggered action](../rule/combat/triggered-action.md)** |
 > |-------------------|-------------------------------:|
 > | **📏 Ranged 5**   | **🎯 The triggering creature** |
 >
@@ -4477,7 +4477,7 @@ At the start of any devil's turn, you can spend [Malice](../rule/monster/malice.
 
 > 🏹 **Infernal Decree (Signature Ability)**
 >
-> | **Magic, Ranged, Strike** |                   **Main action** |
+> | **Magic, Ranged, Strike** |                   **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|----------------------------------:|
 > | **📏 Ranged 12**          | **🎯 Three creatures or objects** |
 >
@@ -4491,7 +4491,7 @@ At the start of any devil's turn, you can spend [Malice](../rule/monster/malice.
 
 > 🏹 **Compel the Jury**
 >
-> | **Magic, Ranged, Strike** |         **Maneuver** |
+> | **Magic, Ranged, Strike** |         **[Maneuver](../rule/combat/turn.md)** |
 > |---------------------------|---------------------:|
 > | **📏 Ranged 12**          | **🎯 Two creatures** |
 >
@@ -4505,7 +4505,7 @@ At the start of any devil's turn, you can spend [Malice](../rule/monster/malice.
 
 > ❗️ **Devilish Suggestion (2 [Malice](../rule/monster/malice.md))**
 >
-> | **Magic, Ranged** |           **Triggered action** |
+> | **Magic, Ranged** |           **[Triggered action](../rule/combat/triggered-action.md)** |
 > |-------------------|-------------------------------:|
 > | **📏 Ranged 5**   | **🎯 The triggering creature** |
 >
@@ -4601,7 +4601,7 @@ At the start of any draconian's turn, you can spend [Malice](../rule/monster/mal
 
 > 🔳 **Breath Weapon (5 [Malice](../rule/monster/malice.md))**
 >
-> | **Area, Magic**            |               **Main action** |
+> | **Area, Magic**            |               **[Main action](../rule/combat/turn.md)** |
 > |----------------------------|------------------------------:|
 > | **📏 4 x 2 line within 1** | **🎯 Each enemy in the area** |
 >
@@ -4615,7 +4615,7 @@ At the start of any draconian's turn, you can spend [Malice](../rule/monster/mal
 
 > ❇️ **Scaleshatter Burst (7 [Malice](../rule/monster/malice.md))**
 >
-> | **Area, Magic** |             **Free maneuver** |
+> | **Area, Magic** |             **[Free maneuver](../rule/combat/free-maneuver.md)** |
 > |-----------------|------------------------------:|
 > | **📏 2 burst**  | **🎯 Each enemy in the area** |
 >
@@ -4637,7 +4637,7 @@ At the start of any draconian's turn, you can spend [Malice](../rule/monster/mal
 
 > 🏹 **Spittlesplash (Signature Ability)**
 >
-> | **Ranged, Strike, Weapon** |     **Main action** |
+> | **Ranged, Strike, Weapon** |     **[Main action](../rule/combat/turn.md)** |
 > |----------------------------|--------------------:|
 > | **📏 Ranged 10**           |  **🎯 Two enemies** |
 >
@@ -4649,7 +4649,7 @@ At the start of any draconian's turn, you can spend [Malice](../rule/monster/mal
 
 > 🏹 **Experimental Treasure**
 >
-> | **Magic, Ranged, Strike** |                **Main action** |
+> | **Magic, Ranged, Strike** |                **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|-------------------------------:|
 > | **📏 Ranged 10**          | **🎯 Two creatures or objects** |
 >
@@ -4665,7 +4665,7 @@ At the start of any draconian's turn, you can spend [Malice](../rule/monster/mal
 
 > 🔳 **Elevate (2 [Malice](../rule/monster/malice.md))**
 >
-> | **Area, Ranged**       |   **Maneuver** |
+> | **Area, Ranged**       |   **[Maneuver](../rule/combat/turn.md)** |
 > |------------------------|---------------:|
 > | **📏 1 cube within 5** | **🎯 Special** |
 >
@@ -4675,7 +4675,7 @@ At the start of any draconian's turn, you can spend [Malice](../rule/monster/mal
 
 > ❗️ **Blood For Blood**
 >
-> | **Ranged, Weapon** | **Triggered action** |
+> | **Ranged, Weapon** | **[Triggered action](../rule/combat/triggered-action.md)** |
 > |--------------------|---------------------:|
 > | **📏 Ranged 5**    |  **🎯 One creature** |
 >
@@ -4701,7 +4701,7 @@ At the start of any draconian's turn, you can spend [Malice](../rule/monster/mal
 
 > 🗡 **Skewer (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 1**            | **🎯 Two creatures or objects** | 
 >
@@ -4715,7 +4715,7 @@ At the start of any draconian's turn, you can spend [Malice](../rule/monster/mal
 
 > 🔳 **Acidic Stun (2 [Malice](../rule/monster/malice.md))**
 >
-> | **Area, Magic**            |               **Main action** |
+> | **Area, Magic**            |               **[Main action](../rule/combat/turn.md)** |
 > |----------------------------|------------------------------:|
 > | **📏 3 x 1 line within 1** | **🎯 Each enemy in the area** |
 >
@@ -4729,7 +4729,7 @@ At the start of any draconian's turn, you can spend [Malice](../rule/monster/mal
 
 > 👤 **Takeoff**
 >
-> | **-**       | **Maneuver** |
+> | **-**       | **[Maneuver](../rule/combat/turn.md)** |
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
@@ -4737,7 +4737,7 @@ At the start of any draconian's turn, you can spend [Malice](../rule/monster/mal
 
 > ❗️ **Stay Back!**
 >
-> | **Melee**      |           **Triggered action** |
+> | **Melee**      |           **[Triggered action](../rule/combat/triggered-action.md)** |
 > |----------------|-------------------------------:|
 > | **📏 Melee 2** | **🎯 The triggering creature** |
 >
@@ -4767,7 +4767,7 @@ At the start of any draconian's turn, you can spend [Malice](../rule/monster/mal
 
 > 🏹 **Breathsnipe (Signature Ability)**
 >
-> | **Ranged, Strike, Weapon** |  **Main action** |
+> | **Ranged, Strike, Weapon** |  **[Main action](../rule/combat/turn.md)** |
 > |----------------------------|-----------------:|
 > | **📏 Ranged 15**           | **🎯 One enemy** |
 >
@@ -4779,7 +4779,7 @@ At the start of any draconian's turn, you can spend [Malice](../rule/monster/mal
 
 > 🔳 **Ice Lob**
 >
-> | **Area, Magic, Ranged** |                          **Main action** |
+> | **Area, Magic, Ranged** |                          **[Main action](../rule/combat/turn.md)** |
 > |-------------------------|-----------------------------------------:|
 > | **📏 2 cube within 10** | **🎯 Each enemy and object in the area** |
 >
@@ -4791,7 +4791,7 @@ At the start of any draconian's turn, you can spend [Malice](../rule/monster/mal
 
 > 👤 **Parting Gift**
 >
-> | **-**       | **Maneuver** |
+> | **-**       | **[Maneuver](../rule/combat/turn.md)** |
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
@@ -4799,7 +4799,7 @@ At the start of any draconian's turn, you can spend [Malice](../rule/monster/mal
 
 > ❗️ **Wasn't Aiming For You**
 >
-> | **-**       | **Triggered action** |
+> | **-**       | **[Triggered action](../rule/combat/triggered-action.md)** |
 > |-------------|---------------------:|
 > | **📏 Self** |          **🎯 Self** |
 >
@@ -4821,7 +4821,7 @@ At the start of any draconian's turn, you can spend [Malice](../rule/monster/mal
 
 > 🗡 **Breaking Palm (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |    **Main action** |
+> | **Melee, Strike, Weapon** |    **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|-------------------:|
 > | **📏 Melee 1**            | **🎯 Two enemies** |
 >
@@ -4835,7 +4835,7 @@ At the start of any draconian's turn, you can spend [Malice](../rule/monster/mal
 
 > ❇️ **Expunging Exhalation**
 >
-> | **Area, Magic** |               **Main action** |
+> | **Area, Magic** |               **[Main action](../rule/combat/turn.md)** |
 > |-----------------|------------------------------:|
 > | **📏 2 burst**  | **🎯 Each enemy in the area** |
 >
@@ -4847,7 +4847,7 @@ At the start of any draconian's turn, you can spend [Malice](../rule/monster/mal
 
 > 🏹 **Step and Swap**
 >
-> | **Ranged**      |    **Maneuver** |
+> | **Ranged**      |    **[Maneuver](../rule/combat/turn.md)** |
 > |-----------------|----------------:|
 > | **📏 Ranged 3** | **🎯 One ally** |
 >
@@ -4855,7 +4855,7 @@ At the start of any draconian's turn, you can spend [Malice](../rule/monster/mal
 
 > ❗️ **Anyone Can Do That (2 [Malice](../rule/monster/malice.md))**
 >
-> | **-**       | **Triggered action** |
+> | **-**       | **[Triggered action](../rule/combat/triggered-action.md)** |
 > |-------------|---------------------:|
 > | **📏 Self** |          **🎯 Self** |
 >
@@ -4877,7 +4877,7 @@ At the start of any draconian's turn, you can spend [Malice](../rule/monster/mal
 
 > 🗡 **Baneful Blade (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 1**            | **🎯 Two creatures or objects** |
 >
@@ -4889,7 +4889,7 @@ At the start of any draconian's turn, you can spend [Malice](../rule/monster/mal
 
 > ❇️ **Spinning Spit (2 [Malice](../rule/monster/malice.md))**
 >
-> | **Area, Magic** |               **Main action** |
+> | **Area, Magic** |               **[Main action](../rule/combat/turn.md)** |
 > |-----------------|------------------------------:|
 > | **📏 1 burst**  | **🎯 Each enemy in the area** |
 >
@@ -4901,7 +4901,7 @@ At the start of any draconian's turn, you can spend [Malice](../rule/monster/mal
 
 > 👤 **Heavy Landing**
 >
-> | **Area**    | **Maneuver** |
+> | **Area**    | **[Maneuver](../rule/combat/turn.md)** |
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
@@ -4909,7 +4909,7 @@ At the start of any draconian's turn, you can spend [Malice](../rule/monster/mal
 
 > ❗️ **Armor of the Ancients (2 [Malice](../rule/monster/malice.md))**
 >
-> | **-**       | **Triggered action** |
+> | **-**       | **[Triggered action](../rule/combat/triggered-action.md)** |
 > |-------------|---------------------:|
 > | **📏 Self** |          **🎯 Self** |
 >
@@ -4919,7 +4919,7 @@ At the start of any draconian's turn, you can spend [Malice](../rule/monster/mal
 
 > ❗️ **Still Your Tongue!**
 >
-> | **-**       | **Free triggered action** |
+> | **-**       | **Free [triggered action](../rule/combat/triggered-action.md)** |
 > |-------------|--------------------------:|
 > | **📏 Self** |               **🎯 Self** |
 >
@@ -4941,7 +4941,7 @@ At the start of any draconian's turn, you can spend [Malice](../rule/monster/mal
 
 > 🗡 **Punishing Flail (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 1**            | **🎯 Two creatures or objects** |
 >
@@ -4955,7 +4955,7 @@ At the start of any draconian's turn, you can spend [Malice](../rule/monster/mal
 
 > 🔳 **I'll Cut A Path**
 >
-> | **Area, Weapon**           |                  **Maneuver** |
+> | **Area, Weapon**           |                  **[Maneuver](../rule/combat/turn.md)** |
 > |----------------------------|------------------------------:|
 > | **📏 5 x 2 line within 1** | **🎯 Each enemy in the area** |
 >
@@ -4969,7 +4969,7 @@ At the start of any draconian's turn, you can spend [Malice](../rule/monster/mal
 
 > ❗️ **Watch Your Six!**
 >
-> | **Melee**      | **Triggered action** |
+> | **Melee**      | **[Triggered action](../rule/combat/triggered-action.md)** |
 > |----------------|---------------------:|
 > | **📏 Melee 1** |      **🎯 One ally** |
 >
@@ -5229,7 +5229,7 @@ Thorn dragons are highly territorial, and are vigilant against potential threats
 
 > 🔳 **Virulent Breath (Signature Ability)**
 >
-> | **Area, Magic**             |                          **Main action** |
+> | **Area, Magic**             |                          **[Main action](../rule/combat/turn.md)** |
 > |-----------------------------|-----------------------------------------:|
 > | **📏 10 x 1 line within 1** | **🎯 Each enemy and object in the area** |
 >
@@ -5243,7 +5243,7 @@ Thorn dragons are highly territorial, and are vigilant against potential threats
 
 > 🗡 **Spinous Tail Swing**
 >
-> | **Charge, Melee, Strike, Weapon** |               **Main action** |
+> | **Charge, Melee, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |-----------------------------------|------------------------------:|
 > | **📏 Melee 2**                    | **🎯 Two enemies or objects** |
 >
@@ -5261,7 +5261,7 @@ Thorn dragons are highly territorial, and are vigilant against potential threats
 
 > ❇️ **Investiture of Verdure (5 [Malice](../rule/monster/malice.md))**
 >
-> | **Area**        |                  **Maneuver** |
+> | **Area**        |                  **[Maneuver](../rule/combat/turn.md)** |
 > |-----------------|------------------------------:|
 > | **📏 10 burst** | **🎯 Each enemy in the area** |
 >
@@ -5269,7 +5269,7 @@ Thorn dragons are highly territorial, and are vigilant against potential threats
 
 > ❗️ **Prickly Situation**
 >
-> | **Magic, Ranged** |      **Free triggered action** |
+> | **Magic, Ranged** |      **Free [triggered action](../rule/combat/triggered-action.md)** |
 > |-------------------|-------------------------------:|
 > | **📏 Ranged 10**  | **🎯 The triggering creature** |
 >
@@ -5279,7 +5279,7 @@ Thorn dragons are highly territorial, and are vigilant against potential threats
 
 > ❗️ **Thorny Scales (1 [Malice](../rule/monster/malice.md))**
 >
-> | **Melee**      |      **Free triggered action** |
+> | **Melee**      |      **Free [triggered action](../rule/combat/triggered-action.md)** |
 > |----------------|-------------------------------:|
 > | **📏 Melee 1** | **🎯 The triggering creature** |
 >
@@ -5389,7 +5389,7 @@ Eerie myths surround the gloom dragons, for they wield languages they do not the
 
 > 🔳 **Breath of Brume (Signature Ability)**
 >
-> | **Area, Magic, Ranged** |                          **Main action** |
+> | **Area, Magic, Ranged** |                          **[Main action](../rule/combat/turn.md)** |
 > |-------------------------|-----------------------------------------:|
 > | **📏 4 cube within 10** | **🎯 Each enemy and object in the area** |
 >
@@ -5403,7 +5403,7 @@ Eerie myths surround the gloom dragons, for they wield languages they do not the
 
 > 🗡 **Phantom Tail Swing**
 >
-> | **Charge, Magic, Melee, Strike** |                 **Main action** |
+> | **Charge, Magic, Melee, Strike** |                 **[Main action](../rule/combat/turn.md)** |
 > |----------------------------------|--------------------------------:|
 > | **📏 Melee 3**                   | **🎯 Two creatures or objects** |
 >
@@ -5421,7 +5421,7 @@ Eerie myths surround the gloom dragons, for they wield languages they do not the
 
 > ❇️ **Visions in the Dark (5 [Malice](../rule/monster/malice.md))**
 >
-> | **Area, Magic** |                  **Maneuver** |
+> | **Area, Magic** |                  **[Maneuver](../rule/combat/turn.md)** |
 > |-----------------|------------------------------:|
 > | **📏 10 burst** | **🎯 Each enemy in the area** |
 >
@@ -5429,7 +5429,7 @@ Eerie myths surround the gloom dragons, for they wield languages they do not the
 
 > ❗️ **Encroaching Darkness (1 [Malice](../rule/monster/malice.md))**
 >
-> | **-**       | **Free triggered action** |
+> | **-**       | **Free [triggered action](../rule/combat/triggered-action.md)** |
 > |-------------|--------------------------:|
 > | **📏 Self** |               **🎯 Self** |
 >
@@ -5543,7 +5543,7 @@ The oldest of crucible dragons are known to speak some Vastariax, though younger
 
 > 🔳 **Slag Spew (Signature Ability)**
 >
-> | **Area, Magic**             |                             **Main action** |
+> | **Area, Magic**             |                             **[Main action](../rule/combat/turn.md)** |
 > |-----------------------------|--------------------------------------------:|
 > | **📏 10 x 2 line within 1** | **🎯 Each creature and object in the area** |
 >
@@ -5557,7 +5557,7 @@ The oldest of crucible dragons are known to speak some Vastariax, though younger
 
 > 🗡 **Forge Hammer Tail Slam**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 3**            | **🎯 Two creatures or objects** |
 >
@@ -5577,7 +5577,7 @@ The oldest of crucible dragons are known to speak some Vastariax, though younger
 
 > ❇️ **Thermodynamic Flight (1 [Malice](../rule/monster/malice.md))**
 >
-> | **Area**       |                  **Maneuver** |
+> | **Area**       |                  **[Maneuver](../rule/combat/turn.md)** |
 > |----------------|------------------------------:|
 > | **📏 2 burst** | **🎯 Each enemy in the area** |
 >
@@ -5585,7 +5585,7 @@ The oldest of crucible dragons are known to speak some Vastariax, though younger
 
 > ❗️ **Hammer and Anvil (1 [Malice](../rule/monster/malice.md))**
 >
-> | **-**       | **Free triggered action** |
+> | **-**       | **Free [triggered action](../rule/combat/triggered-action.md)** |
 > |-------------|--------------------------:|
 > | **📏 Self** |               **🎯 Self** |
 >
@@ -5595,7 +5595,7 @@ The oldest of crucible dragons are known to speak some Vastariax, though younger
 
 > ❗️ **Polarize Aura (1 [Malice](../rule/monster/malice.md))**
 >
-> | **Area, Magic** |                        **Triggered action** |
+> | **Area, Magic** |                        **[Triggered action](../rule/combat/triggered-action.md)** |
 > |-----------------|--------------------------------------------:|
 > | **📏 3 burst**  | **🎯 Each creature and object in the area** |
 >
@@ -5717,7 +5717,7 @@ An omen dragon speaks with the voices of all the souls they have collected. In a
 
 > 🔳 **Corroding Breath (Signature Ability)**
 >
-> | **Area, Magic, Ranged** | **Main action** |
+> | **Area, Magic, Ranged** | **[Main action](../rule/combat/turn.md)** |
 > |-------------------------|------------------------------:|
 > | **📏 5 cube within 10** | **🎯 Each creature and object in the area** |
 >
@@ -5731,7 +5731,7 @@ An omen dragon speaks with the voices of all the souls they have collected. In a
 
 > 🗡 **Barbed Tail Swing**
 >
-> | **Charge, Melee, Strike, Weapon** |                 **Main action** |
+> | **Charge, Melee, Strike, Weapon** |                 **[Main action](../rule/combat/turn.md)** |
 > |-----------------------------------|--------------------------------:|
 > | **📏 Melee 4**                    | **🎯 Two creatures or objects** |
 >
@@ -5749,7 +5749,7 @@ An omen dragon speaks with the voices of all the souls they have collected. In a
 
 > ❇️ **Detonation (5 [Malice](../rule/monster/malice.md))**
 >
-> | **Area**        |                  **Maneuver** |
+> | **Area**        |                  **[Maneuver](../rule/combat/turn.md)** |
 > |-----------------|------------------------------:|
 > | **📏 10 burst** | **🎯 Each enemy in the area** |
 >
@@ -5757,7 +5757,7 @@ An omen dragon speaks with the voices of all the souls they have collected. In a
 
 > ❗️ **Don't Turn Away (1 [Malice](../rule/monster/malice.md))**
 >
-> | **-**       | **Free triggered action** |
+> | **-**       | **Free [triggered action](../rule/combat/triggered-action.md)** |
 > |-------------|--------------------------:|
 > | **📏 Self** |               **🎯 Self** |
 >
@@ -5767,7 +5767,7 @@ An omen dragon speaks with the voices of all the souls they have collected. In a
 
 > ❗️ **Repent! (2 [Malice](../rule/monster/malice.md))**
 >
-> | **Ranged**      |      **Free triggered action** |
+> | **Ranged**      |      **Free [triggered action](../rule/combat/triggered-action.md)** |
 > |-----------------|-------------------------------:|
 > | **📏 Ranged 5** | **🎯 The triggering creature** |
 >
@@ -5885,7 +5885,7 @@ Meteor dragons are not known for their conversational habits. When they do deign
 
 > 🔳 **Gravity Well (Signature Ability)**
 >
-> | **Area, Magic, Ranged** | **Main action** |
+> | **Area, Magic, Ranged** | **[Main action](../rule/combat/turn.md)** |
 > |-------------------------|------------------------------:|
 > | **📏 4 cube within 10** | **🎯 Each creature and object in the area** |
 >
@@ -5899,7 +5899,7 @@ Meteor dragons are not known for their conversational habits. When they do deign
 
 > ⚔️ **Cosmic Tail Ray**
 >
-> | **Magic, Melee, Ranged, Strike** |                 **Main action** |
+> | **Magic, Melee, Ranged, Strike** |                 **[Main action](../rule/combat/turn.md)** |
 > |----------------------------------|--------------------------------:|
 > | **📏 Melee 2 or ranged 15**      | **🎯 Two creatures or objects** |
 >
@@ -5917,7 +5917,7 @@ Meteor dragons are not known for their conversational habits. When they do deign
 
 > ❇️ **Investiture of Gravity (5 [Malice](../rule/monster/malice.md))**
 >
-> | **Area, Magic** |                  **Maneuver** |
+> | **Area, Magic** |                  **[Maneuver](../rule/combat/turn.md)** |
 > |-----------------|------------------------------:|
 > | **📏 15 burst** | **🎯 Each enemy in the area** |
 >
@@ -5925,7 +5925,7 @@ Meteor dragons are not known for their conversational habits. When they do deign
 
 > ❗️ **Field Collapse**
 >
-> | **-**       | **Free triggered action** |
+> | **-**       | **Free [triggered action](../rule/combat/triggered-action.md)** |
 > |-------------|--------------------------:|
 > | **📏 Self** |               **🎯 Self** |
 >
@@ -5935,7 +5935,7 @@ Meteor dragons are not known for their conversational habits. When they do deign
 
 > ❗️ **A Hero Faces the Void (2 [Malice](../rule/monster/malice.md))**
 >
-> | **Magic, Ranged** |      **Free triggered action** |
+> | **Magic, Ranged** |      **Free [triggered action](../rule/combat/triggered-action.md)** |
 > |-------------------|-------------------------------:|
 > | **📏 Ranged 5**   | **🎯 The triggering creature** |
 >
@@ -6061,7 +6061,7 @@ At the start of any dwarf's turn, you can spend [Malice](../rule/monster/malice.
 
 > 🔳 **Snaring Line (7 [Malice](../rule/monster/malice.md))**
 >
-> | **Area, Magic, Ranged**      |               **Main action** |
+> | **Area, Magic, Ranged**      |               **[Main action](../rule/combat/turn.md)** |
 > |------------------------------|------------------------------:|              
 > | **📏 10 x 1 line within 10** | **🎯 Each enemy in the area** |
 >
@@ -6085,7 +6085,7 @@ At the start of any dwarf's turn, you can spend [Malice](../rule/monster/malice.
 
 > ⚔️ **Whistling Axes (Signature Ability)**
 >
-> | **Melee, Ranged, Strike, Weapon** |                          **Main action** |
+> | **Melee, Ranged, Strike, Weapon** |                          **[Main action](../rule/combat/turn.md)** |
 > |-----------------------------------|-----------------------------------------:|
 > | **📏 Melee 1 or ranged 5**        | **🎯 One creature or object per minion** |
 >
@@ -6107,7 +6107,7 @@ At the start of any dwarf's turn, you can spend [Malice](../rule/monster/malice.
 
 > 🗡 **Maul (Signature Ability)**
 >
-> | **Charge, Melee, Strike, Weapon** |                          **Main action** |
+> | **Charge, Melee, Strike, Weapon** |                          **[Main action](../rule/combat/turn.md)** |
 > |-----------------------------------|-----------------------------------------:|
 > | **📏 Melee 1**                    | **🎯 One creature or object per minion** |
 >
@@ -6129,7 +6129,7 @@ At the start of any dwarf's turn, you can spend [Malice](../rule/monster/malice.
 
 > ⚔️ **Handaxes (Signature Ability)**
 >
-> | **Charge, Melee, Ranged, Strike, Weapon** |                          **Main action** |
+> | **Charge, Melee, Ranged, Strike, Weapon** |                          **[Main action](../rule/combat/turn.md)** |
 > |-------------------------------------------|-----------------------------------------:|
 > | **📏 Melee 1 or ranged 5**                | **🎯 One creature or object per minion** |
 >
@@ -6151,7 +6151,7 @@ At the start of any dwarf's turn, you can spend [Malice](../rule/monster/malice.
 
 > 🏹 **Snaring Javelin (Signature Ability)**
 >
-> | **Ranged, Strike, Weapon** |                          **Main action** |
+> | **Ranged, Strike, Weapon** |                          **[Main action](../rule/combat/turn.md)** |
 > |----------------------------|-----------------------------------------:|
 > | **📏 Ranged 5**            | **🎯 One creature or object per minion** |
 >
@@ -6173,7 +6173,7 @@ At the start of any dwarf's turn, you can spend [Malice](../rule/monster/malice.
 
 > 🏹 **Portable Ballista (Signature Ability)**
 >
-> | **Ranged, Strike, Weapon** |               **Main action** |
+> | **Ranged, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |----------------------------|------------------------------:|
 > | **📏 Ranged 10**           | **🎯 One creature or object** |
 >
@@ -6189,7 +6189,7 @@ At the start of any dwarf's turn, you can spend [Malice](../rule/monster/malice.
 
 > 🏹 **Ensnaring Chains (5 [Malice](../rule/monster/malice.md))**
 >
-> | **Ranged, Weapon** |                                     **Maneuver** |
+> | **Ranged, Weapon** |                                     **[Maneuver](../rule/combat/turn.md)** |
 > |--------------------|-------------------------------------------------:|
 > | **📏 Ranged 10**   | **🎯 One [prone](../condition/prone.md), [restrained](../condition/restrained.md), or [slowed](../condition/slowed.md) creature** |
 >
@@ -6209,7 +6209,7 @@ At the start of any dwarf's turn, you can spend [Malice](../rule/monster/malice.
 
 > 🔳 **Concussive Grenade (Signature Ability)**
 >
-> | **Area, Ranged, Weapon** | **Main action** |
+> | **Area, Ranged, Weapon** | **[Main action](../rule/combat/turn.md)** |
 > |--------------------------|------------------------------:|
 > | **📏 3 cube within 5**   | **🎯 Each enemy in the area** |
 >
@@ -6223,7 +6223,7 @@ At the start of any dwarf's turn, you can spend [Malice](../rule/monster/malice.
 
 > 🔳 **Sleep Grenade (3 [Malice](../rule/monster/malice.md))**
 >
-> | **Ranged, Weapon**     |               **Main action** |
+> | **Ranged, Weapon**     |               **[Main action](../rule/combat/turn.md)** |
 > |------------------------|------------------------------:| 
 > | **📏 3 cube within 5** | **🎯 Each enemy in the area** |   
 >
@@ -6249,7 +6249,7 @@ At the start of any dwarf's turn, you can spend [Malice](../rule/monster/malice.
 
 > 🏹 **Snaring Crossbow (Signature Ability)**
 >
-> | **Ranged, Strike, Weapon** |               **Main action** |
+> | **Ranged, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |----------------------------|------------------------------:|
 > | **📏 Ranged 10**           | **🎯 One creature or object** |
 >
@@ -6263,7 +6263,7 @@ At the start of any dwarf's turn, you can spend [Malice](../rule/monster/malice.
 
 > 🏹 **Reel Them In (3 [Malice](../rule/monster/malice.md))**
 >
-> | **Ranged, Weapon** |           **Maneuver** |
+> | **Ranged, Weapon** |           **[Maneuver](../rule/combat/turn.md)** |
 > |--------------------|-----------------------:|
 > | **📏 Ranged 10**   | **🎯 Three creatures** |
 >
@@ -6283,7 +6283,7 @@ At the start of any dwarf's turn, you can spend [Malice](../rule/monster/malice.
 
 > 🗡 **Wide Axe (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |               **Main action** |
+> | **Melee, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Melee 1**            | **🎯 One creature or object** |
 >
@@ -6299,7 +6299,7 @@ At the start of any dwarf's turn, you can spend [Malice](../rule/monster/malice.
 
 > ❗️ **Intercepting Shield (1 [Malice](../rule/monster/malice.md))**
 >
-> | **-**       | **Triggered action** |
+> | **-**       | **[Triggered action](../rule/combat/triggered-action.md)** |
 > |-------------|---------------------:|
 > | **📏 Self** |          **🎯 Self** |
 >
@@ -6321,7 +6321,7 @@ At the start of any dwarf's turn, you can spend [Malice](../rule/monster/malice.
 
 > 🔳 **Tile Slide (Signature Ability)**
 >
-> | **Area, Magic**        |                             **Main action** |
+> | **Area, Magic**        |                             **[Main action](../rule/combat/turn.md)** |
 > |------------------------|--------------------------------------------:|
 > | **📏 2 cube within 1** | **🎯 Each creature and object in the area** |
 >
@@ -6335,7 +6335,7 @@ At the start of any dwarf's turn, you can spend [Malice](../rule/monster/malice.
 
 > 🔳 **Stone Wave (3 [Malice](../rule/monster/malice.md))**
 >
-> | **Area, Magic, Ranged** |                  **Maneuver** |
+> | **Area, Magic, Ranged** |                  **[Maneuver](../rule/combat/turn.md)** |
 > |-------------------------|------------------------------:|
 > | **📏 3 cube within 10** | **🎯 Each enemy in the area** |
 >
@@ -6361,7 +6361,7 @@ At the start of any dwarf's turn, you can spend [Malice](../rule/monster/malice.
 
 > ⚔️ **Concussive Bolts (Signature Ability)**
 >
-> | **Charge, Melee, Ranged, Strike, Weapon** |               **Main action** |
+> | **Charge, Melee, Ranged, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |-------------------------------------------|------------------------------:|
 > | **📏 Melee 1 or ranged 10**               | **🎯 One creature or object** |
 >
@@ -6375,7 +6375,7 @@ At the start of any dwarf's turn, you can spend [Malice](../rule/monster/malice.
 
 > 🔳 **Steam-Powered Snare (3 [Malice](../rule/monster/malice.md))**
 >
-> | **Area, Ranged, Weapon** |                  **Maneuver** |
+> | **Area, Ranged, Weapon** |                  **[Maneuver](../rule/combat/turn.md)** |
 > |--------------------------|------------------------------:|
 > | **📏 3 cube within 5**   | **🎯 Each enemy in the area** |
 >
@@ -6397,7 +6397,7 @@ At the start of any dwarf's turn, you can spend [Malice](../rule/monster/malice.
 
 > 🗡 **Concussive Maul (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |               **Main action** |
+> | **Melee, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Melee 1**            | **🎯 One creature or object** |
 >
@@ -6411,7 +6411,7 @@ At the start of any dwarf's turn, you can spend [Malice](../rule/monster/malice.
 
 > 🔳 **Concussive Shockwave (5 [Malice](../rule/monster/malice.md))**
 >
-> | **Area, Weapon**       |               **Main action** |
+> | **Area, Weapon**       |               **[Main action](../rule/combat/turn.md)** |
 > |------------------------|------------------------------:|
 > | **📏 3 cube within 1** | **🎯 Each enemy in the area** |
 >
@@ -6437,7 +6437,7 @@ At the start of any dwarf's turn, you can spend [Malice](../rule/monster/malice.
 
 > ⚔️ **Levitating Axes (Signature Ability)**
 >
-> | **Melee, Psionic, Ranged, Strike, Weapon** |                 **Main action** |
+> | **Melee, Psionic, Ranged, Strike, Weapon** |                 **[Main action](../rule/combat/turn.md)** |
 > |--------------------------------------------|--------------------------------:|
 > | **📏 Melee 1 or ranged 10**                | **🎯 Two creatures or objects** |
 >
@@ -6453,7 +6453,7 @@ At the start of any dwarf's turn, you can spend [Malice](../rule/monster/malice.
 
 > 🏹 **Magnetomancy**
 >
-> | **Psionic, Ranged** |                  **Maneuver** |
+> | **Psionic, Ranged** |                  **[Maneuver](../rule/combat/turn.md)** |
 > |---------------------|------------------------------:|
 > | **📏 Ranged 10**    | **🎯 One creature or object** |
 >
@@ -6463,7 +6463,7 @@ At the start of any dwarf's turn, you can spend [Malice](../rule/monster/malice.
 
 > ❗️ **Your Weapon Is Useless**
 >
-> | **Psionic, Ranged** |    **Triggered action** |
+> | **Psionic, Ranged** |    **[Triggered action](../rule/combat/triggered-action.md)** |
 > |---------------------|------------------------:|
 > | **📏 Ranged 10**    | **🎯 Self or one ally** |
 >
@@ -6509,7 +6509,7 @@ At the start of any dwarf's turn, you can spend [Malice](../rule/monster/malice.
 
 > 🗡 **Grasping Claws (Signature Ability)**
 >
-> | **Charge, Melee, Strike, Weapon** |                 **Main action** |
+> | **Charge, Melee, Strike, Weapon** |                 **[Main action](../rule/combat/turn.md)** |
 > |-----------------------------------|--------------------------------:|
 > | **📏 Melee 2**                    | **🎯 Two creatures or objects** |
 >
@@ -6523,7 +6523,7 @@ At the start of any dwarf's turn, you can spend [Malice](../rule/monster/malice.
 
 > ❇️ **Stunning Blast (3 [Malice](../rule/monster/malice.md))**
 >
-> | **Area, Weapon** |                  **Maneuver** |
+> | **Area, Weapon** |                  **[Maneuver](../rule/combat/turn.md)** |
 > |------------------|------------------------------:|
 > | **📏 3 burst**   | **🎯 Each enemy in the area** |
 >
@@ -6603,7 +6603,7 @@ At the start of any elemental's turn, you can spend [Malice](../rule/monster/mal
 
 > 🏹 **Convocation of Chaos (7 [Malice](../rule/monster/malice.md))**
 >
-> | **Magic, Ranged** |                 **Maneuver** |
+> | **Magic, Ranged** |                 **[Maneuver](../rule/combat/turn.md)** |
 > |-------------------|-----------------------------:|
 > | **📏 Ranged 8**   | **🎯 Self or one elemental** |
 >
@@ -6619,7 +6619,7 @@ At the start of any elemental's turn, you can spend [Malice](../rule/monster/mal
 
 > 🏹 **Spitfire (Signature Ability)**
 >
-> | **Magic, Ranged, Strike** |                 **Main action** |
+> | **Magic, Ranged, Strike** |                 **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Ranged 12**          | **🎯 Two creatures or objects** |
 >
@@ -6633,7 +6633,7 @@ At the start of any elemental's turn, you can spend [Malice](../rule/monster/mal
 
 > 🏹 **Convocation of Flames**
 >
-> | **Magic, Ranged** |                 **Maneuver** |
+> | **Magic, Ranged** |                 **[Maneuver](../rule/combat/turn.md)** |
 > |-------------------|-----------------------------:|
 > | **📏 Ranged 5**   | **🎯 Self or one elemental** |
 >
@@ -6643,7 +6643,7 @@ At the start of any elemental's turn, you can spend [Malice](../rule/monster/mal
 
 > ❗️ **Flame Jet (1 [Malice](../rule/monster/malice.md))**
 >
-> | **Magic**   | **Triggered action** |
+> | **Magic**   | **[Triggered action](../rule/combat/triggered-action.md)** |
 > |-------------|---------------------:|
 > | **📏 Self** |          **🎯 Self** |
 >
@@ -6665,7 +6665,7 @@ At the start of any elemental's turn, you can spend [Malice](../rule/monster/mal
 
 > ❇️ **Bluster (Signature Ability)**
 >
-> | **Area, Magic** |               **Main action** |
+> | **Area, Magic** |               **[Main action](../rule/combat/turn.md)** |
 > |-----------------|------------------------------:|
 > | **📏 1 burst**  | **🎯 Each enemy in the area** |
 >
@@ -6679,7 +6679,7 @@ At the start of any elemental's turn, you can spend [Malice](../rule/monster/mal
 
 > 🏹 **Convocation of Squalls**
 >
-> | **Magic, Ranged** |                 **Maneuver** |
+> | **Magic, Ranged** |                 **[Maneuver](../rule/combat/turn.md)** |
 > |-------------------|-----------------------------:|
 > | **📏 Ranged 5**   | **🎯 Self or one elemental** |
 >
@@ -6689,7 +6689,7 @@ At the start of any elemental's turn, you can spend [Malice](../rule/monster/mal
 
 > ❗️ **Thunderclap (1 [Malice](../rule/monster/malice.md))**
 >
-> | **Magic, Ranged** |           **Triggered action** |
+> | **Magic, Ranged** |           **[Triggered action](../rule/combat/triggered-action.md)** |
 > |-------------------|-------------------------------:|
 > | **📏 Ranged 5**   | **🎯 The triggering creature** |
 >
@@ -6711,7 +6711,7 @@ At the start of any elemental's turn, you can spend [Malice](../rule/monster/mal
 
 > 🗡 **Water Wing (Signature Ability)**
 >
-> | **Magic, Melee, Strike** |                 **Main action** |
+> | **Magic, Melee, Strike** |                 **[Main action](../rule/combat/turn.md)** |
 > |--------------------------|--------------------------------:|
 > | **📏 Melee 1**           | **🎯 Two creatures or objects** |
 >
@@ -6725,7 +6725,7 @@ At the start of any elemental's turn, you can spend [Malice](../rule/monster/mal
 
 > 🏹 **Convocation of Waves**
 >
-> | **Magic, Ranged** |                 **Maneuver** |
+> | **Magic, Ranged** |                 **[Maneuver](../rule/combat/turn.md)** |
 > |-------------------|-----------------------------:|
 > | **📏 Ranged 5**   | **🎯 Self or one elemental** |
 >
@@ -6735,7 +6735,7 @@ At the start of any elemental's turn, you can spend [Malice](../rule/monster/mal
 
 > ❗️ **Sea-Salted Wounds (1 [Malice](../rule/monster/malice.md))**
 >
-> | **Melee**      | **Triggered action** |
+> | **Melee**      | **[Triggered action](../rule/combat/triggered-action.md)** |
 > |----------------|---------------------:|
 > | **📏 Melee 1** |     **🎯 One enemy** |
 >
@@ -6761,7 +6761,7 @@ At the start of any elemental's turn, you can spend [Malice](../rule/monster/mal
 
 > 🏹 **Hampering Roots (Signature Ability)**
 >
-> | **Magic, Ranged, Strike** |                 **Main action** |
+> | **Magic, Ranged, Strike** |                 **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Ranged 8**           | **🎯 Two creatures or objects** |
 >
@@ -6775,7 +6775,7 @@ At the start of any elemental's turn, you can spend [Malice](../rule/monster/mal
 
 > 🏹 **Convocation of Verdure**
 >
-> | **Magic, Ranged** |                 **Maneuver** |
+> | **Magic, Ranged** |                 **[Maneuver](../rule/combat/turn.md)** |
 > |-------------------|-----------------------------:|
 > | **📏 Ranged 5**   | **🎯 Self or one elemental** |
 >
@@ -6785,7 +6785,7 @@ At the start of any elemental's turn, you can spend [Malice](../rule/monster/mal
 
 > ❗️ **Rose Thorn Lash (1 [Malice](../rule/monster/malice.md))**
 >
-> | **Magic, Melee** |                     **Triggered action** |
+> | **Magic, Melee** |                     **[Triggered action](../rule/combat/triggered-action.md)** |
 > |------------------|-----------------------------------------:|
 > | **📏 Melee 3**   | **🎯 The triggering creature or object** |
 >
@@ -6811,7 +6811,7 @@ At the start of any elemental's turn, you can spend [Malice](../rule/monster/mal
 
 > 🗡 **Slam Into Dirt (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 2**            | **🎯 Two creatures or objects** |
 >
@@ -6825,7 +6825,7 @@ At the start of any elemental's turn, you can spend [Malice](../rule/monster/mal
 
 > 🏹 **Convocation of Quartz**
 >
-> | **Magic, Ranged** |                 **Maneuver** |
+> | **Magic, Ranged** |                 **[Maneuver](../rule/combat/turn.md)** |
 > |-------------------|-----------------------------:|
 > | **📏 Ranged 5**   | **🎯 Self or one elemental** |
 >
@@ -6835,7 +6835,7 @@ At the start of any elemental's turn, you can spend [Malice](../rule/monster/mal
 
 > ❗️ **Break Armor (1 [Malice](../rule/monster/malice.md))**
 >
-> | **-**       | **Triggered action** |
+> | **-**       | **[Triggered action](../rule/combat/triggered-action.md)** |
 > |-------------|---------------------:|
 > | **📏 Self** |          **🎯 Self** |
 >
@@ -6911,7 +6911,7 @@ At the start of any high elf's turn, you can spend [Malice](../rule/monster/mali
 
 > 🔳 **Gift From an Accursed Tome (5 [Malice](../rule/monster/malice.md))**
 >
-> | **Area, Magic**            |               **Main action** |
+> | **Area, Magic**            |               **[Main action](../rule/combat/turn.md)** |
 > |----------------------------|------------------------------:|
 > | **📏 5 x 1 line within 1** | **🎯 Each enemy in the area** |
 >
@@ -6939,7 +6939,7 @@ At the start of any high elf's turn, you can spend [Malice](../rule/monster/mali
 
 > 🗡 **Dweomer Plume (Signature Ability)**
 >
-> | **Magic, Melee, Strike** |                          **Main action** |
+> | **Magic, Melee, Strike** |                          **[Main action](../rule/combat/turn.md)** |
 > |--------------------------|-----------------------------------------:|
 > | **📏 Melee 2**           | **🎯 One creature or object per minion** |
 >
@@ -6963,7 +6963,7 @@ At the start of any high elf's turn, you can spend [Malice](../rule/monster/mali
 
 > 🏹 **Bright Bolt (Signature Ability)**
 >
-> | **Magic, Ranged, Strike** |                          **Main action** |
+> | **Magic, Ranged, Strike** |                          **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|-----------------------------------------:|
 > | **📏 Ranged 5**           | **🎯 One creature or object per minion** |
 >
@@ -6989,7 +6989,7 @@ At the start of any high elf's turn, you can spend [Malice](../rule/monster/mali
 
 > 🏹 **Heavy Arrow (Signature Ability)**
 >
-> | **Ranged, Strike, Weapon** |                          **Main action** |
+> | **Ranged, Strike, Weapon** |                          **[Main action](../rule/combat/turn.md)** |
 > |----------------------------|-----------------------------------------:|
 > | **📏 Ranged 10**           | **🎯 One creature or object per minion** |
 >
@@ -7015,7 +7015,7 @@ At the start of any high elf's turn, you can spend [Malice](../rule/monster/mali
 
 > 🗡 **Heckle (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |                          **Main action** |
+> | **Melee, Strike, Weapon** |                          **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|-----------------------------------------:|
 > | **📏 Melee 1**            | **🎯 One creature or object per minion** |
 >
@@ -7037,7 +7037,7 @@ At the start of any high elf's turn, you can spend [Malice](../rule/monster/mali
 
 > 🔳 **Wall of Roses (Signature Ability)**
 >
-> | **Area, Magic**           | **Main action** |
+> | **Area, Magic**           | **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|----------------:|
 > | **📏 Special; see below** |     **🎯 Self** |
 >
@@ -7045,7 +7045,7 @@ At the start of any high elf's turn, you can spend [Malice](../rule/monster/mali
 
 > ❇️ **Whip Frenzy**
 >
-> | **Area, Weapon** |               **Main action** |
+> | **Area, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |------------------|------------------------------:|
 > | **📏 2 burst**   | **🎯 Each enemy in the area** |
 >
@@ -7069,7 +7069,7 @@ At the start of any high elf's turn, you can spend [Malice](../rule/monster/mali
 
 > 🗡 **Razor's Edge (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |               **Main action** |
+> | **Melee, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Melee 1**            | **🎯 One creature or object** |
 >
@@ -7083,7 +7083,7 @@ At the start of any high elf's turn, you can spend [Malice](../rule/monster/mali
 
 > ❇️ **Blood Haze (2 [Malice](../rule/monster/malice.md))**
 >
-> | **Area, Magic** |   **Maneuver** |
+> | **Area, Magic** |   **[Maneuver](../rule/combat/turn.md)** |
 > |-----------------|---------------:|
 > | **📏 1 burst**  | **🎯 Special** |
 >
@@ -7103,7 +7103,7 @@ At the start of any high elf's turn, you can spend [Malice](../rule/monster/mali
 
 > 🏹 **Heartpiercer (Signature Ability)**
 >
-> | **Ranged, Strike, Weapon** |     **Main action** |
+> | **Ranged, Strike, Weapon** |     **[Main action](../rule/combat/turn.md)** |
 > |----------------------------|--------------------:|
 > | **📏 Ranged 15**           | **🎯 One creature** |
 >
@@ -7117,7 +7117,7 @@ At the start of any high elf's turn, you can spend [Malice](../rule/monster/mali
 
 > 🗡 **Kiss of Death**
 >
-> | **Magic, Melee** |            **Maneuver** |
+> | **Magic, Melee** |            **[Maneuver](../rule/combat/turn.md)** |
 > |------------------|------------------------:|
 > | **📏 Melee 1**   | **🎯 One willing ally** |
 >
@@ -7137,7 +7137,7 @@ At the start of any high elf's turn, you can spend [Malice](../rule/monster/mali
 
 > 🔳 **Awash (Signature Ability)**
 >
-> | **Area, Magic**        |                  **Main action** |
+> | **Area, Magic**        |                  **[Main action](../rule/combat/turn.md)** |
 > |------------------------|---------------------------------:|
 > | **📏 3 cube within 1** | **🎯 Each creature in the area** |
 >
@@ -7149,7 +7149,7 @@ At the start of any high elf's turn, you can spend [Malice](../rule/monster/mali
 
 > 🏹 **Aetherweb**
 >
-> | **Magic, Ranged, Strike** |               **Main action** |
+> | **Magic, Ranged, Strike** |               **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Ranged 8**           | **🎯 Two enemies or objects** |
 >
@@ -7175,7 +7175,7 @@ At the start of any high elf's turn, you can spend [Malice](../rule/monster/mali
 
 > 🏹 **Instill Regret (Signature Ability)**
 >
-> | **Magic, Ranged, Strike** |     **Main action** |
+> | **Magic, Ranged, Strike** |     **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------:|
 > | **📏 Ranged 8**           | **🎯 One creature** |
 >
@@ -7189,7 +7189,7 @@ At the start of any high elf's turn, you can spend [Malice](../rule/monster/mali
 
 > 🏹 **Recall**
 >
-> | **Magic, Ranged** |      **Maneuver** |
+> | **Magic, Ranged** |      **[Maneuver](../rule/combat/turn.md)** |
 > |-------------------|------------------:|
 > | **📏 Ranged 5**   | **🎯 Two allies** |
 >
@@ -7224,7 +7224,7 @@ At the start of any high elf's turn, you can spend [Malice](../rule/monster/mali
 
 > 🔳 **Twystrd (Signature Ability)**
 >
-> | **Area, Magic**        |               **Main action** |
+> | **Area, Magic**        |               **[Main action](../rule/combat/turn.md)** |
 > |------------------------|------------------------------:|
 > | **📏 1 cube within 5** | **🎯 Each enemy in the area** |
 >
@@ -7238,7 +7238,7 @@ At the start of any high elf's turn, you can spend [Malice](../rule/monster/mali
 
 > 🏹 **Summon Elemental (2 [Malice](../rule/monster/malice.md))**
 >
-> | **Ranged**      |   **Maneuver** |
+> | **Ranged**      |   **[Maneuver](../rule/combat/turn.md)** |
 > |-----------------|---------------:|
 > | **📏 Ranged 5** | **🎯 Special** |
 >
@@ -7246,7 +7246,7 @@ At the start of any high elf's turn, you can spend [Malice](../rule/monster/mali
 
 > 🔳 **Wyrd Warp (2 Malice)**
 >
-> | **Area, Magic**        |   **Maneuver** |
+> | **Area, Magic**        |   **[Maneuver](../rule/combat/turn.md)** |
 > |------------------------|---------------:|
 > | **📏 8 wall within 8** | **🎯 Special** |
 >
@@ -7266,7 +7266,7 @@ At the start of any high elf's turn, you can spend [Malice](../rule/monster/mali
 
 > 🗡 **Sweeping Blade (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |               **Main action** |
+> | **Melee, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Melee 2**            | **🎯 One creature or object** |
 >
@@ -7280,7 +7280,7 @@ At the start of any high elf's turn, you can spend [Malice](../rule/monster/mali
 
 > 👤 **Windwalk**
 >
-> | **-**       | **Maneuver** |
+> | **-**       | **[Maneuver](../rule/combat/turn.md)** |
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
@@ -7304,7 +7304,7 @@ At the start of any high elf's turn, you can spend [Malice](../rule/monster/mali
 
 > 🏹 **Lightning Rod (Signature Ability)**
 >
-> | **Magic, Ranged, Strike** |               **Main action** |
+> | **Magic, Ranged, Strike** |               **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Ranged 10**          | **🎯 One creature or object** |
 >
@@ -7318,7 +7318,7 @@ At the start of any high elf's turn, you can spend [Malice](../rule/monster/mali
 
 > ❇️ **Elemental Uproar**
 >
-> | **Area, Magic** |                           **Maneuver** |
+> | **Area, Magic** |                           **[Maneuver](../rule/combat/turn.md)** |
 > |-----------------|---------------------------------------:|
 > | **📏 10 burst** | **🎯 Each elemental ally in the area** |
 >
@@ -7326,7 +7326,7 @@ At the start of any high elf's turn, you can spend [Malice](../rule/monster/mali
 
 > 🏹 **Summon Elemental (2 [Malice](../rule/monster/malice.md))**
 >
-> | **Ranged**       |   **Maneuver** |
+> | **Ranged**       |   **[Maneuver](../rule/combat/turn.md)** |
 > |------------------|---------------:|
 > | **📏 Ranged 10** | **🎯 Special** |
 >
@@ -7336,7 +7336,7 @@ At the start of any high elf's turn, you can spend [Malice](../rule/monster/mali
 
 > ❗️ **Enough!**
 >
-> | **Ranged**       |        **Triggered action** |
+> | **Ranged**       |        **[Triggered action](../rule/combat/triggered-action.md)** |
 > |------------------|----------------------------:|
 > | **📏 Ranged 10** | **🎯 The triggering enemy** |
 >
@@ -7388,7 +7388,7 @@ At the start of any high elf's turn, you can spend [Malice](../rule/monster/mali
 
 > 🗡 **Elemental Charge (Signature Ability)**
 >
-> | **Charge, Melee, Strike, Weapon** |               **Main action** |
+> | **Charge, Melee, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |-----------------------------------|------------------------------:|
 > | **📏 Melee 1**                    | **🎯 One creature or object** |
 >
@@ -7400,7 +7400,7 @@ At the start of any high elf's turn, you can spend [Malice](../rule/monster/mali
 
 > ❇️ **Stomp**
 >
-> | **Area, Weapon** |               **Main action** |
+> | **Area, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |------------------|------------------------------:|
 > | **📏 1 burst**   | **🎯 Each enemy in the area** |
 >
@@ -7414,7 +7414,7 @@ At the start of any high elf's turn, you can spend [Malice](../rule/monster/mali
 
 > 👤 **Buck (2 [Malice](../rule/monster/malice.md))**
 >
-> | **-**       |              **Maneuver** |
+> | **-**       |              **[Maneuver](../rule/combat/turn.md)** |
 > |-------------|--------------------------:|
 > | **📏 Self** |  **🎯 The horse's rider** |
 >
@@ -7490,7 +7490,7 @@ At the start of any shadow elf's turn, you can spend [Malice](../rule/monster/ma
 
 > 🗡 **Stick and Poke (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |                          **Main action** |
+> | **Melee, Strike, Weapon** |                          **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|-----------------------------------------:|
 > | **📏 Melee 1**            | **🎯 One creature or object per minion** |
 >
@@ -7516,7 +7516,7 @@ At the start of any shadow elf's turn, you can spend [Malice](../rule/monster/ma
 
 > 🏹 **Gloom Bolt (Signature Ability)**
 >
-> | **Magic, Ranged, Strike** |                          **Main action** |
+> | **Magic, Ranged, Strike** |                          **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|-----------------------------------------:|
 > | **📏 Ranged 5**           | **🎯 One creature or object per minion** |
 >
@@ -7540,7 +7540,7 @@ At the start of any shadow elf's turn, you can spend [Malice](../rule/monster/ma
 
 > 🏹 **Lumina Arrow (Signature Ability)**
 >
-> | **Ranged, Strike, Weapon** |                          **Main action** |
+> | **Ranged, Strike, Weapon** |                          **[Main action](../rule/combat/turn.md)** |
 > |----------------------------|-----------------------------------------:|
 > | **📏 Ranged 7**            | **🎯 One creature or object per minion** |
 >
@@ -7566,7 +7566,7 @@ At the start of any shadow elf's turn, you can spend [Malice](../rule/monster/ma
 
 > 🗡 **Vault (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |                          **Main action** |
+> | **Melee, Strike, Weapon** |                          **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|-----------------------------------------:|
 > | **📏 Melee 2**            | **🎯 One creature or object per minion** |
 >
@@ -7592,7 +7592,7 @@ At the start of any shadow elf's turn, you can spend [Malice](../rule/monster/ma
 
 > 🏹 **Lumina Assault (Signature Ability)**
 >
-> | **Ranged, Strike, Weapon** |               **Main action** |
+> | **Ranged, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |----------------------------|------------------------------:|
 > | **📏 Ranged 15**           | **🎯 One creature or object** |
 >
@@ -7608,7 +7608,7 @@ At the start of any shadow elf's turn, you can spend [Malice](../rule/monster/ma
 
 > 🔳 **Splitbow (2 [Malice](../rule/monster/malice.md))**
 >
-> | **Area, Ranged, Weapon**    |               **Main action** |
+> | **Area, Ranged, Weapon**    |               **[Main action](../rule/combat/turn.md)** |
 > |-----------------------------|------------------------------:|
 > | **📏 4 x 1 line within 10** | **🎯 Each enemy in the area** |
 >
@@ -7634,7 +7634,7 @@ At the start of any shadow elf's turn, you can spend [Malice](../rule/monster/ma
 
 > 🗡 **Night Knife (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |               **Main action** |
+> | **Melee, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Melee 1**            | **🎯 One creature or object** |
 >
@@ -7648,7 +7648,7 @@ At the start of any shadow elf's turn, you can spend [Malice](../rule/monster/ma
 
 > 🔳 **The Lay of Cor'thoroth**
 >
-> | **Area, Magic, Ranged** |   **Maneuver** |
+> | **Area, Magic, Ranged** |   **[Maneuver](../rule/combat/turn.md)** |
 > |-------------------------|---------------:|
 > | **📏 2 cube within 3**  | **🎯 Special** |
 >
@@ -7670,7 +7670,7 @@ At the start of any shadow elf's turn, you can spend [Malice](../rule/monster/ma
 
 > 🏹 **Suffusing Strike (Signature Ability)**
 >
-> | **Magic, Ranged, Strike** |               **Main action** |
+> | **Magic, Ranged, Strike** |               **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Ranged 3**           | **🎯 One creature or object** |
 >
@@ -7682,7 +7682,7 @@ At the start of any shadow elf's turn, you can spend [Malice](../rule/monster/ma
 
 > ❗️ **Trick of the Eye**
 >
-> | **Magic, Melee** | **Triggered action** |
+> | **Magic, Melee** | **[Triggered action](../rule/combat/triggered-action.md)** |
 > |------------------|---------------------:|
 > | **📏 Melee 2**   |      **🎯 One ally** |
 >
@@ -7704,7 +7704,7 @@ At the start of any shadow elf's turn, you can spend [Malice](../rule/monster/ma
 
 > 🏹 **Lumina Mark (Signature Ability)**
 >
-> | **Magic, Ranged, Strike** |               **Main action** |
+> | **Magic, Ranged, Strike** |               **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Ranged 3**           | **🎯 One creature or object** |
 >
@@ -7718,7 +7718,7 @@ At the start of any shadow elf's turn, you can spend [Malice](../rule/monster/ma
 
 > ❇️ **Mourning Till Dusk (3 [Malice](../rule/monster/malice.md))**
 >
-> | **Area, Magic** |              **Main action** |
+> | **Area, Magic** |              **[Main action](../rule/combat/turn.md)** |
 > |-----------------|-----------------------------:|
 > | **📏 2 burst**  | **🎯 Each ally in the area** |
 >
@@ -7744,7 +7744,7 @@ At the start of any shadow elf's turn, you can spend [Malice](../rule/monster/ma
 
 > 🗡 **Crescent Sweep (Signature Ability)**
 >
-> | **Charge, Melee, Strike, Weapon** |               **Main action** |
+> | **Charge, Melee, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |-----------------------------------|------------------------------:|
 > | **📏 Melee 1**                    | **🎯 One creature or object** |
 >
@@ -7758,7 +7758,7 @@ At the start of any shadow elf's turn, you can spend [Malice](../rule/monster/ma
 
 > ❗️ **Dissolve**
 >
-> | **Magic**   | **Triggered action** |
+> | **Magic**   | **[Triggered action](../rule/combat/triggered-action.md)** |
 > |-------------|---------------------:|
 > | **📏 Self** |          **🎯 Self** |
 >
@@ -7780,7 +7780,7 @@ At the start of any shadow elf's turn, you can spend [Malice](../rule/monster/ma
 
 > 🗡 **Knife in the Dark (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |               **Main action** |
+> | **Melee, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Melee 1**            | **🎯 One creature or object** |
 >
@@ -7794,7 +7794,7 @@ At the start of any shadow elf's turn, you can spend [Malice](../rule/monster/ma
 
 > 👤 **Shadow Step**
 >
-> | **Magic**   | **Maneuver** |
+> | **Magic**   | **[Maneuver](../rule/combat/turn.md)** |
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
@@ -7814,7 +7814,7 @@ At the start of any shadow elf's turn, you can spend [Malice](../rule/monster/ma
 
 > 🏹 **Blotting Bolt (Signature Ability)**
 >
-> | **Magic, Ranged, Strike** |               **Main action** |
+> | **Magic, Ranged, Strike** |               **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Ranged 5**           | **🎯 One creature or object** |
 >
@@ -7830,7 +7830,7 @@ At the start of any shadow elf's turn, you can spend [Malice](../rule/monster/ma
 
 > 🏹 **Enemies in the Dark (3 [Malice](../rule/monster/malice.md))**
 >
-> | **Magic, Ranged, Strike** |    **Main action** |
+> | **Magic, Ranged, Strike** |    **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|-------------------:|
 > | **📏 Ranged 5**           | **🎯 Two enemies** |
 >
@@ -7854,7 +7854,7 @@ At the start of any shadow elf's turn, you can spend [Malice](../rule/monster/ma
 
 > 🗡 **Dusk Cleave (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |               **Main action** |
+> | **Melee, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Melee 1**            | **🎯 One creature or object** |
 >
@@ -7868,7 +7868,7 @@ At the start of any shadow elf's turn, you can spend [Malice](../rule/monster/ma
 
 > ❇️ **Bladestorm (3 [Malice](../rule/monster/malice.md))**
 >
-> | **Area, Weapon** |               **Main action** |
+> | **Area, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |------------------|------------------------------:|
 > | **📏 2 burst**   | **🎯 Each enemy in the area** |
 >
@@ -7909,7 +7909,7 @@ However, not every shadow elf force is affiliate d wit h th queen. Some are exil
 
 > 🗡 **Manifold Blade (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 1**            | **🎯 Two creatures or objects** |
 >
@@ -7923,7 +7923,7 @@ However, not every shadow elf force is affiliate d wit h th queen. Some are exil
 
 > 🏹 **Grasping Shadow**
 >
-> | **Magic, Ranged** |                                       **Maneuver** |
+> | **Magic, Ranged** |                                       **[Maneuver](../rule/combat/turn.md)** |
 > |-------------------|---------------------------------------------------:|
 > | **📏 Ranged 5**   | **🎯 Three creatures or objects casting a shadow** |
 >
@@ -7935,7 +7935,7 @@ However, not every shadow elf force is affiliate d wit h th queen. Some are exil
 
 > ❗️ **Put It Out!**
 >
-> | **Ranged**       |        **Triggered action** |
+> | **Ranged**       |        **[Triggered action](../rule/combat/triggered-action.md)** |
 > |------------------|----------------------------:|
 > | **📏 Ranged 10** | **🎯 The triggering enemy** |
 >
@@ -7991,7 +7991,7 @@ However, not every shadow elf force is affiliate d wit h th queen. Some are exil
 
 > 🗡 **Gore (Signature Ability)**
 >
-> | **Charge, Melee, Strike, Weapon** |                 **Main action** |
+> | **Charge, Melee, Strike, Weapon** |                 **[Main action](../rule/combat/turn.md)** |
 > |-----------------------------------|--------------------------------:|
 > | **📏 Melee 2**                    | **🎯 Two creatures or objects** |
 >
@@ -8003,7 +8003,7 @@ However, not every shadow elf force is affiliate d wit h th queen. Some are exil
 
 > ❇️ **Reclamation (2 [Malice](../rule/monster/malice.md))**
 >
-> | **Area, Magic** |               **Main action** |
+> | **Area, Magic** |               **[Main action](../rule/combat/turn.md)** |
 > |-----------------|------------------------------:|
 > | **📏 2 burst**  | **🎯 Each enemy in the area** |
 >
@@ -8093,7 +8093,7 @@ At the start of any wode elf's turn, you can spend [Malice](../rule/monster/mali
 
 > 🏹 **Longbow (Signature Ability)**
 >
-> | **Ranged, Strike, Weapon** |                          **Main action** |
+> | **Ranged, Strike, Weapon** |                          **[Main action](../rule/combat/turn.md)** |
 > |----------------------------|-----------------------------------------:|
 > | **📏 Ranged 8**            | **🎯 One creature or object per minion** |
 >
@@ -8121,7 +8121,7 @@ At the start of any wode elf's turn, you can spend [Malice](../rule/monster/mali
 
 > ⚔️ **Spear (Signature Ability)**
 >
-> | **Charge, Melee, Ranged, Strike, Weapon** |                          **Main action** |
+> | **Charge, Melee, Ranged, Strike, Weapon** |                          **[Main action](../rule/combat/turn.md)** |
 > |-------------------------------------------|-----------------------------------------:|
 > | **📏 Melee 1 or ranged 5**                | **🎯 One creature or object per minion** |
 >
@@ -8147,7 +8147,7 @@ At the start of any wode elf's turn, you can spend [Malice](../rule/monster/mali
 
 > ⚔️ **Daggers (Signature Ability)**
 >
-> | **Melee, Ranged, Strike, Weapon** |                          **Main action** |
+> | **Melee, Ranged, Strike, Weapon** |                          **[Main action](../rule/combat/turn.md)** |
 > |-----------------------------------|-----------------------------------------:|
 > | **📏 Melee 1 or ranged 5**        | **🎯 One creature or object per minion** |
 >
@@ -8175,7 +8175,7 @@ At the start of any wode elf's turn, you can spend [Malice](../rule/monster/mali
 
 > 🏹 **Heavy Longbow (Signature Ability)**
 >
-> | **Ranged, Strike, Weapon** |                          **Main action** |
+> | **Ranged, Strike, Weapon** |                          **[Main action](../rule/combat/turn.md)** |
 > |----------------------------|-----------------------------------------:|
 > | **📏 Ranged 12**           | **🎯 One creature or object per minion** |
 >
@@ -8199,7 +8199,7 @@ At the start of any wode elf's turn, you can spend [Malice](../rule/monster/mali
 
 > ⚔️ **Wild Ax (Signature Ability)**
 >
-> | **Charge, Melee, Ranged, Strike, Weapon** |               **Main action** |
+> | **Charge, Melee, Ranged, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |-------------------------------------------|------------------------------:|
 > | **📏 Melee 1 or ranged 5**                | **🎯 One creature or object** |
 >
@@ -8215,7 +8215,7 @@ At the start of any wode elf's turn, you can spend [Malice](../rule/monster/mali
 
 > 🏹 **The Wode Protects Us (3 [Malice](../rule/monster/malice.md))**
 >
-> | **Magic, Ranged** |                 **Maneuver** |
+> | **Magic, Ranged** |                 **[Maneuver](../rule/combat/turn.md)** |
 > |-------------------|-----------------------------:|
 > | **📏 Ranged 5**   | **🎯 Self and three allies** |
 >
@@ -8235,7 +8235,7 @@ At the start of any wode elf's turn, you can spend [Malice](../rule/monster/mali
 
 > 🔳 **Entangling Vines (Signature Ability)**
 >
-> | **Area, Magic, Ranged** |               **Main action** |
+> | **Area, Magic, Ranged** |               **[Main action](../rule/combat/turn.md)** |
 > |-------------------------|------------------------------:|
 > | **📏 3 cube within 10** | **🎯 Each enemy in the area** |
 >
@@ -8251,7 +8251,7 @@ At the start of any wode elf's turn, you can spend [Malice](../rule/monster/mali
 
 > 🏹 **The Wode Protects Us (3 [Malice](../rule/monster/malice.md))**
 >
-> | **Magic, Ranged** |                 **Maneuver** |
+> | **Magic, Ranged** |                 **[Maneuver](../rule/combat/turn.md)** |
 > |-------------------|-----------------------------:|
 > | **📏 Ranged 5**   | **🎯 Self and three allies** |
 >
@@ -8283,7 +8283,7 @@ Wode elves are highly mobile and adept at hindering their enemies. A common tact
 
 > 🏹 **The Forest's Embrace (Signature Ability)**
 >
-> | **Magic, Ranged, Strike** |               **Main action** |
+> | **Magic, Ranged, Strike** |               **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Ranged 10**          | **🎯 One creature or object** |
 >
@@ -8297,7 +8297,7 @@ Wode elves are highly mobile and adept at hindering their enemies. A common tact
 
 > 🏹 **The Natural Cycle (3 [Malice](../rule/monster/malice.md))**
 >
-> | **Magic, Ranged, Strike** |         **Maneuver** |
+> | **Magic, Ranged, Strike** |         **[Maneuver](../rule/combat/turn.md)** |
 > |---------------------------|---------------------:|
 > | **📏 Ranged 10**          | **🎯 Two creatures** |
 >
@@ -8311,7 +8311,7 @@ Wode elves are highly mobile and adept at hindering their enemies. A common tact
 
 > ❗️ **Foreseen Punishment**
 >
-> | **Ranged**      |      **Free triggered action** |
+> | **Ranged**      |      **Free [triggered action](../rule/combat/triggered-action.md)** |
 > |-----------------|-------------------------------:|
 > | **📏 Ranged 5** | **🎯 The triggering creature** |
 >
@@ -8333,7 +8333,7 @@ Wode elves are highly mobile and adept at hindering their enemies. A common tact
 
 > 🗡 **Growing Longsword (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |               **Main action** |
+> | **Melee, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Melee 1**            | **🎯 One creature or object** |
 >
@@ -8349,7 +8349,7 @@ Wode elves are highly mobile and adept at hindering their enemies. A common tact
 
 > 🔳 **Overgrowth (3 [Malice](../rule/monster/malice.md))**
 >
-> | **Area, Ranged**        |   **Maneuver** |
+> | **Area, Ranged**        |   **[Maneuver](../rule/combat/turn.md)** |
 > |-------------------------|---------------:|
 > | **📏 3 cube within 10** | **🎯 Special** |
 >
@@ -8369,7 +8369,7 @@ Wode elves are highly mobile and adept at hindering their enemies. A common tact
 
 > ⚔️ **Splinter Dagger (Signature Ability)**
 >
-> | **Magic, Melee, Ranged, Strike, Weapon** |               **Main action** |
+> | **Magic, Melee, Ranged, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |------------------------------------------|------------------------------:|
 > | **📏 Melee 1 or ranged 5**               | **🎯 One creature or object** |
 >
@@ -8385,7 +8385,7 @@ Wode elves are highly mobile and adept at hindering their enemies. A common tact
 
 > ❗️ **Do Not Hesitate in the Wode (3 Malice)**
 >
-> | **Ranged**       | **Free triggered action** |
+> | **Ranged**       | **Free [triggered action](../rule/combat/triggered-action.md)** |
 > |------------------|--------------------------:|
 > | **📏 Ranged 20** | **🎯 Self and each ally** |
 >
@@ -8413,7 +8413,7 @@ Wode elves are highly mobile and adept at hindering their enemies. A common tact
 
 > 🏹 **Snare Bow (Signature Ability)**
 >
-> | **Ranged, Strike, Weapon** |               **Main action** |
+> | **Ranged, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |----------------------------|------------------------------:|
 > | **📏 Ranged 15**           | **🎯 One creature or object** |
 >
@@ -8429,7 +8429,7 @@ Wode elves are highly mobile and adept at hindering their enemies. A common tact
 
 > 🔳 **You Activated My Trap! (3 [Malice](../rule/monster/malice.md))**
 >
-> | **Area, Magic, Ranged** |                  **Maneuver** |
+> | **Area, Magic, Ranged** |                  **[Maneuver](../rule/combat/turn.md)** |
 > |-------------------------|------------------------------:|
 > | **📏 3 cube within 10** | **🎯 Each enemy in the area** |
 >
@@ -8455,7 +8455,7 @@ Wode elves are highly mobile and adept at hindering their enemies. A common tact
 
 > 🏹 **Tracer Longbow (Signature Ability)**
 >
-> | **Ranged, Strike, Weapon** |               **Main action** |
+> | **Ranged, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |----------------------------|------------------------------:|
 > | **📏 Ranged 10**           | **🎯 One creature or object** |
 >
@@ -8471,7 +8471,7 @@ Wode elves are highly mobile and adept at hindering their enemies. A common tact
 
 > ❇️ **Death Blossom (2 Malice)**
 >
-> | **Area, Weapon** |             **Maneuver** |
+> | **Area, Weapon** |             **[Maneuver](../rule/combat/turn.md)** |
 > |------------------|-------------------------:|
 > | **📏 5 burst**   | **🎯 Each marked enemy** |
 >
@@ -8491,7 +8491,7 @@ Wode elves are highly mobile and adept at hindering their enemies. A common tact
 
 > 🗡 **Wodeblade (Signature Ability)**
 >
-> | **Magic, Melee, Strike, Weapon** |                 **Main action** |
+> | **Magic, Melee, Strike, Weapon** |                 **[Main action](../rule/combat/turn.md)** |
 > |----------------------------------|--------------------------------:|
 > | **📏 Melee 1**                   | **🎯 Two creatures or objects** |
 >
@@ -8507,7 +8507,7 @@ Wode elves are highly mobile and adept at hindering their enemies. A common tact
 
 > ❇️ **Fairness Is a Human Concept (5 [Malice](../rule/monster/malice.md))**
 >
-> | **Area**        |                 **Maneuver** |
+> | **Area**        |                 **[Maneuver](../rule/combat/turn.md)** |
 > |-----------------|-----------------------------:|
 > | **📏 10 burst** | **🎯 Each ally in the area** |
 >
@@ -8515,7 +8515,7 @@ Wode elves are highly mobile and adept at hindering their enemies. A common tact
 
 > ❗️ **Wode Sickness**
 >
-> | **Ranged**       | **Triggered action** |
+> | **Ranged**       | **[Triggered action](../rule/combat/triggered-action.md)** |
 > |------------------|---------------------:|
 > | **📏 Ranged 10** |     **🎯 One enemy** |
 >
@@ -8569,7 +8569,7 @@ Wode elves are highly mobile and adept at hindering their enemies. A common tact
 
 > 🗡 **Gore (Signature Ability)**
 >
-> | **Charge, Melee, Strike, Weapon** |               **Main action** |
+> | **Charge, Melee, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |-----------------------------------|------------------------------:|
 > | **📏 Melee 1**                    | **🎯 One creature or object** |
 >
@@ -8587,7 +8587,7 @@ Wode elves are highly mobile and adept at hindering their enemies. A common tact
 
 > 👤 **Where I End the Woods Begin (3 [Malice](../rule/monster/malice.md))**
 >
-> | **-**       | **Maneuver** |
+> | **-**       | **[Maneuver](../rule/combat/turn.md)** |
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
@@ -8669,7 +8669,7 @@ At the start of a fossil cryptic's turn, you can spend [Malice](../rule/monster/
 
 > 🗡 **Sand Slam (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 2**            | **🎯 Two creatures or objects** |
 >
@@ -8683,7 +8683,7 @@ At the start of a fossil cryptic's turn, you can spend [Malice](../rule/monster/
 
 > 🔳 **Stone Bone Storm**
 >
-> | **Area**                   |               **Main action** |
+> | **Area**                   |               **[Main action](../rule/combat/turn.md)** |
 > |----------------------------|------------------------------:|
 > | **📏 6 x 1 line within 1** | **🎯 Each enemy in the area** |
 >
@@ -8697,7 +8697,7 @@ At the start of a fossil cryptic's turn, you can spend [Malice](../rule/monster/
 
 > 🏹 **Stoneshift**
 >
-> | **Ranged**      |                                **Maneuver** |
+> | **Ranged**      |                                **[Maneuver](../rule/combat/turn.md)** |
 > |-----------------|--------------------------------------------:|
 > | **📏 Ranged 5** | **🎯 One creature or object on the ground** |
 >
@@ -8707,7 +8707,7 @@ At the start of a fossil cryptic's turn, you can spend [Malice](../rule/monster/
 
 > ❗️ **Dissipate (1 [Malice](../rule/monster/malice.md))**
 >
-> | **-**       | **Triggered action** |
+> | **-**       | **[Triggered action](../rule/combat/triggered-action.md)** |
 > |-------------|---------------------:|
 > | **📏 Self** |          **🎯 Self** |
 >
@@ -8717,7 +8717,7 @@ At the start of a fossil cryptic's turn, you can spend [Malice](../rule/monster/
 
 > ❗️ **Shatterstone (5 [Malice](../rule/monster/malice.md))**
 >
-> | **Area**       |          **Triggered action** |
+> | **Area**       |          **[Triggered action](../rule/combat/triggered-action.md)** |
 > |----------------|------------------------------:|
 > | **📏 2 burst** | **🎯 Each enemy in the area** |
 >
@@ -8827,7 +8827,7 @@ At the start of any giant's turn, you can spend [Malice](../rule/monster/malice.
 
 > 🔳 **Hurl Landscape (3 [Malice](../rule/monster/malice.md))**
 >
-> | **Area, Ranged, Weapon** |               **Main action** |
+> | **Area, Ranged, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |--------------------------|------------------------------:|
 > | **📏 4 cube within 10**  | **🎯 Each enemy in the area** |
 >
@@ -8859,7 +8859,7 @@ At the start of any giant's turn, you can spend [Malice](../rule/monster/malice.
 
 > ❇️ **Blazing Leap (Signature Ability)**
 >
-> | **Area, Weapon** |                          **Main action** |
+> | **Area, Weapon** |                          **[Main action](../rule/combat/turn.md)** |
 > |------------------|-----------------------------------------:|
 > | **📏 1 burst**   | **🎯 Each enemy and object in the area** |
 >
@@ -8885,7 +8885,7 @@ At the start of any giant's turn, you can spend [Malice](../rule/monster/malice.
 
 > 🏹 **Slushfall (Signature Ability)**
 >
-> | **Magic, Ranged, Strike** |                          **Main action** |
+> | **Magic, Ranged, Strike** |                          **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|-----------------------------------------:|
 > | **📏 Ranged 12**          | **🎯 One creature or object per minion** |
 >
@@ -8909,7 +8909,7 @@ At the start of any giant's turn, you can spend [Malice](../rule/monster/malice.
 
 > 🗡 **Swing (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |                          **Main action** |
+> | **Melee, Strike, Weapon** |                          **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|-----------------------------------------:|
 > | **📏 Melee 3**            | **🎯 One creature or object per minion** |
 >
@@ -8935,7 +8935,7 @@ At the start of any giant's turn, you can spend [Malice](../rule/monster/malice.
 
 > 🗡 **Buried in Sand (Signature Ability)**
 >
-> | **Magic, Melee, Strike** |                          **Main action** |
+> | **Magic, Melee, Strike** |                          **[Main action](../rule/combat/turn.md)** |
 > |--------------------------|-----------------------------------------:|
 > | **📏 Melee 3**           | **🎯 One creature or object per minion** |
 >
@@ -8967,7 +8967,7 @@ At the start of any giant's turn, you can spend [Malice](../rule/monster/malice.
 
 > 🗡 **Rune-Signed Blade (Signature Ability)**
 >
-> | **Magic, Melee, Strike, Weapon** |                 **Main action** |
+> | **Magic, Melee, Strike, Weapon** |                 **[Main action](../rule/combat/turn.md)** |
 > |----------------------------------|--------------------------------:|
 > | **📏 Melee 3**                   | **🎯 Two creatures or objects** |
 >
@@ -8981,7 +8981,7 @@ At the start of any giant's turn, you can spend [Malice](../rule/monster/malice.
 
 > ⚔️ **Forked Knife (3 [Malice](../rule/monster/malice.md))**
 >
-> | **Melee, Ranged, Strike, Weapon** |               **Main action** |
+> | **Melee, Ranged, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |-----------------------------------|------------------------------:|
 > | **📏 Melee 3 or ranged 12**       | **🎯 One creature or object** |
 >
@@ -8995,7 +8995,7 @@ At the start of any giant's turn, you can spend [Malice](../rule/monster/malice.
 
 > 👤 **Cobblestone Shape**
 >
-> | **-**       | **Maneuver** |
+> | **-**       | **[Maneuver](../rule/combat/turn.md)** |
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
@@ -9003,7 +9003,7 @@ At the start of any giant's turn, you can spend [Malice](../rule/monster/malice.
 
 > ❗️ **Resonate Rune**
 >
-> | **Area, Magic** |          **Triggered action** |
+> | **Area, Magic** |          **[Triggered action](../rule/combat/triggered-action.md)** |
 > |-----------------|------------------------------:|
 > | **📏 2 burst**  | **🎯 Each enemy in the area** |
 >
@@ -9033,7 +9033,7 @@ At the start of any giant's turn, you can spend [Malice](../rule/monster/malice.
 
 > 🗡 **Flamelash (Signature Ability)**
 >
-> | **Magic, Melee, Strike** |                 **Main action** |
+> | **Magic, Melee, Strike** |                 **[Main action](../rule/combat/turn.md)** |
 > |--------------------------|--------------------------------:|
 > | **📏 Melee 6**           | **🎯 Two creatures or objects** |
 >
@@ -9045,7 +9045,7 @@ At the start of any giant's turn, you can spend [Malice](../rule/monster/malice.
 
 > 🏹 **Living Blaze (3 [Malice](../rule/monster/malice.md))**
 >
-> | **Magic, Ranged, Strike** |                 **Main action** |
+> | **Magic, Ranged, Strike** |                 **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Ranged 6**           | **🎯 Two creatures or objects** |
 >
@@ -9059,7 +9059,7 @@ At the start of any giant's turn, you can spend [Malice](../rule/monster/malice.
 
 > 🏹 **Travel By Fire**
 >
-> | **Magic, Ranged** |                    **Maneuver** |
+> | **Magic, Ranged** |                    **[Maneuver](../rule/combat/turn.md)** |
 > |-------------------|--------------------------------:|
 > | **📏 Ranged 5**   | **🎯 Two creatures or objects** |
 >
@@ -9067,7 +9067,7 @@ At the start of any giant's turn, you can spend [Malice](../rule/monster/malice.
 
 > ❗️ **Emergency Beacon**
 >
-> | **-**       | **Triggered action** |
+> | **-**       | **[Triggered action](../rule/combat/triggered-action.md)** |
 > |-------------|---------------------:|
 > | **📏 Self** |          **🎯 Self** |
 >
@@ -9093,7 +9093,7 @@ At the start of any giant's turn, you can spend [Malice](../rule/monster/malice.
 
 > 🗡 **Flaming Punch (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 3**            | **🎯 Two creatures or objects** |
 >
@@ -9107,7 +9107,7 @@ At the start of any giant's turn, you can spend [Malice](../rule/monster/malice.
 
 > ❇️ **Caldera (5 [Malice](../rule/monster/malice.md))**
 >
-> | **Area**       |                          **Main action** |
+> | **Area**       |                          **[Main action](../rule/combat/turn.md)** |
 > |----------------|-----------------------------------------:|
 > | **📏 Special** | **🎯 Each enemy and object in the area** |
 >
@@ -9121,7 +9121,7 @@ At the start of any giant's turn, you can spend [Malice](../rule/monster/malice.
 
 > 👤 **Blazing Leap**
 >
-> | **-**       | **Maneuver** |
+> | **-**       | **[Maneuver](../rule/combat/turn.md)** |
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
@@ -9129,7 +9129,7 @@ At the start of any giant's turn, you can spend [Malice](../rule/monster/malice.
 
 > ❗️ **Heat and Pressure**
 >
-> | **Melee**      |      **Free triggered action** |
+> | **Melee**      |      **Free [triggered action](../rule/combat/triggered-action.md)** |
 > |----------------|-------------------------------:|
 > | **📏 Melee 3** | **🎯 The triggering creature** |
 >
@@ -9143,7 +9143,7 @@ At the start of any giant's turn, you can spend [Malice](../rule/monster/malice.
 
 > ❗️ **Guardian Block**
 >
-> | **Melee**      | **Triggered action** |
+> | **Melee**      | **[Triggered action](../rule/combat/triggered-action.md)** |
 > |----------------|---------------------:|
 > | **📏 Melee 3** |          **🎯 Self** |
 >
@@ -9165,7 +9165,7 @@ At the start of any giant's turn, you can spend [Malice](../rule/monster/malice.
 
 > 🏹 **Ice Javelins (Signature Ability)**
 >
-> | **Magic, Ranged, Strike** |                 **Main action** |
+> | **Magic, Ranged, Strike** |                 **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Ranged 15**          | **🎯 Two creatures or objects** |
 >
@@ -9179,7 +9179,7 @@ At the start of any giant's turn, you can spend [Malice](../rule/monster/malice.
 
 > 🏹 **Flower of Frost (3 [Malice](../rule/monster/malice.md))**
 >
-> | **Magic, Ranged** | **Main action** |
+> | **Magic, Ranged** | **[Main action](../rule/combat/turn.md)** |
 > |-------------------|----------------:|
 > | **📏 Ranged 15**  |  **🎯 Special** |
 >
@@ -9191,7 +9191,7 @@ At the start of any giant's turn, you can spend [Malice](../rule/monster/malice.
 
 > 🗡 **Ice Dance**
 >
-> | **Melee**      |          **Maneuver** |
+> | **Melee**      |          **[Maneuver](../rule/combat/turn.md)** |
 > |----------------|----------------------:|
 > | **📏 Melee 1** | **🎯 One giant ally** |
 >
@@ -9199,7 +9199,7 @@ At the start of any giant's turn, you can spend [Malice](../rule/monster/malice.
 
 > ❗️ **Frozen Retribution**
 >
-> | **-**       | **Triggered action** |
+> | **-**       | **[Triggered action](../rule/combat/triggered-action.md)** |
 > |-------------|---------------------:|
 > | **📏 Self** |          **🎯 Self** |
 >
@@ -9221,7 +9221,7 @@ At the start of any giant's turn, you can spend [Malice](../rule/monster/malice.
 
 > 🗡 **Cold Axe (Signature Ability)**
 >
-> | **Charge, Melee, Strike, Weapon** |                 **Main action** |
+> | **Charge, Melee, Strike, Weapon** |                 **[Main action](../rule/combat/turn.md)** |
 > |-----------------------------------|--------------------------------:|
 > | **📏 Melee 3**                    | **🎯 Two creatures or objects** |
 >
@@ -9235,7 +9235,7 @@ At the start of any giant's turn, you can spend [Malice](../rule/monster/malice.
 
 > 👤 **Blizzard Surge (5 [Malice](../rule/monster/malice.md))**
 >
-> | **-**       | **Main action** |
+> | **-**       | **[Main action](../rule/combat/turn.md)** |
 > |-------------|----------------:|
 > | **📏 Self** |     **🎯 Self** |
 >
@@ -9243,7 +9243,7 @@ At the start of any giant's turn, you can spend [Malice](../rule/monster/malice.
 
 > 🗡 **Ice Dance**
 >
-> | **Melee**      |          **Maneuver** |
+> | **Melee**      |          **[Maneuver](../rule/combat/turn.md)** |
 > |----------------|----------------------:|
 > | **📏 Melee 1** | **🎯 One giant ally** |
 >
@@ -9251,7 +9251,7 @@ At the start of any giant's turn, you can spend [Malice](../rule/monster/malice.
 
 > ❗️ **Begone, Smallfolk!**
 >
-> | **-**       | **Triggered action** |
+> | **-**       | **[Triggered action](../rule/combat/triggered-action.md)** |
 > |-------------|---------------------:|
 > | **📏 Self** |          **🎯 Self** |
 >
@@ -9277,7 +9277,7 @@ At the start of any giant's turn, you can spend [Malice](../rule/monster/malice.
 
 > 🗡 **Jagged Stone Club (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 3**            | **🎯 Two creatures or objects** |
 >
@@ -9291,7 +9291,7 @@ At the start of any giant's turn, you can spend [Malice](../rule/monster/malice.
 
 > ❇️ **Crag Burst (3 [Malice](../rule/monster/malice.md))**
 >
-> | **Area**       |                          **Main action** |
+> | **Area**       |                          **[Main action](../rule/combat/turn.md)** |
 > |----------------|-----------------------------------------:|
 > | **📏 2 burst** | **🎯 Each enemy and object in the area** |
 >
@@ -9305,7 +9305,7 @@ At the start of any giant's turn, you can spend [Malice](../rule/monster/malice.
 
 > 👤 **Castle Stone Shape**
 >
-> | **-**       | **Maneuver** |
+> | **-**       | **[Maneuver](../rule/combat/turn.md)** |
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
@@ -9313,7 +9313,7 @@ At the start of any giant's turn, you can spend [Malice](../rule/monster/malice.
 
 > ❗️ **Pillar**
 >
-> | **Melee**      |                     **Triggered action** |
+> | **Melee**      |                     **[Triggered action](../rule/combat/triggered-action.md)** |
 > |----------------|-----------------------------------------:|
 > | **📏 Melee 3** | **🎯 The triggering creature or object** |
 >
@@ -9343,7 +9343,7 @@ At the start of any giant's turn, you can spend [Malice](../rule/monster/malice.
 
 > 🗡 **Clobberin' Club (Signature Ability)**
 >
-> | **Charge, Melee, Strike, Weapon** |                 **Main action** |
+> | **Charge, Melee, Strike, Weapon** |                 **[Main action](../rule/combat/turn.md)** |
 > |-----------------------------------|--------------------------------:|
 > | **📏 Melee 3**                    | **🎯 Two creatures or objects** |
 >
@@ -9357,7 +9357,7 @@ At the start of any giant's turn, you can spend [Malice](../rule/monster/malice.
 
 > 🗡 **Stomp (3 [Malice](../rule/monster/malice.md))**
 >
-> | **Melee, Strike, Weapon** |               **Main action** |
+> | **Melee, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Melee 1**            | **🎯 One creature or object** |
 >
@@ -9371,7 +9371,7 @@ At the start of any giant's turn, you can spend [Malice](../rule/monster/malice.
 
 > ❇️ **Hill Quake**
 >
-> | **Area**       |                  **Maneuver** |
+> | **Area**       |                  **[Maneuver](../rule/combat/turn.md)** |
 > |----------------|------------------------------:|
 > | **📏 3 burst** | **🎯 Each enemy in the area** |
 >
@@ -9385,7 +9385,7 @@ At the start of any giant's turn, you can spend [Malice](../rule/monster/malice.
 
 > ❗️ **You Ain't Getting Away**
 >
-> | **Melee**      |           **Triggered action** |
+> | **Melee**      |           **[Triggered action](../rule/combat/triggered-action.md)** |
 > |----------------|-------------------------------:|
 > | **📏 Melee 3** | **🎯 The triggering creature** |
 >
@@ -9417,7 +9417,7 @@ At the start of any giant's turn, you can spend [Malice](../rule/monster/malice.
 
 > 🔳 **Marble From a Great Sling (Signature Ability)**
 >
-> | **Area, Ranged, Weapon** |                          **Main action** |
+> | **Area, Ranged, Weapon** |                          **[Main action](../rule/combat/turn.md)** |
 > |--------------------------|-----------------------------------------:|
 > | **📏 3 cube within 15**  | **🎯 Each enemy and object in the area** |
 >
@@ -9431,7 +9431,7 @@ At the start of any giant's turn, you can spend [Malice](../rule/monster/malice.
 
 > 🗡 **Far Flung (3 [Malice](../rule/monster/malice.md))**
 >
-> | **Melee, Weapon** |               **Main action** |
+> | **Melee, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |-------------------|------------------------------:|
 > | **📏 Melee 1**    | **🎯 One creature or object** |
 >
@@ -9445,7 +9445,7 @@ At the start of any giant's turn, you can spend [Malice](../rule/monster/malice.
 
 > 🔳 **Polish Stone Shape**
 >
-> | **Area**                    |   **Maneuver** |
+> | **Area**                    |   **[Maneuver](../rule/combat/turn.md)** |
 > |-----------------------------|---------------:|
 > | **📏 10 x 2 line within 1** | **🎯 Special** |
 >
@@ -9453,7 +9453,7 @@ At the start of any giant's turn, you can spend [Malice](../rule/monster/malice.
 
 > ❗️ **Break Armor (1 [Malice](../rule/monster/malice.md))**
 >
-> | **-**       | **Triggered action** |
+> | **-**       | **[Triggered action](../rule/combat/triggered-action.md)** |
 > |-------------|---------------------:|
 > | **📏 Self** |          **🎯 Self** |
 >
@@ -9483,7 +9483,7 @@ At the start of any giant's turn, you can spend [Malice](../rule/monster/malice.
 
 > 🔳 **Roiling Fist (Signature Ability)**
 >
-> | **Area, Ranged, Weapon** |                          **Main action** |
+> | **Area, Ranged, Weapon** |                          **[Main action](../rule/combat/turn.md)** |
 > |--------------------------|-----------------------------------------:|
 > | **📏 3 cube within 4**   | **🎯 Each enemy and object in the area** |
 >
@@ -9495,7 +9495,7 @@ At the start of any giant's turn, you can spend [Malice](../rule/monster/malice.
 
 > 🗡 **Burning Kick**
 >
-> | **Charge, Melee, Strike, Weapon** |                 **Main action** |
+> | **Charge, Melee, Strike, Weapon** |                 **[Main action](../rule/combat/turn.md)** |
 > |-----------------------------------|--------------------------------:|
 > | **📏 Melee 4**                    | **🎯 Two creatures or objects** |
 >
@@ -9507,7 +9507,7 @@ At the start of any giant's turn, you can spend [Malice](../rule/monster/malice.
 
 > 🔳 **Lava Pillar (3 [Malice](../rule/monster/malice.md))**
 >
-> | **Area, Ranged**        |                             **Maneuver** |
+> | **Area, Ranged**        |                             **[Maneuver](../rule/combat/turn.md)** |
 > |-------------------------|-----------------------------------------:|
 > | **📏 3 cube within 10** | **🎯 Each enemy and object in the area** |
 >
@@ -9519,7 +9519,7 @@ At the start of any giant's turn, you can spend [Malice](../rule/monster/malice.
 
 > ❗️ **Fuel the Fire (1 [Malice](../rule/monster/malice.md))**
 >
-> | **Ranged**       |       **Triggered action** |
+> | **Ranged**       |       **[Triggered action](../rule/combat/triggered-action.md)** |
 > |------------------|---------------------------:|
 > | **📏 Ranged 12** | **🎯 The triggering ally** |
 >
@@ -9599,7 +9599,7 @@ At the start of any gnoll's turn, you can spend [Malice](../rule/monster/malice.
 
 > 🔳 **Iron Jaws (3 [Malice](../rule/monster/malice.md))**
 >
-> | **Area, Ranged, Weapon** |   **Maneuver** |
+> | **Area, Ranged, Weapon** |   **[Maneuver](../rule/combat/turn.md)** |
 > |--------------------------|---------------:|
 > | **📏 1 cube within 3**   | **🎯 Special** 
 >
@@ -9629,7 +9629,7 @@ At the start of any gnoll's turn, you can spend [Malice](../rule/monster/malice.
 
 > 🗡 **Snapjaw (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |                          **Main action** |
+> | **Melee, Strike, Weapon** |                          **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|-----------------------------------------:|
 > | **📏 Melee 1**            | **🎯 One creature or object per minion** |
 >
@@ -9653,7 +9653,7 @@ At the start of any gnoll's turn, you can spend [Malice](../rule/monster/malice.
 
 > 🏹 **Chain Shotput (Signature Ability)**
 >
-> | **Ranged, Strike, Weapon** |                          **Main action** |
+> | **Ranged, Strike, Weapon** |                          **[Main action](../rule/combat/turn.md)** |
 > |----------------------------|-----------------------------------------:|
 > | **📏 Ranged 8**            | **🎯 One creature or object per minion** |
 >
@@ -9677,7 +9677,7 @@ At the start of any gnoll's turn, you can spend [Malice](../rule/monster/malice.
 
 > 🗡 **Wizard Ripper (Signature Ability)**
 >
-> | **Magic, Melee, Strike** |                          **Main action** |
+> | **Magic, Melee, Strike** |                          **[Main action](../rule/combat/turn.md)** |
 > |--------------------------|-----------------------------------------:|
 > | **📏 Melee 1**           | **🎯 One creature or object per minion** |
 >
@@ -9703,7 +9703,7 @@ At the start of any gnoll's turn, you can spend [Malice](../rule/monster/malice.
 
 > 🗡 **Flail (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |                          **Main action** |
+> | **Melee, Strike, Weapon** |                          **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|-----------------------------------------:|
 > | **📏 Melee 1**            | **🎯 One creature or object per minion** |
 >
@@ -9727,7 +9727,7 @@ At the start of any gnoll's turn, you can spend [Malice](../rule/monster/malice.
 
 > 🏹 **Dark Longbow (Signature Ability)**
 >
-> | **Ranged, Strike, Weapon** |               **Main action** |
+> | **Ranged, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |----------------------------|------------------------------:|
 > | **📏 Ranged 10**           | **🎯 One creature or object** |
 >
@@ -9741,7 +9741,7 @@ At the start of any gnoll's turn, you can spend [Malice](../rule/monster/malice.
 
 > ❇️ **Archer's Cackletongue (2 [Malice](../rule/monster/malice.md))**
 >
-> | **Area**       |                          **Maneuver** |
+> | **Area**       |                          **[Maneuver](../rule/combat/turn.md)** |
 > |----------------|--------------------------------------:|
 > | **📏 2 burst** | **🎯 Self and each ally in the area** |
 >
@@ -9765,7 +9765,7 @@ At the start of any gnoll's turn, you can spend [Malice](../rule/monster/malice.
 
 > 🏹 **Flame Wad (Signature Ability)**
 >
-> | **Magic, Ranged, Strike** |               **Main action** |
+> | **Magic, Ranged, Strike** |               **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Ranged 5**           | **🎯 One creature or object** |
 >
@@ -9779,7 +9779,7 @@ At the start of any gnoll's turn, you can spend [Malice](../rule/monster/malice.
 
 > 🏹 **Call Abyssal Hyenas (3 [Malice](../rule/monster/malice.md))**
 >
-> | **Ranged**      |   **Maneuver** |
+> | **Ranged**      |   **[Maneuver](../rule/combat/turn.md)** |
 > |-----------------|---------------:|
 > | **📏 Ranged 5** | **🎯 Special** |
 >
@@ -9787,7 +9787,7 @@ At the start of any gnoll's turn, you can spend [Malice](../rule/monster/malice.
 
 > ❇️ **Summoner's Cackletongue (4 [Malice](../rule/monster/malice.md))**
 >
-> | **Area**       |                 **Maneuver** |
+> | **Area**       |                 **[Maneuver](../rule/combat/turn.md)** |
 > |----------------|-----------------------------:|
 > | **📏 2 burst** | **🎯 Each ally in the area** |
 >
@@ -9807,7 +9807,7 @@ At the start of any gnoll's turn, you can spend [Malice](../rule/monster/malice.
 
 > 🗡 **Three-Tail Flail (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |               **Main action** |
+> | **Melee, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Melee 1**            | **🎯 One creature or object** |
 >
@@ -9821,7 +9821,7 @@ At the start of any gnoll's turn, you can spend [Malice](../rule/monster/malice.
 
 > ❇️ **Bonesplitter's Cackletongue (4 [Malice](../rule/monster/malice.md))**
 >
-> | **Area**       |                          **Maneuver** |
+> | **Area**       |                          **[Maneuver](../rule/combat/turn.md)** |
 > |----------------|--------------------------------------:|
 > | **📏 2 burst** | **🎯 Self and each ally in the area** |
 >
@@ -9841,7 +9841,7 @@ At the start of any gnoll's turn, you can spend [Malice](../rule/monster/malice.
 
 > 🏹 **Moment of Brutality (Signature Ability)**
 >
-> | **Magic, Ranged, Strike** |     **Main action** |
+> | **Magic, Ranged, Strike** |     **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------:|
 > | **📏 Ranged 8**           | **🎯 One creature** |
 >
@@ -9855,7 +9855,7 @@ At the start of any gnoll's turn, you can spend [Malice](../rule/monster/malice.
 
 > ❇️ **Cackler's Cackletongue (4 [Malice](../rule/monster/malice.md))**
 >
-> | **Area, Magic** |                     **Maneuver** |
+> | **Area, Magic** |                     **[Maneuver](../rule/combat/turn.md)** |
 > |-----------------|---------------------------------:|
 > | **📏 2 burst**  | **🎯 Each creature in the area** |
 >
@@ -9879,7 +9879,7 @@ At the start of any gnoll's turn, you can spend [Malice](../rule/monster/malice.
 
 > 🗡 **Fury Flail (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |               **Main action** |
+> | **Melee, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Melee 1**            | **🎯 One creature or object** |
 >
@@ -9893,7 +9893,7 @@ At the start of any gnoll's turn, you can spend [Malice](../rule/monster/malice.
 
 > ❇️ **Marauder's Cackletongue (3 [Malice](../rule/monster/malice.md))**
 >
-> | **Area**       |                          **Maneuver** |
+> | **Area**       |                          **[Maneuver](../rule/combat/turn.md)** |
 > |----------------|--------------------------------------:|
 > | **📏 2 burst** | **🎯 Self and each ally in the area** |
 >
@@ -9913,7 +9913,7 @@ At the start of any gnoll's turn, you can spend [Malice](../rule/monster/malice.
 
 > 🗡 **Gore (Signature Ability)**
 >
-> | **Charge, Melee, Strike, Weapon** |                 **Main action** |
+> | **Charge, Melee, Strike, Weapon** |                 **[Main action](../rule/combat/turn.md)** |
 > |-----------------------------------|--------------------------------:|
 > | **📏 Melee 2**                    | **🎯 Two creatures or objects** |
 >
@@ -9927,7 +9927,7 @@ At the start of any gnoll's turn, you can spend [Malice](../rule/monster/malice.
 
 > ❗️ **Vengeful Tusker**
 >
-> | **Ranged**      |        **Triggered action** |
+> | **Ranged**      |        **[Triggered action](../rule/combat/triggered-action.md)** |
 > |-----------------|----------------------------:|
 > | **📏 Ranged 7** | **🎯 The triggering enemy** |
 >
@@ -9953,7 +9953,7 @@ At the start of any gnoll's turn, you can spend [Malice](../rule/monster/malice.
 
 > 🗡 **Shrapnel Whip (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 2**            | **🎯 Two creatures or objects** |
 >
@@ -9967,7 +9967,7 @@ At the start of any gnoll's turn, you can spend [Malice](../rule/monster/malice.
 
 > ❇️ **Carnage's Cackletongue (4 [Malice](../rule/monster/malice.md))**
 >
-> | **Area**       |                          **Maneuver** |
+> | **Area**       |                          **[Maneuver](../rule/combat/turn.md)** |
 > |----------------|--------------------------------------:|
 > | **📏 5 burst** | **🎯 Self and each ally in the area** |
 >
@@ -10079,7 +10079,7 @@ Most goblins speak Caelian and Szetch.
 
 > 🗡 **Club Charge (Signature Ability)**
 >
-> | **Charge, Melee, Strike, Weapon** |                          **Main action** |
+> | **Charge, Melee, Strike, Weapon** |                          **[Main action](../rule/combat/turn.md)** |
 > |-----------------------------------|-----------------------------------------:|
 > | **📏 Melee 1**                    | **🎯 One creature or object per minion** |
 >
@@ -10103,7 +10103,7 @@ Most goblins speak Caelian and Szetch.
 
 > 🏹 **Bow (Signature Ability)**
 >
-> | **Ranged, Strike, Weapon** |                          **Main action** |
+> | **Ranged, Strike, Weapon** |                          **[Main action](../rule/combat/turn.md)** |
 > |----------------------------|-----------------------------------------:|
 > | **📏 Ranged 10**           | **🎯 One creature or object per minion** |
 >
@@ -10129,7 +10129,7 @@ Most goblins speak Caelian and Szetch.
 
 > 🗡 **Axe (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |                          **Main action** |
+> | **Melee, Strike, Weapon** |                          **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|-----------------------------------------:|
 > | **📏 Melee 1**            | **🎯 One creature or object per minion** |
 >
@@ -10153,7 +10153,7 @@ Most goblins speak Caelian and Szetch.
 
 > 🗡 **Claws (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |                **Main action** |
+> | **Melee, Strike, Weapon** |                **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|-------------------------------:|
 > | **📏 Melee 1**            | **🎯 One creature per minion** |
 >
@@ -10175,7 +10175,7 @@ Most goblins speak Caelian and Szetch.
 
 > 🗡 **Sword Stab (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |               **Main action** |
+> | **Melee, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Melee 1**            | **🎯 One creature or object** |
 >
@@ -10189,7 +10189,7 @@ Most goblins speak Caelian and Szetch.
 
 > 🏹 **Shadow Chains (3 [Malice](../rule/monster/malice.md))**
 >
-> | **Magic, Ranged, Strike** |        **Main action** |
+> | **Magic, Ranged, Strike** |        **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|-----------------------:|
 > | **📏 Ranged 10**          | **🎯 Three creatures** |
 >
@@ -10217,7 +10217,7 @@ Most goblins speak Caelian and Szetch.
 
 > 🏹 **Eye of Surlach (Signature Ability)**
 >
-> | **Magic, Ranged, Strike** |     **Main action** |
+> | **Magic, Ranged, Strike** |     **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------:|
 > | **📏 Ranged 15**          | **🎯 One creature** |
 >
@@ -10229,7 +10229,7 @@ Most goblins speak Caelian and Szetch.
 
 > 🏹 **Dizzying Hex (1 [Malice](../rule/monster/malice.md))**
 >
-> | **Magic, Ranged, Strike** |        **Maneuver** |
+> | **Magic, Ranged, Strike** |        **[Maneuver](../rule/combat/turn.md)** |
 > |---------------------------|--------------------:|
 > | **📏 Ranged 10**          | **🎯 One creature** |
 >
@@ -10253,7 +10253,7 @@ Most goblins speak Caelian and Szetch.
 
 > 🔳 **Toxic Winds (Signature Ability)**
 >
-> | **Area, Magic, Ranged** |               **Main action** |
+> | **Area, Magic, Ranged** |               **[Main action](../rule/combat/turn.md)** |
 > |-------------------------|------------------------------:|
 > | **📏 3 cube within 15** | **🎯 Each enemy in the area** |
 >
@@ -10267,7 +10267,7 @@ Most goblins speak Caelian and Szetch.
 
 > 🔳 **Swamp Gas**
 >
-> | **Area, Magic, Ranged** |   **Maneuver** |
+> | **Area, Magic, Ranged** |   **[Maneuver](../rule/combat/turn.md)** |
 > |-------------------------|---------------:|
 > | **📏 3 cube within 10** | **🎯 Special** |
 >
@@ -10287,7 +10287,7 @@ Most goblins speak Caelian and Szetch.
 
 > 🗡 **Swordplay (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |               **Main action** |
+> | **Melee, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Melee 1**            | **🎯 One creature or object** |
 >
@@ -10301,7 +10301,7 @@ Most goblins speak Caelian and Szetch.
 
 > ❇️ **Get Reckless!**
 >
-> | **Area**       |                 **Maneuver** |
+> | **Area**       |                 **[Maneuver](../rule/combat/turn.md)** |
 > |----------------|-----------------------------:|
 > | **📏 5 burst** | **🎯 Each ally in the area** |
 >
@@ -10323,7 +10323,7 @@ Most goblins speak Caelian and Szetch.
 
 > 🗡 **Spear Charge (Signature Ability)**
 >
-> | **Charge, Melee, Strike, Weapon** |               **Main action** |
+> | **Charge, Melee, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |-----------------------------------|------------------------------:|
 > | **📏 Melee 1**                    | **🎯 One creature or object** |
 >
@@ -10335,7 +10335,7 @@ Most goblins speak Caelian and Szetch.
 
 > 🗡 **Bury the Point (2 [Malice](../rule/monster/malice.md))**
 >
-> | **Melee, Strike, Weapon** |     **Main action** |
+> | **Melee, Strike, Weapon** |     **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------:|
 > | **📏 Melee 1**            | **🎯 One creature** |
 >
@@ -10359,7 +10359,7 @@ Most goblins speak Caelian and Szetch.
 
 > ⚔️ **Handaxe (Signature Ability)**
 >
-> | **Melee, Ranged, Strike, Weapon** |                 **Main action** |
+> | **Melee, Ranged, Strike, Weapon** |                 **[Main action](../rule/combat/turn.md)** |
 > |-----------------------------------|--------------------------------:|
 > | **📏 Melee 1 or ranged 5**        | **🎯 Two creatures or objects** |
 >
@@ -10373,7 +10373,7 @@ Most goblins speak Caelian and Szetch.
 
 > 🏹 **Get in Here! (1 [Malice](../rule/monster/malice.md))**
 >
-> | **Ranged**       |   **Maneuver** |
+> | **Ranged**       |   **[Maneuver](../rule/combat/turn.md)** |
 > |------------------|---------------:|
 > | **📏 Ranged 20** | **🎯 Special** |
 >
@@ -10381,7 +10381,7 @@ Most goblins speak Caelian and Szetch.
 
 > ❗️ **Meat Shield**
 >
-> | **Melee**      | **Triggered action** |
+> | **Melee**      | **[Triggered action](../rule/combat/triggered-action.md)** |
 > |----------------|---------------------:|
 > | **📏 Melee 1** |      **🎯 One ally** |
 >
@@ -10431,7 +10431,7 @@ Most goblins speak Caelian and Szetch.
 
 > 🗡 **Bite (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |     **Main action** |
+> | **Melee, Strike, Weapon** |     **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------:|
 > | **📏 Melee 1**            | **🎯 One creature** |
 >
@@ -10445,7 +10445,7 @@ Most goblins speak Caelian and Szetch.
 
 > 🗡 **Leg Blade**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 1**            | **🎯 Two creatures or objects** |
 >
@@ -10457,7 +10457,7 @@ Most goblins speak Caelian and Szetch.
 
 > 👤 **Trample (5 [Malice](../rule/monster/malice.md))**
 >
-> | **-** | **Main action** |
+> | **-** | **[Main action](../rule/combat/turn.md)** |
 > | --- | ---:|
 > | **📏 Self** | **🎯 Self** |
 >
@@ -10465,7 +10465,7 @@ Most goblins speak Caelian and Szetch.
 
 > 🔳 **Web**
 >
-> | **Area, Weapon**       |                     **Maneuver** |
+> | **Area, Weapon**       |                     **[Maneuver](../rule/combat/turn.md)** |
 > |------------------------|---------------------------------:|
 > | **📏 3 cube within 1** | **🎯 Each creature in the area** |
 >
@@ -10479,7 +10479,7 @@ Most goblins speak Caelian and Szetch.
 
 > ❗️ **Skitter**
 >
-> | **-**       | **Triggered action** |
+> | **-**       | **[Triggered action](../rule/combat/triggered-action.md)** |
 > |-------------|---------------------:|
 > | **📏 Self** |          **🎯 Self** |
 >
@@ -10505,7 +10505,7 @@ Most goblins speak Caelian and Szetch.
 
 > 🗡 **Bite (Signature Ability)**
 >
-> | **Charge, Melee, Strike, Weapon** |               **Main action** |
+> | **Charge, Melee, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |-----------------------------------|------------------------------:|
 > | **📏 Melee 1**                    | **🎯 One creature or object** |
 >
@@ -10517,7 +10517,7 @@ Most goblins speak Caelian and Szetch.
 
 > 👤 **Sprint (1 [Malice](../rule/monster/malice.md))**
 >
-> | **-**       | **Maneuver** |
+> | **-**       | **[Maneuver](../rule/combat/turn.md)** |
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
@@ -10555,7 +10555,7 @@ At the start of any griffon's turn, you can spend [Malice](../rule/monster/malic
 
 > 👤 **Swoop (3 [Malice](../rule/monster/malice.md))**
 >
-> | **-**       | **Maneuver** |
+> | **-**       | **[Maneuver](../rule/combat/turn.md)** |
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
@@ -10583,7 +10583,7 @@ At the start of any griffon's turn, you can spend [Malice](../rule/monster/malic
 
 > 🗡 **Claw Swipes (Signature Ability)**
 >
-> | **Charge, Melee, Strike, Weapon** |                 **Main action** |
+> | **Charge, Melee, Strike, Weapon** |                 **[Main action](../rule/combat/turn.md)** |
 > |-----------------------------------|--------------------------------:|
 > | **📏 Melee 1**                    | **🎯 Two creatures or objects** |
 >
@@ -10597,7 +10597,7 @@ At the start of any griffon's turn, you can spend [Malice](../rule/monster/malic
 
 > 🔳 **Crack the Earth**
 >
-> | **Area, Ranged**       |                  **Maneuver** |
+> | **Area, Ranged**       |                  **[Maneuver](../rule/combat/turn.md)** |
 > |------------------------|------------------------------:|
 > | **📏 3 cube within 8** | **🎯 Each enemy in the area** |
 >
@@ -10613,7 +10613,7 @@ At the start of any griffon's turn, you can spend [Malice](../rule/monster/malic
 
 > 🔳 **Wing Buffet (3 [Malice](../rule/monster/malice.md))**
 >
-> | **Area**                   |                               **Maneuver** |
+> | **Area**                   |                               **[Maneuver](../rule/combat/turn.md)** |
 > |----------------------------|-------------------------------------------:|
 > | **📏 4 x 2 line within 1** | **🎯 Each creature or object in the area** |
 >
@@ -10627,7 +10627,7 @@ At the start of any griffon's turn, you can spend [Malice](../rule/monster/malic
 
 > ❗️ **Zephyr Feint (1 [Malice](../rule/monster/malice.md))**
 >
-> | **-**       | **Triggered action** |
+> | **-**       | **[Triggered action](../rule/combat/triggered-action.md)** |
 > |-------------|---------------------:|
 > | **📏 Self** |          **🎯 Self** |
 >
@@ -10653,7 +10653,7 @@ At the start of any griffon's turn, you can spend [Malice](../rule/monster/malic
 
 > 🗡 **Violent Thrashing (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 2**            | **🎯 Two creatures or objects** |
 >
@@ -10665,7 +10665,7 @@ At the start of any griffon's turn, you can spend [Malice](../rule/monster/malic
 
 > 👤 **Bound Ahead (5 [Malice](../rule/monster/malice.md))**
 >
-> | **-**       | **Main action** |
+> | **-**       | **[Main action](../rule/combat/turn.md)** |
 > |-------------|----------------:|
 > | **📏 Self** |     **🎯 Self** |
 >
@@ -10673,7 +10673,7 @@ At the start of any griffon's turn, you can spend [Malice](../rule/monster/malic
 
 > 🔳 **Power Wing Buffet (3 [Malice](../rule/monster/malice.md))**
 >
-> | **Area**                   |                               **Maneuver** |
+> | **Area**                   |                               **[Maneuver](../rule/combat/turn.md)** |
 > |----------------------------|-------------------------------------------:|
 > | **📏 5 x 3 line within 1** | **🎯 Each creature or object in the area** |
 >
@@ -10685,7 +10685,7 @@ At the start of any griffon's turn, you can spend [Malice](../rule/monster/malic
 
 > ❗️ **Circle and Strike**
 >
-> | **Ranged**      |           **Triggered action** |
+> | **Ranged**      |           **[Triggered action](../rule/combat/triggered-action.md)** |
 > |-----------------|-------------------------------:|
 > | **📏 Ranged 5** | **🎯 The triggering creature** |
 >
@@ -10741,7 +10741,7 @@ The hag utters terrible words that [push](../movement/forced-movement.md) each e
 
 > 🔳 **Hag Wyrd (5 [Malice](../rule/monster/malice.md))**
 >
-> | **Area, Magic**             |               **Main action** |
+> | **Area, Magic**             |               **[Main action](../rule/combat/turn.md)** |
 > |-----------------------------|------------------------------:|
 > | **📏 10 x 1 line within 1** | **🎯 Each enemy in the area** |
 >
@@ -10763,7 +10763,7 @@ The hag utters terrible words that [push](../movement/forced-movement.md) each e
 
 > 🔳 **Kick (Signature Ability)**
 >
-> | **Area, Ranged, Weapon** |               **Main action** |
+> | **Area, Ranged, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |--------------------------|------------------------------:|
 > | **📏 2 cube within 2**   | **🎯 Each enemy in the area** |
 >
@@ -10793,7 +10793,7 @@ The hag utters terrible words that [push](../movement/forced-movement.md) each e
 
 > 🗡 **Corrosive Claws (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 1**            | **🎯 Two creatures or objects** |
 >
@@ -10805,7 +10805,7 @@ The hag utters terrible words that [push](../movement/forced-movement.md) each e
 
 > 🔳 **Soul Steal**
 >
-> | **Area, Magic**        |               **Main action** |
+> | **Area, Magic**        |               **[Main action](../rule/combat/turn.md)** |
 > |------------------------|------------------------------:|
 > | **📏 4 cube within 1** | **🎯 Each enemy in the area** |
 >
@@ -10821,7 +10821,7 @@ The hag utters terrible words that [push](../movement/forced-movement.md) each e
 
 > 👤 **Shapeshifter**
 >
-> | **Magic**   | **Maneuver** |
+> | **Magic**   | **[Maneuver](../rule/combat/turn.md)** |
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
@@ -10831,7 +10831,7 @@ The hag utters terrible words that [push](../movement/forced-movement.md) each e
 
 > ❗️ **Turned Upside Down (2 [Malice](../rule/monster/malice.md))**
 >
-> | **Area, Magic** |          **Triggered action** |
+> | **Area, Magic** |          **[Triggered action](../rule/combat/triggered-action.md)** |
 > |-----------------|------------------------------:|
 > | **📏 1 burst**  | **🎯 Each enemy in the area** |
 >
@@ -10965,7 +10965,7 @@ At the start of any hobgoblin's turn, you can spend [Malice](../rule/monster/mal
 
 > 🗡 **Searing Grasp (Signature Ability)**
 >
-> | **Magic, Melee, Strike** |                          **Main action** |
+> | **Magic, Melee, Strike** |                          **[Main action](../rule/combat/turn.md)** |
 > |--------------------------|-----------------------------------------:|
 > | **📏 Melee 1**           | **🎯 One creature or object per minion** |
 >
@@ -10993,7 +10993,7 @@ At the start of any hobgoblin's turn, you can spend [Malice](../rule/monster/mal
 
 > ⚔️ **Grim Thrust (Signature Ability)**
 >
-> | **Magic, Melee, Ranged, Strike, Weapon** |                          **Main action** |
+> | **Magic, Melee, Ranged, Strike, Weapon** |                          **[Main action](../rule/combat/turn.md)** |
 > |------------------------------------------|-----------------------------------------:|
 > | **📏 Melee 2 or ranged 5**               | **🎯 One creature or object per minion** |
 >
@@ -11019,7 +11019,7 @@ At the start of any hobgoblin's turn, you can spend [Malice](../rule/monster/mal
 
 > 🗡 **Sword Lunge (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |                          **Main action** |
+> | **Melee, Strike, Weapon** |                          **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|-----------------------------------------:|
 > | **📏 Melee 1**            | **🎯 One creature or object per minion** |
 >
@@ -11047,7 +11047,7 @@ At the start of any hobgoblin's turn, you can spend [Malice](../rule/monster/mal
 
 > 🗡 **Flyby Bite (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |                          **Main action** |
+> | **Melee, Strike, Weapon** |                          **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|-----------------------------------------:|
 > | **📏 Melee 1**            | **🎯 One creature or object per minion** |
 >
@@ -11077,7 +11077,7 @@ At the start of any hobgoblin's turn, you can spend [Malice](../rule/monster/mal
 
 > 🏹 **Soul Burn (Signature Ability)**
 >
-> | **Magic, Ranged, Strike** |                 **Main action** |
+> | **Magic, Ranged, Strike** |                 **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Ranged 10**          | **🎯 Two creatures or objects** |
 >
@@ -11091,7 +11091,7 @@ At the start of any hobgoblin's turn, you can spend [Malice](../rule/monster/mal
 
 > 🏹 **Burning Legion (1 [Malice](../rule/monster/malice.md))**
 >
-> | **Magic, Ranged** |           **Maneuver** |
+> | **Magic, Ranged** |           **[Maneuver](../rule/combat/turn.md)** |
 > |-------------------|-----------------------:|
 > | **📏 Ranged 10**  | **🎯 Three creatures** |
 >
@@ -11111,7 +11111,7 @@ At the start of any hobgoblin's turn, you can spend [Malice](../rule/monster/mal
 
 > 🗡 **Blightblade (Signature Ability)**
 >
-> | **Magic, Melee, Strike, Weapon** |               **Main action** |
+> | **Magic, Melee, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |----------------------------------|------------------------------:|
 > | **📏 Melee 1**                   | **🎯 One creature or object** |
 >
@@ -11127,7 +11127,7 @@ At the start of any hobgoblin's turn, you can spend [Malice](../rule/monster/mal
 
 > 🏹 **On My Mark!**
 >
-> | **Ranged**      |    **Maneuver** |
+> | **Ranged**      |    **[Maneuver](../rule/combat/turn.md)** |
 > |-----------------|----------------:|
 > | **📏 Ranged 5** | **🎯 One ally** |
 >
@@ -11151,7 +11151,7 @@ At the start of any hobgoblin's turn, you can spend [Malice](../rule/monster/mal
 
 > 🗡 **Flaming Kick (Signature Ability)**
 >
-> | **Charge, Magic, Melee, Strike** |               **Main action** |
+> | **Charge, Magic, Melee, Strike** |               **[Main action](../rule/combat/turn.md)** |
 > |----------------------------------|------------------------------:|
 > | **📏 Melee 1**                   | **🎯 One creature or object** |
 >
@@ -11163,7 +11163,7 @@ At the start of any hobgoblin's turn, you can spend [Malice](../rule/monster/mal
 
 > 👤 **Blazing Trail**
 >
-> | **Magic**   | **Maneuver** |
+> | **Magic**   | **[Maneuver](../rule/combat/turn.md)** |
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
@@ -11191,7 +11191,7 @@ At the start of any hobgoblin's turn, you can spend [Malice](../rule/monster/mal
 
 > 🗡 **Tower Shield Smash (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |               **Main action** |
+> | **Melee, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Melee 2**            | **🎯 One creature or object** |
 >
@@ -11205,7 +11205,7 @@ At the start of any hobgoblin's turn, you can spend [Malice](../rule/monster/mal
 
 > 🔳 **Thunder Rush (3 [Malice](../rule/monster/malice.md))**
 >
-> | **Area, Charge, Weapon**   |                         **Main action** |
+> | **Area, Charge, Weapon**   |                         **[Main action](../rule/combat/turn.md)** |
 > |----------------------------|----------------------------------------:|
 > | **📏 1 x 2 line within 1** | **🎯 Each enemy or object in the area** |
 >
@@ -11235,7 +11235,7 @@ At the start of any hobgoblin's turn, you can spend [Malice](../rule/monster/mal
 
 > 🗡 **Fire Flail (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 2**            | **🎯 Two creatures or objects** |
 >
@@ -11249,7 +11249,7 @@ At the start of any hobgoblin's turn, you can spend [Malice](../rule/monster/mal
 
 > 🏹 **Fight Me, Coward!**
 >
-> | **Magic, Ranged** |        **Maneuver** |
+> | **Magic, Ranged** |        **[Maneuver](../rule/combat/turn.md)** |
 > |-------------------|--------------------:|
 > | **📏 Ranged 5**   | **🎯 One creature** |
 >
@@ -11269,7 +11269,7 @@ At the start of any hobgoblin's turn, you can spend [Malice](../rule/monster/mal
 
 > 🏹 **Fire Crossbow (Signature Ability)**
 >
-> | **Ranged, Strike, Weapon** |               **Main action** |
+> | **Ranged, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |----------------------------|------------------------------:|
 > | **📏 Ranged 10**           | **🎯 One creature or object** |
 >
@@ -11283,7 +11283,7 @@ At the start of any hobgoblin's turn, you can spend [Malice](../rule/monster/mal
 
 > 🔳 **Fireball Volley (3 [Malice](../rule/monster/malice.md))**
 >
-> | **Area, Magic, Ranged** |                         **Main action** |
+> | **Area, Magic, Ranged** |                         **[Main action](../rule/combat/turn.md)** |
 > |-------------------------|----------------------------------------:|
 > | **📏 4 cube within 10** | **🎯 Each enemy or object in the area** |
 >
@@ -11313,7 +11313,7 @@ At the start of any hobgoblin's turn, you can spend [Malice](../rule/monster/mal
 
 > 🏹 **Eye Flash (Signature Ability)**
 >
-> | **Magic, Ranged, Strike** |               **Main action** |
+> | **Magic, Ranged, Strike** |               **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Ranged 10**          | **🎯 One creature or object** |
 >
@@ -11325,7 +11325,7 @@ At the start of any hobgoblin's turn, you can spend [Malice](../rule/monster/mal
 
 > 🏹 **Glare of the Old Judgments (5 [Malice](../rule/monster/malice.md))**
 >
-> | **Magic, Ranged, Strike** |     **Main action** |
+> | **Magic, Ranged, Strike** |     **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------:|
 > | **📏 Ranged 10**          | **🎯 One creature** |
 >
@@ -11351,7 +11351,7 @@ At the start of any hobgoblin's turn, you can spend [Malice](../rule/monster/mal
 
 > 🏹 **Choking Bolt (Signature Ability)**
 >
-> | **Magic, Ranged, Strike** |               **Main action** |
+> | **Magic, Ranged, Strike** |               **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Ranged 5**           | **🎯 One creature or object** |
 >
@@ -11365,7 +11365,7 @@ At the start of any hobgoblin's turn, you can spend [Malice](../rule/monster/mal
 
 > ❇️ **Smoke Bomb (3 [Malice](../rule/monster/malice.md))**
 >
-> | **Area, Magic** |                  **Maneuver** |
+> | **Area, Magic** |                  **[Maneuver](../rule/combat/turn.md)** |
 > |-----------------|------------------------------:|
 > | **📏 3 burst**  | **🎯 Each enemy in the area** |
 >
@@ -11393,7 +11393,7 @@ At the start of any hobgoblin's turn, you can spend [Malice](../rule/monster/mal
 
 > 🔳 **Hellfire (Signature Ability)**
 >
-> | **Area, Magic, Ranged** |               **Main action** |
+> | **Area, Magic, Ranged** |               **[Main action](../rule/combat/turn.md)** |
 > |-------------------------|------------------------------:|
 > | **📏 3 cube within 10** | **🎯 Each enemy in the area** |
 >
@@ -11407,7 +11407,7 @@ At the start of any hobgoblin's turn, you can spend [Malice](../rule/monster/mal
 
 > 🏹 **Enchantments of War**
 >
-> | **Magic, Ranged** |   **Main action** |
+> | **Magic, Ranged** |   **[Main action](../rule/combat/turn.md)** |
 > |-------------------|------------------:|
 > | **📏 Ranged 10**  | **🎯 Two allies** |
 >
@@ -11415,7 +11415,7 @@ At the start of any hobgoblin's turn, you can spend [Malice](../rule/monster/mal
 
 > 🔳 **Unhallowed Ground (3 [Malice](../rule/monster/malice.md))**
 >
-> | **Area, Magic, Ranged** |   **Maneuver** |
+> | **Area, Magic, Ranged** |   **[Maneuver](../rule/combat/turn.md)** |
 > |-------------------------|---------------:|
 > | **📏 5 cube within 10** | **🎯 Special** |
 >
@@ -11423,7 +11423,7 @@ At the start of any hobgoblin's turn, you can spend [Malice](../rule/monster/mal
 
 > ❗️ **Magic Siphon**
 >
-> | **Magic, Ranged** |           **Triggered action** |
+> | **Magic, Ranged** |           **[Triggered action](../rule/combat/triggered-action.md)** |
 > |-------------------|-------------------------------:|
 > | **📏 Ranged 10**  | **🎯 The triggering creature** |
 >
@@ -11449,7 +11449,7 @@ At the start of any hobgoblin's turn, you can spend [Malice](../rule/monster/mal
 
 > 🗡 **Soul Sword (Signature Ability)**
 >
-> | **Magic, Melee, Strike, Weapon** |                 **Main action** |
+> | **Magic, Melee, Strike, Weapon** |                 **[Main action](../rule/combat/turn.md)** |
 > |----------------------------------|--------------------------------:|
 > | **📏 Melee 1**                   | **🎯 Two creatures or objects** |
 >
@@ -11463,7 +11463,7 @@ At the start of any hobgoblin's turn, you can spend [Malice](../rule/monster/mal
 
 > 🏹 **Take Point!**
 >
-> | **Ranged**       |    **Maneuver** |
+> | **Ranged**       |    **[Maneuver](../rule/combat/turn.md)** |
 > |------------------|----------------:|
 > | **📏 Ranged 10** | **🎯 One ally** |
 >
@@ -11471,7 +11471,7 @@ At the start of any hobgoblin's turn, you can spend [Malice](../rule/monster/mal
 
 > ❗️ **An Army From Blood (3 [Malice](../rule/monster/malice.md))**
 >
-> | **Ranged**       |           **Triggered action** |
+> | **Ranged**       |           **[Triggered action](../rule/combat/triggered-action.md)** |
 > |------------------|-------------------------------:|
 > | **📏 Ranged 10** | **🎯 The triggering creature** |
 >
@@ -11527,7 +11527,7 @@ At the start of any hobgoblin's turn, you can spend [Malice](../rule/monster/mal
 
 > 🗡 **Steely Skewer (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 3**            | **🎯 Two creatures or objects** |
 >
@@ -11541,7 +11541,7 @@ At the start of any hobgoblin's turn, you can spend [Malice](../rule/monster/mal
 
 > 🗡 **Tail Stinger (3 [Malice](../rule/monster/malice.md))**
 >
-> | **Melee, Strike, Weapon** |               **Main action** |
+> | **Melee, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Melee 5**            | **🎯 One creature or object** |
 >
@@ -11559,7 +11559,7 @@ At the start of any hobgoblin's turn, you can spend [Malice](../rule/monster/mal
 
 > ❗️ **Devour Soul**
 >
-> | **Area, Magic** |           **Triggered action** |
+> | **Area, Magic** |           **[Triggered action](../rule/combat/triggered-action.md)** |
 > |-----------------|-------------------------------:|
 > | **📏 5 burst**  | **🎯 The triggering creature** |
 >
@@ -11613,7 +11613,7 @@ At the start of any human's turn, you can spend [Malice](../rule/monster/malice.
 
 > 🔳 **Alchemical Device (3 [Malice](../rule/monster/malice.md))**
 >
-> | **Area, Magic, Ranged** |                             **Maneuver** |
+> | **Area, Magic, Ranged** |                             **[Maneuver](../rule/combat/turn.md)** |
 > |-------------------------|-----------------------------------------:|
 > | **📏 3 cube within 10** | **🎯 Each enemy and object in the area** |
 >
@@ -11643,7 +11643,7 @@ At the start of any human's turn, you can spend [Malice](../rule/monster/malice.
 
 > 🏹 **Lightning Strike (Signature Ability)**
 >
-> | **Magic, Ranged, Strike** |                          **Main action** |
+> | **Magic, Ranged, Strike** |                          **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|-----------------------------------------:|
 > | **📏 Ranged 10**          | **🎯 One creature or object per minion** |
 >
@@ -11669,7 +11669,7 @@ At the start of any human's turn, you can spend [Malice](../rule/monster/malice.
 
 > 🏹 **Crossbow (Signature Ability)**
 >
-> | **Ranged, Strike, Weapon** |                          **Main action** |
+> | **Ranged, Strike, Weapon** |                          **[Main action](../rule/combat/turn.md)** |
 > |----------------------------|-----------------------------------------:|
 > | **📏 Ranged 10**           | **🎯 One creature or object per minion** |
 >
@@ -11693,7 +11693,7 @@ At the start of any human's turn, you can spend [Malice](../rule/monster/malice.
 
 > 🏹 **Necrotic Bolt (Signature Ability)**
 >
-> | **Ranged, Strike, Weapon** |                          **Main action** |
+> | **Ranged, Strike, Weapon** |                          **[Main action](../rule/combat/turn.md)** |
 > |----------------------------|-----------------------------------------:|
 > | **📏 Ranged 10**           | **🎯 One creature or object per minion** |
 >
@@ -11719,7 +11719,7 @@ At the start of any human's turn, you can spend [Malice](../rule/monster/malice.
 
 > 🗡 **Halberd (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |                          **Main action** |
+> | **Melee, Strike, Weapon** |                          **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|-----------------------------------------:|
 > | **📏 Melee 2**            | **🎯 One creature or object per minion** |
 >
@@ -11745,7 +11745,7 @@ At the start of any human's turn, you can spend [Malice](../rule/monster/malice.
 
 > 🗡 **Handaxes (Signature Ability)**
 >
-> | **Charge, Melee, Strike, Weapon** |                          **Main action** |
+> | **Charge, Melee, Strike, Weapon** |                          **[Main action](../rule/combat/turn.md)** |
 > |-----------------------------------|-----------------------------------------:|
 > | **📏 Melee 1**                    | **🎯 One creature or object per minion** |
 >
@@ -11771,7 +11771,7 @@ At the start of any human's turn, you can spend [Malice](../rule/monster/malice.
 
 > ⚔️ **Concealed Dagger (Signature Ability)**
 >
-> | **Melee, Ranged, Strike, Weapon** |                          **Main action** |
+> | **Melee, Ranged, Strike, Weapon** |                          **[Main action](../rule/combat/turn.md)** |
 > |-----------------------------------|-----------------------------------------:|
 > | **📏 Melee 1 or Ranged 5**        | **🎯 One creature or object per minion** |
 >
@@ -11797,7 +11797,7 @@ At the start of any human's turn, you can spend [Malice](../rule/monster/malice.
 
 > 🗡 **Haymaker (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |               **Main action** |
+> | **Melee, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Melee 1**            | **🎯 One creature or object** |
 >
@@ -11811,7 +11811,7 @@ At the start of any human's turn, you can spend [Malice](../rule/monster/malice.
 
 > 🗡 **Throw (1 [Malice](../rule/monster/malice.md))**
 >
-> | **Melee**      |                               **Maneuver** |
+> | **Melee**      |                               **[Maneuver](../rule/combat/turn.md)** |
 > |----------------|-------------------------------------------:|
 > | **📏 Melee 1** | **🎯 One creature grabbed by the brawler** |
 >
@@ -11835,7 +11835,7 @@ At the start of any human's turn, you can spend [Malice](../rule/monster/malice.
 
 > ⚔️ **Death Scythe (Signature Ability)**
 >
-> | **Magic, Melee, Ranged, Strike, Weapon** |               **Main action** |
+> | **Magic, Melee, Ranged, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |------------------------------------------|------------------------------:|
 > | **📏 Melee 1 or ranged 10**              | **🎯 One creature or object** |
 >
@@ -11849,7 +11849,7 @@ At the start of any human's turn, you can spend [Malice](../rule/monster/malice.
 
 > ❇️ **Rise, My Minions (1 [Malice](../rule/monster/malice.md) per [minion](../rule/organization/minion.md))**
 >
-> | **Area**       |                        **Maneuver** |
+> | **Area**       |                        **[Maneuver](../rule/combat/turn.md)** |
 > |----------------|------------------------------------:|
 > | **📏 5 burst** | **🎯 Each dead [minion](../rule/organization/minion.md) in the area** |
 >
@@ -11869,7 +11869,7 @@ At the start of any human's turn, you can spend [Malice](../rule/monster/malice.
 
 > ⚔️ **Morningstar and Javelin (Signature Ability)**
 >
-> | **Melee, Ranged, Strike, Weapon** |               **Main action** |
+> | **Melee, Ranged, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |-----------------------------------|------------------------------:|
 > | **📏 Melee 1 or ranged 5**        | **🎯 One creature or object** |
 >
@@ -11903,7 +11903,7 @@ At the start of any human's turn, you can spend [Malice](../rule/monster/malice.
 
 > 🗡 **Rapier and Dagger (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |               **Main action** |
+> | **Melee, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Melee 1**            | **🎯 One creature or object** |
 >
@@ -11917,7 +11917,7 @@ At the start of any human's turn, you can spend [Malice](../rule/monster/malice.
 
 > 🌀 **Dagger Storm (5 [Malice](../rule/monster/malice.md))**
 >
-> | **-**    | **Main action** |
+> | **-**    | **[Main action](../rule/combat/turn.md)** |
 > |----------|----------------:|
 > | **📏 -** |        **🎯 -** |
 >
@@ -11937,7 +11937,7 @@ At the start of any human's turn, you can spend [Malice](../rule/monster/malice.
 
 > 🏹 **Lightning Bolt (Signature Ability)**
 >
-> | **Magic, Ranged, Strike** |               **Main action** |
+> | **Magic, Ranged, Strike** |               **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Ranged 15**          | **🎯 One creature or object** |
 >
@@ -11951,7 +11951,7 @@ At the start of any human's turn, you can spend [Malice](../rule/monster/malice.
 
 > 🔳 **Gust of Wind (3 [Malice](../rule/monster/malice.md))**
 >
-> | **Area, Magic**        |                             **Maneuver** |
+> | **Area, Magic**        |                             **[Maneuver](../rule/combat/turn.md)** |
 > |------------------------|-----------------------------------------:|
 > | **📏 5 cube within 1** | **🎯 Each enemy and object in the area** |
 >
@@ -11983,7 +11983,7 @@ At the start of any human's turn, you can spend [Malice](../rule/monster/malice.
 
 > ⚔️ **Trick Crossbow (Signature Ability)**
 >
-> | **Melee, Ranged, Strike, Weapon** |               **Main action** |
+> | **Melee, Ranged, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |-----------------------------------|------------------------------:|
 > | **📏 Melee 1 or ranged 15**       | **🎯 One creature or object** |
 >
@@ -12011,7 +12011,7 @@ At the start of any human's turn, you can spend [Malice](../rule/monster/malice.
 
 > ❇️ **Zweihander Swing (Signature Ability)**
 >
-> | **Area, Weapon** |               **Main action** |
+> | **Area, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |------------------|------------------------------:|
 > | **📏 1 burst**   | **🎯 Each enemy in the area** |
 >
@@ -12027,7 +12027,7 @@ At the start of any human's turn, you can spend [Malice](../rule/monster/malice.
 
 > 🏹 **You!**
 >
-> | **Ranged**       |     **Maneuver** |
+> | **Ranged**       |     **[Maneuver](../rule/combat/turn.md)** |
 > |------------------|-----------------:|
 > | **📏 Ranged 10** | **🎯 One enemy** |
 >
@@ -12043,7 +12043,7 @@ At the start of any human's turn, you can spend [Malice](../rule/monster/malice.
 
 > ❗️ **Parry!**
 >
-> | **Melee**      |    **Triggered action** |
+> | **Melee**      |    **[Triggered action](../rule/combat/triggered-action.md)** |
 > |----------------|------------------------:|
 > | **📏 Melee 1** | **🎯 Self or one ally** |
 >
@@ -12085,7 +12085,7 @@ At the start of any human's turn, you can spend [Malice](../rule/monster/malice.
 
 > 🗡 **Whip and Magic Longsword (Signature Ability)**
 >
-> | **Magic, Melee, Strike, Weapon** |               **Main action** |
+> | **Magic, Melee, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |----------------------------------|------------------------------:|
 > | **📏 Melee 2**                   | **🎯 Two enemies or objects** |
 >
@@ -12101,7 +12101,7 @@ At the start of any human's turn, you can spend [Malice](../rule/monster/malice.
 
 > 🗡 **Kneel, Peasant!**
 >
-> | **Melee**      |     **Maneuver** |
+> | **Melee**      |     **[Maneuver](../rule/combat/turn.md)** |
 > |----------------|-----------------:|
 > | **📏 Melee 1** | **🎯 One enemy** |
 >
@@ -12115,7 +12115,7 @@ At the start of any human's turn, you can spend [Malice](../rule/monster/malice.
 
 > ❗️ **Bloodstones**
 >
-> | **Magic**   | **Triggered action** |
+> | **Magic**   | **[Triggered action](../rule/combat/triggered-action.md)** |
 > |-------------|---------------------:|
 > | **📏 Self** |          **🎯 Self** |
 >
@@ -12165,7 +12165,7 @@ At the start of any human's turn, you can spend [Malice](../rule/monster/malice.
 
 > 🗡 **Talons (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |               **Main action** |
+> | **Melee, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Melee 1**            | **🎯 One creature or object** |
 >
@@ -12179,7 +12179,7 @@ At the start of any human's turn, you can spend [Malice](../rule/monster/malice.
 
 > 👤 **Dive (1 [Malice](../rule/monster/malice.md))**
 >
-> | **-**       | **Maneuver** |
+> | **-**       | **[Maneuver](../rule/combat/turn.md)** |
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
@@ -12223,7 +12223,7 @@ At the start of a kingfissure worm's turn or when an action's trigger occurs, yo
 
 > ❗️ **Aftershock (3 [Malice](../rule/monster/malice.md))**
 >
-> | **-**       | **Free triggered action** |
+> | **-**       | **Free [triggered action](../rule/combat/triggered-action.md)** |
 > |-------------|--------------------------:|
 > | **📏 Self** |               **🎯 Self** |
 >
@@ -12241,7 +12241,7 @@ At the start of a kingfissure worm's turn or when an action's trigger occurs, yo
 
 > ❇️ **Megaquake (7 [Malice](../rule/monster/malice.md))**
 >
-> | **Area, Weapon** |                          **Main action** |
+> | **Area, Weapon** |                          **[Main action](../rule/combat/turn.md)** |
 > |------------------|-----------------------------------------:|
 > | **📏 5 burst**   | **🎯 Each enemy and object in the area** |
 >
@@ -12273,7 +12273,7 @@ At the start of a kingfissure worm's turn or when an action's trigger occurs, yo
 
 > 🗡 **Tongue Grab (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |                          **Main action** |
+> | **Melee, Strike, Weapon** |                          **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|-----------------------------------------:|
 > | **📏 Melee 5**            | **🎯 One creature or object per tongue** |
 >
@@ -12287,7 +12287,7 @@ At the start of a kingfissure worm's turn or when an action's trigger occurs, yo
 
 > 🗡 **Maw**
 >
-> | **Charge, Melee, Strike, Weapon** |               **Main action** |
+> | **Charge, Melee, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |-----------------------------------|------------------------------:|
 > | **📏 Melee 1**                    | **🎯 One creature or object** |
 >
@@ -12301,7 +12301,7 @@ At the start of a kingfissure worm's turn or when an action's trigger occurs, yo
 
 > 🗡 **Consume (2 [Malice](../rule/monster/malice.md))**
 >
-> | **Melee**      |             **Main action** |
+> | **Melee**      |             **[Main action](../rule/combat/turn.md)** |
 > |----------------|----------------------------:|
 > | **📏 Melee 1** | **🎯 One grabbed creature** |
 >
@@ -12309,7 +12309,7 @@ At the start of a kingfissure worm's turn or when an action's trigger occurs, yo
 
 > ⚔️ **Tongue Whip**
 >
-> | **Melee, Ranged, Strike, Weapon** |                  **Maneuver** |
+> | **Melee, Ranged, Strike, Weapon** |                  **[Maneuver](../rule/combat/turn.md)** |
 > |-----------------------------------|------------------------------:|
 > | **📏 Melee 5 or ranged 10**       | **🎯 One creature or object** |
 >
@@ -12317,7 +12317,7 @@ At the start of a kingfissure worm's turn or when an action's trigger occurs, yo
 
 > ❗️ **Tearing Recoil**
 >
-> | **-**       | **Triggered action** |
+> | **-**       | **[Triggered action](../rule/combat/triggered-action.md)** |
 > |-------------|---------------------:|
 > | **📏 Self** |       **🎯 Special** |
 >
@@ -12441,7 +12441,7 @@ At the start of any kobolds's turn, you can spend [Malice](../rule/monster/malic
 
 > 🗡 **Hasta (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |                          **Main action** |
+> | **Melee, Strike, Weapon** |                          **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|-----------------------------------------:|
 > | **📏 Melee 2**            | **🎯 One creature or object per minion** |
 >
@@ -12467,7 +12467,7 @@ At the start of any kobolds's turn, you can spend [Malice](../rule/monster/malic
 
 > 🏹 **Composite Bow (Signature Ability)**
 >
-> | **Ranged, Strike, Weapon** |                          **Main action** |
+> | **Ranged, Strike, Weapon** |                          **[Main action](../rule/combat/turn.md)** |
 > |----------------------------|-----------------------------------------:|
 > | **📏 Ranged 10**           | **🎯 One creature or object per minion** |
 >
@@ -12493,7 +12493,7 @@ At the start of any kobolds's turn, you can spend [Malice](../rule/monster/malic
 
 > 🗡 **Pugio (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |                          **Main action** |
+> | **Melee, Strike, Weapon** |                          **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|-----------------------------------------:|
 > | **📏 Melee 1**            | **🎯 One creature or object per minion** |
 >
@@ -12519,7 +12519,7 @@ At the start of any kobolds's turn, you can spend [Malice](../rule/monster/malic
 
 > ⚔️ **Pilium (Signature Ability)**
 >
-> | **Melee, Ranged, Strike, Weapon** |                          **Main action** |
+> | **Melee, Ranged, Strike, Weapon** |                          **[Main action](../rule/combat/turn.md)** |
 > |-----------------------------------|-----------------------------------------:|
 > | **📏 Melee 1 or Ranged 5**        | **🎯 One creature or object per minion** |
 >
@@ -12545,7 +12545,7 @@ At the start of any kobolds's turn, you can spend [Malice](../rule/monster/malic
 
 > 🏹 **Shocking Bolt (Signature Ability)**
 >
-> | **Magic, Ranged, Strike** |               **Main action** |
+> | **Magic, Ranged, Strike** |               **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Ranged 15**          | **🎯 One creature or object** |
 >
@@ -12559,7 +12559,7 @@ At the start of any kobolds's turn, you can spend [Malice](../rule/monster/malic
 
 > 🏹 **Arcane Telum (3 Malice)**
 >
-> | **Magic, Ranged, Strike** |                      **Maneuver** |
+> | **Magic, Ranged, Strike** |                      **[Maneuver](../rule/combat/turn.md)** |
 > |---------------------------|----------------------------------:|
 > | **📏 Ranged 15**          | **🎯 Three creatures or objects** |
 >
@@ -12585,7 +12585,7 @@ At the start of any kobolds's turn, you can spend [Malice](../rule/monster/malic
 
 > 🏹 **Chain Hook (Signature Ability)**
 >
-> | **Ranged, Strike, Weapon** |               **Main action** |
+> | **Ranged, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |----------------------------|------------------------------:|
 > | **📏 Ranged 5**            | **🎯 One creature or object** |
 >
@@ -12599,7 +12599,7 @@ At the start of any kobolds's turn, you can spend [Malice](../rule/monster/malic
 
 > ⭐️ **Activate Trap**
 >
-> | **Ranged**       |                            **Maneuver** |
+> | **Ranged**       |                            **[Maneuver](../rule/combat/turn.md)** |
 > |------------------|----------------------------------------:|
 > | **📏 Ranged 10** | **🎯 One trap or other terrain object** |
 >
@@ -12621,7 +12621,7 @@ At the start of any kobolds's turn, you can spend [Malice](../rule/monster/malic
 
 > 🗡 **Gladius (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |               **Main action** |
+> | **Melee, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Melee 1**            | **🎯 One creature or object** |
 >
@@ -12635,7 +12635,7 @@ At the start of any kobolds's turn, you can spend [Malice](../rule/monster/malic
 
 > 🗡 **Shield Bash**
 >
-> | **Melee, Strike, Weapon** |                  **Maneuver** |
+> | **Melee, Strike, Weapon** |                  **[Maneuver](../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Melee 1**            | **🎯 One creature or object** |
 >
@@ -12659,7 +12659,7 @@ At the start of any kobolds's turn, you can spend [Malice](../rule/monster/malic
 
 > 🗡 **Signum (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |               **Main action** |
+> | **Melee, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Melee 1**            | **🎯 One creature or object** |
 >
@@ -12675,7 +12675,7 @@ At the start of any kobolds's turn, you can spend [Malice](../rule/monster/malic
 
 > ❇️ **Glory to the Legion (5 [Malice](../rule/monster/malice.md))**
 >
-> | **Area**       |                 **Maneuver** |
+> | **Area**       |                 **[Maneuver](../rule/combat/turn.md)** |
 > |----------------|-----------------------------:|
 > | **📏 5 burst** | **🎯 Each ally in the area** |
 >
@@ -12699,7 +12699,7 @@ At the start of any kobolds's turn, you can spend [Malice](../rule/monster/malic
 
 > 🗡 **Dolabra and Net (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |               **Main action** |
+> | **Melee, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Melee 1**            | **🎯 One creature or object** |
 >
@@ -12733,7 +12733,7 @@ At the start of any kobolds's turn, you can spend [Malice](../rule/monster/malic
 
 > 🗡 **Engulf (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |               **Main action** |
+> | **Melee, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Melee 1**            | **🎯 One creature or object** |
 >
@@ -12749,7 +12749,7 @@ At the start of any kobolds's turn, you can spend [Malice](../rule/monster/malic
 
 > ❗️ **You Didn't Pay Attention!**
 >
-> | **-**       |     **Free triggered action** |
+> | **-**       |     **Free [triggered action](../rule/combat/triggered-action.md)** |
 > |-------------|------------------------------:|
 > | **📏 Self** | **🎯 One creature or object** |
 >
@@ -12771,7 +12771,7 @@ At the start of any kobolds's turn, you can spend [Malice](../rule/monster/malic
 
 > ⚔️ **Pilum (Signature Ability)**
 >
-> | **Melee, Ranged, Strike, Weapon** |                 **Main action** |
+> | **Melee, Ranged, Strike, Weapon** |                 **[Main action](../rule/combat/turn.md)** |
 > |-----------------------------------|--------------------------------:|
 > | **📏 Melee 1 or ranged 10**       | **🎯 Two creatures or objects** |
 >
@@ -12787,7 +12787,7 @@ At the start of any kobolds's turn, you can spend [Malice](../rule/monster/malic
 
 > 🏹 **Concentrate All Fire on That Hero!**
 >
-> | **Ranged**       |     **Maneuver** |
+> | **Ranged**       |     **[Maneuver](../rule/combat/turn.md)** |
 > |------------------|-----------------:|
 > | **📏 Ranged 10** | **🎯 One enemy** |
 >
@@ -12795,7 +12795,7 @@ At the start of any kobolds's turn, you can spend [Malice](../rule/monster/malic
 
 > ❗️ **Testudo!**
 >
-> | **Area**       |         **Triggered action** |
+> | **Area**       |         **[Triggered action](../rule/combat/triggered-action.md)** |
 > |----------------|-----------------------------:|
 > | **📏 5 burst** | **🎯 Each ally in the area** |
 >
@@ -12845,7 +12845,7 @@ At the start of any kobolds's turn, you can spend [Malice](../rule/monster/malic
 
 > 🗡 **Fiery Claws (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 1**            | **🎯 Two creatures or objects** |
 >
@@ -12859,7 +12859,7 @@ At the start of any kobolds's turn, you can spend [Malice](../rule/monster/malic
 
 > 👤 **Drangolin Plume (5 Malice)**
 >
-> | **-**                  | **Main action** |
+> | **-**                  | **[Main action](../rule/combat/turn.md)** |
 > |------------------------|----------------:|
 > | **📏 Self; see below** |     **🎯 Self** |
 >
@@ -12867,7 +12867,7 @@ At the start of any kobolds's turn, you can spend [Malice](../rule/monster/malic
 
 > ❇️ **Erupt (3 [Malice](../rule/monster/malice.md))**
 >
-> | **Area, Weapon** |                  **Main action** |
+> | **Area, Weapon** |                  **[Main action](../rule/combat/turn.md)** |
 > |------------------|---------------------------------:|
 > | **📏 2 burst**   | **🎯 Each creature in the area** |
 >
@@ -12933,7 +12933,7 @@ At the start of any lightbender's turn, you can spend [Malice](../rule/monster/m
 
 > 🗡 **Flash Swipe (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |               **Main action** |
+> | **Melee, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Melee 2**            | **🎯 One creature or object** |
 >
@@ -12947,7 +12947,7 @@ At the start of any lightbender's turn, you can spend [Malice](../rule/monster/m
 
 > 🗡 **Piercing Tails**
 >
-> | **Melee, Strike, Weapon** |               **Main action** |
+> | **Melee, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Melee 2**            | **🎯 One creature or object** |
 >
@@ -12961,7 +12961,7 @@ At the start of any lightbender's turn, you can spend [Malice](../rule/monster/m
 
 > ❇️ **Hypnotic Mane (5 [Malice](../rule/monster/malice.md))**
 >
-> | **Area, Magic** |                  **Maneuver** |
+> | **Area, Magic** |                  **[Maneuver](../rule/combat/turn.md)** |
 > |-----------------|------------------------------:|
 > | **📏 3 burst**  | **🎯 Each enemy in the area** |
 >
@@ -12975,7 +12975,7 @@ At the start of any lightbender's turn, you can spend [Malice](../rule/monster/m
 
 > ❗️ **Stalker's Afterimage**
 >
-> | **Magic**   | **Triggered action** |
+> | **Magic**   | **[Triggered action](../rule/combat/triggered-action.md)** |
 > |-------------|---------------------:|
 > | **📏 Self** |          **🎯 Self** |
 >
@@ -12997,7 +12997,7 @@ At the start of any lightbender's turn, you can spend [Malice](../rule/monster/m
 
 > 🗡 **Pounce (Signature Ability)**
 >
-> | **Charge, Melee, Strike, Weapon** |                 **Main action** |
+> | **Charge, Melee, Strike, Weapon** |                 **[Main action](../rule/combat/turn.md)** |
 > |-----------------------------------|--------------------------------:|
 > | **📏 Melee 2**                    | **🎯 Two creatures or objects** |
 >
@@ -13011,7 +13011,7 @@ At the start of any lightbender's turn, you can spend [Malice](../rule/monster/m
 
 > ❇️ **Sparkling Tail Whip**
 >
-> | **Area, Magic** |                          **Main action** |
+> | **Area, Magic** |                          **[Main action](../rule/combat/turn.md)** |
 > |-----------------|-----------------------------------------:|
 > | **📏 2 burst**  | **🎯 Each enemy and object in the area** |
 >
@@ -13025,7 +13025,7 @@ At the start of any lightbender's turn, you can spend [Malice](../rule/monster/m
 
 > 🔳 **Illusory Feint (5 [Malice](../rule/monster/malice.md))**
 >
-> | **Area, Magic, Ranged** |                  **Maneuver** |
+> | **Area, Magic, Ranged** |                  **[Maneuver](../rule/combat/turn.md)** |
 > |-------------------------|------------------------------:|
 > | **📏 3 cube within 10** | **🎯 Each enemy in the area** |
 >
@@ -13039,7 +13039,7 @@ At the start of any lightbender's turn, you can spend [Malice](../rule/monster/m
 
 > ❗️ **Striking Afterimage**
 >
-> | **Magic**   | **Triggered action** |
+> | **Magic**   | **[Triggered action](../rule/combat/triggered-action.md)** |
 > |-------------|---------------------:|
 > | **📏 Self** |          **🎯 Self** |
 >
@@ -13126,7 +13126,7 @@ At the start of any lizardfolk's turn, you can spend [Malice](../rule/monster/ma
 
 > 🗡 **Snap and Toss (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |                          **Main action** |
+> | **Melee, Strike, Weapon** |                          **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|-----------------------------------------:|
 > | **📏 Melee 1**            | **🎯 One creature or object per minion** |
 >
@@ -13150,7 +13150,7 @@ At the start of any lizardfolk's turn, you can spend [Malice](../rule/monster/ma
 
 > 🗡 **Shield Smash (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |                          **Main action** |
+> | **Melee, Strike, Weapon** |                          **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|-----------------------------------------:|
 > | **📏 Melee 1**            | **🎯 One creature or object per minion** |
 >
@@ -13176,7 +13176,7 @@ At the start of any lizardfolk's turn, you can spend [Malice](../rule/monster/ma
 
 > 🗡 **Tonguelash (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |                          **Main action** |
+> | **Melee, Strike, Weapon** |                          **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|-----------------------------------------:|
 > | **📏 Melee 8**            | **🎯 One creature or object per minion** |
 >
@@ -13202,7 +13202,7 @@ At the start of any lizardfolk's turn, you can spend [Malice](../rule/monster/ma
 
 > 🏹 **Bola Knock (Signature Ability)**
 >
-> | **Ranged, Strike, Weapon** |               **Main action** |
+> | **Ranged, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |----------------------------|------------------------------:|
 > | **📏 Ranged 5**            | **🎯 One creature or object** |
 >
@@ -13214,7 +13214,7 @@ At the start of any lizardfolk's turn, you can spend [Malice](../rule/monster/ma
 
 > 🏹 **Bloodshot (2 [Malice](../rule/monster/malice.md))**
 >
-> | **Ranged, Strike, Weapon** |     **Main action** |
+> | **Ranged, Strike, Weapon** |     **[Main action](../rule/combat/turn.md)** |
 > |----------------------------|--------------------:|
 > | **📏 Ranged 10**           | **🎯 One creature** |
 >
@@ -13238,7 +13238,7 @@ At the start of any lizardfolk's turn, you can spend [Malice](../rule/monster/ma
 
 > 🗡 **Razor Bite (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |               **Main action** |
+> | **Melee, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Melee 1**            | **🎯 One creature or object** |
 >
@@ -13252,7 +13252,7 @@ At the start of any lizardfolk's turn, you can spend [Malice](../rule/monster/ma
 
 > 🗡 **Tail Whip (2 [Malice](../rule/monster/malice.md))**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 2**            | **🎯 Two creatures or objects** |
 >
@@ -13276,7 +13276,7 @@ At the start of any lizardfolk's turn, you can spend [Malice](../rule/monster/ma
 
 > 🗡 **Glaive Rush (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |               **Main action** |
+> | **Melee, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Melee 1**            | **🎯 One creature or object** |
 >
@@ -13290,7 +13290,7 @@ At the start of any lizardfolk's turn, you can spend [Malice](../rule/monster/ma
 
 > 🏹 **Poison Blow Dart**
 >
-> | **Ranged, Strike, Weapon** |               **Main action** |
+> | **Ranged, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |----------------------------|------------------------------:|
 > | **📏 Ranged 5**            | **🎯 One creature or object** |
 >
@@ -13320,7 +13320,7 @@ At the start of any lizardfolk's turn, you can spend [Malice](../rule/monster/ma
 
 > 🗡 **Ripper Spear (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 3**            | **🎯 Two creatures or objects** |
 >
@@ -13334,7 +13334,7 @@ At the start of any lizardfolk's turn, you can spend [Malice](../rule/monster/ma
 
 > 🗡 **Death Roll (3 [Malice](../rule/monster/malice.md))**
 >
-> | **Melee, Strike, Weapon** |                       **Main action** |
+> | **Melee, Strike, Weapon** |                       **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------------:|
 > | **📏 Melee 1**            | **🎯 One grabbed creature or object** |
 >
@@ -13348,7 +13348,7 @@ At the start of any lizardfolk's turn, you can spend [Malice](../rule/monster/ma
 
 > 👤 **Trundle**
 >
-> | **-**       | **Maneuver** |
+> | **-**       | **[Maneuver](../rule/combat/turn.md)** |
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
@@ -13356,7 +13356,7 @@ At the start of any lizardfolk's turn, you can spend [Malice](../rule/monster/ma
 
 > ❗️ **Swat the Fly**
 >
-> | **Melee**      |                     **Triggered action** |
+> | **Melee**      |                     **[Triggered action](../rule/combat/triggered-action.md)** |
 > |----------------|-----------------------------------------:|
 > | **📏 Melee 1** | **🎯 The triggering creature or object** |
 >
@@ -13456,7 +13456,7 @@ At the start of any manticore's turn, you can spend Malice to activate one of th
 
 > 🗡 **Carnivorous Bite ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Melee, Strike, Weapon** |               **Main action** |
+> | **Melee, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Melee 1**            | **🎯 One creature or object** |
 >
@@ -13470,7 +13470,7 @@ At the start of any manticore's turn, you can spend Malice to activate one of th
 
 > 🏹 **Tail Spike**
 >
-> | **Ranged, Strike, Weapon** |                 **Main action** |
+> | **Ranged, Strike, Weapon** |                 **[Main action](../rule/combat/turn.md)** |
 > |----------------------------|--------------------------------:|
 > | **📏 Ranged 10**           | **🎯 Two creatures or objects** |
 >
@@ -13484,7 +13484,7 @@ At the start of any manticore's turn, you can spend Malice to activate one of th
 
 > 🗡 **Harrying Claws**
 >
-> | **Melee, Strike, Weapon** |                    **Maneuver** |
+> | **Melee, Strike, Weapon** |                    **[Maneuver](../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 1**            | **🎯 Two creatures or objects** |
 >
@@ -13496,7 +13496,7 @@ At the start of any manticore's turn, you can spend Malice to activate one of th
 
 > ❗️ **Reflexive Instinct (2 [Malice](../rule/monster/malice.md))**
 >
-> | **Ranged**       |           **Triggered action** |
+> | **Ranged**       |           **[Triggered action](../rule/combat/triggered-action.md)** |
 > |------------------|-------------------------------:|
 > | **📏 Ranged 10** | **🎯 The triggering creature** |
 >
@@ -13585,7 +13585,7 @@ At the start of a medusa's turn, you can spend Malice to activate one of the fol
 
 > 🏹 **Weakening Glare (4 [Malice](../rule/monster/malice.md))**
 >
-> | **Magic, Ranged, Strike** |     **Main action** |
+> | **Magic, Ranged, Strike** |     **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------:|
 > | **📏 Ranged 10**          | **🎯 One creature** |
 >
@@ -13601,7 +13601,7 @@ At the start of a medusa's turn, you can spend Malice to activate one of the fol
 
 > 🏹 **Ssstop and Lisssten (5 [Malice](../rule/monster/malice.md))**
 >
-> | **Magic, Ranged** |        **Main action** |
+> | **Magic, Ranged** |        **[Main action](../rule/combat/turn.md)** |
 > |-------------------|-----------------------:|
 > | **📏 Ranged 10**  | **🎯 Three creatures** |
 >
@@ -13637,7 +13637,7 @@ At the start of a medusa's turn, you can spend Malice to activate one of the fol
 
 > 🗡 **Snake Bites ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 1**            | **🎯 Two creatures or objects** |
 >
@@ -13649,7 +13649,7 @@ At the start of a medusa's turn, you can spend Malice to activate one of the fol
 
 > 🏹 **Damning Gaze ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Magic, Ranged, Strike** |                 **Main action** |
+> | **Magic, Ranged, Strike** |                 **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Ranged 10**          | **🎯 Two creatures or objects** |
 >
@@ -13663,7 +13663,7 @@ At the start of a medusa's turn, you can spend Malice to activate one of the fol
 
 > ❇️ **Petrify (5 [Malice](../rule/monster/malice.md))**
 >
-> | **Area, Magic** |               **Main action** |
+> | **Area, Magic** |               **[Main action](../rule/combat/turn.md)** |
 > |-----------------|------------------------------:|
 > | **📏 3 burst**  | **🎯 Each enemy in the area** |
 >
@@ -13677,7 +13677,7 @@ At the start of a medusa's turn, you can spend Malice to activate one of the fol
 
 > 👤 **Nimble Escape**
 >
-> | **-**       | **Maneuver** |
+> | **-**       | **[Maneuver](../rule/combat/turn.md)** |
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
@@ -13685,7 +13685,7 @@ At the start of a medusa's turn, you can spend Malice to activate one of the fol
 
 > ❗️ **Venomous Spit (2 [Malice](../rule/monster/malice.md))**
 >
-> | **Melee**      |           **Triggered action** |
+> | **Melee**      |           **[Triggered action](../rule/combat/triggered-action.md)** |
 > |----------------|-------------------------------:|
 > | **📏 Melee 1** | **🎯 The triggering creature** |
 >
@@ -13787,7 +13787,7 @@ At the start of any minotaur's turn, you can spend Malice to activate one of the
 
 > 🗡 **Flail and Blade ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Charge, Melee, Strike, Weapon** |                 **Main action** |
+> | **Charge, Melee, Strike, Weapon** |                 **[Main action](../rule/combat/turn.md)** |
 > |-----------------------------------|--------------------------------:|
 > | **📏 Melee 2**                    | **🎯 Two creatures or objects** |
 >
@@ -13801,7 +13801,7 @@ At the start of any minotaur's turn, you can spend Malice to activate one of the
 
 > 👤 **Primal Bay (3 [Malice](../rule/monster/malice.md))**
 >
-> | **-**       | **Main action** |
+> | **-**       | **[Main action](../rule/combat/turn.md)** |
 > |-------------|----------------:|
 > | **📏 Self** |     **🎯 Self** |
 >
@@ -13809,7 +13809,7 @@ At the start of any minotaur's turn, you can spend Malice to activate one of the
 
 > 🗡 **Goring Horns (5 [Malice](../rule/monster/malice.md))**
 >
-> | **Charge, Melee, Strike, Weapon** |                  **Maneuver** |
+> | **Charge, Melee, Strike, Weapon** |                  **[Maneuver](../rule/combat/turn.md)** |
 > |-----------------------------------|------------------------------:|
 > | **📏 Melee 2**                    | **🎯 One creature or object** |
 >
@@ -13823,7 +13823,7 @@ At the start of any minotaur's turn, you can spend Malice to activate one of the
 
 > ❗️ **Retaliatory Strike**
 >
-> | **Ranged**      |           **Triggered action** |
+> | **Ranged**      |           **[Triggered action](../rule/combat/triggered-action.md)** |
 > |-----------------|-------------------------------:|
 > | **📏 Ranged 8** | **🎯 The triggering creature** |
 >
@@ -13845,7 +13845,7 @@ At the start of any minotaur's turn, you can spend Malice to activate one of the
 
 > 🗡 **Spiked Maul ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Charge, Melee, Strike, Weapon** |                 **Main action** |
+> | **Charge, Melee, Strike, Weapon** |                 **[Main action](../rule/combat/turn.md)** |
 > |-----------------------------------|--------------------------------:|
 > | **📏 Melee 2**                    | **🎯 Two creatures or objects** |
 >
@@ -13859,7 +13859,7 @@ At the start of any minotaur's turn, you can spend Malice to activate one of the
 
 > ❇️ **Fearsome Bay (5 [Malice](../rule/monster/malice.md))**
 >
-> | **Area**       |               **Main action** |
+> | **Area**       |               **[Main action](../rule/combat/turn.md)** |
 > |----------------|------------------------------:|
 > | **📏 3 burst** | **🎯 Each enemy in the area** |
 >
@@ -13873,7 +13873,7 @@ At the start of any minotaur's turn, you can spend Malice to activate one of the
 
 > 🗡 **Disemboweling Horns (3 [Malice](../rule/monster/malice.md))**
 >
-> | **Charge, Melee, Strike, Weapon** |        **Maneuver** |
+> | **Charge, Melee, Strike, Weapon** |        **[Maneuver](../rule/combat/turn.md)** |
 > |-----------------------------------|--------------------:|
 > | **📏 Melee 2**                    | **🎯 One creature** |
 >
@@ -13889,7 +13889,7 @@ At the start of any minotaur's turn, you can spend Malice to activate one of the
 
 > ❗️ **Retaliatory Strike**
 >
-> | **Ranged**      |           **Triggered action** |
+> | **Ranged**      |           **[Triggered action](../rule/combat/triggered-action.md)** |
 > |-----------------|-------------------------------:|
 > | **📏 Ranged 6** | **🎯 The triggering creature** |
 >
@@ -13911,7 +13911,7 @@ At the start of any minotaur's turn, you can spend Malice to activate one of the
 
 > ⚔️ **Javelin and Bellow ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Charge, Melee, Ranged, Strike, Weapon** |                          **Main action** |
+> | **Charge, Melee, Ranged, Strike, Weapon** |                          **[Main action](../rule/combat/turn.md)** |
 > |-------------------------------------------|-----------------------------------------:|
 > | **📏 Melee 2 or ranged 5**                | **🎯 One creature or object per minion** |
 >
@@ -13935,7 +13935,7 @@ At the start of any minotaur's turn, you can spend Malice to activate one of the
 
 > 🗡 **Horn Vault ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Charge, Melee, Strike, Weapon** |                          **Main action** |
+> | **Charge, Melee, Strike, Weapon** |                          **[Main action](../rule/combat/turn.md)** |
 > |-----------------------------------|-----------------------------------------:|
 > | **📏 Melee 2**                    | **🎯 One creature or object per minion** |
 >
@@ -13961,7 +13961,7 @@ At the start of any minotaur's turn, you can spend Malice to activate one of the
 
 > 🗡 **Bull Rush ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Charge, Melee, Strike, Weapon** |                          **Main action** |
+> | **Charge, Melee, Strike, Weapon** |                          **[Main action](../rule/combat/turn.md)** |
 > |-----------------------------------|-----------------------------------------:|
 > | **📏 Melee 2**                    | **🎯 One creature or object per minion** |
 >
@@ -14035,7 +14035,7 @@ At the start of any ogre's turn, you can spend Malice to activate one of the fol
 
 > 🗡 **Club Swing ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 2**            | **🎯 Two creatures or objects** |
 >
@@ -14049,7 +14049,7 @@ At the start of any ogre's turn, you can spend Malice to activate one of the fol
 
 > 🗡 **Grabby Hand (1 [Malice](../rule/monster/malice.md))**
 >
-> | **Melee, Strike, Weapon** |                  **Maneuver** |
+> | **Melee, Strike, Weapon** |                  **[Maneuver](../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Melee 1**            | **🎯 One creature or object** |
 >
@@ -14063,7 +14063,7 @@ At the start of any ogre's turn, you can spend Malice to activate one of the fol
 
 > 🔳 **People Bowling (3 [Malice](../rule/monster/malice.md))**
 >
-> | **Area, Weapon**           |                                **Maneuver** |
+> | **Area, Weapon**           |                                **[Maneuver](../rule/combat/turn.md)** |
 > |----------------------------|--------------------------------------------:|
 > | **📏 6 x 1 line within 1** | **🎯 Each creature and object in the area** |
 >
@@ -14077,7 +14077,7 @@ At the start of any ogre's turn, you can spend Malice to activate one of the fol
 
 > ❗️ **Swat the Fly**
 >
-> | **Melee**      |                     **Triggered action** |
+> | **Melee**      |                     **[Triggered action](../rule/combat/triggered-action.md)** |
 > |----------------|-----------------------------------------:|
 > | **📏 Melee 1** | **🎯 The triggering creature or object** |
 >
@@ -14099,7 +14099,7 @@ At the start of any ogre's turn, you can spend Malice to activate one of the fol
 
 > 🗡 **Pitchfork Catapult ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Charge, Melee, Strike, Weapon** |                 **Main action** |
+> | **Charge, Melee, Strike, Weapon** |                 **[Main action](../rule/combat/turn.md)** |
 > |-----------------------------------|--------------------------------:|
 > | **📏 Melee 2**                    | **🎯 Two creatures or objects** |
 >
@@ -14113,7 +14113,7 @@ At the start of any ogre's turn, you can spend Malice to activate one of the fol
 
 > ❇️ **Earth-Breaking Jump**
 >
-> | **Area, Weapon** |                  **Main action** |
+> | **Area, Weapon** |                  **[Main action](../rule/combat/turn.md)** |
 > |------------------|---------------------------------:|
 > | **📏 3 burst**   | **🎯 Each creature in the area** |
 >
@@ -14127,7 +14127,7 @@ At the start of any ogre's turn, you can spend Malice to activate one of the fol
 
 > ❇️ **Horrible Bellow (2 [Malice](../rule/monster/malice.md))**
 >
-> | **Area**       |                  **Maneuver** |
+> | **Area**       |                  **[Maneuver](../rule/combat/turn.md)** |
 > |----------------|------------------------------:|
 > | **📏 3 burst** | **🎯 Each enemy in the area** |
 >
@@ -14141,7 +14141,7 @@ At the start of any ogre's turn, you can spend Malice to activate one of the fol
 
 > ❗️ **Hrraaaaaagh! (1 [Malice](../rule/monster/malice.md))**
 >
-> | **-**       | **Free triggered action** |
+> | **-**       | **Free [triggered action](../rule/combat/triggered-action.md)** |
 > |-------------|--------------------------:|
 > | **📏 Self** |               **🎯 Self** |
 >
@@ -14177,7 +14177,7 @@ At the start of any ogre's turn, you can spend Malice to activate one of the fol
 
 > ❇️ **Wild Slam ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Area, Weapon** |                          **Main action** |
+> | **Area, Weapon** |                          **[Main action](../rule/combat/turn.md)** |
 > |------------------|-----------------------------------------:|
 > | **📏 1 burst**   | **🎯 Each enemy and object in the area** |
 >
@@ -14203,7 +14203,7 @@ At the start of any ogre's turn, you can spend Malice to activate one of the fol
 
 > 🗡 **Crush Underfoot ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Melee, Strike, Weapon** |                          **Main action** |
+> | **Melee, Strike, Weapon** |                          **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|-----------------------------------------:|
 > | **📏 Melee 2**            | **🎯 One creature or object per minion** |
 >
@@ -14233,7 +14233,7 @@ At the start of any ogre's turn, you can spend Malice to activate one of the fol
 
 > 🏹 **Throw Fit ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Ranged, Strike, Weapon** |                          **Main action** |
+> | **Ranged, Strike, Weapon** |                          **[Main action](../rule/combat/turn.md)** |
 > |----------------------------|-----------------------------------------:|
 > | **📏 Ranged 8**            | **🎯 One creature or object per minion** |
 >
@@ -14299,7 +14299,7 @@ At the start of an olothec's turn, you can spend Malice to activate one of the f
 
 > 🗡 **Writhing Envelopment (4 [Malice](../rule/monster/malice.md))**
 >
-> | **Melee, Strike, Weapon** |                                      **Main action** |
+> | **Melee, Strike, Weapon** |                                      **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|-----------------------------------------------------:|
 > | **📏 Melee 3**            | **🎯 One slimed, transformed, or devolved creature** |
 >
@@ -14335,7 +14335,7 @@ At the start of an olothec's turn, you can spend Malice to activate one of the f
 
 > 🗡 **Devolving Tentacles ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 3**            | **🎯 Two creatures or objects** |
 >
@@ -14349,7 +14349,7 @@ At the start of an olothec's turn, you can spend Malice to activate one of the f
 
 > 🔳 **Slime Spew**
 >
-> | **Area, Weapon**           |                             **Main action** |
+> | **Area, Weapon**           |                             **[Main action](../rule/combat/turn.md)** |
 > |----------------------------|--------------------------------------------:|
 > | **📏 7 x 2 line within 1** | **🎯 Each creature and object in the area** |
 >
@@ -14365,7 +14365,7 @@ At the start of an olothec's turn, you can spend Malice to activate one of the f
 
 > 🏹 **Oozing Transformation (2 [Malice](../rule/monster/malice.md))**
 >
-> | **Psionic, Ranged, Strike** |     **Main action** |
+> | **Psionic, Ranged, Strike** |     **[Main action](../rule/combat/turn.md)** |
 > |-----------------------------|--------------------:|
 > | **📏 Ranged 10**            | **🎯 One creature** |
 >
@@ -14385,7 +14385,7 @@ At the start of an olothec's turn, you can spend Malice to activate one of the f
 
 > 👤 **Jaunt**
 >
-> | **Psionic** | **Maneuver** |
+> | **Psionic** | **[Maneuver](../rule/combat/turn.md)** |
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
@@ -14393,7 +14393,7 @@ At the start of an olothec's turn, you can spend Malice to activate one of the f
 
 > ❗️ **Liquify**
 >
-> | **Psionic, Ranged** | **Triggered action** |
+> | **Psionic, Ranged** | **[Triggered action](../rule/combat/triggered-action.md)** |
 > |---------------------|---------------------:|
 > | **📏 Ranged 5**     |    **🎯 Each enemy** |
 >
@@ -14509,7 +14509,7 @@ At the start of any orc's turn, you can spend [Malice](../rule/monster/malice.md
 
 > 🗡 **Earth Bump ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Melee, Strike, Weapon** |                          **Main action** |
+> | **Melee, Strike, Weapon** |                          **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|-----------------------------------------:|
 > | **📏 Melee 1**            | **🎯 One creature or object per minion** |
 >
@@ -14539,7 +14539,7 @@ At the start of any orc's turn, you can spend [Malice](../rule/monster/malice.md
 
 > 🗡 **Lugged Spear ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Melee, Strike, Weapon** |                          **Main action** |
+> | **Melee, Strike, Weapon** |                          **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|-----------------------------------------:|
 > | **📏 Melee 1**            | **🎯 One creature or object per minion** |
 >
@@ -14565,7 +14565,7 @@ At the start of any orc's turn, you can spend [Malice](../rule/monster/malice.md
 
 > 🏹 **Explosive Mote ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Magic, Ranged, Strike** |                          **Main action** |
+> | **Magic, Ranged, Strike** |                          **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|-----------------------------------------:|
 > | **📏 Ranged 10**          | **🎯 One creature or object per minion** |
 >
@@ -14589,7 +14589,7 @@ At the start of any orc's turn, you can spend [Malice](../rule/monster/malice.md
 
 > ⚔️ **Call to Victory ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Magic, Melee, Ranged, Strike** |                          **Main action** |
+> | **Magic, Melee, Ranged, Strike** |                          **[Main action](../rule/combat/turn.md)** |
 > |----------------------------------|-----------------------------------------:|
 > | **📏 Melee 1 or ranged 5**       | **🎯 One creature or object per minion** |
 >
@@ -14615,7 +14615,7 @@ At the start of any orc's turn, you can spend [Malice](../rule/monster/malice.md
 
 > 🏹 **Boot and Blade ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Melee, Strike, Weapon** |                          **Main action** |
+> | **Melee, Strike, Weapon** |                          **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|-----------------------------------------:|
 > | **📏 Melee 1**            | **🎯 One creature or object per minion** |
 >
@@ -14641,7 +14641,7 @@ At the start of any orc's turn, you can spend [Malice](../rule/monster/malice.md
 
 > 🗡 **Shield Bash ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Melee, Strike, Weapon** |               **Main action** |
+> | **Melee, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Melee 1**            | **🎯 One creature or object** |
 >
@@ -14673,7 +14673,7 @@ At the start of any orc's turn, you can spend [Malice](../rule/monster/malice.md
 
 > 🗡 **Hook and Chain ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Melee, Strike, Weapon** |               **Main action** |
+> | **Melee, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Melee 3**            | **🎯 One creature or object** |
 >
@@ -14687,7 +14687,7 @@ At the start of any orc's turn, you can spend [Malice](../rule/monster/malice.md
 
 > 🏹 **Heavy Crossbolt (3 [Malice](../rule/monster/malice.md))**
 >
-> | **Ranged, Strike, Weapon** |               **Main action** |
+> | **Ranged, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |----------------------------|------------------------------:|
 > | **📏 Ranged 5**            | **🎯 One creature or object** |
 >
@@ -14719,7 +14719,7 @@ At the start of any orc's turn, you can spend [Malice](../rule/monster/malice.md
 
 > 🏹 **Elemental Discharge ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Magic, Ranged, Strike** |               **Main action** |
+> | **Magic, Ranged, Strike** |               **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Ranged 10**          | **🎯 One creature or object** |
 >
@@ -14733,7 +14733,7 @@ At the start of any orc's turn, you can spend [Malice](../rule/monster/malice.md
 
 > 🔳 **Power Burst (3 [Malice](../rule/monster/malice.md))**
 >
-> | **Area, Magic**            |               **Main action** |
+> | **Area, Magic**            |               **[Main action](../rule/combat/turn.md)** |
 > |----------------------------|------------------------------:|
 > | **📏 5 x 2 line within 1** | **🎯 Each enemy in the area** |
 >
@@ -14759,7 +14759,7 @@ At the start of any orc's turn, you can spend [Malice](../rule/monster/malice.md
 
 > 🗡 **Dagger Feint ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Melee, Strike, Weapon** |               **Main action** |
+> | **Melee, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Melee 1**            | **🎯 One creature or object** |
 >
@@ -14773,7 +14773,7 @@ At the start of any orc's turn, you can spend [Malice](../rule/monster/malice.md
 
 > 🗡 **Strangle**
 >
-> | **Melee, Strike, Weapon** |     **Main action** |
+> | **Melee, Strike, Weapon** |     **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------:|
 > | **📏 Melee 1**            | **🎯 One creature** |
 >
@@ -14787,7 +14787,7 @@ At the start of any orc's turn, you can spend [Malice](../rule/monster/malice.md
 
 > 👤 **Chroma Cloak (1 [Malice](../rule/monster/malice.md))**
 >
-> | **-**          |        **Maneuver** |
+> | **-**          |        **[Maneuver](../rule/combat/turn.md)** |
 > |----------------|--------------------:|
 > | **📏 -**       |            **🎯 -** |
 >
@@ -14807,7 +14807,7 @@ At the start of any orc's turn, you can spend [Malice](../rule/monster/malice.md
 
 > ⚔️ **Power Chord ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Magic, Melee, Ranged, Strike** |               **Main action** |
+> | **Magic, Melee, Ranged, Strike** |               **[Main action](../rule/combat/turn.md)** |
 > |----------------------------------|------------------------------:|
 > | **📏 Melee 1 or ranged 10**      | **🎯 One creature or object** |
 >
@@ -14819,7 +14819,7 @@ At the start of any orc's turn, you can spend [Malice](../rule/monster/malice.md
 
 > 🏹 **Cadenza**
 >
-> | **Magic, Ranged** | **Main action** |
+> | **Magic, Ranged** | **[Main action](../rule/combat/turn.md)** |
 > |-------------------|----------------:|
 > | **📏 Ranged 10**  | **🎯 One ally** |
 >
@@ -14829,7 +14829,7 @@ At the start of any orc's turn, you can spend [Malice](../rule/monster/malice.md
 
 > 🏹 **Rallying Ostinato (2 [Malice](../rule/monster/malice.md))**
 >
-> | **Magic, Ranged** |                 **Maneuver** |
+> | **Magic, Ranged** |                 **[Maneuver](../rule/combat/turn.md)** |
 > |-------------------|-----------------------------:|
 > | **📏 Ranged 10**  | **🎯 Self and three allies** |
 >
@@ -14849,7 +14849,7 @@ At the start of any orc's turn, you can spend [Malice](../rule/monster/malice.md
 
 > 🗡 **Haymaker Greataxe ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Melee, Strike, Weapon** |               **Main action** |
+> | **Melee, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Melee 1**            | **🎯 One creature or object** |
 >
@@ -14863,7 +14863,7 @@ At the start of any orc's turn, you can spend [Malice](../rule/monster/malice.md
 
 > ❗️ **Hrraaaaaagh! (1 [Malice](../rule/monster/malice.md))**
 >
-> | **-**       | **Free triggered action** |
+> | **-**       | **Free [triggered action](../rule/combat/triggered-action.md)** |
 > |-------------|--------------------------:|
 > | **📏 Self** |               **🎯 Self** |
 >
@@ -14889,7 +14889,7 @@ At the start of any orc's turn, you can spend [Malice](../rule/monster/malice.md
 
 > 🗡 **My Spear, My Foe ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Melee, Strike, Weapon** |               **Main action** |
+> | **Melee, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Melee 1**            | **🎯 One creature or object** |
 >
@@ -14903,7 +14903,7 @@ At the start of any orc's turn, you can spend [Malice](../rule/monster/malice.md
 
 > 👤 **Castling**
 >
-> | **-**                  |    **Maneuver** |
+> | **-**                  |    **[Maneuver](../rule/combat/turn.md)** |
 > |------------------------|----------------:|
 > | **📏 Self; see below** | **🎯 One ally** |
 >
@@ -14911,7 +14911,7 @@ At the start of any orc's turn, you can spend [Malice](../rule/monster/malice.md
 
 > ❗️ **No.**
 >
-> | **-**       | **Triggered action** |
+> | **-**       | **[Triggered action](../rule/combat/triggered-action.md)** |
 > |-------------|---------------------:|
 > | **📏 Self** |          **🎯 Self** |
 >
@@ -14933,7 +14933,7 @@ At the start of any orc's turn, you can spend [Malice](../rule/monster/malice.md
 
 > 🏹 **Earth Pillar ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Magic, Ranged, Strike** |                   **Main action** |
+> | **Magic, Ranged, Strike** |                   **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|----------------------------------:|
 > | **📏 Ranged 10**          | **🎯 Three creatures or objects** |
 >
@@ -14947,7 +14947,7 @@ At the start of any orc's turn, you can spend [Malice](../rule/monster/malice.md
 
 > ❇️ **Sinkhole (3 [Malice](../rule/monster/malice.md))**
 >
-> | **Area, Weapon** |                          **Main action** |
+> | **Area, Weapon** |                          **[Main action](../rule/combat/turn.md)** |
 > |------------------|-----------------------------------------:|
 > | **📏 3 burst**   | **🎯 Each enemy and object in the area** |
 >
@@ -14977,7 +14977,7 @@ At the start of any orc's turn, you can spend [Malice](../rule/monster/malice.md
 
 > 🏹 **Go. ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Ranged**       | **Main action** |
+> | **Ranged**       | **[Main action](../rule/combat/turn.md)** |
 > |------------------|----------------:|
 > | **📏 Ranged 10** | **🎯 One ally** |
 >
@@ -14989,7 +14989,7 @@ At the start of any orc's turn, you can spend [Malice](../rule/monster/malice.md
 
 > 🗡 **Mace Lariat**
 >
-> | **Melee, Strike, Weapon** |   **Main action** |
+> | **Melee, Strike, Weapon** |   **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|------------------:|
 > | **📏 Melee 1**            | **🎯 Each enemy** |
 >
@@ -15001,7 +15001,7 @@ At the start of any orc's turn, you can spend [Malice](../rule/monster/malice.md
 
 > 🏹 **Lockdown (3 [Malice](../rule/monster/malice.md))**
 >
-> | **Ranged**                |                 **Maneuver** |
+> | **Ranged**                |                 **[Maneuver](../rule/combat/turn.md)** |
 > |---------------------------|-----------------------------:|
 > | **📏 Self and ranged 10** | **🎯 Self and three allies** |
 >
@@ -15009,7 +15009,7 @@ At the start of any orc's turn, you can spend [Malice](../rule/monster/malice.md
 
 > ❗️ **Courtesy Call**
 >
-> | **Ranged**       | **Triggered action** |
+> | **Ranged**       | **[Triggered action](../rule/combat/triggered-action.md)** |
 > |------------------|---------------------:|
 > | **📏 Ranged 10** |  **🎯 One creature** |
 >
@@ -15063,7 +15063,7 @@ At the start of any orc's turn, you can spend [Malice](../rule/monster/malice.md
 
 > 🗡 **Clawed Kick ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 2**            | **🎯 Two creatures or objects** |
 >
@@ -15077,7 +15077,7 @@ At the start of any orc's turn, you can spend [Malice](../rule/monster/malice.md
 
 > 🗡 **Whiptail**
 >
-> | **Melee, Strike, Weapon** |               **Main action** |
+> | **Melee, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Melee 3**            | **🎯 One creature or object** |
 >
@@ -15091,7 +15091,7 @@ At the start of any orc's turn, you can spend [Malice](../rule/monster/malice.md
 
 > 🔳 **Crestfall (2 [Malice](../rule/monster/malice.md))**
 >
-> | **Area, Ranged, Weapon** |               **Main action** |
+> | **Area, Ranged, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |--------------------------|------------------------------:|
 > | **📏 3 cube within 2**   | **🎯 Each enemy in the area** |
 >
@@ -15103,7 +15103,7 @@ At the start of any orc's turn, you can spend [Malice](../rule/monster/malice.md
 
 > ❇️ **Sandstorm (3 [Malice](../rule/monster/malice.md))**
 >
-> | **Area**       |   **Maneuver** |
+> | **Area**       |   **[Maneuver](../rule/combat/turn.md)** |
 > |----------------|---------------:|
 > | **📏 3 burst** | **🎯 Special** |
 >
@@ -15115,7 +15115,7 @@ At the start of any orc's turn, you can spend [Malice](../rule/monster/malice.md
 
 > ❗️ **Brace and Break**
 >
-> | **-**       | **Triggered action** |
+> | **-**       | **[Triggered action](../rule/combat/triggered-action.md)** |
 > |-------------|---------------------:|
 > | **📏 Self** |          **🎯 Self** |
 >
@@ -15161,7 +15161,7 @@ At the start of any radenwight's turn, you can spend [Malice](../rule/monster/ma
 
 > 🗡 **Trouser Cut (3 [Malice](../rule/monster/malice.md))**
 >
-> | **Melee, Strike, Weapon** |     **Main action** |
+> | **Melee, Strike, Weapon** |     **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------:|
 > | **📏 Melee 1**            | **🎯 One creature** |
 >
@@ -15199,7 +15199,7 @@ At the start of any radenwight's turn, you can spend [Malice](../rule/monster/ma
 
 > ⚔️ **Dagger Dance ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Melee, Ranged, Strike, Weapon** |                **Main action** |
+> | **Melee, Ranged, Strike, Weapon** |                **[Main action](../rule/combat/turn.md)** |
 > |-----------------------------------|-------------------------------:|
 > | **📏 Melee 1 or ranged 5**        | **🎯 One creature per minion** |
 >
@@ -15213,7 +15213,7 @@ At the start of any radenwight's turn, you can spend [Malice](../rule/monster/ma
 
 > ❗️ **Ready Rodent**
 >
-> | **Melee, Weapon** | **Triggered action** |
+> | **Melee, Weapon** | **[Triggered action](../rule/combat/triggered-action.md)** |
 > |-------------------|---------------------:|
 > | **📏 Melee 1**    |  **🎯 One creature** |
 >
@@ -15231,7 +15231,7 @@ At the start of any radenwight's turn, you can spend [Malice](../rule/monster/ma
 
 > 🏹 **Eyes-On-Me-Shot ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Ranged, Strike, Weapon** |                          **Main action** |
+> | **Ranged, Strike, Weapon** |                          **[Main action](../rule/combat/turn.md)** |
 > |----------------------------|-----------------------------------------:|
 > | **📏 Ranged 10**           | **🎯 One creature or object per minion** |
 >
@@ -15245,7 +15245,7 @@ At the start of any radenwight's turn, you can spend [Malice](../rule/monster/ma
 
 > ❗️ **Ready Rodent**
 >
-> | **Melee, Weapon** | **Triggered action** |
+> | **Melee, Weapon** | **[Triggered action](../rule/combat/triggered-action.md)** |
 > |-------------------|---------------------:|
 > | **📏 Melee 1**    |  **🎯 One creature** |
 >
@@ -15263,7 +15263,7 @@ At the start of any radenwight's turn, you can spend [Malice](../rule/monster/ma
 
 > 🗡 **Buckler Bash ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Charge, Melee, Strike, Weapon** |                          **Main action** |
+> | **Charge, Melee, Strike, Weapon** |                          **[Main action](../rule/combat/turn.md)** |
 > |-----------------------------------|-----------------------------------------:|
 > | **📏 Melee 1**                    | **🎯 One creature or object per minion** |
 >
@@ -15275,7 +15275,7 @@ At the start of any radenwight's turn, you can spend [Malice](../rule/monster/ma
 
 > ❗️ **Ready Rodent**
 >
-> | **Melee, Weapon** | **Triggered action** |
+> | **Melee, Weapon** | **[Triggered action](../rule/combat/triggered-action.md)** |
 > |-------------------|---------------------:|
 > | **📏 Melee 1**    |  **🎯 One creature** |
 >
@@ -15293,7 +15293,7 @@ At the start of any radenwight's turn, you can spend [Malice](../rule/monster/ma
 
 > 🗡 **Rapier Flunge ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Melee, Strike, Weapon** |                          **Main action** |
+> | **Melee, Strike, Weapon** |                          **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|-----------------------------------------:|
 > | **📏 Melee 1**            | **🎯 One creature or object per minion** |
 >
@@ -15305,7 +15305,7 @@ At the start of any radenwight's turn, you can spend [Malice](../rule/monster/ma
 
 > ❗️ **Ready Rodent**
 >
-> | **Melee, Weapon** | **Triggered action** |
+> | **Melee, Weapon** | **[Triggered action](../rule/combat/triggered-action.md)** |
 > |-------------------|---------------------:|
 > | **📏 Melee 1**    |  **🎯 One creature** |
 >
@@ -15323,7 +15323,7 @@ At the start of any radenwight's turn, you can spend [Malice](../rule/monster/ma
 
 > 🗡 **Lockjaw ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Melee, Strike, Weapon** |               **Main action** |
+> | **Melee, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Melee 1**            | **🎯 One creature or object** |
 >
@@ -15337,7 +15337,7 @@ At the start of any radenwight's turn, you can spend [Malice](../rule/monster/ma
 
 > ❇️ **Flurry of Bites (3 [Malice](../rule/monster/malice.md))**
 >
-> | **Area, Weapon** |               **Main action** |
+> | **Area, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |------------------|------------------------------:|
 > | **📏 1 burst**   | **🎯 Each enemy in the area** |
 >
@@ -15349,7 +15349,7 @@ At the start of any radenwight's turn, you can spend [Malice](../rule/monster/ma
 
 > ❗️ **Ready Rodent**
 >
-> | **Melee, Weapon** | **Triggered action** |
+> | **Melee, Weapon** | **[Triggered action](../rule/combat/triggered-action.md)** |
 > |-------------------|---------------------:|
 > | **📏 Melee 1**    |  **🎯 One creature** |
 >
@@ -15371,7 +15371,7 @@ At the start of any radenwight's turn, you can spend [Malice](../rule/monster/ma
 
 > ⚔️ **Piercing Trill ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Magic, Melee, Ranged, Strike** |               **Main action** |
+> | **Magic, Melee, Ranged, Strike** |               **[Main action](../rule/combat/turn.md)** |
 > |----------------------------------|------------------------------:|
 > | **📏 Melee 1 or ranged 10**      | **🎯 One creature or object** |
 >
@@ -15385,7 +15385,7 @@ At the start of any radenwight's turn, you can spend [Malice](../rule/monster/ma
 
 > ❇️ **Vivace Vivace!**
 >
-> | **Area, Magic** |                 **Maneuver** |
+> | **Area, Magic** |                 **[Maneuver](../rule/combat/turn.md)** |
 > |-----------------|-----------------------------:|
 > | **📏 3 burst**  | **🎯 Each ally in the area** |
 >
@@ -15395,7 +15395,7 @@ At the start of any radenwight's turn, you can spend [Malice](../rule/monster/ma
 
 > ❗️ **Ready Rodent**
 >
-> | **Melee, Weapon** | **Triggered action** |
+> | **Melee, Weapon** | **[Triggered action](../rule/combat/triggered-action.md)** |
 > |-------------------|---------------------:|
 > | **📏 Melee 1**    |  **🎯 One creature** |
 >
@@ -15417,7 +15417,7 @@ At the start of any radenwight's turn, you can spend [Malice](../rule/monster/ma
 
 > 🗡 **En Garde ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 1**            | **🎯 Two creatures or objects** |
 >
@@ -15431,7 +15431,7 @@ At the start of any radenwight's turn, you can spend [Malice](../rule/monster/ma
 
 > 🗡 **Over Here, Thanks**
 >
-> | **Melee**      |     **Maneuver** |
+> | **Melee**      |     **[Maneuver](../rule/combat/turn.md)** |
 > |----------------|-----------------:|
 > | **📏 Melee 1** | **🎯 One enemy** |
 >
@@ -15439,7 +15439,7 @@ At the start of any radenwight's turn, you can spend [Malice](../rule/monster/ma
 
 > ❗️ **Ready Rodent**
 >
-> | **Melee, Weapon** | **Triggered action** |
+> | **Melee, Weapon** | **[Triggered action](../rule/combat/triggered-action.md)** |
 > |-------------------|---------------------:|
 > | **📏 Melee 1**    |  **🎯 One creature** |
 >
@@ -15461,7 +15461,7 @@ At the start of any radenwight's turn, you can spend [Malice](../rule/monster/ma
 
 > ❇️ **Cacophony ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Area, Magic** |               **Main action** |
+> | **Area, Magic** |               **[Main action](../rule/combat/turn.md)** |
 > |-----------------|------------------------------:|
 > | **📏 5 burst**  | **🎯 Each enemy in the area** |
 >
@@ -15475,7 +15475,7 @@ At the start of any radenwight's turn, you can spend [Malice](../rule/monster/ma
 
 > 🏹 **Tempo Changer**
 >
-> | **Magic, Ranged, Strike** |       **Maneuver** |
+> | **Magic, Ranged, Strike** |       **[Maneuver](../rule/combat/turn.md)** |
 > |---------------------------|-------------------:|
 > | **📏 Ranged 10**          | **🎯 Two enemies** |
 >
@@ -15489,7 +15489,7 @@ At the start of any radenwight's turn, you can spend [Malice](../rule/monster/ma
 
 > ❗️ **Ever-Ready Rodent (2 [Malice](../rule/monster/malice.md))**
 >
-> | **Magic, Ranged** |      **Free triggered action** |
+> | **Magic, Ranged** |      **Free [triggered action](../rule/combat/triggered-action.md)** |
 > |-------------------|-------------------------------:|
 > | **📏 Ranged 5**   | **🎯 The triggering creature** |
 >
@@ -15638,7 +15638,7 @@ It's possible that these rivals gained a head start on their adventures and will
 
 > ⚔️ **Thunder of Heavens ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Magic, Melee, Ranged, Strike** |                 **Main action** |
+> | **Magic, Melee, Ranged, Strike** |                 **[Main action](../rule/combat/turn.md)** |
 > |----------------------------------|--------------------------------:|
 > | **📏 Melee 1 or ranged 10**      | **🎯 Two creatures or objects** |
 >
@@ -15652,7 +15652,7 @@ It's possible that these rivals gained a head start on their adventures and will
 
 > 🏹 **Imbue with Might (2 [Malice](../rule/monster/malice.md))**
 >
-> | **Magic, Ranged** |               **Maneuver** |
+> | **Magic, Ranged** |               **[Maneuver](../rule/combat/turn.md)** |
 > |-------------------|---------------------------:|
 > | **📏 Ranged 10**  | **🎯 Self and five allies** |
 >
@@ -15676,7 +15676,7 @@ It's possible that these rivals gained a head start on their adventures and will
 
 > 🏹 **The Writhing Green ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Green, Magic, Ranged, Strike** |                 **Main action** |
+> | **Green, Magic, Ranged, Strike** |                 **[Main action](../rule/combat/turn.md)** |
 > |----------------------------------|--------------------------------:|
 > | **📏 Ranged 10**                 | **🎯 Two creatures or objects** |
 >
@@ -15688,7 +15688,7 @@ It's possible that these rivals gained a head start on their adventures and will
 
 > 🔳 **The Earth Devours (3 [Malice](../rule/monster/malice.md))**
 >
-> | **Area, Green, Magic, Ranged** |               **Main action** |
+> | **Area, Green, Magic, Ranged** |               **[Main action](../rule/combat/turn.md)** |
 > |--------------------------------|------------------------------:|
 > | **📏 3 cube within 10**        | **🎯 Each enemy in the area** |
 >
@@ -15702,7 +15702,7 @@ It's possible that these rivals gained a head start on their adventures and will
 
 > ❗️ **Jaws of the Void**
 >
-> | **Magic, Void** | **Triggered action** |
+> | **Magic, Void** | **[Triggered action](../rule/combat/triggered-action.md)** |
 > |-----------------|---------------------:|
 > | **📏 Self**     |          **🎯 Self** |
 >
@@ -15724,7 +15724,7 @@ It's possible that these rivals gained a head start on their adventures and will
 
 > 🗡 **Brutal Impact ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 1**            | **🎯 Two creatures or objects** |
 >
@@ -15738,7 +15738,7 @@ It's possible that these rivals gained a head start on their adventures and will
 
 > 🗡 **Let's Tussle (2 [Malice](../rule/monster/malice.md))**
 >
-> | **Melee, Strike, Weapon** |     **Main action** |
+> | **Melee, Strike, Weapon** |     **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------:|
 > | **📏 Melee 1**            | **🎯 One creature** |
 >
@@ -15768,7 +15768,7 @@ It's possible that these rivals gained a head start on their adventures and will
 
 > 🗡 **Nimble Step ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 1**            | **🎯 Two creatures or objects** |
 >
@@ -15780,7 +15780,7 @@ It's possible that these rivals gained a head start on their adventures and will
 
 > 🗡 **Numb (2 [Malice](../rule/monster/malice.md))**
 >
-> | **Melee, Psionic, Strike, Weapon** |                  **Maneuver** |
+> | **Melee, Psionic, Strike, Weapon** |                  **[Maneuver](../rule/combat/turn.md)** |
 > |------------------------------------|------------------------------:|
 > | **📏 Melee 1**                     | **🎯 One creature or object** |
 >
@@ -15808,7 +15808,7 @@ It's possible that these rivals gained a head start on their adventures and will
 
 > 🗡 **Swift Serration ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 1**            | **🎯 Two creatures or objects** |
 >
@@ -15822,7 +15822,7 @@ It's possible that these rivals gained a head start on their adventures and will
 
 > 👤 **Poison the Blade**
 >
-> | **-**       | **Maneuver** |
+> | **-**       | **[Maneuver](../rule/combat/turn.md)** |
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
@@ -15864,7 +15864,7 @@ It's possible that these rivals gained a head start on their adventures and will
 
 > 🏹 **Dual Targeting Shot ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Ranged, Strike, Weapon** |                 **Main action** |
+> | **Ranged, Strike, Weapon** |                 **[Main action](../rule/combat/turn.md)** |
 > |----------------------------|--------------------------------:|
 > | **📏 Ranged 10**           | **🎯 Two creatures or objects** |
 >
@@ -15878,7 +15878,7 @@ It's possible that these rivals gained a head start on their adventures and will
 
 > 🏹 **I'll Cover You! (3 [Malice](../rule/monster/malice.md))**
 >
-> | **Ranged, Strike, Weapon** |               **Main action** |
+> | **Ranged, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |----------------------------|------------------------------:|
 > | **📏 Ranged 5**            | **🎯 One creature or object** |
 >
@@ -15892,7 +15892,7 @@ It's possible that these rivals gained a head start on their adventures and will
 
 > ❗️ **Overwatch**
 >
-> | **Ranged**       |        **Triggered action** |
+> | **Ranged**       |        **[Triggered action](../rule/combat/triggered-action.md)** |
 > |------------------|----------------------------:|
 > | **📏 Ranged 10** | **🎯 The triggering enemy** |
 >
@@ -15914,7 +15914,7 @@ It's possible that these rivals gained a head start on their adventures and will
 
 > 🏹 **Reverberating Blast ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Psionic, Ranged, Strike, Telekinesis** |                 **Main action** |
+> | **Psionic, Ranged, Strike, Telekinesis** |                 **[Main action](../rule/combat/turn.md)** |
 > |------------------------------------------|--------------------------------:|
 > | **📏 Ranged 10**                         | **🎯 Two creatures or objects** |
 >
@@ -15926,7 +15926,7 @@ It's possible that these rivals gained a head start on their adventures and will
 
 > 🏹 **Muddle the Mind (2 [Malice](../rule/monster/malice.md))**
 >
-> | **Psionic, Ranged, Telepathy** |                  **Maneuver** |
+> | **Psionic, Ranged, Telepathy** |                  **[Maneuver](../rule/combat/turn.md)** |
 > |--------------------------------|------------------------------:|
 > | **📏 Ranged 10**               | **🎯 One creature or object** |
 >
@@ -15938,7 +15938,7 @@ It's possible that these rivals gained a head start on their adventures and will
 
 > ❗️ **Precognitive Shift (1 [Malice](../rule/monster/malice.md))**
 >
-> | **Psionic** | **Triggered action** |
+> | **Psionic** | **[Triggered action](../rule/combat/triggered-action.md)** |
 > |-------------|---------------------:|
 > | **📏 Self** |          **🎯 Self** |
 >
@@ -15964,7 +15964,7 @@ The rivals have learned a few new tricks since they last encountered the heroes.
 
 > ⚔️ **Raging Tempest ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Magic, Melee, Ranged, Strike** |                 **Main action** |
+> | **Magic, Melee, Ranged, Strike** |                 **[Main action](../rule/combat/turn.md)** |
 > |----------------------------------|--------------------------------:|
 > | **📏 Melee 1 or ranged 10**      | **🎯 Two creatures or objects** |
 >
@@ -15978,7 +15978,7 @@ The rivals have learned a few new tricks since they last encountered the heroes.
 
 > 🏹 **Imbue with Power (3 [Malice](../rule/monster/malice.md))**
 >
-> | **Magic, Ranged** |                **Maneuver** |
+> | **Magic, Ranged** |                **[Maneuver](../rule/combat/turn.md)** |
 > |-------------------|----------------------------:|
 > | **📏 Ranged 10**  | **🎯 Self and five allies** |
 >
@@ -16002,7 +16002,7 @@ The rivals have learned a few new tricks since they last encountered the heroes.
 
 > 🏹 **The Thriving Wilds ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Green, Magic, Ranged, Strike** |                 **Main action** |
+> | **Green, Magic, Ranged, Strike** |                 **[Main action](../rule/combat/turn.md)** |
 > |----------------------------------|--------------------------------:|
 > | **📏 Ranged 10**                 | **🎯 Two creatures or objects** |
 >
@@ -16014,7 +16014,7 @@ The rivals have learned a few new tricks since they last encountered the heroes.
 
 > 🔳 **The Depths Hunger (4 [Malice](../rule/monster/malice.md))**
 >
-> | **Area, Green, Magic, Ranged** |               **Main action** |
+> | **Area, Green, Magic, Ranged** |               **[Main action](../rule/combat/turn.md)** |
 > |--------------------------------|------------------------------:|
 > | **📏 4 cube within 10**        | **🎯 Each enemy in the area** |
 >
@@ -16028,7 +16028,7 @@ The rivals have learned a few new tricks since they last encountered the heroes.
 
 > ❗️ **Fissures of Darkness**
 >
-> | **Magic, Void** | **Triggered action** |
+> | **Magic, Void** | **[Triggered action](../rule/combat/triggered-action.md)** |
 > |-----------------|---------------------:|
 > | **📏 Self**     |          **🎯 Self** |
 >
@@ -16050,7 +16050,7 @@ The rivals have learned a few new tricks since they last encountered the heroes.
 
 > 🗡 **Thunderous Slam ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 1**            | **🎯 Two creatures or objects** |
 >
@@ -16064,7 +16064,7 @@ The rivals have learned a few new tricks since they last encountered the heroes.
 
 > 🗡 **Roughed Up (3 [Malice](../rule/monster/malice.md))**
 >
-> | **Melee, Strike, Weapon** |     **Main action** |
+> | **Melee, Strike, Weapon** |     **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------:|
 > | **📏 Melee 1**            | **🎯 One creature** |
 >
@@ -16094,7 +16094,7 @@ The rivals have learned a few new tricks since they last encountered the heroes.
 
 > 🗡 **Agile Stride ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 1**            | **🎯 Two creatures or objects** |
 >
@@ -16106,7 +16106,7 @@ The rivals have learned a few new tricks since they last encountered the heroes.
 
 > 🗡 **Deaden (2 [Malice](../rule/monster/malice.md))**
 >
-> | **Melee, Psionic, Strike, Weapon** |                  **Maneuver** |
+> | **Melee, Psionic, Strike, Weapon** |                  **[Maneuver](../rule/combat/turn.md)** |
 > |------------------------------------|------------------------------:|
 > | **📏 Melee 1**                     | **🎯 One creature or object** |
 >
@@ -16134,7 +16134,7 @@ The rivals have learned a few new tricks since they last encountered the heroes.
 
 > 🗡 **Ambuscade ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 1**            | **🎯 Two creatures or objects** |
 >
@@ -16148,7 +16148,7 @@ The rivals have learned a few new tricks since they last encountered the heroes.
 
 > 👤 **Poison the Blade**
 >
-> | **-**       | **Maneuver** |
+> | **-**       | **[Maneuver](../rule/combat/turn.md)** |
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
@@ -16172,7 +16172,7 @@ The rivals have learned a few new tricks since they last encountered the heroes.
 
 > 🏹 **Mark Targets ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Ranged, Strike, Weapon** |                 **Main action** |
+> | **Ranged, Strike, Weapon** |                 **[Main action](../rule/combat/turn.md)** |
 > |----------------------------|--------------------------------:|
 > | **📏 Ranged 10**           | **🎯 Two creatures or objects** |
 >
@@ -16186,7 +16186,7 @@ The rivals have learned a few new tricks since they last encountered the heroes.
 
 > 🏹 **Preserve and Protect (3 [Malice](../rule/monster/malice.md))**
 >
-> | **Ranged, Strike, Weapon** |               **Main action** |
+> | **Ranged, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |----------------------------|------------------------------:|
 > | **📏 Ranged 5**            | **🎯 One creature or object** |
 >
@@ -16200,7 +16200,7 @@ The rivals have learned a few new tricks since they last encountered the heroes.
 
 > ❗️ **Take the Opening**
 >
-> | **Ranged**       |        **Triggered action** |
+> | **Ranged**       |        **[Triggered action](../rule/combat/triggered-action.md)** |
 > |------------------|----------------------------:|
 > | **📏 Ranged 10** | **🎯 The triggering enemy** |
 >
@@ -16222,7 +16222,7 @@ The rivals have learned a few new tricks since they last encountered the heroes.
 
 > 🏹 **Overwhelming Rend ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Psionic, Ranged, Strike, Telekinesis** |                 **Main action** |
+> | **Psionic, Ranged, Strike, Telekinesis** |                 **[Main action](../rule/combat/turn.md)** |
 > |------------------------------------------|--------------------------------:|
 > | **📏 Ranged 10**                         | **🎯 Two creatures or objects** |
 >
@@ -16234,7 +16234,7 @@ The rivals have learned a few new tricks since they last encountered the heroes.
 
 > 🏹 **Disarrange Thoughts (2 [Malice](../rule/monster/malice.md))**
 >
-> | **Psionic, Ranged, Telepathy** |                  **Maneuver** |
+> | **Psionic, Ranged, Telepathy** |                  **[Maneuver](../rule/combat/turn.md)** |
 > |--------------------------------|------------------------------:|
 > | **📏 Ranged 10**               | **🎯 One creature or object** |
 >
@@ -16246,7 +16246,7 @@ The rivals have learned a few new tricks since they last encountered the heroes.
 
 > ❗️ **Precognitive Shift (1 [Malice](../rule/monster/malice.md))**
 >
-> | **Psionic** | **Triggered action** |
+> | **Psionic** | **[Triggered action](../rule/combat/triggered-action.md)** |
 > |-------------|---------------------:|
 > | **📏 Self** |          **🎯 Self** |
 >
@@ -16296,7 +16296,7 @@ Rivals at the 3rd Echelon have been through quite a few adventures the heroes mi
 
 > ⚔️ **Celestial Furor ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Magic, Melee, Ranged, Strike** |                 **Main action** |
+> | **Magic, Melee, Ranged, Strike** |                 **[Main action](../rule/combat/turn.md)** |
 > |----------------------------------|--------------------------------:|
 > | **📏 Melee 1 or ranged 10**      | **🎯 Two creatures or objects** |
 >
@@ -16310,7 +16310,7 @@ Rivals at the 3rd Echelon have been through quite a few adventures the heroes mi
 
 > 🏹 **Imbue with Power (3 [Malice](../rule/monster/malice.md))**
 >
-> | **Magic, Ranged** |                **Maneuver** |
+> | **Magic, Ranged** |                **[Maneuver](../rule/combat/turn.md)** |
 > |-------------------|----------------------------:|
 > | **📏 Ranged 10**  | **🎯 Self and five allies** |
 >
@@ -16334,7 +16334,7 @@ Rivals at the 3rd Echelon have been through quite a few adventures the heroes mi
 
 > 🏹 **Verdant Rains ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Green, Magic, Ranged, Strike** |                 **Main action** |
+> | **Green, Magic, Ranged, Strike** |                 **[Main action](../rule/combat/turn.md)** |
 > |----------------------------------|--------------------------------:|
 > | **📏 Ranged 10**                 | **🎯 Two creatures or objects** |
 >
@@ -16348,7 +16348,7 @@ Rivals at the 3rd Echelon have been through quite a few adventures the heroes mi
 
 > 🔳 **The Chasm Engulfs (4 [Malice](../rule/monster/malice.md))**
 >
-> | **Area, Green, Magic, Ranged** |               **Main action** |
+> | **Area, Green, Magic, Ranged** |               **[Main action](../rule/combat/turn.md)** |
 > |--------------------------------|------------------------------:|
 > | **📏 5 cube within 10**        | **🎯 Each enemy in the area** |
 >
@@ -16362,7 +16362,7 @@ Rivals at the 3rd Echelon have been through quite a few adventures the heroes mi
 
 > ❗️ **Maw of the Abyss**
 >
-> | **Magic, Void** | **Triggered action** |
+> | **Magic, Void** | **[Triggered action](../rule/combat/triggered-action.md)** |
 > |-----------------|---------------------:|
 > | **📏 Self**     |          **🎯 Self** |
 >
@@ -16384,7 +16384,7 @@ Rivals at the 3rd Echelon have been through quite a few adventures the heroes mi
 
 > 🗡 **Bonebreaker ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 1**            | **🎯 Two creatures or objects** |
 >
@@ -16398,7 +16398,7 @@ Rivals at the 3rd Echelon have been through quite a few adventures the heroes mi
 
 > 🗡 **Steelfist (3 [Malice](../rule/monster/malice.md))**
 >
-> | **Melee, Strike, Weapon** |     **Main action** |
+> | **Melee, Strike, Weapon** |     **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------:|
 > | **📏 Melee 1**            | **🎯 One creature** |
 >
@@ -16428,7 +16428,7 @@ Rivals at the 3rd Echelon have been through quite a few adventures the heroes mi
 
 >  🗡 **Inertial Flow ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 1**            | **🎯 Two creatures or objects** |
 >
@@ -16440,7 +16440,7 @@ Rivals at the 3rd Echelon have been through quite a few adventures the heroes mi
 
 > 🗡 **Stun (3 [Malice](../rule/monster/malice.md))**
 >
-> | **Melee, Psionic, Strike, Weapon** |                  **Maneuver** |
+> | **Melee, Psionic, Strike, Weapon** |                  **[Maneuver](../rule/combat/turn.md)** |
 > |------------------------------------|------------------------------:|
 > | **📏 Melee 1**                     | **🎯 One creature or object** |
 >
@@ -16468,7 +16468,7 @@ Rivals at the 3rd Echelon have been through quite a few adventures the heroes mi
 
 > 🗡 **Assail and Serrate ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 1**            | **🎯 Two creatures or objects** |
 >
@@ -16482,7 +16482,7 @@ Rivals at the 3rd Echelon have been through quite a few adventures the heroes mi
 
 > 👤 **Poison the Blade**
 >
-> | **-**       | **Maneuver** |
+> | **-**       | **[Maneuver](../rule/combat/turn.md)** |
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
@@ -16506,7 +16506,7 @@ Rivals at the 3rd Echelon have been through quite a few adventures the heroes mi
 
 > 🏹 **Command From the Back ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Ranged, Strike, Weapon** |                 **Main action** |
+> | **Ranged, Strike, Weapon** |                 **[Main action](../rule/combat/turn.md)** |
 > |----------------------------|--------------------------------:|
 > | **📏 Ranged 10**           | **🎯 Two creatures or objects** |
 >
@@ -16520,7 +16520,7 @@ Rivals at the 3rd Echelon have been through quite a few adventures the heroes mi
 
 > 🏹 **Safeguard (3 [Malice](../rule/monster/malice.md))**
 >
-> | **Ranged, Strike, Weapon** |               **Main action** |
+> | **Ranged, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |----------------------------|------------------------------:|
 > | **📏 Ranged 10**           | **🎯 One creature or object** |
 >
@@ -16534,7 +16534,7 @@ Rivals at the 3rd Echelon have been through quite a few adventures the heroes mi
 
 > ❗️ **Quickshot**
 >
-> | **Ranged**       |        **Triggered action** |
+> | **Ranged**       |        **[Triggered action](../rule/combat/triggered-action.md)** |
 > |------------------|----------------------------:|
 > | **📏 Ranged 10** | **🎯 The triggering enemy** |
 >
@@ -16556,7 +16556,7 @@ Rivals at the 3rd Echelon have been through quite a few adventures the heroes mi
 
 > 🏹 **Control Synapses ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Psionic, Ranged, Strike, Telekinesis** |                 **Main action** |
+> | **Psionic, Ranged, Strike, Telekinesis** |                 **[Main action](../rule/combat/turn.md)** |
 > |------------------------------------------|--------------------------------:|
 > | **📏 Ranged 10**                         | **🎯 Two creatures or objects** |
 >
@@ -16570,7 +16570,7 @@ Rivals at the 3rd Echelon have been through quite a few adventures the heroes mi
 
 > 🏹 **Disorientate (2 [Malice](../rule/monster/malice.md))**
 >
-> | **Psionic, Ranged, Telepathy** |                  **Maneuver** |
+> | **Psionic, Ranged, Telepathy** |                  **[Maneuver](../rule/combat/turn.md)** |
 > |--------------------------------|------------------------------:|
 > | **📏 Ranged 10**               | **🎯 One creature or object** |
 >
@@ -16582,7 +16582,7 @@ Rivals at the 3rd Echelon have been through quite a few adventures the heroes mi
 
 > ❗️ **Mind Requital (2 [Malice](../rule/monster/malice.md))**
 >
-> | **Psionic** | **Triggered action** |
+> | **Psionic** | **[Triggered action](../rule/combat/triggered-action.md)** |
 > |-------------|---------------------:|
 > | **📏 Self** |          **🎯 Self** |
 >
@@ -16608,7 +16608,7 @@ This is what peak performance looks like. Few bands of monsters can put up a fig
 
 > ⚔️ **Sunder the Very Skies ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Magic, Melee, Ranged, Strike** |                 **Main action** |
+> | **Magic, Melee, Ranged, Strike** |                 **[Main action](../rule/combat/turn.md)** |
 > |----------------------------------|--------------------------------:|
 > | **📏 Melee 1 or ranged 10**      | **🎯 Two creatures or objects** |
 >
@@ -16624,7 +16624,7 @@ This is what peak performance looks like. Few bands of monsters can put up a fig
 
 > 🏹 **Empyrean Boon (5 [Malice](../rule/monster/malice.md))**
 >
-> | **Magic, Ranged** |                **Maneuver** |
+> | **Magic, Ranged** |                **[Maneuver](../rule/combat/turn.md)** |
 > |-------------------|----------------------------:|
 > | **📏 Ranged 10**  | **🎯 Self and five allies** |
 >
@@ -16648,7 +16648,7 @@ This is what peak performance looks like. Few bands of monsters can put up a fig
 
 > 🏹 **Viridescent Storm ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Green, Magic, Ranged, Strike** |                 **Main action** |
+> | **Green, Magic, Ranged, Strike** |                 **[Main action](../rule/combat/turn.md)** |
 > |----------------------------------|--------------------------------:|
 > | **📏 Ranged 10**                 | **🎯 Two creatures or objects** |
 >
@@ -16662,7 +16662,7 @@ This is what peak performance looks like. Few bands of monsters can put up a fig
 
 > 🔳 **The World Consumes (5 [Malice](../rule/monster/malice.md))**
 >
-> | **Area, Green, Magic, Ranged** |               **Main action** |
+> | **Area, Green, Magic, Ranged** |               **[Main action](../rule/combat/turn.md)** |
 > |--------------------------------|------------------------------:|
 > | **📏 3 cube within 10**        | **🎯 Each enemy in the area** |
 >
@@ -16670,7 +16670,7 @@ This is what peak performance looks like. Few bands of monsters can put up a fig
 
 > ❗️ **Breach of Nihility**
 >
-> | **Magic, Void** | **Triggered action** |
+> | **Magic, Void** | **[Triggered action](../rule/combat/triggered-action.md)** |
 > |-----------------|---------------------:|
 > | **📏 Self**     |          **🎯 Self** |
 >
@@ -16692,7 +16692,7 @@ This is what peak performance looks like. Few bands of monsters can put up a fig
 
 > 🗡 **Seismic Crush ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 1**            | **🎯 Two creatures or objects** |
 >
@@ -16706,7 +16706,7 @@ This is what peak performance looks like. Few bands of monsters can put up a fig
 
 > 🗡 **Death Grip (4 [Malice](../rule/monster/malice.md))**
 >
-> | **Melee, Strike, Weapon** |     **Main action** |
+> | **Melee, Strike, Weapon** |     **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------:|
 > | **📏 Melee 1**            | **🎯 One creature** |
 >
@@ -16736,7 +16736,7 @@ This is what peak performance looks like. Few bands of monsters can put up a fig
 
 > 🗡 **Kinetic Danse ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 1**            | **🎯 Two creatures or objects** |
 >
@@ -16748,7 +16748,7 @@ This is what peak performance looks like. Few bands of monsters can put up a fig
 
 > 🗡 **Incapacitate (5 [Malice](../rule/monster/malice.md))**
 >
-> | **Melee, Psionic, Strike, Weapon** |                    **Maneuver** |
+> | **Melee, Psionic, Strike, Weapon** |                    **[Maneuver](../rule/combat/turn.md)** |
 > |------------------------------------|--------------------------------:|
 > | **📏 Melee 1**                     | **🎯 Two creatures or objects** |
 >
@@ -16776,7 +16776,7 @@ This is what peak performance looks like. Few bands of monsters can put up a fig
 
 > 🗡 **A Hush of Ash ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 1**            | **🎯 Two creatures or objects** |
 >
@@ -16790,7 +16790,7 @@ This is what peak performance looks like. Few bands of monsters can put up a fig
 
 > 👤 **Envenomed Steel**
 >
-> | **-**       | **Maneuver** |
+> | **-**       | **[Maneuver](../rule/combat/turn.md)** |
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
@@ -16814,7 +16814,7 @@ This is what peak performance looks like. Few bands of monsters can put up a fig
 
 > 🏹 **Forward Assault ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Ranged, Strike, Weapon** |                 **Main action** |
+> | **Ranged, Strike, Weapon** |                 **[Main action](../rule/combat/turn.md)** |
 > |----------------------------|--------------------------------:|
 > | **📏 Ranged 10**           | **🎯 Two creatures or objects** |
 >
@@ -16828,7 +16828,7 @@ This is what peak performance looks like. Few bands of monsters can put up a fig
 
 > 🔳 **Guardian From Afar (3 [Malice](../rule/monster/malice.md))**
 >
-> | **Area, Ranged, Weapon** |                 **Main action** |
+> | **Area, Ranged, Weapon** |                 **[Main action](../rule/combat/turn.md)** |
 > |--------------------------|--------------------------------:|
 > | **📏 3 cube within 10**  | **🎯 One creature in the area** |
 >
@@ -16842,7 +16842,7 @@ This is what peak performance looks like. Few bands of monsters can put up a fig
 
 > ❗️ **Battlefield Control**
 >
-> | **Ranged**       |        **Triggered action** |
+> | **Ranged**       |        **[Triggered action](../rule/combat/triggered-action.md)** |
 > |------------------|----------------------------:|
 > | **📏 Ranged 10** | **🎯 The triggering enemy** |
 >
@@ -16864,7 +16864,7 @@ This is what peak performance looks like. Few bands of monsters can put up a fig
 
 > 🏹 **Override ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Psionic, Ranged, Strike, Telekinesis** |                 **Main action** |
+> | **Psionic, Ranged, Strike, Telekinesis** |                 **[Main action](../rule/combat/turn.md)** |
 > |------------------------------------------|--------------------------------:|
 > | **📏 Ranged 10**                         | **🎯 Two creatures or objects** |
 >
@@ -16878,7 +16878,7 @@ This is what peak performance looks like. Few bands of monsters can put up a fig
 
 > 🏹 **Steal Time (3 [Malice](../rule/monster/malice.md))**
 >
-> | **Chronopathy, Psionic, Ranged** |                  **Maneuver** |
+> | **Chronopathy, Psionic, Ranged** |                  **[Maneuver](../rule/combat/turn.md)** |
 > |----------------------------------|------------------------------:|
 > | **📏 Ranged 10**                 | **🎯 One creature or object** |
 >
@@ -16892,7 +16892,7 @@ This is what peak performance looks like. Few bands of monsters can put up a fig
 
 > ❗️ **Psionic Retribution (2 [Malice](../rule/monster/malice.md))**
 >
-> | **Psionic**            | **Triggered action** |
+> | **Psionic**            | **[Triggered action](../rule/combat/triggered-action.md)** |
 > |------------------------|---------------------:|
 > | **📏 Self; see below** |          **🎯 Self** |
 >
@@ -16987,7 +16987,7 @@ At the start of a shambling mound's turn, you can spend [Malice](../rule/monster
 
 > 🗡 **Vine Lash ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 6**            | **🎯 Two creatures or objects** |
 >
@@ -17003,7 +17003,7 @@ At the start of a shambling mound's turn, you can spend [Malice](../rule/monster
 
 > ❇️ **Seismic Slam**
 >
-> | **Area, Weapon** |               **Main action** |
+> | **Area, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |------------------|------------------------------:|
 > | **📏 6 burst**   | **🎯 Each enemy in the area** |
 >
@@ -17015,7 +17015,7 @@ At the start of a shambling mound's turn, you can spend [Malice](../rule/monster
 
 > 🗡 **Engulf (2 [Malice](../rule/monster/malice.md))**
 >
-> | **Melee**      |               **Main action** |
+> | **Melee**      |               **[Main action](../rule/combat/turn.md)** |
 > |----------------|------------------------------:|
 > | **📏 Melee 6** | **🎯 One creature or object** |
 >
@@ -17025,7 +17025,7 @@ At the start of a shambling mound's turn, you can spend [Malice](../rule/monster
 
 > 👤 **Leech**
 >
-> | **-**       | **Maneuver** |
+> | **-**       | **[Maneuver](../rule/combat/turn.md)** |
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
@@ -17033,7 +17033,7 @@ At the start of a shambling mound's turn, you can spend [Malice](../rule/monster
 
 > ❗️ **Tether Down**
 >
-> | **Melee**      |           **Triggered action** |
+> | **Melee**      |           **[Triggered action](../rule/combat/triggered-action.md)** |
 > |----------------|-------------------------------:|
 > | **📏 Melee 6** | **🎯 The triggering creature** |
 >
@@ -17121,7 +17121,7 @@ At the start of any time raider's turn, you can spend [Malice](../rule/monster/m
 
 > 🔳 **Gravity Well (3 [Malice](../rule/monster/malice.md))**
 >
-> | **Area, Psionic, Ranged, Weapon** |   **Maneuver** |
+> | **Area, Psionic, Ranged, Weapon** |   **[Maneuver](../rule/combat/turn.md)** |
 > |-----------------------------------|---------------:|
 > | **📏 5 cube within 3**            | **🎯 Special** |
 >
@@ -17149,7 +17149,7 @@ At the start of any time raider's turn, you can spend [Malice](../rule/monster/m
 
 > 🗡 **Brutal Flail ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Melee, Psionic, Strike, Weapon** |                          **Main action** |
+> | **Melee, Psionic, Strike, Weapon** |                          **[Main action](../rule/combat/turn.md)** |
 > |------------------------------------|-----------------------------------------:|
 > | **📏 Melee 1**                     | **🎯 One creature or object per minion** |
 >
@@ -17173,7 +17173,7 @@ At the start of any time raider's turn, you can spend [Malice](../rule/monster/m
 
 > 🗡 **Fifth Fist ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Melee, Psionic, Strike, Weapon** |                          **Main action** |
+> | **Melee, Psionic, Strike, Weapon** |                          **[Main action](../rule/combat/turn.md)** |
 > |------------------------------------|-----------------------------------------:|
 > | **📏 Melee 2**                     | **🎯 One creature or object per minion** |
 >
@@ -17197,7 +17197,7 @@ At the start of any time raider's turn, you can spend [Malice](../rule/monster/m
 
 > 🗡 **Serrated Saber ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Melee, Psionic, Strike, Weapon** |               **Main action** |
+> | **Melee, Psionic, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |------------------------------------|------------------------------:|
 > | **📏 Melee 1**                     | **🎯 One creature or object** |
 >
@@ -17211,7 +17211,7 @@ At the start of any time raider's turn, you can spend [Malice](../rule/monster/m
 
 > ❗️ **Shared Sickness**
 >
-> | **Psionic, Ranged** |           **Triggered action** |
+> | **Psionic, Ranged** |           **[Triggered action](../rule/combat/triggered-action.md)** |
 > |---------------------|-------------------------------:|
 > | **📏 Ranged 20**    | **🎯 The triggering creature** |
 >
@@ -17241,7 +17241,7 @@ At the start of any time raider's turn, you can spend [Malice](../rule/monster/m
 
 > 🔳 **Sunderbuss ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Area, Psionic, Ranged, Weapon** |               **Main action** |
+> | **Area, Psionic, Ranged, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |-----------------------------------|------------------------------:|
 > | **📏 3 cube within 10**           | **🎯 Each enemy in the area** |
 >
@@ -17255,7 +17255,7 @@ At the start of any time raider's turn, you can spend [Malice](../rule/monster/m
 
 > ❗️ **Buss Buffe (1 [Malice](../rule/monster/malice.md))**
 >
-> | **Area, Psionic** |             **Free triggered action** |
+> | **Area, Psionic** |             **Free [triggered action](../rule/combat/triggered-action.md)** |
 > |-------------------|--------------------------------------:|
 > | **📏 5 burst**    | **🎯 Self and each ally in the area** |
 >
@@ -17277,7 +17277,7 @@ At the start of any time raider's turn, you can spend [Malice](../rule/monster/m
 
 > 🏹 **Blaster Volley ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Psionic, Ranged, Strike, Weapon** |                 **Main action** |
+> | **Psionic, Ranged, Strike, Weapon** |                 **[Main action](../rule/combat/turn.md)** |
 > |-------------------------------------|--------------------------------:|
 > | **📏 Ranged 10**                    | **🎯 Two creatures or objects** |
 >
@@ -17289,7 +17289,7 @@ At the start of any time raider's turn, you can spend [Malice](../rule/monster/m
 
 > 🔳 **Kinetic Lane**
 >
-> | **Area, Psionic, Ranged**   |   **Maneuver** |
+> | **Area, Psionic, Ranged**   |   **[Maneuver](../rule/combat/turn.md)** |
 > |-----------------------------|---------------:|
 > | **📏 4 x 2 line within 10** | **🎯 Special** |
 >
@@ -17311,7 +17311,7 @@ At the start of any time raider's turn, you can spend [Malice](../rule/monster/m
 
 > 🗡 **Golden Sickles ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Melee, Psionic, Strike, Weapon** |     **Main action** |
+> | **Melee, Psionic, Strike, Weapon** |     **[Main action](../rule/combat/turn.md)** |
 > |------------------------------------|--------------------:|
 > | **📏 Melee 1**                     | **🎯 One creature** |
 >
@@ -17325,7 +17325,7 @@ At the start of any time raider's turn, you can spend [Malice](../rule/monster/m
 
 > 🏹 **Psi-Sickle**
 >
-> | **Psionic, Ranged, Weapon** |                  **Maneuver** |
+> | **Psionic, Ranged, Weapon** |                  **[Maneuver](../rule/combat/turn.md)** |
 > |-----------------------------|------------------------------:|
 > | **📏 Ranged 5**             | **🎯 One creature or object** |
 >
@@ -17345,7 +17345,7 @@ At the start of any time raider's turn, you can spend [Malice](../rule/monster/m
 
 > 🗡 **Repelling Psihander ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Melee, Psionic, Strike, Weapon** |                             **Main action** |
+> | **Melee, Psionic, Strike, Weapon** |                             **[Main action](../rule/combat/turn.md)** |
 > |------------------------------------|--------------------------------------------:|
 > | **📏 Melee 1**                     | **🎯 Two creatures adjacent to each other** |
 >
@@ -17359,7 +17359,7 @@ At the start of any time raider's turn, you can spend [Malice](../rule/monster/m
 
 > ❇️ **Mindpunk (2 [Malice](../rule/monster/malice.md))**
 >
-> | **Area, Psionic** |               **Main action** |
+> | **Area, Psionic** |               **[Main action](../rule/combat/turn.md)** |
 > |-------------------|------------------------------:|
 > | **📏 3 burst**    | **🎯 Each enemy in the area** |
 >
@@ -17383,7 +17383,7 @@ At the start of any time raider's turn, you can spend [Malice](../rule/monster/m
 
 > 🗡 **Golden Scythe ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Melee, Psionic, Strike, Weapon** |               **Main action** |
+> | **Melee, Psionic, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |------------------------------------|------------------------------:|
 > | **📏 Melee 2**                     | **🎯 One creature or object** |
 >
@@ -17397,7 +17397,7 @@ At the start of any time raider's turn, you can spend [Malice](../rule/monster/m
 
 > 🏹 **Kinetic Crush (2 [Malice](../rule/monster/malice.md))**
 >
-> | **Psionic, Ranged, Strike** |     **Main action** |
+> | **Psionic, Ranged, Strike** |     **[Main action](../rule/combat/turn.md)** |
 > |-----------------------------|--------------------:|
 > | **📏 Ranged 10**            | **🎯 One creature** |
 >
@@ -17423,7 +17423,7 @@ At the start of any time raider's turn, you can spend [Malice](../rule/monster/m
 
 > 🗡 **Psionic Slam ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Melee, Psionic, Strike** |     **Main action** |
+> | **Melee, Psionic, Strike** |     **[Main action](../rule/combat/turn.md)** |
 > |----------------------------|--------------------:|
 > | **📏 Melee 2**             | **🎯 One creature** |
 >
@@ -17437,7 +17437,7 @@ At the start of any time raider's turn, you can spend [Malice](../rule/monster/m
 
 > 🔳 **Split Space (5 [Malice](../rule/monster/malice.md))**
 >
-> | **Area, Psionic, Ranged** | **Main action** |
+> | **Area, Psionic, Ranged** | **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|----------------:|
 > | **📏 2 cube within 10**   |  **🎯 Special** |
 >
@@ -17445,7 +17445,7 @@ At the start of any time raider's turn, you can spend [Malice](../rule/monster/m
 
 > ❇️ **Invigorated March**
 >
-> | **Area, Psionic** |                 **Maneuver** |
+> | **Area, Psionic** |                 **[Maneuver](../rule/combat/turn.md)** |
 > |-------------------|-----------------------------:|
 > | **📏 4 burst**    | **🎯 Each ally in the area** |
 >
@@ -17465,7 +17465,7 @@ At the start of any time raider's turn, you can spend [Malice](../rule/monster/m
 
 > ⚔️ **Gatling Blaster ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Melee, Psionic, Ranged, Strike, Weapon** |                 **Main action** |
+> | **Melee, Psionic, Ranged, Strike, Weapon** |                 **[Main action](../rule/combat/turn.md)** |
 > |--------------------------------------------|--------------------------------:|
 > | **📏 Melee 2 or ranged 10**                | **🎯 Two creatures or objects** |
 >
@@ -17479,7 +17479,7 @@ At the start of any time raider's turn, you can spend [Malice](../rule/monster/m
 
 > 🏹 **Air Raid! (3 [Malice](../rule/monster/malice.md))**
 >
-> | **Psionic, Ranged** |              **Maneuver** |
+> | **Psionic, Ranged** |              **[Maneuver](../rule/combat/turn.md)** |
 > |---------------------|--------------------------:|
 > | **📏 Ranged 10**    | **🎯 Three time raiders** |
 >
@@ -17487,7 +17487,7 @@ At the start of any time raider's turn, you can spend [Malice](../rule/monster/m
 
 > ❗️ **Precog Reflexes**
 >
-> | **Psionic, Ranged** |           **Triggered action** |
+> | **Psionic, Ranged** |           **[Triggered action](../rule/combat/triggered-action.md)** |
 > |---------------------|-------------------------------:|
 > | **📏 Ranged 10**    | **🎯 The triggering creature** |
 >
@@ -17589,7 +17589,7 @@ At the start of any troll's turn, you can spend [Malice](../rule/monster/malice.
 
 > 🗡 **Arm and a Leg ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Melee, Strike, Weapon** |                          **Main action** |
+> | **Melee, Strike, Weapon** |                          **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|-----------------------------------------:|
 > | **📏 Melee 1**            | **🎯 One creature or object per minion** |
 >
@@ -17615,7 +17615,7 @@ At the start of any troll's turn, you can spend [Malice](../rule/monster/malice.
 
 > 🗡 **Jaws and Claws ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Melee, Strike, Weapon** |                          **Main action** |
+> | **Melee, Strike, Weapon** |                          **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|-----------------------------------------:|
 > | **📏 Melee 1**            | **🎯 One creature or object per minion** |
 >
@@ -17639,7 +17639,7 @@ At the start of any troll's turn, you can spend [Malice](../rule/monster/malice.
 
 > 🗡 **Savoring Bite ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 1**            | **🎯 Two creatures or objects** |
 >
@@ -17653,7 +17653,7 @@ At the start of any troll's turn, you can spend [Malice](../rule/monster/malice.
 
 > 🔳 **Rotten Scraps**
 >
-> | **Area, Ranged**        |                  **Main action** |
+> | **Area, Ranged**        |                  **[Main action](../rule/combat/turn.md)** |
 > |-------------------------|---------------------------------:|
 > | **📏 3 cube within 10** | **🎯 Each creature in the area** |
 >
@@ -17667,7 +17667,7 @@ At the start of any troll's turn, you can spend [Malice](../rule/monster/malice.
 
 > 👤 **Gourmet Flesh (2 [Malice](../rule/monster/malice.md))**
 >
-> | **-**       | **Maneuver** |
+> | **-**       | **[Maneuver](../rule/combat/turn.md)** |
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
@@ -17675,7 +17675,7 @@ At the start of any troll's turn, you can spend [Malice](../rule/monster/malice.
 
 > ❗️ **Acquired Taste**
 >
-> | **Melee**      |           **Triggered action** |
+> | **Melee**      |           **[Triggered action](../rule/combat/triggered-action.md)** |
 > |----------------|-------------------------------:|
 > | **📏 Melee 1** | **🎯 The triggering creature** |
 >
@@ -17701,7 +17701,7 @@ At the start of any troll's turn, you can spend [Malice](../rule/monster/malice.
 
 > 🗡 **Voracious Mastication ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 1**            | **🎯 Two creatures or objects** |
 >
@@ -17715,7 +17715,7 @@ At the start of any troll's turn, you can spend [Malice](../rule/monster/malice.
 
 > 👤 **Crash Through (3 [Malice](../rule/monster/malice.md))**
 >
-> | **-**       | **Main action** |
+> | **-**       | **[Main action](../rule/combat/turn.md)** |
 > |-------------|----------------:|
 > | **📏 Self** |     **🎯 Self** |
 >
@@ -17723,7 +17723,7 @@ At the start of any troll's turn, you can spend [Malice](../rule/monster/malice.
 
 > 👤 **Food Frenzy**
 >
-> | **-**       | **Maneuver** |
+> | **-**       | **[Maneuver](../rule/combat/turn.md)** |
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
@@ -17731,7 +17731,7 @@ At the start of any troll's turn, you can spend [Malice](../rule/monster/malice.
 
 > ❗️ **Spiteful Retort (1 [Malice](../rule/monster/malice.md))**
 >
-> | **Melee**      |      **Free triggered action** |
+> | **Melee**      |      **Free [triggered action](../rule/combat/triggered-action.md)** |
 > |----------------|-------------------------------:|
 > | **📏 Melee 1** | **🎯 The triggering creature** |
 >
@@ -17757,7 +17757,7 @@ At the start of any troll's turn, you can spend [Malice](../rule/monster/malice.
 
 > 🗡 **Charging Chomp ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Charge, Melee, Strike, Weapon** |                          **Main action** |
+> | **Charge, Melee, Strike, Weapon** |                          **[Main action](../rule/combat/turn.md)** |
 > |-----------------------------------|-----------------------------------------:|
 > | **📏 Melee 1**                    | **🎯 One creature or object per minion** |
 >
@@ -17783,7 +17783,7 @@ At the start of any troll's turn, you can spend [Malice](../rule/monster/malice.
 
 > 🗡 **Dine and Dash ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Melee, Strike, Weapon** |                          **Main action** |
+> | **Melee, Strike, Weapon** |                          **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|-----------------------------------------:|
 > | **📏 Melee 1**            | **🎯 One creature or object per minion** |
 >
@@ -17918,7 +17918,7 @@ At the start of any undead's turn, you can spend [Malice](../rule/monster/malice
 
 > 🗡 **Fingernails ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Melee, Strike, Weapon** |                          **Main action** |
+> | **Melee, Strike, Weapon** |                          **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|-----------------------------------------:|
 > | **📏 Melee 1**            | **🎯 One creature or object per minion** |
 >
@@ -17944,7 +17944,7 @@ At the start of any undead's turn, you can spend [Malice](../rule/monster/malice
 
 > 🏹 **Bone Bow ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Ranged, Strike, Weapon** |                          **Main action** |
+> | **Ranged, Strike, Weapon** |                          **[Main action](../rule/combat/turn.md)** |
 > |----------------------------|-----------------------------------------:|
 > | **📏 Ranged 10**           | **🎯 One creature or object per minion** |
 >
@@ -17970,7 +17970,7 @@ At the start of any undead's turn, you can spend [Malice](../rule/monster/malice
 
 > 🗡 **Rotting Fist ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Melee, Strike, Weapon** |                          **Main action** |
+> | **Melee, Strike, Weapon** |                          **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|-----------------------------------------:|
 > | **📏 Melee 1**            | **🎯 One creature or object per minion** |
 >
@@ -17994,7 +17994,7 @@ At the start of any undead's turn, you can spend [Malice](../rule/monster/malice
 
 > 🗡 **Life Drain ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Melee, Strike, Weapon** |                          **Main action** |
+> | **Melee, Strike, Weapon** |                          **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|-----------------------------------------:|
 > | **📏 Melee 1**            | **🎯 One creature or object per minion** |
 >
@@ -18018,7 +18018,7 @@ At the start of any undead's turn, you can spend [Malice](../rule/monster/malice
 
 > 🗡 **Razor Claws ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Charge, Melee, Strike, Weapon** |               **Main action** |
+> | **Charge, Melee, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |-----------------------------------|------------------------------:|
 > | **📏 Melee 1**                    | **🎯 One creature or object** |
 >
@@ -18030,7 +18030,7 @@ At the start of any undead's turn, you can spend [Malice](../rule/monster/malice
 
 > 👤 **Leap**
 >
-> | **-**       | **Maneuver** |
+> | **-**       | **[Maneuver](../rule/combat/turn.md)** |
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
@@ -18054,7 +18054,7 @@ At the start of any undead's turn, you can spend [Malice](../rule/monster/malice
 
 > ⚔️ **Bone Shards ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Melee, Ranged, Strike, Weapon** |               **Main action** |
+> | **Melee, Ranged, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |-----------------------------------|------------------------------:|
 > | **📏 Melee 1 or ranged 10**       | **🎯 One creature or object** |
 >
@@ -18068,7 +18068,7 @@ At the start of any undead's turn, you can spend [Malice](../rule/monster/malice
 
 > ❇️ **Bone Spur (2 [Malice](../rule/monster/malice.md))**
 >
-> | **Area, Weapon** |                  **Maneuver** |
+> | **Area, Weapon** |                  **[Maneuver](../rule/combat/turn.md)** |
 > |------------------|------------------------------:|
 > | **📏 1 burst**   | **🎯 Each enemy in the area** |
 >
@@ -18094,7 +18094,7 @@ At the start of any undead's turn, you can spend [Malice](../rule/monster/malice
 
 > 🗡 **Decaying Touch ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Magic, Melee, Strike** |     **Main action** |
+> | **Magic, Melee, Strike** |     **[Main action](../rule/combat/turn.md)** |
 > |--------------------------|--------------------:|
 > | **📏 Melee 1**           | **🎯 One creature** |
 >
@@ -18108,7 +18108,7 @@ At the start of any undead's turn, you can spend [Malice](../rule/monster/malice
 
 > 👤 **Hidden Movement**
 >
-> | **-**       | **Maneuver** |
+> | **-**       | **[Maneuver](../rule/combat/turn.md)** |
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
@@ -18128,7 +18128,7 @@ At the start of any undead's turn, you can spend [Malice](../rule/monster/malice
 
 > 🗡 **Soulstealer Longsword ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Melee, Strike, Weapon** |               **Main action** |
+> | **Melee, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Melee 1**            | **🎯 One creature or object** |
 >
@@ -18142,7 +18142,7 @@ At the start of any undead's turn, you can spend [Malice](../rule/monster/malice
 
 > 🏹 **Stolen Vitality (3 [Malice](../rule/monster/malice.md))**
 >
-> | **Magic, Ranged** |    **Maneuver** |
+> | **Magic, Ranged** |    **[Maneuver](../rule/combat/turn.md)** |
 > |-------------------|----------------:|
 > | **📏 Ranged 5**   | **🎯 One ally** |
 >
@@ -18162,7 +18162,7 @@ At the start of any undead's turn, you can spend [Malice](../rule/monster/malice
 
 > 🗡 **Chilling Grasp ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Magic, Melee, Strike** |               **Main action** |
+> | **Magic, Melee, Strike** |               **[Main action](../rule/combat/turn.md)** |
 > |--------------------------|------------------------------:|
 > | **📏 Melee 1**           | **🎯 One creature or object** |
 >
@@ -18174,7 +18174,7 @@ At the start of any undead's turn, you can spend [Malice](../rule/monster/malice
 
 > 🔳 **Freezing Dark (3 [Malice](../rule/monster/malice.md))**
 >
-> | **Area, Magic**        |               **Main action** |
+> | **Area, Magic**        |               **[Main action](../rule/combat/turn.md)** |
 > |------------------------|------------------------------:|
 > | **📏 3 cube within 1** | **🎯 Each enemy in the area** |
 >
@@ -18188,7 +18188,7 @@ At the start of any undead's turn, you can spend [Malice](../rule/monster/malice
 
 > 👤 **Shadow Jump (1 [Malice](../rule/monster/malice.md))**
 >
-> | **-**       | **Free maneuver** |
+> | **-**       | **[Free maneuver](../rule/combat/free-maneuver.md)** |
 > |-------------|------------------:|
 > | **📏 Self** |       **🎯 Self** |
 >
@@ -18208,7 +18208,7 @@ At the start of any undead's turn, you can spend [Malice](../rule/monster/malice
 
 > 🗡 **Clobber and Clutch ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Melee, Strike, Weapon** |               **Main action** |
+> | **Melee, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Melee 1**            | **🎯 One creature or object** |
 >
@@ -18222,7 +18222,7 @@ At the start of any undead's turn, you can spend [Malice](../rule/monster/malice
 
 > ❇️ **Zombie Dust (3 [Malice](../rule/monster/malice.md))**
 >
-> | **Area**       |                  **Maneuver** |
+> | **Area**       |                  **[Maneuver](../rule/combat/turn.md)** |
 > |----------------|------------------------------:|
 > | **📏 2 burst** | **🎯 Each enemy in the area** |
 >
@@ -18248,7 +18248,7 @@ At the start of any undead's turn, you can spend [Malice](../rule/monster/malice
 
 > 🏹 **Heat Death ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Magic, Ranged, Strike** |      **Main action** |
+> | **Magic, Ranged, Strike** |      **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|---------------------:|
 > | **📏 Ranged 5**           | **🎯 Two creatures** |
 >
@@ -18262,7 +18262,7 @@ At the start of any undead's turn, you can spend [Malice](../rule/monster/malice
 
 > 🏹 **Haunt**
 >
-> | **Ranged**      |                                 **Maneuver** |
+> | **Ranged**      |                                 **[Maneuver](../rule/combat/turn.md)** |
 > |-----------------|---------------------------------------------:|
 > | **📏 Ranged 8** | **🎯 Self or one ally with a Phasing trait** |
 >
@@ -18272,7 +18272,7 @@ At the start of any undead's turn, you can spend [Malice](../rule/monster/malice
 
 > ❗️ **Shriek (1 [Malice](../rule/monster/malice.md))**
 >
-> | **Magic, Melee** |           **Triggered action** |
+> | **Magic, Melee** |           **[Triggered action](../rule/combat/triggered-action.md)** |
 > |------------------|-------------------------------:|
 > | **📏 Melee 1**   | **🎯 The triggering creature** |
 >
@@ -18366,7 +18366,7 @@ At the start of any level 4 or higher undead's turn, you can spend [Malice](../r
 
 > 🗡 **Bone Carvers ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Melee, Strike, Weapon** |                          **Main action** |
+> | **Melee, Strike, Weapon** |                          **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|-----------------------------------------:|
 > | **📏 Melee 1**            | **🎯 One creature or object per minion** |
 >
@@ -18392,7 +18392,7 @@ At the start of any level 4 or higher undead's turn, you can spend [Malice](../r
 
 > 🗡 **Taste ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Charge, Melee, Strike, Weapon** |                          **Main action** |
+> | **Charge, Melee, Strike, Weapon** |                          **[Main action](../rule/combat/turn.md)** |
 > |-----------------------------------|-----------------------------------------:|
 > | **📏 Melee 1**                    | **🎯 One creature or object per minion** |
 >
@@ -18422,7 +18422,7 @@ At the start of any level 4 or higher undead's turn, you can spend [Malice](../r
 
 > 🏹 **Hollowbone Slug ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Ranged, Strike, Weapon** |                          **Main action** |
+> | **Ranged, Strike, Weapon** |                          **[Main action](../rule/combat/turn.md)** |
 > |----------------------------|-----------------------------------------:|
 > | **📏 Ranged 10**           | **🎯 One creature or object per minion** |
 >
@@ -18448,7 +18448,7 @@ At the start of any level 4 or higher undead's turn, you can spend [Malice](../r
 
 > 🗡 **Multiarm Strike ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Melee, Strike, Weapon** |               **Main action** |
+> | **Melee, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Melee 2**            | **🎯 One creature or object** |
 >
@@ -18464,7 +18464,7 @@ At the start of any level 4 or higher undead's turn, you can spend [Malice](../r
 
 > ❇️ **Horrid Wail**
 >
-> | **Area, Magic** |               **Main action** |
+> | **Area, Magic** |               **[Main action](../rule/combat/turn.md)** |
 > |-----------------|------------------------------:|
 > | **📏 5 burst**  | **🎯 Each enemy in the area** |
 >
@@ -18494,7 +18494,7 @@ At the start of any level 4 or higher undead's turn, you can spend [Malice](../r
 
 > 🗡 **Rotten Smash ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 3**            | **🎯 Two creatures or objects** |
 >
@@ -18506,7 +18506,7 @@ At the start of any level 4 or higher undead's turn, you can spend [Malice](../r
 
 > ❗️ **Knocking Heads (1 [Malice](../rule/monster/malice.md))**
 >
-> | **-**       |   **Triggered action** |
+> | **-**       |   **[Triggered action](../rule/combat/triggered-action.md)** |
 > |-------------|-----------------------:|
 > | **📏 Self** | **🎯 Self; see below** |
 >
@@ -18532,7 +18532,7 @@ At the start of any level 4 or higher undead's turn, you can spend [Malice](../r
 
 > 🗡 **Accursed Bindings ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Melee, Strike, Weapon** |               **Main action** |
+> | **Melee, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Melee 3**            | **🎯 One creature or object** |
 >
@@ -18546,7 +18546,7 @@ At the start of any level 4 or higher undead's turn, you can spend [Malice](../r
 
 > 🏹 **Eldritch Curse (3 [Malice](../rule/monster/malice.md))**
 >
-> | **Magic, Ranged** |     **Main action** |
+> | **Magic, Ranged** |     **[Main action](../rule/combat/turn.md)** |
 > |-------------------|--------------------:|
 > | **📏 Ranged 10**  | **🎯 One creature** |
 >
@@ -18560,7 +18560,7 @@ At the start of any level 4 or higher undead's turn, you can spend [Malice](../r
 
 > ❗️ **Blast of Mummy Dust (1 [Malice](../rule/monster/malice.md))**
 >
-> | **Area**       |           **Triggered action** |
+> | **Area**       |           **[Triggered action](../rule/combat/triggered-action.md)** |
 > |----------------|-------------------------------:|
 > | **📏 1 burst** | **🎯 The triggering creature** |
 >
@@ -18578,7 +18578,7 @@ At the start of any level 4 or higher undead's turn, you can spend [Malice](../r
 
 > 🗡 **Exsanguinating Bite ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Melee, Strike, Weapon** |               **Main action** |
+> | **Melee, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Melee 1**            | **🎯 One creature or object** |
 >
@@ -18594,7 +18594,7 @@ At the start of any level 4 or higher undead's turn, you can spend [Malice](../r
 
 > 👤 **Vampiric Celerity**
 >
-> | **-**       | **Maneuver** |
+> | **-**       | **[Maneuver](../rule/combat/turn.md)** |
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
@@ -18614,7 +18614,7 @@ At the start of any level 4 or higher undead's turn, you can spend [Malice](../r
 
 > 🗡 **Chilling Gravetouch ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Magic, Melee, Strike, Weapon** |               **Main action** |
+> | **Magic, Melee, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |----------------------------------|------------------------------:|
 > | **📏 Melee 1**                   | **🎯 One creature or object** |
 >
@@ -18628,7 +18628,7 @@ At the start of any level 4 or higher undead's turn, you can spend [Malice](../r
 
 > 👤 **Hidden Movement**
 >
-> | **-**       | **Maneuver** |
+> | **-**       | **[Maneuver](../rule/combat/turn.md)** |
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
@@ -18636,7 +18636,7 @@ At the start of any level 4 or higher undead's turn, you can spend [Malice](../r
 
 > ❗️ **Stolen Vitality (1 [Malice](../rule/monster/malice.md))**
 >
-> | **Magic, Ranged** |      **Free triggered action** |
+> | **Magic, Ranged** |      **Free [triggered action](../rule/combat/triggered-action.md)** |
 > |-------------------|-------------------------------:|
 > | **📏 Ranged 5**   | **🎯 The triggering creature** |
 >
@@ -18658,7 +18658,7 @@ At the start of any level 4 or higher undead's turn, you can spend [Malice](../r
 
 > 🗡 **Accursed Slam ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 1**            | **🎯 Two creatures or objects** |
 >
@@ -18672,7 +18672,7 @@ At the start of any level 4 or higher undead's turn, you can spend [Malice](../r
 
 > 🏹 **Binding Curse (1 [Malice](../rule/monster/malice.md))**
 >
-> | **Magic, Ranged** |     **Main action** |
+> | **Magic, Ranged** |     **[Main action](../rule/combat/turn.md)** |
 > |-------------------|--------------------:|
 > | **📏 Ranged 20**  | **🎯 One creature** |
 >
@@ -18688,7 +18688,7 @@ At the start of any level 4 or higher undead's turn, you can spend [Malice](../r
 
 > ❗️ **Summon My Guard (2 [Malice](../rule/monster/malice.md))**
 >
-> | **Ranged**       | **Triggered action** |
+> | **Ranged**       | **[Triggered action](../rule/combat/triggered-action.md)** |
 > |------------------|---------------------:|
 > | **📏 Ranged 10** |       **🎯 Special** |
 >
@@ -18784,7 +18784,7 @@ At the start of any level 7 or higher undead's turn, you can spend [Malice](../r
 
 > 🗡 **Feeding Frenzy ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Melee, Strike, Weapon** |                          **Main action** |
+> | **Melee, Strike, Weapon** |                          **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|-----------------------------------------:|
 > | **📏 Melee 1**            | **🎯 One creature or object per minion** |
 >
@@ -18810,7 +18810,7 @@ At the start of any level 7 or higher undead's turn, you can spend [Malice](../r
 
 > 🗡 **Hollow Grasp ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Melee, Strike, Weapon** |                          **Main action** |
+> | **Melee, Strike, Weapon** |                          **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|-----------------------------------------:|
 > | **📏 Melee 1**            | **🎯 One creature or object per minion** |
 >
@@ -18836,7 +18836,7 @@ At the start of any level 7 or higher undead's turn, you can spend [Malice](../r
 
 > 🗡 **Fetid Wrappings ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Melee, Strike, Weapon** |                          **Main action** |
+> | **Melee, Strike, Weapon** |                          **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|-----------------------------------------:|
 > | **📏 Melee 2**            | **🎯 One creature or object per minion** |
 >
@@ -18858,7 +18858,7 @@ At the start of any level 7 or higher undead's turn, you can spend [Malice](../r
 
 > 🗡 **Mudslide ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Melee, Strike, Weapon** |               **Main action** |
+> | **Melee, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Melee 2**            | **🎯 One creature or object** |
 >
@@ -18872,7 +18872,7 @@ At the start of any level 7 or higher undead's turn, you can spend [Malice](../r
 
 > ❇️ **Mourning Cry (3 [Malice](../rule/monster/malice.md))**
 >
-> | **Area, Magic** |               **Main action** |
+> | **Area, Magic** |               **[Main action](../rule/combat/turn.md)** |
 > |-----------------|------------------------------:|
 > | **📏 3 burst**  | **🎯 Each enemy in the area** |
 >
@@ -18906,7 +18906,7 @@ At the start of any level 7 or higher undead's turn, you can spend [Malice](../r
 
 > 🗡 **Lash Out ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Melee, Strike, Weapon** |               **Main action** |
+> | **Melee, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Melee 3**            | **🎯 One creature or object** |
 >
@@ -18920,7 +18920,7 @@ At the start of any level 7 or higher undead's turn, you can spend [Malice](../r
 
 > ❇️ **Crushing Despair (3 [Malice](../rule/monster/malice.md))**
 >
-> | **Area, Magic** |               **Main action** |
+> | **Area, Magic** |               **[Main action](../rule/combat/turn.md)** |
 > |-----------------|------------------------------:|
 > | **📏 3 burst**  | **🎯 Each enemy in the area** |
 >
@@ -18946,7 +18946,7 @@ At the start of any level 7 or higher undead's turn, you can spend [Malice](../r
 
 > 🗡 **Choking Grasp ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Melee, Strike, Weapon** |               **Main action** |
+> | **Melee, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Melee 5**            | **🎯 One creature or object** |
 >
@@ -18960,7 +18960,7 @@ At the start of any level 7 or higher undead's turn, you can spend [Malice](../r
 
 > ❇️ **Inhale (3 [Malice](../rule/monster/malice.md))**
 >
-> | **Area, Magic** |               **Main action** |
+> | **Area, Magic** |               **[Main action](../rule/combat/turn.md)** |
 > |-----------------|------------------------------:|
 > | **📏 5 burst**  | **🎯 Each enemy in the area** |
 >
@@ -18986,7 +18986,7 @@ At the start of any level 7 or higher undead's turn, you can spend [Malice](../r
 
 > 🏹 **Wax Fling ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Ranged, Strike, Weapon** |               **Main action** |
+> | **Ranged, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |----------------------------|------------------------------:|
 > | **📏 Ranged 15**           | **🎯 One creature or object** |
 >
@@ -19000,7 +19000,7 @@ At the start of any level 7 or higher undead's turn, you can spend [Malice](../r
 
 > ❇️ **Erupt (3 [Malice](../rule/monster/malice.md))**
 >
-> | **Area, Magic** |               **Main action** |
+> | **Area, Magic** |               **[Main action](../rule/combat/turn.md)** |
 > |-----------------|------------------------------:|
 > | **📏 2 burst**  | **🎯 Each enemy in the area** |
 >
@@ -19026,7 +19026,7 @@ At the start of any level 7 or higher undead's turn, you can spend [Malice](../r
 
 > 🗡 **Exsanguinating Bite ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Melee, Strike, Weapon** |               **Main action** |
+> | **Melee, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Melee 1**            | **🎯 One creature or object** |
 >
@@ -19040,7 +19040,7 @@ At the start of any level 7 or higher undead's turn, you can spend [Malice](../r
 
 > 🗡 **Vicious Pursuit (3 [Malice](../rule/monster/malice.md))**
 >
-> | **Melee, Strike, Weapon** |               **Main action** |
+> | **Melee, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Melee 1**            | **🎯 One creature or object** |
 >
@@ -19076,7 +19076,7 @@ At the start of any level 7 or higher undead's turn, you can spend [Malice](../r
 
 > 🗡 **Crimson Embrace ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Melee, Strike, Weapon** |     **Main action** |
+> | **Melee, Strike, Weapon** |     **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------:|
 > | **📏 Melee 1**            | **🎯 One creature** |
 >
@@ -19092,7 +19092,7 @@ At the start of any level 7 or higher undead's turn, you can spend [Malice](../r
 
 > 🏹 **Arise, My Children (2 [Malice](../rule/monster/malice.md))**
 >
-> | **Ranged**       |   **Maneuver** |
+> | **Ranged**       |   **[Maneuver](../rule/combat/turn.md)** |
 > |------------------|---------------:|
 > | **📏 Ranged 10** | **🎯 Special** |
 >
@@ -19210,7 +19210,7 @@ At the start of any level 10 [undead](../rule/keyword/undead.md)'s turn, you can
 
 > 🗡 **Rotten Kick ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Melee, Strike, Weapon** |                          **Main action** |
+> | **Melee, Strike, Weapon** |                          **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|-----------------------------------------:|
 > | **📏 Melee 2**            | **🎯 One creature or object per minion** |
 >
@@ -19234,7 +19234,7 @@ At the start of any level 10 [undead](../rule/keyword/undead.md)'s turn, you can
 
 > 🗡 **Four Swords Swing ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Melee, Strike, Weapon** |                          **Main action** |
+> | **Melee, Strike, Weapon** |                          **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|-----------------------------------------:|
 > | **📏 Melee 1**            | **🎯 One creature or object per minion** |
 >
@@ -19262,7 +19262,7 @@ At the start of any level 10 [undead](../rule/keyword/undead.md)'s turn, you can
 
 > 🗡 **Draining Rake ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Melee, Strike, Weapon** |                          **Main action** |
+> | **Melee, Strike, Weapon** |                          **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|-----------------------------------------:|
 > | **📏 Melee 1**            | **🎯 One creature or object per minion** |
 >
@@ -19288,7 +19288,7 @@ At the start of any level 10 [undead](../rule/keyword/undead.md)'s turn, you can
 
 > 🗡 **Ribcage Chomp ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 2**            | **🎯 Two creatures or objects** |
 >
@@ -19304,7 +19304,7 @@ At the start of any level 10 [undead](../rule/keyword/undead.md)'s turn, you can
 
 > 🔳 **Labyrinth of Bone (5 [Malice](../rule/monster/malice.md))**
 >
-> | **Area, Magic, Ranged**           |               **Main action** |
+> | **Area, Magic, Ranged**           |               **[Main action](../rule/combat/turn.md)** |
 > |-----------------------------------|------------------------------:|
 > | **📏 Four 10 x 1 lines within 3** | **🎯 Each enemy in the area** |
 >
@@ -19326,7 +19326,7 @@ At the start of any level 10 [undead](../rule/keyword/undead.md)'s turn, you can
 
 > 🏹 **Heartstopper ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Magic, Ranged, Strike** |               **Main action** |
+> | **Magic, Ranged, Strike** |               **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Ranged 15**          | **🎯 One creature or object** |
 >
@@ -19438,7 +19438,7 @@ At the start of Rhodar's turn, you can spend [Malice](../rule/monster/malice.md)
 
 > ⚔️ **Spear of the Damned ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Magic, Melee, Ranged, Strike, Weapon** |                   **Main action** |
+> | **Magic, Melee, Ranged, Strike, Weapon** |                   **[Main action](../rule/combat/turn.md)** |
 > |------------------------------------------|----------------------------------:|
 > | **📏 Melee 2 or ranged 15**              | **🎯 Three creatures or objects** |
 >
@@ -19452,7 +19452,7 @@ At the start of Rhodar's turn, you can spend [Malice](../rule/monster/malice.md)
 
 > ❇️ **Disarming Glare**
 >
-> | **Area, Magic** |               **Main action** |
+> | **Area, Magic** |               **[Main action](../rule/combat/turn.md)** |
 > |-----------------|------------------------------:|
 > | **📏 5 burst**  | **🎯 Each enemy in the area** |
 >
@@ -19466,7 +19466,7 @@ At the start of Rhodar's turn, you can spend [Malice](../rule/monster/malice.md)
 
 > 🗡 **Vermilion Fangs (3 Malice)**
 >
-> | **Melee, Weapon, Strike** |     **Main action** |
+> | **Melee, Weapon, Strike** |     **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------:|
 > | **📏 Melee 1**            | **🎯 One creature** |
 >
@@ -19480,7 +19480,7 @@ At the start of Rhodar's turn, you can spend [Malice](../rule/monster/malice.md)
 
 > ❇️ **Sanguineous Flourish (5 Malice)**
 >
-> | **Area, Weapon** |               **Main action** |
+> | **Area, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |------------------|------------------------------:|
 > | **📏 2 burst**   | **🎯 Each enemy in the area** |
 >
@@ -19494,7 +19494,7 @@ At the start of Rhodar's turn, you can spend [Malice](../rule/monster/malice.md)
 
 > 🔳 **Vengeance of Rhöl (2 Malice)**
 >
-> | **Area, Magic, Ranged**     |   **Maneuver** |
+> | **Area, Magic, Ranged**     |   **[Maneuver](../rule/combat/turn.md)** |
 > |-----------------------------|---------------:|
 > | **📏 Two 3 cubes within 5** | **🎯 Special** |
 >
@@ -19626,7 +19626,7 @@ At the start of a lich's turn, you can spend [Malice](../rule/monster/malice.md)
 
 > 🏹 **Conflagration ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Magic, Ranged, Strike** |                 **Main action** |
+> | **Magic, Ranged, Strike** |                 **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Ranged 20**          | **🎯 Two creatures or objects** |
 >
@@ -19640,7 +19640,7 @@ At the start of a lich's turn, you can spend [Malice](../rule/monster/malice.md)
 
 > ❇️ **Hopeless Place**
 >
-> | **Area, Magic** |               **Main action** |
+> | **Area, Magic** |               **[Main action](../rule/combat/turn.md)** |
 > |-----------------|------------------------------:|
 > | **📏 10 burst** | **🎯 Each enemy in the area** |
 >
@@ -19656,7 +19656,7 @@ At the start of a lich's turn, you can spend [Malice](../rule/monster/malice.md)
 
 > 🏹 **Pain Unending (2 Malice)**
 >
-> | **Magic, Ranged, Strike** |               **Main action** |
+> | **Magic, Ranged, Strike** |               **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Ranged 20**          | **🎯 One creature or object** |
 >
@@ -19674,7 +19674,7 @@ At the start of a lich's turn, you can spend [Malice](../rule/monster/malice.md)
 
 > 👤 **Necrotic Form**
 >
-> | **-**       | **Maneuver** |
+> | **-**       | **[Maneuver](../rule/combat/turn.md)** |
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 > 
@@ -19812,7 +19812,7 @@ Most valok communicate exclusively in Rallarian.
 
 > 🏹 **Gatling Bolt Gun ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Ranged, Strike, Weapon** |                 **Main action** |
+> | **Ranged, Strike, Weapon** |                 **[Main action](../rule/combat/turn.md)** |
 > |----------------------------|--------------------------------:|
 > | **📏 Ranged 10**           | **🎯 Two creatures or objects** |
 >
@@ -19824,7 +19824,7 @@ Most valok communicate exclusively in Rallarian.
 
 > 🗡 **Valiar Axe (3 Malice)**
 >
-> | **Melee, Strike, Weapon** |               **Main action** |
+> | **Melee, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Melee 2**            | **🎯 One creature or object** |
 >
@@ -19838,7 +19838,7 @@ Most valok communicate exclusively in Rallarian.
 
 > ❇️ **Magnetic Pull**
 >
-> | **Area**        |                             **Maneuver** |
+> | **Area**        |                             **[Maneuver](../rule/combat/turn.md)** |
 > |-----------------|-----------------------------------------:|
 > | **📏 10 burst** | **🎯 Each enemy and object in the area** |
 >
@@ -19878,7 +19878,7 @@ Most valok communicate exclusively in Rallarian.
 
 > 🗡 **Pneumatic Punch ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 2**            | **🎯 Two creatures or objects** |
 >
@@ -19890,7 +19890,7 @@ Most valok communicate exclusively in Rallarian.
 
 > 🏹 **Targeting Beam (3 Malice)**
 >
-> | **Ranged, Strike, Weapon** |               **Main action** |
+> | **Ranged, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |----------------------------|------------------------------:|
 > | **📏 Ranged 10**           | **🎯 One creature or object** |
 >
@@ -19904,7 +19904,7 @@ Most valok communicate exclusively in Rallarian.
 
 > 🏹 **Chief's Command**
 >
-> | **Ranged**      |    **Maneuver** |
+> | **Ranged**      |    **[Maneuver](../rule/combat/turn.md)** |
 > |-----------------|----------------:|
 > | **📏 Ranged 5** | **🎯 One ally** |
 >
@@ -19942,7 +19942,7 @@ Most valok communicate exclusively in Rallarian.
 
 > 🔳 **Wrecking Ball ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Area, Ranged, Weapon** |                          **Main action** |
+> | **Area, Ranged, Weapon** |                          **[Main action](../rule/combat/turn.md)** |
 > |--------------------------|-----------------------------------------:|
 > | **📏 3 cube within 5**   | **🎯 Each enemy and object in the area** |
 >
@@ -19954,7 +19954,7 @@ Most valok communicate exclusively in Rallarian.
 
 > 🗡 **Construction Arm**
 >
-> | **Melee, Strike, Weapon** |               **Main action** |
+> | **Melee, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Melee 3**            | **🎯 One creature or object** |
 >
@@ -19966,7 +19966,7 @@ Most valok communicate exclusively in Rallarian.
 
 > 🔳 **Lay the Foundation (3 Malice)**
 >
-> | **Area**                   | **Main action** |
+> | **Area**                   | **[Main action](../rule/combat/turn.md)** |
 > |----------------------------|----------------:|
 > | **📏 6 x 3 line within 1** |  **🎯 Special** |
 >
@@ -19978,7 +19978,7 @@ Most valok communicate exclusively in Rallarian.
 
 > 🔳 **Build Wall**
 >
-> | **Area, Ranged**       |   **Maneuver** |
+> | **Area, Ranged**       |   **[Maneuver](../rule/combat/turn.md)** |
 > |------------------------|---------------:|
 > | **📏 6 wall within 3** | **🎯 Special** |
 >
@@ -19986,7 +19986,7 @@ Most valok communicate exclusively in Rallarian.
 
 > ❗️ **Sputter (1 Malice)**
 >
-> | **Melee**      |                **Free triggered action** |
+> | **Melee**      |                **Free [triggered action](../rule/combat/triggered-action.md)** |
 > |----------------|-----------------------------------------:|
 > | **📏 Melee 3** | **🎯 The triggering creature or object** |
 >
@@ -20022,7 +20022,7 @@ Most valok communicate exclusively in Rallarian.
 
 > 🗡 **Drill Press ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 2**            | **🎯 Two creatures or objects** |
 >
@@ -20036,7 +20036,7 @@ Most valok communicate exclusively in Rallarian.
 
 > 🔳 **Unload Rocks (3 Malice)**
 >
-> | **Area**               |                          **Main action** |
+> | **Area**               |                          **[Main action](../rule/combat/turn.md)** |
 > |------------------------|-----------------------------------------:|
 > | **📏 4 cube within 1** | **🎯 Each enemy and object in the area** |
 >
@@ -20050,7 +20050,7 @@ Most valok communicate exclusively in Rallarian.
 
 > 🔳 **Break Ground (5 Malice)**
 >
-> | **Area**                    |                             **Maneuver** |
+> | **Area**                    |                             **[Maneuver](../rule/combat/turn.md)** |
 > |-----------------------------|-----------------------------------------:|
 > | **📏 20 x 1 line within 1** | **🎯 Each enemy and object in the area** |
 >
@@ -20096,7 +20096,7 @@ Most valok communicate exclusively in Rallarian.
 
 > 🗡 **Blade Rake ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 3**            | **🎯 Two creatures or objects** |
 >
@@ -20108,7 +20108,7 @@ Most valok communicate exclusively in Rallarian.
 
 > 🏹 **Prismacore Cannon**
 >
-> | **Ranged, Strike, Weapon** |               **Main action** |
+> | **Ranged, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |----------------------------|------------------------------:|
 > | **📏 Ranged 20**           | **🎯 One creature or object** |
 >
@@ -20122,7 +20122,7 @@ Most valok communicate exclusively in Rallarian.
 
 > 👤 **Destructive Rollout**
 >
-> | **-**       | **Maneuver** |
+> | **-**       | **[Maneuver](../rule/combat/turn.md)** |
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
@@ -20130,7 +20130,7 @@ Most valok communicate exclusively in Rallarian.
 
 > 🔳 **Burning Oil (3 Malice)**
 >
-> | **Area**                    |                             **Maneuver** |
+> | **Area**                    |                             **[Maneuver](../rule/combat/turn.md)** |
 > |-----------------------------|-----------------------------------------:|
 > | **📏 20 x 1 line within 1** | **🎯 Each enemy and object in the area** |
 >
@@ -20144,7 +20144,7 @@ Most valok communicate exclusively in Rallarian.
 
 > ❗️ **Quick Blast (1 Malice)**
 >
-> | **Ranged, Strike, Weapon** |     **Free triggered action** |
+> | **Ranged, Strike, Weapon** |     **Free [triggered action](../rule/combat/triggered-action.md)** |
 > |----------------------------|------------------------------:|
 > | **📏 Ranged 20**           | **🎯 One creature or object** |
 >
@@ -20222,7 +20222,7 @@ At the start of any voiceless talker's turn, you can spend [Malice](../rule/mons
 
 > 🏹 **Memory Thief (5 Malice)**
 >
-> | **Psionic, Ranged** |        **Maneuver** |
+> | **Psionic, Ranged** |        **[Maneuver](../rule/combat/turn.md)** |
 > |---------------------|--------------------:|
 > | **📏 Ranged 5**     | **🎯 One creature** |
 >
@@ -20248,7 +20248,7 @@ At the start of any voiceless talker's turn, you can spend [Malice](../rule/mons
 
 > 🗡 **Eager Claws ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Melee, Strike, Weapon** |                          **Main action** |
+> | **Melee, Strike, Weapon** |                          **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|-----------------------------------------:|
 > | **📏 Melee 1**            | **🎯 One creature or object per minion** |
 >
@@ -20282,7 +20282,7 @@ At the start of any voiceless talker's turn, you can spend [Malice](../rule/mons
 
 > 🏹 **Phase Chant ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Psionic, Ranged, Strike** |                          **Main action** |
+> | **Psionic, Ranged, Strike** |                          **[Main action](../rule/combat/turn.md)** |
 > |-----------------------------|-----------------------------------------:|
 > | **📏 Ranged 8**             | **🎯 One creature or object per minion** |
 >
@@ -20306,7 +20306,7 @@ At the start of any voiceless talker's turn, you can spend [Malice](../rule/mons
 
 > 🗡 **Four-Way Grasp ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Melee, Strike, Weapon** |                  **Main action** |
+> | **Melee, Strike, Weapon** |                  **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|---------------------------------:|
 > | **📏 Melee 1**            | **🎯 Four creatures or objects** |
 >
@@ -20322,7 +20322,7 @@ At the start of any voiceless talker's turn, you can spend [Malice](../rule/mons
 
 > 🗡 **Cerebral Suplex**
 >
-> | **Melee, Strike** |   **Main action** |
+> | **Melee, Strike** |   **[Main action](../rule/combat/turn.md)** |
 > |-------------------|------------------:|
 > | **📏 Melee 1**    | **🎯 Each enemy** |
 >
@@ -20336,7 +20336,7 @@ At the start of any voiceless talker's turn, you can spend [Malice](../rule/mons
 
 > 👤 **Lumber**
 >
-> | **-**       | **Maneuver** |
+> | **-**       | **[Maneuver](../rule/combat/turn.md)** |
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
@@ -20344,7 +20344,7 @@ At the start of any voiceless talker's turn, you can spend [Malice](../rule/mons
 
 > ❗️ **Brawny Buffe (1 Malice)**
 >
-> | **-**       | **Free triggered action** |
+> | **-**       | **Free [triggered action](../rule/combat/triggered-action.md)** |
 > |-------------|--------------------------:|
 > | **📏 Self** |               **🎯 Self** |
 >
@@ -20376,7 +20376,7 @@ At the start of any voiceless talker's turn, you can spend [Malice](../rule/mons
 
 > 🗡 **Killer Claws ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Melee, Strike, Weapon** |               **Main action** |
+> | **Melee, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Melee 1**            | **🎯 One creature or object** |
 >
@@ -20388,7 +20388,7 @@ At the start of any voiceless talker's turn, you can spend [Malice](../rule/mons
 
 > 🏹 **Concealing Strike (2 Malice)**
 >
-> | **Psionic, Ranged, Strike** |      **Main action** |
+> | **Psionic, Ranged, Strike** |      **[Main action](../rule/combat/turn.md)** |
 > |-----------------------------|---------------------:|
 > | **📏 Ranged 5**             | **🎯 Two creatures** |
 >
@@ -20400,7 +20400,7 @@ At the start of any voiceless talker's turn, you can spend [Malice](../rule/mons
 
 > 🗡 **Mindwipe**
 >
-> | **Melee, Psionic, Strike** |        **Maneuver** |
+> | **Melee, Psionic, Strike** |        **[Maneuver](../rule/combat/turn.md)** |
 > |----------------------------|--------------------:|
 > | **📏 Melee 1**             | **🎯 One creature** |
 >
@@ -20436,7 +20436,7 @@ At the start of any voiceless talker's turn, you can spend [Malice](../rule/mons
 
 > 🏹 **Psionic Rifle Burst ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Psionic, Ranged, Strike, Weapon** |               **Main action** |
+> | **Psionic, Ranged, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |-------------------------------------|------------------------------:|
 > | **📏 Ranged 10**                    | **🎯 One creature or object** |
 >
@@ -20452,7 +20452,7 @@ At the start of any voiceless talker's turn, you can spend [Malice](../rule/mons
 
 > 🔳 **Mind Jolt**
 >
-> | **Area, Psionic**            |               **Main action** |
+> | **Area, Psionic**            |               **[Main action](../rule/combat/turn.md)** |
 > |------------------------------|------------------------------:|
 > | **📏 10 x 1 line within 10** | **🎯 Each enemy in the area** |
 >
@@ -20464,7 +20464,7 @@ At the start of any voiceless talker's turn, you can spend [Malice](../rule/mons
 
 > 🏹 **In Our Sights**
 >
-> | **Ranged**       |        **Maneuver** |
+> | **Ranged**       |        **[Maneuver](../rule/combat/turn.md)** |
 > |------------------|--------------------:|
 > | **📏 Ranged 10** | **🎯 One creature** |
 >
@@ -20498,7 +20498,7 @@ At the start of any voiceless talker's turn, you can spend [Malice](../rule/mons
 
 > 🗡 **Tentacle ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 2**            | **🎯 Two creatures or objects** |
 >
@@ -20510,7 +20510,7 @@ At the start of any voiceless talker's turn, you can spend [Malice](../rule/mons
 
 > ❇️ **Psionic Boom (3 Malice)**
 >
-> | **Area, Psionic** |               **Main action** |
+> | **Area, Psionic** |               **[Main action](../rule/combat/turn.md)** |
 > |-------------------|------------------------------:|
 > | **📏 3 burst**    | **🎯 Each enemy in the area** |
 >
@@ -20524,7 +20524,7 @@ At the start of any voiceless talker's turn, you can spend [Malice](../rule/mons
 
 > 🗡 **Tentacle Toss**
 >
-> | **Melee, Psionic** |        **Maneuver** |
+> | **Melee, Psionic** |        **[Maneuver](../rule/combat/turn.md)** |
 > |--------------------|--------------------:|
 > | **📏 Melee 1**     | **🎯 One creature** |
 >
@@ -20560,7 +20560,7 @@ At the start of any voiceless talker's turn, you can spend [Malice](../rule/mons
 
 > ⚔️ **Psionic Intrusion ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Melee, Psionic, Ranged, Strike** |                 **Main action** |
+> | **Melee, Psionic, Ranged, Strike** |                 **[Main action](../rule/combat/turn.md)** |
 > |------------------------------------|--------------------------------:|
 > | **📏 Melee 1 or ranged 5**         | **🎯 Two creatures or objects** |
 >
@@ -20572,7 +20572,7 @@ At the start of any voiceless talker's turn, you can spend [Malice](../rule/mons
 
 > 🏹 **Carpe Quadratum**
 >
-> | **Psionic, Ranged** |        **Maneuver** |
+> | **Psionic, Ranged** |        **[Maneuver](../rule/combat/turn.md)** |
 > |---------------------|--------------------:|
 > | **📏 Ranged 5**     | **🎯 One creature** |
 >
@@ -20718,7 +20718,7 @@ At the start of Lord Syuul's turn, you can spend [Malice](../rule/monster/malice
 
 > 🗡 **Tentacle Grab ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 2**            | **🎯 Two creatures or objects** |
 >
@@ -20732,7 +20732,7 @@ At the start of Lord Syuul's turn, you can spend [Malice](../rule/monster/malice
 
 > 🔳 **Dampening Grenade**
 >
-> | **Area, Psionic, Ranged** |               **Main action** |
+> | **Area, Psionic, Ranged** |               **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 2 cube within 5**    | **🎯 Each enemy in the area** |
 >
@@ -20746,7 +20746,7 @@ At the start of Lord Syuul's turn, you can spend [Malice](../rule/monster/malice
 
 > 🗡 **Mind Blown (7 Malice)**
 >
-> | **Melee, Psionic, Strike** |          **Main action** |
+> | **Melee, Psionic, Strike** |          **[Main action](../rule/combat/turn.md)** |
 > |----------------------------|-------------------------:|
 > | **📏 Melee 1**             | **🎯 One grabbed enemy** |
 >
@@ -20760,7 +20760,7 @@ At the start of Lord Syuul's turn, you can spend [Malice](../rule/monster/malice
 
 > 👤 **You Come With Me**
 >
-> | **Psionic** | **Maneuver** |
+> | **Psionic** | **[Maneuver](../rule/combat/turn.md)** |
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
@@ -20925,7 +20925,7 @@ At the start of any war dog's turn, you can spend [Malice](../rule/monster/malic
 
 > 🔳 **Fire for Effect (5 Malice)**
 >
-> | **Area, Magic, Ranged**     |               **Maneuver** |
+> | **Area, Magic, Ranged**     |               **[Maneuver](../rule/combat/turn.md)** |
 > |-----------------------------|------------------------------:|
 > | **📏 4 cube within 10**     | **🎯 Each creature in the area** |
 >
@@ -20949,7 +20949,7 @@ At the start of any war dog's turn, you can spend [Malice](../rule/monster/malic
 
 > ⚔️ **Daggers ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Melee, Ranged, Strike, Weapon** |                          **Main action** |
+> | **Melee, Ranged, Strike, Weapon** |                          **[Main action](../rule/combat/turn.md)** |
 > |-----------------------------------|-----------------------------------------:|
 > | **📏 Melee 1 or ranged 5**        | **🎯 One creature or object per minion** |
 >
@@ -20975,7 +20975,7 @@ At the start of any war dog's turn, you can spend [Malice](../rule/monster/malic
 
 > ⚔️ **Blade ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Charge, Melee, Ranged, Strike, Weapon** |                          **Main action** |
+> | **Charge, Melee, Ranged, Strike, Weapon** |                          **[Main action](../rule/combat/turn.md)** |
 > |-------------------------------------------|-----------------------------------------:|
 > | **📏 Melee 1 or ranged 5**                | **🎯 One creature or object per minion** |
 >
@@ -21001,7 +21001,7 @@ At the start of any war dog's turn, you can spend [Malice](../rule/monster/malic
 
 > 🏹 **Bolt Launcher ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Ranged, Strike, Weapon** |                          **Main action** |
+> | **Ranged, Strike, Weapon** |                          **[Main action](../rule/combat/turn.md)** |
 > |----------------------------|-----------------------------------------:|
 > | **📏 Ranged 5**            | **🎯 One creature or object per minion** |
 >
@@ -21027,7 +21027,7 @@ At the start of any war dog's turn, you can spend [Malice](../rule/monster/malic
 
 > 🗡 **Banded Dagger ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Melee, Strike, Weapon** |                          **Main action** |
+> | **Melee, Strike, Weapon** |                          **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|-----------------------------------------:|
 > | **📏 Melee 2**            | **🎯 One creature or object per minion** |
 >
@@ -21055,7 +21055,7 @@ At the start of any war dog's turn, you can spend [Malice](../rule/monster/malic
 
 > 🗡 **Several Arms ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 2**            | **🎯 Two creatures or objects** |
 >
@@ -21071,7 +21071,7 @@ At the start of any war dog's turn, you can spend [Malice](../rule/monster/malic
 
 > 🏹 **Posthumous Promotion**
 >
-> | **Magic, Ranged** |       **Maneuver** |
+> | **Magic, Ranged** |       **[Maneuver](../rule/combat/turn.md)** |
 > |-------------------|-------------------:|
 > | **📏 Ranged 10**  | **🎯 One war dog** |
 >
@@ -21091,7 +21091,7 @@ At the start of any war dog's turn, you can spend [Malice](../rule/monster/malic
 
 > 🔳 **Flamebelcher ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Area, Weapon**           |                             **Main action** |
+> | **Area, Weapon**           |                             **[Main action](../rule/combat/turn.md)** |
 > |----------------------------|--------------------------------------------:|
 > | **📏 5 x 1 line within 1** | **🎯 Each creature and object in the area** |
 >
@@ -21107,7 +21107,7 @@ At the start of any war dog's turn, you can spend [Malice](../rule/monster/malic
 
 > 🏹 **Posthumous Promotion**
 >
-> | **Magic, Ranged** |       **Maneuver** |
+> | **Magic, Ranged** |       **[Maneuver](../rule/combat/turn.md)** |
 > |-------------------|-------------------:|
 > | **📏 Ranged 10**  | **🎯 One war dog** |
 >
@@ -21127,7 +21127,7 @@ At the start of any war dog's turn, you can spend [Malice](../rule/monster/malic
 
 > 🗡 **Chainsaw Whip ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Melee, Strike, Weapon** |                **Main action** |
+> | **Melee, Strike, Weapon** |                **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|-------------------------------:|
 > | **📏 Melee 3**            | **🎯 One creature or object** |
 >
@@ -21141,7 +21141,7 @@ At the start of any war dog's turn, you can spend [Malice](../rule/monster/malic
 
 > 🏹 **Posthumous Promotion**
 >
-> | **Magic, Ranged** |       **Maneuver** |
+> | **Magic, Ranged** |       **[Maneuver](../rule/combat/turn.md)** |
 > |-------------------|-------------------:|
 > | **📏 Ranged 10**  | **🎯 One war dog** |
 >
@@ -21161,7 +21161,7 @@ At the start of any war dog's turn, you can spend [Malice](../rule/monster/malic
 
 > ❇️ **Synlirii Grafts ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Area, Psionic** |               **Main action** |
+> | **Area, Psionic** |               **[Main action](../rule/combat/turn.md)** |
 > |-------------------|------------------------------:|
 > | **📏 1 burst**    | **🎯 Each enemy in the area** |
 >
@@ -21173,7 +21173,7 @@ At the start of any war dog's turn, you can spend [Malice](../rule/monster/malic
 
 > 🏹 **Posthumous Promotion**
 >
-> | **Magic, Ranged** |       **Maneuver** |
+> | **Magic, Ranged** |       **[Maneuver](../rule/combat/turn.md)** |
 > |-------------------|-------------------:|
 > | **📏 Ranged 10**  | **🎯 One war dog** |
 >
@@ -21181,7 +21181,7 @@ At the start of any war dog's turn, you can spend [Malice](../rule/monster/malic
 
 > ❇️ **The Voice (1 [Malice](../rule/monster/malice.md))**
 >
-> | **Area, Psionic** |                  **Maneuver** |
+> | **Area, Psionic** |                  **[Maneuver](../rule/combat/turn.md)** |
 > |-------------------|------------------------------:|
 > | **📏 5 burst**    | **🎯 Each enemy in the area** |
 >
@@ -21201,7 +21201,7 @@ At the start of any war dog's turn, you can spend [Malice](../rule/monster/malic
 
 > 🔳 **Plaguecaster ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Area, Magic, Ranged** |                  **Main action** |
+> | **Area, Magic, Ranged** |                  **[Main action](../rule/combat/turn.md)** |
 > |-------------------------|---------------------------------:|
 > | **📏 3 cube within 10** | **🎯 Each creature in the area** |
 >
@@ -21215,7 +21215,7 @@ At the start of any war dog's turn, you can spend [Malice](../rule/monster/malic
 
 > 🏹 **Posthumous Promotion**
 >
-> | **Magic, Ranged** |       **Maneuver** |
+> | **Magic, Ranged** |       **[Maneuver](../rule/combat/turn.md)** |
 > |-------------------|-------------------:|
 > | **📏 Ranged 10**  | **🎯 One war dog** |
 >
@@ -21235,7 +21235,7 @@ At the start of any war dog's turn, you can spend [Malice](../rule/monster/malic
 
 > 🏹 **Caustic Detonator ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Magic, Ranged** |               **Main action** |
+> | **Magic, Ranged** |               **[Main action](../rule/combat/turn.md)** |
 > |-------------------|------------------------------:|
 > | **📏 Ranged 10**  | **🎯 One creature or object** |
 >
@@ -21255,7 +21255,7 @@ At the start of any war dog's turn, you can spend [Malice](../rule/monster/malic
 
 > 🏹 **Posthumous Promotion**
 >
-> | **Magic, Ranged** |       **Maneuver** |
+> | **Magic, Ranged** |       **[Maneuver](../rule/combat/turn.md)** |
 > |-------------------|-------------------:|
 > | **📏 Ranged 10**  | **🎯 One war dog** |
 >
@@ -21275,7 +21275,7 @@ At the start of any war dog's turn, you can spend [Malice](../rule/monster/malic
 
 > 🗡 **Command Saber ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Melee, Strike, Weapon** |               **Main action** |
+> | **Melee, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Melee 1**            | **🎯 One creature or object** |
 >
@@ -21289,7 +21289,7 @@ At the start of any war dog's turn, you can spend [Malice](../rule/monster/malic
 
 > 🏹 **Posthumous Promotion**
 >
-> | **Magic, Ranged** |       **Maneuver** |
+> | **Magic, Ranged** |       **[Maneuver](../rule/combat/turn.md)** |
 > |-------------------|-------------------:|
 > | **📏 Ranged 10**  | **🎯 One war dog** |
 >
@@ -21313,7 +21313,7 @@ At the start of any war dog's turn, you can spend [Malice](../rule/monster/malic
 
 > ⚔️ **Corrupted Ash Daggers ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Melee, Ranged, Strike, Weapon** |               **Main action** |
+> | **Melee, Ranged, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |-----------------------------------|------------------------------:|
 > | **📏 Melee 1 or ranged 10**       | **🎯 One creature or object** |
 >
@@ -21329,7 +21329,7 @@ At the start of any war dog's turn, you can spend [Malice](../rule/monster/malic
 
 > 🏹 **Posthumous Promotion**
 >
-> | **Magic, Ranged** |       **Maneuver** |
+> | **Magic, Ranged** |       **[Maneuver](../rule/combat/turn.md)** |
 > |-------------------|-------------------:|
 > | **📏 Ranged 10**  | **🎯 One war dog** |
 >
@@ -21337,7 +21337,7 @@ At the start of any war dog's turn, you can spend [Malice](../rule/monster/malic
 
 > 👤 **Corrupted Ash Teleport (1 [Malice](../rule/monster/malice.md))**
 >
-> | **Magic**   | **Maneuver** |
+> | **Magic**   | **[Maneuver](../rule/combat/turn.md)** |
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
@@ -21357,7 +21357,7 @@ At the start of any war dog's turn, you can spend [Malice](../rule/monster/malic
 
 > ⚔️ **Conditioning Spear ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Melee, Psionic, Ranged, Strike** |                 **Main action** |
+> | **Melee, Psionic, Ranged, Strike** |                 **[Main action](../rule/combat/turn.md)** |
 > |------------------------------------|--------------------------------:|
 > | **📏 Melee 1 or ranged 5**         | **🎯 Two creatures or objects** |
 >
@@ -21373,7 +21373,7 @@ At the start of any war dog's turn, you can spend [Malice](../rule/monster/malic
 
 > ❇️ **Highest Posthumous Promotion**
 >
-> | **Area, Magic** |                    **Maneuver** |
+> | **Area, Magic** |                    **[Maneuver](../rule/combat/turn.md)** |
 > |-----------------|--------------------------------:|
 > | **📏 10 burst** | **🎯 Each war dog in the area** |
 >
@@ -21381,7 +21381,7 @@ At the start of any war dog's turn, you can spend [Malice](../rule/monster/malic
 
 > ❗️ **Final Orders**
 >
-> | **Magic, Ranged** | **Triggered action** |
+> | **Magic, Ranged** | **[Triggered action](../rule/combat/triggered-action.md)** |
 > |-------------------|---------------------:|
 > | **📏 Ranged 10**  |      **🎯 One ally** |
 >
@@ -21447,7 +21447,7 @@ At the start of any level 4 or higher war dog's turn, you can spend [Malice](../
 
 > 🏹 **Loyalty Unto Death (5 [Malice](../rule/monster/malice.md))**
 >
-> | **Magic, Ranged** |        **Maneuver** |
+> | **Magic, Ranged** |        **[Maneuver](../rule/combat/turn.md)** |
 > |-------------------|--------------------:|
 > | **📏 Ranged 10**  | **🎯 Two war dogs** |
 >
@@ -21467,7 +21467,7 @@ At the start of any level 4 or higher war dog's turn, you can spend [Malice](../
 
 > 🏹 **Galvanic Arc ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Magic, Ranged, Strike** |                          **Main action** |
+> | **Magic, Ranged, Strike** |                          **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|-----------------------------------------:|
 > | **📏 Ranged 7**           | **🎯 One creature or object per minion** |
 >
@@ -21493,7 +21493,7 @@ At the start of any level 4 or higher war dog's turn, you can spend [Malice](../
 
 > ⚔️ **Shrikegun Shot ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Melee, Ranged, Strike, Weapon** |                          **Main action** |
+> | **Melee, Ranged, Strike, Weapon** |                          **[Main action](../rule/combat/turn.md)** |
 > |-----------------------------------|-----------------------------------------:|
 > | **📏 Melee 1 or ranged 3**        | **🎯 One creature or object per minion** |
 >
@@ -21519,7 +21519,7 @@ At the start of any level 4 or higher war dog's turn, you can spend [Malice](../
 
 > ⚔️ **Poisoned Dagger ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Melee, Ranged, Strike, Weapon** |                **Main action** |
+> | **Melee, Ranged, Strike, Weapon** |                **[Main action](../rule/combat/turn.md)** |
 > |-----------------------------------|-------------------------------:|
 > | **📏 Melee 1 or ranged 4**        | **🎯 One creature per minion** |
 >
@@ -21545,7 +21545,7 @@ At the start of any level 4 or higher war dog's turn, you can spend [Malice](../
 
 > 🏹 **Longarm Shrikegun ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Ranged, Strike, Weapon** |               **Main action** |
+> | **Ranged, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |----------------------------|------------------------------:|
 > | **📏 Ranged 15**           | **🎯 One creature or object** |
 >
@@ -21561,7 +21561,7 @@ At the start of any level 4 or higher war dog's turn, you can spend [Malice](../
 
 > 🔳 **Web Vial**
 >
-> | **Area, Ranged**        |   **Maneuver** |
+> | **Area, Ranged**        |   **[Maneuver](../rule/combat/turn.md)** |
 > |-------------------------|---------------:|
 > | **📏 2 cube within 10** | **🎯 Special** |
 >
@@ -21585,7 +21585,7 @@ At the start of any level 4 or higher war dog's turn, you can spend [Malice](../
 
 > 🔳 **Ripper Shrikegun ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Area, Weapon**            |               **Main action** |
+> | **Area, Weapon**            |               **[Main action](../rule/combat/turn.md)** |
 > |-----------------------------|------------------------------:|
 > | **📏 10 x 3 line within 1** | **🎯 Each enemy in the area** |
 >
@@ -21603,7 +21603,7 @@ At the start of any level 4 or higher war dog's turn, you can spend [Malice](../
 
 > 👤 **Expanding Doom (4 [Malice](../rule/monster/malice.md))**
 >
-> | **-**       | **Maneuver** |
+> | **-**       | **[Maneuver](../rule/combat/turn.md)** |
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
@@ -21623,7 +21623,7 @@ At the start of any level 4 or higher war dog's turn, you can spend [Malice](../
 
 > 🗡 **Fuse-Iron Lance ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Charge, Melee, Strike, Weapon** |               **Main action** |
+> | **Charge, Melee, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |-----------------------------------|------------------------------:|
 > | **📏 Melee 2**                    | **🎯 One creature or object** |
 >
@@ -21639,7 +21639,7 @@ At the start of any level 4 or higher war dog's turn, you can spend [Malice](../
 
 > 🗡 **Blazing Charge**
 >
-> | **Melee, Weapon**         |   **Maneuver** |
+> | **Melee, Weapon**         |   **[Maneuver](../rule/combat/turn.md)** |
 > |---------------------------|---------------:|
 > | **📏 Special; see below** | **🎯 Special** |
 >
@@ -21665,7 +21665,7 @@ At the start of any level 4 or higher war dog's turn, you can spend [Malice](../
 
 > 🗡 **Needle-Knife ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Melee, Strike, Weapon** |               **Main action** |
+> | **Melee, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Melee 1**            | **🎯 One creature or object** |
 >
@@ -21679,7 +21679,7 @@ At the start of any level 4 or higher war dog's turn, you can spend [Malice](../
 
 > ❗️ **Feign Death (2 [Malice](../rule/monster/malice.md))**
 >
-> | **Ranged**       | **Triggered action** |
+> | **Ranged**       | **[Triggered action](../rule/combat/triggered-action.md)** |
 > |------------------|---------------------:|
 > | **📏 Ranged 20** |       **🎯 Special** |
 >
@@ -21705,7 +21705,7 @@ At the start of any level 4 or higher war dog's turn, you can spend [Malice](../
 
 > ⚔️ **Fuse-Iron Knives ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Melee, Ranged, Strike, Weapon** |      **Main action** |
+> | **Melee, Ranged, Strike, Weapon** |      **[Main action](../rule/combat/turn.md)** |
 > |-----------------------------------|---------------------:|
 > | **📏 Melee 1 or ranged 5**        | **🎯 Two creatures** |
 >
@@ -21719,7 +21719,7 @@ At the start of any level 4 or higher war dog's turn, you can spend [Malice](../
 
 > 🏹 **Misdirection**
 >
-> | **Ranged**      |                        **Maneuver** |
+> | **Ranged**      |                        **[Maneuver](../rule/combat/turn.md)** |
 > |-----------------|------------------------------------:|
 > | **📏 Ranged 3** | **🎯 One ally or dazzled creature** |
 >
@@ -21745,7 +21745,7 @@ At the start of any level 4 or higher war dog's turn, you can spend [Malice](../
 
 > 🏹 **Snaking Entrails ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Magic, Ranged** | **Main action** |
+> | **Magic, Ranged** | **[Main action](../rule/combat/turn.md)** |
 > |-------------------|----------------:|
 > | **📏 Ranged 10**  | **🎯 One ally** |
 >
@@ -21761,7 +21761,7 @@ At the start of any level 4 or higher war dog's turn, you can spend [Malice](../
 
 > 🔳 **Wall of Flesh**
 >
-> | **Area, Magic, Ranged**  |      **Maneuver** |
+> | **Area, Magic, Ranged**  |      **[Maneuver](../rule/combat/turn.md)** |
 > |--------------------------|------------------:|
 > | **📏 10 wall within 10** | **🎯 One corpse** |
 >
@@ -21781,7 +21781,7 @@ At the start of any level 4 or higher war dog's turn, you can spend [Malice](../
 
 > 🏹 **Mark of Agony ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Magic, Ranged, Strike** |               **Main action** |
+> | **Magic, Ranged, Strike** |               **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Ranged 10**          | **🎯 One creature or object** |
 >
@@ -21795,7 +21795,7 @@ At the start of any level 4 or higher war dog's turn, you can spend [Malice](../
 
 > 🔳 **Vortex of Pain (3 [Malice](../rule/monster/malice.md))**
 >
-> | **Area, Magic, Ranged** |               **Main action** |
+> | **Area, Magic, Ranged** |               **[Main action](../rule/combat/turn.md)** |
 > |-------------------------|------------------------------:|
 > | **📏 4 cube within 10** | **🎯 Each enemy in the area** |
 >
@@ -21825,7 +21825,7 @@ At the start of any level 4 or higher war dog's turn, you can spend [Malice](../
 
 > 🏹 **Syringe Crossbow ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Ranged, Strike, Weapon** |     **Main action** |
+> | **Ranged, Strike, Weapon** |     **[Main action](../rule/combat/turn.md)** |
 > |----------------------------|--------------------:|
 > | **📏 Ranged 10**           | **🎯 One creature** |
 >
@@ -21839,7 +21839,7 @@ At the start of any level 4 or higher war dog's turn, you can spend [Malice](../
 
 > 🏹 **Posthumous Promotion**
 >
-> | **Magic, Ranged** |       **Maneuver** |
+> | **Magic, Ranged** |       **[Maneuver](../rule/combat/turn.md)** |
 > |-------------------|-------------------:|
 > | **📏 Ranged 10**  | **🎯 One war dog** |
 >
@@ -21847,7 +21847,7 @@ At the start of any level 4 or higher war dog's turn, you can spend [Malice](../
 
 > ❗️ **Sanguine Stimulants (1 [Malice](../rule/monster/malice.md))**
 >
-> | **Magic, Ranged** | **Triggered action** |
+> | **Magic, Ranged** | **[Triggered action](../rule/combat/triggered-action.md)** |
 > |-------------------|---------------------:|
 > | **📏 Ranged 15**  |       **🎯 Special** |
 >
@@ -21873,7 +21873,7 @@ The war doc and the iron priest are among the most zealous war dogs in their ran
 
 > ⚔️ **Houndblade ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Charge, Melee, Ranged, Strike, Weapon** |                 **Main action** |
+> | **Charge, Melee, Ranged, Strike, Weapon** |                 **[Main action](../rule/combat/turn.md)** |
 > |-------------------------------------------|--------------------------------:|
 > | **📏 Melee 1 or ranged 3**                | **🎯 Two creatures or objects** |
 >
@@ -21889,7 +21889,7 @@ The war doc and the iron priest are among the most zealous war dogs in their ran
 
 > 🏹 **Get Them, You Dolts! (1 [Malice](../rule/monster/malice.md) per target)**
 >
-> | **Ranged**       |           **Maneuver** |
+> | **Ranged**       |           **[Maneuver](../rule/combat/turn.md)** |
 > |------------------|-----------------------:|
 > | **📏 Ranged 10** | **🎯 Three creatures** |
 >
@@ -21897,7 +21897,7 @@ The war doc and the iron priest are among the most zealous war dogs in their ran
 
 > ❗️ **Sneering Disregard**
 >
-> | **Ranged**       |           **Triggered action** |
+> | **Ranged**       |           **[Triggered action](../rule/combat/triggered-action.md)** |
 > |------------------|-------------------------------:|
 > | **📏 Ranged 10** | **🎯 The triggering creature** |
 >
@@ -21985,7 +21985,7 @@ At the start of any level 7 or higher war dog's turn, you can spend [Malice](../
 
 > 🗡 **Greatsword and Roar ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Charge, Melee, Strike, Weapon** |                          **Main action** |
+> | **Charge, Melee, Strike, Weapon** |                          **[Main action](../rule/combat/turn.md)** |
 > |-----------------------------------|-----------------------------------------:|
 > | **📏 Melee 2**                    | **🎯 One creature or object per minion** |
 >
@@ -22011,7 +22011,7 @@ At the start of any level 7 or higher war dog's turn, you can spend [Malice](../
 
 > 🏹 **Fuse-Iron Bomb ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Ranged, Weapon** |                          **Main action** |
+> | **Ranged, Weapon** |                          **[Main action](../rule/combat/turn.md)** |
 > |--------------------|-----------------------------------------:|
 > | **📏 Ranged 5**    | **🎯 One creature or object per minion** |
 >
@@ -22037,7 +22037,7 @@ At the start of any level 7 or higher war dog's turn, you can spend [Malice](../
 
 > 🏹 **Canis Shrikegun ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Ranged, Strike, Weapon** |                          **Main action** |
+> | **Ranged, Strike, Weapon** |                          **[Main action](../rule/combat/turn.md)** |
 > |----------------------------|-----------------------------------------:|
 > | **📏 Ranged 10**           | **🎯 One creature or object per minion** |
 >
@@ -22063,7 +22063,7 @@ At the start of any level 7 or higher war dog's turn, you can spend [Malice](../
 
 > 🗡 **Dive Bomb ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Melee, Strike, Weapon** |               **Main action** |
+> | **Melee, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Melee 1**            | **🎯 One creature or object** |
 >
@@ -22077,7 +22077,7 @@ At the start of any level 7 or higher war dog's turn, you can spend [Malice](../
 
 > 🔳 **Caustic Paste Bomb (2 [Malice](../rule/monster/malice.md))**
 >
-> | **Area, Magic, Ranged** |                               **Maneuver** |
+> | **Area, Magic, Ranged** |                               **[Maneuver](../rule/combat/turn.md)** |
 > |-------------------------|-------------------------------------------:|
 > | **📏 3 cube within 5**  | **🎯 Each creature or object in the area** |
 >
@@ -22107,7 +22107,7 @@ At the start of any level 7 or higher war dog's turn, you can spend [Malice](../
 
 > 🏹 **Biokinetic Ballista ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Ranged, Strike, Weapon** |                 **Main action** |
+> | **Ranged, Strike, Weapon** |                 **[Main action](../rule/combat/turn.md)** |
 > |----------------------------|--------------------------------:|
 > | **📏 Ranged 15**           | **🎯 Two creatures or objects** |
 >
@@ -22121,7 +22121,7 @@ At the start of any level 7 or higher war dog's turn, you can spend [Malice](../
 
 > 🔳 **Kill Zone (3 [Malice](../rule/monster/malice.md))**
 >
-> | **Area, Magic, Ranged** |   **Maneuver** |
+> | **Area, Magic, Ranged** |   **[Maneuver](../rule/combat/turn.md)** |
 > |-------------------------|---------------:|
 > | **📏 3 cube within 12** | **🎯 Special** |
 >
@@ -22145,7 +22145,7 @@ At the start of any level 7 or higher war dog's turn, you can spend [Malice](../
 
 > ⚔️ **Flesh-Eater Knife ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Magic, Melee, Ranged, Strike, Weapon** |               **Main action** |
+> | **Magic, Melee, Ranged, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |------------------------------------------|------------------------------:|
 > | **📏 Melee 1 or ranged 5**               | **🎯 One creature or object** |
 >
@@ -22159,7 +22159,7 @@ At the start of any level 7 or higher war dog's turn, you can spend [Malice](../
 
 > 🏹 **Ashes to Ashes**
 >
-> | **Ranged**       |                  **Maneuver** |
+> | **Ranged**       |                  **[Maneuver](../rule/combat/turn.md)** |
 > |------------------|------------------------------:|
 > | **📏 Ranged 20** | **🎯 Up to three ash clones** |
 >
@@ -22183,7 +22183,7 @@ At the start of any level 7 or higher war dog's turn, you can spend [Malice](../
 
 > 🗡 **Pile Bunker Gauntlet ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Charge, Melee, Strike, Weapon** |                 **Main action** |
+> | **Charge, Melee, Strike, Weapon** |                 **[Main action](../rule/combat/turn.md)** |
 > |-----------------------------------|--------------------------------:|
 > | **📏 Melee 1**                    | **🎯 Two creatures or objects** |
 >
@@ -22195,7 +22195,7 @@ At the start of any level 7 or higher war dog's turn, you can spend [Malice](../
 
 > 👤 **Surging Power**
 >
-> | **-**       | **Maneuver** |
+> | **-**       | **[Maneuver](../rule/combat/turn.md)** |
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
@@ -22219,7 +22219,7 @@ At the start of any level 7 or higher war dog's turn, you can spend [Malice](../
 
 > 🔳 **Twin Flamebelchers ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Area, Weapon**            |                             **Main action** |
+> | **Area, Weapon**            |                             **[Main action](../rule/combat/turn.md)** |
 > |-----------------------------|--------------------------------------------:|
 > | **📏 10 x 1 line within 1** | **🎯 Each creature and object in the area** |
 >
@@ -22233,7 +22233,7 @@ At the start of any level 7 or higher war dog's turn, you can spend [Malice](../
 
 > 🏹 **Enflame**
 >
-> | **Magic, Ranged** |   **Maneuver** |
+> | **Magic, Ranged** |   **[Maneuver](../rule/combat/turn.md)** |
 > |-------------------|---------------:|
 > | **📏 Ranged 10**  | **🎯 Special** |
 >
@@ -22259,7 +22259,7 @@ At the start of any level 7 or higher war dog's turn, you can spend [Malice](../
 
 > 🔳 **Earthwave ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Area, Magic, Ranged**     |                  **Main action** |
+> | **Area, Magic, Ranged**     |                  **[Main action](../rule/combat/turn.md)** |
 > |-----------------------------|---------------------------------:|
 > | **📏 7 x 2 line within 10** | **🎯 Each creature in the area** |
 >
@@ -22275,7 +22275,7 @@ At the start of any level 7 or higher war dog's turn, you can spend [Malice](../
 
 > 🔳 **Siegeworks**
 >
-> | **Area, Magic, Ranged** |   **Maneuver** |
+> | **Area, Magic, Ranged** |   **[Maneuver](../rule/combat/turn.md)** |
 > |-------------------------|---------------:|
 > | **📏 5 wall within 10** | **🎯 Special** |
 >
@@ -22299,7 +22299,7 @@ At the start of any level 7 or higher war dog's turn, you can spend [Malice](../
 
 > 🔳 **Houndcannon ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Area, Weapon**           |               **Main action** |
+> | **Area, Weapon**           |               **[Main action](../rule/combat/turn.md)** |
 > |----------------------------|------------------------------:|
 > | **📏 7 x 1 line within 1** | **🎯 Each enemy in the area** |
 >
@@ -22313,7 +22313,7 @@ At the start of any level 7 or higher war dog's turn, you can spend [Malice](../
 
 > ❇️ **Iron Banner (2+ [Malice](../rule/monster/malice.md))**
 >
-> | **Area, Magic** |                    **Maneuver** |
+> | **Area, Magic** |                    **[Maneuver](../rule/combat/turn.md)** |
 > |-----------------|--------------------------------:|
 > | **📏 4 aura**   | **🎯 Each war dog in the area** |
 >
@@ -22337,7 +22337,7 @@ At the start of any level 7 or higher war dog's turn, you can spend [Malice](../
 
 > ❇️ **Grasping Tonguetacles ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Area, Psionic, Weapon** |               **Main action** |
+> | **Area, Psionic, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 2 burst**            | **🎯 Each enemy in the area** |
 >
@@ -22349,7 +22349,7 @@ At the start of any level 7 or higher war dog's turn, you can spend [Malice](../
 
 > 🔳 **Hard Light Field**
 >
-> | **Area, Psionic, Ranged** |                 **Maneuver** |
+> | **Area, Psionic, Ranged** |                 **[Maneuver](../rule/combat/turn.md)** |
 > |---------------------------|-----------------------------:|
 > | **📏 4 cube within 10**   | **🎯 Each ally in the area** |
 >
@@ -22357,7 +22357,7 @@ At the start of any level 7 or higher war dog's turn, you can spend [Malice](../
 
 > ❗️ **Tractor Beam (1 [Malice](../rule/monster/malice.md))**
 >
-> | **Psionic, Ranged** |        **Triggered action** |
+> | **Psionic, Ranged** |        **[Triggered action](../rule/combat/triggered-action.md)** |
 > |---------------------|----------------------------:|
 > | **📏 Ranged 10**    | **🎯 The triggering enemy** |
 >
@@ -22379,7 +22379,7 @@ At the start of any level 7 or higher war dog's turn, you can spend [Malice](../
 
 > 🏹 **Stunning Surge ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Magic, Ranged, Strike** |                 **Main action** |
+> | **Magic, Ranged, Strike** |                 **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Ranged 10**          | **🎯 Two creatures or objects** |
 >
@@ -22395,7 +22395,7 @@ At the start of any level 7 or higher war dog's turn, you can spend [Malice](../
 
 > 🔳 **Overcharge (2 [Malice](../rule/monster/malice.md))**
 >
-> | **Area, Magic, Ranged** |                    **Maneuver** |
+> | **Area, Magic, Ranged** |                    **[Maneuver](../rule/combat/turn.md)** |
 > |-------------------------|--------------------------------:|
 > | **📏 4 cube within 10** | **🎯 Each war dog in the area** |
 >
@@ -22403,7 +22403,7 @@ At the start of any level 7 or higher war dog's turn, you can spend [Malice](../
 
 > ❗️ **Thunderstruck**
 >
-> | **Magic, Melee** |        **Triggered action** |
+> | **Magic, Melee** |        **[Triggered action](../rule/combat/triggered-action.md)** |
 > |------------------|----------------------------:|
 > | **📏 Melee 1**   | **🎯 The triggering enemy** |
 >
@@ -22479,7 +22479,7 @@ At the start of any level 10 or higher war dog's turn, you can spend [Malice](..
 
 > ❇️ **Cry Havoc (7 [Malice](../rule/monster/malice.md))**
 >
-> | **Area, Magic** |                  **Maneuver** |
+> | **Area, Magic** |                  **[Maneuver](../rule/combat/turn.md)** |
 > |-----------------|------------------------------:|
 > | **📏 3 burst**  | **🎯 Each enemy in the area** |
 >
@@ -22503,7 +22503,7 @@ At the start of any level 10 or higher war dog's turn, you can spend [Malice](..
 
 > 🗡 **Jumplance ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Charge, Melee, Strike, Weapon** |                          **Main action** |
+> | **Charge, Melee, Strike, Weapon** |                          **[Main action](../rule/combat/turn.md)** |
 > |-----------------------------------|-----------------------------------------:|
 > | **📏 Melee 1**                    | **🎯 One creature or object per minion** |
 >
@@ -22531,7 +22531,7 @@ At the start of any level 10 or higher war dog's turn, you can spend [Malice](..
 
 > 🏹 **Fuse-Iron Rocket ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Ranged, Strike, Weapon** |                          **Main action** |
+> | **Ranged, Strike, Weapon** |                          **[Main action](../rule/combat/turn.md)** |
 > |----------------------------|-----------------------------------------:|
 > | **📏 Ranged 10**           | **🎯 One creature or object per minion** |
 >
@@ -22557,7 +22557,7 @@ At the start of any level 10 or higher war dog's turn, you can spend [Malice](..
 
 > 🏹 **Call to Self-Sabotage ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Psionic, Ranged, Strike** |                **Main action** |
+> | **Psionic, Ranged, Strike** |                **[Main action](../rule/combat/turn.md)** |
 > |-----------------------------|-------------------------------:|
 > | **📏 Ranged 5**             | **🎯 One creature per minion** |
 >
@@ -22583,7 +22583,7 @@ At the start of any level 10 or higher war dog's turn, you can spend [Malice](..
 
 > 🗡 **Inspiring Strike ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 1**            | **🎯 Two creatures or objects** |
 >
@@ -22597,7 +22597,7 @@ At the start of any level 10 or higher war dog's turn, you can spend [Malice](..
 
 > 🏹 **Summon the Onyx Tower (5 [Malice](../rule/monster/malice.md))**
 >
-> | **Ranged**       |   **Maneuver** |
+> | **Ranged**       |   **[Maneuver](../rule/combat/turn.md)** |
 > |------------------|---------------:|
 > | **📏 Ranged 15** | **🎯 Special** |
 >
@@ -22605,7 +22605,7 @@ At the start of any level 10 or higher war dog's turn, you can spend [Malice](..
 
 > ❇️ **Shield Warden (2 [Malice](../rule/monster/malice.md))**
 >
-> | **Area**       |                  **Maneuver** |
+> | **Area**       |                  **[Maneuver](../rule/combat/turn.md)** |
 > |----------------|------------------------------:|
 > | **📏 3 burst** | **🎯 Each enemy in the area** |
 >
@@ -22619,7 +22619,7 @@ At the start of any level 10 or higher war dog's turn, you can spend [Malice](..
 
 > ❗️ **Timely Intervention**
 >
-> | **Magic**   | **Triggered action** |
+> | **Magic**   | **[Triggered action](../rule/combat/triggered-action.md)** |
 > |-------------|---------------------:|
 > | **📏 Self** |          **🎯 Self** |
 >
@@ -22645,7 +22645,7 @@ At the start of any level 10 or higher war dog's turn, you can spend [Malice](..
 
 > 🗡 **Houndaxe ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 2**            | **🎯 Two creatures or objects** |
 >
@@ -22661,7 +22661,7 @@ At the start of any level 10 or higher war dog's turn, you can spend [Malice](..
 
 > ❇️ **Bloody Whirlwind (2 [Malice](../rule/monster/malice.md))**
 >
-> | **Area, Weapon** |                             **Main action** |
+> | **Area, Weapon** |                             **[Main action](../rule/combat/turn.md)** |
 > |------------------|--------------------------------------------:|
 > | **📏 3 burst**   | **🎯 Each creature and object in the area** |
 >
@@ -22675,7 +22675,7 @@ At the start of any level 10 or higher war dog's turn, you can spend [Malice](..
 
 > 🏹 **Hunting Leap**
 >
-> | **Ranged**      |                  **Maneuver** |
+> | **Ranged**      |                  **[Maneuver](../rule/combat/turn.md)** |
 > |-----------------|------------------------------:|
 > | **📏 Ranged 5** | **🎯 One creature or object** |
 >
@@ -22683,7 +22683,7 @@ At the start of any level 10 or higher war dog's turn, you can spend [Malice](..
 
 > ❗️ **Laugh It Off**
 >
-> | **-**       | **Triggered action** |
+> | **-**       | **[Triggered action](../rule/combat/triggered-action.md)** |
 > |-------------|---------------------:|
 > | **📏 Self** |          **🎯 Self** |
 >
@@ -22713,7 +22713,7 @@ At the start of any level 10 or higher war dog's turn, you can spend [Malice](..
 
 > 🔳 **Portal to the Firing Line ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Area, Ranged, Weapon**    |                             **Main action** |
+> | **Area, Ranged, Weapon**    |                             **[Main action](../rule/combat/turn.md)** |
 > |-----------------------------|--------------------------------------------:|
 > | **📏 5 x 3 line within 15** | **🎯 Each creature and object in the area** |
 >
@@ -22731,7 +22731,7 @@ At the start of any level 10 or higher war dog's turn, you can spend [Malice](..
 
 > 🔳 **Portal to the Mantle (3 [Malice](../rule/monster/malice.md))**
 >
-> | **Area, Magic, Ranged** |                             **Main action** |
+> | **Area, Magic, Ranged** |                             **[Main action](../rule/combat/turn.md)** |
 > |-------------------------|--------------------------------------------:|
 > | **📏 3 cube within 15** | **🎯 Each creature and object in the area** |
 >
@@ -22745,7 +22745,7 @@ At the start of any level 10 or higher war dog's turn, you can spend [Malice](..
 
 > 🔳 **Portal to the Void**
 >
-> | **Area, Magic, Ranged** |                                **Maneuver** |
+> | **Area, Magic, Ranged** |                                **[Maneuver](../rule/combat/turn.md)** |
 > |-------------------------|--------------------------------------------:|
 > | **📏 5 cube within 15** | **🎯 Each creature and object in the area** |
 >
@@ -22761,7 +22761,7 @@ At the start of any level 10 or higher war dog's turn, you can spend [Malice](..
 
 > ❗️ **Portal to the Sky**
 >
-> | **Ranged**      | **Triggered action** |
+> | **Ranged**      | **[Triggered action](../rule/combat/triggered-action.md)** |
 > |-----------------|---------------------:|
 > | **📏 Ranged 3** |     **🎯 One enemy** |
 >
@@ -22787,7 +22787,7 @@ At the start of any level 10 or higher war dog's turn, you can spend [Malice](..
 
 > 🏹 **Soulbind ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Magic, Ranged, Strike** |                 **Main action** |
+> | **Magic, Ranged, Strike** |                 **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Ranged 10**          | **🎯 Two creatures or objects** |
 >
@@ -22801,7 +22801,7 @@ At the start of any level 10 or higher war dog's turn, you can spend [Malice](..
 
 > 🔳 **Soulstorm (2 [Malice](../rule/monster/malice.md))**
 >
-> | **Area, Magic, Ranged** |               **Main action** |
+> | **Area, Magic, Ranged** |               **[Main action](../rule/combat/turn.md)** |
 > |-------------------------|------------------------------:|
 > | **📏 3 cube within 10** | **🎯 Each enemy in the area** |
 >
@@ -22817,7 +22817,7 @@ At the start of any level 10 or higher war dog's turn, you can spend [Malice](..
 
 > ❇️ **Command the Awakened**
 >
-> | **Magic, Ranged** |                            **Maneuver** |
+> | **Magic, Ranged** |                            **[Maneuver](../rule/combat/turn.md)** |
 > |-------------------|----------------------------------------:|
 > | **📏 5 burst**    | **🎯 Each soulbound enemy in the area** |
 >
@@ -22825,7 +22825,7 @@ At the start of any level 10 or higher war dog's turn, you can spend [Malice](..
 
 > ❗️ **Spirit Form**
 >
-> | **-**       | **Triggered action** |
+> | **-**       | **[Triggered action](../rule/combat/triggered-action.md)** |
 > |-------------|---------------------:|
 > | **📏 Self** |          **🎯 Self** |
 >
@@ -22835,7 +22835,7 @@ At the start of any level 10 or higher war dog's turn, you can spend [Malice](..
 
 > ❗️ **Vengeance for the Slain**
 >
-> | **Ranged**       | **Free triggered action** |
+> | **Ranged**       | **Free [triggered action](../rule/combat/triggered-action.md)** |
 > |------------------|--------------------------:|
 > | **📏 Ranged 10** |          **🎯 One enemy** |
 >
@@ -22851,7 +22851,7 @@ At the start of any level 10 or higher war dog's turn, you can spend [Malice](..
 
 > 🏹 **Immortal Flare**
 >
-> | **Magic, Ranged** |                  **Maneuver** |
+> | **Magic, Ranged** |                  **[Maneuver](../rule/combat/turn.md)** |
 > |-------------------|------------------------------:|
 > | **📏 Ranged 10**  | **🎯 One creature or object** |
 >
@@ -22867,7 +22867,7 @@ At the start of any level 10 or higher war dog's turn, you can spend [Malice](..
 
 > ⚔️ **Houndgun and Houndblade ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Melee, Ranged, Strike, Weapon** |                 **Main action** |
+> | **Melee, Ranged, Strike, Weapon** |                 **[Main action](../rule/combat/turn.md)** |
 > |-----------------------------------|--------------------------------:|
 > | **📏 Melee 1 or ranged 10**       | **🎯 Two creatures or objects** |
 >
@@ -22883,7 +22883,7 @@ At the start of any level 10 or higher war dog's turn, you can spend [Malice](..
 
 > 🏹 **Focus Fire**
 >
-> | **Ranged**       |                  **Maneuver** |
+> | **Ranged**       |                  **[Maneuver](../rule/combat/turn.md)** |
 > |------------------|------------------------------:|
 > | **📏 Ranged 15** | **🎯 One creature or object** |
 >
@@ -22891,7 +22891,7 @@ At the start of any level 10 or higher war dog's turn, you can spend [Malice](..
 
 > ❗️ **Artillery Enfilade (2 [Malice](../rule/monster/malice.md))**
 >
-> | **Area, Ranged, Weapon**    |                        **Triggered action** |
+> | **Area, Ranged, Weapon**    |                        **[Triggered action](../rule/combat/triggered-action.md)** |
 > |-----------------------------|--------------------------------------------:|
 > | **📏 7 x 3 line within 10** | **🎯 Each creature and object in the area** |
 >
@@ -23009,7 +23009,7 @@ At the start of a werewolf's turn, you can spend [Malice](../rule/monster/malice
 
 > 🗡 **Accursed Bite ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Charge, Melee, Strike, Weapon** |               **Main action** |
+> | **Charge, Melee, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |-----------------------------------|------------------------------:|
 > | **📏 Melee 1**                    | **🎯 One creature or object** |
 >
@@ -23023,7 +23023,7 @@ At the start of a werewolf's turn, you can spend [Malice](../rule/monster/malice
 
 > 🗡 **Ripping Claws**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 1**            | **🎯 Two creatures or objects** |
 >
@@ -23035,7 +23035,7 @@ At the start of a werewolf's turn, you can spend [Malice](../rule/monster/malice
 
 > ❇️ **Berserker Slash (3 Malice)**
 >
-> | **Area, Weapon** |                          **Main action** |
+> | **Area, Weapon** |                          **[Main action](../rule/combat/turn.md)** |
 > |------------------|-----------------------------------------:|
 > | **📏 1 burst**   | **🎯 Each enemy and object in the area** |
 >
@@ -23049,7 +23049,7 @@ At the start of a werewolf's turn, you can spend [Malice](../rule/monster/malice
 
 > 👤 **Wall Leap**
 >
-> | **-**       | **Maneuver** |
+> | **-**       | **[Maneuver](../rule/combat/turn.md)** |
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
@@ -23057,7 +23057,7 @@ At the start of a werewolf's turn, you can spend [Malice](../rule/monster/malice
 
 > ❗️ **Facepalm and Head Slam (2 Malice)**
 >
-> | **Melee**      |           **Triggered action** |
+> | **Melee**      |           **[Triggered action](../rule/combat/triggered-action.md)** |
 > |----------------|-------------------------------:|
 > | **📏 Melee 1** | **🎯 The triggering creature** |
 >
@@ -23153,7 +23153,7 @@ At the start of any wyvern's turn, you can spend [Malice](../rule/monster/malice
 
 > 🗡 **Agonizing Stinger ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Magic, Strike, Weapon** |                 **Main action** |
+> | **Magic, Strike, Weapon** |                 **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 2**            | **🎯 Two creatures or objects** |
 >
@@ -23167,7 +23167,7 @@ At the start of any wyvern's turn, you can spend [Malice](../rule/monster/malice
 
 > 🗡 **Acidic Anguish (3 Malice)**
 >
-> | **Magic, Strike, Weapon** |               **Main action** |
+> | **Magic, Strike, Weapon** |               **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Melee 2**            | **🎯 One creature or object** |
 >
@@ -23181,7 +23181,7 @@ At the start of any wyvern's turn, you can spend [Malice](../rule/monster/malice
 
 > 👤 **Swooping Torment**
 >
-> | **-**       | **Maneuver** |
+> | **-**       | **[Maneuver](../rule/combat/turn.md)** |
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
@@ -23189,7 +23189,7 @@ At the start of any wyvern's turn, you can spend [Malice](../rule/monster/malice
 
 > ❗️ **Retaliatory Dive**
 >
-> | **Ranged**      |           **Triggered action** |
+> | **Ranged**      |           **[Triggered action](../rule/combat/triggered-action.md)** |
 > |-----------------|-------------------------------:|
 > | **📏 Ranged 5** | **🎯 The triggering creature** |
 >
@@ -23215,7 +23215,7 @@ At the start of any wyvern's turn, you can spend [Malice](../rule/monster/malice
 
 > 🗡 **Sedating Stinger ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Magic, Strike, Weapon** |                 **Main action** |
+> | **Magic, Strike, Weapon** |                 **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 3**            | **🎯 Two creatures or objects** |
 >
@@ -23229,7 +23229,7 @@ At the start of any wyvern's turn, you can spend [Malice](../rule/monster/malice
 
 > 🔳 **Tail Sweep**
 >
-> | **Area, Weapon**           |                          **Main action** |
+> | **Area, Weapon**           |                          **[Main action](../rule/combat/turn.md)** |
 > |----------------------------|-----------------------------------------:|
 > | **📏 6 x 3 line within 1** | **🎯 Each enemy and object in the area** |
 >
@@ -23243,7 +23243,7 @@ At the start of any wyvern's turn, you can spend [Malice](../rule/monster/malice
 
 > 🗡 **Grasping Jaws (2 Malice)**
 >
-> | **Magic, Strike, Weapon** |                  **Maneuver** |
+> | **Magic, Strike, Weapon** |                  **[Maneuver](../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Melee 2**            | **🎯 One creature or object** |
 >
@@ -23255,7 +23255,7 @@ At the start of any wyvern's turn, you can spend [Malice](../rule/monster/malice
 
 > ❗️ **Deterring Sting (1 Malice)**
 >
-> | **Melee**      |           **Triggered action** |
+> | **Melee**      |           **[Triggered action](../rule/combat/triggered-action.md)** |
 > |----------------|-------------------------------:|
 > | **📏 Melee 3** | **🎯 The triggering creature** |
 >
@@ -23329,7 +23329,7 @@ Overminds typically speak Za'hariax. Xorannox also speaks Caelian, Hyrallic, and
 
 > 🗡 **Toothful Thrashing ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Melee, Strike, Weapon** |                **Main action** |
+> | **Melee, Strike, Weapon** |                **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|-------------------------------:|
 > | **📏 Melee 1**            |  **🎯 One creature or object** |
 >
@@ -23341,7 +23341,7 @@ Overminds typically speak Za'hariax. Xorannox also speaks Caelian, Hyrallic, and
 
 > ❇️ **Grav Spike**
 >
-> | **Area, Psionic** |               **Main action** |
+> | **Area, Psionic** |               **[Main action](../rule/combat/turn.md)** |
 > |-------------------|------------------------------:|
 > | **📏 2 burst**    | **🎯 Each enemy in the area** |
 >
@@ -23355,7 +23355,7 @@ Overminds typically speak Za'hariax. Xorannox also speaks Caelian, Hyrallic, and
 
 > 👤 **Optical Collusion**
 >
-> | **-**       | **Maneuver** |
+> | **-**       | **[Maneuver](../rule/combat/turn.md)** |
 > |-------------|-------------:|
 > | **📏 Self** |  **🎯 Self** |
 >
@@ -23363,7 +23363,7 @@ Overminds typically speak Za'hariax. Xorannox also speaks Caelian, Hyrallic, and
 
 > 🔳 **Shutout (2 Malice)**
 >
-> | **Area**                   |   **Maneuver** |
+> | **Area**                   |   **[Maneuver](../rule/combat/turn.md)** |
 > |----------------------------|---------------:|
 > | **📏 5 x 2 line within 1** | **🎯 Special** |
 >
@@ -23371,7 +23371,7 @@ Overminds typically speak Za'hariax. Xorannox also speaks Caelian, Hyrallic, and
 
 > ❗️ **Cower!**
 >
-> | **Psionic, Ranged** |           **Triggered action** |
+> | **Psionic, Ranged** |           **[Triggered action](../rule/combat/triggered-action.md)** |
 > |---------------------|-------------------------------:|
 > | **📏 Ranged 10**    | **🎯 The triggering creature** |
 >
@@ -23425,7 +23425,7 @@ Overminds typically speak Za'hariax. Xorannox also speaks Caelian, Hyrallic, and
 
 > 🏹 **Compulsion Beam ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Psionic, Ranged, Strike** |     **Main action** |
+> | **Psionic, Ranged, Strike** |     **[Main action](../rule/combat/turn.md)** |
 > |-----------------------------|--------------------:|
 > | **📏 Ranged 6**             | **🎯 One creature** |
 >
@@ -23451,7 +23451,7 @@ Overminds typically speak Za'hariax. Xorannox also speaks Caelian, Hyrallic, and
 
 > 🔳 **Explosion ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Psionic, Ranged, Strike** |               **Main action** |
+> | **Psionic, Ranged, Strike** |               **[Main action](../rule/combat/turn.md)** |
 > |-----------------------------|------------------------------:|
 > | **📏 4 cube within 10**     | **🎯 Each enemy in the area** |
 >
@@ -23475,7 +23475,7 @@ Overminds typically speak Za'hariax. Xorannox also speaks Caelian, Hyrallic, and
 
 > 🏹 **Telekinetic Beam ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Psionic, Ranged, Strike** |                 **Main action** |
+> | **Psionic, Ranged, Strike** |                 **[Main action](../rule/combat/turn.md)** |
 > |-----------------------------|--------------------------------:|
 > | **📏 Ranged 6**             | **🎯 Two creatures or objects** |
 >
@@ -23499,7 +23499,7 @@ Overminds typically speak Za'hariax. Xorannox also speaks Caelian, Hyrallic, and
 
 > 🏹 **Necro Beam ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Psionic, Ranged, Strike** |               **Main action** |
+> | **Psionic, Ranged, Strike** |               **[Main action](../rule/combat/turn.md)** |
 > |-----------------------------|------------------------------:|
 > | **📏 Ranged 10**            | **🎯 One creature or object** |
 >
@@ -23525,7 +23525,7 @@ Overminds typically speak Za'hariax. Xorannox also speaks Caelian, Hyrallic, and
 
 > 🔳 **Toxic Vapors ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Area, Psionic, Ranged** |               **Main action** |
+> | **Area, Psionic, Ranged** |               **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 4 cube within 10**   | **🎯 Each enemy in the area** |
 >
@@ -23549,7 +23549,7 @@ Overminds typically speak Za'hariax. Xorannox also speaks Caelian, Hyrallic, and
 
 > 🔳 **Lightning Beam ([Signature Ability](../rule/combat/signature-ability.md))**
 >
-> | **Area, Psionic**           |               **Main action** |
+> | **Area, Psionic**           |               **[Main action](../rule/combat/turn.md)** |
 > |-----------------------------|------------------------------:|
 > | **📏 10 x 1 line within 1** | **🎯 Each enemy in the area** |
 >

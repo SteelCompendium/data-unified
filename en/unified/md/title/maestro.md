@@ -22,7 +22,7 @@ type: title
 >
 > *Helloooo [Orden](scc.v1:mcdm.heroes.v1/rule.world/orden)!*
 >
-> | **Area, Magic** |                  **Main action** |
+> | **Area, Magic** |                  **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-----------------|---------------------------------:|
 > | **📏 5 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)**  | **🎯 Each creature in the area** |
 >

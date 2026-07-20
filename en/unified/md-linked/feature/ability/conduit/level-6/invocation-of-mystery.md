@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](../../../../rule/combat/turn.md)'
 class: conduit
 cost: 9 Piety
 distance: 4 [burst](../../../../rule/combat/burst.md)
@@ -19,7 +19,7 @@ type: ability
 
 *"Now you see us..."*
 
-| **Area, Magic**  |                          **Maneuver** |
+| **Area, Magic**  |                          **[Maneuver](../../../../rule/combat/turn.md)** |
 |------------------|--------------------------------------:|
 | **📏 4 [burst](../../../../rule/combat/burst.md)**   | **🎯 Self and each ally in the area** |
 

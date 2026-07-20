@@ -14,7 +14,7 @@ You have the following ability.
 
 *An animal spirit is drawn to you, sharing their senses with you and serving you faithfully.*
 
-| **Magic**   |  **Main action** |
+| **Magic**   |  **[Main action](../../../rule/combat/turn.md)** |
 |-------------|-----------------:|
 | **📏 Self** |      **🎯 Self** |
 

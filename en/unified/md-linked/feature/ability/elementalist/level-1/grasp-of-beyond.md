@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: elementalist
 distance: '[Melee](../../../../rule/combat/melee.md) 1'
 effect: You can [teleport](../../../../movement/teleport.md) up to a number of squares equal to your [Reason](../../../../rule/character/reason.md) score.
@@ -24,7 +24,7 @@ type: ability
 
 *You absorb the life energy of another creature and use it to [teleport](../../../../movement/teleport.md).*
 
-| **Magic, [Melee](../../../../rule/combat/melee.md), [Strike](../../../../rule/combat/strike.md), Void** |     **Main action** |
+| **Magic, [Melee](../../../../rule/combat/melee.md), [Strike](../../../../rule/combat/strike.md), Void** |     **[Main action](../../../../rule/combat/turn.md)** |
 |--------------------------------|--------------------:|
 | **📏 [Melee](../../../../rule/combat/melee.md) 1**                 | **🎯 One creature** |
 

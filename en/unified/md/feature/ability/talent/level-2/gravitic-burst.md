@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: talent
 cost: 5 Clarity
 distance: 1 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)
@@ -23,7 +23,7 @@ type: ability
 
 *Everyone get away from me!*
 
-| **Area, Psionic, Telekinesis** |               **Main action** |
+| **Area, Psionic, Telekinesis** |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 |--------------------------------|------------------------------:|
 | **📏 1 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)**                 | **🎯 Each enemy in the area** |
 

@@ -32,7 +32,7 @@ type: statblock
 
 > 🏹 **Infernal Injunction (Signature Ability)**
 >
-> | **Magic, Ranged, Strike** |                 **Main action** | 
+> | **Magic, Ranged, Strike** |                 **[Main action](../../../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Ranged 10**          | **🎯 Two creatures or objects** |
 >
@@ -46,7 +46,7 @@ type: statblock
 
 > 🏹 **Adjudicator's Interdiction**
 >
-> | **Magic, Ranged** |     **Main action** | 
+> | **Magic, Ranged** |     **[Main action](../../../rule/combat/turn.md)** |
 > |-------------------|--------------------:|
 > | **📏 Ranged 10**  | **🎯 One creature** |
 >
@@ -58,7 +58,7 @@ type: statblock
 
 > 🏹 **Quid Pro Quo**
 >
-> | **Magic, Ranged** |                           **Maneuver** |
+> | **Magic, Ranged** |                           **[Maneuver](../../../rule/combat/turn.md)** |
 > |-------------------|---------------------------------------:|
 > | **📏 Ranged 10**  | **🎯 One ally or [frightened](../../../condition/frightened.md) creature** |
 >
@@ -66,7 +66,7 @@ type: statblock
 
 > ❗️ **Devilish Charm (2 [Malice](../../../rule/monster/malice.md))**
 >
-> | **Magic, Ranged** |           **Triggered action** |
+> | **Magic, Ranged** |           **[Triggered action](../../../rule/combat/triggered-action.md)** |
 > |-------------------|-------------------------------:|
 > | **📏 Ranged 5**   | **🎯 The triggering creature** |
 >

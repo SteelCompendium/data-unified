@@ -8,9 +8,9 @@ flavor: Foes tremble at the sight of you.
 keywords:
     - Magic
 metadata:
-    action_type: Maneuver
+    action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: fury
-    content: "\n*Foes tremble at the sight of you.*\n\n| **Magic**   | **Maneuver** |\n|-------------|-------------:|\n| **\U0001F4CF Self** |  **\U0001F3AF Self** |\n\n**Effect:** Until the end of the encounter or until you are [dying](scc.v1:mcdm.heroes.v1/rule.health/dying), each enemy who starts their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to you and has P < STRONG is [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) until the end of their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn)."
+    content: "\n*Foes tremble at the sight of you.*\n\n| **Magic**   | **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|-------------|-------------:|\n| **\U0001F4CF Self** |  **\U0001F3AF Self** |\n\n**Effect:** Until the end of the encounter or until you are [dying](scc.v1:mcdm.heroes.v1/rule.health/dying), each enemy who starts their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to you and has P < STRONG is [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) until the end of their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn)."
     distance: Self
     feature_type: ability
     flavor: Foes tremble at the sight of you.
@@ -26,4 +26,4 @@ metadata:
 name: Demon Unleashed
 target: Self
 type: feature
-usage: Maneuver
+usage: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'

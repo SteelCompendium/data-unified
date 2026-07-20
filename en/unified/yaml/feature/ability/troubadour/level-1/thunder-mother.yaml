@@ -14,9 +14,9 @@ keywords:
     - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'
     - '[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)'
 metadata:
-    action_type: No action
+    action_type: '[No action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: troubadour
-    content: "\n*All for thunder motherrr! ♪ Run and hide for coverrr!♪*\n\n| **Magic, Performance, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)** |       **No action** |\n|----------------------------------------|--------------------:|\n| **\U0001F4CF [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**                       | **\U0001F3AF One creature** |\n\n**Effect:** At the end of each [combat round](scc.v1:mcdm.heroes.v1/rule.combat/combat-round) while this performance is active, you can make a [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) against the target that ignores [cover](scc.v1:mcdm.heroes.v1/rule.combat/cover). You can't target the same creature twice with this effect.\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence):**\n\n- **≤11:** Lightning damage equal to your level\n- **12-16:** Lightning damage equal to 5 + your level\n- **17+:** Lightning damage equal to 10 + your level"
+    content: "\n*All for thunder motherrr! ♪ Run and hide for coverrr!♪*\n\n| **Magic, Performance, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)** |       **[No action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|----------------------------------------|--------------------:|\n| **\U0001F4CF [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**                       | **\U0001F3AF One creature** |\n\n**Effect:** At the end of each [combat round](scc.v1:mcdm.heroes.v1/rule.combat/combat-round) while this performance is active, you can make a [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) against the target that ignores [cover](scc.v1:mcdm.heroes.v1/rule.combat/cover). You can't target the same creature twice with this effect.\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence):**\n\n- **≤11:** Lightning damage equal to your level\n- **12-16:** Lightning damage equal to 5 + your level\n- **17+:** Lightning damage equal to 10 + your level"
     distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
     feature_type: ability
     flavor: All for thunder motherrr! ♪ Run and hide for coverrr!♪
@@ -36,4 +36,4 @@ metadata:
 name: '"Thunder Mother"'
 target: One creature
 type: feature
-usage: No action
+usage: '[No action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'

@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](../../../../rule/combat/turn.md)'
 class: fury
 cost: 5 Ferocity
 distance: Self; see below
@@ -22,7 +22,7 @@ type: ability
 
 *It's easier to destroy than to create. Much easier, in fact!*
 
-| **[Melee](../../../../rule/combat/melee.md), Weapon**      | **Maneuver** |
+| **[Melee](../../../../rule/combat/melee.md), Weapon**      | **[Maneuver](../../../../rule/combat/turn.md)** |
 |------------------------|-------------:|
 | **📏 Self; see below** |  **🎯 Self** |
 

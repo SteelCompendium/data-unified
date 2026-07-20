@@ -31,7 +31,7 @@ type: statblock
 
 > 🗡 **Infernal Pike (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](../../../rule/combat/turn.md)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 2**            | **🎯 Two creatures or objects** |
 >
@@ -45,7 +45,7 @@ type: statblock
 
 > 🗡 **Writ of Execution**
 >
-> | **Charge, Melee, Strike, Weapon** |                 **Main action** |
+> | **Charge, Melee, Strike, Weapon** |                 **[Main action](../../../rule/combat/turn.md)** |
 > |-----------------------------------|--------------------------------:|
 > | **📏 Melee 2**                    | **🎯 Two creatures or objects** |
 >
@@ -59,7 +59,7 @@ type: statblock
 
 > 🗡 **Law and Order**
 >
-> | **Melee**      |        **Maneuver** |
+> | **Melee**      |        **[Maneuver](../../../rule/combat/turn.md)** |
 > |----------------|--------------------:|
 > | **📏 Melee 1** | **🎯 One creature** |
 >
@@ -67,7 +67,7 @@ type: statblock
 
 > ❗️ **Devilish Charm (2 [Malice](../../../rule/monster/malice.md))**
 >
-> | **Magic, Ranged** |           **Triggered action** |
+> | **Magic, Ranged** |           **[Triggered action](../../../rule/combat/triggered-action.md)** |
 > |-------------------|-------------------------------:|
 > | **📏 Ranged 5**   | **🎯 The triggering creature** |
 >

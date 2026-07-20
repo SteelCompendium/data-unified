@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: talent
 cost: 11 Clarity
 distance: '[Melee](../../../../rule/combat/melee.md) 2'
@@ -24,7 +24,7 @@ type: ability
 
 *You attempt to make them forget all their training.*
 
-| **[Melee](../../../../rule/combat/melee.md), Psionic, [Strike](../../../../rule/combat/strike.md), Telepathy** |     **Main action** |
+| **[Melee](../../../../rule/combat/melee.md), Psionic, [Strike](../../../../rule/combat/strike.md), Telepathy** |     **[Main action](../../../../rule/combat/turn.md)** |
 |---------------------------------------|--------------------:|
 | **📏 [Melee](../../../../rule/combat/melee.md) 2**                        | **🎯 One creature** |
 

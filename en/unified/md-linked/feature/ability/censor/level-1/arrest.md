@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: censor
 cost: 5 Wrath
 distance: '[Melee](../../../../rule/combat/melee.md) 1'
@@ -24,7 +24,7 @@ type: ability
 
 *"I got you, you son of a bitch."*
 
-| **Magic, [Melee](../../../../rule/combat/melee.md), [Strike](../../../../rule/combat/strike.md), Weapon** |               **Main action** |
+| **Magic, [Melee](../../../../rule/combat/melee.md), [Strike](../../../../rule/combat/strike.md), Weapon** |               **[Main action](../../../../rule/combat/turn.md)** |
 |----------------------------------|------------------------------:|
 | **📏 [Melee](../../../../rule/combat/melee.md) 1**                   |           **🎯 One creature** |
 

@@ -6,11 +6,14 @@ file_dpath: treasure/1st-echelon/trinket
 flavor: This gold collar is bedazzled with semiprecious gems spelling out a cute pet name.
 item_id: precious-collar
 item_name: Precious Collar
+item_prerequisite: One collar worn by a royal pet
 keywords:
     - Magic
     - Neck
 name: Precious Collar
 project_goal: "150"
+project_roll_characteristic: Reason or Intuition
+project_source: Texts or lore in Vaslorian
 scc: mcdm.beastheart.v1/treasure.1st-echelon.trinket/precious-collar
 source: mcdm.beastheart.v1
 treasure_type: trinket

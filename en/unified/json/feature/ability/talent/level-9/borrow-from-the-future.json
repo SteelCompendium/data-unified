@@ -15,9 +15,9 @@
     "Psionic"
   ],
   "metadata": {
-    "action_type": "Maneuver",
+    "action_type": "[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)",
     "class": "talent",
-    "content": "\n*You lean on future heroism to assist you in the now.*\n\n| **Area, Chronopathy, Psionic** |                 **Maneuver** |\n|--------------------------------|-----------------------------:|\n| **📏 2 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)**                 | **🎯 Each ally in the area** |\n\n**Effect:** The targets share 6 of their [Heroic Resource](scc.v1:mcdm.heroes.v1/rule.resource/heroic-resource) among themselves, as you determine. A target can't gain more than 3 of their [Heroic Resource](scc.v1:mcdm.heroes.v1/rule.resource/heroic-resource) this way. After using this ability, you can't gain any clarity until the end of the next [combat round](scc.v1:mcdm.heroes.v1/rule.combat/combat-round).",
+    "content": "\n*You lean on future heroism to assist you in the now.*\n\n| **Area, Chronopathy, Psionic** |                 **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|--------------------------------|-----------------------------:|\n| **📏 2 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)**                 | **🎯 Each ally in the area** |\n\n**Effect:** The targets share 6 of their [Heroic Resource](scc.v1:mcdm.heroes.v1/rule.resource/heroic-resource) among themselves, as you determine. A target can't gain more than 3 of their [Heroic Resource](scc.v1:mcdm.heroes.v1/rule.resource/heroic-resource) this way. After using this ability, you can't gain any clarity until the end of the next [combat round](scc.v1:mcdm.heroes.v1/rule.combat/combat-round).",
     "distance": "2 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)",
     "feature_type": "ability",
     "flavor": "You lean on future heroism to assist you in the now.",
@@ -39,5 +39,5 @@
   "name": "Borrow From the Future",
   "target": "Each ally in the area",
   "type": "feature",
-  "usage": "Maneuver"
+  "usage": "[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)"
 }

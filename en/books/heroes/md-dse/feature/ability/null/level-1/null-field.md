@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: "null"
 distance: 1 [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura)
 effect: Each target reduces their [potencies](scc.v1:mcdm.heroes.v1/rule.character/potency) by 1.
@@ -30,7 +30,7 @@ keywords:
     - Area
     - Psionic
 metadata:
-    action_type: Maneuver
+    action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: "null"
     distance: 1 [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura)
     effect: Each target reduces their [potencies](scc.v1:mcdm.heroes.v1/rule.character/potency) by 1.
@@ -46,5 +46,5 @@ metadata:
 name: Null Field
 target: Each enemy in the area
 type: feature
-usage: Maneuver
+usage: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 ```

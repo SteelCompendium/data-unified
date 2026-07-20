@@ -17,9 +17,9 @@
     "Void"
   ],
   "metadata": {
-    "action_type": "Main action",
+    "action_type": "[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)",
     "class": "elementalist",
-    "content": "\n*You create a terrarium that spans from canopy above to underbrush below.*\n\n| **Area, Earth, Green, Magic, Void** | **Main action** |\n|-------------------------------------|----------------:|\n| **📏 4 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)**                      |  **🎯 Special** |\n\n**Effect:** The area becomes dark and verdant, with trees and plant life appearing in unoccupied spaces within it until the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn). The area is [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain) for enemies, and any ally who ends their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) in the area has [cover](scc.v1:mcdm.heroes.v1/rule.combat/cover).\n\n**Persistent 2:** The area remains until the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn). Additionally, at the start of your [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), each ally in the area can spend a [Recovery](scc.v1:mcdm.heroes.v1/rule.health/recoveries).",
+    "content": "\n*You create a terrarium that spans from canopy above to underbrush below.*\n\n| **Area, Earth, Green, Magic, Void** | **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|-------------------------------------|----------------:|\n| **📏 4 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)**                      |  **🎯 Special** |\n\n**Effect:** The area becomes dark and verdant, with trees and plant life appearing in unoccupied spaces within it until the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn). The area is [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain) for enemies, and any ally who ends their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) in the area has [cover](scc.v1:mcdm.heroes.v1/rule.combat/cover).\n\n**Persistent 2:** The area remains until the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn). Additionally, at the start of your [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), each ally in the area can spend a [Recovery](scc.v1:mcdm.heroes.v1/rule.health/recoveries).",
     "distance": "4 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)",
     "feature_type": "ability",
     "flavor": "You create a terrarium that spans from canopy above to underbrush below.",
@@ -42,5 +42,5 @@
   "name": "The Wode Remembers and Returns",
   "target": "Special",
   "type": "feature",
-  "usage": "Main action"
+  "usage": "[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)"
 }

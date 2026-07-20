@@ -3,6 +3,7 @@ agility: 2
 cost: 5 essence for three minions
 flavor: This elemental is a pure-white vulpine with six legs that freely sprints through the air. Their howls are telepathic, washing over the receivers with a strong chill and a wave of goosebumps.
 free_strike: 4
+free_strike_damage_type: Cold
 immunities:
     - Sonic R
     - Cold R
@@ -37,7 +38,7 @@ This elemental is a pure-white vulpine with six legs that freely sprints through
 
 > 🏹 **Freezing Howl 2d10 + R (Signature Ability)**
 >
-> | **Magic, Ranged, Strike** | **Main action** |
+> | **Magic, Ranged, Strike** | **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |---------------------------|----------------:|
 > | **📏 Ranged 5** | **🎯 One creature or object per minion** |
 >

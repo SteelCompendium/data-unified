@@ -97,7 +97,7 @@ A spinning wooden column is affixed with sharp blades to slash the unwary.
 
 > ❗️ **Spinning Blades**
 >
-> | **Melee, Strike, Weapon** |                **Free triggered action** |
+> | **Melee, Strike, Weapon** |                **Free [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |
 > |---------------------------|-----------------------------------------:|
 > | **📏 Melee 1**            | **🎯 The triggering creature or object** |
 >
@@ -121,7 +121,7 @@ A spinning wooden column is affixed with sharp blades to slash the unwary.
 
 > ❗️ **Whirling Flails**
 >
-> | **Melee, Strike, Weapon** |                **Free triggered action** |
+> | **Melee, Strike, Weapon** |                **Free [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)** |
 > |---------------------------|-----------------------------------------:|
 > | **📏 Melee 2**            | **🎯 The triggering creature or object** |
 >

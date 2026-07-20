@@ -40,7 +40,7 @@ At the start of any level 10 or higher war dog's turn, you can spend [Malice](..
 
 > ❇️ **Cry Havoc (7 [Malice](../../../rule/monster/malice.md))**
 >
-> | **Area, Magic** |                  **Maneuver** |
+> | **Area, Magic** |                  **[Maneuver](../../../rule/combat/turn.md)** |
 > |-----------------|------------------------------:|
 > | **📏 3 burst**  | **🎯 Each enemy in the area** |
 >

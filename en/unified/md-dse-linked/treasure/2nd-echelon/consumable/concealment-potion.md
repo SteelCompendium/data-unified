@@ -6,12 +6,14 @@ file_dpath: treasure/2nd-echelon/consumable
 flavor: This dark, viscous liquid tastes like burnt leaves.
 item_id: concealment-potion
 item_name: Concealment Potion
+item_prerequisite: An ounce of sap from a tree damaged by psionic fire
 keywords:
     - Potion
     - Psionic
 name: Concealment Potion
 project_goal: "90"
 project_roll_characteristic: '[Agility](../../../rule/character/agility.md) or [Intuition](../../../rule/character/intuition.md)'
+project_source: Texts or lore in Yllyric
 scc: mcdm.heroes.v1/treasure.2nd-echelon.consumable/concealment-potion
 source: mcdm.heroes.v1
 treasure_type: consumable

@@ -71,7 +71,7 @@ A shallow, frozen patch of water features ice thick enough that it won't break, 
 
 > ❗️ **Slippery Surface**
 >
-> | **Melee, Strike** |                **Free triggered action** |
+> | **Melee, Strike** |                **Free [triggered action](../../rule/combat/triggered-action.md)** |
 > |-------------------|-----------------------------------------:|
 > | **📏 Melee 0**    | **🎯 The triggering creature or object** |
 >
@@ -95,7 +95,7 @@ A shallow, frozen patch of water features ice thick enough that it won't break, 
 
 > **Power Roll + 2:**
 >
-> | **Melee, Strike** |                **Free triggered action** |
+> | **Melee, Strike** |                **Free [triggered action](../../rule/combat/triggered-action.md)** |
 > |-------------------|-----------------------------------------:|
 > | **📏 Melee 0**    | **🎯 The triggering creature or object** |
 >

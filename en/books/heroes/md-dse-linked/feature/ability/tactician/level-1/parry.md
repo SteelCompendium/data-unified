@@ -1,5 +1,5 @@
 ---
-action_type: Triggered
+action_type: '[Triggered](../../../../rule/combat/triggered-action.md)'
 class: tactician
 distance: '[Melee](../../../../rule/combat/melee.md) 2'
 effect: You can [shift](../../../../movement/shifting.md) 1 square. If the target is you, or if you end this [shift](../../../../movement/shifting.md) [adjacent](../../../../rule/combat/adjacent.md) to the target, the target takes half the damage. If the damage has any [potency](../../../../rule/character/potency.md) effect associated with it, the [potency](../../../../rule/character/potency.md) is decreased by 1.
@@ -36,7 +36,7 @@ keywords:
     - '[Melee](../../../../rule/combat/melee.md)'
     - Weapon
 metadata:
-    action_type: Triggered
+    action_type: '[Triggered](../../../../rule/combat/triggered-action.md)'
     class: tactician
     distance: '[Melee](../../../../rule/combat/melee.md) 2'
     effect: You can [shift](../../../../movement/shifting.md) 1 square. If the target is you, or if you end this [shift](../../../../movement/shifting.md) [adjacent](../../../../rule/combat/adjacent.md) to the target, the target takes half the damage. If the damage has any [potency](../../../../rule/character/potency.md) effect associated with it, the [potency](../../../../rule/character/potency.md) is decreased by 1.
@@ -57,5 +57,5 @@ name: Parry
 target: Self or one ally
 trigger: A creature deals damage to the target.
 type: feature
-usage: Triggered
+usage: '[Triggered](../../../../rule/combat/triggered-action.md)'
 ```

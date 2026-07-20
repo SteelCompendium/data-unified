@@ -6,12 +6,14 @@ file_dpath: treasure/1st-echelon/trinket
 flavor: A steel helm is set with two curved ebony horns, a crackling plume of fire floating between them.
 item_id: hellcharger-helm
 item_name: Hellcharger Helm
+item_prerequisite: One broken contract, one ingot of steel
 keywords:
     - Head
     - Magic
 name: Hellcharger Helm
 project_goal: "150"
 project_roll_characteristic: '[Might](../../../rule/character/might.md) or [Reason](../../../rule/character/reason.md)'
+project_source: Texts or lore in Anjali and Caelian
 scc: mcdm.heroes.v1/treasure.1st-echelon.trinket/hellcharger-helm
 source: mcdm.heroes.v1
 treasure_type: trinket

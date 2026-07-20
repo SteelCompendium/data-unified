@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](../../../../rule/combat/turn.md)'
 class: elementalist
 cost: 5 Essence
 distance: 3 [cube](../../../../rule/combat/cube.md) within 10
@@ -21,7 +21,7 @@ type: ability
 
 *Revitalizing plants and jagged stones grow, helping allies and hindering foes.*
 
-| **Area, Earth, Green, Magic, [Ranged](../../../../rule/combat/ranged.md)** |   **Maneuver** |
+| **Area, Earth, Green, Magic, [Ranged](../../../../rule/combat/ranged.md)** |   **[Maneuver](../../../../rule/combat/turn.md)** |
 |---------------------------------------|---------------:|
 | **📏 3 [cube](../../../../rule/combat/cube.md) within 10**               | **🎯 Special** |
 

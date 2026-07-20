@@ -31,7 +31,7 @@ type: statblock
 
 > 🗡 **Water Wing (Signature Ability)**
 >
-> | **Magic, Melee, Strike** |                 **Main action** |
+> | **Magic, Melee, Strike** |                 **[Main action](../../../rule/combat/turn.md)** |
 > |--------------------------|--------------------------------:|
 > | **📏 Melee 1**           | **🎯 Two creatures or objects** |
 >
@@ -45,7 +45,7 @@ type: statblock
 
 > 🏹 **Convocation of Waves**
 >
-> | **Magic, Ranged** |                 **Maneuver** |
+> | **Magic, Ranged** |                 **[Maneuver](../../../rule/combat/turn.md)** |
 > |-------------------|-----------------------------:|
 > | **📏 Ranged 5**   | **🎯 Self or one elemental** |
 >
@@ -55,7 +55,7 @@ type: statblock
 
 > ❗️ **Sea-Salted Wounds (1 [Malice](../../../rule/monster/malice.md))**
 >
-> | **Melee**      | **Triggered action** |
+> | **Melee**      | **[Triggered action](../../../rule/combat/triggered-action.md)** |
 > |----------------|---------------------:|
 > | **📏 Melee 1** |     **🎯 One enemy** |
 >

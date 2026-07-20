@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: talent
 cost: 9 Clarity
 distance: 5 x 2 line within 1
@@ -24,7 +24,7 @@ type: ability
 
 *You move fast enough to [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) around and watch your foes feel the aftermath.*
 
-| **Area, Charge, Psionic, Telekinesis** |               **Main action** |
+| **Area, Charge, Psionic, Telekinesis** |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 |----------------------------------------|------------------------------:|
 | **📏 5 x 2 line within 1**             | **🎯 Each enemy in the area** |
 

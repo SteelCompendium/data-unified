@@ -48,7 +48,7 @@ At the start of any radenwight's turn, you can spend [Malice](../../rule/monster
 
 > 🗡 **Trouser Cut (3 [Malice](../../rule/monster/malice.md))**
 >
-> | **Melee, Strike, Weapon** |     **Main action** |
+> | **Melee, Strike, Weapon** |     **[Main action](../../rule/combat/turn.md)** |
 > |---------------------------|--------------------:|
 > | **📏 Melee 1**            | **🎯 One creature** |
 >

@@ -32,7 +32,7 @@ type: statblock
 
 > 🔳 **Twystrd (Signature Ability)**
 >
-> | **Area, Magic**        |               **Main action** |
+> | **Area, Magic**        |               **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |------------------------|------------------------------:|
 > | **📏 1 cube within 5** | **🎯 Each enemy in the area** |
 >
@@ -46,7 +46,7 @@ type: statblock
 
 > 🏹 **Summon Elemental (2 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
-> | **Ranged**      |   **Maneuver** |
+> | **Ranged**      |   **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-----------------|---------------:|
 > | **📏 Ranged 5** | **🎯 Special** |
 >
@@ -54,7 +54,7 @@ type: statblock
 
 > 🔳 **Wyrd Warp (2 Malice)**
 >
-> | **Area, Magic**        |   **Maneuver** |
+> | **Area, Magic**        |   **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |------------------------|---------------:|
 > | **📏 8 wall within 8** | **🎯 Special** |
 >

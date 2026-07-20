@@ -1,5 +1,5 @@
 ---
-action_type: Triggered
+action_type: '[Triggered](../../../../rule/combat/triggered-action.md)'
 class: troubadour
 cost: 3 Drama
 distance: '[Ranged](../../../../rule/combat/ranged.md) 5'
@@ -21,7 +21,7 @@ type: ability
 
 *Give the chorus a little punch.*
 
-| **[Ranged](../../../../rule/combat/ranged.md)**      |   **Triggered** |
+| **[Ranged](../../../../rule/combat/ranged.md)**      |   **[Triggered](../../../../rule/combat/triggered-action.md)** |
 |-----------------|----------------:|
 | **📏 [Ranged](../../../../rule/combat/ranged.md) 5** | **🎯 One ally** |
 

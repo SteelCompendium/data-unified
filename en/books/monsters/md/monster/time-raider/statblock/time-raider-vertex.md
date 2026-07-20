@@ -32,7 +32,7 @@ type: statblock
 
 > 🗡 **Psionic Slam ([Signature Ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability))**
 >
-> | **Melee, Psionic, Strike** |     **Main action** |
+> | **Melee, Psionic, Strike** |     **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |----------------------------|--------------------:|
 > | **📏 Melee 2**             | **🎯 One creature** |
 >
@@ -46,7 +46,7 @@ type: statblock
 
 > 🔳 **Split Space (5 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
-> | **Area, Psionic, Ranged** | **Main action** |
+> | **Area, Psionic, Ranged** | **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |---------------------------|----------------:|
 > | **📏 2 cube within 10**   |  **🎯 Special** |
 >
@@ -54,7 +54,7 @@ type: statblock
 
 > ❇️ **Invigorated March**
 >
-> | **Area, Psionic** |                 **Maneuver** |
+> | **Area, Psionic** |                 **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-------------------|-----------------------------:|
 > | **📏 4 burst**    | **🎯 Each ally in the area** |
 >

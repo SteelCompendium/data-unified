@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: elementalist
 distance: 2 [cube](../../../../rule/combat/cube.md) within 10
 effect: The ground beneath the area is [difficult terrain](../../../../movement/difficult-terrain.md) for enemies.
@@ -24,7 +24,7 @@ type: ability
 
 *A sudden storm of detritus assaults your foes and leaves them struggling to move.*
 
-| **Area, Earth, Magic, [Ranged](../../../../rule/combat/ranged.md)** |               **Main action** |
+| **Area, Earth, Magic, [Ranged](../../../../rule/combat/ranged.md)** |               **[Main action](../../../../rule/combat/turn.md)** |
 |--------------------------------|------------------------------:|
 | **📏 2 [cube](../../../../rule/combat/cube.md) within 10**        | **🎯 Each enemy in the area** |
 

@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: shadow
 cost: 9 Insight
 cost_amount: "9"
@@ -41,7 +41,7 @@ flavor: Each ally who catches a potion you throw can take the battle to the next
 keywords:
     - '[Ranged](../../../../rule/combat/ranged.md)'
 metadata:
-    action_type: Main action
+    action_type: '[Main action](../../../../rule/combat/turn.md)'
     class: shadow
     cost: 9 Insight
     distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
@@ -62,5 +62,5 @@ metadata:
 name: One Vial Makes You Faster
 target: Three creatures
 type: feature
-usage: Main action
+usage: '[Main action](../../../../rule/combat/turn.md)'
 ```

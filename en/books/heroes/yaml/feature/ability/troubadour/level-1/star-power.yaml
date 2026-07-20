@@ -9,9 +9,9 @@ feature_type: ability
 flavor: Your years of practicing fencing and dancing pay off on the battlefield.
 keywords: []
 metadata:
-    action_type: Maneuver
+    action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: troubadour
-    content: "\n*Your years of practicing fencing and dancing pay off on the battlefield.*\n\n| **-**       | **Maneuver** |\n|-------------|-------------:|\n| **\U0001F4CF Self** |  **\U0001F3AF Self** |\n\n**Effect:** You gain a +2 [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to [speed](scc.v1:mcdm.heroes.v1/rule.character/speed) until the end of your [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn). Additionally, the next [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) you make this [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) can't have an outcome lower than tier 2.\n\n**Spend 1 Drama:** You gain a +4 [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to [speed](scc.v1:mcdm.heroes.v1/rule.character/speed) instead."
+    content: "\n*Your years of practicing fencing and dancing pay off on the battlefield.*\n\n| **-**       | **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |\n|-------------|-------------:|\n| **\U0001F4CF Self** |  **\U0001F3AF Self** |\n\n**Effect:** You gain a +2 [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to [speed](scc.v1:mcdm.heroes.v1/rule.character/speed) until the end of your [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn). Additionally, the next [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) you make this [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) can't have an outcome lower than tier 2.\n\n**Spend 1 Drama:** You gain a +4 [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to [speed](scc.v1:mcdm.heroes.v1/rule.character/speed) instead."
     distance: Self
     feature_type: ability
     flavor: Your years of practicing fencing and dancing pay off on the battlefield.
@@ -27,4 +27,4 @@ metadata:
 name: Star Power
 target: Self
 type: feature
-usage: Maneuver
+usage: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'

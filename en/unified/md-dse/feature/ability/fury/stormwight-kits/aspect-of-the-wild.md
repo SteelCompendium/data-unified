@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: fury
 distance: Self
 effect: You can shapeshift into the animal defined by your stormwight kit, into a hybrid form, or back into your true form. While in [animal form](scc.v1:mcdm.heroes.v1/complication/animal-form) or hybrid form, you can speak as you usually do, and you can also speak to animals who share your form. If you are in a negotiation with an animal while in [animal form](scc.v1:mcdm.heroes.v1/complication/animal-form), you treat your [Renown](scc.v1:mcdm.heroes.v1/rule.resource/renown) as 2 higher than usual.
@@ -30,7 +30,7 @@ flavor: You assume the form of the animal who channels your ferocity.
 keywords:
     - Magic
 metadata:
-    action_type: Maneuver
+    action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: fury
     distance: Self
     effect: You can shapeshift into the animal defined by your stormwight kit, into a hybrid form, or back into your true form. While in [animal form](scc.v1:mcdm.heroes.v1/complication/animal-form) or hybrid form, you can speak as you usually do, and you can also speak to animals who share your form. If you are in a negotiation with an animal while in [animal form](scc.v1:mcdm.heroes.v1/complication/animal-form), you treat your [Renown](scc.v1:mcdm.heroes.v1/rule.resource/renown) as 2 higher than usual.
@@ -45,5 +45,5 @@ metadata:
 name: Aspect of the Wild
 target: Self
 type: feature
-usage: Maneuver
+usage: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 ```

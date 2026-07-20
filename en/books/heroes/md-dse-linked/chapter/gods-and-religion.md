@@ -52,7 +52,7 @@ As much as it annoys the great and the good, the gods view all mortals as equals
 
 The gods and [saints](../rule/world/saint.md) presented in this chapter are popular and well-known. Their priests, shamans, or god-callers serve the public weal and tend to the souls of the people.
 
-But the world is not for heroes alone. There are villains, as well as those who are simply mis[guide](../rule/downtime/guide.md)d or desperate. Every pantheon has [saints](../rule/world/saint.md), even gods, who teach the virtues of selfishness, cruelty, the pursuit of power for its own sake, and the right of the strong to do as they please.
+But the world is not for heroes alone. There are villains, as well as those who are simply misguided or desperate. Every pantheon has [saints](../rule/world/saint.md), even gods, who teach the virtues of selfishness, cruelty, the pursuit of power for its own sake, and the right of the strong to do as they please.
 
 These religions do not usually build public temples and worship in the open, but most communities know, or very strongly suspect, who among them serve evil gods and [saints](../rule/world/saint.md).
 

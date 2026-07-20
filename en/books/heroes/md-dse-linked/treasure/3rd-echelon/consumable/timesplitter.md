@@ -6,11 +6,13 @@ file_dpath: treasure/3rd-echelon/consumable
 flavor: This spiked crystal makes a beautiful ringing sound when first touched.
 item_id: timesplitter
 item_name: Timesplitter
+item_prerequisite: A time crystal
 keywords:
     - Psionic
 name: Timesplitter
 project_goal: "180"
 project_roll_characteristic: '[Reason](../../../rule/character/reason.md) or [Intuition](../../../rule/character/intuition.md)'
+project_source: Texts or lore in Voll
 scc: mcdm.heroes.v1/treasure.3rd-echelon.consumable/timesplitter
 source: mcdm.heroes.v1
 treasure_type: consumable

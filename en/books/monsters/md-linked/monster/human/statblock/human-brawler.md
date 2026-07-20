@@ -32,7 +32,7 @@ type: statblock
 
 > 🗡 **Haymaker (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |               **Main action** |
+> | **Melee, Strike, Weapon** |               **[Main action](../../../rule/combat/turn.md)** |
 > |---------------------------|------------------------------:|
 > | **📏 Melee 1**            | **🎯 One creature or object** |
 >
@@ -46,7 +46,7 @@ type: statblock
 
 > 🗡 **Throw (1 [Malice](../../../rule/monster/malice.md))**
 >
-> | **Melee**      |                               **Maneuver** |
+> | **Melee**      |                               **[Maneuver](../../../rule/combat/turn.md)** |
 > |----------------|-------------------------------------------:|
 > | **📏 Melee 1** | **🎯 One creature grabbed by the brawler** |
 >

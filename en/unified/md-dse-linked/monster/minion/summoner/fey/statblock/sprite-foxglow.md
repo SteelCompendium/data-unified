@@ -7,6 +7,7 @@ file_basename: sprite-foxglow
 file_dpath: monster/minion/summoner/fey/statblock
 flavor: Foxglows are masked sprites that leave behind an evanescent trail of tiny glowing orbs as they fly. They beat their wings at a frequency that completely blocks out all nearby noise.
 free_strike: 4
+free_strike_damage_type: Fire
 immunities:
     - Fire R
 intuition: 1

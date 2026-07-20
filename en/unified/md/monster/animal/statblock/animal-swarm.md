@@ -29,7 +29,7 @@ type: statblock
 
 > 🗡 **Flurry (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |                 **Main action** |
+> | **Melee, Strike, Weapon** |                 **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |---------------------------|--------------------------------:|
 > | **📏 Melee 1**            | **🎯 Two creatures or objects** |
 >
@@ -47,7 +47,7 @@ type: statblock
 
 > ❇️ **Impede**
 >
-> | **Area**      |   **Maneuver** |
+> | **Area**      |   **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |---------------|---------------:|
 > | **📏 1 aura** | **🎯 Special** |
 >

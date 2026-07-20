@@ -38,7 +38,7 @@ weaknesses: []
 
 > 🏹 **Necro Beam 2d10 + 2 (Signature Ability)**
 >
-> | **Magic, Ranged, Strike** | **Main action** |
+> | **Magic, Ranged, Strike** | **[Main action](../../../../rule/combat/turn.md)** |
 > |---------------------------|----------------:|
 > | **📏 Ranged 10** | **🎯 One creature or object** |
 >
@@ -50,7 +50,7 @@ weaknesses: []
 
 > 🏹 **Call Forth (1+ Malice)**
 >
-> | **Magic, Ranged** | **Main action** |
+> | **Magic, Ranged** | **[Main action](../../../../rule/combat/turn.md)** |
 > |-------------------|----------------:|
 > | **📏 Ranged 10** | **🎯 Special** |
 >
@@ -58,7 +58,7 @@ weaknesses: []
 
 > ❗️ **Corpse Shield**
 >
-> | **—** | **Triggered action** |
+> | **—** | **[Triggered action](../../../../rule/combat/triggered-action.md)** |
 > |-------|---------------------:|
 > | **📏 Ranged 10** | **🎯 Self or one ally** |
 >

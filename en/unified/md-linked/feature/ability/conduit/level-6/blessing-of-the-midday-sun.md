@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](../../../../rule/combat/turn.md)'
 class: conduit
 cost: 9 Piety
 distance: 4 [aura](../../../../rule/combat/aura.md)
@@ -19,7 +19,7 @@ type: ability
 
 *Your body emits a heat that bakes your enemies and inspires your allies.*
 
-| **Area, Magic**  |                              **Maneuver** |
+| **Area, Magic**  |                              **[Maneuver](../../../../rule/combat/turn.md)** |
 |------------------|------------------------------------------:|
 | **📏 4 [aura](../../../../rule/combat/aura.md)**    | **🎯 Self and each creature in the area** |
 

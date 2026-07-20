@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: conduit
 cost: 11 Piety
 distance: 5 [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura)
@@ -18,7 +18,7 @@ type: ability
 
 *A protective [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura) defends your allies from harm.*
 
-| **Area, Magic**   |                          **Maneuver** |
+| **Area, Magic**   |                          **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 |-------------------|--------------------------------------:|
 | **📏 5 [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura)**     | **🎯 Self and each ally in the area** |
 

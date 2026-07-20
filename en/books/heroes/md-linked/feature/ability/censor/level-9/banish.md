@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: censor
 cost: 11 Wrath
 distance: '[Melee](../../../../rule/combat/melee.md) 1'
@@ -24,7 +24,7 @@ type: ability
 
 *You sever the target's tenuous connection to the world.*
 
-| **[Melee](../../../../rule/combat/melee.md), [Strike](../../../../rule/combat/strike.md), Weapon**  |     **Main action** |
+| **[Melee](../../../../rule/combat/melee.md), [Strike](../../../../rule/combat/strike.md), Weapon**  |     **[Main action](../../../../rule/combat/turn.md)** |
 |----------------------------|--------------------:|
 | **📏 [Melee](../../../../rule/combat/melee.md) 1**             | **🎯 One creature** |
 

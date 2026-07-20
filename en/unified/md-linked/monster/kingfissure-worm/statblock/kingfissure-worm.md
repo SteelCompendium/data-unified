@@ -39,7 +39,7 @@ type: statblock
 
 > 🗡 **Tongue Grab (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** |                          **Main action** |
+> | **Melee, Strike, Weapon** |                          **[Main action](../../../rule/combat/turn.md)** |
 > |---------------------------|-----------------------------------------:|
 > | **📏 Melee 5**            | **🎯 One creature or object per tongue** |
 >
@@ -53,7 +53,7 @@ type: statblock
 
 > 🗡 **Maw**
 >
-> | **Charge, Melee, Strike, Weapon** |               **Main action** |
+> | **Charge, Melee, Strike, Weapon** |               **[Main action](../../../rule/combat/turn.md)** |
 > |-----------------------------------|------------------------------:|
 > | **📏 Melee 1**                    | **🎯 One creature or object** |
 >
@@ -67,7 +67,7 @@ type: statblock
 
 > 🗡 **Consume (2 [Malice](../../../rule/monster/malice.md))**
 >
-> | **Melee**      |             **Main action** |
+> | **Melee**      |             **[Main action](../../../rule/combat/turn.md)** |
 > |----------------|----------------------------:|
 > | **📏 Melee 1** | **🎯 One grabbed creature** |
 >
@@ -75,7 +75,7 @@ type: statblock
 
 > ⚔️ **Tongue Whip**
 >
-> | **Melee, Ranged, Strike, Weapon** |                  **Maneuver** |
+> | **Melee, Ranged, Strike, Weapon** |                  **[Maneuver](../../../rule/combat/turn.md)** |
 > |-----------------------------------|------------------------------:|
 > | **📏 Melee 5 or ranged 10**       | **🎯 One creature or object** |
 >
@@ -83,7 +83,7 @@ type: statblock
 
 > ❗️ **Tearing Recoil**
 >
-> | **-**       | **Triggered action** |
+> | **-**       | **[Triggered action](../../../rule/combat/triggered-action.md)** |
 > |-------------|---------------------:|
 > | **📏 Self** |       **🎯 Special** |
 >

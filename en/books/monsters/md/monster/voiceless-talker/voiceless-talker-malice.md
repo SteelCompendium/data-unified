@@ -41,7 +41,7 @@ At the start of any voiceless talker's turn, you can spend [Malice](scc.v1:mcdm.
 
 > 🏹 **Memory Thief (5 Malice)**
 >
-> | **Psionic, Ranged** |        **Maneuver** |
+> | **Psionic, Ranged** |        **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |---------------------|--------------------:|
 > | **📏 Ranged 5**     | **🎯 One creature** |
 >

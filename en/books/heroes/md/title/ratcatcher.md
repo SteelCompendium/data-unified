@@ -21,7 +21,7 @@ type: title
 >
 > *Come out to play—yay!*
 >
-> | **Area, Magic** |                                **Maneuver** |
+> | **Area, Magic** |                                **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-----------------|--------------------------------------------:|
 > | **📏 5 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)**  | **🎯 Each enemy in the area hidden to you** |
 >

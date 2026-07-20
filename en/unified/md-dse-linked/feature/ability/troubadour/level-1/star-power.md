@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](../../../../rule/combat/turn.md)'
 class: troubadour
 cost: 1 Drama
 cost_amount: "1"
@@ -34,7 +34,7 @@ feature_type: ability
 flavor: Your years of practicing fencing and dancing pay off on the battlefield.
 keywords: []
 metadata:
-    action_type: Maneuver
+    action_type: '[Maneuver](../../../../rule/combat/turn.md)'
     class: troubadour
     cost: 1 Drama
     distance: Self
@@ -51,5 +51,5 @@ metadata:
 name: Star Power
 target: Self
 type: feature
-usage: Maneuver
+usage: '[Maneuver](../../../../rule/combat/turn.md)'
 ```

@@ -131,7 +131,7 @@ This elemental is a pure-white vulpine with six legs that freely sprints through
 
 > 🏹 **Freezing Howl 2d10 + R (Signature Ability)**
 >
-> | **Magic, Ranged, Strike** | **Main action** |
+> | **Magic, Ranged, Strike** | **[Main action](../../../rule/combat/turn.md)** |
 > |---------------------------|----------------:|
 > | **📏 Ranged 5** | **🎯 One creature or object per minion** |
 >
@@ -207,7 +207,7 @@ The collective of blood-eyed pixie warriors that make up a rosenthall are also k
 
 > 🏹 **Stickerbush Symphony 2d10 + R (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** | **Main action** |
+> | **Melee, Strike, Weapon** | **[Main action](../../../rule/combat/turn.md)** |
 > |---------------------------|----------------:|
 > | **📏 Melee 2** | **🎯 One creature or object per minion** |
 >
@@ -239,7 +239,7 @@ The preserved dead, bound for eternal rest, know only violence when robbed of th
 
 > 🏹 **Fetid Bindings 2d10 + R (Signature Ability)**
 >
-> | **Melee, Strike, Weapon** | **Main action** |
+> | **Melee, Strike, Weapon** | **[Main action](../../../rule/combat/turn.md)** |
 > |---------------------------|----------------:|
 > | **📏 Melee R** | **🎯 One creature or object per minion** |
 >

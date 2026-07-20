@@ -32,7 +32,7 @@ type: statblock
 
 > 🏹 **Blaster Volley ([Signature Ability](../../../rule/combat/signature-ability.md))**
 >
-> | **Psionic, Ranged, Strike, Weapon** |                 **Main action** |
+> | **Psionic, Ranged, Strike, Weapon** |                 **[Main action](../../../rule/combat/turn.md)** |
 > |-------------------------------------|--------------------------------:|
 > | **📏 Ranged 10**                    | **🎯 Two creatures or objects** |
 >
@@ -44,7 +44,7 @@ type: statblock
 
 > 🔳 **Kinetic Lane**
 >
-> | **Area, Psionic, Ranged**   |   **Maneuver** |
+> | **Area, Psionic, Ranged**   |   **[Maneuver](../../../rule/combat/turn.md)** |
 > |-----------------------------|---------------:|
 > | **📏 4 x 2 line within 10** | **🎯 Special** |
 >

@@ -39,7 +39,7 @@ At the start of any elemental's turn, you can spend [Malice](scc.v1:mcdm.monster
 
 > 🏹 **Convocation of Chaos (7 [Malice](scc.v1:mcdm.monsters.v1/rule.monster/malice))**
 >
-> | **Magic, Ranged** |                 **Maneuver** |
+> | **Magic, Ranged** |                 **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |-------------------|-----------------------------:|
 > | **📏 Ranged 8**   | **🎯 Self or one elemental** |
 >

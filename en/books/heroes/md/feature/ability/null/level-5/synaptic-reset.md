@@ -1,5 +1,5 @@
 ---
-action_type: Maneuver
+action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: "null"
 cost: 9 Discipline
 distance: 3 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)
@@ -18,7 +18,7 @@ type: ability
 
 *You expand your nullifying power to mitigate harmful effects.*
 
-| **Area, Psionic** |                          **Maneuver** |
+| **Area, Psionic** |                          **[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 |-------------------|--------------------------------------:|
 | **📏 3 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)**    | **🎯 Self and each ally in the area** |
 

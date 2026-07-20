@@ -29,7 +29,7 @@ type: statblock
 
 > ⚔️ **Conditioning Spear ([Signature Ability](../../../../rule/combat/signature-ability.md))**
 >
-> | **Melee, Psionic, Ranged, Strike** |                 **Main action** |
+> | **Melee, Psionic, Ranged, Strike** |                 **[Main action](../../../../rule/combat/turn.md)** |
 > |------------------------------------|--------------------------------:|
 > | **📏 Melee 1 or ranged 5**         | **🎯 Two creatures or objects** |
 >
@@ -45,7 +45,7 @@ type: statblock
 
 > ❇️ **Highest Posthumous Promotion**
 >
-> | **Area, Magic** |                    **Maneuver** |
+> | **Area, Magic** |                    **[Maneuver](../../../../rule/combat/turn.md)** |
 > |-----------------|--------------------------------:|
 > | **📏 10 burst** | **🎯 Each war dog in the area** |
 >
@@ -53,7 +53,7 @@ type: statblock
 
 > ❗️ **Final Orders**
 >
-> | **Magic, Ranged** | **Triggered action** |
+> | **Magic, Ranged** | **[Triggered action](../../../../rule/combat/triggered-action.md)** |
 > |-------------------|---------------------:|
 > | **📏 Ranged 10**  |      **🎯 One ally** |
 >

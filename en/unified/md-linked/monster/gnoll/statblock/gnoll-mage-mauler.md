@@ -30,7 +30,7 @@ with_captain: +2 bonus to melee distance
 
 > 🗡 **Wizard Ripper (Signature Ability)**
 >
-> | **Magic, Melee, Strike** |                          **Main action** |
+> | **Magic, Melee, Strike** |                          **[Main action](../../../rule/combat/turn.md)** |
 > |--------------------------|-----------------------------------------:|
 > | **📏 Melee 1**           | **🎯 One creature or object per minion** |
 >

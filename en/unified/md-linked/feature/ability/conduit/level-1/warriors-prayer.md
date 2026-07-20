@@ -1,5 +1,5 @@
 ---
-action_type: Main action
+action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: conduit
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
 effect: You or one ally within [distance](../../../../rule/combat/distance.md) gains [temporary Stamina](../../../../rule/health/temporary-stamina.md) equal to your [Intuition](../../../../rule/character/intuition.md) score.
@@ -23,7 +23,7 @@ type: ability
 
 *Your quickly uttered prayer lends aggressive divine energy to a friend engaged in [melee](../../../../rule/combat/melee.md).*
 
-| **Magic, [Ranged](../../../../rule/combat/ranged.md), [Strike](../../../../rule/combat/strike.md)**  |     **Main action** |
+| **Magic, [Ranged](../../../../rule/combat/ranged.md), [Strike](../../../../rule/combat/strike.md)**  |     **[Main action](../../../../rule/combat/turn.md)** |
 |----------------------------|--------------------:|
 | **📏 [Ranged](../../../../rule/combat/ranged.md) 10**           | **🎯 One creature** |
 
