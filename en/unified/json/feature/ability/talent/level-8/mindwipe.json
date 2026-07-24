@@ -11,6 +11,10 @@
     {
       "effect": "The target can't communicate with anyone until the end of the encounter.",
       "name": "Effect"
+    },
+    {
+      "effect": "You take 3d6 damage.",
+      "name": "Strained"
     }
   ],
   "feature_type": "ability",

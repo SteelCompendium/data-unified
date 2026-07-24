@@ -5,7 +5,9 @@ cost: 5 Insight
 cost_amount: "5"
 cost_resource: Insight
 distance: Self; see below
-effect: You use a [strike](../../../../rule/combat/strike.md) [signature ability](../../../../rule/combat/signature-ability.md) twice.
+effects:
+    - effect: You use a [strike](../../../../rule/combat/strike.md) [signature ability](../../../../rule/combat/signature-ability.md) twice.
+      name: Effect
 feature_type: ability
 file_basename: shadowstrike
 file_dpath: feature/ability/shadow/level-1
@@ -29,6 +31,7 @@ cost: 5 Insight
 distance: Self; see below
 effects:
     - effect: You use a [strike](../../../../rule/combat/strike.md) [signature ability](../../../../rule/combat/signature-ability.md) twice.
+      name: Effect
 feature_type: ability
 flavor: They have no idea what the college taught you.
 keywords:
@@ -40,7 +43,9 @@ metadata:
     class: shadow
     cost: 5 Insight
     distance: Self; see below
-    effect: You use a [strike](../../../../rule/combat/strike.md) [signature ability](../../../../rule/combat/signature-ability.md) twice.
+    effects:
+        - effect: You use a [strike](../../../../rule/combat/strike.md) [signature ability](../../../../rule/combat/signature-ability.md) twice.
+          name: Effect
     flavor: They have no idea what the college taught you.
     keywords:
         - Magic

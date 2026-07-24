@@ -5,6 +5,13 @@ cost: 11 Ferocity
 cost_amount: "11"
 cost_resource: Ferocity
 distance: 2 burst
+effects:
+    - roll: Power Roll + Intuition
+      tier1: 10 cold, fire, lightning, or sonic damage
+      tier2: 18 cold, fire, lightning, or sonic damage
+      tier3: 26 cold, fire, lightning, or sonic damage
+    - cost: Spend 2+ Ferocity
+      effect: You can spend up to 6 ferocity. For every 2 ferocity spent, the size of the burst increases by 1, you gain a +2 bonus to the power roll, and you take 5 damage that can't be reduced in any way. You can choose how much ferocity you spend after you make the power roll.
 feature_type: ability
 file_basename: turn-the-world-to-ash
 file_dpath: feature/ability/beastheart/level-8
@@ -20,7 +27,6 @@ name: Turn the World To Ash
 power_roll_characteristic: Intuition
 scc: mcdm.beastheart.v1/feature.ability.beastheart.level-8/turn-the-world-to-ash
 source: mcdm.beastheart.v1
-spend: '2+ Ferocity: You can spend up to 6 ferocity. For every 2 ferocity spent, the size of the burst increases by 1, you gain a +2 bonus to the power roll, and you take 5 damage that can''t be reduced in any way. You can choose how much ferocity you spend after you make the power roll.'
 target: Each enemy in the area
 tier1: 10 cold, fire, lightning, or sonic damage
 tier2: 18 cold, fire, lightning, or sonic damage
@@ -36,8 +42,8 @@ effects:
       tier1: 10 cold, fire, lightning, or sonic damage
       tier2: 18 cold, fire, lightning, or sonic damage
       tier3: 26 cold, fire, lightning, or sonic damage
-    - effect: '2+ Ferocity: You can spend up to 6 ferocity. For every 2 ferocity spent, the size of the burst increases by 1, you gain a +2 bonus to the power roll, and you take 5 damage that can''t be reduced in any way. You can choose how much ferocity you spend after you make the power roll.'
-      name: Spend
+    - cost: Spend 2+ Ferocity
+      effect: You can spend up to 6 ferocity. For every 2 ferocity spent, the size of the burst increases by 1, you gain a +2 bonus to the power roll, and you take 5 damage that can't be reduced in any way. You can choose how much ferocity you spend after you make the power roll.
 feature_type: ability
 flavor: Wrenching power from your primordial bond, you unleash elemental power in a devastating conflagration you can't control.
 keywords:
@@ -49,6 +55,13 @@ metadata:
     class: beastheart
     cost: 11 Ferocity
     distance: 2 burst
+    effects:
+        - roll: Power Roll + Intuition
+          tier1: 10 cold, fire, lightning, or sonic damage
+          tier2: 18 cold, fire, lightning, or sonic damage
+          tier3: 26 cold, fire, lightning, or sonic damage
+        - cost: Spend 2+ Ferocity
+          effect: You can spend up to 6 ferocity. For every 2 ferocity spent, the size of the burst increases by 1, you gain a +2 bonus to the power roll, and you take 5 damage that can't be reduced in any way. You can choose how much ferocity you spend after you make the power roll.
     flavor: Wrenching power from your primordial bond, you unleash elemental power in a devastating conflagration you can't control.
     keywords:
         - Area
@@ -58,7 +71,6 @@ metadata:
     name: Turn the World To Ash
     power_roll_characteristic: Intuition
     scc: mcdm.beastheart.v1/feature.ability.beastheart.level-8/turn-the-world-to-ash
-    spend: '2+ Ferocity: You can spend up to 6 ferocity. For every 2 ferocity spent, the size of the burst increases by 1, you gain a +2 bonus to the power roll, and you take 5 damage that can''t be reduced in any way. You can choose how much ferocity you spend after you make the power roll.'
     target: Each enemy in the area
     tier1: 10 cold, fire, lightning, or sonic damage
     tier2: 18 cold, fire, lightning, or sonic damage

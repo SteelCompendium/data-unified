@@ -2,7 +2,9 @@
 action_type: '[Triggered](../../../../rule/combat/triggered-action.md)'
 class: troubadour
 distance: '[Melee](../../../../rule/combat/melee.md) 1'
-effect: The target makes a [free strike](../../../common/main-actions/free-strike.md) against the creature who made the triggering strike.
+effects:
+    - effect: The target makes a [free strike](../../../common/main-actions/free-strike.md) against the creature who made the triggering strike.
+      name: Effect
 feature_type: ability
 file_basename: riposte
 file_dpath: feature/ability/troubadour/level-1
@@ -26,6 +28,7 @@ type: ability
 distance: '[Melee](../../../../rule/combat/melee.md) 1'
 effects:
     - effect: The target makes a [free strike](../../../common/main-actions/free-strike.md) against the creature who made the triggering strike.
+      name: Effect
 feature_type: ability
 flavor: '"I''d have brought treats had I known I''d be fighting a dog."'
 keywords:
@@ -34,7 +37,9 @@ metadata:
     action_type: '[Triggered](../../../../rule/combat/triggered-action.md)'
     class: troubadour
     distance: '[Melee](../../../../rule/combat/melee.md) 1'
-    effect: The target makes a [free strike](../../../common/main-actions/free-strike.md) against the creature who made the triggering strike.
+    effects:
+        - effect: The target makes a [free strike](../../../common/main-actions/free-strike.md) against the creature who made the triggering strike.
+          name: Effect
     flavor: '"I''d have brought treats had I known I''d be fighting a dog."'
     keywords:
         - '[Melee](../../../../rule/combat/melee.md)'

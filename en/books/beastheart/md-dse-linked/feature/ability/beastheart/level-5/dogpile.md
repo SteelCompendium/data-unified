@@ -5,7 +5,13 @@ cost: 9 Ferocity
 cost_amount: "9"
 cost_resource: Ferocity
 distance: Melee 1
-effect: Each ally adjacent to the target can use a free triggered action to deal damage to the target equal to their highest characteristic score.
+effects:
+    - roll: Power Roll + Might
+      tier1: 10 + M damage; M < WEAK [grabbed](../../../../condition/grabbed.md) and [prone](../../../../condition/prone.md)
+      tier2: 15 + M damage; M < AVERAGE [grabbed](../../../../condition/grabbed.md) and [prone](../../../../condition/prone.md)
+      tier3: 20 + M damage; M < STRONG [grabbed](../../../../condition/grabbed.md) and [prone](../../../../condition/prone.md)
+    - effect: Each ally adjacent to the target can use a free triggered action to deal damage to the target equal to their highest characteristic score.
+      name: Effect
 feature_type: ability
 file_basename: dogpile
 file_dpath: feature/ability/beastheart/level-5
@@ -33,11 +39,12 @@ type: ability
 cost: 9 Ferocity
 distance: Melee 1
 effects:
-    - effect: Each ally adjacent to the target can use a free triggered action to deal damage to the target equal to their highest characteristic score.
     - roll: Power Roll + Might
       tier1: 10 + M damage; M < WEAK [grabbed](../../../../condition/grabbed.md) and [prone](../../../../condition/prone.md)
       tier2: 15 + M damage; M < AVERAGE [grabbed](../../../../condition/grabbed.md) and [prone](../../../../condition/prone.md)
       tier3: 20 + M damage; M < STRONG [grabbed](../../../../condition/grabbed.md) and [prone](../../../../condition/prone.md)
+    - effect: Each ally adjacent to the target can use a free triggered action to deal damage to the target equal to their highest characteristic score.
+      name: Effect
 feature_type: ability
 flavor: You and your allies surround your enemy like a pack of wolves, mobbing them and pulling them down.
 keywords:
@@ -50,7 +57,13 @@ metadata:
     class: beastheart
     cost: 9 Ferocity
     distance: Melee 1
-    effect: Each ally adjacent to the target can use a free triggered action to deal damage to the target equal to their highest characteristic score.
+    effects:
+        - roll: Power Roll + Might
+          tier1: 10 + M damage; M < WEAK [grabbed](../../../../condition/grabbed.md) and [prone](../../../../condition/prone.md)
+          tier2: 15 + M damage; M < AVERAGE [grabbed](../../../../condition/grabbed.md) and [prone](../../../../condition/prone.md)
+          tier3: 20 + M damage; M < STRONG [grabbed](../../../../condition/grabbed.md) and [prone](../../../../condition/prone.md)
+        - effect: Each ally adjacent to the target can use a free triggered action to deal damage to the target equal to their highest characteristic score.
+          name: Effect
     flavor: You and your allies surround your enemy like a pack of wolves, mobbing them and pulling them down.
     keywords:
         - Beastheart

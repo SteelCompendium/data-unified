@@ -5,7 +5,13 @@ cost: 5 Ferocity
 cost_amount: "5"
 cost_resource: Ferocity
 distance: Melee 1
-effect: Your companion enters the target's space. Until your companion is no longer in the target's space, they can end their turn in that space, strikes against them also affect the target, and your strikes against the target gain an edge.
+effects:
+    - roll: Power Roll + Might
+      tier1: 5 + M damage
+      tier2: 8 + M damage
+      tier3: 12 + M damage
+    - effect: Your companion enters the target's space. Until your companion is no longer in the target's space, they can end their turn in that space, strikes against them also affect the target, and your strikes against the target gain an edge.
+      name: Effect
 feature_type: ability
 file_basename: on-you-like-your-shadow
 file_dpath: feature/ability/beastheart/level-2
@@ -35,11 +41,12 @@ type: ability
 cost: 5 Ferocity
 distance: Melee 1
 effects:
-    - effect: Your companion enters the target's space. Until your companion is no longer in the target's space, they can end their turn in that space, strikes against them also affect the target, and your strikes against the target gain an edge.
     - roll: Power Roll + Might
       tier1: 5 + M damage
       tier2: 8 + M damage
       tier3: 12 + M damage
+    - effect: Your companion enters the target's space. Until your companion is no longer in the target's space, they can end their turn in that space, strikes against them also affect the target, and your strikes against the target gain an edge.
+      name: Effect
 feature_type: ability
 flavor: Your companion darts around their target, staying out of reach and using them as a shield.
 keywords:
@@ -53,7 +60,13 @@ metadata:
     class: beastheart
     cost: 5 Ferocity
     distance: Melee 1
-    effect: Your companion enters the target's space. Until your companion is no longer in the target's space, they can end their turn in that space, strikes against them also affect the target, and your strikes against the target gain an edge.
+    effects:
+        - roll: Power Roll + Might
+          tier1: 5 + M damage
+          tier2: 8 + M damage
+          tier3: 12 + M damage
+        - effect: Your companion enters the target's space. Until your companion is no longer in the target's space, they can end their turn in that space, strikes against them also affect the target, and your strikes against the target gain an edge.
+          name: Effect
     flavor: Your companion darts around their target, staying out of reach and using them as a shield.
     keywords:
         - Charge

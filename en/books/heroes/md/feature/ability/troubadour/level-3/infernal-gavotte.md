@@ -3,7 +3,13 @@ action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: troubadour
 cost: 7 Drama
 distance: 3 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)
-effect: Each ally in the area can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to 2 squares.
+effects:
+    - roll: Power Roll + [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence)
+      tier1: 5 fire damage; A < WEAK, [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+      tier2: 7 fire damage; A < AVERAGE, [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+      tier3: 10 fire damage; A < STRONG, [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+    - effect: Each ally in the area can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to 2 squares.
+      name: Effect
 flavor: A spicy performance lights a fire under your allies' feet.
 keywords:
     - Area

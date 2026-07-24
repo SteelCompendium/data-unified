@@ -5,7 +5,15 @@ cost: 11 Focus
 cost_amount: "11"
 cost_resource: Focus
 distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1 or [ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 5'
-effect: The target is marked by you.
+effects:
+    - effect: The target is marked by you.
+      name: Effect
+    - roll: Power Roll + [Might](scc.v1:mcdm.heroes.v1/rule.character/might)
+      tier1: 8 + M damage
+      tier2: 13 + M damage
+      tier3: 17 + M damage
+    - effect: Until the end of the encounter or until you are [dying](scc.v1:mcdm.heroes.v1/rule.health/dying), you can use a signature or [heroic ability](scc.v1:mcdm.heroes.v1/rule.general/heroic-ability) instead of a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against any target marked by you.
+      name: Effect
 feature_type: ability
 file_basename: that-one-is-mine
 file_dpath: feature/ability/tactician/level-9
@@ -35,10 +43,13 @@ cost: 11 Focus
 distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1 or [ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 5'
 effects:
     - effect: The target is marked by you.
+      name: Effect
     - roll: Power Roll + [Might](scc.v1:mcdm.heroes.v1/rule.character/might)
       tier1: 8 + M damage
       tier2: 13 + M damage
       tier3: 17 + M damage
+    - effect: Until the end of the encounter or until you are [dying](scc.v1:mcdm.heroes.v1/rule.health/dying), you can use a signature or [heroic ability](scc.v1:mcdm.heroes.v1/rule.general/heroic-ability) instead of a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against any target marked by you.
+      name: Effect
 feature_type: ability
 flavor: You focus on making an enemy irrelevant.
 keywords:
@@ -51,7 +62,15 @@ metadata:
     class: tactician
     cost: 11 Focus
     distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1 or [ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 5'
-    effect: The target is marked by you.
+    effects:
+        - effect: The target is marked by you.
+          name: Effect
+        - roll: Power Roll + [Might](scc.v1:mcdm.heroes.v1/rule.character/might)
+          tier1: 8 + M damage
+          tier2: 13 + M damage
+          tier3: 17 + M damage
+        - effect: Until the end of the encounter or until you are [dying](scc.v1:mcdm.heroes.v1/rule.health/dying), you can use a signature or [heroic ability](scc.v1:mcdm.heroes.v1/rule.general/heroic-ability) instead of a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against any target marked by you.
+          name: Effect
     flavor: You focus on making an enemy irrelevant.
     keywords:
         - '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)'

@@ -1,7 +1,13 @@
 ---
 action_type: Main action
 distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
-effect: If you use this ability on your [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), you can use it against one target, then use your maneuver and your move action for that [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) before using the ability against a second target. You still use the same [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) for both targets.
+effects:
+    - roll: Power Roll + [Might](scc.v1:mcdm.heroes.v1/rule.character/might) or [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)
+      tier1: 4 damage
+      tier2: 6 damage
+      tier3: 8 damage
+    - effect: If you use this ability on your [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), you can use it against one target, then use your maneuver and your move action for that [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) before using the ability against a second target. You still use the same [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) for both targets.
+      name: Effect
 flavor: Why strike once when you could do it twice?
 keywords:
     - '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)'

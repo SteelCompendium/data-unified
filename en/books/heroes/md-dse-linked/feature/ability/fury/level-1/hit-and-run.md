@@ -2,7 +2,13 @@
 action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: fury
 distance: '[Melee](../../../../rule/combat/melee.md) 1'
-effect: You can [shift](../../../../movement/shifting.md) 1 square.
+effects:
+    - roll: Power Roll + [Might](../../../../rule/character/might.md)
+      tier1: 2 + M damage
+      tier2: 5 + M damage
+      tier3: 7 + M damage; A < STRONG, [slowed](../../../../condition/slowed.md) (save ends)
+    - effect: You can [shift](../../../../movement/shifting.md) 1 square.
+      name: Effect
 feature_type: ability
 file_basename: hit-and-run
 file_dpath: feature/ability/fury/level-1
@@ -29,11 +35,12 @@ type: ability
 ```ds-feature
 distance: '[Melee](../../../../rule/combat/melee.md) 1'
 effects:
-    - effect: You can [shift](../../../../movement/shifting.md) 1 square.
     - roll: Power Roll + [Might](../../../../rule/character/might.md)
       tier1: 2 + M damage
       tier2: 5 + M damage
       tier3: 7 + M damage; A < STRONG, [slowed](../../../../condition/slowed.md) (save ends)
+    - effect: You can [shift](../../../../movement/shifting.md) 1 square.
+      name: Effect
 feature_type: ability
 flavor: Staying in constant motion helps you slip out of reach after a brutal assault.
 keywords:
@@ -44,7 +51,13 @@ metadata:
     action_type: '[Main action](../../../../rule/combat/turn.md)'
     class: fury
     distance: '[Melee](../../../../rule/combat/melee.md) 1'
-    effect: You can [shift](../../../../movement/shifting.md) 1 square.
+    effects:
+        - roll: Power Roll + [Might](../../../../rule/character/might.md)
+          tier1: 2 + M damage
+          tier2: 5 + M damage
+          tier3: 7 + M damage; A < STRONG, [slowed](../../../../condition/slowed.md) (save ends)
+        - effect: You can [shift](../../../../movement/shifting.md) 1 square.
+          name: Effect
     flavor: Staying in constant motion helps you slip out of reach after a brutal assault.
     keywords:
         - '[Melee](../../../../rule/combat/melee.md)'

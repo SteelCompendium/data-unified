@@ -3,7 +3,13 @@ action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: shadow
 cost: 9 Insight
 distance: 10 x 1 line within 1
-effect: You disappear before making the [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll). After the [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) is resolved, you appear in the first unoccupied space at the far end of the line.
+effects:
+    - roll: Power Roll + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)
+      tier1: 10 damage
+      tier2: 14 damage
+      tier3: 20 damage
+    - effect: You disappear before making the [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll). After the [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) is resolved, you appear in the first unoccupied space at the far end of the line.
+      name: Effect
 flavor: You vanish. They fall. You reappear.
 keywords:
     - Area

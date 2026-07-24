@@ -5,6 +5,11 @@ cost: 5 Piety
 cost_amount: "5"
 cost_resource: Piety
 distance: 3 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 10
+effects:
+    - roll: Power Roll + [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)
+      tier1: 2 damage; A < WEAK, [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
+      tier2: 3 damage; A < AVERAGE, [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
+      tier3: 7 damage; A < STRONG, [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
 feature_type: ability
 file_basename: nature-judges-thee
 file_dpath: feature/ability/conduit/level-2
@@ -47,6 +52,11 @@ metadata:
     class: conduit
     cost: 5 Piety
     distance: 3 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 10
+    effects:
+        - roll: Power Roll + [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)
+          tier1: 2 damage; A < WEAK, [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
+          tier2: 3 damage; A < AVERAGE, [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
+          tier3: 7 damage; A < STRONG, [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
     flavor: Mystical thorned vines appear at your bidding and bind your foes.
     keywords:
         - Area

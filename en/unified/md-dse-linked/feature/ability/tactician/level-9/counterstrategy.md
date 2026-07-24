@@ -5,7 +5,9 @@ cost: 11 Focus
 cost_amount: "11"
 cost_resource: Focus
 distance: Self
-effect: 'You gain 6 [surges](../../../../rule/resource/surge.md). Until the end of the encounter or until you are [dying](../../../../rule/health/dying.md), whenever the Director spends Malice (see *Draw Steel: Monsters*), choose yourself or one ally within 10 squares. The chosen character gains 2 of their [Heroic Resource](../../../../rule/resource/heroic-resource.md).'
+effects:
+    - effect: 'You gain 6 [surges](../../../../rule/resource/surge.md). Until the end of the encounter or until you are [dying](../../../../rule/health/dying.md), whenever the Director spends Malice (see *Draw Steel: Monsters*), choose yourself or one ally within 10 squares. The chosen character gains 2 of their [Heroic Resource](../../../../rule/resource/heroic-resource.md).'
+      name: Effect
 feature_type: ability
 file_basename: counterstrategy
 file_dpath: feature/ability/tactician/level-9
@@ -27,6 +29,7 @@ cost: 11 Focus
 distance: Self
 effects:
     - effect: 'You gain 6 [surges](../../../../rule/resource/surge.md). Until the end of the encounter or until you are [dying](../../../../rule/health/dying.md), whenever the Director spends Malice (see *Draw Steel: Monsters*), choose yourself or one ally within 10 squares. The chosen character gains 2 of their [Heroic Resource](../../../../rule/resource/heroic-resource.md).'
+      name: Effect
 feature_type: ability
 flavor: I've identified a way to negate their strengths.
 keywords: []
@@ -35,7 +38,9 @@ metadata:
     class: tactician
     cost: 11 Focus
     distance: Self
-    effect: 'You gain 6 [surges](../../../../rule/resource/surge.md). Until the end of the encounter or until you are [dying](../../../../rule/health/dying.md), whenever the Director spends Malice (see *Draw Steel: Monsters*), choose yourself or one ally within 10 squares. The chosen character gains 2 of their [Heroic Resource](../../../../rule/resource/heroic-resource.md).'
+    effects:
+        - effect: 'You gain 6 [surges](../../../../rule/resource/surge.md). Until the end of the encounter or until you are [dying](../../../../rule/health/dying.md), whenever the Director spends Malice (see *Draw Steel: Monsters*), choose yourself or one ally within 10 squares. The chosen character gains 2 of their [Heroic Resource](../../../../rule/resource/heroic-resource.md).'
+          name: Effect
     flavor: I've identified a way to negate their strengths.
     keywords: []
     level: "9"

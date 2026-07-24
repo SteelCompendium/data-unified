@@ -2,6 +2,11 @@
 action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: troubadour
 distance: 2 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)
+effects:
+    - roll: Power Roll + [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence)
+      tier1: '[Push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1'
+      tier2: '[Push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2'
+      tier3: '[Push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3'
 flavor: Your instrument rings true and your music blows everyone away.
 keywords:
     - Area

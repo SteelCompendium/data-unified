@@ -11,6 +11,10 @@
     {
       "effect": "While [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) this way, the target takes 3 psychic damage for each square they willingly leave.",
       "name": "Effect"
+    },
+    {
+      "effect": "While [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) this way, the target instead takes 5 psychic damage for each square they willingly leave. You have a double [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) on [ability rolls](scc.v1:mcdm.heroes.v1/rule.dice/ability-roll) made against the target while they are [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) this way.",
+      "name": "Strained"
     }
   ],
   "feature_type": "ability",

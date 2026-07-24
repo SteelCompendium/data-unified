@@ -3,7 +3,13 @@ action_type: Triggered Action
 class: beastheart
 cost: 7 Ferocity
 distance: Ranged 10
-effect: 'The target dies. You [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) to the target''s space, [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to a number of squares equal to your Might score, and can then make a melee free strike. You then make the following power roll, targeting each enemy within 5 squares of the target:'
+effects:
+    - effect: 'The target dies. You [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) to the target''s space, [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to a number of squares equal to your Might score, and can then make a melee free strike. You then make the following power roll, targeting each enemy within 5 squares of the target:'
+      name: Effect
+    - roll: Power Roll + Might
+      tier1: P < WEAK [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
+      tier2: 4 psychic damage; P < AVERAGE [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
+      tier3: 8 psychic damage; P < STRONG [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
 flavor: You leap from your foe's corpse.
 keywords:
     - Beastheart

@@ -5,7 +5,9 @@ cost: 7 Ferocity
 cost_amount: "7"
 cost_resource: Ferocity
 distance: Self
-effect: You gain 20 [temporary Stamina](../../../../rule/health/temporary-stamina.md).
+effects:
+    - effect: You gain 20 [temporary Stamina](../../../../rule/health/temporary-stamina.md).
+      name: Effect
 feature_type: ability
 file_basename: steelbreaker
 file_dpath: feature/ability/fury/level-3
@@ -27,6 +29,7 @@ cost: 7 Ferocity
 distance: Self
 effects:
     - effect: You gain 20 [temporary Stamina](../../../../rule/health/temporary-stamina.md).
+      name: Effect
 feature_type: ability
 flavor: See how useless their weapons are!
 keywords:
@@ -36,7 +39,9 @@ metadata:
     class: fury
     cost: 7 Ferocity
     distance: Self
-    effect: You gain 20 [temporary Stamina](../../../../rule/health/temporary-stamina.md).
+    effects:
+        - effect: You gain 20 [temporary Stamina](../../../../rule/health/temporary-stamina.md).
+          name: Effect
     flavor: See how useless their weapons are!
     keywords:
         - Magic

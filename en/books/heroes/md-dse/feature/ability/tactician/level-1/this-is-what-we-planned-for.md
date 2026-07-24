@@ -5,7 +5,9 @@ cost: 5 Focus
 cost_amount: "5"
 cost_resource: Focus
 distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
-effect: Each target who hasn't acted yet this [combat round](scc.v1:mcdm.heroes.v1/rule.combat/combat-round) can take their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) in any order immediately after yours.
+effects:
+    - effect: Each target who hasn't acted yet this [combat round](scc.v1:mcdm.heroes.v1/rule.combat/combat-round) can take their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) in any order immediately after yours.
+      name: Effect
 feature_type: ability
 file_basename: this-is-what-we-planned-for
 file_dpath: feature/ability/tactician/level-1
@@ -27,6 +29,7 @@ cost: 5 Focus
 distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
 effects:
     - effect: Each target who hasn't acted yet this [combat round](scc.v1:mcdm.heroes.v1/rule.combat/combat-round) can take their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) in any order immediately after yours.
+      name: Effect
 feature_type: ability
 flavor: All those coordination drills you made them do finally pay off.
 keywords:
@@ -36,7 +39,9 @@ metadata:
     class: tactician
     cost: 5 Focus
     distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
-    effect: Each target who hasn't acted yet this [combat round](scc.v1:mcdm.heroes.v1/rule.combat/combat-round) can take their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) in any order immediately after yours.
+    effects:
+        - effect: Each target who hasn't acted yet this [combat round](scc.v1:mcdm.heroes.v1/rule.combat/combat-round) can take their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) in any order immediately after yours.
+          name: Effect
     flavor: All those coordination drills you made them do finally pay off.
     keywords:
         - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'

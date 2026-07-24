@@ -5,7 +5,9 @@ cost: 9 Wrath
 cost_amount: "9"
 cost_resource: Wrath
 distance: 3 [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura)
-effect: Until the end of the encounter or until you are [dying](scc.v1:mcdm.heroes.v1/rule.health/dying), whenever any target takes a [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action) or a free [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action), that action is negated and the target takes holy damage equal to your [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence) score.
+effects:
+    - effect: Until the end of the encounter or until you are [dying](scc.v1:mcdm.heroes.v1/rule.health/dying), whenever any target takes a [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action) or a free [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action), that action is negated and the target takes holy damage equal to your [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence) score.
+      name: Effect
 feature_type: ability
 file_basename: edict-of-peace
 file_dpath: feature/ability/censor/level-6
@@ -29,6 +31,7 @@ cost: 9 Wrath
 distance: 3 [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura)
 effects:
     - effect: Until the end of the encounter or until you are [dying](scc.v1:mcdm.heroes.v1/rule.health/dying), whenever any target takes a [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action) or a free [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action), that action is negated and the target takes holy damage equal to your [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence) score.
+      name: Effect
 feature_type: ability
 flavor: You anticipate your foes' moves and deny them.
 keywords:
@@ -39,7 +42,9 @@ metadata:
     class: censor
     cost: 9 Wrath
     distance: 3 [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura)
-    effect: Until the end of the encounter or until you are [dying](scc.v1:mcdm.heroes.v1/rule.health/dying), whenever any target takes a [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action) or a free [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action), that action is negated and the target takes holy damage equal to your [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence) score.
+    effects:
+        - effect: Until the end of the encounter or until you are [dying](scc.v1:mcdm.heroes.v1/rule.health/dying), whenever any target takes a [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action) or a free [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action), that action is negated and the target takes holy damage equal to your [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence) score.
+          name: Effect
     flavor: You anticipate your foes' moves and deny them.
     keywords:
         - Area

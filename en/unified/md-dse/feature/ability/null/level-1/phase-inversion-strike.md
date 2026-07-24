@@ -2,7 +2,13 @@
 action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: "null"
 distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
-effect: Before the [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) is resolved, you [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) the target to a square [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to you and opposite the one they started in. If the target can't be [teleport](scc.v1:mcdm.heroes.v1/movement/teleport)ed this way, you can't [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) them.
+effects:
+    - roll: Power Roll + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)
+      tier1: 4 + A damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2
+      tier2: 6 + A damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 4
+      tier3: 8 + A damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 6
+    - effect: Before the [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) is resolved, you [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) the target to a square [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to you and opposite the one they started in. If the target can't be [teleport](scc.v1:mcdm.heroes.v1/movement/teleport)ed this way, you can't [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) them.
+      name: Effect
 feature_type: ability
 file_basename: phase-inversion-strike
 file_dpath: feature/ability/null/level-1
@@ -30,11 +36,12 @@ type: ability
 ```ds-feature
 distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
 effects:
-    - effect: Before the [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) is resolved, you [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) the target to a square [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to you and opposite the one they started in. If the target can't be [teleport](scc.v1:mcdm.heroes.v1/movement/teleport)ed this way, you can't [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) them.
     - roll: Power Roll + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)
       tier1: 4 + A damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2
       tier2: 6 + A damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 4
       tier3: 8 + A damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 6
+    - effect: Before the [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) is resolved, you [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) the target to a square [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to you and opposite the one they started in. If the target can't be [teleport](scc.v1:mcdm.heroes.v1/movement/teleport)ed this way, you can't [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) them.
+      name: Effect
 feature_type: ability
 flavor: You step momentarily out of phase as you pull an enemy through you.
 keywords:
@@ -46,7 +53,13 @@ metadata:
     action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: "null"
     distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
-    effect: Before the [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) is resolved, you [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) the target to a square [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to you and opposite the one they started in. If the target can't be [teleport](scc.v1:mcdm.heroes.v1/movement/teleport)ed this way, you can't [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) them.
+    effects:
+        - roll: Power Roll + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)
+          tier1: 4 + A damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2
+          tier2: 6 + A damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 4
+          tier3: 8 + A damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 6
+        - effect: Before the [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) is resolved, you [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) the target to a square [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to you and opposite the one they started in. If the target can't be [teleport](scc.v1:mcdm.heroes.v1/movement/teleport)ed this way, you can't [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) them.
+          name: Effect
     flavor: You step momentarily out of phase as you pull an enemy through you.
     keywords:
         - '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)'

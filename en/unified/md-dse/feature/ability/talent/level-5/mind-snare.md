@@ -5,7 +5,15 @@ cost: 9 Clarity
 cost_amount: "9"
 cost_resource: Clarity
 distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
-effect: While [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) this way, the target takes 3 psychic damage for each square they willingly leave.
+effects:
+    - roll: Power Roll + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason)
+      tier1: 10 + R psychic damage; R < WEAK, [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
+      tier2: 14 + R psychic damage; R < AVERAGE, [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
+      tier3: 20 + R psychic damage; R < STRONG, [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
+    - effect: While [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) this way, the target takes 3 psychic damage for each square they willingly leave.
+      name: Effect
+    - effect: While [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) this way, the target instead takes 5 psychic damage for each square they willingly leave. You have a double [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) on [ability rolls](scc.v1:mcdm.heroes.v1/rule.dice/ability-roll) made against the target while they are [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) this way.
+      name: Strained
 feature_type: ability
 file_basename: mind-snare
 file_dpath: feature/ability/talent/level-5
@@ -33,11 +41,14 @@ type: ability
 cost: 9 Clarity
 distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
 effects:
-    - effect: While [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) this way, the target takes 3 psychic damage for each square they willingly leave.
     - roll: Power Roll + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason)
       tier1: 10 + R psychic damage; R < WEAK, [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
       tier2: 14 + R psychic damage; R < AVERAGE, [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
       tier3: 20 + R psychic damage; R < STRONG, [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
+    - effect: While [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) this way, the target takes 3 psychic damage for each square they willingly leave.
+      name: Effect
+    - effect: While [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) this way, the target instead takes 5 psychic damage for each square they willingly leave. You have a double [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) on [ability rolls](scc.v1:mcdm.heroes.v1/rule.dice/ability-roll) made against the target while they are [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) this way.
+      name: Strained
 feature_type: ability
 flavor: You latch onto your prey's brain and don't let go, like a song they can't get out of their head.
 keywords:
@@ -50,7 +61,15 @@ metadata:
     class: talent
     cost: 9 Clarity
     distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
-    effect: While [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) this way, the target takes 3 psychic damage for each square they willingly leave.
+    effects:
+        - roll: Power Roll + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason)
+          tier1: 10 + R psychic damage; R < WEAK, [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
+          tier2: 14 + R psychic damage; R < AVERAGE, [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
+          tier3: 20 + R psychic damage; R < STRONG, [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
+        - effect: While [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) this way, the target takes 3 psychic damage for each square they willingly leave.
+          name: Effect
+        - effect: While [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) this way, the target instead takes 5 psychic damage for each square they willingly leave. You have a double [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) on [ability rolls](scc.v1:mcdm.heroes.v1/rule.dice/ability-roll) made against the target while they are [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) this way.
+          name: Strained
     flavor: You latch onto your prey's brain and don't let go, like a song they can't get out of their head.
     keywords:
         - Psionic

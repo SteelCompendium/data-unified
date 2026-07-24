@@ -5,6 +5,11 @@ cost: 5 Ferocity
 cost_amount: "5"
 cost_resource: Ferocity
 distance: '[Melee](../../../../rule/combat/melee.md) 1'
+effects:
+    - roll: Power Roll + [Might](../../../../rule/character/might.md)
+      tier1: 3 + M damage; P < WEAK, [dazed](../../../../condition/dazed.md) and [frightened](../../../../condition/frightened.md) (save ends)
+      tier2: 5 + M damage; P < AVERAGE, [dazed](../../../../condition/dazed.md) and [frightened](../../../../condition/frightened.md) (save ends)
+      tier3: 8 + M damage; P < STRONG, [dazed](../../../../condition/dazed.md) and [frightened](../../../../condition/frightened.md) (save ends)
 feature_type: ability
 file_basename: death-death
 file_dpath: feature/ability/fury/level-2
@@ -46,6 +51,11 @@ metadata:
     class: fury
     cost: 5 Ferocity
     distance: '[Melee](../../../../rule/combat/melee.md) 1'
+    effects:
+        - roll: Power Roll + [Might](../../../../rule/character/might.md)
+          tier1: 3 + M damage; P < WEAK, [dazed](../../../../condition/dazed.md) and [frightened](../../../../condition/frightened.md) (save ends)
+          tier2: 5 + M damage; P < AVERAGE, [dazed](../../../../condition/dazed.md) and [frightened](../../../../condition/frightened.md) (save ends)
+          tier3: 8 + M damage; P < STRONG, [dazed](../../../../condition/dazed.md) and [frightened](../../../../condition/frightened.md) (save ends)
     flavor: Your unbridled rage strikes terror in their hearts.
     keywords:
         - '[Melee](../../../../rule/combat/melee.md)'

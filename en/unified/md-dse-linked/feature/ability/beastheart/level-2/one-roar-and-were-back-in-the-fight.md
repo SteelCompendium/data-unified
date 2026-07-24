@@ -5,7 +5,9 @@ cost: 5 Ferocity
 cost_amount: "5"
 cost_resource: Ferocity
 distance: Ranged 5
-effect: Your companion and the target can each gain 2 surges, spend up to 2 Recoveries, and end one condition or effect on them that is ended by a saving throw or that ends at the end of their turn.
+effects:
+    - effect: Your companion and the target can each gain 2 surges, spend up to 2 Recoveries, and end one condition or effect on them that is ended by a saving throw or that ends at the end of their turn.
+      name: Effect
 feature_type: ability
 file_basename: one-roar-and-were-back-in-the-fight
 file_dpath: feature/ability/beastheart/level-2
@@ -28,6 +30,7 @@ cost: 5 Ferocity
 distance: Ranged 5
 effects:
     - effect: Your companion and the target can each gain 2 surges, spend up to 2 Recoveries, and end one condition or effect on them that is ended by a saving throw or that ends at the end of their turn.
+      name: Effect
 feature_type: ability
 flavor: Your companion builds up courage with a roar, growl, or aggressive display.
 keywords:
@@ -37,7 +40,9 @@ metadata:
     class: beastheart
     cost: 5 Ferocity
     distance: Ranged 5
-    effect: Your companion and the target can each gain 2 surges, spend up to 2 Recoveries, and end one condition or effect on them that is ended by a saving throw or that ends at the end of their turn.
+    effects:
+        - effect: Your companion and the target can each gain 2 surges, spend up to 2 Recoveries, and end one condition or effect on them that is ended by a saving throw or that ends at the end of their turn.
+          name: Effect
     flavor: Your companion builds up courage with a roar, growl, or aggressive display.
     keywords:
         - Companion

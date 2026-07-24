@@ -5,7 +5,13 @@ cost: 5 Ferocity
 cost_amount: "5"
 cost_resource: Ferocity
 distance: 3 cube within 5
-effect: Until the end of your next turn, you and your companion can [fly](../../../../movement/fly.md) and gain a +3 bonus to speed.
+effects:
+    - roll: Power Roll + Might
+      tier1: 6 cold or sonic damage; slide 1
+      tier2: 9 cold or sonic damage; slide 2
+      tier3: 13 cold or sonic damage; slide 4
+    - effect: Until the end of your next turn, you and your companion can [fly](../../../../movement/fly.md) and gain a +3 bonus to speed.
+      name: Effect
 feature_type: ability
 file_basename: howling-gale
 file_dpath: feature/ability/beastheart/level-2
@@ -33,11 +39,12 @@ type: ability
 cost: 5 Ferocity
 distance: 3 cube within 5
 effects:
-    - effect: Until the end of your next turn, you and your companion can [fly](../../../../movement/fly.md) and gain a +3 bonus to speed.
     - roll: Power Roll + Might
       tier1: 6 cold or sonic damage; slide 1
       tier2: 9 cold or sonic damage; slide 2
       tier3: 13 cold or sonic damage; slide 4
+    - effect: Until the end of your next turn, you and your companion can [fly](../../../../movement/fly.md) and gain a +3 bonus to speed.
+      name: Effect
 feature_type: ability
 flavor: A blizzard or thunderstorm sends foes flying and lifts you like a feather.
 keywords:
@@ -49,7 +56,13 @@ metadata:
     class: beastheart
     cost: 5 Ferocity
     distance: 3 cube within 5
-    effect: Until the end of your next turn, you and your companion can [fly](../../../../movement/fly.md) and gain a +3 bonus to speed.
+    effects:
+        - roll: Power Roll + Might
+          tier1: 6 cold or sonic damage; slide 1
+          tier2: 9 cold or sonic damage; slide 2
+          tier3: 13 cold or sonic damage; slide 4
+        - effect: Until the end of your next turn, you and your companion can [fly](../../../../movement/fly.md) and gain a +3 bonus to speed.
+          name: Effect
     flavor: A blizzard or thunderstorm sends foes flying and lifts you like a feather.
     keywords:
         - Area

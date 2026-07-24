@@ -5,7 +5,13 @@ cost: 11 Essence
 cost_amount: "11"
 cost_resource: Essence
 distance: 5 [cube](../../../../rule/combat/cube.md) within 10
-effect: The Director's Malice can become negative as a result of this ability.
+effects:
+    - roll: Power Roll + [Reason](../../../../rule/character/reason.md)
+      tier1: '7 fire damage; the Director loses 2 Malice (see *Draw Steel: Monsters*)'
+      tier2: 10 fire damage; the Director loses 3 Malice
+      tier3: 15 fire damage; the Director loses 4 Malice
+    - effect: The Director's Malice can become negative as a result of this ability.
+      name: Effect
 feature_type: ability
 file_basename: muse-of-fire
 file_dpath: feature/ability/elementalist/level-8
@@ -33,11 +39,12 @@ type: ability
 cost: 11 Essence
 distance: 5 [cube](../../../../rule/combat/cube.md) within 10
 effects:
-    - effect: The Director's Malice can become negative as a result of this ability.
     - roll: Power Roll + [Reason](../../../../rule/character/reason.md)
       tier1: '7 fire damage; the Director loses 2 Malice (see *Draw Steel: Monsters*)'
       tier2: 10 fire damage; the Director loses 3 Malice
       tier3: 15 fire damage; the Director loses 4 Malice
+    - effect: The Director's Malice can become negative as a result of this ability.
+      name: Effect
 feature_type: ability
 flavor: The fire burns hot enough to sear the face of any god watching.
 keywords:
@@ -50,7 +57,13 @@ metadata:
     class: elementalist
     cost: 11 Essence
     distance: 5 [cube](../../../../rule/combat/cube.md) within 10
-    effect: The Director's Malice can become negative as a result of this ability.
+    effects:
+        - roll: Power Roll + [Reason](../../../../rule/character/reason.md)
+          tier1: '7 fire damage; the Director loses 2 Malice (see *Draw Steel: Monsters*)'
+          tier2: 10 fire damage; the Director loses 3 Malice
+          tier3: 15 fire damage; the Director loses 4 Malice
+        - effect: The Director's Malice can become negative as a result of this ability.
+          name: Effect
     flavor: The fire burns hot enough to sear the face of any god watching.
     keywords:
         - Area

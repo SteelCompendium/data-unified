@@ -5,7 +5,9 @@ cost: 11 Piety
 cost_amount: "11"
 cost_resource: Piety
 distance: 5 [aura](../../../../rule/combat/aura.md)
-effect: Until the end of the encounter, any [ability roll](../../../../rule/dice/ability-roll.md) made against a target takes a [bane](../../../../rule/dice/bane.md) and each target has [damage immunity](../../../../rule/damage/damage-immunity.md) 5.
+effects:
+    - effect: Until the end of the encounter, any [ability roll](../../../../rule/dice/ability-roll.md) made against a target takes a [bane](../../../../rule/dice/bane.md) and each target has [damage immunity](../../../../rule/damage/damage-immunity.md) 5.
+      name: Effect
 feature_type: ability
 file_basename: blessing-of-steel
 file_dpath: feature/ability/conduit/level-8
@@ -28,6 +30,7 @@ cost: 11 Piety
 distance: 5 [aura](../../../../rule/combat/aura.md)
 effects:
     - effect: Until the end of the encounter, any [ability roll](../../../../rule/dice/ability-roll.md) made against a target takes a [bane](../../../../rule/dice/bane.md) and each target has [damage immunity](../../../../rule/damage/damage-immunity.md) 5.
+      name: Effect
 feature_type: ability
 flavor: A protective [aura](../../../../rule/combat/aura.md) defends your allies from harm.
 keywords:
@@ -38,7 +41,9 @@ metadata:
     class: conduit
     cost: 11 Piety
     distance: 5 [aura](../../../../rule/combat/aura.md)
-    effect: Until the end of the encounter, any [ability roll](../../../../rule/dice/ability-roll.md) made against a target takes a [bane](../../../../rule/dice/bane.md) and each target has [damage immunity](../../../../rule/damage/damage-immunity.md) 5.
+    effects:
+        - effect: Until the end of the encounter, any [ability roll](../../../../rule/dice/ability-roll.md) made against a target takes a [bane](../../../../rule/dice/bane.md) and each target has [damage immunity](../../../../rule/damage/damage-immunity.md) 5.
+          name: Effect
     flavor: A protective [aura](../../../../rule/combat/aura.md) defends your allies from harm.
     keywords:
         - Area

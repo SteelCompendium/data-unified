@@ -5,7 +5,13 @@ cost: 11 Piety
 cost_amount: "11"
 cost_resource: Piety
 distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
-effect: While [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) this way, the target takes 10 damage at the start of each of your [turns](scc.v1:mcdm.heroes.v1/rule.combat/turn).
+effects:
+    - roll: Power Roll + [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)
+      tier1: 10 + I damage; A < WEAK, [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
+      tier2: 15 + I damage; A < AVERAGE, [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
+      tier3: 21 + I damage; A < STRONG, [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
+    - effect: While [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) this way, the target takes 10 damage at the start of each of your [turns](scc.v1:mcdm.heroes.v1/rule.combat/turn).
+      name: Effect
 feature_type: ability
 file_basename: thorn-cage
 file_dpath: feature/ability/conduit/level-9
@@ -33,11 +39,12 @@ type: ability
 cost: 11 Piety
 distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
 effects:
-    - effect: While [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) this way, the target takes 10 damage at the start of each of your [turns](scc.v1:mcdm.heroes.v1/rule.combat/turn).
     - roll: Power Roll + [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)
       tier1: 10 + I damage; A < WEAK, [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
       tier2: 15 + I damage; A < AVERAGE, [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
       tier3: 21 + I damage; A < STRONG, [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
+    - effect: While [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) this way, the target takes 10 damage at the start of each of your [turns](scc.v1:mcdm.heroes.v1/rule.combat/turn).
+      name: Effect
 feature_type: ability
 flavor: Vines [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst) forth from the ground and bind your foe, slowly closing around them.
 keywords:
@@ -49,7 +56,13 @@ metadata:
     class: conduit
     cost: 11 Piety
     distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
-    effect: While [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) this way, the target takes 10 damage at the start of each of your [turns](scc.v1:mcdm.heroes.v1/rule.combat/turn).
+    effects:
+        - roll: Power Roll + [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)
+          tier1: 10 + I damage; A < WEAK, [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
+          tier2: 15 + I damage; A < AVERAGE, [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
+          tier3: 21 + I damage; A < STRONG, [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
+        - effect: While [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) this way, the target takes 10 damage at the start of each of your [turns](scc.v1:mcdm.heroes.v1/rule.combat/turn).
+          name: Effect
     flavor: Vines [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst) forth from the ground and bind your foe, slowly closing around them.
     keywords:
         - Magic

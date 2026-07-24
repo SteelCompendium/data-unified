@@ -2,7 +2,9 @@
 action_type: '[No action](../../../../rule/combat/turn.md)'
 class: troubadour
 distance: 2 [aura](../../../../rule/combat/aura.md)
-effect: At the end of each of your [turns](../../../../rule/combat/turn.md) while this performance is active, you can choose up to a number of targets equal to your [Presence](../../../../rule/character/presence.md) score and [teleport](../../../../movement/teleport.md) those targets to unoccupied spaces in the area. A target can't be [teleport](../../../../movement/teleport.md)ed in a way that would harm them (such as over a cliff), leave them [dying](../../../../rule/health/dying.md), or result in them suffering a [condition](../../../../rule/combat/condition.md) or other negative effect.
+effects:
+    - effect: At the end of each of your [turns](../../../../rule/combat/turn.md) while this performance is active, you can choose up to a number of targets equal to your [Presence](../../../../rule/character/presence.md) score and [teleport](../../../../movement/teleport.md) those targets to unoccupied spaces in the area. A target can't be [teleport](../../../../movement/teleport.md)ed in a way that would harm them (such as over a cliff), leave them [dying](../../../../rule/health/dying.md), or result in them suffering a [condition](../../../../rule/combat/condition.md) or other negative effect.
+      name: Effect
 feature_type: ability
 file_basename: blocking
 file_dpath: feature/ability/troubadour/level-1
@@ -26,6 +28,7 @@ type: ability
 distance: 2 [aura](../../../../rule/combat/aura.md)
 effects:
     - effect: At the end of each of your [turns](../../../../rule/combat/turn.md) while this performance is active, you can choose up to a number of targets equal to your [Presence](../../../../rule/character/presence.md) score and [teleport](../../../../movement/teleport.md) those targets to unoccupied spaces in the area. A target can't be [teleport](../../../../movement/teleport.md)ed in a way that would harm them (such as over a cliff), leave them [dying](../../../../rule/health/dying.md), or result in them suffering a [condition](../../../../rule/combat/condition.md) or other negative effect.
+      name: Effect
 feature_type: ability
 flavor: No, no, no, you lose the audience that way. Try it like this...
 keywords:
@@ -36,7 +39,9 @@ metadata:
     action_type: '[No action](../../../../rule/combat/turn.md)'
     class: troubadour
     distance: 2 [aura](../../../../rule/combat/aura.md)
-    effect: At the end of each of your [turns](../../../../rule/combat/turn.md) while this performance is active, you can choose up to a number of targets equal to your [Presence](../../../../rule/character/presence.md) score and [teleport](../../../../movement/teleport.md) those targets to unoccupied spaces in the area. A target can't be [teleport](../../../../movement/teleport.md)ed in a way that would harm them (such as over a cliff), leave them [dying](../../../../rule/health/dying.md), or result in them suffering a [condition](../../../../rule/combat/condition.md) or other negative effect.
+    effects:
+        - effect: At the end of each of your [turns](../../../../rule/combat/turn.md) while this performance is active, you can choose up to a number of targets equal to your [Presence](../../../../rule/character/presence.md) score and [teleport](../../../../movement/teleport.md) those targets to unoccupied spaces in the area. A target can't be [teleport](../../../../movement/teleport.md)ed in a way that would harm them (such as over a cliff), leave them [dying](../../../../rule/health/dying.md), or result in them suffering a [condition](../../../../rule/combat/condition.md) or other negative effect.
+          name: Effect
     flavor: No, no, no, you lose the audience that way. Try it like this...
     keywords:
         - Area

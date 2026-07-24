@@ -3,7 +3,13 @@ action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: shadow
 cost: 7 Insight
 distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1 or [ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 5'
-effect: The target is [taunted](scc.v1:mcdm.heroes.v1/condition/taunted) by a willing ally within 5 squares of you until the end of the target's next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn).
+effects:
+    - roll: Power Roll + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)
+      tier1: 9 + A damage
+      tier2: 13 + A damage
+      tier3: 18 + A damage
+    - effect: The target is [taunted](scc.v1:mcdm.heroes.v1/condition/taunted) by a willing ally within 5 squares of you until the end of the target's next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn).
+      name: Effect
 flavor: '"Why are you looking at ME?!"'
 keywords:
     - '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)'

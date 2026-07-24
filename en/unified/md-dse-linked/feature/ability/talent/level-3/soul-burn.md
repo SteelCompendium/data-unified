@@ -5,7 +5,15 @@ cost: 7 Clarity
 cost_amount: "7"
 cost_resource: Clarity
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
-effect: The target takes a [bane](../../../../rule/dice/bane.md) on [Presence](../../../../rule/character/presence.md) [tests](../../../../rule/test/test.md) until the end of the encounter.
+effects:
+    - roll: Power Roll + [Presence](../../../../rule/character/presence.md)
+      tier1: 6 + P damage; P < WEAK, [dazed](../../../../condition/dazed.md) (save ends)
+      tier2: 10 + P damage; P < AVERAGE, [dazed](../../../../condition/dazed.md) (save ends)
+      tier3: 14 + P damage; P < STRONG, [dazed](../../../../condition/dazed.md) (save ends)
+    - effect: The target takes a [bane](../../../../rule/dice/bane.md) on [Presence](../../../../rule/character/presence.md) [tests](../../../../rule/test/test.md) until the end of the encounter.
+      name: Effect
+    - effect: The [potency](../../../../rule/character/potency.md) of this ability increases by 1. You take 2d6 damage and gain 3 [surges](../../../../rule/resource/surge.md) that you can use immediately.
+      name: Strained
 feature_type: ability
 file_basename: soul-burn
 file_dpath: feature/ability/talent/level-3
@@ -33,11 +41,14 @@ type: ability
 cost: 7 Clarity
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
 effects:
-    - effect: The target takes a [bane](../../../../rule/dice/bane.md) on [Presence](../../../../rule/character/presence.md) [tests](../../../../rule/test/test.md) until the end of the encounter.
     - roll: Power Roll + [Presence](../../../../rule/character/presence.md)
       tier1: 6 + P damage; P < WEAK, [dazed](../../../../condition/dazed.md) (save ends)
       tier2: 10 + P damage; P < AVERAGE, [dazed](../../../../condition/dazed.md) (save ends)
       tier3: 14 + P damage; P < STRONG, [dazed](../../../../condition/dazed.md) (save ends)
+    - effect: The target takes a [bane](../../../../rule/dice/bane.md) on [Presence](../../../../rule/character/presence.md) [tests](../../../../rule/test/test.md) until the end of the encounter.
+      name: Effect
+    - effect: The [potency](../../../../rule/character/potency.md) of this ability increases by 1. You take 2d6 damage and gain 3 [surges](../../../../rule/resource/surge.md) that you can use immediately.
+      name: Strained
 feature_type: ability
 flavor: You blast their soul out of their body, leaving it to helplessly float back to a weakened husk.
 keywords:
@@ -50,7 +61,15 @@ metadata:
     class: talent
     cost: 7 Clarity
     distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
-    effect: The target takes a [bane](../../../../rule/dice/bane.md) on [Presence](../../../../rule/character/presence.md) [tests](../../../../rule/test/test.md) until the end of the encounter.
+    effects:
+        - roll: Power Roll + [Presence](../../../../rule/character/presence.md)
+          tier1: 6 + P damage; P < WEAK, [dazed](../../../../condition/dazed.md) (save ends)
+          tier2: 10 + P damage; P < AVERAGE, [dazed](../../../../condition/dazed.md) (save ends)
+          tier3: 14 + P damage; P < STRONG, [dazed](../../../../condition/dazed.md) (save ends)
+        - effect: The target takes a [bane](../../../../rule/dice/bane.md) on [Presence](../../../../rule/character/presence.md) [tests](../../../../rule/test/test.md) until the end of the encounter.
+          name: Effect
+        - effect: The [potency](../../../../rule/character/potency.md) of this ability increases by 1. You take 2d6 damage and gain 3 [surges](../../../../rule/resource/surge.md) that you can use immediately.
+          name: Strained
     flavor: You blast their soul out of their body, leaving it to helplessly float back to a weakened husk.
     keywords:
         - Animapathy

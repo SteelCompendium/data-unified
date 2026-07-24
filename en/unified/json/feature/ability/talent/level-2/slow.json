@@ -11,6 +11,10 @@
     {
       "effect": "A target can't use [triggered actions](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action) while their [speed](scc.v1:mcdm.heroes.v1/rule.character/speed) is reduced this way.",
       "name": "Effect"
+    },
+    {
+      "effect": "The [potency](scc.v1:mcdm.heroes.v1/rule.character/potency) of this ability increases by 1 and you take 1d6 damage. At the start of each [combat round](scc.v1:mcdm.heroes.v1/rule.combat/combat-round) while any target is affected by this ability, you take 1d6 damage. You can end the effect on all affected targets at any time (no action required).",
+      "name": "Strained"
     }
   ],
   "feature_type": "ability",

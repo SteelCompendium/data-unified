@@ -1,6 +1,11 @@
 ---
 action_type: Main action
 distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
+effects:
+    - roll: Power Roll + [Might](scc.v1:mcdm.heroes.v1/rule.character/might)
+      tier1: 2 + M damage; M < WEAK, [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)
+      tier2: 5 + M damage; M < AVERAGE, [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)
+      tier3: 11 + M damage; M < STRONG, [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)
 flavor: Attacks with your sharp and deadly claws grab the weak.
 keywords:
     - '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)'

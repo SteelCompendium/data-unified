@@ -3,7 +3,9 @@ action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: conduit
 cost: 5 Piety
 distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
-effect: 'You can target yourself instead of one creature with this ability. Choose one of the following effects, which lasts until the end of the encounter or until you are [dying](scc.v1:mcdm.heroes.v1/rule.health/dying):'
+effects:
+    - effect: 'You can target yourself instead of one creature with this ability. Choose one of the following effects, which lasts until the end of the encounter or until you are [dying](scc.v1:mcdm.heroes.v1/rule.health/dying):'
+      name: Effect
 flavor: Your enemies suffer their fate; your allies embrace their destiny!
 keywords:
     - Magic

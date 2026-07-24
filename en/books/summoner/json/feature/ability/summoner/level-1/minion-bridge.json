@@ -4,6 +4,10 @@
     {
       "effect": "You [shift](scc.v1:mcdm.heroes.v1/movement/shifting) into a square adjacent to the target, including vertically.",
       "name": "Effect"
+    },
+    {
+      "effect": "An adjacent ally can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) alongside you during this movement. They must end their movement in an unoccupied square adjacent to the last minion you moved through.",
+      "name": "1 Essence"
     }
   ],
   "feature_type": "ability",

@@ -2,7 +2,13 @@
 action_type: Main action
 class: summoner
 distance: 4 burst
-effect: You can use this ability as if in the space of one of your minions within your Summoner's Range.
+effects:
+    - roll: Power Roll + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason)
+      tier1: 6 [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage); [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 4 M < WEAK push is vertical
+      tier2: 10 [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage); [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5 M < AVERAGE push is vertical
+      tier3: 14 [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage); [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 6 M < STRONG push is vertical
+    - effect: You can use this ability as if in the space of one of your minions within your Summoner's Range.
+      name: Effect
 feature_source: summoner
 flavor: Your champion appears and goes into a rampage, clearing the way for your minions to march forth.
 keywords:

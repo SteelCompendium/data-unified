@@ -5,7 +5,13 @@ cost: 11 Insight
 cost_amount: "11"
 cost_resource: Insight
 distance: '[Melee](../../../../rule/combat/melee.md) 1'
-effect: A target who is not a minion, leader, or solo creature and who is [winded](../../../../rule/health/winded.md) after taking this damage is reduced to 0 [Stamina](../../../../rule/health/stamina.md).
+effects:
+    - roll: Power Roll + [Agility](../../../../rule/character/agility.md)
+      tier1: 12 + A damage
+      tier2: 18 + A damage
+      tier3: 24 + A damage
+    - effect: A target who is not a minion, leader, or solo creature and who is [winded](../../../../rule/health/winded.md) after taking this damage is reduced to 0 [Stamina](../../../../rule/health/stamina.md).
+      name: Effect
 feature_type: ability
 file_basename: assassinate
 file_dpath: feature/ability/shadow/level-8
@@ -32,11 +38,12 @@ type: ability
 cost: 11 Insight
 distance: '[Melee](../../../../rule/combat/melee.md) 1'
 effects:
-    - effect: A target who is not a minion, leader, or solo creature and who is [winded](../../../../rule/health/winded.md) after taking this damage is reduced to 0 [Stamina](../../../../rule/health/stamina.md).
     - roll: Power Roll + [Agility](../../../../rule/character/agility.md)
       tier1: 12 + A damage
       tier2: 18 + A damage
       tier3: 24 + A damage
+    - effect: A target who is not a minion, leader, or solo creature and who is [winded](../../../../rule/health/winded.md) after taking this damage is reduced to 0 [Stamina](../../../../rule/health/stamina.md).
+      name: Effect
 feature_type: ability
 flavor: A practiced attack will instantly kill an already weakened foe.
 keywords:
@@ -48,7 +55,13 @@ metadata:
     class: shadow
     cost: 11 Insight
     distance: '[Melee](../../../../rule/combat/melee.md) 1'
-    effect: A target who is not a minion, leader, or solo creature and who is [winded](../../../../rule/health/winded.md) after taking this damage is reduced to 0 [Stamina](../../../../rule/health/stamina.md).
+    effects:
+        - roll: Power Roll + [Agility](../../../../rule/character/agility.md)
+          tier1: 12 + A damage
+          tier2: 18 + A damage
+          tier3: 24 + A damage
+        - effect: A target who is not a minion, leader, or solo creature and who is [winded](../../../../rule/health/winded.md) after taking this damage is reduced to 0 [Stamina](../../../../rule/health/stamina.md).
+          name: Effect
     flavor: A practiced attack will instantly kill an already weakened foe.
     keywords:
         - '[Melee](../../../../rule/combat/melee.md)'

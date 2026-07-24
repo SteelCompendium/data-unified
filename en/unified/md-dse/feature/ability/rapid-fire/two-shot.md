@@ -1,6 +1,11 @@
 ---
 action_type: Main action
 distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 12'
+effects:
+    - roll: Power Roll + [Might](scc.v1:mcdm.heroes.v1/rule.character/might) or [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)
+      tier1: 4 damage
+      tier2: 6 damage
+      tier3: 8 damage
 feature_type: ability
 file_basename: two-shot
 file_dpath: feature/ability/rapid-fire
@@ -40,6 +45,11 @@ keywords:
 metadata:
     action_type: Main action
     distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 12'
+    effects:
+        - roll: Power Roll + [Might](scc.v1:mcdm.heroes.v1/rule.character/might) or [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)
+          tier1: 4 damage
+          tier2: 6 damage
+          tier3: 8 damage
     flavor: When you fire two arrows back-to-back, both hit their mark.
     keywords:
         - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'

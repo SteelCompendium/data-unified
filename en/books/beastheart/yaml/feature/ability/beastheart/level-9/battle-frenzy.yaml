@@ -1,6 +1,8 @@
 cost: 11 Ferocity
 distance: 5 burst
 effects:
+    - effect: This ability targets only creatures you choose within distance.
+      name: Special
     - roll: Power Roll + Might
       tier1: P < WEAK the target is battle-frenzied
       tier2: P < AVERAGE the target is battle-frenzied

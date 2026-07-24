@@ -5,7 +5,13 @@ cost: 9 Focus
 cost_amount: "9"
 cost_resource: Focus
 distance: '[Melee](../../../../rule/combat/melee.md) 1'
-effect: The target takes half the damage. You then make a [power roll](../../../../rule/dice/power-roll.md) against the triggering creature.
+effects:
+    - effect: The target takes half the damage. You then make a [power roll](../../../../rule/dice/power-roll.md) against the triggering creature.
+      name: Effect
+    - roll: Power Roll + [Might](../../../../rule/character/might.md)
+      tier1: A < WEAK, [dazed](../../../../condition/dazed.md) (save ends)
+      tier2: A < AVERAGE, [dazed](../../../../condition/dazed.md) (save ends)
+      tier3: A < STRONG, [dazed](../../../../condition/dazed.md) (save ends)
 feature_type: ability
 file_basename: instant-retaliation
 file_dpath: feature/ability/tactician/level-6
@@ -35,6 +41,7 @@ cost: 9 Focus
 distance: '[Melee](../../../../rule/combat/melee.md) 1'
 effects:
     - effect: The target takes half the damage. You then make a [power roll](../../../../rule/dice/power-roll.md) against the triggering creature.
+      name: Effect
     - roll: Power Roll + [Might](../../../../rule/character/might.md)
       tier1: A < WEAK, [dazed](../../../../condition/dazed.md) (save ends)
       tier2: A < AVERAGE, [dazed](../../../../condition/dazed.md) (save ends)
@@ -49,7 +56,13 @@ metadata:
     class: tactician
     cost: 9 Focus
     distance: '[Melee](../../../../rule/combat/melee.md) 1'
-    effect: The target takes half the damage. You then make a [power roll](../../../../rule/dice/power-roll.md) against the triggering creature.
+    effects:
+        - effect: The target takes half the damage. You then make a [power roll](../../../../rule/dice/power-roll.md) against the triggering creature.
+          name: Effect
+        - roll: Power Roll + [Might](../../../../rule/character/might.md)
+          tier1: A < WEAK, [dazed](../../../../condition/dazed.md) (save ends)
+          tier2: A < AVERAGE, [dazed](../../../../condition/dazed.md) (save ends)
+          tier3: A < STRONG, [dazed](../../../../condition/dazed.md) (save ends)
     flavor: You [parry](../level-1/parry.md) with almost [supernatural](../../../../rule/general/supernatural.md) [speed](../../../../rule/character/speed.md).
     keywords:
         - '[Melee](../../../../rule/combat/melee.md)'

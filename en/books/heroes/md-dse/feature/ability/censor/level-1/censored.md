@@ -5,7 +5,13 @@ cost: 5 Wrath
 cost_amount: "5"
 cost_resource: Wrath
 distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
-effect: When a target who is not a leader or solo creature is made [winded](scc.v1:mcdm.heroes.v1/rule.health/winded) by this ability, they are reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).
+effects:
+    - roll: Power Roll + [Might](scc.v1:mcdm.heroes.v1/rule.character/might)
+      tier1: 2 + M holy damage
+      tier2: 3 + M holy damage
+      tier3: 5 + M holy damage
+    - effect: When a target who is not a leader or solo creature is made [winded](scc.v1:mcdm.heroes.v1/rule.health/winded) by this ability, they are reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).
+      name: Effect
 feature_type: ability
 file_basename: censored
 file_dpath: feature/ability/censor/level-1
@@ -32,11 +38,12 @@ type: ability
 cost: 5 Wrath
 distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
 effects:
-    - effect: When a target who is not a leader or solo creature is made [winded](scc.v1:mcdm.heroes.v1/rule.health/winded) by this ability, they are reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).
     - roll: Power Roll + [Might](scc.v1:mcdm.heroes.v1/rule.character/might)
       tier1: 2 + M holy damage
       tier2: 3 + M holy damage
       tier3: 5 + M holy damage
+    - effect: When a target who is not a leader or solo creature is made [winded](scc.v1:mcdm.heroes.v1/rule.health/winded) by this ability, they are reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).
+      name: Effect
 feature_type: ability
 flavor: Judged and [sentenced](scc.v1:mcdm.heroes.v1/feature.ability.censor.level-2/sentenced).
 keywords:
@@ -48,7 +55,13 @@ metadata:
     class: censor
     cost: 5 Wrath
     distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
-    effect: When a target who is not a leader or solo creature is made [winded](scc.v1:mcdm.heroes.v1/rule.health/winded) by this ability, they are reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).
+    effects:
+        - roll: Power Roll + [Might](scc.v1:mcdm.heroes.v1/rule.character/might)
+          tier1: 2 + M holy damage
+          tier2: 3 + M holy damage
+          tier3: 5 + M holy damage
+        - effect: When a target who is not a leader or solo creature is made [winded](scc.v1:mcdm.heroes.v1/rule.health/winded) by this ability, they are reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).
+          name: Effect
     flavor: Judged and [sentenced](scc.v1:mcdm.heroes.v1/feature.ability.censor.level-2/sentenced).
     keywords:
         - '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)'

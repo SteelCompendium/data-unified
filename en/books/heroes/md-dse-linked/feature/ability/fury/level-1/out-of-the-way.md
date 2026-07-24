@@ -5,7 +5,13 @@ cost: 3 Ferocity
 cost_amount: "3"
 cost_resource: Ferocity
 distance: '[Melee](../../../../rule/combat/melee.md) 1'
-effect: When you [slide](../../../../movement/forced-movement.md) the target, you can move into any square they leave. If you take damage from an [opportunity attack](../../../../rule/combat/opportunity-attack.md) by moving this way, the target takes the same damage.
+effects:
+    - roll: Power Roll + [Might](../../../../rule/character/might.md)
+      tier1: 3 + M damage; [slide](../../../../movement/forced-movement.md) 2
+      tier2: 5 + M damage; [slide](../../../../movement/forced-movement.md) 3
+      tier3: 8 + M damage; [slide](../../../../movement/forced-movement.md) 5
+    - effect: When you [slide](../../../../movement/forced-movement.md) the target, you can move into any square they leave. If you take damage from an [opportunity attack](../../../../rule/combat/opportunity-attack.md) by moving this way, the target takes the same damage.
+      name: Effect
 feature_type: ability
 file_basename: out-of-the-way
 file_dpath: feature/ability/fury/level-1
@@ -32,11 +38,12 @@ type: ability
 cost: 3 Ferocity
 distance: '[Melee](../../../../rule/combat/melee.md) 1'
 effects:
-    - effect: When you [slide](../../../../movement/forced-movement.md) the target, you can move into any square they leave. If you take damage from an [opportunity attack](../../../../rule/combat/opportunity-attack.md) by moving this way, the target takes the same damage.
     - roll: Power Roll + [Might](../../../../rule/character/might.md)
       tier1: 3 + M damage; [slide](../../../../movement/forced-movement.md) 2
       tier2: 5 + M damage; [slide](../../../../movement/forced-movement.md) 3
       tier3: 8 + M damage; [slide](../../../../movement/forced-movement.md) 5
+    - effect: When you [slide](../../../../movement/forced-movement.md) the target, you can move into any square they leave. If you take damage from an [opportunity attack](../../../../rule/combat/opportunity-attack.md) by moving this way, the target takes the same damage.
+      name: Effect
 feature_type: ability
 flavor: Your enemies will clear your path—whether they want to or not.
 keywords:
@@ -48,7 +55,13 @@ metadata:
     class: fury
     cost: 3 Ferocity
     distance: '[Melee](../../../../rule/combat/melee.md) 1'
-    effect: When you [slide](../../../../movement/forced-movement.md) the target, you can move into any square they leave. If you take damage from an [opportunity attack](../../../../rule/combat/opportunity-attack.md) by moving this way, the target takes the same damage.
+    effects:
+        - roll: Power Roll + [Might](../../../../rule/character/might.md)
+          tier1: 3 + M damage; [slide](../../../../movement/forced-movement.md) 2
+          tier2: 5 + M damage; [slide](../../../../movement/forced-movement.md) 3
+          tier3: 8 + M damage; [slide](../../../../movement/forced-movement.md) 5
+        - effect: When you [slide](../../../../movement/forced-movement.md) the target, you can move into any square they leave. If you take damage from an [opportunity attack](../../../../rule/combat/opportunity-attack.md) by moving this way, the target takes the same damage.
+          name: Effect
     flavor: Your enemies will clear your path—whether they want to or not.
     keywords:
         - '[Melee](../../../../rule/combat/melee.md)'

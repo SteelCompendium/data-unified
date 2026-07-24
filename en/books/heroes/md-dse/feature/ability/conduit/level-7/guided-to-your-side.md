@@ -2,7 +2,9 @@
 action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: conduit
 distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
-effect: Each target is [teleport](scc.v1:mcdm.heroes.v1/movement/teleport)ed to unoccupied spaces within 5 squares of a willing creature who you are bonded to with your Invocation of the Heart feature. You don't need [line of effect](scc.v1:mcdm.heroes.v1/rule.combat/line-of-effect) to the bonded creature but you must be on the same world.
+effects:
+    - effect: Each target is [teleport](scc.v1:mcdm.heroes.v1/movement/teleport)ed to unoccupied spaces within 5 squares of a willing creature who you are bonded to with your Invocation of the Heart feature. You don't need [line of effect](scc.v1:mcdm.heroes.v1/rule.combat/line-of-effect) to the bonded creature but you must be on the same world.
+      name: Effect
 feature_type: ability
 file_basename: guided-to-your-side
 file_dpath: feature/ability/conduit/level-7
@@ -25,6 +27,7 @@ type: ability
 distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
 effects:
     - effect: Each target is [teleport](scc.v1:mcdm.heroes.v1/movement/teleport)ed to unoccupied spaces within 5 squares of a willing creature who you are bonded to with your Invocation of the Heart feature. You don't need [line of effect](scc.v1:mcdm.heroes.v1/rule.combat/line-of-effect) to the bonded creature but you must be on the same world.
+      name: Effect
 feature_type: ability
 flavor: You concentrate on a friend and [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) to them.
 keywords:
@@ -34,7 +37,9 @@ metadata:
     action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: conduit
     distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
-    effect: Each target is [teleport](scc.v1:mcdm.heroes.v1/movement/teleport)ed to unoccupied spaces within 5 squares of a willing creature who you are bonded to with your Invocation of the Heart feature. You don't need [line of effect](scc.v1:mcdm.heroes.v1/rule.combat/line-of-effect) to the bonded creature but you must be on the same world.
+    effects:
+        - effect: Each target is [teleport](scc.v1:mcdm.heroes.v1/movement/teleport)ed to unoccupied spaces within 5 squares of a willing creature who you are bonded to with your Invocation of the Heart feature. You don't need [line of effect](scc.v1:mcdm.heroes.v1/rule.combat/line-of-effect) to the bonded creature but you must be on the same world.
+          name: Effect
     flavor: You concentrate on a friend and [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) to them.
     keywords:
         - Magic

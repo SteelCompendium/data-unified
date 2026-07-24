@@ -3,14 +3,14 @@
   "distance": "Ranged 5",
   "effects": [
     {
+      "effect": "The first time the target uses a move action, main action, maneuver, or triggered action before the start of your next turn, your companion makes the following power roll before the target acts. If the target hasn't acted before the start of your next turn, they are [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) of your companion (save ends).",
+      "name": "Effect"
+    },
+    {
       "roll": "Power Roll + Intuition",
       "tier1": "9 + I psychic damage; I \u003c WEAK [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)",
       "tier2": "13 + I psychic damage; I \u003c AVERAGE [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)",
       "tier3": "18 + I psychic damage; I \u003c STRONG [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)"
-    },
-    {
-      "effect": "The first time the target uses a move action, main action, maneuver, or triggered action before the start of your next turn, your companion makes the following power roll before the target acts. If the target hasn't acted before the start of your next turn, they are [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) of your companion (save ends).",
-      "name": "Effect"
     }
   ],
   "feature_type": "ability",

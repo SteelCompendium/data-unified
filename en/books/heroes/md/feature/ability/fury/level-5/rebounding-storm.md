@@ -3,7 +3,13 @@ action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: fury
 cost: 9 Ferocity
 distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
-effect: When a target would end this [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) by colliding with a creature or object, they take damage as usual, then are [pushed](scc.v1:mcdm.heroes.v1/movement/forced-movement) the remaining [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance) away from the creature or object in the direction they came from. As long as [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) remains, this effect continues if the target collides with another creature or object.
+effects:
+    - roll: Power Roll + [Might](scc.v1:mcdm.heroes.v1/rule.character/might)
+      tier1: 9 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3
+      tier2: 14 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5
+      tier3: 19 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 7
+    - effect: When a target would end this [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) by colliding with a creature or object, they take damage as usual, then are [pushed](scc.v1:mcdm.heroes.v1/movement/forced-movement) the remaining [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance) away from the creature or object in the direction they came from. As long as [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) remains, this effect continues if the target collides with another creature or object.
+      name: Effect
 flavor: You knock around enemies like playthings.
 keywords:
     - '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)'

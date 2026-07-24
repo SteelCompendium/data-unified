@@ -5,7 +5,13 @@ cost: 11 Piety
 cost_amount: "11"
 cost_resource: Piety
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
-effect: You conjure a [size](../../../../rule/character/size.md) 4 dragon that appears in an unoccupied space within [distance](../../../../rule/combat/distance.md). The dragon has [speed](../../../../rule/character/speed.md) 6 and can [fly](../../../../movement/fly.md), [stability](../../../../rule/character/stability.md) 4, 100 [Stamina](../../../../rule/health/stamina.md), immunity all to fire damage, and uses your [characteristics](../../../../rule/character/characteristic.md). The dragon disappears at the end of the encounter, if their [Stamina](../../../../rule/health/stamina.md) drops to 0, or if you are [dying](../../../../rule/health/dying.md).
+effects:
+    - effect: You conjure a [size](../../../../rule/character/size.md) 4 dragon that appears in an unoccupied space within [distance](../../../../rule/combat/distance.md). The dragon has [speed](../../../../rule/character/speed.md) 6 and can [fly](../../../../movement/fly.md), [stability](../../../../rule/character/stability.md) 4, 100 [Stamina](../../../../rule/health/stamina.md), immunity all to fire damage, and uses your [characteristics](../../../../rule/character/characteristic.md). The dragon disappears at the end of the encounter, if their [Stamina](../../../../rule/health/stamina.md) drops to 0, or if you are [dying](../../../../rule/health/dying.md).
+      name: Effect
+    - roll: Power Roll + [Intuition](../../../../rule/character/intuition.md)
+      tier1: 5 fire damage
+      tier2: 9 fire damage
+      tier3: 12 fire damage
 feature_type: ability
 file_basename: divine-dragon
 file_dpath: feature/ability/conduit/level-9
@@ -33,6 +39,7 @@ cost: 11 Piety
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
 effects:
     - effect: You conjure a [size](../../../../rule/character/size.md) 4 dragon that appears in an unoccupied space within [distance](../../../../rule/combat/distance.md). The dragon has [speed](../../../../rule/character/speed.md) 6 and can [fly](../../../../movement/fly.md), [stability](../../../../rule/character/stability.md) 4, 100 [Stamina](../../../../rule/health/stamina.md), immunity all to fire damage, and uses your [characteristics](../../../../rule/character/characteristic.md). The dragon disappears at the end of the encounter, if their [Stamina](../../../../rule/health/stamina.md) drops to 0, or if you are [dying](../../../../rule/health/dying.md).
+      name: Effect
     - roll: Power Roll + [Intuition](../../../../rule/character/intuition.md)
       tier1: 5 fire damage
       tier2: 9 fire damage
@@ -47,7 +54,13 @@ metadata:
     class: conduit
     cost: 11 Piety
     distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
-    effect: You conjure a [size](../../../../rule/character/size.md) 4 dragon that appears in an unoccupied space within [distance](../../../../rule/combat/distance.md). The dragon has [speed](../../../../rule/character/speed.md) 6 and can [fly](../../../../movement/fly.md), [stability](../../../../rule/character/stability.md) 4, 100 [Stamina](../../../../rule/health/stamina.md), immunity all to fire damage, and uses your [characteristics](../../../../rule/character/characteristic.md). The dragon disappears at the end of the encounter, if their [Stamina](../../../../rule/health/stamina.md) drops to 0, or if you are [dying](../../../../rule/health/dying.md).
+    effects:
+        - effect: You conjure a [size](../../../../rule/character/size.md) 4 dragon that appears in an unoccupied space within [distance](../../../../rule/combat/distance.md). The dragon has [speed](../../../../rule/character/speed.md) 6 and can [fly](../../../../movement/fly.md), [stability](../../../../rule/character/stability.md) 4, 100 [Stamina](../../../../rule/health/stamina.md), immunity all to fire damage, and uses your [characteristics](../../../../rule/character/characteristic.md). The dragon disappears at the end of the encounter, if their [Stamina](../../../../rule/health/stamina.md) drops to 0, or if you are [dying](../../../../rule/health/dying.md).
+          name: Effect
+        - roll: Power Roll + [Intuition](../../../../rule/character/intuition.md)
+          tier1: 5 fire damage
+          tier2: 9 fire damage
+          tier3: 12 fire damage
     flavor: From nothing but divine will, you create a powerful ally.
     keywords:
         - Magic

@@ -3,7 +3,9 @@ action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: troubadour
 cost: 11 Drama
 distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
-effect: The target gains 3 of their [Heroic Resource](scc.v1:mcdm.heroes.v1/rule.resource/heroic-resource), has a double [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on a [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) of their choice made during their next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), is no longer [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) or [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) if they were before, and can immediately take their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) after yours if they have not taken their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) already this round.
+effects:
+    - effect: The target gains 3 of their [Heroic Resource](scc.v1:mcdm.heroes.v1/rule.resource/heroic-resource), has a double [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on a [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) of their choice made during their next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), is no longer [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) or [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) if they were before, and can immediately take their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) after yours if they have not taken their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) already this round.
+      name: Effect
 flavor: You narrate the tension of the scene and put all hope into your protagonist to [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) things around.
 keywords:
     - Magic

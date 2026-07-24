@@ -2,7 +2,13 @@
 action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: fury
 distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
-effect: You can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) 1 square.
+effects:
+    - roll: Power Roll + [Might](scc.v1:mcdm.heroes.v1/rule.character/might)
+      tier1: 2 + M damage
+      tier2: 5 + M damage
+      tier3: 7 + M damage; A < STRONG, [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
+    - effect: You can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) 1 square.
+      name: Effect
 flavor: Staying in constant motion helps you slip out of reach after a brutal assault.
 keywords:
     - '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)'

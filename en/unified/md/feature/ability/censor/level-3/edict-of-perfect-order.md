@@ -3,7 +3,9 @@ action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: censor
 cost: 7 Wrath
 distance: 2 [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura)
-effect: 'Until the end of the encounter or until you are [dying](scc.v1:mcdm.heroes.v1/rule.health/dying), whenever a target uses an ability that costs Malice (see *Draw Steel: Monsters*), they take holy damage equal to three times your [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence) score. A target judged by you takes an extra 2d6 holy damage.'
+effects:
+    - effect: 'Until the end of the encounter or until you are [dying](scc.v1:mcdm.heroes.v1/rule.health/dying), whenever a target uses an ability that costs Malice (see *Draw Steel: Monsters*), they take holy damage equal to three times your [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence) score. A target judged by you takes an extra 2d6 holy damage.'
+      name: Effect
 flavor: Within the area of your divine presence, your enemies will regret using their fell abilities.
 keywords:
     - Area

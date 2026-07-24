@@ -5,7 +5,9 @@ cost: 9 Insight
 cost_amount: "9"
 cost_resource: Insight
 distance: 5 [burst](../../../../rule/combat/burst.md)
-effect: Until the start of your next [turn](../../../../rule/combat/turn.md), any [ability roll](../../../../rule/dice/ability-roll.md) made against a target gains an [edge](../../../../rule/dice/edge.md).
+effects:
+    - effect: Until the start of your next [turn](../../../../rule/combat/turn.md), any [ability roll](../../../../rule/dice/ability-roll.md) made against a target gains an [edge](../../../../rule/dice/edge.md).
+      name: Effect
 feature_type: ability
 file_basename: look
 file_dpath: feature/ability/shadow/level-6
@@ -29,6 +31,7 @@ cost: 9 Insight
 distance: 5 [burst](../../../../rule/combat/burst.md)
 effects:
     - effect: Until the start of your next [turn](../../../../rule/combat/turn.md), any [ability roll](../../../../rule/dice/ability-roll.md) made against a target gains an [edge](../../../../rule/dice/edge.md).
+      name: Effect
 feature_type: ability
 flavor: You distract your foes, allowing your allies to take advantage of that distraction.
 keywords:
@@ -39,7 +42,9 @@ metadata:
     class: shadow
     cost: 9 Insight
     distance: 5 [burst](../../../../rule/combat/burst.md)
-    effect: Until the start of your next [turn](../../../../rule/combat/turn.md), any [ability roll](../../../../rule/dice/ability-roll.md) made against a target gains an [edge](../../../../rule/dice/edge.md).
+    effects:
+        - effect: Until the start of your next [turn](../../../../rule/combat/turn.md), any [ability roll](../../../../rule/dice/ability-roll.md) made against a target gains an [edge](../../../../rule/dice/edge.md).
+          name: Effect
     flavor: You distract your foes, allowing your allies to take advantage of that distraction.
     keywords:
         - Area

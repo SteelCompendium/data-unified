@@ -5,7 +5,13 @@ cost: 11 Discipline
 cost_amount: "11"
 cost_resource: Discipline
 distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
-effect: While suppressed, a target takes psychic damage equal to twice your [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition) score at the start of their [turns](scc.v1:mcdm.heroes.v1/rule.combat/turn), whenever they use a [supernatural](scc.v1:mcdm.heroes.v1/rule.general/supernatural) ability, or whenever they use an ability that costs Malice.
+effects:
+    - roll: Power Roll + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)
+      tier1: 13 + A damage; M < WEAK, the target is suppressed (save ends)
+      tier2: 19 + A damage; M < AVERAGE, the target is suppressed (save ends)
+      tier3: 24 + A damage; M < STRONG, the target is suppressed (save ends)
+    - effect: While suppressed, a target takes psychic damage equal to twice your [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition) score at the start of their [turns](scc.v1:mcdm.heroes.v1/rule.combat/turn), whenever they use a [supernatural](scc.v1:mcdm.heroes.v1/rule.general/supernatural) ability, or whenever they use an ability that costs Malice.
+      name: Effect
 feature_type: ability
 file_basename: arcane-purge
 file_dpath: feature/ability/null/level-8
@@ -33,11 +39,12 @@ type: ability
 cost: 11 Discipline
 distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
 effects:
-    - effect: While suppressed, a target takes psychic damage equal to twice your [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition) score at the start of their [turns](scc.v1:mcdm.heroes.v1/rule.combat/turn), whenever they use a [supernatural](scc.v1:mcdm.heroes.v1/rule.general/supernatural) ability, or whenever they use an ability that costs Malice.
     - roll: Power Roll + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)
       tier1: 13 + A damage; M < WEAK, the target is suppressed (save ends)
       tier2: 19 + A damage; M < AVERAGE, the target is suppressed (save ends)
       tier3: 24 + A damage; M < STRONG, the target is suppressed (save ends)
+    - effect: While suppressed, a target takes psychic damage equal to twice your [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition) score at the start of their [turns](scc.v1:mcdm.heroes.v1/rule.combat/turn), whenever they use a [supernatural](scc.v1:mcdm.heroes.v1/rule.general/supernatural) ability, or whenever they use an ability that costs Malice.
+      name: Effect
 feature_type: ability
 flavor: You focus your [null field](scc.v1:mcdm.heroes.v1/feature.null.level-1/null-field) into a pressure point strike that prevents your foe from channeling sorcery.
 keywords:
@@ -50,7 +57,13 @@ metadata:
     class: "null"
     cost: 11 Discipline
     distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
-    effect: While suppressed, a target takes psychic damage equal to twice your [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition) score at the start of their [turns](scc.v1:mcdm.heroes.v1/rule.combat/turn), whenever they use a [supernatural](scc.v1:mcdm.heroes.v1/rule.general/supernatural) ability, or whenever they use an ability that costs Malice.
+    effects:
+        - roll: Power Roll + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)
+          tier1: 13 + A damage; M < WEAK, the target is suppressed (save ends)
+          tier2: 19 + A damage; M < AVERAGE, the target is suppressed (save ends)
+          tier3: 24 + A damage; M < STRONG, the target is suppressed (save ends)
+        - effect: While suppressed, a target takes psychic damage equal to twice your [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition) score at the start of their [turns](scc.v1:mcdm.heroes.v1/rule.combat/turn), whenever they use a [supernatural](scc.v1:mcdm.heroes.v1/rule.general/supernatural) ability, or whenever they use an ability that costs Malice.
+          name: Effect
     flavor: You focus your [null field](scc.v1:mcdm.heroes.v1/feature.null.level-1/null-field) into a pressure point strike that prevents your foe from channeling sorcery.
     keywords:
         - '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)'

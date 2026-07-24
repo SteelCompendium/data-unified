@@ -2,6 +2,13 @@
 action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: talent
 distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
+effects:
+    - roll: Power Roll + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason)
+      tier1: '[Slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2 + R'
+      tier2: '[Slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 4 + R'
+      tier3: '[Slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 6 + R; [prone](scc.v1:mcdm.heroes.v1/condition/prone)'
+    - effect: You must vertical [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) the target instead of [sliding](scc.v1:mcdm.heroes.v1/movement/forced-movement) them.
+      name: Strained
 flavor: You lift and hurl your foe away from you.
 keywords:
     - Psionic

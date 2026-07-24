@@ -2,7 +2,13 @@
 action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: conduit
 distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
-effect: You or one ally within [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance) can spend a [Recovery](scc.v1:mcdm.heroes.v1/rule.health/recoveries).
+effects:
+    - roll: Power Roll + [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)
+      tier1: 2 + I corruption damage
+      tier2: 5 + I corruption damage
+      tier3: 7 + I corruption damage
+    - effect: You or one ally within [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance) can spend a [Recovery](scc.v1:mcdm.heroes.v1/rule.health/recoveries).
+      name: Effect
 feature_type: ability
 file_basename: drain
 file_dpath: feature/ability/conduit/level-1
@@ -29,11 +35,12 @@ type: ability
 ```ds-feature
 distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
 effects:
-    - effect: You or one ally within [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance) can spend a [Recovery](scc.v1:mcdm.heroes.v1/rule.health/recoveries).
     - roll: Power Roll + [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)
       tier1: 2 + I corruption damage
       tier2: 5 + I corruption damage
       tier3: 7 + I corruption damage
+    - effect: You or one ally within [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance) can spend a [Recovery](scc.v1:mcdm.heroes.v1/rule.health/recoveries).
+      name: Effect
 feature_type: ability
 flavor: You drain the energy from your target to revitalize yourself or an ally.
 keywords:
@@ -44,7 +51,13 @@ metadata:
     action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: conduit
     distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
-    effect: You or one ally within [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance) can spend a [Recovery](scc.v1:mcdm.heroes.v1/rule.health/recoveries).
+    effects:
+        - roll: Power Roll + [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)
+          tier1: 2 + I corruption damage
+          tier2: 5 + I corruption damage
+          tier3: 7 + I corruption damage
+        - effect: You or one ally within [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance) can spend a [Recovery](scc.v1:mcdm.heroes.v1/rule.health/recoveries).
+          name: Effect
     flavor: You drain the energy from your target to revitalize yourself or an ally.
     keywords:
         - Magic

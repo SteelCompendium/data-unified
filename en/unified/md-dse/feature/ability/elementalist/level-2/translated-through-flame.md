@@ -5,7 +5,13 @@ cost: 5 Essence
 cost_amount: "5"
 cost_resource: Essence
 distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
-effect: The target is [teleport](scc.v1:mcdm.heroes.v1/movement/teleport)ed to another space within [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance). Make a [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) that affects each enemy [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the target's new space.
+effects:
+    - effect: The target is [teleport](scc.v1:mcdm.heroes.v1/movement/teleport)ed to another space within [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance). Make a [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) that affects each enemy [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the target's new space.
+      name: Effect
+    - roll: Power Roll + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason)
+      tier1: 3 fire damage
+      tier2: 5 fire damage
+      tier3: 8 fire damage
 feature_type: ability
 file_basename: translated-through-flame
 file_dpath: feature/ability/elementalist/level-2
@@ -34,6 +40,7 @@ cost: 5 Essence
 distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
 effects:
     - effect: The target is [teleport](scc.v1:mcdm.heroes.v1/movement/teleport)ed to another space within [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance). Make a [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) that affects each enemy [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the target's new space.
+      name: Effect
     - roll: Power Roll + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason)
       tier1: 3 fire damage
       tier2: 5 fire damage
@@ -50,7 +57,13 @@ metadata:
     class: elementalist
     cost: 5 Essence
     distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
-    effect: The target is [teleport](scc.v1:mcdm.heroes.v1/movement/teleport)ed to another space within [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance). Make a [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) that affects each enemy [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the target's new space.
+    effects:
+        - effect: The target is [teleport](scc.v1:mcdm.heroes.v1/movement/teleport)ed to another space within [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance). Make a [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) that affects each enemy [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the target's new space.
+          name: Effect
+        - roll: Power Roll + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason)
+          tier1: 3 fire damage
+          tier2: 5 fire damage
+          tier3: 8 fire damage
     flavor: Your ally disappears, then reappears in a burst of fire.
     keywords:
         - Fire

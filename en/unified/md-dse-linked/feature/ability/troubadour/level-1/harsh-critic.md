@@ -5,7 +5,13 @@ cost: 3 Drama
 cost_amount: "3"
 cost_resource: Drama
 distance: '[Melee](../../../../rule/combat/melee.md) 1 or [ranged](../../../../rule/combat/ranged.md) 10'
-effect: The first time the target uses an ability before the start of your next [turn](../../../../rule/combat/turn.md), any effects from the ability's [tier outcomes](../../../../rule/dice/tier-outcome.md) other than damage are negated for all targets. Ability effects that always happen regardless of the [power roll](../../../../rule/dice/power-roll.md) work as usual.
+effects:
+    - roll: Power Roll + [Presence](../../../../rule/character/presence.md)
+      tier1: 7 + P sonic damage
+      tier2: 10 + P sonic damage
+      tier3: 13 + P sonic damage
+    - effect: The first time the target uses an ability before the start of your next [turn](../../../../rule/combat/turn.md), any effects from the ability's [tier outcomes](../../../../rule/dice/tier-outcome.md) other than damage are negated for all targets. Ability effects that always happen regardless of the [power roll](../../../../rule/dice/power-roll.md) work as usual.
+      name: Effect
 feature_type: ability
 file_basename: harsh-critic
 file_dpath: feature/ability/troubadour/level-1
@@ -33,11 +39,12 @@ type: ability
 cost: 3 Drama
 distance: '[Melee](../../../../rule/combat/melee.md) 1 or [ranged](../../../../rule/combat/ranged.md) 10'
 effects:
-    - effect: The first time the target uses an ability before the start of your next [turn](../../../../rule/combat/turn.md), any effects from the ability's [tier outcomes](../../../../rule/dice/tier-outcome.md) other than damage are negated for all targets. Ability effects that always happen regardless of the [power roll](../../../../rule/dice/power-roll.md) work as usual.
     - roll: Power Roll + [Presence](../../../../rule/character/presence.md)
       tier1: 7 + P sonic damage
       tier2: 10 + P sonic damage
       tier3: 13 + P sonic damage
+    - effect: The first time the target uses an ability before the start of your next [turn](../../../../rule/combat/turn.md), any effects from the ability's [tier outcomes](../../../../rule/dice/tier-outcome.md) other than damage are negated for all targets. Ability effects that always happen regardless of the [power roll](../../../../rule/dice/power-roll.md) work as usual.
+      name: Effect
 feature_type: ability
 flavor: Just one bad review will ruin their day.
 keywords:
@@ -50,7 +57,13 @@ metadata:
     class: troubadour
     cost: 3 Drama
     distance: '[Melee](../../../../rule/combat/melee.md) 1 or [ranged](../../../../rule/combat/ranged.md) 10'
-    effect: The first time the target uses an ability before the start of your next [turn](../../../../rule/combat/turn.md), any effects from the ability's [tier outcomes](../../../../rule/dice/tier-outcome.md) other than damage are negated for all targets. Ability effects that always happen regardless of the [power roll](../../../../rule/dice/power-roll.md) work as usual.
+    effects:
+        - roll: Power Roll + [Presence](../../../../rule/character/presence.md)
+          tier1: 7 + P sonic damage
+          tier2: 10 + P sonic damage
+          tier3: 13 + P sonic damage
+        - effect: The first time the target uses an ability before the start of your next [turn](../../../../rule/combat/turn.md), any effects from the ability's [tier outcomes](../../../../rule/dice/tier-outcome.md) other than damage are negated for all targets. Ability effects that always happen regardless of the [power roll](../../../../rule/dice/power-roll.md) work as usual.
+          name: Effect
     flavor: Just one bad review will ruin their day.
     keywords:
         - Magic

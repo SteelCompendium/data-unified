@@ -24,11 +24,12 @@ You wear light armor and wield a medium weapon.
 ```ds-feature
 distance: '[Melee](../rule/combat/melee.md) 1'
 effects:
-    - effect: You can [shift](../movement/shifting.md) into any square the target leaves after you [push](../movement/forced-movement.md) them.
     - roll: Power Roll + [Might](../rule/character/might.md) or [Agility](../rule/character/agility.md)
       tier1: 5 + M or A damage
       tier2: 7 + M or A damage; [push](../movement/forced-movement.md) 1
       tier3: 10 + M or A damage; [push](../movement/forced-movement.md) 2
+    - effect: You can [shift](../movement/shifting.md) into any square the target leaves after you [push](../movement/forced-movement.md) them.
+      name: Effect
 feature_type: ability
 flavor: All combat is a dance—and you'll be the one leading.
 keywords:
@@ -38,7 +39,13 @@ keywords:
 metadata:
     action_type: Main action
     distance: '[Melee](../rule/combat/melee.md) 1'
-    effect: You can [shift](../movement/shifting.md) into any square the target leaves after you [push](../movement/forced-movement.md) them.
+    effects:
+        - roll: Power Roll + [Might](../rule/character/might.md) or [Agility](../rule/character/agility.md)
+          tier1: 5 + M or A damage
+          tier2: 7 + M or A damage; [push](../movement/forced-movement.md) 1
+          tier3: 10 + M or A damage; [push](../movement/forced-movement.md) 2
+        - effect: You can [shift](../movement/shifting.md) into any square the target leaves after you [push](../movement/forced-movement.md) them.
+          name: Effect
     flavor: All combat is a dance—and you'll be the one leading.
     keywords:
         - '[Melee](../rule/combat/melee.md)'

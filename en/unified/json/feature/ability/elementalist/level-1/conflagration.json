@@ -7,6 +7,10 @@
       "tier1": "4 fire damage",
       "tier2": "6 fire damage",
       "tier3": "10 fire damage"
+    },
+    {
+      "effect": "At the start of your [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), you can use a maneuver to use this ability again without spending essence.",
+      "name": "Persistent 2"
     }
   ],
   "feature_type": "ability",

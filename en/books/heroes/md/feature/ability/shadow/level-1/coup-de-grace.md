@@ -3,6 +3,11 @@ action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: shadow
 cost: 5 Insight
 distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1 or [ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 5'
+effects:
+    - roll: Power Roll + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)
+      tier1: 2d6 + 7 + A damage
+      tier2: 2d6 + 11 + A damage
+      tier3: 2d6 + 16 + A damage
 flavor: Your blade might be the last thing they see.
 keywords:
     - '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)'

@@ -5,7 +5,9 @@ cost: 11 Drama
 cost_amount: "11"
 cost_resource: Drama
 distance: Self
-effect: 'Until the end of the encounter, whenever you deal [rolled damage](../../../../rule/damage/rolled-damage.md) to a creature or object, or enable a creature to spend a [Recovery](../../../../rule/health/recoveries.md), you can use a free [triggered action](../../../../rule/combat/triggered-action.md) to give that creature or object one of the following effects until the start of your next [turn](../../../../rule/combat/turn.md). If this ability is triggered by multiple targets taking damage or multiple creatures spending [Recoveries](../../../../rule/health/recoveries.md) simultaneously, each target receives the same effect:'
+effects:
+    - effect: 'Until the end of the encounter, whenever you deal [rolled damage](../../../../rule/damage/rolled-damage.md) to a creature or object, or enable a creature to spend a [Recovery](../../../../rule/health/recoveries.md), you can use a free [triggered action](../../../../rule/combat/triggered-action.md) to give that creature or object one of the following effects until the start of your next [turn](../../../../rule/combat/turn.md). If this ability is triggered by multiple targets taking damage or multiple creatures spending [Recoveries](../../../../rule/health/recoveries.md) simultaneously, each target receives the same effect:'
+      name: Effect
 feature_type: ability
 file_basename: saved-in-the-edit
 file_dpath: feature/ability/troubadour/level-8
@@ -27,6 +29,7 @@ cost: 11 Drama
 distance: Self
 effects:
     - effect: 'Until the end of the encounter, whenever you deal [rolled damage](../../../../rule/damage/rolled-damage.md) to a creature or object, or enable a creature to spend a [Recovery](../../../../rule/health/recoveries.md), you can use a free [triggered action](../../../../rule/combat/triggered-action.md) to give that creature or object one of the following effects until the start of your next [turn](../../../../rule/combat/turn.md). If this ability is triggered by multiple targets taking damage or multiple creatures spending [Recoveries](../../../../rule/health/recoveries.md) simultaneously, each target receives the same effect:'
+      name: Effect
 feature_type: ability
 flavor: You shout a word of power that allows you to rewrite reality to your whims.
 keywords:
@@ -36,7 +39,9 @@ metadata:
     class: troubadour
     cost: 11 Drama
     distance: Self
-    effect: 'Until the end of the encounter, whenever you deal [rolled damage](../../../../rule/damage/rolled-damage.md) to a creature or object, or enable a creature to spend a [Recovery](../../../../rule/health/recoveries.md), you can use a free [triggered action](../../../../rule/combat/triggered-action.md) to give that creature or object one of the following effects until the start of your next [turn](../../../../rule/combat/turn.md). If this ability is triggered by multiple targets taking damage or multiple creatures spending [Recoveries](../../../../rule/health/recoveries.md) simultaneously, each target receives the same effect:'
+    effects:
+        - effect: 'Until the end of the encounter, whenever you deal [rolled damage](../../../../rule/damage/rolled-damage.md) to a creature or object, or enable a creature to spend a [Recovery](../../../../rule/health/recoveries.md), you can use a free [triggered action](../../../../rule/combat/triggered-action.md) to give that creature or object one of the following effects until the start of your next [turn](../../../../rule/combat/turn.md). If this ability is triggered by multiple targets taking damage or multiple creatures spending [Recoveries](../../../../rule/health/recoveries.md) simultaneously, each target receives the same effect:'
+          name: Effect
     flavor: You shout a word of power that allows you to rewrite reality to your whims.
     keywords:
         - Magic

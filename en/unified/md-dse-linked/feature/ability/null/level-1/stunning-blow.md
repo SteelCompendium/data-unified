@@ -5,6 +5,11 @@ cost: 3 Discipline
 cost_amount: "3"
 cost_resource: Discipline
 distance: '[Melee](../../../../rule/combat/melee.md) 1'
+effects:
+    - roll: Power Roll + [Agility](../../../../rule/character/agility.md)
+      tier1: 4 + A damage; I < WEAK, [dazed](../../../../condition/dazed.md) and [slowed](../../../../condition/slowed.md) (save ends)
+      tier2: 5 + A damage; I < AVERAGE, [dazed](../../../../condition/dazed.md) and [slowed](../../../../condition/slowed.md) (save ends)
+      tier3: 7 + A damage; I < STRONG, [dazed](../../../../condition/dazed.md) and [slowed](../../../../condition/slowed.md) (save ends)
 feature_type: ability
 file_basename: stunning-blow
 file_dpath: feature/ability/null/level-1
@@ -48,6 +53,11 @@ metadata:
     class: "null"
     cost: 3 Discipline
     distance: '[Melee](../../../../rule/combat/melee.md) 1'
+    effects:
+        - roll: Power Roll + [Agility](../../../../rule/character/agility.md)
+          tier1: 4 + A damage; I < WEAK, [dazed](../../../../condition/dazed.md) and [slowed](../../../../condition/slowed.md) (save ends)
+          tier2: 5 + A damage; I < AVERAGE, [dazed](../../../../condition/dazed.md) and [slowed](../../../../condition/slowed.md) (save ends)
+          tier3: 7 + A damage; I < STRONG, [dazed](../../../../condition/dazed.md) and [slowed](../../../../condition/slowed.md) (save ends)
     flavor: You focus your psionic technique into a concussive punch.
     keywords:
         - '[Melee](../../../../rule/combat/melee.md)'

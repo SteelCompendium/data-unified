@@ -5,7 +5,15 @@ cost: 11 Clarity
 cost_amount: "11"
 cost_resource: Clarity
 distance: 3 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)
-effect: On a [critical hit](scc.v1:mcdm.heroes.v1/rule.combat/critical-hit), the size of the area increases by 3, and this ability deals an extra 10 damage.
+effects:
+    - roll: Power Roll + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason)
+      tier1: 6 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 7
+      tier2: 9 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 10
+      tier3: 13 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 15
+    - effect: On a [critical hit](scc.v1:mcdm.heroes.v1/rule.combat/critical-hit), the size of the area increases by 3, and this ability deals an extra 10 damage.
+      name: Effect
+    - effect: You are [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends). If you scored a [critical hit](scc.v1:mcdm.heroes.v1/rule.combat/critical-hit) with this ability, you die.
+      name: Strained
 feature_type: ability
 file_basename: gravitic-nova
 file_dpath: feature/ability/talent/level-9
@@ -33,11 +41,14 @@ type: ability
 cost: 11 Clarity
 distance: 3 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)
 effects:
-    - effect: On a [critical hit](scc.v1:mcdm.heroes.v1/rule.combat/critical-hit), the size of the area increases by 3, and this ability deals an extra 10 damage.
     - roll: Power Roll + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason)
       tier1: 6 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 7
       tier2: 9 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 10
       tier3: 13 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 15
+    - effect: On a [critical hit](scc.v1:mcdm.heroes.v1/rule.combat/critical-hit), the size of the area increases by 3, and this ability deals an extra 10 damage.
+      name: Effect
+    - effect: You are [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends). If you scored a [critical hit](scc.v1:mcdm.heroes.v1/rule.combat/critical-hit) with this ability, you die.
+      name: Strained
 feature_type: ability
 flavor: Unbridled psionic energy erupts from your body and flashes outward, hurling your foes back.
 keywords:
@@ -49,7 +60,15 @@ metadata:
     class: talent
     cost: 11 Clarity
     distance: 3 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)
-    effect: On a [critical hit](scc.v1:mcdm.heroes.v1/rule.combat/critical-hit), the size of the area increases by 3, and this ability deals an extra 10 damage.
+    effects:
+        - roll: Power Roll + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason)
+          tier1: 6 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 7
+          tier2: 9 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 10
+          tier3: 13 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 15
+        - effect: On a [critical hit](scc.v1:mcdm.heroes.v1/rule.combat/critical-hit), the size of the area increases by 3, and this ability deals an extra 10 damage.
+          name: Effect
+        - effect: You are [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends). If you scored a [critical hit](scc.v1:mcdm.heroes.v1/rule.combat/critical-hit) with this ability, you die.
+          name: Strained
     flavor: Unbridled psionic energy erupts from your body and flashes outward, hurling your foes back.
     keywords:
         - Area

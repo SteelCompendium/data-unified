@@ -2,7 +2,13 @@
 action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: conduit
 distance: 2 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)
-effect: You can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) yourself and each ally in the area to unoccupied spaces in the area.
+effects:
+    - roll: Power Roll + [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)
+      tier1: 2 holy damage
+      tier2: 3 holy damage
+      tier3: 5 holy damage
+    - effect: You can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) yourself and each ally in the area to unoccupied spaces in the area.
+      name: Effect
 feature_type: ability
 file_basename: lightfall
 file_dpath: feature/ability/conduit/level-1
@@ -28,11 +34,12 @@ type: ability
 ```ds-feature
 distance: 2 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)
 effects:
-    - effect: You can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) yourself and each ally in the area to unoccupied spaces in the area.
     - roll: Power Roll + [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)
       tier1: 2 holy damage
       tier2: 3 holy damage
       tier3: 5 holy damage
+    - effect: You can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) yourself and each ally in the area to unoccupied spaces in the area.
+      name: Effect
 feature_type: ability
 flavor: A rain of holy light scours your enemies and repositions your allies.
 keywords:
@@ -42,7 +49,13 @@ metadata:
     action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: conduit
     distance: 2 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)
-    effect: You can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) yourself and each ally in the area to unoccupied spaces in the area.
+    effects:
+        - roll: Power Roll + [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)
+          tier1: 2 holy damage
+          tier2: 3 holy damage
+          tier3: 5 holy damage
+        - effect: You can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) yourself and each ally in the area to unoccupied spaces in the area.
+          name: Effect
     flavor: A rain of holy light scours your enemies and repositions your allies.
     keywords:
         - Area

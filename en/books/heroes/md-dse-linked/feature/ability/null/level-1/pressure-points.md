@@ -2,6 +2,11 @@
 action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: "null"
 distance: '[Melee](../../../../rule/combat/melee.md) 1'
+effects:
+    - roll: Power Roll + [Agility](../../../../rule/character/agility.md)
+      tier1: 4 + A damage; A < WEAK, [weakened](../../../../condition/weakened.md) (save ends)
+      tier2: 7 + A damage; A < AVERAGE, [weakened](../../../../condition/weakened.md) (save ends)
+      tier3: 9 + A damage; A < STRONG, [weakened](../../../../condition/weakened.md) (save ends)
 feature_type: ability
 file_basename: pressure-points
 file_dpath: feature/ability/null/level-1
@@ -44,6 +49,11 @@ metadata:
     action_type: '[Main action](../../../../rule/combat/turn.md)'
     class: "null"
     distance: '[Melee](../../../../rule/combat/melee.md) 1'
+    effects:
+        - roll: Power Roll + [Agility](../../../../rule/character/agility.md)
+          tier1: 4 + A damage; A < WEAK, [weakened](../../../../condition/weakened.md) (save ends)
+          tier2: 7 + A damage; A < AVERAGE, [weakened](../../../../condition/weakened.md) (save ends)
+          tier3: 9 + A damage; A < STRONG, [weakened](../../../../condition/weakened.md) (save ends)
     flavor: You strike at key nerve clusters to leave your foe staggered.
     keywords:
         - '[Melee](../../../../rule/combat/melee.md)'

@@ -5,6 +5,11 @@ cost: 3 Ferocity
 cost_amount: "3"
 cost_resource: Ferocity
 distance: Melee 1
+effects:
+    - roll: Power Roll + Might
+      tier1: 4 + M damage; your companion can spend a Recovery
+      tier2: 7 + M damage; you and your companion can each spend a Recovery
+      tier3: 11 + M damage; A < STRONG [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (EoT); you and your companion can each spend a Recovery and shift up to 2 squares
 feature_type: ability
 file_basename: hungry-like-the-wolf
 file_dpath: feature/ability/beastheart/level-1
@@ -50,6 +55,11 @@ metadata:
     class: beastheart
     cost: 3 Ferocity
     distance: Melee 1
+    effects:
+        - roll: Power Roll + Might
+          tier1: 4 + M damage; your companion can spend a Recovery
+          tier2: 7 + M damage; you and your companion can each spend a Recovery
+          tier3: 11 + M damage; A < STRONG [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (EoT); you and your companion can each spend a Recovery and shift up to 2 squares
     flavor: The enemy's blood flows like wine, invigorating your companion.
     keywords:
         - Companion

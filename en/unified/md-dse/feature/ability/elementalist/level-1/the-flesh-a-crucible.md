@@ -5,6 +5,13 @@ cost: 3 Essence
 cost_amount: "3"
 cost_resource: Essence
 distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
+effects:
+    - roll: Power Roll + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason)
+      tier1: 5 + R fire damage
+      tier2: 8 + R fire damage
+      tier3: 11 + R fire damage
+    - effect: If the target is within [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance) at the start of your [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), you can make the [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) again without spending essence (no action required).
+      name: Persistent 1
 feature_type: ability
 file_basename: the-flesh-a-crucible
 file_dpath: feature/ability/elementalist/level-1
@@ -36,6 +43,8 @@ effects:
       tier1: 5 + R fire damage
       tier2: 8 + R fire damage
       tier3: 11 + R fire damage
+    - effect: If the target is within [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance) at the start of your [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), you can make the [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) again without spending essence (no action required).
+      name: Persistent 1
 feature_type: ability
 flavor: Fire engulfs your target and continues to churn.
 keywords:
@@ -48,6 +57,13 @@ metadata:
     class: elementalist
     cost: 3 Essence
     distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
+    effects:
+        - roll: Power Roll + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason)
+          tier1: 5 + R fire damage
+          tier2: 8 + R fire damage
+          tier3: 11 + R fire damage
+        - effect: If the target is within [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance) at the start of your [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), you can make the [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) again without spending essence (no action required).
+          name: Persistent 1
     flavor: Fire engulfs your target and continues to churn.
     keywords:
         - Fire

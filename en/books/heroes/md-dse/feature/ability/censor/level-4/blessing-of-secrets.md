@@ -2,7 +2,9 @@
 action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: censor
 distance: 3 [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura)
-effect: Each creature in the area has a double [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on [tests](scc.v1:mcdm.heroes.v1/rule.test/test) made to [hide](scc.v1:mcdm.heroes.v1/skill.intrigue/hide) or [sneak](scc.v1:mcdm.heroes.v1/skill.intrigue/sneak). The [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura) lasts until you end it (no action required) or until a target harms or deals damage to a creature or object.
+effects:
+    - effect: Each creature in the area has a double [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on [tests](scc.v1:mcdm.heroes.v1/rule.test/test) made to [hide](scc.v1:mcdm.heroes.v1/skill.intrigue/hide) or [sneak](scc.v1:mcdm.heroes.v1/skill.intrigue/sneak). The [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura) lasts until you end it (no action required) or until a target harms or deals damage to a creature or object.
+      name: Effect
 feature_type: ability
 file_basename: blessing-of-secrets
 file_dpath: feature/ability/censor/level-4
@@ -25,6 +27,7 @@ type: ability
 distance: 3 [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura)
 effects:
     - effect: Each creature in the area has a double [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on [tests](scc.v1:mcdm.heroes.v1/rule.test/test) made to [hide](scc.v1:mcdm.heroes.v1/skill.intrigue/hide) or [sneak](scc.v1:mcdm.heroes.v1/skill.intrigue/sneak). The [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura) lasts until you end it (no action required) or until a target harms or deals damage to a creature or object.
+      name: Effect
 feature_type: ability
 flavor: You project an illusory [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura) that makes you and allies harder to notice.
 keywords:
@@ -34,7 +37,9 @@ metadata:
     action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: censor
     distance: 3 [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura)
-    effect: Each creature in the area has a double [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on [tests](scc.v1:mcdm.heroes.v1/rule.test/test) made to [hide](scc.v1:mcdm.heroes.v1/skill.intrigue/hide) or [sneak](scc.v1:mcdm.heroes.v1/skill.intrigue/sneak). The [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura) lasts until you end it (no action required) or until a target harms or deals damage to a creature or object.
+    effects:
+        - effect: Each creature in the area has a double [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on [tests](scc.v1:mcdm.heroes.v1/rule.test/test) made to [hide](scc.v1:mcdm.heroes.v1/skill.intrigue/hide) or [sneak](scc.v1:mcdm.heroes.v1/skill.intrigue/sneak). The [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura) lasts until you end it (no action required) or until a target harms or deals damage to a creature or object.
+          name: Effect
     flavor: You project an illusory [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura) that makes you and allies harder to notice.
     keywords:
         - Area

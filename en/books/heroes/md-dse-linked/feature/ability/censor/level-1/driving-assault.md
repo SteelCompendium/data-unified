@@ -5,7 +5,13 @@ cost: 3 Wrath
 cost_amount: "3"
 cost_resource: Wrath
 distance: '[Melee](../../../../rule/combat/melee.md) 1'
-effect: You can [shift](../../../../movement/shifting.md) up to your [speed](../../../../rule/character/speed.md) in a straight line toward the target after [pushing](../../../../movement/forced-movement.md) them.
+effects:
+    - roll: Power Roll + [Might](../../../../rule/character/might.md)
+      tier1: 3 + M damage; [push](../../../../movement/forced-movement.md) 1
+      tier2: 6 + M damage; [push](../../../../movement/forced-movement.md) 3
+      tier3: 9 + M damage; [push](../../../../movement/forced-movement.md) 5
+    - effect: You can [shift](../../../../movement/shifting.md) up to your [speed](../../../../rule/character/speed.md) in a straight line toward the target after [pushing](../../../../movement/forced-movement.md) them.
+      name: Effect
 feature_type: ability
 file_basename: driving-assault
 file_dpath: feature/ability/censor/level-1
@@ -32,11 +38,12 @@ type: ability
 cost: 3 Wrath
 distance: '[Melee](../../../../rule/combat/melee.md) 1'
 effects:
-    - effect: You can [shift](../../../../movement/shifting.md) up to your [speed](../../../../rule/character/speed.md) in a straight line toward the target after [pushing](../../../../movement/forced-movement.md) them.
     - roll: Power Roll + [Might](../../../../rule/character/might.md)
       tier1: 3 + M damage; [push](../../../../movement/forced-movement.md) 1
       tier2: 6 + M damage; [push](../../../../movement/forced-movement.md) 3
       tier3: 9 + M damage; [push](../../../../movement/forced-movement.md) 5
+    - effect: You can [shift](../../../../movement/shifting.md) up to your [speed](../../../../rule/character/speed.md) in a straight line toward the target after [pushing](../../../../movement/forced-movement.md) them.
+      name: Effect
 feature_type: ability
 flavor: As you force your enemy back with your weapon, you use your faith to stay close.
 keywords:
@@ -48,7 +55,13 @@ metadata:
     class: censor
     cost: 3 Wrath
     distance: '[Melee](../../../../rule/combat/melee.md) 1'
-    effect: You can [shift](../../../../movement/shifting.md) up to your [speed](../../../../rule/character/speed.md) in a straight line toward the target after [pushing](../../../../movement/forced-movement.md) them.
+    effects:
+        - roll: Power Roll + [Might](../../../../rule/character/might.md)
+          tier1: 3 + M damage; [push](../../../../movement/forced-movement.md) 1
+          tier2: 6 + M damage; [push](../../../../movement/forced-movement.md) 3
+          tier3: 9 + M damage; [push](../../../../movement/forced-movement.md) 5
+        - effect: You can [shift](../../../../movement/shifting.md) up to your [speed](../../../../rule/character/speed.md) in a straight line toward the target after [pushing](../../../../movement/forced-movement.md) them.
+          name: Effect
     flavor: As you force your enemy back with your weapon, you use your faith to stay close.
     keywords:
         - '[Melee](../../../../rule/combat/melee.md)'

@@ -5,7 +5,13 @@ cost: 9 Ferocity
 cost_amount: "9"
 cost_resource: Ferocity
 distance: Melee 1
-effect: If your companion is adjacent to the target, this [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) can ignore the target's stability.
+effects:
+    - roll: Power Roll + Might
+      tier1: 10 + M damage; vertical push 4; [prone](scc.v1:mcdm.heroes.v1/condition/prone)
+      tier2: 15 + M damage; vertical push 6; [prone](scc.v1:mcdm.heroes.v1/condition/prone)
+      tier3: 20 + M damage; vertical push 8; [prone](scc.v1:mcdm.heroes.v1/condition/prone)
+    - effect: If your companion is adjacent to the target, this [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) can ignore the target's stability.
+      name: Effect
 feature_type: ability
 file_basename: one-two-three-heave
 file_dpath: feature/ability/beastheart/level-5
@@ -33,11 +39,12 @@ type: ability
 cost: 9 Ferocity
 distance: Melee 1
 effects:
-    - effect: If your companion is adjacent to the target, this [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) can ignore the target's stability.
     - roll: Power Roll + Might
       tier1: 10 + M damage; vertical push 4; [prone](scc.v1:mcdm.heroes.v1/condition/prone)
       tier2: 15 + M damage; vertical push 6; [prone](scc.v1:mcdm.heroes.v1/condition/prone)
       tier3: 20 + M damage; vertical push 8; [prone](scc.v1:mcdm.heroes.v1/condition/prone)
+    - effect: If your companion is adjacent to the target, this [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) can ignore the target's stability.
+      name: Effect
 feature_type: ability
 flavor: Harnessing your companion's strength, you send your foe flying.
 keywords:
@@ -50,7 +57,13 @@ metadata:
     class: beastheart
     cost: 9 Ferocity
     distance: Melee 1
-    effect: If your companion is adjacent to the target, this [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) can ignore the target's stability.
+    effects:
+        - roll: Power Roll + Might
+          tier1: 10 + M damage; vertical push 4; [prone](scc.v1:mcdm.heroes.v1/condition/prone)
+          tier2: 15 + M damage; vertical push 6; [prone](scc.v1:mcdm.heroes.v1/condition/prone)
+          tier3: 20 + M damage; vertical push 8; [prone](scc.v1:mcdm.heroes.v1/condition/prone)
+        - effect: If your companion is adjacent to the target, this [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) can ignore the target's stability.
+          name: Effect
     flavor: Harnessing your companion's strength, you send your foe flying.
     keywords:
         - Beastheart

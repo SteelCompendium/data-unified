@@ -3,7 +3,11 @@ action_type: Maneuver
 class: beastheart
 companion: gummy-ball
 distance: Melee 1
-effect: The target takes acid damage equal to 3 + the ball's Might score, and if they have A < AVERAGE, the ball moves into the target's space. If the target completely fits within the ball's space, the target is [grabbed](../../../../../../condition/grabbed.md) by the ball.
+effects:
+    - effect: The target takes acid damage equal to 3 + the ball's Might score, and if they have A < AVERAGE, the ball moves into the target's space. If the target completely fits within the ball's space, the target is [grabbed](../../../../../../condition/grabbed.md) by the ball.
+      name: Effect
+    - cost: Spend 1 Ferocity
+      effect: A target [grabbed](../../../../../../condition/grabbed.md) this way takes acid damage equal to the ball's Might score at the end of each of the ball's turns.
 feature_type: ability
 file_basename: absorb
 file_dpath: feature/ability/companion/beastheart/gummy-ball/level-1
@@ -18,7 +22,6 @@ level: "1"
 name: Absorb
 scc: mcdm.beastheart.v1/feature.ability.companion.beastheart.gummy-ball.level-1/absorb
 source: mcdm.beastheart.v1
-spend: '1 Ferocity: A target [grabbed](../../../../../../condition/grabbed.md) this way takes acid damage equal to the ball''s Might score at the end of each of the ball''s turns.'
 subtype: signature
 target: One enemy
 type: ability
@@ -28,8 +31,9 @@ type: ability
 distance: Melee 1
 effects:
     - effect: The target takes acid damage equal to 3 + the ball's Might score, and if they have A < AVERAGE, the ball moves into the target's space. If the target completely fits within the ball's space, the target is [grabbed](../../../../../../condition/grabbed.md) by the ball.
-    - effect: '1 Ferocity: A target [grabbed](../../../../../../condition/grabbed.md) this way takes acid damage equal to the ball''s Might score at the end of each of the ball''s turns.'
-      name: Spend
+      name: Effect
+    - cost: Spend 1 Ferocity
+      effect: A target [grabbed](../../../../../../condition/grabbed.md) this way takes acid damage equal to the ball's Might score at the end of each of the ball's turns.
 feature_type: ability
 flavor: With a sickening squelch, the ball oozes around their hapless prey.
 keywords:
@@ -41,7 +45,11 @@ metadata:
     class: beastheart
     companion: gummy-ball
     distance: Melee 1
-    effect: The target takes acid damage equal to 3 + the ball's Might score, and if they have A < AVERAGE, the ball moves into the target's space. If the target completely fits within the ball's space, the target is [grabbed](../../../../../../condition/grabbed.md) by the ball.
+    effects:
+        - effect: The target takes acid damage equal to 3 + the ball's Might score, and if they have A < AVERAGE, the ball moves into the target's space. If the target completely fits within the ball's space, the target is [grabbed](../../../../../../condition/grabbed.md) by the ball.
+          name: Effect
+        - cost: Spend 1 Ferocity
+          effect: A target [grabbed](../../../../../../condition/grabbed.md) this way takes acid damage equal to the ball's Might score at the end of each of the ball's turns.
     flavor: With a sickening squelch, the ball oozes around their hapless prey.
     keywords:
         - Companion
@@ -50,7 +58,6 @@ metadata:
     level: "1"
     name: Absorb
     scc: mcdm.beastheart.v1/feature.ability.companion.beastheart.gummy-ball.level-1/absorb
-    spend: '1 Ferocity: A target [grabbed](../../../../../../condition/grabbed.md) this way takes acid damage equal to the ball''s Might score at the end of each of the ball''s turns.'
     subtype: signature
     target: One enemy
     type: ability

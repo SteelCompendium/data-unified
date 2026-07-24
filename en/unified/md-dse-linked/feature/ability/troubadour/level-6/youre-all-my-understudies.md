@@ -5,7 +5,9 @@ cost: 9 Drama
 cost_amount: "9"
 cost_resource: Drama
 distance: 5 [burst](../../../../rule/combat/burst.md)
-effect: Until the end of the encounter, each target gains the [speed](../../../../rule/character/speed.md) [bonus](../../../../rule/dice/bonuses-and-penalties.md), weapon [distance](../../../../rule/combat/distance.md) [bonus](../../../../rule/dice/bonuses-and-penalties.md), disengage [bonus](../../../../rule/dice/bonuses-and-penalties.md), and [stability](../../../../rule/character/stability.md) [bonus](../../../../rule/dice/bonuses-and-penalties.md) of your currently equipped kit in addition to their own kit's [bonus](../../../../rule/dice/bonuses-and-penalties.md)es.
+effects:
+    - effect: Until the end of the encounter, each target gains the [speed](../../../../rule/character/speed.md) [bonus](../../../../rule/dice/bonuses-and-penalties.md), weapon [distance](../../../../rule/combat/distance.md) [bonus](../../../../rule/dice/bonuses-and-penalties.md), disengage [bonus](../../../../rule/dice/bonuses-and-penalties.md), and [stability](../../../../rule/character/stability.md) [bonus](../../../../rule/dice/bonuses-and-penalties.md) of your currently equipped kit in addition to their own kit's [bonus](../../../../rule/dice/bonuses-and-penalties.md)es.
+      name: Effect
 feature_type: ability
 file_basename: youre-all-my-understudies
 file_dpath: feature/ability/troubadour/level-6
@@ -29,6 +31,7 @@ cost: 9 Drama
 distance: 5 [burst](../../../../rule/combat/burst.md)
 effects:
     - effect: Until the end of the encounter, each target gains the [speed](../../../../rule/character/speed.md) [bonus](../../../../rule/dice/bonuses-and-penalties.md), weapon [distance](../../../../rule/combat/distance.md) [bonus](../../../../rule/dice/bonuses-and-penalties.md), disengage [bonus](../../../../rule/dice/bonuses-and-penalties.md), and [stability](../../../../rule/character/stability.md) [bonus](../../../../rule/dice/bonuses-and-penalties.md) of your currently equipped kit in addition to their own kit's [bonus](../../../../rule/dice/bonuses-and-penalties.md)es.
+      name: Effect
 feature_type: ability
 flavor: It's important for everyone to know each other's lines, just in case...
 keywords:
@@ -39,7 +42,9 @@ metadata:
     class: troubadour
     cost: 9 Drama
     distance: 5 [burst](../../../../rule/combat/burst.md)
-    effect: Until the end of the encounter, each target gains the [speed](../../../../rule/character/speed.md) [bonus](../../../../rule/dice/bonuses-and-penalties.md), weapon [distance](../../../../rule/combat/distance.md) [bonus](../../../../rule/dice/bonuses-and-penalties.md), disengage [bonus](../../../../rule/dice/bonuses-and-penalties.md), and [stability](../../../../rule/character/stability.md) [bonus](../../../../rule/dice/bonuses-and-penalties.md) of your currently equipped kit in addition to their own kit's [bonus](../../../../rule/dice/bonuses-and-penalties.md)es.
+    effects:
+        - effect: Until the end of the encounter, each target gains the [speed](../../../../rule/character/speed.md) [bonus](../../../../rule/dice/bonuses-and-penalties.md), weapon [distance](../../../../rule/combat/distance.md) [bonus](../../../../rule/dice/bonuses-and-penalties.md), disengage [bonus](../../../../rule/dice/bonuses-and-penalties.md), and [stability](../../../../rule/character/stability.md) [bonus](../../../../rule/dice/bonuses-and-penalties.md) of your currently equipped kit in addition to their own kit's [bonus](../../../../rule/dice/bonuses-and-penalties.md)es.
+          name: Effect
     flavor: It's important for everyone to know each other's lines, just in case...
     keywords:
         - Area

@@ -3,7 +3,9 @@ action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: shadow
 cost: 9 Insight
 distance: 5 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)
-effect: Until the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), any [ability roll](scc.v1:mcdm.heroes.v1/rule.dice/ability-roll) made against a target gains an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge).
+effects:
+    - effect: Until the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), any [ability roll](scc.v1:mcdm.heroes.v1/rule.dice/ability-roll) made against a target gains an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge).
+      name: Effect
 flavor: You distract your foes, allowing your allies to take advantage of that distraction.
 keywords:
     - Area

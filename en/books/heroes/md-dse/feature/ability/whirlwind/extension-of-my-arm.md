@@ -1,6 +1,11 @@
 ---
 action_type: Main action
 distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 3'
+effects:
+    - roll: Power Roll + [Might](scc.v1:mcdm.heroes.v1/rule.character/might) or [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)
+      tier1: 4 + M or A damage; vertical [pull](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1
+      tier2: 7 + M or A damage; vertical [pull](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2
+      tier3: 10 + M or A damage; vertical [pull](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3
 feature_type: ability
 file_basename: extension-of-my-arm
 file_dpath: feature/ability/whirlwind
@@ -40,6 +45,11 @@ keywords:
 metadata:
     action_type: Main action
     distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 3'
+    effects:
+        - roll: Power Roll + [Might](scc.v1:mcdm.heroes.v1/rule.character/might) or [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)
+          tier1: 4 + M or A damage; vertical [pull](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1
+          tier2: 7 + M or A damage; vertical [pull](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2
+          tier3: 10 + M or A damage; vertical [pull](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3
     flavor: When you draw your whip back after an attack, your enemy is drawn ever closer.
     keywords:
         - '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)'

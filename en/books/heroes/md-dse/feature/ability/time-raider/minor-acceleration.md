@@ -2,7 +2,9 @@
 action_type: Maneuver
 ancestry: time-raider
 distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
-effect: The target gains a [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to [speed](scc.v1:mcdm.heroes.v1/rule.character/speed) equal to your [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason), [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition), or [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence) score (your choice) until the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn).
+effects:
+    - effect: The target gains a [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to [speed](scc.v1:mcdm.heroes.v1/rule.character/speed) equal to your [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason), [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition), or [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence) score (your choice) until the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn).
+      name: Effect
 feature_type: ability
 file_basename: minor-acceleration
 file_dpath: feature/ability/time-raider
@@ -24,6 +26,7 @@ type: ability
 distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
 effects:
     - effect: The target gains a [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to [speed](scc.v1:mcdm.heroes.v1/rule.character/speed) equal to your [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason), [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition), or [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence) score (your choice) until the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn).
+      name: Effect
 feature_type: ability
 flavor: You fill yourself or an ally with a burst of [speed](scc.v1:mcdm.heroes.v1/rule.character/speed).
 keywords:
@@ -33,7 +36,9 @@ metadata:
     action_type: Maneuver
     ancestry: time-raider
     distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
-    effect: The target gains a [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to [speed](scc.v1:mcdm.heroes.v1/rule.character/speed) equal to your [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason), [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition), or [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence) score (your choice) until the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn).
+    effects:
+        - effect: The target gains a [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to [speed](scc.v1:mcdm.heroes.v1/rule.character/speed) equal to your [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason), [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition), or [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence) score (your choice) until the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn).
+          name: Effect
     flavor: You fill yourself or an ally with a burst of [speed](scc.v1:mcdm.heroes.v1/rule.character/speed).
     keywords:
         - Psionic

@@ -3,7 +3,9 @@ action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: "null"
 cost: 9 Discipline
 distance: 3 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)
-effect: Each target can end any [conditions](scc.v1:mcdm.heroes.v1/rule.combat/condition) or effects on themself, and gains 5 [temporary Stamina](scc.v1:mcdm.heroes.v1/rule.health/temporary-stamina) for each [condition](scc.v1:mcdm.heroes.v1/rule.combat/condition) or effect removed.
+effects:
+    - effect: Each target can end any [conditions](scc.v1:mcdm.heroes.v1/rule.combat/condition) or effects on themself, and gains 5 [temporary Stamina](scc.v1:mcdm.heroes.v1/rule.health/temporary-stamina) for each [condition](scc.v1:mcdm.heroes.v1/rule.combat/condition) or effect removed.
+      name: Effect
 flavor: You expand your nullifying power to mitigate harmful effects.
 keywords:
     - Area

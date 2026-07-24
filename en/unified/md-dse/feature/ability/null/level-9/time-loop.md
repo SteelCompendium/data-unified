@@ -5,7 +5,9 @@ cost: 11 Discipline
 cost_amount: "11"
 cost_resource: Discipline
 distance: Self
-effect: You take a [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) immediately after the triggering creature. This ability can be used only once per [combat round](scc.v1:mcdm.heroes.v1/rule.combat/combat-round).
+effects:
+    - effect: You take a [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) immediately after the triggering creature. This ability can be used only once per [combat round](scc.v1:mcdm.heroes.v1/rule.combat/combat-round).
+      name: Effect
 feature_type: ability
 file_basename: time-loop
 file_dpath: feature/ability/null/level-9
@@ -30,6 +32,7 @@ cost: 11 Discipline
 distance: Self
 effects:
     - effect: You take a [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) immediately after the triggering creature. This ability can be used only once per [combat round](scc.v1:mcdm.heroes.v1/rule.combat/combat-round).
+      name: Effect
 feature_type: ability
 flavor: You show shadows what true [speed](scc.v1:mcdm.heroes.v1/rule.character/speed) is.
 keywords:
@@ -39,7 +42,9 @@ metadata:
     class: "null"
     cost: 11 Discipline
     distance: Self
-    effect: You take a [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) immediately after the triggering creature. This ability can be used only once per [combat round](scc.v1:mcdm.heroes.v1/rule.combat/combat-round).
+    effects:
+        - effect: You take a [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) immediately after the triggering creature. This ability can be used only once per [combat round](scc.v1:mcdm.heroes.v1/rule.combat/combat-round).
+          name: Effect
     flavor: You show shadows what true [speed](scc.v1:mcdm.heroes.v1/rule.character/speed) is.
     keywords:
         - Psionic

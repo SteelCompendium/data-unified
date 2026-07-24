@@ -2,7 +2,13 @@
 action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: censor
 distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
-effect: Each enemy [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the target is [pushed](scc.v1:mcdm.heroes.v1/movement/forced-movement) away from the target up to a number of squares equal to your [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence) score.
+effects:
+    - roll: Power Roll + [Might](scc.v1:mcdm.heroes.v1/rule.character/might)
+      tier1: 3 + M holy damage
+      tier2: 5 + M holy damage
+      tier3: 8 + M holy damage
+    - effect: Each enemy [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to the target is [pushed](scc.v1:mcdm.heroes.v1/movement/forced-movement) away from the target up to a number of squares equal to your [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence) score.
+      name: Effect
 flavor: Your magic [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) [turns](scc.v1:mcdm.heroes.v1/rule.combat/turn) your foe's guilt into a burst of holy power.
 keywords:
     - '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)'

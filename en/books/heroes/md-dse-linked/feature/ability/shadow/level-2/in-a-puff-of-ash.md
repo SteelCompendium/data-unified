@@ -5,6 +5,11 @@ cost: 5 Insight
 cost_amount: "5"
 cost_resource: Insight
 distance: '[Melee](../../../../rule/combat/melee.md) 1 or [ranged](../../../../rule/combat/ranged.md) 5'
+effects:
+    - roll: Power Roll + [Agility](../../../../rule/character/agility.md)
+      tier1: 6 + A damage; you can [teleport](../../../../movement/teleport.md) the target 1 square
+      tier2: 10 + A damage; you can [teleport](../../../../movement/teleport.md) the target up to 3 squares
+      tier3: 14 + A damage; you can [teleport](../../../../movement/teleport.md) the target up to 5 squares
 feature_type: ability
 file_basename: in-a-puff-of-ash
 file_dpath: feature/ability/shadow/level-2
@@ -51,6 +56,11 @@ metadata:
     class: shadow
     cost: 5 Insight
     distance: '[Melee](../../../../rule/combat/melee.md) 1 or [ranged](../../../../rule/combat/ranged.md) 5'
+    effects:
+        - roll: Power Roll + [Agility](../../../../rule/character/agility.md)
+          tier1: 6 + A damage; you can [teleport](../../../../movement/teleport.md) the target 1 square
+          tier2: 10 + A damage; you can [teleport](../../../../movement/teleport.md) the target up to 3 squares
+          tier3: 14 + A damage; you can [teleport](../../../../movement/teleport.md) the target up to 5 squares
     flavor: You enchant a [strike](../../../../rule/combat/strike.md) with your [teleport](../../../../movement/teleport.md)ation magic.
     keywords:
         - Magic

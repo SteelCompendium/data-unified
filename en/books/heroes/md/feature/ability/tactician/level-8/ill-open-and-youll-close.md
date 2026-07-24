@@ -3,7 +3,13 @@ action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: tactician
 cost: 11 Focus
 distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1 or [ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 5'
-effect: One ally within 10 squares of you can use a [heroic ability](scc.v1:mcdm.heroes.v1/rule.general/heroic-ability) against the target as a free [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action) without spending any of their [Heroic Resource](scc.v1:mcdm.heroes.v1/rule.resource/heroic-resource), as long as they have enough [Heroic Resource](scc.v1:mcdm.heroes.v1/rule.resource/heroic-resource) to pay for the ability. If the target is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) before the chosen ally has used their ability, the ally can pick a different target.
+effects:
+    - roll: Power Roll + [Might](scc.v1:mcdm.heroes.v1/rule.character/might)
+      tier1: 6 + M damage
+      tier2: 10 + M damage
+      tier3: 14 + M damage
+    - effect: One ally within 10 squares of you can use a [heroic ability](scc.v1:mcdm.heroes.v1/rule.general/heroic-ability) against the target as a free [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action) without spending any of their [Heroic Resource](scc.v1:mcdm.heroes.v1/rule.resource/heroic-resource), as long as they have enough [Heroic Resource](scc.v1:mcdm.heroes.v1/rule.resource/heroic-resource) to pay for the ability. If the target is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) before the chosen ally has used their ability, the ally can pick a different target.
+      name: Effect
 flavor: You create an opening for an ally.
 keywords:
     - '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)'

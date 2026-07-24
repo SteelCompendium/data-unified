@@ -5,7 +5,13 @@ cost: 5 Discipline
 cost_amount: "5"
 cost_resource: Discipline
 distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
-effect: A target who goes out of phase is [slowed](scc.v1:mcdm.heroes.v1/condition/slowed), has their [stability](scc.v1:mcdm.heroes.v1/rule.character/stability) reduced by 2, and can't obtain a tier 3 outcome on [ability rolls](scc.v1:mcdm.heroes.v1/rule.dice/ability-roll).
+effects:
+    - roll: Power Roll + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)
+      tier1: 3 + A psychic damage; I < WEAK, the target goes out of phase (save ends)
+      tier2: 4 + A psychic damage; I < AVERAGE, the target goes out of phase (save ends)
+      tier3: 6 + A psychic damage; I < STRONG, the target goes out of phase (save ends)
+    - effect: A target who goes out of phase is [slowed](scc.v1:mcdm.heroes.v1/condition/slowed), has their [stability](scc.v1:mcdm.heroes.v1/rule.character/stability) reduced by 2, and can't obtain a tier 3 outcome on [ability rolls](scc.v1:mcdm.heroes.v1/rule.dice/ability-roll).
+      name: Effect
 feature_type: ability
 file_basename: phase-strike
 file_dpath: feature/ability/null/level-1
@@ -33,11 +39,12 @@ type: ability
 cost: 5 Discipline
 distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
 effects:
-    - effect: A target who goes out of phase is [slowed](scc.v1:mcdm.heroes.v1/condition/slowed), has their [stability](scc.v1:mcdm.heroes.v1/rule.character/stability) reduced by 2, and can't obtain a tier 3 outcome on [ability rolls](scc.v1:mcdm.heroes.v1/rule.dice/ability-roll).
     - roll: Power Roll + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)
       tier1: 3 + A psychic damage; I < WEAK, the target goes out of phase (save ends)
       tier2: 4 + A psychic damage; I < AVERAGE, the target goes out of phase (save ends)
       tier3: 6 + A psychic damage; I < STRONG, the target goes out of phase (save ends)
+    - effect: A target who goes out of phase is [slowed](scc.v1:mcdm.heroes.v1/condition/slowed), has their [stability](scc.v1:mcdm.heroes.v1/rule.character/stability) reduced by 2, and can't obtain a tier 3 outcome on [ability rolls](scc.v1:mcdm.heroes.v1/rule.dice/ability-roll).
+      name: Effect
 feature_type: ability
 flavor: For a moment, your foe slips out of phase with this manifold.
 keywords:
@@ -50,7 +57,13 @@ metadata:
     class: "null"
     cost: 5 Discipline
     distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
-    effect: A target who goes out of phase is [slowed](scc.v1:mcdm.heroes.v1/condition/slowed), has their [stability](scc.v1:mcdm.heroes.v1/rule.character/stability) reduced by 2, and can't obtain a tier 3 outcome on [ability rolls](scc.v1:mcdm.heroes.v1/rule.dice/ability-roll).
+    effects:
+        - roll: Power Roll + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)
+          tier1: 3 + A psychic damage; I < WEAK, the target goes out of phase (save ends)
+          tier2: 4 + A psychic damage; I < AVERAGE, the target goes out of phase (save ends)
+          tier3: 6 + A psychic damage; I < STRONG, the target goes out of phase (save ends)
+        - effect: A target who goes out of phase is [slowed](scc.v1:mcdm.heroes.v1/condition/slowed), has their [stability](scc.v1:mcdm.heroes.v1/rule.character/stability) reduced by 2, and can't obtain a tier 3 outcome on [ability rolls](scc.v1:mcdm.heroes.v1/rule.dice/ability-roll).
+          name: Effect
     flavor: For a moment, your foe slips out of phase with this manifold.
     keywords:
         - '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)'

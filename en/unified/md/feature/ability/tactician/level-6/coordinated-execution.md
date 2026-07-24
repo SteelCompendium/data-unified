@@ -3,7 +3,9 @@ action_type: Free [triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action
 class: tactician
 cost: 9 Focus
 distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
-effect: If the target of the triggering ability is not a leader or solo creature, they are reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina). If the target of the triggering ability is a minion, the entire squad is killed. If the target of the triggering ability is a leader or solo creature, the triggering ability's [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) automatically obtains a tier 3 outcome.
+effects:
+    - effect: If the target of the triggering ability is not a leader or solo creature, they are reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina). If the target of the triggering ability is a minion, the entire squad is killed. If the target of the triggering ability is a leader or solo creature, the triggering ability's [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) automatically obtains a tier 3 outcome.
+      name: Effect
 flavor: You direct your ally to make a killing blow.
 keywords:
     - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'

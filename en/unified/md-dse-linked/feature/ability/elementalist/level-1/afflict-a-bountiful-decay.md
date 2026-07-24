@@ -2,7 +2,13 @@
 action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: elementalist
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
-effect: Choose yourself or one ally within [distance](../../../../rule/combat/distance.md). That character can end one effect on them that is ended by a [saving throw](../../../../rule/general/saving-throw.md) or that ends at the end of their [turn](../../../../rule/combat/turn.md).
+effects:
+    - roll: Power Roll + [Reason](../../../../rule/character/reason.md)
+      tier1: 2 + R corruption damage
+      tier2: 4 + R corruption damage
+      tier3: 6 + R corruption damage
+    - effect: Choose yourself or one ally within [distance](../../../../rule/combat/distance.md). That character can end one effect on them that is ended by a [saving throw](../../../../rule/general/saving-throw.md) or that ends at the end of their [turn](../../../../rule/combat/turn.md).
+      name: Effect
 feature_type: ability
 file_basename: afflict-a-bountiful-decay
 file_dpath: feature/ability/elementalist/level-1
@@ -31,11 +37,12 @@ type: ability
 ```ds-feature
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
 effects:
-    - effect: Choose yourself or one ally within [distance](../../../../rule/combat/distance.md). That character can end one effect on them that is ended by a [saving throw](../../../../rule/general/saving-throw.md) or that ends at the end of their [turn](../../../../rule/combat/turn.md).
     - roll: Power Roll + [Reason](../../../../rule/character/reason.md)
       tier1: 2 + R corruption damage
       tier2: 4 + R corruption damage
       tier3: 6 + R corruption damage
+    - effect: Choose yourself or one ally within [distance](../../../../rule/combat/distance.md). That character can end one effect on them that is ended by a [saving throw](../../../../rule/general/saving-throw.md) or that ends at the end of their [turn](../../../../rule/combat/turn.md).
+      name: Effect
 feature_type: ability
 flavor: Your curse causes your foe's flesh to rot off as spores that aid your allies.
 keywords:
@@ -48,7 +55,13 @@ metadata:
     action_type: '[Main action](../../../../rule/combat/turn.md)'
     class: elementalist
     distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
-    effect: Choose yourself or one ally within [distance](../../../../rule/combat/distance.md). That character can end one effect on them that is ended by a [saving throw](../../../../rule/general/saving-throw.md) or that ends at the end of their [turn](../../../../rule/combat/turn.md).
+    effects:
+        - roll: Power Roll + [Reason](../../../../rule/character/reason.md)
+          tier1: 2 + R corruption damage
+          tier2: 4 + R corruption damage
+          tier3: 6 + R corruption damage
+        - effect: Choose yourself or one ally within [distance](../../../../rule/combat/distance.md). That character can end one effect on them that is ended by a [saving throw](../../../../rule/general/saving-throw.md) or that ends at the end of their [turn](../../../../rule/combat/turn.md).
+          name: Effect
     flavor: Your curse causes your foe's flesh to rot off as spores that aid your allies.
     keywords:
         - Green

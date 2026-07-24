@@ -1,6 +1,11 @@
 ---
 action_type: Main action
 distance: '[Melee](../../../rule/combat/melee.md) 1'
+effects:
+    - roll: Power Roll + [Might](../../../rule/character/might.md) or [Agility](../../../rule/character/agility.md)
+      tier1: 4 + M or A damage; [push](../../../movement/forced-movement.md) 1
+      tier2: 7 + M or A damage; [push](../../../movement/forced-movement.md) 2
+      tier3: 9 + M or A damage; [push](../../../movement/forced-movement.md) 3; M < STRONG[, prone](../../../condition/prone.md)
 feature_type: ability
 file_basename: shield-bash
 file_dpath: feature/ability/sword-and-board
@@ -40,6 +45,11 @@ keywords:
 metadata:
     action_type: Main action
     distance: '[Melee](../../../rule/combat/melee.md) 1'
+    effects:
+        - roll: Power Roll + [Might](../../../rule/character/might.md) or [Agility](../../../rule/character/agility.md)
+          tier1: 4 + M or A damage; [push](../../../movement/forced-movement.md) 1
+          tier2: 7 + M or A damage; [push](../../../movement/forced-movement.md) 2
+          tier3: 9 + M or A damage; [push](../../../movement/forced-movement.md) 3; M < STRONG[, prone](../../../condition/prone.md)
     flavor: In your hands, a shield isn't just for protection.
     keywords:
         - '[Melee](../../../rule/combat/melee.md)'

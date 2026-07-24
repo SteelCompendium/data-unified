@@ -2,7 +2,9 @@
 action_type: Main action
 class: summoner
 distance: Special
-effect: Until the end of the encounter or you are [dying](scc.v1:mcdm.heroes.v1/rule.health/dying), each square on the ground is considered teeming with minions. An enemy that ends their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) in an affected square takes 5 [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage). This [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage) can't be reduced.
+effects:
+    - effect: Until the end of the encounter or you are [dying](scc.v1:mcdm.heroes.v1/rule.health/dying), each square on the ground is considered teeming with minions. An enemy that ends their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) in an affected square takes 5 [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage). This [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage) can't be reduced.
+      name: Effect
 feature_source: summoner
 feature_type: ability
 file_basename: 10000-minions
@@ -24,6 +26,7 @@ type: ability
 distance: Special
 effects:
     - effect: Until the end of the encounter or you are [dying](scc.v1:mcdm.heroes.v1/rule.health/dying), each square on the ground is considered teeming with minions. An enemy that ends their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) in an affected square takes 5 [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage). This [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage) can't be reduced.
+      name: Effect
 feature_type: ability
 flavor: The battle is now a war. Your entire army storms the field.
 keywords:
@@ -32,7 +35,9 @@ metadata:
     action_type: Main action
     class: summoner
     distance: Special
-    effect: Until the end of the encounter or you are [dying](scc.v1:mcdm.heroes.v1/rule.health/dying), each square on the ground is considered teeming with minions. An enemy that ends their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) in an affected square takes 5 [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage). This [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage) can't be reduced.
+    effects:
+        - effect: Until the end of the encounter or you are [dying](scc.v1:mcdm.heroes.v1/rule.health/dying), each square on the ground is considered teeming with minions. An enemy that ends their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) in an affected square takes 5 [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage). This [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage) can't be reduced.
+          name: Effect
     feature_source: summoner
     flavor: The battle is now a war. Your entire army storms the field.
     keywords:

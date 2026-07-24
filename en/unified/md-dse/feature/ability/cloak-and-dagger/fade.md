@@ -1,6 +1,11 @@
 ---
 action_type: Main action
 distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1 or [ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
+effects:
+    - roll: Power Roll + [Might](scc.v1:mcdm.heroes.v1/rule.character/might) or [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)
+      tier1: 3 + M or A damage; you can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) 1 square
+      tier2: 6 + M or A damage; you can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to 2 squares
+      tier3: 8 + M or A damage; you can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to 3 squares
 feature_type: ability
 file_basename: fade
 file_dpath: feature/ability/cloak-and-dagger
@@ -42,6 +47,11 @@ keywords:
 metadata:
     action_type: Main action
     distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1 or [ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
+    effects:
+        - roll: Power Roll + [Might](scc.v1:mcdm.heroes.v1/rule.character/might) or [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)
+          tier1: 3 + M or A damage; you can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) 1 square
+          tier2: 6 + M or A damage; you can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to 2 squares
+          tier3: 8 + M or A damage; you can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to 3 squares
     flavor: A stab, and a few quick, careful steps back.
     keywords:
         - '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)'

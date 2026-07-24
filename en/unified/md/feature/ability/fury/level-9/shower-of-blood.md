@@ -3,7 +3,13 @@ action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: fury
 cost: 11 Ferocity
 distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
-effect: Each enemy within 5 squares of you is distracted until the end of the round. While a creature is distracted this way, they can't take [triggered actions](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action) or free [triggered actions](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action), [ability rolls](scc.v1:mcdm.heroes.v1/rule.dice/ability-roll) made against them gain an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge), and their [characteristic](scc.v1:mcdm.heroes.v1/rule.character/characteristic) scores are considered 1 lower for the purpose of resisting [potencies](scc.v1:mcdm.heroes.v1/rule.character/potency).
+effects:
+    - roll: Power Roll + [Might](scc.v1:mcdm.heroes.v1/rule.character/might)
+      tier1: 12 + M damage
+      tier2: 18 + M damage
+      tier3: 24 + M damage
+    - effect: Each enemy within 5 squares of you is distracted until the end of the round. While a creature is distracted this way, they can't take [triggered actions](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action) or free [triggered actions](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action), [ability rolls](scc.v1:mcdm.heroes.v1/rule.dice/ability-roll) made against them gain an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge), and their [characteristic](scc.v1:mcdm.heroes.v1/rule.character/characteristic) scores are considered 1 lower for the purpose of resisting [potencies](scc.v1:mcdm.heroes.v1/rule.character/potency).
+      name: Effect
 flavor: You shock your foes with the brutality of your [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), resetting the balance of combat.
 keywords:
     - '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)'

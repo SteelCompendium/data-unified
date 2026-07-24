@@ -8,6 +8,14 @@
     {
       "cost": "Spend 1 Ferocity",
       "effect": "Your partner can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed."
+    },
+    {
+      "cost": "Spend 1–5 Ferocity",
+      "effect": "Your partner gains additional temporary Stamina equal to their Might score for each ferocity spent this way."
+    },
+    {
+      "cost": "Spend 5 Ferocity",
+      "effect": "You restore your dead partner to life with 1 Stamina, even if their body was destroyed. They gain no temporary Stamina if you use this ability this way."
     }
   ],
   "feature_type": "ability",

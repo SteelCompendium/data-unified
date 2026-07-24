@@ -3,7 +3,13 @@ action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: shadow
 cost: 11 Insight
 distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
-effect: If you are disguised as a creature the target knew using your [I'm No Threat](scc.v1:mcdm.heroes.v1/feature.ability.shadow.level-1/im-no-threat) ability, this ability deals extra damage equal to three times your [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility) score.
+effects:
+    - roll: Power Roll + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)
+      tier1: 15 + A damage
+      tier2: 21 + A damage
+      tier3: 28 + A damage
+    - effect: If you are disguised as a creature the target knew using your [I'm No Threat](scc.v1:mcdm.heroes.v1/feature.ability.shadow.level-1/im-no-threat) ability, this ability deals extra damage equal to three times your [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility) score.
+      name: Effect
 flavor: After everything you've been through together, you twist the blade and make the pain extra personal.
 keywords:
     - '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)'

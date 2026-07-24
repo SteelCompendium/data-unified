@@ -2,6 +2,11 @@
 action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: elementalist
 distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
+effects:
+    - roll: Power Roll + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason)
+      tier1: 2 + R fire damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2
+      tier2: 5 + R fire damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3
+      tier3: 7 + R fire damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 4
 feature_type: ability
 file_basename: viscous-fire
 file_dpath: feature/ability/elementalist/level-1
@@ -44,6 +49,11 @@ metadata:
     action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: elementalist
     distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
+    effects:
+        - roll: Power Roll + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason)
+          tier1: 2 + R fire damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2
+          tier2: 5 + R fire damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3
+          tier3: 7 + R fire damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 4
     flavor: A jet of heavy fire erupts where you strike.
     keywords:
         - Fire

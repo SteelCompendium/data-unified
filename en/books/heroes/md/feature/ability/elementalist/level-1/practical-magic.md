@@ -2,7 +2,9 @@
 action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: elementalist
 distance: Self; see below
-effect: 'Choose one of the following effects:'
+effects:
+    - effect: 'Choose one of the following effects:'
+      name: Effect
 flavor: Your mastery of elemental power lets you customize your conjurations.
 keywords:
     - Magic

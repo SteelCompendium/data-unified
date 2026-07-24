@@ -5,7 +5,9 @@ cost: 7 Focus
 cost_amount: "7"
 cost_resource: Focus
 distance: Self
-effect: Until the end of the encounter or until you are [dying](scc.v1:mcdm.heroes.v1/rule.health/dying), whenever you or any ally deals damage to a target marked by you, the creature who dealt the damage can spend a [Recovery](scc.v1:mcdm.heroes.v1/rule.health/recoveries).
+effects:
+    - effect: Until the end of the encounter or until you are [dying](scc.v1:mcdm.heroes.v1/rule.health/dying), whenever you or any ally deals damage to a target marked by you, the creature who dealt the damage can spend a [Recovery](scc.v1:mcdm.heroes.v1/rule.health/recoveries).
+      name: Effect
 feature_type: ability
 file_basename: stay-strong-and-focus
 file_dpath: feature/ability/tactician/level-3
@@ -26,6 +28,7 @@ cost: 7 Focus
 distance: Self
 effects:
     - effect: Until the end of the encounter or until you are [dying](scc.v1:mcdm.heroes.v1/rule.health/dying), whenever you or any ally deals damage to a target marked by you, the creature who dealt the damage can spend a [Recovery](scc.v1:mcdm.heroes.v1/rule.health/recoveries).
+      name: Effect
 feature_type: ability
 flavor: '"We can do this! Keep faith and hold fast!"'
 keywords: []
@@ -34,7 +37,9 @@ metadata:
     class: tactician
     cost: 7 Focus
     distance: Self
-    effect: Until the end of the encounter or until you are [dying](scc.v1:mcdm.heroes.v1/rule.health/dying), whenever you or any ally deals damage to a target marked by you, the creature who dealt the damage can spend a [Recovery](scc.v1:mcdm.heroes.v1/rule.health/recoveries).
+    effects:
+        - effect: Until the end of the encounter or until you are [dying](scc.v1:mcdm.heroes.v1/rule.health/dying), whenever you or any ally deals damage to a target marked by you, the creature who dealt the damage can spend a [Recovery](scc.v1:mcdm.heroes.v1/rule.health/recoveries).
+          name: Effect
     flavor: '"We can do this! Keep faith and hold fast!"'
     keywords: []
     level: "3"

@@ -5,7 +5,15 @@ cost: 9 Ferocity
 cost_amount: "9"
 cost_resource: Ferocity
 distance: '[Melee](../../../../rule/combat/melee.md) 1'
-effect: You [shift](../../../../movement/shifting.md) up to your [speed](../../../../rule/character/speed.md).
+effects:
+    - effect: You [shift](../../../../movement/shifting.md) up to your [speed](../../../../rule/character/speed.md).
+      name: Effect
+    - roll: Power Roll + [Might](../../../../rule/character/might.md)
+      tier1: 4 + M damage; P < WEAK, [frightened](../../../../condition/frightened.md) (save ends)
+      tier2: 6 + M damage; P < AVERAGE, [frightened](../../../../condition/frightened.md) (save ends)
+      tier3: 10 + M damage; P < STRONG, [frightened](../../../../condition/frightened.md) (save ends)
+    - effect: If a target who is not a leader or solo creature is [winded](../../../../rule/health/winded.md) by this [strike](../../../../rule/combat/strike.md), they are reduced to 0 [Stamina](../../../../rule/health/stamina.md) and you choose an enemy within 5 squares of you. If that enemy has P < AVERAGE, they are [frightened](../../../../condition/frightened.md) of you (save ends).
+      name: Effect
 feature_type: ability
 file_basename: seek-and-destroy
 file_dpath: feature/ability/fury/level-6
@@ -34,10 +42,13 @@ cost: 9 Ferocity
 distance: '[Melee](../../../../rule/combat/melee.md) 1'
 effects:
     - effect: You [shift](../../../../movement/shifting.md) up to your [speed](../../../../rule/character/speed.md).
+      name: Effect
     - roll: Power Roll + [Might](../../../../rule/character/might.md)
       tier1: 4 + M damage; P < WEAK, [frightened](../../../../condition/frightened.md) (save ends)
       tier2: 6 + M damage; P < AVERAGE, [frightened](../../../../condition/frightened.md) (save ends)
       tier3: 10 + M damage; P < STRONG, [frightened](../../../../condition/frightened.md) (save ends)
+    - effect: If a target who is not a leader or solo creature is [winded](../../../../rule/health/winded.md) by this [strike](../../../../rule/combat/strike.md), they are reduced to 0 [Stamina](../../../../rule/health/stamina.md) and you choose an enemy within 5 squares of you. If that enemy has P < AVERAGE, they are [frightened](../../../../condition/frightened.md) of you (save ends).
+      name: Effect
 feature_type: ability
 flavor: You break through the enemy lines to make an example.
 keywords:
@@ -49,7 +60,15 @@ metadata:
     class: fury
     cost: 9 Ferocity
     distance: '[Melee](../../../../rule/combat/melee.md) 1'
-    effect: You [shift](../../../../movement/shifting.md) up to your [speed](../../../../rule/character/speed.md).
+    effects:
+        - effect: You [shift](../../../../movement/shifting.md) up to your [speed](../../../../rule/character/speed.md).
+          name: Effect
+        - roll: Power Roll + [Might](../../../../rule/character/might.md)
+          tier1: 4 + M damage; P < WEAK, [frightened](../../../../condition/frightened.md) (save ends)
+          tier2: 6 + M damage; P < AVERAGE, [frightened](../../../../condition/frightened.md) (save ends)
+          tier3: 10 + M damage; P < STRONG, [frightened](../../../../condition/frightened.md) (save ends)
+        - effect: If a target who is not a leader or solo creature is [winded](../../../../rule/health/winded.md) by this [strike](../../../../rule/combat/strike.md), they are reduced to 0 [Stamina](../../../../rule/health/stamina.md) and you choose an enemy within 5 squares of you. If that enemy has P < AVERAGE, they are [frightened](../../../../condition/frightened.md) of you (save ends).
+          name: Effect
     flavor: You break through the enemy lines to make an example.
     keywords:
         - '[Melee](../../../../rule/combat/melee.md)'

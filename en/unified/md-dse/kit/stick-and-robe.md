@@ -38,6 +38,11 @@ keywords:
 metadata:
     action_type: Main action
     distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 2'
+    effects:
+        - roll: Power Roll + [Might](scc.v1:mcdm.heroes.v1/rule.character/might) or [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)
+          tier1: 4 + M or A damage
+          tier2: 7 + M or A damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1
+          tier3: 10 + M or A damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3
     flavor: When your stick speaks, your enemy moves.
     keywords:
         - '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)'

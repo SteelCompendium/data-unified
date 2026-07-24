@@ -5,7 +5,13 @@ cost: 11 Discipline
 cost_amount: "11"
 cost_resource: Discipline
 distance: '[Melee](../../../../rule/combat/melee.md) 1'
-effect: While [restrained](../../../../condition/restrained.md) this way, the target takes cold damage equal to your [Intuition](../../../../rule/character/intuition.md) score at the start of each of your [turns](../../../../rule/combat/turn.md). Additionally, whenever the target damages another creature while [restrained](../../../../condition/restrained.md) this way, any [potency](../../../../rule/character/potency.md) associated with the damage is reduced by 2.
+effects:
+    - roll: Power Roll + [Intuition](../../../../rule/character/intuition.md)
+      tier1: 8 + I cold damage; M < WEAK, [restrained](../../../../condition/restrained.md) (save ends)
+      tier2: 11 + I cold damage; M < AVERAGE, [restrained](../../../../condition/restrained.md) (save ends)
+      tier3: 15 + I cold damage; M < STRONG, [restrained](../../../../condition/restrained.md) (save ends)
+    - effect: While [restrained](../../../../condition/restrained.md) this way, the target takes cold damage equal to your [Intuition](../../../../rule/character/intuition.md) score at the start of each of your [turns](../../../../rule/combat/turn.md). Additionally, whenever the target damages another creature while [restrained](../../../../condition/restrained.md) this way, any [potency](../../../../rule/character/potency.md) associated with the damage is reduced by 2.
+      name: Effect
 feature_type: ability
 file_basename: heat-drain
 file_dpath: feature/ability/null/level-9
@@ -33,11 +39,12 @@ type: ability
 cost: 11 Discipline
 distance: '[Melee](../../../../rule/combat/melee.md) 1'
 effects:
-    - effect: While [restrained](../../../../condition/restrained.md) this way, the target takes cold damage equal to your [Intuition](../../../../rule/character/intuition.md) score at the start of each of your [turns](../../../../rule/combat/turn.md). Additionally, whenever the target damages another creature while [restrained](../../../../condition/restrained.md) this way, any [potency](../../../../rule/character/potency.md) associated with the damage is reduced by 2.
     - roll: Power Roll + [Intuition](../../../../rule/character/intuition.md)
       tier1: 8 + I cold damage; M < WEAK, [restrained](../../../../condition/restrained.md) (save ends)
       tier2: 11 + I cold damage; M < AVERAGE, [restrained](../../../../condition/restrained.md) (save ends)
       tier3: 15 + I cold damage; M < STRONG, [restrained](../../../../condition/restrained.md) (save ends)
+    - effect: While [restrained](../../../../condition/restrained.md) this way, the target takes cold damage equal to your [Intuition](../../../../rule/character/intuition.md) score at the start of each of your [turns](../../../../rule/combat/turn.md). Additionally, whenever the target damages another creature while [restrained](../../../../condition/restrained.md) this way, any [potency](../../../../rule/character/potency.md) associated with the damage is reduced by 2.
+      name: Effect
 feature_type: ability
 flavor: You drain all the heat from the target.
 keywords:
@@ -49,7 +56,13 @@ metadata:
     class: "null"
     cost: 11 Discipline
     distance: '[Melee](../../../../rule/combat/melee.md) 1'
-    effect: While [restrained](../../../../condition/restrained.md) this way, the target takes cold damage equal to your [Intuition](../../../../rule/character/intuition.md) score at the start of each of your [turns](../../../../rule/combat/turn.md). Additionally, whenever the target damages another creature while [restrained](../../../../condition/restrained.md) this way, any [potency](../../../../rule/character/potency.md) associated with the damage is reduced by 2.
+    effects:
+        - roll: Power Roll + [Intuition](../../../../rule/character/intuition.md)
+          tier1: 8 + I cold damage; M < WEAK, [restrained](../../../../condition/restrained.md) (save ends)
+          tier2: 11 + I cold damage; M < AVERAGE, [restrained](../../../../condition/restrained.md) (save ends)
+          tier3: 15 + I cold damage; M < STRONG, [restrained](../../../../condition/restrained.md) (save ends)
+        - effect: While [restrained](../../../../condition/restrained.md) this way, the target takes cold damage equal to your [Intuition](../../../../rule/character/intuition.md) score at the start of each of your [turns](../../../../rule/combat/turn.md). Additionally, whenever the target damages another creature while [restrained](../../../../condition/restrained.md) this way, any [potency](../../../../rule/character/potency.md) associated with the damage is reduced by 2.
+          name: Effect
     flavor: You drain all the heat from the target.
     keywords:
         - '[Melee](../../../../rule/combat/melee.md)'

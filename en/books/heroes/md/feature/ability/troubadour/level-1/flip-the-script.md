@@ -3,7 +3,9 @@ action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: troubadour
 cost: 5 Drama
 distance: 3 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)
-effect: Each target can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) up to 5 squares. Any [teleport](scc.v1:mcdm.heroes.v1/movement/teleport)ed target who was [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) is no longer [slowed](scc.v1:mcdm.heroes.v1/condition/slowed).
+effects:
+    - effect: Each target can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) up to 5 squares. Any [teleport](scc.v1:mcdm.heroes.v1/movement/teleport)ed target who was [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) is no longer [slowed](scc.v1:mcdm.heroes.v1/condition/slowed).
+      name: Effect
 flavor: You try a different take on events, justifying the new locations everyone ended up in.
 keywords:
     - Area

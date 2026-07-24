@@ -2,7 +2,11 @@
 action_type: '[Triggered](../../../../rule/combat/triggered-action.md)'
 class: shadow
 distance: Self
-effect: You take half the damage, then can [teleport](../../../../movement/teleport.md) up to 4 squares after the triggering effect resolves.
+effects:
+    - effect: You take half the damage, then can [teleport](../../../../movement/teleport.md) up to 4 squares after the triggering effect resolves.
+      name: Effect
+    - cost: Spend 1+ Insight
+      effect: You [teleport](../../../../movement/teleport.md) 1 additional square for each insight spent.
 feature_type: ability
 file_basename: in-all-this-confusion
 file_dpath: feature/ability/shadow/level-1
@@ -15,7 +19,6 @@ level: "1"
 name: In All This Confusion
 scc: mcdm.heroes.v1/feature.ability.shadow.level-1/in-all-this-confusion
 source: mcdm.heroes.v1
-spend: '1+ Insight: You [teleport](../../../../movement/teleport.md) 1 additional square for each insight spent.'
 subclass: black-ash
 subtype: triggered
 target: Self
@@ -27,8 +30,9 @@ type: ability
 distance: Self
 effects:
     - effect: You take half the damage, then can [teleport](../../../../movement/teleport.md) up to 4 squares after the triggering effect resolves.
-    - effect: '1+ Insight: You [teleport](../../../../movement/teleport.md) 1 additional square for each insight spent.'
-      name: Spend
+      name: Effect
+    - cost: Spend 1+ Insight
+      effect: You [teleport](../../../../movement/teleport.md) 1 additional square for each insight spent.
 feature_type: ability
 flavor: You vanish in a plume of black smoke to avoid danger.
 keywords:
@@ -37,14 +41,17 @@ metadata:
     action_type: '[Triggered](../../../../rule/combat/triggered-action.md)'
     class: shadow
     distance: Self
-    effect: You take half the damage, then can [teleport](../../../../movement/teleport.md) up to 4 squares after the triggering effect resolves.
+    effects:
+        - effect: You take half the damage, then can [teleport](../../../../movement/teleport.md) up to 4 squares after the triggering effect resolves.
+          name: Effect
+        - cost: Spend 1+ Insight
+          effect: You [teleport](../../../../movement/teleport.md) 1 additional square for each insight spent.
     flavor: You vanish in a plume of black smoke to avoid danger.
     keywords:
         - Magic
     level: "1"
     name: In All This Confusion
     scc: mcdm.heroes.v1/feature.ability.shadow.level-1/in-all-this-confusion
-    spend: '1+ Insight: You [teleport](../../../../movement/teleport.md) 1 additional square for each insight spent.'
     subclass: black-ash
     subtype: triggered
     target: Self

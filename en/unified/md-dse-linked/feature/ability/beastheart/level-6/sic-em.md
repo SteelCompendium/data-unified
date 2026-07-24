@@ -5,6 +5,13 @@ cost: 9 Ferocity
 cost_amount: "9"
 cost_resource: Ferocity
 distance: Melee 1
+effects:
+    - roll: Power Roll + Might
+      tier1: 11 + M damage; [taunted](../../../../condition/taunted.md) (save ends); M < WEAK [prone](../../../../condition/prone.md)
+      tier2: 16 + M damage; [taunted](../../../../condition/taunted.md) (save ends); M < AVERAGE [prone](../../../../condition/prone.md)
+      tier3: 21 + M damage; [taunted](../../../../condition/taunted.md) (save ends); M < STRONG [prone](../../../../condition/prone.md) and can't stand (EoT)
+    - cost: Spend 2 Ferocity
+      effect: Your companion can use this ability as a triggered action against an enemy who damages you.
 feature_type: ability
 file_basename: sic-em
 file_dpath: feature/ability/beastheart/level-6
@@ -22,7 +29,6 @@ name: Sic 'Em!
 power_roll_characteristic: Might
 scc: mcdm.beastheart.v1/feature.ability.beastheart.level-6/sic-em
 source: mcdm.beastheart.v1
-spend: '2 Ferocity: Your companion can use this ability as a triggered action against an enemy who damages you.'
 subclass: guardian
 target: One creature
 tier1: 11 + M damage; [taunted](../../../../condition/taunted.md) (save ends); M < WEAK [prone](../../../../condition/prone.md)
@@ -39,8 +45,8 @@ effects:
       tier1: 11 + M damage; [taunted](../../../../condition/taunted.md) (save ends); M < WEAK [prone](../../../../condition/prone.md)
       tier2: 16 + M damage; [taunted](../../../../condition/taunted.md) (save ends); M < AVERAGE [prone](../../../../condition/prone.md)
       tier3: 21 + M damage; [taunted](../../../../condition/taunted.md) (save ends); M < STRONG [prone](../../../../condition/prone.md) and can't stand (EoT)
-    - effect: '2 Ferocity: Your companion can use this ability as a triggered action against an enemy who damages you.'
-      name: Spend
+    - cost: Spend 2 Ferocity
+      effect: Your companion can use this ability as a triggered action against an enemy who damages you.
 feature_type: ability
 flavor: Your companion rushes forward to protect you from a dangerous foe.
 keywords:
@@ -54,6 +60,13 @@ metadata:
     class: beastheart
     cost: 9 Ferocity
     distance: Melee 1
+    effects:
+        - roll: Power Roll + Might
+          tier1: 11 + M damage; [taunted](../../../../condition/taunted.md) (save ends); M < WEAK [prone](../../../../condition/prone.md)
+          tier2: 16 + M damage; [taunted](../../../../condition/taunted.md) (save ends); M < AVERAGE [prone](../../../../condition/prone.md)
+          tier3: 21 + M damage; [taunted](../../../../condition/taunted.md) (save ends); M < STRONG [prone](../../../../condition/prone.md) and can't stand (EoT)
+        - cost: Spend 2 Ferocity
+          effect: Your companion can use this ability as a triggered action against an enemy who damages you.
     flavor: Your companion rushes forward to protect you from a dangerous foe.
     keywords:
         - Charge
@@ -65,7 +78,6 @@ metadata:
     name: Sic 'Em!
     power_roll_characteristic: Might
     scc: mcdm.beastheart.v1/feature.ability.beastheart.level-6/sic-em
-    spend: '2 Ferocity: Your companion can use this ability as a triggered action against an enemy who damages you.'
     subclass: guardian
     target: One creature
     tier1: 11 + M damage; [taunted](../../../../condition/taunted.md) (save ends); M < WEAK [prone](../../../../condition/prone.md)

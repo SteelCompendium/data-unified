@@ -3,7 +3,13 @@ action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: fury
 cost: 3 Ferocity
 distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
-effect: While [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) this way, the target takes damage equal to your [Might](scc.v1:mcdm.heroes.v1/rule.character/might) score at the end of each of your [turns](scc.v1:mcdm.heroes.v1/rule.combat/turn).
+effects:
+    - roll: Power Roll + [Might](scc.v1:mcdm.heroes.v1/rule.character/might)
+      tier1: 3 + M damage; M < WEAK, [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
+      tier2: 5 + M damage; M < AVERAGE, [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
+      tier3: 8 + M damage; M < STRONG, [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
+    - effect: While [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) this way, the target takes damage equal to your [Might](scc.v1:mcdm.heroes.v1/rule.character/might) score at the end of each of your [turns](scc.v1:mcdm.heroes.v1/rule.combat/turn).
+      name: Effect
 flavor: Hard for them to fight when they're busy holding in their giblets.
 keywords:
     - '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)'

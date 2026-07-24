@@ -7,6 +7,10 @@
       "tier1": "[Slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2 + R",
       "tier2": "[Slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 4 + R",
       "tier3": "[Slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 6 + R; [prone](scc.v1:mcdm.heroes.v1/condition/prone)"
+    },
+    {
+      "effect": "You must vertical [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) the target instead of [sliding](scc.v1:mcdm.heroes.v1/movement/forced-movement) them.",
+      "name": "Strained"
     }
   ],
   "feature_type": "ability",

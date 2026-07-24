@@ -3,7 +3,13 @@ action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: shadow
 cost: 11 Insight
 distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
-effect: A target who is not a minion, leader, or solo creature and who is [winded](scc.v1:mcdm.heroes.v1/rule.health/winded) after taking this damage is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).
+effects:
+    - roll: Power Roll + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)
+      tier1: 12 + A damage
+      tier2: 18 + A damage
+      tier3: 24 + A damage
+    - effect: A target who is not a minion, leader, or solo creature and who is [winded](scc.v1:mcdm.heroes.v1/rule.health/winded) after taking this damage is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).
+      name: Effect
 flavor: A practiced attack will instantly kill an already weakened foe.
 keywords:
     - '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)'

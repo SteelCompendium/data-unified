@@ -3,7 +3,13 @@ action_type: Free [triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action
 class: fury
 cost: 9 Ferocity
 distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
-effect: You can spend a [Recovery](scc.v1:mcdm.heroes.v1/rule.health/recoveries).
+effects:
+    - roll: Power Roll + [Might](scc.v1:mcdm.heroes.v1/rule.character/might)
+      tier1: 6 + M damage
+      tier2: 9 + M damage
+      tier3: 13 + M damage
+    - effect: You can spend a [Recovery](scc.v1:mcdm.heroes.v1/rule.health/recoveries).
+      name: Effect
 flavor: You quickly strike back at a foe.
 keywords:
     - '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)'

@@ -5,6 +5,11 @@ cost: 9 Wrath
 cost_amount: "9"
 cost_resource: Wrath
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
+effects:
+    - roll: Power Roll + [Presence](../../../../rule/character/presence.md)
+      tier1: '[Slide](../../../../movement/forced-movement.md) 3; I < WEAK, [dazed](../../../../condition/dazed.md) (save ends)'
+      tier2: '[Slide](../../../../movement/forced-movement.md) 5; I < AVERAGE, [dazed](../../../../condition/dazed.md) (save ends)'
+      tier3: '[Slide](../../../../movement/forced-movement.md) 7; I < STRONG, [dazed](../../../../condition/dazed.md) (save ends)'
 feature_type: ability
 file_basename: burden-of-evil
 file_dpath: feature/ability/censor/level-6
@@ -47,6 +52,11 @@ metadata:
     class: censor
     cost: 9 Wrath
     distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
+    effects:
+        - roll: Power Roll + [Presence](../../../../rule/character/presence.md)
+          tier1: '[Slide](../../../../movement/forced-movement.md) 3; I < WEAK, [dazed](../../../../condition/dazed.md) (save ends)'
+          tier2: '[Slide](../../../../movement/forced-movement.md) 5; I < AVERAGE, [dazed](../../../../condition/dazed.md) (save ends)'
+          tier3: '[Slide](../../../../movement/forced-movement.md) 7; I < STRONG, [dazed](../../../../condition/dazed.md) (save ends)'
     flavor: You reveal a vision of your enemies' fate that causes them to scramble as it staggers them.
     keywords:
         - Magic

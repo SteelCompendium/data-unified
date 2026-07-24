@@ -5,7 +5,13 @@ cost: 7 Piety
 cost_amount: "7"
 cost_resource: Piety
 distance: 5 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 10
-effect: Each target is [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) of you or a creature you choose within [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance).
+effects:
+    - roll: Power Roll + [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)
+      tier1: 6 psychic damage; I < WEAK, [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
+      tier2: 9 psychic damage; I < AVERAGE, [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
+      tier3: 13 psychic damage; I < STRONG, [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
+    - effect: Each target is [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) of you or a creature you choose within [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance).
+      name: Effect
 feature_type: ability
 file_basename: fear-of-the-gods
 file_dpath: feature/ability/conduit/level-3
@@ -32,11 +38,12 @@ type: ability
 cost: 7 Piety
 distance: 5 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 10
 effects:
-    - effect: Each target is [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) of you or a creature you choose within [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance).
     - roll: Power Roll + [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)
       tier1: 6 psychic damage; I < WEAK, [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
       tier2: 9 psychic damage; I < AVERAGE, [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
       tier3: 13 psychic damage; I < STRONG, [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
+    - effect: Each target is [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) of you or a creature you choose within [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance).
+      name: Effect
 feature_type: ability
 flavor: Your divine magic makes a creature appear as what your enemies fear most.
 keywords:
@@ -48,7 +55,13 @@ metadata:
     class: conduit
     cost: 7 Piety
     distance: 5 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 10
-    effect: Each target is [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) of you or a creature you choose within [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance).
+    effects:
+        - roll: Power Roll + [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)
+          tier1: 6 psychic damage; I < WEAK, [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
+          tier2: 9 psychic damage; I < AVERAGE, [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
+          tier3: 13 psychic damage; I < STRONG, [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
+        - effect: Each target is [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) of you or a creature you choose within [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance).
+          name: Effect
     flavor: Your divine magic makes a creature appear as what your enemies fear most.
     keywords:
         - Area

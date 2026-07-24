@@ -3,6 +3,13 @@ action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: conduit
 cost: 9 Piety
 distance: 4 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)
+effects:
+    - roll: Power Roll + [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)
+      tier1: 3 sonic damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3
+      tier2: 6 sonic damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5
+      tier3: 9 sonic damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 7
+    - effect: You can choose to have this ability deal damage to and [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) objects, and to deal damage to buildings.
+      name: Special
 flavor: You utter a secret word of destruction known only to deities.
 keywords:
     - Area

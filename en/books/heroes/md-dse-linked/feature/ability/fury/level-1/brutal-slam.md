@@ -2,6 +2,11 @@
 action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: fury
 distance: '[Melee](../../../../rule/combat/melee.md) 1'
+effects:
+    - roll: Power Roll + [Might](../../../../rule/character/might.md)
+      tier1: 3 + M damage; [push](../../../../movement/forced-movement.md) 1
+      tier2: 6 + M damage; [push](../../../../movement/forced-movement.md) 2
+      tier3: 9 + M damage; [push](../../../../movement/forced-movement.md) 4
 feature_type: ability
 file_basename: brutal-slam
 file_dpath: feature/ability/fury/level-1
@@ -42,6 +47,11 @@ metadata:
     action_type: '[Main action](../../../../rule/combat/turn.md)'
     class: fury
     distance: '[Melee](../../../../rule/combat/melee.md) 1'
+    effects:
+        - roll: Power Roll + [Might](../../../../rule/character/might.md)
+          tier1: 3 + M damage; [push](../../../../movement/forced-movement.md) 1
+          tier2: 6 + M damage; [push](../../../../movement/forced-movement.md) 2
+          tier3: 9 + M damage; [push](../../../../movement/forced-movement.md) 4
     flavor: The heavy impact of your weapon attacks drives your foes ever back.
     keywords:
         - '[Melee](../../../../rule/combat/melee.md)'

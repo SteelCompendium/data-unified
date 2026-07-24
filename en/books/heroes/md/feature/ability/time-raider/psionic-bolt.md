@@ -2,6 +2,11 @@
 action_type: Main action
 ancestry: time-raider
 distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
+effects:
+    - roll: Power Roll + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason), [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition), or [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence)
+      tier1: 2 + R, I, or P psychic damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1
+      tier2: 5 + R, I, or P psychic damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2
+      tier3: 7 + R, I, or P psychic damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3
 flavor: You shoot forth a purple beam of psychic force that moves your target.
 keywords:
     - Psionic

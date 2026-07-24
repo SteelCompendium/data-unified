@@ -5,6 +5,11 @@ cost: 3 Focus
 cost_amount: "3"
 cost_resource: Focus
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
+effects:
+    - roll: Power Roll + [Reason](../../../../rule/character/reason.md)
+      tier1: Each target gains 1 [surge](../../../../rule/resource/surge.md).
+      tier2: Each target gains 2 [surges](../../../../rule/resource/surge.md).
+      tier3: Each target gains 3 [surges](../../../../rule/resource/surge.md).
 feature_type: ability
 file_basename: battle-cry
 file_dpath: feature/ability/tactician/level-1
@@ -42,6 +47,11 @@ metadata:
     class: tactician
     cost: 3 Focus
     distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
+    effects:
+        - roll: Power Roll + [Reason](../../../../rule/character/reason.md)
+          tier1: Each target gains 1 [surge](../../../../rule/resource/surge.md).
+          tier2: Each target gains 2 [surges](../../../../rule/resource/surge.md).
+          tier3: Each target gains 3 [surges](../../../../rule/resource/surge.md).
     flavor: You shout a phrase that galvanizes your team.
     keywords:
         - '[Ranged](../../../../rule/combat/ranged.md)'

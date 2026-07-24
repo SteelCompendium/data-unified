@@ -2,6 +2,11 @@
 action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: "null"
 distance: '[Melee](../../../../rule/combat/melee.md) 1'
+effects:
+    - roll: Power Roll + [Agility](../../../../rule/character/agility.md)
+      tier1: 4 + A damage; [taunted](../../../../condition/taunted.md) ([EoT](../../../../rule/combat/end-of-turn.md))
+      tier2: 5 + A damage; [taunted](../../../../condition/taunted.md) ([EoT](../../../../rule/combat/end-of-turn.md)), [slide](../../../../movement/forced-movement.md) 1
+      tier3: 6 + A damage; [taunted](../../../../condition/taunted.md) ([EoT](../../../../rule/combat/end-of-turn.md)), [slide](../../../../movement/forced-movement.md) 2
 feature_type: ability
 file_basename: kinetic-strike
 file_dpath: feature/ability/null/level-1
@@ -44,6 +49,11 @@ metadata:
     action_type: '[Main action](../../../../rule/combat/turn.md)'
     class: "null"
     distance: '[Melee](../../../../rule/combat/melee.md) 1'
+    effects:
+        - roll: Power Roll + [Agility](../../../../rule/character/agility.md)
+          tier1: 4 + A damage; [taunted](../../../../condition/taunted.md) ([EoT](../../../../rule/combat/end-of-turn.md))
+          tier2: 5 + A damage; [taunted](../../../../condition/taunted.md) ([EoT](../../../../rule/combat/end-of-turn.md)), [slide](../../../../movement/forced-movement.md) 1
+          tier3: 6 + A damage; [taunted](../../../../condition/taunted.md) ([EoT](../../../../rule/combat/end-of-turn.md)), [slide](../../../../movement/forced-movement.md) 2
     flavor: Your opponent staggers. They cannot ignore you.
     keywords:
         - '[Melee](../../../../rule/combat/melee.md)'

@@ -5,6 +5,13 @@ cost: 9 Clarity
 cost_amount: "9"
 cost_resource: Clarity
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
+effects:
+    - roll: Power Roll + [Reason](../../../../rule/character/reason.md)
+      tier1: '[Slide](../../../../movement/forced-movement.md) 4 + R; M < WEAK, the [forced movement](../../../../movement/forced-movement.md) is vertical'
+      tier2: '[Slide](../../../../movement/forced-movement.md) 8 + R; M < AVERAGE, the [forced movement](../../../../movement/forced-movement.md) is vertical'
+      tier3: '[Slide](../../../../movement/forced-movement.md) 12 + R; [prone](../../../../condition/prone.md); M < STRONG, the [forced movement](../../../../movement/forced-movement.md) is vertical'
+    - effect: The [forced movement](../../../../movement/forced-movement.md) ignores [stability](../../../../rule/character/stability.md). You take 2d6 damage and are [weakened](../../../../condition/weakened.md) (save ends).
+      name: Strained
 feature_type: ability
 file_basename: greater-kinetic-grip
 file_dpath: feature/ability/talent/level-6
@@ -37,6 +44,8 @@ effects:
       tier1: '[Slide](../../../../movement/forced-movement.md) 4 + R; M < WEAK, the [forced movement](../../../../movement/forced-movement.md) is vertical'
       tier2: '[Slide](../../../../movement/forced-movement.md) 8 + R; M < AVERAGE, the [forced movement](../../../../movement/forced-movement.md) is vertical'
       tier3: '[Slide](../../../../movement/forced-movement.md) 12 + R; [prone](../../../../condition/prone.md); M < STRONG, the [forced movement](../../../../movement/forced-movement.md) is vertical'
+    - effect: The [forced movement](../../../../movement/forced-movement.md) ignores [stability](../../../../rule/character/stability.md). You take 2d6 damage and are [weakened](../../../../condition/weakened.md) (save ends).
+      name: Strained
 feature_type: ability
 flavor: You raise the target into the air without breaking a sweat.
 keywords:
@@ -49,6 +58,13 @@ metadata:
     class: talent
     cost: 9 Clarity
     distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
+    effects:
+        - roll: Power Roll + [Reason](../../../../rule/character/reason.md)
+          tier1: '[Slide](../../../../movement/forced-movement.md) 4 + R; M < WEAK, the [forced movement](../../../../movement/forced-movement.md) is vertical'
+          tier2: '[Slide](../../../../movement/forced-movement.md) 8 + R; M < AVERAGE, the [forced movement](../../../../movement/forced-movement.md) is vertical'
+          tier3: '[Slide](../../../../movement/forced-movement.md) 12 + R; [prone](../../../../condition/prone.md); M < STRONG, the [forced movement](../../../../movement/forced-movement.md) is vertical'
+        - effect: The [forced movement](../../../../movement/forced-movement.md) ignores [stability](../../../../rule/character/stability.md). You take 2d6 damage and are [weakened](../../../../condition/weakened.md) (save ends).
+          name: Strained
     flavor: You raise the target into the air without breaking a sweat.
     keywords:
         - Psionic

@@ -5,7 +5,9 @@ cost: 5 Piety
 cost_amount: "5"
 cost_resource: Piety
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
-effect: Until the end of the encounter, whenever one target takes damage, the other target can use a free [triggered action](../../../conduit/level-1/triggered-action.md) to take the damage instead. The original target suffers any effects associated with the damage. Additionally, whenever one target spends a [Recovery](../../../../rule/health/recoveries.md), the other target can use a free [triggered action](../../../conduit/level-1/triggered-action.md) to spend a [Recovery](../../../../rule/health/recoveries.md).
+effects:
+    - effect: Until the end of the encounter, whenever one target takes damage, the other target can use a free [triggered action](../../../conduit/level-1/triggered-action.md) to take the damage instead. The original target suffers any effects associated with the damage. Additionally, whenever one target spends a [Recovery](../../../../rule/health/recoveries.md), the other target can use a free [triggered action](../../../conduit/level-1/triggered-action.md) to spend a [Recovery](../../../../rule/health/recoveries.md).
+      name: Effect
 feature_type: ability
 file_basename: sacred-bond
 file_dpath: feature/ability/conduit/level-2
@@ -29,6 +31,7 @@ cost: 5 Piety
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
 effects:
     - effect: Until the end of the encounter, whenever one target takes damage, the other target can use a free [triggered action](../../../conduit/level-1/triggered-action.md) to take the damage instead. The original target suffers any effects associated with the damage. Additionally, whenever one target spends a [Recovery](../../../../rule/health/recoveries.md), the other target can use a free [triggered action](../../../conduit/level-1/triggered-action.md) to spend a [Recovery](../../../../rule/health/recoveries.md).
+      name: Effect
 feature_type: ability
 flavor: You forge a divine connection between two creatures.
 keywords:
@@ -39,7 +42,9 @@ metadata:
     class: conduit
     cost: 5 Piety
     distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
-    effect: Until the end of the encounter, whenever one target takes damage, the other target can use a free [triggered action](../../../conduit/level-1/triggered-action.md) to take the damage instead. The original target suffers any effects associated with the damage. Additionally, whenever one target spends a [Recovery](../../../../rule/health/recoveries.md), the other target can use a free [triggered action](../../../conduit/level-1/triggered-action.md) to spend a [Recovery](../../../../rule/health/recoveries.md).
+    effects:
+        - effect: Until the end of the encounter, whenever one target takes damage, the other target can use a free [triggered action](../../../conduit/level-1/triggered-action.md) to take the damage instead. The original target suffers any effects associated with the damage. Additionally, whenever one target spends a [Recovery](../../../../rule/health/recoveries.md), the other target can use a free [triggered action](../../../conduit/level-1/triggered-action.md) to spend a [Recovery](../../../../rule/health/recoveries.md).
+          name: Effect
     flavor: You forge a divine connection between two creatures.
     keywords:
         - Magic

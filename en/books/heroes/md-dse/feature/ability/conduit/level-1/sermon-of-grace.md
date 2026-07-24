@@ -5,7 +5,9 @@ cost: 5 Piety
 cost_amount: "5"
 cost_resource: Piety
 distance: 4 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)
-effect: Each target can spend a [Recovery](scc.v1:mcdm.heroes.v1/rule.health/recoveries). Additionally, each target can use a free [triggered action](scc.v1:mcdm.heroes.v1/feature.conduit.level-1/triggered-action) to end one effect on them that is ended by a [saving throw](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) or that ends at the end of their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), or to stand up if [prone](scc.v1:mcdm.heroes.v1/condition/prone).
+effects:
+    - effect: Each target can spend a [Recovery](scc.v1:mcdm.heroes.v1/rule.health/recoveries). Additionally, each target can use a free [triggered action](scc.v1:mcdm.heroes.v1/feature.conduit.level-1/triggered-action) to end one effect on them that is ended by a [saving throw](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) or that ends at the end of their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), or to stand up if [prone](scc.v1:mcdm.heroes.v1/condition/prone).
+      name: Effect
 feature_type: ability
 file_basename: sermon-of-grace
 file_dpath: feature/ability/conduit/level-1
@@ -28,6 +30,7 @@ cost: 5 Piety
 distance: 4 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)
 effects:
     - effect: Each target can spend a [Recovery](scc.v1:mcdm.heroes.v1/rule.health/recoveries). Additionally, each target can use a free [triggered action](scc.v1:mcdm.heroes.v1/feature.conduit.level-1/triggered-action) to end one effect on them that is ended by a [saving throw](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) or that ends at the end of their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), or to stand up if [prone](scc.v1:mcdm.heroes.v1/condition/prone).
+      name: Effect
 feature_type: ability
 flavor: You inspire your allies with tales of your [saint](scc.v1:mcdm.heroes.v1/rule.world/saint)'s great deeds.
 keywords:
@@ -38,7 +41,9 @@ metadata:
     class: conduit
     cost: 5 Piety
     distance: 4 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)
-    effect: Each target can spend a [Recovery](scc.v1:mcdm.heroes.v1/rule.health/recoveries). Additionally, each target can use a free [triggered action](scc.v1:mcdm.heroes.v1/feature.conduit.level-1/triggered-action) to end one effect on them that is ended by a [saving throw](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) or that ends at the end of their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), or to stand up if [prone](scc.v1:mcdm.heroes.v1/condition/prone).
+    effects:
+        - effect: Each target can spend a [Recovery](scc.v1:mcdm.heroes.v1/rule.health/recoveries). Additionally, each target can use a free [triggered action](scc.v1:mcdm.heroes.v1/feature.conduit.level-1/triggered-action) to end one effect on them that is ended by a [saving throw](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) or that ends at the end of their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), or to stand up if [prone](scc.v1:mcdm.heroes.v1/condition/prone).
+          name: Effect
     flavor: You inspire your allies with tales of your [saint](scc.v1:mcdm.heroes.v1/rule.world/saint)'s great deeds.
     keywords:
         - Area

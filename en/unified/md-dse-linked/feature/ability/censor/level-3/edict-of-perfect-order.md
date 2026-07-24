@@ -5,7 +5,9 @@ cost: 7 Wrath
 cost_amount: "7"
 cost_resource: Wrath
 distance: 2 [aura](../../../../rule/combat/aura.md)
-effect: 'Until the end of the encounter or until you are [dying](../../../../rule/health/dying.md), whenever a target uses an ability that costs Malice (see *Draw Steel: Monsters*), they take holy damage equal to three times your [Presence](../../../../rule/character/presence.md) score. A target judged by you takes an extra 2d6 holy damage.'
+effects:
+    - effect: 'Until the end of the encounter or until you are [dying](../../../../rule/health/dying.md), whenever a target uses an ability that costs Malice (see *Draw Steel: Monsters*), they take holy damage equal to three times your [Presence](../../../../rule/character/presence.md) score. A target judged by you takes an extra 2d6 holy damage.'
+      name: Effect
 feature_type: ability
 file_basename: edict-of-perfect-order
 file_dpath: feature/ability/censor/level-3
@@ -28,6 +30,7 @@ cost: 7 Wrath
 distance: 2 [aura](../../../../rule/combat/aura.md)
 effects:
     - effect: 'Until the end of the encounter or until you are [dying](../../../../rule/health/dying.md), whenever a target uses an ability that costs Malice (see *Draw Steel: Monsters*), they take holy damage equal to three times your [Presence](../../../../rule/character/presence.md) score. A target judged by you takes an extra 2d6 holy damage.'
+      name: Effect
 feature_type: ability
 flavor: Within the area of your divine presence, your enemies will regret using their fell abilities.
 keywords:
@@ -38,7 +41,9 @@ metadata:
     class: censor
     cost: 7 Wrath
     distance: 2 [aura](../../../../rule/combat/aura.md)
-    effect: 'Until the end of the encounter or until you are [dying](../../../../rule/health/dying.md), whenever a target uses an ability that costs Malice (see *Draw Steel: Monsters*), they take holy damage equal to three times your [Presence](../../../../rule/character/presence.md) score. A target judged by you takes an extra 2d6 holy damage.'
+    effects:
+        - effect: 'Until the end of the encounter or until you are [dying](../../../../rule/health/dying.md), whenever a target uses an ability that costs Malice (see *Draw Steel: Monsters*), they take holy damage equal to three times your [Presence](../../../../rule/character/presence.md) score. A target judged by you takes an extra 2d6 holy damage.'
+          name: Effect
     flavor: Within the area of your divine presence, your enemies will regret using their fell abilities.
     keywords:
         - Area

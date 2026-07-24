@@ -5,7 +5,9 @@ cost: 11 Wrath
 cost_amount: "11"
 cost_resource: Wrath
 distance: 2 [aura](../../../../rule/combat/aura.md)
-effect: Until the end of the encounter or until you are [dying](../../../../rule/health/dying.md), each target who starts their [turn](../../../../rule/combat/turn.md) in the area gains 10 [temporary Stamina](../../../../rule/health/temporary-stamina.md).
+effects:
+    - effect: Until the end of the encounter or until you are [dying](../../../../rule/health/dying.md), each target who starts their [turn](../../../../rule/combat/turn.md) in the area gains 10 [temporary Stamina](../../../../rule/health/temporary-stamina.md).
+      name: Effect
 feature_type: ability
 file_basename: edict-of-unyielding-resolve
 file_dpath: feature/ability/censor/level-9
@@ -29,6 +31,7 @@ cost: 11 Wrath
 distance: 2 [aura](../../../../rule/combat/aura.md)
 effects:
     - effect: Until the end of the encounter or until you are [dying](../../../../rule/health/dying.md), each target who starts their [turn](../../../../rule/combat/turn.md) in the area gains 10 [temporary Stamina](../../../../rule/health/temporary-stamina.md).
+      name: Effect
 feature_type: ability
 flavor: You and your allies are clad in shimmering armor.
 keywords:
@@ -39,7 +42,9 @@ metadata:
     class: censor
     cost: 11 Wrath
     distance: 2 [aura](../../../../rule/combat/aura.md)
-    effect: Until the end of the encounter or until you are [dying](../../../../rule/health/dying.md), each target who starts their [turn](../../../../rule/combat/turn.md) in the area gains 10 [temporary Stamina](../../../../rule/health/temporary-stamina.md).
+    effects:
+        - effect: Until the end of the encounter or until you are [dying](../../../../rule/health/dying.md), each target who starts their [turn](../../../../rule/combat/turn.md) in the area gains 10 [temporary Stamina](../../../../rule/health/temporary-stamina.md).
+          name: Effect
     flavor: You and your allies are clad in shimmering armor.
     keywords:
         - Area

@@ -38,6 +38,11 @@ keywords:
 metadata:
     action_type: Main action
     distance: '[Ranged](../rule/combat/ranged.md) 12'
+    effects:
+        - roll: Power Roll + [Might](../rule/character/might.md) or [Agility](../rule/character/agility.md)
+          tier1: 4 damage
+          tier2: 6 damage
+          tier3: 8 damage
     flavor: When you fire two arrows back-to-back, both hit their mark.
     keywords:
         - '[Ranged](../rule/combat/ranged.md)'

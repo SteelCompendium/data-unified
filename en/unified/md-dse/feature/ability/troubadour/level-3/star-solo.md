@@ -5,7 +5,13 @@ cost: 7 Drama
 cost_amount: "7"
 cost_resource: Drama
 distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1 or [ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
-effect: You can choose to have this ability deal sonic damage. Additionally, you can use this ability against the same target for the next 2 [combat rounds](scc.v1:mcdm.heroes.v1/rule.combat/combat-round) without spending drama.
+effects:
+    - roll: Power Roll + [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence)
+      tier1: 5 + P damage
+      tier2: 8 + P damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3
+      tier3: 11 + P damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5
+    - effect: You can choose to have this ability deal sonic damage. Additionally, you can use this ability against the same target for the next 2 [combat rounds](scc.v1:mcdm.heroes.v1/rule.combat/combat-round) without spending drama.
+      name: Effect
 feature_type: ability
 file_basename: star-solo
 file_dpath: feature/ability/troubadour/level-3
@@ -34,11 +40,12 @@ type: ability
 cost: 7 Drama
 distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1 or [ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
 effects:
-    - effect: You can choose to have this ability deal sonic damage. Additionally, you can use this ability against the same target for the next 2 [combat rounds](scc.v1:mcdm.heroes.v1/rule.combat/combat-round) without spending drama.
     - roll: Power Roll + [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence)
       tier1: 5 + P damage
       tier2: 8 + P damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3
       tier3: 11 + P damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5
+    - effect: You can choose to have this ability deal sonic damage. Additionally, you can use this ability against the same target for the next 2 [combat rounds](scc.v1:mcdm.heroes.v1/rule.combat/combat-round) without spending drama.
+      name: Effect
 feature_type: ability
 flavor: Your performance travels and doesn't stop moving until your audience is completely rocked.
 keywords:
@@ -52,7 +59,13 @@ metadata:
     class: troubadour
     cost: 7 Drama
     distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1 or [ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
-    effect: You can choose to have this ability deal sonic damage. Additionally, you can use this ability against the same target for the next 2 [combat rounds](scc.v1:mcdm.heroes.v1/rule.combat/combat-round) without spending drama.
+    effects:
+        - roll: Power Roll + [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence)
+          tier1: 5 + P damage
+          tier2: 8 + P damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3
+          tier3: 11 + P damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5
+        - effect: You can choose to have this ability deal sonic damage. Additionally, you can use this ability against the same target for the next 2 [combat rounds](scc.v1:mcdm.heroes.v1/rule.combat/combat-round) without spending drama.
+          name: Effect
     flavor: Your performance travels and doesn't stop moving until your audience is completely rocked.
     keywords:
         - Magic

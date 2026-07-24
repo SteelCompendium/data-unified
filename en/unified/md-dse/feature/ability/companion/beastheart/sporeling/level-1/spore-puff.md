@@ -3,7 +3,11 @@ action_type: Maneuver
 class: beastheart
 companion: sporeling
 distance: Melee 1
-effect: The target takes poison damage equal to 3 + the sporeling's Might score, and the sporeling is invisible to the target until the end of the sporeling's next turn or they deal damage to the target.
+effects:
+    - effect: The target takes poison damage equal to 3 + the sporeling's Might score, and the sporeling is invisible to the target until the end of the sporeling's next turn or they deal damage to the target.
+      name: Effect
+    - cost: Spend 1 Ferocity
+      effect: If the target has M < STRONG, they are [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) until the end of their next turn.
 feature_type: ability
 file_basename: spore-puff
 file_dpath: feature/ability/companion/beastheart/sporeling/level-1
@@ -17,7 +21,6 @@ level: "1"
 name: Spore Puff
 scc: mcdm.beastheart.v1/feature.ability.companion.beastheart.sporeling.level-1/spore-puff
 source: mcdm.beastheart.v1
-spend: '1 Ferocity: If the target has M < STRONG, they are [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) until the end of their next turn.'
 subtype: signature
 target: One enemy
 type: ability
@@ -27,8 +30,9 @@ type: ability
 distance: Melee 1
 effects:
     - effect: The target takes poison damage equal to 3 + the sporeling's Might score, and the sporeling is invisible to the target until the end of the sporeling's next turn or they deal damage to the target.
-    - effect: '1 Ferocity: If the target has M < STRONG, they are [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) until the end of their next turn.'
-      name: Spend
+      name: Effect
+    - cost: Spend 1 Ferocity
+      effect: If the target has M < STRONG, they are [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) until the end of their next turn.
 feature_type: ability
 flavor: The sporeling breathes a cloud of disorienting fumes.
 keywords:
@@ -39,7 +43,11 @@ metadata:
     class: beastheart
     companion: sporeling
     distance: Melee 1
-    effect: The target takes poison damage equal to 3 + the sporeling's Might score, and the sporeling is invisible to the target until the end of the sporeling's next turn or they deal damage to the target.
+    effects:
+        - effect: The target takes poison damage equal to 3 + the sporeling's Might score, and the sporeling is invisible to the target until the end of the sporeling's next turn or they deal damage to the target.
+          name: Effect
+        - cost: Spend 1 Ferocity
+          effect: If the target has M < STRONG, they are [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) until the end of their next turn.
     flavor: The sporeling breathes a cloud of disorienting fumes.
     keywords:
         - Companion
@@ -47,7 +55,6 @@ metadata:
     level: "1"
     name: Spore Puff
     scc: mcdm.beastheart.v1/feature.ability.companion.beastheart.sporeling.level-1/spore-puff
-    spend: '1 Ferocity: If the target has M < STRONG, they are [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) until the end of their next turn.'
     subtype: signature
     target: One enemy
     type: ability

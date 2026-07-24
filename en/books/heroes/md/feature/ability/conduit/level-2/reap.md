@@ -3,7 +3,9 @@ action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: conduit
 cost: 5 Piety
 distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
-effect: Until the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), each time a target kills an enemy, they regain [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) equal to 5 + your [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition) score.
+effects:
+    - effect: Until the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), each time a target kills an enemy, they regain [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) equal to 5 + your [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition) score.
+      name: Effect
 flavor: The gods reward those who smite their foes.
 keywords:
     - Magic

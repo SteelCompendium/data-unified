@@ -5,7 +5,9 @@ cost: 11 Piety
 cost_amount: "11"
 cost_resource: Piety
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
-effect: Until the end of the encounter or until you are [dying](../../../../rule/health/dying.md), each of the target's [power rolls](../../../../rule/dice/power-roll.md) has its outcome improved by one tier.
+effects:
+    - effect: Until the end of the encounter or until you are [dying](../../../../rule/health/dying.md), each of the target's [power rolls](../../../../rule/dice/power-roll.md) has its outcome improved by one tier.
+      name: Effect
 feature_type: ability
 file_basename: bend-fate
 file_dpath: feature/ability/conduit/level-9
@@ -29,6 +31,7 @@ cost: 11 Piety
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
 effects:
     - effect: Until the end of the encounter or until you are [dying](../../../../rule/health/dying.md), each of the target's [power rolls](../../../../rule/dice/power-roll.md) has its outcome improved by one tier.
+      name: Effect
 feature_type: ability
 flavor: The gods know you must prevail, and they bless your fate.
 keywords:
@@ -39,7 +42,9 @@ metadata:
     class: conduit
     cost: 11 Piety
     distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
-    effect: Until the end of the encounter or until you are [dying](../../../../rule/health/dying.md), each of the target's [power rolls](../../../../rule/dice/power-roll.md) has its outcome improved by one tier.
+    effects:
+        - effect: Until the end of the encounter or until you are [dying](../../../../rule/health/dying.md), each of the target's [power rolls](../../../../rule/dice/power-roll.md) has its outcome improved by one tier.
+          name: Effect
     flavor: The gods know you must prevail, and they bless your fate.
     keywords:
         - Magic

@@ -2,6 +2,11 @@
 action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: elementalist
 distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
+effects:
+    - roll: Power Roll + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason)
+      tier1: 2 fire damage
+      tier2: 4 fire damage
+      tier3: 6 fire damage
 feature_type: ability
 file_basename: bifurcated-incineration
 file_dpath: feature/ability/elementalist/level-1
@@ -44,6 +49,11 @@ metadata:
     action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: elementalist
     distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
+    effects:
+        - roll: Power Roll + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason)
+          tier1: 2 fire damage
+          tier2: 4 fire damage
+          tier3: 6 fire damage
     flavor: Two jets of flame lance out at your command.
     keywords:
         - Fire

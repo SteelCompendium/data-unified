@@ -5,7 +5,13 @@ cost: 3 Piety
 cost_amount: "3"
 cost_resource: Piety
 distance: 3 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 10
-effect: You can [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) each willing ally in the area the same [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance), ignoring [stability](scc.v1:mcdm.heroes.v1/rule.character/stability).
+effects:
+    - roll: Power Roll + [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)
+      tier1: 2 sonic damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1
+      tier2: 3 sonic damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2
+      tier3: 5 sonic damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3
+    - effect: You can [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) each willing ally in the area the same [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance), ignoring [stability](scc.v1:mcdm.heroes.v1/rule.character/stability).
+      name: Effect
 feature_type: ability
 file_basename: call-the-thunder-down
 file_dpath: feature/ability/conduit/level-1
@@ -32,11 +38,12 @@ type: ability
 cost: 3 Piety
 distance: 3 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 10
 effects:
-    - effect: You can [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) each willing ally in the area the same [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance), ignoring [stability](scc.v1:mcdm.heroes.v1/rule.character/stability).
     - roll: Power Roll + [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)
       tier1: 2 sonic damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1
       tier2: 3 sonic damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2
       tier3: 5 sonic damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3
+    - effect: You can [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) each willing ally in the area the same [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance), ignoring [stability](scc.v1:mcdm.heroes.v1/rule.character/stability).
+      name: Effect
 feature_type: ability
 flavor: You ask your [saint](scc.v1:mcdm.heroes.v1/rule.world/saint) for thunder and your prayer is answered.
 keywords:
@@ -48,7 +55,13 @@ metadata:
     class: conduit
     cost: 3 Piety
     distance: 3 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 10
-    effect: You can [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) each willing ally in the area the same [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance), ignoring [stability](scc.v1:mcdm.heroes.v1/rule.character/stability).
+    effects:
+        - roll: Power Roll + [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)
+          tier1: 2 sonic damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1
+          tier2: 3 sonic damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2
+          tier3: 5 sonic damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3
+        - effect: You can [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) each willing ally in the area the same [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance), ignoring [stability](scc.v1:mcdm.heroes.v1/rule.character/stability).
+          name: Effect
     flavor: You ask your [saint](scc.v1:mcdm.heroes.v1/rule.world/saint) for thunder and your prayer is answered.
     keywords:
         - Area

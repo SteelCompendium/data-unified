@@ -2,7 +2,11 @@
 action_type: Triggered
 class: summoner
 distance: Summoner's Range
-effect: The [damage](../../../../rule/damage/damage.md) the target receives is reduced by an amount that leaves the target alive with 1 point of [Stamina](../../../../rule/health/stamina.md).
+effects:
+    - effect: If the target is a minion, they must be the only minion remaining in their squad.
+      name: Special
+    - effect: The [damage](../../../../rule/damage/damage.md) the target receives is reduced by an amount that leaves the target alive with 1 point of [Stamina](../../../../rule/health/stamina.md).
+      name: Effect
 feature_source: summoner
 feature_type: ability
 file_basename: not-yet
@@ -23,7 +27,10 @@ type: ability
 ```ds-feature
 distance: Summoner's Range
 effects:
+    - effect: If the target is a minion, they must be the only minion remaining in their squad.
+      name: Special
     - effect: The [damage](../../../../rule/damage/damage.md) the target receives is reduced by an amount that leaves the target alive with 1 point of [Stamina](../../../../rule/health/stamina.md).
+      name: Effect
 feature_type: ability
 flavor: I command you to not die.
 keywords: []
@@ -31,7 +38,11 @@ metadata:
     action_type: Triggered
     class: summoner
     distance: Summoner's Range
-    effect: The [damage](../../../../rule/damage/damage.md) the target receives is reduced by an amount that leaves the target alive with 1 point of [Stamina](../../../../rule/health/stamina.md).
+    effects:
+        - effect: If the target is a minion, they must be the only minion remaining in their squad.
+          name: Special
+        - effect: The [damage](../../../../rule/damage/damage.md) the target receives is reduced by an amount that leaves the target alive with 1 point of [Stamina](../../../../rule/health/stamina.md).
+          name: Effect
     feature_source: summoner
     flavor: I command you to not die.
     keywords: []

@@ -5,6 +5,11 @@ cost: 3 Ferocity
 cost_amount: "3"
 cost_resource: Ferocity
 distance: 1 [burst](../../../../rule/combat/burst.md)
+effects:
+    - roll: Power Roll + [Might](../../../../rule/character/might.md)
+      tier1: 5 damage
+      tier2: 8 damage; [push](../../../../movement/forced-movement.md) 1
+      tier3: 11 damage; [push](../../../../movement/forced-movement.md) 3
 feature_type: ability
 file_basename: back
 file_dpath: feature/ability/fury/level-1
@@ -46,6 +51,11 @@ metadata:
     class: fury
     cost: 3 Ferocity
     distance: 1 [burst](../../../../rule/combat/burst.md)
+    effects:
+        - roll: Power Roll + [Might](../../../../rule/character/might.md)
+          tier1: 5 damage
+          tier2: 8 damage; [push](../../../../movement/forced-movement.md) 1
+          tier3: 11 damage; [push](../../../../movement/forced-movement.md) 3
     flavor: You hew about you with your mighty weapon, hurling enemies backward.
     keywords:
         - Area

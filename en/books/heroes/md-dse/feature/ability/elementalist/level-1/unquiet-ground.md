@@ -2,7 +2,13 @@
 action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: elementalist
 distance: 2 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 10
-effect: The ground beneath the area is [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain) for enemies.
+effects:
+    - roll: Power Roll + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason)
+      tier1: 2 damage
+      tier2: 5 damage
+      tier3: 7 damage
+    - effect: The ground beneath the area is [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain) for enemies.
+      name: Effect
 feature_type: ability
 file_basename: unquiet-ground
 file_dpath: feature/ability/elementalist/level-1
@@ -30,11 +36,12 @@ type: ability
 ```ds-feature
 distance: 2 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 10
 effects:
-    - effect: The ground beneath the area is [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain) for enemies.
     - roll: Power Roll + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason)
       tier1: 2 damage
       tier2: 5 damage
       tier3: 7 damage
+    - effect: The ground beneath the area is [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain) for enemies.
+      name: Effect
 feature_type: ability
 flavor: A sudden storm of detritus assaults your foes and leaves them struggling to move.
 keywords:
@@ -46,7 +53,13 @@ metadata:
     action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: elementalist
     distance: 2 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 10
-    effect: The ground beneath the area is [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain) for enemies.
+    effects:
+        - roll: Power Roll + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason)
+          tier1: 2 damage
+          tier2: 5 damage
+          tier3: 7 damage
+        - effect: The ground beneath the area is [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain) for enemies.
+          name: Effect
     flavor: A sudden storm of detritus assaults your foes and leaves them struggling to move.
     keywords:
         - Area

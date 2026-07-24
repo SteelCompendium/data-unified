@@ -5,7 +5,13 @@ cost: 9 Wrath
 cost_amount: "9"
 cost_resource: Wrath
 distance: '[Melee](../../../../rule/combat/melee.md) 1'
-effect: Until the end of the encounter, whenever any ally deals damage to a target judged by you, that ally gains 1 [surge](../../../../rule/resource/surge.md).
+effects:
+    - roll: Power Roll + [Might](../../../../rule/character/might.md)
+      tier1: 10 + M damage
+      tier2: 14 + M damage
+      tier3: 20 + M damage
+    - effect: Until the end of the encounter, whenever any ally deals damage to a target judged by you, that ally gains 1 [surge](../../../../rule/resource/surge.md).
+      name: Effect
 feature_type: ability
 file_basename: righteous-judgment
 file_dpath: feature/ability/censor/level-5
@@ -32,11 +38,12 @@ type: ability
 cost: 9 Wrath
 distance: '[Melee](../../../../rule/combat/melee.md) 1'
 effects:
-    - effect: Until the end of the encounter, whenever any ally deals damage to a target judged by you, that ally gains 1 [surge](../../../../rule/resource/surge.md).
     - roll: Power Roll + [Might](../../../../rule/character/might.md)
       tier1: 10 + M damage
       tier2: 14 + M damage
       tier3: 20 + M damage
+    - effect: Until the end of the encounter, whenever any ally deals damage to a target judged by you, that ally gains 1 [surge](../../../../rule/resource/surge.md).
+      name: Effect
 feature_type: ability
 flavor: You amplify the power of your [judgment](../level-1/judgment.md).
 keywords:
@@ -48,7 +55,13 @@ metadata:
     class: censor
     cost: 9 Wrath
     distance: '[Melee](../../../../rule/combat/melee.md) 1'
-    effect: Until the end of the encounter, whenever any ally deals damage to a target judged by you, that ally gains 1 [surge](../../../../rule/resource/surge.md).
+    effects:
+        - roll: Power Roll + [Might](../../../../rule/character/might.md)
+          tier1: 10 + M damage
+          tier2: 14 + M damage
+          tier3: 20 + M damage
+        - effect: Until the end of the encounter, whenever any ally deals damage to a target judged by you, that ally gains 1 [surge](../../../../rule/resource/surge.md).
+          name: Effect
     flavor: You amplify the power of your [judgment](../level-1/judgment.md).
     keywords:
         - '[Melee](../../../../rule/combat/melee.md)'

@@ -2,7 +2,11 @@
 action_type: '[Triggered](../../../../rule/combat/triggered-action.md)'
 class: elementalist
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
-effect: The target can spend a [Recovery](../../../../rule/health/recoveries.md).
+effects:
+    - effect: The target can spend a [Recovery](../../../../rule/health/recoveries.md).
+      name: Effect
+    - cost: Spend 1+ Essence
+      effect: The target can spend an additional [Recovery](../../../../rule/health/recoveries.md) for each essence spent.
 feature_type: ability
 file_basename: breath-of-dawn-remembered
 file_dpath: feature/ability/elementalist/level-1
@@ -17,7 +21,6 @@ level: "1"
 name: Breath of Dawn Remembered
 scc: mcdm.heroes.v1/feature.ability.elementalist.level-1/breath-of-dawn-remembered
 source: mcdm.heroes.v1
-spend: '1+ Essence: The target can spend an additional [Recovery](../../../../rule/health/recoveries.md) for each essence spent.'
 subclass: green
 subtype: triggered
 target: Self or one ally
@@ -29,8 +32,9 @@ type: ability
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
 effects:
     - effect: The target can spend a [Recovery](../../../../rule/health/recoveries.md).
-    - effect: '1+ Essence: The target can spend an additional [Recovery](../../../../rule/health/recoveries.md) for each essence spent.'
-      name: Spend
+      name: Effect
+    - cost: Spend 1+ Essence
+      effect: The target can spend an additional [Recovery](../../../../rule/health/recoveries.md) for each essence spent.
 feature_type: ability
 flavor: The power you channel grants the ability to get back in the fight.
 keywords:
@@ -41,7 +45,11 @@ metadata:
     action_type: '[Triggered](../../../../rule/combat/triggered-action.md)'
     class: elementalist
     distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
-    effect: The target can spend a [Recovery](../../../../rule/health/recoveries.md).
+    effects:
+        - effect: The target can spend a [Recovery](../../../../rule/health/recoveries.md).
+          name: Effect
+        - cost: Spend 1+ Essence
+          effect: The target can spend an additional [Recovery](../../../../rule/health/recoveries.md) for each essence spent.
     flavor: The power you channel grants the ability to get back in the fight.
     keywords:
         - Green
@@ -50,7 +58,6 @@ metadata:
     level: "1"
     name: Breath of Dawn Remembered
     scc: mcdm.heroes.v1/feature.ability.elementalist.level-1/breath-of-dawn-remembered
-    spend: '1+ Essence: The target can spend an additional [Recovery](../../../../rule/health/recoveries.md) for each essence spent.'
     subclass: green
     subtype: triggered
     target: Self or one ally

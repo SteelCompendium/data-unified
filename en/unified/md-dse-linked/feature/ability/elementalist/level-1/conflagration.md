@@ -5,6 +5,13 @@ cost: 5 Essence
 cost_amount: "5"
 cost_resource: Essence
 distance: 3 [cube](../../../../rule/combat/cube.md) within 10
+effects:
+    - roll: Power Roll + [Reason](../../../../rule/character/reason.md)
+      tier1: 4 fire damage
+      tier2: 6 fire damage
+      tier3: 10 fire damage
+    - effect: At the start of your [turn](../../../../rule/combat/turn.md), you can use a maneuver to use this ability again without spending essence.
+      name: Persistent 2
 feature_type: ability
 file_basename: conflagration
 file_dpath: feature/ability/elementalist/level-1
@@ -36,6 +43,8 @@ effects:
       tier1: 4 fire damage
       tier2: 6 fire damage
       tier3: 10 fire damage
+    - effect: At the start of your [turn](../../../../rule/combat/turn.md), you can use a maneuver to use this ability again without spending essence.
+      name: Persistent 2
 feature_type: ability
 flavor: A storm of fire descends upon your enemies.
 keywords:
@@ -48,6 +57,13 @@ metadata:
     class: elementalist
     cost: 5 Essence
     distance: 3 [cube](../../../../rule/combat/cube.md) within 10
+    effects:
+        - roll: Power Roll + [Reason](../../../../rule/character/reason.md)
+          tier1: 4 fire damage
+          tier2: 6 fire damage
+          tier3: 10 fire damage
+        - effect: At the start of your [turn](../../../../rule/combat/turn.md), you can use a maneuver to use this ability again without spending essence.
+          name: Persistent 2
     flavor: A storm of fire descends upon your enemies.
     keywords:
         - Area

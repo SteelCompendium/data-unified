@@ -3,6 +3,11 @@ action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: shadow
 cost: 3 Insight
 distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1 or [ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 5'
+effects:
+    - roll: Power Roll + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)
+      tier1: 4 + A damage; A < WEAK, [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
+      tier2: 6 + A damage; A < AVERAGE, [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
+      tier3: 10 + A damage; A < STRONG, [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
 flavor: You leave your foe bleeding out after a devastating attack.
 keywords:
     - '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)'

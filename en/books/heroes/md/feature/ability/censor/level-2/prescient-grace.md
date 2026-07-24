@@ -3,7 +3,9 @@ action_type: '[Triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)'
 class: censor
 cost: 5 Wrath
 distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
-effect: You can spend a [Recovery](scc.v1:mcdm.heroes.v1/rule.health/recoveries) to allow the target to regain [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) equal to your [recovery value](scc.v1:mcdm.heroes.v1/rule.health/recoveries). The target can then take their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) immediately before the triggering enemy.
+effects:
+    - effect: You can spend a [Recovery](scc.v1:mcdm.heroes.v1/rule.health/recoveries) to allow the target to regain [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) equal to your [recovery value](scc.v1:mcdm.heroes.v1/rule.health/recoveries). The target can then take their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) immediately before the triggering enemy.
+      name: Effect
 flavor: Gifted by a prescient vision, you warn an ally of an impending attack.
 keywords:
     - Magic

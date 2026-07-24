@@ -5,6 +5,13 @@ cost: 5 Clarity
 cost_amount: "5"
 cost_resource: Clarity
 distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
+effects:
+    - roll: Power Roll + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason)
+      tier1: 6 + R damage; M < WEAK[, prone](scc.v1:mcdm.heroes.v1/condition/prone)
+      tier2: 10 + R damage; M < AVERAGE[, prone](scc.v1:mcdm.heroes.v1/condition/prone)
+      tier3: 14 + R damage; M < STRONG, [prone and](scc.v1:mcdm.heroes.v1/condition/prone) can't stand (save ends)
+    - effect: You take half the damage the target takes.
+      name: Strained
 feature_type: ability
 file_basename: levity-and-gravity
 file_dpath: feature/ability/talent/level-2
@@ -37,6 +44,8 @@ effects:
       tier1: 6 + R damage; M < WEAK[, prone](scc.v1:mcdm.heroes.v1/condition/prone)
       tier2: 10 + R damage; M < AVERAGE[, prone](scc.v1:mcdm.heroes.v1/condition/prone)
       tier3: 14 + R damage; M < STRONG, [prone and](scc.v1:mcdm.heroes.v1/condition/prone) can't stand (save ends)
+    - effect: You take half the damage the target takes.
+      name: Strained
 feature_type: ability
 flavor: You raise the target slightly into the air, then smother them against the ground.
 keywords:
@@ -49,6 +58,13 @@ metadata:
     class: talent
     cost: 5 Clarity
     distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
+    effects:
+        - roll: Power Roll + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason)
+          tier1: 6 + R damage; M < WEAK[, prone](scc.v1:mcdm.heroes.v1/condition/prone)
+          tier2: 10 + R damage; M < AVERAGE[, prone](scc.v1:mcdm.heroes.v1/condition/prone)
+          tier3: 14 + R damage; M < STRONG, [prone and](scc.v1:mcdm.heroes.v1/condition/prone) can't stand (save ends)
+        - effect: You take half the damage the target takes.
+          name: Strained
     flavor: You raise the target slightly into the air, then smother them against the ground.
     keywords:
         - Psionic

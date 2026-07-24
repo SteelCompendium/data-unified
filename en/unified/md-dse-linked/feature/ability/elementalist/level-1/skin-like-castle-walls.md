@@ -2,7 +2,11 @@
 action_type: '[Triggered](../../../../rule/combat/triggered-action.md)'
 class: elementalist
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
-effect: The target takes half the damage.
+effects:
+    - effect: The target takes half the damage.
+      name: Effect
+    - cost: Spend 1 Essence
+      effect: If the damage has any [potency](../../../../rule/character/potency.md) effects associated with it, the [potency](../../../../rule/character/potency.md) is reduced by 1 for the target.
 feature_type: ability
 file_basename: skin-like-castle-walls
 file_dpath: feature/ability/elementalist/level-1
@@ -17,7 +21,6 @@ level: "1"
 name: Skin Like Castle Walls
 scc: mcdm.heroes.v1/feature.ability.elementalist.level-1/skin-like-castle-walls
 source: mcdm.heroes.v1
-spend: '1 Essence: If the damage has any [potency](../../../../rule/character/potency.md) effects associated with it, the [potency](../../../../rule/character/potency.md) is reduced by 1 for the target.'
 subclass: earth
 subtype: triggered
 target: Self or one ally
@@ -29,8 +32,9 @@ type: ability
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
 effects:
     - effect: The target takes half the damage.
-    - effect: '1 Essence: If the damage has any [potency](../../../../rule/character/potency.md) effects associated with it, the [potency](../../../../rule/character/potency.md) is reduced by 1 for the target.'
-      name: Spend
+      name: Effect
+    - cost: Spend 1 Essence
+      effect: If the damage has any [potency](../../../../rule/character/potency.md) effects associated with it, the [potency](../../../../rule/character/potency.md) is reduced by 1 for the target.
 feature_type: ability
 flavor: You cover yourself or an ally in protective stone.
 keywords:
@@ -41,7 +45,11 @@ metadata:
     action_type: '[Triggered](../../../../rule/combat/triggered-action.md)'
     class: elementalist
     distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
-    effect: The target takes half the damage.
+    effects:
+        - effect: The target takes half the damage.
+          name: Effect
+        - cost: Spend 1 Essence
+          effect: If the damage has any [potency](../../../../rule/character/potency.md) effects associated with it, the [potency](../../../../rule/character/potency.md) is reduced by 1 for the target.
     flavor: You cover yourself or an ally in protective stone.
     keywords:
         - Earth
@@ -50,7 +58,6 @@ metadata:
     level: "1"
     name: Skin Like Castle Walls
     scc: mcdm.heroes.v1/feature.ability.elementalist.level-1/skin-like-castle-walls
-    spend: '1 Essence: If the damage has any [potency](../../../../rule/character/potency.md) effects associated with it, the [potency](../../../../rule/character/potency.md) is reduced by 1 for the target.'
     subclass: earth
     subtype: triggered
     target: Self or one ally

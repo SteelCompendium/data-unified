@@ -5,7 +5,13 @@ cost: 11 Essence
 cost_amount: "11"
 cost_resource: Essence
 distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
-effect: This damage ignores immunity.
+effects:
+    - roll: Power Roll + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason)
+      tier1: 13 + R fire damage; I < WEAK, [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
+      tier2: 18 + R fire damage; I < AVERAGE, [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
+      tier3: 25 + R fire damage; I < STRONG, [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
+    - effect: This damage ignores immunity.
+      name: Effect
 feature_type: ability
 file_basename: unquenchable-fire
 file_dpath: feature/ability/elementalist/level-9
@@ -33,11 +39,12 @@ type: ability
 cost: 11 Essence
 distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
 effects:
-    - effect: This damage ignores immunity.
     - roll: Power Roll + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason)
       tier1: 13 + R fire damage; I < WEAK, [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
       tier2: 18 + R fire damage; I < AVERAGE, [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
       tier3: 25 + R fire damage; I < STRONG, [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
+    - effect: This damage ignores immunity.
+      name: Effect
 feature_type: ability
 flavor: You let fly a fiery missile braided with pure primal energy.
 keywords:
@@ -50,7 +57,13 @@ metadata:
     class: elementalist
     cost: 11 Essence
     distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
-    effect: This damage ignores immunity.
+    effects:
+        - roll: Power Roll + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason)
+          tier1: 13 + R fire damage; I < WEAK, [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
+          tier2: 18 + R fire damage; I < AVERAGE, [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
+          tier3: 25 + R fire damage; I < STRONG, [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
+        - effect: This damage ignores immunity.
+          name: Effect
     flavor: You let fly a fiery missile braided with pure primal energy.
     keywords:
         - Fire

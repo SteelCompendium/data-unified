@@ -5,7 +5,11 @@ cost: 3 Clarity
 cost_amount: "3"
 cost_resource: Clarity
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
-effect: The target is [teleport](../../../../movement/teleport.md)ed to an unoccupied space [adjacent](../../../../rule/combat/adjacent.md) to you, taking no damage and suffering no additional effects if this movement would get them out of harm's way.
+effects:
+    - effect: The target is [teleport](../../../../movement/teleport.md)ed to an unoccupied space [adjacent](../../../../rule/combat/adjacent.md) to you, taking no damage and suffering no additional effects if this movement would get them out of harm's way.
+      name: Effect
+    - effect: You can't target yourself, and you take the damage and any additional effects instead of the target.
+      name: Strained
 feature_type: ability
 file_basename: stasis-shield
 file_dpath: feature/ability/talent/level-8
@@ -31,6 +35,9 @@ cost: 3 Clarity
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
 effects:
     - effect: The target is [teleport](../../../../movement/teleport.md)ed to an unoccupied space [adjacent](../../../../rule/combat/adjacent.md) to you, taking no damage and suffering no additional effects if this movement would get them out of harm's way.
+      name: Effect
+    - effect: You can't target yourself, and you take the damage and any additional effects instead of the target.
+      name: Strained
 feature_type: ability
 flavor: You freeze time just long enough to bring the victim to safety!
 keywords:
@@ -41,7 +48,11 @@ metadata:
     class: talent
     cost: 3 Clarity
     distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
-    effect: The target is [teleport](../../../../movement/teleport.md)ed to an unoccupied space [adjacent](../../../../rule/combat/adjacent.md) to you, taking no damage and suffering no additional effects if this movement would get them out of harm's way.
+    effects:
+        - effect: The target is [teleport](../../../../movement/teleport.md)ed to an unoccupied space [adjacent](../../../../rule/combat/adjacent.md) to you, taking no damage and suffering no additional effects if this movement would get them out of harm's way.
+          name: Effect
+        - effect: You can't target yourself, and you take the damage and any additional effects instead of the target.
+          name: Strained
     flavor: You freeze time just long enough to bring the victim to safety!
     keywords:
         - Psionic

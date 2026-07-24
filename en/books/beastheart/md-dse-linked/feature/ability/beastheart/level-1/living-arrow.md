@@ -2,7 +2,11 @@
 action_type: Maneuver
 class: beastheart
 distance: Ranged 10
-effect: If your companion is within range and can fit into the target space, they [teleport](../../../../movement/teleport.md) to the space. They can then make a melee free strike.
+effects:
+    - effect: If your companion is within range and can fit into the target space, they [teleport](../../../../movement/teleport.md) to the space. They can then make a melee free strike.
+      name: Effect
+    - cost: Spend 1 Ferocity
+      effect: The distance increases to ranged 15.
 feature_type: ability
 file_basename: living-arrow
 file_dpath: feature/ability/beastheart/level-1
@@ -17,7 +21,6 @@ level: "1"
 name: Living Arrow
 scc: mcdm.beastheart.v1/feature.ability.beastheart.level-1/living-arrow
 source: mcdm.beastheart.v1
-spend: '1 Ferocity: The distance increases to ranged 15.'
 subclass: guardian
 target: One unoccupied space
 type: ability
@@ -27,8 +30,9 @@ type: ability
 distance: Ranged 10
 effects:
     - effect: If your companion is within range and can fit into the target space, they [teleport](../../../../movement/teleport.md) to the space. They can then make a melee free strike.
-    - effect: '1 Ferocity: The distance increases to ranged 15.'
-      name: Spend
+      name: Effect
+    - cost: Spend 1 Ferocity
+      effect: The distance increases to ranged 15.
 feature_type: ability
 flavor: You point, and your companion appears.
 keywords:
@@ -39,7 +43,11 @@ metadata:
     action_type: Maneuver
     class: beastheart
     distance: Ranged 10
-    effect: If your companion is within range and can fit into the target space, they [teleport](../../../../movement/teleport.md) to the space. They can then make a melee free strike.
+    effects:
+        - effect: If your companion is within range and can fit into the target space, they [teleport](../../../../movement/teleport.md) to the space. They can then make a melee free strike.
+          name: Effect
+        - cost: Spend 1 Ferocity
+          effect: The distance increases to ranged 15.
     flavor: You point, and your companion appears.
     keywords:
         - Beastheart
@@ -48,7 +56,6 @@ metadata:
     level: "1"
     name: Living Arrow
     scc: mcdm.beastheart.v1/feature.ability.beastheart.level-1/living-arrow
-    spend: '1 Ferocity: The distance increases to ranged 15.'
     subclass: guardian
     target: One unoccupied space
     type: ability

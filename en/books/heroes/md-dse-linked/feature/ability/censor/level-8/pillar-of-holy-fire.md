@@ -5,7 +5,13 @@ cost: 11 Wrath
 cost_amount: "11"
 cost_resource: Wrath
 distance: '[Melee](../../../../rule/combat/melee.md) 1'
-effect: At the end of each of your [turns](../../../../rule/combat/turn.md), a target [dazed](../../../../condition/dazed.md) this way deals holy damage equal to twice your [Presence](../../../../rule/character/presence.md) score to each enemy within 2 squares of them.
+effects:
+    - roll: Power Roll + [Might](../../../../rule/character/might.md)
+      tier1: 9 + M damage; I < WEAK, [dazed](../../../../condition/dazed.md) (save ends)
+      tier2: 13 + M damage; I < AVERAGE, [dazed](../../../../condition/dazed.md) (save ends)
+      tier3: 18 + M damage; I < STRONG, [dazed](../../../../condition/dazed.md) (save ends)
+    - effect: At the end of each of your [turns](../../../../rule/combat/turn.md), a target [dazed](../../../../condition/dazed.md) this way deals holy damage equal to twice your [Presence](../../../../rule/character/presence.md) score to each enemy within 2 squares of them.
+      name: Effect
 feature_type: ability
 file_basename: pillar-of-holy-fire
 file_dpath: feature/ability/censor/level-8
@@ -32,11 +38,12 @@ type: ability
 cost: 11 Wrath
 distance: '[Melee](../../../../rule/combat/melee.md) 1'
 effects:
-    - effect: At the end of each of your [turns](../../../../rule/combat/turn.md), a target [dazed](../../../../condition/dazed.md) this way deals holy damage equal to twice your [Presence](../../../../rule/character/presence.md) score to each enemy within 2 squares of them.
     - roll: Power Roll + [Might](../../../../rule/character/might.md)
       tier1: 9 + M damage; I < WEAK, [dazed](../../../../condition/dazed.md) (save ends)
       tier2: 13 + M damage; I < AVERAGE, [dazed](../../../../condition/dazed.md) (save ends)
       tier3: 18 + M damage; I < STRONG, [dazed](../../../../condition/dazed.md) (save ends)
+    - effect: At the end of each of your [turns](../../../../rule/combat/turn.md), a target [dazed](../../../../condition/dazed.md) this way deals holy damage equal to twice your [Presence](../../../../rule/character/presence.md) score to each enemy within 2 squares of them.
+      name: Effect
 feature_type: ability
 flavor: Your enemy's guilt fuels a holy flame that burns your foes.
 keywords:
@@ -48,7 +55,13 @@ metadata:
     class: censor
     cost: 11 Wrath
     distance: '[Melee](../../../../rule/combat/melee.md) 1'
-    effect: At the end of each of your [turns](../../../../rule/combat/turn.md), a target [dazed](../../../../condition/dazed.md) this way deals holy damage equal to twice your [Presence](../../../../rule/character/presence.md) score to each enemy within 2 squares of them.
+    effects:
+        - roll: Power Roll + [Might](../../../../rule/character/might.md)
+          tier1: 9 + M damage; I < WEAK, [dazed](../../../../condition/dazed.md) (save ends)
+          tier2: 13 + M damage; I < AVERAGE, [dazed](../../../../condition/dazed.md) (save ends)
+          tier3: 18 + M damage; I < STRONG, [dazed](../../../../condition/dazed.md) (save ends)
+        - effect: At the end of each of your [turns](../../../../rule/combat/turn.md), a target [dazed](../../../../condition/dazed.md) this way deals holy damage equal to twice your [Presence](../../../../rule/character/presence.md) score to each enemy within 2 squares of them.
+          name: Effect
     flavor: Your enemy's guilt fuels a holy flame that burns your foes.
     keywords:
         - '[Melee](../../../../rule/combat/melee.md)'

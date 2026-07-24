@@ -2,7 +2,13 @@
 action_type: Main action
 class: summoner
 distance: 4 burst
-effect: You can use this ability as if in the space of one of your minions within your Summoner's Range.
+effects:
+    - roll: Power Roll + [Reason](../../../../rule/character/reason.md)
+      tier1: 6 [damage](../../../../rule/damage/damage.md); [push](../../../../movement/forced-movement.md) 4 M < WEAK push is vertical
+      tier2: 10 [damage](../../../../rule/damage/damage.md); [push](../../../../movement/forced-movement.md) 5 M < AVERAGE push is vertical
+      tier3: 14 [damage](../../../../rule/damage/damage.md); [push](../../../../movement/forced-movement.md) 6 M < STRONG push is vertical
+    - effect: You can use this ability as if in the space of one of your minions within your Summoner's Range.
+      name: Effect
 feature_source: summoner
 feature_type: ability
 file_basename: the-champions-wrath
@@ -30,11 +36,12 @@ type: ability
 ```ds-feature
 distance: 4 burst
 effects:
-    - effect: You can use this ability as if in the space of one of your minions within your Summoner's Range.
     - roll: Power Roll + [Reason](../../../../rule/character/reason.md)
       tier1: 6 [damage](../../../../rule/damage/damage.md); [push](../../../../movement/forced-movement.md) 4 M < WEAK push is vertical
       tier2: 10 [damage](../../../../rule/damage/damage.md); [push](../../../../movement/forced-movement.md) 5 M < AVERAGE push is vertical
       tier3: 14 [damage](../../../../rule/damage/damage.md); [push](../../../../movement/forced-movement.md) 6 M < STRONG push is vertical
+    - effect: You can use this ability as if in the space of one of your minions within your Summoner's Range.
+      name: Effect
 feature_type: ability
 flavor: Your champion appears and goes into a rampage, clearing the way for your minions to march forth.
 keywords:
@@ -46,7 +53,13 @@ metadata:
     action_type: Main action
     class: summoner
     distance: 4 burst
-    effect: You can use this ability as if in the space of one of your minions within your Summoner's Range.
+    effects:
+        - roll: Power Roll + [Reason](../../../../rule/character/reason.md)
+          tier1: 6 [damage](../../../../rule/damage/damage.md); [push](../../../../movement/forced-movement.md) 4 M < WEAK push is vertical
+          tier2: 10 [damage](../../../../rule/damage/damage.md); [push](../../../../movement/forced-movement.md) 5 M < AVERAGE push is vertical
+          tier3: 14 [damage](../../../../rule/damage/damage.md); [push](../../../../movement/forced-movement.md) 6 M < STRONG push is vertical
+        - effect: You can use this ability as if in the space of one of your minions within your Summoner's Range.
+          name: Effect
     feature_source: summoner
     flavor: Your champion appears and goes into a rampage, clearing the way for your minions to march forth.
     keywords:

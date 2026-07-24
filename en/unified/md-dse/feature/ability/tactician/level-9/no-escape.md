@@ -5,7 +5,15 @@ cost: 11 Focus
 cost_amount: "11"
 cost_resource: Focus
 distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
-effect: You mark the target.
+effects:
+    - effect: You mark the target.
+      name: Effect
+    - roll: Power Roll + [Might](scc.v1:mcdm.heroes.v1/rule.character/might)
+      tier1: 11 + M damage
+      tier2: 16 + M damage
+      tier3: 21 + M damage
+    - effect: If you use this ability as part of the [Charge](scc.v1:mcdm.heroes.v1/feature.common.main-actions/charge) main action, enemies' spaces don't count as [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain) for your movement. Additionally, if you move through any creature's space, you can [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) that creature 1 square out of the path of your charge.
+      name: Effect
 feature_type: ability
 file_basename: no-escape
 file_dpath: feature/ability/tactician/level-9
@@ -35,10 +43,13 @@ cost: 11 Focus
 distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
 effects:
     - effect: You mark the target.
+      name: Effect
     - roll: Power Roll + [Might](scc.v1:mcdm.heroes.v1/rule.character/might)
       tier1: 11 + M damage
       tier2: 16 + M damage
       tier3: 21 + M damage
+    - effect: If you use this ability as part of the [Charge](scc.v1:mcdm.heroes.v1/feature.common.main-actions/charge) main action, enemies' spaces don't count as [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain) for your movement. Additionally, if you move through any creature's space, you can [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) that creature 1 square out of the path of your charge.
+      name: Effect
 feature_type: ability
 flavor: Nothing will stop you from reaching your foe.
 keywords:
@@ -51,7 +62,15 @@ metadata:
     class: tactician
     cost: 11 Focus
     distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
-    effect: You mark the target.
+    effects:
+        - effect: You mark the target.
+          name: Effect
+        - roll: Power Roll + [Might](scc.v1:mcdm.heroes.v1/rule.character/might)
+          tier1: 11 + M damage
+          tier2: 16 + M damage
+          tier3: 21 + M damage
+        - effect: If you use this ability as part of the [Charge](scc.v1:mcdm.heroes.v1/feature.common.main-actions/charge) main action, enemies' spaces don't count as [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain) for your movement. Additionally, if you move through any creature's space, you can [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) that creature 1 square out of the path of your charge.
+          name: Effect
     flavor: Nothing will stop you from reaching your foe.
     keywords:
         - Charge

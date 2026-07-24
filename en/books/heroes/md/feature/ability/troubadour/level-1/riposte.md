@@ -2,7 +2,9 @@
 action_type: '[Triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)'
 class: troubadour
 distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
-effect: The target makes a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against the creature who made the triggering strike.
+effects:
+    - effect: The target makes a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against the creature who made the triggering strike.
+      name: Effect
 flavor: '"I''d have brought treats had I known I''d be fighting a dog."'
 keywords:
     - '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)'

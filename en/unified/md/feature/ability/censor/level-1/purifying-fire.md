@@ -3,7 +3,13 @@ action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: censor
 cost: 5 Wrath
 distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1 or [ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 5'
-effect: While the target has fire weakness from this ability, you can choose to have your abilities deal fire damage to the target instead of holy damage.
+effects:
+    - roll: Power Roll + [Might](scc.v1:mcdm.heroes.v1/rule.character/might)
+      tier1: 5 + M holy damage; M < WEAK, the target has fire weakness 3 (save ends)
+      tier2: 9 + M holy damage; M < AVERAGE, the target has fire weakness 5 (save ends)
+      tier3: 12 + M holy damage; M < STRONG, the target has fire weakness 7 (save ends)
+    - effect: While the target has fire weakness from this ability, you can choose to have your abilities deal fire damage to the target instead of holy damage.
+      name: Effect
 flavor: The gods judge, fire cleanses.
 keywords:
     - Magic

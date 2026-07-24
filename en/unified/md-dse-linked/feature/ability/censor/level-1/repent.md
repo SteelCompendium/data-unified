@@ -5,6 +5,11 @@ cost: 3 Wrath
 cost_amount: "3"
 cost_resource: Wrath
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
+effects:
+    - roll: Power Roll + [Presence](../../../../rule/character/presence.md)
+      tier1: 5 + P holy damage; I < WEAK, [dazed](../../../../condition/dazed.md) (save ends)
+      tier2: 8 + P holy damage; I < AVERAGE, [dazed](../../../../condition/dazed.md) (save ends)
+      tier3: 11 + P holy damage; I < STRONG, [dazed](../../../../condition/dazed.md) (save ends)
 feature_type: ability
 file_basename: repent
 file_dpath: feature/ability/censor/level-1
@@ -46,6 +51,11 @@ metadata:
     class: censor
     cost: 3 Wrath
     distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
+    effects:
+        - roll: Power Roll + [Presence](../../../../rule/character/presence.md)
+          tier1: 5 + P holy damage; I < WEAK, [dazed](../../../../condition/dazed.md) (save ends)
+          tier2: 8 + P holy damage; I < AVERAGE, [dazed](../../../../condition/dazed.md) (save ends)
+          tier3: 11 + P holy damage; I < STRONG, [dazed](../../../../condition/dazed.md) (save ends)
     flavor: You conjure memories of their sins to harry your foes.
     keywords:
         - Magic

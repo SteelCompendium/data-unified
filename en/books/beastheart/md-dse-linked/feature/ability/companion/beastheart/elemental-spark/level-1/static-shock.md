@@ -3,7 +3,11 @@ action_type: Maneuver
 class: beastheart
 companion: elemental-spark
 distance: Melee 1
-effect: The target takes lightning damage equal to 2 + the spark's Might score.
+effects:
+    - effect: The target takes lightning damage equal to 2 + the spark's Might score.
+      name: Effect
+    - cost: Spend 1 Ferocity
+      effect: The distance increases to melee 5.
 feature_type: ability
 file_basename: static-shock
 file_dpath: feature/ability/companion/beastheart/elemental-spark/level-1
@@ -18,7 +22,6 @@ level: "1"
 name: Static Shock
 scc: mcdm.beastheart.v1/feature.ability.companion.beastheart.elemental-spark.level-1/static-shock
 source: mcdm.beastheart.v1
-spend: '1 Ferocity: The distance increases to melee 5.'
 subtype: signature
 target: One creature or object
 type: ability
@@ -28,8 +31,9 @@ type: ability
 distance: Melee 1
 effects:
     - effect: The target takes lightning damage equal to 2 + the spark's Might score.
-    - effect: '1 Ferocity: The distance increases to melee 5.'
-      name: Spend
+      name: Effect
+    - cost: Spend 1 Ferocity
+      effect: The distance increases to melee 5.
 feature_type: ability
 flavor: An arc of lightning crackles from the spark.
 keywords:
@@ -41,7 +45,11 @@ metadata:
     class: beastheart
     companion: elemental-spark
     distance: Melee 1
-    effect: The target takes lightning damage equal to 2 + the spark's Might score.
+    effects:
+        - effect: The target takes lightning damage equal to 2 + the spark's Might score.
+          name: Effect
+        - cost: Spend 1 Ferocity
+          effect: The distance increases to melee 5.
     flavor: An arc of lightning crackles from the spark.
     keywords:
         - Companion
@@ -50,7 +58,6 @@ metadata:
     level: "1"
     name: Static Shock
     scc: mcdm.beastheart.v1/feature.ability.companion.beastheart.elemental-spark.level-1/static-shock
-    spend: '1 Ferocity: The distance increases to melee 5.'
     subtype: signature
     target: One creature or object
     type: ability

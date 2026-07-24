@@ -5,6 +5,11 @@ cost: 3 Focus
 cost_amount: "3"
 cost_resource: Focus
 distance: '[Melee](../../../../rule/combat/melee.md) 1 or [ranged](../../../../rule/combat/ranged.md) 5'
+effects:
+    - roll: Power Roll + [Might](../../../../rule/character/might.md)
+      tier1: 3 + M damage; M < WEAK, [dazed](../../../../condition/dazed.md) (save ends)
+      tier2: 5 + M damage; M < AVERAGE, [dazed](../../../../condition/dazed.md) (save ends)
+      tier3: 8 + M damage; M < STRONG, [dazed](../../../../condition/dazed.md) (save ends)
 feature_type: ability
 file_basename: concussive-strike
 file_dpath: feature/ability/tactician/level-1
@@ -48,6 +53,11 @@ metadata:
     class: tactician
     cost: 3 Focus
     distance: '[Melee](../../../../rule/combat/melee.md) 1 or [ranged](../../../../rule/combat/ranged.md) 5'
+    effects:
+        - roll: Power Roll + [Might](../../../../rule/character/might.md)
+          tier1: 3 + M damage; M < WEAK, [dazed](../../../../condition/dazed.md) (save ends)
+          tier2: 5 + M damage; M < AVERAGE, [dazed](../../../../condition/dazed.md) (save ends)
+          tier3: 8 + M damage; M < STRONG, [dazed](../../../../condition/dazed.md) (save ends)
     flavor: Your precise strike leaves your foe struggling to respond.
     keywords:
         - '[Melee](../../../../rule/combat/melee.md)'

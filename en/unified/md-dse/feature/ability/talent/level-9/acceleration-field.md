@@ -5,7 +5,15 @@ cost: 11 Clarity
 cost_amount: "11"
 cost_resource: Clarity
 distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 5'
-effect: Each target can use any main action available to them as a free [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action), but they lose their main action on their next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn).
+effects:
+    - effect: Each target can use any main action available to them as a free [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action), but they lose their main action on their next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn).
+      name: Effect
+    - effect: Make a [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) that targets you and each enemy within [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance).
+      name: Strained
+    - roll: Power Roll + [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence)
+      tier1: 4 corruption damage; [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
+      tier2: 6 corruption damage; [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
+      tier3: 10 corruption damage; [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
 feature_type: ability
 file_basename: acceleration-field
 file_dpath: feature/ability/talent/level-9
@@ -34,6 +42,9 @@ cost: 11 Clarity
 distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 5'
 effects:
     - effect: Each target can use any main action available to them as a free [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action), but they lose their main action on their next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn).
+      name: Effect
+    - effect: Make a [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) that targets you and each enemy within [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance).
+      name: Strained
     - roll: Power Roll + [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence)
       tier1: 4 corruption damage; [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
       tier2: 6 corruption damage; [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
@@ -49,7 +60,15 @@ metadata:
     class: talent
     cost: 11 Clarity
     distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 5'
-    effect: Each target can use any main action available to them as a free [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action), but they lose their main action on their next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn).
+    effects:
+        - effect: Each target can use any main action available to them as a free [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action), but they lose their main action on their next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn).
+          name: Effect
+        - effect: Make a [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) that targets you and each enemy within [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance).
+          name: Strained
+        - roll: Power Roll + [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence)
+          tier1: 4 corruption damage; [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
+          tier2: 6 corruption damage; [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
+          tier3: 10 corruption damage; [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
     flavor: You forcibly stuff more moments into a critical point in time, knowing full well you might need to steal some of your own.
     keywords:
         - Chronopathy

@@ -2,7 +2,13 @@
 action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: conduit
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
-effect: You can have this ability deal holy damage.
+effects:
+    - roll: Power Roll + [Intuition](../../../../rule/character/intuition.md)
+      tier1: 2 + I damage
+      tier2: 4 + I damage
+      tier3: 6 + I damage
+    - effect: You can have this ability deal holy damage.
+      name: Effect
 feature_type: ability
 file_basename: ray-of-wrath
 file_dpath: feature/ability/conduit/level-1
@@ -28,11 +34,12 @@ type: ability
 ```ds-feature
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
 effects:
-    - effect: You can have this ability deal holy damage.
     - roll: Power Roll + [Intuition](../../../../rule/character/intuition.md)
       tier1: 2 + I damage
       tier2: 4 + I damage
       tier3: 6 + I damage
+    - effect: You can have this ability deal holy damage.
+      name: Effect
 feature_type: ability
 flavor: You unleash a blast of holy light upon your foe.
 keywords:
@@ -43,7 +50,13 @@ metadata:
     action_type: '[Main action](../../../../rule/combat/turn.md)'
     class: conduit
     distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
-    effect: You can have this ability deal holy damage.
+    effects:
+        - roll: Power Roll + [Intuition](../../../../rule/character/intuition.md)
+          tier1: 2 + I damage
+          tier2: 4 + I damage
+          tier3: 6 + I damage
+        - effect: You can have this ability deal holy damage.
+          name: Effect
     flavor: You unleash a blast of holy light upon your foe.
     keywords:
         - Magic

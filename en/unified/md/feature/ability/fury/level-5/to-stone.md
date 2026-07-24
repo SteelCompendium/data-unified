@@ -3,7 +3,13 @@ action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: fury
 cost: 9 Ferocity
 distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
-effect: While the target is [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) this way, any other effect that would make the target [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) instead makes them [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) by this ability. Additionally, a creature who fails the [saving throw](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) while [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) this way is petrified until they are given a [supernatural](scc.v1:mcdm.heroes.v1/rule.general/supernatural) cure or you choose to reverse the effect (no action required).
+effects:
+    - roll: Power Roll + [Might](scc.v1:mcdm.heroes.v1/rule.character/might)
+      tier1: 9 + M damage; M < WEAK, [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
+      tier2: 13 + M damage; M < AVERAGE, [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
+      tier3: 18 + M damage; M < STRONG, [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
+    - effect: While the target is [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) this way, any other effect that would make the target [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) instead makes them [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) by this ability. Additionally, a creature who fails the [saving throw](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) while [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) this way is petrified until they are given a [supernatural](scc.v1:mcdm.heroes.v1/rule.general/supernatural) cure or you choose to reverse the effect (no action required).
+      name: Effect
 flavor: You channel the Primordial Chaos into blows that petrify your foe... literally.
 keywords:
     - Magic

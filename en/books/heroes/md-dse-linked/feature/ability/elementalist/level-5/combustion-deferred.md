@@ -5,7 +5,13 @@ cost: 9 Essence
 cost_amount: "9"
 cost_resource: Essence
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
-effect: When the target ends their next [turn](../../../../rule/combat/turn.md), or if they drop to 0 [Stamina](../../../../rule/health/stamina.md) before then, each enemy [adjacent](../../../../rule/combat/adjacent.md) to them takes fire damage equal to twice your [Reason](../../../../rule/character/reason.md) score. Each affected enemy then gains this same effect.
+effects:
+    - roll: Power Roll + [Reason](../../../../rule/character/reason.md)
+      tier1: 8 + R fire damage
+      tier2: 13 + R fire damage
+      tier3: 17 + R fire damage
+    - effect: When the target ends their next [turn](../../../../rule/combat/turn.md), or if they drop to 0 [Stamina](../../../../rule/health/stamina.md) before then, each enemy [adjacent](../../../../rule/combat/adjacent.md) to them takes fire damage equal to twice your [Reason](../../../../rule/character/reason.md) score. Each affected enemy then gains this same effect.
+      name: Effect
 feature_type: ability
 file_basename: combustion-deferred
 file_dpath: feature/ability/elementalist/level-5
@@ -33,11 +39,12 @@ type: ability
 cost: 9 Essence
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
 effects:
-    - effect: When the target ends their next [turn](../../../../rule/combat/turn.md), or if they drop to 0 [Stamina](../../../../rule/health/stamina.md) before then, each enemy [adjacent](../../../../rule/combat/adjacent.md) to them takes fire damage equal to twice your [Reason](../../../../rule/character/reason.md) score. Each affected enemy then gains this same effect.
     - roll: Power Roll + [Reason](../../../../rule/character/reason.md)
       tier1: 8 + R fire damage
       tier2: 13 + R fire damage
       tier3: 17 + R fire damage
+    - effect: When the target ends their next [turn](../../../../rule/combat/turn.md), or if they drop to 0 [Stamina](../../../../rule/health/stamina.md) before then, each enemy [adjacent](../../../../rule/combat/adjacent.md) to them takes fire damage equal to twice your [Reason](../../../../rule/character/reason.md) score. Each affected enemy then gains this same effect.
+      name: Effect
 feature_type: ability
 flavor: Your flames dance from kindling to kindling to kindling.
 keywords:
@@ -50,7 +57,13 @@ metadata:
     class: elementalist
     cost: 9 Essence
     distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
-    effect: When the target ends their next [turn](../../../../rule/combat/turn.md), or if they drop to 0 [Stamina](../../../../rule/health/stamina.md) before then, each enemy [adjacent](../../../../rule/combat/adjacent.md) to them takes fire damage equal to twice your [Reason](../../../../rule/character/reason.md) score. Each affected enemy then gains this same effect.
+    effects:
+        - roll: Power Roll + [Reason](../../../../rule/character/reason.md)
+          tier1: 8 + R fire damage
+          tier2: 13 + R fire damage
+          tier3: 17 + R fire damage
+        - effect: When the target ends their next [turn](../../../../rule/combat/turn.md), or if they drop to 0 [Stamina](../../../../rule/health/stamina.md) before then, each enemy [adjacent](../../../../rule/combat/adjacent.md) to them takes fire damage equal to twice your [Reason](../../../../rule/character/reason.md) score. Each affected enemy then gains this same effect.
+          name: Effect
     flavor: Your flames dance from kindling to kindling to kindling.
     keywords:
         - Fire

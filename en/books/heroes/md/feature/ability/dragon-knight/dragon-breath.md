@@ -2,7 +2,13 @@
 action_type: Main action
 ancestry: dragon-knight
 distance: 3 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 1
-effect: You choose the ability's [damage type](scc.v1:mcdm.heroes.v1/rule.damage/damage-type) from acid, cold, corruption, fire, lightning, or poison.
+effects:
+    - roll: Power Roll + [Might](scc.v1:mcdm.heroes.v1/rule.character/might) or [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence)
+      tier1: 2 damage
+      tier2: 4 damage
+      tier3: 6 damage
+    - effect: You choose the ability's [damage type](scc.v1:mcdm.heroes.v1/rule.damage/damage-type) from acid, cold, corruption, fire, lightning, or poison.
+      name: Effect
 flavor: A furious exhalation of energy washes over your foes.
 keywords:
     - Area

@@ -3,7 +3,13 @@ action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: fury
 cost: 5 Ferocity
 distance: 2 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)
-effect: This ability deals your primordial [damage type](scc.v1:mcdm.heroes.v1/rule.damage/damage-type) (see [Stormwight Kits](scc.v1:mcdm.heroes.v1/feature.fury.stormwight-kits/kit-features)).
+effects:
+    - roll: Power Roll + [Might](scc.v1:mcdm.heroes.v1/rule.character/might)
+      tier1: 2 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1; M < WEAK, [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
+      tier2: 5 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2; M < AVERAGE, [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
+      tier3: 7 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3; M < STRONG, [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
+    - effect: This ability deals your primordial [damage type](scc.v1:mcdm.heroes.v1/rule.damage/damage-type) (see [Stormwight Kits](scc.v1:mcdm.heroes.v1/feature.fury.stormwight-kits/kit-features)).
+      name: Effect
 flavor: The sound of the storm within you staggers your opponents.
 keywords:
     - Area

@@ -5,7 +5,13 @@ cost: 11 Ferocity
 cost_amount: "11"
 cost_resource: Ferocity
 distance: Melee 1 or ranged 5
-effect: Up to three creatures within 2 squares of the target gain temporary Stamina equal to half the damage dealt.
+effects:
+    - roll: Power Roll + Might
+      tier1: 12 + M damage
+      tier2: 18 + M damage
+      tier3: 24 + M damage
+    - effect: Up to three creatures within 2 squares of the target gain temporary Stamina equal to half the damage dealt.
+      name: Effect
 feature_type: ability
 file_basename: life-drinking-wound
 file_dpath: feature/ability/beastheart/level-8
@@ -35,11 +41,12 @@ type: ability
 cost: 11 Ferocity
 distance: Melee 1 or ranged 5
 effects:
-    - effect: Up to three creatures within 2 squares of the target gain temporary Stamina equal to half the damage dealt.
     - roll: Power Roll + Might
       tier1: 12 + M damage
       tier2: 18 + M damage
       tier3: 24 + M damage
+    - effect: Up to three creatures within 2 squares of the target gain temporary Stamina equal to half the damage dealt.
+      name: Effect
 feature_type: ability
 flavor: As your attack strikes home, your enemy's escaping life force drifts to your allies in crimson threads.
 keywords:
@@ -54,7 +61,13 @@ metadata:
     class: beastheart
     cost: 11 Ferocity
     distance: Melee 1 or ranged 5
-    effect: Up to three creatures within 2 squares of the target gain temporary Stamina equal to half the damage dealt.
+    effects:
+        - roll: Power Roll + Might
+          tier1: 12 + M damage
+          tier2: 18 + M damage
+          tier3: 24 + M damage
+        - effect: Up to three creatures within 2 squares of the target gain temporary Stamina equal to half the damage dealt.
+          name: Effect
     flavor: As your attack strikes home, your enemy's escaping life force drifts to your allies in crimson threads.
     keywords:
         - Beastheart

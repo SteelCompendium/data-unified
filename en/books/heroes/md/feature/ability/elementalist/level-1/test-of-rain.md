@@ -3,7 +3,13 @@ action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: elementalist
 cost: 5 Essence
 distance: 3 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 10
-effect: You can end one effect on yourself that is ended by a [saving throw](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) or that ends at the end of your [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn). Each ally in the area also gains this benefit.
+effects:
+    - roll: Power Roll + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason)
+      tier1: 4 acid damage
+      tier2: 6 acid damage
+      tier3: 10 acid damage
+    - effect: You can end one effect on yourself that is ended by a [saving throw](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) or that ends at the end of your [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn). Each ally in the area also gains this benefit.
+      name: Effect
 flavor: You call down a rain that burns your enemies and restores your allies.
 keywords:
     - Area

@@ -5,7 +5,15 @@ cost: 9 Clarity
 cost_amount: "9"
 cost_resource: Clarity
 distance: 4 [cube](../../../../rule/combat/cube.md) within 10
-effect: Targets closest to the center of the area are [pulled](../../../../movement/forced-movement.md) first.
+effects:
+    - roll: Power Roll + [Reason](../../../../rule/character/reason.md)
+      tier1: 6 damage; vertical [pull](../../../../movement/forced-movement.md) 5 toward the center of the area
+      tier2: 9 damage; vertical [pull](../../../../movement/forced-movement.md) 7 toward the center of the area
+      tier3: 13 damage; vertical [pull](../../../../movement/forced-movement.md) 10 toward the center of the area
+    - effect: Targets closest to the center of the area are [pulled](../../../../movement/forced-movement.md) first.
+      name: Effect
+    - effect: The size of the area increases by 2. You also target yourself and each ally within [distance](../../../../rule/combat/distance.md).
+      name: Strained
 feature_type: ability
 file_basename: gravitic-well
 file_dpath: feature/ability/talent/level-6
@@ -34,11 +42,14 @@ type: ability
 cost: 9 Clarity
 distance: 4 [cube](../../../../rule/combat/cube.md) within 10
 effects:
-    - effect: Targets closest to the center of the area are [pulled](../../../../movement/forced-movement.md) first.
     - roll: Power Roll + [Reason](../../../../rule/character/reason.md)
       tier1: 6 damage; vertical [pull](../../../../movement/forced-movement.md) 5 toward the center of the area
       tier2: 9 damage; vertical [pull](../../../../movement/forced-movement.md) 7 toward the center of the area
       tier3: 13 damage; vertical [pull](../../../../movement/forced-movement.md) 10 toward the center of the area
+    - effect: Targets closest to the center of the area are [pulled](../../../../movement/forced-movement.md) first.
+      name: Effect
+    - effect: The size of the area increases by 2. You also target yourself and each ally within [distance](../../../../rule/combat/distance.md).
+      name: Strained
 feature_type: ability
 flavor: You bend gravity into a fine point and pull your foes toward it.
 keywords:
@@ -51,7 +62,15 @@ metadata:
     class: talent
     cost: 9 Clarity
     distance: 4 [cube](../../../../rule/combat/cube.md) within 10
-    effect: Targets closest to the center of the area are [pulled](../../../../movement/forced-movement.md) first.
+    effects:
+        - roll: Power Roll + [Reason](../../../../rule/character/reason.md)
+          tier1: 6 damage; vertical [pull](../../../../movement/forced-movement.md) 5 toward the center of the area
+          tier2: 9 damage; vertical [pull](../../../../movement/forced-movement.md) 7 toward the center of the area
+          tier3: 13 damage; vertical [pull](../../../../movement/forced-movement.md) 10 toward the center of the area
+        - effect: Targets closest to the center of the area are [pulled](../../../../movement/forced-movement.md) first.
+          name: Effect
+        - effect: The size of the area increases by 2. You also target yourself and each ally within [distance](../../../../rule/combat/distance.md).
+          name: Strained
     flavor: You bend gravity into a fine point and pull your foes toward it.
     keywords:
         - Area

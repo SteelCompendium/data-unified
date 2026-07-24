@@ -5,7 +5,13 @@ cost: 7 Drama
 cost_amount: "7"
 cost_resource: Drama
 distance: 3 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)
-effect: Each ally in the area can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to 2 squares.
+effects:
+    - roll: Power Roll + [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence)
+      tier1: 5 fire damage; A < WEAK, [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+      tier2: 7 fire damage; A < AVERAGE, [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+      tier3: 10 fire damage; A < STRONG, [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+    - effect: Each ally in the area can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to 2 squares.
+      name: Effect
 feature_type: ability
 file_basename: infernal-gavotte
 file_dpath: feature/ability/troubadour/level-3
@@ -33,11 +39,12 @@ type: ability
 cost: 7 Drama
 distance: 3 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)
 effects:
-    - effect: Each ally in the area can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to 2 squares.
     - roll: Power Roll + [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence)
       tier1: 5 fire damage; A < WEAK, [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
       tier2: 7 fire damage; A < AVERAGE, [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
       tier3: 10 fire damage; A < STRONG, [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+    - effect: Each ally in the area can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to 2 squares.
+      name: Effect
 feature_type: ability
 flavor: A spicy performance lights a fire under your allies' feet.
 keywords:
@@ -50,7 +57,13 @@ metadata:
     class: troubadour
     cost: 7 Drama
     distance: 3 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)
-    effect: Each ally in the area can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to 2 squares.
+    effects:
+        - roll: Power Roll + [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence)
+          tier1: 5 fire damage; A < WEAK, [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+          tier2: 7 fire damage; A < AVERAGE, [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+          tier3: 10 fire damage; A < STRONG, [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+        - effect: Each ally in the area can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to 2 squares.
+          name: Effect
     flavor: A spicy performance lights a fire under your allies' feet.
     keywords:
         - Area

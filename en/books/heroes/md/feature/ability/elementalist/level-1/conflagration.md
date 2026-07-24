@@ -3,6 +3,13 @@ action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: elementalist
 cost: 5 Essence
 distance: 3 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 10
+effects:
+    - roll: Power Roll + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason)
+      tier1: 4 fire damage
+      tier2: 6 fire damage
+      tier3: 10 fire damage
+    - effect: At the start of your [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), you can use a maneuver to use this ability again without spending essence.
+      name: Persistent 2
 flavor: A storm of fire descends upon your enemies.
 keywords:
     - Area

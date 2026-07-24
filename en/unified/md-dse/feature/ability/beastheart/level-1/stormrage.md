@@ -2,7 +2,13 @@
 action_type: Main action
 class: beastheart
 distance: Melee 1 or ranged 5
-effect: You can spend 1 surge without gaining its benefits. If you do, your companion can use this ability as a free triggered action, targeting a different creature or object with the same power roll, but they don't trigger this effect.
+effects:
+    - roll: Power Roll + Might
+      tier1: 2 + M cold, fire, lightning, or sonic damage
+      tier2: 4 + M cold, fire, lightning, or sonic damage
+      tier3: 6 + M cold, fire, lightning, or sonic damage
+    - effect: You can spend 1 surge without gaining its benefits. If you do, your companion can use this ability as a free triggered action, targeting a different creature or object with the same power roll, but they don't trigger this effect.
+      name: Effect
 feature_type: ability
 file_basename: stormrage
 file_dpath: feature/ability/beastheart/level-1
@@ -32,11 +38,12 @@ type: ability
 ```ds-feature
 distance: Melee 1 or ranged 5
 effects:
-    - effect: You can spend 1 surge without gaining its benefits. If you do, your companion can use this ability as a free triggered action, targeting a different creature or object with the same power roll, but they don't trigger this effect.
     - roll: Power Roll + Might
       tier1: 2 + M cold, fire, lightning, or sonic damage
       tier2: 4 + M cold, fire, lightning, or sonic damage
       tier3: 6 + M cold, fire, lightning, or sonic damage
+    - effect: You can spend 1 surge without gaining its benefits. If you do, your companion can use this ability as a free triggered action, targeting a different creature or object with the same power roll, but they don't trigger this effect.
+      name: Effect
 feature_type: ability
 flavor: Lances of primordial energy leap from you and your companion to sear, crush, or freeze your foe.
 keywords:
@@ -50,7 +57,13 @@ metadata:
     action_type: Main action
     class: beastheart
     distance: Melee 1 or ranged 5
-    effect: You can spend 1 surge without gaining its benefits. If you do, your companion can use this ability as a free triggered action, targeting a different creature or object with the same power roll, but they don't trigger this effect.
+    effects:
+        - roll: Power Roll + Might
+          tier1: 2 + M cold, fire, lightning, or sonic damage
+          tier2: 4 + M cold, fire, lightning, or sonic damage
+          tier3: 6 + M cold, fire, lightning, or sonic damage
+        - effect: You can spend 1 surge without gaining its benefits. If you do, your companion can use this ability as a free triggered action, targeting a different creature or object with the same power roll, but they don't trigger this effect.
+          name: Effect
     flavor: Lances of primordial energy leap from you and your companion to sear, crush, or freeze your foe.
     keywords:
         - Beastheart

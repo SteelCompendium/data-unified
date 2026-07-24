@@ -2,7 +2,9 @@
 action_type: '[Maneuver](../../../../rule/combat/turn.md)'
 class: censor
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
-effect: The target is judged by you until the end of the encounter, you use this ability again, you willingly end this effect (no action required), or another [censor](../../../../class/censor.md) judges the target.
+effects:
+    - effect: The target is judged by you until the end of the encounter, you use this ability again, you willingly end this effect (no action required), or another [censor](../../../../class/censor.md) judges the target.
+      name: Effect
 feature_type: ability
 file_basename: judgment
 file_dpath: feature/ability/censor/level-1
@@ -24,6 +26,7 @@ type: ability
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
 effects:
     - effect: The target is judged by you until the end of the encounter, you use this ability again, you willingly end this effect (no action required), or another [censor](../../../../class/censor.md) judges the target.
+      name: Effect
 feature_type: ability
 flavor: You utter a prayer that outlines your foe in holy energy.
 keywords:
@@ -33,7 +36,9 @@ metadata:
     action_type: '[Maneuver](../../../../rule/combat/turn.md)'
     class: censor
     distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
-    effect: The target is judged by you until the end of the encounter, you use this ability again, you willingly end this effect (no action required), or another [censor](../../../../class/censor.md) judges the target.
+    effects:
+        - effect: The target is judged by you until the end of the encounter, you use this ability again, you willingly end this effect (no action required), or another [censor](../../../../class/censor.md) judges the target.
+          name: Effect
     flavor: You utter a prayer that outlines your foe in holy energy.
     keywords:
         - Magic

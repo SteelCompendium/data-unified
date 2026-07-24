@@ -5,7 +5,9 @@ cost: 9 Ferocity
 cost_amount: "9"
 cost_resource: Ferocity
 distance: Self
-effect: You and your companion [shift](../../../../movement/shifting.md) up to your speeds. During this movement, you are both invisible, can move through enemies and objects, and ignore [difficult terrain](../../../../movement/difficult-terrain.md). You each deal corruption damage equal to your own Intuition score to each enemy you pass through during this movement. You can both damage each enemy once this way.
+effects:
+    - effect: You and your companion [shift](../../../../movement/shifting.md) up to your speeds. During this movement, you are both invisible, can move through enemies and objects, and ignore [difficult terrain](../../../../movement/difficult-terrain.md). You each deal corruption damage equal to your own Intuition score to each enemy you pass through during this movement. You can both damage each enemy once this way.
+      name: Effect
 feature_type: ability
 file_basename: wraith-heart
 file_dpath: feature/ability/beastheart/level-6
@@ -28,6 +30,7 @@ cost: 9 Ferocity
 distance: Self
 effects:
     - effect: You and your companion [shift](../../../../movement/shifting.md) up to your speeds. During this movement, you are both invisible, can move through enemies and objects, and ignore [difficult terrain](../../../../movement/difficult-terrain.md). You each deal corruption damage equal to your own Intuition score to each enemy you pass through during this movement. You can both damage each enemy once this way.
+      name: Effect
 feature_type: ability
 flavor: You and your companion become soul-freezing wraiths.
 keywords:
@@ -37,7 +40,9 @@ metadata:
     class: beastheart
     cost: 9 Ferocity
     distance: Self
-    effect: You and your companion [shift](../../../../movement/shifting.md) up to your speeds. During this movement, you are both invisible, can move through enemies and objects, and ignore [difficult terrain](../../../../movement/difficult-terrain.md). You each deal corruption damage equal to your own Intuition score to each enemy you pass through during this movement. You can both damage each enemy once this way.
+    effects:
+        - effect: You and your companion [shift](../../../../movement/shifting.md) up to your speeds. During this movement, you are both invisible, can move through enemies and objects, and ignore [difficult terrain](../../../../movement/difficult-terrain.md). You each deal corruption damage equal to your own Intuition score to each enemy you pass through during this movement. You can both damage each enemy once this way.
+          name: Effect
     flavor: You and your companion become soul-freezing wraiths.
     keywords:
         - Magic

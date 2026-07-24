@@ -3,6 +3,10 @@
   "distance": "Melee 1",
   "effects": [
     {
+      "effect": "This ability targets only creatures who are [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) and are your companion's size or smaller.",
+      "name": "Special"
+    },
+    {
       "roll": "Power Roll + Might",
       "tier1": "6 + M damage; M \u003c WEAK the target is swallowed",
       "tier2": "10 + M damage; M \u003c AVERAGE the target is swallowed",

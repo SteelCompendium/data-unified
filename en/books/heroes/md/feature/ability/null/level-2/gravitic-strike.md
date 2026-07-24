@@ -3,6 +3,11 @@ action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: "null"
 cost: 5 Discipline
 distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 3'
+effects:
+    - roll: Power Roll + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)
+      tier1: 8 + A psychic damage; vertical [pull](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3
+      tier2: 12 + A psychic damage; vertical [pull](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5
+      tier3: 16 + A psychic damage; vertical [pull](scc.v1:mcdm.heroes.v1/movement/forced-movement) 7
 flavor: Your fist emanates gravitic force that pulls a distant enemy closer.
 keywords:
     - '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)'

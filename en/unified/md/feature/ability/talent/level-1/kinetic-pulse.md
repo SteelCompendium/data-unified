@@ -2,6 +2,13 @@
 action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: talent
 distance: 1 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)
+effects:
+    - roll: Power Roll + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason)
+      tier1: 2 psychic damage
+      tier2: 5 psychic damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1
+      tier3: 7 psychic damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2
+    - effect: The size of the [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst) increases by 2, and you are [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) until the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn).
+      name: Strained
 flavor: The force of your mind hurls enemies backward.
 keywords:
     - Area

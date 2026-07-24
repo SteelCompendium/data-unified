@@ -5,7 +5,9 @@ cost: 3 Focus
 cost_amount: "3"
 cost_resource: Focus
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
-effect: Each target can move up to their [speed](../../../../rule/character/speed.md).
+effects:
+    - effect: Each target can move up to their [speed](../../../../rule/character/speed.md).
+      name: Effect
 feature_type: ability
 file_basename: squad-forward
 file_dpath: feature/ability/tactician/level-1
@@ -27,6 +29,7 @@ cost: 3 Focus
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
 effects:
     - effect: Each target can move up to their [speed](../../../../rule/character/speed.md).
+      name: Effect
 feature_type: ability
 flavor: On your command, you and your allies force back the enemy line.
 keywords:
@@ -36,7 +39,9 @@ metadata:
     class: tactician
     cost: 3 Focus
     distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
-    effect: Each target can move up to their [speed](../../../../rule/character/speed.md).
+    effects:
+        - effect: Each target can move up to their [speed](../../../../rule/character/speed.md).
+          name: Effect
     flavor: On your command, you and your allies force back the enemy line.
     keywords:
         - '[Ranged](../../../../rule/combat/ranged.md)'

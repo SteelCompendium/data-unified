@@ -2,7 +2,9 @@
 action_type: Maneuver
 class: summoner
 distance: 3 burst
-effect: Each target chooses between gaining 2 [surges](../../../../rule/resource/surge.md) or dealing additional [damage](../../../../rule/damage/damage.md) equal to your [Reason](../../../../rule/character/reason.md) on their next [strike](../../../../rule/combat/strike.md).
+effects:
+    - effect: Each target chooses between gaining 2 [surges](../../../../rule/resource/surge.md) or dealing additional [damage](../../../../rule/damage/damage.md) equal to your [Reason](../../../../rule/character/reason.md) on their next [strike](../../../../rule/combat/strike.md).
+      name: Effect
 feature_source: summoner
 feature_type: ability
 file_basename: rallying-cry
@@ -25,6 +27,7 @@ type: ability
 distance: 3 burst
 effects:
     - effect: Each target chooses between gaining 2 [surges](../../../../rule/resource/surge.md) or dealing additional [damage](../../../../rule/damage/damage.md) equal to your [Reason](../../../../rule/character/reason.md) on their next [strike](../../../../rule/combat/strike.md).
+      name: Effect
 feature_type: ability
 flavor: '"Show them what you''re made of!"'
 keywords:
@@ -34,7 +37,9 @@ metadata:
     action_type: Maneuver
     class: summoner
     distance: 3 burst
-    effect: Each target chooses between gaining 2 [surges](../../../../rule/resource/surge.md) or dealing additional [damage](../../../../rule/damage/damage.md) equal to your [Reason](../../../../rule/character/reason.md) on their next [strike](../../../../rule/combat/strike.md).
+    effects:
+        - effect: Each target chooses between gaining 2 [surges](../../../../rule/resource/surge.md) or dealing additional [damage](../../../../rule/damage/damage.md) equal to your [Reason](../../../../rule/character/reason.md) on their next [strike](../../../../rule/combat/strike.md).
+          name: Effect
     feature_source: summoner
     flavor: '"Show them what you''re made of!"'
     keywords:

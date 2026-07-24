@@ -5,6 +5,11 @@ cost: 5 Discipline
 cost_amount: "5"
 cost_resource: Discipline
 distance: 3 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 1
+effects:
+    - roll: Power Roll + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)
+      tier1: 6 cold damage; A < WEAK, [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
+      tier2: 9 cold damage; A < AVERAGE, [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
+      tier3: 13 cold damage; A < STRONG, [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
 feature_type: ability
 file_basename: entropic-field
 file_dpath: feature/ability/null/level-2
@@ -47,6 +52,11 @@ metadata:
     class: "null"
     cost: 5 Discipline
     distance: 3 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 1
+    effects:
+        - roll: Power Roll + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)
+          tier1: 6 cold damage; A < WEAK, [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
+          tier2: 9 cold damage; A < AVERAGE, [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
+          tier3: 13 cold damage; A < STRONG, [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
     flavor: You drastically increase the local entropy.
     keywords:
         - Area

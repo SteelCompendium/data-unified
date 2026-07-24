@@ -1,7 +1,13 @@
 ---
 action_type: Main action
 distance: 1 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)
-effect: You can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to 2 squares before or after making the [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll).
+effects:
+    - roll: Power Roll + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)
+      tier1: 3 damage
+      tier2: 6 damage
+      tier3: 8 damage
+    - effect: You can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to 2 squares before or after making the [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll).
+      name: Effect
 flavor: Foes who try to close in around you do so at their peril.
 keywords:
     - Area

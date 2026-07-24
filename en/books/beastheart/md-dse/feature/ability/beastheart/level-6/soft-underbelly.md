@@ -5,7 +5,13 @@ cost: 9 Ferocity
 cost_amount: "9"
 cost_resource: Ferocity
 distance: Melee 2
-effect: While [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) this way, the target has damage weakness 5.
+effects:
+    - roll: Power Roll + Might
+      tier1: 10 + M damage; A < WEAK [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
+      tier2: 15 + M damage; A < AVERAGE [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
+      tier3: 20 + M damage; A < STRONG [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
+    - effect: While [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) this way, the target has damage weakness 5.
+      name: Effect
 feature_type: ability
 file_basename: soft-underbelly
 file_dpath: feature/ability/beastheart/level-6
@@ -34,11 +40,12 @@ type: ability
 cost: 9 Ferocity
 distance: Melee 2
 effects:
-    - effect: While [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) this way, the target has damage weakness 5.
     - roll: Power Roll + Might
       tier1: 10 + M damage; A < WEAK [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
       tier2: 15 + M damage; A < AVERAGE [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
       tier3: 20 + M damage; A < STRONG [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
+    - effect: While [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) this way, the target has damage weakness 5.
+      name: Effect
 feature_type: ability
 flavor: Your companion ducks under your enemy's guard and rakes open their soft vitals, leaving them vulnerable.
 keywords:
@@ -51,7 +58,13 @@ metadata:
     class: beastheart
     cost: 9 Ferocity
     distance: Melee 2
-    effect: While [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) this way, the target has damage weakness 5.
+    effects:
+        - roll: Power Roll + Might
+          tier1: 10 + M damage; A < WEAK [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
+          tier2: 15 + M damage; A < AVERAGE [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
+          tier3: 20 + M damage; A < STRONG [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
+        - effect: While [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) this way, the target has damage weakness 5.
+          name: Effect
     flavor: Your companion ducks under your enemy's guard and rakes open their soft vitals, leaving them vulnerable.
     keywords:
         - Companion

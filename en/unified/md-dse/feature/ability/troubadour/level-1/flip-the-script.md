@@ -5,7 +5,9 @@ cost: 5 Drama
 cost_amount: "5"
 cost_resource: Drama
 distance: 3 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)
-effect: Each target can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) up to 5 squares. Any [teleport](scc.v1:mcdm.heroes.v1/movement/teleport)ed target who was [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) is no longer [slowed](scc.v1:mcdm.heroes.v1/condition/slowed).
+effects:
+    - effect: Each target can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) up to 5 squares. Any [teleport](scc.v1:mcdm.heroes.v1/movement/teleport)ed target who was [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) is no longer [slowed](scc.v1:mcdm.heroes.v1/condition/slowed).
+      name: Effect
 feature_type: ability
 file_basename: flip-the-script
 file_dpath: feature/ability/troubadour/level-1
@@ -28,6 +30,7 @@ cost: 5 Drama
 distance: 3 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)
 effects:
     - effect: Each target can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) up to 5 squares. Any [teleport](scc.v1:mcdm.heroes.v1/movement/teleport)ed target who was [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) is no longer [slowed](scc.v1:mcdm.heroes.v1/condition/slowed).
+      name: Effect
 feature_type: ability
 flavor: You try a different take on events, justifying the new locations everyone ended up in.
 keywords:
@@ -38,7 +41,9 @@ metadata:
     class: troubadour
     cost: 5 Drama
     distance: 3 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)
-    effect: Each target can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) up to 5 squares. Any [teleport](scc.v1:mcdm.heroes.v1/movement/teleport)ed target who was [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) is no longer [slowed](scc.v1:mcdm.heroes.v1/condition/slowed).
+    effects:
+        - effect: Each target can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) up to 5 squares. Any [teleport](scc.v1:mcdm.heroes.v1/movement/teleport)ed target who was [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) is no longer [slowed](scc.v1:mcdm.heroes.v1/condition/slowed).
+          name: Effect
     flavor: You try a different take on events, justifying the new locations everyone ended up in.
     keywords:
         - Area

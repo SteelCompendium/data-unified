@@ -5,7 +5,13 @@ cost: 5 Ferocity
 cost_amount: "5"
 cost_resource: Ferocity
 distance: 3 cube within 5
-effect: If your companion is in the area, they deal fire damage equal to their Intuition score to each target.
+effects:
+    - roll: Power Roll + Might
+      tier1: 3 fire damage
+      tier2: 5 fire damage
+      tier3: 8 fire damage
+    - effect: If your companion is in the area, they deal fire damage equal to their Intuition score to each target.
+      name: Effect
 feature_type: ability
 file_basename: rain-of-fire
 file_dpath: feature/ability/beastheart/level-1
@@ -32,11 +38,12 @@ type: ability
 cost: 5 Ferocity
 distance: 3 cube within 5
 effects:
-    - effect: If your companion is in the area, they deal fire damage equal to their Intuition score to each target.
     - roll: Power Roll + Might
       tier1: 3 fire damage
       tier2: 5 fire damage
       tier3: 8 fire damage
+    - effect: If your companion is in the area, they deal fire damage equal to their Intuition score to each target.
+      name: Effect
 feature_type: ability
 flavor: As your arrows rain down on your foes, flames spiral around your companion, setting the arrows ablaze.
 keywords:
@@ -48,7 +55,13 @@ metadata:
     class: beastheart
     cost: 5 Ferocity
     distance: 3 cube within 5
-    effect: If your companion is in the area, they deal fire damage equal to their Intuition score to each target.
+    effects:
+        - roll: Power Roll + Might
+          tier1: 3 fire damage
+          tier2: 5 fire damage
+          tier3: 8 fire damage
+        - effect: If your companion is in the area, they deal fire damage equal to their Intuition score to each target.
+          name: Effect
     flavor: As your arrows rain down on your foes, flames spiral around your companion, setting the arrows ablaze.
     keywords:
         - Area

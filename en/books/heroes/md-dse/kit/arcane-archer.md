@@ -24,11 +24,12 @@ You wear no armor and wield a bow.
 ```ds-feature
 distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 15'
 effects:
-    - effect: One creature or object of your choice within 2 squares of the target takes fire damage equal to the [characteristic](scc.v1:mcdm.heroes.v1/rule.character/characteristic) score used for this ability's [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll).
     - roll: Power Roll + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility), [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason), [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition), or [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence)
       tier1: 5 + A, R, I, or P fire damage
       tier2: 7 + A, R, I, or P fire damage
       tier3: 10 + A, R, I, or P fire damage
+    - effect: One creature or object of your choice within 2 squares of the target takes fire damage equal to the [characteristic](scc.v1:mcdm.heroes.v1/rule.character/characteristic) score used for this ability's [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll).
+      name: Effect
 feature_type: ability
 flavor: Your ammunition explodes with magical energy.
 keywords:
@@ -39,7 +40,13 @@ keywords:
 metadata:
     action_type: Main action
     distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 15'
-    effect: One creature or object of your choice within 2 squares of the target takes fire damage equal to the [characteristic](scc.v1:mcdm.heroes.v1/rule.character/characteristic) score used for this ability's [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll).
+    effects:
+        - roll: Power Roll + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility), [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason), [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition), or [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence)
+          tier1: 5 + A, R, I, or P fire damage
+          tier2: 7 + A, R, I, or P fire damage
+          tier3: 10 + A, R, I, or P fire damage
+        - effect: One creature or object of your choice within 2 squares of the target takes fire damage equal to the [characteristic](scc.v1:mcdm.heroes.v1/rule.character/characteristic) score used for this ability's [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll).
+          name: Effect
     flavor: Your ammunition explodes with magical energy.
     keywords:
         - Magic

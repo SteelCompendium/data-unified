@@ -3,7 +3,9 @@ action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: conduit
 cost: 9 Piety
 distance: 4 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)
-effect: Each target is invisible until the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn).
+effects:
+    - effect: Each target is invisible until the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn).
+      name: Effect
 flavor: '"Now you see us..."'
 keywords:
     - Area

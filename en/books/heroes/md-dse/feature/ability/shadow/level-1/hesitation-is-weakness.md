@@ -5,7 +5,9 @@ cost: 1 Insight
 cost_amount: "1"
 cost_resource: Insight
 distance: Self
-effect: You take your [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) after the triggering hero.
+effects:
+    - effect: You take your [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) after the triggering hero.
+      name: Effect
 feature_type: ability
 file_basename: hesitation-is-weakness
 file_dpath: feature/ability/shadow/level-1
@@ -28,6 +30,7 @@ cost: 1 Insight
 distance: Self
 effects:
     - effect: You take your [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) after the triggering hero.
+      name: Effect
 feature_type: ability
 flavor: Keep up the attack. Never give them a moment's grace.
 keywords: []
@@ -36,7 +39,9 @@ metadata:
     class: shadow
     cost: 1 Insight
     distance: Self
-    effect: You take your [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) after the triggering hero.
+    effects:
+        - effect: You take your [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) after the triggering hero.
+          name: Effect
     flavor: Keep up the attack. Never give them a moment's grace.
     keywords: []
     level: "1"

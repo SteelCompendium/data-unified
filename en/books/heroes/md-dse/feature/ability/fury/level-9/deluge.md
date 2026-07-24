@@ -5,7 +5,13 @@ cost: 11 Ferocity
 cost_amount: "11"
 cost_resource: Ferocity
 distance: 5 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 10
-effect: This ability deals your primordial [damage type](scc.v1:mcdm.heroes.v1/rule.damage/damage-type) and ignores [damage immunity](scc.v1:mcdm.heroes.v1/rule.damage/damage-immunity).
+effects:
+    - roll: Power Roll + [Might](scc.v1:mcdm.heroes.v1/rule.character/might)
+      tier1: 7 damage
+      tier2: 10 damage
+      tier3: 15 damage
+    - effect: This ability deals your primordial [damage type](scc.v1:mcdm.heroes.v1/rule.damage/damage-type) and ignores [damage immunity](scc.v1:mcdm.heroes.v1/rule.damage/damage-immunity).
+      name: Effect
 feature_type: ability
 file_basename: deluge
 file_dpath: feature/ability/fury/level-9
@@ -33,11 +39,12 @@ type: ability
 cost: 11 Ferocity
 distance: 5 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 10
 effects:
-    - effect: This ability deals your primordial [damage type](scc.v1:mcdm.heroes.v1/rule.damage/damage-type) and ignores [damage immunity](scc.v1:mcdm.heroes.v1/rule.damage/damage-immunity).
     - roll: Power Roll + [Might](scc.v1:mcdm.heroes.v1/rule.character/might)
       tier1: 7 damage
       tier2: 10 damage
       tier3: 15 damage
+    - effect: This ability deals your primordial [damage type](scc.v1:mcdm.heroes.v1/rule.damage/damage-type) and ignores [damage immunity](scc.v1:mcdm.heroes.v1/rule.damage/damage-immunity).
+      name: Effect
 feature_type: ability
 flavor: You summon your [primordial storm](scc.v1:mcdm.heroes.v1/feature.fury.stormwight-kits/primordial-storm).
 keywords:
@@ -49,7 +56,13 @@ metadata:
     class: fury
     cost: 11 Ferocity
     distance: 5 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 10
-    effect: This ability deals your primordial [damage type](scc.v1:mcdm.heroes.v1/rule.damage/damage-type) and ignores [damage immunity](scc.v1:mcdm.heroes.v1/rule.damage/damage-immunity).
+    effects:
+        - roll: Power Roll + [Might](scc.v1:mcdm.heroes.v1/rule.character/might)
+          tier1: 7 damage
+          tier2: 10 damage
+          tier3: 15 damage
+        - effect: This ability deals your primordial [damage type](scc.v1:mcdm.heroes.v1/rule.damage/damage-type) and ignores [damage immunity](scc.v1:mcdm.heroes.v1/rule.damage/damage-immunity).
+          name: Effect
     flavor: You summon your [primordial storm](scc.v1:mcdm.heroes.v1/feature.fury.stormwight-kits/primordial-storm).
     keywords:
         - Area

@@ -3,7 +3,13 @@ action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: "null"
 cost: 9 Discipline
 distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
-effect: The pillars vanish as soon as the effects of the [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) are resolved.
+effects:
+    - roll: Power Roll + [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)
+      tier1: Vertical [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 6
+      tier2: Vertical [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 8
+      tier3: Vertical [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 10
+    - effect: The pillars vanish as soon as the effects of the [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) are resolved.
+      name: Effect
 flavor: Pillars of ice erupt from the ground and launch your foes into the air.
 keywords:
     - Psionic

@@ -2,7 +2,9 @@
 action_type: Maneuver
 ancestry: time-raider
 distance: '[Melee](../../../rule/combat/melee.md) 1'
-effect: The target gains a [bonus](../../../rule/dice/bonuses-and-penalties.md) to [speed](../../../rule/character/speed.md) equal to your [Reason](../../../rule/character/reason.md), [Intuition](../../../rule/character/intuition.md), or [Presence](../../../rule/character/presence.md) score (your choice) until the start of your next [turn](../../../rule/combat/turn.md).
+effects:
+    - effect: The target gains a [bonus](../../../rule/dice/bonuses-and-penalties.md) to [speed](../../../rule/character/speed.md) equal to your [Reason](../../../rule/character/reason.md), [Intuition](../../../rule/character/intuition.md), or [Presence](../../../rule/character/presence.md) score (your choice) until the start of your next [turn](../../../rule/combat/turn.md).
+      name: Effect
 feature_type: ability
 file_basename: minor-acceleration
 file_dpath: feature/ability/time-raider
@@ -24,6 +26,7 @@ type: ability
 distance: '[Melee](../../../rule/combat/melee.md) 1'
 effects:
     - effect: The target gains a [bonus](../../../rule/dice/bonuses-and-penalties.md) to [speed](../../../rule/character/speed.md) equal to your [Reason](../../../rule/character/reason.md), [Intuition](../../../rule/character/intuition.md), or [Presence](../../../rule/character/presence.md) score (your choice) until the start of your next [turn](../../../rule/combat/turn.md).
+      name: Effect
 feature_type: ability
 flavor: You fill yourself or an ally with a burst of [speed](../../../rule/character/speed.md).
 keywords:
@@ -33,7 +36,9 @@ metadata:
     action_type: Maneuver
     ancestry: time-raider
     distance: '[Melee](../../../rule/combat/melee.md) 1'
-    effect: The target gains a [bonus](../../../rule/dice/bonuses-and-penalties.md) to [speed](../../../rule/character/speed.md) equal to your [Reason](../../../rule/character/reason.md), [Intuition](../../../rule/character/intuition.md), or [Presence](../../../rule/character/presence.md) score (your choice) until the start of your next [turn](../../../rule/combat/turn.md).
+    effects:
+        - effect: The target gains a [bonus](../../../rule/dice/bonuses-and-penalties.md) to [speed](../../../rule/character/speed.md) equal to your [Reason](../../../rule/character/reason.md), [Intuition](../../../rule/character/intuition.md), or [Presence](../../../rule/character/presence.md) score (your choice) until the start of your next [turn](../../../rule/combat/turn.md).
+          name: Effect
     flavor: You fill yourself or an ally with a burst of [speed](../../../rule/character/speed.md).
     keywords:
         - Psionic

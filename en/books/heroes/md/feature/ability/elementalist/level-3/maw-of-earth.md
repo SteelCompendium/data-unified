@@ -3,7 +3,13 @@ action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: elementalist
 cost: 7 Essence
 distance: 3 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 10
-effect: The ground in or directly beneath the area drops 3 squares.
+effects:
+    - roll: Power Roll + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason)
+      tier1: 5 damage
+      tier2: 9 damage
+      tier3: 12 damage
+    - effect: The ground in or directly beneath the area drops 3 squares.
+      name: Effect
 flavor: You open up the ground, spewing out shrapnel of stone and debris.
 keywords:
     - Area

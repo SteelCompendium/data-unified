@@ -5,7 +5,13 @@ cost: 5 Ferocity
 cost_amount: "5"
 cost_resource: Ferocity
 distance: Melee 1
-effect: Your companion can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) up to 5 squares before and after making the power roll. Instead of grabbing the target, your companion can pick up a target object that is smaller than they are. You can forgo dealing damage with this ability.
+effects:
+    - effect: Your companion can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) up to 5 squares before and after making the power roll. Instead of grabbing the target, your companion can pick up a target object that is smaller than they are. You can forgo dealing damage with this ability.
+      name: Effect
+    - roll: Power Roll + Might
+      tier1: 6 + M damage; M < WEAK [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)
+      tier2: 8 + M damage; M < AVERAGE [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)
+      tier3: 12 + M damage; M < STRONG [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)
 feature_type: ability
 file_basename: fetch
 file_dpath: feature/ability/beastheart/level-2
@@ -36,6 +42,7 @@ cost: 5 Ferocity
 distance: Melee 1
 effects:
     - effect: Your companion can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) up to 5 squares before and after making the power roll. Instead of grabbing the target, your companion can pick up a target object that is smaller than they are. You can forgo dealing damage with this ability.
+      name: Effect
     - roll: Power Roll + Might
       tier1: 6 + M damage; M < WEAK [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)
       tier2: 8 + M damage; M < AVERAGE [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)
@@ -53,7 +60,13 @@ metadata:
     class: beastheart
     cost: 5 Ferocity
     distance: Melee 1
-    effect: Your companion can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) up to 5 squares before and after making the power roll. Instead of grabbing the target, your companion can pick up a target object that is smaller than they are. You can forgo dealing damage with this ability.
+    effects:
+        - effect: Your companion can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) up to 5 squares before and after making the power roll. Instead of grabbing the target, your companion can pick up a target object that is smaller than they are. You can forgo dealing damage with this ability.
+          name: Effect
+        - roll: Power Roll + Might
+          tier1: 6 + M damage; M < WEAK [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)
+          tier2: 8 + M damage; M < AVERAGE [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)
+          tier3: 12 + M damage; M < STRONG [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)
     flavor: Your companion blinks out of existence, returning with a visitor you were particularly hoping to meet.
     keywords:
         - Companion

@@ -11,6 +11,10 @@
     {
       "effect": "The target takes an extra 1 corruption damage for each additional time they are targeted by this ability during the encounter.",
       "name": "Effect"
+    },
+    {
+      "effect": "You gain 1 clarity when you obtain a tier 2 or tier 3 outcome on the [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll).",
+      "name": "Strained"
     }
   ],
   "feature_type": "ability",

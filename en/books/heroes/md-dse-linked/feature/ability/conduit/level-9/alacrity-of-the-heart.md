@@ -5,7 +5,9 @@ cost: 11 Piety
 cost_amount: "11"
 cost_resource: Piety
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
-effect: The target has an additional main action they can use on their next [turn](../../../../rule/combat/turn.md), and gains 3 of their [Heroic Resource](../../../../rule/resource/heroic-resource.md).
+effects:
+    - effect: The target has an additional main action they can use on their next [turn](../../../../rule/combat/turn.md), and gains 3 of their [Heroic Resource](../../../../rule/resource/heroic-resource.md).
+      name: Effect
 feature_type: ability
 file_basename: alacrity-of-the-heart
 file_dpath: feature/ability/conduit/level-9
@@ -29,6 +31,7 @@ cost: 11 Piety
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
 effects:
     - effect: The target has an additional main action they can use on their next [turn](../../../../rule/combat/turn.md), and gains 3 of their [Heroic Resource](../../../../rule/resource/heroic-resource.md).
+      name: Effect
 feature_type: ability
 flavor: You speak inspiring words to a friend and spur them to incredible feats.
 keywords:
@@ -39,7 +42,9 @@ metadata:
     class: conduit
     cost: 11 Piety
     distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
-    effect: The target has an additional main action they can use on their next [turn](../../../../rule/combat/turn.md), and gains 3 of their [Heroic Resource](../../../../rule/resource/heroic-resource.md).
+    effects:
+        - effect: The target has an additional main action they can use on their next [turn](../../../../rule/combat/turn.md), and gains 3 of their [Heroic Resource](../../../../rule/resource/heroic-resource.md).
+          name: Effect
     flavor: You speak inspiring words to a friend and spur them to incredible feats.
     keywords:
         - Magic

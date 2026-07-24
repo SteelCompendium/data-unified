@@ -5,7 +5,13 @@ cost: 5 Discipline
 cost_amount: "5"
 cost_resource: Discipline
 distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
-effect: While [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) this way, the target takes damage equal to your [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition) score whenever they use a [supernatural](scc.v1:mcdm.heroes.v1/rule.general/supernatural) ability that costs Malice.
+effects:
+    - roll: Power Roll + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)
+      tier1: 8 + **A** psychic damage; M < WEAK, [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+      tier2: 12 + **A** psychic damage; M < AVERAGE, [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+      tier3: 16 + **A** psychic damage; M < STRONG, [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+    - effect: While [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) this way, the target takes damage equal to your [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition) score whenever they use a [supernatural](scc.v1:mcdm.heroes.v1/rule.general/supernatural) ability that costs Malice.
+      name: Effect
 feature_type: ability
 file_basename: arcane-disruptor
 file_dpath: feature/ability/null/level-1
@@ -33,11 +39,12 @@ type: ability
 cost: 5 Discipline
 distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
 effects:
-    - effect: While [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) this way, the target takes damage equal to your [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition) score whenever they use a [supernatural](scc.v1:mcdm.heroes.v1/rule.general/supernatural) ability that costs Malice.
     - roll: Power Roll + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)
       tier1: 8 + **A** psychic damage; M < WEAK, [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
       tier2: 12 + **A** psychic damage; M < AVERAGE, [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
       tier3: 16 + **A** psychic damage; M < STRONG, [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+    - effect: While [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) this way, the target takes damage equal to your [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition) score whenever they use a [supernatural](scc.v1:mcdm.heroes.v1/rule.general/supernatural) ability that costs Malice.
+      name: Effect
 feature_type: ability
 flavor: Your blow reorders a foe's body, causing pain if they attempt to channel sorcery.
 keywords:
@@ -50,7 +57,13 @@ metadata:
     class: "null"
     cost: 5 Discipline
     distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
-    effect: While [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) this way, the target takes damage equal to your [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition) score whenever they use a [supernatural](scc.v1:mcdm.heroes.v1/rule.general/supernatural) ability that costs Malice.
+    effects:
+        - roll: Power Roll + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)
+          tier1: 8 + **A** psychic damage; M < WEAK, [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+          tier2: 12 + **A** psychic damage; M < AVERAGE, [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+          tier3: 16 + **A** psychic damage; M < STRONG, [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+        - effect: While [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) this way, the target takes damage equal to your [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition) score whenever they use a [supernatural](scc.v1:mcdm.heroes.v1/rule.general/supernatural) ability that costs Malice.
+          name: Effect
     flavor: Your blow reorders a foe's body, causing pain if they attempt to channel sorcery.
     keywords:
         - '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)'

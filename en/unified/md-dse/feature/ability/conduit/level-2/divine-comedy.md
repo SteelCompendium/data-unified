@@ -5,7 +5,9 @@ cost: 5 Piety
 cost_amount: "5"
 cost_resource: Piety
 distance: 5 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)
-effect: Each target can choose another creature in the area, then swap places with that creature. The creature they choose must be able to fit into the space they leave and vice versa.
+effects:
+    - effect: Each target can choose another creature in the area, then swap places with that creature. The creature they choose must be able to fit into the space they leave and vice versa.
+      name: Effect
 feature_type: ability
 file_basename: divine-comedy
 file_dpath: feature/ability/conduit/level-2
@@ -29,6 +31,7 @@ cost: 5 Piety
 distance: 5 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)
 effects:
     - effect: Each target can choose another creature in the area, then swap places with that creature. The creature they choose must be able to fit into the space they leave and vice versa.
+      name: Effect
 feature_type: ability
 flavor: You and your allies swap places to confound your foes.
 keywords:
@@ -39,7 +42,9 @@ metadata:
     class: conduit
     cost: 5 Piety
     distance: 5 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)
-    effect: Each target can choose another creature in the area, then swap places with that creature. The creature they choose must be able to fit into the space they leave and vice versa.
+    effects:
+        - effect: Each target can choose another creature in the area, then swap places with that creature. The creature they choose must be able to fit into the space they leave and vice versa.
+          name: Effect
     flavor: You and your allies swap places to confound your foes.
     keywords:
         - Area

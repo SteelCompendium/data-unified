@@ -5,7 +5,13 @@ cost: 5 Ferocity
 cost_amount: "5"
 cost_resource: Ferocity
 distance: '[Melee](../../../../rule/combat/melee.md) 1'
-effect: You can deal 1d6 damage to yourself to deal an extra 1d6 damage to the target.
+effects:
+    - roll: Power Roll + [Might](../../../../rule/character/might.md)
+      tier1: 4 + M damage; M < WEAK, [bleeding](../../../../condition/bleeding.md) and [weakened](../../../../condition/weakened.md) (save ends)
+      tier2: 6 + M damage; M < AVERAGE, [bleeding](../../../../condition/bleeding.md) and [weakened](../../../../condition/weakened.md) (save ends)
+      tier3: 10 + M damage; M < STRONG, [bleeding](../../../../condition/bleeding.md) and [weakened](../../../../condition/weakened.md) (save ends)
+    - effect: You can deal 1d6 damage to yourself to deal an extra 1d6 damage to the target.
+      name: Effect
 feature_type: ability
 file_basename: blood-for-blood
 file_dpath: feature/ability/fury/level-1
@@ -32,11 +38,12 @@ type: ability
 cost: 5 Ferocity
 distance: '[Melee](../../../../rule/combat/melee.md) 1'
 effects:
-    - effect: You can deal 1d6 damage to yourself to deal an extra 1d6 damage to the target.
     - roll: Power Roll + [Might](../../../../rule/character/might.md)
       tier1: 4 + M damage; M < WEAK, [bleeding](../../../../condition/bleeding.md) and [weakened](../../../../condition/weakened.md) (save ends)
       tier2: 6 + M damage; M < AVERAGE, [bleeding](../../../../condition/bleeding.md) and [weakened](../../../../condition/weakened.md) (save ends)
       tier3: 10 + M damage; M < STRONG, [bleeding](../../../../condition/bleeding.md) and [weakened](../../../../condition/weakened.md) (save ends)
+    - effect: You can deal 1d6 damage to yourself to deal an extra 1d6 damage to the target.
+      name: Effect
 feature_type: ability
 flavor: See how well they fight after you've bled them dry.
 keywords:
@@ -48,7 +55,13 @@ metadata:
     class: fury
     cost: 5 Ferocity
     distance: '[Melee](../../../../rule/combat/melee.md) 1'
-    effect: You can deal 1d6 damage to yourself to deal an extra 1d6 damage to the target.
+    effects:
+        - roll: Power Roll + [Might](../../../../rule/character/might.md)
+          tier1: 4 + M damage; M < WEAK, [bleeding](../../../../condition/bleeding.md) and [weakened](../../../../condition/weakened.md) (save ends)
+          tier2: 6 + M damage; M < AVERAGE, [bleeding](../../../../condition/bleeding.md) and [weakened](../../../../condition/weakened.md) (save ends)
+          tier3: 10 + M damage; M < STRONG, [bleeding](../../../../condition/bleeding.md) and [weakened](../../../../condition/weakened.md) (save ends)
+        - effect: You can deal 1d6 damage to yourself to deal an extra 1d6 damage to the target.
+          name: Effect
     flavor: See how well they fight after you've bled them dry.
     keywords:
         - '[Melee](../../../../rule/combat/melee.md)'

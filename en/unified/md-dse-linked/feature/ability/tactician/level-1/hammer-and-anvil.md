@@ -5,7 +5,13 @@ cost: 5 Focus
 cost_amount: "5"
 cost_resource: Focus
 distance: '[Melee](../../../../rule/combat/melee.md) 1 or [ranged](../../../../rule/combat/ranged.md) 5'
-effect: If the target is reduced to 0 [Stamina](../../../../rule/health/stamina.md) before one or both chosen allies has made their [strike](../../../../rule/combat/strike.md), the ally or allies can pick a different target.
+effects:
+    - roll: Power Roll + [Might](../../../../rule/character/might.md)
+      tier1: 5 + M damage; one ally within 10 squares of you can use a [strike](../../../../rule/combat/strike.md) [signature ability](../../../../rule/combat/signature-ability.md) against the target as a free [triggered action](../../../../rule/combat/triggered-action.md)
+      tier2: 9 + M damage; one ally within 10 squares of you can use a [strike](../../../../rule/combat/strike.md) [signature ability](../../../../rule/combat/signature-ability.md) that gains an [edge](../../../../rule/dice/edge.md) against the target as a free [triggered action](../../../../rule/combat/triggered-action.md)
+      tier3: 12 + M damage; two allies within 10 squares of you can each use a [strike](../../../../rule/combat/strike.md) [signature ability](../../../../rule/combat/signature-ability.md) that gains an [edge](../../../../rule/dice/edge.md) against the target as a free [triggered action](../../../../rule/combat/triggered-action.md)
+    - effect: If the target is reduced to 0 [Stamina](../../../../rule/health/stamina.md) before one or both chosen allies has made their [strike](../../../../rule/combat/strike.md), the ally or allies can pick a different target.
+      name: Effect
 feature_type: ability
 file_basename: hammer-and-anvil
 file_dpath: feature/ability/tactician/level-1
@@ -33,11 +39,12 @@ type: ability
 cost: 5 Focus
 distance: '[Melee](../../../../rule/combat/melee.md) 1 or [ranged](../../../../rule/combat/ranged.md) 5'
 effects:
-    - effect: If the target is reduced to 0 [Stamina](../../../../rule/health/stamina.md) before one or both chosen allies has made their [strike](../../../../rule/combat/strike.md), the ally or allies can pick a different target.
     - roll: Power Roll + [Might](../../../../rule/character/might.md)
       tier1: 5 + M damage; one ally within 10 squares of you can use a [strike](../../../../rule/combat/strike.md) [signature ability](../../../../rule/combat/signature-ability.md) against the target as a free [triggered action](../../../../rule/combat/triggered-action.md)
       tier2: 9 + M damage; one ally within 10 squares of you can use a [strike](../../../../rule/combat/strike.md) [signature ability](../../../../rule/combat/signature-ability.md) that gains an [edge](../../../../rule/dice/edge.md) against the target as a free [triggered action](../../../../rule/combat/triggered-action.md)
       tier3: 12 + M damage; two allies within 10 squares of you can each use a [strike](../../../../rule/combat/strike.md) [signature ability](../../../../rule/combat/signature-ability.md) that gains an [edge](../../../../rule/dice/edge.md) against the target as a free [triggered action](../../../../rule/combat/triggered-action.md)
+    - effect: If the target is reduced to 0 [Stamina](../../../../rule/health/stamina.md) before one or both chosen allies has made their [strike](../../../../rule/combat/strike.md), the ally or allies can pick a different target.
+      name: Effect
 feature_type: ability
 flavor: '"Let''s not argue about who''s the hammer and who''s the anvil!"'
 keywords:
@@ -50,7 +57,13 @@ metadata:
     class: tactician
     cost: 5 Focus
     distance: '[Melee](../../../../rule/combat/melee.md) 1 or [ranged](../../../../rule/combat/ranged.md) 5'
-    effect: If the target is reduced to 0 [Stamina](../../../../rule/health/stamina.md) before one or both chosen allies has made their [strike](../../../../rule/combat/strike.md), the ally or allies can pick a different target.
+    effects:
+        - roll: Power Roll + [Might](../../../../rule/character/might.md)
+          tier1: 5 + M damage; one ally within 10 squares of you can use a [strike](../../../../rule/combat/strike.md) [signature ability](../../../../rule/combat/signature-ability.md) against the target as a free [triggered action](../../../../rule/combat/triggered-action.md)
+          tier2: 9 + M damage; one ally within 10 squares of you can use a [strike](../../../../rule/combat/strike.md) [signature ability](../../../../rule/combat/signature-ability.md) that gains an [edge](../../../../rule/dice/edge.md) against the target as a free [triggered action](../../../../rule/combat/triggered-action.md)
+          tier3: 12 + M damage; two allies within 10 squares of you can each use a [strike](../../../../rule/combat/strike.md) [signature ability](../../../../rule/combat/signature-ability.md) that gains an [edge](../../../../rule/dice/edge.md) against the target as a free [triggered action](../../../../rule/combat/triggered-action.md)
+        - effect: If the target is reduced to 0 [Stamina](../../../../rule/health/stamina.md) before one or both chosen allies has made their [strike](../../../../rule/combat/strike.md), the ally or allies can pick a different target.
+          name: Effect
     flavor: '"Let''s not argue about who''s the hammer and who''s the anvil!"'
     keywords:
         - '[Melee](../../../../rule/combat/melee.md)'

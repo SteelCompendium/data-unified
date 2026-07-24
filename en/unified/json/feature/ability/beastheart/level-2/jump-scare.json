@@ -3,14 +3,18 @@
   "distance": "2 burst",
   "effects": [
     {
-      "roll": "Power Roll + Intuition",
-      "tier1": "4 damage; P \u003c WEAK [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)",
-      "tier2": "6 damage; P \u003c AVERAGE [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)",
-      "tier3": "10 damage; P \u003c STRONG [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)"
+      "effect": "This ability targets only enemies with line of effect to your companion.",
+      "name": "Special"
     },
     {
       "effect": "Your companion [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to a number of squares equal to their Intuition score. During this movement, they are invisible. They then make a power roll.",
       "name": "Effect"
+    },
+    {
+      "roll": "Power Roll + Intuition",
+      "tier1": "4 damage; P \u003c WEAK [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)",
+      "tier2": "6 damage; P \u003c AVERAGE [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)",
+      "tier3": "10 damage; P \u003c STRONG [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)"
     }
   ],
   "feature_type": "ability",

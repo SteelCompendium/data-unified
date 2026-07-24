@@ -5,6 +5,13 @@ cost: 3 Ferocity
 cost_amount: "3"
 cost_resource: Ferocity
 distance: 2 burst
+effects:
+    - roll: Power Roll + Intuition
+      tier1: 3 sonic damage; push 1; P < WEAK [taunted](scc.v1:mcdm.heroes.v1/condition/taunted) (save ends)
+      tier2: 5 sonic damage; push 2; P < AVERAGE [taunted](scc.v1:mcdm.heroes.v1/condition/taunted) (save ends)
+      tier3: 7 sonic damage; push 3; P < STRONG [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
+    - cost: Spend 1 Ferocity
+      effect: This ability also affects a 2 burst originating from you. An enemy in both areas is only affected once.
 feature_type: ability
 file_basename: bring-the-thunder
 file_dpath: feature/ability/beastheart/level-1
@@ -20,7 +27,6 @@ name: Bring the Thunder
 power_roll_characteristic: Intuition
 scc: mcdm.beastheart.v1/feature.ability.beastheart.level-1/bring-the-thunder
 source: mcdm.beastheart.v1
-spend: '1 Ferocity: This ability also affects a 2 burst originating from you. An enemy in both areas is only affected once.'
 target: Each enemy in the area
 tier1: 3 sonic damage; push 1; P < WEAK [taunted](scc.v1:mcdm.heroes.v1/condition/taunted) (save ends)
 tier2: 5 sonic damage; push 2; P < AVERAGE [taunted](scc.v1:mcdm.heroes.v1/condition/taunted) (save ends)
@@ -36,8 +42,8 @@ effects:
       tier1: 3 sonic damage; push 1; P < WEAK [taunted](scc.v1:mcdm.heroes.v1/condition/taunted) (save ends)
       tier2: 5 sonic damage; push 2; P < AVERAGE [taunted](scc.v1:mcdm.heroes.v1/condition/taunted) (save ends)
       tier3: 7 sonic damage; push 3; P < STRONG [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
-    - effect: '1 Ferocity: This ability also affects a 2 burst originating from you. An enemy in both areas is only affected once.'
-      name: Spend
+    - cost: Spend 1 Ferocity
+      effect: This ability also affects a 2 burst originating from you. An enemy in both areas is only affected once.
 feature_type: ability
 flavor: Your companion unleashes a shattering roar, screech, or howl that terrifies your foes—or at least gets their attention.
 keywords:
@@ -49,6 +55,13 @@ metadata:
     class: beastheart
     cost: 3 Ferocity
     distance: 2 burst
+    effects:
+        - roll: Power Roll + Intuition
+          tier1: 3 sonic damage; push 1; P < WEAK [taunted](scc.v1:mcdm.heroes.v1/condition/taunted) (save ends)
+          tier2: 5 sonic damage; push 2; P < AVERAGE [taunted](scc.v1:mcdm.heroes.v1/condition/taunted) (save ends)
+          tier3: 7 sonic damage; push 3; P < STRONG [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
+        - cost: Spend 1 Ferocity
+          effect: This ability also affects a 2 burst originating from you. An enemy in both areas is only affected once.
     flavor: Your companion unleashes a shattering roar, screech, or howl that terrifies your foes—or at least gets their attention.
     keywords:
         - Area
@@ -58,7 +71,6 @@ metadata:
     name: Bring the Thunder
     power_roll_characteristic: Intuition
     scc: mcdm.beastheart.v1/feature.ability.beastheart.level-1/bring-the-thunder
-    spend: '1 Ferocity: This ability also affects a 2 burst originating from you. An enemy in both areas is only affected once.'
     target: Each enemy in the area
     tier1: 3 sonic damage; push 1; P < WEAK [taunted](scc.v1:mcdm.heroes.v1/condition/taunted) (save ends)
     tier2: 5 sonic damage; push 2; P < AVERAGE [taunted](scc.v1:mcdm.heroes.v1/condition/taunted) (save ends)

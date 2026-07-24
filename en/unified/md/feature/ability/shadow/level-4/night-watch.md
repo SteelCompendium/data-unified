@@ -2,7 +2,9 @@
 action_type: '[Triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)'
 class: shadow
 distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 5'
-effect: The target takes half the damage. You remain hidden.
+effects:
+    - effect: The target takes half the damage. You remain hidden.
+      name: Effect
 flavor: A steely dagger from out of the blue knocks another weapon off course.
 keywords:
     - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'

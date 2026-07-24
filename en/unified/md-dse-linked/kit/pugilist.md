@@ -24,11 +24,12 @@ You wear no armor and wield only your unarmed [strikes](../rule/combat/strike.md
 ```ds-feature
 distance: '[Melee](../rule/combat/melee.md) 1'
 effects:
-    - effect: You can [shift](../movement/shifting.md) into any square the target leaves after you [slide](../movement/forced-movement.md) them.
     - roll: Power Roll + [Might](../rule/character/might.md) or [Agility](../rule/character/agility.md)
       tier1: 3 + M or A damage
       tier2: 6 + M or A damage; [slide](../movement/forced-movement.md) 1
       tier3: 8 + M or A damage; [slide](../movement/forced-movement.md) 2
+    - effect: You can [shift](../movement/shifting.md) into any square the target leaves after you [slide](../movement/forced-movement.md) them.
+      name: Effect
 feature_type: ability
 flavor: Keeping your enemies stumbling around the battlefield is second nature to you.
 keywords:
@@ -38,7 +39,13 @@ keywords:
 metadata:
     action_type: Main action
     distance: '[Melee](../rule/combat/melee.md) 1'
-    effect: You can [shift](../movement/shifting.md) into any square the target leaves after you [slide](../movement/forced-movement.md) them.
+    effects:
+        - roll: Power Roll + [Might](../rule/character/might.md) or [Agility](../rule/character/agility.md)
+          tier1: 3 + M or A damage
+          tier2: 6 + M or A damage; [slide](../movement/forced-movement.md) 1
+          tier3: 8 + M or A damage; [slide](../movement/forced-movement.md) 2
+        - effect: You can [shift](../movement/shifting.md) into any square the target leaves after you [slide](../movement/forced-movement.md) them.
+          name: Effect
     flavor: Keeping your enemies stumbling around the battlefield is second nature to you.
     keywords:
         - '[Melee](../rule/combat/melee.md)'

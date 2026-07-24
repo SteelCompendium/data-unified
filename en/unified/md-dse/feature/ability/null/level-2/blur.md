@@ -5,7 +5,9 @@ cost: 5 Discipline
 cost_amount: "5"
 cost_resource: Discipline
 distance: Self
-effect: You can use a signature or [heroic ability](scc.v1:mcdm.heroes.v1/rule.general/heroic-ability). You gain an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on that ability's [power rolls](scc.v1:mcdm.heroes.v1/rule.dice/power-roll).
+effects:
+    - effect: You can use a signature or [heroic ability](scc.v1:mcdm.heroes.v1/rule.general/heroic-ability). You gain an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on that ability's [power rolls](scc.v1:mcdm.heroes.v1/rule.dice/power-roll).
+      name: Effect
 feature_type: ability
 file_basename: blur
 file_dpath: feature/ability/null/level-2
@@ -28,6 +30,7 @@ cost: 5 Discipline
 distance: Self
 effects:
     - effect: You can use a signature or [heroic ability](scc.v1:mcdm.heroes.v1/rule.general/heroic-ability). You gain an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on that ability's [power rolls](scc.v1:mcdm.heroes.v1/rule.dice/power-roll).
+      name: Effect
 feature_type: ability
 flavor: You release stored time, allowing you to act twice.
 keywords:
@@ -37,7 +40,9 @@ metadata:
     class: "null"
     cost: 5 Discipline
     distance: Self
-    effect: You can use a signature or [heroic ability](scc.v1:mcdm.heroes.v1/rule.general/heroic-ability). You gain an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on that ability's [power rolls](scc.v1:mcdm.heroes.v1/rule.dice/power-roll).
+    effects:
+        - effect: You can use a signature or [heroic ability](scc.v1:mcdm.heroes.v1/rule.general/heroic-ability). You gain an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on that ability's [power rolls](scc.v1:mcdm.heroes.v1/rule.dice/power-roll).
+          name: Effect
     flavor: You release stored time, allowing you to act twice.
     keywords:
         - Psionic

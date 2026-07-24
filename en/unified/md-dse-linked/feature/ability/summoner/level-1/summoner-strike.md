@@ -2,7 +2,11 @@
 action_type: Main action
 class: summoner
 distance: Melee 1 or Ranged 5
-effect: R [damage](../../../../rule/damage/damage.md). If the target has R < WEAK, they are [slowed](../../../../condition/slowed.md) (save ends).
+effects:
+    - effect: R [damage](../../../../rule/damage/damage.md). If the target has R < WEAK, they are [slowed](../../../../condition/slowed.md) (save ends).
+      name: Effect
+    - effect: This ability has the Charge keyword when it's used as a melee [strike](../../../../rule/combat/strike.md).
+      name: Special
 feature_source: summoner
 feature_type: ability
 file_basename: summoner-strike
@@ -27,6 +31,9 @@ type: ability
 distance: Melee 1 or Ranged 5
 effects:
     - effect: R [damage](../../../../rule/damage/damage.md). If the target has R < WEAK, they are [slowed](../../../../condition/slowed.md) (save ends).
+      name: Effect
+    - effect: This ability has the Charge keyword when it's used as a melee [strike](../../../../rule/combat/strike.md).
+      name: Special
 feature_type: ability
 flavor: A sudden burst of energy erupts from your implement and shocks your foes' nerves.
 keywords:
@@ -38,7 +45,11 @@ metadata:
     action_type: Main action
     class: summoner
     distance: Melee 1 or Ranged 5
-    effect: R [damage](../../../../rule/damage/damage.md). If the target has R < WEAK, they are [slowed](../../../../condition/slowed.md) (save ends).
+    effects:
+        - effect: R [damage](../../../../rule/damage/damage.md). If the target has R < WEAK, they are [slowed](../../../../condition/slowed.md) (save ends).
+          name: Effect
+        - effect: This ability has the Charge keyword when it's used as a melee [strike](../../../../rule/combat/strike.md).
+          name: Special
     feature_source: summoner
     flavor: A sudden burst of energy erupts from your implement and shocks your foes' nerves.
     keywords:

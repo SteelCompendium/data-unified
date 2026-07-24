@@ -5,7 +5,11 @@ cost: 1 Drama
 cost_amount: "1"
 cost_resource: Drama
 distance: Self
-effect: You gain a +2 [bonus](../../../../rule/dice/bonuses-and-penalties.md) to [speed](../../../../rule/character/speed.md) until the end of your [turn](../../../../rule/combat/turn.md). Additionally, the next [power roll](../../../../rule/dice/power-roll.md) you make this [turn](../../../../rule/combat/turn.md) can't have an outcome lower than tier 2.
+effects:
+    - effect: You gain a +2 [bonus](../../../../rule/dice/bonuses-and-penalties.md) to [speed](../../../../rule/character/speed.md) until the end of your [turn](../../../../rule/combat/turn.md). Additionally, the next [power roll](../../../../rule/dice/power-roll.md) you make this [turn](../../../../rule/combat/turn.md) can't have an outcome lower than tier 2.
+      name: Effect
+    - cost: Spend 1 Drama
+      effect: You gain a +4 [bonus](../../../../rule/dice/bonuses-and-penalties.md) to [speed](../../../../rule/character/speed.md) instead.
 feature_type: ability
 file_basename: star-power
 file_dpath: feature/ability/troubadour/level-1
@@ -17,7 +21,6 @@ level: "1"
 name: Star Power
 scc: mcdm.heroes.v1/feature.ability.troubadour.level-1/star-power
 source: mcdm.heroes.v1
-spend: '1 Drama: You gain a +4 [bonus](../../../../rule/dice/bonuses-and-penalties.md) to [speed](../../../../rule/character/speed.md) instead.'
 subclass: duelist
 target: Self
 type: ability
@@ -28,8 +31,9 @@ cost: 1 Drama
 distance: Self
 effects:
     - effect: You gain a +2 [bonus](../../../../rule/dice/bonuses-and-penalties.md) to [speed](../../../../rule/character/speed.md) until the end of your [turn](../../../../rule/combat/turn.md). Additionally, the next [power roll](../../../../rule/dice/power-roll.md) you make this [turn](../../../../rule/combat/turn.md) can't have an outcome lower than tier 2.
-    - effect: '1 Drama: You gain a +4 [bonus](../../../../rule/dice/bonuses-and-penalties.md) to [speed](../../../../rule/character/speed.md) instead.'
-      name: Spend
+      name: Effect
+    - cost: Spend 1 Drama
+      effect: You gain a +4 [bonus](../../../../rule/dice/bonuses-and-penalties.md) to [speed](../../../../rule/character/speed.md) instead.
 feature_type: ability
 flavor: Your years of practicing fencing and dancing pay off on the battlefield.
 keywords: []
@@ -38,13 +42,16 @@ metadata:
     class: troubadour
     cost: 1 Drama
     distance: Self
-    effect: You gain a +2 [bonus](../../../../rule/dice/bonuses-and-penalties.md) to [speed](../../../../rule/character/speed.md) until the end of your [turn](../../../../rule/combat/turn.md). Additionally, the next [power roll](../../../../rule/dice/power-roll.md) you make this [turn](../../../../rule/combat/turn.md) can't have an outcome lower than tier 2.
+    effects:
+        - effect: You gain a +2 [bonus](../../../../rule/dice/bonuses-and-penalties.md) to [speed](../../../../rule/character/speed.md) until the end of your [turn](../../../../rule/combat/turn.md). Additionally, the next [power roll](../../../../rule/dice/power-roll.md) you make this [turn](../../../../rule/combat/turn.md) can't have an outcome lower than tier 2.
+          name: Effect
+        - cost: Spend 1 Drama
+          effect: You gain a +4 [bonus](../../../../rule/dice/bonuses-and-penalties.md) to [speed](../../../../rule/character/speed.md) instead.
     flavor: Your years of practicing fencing and dancing pay off on the battlefield.
     keywords: []
     level: "1"
     name: Star Power
     scc: mcdm.heroes.v1/feature.ability.troubadour.level-1/star-power
-    spend: '1 Drama: You gain a +4 [bonus](../../../../rule/dice/bonuses-and-penalties.md) to [speed](../../../../rule/character/speed.md) instead.'
     subclass: duelist
     target: Self
     type: ability

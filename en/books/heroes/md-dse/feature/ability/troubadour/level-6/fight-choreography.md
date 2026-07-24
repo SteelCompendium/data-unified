@@ -5,7 +5,9 @@ cost: 9 Drama
 cost_amount: "9"
 cost_resource: Drama
 distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
-effect: You and the target each make a [melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) that targets each enemy within 3 squares of either of you, dividing the enemies between each of you. You choose which enemies your [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) targets and which enemies the target creature's [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) targets. You then [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) the target 5 squares, ignoring [stability](scc.v1:mcdm.heroes.v1/rule.character/stability).
+effects:
+    - effect: You and the target each make a [melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) that targets each enemy within 3 squares of either of you, dividing the enemies between each of you. You choose which enemies your [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) targets and which enemies the target creature's [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) targets. You then [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) the target 5 squares, ignoring [stability](scc.v1:mcdm.heroes.v1/rule.character/stability).
+      name: Effect
 feature_type: ability
 file_basename: fight-choreography
 file_dpath: feature/ability/troubadour/level-6
@@ -30,6 +32,7 @@ cost: 9 Drama
 distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
 effects:
     - effect: You and the target each make a [melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) that targets each enemy within 3 squares of either of you, dividing the enemies between each of you. You choose which enemies your [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) targets and which enemies the target creature's [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) targets. You then [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) the target 5 squares, ignoring [stability](scc.v1:mcdm.heroes.v1/rule.character/stability).
+      name: Effect
 feature_type: ability
 flavor: You and your partner make a flashy show of derring-do, then get back to your corners.
 keywords:
@@ -41,7 +44,9 @@ metadata:
     class: troubadour
     cost: 9 Drama
     distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
-    effect: You and the target each make a [melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) that targets each enemy within 3 squares of either of you, dividing the enemies between each of you. You choose which enemies your [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) targets and which enemies the target creature's [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) targets. You then [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) the target 5 squares, ignoring [stability](scc.v1:mcdm.heroes.v1/rule.character/stability).
+    effects:
+        - effect: You and the target each make a [melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) that targets each enemy within 3 squares of either of you, dividing the enemies between each of you. You choose which enemies your [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) targets and which enemies the target creature's [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) targets. You then [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) the target 5 squares, ignoring [stability](scc.v1:mcdm.heroes.v1/rule.character/stability).
+          name: Effect
     flavor: You and your partner make a flashy show of derring-do, then get back to your corners.
     keywords:
         - '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)'

@@ -5,7 +5,13 @@ cost: 5 Ferocity
 cost_amount: "5"
 cost_resource: Ferocity
 distance: Melee 1
-effect: If you grab the target while your companion is adjacent to them, your companion can make a melee free strike against the target.
+effects:
+    - roll: Power Roll + Might
+      tier1: 8 + M damage; M < WEAK [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)
+      tier2: 12 + M damage; M < AVERAGE [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)
+      tier3: 16 + M damage; M < STRONG [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)
+    - effect: If you grab the target while your companion is adjacent to them, your companion can make a melee free strike against the target.
+      name: Effect
 feature_type: ability
 file_basename: you-let-me-get-too-close
 file_dpath: feature/ability/beastheart/level-1
@@ -34,11 +40,12 @@ type: ability
 cost: 5 Ferocity
 distance: Melee 1
 effects:
-    - effect: If you grab the target while your companion is adjacent to them, your companion can make a melee free strike against the target.
     - roll: Power Roll + Might
       tier1: 8 + M damage; M < WEAK [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)
       tier2: 12 + M damage; M < AVERAGE [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)
       tier3: 16 + M damage; M < STRONG [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)
+    - effect: If you grab the target while your companion is adjacent to them, your companion can make a melee free strike against the target.
+      name: Effect
 feature_type: ability
 flavor: The wilderness has no concept of fair play.
 keywords:
@@ -52,7 +59,13 @@ metadata:
     class: beastheart
     cost: 5 Ferocity
     distance: Melee 1
-    effect: If you grab the target while your companion is adjacent to them, your companion can make a melee free strike against the target.
+    effects:
+        - roll: Power Roll + Might
+          tier1: 8 + M damage; M < WEAK [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)
+          tier2: 12 + M damage; M < AVERAGE [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)
+          tier3: 16 + M damage; M < STRONG [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)
+        - effect: If you grab the target while your companion is adjacent to them, your companion can make a melee free strike against the target.
+          name: Effect
     flavor: The wilderness has no concept of fair play.
     keywords:
         - Beastheart

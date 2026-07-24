@@ -3,7 +3,9 @@ action_type: Free [triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action
 class: "null"
 cost: 11 Discipline
 distance: Self; see below
-effect: The target takes half the damage, and if the triggering creature has I < AVERAGE, they are [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends). While the triggering creature is [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) this way, they take psychic damage equal to your [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition) score whenever they use a main action.
+effects:
+    - effect: The target takes half the damage, and if the triggering creature has I < AVERAGE, they are [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends). While the triggering creature is [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) this way, they take psychic damage equal to your [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition) score whenever they use a main action.
+      name: Effect
 flavor: You disrupt an enemy's strike and create a [feedback loop](scc.v1:mcdm.heroes.v1/feature.ability.talent.level-1/feedback-loop) in their mind, preventing them from focusing on future attacks.
 keywords:
     - Psionic

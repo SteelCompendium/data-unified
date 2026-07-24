@@ -37,6 +37,11 @@ keywords:
 metadata:
     action_type: Main action
     distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
+    effects:
+        - roll: Power Roll + [Might](scc.v1:mcdm.heroes.v1/rule.character/might) or [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)
+          tier1: 4 + M or A damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1
+          tier2: 7 + M or A damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2
+          tier3: 9 + M or A damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3; M < STRONG[, prone](scc.v1:mcdm.heroes.v1/condition/prone)
     flavor: In your hands, a shield isn't just for protection.
     keywords:
         - '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)'

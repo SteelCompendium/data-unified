@@ -5,7 +5,13 @@ cost: 11 Insight
 cost_amount: "11"
 cost_resource: Insight
 distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 3'
-effect: On a [critical hit](scc.v1:mcdm.heroes.v1/rule.combat/critical-hit), the target is [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) by the demon and [pulled](scc.v1:mcdm.heroes.v1/movement/forced-movement) through the portal before it closes, never to be seen again.
+effects:
+    - roll: Power Roll + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)
+      tier1: 13 + A corruption damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3
+      tier2: 18 + A corruption damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5
+      tier3: 25 + A corruption damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 7
+    - effect: On a [critical hit](scc.v1:mcdm.heroes.v1/rule.combat/critical-hit), the target is [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) by the demon and [pulled](scc.v1:mcdm.heroes.v1/movement/forced-movement) through the portal before it closes, never to be seen again.
+      name: Effect
 feature_type: ability
 file_basename: demon-door
 file_dpath: feature/ability/shadow/level-9
@@ -34,11 +40,12 @@ type: ability
 cost: 11 Insight
 distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 3'
 effects:
-    - effect: On a [critical hit](scc.v1:mcdm.heroes.v1/rule.combat/critical-hit), the target is [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) by the demon and [pulled](scc.v1:mcdm.heroes.v1/movement/forced-movement) through the portal before it closes, never to be seen again.
     - roll: Power Roll + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)
       tier1: 13 + A corruption damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3
       tier2: 18 + A corruption damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5
       tier3: 25 + A corruption damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 7
+    - effect: On a [critical hit](scc.v1:mcdm.heroes.v1/rule.combat/critical-hit), the target is [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) by the demon and [pulled](scc.v1:mcdm.heroes.v1/movement/forced-movement) through the portal before it closes, never to be seen again.
+      name: Effect
 feature_type: ability
 flavor: You create a temporary portal to allow a massive demonic hand to reach through.
 keywords:
@@ -51,7 +58,13 @@ metadata:
     class: shadow
     cost: 11 Insight
     distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 3'
-    effect: On a [critical hit](scc.v1:mcdm.heroes.v1/rule.combat/critical-hit), the target is [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) by the demon and [pulled](scc.v1:mcdm.heroes.v1/movement/forced-movement) through the portal before it closes, never to be seen again.
+    effects:
+        - roll: Power Roll + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)
+          tier1: 13 + A corruption damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3
+          tier2: 18 + A corruption damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5
+          tier3: 25 + A corruption damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 7
+        - effect: On a [critical hit](scc.v1:mcdm.heroes.v1/rule.combat/critical-hit), the target is [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) by the demon and [pulled](scc.v1:mcdm.heroes.v1/movement/forced-movement) through the portal before it closes, never to be seen again.
+          name: Effect
     flavor: You create a temporary portal to allow a massive demonic hand to reach through.
     keywords:
         - Magic

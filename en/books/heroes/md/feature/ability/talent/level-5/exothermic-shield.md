@@ -3,7 +3,11 @@ action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: talent
 cost: 9 Clarity
 distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
-effect: Until the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), the target has cold immunity 10 and fire immunity 10, and their [strikes](scc.v1:mcdm.heroes.v1/rule.combat/strike) deal extra fire damage equal to twice your [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) score. Additionally, whenever an enemy uses a [melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) ability against the target while they are under this effect, the enemy takes 5 fire damage.
+effects:
+    - effect: Until the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), the target has cold immunity 10 and fire immunity 10, and their [strikes](scc.v1:mcdm.heroes.v1/rule.combat/strike) deal extra fire damage equal to twice your [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) score. Additionally, whenever an enemy uses a [melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) ability against the target while they are under this effect, the enemy takes 5 fire damage.
+      name: Effect
+    - effect: The target gains 2 [surges](scc.v1:mcdm.heroes.v1/rule.resource/surge). You are [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) and [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends).
+      name: Strained
 flavor: You encase the target in psionic flame and allow them to flicker without fear of burning out.
 keywords:
     - Pyrokinesis

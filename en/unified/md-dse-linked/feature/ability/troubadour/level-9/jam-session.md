@@ -5,7 +5,13 @@ cost: 11 Drama
 cost_amount: "11"
 cost_resource: Drama
 distance: 5 [burst](../../../../rule/combat/burst.md)
-effect: Each creature within [distance](../../../../rule/combat/distance.md) gains a +5 [bonus](../../../../rule/dice/bonuses-and-penalties.md) to [speed](../../../../rule/character/speed.md) until the end of their next [turn](../../../../rule/combat/turn.md). While under this effect, each target must use their full movement during their [turn](../../../../rule/combat/turn.md).
+effects:
+    - roll: Power Roll + [Presence](../../../../rule/character/presence.md)
+      tier1: 8 sonic damage
+      tier2: 11 sonic damage
+      tier3: 15 sonic damage
+    - effect: Each creature within [distance](../../../../rule/combat/distance.md) gains a +5 [bonus](../../../../rule/dice/bonuses-and-penalties.md) to [speed](../../../../rule/character/speed.md) until the end of their next [turn](../../../../rule/combat/turn.md). While under this effect, each target must use their full movement during their [turn](../../../../rule/combat/turn.md).
+      name: Effect
 feature_type: ability
 file_basename: jam-session
 file_dpath: feature/ability/troubadour/level-9
@@ -32,11 +38,12 @@ type: ability
 cost: 11 Drama
 distance: 5 [burst](../../../../rule/combat/burst.md)
 effects:
-    - effect: Each creature within [distance](../../../../rule/combat/distance.md) gains a +5 [bonus](../../../../rule/dice/bonuses-and-penalties.md) to [speed](../../../../rule/character/speed.md) until the end of their next [turn](../../../../rule/combat/turn.md). While under this effect, each target must use their full movement during their [turn](../../../../rule/combat/turn.md).
     - roll: Power Roll + [Presence](../../../../rule/character/presence.md)
       tier1: 8 sonic damage
       tier2: 11 sonic damage
       tier3: 15 sonic damage
+    - effect: Each creature within [distance](../../../../rule/combat/distance.md) gains a +5 [bonus](../../../../rule/dice/bonuses-and-penalties.md) to [speed](../../../../rule/character/speed.md) until the end of their next [turn](../../../../rule/combat/turn.md). While under this effect, each target must use their full movement during their [turn](../../../../rule/combat/turn.md).
+      name: Effect
 feature_type: ability
 flavor: Your [jam session](jam-session.md) creates new genres that compel everyone to get up and move.
 keywords:
@@ -47,7 +54,13 @@ metadata:
     class: troubadour
     cost: 11 Drama
     distance: 5 [burst](../../../../rule/combat/burst.md)
-    effect: Each creature within [distance](../../../../rule/combat/distance.md) gains a +5 [bonus](../../../../rule/dice/bonuses-and-penalties.md) to [speed](../../../../rule/character/speed.md) until the end of their next [turn](../../../../rule/combat/turn.md). While under this effect, each target must use their full movement during their [turn](../../../../rule/combat/turn.md).
+    effects:
+        - roll: Power Roll + [Presence](../../../../rule/character/presence.md)
+          tier1: 8 sonic damage
+          tier2: 11 sonic damage
+          tier3: 15 sonic damage
+        - effect: Each creature within [distance](../../../../rule/combat/distance.md) gains a +5 [bonus](../../../../rule/dice/bonuses-and-penalties.md) to [speed](../../../../rule/character/speed.md) until the end of their next [turn](../../../../rule/combat/turn.md). While under this effect, each target must use their full movement during their [turn](../../../../rule/combat/turn.md).
+          name: Effect
     flavor: Your [jam session](jam-session.md) creates new genres that compel everyone to get up and move.
     keywords:
         - Area

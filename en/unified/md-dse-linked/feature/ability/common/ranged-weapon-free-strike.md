@@ -1,6 +1,11 @@
 ---
 action_type: Main action
 distance: '[Ranged](../../../rule/combat/ranged.md) 5'
+effects:
+    - roll: Power Roll + [Might](../../../rule/character/might.md) or [Agility](../../../rule/character/agility.md)
+      tier1: 2 + M or A damage
+      tier2: 4 + M or A damage
+      tier3: 6 + M or A damage
 feature_type: ability
 file_basename: ranged-weapon-free-strike
 file_dpath: feature/ability/common
@@ -37,6 +42,11 @@ keywords:
 metadata:
     action_type: Main action
     distance: '[Ranged](../../../rule/combat/ranged.md) 5'
+    effects:
+        - roll: Power Roll + [Might](../../../rule/character/might.md) or [Agility](../../../rule/character/agility.md)
+          tier1: 2 + M or A damage
+          tier2: 4 + M or A damage
+          tier3: 6 + M or A damage
     keywords:
         - '[Ranged](../../../rule/combat/ranged.md)'
         - '[Strike](../../../rule/combat/strike.md)'

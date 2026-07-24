@@ -2,7 +2,11 @@
 action_type: Triggered
 class: summoner
 distance: Summoner's Range
-effect: The [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage) the target receives is reduced by an amount that leaves the target alive with 1 point of [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).
+effects:
+    - effect: If the target is a minion, they must be the only minion remaining in their squad.
+      name: Special
+    - effect: The [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage) the target receives is reduced by an amount that leaves the target alive with 1 point of [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).
+      name: Effect
 feature_source: summoner
 flavor: I command you to not die.
 keywords: []

@@ -3,6 +3,11 @@ action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: censor
 cost: 9 Wrath
 distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
+effects:
+    - roll: Power Roll + [Might](scc.v1:mcdm.heroes.v1/rule.character/might)
+      tier1: 10 + M damage; you and each ally [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to you gain 10 [temporary Stamina](scc.v1:mcdm.heroes.v1/rule.health/temporary-stamina)
+      tier2: 14 + M damage; you and each ally [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to you gain 15 [temporary Stamina](scc.v1:mcdm.heroes.v1/rule.health/temporary-stamina)
+      tier3: 20 + M damage; you and each ally [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to you gain 20 [temporary Stamina](scc.v1:mcdm.heroes.v1/rule.health/temporary-stamina)
 flavor: You strike a foe and create a fleet of divine shields that protect your allies.
 keywords:
     - '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)'

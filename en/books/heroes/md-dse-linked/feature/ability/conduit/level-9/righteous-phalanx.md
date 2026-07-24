@@ -5,7 +5,9 @@ cost: 11 Piety
 cost_amount: "11"
 cost_resource: Piety
 distance: 15 wall within 10
-effect: The wall lasts until the end of the encounter or until you are [dying](../../../../rule/health/dying.md), and can be placed in occupied squares. Creatures can enter and pass through the wall. Each enemy who enters the area for the first time in a [combat round](../../../../rule/combat/combat-round.md) or starts their turn there takes 15 damage.
+effects:
+    - effect: The wall lasts until the end of the encounter or until you are [dying](../../../../rule/health/dying.md), and can be placed in occupied squares. Creatures can enter and pass through the wall. Each enemy who enters the area for the first time in a [combat round](../../../../rule/combat/combat-round.md) or starts their turn there takes 15 damage.
+      name: Effect
 feature_type: ability
 file_basename: righteous-phalanx
 file_dpath: feature/ability/conduit/level-9
@@ -30,6 +32,7 @@ cost: 11 Piety
 distance: 15 wall within 10
 effects:
     - effect: The wall lasts until the end of the encounter or until you are [dying](../../../../rule/health/dying.md), and can be placed in occupied squares. Creatures can enter and pass through the wall. Each enemy who enters the area for the first time in a [combat round](../../../../rule/combat/combat-round.md) or starts their turn there takes 15 damage.
+      name: Effect
 feature_type: ability
 flavor: A wall of spinning swords and knives appears where you wish.
 keywords:
@@ -41,7 +44,9 @@ metadata:
     class: conduit
     cost: 11 Piety
     distance: 15 wall within 10
-    effect: The wall lasts until the end of the encounter or until you are [dying](../../../../rule/health/dying.md), and can be placed in occupied squares. Creatures can enter and pass through the wall. Each enemy who enters the area for the first time in a [combat round](../../../../rule/combat/combat-round.md) or starts their turn there takes 15 damage.
+    effects:
+        - effect: The wall lasts until the end of the encounter or until you are [dying](../../../../rule/health/dying.md), and can be placed in occupied squares. Creatures can enter and pass through the wall. Each enemy who enters the area for the first time in a [combat round](../../../../rule/combat/combat-round.md) or starts their turn there takes 15 damage.
+          name: Effect
     flavor: A wall of spinning swords and knives appears where you wish.
     keywords:
         - Area

@@ -3,7 +3,13 @@ action_type: Free [triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action
 class: tactician
 cost: 9 Focus
 distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
-effect: The target takes half the damage. You then make a [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) against the triggering creature.
+effects:
+    - effect: The target takes half the damage. You then make a [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) against the triggering creature.
+      name: Effect
+    - roll: Power Roll + [Might](scc.v1:mcdm.heroes.v1/rule.character/might)
+      tier1: A < WEAK, [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
+      tier2: A < AVERAGE, [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
+      tier3: A < STRONG, [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
 flavor: You [parry](scc.v1:mcdm.heroes.v1/feature.ability.tactician.level-1/parry) with almost [supernatural](scc.v1:mcdm.heroes.v1/rule.general/supernatural) [speed](scc.v1:mcdm.heroes.v1/rule.character/speed).
 keywords:
     - '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)'

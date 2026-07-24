@@ -5,7 +5,11 @@ cost: 5 Focus
 cost_amount: "5"
 cost_resource: Focus
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
-effect: Each target is marked by you, and must immediately make a [free strike](../../../common/main-actions/free-strike.md) against a creature of your choice within 5 squares of them.
+effects:
+    - effect: Each target is marked by you, and must immediately make a [free strike](../../../common/main-actions/free-strike.md) against a creature of your choice within 5 squares of them.
+      name: Effect
+    - effect: Until the end of the encounter, whenever you or any ally makes a [strike](../../../../rule/combat/strike.md) against a creature marked by you, you can spend 2 focus to force that target to make a [free strike](../../../common/main-actions/free-strike.md) against a creature of your choice within 5 squares of them.
+      name: Mark Benefit
 feature_type: ability
 file_basename: fog-of-war
 file_dpath: feature/ability/tactician/level-2
@@ -28,6 +32,9 @@ cost: 5 Focus
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
 effects:
     - effect: Each target is marked by you, and must immediately make a [free strike](../../../common/main-actions/free-strike.md) against a creature of your choice within 5 squares of them.
+      name: Effect
+    - effect: Until the end of the encounter, whenever you or any ally makes a [strike](../../../../rule/combat/strike.md) against a creature marked by you, you can spend 2 focus to force that target to make a [free strike](../../../common/main-actions/free-strike.md) against a creature of your choice within 5 squares of them.
+      name: Mark Benefit
 feature_type: ability
 flavor: Your unorthodox strategy causes enemies to lash out in fear, heedless of who they might be attacking.
 keywords:
@@ -37,7 +44,11 @@ metadata:
     class: tactician
     cost: 5 Focus
     distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
-    effect: Each target is marked by you, and must immediately make a [free strike](../../../common/main-actions/free-strike.md) against a creature of your choice within 5 squares of them.
+    effects:
+        - effect: Each target is marked by you, and must immediately make a [free strike](../../../common/main-actions/free-strike.md) against a creature of your choice within 5 squares of them.
+          name: Effect
+        - effect: Until the end of the encounter, whenever you or any ally makes a [strike](../../../../rule/combat/strike.md) against a creature marked by you, you can spend 2 focus to force that target to make a [free strike](../../../common/main-actions/free-strike.md) against a creature of your choice within 5 squares of them.
+          name: Mark Benefit
     flavor: Your unorthodox strategy causes enemies to lash out in fear, heedless of who they might be attacking.
     keywords:
         - '[Ranged](../../../../rule/combat/ranged.md)'

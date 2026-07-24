@@ -24,11 +24,12 @@ You wear light armor and wield a shield and a medium weapon.
 ```ds-feature
 distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
 effects:
-    - effect: A creature or object of your choice within 2 squares of the target takes lightning damage equal to the [characteristic](scc.v1:mcdm.heroes.v1/rule.character/characteristic) score used for this ability's [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll).
     - roll: Power Roll + [Might](scc.v1:mcdm.heroes.v1/rule.character/might), [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason), [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition), or [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence)
       tier1: 5 + M, R, I, or P lightning damage
       tier2: 8 + M, R, I, or P lightning damage
       tier3: 11 + M, R, I, or P lightning damage
+    - effect: A creature or object of your choice within 2 squares of the target takes lightning damage equal to the [characteristic](scc.v1:mcdm.heroes.v1/rule.character/characteristic) score used for this ability's [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll).
+      name: Effect
 feature_type: ability
 flavor: Lightning jumps from your weapon as you strike to harm a nearby foe.
 keywords:
@@ -39,7 +40,13 @@ keywords:
 metadata:
     action_type: Main action
     distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
-    effect: A creature or object of your choice within 2 squares of the target takes lightning damage equal to the [characteristic](scc.v1:mcdm.heroes.v1/rule.character/characteristic) score used for this ability's [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll).
+    effects:
+        - roll: Power Roll + [Might](scc.v1:mcdm.heroes.v1/rule.character/might), [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason), [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition), or [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence)
+          tier1: 5 + M, R, I, or P lightning damage
+          tier2: 8 + M, R, I, or P lightning damage
+          tier3: 11 + M, R, I, or P lightning damage
+        - effect: A creature or object of your choice within 2 squares of the target takes lightning damage equal to the [characteristic](scc.v1:mcdm.heroes.v1/rule.character/characteristic) score used for this ability's [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll).
+          name: Effect
     flavor: Lightning jumps from your weapon as you strike to harm a nearby foe.
     keywords:
         - Magic

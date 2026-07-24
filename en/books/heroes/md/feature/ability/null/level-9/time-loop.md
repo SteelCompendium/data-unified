@@ -3,7 +3,9 @@ action_type: Free [triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action
 class: "null"
 cost: 11 Discipline
 distance: Self
-effect: You take a [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) immediately after the triggering creature. This ability can be used only once per [combat round](scc.v1:mcdm.heroes.v1/rule.combat/combat-round).
+effects:
+    - effect: You take a [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) immediately after the triggering creature. This ability can be used only once per [combat round](scc.v1:mcdm.heroes.v1/rule.combat/combat-round).
+      name: Effect
 flavor: You show shadows what true [speed](scc.v1:mcdm.heroes.v1/rule.character/speed) is.
 keywords:
     - Psionic

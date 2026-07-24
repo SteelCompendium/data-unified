@@ -2,7 +2,13 @@
 action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: shadow
 distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
-effect: As long as you have one or more allies within 5 squares of the target, you gain 1 [surge](scc.v1:mcdm.heroes.v1/rule.resource/surge). If you are [flanking](scc.v1:mcdm.heroes.v1/rule.combat/flanking) the target when you use this ability, choose one ally who is [flanking](scc.v1:mcdm.heroes.v1/rule.combat/flanking) with you. That ally also gains 1 [surge](scc.v1:mcdm.heroes.v1/rule.resource/surge).
+effects:
+    - roll: Power Roll + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)
+      tier1: 3 + A damage
+      tier2: 5 + A damage
+      tier3: 8 + A damage
+    - effect: As long as you have one or more allies within 5 squares of the target, you gain 1 [surge](scc.v1:mcdm.heroes.v1/rule.resource/surge). If you are [flanking](scc.v1:mcdm.heroes.v1/rule.combat/flanking) the target when you use this ability, choose one ally who is [flanking](scc.v1:mcdm.heroes.v1/rule.combat/flanking) with you. That ally also gains 1 [surge](scc.v1:mcdm.heroes.v1/rule.resource/surge).
+      name: Effect
 feature_type: ability
 file_basename: you-were-watching-the-wrong-one
 file_dpath: feature/ability/shadow/level-1
@@ -29,11 +35,12 @@ type: ability
 ```ds-feature
 distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
 effects:
-    - effect: As long as you have one or more allies within 5 squares of the target, you gain 1 [surge](scc.v1:mcdm.heroes.v1/rule.resource/surge). If you are [flanking](scc.v1:mcdm.heroes.v1/rule.combat/flanking) the target when you use this ability, choose one ally who is [flanking](scc.v1:mcdm.heroes.v1/rule.combat/flanking) with you. That ally also gains 1 [surge](scc.v1:mcdm.heroes.v1/rule.resource/surge).
     - roll: Power Roll + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)
       tier1: 3 + A damage
       tier2: 5 + A damage
       tier3: 8 + A damage
+    - effect: As long as you have one or more allies within 5 squares of the target, you gain 1 [surge](scc.v1:mcdm.heroes.v1/rule.resource/surge). If you are [flanking](scc.v1:mcdm.heroes.v1/rule.combat/flanking) the target when you use this ability, choose one ally who is [flanking](scc.v1:mcdm.heroes.v1/rule.combat/flanking) with you. That ally also gains 1 [surge](scc.v1:mcdm.heroes.v1/rule.resource/surge).
+      name: Effect
 feature_type: ability
 flavor: They can't watch both of you at once.
 keywords:
@@ -44,7 +51,13 @@ metadata:
     action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: shadow
     distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
-    effect: As long as you have one or more allies within 5 squares of the target, you gain 1 [surge](scc.v1:mcdm.heroes.v1/rule.resource/surge). If you are [flanking](scc.v1:mcdm.heroes.v1/rule.combat/flanking) the target when you use this ability, choose one ally who is [flanking](scc.v1:mcdm.heroes.v1/rule.combat/flanking) with you. That ally also gains 1 [surge](scc.v1:mcdm.heroes.v1/rule.resource/surge).
+    effects:
+        - roll: Power Roll + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)
+          tier1: 3 + A damage
+          tier2: 5 + A damage
+          tier3: 8 + A damage
+        - effect: As long as you have one or more allies within 5 squares of the target, you gain 1 [surge](scc.v1:mcdm.heroes.v1/rule.resource/surge). If you are [flanking](scc.v1:mcdm.heroes.v1/rule.combat/flanking) the target when you use this ability, choose one ally who is [flanking](scc.v1:mcdm.heroes.v1/rule.combat/flanking) with you. That ally also gains 1 [surge](scc.v1:mcdm.heroes.v1/rule.resource/surge).
+          name: Effect
     flavor: They can't watch both of you at once.
     keywords:
         - '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)'

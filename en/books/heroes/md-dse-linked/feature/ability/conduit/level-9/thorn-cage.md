@@ -5,7 +5,13 @@ cost: 11 Piety
 cost_amount: "11"
 cost_resource: Piety
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
-effect: While [restrained](../../../../condition/restrained.md) this way, the target takes 10 damage at the start of each of your [turns](../../../../rule/combat/turn.md).
+effects:
+    - roll: Power Roll + [Intuition](../../../../rule/character/intuition.md)
+      tier1: 10 + I damage; A < WEAK, [restrained](../../../../condition/restrained.md) (save ends)
+      tier2: 15 + I damage; A < AVERAGE, [restrained](../../../../condition/restrained.md) (save ends)
+      tier3: 21 + I damage; A < STRONG, [restrained](../../../../condition/restrained.md) (save ends)
+    - effect: While [restrained](../../../../condition/restrained.md) this way, the target takes 10 damage at the start of each of your [turns](../../../../rule/combat/turn.md).
+      name: Effect
 feature_type: ability
 file_basename: thorn-cage
 file_dpath: feature/ability/conduit/level-9
@@ -33,11 +39,12 @@ type: ability
 cost: 11 Piety
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
 effects:
-    - effect: While [restrained](../../../../condition/restrained.md) this way, the target takes 10 damage at the start of each of your [turns](../../../../rule/combat/turn.md).
     - roll: Power Roll + [Intuition](../../../../rule/character/intuition.md)
       tier1: 10 + I damage; A < WEAK, [restrained](../../../../condition/restrained.md) (save ends)
       tier2: 15 + I damage; A < AVERAGE, [restrained](../../../../condition/restrained.md) (save ends)
       tier3: 21 + I damage; A < STRONG, [restrained](../../../../condition/restrained.md) (save ends)
+    - effect: While [restrained](../../../../condition/restrained.md) this way, the target takes 10 damage at the start of each of your [turns](../../../../rule/combat/turn.md).
+      name: Effect
 feature_type: ability
 flavor: Vines [burst](../../../../rule/combat/burst.md) forth from the ground and bind your foe, slowly closing around them.
 keywords:
@@ -49,7 +56,13 @@ metadata:
     class: conduit
     cost: 11 Piety
     distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
-    effect: While [restrained](../../../../condition/restrained.md) this way, the target takes 10 damage at the start of each of your [turns](../../../../rule/combat/turn.md).
+    effects:
+        - roll: Power Roll + [Intuition](../../../../rule/character/intuition.md)
+          tier1: 10 + I damage; A < WEAK, [restrained](../../../../condition/restrained.md) (save ends)
+          tier2: 15 + I damage; A < AVERAGE, [restrained](../../../../condition/restrained.md) (save ends)
+          tier3: 21 + I damage; A < STRONG, [restrained](../../../../condition/restrained.md) (save ends)
+        - effect: While [restrained](../../../../condition/restrained.md) this way, the target takes 10 damage at the start of each of your [turns](../../../../rule/combat/turn.md).
+          name: Effect
     flavor: Vines [burst](../../../../rule/combat/burst.md) forth from the ground and bind your foe, slowly closing around them.
     keywords:
         - Magic

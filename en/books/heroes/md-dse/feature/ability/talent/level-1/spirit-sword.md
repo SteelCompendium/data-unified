@@ -2,7 +2,15 @@
 action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: talent
 distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 2'
-effect: You gain 1 [surge](scc.v1:mcdm.heroes.v1/rule.resource/surge).
+effects:
+    - roll: Power Roll + [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence)
+      tier1: 3 + P damage
+      tier2: 6 + P damage
+      tier3: 9 + P damage
+    - effect: You gain 1 [surge](scc.v1:mcdm.heroes.v1/rule.resource/surge).
+      name: Effect
+    - effect: The target takes an extra 3 damage. You also take 3 damage that can't be reduced in any way.
+      name: Strained
 feature_type: ability
 file_basename: spirit-sword
 file_dpath: feature/ability/talent/level-1
@@ -30,11 +38,14 @@ type: ability
 ```ds-feature
 distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 2'
 effects:
-    - effect: You gain 1 [surge](scc.v1:mcdm.heroes.v1/rule.resource/surge).
     - roll: Power Roll + [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence)
       tier1: 3 + P damage
       tier2: 6 + P damage
       tier3: 9 + P damage
+    - effect: You gain 1 [surge](scc.v1:mcdm.heroes.v1/rule.resource/surge).
+      name: Effect
+    - effect: The target takes an extra 3 damage. You also take 3 damage that can't be reduced in any way.
+      name: Strained
 feature_type: ability
 flavor: You form a blade of mind energy and stab your target, invigorating yourself.
 keywords:
@@ -46,7 +57,15 @@ metadata:
     action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: talent
     distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 2'
-    effect: You gain 1 [surge](scc.v1:mcdm.heroes.v1/rule.resource/surge).
+    effects:
+        - roll: Power Roll + [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence)
+          tier1: 3 + P damage
+          tier2: 6 + P damage
+          tier3: 9 + P damage
+        - effect: You gain 1 [surge](scc.v1:mcdm.heroes.v1/rule.resource/surge).
+          name: Effect
+        - effect: The target takes an extra 3 damage. You also take 3 damage that can't be reduced in any way.
+          name: Strained
     flavor: You form a blade of mind energy and stab your target, invigorating yourself.
     keywords:
         - Animapathy

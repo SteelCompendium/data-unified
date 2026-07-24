@@ -5,7 +5,11 @@ cost: 7 Essence
 cost_amount: "7"
 cost_resource: Essence
 distance: 10 wall within 10
-effect: The wall lasts until the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), and can be placed in occupied squares. Creatures can enter and pass through the wall. Each enemy who enters the area for the first time in a [combat round](scc.v1:mcdm.heroes.v1/rule.combat/combat-round) or starts their turn there takes fire damage equal to your [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) score for each square of the area they start their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) in or enter.
+effects:
+    - effect: The wall lasts until the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), and can be placed in occupied squares. Creatures can enter and pass through the wall. Each enemy who enters the area for the first time in a [combat round](scc.v1:mcdm.heroes.v1/rule.combat/combat-round) or starts their turn there takes fire damage equal to your [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) score for each square of the area they start their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) in or enter.
+      name: Effect
+    - effect: The wall lasts until the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), and you can add a number of squares to the wall equal to your [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) score.
+      name: Persistent 1
 feature_type: ability
 file_basename: wall-of-fire
 file_dpath: feature/ability/elementalist/level-3
@@ -30,6 +34,9 @@ cost: 7 Essence
 distance: 10 wall within 10
 effects:
     - effect: The wall lasts until the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), and can be placed in occupied squares. Creatures can enter and pass through the wall. Each enemy who enters the area for the first time in a [combat round](scc.v1:mcdm.heroes.v1/rule.combat/combat-round) or starts their turn there takes fire damage equal to your [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) score for each square of the area they start their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) in or enter.
+      name: Effect
+    - effect: The wall lasts until the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), and you can add a number of squares to the wall equal to your [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) score.
+      name: Persistent 1
 feature_type: ability
 flavor: A blazing, beautifully organized inferno erupts at your command.
 keywords:
@@ -42,7 +49,11 @@ metadata:
     class: elementalist
     cost: 7 Essence
     distance: 10 wall within 10
-    effect: The wall lasts until the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), and can be placed in occupied squares. Creatures can enter and pass through the wall. Each enemy who enters the area for the first time in a [combat round](scc.v1:mcdm.heroes.v1/rule.combat/combat-round) or starts their turn there takes fire damage equal to your [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) score for each square of the area they start their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) in or enter.
+    effects:
+        - effect: The wall lasts until the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), and can be placed in occupied squares. Creatures can enter and pass through the wall. Each enemy who enters the area for the first time in a [combat round](scc.v1:mcdm.heroes.v1/rule.combat/combat-round) or starts their turn there takes fire damage equal to your [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) score for each square of the area they start their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) in or enter.
+          name: Effect
+        - effect: The wall lasts until the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), and you can add a number of squares to the wall equal to your [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) score.
+          name: Persistent 1
     flavor: A blazing, beautifully organized inferno erupts at your command.
     keywords:
         - Area

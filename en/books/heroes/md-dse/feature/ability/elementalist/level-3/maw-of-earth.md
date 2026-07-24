@@ -5,7 +5,13 @@ cost: 7 Essence
 cost_amount: "7"
 cost_resource: Essence
 distance: 3 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 10
-effect: The ground in or directly beneath the area drops 3 squares.
+effects:
+    - roll: Power Roll + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason)
+      tier1: 5 damage
+      tier2: 9 damage
+      tier3: 12 damage
+    - effect: The ground in or directly beneath the area drops 3 squares.
+      name: Effect
 feature_type: ability
 file_basename: maw-of-earth
 file_dpath: feature/ability/elementalist/level-3
@@ -33,11 +39,12 @@ type: ability
 cost: 7 Essence
 distance: 3 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 10
 effects:
-    - effect: The ground in or directly beneath the area drops 3 squares.
     - roll: Power Roll + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason)
       tier1: 5 damage
       tier2: 9 damage
       tier3: 12 damage
+    - effect: The ground in or directly beneath the area drops 3 squares.
+      name: Effect
 feature_type: ability
 flavor: You open up the ground, spewing out shrapnel of stone and debris.
 keywords:
@@ -50,7 +57,13 @@ metadata:
     class: elementalist
     cost: 7 Essence
     distance: 3 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 10
-    effect: The ground in or directly beneath the area drops 3 squares.
+    effects:
+        - roll: Power Roll + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason)
+          tier1: 5 damage
+          tier2: 9 damage
+          tier3: 12 damage
+        - effect: The ground in or directly beneath the area drops 3 squares.
+          name: Effect
     flavor: You open up the ground, spewing out shrapnel of stone and debris.
     keywords:
         - Area

@@ -2,7 +2,9 @@
 action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: "null"
 distance: 1 [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura)
-effect: Each target reduces their [potencies](scc.v1:mcdm.heroes.v1/rule.character/potency) by 1.
+effects:
+    - effect: Each target reduces their [potencies](scc.v1:mcdm.heroes.v1/rule.character/potency) by 1.
+      name: Effect
 feature_type: ability
 file_basename: null-field
 file_dpath: feature/ability/null/level-1
@@ -24,6 +26,7 @@ type: ability
 distance: 1 [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura)
 effects:
     - effect: Each target reduces their [potencies](scc.v1:mcdm.heroes.v1/rule.character/potency) by 1.
+      name: Effect
 feature_type: ability
 flavor: You project an [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura) that dampens the power of your foes.
 keywords:
@@ -33,7 +36,9 @@ metadata:
     action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: "null"
     distance: 1 [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura)
-    effect: Each target reduces their [potencies](scc.v1:mcdm.heroes.v1/rule.character/potency) by 1.
+    effects:
+        - effect: Each target reduces their [potencies](scc.v1:mcdm.heroes.v1/rule.character/potency) by 1.
+          name: Effect
     flavor: You project an [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura) that dampens the power of your foes.
     keywords:
         - Area

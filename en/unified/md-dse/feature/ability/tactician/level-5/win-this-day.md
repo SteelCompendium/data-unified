@@ -5,7 +5,9 @@ cost: 9 Focus
 cost_amount: "9"
 cost_resource: Focus
 distance: 3 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)
-effect: Each target gains 2 [surges](scc.v1:mcdm.heroes.v1/rule.resource/surge). Additionally, they can spend a [Recovery](scc.v1:mcdm.heroes.v1/rule.health/recoveries), remove any [conditions](scc.v1:mcdm.heroes.v1/rule.combat/condition) or effects on them, and stand up if they [are prone](scc.v1:mcdm.heroes.v1/condition/prone).
+effects:
+    - effect: Each target gains 2 [surges](scc.v1:mcdm.heroes.v1/rule.resource/surge). Additionally, they can spend a [Recovery](scc.v1:mcdm.heroes.v1/rule.health/recoveries), remove any [conditions](scc.v1:mcdm.heroes.v1/rule.combat/condition) or effects on them, and stand up if they [are prone](scc.v1:mcdm.heroes.v1/condition/prone).
+      name: Effect
 feature_type: ability
 file_basename: win-this-day
 file_dpath: feature/ability/tactician/level-5
@@ -27,6 +29,7 @@ cost: 9 Focus
 distance: 3 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)
 effects:
     - effect: Each target gains 2 [surges](scc.v1:mcdm.heroes.v1/rule.resource/surge). Additionally, they can spend a [Recovery](scc.v1:mcdm.heroes.v1/rule.health/recoveries), remove any [conditions](scc.v1:mcdm.heroes.v1/rule.combat/condition) or effects on them, and stand up if they [are prone](scc.v1:mcdm.heroes.v1/condition/prone).
+      name: Effect
 feature_type: ability
 flavor: You inspire your allies to recover and gather their strength.
 keywords:
@@ -36,7 +39,9 @@ metadata:
     class: tactician
     cost: 9 Focus
     distance: 3 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)
-    effect: Each target gains 2 [surges](scc.v1:mcdm.heroes.v1/rule.resource/surge). Additionally, they can spend a [Recovery](scc.v1:mcdm.heroes.v1/rule.health/recoveries), remove any [conditions](scc.v1:mcdm.heroes.v1/rule.combat/condition) or effects on them, and stand up if they [are prone](scc.v1:mcdm.heroes.v1/condition/prone).
+    effects:
+        - effect: Each target gains 2 [surges](scc.v1:mcdm.heroes.v1/rule.resource/surge). Additionally, they can spend a [Recovery](scc.v1:mcdm.heroes.v1/rule.health/recoveries), remove any [conditions](scc.v1:mcdm.heroes.v1/rule.combat/condition) or effects on them, and stand up if they [are prone](scc.v1:mcdm.heroes.v1/condition/prone).
+          name: Effect
     flavor: You inspire your allies to recover and gather their strength.
     keywords:
         - Area

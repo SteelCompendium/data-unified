@@ -3,7 +3,13 @@ action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: fury
 cost: 11 Ferocity
 distance: 3 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)
-effect: If this [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) causes a target to slam into you, you take no damage from the collision and the target takes the damage you would have taken.
+effects:
+    - roll: Power Roll + [Might](scc.v1:mcdm.heroes.v1/rule.character/might)
+      tier1: 3 damage; vertical [pull](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3
+      tier2: 5 damage; vertical [pull](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5
+      tier3: 8 damage; vertical [pull](scc.v1:mcdm.heroes.v1/movement/forced-movement) 7
+    - effect: If this [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) causes a target to slam into you, you take no damage from the collision and the target takes the damage you would have taken.
+      name: Effect
 flavor: You channel the power of the Primordial Chaos to pull foes to you.
 keywords:
     - Area

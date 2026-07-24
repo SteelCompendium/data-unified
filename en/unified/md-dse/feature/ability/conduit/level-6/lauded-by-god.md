@@ -5,7 +5,9 @@ cost: 9 Piety
 cost_amount: "9"
 cost_resource: Piety
 distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
-effect: Each target gains 3 of their [Heroic Resource](scc.v1:mcdm.heroes.v1/rule.resource/heroic-resource).
+effects:
+    - effect: Each target gains 3 of their [Heroic Resource](scc.v1:mcdm.heroes.v1/rule.resource/heroic-resource).
+      name: Effect
 feature_type: ability
 file_basename: lauded-by-god
 file_dpath: feature/ability/conduit/level-6
@@ -29,6 +31,7 @@ cost: 9 Piety
 distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
 effects:
     - effect: Each target gains 3 of their [Heroic Resource](scc.v1:mcdm.heroes.v1/rule.resource/heroic-resource).
+      name: Effect
 feature_type: ability
 flavor: You beseech the gods to give your allies what they need to win the day, and the gods answer.
 keywords:
@@ -39,7 +42,9 @@ metadata:
     class: conduit
     cost: 9 Piety
     distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
-    effect: Each target gains 3 of their [Heroic Resource](scc.v1:mcdm.heroes.v1/rule.resource/heroic-resource).
+    effects:
+        - effect: Each target gains 3 of their [Heroic Resource](scc.v1:mcdm.heroes.v1/rule.resource/heroic-resource).
+          name: Effect
     flavor: You beseech the gods to give your allies what they need to win the day, and the gods answer.
     keywords:
         - Magic

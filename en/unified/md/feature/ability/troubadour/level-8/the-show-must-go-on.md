@@ -3,7 +3,13 @@ action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: troubadour
 cost: 11 Drama
 distance: 5 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 10
-effect: Each ally within [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance) can't obtain lower than a tier 2 outcome on the next [test](scc.v1:mcdm.heroes.v1/rule.test/test) they make before the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn).
+effects:
+    - roll: Power Roll + [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence)
+      tier1: 6 damage; P < WEAK, the target can't willingly leave the area ([EoT](scc.v1:mcdm.heroes.v1/rule.combat/end-of-turn))
+      tier2: 8 damage; P < AVERAGE, the target can't willingly leave the area (save ends)
+      tier3: 12 damage; the target can't willingly leave the area ([EoT](scc.v1:mcdm.heroes.v1/rule.combat/end-of-turn)); if P < STRONG, they can't willingly leave the area (save ends)
+    - effect: Each ally within [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance) can't obtain lower than a tier 2 outcome on the next [test](scc.v1:mcdm.heroes.v1/rule.test/test) they make before the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn).
+      name: Effect
 flavor: You shine a bright light on the players on the stage and compel them to finish the performance.
 keywords:
     - Area

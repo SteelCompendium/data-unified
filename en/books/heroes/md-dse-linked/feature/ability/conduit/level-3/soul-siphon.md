@@ -5,7 +5,13 @@ cost: 7 Piety
 cost_amount: "7"
 cost_resource: Piety
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
-effect: One ally within [distance](../../../../rule/combat/distance.md) can spend any number of [Recoveries](../../../../rule/health/recoveries.md).
+effects:
+    - roll: Power Roll + [Intuition](../../../../rule/character/intuition.md)
+      tier1: 7 + I corruption damage
+      tier2: 10 + I corruption damage
+      tier3: 15 + I corruption damage
+    - effect: One ally within [distance](../../../../rule/combat/distance.md) can spend any number of [Recoveries](../../../../rule/health/recoveries.md).
+      name: Effect
 feature_type: ability
 file_basename: soul-siphon
 file_dpath: feature/ability/conduit/level-3
@@ -32,11 +38,12 @@ type: ability
 cost: 7 Piety
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
 effects:
-    - effect: One ally within [distance](../../../../rule/combat/distance.md) can spend any number of [Recoveries](../../../../rule/health/recoveries.md).
     - roll: Power Roll + [Intuition](../../../../rule/character/intuition.md)
       tier1: 7 + I corruption damage
       tier2: 10 + I corruption damage
       tier3: 15 + I corruption damage
+    - effect: One ally within [distance](../../../../rule/combat/distance.md) can spend any number of [Recoveries](../../../../rule/health/recoveries.md).
+      name: Effect
 feature_type: ability
 flavor: A beam of energy connects a foe to a friend, draining life from one to heal the other.
 keywords:
@@ -48,7 +55,13 @@ metadata:
     class: conduit
     cost: 7 Piety
     distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
-    effect: One ally within [distance](../../../../rule/combat/distance.md) can spend any number of [Recoveries](../../../../rule/health/recoveries.md).
+    effects:
+        - roll: Power Roll + [Intuition](../../../../rule/character/intuition.md)
+          tier1: 7 + I corruption damage
+          tier2: 10 + I corruption damage
+          tier3: 15 + I corruption damage
+        - effect: One ally within [distance](../../../../rule/combat/distance.md) can spend any number of [Recoveries](../../../../rule/health/recoveries.md).
+          name: Effect
     flavor: A beam of energy connects a foe to a friend, draining life from one to heal the other.
     keywords:
         - Magic

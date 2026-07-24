@@ -5,7 +5,9 @@ cost: 5 Piety
 cost_amount: "5"
 cost_resource: Piety
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
-effect: Until the start of your next [turn](../../../../rule/combat/turn.md), each time a target kills an enemy, they regain [Stamina](../../../../rule/health/stamina.md) equal to 5 + your [Intuition](../../../../rule/character/intuition.md) score.
+effects:
+    - effect: Until the start of your next [turn](../../../../rule/combat/turn.md), each time a target kills an enemy, they regain [Stamina](../../../../rule/health/stamina.md) equal to 5 + your [Intuition](../../../../rule/character/intuition.md) score.
+      name: Effect
 feature_type: ability
 file_basename: reap
 file_dpath: feature/ability/conduit/level-2
@@ -29,6 +31,7 @@ cost: 5 Piety
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
 effects:
     - effect: Until the start of your next [turn](../../../../rule/combat/turn.md), each time a target kills an enemy, they regain [Stamina](../../../../rule/health/stamina.md) equal to 5 + your [Intuition](../../../../rule/character/intuition.md) score.
+      name: Effect
 feature_type: ability
 flavor: The gods reward those who smite their foes.
 keywords:
@@ -39,7 +42,9 @@ metadata:
     class: conduit
     cost: 5 Piety
     distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
-    effect: Until the start of your next [turn](../../../../rule/combat/turn.md), each time a target kills an enemy, they regain [Stamina](../../../../rule/health/stamina.md) equal to 5 + your [Intuition](../../../../rule/character/intuition.md) score.
+    effects:
+        - effect: Until the start of your next [turn](../../../../rule/combat/turn.md), each time a target kills an enemy, they regain [Stamina](../../../../rule/health/stamina.md) equal to 5 + your [Intuition](../../../../rule/character/intuition.md) score.
+          name: Effect
     flavor: The gods reward those who smite their foes.
     keywords:
         - Magic

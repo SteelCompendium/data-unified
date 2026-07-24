@@ -2,7 +2,13 @@
 action_type: Main action
 ancestry: revenant
 distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
-effect: The sigil disappears from the creature.
+effects:
+    - roll: Power Roll + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason), [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition), or [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence)
+      tier1: 3 + R, I, or P damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1
+      tier2: 5 + R, I, or P damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2
+      tier3: 7 + R, I, or P damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3
+    - effect: The sigil disappears from the creature.
+      name: Effect
 flavor: A magic sigil you placed on a creature explodes with energy.
 keywords:
     - Magic

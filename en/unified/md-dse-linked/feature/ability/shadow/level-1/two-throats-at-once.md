@@ -5,6 +5,11 @@ cost: 3 Insight
 cost_amount: "3"
 cost_resource: Insight
 distance: '[Melee](../../../../rule/combat/melee.md) 1 or [ranged](../../../../rule/combat/ranged.md) 5'
+effects:
+    - roll: Power Roll + [Agility](../../../../rule/character/agility.md)
+      tier1: 4 damage
+      tier2: 6 damage
+      tier3: 10 damage
 feature_type: ability
 file_basename: two-throats-at-once
 file_dpath: feature/ability/shadow/level-1
@@ -48,6 +53,11 @@ metadata:
     class: shadow
     cost: 3 Insight
     distance: '[Melee](../../../../rule/combat/melee.md) 1 or [ranged](../../../../rule/combat/ranged.md) 5'
+    effects:
+        - roll: Power Roll + [Agility](../../../../rule/character/agility.md)
+          tier1: 4 damage
+          tier2: 6 damage
+          tier3: 10 damage
     flavor: A bargain.
     keywords:
         - '[Melee](../../../../rule/combat/melee.md)'

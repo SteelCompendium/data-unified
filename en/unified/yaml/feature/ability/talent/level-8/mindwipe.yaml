@@ -7,6 +7,8 @@ effects:
       tier3: 23 + R damage; R < STRONG, the target has a double [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) on [power rolls](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) (save ends)
     - effect: The target can't communicate with anyone until the end of the encounter.
       name: Effect
+    - effect: You take 3d6 damage.
+      name: Strained
 feature_type: ability
 flavor: You attempt to make them forget all their training.
 keywords:

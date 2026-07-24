@@ -5,7 +5,9 @@ cost: 3 Clarity
 cost_amount: "3"
 cost_resource: Clarity
 distance: '[Melee](../../../../rule/combat/melee.md) 2'
-effect: '[Ability rolls](../../../../rule/dice/ability-roll.md) made against the target take a [bane](../../../../rule/dice/bane.md) until the start of your next [turn](../../../../rule/combat/turn.md). Whenever the target takes damage while under this effect, they can use a [triggered action](../../../../rule/combat/triggered-action.md) to make a [free strike](../../../common/main-actions/free-strike.md) against the source of the damage.'
+effects:
+    - effect: '[Ability rolls](../../../../rule/dice/ability-roll.md) made against the target take a [bane](../../../../rule/dice/bane.md) until the start of your next [turn](../../../../rule/combat/turn.md). Whenever the target takes damage while under this effect, they can use a [triggered action](../../../../rule/combat/triggered-action.md) to make a [free strike](../../../common/main-actions/free-strike.md) against the source of the damage.'
+      name: Effect
 feature_type: ability
 file_basename: precognition
 file_dpath: feature/ability/talent/level-1
@@ -29,6 +31,7 @@ cost: 3 Clarity
 distance: '[Melee](../../../../rule/combat/melee.md) 2'
 effects:
     - effect: '[Ability rolls](../../../../rule/dice/ability-roll.md) made against the target take a [bane](../../../../rule/dice/bane.md) until the start of your next [turn](../../../../rule/combat/turn.md). Whenever the target takes damage while under this effect, they can use a [triggered action](../../../../rule/combat/triggered-action.md) to make a [free strike](../../../common/main-actions/free-strike.md) against the source of the damage.'
+      name: Effect
 feature_type: ability
 flavor: You give a target a glimpse into the future so that they're ready for what comes next.
 keywords:
@@ -40,7 +43,9 @@ metadata:
     class: talent
     cost: 3 Clarity
     distance: '[Melee](../../../../rule/combat/melee.md) 2'
-    effect: '[Ability rolls](../../../../rule/dice/ability-roll.md) made against the target take a [bane](../../../../rule/dice/bane.md) until the start of your next [turn](../../../../rule/combat/turn.md). Whenever the target takes damage while under this effect, they can use a [triggered action](../../../../rule/combat/triggered-action.md) to make a [free strike](../../../common/main-actions/free-strike.md) against the source of the damage.'
+    effects:
+        - effect: '[Ability rolls](../../../../rule/dice/ability-roll.md) made against the target take a [bane](../../../../rule/dice/bane.md) until the start of your next [turn](../../../../rule/combat/turn.md). Whenever the target takes damage while under this effect, they can use a [triggered action](../../../../rule/combat/triggered-action.md) to make a [free strike](../../../common/main-actions/free-strike.md) against the source of the damage.'
+          name: Effect
     flavor: You give a target a glimpse into the future so that they're ready for what comes next.
     keywords:
         - Chronopathy

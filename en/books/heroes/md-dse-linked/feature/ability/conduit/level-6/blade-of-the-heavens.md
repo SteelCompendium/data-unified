@@ -5,6 +5,11 @@ cost: 9 Piety
 cost_amount: "9"
 cost_resource: Piety
 distance: '[Ranged](../../../../rule/combat/ranged.md) 5'
+effects:
+    - roll: Power Roll + [Intuition](../../../../rule/character/intuition.md)
+      tier1: 8 + I damage; A < WEAK, [prone and](../../../../condition/prone.md) [restrained](../../../../condition/restrained.md) (save ends)
+      tier2: 12 + I damage; A < AVERAGE, [prone and](../../../../condition/prone.md) [restrained](../../../../condition/restrained.md) (save ends)
+      tier3: 16 + I damage; A < STRONG, [prone and](../../../../condition/prone.md) [restrained](../../../../condition/restrained.md) (save ends)
 feature_type: ability
 file_basename: blade-of-the-heavens
 file_dpath: feature/ability/conduit/level-6
@@ -47,6 +52,11 @@ metadata:
     class: conduit
     cost: 9 Piety
     distance: '[Ranged](../../../../rule/combat/ranged.md) 5'
+    effects:
+        - roll: Power Roll + [Intuition](../../../../rule/character/intuition.md)
+          tier1: 8 + I damage; A < WEAK, [prone and](../../../../condition/prone.md) [restrained](../../../../condition/restrained.md) (save ends)
+          tier2: 12 + I damage; A < AVERAGE, [prone and](../../../../condition/prone.md) [restrained](../../../../condition/restrained.md) (save ends)
+          tier3: 16 + I damage; A < STRONG, [prone and](../../../../condition/prone.md) [restrained](../../../../condition/restrained.md) (save ends)
     flavor: A greatsword streams down from the sky, threatening to pin your foe.
     keywords:
         - Magic

@@ -3,7 +3,13 @@ action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: censor
 cost: 5 Wrath
 distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1 or [ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 5'
-effect: Each enemy [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) this way is [pushed](scc.v1:mcdm.heroes.v1/movement/forced-movement) up to 2 squares away from the target and takes psychic damage equal to your [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence) score.
+effects:
+    - roll: Power Roll + [Might](scc.v1:mcdm.heroes.v1/rule.character/might)
+      tier1: 3 + M holy damage; if the target has P < WEAK, each enemy within 2 squares of them is [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) of you (save ends)
+      tier2: 5 + M holy damage; if the target has P < AVERAGE, each enemy within 2 squares of them is [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) of you (save ends)
+      tier3: 8 + M holy damage; if the target has P < STRONG, each enemy within 2 squares of them is [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) of you (save ends)
+    - effect: Each enemy [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) this way is [pushed](scc.v1:mcdm.heroes.v1/movement/forced-movement) up to 2 squares away from the target and takes psychic damage equal to your [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence) score.
+      name: Effect
 flavor: You attack a foe and your enemies behold a vision of the true nature of your resolve.
 keywords:
     - Magic

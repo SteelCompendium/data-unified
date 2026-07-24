@@ -3,7 +3,13 @@ action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: elementalist
 cost: 11 Essence
 distance: 5 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 10
-effect: The Director's Malice can become negative as a result of this ability.
+effects:
+    - roll: Power Roll + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason)
+      tier1: '7 fire damage; the Director loses 2 Malice (see *Draw Steel: Monsters*)'
+      tier2: 10 fire damage; the Director loses 3 Malice
+      tier3: 15 fire damage; the Director loses 4 Malice
+    - effect: The Director's Malice can become negative as a result of this ability.
+      name: Effect
 flavor: The fire burns hot enough to sear the face of any god watching.
 keywords:
     - Area

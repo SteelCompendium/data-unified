@@ -5,7 +5,9 @@ cost: 11 Essence
 cost_amount: "11"
 cost_resource: Essence
 distance: Self
-effect: You use up to three [heroic abilities](../../../../rule/general/heroic-ability.md) whose essence costs total 11 or less, spending no additional essence beyond the cost of this ability. You can [shift](../../../../movement/shifting.md) up to 2 squares between your use of each ability.
+effects:
+    - effect: You use up to three [heroic abilities](../../../../rule/general/heroic-ability.md) whose essence costs total 11 or less, spending no additional essence beyond the cost of this ability. You can [shift](../../../../movement/shifting.md) up to 2 squares between your use of each ability.
+      name: Effect
 feature_type: ability
 file_basename: prism
 file_dpath: feature/ability/elementalist/level-9
@@ -28,6 +30,7 @@ cost: 11 Essence
 distance: Self
 effects:
     - effect: You use up to three [heroic abilities](../../../../rule/general/heroic-ability.md) whose essence costs total 11 or less, spending no additional essence beyond the cost of this ability. You can [shift](../../../../movement/shifting.md) up to 2 squares between your use of each ability.
+      name: Effect
 feature_type: ability
 flavor: You split your essence, allowing you to cast multiple effects at once.
 keywords:
@@ -38,7 +41,9 @@ metadata:
     class: elementalist
     cost: 11 Essence
     distance: Self
-    effect: You use up to three [heroic abilities](../../../../rule/general/heroic-ability.md) whose essence costs total 11 or less, spending no additional essence beyond the cost of this ability. You can [shift](../../../../movement/shifting.md) up to 2 squares between your use of each ability.
+    effects:
+        - effect: You use up to three [heroic abilities](../../../../rule/general/heroic-ability.md) whose essence costs total 11 or less, spending no additional essence beyond the cost of this ability. You can [shift](../../../../movement/shifting.md) up to 2 squares between your use of each ability.
+          name: Effect
     flavor: You split your essence, allowing you to cast multiple effects at once.
     keywords:
         - Magic

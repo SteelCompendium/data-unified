@@ -3,14 +3,14 @@
   "distance": "[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10",
   "effects": [
     {
+      "effect": "Each target uses a [signature ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability) against one or more targets of your choosing, with each ability automatically obtaining a tier 3 outcome on the [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll). After resolving the targets' abilities, you make a [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) against each original target.",
+      "name": "Effect"
+    },
+    {
       "roll": "Power Roll + [Might](scc.v1:mcdm.heroes.v1/rule.character/might)",
       "tier1": "R \u003c WEAK, [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)",
       "tier2": "R \u003c AVERAGE, [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)",
       "tier3": "R \u003c STRONG, [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)"
-    },
-    {
-      "effect": "Each target uses a [signature ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability) against one or more targets of your choosing, with each ability automatically obtaining a tier 3 outcome on the [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll). After resolving the targets' abilities, you make a [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) against each original target.",
-      "name": "Effect"
     }
   ],
   "feature_type": "ability",

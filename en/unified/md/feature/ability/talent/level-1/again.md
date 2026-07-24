@@ -2,7 +2,9 @@
 action_type: '[Triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)'
 class: talent
 distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
-effect: You can use this ability after seeing the result of the triggering roll. The target must reroll the [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) and use the new roll.
+effects:
+    - effect: You can use this ability after seeing the result of the triggering roll. The target must reroll the [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) and use the new roll.
+      name: Effect
 flavor: You step back a split second to see if things play out a little differently.
 keywords:
     - Psionic

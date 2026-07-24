@@ -5,7 +5,13 @@ cost: 5 Drama
 cost_amount: "5"
 cost_resource: Drama
 distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
-effect: You can become [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends) to deal an extra 5 corruption damage to the target.
+effects:
+    - roll: Power Roll + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)
+      tier1: 6 + A damage; P < WEAK, [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+      tier2: 10 + A damage; P < AVERAGE, [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+      tier3: 14 + A damage; P < STRONG, [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+    - effect: You can become [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends) to deal an extra 5 corruption damage to the target.
+      name: Effect
 feature_type: ability
 file_basename: method-acting
 file_dpath: feature/ability/troubadour/level-1
@@ -32,11 +38,12 @@ type: ability
 cost: 5 Drama
 distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
 effects:
-    - effect: You can become [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends) to deal an extra 5 corruption damage to the target.
     - roll: Power Roll + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)
       tier1: 6 + A damage; P < WEAK, [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
       tier2: 10 + A damage; P < AVERAGE, [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
       tier3: 14 + A damage; P < STRONG, [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+    - effect: You can become [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends) to deal an extra 5 corruption damage to the target.
+      name: Effect
 feature_type: ability
 flavor: They're so hurt by your performance, you start to believe it yourself.
 keywords:
@@ -48,7 +55,13 @@ metadata:
     class: troubadour
     cost: 5 Drama
     distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
-    effect: You can become [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends) to deal an extra 5 corruption damage to the target.
+    effects:
+        - roll: Power Roll + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)
+          tier1: 6 + A damage; P < WEAK, [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+          tier2: 10 + A damage; P < AVERAGE, [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+          tier3: 14 + A damage; P < STRONG, [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+        - effect: You can become [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends) to deal an extra 5 corruption damage to the target.
+          name: Effect
     flavor: They're so hurt by your performance, you start to believe it yourself.
     keywords:
         - '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)'

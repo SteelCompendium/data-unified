@@ -2,7 +2,9 @@
 action_type: '[No action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: troubadour
 distance: 5 [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura)
-effect: While this performance is active, each target who starts their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) in the area gains 1 [surge](scc.v1:mcdm.heroes.v1/rule.resource/surge).
+effects:
+    - effect: While this performance is active, each target who starts their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) in the area gains 1 [surge](scc.v1:mcdm.heroes.v1/rule.resource/surge).
+      name: Effect
 feature_type: ability
 file_basename: ballad-of-the-beast
 file_dpath: feature/ability/troubadour/level-1
@@ -26,6 +28,7 @@ type: ability
 distance: 5 [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura)
 effects:
     - effect: While this performance is active, each target who starts their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) in the area gains 1 [surge](scc.v1:mcdm.heroes.v1/rule.resource/surge).
+      name: Effect
 feature_type: ability
 flavor: Teeth are bare! ♪ Eyes black! ♪ No escaping the beast!♪
 keywords:
@@ -36,7 +39,9 @@ metadata:
     action_type: '[No action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: troubadour
     distance: 5 [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura)
-    effect: While this performance is active, each target who starts their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) in the area gains 1 [surge](scc.v1:mcdm.heroes.v1/rule.resource/surge).
+    effects:
+        - effect: While this performance is active, each target who starts their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) in the area gains 1 [surge](scc.v1:mcdm.heroes.v1/rule.resource/surge).
+          name: Effect
     flavor: Teeth are bare! ♪ Eyes black! ♪ No escaping the beast!♪
     keywords:
         - Area

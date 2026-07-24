@@ -5,7 +5,15 @@ cost: 9 Essence
 cost_amount: "9"
 cost_resource: Essence
 distance: 4 [cube](../../../../rule/combat/cube.md) within 10
-effect: The area is [difficult terrain](../../../../movement/difficult-terrain.md) until the start of your next [turn](../../../../rule/combat/turn.md). Each enemy who ends their [turn](../../../../rule/combat/turn.md) in the area is [restrained](../../../../condition/restrained.md) (save ends).
+effects:
+    - roll: Power Roll + [Reason](../../../../rule/character/reason.md)
+      tier1: 2 corruption damage; A < WEAK, [restrained](../../../../condition/restrained.md) (save ends)
+      tier2: 3 corruption damage; A < AVERAGE, [restrained](../../../../condition/restrained.md) (save ends)
+      tier3: 5 corruption damage; A < STRONG, [restrained](../../../../condition/restrained.md) (save ends)
+    - effect: The area is [difficult terrain](../../../../movement/difficult-terrain.md) until the start of your next [turn](../../../../rule/combat/turn.md). Each enemy who ends their [turn](../../../../rule/combat/turn.md) in the area is [restrained](../../../../condition/restrained.md) (save ends).
+      name: Effect
+    - effect: The area remains until the start of your next [turn](../../../../rule/combat/turn.md).
+      name: Persistent 1
 feature_type: ability
 file_basename: web-of-all-thats-come-before
 file_dpath: feature/ability/elementalist/level-5
@@ -33,11 +41,14 @@ type: ability
 cost: 9 Essence
 distance: 4 [cube](../../../../rule/combat/cube.md) within 10
 effects:
-    - effect: The area is [difficult terrain](../../../../movement/difficult-terrain.md) until the start of your next [turn](../../../../rule/combat/turn.md). Each enemy who ends their [turn](../../../../rule/combat/turn.md) in the area is [restrained](../../../../condition/restrained.md) (save ends).
     - roll: Power Roll + [Reason](../../../../rule/character/reason.md)
       tier1: 2 corruption damage; A < WEAK, [restrained](../../../../condition/restrained.md) (save ends)
       tier2: 3 corruption damage; A < AVERAGE, [restrained](../../../../condition/restrained.md) (save ends)
       tier3: 5 corruption damage; A < STRONG, [restrained](../../../../condition/restrained.md) (save ends)
+    - effect: The area is [difficult terrain](../../../../movement/difficult-terrain.md) until the start of your next [turn](../../../../rule/combat/turn.md). Each enemy who ends their [turn](../../../../rule/combat/turn.md) in the area is [restrained](../../../../condition/restrained.md) (save ends).
+      name: Effect
+    - effect: The area remains until the start of your next [turn](../../../../rule/combat/turn.md).
+      name: Persistent 1
 feature_type: ability
 flavor: Threads you've been weaving through your adventures create a vibrant, pearlescent web.
 keywords:
@@ -50,7 +61,15 @@ metadata:
     class: elementalist
     cost: 9 Essence
     distance: 4 [cube](../../../../rule/combat/cube.md) within 10
-    effect: The area is [difficult terrain](../../../../movement/difficult-terrain.md) until the start of your next [turn](../../../../rule/combat/turn.md). Each enemy who ends their [turn](../../../../rule/combat/turn.md) in the area is [restrained](../../../../condition/restrained.md) (save ends).
+    effects:
+        - roll: Power Roll + [Reason](../../../../rule/character/reason.md)
+          tier1: 2 corruption damage; A < WEAK, [restrained](../../../../condition/restrained.md) (save ends)
+          tier2: 3 corruption damage; A < AVERAGE, [restrained](../../../../condition/restrained.md) (save ends)
+          tier3: 5 corruption damage; A < STRONG, [restrained](../../../../condition/restrained.md) (save ends)
+        - effect: The area is [difficult terrain](../../../../movement/difficult-terrain.md) until the start of your next [turn](../../../../rule/combat/turn.md). Each enemy who ends their [turn](../../../../rule/combat/turn.md) in the area is [restrained](../../../../condition/restrained.md) (save ends).
+          name: Effect
+        - effect: The area remains until the start of your next [turn](../../../../rule/combat/turn.md).
+          name: Persistent 1
     flavor: Threads you've been weaving through your adventures create a vibrant, pearlescent web.
     keywords:
         - Area

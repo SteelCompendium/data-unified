@@ -2,7 +2,13 @@
 action_type: Main action
 class: beastheart
 distance: Melee 1
-effect: If you and a willing ally are standing on the ground within 10 squares of each other, you can [teleport](../../../../movement/teleport.md) to swap places. If you do, you gain an edge on this ability.
+effects:
+    - effect: If you and a willing ally are standing on the ground within 10 squares of each other, you can [teleport](../../../../movement/teleport.md) to swap places. If you do, you gain an edge on this ability.
+      name: Effect
+    - roll: Power Roll + Intuition
+      tier1: 3 + I damage
+      tier2: 5 + I damage
+      tier3: 7 + I damage
 feature_type: ability
 file_basename: bodyswap
 file_dpath: feature/ability/beastheart/level-1
@@ -32,6 +38,7 @@ type: ability
 distance: Melee 1
 effects:
     - effect: If you and a willing ally are standing on the ground within 10 squares of each other, you can [teleport](../../../../movement/teleport.md) to swap places. If you do, you gain an edge on this ability.
+      name: Effect
     - roll: Power Roll + Intuition
       tier1: 3 + I damage
       tier2: 5 + I damage
@@ -48,7 +55,13 @@ metadata:
     action_type: Main action
     class: beastheart
     distance: Melee 1
-    effect: If you and a willing ally are standing on the ground within 10 squares of each other, you can [teleport](../../../../movement/teleport.md) to swap places. If you do, you gain an edge on this ability.
+    effects:
+        - effect: If you and a willing ally are standing on the ground within 10 squares of each other, you can [teleport](../../../../movement/teleport.md) to swap places. If you do, you gain an edge on this ability.
+          name: Effect
+        - roll: Power Roll + Intuition
+          tier1: 3 + I damage
+          tier2: 5 + I damage
+          tier3: 7 + I damage
     flavor: You and your ally morph into each other, magically switching places.
     keywords:
         - Beastheart

@@ -3,7 +3,15 @@ action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: talent
 cost: 11 Clarity
 distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
-effect: 'This ability gains an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) against a target with a soul (see *Draw Steel: Monsters*). After you make the [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll), you or one ally within [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance) have a double [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on the next [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) you make before the end of the encounter.'
+effects:
+    - roll: Power Roll + [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence)
+      tier1: 10 + P damage; P < WEAK, [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+      tier2: 14 + P damage; P < AVERAGE, [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+      tier3: 20 + P damage; P < STRONG, [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) and [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
+    - effect: 'This ability gains an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) against a target with a soul (see *Draw Steel: Monsters*). After you make the [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll), you or one ally within [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance) have a double [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on the next [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) you make before the end of the encounter.'
+      name: Effect
+    - effect: You feel dispirited until you finish a [respite](scc.v1:mcdm.heroes.v1/rule.resource/respite). If you obtain a tier 3 outcome on the [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll), you and the target each have [damage weakness](scc.v1:mcdm.heroes.v1/rule.damage/damage-weakness) 5 (save ends).
+      name: Strained
 flavor: You tug at the strings of the foe's anima and unravel them, allowing someone else to take advantage of their drive.
 keywords:
     - Animapathy

@@ -5,7 +5,11 @@ cost: 5 Clarity
 cost_amount: "5"
 cost_resource: Clarity
 distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
-effect: Until the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), the target gains a +3 [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to [speed](scc.v1:mcdm.heroes.v1/rule.character/speed), and they have a double [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on the next [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) they make. If the target obtains a tier 3 outcome on that roll, you gain 1 clarity.
+effects:
+    - effect: Until the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), the target gains a +3 [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to [speed](scc.v1:mcdm.heroes.v1/rule.character/speed), and they have a double [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on the next [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) they make. If the target obtains a tier 3 outcome on that roll, you gain 1 clarity.
+      name: Effect
+    - effect: You take 1d6 damage, and you can't use [triggered actions](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action) (save ends).
+      name: Strained
 feature_type: ability
 file_basename: perfect-clarity
 file_dpath: feature/ability/talent/level-1
@@ -29,6 +33,9 @@ cost: 5 Clarity
 distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
 effects:
     - effect: Until the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), the target gains a +3 [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to [speed](scc.v1:mcdm.heroes.v1/rule.character/speed), and they have a double [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on the next [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) they make. If the target obtains a tier 3 outcome on that roll, you gain 1 clarity.
+      name: Effect
+    - effect: You take 1d6 damage, and you can't use [triggered actions](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action) (save ends).
+      name: Strained
 feature_type: ability
 flavor: You clear the mind of nothing but the goal.
 keywords:
@@ -40,7 +47,11 @@ metadata:
     class: talent
     cost: 5 Clarity
     distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
-    effect: Until the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), the target gains a +3 [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to [speed](scc.v1:mcdm.heroes.v1/rule.character/speed), and they have a double [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on the next [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) they make. If the target obtains a tier 3 outcome on that roll, you gain 1 clarity.
+    effects:
+        - effect: Until the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), the target gains a +3 [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to [speed](scc.v1:mcdm.heroes.v1/rule.character/speed), and they have a double [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on the next [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) they make. If the target obtains a tier 3 outcome on that roll, you gain 1 clarity.
+          name: Effect
+        - effect: You take 1d6 damage, and you can't use [triggered actions](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action) (save ends).
+          name: Strained
     flavor: You clear the mind of nothing but the goal.
     keywords:
         - Psionic

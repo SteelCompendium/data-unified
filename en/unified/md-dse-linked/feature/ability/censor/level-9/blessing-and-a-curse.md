@@ -5,7 +5,9 @@ cost: 11 Wrath
 cost_amount: "11"
 cost_resource: Wrath
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
-effect: The target obtains a tier 1 or tier 3 outcome on their [power roll](../../../../rule/dice/power-roll.md) (your choice). You can then choose another target within [distance](../../../../rule/combat/distance.md), who obtains the opposite outcome on their next [power roll](../../../../rule/dice/power-roll.md).
+effects:
+    - effect: The target obtains a tier 1 or tier 3 outcome on their [power roll](../../../../rule/dice/power-roll.md) (your choice). You can then choose another target within [distance](../../../../rule/combat/distance.md), who obtains the opposite outcome on their next [power roll](../../../../rule/dice/power-roll.md).
+      name: Effect
 feature_type: ability
 file_basename: blessing-and-a-curse
 file_dpath: feature/ability/censor/level-9
@@ -31,6 +33,7 @@ cost: 11 Wrath
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
 effects:
     - effect: The target obtains a tier 1 or tier 3 outcome on their [power roll](../../../../rule/dice/power-roll.md) (your choice). You can then choose another target within [distance](../../../../rule/combat/distance.md), who obtains the opposite outcome on their next [power roll](../../../../rule/dice/power-roll.md).
+      name: Effect
 feature_type: ability
 flavor: The gods bless and damn in equal measure.
 keywords:
@@ -41,7 +44,9 @@ metadata:
     class: censor
     cost: 11 Wrath
     distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
-    effect: The target obtains a tier 1 or tier 3 outcome on their [power roll](../../../../rule/dice/power-roll.md) (your choice). You can then choose another target within [distance](../../../../rule/combat/distance.md), who obtains the opposite outcome on their next [power roll](../../../../rule/dice/power-roll.md).
+    effects:
+        - effect: The target obtains a tier 1 or tier 3 outcome on their [power roll](../../../../rule/dice/power-roll.md) (your choice). You can then choose another target within [distance](../../../../rule/combat/distance.md), who obtains the opposite outcome on their next [power roll](../../../../rule/dice/power-roll.md).
+          name: Effect
     flavor: The gods bless and damn in equal measure.
     keywords:
         - Magic

@@ -5,7 +5,9 @@ cost: 9 Discipline
 cost_amount: "9"
 cost_resource: Discipline
 distance: 3 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)
-effect: Each target can end any [conditions](scc.v1:mcdm.heroes.v1/rule.combat/condition) or effects on themself, and gains 5 [temporary Stamina](scc.v1:mcdm.heroes.v1/rule.health/temporary-stamina) for each [condition](scc.v1:mcdm.heroes.v1/rule.combat/condition) or effect removed.
+effects:
+    - effect: Each target can end any [conditions](scc.v1:mcdm.heroes.v1/rule.combat/condition) or effects on themself, and gains 5 [temporary Stamina](scc.v1:mcdm.heroes.v1/rule.health/temporary-stamina) for each [condition](scc.v1:mcdm.heroes.v1/rule.combat/condition) or effect removed.
+      name: Effect
 feature_type: ability
 file_basename: synaptic-reset
 file_dpath: feature/ability/null/level-5
@@ -28,6 +30,7 @@ cost: 9 Discipline
 distance: 3 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)
 effects:
     - effect: Each target can end any [conditions](scc.v1:mcdm.heroes.v1/rule.combat/condition) or effects on themself, and gains 5 [temporary Stamina](scc.v1:mcdm.heroes.v1/rule.health/temporary-stamina) for each [condition](scc.v1:mcdm.heroes.v1/rule.combat/condition) or effect removed.
+      name: Effect
 feature_type: ability
 flavor: You expand your nullifying power to mitigate harmful effects.
 keywords:
@@ -38,7 +41,9 @@ metadata:
     class: "null"
     cost: 9 Discipline
     distance: 3 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)
-    effect: Each target can end any [conditions](scc.v1:mcdm.heroes.v1/rule.combat/condition) or effects on themself, and gains 5 [temporary Stamina](scc.v1:mcdm.heroes.v1/rule.health/temporary-stamina) for each [condition](scc.v1:mcdm.heroes.v1/rule.combat/condition) or effect removed.
+    effects:
+        - effect: Each target can end any [conditions](scc.v1:mcdm.heroes.v1/rule.combat/condition) or effects on themself, and gains 5 [temporary Stamina](scc.v1:mcdm.heroes.v1/rule.health/temporary-stamina) for each [condition](scc.v1:mcdm.heroes.v1/rule.combat/condition) or effect removed.
+          name: Effect
     flavor: You expand your nullifying power to mitigate harmful effects.
     keywords:
         - Area

@@ -5,6 +5,11 @@ cost: 11 Ferocity
 cost_amount: "11"
 cost_resource: Ferocity
 distance: 3 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)
+effects:
+    - roll: Power Roll + [Might](scc.v1:mcdm.heroes.v1/rule.character/might)
+      tier1: 4 psychic damage; any target who is a minion is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina)
+      tier2: 6 psychic damage; any target who is a minion is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), as does one [winded](scc.v1:mcdm.heroes.v1/rule.health/winded) target who is not a leader or solo creature
+      tier3: 10 psychic damage; each target who is not a leader or solo creature is [winded](scc.v1:mcdm.heroes.v1/rule.health/winded); any target who is a minion is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), as does one [winded](scc.v1:mcdm.heroes.v1/rule.health/winded) target who is not a leader or solo creature
 feature_type: ability
 file_basename: death-rattle
 file_dpath: feature/ability/fury/level-9
@@ -45,6 +50,11 @@ metadata:
     class: fury
     cost: 11 Ferocity
     distance: 3 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)
+    effects:
+        - roll: Power Roll + [Might](scc.v1:mcdm.heroes.v1/rule.character/might)
+          tier1: 4 psychic damage; any target who is a minion is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina)
+          tier2: 6 psychic damage; any target who is a minion is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), as does one [winded](scc.v1:mcdm.heroes.v1/rule.health/winded) target who is not a leader or solo creature
+          tier3: 10 psychic damage; each target who is not a leader or solo creature is [winded](scc.v1:mcdm.heroes.v1/rule.health/winded); any target who is a minion is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), as does one [winded](scc.v1:mcdm.heroes.v1/rule.health/winded) target who is not a leader or solo creature
     flavor: You unleash an otherworldly cry that rips through your enemies, killing the weakest of them.
     keywords:
         - Area

@@ -3,7 +3,13 @@ action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: censor
 cost: 5 Wrath
 distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
-effect: While the target is [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) this way, your abilities that impose [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) can still move them.
+effects:
+    - roll: Power Roll + [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence)
+      tier1: 5 + P damage; P < WEAK, [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
+      tier2: 9 + P damage; P < AVERAGE, [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
+      tier3: 12 + P damage; P < STRONG, [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
+    - effect: While the target is [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) this way, your abilities that impose [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) can still move them.
+      name: Effect
 flavor: The shock of your condemnation freezes your enemy in their boots.
 keywords:
     - Magic

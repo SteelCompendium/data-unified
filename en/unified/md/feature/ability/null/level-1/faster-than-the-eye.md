@@ -2,7 +2,13 @@
 action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: "null"
 distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
-effect: You can deal damage equal to your [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility) score to one creature or object [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to you.
+effects:
+    - roll: Power Roll + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)
+      tier1: 4 damage
+      tier2: 5 damage
+      tier3: 7 damage
+    - effect: You can deal damage equal to your [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility) score to one creature or object [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to you.
+      name: Effect
 flavor: You strike so quickly that your hands become a blur.
 keywords:
     - '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)'

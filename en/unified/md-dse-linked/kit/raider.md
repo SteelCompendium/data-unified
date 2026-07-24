@@ -26,11 +26,12 @@ You wear light armor and wield a shield and a light weapon.
 ```ds-feature
 distance: '[Melee](../rule/combat/melee.md) 1 or [ranged](../rule/combat/ranged.md) 10'
 effects:
-    - effect: The target takes a [bane](../rule/dice/bane.md) on their next [power roll](../rule/dice/power-roll.md) made before the end of their next [turn](../rule/combat/turn.md).
     - roll: Power Roll + [Might](../rule/character/might.md) or [Agility](../rule/character/agility.md)
       tier1: 3 + M or A damage
       tier2: 6 + M or A damage
       tier3: 8 + M or A damage
+    - effect: The target takes a [bane](../rule/dice/bane.md) on their next [power roll](../rule/dice/power-roll.md) made before the end of their next [turn](../rule/combat/turn.md).
+      name: Effect
 feature_type: ability
 flavor: You execute a brutal strike that leaves your foe reeling. (Previously known as "[Shock and Awe](../feature/tactician/level-7/shock-and-awe.md)")
 keywords:
@@ -41,7 +42,13 @@ keywords:
 metadata:
     action_type: Main action
     distance: '[Melee](../rule/combat/melee.md) 1 or [ranged](../rule/combat/ranged.md) 10'
-    effect: The target takes a [bane](../rule/dice/bane.md) on their next [power roll](../rule/dice/power-roll.md) made before the end of their next [turn](../rule/combat/turn.md).
+    effects:
+        - roll: Power Roll + [Might](../rule/character/might.md) or [Agility](../rule/character/agility.md)
+          tier1: 3 + M or A damage
+          tier2: 6 + M or A damage
+          tier3: 8 + M or A damage
+        - effect: The target takes a [bane](../rule/dice/bane.md) on their next [power roll](../rule/dice/power-roll.md) made before the end of their next [turn](../rule/combat/turn.md).
+          name: Effect
     flavor: You execute a brutal strike that leaves your foe reeling. (Previously known as "[Shock and Awe](../feature/tactician/level-7/shock-and-awe.md)")
     keywords:
         - '[Melee](../rule/combat/melee.md)'

@@ -3,7 +3,9 @@ action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: censor
 cost: 5 Wrath
 distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
-effect: The target can use a free [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action) to use a [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) [signature ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability) or a [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) [heroic ability](scc.v1:mcdm.heroes.v1/rule.general/heroic-ability), and has a double [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on that ability. If a [heroic ability](scc.v1:mcdm.heroes.v1/rule.general/heroic-ability) is chosen, reduce its [Heroic Resource](scc.v1:mcdm.heroes.v1/rule.resource/heroic-resource) cost by 3 (to a minimum cost of 0).
+effects:
+    - effect: The target can use a free [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action) to use a [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) [signature ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability) or a [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) [heroic ability](scc.v1:mcdm.heroes.v1/rule.general/heroic-ability), and has a double [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on that ability. If a [heroic ability](scc.v1:mcdm.heroes.v1/rule.general/heroic-ability) is chosen, reduce its [Heroic Resource](scc.v1:mcdm.heroes.v1/rule.resource/heroic-resource) cost by 3 (to a minimum cost of 0).
+      name: Effect
 flavor: A word in prayer, and the gods show the way.
 keywords:
     - Magic

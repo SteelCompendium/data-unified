@@ -3,7 +3,13 @@ action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: troubadour
 cost: 9 Drama
 distance: Three 3 [cubes](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 1
-effect: A [prone target](scc.v1:mcdm.heroes.v1/condition/prone) ignores this ability.
+effects:
+    - effect: A [prone target](scc.v1:mcdm.heroes.v1/condition/prone) ignores this ability.
+      name: Effect
+    - roll: Power Roll + [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence)
+      tier1: 7 sonic damage; P < WEAK[, prone](scc.v1:mcdm.heroes.v1/condition/prone)
+      tier2: 10 sonic damage; P < AVERAGE[, prone](scc.v1:mcdm.heroes.v1/condition/prone)
+      tier3: 13 sonic damage; P < STRONG[, prone](scc.v1:mcdm.heroes.v1/condition/prone)
 flavor: Your music pounds the crowd to the beat until their hearts can't stand it anymore.
 keywords:
     - Area

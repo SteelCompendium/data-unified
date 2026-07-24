@@ -5,7 +5,13 @@ cost: 7 Insight
 cost_amount: "7"
 cost_resource: Insight
 distance: '[Melee](../../../../rule/combat/melee.md) 1 or [ranged](../../../../rule/combat/ranged.md) 5'
-effect: The target is [taunted](../../../../condition/taunted.md) by a willing ally within 5 squares of you until the end of the target's next [turn](../../../../rule/combat/turn.md).
+effects:
+    - roll: Power Roll + [Agility](../../../../rule/character/agility.md)
+      tier1: 9 + A damage
+      tier2: 13 + A damage
+      tier3: 18 + A damage
+    - effect: The target is [taunted](../../../../condition/taunted.md) by a willing ally within 5 squares of you until the end of the target's next [turn](../../../../rule/combat/turn.md).
+      name: Effect
 feature_type: ability
 file_basename: misdirecting-strike
 file_dpath: feature/ability/shadow/level-3
@@ -33,11 +39,12 @@ type: ability
 cost: 7 Insight
 distance: '[Melee](../../../../rule/combat/melee.md) 1 or [ranged](../../../../rule/combat/ranged.md) 5'
 effects:
-    - effect: The target is [taunted](../../../../condition/taunted.md) by a willing ally within 5 squares of you until the end of the target's next [turn](../../../../rule/combat/turn.md).
     - roll: Power Roll + [Agility](../../../../rule/character/agility.md)
       tier1: 9 + A damage
       tier2: 13 + A damage
       tier3: 18 + A damage
+    - effect: The target is [taunted](../../../../condition/taunted.md) by a willing ally within 5 squares of you until the end of the target's next [turn](../../../../rule/combat/turn.md).
+      name: Effect
 feature_type: ability
 flavor: '"Why are you looking at ME?!"'
 keywords:
@@ -50,7 +57,13 @@ metadata:
     class: shadow
     cost: 7 Insight
     distance: '[Melee](../../../../rule/combat/melee.md) 1 or [ranged](../../../../rule/combat/ranged.md) 5'
-    effect: The target is [taunted](../../../../condition/taunted.md) by a willing ally within 5 squares of you until the end of the target's next [turn](../../../../rule/combat/turn.md).
+    effects:
+        - roll: Power Roll + [Agility](../../../../rule/character/agility.md)
+          tier1: 9 + A damage
+          tier2: 13 + A damage
+          tier3: 18 + A damage
+        - effect: The target is [taunted](../../../../condition/taunted.md) by a willing ally within 5 squares of you until the end of the target's next [turn](../../../../rule/combat/turn.md).
+          name: Effect
     flavor: '"Why are you looking at ME?!"'
     keywords:
         - '[Melee](../../../../rule/combat/melee.md)'

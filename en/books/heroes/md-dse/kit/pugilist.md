@@ -24,11 +24,12 @@ You wear no armor and wield only your unarmed [strikes](scc.v1:mcdm.heroes.v1/ru
 ```ds-feature
 distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
 effects:
-    - effect: You can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) into any square the target leaves after you [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) them.
     - roll: Power Roll + [Might](scc.v1:mcdm.heroes.v1/rule.character/might) or [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)
       tier1: 3 + M or A damage
       tier2: 6 + M or A damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1
       tier3: 8 + M or A damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2
+    - effect: You can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) into any square the target leaves after you [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) them.
+      name: Effect
 feature_type: ability
 flavor: Keeping your enemies stumbling around the battlefield is second nature to you.
 keywords:
@@ -38,7 +39,13 @@ keywords:
 metadata:
     action_type: Main action
     distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
-    effect: You can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) into any square the target leaves after you [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) them.
+    effects:
+        - roll: Power Roll + [Might](scc.v1:mcdm.heroes.v1/rule.character/might) or [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)
+          tier1: 3 + M or A damage
+          tier2: 6 + M or A damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1
+          tier3: 8 + M or A damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2
+        - effect: You can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) into any square the target leaves after you [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) them.
+          name: Effect
     flavor: Keeping your enemies stumbling around the battlefield is second nature to you.
     keywords:
         - '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)'

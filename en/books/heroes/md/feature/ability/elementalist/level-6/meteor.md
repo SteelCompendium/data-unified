@@ -3,7 +3,13 @@ action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: elementalist
 cost: 9 Essence
 distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
-effect: If the target is [teleport](scc.v1:mcdm.heroes.v1/movement/teleport)ed to a space where they would fall, they immediately do so, treating the fall as if their [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility) score were 0. The target takes fire damage from the fall, and each enemy within 3 squares of where they land takes the same amount of fire damage. The ground within 3 squares of where the target lands is [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain).
+effects:
+    - roll: Power Roll + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason)
+      tier1: You [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) the target up to 4 squares.
+      tier2: You [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) the target up to 6 squares.
+      tier3: You [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) the target up to 8 squares.
+    - effect: If the target is [teleport](scc.v1:mcdm.heroes.v1/movement/teleport)ed to a space where they would fall, they immediately do so, treating the fall as if their [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility) score were 0. The target takes fire damage from the fall, and each enemy within 3 squares of where they land takes the same amount of fire damage. The ground within 3 squares of where the target lands is [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain).
+      name: Effect
 flavor: You [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) the target into the air and let the ground and the elemental force of fire do the rest.
 keywords:
     - Earth

@@ -2,7 +2,9 @@
 action_type: Maneuver
 class: summoner
 distance: 4 burst
-effect: You can use this ability as if in the space of one of your minions within your Summoner's Range.
+effects:
+    - effect: You can use this ability as if in the space of one of your minions within your Summoner's Range.
+      name: Effect
 feature_source: summoner
 feature_type: ability
 file_basename: their-pall-shrouds-all
@@ -26,6 +28,7 @@ type: ability
 distance: 4 burst
 effects:
     - effect: You can use this ability as if in the space of one of your minions within your Summoner's Range.
+      name: Effect
 feature_type: ability
 flavor: Your champion fills the area with a thick haze hiding friend from foe.
 keywords:
@@ -36,7 +39,9 @@ metadata:
     action_type: Maneuver
     class: summoner
     distance: 4 burst
-    effect: You can use this ability as if in the space of one of your minions within your Summoner's Range.
+    effects:
+        - effect: You can use this ability as if in the space of one of your minions within your Summoner's Range.
+          name: Effect
     feature_source: summoner
     flavor: Your champion fills the area with a thick haze hiding friend from foe.
     keywords:

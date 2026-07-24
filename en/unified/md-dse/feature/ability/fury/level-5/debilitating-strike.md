@@ -5,7 +5,13 @@ cost: 9 Ferocity
 cost_amount: "9"
 cost_resource: Ferocity
 distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
-effect: While [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) this way, the target takes 1 damage for every square they move, including from [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement).
+effects:
+    - roll: Power Roll + [Might](scc.v1:mcdm.heroes.v1/rule.character/might)
+      tier1: 10 + M damage; M < WEAK, [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
+      tier2: 14 + M damage; M < AVERAGE, [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
+      tier3: 20 + M damage; M < STRONG, [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
+    - effect: While [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) this way, the target takes 1 damage for every square they move, including from [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement).
+      name: Effect
 feature_type: ability
 file_basename: debilitating-strike
 file_dpath: feature/ability/fury/level-5
@@ -32,11 +38,12 @@ type: ability
 cost: 9 Ferocity
 distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
 effects:
-    - effect: While [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) this way, the target takes 1 damage for every square they move, including from [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement).
     - roll: Power Roll + [Might](scc.v1:mcdm.heroes.v1/rule.character/might)
       tier1: 10 + M damage; M < WEAK, [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
       tier2: 14 + M damage; M < AVERAGE, [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
       tier3: 20 + M damage; M < STRONG, [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
+    - effect: While [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) this way, the target takes 1 damage for every square they move, including from [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement).
+      name: Effect
 feature_type: ability
 flavor: You need just one blow to sabotage your target.
 keywords:
@@ -48,7 +55,13 @@ metadata:
     class: fury
     cost: 9 Ferocity
     distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
-    effect: While [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) this way, the target takes 1 damage for every square they move, including from [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement).
+    effects:
+        - roll: Power Roll + [Might](scc.v1:mcdm.heroes.v1/rule.character/might)
+          tier1: 10 + M damage; M < WEAK, [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
+          tier2: 14 + M damage; M < AVERAGE, [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
+          tier3: 20 + M damage; M < STRONG, [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
+        - effect: While [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) this way, the target takes 1 damage for every square they move, including from [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement).
+          name: Effect
     flavor: You need just one blow to sabotage your target.
     keywords:
         - '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)'

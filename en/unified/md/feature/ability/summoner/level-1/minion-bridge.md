@@ -2,7 +2,11 @@
 action_type: Maneuver
 class: summoner
 distance: Melee 1
-effect: You [shift](scc.v1:mcdm.heroes.v1/movement/shifting) into a square adjacent to the target, including vertically.
+effects:
+    - effect: You [shift](scc.v1:mcdm.heroes.v1/movement/shifting) into a square adjacent to the target, including vertically.
+      name: Effect
+    - effect: An adjacent ally can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) alongside you during this movement. They must end their movement in an unoccupied square adjacent to the last minion you moved through.
+      name: 1 Essence
 feature_source: summoner
 flavor: Your minions do everything in their power to form a safe path for you to cross.
 keywords:

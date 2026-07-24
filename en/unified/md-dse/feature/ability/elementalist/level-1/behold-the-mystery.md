@@ -5,6 +5,13 @@ cost: 3 Essence
 cost_amount: "3"
 cost_resource: Essence
 distance: 3 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 10
+effects:
+    - roll: Power Roll + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason)
+      tier1: 2 psychic damage
+      tier2: 4 psychic damage
+      tier3: 6 psychic damage
+    - effect: At the start of your [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), you can use a maneuver to use this ability again without spending essence.
+      name: Persistent 1
 feature_type: ability
 file_basename: behold-the-mystery
 file_dpath: feature/ability/elementalist/level-1
@@ -36,6 +43,8 @@ effects:
       tier1: 2 psychic damage
       tier2: 4 psychic damage
       tier3: 6 psychic damage
+    - effect: At the start of your [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), you can use a maneuver to use this ability again without spending essence.
+      name: Persistent 1
 feature_type: ability
 flavor: You open a rift into the void to harry your foes.
 keywords:
@@ -48,6 +57,13 @@ metadata:
     class: elementalist
     cost: 3 Essence
     distance: 3 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 10
+    effects:
+        - roll: Power Roll + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason)
+          tier1: 2 psychic damage
+          tier2: 4 psychic damage
+          tier3: 6 psychic damage
+        - effect: At the start of your [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), you can use a maneuver to use this ability again without spending essence.
+          name: Persistent 1
     flavor: You open a rift into the void to harry your foes.
     keywords:
         - Area

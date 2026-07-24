@@ -5,7 +5,13 @@ cost: 11 Ferocity
 cost_amount: "11"
 cost_resource: Ferocity
 distance: Melee 1
-effect: Your companion [teleports](../../../../movement/teleport.md) up to their speed.
+effects:
+    - effect: Your companion [teleports](../../../../movement/teleport.md) up to their speed.
+      name: Effect
+    - roll: Power Roll + Intuition
+      tier1: 13 + I psychic damage; P < WEAK [frightened](../../../../condition/frightened.md) (save ends)
+      tier2: 20 + I psychic damage; P < AVERAGE [frightened](../../../../condition/frightened.md) (save ends)
+      tier3: 27 + I psychic damage; P < STRONG [frightened](../../../../condition/frightened.md) (save ends)
 feature_type: ability
 file_basename: behold-the-face-of-chaos
 file_dpath: feature/ability/beastheart/level-9
@@ -36,6 +42,7 @@ cost: 11 Ferocity
 distance: Melee 1
 effects:
     - effect: Your companion [teleports](../../../../movement/teleport.md) up to their speed.
+      name: Effect
     - roll: Power Roll + Intuition
       tier1: 13 + I psychic damage; P < WEAK [frightened](../../../../condition/frightened.md) (save ends)
       tier2: 20 + I psychic damage; P < AVERAGE [frightened](../../../../condition/frightened.md) (save ends)
@@ -53,7 +60,13 @@ metadata:
     class: beastheart
     cost: 11 Ferocity
     distance: Melee 1
-    effect: Your companion [teleports](../../../../movement/teleport.md) up to their speed.
+    effects:
+        - effect: Your companion [teleports](../../../../movement/teleport.md) up to their speed.
+          name: Effect
+        - roll: Power Roll + Intuition
+          tier1: 13 + I psychic damage; P < WEAK [frightened](../../../../condition/frightened.md) (save ends)
+          tier2: 20 + I psychic damage; P < AVERAGE [frightened](../../../../condition/frightened.md) (save ends)
+          tier3: 27 + I psychic damage; P < STRONG [frightened](../../../../condition/frightened.md) (save ends)
     flavor: Your companion appears next to their victim in the guise of a heart-stopping nightmare.
     keywords:
         - Companion

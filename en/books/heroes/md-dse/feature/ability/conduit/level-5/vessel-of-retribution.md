@@ -5,7 +5,9 @@ cost: 9 Piety
 cost_amount: "9"
 cost_resource: Piety
 distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
-effect: The first time the target is [dying](scc.v1:mcdm.heroes.v1/rule.health/dying) or [winded](scc.v1:mcdm.heroes.v1/rule.health/winded) before the end of the encounter, each enemy within 5 squares of them takes 15 holy damage.
+effects:
+    - effect: The first time the target is [dying](scc.v1:mcdm.heroes.v1/rule.health/dying) or [winded](scc.v1:mcdm.heroes.v1/rule.health/winded) before the end of the encounter, each enemy within 5 squares of them takes 15 holy damage.
+      name: Effect
 feature_type: ability
 file_basename: vessel-of-retribution
 file_dpath: feature/ability/conduit/level-5
@@ -28,6 +30,7 @@ cost: 9 Piety
 distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
 effects:
     - effect: The first time the target is [dying](scc.v1:mcdm.heroes.v1/rule.health/dying) or [winded](scc.v1:mcdm.heroes.v1/rule.health/winded) before the end of the encounter, each enemy within 5 squares of them takes 15 holy damage.
+      name: Effect
 feature_type: ability
 flavor: You infuse yourself or an ally with the retributive energy of the gods, waiting to be unleashed.
 keywords:
@@ -38,7 +41,9 @@ metadata:
     class: conduit
     cost: 9 Piety
     distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
-    effect: The first time the target is [dying](scc.v1:mcdm.heroes.v1/rule.health/dying) or [winded](scc.v1:mcdm.heroes.v1/rule.health/winded) before the end of the encounter, each enemy within 5 squares of them takes 15 holy damage.
+    effects:
+        - effect: The first time the target is [dying](scc.v1:mcdm.heroes.v1/rule.health/dying) or [winded](scc.v1:mcdm.heroes.v1/rule.health/winded) before the end of the encounter, each enemy within 5 squares of them takes 15 holy damage.
+          name: Effect
     flavor: You infuse yourself or an ally with the retributive energy of the gods, waiting to be unleashed.
     keywords:
         - Magic

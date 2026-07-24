@@ -1,7 +1,13 @@
 ---
 action_type: Main action
 distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
-effect: You can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) into any square the target leaves after you [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) them.
+effects:
+    - roll: Power Roll + [Might](scc.v1:mcdm.heroes.v1/rule.character/might) or [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)
+      tier1: 5 + M or A damage
+      tier2: 7 + M or A damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1
+      tier3: 10 + M or A damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2
+    - effect: You can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) into any square the target leaves after you [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) them.
+      name: Effect
 feature_type: ability
 file_basename: fancy-footwork
 file_dpath: feature/ability/swashbuckler
@@ -28,11 +34,12 @@ type: ability
 ```ds-feature
 distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
 effects:
-    - effect: You can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) into any square the target leaves after you [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) them.
     - roll: Power Roll + [Might](scc.v1:mcdm.heroes.v1/rule.character/might) or [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)
       tier1: 5 + M or A damage
       tier2: 7 + M or A damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1
       tier3: 10 + M or A damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2
+    - effect: You can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) into any square the target leaves after you [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) them.
+      name: Effect
 feature_type: ability
 flavor: All combat is a dance—and you'll be the one leading.
 keywords:
@@ -42,7 +49,13 @@ keywords:
 metadata:
     action_type: Main action
     distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
-    effect: You can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) into any square the target leaves after you [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) them.
+    effects:
+        - roll: Power Roll + [Might](scc.v1:mcdm.heroes.v1/rule.character/might) or [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)
+          tier1: 5 + M or A damage
+          tier2: 7 + M or A damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1
+          tier3: 10 + M or A damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2
+        - effect: You can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) into any square the target leaves after you [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) them.
+          name: Effect
     flavor: All combat is a dance—and you'll be the one leading.
     keywords:
         - '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)'

@@ -5,6 +5,13 @@ cost: 5 Clarity
 cost_amount: "5"
 cost_resource: Clarity
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
+effects:
+    - roll: Power Roll + [Reason](../../../../rule/character/reason.md)
+      tier1: 6 + R psychic damage; I < WEAK, [slowed](../../../../condition/slowed.md) (save ends)
+      tier2: 10 + R psychic damage; I < AVERAGE, [weakened](../../../../condition/weakened.md) (save ends)
+      tier3: 14 + R psychic damage; I < STRONG, [dazed](../../../../condition/dazed.md) (save ends)
+    - effect: You start crying, and you can't use [triggered actions](../../../../rule/combat/triggered-action.md) or make [free strikes](../../../common/main-actions/free-strike.md) until the end of the target's next [turn](../../../../rule/combat/turn.md).
+      name: Strained
 feature_type: ability
 file_basename: overwhelm
 file_dpath: feature/ability/talent/level-2
@@ -37,6 +44,8 @@ effects:
       tier1: 6 + R psychic damage; I < WEAK, [slowed](../../../../condition/slowed.md) (save ends)
       tier2: 10 + R psychic damage; I < AVERAGE, [weakened](../../../../condition/weakened.md) (save ends)
       tier3: 14 + R psychic damage; I < STRONG, [dazed](../../../../condition/dazed.md) (save ends)
+    - effect: You start crying, and you can't use [triggered actions](../../../../rule/combat/triggered-action.md) or make [free strikes](../../../common/main-actions/free-strike.md) until the end of the target's next [turn](../../../../rule/combat/turn.md).
+      name: Strained
 feature_type: ability
 flavor: You overload their senses, turning all their subconscious thoughts into conscious ones.
 keywords:
@@ -49,6 +58,13 @@ metadata:
     class: talent
     cost: 5 Clarity
     distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
+    effects:
+        - roll: Power Roll + [Reason](../../../../rule/character/reason.md)
+          tier1: 6 + R psychic damage; I < WEAK, [slowed](../../../../condition/slowed.md) (save ends)
+          tier2: 10 + R psychic damage; I < AVERAGE, [weakened](../../../../condition/weakened.md) (save ends)
+          tier3: 14 + R psychic damage; I < STRONG, [dazed](../../../../condition/dazed.md) (save ends)
+        - effect: You start crying, and you can't use [triggered actions](../../../../rule/combat/triggered-action.md) or make [free strikes](../../../common/main-actions/free-strike.md) until the end of the target's next [turn](../../../../rule/combat/turn.md).
+          name: Strained
     flavor: You overload their senses, turning all their subconscious thoughts into conscious ones.
     keywords:
         - Psionic

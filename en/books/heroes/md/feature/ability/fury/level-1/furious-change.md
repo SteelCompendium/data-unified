@@ -2,13 +2,16 @@
 action_type: '[Triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)'
 class: fury
 distance: Self
-effect: You gain [temporary Stamina](scc.v1:mcdm.heroes.v1/rule.health/temporary-stamina) equal to your [Might](scc.v1:mcdm.heroes.v1/rule.character/might) score and can enter your [animal form](scc.v1:mcdm.heroes.v1/complication/animal-form) or hybrid form.
+effects:
+    - effect: You gain [temporary Stamina](scc.v1:mcdm.heroes.v1/rule.health/temporary-stamina) equal to your [Might](scc.v1:mcdm.heroes.v1/rule.character/might) score and can enter your [animal form](scc.v1:mcdm.heroes.v1/complication/animal-form) or hybrid form.
+      name: Effect
+    - cost: Spend 1 Ferocity
+      effect: If you are not [dying](scc.v1:mcdm.heroes.v1/rule.health/dying), you can spend a [Recovery](scc.v1:mcdm.heroes.v1/rule.health/recoveries).
 flavor: In your anger, you revert to a more bestial form.
 keywords: []
 level: "1"
 name: Furious Change
 scc: mcdm.heroes.v1/feature.ability.fury.level-1/furious-change
-spend: '1 Ferocity: If you are not [dying](scc.v1:mcdm.heroes.v1/rule.health/dying), you can spend a [Recovery](scc.v1:mcdm.heroes.v1/rule.health/recoveries).'
 subclass: stormwight
 subtype: triggered
 target: Self

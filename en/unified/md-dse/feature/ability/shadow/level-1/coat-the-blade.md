@@ -2,7 +2,11 @@
 action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: shadow
 distance: Self
-effect: You gain 2 [surges](scc.v1:mcdm.heroes.v1/rule.resource/surge). Additionally, whenever you use a [surge](scc.v1:mcdm.heroes.v1/rule.resource/surge) before the end of the encounter, you can choose to have it deal poison damage.
+effects:
+    - effect: You gain 2 [surges](scc.v1:mcdm.heroes.v1/rule.resource/surge). Additionally, whenever you use a [surge](scc.v1:mcdm.heroes.v1/rule.resource/surge) before the end of the encounter, you can choose to have it deal poison damage.
+      name: Effect
+    - cost: Spend 1+ Insight
+      effect: For each insight you spend, you gain 1 additional [surge](scc.v1:mcdm.heroes.v1/rule.resource/surge).
 feature_type: ability
 file_basename: coat-the-blade
 file_dpath: feature/ability/shadow/level-1
@@ -14,7 +18,6 @@ level: "1"
 name: Coat the Blade
 scc: mcdm.heroes.v1/feature.ability.shadow.level-1/coat-the-blade
 source: mcdm.heroes.v1
-spend: '1+ Insight: For each insight you spend, you gain 1 additional [surge](scc.v1:mcdm.heroes.v1/rule.resource/surge).'
 subclass: caustic-alchemy
 target: Self
 type: ability
@@ -24,8 +27,9 @@ type: ability
 distance: Self
 effects:
     - effect: You gain 2 [surges](scc.v1:mcdm.heroes.v1/rule.resource/surge). Additionally, whenever you use a [surge](scc.v1:mcdm.heroes.v1/rule.resource/surge) before the end of the encounter, you can choose to have it deal poison damage.
-    - effect: '1+ Insight: For each insight you spend, you gain 1 additional [surge](scc.v1:mcdm.heroes.v1/rule.resource/surge).'
-      name: Spend
+      name: Effect
+    - cost: Spend 1+ Insight
+      effect: For each insight you spend, you gain 1 additional [surge](scc.v1:mcdm.heroes.v1/rule.resource/surge).
 feature_type: ability
 flavor: A little poison goes a long way.
 keywords: []
@@ -33,13 +37,16 @@ metadata:
     action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: shadow
     distance: Self
-    effect: You gain 2 [surges](scc.v1:mcdm.heroes.v1/rule.resource/surge). Additionally, whenever you use a [surge](scc.v1:mcdm.heroes.v1/rule.resource/surge) before the end of the encounter, you can choose to have it deal poison damage.
+    effects:
+        - effect: You gain 2 [surges](scc.v1:mcdm.heroes.v1/rule.resource/surge). Additionally, whenever you use a [surge](scc.v1:mcdm.heroes.v1/rule.resource/surge) before the end of the encounter, you can choose to have it deal poison damage.
+          name: Effect
+        - cost: Spend 1+ Insight
+          effect: For each insight you spend, you gain 1 additional [surge](scc.v1:mcdm.heroes.v1/rule.resource/surge).
     flavor: A little poison goes a long way.
     keywords: []
     level: "1"
     name: Coat the Blade
     scc: mcdm.heroes.v1/feature.ability.shadow.level-1/coat-the-blade
-    spend: '1+ Insight: For each insight you spend, you gain 1 additional [surge](scc.v1:mcdm.heroes.v1/rule.resource/surge).'
     subclass: caustic-alchemy
     target: Self
     type: ability

@@ -5,6 +5,11 @@ cost: 9 Wrath
 cost_amount: "9"
 cost_resource: Wrath
 distance: '[Melee](../../../../rule/combat/melee.md) 1'
+effects:
+    - roll: Power Roll + [Might](../../../../rule/character/might.md)
+      tier1: 10 + M damage; you and each ally [adjacent](../../../../rule/combat/adjacent.md) to you gain 10 [temporary Stamina](../../../../rule/health/temporary-stamina.md)
+      tier2: 14 + M damage; you and each ally [adjacent](../../../../rule/combat/adjacent.md) to you gain 15 [temporary Stamina](../../../../rule/health/temporary-stamina.md)
+      tier3: 20 + M damage; you and each ally [adjacent](../../../../rule/combat/adjacent.md) to you gain 20 [temporary Stamina](../../../../rule/health/temporary-stamina.md)
 feature_type: ability
 file_basename: shield-of-the-righteous
 file_dpath: feature/ability/censor/level-5
@@ -46,6 +51,11 @@ metadata:
     class: censor
     cost: 9 Wrath
     distance: '[Melee](../../../../rule/combat/melee.md) 1'
+    effects:
+        - roll: Power Roll + [Might](../../../../rule/character/might.md)
+          tier1: 10 + M damage; you and each ally [adjacent](../../../../rule/combat/adjacent.md) to you gain 10 [temporary Stamina](../../../../rule/health/temporary-stamina.md)
+          tier2: 14 + M damage; you and each ally [adjacent](../../../../rule/combat/adjacent.md) to you gain 15 [temporary Stamina](../../../../rule/health/temporary-stamina.md)
+          tier3: 20 + M damage; you and each ally [adjacent](../../../../rule/combat/adjacent.md) to you gain 20 [temporary Stamina](../../../../rule/health/temporary-stamina.md)
     flavor: You strike a foe and create a fleet of divine shields that protect your allies.
     keywords:
         - '[Melee](../../../../rule/combat/melee.md)'

@@ -5,7 +5,13 @@ cost: 11 Insight
 cost_amount: "11"
 cost_resource: Insight
 distance: '[Melee](../../../../rule/combat/melee.md) 1 or [ranged](../../../../rule/combat/ranged.md) 10'
-effect: The ground beneath a 3-[cube](../../../../rule/combat/cube.md) area around the target's starting position is [difficult terrain](../../../../movement/difficult-terrain.md).
+effects:
+    - roll: Power Roll + [Agility](../../../../rule/character/agility.md)
+      tier1: 4 + A fire damage; vertical [push](../../../../movement/forced-movement.md) 8
+      tier2: 7 + A fire damage; vertical [push](../../../../movement/forced-movement.md) 10
+      tier3: 11 + A fire damage; vertical [push](../../../../movement/forced-movement.md) 15
+    - effect: The ground beneath a 3-[cube](../../../../rule/combat/cube.md) area around the target's starting position is [difficult terrain](../../../../movement/difficult-terrain.md).
+      name: Effect
 feature_type: ability
 file_basename: to-the-stars
 file_dpath: feature/ability/shadow/level-9
@@ -33,11 +39,12 @@ type: ability
 cost: 11 Insight
 distance: '[Melee](../../../../rule/combat/melee.md) 1 or [ranged](../../../../rule/combat/ranged.md) 10'
 effects:
-    - effect: The ground beneath a 3-[cube](../../../../rule/combat/cube.md) area around the target's starting position is [difficult terrain](../../../../movement/difficult-terrain.md).
     - roll: Power Roll + [Agility](../../../../rule/character/agility.md)
       tier1: 4 + A fire damage; vertical [push](../../../../movement/forced-movement.md) 8
       tier2: 7 + A fire damage; vertical [push](../../../../movement/forced-movement.md) 10
       tier3: 11 + A fire damage; vertical [push](../../../../movement/forced-movement.md) 15
+    - effect: The ground beneath a 3-[cube](../../../../rule/combat/cube.md) area around the target's starting position is [difficult terrain](../../../../movement/difficult-terrain.md).
+      name: Effect
 feature_type: ability
 flavor: You attach your most potent explosive to your foe. Under less pressing circumstances, you're sure you could launch them into orbit.
 keywords:
@@ -49,7 +56,13 @@ metadata:
     class: shadow
     cost: 11 Insight
     distance: '[Melee](../../../../rule/combat/melee.md) 1 or [ranged](../../../../rule/combat/ranged.md) 10'
-    effect: The ground beneath a 3-[cube](../../../../rule/combat/cube.md) area around the target's starting position is [difficult terrain](../../../../movement/difficult-terrain.md).
+    effects:
+        - roll: Power Roll + [Agility](../../../../rule/character/agility.md)
+          tier1: 4 + A fire damage; vertical [push](../../../../movement/forced-movement.md) 8
+          tier2: 7 + A fire damage; vertical [push](../../../../movement/forced-movement.md) 10
+          tier3: 11 + A fire damage; vertical [push](../../../../movement/forced-movement.md) 15
+        - effect: The ground beneath a 3-[cube](../../../../rule/combat/cube.md) area around the target's starting position is [difficult terrain](../../../../movement/difficult-terrain.md).
+          name: Effect
     flavor: You attach your most potent explosive to your foe. Under less pressing circumstances, you're sure you could launch them into orbit.
     keywords:
         - '[Melee](../../../../rule/combat/melee.md)'

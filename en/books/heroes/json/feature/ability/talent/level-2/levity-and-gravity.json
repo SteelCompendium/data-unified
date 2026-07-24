@@ -7,6 +7,10 @@
       "tier1": "6 + R damage; M \u003c WEAK[, prone](scc.v1:mcdm.heroes.v1/condition/prone)",
       "tier2": "10 + R damage; M \u003c AVERAGE[, prone](scc.v1:mcdm.heroes.v1/condition/prone)",
       "tier3": "14 + R damage; M \u003c STRONG, [prone and](scc.v1:mcdm.heroes.v1/condition/prone) can't stand (save ends)"
+    },
+    {
+      "effect": "You take half the damage the target takes.",
+      "name": "Strained"
     }
   ],
   "feature_type": "ability",

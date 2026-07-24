@@ -7,6 +7,10 @@
       "tier1": "[Slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 4 + R; M \u003c WEAK, the [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) is vertical",
       "tier2": "[Slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 8 + R; M \u003c AVERAGE, the [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) is vertical",
       "tier3": "[Slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 12 + R; [prone](scc.v1:mcdm.heroes.v1/condition/prone); M \u003c STRONG, the [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) is vertical"
+    },
+    {
+      "effect": "The [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) ignores [stability](scc.v1:mcdm.heroes.v1/rule.character/stability). You take 2d6 damage and are [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends).",
+      "name": "Strained"
     }
   ],
   "feature_type": "ability",

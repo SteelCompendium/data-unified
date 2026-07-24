@@ -5,7 +5,13 @@ cost: 11 Ferocity
 cost_amount: "11"
 cost_resource: Ferocity
 distance: Melee 1
-effect: While the target is [taunted](../../../../condition/taunted.md) this way, all creatures except your companion have immunity 10 to damage dealt by the target.
+effects:
+    - roll: Power Roll + Might
+      tier1: 11 + M damage; P < WEAK [taunted](../../../../condition/taunted.md) (save ends)
+      tier2: 17 + M damage; P < AVERAGE [taunted](../../../../condition/taunted.md) (save ends)
+      tier3: 22 + M damage; P < STRONG [taunted](../../../../condition/taunted.md) (save ends)
+    - effect: While the target is [taunted](../../../../condition/taunted.md) this way, all creatures except your companion have immunity 10 to damage dealt by the target.
+      name: Effect
 feature_type: ability
 file_basename: relentless
 file_dpath: feature/ability/beastheart/level-9
@@ -35,11 +41,12 @@ type: ability
 cost: 11 Ferocity
 distance: Melee 1
 effects:
-    - effect: While the target is [taunted](../../../../condition/taunted.md) this way, all creatures except your companion have immunity 10 to damage dealt by the target.
     - roll: Power Roll + Might
       tier1: 11 + M damage; P < WEAK [taunted](../../../../condition/taunted.md) (save ends)
       tier2: 17 + M damage; P < AVERAGE [taunted](../../../../condition/taunted.md) (save ends)
       tier3: 22 + M damage; P < STRONG [taunted](../../../../condition/taunted.md) (save ends)
+    - effect: While the target is [taunted](../../../../condition/taunted.md) this way, all creatures except your companion have immunity 10 to damage dealt by the target.
+      name: Effect
 feature_type: ability
 flavor: Your companion launches at your foe, shielding allies with their body.
 keywords:
@@ -53,7 +60,13 @@ metadata:
     class: beastheart
     cost: 11 Ferocity
     distance: Melee 1
-    effect: While the target is [taunted](../../../../condition/taunted.md) this way, all creatures except your companion have immunity 10 to damage dealt by the target.
+    effects:
+        - roll: Power Roll + Might
+          tier1: 11 + M damage; P < WEAK [taunted](../../../../condition/taunted.md) (save ends)
+          tier2: 17 + M damage; P < AVERAGE [taunted](../../../../condition/taunted.md) (save ends)
+          tier3: 22 + M damage; P < STRONG [taunted](../../../../condition/taunted.md) (save ends)
+        - effect: While the target is [taunted](../../../../condition/taunted.md) this way, all creatures except your companion have immunity 10 to damage dealt by the target.
+          name: Effect
     flavor: Your companion launches at your foe, shielding allies with their body.
     keywords:
         - Charge

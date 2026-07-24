@@ -2,6 +2,11 @@
 action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: elementalist
 distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
+effects:
+    - roll: Power Roll + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason)
+      tier1: 3 + R damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2
+      tier2: 5 + R damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3
+      tier3: 8 + R damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 4
 feature_type: ability
 file_basename: meteoric-introduction
 file_dpath: feature/ability/elementalist/level-1
@@ -44,6 +49,11 @@ metadata:
     action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: elementalist
     distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
+    effects:
+        - roll: Power Roll + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason)
+          tier1: 3 + R damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2
+          tier2: 5 + R damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3
+          tier3: 8 + R damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 4
     flavor: You give your enemy a gentle tap-like an asteroid impact.
     keywords:
         - Earth

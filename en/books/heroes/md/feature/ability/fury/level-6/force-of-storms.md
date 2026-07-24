@@ -3,7 +3,13 @@ action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: fury
 cost: 9 Ferocity
 distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
-effect: When the target ends this [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement), each creature within 2 squares of the target is [pushed](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3 squares.
+effects:
+    - roll: Power Roll + [Might](scc.v1:mcdm.heroes.v1/rule.character/might)
+      tier1: 7 + M damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3
+      tier2: 11 + M damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5
+      tier3: 16 + M damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 7
+    - effect: When the target ends this [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement), each creature within 2 squares of the target is [pushed](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3 squares.
+      name: Effect
 flavor: You strike an enemy hard enough to be a projectile that knocks a crowd of creatures around.
 keywords:
     - '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)'

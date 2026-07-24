@@ -5,7 +5,13 @@ cost: 9 Discipline
 cost_amount: "9"
 cost_resource: Discipline
 distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
-effect: While [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) this way, the target takes a [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) on the [Escape Grab](scc.v1:mcdm.heroes.v1/feature.common.maneuvers/escape-grab) maneuver. Each time they use that maneuver, they take damage equal to twice your [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility) score.
+effects:
+    - roll: Power Roll + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)
+      tier1: 10 + A damage; A < WEAK, [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)
+      tier2: 14 + A damage; A < AVERAGE, [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)
+      tier3: 18 + A damage; A < STRONG, [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)
+    - effect: While [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) this way, the target takes a [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) on the [Escape Grab](scc.v1:mcdm.heroes.v1/feature.common.maneuvers/escape-grab) maneuver. Each time they use that maneuver, they take damage equal to twice your [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility) score.
+      name: Effect
 feature_type: ability
 file_basename: iron-grip
 file_dpath: feature/ability/null/level-5
@@ -33,11 +39,12 @@ type: ability
 cost: 9 Discipline
 distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
 effects:
-    - effect: While [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) this way, the target takes a [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) on the [Escape Grab](scc.v1:mcdm.heroes.v1/feature.common.maneuvers/escape-grab) maneuver. Each time they use that maneuver, they take damage equal to twice your [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility) score.
     - roll: Power Roll + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)
       tier1: 10 + A damage; A < WEAK, [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)
       tier2: 14 + A damage; A < AVERAGE, [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)
       tier3: 18 + A damage; A < STRONG, [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)
+    - effect: While [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) this way, the target takes a [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) on the [Escape Grab](scc.v1:mcdm.heroes.v1/feature.common.maneuvers/escape-grab) maneuver. Each time they use that maneuver, they take damage equal to twice your [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility) score.
+      name: Effect
 feature_type: ability
 flavor: You grab the target with [supernatural](scc.v1:mcdm.heroes.v1/rule.general/supernatural) force.
 keywords:
@@ -50,7 +57,13 @@ metadata:
     class: "null"
     cost: 9 Discipline
     distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
-    effect: While [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) this way, the target takes a [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) on the [Escape Grab](scc.v1:mcdm.heroes.v1/feature.common.maneuvers/escape-grab) maneuver. Each time they use that maneuver, they take damage equal to twice your [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility) score.
+    effects:
+        - roll: Power Roll + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)
+          tier1: 10 + A damage; A < WEAK, [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)
+          tier2: 14 + A damage; A < AVERAGE, [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)
+          tier3: 18 + A damage; A < STRONG, [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)
+        - effect: While [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) this way, the target takes a [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) on the [Escape Grab](scc.v1:mcdm.heroes.v1/feature.common.maneuvers/escape-grab) maneuver. Each time they use that maneuver, they take damage equal to twice your [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility) score.
+          name: Effect
     flavor: You grab the target with [supernatural](scc.v1:mcdm.heroes.v1/rule.general/supernatural) force.
     keywords:
         - '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)'

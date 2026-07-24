@@ -5,7 +5,13 @@ cost: 11 Discipline
 cost_amount: "11"
 cost_resource: Discipline
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
-effect: If the target loses their [turn](../../../../rule/combat/turn.md), the round continues as if they had acted. A target who doesn't lose their [turn](../../../../rule/combat/turn.md) takes psychic damage equal to twice your [Intuition](../../../../rule/character/intuition.md) score for each main action they take until the end of their next [turn](../../../../rule/combat/turn.md).
+effects:
+    - roll: Power Roll + [Intuition](../../../../rule/character/intuition.md)
+      tier1: I < WEAK, the target loses their [turn](../../../../rule/combat/turn.md)
+      tier2: I < AVERAGE, the target loses their [turn](../../../../rule/combat/turn.md)
+      tier3: I < STRONG, the target loses their [turn](../../../../rule/combat/turn.md)
+    - effect: If the target loses their [turn](../../../../rule/combat/turn.md), the round continues as if they had acted. A target who doesn't lose their [turn](../../../../rule/combat/turn.md) takes psychic damage equal to twice your [Intuition](../../../../rule/character/intuition.md) score for each main action they take until the end of their next [turn](../../../../rule/combat/turn.md).
+      name: Effect
 feature_type: ability
 file_basename: arrestor-cycle
 file_dpath: feature/ability/null/level-9
@@ -34,11 +40,12 @@ type: ability
 cost: 11 Discipline
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
 effects:
-    - effect: If the target loses their [turn](../../../../rule/combat/turn.md), the round continues as if they had acted. A target who doesn't lose their [turn](../../../../rule/combat/turn.md) takes psychic damage equal to twice your [Intuition](../../../../rule/character/intuition.md) score for each main action they take until the end of their next [turn](../../../../rule/combat/turn.md).
     - roll: Power Roll + [Intuition](../../../../rule/character/intuition.md)
       tier1: I < WEAK, the target loses their [turn](../../../../rule/combat/turn.md)
       tier2: I < AVERAGE, the target loses their [turn](../../../../rule/combat/turn.md)
       tier3: I < STRONG, the target loses their [turn](../../../../rule/combat/turn.md)
+    - effect: If the target loses their [turn](../../../../rule/combat/turn.md), the round continues as if they had acted. A target who doesn't lose their [turn](../../../../rule/combat/turn.md) takes psychic damage equal to twice your [Intuition](../../../../rule/character/intuition.md) score for each main action they take until the end of their next [turn](../../../../rule/combat/turn.md).
+      name: Effect
 feature_type: ability
 flavor: You trap your foe in a looping cycle of time, where they relive the last few seconds over and over again.
 keywords:
@@ -49,7 +56,13 @@ metadata:
     class: "null"
     cost: 11 Discipline
     distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
-    effect: If the target loses their [turn](../../../../rule/combat/turn.md), the round continues as if they had acted. A target who doesn't lose their [turn](../../../../rule/combat/turn.md) takes psychic damage equal to twice your [Intuition](../../../../rule/character/intuition.md) score for each main action they take until the end of their next [turn](../../../../rule/combat/turn.md).
+    effects:
+        - roll: Power Roll + [Intuition](../../../../rule/character/intuition.md)
+          tier1: I < WEAK, the target loses their [turn](../../../../rule/combat/turn.md)
+          tier2: I < AVERAGE, the target loses their [turn](../../../../rule/combat/turn.md)
+          tier3: I < STRONG, the target loses their [turn](../../../../rule/combat/turn.md)
+        - effect: If the target loses their [turn](../../../../rule/combat/turn.md), the round continues as if they had acted. A target who doesn't lose their [turn](../../../../rule/combat/turn.md) takes psychic damage equal to twice your [Intuition](../../../../rule/character/intuition.md) score for each main action they take until the end of their next [turn](../../../../rule/combat/turn.md).
+          name: Effect
     flavor: You trap your foe in a looping cycle of time, where they relive the last few seconds over and over again.
     keywords:
         - Psionic

@@ -5,7 +5,13 @@ cost: 11 Piety
 cost_amount: "11"
 cost_resource: Piety
 distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
-effect: Each ally the target comes [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to during the [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) can spend a [Recovery](scc.v1:mcdm.heroes.v1/rule.health/recoveries).
+effects:
+    - roll: Power Roll + [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)
+      tier1: 9 + I holy damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3
+      tier2: 13 + I holy damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 4
+      tier3: 18 + I holy damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 6
+    - effect: Each ally the target comes [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to during the [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) can spend a [Recovery](scc.v1:mcdm.heroes.v1/rule.health/recoveries).
+      name: Effect
 feature_type: ability
 file_basename: drag-the-unworthy
 file_dpath: feature/ability/conduit/level-8
@@ -32,11 +38,12 @@ type: ability
 cost: 11 Piety
 distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
 effects:
-    - effect: Each ally the target comes [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to during the [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) can spend a [Recovery](scc.v1:mcdm.heroes.v1/rule.health/recoveries).
     - roll: Power Roll + [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)
       tier1: 9 + I holy damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3
       tier2: 13 + I holy damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 4
       tier3: 18 + I holy damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 6
+    - effect: Each ally the target comes [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to during the [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) can spend a [Recovery](scc.v1:mcdm.heroes.v1/rule.health/recoveries).
+      name: Effect
 feature_type: ability
 flavor: You conjure an angel who moves a foe and heals your allies.
 keywords:
@@ -48,7 +55,13 @@ metadata:
     class: conduit
     cost: 11 Piety
     distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
-    effect: Each ally the target comes [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to during the [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) can spend a [Recovery](scc.v1:mcdm.heroes.v1/rule.health/recoveries).
+    effects:
+        - roll: Power Roll + [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)
+          tier1: 9 + I holy damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3
+          tier2: 13 + I holy damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 4
+          tier3: 18 + I holy damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 6
+        - effect: Each ally the target comes [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to during the [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) can spend a [Recovery](scc.v1:mcdm.heroes.v1/rule.health/recoveries).
+          name: Effect
     flavor: You conjure an angel who moves a foe and heals your allies.
     keywords:
         - Magic

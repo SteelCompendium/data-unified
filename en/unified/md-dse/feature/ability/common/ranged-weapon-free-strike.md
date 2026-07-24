@@ -1,6 +1,11 @@
 ---
 action_type: Main action
 distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 5'
+effects:
+    - roll: Power Roll + [Might](scc.v1:mcdm.heroes.v1/rule.character/might) or [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)
+      tier1: 2 + M or A damage
+      tier2: 4 + M or A damage
+      tier3: 6 + M or A damage
 feature_type: ability
 file_basename: ranged-weapon-free-strike
 file_dpath: feature/ability/common
@@ -37,6 +42,11 @@ keywords:
 metadata:
     action_type: Main action
     distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 5'
+    effects:
+        - roll: Power Roll + [Might](scc.v1:mcdm.heroes.v1/rule.character/might) or [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)
+          tier1: 2 + M or A damage
+          tier2: 4 + M or A damage
+          tier3: 6 + M or A damage
     keywords:
         - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'
         - '[Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike)'

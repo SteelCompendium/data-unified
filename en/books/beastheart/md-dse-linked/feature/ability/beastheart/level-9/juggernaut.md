@@ -5,7 +5,13 @@ cost: 11 Ferocity
 cost_amount: "11"
 cost_resource: Ferocity
 distance: 2 burst
-effect: Your companion can forgo dealing damage to targets of your choice.
+effects:
+    - roll: Power Roll + Intuition
+      tier1: 9 damage; vertical slide 2; M < WEAK [prone](../../../../condition/prone.md)
+      tier2: 13 damage; vertical slide 4; M < AVERAGE [prone](../../../../condition/prone.md)
+      tier3: 18 damage; vertical slide 6; M < STRONG [prone](../../../../condition/prone.md)
+    - effect: Your companion can forgo dealing damage to targets of your choice.
+      name: Effect
 feature_type: ability
 file_basename: juggernaut
 file_dpath: feature/ability/beastheart/level-9
@@ -33,11 +39,12 @@ type: ability
 cost: 11 Ferocity
 distance: 2 burst
 effects:
-    - effect: Your companion can forgo dealing damage to targets of your choice.
     - roll: Power Roll + Intuition
       tier1: 9 damage; vertical slide 2; M < WEAK [prone](../../../../condition/prone.md)
       tier2: 13 damage; vertical slide 4; M < AVERAGE [prone](../../../../condition/prone.md)
       tier3: 18 damage; vertical slide 6; M < STRONG [prone](../../../../condition/prone.md)
+    - effect: Your companion can forgo dealing damage to targets of your choice.
+      name: Effect
 feature_type: ability
 flavor: Your companion plows through the front lines, tossing enemies—and allies—this way and that.
 keywords:
@@ -49,7 +56,13 @@ metadata:
     class: beastheart
     cost: 11 Ferocity
     distance: 2 burst
-    effect: Your companion can forgo dealing damage to targets of your choice.
+    effects:
+        - roll: Power Roll + Intuition
+          tier1: 9 damage; vertical slide 2; M < WEAK [prone](../../../../condition/prone.md)
+          tier2: 13 damage; vertical slide 4; M < AVERAGE [prone](../../../../condition/prone.md)
+          tier3: 18 damage; vertical slide 6; M < STRONG [prone](../../../../condition/prone.md)
+        - effect: Your companion can forgo dealing damage to targets of your choice.
+          name: Effect
     flavor: Your companion plows through the front lines, tossing enemies—and allies—this way and that.
     keywords:
         - Area

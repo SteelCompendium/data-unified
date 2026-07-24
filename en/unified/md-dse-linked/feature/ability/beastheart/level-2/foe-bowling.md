@@ -5,7 +5,13 @@ cost: 5 Ferocity
 cost_amount: "5"
 cost_resource: Ferocity
 distance: Melee 1
-effect: If the target is [force moved](../../../../movement/forced-movement.md) at least 1 square, an enemy adjacent to the target at the end of this forced movement is also targeted by this ability's power roll, but they don't trigger this effect.
+effects:
+    - roll: Power Roll + Might
+      tier1: 3 + M damage; push 2; M < WEAK [prone](../../../../condition/prone.md)
+      tier2: 5 + M damage; push 3; M < AVERAGE [prone](../../../../condition/prone.md)
+      tier3: 8 + M damage; push 4; M < STRONG [prone](../../../../condition/prone.md)
+    - effect: If the target is [force moved](../../../../movement/forced-movement.md) at least 1 square, an enemy adjacent to the target at the end of this forced movement is also targeted by this ability's power roll, but they don't trigger this effect.
+      name: Effect
 feature_type: ability
 file_basename: foe-bowling
 file_dpath: feature/ability/beastheart/level-2
@@ -35,11 +41,12 @@ type: ability
 cost: 5 Ferocity
 distance: Melee 1
 effects:
-    - effect: If the target is [force moved](../../../../movement/forced-movement.md) at least 1 square, an enemy adjacent to the target at the end of this forced movement is also targeted by this ability's power roll, but they don't trigger this effect.
     - roll: Power Roll + Might
       tier1: 3 + M damage; push 2; M < WEAK [prone](../../../../condition/prone.md)
       tier2: 5 + M damage; push 3; M < AVERAGE [prone](../../../../condition/prone.md)
       tier3: 8 + M damage; push 4; M < STRONG [prone](../../../../condition/prone.md)
+    - effect: If the target is [force moved](../../../../movement/forced-movement.md) at least 1 square, an enemy adjacent to the target at the end of this forced movement is also targeted by this ability's power roll, but they don't trigger this effect.
+      name: Effect
 feature_type: ability
 flavor: Your companion sends one enemy tumbling into another, taking them both out.
 keywords:
@@ -53,7 +60,13 @@ metadata:
     class: beastheart
     cost: 5 Ferocity
     distance: Melee 1
-    effect: If the target is [force moved](../../../../movement/forced-movement.md) at least 1 square, an enemy adjacent to the target at the end of this forced movement is also targeted by this ability's power roll, but they don't trigger this effect.
+    effects:
+        - roll: Power Roll + Might
+          tier1: 3 + M damage; push 2; M < WEAK [prone](../../../../condition/prone.md)
+          tier2: 5 + M damage; push 3; M < AVERAGE [prone](../../../../condition/prone.md)
+          tier3: 8 + M damage; push 4; M < STRONG [prone](../../../../condition/prone.md)
+        - effect: If the target is [force moved](../../../../movement/forced-movement.md) at least 1 square, an enemy adjacent to the target at the end of this forced movement is also targeted by this ability's power roll, but they don't trigger this effect.
+          name: Effect
     flavor: Your companion sends one enemy tumbling into another, taking them both out.
     keywords:
         - Charge

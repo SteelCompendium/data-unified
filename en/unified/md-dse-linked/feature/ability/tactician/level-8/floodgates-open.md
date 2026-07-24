@@ -5,7 +5,9 @@ cost: 11 Focus
 cost_amount: "11"
 cost_resource: Focus
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
-effect: Each target gains 1 [surge](../../../../rule/resource/surge.md) and can use a [signature ability](../../../../rule/combat/signature-ability.md) as a free [triggered action](../../../../rule/combat/triggered-action.md). That ability gains an [edge](../../../../rule/dice/edge.md) on the [power roll](../../../../rule/dice/power-roll.md) and increases the [potency](../../../../rule/character/potency.md) of any [potency](../../../../rule/character/potency.md) effects by 1.
+effects:
+    - effect: Each target gains 1 [surge](../../../../rule/resource/surge.md) and can use a [signature ability](../../../../rule/combat/signature-ability.md) as a free [triggered action](../../../../rule/combat/triggered-action.md). That ability gains an [edge](../../../../rule/dice/edge.md) on the [power roll](../../../../rule/dice/power-roll.md) and increases the [potency](../../../../rule/character/potency.md) of any [potency](../../../../rule/character/potency.md) effects by 1.
+      name: Effect
 feature_type: ability
 file_basename: floodgates-open
 file_dpath: feature/ability/tactician/level-8
@@ -27,6 +29,7 @@ cost: 11 Focus
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
 effects:
     - effect: Each target gains 1 [surge](../../../../rule/resource/surge.md) and can use a [signature ability](../../../../rule/combat/signature-ability.md) as a free [triggered action](../../../../rule/combat/triggered-action.md). That ability gains an [edge](../../../../rule/dice/edge.md) on the [power roll](../../../../rule/dice/power-roll.md) and increases the [potency](../../../../rule/character/potency.md) of any [potency](../../../../rule/character/potency.md) effects by 1.
+      name: Effect
 feature_type: ability
 flavor: You direct your squad to strike in unison and with devastating effect.
 keywords:
@@ -36,7 +39,9 @@ metadata:
     class: tactician
     cost: 11 Focus
     distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
-    effect: Each target gains 1 [surge](../../../../rule/resource/surge.md) and can use a [signature ability](../../../../rule/combat/signature-ability.md) as a free [triggered action](../../../../rule/combat/triggered-action.md). That ability gains an [edge](../../../../rule/dice/edge.md) on the [power roll](../../../../rule/dice/power-roll.md) and increases the [potency](../../../../rule/character/potency.md) of any [potency](../../../../rule/character/potency.md) effects by 1.
+    effects:
+        - effect: Each target gains 1 [surge](../../../../rule/resource/surge.md) and can use a [signature ability](../../../../rule/combat/signature-ability.md) as a free [triggered action](../../../../rule/combat/triggered-action.md). That ability gains an [edge](../../../../rule/dice/edge.md) on the [power roll](../../../../rule/dice/power-roll.md) and increases the [potency](../../../../rule/character/potency.md) of any [potency](../../../../rule/character/potency.md) effects by 1.
+          name: Effect
     flavor: You direct your squad to strike in unison and with devastating effect.
     keywords:
         - '[Ranged](../../../../rule/combat/ranged.md)'

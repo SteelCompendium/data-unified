@@ -3,7 +3,11 @@ action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: elementalist
 cost: 9 Essence
 distance: 4 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)
-effect: The area becomes dark and verdant, with trees and plant life appearing in unoccupied spaces within it until the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn). The area is [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain) for enemies, and any ally who ends their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) in the area has [cover](scc.v1:mcdm.heroes.v1/rule.combat/cover).
+effects:
+    - effect: The area becomes dark and verdant, with trees and plant life appearing in unoccupied spaces within it until the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn). The area is [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain) for enemies, and any ally who ends their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) in the area has [cover](scc.v1:mcdm.heroes.v1/rule.combat/cover).
+      name: Effect
+    - effect: The area remains until the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn). Additionally, at the start of your [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), each ally in the area can spend a [Recovery](scc.v1:mcdm.heroes.v1/rule.health/recoveries).
+      name: Persistent 2
 flavor: You create a terrarium that spans from canopy above to underbrush below.
 keywords:
     - Area

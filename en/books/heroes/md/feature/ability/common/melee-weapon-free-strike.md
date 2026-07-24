@@ -1,6 +1,11 @@
 ---
 action_type: Main action
 distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
+effects:
+    - roll: Power Roll + [Might](scc.v1:mcdm.heroes.v1/rule.character/might) or [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)
+      tier1: 2 + M or A damage
+      tier2: 5 + M or A damage
+      tier3: 7 + M or A damage
 keywords:
     - Charge
     - '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)'

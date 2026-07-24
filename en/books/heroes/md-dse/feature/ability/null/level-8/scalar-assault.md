@@ -5,6 +5,11 @@ cost: 11 Discipline
 cost_amount: "11"
 cost_resource: Discipline
 distance: 3 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 1
+effects:
+    - roll: Power Roll + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)
+      tier1: 12 psychic damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3
+      tier2: 17 psychic damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5
+      tier3: 23 psychic damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 7
 feature_type: ability
 file_basename: scalar-assault
 file_dpath: feature/ability/null/level-8
@@ -44,6 +49,11 @@ metadata:
     class: "null"
     cost: 11 Discipline
     distance: 3 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 1
+    effects:
+        - roll: Power Roll + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)
+          tier1: 12 psychic damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3
+          tier2: 17 psychic damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5
+          tier3: 23 psychic damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 7
     flavor: You warp reality to grow a limb for just a moment and make a single devastating attack.
     keywords:
         - Area

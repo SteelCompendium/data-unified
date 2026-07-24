@@ -5,7 +5,13 @@ cost: 5 Insight
 cost_amount: "5"
 cost_resource: Insight
 distance: 3 [cube](../../../../rule/combat/cube.md) within 10
-effect: This [forced movement](../../../../movement/forced-movement.md) ignores [stability](../../../../rule/character/stability.md). Instead, the [forced movement](../../../../movement/forced-movement.md) is reduced by a number equal to the target's [Intuition](../../../../rule/character/intuition.md) score.
+effects:
+    - roll: Power Roll + [Agility](../../../../rule/character/agility.md)
+      tier1: '[Slide](../../../../movement/forced-movement.md) 4'
+      tier2: '[Slide](../../../../movement/forced-movement.md) 5'
+      tier3: '[Slide](../../../../movement/forced-movement.md) 7'
+    - effect: This [forced movement](../../../../movement/forced-movement.md) ignores [stability](../../../../rule/character/stability.md). Instead, the [forced movement](../../../../movement/forced-movement.md) is reduced by a number equal to the target's [Intuition](../../../../rule/character/intuition.md) score.
+      name: Effect
 feature_type: ability
 file_basename: machinations-of-sound
 file_dpath: feature/ability/shadow/level-2
@@ -33,11 +39,12 @@ type: ability
 cost: 5 Insight
 distance: 3 [cube](../../../../rule/combat/cube.md) within 10
 effects:
-    - effect: This [forced movement](../../../../movement/forced-movement.md) ignores [stability](../../../../rule/character/stability.md). Instead, the [forced movement](../../../../movement/forced-movement.md) is reduced by a number equal to the target's [Intuition](../../../../rule/character/intuition.md) score.
     - roll: Power Roll + [Agility](../../../../rule/character/agility.md)
       tier1: '[Slide](../../../../movement/forced-movement.md) 4'
       tier2: '[Slide](../../../../movement/forced-movement.md) 5'
       tier3: '[Slide](../../../../movement/forced-movement.md) 7'
+    - effect: This [forced movement](../../../../movement/forced-movement.md) ignores [stability](../../../../rule/character/stability.md). Instead, the [forced movement](../../../../movement/forced-movement.md) is reduced by a number equal to the target's [Intuition](../../../../rule/character/intuition.md) score.
+      name: Effect
 feature_type: ability
 flavor: Illusory sounds make your foes reposition themselves as they cower or investigate the disturbance.
 keywords:
@@ -49,7 +56,13 @@ metadata:
     class: shadow
     cost: 5 Insight
     distance: 3 [cube](../../../../rule/combat/cube.md) within 10
-    effect: This [forced movement](../../../../movement/forced-movement.md) ignores [stability](../../../../rule/character/stability.md). Instead, the [forced movement](../../../../movement/forced-movement.md) is reduced by a number equal to the target's [Intuition](../../../../rule/character/intuition.md) score.
+    effects:
+        - roll: Power Roll + [Agility](../../../../rule/character/agility.md)
+          tier1: '[Slide](../../../../movement/forced-movement.md) 4'
+          tier2: '[Slide](../../../../movement/forced-movement.md) 5'
+          tier3: '[Slide](../../../../movement/forced-movement.md) 7'
+        - effect: This [forced movement](../../../../movement/forced-movement.md) ignores [stability](../../../../rule/character/stability.md). Instead, the [forced movement](../../../../movement/forced-movement.md) is reduced by a number equal to the target's [Intuition](../../../../rule/character/intuition.md) score.
+          name: Effect
     flavor: Illusory sounds make your foes reposition themselves as they cower or investigate the disturbance.
     keywords:
         - Area

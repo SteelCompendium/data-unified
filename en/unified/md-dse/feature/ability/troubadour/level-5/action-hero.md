@@ -5,7 +5,13 @@ cost: 9 Drama
 cost_amount: "9"
 cost_resource: Drama
 distance: 3 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)
-effect: Unless you score a [critical hit](scc.v1:mcdm.heroes.v1/rule.combat/critical-hit), this ability can't reduce a non-minion target below 1 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).
+effects:
+    - roll: Power Roll + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)
+      tier1: 10 damage
+      tier2: 14 damage
+      tier3: 20 damage
+    - effect: Unless you score a [critical hit](scc.v1:mcdm.heroes.v1/rule.combat/critical-hit), this ability can't reduce a non-minion target below 1 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).
+      name: Effect
 feature_type: ability
 file_basename: action-hero
 file_dpath: feature/ability/troubadour/level-5
@@ -32,11 +38,12 @@ type: ability
 cost: 9 Drama
 distance: 3 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)
 effects:
-    - effect: Unless you score a [critical hit](scc.v1:mcdm.heroes.v1/rule.combat/critical-hit), this ability can't reduce a non-minion target below 1 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).
     - roll: Power Roll + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)
       tier1: 10 damage
       tier2: 14 damage
       tier3: 20 damage
+    - effect: Unless you score a [critical hit](scc.v1:mcdm.heroes.v1/rule.combat/critical-hit), this ability can't reduce a non-minion target below 1 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).
+      name: Effect
 feature_type: ability
 flavor: You wield your weapon at blistering [speed](scc.v1:mcdm.heroes.v1/rule.character/speed), leaving everyone around you fighting for their lives.
 keywords:
@@ -48,7 +55,13 @@ metadata:
     class: troubadour
     cost: 9 Drama
     distance: 3 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)
-    effect: Unless you score a [critical hit](scc.v1:mcdm.heroes.v1/rule.combat/critical-hit), this ability can't reduce a non-minion target below 1 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).
+    effects:
+        - roll: Power Roll + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)
+          tier1: 10 damage
+          tier2: 14 damage
+          tier3: 20 damage
+        - effect: Unless you score a [critical hit](scc.v1:mcdm.heroes.v1/rule.combat/critical-hit), this ability can't reduce a non-minion target below 1 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).
+          name: Effect
     flavor: You wield your weapon at blistering [speed](scc.v1:mcdm.heroes.v1/rule.character/speed), leaving everyone around you fighting for their lives.
     keywords:
         - Area

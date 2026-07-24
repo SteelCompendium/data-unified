@@ -2,7 +2,13 @@
 action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: conduit
 distance: '[Melee](../../../../rule/combat/melee.md) 1'
-effect: You or one ally within [distance](../../../../rule/combat/distance.md) can spend a [Recovery](../../../../rule/health/recoveries.md).
+effects:
+    - roll: Power Roll + [Intuition](../../../../rule/character/intuition.md)
+      tier1: 2 + I corruption damage
+      tier2: 5 + I corruption damage
+      tier3: 7 + I corruption damage
+    - effect: You or one ally within [distance](../../../../rule/combat/distance.md) can spend a [Recovery](../../../../rule/health/recoveries.md).
+      name: Effect
 feature_type: ability
 file_basename: drain
 file_dpath: feature/ability/conduit/level-1
@@ -29,11 +35,12 @@ type: ability
 ```ds-feature
 distance: '[Melee](../../../../rule/combat/melee.md) 1'
 effects:
-    - effect: You or one ally within [distance](../../../../rule/combat/distance.md) can spend a [Recovery](../../../../rule/health/recoveries.md).
     - roll: Power Roll + [Intuition](../../../../rule/character/intuition.md)
       tier1: 2 + I corruption damage
       tier2: 5 + I corruption damage
       tier3: 7 + I corruption damage
+    - effect: You or one ally within [distance](../../../../rule/combat/distance.md) can spend a [Recovery](../../../../rule/health/recoveries.md).
+      name: Effect
 feature_type: ability
 flavor: You drain the energy from your target to revitalize yourself or an ally.
 keywords:
@@ -44,7 +51,13 @@ metadata:
     action_type: '[Main action](../../../../rule/combat/turn.md)'
     class: conduit
     distance: '[Melee](../../../../rule/combat/melee.md) 1'
-    effect: You or one ally within [distance](../../../../rule/combat/distance.md) can spend a [Recovery](../../../../rule/health/recoveries.md).
+    effects:
+        - roll: Power Roll + [Intuition](../../../../rule/character/intuition.md)
+          tier1: 2 + I corruption damage
+          tier2: 5 + I corruption damage
+          tier3: 7 + I corruption damage
+        - effect: You or one ally within [distance](../../../../rule/combat/distance.md) can spend a [Recovery](../../../../rule/health/recoveries.md).
+          name: Effect
     flavor: You drain the energy from your target to revitalize yourself or an ally.
     keywords:
         - Magic

@@ -5,7 +5,13 @@ cost: 7 Piety
 cost_amount: "7"
 cost_resource: Piety
 distance: 5 [burst](../../../../rule/combat/burst.md)
-effect: Each ally in the area can spend a [Recovery](../../../../rule/health/recoveries.md).
+effects:
+    - roll: Power Roll + [Intuition](../../../../rule/character/intuition.md)
+      tier1: 2 holy damage
+      tier2: 5 holy damage
+      tier3: 7 holy damage
+    - effect: Each ally in the area can spend a [Recovery](../../../../rule/health/recoveries.md).
+      name: Effect
 feature_type: ability
 file_basename: words-of-wrath-and-grace
 file_dpath: feature/ability/conduit/level-3
@@ -31,11 +37,12 @@ type: ability
 cost: 7 Piety
 distance: 5 [burst](../../../../rule/combat/burst.md)
 effects:
-    - effect: Each ally in the area can spend a [Recovery](../../../../rule/health/recoveries.md).
     - roll: Power Roll + [Intuition](../../../../rule/character/intuition.md)
       tier1: 2 holy damage
       tier2: 5 holy damage
       tier3: 7 holy damage
+    - effect: Each ally in the area can spend a [Recovery](../../../../rule/health/recoveries.md).
+      name: Effect
 feature_type: ability
 flavor: Your [saint](../../../../rule/world/saint.md) grants your enemies a vision of pain and fills your allies with healing energy.
 keywords:
@@ -46,7 +53,13 @@ metadata:
     class: conduit
     cost: 7 Piety
     distance: 5 [burst](../../../../rule/combat/burst.md)
-    effect: Each ally in the area can spend a [Recovery](../../../../rule/health/recoveries.md).
+    effects:
+        - roll: Power Roll + [Intuition](../../../../rule/character/intuition.md)
+          tier1: 2 holy damage
+          tier2: 5 holy damage
+          tier3: 7 holy damage
+        - effect: Each ally in the area can spend a [Recovery](../../../../rule/health/recoveries.md).
+          name: Effect
     flavor: Your [saint](../../../../rule/world/saint.md) grants your enemies a vision of pain and fills your allies with healing energy.
     keywords:
         - Area

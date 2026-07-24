@@ -1,7 +1,13 @@
 ---
 action_type: Main action
 distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
-effect: You can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to the same number of squares that you [pushed](scc.v1:mcdm.heroes.v1/movement/forced-movement) the target.
+effects:
+    - roll: Power Roll + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)
+      tier1: 4 + A damage
+      tier2: 7 + A damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1
+      tier3: 9 + A damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2
+    - effect: You can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to the same number of squares that you [pushed](scc.v1:mcdm.heroes.v1/movement/forced-movement) the target.
+      name: Effect
 flavor: Your enemies try in vain to fall back from your pouncing attack.
 keywords:
     - '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)'

@@ -5,7 +5,9 @@ cost: 9 Ferocity
 cost_amount: "9"
 cost_resource: Ferocity
 distance: Self
-effect: Your companion [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed and can make a melee free strike. As a free triggered action, you and up to 10 allies within 10 squares of your companion's starting position can shift up to their speed and make free strikes.
+effects:
+    - effect: Your companion [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed and can make a melee free strike. As a free triggered action, you and up to 10 allies within 10 squares of your companion's starting position can shift up to their speed and make free strikes.
+      name: Effect
 feature_type: ability
 file_basename: lead-the-pack
 file_dpath: feature/ability/beastheart/level-6
@@ -28,6 +30,7 @@ cost: 9 Ferocity
 distance: Self
 effects:
     - effect: Your companion [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed and can make a melee free strike. As a free triggered action, you and up to 10 allies within 10 squares of your companion's starting position can shift up to their speed and make free strikes.
+      name: Effect
 feature_type: ability
 flavor: Roaring like wild beasts, your companion and your allies rush toward the foe.
 keywords:
@@ -37,7 +40,9 @@ metadata:
     class: beastheart
     cost: 9 Ferocity
     distance: Self
-    effect: Your companion [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed and can make a melee free strike. As a free triggered action, you and up to 10 allies within 10 squares of your companion's starting position can shift up to their speed and make free strikes.
+    effects:
+        - effect: Your companion [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed and can make a melee free strike. As a free triggered action, you and up to 10 allies within 10 squares of your companion's starting position can shift up to their speed and make free strikes.
+          name: Effect
     flavor: Roaring like wild beasts, your companion and your allies rush toward the foe.
     keywords:
         - Companion

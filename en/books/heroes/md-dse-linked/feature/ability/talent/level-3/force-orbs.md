@@ -5,7 +5,15 @@ cost: 7 Clarity
 cost_amount: "7"
 cost_resource: Clarity
 distance: Self; see below
-effect: You create three [size](../../../../rule/character/size.md) 1T orbs that orbit your body. Each orb gives you a cumulative [damage immunity](../../../../rule/damage/damage-immunity.md) 1. Each time you take damage, you lose 1 orb.
+effects:
+    - effect: You create three [size](../../../../rule/character/size.md) 1T orbs that orbit your body. Each orb gives you a cumulative [damage immunity](../../../../rule/damage/damage-immunity.md) 1. Each time you take damage, you lose 1 orb.
+      name: Effect
+    - roll: Power Roll + [Reason](../../../../rule/character/reason.md)
+      tier1: 2 damage
+      tier2: 3 damage
+      tier3: 5 damage
+    - effect: You create five orbs, and you are [weakened](../../../../condition/weakened.md) while you have any orbs active.
+      name: Strained
 feature_type: ability
 file_basename: force-orbs
 file_dpath: feature/ability/talent/level-3
@@ -34,10 +42,13 @@ cost: 7 Clarity
 distance: Self; see below
 effects:
     - effect: You create three [size](../../../../rule/character/size.md) 1T orbs that orbit your body. Each orb gives you a cumulative [damage immunity](../../../../rule/damage/damage-immunity.md) 1. Each time you take damage, you lose 1 orb.
+      name: Effect
     - roll: Power Roll + [Reason](../../../../rule/character/reason.md)
       tier1: 2 damage
       tier2: 3 damage
       tier3: 5 damage
+    - effect: You create five orbs, and you are [weakened](../../../../condition/weakened.md) while you have any orbs active.
+      name: Strained
 feature_type: ability
 flavor: Spheres of solid psionic energy float around you.
 keywords:
@@ -50,7 +61,15 @@ metadata:
     class: talent
     cost: 7 Clarity
     distance: Self; see below
-    effect: You create three [size](../../../../rule/character/size.md) 1T orbs that orbit your body. Each orb gives you a cumulative [damage immunity](../../../../rule/damage/damage-immunity.md) 1. Each time you take damage, you lose 1 orb.
+    effects:
+        - effect: You create three [size](../../../../rule/character/size.md) 1T orbs that orbit your body. Each orb gives you a cumulative [damage immunity](../../../../rule/damage/damage-immunity.md) 1. Each time you take damage, you lose 1 orb.
+          name: Effect
+        - roll: Power Roll + [Reason](../../../../rule/character/reason.md)
+          tier1: 2 damage
+          tier2: 3 damage
+          tier3: 5 damage
+        - effect: You create five orbs, and you are [weakened](../../../../condition/weakened.md) while you have any orbs active.
+          name: Strained
     flavor: Spheres of solid psionic energy float around you.
     keywords:
         - Psionic

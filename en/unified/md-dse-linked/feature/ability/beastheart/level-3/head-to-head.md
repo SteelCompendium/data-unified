@@ -5,7 +5,13 @@ cost: 7 Ferocity
 cost_amount: "7"
 cost_resource: Ferocity
 distance: Melee 1
-effect: You are [bleeding](../../../../condition/bleeding.md) (save ends). Until the end of your next turn, your companion gains an edge on power rolls.
+effects:
+    - roll: Power Roll + Might
+      tier1: 13 + M damage; P < WEAK [dazed](../../../../condition/dazed.md) (save ends)
+      tier2: 19 + M damage; P < AVERAGE [dazed](../../../../condition/dazed.md) (save ends)
+      tier3: 25 + M damage; P < STRONG [dazed](../../../../condition/dazed.md) (save ends)
+    - effect: You are [bleeding](../../../../condition/bleeding.md) (save ends). Until the end of your next turn, your companion gains an edge on power rolls.
+      name: Effect
 feature_type: ability
 file_basename: head-to-head
 file_dpath: feature/ability/beastheart/level-3
@@ -32,11 +38,12 @@ type: ability
 cost: 7 Ferocity
 distance: Melee 1
 effects:
-    - effect: You are [bleeding](../../../../condition/bleeding.md) (save ends). Until the end of your next turn, your companion gains an edge on power rolls.
     - roll: Power Roll + Might
       tier1: 13 + M damage; P < WEAK [dazed](../../../../condition/dazed.md) (save ends)
       tier2: 19 + M damage; P < AVERAGE [dazed](../../../../condition/dazed.md) (save ends)
       tier3: 25 + M damage; P < STRONG [dazed](../../../../condition/dazed.md) (save ends)
+    - effect: You are [bleeding](../../../../condition/bleeding.md) (save ends). Until the end of your next turn, your companion gains an edge on power rolls.
+      name: Effect
 feature_type: ability
 flavor: Your bloody-forehead smash drives your companion into a frenzy.
 keywords:
@@ -48,7 +55,13 @@ metadata:
     class: beastheart
     cost: 7 Ferocity
     distance: Melee 1
-    effect: You are [bleeding](../../../../condition/bleeding.md) (save ends). Until the end of your next turn, your companion gains an edge on power rolls.
+    effects:
+        - roll: Power Roll + Might
+          tier1: 13 + M damage; P < WEAK [dazed](../../../../condition/dazed.md) (save ends)
+          tier2: 19 + M damage; P < AVERAGE [dazed](../../../../condition/dazed.md) (save ends)
+          tier3: 25 + M damage; P < STRONG [dazed](../../../../condition/dazed.md) (save ends)
+        - effect: You are [bleeding](../../../../condition/bleeding.md) (save ends). Until the end of your next turn, your companion gains an edge on power rolls.
+          name: Effect
     flavor: Your bloody-forehead smash drives your companion into a frenzy.
     keywords:
         - Beastheart

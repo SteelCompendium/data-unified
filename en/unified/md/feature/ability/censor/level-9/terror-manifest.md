@@ -3,7 +3,13 @@ action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: censor
 cost: 11 Wrath
 distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
-effect: While [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) this way, if a target who is a leader or solo creature is [winded](scc.v1:mcdm.heroes.v1/rule.health/winded), they take an extra 25 psychic damage. If a target [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) this way is not a leader or solo creature and is [winded](scc.v1:mcdm.heroes.v1/rule.health/winded), they are reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).
+effects:
+    - roll: Power Roll + [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence)
+      tier1: 7 + P psychic damage; P < WEAK, [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
+      tier2: 10 + P psychic damage; P < AVERAGE, [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
+      tier3: 13 + P psychic damage; P < STRONG, [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
+    - effect: While [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) this way, if a target who is a leader or solo creature is [winded](scc.v1:mcdm.heroes.v1/rule.health/winded), they take an extra 25 psychic damage. If a target [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) this way is not a leader or solo creature and is [winded](scc.v1:mcdm.heroes.v1/rule.health/winded), they are reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).
+      name: Effect
 flavor: '"I know what you fear."'
 keywords:
     - Magic

@@ -5,7 +5,13 @@ cost: 9 Insight
 cost_amount: "9"
 cost_resource: Insight
 distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
-effect: A creature [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement) by this ability must be moved straight upward.
+effects:
+    - roll: Power Roll + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)
+      tier1: 3 + A damage; vertical [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5
+      tier2: 6 + A damage; vertical [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 10
+      tier3: 9 + A damage; vertical [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 15
+    - effect: A creature [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement) by this ability must be moved straight upward.
+      name: Effect
 feature_type: ability
 file_basename: black-ash-eruption
 file_dpath: feature/ability/shadow/level-6
@@ -34,11 +40,12 @@ type: ability
 cost: 9 Insight
 distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
 effects:
-    - effect: A creature [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement) by this ability must be moved straight upward.
     - roll: Power Roll + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)
       tier1: 3 + A damage; vertical [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5
       tier2: 6 + A damage; vertical [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 10
       tier3: 9 + A damage; vertical [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 15
+    - effect: A creature [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement) by this ability must be moved straight upward.
+      name: Effect
 feature_type: ability
 flavor: Your attack produces a cloud of black ash that launches an enemy into the air.
 keywords:
@@ -51,7 +58,13 @@ metadata:
     class: shadow
     cost: 9 Insight
     distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
-    effect: A creature [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement) by this ability must be moved straight upward.
+    effects:
+        - roll: Power Roll + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)
+          tier1: 3 + A damage; vertical [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5
+          tier2: 6 + A damage; vertical [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 10
+          tier3: 9 + A damage; vertical [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 15
+        - effect: A creature [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement) by this ability must be moved straight upward.
+          name: Effect
     flavor: Your attack produces a cloud of black ash that launches an enemy into the air.
     keywords:
         - Magic

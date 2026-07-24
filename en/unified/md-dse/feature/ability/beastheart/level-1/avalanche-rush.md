@@ -2,7 +2,11 @@
 action_type: Maneuver
 class: beastheart
 distance: Melee 1
-effect: The target takes damage equal to 3 + your Might score, and if they have M < AVERAGE, they are knocked [prone](scc.v1:mcdm.heroes.v1/condition/prone).
+effects:
+    - effect: The target takes damage equal to 3 + your Might score, and if they have M < AVERAGE, they are knocked [prone](scc.v1:mcdm.heroes.v1/condition/prone).
+      name: Effect
+    - cost: Spend 1 Ferocity
+      effect: If the target has M < STRONG, they are knocked [prone](scc.v1:mcdm.heroes.v1/condition/prone).
 feature_type: ability
 file_basename: avalanche-rush
 file_dpath: feature/ability/beastheart/level-1
@@ -17,7 +21,6 @@ level: "1"
 name: Avalanche Rush
 scc: mcdm.beastheart.v1/feature.ability.beastheart.level-1/avalanche-rush
 source: mcdm.beastheart.v1
-spend: '1 Ferocity: If the target has M < STRONG, they are knocked [prone](scc.v1:mcdm.heroes.v1/condition/prone).'
 subclass: punisher
 target: One creature
 type: ability
@@ -27,8 +30,9 @@ type: ability
 distance: Melee 1
 effects:
     - effect: The target takes damage equal to 3 + your Might score, and if they have M < AVERAGE, they are knocked [prone](scc.v1:mcdm.heroes.v1/condition/prone).
-    - effect: '1 Ferocity: If the target has M < STRONG, they are knocked [prone](scc.v1:mcdm.heroes.v1/condition/prone).'
-      name: Spend
+      name: Effect
+    - cost: Spend 1 Ferocity
+      effect: If the target has M < STRONG, they are knocked [prone](scc.v1:mcdm.heroes.v1/condition/prone).
 feature_type: ability
 flavor: You ride a cascade of ice over your foes.
 keywords:
@@ -39,7 +43,11 @@ metadata:
     action_type: Maneuver
     class: beastheart
     distance: Melee 1
-    effect: The target takes damage equal to 3 + your Might score, and if they have M < AVERAGE, they are knocked [prone](scc.v1:mcdm.heroes.v1/condition/prone).
+    effects:
+        - effect: The target takes damage equal to 3 + your Might score, and if they have M < AVERAGE, they are knocked [prone](scc.v1:mcdm.heroes.v1/condition/prone).
+          name: Effect
+        - cost: Spend 1 Ferocity
+          effect: If the target has M < STRONG, they are knocked [prone](scc.v1:mcdm.heroes.v1/condition/prone).
     flavor: You ride a cascade of ice over your foes.
     keywords:
         - Beastheart
@@ -48,7 +56,6 @@ metadata:
     level: "1"
     name: Avalanche Rush
     scc: mcdm.beastheart.v1/feature.ability.beastheart.level-1/avalanche-rush
-    spend: '1 Ferocity: If the target has M < STRONG, they are knocked [prone](scc.v1:mcdm.heroes.v1/condition/prone).'
     subclass: punisher
     target: One creature
     type: ability

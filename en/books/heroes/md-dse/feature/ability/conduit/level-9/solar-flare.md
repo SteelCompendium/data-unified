@@ -5,6 +5,11 @@ cost: 11 Piety
 cost_amount: "11"
 cost_resource: Piety
 distance: 5 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 10
+effects:
+    - roll: Power Roll + [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)
+      tier1: 9 fire damage
+      tier2: 14 fire damage
+      tier3: 19 fire damage
 feature_type: ability
 file_basename: solar-flare
 file_dpath: feature/ability/conduit/level-9
@@ -47,6 +52,11 @@ metadata:
     class: conduit
     cost: 11 Piety
     distance: 5 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 10
+    effects:
+        - roll: Power Roll + [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)
+          tier1: 9 fire damage
+          tier2: 14 fire damage
+          tier3: 19 fire damage
     flavor: You call down a sphere of fire that burns your foes to ash.
     keywords:
         - Area

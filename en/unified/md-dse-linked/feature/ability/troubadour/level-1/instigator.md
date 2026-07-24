@@ -2,7 +2,13 @@
 action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: troubadour
 distance: '[Melee](../../../../rule/combat/melee.md) 1'
-effect: The target is [taunted](../../../../condition/taunted.md) by you or a willing ally [adjacent](../../../../rule/combat/adjacent.md) to you until the end of the target's next [turn](../../../../rule/combat/turn.md).
+effects:
+    - roll: Power Roll + [Presence](../../../../rule/character/presence.md)
+      tier1: 3 + P damage
+      tier2: 6 + P damage
+      tier3: 9 + P damage
+    - effect: The target is [taunted](../../../../condition/taunted.md) by you or a willing ally [adjacent](../../../../rule/combat/adjacent.md) to you until the end of the target's next [turn](../../../../rule/combat/turn.md).
+      name: Effect
 feature_type: ability
 file_basename: instigator
 file_dpath: feature/ability/troubadour/level-1
@@ -29,11 +35,12 @@ type: ability
 ```ds-feature
 distance: '[Melee](../../../../rule/combat/melee.md) 1'
 effects:
-    - effect: The target is [taunted](../../../../condition/taunted.md) by you or a willing ally [adjacent](../../../../rule/combat/adjacent.md) to you until the end of the target's next [turn](../../../../rule/combat/turn.md).
     - roll: Power Roll + [Presence](../../../../rule/character/presence.md)
       tier1: 3 + P damage
       tier2: 6 + P damage
       tier3: 9 + P damage
+    - effect: The target is [taunted](../../../../condition/taunted.md) by you or a willing ally [adjacent](../../../../rule/combat/adjacent.md) to you until the end of the target's next [turn](../../../../rule/combat/turn.md).
+      name: Effect
 feature_type: ability
 flavor: I didn't do it! What?
 keywords:
@@ -44,7 +51,13 @@ metadata:
     action_type: '[Main action](../../../../rule/combat/turn.md)'
     class: troubadour
     distance: '[Melee](../../../../rule/combat/melee.md) 1'
-    effect: The target is [taunted](../../../../condition/taunted.md) by you or a willing ally [adjacent](../../../../rule/combat/adjacent.md) to you until the end of the target's next [turn](../../../../rule/combat/turn.md).
+    effects:
+        - roll: Power Roll + [Presence](../../../../rule/character/presence.md)
+          tier1: 3 + P damage
+          tier2: 6 + P damage
+          tier3: 9 + P damage
+        - effect: The target is [taunted](../../../../condition/taunted.md) by you or a willing ally [adjacent](../../../../rule/combat/adjacent.md) to you until the end of the target's next [turn](../../../../rule/combat/turn.md).
+          name: Effect
     flavor: I didn't do it! What?
     keywords:
         - '[Melee](../../../../rule/combat/melee.md)'

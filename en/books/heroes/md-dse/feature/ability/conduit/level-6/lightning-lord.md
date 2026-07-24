@@ -5,7 +5,13 @@ cost: 9 Piety
 cost_amount: "9"
 cost_resource: Piety
 distance: Three 10 x 1 lines within 1
-effect: The targets are [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement) one at a time, starting with the target nearest to you, and can be [pushed](scc.v1:mcdm.heroes.v1/movement/forced-movement) into other targets in the same line.
+effects:
+    - roll: Power Roll + [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)
+      tier1: 6 lightning damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1
+      tier2: 9 lightning damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2
+      tier3: 13 lightning damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3
+    - effect: The targets are [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement) one at a time, starting with the target nearest to you, and can be [pushed](scc.v1:mcdm.heroes.v1/movement/forced-movement) into other targets in the same line.
+      name: Effect
 feature_type: ability
 file_basename: lightning-lord
 file_dpath: feature/ability/conduit/level-6
@@ -32,11 +38,12 @@ type: ability
 cost: 9 Piety
 distance: Three 10 x 1 lines within 1
 effects:
-    - effect: The targets are [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement) one at a time, starting with the target nearest to you, and can be [pushed](scc.v1:mcdm.heroes.v1/movement/forced-movement) into other targets in the same line.
     - roll: Power Roll + [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)
       tier1: 6 lightning damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1
       tier2: 9 lightning damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2
       tier3: 13 lightning damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3
+    - effect: The targets are [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement) one at a time, starting with the target nearest to you, and can be [pushed](scc.v1:mcdm.heroes.v1/movement/forced-movement) into other targets in the same line.
+      name: Effect
 feature_type: ability
 flavor: Lightning [bursts](scc.v1:mcdm.heroes.v1/rule.combat/burst) forth from your body in several directions.
 keywords:
@@ -47,7 +54,13 @@ metadata:
     class: conduit
     cost: 9 Piety
     distance: Three 10 x 1 lines within 1
-    effect: The targets are [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement) one at a time, starting with the target nearest to you, and can be [pushed](scc.v1:mcdm.heroes.v1/movement/forced-movement) into other targets in the same line.
+    effects:
+        - roll: Power Roll + [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)
+          tier1: 6 lightning damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1
+          tier2: 9 lightning damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2
+          tier3: 13 lightning damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3
+        - effect: The targets are [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement) one at a time, starting with the target nearest to you, and can be [pushed](scc.v1:mcdm.heroes.v1/movement/forced-movement) into other targets in the same line.
+          name: Effect
     flavor: Lightning [bursts](scc.v1:mcdm.heroes.v1/rule.combat/burst) forth from your body in several directions.
     keywords:
         - Area

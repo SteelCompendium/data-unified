@@ -5,6 +5,11 @@ cost: 11 Insight
 cost_amount: "11"
 cost_resource: Insight
 distance: 5 x 1 line within 5
+effects:
+    - roll: Power Roll + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)
+      tier1: 12 damage; M < WEAK, [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
+      tier2: 18 damage; M < AVERAGE, [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
+      tier3: 24 damage; M < STRONG, [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
 feature_type: ability
 file_basename: they-always-line-up
 file_dpath: feature/ability/shadow/level-8
@@ -46,6 +51,11 @@ metadata:
     class: shadow
     cost: 11 Insight
     distance: 5 x 1 line within 5
+    effects:
+        - roll: Power Roll + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)
+          tier1: 12 damage; M < WEAK, [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
+          tier2: 18 damage; M < AVERAGE, [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
+          tier3: 24 damage; M < STRONG, [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
     flavor: You fire a projectile so fast that it passes through a line of foes, hamstringing them.
     keywords:
         - Area

@@ -5,7 +5,9 @@ cost: 9 Focus
 cost_amount: "9"
 cost_resource: Focus
 distance: 2 [burst](../../../../rule/combat/burst.md)
-effect: You mark two enemies within 10 squares of you. Each target can [shift](../../../../movement/shifting.md) up to their [speed](../../../../rule/character/speed.md). You and each target gain 2 [surges](../../../../rule/resource/surge.md).
+effects:
+    - effect: You mark two enemies within 10 squares of you. Each target can [shift](../../../../movement/shifting.md) up to their [speed](../../../../rule/character/speed.md). You and each target gain 2 [surges](../../../../rule/resource/surge.md).
+      name: Effect
 feature_type: ability
 file_basename: hustle
 file_dpath: feature/ability/tactician/level-6
@@ -28,6 +30,7 @@ cost: 9 Focus
 distance: 2 [burst](../../../../rule/combat/burst.md)
 effects:
     - effect: You mark two enemies within 10 squares of you. Each target can [shift](../../../../movement/shifting.md) up to their [speed](../../../../rule/character/speed.md). You and each target gain 2 [surges](../../../../rule/resource/surge.md).
+      name: Effect
 feature_type: ability
 flavor: You and your allies coordinate to form a new battle line.
 keywords:
@@ -37,7 +40,9 @@ metadata:
     class: tactician
     cost: 9 Focus
     distance: 2 [burst](../../../../rule/combat/burst.md)
-    effect: You mark two enemies within 10 squares of you. Each target can [shift](../../../../movement/shifting.md) up to their [speed](../../../../rule/character/speed.md). You and each target gain 2 [surges](../../../../rule/resource/surge.md).
+    effects:
+        - effect: You mark two enemies within 10 squares of you. Each target can [shift](../../../../movement/shifting.md) up to their [speed](../../../../rule/character/speed.md). You and each target gain 2 [surges](../../../../rule/resource/surge.md).
+          name: Effect
     flavor: You and your allies coordinate to form a new battle line.
     keywords:
         - Area

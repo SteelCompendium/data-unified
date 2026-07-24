@@ -2,7 +2,13 @@
 action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: shadow
 distance: '[Melee](../../../../rule/combat/melee.md) 1'
-effect: One ally within 5 squares of the target gains 1 [surge](../../../../rule/resource/surge.md).
+effects:
+    - roll: Power Roll + [Agility](../../../../rule/character/agility.md)
+      tier1: 3 + A damage
+      tier2: 5 + A damage
+      tier3: 8 + A damage; I < STRONG[, prone](../../../../condition/prone.md)
+    - effect: One ally within 5 squares of the target gains 1 [surge](../../../../rule/resource/surge.md).
+      name: Effect
 feature_type: ability
 file_basename: gasping-in-pain
 file_dpath: feature/ability/shadow/level-1
@@ -29,11 +35,12 @@ type: ability
 ```ds-feature
 distance: '[Melee](../../../../rule/combat/melee.md) 1'
 effects:
-    - effect: One ally within 5 squares of the target gains 1 [surge](../../../../rule/resource/surge.md).
     - roll: Power Roll + [Agility](../../../../rule/character/agility.md)
       tier1: 3 + A damage
       tier2: 5 + A damage
       tier3: 8 + A damage; I < STRONG[, prone](../../../../condition/prone.md)
+    - effect: One ally within 5 squares of the target gains 1 [surge](../../../../rule/resource/surge.md).
+      name: Effect
 feature_type: ability
 flavor: Your precise strikes let your allies take advantage of a target's agony.
 keywords:
@@ -44,7 +51,13 @@ metadata:
     action_type: '[Main action](../../../../rule/combat/turn.md)'
     class: shadow
     distance: '[Melee](../../../../rule/combat/melee.md) 1'
-    effect: One ally within 5 squares of the target gains 1 [surge](../../../../rule/resource/surge.md).
+    effects:
+        - roll: Power Roll + [Agility](../../../../rule/character/agility.md)
+          tier1: 3 + A damage
+          tier2: 5 + A damage
+          tier3: 8 + A damage; I < STRONG[, prone](../../../../condition/prone.md)
+        - effect: One ally within 5 squares of the target gains 1 [surge](../../../../rule/resource/surge.md).
+          name: Effect
     flavor: Your precise strikes let your allies take advantage of a target's agony.
     keywords:
         - '[Melee](../../../../rule/combat/melee.md)'

@@ -2,7 +2,9 @@
 action_type: '[Maneuver](../../../../rule/combat/turn.md)'
 class: elementalist
 distance: Self; see below
-effect: 'Choose one of the following effects:'
+effects:
+    - effect: 'Choose one of the following effects:'
+      name: Effect
 feature_type: ability
 file_basename: practical-magic
 file_dpath: feature/ability/elementalist/level-1
@@ -23,6 +25,7 @@ type: ability
 distance: Self; see below
 effects:
     - effect: 'Choose one of the following effects:'
+      name: Effect
 feature_type: ability
 flavor: Your mastery of elemental power lets you customize your conjurations.
 keywords:
@@ -31,7 +34,9 @@ metadata:
     action_type: '[Maneuver](../../../../rule/combat/turn.md)'
     class: elementalist
     distance: Self; see below
-    effect: 'Choose one of the following effects:'
+    effects:
+        - effect: 'Choose one of the following effects:'
+          name: Effect
     flavor: Your mastery of elemental power lets you customize your conjurations.
     keywords:
         - Magic

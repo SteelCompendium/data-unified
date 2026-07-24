@@ -11,6 +11,10 @@
     {
       "effect": "This ability ignores [cover](scc.v1:mcdm.heroes.v1/rule.combat/cover) and [concealment](scc.v1:mcdm.heroes.v1/rule.combat/concealment).",
       "name": "Effect"
+    },
+    {
+      "effect": "The [ability roll](scc.v1:mcdm.heroes.v1/rule.dice/ability-roll) scores a [critical hit](scc.v1:mcdm.heroes.v1/rule.combat/critical-hit) on a natural 17 or higher. You take half the damage the target takes, and you can't reduce this damage in any way.",
+      "name": "Strained"
     }
   ],
   "feature_type": "ability",

@@ -3,7 +3,13 @@ action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: fury
 cost: 3 Ferocity
 distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
-effect: When you [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) the target, you can move into any square they leave. If you take damage from an [opportunity attack](scc.v1:mcdm.heroes.v1/rule.combat/opportunity-attack) by moving this way, the target takes the same damage.
+effects:
+    - roll: Power Roll + [Might](scc.v1:mcdm.heroes.v1/rule.character/might)
+      tier1: 3 + M damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2
+      tier2: 5 + M damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3
+      tier3: 8 + M damage; [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5
+    - effect: When you [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) the target, you can move into any square they leave. If you take damage from an [opportunity attack](scc.v1:mcdm.heroes.v1/rule.combat/opportunity-attack) by moving this way, the target takes the same damage.
+      name: Effect
 flavor: Your enemies will clear your path—whether they want to or not.
 keywords:
     - '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)'

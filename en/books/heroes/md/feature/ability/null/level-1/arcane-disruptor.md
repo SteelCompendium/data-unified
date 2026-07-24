@@ -3,7 +3,13 @@ action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: "null"
 cost: 5 Discipline
 distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
-effect: While [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) this way, the target takes damage equal to your [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition) score whenever they use a [supernatural](scc.v1:mcdm.heroes.v1/rule.general/supernatural) ability that costs Malice.
+effects:
+    - roll: Power Roll + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)
+      tier1: 8 + **A** psychic damage; M < WEAK, [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+      tier2: 12 + **A** psychic damage; M < AVERAGE, [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+      tier3: 16 + **A** psychic damage; M < STRONG, [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+    - effect: While [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) this way, the target takes damage equal to your [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition) score whenever they use a [supernatural](scc.v1:mcdm.heroes.v1/rule.general/supernatural) ability that costs Malice.
+      name: Effect
 flavor: Your blow reorders a foe's body, causing pain if they attempt to channel sorcery.
 keywords:
     - '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)'

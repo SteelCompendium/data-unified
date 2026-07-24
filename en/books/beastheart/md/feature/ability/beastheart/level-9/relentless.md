@@ -3,7 +3,13 @@ action_type: Main action
 class: beastheart
 cost: 11 Ferocity
 distance: Melee 1
-effect: While the target is [taunted](scc.v1:mcdm.heroes.v1/condition/taunted) this way, all creatures except your companion have immunity 10 to damage dealt by the target.
+effects:
+    - roll: Power Roll + Might
+      tier1: 11 + M damage; P < WEAK [taunted](scc.v1:mcdm.heroes.v1/condition/taunted) (save ends)
+      tier2: 17 + M damage; P < AVERAGE [taunted](scc.v1:mcdm.heroes.v1/condition/taunted) (save ends)
+      tier3: 22 + M damage; P < STRONG [taunted](scc.v1:mcdm.heroes.v1/condition/taunted) (save ends)
+    - effect: While the target is [taunted](scc.v1:mcdm.heroes.v1/condition/taunted) this way, all creatures except your companion have immunity 10 to damage dealt by the target.
+      name: Effect
 flavor: Your companion launches at your foe, shielding allies with their body.
 keywords:
     - Charge

@@ -5,6 +5,11 @@ cost: 9 Piety
 cost_amount: "9"
 cost_resource: Piety
 distance: 4 [cube](../../../../rule/combat/cube.md) within 10
+effects:
+    - roll: Power Roll + [Intuition](../../../../rule/character/intuition.md)
+      tier1: 4 corruption damage; I < WEAK, [prone and](../../../../condition/prone.md) can't stand (save ends)
+      tier2: 7 corruption damage; I < AVERAGE, [prone and](../../../../condition/prone.md) can't stand (save ends)
+      tier3: 11 corruption damage; I < STRONG, [prone and](../../../../condition/prone.md) can't stand (save ends)
 feature_type: ability
 file_basename: penance
 file_dpath: feature/ability/conduit/level-5
@@ -46,6 +51,11 @@ metadata:
     class: conduit
     cost: 9 Piety
     distance: 4 [cube](../../../../rule/combat/cube.md) within 10
+    effects:
+        - roll: Power Roll + [Intuition](../../../../rule/character/intuition.md)
+          tier1: 4 corruption damage; I < WEAK, [prone and](../../../../condition/prone.md) can't stand (save ends)
+          tier2: 7 corruption damage; I < AVERAGE, [prone and](../../../../condition/prone.md) can't stand (save ends)
+          tier3: 11 corruption damage; I < STRONG, [prone and](../../../../condition/prone.md) can't stand (save ends)
     flavor: '"If you won''t kneel, the gods will make you."'
     keywords:
         - Area

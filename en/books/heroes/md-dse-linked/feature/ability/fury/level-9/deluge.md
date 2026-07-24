@@ -5,7 +5,13 @@ cost: 11 Ferocity
 cost_amount: "11"
 cost_resource: Ferocity
 distance: 5 [cube](../../../../rule/combat/cube.md) within 10
-effect: This ability deals your primordial [damage type](../../../../rule/damage/damage-type.md) and ignores [damage immunity](../../../../rule/damage/damage-immunity.md).
+effects:
+    - roll: Power Roll + [Might](../../../../rule/character/might.md)
+      tier1: 7 damage
+      tier2: 10 damage
+      tier3: 15 damage
+    - effect: This ability deals your primordial [damage type](../../../../rule/damage/damage-type.md) and ignores [damage immunity](../../../../rule/damage/damage-immunity.md).
+      name: Effect
 feature_type: ability
 file_basename: deluge
 file_dpath: feature/ability/fury/level-9
@@ -33,11 +39,12 @@ type: ability
 cost: 11 Ferocity
 distance: 5 [cube](../../../../rule/combat/cube.md) within 10
 effects:
-    - effect: This ability deals your primordial [damage type](../../../../rule/damage/damage-type.md) and ignores [damage immunity](../../../../rule/damage/damage-immunity.md).
     - roll: Power Roll + [Might](../../../../rule/character/might.md)
       tier1: 7 damage
       tier2: 10 damage
       tier3: 15 damage
+    - effect: This ability deals your primordial [damage type](../../../../rule/damage/damage-type.md) and ignores [damage immunity](../../../../rule/damage/damage-immunity.md).
+      name: Effect
 feature_type: ability
 flavor: You summon your [primordial storm](../../../fury/stormwight-kits/primordial-storm.md).
 keywords:
@@ -49,7 +56,13 @@ metadata:
     class: fury
     cost: 11 Ferocity
     distance: 5 [cube](../../../../rule/combat/cube.md) within 10
-    effect: This ability deals your primordial [damage type](../../../../rule/damage/damage-type.md) and ignores [damage immunity](../../../../rule/damage/damage-immunity.md).
+    effects:
+        - roll: Power Roll + [Might](../../../../rule/character/might.md)
+          tier1: 7 damage
+          tier2: 10 damage
+          tier3: 15 damage
+        - effect: This ability deals your primordial [damage type](../../../../rule/damage/damage-type.md) and ignores [damage immunity](../../../../rule/damage/damage-immunity.md).
+          name: Effect
     flavor: You summon your [primordial storm](../../../fury/stormwight-kits/primordial-storm.md).
     keywords:
         - Area

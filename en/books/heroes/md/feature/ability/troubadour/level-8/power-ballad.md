@@ -3,7 +3,9 @@ action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: troubadour
 cost: 11 Drama
 distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
-effect: Until the end of the encounter, whenever the target takes damage while [winded](scc.v1:mcdm.heroes.v1/rule.health/winded), they can use a free [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action) to deal half the damage they took to the source of the damage.
+effects:
+    - effect: Until the end of the encounter, whenever the target takes damage while [winded](scc.v1:mcdm.heroes.v1/rule.health/winded), they can use a free [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action) to deal half the damage they took to the source of the damage.
+      name: Effect
 flavor: A song for the brokenhearted wraps itself around the target and blossoms into a ward of thorns.
 keywords:
     - Magic

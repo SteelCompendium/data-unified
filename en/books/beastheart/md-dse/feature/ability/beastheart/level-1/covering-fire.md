@@ -2,7 +2,13 @@
 action_type: Main action
 class: beastheart
 distance: Ranged 5
-effect: If the target is not [prone](scc.v1:mcdm.heroes.v1/condition/prone), they must use a free triggered action to fall [prone](scc.v1:mcdm.heroes.v1/condition/prone) or take extra damage equal to twice your Intuition score. Your companion can shift up to a number of squares equal to their Intuition score.
+effects:
+    - roll: Power Roll + Intuition
+      tier1: 2 + I damage
+      tier2: 4 + I damage
+      tier3: 6 + I damage
+    - effect: If the target is not [prone](scc.v1:mcdm.heroes.v1/condition/prone), they must use a free triggered action to fall [prone](scc.v1:mcdm.heroes.v1/condition/prone) or take extra damage equal to twice your Intuition score. Your companion can shift up to a number of squares equal to their Intuition score.
+      name: Effect
 feature_type: ability
 file_basename: covering-fire
 file_dpath: feature/ability/beastheart/level-1
@@ -30,11 +36,12 @@ type: ability
 ```ds-feature
 distance: Ranged 5
 effects:
-    - effect: If the target is not [prone](scc.v1:mcdm.heroes.v1/condition/prone), they must use a free triggered action to fall [prone](scc.v1:mcdm.heroes.v1/condition/prone) or take extra damage equal to twice your Intuition score. Your companion can shift up to a number of squares equal to their Intuition score.
     - roll: Power Roll + Intuition
       tier1: 2 + I damage
       tier2: 4 + I damage
       tier3: 6 + I damage
+    - effect: If the target is not [prone](scc.v1:mcdm.heroes.v1/condition/prone), they must use a free triggered action to fall [prone](scc.v1:mcdm.heroes.v1/condition/prone) or take extra damage equal to twice your Intuition score. Your companion can shift up to a number of squares equal to their Intuition score.
+      name: Effect
 feature_type: ability
 flavor: Keep your head down, or I'll shoot it off!
 keywords:
@@ -46,7 +53,13 @@ metadata:
     action_type: Main action
     class: beastheart
     distance: Ranged 5
-    effect: If the target is not [prone](scc.v1:mcdm.heroes.v1/condition/prone), they must use a free triggered action to fall [prone](scc.v1:mcdm.heroes.v1/condition/prone) or take extra damage equal to twice your Intuition score. Your companion can shift up to a number of squares equal to their Intuition score.
+    effects:
+        - roll: Power Roll + Intuition
+          tier1: 2 + I damage
+          tier2: 4 + I damage
+          tier3: 6 + I damage
+        - effect: If the target is not [prone](scc.v1:mcdm.heroes.v1/condition/prone), they must use a free triggered action to fall [prone](scc.v1:mcdm.heroes.v1/condition/prone) or take extra damage equal to twice your Intuition score. Your companion can shift up to a number of squares equal to their Intuition score.
+          name: Effect
     flavor: Keep your head down, or I'll shoot it off!
     keywords:
         - Beastheart

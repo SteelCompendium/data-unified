@@ -3,7 +3,13 @@ action_type: Free [triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action
 class: "null"
 cost: 9 Discipline
 distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
-effect: This [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) resolves before the triggering movement or main action.
+effects:
+    - roll: Power Roll + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)
+      tier1: 7 + A damage; I < WEAK, [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
+      tier2: 10 + A damage; I < AVERAGE, [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
+      tier3: 13 + A damage; I < STRONG, [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
+    - effect: This [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) resolves before the triggering movement or main action.
+      name: Effect
 flavor: You suddenly strike an enemy, then grab them in a psionically enhanced grip.
 keywords:
     - '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)'

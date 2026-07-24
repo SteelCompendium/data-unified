@@ -2,6 +2,13 @@
 action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: talent
 distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
+effects:
+    - roll: Power Roll + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason)
+      tier1: 2 + R psychic damage
+      tier2: 4 + R psychic damage
+      tier3: 6 + R psychic damage
+    - effect: The target takes an extra 2 psychic damage. You also take 2 psychic damage that can't be reduced in any way.
+      name: Strained
 feature_type: ability
 file_basename: mind-spike
 file_dpath: feature/ability/talent/level-1
@@ -32,6 +39,8 @@ effects:
       tier1: 2 + R psychic damage
       tier2: 4 + R psychic damage
       tier3: 6 + R psychic damage
+    - effect: The target takes an extra 2 psychic damage. You also take 2 psychic damage that can't be reduced in any way.
+      name: Strained
 feature_type: ability
 flavor: A telepathic bolt instantly zaps a creature's brain.
 keywords:
@@ -43,6 +52,13 @@ metadata:
     action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: talent
     distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
+    effects:
+        - roll: Power Roll + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason)
+          tier1: 2 + R psychic damage
+          tier2: 4 + R psychic damage
+          tier3: 6 + R psychic damage
+        - effect: The target takes an extra 2 psychic damage. You also take 2 psychic damage that can't be reduced in any way.
+          name: Strained
     flavor: A telepathic bolt instantly zaps a creature's brain.
     keywords:
         - Psionic

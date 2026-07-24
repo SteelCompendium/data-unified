@@ -3,14 +3,14 @@
   "distance": "Self",
   "effects": [
     {
+      "effect": "Your companion [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed and makes one power roll that targets each enemy they come adjacent to during the shift. If your companion targets only one enemy with this ability, the power roll gains an edge.",
+      "name": "Effect"
+    },
+    {
       "roll": "Power Roll + Might",
       "tier1": "9 sonic damage; M \u003c WEAK [prone](scc.v1:mcdm.heroes.v1/condition/prone)",
       "tier2": "13 sonic damage; M \u003c AVERAGE [prone](scc.v1:mcdm.heroes.v1/condition/prone)",
       "tier3": "18 sonic damage; M \u003c STRONG [prone](scc.v1:mcdm.heroes.v1/condition/prone)"
-    },
-    {
-      "effect": "Your companion [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed and makes one power roll that targets each enemy they come adjacent to during the shift. If your companion targets only one enemy with this ability, the power roll gains an edge.",
-      "name": "Effect"
     },
     {
       "cost": "Spend 2 Ferocity",

@@ -5,7 +5,13 @@ cost: 11 Piety
 cost_amount: "11"
 cost_resource: Piety
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
-effect: While [weakened](../../../../condition/weakened.md) this way, the target has [damage weakness](../../../../rule/damage/damage-weakness.md) 10.
+effects:
+    - roll: Power Roll + [Intuition](../../../../rule/character/intuition.md)
+      tier1: 10 + I corruption damage; A < WEAK, [weakened](../../../../condition/weakened.md) (save ends)
+      tier2: 15 + I corruption damage; A < AVERAGE, [weakened](../../../../condition/weakened.md) (save ends)
+      tier3: 21 + I corruption damage; A < STRONG, [weakened](../../../../condition/weakened.md) (save ends)
+    - effect: While [weakened](../../../../condition/weakened.md) this way, the target has [damage weakness](../../../../rule/damage/damage-weakness.md) 10.
+      name: Effect
 feature_type: ability
 file_basename: word-of-weakening
 file_dpath: feature/ability/conduit/level-9
@@ -33,11 +39,12 @@ type: ability
 cost: 11 Piety
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
 effects:
-    - effect: While [weakened](../../../../condition/weakened.md) this way, the target has [damage weakness](../../../../rule/damage/damage-weakness.md) 10.
     - roll: Power Roll + [Intuition](../../../../rule/character/intuition.md)
       tier1: 10 + I corruption damage; A < WEAK, [weakened](../../../../condition/weakened.md) (save ends)
       tier2: 15 + I corruption damage; A < AVERAGE, [weakened](../../../../condition/weakened.md) (save ends)
       tier3: 21 + I corruption damage; A < STRONG, [weakened](../../../../condition/weakened.md) (save ends)
+    - effect: While [weakened](../../../../condition/weakened.md) this way, the target has [damage weakness](../../../../rule/damage/damage-weakness.md) 10.
+      name: Effect
 feature_type: ability
 flavor: You utter a divine word that makes a foe brittle.
 keywords:
@@ -49,7 +56,13 @@ metadata:
     class: conduit
     cost: 11 Piety
     distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
-    effect: While [weakened](../../../../condition/weakened.md) this way, the target has [damage weakness](../../../../rule/damage/damage-weakness.md) 10.
+    effects:
+        - roll: Power Roll + [Intuition](../../../../rule/character/intuition.md)
+          tier1: 10 + I corruption damage; A < WEAK, [weakened](../../../../condition/weakened.md) (save ends)
+          tier2: 15 + I corruption damage; A < AVERAGE, [weakened](../../../../condition/weakened.md) (save ends)
+          tier3: 21 + I corruption damage; A < STRONG, [weakened](../../../../condition/weakened.md) (save ends)
+        - effect: While [weakened](../../../../condition/weakened.md) this way, the target has [damage weakness](../../../../rule/damage/damage-weakness.md) 10.
+          name: Effect
     flavor: You utter a divine word that makes a foe brittle.
     keywords:
         - Magic

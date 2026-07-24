@@ -5,7 +5,9 @@ cost: 9 Focus
 cost_amount: "9"
 cost_resource: Focus
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
-effect: The target uses a [heroic ability](../../../../rule/general/heroic-ability.md) with the [Strike](../../../../rule/combat/strike.md) keyword as a free [triggered action](../../../../rule/combat/triggered-action.md), and deals extra damage with that ability equal to your [Reason](../../../../rule/character/reason.md) score. The ability has its [Heroic Resource](../../../../rule/resource/heroic-resource.md) cost reduced by 1 + your [Reason](../../../../rule/character/reason.md) score (minimum cost 0).
+effects:
+    - effect: The target uses a [heroic ability](../../../../rule/general/heroic-ability.md) with the [Strike](../../../../rule/combat/strike.md) keyword as a free [triggered action](../../../../rule/combat/triggered-action.md), and deals extra damage with that ability equal to your [Reason](../../../../rule/character/reason.md) score. The ability has its [Heroic Resource](../../../../rule/resource/heroic-resource.md) cost reduced by 1 + your [Reason](../../../../rule/character/reason.md) score (minimum cost 0).
+      name: Effect
 feature_type: ability
 file_basename: youve-still-got-something-left
 file_dpath: feature/ability/tactician/level-5
@@ -27,6 +29,7 @@ cost: 9 Focus
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
 effects:
     - effect: The target uses a [heroic ability](../../../../rule/general/heroic-ability.md) with the [Strike](../../../../rule/combat/strike.md) keyword as a free [triggered action](../../../../rule/combat/triggered-action.md), and deals extra damage with that ability equal to your [Reason](../../../../rule/character/reason.md) score. The ability has its [Heroic Resource](../../../../rule/resource/heroic-resource.md) cost reduced by 1 + your [Reason](../../../../rule/character/reason.md) score (minimum cost 0).
+      name: Effect
 feature_type: ability
 flavor: You push an ally to use a [heroic ability](../../../../rule/general/heroic-ability.md) sooner than they otherwise would.
 keywords:
@@ -36,7 +39,9 @@ metadata:
     class: tactician
     cost: 9 Focus
     distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
-    effect: The target uses a [heroic ability](../../../../rule/general/heroic-ability.md) with the [Strike](../../../../rule/combat/strike.md) keyword as a free [triggered action](../../../../rule/combat/triggered-action.md), and deals extra damage with that ability equal to your [Reason](../../../../rule/character/reason.md) score. The ability has its [Heroic Resource](../../../../rule/resource/heroic-resource.md) cost reduced by 1 + your [Reason](../../../../rule/character/reason.md) score (minimum cost 0).
+    effects:
+        - effect: The target uses a [heroic ability](../../../../rule/general/heroic-ability.md) with the [Strike](../../../../rule/combat/strike.md) keyword as a free [triggered action](../../../../rule/combat/triggered-action.md), and deals extra damage with that ability equal to your [Reason](../../../../rule/character/reason.md) score. The ability has its [Heroic Resource](../../../../rule/resource/heroic-resource.md) cost reduced by 1 + your [Reason](../../../../rule/character/reason.md) score (minimum cost 0).
+          name: Effect
     flavor: You push an ally to use a [heroic ability](../../../../rule/general/heroic-ability.md) sooner than they otherwise would.
     keywords:
         - '[Ranged](../../../../rule/combat/ranged.md)'

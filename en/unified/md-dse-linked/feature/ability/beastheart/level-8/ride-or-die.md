@@ -5,7 +5,9 @@ cost: 11 Ferocity
 cost_amount: "11"
 cost_resource: Ferocity
 distance: Self
-effect: You and your companion each use a different ability that costs 9 or fewer ferocity and is either a main action or a maneuver. These abilities cost no ferocity. If an ability lets you spend additional ferocity for an enhanced effect, you can't do so.
+effects:
+    - effect: You and your companion each use a different ability that costs 9 or fewer ferocity and is either a main action or a maneuver. These abilities cost no ferocity. If an ability lets you spend additional ferocity for an enhanced effect, you can't do so.
+      name: Effect
 feature_type: ability
 file_basename: ride-or-die
 file_dpath: feature/ability/beastheart/level-8
@@ -27,6 +29,7 @@ cost: 11 Ferocity
 distance: Self
 effects:
     - effect: You and your companion each use a different ability that costs 9 or fewer ferocity and is either a main action or a maneuver. These abilities cost no ferocity. If an ability lets you spend additional ferocity for an enhanced effect, you can't do so.
+      name: Effect
 feature_type: ability
 flavor: Your enemies might be stronger than you, but that's why you're not alone.
 keywords:
@@ -36,7 +39,9 @@ metadata:
     class: beastheart
     cost: 11 Ferocity
     distance: Self
-    effect: You and your companion each use a different ability that costs 9 or fewer ferocity and is either a main action or a maneuver. These abilities cost no ferocity. If an ability lets you spend additional ferocity for an enhanced effect, you can't do so.
+    effects:
+        - effect: You and your companion each use a different ability that costs 9 or fewer ferocity and is either a main action or a maneuver. These abilities cost no ferocity. If an ability lets you spend additional ferocity for an enhanced effect, you can't do so.
+          name: Effect
     flavor: Your enemies might be stronger than you, but that's why you're not alone.
     keywords:
         - Beastheart

@@ -1,7 +1,13 @@
 ---
 action_type: Main action
 distance: '[Ranged](../../../rule/combat/ranged.md) 15'
-effect: If you don't take a move action this [turn](../../../rule/combat/turn.md), this [strike](../../../rule/combat/strike.md) deals extra damage equal to your [Might](../../../rule/character/might.md) or [Agility](../../../rule/character/agility.md) score (your choice).
+effects:
+    - roll: Power Roll + [Might](../../../rule/character/might.md) or [Agility](../../../rule/character/agility.md)
+      tier1: 3 + M or A damage
+      tier2: 6 + M or A damage
+      tier3: 13 + M or A damage
+    - effect: If you don't take a move action this [turn](../../../rule/combat/turn.md), this [strike](../../../rule/combat/strike.md) deals extra damage equal to your [Might](../../../rule/character/might.md) or [Agility](../../../rule/character/agility.md) score (your choice).
+      name: Effect
 feature_type: ability
 file_basename: patient-shot
 file_dpath: feature/ability/sniper
@@ -28,11 +34,12 @@ type: ability
 ```ds-feature
 distance: '[Ranged](../../../rule/combat/ranged.md) 15'
 effects:
-    - effect: If you don't take a move action this [turn](../../../rule/combat/turn.md), this [strike](../../../rule/combat/strike.md) deals extra damage equal to your [Might](../../../rule/character/might.md) or [Agility](../../../rule/character/agility.md) score (your choice).
     - roll: Power Roll + [Might](../../../rule/character/might.md) or [Agility](../../../rule/character/agility.md)
       tier1: 3 + M or A damage
       tier2: 6 + M or A damage
       tier3: 13 + M or A damage
+    - effect: If you don't take a move action this [turn](../../../rule/combat/turn.md), this [strike](../../../rule/combat/strike.md) deals extra damage equal to your [Might](../../../rule/character/might.md) or [Agility](../../../rule/character/agility.md) score (your choice).
+      name: Effect
 feature_type: ability
 flavor: Breathe... aim... wait... then strike!
 keywords:
@@ -42,7 +49,13 @@ keywords:
 metadata:
     action_type: Main action
     distance: '[Ranged](../../../rule/combat/ranged.md) 15'
-    effect: If you don't take a move action this [turn](../../../rule/combat/turn.md), this [strike](../../../rule/combat/strike.md) deals extra damage equal to your [Might](../../../rule/character/might.md) or [Agility](../../../rule/character/agility.md) score (your choice).
+    effects:
+        - roll: Power Roll + [Might](../../../rule/character/might.md) or [Agility](../../../rule/character/agility.md)
+          tier1: 3 + M or A damage
+          tier2: 6 + M or A damage
+          tier3: 13 + M or A damage
+        - effect: If you don't take a move action this [turn](../../../rule/combat/turn.md), this [strike](../../../rule/combat/strike.md) deals extra damage equal to your [Might](../../../rule/character/might.md) or [Agility](../../../rule/character/agility.md) score (your choice).
+          name: Effect
     flavor: Breathe... aim... wait... then strike!
     keywords:
         - '[Ranged](../../../rule/combat/ranged.md)'

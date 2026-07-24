@@ -5,7 +5,13 @@ cost: 9 Discipline
 cost_amount: "9"
 cost_resource: Discipline
 distance: '[Melee](../../../../rule/combat/melee.md) 1'
-effect: While [grabbed](../../../../condition/grabbed.md) this way, the target takes a [bane](../../../../rule/dice/bane.md) on the [Escape Grab](../../../common/maneuvers/escape-grab.md) maneuver. Each time they use that maneuver, they take damage equal to twice your [Agility](../../../../rule/character/agility.md) score.
+effects:
+    - roll: Power Roll + [Agility](../../../../rule/character/agility.md)
+      tier1: 10 + A damage; A < WEAK, [grabbed](../../../../condition/grabbed.md)
+      tier2: 14 + A damage; A < AVERAGE, [grabbed](../../../../condition/grabbed.md)
+      tier3: 18 + A damage; A < STRONG, [grabbed](../../../../condition/grabbed.md)
+    - effect: While [grabbed](../../../../condition/grabbed.md) this way, the target takes a [bane](../../../../rule/dice/bane.md) on the [Escape Grab](../../../common/maneuvers/escape-grab.md) maneuver. Each time they use that maneuver, they take damage equal to twice your [Agility](../../../../rule/character/agility.md) score.
+      name: Effect
 feature_type: ability
 file_basename: iron-grip
 file_dpath: feature/ability/null/level-5
@@ -33,11 +39,12 @@ type: ability
 cost: 9 Discipline
 distance: '[Melee](../../../../rule/combat/melee.md) 1'
 effects:
-    - effect: While [grabbed](../../../../condition/grabbed.md) this way, the target takes a [bane](../../../../rule/dice/bane.md) on the [Escape Grab](../../../common/maneuvers/escape-grab.md) maneuver. Each time they use that maneuver, they take damage equal to twice your [Agility](../../../../rule/character/agility.md) score.
     - roll: Power Roll + [Agility](../../../../rule/character/agility.md)
       tier1: 10 + A damage; A < WEAK, [grabbed](../../../../condition/grabbed.md)
       tier2: 14 + A damage; A < AVERAGE, [grabbed](../../../../condition/grabbed.md)
       tier3: 18 + A damage; A < STRONG, [grabbed](../../../../condition/grabbed.md)
+    - effect: While [grabbed](../../../../condition/grabbed.md) this way, the target takes a [bane](../../../../rule/dice/bane.md) on the [Escape Grab](../../../common/maneuvers/escape-grab.md) maneuver. Each time they use that maneuver, they take damage equal to twice your [Agility](../../../../rule/character/agility.md) score.
+      name: Effect
 feature_type: ability
 flavor: You grab the target with [supernatural](../../../../rule/general/supernatural.md) force.
 keywords:
@@ -50,7 +57,13 @@ metadata:
     class: "null"
     cost: 9 Discipline
     distance: '[Melee](../../../../rule/combat/melee.md) 1'
-    effect: While [grabbed](../../../../condition/grabbed.md) this way, the target takes a [bane](../../../../rule/dice/bane.md) on the [Escape Grab](../../../common/maneuvers/escape-grab.md) maneuver. Each time they use that maneuver, they take damage equal to twice your [Agility](../../../../rule/character/agility.md) score.
+    effects:
+        - roll: Power Roll + [Agility](../../../../rule/character/agility.md)
+          tier1: 10 + A damage; A < WEAK, [grabbed](../../../../condition/grabbed.md)
+          tier2: 14 + A damage; A < AVERAGE, [grabbed](../../../../condition/grabbed.md)
+          tier3: 18 + A damage; A < STRONG, [grabbed](../../../../condition/grabbed.md)
+        - effect: While [grabbed](../../../../condition/grabbed.md) this way, the target takes a [bane](../../../../rule/dice/bane.md) on the [Escape Grab](../../../common/maneuvers/escape-grab.md) maneuver. Each time they use that maneuver, they take damage equal to twice your [Agility](../../../../rule/character/agility.md) score.
+          name: Effect
     flavor: You grab the target with [supernatural](../../../../rule/general/supernatural.md) force.
     keywords:
         - '[Melee](../../../../rule/combat/melee.md)'

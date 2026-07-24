@@ -2,7 +2,15 @@
 action_type: Main action
 class: summoner
 distance: 4 cube within 1
-effect: You can use this ability as if in the space of one of your minions within your Summoner's Range.
+effects:
+    - roll: Power Roll + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason)
+      tier1: 5 [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage); M < WEAK [prone](scc.v1:mcdm.heroes.v1/condition/prone) and can't stand ([save ends](scc.v1:mcdm.heroes.v1/rule.general/saving-throw))
+      tier2: 8 [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage); M < AVERAGE [prone](scc.v1:mcdm.heroes.v1/condition/prone) and can't stand ([save ends](scc.v1:mcdm.heroes.v1/rule.general/saving-throw))
+      tier3: 11 [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage); M < STRONG [prone](scc.v1:mcdm.heroes.v1/condition/prone) and can't stand ([save ends](scc.v1:mcdm.heroes.v1/rule.general/saving-throw))
+    - effect: You can use this ability as if in the space of one of your minions within your Summoner's Range.
+      name: Effect
+    - effect: You can change the [damage type](scc.v1:mcdm.heroes.v1/rule.damage/damage-type) to be a type that your champion deals on their stat block (see [Portfolio Champion](scc.v1:mcdm.summoner.v1/feature.summoner.level-8/portfolio-champion)).
+      name: Special
 feature_source: summoner
 feature_type: ability
 file_basename: the-champion-slams-the-earth
@@ -30,11 +38,14 @@ type: ability
 ```ds-feature
 distance: 4 cube within 1
 effects:
-    - effect: You can use this ability as if in the space of one of your minions within your Summoner's Range.
     - roll: Power Roll + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason)
       tier1: 5 [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage); M < WEAK [prone](scc.v1:mcdm.heroes.v1/condition/prone) and can't stand ([save ends](scc.v1:mcdm.heroes.v1/rule.general/saving-throw))
       tier2: 8 [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage); M < AVERAGE [prone](scc.v1:mcdm.heroes.v1/condition/prone) and can't stand ([save ends](scc.v1:mcdm.heroes.v1/rule.general/saving-throw))
       tier3: 11 [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage); M < STRONG [prone](scc.v1:mcdm.heroes.v1/condition/prone) and can't stand ([save ends](scc.v1:mcdm.heroes.v1/rule.general/saving-throw))
+    - effect: You can use this ability as if in the space of one of your minions within your Summoner's Range.
+      name: Effect
+    - effect: You can change the [damage type](scc.v1:mcdm.heroes.v1/rule.damage/damage-type) to be a type that your champion deals on their stat block (see [Portfolio Champion](scc.v1:mcdm.summoner.v1/feature.summoner.level-8/portfolio-champion)).
+      name: Special
 feature_type: ability
 flavor: Your champion lays their fury upon those unfortunate enough to be in their wake.
 keywords:
@@ -46,7 +57,15 @@ metadata:
     action_type: Main action
     class: summoner
     distance: 4 cube within 1
-    effect: You can use this ability as if in the space of one of your minions within your Summoner's Range.
+    effects:
+        - roll: Power Roll + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason)
+          tier1: 5 [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage); M < WEAK [prone](scc.v1:mcdm.heroes.v1/condition/prone) and can't stand ([save ends](scc.v1:mcdm.heroes.v1/rule.general/saving-throw))
+          tier2: 8 [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage); M < AVERAGE [prone](scc.v1:mcdm.heroes.v1/condition/prone) and can't stand ([save ends](scc.v1:mcdm.heroes.v1/rule.general/saving-throw))
+          tier3: 11 [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage); M < STRONG [prone](scc.v1:mcdm.heroes.v1/condition/prone) and can't stand ([save ends](scc.v1:mcdm.heroes.v1/rule.general/saving-throw))
+        - effect: You can use this ability as if in the space of one of your minions within your Summoner's Range.
+          name: Effect
+        - effect: You can change the [damage type](scc.v1:mcdm.heroes.v1/rule.damage/damage-type) to be a type that your champion deals on their stat block (see [Portfolio Champion](scc.v1:mcdm.summoner.v1/feature.summoner.level-8/portfolio-champion)).
+          name: Special
     feature_source: summoner
     flavor: Your champion lays their fury upon those unfortunate enough to be in their wake.
     keywords:

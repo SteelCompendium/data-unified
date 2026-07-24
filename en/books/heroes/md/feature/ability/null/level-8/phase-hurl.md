@@ -3,7 +3,13 @@ action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: "null"
 cost: 11 Discipline
 distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
-effect: The target and each creature or object they collide with from this [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) takes psychic damage equal to the total number of squares the target was force moved. While the target is [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) this way, they see glimpses of creatures from other parts of the timescape.
+effects:
+    - roll: Power Roll + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)
+      tier1: 9 + A damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5; I < WEAK, [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
+      tier2: 13 + A damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 7; I < AVERAGE, [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
+      tier3: 18 + A damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 10; I < STRONG, [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) (save ends)
+    - effect: The target and each creature or object they collide with from this [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) takes psychic damage equal to the total number of squares the target was force moved. While the target is [dazed](scc.v1:mcdm.heroes.v1/condition/dazed) this way, they see glimpses of creatures from other parts of the timescape.
+      name: Effect
 flavor: You throw your foe out of phase with this manifold, causing them to harm other enemies as they return.
 keywords:
     - '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)'

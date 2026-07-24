@@ -2,7 +2,11 @@
 action_type: Triggered Action
 class: beastheart
 distance: Self
-effect: You take half the damage and [teleport](../../../../movement/teleport.md) up to 5 squares.
+effects:
+    - effect: You take half the damage and [teleport](../../../../movement/teleport.md) up to 5 squares.
+      name: Effect
+    - cost: Spend 1 Ferocity
+      effect: When you [teleport](../../../../movement/teleport.md) this way, each enemy adjacent to your original space takes lightning or fire damage (your choice) equal to your Intuition score.
 feature_type: ability
 file_basename: pyre
 file_dpath: feature/ability/beastheart/level-1
@@ -15,7 +19,6 @@ level: "1"
 name: Pyre
 scc: mcdm.beastheart.v1/feature.ability.beastheart.level-1/pyre
 source: mcdm.beastheart.v1
-spend: '1 Ferocity: When you [teleport](../../../../movement/teleport.md) this way, each enemy adjacent to your original space takes lightning or fire damage (your choice) equal to your Intuition score.'
 subclass: spark
 target: Self
 trigger: You take damage.
@@ -26,8 +29,9 @@ type: ability
 distance: Self
 effects:
     - effect: You take half the damage and [teleport](../../../../movement/teleport.md) up to 5 squares.
-    - effect: '1 Ferocity: When you [teleport](../../../../movement/teleport.md) this way, each enemy adjacent to your original space takes lightning or fire damage (your choice) equal to your Intuition score.'
-      name: Spend
+      name: Effect
+    - cost: Spend 1 Ferocity
+      effect: When you [teleport](../../../../movement/teleport.md) this way, each enemy adjacent to your original space takes lightning or fire damage (your choice) equal to your Intuition score.
 feature_type: ability
 flavor: You burn to ash before your foes' eyes.
 keywords:
@@ -36,14 +40,17 @@ metadata:
     action_type: Triggered Action
     class: beastheart
     distance: Self
-    effect: You take half the damage and [teleport](../../../../movement/teleport.md) up to 5 squares.
+    effects:
+        - effect: You take half the damage and [teleport](../../../../movement/teleport.md) up to 5 squares.
+          name: Effect
+        - cost: Spend 1 Ferocity
+          effect: When you [teleport](../../../../movement/teleport.md) this way, each enemy adjacent to your original space takes lightning or fire damage (your choice) equal to your Intuition score.
     flavor: You burn to ash before your foes' eyes.
     keywords:
         - Magic
     level: "1"
     name: Pyre
     scc: mcdm.beastheart.v1/feature.ability.beastheart.level-1/pyre
-    spend: '1 Ferocity: When you [teleport](../../../../movement/teleport.md) this way, each enemy adjacent to your original space takes lightning or fire damage (your choice) equal to your Intuition score.'
     subclass: spark
     target: Self
     trigger: You take damage.

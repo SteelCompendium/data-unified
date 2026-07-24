@@ -5,7 +5,13 @@ cost: 11 Wrath
 cost_amount: "11"
 cost_resource: Wrath
 distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
-effect: Until the end of the encounter, while the target is judged by you, you can choose to make them the source of any of your abilities. Additionally, the target counts as an ally for the purpose of [flanking](scc.v1:mcdm.heroes.v1/rule.combat/flanking).
+effects:
+    - roll: Power Roll + [Might](scc.v1:mcdm.heroes.v1/rule.character/might)
+      tier1: 10 + M damage
+      tier2: 15 + M damage
+      tier3: 21 + M damage
+    - effect: Until the end of the encounter, while the target is judged by you, you can choose to make them the source of any of your abilities. Additionally, the target counts as an ally for the purpose of [flanking](scc.v1:mcdm.heroes.v1/rule.combat/flanking).
+      name: Effect
 feature_type: ability
 file_basename: hand-of-the-gods
 file_dpath: feature/ability/censor/level-8
@@ -32,11 +38,12 @@ type: ability
 cost: 11 Wrath
 distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
 effects:
-    - effect: Until the end of the encounter, while the target is judged by you, you can choose to make them the source of any of your abilities. Additionally, the target counts as an ally for the purpose of [flanking](scc.v1:mcdm.heroes.v1/rule.combat/flanking).
     - roll: Power Roll + [Might](scc.v1:mcdm.heroes.v1/rule.character/might)
       tier1: 10 + M damage
       tier2: 15 + M damage
       tier3: 21 + M damage
+    - effect: Until the end of the encounter, while the target is judged by you, you can choose to make them the source of any of your abilities. Additionally, the target counts as an ally for the purpose of [flanking](scc.v1:mcdm.heroes.v1/rule.combat/flanking).
+      name: Effect
 feature_type: ability
 flavor: You use your foe as a tool against your enemies.
 keywords:
@@ -48,7 +55,13 @@ metadata:
     class: censor
     cost: 11 Wrath
     distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
-    effect: Until the end of the encounter, while the target is judged by you, you can choose to make them the source of any of your abilities. Additionally, the target counts as an ally for the purpose of [flanking](scc.v1:mcdm.heroes.v1/rule.combat/flanking).
+    effects:
+        - roll: Power Roll + [Might](scc.v1:mcdm.heroes.v1/rule.character/might)
+          tier1: 10 + M damage
+          tier2: 15 + M damage
+          tier3: 21 + M damage
+        - effect: Until the end of the encounter, while the target is judged by you, you can choose to make them the source of any of your abilities. Additionally, the target counts as an ally for the purpose of [flanking](scc.v1:mcdm.heroes.v1/rule.combat/flanking).
+          name: Effect
     flavor: You use your foe as a tool against your enemies.
     keywords:
         - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'

@@ -2,7 +2,9 @@
 action_type: '[Maneuver](../../../../rule/combat/turn.md)'
 class: "null"
 distance: 1 [aura](../../../../rule/combat/aura.md)
-effect: Each target reduces their [potencies](../../../../rule/character/potency.md) by 1.
+effects:
+    - effect: Each target reduces their [potencies](../../../../rule/character/potency.md) by 1.
+      name: Effect
 flavor: You project an [aura](../../../../rule/combat/aura.md) that dampens the power of your foes.
 keywords:
     - Area

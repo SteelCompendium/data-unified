@@ -5,7 +5,9 @@ cost: 7 Focus
 cost_amount: "7"
 cost_resource: Focus
 distance: Self
-effect: Until the end of the encounter or until you are [dying](../../../../rule/health/dying.md), whenever you or any ally deals damage to a target marked by you, that creature gains 2 [surges](../../../../rule/resource/surge.md), which they can use immediately.
+effects:
+    - effect: Until the end of the encounter or until you are [dying](../../../../rule/health/dying.md), whenever you or any ally deals damage to a target marked by you, that creature gains 2 [surges](../../../../rule/resource/surge.md), which they can use immediately.
+      name: Effect
 feature_type: ability
 file_basename: hit-em-hard
 file_dpath: feature/ability/tactician/level-3
@@ -26,6 +28,7 @@ cost: 7 Focus
 distance: Self
 effects:
     - effect: Until the end of the encounter or until you are [dying](../../../../rule/health/dying.md), whenever you or any ally deals damage to a target marked by you, that creature gains 2 [surges](../../../../rule/resource/surge.md), which they can use immediately.
+      name: Effect
 feature_type: ability
 flavor: Your allies see the advantages in attacking the targets you select.
 keywords: []
@@ -34,7 +37,9 @@ metadata:
     class: tactician
     cost: 7 Focus
     distance: Self
-    effect: Until the end of the encounter or until you are [dying](../../../../rule/health/dying.md), whenever you or any ally deals damage to a target marked by you, that creature gains 2 [surges](../../../../rule/resource/surge.md), which they can use immediately.
+    effects:
+        - effect: Until the end of the encounter or until you are [dying](../../../../rule/health/dying.md), whenever you or any ally deals damage to a target marked by you, that creature gains 2 [surges](../../../../rule/resource/surge.md), which they can use immediately.
+          name: Effect
     flavor: Your allies see the advantages in attacking the targets you select.
     keywords: []
     level: "3"

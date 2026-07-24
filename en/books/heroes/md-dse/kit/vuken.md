@@ -28,6 +28,11 @@ keywords:
 metadata:
     action_type: Main action
     distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
+    effects:
+        - roll: Power Roll + [Might](scc.v1:mcdm.heroes.v1/rule.character/might)
+          tier1: 4 + M damage; A < WEAK[, prone](scc.v1:mcdm.heroes.v1/condition/prone)
+          tier2: 7 + M damage; A < AVERAGE[, prone](scc.v1:mcdm.heroes.v1/condition/prone)
+          tier3: 9 + M damage; A < STRONG[, prone](scc.v1:mcdm.heroes.v1/condition/prone)
     flavor: A wild assault forces your foe onto their back.
     keywords:
         - '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)'

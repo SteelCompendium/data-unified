@@ -5,6 +5,8 @@ ability:
           name: Effect
         - cost: Spend 2+ Clarity
           effect: The size of the creature or object you can target increases by 1 for every 2 clarity spent.
+        - cost: Spend 3 Clarity
+          effect: You can vertical [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) the target.
     feature_type: ability
     flavor: Wisps of psychic energy ripple visibly from your brain as you force the target to move using only your mind.
     keywords:

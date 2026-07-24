@@ -2,7 +2,9 @@
 action_type: '[Triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)'
 class: talent
 distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
-effect: The target takes psychic damage equal to half the triggering damage.
+effects:
+    - effect: The target takes psychic damage equal to half the triggering damage.
+      name: Effect
 feature_type: ability
 file_basename: feedback-loop
 file_dpath: feature/ability/talent/level-1
@@ -27,6 +29,7 @@ type: ability
 distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
 effects:
     - effect: The target takes psychic damage equal to half the triggering damage.
+      name: Effect
 feature_type: ability
 flavor: Creating a brief psychic link between an enemy and their target gives that foe a taste of their own medicine.
 keywords:
@@ -36,7 +39,9 @@ metadata:
     action_type: '[Triggered](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action)'
     class: talent
     distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
-    effect: The target takes psychic damage equal to half the triggering damage.
+    effects:
+        - effect: The target takes psychic damage equal to half the triggering damage.
+          name: Effect
     flavor: Creating a brief psychic link between an enemy and their target gives that foe a taste of their own medicine.
     keywords:
         - Psionic

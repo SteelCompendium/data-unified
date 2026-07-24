@@ -2,7 +2,11 @@
 action_type: '[Triggered](../../../../rule/combat/triggered-action.md)'
 class: elementalist
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
-effect: The [forced movement](../../../../movement/forced-movement.md) [distance](../../../../rule/combat/distance.md) gains a [bonus](../../../../rule/dice/bonuses-and-penalties.md) equal to your [Reason](../../../../rule/character/reason.md) score.
+effects:
+    - effect: The [forced movement](../../../../movement/forced-movement.md) [distance](../../../../rule/combat/distance.md) gains a [bonus](../../../../rule/dice/bonuses-and-penalties.md) equal to your [Reason](../../../../rule/character/reason.md) score.
+      name: Effect
+    - cost: Spend 1 Essence
+      effect: The [forced movement](../../../../movement/forced-movement.md) [distance](../../../../rule/combat/distance.md) gains a [bonus](../../../../rule/dice/bonuses-and-penalties.md) equal to twice your [Reason](../../../../rule/character/reason.md) score instead.
 flavor: You add a little magic to an ally's aggression at just the right time.
 keywords:
     - Fire
@@ -11,7 +15,6 @@ keywords:
 level: "1"
 name: Explosive Assistance
 scc: mcdm.heroes.v1/feature.ability.elementalist.level-1/explosive-assistance
-spend: '1 Essence: The [forced movement](../../../../movement/forced-movement.md) [distance](../../../../rule/combat/distance.md) gains a [bonus](../../../../rule/dice/bonuses-and-penalties.md) equal to twice your [Reason](../../../../rule/character/reason.md) score instead.'
 subclass: fire
 subtype: triggered
 target: Self or one ally

@@ -5,7 +5,13 @@ cost: 9 Insight
 cost_amount: "9"
 cost_resource: Insight
 distance: 10 x 1 line within 1
-effect: You disappear before making the [power roll](../../../../rule/dice/power-roll.md). After the [power roll](../../../../rule/dice/power-roll.md) is resolved, you appear in the first unoccupied space at the far end of the line.
+effects:
+    - roll: Power Roll + [Agility](../../../../rule/character/agility.md)
+      tier1: 10 damage
+      tier2: 14 damage
+      tier3: 20 damage
+    - effect: You disappear before making the [power roll](../../../../rule/dice/power-roll.md). After the [power roll](../../../../rule/dice/power-roll.md) is resolved, you appear in the first unoccupied space at the far end of the line.
+      name: Effect
 feature_type: ability
 file_basename: shadowfall
 file_dpath: feature/ability/shadow/level-5
@@ -32,11 +38,12 @@ type: ability
 cost: 9 Insight
 distance: 10 x 1 line within 1
 effects:
-    - effect: You disappear before making the [power roll](../../../../rule/dice/power-roll.md). After the [power roll](../../../../rule/dice/power-roll.md) is resolved, you appear in the first unoccupied space at the far end of the line.
     - roll: Power Roll + [Agility](../../../../rule/character/agility.md)
       tier1: 10 damage
       tier2: 14 damage
       tier3: 20 damage
+    - effect: You disappear before making the [power roll](../../../../rule/dice/power-roll.md). After the [power roll](../../../../rule/dice/power-roll.md) is resolved, you appear in the first unoccupied space at the far end of the line.
+      name: Effect
 feature_type: ability
 flavor: You vanish. They fall. You reappear.
 keywords:
@@ -48,7 +55,13 @@ metadata:
     class: shadow
     cost: 9 Insight
     distance: 10 x 1 line within 1
-    effect: You disappear before making the [power roll](../../../../rule/dice/power-roll.md). After the [power roll](../../../../rule/dice/power-roll.md) is resolved, you appear in the first unoccupied space at the far end of the line.
+    effects:
+        - roll: Power Roll + [Agility](../../../../rule/character/agility.md)
+          tier1: 10 damage
+          tier2: 14 damage
+          tier3: 20 damage
+        - effect: You disappear before making the [power roll](../../../../rule/dice/power-roll.md). After the [power roll](../../../../rule/dice/power-roll.md) is resolved, you appear in the first unoccupied space at the far end of the line.
+          name: Effect
     flavor: You vanish. They fall. You reappear.
     keywords:
         - Area

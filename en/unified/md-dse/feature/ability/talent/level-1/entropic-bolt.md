@@ -2,7 +2,15 @@
 action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: talent
 distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
-effect: The target takes an extra 1 corruption damage for each additional time they are targeted by this ability during the encounter.
+effects:
+    - roll: Power Roll + [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence)
+      tier1: 2 + P corruption damage; P < WEAK, [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
+      tier2: 3 + P corruption damage; P < AVERAGE, [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
+      tier3: 5 + P corruption damage; P < STRONG, [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
+    - effect: The target takes an extra 1 corruption damage for each additional time they are targeted by this ability during the encounter.
+      name: Effect
+    - effect: You gain 1 clarity when you obtain a tier 2 or tier 3 outcome on the [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll).
+      name: Strained
 feature_type: ability
 file_basename: entropic-bolt
 file_dpath: feature/ability/talent/level-1
@@ -30,11 +38,14 @@ type: ability
 ```ds-feature
 distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
 effects:
-    - effect: The target takes an extra 1 corruption damage for each additional time they are targeted by this ability during the encounter.
     - roll: Power Roll + [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence)
       tier1: 2 + P corruption damage; P < WEAK, [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
       tier2: 3 + P corruption damage; P < AVERAGE, [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
       tier3: 5 + P corruption damage; P < STRONG, [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
+    - effect: The target takes an extra 1 corruption damage for each additional time they are targeted by this ability during the encounter.
+      name: Effect
+    - effect: You gain 1 clarity when you obtain a tier 2 or tier 3 outcome on the [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll).
+      name: Strained
 feature_type: ability
 flavor: You advance an enemy's age for a moment.
 keywords:
@@ -46,7 +57,15 @@ metadata:
     action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: talent
     distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
-    effect: The target takes an extra 1 corruption damage for each additional time they are targeted by this ability during the encounter.
+    effects:
+        - roll: Power Roll + [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence)
+          tier1: 2 + P corruption damage; P < WEAK, [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
+          tier2: 3 + P corruption damage; P < AVERAGE, [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
+          tier3: 5 + P corruption damage; P < STRONG, [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends)
+        - effect: The target takes an extra 1 corruption damage for each additional time they are targeted by this ability during the encounter.
+          name: Effect
+        - effect: You gain 1 clarity when you obtain a tier 2 or tier 3 outcome on the [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll).
+          name: Strained
     flavor: You advance an enemy's age for a moment.
     keywords:
         - Chronopathy

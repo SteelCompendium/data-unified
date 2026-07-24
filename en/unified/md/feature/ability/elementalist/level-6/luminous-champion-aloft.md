@@ -3,7 +3,11 @@ action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: elementalist
 cost: 9 Essence
 distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
-effect: The target has a +3 [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to [speed](scc.v1:mcdm.heroes.v1/rule.character/speed), they can [fly](scc.v1:mcdm.heroes.v1/movement/fly), and their abilities ignore [concealment](scc.v1:mcdm.heroes.v1/rule.combat/concealment). Additionally, whenever the target gains their [Heroic Resource](scc.v1:mcdm.heroes.v1/rule.resource/heroic-resource), they gain 1 additional [Heroic Resource](scc.v1:mcdm.heroes.v1/rule.resource/heroic-resource). This effect lasts until the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn).
+effects:
+    - effect: The target has a +3 [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) to [speed](scc.v1:mcdm.heroes.v1/rule.character/speed), they can [fly](scc.v1:mcdm.heroes.v1/movement/fly), and their abilities ignore [concealment](scc.v1:mcdm.heroes.v1/rule.combat/concealment). Additionally, whenever the target gains their [Heroic Resource](scc.v1:mcdm.heroes.v1/rule.resource/heroic-resource), they gain 1 additional [Heroic Resource](scc.v1:mcdm.heroes.v1/rule.resource/heroic-resource). This effect lasts until the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn).
+      name: Effect
+    - effect: The effect lasts until the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn).
+      name: Persistent 1
 flavor: They shine vibrantly, a beautiful diamond in the night sky.
 keywords:
     - Fire

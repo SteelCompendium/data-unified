@@ -5,7 +5,9 @@ cost: 9 Piety
 cost_amount: "9"
 cost_resource: Piety
 distance: 4 [burst](../../../../rule/combat/burst.md)
-effect: Each target is invisible until the start of your next [turn](../../../../rule/combat/turn.md).
+effects:
+    - effect: Each target is invisible until the start of your next [turn](../../../../rule/combat/turn.md).
+      name: Effect
 feature_type: ability
 file_basename: invocation-of-mystery
 file_dpath: feature/ability/conduit/level-6
@@ -29,6 +31,7 @@ cost: 9 Piety
 distance: 4 [burst](../../../../rule/combat/burst.md)
 effects:
     - effect: Each target is invisible until the start of your next [turn](../../../../rule/combat/turn.md).
+      name: Effect
 feature_type: ability
 flavor: '"Now you see us..."'
 keywords:
@@ -39,7 +42,9 @@ metadata:
     class: conduit
     cost: 9 Piety
     distance: 4 [burst](../../../../rule/combat/burst.md)
-    effect: Each target is invisible until the start of your next [turn](../../../../rule/combat/turn.md).
+    effects:
+        - effect: Each target is invisible until the start of your next [turn](../../../../rule/combat/turn.md).
+          name: Effect
     flavor: '"Now you see us..."'
     keywords:
         - Area

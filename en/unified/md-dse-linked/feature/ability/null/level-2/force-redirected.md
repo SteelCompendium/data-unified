@@ -5,6 +5,11 @@ cost: 5 Discipline
 cost_amount: "5"
 cost_resource: Discipline
 distance: '[Melee](../../../../rule/combat/melee.md) 3'
+effects:
+    - roll: Power Roll + [Agility](../../../../rule/character/agility.md)
+      tier1: 8 + A damage; [slide](../../../../movement/forced-movement.md) 1
+      tier2: 12 + A damage; [slide](../../../../movement/forced-movement.md) 3
+      tier3: 16 + A damage; [slide](../../../../movement/forced-movement.md) 5
 feature_type: ability
 file_basename: force-redirected
 file_dpath: feature/ability/null/level-2
@@ -49,6 +54,11 @@ metadata:
     class: "null"
     cost: 5 Discipline
     distance: '[Melee](../../../../rule/combat/melee.md) 3'
+    effects:
+        - roll: Power Roll + [Agility](../../../../rule/character/agility.md)
+          tier1: 8 + A damage; [slide](../../../../movement/forced-movement.md) 1
+          tier2: 12 + A damage; [slide](../../../../movement/forced-movement.md) 3
+          tier3: 16 + A damage; [slide](../../../../movement/forced-movement.md) 5
     flavor: The force of your [strike](../../../../rule/combat/strike.md) moves your target in a surprising direction.
     keywords:
         - '[Melee](../../../../rule/combat/melee.md)'

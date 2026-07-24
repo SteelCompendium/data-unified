@@ -5,7 +5,9 @@ cost: 9 Ferocity
 cost_amount: "9"
 cost_resource: Ferocity
 distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
-effect: You target a creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to you with the same strike, using the same [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) as the triggering strike.
+effects:
+    - effect: You target a creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to you with the same strike, using the same [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) as the triggering strike.
+      name: Effect
 feature_type: ability
 file_basename: death-strike
 file_dpath: feature/ability/fury/level-6
@@ -32,6 +34,7 @@ cost: 9 Ferocity
 distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
 effects:
     - effect: You target a creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to you with the same strike, using the same [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) as the triggering strike.
+      name: Effect
 feature_type: ability
 flavor: Once you taste your foe's blood, you become more efficient and [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) every killing blow into an opportunity.
 keywords:
@@ -43,7 +46,9 @@ metadata:
     class: fury
     cost: 9 Ferocity
     distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
-    effect: You target a creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to you with the same strike, using the same [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) as the triggering strike.
+    effects:
+        - effect: You target a creature [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to you with the same strike, using the same [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) as the triggering strike.
+          name: Effect
     flavor: Once you taste your foe's blood, you become more efficient and [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) every killing blow into an opportunity.
     keywords:
         - '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)'

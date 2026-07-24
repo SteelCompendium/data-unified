@@ -2,7 +2,9 @@
 action_type: '[Maneuver](../../../../rule/combat/turn.md)'
 class: "null"
 distance: 1 [aura](../../../../rule/combat/aura.md)
-effect: Each target reduces their [potencies](../../../../rule/character/potency.md) by 1.
+effects:
+    - effect: Each target reduces their [potencies](../../../../rule/character/potency.md) by 1.
+      name: Effect
 feature_type: ability
 file_basename: null-field
 file_dpath: feature/ability/null/level-1
@@ -24,6 +26,7 @@ type: ability
 distance: 1 [aura](../../../../rule/combat/aura.md)
 effects:
     - effect: Each target reduces their [potencies](../../../../rule/character/potency.md) by 1.
+      name: Effect
 feature_type: ability
 flavor: You project an [aura](../../../../rule/combat/aura.md) that dampens the power of your foes.
 keywords:
@@ -33,7 +36,9 @@ metadata:
     action_type: '[Maneuver](../../../../rule/combat/turn.md)'
     class: "null"
     distance: 1 [aura](../../../../rule/combat/aura.md)
-    effect: Each target reduces their [potencies](../../../../rule/character/potency.md) by 1.
+    effects:
+        - effect: Each target reduces their [potencies](../../../../rule/character/potency.md) by 1.
+          name: Effect
     flavor: You project an [aura](../../../../rule/combat/aura.md) that dampens the power of your foes.
     keywords:
         - Area

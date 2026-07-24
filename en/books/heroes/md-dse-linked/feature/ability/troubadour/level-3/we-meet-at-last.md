@@ -5,7 +5,9 @@ cost: 7 Drama
 cost_amount: "7"
 cost_resource: Drama
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
-effect: Until the end of the encounter, both you and the target can target each other with abilities even if you are beyond [distance](../../../../rule/combat/distance.md), with the [distance](../../../../rule/combat/distance.md) of this ability replacing those abilities' [distances](../../../../rule/combat/distance.md). The target can't be [force moved](../../../../movement/forced-movement.md) by an ability used beyond [distance](../../../../rule/combat/distance.md) this way.
+effects:
+    - effect: Until the end of the encounter, both you and the target can target each other with abilities even if you are beyond [distance](../../../../rule/combat/distance.md), with the [distance](../../../../rule/combat/distance.md) of this ability replacing those abilities' [distances](../../../../rule/combat/distance.md). The target can't be [force moved](../../../../movement/forced-movement.md) by an ability used beyond [distance](../../../../rule/combat/distance.md) this way.
+      name: Effect
 feature_type: ability
 file_basename: we-meet-at-last
 file_dpath: feature/ability/troubadour/level-3
@@ -28,6 +30,7 @@ cost: 7 Drama
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
 effects:
     - effect: Until the end of the encounter, both you and the target can target each other with abilities even if you are beyond [distance](../../../../rule/combat/distance.md), with the [distance](../../../../rule/combat/distance.md) of this ability replacing those abilities' [distances](../../../../rule/combat/distance.md). The target can't be [force moved](../../../../movement/forced-movement.md) by an ability used beyond [distance](../../../../rule/combat/distance.md) this way.
+      name: Effect
 feature_type: ability
 flavor: You magically intertwine your fate with another creature—for better or worse.
 keywords:
@@ -38,7 +41,9 @@ metadata:
     class: troubadour
     cost: 7 Drama
     distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
-    effect: Until the end of the encounter, both you and the target can target each other with abilities even if you are beyond [distance](../../../../rule/combat/distance.md), with the [distance](../../../../rule/combat/distance.md) of this ability replacing those abilities' [distances](../../../../rule/combat/distance.md). The target can't be [force moved](../../../../movement/forced-movement.md) by an ability used beyond [distance](../../../../rule/combat/distance.md) this way.
+    effects:
+        - effect: Until the end of the encounter, both you and the target can target each other with abilities even if you are beyond [distance](../../../../rule/combat/distance.md), with the [distance](../../../../rule/combat/distance.md) of this ability replacing those abilities' [distances](../../../../rule/combat/distance.md). The target can't be [force moved](../../../../movement/forced-movement.md) by an ability used beyond [distance](../../../../rule/combat/distance.md) this way.
+          name: Effect
     flavor: You magically intertwine your fate with another creature—for better or worse.
     keywords:
         - Magic

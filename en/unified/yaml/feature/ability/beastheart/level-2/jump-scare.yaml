@@ -1,12 +1,14 @@
 cost: 5 Ferocity
 distance: 2 burst
 effects:
+    - effect: This ability targets only enemies with line of effect to your companion.
+      name: Special
+    - effect: Your companion [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to a number of squares equal to their Intuition score. During this movement, they are invisible. They then make a power roll.
+      name: Effect
     - roll: Power Roll + Intuition
       tier1: 4 damage; P < WEAK [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
       tier2: 6 damage; P < AVERAGE [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
       tier3: 10 damage; P < STRONG [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
-    - effect: Your companion [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to a number of squares equal to their Intuition score. During this movement, they are invisible. They then make a power roll.
-      name: Effect
 feature_type: ability
 flavor: Surprised to see me?
 keywords:

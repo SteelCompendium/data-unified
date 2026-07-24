@@ -5,7 +5,13 @@ cost: 7 Piety
 cost_amount: "7"
 cost_resource: Piety
 distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
-effect: One ally within [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance) can spend any number of [Recoveries](scc.v1:mcdm.heroes.v1/rule.health/recoveries).
+effects:
+    - roll: Power Roll + [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)
+      tier1: 7 + I corruption damage
+      tier2: 10 + I corruption damage
+      tier3: 15 + I corruption damage
+    - effect: One ally within [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance) can spend any number of [Recoveries](scc.v1:mcdm.heroes.v1/rule.health/recoveries).
+      name: Effect
 feature_type: ability
 file_basename: soul-siphon
 file_dpath: feature/ability/conduit/level-3
@@ -32,11 +38,12 @@ type: ability
 cost: 7 Piety
 distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
 effects:
-    - effect: One ally within [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance) can spend any number of [Recoveries](scc.v1:mcdm.heroes.v1/rule.health/recoveries).
     - roll: Power Roll + [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)
       tier1: 7 + I corruption damage
       tier2: 10 + I corruption damage
       tier3: 15 + I corruption damage
+    - effect: One ally within [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance) can spend any number of [Recoveries](scc.v1:mcdm.heroes.v1/rule.health/recoveries).
+      name: Effect
 feature_type: ability
 flavor: A beam of energy connects a foe to a friend, draining life from one to heal the other.
 keywords:
@@ -48,7 +55,13 @@ metadata:
     class: conduit
     cost: 7 Piety
     distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
-    effect: One ally within [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance) can spend any number of [Recoveries](scc.v1:mcdm.heroes.v1/rule.health/recoveries).
+    effects:
+        - roll: Power Roll + [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)
+          tier1: 7 + I corruption damage
+          tier2: 10 + I corruption damage
+          tier3: 15 + I corruption damage
+        - effect: One ally within [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance) can spend any number of [Recoveries](scc.v1:mcdm.heroes.v1/rule.health/recoveries).
+          name: Effect
     flavor: A beam of energy connects a foe to a friend, draining life from one to heal the other.
     keywords:
         - Magic

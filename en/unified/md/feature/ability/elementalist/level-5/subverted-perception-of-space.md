@@ -3,6 +3,11 @@ action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: elementalist
 cost: 9 Essence
 distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
+effects:
+    - roll: Power Roll + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason)
+      tier1: 9 + R corruption damage
+      tier2: 10 + R corruption damage; the target has [line of effect](scc.v1:mcdm.heroes.v1/rule.combat/line-of-effect) only to creatures and objects within 4 squares of them until the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn)
+      tier3: 15 + R corruption damage; the target has [line of effect](scc.v1:mcdm.heroes.v1/rule.combat/line-of-effect) only to [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) creatures and objects until the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn)
 flavor: You rip an enemy's world in twain.
 keywords:
     - Magic

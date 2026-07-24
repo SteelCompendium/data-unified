@@ -3,6 +3,13 @@ action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: talent
 cost: 9 Clarity
 distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
+effects:
+    - roll: Power Roll + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason)
+      tier1: '[Slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 4 + R; M < WEAK, the [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) is vertical'
+      tier2: '[Slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 8 + R; M < AVERAGE, the [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) is vertical'
+      tier3: '[Slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) 12 + R; [prone](scc.v1:mcdm.heroes.v1/condition/prone); M < STRONG, the [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) is vertical'
+    - effect: The [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) ignores [stability](scc.v1:mcdm.heroes.v1/rule.character/stability). You take 2d6 damage and are [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends).
+      name: Strained
 flavor: You raise the target into the air without breaking a sweat.
 keywords:
     - Psionic

@@ -5,7 +5,13 @@ cost: 9 Discipline
 cost_amount: "9"
 cost_resource: Discipline
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
-effect: The pillars vanish as soon as the effects of the [forced movement](../../../../movement/forced-movement.md) are resolved.
+effects:
+    - roll: Power Roll + [Intuition](../../../../rule/character/intuition.md)
+      tier1: Vertical [slide](../../../../movement/forced-movement.md) 6
+      tier2: Vertical [slide](../../../../movement/forced-movement.md) 8
+      tier3: Vertical [slide](../../../../movement/forced-movement.md) 10
+    - effect: The pillars vanish as soon as the effects of the [forced movement](../../../../movement/forced-movement.md) are resolved.
+      name: Effect
 feature_type: ability
 file_basename: ice-pillars
 file_dpath: feature/ability/null/level-6
@@ -32,11 +38,12 @@ type: ability
 cost: 9 Discipline
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
 effects:
-    - effect: The pillars vanish as soon as the effects of the [forced movement](../../../../movement/forced-movement.md) are resolved.
     - roll: Power Roll + [Intuition](../../../../rule/character/intuition.md)
       tier1: Vertical [slide](../../../../movement/forced-movement.md) 6
       tier2: Vertical [slide](../../../../movement/forced-movement.md) 8
       tier3: Vertical [slide](../../../../movement/forced-movement.md) 10
+    - effect: The pillars vanish as soon as the effects of the [forced movement](../../../../movement/forced-movement.md) are resolved.
+      name: Effect
 feature_type: ability
 flavor: Pillars of ice erupt from the ground and launch your foes into the air.
 keywords:
@@ -47,7 +54,13 @@ metadata:
     class: "null"
     cost: 9 Discipline
     distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
-    effect: The pillars vanish as soon as the effects of the [forced movement](../../../../movement/forced-movement.md) are resolved.
+    effects:
+        - roll: Power Roll + [Intuition](../../../../rule/character/intuition.md)
+          tier1: Vertical [slide](../../../../movement/forced-movement.md) 6
+          tier2: Vertical [slide](../../../../movement/forced-movement.md) 8
+          tier3: Vertical [slide](../../../../movement/forced-movement.md) 10
+        - effect: The pillars vanish as soon as the effects of the [forced movement](../../../../movement/forced-movement.md) are resolved.
+          name: Effect
     flavor: Pillars of ice erupt from the ground and launch your foes into the air.
     keywords:
         - Psionic

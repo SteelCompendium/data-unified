@@ -5,7 +5,13 @@ cost: 11 Drama
 cost_amount: "11"
 cost_resource: Drama
 distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 3'
-effect: This ability can't obtain better than a tier 2 outcome unless the target is at maximum [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance). If you obtain a tier 3 outcome with a natural 17 or higher, you gain 3 [surges](scc.v1:mcdm.heroes.v1/rule.resource/surge) that you can use immediately.
+effects:
+    - roll: Power Roll + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)
+      tier1: 15 + A damage
+      tier2: 21 + A damage
+      tier3: 28 + A damage; M < STRONG, [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
+    - effect: This ability can't obtain better than a tier 2 outcome unless the target is at maximum [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance). If you obtain a tier 3 outcome with a natural 17 or higher, you gain 3 [surges](scc.v1:mcdm.heroes.v1/rule.resource/surge) that you can use immediately.
+      name: Effect
 feature_type: ability
 file_basename: expert-fencer
 file_dpath: feature/ability/troubadour/level-9
@@ -34,11 +40,12 @@ type: ability
 cost: 11 Drama
 distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 3'
 effects:
-    - effect: This ability can't obtain better than a tier 2 outcome unless the target is at maximum [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance). If you obtain a tier 3 outcome with a natural 17 or higher, you gain 3 [surges](scc.v1:mcdm.heroes.v1/rule.resource/surge) that you can use immediately.
     - roll: Power Roll + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)
       tier1: 15 + A damage
       tier2: 21 + A damage
       tier3: 28 + A damage; M < STRONG, [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
+    - effect: This ability can't obtain better than a tier 2 outcome unless the target is at maximum [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance). If you obtain a tier 3 outcome with a natural 17 or higher, you gain 3 [surges](scc.v1:mcdm.heroes.v1/rule.resource/surge) that you can use immediately.
+      name: Effect
 feature_type: ability
 flavor: If you can land the [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), the crowd goes wild.
 keywords:
@@ -51,7 +58,13 @@ metadata:
     class: troubadour
     cost: 11 Drama
     distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 3'
-    effect: This ability can't obtain better than a tier 2 outcome unless the target is at maximum [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance). If you obtain a tier 3 outcome with a natural 17 or higher, you gain 3 [surges](scc.v1:mcdm.heroes.v1/rule.resource/surge) that you can use immediately.
+    effects:
+        - roll: Power Roll + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)
+          tier1: 15 + A damage
+          tier2: 21 + A damage
+          tier3: 28 + A damage; M < STRONG, [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
+        - effect: This ability can't obtain better than a tier 2 outcome unless the target is at maximum [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance). If you obtain a tier 3 outcome with a natural 17 or higher, you gain 3 [surges](scc.v1:mcdm.heroes.v1/rule.resource/surge) that you can use immediately.
+          name: Effect
     flavor: If you can land the [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), the crowd goes wild.
     keywords:
         - Charge

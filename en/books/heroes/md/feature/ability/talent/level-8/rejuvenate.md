@@ -3,7 +3,11 @@ action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: talent
 cost: 11 Clarity
 distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
-effect: 'Choose two of the following effects:'
+effects:
+    - effect: 'Choose two of the following effects:'
+      name: Effect
+    - effect: You and the target both permanently grow visibly younger (the equivalent of 20 [human](scc.v1:mcdm.heroes.v1/ancestry/human) years, to the minimum of an 18-year-old). Additionally, you are [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) and [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends).
+      name: Strained
 flavor: You reshape the flow of time in the target's body to return it to an earlier state.
 keywords:
     - Chronopathy

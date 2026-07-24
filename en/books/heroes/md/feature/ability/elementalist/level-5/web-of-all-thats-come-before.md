@@ -3,7 +3,15 @@ action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: elementalist
 cost: 9 Essence
 distance: 4 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 10
-effect: The area is [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain) until the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn). Each enemy who ends their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) in the area is [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends).
+effects:
+    - roll: Power Roll + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason)
+      tier1: 2 corruption damage; A < WEAK, [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
+      tier2: 3 corruption damage; A < AVERAGE, [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
+      tier3: 5 corruption damage; A < STRONG, [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
+    - effect: The area is [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain) until the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn). Each enemy who ends their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) in the area is [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends).
+      name: Effect
+    - effect: The area remains until the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn).
+      name: Persistent 1
 flavor: Threads you've been weaving through your adventures create a vibrant, pearlescent web.
 keywords:
     - Area

@@ -1,7 +1,13 @@
 ---
 action_type: Main action
 distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
-effect: You can move up to 3 squares straight toward the target before this [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), which deals extra damage equal to the number of squares you move this way.
+effects:
+    - roll: Power Roll + [Might](scc.v1:mcdm.heroes.v1/rule.character/might) or [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)
+      tier1: 3 + M or A damage
+      tier2: 6 + M or A damage
+      tier3: 13 + M or A damage
+    - effect: You can move up to 3 squares straight toward the target before this [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), which deals extra damage equal to the number of squares you move this way.
+      name: Effect
 flavor: The faster you move, the harder you hit.
 keywords:
     - '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)'

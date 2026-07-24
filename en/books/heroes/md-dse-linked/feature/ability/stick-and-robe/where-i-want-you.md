@@ -1,6 +1,11 @@
 ---
 action_type: Main action
 distance: '[Melee](../../../rule/combat/melee.md) 2'
+effects:
+    - roll: Power Roll + [Might](../../../rule/character/might.md) or [Agility](../../../rule/character/agility.md)
+      tier1: 4 + M or A damage
+      tier2: 7 + M or A damage; [slide](../../../movement/forced-movement.md) 1
+      tier3: 10 + M or A damage; [slide](../../../movement/forced-movement.md) 3
 feature_type: ability
 file_basename: where-i-want-you
 file_dpath: feature/ability/stick-and-robe
@@ -40,6 +45,11 @@ keywords:
 metadata:
     action_type: Main action
     distance: '[Melee](../../../rule/combat/melee.md) 2'
+    effects:
+        - roll: Power Roll + [Might](../../../rule/character/might.md) or [Agility](../../../rule/character/agility.md)
+          tier1: 4 + M or A damage
+          tier2: 7 + M or A damage; [slide](../../../movement/forced-movement.md) 1
+          tier3: 10 + M or A damage; [slide](../../../movement/forced-movement.md) 3
     flavor: When your stick speaks, your enemy moves.
     keywords:
         - '[Melee](../../../rule/combat/melee.md)'

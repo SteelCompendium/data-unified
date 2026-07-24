@@ -3,7 +3,13 @@ action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: troubadour
 cost: 9 Drama
 distance: 3 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)
-effect: Unless you score a [critical hit](scc.v1:mcdm.heroes.v1/rule.combat/critical-hit), this ability can't reduce a non-minion target below 1 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).
+effects:
+    - roll: Power Roll + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)
+      tier1: 10 damage
+      tier2: 14 damage
+      tier3: 20 damage
+    - effect: Unless you score a [critical hit](scc.v1:mcdm.heroes.v1/rule.combat/critical-hit), this ability can't reduce a non-minion target below 1 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina).
+      name: Effect
 flavor: You wield your weapon at blistering [speed](scc.v1:mcdm.heroes.v1/rule.character/speed), leaving everyone around you fighting for their lives.
 keywords:
     - Area

@@ -5,7 +5,13 @@ cost: 9 Ferocity
 cost_amount: "9"
 cost_resource: Ferocity
 distance: Ranged 15
-effect: If you are hidden, you remain hidden after the strike.
+effects:
+    - roll: Power Roll + Intuition
+      tier1: 12 + I damage
+      tier2: 18 + I damage
+      tier3: 30 + I damage
+    - effect: If you are hidden, you remain hidden after the strike.
+      name: Effect
 feature_type: ability
 file_basename: deadshot
 file_dpath: feature/ability/beastheart/level-5
@@ -33,11 +39,12 @@ type: ability
 cost: 9 Ferocity
 distance: Ranged 15
 effects:
-    - effect: If you are hidden, you remain hidden after the strike.
     - roll: Power Roll + Intuition
       tier1: 12 + I damage
       tier2: 18 + I damage
       tier3: 30 + I damage
+    - effect: If you are hidden, you remain hidden after the strike.
+      name: Effect
 feature_type: ability
 flavor: You channel your companion's feral senses to take the perfect shot.
 keywords:
@@ -50,7 +57,13 @@ metadata:
     class: beastheart
     cost: 9 Ferocity
     distance: Ranged 15
-    effect: If you are hidden, you remain hidden after the strike.
+    effects:
+        - roll: Power Roll + Intuition
+          tier1: 12 + I damage
+          tier2: 18 + I damage
+          tier3: 30 + I damage
+        - effect: If you are hidden, you remain hidden after the strike.
+          name: Effect
     flavor: You channel your companion's feral senses to take the perfect shot.
     keywords:
         - Beastheart

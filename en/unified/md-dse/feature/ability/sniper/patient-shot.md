@@ -1,7 +1,13 @@
 ---
 action_type: Main action
 distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 15'
-effect: If you don't take a move action this [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), this [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) deals extra damage equal to your [Might](scc.v1:mcdm.heroes.v1/rule.character/might) or [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility) score (your choice).
+effects:
+    - roll: Power Roll + [Might](scc.v1:mcdm.heroes.v1/rule.character/might) or [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)
+      tier1: 3 + M or A damage
+      tier2: 6 + M or A damage
+      tier3: 13 + M or A damage
+    - effect: If you don't take a move action this [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), this [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) deals extra damage equal to your [Might](scc.v1:mcdm.heroes.v1/rule.character/might) or [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility) score (your choice).
+      name: Effect
 feature_type: ability
 file_basename: patient-shot
 file_dpath: feature/ability/sniper
@@ -28,11 +34,12 @@ type: ability
 ```ds-feature
 distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 15'
 effects:
-    - effect: If you don't take a move action this [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), this [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) deals extra damage equal to your [Might](scc.v1:mcdm.heroes.v1/rule.character/might) or [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility) score (your choice).
     - roll: Power Roll + [Might](scc.v1:mcdm.heroes.v1/rule.character/might) or [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)
       tier1: 3 + M or A damage
       tier2: 6 + M or A damage
       tier3: 13 + M or A damage
+    - effect: If you don't take a move action this [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), this [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) deals extra damage equal to your [Might](scc.v1:mcdm.heroes.v1/rule.character/might) or [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility) score (your choice).
+      name: Effect
 feature_type: ability
 flavor: Breathe... aim... wait... then strike!
 keywords:
@@ -42,7 +49,13 @@ keywords:
 metadata:
     action_type: Main action
     distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 15'
-    effect: If you don't take a move action this [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), this [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) deals extra damage equal to your [Might](scc.v1:mcdm.heroes.v1/rule.character/might) or [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility) score (your choice).
+    effects:
+        - roll: Power Roll + [Might](scc.v1:mcdm.heroes.v1/rule.character/might) or [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)
+          tier1: 3 + M or A damage
+          tier2: 6 + M or A damage
+          tier3: 13 + M or A damage
+        - effect: If you don't take a move action this [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), this [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) deals extra damage equal to your [Might](scc.v1:mcdm.heroes.v1/rule.character/might) or [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility) score (your choice).
+          name: Effect
     flavor: Breathe... aim... wait... then strike!
     keywords:
         - '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged)'

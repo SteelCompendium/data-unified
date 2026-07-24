@@ -5,6 +5,13 @@ cost: 9 Piety
 cost_amount: "9"
 cost_resource: Piety
 distance: 4 [burst](../../../../rule/combat/burst.md)
+effects:
+    - roll: Power Roll + [Intuition](../../../../rule/character/intuition.md)
+      tier1: 3 sonic damage; [push](../../../../movement/forced-movement.md) 3
+      tier2: 6 sonic damage; [push](../../../../movement/forced-movement.md) 5
+      tier3: 9 sonic damage; [push](../../../../movement/forced-movement.md) 7
+    - effect: You can choose to have this ability deal damage to and [push](../../../../movement/forced-movement.md) objects, and to deal damage to buildings.
+      name: Special
 feature_type: ability
 file_basename: invocation-of-undoing
 file_dpath: feature/ability/conduit/level-6
@@ -35,6 +42,8 @@ effects:
       tier1: 3 sonic damage; [push](../../../../movement/forced-movement.md) 3
       tier2: 6 sonic damage; [push](../../../../movement/forced-movement.md) 5
       tier3: 9 sonic damage; [push](../../../../movement/forced-movement.md) 7
+    - effect: You can choose to have this ability deal damage to and [push](../../../../movement/forced-movement.md) objects, and to deal damage to buildings.
+      name: Special
 feature_type: ability
 flavor: You utter a secret word of destruction known only to deities.
 keywords:
@@ -45,6 +54,13 @@ metadata:
     class: conduit
     cost: 9 Piety
     distance: 4 [burst](../../../../rule/combat/burst.md)
+    effects:
+        - roll: Power Roll + [Intuition](../../../../rule/character/intuition.md)
+          tier1: 3 sonic damage; [push](../../../../movement/forced-movement.md) 3
+          tier2: 6 sonic damage; [push](../../../../movement/forced-movement.md) 5
+          tier3: 9 sonic damage; [push](../../../../movement/forced-movement.md) 7
+        - effect: You can choose to have this ability deal damage to and [push](../../../../movement/forced-movement.md) objects, and to deal damage to buildings.
+          name: Special
     flavor: You utter a secret word of destruction known only to deities.
     keywords:
         - Area

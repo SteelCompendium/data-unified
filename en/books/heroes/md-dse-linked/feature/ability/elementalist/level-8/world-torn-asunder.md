@@ -5,7 +5,13 @@ cost: 11 Essence
 cost_amount: "11"
 cost_resource: Essence
 distance: 5 [burst](../../../../rule/combat/burst.md)
-effect: You create a fissure in the ground [adjacent](../../../../rule/combat/adjacent.md) to you that is a 10 x 2 line and 6 squares deep. Each creature in the area who [is prone](../../../../condition/prone.md) and [size](../../../../rule/character/size.md) 2 or smaller falls in. Other creatures can enter the fissure or can [shift](../../../../movement/shifting.md) to the nearest unoccupied space of their choice outside it.
+effects:
+    - roll: Power Roll + [Reason](../../../../rule/character/reason.md)
+      tier1: M < WEAK[, prone](../../../../condition/prone.md)
+      tier2: M < AVERAGE[, prone](../../../../condition/prone.md)
+      tier3: M < STRONG[, prone](../../../../condition/prone.md)
+    - effect: You create a fissure in the ground [adjacent](../../../../rule/combat/adjacent.md) to you that is a 10 x 2 line and 6 squares deep. Each creature in the area who [is prone](../../../../condition/prone.md) and [size](../../../../rule/character/size.md) 2 or smaller falls in. Other creatures can enter the fissure or can [shift](../../../../movement/shifting.md) to the nearest unoccupied space of their choice outside it.
+      name: Effect
 feature_type: ability
 file_basename: world-torn-asunder
 file_dpath: feature/ability/elementalist/level-8
@@ -32,11 +38,12 @@ type: ability
 cost: 11 Essence
 distance: 5 [burst](../../../../rule/combat/burst.md)
 effects:
-    - effect: You create a fissure in the ground [adjacent](../../../../rule/combat/adjacent.md) to you that is a 10 x 2 line and 6 squares deep. Each creature in the area who [is prone](../../../../condition/prone.md) and [size](../../../../rule/character/size.md) 2 or smaller falls in. Other creatures can enter the fissure or can [shift](../../../../movement/shifting.md) to the nearest unoccupied space of their choice outside it.
     - roll: Power Roll + [Reason](../../../../rule/character/reason.md)
       tier1: M < WEAK[, prone](../../../../condition/prone.md)
       tier2: M < AVERAGE[, prone](../../../../condition/prone.md)
       tier3: M < STRONG[, prone](../../../../condition/prone.md)
+    - effect: You create a fissure in the ground [adjacent](../../../../rule/combat/adjacent.md) to you that is a 10 x 2 line and 6 squares deep. Each creature in the area who [is prone](../../../../condition/prone.md) and [size](../../../../rule/character/size.md) 2 or smaller falls in. Other creatures can enter the fissure or can [shift](../../../../movement/shifting.md) to the nearest unoccupied space of their choice outside it.
+      name: Effect
 feature_type: ability
 flavor: You stomp your foot and quake the whole world over.
 keywords:
@@ -48,7 +55,13 @@ metadata:
     class: elementalist
     cost: 11 Essence
     distance: 5 [burst](../../../../rule/combat/burst.md)
-    effect: You create a fissure in the ground [adjacent](../../../../rule/combat/adjacent.md) to you that is a 10 x 2 line and 6 squares deep. Each creature in the area who [is prone](../../../../condition/prone.md) and [size](../../../../rule/character/size.md) 2 or smaller falls in. Other creatures can enter the fissure or can [shift](../../../../movement/shifting.md) to the nearest unoccupied space of their choice outside it.
+    effects:
+        - roll: Power Roll + [Reason](../../../../rule/character/reason.md)
+          tier1: M < WEAK[, prone](../../../../condition/prone.md)
+          tier2: M < AVERAGE[, prone](../../../../condition/prone.md)
+          tier3: M < STRONG[, prone](../../../../condition/prone.md)
+        - effect: You create a fissure in the ground [adjacent](../../../../rule/combat/adjacent.md) to you that is a 10 x 2 line and 6 squares deep. Each creature in the area who [is prone](../../../../condition/prone.md) and [size](../../../../rule/character/size.md) 2 or smaller falls in. Other creatures can enter the fissure or can [shift](../../../../movement/shifting.md) to the nearest unoccupied space of their choice outside it.
+          name: Effect
     flavor: You stomp your foot and quake the whole world over.
     keywords:
         - Area

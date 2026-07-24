@@ -2,7 +2,9 @@
 action_type: Free maneuver
 class: summoner
 distance: Self
-effect: 'Until the end of the encounter or until you are [dying](scc.v1:mcdm.heroes.v1/rule.health/dying), each [minion](scc.v1:mcdm.summoner.v1/feature.summoner.level-1/minions) under your control during the encounter is the target of the following effect:'
+effects:
+    - effect: 'Until the end of the encounter or until you are [dying](scc.v1:mcdm.heroes.v1/rule.health/dying), each [minion](scc.v1:mcdm.summoner.v1/feature.summoner.level-1/minions) under your control during the encounter is the target of the following effect:'
+      name: Effect
 feature_source: summoner
 feature_type: ability
 file_basename: distraction-tactics
@@ -24,6 +26,7 @@ type: ability
 distance: Self
 effects:
     - effect: 'Until the end of the encounter or until you are [dying](scc.v1:mcdm.heroes.v1/rule.health/dying), each [minion](scc.v1:mcdm.summoner.v1/feature.summoner.level-1/minions) under your control during the encounter is the target of the following effect:'
+      name: Effect
 feature_type: ability
 flavor: Your minions do the work to draw the heat away from your allies.
 keywords:
@@ -32,7 +35,9 @@ metadata:
     action_type: Free maneuver
     class: summoner
     distance: Self
-    effect: 'Until the end of the encounter or until you are [dying](scc.v1:mcdm.heroes.v1/rule.health/dying), each [minion](scc.v1:mcdm.summoner.v1/feature.summoner.level-1/minions) under your control during the encounter is the target of the following effect:'
+    effects:
+        - effect: 'Until the end of the encounter or until you are [dying](scc.v1:mcdm.heroes.v1/rule.health/dying), each [minion](scc.v1:mcdm.summoner.v1/feature.summoner.level-1/minions) under your control during the encounter is the target of the following effect:'
+          name: Effect
     feature_source: summoner
     flavor: Your minions do the work to draw the heat away from your allies.
     keywords:

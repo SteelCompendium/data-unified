@@ -5,7 +5,13 @@ cost: 9 Piety
 cost_amount: "9"
 cost_resource: Piety
 distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
-effect: Until the end of the encounter, whenever you or any ally damages the target using an ability, that creature can spend a [Recovery](scc.v1:mcdm.heroes.v1/rule.health/recoveries). If the target is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) before the end of the encounter, you can use a free [triggered action](scc.v1:mcdm.heroes.v1/feature.conduit.level-1/triggered-action) to move this effect to another creature within [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance).
+effects:
+    - roll: Power Roll + [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)
+      tier1: 8 + I holy damage
+      tier2: 13 + I holy damage
+      tier3: 17 + I holy damage
+    - effect: Until the end of the encounter, whenever you or any ally damages the target using an ability, that creature can spend a [Recovery](scc.v1:mcdm.heroes.v1/rule.health/recoveries). If the target is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) before the end of the encounter, you can use a free [triggered action](scc.v1:mcdm.heroes.v1/feature.conduit.level-1/triggered-action) to move this effect to another creature within [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance).
+      name: Effect
 feature_type: ability
 file_basename: beacon-of-grace
 file_dpath: feature/ability/conduit/level-5
@@ -32,11 +38,12 @@ type: ability
 cost: 9 Piety
 distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
 effects:
-    - effect: Until the end of the encounter, whenever you or any ally damages the target using an ability, that creature can spend a [Recovery](scc.v1:mcdm.heroes.v1/rule.health/recoveries). If the target is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) before the end of the encounter, you can use a free [triggered action](scc.v1:mcdm.heroes.v1/feature.conduit.level-1/triggered-action) to move this effect to another creature within [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance).
     - roll: Power Roll + [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)
       tier1: 8 + I holy damage
       tier2: 13 + I holy damage
       tier3: 17 + I holy damage
+    - effect: Until the end of the encounter, whenever you or any ally damages the target using an ability, that creature can spend a [Recovery](scc.v1:mcdm.heroes.v1/rule.health/recoveries). If the target is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) before the end of the encounter, you can use a free [triggered action](scc.v1:mcdm.heroes.v1/feature.conduit.level-1/triggered-action) to move this effect to another creature within [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance).
+      name: Effect
 feature_type: ability
 flavor: You ignite a foe with holy radiance, rewarding allies who attack them.
 keywords:
@@ -48,7 +55,13 @@ metadata:
     class: conduit
     cost: 9 Piety
     distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
-    effect: Until the end of the encounter, whenever you or any ally damages the target using an ability, that creature can spend a [Recovery](scc.v1:mcdm.heroes.v1/rule.health/recoveries). If the target is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) before the end of the encounter, you can use a free [triggered action](scc.v1:mcdm.heroes.v1/feature.conduit.level-1/triggered-action) to move this effect to another creature within [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance).
+    effects:
+        - roll: Power Roll + [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)
+          tier1: 8 + I holy damage
+          tier2: 13 + I holy damage
+          tier3: 17 + I holy damage
+        - effect: Until the end of the encounter, whenever you or any ally damages the target using an ability, that creature can spend a [Recovery](scc.v1:mcdm.heroes.v1/rule.health/recoveries). If the target is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) before the end of the encounter, you can use a free [triggered action](scc.v1:mcdm.heroes.v1/feature.conduit.level-1/triggered-action) to move this effect to another creature within [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance).
+          name: Effect
     flavor: You ignite a foe with holy radiance, rewarding allies who attack them.
     keywords:
         - Magic

@@ -5,7 +5,9 @@ cost: 11 Wrath
 cost_amount: "11"
 cost_resource: Wrath
 distance: 2 [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura)
-effect: Until the end of the encounter or until you are [dying](scc.v1:mcdm.heroes.v1/rule.health/dying), each target who starts their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) in the area gains 10 [temporary Stamina](scc.v1:mcdm.heroes.v1/rule.health/temporary-stamina).
+effects:
+    - effect: Until the end of the encounter or until you are [dying](scc.v1:mcdm.heroes.v1/rule.health/dying), each target who starts their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) in the area gains 10 [temporary Stamina](scc.v1:mcdm.heroes.v1/rule.health/temporary-stamina).
+      name: Effect
 feature_type: ability
 file_basename: edict-of-unyielding-resolve
 file_dpath: feature/ability/censor/level-9
@@ -29,6 +31,7 @@ cost: 11 Wrath
 distance: 2 [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura)
 effects:
     - effect: Until the end of the encounter or until you are [dying](scc.v1:mcdm.heroes.v1/rule.health/dying), each target who starts their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) in the area gains 10 [temporary Stamina](scc.v1:mcdm.heroes.v1/rule.health/temporary-stamina).
+      name: Effect
 feature_type: ability
 flavor: You and your allies are clad in shimmering armor.
 keywords:
@@ -39,7 +42,9 @@ metadata:
     class: censor
     cost: 11 Wrath
     distance: 2 [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura)
-    effect: Until the end of the encounter or until you are [dying](scc.v1:mcdm.heroes.v1/rule.health/dying), each target who starts their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) in the area gains 10 [temporary Stamina](scc.v1:mcdm.heroes.v1/rule.health/temporary-stamina).
+    effects:
+        - effect: Until the end of the encounter or until you are [dying](scc.v1:mcdm.heroes.v1/rule.health/dying), each target who starts their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) in the area gains 10 [temporary Stamina](scc.v1:mcdm.heroes.v1/rule.health/temporary-stamina).
+          name: Effect
     flavor: You and your allies are clad in shimmering armor.
     keywords:
         - Area

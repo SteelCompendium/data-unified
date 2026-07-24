@@ -5,7 +5,15 @@ cost: 11 Clarity
 cost_amount: "11"
 cost_resource: Clarity
 distance: Special
-effect: Make a [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) to determine the area of this ability. Each target is vertical [pushed](scc.v1:mcdm.heroes.v1/movement/forced-movement) 6 squares. You can target only objects of [size](scc.v1:mcdm.heroes.v1/rule.character/size) 1L or smaller.
+effects:
+    - effect: Make a [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) to determine the area of this ability. Each target is vertical [pushed](scc.v1:mcdm.heroes.v1/movement/forced-movement) 6 squares. You can target only objects of [size](scc.v1:mcdm.heroes.v1/rule.character/size) 1L or smaller.
+      name: Effect
+    - roll: Power Roll + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason)
+      tier1: 2 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)
+      tier2: 3 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)
+      tier3: 4 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)
+    - effect: You can choose to reduce the size of the [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst) by 2 (to a minimum of 1 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)) to give the [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance) a +2 [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties). You take half the total damage all targets take from [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement).
+      name: Strained
 feature_type: ability
 file_basename: fulcrum
 file_dpath: feature/ability/talent/level-9
@@ -34,10 +42,13 @@ cost: 11 Clarity
 distance: Special
 effects:
     - effect: Make a [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) to determine the area of this ability. Each target is vertical [pushed](scc.v1:mcdm.heroes.v1/movement/forced-movement) 6 squares. You can target only objects of [size](scc.v1:mcdm.heroes.v1/rule.character/size) 1L or smaller.
+      name: Effect
     - roll: Power Roll + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason)
       tier1: 2 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)
       tier2: 3 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)
       tier3: 4 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)
+    - effect: You can choose to reduce the size of the [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst) by 2 (to a minimum of 1 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)) to give the [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance) a +2 [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties). You take half the total damage all targets take from [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement).
+      name: Strained
 feature_type: ability
 flavor: You precisely manipulate the creatures around you.
 keywords:
@@ -49,7 +60,15 @@ metadata:
     class: talent
     cost: 11 Clarity
     distance: Special
-    effect: Make a [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) to determine the area of this ability. Each target is vertical [pushed](scc.v1:mcdm.heroes.v1/movement/forced-movement) 6 squares. You can target only objects of [size](scc.v1:mcdm.heroes.v1/rule.character/size) 1L or smaller.
+    effects:
+        - effect: Make a [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) to determine the area of this ability. Each target is vertical [pushed](scc.v1:mcdm.heroes.v1/movement/forced-movement) 6 squares. You can target only objects of [size](scc.v1:mcdm.heroes.v1/rule.character/size) 1L or smaller.
+          name: Effect
+        - roll: Power Roll + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason)
+          tier1: 2 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)
+          tier2: 3 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)
+          tier3: 4 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)
+        - effect: You can choose to reduce the size of the [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst) by 2 (to a minimum of 1 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)) to give the [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance) a +2 [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties). You take half the total damage all targets take from [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement).
+          name: Strained
     flavor: You precisely manipulate the creatures around you.
     keywords:
         - Area

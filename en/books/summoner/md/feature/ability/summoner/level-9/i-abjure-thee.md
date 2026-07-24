@@ -2,7 +2,9 @@
 action_type: Main action
 class: summoner
 distance: 3 burst
-effect: Each enemy minion in the area is permanently removed from the encounter map. Up to three non-leader or non-solo enemies in the area are removed from the encounter for 1 [round](scc.v1:mcdm.heroes.v1/rule.combat/combat-round).
+effects:
+    - effect: Each enemy minion in the area is permanently removed from the encounter map. Up to three non-leader or non-solo enemies in the area are removed from the encounter for 1 [round](scc.v1:mcdm.heroes.v1/rule.combat/combat-round).
+      name: Effect
 feature_source: summoner
 flavor: Cast those not affixed to this manifold into the void of a minion's existence.
 keywords:

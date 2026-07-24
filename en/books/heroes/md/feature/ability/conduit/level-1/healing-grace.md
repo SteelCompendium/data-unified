@@ -2,7 +2,11 @@
 action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: conduit
 distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
-effect: The target can spend a [Recovery](scc.v1:mcdm.heroes.v1/rule.health/recoveries).
+effects:
+    - effect: The target can spend a [Recovery](scc.v1:mcdm.heroes.v1/rule.health/recoveries).
+      name: Effect
+    - cost: Spend 1+ Piety
+      effect: 'For each piety spent, choose one of the following [enhancements](scc.v1:mcdm.heroes.v1/rule.treasure/enhancement):'
 flavor: Your divine energy restores the righteous.
 keywords:
     - Magic
@@ -10,7 +14,6 @@ keywords:
 level: "1"
 name: Healing Grace
 scc: mcdm.heroes.v1/feature.ability.conduit.level-1/healing-grace
-spend: '1+ Piety: For each piety spent, choose one of the following [enhancements](scc.v1:mcdm.heroes.v1/rule.treasure/enhancement):'
 target: Self or one ally
 type: ability
 ---

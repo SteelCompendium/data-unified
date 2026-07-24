@@ -2,6 +2,11 @@
 action_type: Main action
 ancestry: dragon-knight
 distance: 1 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)
+effects:
+    - roll: Power Roll + [Might](scc.v1:mcdm.heroes.v1/rule.character/might) or [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence)
+      tier1: 2 damage
+      tier2: 5 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1
+      tier3: 7 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2
 feature_type: ability
 file_basename: draconian-pride
 file_dpath: feature/ability/dragon-knight
@@ -39,6 +44,11 @@ metadata:
     action_type: Main action
     ancestry: dragon-knight
     distance: 1 [burst](scc.v1:mcdm.heroes.v1/rule.combat/burst)
+    effects:
+        - roll: Power Roll + [Might](scc.v1:mcdm.heroes.v1/rule.character/might) or [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence)
+          tier1: 2 damage
+          tier2: 5 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1
+          tier3: 7 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2
     flavor: You let loose a mighty roar to shake your foes' spirits.
     keywords:
         - Area

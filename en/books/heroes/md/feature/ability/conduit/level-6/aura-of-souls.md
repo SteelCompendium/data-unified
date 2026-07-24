@@ -3,7 +3,9 @@ action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: conduit
 cost: 9 Piety
 distance: 4 [aura](scc.v1:mcdm.heroes.v1/rule.combat/aura)
-effect: Until the end of the encounter or until you are [dying](scc.v1:mcdm.heroes.v1/rule.health/dying), at the end of each of your [turns](scc.v1:mcdm.heroes.v1/rule.combat/turn), you can [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) each creature in the area up to a number of squares equal to your [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition) score. This [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) ignores [stability](scc.v1:mcdm.heroes.v1/rule.character/stability) for your allies.
+effects:
+    - effect: Until the end of the encounter or until you are [dying](scc.v1:mcdm.heroes.v1/rule.health/dying), at the end of each of your [turns](scc.v1:mcdm.heroes.v1/rule.combat/turn), you can [slide](scc.v1:mcdm.heroes.v1/movement/forced-movement) each creature in the area up to a number of squares equal to your [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition) score. This [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) ignores [stability](scc.v1:mcdm.heroes.v1/rule.character/stability) for your allies.
+      name: Effect
 flavor: A whirlwind of souls of the dead flies around you at your command.
 keywords:
     - Area

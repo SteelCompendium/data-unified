@@ -5,7 +5,9 @@ cost: 9 Piety
 cost_amount: "9"
 cost_resource: Piety
 distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
-effect: You can target yourself instead of one creature with this ability. Each target has [damage immunity](scc.v1:mcdm.heroes.v1/rule.damage/damage-immunity) 5 until the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn).
+effects:
+    - effect: You can target yourself instead of one creature with this ability. Each target has [damage immunity](scc.v1:mcdm.heroes.v1/rule.damage/damage-immunity) 5 until the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn).
+      name: Effect
 feature_type: ability
 file_basename: cuirass-of-the-gods
 file_dpath: feature/ability/conduit/level-6
@@ -30,6 +32,7 @@ cost: 9 Piety
 distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
 effects:
     - effect: You can target yourself instead of one creature with this ability. Each target has [damage immunity](scc.v1:mcdm.heroes.v1/rule.damage/damage-immunity) 5 until the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn).
+      name: Effect
 feature_type: ability
 flavor: Your allies are covered in spiritual armor.
 keywords:
@@ -41,7 +44,9 @@ metadata:
     class: conduit
     cost: 9 Piety
     distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
-    effect: You can target yourself instead of one creature with this ability. Each target has [damage immunity](scc.v1:mcdm.heroes.v1/rule.damage/damage-immunity) 5 until the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn).
+    effects:
+        - effect: You can target yourself instead of one creature with this ability. Each target has [damage immunity](scc.v1:mcdm.heroes.v1/rule.damage/damage-immunity) 5 until the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn).
+          name: Effect
     flavor: Your allies are covered in spiritual armor.
     keywords:
         - Area

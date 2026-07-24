@@ -5,7 +5,15 @@ cost: 9 Ferocity
 cost_amount: "9"
 cost_resource: Ferocity
 distance: Self
-effect: Your companion [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed and makes one power roll that targets each enemy they come adjacent to during the shift. If your companion targets only one enemy with this ability, the power roll gains an edge.
+effects:
+    - effect: Your companion [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed and makes one power roll that targets each enemy they come adjacent to during the shift. If your companion targets only one enemy with this ability, the power roll gains an edge.
+      name: Effect
+    - roll: Power Roll + Might
+      tier1: 9 sonic damage; M < WEAK [prone](scc.v1:mcdm.heroes.v1/condition/prone)
+      tier2: 13 sonic damage; M < AVERAGE [prone](scc.v1:mcdm.heroes.v1/condition/prone)
+      tier3: 18 sonic damage; M < STRONG [prone](scc.v1:mcdm.heroes.v1/condition/prone)
+    - cost: Spend 2 Ferocity
+      effect: You can move up to your speed. The power roll also targets each enemy you come adjacent to during the move.
 feature_type: ability
 file_basename: rolling-thunder
 file_dpath: feature/ability/beastheart/level-6
@@ -22,7 +30,6 @@ name: Rolling Thunder
 power_roll_characteristic: Might
 scc: mcdm.beastheart.v1/feature.ability.beastheart.level-6/rolling-thunder
 source: mcdm.beastheart.v1
-spend: '2 Ferocity: You can move up to your speed. The power roll also targets each enemy you come adjacent to during the move.'
 subclass: punisher
 target: Self
 tier1: 9 sonic damage; M < WEAK [prone](scc.v1:mcdm.heroes.v1/condition/prone)
@@ -36,12 +43,13 @@ cost: 9 Ferocity
 distance: Self
 effects:
     - effect: Your companion [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed and makes one power roll that targets each enemy they come adjacent to during the shift. If your companion targets only one enemy with this ability, the power roll gains an edge.
+      name: Effect
     - roll: Power Roll + Might
       tier1: 9 sonic damage; M < WEAK [prone](scc.v1:mcdm.heroes.v1/condition/prone)
       tier2: 13 sonic damage; M < AVERAGE [prone](scc.v1:mcdm.heroes.v1/condition/prone)
       tier3: 18 sonic damage; M < STRONG [prone](scc.v1:mcdm.heroes.v1/condition/prone)
-    - effect: '2 Ferocity: You can move up to your speed. The power roll also targets each enemy you come adjacent to during the move.'
-      name: Spend
+    - cost: Spend 2 Ferocity
+      effect: You can move up to your speed. The power roll also targets each enemy you come adjacent to during the move.
 feature_type: ability
 flavor: The rumble of your companion's dash is a rolling thunderclap, their impact an earthquake.
 keywords:
@@ -54,7 +62,15 @@ metadata:
     class: beastheart
     cost: 9 Ferocity
     distance: Self
-    effect: Your companion [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed and makes one power roll that targets each enemy they come adjacent to during the shift. If your companion targets only one enemy with this ability, the power roll gains an edge.
+    effects:
+        - effect: Your companion [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) up to their speed and makes one power roll that targets each enemy they come adjacent to during the shift. If your companion targets only one enemy with this ability, the power roll gains an edge.
+          name: Effect
+        - roll: Power Roll + Might
+          tier1: 9 sonic damage; M < WEAK [prone](scc.v1:mcdm.heroes.v1/condition/prone)
+          tier2: 13 sonic damage; M < AVERAGE [prone](scc.v1:mcdm.heroes.v1/condition/prone)
+          tier3: 18 sonic damage; M < STRONG [prone](scc.v1:mcdm.heroes.v1/condition/prone)
+        - cost: Spend 2 Ferocity
+          effect: You can move up to your speed. The power roll also targets each enemy you come adjacent to during the move.
     flavor: The rumble of your companion's dash is a rolling thunderclap, their impact an earthquake.
     keywords:
         - Companion
@@ -65,7 +81,6 @@ metadata:
     name: Rolling Thunder
     power_roll_characteristic: Might
     scc: mcdm.beastheart.v1/feature.ability.beastheart.level-6/rolling-thunder
-    spend: '2 Ferocity: You can move up to your speed. The power roll also targets each enemy you come adjacent to during the move.'
     subclass: punisher
     target: Self
     tier1: 9 sonic damage; M < WEAK [prone](scc.v1:mcdm.heroes.v1/condition/prone)

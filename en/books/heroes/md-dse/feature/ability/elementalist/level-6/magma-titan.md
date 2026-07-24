@@ -5,7 +5,11 @@ cost: 9 Essence
 cost_amount: "9"
 cost_resource: Essence
 distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
-effect: 'Until the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), the target has the following benefits:'
+effects:
+    - effect: 'Until the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), the target has the following benefits:'
+      name: Effect
+    - effect: The effect lasts until the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn). Additionally, at the start of your [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), the target can spend 2 [Recoveries](scc.v1:mcdm.heroes.v1/rule.health/recoveries).
+      name: Persistent 2
 feature_type: ability
 file_basename: magma-titan
 file_dpath: feature/ability/elementalist/level-6
@@ -31,6 +35,9 @@ cost: 9 Essence
 distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
 effects:
     - effect: 'Until the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), the target has the following benefits:'
+      name: Effect
+    - effect: The effect lasts until the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn). Additionally, at the start of your [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), the target can spend 2 [Recoveries](scc.v1:mcdm.heroes.v1/rule.health/recoveries).
+      name: Persistent 2
 feature_type: ability
 flavor: Their body swells with lava, mud, and might, towering over their enemies.
 keywords:
@@ -44,7 +51,11 @@ metadata:
     class: elementalist
     cost: 9 Essence
     distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
-    effect: 'Until the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), the target has the following benefits:'
+    effects:
+        - effect: 'Until the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), the target has the following benefits:'
+          name: Effect
+        - effect: The effect lasts until the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn). Additionally, at the start of your [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), the target can spend 2 [Recoveries](scc.v1:mcdm.heroes.v1/rule.health/recoveries).
+          name: Persistent 2
     flavor: Their body swells with lava, mud, and might, towering over their enemies.
     keywords:
         - Earth

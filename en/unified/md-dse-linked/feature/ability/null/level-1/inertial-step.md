@@ -2,7 +2,13 @@
 action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: "null"
 distance: '[Melee](../../../../rule/combat/melee.md) 1'
-effect: You can [shift](../../../../movement/shifting.md) up to half your [speed](../../../../rule/character/speed.md) before or after you make this [strike](../../../../rule/combat/strike.md).
+effects:
+    - roll: Power Roll + [Agility](../../../../rule/character/agility.md)
+      tier1: 5 + A damage
+      tier2: 7 + A damage
+      tier3: 10 + A damage
+    - effect: You can [shift](../../../../movement/shifting.md) up to half your [speed](../../../../rule/character/speed.md) before or after you make this [strike](../../../../rule/combat/strike.md).
+      name: Effect
 feature_type: ability
 file_basename: inertial-step
 file_dpath: feature/ability/null/level-1
@@ -30,11 +36,12 @@ type: ability
 ```ds-feature
 distance: '[Melee](../../../../rule/combat/melee.md) 1'
 effects:
-    - effect: You can [shift](../../../../movement/shifting.md) up to half your [speed](../../../../rule/character/speed.md) before or after you make this [strike](../../../../rule/combat/strike.md).
     - roll: Power Roll + [Agility](../../../../rule/character/agility.md)
       tier1: 5 + A damage
       tier2: 7 + A damage
       tier3: 10 + A damage
+    - effect: You can [shift](../../../../movement/shifting.md) up to half your [speed](../../../../rule/character/speed.md) before or after you make this [strike](../../../../rule/combat/strike.md).
+      name: Effect
 feature_type: ability
 flavor: You flit about the battlefield and take an opportunistic strike.
 keywords:
@@ -46,7 +53,13 @@ metadata:
     action_type: '[Main action](../../../../rule/combat/turn.md)'
     class: "null"
     distance: '[Melee](../../../../rule/combat/melee.md) 1'
-    effect: You can [shift](../../../../movement/shifting.md) up to half your [speed](../../../../rule/character/speed.md) before or after you make this [strike](../../../../rule/combat/strike.md).
+    effects:
+        - roll: Power Roll + [Agility](../../../../rule/character/agility.md)
+          tier1: 5 + A damage
+          tier2: 7 + A damage
+          tier3: 10 + A damage
+        - effect: You can [shift](../../../../movement/shifting.md) up to half your [speed](../../../../rule/character/speed.md) before or after you make this [strike](../../../../rule/combat/strike.md).
+          name: Effect
     flavor: You flit about the battlefield and take an opportunistic strike.
     keywords:
         - '[Melee](../../../../rule/combat/melee.md)'

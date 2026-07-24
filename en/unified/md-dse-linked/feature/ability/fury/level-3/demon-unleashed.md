@@ -5,7 +5,9 @@ cost: 7 Ferocity
 cost_amount: "7"
 cost_resource: Ferocity
 distance: Self
-effect: Until the end of the encounter or until you are [dying](../../../../rule/health/dying.md), each enemy who starts their [turn](../../../../rule/combat/turn.md) [adjacent](../../../../rule/combat/adjacent.md) to you and has P < STRONG is [frightened](../../../../condition/frightened.md) until the end of their [turn](../../../../rule/combat/turn.md).
+effects:
+    - effect: Until the end of the encounter or until you are [dying](../../../../rule/health/dying.md), each enemy who starts their [turn](../../../../rule/combat/turn.md) [adjacent](../../../../rule/combat/adjacent.md) to you and has P < STRONG is [frightened](../../../../condition/frightened.md) until the end of their [turn](../../../../rule/combat/turn.md).
+      name: Effect
 feature_type: ability
 file_basename: demon-unleashed
 file_dpath: feature/ability/fury/level-3
@@ -27,6 +29,7 @@ cost: 7 Ferocity
 distance: Self
 effects:
     - effect: Until the end of the encounter or until you are [dying](../../../../rule/health/dying.md), each enemy who starts their [turn](../../../../rule/combat/turn.md) [adjacent](../../../../rule/combat/adjacent.md) to you and has P < STRONG is [frightened](../../../../condition/frightened.md) until the end of their [turn](../../../../rule/combat/turn.md).
+      name: Effect
 feature_type: ability
 flavor: Foes tremble at the sight of you.
 keywords:
@@ -36,7 +39,9 @@ metadata:
     class: fury
     cost: 7 Ferocity
     distance: Self
-    effect: Until the end of the encounter or until you are [dying](../../../../rule/health/dying.md), each enemy who starts their [turn](../../../../rule/combat/turn.md) [adjacent](../../../../rule/combat/adjacent.md) to you and has P < STRONG is [frightened](../../../../condition/frightened.md) until the end of their [turn](../../../../rule/combat/turn.md).
+    effects:
+        - effect: Until the end of the encounter or until you are [dying](../../../../rule/health/dying.md), each enemy who starts their [turn](../../../../rule/combat/turn.md) [adjacent](../../../../rule/combat/adjacent.md) to you and has P < STRONG is [frightened](../../../../condition/frightened.md) until the end of their [turn](../../../../rule/combat/turn.md).
+          name: Effect
     flavor: Foes tremble at the sight of you.
     keywords:
         - Magic

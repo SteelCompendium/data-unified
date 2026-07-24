@@ -5,7 +5,13 @@ cost: 9 Discipline
 cost_amount: "9"
 cost_resource: Discipline
 distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
-effect: This [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) resolves before the triggering movement or main action.
+effects:
+    - roll: Power Roll + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)
+      tier1: 7 + A damage; I < WEAK, [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
+      tier2: 10 + A damage; I < AVERAGE, [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
+      tier3: 13 + A damage; I < STRONG, [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
+    - effect: This [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) resolves before the triggering movement or main action.
+      name: Effect
 feature_type: ability
 file_basename: anticipating-strike
 file_dpath: feature/ability/null/level-5
@@ -35,11 +41,12 @@ type: ability
 cost: 9 Discipline
 distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
 effects:
-    - effect: This [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) resolves before the triggering movement or main action.
     - roll: Power Roll + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)
       tier1: 7 + A damage; I < WEAK, [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
       tier2: 10 + A damage; I < AVERAGE, [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
       tier3: 13 + A damage; I < STRONG, [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
+    - effect: This [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) resolves before the triggering movement or main action.
+      name: Effect
 feature_type: ability
 flavor: You suddenly strike an enemy, then grab them in a psionically enhanced grip.
 keywords:
@@ -52,7 +59,13 @@ metadata:
     class: "null"
     cost: 9 Discipline
     distance: '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1'
-    effect: This [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) resolves before the triggering movement or main action.
+    effects:
+        - roll: Power Roll + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)
+          tier1: 7 + A damage; I < WEAK, [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
+          tier2: 10 + A damage; I < AVERAGE, [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
+          tier3: 13 + A damage; I < STRONG, [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends)
+        - effect: This [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) resolves before the triggering movement or main action.
+          name: Effect
     flavor: You suddenly strike an enemy, then grab them in a psionically enhanced grip.
     keywords:
         - '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)'

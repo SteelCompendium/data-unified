@@ -11,6 +11,10 @@
     {
       "effect": "Targets closest to the center of the area are [pulled](scc.v1:mcdm.heroes.v1/movement/forced-movement) first.",
       "name": "Effect"
+    },
+    {
+      "effect": "The size of the area increases by 2. You also target yourself and each ally within [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance).",
+      "name": "Strained"
     }
   ],
   "feature_type": "ability",

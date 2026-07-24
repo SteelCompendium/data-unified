@@ -2,7 +2,9 @@
 action_type: Main action
 class: summoner
 distance: 5 burst
-effect: Until the end of the encounter or you are [dying](scc.v1:mcdm.heroes.v1/rule.health/dying), each target has [damage immunity](scc.v1:mcdm.heroes.v1/rule.damage/damage-immunity) 5 and can use a [free triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action) once per [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) whenever they are [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement) to reduce the distance by half.
+effects:
+    - effect: Until the end of the encounter or you are [dying](scc.v1:mcdm.heroes.v1/rule.health/dying), each target has [damage immunity](scc.v1:mcdm.heroes.v1/rule.damage/damage-immunity) 5 and can use a [free triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action) once per [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) whenever they are [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement) to reduce the distance by half.
+      name: Effect
 feature_source: summoner
 flavor: You surround your allies with a nigh-endless supply of summons that stand in the way of all impacts.
 keywords:

@@ -5,7 +5,15 @@ cost: 11 Clarity
 cost_amount: "11"
 cost_resource: Clarity
 distance: '[Melee](../../../../rule/combat/melee.md) 2'
-effect: The target can't communicate with anyone until the end of the encounter.
+effects:
+    - roll: Power Roll + [Reason](../../../../rule/character/reason.md)
+      tier1: 12 + R damage; R < WEAK, the target takes a [bane](../../../../rule/dice/bane.md) on their next [power roll](../../../../rule/dice/power-roll.md)
+      tier2: 17 + R damage; R < AVERAGE, the target takes a [bane](../../../../rule/dice/bane.md) on [power rolls](../../../../rule/dice/power-roll.md) (save ends)
+      tier3: 23 + R damage; R < STRONG, the target has a double [bane](../../../../rule/dice/bane.md) on [power rolls](../../../../rule/dice/power-roll.md) (save ends)
+    - effect: The target can't communicate with anyone until the end of the encounter.
+      name: Effect
+    - effect: You take 3d6 damage.
+      name: Strained
 feature_type: ability
 file_basename: mindwipe
 file_dpath: feature/ability/talent/level-8
@@ -33,11 +41,14 @@ type: ability
 cost: 11 Clarity
 distance: '[Melee](../../../../rule/combat/melee.md) 2'
 effects:
-    - effect: The target can't communicate with anyone until the end of the encounter.
     - roll: Power Roll + [Reason](../../../../rule/character/reason.md)
       tier1: 12 + R damage; R < WEAK, the target takes a [bane](../../../../rule/dice/bane.md) on their next [power roll](../../../../rule/dice/power-roll.md)
       tier2: 17 + R damage; R < AVERAGE, the target takes a [bane](../../../../rule/dice/bane.md) on [power rolls](../../../../rule/dice/power-roll.md) (save ends)
       tier3: 23 + R damage; R < STRONG, the target has a double [bane](../../../../rule/dice/bane.md) on [power rolls](../../../../rule/dice/power-roll.md) (save ends)
+    - effect: The target can't communicate with anyone until the end of the encounter.
+      name: Effect
+    - effect: You take 3d6 damage.
+      name: Strained
 feature_type: ability
 flavor: You attempt to make them forget all their training.
 keywords:
@@ -50,7 +61,15 @@ metadata:
     class: talent
     cost: 11 Clarity
     distance: '[Melee](../../../../rule/combat/melee.md) 2'
-    effect: The target can't communicate with anyone until the end of the encounter.
+    effects:
+        - roll: Power Roll + [Reason](../../../../rule/character/reason.md)
+          tier1: 12 + R damage; R < WEAK, the target takes a [bane](../../../../rule/dice/bane.md) on their next [power roll](../../../../rule/dice/power-roll.md)
+          tier2: 17 + R damage; R < AVERAGE, the target takes a [bane](../../../../rule/dice/bane.md) on [power rolls](../../../../rule/dice/power-roll.md) (save ends)
+          tier3: 23 + R damage; R < STRONG, the target has a double [bane](../../../../rule/dice/bane.md) on [power rolls](../../../../rule/dice/power-roll.md) (save ends)
+        - effect: The target can't communicate with anyone until the end of the encounter.
+          name: Effect
+        - effect: You take 3d6 damage.
+          name: Strained
     flavor: You attempt to make them forget all their training.
     keywords:
         - '[Melee](../../../../rule/combat/melee.md)'

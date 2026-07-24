@@ -2,7 +2,13 @@
 action_type: Main action
 ancestry: revenant
 distance: '[Ranged](../../../rule/combat/ranged.md) 10'
-effect: The sigil disappears from the creature.
+effects:
+    - roll: Power Roll + [Reason](../../../rule/character/reason.md), [Intuition](../../../rule/character/intuition.md), or [Presence](../../../rule/character/presence.md)
+      tier1: 3 + R, I, or P damage; [slide](../../../movement/forced-movement.md) 1
+      tier2: 5 + R, I, or P damage; [slide](../../../movement/forced-movement.md) 2
+      tier3: 7 + R, I, or P damage; [slide](../../../movement/forced-movement.md) 3
+    - effect: The sigil disappears from the creature.
+      name: Effect
 feature_type: ability
 file_basename: detonate-sigil
 file_dpath: feature/ability/revenant
@@ -28,11 +34,12 @@ type: ability
 ```ds-feature
 distance: '[Ranged](../../../rule/combat/ranged.md) 10'
 effects:
-    - effect: The sigil disappears from the creature.
     - roll: Power Roll + [Reason](../../../rule/character/reason.md), [Intuition](../../../rule/character/intuition.md), or [Presence](../../../rule/character/presence.md)
       tier1: 3 + R, I, or P damage; [slide](../../../movement/forced-movement.md) 1
       tier2: 5 + R, I, or P damage; [slide](../../../movement/forced-movement.md) 2
       tier3: 7 + R, I, or P damage; [slide](../../../movement/forced-movement.md) 3
+    - effect: The sigil disappears from the creature.
+      name: Effect
 feature_type: ability
 flavor: A magic sigil you placed on a creature explodes with energy.
 keywords:
@@ -43,7 +50,13 @@ metadata:
     action_type: Main action
     ancestry: revenant
     distance: '[Ranged](../../../rule/combat/ranged.md) 10'
-    effect: The sigil disappears from the creature.
+    effects:
+        - roll: Power Roll + [Reason](../../../rule/character/reason.md), [Intuition](../../../rule/character/intuition.md), or [Presence](../../../rule/character/presence.md)
+          tier1: 3 + R, I, or P damage; [slide](../../../movement/forced-movement.md) 1
+          tier2: 5 + R, I, or P damage; [slide](../../../movement/forced-movement.md) 2
+          tier3: 7 + R, I, or P damage; [slide](../../../movement/forced-movement.md) 3
+        - effect: The sigil disappears from the creature.
+          name: Effect
     flavor: A magic sigil you placed on a creature explodes with energy.
     keywords:
         - Magic

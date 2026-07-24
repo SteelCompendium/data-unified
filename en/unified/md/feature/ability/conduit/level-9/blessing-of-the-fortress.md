@@ -3,7 +3,9 @@ action_type: '[Maneuver](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: conduit
 cost: 11 Piety
 distance: Self; see below
-effect: Until the end of the encounter or until you are [dying](scc.v1:mcdm.heroes.v1/rule.health/dying), no enemy can approach within 5 squares of you by moving or by being [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement) by any enemy. Targets can be [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement) closer to you by you or your allies, or can move closer because of your movement.
+effects:
+    - effect: Until the end of the encounter or until you are [dying](scc.v1:mcdm.heroes.v1/rule.health/dying), no enemy can approach within 5 squares of you by moving or by being [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement) by any enemy. Targets can be [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement) closer to you by you or your allies, or can move closer because of your movement.
+      name: Effect
 flavor: A magic circle extends out from you, barring foes from getting close.
 keywords:
     - Area

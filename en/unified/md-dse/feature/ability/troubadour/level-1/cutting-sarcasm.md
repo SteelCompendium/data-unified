@@ -2,6 +2,11 @@
 action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: troubadour
 distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
+effects:
+    - roll: Power Roll + [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence)
+      tier1: 2 + P psychic damage; P < WEAK, [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
+      tier2: 5 + P psychic damage; P < AVERAGE, [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
+      tier3: 7 + P psychic damage; P < STRONG, [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
 feature_type: ability
 file_basename: cutting-sarcasm
 file_dpath: feature/ability/troubadour/level-1
@@ -44,6 +49,11 @@ metadata:
     action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: troubadour
     distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
+    effects:
+        - roll: Power Roll + [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence)
+          tier1: 2 + P psychic damage; P < WEAK, [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
+          tier2: 5 + P psychic damage; P < AVERAGE, [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
+          tier3: 7 + P psychic damage; P < STRONG, [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) (save ends)
     flavor: There you are, radiating your usual charisma.
     keywords:
         - Magic

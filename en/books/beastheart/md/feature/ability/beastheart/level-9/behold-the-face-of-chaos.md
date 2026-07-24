@@ -3,7 +3,13 @@ action_type: Main action
 class: beastheart
 cost: 11 Ferocity
 distance: Melee 1
-effect: Your companion [teleports](scc.v1:mcdm.heroes.v1/movement/teleport) up to their speed.
+effects:
+    - effect: Your companion [teleports](scc.v1:mcdm.heroes.v1/movement/teleport) up to their speed.
+      name: Effect
+    - roll: Power Roll + Intuition
+      tier1: 13 + I psychic damage; P < WEAK [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
+      tier2: 20 + I psychic damage; P < AVERAGE [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
+      tier3: 27 + I psychic damage; P < STRONG [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends)
 flavor: Your companion appears next to their victim in the guise of a heart-stopping nightmare.
 keywords:
     - Companion

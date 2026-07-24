@@ -2,6 +2,11 @@
 action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
 class: censor
 distance: 2 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 1
+effects:
+    - roll: Power Roll + [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence)
+      tier1: 2 holy damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1
+      tier2: 4 holy damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2
+      tier3: 6 holy damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3
 feature_type: ability
 file_basename: back-blasphemer
 file_dpath: feature/ability/censor/level-1
@@ -44,6 +49,11 @@ metadata:
     action_type: '[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)'
     class: censor
     distance: 2 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 1
+    effects:
+        - roll: Power Roll + [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence)
+          tier1: 2 holy damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 1
+          tier2: 4 holy damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 2
+          tier3: 6 holy damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3
     flavor: You channel power through your weapon to repel foes.
     keywords:
         - Area

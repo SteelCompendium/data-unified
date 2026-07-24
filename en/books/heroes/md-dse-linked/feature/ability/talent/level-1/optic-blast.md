@@ -2,7 +2,15 @@
 action_type: '[Main action](../../../../rule/combat/turn.md)'
 class: talent
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
-effect: When targeting an object with a solid reflective surface or a creature carrying or wearing such an object (such as a mirror, an unpainted metal shield, or shiny metal plate armor), you can target one additional creature or object within 3 squares of the first target.
+effects:
+    - roll: Power Roll + [Reason](../../../../rule/character/reason.md)
+      tier1: 2 + R damage; M < WEAK[, prone](../../../../condition/prone.md)
+      tier2: 4 + R damage; M < AVERAGE[, prone](../../../../condition/prone.md)
+      tier3: 6 + R damage; M < STRONG[, prone](../../../../condition/prone.md)
+    - effect: When targeting an object with a solid reflective surface or a creature carrying or wearing such an object (such as a mirror, an unpainted metal shield, or shiny metal plate armor), you can target one additional creature or object within 3 squares of the first target.
+      name: Effect
+    - effect: You gain 1 [surge](../../../../rule/resource/surge.md) that you can use immediately, and you take damage equal to your [Reason](../../../../rule/character/reason.md) score that can't be reduced in any way.
+      name: Strained
 feature_type: ability
 file_basename: optic-blast
 file_dpath: feature/ability/talent/level-1
@@ -30,11 +38,14 @@ type: ability
 ```ds-feature
 distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
 effects:
-    - effect: When targeting an object with a solid reflective surface or a creature carrying or wearing such an object (such as a mirror, an unpainted metal shield, or shiny metal plate armor), you can target one additional creature or object within 3 squares of the first target.
     - roll: Power Roll + [Reason](../../../../rule/character/reason.md)
       tier1: 2 + R damage; M < WEAK[, prone](../../../../condition/prone.md)
       tier2: 4 + R damage; M < AVERAGE[, prone](../../../../condition/prone.md)
       tier3: 6 + R damage; M < STRONG[, prone](../../../../condition/prone.md)
+    - effect: When targeting an object with a solid reflective surface or a creature carrying or wearing such an object (such as a mirror, an unpainted metal shield, or shiny metal plate armor), you can target one additional creature or object within 3 squares of the first target.
+      name: Effect
+    - effect: You gain 1 [surge](../../../../rule/resource/surge.md) that you can use immediately, and you take damage equal to your [Reason](../../../../rule/character/reason.md) score that can't be reduced in any way.
+      name: Strained
 feature_type: ability
 flavor: Your eyes emit rays of powerful enervating force.
 keywords:
@@ -46,7 +57,15 @@ metadata:
     action_type: '[Main action](../../../../rule/combat/turn.md)'
     class: talent
     distance: '[Ranged](../../../../rule/combat/ranged.md) 10'
-    effect: When targeting an object with a solid reflective surface or a creature carrying or wearing such an object (such as a mirror, an unpainted metal shield, or shiny metal plate armor), you can target one additional creature or object within 3 squares of the first target.
+    effects:
+        - roll: Power Roll + [Reason](../../../../rule/character/reason.md)
+          tier1: 2 + R damage; M < WEAK[, prone](../../../../condition/prone.md)
+          tier2: 4 + R damage; M < AVERAGE[, prone](../../../../condition/prone.md)
+          tier3: 6 + R damage; M < STRONG[, prone](../../../../condition/prone.md)
+        - effect: When targeting an object with a solid reflective surface or a creature carrying or wearing such an object (such as a mirror, an unpainted metal shield, or shiny metal plate armor), you can target one additional creature or object within 3 squares of the first target.
+          name: Effect
+        - effect: You gain 1 [surge](../../../../rule/resource/surge.md) that you can use immediately, and you take damage equal to your [Reason](../../../../rule/character/reason.md) score that can't be reduced in any way.
+          name: Strained
     flavor: Your eyes emit rays of powerful enervating force.
     keywords:
         - Metamorphosis

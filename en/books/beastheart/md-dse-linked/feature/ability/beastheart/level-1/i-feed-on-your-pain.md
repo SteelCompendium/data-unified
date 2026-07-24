@@ -5,7 +5,13 @@ cost: 5 Ferocity
 cost_amount: "5"
 cost_resource: Ferocity
 distance: Melee 1 or ranged 5
-effect: If the target is killed by this damage, or is winded or [bleeding](../../../../condition/bleeding.md) after taking this damage, you gain 2 surges.
+effects:
+    - roll: Power Roll + Might
+      tier1: 8 + M damage
+      tier2: 12 + M damage
+      tier3: 16 + M damage; M < STRONG [bleeding](../../../../condition/bleeding.md) (save ends)
+    - effect: If the target is killed by this damage, or is winded or [bleeding](../../../../condition/bleeding.md) after taking this damage, you gain 2 surges.
+      name: Effect
 feature_type: ability
 file_basename: i-feed-on-your-pain
 file_dpath: feature/ability/beastheart/level-1
@@ -34,11 +40,12 @@ type: ability
 cost: 5 Ferocity
 distance: Melee 1 or ranged 5
 effects:
-    - effect: If the target is killed by this damage, or is winded or [bleeding](../../../../condition/bleeding.md) after taking this damage, you gain 2 surges.
     - roll: Power Roll + Might
       tier1: 8 + M damage
       tier2: 12 + M damage
       tier3: 16 + M damage; M < STRONG [bleeding](../../../../condition/bleeding.md) (save ends)
+    - effect: If the target is killed by this damage, or is winded or [bleeding](../../../../condition/bleeding.md) after taking this damage, you gain 2 surges.
+      name: Effect
 feature_type: ability
 flavor: Invigorated by the smell of blood, you strike a savage blow.
 keywords:
@@ -52,7 +59,13 @@ metadata:
     class: beastheart
     cost: 5 Ferocity
     distance: Melee 1 or ranged 5
-    effect: If the target is killed by this damage, or is winded or [bleeding](../../../../condition/bleeding.md) after taking this damage, you gain 2 surges.
+    effects:
+        - roll: Power Roll + Might
+          tier1: 8 + M damage
+          tier2: 12 + M damage
+          tier3: 16 + M damage; M < STRONG [bleeding](../../../../condition/bleeding.md) (save ends)
+        - effect: If the target is killed by this damage, or is winded or [bleeding](../../../../condition/bleeding.md) after taking this damage, you gain 2 surges.
+          name: Effect
     flavor: Invigorated by the smell of blood, you strike a savage blow.
     keywords:
         - Beastheart

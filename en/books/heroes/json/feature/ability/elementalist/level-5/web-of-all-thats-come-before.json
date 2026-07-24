@@ -11,6 +11,10 @@
     {
       "effect": "The area is [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain) until the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn). Each enemy who ends their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) in the area is [restrained](scc.v1:mcdm.heroes.v1/condition/restrained) (save ends).",
       "name": "Effect"
+    },
+    {
+      "effect": "The area remains until the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn).",
+      "name": "Persistent 1"
     }
   ],
   "feature_type": "ability",

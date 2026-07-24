@@ -5,7 +5,11 @@ cost: 5 Ferocity
 cost_amount: "5"
 cost_resource: Ferocity
 distance: 3 burst
-effect: You can spend a Recovery and gain 3 temporary Stamina for each target. Each target is [taunted](scc.v1:mcdm.heroes.v1/condition/taunted) by you until the end of their next turn.
+effects:
+    - effect: You can spend a Recovery and gain 3 temporary Stamina for each target. Each target is [taunted](scc.v1:mcdm.heroes.v1/condition/taunted) by you until the end of their next turn.
+      name: Effect
+    - cost: Spend 1 Ferocity
+      effect: This ability also affects a 3 burst originating from your companion. Targets in this second area are [taunted](scc.v1:mcdm.heroes.v1/condition/taunted) by your companion. An enemy in both areas is [taunted](scc.v1:mcdm.heroes.v1/condition/taunted) only by you.
 feature_type: ability
 file_basename: all-of-you-versus-all-of-me
 file_dpath: feature/ability/beastheart/level-1
@@ -19,7 +23,6 @@ level: "1"
 name: All of You Versus All of Me
 scc: mcdm.beastheart.v1/feature.ability.beastheart.level-1/all-of-you-versus-all-of-me
 source: mcdm.beastheart.v1
-spend: '1 Ferocity: This ability also affects a 3 burst originating from your companion. Targets in this second area are [taunted](scc.v1:mcdm.heroes.v1/condition/taunted) by your companion. An enemy in both areas is [taunted](scc.v1:mcdm.heroes.v1/condition/taunted) only by you.'
 target: Each enemy in the area
 type: ability
 ---
@@ -29,8 +32,9 @@ cost: 5 Ferocity
 distance: 3 burst
 effects:
     - effect: You can spend a Recovery and gain 3 temporary Stamina for each target. Each target is [taunted](scc.v1:mcdm.heroes.v1/condition/taunted) by you until the end of their next turn.
-    - effect: '1 Ferocity: This ability also affects a 3 burst originating from your companion. Targets in this second area are [taunted](scc.v1:mcdm.heroes.v1/condition/taunted) by your companion. An enemy in both areas is [taunted](scc.v1:mcdm.heroes.v1/condition/taunted) only by you.'
-      name: Spend
+      name: Effect
+    - cost: Spend 1 Ferocity
+      effect: This ability also affects a 3 burst originating from your companion. Targets in this second area are [taunted](scc.v1:mcdm.heroes.v1/condition/taunted) by your companion. An enemy in both areas is [taunted](scc.v1:mcdm.heroes.v1/condition/taunted) only by you.
 feature_type: ability
 flavor: Let all of them come forward and shatter themselves against your might!
 keywords:
@@ -41,7 +45,11 @@ metadata:
     class: beastheart
     cost: 5 Ferocity
     distance: 3 burst
-    effect: You can spend a Recovery and gain 3 temporary Stamina for each target. Each target is [taunted](scc.v1:mcdm.heroes.v1/condition/taunted) by you until the end of their next turn.
+    effects:
+        - effect: You can spend a Recovery and gain 3 temporary Stamina for each target. Each target is [taunted](scc.v1:mcdm.heroes.v1/condition/taunted) by you until the end of their next turn.
+          name: Effect
+        - cost: Spend 1 Ferocity
+          effect: This ability also affects a 3 burst originating from your companion. Targets in this second area are [taunted](scc.v1:mcdm.heroes.v1/condition/taunted) by your companion. An enemy in both areas is [taunted](scc.v1:mcdm.heroes.v1/condition/taunted) only by you.
     flavor: Let all of them come forward and shatter themselves against your might!
     keywords:
         - Area
@@ -49,7 +57,6 @@ metadata:
     level: "1"
     name: All of You Versus All of Me
     scc: mcdm.beastheart.v1/feature.ability.beastheart.level-1/all-of-you-versus-all-of-me
-    spend: '1 Ferocity: This ability also affects a 3 burst originating from your companion. Targets in this second area are [taunted](scc.v1:mcdm.heroes.v1/condition/taunted) by your companion. An enemy in both areas is [taunted](scc.v1:mcdm.heroes.v1/condition/taunted) only by you.'
     target: Each enemy in the area
     type: ability
 name: All of You Versus All of Me

@@ -5,7 +5,13 @@ cost: 3 Discipline
 cost_amount: "3"
 cost_resource: Discipline
 distance: '[Melee](../../../../rule/combat/melee.md) 1'
-effect: Until the start of your next [turn](../../../../rule/combat/turn.md), whenever the target finishes moving or being [force moved](../../../../movement/forced-movement.md), you can use a free [triggered action](../../../../rule/combat/triggered-action.md) to [shift](../../../../movement/shifting.md) up to your [speed](../../../../rule/character/speed.md). You must end this [shift](../../../../movement/shifting.md) [adjacent](../../../../rule/combat/adjacent.md) to the target.
+effects:
+    - roll: Power Roll + [Agility](../../../../rule/character/agility.md)
+      tier1: 6 + A damage
+      tier2: 8 + A damage
+      tier3: 12 + A damage
+    - effect: Until the start of your next [turn](../../../../rule/combat/turn.md), whenever the target finishes moving or being [force moved](../../../../movement/forced-movement.md), you can use a free [triggered action](../../../../rule/combat/triggered-action.md) to [shift](../../../../movement/shifting.md) up to your [speed](../../../../rule/character/speed.md). You must end this [shift](../../../../movement/shifting.md) [adjacent](../../../../rule/combat/adjacent.md) to the target.
+      name: Effect
 feature_type: ability
 file_basename: relentless-nemesis
 file_dpath: feature/ability/null/level-1
@@ -33,11 +39,12 @@ type: ability
 cost: 3 Discipline
 distance: '[Melee](../../../../rule/combat/melee.md) 1'
 effects:
-    - effect: Until the start of your next [turn](../../../../rule/combat/turn.md), whenever the target finishes moving or being [force moved](../../../../movement/forced-movement.md), you can use a free [triggered action](../../../../rule/combat/triggered-action.md) to [shift](../../../../movement/shifting.md) up to your [speed](../../../../rule/character/speed.md). You must end this [shift](../../../../movement/shifting.md) [adjacent](../../../../rule/combat/adjacent.md) to the target.
     - roll: Power Roll + [Agility](../../../../rule/character/agility.md)
       tier1: 6 + A damage
       tier2: 8 + A damage
       tier3: 12 + A damage
+    - effect: Until the start of your next [turn](../../../../rule/combat/turn.md), whenever the target finishes moving or being [force moved](../../../../movement/forced-movement.md), you can use a free [triggered action](../../../../rule/combat/triggered-action.md) to [shift](../../../../movement/shifting.md) up to your [speed](../../../../rule/character/speed.md). You must end this [shift](../../../../movement/shifting.md) [adjacent](../../../../rule/combat/adjacent.md) to the target.
+      name: Effect
 feature_type: ability
 flavor: You strike, and for the next few moments, your enemy can't escape you.
 keywords:
@@ -50,7 +57,13 @@ metadata:
     class: "null"
     cost: 3 Discipline
     distance: '[Melee](../../../../rule/combat/melee.md) 1'
-    effect: Until the start of your next [turn](../../../../rule/combat/turn.md), whenever the target finishes moving or being [force moved](../../../../movement/forced-movement.md), you can use a free [triggered action](../../../../rule/combat/triggered-action.md) to [shift](../../../../movement/shifting.md) up to your [speed](../../../../rule/character/speed.md). You must end this [shift](../../../../movement/shifting.md) [adjacent](../../../../rule/combat/adjacent.md) to the target.
+    effects:
+        - roll: Power Roll + [Agility](../../../../rule/character/agility.md)
+          tier1: 6 + A damage
+          tier2: 8 + A damage
+          tier3: 12 + A damage
+        - effect: Until the start of your next [turn](../../../../rule/combat/turn.md), whenever the target finishes moving or being [force moved](../../../../movement/forced-movement.md), you can use a free [triggered action](../../../../rule/combat/triggered-action.md) to [shift](../../../../movement/shifting.md) up to your [speed](../../../../rule/character/speed.md). You must end this [shift](../../../../movement/shifting.md) [adjacent](../../../../rule/combat/adjacent.md) to the target.
+          name: Effect
     flavor: You strike, and for the next few moments, your enemy can't escape you.
     keywords:
         - '[Melee](../../../../rule/combat/melee.md)'

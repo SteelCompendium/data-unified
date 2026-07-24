@@ -5,7 +5,13 @@ cost: 9 Discipline
 cost_amount: "9"
 cost_resource: Discipline
 distance: Self; see below
-effect: You can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to your [speed](scc.v1:mcdm.heroes.v1/rule.character/speed), and squares occupied by enemies or objects are not [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain) for this [shift](scc.v1:mcdm.heroes.v1/movement/shifting). You make one [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) that targets each enemy you moved through during this [shift](scc.v1:mcdm.heroes.v1/movement/shifting).
+effects:
+    - effect: You can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to your [speed](scc.v1:mcdm.heroes.v1/rule.character/speed), and squares occupied by enemies or objects are not [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain) for this [shift](scc.v1:mcdm.heroes.v1/movement/shifting). You make one [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) that targets each enemy you moved through during this [shift](scc.v1:mcdm.heroes.v1/movement/shifting).
+      name: Effect
+    - roll: Power Roll + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)
+      tier1: 6 damage; M < WEAK, [dazed](scc.v1:mcdm.heroes.v1/condition/dazed)
+      tier2: 8 damage; M < AVERAGE, [dazed](scc.v1:mcdm.heroes.v1/condition/dazed)
+      tier3: 12 damage; M < STRONG, [dazed](scc.v1:mcdm.heroes.v1/condition/dazed)
 feature_type: ability
 file_basename: phase-step
 file_dpath: feature/ability/null/level-6
@@ -34,6 +40,7 @@ cost: 9 Discipline
 distance: Self; see below
 effects:
     - effect: You can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to your [speed](scc.v1:mcdm.heroes.v1/rule.character/speed), and squares occupied by enemies or objects are not [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain) for this [shift](scc.v1:mcdm.heroes.v1/movement/shifting). You make one [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) that targets each enemy you moved through during this [shift](scc.v1:mcdm.heroes.v1/movement/shifting).
+      name: Effect
     - roll: Power Roll + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)
       tier1: 6 damage; M < WEAK, [dazed](scc.v1:mcdm.heroes.v1/condition/dazed)
       tier2: 8 damage; M < AVERAGE, [dazed](scc.v1:mcdm.heroes.v1/condition/dazed)
@@ -49,7 +56,13 @@ metadata:
     class: "null"
     cost: 9 Discipline
     distance: Self; see below
-    effect: You can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to your [speed](scc.v1:mcdm.heroes.v1/rule.character/speed), and squares occupied by enemies or objects are not [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain) for this [shift](scc.v1:mcdm.heroes.v1/movement/shifting). You make one [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) that targets each enemy you moved through during this [shift](scc.v1:mcdm.heroes.v1/movement/shifting).
+    effects:
+        - effect: You can [shift](scc.v1:mcdm.heroes.v1/movement/shifting) up to your [speed](scc.v1:mcdm.heroes.v1/rule.character/speed), and squares occupied by enemies or objects are not [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain) for this [shift](scc.v1:mcdm.heroes.v1/movement/shifting). You make one [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) that targets each enemy you moved through during this [shift](scc.v1:mcdm.heroes.v1/movement/shifting).
+          name: Effect
+        - roll: Power Roll + [Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)
+          tier1: 6 damage; M < WEAK, [dazed](scc.v1:mcdm.heroes.v1/condition/dazed)
+          tier2: 8 damage; M < AVERAGE, [dazed](scc.v1:mcdm.heroes.v1/condition/dazed)
+          tier3: 12 damage; M < STRONG, [dazed](scc.v1:mcdm.heroes.v1/condition/dazed)
     flavor: You weaken your connection to this manifold, allowing you to move through and damage enemies.
     keywords:
         - '[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee)'

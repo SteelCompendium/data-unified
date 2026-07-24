@@ -5,7 +5,13 @@ cost: 11 Piety
 cost_amount: "11"
 cost_resource: Piety
 distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
-effect: While [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) this way, the target has [damage weakness](scc.v1:mcdm.heroes.v1/rule.damage/damage-weakness) 10.
+effects:
+    - roll: Power Roll + [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)
+      tier1: 10 + I corruption damage; A < WEAK, [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+      tier2: 15 + I corruption damage; A < AVERAGE, [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+      tier3: 21 + I corruption damage; A < STRONG, [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+    - effect: While [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) this way, the target has [damage weakness](scc.v1:mcdm.heroes.v1/rule.damage/damage-weakness) 10.
+      name: Effect
 feature_type: ability
 file_basename: word-of-weakening
 file_dpath: feature/ability/conduit/level-9
@@ -33,11 +39,12 @@ type: ability
 cost: 11 Piety
 distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
 effects:
-    - effect: While [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) this way, the target has [damage weakness](scc.v1:mcdm.heroes.v1/rule.damage/damage-weakness) 10.
     - roll: Power Roll + [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)
       tier1: 10 + I corruption damage; A < WEAK, [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
       tier2: 15 + I corruption damage; A < AVERAGE, [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
       tier3: 21 + I corruption damage; A < STRONG, [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+    - effect: While [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) this way, the target has [damage weakness](scc.v1:mcdm.heroes.v1/rule.damage/damage-weakness) 10.
+      name: Effect
 feature_type: ability
 flavor: You utter a divine word that makes a foe brittle.
 keywords:
@@ -49,7 +56,13 @@ metadata:
     class: conduit
     cost: 11 Piety
     distance: '[Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10'
-    effect: While [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) this way, the target has [damage weakness](scc.v1:mcdm.heroes.v1/rule.damage/damage-weakness) 10.
+    effects:
+        - roll: Power Roll + [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)
+          tier1: 10 + I corruption damage; A < WEAK, [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+          tier2: 15 + I corruption damage; A < AVERAGE, [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+          tier3: 21 + I corruption damage; A < STRONG, [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) (save ends)
+        - effect: While [weakened](scc.v1:mcdm.heroes.v1/condition/weakened) this way, the target has [damage weakness](scc.v1:mcdm.heroes.v1/rule.damage/damage-weakness) 10.
+          name: Effect
     flavor: You utter a divine word that makes a foe brittle.
     keywords:
         - Magic
