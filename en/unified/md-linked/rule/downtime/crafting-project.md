@@ -232,22 +232,6 @@ You can use an absorbed ability as if you knew it, making [power rolls](../dice/
 
 **Devil's Bargain:** You can [fly](../../movement/fly.md). Additionally, if an effect would make you [prone](../../condition/prone.md) while [flying](../../movement/fly.md), you can choose to not make you [prone](../../condition/prone.md) by losing [Stamina](../health/stamina.md) equal to the [distance](../combat/distance.md) you would have fallen from make you [prone](../../condition/prone.md).
 
-**Dragon Soul II:** While you are [winded](../health/winded.md), your head transforms into a dragon's head and you have the following ability.
-
-#### Dragon's Fire {data-scc="mcdm.heroes.v1/feature.ability.common/dragons-fire"}
-
-*You open your maw and unleash hell.*
-
-| **Area, Magic**            |               **Main action** |
-|----------------------------|------------------------------:|
-| **📏 5 x 1 line within 1** | **🎯 Each enemy in the area** |
-
-**[Power Roll](../dice/power-roll.md) + Your Highest [Characteristic](../character/characteristic.md) Score:**
-
-- **≤11:** 5 fire damage
-- **12-16:** 8 fire damage
-- **17+:** 11 fire damage
-
 **Invulnerable:** When an [ability roll](../dice/ability-roll.md) made against you obtains a tier 1 outcome, you can ignore its damage and effects.
 
 **Leyline Walker:** Once per [turn](../combat/turn.md) as a move action, you can spend any amount of your movement to instead [teleport](../../movement/teleport.md) that [distance](../combat/distance.md).
@@ -265,6 +249,22 @@ You can use an absorbed ability as if you knew it, making [power rolls](../dice/
 On your [turn](../combat/turn.md), you can [teleport](../../movement/teleport.md) to the imprint's space as a [free maneuver](../combat/free-maneuver.md). When you are targeted by an ability, you can use a free [triggered action](../combat/triggered-action.md) to [teleport](../../movement/teleport.md) to your imprint, and the [power roll](../dice/power-roll.md) for the ability is an automatic tier 1 result.
 
 **Unbending:** You can't be subjected to [forced movement](../../movement/forced-movement.md) unless you choose to be. Effects that ignore [Stability](../character/stability.md) also ignore this [enhancement](../treasure/enhancement.md).
+
+**Dragon Soul II:** While you are [winded](../health/winded.md), your head transforms into a dragon's head and you have the following ability.
+
+#### Dragon's Fire {data-scc="mcdm.heroes.v1/feature.ability.common/dragons-fire"}
+
+*You open your maw and unleash hell.*
+
+| **Area, Magic**            |               **Main action** |
+|----------------------------|------------------------------:|
+| **📏 5 x 1 line within 1** | **🎯 Each enemy in the area** |
+
+**[Power Roll](../dice/power-roll.md) + Your Highest [Characteristic](../character/characteristic.md) Score:**
+
+- **≤11:** 5 fire damage
+- **12-16:** 8 fire damage
+- **17+:** 11 fire damage
 
 #### 9th-Level Armor Enhancements Table
 

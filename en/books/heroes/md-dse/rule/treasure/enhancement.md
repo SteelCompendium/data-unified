@@ -128,6 +128,24 @@ You can use an absorbed ability as if you knew it, making [power rolls](scc.v1:m
 
 **Devil's Bargain:** You can [fly](scc.v1:mcdm.heroes.v1/movement/fly). Additionally, if an effect would make you [prone](scc.v1:mcdm.heroes.v1/condition/prone) while [flying](scc.v1:mcdm.heroes.v1/movement/fly), you can choose to not make you [prone](scc.v1:mcdm.heroes.v1/condition/prone) by losing [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) equal to the [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance) you would have fallen from make you [prone](scc.v1:mcdm.heroes.v1/condition/prone).
 
+**Invulnerable:** When an [ability roll](scc.v1:mcdm.heroes.v1/rule.dice/ability-roll) made against you obtains a tier 1 outcome, you can ignore its damage and effects.
+
+**Leyline Walker:** Once per [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) as a move action, you can spend any amount of your movement to instead [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) that [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance).
+
+**Life:** Whenever you would die, you can spend a [Recovery](scc.v1:mcdm.heroes.v1/rule.health/recoveries) to regain [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) instead. If you have no [Recoveries](scc.v1:mcdm.heroes.v1/rule.health/recoveries) to spend, you die.
+
+**Magic Resistance III:** The benefit of the armor's Magic Resistance II [enhancement](scc.v1:mcdm.heroes.v1/rule.treasure/enhancement) extends to each ally within 3 squares of you.
+
+**Phasing III:** Your movement doesn't provoke [opportunity attacks](scc.v1:mcdm.heroes.v1/rule.combat/opportunity-attack), and you can move through the space of any enemy as if they were an ally. You can't end your [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) in an enemy's space.
+
+**Psionic Resistance III:** The benefit of the armor's Psionic Resistance II [enhancement](scc.v1:mcdm.heroes.v1/rule.treasure/enhancement) extends to each ally within 3 squares of you.
+
+**Temporal Flux:** Whenever you move out of a square, you can choose to leave an imprint behind that lasts until the end of the encounter, until your imprint takes 20 or more damage, or until you create a new imprint. The square is occupied by your imprint, and you can share that space with it.
+
+On your [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), you can [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) to the imprint's space as a [free maneuver](scc.v1:mcdm.heroes.v1/rule.combat/free-maneuver). When you are targeted by an ability, you can use a free [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action) to [teleport](scc.v1:mcdm.heroes.v1/movement/teleport) to your imprint, and the [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) for the ability is an automatic tier 1 result.
+
+**Unbending:** You can't be subjected to [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) unless you choose to be. Effects that ignore [Stability](scc.v1:mcdm.heroes.v1/rule.character/stability) also ignore this [enhancement](scc.v1:mcdm.heroes.v1/rule.treasure/enhancement).
+
 **Dragon Soul II:** While you are [winded](scc.v1:mcdm.heroes.v1/rule.health/winded), your head transforms into a dragon's head and you have the following ability.
 
 ###### 9th-Level Armor Enhancements Table

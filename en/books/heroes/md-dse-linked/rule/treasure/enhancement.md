@@ -128,6 +128,24 @@ You can use an absorbed ability as if you knew it, making [power rolls](../dice/
 
 **Devil's Bargain:** You can [fly](../../movement/fly.md). Additionally, if an effect would make you [prone](../../condition/prone.md) while [flying](../../movement/fly.md), you can choose to not make you [prone](../../condition/prone.md) by losing [Stamina](../health/stamina.md) equal to the [distance](../combat/distance.md) you would have fallen from make you [prone](../../condition/prone.md).
 
+**Invulnerable:** When an [ability roll](../dice/ability-roll.md) made against you obtains a tier 1 outcome, you can ignore its damage and effects.
+
+**Leyline Walker:** Once per [turn](../combat/turn.md) as a move action, you can spend any amount of your movement to instead [teleport](../../movement/teleport.md) that [distance](../combat/distance.md).
+
+**Life:** Whenever you would die, you can spend a [Recovery](../health/recoveries.md) to regain [Stamina](../health/stamina.md) instead. If you have no [Recoveries](../health/recoveries.md) to spend, you die.
+
+**Magic Resistance III:** The benefit of the armor's Magic Resistance II [enhancement](enhancement.md) extends to each ally within 3 squares of you.
+
+**Phasing III:** Your movement doesn't provoke [opportunity attacks](../combat/opportunity-attack.md), and you can move through the space of any enemy as if they were an ally. You can't end your [turn](../combat/turn.md) in an enemy's space.
+
+**Psionic Resistance III:** The benefit of the armor's Psionic Resistance II [enhancement](enhancement.md) extends to each ally within 3 squares of you.
+
+**Temporal Flux:** Whenever you move out of a square, you can choose to leave an imprint behind that lasts until the end of the encounter, until your imprint takes 20 or more damage, or until you create a new imprint. The square is occupied by your imprint, and you can share that space with it.
+
+On your [turn](../combat/turn.md), you can [teleport](../../movement/teleport.md) to the imprint's space as a [free maneuver](../combat/free-maneuver.md). When you are targeted by an ability, you can use a free [triggered action](../combat/triggered-action.md) to [teleport](../../movement/teleport.md) to your imprint, and the [power roll](../dice/power-roll.md) for the ability is an automatic tier 1 result.
+
+**Unbending:** You can't be subjected to [forced movement](../../movement/forced-movement.md) unless you choose to be. Effects that ignore [Stability](../character/stability.md) also ignore this [enhancement](enhancement.md).
+
 **Dragon Soul II:** While you are [winded](../health/winded.md), your head transforms into a dragon's head and you have the following ability.
 
 ###### 9th-Level Armor Enhancements Table
