@@ -1,6 +1,6 @@
 # Rule Index
 
-Total: 152
+Total: 153
 
 - [Ability Keywords](../rule/general/ability.md)
 - [Ability Roll](../rule/dice/ability-roll.md)
@@ -33,6 +33,7 @@ Total: 152
 - [Controller](../rule/role/controller.md)
 - [Cover](../rule/combat/cover.md)
 - [Crafting Projects](../rule/downtime/crafting-project.md)
+- [Crafting and Research Events Table](../rule/downtime/crafting-and-research-events-table.md)
 - [Creature Free Strikes](../rule/monster/creature-free-strike.md)
 - [Creatures and Objects](../rule/general/creature.md)
 - [Critical Hit](../rule/combat/critical-hit.md)

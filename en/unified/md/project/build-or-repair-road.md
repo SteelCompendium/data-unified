@@ -20,6 +20,14 @@ When you complete the project, you earn [Renown](scc.v1:mcdm.heroes.v1/rule.reso
 
 Time spent traveling between locations on the road is cut in half. Access to resources and knowledge is improved in locations along the road, giving you and your allies an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on [project rolls](scc.v1:mcdm.heroes.v1/rule.downtime/project-roll) to discover lore while you are in those areas.
 
+###### Build or Repair Road Renown Table
+
+| Length              | [Renown](scc.v1:mcdm.heroes.v1/rule.resource/renown) Earned |
+|---------------------|---------------|
+| 50 miles or less    | 1             |
+| 51-100 miles        | 2             |
+| More than 100 miles | 3             |
+
 ###### Build or Repair Roads Events Table
 
 | d10 | Event                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
