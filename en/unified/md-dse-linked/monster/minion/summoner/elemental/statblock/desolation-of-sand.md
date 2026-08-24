@@ -49,6 +49,13 @@ features:
       icon: ⭐️
       name: Sand Through Your Fingers
       type: feature
+    - cost: 1 Essence
+      effects:
+        - effect: When the desolation is reduced to 0 [Stamina](../../../../../rule/health/stamina.md), the area within 1 square of the desolation becomes [difficult terrain](../../../../../movement/difficult-terrain.md) for enemies until the end of the encounter. You or an ally that enters the affected area can immediately [shift](../../../../../movement/shifting.md) 3.
+      feature_type: trait
+      icon: ⭐️
+      name: Shifting Sand Pit
+      type: feature
 flavor: The desolations have vaguely humanoid sand forms with no legs. Their glass hose “arms” shift and bristle before firing high pressure streams of sand at their foes.
 free_strike: 4
 immunities:

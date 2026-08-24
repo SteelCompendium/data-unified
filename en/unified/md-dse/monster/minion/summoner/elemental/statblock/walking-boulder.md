@@ -40,6 +40,13 @@ features:
       icon: ⭐️
       name: Obstruct
       type: feature
+    - cost: 1 Essence
+      effects:
+        - effect: When one or more boulders is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), they each leave behind a stone [wall](scc.v1:mcdm.heroes.v1/rule.combat/wall) equal to their size in their space until the end of the encounter.
+      feature_type: trait
+      icon: ⭐️
+      name: Pile Up
+      type: feature
 flavor: These massive clods of animated stone roll upon smaller piles of rocks that could be perceived as limbs. Walking boulders are useful for taking up space and forming barricades.
 free_strike: 1
 immunities: []

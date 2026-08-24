@@ -97,7 +97,7 @@ The silks are akin to baby spiders ballooning through the air on strands of webb
 >
 > The silk's ranged [free strikes](../../common/main-actions/free-strike.md) inflict A < AVERAGE [restrained](../../../condition/restrained.md) (EoT). Each creature [adjacent](../../../rule/combat/adjacent.md) to the target is A < WEAK [slowed](../../../condition/slowed.md) (EoT).
 
-> ⭐️ **Web** 1 Essence
+> ⭐️ **Web (1 Essence)**
 >
 > When the silk is reduced to 0 [Stamina](../../../rule/health/stamina.md), they launch ribbons of webbing into an area equal to their [size](../../../rule/character/size.md) + 1 within 5 before being destroyed. The affected area is considered [difficult terrain](../../../movement/difficult-terrain.md) for enemies until the end of the encounter. An enemy that ends their [turn](../../../rule/combat/turn.md) in the webbing is M < STRONG [slowed](../../../condition/slowed.md) (EoT).
 
@@ -115,7 +115,7 @@ The manes of these equine sludge dwellers extend and hook into things like stron
 >
 > The principle's melee [free strikes](../../common/main-actions/free-strike.md) have a distance of R and inflict M < STRONG [grabbed](../../../condition/grabbed.md). The principle can have an unlimited number of creatures or objects [grabbed](../../../condition/grabbed.md). A creature [grabbed](../../../condition/grabbed.md) by this [strike](../../../rule/combat/strike.md) still has their normal [speed](../../../rule/character/speed.md), but can't move farther away from the principle.
 
-> ⭐️ **Sludgefoot** 1 Essence
+> ⭐️ **Sludgefoot (1 Essence)**
 >
 > When the principle is reduced to 0 [Stamina](../../../rule/health/stamina.md), the area within 1 square of the principle becomes [difficult terrain](../../../movement/difficult-terrain.md) for enemies until the end of the encounter. An enemy that ends their [turn](../../../rule/combat/turn.md) in the affected area is pulled 4 toward the center of the area.
 

@@ -34,7 +34,7 @@ These massive clods of animated stone roll upon smaller piles of rocks that coul
 >
 > The boulder obstructs [line of effect](../../../../../rule/combat/line-of-effect.md) for enemies.
 
-> ⭐️ **Pile Up** 1 Essence
+> ⭐️ **Pile Up (1 Essence)**
 >
 > When one or more boulders is reduced to 0 [Stamina](../../../../../rule/health/stamina.md), they each leave behind a stone [wall](../../../../../rule/combat/wall.md) equal to their size in their space until the end of the encounter.
 

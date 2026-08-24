@@ -218,7 +218,7 @@ These massive clods of animated stone roll upon smaller piles of rocks that coul
 >
 > The boulder obstructs [line of effect](../../../rule/combat/line-of-effect.md) for enemies.
 
-> ⭐️ **Pile Up** 1 Essence
+> ⭐️ **Pile Up (1 Essence)**
 >
 > When one or more boulders is reduced to 0 [Stamina](../../../rule/health/stamina.md), they each leave behind a stone [wall](../../../rule/combat/wall.md) equal to their size in their space until the end of the encounter.
 
@@ -244,7 +244,7 @@ The crux is a curtain of billowing hot ash with an avian head. They cover their 
 >
 > The crux's melee [free strikes](../../common/main-actions/free-strike.md) M < AVERAGE automatically [hide](../../common/maneuvers/hide.md) each ally from the target until the start of the crux's next turn, until the target uses a [maneuver](../../../rule/combat/turn.md) to clear the soot, until the crux takes damage, or until the crux is destroyed.
 
-> ⭐️ **Ashen Cloud** 1 Essence
+> ⭐️ **Ashen Cloud (1 Essence)**
 >
 > When the crux is reduced to 0 [Stamina](../../../rule/health/stamina.md), the area within 1 square of the crux is clouded by ash until it is dispersed by wind. You or any ally are [concealed](../../../rule/combat/concealment.md) while occupying an affected square. An enemy can't establish [line of effect](../../../rule/combat/line-of-effect.md) beyond the ash while occupying an affected square.
 
@@ -272,7 +272,7 @@ This elemental is a long, serpentine creature of heated rock. Flows of magma dro
 >
 > **Effect:** Each square that the flow [shifts](../../../movement/shifting.md) into becomes wreathed in flames until the start of the flow's next turn. An enemy that enters an affected square takes 2 damage.
 
-> ⭐️ **Eruption** 1 Essence
+> ⭐️ **Eruption (1 Essence)**
 >
 > When the flow is reduced to 0 [Stamina](../../../rule/health/stamina.md), they launch lava into an area equal to 1 + their size within 5 squares. The affected area becomes [difficult terrain](../../../movement/difficult-terrain.md) for enemies until the end of the encounter. An enemy that enters an affected square or starts their turn there takes A < AVERAGE 4 fire damage.
 
@@ -294,7 +294,7 @@ The desolations have vaguely humanoid sand forms with no legs. Their glass hose 
 >
 > The desolation doesn't provoke [opportunity attacks](../../../rule/combat/opportunity-attack.md) by moving.
 
-> ⭐️ **Shifting Sand Pit** 1 Essence
+> ⭐️ **Shifting Sand Pit (1 Essence)**
 >
 > When the desolation is reduced to 0 [Stamina](../../../rule/health/stamina.md), the area within 1 square of the desolation becomes [difficult terrain](../../../movement/difficult-terrain.md) for enemies until the end of the encounter. You or an ally that enters the affected area can immediately [shift](../../../movement/shifting.md) 3.
 

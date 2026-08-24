@@ -49,6 +49,13 @@ features:
       icon: ⭐️
       name: Bladed Strike
       type: feature
+    - cost: 1 Essence
+      effects:
+        - effect: When the reaver is reduced to 0 [Stamina](../../../../../rule/health/stamina.md), they create a line equal to 2 × their [size](../../../../../rule/character/size.md) centered on their space of iron shards on the ground until the end of the encounter. You or any ally has [cover](../../../../../rule/combat/cover.md) and [damage immunity](../../../../../rule/damage/damage-immunity.md) 2 while occupying an affected square.
+      feature_type: trait
+      icon: ⭐️
+      name: Iron Barricade
+      type: feature
 flavor: Iron reavers are long, gnashing lines of centipede-like bladed legs. Their bodies endlessly shed metal shavings and hard sheets of iron as they move.
 free_strike: 6
 immunities:

@@ -41,6 +41,6 @@ Iron reavers are long, gnashing lines of centipede-like bladed legs. Their bodie
 >
 > The reaver's [free strikes](../../../../../feature/common/main-actions/free-strike.md) inflict M < WEAK [bleeding](../../../../../condition/bleeding.md) (save ends). Each time the reaver inflicts [bleeding](../../../../../condition/bleeding.md) on a creature, they can [shift](../../../../../movement/shifting.md) 2 and make an additional [free strike](../../../../../feature/common/main-actions/free-strike.md) on a new target.
 
-> ⭐️ **Iron Barricade** 1 Essence
+> ⭐️ **Iron Barricade (1 Essence)**
 >
 > When the reaver is reduced to 0 [Stamina](../../../../../rule/health/stamina.md), they create a line equal to 2 × their [size](../../../../../rule/character/size.md) centered on their space of iron shards on the ground until the end of the encounter. You or any ally has [cover](../../../../../rule/combat/cover.md) and [damage immunity](../../../../../rule/damage/damage-immunity.md) 2 while occupying an affected square.

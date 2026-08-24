@@ -49,24 +49,6 @@ features:
       icon: ⭐️
       name: Frenzy
       type: feature
-    - effects:
-        - effect: The Aspect is now size 3.
-      feature_type: trait
-      icon: ⭐️
-      name: Size Increase
-      type: feature
-    - distance: 20 burst
-      effects:
-        - effect: |-
-            **Champion Action**
-            **Effect:** Each target [teleports](scc.v1:mcdm.heroes.v1/movement/teleport) up to their [speed](scc.v1:mcdm.heroes.v1/rule.character/speed) and makes a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike). If a target has a [Save Ends](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) [condition](scc.v1:mcdm.heroes.v1/rule.combat/condition), they can inflict the [condition](scc.v1:mcdm.heroes.v1/rule.combat/condition) onto a creature with their [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) and end the [condition](scc.v1:mcdm.heroes.v1/rule.combat/condition) on themself.
-      feature_type: ability
-      icon: ❗️
-      keywords: []
-      name: Reality Flense
-      target: Self and each non-minion ally in the area
-      type: feature
-      usage: 1 Eidos
 flavor: 'Stamina: Your maximum Stamina'
 free_strike: 9
 immunities:

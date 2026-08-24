@@ -38,6 +38,6 @@ The manes of these equine sludge dwellers extend and hook into things like stron
 >
 > The principle's melee [free strikes](../../../../../feature/common/main-actions/free-strike.md) have a distance of R and inflict M < STRONG [grabbed](../../../../../condition/grabbed.md). The principle can have an unlimited number of creatures or objects [grabbed](../../../../../condition/grabbed.md). A creature [grabbed](../../../../../condition/grabbed.md) by this [strike](../../../../../rule/combat/strike.md) still has their normal [speed](../../../../../rule/character/speed.md), but can't move farther away from the principle.
 
-> ⭐️ **Sludgefoot** 1 Essence
+> ⭐️ **Sludgefoot (1 Essence)**
 >
 > When the principle is reduced to 0 [Stamina](../../../../../rule/health/stamina.md), the area within 1 square of the principle becomes [difficult terrain](../../../../../movement/difficult-terrain.md) for enemies until the end of the encounter. An enemy that ends their [turn](../../../../../rule/combat/turn.md) in the affected area is pulled 4 toward the center of the area.

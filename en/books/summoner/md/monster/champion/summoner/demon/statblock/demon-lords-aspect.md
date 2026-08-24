@@ -68,19 +68,3 @@ Stamina: Your maximum Stamina
 > ⭐️ **Frenzy**
 >
 > When the Aspect is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), they make a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) against each [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) enemy before [dying](scc.v1:mcdm.heroes.v1/rule.health/dying).
-
-> **Level 10 Champion Advancement Feature**
->
-> ⭐️ **Size Increase**
->
-> The Aspect is now size 3.
->
-> ❗️ **Reality Flense**
->
-> | **—** | **1 Eidos** |
-> |-------|------------:|
-> | **📏 20 burst** | **🎯 Self and each non-minion ally in the area** |
->
-> **Champion Action**
->
-> **Effect:** Each target [teleports](scc.v1:mcdm.heroes.v1/movement/teleport) up to their [speed](scc.v1:mcdm.heroes.v1/rule.character/speed) and makes a [free strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike). If a target has a [Save Ends](scc.v1:mcdm.heroes.v1/rule.general/saving-throw) [condition](scc.v1:mcdm.heroes.v1/rule.combat/condition), they can inflict the [condition](scc.v1:mcdm.heroes.v1/rule.combat/condition) onto a creature with their [strike](scc.v1:mcdm.heroes.v1/rule.combat/strike) and end the [condition](scc.v1:mcdm.heroes.v1/rule.combat/condition) on themself.

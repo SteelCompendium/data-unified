@@ -48,6 +48,6 @@ This elemental is a long, serpentine creature of heated rock. Flows of magma dro
 >
 > **Effect:** Each square that the flow [shifts](scc.v1:mcdm.heroes.v1/movement/shifting) into becomes wreathed in flames until the start of the flow's next turn. An enemy that enters an affected square takes 2 damage.
 
-> ⭐️ **Eruption** 1 Essence
+> ⭐️ **Eruption (1 Essence)**
 >
 > When the flow is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), they launch lava into an area equal to 1 + their size within 5 squares. The affected area becomes [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain) for enemies until the end of the encounter. An enemy that enters an affected square or starts their turn there takes A < AVERAGE 4 fire damage.

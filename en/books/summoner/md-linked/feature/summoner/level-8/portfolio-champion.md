@@ -74,19 +74,19 @@ Stamina: Your maximum Stamina
 >
 > When the Aspect is reduced to 0 [Stamina](../../../rule/health/stamina.md), they make a [free strike](../../common/main-actions/free-strike.md) against each [adjacent](../../../rule/combat/adjacent.md) enemy before [dying](../../../rule/health/dying.md).
 
+### Demon Lord's Aspect Advancement Features {data-scc="mcdm.summoner.v1/monster.champion.summoner.demon.advancement-features/demon-lords-aspect"}
+
 > **Level 10 Champion Advancement Feature**
 >
 > ⭐️ **Size Increase**
 >
 > The Aspect is now size 3.
 >
-> ❗️ **Reality Flense**
+> ❗️ **Reality Flense (1 Eidos)**
 >
-> | **—** | **1 Eidos** |
-> |-------|------------:|
+> | **—** | **Champion Action** |
+> |-------|--------------------:|
 > | **📏 20 burst** | **🎯 Self and each non-minion ally in the area** |
->
-> **Champion Action**
 >
 > **Effect:** Each target [teleports](../../../movement/teleport.md) up to their [speed](../../../rule/character/speed.md) and makes a [free strike](../../common/main-actions/free-strike.md). If a target has a [Save Ends](../../../rule/general/saving-throw.md) [condition](../../../rule/combat/condition.md), they can inflict the [condition](../../../rule/combat/condition.md) onto a creature with their [strike](../../../rule/combat/strike.md) and end the [condition](../../../rule/combat/condition.md) on themself.
 
@@ -138,19 +138,19 @@ Stamina: Your maximum Stamina
 >
 > Once per [turn](../../../rule/combat/turn.md), the Portent can take 10 [damage](../../../rule/damage/damage.md) to allow you or an ally within your Summoner's Range to gain 1 [heroic resource](../../../rule/resource/heroic-resource.md). This [damage](../../../rule/damage/damage.md) can't be reduced in any way.
 
+### Dragon's Portent Advancement Features {data-scc="mcdm.summoner.v1/monster.champion.summoner.elemental.advancement-features/dragons-portent"}
+
 > **Level 10 Champion Advancement Feature**
 >
 > ⭐️ **Size Increase**
 >
 > The Portent is now size 3.
 >
-> ❗️ **A Breath Felt in a Hurricane**
+> ❗️ **A Breath Felt in a Hurricane (1 Eidos)**
 >
-> | **Area, Magic, Ranged** | **1 Eidos** |
-> |-------------------------|------------:|
+> | **Area, Magic, Ranged** | **Champion Action** |
+> |-------------------------|--------------------:|
 > | **📏 4 cube within 10** | **🎯 Each enemy and object in the area** |
->
-> **Champion Action**
 >
 > **Effect:** 9 affinity [damage](../../../rule/damage/damage.md). The [damage](../../../rule/damage/damage.md) ignores [immunity](../../../rule/damage/damage-immunity.md). The affected area becomes [difficult terrain](../../../movement/difficult-terrain.md). An enemy has affinity [weakness](../../../rule/damage/damage-weakness.md) 5 while occupying an affected square.
 
@@ -206,19 +206,19 @@ Stamina: Your maximum Stamina
 >
 > The Attendant starts their [turn](../../../rule/combat/turn.md) with [temporary Stamina](../../../rule/health/temporary-stamina.md) equal to 2 × the number of fey minions within 1 square of them. This [temporary Stamina](../../../rule/health/temporary-stamina.md) lasts until the start of their next [turn](../../../rule/combat/turn.md).
 
+### Celestial Attendant Advancement Features {data-scc="mcdm.summoner.v1/monster.champion.summoner.fey.advancement-features/celestial-attendant"}
+
 > **Level 10 Champion Advancement Feature**
 >
 > ⭐️ **Size Increase**
 >
 > The Attendant is now size 3.
 >
-> ❗️ **A Shower of Dust**
+> ❗️ **A Shower of Dust (1 Eidos)**
 >
-> | **—** | **1 Eidos** |
-> |-------|------------:|
+> | **—** | **Champion Action** |
+> |-------|--------------------:|
 > | **📏 20 burst** | **🎯 Self and each non-minion ally in the area** |
->
-> **Champion Action**
 >
 > **Effect:** Each target gains 20 [temporary Stamina](../../../rule/health/temporary-stamina.md) and receives the benefits of one of your [Flash Powder](../level-5/flash-powder.md) effects until the end of their next [turn](../../../rule/combat/turn.md).
 
@@ -274,18 +274,18 @@ Stamina: Your maximum Stamina
 >
 > The Avatar is unaffected by [difficult terrain](../../../movement/difficult-terrain.md) and [damage](../../../rule/damage/damage.md) from [forced movement](../../../movement/forced-movement.md).
 
+### Avatar of Death Advancement Features {data-scc="mcdm.summoner.v1/monster.champion.summoner.undead.advancement-features/avatar-of-death"}
+
 > **Level 10 Champion Advancement Feature**
 >
 > ⭐️ **Size Increase**
 >
 > The Avatar is now size 3.
 >
-> ❗️ **Gravemaker**
+> ❗️ **Gravemaker (1 Eidos)**
 >
-> | **Area, Magic, Ranged** | **1 Eidos** |
-> |-------------------------|------------:|
+> | **Area, Magic, Ranged** | **Champion Action** |
+> |-------------------------|--------------------:|
 > | **📏 5 × 3 line within 1** | **🎯 Each enemy and object in the line** |
->
-> **Champion Action**
 >
 > **Effect:** 9 holy [damage](../../../rule/damage/damage.md). Each target is vertically [pulled](../../../movement/forced-movement.md) a number of squares equal to their [size](../../../rule/character/size.md) straight down, ignoring [stability](../../../rule/character/stability.md). If the target would be [force moved](../../../movement/forced-movement.md) into the ground, they are buried beneath the ground instead.

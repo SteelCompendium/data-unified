@@ -4792,41 +4792,37 @@ The source starts an encounter at full [Stamina](../rule/health/stamina.md), but
 
 **Persistent 2:** The source takes another [turn](../rule/combat/turn.md). They are dismissed at the start of your next [turn](../rule/combat/turn.md).
 
+###### Source of Earth {data-scc="mcdm.heroes.v1/monster.summon.elementalist.statblock/source-of-earth"}
 
-###### Source of Earth Statblock
+|      Elemental      |           -            |      Level 8      |         Brute         |         EV -         |
+|:-------------------:|:----------------------:|:-----------------:|:---------------------:|:--------------------:|
+|    **2**<br>Size    |     **6**<br>Speed     | **45**<br>Stamina |  **5**<br>Stability   | **5**<br>Free Strike |
+|  **-**<br>Immunity  | **Burrow**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
+|   **+3**<br>Might   |   **+1**<br>Agility    | **-5**<br>Reason  |  **-5**<br>Intuition  |  **-3**<br>Presence  |
 
+> ⭐️ **Earthwalk**
 >
->**Source of Earth**
+> [Difficult terrain](../movement/difficult-terrain.md) composed of earth and stone doesn't cost the source extra movement.
+
+> ⭐️ **Tunneler**
 >
->|      Elemental      |           -            |      Level 8      |         BRUTE         |         EV -         |
->|:-------------------:|:----------------------:|:-----------------:|:---------------------:|:--------------------:|
->|    **2**<br>[Size](../rule/character/size.md)    |     **6**<br>[Speed](../rule/character/speed.md)     | **45**<br>[Stamina](../rule/health/stamina.md) |  **5**<br>[Stability](../rule/character/stability.md)   | **5**<br>[Free Strike](../feature/common/main-actions/free-strike.md) |
->| **-**<br>Immunities | **[Burrow](../movement/burrow.md)**<br>Movement |                   | **-**<br>With Captain | **-**<br>Weaknesses  |
->|   **+3**<br>[Might](../rule/character/might.md)   |   **+1**<br>[Agility](../rule/character/agility.md)    | **-5**<br>[Reason](../rule/character/reason.md)  |  **-5**<br>[Intuition](../rule/character/intuition.md)  |  **-3**<br>[Presence](../rule/character/presence.md)  |
+> When the source burrows, they create a [size](../rule/character/size.md) 2 tunnel.
+
+> ⭐️ **Earth Harness**
 >
->> **Earthwalk**
->>
->> [Difficult terrain](../movement/difficult-terrain.md) composed of earth and stone doesn't cost the source extra movement.
+> A creature that has the [Earth Accepts Me](../feature/ability/elementalist/level-3/earth-accepts-me.md) ability can use it as a free action to meld into the source.
+
+> 🗡 **Boulder Bash**
 >
->> **Tunneler**
->>
->> When the source burrows, they create a [size](../rule/character/size.md) 2 tunnel.
+> | **Melee, Ranged, Strike, Weapon** |                 **Signature** |
+> |-----------------------------------|------------------------------:|
+> | **📏 Melee 2 or ranged 10**       | **🎯 One creature or object** |
 >
->> **Earth Harness**
->>
->> A creature that has the [Earth Accepts Me](../feature/ability/elementalist/level-3/earth-accepts-me.md) ability can use it as a free action to meld into the source.
+> **Power Roll + 3:**
 >
->> **Boulder Bash**
->>
->> | **[Melee](../rule/combat/melee.md), [Ranged](../rule/combat/ranged.md), [Strike](../rule/combat/strike.md), Weapon** |                 **Signature** |
->> |-----------------------------------|------------------------------:|
->> | **📏 [Melee](../rule/combat/melee.md) 2 or [ranged](../rule/combat/ranged.md) 10**       | **🎯 One creature or object** |
->>
->> **[Power Roll](../rule/dice/power-roll.md) + 3:**
->>
->> - **≤11:** 5 damage; [push](../movement/forced-movement.md) 3
->> - **12-16:** 9 damage; [push](../movement/forced-movement.md) 4
->> - **17+:** 12 damage; [push](../movement/forced-movement.md) 5
+> - **≤11:** 5 damage; [push](../movement/forced-movement.md) 3
+> - **12-16:** 9 damage; [push](../movement/forced-movement.md) 4
+> - **17+:** 12 damage; [push](../movement/forced-movement.md) 5
 
 #### 11-Essence Ability {data-scc="mcdm.heroes.v1/feature.elementalist.level-8/11-essence-ability"}
 
@@ -7223,15 +7219,15 @@ Your [null tradition](../feature/null/level-1/null-tradition.md) grants you a fe
 | Cryokinetic   | [Chilling Readiness](../feature/null/level-5/chilling-readiness.md) |
 | Metakinetic   | [Inertial Fulcrum](../feature/null/level-5/inertial-fulcrum.md)   |
 
-#### Chilling Readiness {data-scc="mcdm.heroes.v1/feature.null.level-5/chilling-readiness" data-subclass="cryokinetic"}
+##### Chilling Readiness {data-scc="mcdm.heroes.v1/feature.null.level-5/chilling-readiness" data-subclass="cryokinetic"}
 
 You steel yourself for imminent danger by tapping into your body's cold energy. At the start of any combat, you gain a number of [surges](../rule/resource/surge.md) equal to your [Victories](../rule/resource/victories.md).
 
-#### Inertial Fulcrum {data-scc="mcdm.heroes.v1/feature.null.level-5/inertial-fulcrum" data-subclass="metakinetic"}
+##### Inertial Fulcrum {data-scc="mcdm.heroes.v1/feature.null.level-5/inertial-fulcrum" data-subclass="metakinetic"}
 
 Whenever you use an ability to reduce damage dealt to you or to reduce the [distance](../rule/combat/distance.md) of [forced movement](../movement/forced-movement.md) imposed upon you, you can deal damage to one enemy in the area of your [Null Field](../feature/null/level-1/null-field.md) ability equal to your [Intuition](../rule/character/intuition.md) score.
 
-#### Instant Action {data-scc="mcdm.heroes.v1/feature.null.level-5/instant-action" data-subclass="chronokinetic"}
+##### Instant Action {data-scc="mcdm.heroes.v1/feature.null.level-5/instant-action" data-subclass="chronokinetic"}
 
 If you're not [surprised](../rule/combat/surprised.md) at the start of your first [turn](../rule/combat/turn.md) in combat, you gain an [edge](../rule/dice/edge.md) on [ability rolls](../rule/dice/ability-roll.md) and gain 2 [surges](../rule/resource/surge.md). If you are [surprised](../rule/combat/surprised.md), you can spend 3 discipline to no longer be [surprised](../rule/combat/surprised.md) and gain the benefits of this feature.
 
@@ -10296,11 +10292,11 @@ You have the following ability.
 
 **Spend 1 Clarity:** You target one additional creature or object.
 
-#### Repel {data-scc="mcdm.heroes.v1/feature.talent.level-1/repel" data-subclass="telekinesis"}
+##### Repel {data-scc="mcdm.heroes.v1/feature.talent.level-1/repel" data-subclass="telekinesis"}
 
 You have the following ability.
 
-##### Repel {data-scc="mcdm.heroes.v1/feature.ability.talent.level-1/repel" data-subclass="telekinesis"}
+###### Repel {data-scc="mcdm.heroes.v1/feature.ability.talent.level-1/repel" data-subclass="telekinesis"}
 
 
 *They aren't going anywhere, but you might!*
@@ -11222,11 +11218,11 @@ Your mind can carry your body through tough times. You ignore [difficult terrain
 
 During a [respite](../rule/resource/respite.md), you can choose a number of creatures up to your [Reason](../rule/character/reason.md) score who you have communicated with using your [Telepathic Speech](../feature/talent/level-1/telepathic-speech.md) feature, creating a telepathic link among all of you. Whenever a linked creature spends one or more [Recoveries](../rule/health/recoveries.md), each other linked creature can spend a [Recovery](../rule/health/recoveries.md).
 
-#### Stasis Shield {data-scc="mcdm.heroes.v1/feature.talent.level-8/stasis-shield" data-subclass="chronopathy"}
+##### Stasis Shield {data-scc="mcdm.heroes.v1/feature.talent.level-8/stasis-shield" data-subclass="chronopathy"}
 
 You have the following ability.
 
-##### Stasis Shield {data-scc="mcdm.heroes.v1/feature.ability.talent.level-8/stasis-shield" data-cost="3 Clarity" data-subclass="chronopathy"}
+###### Stasis Shield {data-scc="mcdm.heroes.v1/feature.ability.talent.level-8/stasis-shield" data-cost="3 Clarity" data-subclass="chronopathy"}
 
 
 *You freeze time just long enough to bring the victim to safety!*
@@ -11241,7 +11237,7 @@ You have the following ability.
 
 **Strained:** You can't target yourself, and you take the damage and any additional effects instead of the target.
 
-#### Universal Connection {data-scc="mcdm.heroes.v1/feature.talent.level-8/universal-connection" data-subclass="telepathy"}
+##### Universal Connection {data-scc="mcdm.heroes.v1/feature.talent.level-8/universal-connection" data-subclass="telepathy"}
 
 The range of your [Telepathic Speech](../feature/talent/level-1/telepathic-speech.md) feature increases to anywhere on the same world.
 

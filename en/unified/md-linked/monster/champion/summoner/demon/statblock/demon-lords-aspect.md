@@ -68,19 +68,3 @@ Stamina: Your maximum Stamina
 > ⭐️ **Frenzy**
 >
 > When the Aspect is reduced to 0 [Stamina](../../../../../rule/health/stamina.md), they make a [free strike](../../../../../feature/common/main-actions/free-strike.md) against each [adjacent](../../../../../rule/combat/adjacent.md) enemy before [dying](../../../../../rule/health/dying.md).
-
-> **Level 10 Champion Advancement Feature**
->
-> ⭐️ **Size Increase**
->
-> The Aspect is now size 3.
->
-> ❗️ **Reality Flense**
->
-> | **—** | **1 Eidos** |
-> |-------|------------:|
-> | **📏 20 burst** | **🎯 Self and each non-minion ally in the area** |
->
-> **Champion Action**
->
-> **Effect:** Each target [teleports](../../../../../movement/teleport.md) up to their [speed](../../../../../rule/character/speed.md) and makes a [free strike](../../../../../feature/common/main-actions/free-strike.md). If a target has a [Save Ends](../../../../../rule/general/saving-throw.md) [condition](../../../../../rule/combat/condition.md), they can inflict the [condition](../../../../../rule/combat/condition.md) onto a creature with their [strike](../../../../../rule/combat/strike.md) and end the [condition](../../../../../rule/combat/condition.md) on themself.

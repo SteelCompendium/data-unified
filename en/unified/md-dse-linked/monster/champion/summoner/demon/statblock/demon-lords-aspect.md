@@ -84,24 +84,6 @@ features:
       icon: ⭐️
       name: Frenzy
       type: feature
-    - effects:
-        - effect: The Aspect is now size 3.
-      feature_type: trait
-      icon: ⭐️
-      name: Size Increase
-      type: feature
-    - distance: 20 burst
-      effects:
-        - effect: |-
-            **Champion Action**
-            **Effect:** Each target [teleports](../../../../../movement/teleport.md) up to their [speed](../../../../../rule/character/speed.md) and makes a [free strike](../../../../../feature/common/main-actions/free-strike.md). If a target has a [Save Ends](../../../../../rule/general/saving-throw.md) [condition](../../../../../rule/combat/condition.md), they can inflict the [condition](../../../../../rule/combat/condition.md) onto a creature with their [strike](../../../../../rule/combat/strike.md) and end the [condition](../../../../../rule/combat/condition.md) on themself.
-      feature_type: ability
-      icon: ❗️
-      keywords: []
-      name: Reality Flense
-      target: Self and each non-minion ally in the area
-      type: feature
-      usage: 1 Eidos
 flavor: 'Stamina: Your maximum Stamina'
 free_strike: 9
 immunities:

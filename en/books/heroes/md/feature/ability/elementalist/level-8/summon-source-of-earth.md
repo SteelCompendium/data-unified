@@ -32,4 +32,3 @@ type: ability
 The source starts an encounter at full [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), but maintains their current [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) throughout the encounter, even if they are dismissed and you use this ability again. They can't regain [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) during the encounter. When the source's [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) is reduced to 0, you can't use this ability again until you earn 1 or more [Victories](scc.v1:mcdm.heroes.v1/rule.resource/victories).
 
 **Persistent 2:** The source takes another [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn). They are dismissed at the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn).
-

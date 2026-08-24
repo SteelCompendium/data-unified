@@ -58,6 +58,13 @@ features:
       target: One creature or object per minion
       type: feature
       usage: Main action
+    - cost: 2 Essence
+      effects:
+        - effect: When the light is reduced to 0 [Stamina](../../../../../rule/health/stamina.md), the area within 1 square of the light becomes wreathed in sentient flames until the end of the encounter. An enemy that enters this area or starts their [turn](../../../../../rule/combat/turn.md) there takes 3 fire [damage](../../../../../rule/damage/damage.md) and is [slowed](../../../../../condition/slowed.md) (EoT). You or any ally that enters this area or starts their [turn](../../../../../rule/combat/turn.md) there gains 5 [temporary Stamina](../../../../../rule/health/temporary-stamina.md) and their [speed](../../../../../rule/character/speed.md) increases by 2 until the end of their [turn](../../../../../rule/combat/turn.md).
+      feature_type: trait
+      icon: ⭐️
+      name: Radiant Field
+      type: feature
 flavor: These elementals are blazing white avian-shaped beings that are nearly impossible to perceive directly. Between a light of the sun's talons is a massive glowing sword that can split the heaviest of defenses asunder.
 free_strike: 7
 immunities:

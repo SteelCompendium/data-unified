@@ -25,6 +25,18 @@
       "target": "One creature or object per minion",
       "type": "feature",
       "usage": "Main action"
+    },
+    {
+      "cost": "1 Essence",
+      "effects": [
+        {
+          "effect": "When the flow is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), they launch lava into an area equal to 1 + their size within 5 squares. The affected area becomes [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain) for enemies until the end of the encounter. An enemy that enters an affected square or starts their turn there takes A \u003c AVERAGE 4 fire damage."
+        }
+      ],
+      "feature_type": "trait",
+      "icon": "⭐️",
+      "name": "Eruption",
+      "type": "feature"
     }
   ],
   "flavor": "This elemental is a long, serpentine creature of heated rock. Flows of magma drool trails of lava from their fangs after biting their prey.",

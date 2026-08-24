@@ -629,7 +629,7 @@ These massive clods of animated stone roll upon smaller piles of rocks that coul
 >
 > The boulder obstructs [line of effect](../rule/combat/line-of-effect.md) for enemies.
 
-> ⭐️ **Pile Up** 1 Essence
+> ⭐️ **Pile Up (1 Essence)**
 >
 > When one or more boulders is reduced to 0 [Stamina](../rule/health/stamina.md), they each leave behind a stone [wall](../rule/combat/wall.md) equal to their size in their space until the end of the encounter.
 
@@ -655,7 +655,7 @@ The crux is a curtain of billowing hot ash with an avian head. They cover their 
 >
 > The crux's melee [free strikes](../feature/common/main-actions/free-strike.md) M < AVERAGE automatically [hide](../feature/common/maneuvers/hide.md) each ally from the target until the start of the crux's next turn, until the target uses a [maneuver](../rule/combat/turn.md) to clear the soot, until the crux takes damage, or until the crux is destroyed.
 
-> ⭐️ **Ashen Cloud** 1 Essence
+> ⭐️ **Ashen Cloud (1 Essence)**
 >
 > When the crux is reduced to 0 [Stamina](../rule/health/stamina.md), the area within 1 square of the crux is clouded by ash until it is dispersed by wind. You or any ally are [concealed](../rule/combat/concealment.md) while occupying an affected square. An enemy can't establish [line of effect](../rule/combat/line-of-effect.md) beyond the ash while occupying an affected square.
 
@@ -683,7 +683,7 @@ This elemental is a long, serpentine creature of heated rock. Flows of magma dro
 >
 > **Effect:** Each square that the flow [shifts](../movement/shifting.md) into becomes wreathed in flames until the start of the flow's next turn. An enemy that enters an affected square takes 2 damage.
 
-> ⭐️ **Eruption** 1 Essence
+> ⭐️ **Eruption (1 Essence)**
 >
 > When the flow is reduced to 0 [Stamina](../rule/health/stamina.md), they launch lava into an area equal to 1 + their size within 5 squares. The affected area becomes [difficult terrain](../movement/difficult-terrain.md) for enemies until the end of the encounter. An enemy that enters an affected square or starts their turn there takes A < AVERAGE 4 fire damage.
 
@@ -705,7 +705,7 @@ The desolations have vaguely humanoid sand forms with no legs. Their glass hose 
 >
 > The desolation doesn't provoke [opportunity attacks](../rule/combat/opportunity-attack.md) by moving.
 
-> ⭐️ **Shifting Sand Pit** 1 Essence
+> ⭐️ **Shifting Sand Pit (1 Essence)**
 >
 > When the desolation is reduced to 0 [Stamina](../rule/health/stamina.md), the area within 1 square of the desolation becomes [difficult terrain](../movement/difficult-terrain.md) for enemies until the end of the encounter. You or an ally that enters the affected area can immediately [shift](../movement/shifting.md) 3.
 
@@ -1337,7 +1337,7 @@ The silks are akin to baby spiders ballooning through the air on strands of webb
 >
 > The silk's ranged [free strikes](../feature/common/main-actions/free-strike.md) inflict A < AVERAGE [restrained](../condition/restrained.md) (EoT). Each creature [adjacent](../rule/combat/adjacent.md) to the target is A < WEAK [slowed](../condition/slowed.md) (EoT).
 
-> ⭐️ **Web** 1 Essence
+> ⭐️ **Web (1 Essence)**
 >
 > When the silk is reduced to 0 [Stamina](../rule/health/stamina.md), they launch ribbons of webbing into an area equal to their [size](../rule/character/size.md) + 1 within 5 before being destroyed. The affected area is considered [difficult terrain](../movement/difficult-terrain.md) for enemies until the end of the encounter. An enemy that ends their [turn](../rule/combat/turn.md) in the webbing is M < STRONG [slowed](../condition/slowed.md) (EoT).
 
@@ -1355,7 +1355,7 @@ The manes of these equine sludge dwellers extend and hook into things like stron
 >
 > The principle's melee [free strikes](../feature/common/main-actions/free-strike.md) have a distance of R and inflict M < STRONG [grabbed](../condition/grabbed.md). The principle can have an unlimited number of creatures or objects [grabbed](../condition/grabbed.md). A creature [grabbed](../condition/grabbed.md) by this [strike](../rule/combat/strike.md) still has their normal [speed](../rule/character/speed.md), but can't move farther away from the principle.
 
-> ⭐️ **Sludgefoot** 1 Essence
+> ⭐️ **Sludgefoot (1 Essence)**
 >
 > When the principle is reduced to 0 [Stamina](../rule/health/stamina.md), the area within 1 square of the principle becomes [difficult terrain](../movement/difficult-terrain.md) for enemies until the end of the encounter. An enemy that ends their [turn](../rule/combat/turn.md) in the affected area is pulled 4 toward the center of the area.
 
@@ -1839,7 +1839,7 @@ Iron reavers are long, gnashing lines of centipede-like bladed legs. Their bodie
 >
 > The reaver's [free strikes](../feature/common/main-actions/free-strike.md) inflict M < WEAK [bleeding](../condition/bleeding.md) (save ends). Each time the reaver inflicts [bleeding](../condition/bleeding.md) on a creature, they can [shift](../movement/shifting.md) 2 and make an additional [free strike](../feature/common/main-actions/free-strike.md) on a new target.
 
-> ⭐️ **Iron Barricade** 1 Essence
+> ⭐️ **Iron Barricade (1 Essence)**
 >
 > When the reaver is reduced to 0 [Stamina](../rule/health/stamina.md), they create a line equal to 2 × their [size](../rule/character/size.md) centered on their space of iron shards on the ground until the end of the encounter. You or any ally has [cover](../rule/combat/cover.md) and [damage immunity](../rule/damage/damage-immunity.md) 2 while occupying an affected square.
 
@@ -1857,7 +1857,7 @@ These faceless suits of armor have visible rivers of deep red blood flowing thro
 >
 > The knight's melee [strikes](../rule/combat/strike.md) inflict P < STRONG [bleeding](../condition/bleeding.md) (save ends). While [bleeding](../condition/bleeding.md) this way, the target can't roll lower than a 3 on the die used to resolve [bleeding](../condition/bleeding.md) damage.
 
-> ⭐️ **Red River** 2 Essence
+> ⭐️ **Red River (2 Essence)**
 >
 > When the knight is reduced to 0 [Stamina](../rule/health/stamina.md), they move up to their [speed](../rule/character/speed.md) ignoring [opportunity attacks](../rule/combat/opportunity-attack.md). Each square that they exit during this movement pools with blood until the end of the encounter. Each affected square is considered [difficult terrain](../movement/difficult-terrain.md) for enemies and deals 3 corruption [damage](../rule/damage/damage.md) to an enemy when they first enter it on a [turn](../rule/combat/turn.md). Whenever a [bleeding](../condition/bleeding.md) enemy starts their [turn](../rule/combat/turn.md) within 10 squares of the blood pool, they are pulled 2 toward the nearest affected square, ignoring [stability](../rule/character/stability.md).
 
@@ -1885,7 +1885,7 @@ These elementals are blazing white avian-shaped beings that are nearly impossibl
 >
 > **Effect:** A target [dazed](../condition/dazed.md) by this ability has their [stability](../rule/character/stability.md) reduced to 0 until the [condition](../rule/combat/condition.md) ends.
 
-> ⭐️ **Radiant Field** 2 Essence
+> ⭐️ **Radiant Field (2 Essence)**
 >
 > When the light is reduced to 0 [Stamina](../rule/health/stamina.md), the area within 1 square of the light becomes wreathed in sentient flames until the end of the encounter. An enemy that enters this area or starts their [turn](../rule/combat/turn.md) there takes 3 fire [damage](../rule/damage/damage.md) and is [slowed](../condition/slowed.md) (EoT). You or any ally that enters this area or starts their [turn](../rule/combat/turn.md) there gains 5 [temporary Stamina](../rule/health/temporary-stamina.md) and their [speed](../rule/character/speed.md) increases by 2 until the end of their [turn](../rule/combat/turn.md).
 
@@ -2299,19 +2299,19 @@ Stamina: Your maximum Stamina
 >
 > When the Aspect is reduced to 0 [Stamina](../rule/health/stamina.md), they make a [free strike](../feature/common/main-actions/free-strike.md) against each [adjacent](../rule/combat/adjacent.md) enemy before [dying](../rule/health/dying.md).
 
+##### Demon Lord's Aspect Advancement Features {data-scc="mcdm.summoner.v1/monster.champion.summoner.demon.advancement-features/demon-lords-aspect"}
+
 > **Level 10 Champion Advancement Feature**
 >
 > ⭐️ **Size Increase**
 >
 > The Aspect is now size 3.
 >
-> ❗️ **Reality Flense**
+> ❗️ **Reality Flense (1 Eidos)**
 >
-> | **—** | **1 Eidos** |
-> |-------|------------:|
+> | **—** | **Champion Action** |
+> |-------|--------------------:|
 > | **📏 20 burst** | **🎯 Self and each non-minion ally in the area** |
->
-> **Champion Action**
 >
 > **Effect:** Each target [teleports](../movement/teleport.md) up to their [speed](../rule/character/speed.md) and makes a [free strike](../feature/common/main-actions/free-strike.md). If a target has a [Save Ends](../rule/general/saving-throw.md) [condition](../rule/combat/condition.md), they can inflict the [condition](../rule/combat/condition.md) onto a creature with their [strike](../rule/combat/strike.md) and end the [condition](../rule/combat/condition.md) on themself.
 
@@ -2363,19 +2363,19 @@ Stamina: Your maximum Stamina
 >
 > Once per [turn](../rule/combat/turn.md), the Portent can take 10 [damage](../rule/damage/damage.md) to allow you or an ally within your Summoner's Range to gain 1 [heroic resource](../rule/resource/heroic-resource.md). This [damage](../rule/damage/damage.md) can't be reduced in any way.
 
+##### Dragon's Portent Advancement Features {data-scc="mcdm.summoner.v1/monster.champion.summoner.elemental.advancement-features/dragons-portent"}
+
 > **Level 10 Champion Advancement Feature**
 >
 > ⭐️ **Size Increase**
 >
 > The Portent is now size 3.
 >
-> ❗️ **A Breath Felt in a Hurricane**
+> ❗️ **A Breath Felt in a Hurricane (1 Eidos)**
 >
-> | **Area, Magic, Ranged** | **1 Eidos** |
-> |-------------------------|------------:|
+> | **Area, Magic, Ranged** | **Champion Action** |
+> |-------------------------|--------------------:|
 > | **📏 4 cube within 10** | **🎯 Each enemy and object in the area** |
->
-> **Champion Action**
 >
 > **Effect:** 9 affinity [damage](../rule/damage/damage.md). The [damage](../rule/damage/damage.md) ignores [immunity](../rule/damage/damage-immunity.md). The affected area becomes [difficult terrain](../movement/difficult-terrain.md). An enemy has affinity [weakness](../rule/damage/damage-weakness.md) 5 while occupying an affected square.
 
@@ -2431,19 +2431,19 @@ Stamina: Your maximum Stamina
 >
 > The Attendant starts their [turn](../rule/combat/turn.md) with [temporary Stamina](../rule/health/temporary-stamina.md) equal to 2 × the number of fey minions within 1 square of them. This [temporary Stamina](../rule/health/temporary-stamina.md) lasts until the start of their next [turn](../rule/combat/turn.md).
 
+##### Celestial Attendant Advancement Features {data-scc="mcdm.summoner.v1/monster.champion.summoner.fey.advancement-features/celestial-attendant"}
+
 > **Level 10 Champion Advancement Feature**
 >
 > ⭐️ **Size Increase**
 >
 > The Attendant is now size 3.
 >
-> ❗️ **A Shower of Dust**
+> ❗️ **A Shower of Dust (1 Eidos)**
 >
-> | **—** | **1 Eidos** |
-> |-------|------------:|
+> | **—** | **Champion Action** |
+> |-------|--------------------:|
 > | **📏 20 burst** | **🎯 Self and each non-minion ally in the area** |
->
-> **Champion Action**
 >
 > **Effect:** Each target gains 20 [temporary Stamina](../rule/health/temporary-stamina.md) and receives the benefits of one of your [Flash Powder](../feature/summoner/level-5/flash-powder.md) effects until the end of their next [turn](../rule/combat/turn.md).
 
@@ -2499,19 +2499,19 @@ Stamina: Your maximum Stamina
 >
 > The Avatar is unaffected by [difficult terrain](../movement/difficult-terrain.md) and [damage](../rule/damage/damage.md) from [forced movement](../movement/forced-movement.md).
 
+##### Avatar of Death Advancement Features {data-scc="mcdm.summoner.v1/monster.champion.summoner.undead.advancement-features/avatar-of-death"}
+
 > **Level 10 Champion Advancement Feature**
 >
 > ⭐️ **Size Increase**
 >
 > The Avatar is now size 3.
 >
-> ❗️ **Gravemaker**
+> ❗️ **Gravemaker (1 Eidos)**
 >
-> | **Area, Magic, Ranged** | **1 Eidos** |
-> |-------------------------|------------:|
+> | **Area, Magic, Ranged** | **Champion Action** |
+> |-------------------------|--------------------:|
 > | **📏 5 × 3 line within 1** | **🎯 Each enemy and object in the line** |
->
-> **Champion Action**
 >
 > **Effect:** 9 holy [damage](../rule/damage/damage.md). Each target is vertically [pulled](../movement/forced-movement.md) a number of squares equal to their [size](../rule/character/size.md) straight down, ignoring [stability](../rule/character/stability.md). If the target would be [force moved](../movement/forced-movement.md) into the ground, they are buried beneath the ground instead.
 

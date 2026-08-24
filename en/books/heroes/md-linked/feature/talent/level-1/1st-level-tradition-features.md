@@ -103,3 +103,20 @@ You have the following ability.
 **Effect:** The next [ability roll](../../../rule/dice/ability-roll.md) an ally makes against the target before the start of your next [turn](../../../rule/combat/turn.md) gains an [edge](../../../rule/dice/edge.md).
 
 **Spend 1 Clarity:** You target one additional creature or object.
+
+## Repel {data-scc="mcdm.heroes.v1/feature.talent.level-1/repel" data-subclass="telekinesis"}
+
+You have the following ability.
+
+### Repel {data-scc="mcdm.heroes.v1/feature.ability.talent.level-1/repel" data-subclass="telekinesis"}
+
+
+*They aren't going anywhere, but you might!*
+
+| **Psionic, [Ranged](../../../rule/combat/ranged.md)** |           **[Triggered](../../../rule/combat/triggered-action.md)** |
+|---------------------|------------------------:|
+| **📏 [Ranged](../../../rule/combat/ranged.md) 10**    | **🎯 Self or one ally** |
+
+**Trigger:** The target takes damage or is [force moved](../../../movement/forced-movement.md).
+
+**Effect:** The target takes half the triggering damage, or the [distance](../../../rule/combat/distance.md) of the triggering [forced movement](../../../movement/forced-movement.md) is reduced by a number of squares equal to your [Reason](../../../rule/character/reason.md) score. If the target took damage and was force moved, you choose the effect. If the [forced movement](../../../movement/forced-movement.md) is reduced to 0 squares, the target can [push](../../../movement/forced-movement.md) the source of the [forced movement](../../../movement/forced-movement.md) a number of squares equal to your [Reason](../../../rule/character/reason.md) score.

@@ -41,6 +41,6 @@ The desolations have vaguely humanoid sand forms with no legs. Their glass hose 
 >
 > The desolation doesn't provoke [opportunity attacks](../../../../../rule/combat/opportunity-attack.md) by moving.
 
-> ⭐️ **Shifting Sand Pit** 1 Essence
+> ⭐️ **Shifting Sand Pit (1 Essence)**
 >
 > When the desolation is reduced to 0 [Stamina](../../../../../rule/health/stamina.md), the area within 1 square of the desolation becomes [difficult terrain](../../../../../movement/difficult-terrain.md) for enemies until the end of the encounter. You or an ally that enters the affected area can immediately [shift](../../../../../movement/shifting.md) 3.

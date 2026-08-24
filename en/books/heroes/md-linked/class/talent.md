@@ -275,11 +275,11 @@ You have the following ability.
 
 **Spend 1 Clarity:** You target one additional creature or object.
 
-### Repel {data-scc="mcdm.heroes.v1/feature.talent.level-1/repel" data-subclass="telekinesis"}
+#### Repel {data-scc="mcdm.heroes.v1/feature.talent.level-1/repel" data-subclass="telekinesis"}
 
 You have the following ability.
 
-#### Repel {data-scc="mcdm.heroes.v1/feature.ability.talent.level-1/repel" data-subclass="telekinesis"}
+##### Repel {data-scc="mcdm.heroes.v1/feature.ability.talent.level-1/repel" data-subclass="telekinesis"}
 
 
 *They aren't going anywhere, but you might!*
@@ -1201,11 +1201,11 @@ Your mind can carry your body through tough times. You ignore [difficult terrain
 
 During a [respite](../rule/resource/respite.md), you can choose a number of creatures up to your [Reason](../rule/character/reason.md) score who you have communicated with using your [Telepathic Speech](../feature/talent/level-1/telepathic-speech.md) feature, creating a telepathic link among all of you. Whenever a linked creature spends one or more [Recoveries](../rule/health/recoveries.md), each other linked creature can spend a [Recovery](../rule/health/recoveries.md).
 
-### Stasis Shield {data-scc="mcdm.heroes.v1/feature.talent.level-8/stasis-shield" data-subclass="chronopathy"}
+#### Stasis Shield {data-scc="mcdm.heroes.v1/feature.talent.level-8/stasis-shield" data-subclass="chronopathy"}
 
 You have the following ability.
 
-#### Stasis Shield {data-scc="mcdm.heroes.v1/feature.ability.talent.level-8/stasis-shield" data-cost="3 Clarity" data-subclass="chronopathy"}
+##### Stasis Shield {data-scc="mcdm.heroes.v1/feature.ability.talent.level-8/stasis-shield" data-cost="3 Clarity" data-subclass="chronopathy"}
 
 
 *You freeze time just long enough to bring the victim to safety!*
@@ -1220,7 +1220,7 @@ You have the following ability.
 
 **Strained:** You can't target yourself, and you take the damage and any additional effects instead of the target.
 
-### Universal Connection {data-scc="mcdm.heroes.v1/feature.talent.level-8/universal-connection" data-subclass="telepathy"}
+#### Universal Connection {data-scc="mcdm.heroes.v1/feature.talent.level-8/universal-connection" data-subclass="telepathy"}
 
 The range of your [Telepathic Speech](../feature/talent/level-1/telepathic-speech.md) feature increases to anywhere on the same world.
 

@@ -1,6 +1,6 @@
 # Featureblock Index
 
-Total: 117
+Total: 121
 
 - [Ajax's Malice](../monster/ajax-the-invincible/ajaxs-malice.md)
 - [Ambusher Abilities](../monster/retainer/role-advancement/ambusher.md)
@@ -9,6 +9,7 @@ Total: 117
 - [Arixx Malice](../monster/arixx/arixx-malice.md)
 - [Artillery Abilities](../monster/retainer/role-advancement/artillery.md)
 - [Ashen Hoarder Malice](../monster/ashen-hoarder/ashen-hoarder-malice.md)
+- [Avatar of Death Advancement Features](../monster/champion/summoner/undead/advancement-features/avatar-of-death.md)
 - [Barrow Gates](../monster/fixture/undead/featureblock/barrow-gates.md)
 - [Barrow Gates Advancement Features](../monster/fixture/undead/advancement-features/barrow-gates.md)
 - [Basilisk Advancement Features](../monster/companion/beastheart/advancement-features/basilisk.md)
@@ -19,12 +20,14 @@ Total: 117
 - [Brute Abilities](../monster/retainer/role-advancement/brute.md)
 - [Bugbear Commando Advancement Features](../monster/retainer/advancement-features/bugbear-commando.md)
 - [Bugbear Malice](../monster/bugbear/bugbear-malice.md)
+- [Celestial Attendant Advancement Features](../monster/champion/summoner/fey/advancement-features/celestial-attendant.md)
 - [Chimera Malice](../monster/chimera/chimera-malice.md)
 - [Condor Advancement Features](../monster/companion/beastheart/advancement-features/condor.md)
 - [Controller Abilities](../monster/retainer/role-advancement/controller.md)
 - [Crucible Dragon Malice](../monster/dragon/crucible-dragon-malice.md)
 - [Defender Abilities](../monster/retainer/role-advancement/defender.md)
 - [Deinonychus Advancement Features](../monster/companion/beastheart/advancement-features/deinonychus.md)
+- [Demon Lord's Aspect Advancement Features](../monster/champion/summoner/demon/advancement-features/demon-lords-aspect.md)
 - [Demon Malice (Level 1+ Malice Features)](../monster/demon/1st-echelon/demon-malice-level-1-malice-features.md)
 - [Demon Malice (Level 10+ Malice Features)](../monster/demon/4th-echelon/demon-malice-level-10-malice-features.md)
 - [Demon Malice (Level 4+ Malice Features)](../monster/demon/2nd-echelon/demon-malice-level-4-malice-features.md)
@@ -33,6 +36,7 @@ Total: 117
 - [Devil Detective Advancement Features](../monster/retainer/advancement-features/devil-detective.md)
 - [Devil Malice](../monster/devil/devil-malice.md)
 - [Draconian Malice](../monster/draconian/draconian-malice.md)
+- [Dragon's Portent Advancement Features](../monster/champion/summoner/elemental/advancement-features/dragons-portent.md)
 - [Drake Advancement Features](../monster/companion/beastheart/advancement-features/drake.md)
 - [Dwarf Malice](../monster/dwarf/dwarf-malice.md)
 - [Dwarf Mortar Advancement Features](../monster/retainer/advancement-features/dwarf-mortar.md)

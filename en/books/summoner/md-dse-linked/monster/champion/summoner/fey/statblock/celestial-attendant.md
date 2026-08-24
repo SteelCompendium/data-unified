@@ -83,24 +83,6 @@ features:
       icon: ⭐️
       name: Pixie Bouquet
       type: feature
-    - effects:
-        - effect: The Attendant is now size 3.
-      feature_type: trait
-      icon: ⭐️
-      name: Size Increase
-      type: feature
-    - distance: 20 burst
-      effects:
-        - effect: |-
-            **Champion Action**
-            **Effect:** Each target gains 20 [temporary Stamina](../../../../../rule/health/temporary-stamina.md) and receives the benefits of one of your [Flash Powder](../../../../../feature/summoner/level-5/flash-powder.md) effects until the end of their next [turn](../../../../../rule/combat/turn.md).
-      feature_type: ability
-      icon: ❗️
-      keywords: []
-      name: A Shower of Dust
-      target: Self and each non-minion ally in the area
-      type: feature
-      usage: 1 Eidos
 flavor: 'Stamina: Your maximum Stamina'
 free_strike: 9
 immunities:

@@ -11,7 +11,7 @@
 - [Dynamic-terrain](dynamic-terrain.md) (35 items)
 - [Feature](feature.md) (876 items)
 - [Feature-group](feature-group.md) (14 items)
-- [Featureblock](featureblock.md) (117 items)
+- [Featureblock](featureblock.md) (121 items)
 - [God](god.md) (11 items)
 - [Kit](kit.md) (25 items)
 - [Monster](monster.md) (51 items)
@@ -23,9 +23,9 @@
 - [Saint](saint.md) (28 items)
 - [Skill](skill.md) (57 items)
 - [Skill-group](skill-group.md) (5 items)
-- [Statblock](statblock.md) (512 items)
+- [Statblock](statblock.md) (513 items)
 - [Title](title.md) (66 items)
 - [Trait](trait.md) (95 items)
 - [Treasure](treasure.md) (127 items)
 
-Total items: 3081
+Total items: 3086

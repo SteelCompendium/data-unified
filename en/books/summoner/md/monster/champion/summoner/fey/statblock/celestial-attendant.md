@@ -67,19 +67,3 @@ Stamina: Your maximum Stamina
 > ⭐️ **Pixie Bouquet**
 >
 > The Attendant starts their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) with [temporary Stamina](scc.v1:mcdm.heroes.v1/rule.health/temporary-stamina) equal to 2 × the number of fey minions within 1 square of them. This [temporary Stamina](scc.v1:mcdm.heroes.v1/rule.health/temporary-stamina) lasts until the start of their next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn).
-
-> **Level 10 Champion Advancement Feature**
->
-> ⭐️ **Size Increase**
->
-> The Attendant is now size 3.
->
-> ❗️ **A Shower of Dust**
->
-> | **—** | **1 Eidos** |
-> |-------|------------:|
-> | **📏 20 burst** | **🎯 Self and each non-minion ally in the area** |
->
-> **Champion Action**
->
-> **Effect:** Each target gains 20 [temporary Stamina](scc.v1:mcdm.heroes.v1/rule.health/temporary-stamina) and receives the benefits of one of your [Flash Powder](scc.v1:mcdm.summoner.v1/feature.summoner.level-5/flash-powder) effects until the end of their next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn).

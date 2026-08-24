@@ -85,27 +85,6 @@ features:
       icon: ⭐️
       name: Drifting Spirit
       type: feature
-    - effects:
-        - effect: The Avatar is now size 3.
-      feature_type: trait
-      icon: ⭐️
-      name: Size Increase
-      type: feature
-    - distance: 5 × 3 line within 1
-      effects:
-        - effect: |-
-            **Champion Action**
-            **Effect:** 9 holy [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage). Each target is vertically [pulled](scc.v1:mcdm.heroes.v1/movement/forced-movement) a number of squares equal to their [size](scc.v1:mcdm.heroes.v1/rule.character/size) straight down, ignoring [stability](scc.v1:mcdm.heroes.v1/rule.character/stability). If the target would be [force moved](scc.v1:mcdm.heroes.v1/movement/forced-movement) into the ground, they are buried beneath the ground instead.
-      feature_type: ability
-      icon: ❗️
-      keywords:
-        - Area
-        - Magic
-        - Ranged
-      name: Gravemaker
-      target: Each enemy and object in the line
-      type: feature
-      usage: 1 Eidos
 flavor: 'Stamina: Your maximum Stamina'
 free_strike: 9
 immunities:

@@ -68,19 +68,3 @@ Stamina: Your maximum Stamina
 > ⭐️ **Drifting Spirit**
 >
 > The Avatar is unaffected by [difficult terrain](../../../../../movement/difficult-terrain.md) and [damage](../../../../../rule/damage/damage.md) from [forced movement](../../../../../movement/forced-movement.md).
-
-> **Level 10 Champion Advancement Feature**
->
-> ⭐️ **Size Increase**
->
-> The Avatar is now size 3.
->
-> ❗️ **Gravemaker**
->
-> | **Area, Magic, Ranged** | **1 Eidos** |
-> |-------------------------|------------:|
-> | **📏 5 × 3 line within 1** | **🎯 Each enemy and object in the line** |
->
-> **Champion Action**
->
-> **Effect:** 9 holy [damage](../../../../../rule/damage/damage.md). Each target is vertically [pulled](../../../../../movement/forced-movement.md) a number of squares equal to their [size](../../../../../rule/character/size.md) straight down, ignoring [stability](../../../../../rule/character/stability.md). If the target would be [force moved](../../../../../movement/forced-movement.md) into the ground, they are buried beneath the ground instead.

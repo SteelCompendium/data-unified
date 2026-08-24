@@ -45,6 +45,13 @@ features:
       icon: ⭐️
       name: Scarlet Death
       type: feature
+    - cost: 2 Essence
+      effects:
+        - effect: When the knight is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), they move up to their [speed](scc.v1:mcdm.heroes.v1/rule.character/speed) ignoring [opportunity attacks](scc.v1:mcdm.heroes.v1/rule.combat/opportunity-attack). Each square that they exit during this movement pools with blood until the end of the encounter. Each affected square is considered [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain) for enemies and deals 3 corruption [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage) to an enemy when they first enter it on a [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn). Whenever a [bleeding](scc.v1:mcdm.heroes.v1/condition/bleeding) enemy starts their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) within 10 squares of the blood pool, they are pulled 2 toward the nearest affected square, ignoring [stability](scc.v1:mcdm.heroes.v1/rule.character/stability).
+      feature_type: trait
+      icon: ⭐️
+      name: Red River
+      type: feature
 flavor: These faceless suits of armor have visible rivers of deep red blood flowing throughout their being. Their blood has a powerful pull to it, causing any open wounds nearby to rip deeper and leak toward the knight.
 free_strike: 7
 immunities:

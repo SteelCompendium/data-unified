@@ -64,19 +64,3 @@ Stamina: Your maximum Stamina
 > ⭐️ **Dragon Heart**
 >
 > Once per [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), the Portent can take 10 [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage) to allow you or an ally within your Summoner's Range to gain 1 [heroic resource](scc.v1:mcdm.heroes.v1/rule.resource/heroic-resource). This [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage) can't be reduced in any way.
-
-> **Level 10 Champion Advancement Feature**
->
-> ⭐️ **Size Increase**
->
-> The Portent is now size 3.
->
-> ❗️ **A Breath Felt in a Hurricane**
->
-> | **Area, Magic, Ranged** | **1 Eidos** |
-> |-------------------------|------------:|
-> | **📏 4 cube within 10** | **🎯 Each enemy and object in the area** |
->
-> **Champion Action**
->
-> **Effect:** 9 affinity [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage). The [damage](scc.v1:mcdm.heroes.v1/rule.damage/damage) ignores [immunity](scc.v1:mcdm.heroes.v1/rule.damage/damage-immunity). The affected area becomes [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain). An enemy has affinity [weakness](scc.v1:mcdm.heroes.v1/rule.damage/damage-weakness) 5 while occupying an affected square.

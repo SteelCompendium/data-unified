@@ -51,6 +51,6 @@ These elementals are blazing white avian-shaped beings that are nearly impossibl
 >
 > **Effect:** A target [dazed](../../../../../condition/dazed.md) by this ability has their [stability](../../../../../rule/character/stability.md) reduced to 0 until the [condition](../../../../../rule/combat/condition.md) ends.
 
-> ⭐️ **Radiant Field** 2 Essence
+> ⭐️ **Radiant Field (2 Essence)**
 >
 > When the light is reduced to 0 [Stamina](../../../../../rule/health/stamina.md), the area within 1 square of the light becomes wreathed in sentient flames until the end of the encounter. An enemy that enters this area or starts their [turn](../../../../../rule/combat/turn.md) there takes 3 fire [damage](../../../../../rule/damage/damage.md) and is [slowed](../../../../../condition/slowed.md) (EoT). You or any ally that enters this area or starts their [turn](../../../../../rule/combat/turn.md) there gains 5 [temporary Stamina](../../../../../rule/health/temporary-stamina.md) and their [speed](../../../../../rule/character/speed.md) increases by 2 until the end of their [turn](../../../../../rule/combat/turn.md).

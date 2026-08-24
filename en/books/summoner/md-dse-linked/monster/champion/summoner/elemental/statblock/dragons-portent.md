@@ -85,27 +85,6 @@ features:
       icon: ⭐️
       name: Dragon Heart
       type: feature
-    - effects:
-        - effect: The Portent is now size 3.
-      feature_type: trait
-      icon: ⭐️
-      name: Size Increase
-      type: feature
-    - distance: 4 cube within 10
-      effects:
-        - effect: |-
-            **Champion Action**
-            **Effect:** 9 affinity [damage](../../../../../rule/damage/damage.md). The [damage](../../../../../rule/damage/damage.md) ignores [immunity](../../../../../rule/damage/damage-immunity.md). The affected area becomes [difficult terrain](../../../../../movement/difficult-terrain.md). An enemy has affinity [weakness](../../../../../rule/damage/damage-weakness.md) 5 while occupying an affected square.
-      feature_type: ability
-      icon: ❗️
-      keywords:
-        - Area
-        - Magic
-        - Ranged
-      name: A Breath Felt in a Hurricane
-      target: Each enemy and object in the area
-      type: feature
-      usage: 1 Eidos
 flavor: 'Stamina: Your maximum Stamina'
 free_strike: 9
 immunities:

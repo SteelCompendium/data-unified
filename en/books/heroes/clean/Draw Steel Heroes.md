@@ -8614,40 +8614,38 @@ You have the following ability.
 > The source starts an encounter at full [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), but maintains their current [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) throughout the encounter, even if they are dismissed and you use this ability again. They can't regain [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) during the encounter. When the source's [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) is reduced to 0, you can't use this ability again until you earn 1 or more [Victories](scc.v1:mcdm.heroes.v1/rule.resource/victories).
 > 
 > **Persistent 2:** The source takes another [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn). They are dismissed at the start of your next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn).
+
+####### Source of Earth
+
+|      Elemental      |           -            |      Level 8      |         Brute         |         EV -         |
+|:-------------------:|:----------------------:|:-----------------:|:---------------------:|:--------------------:|
+|    **2**<br>Size    |     **6**<br>Speed     | **45**<br>Stamina |  **5**<br>Stability   | **5**<br>Free Strike |
+|  **-**<br>Immunity  | **Burrow**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
+|   **+3**<br>Might   |   **+1**<br>Agility    | **-5**<br>Reason  |  **-5**<br>Intuition  |  **-3**<br>Presence  |
+
+> ⭐️ **Earthwalk**
 >
->####### Source of Earth Statblock
+> [Difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain) composed of earth and stone doesn't cost the source extra movement.
+
+> ⭐️ **Tunneler**
 >
->**Source of Earth**
+> When the source burrows, they create a [size](scc.v1:mcdm.heroes.v1/rule.character/size) 2 tunnel.
+
+> ⭐️ **Earth Harness**
 >
->|      Elemental      |           -            |      Level 8      |         BRUTE         |         EV -         |
->|:-------------------:|:----------------------:|:-----------------:|:---------------------:|:--------------------:|
->|    **2**<br>[Size](scc.v1:mcdm.heroes.v1/rule.character/size)    |     **6**<br>[Speed](scc.v1:mcdm.heroes.v1/rule.character/speed)     | **45**<br>[Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) |  **5**<br>[Stability](scc.v1:mcdm.heroes.v1/rule.character/stability)   | **5**<br>[Free Strike](scc.v1:mcdm.heroes.v1/feature.common.main-actions/free-strike) |
->| **-**<br>Immunities | **[Burrow](scc.v1:mcdm.heroes.v1/movement/burrow)**<br>Movement |                   | **-**<br>With Captain | **-**<br>Weaknesses  |
->|   **+3**<br>[Might](scc.v1:mcdm.heroes.v1/rule.character/might)   |   **+1**<br>[Agility](scc.v1:mcdm.heroes.v1/rule.character/agility)    | **-5**<br>[Reason](scc.v1:mcdm.heroes.v1/rule.character/reason)  |  **-5**<br>[Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)  |  **-3**<br>[Presence](scc.v1:mcdm.heroes.v1/rule.character/presence)  |
+> A creature that has the [Earth Accepts Me](scc.v1:mcdm.heroes.v1/feature.ability.elementalist.level-3/earth-accepts-me) ability can use it as a free action to meld into the source.
+
+> 🗡 **Boulder Bash**
 >
->> **Earthwalk**
->>
->> [Difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain) composed of earth and stone doesn't cost the source extra movement.
+> | **Melee, Ranged, Strike, Weapon** |                 **Signature** |
+> |-----------------------------------|------------------------------:|
+> | **📏 Melee 2 or ranged 10**       | **🎯 One creature or object** |
 >
->> **Tunneler**
->>
->> When the source burrows, they create a [size](scc.v1:mcdm.heroes.v1/rule.character/size) 2 tunnel.
+> **Power Roll + 3:**
 >
->> **Earth Harness**
->>
->> A creature that has the [Earth Accepts Me](scc.v1:mcdm.heroes.v1/feature.ability.elementalist.level-3/earth-accepts-me) ability can use it as a free action to meld into the source.
->
->> **Boulder Bash**
->>
->> | **[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), Weapon** |                 **Signature** |
->> |-----------------------------------|------------------------------:|
->> | **📏 [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 2 or [ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) 10**       | **🎯 One creature or object** |
->>
->> **[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + 3:**
->>
->> - **≤11:** 5 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3
->> - **12-16:** 9 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 4
->> - **17+:** 12 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5
+> - **≤11:** 5 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 3
+> - **12-16:** 9 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 4
+> - **17+:** 12 damage; [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5
 
 #### 11-Essence Ability
 
@@ -10962,15 +10960,15 @@ Your [null tradition](scc.v1:mcdm.heroes.v1/feature.null.level-1/null-tradition)
 | Cryokinetic   | [Chilling Readiness](scc.v1:mcdm.heroes.v1/feature.null.level-5/chilling-readiness) |
 | Metakinetic   | [Inertial Fulcrum](scc.v1:mcdm.heroes.v1/feature.null.level-5/inertial-fulcrum)   |
 
-#### Chilling Readiness
+##### Chilling Readiness
 
 You steel yourself for imminent danger by tapping into your body's cold energy. At the start of any combat, you gain a number of [surges](scc.v1:mcdm.heroes.v1/rule.resource/surge) equal to your [Victories](scc.v1:mcdm.heroes.v1/rule.resource/victories).
 
-#### Inertial Fulcrum
+##### Inertial Fulcrum
 
 Whenever you use an ability to reduce damage dealt to you or to reduce the [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance) of [forced movement](scc.v1:mcdm.heroes.v1/movement/forced-movement) imposed upon you, you can deal damage to one enemy in the area of your [Null Field](scc.v1:mcdm.heroes.v1/feature.null.level-1/null-field) ability equal to your [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition) score.
 
-#### Instant Action
+##### Instant Action
 
 If you're not [surprised](scc.v1:mcdm.heroes.v1/rule.combat/surprised) at the start of your first [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) in combat, you gain an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on [ability rolls](scc.v1:mcdm.heroes.v1/rule.dice/ability-roll) and gain 2 [surges](scc.v1:mcdm.heroes.v1/rule.resource/surge). If you are [surprised](scc.v1:mcdm.heroes.v1/rule.combat/surprised), you can spend 3 discipline to no longer be [surprised](scc.v1:mcdm.heroes.v1/rule.combat/surprised) and gain the benefits of this feature.
 
@@ -13914,7 +13912,7 @@ You have the following ability.
 >
 > **Spend 1 Clarity:** You target one additional creature or object.
 
-#### Repel
+##### Repel
 
 You have the following ability.
 
@@ -14802,7 +14800,7 @@ Your mind can carry your body through tough times. You ignore [difficult terrain
 
 During a [respite](scc.v1:mcdm.heroes.v1/rule.resource/respite), you can choose a number of creatures up to your [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) score who you have communicated with using your [Telepathic Speech](scc.v1:mcdm.heroes.v1/feature.talent.level-1/telepathic-speech) feature, creating a telepathic link among all of you. Whenever a linked creature spends one or more [Recoveries](scc.v1:mcdm.heroes.v1/rule.health/recoveries), each other linked creature can spend a [Recovery](scc.v1:mcdm.heroes.v1/rule.health/recoveries).
 
-#### Stasis Shield
+##### Stasis Shield
 
 You have the following ability.
 
@@ -14820,7 +14818,7 @@ You have the following ability.
 >
 > **Strained:** You can't target yourself, and you take the damage and any additional effects instead of the target.
 
-#### Universal Connection
+##### Universal Connection
 
 The range of your [Telepathic Speech](scc.v1:mcdm.heroes.v1/feature.talent.level-1/telepathic-speech) feature increases to anywhere on the same world.
 
@@ -21549,26 +21547,26 @@ A hero who has a kit that uses unarmed [strikes](scc.v1:mcdm.heroes.v1/rule.comb
 > **Trigger:** The target willingly moves [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to you.
 >
 > **Effect:** The target takes 5 damage.
->
-> **Chilling II:** Whenever you damage a creature with an ability using this weapon and obtain a tier 3 outcome, that creature takes 6 cold damage and is [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends). This replaces the benefit of Chilling I.
->
-> **Devastating:** Whenever you make an [ability roll](scc.v1:mcdm.heroes.v1/rule.dice/ability-roll) using this weapon, the number you need to roll to score a [critical hit](scc.v1:mcdm.heroes.v1/rule.combat/critical-hit) is reduced by 1.
->
-> **Disrupting II:** Whenever you damage an undead using this weapon and leave that undead with 30 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) or less, they drop to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina). This replaces the benefit of Disrupting I.
->
-> **Metamorphic:** You can change this weapon's shape and form as a maneuver, granting one of the following benefits of your choice:
->
-> - **Concealed:** The weapon shrinks to the size of a piece of jewelry and can be worn as an earring, necklace, or similar accessory. While in this form, the weapon can't be used for weapon abilities.
-> - **Large:** Abilities using this weapon gain a +1 [melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance) [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) or a +3 [ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance) [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties).
-> - **Vicious:** Whenever you damage a creature using this weapon, you deal an extra 1 damage on a tier 1 outcome, an extra 2 damage on a tier 2 outcome, and an extra 3 damage on a tier 3 outcome.
->
-> **Silencing:** Whenever you damage a creature with an ability using this weapon and obtain a tier 3 outcome, that creature also can't use magic abilities until the end of their next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn).
->
-> **Terrifying II:** Whenever you damage a creature with an ability using this weapon and obtain a tier 3 outcome, that creature takes 4 psychic damage and is [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends). This replaces the benefit of Terrifying I.
->
-> **Thundering II:** Whenever you deal [rolled damage](scc.v1:mcdm.heroes.v1/rule.damage/rolled-damage) to a creature using this weapon, you can [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) that creature up to 3 squares after the other effects of the ability resolve. If you obtained a tier 3 outcome, the creature is also [knocked prone](scc.v1:mcdm.heroes.v1/condition/prone) after being [pushed](scc.v1:mcdm.heroes.v1/movement/forced-movement). This replaces the benefit of Thundering I.
->
-> **Vengeance II:** Whenever you use a damage-dealing ability using this weapon against a creature who has dealt damage to you since the end of your last [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), the ability deals an extra 4 damage. This replaces the benefit of Vengeance I.
+
+**Chilling II:** Whenever you damage a creature with an ability using this weapon and obtain a tier 3 outcome, that creature takes 6 cold damage and is [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (save ends). This replaces the benefit of Chilling I.
+
+**Devastating:** Whenever you make an [ability roll](scc.v1:mcdm.heroes.v1/rule.dice/ability-roll) using this weapon, the number you need to roll to score a [critical hit](scc.v1:mcdm.heroes.v1/rule.combat/critical-hit) is reduced by 1.
+
+**Disrupting II:** Whenever you damage an undead using this weapon and leave that undead with 30 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina) or less, they drop to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina). This replaces the benefit of Disrupting I.
+
+**Metamorphic:** You can change this weapon's shape and form as a maneuver, granting one of the following benefits of your choice:
+
+- **Concealed:** The weapon shrinks to the size of a piece of jewelry and can be worn as an earring, necklace, or similar accessory. While in this form, the weapon can't be used for weapon abilities.
+- **Large:** Abilities using this weapon gain a +1 [melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance) [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties) or a +3 [ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged) [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance) [bonus](scc.v1:mcdm.heroes.v1/rule.dice/bonuses-and-penalties).
+- **Vicious:** Whenever you damage a creature using this weapon, you deal an extra 1 damage on a tier 1 outcome, an extra 2 damage on a tier 2 outcome, and an extra 3 damage on a tier 3 outcome.
+
+**Silencing:** Whenever you damage a creature with an ability using this weapon and obtain a tier 3 outcome, that creature also can't use magic abilities until the end of their next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn).
+
+**Terrifying II:** Whenever you damage a creature with an ability using this weapon and obtain a tier 3 outcome, that creature takes 4 psychic damage and is [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends). This replaces the benefit of Terrifying I.
+
+**Thundering II:** Whenever you deal [rolled damage](scc.v1:mcdm.heroes.v1/rule.damage/rolled-damage) to a creature using this weapon, you can [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) that creature up to 3 squares after the other effects of the ability resolve. If you obtained a tier 3 outcome, the creature is also [knocked prone](scc.v1:mcdm.heroes.v1/condition/prone) after being [pushed](scc.v1:mcdm.heroes.v1/movement/forced-movement). This replaces the benefit of Thundering I.
+
+**Vengeance II:** Whenever you use a damage-dealing ability using this weapon against a creature who has dealt damage to you since the end of your last [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), the ability deals an extra 4 damage. This replaces the benefit of Vengeance I.
 
 ###### 5th-Level Weapon Enhancements
 
@@ -21617,14 +21615,14 @@ A hero who has a kit that uses unarmed [strikes](scc.v1:mcdm.heroes.v1/rule.comb
 > - **≤11:** 7 fire damage
 > - **12-16:** 11 fire damage
 > - **17+:** 16 fire damage
->
-> **Terrifying III:** Whenever you damage a creature with an ability using this weapon and obtain a tier 3 outcome, that creature takes 6 psychic damage and is [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends). This replaces the benefit of Terrifying II.
->
-> **Thundering III:** Whenever you deal [rolled damage](scc.v1:mcdm.heroes.v1/rule.damage/rolled-damage) to a creature using this weapon, you can vertical [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) that creature up to 5 squares and knock them [prone](scc.v1:mcdm.heroes.v1/condition/prone) after the other effects of the ability resolve. If the creature takes or deals damage as a result of this movement, they also take 5 thunder damage. This replaces the benefit of Thundering II.
->
-> **Vengeance III:** Whenever you use a damage-dealing ability using this weapon against a creature who has dealt damage to you since the end of your last [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), the ability deals an extra 6 damage. This replaces the benefit of Vengeance II.
->
-> **Windcutting:** Whenever you use a [melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) [signature ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability) that usually targets one creature, you can take a [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) on the ability to target each enemy in a [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) 3 within [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance). If your [signature ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability) would usually cause its target to become [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) or [restrained](scc.v1:mcdm.heroes.v1/condition/restrained), each target in the area is instead [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) until the end of their next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn).
+
+**Terrifying III:** Whenever you damage a creature with an ability using this weapon and obtain a tier 3 outcome, that creature takes 6 psychic damage and is [frightened](scc.v1:mcdm.heroes.v1/condition/frightened) (save ends). This replaces the benefit of Terrifying II.
+
+**Thundering III:** Whenever you deal [rolled damage](scc.v1:mcdm.heroes.v1/rule.damage/rolled-damage) to a creature using this weapon, you can vertical [push](scc.v1:mcdm.heroes.v1/movement/forced-movement) that creature up to 5 squares and knock them [prone](scc.v1:mcdm.heroes.v1/condition/prone) after the other effects of the ability resolve. If the creature takes or deals damage as a result of this movement, they also take 5 thunder damage. This replaces the benefit of Thundering II.
+
+**Vengeance III:** Whenever you use a damage-dealing ability using this weapon against a creature who has dealt damage to you since the end of your last [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn), the ability deals an extra 6 damage. This replaces the benefit of Vengeance II.
+
+**Windcutting:** Whenever you use a [melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) [signature ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability) that usually targets one creature, you can take a [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) on the ability to target each enemy in a [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) 3 within [distance](scc.v1:mcdm.heroes.v1/rule.combat/distance). If your [signature ability](scc.v1:mcdm.heroes.v1/rule.combat/signature-ability) would usually cause its target to become [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed) or [restrained](scc.v1:mcdm.heroes.v1/condition/restrained), each target in the area is instead [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) until the end of their next [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn).
 
 ###### 9th-Level Weapon Enhancements
 

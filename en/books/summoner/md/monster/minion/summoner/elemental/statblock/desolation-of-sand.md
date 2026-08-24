@@ -41,6 +41,6 @@ The desolations have vaguely humanoid sand forms with no legs. Their glass hose 
 >
 > The desolation doesn't provoke [opportunity attacks](scc.v1:mcdm.heroes.v1/rule.combat/opportunity-attack) by moving.
 
-> ⭐️ **Shifting Sand Pit** 1 Essence
+> ⭐️ **Shifting Sand Pit (1 Essence)**
 >
 > When the desolation is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), the area within 1 square of the desolation becomes [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain) for enemies until the end of the encounter. You or an ally that enters the affected area can immediately [shift](scc.v1:mcdm.heroes.v1/movement/shifting) 3.

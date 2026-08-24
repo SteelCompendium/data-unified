@@ -56,38 +56,34 @@ The source starts an encounter at full [Stamina](../../../rule/health/stamina.md
 
 **Persistent 2:** The source takes another [turn](../../../rule/combat/turn.md). They are dismissed at the start of your next [turn](../../../rule/combat/turn.md).
 
+### Source of Earth {data-scc="mcdm.heroes.v1/monster.summon.elementalist.statblock/source-of-earth"}
 
-### Source of Earth Statblock
+|      Elemental      |           -            |      Level 8      |         Brute         |         EV -         |
+|:-------------------:|:----------------------:|:-----------------:|:---------------------:|:--------------------:|
+|    **2**<br>Size    |     **6**<br>Speed     | **45**<br>Stamina |  **5**<br>Stability   | **5**<br>Free Strike |
+|  **-**<br>Immunity  | **Burrow**<br>Movement |         -         | **-**<br>With Captain |  **-**<br>Weakness   |
+|   **+3**<br>Might   |   **+1**<br>Agility    | **-5**<br>Reason  |  **-5**<br>Intuition  |  **-3**<br>Presence  |
 
+> ⭐️ **Earthwalk**
 >
->**Source of Earth**
+> [Difficult terrain](../../../movement/difficult-terrain.md) composed of earth and stone doesn't cost the source extra movement.
+
+> ⭐️ **Tunneler**
 >
->|      Elemental      |           -            |      Level 8      |         BRUTE         |         EV -         |
->|:-------------------:|:----------------------:|:-----------------:|:---------------------:|:--------------------:|
->|    **2**<br>[Size](../../../rule/character/size.md)    |     **6**<br>[Speed](../../../rule/character/speed.md)     | **45**<br>[Stamina](../../../rule/health/stamina.md) |  **5**<br>[Stability](../../../rule/character/stability.md)   | **5**<br>[Free Strike](../../common/main-actions/free-strike.md) |
->| **-**<br>Immunities | **[Burrow](../../../movement/burrow.md)**<br>Movement |                   | **-**<br>With Captain | **-**<br>Weaknesses  |
->|   **+3**<br>[Might](../../../rule/character/might.md)   |   **+1**<br>[Agility](../../../rule/character/agility.md)    | **-5**<br>[Reason](../../../rule/character/reason.md)  |  **-5**<br>[Intuition](../../../rule/character/intuition.md)  |  **-3**<br>[Presence](../../../rule/character/presence.md)  |
+> When the source burrows, they create a [size](../../../rule/character/size.md) 2 tunnel.
+
+> ⭐️ **Earth Harness**
 >
->> **Earthwalk**
->>
->> [Difficult terrain](../../../movement/difficult-terrain.md) composed of earth and stone doesn't cost the source extra movement.
+> A creature that has the [Earth Accepts Me](../../ability/elementalist/level-3/earth-accepts-me.md) ability can use it as a free action to meld into the source.
+
+> 🗡 **Boulder Bash**
 >
->> **Tunneler**
->>
->> When the source burrows, they create a [size](../../../rule/character/size.md) 2 tunnel.
+> | **Melee, Ranged, Strike, Weapon** |                 **Signature** |
+> |-----------------------------------|------------------------------:|
+> | **📏 Melee 2 or ranged 10**       | **🎯 One creature or object** |
 >
->> **Earth Harness**
->>
->> A creature that has the [Earth Accepts Me](../../ability/elementalist/level-3/earth-accepts-me.md) ability can use it as a free action to meld into the source.
+> **Power Roll + 3:**
 >
->> **Boulder Bash**
->>
->> | **[Melee](../../../rule/combat/melee.md), [Ranged](../../../rule/combat/ranged.md), [Strike](../../../rule/combat/strike.md), Weapon** |                 **Signature** |
->> |-----------------------------------|------------------------------:|
->> | **📏 [Melee](../../../rule/combat/melee.md) 2 or [ranged](../../../rule/combat/ranged.md) 10**       | **🎯 One creature or object** |
->>
->> **[Power Roll](../../../rule/dice/power-roll.md) + 3:**
->>
->> - **≤11:** 5 damage; [push](../../../movement/forced-movement.md) 3
->> - **12-16:** 9 damage; [push](../../../movement/forced-movement.md) 4
->> - **17+:** 12 damage; [push](../../../movement/forced-movement.md) 5
+> - **≤11:** 5 damage; [push](../../../movement/forced-movement.md) 3
+> - **12-16:** 9 damage; [push](../../../movement/forced-movement.md) 4
+> - **17+:** 12 damage; [push](../../../movement/forced-movement.md) 5

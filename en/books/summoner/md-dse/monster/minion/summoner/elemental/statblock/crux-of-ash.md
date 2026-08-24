@@ -44,6 +44,13 @@ features:
       icon: ⭐️
       name: Soot Strike
       type: feature
+    - cost: 1 Essence
+      effects:
+        - effect: When the crux is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), the area within 1 square of the crux is clouded by ash until it is dispersed by wind. You or any ally are [concealed](scc.v1:mcdm.heroes.v1/rule.combat/concealment) while occupying an affected square. An enemy can't establish [line of effect](scc.v1:mcdm.heroes.v1/rule.combat/line-of-effect) beyond the ash while occupying an affected square.
+      feature_type: trait
+      icon: ⭐️
+      name: Ashen Cloud
+      type: feature
 flavor: The crux is a curtain of billowing hot ash with an avian head. They cover their victims in a burning cloak of charcoal and soot.
 free_strike: 5
 immunities:

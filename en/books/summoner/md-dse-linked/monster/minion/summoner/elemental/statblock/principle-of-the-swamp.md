@@ -44,6 +44,13 @@ features:
       icon: ⭐️
       name: Encroaching Strike
       type: feature
+    - cost: 1 Essence
+      effects:
+        - effect: When the principle is reduced to 0 [Stamina](../../../../../rule/health/stamina.md), the area within 1 square of the principle becomes [difficult terrain](../../../../../movement/difficult-terrain.md) for enemies until the end of the encounter. An enemy that ends their [turn](../../../../../rule/combat/turn.md) in the affected area is pulled 4 toward the center of the area.
+      feature_type: trait
+      icon: ⭐️
+      name: Sludgefoot
+      type: feature
 flavor: The manes of these equine sludge dwellers extend and hook into things like strong, fraying arms. This allows the principle of the swamp to either pull themselves onto dry land, or pull their prey into the dank depths.
 free_strike: 4
 immunities:

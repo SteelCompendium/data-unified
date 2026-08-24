@@ -44,6 +44,13 @@ features:
       icon: ⭐️
       name: Entangling Strike
       type: feature
+    - cost: 1 Essence
+      effects:
+        - effect: When the silk is reduced to 0 [Stamina](scc.v1:mcdm.heroes.v1/rule.health/stamina), they launch ribbons of webbing into an area equal to their [size](scc.v1:mcdm.heroes.v1/rule.character/size) + 1 within 5 before being destroyed. The affected area is considered [difficult terrain](scc.v1:mcdm.heroes.v1/movement/difficult-terrain) for enemies until the end of the encounter. An enemy that ends their [turn](scc.v1:mcdm.heroes.v1/rule.combat/turn) in the webbing is M < STRONG [slowed](scc.v1:mcdm.heroes.v1/condition/slowed) (EoT).
+      feature_type: trait
+      icon: ⭐️
+      name: Web
+      type: feature
 flavor: The silks are akin to baby spiders ballooning through the air on strands of webbing. They spin silk from their legs as they fly, eventually turning huge swaths of the environment into tangled web mazes.
 free_strike: 3
 immunities:
