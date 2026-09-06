@@ -12,6 +12,10 @@ content: |-
     The number of [project points](scc.v1:mcdm.heroes.v1/rule.downtime/project-points) it takes to complete this project is equal to 50 times the level of the creature who caused the affliction. If the affliction was created by an environmental or [supernatural](scc.v1:mcdm.heroes.v1/rule.general/supernatural) effect, that effect notes the [item prerequisite](scc.v1:mcdm.heroes.v1/rule.downtime/item-prerequisite) and [project points](scc.v1:mcdm.heroes.v1/rule.downtime/project-points) required to complete this project.
 
     When you complete this project, you craft one dose of an alchemical cure for the affliction. Once the project is completed, you can craft subsequent doses for the same affliction for half the number of [project points](scc.v1:mcdm.heroes.v1/rule.downtime/project-points) required for the initial project.
+item_prerequisite: Varies (see description)
 name: Find a Cure
+project_goal: Varies
+project_roll_characteristic: '[Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) or [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)'
+project_source: None
 scc: mcdm.heroes.v1/project/find-a-cure
 type: project

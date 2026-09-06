@@ -1,5 +1,9 @@
 ---
+item_prerequisite: None
 name: Fishing
+project_goal: Varies
+project_roll_characteristic: '[Agility](../rule/character/agility.md), [Reason](../rule/character/reason.md), or [Intuition](../rule/character/intuition.md)'
+project_source: None
 scc: mcdm.heroes.v1/project/fishing
 type: project
 ---

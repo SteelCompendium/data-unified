@@ -6,6 +6,7 @@ file_dpath: kit
 flavor: Armed with a simple reach weapon, often a quarterstaff, a character using the Stick and Robe kit is highly mobile thanks to their light armor. This allows your hero to make maximum use of their weapon's length.
 item_id: stick-and-robe
 item_name: Stick and Robe
+kit_type: Martial
 melee_damage_bonus: +1/+1/+1
 melee_distance_bonus: "+1"
 name: Stick and Robe

@@ -81,8 +81,7 @@ type: featureblock
 >
 > **Effect:** While the target is cursed this way, whenever they make a strike that targets only one creature, the retainer can use a free triggered action to choose a second target for the strike within its distance.
 
-###### Level 7 Role Advancement Ability
-
+> ######## Level 7 Role Advancement Ability
 >
 > 🏹 **Take Root (Encounter)**
 >

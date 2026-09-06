@@ -6,6 +6,7 @@ file_dpath: kit
 flavor: The Raider kit keeps you protected while granting you full mobility, providing a boost to speed and distance that lets you run around the battlefield like a Viking warrior.
 item_id: raider
 item_name: Raider
+kit_type: Martial
 melee_damage_bonus: +1/+1/+1
 name: Raider
 ranged_damage_bonus: +1/+1/+1

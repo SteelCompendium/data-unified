@@ -11076,7 +11076,7 @@ Choose one of the following abilities.
 
 | **Area, Psionic, [Ranged](../rule/combat/ranged.md), Telekinesis** |                             **[Main action](../rule/combat/turn.md)** |
 |----------------------------------------|--------------------------------------------:|
-| **📏 4 [cube](../rule/combat/cube.md) within 10**                | **🎯 Each creature and object in the area** |
+| **📏 4 [cube](../rule/combat/cube.md) within 10**                | **🎯 Each enemy and object in the area** |
 
 **[Power Roll](../rule/dice/power-roll.md) + [Reason](../rule/character/reason.md):**
 

@@ -1,5 +1,9 @@
 ---
+item_prerequisite: None
 name: Learn New Skill
+project_goal: "120"
+project_roll_characteristic: '[Reason](../rule/character/reason.md) or [Intuition](../rule/character/intuition.md)'
+project_source: Texts or instruction that teaches the skill you want to learn
 scc: mcdm.heroes.v1/project/learn-new-skill
 type: project
 ---

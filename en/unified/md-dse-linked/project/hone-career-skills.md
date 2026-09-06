@@ -3,7 +3,11 @@ file_basename: hone-career-skills
 file_dpath: project
 item_id: hone-career-skills
 item_name: Hone Career Skills
+item_prerequisite: None
 name: Hone Career Skills
+project_goal: 240 if your career granted you two skills, or 360 if your career granted you three skills
+project_roll_characteristic: '[Intuition](../rule/character/intuition.md)'
+project_source: None
 scc: mcdm.heroes.v1/project/hone-career-skills
 source: mcdm.heroes.v1
 type: project

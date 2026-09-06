@@ -16,6 +16,10 @@ content: |-
     This project has its own special complications. The first time you complete this project for an organization, you have a 25 percent chance of being caught. Each time you complete this project again with the same organization, the chance of being caught increases by 25 percent and the project goal increases by 30. If you are caught while going undercover, members of the organization pursue you ruthlessly as the Director determines.
 
     Additionally, while you work to complete this project, you might be called upon by the organization to complete a task you might not want to do. Failure to complete the task leads to you being caught. You can avoid the task by fleeing the organization, but this prevents you from completing the project and makes it impossible for you to undertake this project again with the same organization.
+item_prerequisite: Special
 name: Go Undercover
+project_goal: "15"
+project_roll_characteristic: '[Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition) or [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence)'
+project_source: None
 scc: mcdm.heroes.v1/project/go-undercover
 type: project

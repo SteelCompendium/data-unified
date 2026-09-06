@@ -24,8 +24,7 @@ type: title
 - *Instant Celebrity:* You earn 1 [Renown](scc.v1:mcdm.heroes.v1/rule.resource/renown).
 - *Showstopper:* You have the following ability, which can be paid for using the [Heroic Resource](scc.v1:mcdm.heroes.v1/rule.resource/heroic-resource) of your class.
 
-##### Showstopper (5 Heroic Resource)
-
+> ###### Showstopper (5 Heroic Resource)
 >
 > | **[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), Weapon** |     **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |---------------------------|--------------------:|

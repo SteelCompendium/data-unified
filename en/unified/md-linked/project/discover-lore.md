@@ -1,5 +1,9 @@
 ---
+item_prerequisite: None
 name: Discover Lore
+project_goal: Varies (see the table)
+project_roll_characteristic: '[Reason](../rule/character/reason.md)'
+project_source: Texts or knowledge related to the subject you wish to research
 scc: mcdm.heroes.v1/project/discover-lore
 type: project
 ---

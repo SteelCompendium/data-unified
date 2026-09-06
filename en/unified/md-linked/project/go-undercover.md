@@ -1,5 +1,9 @@
 ---
+item_prerequisite: Special
 name: Go Undercover
+project_goal: "15"
+project_roll_characteristic: '[Intuition](../rule/character/intuition.md) or [Presence](../rule/character/presence.md)'
+project_source: None
 scc: mcdm.heroes.v1/project/go-undercover
 type: project
 ---

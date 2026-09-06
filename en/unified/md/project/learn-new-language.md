@@ -1,5 +1,9 @@
 ---
+item_prerequisite: None
 name: Learn New Language
+project_goal: "120"
+project_roll_characteristic: '[Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) or [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)'
+project_source: Texts or instruction that teaches the language you want to learn
 scc: mcdm.heroes.v1/project/learn-new-language
 type: project
 ---

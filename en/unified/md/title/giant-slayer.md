@@ -17,8 +17,7 @@ type: title
 - *Smallfolk Dodge:* Any creature of [size](scc.v1:mcdm.heroes.v1/rule.character/size) 2 or larger takes a [bane](scc.v1:mcdm.heroes.v1/rule.dice/bane) on [strikes](scc.v1:mcdm.heroes.v1/rule.combat/strike) against you.
 - *The Harder They Fall:* You have the following ability, which can be paid for using the [Heroic Resource](scc.v1:mcdm.heroes.v1/rule.resource/heroic-resource) of your class.
 
-##### The Harder They Fall (7 Heroic Resource)
-
+> ###### The Harder They Fall (7 Heroic Resource)
 >
 > | **[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), Weapon** |     **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 > |---------------------------|--------------------:|

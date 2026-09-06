@@ -6,6 +6,7 @@ file_dpath: kit
 flavor: The Dual Wielder kit is for folks who want to excel at using two weapons at the same time. Your fighting style maximizes the power of each weapon you have in hand, making you a whirling dealer of death.
 item_id: dual-wielder
 item_name: Dual Wielder
+kit_type: Martial
 melee_damage_bonus: +2/+2/+2
 name: Dual Wielder
 scc: mcdm.heroes.v1/kit/dual-wielder

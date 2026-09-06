@@ -3,7 +3,11 @@ file_basename: spend-time-with-loved-ones
 file_dpath: project
 item_id: spend-time-with-loved-ones
 item_name: Spend Time With Loved Ones
+item_prerequisite: None
 name: Spend Time With Loved Ones
+project_goal: "60"
+project_roll_characteristic: '[Presence](../rule/character/presence.md)'
+project_source: None
 scc: mcdm.heroes.v1/project/spend-time-with-loved-ones
 source: mcdm.heroes.v1
 type: project

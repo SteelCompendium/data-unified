@@ -1,5 +1,9 @@
 ---
+item_prerequisite: None
 name: Hone Career Skills
+project_goal: 240 if your career granted you two skills, or 360 if your career granted you three skills
+project_roll_characteristic: '[Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)'
+project_source: None
 scc: mcdm.heroes.v1/project/hone-career-skills
 type: project
 ---

@@ -3,7 +3,11 @@ file_basename: community-service
 file_dpath: project
 item_id: community-service
 item_name: Community Service
+item_prerequisite: None
 name: Community Service
+project_goal: "75"
+project_roll_characteristic: Varies
+project_source: None
 scc: mcdm.heroes.v1/project/community-service
 source: mcdm.heroes.v1
 type: project

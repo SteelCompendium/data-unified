@@ -1,5 +1,9 @@
 ---
+item_prerequisite: None
 name: Community Service
+project_goal: "75"
+project_roll_characteristic: Varies
+project_source: None
 scc: mcdm.heroes.v1/project/community-service
 type: project
 ---

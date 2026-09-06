@@ -21,8 +21,7 @@ type: title
 
 - *Charge!:* You have the following ability, which can be paid for using the [Heroic Resource](scc.v1:mcdm.heroes.v1/rule.resource/heroic-resource) of your class.
 
-##### Charge! (9 Heroic Resource)
-
+> ###### Charge! (9 Heroic Resource)
 >
 > *Follow me!*
 >

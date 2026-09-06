@@ -1,5 +1,9 @@
 ---
+item_prerequisite: Varies (see description)
 name: Find a Cure
+project_goal: Varies
+project_roll_characteristic: '[Reason](../rule/character/reason.md) or [Intuition](../rule/character/intuition.md)'
+project_source: None
 scc: mcdm.heroes.v1/project/find-a-cure
 type: project
 ---

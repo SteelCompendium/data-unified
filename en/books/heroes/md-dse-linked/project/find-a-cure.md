@@ -3,7 +3,11 @@ file_basename: find-a-cure
 file_dpath: project
 item_id: find-a-cure
 item_name: Find a Cure
+item_prerequisite: Varies (see description)
 name: Find a Cure
+project_goal: Varies
+project_roll_characteristic: '[Reason](../rule/character/reason.md) or [Intuition](../rule/character/intuition.md)'
+project_source: None
 scc: mcdm.heroes.v1/project/find-a-cure
 source: mcdm.heroes.v1
 type: project

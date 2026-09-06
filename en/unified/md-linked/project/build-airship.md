@@ -1,5 +1,9 @@
 ---
+item_prerequisite: Wind Crystal of Quintessence
 name: Build Airship
+project_goal: 3,000
+project_roll_characteristic: '[Might](../rule/character/might.md), [Reason](../rule/character/reason.md), or [Presence](../rule/character/presence.md)'
+project_source: Texts or lore in Low Rhyvian
 scc: mcdm.heroes.v1/project/build-airship
 type: project
 ---

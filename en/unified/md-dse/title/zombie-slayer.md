@@ -23,8 +23,7 @@ type: title
 - *Divine Health:* You gain corruption immunity equal to your highest [characteristic](scc.v1:mcdm.heroes.v1/rule.character/characteristic) score. Additionally, you can't be turned into an undead creature.
 - *Holy Terror:* You have the following ability, which can be paid for using the [Heroic Resource](scc.v1:mcdm.heroes.v1/rule.resource/heroic-resource) of your class.
 
-##### Holy Terror (3 Heroic Resource)
-
+> ###### Holy Terror (3 Heroic Resource)
 >
 > *Return to your grave!*
 >

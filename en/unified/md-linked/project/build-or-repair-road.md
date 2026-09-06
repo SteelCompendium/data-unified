@@ -1,5 +1,9 @@
 ---
+item_prerequisite: Three writs of approval, from an engineers' guild, a masons' guild, and a guards' guild
 name: Build or Repair Road
+project_goal: Varies
+project_roll_characteristic: '[Might](../rule/character/might.md), [Reason](../rule/character/reason.md), or [Presence](../rule/character/presence.md)'
+project_source: Texts or lore in Caelian
 scc: mcdm.heroes.v1/project/build-or-repair-road
 type: project
 ---

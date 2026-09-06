@@ -1,6 +1,7 @@
 {
   "content": "With this stormwight kit, you channel your [primordial ferocity](scc.v1:mcdm.heroes.v1/feature.fury.level-10/primordial-ferocity) into the form of a bear, becoming large, durable, and imposing. [Boren](scc.v1:mcdm.heroes.v1/kit/boren) are tied to the craggy, rocky north, and this aspect is associated with the blizzard's bitter cold.\n\n##### Signature Ability\n\n###### Bear Claws\n\n*Attacks with your sharp and deadly claws grab the weak.*\n\n| **[Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee), [Strike](scc.v1:mcdm.heroes.v1/rule.combat/strike), Weapon** |               **Main action** |\n|---------------------------|------------------------------:|\n| **📏 [Melee](scc.v1:mcdm.heroes.v1/rule.combat/melee) 1**            | **🎯 One creature or object** |\n\n**[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Might](scc.v1:mcdm.heroes.v1/rule.character/might):**\n\n- **≤11:** 2 + M damage; M \u003c WEAK, [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)\n- **12-16:** 5 + M damage; M \u003c AVERAGE, [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)\n- **17+:** 11 + M damage; M \u003c STRONG, [grabbed](scc.v1:mcdm.heroes.v1/condition/grabbed)",
   "flavor": "With this stormwight kit, you channel your primordial ferocity into the form of a bear, becoming large, durable, and imposing. Boren are tied to the craggy, rocky north, and this aspect is associated with the blizzard's bitter cold.",
+  "kit_type": "Martial",
   "name": "Boren",
   "scc": "mcdm.heroes.v1/kit/boren",
   "signature_ability": {

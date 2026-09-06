@@ -3,7 +3,11 @@ file_basename: fishing
 file_dpath: project
 item_id: fishing
 item_name: Fishing
+item_prerequisite: None
 name: Fishing
+project_goal: Varies
+project_roll_characteristic: '[Agility](scc.v1:mcdm.heroes.v1/rule.character/agility), [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason), or [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)'
+project_source: None
 scc: mcdm.heroes.v1/project/fishing
 source: mcdm.heroes.v1
 type: project

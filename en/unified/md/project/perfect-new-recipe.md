@@ -1,5 +1,9 @@
 ---
+item_prerequisite: Varies
 name: Perfect New Recipe
+project_goal: "100"
+project_roll_characteristic: '[Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) or [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)'
+project_source: A recipe in a language you know, or someone who can tutor you in that recipe
 scc: mcdm.heroes.v1/project/perfect-new-recipe
 type: project
 ---

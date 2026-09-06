@@ -6,6 +6,7 @@ file_dpath: kit
 flavor: The retiarius is often depicted as a lightly armored warrior with a net in one hand and a trident in the other, and this kit gives you the equipment and fighting technique to make that happen. Tie up your foe with a net and then poke them to death!
 item_id: retiarius
 item_name: Retiarius
+kit_type: Martial
 melee_damage_bonus: +2/+2/+2
 melee_distance_bonus: "+1"
 name: Retiarius

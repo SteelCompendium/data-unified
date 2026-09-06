@@ -5,6 +5,7 @@ file_dpath: kit
 flavor: The Guisarmier kit is for those who want to use a polearm for extended reach while remaining protected by sturdy armor. This is the kit that allows you to become the ultimate halberd, longspear, or glaive fighter.
 item_id: guisarmier
 item_name: Guisarmier
+kit_type: Martial
 melee_damage_bonus: +2/+2/+2
 melee_distance_bonus: "+1"
 name: Guisarmier

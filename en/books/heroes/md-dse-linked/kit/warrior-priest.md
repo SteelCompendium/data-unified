@@ -5,6 +5,7 @@ file_dpath: kit
 flavor: The Warrior Priest kit imbues the power of the gods into your weapon, making it a smiting instrument. You wade into the fray without fear, thanks to the power of the divine... and the heavy armor you wear.
 item_id: warrior-priest
 item_name: Warrior Priest
+kit_type: Magic
 melee_damage_bonus: +1/+1/+1
 name: Warrior Priest
 scc: mcdm.heroes.v1/kit/warrior-priest

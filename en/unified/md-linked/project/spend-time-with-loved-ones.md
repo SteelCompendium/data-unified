@@ -1,5 +1,9 @@
 ---
+item_prerequisite: None
 name: Spend Time With Loved Ones
+project_goal: "60"
+project_roll_characteristic: '[Presence](../rule/character/presence.md)'
+project_source: None
 scc: mcdm.heroes.v1/project/spend-time-with-loved-ones
 type: project
 ---

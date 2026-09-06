@@ -6,6 +6,7 @@ file_dpath: kit
 flavor: The Ranger kit outfits you with medium armor and weapons for every challenge, letting you easily switch between melee and ranged combat. This kit provides a good balance of bonuses to defense and offense to create a hero who is a jack-of-all-trades.
 item_id: ranger
 item_name: Ranger
+kit_type: Martial
 melee_damage_bonus: +1/+1/+1
 name: Ranger
 ranged_damage_bonus: +1/+1/+1

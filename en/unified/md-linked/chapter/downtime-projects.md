@@ -577,8 +577,7 @@ A hero who has a kit that uses unarmed [strikes](../rule/combat/strike.md), such
 
 **Chargebreaker:** While you wield this weapon, you have the following ability.
 
-###### Stop Right There
-
+> ###### Stop Right There
 >
 > *Their momentum, your impact.*
 >
@@ -644,8 +643,7 @@ A hero who has a kit that uses unarmed [strikes](../rule/combat/strike.md), such
 
 **Nova:** Whenever you damage a creature using this weapon, each enemy [adjacent](../rule/combat/adjacent.md) to you takes damage based on the [tier outcome](../rule/dice/tier-outcome.md) of the [power roll](../rule/dice/power-roll.md)-2 damage for tier 1, 6 for tier 2, or 10 for tier 3. Additionally, while you are [winded](../rule/health/winded.md), you have the following ability.
 
-###### Nova
-
+> ###### Nova
 >
 > *I am an eternal flame, baby!*
 >

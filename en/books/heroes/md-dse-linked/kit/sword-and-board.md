@@ -6,6 +6,7 @@ file_dpath: kit
 flavor: The Sword and Board kit doesn't just give you a shield—it makes the shield part of your offensive arsenal. With a medium weapon in one hand and a block of steel or solid oak in the other, you protect yourself while you control the battlefield.
 item_id: sword-and-board
 item_name: Sword and Board
+kit_type: Martial
 melee_damage_bonus: +2/+2/+2
 name: Sword and Board
 scc: mcdm.heroes.v1/kit/sword-and-board

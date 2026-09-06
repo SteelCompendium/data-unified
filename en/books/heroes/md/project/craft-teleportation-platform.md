@@ -1,5 +1,9 @@
 ---
+item_prerequisite: One spatial navigator
 name: Craft Teleportation Platform
+project_goal: 1,500
+project_roll_characteristic: '[Reason](scc.v1:mcdm.heroes.v1/rule.character/reason)'
+project_source: Texts or lore in Voll
 scc: mcdm.heroes.v1/project/craft-teleportation-platform
 type: project
 ---

@@ -3,7 +3,11 @@ file_basename: go-undercover
 file_dpath: project
 item_id: go-undercover
 item_name: Go Undercover
+item_prerequisite: Special
 name: Go Undercover
+project_goal: "15"
+project_roll_characteristic: '[Intuition](../rule/character/intuition.md) or [Presence](../rule/character/presence.md)'
+project_source: None
 scc: mcdm.heroes.v1/project/go-undercover
 source: mcdm.heroes.v1
 type: project

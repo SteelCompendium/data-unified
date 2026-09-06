@@ -37,6 +37,10 @@ content: |-
     | 8   | Before the roll, a new engineer arrives with specialist experience such as building sturdy wooden bridges, using bilge pumps to keep rainwater from slowing the work, and so forth. They want to work on the project, but insist on receiving a [consumable](scc.v1:mcdm.heroes.v1/rule.treasure/consumable) treasure first. If they are hired, the project gains an automatic breakthrough.                                                                                                                |
     | 9   | Before the roll, the proposed road touches on a [supernatural](scc.v1:mcdm.heroes.v1/rule.general/supernatural) intersection—a crossing place between multiple worlds that draws interest from a powerful [devil](scc.v1:mcdm.heroes.v1/ancestry/devil). The completion of the project becomes the personal interest of this being, who offers to increase progress—but demands a future favor from the hero. If the deal is accepted, each [project roll](scc.v1:mcdm.heroes.v1/rule.downtime/project-roll) for the project is doubled until its completion.                                            |
     | 10  | After the roll, a guildmaster has it out for the hero. Whether from a past conflict or something about the way this project has unfolded, the guildmaster has made it their mission to hinder the project by dragging the hero's name through the mud. The hero's [renown](scc.v1:mcdm.heroes.v1/rule.resource/renown) is treated as 1 less than usual while these rumors persist.                                                                                                                      |
+item_prerequisite: Three writs of approval, from an engineers' guild, a masons' guild, and a guards' guild
 name: Build or Repair Road
+project_goal: Varies
+project_roll_characteristic: '[Might](scc.v1:mcdm.heroes.v1/rule.character/might), [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason), or [Presence](scc.v1:mcdm.heroes.v1/rule.character/presence)'
+project_source: Texts or lore in Caelian
 scc: mcdm.heroes.v1/project/build-or-repair-road
 type: project

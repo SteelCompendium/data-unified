@@ -3,7 +3,11 @@ file_basename: learn-new-skill
 file_dpath: project
 item_id: learn-new-skill
 item_name: Learn New Skill
+item_prerequisite: None
 name: Learn New Skill
+project_goal: "120"
+project_roll_characteristic: '[Reason](scc.v1:mcdm.heroes.v1/rule.character/reason) or [Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)'
+project_source: Texts or instruction that teaches the skill you want to learn
 scc: mcdm.heroes.v1/project/learn-new-skill
 source: mcdm.heroes.v1
 type: project

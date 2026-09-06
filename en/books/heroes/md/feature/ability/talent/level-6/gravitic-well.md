@@ -23,7 +23,7 @@ name: Gravitic Well
 power_roll_characteristic: '[Reason](scc.v1:mcdm.heroes.v1/rule.character/reason)'
 scc: mcdm.heroes.v1/feature.ability.talent.level-6/gravitic-well
 subclass: telekinesis
-target: Each creature and object in the area
+target: Each enemy and object in the area
 tier1: 6 damage; vertical [pull](scc.v1:mcdm.heroes.v1/movement/forced-movement) 5 toward the center of the area
 tier2: 9 damage; vertical [pull](scc.v1:mcdm.heroes.v1/movement/forced-movement) 7 toward the center of the area
 tier3: 13 damage; vertical [pull](scc.v1:mcdm.heroes.v1/movement/forced-movement) 10 toward the center of the area
@@ -35,7 +35,7 @@ type: ability
 
 | **Area, Psionic, [Ranged](scc.v1:mcdm.heroes.v1/rule.combat/ranged), Telekinesis** |                             **[Main action](scc.v1:mcdm.heroes.v1/rule.combat/turn)** |
 |----------------------------------------|--------------------------------------------:|
-| **📏 4 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 10**                | **🎯 Each creature and object in the area** |
+| **📏 4 [cube](scc.v1:mcdm.heroes.v1/rule.combat/cube) within 10**                | **🎯 Each enemy and object in the area** |
 
 **[Power Roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll) + [Reason](scc.v1:mcdm.heroes.v1/rule.character/reason):**
 

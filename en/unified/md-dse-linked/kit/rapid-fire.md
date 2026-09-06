@@ -6,6 +6,7 @@ file_dpath: kit
 flavor: The Rapid-Fire kit is for archers who want to deal maximum damage by shooting as many arrows as possible into nearby enemies. With this kit, your fighting technique focuses on peppering foes before they can get close enough to counterattack.
 item_id: rapid-fire
 item_name: Rapid-Fire
+kit_type: Martial
 name: Rapid-Fire
 ranged_damage_bonus: +2/+2/+2
 ranged_distance_bonus: "+7"

@@ -23,6 +23,10 @@ content: |-
     | 8   | After the roll, the hero strangely feels 5 years younger. Any character familiar with psionics recognizes the phenomena as a chrono-anomaly. The hero grows younger each time they make progress on the project—but will cease to exist if they complete the project without first finding and stopping the source of the anomaly.                                                                                    |
     | 9   | Before the roll, the hero stumbles upon an old memento from when they worked their former career. They can choose between gaining an automatic breakthrough on the [project roll](scc.v1:mcdm.heroes.v1/rule.downtime/project-roll) or gaining a [hero token](scc.v1:mcdm.heroes.v1/rule.resource/hero-token).                                                                                                                                                                                                              |
     | 10  | After the roll, the hero gets back into the rhythm of their former career. They can make two additional [project rolls](scc.v1:mcdm.heroes.v1/rule.downtime/project-roll).                                                                                                                                                                                                                                                                                                |
+item_prerequisite: None
 name: Hone Career Skills
+project_goal: 240 if your career granted you two skills, or 360 if your career granted you three skills
+project_roll_characteristic: '[Intuition](scc.v1:mcdm.heroes.v1/rule.character/intuition)'
+project_source: None
 scc: mcdm.heroes.v1/project/hone-career-skills
 type: project

@@ -1119,8 +1119,7 @@ While the eyes circle your head, you can use a maneuver to launch up to three of
 
 Additionally, you have the following ability.
 
-###### Hallucination Field
-
+> ###### Hallucination Field
 >
 > *A blanket of illusion twists around you and your allies, making you seem as if you belong wherever you are.*
 >
@@ -1148,8 +1147,7 @@ Additionally, you have the following ability.
 
 Additionally, you have the following ability.
 
-###### Nullring Strike
-
+> ###### Nullring Strike
 >
 > *Your punch delivers a devastating burst of psionic energy.*
 >
@@ -2270,8 +2268,7 @@ At a dramatic moment determined by the Director, you rejoin your party with an e
 
 - *Come Out to Play:* You have the following ability, which can be paid for using the [Heroic Resource](../rule/resource/heroic-resource.md) of your class.
 
-##### Come Out to Play (1 Heroic Resource)
-
+> ###### Come Out to Play (1 Heroic Resource)
 >
 > *Come out to play—yay!*
 >
@@ -2349,8 +2346,7 @@ The Director chooses one of the following benefits, based on the fate your capto
 - *Divine Health:* You gain corruption immunity equal to your highest [characteristic](../rule/character/characteristic.md) score. Additionally, you can't be turned into an undead creature.
 - *Holy Terror:* You have the following ability, which can be paid for using the [Heroic Resource](../rule/resource/heroic-resource.md) of your class.
 
-##### Holy Terror (3 Heroic Resource)
-
+> ###### Holy Terror (3 Heroic Resource)
 >
 > *Return to your grave!*
 >
@@ -2377,8 +2373,7 @@ Titles suitable for 2nd-[echelon](../rule/general/echelon.md) characters are pre
 - *Instant Celebrity:* You earn 1 [Renown](../rule/resource/renown.md).
 - *Showstopper:* You have the following ability, which can be paid for using the [Heroic Resource](../rule/resource/heroic-resource.md) of your class.
 
-##### Showstopper (5 Heroic Resource)
-
+> ###### Showstopper (5 Heroic Resource)
 >
 > | **[Melee](../rule/combat/melee.md), [Strike](../rule/combat/strike.md), Weapon** |     **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------:|
@@ -2414,8 +2409,7 @@ Titles suitable for 2nd-[echelon](../rule/general/echelon.md) characters are pre
 
 - *Charge!:* You have the following ability, which can be paid for using the [Heroic Resource](../rule/resource/heroic-resource.md) of your class.
 
-##### Charge! (9 Heroic Resource)
-
+> ###### Charge! (9 Heroic Resource)
 >
 > *Follow me!*
 >
@@ -2487,8 +2481,7 @@ Titles suitable for 2nd-[echelon](../rule/general/echelon.md) characters are pre
 - *Smallfolk Dodge:* Any creature of [size](../rule/character/size.md) 2 or larger takes a [bane](../rule/dice/bane.md) on [strikes](../rule/combat/strike.md) against you.
 - *The Harder They Fall:* You have the following ability, which can be paid for using the [Heroic Resource](../rule/resource/heroic-resource.md) of your class.
 
-##### The Harder They Fall (7 Heroic Resource)
-
+> ###### The Harder They Fall (7 Heroic Resource)
 >
 > | **[Melee](../rule/combat/melee.md), [Strike](../rule/combat/strike.md), Weapon** |     **[Main action](../rule/combat/turn.md)** |
 > |---------------------------|--------------------:|
@@ -2528,8 +2521,7 @@ Titles suitable for 2nd-[echelon](../rule/general/echelon.md) characters are pre
 - *Sneakers:* You gain the Sneak skill. If you already have this skill, you instead gain an [edge](../rule/dice/edge.md) on [tests](../rule/test/test.md) made using the Sneak skill. During [group tests](../rule/test/group-test.md), you can both use the Sneak skill and assist another hero using the Sneak skill.
 - *Timely Distraction:* You have the following [triggered action](../rule/combat/triggered-action.md).
 
-##### Timely Distraction
-
+> ###### Timely Distraction
 >
 > *Coming through with hot soup!<br/>I better watch out for that banana peel!*
 >
@@ -2553,8 +2545,7 @@ Titles suitable for 2nd-[echelon](../rule/general/echelon.md) characters are pre
 - *Knightly Aegis:* Your [Stamina](../rule/health/stamina.md) maximum increases by 6.
 - *Knightly Challenge:* You have the following ability, which can be paid for using the [Heroic Resource](../rule/resource/heroic-resource.md) of your class.
 
-##### Knightly Challenge (5 Heroic Resource)
-
+> ###### Knightly Challenge (5 Heroic Resource)
 >
 > *Have at thee!*
 >
@@ -2731,8 +2722,7 @@ Titles suitable for 3rd-[echelon](../rule/general/echelon.md) characters are pre
 - *Angelic Chorus:* You can use the lessons of musical improvisation in combat. Choose one class act [triggered action](../rule/combat/triggered-action.md) from the [troubadour](../class/troubadour.md) class. You gain that ability regardless of whether your class and [subclass](../rule/general/subclass.md) allow you to take it. If this ability allows you to gain or spend drama, you can gain or spend the [Heroic Resource](../rule/resource/heroic-resource.md) of your class in place of drama.
 - *Devil's Opera:* You have the following ability, which can be paid for using the [Heroic Resource](../rule/resource/heroic-resource.md) of your class.
 
-##### The Devil's Chord (9 Heroic Resource)
-
+> ###### The Devil's Chord (9 Heroic Resource)
 >
 > *Helloooo [Orden](../rule/world/orden.md)!*
 >

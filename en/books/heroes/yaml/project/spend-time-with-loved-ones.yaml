@@ -23,6 +23,10 @@ content: |-
     | 8   | Before the roll, the hero discovers that by returning, they've put the community surrounding their loved ones in danger, either with the authorities or an opposing power in the region. To complete the project, the hero needs to earn the trust of that community.                                                                                                           |
     | 9   | After the roll, the hero learns that spending time with loved ones isn't always as rejuvenating as one hopes. Completing the project requires an additional 20 [project points](scc.v1:mcdm.heroes.v1/rule.downtime/project-points) thanks to difficult friends or relatives.                                                                                                                                                         |
     | 10  | Before the roll, the hero's loved ones ask if the hero would like to cook with them. If the hero accepts, they can apply their [project roll](scc.v1:mcdm.heroes.v1/rule.downtime/project-roll) both to this project and to the Perfect New Recipe project. If the hero is not currently undertaking the Perfect New Recipe project, they start that project and their loved ones provide the [item prerequisite](scc.v1:mcdm.heroes.v1/rule.downtime/item-prerequisite) and [project source](scc.v1:mcdm.heroes.v1/rule.downtime/project-source). |
+item_prerequisite: None
 name: Spend Time With Loved Ones
+project_goal: "60"
+project_roll_characteristic: '[Presence](scc.v1:mcdm.heroes.v1/rule.character/presence)'
+project_source: None
 scc: mcdm.heroes.v1/project/spend-time-with-loved-ones
 type: project

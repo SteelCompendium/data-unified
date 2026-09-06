@@ -35,6 +35,10 @@ content: |-
     ##### Forbidden Knowledge
 
     Forbidden knowledge is lore that a powerful individual or organization is attempting to keep secret. Those who know the secrets speak of them in whispered codes after passwords are exchanged, and write texts using ciphers. Hunting down leads and making sense of them typically takes weeks. The location of the dagger that slit the throat of the god of death is hidden behind layers of encoded text and written in a dead language known only to that god's most devout [followers](scc.v1:mcdm.heroes.v1/rule.general/follower).
+item_prerequisite: None
 name: Discover Lore
+project_goal: Varies (see the table)
+project_roll_characteristic: '[Reason](scc.v1:mcdm.heroes.v1/rule.character/reason)'
+project_source: Texts or knowledge related to the subject you wish to research
 scc: mcdm.heroes.v1/project/discover-lore
 type: project

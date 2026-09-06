@@ -18,8 +18,7 @@ type: title
 - *Sneakers:* You gain the Sneak skill. If you already have this skill, you instead gain an [edge](scc.v1:mcdm.heroes.v1/rule.dice/edge) on [tests](scc.v1:mcdm.heroes.v1/rule.test/test) made using the Sneak skill. During [group tests](scc.v1:mcdm.heroes.v1/rule.test/group-test), you can both use the Sneak skill and assist another hero using the Sneak skill.
 - *Timely Distraction:* You have the following [triggered action](scc.v1:mcdm.heroes.v1/rule.combat/triggered-action).
 
-##### Timely Distraction
-
+> ###### Timely Distraction
 >
 > *Coming through with hot soup!<br/>I better watch out for that banana peel!*
 >

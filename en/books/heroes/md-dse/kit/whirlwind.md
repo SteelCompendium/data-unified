@@ -6,6 +6,7 @@ file_dpath: kit
 flavor: The Whirlwind kit makes effective use of whips, granting you mobility, damage, and reach. If you want to be a fast-moving warrior who lashes foes with a chain or whip, then this is the kit for you.
 item_id: whirlwind
 item_name: Whirlwind
+kit_type: Martial
 melee_damage_bonus: +1/+1/+1
 melee_distance_bonus: "+1"
 name: Whirlwind

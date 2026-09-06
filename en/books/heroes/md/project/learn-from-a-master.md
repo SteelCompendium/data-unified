@@ -1,5 +1,9 @@
 ---
+item_prerequisite: None
 name: Learn From a Master
+project_goal: Varies
+project_roll_characteristic: Your highest [characteristic](scc.v1:mcdm.heroes.v1/rule.character/characteristic)
+project_source: An [NPC](scc.v1:mcdm.heroes.v1/rule.general/npc) of a higher level, or records of such an [NPC](scc.v1:mcdm.heroes.v1/rule.general/npc)'s teachings in a language you know
 scc: mcdm.heroes.v1/project/learn-from-a-master
 type: project
 ---

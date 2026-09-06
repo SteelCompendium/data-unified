@@ -1,6 +1,7 @@
 ---
 equipment_text: You wear heavy armor and wield a shield and a medium weapon.
 flavor: The Shining Armor kit provides the most protection a kit can afford, providing you with the sword, shield, and armor necessary to play the prototypical knight.
+kit_type: Martial
 melee_damage_bonus: +2/+2/+2
 name: Shining Armor
 scc: mcdm.heroes.v1/kit/shining-armor

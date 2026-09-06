@@ -81,8 +81,7 @@ A hero who has a kit that uses unarmed [strikes](scc.v1:mcdm.heroes.v1/rule.comb
 
 **Chargebreaker:** While you wield this weapon, you have the following ability.
 
-###### Stop Right There
-
+> ###### Stop Right There
 >
 > *Their momentum, your impact.*
 >
@@ -148,8 +147,7 @@ A hero who has a kit that uses unarmed [strikes](scc.v1:mcdm.heroes.v1/rule.comb
 
 **Nova:** Whenever you damage a creature using this weapon, each enemy [adjacent](scc.v1:mcdm.heroes.v1/rule.combat/adjacent) to you takes damage based on the [tier outcome](scc.v1:mcdm.heroes.v1/rule.dice/tier-outcome) of the [power roll](scc.v1:mcdm.heroes.v1/rule.dice/power-roll)-2 damage for tier 1, 6 for tier 2, or 10 for tier 3. Additionally, while you are [winded](scc.v1:mcdm.heroes.v1/rule.health/winded), you have the following ability.
 
-###### Nova
-
+> ###### Nova
 >
 > *I am an eternal flame, baby!*
 >

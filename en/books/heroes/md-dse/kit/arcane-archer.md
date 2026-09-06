@@ -6,6 +6,7 @@ file_dpath: kit
 flavor: The Arcane Archer kit allows you to combine magic and ranged weapon strikes. Your lack of armor keeps you mobile, and your magic makes your arrows explode to devastate your foes.
 item_id: arcane-archer
 item_name: Arcane Archer
+kit_type: Magic
 name: Arcane Archer
 ranged_damage_bonus: +2/+2/+2
 ranged_distance_bonus: "+10"

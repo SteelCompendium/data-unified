@@ -3,7 +3,11 @@ file_basename: learn-from-a-master
 file_dpath: project
 item_id: learn-from-a-master
 item_name: Learn From a Master
+item_prerequisite: None
 name: Learn From a Master
+project_goal: Varies
+project_roll_characteristic: Your highest [characteristic](../rule/character/characteristic.md)
+project_source: An [NPC](../rule/general/npc.md) of a higher level, or records of such an [NPC](../rule/general/npc.md)'s teachings in a language you know
 scc: mcdm.heroes.v1/project/learn-from-a-master
 source: mcdm.heroes.v1
 type: project
